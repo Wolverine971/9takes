@@ -26,7 +26,7 @@
 	};
 
 	// Dynamically calculate font size based on text length
-	$: fontSize = calculateFontSize(question.question);
+	$: fontSize = question.question ? calculateFontSize(question.question) : '2rem';
 
 	function calculateFontSize(text: string): string {
 		// Define breakpoints for font sizing

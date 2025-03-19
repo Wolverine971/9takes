@@ -344,7 +344,6 @@
 					on:blur={() => (hoveredType = null)}
 					on:click={() => handleTypeClick(type.id)}
 					tabindex="0"
-					role="link"
 					aria-label={`Enneagram Type ${type.id}: ${type.name}`}
 				>
 					<span class="text-sm font-bold text-white md:text-base">{type.id}</span>

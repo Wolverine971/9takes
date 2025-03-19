@@ -3,7 +3,6 @@
 	import { browser, dev } from '$app/environment';
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
-	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	import type { PageData } from './$types';
 	import { webVitals } from '$lib/vitals';
 	import { preparePageTransition } from '$lib/page-transition';
@@ -76,6 +75,8 @@
 
 	const initFingerprint = async () => {
 		try {
+			// Lazy load FingerprintJS only when needed
+			const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
 			const fp = await FingerprintJS.load();
 			const { visitorId } = await fp.get();
 
@@ -94,7 +95,7 @@
 		}
 	};
 
-	// Handle swipe gestures for navigation
+	// Handle swipe gestures for navigation with passive event options
 	const handleTouchStart = (e) => {
 		touchStartX = e.changedTouches[0].screenX;
 	};
@@ -117,35 +118,58 @@
 		}
 	};
 
-	// Handle scroll events for header visibility
+	// Throttled scroll handler for improved performance
 	const handleScroll = () => {
+		// Only process scroll events at most once every 100ms for better performance
 		if (!ticking && isHomePage) {
+			ticking = true;
+
+			// Use requestAnimationFrame to align with browser rendering cycle
 			window.requestAnimationFrame(() => {
-				// Use simpler logic - just check if we're scrolled down enough
-				// This prevents "jumpy" behavior from too many state changes
-				if (scrollY > 100) {
+				// Simplified visibility logic to reduce state changes
+				if (scrollY > 100 && !headerVisible) {
 					headerVisible = true;
-				} else if (scrollY < 50) {
+				} else if (scrollY < 50 && headerVisible) {
 					headerVisible = false;
 				}
 
 				lastScrollY = scrollY;
-				ticking = false;
-			});
 
-			ticking = true;
+				// Reset throttle after 100ms
+				setTimeout(() => {
+					ticking = false;
+				}, 100);
+			});
 		}
 	};
 
 	onMount(() => {
 		initAnalytics();
-		initFingerprint();
+
+		// Defer fingerprint initialization
+		if (browser) {
+			// Use requestIdleCallback to wait for browser idle time if available,
+			// or setTimeout as a fallback
+			if ('requestIdleCallback' in window) {
+				(window as any).requestIdleCallback(
+					() => {
+						initFingerprint();
+					},
+					{ timeout: 2000 }
+				);
+			} else {
+				setTimeout(() => {
+					initFingerprint();
+				}, 2000);
+			}
+		}
 
 		// Update mobile status based on window width
 		updateMobileStatus();
 
-		// Add scroll event listener
+		// Add optimized event listeners with passive flag
 		if (browser) {
+			// Passive flag improves scrolling performance
 			window.addEventListener('scroll', handleScroll, { passive: true });
 		}
 
@@ -164,8 +188,6 @@
 		};
 	});
 
-	// Add some spacing to compensate for header height when it becomes visible
-	// This helps prevent content jumps when the header appears
 	// Update mobile status when window resizes
 	const updateMobileStatus = () => {
 		isMobile = innerWidth <= 768;
@@ -227,8 +249,8 @@
 {:else}
 	<div
 		class="flex min-h-screen w-full flex-col"
-		on:touchstart={handleTouchStart}
-		on:touchend={handleTouchEnd}
+		on:touchstart|passive={handleTouchStart}
+		on:touchend|passive={handleTouchEnd}
 	>
 		<div
 			class="sticky top-0 z-40 -translate-y-full transform transition-transform duration-300 ease-in-out"
