@@ -41,10 +41,10 @@
 
 <svelte:window bind:innerWidth />
 
-<header class="relative z-50 bg-white px-8 shadow">
+<header class="relative z-50 bg-white shadow">
 	{#if isMobile}
 		<!-- Mobile Header -->
-		<div class="flex h-[62px] items-center justify-between">
+		<div class="flex h-16 items-center justify-between px-4">
 			<MobileNav {navItems} {blogItems} />
 
 			<a
@@ -80,18 +80,16 @@
 		</div>
 	{:else}
 		<!-- Desktop Navigation -->
-		<nav class="relative flex h-[62px] items-center justify-between">
+		<nav class="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-8">
 			<!-- Logo & Brand -->
 			<a href="/" class="flex items-center no-underline" aria-label="Home">
-				<div>
-					<img
-						src="/brand/aero.png"
-						alt="9takes Logo"
-						height="60"
-						width="60"
-						class="transition-transform duration-200 hover:scale-110"
-					/>
-				</div>
+				<img
+					src="/brand/aero.png"
+					alt="9takes Logo"
+					height="60"
+					width="60"
+					class="transition-transform duration-200 hover:scale-110"
+				/>
 				<span class="ml-2 w-[75px] text-2xl font-bold text-gray-800">
 					{!isHomePage ? '9takes' : ' '}
 				</span>
@@ -103,7 +101,7 @@
 					{#each navItems as { href, label }}
 						<a
 							{href}
-							class="relative cursor-pointer border-none bg-transparent px-0 py-2 text-base font-semibold text-gray-800 no-underline hover:after:w-full"
+							class="nav-link relative px-0 py-2 text-base font-semibold text-gray-800 no-underline"
 							class:active-link={$page.url.pathname === href}
 						>
 							{label}
@@ -111,10 +109,10 @@
 					{/each}
 
 					<!-- Blog Dropdown -->
-					<div class="relative z-[1005]">
+					<div class="relative z-40">
 						<button
 							on:click={() => (isDropdownOpen = !isDropdownOpen)}
-							class="relative cursor-pointer border-none bg-transparent px-0 py-2 text-base font-semibold text-gray-800 no-underline hover:after:w-full"
+							class="nav-link relative px-0 py-2 text-base font-semibold text-gray-800 no-underline"
 							aria-haspopup="true"
 							aria-controls="blogMenu"
 							aria-expanded={isDropdownOpen}
@@ -125,7 +123,7 @@
 						<Context>
 							<ul
 								id="blogMenu"
-								class="absolute left-1/2 top-[calc(100%+0.5rem)] z-[1010] m-0 hidden w-[220px] -translate-x-1/2 transform list-none rounded bg-white px-0 py-2 shadow-md"
+								class="dropdown-menu absolute left-1/2 top-[calc(100%+0.5rem)] w-[220px] -translate-x-1/2 transform rounded bg-white py-2 shadow-md"
 								class:is-open={isDropdownOpen}
 								use:onClickOutside={() => (isDropdownOpen = false)}
 							>
@@ -135,7 +133,7 @@
 											{href}
 											tabindex={isDropdownOpen ? 0 : -1}
 											class="block px-4 py-3 font-normal text-gray-800 no-underline transition-colors duration-200 hover:bg-gray-100"
-											class:text-indigo-600={$page.url.pathname === href}
+											class:text-primary-700={$page.url.pathname === href}
 										>
 											{label}
 										</a>
@@ -147,7 +145,7 @@
 
 					<a
 						href="/about"
-						class="relative cursor-pointer border-none bg-transparent px-0 py-2 text-base font-semibold text-gray-800 no-underline hover:after:w-full"
+						class="nav-link relative px-0 py-2 text-base font-semibold text-gray-800 no-underline"
 						class:active-link={$page.url.pathname === '/about'}
 					>
 						About
@@ -174,7 +172,7 @@
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
 					<a
 						href="/login"
-						class="inline-block rounded bg-indigo-600 px-6 py-2 font-semibold !text-white no-underline transition-colors duration-200 hover:bg-indigo-700"
+						class="inline-block rounded bg-primary-700 px-6 py-2 font-semibold text-white no-underline transition-colors duration-200 hover:bg-primary-800"
 					>
 						Login / Register
 					</a>
@@ -185,67 +183,56 @@
 </header>
 
 <style lang="scss">
-	.is-open {
-		display: block;
-		/* Ensure it appears on top */
-		position: absolute;
-		visibility: visible;
-		z-index: 1010;
-	}
-
-	ul {
-		position: absolute;
-		top: calc(100% + 0.5rem);
-		left: 50%;
-		transform: translateX(-50%);
-		background: #fff;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-		// border-radius: $border-radius;
+	.dropdown-menu {
+		display: none;
 		list-style: none;
-		padding: 0.5rem 0;
 		margin: 0;
-		width: 220px;
-	}
+		padding: 0.5rem 0;
 
-	li::marker {
-		content: none;
-	}
-
-	li {
-		a {
+		&.is-open {
 			display: block;
-			padding: 0.75rem 1rem;
-			text-decoration: none;
+		}
 
-			&::after {
-				display: none;
+		li {
+			&::marker {
+				content: none;
+			}
+
+			a {
+				&::after {
+					display: none;
+				}
 			}
 		}
 	}
 
-	a:hover {
-		text-decoration: none;
+	.nav-link {
+		position: relative;
+		cursor: pointer;
+		background: transparent;
+		border: none;
+
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			height: 2px;
+			width: 0;
+			background-color: theme('colors.primary.700');
+			transition: width 0.2s ease;
+		}
+
+		&:hover::after {
+			width: 100%;
+		}
 	}
-	/* Add the active link style with pseudo-element */
+
 	.active-link {
-		@apply text-indigo-600;
-		text-decoration: none;
-	}
+		color: theme('colors.primary.700');
 
-	.active-link::after {
-		content: '';
-		@apply absolute bottom-0 left-0 h-0.5 w-full bg-indigo-600;
-	}
-
-	/* Add hover effect for links */
-	a::after,
-	button::after {
-		content: '';
-		@apply absolute bottom-0 left-0 h-0.5 w-0 bg-indigo-600 transition-all duration-200;
-	}
-
-	a:hover::after,
-	button:hover::after {
-		@apply w-full;
+		&::after {
+			width: 100%;
+		}
 	}
 </style>

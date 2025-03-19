@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Modal from '$lib/components/atoms/Modal2.svelte';
 	import { page } from '$app/stores';
 	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
 
@@ -20,15 +19,15 @@
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 
-		// Control the modal
-		const modal = document.getElementById('mobile-nav');
-		if (modal) {
-			if (isMenuOpen) {
-				modal.classList.add('is-active');
-			} else {
-				modal.classList.remove('is-active');
-				isDropdownOpen = false;
-			}
+		if (!isMenuOpen) {
+			isDropdownOpen = false;
+		}
+
+		// Prevent body scrolling when menu is open
+		if (isMenuOpen) {
+			document.body.classList.add('overflow-hidden');
+		} else {
+			document.body.classList.remove('overflow-hidden');
 		}
 	}
 
@@ -38,134 +37,216 @@
 	function closeMenu() {
 		isMenuOpen = false;
 		isDropdownOpen = false;
-
-		const modal = document.getElementById('mobile-nav');
-		if (modal) {
-			modal.classList.remove('is-active');
-		}
+		document.body.classList.remove('overflow-hidden');
 	}
 </script>
 
-<div class="relative z-50 flex justify-center">
+<div class="relative z-40 flex items-center">
 	<!-- Menu toggle button -->
 	<button
-		class="flex h-8 w-8 cursor-pointer items-center justify-center border-none bg-transparent p-0 focus:outline-none"
-		aria-label="Toggle navigation"
+		class="hamburger-btn flex h-10 w-10 cursor-pointer items-center justify-center border-none bg-transparent"
+		aria-label={isMenuOpen ? 'Close navigation' : 'Open navigation'}
 		on:click={toggleMenu}
 		aria-expanded={isMenuOpen}
 	>
-		<span class="relative flex h-6 w-6 items-center justify-center">
-			{#if isMenuOpen}
-				<span class="relative h-6 w-6">
-					<span class="absolute left-0 top-1/2 h-0.5 w-full rotate-45 transform bg-gray-800"></span>
-					<span class="absolute left-0 top-1/2 h-0.5 w-full -rotate-45 transform bg-gray-800"
-					></span>
-				</span>
-			{:else}
-				<span
-					class="absolute left-0 h-0.5 w-full -translate-y-2 transform bg-gray-800 transition-transform duration-300 ease-in-out"
-				></span>
-				<span
-					class="absolute left-0 h-0.5 w-full bg-gray-800 transition-opacity duration-300 ease-in-out"
-				></span>
-				<span
-					class="absolute left-0 h-0.5 w-full translate-y-2 transform bg-gray-800 transition-transform duration-300 ease-in-out"
-				></span>
-			{/if}
+		<span class="hamburger-icon relative flex h-6 w-6 items-center justify-center">
+			<span
+				class="hamburger-line absolute left-0 h-0.5 w-full bg-gray-800 transition-all duration-300"
+				class:active={isMenuOpen}
+			></span>
 		</span>
 	</button>
 
-	<!-- Mobile navigation menu modal -->
-	<div
-		id="mobile-nav"
-		class="invisible fixed left-0 top-0 z-40 flex h-0 w-full justify-center bg-black bg-opacity-50 opacity-0 transition-all duration-300 ease-in-out"
-		class:h-full={isMenuOpen}
-		class:showNav={isMenuOpen}
-		on:click|self={closeMenu}
-	>
-		<Context>
-			<nav
-				class="mt-[50%] max-h-[calc(100vh-80px)] w-[280px] max-w-[90vw] overflow-y-auto rounded-lg bg-white p-6 shadow-lg"
-				aria-label="Main Navigation"
-				use:onClickOutside={closeMenu}
-			>
-				<ul class="m-0 list-none p-0">
-					<!-- Main navigation items -->
-					{#each navItems as { href, label }}
-						<li class="mb-5">
+	<!-- Mobile navigation menu -->
+	{#if isMenuOpen}
+		<div
+			class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 transition-opacity duration-300"
+			on:click|self={closeMenu}
+		>
+			<Context>
+				<nav
+					class="mobile-nav max-h-[80vh] w-[320px] max-w-[90vw] overflow-y-auto rounded-lg bg-white p-6 shadow-xl"
+					aria-label="Main Navigation"
+					use:onClickOutside={closeMenu}
+				>
+					<ul class="list-none space-y-5 pt-2">
+						<!-- Main navigation items -->
+						{#each navItems as { href, label }}
+							<li class="list-none">
+								<a
+									{href}
+									class="mobile-nav-link block py-2 text-xl font-medium text-gray-800"
+									class:active={$page.url.pathname === href}
+									on:click={closeMenu}
+								>
+									{label}
+								</a>
+							</li>
+						{/each}
+
+						<!-- Blog dropdown -->
+						<li class="relative list-none">
+							<button
+								type="button"
+								class="mobile-nav-link flex w-full items-center justify-between py-2 text-left text-xl font-medium text-gray-800"
+								aria-haspopup="true"
+								aria-expanded={isDropdownOpen}
+								on:click={() => (isDropdownOpen = !isDropdownOpen)}
+							>
+								Blog
+								<span class="chevron-icon relative h-4 w-4" class:rotate={isDropdownOpen}></span>
+							</button>
+
+							{#if isDropdownOpen}
+								<ul class="mt-2 list-none space-y-2 border-l-2 border-primary-100 pl-4">
+									{#each blogItems as { href, label }}
+										<li class="list-none">
+											<a
+												{href}
+												class="mobile-nav-link block py-2 text-lg font-medium text-gray-800"
+												class:active={$page.url.pathname === href}
+												on:click={closeMenu}
+											>
+												{label}
+											</a>
+										</li>
+									{/each}
+								</ul>
+							{/if}
+						</li>
+
+						<!-- About link -->
+						<li class="list-none">
 							<a
-								{href}
-								class="block py-2 text-xl text-gray-800 no-underline transition-colors duration-300 hover:text-indigo-600"
-								class:text-indigo-600={$page.url.pathname === href}
+								href="/about"
+								class="mobile-nav-link block py-2 text-xl font-medium text-gray-800"
+								class:active={$page.url.pathname === '/about'}
 								on:click={closeMenu}
 							>
-								{label}
+								About
 							</a>
 						</li>
-					{/each}
-
-					<!-- Blog dropdown -->
-					<li class="relative mb-5">
-						<button
-							type="button"
-							class="flex w-full cursor-pointer items-center justify-between border-none bg-transparent py-2 text-left text-xl text-gray-800 transition-colors duration-300 hover:text-indigo-600"
-							aria-haspopup="true"
-							aria-expanded={isDropdownOpen}
-							on:click={() => (isDropdownOpen = !isDropdownOpen)}
-						>
-							Blog
-							<span class="relative h-3 w-3 transition-transform duration-300">
-								<span
-									class="absolute left-0 top-1/2 h-2 w-2 -translate-y-3/4 rotate-45 transform border-b-2 border-r-2 border-current {isDropdownOpen
-										? '-translate-y-1/4'
-										: ''}"
-									class:rotate-[-135deg]={isDropdownOpen}
-								></span>
-							</span>
-						</button>
-
-						{#if isDropdownOpen}
-							<ul class="mt-3 border-l border-gray-200 pl-5">
-								{#each blogItems as { href, label }}
-									<li class="mb-3">
-										<a
-											{href}
-											class="block py-2 text-lg text-gray-800 no-underline transition-colors duration-300 hover:text-indigo-600"
-											class:text-indigo-600={$page.url.pathname === href}
-											on:click={closeMenu}
-										>
-											{label}
-										</a>
-									</li>
-								{/each}
-							</ul>
-						{/if}
-					</li>
-
-					<!-- About link -->
-					<li class="mb-0">
-						<a
-							href="/about"
-							class="block py-2 text-xl text-gray-800 no-underline transition-colors duration-300 hover:text-indigo-600"
-							class:text-indigo-600={$page.url.pathname === '/about'}
-							on:click={closeMenu}
-						>
-							About
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</Context>
-	</div>
+					</ul>
+				</nav>
+			</Context>
+		</div>
+	{/if}
 </div>
 
-<style>
-	.showNav {
-		visibility: visible !important;
-		opacity: 1 !important;
+<style lang="scss">
+	// Reset list styles explicitly
+	ul,
+	li {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
 	}
-	/* Only adding a helper class for the modal visibility state to work with the JS */
-	.is-active {
-		@apply visible h-full opacity-100;
+
+	li::marker {
+		display: none;
+		content: none;
+	}
+	// Hamburger button styling
+	.hamburger-icon {
+		.hamburger-line {
+			&::before,
+			&::after {
+				content: '';
+				position: absolute;
+				left: 0;
+				height: 0.125rem;
+				width: 100%;
+				background-color: currentColor;
+				transition: all 0.3s ease;
+			}
+
+			&::before {
+				top: -8px;
+			}
+
+			&::after {
+				bottom: -8px;
+			}
+
+			&.active {
+				background-color: transparent;
+
+				&::before {
+					top: 0;
+					transform: rotate(45deg);
+				}
+
+				&::after {
+					bottom: 0;
+					transform: rotate(-45deg);
+				}
+			}
+		}
+	}
+
+	// Dropdown chevron
+	.chevron-icon {
+		&::before,
+		&::after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			width: 0.625rem;
+			height: 0.125rem;
+			background-color: currentColor;
+			transition: transform 0.3s ease;
+		}
+
+		&::before {
+			left: 0;
+			transform: translateY(-50%) rotate(45deg);
+		}
+
+		&::after {
+			right: 0;
+			transform: translateY(-50%) rotate(-45deg);
+		}
+
+		&.rotate {
+			&::before {
+				transform: translateY(-50%) rotate(-45deg);
+			}
+
+			&::after {
+				transform: translateY(-50%) rotate(45deg);
+			}
+		}
+	}
+
+	// Mobile navigation styling
+	.mobile-nav {
+		animation: fadeIn 0.3s ease forwards;
+	}
+
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+			transform: scale(0.95) translateY(-10px);
+		}
+		to {
+			opacity: 1;
+			transform: scale(1) translateY(0);
+		}
+	}
+
+	.mobile-nav-link {
+		position: relative;
+		text-decoration: none;
+		transition: color 0.2s ease;
+		border: none;
+		background: transparent;
+
+		&:hover {
+			color: theme('colors.primary.700');
+		}
+
+		&.active {
+			color: theme('colors.primary.700');
+		}
 	}
 </style>
