@@ -1,180 +1,453 @@
 <script lang="ts">
 	import { deserialize } from '$app/forms';
-	import ComboBox from '$lib/components/molecules/ComboBox.svelte';
-	import Context from '$lib/components/molecules/Context.svelte';
 	import { onMount } from 'svelte';
-
-	// ADMIN only page
-	import type { PageData } from './$types';
 	import { browser } from '$app/environment';
 	import { QuestionItem } from '$lib/components/molecules';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import LinkMap from '$lib/components/molecules/LinkMap.svelte';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import QuestionSearch from '$lib/components/molecules/QuestionSearch.svelte'; // Adjust path as needed
+
+	// ADMIN only page
+	import type { PageData } from './$types';
 
 	export let data: PageData;
 
-	let selectedQuestion: any = null;
-	let location: any = null;
-
-	let timer: any;
-	let options: { text: string; value: any }[] = [];
+	let selectedQuestion = null;
+	let location = null;
+	let isSearching = false;
+	let searchOptions = [];
+	let isSubmitting = false;
 
 	onMount(() => {
 		if (browser) {
-			navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+			navigator.geolocation.getCurrentPosition(
+				(position) => {
+					location = position?.coords;
+				},
+				(error) => {
+					console.error('Geolocation error:', error);
+					notifications.warning(
+						'Location access failed. Some features may not work properly.',
+						5000
+					);
+				},
+				{ enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
+			);
 		}
 	});
 
-	const successCallback = (position: any) => {
-		location = position?.coords;
-	};
+	async function handleSearch(event) {
+		const { text } = event.detail;
+		if (!text || text.length < 2) return;
 
-	const errorCallback = (error: any) => {
-		console.log(error);
-	};
+		isSearching = true;
+		try {
+			const formData = new FormData();
+			formData.append('searchString', text);
 
-	const searchES = async (searchString: string) => {
-		let body = new FormData();
-		body.append('searchString', searchString);
-		await fetch('/questions?/typeahead', {
-			method: 'POST',
-			body
-		}).then(async (response) => {
-			const resp: any = deserialize(await response.text());
-			let elasticOptions = resp?.data;
-			if (elasticOptions?.length) {
-				options = elasticOptions.map((o: any) => {
-					return { text: o?._source?.question, value: o?._source };
-				});
+			const response = await fetch('/questions?/typeahead', {
+				method: 'POST',
+				body: formData
+			});
+
+			const result = deserialize(await response.text());
+			const elasticOptions = result?.data || [];
+
+			searchOptions = elasticOptions.map((o) => ({
+				text: o?._source?.question,
+				value: o?._source
+			}));
+		} catch (error) {
+			console.error('Search error:', error);
+			notifications.danger('Failed to search questions', 3000);
+			searchOptions = [];
+		} finally {
+			isSearching = false;
+		}
+	}
+
+	function handleQuestionSelected(event) {
+		selectedQuestion = event.detail;
+	}
+
+	async function saveLinkDrop() {
+		if (!selectedQuestion) {
+			notifications.warning('Please select a question first', 3000);
+			return;
+		}
+
+		if (!location) {
+			notifications.warning('Location data is not available yet', 3000);
+			return;
+		}
+
+		isSubmitting = true;
+		try {
+			const formData = new FormData();
+			formData.append('lat', location.latitude);
+			formData.append('lng', location.longitude);
+			formData.append('selectedQuestionURL', selectedQuestion.url);
+
+			const response = await fetch('?/submitLinkDrop', {
+				method: 'POST',
+				body: formData
+			});
+
+			const result = deserialize(await response.text());
+
+			if (result.error) {
+				notifications.danger('Error dropping link: ' + result.error, 3000);
 			} else {
-				options = [];
+				notifications.success('Link dropped successfully', 3000);
+				// Refresh the page to show the new link
+				window.location.reload();
 			}
-			return options;
-		});
-	};
+		} catch (error) {
+			console.error('Save error:', error);
+			notifications.danger('An unexpected error occurred', 3000);
+		} finally {
+			isSubmitting = false;
+		}
+	}
 
-	const debounce = (v: any) => {
-		// question = v;
-		clearTimeout(timer);
-		timer = setTimeout(() => {
-			searchES(v);
-		}, 750);
-	};
-
-	const questionSelected = async (question: any) => {
-		selectedQuestion = question;
-	};
-
-	const save = async () => {
+	async function updateLinkDrop() {
 		if (!selectedQuestion) {
-			alert('Must select a question');
+			notifications.warning('Please select a question first', 3000);
 			return;
 		}
 
-		var body = new FormData();
-		body.append('lat', location?.latitude);
-		body.append('lng', location?.longitude);
+		isSubmitting = true;
+		try {
+			const formData = new FormData();
+			formData.append('selectedQuestionURL', selectedQuestion.url);
+			formData.append('linkDropExternalId', data.linkDrop?.external_id);
 
-		body.append('selectedQuestionURL', selectedQuestion ? selectedQuestion?.url : '');
-		const resp = await fetch('?/submitLinkDrop', {
-			method: 'POST',
-			body
-		});
-		const deserRes: any = deserialize(await resp.text());
+			const response = await fetch('?/updateLinkDrop', {
+				method: 'POST',
+				body: formData
+			});
 
-		if (deserRes.error) {
-			notifications.danger('Error dropping link', 3000);
-			console.log(deserRes.error);
-		} else {
-			notifications.info('Link Dropped', 3000);
+			const result = deserialize(await response.text());
+
+			if (result.error) {
+				notifications.danger('Error updating link: ' + result.error, 3000);
+			} else {
+				notifications.success('Link updated successfully', 3000);
+				getModal('edit-link').close();
+				// Refresh the page to show the updates
+				window.location.reload();
+			}
+		} catch (error) {
+			console.error('Update error:', error);
+			notifications.danger('An unexpected error occurred', 3000);
+		} finally {
+			isSubmitting = false;
 		}
-		getModal(`edit-link`).close();
-	};
-
-	const updateLink = async () => {
-		if (!selectedQuestion) {
-			alert('Must select a question');
-			return;
-		}
-
-		var body = new FormData();
-
-		body.append('selectedQuestionURL', selectedQuestion ? selectedQuestion?.url : '');
-		body.append('linkDropExternalId', data.linkDrop?.external_id);
-		const resp = await fetch('?/updateLinkDrop', {
-			method: 'POST',
-			body
-		});
-		const deserRes: any = deserialize(await resp.text());
-
-		if (deserRes.error) {
-			notifications.danger('Error updating link', 3000);
-			console.log('fe', deserRes.error);
-		} else {
-			notifications.info('Link Drop updated', 3000);
-		}
-		getModal(`edit-link`).close();
-	};
+	}
 </script>
 
-<div>
-	<h1>Link Drop</h1>
-	<h2>Link: {data.linkDrop?.external_id}</h2>
+<div class="container">
+	<header>
+		<h1>Link Drop</h1>
+		{#if data.linkDrop}
+			<h2>Link ID: {data.linkDrop?.external_id}</h2>
+		{/if}
+	</header>
 
-	{#if !data.linkDrop}
-		<form>
-			<div style="flex: 1">
-				<Context>
-					<ComboBox
-						label=""
-						name="question"
-						placeholder="Ask a question..."
-						on:inputChange={({ detail: { text } }) => debounce(text)}
-						{options}
-						on:selection={({ detail }) => questionSelected(detail)}
+	<main>
+		{#if !data.linkDrop}
+			<section class="create-section">
+				<h2>Create New Link Drop</h2>
+
+				<div class="search-container">
+					<QuestionSearch
+						placeholder="Search for a question..."
+						loading={isSearching}
+						options={searchOptions}
+						on:search={handleSearch}
+						on:selection={handleQuestionSelected}
 					/>
-				</Context>
-			</div>
+				</div>
 
-			<button type="button" class="btn btn-primary" on:click={() => save()}> Save </button>
-		</form>
-	{/if}
+				{#if selectedQuestion}
+					<div class="selected-question">
+						<h3>Selected Question:</h3>
+						<p>{selectedQuestion.question}</p>
+					</div>
+				{/if}
 
-	{#if data.linkDrop}
-		<div>
-			<QuestionItem questionData={data.question} />
-			<p># of Drops: {data.linkDrop?.number_of_drops || 0}</p>
-			<p>Hits: {data.linkDrop?.number_of_hits || 0}</p>
-		</div>
-		<button type="button" class="btn btn-primary" on:click={() => getModal(`edit-link`).open()}>
-			Change Question
-		</button>
+				<div class="action-buttons">
+					<button
+						type="button"
+						class="btn btn-primary"
+						on:click={saveLinkDrop}
+						disabled={!selectedQuestion || !location || isSubmitting}
+					>
+						{#if isSubmitting}
+							Saving...
+						{:else}
+							Save Link Drop
+						{/if}
+					</button>
+				</div>
 
-		<LinkMap linkDrops={[data.linkDrop]} />
-	{/if}
+				{#if !location}
+					<p class="info-message">Waiting for location data...</p>
+				{/if}
+			</section>
+		{:else}
+			<section class="view-section">
+				<div class="question-details">
+					<h2>Question Details</h2>
+					<QuestionItem questionData={data.question} />
+				</div>
+
+				<div class="statistics">
+					<h2>Link Statistics</h2>
+					<div class="stat-grid">
+						<div class="stat-item">
+							<span class="stat-label">Drops:</span>
+							<span class="stat-value">{data.linkDrop?.number_of_drops || 0}</span>
+						</div>
+						<div class="stat-item">
+							<span class="stat-label">Hits:</span>
+							<span class="stat-value">{data.linkDrop?.number_of_hits || 0}</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="action-buttons">
+					<button
+						type="button"
+						class="btn btn-primary"
+						on:click={() => getModal('edit-link').open()}
+					>
+						Change Question
+					</button>
+				</div>
+
+				<div class="map-container">
+					<h2>Location</h2>
+					<LinkMap linkDrops={[data.linkDrop]} />
+				</div>
+			</section>
+		{/if}
+	</main>
 </div>
 
-<Modal2 id={`edit-link`}>
-	<div style="max-height: 500px; min-width: 350px; min-height:300px;">
-		<form>
-			<div style="flex: 1">
-				<Context>
-					<ComboBox
-						label=""
-						name="question"
-						placeholder="Ask a question..."
-						on:inputChange={({ detail: { text } }) => debounce(text)}
-						{options}
-						on:selection={({ detail }) => questionSelected(detail)}
-					/>
-				</Context>
-			</div>
+<Modal2 id="edit-link">
+	<div class="modal-content">
+		<h2>Change Question</h2>
 
-			<button type="button" class="btn btn-primary" on:click={() => updateLink()}> Save </button>
-		</form>
+		<div class="search-container">
+			<QuestionSearch
+				placeholder="Search for a question..."
+				loading={isSearching}
+				options={searchOptions}
+				on:search={handleSearch}
+				on:selection={handleQuestionSelected}
+			/>
+		</div>
+
+		{#if selectedQuestion}
+			<div class="selected-question">
+				<h3>Selected Question:</h3>
+				<p>{selectedQuestion.question}</p>
+			</div>
+		{/if}
+
+		<div class="modal-actions">
+			<button
+				type="button"
+				class="btn btn-secondary"
+				on:click={() => getModal('edit-link').close()}
+			>
+				Cancel
+			</button>
+			<button
+				type="button"
+				class="btn btn-primary"
+				on:click={updateLinkDrop}
+				disabled={!selectedQuestion || isSubmitting}
+			>
+				{#if isSubmitting}
+					Saving...
+				{:else}
+					Save Changes
+				{/if}
+			</button>
+		</div>
 	</div>
 </Modal2>
 
 <style lang="scss">
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 1rem;
+	}
+
+	header {
+		margin-bottom: 2rem;
+
+		h1 {
+			margin-bottom: 0.5rem;
+			font-size: 1.75rem;
+		}
+
+		h2 {
+			font-size: 1.25rem;
+			color: #4b5563;
+		}
+	}
+
+	section {
+		margin-bottom: 2rem;
+
+		h2 {
+			margin-bottom: 1rem;
+			font-size: 1.25rem;
+		}
+	}
+
+	.search-container {
+		margin-bottom: 1.5rem;
+	}
+
+	.selected-question {
+		background: #f9fafb;
+		padding: 1rem;
+		border-radius: 4px;
+		border: 1px solid #e5e7eb;
+		margin-bottom: 1.5rem;
+
+		h3 {
+			margin-bottom: 0.5rem;
+			font-size: 1rem;
+			color: #4b5563;
+		}
+
+		p {
+			margin: 0;
+			font-weight: 500;
+		}
+	}
+
+	.action-buttons {
+		margin-bottom: 1.5rem;
+	}
+
+	.statistics {
+		background: #f9fafb;
+		padding: 1rem;
+		border-radius: 4px;
+		border: 1px solid #e5e7eb;
+		margin-bottom: 1.5rem;
+
+		h2 {
+			margin-bottom: 1rem;
+			font-size: 1.25rem;
+		}
+
+		.stat-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+			gap: 1rem;
+		}
+
+		.stat-item {
+			display: flex;
+			flex-direction: column;
+
+			.stat-label {
+				font-weight: 500;
+				color: #4b5563;
+				margin-bottom: 0.25rem;
+			}
+
+			.stat-value {
+				font-size: 1.5rem;
+				font-weight: 600;
+			}
+		}
+	}
+
+	.question-details {
+		margin-bottom: 1.5rem;
+	}
+
+	.map-container {
+		margin-top: 2rem;
+	}
+
+	.info-message {
+		color: #6b7280;
+		font-style: italic;
+	}
+
+	.modal-content {
+		padding: 1.5rem;
+		min-width: 400px;
+		max-width: 600px;
+
+		h2 {
+			margin-bottom: 1rem;
+			font-size: 1.25rem;
+		}
+	}
+
+	.modal-actions {
+		display: flex;
+		justify-content: flex-end;
+		gap: 0.75rem;
+		margin-top: 1.5rem;
+	}
+
+	.btn {
+		padding: 0.5rem 1rem;
+		border-radius: 4px;
+		font-weight: 500;
+		cursor: pointer;
+		transition:
+			background-color 0.2s,
+			opacity 0.2s;
+
+		&:disabled {
+			opacity: 0.6;
+			cursor: not-allowed;
+		}
+	}
+
+	.btn-primary {
+		background: #4f46e5;
+		color: white;
+		border: none;
+
+		&:hover:not(:disabled) {
+			background: #4338ca;
+		}
+	}
+
+	.btn-secondary {
+		background: #f3f4f6;
+		color: #1f2937;
+		border: 1px solid #d1d5db;
+
+		&:hover:not(:disabled) {
+			background: #e5e7eb;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.modal-content {
+			min-width: unset;
+			max-width: 100%;
+			width: 100%;
+		}
+
+		.statistics .stat-grid {
+			grid-template-columns: 1fr;
+		}
+	}
 </style>
