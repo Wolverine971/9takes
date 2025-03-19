@@ -33,11 +33,10 @@
 	};
 
 	// Dynamically calculate font size based on text length
-	$: fontSize = calculateFontSize(question.question);
+	$: fontSize = question.question ? calculateFontSize(question.question) : '2rem';
 	$: printFontSize = calculatePrintFontSize(question.question);
 
 	function calculateFontSize(text: string): string {
-		// Define breakpoints for font sizing
 		const breakpoints = {
 			xs: { length: 45, size: innerWidth > 500 ? '2.3rem' : '1.9rem' },
 			sm: { length: 60, size: innerWidth > 500 ? '2.2rem' : '1.8rem' },
@@ -50,19 +49,16 @@
 			massive: { length: 300, size: innerWidth > 500 ? '1.2rem' : '0.9rem' }
 		};
 
-		// Find the appropriate size
 		for (const [key, value] of Object.entries(breakpoints)) {
 			if (text.length < value.length) {
 				return value.size;
 			}
 		}
 
-		// Default size for very long text
 		return innerWidth > 500 ? '1rem' : '0.8rem';
 	}
 
 	function calculatePrintFontSize(text: string): string {
-		// Print-specific font sizing - larger to fill the page
 		const breakpoints = {
 			xs: { length: 45, size: '2.5rem' },
 			sm: { length: 60, size: '2.3rem' },
@@ -75,34 +71,29 @@
 			massive: { length: 300, size: '0.9rem' }
 		};
 
-		// Find the appropriate size
 		for (const [key, value] of Object.entries(breakpoints)) {
 			if (text.length < value.length) {
 				return value.size;
 			}
 		}
 
-		// Default size for very long text
 		return '0.8rem';
 	}
 
 	function togglePreviewMode() {
 		previewMode = !previewMode;
 
-		// If entering preview mode, ensure QR code is regenerated
 		if (previewMode && !qrCodeUrl) {
 			generateQRCode();
 		}
 	}
 
 	function generateQRCode() {
-		// Generate a UUID if none exists
 		if (!uuid) {
 			uuid = crypto.randomUUID();
 		}
 
-		// Use the custom URL if provided, otherwise use the UUID-based link
-		const urlToEncode = customUrl ? customUrl : `https://9takes.com/links/${uuid}`;
+		const urlToEncode = customUrl || `https://9takes.com/links/${uuid}`;
 
 		QRCode.toDataURL(urlToEncode, QR_OPTS, function (err, url) {
 			if (err) {
@@ -113,192 +104,195 @@
 		});
 	}
 
+	// This is the key function that needs fixing
 	function printPoster() {
-		// If there's no QR code yet, generate it
 		if (!qrCodeUrl) {
 			generateQRCode();
 		}
 
-		if (!browser) {
+		if (!browser) return;
+
+		// Create a new window
+		const printWindow = window.open('', '_blank');
+		if (!printWindow) {
+			alert('Please allow popups to print the question.');
 			return;
 		}
 
-		// Create the HTML content without any style interpolation
-		const printContent = `
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <title>9takes Question</title>
-    <style id="print-styles">
-      /* Styles will be added here programmatically */
-    </style>
-  </head>
-  <body>
-    <div class="print-container">
-      <div class="mini-brand">
-        <!-- Injected SVG for Rubix -->
-        <svg width="30" height="30" viewBox="0 0 50 50" style="margin: 0.5rem">
-          <rect x="5" y="5" width="16" height="16" fill="#0066cc" />
-          <rect x="29" y="5" width="16" height="16" fill="#9900cc" />
-          <rect x="5" y="29" width="16" height="16" fill="#cc0066" />
-          <rect x="29" y="29" width="16" height="16" fill="#cc9900" />
-        </svg>
-        <!-- Injected SVG for '9takes' text -->
-        <svg width="120" height="30" viewBox="0 0 120 30">
-          <text x="10" y="22" font-family="Arial" font-size="24" font-weight="bold" fill="#333">9takes</text>
-        </svg>
-      </div>
-      
-      <div class="question-container">
-        ${backgroundImage ? '<div class="background-image"></div>' : ''}
-        <h1 class="question-box">${question.question}</h1>
-      </div>
-      
-      <div class="mini-qr">
-        <img src="${qrCodeUrl}" alt="QR Code" class="qr-image-small" />
-        <p class="qr-url-small">${customUrl || `9takes.com/links/${uuid.slice(0, 8)}...`}</p>
-      </div>
-    </div>
-  </body>
-  </html>
-  `;
+		// First, write the basic HTML structure
+		printWindow.document.write(`
+			<!DOCTYPE html>
+			<html>
+			<head>
+				<title>9takes Question</title>
+				<meta charset="UTF-8">
+			</head>
+			<body>
+				<div id="content"></div>
+			</body>
+			</html>
+		`);
 
-		// Create a new window for printing
-		const printWindow = window.open('', '_blank');
-		if (printWindow) {
-			printWindow.document.write(printContent);
-			printWindow.document.close();
+		// Create and append the style element
+		const styleElement = printWindow.document.createElement('style');
+		printWindow.document.head.appendChild(styleElement);
 
-			// Create the style content
-			const styleContent = `
-      @page {
-        size: letter;
-        margin: 0;
-      }
-      
-      body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background: white;
-      }
-      .print-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        max-width: 100%;
-        padding: 2rem;
-        box-sizing: border-box;
-      }
-      .mini-brand {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1.5rem;
-      }
-      .question-container {
-        width: 100%;
-        background: linear-gradient(145deg, #ffffff, #f0f0f0);
-        border-radius: 15px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
-        padding: 2rem;
-        margin-bottom: 1.5rem;
-        box-sizing: border-box;
-      }
-      .question-box {
-        width: 100%;
-        text-align: center;
-        color: #333;
-        font-weight: 700;
-        line-height: 1.4;
-        letter-spacing: 0.5px;
-        margin: 0;
-        padding: 0.5rem 0;
-        text-transform: uppercase;
-        position: relative;
-        font-size: ${printFontSize};
-      }
-      .question-box::after {
-        content: '';
-        position: absolute;
-        bottom: -10px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 60px;
-        height: 3px;
-        background: #0066cc;
-        border-radius: 2px;
-      }
-      .mini-qr {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .qr-image-small {
-        width: 100px;
-        height: 100px;
-        background-color: white;
-        padding: 0.5rem;
-        border: 1px solid #eee;
-        border-radius: 8px;
-      }
-      .qr-url-small {
-        margin-top: 0.5rem;
-        font-size: 0.8rem;
-        color: #444;
-        background: linear-gradient(145deg, #f0f0f0, #ffffff);
-        padding: 0.2rem 0.5rem;
-        border-radius: 4px;
-      }
-      
-      ${
+		// Set the CSS content directly on the style element
+		styleElement.textContent = `
+			@page {
+				size: letter;
+				margin: 0;
+			}
+			
+			body {
+				margin: 0;
+				padding: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-height: 100vh;
+				background: white;
+			}
+			
+			.print-container {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 100%;
+				max-width: 100%;
+				padding: 2rem;
+				box-sizing: border-box;
+			}
+			
+			.mini-brand {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-bottom: 1.5rem;
+			}
+			
+			.question-container {
+				width: 100%;
+				background: linear-gradient(145deg, #ffffff, #f0f0f0);
+				border-radius: 15px;
+				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+				padding: 2rem;
+				margin-bottom: 1.5rem;
+				box-sizing: border-box;
+				${backgroundImage ? 'position: relative; overflow: hidden;' : ''}
+			}
+			
+			.question-box {
+				width: 100%;
+				text-align: center;
+				color: #333;
+				font-weight: 700;
+				line-height: 1.4;
+				letter-spacing: 0.5px;
+				margin: 0;
+				padding: 0.5rem 0;
+				text-transform: uppercase;
+				position: relative;
+				font-size: ${printFontSize};
+				${backgroundImage ? 'position: relative; z-index: 1;' : ''}
+			}
+			
+			.question-box::after {
+				content: '';
+				position: absolute;
+				bottom: -10px;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 60px;
+				height: 3px;
+				background: #0066cc;
+				border-radius: 2px;
+			}
+			
+			.mini-qr {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				${backgroundImage ? 'position: relative; z-index: 1;' : ''}
+			}
+			
+			.qr-image-small {
+				width: 100px;
+				height: 100px;
+				background-color: white;
+				padding: 0.5rem;
+				border: 1px solid #eee;
+				border-radius: 8px;
+			}
+			
+			.qr-url-small {
+				margin-top: 0.5rem;
+				font-size: 0.8rem;
+				color: #444;
+				background: linear-gradient(145deg, #f0f0f0, #ffffff);
+				padding: 0.2rem 0.5rem;
+				border-radius: 4px;
+			}
+			
+			${
 				backgroundImage
 					? `
-      .question-container {
-        position: relative;
-        overflow: hidden;
-      }
-      .background-image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("${backgroundImage}");
-        background-size: cover;
-        background-position: center;
-        opacity: ${backgroundOpacity};
-        z-index: 0;
-      }
-      .question-box, .mini-qr {
-        position: relative;
-        z-index: 1;
-      }
-      `
+			.background-image {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-image: url("${backgroundImage}");
+				background-size: cover;
+				background-position: center;
+				opacity: ${backgroundOpacity};
+				z-index: 0;
+			}
+			`
 					: ''
 			}
-    `;
+		`;
 
-			// Add the styles to the document
-			const styleElement = printWindow.document.getElementById('print-styles');
-			if (styleElement) {
-				styleElement.textContent = styleContent;
-			}
-
-			// Add onload handler
-			printWindow.onload = function () {
-				printWindow.print();
-				setTimeout(function () {
-					printWindow.close();
-				}, 0);
-			};
-		} else {
-			alert('Please allow popups to print the question.');
+		// Set the HTML content
+		const contentDiv = printWindow.document.getElementById('content');
+		if (contentDiv) {
+			contentDiv.innerHTML = `
+				<div class="print-container">
+					<div class="mini-brand">
+						<svg width="30" height="30" viewBox="0 0 50 50" style="margin: 0.5rem">
+							<rect x="5" y="5" width="16" height="16" fill="#0066cc" />
+							<rect x="29" y="5" width="16" height="16" fill="#9900cc" />
+							<rect x="5" y="29" width="16" height="16" fill="#cc0066" />
+							<rect x="29" y="29" width="16" height="16" fill="#cc9900" />
+						</svg>
+						<svg width="120" height="30" viewBox="0 0 120 30">
+							<text x="10" y="22" font-family="Arial" font-size="24" font-weight="bold" fill="#333">9takes</text>
+						</svg>
+					</div>
+					
+					<div class="question-container">
+						${backgroundImage ? '<div class="background-image"></div>' : ''}
+						<h1 class="question-box">${question.question}</h1>
+					</div>
+					
+					<div class="mini-qr">
+						<img src="${qrCodeUrl}" alt="QR Code" class="qr-image-small" />
+						<p class="qr-url-small">${customUrl || `9takes.com/links/${uuid.slice(0, 8)}...`}</p>
+					</div>
+				</div>
+			`;
 		}
+
+		// Close the document and set up printing
+		printWindow.document.close();
+		printWindow.onload = function () {
+			printWindow.focus();
+			printWindow.print();
+			setTimeout(function () {
+				printWindow.close();
+			}, 100);
+		};
 	}
 
 	function handleFileInput(event: Event) {
@@ -370,14 +364,12 @@
 			/>
 		</div>
 
-		{#if browser}
-			<div class="button-group">
-				<button class="btn preview" on:click={togglePreviewMode}>
-					{previewMode ? 'Edit Poster' : 'Preview Poster'}
-				</button>
-				<button class="btn print" on:click={printPoster}> Print Question </button>
-			</div>
-		{/if}
+		<div class="button-group">
+			<button class="btn preview" on:click={togglePreviewMode}>
+				{previewMode ? 'Edit Poster' : 'Preview Poster'}
+			</button>
+			<button class="btn print" on:click={printPoster}> Print Question </button>
+		</div>
 	</div>
 
 	<!-- Poster Preview Area -->
@@ -405,6 +397,8 @@
 		{/if}
 	</div>
 </div>
+
+<!-- this is me typing a bunch of stuff. -->
 
 <style>
 	/* Page Layout */
@@ -553,7 +547,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background: linear-gradient(145deg, #ffffff, var(--light-gray));
+		background: linear-gradient(145deg, #ffffff, var(--light-gray, #f0f0f0));
 		border-radius: 15px;
 		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
 		padding: 2rem 1.5rem;
@@ -616,7 +610,7 @@
 		font-size: 0.9rem;
 		color: var(--dark-gray, #444);
 		border-radius: 0.5rem;
-		background: linear-gradient(145deg, var(--light-gray), #ffffff);
+		background: linear-gradient(145deg, var(--light-gray, #f0f0f0), #ffffff);
 		padding: 0.2rem 0.5rem;
 	}
 </style>
