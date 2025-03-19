@@ -259,7 +259,7 @@ main {
 
 .section-wrapper {
 	margin-bottom: 4rem;
-	content-visibility: auto;
+	contain: layout style;
 	contain-intrinsic-size: 700px;
 }
 
@@ -393,7 +393,7 @@ figure {
 
 .btn-secondary {
 	background-color: var(--accent);
-	color: var(--primary-dark);
+	color: white;
 
 	&:hover {
 		background-color: var(--accent-dark);

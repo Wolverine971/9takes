@@ -208,18 +208,6 @@
 </main>
 
 <style lang="scss">
-	main {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 1rem;
-	}
-
-	h1 {
-		font-size: 2.5rem;
-		margin-bottom: 2rem;
-		text-align: center;
-	}
-
 	nav {
 		margin-bottom: 3rem;
 

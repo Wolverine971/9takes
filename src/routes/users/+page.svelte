@@ -138,10 +138,6 @@
 </Modal2>
 
 <style lang="scss">
-	h1 {
-		font-size: 1.5rem;
-	}
-
 	td {
 		text-align: start;
 		margin: 0.2rem;

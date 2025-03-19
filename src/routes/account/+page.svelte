@@ -149,8 +149,9 @@
 
 	.profile-section,
 	.subscriptions-section {
-		background-color: var(--accent);
+		background-color: var(--accent-light);
 		border-radius: var(--base-border-radius);
+		border: 1px solid var(--accent);
 		padding: 1rem;
 		margin-bottom: 1.5rem;
 	}
@@ -220,10 +221,6 @@
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
-
-			h1 {
-				font-size: 1.5rem;
-			}
 		}
 
 		.input-group {
