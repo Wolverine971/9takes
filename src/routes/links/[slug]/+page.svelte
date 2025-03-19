@@ -14,11 +14,13 @@
 	export let data: PageData;
 
 	let selectedQuestion = null;
-	let location = null;
+	let location = null; // Will be set once user explicitly shares location
 	let isSearching = false;
 	let searchOptions = [];
 	let isSubmitting = false;
 
+	// Remove the existing onMount geolocation code so it's no longer automatic
+	/*
 	onMount(() => {
 		if (browser) {
 			navigator.geolocation.getCurrentPosition(
@@ -36,6 +38,28 @@
 			);
 		}
 	});
+	*/
+
+	// New function for explicitly requesting location
+	function requestLocation() {
+		if (browser && navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(
+				(position) => {
+					location = position.coords;
+				},
+				(error) => {
+					console.error('Geolocation error:', error);
+					notifications.warning(
+						'Location access failed. Some features may not work properly.',
+						5000
+					);
+				},
+				{ enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
+			);
+		} else {
+			notifications.warning('Geolocation is not available in this environment.', 5000);
+		}
+	}
 
 	async function handleSearch(event) {
 		const { text } = event.detail;
@@ -85,8 +109,8 @@
 		isSubmitting = true;
 		try {
 			const formData = new FormData();
-			formData.append('lat', location.latitude);
-			formData.append('lng', location.longitude);
+			formData.append('lat', location.latitude.toString());
+			formData.append('lng', location.longitude.toString());
 			formData.append('selectedQuestionURL', selectedQuestion.url);
 
 			const response = await fetch('?/submitLinkDrop', {
@@ -160,6 +184,18 @@
 			<section class="create-section">
 				<h2>Create New Link Drop</h2>
 
+				<!-- LOCATION REQUEST BUTTON -->
+				<div class="location-request">
+					<button type="button" class="btn btn-secondary" on:click={requestLocation}>
+						Share My Location
+					</button>
+					{#if location}
+						<p class="info-message">Location shared: {location.latitude}, {location.longitude}</p>
+					{:else}
+						<p class="info-message">Location has not been shared yet.</p>
+					{/if}
+				</div>
+
 				<div class="search-container">
 					<QuestionSearch
 						placeholder="Search for a question..."
@@ -191,10 +227,6 @@
 						{/if}
 					</button>
 				</div>
-
-				{#if !location}
-					<p class="info-message">Waiting for location data...</p>
-				{/if}
 			</section>
 		{:else}
 			<section class="view-section">
@@ -311,6 +343,10 @@
 		}
 	}
 
+	.location-request {
+		margin-bottom: 1.5rem;
+	}
+
 	.search-container {
 		margin-bottom: 1.5rem;
 	}
@@ -384,6 +420,7 @@
 	.info-message {
 		color: #6b7280;
 		font-style: italic;
+		margin: 0.5rem 0 0;
 	}
 
 	.modal-content {
