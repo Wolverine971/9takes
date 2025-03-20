@@ -210,6 +210,7 @@
 		position: relative;
 		cursor: pointer;
 		background: transparent;
+		text-decoration: none !important;
 		border: none;
 
 		&::after {

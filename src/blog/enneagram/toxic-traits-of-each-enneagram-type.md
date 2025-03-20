@@ -496,4 +496,7 @@ So which toxic traits did you recognize in yourself? And more importantly – wh
 </svelte:head>
 
 <style lang="scss">
+  .blog-link:after {
+    content: none;
+  }
 </style>

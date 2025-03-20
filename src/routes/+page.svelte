@@ -25,11 +25,99 @@
 	const keywords =
 		'conflict resolution, personality types, enneagram, anonymous advice, relationship help, different perspectives, personal growth, problem solving, community feedback, decision making';
 
-	// Fixed height placeholder for the question list to prevent layout shift
-	const questionListHeight = '400px';
-
 	// Initialize all sections as visible if not in browser, or if this is a re-render
 	let sectionsVisible = Array(5).fill(browser ? false : true);
+
+	// Sample featured question (replace with actual data)
+	const featuredQuestion = data?.top9Questions?.[0] || {
+		id: '1',
+		title: 'How do you handle conflicts with coworkers who have different communication styles?',
+		content:
+			'I work in a team with diverse personalities. Some are direct and blunt while others prefer softer, more diplomatic approaches. This leads to frequent misunderstandings...',
+		tags: ['workplace', 'communication', 'conflict'],
+		commentCount: 24,
+		createdAt: new Date().toISOString()
+	};
+
+	// Personality blogs
+	const personalityBlogs = [
+		{
+			id: '1',
+			title: 'Type 3: The Achiever',
+			authorName: 'Dua Lipa',
+			authorImage: '/types/3s/Dua-Lipa.webp',
+			url: '/personality-analysis/Dua-Lipa',
+			authorType: 3
+		},
+		{
+			id: '2',
+			title: 'Type 2: The Helper',
+			authorName: 'Olivia Rodrigo',
+			authorImage: '/types/2s/Olivia-Rodrigo.webp',
+			url: '/personality-analysis/Olivia-Rodrigo',
+			authorType: 2
+		},
+		{
+			id: '3',
+			title: 'Type 5: The Investigator',
+			authorName: 'David Sacks',
+			authorImage: '/types/5s/David-Sacks.webp',
+			url: '/personality-analysis/David-Sacks',
+			authorType: 5
+		},
+		{
+			id: '4',
+			title: 'Type 4: The Individualist',
+			authorName: 'Anya-Taylor-Joy',
+			authorImage: '/types/4s/Anya-Taylor-Joy.webp',
+			url: '/personality-analysis/Anya-Taylor-Joy',
+			authorType: 4
+		},
+		{
+			id: '5',
+			title: 'Type 3: The Achiever',
+			authorName: 'Sydney Sweeney',
+			authorImage: '/types/3s/Sydney-Sweeney.webp',
+			url: '/personality-analysis/Sydney-Sweeney',
+			authorType: 3
+		}
+	];
+
+	// Featured articles (recently updated from sitemap)
+	const featuredArticles = [
+		{
+			id: '1',
+			title: 'How Each Enneagram Type Flexes: Revealing Secret Needs for Recognition',
+			excerpt:
+				'Discover the unique ways each Enneagram type shows off their strengths and craves recognition in everyday interactions',
+			image: '/blogs/greek-statue-flex.webp',
+			url: '/enneagram-corner/how-each-enneagram-flexes'
+		},
+		{
+			id: '2',
+			title: 'Toxic Traits of Each Enneagram Type',
+			excerpt:
+				'Understand the shadow sides of each personality type and how to recognize when strengths turn into weaknesses',
+			image: '/blogs/greek-statue-showing-cracks.webp',
+			url: '/enneagram-corner/toxic-traits-of-each-enneagram-type'
+		},
+		{
+			id: '3',
+			title: 'Workplace Team Building with the Enneagram',
+			excerpt:
+				'How to leverage personality differences to create stronger teams and improve workplace communication',
+			image: '/blogs/greek-statues-working-in-teams.webp',
+			url: '/enneagram-corner/enneagram-workplace-team-building'
+		},
+		{
+			id: '4',
+			title: 'How Each Enneagram Type Unwinds',
+			excerpt:
+				'Explore the unique ways different personality types relax, recharge, and recover from stress',
+			image: '/blogs/greek-statues-at-the-beach.webp',
+			url: '/enneagram-corner/how-each-enneagram-type-unwinds'
+		}
+	];
 
 	const steps = [
 		{
@@ -123,8 +211,6 @@
 		// Setup intersection observer for lazy loading sections
 		setupIntersectionObserver();
 
-		// Calculate marquee width
-
 		// Add passive flag to event listener for better performance
 		window.addEventListener(
 			'resize',
@@ -138,6 +224,8 @@
 			if (observer) observer.disconnect();
 		};
 	});
+
+	console.log(featuredQuestion);
 </script>
 
 <svelte:head>
@@ -198,97 +286,158 @@
 
 <svelte:window bind:innerWidth />
 
-<!-- Main container with min-height to prevent layout shift -->
+<!-- Main container -->
 <div class="mx-auto w-full max-w-7xl px-4">
-	<!-- Hero Section -->
-	<div>
-		{#if loaded}
-			<section
-				class="py-8 md:py-16"
-				in:fly={getTransition(0)}
-				style={`min-height: calc(${innerWidth < 400 ? '60vh' : '80vh'} - 80px);`}
-			>
-				<div class="flex flex-col items-center gap-6 md:flex-row md:justify-between md:gap-8">
-					<PeopleBoard
-						images={innerWidth < 600 ? data.images.slice(0, data.images.length - 11) : data.images}
-					/>
-				</div>
-			</section>
-		{:else}
-			<!-- Initial placeholder to prevent layout shift -->
-			<div class="hero-placeholder"></div>
-		{/if}
-	</div>
+	<!-- Bento Grid Hero Section -->
+	{#if loaded}
+		<section class="py-8 md:py-12" in:fly={getTransition(0)}>
+			<!-- Site title and tagline -->
+			<div class="mb-6 text-center md:text-left">
+				<h1
+					class="mb-2 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-3xl font-bold text-transparent md:text-4xl lg:text-5xl"
+				>
+					9takes
+				</h1>
+				<p class="text-lg text-gray-600 md:text-xl">What is your take on life?</p>
+			</div>
 
-	<div>
-		{#if loaded}
-			<section
-				class="py-8 md:py-16"
-				in:fly={getTransition(0)}
-				style="min-height: calc(80vh - 80px);"
-			>
-				<div class="flex flex-col items-center gap-6 md:flex-row md:justify-between md:gap-8">
-					<div class="max-w-xl text-center md:text-left">
-						<h1
-							class="mb-4 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-4xl font-bold text-transparent md:mb-6 md:text-5xl lg:text-6xl"
-						>
-							9takes, <br /> what is your take on life?
-						</h1>
-						<p class="mb-2 mt-4 text-lg md:text-lg lg:text-xl">
-							Ask questions and understand your and other people's takes across different
-							situations.
-						</p>
-						<h2 class="mb-4 text-lg font-medium text-gray-600 md:mb-6 md:text-xl lg:text-2xl">
-							Use the Enneagram, to reveal your core fears and motivations.
-						</h2>
-						<div class="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
-							<!-- {#if innerWidth >= 768}
-								<button class="order-2 text-nowrap rounded-lg px-6 py-3 sm:order-1 bg-gray-100 border border-gray-200 text-gray-800 font-semibold hover:bg-indigo-50 hover:border-indigo-300 hover:text-indigo-800 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
-									Learn More ↓
-								</button>
-							{/if} -->
-							<a
-								class="btn-primary order-1 w-full rounded-lg bg-indigo-600 px-6 py-3 font-semibold !text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-white hover:!text-indigo-600 hover:shadow-md sm:order-2 sm:w-auto"
-								href="/questions"
+			<!-- Bento Box Grid Layout -->
+			<div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-3">
+				<!-- Main Question of the Day - Left Column (spans 2 rows) -->
+				<div
+					class="group rounded-2xl border border-gray-200 bg-white p-5 shadow-md transition-all duration-300 hover:shadow-lg md:col-span-2 md:row-span-2"
+				>
+					<div class="flex h-full flex-col justify-between">
+						<div>
+							<span
+								class="inline-block rounded-full bg-primary-100 px-2.5 py-1 text-xs font-semibold text-primary-800"
 							>
-								Ask a Question {innerWidth <= 768 ? '↓' : '→'}
+								Question of the Day
+							</span>
+						</div>
+
+						<div class="my-6 flex flex-grow items-center justify-center">
+							<h2
+								class="text-center text-xl font-bold transition-colors duration-300 group-hover:text-primary-700 md:text-2xl"
+							>
+								{featuredQuestion.question_formatted}
+							</h2>
+						</div>
+
+						<div class="flex items-center justify-between">
+							<div class="flex items-center">
+								<div class="flex -space-x-2">
+									{#each featuredQuestion.comment_count.toString().split('') as num, i}
+										<div
+											class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-primary-200 text-xs font-bold text-primary-700"
+										>
+											{num}
+										</div>
+									{/each}
+								</div>
+								<span class="ml-2 text-sm text-gray-500"> takes</span>
+							</div>
+							<a
+								href={`/questions/${featuredQuestion.url}`}
+								class="inline-flex items-center text-sm font-semibold text-primary-700 hover:text-primary-800"
+							>
+								Join the discussion
+								<svg
+									class="ml-1 h-4 w-4"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M9 5l7 7-7 7"
+									></path>
+								</svg>
 							</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="mt-6 w-full md:mt-0 md:w-1/2">
+				<!-- Personality Blog Tiles - Right Column (5 small tiles) -->
+				{#each personalityBlogs as blog, index}
+					<div
+						class="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
+					>
+						<a href={`${blog.url}`} class="flex h-full items-center p-3">
+							<div
+								class="mr-3 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full border-2 border-primary-100"
+							>
+								<img
+									src={blog.authorImage}
+									alt={blog.authorName}
+									class="h-full w-full object-cover"
+									loading="eager"
+								/>
+							</div>
+							<div class="overflow-hidden">
+								<h3 class="truncate text-sm font-medium">{blog.title}</h3>
+								<p class="truncate text-xs text-gray-500">{blog.authorName}</p>
+							</div>
+						</a>
+					</div>
+				{/each}
+			</div>
+
+			<!-- Article Grid (2x2) -->
+			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+				{#each featuredArticles as article}
+					<a href={article.url} class="group">
 						<div
-							class="h-auto rounded-xl border border-gray-200 bg-white/70 p-6 shadow-md backdrop-blur-md transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
-							style="min-height: {questionListHeight};"
+							class="h-full overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
 						>
-							<h3 class="mb-4 mt-0 pt-0 text-xl font-semibold">Latest Questions</h3>
-							<div class="min-h-[200px] md:min-h-[400px]">
-								{#each data?.top9Questions || [] as questionData}
-									<QuestionItem {questionData} showDetails={true} />
-								{:else}
-									{#each Array(3) as _}
-										<div
-											class="mb-4 flex h-16 flex-col justify-between rounded-lg border border-gray-200 bg-white p-2"
-										>
-											<div
-												class="h-4 w-full rounded bg-gradient-to-r from-gray-100 to-gray-200 bg-[length:200%_100%] animate-shimmer"
-											></div>
-											<div
-												class="h-3.5 w-[30%] self-end rounded bg-gradient-to-r from-gray-100 to-gray-200 bg-[length:200%_100%] animate-shimmer"
-											></div>
-										</div>
-									{/each}
-								{/each}
+							<div class="h-48 overflow-hidden">
+								<div class="relative h-full w-full overflow-hidden">
+									<img
+										src={article.image}
+										alt={article.title}
+										class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+									/>
+									<div
+										class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+									></div>
+								</div>
+							</div>
+							<div class="p-4">
+								<h3
+									class="mb-2 text-lg font-bold transition-colors duration-300 group-hover:text-primary-700"
+								>
+									{article.title}
+								</h3>
+								<p class="line-clamp-2 text-sm text-gray-600">{article.excerpt}</p>
 							</div>
 						</div>
-					</div>
-				</div>
-			</section>
-		{:else}
-			<!-- Initial placeholder to prevent layout shift -->
-			<div class="hero-placeholder"></div>
-		{/if}
-	</div>
+					</a>
+				{/each}
+			</div>
+
+			<!-- Quick Action Buttons -->
+			<div class="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+				<a
+					href="/questions"
+					class="btn-primary rounded-lg bg-primary-700 px-6 py-3 text-center font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
+				>
+					Ask a Question
+				</a>
+				<a
+					href="/book-session"
+					class="rounded-lg border border-primary-300 bg-white px-6 py-3 text-center font-semibold text-primary-700 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-400 hover:bg-primary-50 hover:shadow-md"
+				>
+					Signup for Enneagram Coaching
+				</a>
+			</div>
+		</section>
+	{:else}
+		<!-- Initial placeholder to prevent layout shift -->
+		<div class="hero-placeholder h-screen"></div>
+	{/if}
 
 	<!-- How it Works Section -->
 	<div class="section-observer" data-section-index="1">
@@ -298,10 +447,10 @@
 				<div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
 					{#each steps as { emoji, title, description }}
 						<div
-							class="rounded-lg border border-gray-200 bg-white p-6 text-center transition-all duration-300 hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md"
+							class="rounded-lg border border-gray-200 bg-white p-6 text-center transition-all duration-300 hover:-translate-y-0.5 hover:border-primary-200 hover:shadow-md"
 						>
 							<div class="mb-2 inline-block text-4xl">{emoji}</div>
-							<h3 class="mb-2 text-lg font-semibold text-indigo-800 md:text-xl">{title}</h3>
+							<h3 class="mb-2 text-lg font-semibold text-primary-800 md:text-xl">{title}</h3>
 							<p class="text-gray-600">{description}</p>
 						</div>
 					{/each}
@@ -314,31 +463,22 @@
 	<div class="section-observer" data-section-index="2">
 		{#if sectionsVisible[2] || !browser}
 			<section
-				class="overflow-hidden rounded-xl bg-gradient-to-br from-indigo-800 to-gray-800 p-8 text-white shadow-lg"
+				class="overflow-hidden rounded-xl bg-gradient-to-br from-primary-800 to-gray-800 p-8 text-white shadow-lg"
 				in:fly={getTransition(2)}
 			>
 				<h2 class="mb-6 text-center text-3xl font-bold md:mb-8 md:text-4xl">Why the Enneagram?</h2>
 				<div class="mx-auto max-w-3xl pb-6 text-center">
 					<p class="mb-4 text-lg text-white/90 md:text-xl">
-						The Enneagram has a nine personality type model and is based on emotions. <br />This
-						makes understanding yourself and others approachable.
+						The Enneagram has a nine personality type model based on emotions.
 					</p>
 
 					<div class="text-center">
 						<p class="mb-4 text-lg font-extrabold tracking-wider md:text-xl">
-							The Enneagram symbol describes how each type is connected and is deceptively deep.
+							The symbol describes how each type is connected and where they go in stress and in
+							comfort (integration/ disintegration).
 						</p>
 					</div>
 					<EnneagramDiagram />
-					<!-- <div class="grid grid-cols-3 gap-2 md:gap-4">
-						{#each Array(9) as _, i}
-							<a class="block border border-white/20 bg-white/10 rounded-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/15 hover:shadow-md hover:border-white/30" href={`/enneagram-corner/enneagram-type-${i + 1}`}>
-								<div class="h-16 flex items-center justify-center">
-									<span class="text-xl font-bold md:text-2xl">Type {i + 1}</span>
-								</div>
-							</a>
-						{/each}
-					</div> -->
 				</div>
 			</section>
 		{/if}
@@ -352,9 +492,11 @@
 				<div class="grid gap-6 md:grid-cols-2 md:gap-8">
 					{#each benefits as { title, description }}
 						<div
-							class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md"
+							class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-primary-200 hover:shadow-md"
 						>
-							<h3 class="mb-3 text-lg font-semibold text-indigo-800 md:mb-4 md:text-xl">{title}</h3>
+							<h3 class="mb-3 text-lg font-semibold text-primary-800 md:mb-4 md:text-xl">
+								{title}
+							</h3>
 							<p class="text-gray-600">{description}</p>
 						</div>
 					{/each}
@@ -368,10 +510,10 @@
 		<div class="section-observer" data-section-index="4">
 			{#if sectionsVisible[4] || !browser}
 				<section
-					class="mb-16 rounded-xl border border-gray-200 bg-gradient-to-r from-indigo-100 to-white p-8 text-center shadow-md md:mb-24"
+					class="mb-16 rounded-xl border border-gray-200 bg-gradient-to-r from-primary-100 to-white p-8 text-center shadow-md md:mb-24"
 					in:fly={getTransition(4)}
 				>
-					<h2 class="mb-4 text-3xl font-bold text-indigo-800 md:mb-6 md:text-4xl">
+					<h2 class="mb-4 text-3xl font-bold text-primary-800 md:mb-6 md:text-4xl">
 						Ready to Gain New Perspectives?
 					</h2>
 					<p class="mb-6 text-lg text-gray-600 md:mb-8 md:text-xl">
@@ -397,33 +539,12 @@
 		}
 	}
 
-	@keyframes scroll {
-		0% {
-			transform: translateX(0);
-		}
-		100% {
-			transform: translateX(calc(-1 * var(--marquee-width) - 1rem));
-		}
-	}
-
 	.animate-shimmer {
 		animation: shimmer 1.5s infinite;
 	}
 
-	.animate-scroll {
-		animation: scroll 30s linear infinite;
-	}
-
-	.animate-paused {
-		animation-play-state: paused;
-	}
-
 	/* Accessibility */
 	@media (prefers-reduced-motion: reduce) {
-		.animate-scroll {
-			animation: none;
-		}
-
 		[in\:fly] {
 			transition: none !important;
 			transform: none !important;

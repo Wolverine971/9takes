@@ -1,17 +1,15 @@
-/* Blog specific styles */
+/* 
+ * Blog specific styles - Optimized
+ */
 
 .blog {
+	/* Link styling for blog content */
 	a {
-		display: contents;
-		flex-wrap: wrap;
-		max-width: 100%;
-		overflow: hidden;
-		vertical-align: middle;
 		color: var(--accent) !important;
 
 		&:hover {
 			text-decoration: underline;
-			color: var(--accent-dark);
+			color: var(--accent-dark) !important;
 		}
 
 		&::after {
@@ -19,58 +17,40 @@
 			display: inline-block;
 			width: 1em;
 			height: 1em;
-			color: var(--accent-dark) !important;
+			margin-left: 0.25em;
 			vertical-align: middle;
 			background: url('/icons/arrow.svg') no-repeat center/contain;
 			border-radius: var(--base-border-radius);
 		}
 	}
 
+	/* Header spacing */
 	> h2,
 	> h3,
 	> h4 {
-		margin-top: 1.2rem !important;
-		padding-top: 1.2rem !important;
+		margin-top: 1.2rem;
+		padding-top: 1.2rem;
 	}
 
 	> h3 {
-		margin-top: 1rem !important;
-		padding-top: 1rem !important;
+		margin-top: 1rem;
+		padding-top: 1rem;
 	}
 
 	> h4 {
-		margin-top: 0.5rem !important;
-		padding-top: 0.5rem !important;
+		margin-top: 0.5rem;
+		padding-top: 0.5rem;
 	}
 }
 
-/* Blog layout container */
-@media (min-width: 800px) {
-	.blog {
-		background-color: var(--card-background);
-		border-radius: var(--border-radius-lg);
-		box-shadow: var(--shadow-md);
-		margin-top: 0 !important;
-		padding: 2rem !important;
-		padding-top: 0 !important;
-	}
-}
-
-/* Comment elements for blog posts */
-.comment-box {
-	margin: 0.5rem 0;
-	padding: 0.75rem;
-}
-
-/* Blog typography */
+/* Quote styling */
 blockquote {
 	margin: 1.5em 0;
 	padding: 1em 1.5em;
-	border-left: 4px solid #833bff;
-	background-color: #f8f9fa;
+	border-left: 4px solid var(--primary);
+	background-color: var(--neutral-100);
 	font-style: italic;
-	color: #2c3e50;
-	position: relative;
+	color: var(--text-primary);
 
 	p {
 		margin: 0;
@@ -81,7 +61,7 @@ blockquote {
 		display: block;
 		margin-top: 1em;
 		font-size: 0.9em;
-		color: #7f8c8d;
+		color: var(--text-secondary);
 		font-style: normal;
 
 		&::before {
@@ -90,18 +70,20 @@ blockquote {
 	}
 }
 
+/* Decorative first letter */
 .firstLetter::first-letter {
 	color: var(--primary);
 	font-size: 1.5rem;
 	font-weight: 700;
 }
 
-/* Blog media elements */
+/* Image styling */
 .arrow-img {
-	border: 1px solid #833bff;
+	border: 1px solid var(--primary);
 	border-radius: 5px;
 }
 
+/* Iframe container */
 .iframe-container {
 	position: relative;
 	margin: 2rem 0;
@@ -121,7 +103,25 @@ blockquote {
 	}
 }
 
-/* Blog responsive adjustments */
+/* Blog layout container */
+@media (min-width: 800px) {
+	.blog {
+		background-color: var(--card-background);
+		border-radius: var(--border-radius-lg);
+		box-shadow: var(--shadow-md);
+		margin-top: 0 !important;
+		padding: 2rem !important;
+		padding-top: 0 !important;
+	}
+}
+
+/* Comment elements */
+.comment-box {
+	margin: 0.5rem 0;
+	padding: 0.75rem;
+}
+
+/* Responsive adjustments */
 @media (max-width: 576px) {
 	.comment-box {
 		margin: 0.25rem 0;
@@ -134,5 +134,10 @@ blockquote {
 	.blog > h4 {
 		margin-top: 0.7rem !important;
 		padding-top: 0.7rem !important;
+	}
+
+	.iframe-container {
+		min-height: 300px;
+		margin: 1rem 0;
 	}
 }
