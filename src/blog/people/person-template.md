@@ -39,7 +39,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	"
 >
 	<!-- <PopCard
-		image={`/types/tiptypes/${'boo-boo'}.webp`}
+		image="/types/tiptypes/boo-boo.webp"
 		enneagramType={tiptype}
 		showIcon={false}
 		displayText="booboo"

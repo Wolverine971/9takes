@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of Jason Calacanis's Enneagram type is speculative, based on publicly available information, and may not reflect Jason's actual personality type.
-
 <p class="firstLetter">We are all the stars in our narratives. We are all driven to succeed, some more than others.</p>
 
 Jason Calacanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He wants to make a mark on the world and is willing to reinvent himself again and again to accomplish this.
@@ -145,25 +143,13 @@ The playful tension between Calacanis and [David Sacks](/personality-analysis/Da
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Jason Calacanis
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jason Calacanis:
-
-- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - They may admire Jason's ambition and success but might be critical of his occasional dominance in the "All In Podcast." They'd wish for more balanced participation.
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - They could appreciate Jason's ability to facilitate discussions on the podcast but may find his relentless drive for personal success a bit overwhelming.
-- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Fellow Achievers would likely look up to Jason as a role model, resonating with his pursuit of success and influence in the tech startup scene.
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - They might find his emphasis on external achievement a bit shallow, yearning to explore his personal experiences and emotions deeper.
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Investigators would likely appreciate Jason's insightful commentary on the podcast and his ability to grasp complex business concepts. However, they may crave more depth and less dominance in the conversation.
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - They would value Jason's commitment to the podcast and his entrepreneurial pursuits but might be wary of his power moves and ambitious nature.
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Enthusiasts would probably admire Jason's energetic personality and his ability to juggle multiple roles successfully - investor, podcast co-host, and entrepreneur.
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - They'd likely respect Jason's assertiveness and determination to maintain influence on the podcast, appreciating his stand for his beliefs.
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Peacemakers might feel uncomfortable with the tension that occasionally arises from Jason's interactions with his co-hosts but would appreciate his efforts to steer the conversation towards constructive and engaging discourse.
-
-## The Call To Action
+## Wrap up
 
 Now that we have made the case for Jason Calacanis being an Enneagram type 3, has there been any shift in your opinion of him? Personalities are multi-faceted, continually evolving constructs, and our views of others should be ready to shift and give way to empathy when we realize we all have different strengths and weaknesses.
 
 What other layers of Jason were missed? Comment below ⬇️
+
+> **Disclaimer** This analysis of Jason Calacanis's Enneagram type is speculative, based on publicly available information, and may not reflect Jason's actual personality type.
 
 <svelte:head>
 

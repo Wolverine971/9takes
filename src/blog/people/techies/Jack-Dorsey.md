@@ -30,7 +30,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	"
 >
 	<PopCard
-		image={`/types/5s/${'Jack-Dorsey'}.webp`}
+		image="/types/5s/Jack-Dorsey.webp"
 		showIcon={false}
 		enneagramType="5"
 		displayText="Jack Dorsey"
@@ -60,7 +60,7 @@ But have you ever wondered about the driving force behind his persona? Let's div
 
 ### Jack is the "investigator" aka the Enneagram type 5
 
-Type 5s are characterized by a profound thirst for knowledge.
+[Type 5s](/enneagram-corner/enneagram-type-5) are characterized by a profound thirst for knowledge.
 
 They have a tendency to isolate themselves retreat into their inner world. They prefer to escape to the intellectual realm often in solitude. And from an early age they develop an ability to concentrate and focus. They are commonly noted as being observant, innovative, and often visionary.
 Sounds familiar?
@@ -115,47 +115,6 @@ True, Dorsey has entrepreneurial traits. But the Enneagram isn't just about surf
 **Twitter's Policy Changes:** When Twitter faced heavy criticism for its content policies, Dorsey didn't just jump to make impulsive changes. He initiated conversations, sought public feedback, and reflected on the platform's broader societal role. This contemplative, inclusive approach to problem-solving echoes Type 5's introspective nature.
 
 <BlogPurpose/>
-
-## How Each Enneagram Type Perceives Jack Dorsey
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jack:
-
-<article>
-	<a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
-  <p>They might see Dorsey as someone who has reshaped communication norms with Twitter, appreciating his innovative approach. However, they might critique him for not adhering to stricter content guidelines on the platform.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
-  <p>Type 2s could admire Dorsey's efforts in building tools (like Square) to aid small businesses. They might see him as someone helping to democratize communication and commerce.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
-  <p>They could view Dorsey as a role model for achieving groundbreaking success in the tech world, establishing not one but two iconic brands. His work ethic and innovation might inspire them.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
-  <p>Type 4s might resonate with the individuality and uniqueness of Dorsey's platforms. They might appreciate Twitter as a medium that gives a voice to individual emotions and narratives.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
-  <p>They'd likely identify with Dorsey's introspective nature and his deep dives into understanding complex systems before creating solutions. They might view him as a fellow seeker of knowledge.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
-  <p>Loyalists might have mixed feelings. While they'd appreciate Dorsey's loyalty to his brands, they might also be wary of the unpredictability of platforms like Twitter and its influence on public sentiment.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
-  <p>Type 7s would likely celebrate the dynamism and ever-evolving nature of Twitter, embracing its pace and diversity. They'd see Dorsey as someone who's brought excitement to digital communication.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
-  <p>Challengers might admire Dorsey for his audacity to challenge communication norms and create platforms that wield significant power. They'd respect his leadership and influence.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
-  <p>Type 9s might appreciate Twitter as a space for diverse voices and perspectives. However, they might also wish for more harmonious interactions on the platform and would hope Dorsey pushes for that direction.</p>
-</article>
 
 ## Wrapping up
 
