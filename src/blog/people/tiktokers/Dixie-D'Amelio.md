@@ -12,7 +12,7 @@ enneagram: 4
 type: ['tiktoker']
 person: "Dixie-D'Amelio"
 wikipedia: ''
-twitter: '' 'https://twitter.com/dixiedamelio'
+twitter: 'https://twitter.com/dixiedamelio'
 instagram: 'https://www.instagram.com/charlidamelio/'
 tiktok: 'https://www.tiktok.com/@dixiedamelio'
 ---

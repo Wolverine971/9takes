@@ -12,7 +12,7 @@ enneagram: 9
 type: ['tiktoker']
 person: "Charli-D'Amelio"
 wikipedia: ''
-twitter: '' 'https://twitter.com/charlidamelio'
+twitter: 'https://twitter.com/charlidamelio'
 instagram: 'https://www.instagram.com/charlidamelio/'
 tiktok: 'https://www.tiktok.com/@charlidamelio'
 ---

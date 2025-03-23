@@ -12,7 +12,7 @@ enneagram: 3
 type: ['tiktoker']
 person: 'Addison-Rae'
 wikipedia: ''
-twitter: '' 'https://twitter.com/whoisaddison'
+twitter: 'https://twitter.com/whoisaddison'
 instagram: 'https://www.instagram.com/addisonraee/'
 tiktok: 'https://www.tiktok.com/@addisonre'
 ---

@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: tiptype
-type: ['celebrity']
+type: ['movieStar']
 person: 'Hugh-Jackman'
 wikipedia: ''
 twitter: ''

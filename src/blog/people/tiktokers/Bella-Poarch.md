@@ -12,7 +12,7 @@ enneagram: 9
 type: ['tiktoker']
 person: 'Bella-Poarch'
 wikipedia: ''
-twitter: '' 'https://twitter.com/bellapoarch'
+twitter: 'https://twitter.com/bellapoarch'
 instagram: 'https://www.instagram.com/bellapoarch/'
 tiktok: 'https://www.tiktok.com/@bellapoarch'
 ---

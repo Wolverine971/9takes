@@ -1,5 +1,5 @@
 ---
-title: 'Nancy Pelosi and Chuck Schumer's Dynamic'
+title: "Nancy Pelosi and Chuck Schumer's Dynamic"
 description: 'How Nancy Pelosi a 3 and Chuck Schumer a 1 interact'
 author: 'DJ Wayne'
 date: '2023-04-22'
@@ -12,7 +12,7 @@ enneagram: 3
 type: ['politician']
 person: 'Pelosi-Schumer-dynamic'
 wikipedia: ''
-twitter: '' 
+twitter: ''
 instagram:
 tiktok:
 ---

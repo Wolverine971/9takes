@@ -12,7 +12,7 @@ enneagram: 3
 type: ['tiktoker']
 person: 'Josh-Richards'
 wikipedia: ''
-twitter: '' 'https://twitter.com/'
+twitter: 'https://twitter.com/'
 instagram: 'https://www.instagram.com//'
 tiktok: 'https://www.tiktok.com/@'
 ---

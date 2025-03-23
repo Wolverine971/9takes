@@ -12,7 +12,7 @@ enneagram: 8
 type: ['tiktoker']
 person: 'Bryce-Hall'
 wikipedia: ''
-twitter: '' 'https://twitter.com/BryceHall'
+twitter: 'https://twitter.com/BryceHall'
 instagram: 'https://www.instagram.com/brycehall/'
 tiktok: 'https://www.tiktok.com/@brycehall'
 ---

@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['celebrity']
+type: ['movieStar']
 person: 'Jennifer-Aniston'
 wikipedia: ''
 twitter: ''

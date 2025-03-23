@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['celebrity']
+type: ['movieStar']
 person: 'Amy-Poehler'
 wikipedia: ''
 twitter: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Tyler Cowen: Navigating the Intellectual Depths as an Enneagram Type 5 Investigator'
-description: 'Explore how Tyler Cowen's insatiable curiosity and analytical mind reflect his Enneagram Type 5 personality, shaping his journey as an economist and cultural commentator.'
+description: "Explore how Tyler Cowen's insatiable curiosity and analytical mind reflect his Enneagram Type 5 personality, shaping his journey as an economist and cultural commentator."
 author: 'DJ Wayne'
 date: '2023-06-21'
 loc: 'https://9takes.com/personality-analysis/Tyler-Cowen'
@@ -9,9 +9,9 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['economist']
+type: ['techie']
 person: 'Tyler-Cowen'
-suggestions: ['Alex Tabarrok', 'Steven Pinker', 'Malcolm Gladwell', 'Paul Krugman', 'Niall Ferguson']
+suggestions: []
 keywords:
   [
     'Tyler Cowen personality type',
@@ -24,6 +24,8 @@ keywords:
     'Tyler Cowen Investigator'
   ]
 ---
+
+<!-- ['Alex Tabarrok', 'Steven Pinker', 'Malcolm Gladwell', 'Paul Krugman', 'Niall Ferguson'] -->
 
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";

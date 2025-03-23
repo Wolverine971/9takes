@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['celebrity']
+type: ['other']
 person: 'Tony-Robbins'
 wikipedia: ''
 twitter: ''

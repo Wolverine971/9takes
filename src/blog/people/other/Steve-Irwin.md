@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['celebrity']
+type: ['other']
 person: 'Steve-Irwin'
 wikipedia: ''
 twitter: ''

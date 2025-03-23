@@ -12,7 +12,7 @@ enneagram: 3
 type: ['creator']
 person: 'Saagar-Enjeti'
 wikipedia: ''
-twitter: '' 'https://twitter.com/esaagar'
+twitter: 'https://twitter.com/esaagar'
 instagram: 'https://z-p3.www.instagram.com/esaagar'
 tiktok:
 ---
