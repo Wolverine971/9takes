@@ -36,8 +36,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Arnold Schwarzenegger's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Arnold Schwarzenegger.
-
 <p class="firstLetter">Arnold Schwarzenegger is a well-known actor, politician, and bodybuilder. He is driven by success and achievement, making him a perfect example of an Enneagram Type 3: The Achiever.</p>
 
 <!-- todo update -->
@@ -59,6 +57,8 @@ Enneagram Type 3s are adaptable and skilled at reinventing themselves to achieve
 ## Competitive Nature
 
 Type 3s are highly competitive, and Arnold Schwarzenegger’s competitive nature has been evident throughout his life. From his bodybuilding competitions to his political campaigns, Arnold has always been driven to come out on top. He is known for his determination and willingness to do whatever it takes to win, which is a hallmark of Enneagram Type 3s.
+
+> **Disclaimer** This analysis of Arnold Schwarzenegger's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Arnold Schwarzenegger.
 
 <svelte:head>
 

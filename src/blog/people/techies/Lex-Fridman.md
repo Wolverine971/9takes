@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Lex Fridmans's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lex.
-
 <p class="firstLetter">AI researcher, podcaster, and promoter of love... but who is Lex Fridman really?</p>
 
 Ever wonder what goes on inside the head of the man who's interviewed everyone from Elon Musk to Joe Rogan? Lex Fridman, the soft-spoken podcast host with a penchant for black t-shirts and deep conversations, has captivated millions with his thoughtful questions and genuine curiosity. But what makes Lex tick?
@@ -159,6 +157,8 @@ This blend of technological expertise and philosophical inquiry is quintessentia
 Lex Fridman's journey from a curious kid in the Soviet Union to a leading voice in AI and technology is a testament to the power of embracing one's natural inclinations. His Type 5 personality, with its insatiable thirst for knowledge and understanding, has found the perfect outlet in his podcast and research.
 
 As we've peeled back the layers of Lex's personality, one question remains: How can we cultivate our own curiosity and turn it into a force for good in the world? Perhaps Lex's example can inspire us all to dig a little deeper, ask tougher questions, and never stop learning.
+
+> **Disclaimer** This analysis of Lex Fridmans's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lex.
 
 <svelte:head>
 

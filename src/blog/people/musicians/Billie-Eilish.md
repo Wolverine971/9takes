@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
     />
 </div>
 
-> **Disclaimer** This analysis of Billie Eilish's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Billie Eilish.
-
 <details>
 <summary class="accordion">TL;DR: Why Billie Eilish is an Enneagram Type 4</summary>
 <div class="panel">
@@ -148,6 +146,8 @@ So, next time you're belting out "bad guy" in your car, remember: You're not jus
 And who knows? Maybe understanding Billie a little better will help you understand yourself too. After all, aren't we all just trying to write our own anthem?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+
+> **Disclaimer** This analysis of Billie Eilish's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Billie Eilish.
 
 <svelte:head>
 

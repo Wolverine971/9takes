@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Prince Harry's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Prince Harry.
-
 <p class="firstLetter">He's been the subject of global fascination, a prince stepping into uncharted territory.</p>
 
 Prince Harry's life is a tapestry of duty, rebellion, and a quest for normalcy. But what if we could see beyond the tabloid headlines and royal formalities? Let's explore the intricate psyche of Prince Harry through the lens of the Enneagram Type 6.
@@ -92,6 +90,8 @@ In a world where judgment often precedes empathy, taking the time to understand 
 
 - Check out this blog for an analysis of <a href="/personality-analysis/Meghan-Markle">Meghan Markle.</a>
 - Check out this one for an analysis on his mother <a href="/personality-analysis/Queen-Elizabeth-II">Queen Elizabeth.</a>
+
+> **Disclaimer** This analysis of Prince Harry's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Prince Harry.
 
 <!-- <div>
 

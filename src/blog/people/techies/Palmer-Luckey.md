@@ -38,8 +38,6 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Palmer Luckey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Palmer.
-
 <p class="firstLetter">Palmer Luckey doesn't just chase new experiences—he sprints after them headlong, arms outstretched, grinning with unbridled excitement.</p>
 
 At 19, while most teens were figuring out college majors, he was revolutionizing virtual reality in his parents' garage. By 22, he had sold Oculus to Facebook for $2 billion. By 25, he'd been fired from that same company, only to immediately launch a cutting-edge defense tech startup now valued at over $14 billion.
@@ -201,6 +199,8 @@ As we watch his continued evolution, one question remains: will Palmer Luckey's 
 Only time will tell. But one thing is certain—it will be an adventure worth watching.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Palmer Luckey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Palmer.
 
 <svelte:head>
 

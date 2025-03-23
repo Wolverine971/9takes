@@ -37,8 +37,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Johnny Depp's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Johnny Depp.
-
 <p class="firstLetter">Johnny Depp - a name that conjures images of eccentric pirates, mad hatters, and lovable outsiders. But who is the man behind these unforgettable characters?</p>
 
 What drives the creative genius that has captivated audiences for decades? Today, we're diving deep into the psyche of Hollywood's most intriguing chameleon, exploring the inner world that fuels his remarkable performances. Buckle up, Depp fans - we're about to peel back the layers of an artist whose complexity rivals that of his most iconic roles.
@@ -118,6 +116,8 @@ Johnny Depp's journey as a Type 4 personality offers us a glimpse into the compl
 As we've seen with Depp, the Enneagram can provide fascinating insights into the motivations and behaviors of even the most enigmatic individuals. It invites us to look beyond the surface and consider the rich inner worlds that shape our actions and choices.
 
 So the next time you watch a Johnny Depp film, remember - you're not just seeing a character, but a window into the soul of a true Type 4. And perhaps, in understanding Depp a little better, we might also understand ourselves.
+
+> **Disclaimer** This analysis of Johnny Depp's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Johnny Depp.
 
 <svelte:head>
 

@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Frida Kahlo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Frida Kahlo.
-
 <p class="firstLetter">Frida Kahlo, the Mexican artist, is known for her unique and powerful artistic style that reflected her innermost emotions and experiences. Her art was a reflection of her life, and her life was a reflection of her Enneagram Type 4 personality, the Individualist.</p>
 
 ## Emotional Depth
@@ -67,6 +65,8 @@ One example of her search for authenticity is her painting "Self-Portrait with T
 Finally, Enneagram Type 4s are known for their intensity and passion. Frida Kahlo was a passionate and intense artist who poured her heart and soul into her art. Her paintings were a reflection of her emotional intensity, and she used her art as a means of expressing her deepest emotions and experiences.
 
 One example of her intensity and passion is her painting "The Suicide of Dorothy Hale," which depicts the suicide of a friend. The painting is a powerful and emotional work that reflects her intense feelings of grief and loss.
+
+> **Disclaimer** This analysis of Frida Kahlo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Frida Kahlo.
 
 <svelte:head>
 

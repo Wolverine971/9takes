@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Nancy Pelosi's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nancy Pelosi.
-
 <p class="firstLetter">Nancy Pelosi, is an influential and pioneering political figure to say the least.</p>
 
 She has significantly impacted the American political landscape as the first female Speaker of the House of Representatives. Pelosi's political career and her commitment to her family demonstrate a remarkable capacity to balance various aspects of her life.
@@ -110,6 +108,8 @@ This analysis of Nancy Pelosi's career through the lens of Enneagram Type 3 trai
 Pelosi's journey from a politically engaged upbringing to becoming one of the most powerful figures in American politics showcases many characteristics associated with Type 3 personalities. Her drive for achievement, adaptability, image consciousness, and strategic approach to relationships have all played significant roles in her political career.
 
 Understanding these aspects of Pelosi's personality doesn't diminish her accomplishments. Rather, it provides a more nuanced view of the personal qualities that have contributed to her effectiveness as a political leader. As we continue to observe Pelosi's career, this framework offers a valuable perspective for interpreting her actions and decisions in the complex arena of American politics.
+
+> **Disclaimer** This analysis of Nancy Pelosi's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nancy Pelosi.
 
 <svelte:head>
 
