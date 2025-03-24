@@ -1,4 +1,5 @@
 import { slugFromPath } from './slugFromPath';
+import { supabase } from './supabase';
 
 export const getPosts = async () => {
 	const enneagramModules = import.meta.glob(`/src/blog/enneagram/*.{md,svx,svelte.md}`);
@@ -26,7 +27,17 @@ export const getPosts = async () => {
 
 	const communityPosts = (await Promise.all(communityPromises)).filter((post) => post?.published);
 
-	const peoplePosts = (await getAllPosts()).filter((post: App.BlogPost) => post.published);
+	const { data: personData, error: personDataError } = await supabase
+		.from('blogs_famous_people')
+		.select('*')
+		.eq('published', true)
+	if (personDataError) {
+		console.log(personDataError)
+
+		throw error(404, { message: 'Error getting posts' });
+	}
+	const peoplePosts: any = personData.map(e => { return { ...e, slug: e.person } })
+
 	const posts = [...enneagramPosts, ...communityPosts, ...peoplePosts]
 		// get post metadata
 		.filter((post) => post?.published)

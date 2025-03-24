@@ -94,6 +94,7 @@
 		"encoding": "^0.1.13",
 		"express": "^4.21.0",
 		"googleapis": "^114.0.0",
+		"gray-matter": "^4.0.3",
 		"gsap": "^3.12.5",
 		"html-to-image": "^1.11.11",
 		"html2canvas": "^1.4.1",

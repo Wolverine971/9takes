@@ -248,56 +248,6 @@ It turns a personal ritual into a public display. This act serves a dual purpose
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Dave Portnoy
-
-Dave is polarizing. Both his supporters and haters see different things in Dave's personality. Let's examine how individuals of each Enneagram type might perceive him:
-
-<article>
-  <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
-  <p><b>Perception:</b> Might view Portnoy as reckless or lacking in moral integrity due to his controversies.</p>
-  <p><b>Common Thought:</b> "He needs to be more responsible and ethical in his actions."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
-  <p><b>Perception:</b> Could admire Portnoy's leadership but may wish he used his influence for more altruistic purposes.</p>
-  <p><b>Common Thought:</b> "He has the power to do good; why doesn't he use it more?"</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
-  <p><b>Perception:</b> Likely to admire Portnoy's entrepreneurial success and his ability to bounce back from setbacks.</p>
-  <p><b>Common Thought:</b> "His business acumen is impressive; I could learn a thing or two from him."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
-  <p><b>Perception:</b> May appreciate Portnoy's unique approach to life but could find him too abrasive or aggressive.</p>
-  <p><b>Common Thought:</b> "I like that he's different, but does he have to be so intense?"</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
-  <p><b>Perception:</b> Intrigued by Portnoy's strategic mind but may question the ethics behind some of his decisions.</p>
-  <p><b>Common Thought:</b> "He's smart, but what's the deeper reasoning behind his actions?"</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
-  <p><b>Perception:</b> Might find Portnoy's unpredictability unsettling but could admire his loyalty to his values.</p>
-  <p><b>Common Thought:</b> "He's hard to pin down, but at least he's consistent in being himself."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
-  <p><b>Perception:</b> Likely to find Portnoy's diverse interests and ventures exciting and inspiring.</p>
-  <p><b>Common Thought:</b> "He's living the dream—doing what he loves and making a fortune out of it!"</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
-  <p><b>Perception:</b> Would probably resonate with Portnoy's need for control and his confrontational nature.</p>
-  <p><b>Common Thought:</b> "He's one of us; he takes charge of his life and isn't afraid of a fight."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
-  <p><b>Perception:</b> Could be put off by Portnoy's confrontational style but may appreciate his authenticity.</p>
-  <p><b>Common Thought:</b> "He's too intense for me, but I respect that he's true to himself."</p>
-</article>
-
 ## Wrapping It Up: The Man Behind the Millions and the Pizza Reviews
 
 Dave Portnoy is a man of contrasts. He can do whatever he wants with a net worth of around $120 million. Yet, he does his pizza reviews almost every day. Why? Because he is a man of the people. He leads Barstool, a media empire in the making, and is constantly surrounded by content creators. Portnoy could easily delegate these reviews to someone else, but he chooses to get his hands dirty. It's not about the pizza; it's about staying grounded. He doesn't care what others think; he does what he believes and sets an example.

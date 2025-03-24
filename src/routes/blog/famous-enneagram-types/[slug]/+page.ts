@@ -1,6 +1,7 @@
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
+import { supabase } from '$lib/supabase';
 
 export const load: PageServerLoad = async (
 	event: any
@@ -20,7 +21,23 @@ export const load: PageServerLoad = async (
 }> => {
 	const params = event.params;
 
-	const pposts: { post: any; posts: any[] } = await getAllPosts(params.slug);
+	const { data: personData } = await supabase
+		.from('blogs_famous_people')
+		.select('*')
+		.eq('person', params.slug)
+		.maybeSingle()
+
+	const { data: personsData } = await supabase
+		.from('blogs_famous_people')
+		.select('*')
+		.eq('published', true)
+
+
+	const pposts: { post: any; posts: any[] } = {
+		posts: personsData,
+		post: personData
+	};
+
 	let group: any = null;
 	switch (pposts.post.type[0]) {
 		case 'celebrity':
@@ -105,71 +122,4 @@ export const load: PageServerLoad = async (
 	};
 };
 
-const getAllPosts = async (pslug: any) => {
-	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
-	const comedians = import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`);
-	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
-	const lifestyleInfluencers = import.meta.glob(
-		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
-	);
-	const movieStars = import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`);
-	const newMovieStars = import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`);
 
-	const historical = import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`);
-	const musicians = import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`);
-	const politicians = import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`);
-	const techies = import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`);
-	const tiktokers = import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`);
-
-	const imports = [
-		celebrities,
-		comedians,
-		creators,
-		lifestyleInfluencers,
-		movieStars,
-		newMovieStars,
-		historical,
-		musicians,
-		politicians,
-		techies,
-		tiktokers
-	];
-
-	const body = [];
-	let post = null;
-
-	for (const category in imports) {
-		for (const path in imports[category]) {
-			body.push(
-				imports[category][path]().then(({ metadata }: any) => {
-					const parts = path.split('/');
-					const slug = slugFromPath(parts[parts.length - 1]);
-					if (slug === pslug) {
-						post = {
-							...metadata, // may not be required for sitemap
-							path,
-							slug
-						};
-					}
-					if (metadata) {
-						return {
-							...metadata, // may not be required for sitemap
-							path,
-							slug
-						};
-					}
-				})
-			);
-		}
-	}
-	const posts = await Promise.all(body);
-
-	return {
-		posts: posts.filter((p) => {
-			if (p?.published && p?.loc) {
-				return true;
-			}
-		}),
-		post
-	};
-};

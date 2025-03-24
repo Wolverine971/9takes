@@ -289,7 +289,7 @@
 				<h2 id="type-{number}">Enneagram Type {number}s</h2>
 				<div class="people-grid-container">
 					{#each data.people
-						.filter((p) => p.enneagram === number)
+						.filter((p) => parseInt(p.enneagram) === number)
 						.slice(0, innerWidth > 960 ? 4 : 5) as person}
 						<a
 							href="/personality-analysis/{person.slug}"

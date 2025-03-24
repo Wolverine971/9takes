@@ -33,6 +33,12 @@ export const load: PageServerLoad = async (event: any) => {
 		});
 	}
 
+	const { data: personData } = await supabase
+		.from('blogs_famous_people')
+		.select('*')
+		.eq('person', slug)
+		.maybeSingle()
+
 	// Create cache keys
 	const userCacheKey = user?.id ? `${slug}:${user.id}` : `${slug}:${cookie}`;
 
@@ -44,17 +50,17 @@ export const load: PageServerLoad = async (event: any) => {
 	if (userHasAnswered === undefined) {
 		const queryPromise = user?.id
 			? supabase
-					.from('blog_comments')
-					.select('id')
-					.eq('blog_link', slug)
-					.eq('author_id', user?.id)
-					.maybeSingle()
+				.from('blog_comments')
+				.select('id')
+				.eq('blog_link', slug)
+				.eq('author_id', user?.id)
+				.maybeSingle()
 			: supabase
-					.from('blog_comments')
-					.select('id')
-					.eq('blog_link', slug)
-					.eq('fingerprint', cookie)
-					.maybeSingle();
+				.from('blog_comments')
+				.select('id')
+				.eq('blog_link', slug)
+				.eq('fingerprint', cookie)
+				.maybeSingle();
 
 		const { data: hasCommented } = await queryPromise;
 		userHasAnswered = !!hasCommented;
@@ -97,6 +103,8 @@ export const load: PageServerLoad = async (event: any) => {
 		}
 	}
 
+	let { content, placeholders } = await processBlogContent(personData.content)
+
 	return {
 		user,
 		session, // Make sure session is available to components
@@ -104,6 +112,9 @@ export const load: PageServerLoad = async (event: any) => {
 			userHasAnswered,
 			userSignedIn: !!event?.locals?.session?.user?.aud
 		},
+		post: { ...personData, slug, content },
+		slug,
+		placeholders,
 		comments
 	};
 };
@@ -170,109 +181,28 @@ export const actions: Actions = {
 
 // Functions to get related posts by niche
 async function getNichePosts(currentSlug: string, postType: string) {
-	let posts: any[] = [];
 
-	// Use appropriate glob pattern based on post type
-	switch (postType) {
-		case 'celebrity':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
-		case 'comedians':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
-		case 'creator':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
-		case 'lifestyleInfluencer':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
-		case 'movieStar':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
+	const { data: personData, error: personDataError } = await supabase
+		.from('blogs_famous_people')
+		.select('*')
+		.filter('type', 'cs', `["${postType}"]`)
 
-		case 'newMovieStar':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
-		case 'musician':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
-		case 'politician':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
-		case 'techie':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
-		case 'tiktoker':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
-		case 'historical':
-			posts = await getPostsFromCategory(
-				import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`),
-				currentSlug
-			);
-			break;
+	if (personDataError) {
+		console.log(personDataError)
 	}
+
 
 	// Return at most 3 posts, randomly sorted
-	return posts
-		.filter((p) => p.published && p.slug !== currentSlug)
+	return personData
+		.filter((p) => p.published && p.person !== currentSlug)
 		.sort(() => 0.5 - Math.random())
-		.slice(0, 4);
+		.slice(0, 4).map(e => {
+			return { ...e, slug: e.person }
+		})
+
 }
 
-// Helper to get posts from a specific category
-async function getPostsFromCategory(modules: Record<string, any>, excludeSlug: string) {
-	const posts = [];
 
-	for (const [path, resolver] of Object.entries(modules)) {
-		const slug = slugFromPath(path.split('/').pop() || '');
-
-		// Skip the current post
-		if (slug === excludeSlug) continue;
-
-		// Only load module if it's not the current post
-		const module = await resolver();
-		if (module.metadata && module.metadata.published) {
-			posts.push({
-				...module.metadata,
-				path,
-				slug
-			});
-		}
-	}
-
-	return posts;
-}
 
 // Function to get posts by enneagram number
 async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
@@ -281,149 +211,139 @@ async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
 	// We need to check each category separately to find posts with matching enneagram
 
 	// Check celebrities
-	let posts = await getEnneagramPostsFromCategory(
-		import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`),
-		currentSlug,
-		enneagramNum
-	);
-	allPosts = [...allPosts, ...posts];
+	const { data: personData, error: personDataError } = await supabase
+		.from('blogs_famous_people')
+		.select('*')
+		.eq('enneagram', enneagramNum)
 
-	// Check comedians if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
+	if (personDataError) {
+		console.log(personDataError)
 	}
 
-	// Check creators if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
-	}
-
-	// Check lifestyle influencers if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
-	}
-
-	// Check movie stars if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
-	}
-
-	// Check new movie stars if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
-	}
-
-	// Check historical figures if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
-	}
-
-	// Check musicians if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
-	}
-
-	// Check politicians if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
-	}
-
-	// Check techies if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
-	}
-
-	// Check tiktokers if we don't have enough posts yet
-	if (allPosts.length < 3) {
-		posts = await getEnneagramPostsFromCategory(
-			import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`),
-			currentSlug,
-			enneagramNum
-		);
-		allPosts = [...allPosts, ...posts];
-	}
 
 	// Return at most 3 posts, randomly sorted
-	return allPosts
-		.filter((p) => p.published && p.slug !== currentSlug)
+	return personData
+		.filter((p) => p.published && p.person !== currentSlug)
 		.sort(() => 0.5 - Math.random())
-		.slice(0, 4);
+		.slice(0, 4).map(e => {
+			return { ...e, slug: e.person }
+		})
+
+
 }
 
-// Helper to get posts with matching enneagram from a category
-async function getEnneagramPostsFromCategory(
-	modules: Record<string, any>,
-	excludeSlug: string,
-	enneagramNum: number
-) {
-	const posts = [];
+import PopCard from '$lib/components/atoms/PopCard.svelte';
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
+import MarqueeHorizontal from '$lib/components/atoms/MarqueeHorizontal.svelte';
+import { marked } from 'marked'; // Import the marked library
 
-	for (const [path, resolver] of Object.entries(modules)) {
-		const slug = slugFromPath(path.split('/').pop() || '');
+async function processBlogContent(content) {
 
-		// Skip the current post
-		if (slug === excludeSlug) continue;
 
-		// Load module and check if it has the matching enneagram
-		const module = await resolver();
-		if (
-			module.metadata &&
-			module.metadata.published &&
-			module.metadata.enneagram &&
-			parseInt(module.metadata.enneagram) === enneagramNum
-		) {
-			posts.push({
-				...module.metadata,
-				path,
-				slug
+
+	let processedContent = '';
+
+	// First, parse the markdown to HTML
+	let htmlContent = await marked.parse(content);
+
+	// Initialize placeholders array
+	const placeholders = [];
+
+	// Process each component type
+	const componentTypes = [
+		{ tag: 'PopCard', component: PopCard },
+		{ tag: 'BlogPurpose', component: BlogPurpose },
+		{ tag: 'MarqueeHorizontal', component: MarqueeHorizontal }
+	];
+
+	// Replace component tags with placeholders
+	componentTypes.forEach(({ tag }) => {
+		// Use regex that can match self-closing tags too
+		const regex = new RegExp(`<${tag}([^>]*)(?:>([\\s\\S]*?)<\\/${tag}>|\\/>)`, 'g');
+
+		htmlContent = htmlContent.replace(regex, (match, props, children = '') => {
+			const id = `component-${placeholders.length}`;
+			const propsObj = parseProps(props);
+
+			// Add children content if any
+			if (children.trim()) {
+				propsObj.children = children;
+			}
+
+			placeholders.push({
+				id,
+				type: tag,
+				props: propsObj
 			});
-		}
+
+			return `<div id="${id}"></div>`;
+		});
+	});
+
+	// Insert BlogPurpose component before the last h2 tag
+	const h2Regex = /<h2[^>]*>.*?<\/h2>/g;
+	const h2Matches = [...htmlContent.matchAll(h2Regex)];
+
+	if (h2Matches.length > 0) {
+		// Find the last h2 tag
+		const lastH2Match = h2Matches[h2Matches.length - 1];
+		const lastH2Index = lastH2Match.index;
+
+		// Generate a unique id for the BlogPurpose component
+		const blogPurposeId = `component-purpose-${Date.now()}`;
+
+		// Insert placeholder div before the last h2 tag
+		htmlContent =
+			htmlContent.substring(0, lastH2Index) +
+			`<div id="${blogPurposeId}"></div>` +
+			htmlContent.substring(lastH2Index);
+
+		// Add the BlogPurpose component to placeholders for mounting
+		placeholders.push({
+			id: blogPurposeId,
+			type: 'BlogPurpose',
+			props: {}
+		});
 	}
 
-	return posts;
+	// Update processed content
+	processedContent = htmlContent;
+
+
+
+	// Helper to parse props from string
+	function parseProps(propsString) {
+		const props = {};
+
+		// Match props with values (handles quotes better)
+		const propMatches = propsString.matchAll(/\s+([a-zA-Z0-9_]+)=["']([^"']*)["']/g);
+		for (const match of propMatches) {
+			props[match[1]] = match[2];
+		}
+
+		// Handle curly brace values like {true}
+		const curlyPropMatches = propsString.matchAll(/\s+([a-zA-Z0-9_]+)=\{([^}]*)\}/g);
+		for (const match of curlyPropMatches) {
+			try {
+				// Try to parse as JSON if possible
+				props[match[1]] = JSON.parse(match[2]);
+			} catch (e) {
+				// Otherwise use the raw string
+				props[match[1]] = match[2];
+			}
+		}
+
+		// Match boolean props
+		const boolProps = propsString.matchAll(/\s+([a-zA-Z0-9_]+)(?=\s|$)/g);
+		for (const match of boolProps) {
+			if (!props[match[1]]) {
+				props[match[1]] = true;
+			}
+		}
+
+		return props;
+	}
+	return { content: processedContent, placeholders }
+
+
 }

@@ -1,4 +1,5 @@
 import { supabase } from '$lib/supabase';
+import { error } from '@sveltejs/kit';
 
 // const SITE_URL = '9takes.com';
 const getAllPosts = async () => {
@@ -14,20 +15,6 @@ const getAllPosts = async () => {
 	const popculture = import.meta.glob(`/src/blog/pop-culture/*.{md,svx,svelte.md}`);
 	const situational = import.meta.glob(`/src/blog/situational/*.{md,svx,svelte.md}`);
 	const topical = import.meta.glob(`/src/blog/topical/*.{md,svx,svelte.md}`);
-	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
-	const comedians = import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`);
-	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
-	const lifestyleInfluencers = import.meta.glob(
-		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
-	);
-	const movieStars = import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`);
-	const newMovieStars = import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`);
-
-	const historicals = import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`);
-	const musicians = import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`);
-	const politicians = import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`);
-	const techies = import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`);
-	const tiktokers = import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`);
 
 	const imports = [
 		community,
@@ -40,17 +27,6 @@ const getAllPosts = async () => {
 		popculture,
 		situational,
 		topical,
-		celebrities,
-		comedians,
-		creators,
-		lifestyleInfluencers,
-		movieStars,
-		newMovieStars,
-		historicals,
-		musicians,
-		politicians,
-		techies,
-		tiktokers
 	];
 
 	const body = [];
@@ -90,7 +66,19 @@ const getQuestions = async () => {
 
 export async function GET() {
 	// return new Response();
-	const posts = await getAllPosts();
+
+	const { data: personData, error: personDataError } = await supabase
+		.from('blogs_famous_people')
+		.select('*')
+		.eq('published', true)
+	if (personDataError) {
+		console.log(personDataError)
+
+		throw error(404, { message: 'Error getting posts' });
+	}
+	const peoplePosts: any = personData.map(e => { return { ...e, slug: e.person } })
+
+	const posts = [...await getAllPosts(), ...peoplePosts]
 
 	const questions = await getQuestions();
 
@@ -258,10 +246,10 @@ export async function GET() {
 	</url>
 
 	  ${posts
-			.map((post) => {
-				if (post.loc.includes('personality-analysis')) {
-					if (post.person && post.enneagram) {
-						return `		
+				.map((post) => {
+					if (post.loc.includes('personality-analysis')) {
+						if (post.person && post.enneagram) {
+							return `		
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -272,8 +260,8 @@ export async function GET() {
 		</image:image>
 	  </url>
 	  `;
-					} else {
-						return `
+						} else {
+							return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -281,16 +269,16 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `;
+						}
 					}
-				}
 
-				if (
-					post.loc.includes('enneagram') ||
-					post.loc.includes('guides') ||
-					post.loc.includes('community')
-				) {
-					if (post.pic) {
-						return `
+					if (
+						post.loc.includes('enneagram') ||
+						post.loc.includes('guides') ||
+						post.loc.includes('community')
+					) {
+						if (post.pic) {
+							return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -301,8 +289,8 @@ export async function GET() {
 		</image:image>
 	  </url>
 	  `;
-					} else {
-						return `
+						} else {
+							return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -310,9 +298,9 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `;
-					}
-				} else {
-					return `
+						}
+					} else {
+						return `
 							<url>
 							  <loc>${post.loc}</loc>
 							  <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -320,9 +308,9 @@ export async function GET() {
 							  <priority>0.7</priority>
 							</url>
 							`;
-				}
-			})
-			.join('')}
+					}
+				})
+				.join('')}
 
 				<url>
 					<loc>https://9takes.com/questions</loc>
@@ -332,15 +320,15 @@ export async function GET() {
 				</url>
 
 				${questions
-					?.map((q) => {
-						return `<url>
+				?.map((q) => {
+					return `<url>
 	    <loc>https://9takes.com/questions/${q.url}</loc>
 	    <lastmod>${new Date(q.created_at).toISOString()}</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	  </url>`;
-					})
-					.join('')}
+				})
+				.join('')}
 			
 
 	</urlset>`.trim(),
