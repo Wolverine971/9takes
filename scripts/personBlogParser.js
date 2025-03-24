@@ -170,9 +170,8 @@ async function insertIntoSupabase(entries) {
 	// Import the Supabase client
 
 	// Initialize Supabase client
-	const supabaseUrl = 'https://nhjjzcsnmyotyhykbajc.supabase.co';
-	const supabaseKey =
-		'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5oamp6Y3NubXlvdHloeWtiYWpjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njk3ODUwNjQsImV4cCI6MTk4NTM2MTA2NH0.tMBlWDt9uKRq19iKtsMtxRdYPOisOOGY-cLUpncHHrU';
+	const supabaseUrl = '';
+	const supabaseKey = '';
 	const supabase = createClient(supabaseUrl, supabaseKey);
 
 	console.log('Inserting blog entries into Supabase...');

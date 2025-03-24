@@ -45,7 +45,7 @@ The cameras caught it time and again - that famous "Nancy Reagan stare." Behind 
 
 ## Why Nancy Reagan's Type 2 Personality Matters in Political History
 
-Nancy Reagan wasn't just Ronald Reagan's wife. She was his guardian. His gatekeeper. His everything.
+Nancy Reagan wasn't just [Ronald Reagan](/personality-analysis/Ronald-Reagan)'s wife. She was his guardian. His gatekeeper. His everything.
 
 Her critics called her "The Dragon Lady." Her supporters saw a fiercely loyal partner. Both were right.
 
@@ -107,15 +107,13 @@ She developed a wary relationship with reporters - smiling for cameras while mai
 
 ## Nancy vs. Barbara vs. Hillary: Why Type Matters in the East Wing
 
-Compare Nancy Reagan with Barbara Bush (likely a Type 9 "Peacemaker") and Hillary Clinton (probable Type 3 "Achiever").
+Compare Nancy Reagan with Barbara Bush (likely a Type 9 "Peacemaker") and [Hillary Clinton](/personality-analysis/Hillary-Clinton) (probable Type 3 "Achiever").
 
 Barbara embraced a grandmotherly image. Hillary pursued policy initiatives openly. Nancy worked through her husband.
 
 Same role. Different Enneagram types. Dramatically different approaches.
 
 Nancy's Type 2 strategy wasn't calculating - it was instinctive. She helped in the way that felt most natural: by supporting, protecting, and influencing the person she loved most.
-
-<BlogPurpose />
 
 ## Legacy of a Type 2 First Lady: What Nancy Reagan Teaches Us
 

@@ -144,7 +144,7 @@ These statements reflect the Type 3's constant pursuit of excellence and the str
 
 Sabrina's friendship with [Taylor Swift](/personality-analysis/Taylor-Swift) exemplifies a Type 3's ability to build strategic relationships. This connection has been mutually beneficial, with Sabrina opening for Taylor's Eras Tour in Mexico City in 2023 and the two often appearing together on red carpets and social media.
 
-Interestingly, Taylor Swift is also widely considered to be an Enneagram Type 3. This shared personality type likely contributes to their strong bond and professional synergy. Type 3s often excel at mentoring others, seeing it as both a way to help and a reflection of their own success. Taylor's mentorship of Sabrina fits this pattern perfectly.
+Interestingly, [Taylor Swift](/personality-analysis/Taylor-Swift) is also widely considered to be an Enneagram Type 3. This shared personality type likely contributes to their strong bond and professional synergy. Type 3s often excel at mentoring others, seeing it as both a way to help and a reflection of their own success. Taylor's mentorship of Sabrina fits this pattern perfectly.
 
 For Type 3s like Sabrina and Taylor, networking isn't just about making connections – it's about creating a support system of successful individuals who can inspire and elevate each other. This mindset gives insight into why 3s are so adept at networking and building influential relationships.
 
@@ -156,13 +156,11 @@ On Twitter, Sabrina engages fans with witty remarks and behind-the-scenes conten
 
 Perhaps most impressively, Carpenter excels at building anticipation and hype for her work. Before releasing new music or announcing projects, she often drops subtle hints or teasers on her social media platforms, engaging her fanbase and creating buzz. This strategy reflects the Type 3's talent for self-promotion and image management.
 
-<BlogPurpose/>
-
 ## Navigating Storms: Sabrina's Response to Setbacks
 
 Type 3s often struggle with criticism, and Sabrina's responses reveal this trait:
 
-During the "drivers license" controversy in 2021, when fans speculated about her involvement in Olivia Rodrigo and Joshua Bassett's rumored relationship drama, Carpenter maintained a dignified silence. She later addressed the situation indirectly through her music, particularly in her song "Skin." This approach allowed her to control the narrative while avoiding direct confrontation, a classic Type 3 strategy for image management.
+During the "drivers license" controversy in 2021, when fans speculated about her involvement in [Olivia Rodrigo](/personality-analysis/Olivia-Rodrigo) and Joshua Bassett's rumored relationship drama, Carpenter maintained a dignified silence. She later addressed the situation indirectly through her music, particularly in her song "Skin." This approach allowed her to control the narrative while avoiding direct confrontation, a classic Type 3 strategy for image management.
 
 When facing online backlash or negative press, Carpenter often takes brief social media breaks. This is a typical Type 3 stress response, allowing time to regroup and strategize before re-emerging with a polished, controlled message.
 

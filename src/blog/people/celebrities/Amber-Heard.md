@@ -100,8 +100,6 @@ Friends close to Amber have described her as "intensely focused" and "always on.
 
 One of the greatest challenges for Type 3s is connecting with their authentic selves beneath the polished exterior. Amber's involvement in various causes, from LGBTQ+ rights to environmental activism, could be seen as attempts to align her public persona with her inner values.
 
-<BlogPurpose/>
-
 ## Noteworthy Achievements and the Type 3 Drive
 
 ### Philanthropy and Advocacy

@@ -160,6 +160,18 @@
 		}
 	];
 
+	const enneagramTypes = {
+		1: 'Type 1: The Perfectionist',
+		2: 'Type 2: The Helper',
+		3: 'Type 3: The Achiever',
+		4: 'Type 4: The Individualist',
+		5: 'Type 5: The Investigator',
+		6: 'Type 6: The Loyalist',
+		7: 'Type 7: The Enthusiast',
+		8: 'Type 8: The Challenger',
+		9: 'Type 9: The Peacemaker'
+	};
+
 	function getTransition(index) {
 		const duration = 600; // Reduced from 800 for faster loading
 		const delay = 150; // Reduced from 200 for faster loading
@@ -363,24 +375,24 @@
 				</div>
 
 				<!-- Personality Blog Tiles - Right Column (5 small tiles) -->
-				{#each personalityBlogs as blog, index}
+				{#each data.famousPeople as blog, index}
 					<div
 						class="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
 					>
-						<a href={`${blog.url}`} class="flex h-full items-center p-3">
+						<a href={`personality-analysis/${blog.person}`} class="flex h-full items-center p-3">
 							<div
 								class="mr-3 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full border-2 border-primary-100"
 							>
 								<img
-									src={blog.authorImage}
-									alt={blog.authorName}
+									src={`/types/${blog.enneagram}s/${blog.person}.webp`}
+									alt={blog.person}
 									class="h-full w-full object-cover"
 									loading="eager"
 								/>
 							</div>
 							<div class="overflow-hidden">
-								<h3 class="truncate text-sm font-medium">{blog.title}</h3>
-								<p class="truncate text-xs text-gray-500">{blog.authorName}</p>
+								<h3 class="truncate text-sm font-medium">{enneagramTypes[blog.enneagram]}</h3>
+								<p class="truncate text-xs text-gray-500">{blog.person.split('-').join(' ')}</p>
 							</div>
 						</a>
 					</div>

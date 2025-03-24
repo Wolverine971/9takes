@@ -20,7 +20,7 @@ tiktok: 'https://www.tiktok.com/@emrata'
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -56,12 +56,6 @@ Type 8 individuals are known for their strength, resilience, and independence, q
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3mh8E7aq3LpvyDmieHJHaR?utm_source=generator&t=2470543" title="Emily Ratajkowski talking about men feeling emasculated" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 
-<!-- <iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/imazLCAMojQ?clip=UgkxRkNXv8TeG6Je1L2Ylrx9kKjylmQPab8D&amp;clipt=EPeoBxjz4gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe width="100%" height="315"
-src="https://youtube.com/clip/UgkxRv5kVF_HC7P0Din42aIrKdAUefVnxID8">
-</iframe> -->
-
 ## Awareness of Power Dynamics
 
 As an Enneagram Type 8, Ratajkowski's keen understanding of power dynamics in the modeling and entertainment industries is no surprise. In her book "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://us.macmillan.com/books/9781250817860/mybody">My Body</a>," she discusses issues related to consent, exploitation, and the male gaze, demonstrating her ability to confront and challenge the imbalances that exist within these industries. This awareness of power dynamics and the desire to challenge them is a hallmark of the Type 8 personality.
@@ -75,8 +69,6 @@ In addition to their assertive nature, Type 8 individuals are often driven by a 
 <div class="iframe-container">
 <iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/YzHbK0tbMr0?clip=UgkxRv5kVF_HC7P0Din42aIrKdAUefVnxID8&amp;clipt=EPrHEBi72hM" title="Emily Ratajkowski talking about how men are not doing well" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
-<BlogPurpose/>
 
 ## Wrapping Up
 

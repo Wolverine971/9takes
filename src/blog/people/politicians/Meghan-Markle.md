@@ -83,8 +83,6 @@ For a Type 2 personality, that's emotional suffocation.
 
 The creation of the Archewell Foundation after leaving royal duties reveals what truly drives her – the freedom to channel her energy into causes where she feels genuinely needed and effective.
 
-<BlogPurpose/>
-
 ## The Helper's Shadow: Image Management
 
 Every Enneagram type has shadow aspects, and Type 2's struggle with authenticity when seeking approval.
@@ -162,7 +160,7 @@ Her story reminds us that even those in the most privileged positions still grap
 ## Learn More About Similar Personalities
 
 - Explore more about <a href="/enneagram-corner/enneagram-type-2">Enneagram Type 2s</a> and their unique characteristics
-- Read our analysis of <a href="/personality-analysis/Prince-Harry">Prince Harry</a> and his personality type
+- Read our analysis of [Prince Harry](/personality-analysis/Prince-Harry) and his personality type
 
 <svelte:head>
 

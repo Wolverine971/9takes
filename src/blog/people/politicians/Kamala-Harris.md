@@ -38,23 +38,6 @@ tiktok: ''
     />
 </div>
 
-<details>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#childhood">Childhood Dreams and Courtroom Dramas</a></li>
-        <li><a href="#inner-world">The Inner World of an Achiever: Kamala's Drive for Success</a></li>
-        <li><a href="#emotional-landscape">From Courtroom to Campaign Trail: The Emotional Landscape of a Type 3</a></li>
-        <li><a href="#adaptability">The Chameleon Effect: Kamala's Adaptability in Action</a></li>
-        <li><a href="#behind-scenes">Behind the Scenes: Kamala's Daily Rituals and Inner Circle</a></li>
-        <li><a href="#strengths-weaknesses">The Double-Edged Sword: Strengths and Weaknesses of Kamala's Type 3 Personality</a></li>
-        <li><a href="#relationships">Love, Friendship, and the Type 3 Dynamic</a></li>
-        <li><a href="#controversy">Controversy and Growth: The Evolution of Kamala Harris</a></li>
-        <li><a href="#vice-presidency">Kamala as Vice President: Type 3 in the White House</a></li>
-        <li><a href="#pop-culture">The 'Brat' Endorsement: Kamala's Pop Culture Moment</a></li>
-        <li><a href="#impact">The Lasting Impact of an Achiever</a></li>
-    </ul>
-</details>
-
 <p class="firstLetter">You've witnessed her charisma, heard her speeches, and seen her navigate the challenging terrain of American politics.</p>
 
 Kamala Harris, the first woman and person of color to become Vice President of the United States, embodies the drive and adaptability characteristic of an Enneagram Type 3. Known as ["The Achiever,"](/enneagram-corner/enneagram-type-3) Type 3s are goal-oriented, image-conscious individuals who thrive on success and recognition. But there's more to Harris than meets the eye.

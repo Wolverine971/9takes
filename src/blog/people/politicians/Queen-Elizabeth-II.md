@@ -37,8 +37,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Queen Elizabeth II's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Queen Elizabeth II.
-
 <p class="firstLetter">Queen Elizabeth II, the longest-reigning monarch in British history, is widely known for her diplomatic skills and ability to maintain peace and stability within her country and the Commonwealth. These qualities are reflective of her Enneagram type 9 personality, also known as the Peacemaker.</p>
 
 ## Maintaining Harmony and Unity
@@ -59,6 +57,4 @@ Type 9 individuals also tend to value tradition and history, and Queen Elizabeth
 
 Check out this one for an analysis on her son <a href="/personality-analysis/Prince-Harry">Prince Harry.</a>
 
-<svelte:head>
-
-</svelte:head>
+> **Disclaimer** This analysis of Queen Elizabeth II's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Queen Elizabeth II.

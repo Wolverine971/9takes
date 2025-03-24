@@ -80,8 +80,6 @@ Jake's relationship with Tana Mongeau, and his strong bond with his brother, <a 
 
 The Achiever often struggles with authenticity in relationships, mainly due to their fear of being unloved. The controversy surrounding Jake's whirlwind romance and marriage to Tana, and the constant comparisons to his equally famous brother, Logan, underscore the struggles Jake faces in his personal life, further exemplifying his Type 3 tendencies.
 
-<BlogPurpose/>
-
 ## Wrapping up
 
 It seems quite plausible, then, that Jake Paul does indeed epitomize the characteristics of an Enneagram Type 3. His relentless drive for success, fear of failure, and struggle for authenticity in relationships 💑 painst a picture of his personality. But as we all know, people are complex, and categorizing individuals neatly isn't always possible.

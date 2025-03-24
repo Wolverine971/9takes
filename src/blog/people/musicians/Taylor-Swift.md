@@ -106,7 +106,7 @@ Each transformation came with calculated risks. Each paid off spectacularly.
 
 How many artists can transform very public feuds into career-defining moments?
 
-The infamous 2009 VMA incident with Kanye West would have derailed many careers. For Taylor, it became fuel.
+The infamous 2009 VMA incident with [Kanye](/personality-analysis/Kanye) West would have derailed many careers. For Taylor, it became fuel.
 
 "I had to deconstruct an entire belief system," she revealed in her documentary _Miss Americana_, showing how this turning point forced her to rebuild herself stronger.
 
@@ -168,8 +168,6 @@ The Eras Tour isn't just a concert series—it's a reimagining of what live perf
 
 This constant innovation stems from the Type 3's restless drive to redefine what's possible.
 
-<BlogPurpose />
-
 ## Looking Beyond the Spotlight: Taylor Swift's Personal Growth
 
 How has Swift's personality evolved throughout her journey in the public eye?
@@ -199,8 +197,6 @@ Taylor's journey reminds us that true achievement isn't just about accolades—i
 As she sings in "The Lakes": "I've come too far to watch some namedropping sleaze tell me what are my words worth."
 
 > **Disclaimer:** This analysis draws on publicly available information to explore Taylor Swift's personality through an Enneagram perspective. While informed by interviews, documentaries, and career decisions, it offers possibilities rather than definitive conclusions about her inner psychology.
-
-Curious about your own personality patterns? Explore our [personality questions](/questions) to begin your journey of self-discovery.
 
 <svelte:head>
 

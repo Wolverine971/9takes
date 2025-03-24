@@ -40,8 +40,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of Nikola Tesla's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nikola Tesla.
-
 <p class="firstLetter">Picture this: A young boy, sickly yet bright-eyed, gazes at the lightning storm outside his window in a small town called Smiljan in Croatia. His mind races with questions, curiosity, and a sense of wonder that most of us can only dream of. This boy is Nikola Tesla, and today we're going on a journey through his life, exploring how he embodies the traits of an Enneagram Type 4.</p>
 
 <details>
@@ -102,8 +100,6 @@ Nikola Tesla remained a dreamer in his later years, even as public perception sh
 
 Reflecting on his life, Tesla may have felt a blend of pride and unfulfilled dreams. While not all his visions materialized, his impact was undeniable. His emotional depth and creativity left an indelible mark on the world, ensuring his legacy would endure.
 
-<BlogPurpose/>
-
 ## Conclusion: The Enneagram and The Genius
 
 Tesla's story is a testament to the power of individuality, the beauty of emotional depth, and the courage it takes to follow one's own path, no matter how unconventional.
@@ -111,6 +107,8 @@ Tesla's story is a testament to the power of individuality, the beauty of emotio
 Are you, like Tesla, driven by a deep emotional connection to your pursuits, or are you driven by something else?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+
+> **Disclaimer** This analysis of Nikola Tesla's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nikola Tesla.
 
 <svelte:head>
 

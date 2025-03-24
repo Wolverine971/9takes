@@ -118,7 +118,7 @@ This unique neurological condition gives her art an extra dimension, allowing he
 
 Despite her rising fame, Chappell maintains a hands-on approach that would make any Type 7 proud. Her aesthetic—a technicolor blend of drag culture, camp sensibility, and pop theatricality—is entirely self-directed.
 
-Her performances draw comparisons to Lady Gaga, Lana Del Rey, and Kate Bush, but her style—blending pop, disco, synth-pop and rock with cheerleader theatricality and drag queen flair—remains uniquely her own.
+Her performances draw comparisons to [Lady Gaga](/personality-analysis/Lady-Gaga), [Lana Del Rey](/personality-analysis/Lana-Del-Rey), and Kate Bush, but her style—blending pop, disco, synth-pop and rock with cheerleader theatricality and drag queen flair—remains uniquely her own.
 
 ## The Shadows Behind the Sparkle
 
@@ -146,8 +146,6 @@ Despite her meteoric rise, Chappell hasn't forgotten the importance of community
 - Donating to For the Gworls, a Black, trans-led nonprofit
 
 During her emotional 2025 Grammy acceptance speech, she advocated powerfully for artists' mental health, using her platform to address issues close to her heart.
-
-<BlogPurpose/>
 
 ## Creating Community Through Performance
 

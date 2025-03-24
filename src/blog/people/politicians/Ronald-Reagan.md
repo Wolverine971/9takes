@@ -37,8 +37,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Ronald Reagan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ronald Reagan.
-
 <p class="firstLetter">Ronald Reagan, the 40th President of the United States, is often described as a calm and easy-going leader. This demeanor is often associated with Enneagram Type 9, known as the "Peacemaker." In this blog post, we will explore why Ronald Reagan is an Enneagram Type 9 and provide examples from his life.</p>
 
 ## Desire for peace and harmony
@@ -57,7 +55,9 @@ Type 9s are known for their calm demeanor and ability to remain composed under p
 
 Enneagram Type 9s place a high value on unity and often seek to create a sense of oneness among people. Reagan's "Morning in America" campaign was a prime example of this. He emphasized the idea of Americans working together towards a common goal and painted a positive vision for the future.
 
-Check out this blog for an analysis of <a href="/personality-analysis/Nancy-Reagan">Nancy Reagan.</a>
+Check out this blog for an analysis of [Nancy Reagan](/personality-analysis/Nancy-Reagan).
+
+> **Disclaimer** This analysis of Ronald Reagan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ronald Reagan.
 
 <svelte:head>
 

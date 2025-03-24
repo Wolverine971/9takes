@@ -150,9 +150,7 @@ As Stewart returns to _The Daily Show_ in 2024, we see a Type 7 who has matured 
 
 At 61, Stewart demonstrates how Type 7s can evolve—channeling their natural curiosity and energy into meaningful work while developing deeper commitments and emotional resilience.
 
-His legacy extends beyond comedy. Former Daily Show correspondents like Stephen Colbert, John Oliver, Samantha Bee, and Trevor Noah have carried his influence into a new generation of political commentary. His advocacy work has changed laws and improved thousands of lives.
-
-<BlogPurpose/>
+His legacy extends beyond comedy. Former Daily Show correspondents like Stephen Colbert, John Oliver, Samantha Bee, and [Trevor Noah](/personality-analysis/Trevor-Noah) have carried his influence into a new generation of political commentary. His advocacy work has changed laws and improved thousands of lives.
 
 ## Final Thoughts
 

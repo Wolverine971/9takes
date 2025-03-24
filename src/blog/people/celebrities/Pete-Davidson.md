@@ -59,7 +59,7 @@ But beneath the chaos? A classic Type 9 personality—The Peacemaker—just tryi
 
 Nothing screams Type 9 louder than Davidson's signature self-roasting.
 
-Behind every joke about his "butthole eyes" or "mentally ill looks" lies a classic Peacemaker strategy—diffuse tension before it arrives. When his engagement to Ariana Grande imploded in public, he didn't hide. He joked about it on Weekend Update. When people questioned his BDE (Big Dick Energy), he leaned in harder.
+Behind every joke about his "butthole eyes" or "mentally ill looks" lies a classic Peacemaker strategy—diffuse tension before it arrives. When his engagement to [Ariana Grande](/personality-analysis/Ariana-Grande) imploded in public, he didn't hide. He joked about it on Weekend Update. When people questioned his BDE (Big Dick Energy), he leaned in harder.
 
 Why? Because [Type 9s](/enneagram-corner/enneagram-type-9) will do _anything_ to maintain inner peace—even if it means beating others to the punch.
 
@@ -74,7 +74,7 @@ That's repressed anger—the Type 9's dirty little secret.
 While Peacemakers appear chill and conflict-avoidant, they're actually sitting on volcanic rage. Davidson lets it seep through in calculated doses:
 
 - His brutal takedowns of his hometown Staten Island
-- Those cutting remarks about Kanye during the Kardashian drama
+- Those cutting remarks about [Kanye](/personality-analysis/Kanye) during the Kardashian drama
 - The barely contained frustration when discussing mental health stigma
 
 One moment from his Netflix special perfectly captures this duality. Davidson calmly discusses internet trolls telling him to kill himself—before suddenly unleashing a vicious, precise counterattack. Classic Nine: peaceful until pushed beyond the breaking point.
@@ -109,9 +109,7 @@ Not bad for a personality type known for inaction and conflict avoidance.
 
 This success emerged precisely because Davidson channeled his Nine-ness productively. His laid-back authenticity resonates with audiences tired of polished celebrity perfection. His vulnerability—rooted in Type 9's capacity for emotional depth—creates genuine connection through comedy.
 
-Most importantly, he's learned to use his personality rather than fight it. When Kim Kardashian called him "the sweetest, most thoughtful person," she was describing classical Nine traits that, when healthy, create magnetic charm.
-
-<BlogPurpose/>
+Most importantly, he's learned to use his personality rather than fight it. When [Kim Kardashian](/personality-analysis/Kim-Kardashian) called him "the sweetest, most thoughtful person," she was describing classical Nine traits that, when healthy, create magnetic charm.
 
 ## How Each Enneagram Type Reacts to Pete Davidson
 

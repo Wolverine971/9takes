@@ -49,7 +49,7 @@ Today, we're diving deep into Kanye's mind through the lens of the [Enneagram Ty
 ## TL;DR: Why Kanye Screams Enneagram Type 7
 
 - **Endless Creative Evolution:** From soul samples on "College Dropout" to the industrial sounds of "Yeezus" to the gospel of "Jesus Is King" – Kanye refuses to make the same album twice. Classic Type 7 behavior.
-- **Controversy as Oxygen:** The Taylor Swift moment. The presidential run. The provocative tweets. Type 7s avoid pain by creating distractions and seeking new stimulation – sometimes at any cost.
+- **Controversy as Oxygen:** The [Taylor Swift](/personality-analysis/Taylor-Swift) moment. The presidential run. The provocative tweets. Type 7s avoid pain by creating distractions and seeking new stimulation – sometimes at any cost.
 - **Fear of Confinement:** "No one man should have all that power." Kanye's lyrics and actions consistently reveal his deep fear of being restricted, limited, or bored – the core Type 7 fear.
 - **Manic Idea Generation:** Kanye's scattered approach to creative projects, rapid idea generation, and difficulty completing ventures shows the Type 7's constant hunger for novelty.
 
@@ -87,7 +87,7 @@ This era reveals how even Type 7s, who typically avoid pain, sometimes channel t
 
 Maximalist production. Hawaiian creative retreat. Ballet films.
 
-"My Beautiful Dark Twisted Fantasy" wasn't just an album – it was Kanye's artistic redemption after the Taylor Swift backlash. Its grandiosity shows how Type 7s go all-in when motivated.
+"My Beautiful Dark Twisted Fantasy" wasn't just an album – it was Kanye's artistic redemption after the [Taylor Swift](/personality-analysis/Taylor-Swift) backlash. Its grandiosity shows how Type 7s go all-in when motivated.
 
 Kanye retreated to Hawaii, flying in dozens of collaborators for a creative utopia. This exemplifies the Type 7's ideal work environment: stimulating, collaborative, and bursting with possibilities.
 
@@ -99,7 +99,7 @@ Minimal marketing. Industrial sounds. Confederate flags.
 
 "Yeezus" stripped away everything comfortable about Kanye's music, replacing it with harsh industrial sounds and provocative imagery. The album tour featured mountain stages and bejeweled masks – spectacle as only a Type 7 could imagine it.
 
-During this era, Kanye compared himself to creative visionaries like Walt Disney and Steve Jobs – revealing the Type 7's grandiose self-image and limitless ambition.
+During this era, Kanye compared himself to creative visionaries like Walt Disney and [Steve Jobs](/personality-analysis/Steve-Jobs) – revealing the Type 7's grandiose self-image and limitless ambition.
 
 His fashion line expanded, showing how Type 7s constantly seek new creative outlets when existing ones feel constraining.
 
@@ -146,33 +146,11 @@ When Type 7s feel cornered, criticized, or constrained, they often:
 
 This isn't excusing his actions. It's understanding them.
 
-The <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> interruption? A Type 7 impulsively acting on perceived injustice.
+The Taylor Swift interruption? A Type 7 impulsively acting on perceived injustice.
 
 The MAGA hat? A Type 7 rebelling against what's expected of him.
 
 The erratic album releases? A Type 7 resisting finality and completion.
-
-<BlogPurpose/>
-
-## How Other Enneagram Types See Kanye
-
-**Type 1 (The Perfectionist):** "If only he would follow proper procedures and think before speaking!"
-
-**Type 2 (The Helper):** "I wonder what pain he's hiding behind all that bravado."
-
-**Type 3 (The Achiever):** "His success is undeniable, but his methods are too chaotic for me."
-
-**Type 4 (The Individualist):** "His artistic vision is profound, but sometimes it seems like shock value for its own sake."
-
-**Type 5 (The Investigator):** "His creative process is fascinating, but I need more time to analyze his actual impact."
-
-**Type 6 (The Loyalist):** "I never know where I stand with him – he's too unpredictable to trust."
-
-**Type 7 (Fellow Enthusiast):** "YES! Why limit yourself when you can do EVERYTHING?!"
-
-**Type 8 (The Challenger):** "I respect his willingness to challenge authority, but sometimes he picks unnecessary fights."
-
-**Type 9 (The Peacemaker):** "All this conflict is exhausting – why can't he express himself more harmoniously?"
 
 ## What We Can Learn From Kanye's Type 7 Energy
 

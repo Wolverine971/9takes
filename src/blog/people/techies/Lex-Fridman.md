@@ -40,7 +40,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">AI researcher, podcaster, and promoter of love... but who is Lex Fridman really?</p>
 
-Ever wonder what goes on inside the head of the man who's interviewed everyone from Elon Musk to Joe Rogan? Lex Fridman, the soft-spoken podcast host with a penchant for black t-shirts and deep conversations, has captivated millions with his thoughtful questions and genuine curiosity. But what makes Lex tick?
+Ever wonder what goes on inside the head of the man who's interviewed everyone from [Elon Musk](/personality-analysis/Elon-Musk) to [Joe Rogan](/personality-analysis/Joe-Rogan)? Lex Fridman, the soft-spoken podcast host with a penchant for black t-shirts and deep conversations, has captivated millions with his thoughtful questions and genuine curiosity. But what makes Lex tick?
 
 Let's dive into the inner workings of Lex's personality and see what drives his relentless pursuit of knowledge.
 
@@ -68,7 +68,7 @@ Lex's journey to becoming a household name in the tech and AI world wasn't overn
 
 His work at MIT on human-robot interaction laid the groundwork for his future success. But it was his podcast that truly catapulted him into the spotlight.
 
-<a href="/personality-analysis/Joe-Rogan">Joe Rogan</a>, a frequent guest and friend, once said of Lex:
+[Joe Rogan](/personality-analysis/Joe-Rogan), a frequent guest and friend, once said of Lex:
 
 "**He's one of the smartest guys I know. He has this unique ability to make complex topics accessible and interesting.**"
 
@@ -114,7 +114,7 @@ Lex's accomplishments are numerous, but let's focus on a couple that really high
 
 Lex's podcast isn't just popular – it's a cultural phenomenon. With guests ranging from tech titans to philosophers, it's a testament to his broad interests and ability to connect with diverse minds.
 
-<a href="/personality-analysis/Elon-Musk">Elon Musk</a>, who is a recurring guest, once said:
+[Elon Musk](/personality-analysis/Elon-Musk), who is a recurring guest, once said:
 
 "Talking with Lex is always enlightening. He has a way of getting to the heart of complex issues."
 
@@ -129,8 +129,6 @@ A colleague at MIT noted:
 "Lex has this unique ability to see connections between different fields. He's not just a programmer or an AI researcher – he's a true interdisciplinary thinker."
 
 This interdisciplinary approach is typical of Type 5s, who often excel at connecting disparate ideas.
-
-<BlogPurpose/>
 
 ## Controversies and Criticisms: Navigating the Public Eye
 

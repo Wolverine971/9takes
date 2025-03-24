@@ -116,57 +116,6 @@ Rogan's life has not been without controversy. From stirring debates about COVID
 
 These controversies, while often polarizing, demonstrate Rogan's commitment to open dialogue and his refusal to be constrained by societal expectations. They stem from the Type 8's core fear of being controlled or harmed by others, driving them to challenge authority and question established norms.
 
-<BlogPurpose/>
-
-## How Each Enneagram Type Perceives Joe Rogan
-
-Understanding how different Enneagram types might view Joe Rogan offers valuable insights into both Rogan's personality and the diverse perspectives people bring to public figures. If you are Joe Rogan, here are the stereotypical views each Enneagram type might have about you:
-
-<article>
-  
-  <p><a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a> Type 1s may appreciate Rogan's commitment to his podcast and the high standards he sets for his interviews. However, they may also be critical of his controversial statements and perceive him as reckless or unprincipled.</p>
-</article>
-
-<article>
-  
-  <p><a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a> Type 2s, being relationship-oriented, could admire Rogan's ability to connect with a wide range of guests. They might feel discomfort with his assertive and challenging personality as it contrasts with their tendency to maintain harmony and peace.</p>
-</article>
-
-<article>
-  
-  <p><a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a> Rogan's success story resonates with Type 3s. His journey from comedian to podcast host to signing a massive deal with Spotify shows an achievement they can admire.</p>
-</article>
-
-<article>
-  
-  <p><a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a> Type 4s may appreciate Rogan's unique stance in the media landscape, making his own path rather than following traditional routes. However, they might also find his outwardly confident persona somewhat overwhelming.</p>
-</article>
-
-<article>
-  
-  <p><a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a> Rogan's ability to delve into various complex subjects on his podcast might intrigue Type 5s. However, they could be critical of his tendency to make bold, unchecked statements.</p>
-</article>
-
-<article>
-  
-  <p><a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a> Type 6s might appreciate Rogan's dedication to his values and principles. On the other hand, they might find his provocative style unsettling, as they generally seek security and predictability.</p>
-</article>
-
-<article>
-  
-  <p><a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a> Type 7s would likely enjoy Rogan's energetic podcast discussions and various topics. They might also admire his ability to explore new territories, like his switch to Spotify.</p>
-</article>
-
-<article>
-  
-  <p><a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a> Being of the same type, Type 8s would probably relate strongly to Rogan's assertive nature, defiance of societal norms, and desire to maintain control over his destiny.</p>
-</article>
-
-<article>
-  
-  <p><a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a> Rogan's assertiveness and tendency to stir controversy might discomfort Type 9s seeking peace and harmony. However, they might appreciate his ability to host dialogues on contentious issues, fostering understanding among different perspectives.</p>
-</article>
-
 ## Wrapping Up: Joe Rogan, A Classic Type 8?
 
 As we've explored, Joe Rogan's personality traits align closely with those of an Enneagram Type 8. His drive, resilience, and courageous confrontation of life's challenges are all hallmarks of the 'Challenger' personality type. From his direct communication style to his protective instincts towards friends, from his contrarian approach to his fearless tackling of controversial topics, Rogan embodies the essence of Type 8.
@@ -179,7 +128,7 @@ By understanding the motivations and fears that drive different personality type
 
 If you're intrigued by this exploration of personality and want to dive deeper, we invite you to explore our <a href="/questions">questions section</a>. There, you can delve further into the world of the Enneagram and continue your journey of self-discovery and understanding. 🚀
 
-> **Disclaimer** This analysis of Joe Rogan's Enneagram type is speculative, based on publicly available information, and may not reflect Joe Rogan's actual personality type.
+> **Disclaimer** This analysis of Joe Rogan's Enneagram type is speculative, based on publicly available information, and may not reflect Rogan's actual personality type.
 
 <svelte:head>
 

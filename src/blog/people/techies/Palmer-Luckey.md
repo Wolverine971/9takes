@@ -108,7 +108,7 @@ The day Palmer Luckey sold Oculus to Facebook, he wasn't just gaining $2 billion
 
 Under stress, Type 7s can deteriorate toward the unhealthy aspects of Type 1, becoming uncharacteristically rigid, judgmental, and perfectionistic. Their natural optimism curdles into critical pessimism. Their playfulness hardens into bitter righteousness.
 
-Luckey's tenure at Facebook, by all accounts, was a painful lesson in corporate constraints. The free-wheeling garage inventor suddenly found himself navigating corporate politics, PR handlers, and Mark Zuckerberg's exacting vision.
+Luckey's tenure at Facebook, by all accounts, was a painful lesson in corporate constraints. The free-wheeling garage inventor suddenly found himself navigating corporate politics, PR handlers, and [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg)'s exacting vision.
 
 "The bureaucracy was suffocating," a former Oculus employee reported. "Palmer went from building whatever he wanted, whenever he wanted, to needing approval for every decision. You could see it wearing him down."
 

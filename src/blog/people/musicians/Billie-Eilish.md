@@ -125,8 +125,6 @@ Remember when Billie dyed her hair neon green? Or when she released a song calle
 
 This individuality extends to her achievements too. Before turning 23, Billie became the youngest artist to win multiple Oscars for Best Original Song. It's as if she's saying, "I'm not just here to fit in. I'm here to leave my mark."
 
-<BlogPurpose/>
-
 ## The Voice of a Generation (With a Heart of Gold)
 
 Here's the thing about Billie: She's not trying to be the voice of her generation. She's just being herself. But in doing so, she's given voice to millions who feel misunderstood, different, or just a little bit weird.

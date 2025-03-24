@@ -160,7 +160,7 @@ While typical Type 7s might avoid such uncomfortable emotions, Tom's approach sh
 
 This vulnerability makes him a more relatable Type 7. Behind the backflips and rapid-fire interview answers is someone navigating the same human struggles we all face.
 
-His Spider-Man co-star Zendaya once noted: "He handles it with so much grace. I've seen him under so much pressure, and he just handles it, and that's admirable."
+His Spider-Man co-star [Zendaya](/personality-analysis/Zendaya) once noted: "He handles it with so much grace. I've seen him under so much pressure, and he just handles it, and that's admirable."
 
 Type 7s often mask insecurity with humor and activity. Tom does this too—but with an added willingness to acknowledge when things get overwhelming.
 

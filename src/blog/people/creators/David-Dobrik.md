@@ -148,28 +148,6 @@ His relationships often feature:
 
 For Type 7s, relationships must enhance freedom rather than restrict it—a balancing act few achieve long-term.
 
-## How Each Enneagram Type Views David
-
-Different personalities perceive Dobrik through unique lenses:
-
-- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** sees a chaotic force needing structure. They admire his work ethic but cringe at the reckless stunts and lack of clear boundaries.
-
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** appreciates his generosity but questions its authenticity. Is he truly giving from the heart, or performing kindness for the camera?
-
-- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** respects his empire-building but wonders about his legacy beyond viral moments. They'd push him toward more substantive achievements.
-
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** finds his content superficial despite its emotional reactions. They crave more authentic vulnerability beneath the pranks.
-
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** studies his influence with detached fascination. They're overwhelmed by his energy but intrigued by his social engineering skills.
-
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** worries about the safety and ethics of his stunts. They question who takes responsibility when things go wrong.
-
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** sees a kindred spirit living their best-case scenario. They mirror his joy-seeking but may recognize his patterns of avoidance.
-
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** respects his boldness but wishes he'd use his platform for more substantial impact. They see wasted potential for real change.
-
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** feels both drawn to and exhausted by his chaotic energy. They appreciate his inclusive nature but crave more calm consistency.
-
 ## The Enthusiast's Evolution
 
 David Dobrik at 28 is not the same creator who burst onto Vine as a teenager.
@@ -202,7 +180,7 @@ Perhaps the most fascinating chapters of David Dobrik's Enthusiast journey are y
 
 If you enjoyed this personality deep-dive, explore our <a href="/questions">questions</a> or discover your own Enneagram type through our assessments.
 
-> **Disclaimer** This analysis of David Dobrik's Enneagram type is speculative, based on publicly available information, and may not reflect David Dobrik's personality.
+> **Disclaimer** This analysis of David Dobrik's Enneagram type is speculative, based on publicly available information, and may not reflect David's personality.
 
 <svelte:head>
 

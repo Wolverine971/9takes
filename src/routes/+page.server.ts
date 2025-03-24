@@ -2,6 +2,7 @@ import type { PageServerLoad } from './$types';
 import { supabase } from '$lib/supabase';
 
 import { famousTypes } from '$lib/components/molecules/famousTypes'; // adjust path as needed
+import { error } from '@sveltejs/kit';
 
 export const load: PageServerLoad = async () => {
 	const { data: top9Questions, error: top9QuestionsError } = await supabase
@@ -16,6 +17,19 @@ export const load: PageServerLoad = async () => {
 	}
 
 	let images = [];
+
+	const { data: famousPeople, error: famousPeopleError } = await supabase
+		.from('blogs_famous_people')
+		.select('*')
+		.order('lastmod', { ascending: false })
+		.eq('published', true)
+		.limit(5);
+
+	if (famousPeopleError) {
+		throw error(404, {
+			message: `Error finding famous people`
+		});
+	}
 
 	let gridSize = 9;
 	Object.keys(famousTypes).forEach((keyStr, i) => {
@@ -37,6 +51,7 @@ export const load: PageServerLoad = async () => {
 
 	return {
 		images,
-		top9Questions
+		top9Questions,
+		famousPeople
 	};
 };

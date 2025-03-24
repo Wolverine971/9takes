@@ -84,8 +84,6 @@ Charlie Puth's complex personality seems to mirror the enigmatic Enneagram Type 
 
 While we’ve offered an interpretation of Puth as a Type 4, it’s essential to keep an open mind about the fluidity of human nature. A personality type can provide a broad sketch, but it’s the intricate details that make each of us unique.
 
-<BlogPurpose/>
-
 ## How Each Enneagram Type Perceives Charlie Puth
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Charlie:
@@ -108,7 +106,7 @@ Exploring personalities like Puth's through the Enneagram can offer not only int
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
-> **Disclaimer** This analysis of Charlie Puth's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
+> **Disclaimer** This analysis of Charlie Puth's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Charlie.
 
 <svelte:head>
 
