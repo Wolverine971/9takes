@@ -1,6 +1,6 @@
 ---
-title: 'Ryan Gosling An Enneagram Type 9'
-description: 'Why Ryan Gosling appears to be a type 9'
+title: "The Still Waters of Ryan Gosling: A Type 9's Hidden Depths"
+description: "Discover how Ryan Gosling's Enneagram Type 9 personality shapes his acting choices, parenting style, and creative process. Uncover the peaceful power behind Hollywood's quiet force."
 author: 'DJ Wayne'
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/Ryan-Gosling'

@@ -71,6 +71,7 @@ export async function GET() {
 		.from('blogs_famous_people')
 		.select('*')
 		.eq('published', true)
+		.order('lastmod')
 	if (personDataError) {
 		console.log(personDataError)
 
