@@ -43,8 +43,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of Alex Cooper's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Alex Cooper.
-
 <p class="firstLetter">You've heard her voice. You've seen her Instagram. You've probably even laughed along with her unfiltered takes on relationships, sex, and life.</p>
 
 The founding father herself, Alex Cooper of the "Call Her Daddy" podcast is a genuine cultural phenomenon.
@@ -224,6 +222,8 @@ Her endless pursuit of new experiences, remarkable adaptability, and ability to 
 Alex isn't just living the Type 7 dream – she's showing others how to embrace their own voices, chase their ambitions, and find joy in the journey.
 
 If you enjoy these personality deep dives, explore our <a href="/questions">questions</a> section to better understand yourself and others through the Enneagram framework.
+
+> **Disclaimer** This analysis of Alex Cooper's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Alex Cooper.
 
 <svelte:head>
 

@@ -47,8 +47,6 @@ tiktok: ''
 	/>
 </div>
 
-> **Disclaimer** This analysis of Meryl Streep's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Meryl.
-
 <p class="firstLetter">Meryl Streep has captivated audiences for decades.</p>
 
 But behind the iconic roles and accolades lies a complex personality driven by a deep sense of empathy and a desire to make a difference. Today, we'll explore Streep's inner world through the lens of the Enneagram, a powerful personality typing system.
@@ -126,6 +124,8 @@ Meryl Streep's journey from a young actress to a Hollywood icon is a testament t
 As an Enneagram Type 2, her ability to connect with others and bring emotional depth to her roles has made her one of the most beloved and respected actresses of our time. As she continues to use her platform for good, one can't help but wonder: what inspiring roles and activism will Meryl Streep take on next?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Meryl Streep's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Meryl.
 
 <svelte:head>
 

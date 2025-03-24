@@ -40,8 +40,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Jake Paul's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
-
 <p class="firstLetter">You've watched his bouts, heard his brash proclamations, and possibly even followed his rise from Disney Channel star to amateur boxer.</p>
 
 Jake Paul, the controversial yet undeniably successful internet sensation, has made an indelible mark in pop culture. Let's take an engaging deep-dive into the intriguing world of Jake Paul, proposing him as a representation of Enneagram Type 3 - The Achiever.
@@ -91,6 +89,8 @@ It seems quite plausible, then, that Jake Paul does indeed epitomize the charact
 So, what do you think? Does seeing Jake Paul through the lens of the Enneagram Type 3 provide you with a better understanding of his motivations and actions? Does it help you see beyond the public image and glimpse into the man behind the persona?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Jake Paul's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
 
 <svelte:head>
 

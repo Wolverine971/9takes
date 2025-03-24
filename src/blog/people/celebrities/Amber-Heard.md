@@ -36,7 +36,7 @@ amber heard personality disorder
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -53,8 +53,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Amber Heard's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Amber Heard.
 
 <p class="firstLetter">Amber Heard's name has become synonymous with controversy, her public trial with <a href="/personality-analysis/Johnny-Depp">Johnny Depp</a> casting a long shadow over her career and personal life.</p>
 
@@ -129,6 +127,8 @@ Despite the recent controversies, Amber continues to push forward, both in her c
 As we reflect on Amber Heard's journey, we're left with a portrait of a woman whose complexity defies simple categorization. Her story serves as a reminder that behind every public persona lies a rich inner world shaped by experiences, fears, and aspirations.
 
 What aspects of your own personality do you see reflected in Amber's story? And how might understanding personality types like the Enneagram help us develop more empathy for public figures caught in the storm of controversy?
+
+> **Disclaimer** This analysis of Amber Heard's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Amber Heard.
 
 <svelte:head>
 

@@ -37,8 +37,6 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Martin Luther King Jr.'s Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of MLK.
-
 <p class="firstLetter">Martin Luther King Jr. - a name that echoes through history, synonymous with courage, justice, and unwavering determination.</p>
 
 But have you ever wondered what drove this extraordinary man? What inner fire fueled his relentless pursuit of equality? Let's delve into the mind of MLK and explore the personality that shaped a movement and changed the world.
@@ -130,6 +128,8 @@ Martin Luther King Jr.'s legacy continues to inspire and challenge us today. His
 King's work reminds us that true strength lies not just in the ability to confront, but in the courage to dream of a better world and the tenacity to make that dream a reality.
 
 As we reflect on King's life and personality, we're left with a question: How can we harness our own inner Challenger to stand up for what's right and make a positive impact in the world?
+
+> **Disclaimer** This analysis of Martin Luther King Jr.'s Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of MLK.
 
 <svelte:head>
 

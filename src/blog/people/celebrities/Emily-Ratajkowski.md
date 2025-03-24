@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Emily.
-
 <p class="firstLetter">Emily Ratajkowski has been in the public eye for years as a model, actress, and author.</p>
 
 For those who are paying attention, they know that she pushes boundaries and is all about challenging societal norms. Her unapologetic embrace of her sexuality, keen awareness of power dynamics, and support for underdogs and outcasts align with the characteristics of an Enneagram Type 8, also known as The Challenger.
@@ -89,6 +87,8 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
 </div>
 
 If you found this interesting, check out <a href="/personality-analysis/Alex-Cooper">Alex Cooper's personality analysis</a>.
+
+> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Emily.
 
 <svelte:head>
 

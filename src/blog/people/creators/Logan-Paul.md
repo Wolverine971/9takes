@@ -40,8 +40,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Logan Paul's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Logan Paul.
-
 <p class="firstLetter">You've probably seen his name plastered across headlines, witnessed his controversial antics, and formed your own opinions about him.</p>
 
 Logan Paul, the charismatic and often polarizing social media sensation, has been a subject of fascination and speculation for years. Today, we delve into a perspective on Paul's personality, proposing him as a captivating representation of Enneagram Type 7 - The Enthusiast.
@@ -124,6 +122,8 @@ Logan Paul's journey from social media star to multi-faceted entertainer and ent
 His pursuit of new experiences, resilience in the face of controversy, and diverse interests align with the core motivations of "The Enthusiast." Understanding Paul through this lens offers insight into his actions and motivations, providing a more nuanced view of his public persona.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Logan Paul's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Logan Paul.
 
 <svelte:head>
 

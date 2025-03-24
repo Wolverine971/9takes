@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Oprah Winfrey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Oprah Winfrey.
-
 <p class="firstLetter">Have you ever wondered what drives the incomparable Oprah Winfrey?</p>
 
 We've witnessed her rise from a challenging childhood to become one of the most influential figures in media. But what lies beneath that warm smile and infectious energy?
@@ -109,6 +107,8 @@ But here's the kicker – the Enneagram isn't just for understanding celebrities
 Oprah Winfrey, in all her Type 2 glory, is a shining example of how understanding our personality type can lead to personal growth and success. Her journey from a challenging childhood to becoming a media mogul is a testament to the power of self-awareness and the courage to be authentically oneself.
 
 So, the next time you watch an Oprah interview or pick up a book from her club, remember – you're not just witnessing a media event. You're seeing a Type 2 in action, using her gifts to connect, inspire, and uplift. And isn't that something we could all aspire to, regardless of our type?
+
+> **Disclaimer** This analysis of Oprah Winfrey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Oprah Winfrey.
 
 <svelte:head>
 

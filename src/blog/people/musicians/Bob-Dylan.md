@@ -39,8 +39,6 @@ instagram: 'https://www.instagram.com/bobdylan/'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Bob Dylan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bob Dylan.
-
 <p class="firstLetter">He arrived like thunder. Without warning. A midwestern boy with a guitar and harmonica who somehow changed everything.</p>
 
 The name "Bob Dylan" means different things to different people. Protest singer. Poet laureate. Voice of a generation. Traitor to folk music. Rock revolutionary. Reclusive genius.
@@ -162,6 +160,8 @@ This is the essence of the Type 4 spirit – to contain multitudes and to expres
 As we reflect on Dylan's extraordinary journey, one question lingers: How might understanding our own personality patterns help us transform our unique perspective into something meaningful for others?
 
 Dylan wouldn't tell us the answer. He'd expect us to find it ourselves.
+
+> **Disclaimer** This analysis of Bob Dylan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bob Dylan.
 
 <svelte:head>
 

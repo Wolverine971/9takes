@@ -40,8 +40,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of David Dobrik's Enneagram type is speculative, based on publicly available information, and may not reflect David Dobrik's personality.
-
 <p class="firstLetter">David Dobrik isn't just any YouTube star. Born in Slovakia. Moved to America at six. Built an empire worth millions—all before turning 30.</p>
 
 His laugh echoes through nearly every video. That same infectious energy propelled him from Vine to YouTube superstardom, transforming a boy from the suburbs into a cultural phenomenon with 19 million subscribers and over 7 billion views.
@@ -203,6 +201,8 @@ Will he continue evolving toward the Type 7's growth direction, embracing deeper
 Perhaps the most fascinating chapters of David Dobrik's Enthusiast journey are yet to come.
 
 If you enjoyed this personality deep-dive, explore our <a href="/questions">questions</a> or discover your own Enneagram type through our assessments.
+
+> **Disclaimer** This analysis of David Dobrik's Enneagram type is speculative, based on publicly available information, and may not reflect David Dobrik's personality.
 
 <svelte:head>
 

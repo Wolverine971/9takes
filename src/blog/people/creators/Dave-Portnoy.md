@@ -40,8 +40,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of Dave Portnoy's Enneagram type is speculative, based on publicly available information, and may not reflect Dave Portnoy's actual personality type.
-
 <p class="firstLetter">You've seen him on social media, heard about his controversies, and probably even watched him eat pizza.</p>
 
 But have you ever wondered what makes Dave Portnoy tick? What's the driving force behind the man who sold Barstool Sports only to buy it back for $1? Today, we're diving deep into Dave's psyche, speculating on his Enneagram personality type: Type 8, also known as the Challenger.
@@ -255,6 +253,8 @@ Dave Portnoy is a man of contrasts. He can do whatever he wants with a net worth
 So, what can we learn from Dave Portnoy? There's more than meets the eye when you look deeply at people. On the surface, he may appear as just another wealthy businessman, but delve a little deeper, and you'll find that El Presidente" is a decisive, aggressive, and unapologetic Enneagram 8.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Dave Portnoy's Enneagram type is speculative, based on publicly available information, and may not reflect Dave Portnoy's actual personality type.
 
 <svelte:head>
 

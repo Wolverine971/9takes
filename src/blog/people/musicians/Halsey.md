@@ -60,8 +60,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Halsey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Halsey.
-
 <p class="firstLetter">You've streamed her music, dissected her lyrics, and probably bobbed your head to her catchy beats.</p>
 
 Halsey, an influential figure in the music industry, is a study of raw emotion and defiance. Today, we'll look at this multifaceted artist from a different perspective, as a striking embodiment of Enneagram Type 8 - The Challenger.
@@ -108,20 +106,6 @@ Just like a true Type 8, Halsey is passionate about justice and isn't afraid to 
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Halsey
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Halsey:
-
-- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Perfectionists might admire Halsey's commitment to her ideals and advocacy work. However, they could find her controversial behavior and lyrics confronting, not fitting into their idea of what's 'perfect' or 'correct.'
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Helpers may be drawn to Halsey's open-hearted vulnerability in her lyrics, identifying with her expressive nature. Yet, her confrontational side may be hard for this empathetic type to digest.
-- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Achievers will likely respect Halsey's accomplishments and her ability to constantly reinvent her musical style. They might see her public persona as a benchmark for success.
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Individualists may feel a connection to Halsey's emotional depth and creativity. They might resonate with her feelings of alienation and the longing for understanding expressed in her songs.
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Investigators could appreciate Halsey's raw and complex narratives. They might enjoy dissecting her lyrics for deeper meaning, while her candid approach may intrigue them.
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Loyalists might find Halsey's tendency to challenge the status quo unsettling. On the other hand, they may admire her loyalty to her beliefs and causes, appreciating her commitment to social justice.
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Enthusiasts would likely be drawn to Halsey's vibrancy and varied discography. Her concerts would appeal to them, promising a sensory feast and an escape from mundane life.
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - As Challengers themselves, they'd resonate with Halsey's assertiveness, intensity, and her refusal to be controlled. They may admire her bravery in expressing her vulnerabilities and standing up for what she believes in.
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Peacemakers could find Halsey's music therapeutic, allowing them to tap into emotions they typically avoid. However, her confrontational approach might conflict with their desire for inner and outer peace.
-
 ## Wrapping up
 
 So, there you have it. A look at Halsey through the lens of Enneagram Type 8. From her defiance and intensity to her vulnerability and desire for justice, the threads of Type 8 seem to be woven throughout her narrative. But remember, the human personality is intricate and complex, not easily compartmentalized into a single type.
@@ -129,6 +113,8 @@ So, there you have it. A look at Halsey through the lens of Enneagram Type 8. Fr
 So, what do you think about this perspective on Halsey? Does understanding her through the Enneagram Type 8 shed new light on her music and actions?
 
 If you're intrigued and wish to explore more, delve into our other articles about various personalities from different walks of life. Sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+
+> **Disclaimer** This analysis of Halsey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Halsey.
 
 <svelte:head>
 

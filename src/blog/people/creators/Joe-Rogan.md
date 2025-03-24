@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of Joe Rogan's Enneagram type is speculative, based on publicly available information, and may not reflect Joe Rogan's actual personality type.
-
 <p class="firstLetter">You've heard his voice, experienced his charisma, and likely formed an opinion about him.</p>
 
 Joe Rogan is a force to be reckoned with in the world of media and entertainment. But what fuels his ability to captivate audiences across podcasting, comedy, and fighting? Today, we'll delve into the depths of his personality and explore why he might be the epitome of an Enneagram Type 8 - The Challenger.
@@ -180,6 +178,8 @@ The Enneagram is more than just a personality typing system - it's a tool for un
 By understanding the motivations and fears that drive different personality types, we can begin to bridge the gaps that divide us. We can humanize those around us, understand our neighbors' fears, anger, and shame, and perhaps find a path to common ground.
 
 If you're intrigued by this exploration of personality and want to dive deeper, we invite you to explore our <a href="/questions">questions section</a>. There, you can delve further into the world of the Enneagram and continue your journey of self-discovery and understanding. 🚀
+
+> **Disclaimer** This analysis of Joe Rogan's Enneagram type is speculative, based on publicly available information, and may not reflect Joe Rogan's actual personality type.
 
 <svelte:head>
 

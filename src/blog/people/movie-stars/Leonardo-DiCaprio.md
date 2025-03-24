@@ -24,7 +24,7 @@ update redo
 
 <script>
   import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 <div
   style="display: flex;
@@ -40,8 +40,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
     subtext=""
   />
 </div>
-
-> **Disclaimer** This analysis of Leonardo DiCaprio's Enneagram type is speculative, based on publicly available information, and may not reflect Leonardo DiCaprio's actual personality type.
 
 <p class="firstLetter">You know him as Jack Dawson, the charming artist aboard the Titanic. You've seen him as Jordan Belfort, the Wall Street maven with a penchant for excess. But who is >Leonardo DiCaprio when the cameras stop rolling? What drives him, what are his fears, and what is his Enneagram personality type?</p>
 
@@ -139,50 +137,11 @@ So, what does all this mean for understanding Leonardo DiCaprio? It suggests a m
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Leonardo DiCaprio
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Leo:
-
-<article>
-  <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
-  <p>May admire DiCaprio's dedication to his craft but could be critical of the controversies he's been involved in. Type 1s value integrity and responsibility, so they might have mixed feelings about DiCaprio's environmental activism versus the impact of some of his projects.</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
-  <p>Likely to appreciate DiCaprio's philanthropic efforts and activism. Type 2s are drawn to people who help others and make a positive impact, aligning with DiCaprio's charitable endeavors.</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
-  <p>They would admire DiCaprio's career achievements and ability to excel in diverse roles. Type 3s value success and adaptability, qualities that DiCaprio embodies in his career.</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
-  <p>Intrigued by the depth and complexity of DiCaprio's roles, but may find him too mainstream. Type 4s appreciate uniqueness and depth, which they can find in DiCaprio's roles, but might need help with his mainstream success.</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
-  <p>Interested in the intellectual depth of DiCaprio's roles and his environmental activism. Type 5s value knowledge and depth, making them likely to appreciate the complexities of DiCaprio's characters and causes.</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
-  <p>May appreciate DiCaprio's consistent quality of work but could be skeptical of his activism. Type 6s value loyalty and consistency but can be skeptical, making them cautious supporters.</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
-  <p>Would love DiCaprio for his adventurous roles and zest for life. Type 7s resonate with DiCaprio's love for variety and new experiences, making them likely fans.</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
-  <p> Respect DiCaprio's bold choices in roles and his aggressive approach to controversies. Type 8s value strength and confrontation, aligning with how DiCaprio handles challenges.</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
-  <p>Enjoys DiCaprio's work but may not have strong opinions about him. Type 9s are generally easygoing and may appreciate DiCaprio's work without getting too invested in his public persona.</p>
-</article>
-
 ## Wrapping up
 
 What do you think? Does the adventurous and optimistic nature of Type 7 resonate with your perception of Leonardo DiCaprio? If you found this exploration intriguing, a whole world of Enneagram discussions is waiting for you. Sign up for 9takes to dive deeper into understanding different personalities, including yours. Who knows, you might even discover your Enneagram twin among the stars!
+
+> **Disclaimer** This analysis of Leonardo DiCaprio's Enneagram type is speculative, based on publicly available information, and may not reflect Leonardo DiCaprio's actual personality type.
 
 <svelte:head>
 
