@@ -179,6 +179,7 @@
 			showIcon={false}
 			enneagramType={post.enneagram}
 			displayText={post.person.split('-').join(' ')}
+			lazyLoad={false}
 			subtext=""
 		/>
 	</div>

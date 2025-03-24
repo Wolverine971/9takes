@@ -12,6 +12,7 @@
 	export let subtext = 'Ask questions, give your hot takes, talk to people';
 	export let scramble = true;
 	export let tint = true;
+	export let lazyLoad = true;
 
 	// Constants and state variables
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
