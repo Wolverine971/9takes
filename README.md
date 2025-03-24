@@ -28,8 +28,8 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "Anya-Taylor-Joy.png" -o "Anya-Taylor-Joy.webp"
-cwebp -sns 70 -f 50 -size 20000 "Anya-Taylor-Joy.webp" -o "./s-Anya-Taylor-Joy.webp"
+cwebp "Ryan-Gosling.png" -o "Ryan-Gosling.webp"
+cwebp -sns 70 -f 50 -size 20000 "Ryan-Gosling.webp" -o "./s-Ryan-Gosling.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

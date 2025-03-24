@@ -161,6 +161,10 @@
 	});
 </script>
 
+<svelte:head>
+	{@html `<script type="application/ld+json">${JSON.stringify(post.jsonLdSnippet)}</script>`}
+</svelte:head>
+
 <article itemscope itemtype="https://schema.org/BlogPosting" class="blog">
 	<div class="article-header">
 		<PeopleBlogPageHead data={post} />

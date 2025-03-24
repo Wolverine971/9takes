@@ -44,7 +44,7 @@ Kendal Jenner - 4??? -->
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -64,124 +64,152 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 > "I have the ability to turn nothing into something. I can take a small idea and turn it into a huge business."
 
-<p class="firstLetter">You know her. The social media mogul, the beauty entrepreneur, the reality TV star, and—perhaps surprisingly to some—the budding lawyer and criminal justice advocate.</p>
+<p class="firstLetter">Ever wonder what's really going on in Kim Kardashian's head?</p>
 
-Kim Kardashian has transcended traditional celebrity to become a cultural icon and billion-dollar businesswoman. But behind the filtered Instagram posts and carefully curated public image, what drives her? What makes her tick?
+Behind the flawless selfies, billion-dollar brands, and headline-grabbing relationships, there's a fascinating psychological framework that explains so much about her journey.
 
-We're diving deep into Kim's personality through the lens of the Enneagram—specifically Type 3, The Achiever.
+If you've been keeping up with Kim, you already know about her incredible rise from Paris Hilton's closet organizer to global icon. But understanding her as an Enneagram Type 3 (The Achiever) reveals the deeper _why_ behind everything she does.
 
-<details>
-<summary class="accordion">TL;DR: Why Kim is an Enneagram 3</summary>
-<div class="panel">
-<ul>
-<li>Kim's transformation from Paris Hilton's closet organizer to billionaire entrepreneur exemplifies Type 3's relentless drive for achievement, constantly reinventing herself to stay relevant and successful.</li>
+## The Making of an Achiever
 
-<li>Her meticulous curation of her public image—from social media presence to business ventures like SKIMS and SKKN—reflects the Type 3's focus on image and perception management.</li>
+Kim was born into privilege, sure – but plenty of rich kids fade into obscurity. What made her different?
 
-<li>After the 2016 Paris robbery, Kim's temporary retreat from public life revealed the vulnerability that Type 3s typically hide, showing us a rare glimpse behind the polished façade.</li>
+Growing up as Robert Kardashian's daughter gave her a front-row seat to fame and success. Watching her father defend O.J. Simpson in the "trial of the century" showed young Kim how image, public perception, and success were intertwined.
 
-<li>Kim's 72-day marriage to Kris Humphries and controversies like her "Kimono" trademark attempt reveal a Type 3's initial pursuit of societal expectations, followed by remarkable resilience when faced with failure.</li>
+But when her father died in 2003, something shifted. Like many Type 3s who experience early loss, Kim developed a core belief: _I must achieve to be loved._
 
-<li>Whether launching billion-dollar businesses, studying law, or raising four children, Kim's core motivation remains achievement and validation—the hallmark of an Enneagram 3.</li>
-</ul>
-  </div>
-</details>
+This is classic Type 3 psychology – the belief that your worth comes from your accomplishments. It's why Kim hustles harder than almost anyone in entertainment.
 
-## Understanding Enneagram Type 3: The Achiever
+As she once told Variety: "I get up at 5:30 every day, work out, get the kids ready for school, make breakfast, and then work all day."
 
-Before diving into Kim's personality, let's understand what makes an Enneagram Type 3 tick.
+Sound exhausting? For a Type 3, stopping feels worse than burnout.
 
-Type 3s, known as "The Achievers," are driven by a fundamental desire to feel valuable and worthwhile. They believe their worth comes from their accomplishments and the image they project to the world.
+## The Chameleon Effect
 
-At their best, Type 3s are ambitious, adaptable, and excel at turning visions into reality. They're often charismatic performers who know how to read a room and present themselves in the most favorable light.
+Have you noticed how Kim completely reinvents herself every few years? That's not random – it's Type 3 strategy in action.
 
-At their less healthy levels, Type 3s can become overly concerned with external validation, workaholic, and may struggle with authentic connection as they adapt their persona to win approval.
+Type 3s are chameleons who intuitively sense what image will bring success in different environments. They're always asking: "Who do I need to be right now?"
 
-The core fear of a Type 3? Being worthless or a failure.
+Let's track Kim's metamorphosis:
 
-## What is Kim Kardashian's Personality Type?
+- 2007: Socialite and reality star persona (gaining initial fame)
+- 2014: High-fashion icon transformation (after marrying Kanye)
+- 2019: Serious businesswoman and legal advocate (responding to criticism about being "famous for nothing")
 
-When we examine Kim Kardashian through the Enneagram lens, the Type 3 patterns leap off the screen.
+Each evolution wasn't just a rebrand – it was Kim's Type 3 ability to read cultural shifts and position herself for maximum relevance.
 
-Born on October 21, 1980, in Los Angeles, California, Kim was raised in a world of privilege and connections. But what separates her from countless other well-connected LA socialites is her drive to achieve and build her own empire.
+Ever notice how she speaks differently in different settings too? Compare her voice on early KUWTK episodes to recent interviews about prison reform. The tonal shift reflects the Type 3's unconscious shape-shifting.
 
-Kim possesses the classic Type 3 ability to reinvent herself. She's transformed from Paris Hilton's closet organizer to reality TV star to beauty mogul to aspiring attorney. Each evolution carefully calculated and executed with the precision Type 3s are known for.
+## Business Empire: Type 3 in Action
 
-Her work ethic, another Type 3 hallmark, is legendary. Even her critics acknowledge her hustle. In a 2015 interview, she stated, "I have this theory that if you work really, really hard, and you never stop working, amazing things will happen."
+SKIMS didn't become a $4 billion company by accident.
 
-That's pure Type 3 philosophy.
+Type 3s excel at packaging themselves into products people want. They have an almost supernatural sense for what will sell because they're constantly monitoring public responses.
 
-## The Ascent to Fame: Driven by Success
+Kim's product development process reveals her Type 3 mind:
 
-Kim's journey to global fame wasn't accidental. While her initial notoriety came from a leaked sex tape with Ray J in 2007, what's remarkable is how she transformed potential career destruction into the foundation of an empire.
+1. Identify a personal pain point (shapewear that doesn't fit right)
+2. Assume others have the same problem
+3. Create solution with her personal brand attached
+4. Market it with a carefully crafted image
 
-When "Keeping Up with the Kardashians" debuted shortly after, many predicted a short-lived 15 minutes of fame. Fifteen years and 20 seasons later, plus a new Hulu show "The Kardashians," Kim proved the skeptics wrong.
+Notice how her businesses extend her personal brand? That's the Type 3 blurring the lines between self and achievement.
 
-This resilience is quintessentially Type 3. Where others see setbacks, Type 3s see opportunities to pivot and succeed differently.
+"I'm really hands-on in the process of making all my products," she told Forbes. For a Type 3, the products ARE them – there's no separation.
 
-Her business ventures show the same pattern. From selling her closet items on eBay to launching the wildly successful SKIMS shapewear line (valued at $4 billion as of 2023), Kim displays the Type 3's talent for spotting opportunities and executing with precision.
+## Relationships Through the Type 3 Lens
 
-Even the mobile game "Kim Kardashian: Hollywood," which generated over $160 million, demonstrates her understanding of her personal brand as a marketable asset—a very Type 3 insight.
+Kim's love life makes more sense through the Enneagram too.
 
-## Kim Kardashian: The Workaholic Achiever
+Type 3s often view relationships as achievements or growth opportunities. They're attracted to partners who elevate their status or help them evolve.
 
-"I'm the type of person where if someone says to me, 'You can't do that,' it just makes me want to prove them wrong," Kim once said.
+The 72-day marriage to Kris Humphries? A Type 3 getting caught up in the achievement of a fairy-tale wedding before realizing the relationship didn't serve her image goals.
 
-This defiant ambition fuels her notorious workaholic tendencies. Former employees describe her 5 AM workouts followed by full days of meetings, photoshoots, and business planning. She famously continues working during vacations and even scheduled business calls during her honeymoon.
+Kanye West transformed her from reality star to high-fashion icon, while Pete Davidson helped soften her image post-divorce. Each relationship served a purpose in her evolution.
 
-Her shapewear line SKIMS, launched in 2019, has revolutionized the industry and achieved unicorn status with a $3.2 billion valuation. Her skincare line SKKN, launched in 2022, follows her philosophy of building businesses based on her authentic needs and interests.
+But don't mistake this for cold calculation. Type 3s genuinely feel these connections – they just unconsciously align them with their success trajectory.
 
-This constant hustle reflects the Type 3's core belief: I am what I accomplish. For a Type 3, rest without achievement feels like failure. Kim embodies this, once telling Interview Magazine, "I sacrifice 90 percent of my time for work."
+## The Paris Robbery: A Type 3's Wake-Up Call
 
-But unlike some ambitious personalities, Kim doesn't just work hard—she works strategically. Her business decisions, from her early endorsement deals to her recent private equity firm launch, show calculated risk-taking and brand alignment that's made her a self-made billionaire.
+When Kim was robbed at gunpoint in Paris in 2016, we saw something rare – a Type 3 in raw vulnerability.
 
-## A Love for Family and a Quest for Balance
+Type 3s typically avoid showing weakness at all costs. But trauma can crack even the most polished facade.
 
-Despite her workaholic nature, Kim's devotion to her four children—North, Saint, Chicago, and Psalm—reveals another dimension of her personality.
+Her temporary retreat from social media wasn't just about safety – it represented a psychological crisis. When your entire identity is built on external achievement and image, what happens when you're suddenly forced to stop performing?
 
-"My kids have taught me that life is complete with them," she's shared. This statement hints at a more integrated Type 3 who's beginning to understand that worth isn't solely derived from achievement.
+"There was a time when I had such bad anxiety going out," she revealed on her show. "I never had anxiety before. I never felt the need to really protect myself until after Paris."
 
-Her parenting style is a fascinating blend of structure and freedom. She maintains strict schedules (a Type 3's penchant for efficiency) while encouraging her children's creative expression. North West's TikTok presence and fashion sense show Kim allowing her daughter's individuality to flourish—perhaps something Kim herself struggled with growing up.
+This moment forced her to confront the core Type 3 question: _Who am I when I'm not achieving?_
 
-Her relationship with her sisters—<a href="/personality-analysis/Kourtney-Kardashian">Kourtney</a>, <a href="/personality-analysis/Khloe-Kardashian">Khloé</a>, <a href="/personality-analysis/Kylie-Jenner">Kylie</a>, and Kendall—also reveals her Type 3 traits. She's often positioned as the family mediator and strategist, helping guide their collective brand while maintaining individual identities.
+## Law School: The Evolution of a Type 3
 
-The family's transition from E! to Hulu demonstrates this business acumen. When negotiations stalled with E!, Kim helped orchestrate a more lucrative and creatively flexible deal with Hulu—showing the Type 3's talent for upgrading and optimizing.
+Kim studying law might seem like just another achievement to add to her resume. But psychologically, it represents something deeper – a Type 3 integrating toward greater authenticity.
 
-## The Multi-Faceted Achiever: Kanye, Pete, and a Law Degree
+In Enneagram theory, Type 3s grow by reconnecting with their true desires rather than focusing solely on what impresses others.
 
-Kim's relationship history, particularly her marriage to <a href="/personality-analysis/Kanye">Kanye West</a> from 2014 to 2022, reveals more layers of her Type 3 personality.
+Her prison reform advocacy shows a maturing Type 3 finding purpose beyond external validation. She's still achievement-oriented, but the goal has shifted from fame to impact.
 
-Kanye, likely an Enneagram Type 4 (The Individualist), helped transform Kim from reality star to high-fashion icon. This evolution aligns with the Type 3's ability to adapt and elevate their image. Their subsequent divorce and Kim's handling of Kanye's public outbursts showed her Type 3 talent for damage control and image management.
+"I'm in this for the long game," she told Time magazine about her legal work. "I'm not doing it for publicity."
 
-Her brief relationship with comedian <a href="/personality-analysis/Pete-Davidson">Pete Davidson</a> represented another strategic pivot—softening her public image after the Kanye drama with someone approachable and relatable.
+That statement – from someone who built an empire on publicity – signals real psychological growth.
 
-Perhaps most revealing of her Type 3 growth is her pursuit of a law degree. This isn't just another achievement to add to her resume—it represents a more authentic alignment with her values. Her advocacy for prison reform, including her successful appeal to then-President Trump for Alice Marie Johnson's clemency, shows a Type 3 integrating toward the more heart-centered qualities of Type 6.
+## Motherhood: Achievement vs. Presence
 
-"I'm not doing it for publicity," she told Vogue about her legal studies. "I really want to help people." This statement reflects a maturing Type 3 finding meaning beyond external validation.
+Nothing challenges a Type 3 like parenthood. Why? Because children need your presence, not your achievements.
 
-## Addressing Controversies: The Flip Side of the Coin
+Watching Kim navigate motherhood reveals her growth struggles. Early on, she approached parenting with the same efficiency as her businesses – perfect Instagram moments, flawless organization, and outsourcing what she couldn't handle.
 
-No analysis of Kim would be complete without addressing her controversies—and how her Type 3 nature influences her response to them.
+But listen to her talk about her kids now: "My kids have taught me that life is complete with them."
 
-Her infamous 72-day marriage to basketball player Kris Humphries exemplifies the Type 3's occasional prioritization of image over authenticity. The lavish televised wedding, reportedly earning Kim $18 million, became a public relations disaster when it ended so quickly.
+For a Type 3, that's revolutionary – acknowledging fulfillment beyond accomplishment.
 
-A less resilient personality might have retreated permanently. But as a Type 3, Kim bounced back, acknowledging her mistake while pivoting her narrative toward new successes.
+Still, the struggle continues. On her show, she's admitted: "I'm so used to being a robot – going, going, going. Sometimes you need to just be."
 
-The 2016 Paris robbery, where Kim was held at gunpoint and robbed of millions in jewelry, forced a rare period of vulnerability. Her temporary retreat from social media and pivot toward a less materialistic public image showed a Type 3 in necessary reflection—a difficult but potentially growth-inducing state for Achievers.
+That tension – between doing and being – defines the Type 3 growth journey.
 
-Her cultural appropriation controversies, from "Kimono" shapewear (later renamed SKIMS after backlash) to her "Bo Derek" braids, reveal the Type 3's blind spot: sometimes focusing so intently on achievement that they miss important cultural nuances.
+## Social Media: The Perfect Type 3 Playground
 
-Yet her response to these controversies—usually apologizing, listening, and adapting—shows the healthy Type 3's flexibility and determination to succeed by learning from mistakes rather than being defined by them.
+Social media was practically made for Type 3s – it's all about crafting image and measuring success through quantifiable metrics (likes, followers, comments).
 
-## Conclusion
+Kim's approach to Instagram reveals her Type 3 psychology:
 
-From closet organizer to billionaire, from sex tape scandal to criminal justice advocate, Kim Kardashian's journey embodies the classic Enneagram Type 3 path. Her relentless drive for achievement, mastery of image management, workaholic tendencies, and growing desire for meaningful impact all paint a portrait of The Achiever in action.
+- Curated aesthetics (image is everything)
+- Strategic vulnerability (revealing just enough to seem authentic)
+- Consistent personal branding (the feed tells a cohesive story)
 
-What makes Kim fascinating isn't just her success but her evolution. We're witnessing a Type 3 potentially integrating toward more authentic expression—balancing achievement with genuine purpose through her legal studies and advocacy.
+But unlike many influencers, she maintains tight narrative control. When scandals hit, she responds with calculated precision – addressing issues just enough to satisfy critics without derailing her brand.
 
-Love her or hate her, Kim Kardashian has masterfully played the game of modern celebrity. She's turned 15 minutes of fame into a multi-billion-dollar empire and global influence. That transformation didn't happen by accident—it happened through the strategic vision, adaptability, and unstoppable drive of an Enneagram Type 3.
+Remember the "Kimono" shapewear controversy? A less resilient personality might have crumbled under the cultural appropriation accusations. Kim simply renamed it SKIMS and moved forward – classic Type 3 adaptability.
 
-As Kim herself said, "Not bad for a girl with no talent." Perhaps her talent was there all along: the quintessential Type 3 ability to achieve against all odds.
+## What We Can Learn From Kim's Type 3 Journey
+
+Love her or hate her, Kim's psychological journey offers valuable insights.
+
+Her strengths show Type 3 at its best:
+
+- Incredible work ethic
+- Ability to turn setbacks into opportunities
+- Adaptability in changing environments
+- Intuitive understanding of what people want
+
+Her challenges reveal Type 3's growth edges:
+
+- Finding worth beyond achievement
+- Connecting with authentic emotions
+- Being present rather than always performing
+- Balancing hustle with rest
+
+Whether you realize it or not, you probably have some Type 3 qualities yourself. We all want to be valued for what we contribute to the world.
+
+Kim's journey reminds us that true growth isn't just about accumulating achievements – it's about finding what genuinely matters beyond the external validation.
+
+## Beyond the Kardashian
+
+The next time you scroll past a Kim K headline or see her promoting her latest venture, look deeper. Behind the perfect contour and billion-dollar empire is a woman navigating the universal human struggle to be valued, to succeed, and to find authentic purpose.
+
+Understanding personality frameworks like the Enneagram doesn't just help us analyze celebrities – it helps us understand ourselves. What's your type? What drives you? What unconscious patterns might be shaping your choices?
+
+Kim's still writing her story, and her Type 3 journey continues to evolve. The lawyer, the mother, the entrepreneur, the icon – all facets of a personality much more complex than any headline could capture.
 
 > **Disclaimer:** This analysis of Kim Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type. People are complex beings that cannot be fully captured by any single typing system.
 
