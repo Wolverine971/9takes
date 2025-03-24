@@ -37,8 +37,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of John F. Kennedy's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of John F. Kennedy.
-
 <p class="firstLetter">John F. Kennedy, America's 35th president, wasn't just a political icon – he was a force of nature, brimming with charm, wit, and an insatiable appetite for life.</p>
 
 But what drove this captivating leader? Let's peel back the layers of JFK's personality and discover the fascinating world of an Enneagram Type 7.
@@ -115,6 +113,8 @@ As we reflect on JFK's legacy, we're left with an intriguing question: How might
 
 Check out this blog for an analysis of <a href="/personality-analysis/Jackie-Kennedy">Jackie Kennedy.</a>
 And check out this blog for an analysis of <a href="/personality-analysis/Marilyn-Monroe">Marilyn-Monroe.👀</a>
+
+> **Disclaimer** This analysis of John F. Kennedy's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of John F. Kennedy.
 
 <svelte:head>
 

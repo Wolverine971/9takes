@@ -10,6 +10,8 @@ priority: '0.6'
 published: true
 enneagram: 6
 type: ['movieStar', 'culturalIcon', 'psychologicalStudy']
+person: 'Marilyn-Monroe'
+suggestions: ['John F Kennedy', 'Jackie Kennedy']
 wikipedia: 'https://en.wikipedia.org/wiki/Marilyn_Monroe'
 twitter: 'https://twitter.com/MarilynMonroe'
 instagram: 'https://www.instagram.com/marilynmonroe'

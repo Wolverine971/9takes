@@ -63,8 +63,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Alexandria Ocasio Cortez's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Alexandria.
-
 <p class="firstLetter">Alexandria Ocasio-Cortez, affectionately known as AOC, burst onto the political scene like a lightning bolt, electrifying progressives and challenging the status quo.</p>
 
 But what drives this firebrand congresswoman from the Bronx? Let's peel back the layers and explore the inner workings of AOC's mind through the lens of the Enneagram.
@@ -164,6 +162,8 @@ Looking to the future, AOC's Type 6 traits of loyalty, skepticism, and determina
 Alexandria Ocasio-Cortez is a complex figure, shaped by her experiences, driven by her convictions, and influenced by her Type 6 personality. Her journey from bartender to influential congresswoman is a testament to the power of determination and the impact one person can have when they tap into their core motivations.
 
 As we've seen, understanding AOC through the lens of the Enneagram offers insights into her behavior, motivations, and worldview. Her counterphobic tendencies as a Type 6 explain her passionate stances on issues and her fearless confrontations with powerful figures. But what about you? How might understanding your own Enneagram type change the way you see yourself and your potential to make a difference?
+
+> **Disclaimer** This analysis of Alexandria Ocasio Cortez's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Alexandria.
 
 <svelte:head>
 

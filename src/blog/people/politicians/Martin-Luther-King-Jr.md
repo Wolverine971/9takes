@@ -11,7 +11,7 @@ published: true
 enneagram: 8
 type: ['politician']
 person: 'Martin-Luther-King-Jr'
-suggestions: ['Barack Obama', 'John F. Kennedy']
+suggestions: ['Barack Obama', 'John F Kennedy']
 wikipedia: ''
 twitter: ''
 instagram:
@@ -20,7 +20,7 @@ tiktok:
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 <div
 	style="display: flex;

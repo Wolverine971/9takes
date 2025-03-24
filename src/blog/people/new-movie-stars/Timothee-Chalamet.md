@@ -47,8 +47,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Timothée Chalamet's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Timothée.
-
 <p class="firstLetter">Timothée Chalamet, the captivating actor who's taken Hollywood by storm, is more than just a pretty face with impressive acting chops.</p>
 
 Behind those soulful eyes and that tousled hair lies a complex personality - one that's driven by both ambition and anxiety, loyalty and skepticism. Today, we're diving deep into the psyche of this young star, exploring how his Enneagram type shapes his approach to life, love, and his meteoric rise to fame.
@@ -110,6 +108,8 @@ In true Type 6 fashion, Timothée seems to be constantly looking ahead, anticipa
 Timothée Chalamet's journey from a multicultural kid in New York to a Hollywood superstar is a study in how an Enneagram Type 6 navigates the world. His blend of anxiety and ambition, loyalty and skepticism, has shaped him into the complex, captivating actor we see today.
 
 But what do you think? How might understanding Timothée's potential Enneagram type change the way you view his performances or public persona? And more intriguingly, what might it reveal about your own personality and the way you navigate the world?
+
+> **Disclaimer** This analysis of Timothée Chalamet's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Timothée.
 
 <svelte:head>
 

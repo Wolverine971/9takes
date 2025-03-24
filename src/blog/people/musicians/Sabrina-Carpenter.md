@@ -11,7 +11,7 @@ published: true
 enneagram: 3
 type: ['musician']
 person: 'Sabrina-Carpenter'
-suggestions: ['Billie Eilish']
+suggestions: ['Billie Eilish', 'Chappell Roan', 'Sydney Sweeney']
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -76,7 +76,7 @@ how tall is
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+   import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -93,8 +93,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Sabrina Carpenter's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Sabrina Carpenter.
 
 <!-- # Decoding Sabrina Carpenter: An Enneagram Type 3 Analysis
 In the ever-evolving landscape of pop culture, few stars shine as brightly or as consistently as Sabrina Carpenter. For her devoted fans, Carpenter's journey from Disney Channel darling to pop music powerhouse has been nothing short of inspiring. But what drives this multifaceted artist? Let's delve into how this personality type has shaped her path and explore the depths of her character that casual observers might miss. -->
@@ -181,6 +179,8 @@ For fans and fellow Type 3s alike, Carpenter's story serves as an inspiring exam
 What aspects of Sabrina's journey resonate with you? How do you see the interplay of ambition and authenticity in your own life? Share your thoughts in the comments below!
 
 To learn more about the Enneagram and discover your own type, sign up on 9takes.
+
+> **Disclaimer** This analysis of Sabrina Carpenter's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Sabrina Carpenter.
 
 <svelte:head>
 

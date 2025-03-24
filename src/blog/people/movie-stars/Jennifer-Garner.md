@@ -11,7 +11,7 @@ published: true
 enneagram: 1
 type: ['movieStar']
 person: 'Jennifer-Garner'
-suggestions: []
+suggestions: ['Denzel-Washington', 'Leonardo DiCaprio']
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -22,7 +22,7 @@ tiktok: ''
 
 <script>
     import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+    import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 <div
     style="display: flex;
@@ -38,8 +38,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
         subtext=""
     />
 </div>
-
-> **Disclaimer** This analysis of Jennifer Garner's Enneagram type is speculative, based on publicly available information, and may not reflect Jennifer Garner's actual personality type.
 
 ## What Is Jennifer Garner's Personality Type?
 
@@ -86,6 +84,8 @@ In an industry often criticized for its superficiality, Garner stands out as an 
 Now that we've explored Jennifer Garner's world through an Enneagram Type 1 lens, does it change your view of her? Understanding her drive for perfection, her response to stress, and her intrinsic need for moral alignment offers a new perspective on her public persona and artistic choices.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Jennifer Garner's Enneagram type is speculative, based on publicly available information, and may not reflect Jennifer Garner's actual personality type.
 
 <svelte:head>
 

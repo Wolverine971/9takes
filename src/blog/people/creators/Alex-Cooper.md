@@ -203,47 +203,6 @@ This mission-driven approach reveals the depth beneath the Type 7's playful exte
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Alex Cooper
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Alex:
-
-<article>
-  <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
-  <p>The Perfectionist sees two sides of Alex Cooper. They deeply respect her work ethic and the empire she's methodically built, appreciating how she's transformed from controversial beginnings to a more refined media presence. However, they likely wince at her occasional profanity and provocative content. "I admire what she's accomplished, but must she be so... unfiltered? There's potential for even greater impact with more polish."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
-  <p>The Helper sees Alex as a force for good, especially appreciating her evolution toward mental health advocacy and creating spaces for difficult conversations. They're touched by how she's built a supportive community in the "Daddy Gang." "What I love most is how she uses her platform to normalize therapy and anxiety discussions. She's helping so many people feel less alone in their struggles – that's real impact."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
-  <p>The Achiever is thoroughly impressed by Alex's strategic business moves and brand building. They study her career trajectory like a masterclass in modern success. "From college athlete to a $125 million SiriusXM deal? Pure brilliance. She's playing chess while others play checkers. Her pivot after the Sofia drama was especially genius – turning crisis into opportunity is the ultimate achievement."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
-  <p>The Individualist has complicated feelings about Alex Cooper. They're drawn to her authentic voice and willingness to be vulnerable about anxiety and relationships. Yet they question whether her massive commercial success has diluted her originality. "There's something refreshingly real about her earlier work. Now that she's mainstream, has she lost some of that raw honesty that made her special? I'm not sure the Alex Cooper of today is as authentic as she once was."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
-  <p>The Investigator finds Alex's business model and audience psychology fascinating. They appreciate her strategic mind but question whether her interviews truly reach intellectual depth. "Her business acumen is undeniable – the way she leveraged audience data to secure those deals shows serious intelligence. But I wonder if she's capable of more substantive conversations. The Kamala Harris interview barely scratched the surface of what could have been explored."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
-  <p>The Loyalist is cautiously intrigued by Alex but wonders about her consistency and true motivations. They appreciate her transparency during controversies but remain skeptical about her rapid reinventions. "She was smart to address the Sofia situation directly – that built trust. But it's hard to know what she actually stands for beyond her own success. Is The Unwell Network genuinely about supporting new voices, or just expanding her business? Time will tell."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
-  <p>The Enthusiast sees a kindred spirit in Alex Cooper, celebrating her versatility, endless reinvention, and zest for new ventures. They're energized by her refusal to be boxed in by expectations. "She's absolutely LIVING! One day interviewing celebrities, next day launching beverages, then building a creator network – that's freedom! Most people would've stuck with the first successful formula, but she keeps evolving. That's exactly how life should be lived!"</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
-  <p>The Challenger deeply respects Alex's fearlessness and unwillingness to be controlled or limited. They admire how she seized power during the Barstool negotiations and continues expanding her territory. "She's got real backbone. When Barstool thought they owned her, she proved everyone wrong. She doesn't just talk about power – she takes it. Building her own network instead of staying comfortable with Spotify? That's the move of someone who refuses to be controlled."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
-  <p>The Peacemaker finds Alex's energy overwhelming but appreciates how she's created unity through the "Daddy Gang" community. They're particularly drawn to her more recent, thoughtful content on mental health and relationships. "Her earlier stuff was a bit much for me – so confrontational! But I appreciate how she's matured and now creates space for many different voices and perspectives. The way she connects with her audience shows she genuinely cares about bringing people together."</p>
-</article>
-
 ## The Future According to Alex Cooper: What's Next for This Type 7 Icon?
 
 What does the future hold for Alex Cooper? If her Type 7 pattern continues, expect:

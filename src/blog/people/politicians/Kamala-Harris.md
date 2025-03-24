@@ -20,7 +20,7 @@ tiktok: ''
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -37,8 +37,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
         subtext=""
     />
 </div>
-
-> **Disclaimer** This analysis of Kamala Harris's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kamala.
 
 <details>
 <summary class="accordion">Table of Contents</summary>
@@ -252,6 +250,8 @@ As we reflect on Kamala Harris's journey through the lens of Enneagram Type 3, w
 From her early morning workouts to her ability to pivot in high-pressure situations, Harris embodies the complex, multifaceted nature of the Type 3 personality. Understanding Harris through the Enneagram lens offers valuable insights into her motivations, strengths, and challenges.
 As Harris continues to navigate her role as Vice President and potentially eyes future political aspirations, her Type 3 characteristics will undoubtedly play a crucial role in shaping her decisions and public image.
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Kamala Harris's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kamala.
 
 <svelte:head>
 

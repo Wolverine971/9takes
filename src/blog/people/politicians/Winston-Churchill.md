@@ -22,7 +22,7 @@ tiktok:
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 <div
 	style="display: flex;
@@ -37,8 +37,6 @@ margin: 1rem 0;"
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Winston Churchill's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Churchill.
 
 <p class="firstLetter">He was the British Bulldog, the defiant leader who stared down Hitler and inspired a nation through its darkest hour.</p>
 
@@ -98,6 +96,8 @@ Like many 8s, he struggled to show vulnerability or admit when he was wrong. Aft
 In the end, Churchill's battered England prevailed, in large part due to his 8 qualities of resilience, bravery and refusal to quit. The brilliant historian and loyal friend was also a devoted husband and father behind the scenes. Asked late in life if he was happy, he replied simply: "**I have had a very full life.**"
 
 From his triumphs to his shortcomings, Churchill embodied the complex contradictions and world-changing impact a mighty Enneagram 8 can have. We may never see another leader quite like the defiant Lion who rallied the free world in its hour of need. But his life stands as a testament to what becomes possible when an 8 harnesses their full power. The rest of us are left to marvel.
+
+> **Disclaimer** This analysis of Winston Churchill's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Churchill.
 
 <svelte:head>
 

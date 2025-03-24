@@ -17,8 +17,7 @@ pic: 'greek-statues-on-a-first-date'
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-    
-    import DateTip from "$lib/components/atoms/DateTip.svelte";
+  import DateTip from "$lib/components/atoms/DateTip.svelte";
 </script>
 
 <p class="firstLetter">Sweaty palms. Racing heart. "What if they don't like me?" "What should I wear?" "What if there's awkward silence?"</p>
@@ -691,12 +690,6 @@ Understanding these patterns doesn't just help with first impressions—it offer
 Have you noticed these patterns in your dating life? Which type resonates most with you, and which types have you connected with? Share your experiences in the comments!
 
 If you found this helpful, explore our deeper guides on [navigating early relationship stages](/enneagram-corner/how-to-navigate-early-relationship-stages) or [what each type truly desires in relationships](/enneagram-corner/enneagram-types-in-relationships).
-
-<!-- <div class="cta-box">
-    <h3>Want to understand yourself and others better?</h3>
-    <p>Take our free Enneagram assessment and discover your type, including detailed insights about your relationship patterns, communication style, and growth opportunities.</p>
-    <a href="/assessment" class="cta-button">Take the Free Assessment</a>
-</div> -->
 
 <svelte:head>
 

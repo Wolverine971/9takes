@@ -42,8 +42,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Lana Del Rey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lana.
-
 <p class="firstLetter">Lana Del Rey, the sultry siren of nostalgia-tinged pop, has captivated audiences with her haunting melodies and cinematic lyrics.</p>
 
 But beneath the image of vintage glamour lies a complex artist whose inner world is as rich and layered as her music. Let's dive into the depths of Lana's psyche and explore the intricacies that make her a true embodiment of the Enneagram Type 4 personality.
@@ -124,6 +122,8 @@ Today, Lana continues to evolve as an artist, pushing boundaries and exploring n
 Lana Del Rey's journey as an Enneagram Type 4 is a fascinating study in the power of embracing one's unique perspective and channeling it into art. Her ability to transform personal pain into universal beauty resonates with millions, proving that there's strength in vulnerability.
 
 As we've explored Lana's inner world, what aspects of her personality do you relate to most? And how might understanding the Enneagram help us appreciate the complexity of our favorite artists – and ourselves?
+
+> **Disclaimer** This analysis of Lana Del Rey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lana.
 
 <svelte:head>
 

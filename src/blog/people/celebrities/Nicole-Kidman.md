@@ -11,6 +11,7 @@ published: false
 enneagram: 4
 type: ['celebrity']
 person: 'Nicole-Kidman'
+suggestions: ['Jimmy Carter', 'Oprah Winfrey']
 wikipedia: ''
 twitter: ''
 instagram: ''
