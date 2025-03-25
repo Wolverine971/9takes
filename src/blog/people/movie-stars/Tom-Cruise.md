@@ -39,8 +39,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Tom Cruise's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tom.
-
 <p class="firstLetter">Tom Cruise: Hollywood icon, action hero, and relentless achiever.</p>
 
 But what drives the man behind the million-dollar smile? Dive with us into the psyche of one of cinema's most beloved stars as we explore the personality type that fuels his unstoppable ambition. Buckle up because this journey into Tom's mind is as thrilling as any Mission: Impossible stunt.
@@ -128,6 +126,8 @@ This commitment to creating shared experiences? It's the Type 3's desire to impa
 In conclusion, understanding Tom Cruise through the lens of the Enneagram Type 3 gives us a new appreciation for his relentless drive and charismatic persona. It's not just about the roles he plays – it's about the role he was born to play: The Achiever.
 
 So, the next time you watch a Tom Cruise film, remember – you're not just seeing a character. You're witnessing the embodiment of the Enneagram Type 3 in all its glory, giving it all he's got, every single time.
+
+> **Disclaimer** This analysis of Tom Cruise's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tom.
 
 <svelte:head>
 

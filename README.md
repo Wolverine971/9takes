@@ -28,8 +28,8 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "Robert-Pattinson.png" -o "Robert-Pattinson.webp"
-cwebp -sns 70 -f 50 -size 20000 "Robert-Pattinson.webp" -o "./s-Robert-Pattinson.webp"
+cwebp "Will-Smith.png" -o "Will-Smith.webp"
+cwebp -sns 70 -f 50 -size 20000 "Will-Smith.webp" -o "./s-Will-Smith.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

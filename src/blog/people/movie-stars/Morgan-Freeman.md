@@ -42,8 +42,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Morgan Freeman's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Morgan Freeman.
-
 <p class="firstLetter">You've seen him in countless films, heard his iconic voice narrate documentaries, and probably formed an opinion about him.</p>
 
 But do you really know what makes Morgan Freeman tick? Today, we're diving deep into the psyche of this Hollywood legend, exploring the inner workings of a man who's captivated audiences for decades.
@@ -121,6 +119,8 @@ Freeman's ongoing activism and philanthropic efforts, such as his support for Ar
 Morgan Freeman has a desire to improve the world, and his ongoing quest for personal growth all align with the core motivations of The Perfectionist.
 
 Here's the thing - we're all complex individuals, and no single framework can fully capture the essence of a person. The Enneagram is just one tool for understanding ourselves and others. So, the next time you watch a Morgan Freeman film or hear his distinctive voice narrating a documentary, remember - there's always more beneath the surface, waiting to be discovered.
+
+> **Disclaimer** This analysis of Morgan Freeman's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Morgan Freeman.
 
 <svelte:head>
 
