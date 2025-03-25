@@ -7,7 +7,7 @@ loc: 'https://9takes.com/personality-analysis/Robert-Pattinson'
 lastmod: '2025-03-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['newMovieStar']
 person: 'Robert-Pattinson'

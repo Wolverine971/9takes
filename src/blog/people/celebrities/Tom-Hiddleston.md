@@ -7,7 +7,7 @@ loc: 'https://9takes.com/personality-analysis/Tom-Hiddleston'
 lastmod: '2025-03-24'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['celebrity']
 person: 'Tom-Hiddleston'
