@@ -32,6 +32,10 @@
 	let commentsLoaded = false;
 	let commentsVisible = false;
 	let currentPath = '';
+	// let jsonLdSnippet;
+
+	$: jsonLdSnippet =
+		typeof post?.jsonLdSnippet === 'string' ? JSON.parse(post.jsonLdSnippet) : post?.jsonLdSnippet;
 
 	const commentAdded = (detail: any) => {
 		comments = [...detail, ...comments];
@@ -162,7 +166,7 @@
 </script>
 
 <svelte:head>
-	{@html `<script type="application/ld+json">${JSON.stringify(post.jsonLdSnippet)}</script>`}
+	{@html `<script type="application/ld+json">${JSON.stringify(jsonLdSnippet)}</script>`}
 </svelte:head>
 
 <article itemscope itemtype="https://schema.org/BlogPosting" class="blog">
