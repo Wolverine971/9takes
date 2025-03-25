@@ -75,25 +75,9 @@ Furthermore, Fallon's genuine excitement when interacting with his guests is pal
 
 While Jimmy Fallon's career has been overwhelmingly successful, it hasn't been without its fair share of challenges and controversies. Exploring these instances sheds light on the internal workings of a Type 7 personality and provides deeper insight into Fallon's character.
 
-One such controversy arose during the 2016 United States presidential campaign when Fallon playfully ruffled then-candidate Donald Trump's hair on-air. The incident drew criticism from some who believed Fallon had normalized and trivialized Trump's candidacy. This controversy highlighted Fallon's inclination to maintain a light-hearted approach even in serious situations, a characteristic often associated with Type 7 individuals.
+One such controversy arose during the 2016 United States presidential campaign when Fallon playfully ruffled then-candidate [Donald Trump](/personality-analysis/Donald-Trump)'s hair on-air. The incident drew criticism from some who believed Fallon had normalized and trivialized Trump's candidacy. This controversy highlighted Fallon's inclination to maintain a light-hearted approach even in serious situations, a characteristic often associated with Type 7 individuals.
 
 Additionally, some critics argue that Fallon's desire to please everyone and maintain a jovial atmosphere may occasionally overshadow opportunities for deeper conversations or more critical commentary on his show. While this trait might be seen as a weakness in some contexts, it aligns with the Enthusiast's underlying fear of missing out and a tendency to avoid discomfort or conflict.
-
-<BlogPurpose/>
-
-## How Each Enneagram Type Perceives Jimmy Fallon
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jimmy Fallon:
-
-- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)**: They might appreciate Fallon's ability to find humor in everyday situations, but may also find his lighthearted approach lacking depth and seriousness.
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)**: They might admire Fallon's warmth and genuine interest in others, but could question whether his kindness is always genuine or occasionally performative.
-- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)**: They might appreciate Fallon's drive and versatility, seeing him as a model of success. However, they may also recognize a potential fear of failure hidden behind his relentless pursuit of new experiences.
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)**: They might find Fallon's ability to bring joy to others captivating, yet perceive his tendency to avoid darker emotions as a missed opportunity for profound self-expression.
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)**: They might appreciate Fallon's quick-wittedness and ability to adapt, but might also find his energy overwhelming or distracting at times.
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)**: They might find comfort in Fallon's light-heartedness and find his affability trustworthy. However, they may question his authenticity and long for more substantial discussions.
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)**: They might resonate deeply with Fallon's zest for life, recognizing a kindred spirit in their shared desire for new experiences and constant exploration.
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)**: They might admire Fallon's ability to entertain and bring people together, but may question his inclination to avoid controversial or confrontational topics.
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)**: They might find solace in Fallon's ability to create a harmonious atmosphere, appreciating his effort to make everyone feel comfortable and included.
 
 ## Wrapping Up Mr Fallon: The Enthusiast Personified
 
