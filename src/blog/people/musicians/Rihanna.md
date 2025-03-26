@@ -20,7 +20,7 @@ tiktok: ''
 
 <p class="firstLetter">Rihanna isn't just a pop star turned business mogul. She's a force of nature who redefined what power looks like in entertainment, fashion, and beauty. But what's really going on inside her head? What drives the woman who refuses to play by anyone's rules but her own?</p>
 
-If you've followed RiRi's journey, you've witnessed her fierce independence and unwavering confidence. These aren't just personality quirks—they're classic traits of an Enneagram Type 8, also known as "The Challenger."
+If you've followed RiRi's journey, you've witnessed her fierce independence and unwavering confidence. These aren't just personality quirks—they're classic traits of an [Enneagram Type 8](/enneagram-corner/enneagram-type-8), also known as "The Challenger."
 
 Let's dive into the fascinating psychology behind the woman who conquered multiple industries without apologizing for a damn thing.
 
@@ -71,6 +71,10 @@ When Chris Brown's assault left her wounded both physically and emotionally, she
 The resulting album, "Rated R," wasn't just commercially successful. It was _emotionally authentic_. Dark. Raw. Unflinching.
 
 Type 8s don't run from pain. They face it head-on, process it, and emerge stronger.
+
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/3KNFzBOtESk?si=xS6JnGNuyvFp7IsJ&amp;start=198" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Fenty Revolution: The Business Challenger Who Changed the Game
 

@@ -18,27 +18,13 @@ instagram: 'https://www.instagram.com/elonmusk'
 tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 ---
 
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
+<p class="firstLetter">Rockets soaring toward Mars.</p>
 
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/types/5s/${'Elon-Musk'}.webp`}
-    showIcon={false}
-    enneagramType="5"
-    displayText="Elon Musk"
-    subtext=""
-  />
-</div>
+Electric vehicles disrupting century-old industries.
 
-<p class="firstLetter">Rockets soaring toward Mars. Electric vehicles disrupting century-old industries. Brain chips connecting humans to computers. Behind these revolutionary ventures stands one man: Elon Musk.</p>
+Brain chips connecting humans to computers.
+
+Behind these revolutionary ventures stands one man: **Elon Musk**.
 
 Love him or hate him, you can't ignore him. The enigmatic billionaire commands attention with every tweet, product launch, and controversial statement.
 
@@ -288,105 +274,3 @@ Understanding Elon as a Type 5 helps explain both his extraordinary achievements
 As we watch Elon's continued efforts to push human achievement—through Mars colonization, AI development, or government reform—we might ask ourselves: How can we channel our own personality traits to create positive impact? And what might happen if we all approached problems with the curiosity and determination of a Type 5 like Elon Musk?
 
 > **Disclaimer** This analysis of Elon Musk's Enneagram type is speculative, based on publicly available information, and may not reflect Elon's actual personality type.
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the multifaceted personality of Elon Musk as an Enneagram Type 5. It covers various aspects of his life, from his early years in South Africa to his current ventures including SpaceX, Tesla, X, and his role at the Department of Government Efficiency. The article analyzes how his Type 5 traits manifest in his companies, leadership style, and personal relationships.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-03-10"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-09-03"
-      },
-      "description": "An in-depth look into Elon Musk's personality as an Enneagram Type 5, focusing on his life, relationships, and how his Type 5 traits are evident in his various companies and recent ventures.",
-      "headline": "Elon Musk's Personality: An Enneagram Type 5 Deep Dive",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/5s/Elon-Musk.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Elon-Musk",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Elon Musk",
-        "sameAs": ["https://en.wikipedia.org/wiki/Elon_Musk", "https://twitter.com/elonmusk", "https://www.instagram.com/elonmusk/"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Elon Musk is a quintessential Enneagram Type 5, known for his insatiable thirst for knowledge and innovation. His ventures into various industries like technology, automotive, space exploration, and AI are a testament to his Type 5 characteristics. His analytical approach to problem-solving and tendency to work intensely, sometimes 120 hours weekly during critical periods, exemplify the Type 5's deep focus and competency drive."
-          },
-          "name": "Why is Elon Musk considered an Enneagram Type 5?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Elon Musk's inner world is likely a complex landscape of ideas, theories, and future possibilities. As a Type 5, he constantly seeks to understand the world around him, diving deep into subjects that interest him. His reported habit of organizing his day in 5-minute increments and visualizing complex systems mentally reflects his rich internal thought processes and need for control over his environment."
-          },
-          "name": "What might Elon Musk's inner world be like?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Elon Musk has faced controversies, particularly around his social media behavior, his acquisition of Twitter (now X) in 2022, and his 2024 endorsement of Donald Trump. These controversies can be understood through his Type 5 personality, particularly when under stress, where he may exhibit impulsive Type 7 behaviors. His core fear of being useless or incompetent can lead to actions that appear contradictory or polarizing."
-          },
-          "name": "What controversies has Elon Musk faced related to his Enneagram Type?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Elon Musk's core motivation as a Type 5 is to gain knowledge and competency. This is evident in his diverse range of companies, each founded on first principles thinking and aimed at solving some of humanity's biggest challenges. From sustainable energy at Tesla to making humanity multi-planetary with SpaceX, and his new role leading government efficiency efforts (DOGE) under President Trump in 2025, his ventures reflect his drive to understand and master complex systems."
-          },
-          "name": "What is Elon Musk's core motivation as an Enneagram Type 5?"
-        }
-      ]
-    }
-  ]
-}
-
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>

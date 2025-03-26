@@ -18,48 +18,6 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- notes:
-Halsey songs
-Halsey tour
-Halsey album
-Halsey lyrics
-Halsey concert
-Halsey music
-Halsey new album
-Halsey and G-Eazy
-Halsey Badlands
-Halsey Manic
-Halsey Without Me
-Halsey Nightmare
-Halsey Graveyard
-Halsey Hopeless Fountain Kingdom
-Halsey Room 93
-Halsey If I Can't Have Love, I Want Power
-Halsey discography
-Halsey Spotify
-Halsey YouTube
-Halsey Instagram -->
-
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/types/8s/${'Halsey'}.webp`}
-		showIcon={false}
-		enneagramType="8"
-		displayText="Halsey"
-		subtext=""
-	/>
-</div>
-
 <p class="firstLetter">You've streamed her music, dissected her lyrics, and probably bobbed your head to her catchy beats.</p>
 
 Halsey, an influential figure in the music industry, is a study of raw emotion and defiance. Today, we'll look at this multifaceted artist from a different perspective, as a striking embodiment of Enneagram Type 8 - The Challenger.

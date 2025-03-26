@@ -17,38 +17,9 @@ instagram: ''
 tiktok: ''
 ---
 
-<!--
-    childhood and upbringing
-    first big success
-    style habits and quirks that relate to their personality type
-    stressful moments in their life and how they handled them
-    comfort- moments in their life where they are doing well and killing it
--->
-<!-- // keywords:  -->
-
-<script>
-	// import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<!-- <PopCard
-		image={`/types/6s/${'Eminem'}.webp`}
-		enneagramType={6}
-		showIcon={false}
-		displayText="Eminem"
-		subtext=""
-	/> -->
-</div>
-
 <p class="firstLetter">Eminem is a walking contradiction.</p>
 
-_A man who craves stability yet thrives in chaos._ Someone who's deeply suspicious of everyone around him, yet fiercely loyal to the few he trusts. This paradox isn't just interesting – it's the core of what makes him a textbook Type 6 personality, the "Loyal Skeptic" of the Enneagram.
+_A man who craves stability yet thrives in chaos._ Someone who's deeply suspicious of everyone around him, yet fiercely loyal to the few he trusts. This paradox isn't just interesting – it's the core of what makes him a textbook [Type 6 personality](/enneagram-corner/enneagram-type-6), the "Loyal Skeptic" of the Enneagram.
 
 But Marshall Mathers isn't just any Type 6. He's a unique version, shaped by extraordinary circumstances.
 
@@ -204,13 +175,3 @@ And that's the ultimate insight – whether you're a multi-platinum artist or ju
 Eminem just happened to put his to a beat we couldn't resist.
 
 > **Disclaimer** This analysis of Eminem's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Eminem.
-
-<svelte:head>
-
-<script type="application/ld+json">
-
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>
