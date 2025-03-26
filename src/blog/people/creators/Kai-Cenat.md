@@ -24,7 +24,7 @@ At just 23, this Bronx native has transformed from making simple prank videos to
 
 But what drives this constant whirlwind of energy?
 
-Behind Kai's explosive "WOOOOOO!" celebrations and catchphrases lies the psychology of an **Enneagram Type 7 (The Enthusiast)** – someone who lives life at full throttle, constantly seeking new experiences and avoiding anything that feels limiting.
+Behind Kai's explosive "WOOOOOO!" celebrations and catchphrases lies the psychology of an [Enneagram Type 7 (The Enthusiast)](/enneagram-corner/enneagram-type-7) – someone who lives life at full throttle, constantly seeking new experiences and avoiding anything that feels limiting.
 
 "This dude keeps me laughing and happy… when he is streaming there isn't a dull moment," one fan observed. It's not just an act – it's the essence of who Kai is.
 
@@ -74,6 +74,10 @@ When he ended Mafiathon 2 after 30 relentless days, something unexpected happene
 
 "I know my road in life... God put me in a position to change lives in a small amount of time," he said, voice cracking.
 
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/nJcEh6fu8QI?si=c7un6ExUitKrewWT&amp;start=78" title="Kai Cenat Breaks Down in Tears During Emotional Mafiathon 2 Finale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 This moment exposed the deeper purpose beneath the party – a glimpse of Type 7 integration toward more meaningful goals.
 
 What's remarkable was his acknowledgment of sacrifice: "There were times I was stressed. I couldn't do the things I wanted... like go out to the club. But it's all a sacrifice."
@@ -115,7 +119,7 @@ While casual viewers might see only spontaneous fun, Kai's friends describe late
 The evidence is in the results:
 
 - Breaking the all-time Twitch subscriber record. Twice.
-- Building a YouTube empire with over 6 million subscribers
+- Building a YouTube empire with over 7 million subscribers (as of March 2025)
 - Securing major brand deals with Nike and McDonald's
 - Being named Rolling Stone's #1 Most Influential Creator of 2024
 

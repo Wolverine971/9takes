@@ -24,7 +24,7 @@ But _why_ is Speed the way he is?
 
 What's driving the madness behind one of the fastest-growing streamers on YouTube?
 
-The answer might lie in understanding his personality type—specifically, as an **Enneagram Type 8: The Challenger**.
+The answer might lie in understanding his personality type—specifically, as an [Enneagram Type 8: The Challenger](/enneagram-corner/enneagram-type-8).
 
 ## The Challenger Unleashed: How Speed Embodies Type 8 Energy
 
@@ -41,6 +41,10 @@ His notorious outbursts—throwing things, yelling at his webcam, barking like a
 Remember when Talking Ben kept telling him "No" and Speed lost his mind? That's a Type 8 who can't stand being defied, even by a virtual dog.
 
 Type 8s hate feeling weak or exposed. They'd rather explode in anger than show hurt or fear.
+
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/U-pQN5boCDo?si=wc8YkYs38grgEPYW" title="please stop calling me ishowmeat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 This explains why Speed often masks his vulnerability with rage. When he's genuinely scared during a horror game or an IRL stream gone wrong (like those fireworks aimed at his car in Chile), he doesn't whimper—he roars.
 
@@ -67,6 +71,10 @@ His approach to controversy reveals both the **resilience** and **defiance** tha
 Speed's explosive outbursts aren't accidents—they're his brand. But they're also a psychological release valve.
 
 Those clips of him destroying controllers, screaming at NPCs, or barking at the camera until his voice cracks? They're what Type 8s do instead of showing vulnerability.
+
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/9bnh7XOH3wg?si=3fTTXsKCfHfLpqM2" title="iShowSpeed Breaks Controller Playing Super Smash Bros" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Remember the Fourth of July firework incident? Lighting a Pikachu-shaped firework _in his bedroom_?
 
@@ -121,6 +129,10 @@ That worldwide adoration is something most entertainers only dream of, and Speed
 
 Another passion point: **his connection to sports, especially football (soccer)**. His Cristiano Ronaldo obsession became legendary in 2022, transforming him into the internet's loudest Ronaldo fan.
 
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uv1PyE8J38w?si=2RYXWH2HSF6XlmQx" title="IShowSpeed meets Ronaldo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 Meeting Ronaldo in person in 2023 was a life-defining moment for Speed—a full-circle affirmation that his fame had opened unbelievable doors.
 
 Finally, Speed prides himself on being **fearlessly creative**. He's always pushing for the next outrageous idea. He literally wants to "_livestream from outer space_" with Elon Musk's help.
@@ -174,6 +186,10 @@ On the personal front, Speed has shown small but meaningful signs of maturity. A
 He's even shown some **content moderation** improvements. After the "IShowMeat" incident, he became much more careful about explicit content on stream and sometimes even censors vulgar words in his YouTube highlights by choice.
 
 These changes indicate he's maturing from "I don't care, I'll do anything" to "_I have a huge platform, let's not ruin it._"
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fJNyN0DEOw8?si=H8CarxUrL4AItcic" title="iShowSpeed signs of maturity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## The Speed Paradox: Where Performance Ends and Authenticity Begins
 

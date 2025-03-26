@@ -17,38 +17,9 @@ instagram: ''
 tiktok: ''
 ---
 
-<!--
-    childhood and upbringing
-    first big success
-    style habits and quirks that relate to their personality type
-    stressful moments in their life and how they handled them
-    comfort- moments in their life where they are doing well and killing it
--->
-<!-- // keywords:  -->
-
-<script>
-	// import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<!-- <PopCard
-		image={`/types/1s/${'Anne-Hathaway'}.webp`}
-		enneagramType={1}
-		showIcon={false}
-		displayText="Anne Hathaway"
-		subtext=""
-	/> -->
-</div>
-
 <p class="firstLetter">You've seen Anne Hathaway transform from a princess to a desperate mother to a fashion assistant. But have you ever wondered what drives her to dive so deeply into each role?</p>
 
-The answer might lie in understanding her as an Enneagram Type 1 – The Perfectionist.
+The answer might lie in understanding her as an [Enneagram Type 1 – The Perfectionist](/enneagram-corner/enneagram-type-1).
 
 Type 1s are driven by a deep desire to be good, to do things correctly, and to improve the world around them. They're guided by a strong inner critic that constantly evaluates their actions against their high standards.
 
@@ -83,6 +54,10 @@ Even in moments of triumph, the Type 1's inner critic is working overtime, analy
 Her "Princess Diaries" director Garry Marshall once noted, "She's like a thoroughbred – you need to hold her back because she works so hard and prepares so much."
 
 That preparation comes from a place of anxiety about failing to meet her own standards.
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iOG3LTFHylQ?si=9dXkjtsXspbNGMN0&amp;start=86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Transformations: The Physical and Mental Dedication
 
@@ -198,14 +173,4 @@ The beauty of the Enneagram isn't just identifying your type – it's recognizin
 
 And that's a journey worth watching, both on screen and off.
 
-> **Disclaimer** This analysis of Anne Hathaway's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Anne Hathaway.
-
-<svelte:head>
-
-<script type="application/ld+json">
-
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>
+> **Disclaimer** This analysis of Anne Hathaway's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Anne.
