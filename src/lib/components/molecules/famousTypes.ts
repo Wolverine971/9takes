@@ -32,8 +32,8 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Millie-Bobby-Brown', link: true },
 		{ name: 'Tom-Hiddleston', link: true },
 		{ name: 'Henry-Cavill', link: true },
-		// { name: 'Saoirse-Ronan', link: true },
-		// { name: 'Kristen-Bell', link: true },
+		{ name: 'Saoirse-Ronan', link: true },
+		{ name: 'Kristen-Bell', link: true },
 	],
 	3: [
 		{ name: 'Sydney-Sweeney', link: true },

@@ -30,7 +30,9 @@ The assertive energy, the boundary-setting, the unapologetic authenticityâ€”all 
 
 But what makes her version of "The Challenger" so compelling to her growing fanbase? Let's dive deeper into the psychology behind the glitter, glamour, and unfiltered honesty that is Chappell Roan.
 
-<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/kzLrHTEvVfE?si=HZiHGAI2rZTSA6Ed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/kzLrHTEvVfE?si=HZiHGAI2rZTSA6Ed" title="Chappell talking about how she is an Enneagram 8 on Call Her Daddy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## From Kayleigh to Chappell: The Making of a Midwest Challenger
 
@@ -160,7 +162,7 @@ Understanding Chappell through the Enneagram lens doesn't reduce her complexityâ
 
 Her journey reminds us that personalities aren't static boxes but dynamic patterns that evolve through experience. The Midwestern girl who once felt "not hot enough" transformed that wound into artistry without losing her core authenticity.
 
-Her Type 8 energy fuels both her boundary-setting ("don't touch me, don't look at me") and her fierce advocacy for reciprocity and fairness in relationships.
+Her Type 8 energy fuels both her boundary-setting (**"don't touch me, don't look at me"**) and her fierce advocacy for reciprocity and fairness in relationships.
 
 Most importantly, she demonstrates that strength doesn't have to mean disconnection. Even as she navigates fame's challenges, she maintains connections to her roots and speaks candidly about her struggles.
 
