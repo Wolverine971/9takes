@@ -1,5 +1,5 @@
 ---
-title: "Chappell Roan: Inside The Challenger Queen's Type 8 Psyche"
+title: 'Chappell Roan: Rise of a Glitter-Pop Icon & Her Enneagram 8 Personality'
 description: "Discover how Chappell Roan's Enneagram Type 8 personality shapes her music, boundaries, and authentic persona. Explore the psychology behind the pop star's rise to fame."
 author: 'DJ Wayne'
 date: '2024-08-16'
