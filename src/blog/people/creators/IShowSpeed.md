@@ -130,12 +130,12 @@ That worldwide adoration is something most entertainers only dream of, and Speed
 Another passion point: **his connection to sports, especially football (soccer)**. His Cristiano Ronaldo obsession became legendary in 2022, transforming him into the internet's loudest Ronaldo fan.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uv1PyE8J38w?si=2RYXWH2HSF6XlmQx" title="IShowSpeed meets Ronaldo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/Uv1PyE8J38w?si=2RYXWH2HSF6XlmQx" title="IShowSpeed meets Ronaldo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 Meeting Ronaldo in person in 2023 was a life-defining moment for Speed—a full-circle affirmation that his fame had opened unbelievable doors.
 
-Finally, Speed prides himself on being **fearlessly creative**. He's always pushing for the next outrageous idea. He literally wants to "_livestream from outer space_" with Elon Musk's help.
+Finally, Speed prides himself on being **fearlessly creative**. He's always pushing for the next outrageous idea. He literally wants to "_livestream from outer space_" with [Elon Musk](/personality-analysis/Elon-Musk)'s help.
 
 It's a wild dream, but it shows his Type 8 ambition to go where no one has gone before.
 
@@ -167,7 +167,7 @@ Despite the controversies and volatility, Speed's story isn't one of a downward 
 
 In recent years, we've seen notable signs of growth:
 
-His **improved public image** has led to mainstream acceptance. By 2023, he was being embraced by other top creators and institutions. His collaborations with Kai Cenat showed Speed can be a team player.
+His **improved public image** has led to mainstream acceptance. By 2023, he was being embraced by other top creators and institutions. His collaborations with [Kai Cenat](/personality-analysis/Kai-Cenat) showed Speed can be a team player.
 
 Winning **Streamer of the Year at the 2024 Streamer Awards** was a huge nod from the streaming community—recognition that he's more than just shock value.
 
@@ -188,7 +188,7 @@ He's even shown some **content moderation** improvements. After the "IShowMeat" 
 These changes indicate he's maturing from "I don't care, I'll do anything" to "_I have a huge platform, let's not ruin it._"
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fJNyN0DEOw8?si=H8CarxUrL4AItcic" title="iShowSpeed signs of maturity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/fJNyN0DEOw8?si=H8CarxUrL4AItcic" title="iShowSpeed signs of maturity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## The Speed Paradox: Where Performance Ends and Authenticity Begins

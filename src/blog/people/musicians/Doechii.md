@@ -20,7 +20,7 @@ tiktok: ''
 
 <p class="firstLetter">In a music industry filled with calculated personas, **Doechii** stands apart as a force of genuine exuberance and creative freedom.</p>
 
-The Grammy-winning rapper's meteoric rise from Tampa outsider to Billboard Woman of the Year isn't just a story of talent—it's what happens when an **Enneagram Type 7** fully embraces their natural gifts.
+The Grammy-winning rapper's meteoric rise from Tampa outsider to Billboard Woman of the Year isn't just a story of talent—it's what happens when an [Enneagram Type 7](/enneagram-corner/enneagram-type-7) fully embraces their natural gifts.
 
 Through her ever-evolving artistic journey, Doechii embodies the pure essence of "The Enthusiast"—chasing experiences, transforming pain into empowerment, and refusing to stay still in any creative box.
 

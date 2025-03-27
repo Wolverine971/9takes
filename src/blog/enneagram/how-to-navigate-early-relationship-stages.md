@@ -231,7 +231,6 @@ Let's dive into a world where the Enneagram meets modern dating...
 <p><strong>Reveal your inner artist:</strong> Share a personal creative project, even if it's unfinished. For example: "I've been working on this poem/painting/song. It's not perfect, but it expresses something I've struggled to put into words." This vulnerability shows your depth and willingness to be seen in your creative process.</p>
 
 </section>
-Here's a concise version for Enneagram Type 5:
 
 <section class="section-content">
 
@@ -333,8 +332,6 @@ Here's a concise version for Enneagram Type 5:
 
 </section>
 
-Here's a concise version for Enneagram Type 7:
-
 <section class="section-content">
 
 ## Type 7: The Enthusiast - Finding Depth in Excitement
@@ -384,7 +381,6 @@ Here's a concise version for Enneagram Type 7:
 <p><strong>Reveal inner struggles:</strong> Share a time when you felt stuck or limited. For example: "Despite my usual optimism, I felt really overwhelmed during the lockdown. It taught me the importance of facing difficult emotions." This vulnerability shows your capacity for depth and self-reflection.</p>
 
 </section>
-Here's a concise version for Enneagram Type 8:
 
 <section class="section-content">
 
@@ -435,8 +431,6 @@ Here's a concise version for Enneagram Type 8:
 <p><strong>Share a moment of weakness:</strong> Describe a time when you felt powerless or vulnerable. For example: "When my parent was ill, I realized I couldn't control everything. It taught me the strength in asking for help." This vulnerability demonstrates your depth and capacity for emotional openness.</p>
 
 </section>
-
-Here's a concise version for Enneagram Type 9:
 
 <section class="section-content">
 

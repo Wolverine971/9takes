@@ -56,7 +56,7 @@ Her "Princess Diaries" director Garry Marshall once noted, "She's like a thoroug
 That preparation comes from a place of anxiety about failing to meet her own standards.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iOG3LTFHylQ?si=9dXkjtsXspbNGMN0&amp;start=86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/iOG3LTFHylQ?si=9dXkjtsXspbNGMN0&amp;start=86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Transformations: The Physical and Mental Dedication
