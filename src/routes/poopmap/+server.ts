@@ -1,5 +1,5 @@
-import { supabase } from '$lib/supabase';
 import { error } from '@sveltejs/kit';
+import { supabase } from '$lib/supabase';
 
 // const SITE_URL = '9takes.com';
 const getAllPosts = async () => {
@@ -72,6 +72,7 @@ export async function GET() {
 		.select('*')
 		.eq('published', true)
 		.order('lastmod')
+		.order('person')
 	if (personDataError) {
 		console.log(personDataError)
 

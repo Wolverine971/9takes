@@ -18,40 +18,11 @@ instagram: ''
 tiktok: ''
 ---
 
-<!--
-    childhood and upbringing
-    first big success
-    style habits and quirks that relate to their personality type
-    stressful moments in their life and how they handled them
-    comfort- moments in their life where they are doing well and killing it
--->
-<!-- // keywords:  -->
-
-<script>
-	// import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<!-- <PopCard
-		image={`/types/7s/${'Miles-Teller'}.webp`}
-		enneagramType={7}
-		showIcon={false}
-		displayText="Miles Teller"
-		subtext=""
-	/> -->
-</div>
-
 <p class="firstLetter">Ever wondered what makes Miles Teller tick? The guy who drummed until his hands bled in *Whiplash*, flew fighter jets in *Top Gun: Maverick*, and somehow makes it all look effortless?</p>
 
 There's something about Teller that draws us in. Maybe it's his natural charisma. Maybe it's his intensity. Or maybe it's something deeper – something in his psychological makeup that drives him to be the versatile actor we've come to love.
 
-Let's dive into what makes Miles Teller uniquely **Miles Teller** – through the lens of the Enneagram Type 7.
+Let's dive into what makes Miles Teller uniquely **Miles Teller** – through the lens of the [Enneagram Type 7](/enneagram-corner/enneagram-type-7).
 
 ## Miles Teller's Childhood: How a Pennsylvania Boy Became Hollywood's Ultimate Enthusiast
 
@@ -246,14 +217,4 @@ Miles Teller isn't just an Enthusiast – he's an Enthusiast who's learned to ch
 
 And in doing so, he's created a career that continues to surprise, inspire, and entertain us – much like Type 7s themselves.
 
-> **Disclaimer** This analysis of Miles Teller's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Miles Teller.
-
-<svelte:head>
-
-<script type="application/ld+json">
-
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>
+> **Disclaimer** This analysis of Miles Teller's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Miles.

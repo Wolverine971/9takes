@@ -19,7 +19,7 @@ tiktok: ''
 
 <p class="firstLetter">Tom Hiddleston captivates millions with his portrayal of the God of Mischief. But what drives the man behind the horned helmet?</p>
 
-As an Enneagram Type 2 (The Helper), Tom embodies warmth and generosity that seems almost _contradictory_ to his most famous role.
+As an [Enneagram Type 2 (The Helper)](/enneagram-corner/enneagram-type-2), Tom embodies warmth and generosity that seems almost _contradictory_ to his most famous role.
 
 Yet that's exactly what makes him fascinating.
 

@@ -354,7 +354,7 @@
 								href={`/questions/${featuredQuestion.url}`}
 								class="inline-flex items-center text-sm font-semibold text-primary-700 hover:text-primary-800"
 							>
-								Join the discussion
+								Give your take
 								<svg
 									class="ml-1 h-4 w-4"
 									fill="none"
