@@ -1,6 +1,6 @@
 ---
-title: 'Chelsea Handler Enneagram Type 7'
-description: 'Why Chelsea Handler appears to be a type 7'
+title: "Chelsea Handler Unfiltered: Inside the Mind of Comedy's Boldest Type 8"
+description: "Discover how Chelsea Handler's Enneagram Type 8 personality shaped her comedy career, relationships with celebrities, and journey from trauma to authentic vulnerability."
 author: 'DJ Wayne'
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/Chelsea-Handler'
@@ -8,7 +8,7 @@ lastmod: '2025-03-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-enneagram: 7
+enneagram: 8
 type: ['celebrity']
 person: 'Chelsea-Handler'
 wikipedia: ''

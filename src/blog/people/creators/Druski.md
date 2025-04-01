@@ -18,15 +18,31 @@ instagram: ''
 tiktok: ''
 ---
 
-<p class="firstLetter">Ever wonder what really makes Druski tick?</p>
+> Never needed no PR
 
-What goes on in the mind of the guy who can roast Jack Harlow, crash Drake's video shoot, and create the viral "Coulda Been Records" skits?
+> I live with no boundaries... I don't like being boxed in.
 
-Behind the infectious smile and the ridiculous characters lies a _fascinating_ psychological profile worth unpacking. Let's dive into what makes Druski a "Challenger" personality ([Enneagram Type 8](/enneagram-corner/enneagram-type-8)) - and why his persona has connected with millions.
+<p class="firstLetter">If Druski was standing in front of you right now you would feel small.</p>
+
+Not because he is physically big but because Druski's presence and persona is likely bigger than yours.
+
+He has big energy.
+
+He has a big presence.
+
+He might come off as a bit intimidating.
+
+That is because he is an [Enneagram 8 "The Challenger".](/enneagram-corner/enneagram-type-8)
+
+This article explores Druski's personality. We dive into what is behind the infectious smile and why his persona has connected with millions.
 
 ## How Druski Used "Big Boss Energy" to Break Into Hip-Hop's Inner Circle
 
 Druski doesn't just play a boss on social media - he _carries_ himself like one everywhere he goes.
+
+He is funnier than you.
+
+He is self deprecating because he is secure in himself. He isn't defensive because he isn't intimidated by you. He desolves tension with humor. And make no mistake he is usually in control.
 
 Remember when Drake invited him to film the "Laugh Now Cry Later" video at Nike headquarters? Instead of being starstruck, Druski spent the day "walking around talking to people like I was the CEO." That's pure Type 8 energy - walking into any room like you own it.
 

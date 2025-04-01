@@ -31,7 +31,7 @@ The assertive energy, the boundary-setting, the unapologetic authenticity—all 
 But what makes her version of "The Challenger" so compelling to her growing fanbase? Let's dive deeper into the psychology behind the glitter, glamour, and unfiltered honesty that is Chappell Roan.
 
 <div class="iframe-container">
-<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/kzLrHTEvVfE?si=HZiHGAI2rZTSA6Ed" title="Chappell talking about how she is an Enneagram 8 on Call Her Daddy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/kzLrHTEvVfE?si=KecI3GF7maYPfO43&amp;start=3648" title="Chappell talking about how she is an Enneagram 8 on Call Her Daddy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## From Kayleigh to Chappell: The Making of a Midwest Challenger

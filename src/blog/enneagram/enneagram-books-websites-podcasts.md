@@ -33,27 +33,27 @@ If you're looking to dive deeper into the world of the Enneagram, these books of
 
 ### Must-Read Classics
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a> by Don Richard Riso and Russ Hudson: This book provides a comprehensive overview of the Enneagram system, along with detailed descriptions of each type and practical exercises for personal growth.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a> by Don Richard Riso and Russ Hudson: This book provides a comprehensive overview of the Enneagram system, along with detailed descriptions of each type and practical exercises for personal growth.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Complete-Enneagram-Paths-Greater-Self-Knowledge/dp/1938314549?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=e8ee276c6ed219e94e254fad11a53a64&camp=1789&creative=9325">The Complete Enneagram: 27 Paths to Greater Self-Knowledge</a> by Beatrice Chestnut: In this book, Chestnut goes beyond the basic nine types, exploring the subtypes and providing actionable guidance for personal transformation.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Complete-Enneagram-Paths-Greater-Self-Knowledge/dp/1938314549?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=e8ee276c6ed219e94e254fad11a53a64&camp=1789&creative=9325">The Complete Enneagram: 27 Paths to Greater Self-Knowledge</a> by Beatrice Chestnut: In this book, Chestnut goes beyond the basic nine types, exploring the subtypes and providing actionable guidance for personal transformation.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/0830846190/?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=f8532d1f5c094f1cf0970a93df6d0cc8&camp=1789&creative=932">The Road Back to You: An Enneagram Journey to Self-Discovery</a> by Ian Morgan Cron and Suzanne Stabile: This accessible and engaging book introduces readers to the Enneagram using relatable stories, helping individuals identify their type and understand its implications for their lives.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/dp/0830846190/?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=f8532d1f5c094f1cf0970a93df6d0cc8&camp=1789&creative=932">The Road Back to You: An Enneagram Journey to Self-Discovery</a> by Ian Morgan Cron and Suzanne Stabile: This accessible and engaging book introduces readers to the Enneagram using relatable stories, helping individuals identify their type and understand its implications for their lives.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Enneagram-Letters-Poetic-Exploration-Thought/dp/1524875694?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=c6e1d60be1616d5fd8460f5f11567e14&camp=1789&creative=9325">The Enneagram Letters</a> by Sarajane Case: The subtitle is "A poetic exploration of who you thought you had to be." Short and approachable read and a good recommendation for beginners.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Enneagram-Letters-Poetic-Exploration-Thought/dp/1524875694?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=c6e1d60be1616d5fd8460f5f11567e14&camp=1789&creative=9325">The Enneagram Letters</a> by Sarajane Case: The subtitle is "A poetic exploration of who you thought you had to be." Short and approachable read and a good recommendation for beginners.
 
 ### Newly Added Titles
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Enneagram-Made-Easy-Discover-People/dp/0062510266?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Enneagram Made Easy: Discover the 9 Types of People</a> by Renee Baron and Elizabeth Wagele: A beginner-friendly guide with clear explanations and illustrations that make the Enneagram accessible to everyone.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Enneagram-Made-Easy-Discover-People/dp/0062510266?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Enneagram Made Easy: Discover the 9 Types of People</a> by Renee Baron and Elizabeth Wagele: A beginner-friendly guide with clear explanations and illustrations that make the Enneagram accessible to everyone.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Sacred-Enneagram-Finding-Unique-Spiritual/dp/0310348277?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Sacred Enneagram: Finding Your Unique Path to Spiritual Growth</a> by Christopher L. Heuertz: Focuses on spiritual growth and self-discovery through the Enneagram.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Sacred-Enneagram-Finding-Unique-Spiritual/dp/0310348277?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Sacred Enneagram: Finding Your Unique Path to Spiritual Growth</a> by Christopher L. Heuertz: Focuses on spiritual growth and self-discovery through the Enneagram.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Enneagram-Belonging-Relationship-Youre-Over/dp/0310357772?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Enneagram of Belonging: How to Stay in Relationship When You're in Over Your Head</a> by Christopher L. Heuertz: Explores relational dynamics through the Enneagram lens.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Enneagram-Belonging-Relationship-Youre-Over/dp/0310357772?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Enneagram of Belonging: How to Stay in Relationship When You're in Over Your Head</a> by Christopher L. Heuertz: Explores relational dynamics through the Enneagram lens.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Enneagram-Christian-Perspective-Richard-Rohr/dp/0824519507?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Enneagram: A Christian Perspective</a> by Richard Rohr and Andreas Ebert: Integrates Christian theology with Enneagram insights.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Enneagram-Christian-Perspective-Richard-Rohr/dp/0824519507?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Enneagram: A Christian Perspective</a> by Richard Rohr and Andreas Ebert: Integrates Christian theology with Enneagram insights.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Enneagram-Transformations-Releasing-Prison-Compulsive/dp/0395657865?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">Enneagram Transformations: Releasing Your Soul from the Grip of the Personality</a> by Don Richard Riso: Offers practical exercises for personal transformation.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Enneagram-Transformations-Releasing-Prison-Compulsive/dp/0395657865?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">Enneagram Transformations: Releasing Your Soul from the Grip of the Personality</a> by Don Richard Riso: Offers practical exercises for personal transformation.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Parables-Enneagram-Transform-Through-Story/dp/1626983313?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">Parables and the Enneagram: Transform Your Life Through the Power of Story</a> by Clarence Thomson: Uses storytelling to illustrate Enneagram types and growth paths.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Parables-Enneagram-Transform-Through-Story/dp/1626983313?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">Parables and the Enneagram: Transform Your Life Through the Power of Story</a> by Clarence Thomson: Uses storytelling to illustrate Enneagram types and growth paths.
 
 </article>
 
@@ -91,15 +91,15 @@ If you prefer online resources, these websites offer valuable information, inter
 
 For those who prefer listening to learning, these podcasts offer engaging conversations and valuable insights into the Enneagram:
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/the-enneagram-journey/id1292950516">The Enneagram Journey with Suzanne Stabile</a>: This podcast features interviews with people from various backgrounds, discussing their experiences with the Enneagram and offering practical advice for growth and understanding.
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/the-enneagram-journey/id1292950516">The Enneagram Journey with Suzanne Stabile</a>: This podcast features interviews with people from various backgrounds, discussing their experiences with the Enneagram and offering practical advice for growth and understanding.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/typology/id1254061093">Typology with Ian Morgan Cron</a>: Cron, co-author of The Road Back to You, interviews guests from diverse fields, exploring how the Enneagram has impacted their lives and careers.
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/typology/id1254061093">Typology with Ian Morgan Cron</a>: Cron, co-author of The Road Back to You, interviews guests from diverse fields, exploring how the Enneagram has impacted their lives and careers.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978">The Enneagram and Coffee with Sarajane Case</a>: In this lighthearted podcast, Case discusses Enneagram-related topics, ranging from type-specific self-care tips to common misconceptions, all while enjoying a cup of coffee.
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978">The Enneagram and Coffee with Sarajane Case</a>: In this lighthearted podcast, Case discusses Enneagram-related topics, ranging from type-specific self-care tips to common misconceptions, all while enjoying a cup of coffee.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.podbean.com/podcast-detail/afar6-65fca/Enneagram-for-Idiots-Podcast">Enneagram for Idiots by Tara and Marissa</a>: A banter podcast that approaches the Enneagram with humor and accessibility, making complex concepts entertaining and relatable.
+- <a  target="_blank"  href="https://podbay.fm/p/enneagram-for-idiots">Enneagram for Idiots by Tara and Marissa</a>: A banter podcast that approaches the Enneagram with humor and accessibility, making complex concepts entertaining and relatable.
 
-- <a  target="_blank" rel="noopener noreferrer" href="https://www.enneagrammba.com/podcast">Enneagram at Work Podcast with Sarah Wallace</a>: Focuses on applying Enneagram insights in professional settings, exploring leadership styles, team dynamics, and career development.
+- <a  target="_blank"  href="https://www.enneagrammba.com/podcast">Enneagram at Work Podcast with Sarah Wallace</a>: Focuses on applying Enneagram insights in professional settings, exploring leadership styles, team dynamics, and career development.
 
 </article>
 
@@ -293,7 +293,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 <div class="influencer-item">
 <h4>Sean Palmer</h4>
-<p>Podcaster, and Enneagram coach. Author of <a  target="_blank" rel="noreferrer" href="https://www.amazon.com/Speaking-Numbers-Enneagram-Teachers-Communicators/dp/0830841660">Speaking by the Numbers</a>: Enneagram Wisdom for Teachers, Pastors, and Communicators.</p>
+<p>Podcaster, and Enneagram coach. Author of <a  target="_blank" rel="" href="https://www.amazon.com/Speaking-Numbers-Enneagram-Teachers-Communicators/dp/0830841660">Speaking by the Numbers</a>: Enneagram Wisdom for Teachers, Pastors, and Communicators.</p>
 <p style="display: flex; gap: .5rem; align-items: center;">
 <a  target="_blank" rel="noopener" href="https://www.instagram.com/seanisaacpalmer/">
     <img loading="lazy" src={instagram} alt="Sean Palmer Instagram" title="Sean Palmer Instagram" width="40" height="40" class="icon" />
@@ -307,7 +307,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 <div class="influencer-item">
 <h4>Beth McCord</h4>
-<p>Enneagram coach, author of "<a  target="_blank" rel="noreferrer" href="https://www.amazon.com/Becoming-Us-Enneagram-Thriving-Gospel-Centered/dp/1642794163">Becoming Us</a>: Using the Enneagram to Create a Thriving Gospel-Centered Marriage" and founder of Your Enneagram Coach.</p>
+<p>Enneagram coach, author of "<a  target="_blank" rel="" href="https://www.amazon.com/Becoming-Us-Enneagram-Thriving-Gospel-Centered/dp/1642794163">Becoming Us</a>: Using the Enneagram to Create a Thriving Gospel-Centered Marriage" and founder of Your Enneagram Coach.</p>
 <p style="display: flex; gap: .5rem; align-items: center;">
 <a  target="_blank" rel="noopener" href="https://www.youtube.com/@YourEnneagramCoach">
     <img loading="lazy" src={youtube} alt="Beth McCord Youtube Channel" title="Beth McCord Youtube Channel" width="40" height="40" class="icon" />
@@ -367,32 +367,32 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 <div class="influencer-item">
 <h4>Helen Palmer</h4>
-<p>One of the early pioneers of the Enneagram, author of "<a  target="_blank" rel="noreferrer" href="https://www.amazon.com/Enneagram-Understanding-Yourself-Others-Your/dp/0062506838">The Enneagram: Understanding Yourself and the Others in Your Life</a>" and co-founder of the Enneagram Professional Training Program.</p>
+<p>One of the early pioneers of the Enneagram, author of "<a  target="_blank" rel="" href="https://www.amazon.com/Enneagram-Understanding-Yourself-Others-Your/dp/0062506838">The Enneagram: Understanding Yourself and the Others in Your Life</a>" and co-founder of the Enneagram Professional Training Program.</p>
 </div>
 
 <div class="influencer-item">
 <h4>David Daniels</h4>
-<p>A clinical professor of psychiatry and Enneagram teacher, co-author of "<a  target="_blank" rel="noreferrer" href="https://www.amazon.com/Essential-Enneagram-Definitive-Personality-Self-Discovery/dp/0061713163">The Essential Enneagram</a>" and co-founder of the Enneagram Studies in the Narrative Tradition (ESNT).</p>
+<p>A clinical professor of psychiatry and Enneagram teacher, co-author of "<a  target="_blank" rel="" href="https://www.amazon.com/Essential-Enneagram-Definitive-Personality-Self-Discovery/dp/0061713163">The Essential Enneagram</a>" and co-founder of the Enneagram Studies in the Narrative Tradition (ESNT).</p>
 </div>
 
 <div class="influencer-item">
 <h4>Roxanne Howe-Murphy</h4>
-<p>Author of "<a  target="_blank" rel="noreferrer" href="https://www.amazon.com/Deep-Coaching-Enneagram-Catalyst-Profound/dp/0979384702">Deep Coaching Using the Enneagram as a Catalyst for Profound Change</a>" and founder of the Deep Coaching Institute.</p>
+<p>Author of "<a  target="_blank" rel="" href="https://www.amazon.com/Deep-Coaching-Enneagram-Catalyst-Profound/dp/0979384702">Deep Coaching Using the Enneagram as a Catalyst for Profound Change</a>" and founder of the Deep Coaching Institute.</p>
 </div>
 
 <div class="influencer-item">
 <h4>Deborah Ooten</h4>
-<p>Founder and CEO of the <a  target="_blank" rel="noreferrer" href="https://www.goconscious.com/about-clc/staff/deborah-a-ooten-ph-d/">Conscious Living Center</a>. She is a Certified Enneagram Teacher in the Narrative Tradition and has her doctorate in clinical psychology.</p>
+<p>Founder and CEO of the <a  target="_blank" rel="" href="https://www.goconscious.com/about-clc/staff/deborah-a-ooten-ph-d/">Conscious Living Center</a>. She is a Certified Enneagram Teacher in the Narrative Tradition and has her doctorate in clinical psychology.</p>
 </div>
 
 <div class="influencer-item">
 <h4>Lynette Sheppard</h4>
-<p>Author of "<a  target="_blank" rel="noreferrer" href="https://www.amazon.com/Everyday-Enneagram-Personality-Enhancing-Every-ebook/dp/B00CX7PSIC">The Everyday Enneagram</a>: A Personality Map For Enhancing Your Work, Love, and Life-Every Day" and host of the Everyday Enneagram podcast.</p>
+<p>Author of "<a  target="_blank" rel="" href="https://www.amazon.com/Everyday-Enneagram-Personality-Enhancing-Every-ebook/dp/B00CX7PSIC">The Everyday Enneagram</a>: A Personality Map For Enhancing Your Work, Love, and Life-Every Day" and host of the Everyday Enneagram podcast.</p>
 </div>
 
 <div class="influencer-item">
 <h4>Melanie Bell</h4>
-<p>Enneagram teacher, coach, and author of <a  target="_blank" rel="noreferrer" href="https://www.amazon.com/Modern-Enneagram-Discover-Who-You/dp/1939754070">"The Modern Enneagram"</a> Discover Who You Are and Who You Can Be.</p>
+<p>Enneagram teacher, coach, and author of <a  target="_blank" rel="" href="https://www.amazon.com/Modern-Enneagram-Discover-Who-You/dp/1939754070">"The Modern Enneagram"</a> Discover Who You Are and Who You Can Be.</p>
 <p style="display: flex; gap: .5rem; align-items: center;">
 <a  target="_blank" rel="noopener" href="https://twitter.com/InspireEnvision">
     <img loading="lazy" src={twitter} alt="Melanie Bell Twitter" title="Melanie Bell Twitter" width="40" height="40" class="icon" />
