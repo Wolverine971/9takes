@@ -193,12 +193,7 @@
 	</div>
 
 	<div class="article-body">
-		{#if mounted}
-			<!-- <MarkdownRenderer content={post.content} /> -->
-			{@html post.content}
-		{:else}
-			<p>Loading...</p>
-		{/if}
+		{@html post.content}
 	</div>
 </article>
 

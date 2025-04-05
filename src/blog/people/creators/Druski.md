@@ -32,7 +32,7 @@ He has a big presence.
 
 He might come off as a bit intimidating.
 
-That is because he is an [Enneagram 8 "The Challenger".](/enneagram-corner/enneagram-type-8)
+That is because he is an [Enneagram 8 "The Challenger"](/enneagram-corner/enneagram-type-8).
 
 This article explores Druski's personality. We dive into what is behind the infectious smile and why his persona has connected with millions.
 

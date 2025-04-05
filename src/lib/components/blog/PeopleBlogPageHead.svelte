@@ -1,21 +1,87 @@
 <script lang="ts">
 	export let data: App.BlogPost;
 
-	let title: string = data?.title;
+	let title: string = data?.meta_title || data?.title;
 	let description: string = data?.description;
 	let slug = `personality-analysis/${data.slug}`;
 	const formattedTitle = title ? `${title}` : '9takes';
 
-	let jsonldString = {
+	// Prepare common JSON-LD fields
+	const commonJsonLDFields = {
 		'@context': 'http://schema.org',
-		'@type': 'Blog',
-		name: title,
-		url: `https://9takes.com/${slug}`,
-		description: description,
-		publisher: { '@type': 'Person', name: data?.author }
+		'@type': 'Article',
+		headline: title,
+		description,
+		author: {
+			'@type': 'Person',
+			name: 'DJ Wayne',
+			sameAs: [
+				'https://www.instagram.com/djwayne3/',
+				'https://www.youtube.com/@djwayne3',
+				'https://www.linkedin.com/in/davidtwayne/',
+				'https://twitter.com/djwayne3'
+			]
+		},
+		creator: {
+			'@type': 'Person',
+			name: 'DJ Wayne',
+			sameAs: [
+				'https://www.instagram.com/djwayne3/',
+				'https://www.youtube.com/@djwayne3',
+				'https://www.linkedin.com/in/davidtwayne/',
+				'https://twitter.com/djwayne3'
+			]
+		},
+		publisher: {
+			'@type': 'Organization',
+			name: '9takes',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://9takes.com/brand/darkRubix.png'
+			},
+			sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
+		},
+		mainEntityOfPage: {
+			'@type': 'WebPage',
+			'@id': `https://9takes.com/${slug}`
+		},
+		datePublished: data.date,
+		dateModified: data.lastmod,
+		image: {
+			'@type': 'ImageObject',
+			url: `https://9takes.com/types/${data.enneagram}s/${data.person}.webp`,
+			width: 900,
+			height: 900
+		}
 	};
 
-	let jsonld = JSON.stringify(jsonldString);
+	let jsonLdObject;
+
+	if (data.jsonLdSnippet) {
+		// Parse existing JSON-LD snippet and override dateModified
+		jsonLdObject =
+			typeof data.jsonLdSnippet === 'string' ? JSON.parse(data.jsonLdSnippet) : data.jsonLdSnippet;
+
+		// Handle cases where @graph is present
+		if (jsonLdObject['@graph'] && Array.isArray(jsonLdObject['@graph'])) {
+			jsonLdObject['@graph'] = jsonLdObject['@graph'].map((item) => {
+				if (item['@type'] === 'Article' && item.dateModified) {
+					item.dateModified = { '@type': 'Date', '@value': data.lastmod };
+				}
+				return item;
+			});
+		} else {
+			// Single object case
+			if (jsonLdObject.dateModified) {
+				jsonLdObject.dateModified = { '@type': 'Date', '@value': data.lastmod };
+			}
+		}
+	} else {
+		// Generate generic snippet if none exists
+		jsonLdObject = commonJsonLDFields;
+	}
+
+	const jsonLdString = JSON.stringify(jsonLdObject);
 </script>
 
 <svelte:head>
@@ -24,14 +90,15 @@
 	<meta name="description" content={description || title} />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
+	<!-- Existing meta tags -->
 	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content={title} />
-	<meta property="og:description" content={data.description} />
+	<meta property="og:description" content={description} />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={data.loc} />
 	<meta
 		property="og:image"
-		content="https://9takes.com/types/{data.enneagram}s/{data.person}.webp"
+		content={`https://9takes.com/types/${data.enneagram}s/${data.person}.webp`}
 	/>
 
 	<meta name="twitter:site" content="@9takesdotcom" />
@@ -42,10 +109,10 @@
 	<meta property="twitter:url" content={data.loc} />
 	<meta
 		property="twitter:image"
-		content="https://9takes.com/types/{data.enneagram}s/{data.person}.webp"
+		content={`https://9takes.com/types/${data.enneagram}s/${data.person}.webp`}
 	/>
 	{#if data?.pic}
-		<meta name="twitter:image:alt" content={data?.person?.split('-').join(' ')} />
+		<meta name="twitter:image:alt" content={data.person.split('-').join(' ')} />
 	{/if}
 
 	<meta property="article:author" content="DJ Wayne" />
@@ -54,8 +121,11 @@
 	<meta property="article:section" content="Personality-Analysis" />
 	<meta
 		property="article:tag"
-		content="Personality, Enneagram, Psychology, {data.person?.split('-').join(' ')}"
+		content={`Personality, Enneagram, Psychology, Mindset, ${data.person.split('-').join(' ')}`}
 	/>
 
-	<!-- {@html `<script type="application/ld+json">${jsonld}</script>`} -->
+	<!-- JSON-LD snippet -->
+	<script type="application/ld+json">
+		{jsonLdString}
+	</script>
 </svelte:head>
