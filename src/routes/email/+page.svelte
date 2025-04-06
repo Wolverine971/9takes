@@ -1,135 +1,189 @@
 <script lang="ts">
 	import { joinEmail, joinEmail2, signupEmail, forgotPass, emailTemplate } from '../../emails';
 	import { notifications } from '$lib/components/molecules/notifications';
-	// import { MediumEditor } from 'medium-editor';
 	import { onMount } from 'svelte';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal from '$lib/components/atoms/Modal2.svelte';
+	import { getModal } from '$lib/components/atoms/Modal2.svelte';
 
-	let email: string = '';
-	let singularEmail: string = '';
-	let error: string = '';
-	let group: any = null;
+	// Email form states
+	let templateEmail: string = '';
+	let customEmail: string = '';
 	let subject: string = '';
 	let header: string = '';
-	let emailToSend: string = '';
-	let editor: any = null;
 	let emailBody: string = '';
+	let validationError: string = '';
+	let selectedTemplate: string = 'joinEmail';
+
+	// Editor instance
+	let editor: any = null;
 
 	onMount(() => {
-		var elements = document.querySelectorAll('.editable');
-		editor = new MediumEditor(elements);
-		console.log(editor);
+		// Initialize the rich text editor
+		if (typeof MediumEditor !== 'undefined') {
+			const elements = document.querySelectorAll('.editable');
+			editor = new MediumEditor(elements, {
+				toolbar: {
+					buttons: [
+						'bold',
+						'italic',
+						'underline',
+						'anchor',
+						'h2',
+						'h3',
+						'quote',
+						'unorderedlist',
+						'orderedlist'
+					]
+				},
+				placeholder: {
+					text: 'Type your email content here...'
+				}
+			});
+
+			// Set up event listener to update the emailBody when content changes
+			editor.subscribe('editableInput', () => {
+				refreshEmailContent();
+			});
+		}
 	});
 
+	// Refresh email content from editor
+	const refreshEmailContent = () => {
+		if (editor) {
+			const elems = editor.serialize();
+			emailBody = Object.values(elems).map((elem: any) => elem.value)[0] || '';
+		}
+	};
+
+	// Validate email format
+	const isValidEmail = (email: string): boolean => {
+		return /\S+@\S+\.\S+/.test(email);
+	};
+
+	// Send email using selected template
 	const sendEmailFromTemplate = async () => {
-		if (!/\S+@\S+\.\S+/.test(email)) {
-			error = 'must be a valid email';
-			return;
-		} else {
-			error = '';
-		}
-		if (!group || !email || !subject) {
-			notifications.danger('Please fill out all fields', 3000);
+		if (!isValidEmail(templateEmail)) {
+			validationError = 'Please enter a valid email address';
 			return;
 		}
 
-		let body = new FormData();
-		body.append('email', email);
-		body.append('emailType', group);
-		body.append('subject', subject);
+		if (!selectedTemplate || !templateEmail || !subject) {
+			notifications.danger('Please fill out all required fields', 3000);
+			return;
+		}
 
-		const { data, error: emailError } = await (
-			await fetch(`/email?/emailTemplate`, {
+		const formData = new FormData();
+		formData.append('email', templateEmail);
+		formData.append('emailType', selectedTemplate);
+		formData.append('subject', subject);
+
+		try {
+			const response = await fetch(`/email?/emailTemplate`, {
 				method: 'POST',
-				body
-			})
-		).json();
+				body: formData
+			});
 
-		if (data) {
-			notifications.info('Email Submitted', 3000);
-			email = '';
-		} else {
-			if (emailError?.message && emailError?.message === 'Email already exists') {
-				notifications.warning('Email already exists', 3000);
+			const result = await response.json();
+
+			if (result.data) {
+				notifications.success('Email sent successfully', 3000);
+				templateEmail = '';
 			} else {
-				notifications.warning('Email Failed', 3000);
+				if (result.error?.message === 'Email already exists') {
+					notifications.warning('Email already exists', 3000);
+				} else {
+					notifications.danger(
+						'Failed to send email: ' + (result.error?.message || 'Unknown error'),
+						3000
+					);
+				}
 			}
+		} catch (err) {
+			notifications.danger('Error sending email', 3000);
+			console.error('Error sending email:', err);
 		}
+
+		validationError = '';
 	};
 
-	const refreshEmail = () => {
-		const elems = editor.serialize();
-		emailBody = Object.keys(elems).map((key) => {
-			return elems[key]?.value;
-		})[0];
-	};
-
+	// Send custom email to one recipient
 	const sendCustomEmail = async () => {
-		if (!/\S+@\S+\.\S+/.test(singularEmail)) {
-			error = 'must be a valid email';
-			return;
-		} else {
-			error = '';
-		}
-
-		if (!group || !singularEmail || !subject || !emailBody) {
-			notifications.danger('Please fill out all fields', 3000);
+		if (!isValidEmail(customEmail)) {
+			validationError = 'Please enter a valid email address';
 			return;
 		}
 
-		let body = new FormData();
-		body.append('email', singularEmail);
-		body.append('emailType', group);
-		body.append('subject', subject);
-		body.append('emailToSend', emailTemplate(subject, header, emailBody));
+		if (!customEmail || !subject || !header || !emailBody) {
+			notifications.danger('Please fill out all required fields', 3000);
+			return;
+		}
 
-		const { data, error: emailError } = await (
-			await fetch(`/email?/singleCustomEmail`, {
+		refreshEmailContent();
+
+		const formData = new FormData();
+		formData.append('email', customEmail);
+		formData.append('subject', subject);
+		formData.append('emailToSend', emailTemplate(subject, header, emailBody));
+
+		try {
+			const response = await fetch(`/email?/singleCustomEmail`, {
 				method: 'POST',
-				body
-			})
-		).json();
+				body: formData
+			});
 
-		if (data) {
-			notifications.info('Email Submitted', 3000);
-			email = '';
-		} else {
-			if (emailError?.message && emailError?.message === 'Email already exists') {
-				notifications.warning('Email already exists', 3000);
+			const result = await response.json();
+
+			if (result.data) {
+				notifications.success('Custom email sent successfully', 3000);
+				customEmail = '';
 			} else {
-				notifications.warning('Email Failed', 3000);
+				notifications.danger(
+					'Failed to send email: ' + (result.error?.message || 'Unknown error'),
+					3000
+				);
 			}
+		} catch (err) {
+			notifications.danger('Error sending email', 3000);
+			console.error('Error sending email:', err);
 		}
+
+		validationError = '';
 	};
+
+	// Send custom email to all subscribers
 	const sendCustomEmailToEveryone = async () => {
-		if (!/\S+@\S+\.\S+/.test(email)) {
-			error = 'must be a valid email';
+		if (!subject || !header || !emailBody) {
+			notifications.danger('Please fill out all required fields', 3000);
 			return;
-		} else {
-			error = '';
 		}
 
-		let body = new FormData();
-		body.append('subject', subject);
-		body.append('emailToSend', emailTemplate(subject, header, emailBody));
+		refreshEmailContent();
 
-		const { data, error: emailError } = await (
-			await fetch(`/email?/sendCustomEmailToEveryone`, {
+		const formData = new FormData();
+		formData.append('subject', subject);
+		formData.append('emailToSend', emailTemplate(subject, header, emailBody));
+
+		try {
+			const response = await fetch(`/email?/sendCustomEmailToEveryone`, {
 				method: 'POST',
-				body
-			})
-		).json();
+				body: formData
+			});
 
-		if (data) {
-			notifications.info('Email Submitted', 3000);
-			email = '';
-		} else {
-			if (emailError?.message && emailError?.message === 'Email already exists') {
-				notifications.warning('Email already exists', 3000);
+			const result = await response.json();
+
+			if (result.data) {
+				notifications.success('Mass email sent successfully', 3000);
 			} else {
-				notifications.warning('Email Failed', 3000);
+				notifications.danger(
+					'Failed to send emails: ' + (result.error?.message || 'Unknown error'),
+					3000
+				);
 			}
+		} catch (err) {
+			notifications.danger('Error sending emails', 3000);
+			console.error('Error sending emails:', err);
 		}
+
 		getModal('send-email-to-everyone').close();
 	};
 </script>
@@ -143,170 +197,328 @@
 		media="screen"
 		charset="utf-8"
 	/>
+	<link
+		rel="stylesheet"
+		href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/themes/default.min.css"
+		type="text/css"
+		media="screen"
+		charset="utf-8"
+	/>
 </svelte:head>
 
-<div class="send-email-div">
-	<div class="side-display">
-		<div>
-			<h2>Create Email</h2>
-			<div class="flex-center">
-				<input
-					type="email"
-					id="email"
-					name="email"
-					bind:value={singularEmail}
-					placeholder="you@example.com"
-				/>
-				<input
-					type="text"
-					id="subject"
-					name="subject"
-					bind:value={subject}
-					placeholder="Subject of the email"
-				/>
-				<input
-					type="text"
-					id="header"
-					name="header"
-					bind:value={header}
-					placeholder="Header of the email"
-				/>
+<div class="container mx-auto px-4 py-8">
+	<h1 class="mb-6 text-3xl font-bold text-primary-700">Email Administration</h1>
 
-				<textarea class="editable editor" bind:value={emailToSend} />
+	<!-- Custom Email Creator Section -->
+	<div class="mb-8 rounded-lg bg-white p-6 shadow-md">
+		<h2 class="mb-4 text-2xl font-semibold text-neutral-800">Custom Email Creator</h2>
+
+		<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+			<!-- Email Builder -->
+			<div class="space-y-4">
+				<div class="space-y-2">
+					<label for="customEmail" class="block text-sm font-medium text-neutral-700"
+						>Recipient Email</label
+					>
+					<input
+						type="email"
+						id="customEmail"
+						bind:value={customEmail}
+						placeholder="recipient@example.com"
+						class="w-full rounded-md border border-neutral-300 px-4 py-2 focus:border-primary-500 focus:ring-2 focus:ring-primary-500"
+					/>
+				</div>
+
+				<div class="space-y-2">
+					<label for="subject" class="block text-sm font-medium text-neutral-700"
+						>Email Subject</label
+					>
+					<input
+						type="text"
+						id="subject"
+						bind:value={subject}
+						placeholder="Enter email subject"
+						class="w-full rounded-md border border-neutral-300 px-4 py-2 focus:border-primary-500 focus:ring-2 focus:ring-primary-500"
+					/>
+				</div>
+
+				<div class="space-y-2">
+					<label for="header" class="block text-sm font-medium text-neutral-700">Email Header</label
+					>
+					<input
+						type="text"
+						id="header"
+						bind:value={header}
+						placeholder="Enter email header"
+						class="w-full rounded-md border border-neutral-300 px-4 py-2 focus:border-primary-500 focus:ring-2 focus:ring-primary-500"
+					/>
+				</div>
+
+				<div class="space-y-2">
+					<label for="emailContent" class="block text-sm font-medium text-neutral-700"
+						>Email Content</label
+					>
+					<div
+						class="editable min-h-[200px] w-full rounded-md border border-neutral-300 p-4 focus:border-primary-500 focus:ring-2 focus:ring-primary-500"
+						id="emailContent"
+					></div>
+				</div>
+
+				<div class="flex space-x-4 pt-4">
+					<button
+						on:click={refreshEmailContent}
+						class="rounded-md bg-neutral-600 px-4 py-2 font-medium text-white hover:bg-neutral-700 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2"
+					>
+						Refresh Preview
+					</button>
+
+					<button
+						on:click={sendCustomEmail}
+						class="rounded-md bg-primary-700 px-4 py-2 font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+					>
+						Send Custom Email
+					</button>
+
+					<button
+						on:click={() => getModal('send-email-to-everyone').open()}
+						class="hover:bg-error-600 rounded-md bg-error-500 px-4 py-2 font-medium text-white focus:outline-none focus:ring-2 focus:ring-error-500 focus:ring-offset-2"
+					>
+						Send to All Subscribers
+					</button>
+				</div>
+
+				{#if validationError}
+					<p class="mt-2 text-error-700">{validationError}</p>
+				{/if}
+			</div>
+
+			<!-- Email Preview -->
+			<div class="email-preview-container">
+				<h3 class="mb-3 text-lg font-medium text-neutral-700">Email Preview</h3>
+				<div
+					class="email-preview h-[500px] overflow-hidden overflow-y-auto rounded border border-neutral-200"
+				>
+					{#if subject && header && emailBody}
+						<iframe
+							title="Email Preview"
+							srcdoc={emailTemplate(subject, header, emailBody)}
+							class="h-full w-full"
+							sandbox="allow-same-origin"
+						></iframe>
+					{:else}
+						<div class="flex h-full items-center justify-center bg-neutral-50 text-neutral-500">
+							<p>Complete the form to see the email preview</p>
+						</div>
+					{/if}
+				</div>
 			</div>
 		</div>
-		<!-- disabled={email.length ? false : true} -->
+	</div>
 
-		<div>
-			<h2>Email Template</h2>
-			<div>{@html emailTemplate(subject, header, emailBody)}</div>
+	<!-- Template Emails Section -->
+	<div class="mb-8 rounded-lg bg-white p-6 shadow-md">
+		<h2 class="mb-4 text-2xl font-semibold text-neutral-800">Send Template Email</h2>
+
+		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+			<div class="space-y-4">
+				<div class="space-y-2">
+					<label for="templateEmail" class="block text-sm font-medium text-neutral-700"
+						>Recipient Email</label
+					>
+					<input
+						type="email"
+						id="templateEmail"
+						bind:value={templateEmail}
+						placeholder="recipient@example.com"
+						class="w-full rounded-md border border-neutral-300 px-4 py-2 focus:border-primary-500 focus:ring-2 focus:ring-primary-500"
+					/>
+				</div>
+
+				<div class="space-y-2">
+					<label for="templateSubject" class="block text-sm font-medium text-neutral-700"
+						>Email Subject</label
+					>
+					<input
+						type="text"
+						id="templateSubject"
+						bind:value={subject}
+						placeholder="Enter email subject"
+						class="w-full rounded-md border border-neutral-300 px-4 py-2 focus:border-primary-500 focus:ring-2 focus:ring-primary-500"
+					/>
+				</div>
+
+				<div class="space-y-2">
+					<label class="block text-sm font-medium text-neutral-700">Select Template</label>
+					<div class="grid grid-cols-2 gap-3">
+						<label
+							class="flex cursor-pointer items-center space-x-2 rounded-md border p-3 hover:bg-neutral-50"
+						>
+							<input
+								type="radio"
+								bind:group={selectedTemplate}
+								value="joinEmail"
+								class="text-primary-600 focus:ring-primary-500"
+							/>
+							<span>Waitlist Join</span>
+						</label>
+
+						<label
+							class="flex cursor-pointer items-center space-x-2 rounded-md border p-3 hover:bg-neutral-50"
+						>
+							<input
+								type="radio"
+								bind:group={selectedTemplate}
+								value="joinEmail2"
+								class="text-primary-600 focus:ring-primary-500"
+							/>
+							<span>Waitlist Join Alt</span>
+						</label>
+
+						<label
+							class="flex cursor-pointer items-center space-x-2 rounded-md border p-3 hover:bg-neutral-50"
+						>
+							<input
+								type="radio"
+								bind:group={selectedTemplate}
+								value="signupEmail"
+								class="text-primary-600 focus:ring-primary-500"
+							/>
+							<span>Email Verification</span>
+						</label>
+
+						<label
+							class="flex cursor-pointer items-center space-x-2 rounded-md border p-3 hover:bg-neutral-50"
+						>
+							<input
+								type="radio"
+								bind:group={selectedTemplate}
+								value="forgotPass"
+								class="text-primary-600 focus:ring-primary-500"
+							/>
+							<span>Password Reset</span>
+						</label>
+					</div>
+				</div>
+
+				<button
+					on:click={sendEmailFromTemplate}
+					disabled={!templateEmail || !subject || !selectedTemplate}
+					class="rounded-md bg-primary-700 px-4 py-2 font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+				>
+					Send Template Email
+				</button>
+			</div>
+
+			<div>
+				<h3 class="mb-3 text-lg font-medium text-neutral-700">Template Preview</h3>
+				<div
+					class="email-preview-container h-[400px] overflow-hidden overflow-y-auto rounded border border-neutral-200"
+				>
+					{#if selectedTemplate}
+						<iframe
+							title="Template Preview"
+							srcdoc={selectedTemplate === 'joinEmail'
+								? joinEmail()
+								: selectedTemplate === 'joinEmail2'
+									? joinEmail2()
+									: selectedTemplate === 'signupEmail'
+										? signupEmail()
+										: selectedTemplate === 'forgotPass'
+											? forgotPass('https://9takes.com/reset-password?token=sample')
+											: ''}
+							class="h-full w-full"
+							sandbox="allow-same-origin"
+						></iframe>
+					{:else}
+						<div class="flex h-full items-center justify-center bg-neutral-50 text-neutral-500">
+							<p>Select a template to see the preview</p>
+						</div>
+					{/if}
+				</div>
+			</div>
 		</div>
 	</div>
-	<div style="margin: 1rem;">
-		<button
-			type="button"
-			value="Send"
-			on:click={refreshEmail}
-			class:form-send={true}
-			class=" btn btn-primary">Refresh Email</button
-		>
-		<button
-			type="button"
-			value="Send"
-			on:click={sendCustomEmail}
-			class:form-send={true}
-			class="btn btn-primary">Send One Custom Email</button
-		>
-		<button
-			type="button"
-			value="Send"
-			on:click={() => {
-				getModal('send-email-to-everyone').open();
-			}}
-			class:form-send={true}
-			class="btn btn-primary">Send Custom Email To Everyone</button
-		>
+
+	<!-- Template Gallery -->
+	<div class="rounded-lg bg-white p-6 shadow-md">
+		<h2 class="mb-4 text-2xl font-semibold text-neutral-800">Email Template Gallery</h2>
+
+		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+			{#each [{ name: 'joinEmail', title: 'Waitlist Join', render: joinEmail }, { name: 'joinEmail2', title: 'Waitlist Join Alt', render: joinEmail2 }, { name: 'signupEmail', title: 'Email Verification', render: signupEmail }, { name: 'forgotPass', title: 'Password Reset', render: () => forgotPass('https://9takes.com/reset-password?token=sample') }] as template}
+				<div class="overflow-hidden rounded-lg border">
+					<div class="border-b bg-neutral-100 p-3">
+						<h3 class="font-medium">{template.title}</h3>
+					</div>
+					<div class="email-preview-container h-[400px] overflow-y-auto">
+						<iframe
+							title={template.title}
+							srcdoc={template.render()}
+							class="h-full w-full"
+							sandbox="allow-same-origin"
+						></iframe>
+					</div>
+				</div>
+			{/each}
+		</div>
 	</div>
 </div>
 
-<hr />
-<div class="send-email-div">
-	<h2>Email from template</h2>
-	<h3>Email Template: {group}</h3>
-	<form class="">
-		<input
-			type="text"
-			id="subject"
-			name="subject"
-			bind:value={subject}
-			placeholder="Subject of the email"
-		/>
-
-		<div>
-			<input
-				type="email"
-				id="email"
-				name="email"
-				bind:value={singularEmail}
-				placeholder="you@example.com"
-			/>
+<Modal id="send-email-to-everyone">
+	<div class="p-6">
+		<h2 class="mb-4 text-2xl font-bold text-error-700">⚠️ Confirmation Required</h2>
+		<p class="mb-6 text-neutral-700">
+			Are you absolutely sure you want to send this email to <strong>all subscribers</strong>? This
+			action cannot be undone.
+		</p>
+		<div class="flex justify-end space-x-4">
 			<button
-				type="button"
-				value="Send"
-				on:click={sendEmailFromTemplate}
-				disabled={singularEmail.length ? false : true}
-				class:form-send={true}
-				class="{singularEmail.length ? 'regular' : 'disabled'} btn btn-primary">Send Email</button
+				on:click={() => getModal('send-email-to-everyone').close()}
+				class="rounded-md bg-neutral-200 px-4 py-2 font-medium text-neutral-800 hover:bg-neutral-300 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2"
 			>
+				Cancel
+			</button>
+			<button
+				on:click={sendCustomEmailToEveryone}
+				class="bg-error-600 rounded-md px-4 py-2 font-medium text-white hover:bg-error-700 focus:outline-none focus:ring-2 focus:ring-error-500 focus:ring-offset-2"
+			>
+				Yes, Send to Everyone
+			</button>
 		</div>
-	</form>
-	{#if error}
-		<p class="error">{error}</p>
-	{/if}
-</div>
-
-<div class="text-column">
-	<h1>Email Preview</h1>
-	<div class="flex-center">
-		<h2>joinEmail</h2>
-		<input type="radio" bind:group value={'joinEmail'} />
-
-		<div>{@html joinEmail()}</div>
-
-		<h2>joinEmail2</h2>
-		<input type="radio" bind:group value={'joinEmail2'} />
-		<div>{@html joinEmail2()}</div>
-
-		<h2>signupEmail</h2>
-		<input type="radio" bind:group value={'signupEmail'} />
-		<div>{@html signupEmail()}</div>
-
-		<h2>forgotPass</h2>
-		<input type="radio" bind:group value={'forgotPass'} />
-		<div>{@html forgotPass('test')}</div>
 	</div>
-
-	<hr />
-	<br />
-	<hr />
-</div>
-
-<Modal2 id={'send-email-to-everyone'}>
-	<h1>Are you sure?</h1>
-	<button
-		type="button"
-		value="Send"
-		on:click={sendCustomEmailToEveryone}
-		class:form-send={true}
-		class="btn btn-primary">Send Custom Email To Everyone</button
-	>
-</Modal2>
+</Modal>
 
 <style lang="scss">
-	.send-email-div {
-		margin: 1rem;
-		padding: 1rem;
-		align-items: center;
-		border: var(--classic-border);
-	}
-	.editor {
-		width: 100%;
-		height: 100%;
-		min-width: 200px;
-		min-height: 200px;
-		margin: 0.5rem;
-		padding: 0.5rem;
-		border: var(--classic-border);
-	}
-	.side-display {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
+	/* Ensure email previews are isolated from page styles */
+	.email-preview-container {
+		background: #f9f9ff;
+		position: relative;
+
+		iframe {
+			border: 0;
+			background: #f9f9ff;
+		}
 	}
 
-	@media (max-width: 800px) {
-		.side-display {
-			flex-direction: column;
+	/* Ensure editor content is properly isolated */
+	:global(.editable) {
+		font-family: inherit !important;
+		min-height: 200px;
+		padding: 1rem;
+		background-color: white;
+
+		&:focus {
+			outline: none;
 		}
+	}
+
+	/* Override any conflicting medium-editor styles */
+	:global(.medium-editor-element) {
+		word-break: break-word;
+		min-height: 200px;
+	}
+
+	:global(.medium-editor-placeholder) {
+		position: absolute;
+		color: #999;
 	}
 </style>

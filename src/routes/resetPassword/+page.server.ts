@@ -1,35 +1,64 @@
 import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
-
 import type { PageServerLoad } from './$types';
-import { notifications } from '$lib/components/molecules/notifications';
 
 export const load: PageServerLoad = async (event) => {
+	// Get the hash fragment from the URL (where the token is stored)
+	// We don't need to extract it server-side as it's handled client-side by Supabase
+
+	// Check if the user is already logged in (with a valid session)
+	const session = await getServerSession(event);
+
+	// We don't need to redirect here as the user might have a valid session
+	// but still needs to reset their password via the token
+
 	return {
-		session: await getServerSession(event)
+		session
 	};
 };
 
 export const actions: Actions = {
-	resetPass: async ({ request, locals }) => {
+	resetPass: async ({ request, locals, url }) => {
 		const body = Object.fromEntries(await request.formData());
 
-		const { data, error: resetError } = await locals.sb.auth.updateUser(
-			{
-				password: body.password as string
-			},
-			{ emailRedirectTo: 'https://9takes.com/login' }
-		);
-
-		if (resetError) {
-			notifications.danger('failure', 3000);
-			console.log(resetError);
-			return fail(500, {
-				error: 'Server error. Please try again later.',
-				data: resetError
+		if (!body.password) {
+			return fail(400, {
+				error: 'Password is required'
 			});
 		}
-		notifications.info('Success', 3000);
-		redirect(300, '/login');
+
+		if (body.password.length < 6) {
+			return fail(400, {
+				error: 'Password must be at least 6 characters long'
+			});
+		}
+
+		try {
+			// The auth token is handled automatically by Supabase client
+			// when the user lands on this page from the reset email
+			const { data, error } = await locals.sb.auth.updateUser({
+				password: body.password as string
+			});
+
+			if (error) {
+				console.error('Password reset error:', error);
+				return fail(500, {
+					error: 'Failed to reset password. The reset link may have expired.',
+					details: error.message
+				});
+			}
+
+			// Successfully updated password
+			// Return success with redirect for use in the page
+			return {
+				success: true,
+				message: 'Password has been reset successfully!'
+			};
+		} catch (err) {
+			console.error('Unexpected error during password reset:', err);
+			return fail(500, {
+				error: 'An unexpected error occurred. Please try again.'
+			});
+		}
 	}
 };

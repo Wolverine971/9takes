@@ -73,6 +73,7 @@ declare global {
 			tiktok?: string;
 			blog?: boolean;
 			jsonld: string;
+			jsonLdSnippet?: any;
 			pic?: string;
 		}
 	}
