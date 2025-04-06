@@ -3,5 +3,5 @@
 
 <!-- </section> -->
 <style lang="scss">
-	@import '../../../scss/index.scss';
+	@use '../../../scss/index.scss' as *;
 </style>

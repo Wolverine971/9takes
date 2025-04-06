@@ -59,7 +59,10 @@
 	<button
 		class="mobile-nav__toggle"
 		aria-label="Toggle navigation"
+		role="button"
+		tabindex="0"
 		on:click={toggleMenu}
+		on:keydown={(e) => e.key === 'Enter' && toggleMenu()}
 		aria-expanded={isMenuOpen}
 	>
 		<span class="mobile-nav__icon">

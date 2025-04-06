@@ -38,7 +38,6 @@
 		commentCount: 24,
 		createdAt: new Date().toISOString()
 	};
-	console.log(data);
 
 	// Personality blogs
 	const personalityBlogs = [
@@ -237,8 +236,6 @@
 			if (observer) observer.disconnect();
 		};
 	});
-
-	console.log(featuredQuestion);
 </script>
 
 <svelte:head>

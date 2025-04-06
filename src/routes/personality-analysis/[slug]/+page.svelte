@@ -255,7 +255,7 @@
 </div>
 
 <style lang="scss">
-	@import '../../../scss/index.scss';
+	@use '../../../scss/index.scss' as *;
 
 	.blog {
 		position: relative;

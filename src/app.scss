@@ -1,7 +1,5 @@
-@import 'tailwindcss/base';
-//  @import "./routes/styles";
-@import './scss/index';
-
-@import './scss/blog';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@use 'tailwindcss/base' as *;
+@use './scss/index' as *;
+@use './scss/blog' as *;
+@use 'tailwindcss/components' as *;
+@use 'tailwindcss/utilities' as *;

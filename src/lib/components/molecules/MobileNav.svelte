@@ -46,7 +46,9 @@
 	<button
 		class="hamburger-btn flex h-10 w-10 cursor-pointer items-center justify-center border-none bg-transparent"
 		aria-label={isMenuOpen ? 'Close navigation' : 'Open navigation'}
+		tabindex="0"
 		on:click={toggleMenu}
+		on:keydown={(e) => e.key === 'Enter' && toggleMenu()}
 		aria-expanded={isMenuOpen}
 	>
 		<span class="hamburger-icon relative flex h-6 w-6 items-center justify-center">

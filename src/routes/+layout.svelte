@@ -29,6 +29,14 @@
 	let headerVisible = false;
 	let ticking = false;
 
+	// Initialize page-dependent variables to prevent server access
+	let isHomePage = false;
+	let isSignupPage = false;
+	let isCategoryPage = false;
+	let shouldShowMaxWidth = true;
+	let showBackButton = false;
+	let showHeader = true;
+
 	// Track swipe gestures for mobile
 	let touchStartX = 0;
 	let touchEndX = 0;
@@ -43,6 +51,19 @@
 	}
 
 	preparePageTransition();
+
+	// Function to update all page-dependent values
+	function updatePageDerivedValues() {
+		if (!browser) return;
+
+		const pathname = $page.url.pathname;
+		isHomePage = pathname === '/';
+		isSignupPage = pathname === '/signup';
+		isCategoryPage = pathname.includes('/categories');
+		shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes(pathname);
+		showBackButton = !isHomePage && !isCategoryPage;
+		showHeader = !isHomePage || headerVisible;
+	}
 
 	const initAnalytics = () => {
 		if (dev) return;
@@ -129,8 +150,10 @@
 				// Simplified visibility logic to reduce state changes
 				if (scrollY > 100 && !headerVisible) {
 					headerVisible = true;
+					if (browser) showHeader = !isHomePage || headerVisible;
 				} else if (scrollY < 50 && headerVisible) {
 					headerVisible = false;
+					if (browser) showHeader = !isHomePage || headerVisible;
 				}
 
 				lastScrollY = scrollY;
@@ -144,6 +167,9 @@
 	};
 
 	onMount(() => {
+		// Initialize page-dependent values
+		updatePageDerivedValues();
+
 		initAnalytics();
 
 		// Defer fingerprint initialization
@@ -193,8 +219,8 @@
 		isMobile = innerWidth <= 768;
 	};
 
-	// Track page changes
-	$: if (browser && !dev && window.gtag) {
+	// Track page changes - only run on the client
+	$: if (browser && !dev && window.gtag && $page) {
 		window.gtag('config', PUBLIC_GOOGLE, {
 			page_title: document.title,
 			page_path: $page.url.pathname
@@ -207,13 +233,12 @@
 		if (browser) updateMobileStatus();
 	}
 
+	// Update page values when page changes
+	$: if (browser && $page) {
+		updatePageDerivedValues();
+	}
+
 	$: parents = data?.parents ? [...data.parents].slice(0, -1) : [];
-	$: isHomePage = $page.url.pathname === '/';
-	$: isSignupPage = $page.url.pathname === '/signup';
-	$: isCategoryPage = $page.url.pathname.includes('/categories');
-	$: shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes($page.url.pathname);
-	$: showBackButton = !isHomePage && !isCategoryPage;
-	$: showHeader = !isHomePage || headerVisible;
 </script>
 
 <svelte:head>
@@ -244,7 +269,7 @@
 
 <svelte:window bind:innerWidth bind:scrollY />
 
-{#if $page?.route?.id?.includes('/stories/')}
+{#if browser && $page?.route?.id?.includes('/stories/')}
 	<slot />
 {:else}
 	<div

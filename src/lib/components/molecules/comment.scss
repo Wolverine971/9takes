@@ -1,4 +1,4 @@
-@import '../../../scss/index.scss';
+@use '../../../scss/index.scss' as *;
 
 :root {
 	--comment-padding: 0.5rem;

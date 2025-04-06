@@ -14,7 +14,7 @@ const config = {
 			postcss: true,
 			preserve: ['ld+json'],
 			scss: {
-				prependData: `@import './src/scss/index.scss';`
+				prependData: `@use './src/scss/index.scss' as *;`
 			},
 			typescript: true
 		})

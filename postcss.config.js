@@ -1,6 +1,10 @@
 export default {
 	plugins: {
+		'postcss-simple-vars': {},
 		tailwindcss: {},
-		autoprefixer: {}
+		autoprefixer: {},
+		'postcss-preset-env': {
+			stage: 1
+		}
 	}
 };
