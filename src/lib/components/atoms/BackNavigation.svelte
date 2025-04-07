@@ -3,8 +3,6 @@
 	import { page } from '$app/stores';
 	import { browser } from '$app/environment';
 
-	export let isMobile = false;
-
 	interface NavStep {
 		name: string;
 		url: string;

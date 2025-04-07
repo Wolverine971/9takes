@@ -320,7 +320,7 @@
 </Modal2>
 
 <style lang="scss">
-	@import './comment.scss';
+	@use './comment.scss' as *;
 	@keyframes spin {
 		0% {
 			transform: rotate(0deg);

@@ -543,7 +543,7 @@
 
 <style lang="scss">
 	/* Import shared styles for comments */
-	@import './comment.scss';
+	@use './comment.scss' as *;
 
 	/* Additional component-specific styles can go here if needed */
 </style>

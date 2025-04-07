@@ -35,7 +35,6 @@
 	let isCategoryPage = false;
 	let shouldShowMaxWidth = true;
 	let showBackButton = false;
-	let showHeader = true;
 
 	// Track swipe gestures for mobile
 	let touchStartX = 0;
@@ -62,7 +61,6 @@
 		isCategoryPage = pathname.includes('/categories');
 		shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes(pathname);
 		showBackButton = !isHomePage && !isCategoryPage;
-		showHeader = !isHomePage || headerVisible;
 	}
 
 	const initAnalytics = () => {
@@ -136,33 +134,6 @@
 		if (swipeDistance > swipeThreshold) {
 			// Swipe right - go back
 			window.history.back();
-		}
-	};
-
-	// Throttled scroll handler for improved performance
-	const handleScroll = () => {
-		// Only process scroll events at most once every 100ms for better performance
-		if (!ticking && isHomePage) {
-			ticking = true;
-
-			// Use requestAnimationFrame to align with browser rendering cycle
-			window.requestAnimationFrame(() => {
-				// Simplified visibility logic to reduce state changes
-				if (scrollY > 100 && !headerVisible) {
-					headerVisible = true;
-					if (browser) showHeader = !isHomePage || headerVisible;
-				} else if (scrollY < 50 && headerVisible) {
-					headerVisible = false;
-					if (browser) showHeader = !isHomePage || headerVisible;
-				}
-
-				lastScrollY = scrollY;
-
-				// Reset throttle after 100ms
-				setTimeout(() => {
-					ticking = false;
-				}, 100);
-			});
 		}
 	};
 
@@ -278,8 +249,7 @@
 		on:touchend|passive={handleTouchEnd}
 	>
 		<div
-			class="sticky top-0 z-40 -translate-y-full transform transition-transform duration-300 ease-in-out"
-			class:translate-y-0={showHeader}
+			class="sticky top-0 z-40 -translate-y-full translate-y-0 transform transition-transform duration-300 ease-in-out"
 		>
 			<Header {data} />
 		</div>
@@ -298,7 +268,7 @@
 			class:max-w-4xl={shouldShowMaxWidth}
 			class:mx-auto={shouldShowMaxWidth}
 			class:w-full={shouldShowMaxWidth}
-			style="margin-top: {isHomePage && !headerVisible ? '-60px' : '0'};"
+			style="margin-top: {isHomePage ? '-60px' : '0'};"
 		>
 			<slot />
 		</main>
