@@ -18,28 +18,6 @@ instagram: ''
 tiktok:
 ---
 
-<!-- update too much mention of type -->
-
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/types/8s/${'Dave-Portnoy'}.webp`}
-    showIcon={false}
-    enneagramType="8"
-    displayText="Dave Portnoy"
-    subtext=""
-  />
-</div>
-
 <p class="firstLetter">You've seen him on social media, heard about his controversies, and probably even watched him eat pizza.</p>
 
 But have you ever wondered what makes Dave Portnoy tick? What's the driving force behind the man who sold Barstool Sports only to buy it back for $1? Today, we're diving deep into Dave's psyche, speculating on his Enneagram personality type: Type 8, also known as the Challenger.
@@ -86,9 +64,9 @@ What truly sets Portnoy apart is what happened in 2020. He sold a majority stake
 
 Dave Portnoy's BFFs podcast with <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/JoshRichards">Josh Richards</a> and <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/bchickenfry">Bri Chickenfry</a> isn't just another podcast; it vividly illustrates his non-conformist approach to life.
 
-Whether it's his choice of co-hosts or his friendships with well-known figures like <a href="/personality-analysis/Logan-Paul">Logan Paul</a> and <a href="/personality-analysis/Jake-Paul">Jake Paul</a>, Portnoy defies societal norms and popular opinions at every turn.
+Whether it's his choice of co-hosts or his friendships with well-known figures like [Logan Paul](/personality-analysis/Logan-Paul) and [Jake Paul](/personality-analysis/Jake-Paul), Portnoy defies societal norms and popular opinions at every turn.
 
-He's friends with the Gen Z TikTokers, and he's also unapologetically a stan of both <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a>and Dixie D'Amelio. Public figures often stick to their lanes, but Portnoy makes and sets his lanes. He does what he finds interesting and will be friends with whomever he chooses, regardless of what others might think.
+He's friends with the Gen Z TikTokers, and he's also unapologetically a stan of both [Taylor Swift](/personality-analysis/Taylor-Swift) and Dixie D'Amelio. Public figures often stick to their lanes, but Portnoy makes and sets his lanes. He does what he finds interesting and will be friends with whomever he chooses, regardless of what others might think.
 
 This disregard for societal expectations and his willingness to forge his path symbolizes a Type 8 personality—someone who values control over their own life and is unafraid to stand alone.
 
@@ -138,7 +116,7 @@ Portnoy's relationships with long-time employees like Big Cat and KFC demonstrat
 
 #### Mentorship with an Edge
 
-Portnoy's mentorship style, as seen with <a href="/personality-analysis/Alex-Cooper">Alex Cooper</a> of "Call Her Daddy," is a mix of tough love and empowerment. He pushes talents hard but also gives them unprecedented freedom. Cooper once said, "Dave saw something in us that we didn't even see in ourselves."
+Portnoy's mentorship style, as seen with [Alex Cooper](/personality-analysis/Alex-Cooper) of "Call Her Daddy," is a mix of tough love and empowerment. He pushes talents hard but also gives them unprecedented freedom. Cooper once said, "Dave saw something in us that we didn't even see in ourselves."
 
 #### Decisive Action and Reflection
 
@@ -216,7 +194,7 @@ Revenge might sound like a strong word, but in the world of Type 8s, it's not ab
 
 This ritual aligns perfectly with the characteristics of Type 8, who often seeks to correct the record and root out injustice. Dave keeps his how scorecard and is willing to wait for his enemies to face the music. When that music finally plays, Dave is ready with a bottle of champagne.
 
-Dave has always been a fan of Taylor Swift. He followed Taylor and <a href="/personality-analysis/Kanye">Kanye's</a> drama, where Kanye had a lyric about Taylor, saying, "I made that bitch famous." Taylor said she never knew about or agreed to that Lyric. However, <a href="/personality-analysis/Kim-Kardashian" >Kim Kardashian</a> and Kanye released a recording of Taylor green-lighting that part. Later, it came to light that Taylor's recording was edited and was **fake**. Dave knows what it is like to be unfairly slandered, and he doesn't like it. You can bet he has a bottle dedicated to Kim and Kanye.
+Dave has always been a fan of Taylor Swift. He followed Taylor and [Kanye's](/personality-analysis/Kanye) drama, where Kanye had a lyric about Taylor, saying, "I made that bitch famous." Taylor said she never knew about or agreed to that Lyric. However, [Kim Kardashian](/personality-analysis/Kim-Kardashian) and Kanye released a recording of Taylor green-lighting that part. Later, it came to light that Taylor's recording was edited and was **fake**. Dave knows what it is like to be unfairly slandered, and he doesn't like it. You can bet he has a bottle dedicated to Kim and Kanye.
 
 <div class="iframe-container">
 <iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/E0zPyyps2lM?clip=Ugkx9EYF4tb3g2RlesJHwViRPl2xnfTsXL24&amp;clipt=ENmtDRis5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -244,116 +222,10 @@ It turns a personal ritual into a public display. This act serves a dual purpose
   />
 </div>
 
-<BlogPurpose/>
-
 ## Wrapping It Up: The Man Behind the Millions and the Pizza Reviews
 
 Dave Portnoy is a man of contrasts. He can do whatever he wants with a net worth of around $120 million. Yet, he does his pizza reviews almost every day. Why? Because he is a man of the people. He leads Barstool, a media empire in the making, and is constantly surrounded by content creators. Portnoy could easily delegate these reviews to someone else, but he chooses to get his hands dirty. It's not about the pizza; it's about staying grounded. He doesn't care what others think; he does what he believes and sets an example.
 
 So, what can we learn from Dave Portnoy? There's more than meets the eye when you look deeply at people. On the surface, he may appear as just another wealthy businessman, but delve a little deeper, and you'll find that El Presidente" is a decisive, aggressive, and unapologetic Enneagram 8.
 
-If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
-
-> **Disclaimer** This analysis of Dave Portnoy's Enneagram type is speculative, based on publicly available information, and may not reflect Dave Portnoy's actual personality type.
-
-<svelte:head>
-
-<script type="application/ld+json">
-  {
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article dives into the complex personality of Dave Portnoy through the lens of the Enneagram Type 8. It explores various facets of his life, including his entrepreneurial ventures, his individualistic approach, and his handling of controversies, all of which point to characteristics commonly found in Type 8 individuals.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-08-23"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-08-21"
-      },
-      "description": "This blog post examines why Dave Portnoy might be an Enneagram Type 8. It focuses on his personality traits, his motivations, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 8.",
-      "headline": "Decoding Dave Portnoy: An Exploration of His Enneagram Type 8 Personality",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/8s/Dave-Portnoy.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Dave-Portnoy",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Dave Portnoy",
-        "sameAs": ["https://en.wikipedia.org/wiki/Dave_Portnoy", "https://twitter.com/stoolpresidente", "https://www.instagram.com/stoolpresidente/"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dave Portnoy exhibits many characteristics associated with Enneagram Type 8 personalities. This includes his need for control, aggressive nature, and desire for autonomy. These characteristics are deeply rooted in his core motivation to be in control of his destiny."
-          },
-          "name": "Why is Dave Portnoy considered an Enneagram Type 8?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Portnoy's entrepreneurial success, individualistic approach to life, and unique way of handling controversies all indicate his Type 8 personality. Moreover, his constant pursuit of ventures that interest him and his dedication to his values also reflect the strengths and growth potential of Type 8 individuals."
-          },
-          "name": "What are some examples of Dave Portnoy's Type 8 characteristics?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dave Portnoy is well-known for his confrontational and decisive personality. He is business-minded and tends to be in the public eye often. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
-          },
-          "name": "What is Dave Portnoy's personality?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dave Portnoy is speculated to be an Enneagram type 8, also known as The Challenger. This Enneagram type is confrontational, desires control, and is driven, often motivated by a need to control their destiny. Please note that this information is based on public information and not directly confirmed by Dave Portnoy himself."
-          },
-          "name": "What is Dave Portnoy's Enneagram type?"
-        }
-      ]
-    }
-  ]
-}
-
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>
+> **Disclaimer** This analysis of Dave Portnoy's Enneagram type is speculative, based on publicly available information, and may not reflect Dave's actual personality type.

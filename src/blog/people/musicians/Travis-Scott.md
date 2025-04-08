@@ -18,35 +18,6 @@ instagram: ''
 tiktok: ''
 ---
 
-<!--
-    childhood and upbringing
-    first big success
-    style habits and quirks that relate to their personality type
-    stressful moments in their life and how they handled them
-    comfort- moments in their life where they are doing well and killing it
--->
-<!-- // keywords:  -->
-
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/types/9s/${'Travis-Scott'}.webp`}
-		enneagramType={9}
-		showIcon={false}
-		displayText="Travis Scott"
-		subtext=""
-	/>
-</div>
-
 > "I'm just here to make music and make people feel good." - Travis Scott
 
 > "I feel like everything needs to be stylized; that's always been my mindset." - Travis Scott
@@ -129,7 +100,7 @@ Becoming a father to daughter Stormi (born 2018) and a son (born 2022) has visib
 
 For Type 9s, family often represents the ultimate peaceful sanctuary. While his public life involves stadiums of screaming fans, his home life centers on creating stability. This balance between chaos and calm perfectly illustrates the Type 9's dual nature.
 
-Co-parenting with Kylie Jenner amid their on-again, off-again relationship shows his commitment to harmony even in complex situations. _Type A personalities might create drama in similar circumstances; Type 9s seek resolution._
+Co-parenting with [Kylie Jenner](/personality-analysis/Kylie-Jenner) amid their on-again, off-again relationship shows his commitment to harmony even in complex situations. _Type A personalities might create drama in similar circumstances; Type 9s seek resolution._
 
 ## Future Visions: What's Next for Travis
 
@@ -138,8 +109,6 @@ Travis Scott's future plans reveal continued evolution of his Type 9 traits. His
 His music continues to evolve, with his 2023 album "Utopia" showing more sonic exploration. Through each project, we see a consistent through-line: **creating immersive worlds where fans feel connected to something larger than themselves**.
 
 The Type 9's growth path involves learning to assert themselves without losing their peaceful core. As Travis navigates the aftermath of controversy and embraces new creative disciplines, we're watching this growth in real time.
-
-<BlogPurpose />
 
 ## What Travis Scott Teaches Us About Type 9 Energy
 
@@ -151,114 +120,4 @@ Next time you see Travis Scott performing—surrounded by flames and diving into
 
 What might you discover about yourself by understanding your own Enneagram type? If Travis Scott can build an empire while honoring his Type 9 nature, what might your authentic personality reveal about your untapped potential?
 
-> **Disclaimer** This analysis of Travis Scott's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Travis Scott.
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the personality traits of Travis Scott from the perspective of the Enneagram Type 9. Known for his immersive music experiences, architectural interests, and ability to create harmony, Travis embodies many characteristics of Type 9 personalities. The article discusses various facets of Travis's life and career that demonstrate his Type 9 characteristics, including his rise to fame, creative process, and response to controversies.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-03-04"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2025-03-04"
-      },
-      "description": "Discover how Travis Scott's Enneagram Type 9 personality shapes his music, business empire, and response to controversy. Learn what drives the Astroworld creator.",
-      "headline": "Travis Scott: The Peaceful Powerhouse Behind the Chaos",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/9s/Travis-Scott.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Travis-Scott",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Travis Scott",
-        "sameAs": ["https://en.wikipedia.org/wiki/Travis_Scott", "https://twitter.com/trvisXX", "https://www.instagram.com/travisscott/"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Travis Scott exhibits many characteristics associated with Enneagram Type 9 personalities. This includes his ability to create immersive experiences that bring people together, his interest in architecture and creating harmonious environments, and his tendency to merge with different industries while maintaining his creative vision. His response to conflict and his philanthropic work also align with Type 9 patterns."
-          },
-          "name": "Why is Travis Scott considered an Enneagram Type 9?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Travis Scott's immersive Astroworld album and tour, his architectural interests, his late-night creative process, and his focus on bringing people together through shared experiences all reflect his Type 9 personality. His partnerships across different industries show a Type 9's ability to adapt while maintaining their core vision."
-          },
-          "name": "What are some examples of Travis Scott's Type 9 characteristics?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Travis Scott is known for his creative vision, ability to bring disparate elements together, and his focus on creating immersive experiences. While energetic on stage, his personality seems to seek harmony and connection. He's described as thoughtful about architecture and design, and demonstrates a desire to create positive community impact through his foundation and scholarships."
-          },
-          "name": "What is Travis Scott's personality like?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Travis Scott is an Enneagram Type 9, also known as The Peacemaker. This type is motivated by a desire for inner peace and harmony. While they can appear passive, healthy Type 9s like Scott channel their energy into creative pursuits while maintaining their ability to see multiple perspectives and create environments where others feel welcome."
-          },
-          "name": "What is Travis Scott's Enneagram type?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Astroworld tragedy in 2021 was particularly challenging for Travis Scott as a Type 9. Type 9s typically struggle with processing conflict and articulating complex emotions during crisis. His description of being on an 'emotional rollercoaster' and his response of creating Project HEAL to improve event safety reflect typical Type 9 patterns of channeling energy into fixing problems rather than dwelling on painful emotions."
-          },
-          "name": "How did Travis Scott's Type 9 personality influence his response to the Astroworld tragedy?"
-        }
-      ]
-    }
-  ]
-}
-
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>
+> **Disclaimer** This analysis of Travis Scott's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Travis.

@@ -79,7 +79,7 @@ Remember 2013? Anne won an Oscar for "Les Misérables" but simultaneously faced 
 
 Critics and social media users called her "inauthentic" and "too perfect" – perhaps the most painful criticism possible for a Type 1, whose core fear is being corrupt, defective, or bad.
 
-Her friend and "Les Misérables" co-star Hugh Jackman defended her: "She is the most dedicated, hardworking actress I've worked with. She's brilliant but she's also kind."
+Her friend and "Les Misérables" co-star [Hugh Jackman](/personality-analysis/Hugh-Jackman) defended her: "She is the most dedicated, hardworking actress I've worked with. She's brilliant but she's also kind."
 
 But the criticism cut deep. Anne retreated from public view for a time, later telling Harper's Bazaar: "I couldn't not equate myself with the hate that was being directed at me, and it was excruciating."
 
