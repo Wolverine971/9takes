@@ -164,12 +164,6 @@
 		// Update mobile status based on window width
 		updateMobileStatus();
 
-		// Add optimized event listeners with passive flag
-		if (browser) {
-			// Passive flag improves scrolling performance
-			window.addEventListener('scroll', handleScroll, { passive: true });
-		}
-
 		console.log(`
  ___  _        _              
 / _ \\| |_ __ _| | _____  ___ 
@@ -177,12 +171,6 @@
  \\__, | || (_| |   <  __/\\__ \\
    /_/ \\__\\__,_|_|\\_\\___||___/
 `);
-
-		return () => {
-			if (browser) {
-				window.removeEventListener('scroll', handleScroll);
-			}
-		};
 	});
 
 	// Update mobile status when window resizes
