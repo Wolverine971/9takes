@@ -1,6 +1,6 @@
 ---
-title: 'Kourtney Kardashian An Enneagram Type 1'
-description: 'Why Kourtney Kardashian appears to be a type 1'
+title: 'Kourtney Kardashian: Poosh, Wellness & The Type 1 Psychology Driving Her Authenticity'
+description: "Explore how Kourtney Kardashian's principled Type 1 perfectionism drives her wellness brand Poosh, parenting philosophy, and authentic approach to reality TV fame. Discover her reformer mindset."
 author: 'DJ Wayne'
 date: '2023-07-24'
 loc: 'https://9takes.com/personality-analysis/Kourtney-Kardashian'
@@ -18,31 +18,13 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- // notes:  -->
+> "I want to be a good person and I want to be a good mother. I want to be the best I can be." - Kourtney Kardashian
 
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
+<p class="firstLetter">From reality TV stardom to wellness empire founder, Kourtney Kardashian has always stood apart from her famous family. But what drives the eldest Kardashian sister? Why does she make the choices she does? And what makes her tick when the cameras stop rolling?</p>
 
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/types/1s/${'Kourtney-Kardashian'}.webp`}
-		showIcon={false}
-		enneagramType="1"
-		displayText="Kourtney Kardashian"
-		subtext=""
-	/>
-</div>
+The answer might lie in understanding her personality through the Enneagram—specifically as a [Type 1: The Perfectionist](/enneagram-corner/enneagram-type-1).
 
-> "I want to be a good person and I want to be a good mother. I want to be the best I can be."
-
-<p class="firstLetter">You've seen her on TV, in the tabloids, and across social media platforms. Kourtney Kardashian, the oldest sibling in the Kardashian-Jenner clan, is more than a reality TV star. Today, we dive deeper into Kourtney's persona, suggesting her as an illustrative example of Enneagram Type 1 - The Perfectionist.</p>
+Let's dive into Kourtney's psyche and discover how her Type 1 traits have shaped her life, career, and relationships in ways that might surprise you.
 
 <details>
 <summary class="accordion">TL;DR: Why Kourtney Kardashian is an Enneagram type 1</summary>
@@ -60,165 +42,88 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   </div>
 </details>
 
-## What Makes Kourtney a Type 1?
+## The Perfectionist Queen: How Kourtney Embodies Type 1 Traits
 
-Kourtney's public life provides numerous examples of her embodying the defining characteristics of Type 1. As a [Type 1](/enneagram-corner/enneagram-type-1), Kourtney often displays a well-developed sense of right and wrong, coupled with an innate desire for order and perfection.
+Kourtney Kardashian is _meticulous_. She's _deliberate_. She's the sister who won't hesitate to call you out when you're wrong.
 
-## Her Quest for Perfection
+As a textbook Enneagram Type 1, Kourtney displays an unwavering commitment to her principles that's both admirable and, at times, exhausting to those around her.
 
-Kourtney's pursuit of perfection is on display when you look at her dedication to a healthy lifestyle.
+Her perfectionism manifests most visibly in her approach to:
 
-Her devotion to clean eating, natural products, and a rigid exercise regimen is well-documented. This commitment not only reflects her aspiration for physical perfection but also her belief in a 'right' way of living and the moral imperative to follow it.
+- **Health and wellness**: Her Poosh lifestyle brand isn't just a business—it's an extension of her personal quest for the "right" way to live
+- **Parenting**: Her strict boundaries around her children and their exposure to the media
+- **Organization**: Her color-coded closet and immaculately organized pantry have become legendary
 
-## Assertive Moral Compass
+"Kourtney is definitely the most disciplined of all of us," [Kim](/personality-analysis/Kim-Kardashian) once revealed on their show. "Sometimes I think she cares more about the way things look than how people feel."
 
-Moreover, Kourtney's assertive moral compass comes to light during moments of family controversies. When her sister <a href="/personality-analysis/Kim-Kardashian">Kim</a> lost her diamond earring in the ocean, Kourtney's response was not of sympathy, but rather a stern reminder of their privileged life - "Kim, there's people that are dying." This incidence mirrors the rationality and ethical sense of a Type 1, who can't ignore the bigger picture for petty grievances.
+This offhand comment reveals the classic Type 1 prioritization of order and correctness, sometimes at the expense of emotional connection.
 
-## Need for Order and Control
+## From Reality Star to Wellness Guru: Kourtney's Rise to Fame as a Type 1
 
-Lastly, Kourtney's need for order and control, another typical Type 1 trait, is evidenced by her meticulously organized home. Her closet is famously arranged by color and item, demonstrating her preference for method and structure.
+Kourtney didn't ask to be famous. When "Keeping Up With The Kardashians" launched in 2007, she was already 28 and running a clothing boutique called Dash with her sisters.
 
-## How Kourtney Differs from Her Sisters
+For a Type 1 personality, suddenly having cameras document your every move and mistake must have been _excruciating_.
 
-The Type 1 personality traits further differentiate Kourtney from her sisters.
+Type 1s hate being caught imperfect. They despise having their flaws exposed. Yet there was Kourtney, living her life—arguments, breakups, childbirth and all—in front of millions.
 
-While Kim, <a href="/personality-analysis/Khloe-Kardashian">Khloé</a>, and <a href="/personality-analysis/Kylie-Jenner">Kylie</a> may be more flamboyant and spontaneous, Kourtney's more reserved, orderly approach contrasts sharply. This difference has often been a source of drama and conflict, as seen in their reality show, "Keeping Up with the Kardashians."
+Her response was quintessentially Type 1: she created boundaries and systems.
 
-## The Downside: Dealing with Controversies and Criticism
+While her sisters embraced the chaos of fame, Kourtney maintained rigidity around what she would and wouldn't share. She was the first to threaten to quit the show when filming interfered with her principles around family time and privacy.
 
-Yet, Kourtney's Type 1 traits have also attracted criticism and controversy. Her relentless pursuit of perfection and adherence to principles have sometimes been perceived as rigidity and lack of empathy. A notable instance was her fallout with Kim over the scheduling of their family's annual Christmas card photoshoot, displaying the potential for Type 1's obsession with order to escalate conflicts.
+"I don't want to film every day and show everything," she stated firmly during one family confrontation. "Everyone has their boundaries and I've pushed mine a lot."
 
-## A Type 1's Growth: Embracing Imperfection
+This statement perfectly captures how a Type 1 navigates situations that threaten their need for control and ethical standards.
 
-Over the years, Kourtney's has grown a lot.
+## Inside Kourtney's Mind: The Organized World of a Type 1
 
-A significant part of a Type 1's journey is learning to embrace imperfection, and Kourtney seems to be mastering it. Her acceptance of her body's changes post-pregnancy and her willingness to prioritize personal happiness over societal norms (as seen in her relationship with Travis Barker) indicate her strides towards finding balance.
+Kourtney's life goals have always diverged from her siblings. While they built modeling careers, makeup empires, and social media kingdoms, she focused on:
 
-<BlogPurpose/>
+1. Being the best mother possible
+2. Creating a toxin-free, wellness-oriented lifestyle
+3. Establishing clear boundaries between her public and private lives
 
-## How Each Enneagram Type Perceives Kourtney
+Her mindset is that of a classic Type 1: _There is a right way to do things, and I need to find it._
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kourtney Kardashian:
+But where Kourtney differs from stereotypical Type 1 descriptions is in her willingness to evolve. Many Type 1s become rigid in their belief systems, but Kourtney has shown remarkable growth—from her strict "no carbs" era to her more balanced approach to nutrition today.
 
-- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Fellow perfectionists might admire Kourtney's discipline and dedication to a 'right' way of living. Her passion for health, order, and ethical living resonates with their own pursuit of perfection.
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Type 2s might appreciate Kourtney's nurturing side as a mother, yet they may also wish she expressed more empathy and warmth in her interactions with others.
-- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - As achievers, they would respect Kourtney's success in her business ventures and personal branding. However, they might view her rigidity as a hindrance to flexibility and adaptability.
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Individualists might connect with Kourtney's non-conformist approach to life and admire her commitment to authenticity. They might also empathize with her struggle for self-improvement.
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Investigators, being private and cerebral, might appreciate Kourtney's introspective moments and her inclination towards privacy, compared to her more public siblings.
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Loyalists may admire Kourtney's dedication to her family and values. However, they might also worry about her potential for conflict due to her rigid adherence to principles.
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - As enthusiasts, they might find Kourtney's lifestyle inspiring and exciting. However, her seriousness and focus on perfection could come off as restrictive to their carefree nature.
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Challengers might respect Kourtney's assertive stance in personal matters and conflicts. However, they might wish for more flexibility and willingness to compromise from her.
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Peacemakers might feel uncomfortable with Kourtney's strict adherence to principles, which sometimes leads to conflicts. They may wish for more harmony and peace in her interactions.
+"I used to be so strict," she admitted in a recent interview. "Now I've learned it's about balance and enjoying life while still being mindful."
 
-## Wrapping up Kourtney as a Type 1
+This evolution shows the healthy growth path of a Type 1, learning to ease their inner critic and embrace imperfection.
 
-Kourtney is on a quest for perfection. She has a strong moral compass, and her preference for order closely aligns with the "Perfectionist." Yet, her growth in embracing imperfection enriches her personality, reminding us that Type 1, like all other types, is a spectrum of behaviors and tendencies that is dynamic.
+## Fear and Motivation: The Hidden Forces Driving Kourtney
 
-Does this exploration of Kourtney enhance your understanding of her as a public figure? Does seeing Kourtney through the lens of the Enneagram Type 1 give you a deeper insight into her motivations and actions? In a world quick to judge, perhaps there's merit in understanding public figures not just through their actions but also through their personality types.
+The core fear of every Type 1 is being corrupt, defective, or "bad." Their core motivation is to be good, balanced, and have integrity.
 
-If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+For Kourtney, this fear likely manifests as anxiety around making the wrong choices for her children or compromising her values for fame or money.
 
-> **Disclaimer** This analysis of Kourtney Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kourtney.
+Imagine her inner dialogue during the infamous fight with Kim over the Christmas card photoshoot:
 
-<svelte:head>
+_"Why doesn't anyone respect my time and boundaries? I'm trying to be a good mother by prioritizing my children, and they're making me feel like I'm wrong for that. But I know I'm doing the right thing. I have to stand my ground even if they're angry with me."_
 
-<script type="application/ld+json">
-  {
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the personality traits of Kourtney Kardashian from the perspective of the Enneagram Type 1. Known for her meticulousness, drive for perfection, and strong principles, Kourtney embodies many characteristics of Type 1 personalities. The article discusses various facets of Kourtney's life that demonstrate her Type 1 characteristics, including her dedicated parenting, health-focused lifestyle, and controversial moments.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2023-07-24"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-07-24"
-      },
-      "description": "This blog post examines the reasons why Kourtney Kardashian might be an Enneagram Type 1. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these elements might be related to the core attributes of a Type 1.",
-      "headline": "Unraveling Kourtney Kardashian: An Insight Into Her Enneagram Type 1 Personality",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/1s/Kourtney-Kardashian.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Kourtney-Kardashian",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Kourtney Kardashian",
-        "sameAs": ["https://en.wikipedia.org/wiki/Kourtney_Kardashian", "https://twitter.com/kourtneykardash", "https://www.instagram.com/kourtneykardash/", "https://www.tiktok.com/@kourtneykardashian"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "height": 60,
-          "url": "https://9takes.com/brand/aero.png",
-          "width": 600
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Kourtney Kardashian exhibits many characteristics associated with Enneagram Type 1 personalities. This includes her meticulousness, adherence to strong principles, and striving for perfection. These characteristics are deeply rooted in her desire to live in accordance with her values, which is a core motivation for Type 1 individuals."
-          },
-          "name": "Why is Kourtney Kardashian considered an Enneagram Type 1?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Kourtney's dedication to her children, her focus on a healthy lifestyle, and her ability to stand by her principles in the face of controversy are all indicative of her Type 1 personality. Moreover, her constant pursuit of perfection and her commitment to her personal values also reflect the strengths and growth potential of Type 1 individuals."
-          },
-          "name": "What are some examples of Kourtney Kardashian's Type 1 characteristics?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Kourtney Kardashian is well-known for her meticulous and principled personality. She is dedicated, health-conscious, and often upholds her principles steadfastly. However, these descriptions are based on public perception and her portrayed image in the media. To know her exact personality, one would have to know her personally."
-          },
-          "name": "What is Kourtney Kardashian's personality?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Kourtney Kardashian is an Enneagram type 1, also known as The Perfectionist. This Enneagram type is principled, purposeful, and self-controlled, often motivated by a desire to live the right way and avoid fault or blame. Please note that this information is based on public information and not directly confirmed by Kourtney Kardashian herself."
-          },
-          "name": "What is Kourtney Kardashian's Enneagram type?"
-        }
-      ]
-    }
-  ]
-}
-</script>
+Her motivation to be "good" drives her wellness empire Poosh, where she can share her version of the "right" way to live with others. It's not just a business—it's a moral mission.
 
-</svelte:head>
+"Health is wealth," she often says. For a Type 1, physical well-being isn't just about looking good—it's about moral rightness and discipline.
 
-<style lang="scss"></style>
+## Moving Through the World: Kourtney's Type 1 Journey Today
+
+Today, Kourtney moves through the world with more confidence in her Type 1 tendencies. Her marriage to Travis Barker marks a new chapter where she seems more comfortable embracing imperfection and spontaneity.
+
+Her current projects—expanding Poosh and her supplement line Lemme—are perfect outlets for her Type 1 energy. Both allow her to systematize and share her vision of the "right way" to approach wellness.
+
+What's fascinating is watching how motherhood to her fourth child with Travis might further evolve her Type 1 traits. Will she maintain her perfectionist standards? Or will the blended family dynamic push her toward more flexibility?
+
+As she mentioned recently: "Life is short. We should enjoy it and not stress about everything being perfect all the time."
+
+This statement signals the journey of a maturing Type 1—learning that perfectionism can be both a strength and a limitation.
+
+## The Perfectionist Paradox: Kourtney's Ongoing Evolution
+
+Kourtney Kardashian's journey as a Type 1 reminds us that personality isn't destiny—it's a starting point.
+
+Her growth from rigid perfectionist to someone who can embrace the messy reality of blended family life demonstrates the evolution possible within one's type.
+
+For all Type 1s watching Kourtney's journey, her story offers hope: You can honor your principles while softening your stance. You can maintain standards while making room for joy.
+
+And perhaps most importantly for a Type 1: You can be good enough without being perfect.
+
+> **Disclaimer:** This analysis of Kourtney Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
