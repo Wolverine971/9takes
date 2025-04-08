@@ -18,32 +18,13 @@ instagram: 'https://www.instagram.com/johnnydepp/'
 tiktok: 'https://www.tiktok.com/@johnnydepp'
 ---
 
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/types/4s/${'Johnny-Depp'}.webp`}
-		showIcon={false}
-		enneagramType="4"
-		displayText="Johnny Depp"
-		subtext=""
-	/>
-</div>
-
 <p class="firstLetter">Johnny Depp - a name that conjures images of eccentric pirates, mad hatters, and lovable outsiders. But who is the man behind these unforgettable characters?</p>
 
 What drives the creative genius that has captivated audiences for decades? Today, we're diving deep into the psyche of Hollywood's most intriguing chameleon, exploring the inner world that fuels his remarkable performances. Buckle up, Depp fans - we're about to peel back the layers of an artist whose complexity rivals that of his most iconic roles.
 
 ## The Roots of Creativity: Johnny's Tumultuous Childhood
 
-Johnny Depp's journey as a Type 4 personality began in the unlikeliest of places - a small town in Kentucky. Born into a family that moved frequently, young Johnny faced the challenge of constantly being the "new kid." This nomadic lifestyle, while difficult, likely planted the seeds of his unique perspective on life.
+Johnny Depp's journey as a [Type 4 personality](/enneagram-corner/enneagram-type-4) began in the unlikeliest of places - a small town in Kentucky. Born into a family that moved frequently, young Johnny faced the challenge of constantly being the "new kid." This nomadic lifestyle, while difficult, likely planted the seeds of his unique perspective on life.
 
 "**I remember the feeling of being this small, scrawny kid who was just trying to figure out where I fit in,**" Depp once shared in an interview. This sense of not belonging, so characteristic of Type 4 individuals, would become a driving force in his life and career.
 
@@ -77,8 +58,6 @@ Despite his tumultuous public life, Depp's relationship with his children, Lily-
 
 This deep connection with his children showcases the intense emotional bonds that Type 4 individuals are capable of forming. For Depp, his role as a father has been a grounding force in an otherwise chaotic life.
 
-<BlogPurpose/>
-
 ## The Artist's Palette: Depp's Lesser-Known Passions
 
 While most know Depp for his acting, few are aware of his other artistic pursuits. He's an accomplished painter and has had his work exhibited in galleries. He's also a skilled guitarist, having performed with bands like Oasis and Marilyn Manson.
@@ -99,7 +78,7 @@ Emotionally, Depp's landscape is probably characterized by deep wells of feeling
 
 ## In Comfort and Stress: The Enneagram in Action
 
-When things are going well, Depp likely taps into the positive aspects of Type 1 (the connecting line for Type 4 in comfort). This might manifest as a strong sense of purpose and a desire to create meaningful art.
+When things are going well, Depp likely taps into the positive aspects of [Type 1](/enneagram-corner/enneagram-type-1) (the connecting line for Type 4 in comfort). This might manifest as a strong sense of purpose and a desire to create meaningful art.
 
 In times of stress, Depp may lean towards Type 2 behaviors (the stress line for Type 4). This could explain his tendency to lose himself in relationships or roles, sometimes at the cost of his own well-being.
 
@@ -117,104 +96,4 @@ As we've seen with Depp, the Enneagram can provide fascinating insights into the
 
 So the next time you watch a Johnny Depp film, remember - you're not just seeing a character, but a window into the soul of a true Type 4. And perhaps, in understanding Depp a little better, we might also understand ourselves.
 
-> **Disclaimer** This analysis of Johnny Depp's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Johnny Depp.
-
-<svelte:head>
-
-<script type="application/ld+json">
-	{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "Johnny Depp, known for his eccentric roles and charismatic presence, embodies the essence of an Enneagram Type 4. This article explores Depp's complex personality, from his tumultuous childhood to his rise in Hollywood, examining how his Type 4 traits shape his artistry, relationships, and personal struggles.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2024-08-30",
-      "datePublished": "2024-08-30",
-      "description": "Explore Johnny Depp's complex psyche as an Enneagram Type 4. Discover how his unique personality shapes his iconic roles and tumultuous personal life.",
-      "headline": "Inside Johnny Depp's Mind: Unveiling the Enneagram Type 4 Personality of Hollywood's Enigmatic Star",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/4s/Johnny-Depp.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Johnny-Depp",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Johnny Depp",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Johnny_Depp",
-          "https://www.imdb.com/name/nm0000136/",
-          "https://twitter.com/johnnydepp",
-		  "https://www.instagram.com/johnnydepp/",
-		  "https://www.tiktok.com/@johnnydepp"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Johnny Depp's Enneagram type?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Johnny Depp is an Enneagram Type 4, also known as The Individualist or The Artist. Type 4s are characterized by their creativity, emotional depth, and desire for authenticity and self-expression."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How did Johnny Depp's childhood influence his Enneagram Type 4 personality?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Depp's nomadic childhood, moving frequently and often feeling like an outsider, likely contributed to his Type 4 traits. This sense of not belonging fueled his creative expression and unique perspective on life."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are some lesser-known facts about Johnny Depp that reflect his Enneagram Type 4 traits?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Depp is an accomplished painter and musician, having exhibited his artwork and performed with various bands. These artistic pursuits highlight the Type 4's need for diverse forms of self-expression."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Johnny Depp's Enneagram Type 4 personality influence his acting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "As a Type 4, Depp approaches acting with deep introspection and emotional intensity. He often transforms himself completely for roles, seeking to find authentic truth in each character he portrays."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How has Johnny Depp's Enneagram Type 4 personality shaped his response to public controversies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "During public controversies, such as his legal battles, Depp has maintained a stance of emotional honesty, even when it doesn't paint him in the best light. This willingness to be vulnerable is characteristic of Type 4 individuals."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
+> **Disclaimer** This analysis of Johnny Depp's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Depp.

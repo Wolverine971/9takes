@@ -18,33 +18,11 @@ instagram: ''
 tiktok:
 ---
 
-<!-- notes: dating, come back to youtube, where he is from, when did he become famous, controversy with jeff wittek, David Dobrik and Taylor Hudson, girlfriend friends -->
-
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/types/7s/${'David-Dobrik'}.webp`}
-    showIcon={false}
-    enneagramType="7"
-    displayText="David Dobrik"
-    subtext=""
-  />
-</div>
-
 <p class="firstLetter">David Dobrik isn't just any YouTube star. Born in Slovakia. Moved to America at six. Built an empire worth millions—all before turning 30.</p>
 
 His laugh echoes through nearly every video. That same infectious energy propelled him from Vine to YouTube superstardom, transforming a boy from the suburbs into a cultural phenomenon with 19 million subscribers and over 7 billion views.
 
-Behind the Tesla giveaways and perfectly-timed explosions lives the quintessential Enneagram Type 7: "The Enthusiast." A personality driven by the pursuit of joy, experience, and endless stimulation.
+Behind the Tesla giveaways and perfectly-timed explosions lives the quintessential [Enneagram Type 7](/enneagram-corner/enneagram-type-7): "The Enthusiast." A personality driven by the pursuit of joy, experience, and endless stimulation.
 
 Let's unpack how David Dobrik's hyperactive mind and relentless pursuit of the next viral moment reflect the fascinating psychology of a Type 7 on steroids.
 
@@ -181,104 +159,3 @@ Perhaps the most fascinating chapters of David Dobrik's Enthusiast journey are y
 If you enjoyed this personality deep-dive, explore our <a href="/questions">questions</a> or discover your own Enneagram type through our assessments.
 
 > **Disclaimer** This analysis of David Dobrik's Enneagram type is speculative, based on publicly available information, and may not reflect David's personality.
-
-<svelte:head>
-
-<script type="application/ld+json">
-  {
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the personality traits of David Dobrik from the perspective of the Enneagram Type 7. Known for his enthusiasm, adventure-seeking nature, and ability to entertain, David embodies many characteristics of Type 7 personalities. The article discusses various facets of David's life and career that demonstrate his Type 7 characteristics, including his YouTube success, inner world, controversies, and core motivation.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-02-26"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-06-22"
-      },
-      "description": "This blog post examines why David Dobrik might be an Enneagram Type 7. It focuses on his personality traits, his motivations, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 7.",
-      "headline": "Unraveling David Dobrik: An Insight Into His Enneagram Type 7 Personality",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/7s/David-Dobrik.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/David-Dobrik",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "David Dobrik",
-        "sameAs": ["https://en.wikipedia.org/wiki/David_Dobrik", "https://twitter.com/DavidDobrik", "https://www.instagram.com/daviddobrik/", "https://www.tiktok.com/@daviddobrik"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "David Dobrik exhibits many characteristics associated with Enneagram Type 7 personalities. This includes his enthusiasm, desire for new experiences, and entertainment ability. These characteristics are deeply rooted in his desire to avoid pain and pursue pleasure, which is a core motivation for Type 7 individuals."
-          },
-          "name": "Why is David Dobrik considered an Enneagram Type 7?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "David's success on YouTube, his constant pursuit of new adventures, and his resilience in the face of controversies all indicate his Type 7 personality. Moreover, his constant energy and drive reflect the strengths and growth potential of Type 7 individuals."
-          },
-          "name": "What are some examples of David Dobrik's Type 7 characteristics?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "David Dobrik is well-known for his charismatic and energetic personality. He is adventurous, fun-loving, and often tends to be in the public eye. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
-          },
-          "name": "What is David Dobrik's personality?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "David Dobrik is an Enneagram type 7, also known as The Enthusiast. This Enneagram type is enthusiastic, adventurous, and pleasure-seeking, often motivated by a desire to be happy and avoid pain. Please note that this information is based on public information and not directly confirmed by David Dobrik himself."
-          },
-          "name": "What is David Dobrik's Enneagram type?"
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>

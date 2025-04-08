@@ -18,57 +18,13 @@ instagram: 'https://www.instagram.com/kimkardashian'
 tiktok: 'https://www.tiktok.com/@kimkardashian'
 ---
 
-<!--
-    'Kris Jenner',
-    'North West',
-    'Kim K SKIMS' -->
-<!--
-https://www.reddit.com/r/Enneagram/comments/ilnx33/kardashian_typing/
-
-Kim Kardashian - 3w4
-
-Khloe Kardashian - 8w7
-
-Kourtney Kardashian - 6w7 (counterphobic)
-
-Rob Kardashian - ???
-
-Kris Jenner - 1w2
-
-Caitlyn Jenner - 9w1
-
-Kylie Jenner - 3w4??? (And maybe Kim is 3w2?)
-
-Kendal Jenner - 4??? -->
-<!-- notes: where is kim Kardashian from, why is she famous, who is kim dating, can kim practice law, kim and kylie jenner sisters, when was kim born, pete davidson, cristiano ronaldo, dating, skims, marylilyn monroe, bianca censori, net worth, boyfriend, age, height, instagram, met gala, house -->
-
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/types/3s/${'Kim-Kardashian'}.webp`}
-    showIcon={false}
-    enneagramType="3"
-    displayText="Kim Kardashian"
-    subtext=""
-  />
-</div>
-
 > "I have the ability to turn nothing into something. I can take a small idea and turn it into a huge business."
 
 <p class="firstLetter">Ever wonder what's really going on in Kim Kardashian's head?</p>
 
 Behind the flawless selfies, billion-dollar brands, and headline-grabbing relationships, there's a fascinating psychological framework that explains so much about her journey.
 
-If you've been keeping up with Kim, you already know about her incredible rise from Paris Hilton's closet organizer to global icon. But understanding her as an Enneagram Type 3 (The Achiever) reveals the deeper _why_ behind everything she does.
+If you've been keeping up with Kim, you already know about her incredible rise from [Paris Hilton](/personality-analysis/Paris-Hilton)'s closet organizer to global icon. But understanding her as an [Enneagram Type 3](/enneagram-corner/enneagram-type-3) (The Achiever) reveals the deeper _why_ behind everything she does.
 
 ## The Making of an Achiever
 
@@ -93,7 +49,7 @@ Type 3s are chameleons who intuitively sense what image will bring success in di
 Let's track Kim's metamorphosis:
 
 - 2007: Socialite and reality star persona (gaining initial fame)
-- 2014: High-fashion icon transformation (after marrying Kanye)
+- 2014: High-fashion icon transformation (after marrying [Kanye](/personality-analysis/Kanye))
 - 2019: Serious businesswoman and legal advocate (responding to criticism about being "famous for nothing")
 
 Each evolution wasn't just a rebrand – it was Kim's Type 3 ability to read cultural shifts and position herself for maximum relevance.
@@ -125,7 +81,7 @@ Type 3s often view relationships as achievements or growth opportunities. They'r
 
 The 72-day marriage to Kris Humphries? A Type 3 getting caught up in the achievement of a fairy-tale wedding before realizing the relationship didn't serve her image goals.
 
-Kanye West transformed her from reality star to high-fashion icon, while Pete Davidson helped soften her image post-divorce. Each relationship served a purpose in her evolution.
+[Kanye](/personality-analysis/Kanye) West transformed her from reality star to high-fashion icon, while [Pete Davidson](/personality-analysis/Pete-Davidson) helped soften her image post-divorce. Each relationship served a purpose in her evolution.
 
 But don't mistake this for cold calculation. Type 3s genuinely feel these connections – they just unconsciously align them with their success trajectory.
 
@@ -212,105 +168,3 @@ Understanding personality frameworks like the Enneagram doesn't just help us ana
 Kim's still writing her story, and her Type 3 journey continues to evolve. The lawyer, the mother, the entrepreneur, the icon – all facets of a personality much more complex than any headline could capture.
 
 > **Disclaimer:** This analysis of Kim Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type. People are complex beings that cannot be fully captured by any single typing system.
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the personality traits of Kim Kardashian from the perspective of the Enneagram Type 3. Known for her ambition, drive for success, and public image management, Kim embodies many characteristics of Type 3 personalities. The article discusses various facets of Kim's life and career that demonstrate her Type 3 characteristics, including her rise to fame, social media presence, business ventures like SKIMS and SKKN, her law studies, and how she handles controversies.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-03-15"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-06-20"
-      },
-      "description": "What drives Kim Kardashian's success? Explore how her personality as an Enneagram Type 3 shapes her empire, relationships, and public image.",
-      "headline": "Kim Kardashian's Personality: An Enneagram Type 3",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/3s/Kim-Kardashian.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Kim-Kardashian",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Kim Kardashian",
-        "sameAs": ["https://en.wikipedia.org/wiki/Kim_Kardashian", "https://twitter.com/KimKardashian", "https://www.instagram.com/kimkardashian/", "https://www.tiktok.com/@kimkardashian"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Kim Kardashian exhibits many characteristics associated with Enneagram Type 3 personalities. These include her relentless ambition, strategic image management, adaptability to different markets, workaholic tendencies, and ability to transform setbacks into opportunities. Her core motivation appears to be achievement and external validation, hallmarks of Type 3s who believe their worth comes from their accomplishments."
-          },
-          "name": "Why is Kim Kardashian considered an Enneagram Type 3?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Kim's Type 3 characteristics are evident in many aspects of her life. Her transformation from Paris Hilton's stylist to billionaire entrepreneur demonstrates the Type 3's drive for achievement. Her carefully curated social media presence reflects the Type 3's image management. Her billion-dollar businesses SKIMS and SKKN showcase her Type 3 ability to identify opportunities and execute with precision. Even her law studies represent the Type 3's constant desire for growth and achievement."
-          },
-          "name": "What are some examples of Kim Kardashian's Type 3 characteristics?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Kim Kardashian is known for her ambitious, strategic, and adaptable personality. She displays remarkable resilience in the face of public criticism, exceptional business acumen, and a strong work ethic. While presenting a carefully curated image publicly, she's also shown herself to be family-oriented and increasingly purpose-driven with her criminal justice reform work. She combines calculated image management with genuine passion for her businesses and causes."
-          },
-          "name": "What is Kim Kardashian's personality like?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Based on public information and analysis of her behavior, Kim Kardashian appears to be an Enneagram Type 3, also known as The Achiever. This personality type is characterized by ambition, image-consciousness, adaptability, and a drive for success and validation. It's important to note that this is speculative analysis based on her public persona, not confirmed by Kim herself or professional psychological assessment."
-          },
-          "name": "What is Kim Kardashian's Enneagram type?"
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
-<style lang="scss">
-</style>

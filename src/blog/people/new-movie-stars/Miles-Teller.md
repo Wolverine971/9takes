@@ -138,7 +138,7 @@ For Miles, three things consistently light him up:
 
 **His relationship**: His marriage to Keleigh Sperry shows the mature side of Type 7 – the capacity for deep commitment when they find the right partner.
 
-Tom Cruise noted during _Top Gun: Maverick_: "Miles and Keleigh have this beautiful relationship. It grounds him."
+[Tom Cruise](/personality-analysis/Tom-Cruise) noted during _Top Gun: Maverick_: "Miles and Keleigh have this beautiful relationship. It grounds him."
 
 **Creative stretching**: The projects where Miles has to master new skills bring him visible joy. Whether it's flying jets for _Top Gun_ or becoming a boxer for _Bleed for This_, the Type 7 in him thrives on these challenges.
 
@@ -186,7 +186,7 @@ The Miles Teller of 2025 isn't the same as the one who burst onto the scene in _
 
 He's evolved – and his Type 7 energy has matured with him.
 
-_Top Gun: Maverick_ represented a turning point. Working with Tom Cruise, he found a kindred spirit – another performer with boundless enthusiasm and work ethic.
+_Top Gun: Maverick_ represented a turning point. Working with [Tom Cruise](/personality-analysis/Tom-Cruise), he found a kindred spirit – another performer with boundless enthusiasm and work ethic.
 
 "Tom just never stops learning, never stops trying to master his craft," Miles observed. This is the healthy Type 7 path in action – channeling enthusiasm into mastery rather than mere novelty.
 

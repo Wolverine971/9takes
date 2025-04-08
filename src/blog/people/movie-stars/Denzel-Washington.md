@@ -17,32 +17,11 @@ twitter: 'https://twitter.com/OfficiaIDenzeI'
 instagram: 'https://www.instagram.com/denzelwashington.official/'
 ---
 
-<!-- , 'Samuel L. Jackson', 'Will Smith'
- -->
-
-<script>
-	import PopCard from "$lib/components/atoms/PopCard.svelte";
-	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/types/8s/${'Denzel-Washington'}.webp`}
-		showIcon={false}
-		enneagramType="8"
-		displayText="Denzel Washington"
-		subtext=""
-	/>
-</div>
-
 <p class="firstLetter">When Denzel Washington steps into a room – or onto a screen – something shifts in the atmosphere. It's not just his talent. It's not just his charisma. It's something deeper, more primal – a raw, undeniable presence that commands attention and respect without a single word being spoken.</p>
 
-That presence isn't simply the result of decades in Hollywood. It's the manifestation of something intrinsic to who Denzel Washington is as a person – something that can be illuminated through the lens of the Enneagram.
+That presence isn't simply the result of decades in Hollywood.
+
+It's the manifestation of something intrinsic to who Denzel Washington is as a person – something that can be illuminated through the lens of the Enneagram.
 
 <details>
 <summary class="accordion">TL;DR: Why Denzel Washington embodies the Enneagram Type 8</summary>
@@ -68,7 +47,7 @@ You've seen him transform into Malcolm X with volcanic intensity. You've watched
 
 But who is the man behind these unforgettable performances?
 
-The Enneagram offers us a fascinating framework. And when we apply it to Denzel Washington, one type emerges with striking clarity: Type 8, The Challenger.
+The Enneagram offers us a fascinating framework. And when we apply it to Denzel Washington, one type emerges with striking clarity: [Type 8, The Challenger](<(/enneagram-corner/enneagram-type-8)>).
 
 ## What Exactly is an Enneagram Type 8?
 
@@ -148,7 +127,7 @@ This moment of existential reflection – questioning purpose and legacy – rev
 
 ## Counterargument: Could Denzel Be Another Type?
 
-Some might argue that Denzel could be a Type 3 (The Achiever) given his remarkable success and apparent drive for excellence. Others might suggest Type 1 (The Perfectionist) due to his disciplined approach to his craft.
+Some might argue that Denzel could be a [Type 3](/enneagram-corner/enneagram-type-3) (The Achiever) given his remarkable success and apparent drive for excellence. Others might suggest [Type 1](/enneagram-corner/enneagram-type-1) (The Perfectionist) due to his disciplined approach to his craft.
 
 However, these interpretations miss key elements of Denzel's essence:
 
@@ -228,113 +207,4 @@ This combination – personal excellence, protective mentorship, and boundary-se
 
 Whether consciously or unconsciously, Denzel Washington embodies the journey of the Type 8 – from raw power to protective strength to wise guidance. In doing so, he offers a masterclass not just in acting, but in harnessing the potent energy of The Challenger for purposes that transcend the self.
 
-> **Disclaimer** This analysis of Denzel Washington's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Denzel Washington.
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This comprehensive analysis explores why legendary actor Denzel Washington exemplifies the Enneagram Type 8 (The Challenger) personality. Through examination of his iconic roles, leadership style, approach to social justice, and personal boundaries, we uncover how the protective, powerful, and justice-oriented nature of Type 8 manifests in Denzel's career and public persona. From his Oscar-winning performance in 'Training Day' to his mentorship of young Black actors in Hollywood, Denzel's journey illustrates the evolution of a healthy Type 8 from warrior to protector to wise mentor.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-03-15"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2025-03-15"
-      },
-      "description": "A deep analysis of why Denzel Washington embodies the powerful presence and protective nature of an Enneagram Type 8, examining his iconic roles, leadership style, and approach to social justice.",
-      "headline": "Denzel Washington: The Quintessential Enneagram Type 8",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/8s/Denzel-Washington.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Denzel-Washington",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Denzel Washington",
-        "sameAs": ["https://en.wikipedia.org/wiki/Denzel_Washington", "https://twitter.com/OfficiaIDenzeI", "https://www.instagram.com/denzelwashington.official/"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Denzel Washington displays classic Type 8 traits including a commanding presence, protective instinct toward the vulnerable, directness in communication, clear boundary-setting in his personal life, and gravitation toward roles that involve fighting injustice. His consistent pattern of protective energy, confrontational truth-telling, and powerful presence all point convincingly toward the Challenger archetype."
-          },
-          "name": "What evidence suggests Denzel Washington is an Enneagram Type 8?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Denzel's filmography reveals his Type 8 energy through three patterns: The Righteous Warriors (films like 'Glory' and 'The Great Debaters'), The Flawed Protectors ('Man on Fire' and 'The Equalizer' series), and The Complex Powers ('Training Day' and 'American Gangster'). This range demonstrates the complexity of the Type 8 personality – capable of being both the greatest protector and the most dangerous opponent."
-          },
-          "name": "How does Denzel Washington's choice of roles reflect his Type 8 personality?"
-        },
-		{
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Denzel Washington is known for his powerful presence, directness, and protective nature. Directors describe working with him as demanding excellence while elevating everyone around him. In interviews, he speaks with conviction, rarely hedges his statements, and maintains strong boundaries between his public and private life. Despite his success, he's maintained a stable family life and used his position to mentor young actors, particularly Black actors in Hollywood."
-          },
-          "name": "What is Denzel Washington's personality like off-screen?"
-        },
-		{
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "As Denzel Washington has matured, he's evolved toward the Type 8's growth arrow – Type 2 qualities of generosity, emotional availability, and nurturing leadership. In recent years, he's stepped more fully into mentorship and directorial roles, focusing on developing new talent and telling stories that might otherwise go untold. His 2021 film 'A Journal for Jordan' demonstrates this evolution – showing a softer, more emotionally vulnerable side than his earlier work typically revealed."
-          },
-          "name": "How has Denzel Washington's Type 8 personality evolved throughout his career?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Denzel Washington's approach to acting bears the hallmarks of Type 8 energy: immersive control (training extensively for physical roles), confrontational truth (willingness to portray uncomfortable realities), and protection of excellence (challenging directors and fellow actors to meet his standards). This isn't mere perfectionism – it's the Type 8's insistence on creating and protecting an environment of excellence."
-          },
-          "name": "How does Denzel Washington's Enneagram type influence his approach to acting?"
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>
+> **Disclaimer** This analysis of Denzel Washington's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Denzel.

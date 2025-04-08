@@ -18,26 +18,6 @@ instagram: 'https://www.instagram.com/oprah/'
 tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 ---
 
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/types/2s/${'Oprah-Winfrey'}.webp`}
-		showIcon={false}
-		enneagramType="2"
-		displayText="Oprah Winfrey"
-		subtext=""
-	/>
-</div>
-
 <p class="firstLetter">Have you ever wondered what drives the incomparable Oprah Winfrey?</p>
 
 We've witnessed her rise from a challenging childhood to become one of the most influential figures in media. But what lies beneath that warm smile and infectious energy?
@@ -94,8 +74,6 @@ When Oprah is at her best, she embodies all the positive aspects of Type 2. Her 
 
 "My philosophy is that not only are you responsible for your life, but doing the best at this moment puts you in the best place for the next moment," Oprah once said. This forward-thinking positivity is the hallmark of a Two in flow.
 
-<BlogPurpose/>
-
 ## A Window into Oprah's Soul Through the Enneagram
 
 Understanding Oprah through the lens of the Enneagram offers us a unique perspective on this larger-than-life figure. It helps us see the motivations behind her actions, the fears that drive her, and the desires that shape her decisions.
@@ -108,103 +86,4 @@ Oprah Winfrey, in all her Type 2 glory, is a shining example of how understandin
 
 So, the next time you watch an Oprah interview or pick up a book from her club, remember – you're not just witnessing a media event. You're seeing a Type 2 in action, using her gifts to connect, inspire, and uplift. And isn't that something we could all aspire to, regardless of our type?
 
-> **Disclaimer** This analysis of Oprah Winfrey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Oprah Winfrey.
-
-<svelte:head>
-
-<script type="application/ld+json">
-	{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the personality traits of Oprah Winfrey from the perspective of the Enneagram Type 2. Known for her empathy, generosity, and ability to connect with others, Oprah embodies many characteristics of Type 2 personalities. The article discusses various facets of Oprah's life and career that demonstrate her Type 2 characteristics, including her childhood, rise to media stardom, philanthropic efforts, and core motivations.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-08-30"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-08-30"
-      },
-      "description": "This blog post examines the reasons why Oprah Winfrey might be an Enneagram Type 2. It focuses on her personality traits, her motivations, her inner world, her philanthropic efforts, and how these elements might be related to the core attributes of a Type 2.",
-      "headline": "Oprah Winfrey: Unveiling the Heart of a Type 2 Enneagram - From Humble Beginnings to Media Maven",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/2s/Oprah-Winfrey.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Oprah-Winfrey",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Oprah Winfrey",
-        "sameAs": ["https://en.wikipedia.org/wiki/Oprah_Winfrey", "https://twitter.com/Oprah", "https://www.instagram.com/oprah/"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oprah Winfrey exhibits many characteristics associated with Enneagram Type 2 personalities. This includes her empathy, generosity, and ability to connect deeply with others. These characteristics are deeply rooted in her desire to be loved and needed, a core motivation for Type 2 individuals."
-          },
-          "name": "Why is Oprah Winfrey considered an Enneagram Type 2?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oprah's success in media, her influential book club, philanthropic efforts, and ability to connect with her audience all indicate her Type 2 personality. Moreover, her constant desire to help others and her struggles with maintaining personal boundaries reflect the strengths and challenges of Type 2 individuals."
-          },
-          "name": "What are some examples of Oprah Winfrey's Type 2 characteristics?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oprah Winfrey is well-known for her warm, empathetic, and giving personality. She is often described as charismatic, inspiring, and deeply caring about others. However, these descriptions are based on public perception and her portrayed image in the media. To know her exact personality, one would have to know her personally."
-          },
-          "name": "What is Oprah Winfrey's personality?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oprah Winfrey is an Enneagram type 2, also known as The Helper. This Enneagram type is caring, generous, and people-oriented, often motivated by a desire to be loved and needed. Please note that this information is based on public information and not directly confirmed by Oprah Winfrey herself."
-          },
-          "name": "What is Oprah Winfrey's Enneagram type?"
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
+> **Disclaimer** This analysis of Oprah Winfrey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Oprah.
