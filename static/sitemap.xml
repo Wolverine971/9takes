@@ -1,5 +1,6 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="https://www.w3.org/1999/xhtml" xmlns:mobile="https://www.google.com/schemas/sitemap-mobile/1.0" xmlns:news="https://www.google.com/schemas/sitemap-news/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1" xmlns:video="https://www.google.com/schemas/sitemap-video/1.1">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 <loc>https://9takes.com</loc>
 <lastmod>2025-03-26</lastmod>
@@ -946,15 +947,6 @@ This XML file does not appear to have any style information associated with it. 
 </image:image>
 </url>
 <url>
-<loc>https://9takes.com/personality-analysis/Casey-Neistat</loc>
-<lastmod>2024-07-10T00:00:00.000Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-<image:image>
-<image:loc>https://9takes.com/types/4s/Casey-Neistat.webp</image:loc>
-</image:image>
-</url>
-<url>
 <loc>https://9takes.com/personality-analysis/John-F-Kennedy</loc>
 <lastmod>2024-07-10T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
@@ -1141,15 +1133,6 @@ This XML file does not appear to have any style information associated with it. 
 <priority>0.7</priority>
 <image:image>
 <image:loc>https://9takes.com/types/2s/Jimmy-Carter.webp</image:loc>
-</image:image>
-</url>
-<url>
-<loc>https://9takes.com/personality-analysis/Keanu-Reeves</loc>
-<lastmod>2024-10-28T00:00:00.000Z</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-<image:image>
-<image:loc>https://9takes.com/types/9s/Keanu-Reeves.webp</image:loc>
 </image:image>
 </url>
 <url>
@@ -1996,6 +1979,24 @@ This XML file does not appear to have any style information associated with it. 
 <priority>0.7</priority>
 <image:image>
 <image:loc>https://9takes.com/types/9s/Scarlett-Johansson.webp</image:loc>
+</image:image>
+</url>
+<url>
+<loc>https://9takes.com/personality-analysis/Casey-Neistat</loc>
+<lastmod>2025-04-09T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+<image:image>
+<image:loc>https://9takes.com/types/4s/Casey-Neistat.webp</image:loc>
+</image:image>
+</url>
+<url>
+<loc>https://9takes.com/personality-analysis/Keanu-Reeves</loc>
+<lastmod>2025-04-09T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+<image:image>
+<image:loc>https://9takes.com/types/9s/Keanu-Reeves.webp</image:loc>
 </image:image>
 </url>
 <url>
