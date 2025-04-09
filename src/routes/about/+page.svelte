@@ -15,7 +15,7 @@
 	<title>9takes- About Page</title>
 	<meta
 		name="description"
-		content="Answers for what is the purpose of 9takes as well as the inspiration and people behind it"
+		content="Discover the philosophy behind 9takes, a platform for meaningful dialogue through the lens of personality"
 	/>
 	<link rel="canonical" href="https://9takes.com/about" />
 </svelte:head>
@@ -24,7 +24,7 @@
 
 <div class="mx-auto max-w-3xl px-5 py-6 leading-relaxed text-gray-800">
 	<h1 class="rounded-lg bg-black p-2 text-center text-white">
-		<span class="text-indigo-600">9takes</span>, ask questions <br /> get different takes
+		<span class="text-indigo-600">9takes</span>, a meeting place <br /> for curious minds
 	</h1>
 
 	<section class="mt-8">
@@ -49,11 +49,14 @@
 					</picture>
 				</div>
 				<div class="w-full rounded-lg p-5">
-					<p class="mb-3">I am Enneagram obsessed and I think social media could be better.</p>
 					<p class="mb-3">
-						Gotta a tech background and am building 9takes to be the place for us to explore our
-						similarities and differences.
+						Philosopher at heart, technologist by trade, Enneagram enthusiast by passion.
 					</p>
+					<p class="mb-3">
+						I'm creating 9takes as a space where ancient wisdom of understanding different
+						perspectives meets contemporary technology.
+					</p>
+
 					<a
 						class="inline-flex items-center rounded bg-gray-100 p-2 transition-colors duration-300 hover:bg-gray-200"
 						href="https://twitter.com/djwayne3"
@@ -68,36 +71,38 @@
 	</section>
 
 	<section class="mt-10">
-		<h2 class="mb-4 text-2xl font-bold text-indigo-800">3 Problems, 3 Solutions</h2>
+		<h2 class="mb-4 text-2xl font-bold text-indigo-800">Three Modern Challenges</h2>
 		<ul class="mb-6 list-disc space-y-4 pl-5">
 			<li>
-				<strong>Social media isn't living up to what it was supposed to be.</strong>
+				<strong>Our digital spaces have lost their purpose.</strong>
 				<p class="mt-1">
-					There is no great place to get people's thoughts and opinions anymore. Online
-					conversations can quickly turn toxic.
+					The promise of social media — to connect minds and hearts across distances — has
+					diminished into shallow engagement and surface-level interactions.
 				</p>
 			</li>
 			<li>
-				<strong>It is too risky to be completely honest.</strong>
+				<strong>Authentic expression carries too much risk.</strong>
 				<p class="mt-1">
-					We have lost the serendipity, playfulness, and the realness that social media was supposed
-					to bring us.
+					The serendipity, playfulness, and genuine dialogue that characterized early social
+					platforms has been replaced by performative behaviors and fear of judgment.
 				</p>
 			</li>
 			<li>
-				<strong>Social media's customer is advertisers, not its users.</strong>
+				<strong>User wisdom is secondary to advertiser demands.</strong>
 				<p class="mt-1">
-					Creating a great user experience is secondary to what the advertisers want.
+					When platforms prioritize engagement metrics over meaningful connection, the quality of
+					discourse inevitably declines.
 				</p>
 			</li>
 		</ul>
 		<p class="my-5 text-center text-xl font-bold text-indigo-600">
-			Optimize social media, don't cower in fear of the advertisers' opinions
+			The path to fulfillment lies not in algorithm-driven conformity but in embracing our
+			differences
 		</p>
 		<p>
-			The only opinions that should matter are the user's opinions. 9takes has a way to <strong
-				>optimize engagement and honesty</strong
-			> while not sacrificing safety and inclusivity.
+			9takes creates a space where <strong>practical wisdom</strong> emerges through honest dialogue,
+			balanced with the safety of thoughtful structure. We optimize for revealing truth through conversation
+			rather than mere engagement.
 		</p>
 	</section>
 
@@ -117,135 +122,152 @@
 
 	<section class="mt-10">
 		<h3 class="mb-4 text-xl font-bold text-indigo-800">
-			When you spend +70% of your time autopilot- <br /> you cannot handle diversity of thought
+			The Modern Paradox: <br /> When Autopilot Thinking Prevents True Understanding
 		</h3>
-		<p class="mb-3">Social media platforms are putting people putting you on autopilot.</p>
 		<p class="mb-3">
-			I got married during a stressful time when I was leaving the military. My wife and I were
-			fighting, and it got to a point where we felt helpless in resolving our conflict. We loved
-			each other, but we could not understand each other. Long story short, <a
+			In a world designed to keep us moving without reflection, we've lost our capacity for
+			meaningful dialogue.
+		</p>
+		<p class="mb-3">
+			My moment of clarity came during a difficult transition leaving military life. My wife and I
+			found ourselves in conflict that seemed irresolvable. We loved each other deeply but couldn't
+			bridge the gap between our perspectives.
+			<a
 				href="/community/inspiration-for-9takes"
 				class="relative text-indigo-800 no-underline after:ml-1 after:inline-block after:h-4 after:w-4 after:bg-[url('/icons/arrow.svg')] after:bg-contain after:align-middle after:content-['']"
-				>my wife convinced me to take a personality test</a
+				>The turning point came through discovering the Enneagram</a
 			>.
 		</p>
 		<p class="mb-3">
-			I was blown away. The results told me things about myself that I felt deeply but had never put
-			into words. It not only helped me understand myself but it also helped my spouse and I find
-			common ground and resolve our conflict.
+			The revelation was profound. The Enneagram illuminated aspects of myself I had always felt but
+			never articulated. Beyond self-understanding, it created a bridge of comprehension between my
+			wife and me, allowing us to resolve our conflicts through mutual understanding.
 		</p>
 		<p class="my-5 text-center text-xl font-bold text-indigo-600">
-			If understanding my own personality could help me, how much could it help everyone else?
+			If understanding the emotional foundations of personality could transform my marriage, what
+			might it do for our collective dialogue?
 		</p>
 	</section>
 
 	<section class="mt-10">
-		<h2 class="mb-4 text-2xl font-bold text-indigo-800">What is 9takes</h2>
+		<h2 class="mb-4 text-2xl font-bold text-indigo-800">
+			The Essence of 9takes: A Thoughtful Gathering
+		</h2>
 		<p class="mb-3">
-			9takes is a question-and-answer platform based on personality. It is Reddit reimagined based
-			on a personality system called the Enneagram.
+			9takes is a question-and-answer platform that reimagines online dialogue through the lens of
+			the Enneagram — an ancient system of understanding human motivation that bridges psychology
+			and philosophy.
 		</p>
-		<p class="mb-3">There are two twists:</p>
+		<p class="mb-3">Our approach rests on two key principles:</p>
 		<ul class="mb-4 list-disc space-y-2 pl-5">
 			<li>
-				You can only see answers to questions once you comment. That is so that people are honest
-				and unbiased.
+				<strong>Reveal Through Response:</strong> Comments become visible only after you contribute,
+				fostering original thought and preventing the bias that comes from seeing others' opinions first.
 			</li>
 			<li>
-				You are anonymous except for your personality. "Personality" is the perfect context for
-				learning about yourself and others.
+				<strong>Type-Illuminated Dialogue:</strong> Your identity remains anonymous, but your Enneagram
+				type provides crucial context for understanding your perspective's emotional foundation.
 			</li>
 		</ul>
 		<p>
-			These two differences when combined create the structure for having productive conversations
-			online.
+			Together, these principles create a harmonious structure for the kind of productive dialogue
+			that philosophers have valued throughout history — one where understanding precedes judgment.
 		</p>
 	</section>
 
 	<section class="mt-10">
-		<h3 class="mb-4 text-xl font-bold text-indigo-800">The philosophy of 9takes</h3>
-		<p class="mb-3">"Everyone is unique." ✨</p>
+		<h3 class="mb-4 text-xl font-bold text-indigo-800">The Philosophy of the Nine Perspectives</h3>
+		<p class="mb-3">"Curiosity Before Consensus" ✨</p>
 		<p class="mb-3">
-			We know that everyone is different intellectually, but we don't operate that way. People (not
-			you 😉) get surprised when someone doesn't agree with them. They think "surely if that other
-			person had all the facts, was smart, kind they would agree with your point of view." People
-			forget that other people can have facts, be smart and kind, have similar experiences, AND
-			still disagree.
+			We intellectually acknowledge human diversity, yet we operate as if consensus were the natural
+			state. When confronted with disagreement, we instinctively assume that with the right
+			information, others would surely adopt our viewpoint. This overlooks a profound truth: people
+			can possess the same facts, equal intelligence, similar experiences, and still arrive at
+			fundamentally different conclusions.
 		</p>
 		<p class="mb-3">
-			9takes is about leaning into these disagreements and embracing these differences because, in
-			the end, we all learn something, becoming better 👍 faster ⚡ and stronger 💪.
+			9takes embraces these differences as opportunities for growth rather than obstacles to
+			overcome. In the space between our perspectives lies the potential for expanding our
+			understanding, becoming more empathetic, and developing greater wisdom.
 		</p>
 		<p>
 			<strong
-				>"Technology" should open us up to new things, not create bubbles where we hear the same
-				perspective repeatedly. 9takes is opening the conversation back up and dishing out fresh
-				takes.</strong
+				>Technology should serve as a bridge between different worlds of understanding, not as a
+				mirror that merely reflects our existing beliefs. 9takes opens the gates between these
+				worlds, allowing fresh perspectives to flow freely.</strong
 			>
 		</p>
 	</section>
 
 	<section class="mt-10">
-		<h3 class="mb-4 text-xl font-bold text-indigo-800">Why the Enneagram?</h3>
+		<h3 class="mb-4 text-xl font-bold text-indigo-800">
+			The Enneagram: Our Compass for Understanding
+		</h3>
 		<p class="mb-3">
-			Enneagram is the secret sauce. It has some deep roots and sits at the crossroads of psychology
-			and philosophy. <a
+			The Enneagram stands at the intersection of ancient wisdom and contemporary psychology. Unlike
+			systems that categorize by behavior or traits, the Enneagram illuminates our emotional
+			foundations — the core motivations and fears that shape our perception of the world.
+			<a
 				href="/enneagram-corner/philosophy-psychology-and-the-enneagram"
 				class="relative text-indigo-800 no-underline after:ml-1 after:inline-block after:h-4 after:w-4 after:bg-[url('/icons/arrow.svg')] after:bg-contain after:align-middle after:content-['']"
-				>Plato and Freud would have been fans of the Enneagram.</a
-			>
+				>It bridges philosophical insight with psychological understanding</a
+			>.
 		</p>
 		<p class="mb-3">
-			It is used by niche life coaches and as a tool for certain psychologists and therapists. But
-			it is not mainstream and won't be for some time.
+			Each of the nine types represents a distinct emotional lens through which the world is
+			perceived — a different "take" on reality itself. These aren't arbitrary categorizations but
+			reflections of how early emotional experiences shape our core responses to life.
 		</p>
 		<p>
-			We use it because it identifies a person's core motivations and fears. Typically, people
-			figure out their type through being guided or through self-reflection. We are not going to
-			tell you what your "Enneagram type" that is for you to discover.
+			We don't presume to tell you your Enneagram type; that discovery is part of your journey.
+			Through dialogue and reflection, patterns emerge that illuminate not just who you are, but why
+			you see the world as you do.
 		</p>
 	</section>
 
 	<section class="mt-10">
-		<h3 class="mb-4 text-xl font-bold text-indigo-800">Why focus on questions and answers?</h3>
+		<h3 class="mb-4 text-xl font-bold text-indigo-800">Questions as the Path to Wisdom</h3>
 		<p class="mb-3">
-			Because the process of forming and asking a question is tje mental unlock. When you are asking
-			questions, you are growing. When you have run out of questions, you stop growing, and you not
-			only run out of answers, you run out of hope.
+			The act of formulating questions is the foundation of growth. When we question, we acknowledge
+			the limits of our knowledge — the first step toward expanding it. When questioning ceases, so
+			does our capacity for hope and discovery.
 		</p>
-		<p class="mb-3">For example you may be asking yourself, "Why can't people..."</p>
+		<p class="mb-3">Consider what different types might naturally ask:</p>
 		<ul class="mb-4 list-disc space-y-1 pl-5">
-			<li>do things the right way?</li>
-			<li>be more grateful for all the things I do for them?</li>
-			<li>appreciate my hard work and success?</li>
-			<li>understand my unique perspective and emotions?</li>
-			<li>respect my need for privacy and independence?</li>
-			<li>be more reliable and trustworthy?</li>
-			<li>have more fun and excitement?</li>
-			<li>be more honest and dish out the hard truth.</li>
-			<li>get along and find common ground?</li>
+			<li>"Why can't people adhere to principles that ensure justice?" (Type 1)</li>
+			<li>"Why don't others appreciate the care and support I provide?" (Type 2)</li>
+			<li>"Why isn't my achievement and effort recognized?" (Type 3)</li>
+			<li>"Why can't others understand the depth of my unique experience?" (Type 4)</li>
+			<li>"Why don't people respect boundaries and independence?" (Type 5)</li>
+			<li>"Why can't people be more dependable in uncertain times?" (Type 6)</li>
+			<li>"Why isn't there more joy and spontaneity in our interactions?" (Type 7)</li>
+			<li>"Why don't people speak their truth directly and honestly?" (Type 8)</li>
+			<li>"Why is finding common ground and harmony so difficult?" (Type 9)</li>
 		</ul>
 		<p class="mb-3">
-			There are endless questions to ask. Fortunately, there are endless people with answers and
-			perspectives you can learn from. They also have questions like yours and will share if you ask
-			them. Some people see the world like you, and others see a vastly different world.
+			The universe of questions is infinite, matched only by the diversity of perspectives that can
+			address them. Some will resonate with your viewpoint; others will challenge it fundamentally.
+			Both have value.
 		</p>
 		<p>
-			9takes is about embracing these differences or "takes" on the world. By asking questions,
-			sharing stories, and getting curious, people will be connected to the community around them.
+			9takes celebrates these nine distinct ways of seeing and questioning. Through meaningful
+			conversations across perspectives, we connect not just with ideas but with the full spectrum
+			of human understanding.
 		</p>
 	</section>
 
 	<section class="mt-10 rounded-lg bg-gray-100 p-5 text-center">
-		<h3 class="mb-3 text-xl font-bold text-indigo-800">Message me 👀</h3>
-		<p class="mb-4">Got feedback or suggestions? Let me know!</p>
+		<h3 class="mb-3 text-xl font-bold text-indigo-800">Join the Conversation ⟶</h3>
+		<p class="mb-4">
+			Have thoughts to share or questions of your own? Let's continue the dialogue.
+		</p>
 		{#if !showEmail}
 			<button
 				type="button"
 				class="rounded-lg bg-indigo-600 px-5 py-2 font-medium text-white transition-colors hover:bg-indigo-700"
 				on:click={() => (showEmail = true)}
 			>
-				Show Email
+				Reveal Contact
 			</button>
 		{:else}
 			<p class="mb-2">
