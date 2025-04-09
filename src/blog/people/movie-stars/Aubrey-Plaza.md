@@ -7,7 +7,7 @@ loc: 'https://9takes.com/personality-analysis/Aubrey-Plaza'
 lastmod: '2025-04-08'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['movieStar']
 person: 'Aubrey-Plaza'

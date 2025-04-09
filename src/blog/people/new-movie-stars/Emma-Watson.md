@@ -7,9 +7,9 @@ loc: 'https://9takes.com/personality-analysis/Emma-Watson'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
-type: ['celebrity']
+type: ['newMovieStar']
 person: 'Emma-Watson'
 suggestions: []
 wikipedia: ''

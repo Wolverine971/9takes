@@ -18,35 +18,6 @@ instagram: ''
 tiktok: ''
 ---
 
-<!--
-    childhood and upbringing
-    first big success
-    style habits and quirks that relate to their personality type
-    stressful moments in their life and how they handled them
-    comfort- moments in their life where they are doing well and killing it
--->
-<!-- // keywords:  -->
-
-<script>
-	// import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<!-- <PopCard
-		image={`/types/9s/${'Mikey-Madison'}.webp`}
-		enneagramType={9}
-		showIcon={false}
-		displayText="Mikey Madison"
-		subtext=""
-	/> -->
-</div>
-
 <p class="firstLetter">Have you ever wondered how Mikey Madison manages to transform into such wildly different characters?</p>
 
 From the murderous Amber in "Scream" to her raw, vulnerable performance in "Anora," there's something almost _magical_ about her ability to shape-shift.
@@ -195,14 +166,4 @@ And perhaps most importantly, she's expanding our understanding of what power lo
 
 The next time you watch her disappear into a character, remember - that's not just acting technique you're seeing. It's a unique Type 9 mind at work, bringing us characters we'll never forget.
 
-> **Disclaimer** This analysis of Mikey Madison's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mikey Madison.
-
-<svelte:head>
-
-<script type="application/ld+json">
-
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>
+> **Disclaimer** This analysis of Mikey Madison's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mikey.

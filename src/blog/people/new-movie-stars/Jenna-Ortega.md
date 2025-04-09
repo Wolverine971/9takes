@@ -7,7 +7,7 @@ loc: 'https://9takes.com/personality-analysis/Jenna-Ortega'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['newMovieStar']
 person: 'Jenna-Ortega'
