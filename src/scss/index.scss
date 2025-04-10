@@ -1088,3 +1088,11 @@ body::-webkit-scrollbar-thumb,
 		view-transition-name: var(--tag);
 	}
 }
+
+#component-0,
+#component-1,
+#component-2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}

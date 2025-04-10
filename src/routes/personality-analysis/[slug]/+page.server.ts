@@ -239,8 +239,6 @@ import { marked } from 'marked'; // Import the marked library
 
 async function processBlogContent(content) {
 
-
-
 	let processedContent = '';
 
 	// First, parse the markdown to HTML
@@ -276,7 +274,7 @@ async function processBlogContent(content) {
 				props: propsObj
 			});
 
-			return `<div id="${id}"></div>`;
+			return `<div id="${id}" style="width:100%; display: flex; justify-content: center;"></div>`;
 		});
 	});
 

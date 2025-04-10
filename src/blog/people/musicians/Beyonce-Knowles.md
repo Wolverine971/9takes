@@ -18,160 +18,153 @@ instagram: 'https://www.instagram.com/beyonce/'
 tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 ---
 
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
+<p class="firstLetter">What fuels the unstoppable force that is Beyoncé?</p>
 
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/types/8s/Beyonce-Knowles.webp`}
-		showIcon={false}
-		enneagramType="8"
-		displayText="Beyoncé Knowles"
-		subtext=""
-	/>
-</div>
+The fierce determination, the unwavering confidence, the protective instincts, and the constant reinvention that have defined her decades-spanning career all point to one personality profile: [Enneagram Type 8, The Challenger](/enneagram-corner/enneagram-type-8).
 
-<p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
+Behind the glittering costumes and record-breaking achievements lies a mind wired for leadership, justice, and control. Let's dive into how the Type 8 personality explains the psychology of one of music's most powerful icons.
 
-Beyoncé demonstrates an unrivaled level of self-confidence and a resolute desire to control her own destiny which are the hallmark traits of a [Type 8](/enneagram-corner/enneagram-type-8). But there's more.
+## How Beyoncé Built Her Empire: The Type 8 Drive for Control and Independence
 
-## Understanding the Drive
+From the very beginning, Beyoncé has shown signs of the classic Type 8 need for autonomy.
 
-Understanding her drive isn't merely about deciphering her actions or interpreting her lyrics. It’s about tapping into the concept of Type 8s. Picture a fearless leader, a guardian of the realm who fights injustice with unwavering bravery. Now, consider Beyoncé's artistry, activism, and career trajectory - you'll find these attributes fitting seamlessly into the picture.
+Her journey from girl group member to solo superstar wasn't just about musical evolution—it was about _seizing control_. In 2010, she made perhaps her most Type 8 move by founding Parkwood Entertainment, her own management and production company.
 
-## Unleashing the Type 8 Persona
+Why? Because Type 8s cannot stand being controlled by others.
 
-A significant part of Beyonce's personality is her magnetism. She has the ability to keep fans on the edge of their seats. This isn't about selling a product. This is about understanding an icon.
+"Power is not given to you. You have to take it," Beyoncé once said, perfectly capturing the Type 8 mindset.
 
-## "Run the World (Girls)" – A Manifestation of Type 8
+This wasn't just business talk. This was her Type 8 personality speaking—the part that fundamentally believes in self-reliance and autonomy. When she cut ties with her father as her manager, it wasn't just a professional decision but a Type 8's need to eliminate any perception of being controlled, even by family.
 
-Her song “Run the World (Girls)” perfectly encapsulates this Type 8 persona, doesn't it? A rallying cry for female empowerment, the song is an assertion of control, a testament to the capacity of women to rise above societal limitations – pure Type 8 vibes. And just when you thought you understood her fully, remember, Beyoncé isn’t just a Type 8. She's a unique interpretation of this personality type, bringing her experiences, creative orientation, and unique environment into play. So, the journey to understanding her through this lens is as fascinating as the artist herself. Buckle up, because with Beyoncé, the journey is never ordinary.
+Look at how she's structured her career since founding Parkwood:
 
-## The Power of Love and Vulnerability
+- Surprise album drops that bypass traditional marketing
+- Visual albums that completely control the artistic narrative
+- Tour productions where she oversees every detail
+- Business ventures where she maintains ownership
 
-Beyoncé's relationship with her husband, Jay-Z, brings out a facet of her personality that aligns with the Type 2 "Helper" aspects of Enneagram Type 8. Type 8s move to Type 2 when they're in a space of security and comfort, expressing more empathy, warmth, and openness - qualities that are clearly present in Beyoncé's expressions of love and loyalty towards her husband.
+As she powerfully stated, "I don't have to prove anything to anyone, I only have to follow my heart and concentrate on what I want to say to the world. **I run my world.**" This isn't just confidence—it's the Type 8's absolute need for self-determination.
 
-<div class="iframe-container">
-<iframe width="100%" height="315" loading="lazy"  src="https://www.youtube.com/embed/n2vL1sXrlzM" title="Beyonce happy to see Jay-Z" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+## Beyoncé's Leadership Style: How She Commands the Stage and Runs Her World
 
-## Embracing Privacy – A Lean into Type 5
+Watch any Beyoncé performance. The precision. The authority. The _absolute command_ of every element.
 
-Equally intriguing is how Beyoncé values her privacy - a trait that signals a shift towards her stress point, Type 5, "The Investigator". This personality type is characterized by a need for personal space and a desire for understanding the world around them. In periods of stress, Type 8s often withdraw from the spotlight, seeking solace in solitude much like Type 5s.
+This is Type 8 leadership in action.
 
-Beyoncé's occasional retreats from public view demonstrate this aspect of her personality. It's during these quieter periods that she recharges and creates, ultimately re-emerging with artistic output that reinforces her role as a game-changing powerhouse. This cyclic pattern of retreat and return, of creation and presentation, forms an integral part of her public persona and further confirms her alignment with the dynamics of the Enneagram Type 8.
+Enneagram Type 8s are born leaders who naturally take charge. They possess an innate ability to command respect and get things done through sheer force of will. Sound familiar?
 
-<BlogPurpose/>
+Beyoncé's Renaissance World Tour grossed nearly $580 million—the highest of any Black artist in history. This wasn't luck. It was the result of her hands-on leadership style, where she directed every aspect from choreography to visuals to musical arrangements.
 
-## Unmasking the Icon
+"I'm a workaholic and I don't believe in 'No.' If I'm not sleeping, nobody's sleeping," she once revealed.
 
-Beyoncé us a luminary force that perfectly encapsulates the robust, assertive, and authentic essence of a Type 8.
+This intensity is classic Type 8. They set high standards for themselves and expect others to match their energy. They don't just want to lead—they _need_ to lead, viewing it as their responsibility to protect and guide others.
 
-Her musical oeuvre, advocacy work, romantic passions, and fiercely protected privacy all offer a vivid manifestation of this personality type. But more than just providing us with an understanding of Beyoncé as an individual, this insight grants us a broader perspective of the immense diversity and depth inherent within each Enneagram Type.
+Her famous work ethic? Pure Type 8 drive. Her perfectionism in rehearsals? The Type 8 need for mastery. Her ability to command a stadium of 60,000 people with a single gesture? That's the natural charisma and authority that Type 8s exude.
 
-Listening to a Beyoncé tune or watching her captivating performances henceforth, I encourage you to remember that you're not just appreciating an entertainment spectacle. Rather, you're experiencing the powerful, unyielding, and inspiring authenticity of a true Challenger - Beyoncé, the Type 8 Enneagram.
+## Beyoncé's Activism: Standing Up for Social Justice Like a True Challenger
 
-How does this understanding of Beyoncé change the way you perceive her art? Does seeing Beyoncé through the lens of the Enneagram Type 8 provide you with a deeper comprehension of her motivations and actions?
+One of the most powerful aspects of the Type 8 personality is their instinctive sense of justice and protection of the vulnerable.
 
-> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
+As Beyoncé's career has evolved, we've seen this side of her emerge more prominently.
 
-<svelte:head>
+_Lemonade_ wasn't just a beautiful album about personal pain—it was a bold statement on Black womanhood in America. Her 2016 Super Bowl performance wasn't just entertainment—it was a deliberate political statement. Her support of Black Lives Matter wasn't just celebrity activism—it was a Type 8 standing up against what they perceive as injustice.
 
-<script type="application/ld+json">
-  {
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "Have you ever wondered what fuels the unstoppable force that is Beyoncé? Intricately woven within her actions, music, and public persona, lies the energy of the Enneagram Type 8 – The Challenger Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-01-28"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-03-10"
-      },
-      "description": "Delve into Beyoncé's world as a Type 8. Our analysis unravels the mystique behind her assertive persona and artistic genius. Explore now!",
-      "headline": "Beyoncé's Enneagram: The Type 8 Mystique Unraveled",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/8s/Beyonce-Knowles.webp",
-        "width": 900
-      },
-      "keywords": "Beyoncé,Enneagram Type 8,Type 8, Personality Type, Beyoncé's personality, Jay-Z, privacy, love, advocacy",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Beyonce-Knowles",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "description": "Beyoncé Giselle Knowles-Carter, aka Beyoncé, is an American singer, songwriter, actress, and record producer. Born and raised in Houston, Texas, Beyoncé performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as the lead singer of Destiny's Child, one of the best-selling girl groups of all time.",
-        "name": "Beyoncé Knowles",
-        "sameAs": ["https://en.wikipedia.org/wiki/Beyonc%C3%A9", "https://www.beyonce.com/", "https://www.imdb.com/name/nm0461498/", "https://www.instagram.com/beyonce/", "https://www.britannica.com/biography/Beyonce", "https://musicbrainz.org/artist/859d0860-d480-4efd-970c-c05d5f1776b8/"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Beyoncé Knowles appears to be a Type 8 on the Enneagram, which is characterized by being self-confident, assertive, and having a desire to control their own destiny. This is evident in her artistry, activism, and career trajectory."
-          },
-          "name": "What is Beyoncé's Enneagram type?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Beyoncé's music, particularly songs like 'Run the World (Girls)', encapsulates her Type 8 persona. She often asserts control and champions the capacity of women to rise above societal limitations, which aligns with the characteristics of a Type 8 on the Enneagram."
-          },
-          "name": "How is Beyoncé's music related to her Enneagram type?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "When in a space of security and comfort, Beyoncé exhibits Type 2 'Helper' aspects, expressing empathy, warmth, and openness. This is particularly visible in her relationship with her husband, Jay-Z. In periods of stress, she exhibits traits akin to Type 5 'The Investigator', valuing her privacy and often withdrawing from the spotlight to recharge."
-          },
-          "name": "How do other Enneagram types manifest in Beyoncé's personality?"
-        }
-      ]
-    }
-  ]
-}
-</script>
+"We need to reshape our own perception of how we view ourselves," she once stated. "We have to step up as women and take the lead."
 
-</svelte:head>
+This is the protective nature of the Type 8 in action. They see themselves as defenders against injustice, using their strength to protect others who may not have the same power or platform.
+
+Beyoncé doesn't just write checks for causes she believes in. She integrates these values into her art, her business decisions, and her public statements. Because for a Type 8, beliefs and actions must align. There's no separation.
+
+## Behind Beyoncé's Public Image: Vulnerability in Her Music and Personal Growth
+
+Perhaps the most fascinating aspect of Beyoncé's Type 8 personality is her relationship with vulnerability.
+
+Type 8s fear vulnerability above all else. They build walls, project strength, and avoid showing weakness at all costs. Yet growth for an Eight comes precisely through learning to embrace vulnerability.
+
+In _Lemonade_, we saw Beyoncé do something rare for a Type 8—publicly process pain and betrayal. The album revealed a willingness to be vulnerable that showed tremendous personal growth.
+
+"It is so liberating to really know what I want, what truly makes me happy, what I will not tolerate," she shared after this period of personal evolution.
+
+Here's the fascinating thing about Type 8s' growth path: when healthy, they integrate qualities of Type 2 (The Helper)—becoming more empathetic, nurturing, and openly loving while maintaining their strength.
+
+We've watched this transformation in real-time through her music:
+
+- Early career: Emphasis on strength, independence, and power
+- Mid-career: Hints of vulnerability mixed with empowerment
+- Recent work: Integration of strength **and** vulnerability, protection of others, social justice
+
+Her privacy is another Type 8 trait—controlling information about herself while deciding exactly what she wants to share and when. This isn't just celebrity behavior; it's a Type 8's need to maintain boundaries and control their narrative.
+
+## Beyoncé's Business Ventures: The Strategic Mind Behind Her Multi-Million Dollar Success
+
+A $760 million net worth doesn't happen by accident.
+
+Type 8s are strategic thinkers who excel at seeing opportunities and seizing them decisively. Beyoncé's business ventures show this strategic mindset perfectly:
+
+- Ivy Park athleisure line
+- Cécred hair care line
+- Parkwood Entertainment
+- Strategic partnerships with brands like Pepsi and Adidas
+- Renaissance and Cowboy Carter tour productions
+
+"I felt like it was time to set up my future, so I set a goal. My goal was independence," she explained.
+
+Type 8s aren't afraid to take risks, especially when those risks might lead to greater control and impact. When Beyoncé released her self-titled visual album with no prior marketing in 2013, it was a massive gamble that changed the music industry forever.
+
+Her business decisions show the Type 8's ability to be bold, decisive, and strategic—acting quickly when opportunity presents itself rather than getting caught in analysis paralysis.
+
+And like a true Eight, she doesn't delegate important decisions. She remains hands-on with her empire, ensuring everything meets her standards and aligns with her vision.
+
+## Beyoncé and Jay-Z: Inside Their Relationship Through the Lens of Type 8 Loyalty
+
+Type 8s are intensely loyal to their inner circle. Once you're in, they will protect you fiercely.
+
+Beyoncé's relationship with Jay-Z offers fascinating insights into how Type 8s navigate intimate relationships—especially through challenges.
+
+The infidelity that inspired _Lemonade_ would have been devastating for anyone, but for a Type 8, it represents a particular kind of betrayal. Type 8s give their trust sparingly, and when it's broken, the sense of betrayal can be profound.
+
+Yet instead of walking away, Beyoncé processed this experience through her art and ultimately chose to rebuild—showing the remarkable loyalty Type 8s can exhibit toward those in their inner circle.
+
+"If you are with the right person, it brings out the best version of you," she shared after this period of healing.
+
+Type 8s in relationships need partners who can match their strength and earn their respect. In Jay-Z, Beyoncé found someone who could stand as an equal—another powerful personality who understands her drive.
+
+Their combined billion-dollar empire shows how Type 8s can thrive in partnerships when they maintain their autonomy while working toward shared goals.
+
+## Beyoncé's Renaissance and Cowboy Carter: How She Continues to Reinvent the Music Industry
+
+_Fearless reinvention_ is a hallmark of healthy Type 8s.
+
+With 2022's _Renaissance_ and 2024's _Cowboy Carter_, Beyoncé demonstrated again why Type 8s are such powerful creative forces. These albums didn't just explore new sounds—they made bold statements about Black contributions to dance music and country music respectively.
+
+Type 8s don't follow trends; they create them. They don't ask permission; they forge new paths.
+
+"Take all the rules away. How can we live if we don't change?" she once questioned.
+
+When Beyoncé became the first Black woman to headline Coachella with her historic "Beychella" performance, it wasn't just a career milestone. It was a Type 8 making a statement about representation and excellence while refusing to be limited by conventions or expectations.
+
+Her ability to continuously reinvent herself comes from the Type 8's natural courage and willingness to take risks. They're not afraid of failure because they trust their ability to overcome any obstacle.
+
+This fearlessness allows Beyoncé to venture into new territory—whether that's different musical genres, film projects, or business ventures—with the confidence that she can master whatever she touches.
+
+## What Makes Beyoncé Different: Key Lessons from Her Type 8 Personality
+
+So what can we learn from Beyoncé's Type 8 personality?
+
+**First**, there's power in knowing who you are and standing in that truth unapologetically. As she put it: "Your self-worth is determined by you. You don't have to depend on someone telling you who you are."
+
+**Second**, true strength includes vulnerability. Beyoncé's greatest work has come when she's balanced her natural Type 8 power with emotional openness.
+
+**Third**, protecting others is as important as protecting yourself. As she's matured, Beyoncé has increasingly used her platform to advocate for others—the hallmark of a healthy Type 8.
+
+The most striking thing about Beyoncé isn't just her talent or work ethic—it's how she's navigated the growth path of the Type 8 personality in the public eye:
+
+1. From focusing primarily on personal power to using that power for collective good
+2. From avoiding vulnerability to channeling it into creative expression
+3. From controlling her environment to empowering others within it
+
+Understanding Beyoncé through the Enneagram doesn't diminish her uniqueness—it highlights the psychological underpinnings of what makes her such a compelling figure.
+
+So the next time you watch her command a stage or make a bold career move, remember: that's not just Beyoncé being Beyoncé. That's the _Challenger_ personality in action—using its considerable strengths to leave an indelible mark on the world.
+
+> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé.

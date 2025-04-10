@@ -17,10 +17,6 @@ instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-</svelte:head>
-
 <p class="firstLetter">Chelsea Handler isn't just funny. She's fearless.</p>
 
 Behind her razor-sharp wit lies the mind of an Enneagram Type 8 personality – The Challenger – who's turned her life's chaos into comedy gold. But Chelsea's version of Type 8 energy comes with a twist that even her biggest fans might not fully understand.
@@ -157,7 +153,7 @@ Her cannabis activism also connects to her Type 8 nature – fighting against ru
 
 "I'm not just talking about weed because I like getting high," she explained to The Cut. "I'm talking about it because people are sitting in jail for it while others profit from it."
 
-This sense of justice – fighting against perceived unfairness – is quintessential Type 8 behavior.
+This sense of justice – fighting against perceived unfairness – is Type 8 behavior.
 
 ## What Chelsea's Relationships Reveal About Her Inner World
 

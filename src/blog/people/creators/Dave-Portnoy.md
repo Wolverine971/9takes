@@ -213,13 +213,14 @@ It turns a personal ritual into a public display. This act serves a dual purpose
   "
 >
   <PopCard
-    image={`/types/dave-approval.webp`}
+    image="/types/dave-approval.webp"
     showIcon={false}
     aspectRatio="16/9"
     displayText=""
     altText="Dave Portnoy giving disproval"
     subtext=""
   />
+
 </div>
 
 ## Wrapping It Up: The Man Behind the Millions and the Pizza Reviews
