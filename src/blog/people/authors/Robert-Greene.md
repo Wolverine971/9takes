@@ -1,6 +1,6 @@
 ---
-title: 'Robert Greene: Unveiling The Enneagram Type 5 Mind Behind the Power'
-description: "Dive into Robert Greene's Enneagram Type 5 mind. Uncover how this master strategist's analytical nature shapes his influential works on power"
+title: 'Robert Greene - The Type 5 Observer Who Masters Power'
+description: "Explore how Robert Greene's Enneagram Type 5 personality shaped his bestselling books on power and strategy. Discover the psychology behind the master observer's success."
 author: 'DJ Wayne'
 date: '2024-07-09'
 loc: 'https://9takes.com/personality-analysis/Robert-Greene'
@@ -16,6 +16,8 @@ twitter: ''
 instagram: ''
 tiktok: ''
 ---
+
+<!-- Inside Robert Greene's Mind: How The Master Strategist's Type 5 Personality Unlocked His Success | Psychology Profile -->
 
 <p class="firstLetter">Robert Greene, the master strategist and bestselling author, is a man of paradoxes.</p>
 

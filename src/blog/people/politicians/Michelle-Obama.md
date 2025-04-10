@@ -56,6 +56,24 @@ What drives Michelle Obama isn't just ambition—it's the Type 1's relentless in
 
 In her memoir **"Becoming,"** Michelle reveals: _"I've been at every powerful table you can think of... I've been at G-summits, I've been in castles and palaces, in boardrooms and courtrooms, and I'm telling you, people are the same."_ This perspective shows the Type 1's ability to see beyond facades to the moral truths beneath.
 
+<div
+  style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  "
+>
+<a href="https://amzn.to/42mDeHJ" >
+  <PopCard
+    image={`/blogs/michelle-book-becoming.webp`}
+    showIcon={false}
+    aspectRatio="9/16"
+    displayText=""
+    altText="Michelle's book becoming"
+    subtext=""
+  />
+  </a>
+</div>
+
 Like most Type 1s, Michelle lives with an internal "should" voice. She should be perfect. She should set an example. She should improve conditions for others.
 
 Unlike stereotypical Type 1s who might become rigid or judgmental, Michelle has developed remarkable self-awareness about her perfectionist tendencies. She once admitted, _"I still have a little impostor syndrome... It never goes away, that feeling that you shouldn't take me that seriously."_

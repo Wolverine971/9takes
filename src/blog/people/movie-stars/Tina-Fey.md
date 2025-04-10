@@ -36,7 +36,7 @@ At age 5, Tina experienced a traumatic incident when a stranger slashed her face
 
 "I proceeded unaware of it. It's really almost like I'm kind of able to forget about it, until I was on-camera," she told Vanity Fair.
 
-This ability to mentally detach and analyze is quintessential Type 5 behavior.
+This ability to mentally detach and analyze is characteristic of Enneagram Type 5s.
 
 Her dad Don was a major influence. A writer and university grant proposal writer, he taught her to approach life analytically and find humor in the absurd. Type 5s often have a parent who values intellectual pursuits.
 

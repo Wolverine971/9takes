@@ -162,6 +162,10 @@ For Adin's fans, this means one certainty - he won't be slowing down anytime soo
 
 Beyond entertainment, Adin's Type 3 psychology offers valuable insights for anyone with ambitions.
 
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/4At2ZoZbbZg?si=QWM_GsHH6XIG7qJ0&amp;start=28" title="Adin talking about motivation and mindset" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 His early conviction provides a template for aspiring creators: "When you have no followers, it's the hardest part. But if you believe in yourself, you know, you truly can see yourself being someone, you're just gonna get there."
 
 His no-excuses approach cuts through barriers: "In life, you're dealt cards. Okay. Excuses are literally the most stupid thing. Stop using excuses, boss up, get up and grind."
