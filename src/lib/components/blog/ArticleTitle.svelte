@@ -1,19 +1,26 @@
 <script lang="ts">
 	export let slug = '';
 	export let title: string;
-	const id = title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+	const cleanedTitle = title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+	const id = cleanedTitle;
 
 	const href = slug ? `/blog/${slug}` : '#' + id;
 </script>
 
 {#if slug}
-	<h2 class="heading" class:large={!slug} {id} style:--tag={`h-blog-${id}`}>
+	<h2 class="heading" class:large={!slug} {id} style:--tag={`h-blog-${cleanedTitle}`}>
 		<a {href}>
 			{title}
 		</a>
 	</h2>
 {:else}
-	<h1 class="heading" class:large={!slug} {id} itemprop="name" style:--tag={`h-blog-${id}`}>
+	<h1
+		class="heading"
+		class:large={!slug}
+		{id}
+		itemprop="name"
+		style:--tag={`h-blog-${cleanedTitle}`}
+	>
 		{title}
 	</h1>
 {/if}

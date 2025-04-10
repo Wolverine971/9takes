@@ -56,6 +56,9 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Kamala-Harris', link: true },
 		{ name: 'Paris-Hilton', link: true },
 		{ name: 'Will-Smith', link: true },
+		{ name: 'Logan-Paul', link: true },
+		{ name: 'Aiden-Ross', link: true },
+		{ name: 'Jenna-Ortega', link: true },
 
 		// { name: 'Jordan-Belfort ', link: false },
 		// { name: 'Matthew-Cox', link: false },
@@ -93,12 +96,15 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Emily-Dickinson', link: false },
 		{ name: 'Stephen-Hawking', link: false },
 		{ name: 'Albert-Einstein', link: false },
-		{ name: 'Agatha-Christie', link: false },
+		{ name: 'Agatha-Christie', link: true },
 		{ name: 'Rooney-Mara', link: true },
 		{ name: 'Friedrich-Nietzsche', link: true },
 		{ name: 'David-Sacks', link: true },
 		{ name: 'Lex-Fridman', link: true },
-		{ name: 'David-Friedberg', link: false }
+		{ name: 'David-Friedberg', link: false },
+		{ name: 'Tina-Fey', link: true },
+		{ name: 'PewDiePie', link: false },
+		{ name: 'Robert-Greene', link: true },
 	],
 	6: [
 		{ name: 'Timothee-Chalamet', link: true },
@@ -116,12 +122,13 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Malcolm-X', link: false },
 		{ name: 'Khloe-Kardashian', link: true },
 		{ name: 'Eminem', link: true },
+		{ name: 'Aubrey-Plaza', link: true },
+		{ name: 'Marc-Andreessen', link: false },
 	],
 	7: [
 		{ name: 'Kevin-Hart', link: true },
 		{ name: 'Ryan-Reynolds', link: true },
 		{ name: 'Katy-Perry', link: true },
-		{ name: 'Logan-Paul', link: true },
 		{ name: 'Britney-Spears', link: false },
 		{ name: 'Jon-Stewart', link: true },
 		{ name: 'Alex-Cooper', link: true },
@@ -140,6 +147,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Doechii', link: true },
 		{ name: 'Kai-Cenat', link: true },
 		{ name: 'Robert-Downey-Jr', link: true },
+		{ name: 'Jennifer-Lawrence', link: true },
 
 	],
 	8: [
@@ -179,6 +187,8 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Keanu-Reeves', link: true },
 		{ name: 'Ryan-Gosling', link: true },
 		{ name: 'Mikey-Madison', link: true },
+		{ name: 'Brad-Pitt', link: true },
+		{ name: 'Scarlett-Johansson', link: true },
 		// { name: 'Dave-Chappelle', link: false }
 	]
 };

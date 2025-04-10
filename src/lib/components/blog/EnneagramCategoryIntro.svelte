@@ -47,7 +47,7 @@
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 					>
 						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
-							<h3>
+							<h3 style:--tag={`h-blog-${eBlog.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}>
 								{eBlog.title}
 							</h3>
 							<p class="font-adjust-p">{eBlog.description}</p>

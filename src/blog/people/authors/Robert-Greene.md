@@ -17,223 +17,122 @@ instagram: ''
 tiktok: ''
 ---
 
-<!--
-    childhood and upbringing
-    first big success
-    style habits and quirks that relate to their personality type
-    stressful moments in their life and how they handled them
-    comfort- moments in their life where they are doing well and killing it
-
-    48 laws of power
-
-	https://www.youtube.com/shorts/Xm89eujMIpQ
-	inside his mind
-
-5
-
-https://youtube.com/shorts/hJiW0YoVh1o?si=O1H9VMC_eM0NnEys
-
--->
-<!-- // keywords:  -->
-
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/types/5s/${'Robert-Greene'}.webp`}
-		enneagramType={5}
-		showIcon={false}
-		displayText="Robert Greene"
-		subtext=""
-	/>
-</div>
-
-> **Disclaimer** This analysis of Robert Greene's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Greene.
-
 <p class="firstLetter">Robert Greene, the master strategist and bestselling author, is a man of paradoxes.</p>
 
-Known for his incisive analysis of power dynamics and human nature, Greene's own personality is as complex and fascinating as the historical figures he studies. This deep dive into Greene's psyche through the lens of the Enneagram offers a rare glimpse into the inner workings of one of the most influential thinkers of our time.
+He didn't study psychology or anthropology. He didn't enter academia. He just _watched_. For decades.
 
-Prepare to see the mastermind behind "The 48 Laws of Power" in a whole new light.
+The man who would eventually write "The 48 Laws of Power" and reshape how millions think about influence and strategy spent his early career as something of a professional chameleon. Before becoming an author, Greene worked approximately 50 different jobs—from construction worker to translator to Hollywood screenwriter. But he wasn't just working. He was **observing**. Cataloging. Analyzing the patterns of human behavior that would later fuel his literary empire.
 
-## What is Robert Greene's Personality Type?
+This is classic [Enneagram Type 5](/enneagram-corner/enneagram-type-5) behavior—"The Investigator" or "The Observer." Type 5s are the deep thinkers, the watchers, the ones who prefer to understand the world from a safe distance before engaging with it. They collect knowledge like others collect possessions. And perhaps no contemporary writer embodies this more than Greene.
 
-### Robert Greene is an Enneagram Type 5
+## The Watcher: Greene's Natural Observation Skills
 
-The Enneagram Type 5, often called "The Investigator," is known for their insatiable curiosity, analytical mind, and desire for knowledge. They're the deep thinkers, the observers, the ones who prefer to understand the world from a distance before engaging with it. Sound familiar? That's Robert Greene to a T.
+Greene's path to becoming a literary powerhouse wasn't planned. It emerged organically from his Type 5 tendency to observe everything around him.
 
-Type 5s are driven by a core fear of being helpless, incapable, or overwhelmed by the world around them. To combat this, they seek to become self-sufficient through knowledge and understanding. They often retreat into their minds, viewing the world as a place to be analyzed rather than experienced.
+"I was always watching and observing in these jobs, even if I wasn't consciously aware of it at the time," he once remarked in an interview.
 
-But Greene isn't just any Type 5. He's taken the typical Type 5 traits and weaponized them, turning his understanding of human nature into a formidable tool for success.
+While others might have seen these diverse jobs as just paychecks, Greene was unconsciously building a mental database of human behavior. Every workplace became a laboratory. Every boss, colleague, and client became a case study in power dynamics.
 
-## Greene's Unconventional Path to Power
+This is the Type 5 at work—constantly absorbing information, cataloging behaviors, and looking for patterns that others miss.
 
-Robert's journey to becoming a literary powerhouse wasn't a straight line. In fact, it was more like a labyrinth of diverse experiences that would later fuel his unique perspective on power and strategy.
+His breakthrough came in 1995 while working at an art school in Italy, where he met book packager Joost Elffers. When Greene pitched him the idea for "The 48 Laws of Power," he wasn't just offering a book concept. He was synthesizing _decades_ of careful observation into something tangible and practical.
 
-Before penning his first bestseller, Greene worked a staggering 80 different jobs. From construction worker to translator, each role was a lesson in human behavior, a data point in his ever-growing understanding of power dynamics. As he once said in an interview:
+For a Type 5, this transition from observer to creator isn't just a career move—it's a profound psychological shift. It's the moment they transform accumulated knowledge into power.
 
-> "I was always watching and observing in these jobs, even if I wasn't consciously aware of it at the time."
+## The Knowledge Seeker: Greene's Research Obsession
 
-This period of his life wasn't just about collecting paychecks—it was about collecting insights. Classic Type 5 behavior, absorbing information from every possible source.
+Ask anyone who knows Greene's work, and they'll tell you about his **legendary** research process.
 
-## The Birth of a Literary Powerhouse
+For each book, he immerses himself in hundreds of sources—biographies, historical documents, psychological studies. This isn't casual reading. This is obsession. This is a Type 5 in their element.
 
-Greene's big break came with "The 48 Laws of Power," a book that would change his life and the lives of millions of readers. But the road to publication wasn't smooth.
+"I read everything I can get my hands on. I become obsessed," Greene has explained. "It's like I'm trying to solve a mystery, and every book, every article, could hold the key."
 
-Publishers initially balked at the book's premise, worried it was too cynical, too Machiavellian. But Greene, with the tenacity typical of a Type 5, persisted. He knew he had stumbled upon something important, a distillation of historical wisdom that could revolutionize how people thought about power.
+This research intensity isn't just professional thoroughness. For Type 5s, knowledge acquisition is a core psychological need. They seek mastery of subjects partly because understanding creates a sense of security in an unpredictable world.
 
-The book's success vindicated Greene's approach. As he later reflected:
+When Greene spent six years researching "The Laws of Human Nature," he wasn't just being thorough. He was satisfying a deep Type 5 drive to comprehend the world completely.
 
-> "I realized I had tapped into something universal, something that people desperately wanted to understand but couldn't find anywhere else."
+The irony? Despite his exhaustive research, Greene admits how challenging writing about human nature is because "people are so complicated and complex that whenever I wrote something and came upon an idea, I almost instantly could think of exceptions."
 
-This moment of validation likely resonated deeply with Greene's Type 5 nature, confirming his belief in the power of knowledge and analysis.
+This awareness of complexity—this refusal to oversimplify—is another Type 5 hallmark. They're comfortable with nuance in a way few other types are.
 
-## Greene's Methodology: A Window into the Type 5 Mind
+## The Strategist: Turning Knowledge into Power
 
-### The Art of Intensive Research
+What separates Greene from many Type 5s is his ability to transform theoretical knowledge into practical wisdom.
 
-Greene's writing process is a testament to the Type 5's love of deep study. For each book, he immerses himself in hundreds of books, articles, and historical documents. This isn't just research—it's a Type 5 in their element, building a fortress of knowledge.
+While some investigators get lost in their research, never emerging with anything concrete, Greene distills complex ideas into applicable principles. His books aren't just informative—they're _strategic_.
 
-As Greene once described:
+This transformation from observer to strategist represents an evolved Type 5—one who has moved beyond mere knowledge collection to knowledge application.
 
-> "I read everything I can get my hands on. I become obsessed. It's like I'm trying to solve a mystery, and every book, every article, could hold the key."
+"You cannot make anything worthwhile in this world unless you have first developed and transformed yourself," Greene writes. This statement reflects his own journey from observer to creator, from knowledge-gatherer to wisdom-sharer.
 
-### Synthesizing Complex Ideas
+His strategic approach extends to how he presents information. Greene doesn't just teach power—he demonstrates it through his writing style. His books combine historical anecdotes with practical takeaways in a way that both educates and empowers.
 
-What sets Greene apart is his ability to take this vast knowledge and distill it into accessible, powerful concepts. This is where the Type 5's analytical prowess shines. Greene doesn't just regurgitate information—he transforms it, finding patterns and principles that others miss.
+This isn't accidental. It's the result of a Type 5 who understands that knowledge without application is ultimately powerless.
 
-His book "Mastery" is a prime example. By studying the lives of historical and contemporary masters, Greene extracted universal principles of skill acquisition and creativity. This ability to see the big picture amidst a sea of details is a hallmark of the evolved Type 5.
+## The Psychological Core: Fear and Detachment
 
-## The Inner World of Robert Greene
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/hJiW0YoVh1o?si=xJ25_cDnmQE4Ldpw" title="Robert Greene talking about detachment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-### Battling Overwhelm
+Behind every Type 5's quest for knowledge lies a core fear: being helpless, useless, incapable, or overwhelmed by the world.
 
-Despite his success, Greene isn't immune to the typical Type 5 struggles. In interviews, he's hinted at periods of overwhelm, particularly when starting a new project. As he once said:
+For Greene, this manifested in his fascination with power dynamics. By understanding the rules of power, he could navigate a complex world more effectively. By teaching these rules to others, he could help them do the same.
 
-> "The beginning is always the hardest. There's so much to learn, so much to understand. It can feel like drowning in information."
+"We live in a world of such denial and such bullshit," Greene has stated bluntly. "Everything is a denial of the truth, of reality. People are running away from what's really going on in the world."
 
-This sentiment echoes the Type 5's core fear of being overwhelmed by the world. But for Greene, this fear becomes fuel, driving him deeper into his studies.
+This statement reveals the Type 5's frustration with superficiality and their drive to uncover deeper truths, no matter how uncomfortable. Type 5s value clarity above comfort.
 
-### The Joy of Discovery
+Greene's detached analytical style—sometimes criticized as cold or Machiavellian—is another Type 5 trait. He observes human behavior with clinical precision, without judgment or emotional distortion.
 
-On the flip side, Greene experiences intense satisfaction when he uncovers new insights or connections. This is the Type 5 at their happiest—making sense of the chaos, finding order in the seemingly random.
+"I want people to look squarely in the eye at our nature as a power hungry, manipulative, aggressive animal," he has said.
 
-In a rare moment of personal reflection, Greene shared:
+This unflinching look at human nature isn't cynicism. It's a Type 5's commitment to seeing reality clearly, without illusion or wishful thinking.
 
-> "There's nothing quite like that moment when everything clicks, when you see the pattern that ties it all together. It's like solving the world's most complex puzzle."
+## The Silent Analyzer: Greene's Communication Style
 
-## Greene's Legacy and Current Work
+Greene doesn't just write about the power of strategic communication—he embodies it.
 
-Today, Robert Greene continues to push the boundaries of his understanding—and ours. His most recent work, "The Laws of Human Nature," dives even deeper into the complexities of human psychology, a subject that clearly fascinates this quintessential Type 5.
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/Xm89eujMIpQ?si=gc9fR-aypOgGo8XX" title="Robert Greene talking about strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-As for the future? Greene has hinted at projects exploring the intersection of power, technology, and human nature. For a Type 5 like Greene, the quest for knowledge never ends—there's always another mystery to solve, another layer of human behavior to unravel.
+One of his most famous laws of power is "Always Say Less Than Necessary." This isn't just tactical advice—it's a reflection of how Greene himself operates as a Type 5.
 
-## Conclusion
+"When you are trying to impress people with words, the more you say, the more common you appear, and the less in control," he writes. This principle aligns perfectly with the Type 5's preference for observation over expression.
 
-Robert Greene's journey from job-hopping observer to literary powerhouse is a testament to the potential of the Enneagram Type 5. His ability to transform knowledge into power, to see patterns where others see chaos, has made him one of the most influential thinkers of our time. But what does this mean for the rest of us? How can we tap into our own inner investigator, our own Type 5 energy, to better understand the world around us and our place in it?
+Greene believes that actions and body language reveal more truth than words. "Body language, facial expressions, and behavior are much more reliable sources of truthful information than words," he notes.
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "Robert Greene, the master strategist and bestselling author, is a man of paradoxes. Known for his incisive analysis of power dynamics and human nature, Greene's own personality is as complex and fascinating as the historical figures he studies. This deep dive into Greene's psyche through the lens of the Enneagram offers a rare glimpse into the inner workings of one of the most influential thinkers of our time. Prepare to see the mastermind behind 'The 48 Laws of Power' in a whole new light.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2024-07-09",
-      "datePublished": "2024-07-09",
-      "description": "This blog post examines Robert Greene's personality through the lens of the Enneagram Type 5, exploring his upbringing, rise to fame, major accomplishments, and how he has approached his work and life.",
-      "headline": "Unveiling the Mind of Robert Greene: The Enneagram 5 Behind the Power",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/5s/Robert-Greene.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Robert-Greene",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Robert Greene",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Robert_Greene_(American_author)",
-          "https://www.goodreads.com/author/show/8147.Robert_Greene",
-          "https://twitter.com/RobertGreene"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Robert Greene's Enneagram type?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Robert Greene is an Enneagram Type 5, also known as The Investigator or The Observer. Type 5s are characterized by their insatiable curiosity, analytical mind, and desire for knowledge. They often prefer to understand the world from a distance before engaging with it."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How did Robert Greene's diverse work experience influence his writing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Before becoming an author, Greene worked 80 different jobs, from construction worker to translator. This diverse experience provided him with a wealth of observations on human behavior and power dynamics, which he later incorporated into his books. As he stated, 'I was always watching and observing in these jobs, even if I wasn't consciously aware of it at the time.'"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Robert Greene's writing process like?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Greene's writing process reflects his Enneagram Type 5 traits. He immerses himself in extensive research, reading hundreds of books and documents for each project. As he described it, 'I read everything I can get my hands on. I become obsessed. It's like I'm trying to solve a mystery, and every book, every article, could hold the key.'"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Robert Greene's Enneagram Type 5 personality manifest in his work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "As a Type 5, Greene excels at synthesizing complex ideas and finding patterns in vast amounts of information. This is evident in his books, where he distills historical and contemporary examples into accessible, powerful concepts about power, strategy, and human nature."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are some lesser-known facts about Robert Greene?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Some lesser-known facts about Robert Greene include: 1) He has a background in classical studies from the University of Wisconsin-Madison. 2) He co-authored a book with rapper 50 Cent called 'The 50th Law'. 3) Greene practices Zen meditation, which he credits with helping him maintain focus and clarity in his work and personal life."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
+This insight comes naturally to Type 5s, who learn early to watch carefully rather than speak carelessly. Their strength lies in perception, not projection.
 
-</svelte:head>
+In interviews, Greene often answers questions with thoughtful precision rather than verbose explanations. Each word seems carefully chosen, each idea deliberately expressed. This isn't just strategic—it's the natural communication style of a developed Type 5.
 
-<style lang="scss"></style>
+## Beyond the Observer: Greene's Integration and Growth
+
+Type 5s at their unhealthiest become detached, isolated, and cynical. But Greene's evolution as a thinker shows the growth potential of this type.
+
+From "The 48 Laws of Power" to "Mastery" to "The Laws of Human Nature," his work has evolved from tactics to deeper wisdom. This progression reflects a maturing Type 5 moving toward integration.
+
+In 2018, Greene suffered a serious stroke that left him without the use of his left arm and leg. This physical vulnerability—this sudden limitation of self-sufficiency—would be particularly challenging for a Type 5.
+
+Yet Greene approached his recovery with the same analytical determination he brings to his work. This crisis forced him beyond the comfortable observer role into a more vulnerable, dependent position—precisely the growth challenge Type 5s need.
+
+"The world wants to assign you a role in life. And once you accept that role you are doomed," Greene writes. His refusal to be limited by expectations—whether societal or physical—demonstrates a Type 5 transcending their natural limitations.
+
+## The Observer's Ultimate Power
+
+Robert Greene's journey from job-hopping observer to literary powerhouse illustrates the extraordinary potential of the Enneagram Type 5.
+
+His ability to watch, analyze, and translate human behavior into practical wisdom has made him one of the most influential thinkers of our time. But what can we learn from his Type 5 approach?
+
+First, there's power in observation. In a world of constant noise and expression, those who _watch_ carefully gain insights others miss.
+
+Second, knowledge becomes power only when applied. Greene didn't just accumulate information—he transformed it into something useful.
+
+Finally, understanding human nature—including our own—is the ultimate strategic advantage. As Greene puts it: "Become who you are by learning who you are."
+
+The quiet observer often sees what others miss. The patient analyzer often understands what others misinterpret. And sometimes, the person saying the least in the room holds the most power.
+
+Just ask Robert Greene. He's been watching long enough to know.
+
+> **Disclaimer** This analysis of Robert Greene's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Greene.

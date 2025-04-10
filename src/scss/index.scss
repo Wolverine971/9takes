@@ -77,6 +77,46 @@
 	--glass-color: rgba(90, 91, 95, 0.1);
 	--base-white-outline: #f0f5f9;
 	--classic-border: 1px solid var(--medium-gray);
+
+	--golden-ratio: 1.618;
+	--spacing-golden: calc(var(--spacing-unit) * var(--golden-ratio));
+	--spacing-golden-sm: calc(var(--spacing-unit) / var(--golden-ratio));
+	--spacing-golden-lg: calc(var(--spacing-golden) * var(--golden-ratio));
+
+	/* Greek-inspired accent colors - complementing existing purple theme */
+	--greek-marble: #f5f5f0;
+	--greek-aegean: #1a5276;
+	--greek-olive: #71723c; /* Slightly modified to complement purples */
+	--greek-terracotta: #cd5c5c;
+	--greek-parchment: #f2ebd8;
+	--greek-silver: #c0c0c0;
+	--greek-gold: #d4af37; /* Slightly muted gold to pair with purple */
+
+	/* Greek color application - using existing variables where possible */
+	--greek-primary: var(--primary); /* Keep existing primary purple */
+	--greek-secondary: var(--greek-aegean); /* New secondary color */
+	--greek-accent: var(--accent); /* Keep existing accent purple */
+	--greek-highlight: var(--greek-gold); /* Gold for highlights */
+	--greek-background: var(--greek-marble); /* Marble for backgrounds */
+
+	/* Extended typography */
+	--font-greek-heading: 'Cinzel', var(--font-family);
+	--font-greek-body: 'Cardo', var(--font-family);
+	--line-height-golden: var(--golden-ratio);
+
+	/* Greek-inspired UI elements */
+	--greek-border-pattern: repeating-linear-gradient(
+		90deg,
+		var(--greek-primary),
+		var(--greek-primary) 10px,
+		var(--greek-marble) 10px,
+		var(--greek-marble) 20px
+	);
+
+	/* Column styling */
+	--column-base-color: var(--greek-marble);
+	--column-accent-color: var(--primary-light);
+	--column-shadow: 0 2px 8px rgba(108, 92, 231, 0.12);
 }
 
 /*==============================================
@@ -570,6 +610,7 @@ ul {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 	padding-inline-start: 40px;
+	margin-left: 1em;
 }
 
 .scroll-table {

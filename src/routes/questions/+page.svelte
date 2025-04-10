@@ -79,7 +79,7 @@
 </svelte:head>
 
 <div
-	class="rounded-lg border border-gray-200 bg-white bg-opacity-90 p-4 shadow-sm backdrop-blur-sm md:p-6"
+	class="greek-column shadow-column rounded-lg border border-neutral-200 bg-white bg-opacity-90 p-4 backdrop-blur-sm md:p-6"
 	class:no-animation={!transitionEnabled}
 	in:fade={{ duration }}
 >
@@ -221,5 +221,36 @@
 			animation: none !important;
 			transition: none !important;
 		}
+	}
+
+	/*==============================================
+  GREEK COMPONENT STYLES
+==============================================*/
+	/* Column-inspired container */
+	.greek-column {
+		position: relative;
+		padding: var(--spacing-golden);
+		background-color: var(--card-background);
+		box-shadow: var(--shadow-md);
+		border-radius: var(--border-radius);
+		overflow: hidden;
+	}
+
+	.greek-column::before,
+	.greek-column::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		height: 8px;
+		/* background: var(--greek-border-pattern); */
+	}
+
+	.greek-column::before {
+		top: 0;
+	}
+
+	.greek-column::after {
+		bottom: 0;
 	}
 </style>

@@ -67,7 +67,12 @@
 <svelte:window bind:innerWidth />
 
 <div class="question-container">
-	<h1 class="question-box" style="font-size: {fontSize}" itemprop="name">
+	<h1
+		class="question-box"
+		style="font-size: {fontSize}"
+		itemprop="name"
+		style:--tag={`h-question-${question.question.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
+	>
 		{question.question_formatted || question.question}
 		{#if !question.question_formatted && addQuestionMark}?{/if}
 	</h1>

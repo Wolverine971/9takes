@@ -50,7 +50,9 @@
 						/>
 					{/if}
 					<div class="person-name">
-						<h3>{person.slug.split('-').join(' ')}</h3>
+						<h3 style:--tag={`h-blog-${person.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}>
+							{person.slug.split('-').join(' ')}
+						</h3>
 					</div>
 				</a>
 			{/each}

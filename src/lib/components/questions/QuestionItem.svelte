@@ -14,7 +14,8 @@
 	export let showDetails = true;
 
 	let innerWidth = 0;
-	let commentColor = '#B3A6C9';
+	let commentColor = '#a29bfe'; // Primary light color
+	let hovered = false;
 
 	// Format date using date format cache to avoid repeated calculations
 	const dateFormatCache = new Map();
@@ -75,17 +76,19 @@
 	$: displayQuestion = questionData.question_formatted || questionData.question;
 
 	// Memoize hover/leave handlers
-	const handleMouseEnter = () => (commentColor = '#833BFF');
-	const handleMouseLeave = () => (commentColor = '#B3A6C9');
+	const handleMouseEnter = () => {
+		hovered = true;
+		commentColor = '#6c5ce7'; // Primary color
+	};
+	const handleMouseLeave = () => {
+		hovered = false;
+		commentColor = '#a29bfe'; // Primary light color
+	};
 </script>
 
 <a
 	href="/questions/{questionData.url}"
-	class="my-0.5 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded border border-transparent px-4 py-2 text-inherit no-underline transition-colors duration-200 will-change-auto"
-	class:shimmer-button={innerWidth > 1500}
-	class:border-accent={showDetails}
-	class:hover:bg-gray-200={true}
-	class:hover:border-primary-light={true}
+	class="greek-question-card my-1 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded px-4 py-3 text-inherit no-underline transition-all duration-200 will-change-auto"
 	class:focus:outline-primary-light={true}
 	class:focus:outline-offset-2={true}
 	class:w-full={showDetails}
@@ -94,9 +97,18 @@
 	on:mouseleave={handleMouseLeave}
 	aria-label="View question: {displayQuestion}"
 >
-	<p class="m-0 line-clamp-2 flex-1 overflow-hidden text-ellipsis break-words">
-		{displayQuestion}
-	</p>
+	<div class="question-content flex-1">
+		<!-- Optional philosopher quote mark -->
+		<div class="flex items-start">
+			<p
+				class="m-0 line-clamp-2 overflow-hidden text-ellipsis break-words font-greek-body"
+				style:--tag={`h-question-${questionData.question.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
+			>
+				{displayQuestion}
+			</p>
+		</div>
+	</div>
+
 	{#if showDetails}
 		<div
 			class="xs:flex-col xs:items-end xs:gap-1 flex flex-shrink-0 items-center gap-2 sm:flex-row sm:items-center"
@@ -111,7 +123,7 @@
 				/>
 			</span>
 			<span
-				class="xs:py-0.5 xs:px-2 xs:text-xs xs:min-w-14 flex min-w-16 justify-center rounded border border-white px-0.5 py-0.5 text-center text-sm"
+				class="xs:py-0.5 xs:px-2 xs:text-xs xs:min-w-14 flex min-w-16 justify-center rounded border border-neutral-300 bg-white px-0.5 py-0.5 text-center text-sm"
 			>
 				{formattedDate}
 			</span>
@@ -120,24 +132,43 @@
 </a>
 
 <style>
-	/* Only adding styles that can't be easily done with Tailwind */
-	.border-accent {
-		border-color: var(--accent);
+	/* Greek-inspired styles for question cards */
+	:global(.greek-question-card) {
+		position: relative;
+		overflow: hidden;
+		background-color: white;
+		border-left: 3px solid var(--primary-light, #a29bfe);
+		box-shadow: var(--shadow-sm);
 	}
 
-	.border-primary-light {
-		border-color: var(--primary-light);
+	:global(.greek-question-card:hover) {
+		border-left: 3px solid var(--primary, #6c5ce7);
+		background: linear-gradient(to right, rgba(247, 247, 255, 0.9), rgba(255, 255, 255, 1));
+		box-shadow: var(--shadow-md);
 	}
 
-	.outline-primary-light {
-		outline: 2px solid var(--primary-light);
+	.question-content {
+		position: relative;
 	}
 
-	/* Add in Tailwind's built-in line-clamp if unavailable */
-	.line-clamp-2 {
-		display: -webkit-box;
-		-webkit-line-clamp: 2;
-		-webkit-box-orient: vertical;
+	.question-quote {
+		font-size: 1.5rem;
+		line-height: 1;
+		transition: opacity 0.3s ease;
+	}
+
+	.question-hover-text {
+		opacity: 0;
+		height: 0;
+		transition:
+			opacity 0.3s ease,
+			height 0.3s ease;
+		overflow: hidden;
+	}
+
+	:global(.greek-question-card:hover) .question-hover-text {
+		opacity: 0.9;
+		height: 1.2em;
 	}
 
 	/* Add responsive utilities for extra small screens */
@@ -179,5 +210,29 @@
 		.duration-200 {
 			transition-duration: 0s;
 		}
+
+		:global(.greek-question-card:hover) .question-hover-text,
+		.question-hover-text,
+		.question-quote {
+			transition: none;
+		}
+	}
+
+	/* Add in Tailwind's built-in line-clamp if unavailable */
+	.line-clamp-2 {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+
+	:global(.greek-circle) {
+		border-radius: 50%;
+		box-shadow: var(--shadow-sm);
+		border: 1px solid var(--border-color, #e3e1f0);
+		transition: all 0.3s ease;
+	}
+
+	:global(.greek-question-card:hover .greek-circle) {
+		background-color: var(--primary-100, #e9e4ff) !important;
 	}
 </style>

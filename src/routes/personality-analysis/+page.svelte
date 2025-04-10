@@ -295,6 +295,7 @@
 							href="/personality-analysis/{person.slug}"
 							class="grid-item"
 							aria-label="View analysis of {person.slug.split('-').join(' ')}"
+							style:--tag={`h-blog-${person.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
 						>
 							{#if person.enneagram}
 								<img

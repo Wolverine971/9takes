@@ -177,7 +177,12 @@
 								style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
 							>
 								<div class="text-overlay">
-									<h3 style="padding: 2rem 0 0rem;">{blog.title}</h3>
+									<h3
+										style="padding: 2rem 0 0rem;"
+										style:--tag={`h-blog-${blog.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
+									>
+										{blog.title}
+									</h3>
 									<p style="margin-top: .3rem;">{blog.description}</p>
 								</div>
 							</div>

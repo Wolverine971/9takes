@@ -136,15 +136,16 @@
 	$spacing-md: 1rem;
 	$spacing-lg: 1.5rem;
 	$transition-standard: 0.3s ease;
-	$border-radius: var(--base-border-radius, 3px);
+	$border-radius: var(--border-radius, 0.5rem);
 	$breakpoint-sm: 576px;
 	$breakpoint-md: 768px;
 	$breakpoint-lg: 992px;
+	$golden-ratio: 1.618;
 
 	.search-form {
 		display: flex;
 		gap: $spacing-md;
-		margin-bottom: $spacing-md;
+		margin-bottom: calc($spacing-md * $golden-ratio);
 		align-items: stretch;
 		width: 100%;
 		position: relative;
@@ -196,16 +197,33 @@
 		border-radius: $border-radius;
 		background-color: var(--primary);
 		color: white;
-		font-size: 1rem;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 0.95rem;
 		font-weight: 600;
 		white-space: nowrap;
 		cursor: pointer;
-		transition: all $transition-standard;
+		position: relative;
+		overflow: hidden;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 2px;
+			background: linear-gradient(
+				90deg,
+				transparent 0%,
+				var(--greek-gold, gold) 50%,
+				transparent 100%
+			);
+		}
 
 		&:hover:not(:disabled) {
-			background-color: var(--primary-hover);
+			background-color: var(--primary-dark);
 			transform: translateY(-2px);
-			color: var(--primary);
 			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 		}
 
@@ -215,8 +233,36 @@
 		}
 
 		&:focus {
-			outline: 2px solid var(--primary-hover);
+			outline: 2px solid var(--primary-light);
 			outline-offset: 2px;
+		}
+	}
+
+	/* Custom input styling to match Greek theme */
+	:global(.search-container input) {
+		border-color: var(--border-color) !important;
+		border-width: 1px !important;
+		border-radius: $border-radius !important;
+		padding: calc($spacing-sm * $golden-ratio) !important;
+
+		&:focus {
+			border-color: var(--primary) !important;
+			box-shadow: 0 0 0 2px rgba(108, 92, 231, 0.2) !important;
+		}
+	}
+
+	/* Scrollable dropdown styling */
+	:global(.search-container ul) {
+		border-radius: $border-radius !important;
+		box-shadow: var(--shadow-md) !important;
+		border: 1px solid var(--border-color) !important;
+
+		& li {
+			padding: calc($spacing-sm * $golden-ratio) !important;
+
+			&:hover {
+				background-color: var(--primary-50) !important;
+			}
 		}
 	}
 
