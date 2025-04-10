@@ -39,6 +39,25 @@ This is the Type 5 at work—constantly absorbing information, cataloging behavi
 
 His breakthrough came in 1995 while working at an art school in Italy, where he met book packager Joost Elffers. When Greene pitched him the idea for "The 48 Laws of Power," he wasn't just offering a book concept. He was synthesizing _decades_ of careful observation into something tangible and practical.
 
+<div
+  style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  "
+>
+<a href="https://amzn.to/4jxyTZr" class="external-link" target="_blank" rel="noopener">
+  <PopCard
+    image="/blogs/48-laws-of-power.webp"
+    showIcon={false}
+    aspectRatio="9/16"
+    displayText=""
+    altText="48 Laws of Power"
+    subtext=""
+    lazyLoad="true"
+  />
+  </a>
+</div>
+
 For a Type 5, this transition from observer to creator isn't just a career move—it's a profound psychological shift. It's the moment they transform accumulated knowledge into power.
 
 ## The Knowledge Seeker: Greene's Research Obsession

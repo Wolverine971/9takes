@@ -117,6 +117,10 @@ And like a true Eight, she doesn't delegate important decisions. She remains han
 
 ## Beyoncé and Jay-Z: Inside Their Relationship Through the Lens of Type 8 Loyalty
 
+<div class="iframe-container">
+<iframe width="100%" height="315" loading="lazy"  src="https://www.youtube.com/embed/n2vL1sXrlzM" title="Beyonce happy to see Jay-Z" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 Type 8s are intensely loyal to their inner circle. Once you're in, they will protect you fiercely.
 
 Beyoncé's relationship with Jay-Z offers fascinating insights into how Type 8s navigate intimate relationships—especially through challenges.
