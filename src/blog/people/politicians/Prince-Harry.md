@@ -96,6 +96,25 @@ This hypervigilance against media intrusion stems directly from his Type 6 psych
 
 The publication of Harry's memoir _Spare_ in January 2023 stunned the world with its raw revelations about royal life.
 
+<div
+  style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  "
+>
+<a href="https://amzn.to/4jktJzC" class="external-link" target="_blank" rel="noopener">
+  <PopCard
+    image="/blogs/spare.webp"
+    showIcon={false}
+    aspectRatio="9/16"
+    displayText=""
+    altText="Spare by Prince Harry"
+    subtext=""
+    lazyLoad="true"
+  />
+  </a>
+</div>
+
 For a Type 6 personality, however, telling one's unvarnished truth serves a crucial psychological function: **it combats gaslighting and affirms reality**.
 
 The book's title alone—referring to his status as the "spare" heir—reveals the painful self-awareness typical of Type 6 individuals.
