@@ -20,175 +20,178 @@ tiktok: 'https://www.tiktok.com/@jakepaul'
 
 <!-- Notes: boxing, can he actually fight, net worth, where is he from, close friends, tommy fury, nate diaz, anderson silva, andrew tate, ksi, disney channel, age, girlfriend, news, logan paul -->
 
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
+<p class="firstLetter">You've seen the highlight reels. You've heard the trash talk. Maybe you've even paid to watch him knock out an ex-UFC fighter.</p>
+
+But do you _really_ understand what drives Jake Paul?
+
+Behind the flashy exterior and controversial headlines lies a psychological profile that explains everything from his rise on Vine to his shocking success in professional boxing. And it all makes perfect sense when you view Jake through the lens of [Enneagram Type 3: The Achiever](/enneagram-corner/enneagram-type-3).
+
+## "I Was Making More Money Than My Parents at 17": Jake Paul's Early Life and Ambition
+
+Born January 17, 1997, in Cleveland, Ohio, Jake Joseph Paul wasn't exactly destined for stardom.
+
+The younger brother to [Logan Paul](/personality-analysis/Logan-Paul), Jake grew up in a church-going Christian household in Westlake with realtor father Gregory Allan Paul and mother Pamela Ann Stepnick. Nothing particularly extraordinary on the surface.
+
+But here's where it gets interesting. Jake and Logan started filming themselves when Jake was just _ten years old_.
+
+**Long before fame, long before fortune, they were already creating**. This early creative partnership would later evolve into fierce competition – a perfect breeding ground for Jake's Type 3 tendencies.
+
+Type 3s are known as "The Achievers" for good reason. Their core motivation is success, validation, and the admiration of others. While most kids were playing video games, young Jake was unknowingly laying the groundwork for an empire.
+
+> "I studied everyone in the business of entertainment: Dr. Dre, Diddy, everyone. Rob Dyrdek was big for me," Jake has said about his early influences. "He would get 2 million views a week on 'Rob and Big,' and from that sprung everything: DC shoes, Monster Energy, 'Fantasy Factory,' everything."
+
+Even as a teenager, Jake's Type 3 mind was constantly calculating paths to success.
+
+By 2013, Jake had launched his Vine career. Within three years, he'd amassed over 5.3 million followers and 2 billion views before the platform shut down.
+
+He wasn't just creating content. He was _strategizing_ his way to the top.
+
+## "Dream Big, Work Hard, Never Give Up": How Jake Paul Overcame Early Struggles
+
+What many fans don't realize is that Jake's path wasn't always smooth.
+
+Like many Type 3s, adversity became fuel. Jake has spoken openly about being bullied in school, especially as his online fame grew.
+
+> "As I was growing my social media following and doing things in Los Angeles, kids in my school would start to hate on me, tweet me stuff… you name it, they said it to me," Jake revealed in one interview.
+
+For a Type 3, criticism can be devastating – their worst fear is being worthless or unsuccessful. But Jake's response was pure Achiever mentality: turn the negativity into motivation.
+
+> "I had to overcome bullies and other people who didn't like me and tormented me. I overcame those things with positive affirmations and setting goals." Jake explained about his mindset when facing obstacles.
+
+Where typical Type 3s might avoid potential failure, Jake developed an unusual approach – charging directly at challenges that others said he couldn't overcome.
+
+This is where "The Problem Child" persona was born. It wasn't just marketing; it was psychological armor.
+
+When critics said he couldn't box, he didn't just start training. He declared he'd become one of the greatest boxers of all time. Pure Type 3 audacity.
+
+## "My Goal is to Be a Billionaire": Jake Paul's Business Empire and Strategic Mind
+
+Jake's ambitions extend far beyond YouTube stunts and boxing matches.
 
 <div
-	style="display: flex;
+  style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+  "
 >
-	<PopCard
-		image={`/types/3s/${'Jake-Paul'}.webp`}
-		showIcon={false}
-		enneagramType="3"
-		displayText="Jake Paul"
-		subtext=""
-	/>
+  <PopCard
+    image="/blogs/antifund.webp"
+    showIcon={false}
+    aspectRatio="16/9"
+    displayText=""
+    altText="Jake Paul's Antifund"
+    subtext=""
+    lazyLoad="true"
+  />
+
 </div>
 
-<p class="firstLetter">You've watched his bouts, heard his brash proclamations, and possibly even followed his rise from Disney Channel star to amateur boxer.</p>
+In 2021, he founded Most Valuable Promotions alongside his adviser Nakisa Bidarian. That same year, he launched Anti Fund, a venture capital firm with Geoffrey Woo. His Betr sportsbook startup raised funds at a $375 million valuation in 2024.
 
-Jake Paul, the controversial yet undeniably successful internet sensation, has made an indelible mark in pop culture. Let's take an engaging deep-dive into the intriguing world of Jake Paul, proposing him as a representation of Enneagram Type 3 - The Achiever.
+Type 3s excel at spotting opportunities and leveraging their skills into new ventures. For Jake, each business isn't just a revenue stream – it's another achievement to add to his résumé.
 
-<details>
-<summary class="accordion">TL;DR: Why Jake Paul is an Enneagram type 3</summary>
-<div class="panel">
-<ul>
-<li><b>Ambition in Overdrive</b>: Known for his brash confidence and relentless ambition, Jake Paul's rise from social media star to boxing celebrity reflects the classic Type 3 trait - an overwhelming desire to succeed. His decision to enter the brutal boxing ring shows his drive to achieve, challenging public skepticism about his fighting prowess.</li>
-<li><b>Inner World of a Type 3</b>: Beneath the flash and the fame, Jake's life reflects a typical Type 3's inner struggles. He constantly seeks validation through success, mirrored in his impressive net worth and his willingness to take on established fighters. His daily life, though not visible to all, likely involves ceaseless planning and action, propelled by a need to maintain his successful image.</li>
-<li><b>Controversy as a Reflection of Fear</b>: Jake's controversies, from his sudden marriage to Tana Mongeau to his public feud with his brother, Logan Paul, reflect a Type 3's fear of failure. Often, the fear can lead to desperate actions to stay relevant and successful. Understanding this could evoke empathy for Jake as he navigates the pressures of fame.</li>
-<li><b>Core Motivation</b>: At the heart of Jake Paul's actions is a Type 3's core motivation - a need to be validated for his achievements. Every boxing match, every public spat, and every risky venture he undertakes can be traced back to his relentless quest for success and validation.</li>
-</ul>
-  </div>
-</details>
+> "I think it's about being really smart about hitting the right consumer product spaces at the right time," Jake shared about his business philosophy.
 
-## From Vine to the Boxing Ring: Jake's Ambition in Overdrive
+His inner dialogue likely revolves around legacy-building questions: _How can I turn this fame into something lasting? What business move will shock people next? How do I prove I'm more than just an internet personality?_
 
-A native of Cleveland, Ohio, Jake Paul's rise to fame began on the now-defunct app Vine.
+While most Type 3s network strategically, Jake takes it to another level. From boxing promoters to venture capitalists, he surrounds himself with people who can help him achieve his next goal.
 
-However, his ambition didn't stop at social media stardom. Jake's close friends, family, and even his ex-girlfriend, Tana Mongeau, would all attest to his relentless drive - a trademark characteristic of Type 3s. His venture from the comfortable world of vlogging into the brutal domain of boxing left many asking, "Can Jake Paul actually fight?" Well, Jake's subsequent wins, including against professional fighters, are a testament to his determination.
+His latest venture? A men's skincare and personal care line launched at Walmart in June 2024. The move further diversifies his business portfolio while extending his personal brand.
 
-## The Lure of Success: Motivation or Obsession?
+## "In My 15 Minutes of Fame, I've Done More in Boxing Than You Have Your Whole Life": Jake Paul's Boxing Journey
 
-Much like other Type 3 personalities, Jake's desire to succeed is fueled by a deep need for validation.
+When Jake announced he was pursuing professional boxing, the world laughed.
 
-You only have to look at his net worth, which stands at an impressive figure. It is evident from his boxing bouts against personalities like Tommy Fury, Nate Diaz, Anderson Silva, and Andrew Tate, that Jake is not afraid to compete with well-established fighters. The Achiever's drive for success can often be viewed as an obsession, a trait that Jake embodies in both his professional and personal life.
+Nobody's laughing now.
 
-## Jake and Controversy: A Type 3's Fear of Failure
+His boxing record stands at 9-1, with victories over former UFC champions and professional fighters. This transformation from YouTuber to legitimate boxer might seem random to outsiders, but it makes perfect sense through the Type 3 lens.
 
-Jake's life has been riddled with controversies, from issues with his Team 10 collective to his marriage with Tana Mongeau.
+Boxing offers what Jake craves most: **undeniable achievement**. There's no arguing with a knockout. There's no dismissing a professional record. It's validation in its purest form.
 
-For a Type 3, the fear of failure and the drive to maintain a successful image often lead to desperate measures. We've seen this with Jake's feuds with KSI 🥊 and his older brother, <a href="./Logan-Paul">Logan Paul</a>. The intense desire to be the best often results in public spats and scandals, further magnifying Jake's public persona.
+His training approach reveals the depth of his commitment that few see:
 
-## Jake's Personal Relationships: A Type 3’s Struggle for Authenticity
+> "He's a monster. All he does is train. It's the only thing he cares about," says his brother Logan about Jake's dedication to boxing.
 
-Jake's relationship with Tana Mongeau, and his strong bond with his brother, <a href="./Logan-Paul">Logan Paul</a>, also provides insight into his Type 3 personality.
+Jake's mother provides even more insight into why he gravitated toward the sport:
 
-The Achiever often struggles with authenticity in relationships, mainly due to their fear of being unloved. The controversy surrounding Jake's whirlwind romance and marriage to Tana, and the constant comparisons to his equally famous brother, Logan, underscore the struggles Jake faces in his personal life, further exemplifying his Type 3 tendencies.
+> "I think he's happier being an athlete and having boxing in his life. YouTube, and all that stuff, it's competitive in a different way and it's not competitive, to me, in a healthy way." This observation from his mother highlights how boxing satisfies Jake's Type 3 need for achievement in a more structured way than internet fame ever could.
 
-## Wrapping up
+His coach, BJ Flores, a former championship-level boxer, has witnessed this dedication firsthand:
 
-It seems quite plausible, then, that Jake Paul does indeed epitomize the characteristics of an Enneagram Type 3. His relentless drive for success, fear of failure, and struggle for authenticity in relationships 💑 painst a picture of his personality. But as we all know, people are complex, and categorizing individuals neatly isn't always possible.
+> "There's no substitute for hard work. Hard work beats talent when talent doesn't work hard... He can do a lot of things in there a guy with his experience level has no business being able to do." This testament to Jake's work ethic reveals the behind-the-scenes reality that his critics rarely acknowledge.
 
-So, what do you think? Does seeing Jake Paul through the lens of the Enneagram Type 3 provide you with a better understanding of his motivations and actions? Does it help you see beyond the public image and glimpse into the man behind the persona?
+## "It's Not About How Many Times You Fall Down": The Vulnerable Side of Jake Paul
 
-If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+Beneath the bravado and confidence lies the core vulnerability of every Type 3: the fear of being worthless without achievements.
 
-> **Disclaimer** This analysis of Jake Paul's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
+This explains why criticism seems to both bother and motivate Jake. It's not just about being disliked – it's about the potential implication that he hasn't achieved enough to be respected.
 
-<svelte:head>
+Jake's relationship with his equally famous brother Logan reveals another dimension of his Type 3 psychology. The siblings are simultaneously competitive and supportive – pushing each other while defending each other from outside criticism.
 
-<script type="application/ld+json">
-	{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the personality traits of Jake Paul from the perspective of the Enneagram Type 3. Known for his ambition, drive for success, and constant need for validation, Jake embodies many characteristics of Type 3 personalities. The article discusses various facets of Jake's life and career that demonstrate his Type 3 characteristics, including his rise to fame, boxing career, and controversies.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-04-07"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-06-22"
-      },
-      "description": "This blog post examines the reasons why Jake Paul might be an Enneagram Type 3. It focuses on his personality traits, his motivations, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 3.",
-      "headline": "Unraveling Jake Paul: An Insight Into His Enneagram Type 3 Personality",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/3s/Jake-Paul.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Jake-Paul",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Jake Paul",
-        "sameAs": ["https://en.wikipedia.org/wiki/Jake_Paul", "https://twitter.com/jakepaul", "https://www.instagram.com/jakepaul/", "https://www.tiktok.com/@jakepaul"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-        "@type": "ImageObject",
-        "height": 60,
-        "url": "https://9takes.com/brand/aero.png",
-        "width": 600
-        },
-        "name": "9takes"
-	    }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Jake Paul exhibits many characteristics associated with Enneagram Type 3 personalities. This includes his ambition, desire for success, constant need for validation, and adaptability. These characteristics are deeply rooted in his desire to be seen as successful and valuable, which is a core motivation for Type 3 individuals."
-          },
-          "name": "Why is Jake Paul considered an Enneagram Type 3?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Jake's success in boxing, his influential social media presence, and his ability to bounce back from public controversies are all indicative of his Type 3 personality. Moreover, his constant pursuit of new ventures and his dedication to his personal image also reflect the strengths and growth potential of Type 3 individuals."
-          },
-          "name": "What are some examples of Jake Paul's Type 3 characteristics?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Jake Paul is well-known for his outgoing and charismatic personality. He is ambitious, business-minded, and tends to be in the public eye often. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
-          },
-          "name": "What is Jake Paul's personality?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Jake Paul is an Enneagram type 3, also known as The Achiever. This Enneagram type is ambitious, adaptable, and driven, often motivated by a desire to be successful and admired. Please note that this information is based on public information and not directly confirmed by Jake Paul himself."
-          },
-          "name": "What is Jake Paul's Enneagram type?"
-        }
-      ]
-    }
-  ]
-}
-</script>
+His notorious string of controversies – from neighborhood complaints to his brief marriage to Tana Mongeau – can be viewed through this same lens. For a Type 3, attention (even negative attention) is preferable to being forgotten or irrelevant.
 
-</svelte:head>
+Jake rarely shows his vulnerable side publicly, but when he does, it's revealing:
 
-<style lang="scss"></style>
+> "When I would set goals, I wouldn't let anything get in the way of me breaking them. As I found success, a lot of those things subsided and became less important." This rare moment of reflection suggests an evolving self-awareness about his driving motivations.
+
+The public rarely sees Jake's moments of doubt, the pressure he puts on himself, or the anxiety that likely comes before fights. These are the hidden costs of being an Achiever personality.
+
+## "Success Is Not Measured By Money, But By Lives You Touch": The Evolving Jake Paul
+
+Despite his controversial image, there are signs that Jake's definition of success is evolving – a classic growth pattern for maturing Type 3s.
+
+> "Success is not measured by how much money you make, but by how many lives you touch," Jake has said, showing a perspective that goes beyond materialistic achievement.
+
+He's also shown genuine interest in philanthropy, donating to organizations like the Anti-Bullying Alliance and contributing to disaster relief efforts. These actions suggest a growing awareness that true success might include positive impact, not just personal gain.
+
+Type 3s at their best evolve from seeking external validation to finding authentic value in their work and relationships. Jake's launch of the Financial Freedom Movement in 2020 – aimed at educating young people about personal finance – hints at this desire to create value beyond self-promotion.
+
+The people Jake surrounds himself with have also evolved. While his early Team 10 collective was focused on viral content creation, his current business partners include established professionals in sports, finance, and entrepreneurship.
+
+This shift reflects a common Type 3 maturation pattern: moving from "success at any cost" to more strategic, sustainable achievement.
+
+## "What Makes This Achievement Particularly Significant": Jake Paul vs. Mike Tyson and Future Legacy
+
+Jake's upcoming historic Netflix fight with Mike Tyson (scheduled for July 2024) represents the culmination of his boxing journey so far.
+
+It's a match that even Jake himself once thought impossible:
+
+> "I'm confident, but I'm not stupid," Paul told TMZ back in 2020 when asked about potentially fighting boxing legends like Tyson. "I would not go into the ring with them. Nah, no chance."
+
+Yet here we are, with Jake now saying:
+
+> "It's crazy to think that in my second pro fight, I went viral for knocking out Nate Robinson on Mike Tyson's undercard. Now, less than four years later, I'm stepping up to face Tyson himself." This statement captures the ambitious trajectory that defines Jake's career.
+
+This fight perfectly encapsulates Jake's Type 3 psychology: constantly seeking bigger challenges, more validation, and historic achievements that can't be dismissed.
+
+His inner dialogue likely oscillates between confidence (_I've earned this_) and the nagging imposter syndrome many Type 3s experience (_Do I really belong in the ring with a legend?_).
+
+What comes after Tyson? For a Type 3 like Jake, there will always be another mountain to climb, another achievement to pursue, another critic to prove wrong.
+
+## The Real Jake Paul: Understanding Boxing's Most Ambitious Personality
+
+Love him or hate him, Jake Paul makes a lot more sense when viewed through the Enneagram Type 3 lens.
+
+His relentless ambition, strategic career moves, ability to transform criticism into motivation, and constant evolution are all textbook Achiever traits. But Jake expresses these traits in his uniquely audacious way.
+
+While most Type 3s might work within established systems to find success, Jake has repeatedly disrupted industries, from social media to professional boxing.
+
+> "I want people talking about me when I'm gone," Jake once said, revealing perhaps the most telling insight into his psychological makeup.
+
+It's the core desire of every Type 3: to be significant, to matter, to be remembered for their achievements.
+
+Understanding Jake through the Enneagram doesn't excuse his controversies, but it does explain the psychological engine driving his seemingly chaotic career.
+
+So the next time you see Jake Paul making headlines – whether he's knocking out another fighter or launching an unexpected business venture – you'll understand the psychological blueprint behind the move.
+
+He's not just seeking attention.
+
+He's seeking validation through achievement.
+
+He's not just trying to win.
+
+He's trying to matter.
+
+For the Enneagram Type 3, there's no greater drive than that.
+
+> **Disclaimer:** This analysis of Jake Paul's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.

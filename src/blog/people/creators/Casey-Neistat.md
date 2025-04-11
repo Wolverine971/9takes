@@ -72,7 +72,7 @@ When Nike commissioned Casey to make an ad with their budget, he famously used t
     margin: 1rem 0;
   "
 >
-<a href="https://www.youtube.com/watch?v=S9ZblByTmqY" class="external-link" target="_blank" rel="noopener">
+<a href="https://www.youtube.com/watch?v=S9ZblByTmqY" class="external-link" target="_blank" rel="noopener" style="width:100%">
   <PopCard
     image="/blogs/makeitcount.webp"
     showIcon={false}

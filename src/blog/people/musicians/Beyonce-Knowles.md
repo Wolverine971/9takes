@@ -67,6 +67,26 @@ One of the most powerful aspects of the Type 8 personality is their instinctive 
 
 As Beyoncé's career has evolved, we've seen this side of her emerge more prominently.
 
+<div
+  style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  "
+>
+<a href="https://www.youtube.com/watch?v=gHYwerZbMS4" class="external-link" target="_blank" rel="noopener" style="width: 100%;">
+  <PopCard
+    image="/blogs/beyonce-lemonade.webp"
+    showIcon={false}
+    aspectRatio="1/1"
+    displayText=""
+    altText="Beyonce Lemonade album cover"
+    subtext=""
+    lazyLoad="true"
+  />
+
+  </a>
+</div>
+
 _Lemonade_ wasn't just a beautiful album about personal pain—it was a bold statement on Black womanhood in America. Her 2016 Super Bowl performance wasn't just entertainment—it was a deliberate political statement. Her support of Black Lives Matter wasn't just celebrity activism—it was a Type 8 standing up against what they perceive as injustice.
 
 "We need to reshape our own perception of how we view ourselves," she once stated. "We have to step up as women and take the lead."
@@ -146,6 +166,24 @@ Type 8s don't follow trends; they create them. They don't ask permission; they f
 "Take all the rules away. How can we live if we don't change?" she once questioned.
 
 When Beyoncé became the first Black woman to headline Coachella with her historic "Beychella" performance, it wasn't just a career milestone. It was a Type 8 making a statement about representation and excellence while refusing to be limited by conventions or expectations.
+
+<div
+  style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  "
+>
+  <PopCard
+    image="/blogs/Beychella.webp"
+    showIcon={false}
+    aspectRatio="16/9"
+    displayText=""
+    altText="Beyonce at Cochella Beychella"
+    subtext=""
+    lazyLoad="true"
+  />
+
+</div>
 
 Her ability to continuously reinvent herself comes from the Type 8's natural courage and willingness to take risks. They're not afraid of failure because they trust their ability to overcome any obstacle.
 
