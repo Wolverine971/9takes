@@ -779,5 +779,4 @@ The Three reminds us that while achievement creates impact, it's authenticity th
 </svelte:head>
 
 <style lang="scss">
-
 </style>

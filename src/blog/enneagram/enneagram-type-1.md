@@ -29,8 +29,6 @@ People of this type often mention a little voice in the back of their heads that
 
 <h2 id="description">Enneagram 1 Description</h2>
 
-<!-- <img loading="lazy" src="/blogs/feeling-tension.webp"  class="section-img" /> -->
-
 Individuals with the Enneagram Type 1 are characterized by their strong sense of right and wrong and their desire to improve themselves and the world around them. They are often deeply committed to making the world a better place and may become involved in causes and organizations that align with their values.
 
 Key traits of Enneagram Type 1 include:
