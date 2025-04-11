@@ -18,7 +18,9 @@ instagram: 'https://www.instagram.com/georgewbush/'
 tiktok:
 ---
 
-<p class="firstLetter">Few presidents have faced the crucible of crisis like George W. Bush. The man who entered office with a folksy Texas drawl and easy smile would find himself thrust into one of America's darkest hours, forever altering his presidency and revealing the core of his personality: an Enneagram Type 6 leader navigating unprecedented threats in real-time.</p>
+<p class="firstLetter">Few presidents have faced the crucible of crisis like George W. Bush.</p>
+
+The man who entered office with a folksy Texas drawl and easy smile would find himself thrust into one of America's darkest hours, forever altering his presidency and revealing the core of his personality: an Enneagram Type 6 leader navigating unprecedented threats in real-time.
 
 What drove the decisions that would reshape American foreign policy for decades? How did a president known for mangled syntax and casual demeanor transform into a wartime commander-in-chief? Let's journey into the mind of the 43rd president and uncover the Type 6 dynamics that defined his leadership during America's most challenging chapter since World War II.
 
@@ -26,7 +28,7 @@ What drove the decisions that would reshape American foreign policy for decades?
 
 ### Bush's Type 6 Foundation
 
-At his core, George W. Bush exemplifies the Enneagram Type 6, often called "The Loyal Skeptic" or "The Guardian." Type 6 individuals are characterized by their unwavering commitment to security, their deep-seated sense of duty, and their constant vigilance against potential threats. They crave stability and reliable alliances, yet maintain a healthy skepticism that keeps them alert to danger.
+At his core, George W. Bush exemplifies the [Enneagram Type 6](/enneagram-corner/enneagram-type-6), often called "The Loyal Skeptic" or "The Guardian." Type 6 individuals are characterized by their unwavering commitment to security, their deep-seated sense of duty, and their constant vigilance against potential threats. They crave stability and reliable alliances, yet maintain a healthy skepticism that keeps them alert to danger.
 
 For Bush, this Type 6 foundation manifested as an administration defined by loyalty, decisive action in the face of perceived threats, and a worldview that divided threats into clear moral categories. As he famously declared after 9/11:
 

@@ -45,11 +45,10 @@ His breakthrough came in 1995 while working at an art school in Italy, where he 
     margin: 1rem 0;
   "
 >
-<a href="https://amzn.to/4jxyTZr" class="external-link" target="_blank" rel="noopener">
+<a href="https://amzn.to/4jxyTZr" class="external-link book-img" target="_blank" rel="noopener">
   <PopCard
-    image="/blogs/48-laws-of-power.webp"
+    image="/books/48-laws-of-power.webp"
     showIcon={false}
-    aspectRatio="9/16"
     displayText=""
     altText="48 Laws of Power"
     subtext=""

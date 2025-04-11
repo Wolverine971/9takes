@@ -62,11 +62,10 @@ In her memoir **"Becoming,"** Michelle reveals: _"I've been at every powerful ta
     margin: 1rem 0;
   "
 >
-<a href="https://amzn.to/42mDeHJ" class="external-link" target="_blank" rel="noopener">
+<a href="https://amzn.to/42mDeHJ" class="external-link book-img" target="_blank" rel="noopener">
   <PopCard
-    image="/blogs/michelle-book-becoming.webp"
+    image="/books/michelle-book-becoming.webp"
     showIcon={false}
-    aspectRatio="9/16"
     displayText=""
     altText="Michelle's book becoming"
     subtext=""

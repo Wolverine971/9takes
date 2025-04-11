@@ -120,4 +120,4 @@ That's the legacy of a truly incredible Type 2. Someone who poured his heart int
 
 He wasn't just _a_ neighbor. He was _the_ neighbor. And maybe, just maybe, the ultimate example of an Enneagram Two living out their best, most impactful self.
 
-> **Disclaimer:** This analysis of Mr Rogers's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
+> **Disclaimer:** This analysis of Mr Rogers's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.

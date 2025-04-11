@@ -219,6 +219,7 @@ It turns a personal ritual into a public display. This act serves a dual purpose
     displayText=""
     altText="Dave Portnoy giving disproval"
     subtext=""
+    lazyLoad="true"
   />
 
 </div>

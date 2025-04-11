@@ -102,11 +102,10 @@ The publication of Harry's memoir _Spare_ in January 2023 stunned the world with
     margin: 1rem 0;
   "
 >
-<a href="https://amzn.to/4jktJzC" class="external-link" target="_blank" rel="noopener">
+<a href="https://amzn.to/4jktJzC" class="external-link book-img" target="_blank" rel="noopener">
   <PopCard
-    image="/blogs/spare.webp"
+    image="/books/spare.webp"
     showIcon={false}
-    aspectRatio="9/16"
     displayText=""
     altText="Spare by Prince Harry"
     subtext=""

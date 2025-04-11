@@ -66,6 +66,26 @@ It's also a perfect encapsulation of the Type 4's approach to creative boundarie
 
 When Nike commissioned Casey to make an ad with their budget, he famously used the money to travel around the world with his friend until the funds ran out. The resulting video, "Make It Count," wasn't what Nike expected—it was _better_. It was authentic. It was quintessentially Casey.
 
+<div
+  style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  "
+>
+<a href="https://www.youtube.com/watch?v=S9ZblByTmqY" class="external-link" target="_blank" rel="noopener">
+  <PopCard
+    image="/blogs/makeitcount.webp"
+    showIcon={false}
+    aspectRatio="16/9"
+    displayText=""
+    altText="Casey's Make it Count"
+    subtext=""
+    lazyLoad="true"
+  />
+
+  </a>
+</div>
+
 This willingness to break conventions isn't rebellion for rebellion's sake. For Type 4s like Casey, it's about integrity to their vision.
 
 His breakthrough "Bike Lanes" video—where he deliberately crashes into obstacles in NYC bike lanes to highlight their poor design—shows this perfectly. Most people would write a complaint letter. Casey made art that provoked change.
