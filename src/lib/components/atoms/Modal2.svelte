@@ -50,6 +50,14 @@
 		if (closeCallback) closeCallback(retVal);
 	}
 
+	// Handle backdrop click
+	function handleBackdropClick(event: MouseEvent) {
+		// Only close if clicking the backdrop (not modal content)
+		if (event.target === topDiv) {
+			close(event);
+		}
+	}
+
 	modals[id] = { open, close };
 
 	onDestroy(() => {
@@ -65,35 +73,21 @@
 	class:visible
 	bind:this={topDiv}
 	use:portal
-	on:keydown={(e) => e.key === 'Enter' && close(e)}
 	role="dialog"
 	aria-modal="true"
 	aria-labelledby={name}
-	on:click|stopPropagation={(event) => {
-		close(event);
-	}}
+	on:click={handleBackdropClick}
 >
-	<div
-		id="modal"
-		role="dialog"
-		aria-modal="true"
-		aria-labelledby={name}
-		on:click|stopPropagation={() => {}}
-	>
+	<!-- Modal content container -->
+	<div id="modal" on:click|stopPropagation={() => {}}>
 		{#if !navTop}
-			<svg
-				id="close"
-				on:click={close}
-				on:keydown={(e) => e.key === 'Enter' && close(e)}
-				width="1rem"
-				viewBox="0 0 12 12"
-				role="button"
-				tabindex="0"
-			>
-				<circle cx="6" cy="6" r="6" />
-				<line x1="3" y1="3" x2="9" y2="9" />
-				<line x1="9" y1="3" x2="3" y2="9" />
-			</svg>
+			<button id="close" on:click={close} aria-label="Close dialog" class="close-button">
+				<svg width="1rem" viewBox="0 0 12 12">
+					<circle cx="6" cy="6" r="6" />
+					<line x1="3" y1="3" x2="9" y2="9" />
+					<line x1="9" y1="3" x2="3" y2="9" />
+				</svg>
+			</button>
 		{/if}
 		<div id="modal-content">
 			<slot />
@@ -123,18 +117,33 @@
 	.visible {
 		visibility: visible !important;
 	}
-	#close {
+	.close-button {
 		position: absolute;
 		top: -12px;
 		right: -12px;
 		width: 24px;
 		height: 24px;
 		cursor: pointer;
-		fill: var(--primary);
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#close {
+		width: 24px;
+		height: 24px;
 		transition: transform 0.3s;
 		&:hover {
-			transform: scale(2);
+			transform: scale(1.2);
 		}
+	}
+	#close svg {
+		fill: var(--primary);
+		width: 100%;
+		height: 100%;
+
 		line {
 			stroke: #fff;
 			stroke-width: 2;
@@ -142,7 +151,6 @@
 	}
 	#modal-content {
 		max-width: calc(100vw - 20px);
-		// max-height: calc(100vh - 20px);
 		max-height: 80vh;
 		overflow: auto;
 	}
