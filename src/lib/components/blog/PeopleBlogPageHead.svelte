@@ -57,10 +57,9 @@
 
 	let jsonLdObject;
 
-	if (data.jsonLdSnippet) {
+	if (data.jsonld_snippet) {
 		// Parse existing JSON-LD snippet and override dateModified
-		jsonLdObject =
-			typeof data.jsonLdSnippet === 'string' ? JSON.parse(data.jsonLdSnippet) : data.jsonLdSnippet;
+		jsonLdObject = data.jsonld_snippet;
 
 		// Handle cases where @graph is present
 		if (jsonLdObject['@graph'] && Array.isArray(jsonLdObject['@graph'])) {

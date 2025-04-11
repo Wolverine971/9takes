@@ -73,6 +73,7 @@ Jake's ambitions extend far beyond YouTube stunts and boxing matches.
     justify-content: center;
     margin: 1rem 0;
   "
+  class="book-img"
 >
   <PopCard
     image="/blogs/antifund.webp"

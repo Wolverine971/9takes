@@ -76,7 +76,7 @@ async function parseMarkdownFile(filePath) {
 	const { data, content } = matter(fileContent);
 
 	// Extract JSON-LD
-	const jsonLdSnippet = extractJsonLd(content);
+	const jsonld_snippet = extractJsonLd(content);
 
 	// Clean up content
 	const cleanedContent = cleanupContent(content);
@@ -101,7 +101,7 @@ async function parseMarkdownFile(filePath) {
 		instagram: data.instagram || '',
 		tiktok: data.tiktok || '',
 		content: cleanedContent,
-		jsonLdSnippet: jsonLdSnippet || ''
+		jsonld_snippet: jsonld_snippet || ''
 	};
 }
 
@@ -198,7 +198,7 @@ async function insertIntoSupabase(entries) {
 				instagram: entry.instagram,
 				tiktok: entry.tiktok,
 				content: entry.content,
-				jsonLdSnippet: entry.jsonLdSnippet
+				jsonld_snippet: entry.jsonld_snippet
 			}); // Assuming 'loc' is a unique identifier
 
 			if (error) {
