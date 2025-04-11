@@ -56,6 +56,7 @@ The development journey for Type 2s involves learning that boundaries aren't bar
 | 2    | Helper, Giver       | Flattery     | Freedom, Will | Freedom | Being unlovable | To feel worthy of love | Deny own needs, manipulation | Pride        | Humility | 8                      | 4                     |
 
 </div>
+
 </section>
 
 <section class="section-content">

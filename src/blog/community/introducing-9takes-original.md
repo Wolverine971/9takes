@@ -55,7 +55,7 @@ Over time, the internet has become increasingly fragmented, with once-vibrant pl
 
 The creator of 9takes has observed the progression of social media and identified two distinct waves:
 
-<section >
+<section>
 		<h3 style="margin: 0;">There are two social media waves.</h3>
 		<section class="wave-sections" style="border: 1px solid grey;">
 			<h4 style="margin-top: 0;">🤖 Old wave 🔄</h4>
