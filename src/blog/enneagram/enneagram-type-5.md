@@ -63,7 +63,7 @@ Key structural elements that form the Type 5 personality include:
 
 <section class="section-content">
 
-## The Observer's Arsenal: Strategic Strengths of Type 5
+## 💪 The Observer's Arsenal: Strategic Strengths of Type 5
 
 The strengths of Type 5 individuals don't announce themselves with fanfare. Rather, they reveal themselves through the **structural integrity of their thinking** and the unexpected connections they discover between seemingly unrelated elements.
 
@@ -108,7 +108,7 @@ The Observer's strengths emerge most powerfully in contexts that value depth ove
 
 <section class="section-content">
 
-## Structural Weaknesses: The Observer's Blind Spots
+## 🤔 Structural Weaknesses: The Observer's Blind Spots
 
 Like any architectural structure, the Type 5 personality contains inherent tensions that can create potential points of failure. Their intellectual frameworks, while extensive, sometimes lack integration with physical experience and emotional reality.
 
@@ -138,9 +138,64 @@ Their tendency to inhabit conceptual space creates a specific structural weaknes
 
 </section>
 
+<div class="checklist-container">
+  <h3 class="checklist-title">Are You a Type 5? Self-Assessment Checklist</h3>
+  <div class="checklist-item">
+    <input type="checkbox" id="item1">
+    <label for="item1">You prefer to observe and analyze a situation before directly participating in it.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item2">
+    <label for="item2">You require significant time alone to recharge your mental and emotional energy.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item3">
+    <label for="item3">You tend to develop deep expertise in areas that interest you rather than broad, surface-level knowledge.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item4">
+    <label for="item4">You value your privacy and maintain clear boundaries around your personal space and time.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item5">
+    <label for="item5">You often feel uncomfortable when expected to express emotions spontaneously or publicly.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item6">
+    <label for="item6">You consider independence and self-sufficiency to be core values in your life.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item7">
+    <label for="item7">You sometimes find yourself detaching from emotions to analyze them intellectually.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item8">
+    <label for="item8">You feel most comfortable in situations where you have sufficient knowledge or competence.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item9">
+    <label for="item9">Under stress, you may become scattered, impulsive, or seek excessive distraction.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item10">
+    <label for="item10">You often need to mentally process experiences before discussing them with others.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item11">
+    <label for="item11">You're selective about social engagements and prefer smaller, more intimate gatherings to large social events.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item12">
+    <label for="item12">You find yourself wanting to understand how things work at a fundamental level.</label>
+  </div>
+  <div class="results-section">
+    <p>If you checked 7 or more items, you likely have strong Type 5 patterns. Remember, everyone has aspects of all nine types, but typically one or two types predominate in our personality structure.</p>
+  </div>
+</div>
+
 <section class="section-content">
 
-## Foundations of Motivation: What Drives the Observer
+## 🧭 Foundations of Motivation: What Drives the Observer
 
 To truly understand the Type 5's architectural choices, one must examine the foundational motivations that drive their construction of experience:
 
@@ -168,7 +223,7 @@ Many Type 5s are motivated to reduce complexity and eliminate noise from their e
 
 <section class="section-content">
 
-## Structural Vulnerabilities: The Observer's Deepest Fears
+## 😨 Structural Vulnerabilities: The Observer's Deepest Fears
 
 Type 5s' architectural choices become even more comprehensible when examining the foundational fears that influence their design decisions:
 
@@ -200,7 +255,7 @@ Many Type 5s operate from a fundamental assumption of limitation—that their en
 
 <section class="section-content">
 
-## Structural Collapse: Type 5 Under Stress
+## 🤯 Structural Collapse: Type 5 Under Stress
 
 Under significant pressure, Type 5s experience a remarkable architectural transformation. Their typically stable, ordered mental frameworks begin to exhibit stress fractures, eventually taking on characteristics of an unhealthy Type 7 (The Enthusiast).
 
@@ -268,7 +323,7 @@ For Type 5s experiencing stress, effective stabilization typically involves:
 
 <section class="section-content">
 
-## Developmental Foundations: The Observer's Origins
+## 🧸 Developmental Foundations: The Observer's Origins
 
 The architectural patterns of Type 5 personality typically trace back to formative childhood experiences that established their fundamental approach to the world.
 
@@ -306,64 +361,9 @@ These childhood patterns established the architectural foundation for adult Type
 
 <section class="section-content">
 
-## Relational Architecture: The Observer in Love
+## 👫 Relational Architecture: The Observer in Love
 
 For Type 5s, intimate relationships represent both significant challenge and profound opportunity. Their approach to connection reflects their overall architectural style—thoughtful, measured, and designed to balance closeness with necessary independence.
-
-<div class="checklist-container">
-  <h3 class="checklist-title">Are You a Type 5? Self-Assessment Checklist</h3>
-  <div class="checklist-item">
-    <input type="checkbox" id="item1">
-    <label for="item1">You prefer to observe and analyze a situation before directly participating in it.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item2">
-    <label for="item2">You require significant time alone to recharge your mental and emotional energy.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item3">
-    <label for="item3">You tend to develop deep expertise in areas that interest you rather than broad, surface-level knowledge.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item4">
-    <label for="item4">You value your privacy and maintain clear boundaries around your personal space and time.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item5">
-    <label for="item5">You often feel uncomfortable when expected to express emotions spontaneously or publicly.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item6">
-    <label for="item6">You consider independence and self-sufficiency to be core values in your life.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item7">
-    <label for="item7">You sometimes find yourself detaching from emotions to analyze them intellectually.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item8">
-    <label for="item8">You feel most comfortable in situations where you have sufficient knowledge or competence.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item9">
-    <label for="item9">Under stress, you may become scattered, impulsive, or seek excessive distraction.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item10">
-    <label for="item10">You often need to mentally process experiences before discussing them with others.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item11">
-    <label for="item11">You're selective about social engagements and prefer smaller, more intimate gatherings to large social events.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item12">
-    <label for="item12">You find yourself wanting to understand how things work at a fundamental level.</label>
-  </div>
-  <div class="results-section">
-    <p>If you checked 7 or more items, you likely have strong Type 5 patterns. Remember, everyone has aspects of all nine types, but typically one or two types predominate in our personality structure.</p>
-  </div>
-</div>
 
 ### The Type 5 Approach to Intimacy
 
@@ -429,7 +429,7 @@ Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">ot
 
 <section class="section-content">
 
-## Professional Architecture: Type 5 in the Workplace
+## 💼 Professional Architecture: Type 5 in the Workplace
 
 The work environment presents both opportunities and challenges for Type 5 individuals. Their unique approach to professional life creates a distinctive presence characterized by expertise, innovation, and independence.
 
@@ -495,7 +495,7 @@ Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">ot
 
 <section class="section-content">
 
-## Architectural Evolution: Growth and Integration
+## 🌱 Architectural Evolution: Growth and Integration
 
 Personal development for Type 5 individuals involves expanding their existing structure while maintaining its foundational strengths. Growth isn't about demolishing their intellectual framework—it's about creating additional wings and passageways that allow for greater engagement and expression.
 
@@ -579,7 +579,7 @@ Meaningful growth typically includes developing richer interpersonal connections
 
 <section class="section-content">
 
-## The Observer's Testimony: Type 5s Share Their Experience
+## 🤝 The Observer's Testimony: Type 5s Share Their Experience
 
 The theoretical architecture of Type 5 comes alive through firsthand accounts. In panel discussions and interviews, Type 5s offer rare glimpses into their internal experience:
 
@@ -623,7 +623,7 @@ These personal accounts illuminate the rich inner architecture of Type 5 individ
 
 <section class="section-content">
 
-## Notable Type 5s: Observers Who Shaped Our World
+## 🌟 Notable Type 5s: Observers Who Shaped Our World
 
 <FamousTypes type={5} />
 

@@ -5,6 +5,7 @@
 	let description: string = data?.description;
 	let slug = `personality-analysis/${data.slug}`;
 	const formattedTitle = title ? `${title}` : '9takes';
+	let jsonLdString: string;
 
 	// Prepare common JSON-LD fields
 	const commonJsonLDFields = {
@@ -55,32 +56,41 @@
 		}
 	};
 
-	let jsonLdObject;
+	// Make this reactive to ensure it updates when data changes
+	$: {
+		try {
+			let jsonLdObject;
 
-	if (data.jsonld_snippet) {
-		// Parse existing JSON-LD snippet and override dateModified
-		jsonLdObject = data.jsonld_snippet;
+			if (data.jsonld_snippet) {
+				// Create a deep copy to avoid modifying the original object
+				jsonLdObject = JSON.parse(JSON.stringify(data.jsonld_snippet));
 
-		// Handle cases where @graph is present
-		if (jsonLdObject['@graph'] && Array.isArray(jsonLdObject['@graph'])) {
-			jsonLdObject['@graph'] = jsonLdObject['@graph'].map((item) => {
-				if (item['@type'] === 'Article' && item.dateModified) {
-					item.dateModified = { '@type': 'Date', '@value': data.lastmod };
+				// Handle cases where @graph is present
+				if (jsonLdObject['@graph'] && Array.isArray(jsonLdObject['@graph'])) {
+					jsonLdObject['@graph'] = jsonLdObject['@graph'].map((item) => {
+						if (item['@type'] === 'Article' && item.dateModified) {
+							item.dateModified = data.lastmod;
+						}
+						return item;
+					});
+				} else {
+					// Single object case
+					if (jsonLdObject.dateModified) {
+						jsonLdObject.dateModified = data.lastmod;
+					}
 				}
-				return item;
-			});
-		} else {
-			// Single object case
-			if (jsonLdObject.dateModified) {
-				jsonLdObject.dateModified = { '@type': 'Date', '@value': data.lastmod };
+			} else {
+				// Generate generic snippet if none exists
+				jsonLdObject = commonJsonLDFields;
 			}
-		}
-	} else {
-		// Generate generic snippet if none exists
-		jsonLdObject = commonJsonLDFields;
-	}
 
-	const jsonLdString = JSON.stringify(jsonLdObject);
+			jsonLdString = JSON.stringify(jsonLdObject);
+		} catch (error) {
+			console.error('Error generating JSON-LD:', error);
+			// Fallback to basic JSON-LD
+			jsonLdString = JSON.stringify(commonJsonLDFields);
+		}
+	}
 </script>
 
 <svelte:head>
@@ -123,8 +133,10 @@
 		content={`Personality, Enneagram, Psychology, Mindset, ${data.person.split('-').join(' ')}`}
 	/>
 
-	<!-- JSON-LD snippet -->
-	<script type="application/ld+json">
-		{jsonLdString}
-	</script>
+	<!-- JSON-LD snippet - Use {@html} to avoid double-escaping -->
+	{#if jsonLdString}
+		<script type="application/ld+json">
+			{@html jsonLdString}
+		</script>
+	{/if}
 </svelte:head>

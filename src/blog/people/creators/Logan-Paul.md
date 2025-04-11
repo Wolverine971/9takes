@@ -1,6 +1,6 @@
 ---
-title: 'Logan Paul: Maverick Mentality of a Type 7 Impaulsive'
-description: "From Vine to boxing, analyze Logan Paul's Type 7 personality. Discover how it drives his content, controversies, and Maverick brand."
+title: 'Logan Paul: Maverick Mentality of a Type 3 Impaulsive'
+description: "From Vine to boxing, analyze Logan Paul's Type 3 personality. Discover how it drives his content, controversies, and Maverick brand."
 author: 'DJ Wayne'
 date: '2023-06-20'
 loc: 'https://9takes.com/personality-analysis/Logan-Paul'
@@ -8,7 +8,7 @@ lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-enneagram: 7
+enneagram: 3
 type: ['creator']
 person: 'Logan-Paul'
 suggestions: ['Jake Paul', 'Mr Beast', 'David Dobrik']

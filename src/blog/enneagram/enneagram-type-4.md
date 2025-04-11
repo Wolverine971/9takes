@@ -57,7 +57,7 @@ Their relationship with authenticity creates a particular tension in their desig
 
 <section class="section-content">
 
-## The Gifts of the Individualist: Strengths That Set Type 4s Apart
+## 💪 The Gifts of the Individualist: Strengths That Set Type 4s Apart
 
 The strengths of Type 4 individuals form the supporting columns of their character, creating spaces where beauty, meaning, and authentic expression can flourish:
 
@@ -93,7 +93,7 @@ Creative fields naturally accommodate the Four's need for meaningful expression.
 
 <section class="section-content">
 
-## Navigating the Shadows: Challenges Faced by Type 4s
+## 🤔 Navigating the Shadows: Challenges Faced by Type 4s
 
 Behind the rich expressiveness of Type 4s lie corridors of challenge—spaces where their greatest strengths, when unbalanced, can become limiting rather than liberating.
 
@@ -126,14 +126,6 @@ The Four's **Hypersensitivity to Criticism** emerges from their deep identificat
 Understanding these challenges provides Fours with a map of their internal terrain—identifying areas where growth might create more balanced emotional landscapes while honoring the depth and sensitivity that make their perspective unique.
 
 </section>
-
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
-</div>
-
-<section class="section-content">
-
-## What Drives the Individualist: Core Motivations of Type 4s
 
 <div class="checklist-container">
   <h3 class="checklist-title">Are You a Type 4? Self-Assessment Checklist</h3>
@@ -190,6 +182,10 @@ Understanding these challenges provides Fours with a map of their internal terra
   </div>
 </div>
 
+<section class="section-content">
+
+## 🧭 What Drives the Individualist: Core Motivations of Type 4s
+
 The motivational structure of Type 4 individuals reveals the blueprint behind their distinctive behaviors and choices. These core drives form the foundation upon which their personality is constructed:
 
 At their center, Fours engage in a perpetual **Search for Identity**. "Who am I really?" becomes not an occasional question but a defining life inquiry. Unlike types who might take their identity as fixed, Fours actively explore and construct their sense of self through ongoing internal dialogue and external expression. This isn't superficial identity-shopping but a profound quest to uncover and honor their authentic nature.
@@ -220,7 +216,7 @@ Understanding these motivational patterns helps explain why Fours make the choic
 
 <section class="section-content">
 
-## The Shadow Side: Understanding a Type 4's Fears
+## 😨 The Shadow Side: Understanding a Type 4's Fears
 
 The fears that haunt Type 4s create negative space in their personality architecture—areas of concern that shape behavior as powerfully as their desires and aspirations:
 
@@ -256,7 +252,7 @@ Understanding these fears provides insight into behaviors that might otherwise s
 
 <section class="section-content">
 
-## When the World Feels Too Much: Type 4s Under Stress
+## 🤯 When the World Feels Too Much: Type 4s Under Stress
 
 When stress overwhelms a Type 4's normal emotional regulation, their personality structure undergoes a significant shift. They move toward the less healthy aspects of Type 2, "The Helper," in a transformation that isn't conscious choice but automatic response to feeling their needs aren't being met in healthier ways.
 
@@ -304,7 +300,7 @@ Read more about <a href="/enneagram-corner/enneagram-stress-number">other types 
 
 <section class="section-content">
 
-## The Roots of Individuality: Foundational Experiences
+## 🧸 The Roots of Individuality: Foundational Experiences
 
 The childhood experiences of Type 4 individuals often contain patterns that establish the blueprint for their adult personality. While every Four's story is unique, certain themes frequently appear in their early years, creating the foundation upon which their distinctive perspective develops.
 
@@ -336,9 +332,13 @@ Understanding these childhood dynamics helps adult Fours recognize how their ear
 
 </section>
 
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
+
 <section class="section-content">
 
-## The Dance of Intimacy: Type 4s in Relationships
+## 👫 The Dance of Intimacy: Type 4s in Relationships
 
 Relationships for Type 4 individuals follow distinctive architectural patterns, characterized by depth, complexity, and a particular tension between yearning for connection and fear of losing themselves within it.
 
@@ -381,7 +381,7 @@ Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">ot
 
 <section class="section-content">
 
-## Finding Purpose Through Expression: Type 4s at Work
+## 💼 Finding Purpose Through Expression: Type 4s at Work
 
 The workplace presents both unique opportunities and challenges for Type 4 individuals. Their creativity and authenticity create distinctive professional patterns that can either flourish or struggle depending on the work environment.
 
@@ -419,7 +419,7 @@ Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">ot
 
 <section class="section-content">
 
-## The Journey Toward Balance: Integration and Growth for Type 4s
+## 🌱 The Journey Toward Balance: Integration and Growth for Type 4s
 
 The path of personal development for Type 4 individuals involves honoring their emotional depth while building complementary structures that create greater equilibrium. This journey isn't about suppressing their unique qualities but about integrating them with balancing strengths.
 
@@ -457,7 +457,7 @@ The integration journey for Type 4s involves moving toward the healthy qualities
 
 <section class="section-content">
 
-## In Their Own Words: Enneagram Type Fours Sharing Their Experience
+## 🤝 In Their Own Words: Enneagram Type Fours Sharing Their Experience
 
 In revealing panel discussions moderated by Enneagram expert Beatrice Chestnut, Type 4 individuals offer rare glimpses into their inner architecture—illuminating the complex structures of feeling, meaning, and identity that define their experience.
 
@@ -493,7 +493,7 @@ These authentic reflections offer valuable insights for Fours on their journey o
 
 <section class="section-content">
 
-## Creative Souls: Famous Enneagram 4s
+## 🌟 Creative Souls: Famous Enneagram 4s
 
 <FamousTypes type={4} />
 
