@@ -1,3 +1,17 @@
+---
+title: 'How to psychoanalyze a person'
+description: ''
+author: 'DJ Wayne'
+date: '2025-03-27'
+loc: 'https://9takes.com/guides/how-to-psychoanalyze-a-person'
+lastmod: '2025-03-27'
+changefreq: 'weekly'
+priority: '0.6'
+published: false
+type: ['situational']
+blog: true
+---
+
 <!-- This is how you do it.
 
 You ask yourself what does this person want me to think and feel about them.
