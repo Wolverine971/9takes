@@ -271,6 +271,61 @@ Understanding these childhood dynamics provides valuable materials for Type 7s i
 
 </section>
 
+<div class="checklist-container">
+  <h3 class="checklist-title">✅ Are You a Type 7? Self-Assessment Checklist</h3>
+  <div class="checklist-item">
+    <input type="checkbox" id="item1">
+    <label for="item1">You often find yourself planning your next adventure while still in the middle of your current one.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item2">
+    <label for="item2">The phrase "Fear of Missing Out" feels particularly relevant to your life experience.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item3">
+    <label for="item3">You're often described as the "idea person" in groups, generating possibilities others hadn't considered.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item4">
+    <label for="item4">You find it challenging to stay with negative emotions, often reframing or distracting yourself when things get uncomfortable.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item5">
+    <label for="item5">Your calendar is often overbooked with exciting plans and opportunities.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item6">
+    <label for="item6">You're naturally drawn to variety and tend to get restless with routine.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item7">
+    <label for="item7">You can quickly see the positive side of most situations, sometimes to the point where others think you're avoiding reality.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item8">
+    <label for="item8">When stressed, you can become uncharacteristically perfectionistic and critical.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item9">
+    <label for="item9">You find it hard to commit to one option when it means closing off other possibilities.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item10">
+    <label for="item10">Your mind naturally connects ideas across different domains, seeing patterns and possibilities others miss.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item11">
+    <label for="item11">You've been told you have "too many irons in the fire" or that you take on more than you can handle.</label>
+  </div>
+  <div class="checklist-item">
+    <input type="checkbox" id="item12">
+    <label for="item12">You're energized by new experiences and opportunities for learning.</label>
+  </div>
+  <div class="results-section">
+    <p>If you checked 7 or more items, you likely have strong Type 7 patterns. Remember, everyone has some qualities of each Enneagram type, but usually one or two types are dominant in our personality structure.</p>
+  </div>
+</div>
+
 <section class="section-content">
 
 ## 👫 An Enneagram 7 in Relationships: The Interpersonal Structure
@@ -418,61 +473,6 @@ This growth process represents a thoughtful integration of the Seven's natural g
 <section class="section-content">
 
 ## 🤝 Enneagram Sevens Sharing Their Experience: The Lived Reality
-
-<div class="checklist-container">
-  <h3 class="checklist-title">✅ Are You a Type 7? Self-Assessment Checklist</h3>
-  <div class="checklist-item">
-    <input type="checkbox" id="item1">
-    <label for="item1">You often find yourself planning your next adventure while still in the middle of your current one.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item2">
-    <label for="item2">The phrase "Fear of Missing Out" feels particularly relevant to your life experience.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item3">
-    <label for="item3">You're often described as the "idea person" in groups, generating possibilities others hadn't considered.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item4">
-    <label for="item4">You find it challenging to stay with negative emotions, often reframing or distracting yourself when things get uncomfortable.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item5">
-    <label for="item5">Your calendar is often overbooked with exciting plans and opportunities.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item6">
-    <label for="item6">You're naturally drawn to variety and tend to get restless with routine.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item7">
-    <label for="item7">You can quickly see the positive side of most situations, sometimes to the point where others think you're avoiding reality.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item8">
-    <label for="item8">When stressed, you can become uncharacteristically perfectionistic and critical.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item9">
-    <label for="item9">You find it hard to commit to one option when it means closing off other possibilities.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item10">
-    <label for="item10">Your mind naturally connects ideas across different domains, seeing patterns and possibilities others miss.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item11">
-    <label for="item11">You've been told you have "too many irons in the fire" or that you take on more than you can handle.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item12">
-    <label for="item12">You're energized by new experiences and opportunities for learning.</label>
-  </div>
-  <div class="results-section">
-    <p>If you checked 7 or more items, you likely have strong Type 7 patterns. Remember, everyone has some qualities of each Enneagram type, but usually one or two types are dominant in our personality structure.</p>
-  </div>
-</div>
 
 In panel discussions and personal accounts, Self-identified Type 7s offer valuable perspectives on their complex inner architecture:
 
