@@ -29,7 +29,7 @@
 	let sectionsVisible = Array(5).fill(browser ? false : true);
 
 	// Sample featured question (replace with actual data)
-	const featuredQuestion = data?.top9Questions?.filter((e) => e.id === 118 || e.id === 119)[0] || {
+	const featuredQuestion = data?.top9Questions?.filter((e) => e.id === 137 || e.id === 116)[0] || {
 		id: '1',
 		title: 'How do you handle conflicts with coworkers who have different communication styles?',
 		content:
@@ -38,6 +38,7 @@
 		commentCount: 24,
 		createdAt: new Date().toISOString()
 	};
+	console.log(data);
 
 	// Personality blogs
 	const personalityBlogs = [
