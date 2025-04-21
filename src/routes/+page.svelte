@@ -38,7 +38,6 @@
 		commentCount: 24,
 		createdAt: new Date().toISOString()
 	};
-	console.log(data);
 
 	// Personality blogs
 	const personalityBlogs = [

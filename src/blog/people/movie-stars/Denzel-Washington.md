@@ -47,7 +47,7 @@ You've seen him transform into Malcolm X with volcanic intensity. You've watched
 
 But who is the man behind these unforgettable performances?
 
-The Enneagram offers us a fascinating framework. And when we apply it to Denzel Washington, one type emerges with striking clarity: [Type 8, The Challenger](<(/enneagram-corner/enneagram-type-8)>).
+The Enneagram offers us a fascinating framework. And when we apply it to Denzel Washington, one type emerges with striking clarity: [Type 8, The Challenger](/enneagram-corner/enneagram-type-8).
 
 ## What Exactly is an Enneagram Type 8?
 

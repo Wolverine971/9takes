@@ -60,7 +60,7 @@ But the most significant relationship in Harry's life—his marriage to **Meghan
 
 When Harry stated, _"I will not be bullied into playing a game that killed my mum,"_ he wasn't being melodramatic—he was expressing the Type 6's hypervigilance toward perceived threats, especially those similar to past traumas.
 
-In [Meghan](<(/personality-analysis/Meghan-Markle)>), Harry found not just a partner but a _loyal protector_ who shares his skepticism of the royal establishment. Their relationship exhibits the classic dynamic between a Type 6 seeking security and a Type 2 seeking to be needed:
+In [Meghan](/personality-analysis/Meghan-Markle), Harry found not just a partner but a _loyal protector_ who shares his skepticism of the royal establishment. Their relationship exhibits the classic dynamic between a Type 6 seeking security and a Type 2 seeking to be needed:
 
 - Harry provides Meghan with a role where her helping nature is valued and essential
 - Meghan provides Harry with unconditional loyalty and alliance against perceived threats
