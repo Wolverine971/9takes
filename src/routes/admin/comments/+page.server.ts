@@ -5,6 +5,12 @@ import { checkDemoTime } from '../../../utils/api';
 import { getCommentParents } from '../../../utils/conversions';
 
 /**
+ * Configuration constants
+ */
+const PAGE_SIZE = 50;
+const MAX_COMMENTS = 1000;
+
+/**
  * Validates if a user is an admin and returns the user data
  */
 async function validateAdmin(session, demoTime) {
@@ -35,53 +41,96 @@ async function validateAdmin(session, demoTime) {
  */
 async function updateCommentCounts(commentData, demoTime) {
 	try {
-		if (commentData?.parent_type === 'question') {
-			// Update question comment count
-			const { count: commentCount, error: countError } = await supabase
-				.from(demoTime ? 'comments_demo' : 'comments')
-				.select('*', { count: 'exact', head: false })
-				.eq('parent_id', commentData?.parent_id)
-				.eq('parent_type', 'question')
-				.eq('removed', false);
+		if (!commentData?.parent_type || !commentData?.parent_id) {
+			console.warn('Missing parent data for comment count update');
+			return false;
+		}
 
-			if (countError) {
-				throw new Error(`Failed to get comment count: ${countError.message}`);
-			}
+		const table = demoTime ? 'comments_demo' : 'comments';
 
-			const { error: questionError } = await supabase
+		// Get comment count for the parent
+		const { count: commentCount, error: countError } = await supabase
+			.from(table)
+			.select('*', { count: 'exact', head: false })
+			.eq('parent_id', commentData.parent_id)
+			.eq('parent_type', commentData.parent_type)
+			.eq('removed', false);
+
+		if (countError) {
+			throw new Error(`Failed to get comment count: ${countError.message}`);
+		}
+
+		// Update parent based on type
+		if (commentData.parent_type === 'question') {
+			const { error: updateError } = await supabase
 				.from(demoTime ? 'questions_demo' : 'questions')
 				.update({ comment_count: commentCount })
-				.eq('id', commentData?.parent_id);
+				.eq('id', commentData.parent_id);
 
-			if (questionError) {
-				throw new Error(`Failed to update question count: ${questionError.message}`);
+			if (updateError) {
+				throw new Error(`Failed to update question count: ${updateError.message}`);
 			}
-		} else if (commentData?.parent_type === 'comment') {
-			// Update parent comment's reply count
-			const { count: commentCount, error: countError } = await supabase
-				.from(demoTime ? 'comments_demo' : 'comments')
-				.select('*', { count: 'exact', head: false })
-				.eq('parent_id', commentData?.parent_id)
-				.eq('parent_type', 'comment')
-				.eq('removed', false);
-
-			if (countError) {
-				throw new Error(`Failed to get comment count: ${countError.message}`);
-			}
-
-			const { error: commentError } = await supabase
-				.from(demoTime ? 'comments_demo' : 'comments')
+		} else if (commentData.parent_type === 'comment') {
+			const { error: updateError } = await supabase
+				.from(table)
 				.update({ comment_count: commentCount })
-				.eq('id', commentData?.parent_id);
+				.eq('id', commentData.parent_id);
 
-			if (commentError) {
-				throw new Error(`Failed to update comment count: ${commentError.message}`);
+			if (updateError) {
+				throw new Error(`Failed to update comment count: ${updateError.message}`);
 			}
 		}
+
 		return true;
 	} catch (error) {
 		console.error('Error updating comment counts:', error);
 		return false;
+	}
+}
+
+/**
+ * Get paginated comments with optional filters
+ */
+async function getPaginatedComments(table, page = 0, options = {}) {
+	try {
+		const {
+			selectionFields = '*',
+			limit = PAGE_SIZE,
+			orderField = 'created_at',
+			orderDirection = { ascending: false },
+			filters = {},
+			relationField = null
+		} = options;
+
+		let query = supabase
+			.from(table)
+			.select(selectionFields)
+			.order(orderField, orderDirection)
+			.range(page * limit, (page * limit) + limit - 1);
+
+		// Apply any filters to the query
+		Object.entries(filters).forEach(([key, value]) => {
+			if (value === null) {
+				query = query.is(key, null);
+			} else if (Array.isArray(value)) {
+				query = query.in(key, value);
+			} else {
+				query = query.eq(key, value);
+			}
+		});
+
+		// Execute query
+		const { data, error, count } = await query;
+
+		if (error) {
+			console.error(`Error fetching ${table}:`, error);
+			throw error;
+		}
+
+		return { data, count };
+	} catch (err) {
+		console.error(`Error in getPaginatedComments for ${table}:`, err);
+		throw err;
 	}
 }
 
@@ -90,47 +139,37 @@ export const load: PageServerLoad = async (event) => {
 	try {
 		const session = event.locals.session;
 		const { demo_time } = await event.parent();
+		const page = event.url.searchParams.get('page') ? parseInt(event.url.searchParams.get('page')) : 0;
 
 		// Validate user is an admin
 		const user = await validateAdmin(session, demo_time);
 
-		// Load regular comments
-		const { data: comments, error: commentsError } = await supabase
-			.from(demo_time ? 'comments_demo' : 'comments')
-			.select(`*, ${demo_time ? 'profiles_demo' : 'profiles'} (*)`)
-			.order('created_at', { ascending: false })
-			.limit(100);
+		// Table name based on demo mode
+		const commentsTable = demo_time ? 'comments_demo' : 'comments';
+		const profilesTable = demo_time ? 'profiles_demo' : 'profiles';
 
-		if (commentsError) {
-			console.error('Error fetching comments:', commentsError);
-			throw error(500, { message: 'Failed to load comments' });
-		}
+		// Load regular comments
+		const { data: comments } = await getPaginatedComments(commentsTable, page, {
+			selectionFields: `*, ${profilesTable} (*)`,
+			limit: PAGE_SIZE,
+			orderField: 'created_at',
+			orderDirection: { ascending: false }
+		});
 
 		// Load flagged comments
-		const { data: flaggedComments, error: flaggedCommentsError } = await supabase
-			.from('flagged_comments')
-			.select(`*, comments (*), profiles (*)`)
-			.is('removed_at', null)
-			.is('cleared_at', null)
-			.order('created_at', { ascending: false })
-			.limit(100);
-
-		if (flaggedCommentsError) {
-			console.error('Error fetching flagged comments:', flaggedCommentsError);
-			throw error(500, { message: 'Failed to load flagged comments' });
-		}
+		const { data: flaggedComments } = await getPaginatedComments('flagged_comments', page, {
+			selectionFields: `*, comments (*), profiles (*)`,
+			limit: PAGE_SIZE,
+			filters: {
+				removed_at: null,
+				cleared_at: null
+			}
+		});
 
 		// Load blog comments
-		const { data: blogComments, error: blogCommentsError } = await supabase
-			.from('blog_comments')
-			.select(`*`)
-			.order('created_at', { ascending: false })
-			.limit(100);
-
-		if (blogCommentsError) {
-			console.error('Error fetching blog comments:', blogCommentsError);
-			throw error(500, { message: 'Failed to load blog comments' });
-		}
+		const { data: blogComments } = await getPaginatedComments('blog_comments', page, {
+			limit: PAGE_SIZE
+		});
 
 		// Process comments to include parent questions
 		const processedComments = comments ? await getCommentParents(comments) : [];
@@ -141,7 +180,11 @@ export const load: PageServerLoad = async (event) => {
 			comments: processedComments,
 			flaggedComments,
 			blogComments,
-			demoTime: demo_time
+			demoTime: demo_time,
+			currentPage: page,
+			hasMore: (comments?.length === PAGE_SIZE) ||
+				(flaggedComments?.length === PAGE_SIZE) ||
+				(blogComments?.length === PAGE_SIZE)
 		};
 	} catch (err) {
 		// Pass through redirects and errors
@@ -164,44 +207,58 @@ export const actions: Actions = {
 			// Get comment ID from form data
 			const body = Object.fromEntries(await request.formData());
 			const commentId = body.commentId as string;
+
+			if (!commentId) {
+				throw error(400, { message: 'Comment ID is required' });
+			}
+
 			const removedAt = new Date();
+			const commentsTable = demo_time ? 'comments_demo' : 'comments';
 
-			// Update flagged_comments table
-			const { error: flagError } = await supabase
-				.from('flagged_comments')
-				.update({ removed_at: removedAt })
-				.eq('comment_id', commentId);
+			// Start a transaction
+			const transaction = async () => {
+				// 1. Update flagged_comments table
+				const { error: flagError } = await supabase
+					.from('flagged_comments')
+					.update({ removed_at: removedAt })
+					.eq('comment_id', commentId);
 
-			if (flagError) {
-				console.error('Error updating flagged comment:', flagError);
-				throw error(500, { message: 'Failed to update flagged comment record' });
-			}
+				if (flagError) {
+					console.error('Error updating flagged comment:', flagError);
+					throw new Error('Failed to update flagged comment record');
+				}
 
-			// Update comments table
-			const { error: removedError } = await supabase
-				.from(demo_time ? 'comments_demo' : 'comments')
-				.update({ removed: true, removed_at: removedAt })
-				.eq('id', commentId);
+				// 2. Update comments table
+				const { error: removedError } = await supabase
+					.from(commentsTable)
+					.update({ removed: true, removed_at: removedAt })
+					.eq('id', commentId);
 
-			if (removedError) {
-				console.error('Error removing comment:', removedError);
-				throw error(500, { message: 'Failed to remove comment' });
-			}
+				if (removedError) {
+					console.error('Error removing comment:', removedError);
+					throw new Error('Failed to remove comment');
+				}
 
-			// Get the comment data for updating counts
-			const { data: comment, error: commentError } = await supabase
-				.from(demo_time ? 'comments_demo' : 'comments')
-				.select('*')
-				.eq('id', commentId)
-				.single();
+				// 3. Get the comment data for updating counts
+				const { data: comment, error: commentError } = await supabase
+					.from(commentsTable)
+					.select('*')
+					.eq('id', commentId)
+					.single();
 
-			if (commentError) {
-				console.error('Error fetching comment data:', commentError);
-				throw error(500, { message: 'Failed to get comment data' });
-			}
+				if (commentError) {
+					console.error('Error fetching comment data:', commentError);
+					throw new Error('Failed to get comment data');
+				}
 
-			// Update comment counts for parent content
-			await updateCommentCounts(comment, demo_time);
+				// 4. Update comment counts for parent content
+				await updateCommentCounts(comment, demo_time);
+
+				return comment;
+			};
+
+			// Execute the transaction
+			await transaction();
 
 			return { success: true };
 		} catch (e) {
@@ -223,47 +280,61 @@ export const actions: Actions = {
 			// Get comment ID from form data
 			const body = Object.fromEntries(await request.formData());
 			const commentId = body.commentId as string;
+
+			if (!commentId) {
+				throw error(400, { message: 'Comment ID is required' });
+			}
+
 			const clearedAt = new Date();
+			const commentsTable = demo_time ? 'comments_demo' : 'comments';
 
-			// Update flagged_comments table
-			const { error: unFlagError } = await supabase
-				.from('flagged_comments')
-				.update({ cleared_at: clearedAt })
-				.eq('comment_id', commentId);
+			// Start a transaction
+			const transaction = async () => {
+				// 1. Update flagged_comments table
+				const { error: unFlagError } = await supabase
+					.from('flagged_comments')
+					.update({ cleared_at: clearedAt })
+					.eq('comment_id', commentId);
 
-			if (unFlagError) {
-				console.error('Error unflagging comment:', unFlagError);
-				throw error(500, { message: 'Failed to unflag comment' });
-			}
+				if (unFlagError) {
+					console.error('Error unflagging comment:', unFlagError);
+					throw new Error('Failed to unflag comment');
+				}
 
-			// Update comments table
-			const { error: clearedCommentError } = await supabase
-				.from(demo_time ? 'comments_demo' : 'comments')
-				.update({ removed: false, removed_at: null })
-				.eq('id', commentId);
+				// 2. Update comments table
+				const { error: clearedCommentError } = await supabase
+					.from(commentsTable)
+					.update({ removed: false, removed_at: null })
+					.eq('id', commentId);
 
-			if (clearedCommentError) {
-				console.error('Error clearing comment flag:', clearedCommentError);
-				throw error(500, { message: 'Failed to restore comment' });
-			}
+				if (clearedCommentError) {
+					console.error('Error clearing comment flag:', clearedCommentError);
+					throw new Error('Failed to restore comment');
+				}
 
-			// Get the comment data for updating counts
-			const { data: comment, error: commentError } = await supabase
-				.from(demo_time ? 'comments_demo' : 'comments')
-				.select('*')
-				.eq('id', commentId)
-				.single();
+				// 3. Get the comment data for updating counts
+				const { data: comment, error: commentError } = await supabase
+					.from(commentsTable)
+					.select('*')
+					.eq('id', commentId)
+					.single();
 
-			if (commentError) {
-				console.error('Error fetching comment data:', commentError);
-				throw error(500, { message: 'Failed to get comment data' });
-			}
+				if (commentError) {
+					console.error('Error fetching comment data:', commentError);
+					throw new Error('Failed to get comment data');
+				}
 
-			// Update comment counts for parent content
-			await updateCommentCounts(comment, demo_time);
+				// 4. Update comment counts for parent content
+				await updateCommentCounts(comment, demo_time);
+
+				return comment;
+			};
+
+			// Execute the transaction
+			await transaction();
 
 			return { success: true };
-		} catch (e) {
+		} catch (e: any) {
 			console.error('Error in unflagComment action:', e);
 			throw error(400, {
 				message: e.message || 'Failed to unflag comment'

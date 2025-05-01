@@ -37,7 +37,7 @@ export const load: PageServerLoad = async () => {
 			const key = Number(keyStr);
 			let group = famousTypes[key].filter((person) => person.link);
 			if (group.length < 9) {
-				console.log(key);
+				// console.log(key);
 				group.push(...famousTypes[key].filter((person) => !person.link).slice(0, 3));
 			}
 

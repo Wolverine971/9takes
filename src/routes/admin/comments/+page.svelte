@@ -1,85 +1,164 @@
 <script lang="ts">
-	import AdminQuestionItem from '$lib/components/questions/AdminQuestionItem.svelte';
 	import { invalidateAll } from '$app/navigation';
+	import { page } from '$app/stores';
 	import type { PageData } from './$types';
 	import { convertDateToReadable } from '../../../utils/conversions';
+	import { notifications } from '$lib/components/molecules/notifications';
+	import Spinner from '$lib/components/atoms/Spinner.svelte';
+	import Modal from '$lib/components/atoms/Modal2.svelte';
+	import { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	export let data: PageData;
 
-	// Admin navigation items
-	const navItems = [
-		{ href: '/admin/users', label: 'Users' },
-		{ href: '/admin/questions', label: 'Questions' },
-		{ href: '/admin/comments', label: 'Comments', active: true },
-		{ href: '/content-board', label: 'Content Board' },
-		{ href: '/marketing', label: 'Marketing' },
-		{ href: '/links', label: 'Links' },
-		{ href: '/admin/messages', label: 'Messages' }
+	// State variables
+	let loading = false;
+	let currentCommentId: number | null = null;
+	let actionType: 'remove' | 'unflag' | null = null;
+
+	// Admin navigation items with dynamic active state
+	$: navItems = [
+		{ href: '/admin/users', label: 'Users', active: $page.url.pathname === '/admin/users' },
+		{
+			href: '/admin/questions',
+			label: 'Questions',
+			active: $page.url.pathname === '/admin/questions'
+		},
+		{
+			href: '/admin/comments',
+			label: 'Comments',
+			active: $page.url.pathname === '/admin/comments'
+		},
+		{
+			href: '/content-board',
+			label: 'Content Board',
+			active: $page.url.pathname === '/content-board'
+		},
+		{ href: '/marketing', label: 'Marketing', active: $page.url.pathname === '/marketing' },
+		{ href: '/links', label: 'Links', active: $page.url.pathname === '/links' },
+		{ href: '/admin/messages', label: 'Messages', active: $page.url.pathname === '/admin/messages' }
 	];
+
+	// Set up action confirmation
+	const confirmAction = (id: number, type: 'remove' | 'unflag') => {
+		currentCommentId = id;
+		actionType = type;
+		getModal('confirmation-modal').open();
+	};
 
 	// Handle comment removal
 	const removeComment = async (commentId: number) => {
+		if (!commentId) return;
+
+		loading = true;
 		try {
 			const body = new FormData();
 			body.append('commentId', commentId.toString());
-			
+
 			const response = await fetch(`?/removeComment`, {
 				method: 'POST',
 				body
 			});
-			
+
 			if (!response.ok) {
 				throw new Error('Failed to remove comment');
 			}
-			
+
 			const result = await response.json();
 			if (result.success) {
-				invalidateAll();
+				notifications.success('Comment removed successfully', 3000);
+				await invalidateAll();
+			} else {
+				throw new Error(result.message || 'Failed to remove comment');
 			}
 		} catch (error) {
 			console.error('Error removing comment:', error);
+			notifications.danger('Error removing comment: ' + (error.message || 'Unknown error'), 3000);
+		} finally {
+			loading = false;
+			currentCommentId = null;
+			actionType = null;
 		}
 	};
 
 	// Handle comment unflagging
 	const unflagComment = async (commentId: number) => {
+		if (!commentId) return;
+
+		loading = true;
 		try {
 			const body = new FormData();
 			body.append('commentId', commentId.toString());
-			
+
 			const response = await fetch(`?/unflagComment`, {
 				method: 'POST',
 				body
 			});
-			
+
 			if (!response.ok) {
 				throw new Error('Failed to unflag comment');
 			}
-			
+
 			const result = await response.json();
 			if (result.success) {
-				invalidateAll();
+				notifications.success('Comment approved and unflagged', 3000);
+				await invalidateAll();
+			} else {
+				throw new Error(result.message || 'Failed to unflag comment');
 			}
 		} catch (error) {
 			console.error('Error unflagging comment:', error);
+			notifications.danger('Error approving comment: ' + (error.message || 'Unknown error'), 3000);
+		} finally {
+			loading = false;
+			currentCommentId = null;
+			actionType = null;
 		}
+	};
+
+	// Execute the confirmed action
+	const executeAction = async () => {
+		if (!currentCommentId || !actionType) return;
+
+		if (actionType === 'remove') {
+			await removeComment(currentCommentId);
+		} else if (actionType === 'unflag') {
+			await unflagComment(currentCommentId);
+		}
+
+		getModal('confirmation-modal').close();
+	};
+
+	// Cancel the action and close modal
+	const cancelAction = () => {
+		currentCommentId = null;
+		actionType = null;
+		getModal('confirmation-modal').close();
+	};
+
+	// Check if comment data is missing or empty
+	const isEmptyData = (data: any[]) => {
+		return !data || data.length === 0;
 	};
 </script>
 
 {#if data.user?.admin}
-	<div class="bg-neutral-50 bg-opacity-80 backdrop-blur-sm rounded-lg shadow-lg p-6">
+	<div class="rounded-lg bg-neutral-50 bg-opacity-80 p-4 shadow-lg backdrop-blur-sm md:p-6">
 		<!-- Admin Navigation -->
-		<div class="flex space-x-4 mb-6 overflow-x-auto pb-2">
-			{#each navItems as item}
-				<a 
-					href={item.href} 
-					class="{item.active ? 'text-primary-700 font-semibold' : 'text-neutral-600 hover:text-primary-600'} transition-colors"
-				>
-					{item.label}
-				</a>
-				{#if item !== navItems[navItems.length - 1]}
-					<span class="text-neutral-400">|</span>
-				{/if}
+		<div class="mb-6 flex flex-wrap gap-y-2 overflow-x-auto pb-2">
+			{#each navItems as item, i}
+				<div class="flex items-center">
+					<a
+						href={item.href}
+						class="{item.active
+							? 'font-semibold text-primary-700'
+							: 'text-neutral-600 hover:text-primary-600'} whitespace-nowrap px-2 transition-colors"
+					>
+						{item.label}
+					</a>
+					{#if i !== navItems.length - 1}
+						<span class="text-neutral-400">|</span>
+					{/if}
+				</div>
 			{/each}
 		</div>
 
@@ -87,82 +166,204 @@
 			<h1 class="text-2xl font-bold text-neutral-900">Comments</h1>
 		</div>
 
+		<!-- Loading Overlay -->
+		{#if loading}
+			<div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+				<div class="flex flex-col items-center rounded-lg bg-white p-6 shadow-lg">
+					<Spinner size="lg" />
+					<p class="mt-4 text-neutral-700">Processing request...</p>
+				</div>
+			</div>
+		{/if}
+
 		<!-- Flagged Comments Section -->
-		<div class="bg-white rounded-lg shadow-md p-4 mb-6">
-			<h2 class="text-xl font-semibold text-neutral-800 mb-4">
+		<div class="mb-6 rounded-lg bg-white p-4 shadow-md">
+			<h2 class="mb-4 flex items-center text-xl font-semibold text-neutral-800">
+				<span class="mr-2 inline-block h-4 w-4 rounded-full bg-warning-500"></span>
 				Flagged Comments
 			</h2>
-			
-			{#if data?.flaggedComments?.length}
-				<div class="overflow-y-auto max-h-96 space-y-4">
+
+			{#if !isEmptyData(data.flaggedComments)}
+				<div class="max-h-96 space-y-4 overflow-y-auto">
 					{#each data.flaggedComments as comment}
-						<div class="border border-warning-500 bg-warning-50 rounded-lg p-4 shadow-sm transition-all hover:shadow-md">
+						<div
+							class="rounded-lg border border-warning-500 bg-warning-50 p-4 shadow-sm transition-all hover:shadow-md"
+						>
 							<div class="mb-3">
-								<p class="text-neutral-800 mb-2">{comment?.comments?.comment}</p>
-								<p class="text-sm text-neutral-600 bg-neutral-100 rounded-md p-2">
-									<span class="font-semibold">Reason:</span> {comment.description} 
-									<span class="font-semibold ml-2">From:</span> {comment?.profiles?.email}
-								</p>
+								{#if comment?.comments}
+									<p class="mb-2 text-neutral-800">{comment.comments.comment}</p>
+									<div class="space-y-1 rounded-md bg-neutral-100 p-2 text-sm text-neutral-600">
+										<p>
+											<span class="font-semibold">Flag Reason:</span>
+											{comment.description || 'No description provided'}
+										</p>
+										<p>
+											<span class="font-semibold">Reported By:</span>
+											{comment?.profiles?.email || 'Anonymous'}
+										</p>
+									</div>
+								{:else}
+									<p class="text-error-600 italic">Comment data unavailable</p>
+								{/if}
 							</div>
-							<div class="flex flex-wrap justify-between items-center gap-2">
-								<div class="flex space-x-2">
+							<div class="flex flex-wrap items-center justify-between gap-2">
+								<div class="flex flex-wrap gap-2">
 									<button
-										class="px-3 py-1.5 text-sm font-medium rounded text-white bg-success-500 hover:bg-success-700 focus:outline-none focus:ring-2 focus:ring-success-500 focus:ring-offset-2 transition-colors shadow-sm"
-										on:click={() => unflagComment(comment?.comments?.id)}
+										class="hover:bg-success-600 flex items-center rounded bg-success-500 px-3 py-1.5 text-sm font-medium text-white shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-success-500 focus:ring-offset-2"
+										on:click={() => confirmAction(comment?.comments?.id, 'unflag')}
+										disabled={loading || !comment?.comments?.id}
 									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="mr-1 h-4 w-4"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M5 13l4 4L19 7"
+											/>
+										</svg>
 										Approve
 									</button>
 									<button
-										class="px-3 py-1.5 text-sm font-medium rounded text-white bg-error-500 hover:bg-error-700 focus:outline-none focus:ring-2 focus:ring-error-500 focus:ring-offset-2 transition-colors shadow-sm"
-										on:click={() => removeComment(comment?.comments?.id)}
+										class="hover:bg-error-600 flex items-center rounded bg-error-500 px-3 py-1.5 text-sm font-medium text-white shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-error-500 focus:ring-offset-2"
+										on:click={() => confirmAction(comment?.comments?.id, 'remove')}
+										disabled={loading || !comment?.comments?.id}
 									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="mr-1 h-4 w-4"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+											/>
+										</svg>
 										Remove
 									</button>
 								</div>
-								<p class="text-sm text-neutral-500">
-									Flagged on {convertDateToReadable(comment.created_at)}
-								</p>
+								<div class="flex items-center text-sm text-neutral-500">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="mr-1 h-4 w-4"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+										/>
+									</svg>
+									{convertDateToReadable(comment.created_at)}
+								</div>
 							</div>
 						</div>
 					{/each}
 				</div>
 			{:else}
-				<div class="bg-neutral-50 p-4 rounded-lg text-center border border-neutral-200">
+				<div class="rounded-lg border border-neutral-200 bg-neutral-50 p-4 text-center">
 					<p class="text-neutral-600">No flagged comments</p>
 				</div>
 			{/if}
 		</div>
 
 		<!-- Regular Comments Section -->
-		{#if data?.comments?.length}
-			<div class="bg-white rounded-lg shadow-md p-4 mb-6">
-				<h2 class="text-xl font-semibold text-neutral-800 mb-4">
+		{#if !isEmptyData(data.comments)}
+			<div class="mb-6 rounded-lg bg-white p-4 shadow-md">
+				<h2 class="mb-4 flex items-center text-xl font-semibold text-neutral-800">
+					<span class="mr-2 inline-block h-4 w-4 rounded-full bg-info-500"></span>
 					Recent Comments
 				</h2>
-				<div class="overflow-y-auto max-h-96 space-y-4">
+				<div class="max-h-96 space-y-4 overflow-y-auto">
 					{#each data.comments as comment}
-						<div class="border border-neutral-200 rounded-lg p-4 shadow-sm transition-all hover:shadow-md {comment.removed ? 'bg-error-50' : 'bg-white'}">
+						<div
+							class="rounded-lg border border-neutral-200 p-4 shadow-sm transition-all hover:shadow-md {comment.removed
+								? 'bg-error-50'
+								: 'bg-white'}"
+						>
 							<p class="mb-3 text-neutral-800 {comment.removed ? 'text-error-700' : ''}">
-								{comment?.comment}
-							</p>
-							<div class="flex flex-wrap justify-end items-center gap-x-4 gap-y-1 text-sm">
-								{#if comment?.parentQuestion}
-									<a 
-										href="/questions/{comment?.parentQuestion?.url}" 
-										class="text-primary-700 hover:text-primary-800 transition-colors"
+								{comment?.comment || 'No comment text'}
+								{#if comment.removed}
+									<span
+										class="ml-2 rounded bg-error-100 px-2 py-0.5 text-xs font-medium text-error-700"
+										>Removed</span
 									>
-										{(comment?.parentQuestion?.question_formatted || '').slice(0, 30)}...
-									</a>
 								{/if}
-								<a 
-									href="/users/{comment?.profiles?.external_id}" 
-									class="text-primary-700 hover:text-primary-800 transition-colors"
-								>
-									{comment?.profiles?.email}
-								</a>
-								<p class="text-neutral-500">
+							</p>
+							<div class="flex flex-wrap items-center justify-between gap-2 text-sm">
+								<div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+									{#if comment?.parentQuestion}
+										<a
+											href="/questions/{comment?.parentQuestion?.url}"
+											class="flex items-center text-primary-700 transition-colors hover:text-primary-800"
+										>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												class="mr-1 h-4 w-4"
+												fill="none"
+												viewBox="0 0 24 24"
+												stroke="currentColor"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+												/>
+											</svg>
+											{(comment?.parentQuestion?.question_formatted || '').slice(0, 30)}...
+										</a>
+									{/if}
+									<a
+										href="/users/{comment?.profiles?.external_id}"
+										class="flex items-center text-primary-700 transition-colors hover:text-primary-800"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="mr-1 h-4 w-4"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+											/>
+										</svg>
+										{comment?.profiles?.email || 'Anonymous'}
+									</a>
+								</div>
+								<div class="flex items-center text-neutral-500">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="mr-1 h-4 w-4"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+										/>
+									</svg>
 									{convertDateToReadable(comment.created_at)}
-								</p>
+								</div>
 							</div>
 						</div>
 					{/each}
@@ -171,37 +372,136 @@
 		{/if}
 
 		<!-- Blog Comments Section -->
-		{#if data?.blogComments?.length}
-			<div class="bg-white rounded-lg shadow-md p-4">
-				<h2 class="text-xl font-semibold text-neutral-800 mb-4">
+		{#if !isEmptyData(data.blogComments)}
+			<div class="rounded-lg bg-white p-4 shadow-md">
+				<h2 class="mb-4 flex items-center text-xl font-semibold text-neutral-800">
+					<span class="mr-2 inline-block h-4 w-4 rounded-full bg-success-500"></span>
 					Blog Comments
 				</h2>
-				<div class="overflow-y-auto max-h-96 space-y-4">
+				<div class="max-h-96 space-y-4 overflow-y-auto">
 					{#each data.blogComments as blogComment}
-						<div class="border border-neutral-200 bg-white rounded-lg p-4 shadow-sm transition-all hover:shadow-md">
+						<div
+							class="rounded-lg border border-neutral-200 bg-white p-4 shadow-sm transition-all hover:shadow-md"
+						>
 							<p class="mb-3 text-neutral-800">
-								{blogComment?.comment}
+								{blogComment?.comment || 'No comment text'}
 							</p>
-							<div class="flex flex-wrap justify-end items-center gap-x-4 gap-y-1 text-sm">
-								<a 
-									href="/{blogComment.blog_type}/{blogComment?.blog_link}" 
-									class="text-primary-700 hover:text-primary-800 transition-colors"
+							<div class="flex flex-wrap items-center justify-between gap-2 text-sm">
+								<a
+									href="/{blogComment.blog_type}/{blogComment?.blog_link}"
+									class="flex items-center text-primary-700 transition-colors hover:text-primary-800"
 								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="mr-1 h-4 w-4"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+										/>
+									</svg>
 									{blogComment?.blog_link.replace(/-/g, ' ')}
 								</a>
-								<p class="text-neutral-500">
+								<div class="flex items-center text-neutral-500">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="mr-1 h-4 w-4"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+										/>
+									</svg>
 									{convertDateToReadable(blogComment.created_at)}
-								</p>
+								</div>
 							</div>
 						</div>
 					{/each}
 				</div>
 			</div>
 		{/if}
+
+		<!-- Confirmation Modal -->
+		<Modal id="confirmation-modal">
+			<div class="p-6">
+				<h3 class="mb-4 text-lg font-semibold text-neutral-900">
+					{actionType === 'remove' ? 'Remove Comment' : 'Approve Comment'}
+				</h3>
+				<p class="mb-6 text-neutral-700">
+					{#if actionType === 'remove'}
+						Are you sure you want to remove this comment? This action cannot be undone.
+					{:else if actionType === 'unflag'}
+						Are you sure you want to approve this comment and remove the flag?
+					{:else}
+						Confirm this action?
+					{/if}
+				</p>
+				<div class="flex justify-end space-x-3">
+					<button
+						class="rounded-md bg-neutral-200 px-4 py-2 text-neutral-800 transition-colors hover:bg-neutral-300"
+						on:click={cancelAction}
+					>
+						Cancel
+					</button>
+					<button
+						class="px-4 py-2 {actionType === 'remove'
+							? 'hover:bg-error-600 bg-error-500'
+							: 'hover:bg-success-600 bg-success-500'} flex items-center rounded-md text-white transition-colors"
+						on:click={executeAction}
+					>
+						{#if actionType === 'remove'}
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="mr-1 h-4 w-4"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+								/>
+							</svg>
+							Remove
+						{:else if actionType === 'unflag'}
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="mr-1 h-4 w-4"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M5 13l4 4L19 7"
+								/>
+							</svg>
+							Approve
+						{:else}
+							Confirm
+						{/if}
+					</button>
+				</div>
+			</div>
+		</Modal>
 	</div>
 {:else}
-	<div class="bg-white rounded-lg shadow-md p-6 text-center">
-		<h1 class="text-xl font-semibold text-error-500 mb-2">Access Denied</h1>
+	<div class="rounded-lg bg-white p-6 text-center shadow-md">
+		<h1 class="mb-2 text-xl font-semibold text-error-500">Access Denied</h1>
 		<p class="text-neutral-600">You need administrator privileges to view this page.</p>
 	</div>
 {/if}

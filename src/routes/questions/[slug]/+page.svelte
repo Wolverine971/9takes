@@ -19,7 +19,8 @@
 		ai_comments: data.ai_comments,
 		links: data.links,
 		links_count: data.links_count,
-		flags: data.flags
+		flags: data.flags,
+		flagReasons: data.flagReasons
 	};
 
 	// QR Code settings

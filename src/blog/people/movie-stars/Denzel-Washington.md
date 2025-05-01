@@ -197,8 +197,6 @@ Understanding Denzel Washington through the lens of Enneagram Type 8 offers valu
 
 4. **Integration matters**: Denzel's most impactful work comes when he integrates seemingly contradictory qualities – strength with vulnerability, power with restraint, intensity with wisdom.
 
-<BlogPurpose/>
-
 ## The Final Act: Denzel Washington's Enduring Legacy
 
 Few actors have maintained both the critical respect and popular appeal that Denzel Washington has achieved across four decades. Fewer still have used their position to consistently elevate others and champion stories that might otherwise remain untold.

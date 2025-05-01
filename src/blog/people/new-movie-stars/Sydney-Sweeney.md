@@ -20,26 +20,6 @@ tiktok: 'https://www.tiktok.com/@syds_garage'
 
 <!-- 'Jennifer Lawrence', 'Zendaya' -->
 
-<script>
-	import PopCard from "$lib/components/atoms/PopCard.svelte";
-	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/types/3s/${'Sydney-Sweeney'}.webp`}
-		showIcon={false}
-    enneagramType="3"
-		displayText="Sydney Sweeney"
-		subtext=""
-	/>
-</div>
-
 > "I'm very proud of my work ethic. I think that's what's gotten me to where I am."
 
 <p class="firstLetter">The camera captures her raw vulnerability. The industry celebrates her versatility. But beneath Sydney Sweeney's meteoric rise lies a complex Type 3 personality that few truly understand - a fascinating case study in the psychology of performance and achievement.</p>
@@ -178,7 +158,7 @@ This move reflects the mature Type 3's desire for creative control and authentic
 
 "I wasn't proud or super excited about all of my past roles," Sweeney admitted in a Yahoo interview. "Starting the production company gives me the chance to tell stories I believe in."
 
-Her first major project under the banner is the adaptation of Jessica Goodman's novel "The Players Table," in which she'll star alongside singer Halsey—a strategic choice that combines her artistic sensibilities with commercial appeal.
+Her first major project under the banner is the adaptation of Jessica Goodman's novel "The Players Table," in which she'll star alongside singer [Halsey](/personality-analysis/Halsey)—a strategic choice that combines her artistic sensibilities with commercial appeal.
 
 ## Mental Health Advocacy: Turning Vulnerability into Strength
 
@@ -279,117 +259,3 @@ Sydney Sweeney's evolution offers valuable insights for anyone navigating this p
 If you'd like to explore your own personality patterns more deeply, check out our <a href="/questions">questions</a> and discover the insights the Enneagram can offer. 🚀
 
 > **Disclaimer** This analysis of Sydney Sweeney's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Sydney.
-
-<svelte:head>
-
-<script type="application/ld+json">
-	{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the personality traits of Sydney Sweeney from the perspective of the Enneagram Type 3. Known for her dedication to her craft, advocacy for mental health awareness, and ability to navigate challenges, Sydney embodies many characteristics of Type 3 personalities. The article discusses various facets of Sydney's life and career that demonstrate her Type 3 characteristics, including her rise to fame, personal struggles, and passions.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-03-02"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-06-01"
-      },
-      "description": "This blog post examines the reasons why Sydney Sweeney might be an Enneagram Type 3. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these elements might be related to the core attributes of a Type 3.",
-      "headline": "Sydney Sweeney's Personality: An Enneagram Type 3",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/3s/Sydney-Sweeney.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Sydney-Sweeney",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "Sydney Sweeney",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Sydney_Sweeney",
-          "https://twitter.com/sydney_sweeney",
-          "https://www.instagram.com/sydney_sweeney/",
-          "https://www.tiktok.com/@syds_garage"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sydney Sweeney exhibits many characteristics associated with Enneagram Type 3 personalities. This includes her meticulous 100-page character journals, diverse pursuits from MMA fighting to car restoration, her expressed fears of not being 'enough,' and her drive to constantly achieve and excel. These traits reflect the Type 3's core motivation to be successful, valuable, and admired for their accomplishments."
-          },
-          "name": "Why is Sydney Sweeney considered an Enneagram Type 3?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sydney's Type 3 characteristics are evident in her obsessive preparation for roles, founding a production company for greater creative control, her diverse range of skills and interests, her candid discussions about financial insecurity despite success, and her ability to navigate public controversies with strategic authenticity. Her evolution from seeking external validation to creating meaningful opportunities for others also reflects the growth journey of a Type 3."
-          },
-          "name": "What are some examples of Sydney Sweeney's Type 3 characteristics?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sydney Sweeney is a multifaceted individual with remarkable range. She's simultaneously a dedicated actress who creates 100-page character journals, a skilled MMA fighter, a capable car mechanic restoring vintage vehicles, a mental health advocate unafraid to discuss her panic attacks, and a shrewd businesswoman with her own production company. Behind these achievements lies someone with both intense drive and vulnerability, combining the Type 3's ambition with authentic self-expression."
-          },
-          "name": "What is Sydney Sweeney's personality?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sydney Sweeney displays the core traits of an Enneagram Type 3 (The Achiever). Her personality is characterized by exceptional drive, adaptability across diverse domains, meticulous preparation, image awareness, and an underlying fear of worthlessness that fuels her achievements. She demonstrates the Type 3's evolution from external validation-seeking to more authentic self-expression and creating meaningful impact through her advocacy and production company."
-          },
-          "name": "What is Sydney Sweeney's Enneagram type?"
-        }
-      ]
-    }
-  ]
-}
-
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>

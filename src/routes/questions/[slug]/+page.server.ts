@@ -44,12 +44,15 @@ export const load: PageLoad = async (event) => {
 		);
 	}
 
-	const [comments, removedComments, links, aiComments] = await Promise.all([
+	const [comments, removedComments, links, aiComments, flagReasons] = await Promise.all([
 		getComments(question.id, demo_time, false),
 		getComments(question.id, demo_time, true),
 		getQuestionLinks(question.id),
-		demo_time ? null : getAIComments(question.id)
+		demo_time ? null : getAIComments(question.id),
+		getFlagReasons()
 	]);
+
+
 
 	return createFullResponse(
 		question,
@@ -64,7 +67,8 @@ export const load: PageLoad = async (event) => {
 		userHasAnswered,
 		event,
 		aiComments,
-		demo_time
+		demo_time,
+		flagReasons?.data || []
 	);
 };
 
@@ -495,6 +499,16 @@ async function getQuestionLinks(questionId: number) {
 	return { data, count };
 }
 
+async function getFlagReasons() {
+	const { data, error } = await supabase
+		.from('flag_reasons')
+		.select(`*`)
+	if (error) {
+		console.log('No links for question', error);
+	}
+	return { data };
+}
+
 async function getAIComments(questionId: number) {
 	const { data, error } = await supabase
 		.from('comments_ai')
@@ -516,7 +530,8 @@ function createBaseResponse(
 	session: any,
 	userHasAnswered: boolean,
 	event: any,
-	aiComments: any
+	aiComments: any,
+	flagReasons?: any[]
 ) {
 	return {
 		question,
@@ -530,7 +545,8 @@ function createBaseResponse(
 			userHasAnswered,
 			userSignedIn: event?.locals?.session?.user?.aud
 		},
-		aiComments
+		aiComments,
+		flagReasons
 	};
 }
 
@@ -547,7 +563,8 @@ function createFullResponse(
 	userHasAnswered: boolean,
 	event: any,
 	aiComments: any,
-	demo_time: boolean
+	demo_time: boolean,
+	flagReasons: any[]
 ) {
 	const baseResponse = createBaseResponse(
 		question,
@@ -558,7 +575,8 @@ function createFullResponse(
 		session,
 		userHasAnswered,
 		event,
-		aiComments
+		aiComments,
+		flagReasons
 	);
 
 	if (demo_time) {

@@ -62,8 +62,6 @@ Whether it's dealing with miscarriage or bipolar disorder, she doesn't shy away 
 
 Just like a true Type 8, Halsey is passionate about justice and isn't afraid to fight for it. Her support for the Black Lives Matter movement and LGBTQ+ rights is not just a testament to her principles but echoes the Type 8 desire for a just and fair world.
 
-<BlogPurpose/>
-
 ## Wrapping up
 
 So, there you have it. A look at Halsey through the lens of Enneagram Type 8. From her defiance and intensity to her vulnerability and desire for justice, the threads of Type 8 seem to be woven throughout her narrative. But remember, the human personality is intricate and complex, not easily compartmentalized into a single type.

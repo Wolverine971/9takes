@@ -35,9 +35,10 @@
 	let flaggingReasonId = '';
 	let isHovered = false;
 	let isExpanded = false;
+	let flagError = '';
 
 	// Create a deep copy of the comment to avoid mutation issues
-	$: _commentComment = comment ? JSON.parse(JSON.stringify(comment)) : null;
+	$: _commentComment = comment ? structuredClone(comment) : null;
 
 	// Reactive variables
 	$: lastDate = _commentComment?.comments?.length
@@ -65,6 +66,25 @@
 		isExpanded = true;
 	}
 
+	// Reset flag modal state
+	function resetFlagModal() {
+		flaggingReasonDescription = '';
+		flaggingReasonId = '';
+		flagError = '';
+	}
+
+	// Open flag modal
+	function openFlagModal() {
+		resetFlagModal();
+		getModal(`flag-comment-modal-${_commentComment.id}`).open();
+	}
+
+	// Close flag modal
+	function closeFlagModal() {
+		resetFlagModal();
+		getModal(`flag-comment-modal-${_commentComment.id}`).close();
+	}
+
 	// Load nested comments
 	async function loadNestedComments() {
 		if (!user) {
@@ -80,6 +100,10 @@
 					_commentComment?.comments?.length || 0
 				}`
 			);
+
+			if (!response.ok) {
+				throw new Error(`Server responded with status: ${response.status}`);
+			}
 
 			const newComments = await response.json();
 
@@ -118,6 +142,11 @@
 			body.append('operation', operation);
 
 			const resp = await fetch('?/likeComment', { method: 'POST', body });
+
+			if (!resp.ok) {
+				throw new Error(`Server responded with status: ${resp.status}`);
+			}
+
 			const result: any = deserialize(await resp.text());
 
 			notifications.info(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
@@ -139,6 +168,11 @@
 	// Add reply to comment
 	async function createReply() {
 		if (!canComment()) return;
+		if (!newcomment.trim()) {
+			notifications.info('Comment cannot be empty', 3000);
+			return;
+		}
+
 		loading = true;
 
 		try {
@@ -155,6 +189,11 @@
 			body.append('fingerprint', fpval?.visitorId?.toString());
 
 			const resp = await fetch('?/createCommentRando', { method: 'POST', body });
+
+			if (!resp.ok) {
+				throw new Error(`Server responded with status: ${resp.status}`);
+			}
+
 			const result: any = deserialize(await resp.text());
 
 			if (result.error) {
@@ -162,6 +201,20 @@
 			}
 
 			notifications.info('Reply Added', 3000);
+
+			// Update comment count
+			_commentComment.comment_count = (_commentComment.comment_count || 0) + 1;
+
+			// If comments is undefined, initialize it
+			if (!_commentComment.comments) {
+				_commentComment.comments = [];
+			}
+
+			// Add the new comment to the list
+			if (result?.data) {
+				_commentComment.comments = [result.data, ..._commentComment.comments];
+			}
+
 			dispatch('commentAdded', result?.data);
 			dispatch('commentUpdated', _commentComment);
 			newcomment = '';
@@ -190,6 +243,11 @@
 
 	// Edit comment
 	async function saveEdit() {
+		if (!commentEdit.trim()) {
+			notifications.info('Comment cannot be empty', 3000);
+			return;
+		}
+
 		loading = true;
 
 		try {
@@ -198,15 +256,21 @@
 			body.append('comment_id', _commentComment.id);
 
 			const resp = await fetch('/comments', { method: 'POST', body });
+
+			if (!resp.ok) {
+				throw new Error(`Server responded with status: ${resp.status}`);
+			}
+
 			const result: any = deserialize(await resp.text());
 
 			if (result?.success) {
 				notifications.info('Comment Updated', 3000);
 				_commentComment.comment = commentEdit;
+				_commentComment.modified_at = new Date().toISOString();
 				dispatch('commentUpdated', _commentComment);
 				getModal(`edit-modal-${_commentComment.id}`).close();
 			} else {
-				throw new Error(result.error);
+				throw new Error(result.error || 'Failed to update comment');
 			}
 		} catch (error) {
 			console.error('Error updating comment:', error);
@@ -218,8 +282,13 @@
 
 	// Flag comment
 	async function submitFlag() {
+		// Reset previous error
+		flagError = '';
+
+		// Validate flag reason
 		if (!flaggingReasonId) {
-			notifications.info('Please select a reason', 3000);
+			flagError = 'Please select a reason';
+			notifications.info(flagError, 3000);
 			return;
 		}
 
@@ -231,20 +300,35 @@
 			body.append('comment_id', _commentComment.id);
 			body.append('reason_id', flaggingReasonId);
 
+			// Add user information if logged in
+			if (user?.id) {
+				body.append('user_id', user.id);
+			}
+
 			const resp = await fetch('?/flagComment', { method: 'POST', body });
+
+			if (!resp.ok) {
+				throw new Error(`Server responded with status: ${resp.status}`);
+			}
+
 			const result: any = deserialize(await resp.text());
 
-			if (result?.type === 'success') {
+			// Check for success - handle multiple possible response formats
+			if (result?.type === 'success' || result?.success === true) {
 				notifications.info('Comment Flagged', 3000);
-				flaggingReasonDescription = '';
-				flaggingReasonId = '';
-				getModal(`flag-comment-modal-${_commentComment.id}`).close();
-			} else {
+				notifications.info('Will be reviewed by admins', 5000);
+				resetFlagModal();
+				closeFlagModal();
+			} else if (result?.error) {
+				flagError = result.error;
 				throw new Error(result.error);
+			} else {
+				flagError = 'Failed to flag comment';
+				throw new Error('Failed to flag comment');
 			}
 		} catch (error) {
 			console.error('Error flagging comment:', error);
-			notifications.danger('Error flagging comment', 3000);
+			notifications.danger(flagError || 'Error flagging comment', 3000);
 		} finally {
 			loading = false;
 		}
@@ -253,6 +337,17 @@
 	// Initialize on mount
 	onMount(() => {
 		innerWidth = window.innerWidth;
+
+		// Add resize event listener
+		const handleResize = () => {
+			innerWidth = window.innerWidth;
+		};
+
+		window.addEventListener('resize', handleResize);
+
+		return () => {
+			window.removeEventListener('resize', handleResize);
+		};
 	});
 </script>
 
@@ -303,7 +398,7 @@
 						on:mouseenter={() => (isHovered = true)}
 						on:mouseleave={() => (isHovered = false)}
 					>
-						<div class="action-buttons" class:hovered={isHovered}>
+						<div class="action-buttons hovered">
 							<button title="Reply" class="action-btn" on:click={() => (commenting = !commenting)}>
 								<MasterCommentIcon
 									className="action-icon"
@@ -357,10 +452,7 @@
 											</button>
 										{/if}
 
-										<button
-											class="popover-btn flag-btn"
-											on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
-										>
+										<button class="popover-btn flag-btn" on:click={openFlagModal}>
 											Flag Comment
 										</button>
 									</div>
@@ -398,7 +490,7 @@
 						class="submit-btn"
 						type="button"
 						on:click={createReply}
-						disabled={!newcomment?.length}
+						disabled={loading || !newcomment?.trim()}
 					>
 						{#if loading}
 							<div class="loader"></div>
@@ -495,17 +587,32 @@
 	<div class="modal-content">
 		<h2>Flag Comment</h2>
 		<div class="modal-body">
+			{#if flagError}
+				<div class="error-message">{flagError}</div>
+			{/if}
+
 			{#if parentData?.flagReasons?.length > 0}
 				<div class="form-group">
-					<label for="flag-reason">Reason</label>
-					<select id="flag-reason" bind:value={flaggingReasonId} class="select-input">
+					<label for="flag-reason">Reason <span class="required">*</span></label>
+					<select
+						id="flag-reason"
+						bind:value={flaggingReasonId}
+						class="select-input"
+						class:error={flagError && !flaggingReasonId}
+					>
 						<option value="" disabled selected>Select a reason</option>
 						{#each parentData.flagReasons as reason}
 							<option value={reason.id}>{reason.reason}</option>
 						{/each}
 					</select>
+					{#if flagError && !flaggingReasonId}
+						<div class="field-error">Please select a reason</div>
+					{/if}
 				</div>
+			{:else}
+				<div class="info-message">No flag reasons available. Please contact an administrator.</div>
 			{/if}
+
 			<div class="form-group">
 				<label for="flag-description">Description</label>
 				<textarea
@@ -518,18 +625,12 @@
 			</div>
 		</div>
 		<div class="modal-actions">
-			<button
-				class="cancel-btn"
-				type="button"
-				on:click={() => getModal(`flag-comment-modal-${_commentComment?.id}`).close()}
-			>
-				Cancel
-			</button>
+			<button class="cancel-btn" type="button" on:click={closeFlagModal}> Cancel </button>
 			<button
 				class="submit-btn"
 				type="button"
 				on:click={submitFlag}
-				disabled={loading || !flaggingReasonId}
+				disabled={loading || !flaggingReasonId || !parentData?.flagReasons?.length}
 			>
 				{#if loading}
 					<div class="loader"></div>
@@ -545,5 +646,46 @@
 	/* Import shared styles for comments */
 	@use './comment.scss' as *;
 
-	/* Additional component-specific styles can go here if needed */
+	/* Additional component-specific styles */
+	.error-message {
+		padding: 0.5rem;
+		margin-bottom: 1rem;
+		background-color: rgba(255, 0, 0, 0.1);
+		border-left: 3px solid red;
+		color: #d32f2f;
+		border-radius: 4px;
+	}
+
+	.info-message {
+		padding: 0.5rem;
+		margin-bottom: 1rem;
+		background-color: rgba(33, 150, 243, 0.1);
+		border-left: 3px solid #2196f3;
+		color: #1976d2;
+		border-radius: 4px;
+	}
+
+	.field-error {
+		color: #d32f2f;
+		font-size: 0.8rem;
+		margin-top: 0.2rem;
+	}
+
+	.required {
+		color: #d32f2f;
+	}
+
+	.form-group {
+		margin-bottom: 1rem;
+	}
+
+	select.error {
+		border-color: #d32f2f;
+	}
+
+	label {
+		display: block;
+		margin-bottom: 0.3rem;
+		font-weight: 500;
+	}
 </style>

@@ -26,29 +26,9 @@ tiktok: ''
 -->
 <!-- // keywords:  -->
 
-<script>
-	// import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<!-- <PopCard
-		image={`/types/7s/${'Tom-Holland'}.webp`}
-		enneagramType={7}
-		showIcon={false}
-		displayText="Tom Holland"
-		subtext=""
-	/> -->
-</div>
-
 <p class="firstLetter">When Tom Holland bursts onto a talk show set, you can *feel* the energy shift. His eyes light up. His hands start moving. He leans forward in his seat, eager to share his latest adventure.</p>
 
-This isn't just charisma—it's the unmistakable signature of an Enneagram Type 7 personality.
+This isn't just charisma—it's the unmistakable signature of an [Enneagram Type 7](/enneagram-corner/enneagram-type-7) personality.
 
 Known as "The Enthusiast," Type 7s approach life with an infectious zest that draws people in. They're the friends who convince you to try the scary roller coaster. The ones who say "yes" before knowing the full question.
 
@@ -92,7 +72,7 @@ This internal dialogue—balancing nervous energy with enthusiastic anticipation
 
 ## Becoming Spider-Man: When Opportunity Meets Preparation
 
-Tom's journey to becoming Spider-Man involved six auditions, a screen test with Robert Downey Jr., and months of uncertainty.
+Tom's journey to becoming Spider-Man involved six auditions, a screen test with [Robert Downey Jr](/personality-analysis/Robert-Downey-Jr)., and months of uncertainty.
 
 Most aspiring actors would crumble under such pressure. But Type 7s like Tom thrive in these high-stakes scenarios where possibility hangs in the balance.
 
@@ -269,14 +249,4 @@ Whether you're a devoted fan or just discovering Tom's work, seeing the Enthusia
 
 And maybe—just maybe—it inspires you to embrace your own enthusiasm a little more freely too.
 
-> **Disclaimer** This analysis of Tom Holland's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tom Holland.
-
-<svelte:head>
-
-<script type="application/ld+json">
-
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>
+> **Disclaimer** This analysis of Tom Holland's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tom.
