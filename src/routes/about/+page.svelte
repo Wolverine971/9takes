@@ -24,7 +24,9 @@
 
 <div class="mx-auto max-w-3xl px-5 py-6 leading-relaxed text-gray-800">
 	<h1 class="rounded-lg bg-black p-2 text-center text-white">
-		<span class="text-indigo-600">9takes</span>, a meeting place <br /> for curious minds
+		There are many takes on life and on any given situation, <br />
+		explore them all on <span class="text-indigo-600">9takes</span>
+		<!-- <span class="text-indigo-600">9takes</span>, a meeting place <br /> for curious minds -->
 	</h1>
 
 	<section class="mt-8">
