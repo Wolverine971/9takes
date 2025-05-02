@@ -26,7 +26,7 @@ Let's dive into the mind of the man behind Superman, Geralt, and countless other
 
 ## The Helper's Heart: Understanding Henry as an Enneagram Type 2
 
-In the world of personality psychology, the [Enneagram Type 2](/enneagram-corner/enneagram-type-8) – known as "The Helper" – is characterized by profound empathy, a desire to be needed, and a tendency to prioritize others' wellbeing over their own.
+In the world of personality psychology, the [Enneagram Type 2 – known as "The Helper"](/enneagram-corner/enneagram-type-2) – is characterized by profound empathy, a desire to be needed, and a tendency to prioritize others' wellbeing over their own.
 
 These individuals are driven by love and connection. At their best, Type 2s are genuinely selfless, supportive, and nurturing. At their most stressed, they can struggle with codependency and seek validation through their service to others.
 
