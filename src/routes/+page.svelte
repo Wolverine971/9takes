@@ -330,25 +330,31 @@
 							<h2
 								class="text-center text-xl font-bold transition-colors duration-300 group-hover:text-primary-700 md:text-2xl"
 							>
-								{featuredQuestion.question_formatted}
+								{data.questionOfTheDay
+									? data.questionOfTheDay.question_formatted
+									: 'Loading question...'}
 							</h2>
 						</div>
 
 						<div class="flex items-center justify-between">
 							<div class="flex items-center">
 								<div class="flex -space-x-2">
-									{#each featuredQuestion.comment_count.toString().split('') as num, i}
-										<div
-											class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-primary-200 text-xs font-bold text-primary-700"
-										>
-											{num}
-										</div>
-									{/each}
+									{#if data.questionOfTheDay}
+										{#each data.questionOfTheDay.comment_count.toString().split('') as num, i}
+											<div
+												class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-primary-200 text-xs font-bold text-primary-700"
+											>
+												{num}
+											</div>
+										{/each}
+									{/if}
 								</div>
 								<span class="ml-2 text-sm text-gray-500"> takes</span>
 							</div>
 							<a
-								href={`/questions/${featuredQuestion.url}`}
+								href={data.questionOfTheDay
+									? `/questions/${data.questionOfTheDay.url}`
+									: '/questions'}
 								class="inline-flex items-center text-sm font-semibold text-primary-700 hover:text-primary-800"
 							>
 								Give your take
