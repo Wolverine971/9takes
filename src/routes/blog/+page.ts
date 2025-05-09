@@ -1,5 +1,7 @@
-// import type { PageServerLoad, Actions } from './$types';
+import { error } from '@sveltejs/kit';
+// import type { slugFromPath } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
+import { supabase } from '$lib/supabase';
 
 const MAX_POSTS = 3;
 
@@ -63,17 +65,31 @@ export const load = async (): Promise<{
 		.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1))
 		.slice(0, MAX_POSTS);
 
-	const peoplePosts = (await getAllPeoplePosts())
-		.filter((post: App.BlogPost) => post.published)
-		.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1))
-		.slice(0, MAX_POSTS);
+	// const peoplePosts = (await getAllPeoplePosts())
+	// 	.filter((post: App.BlogPost) => post.published)
+	// 	.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1))
+	// 	.slice(0, MAX_POSTS);
+
+
+	const { data: peoplePosts, error: personDataError } = await supabase
+		.from('blogs_famous_people')
+		.select('*')
+		.eq('published', true)
+		.limit(MAX_POSTS)
+		.order('date', { ascending: false })
+	if (personDataError) {
+		console.log(personDataError)
+
+		throw error(404, { message: 'Error getting posts' });
+	}
+	const posts: any = peoplePosts.map(e => { return { ...e, slug: e.person } })
 
 	// const peoplePosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 
 	// publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
 	return {
-		people: peoplePosts,
+		people: posts,
 		enneagram: enneagramPosts,
 		community: communityPosts,
 		guides: guidesPosts

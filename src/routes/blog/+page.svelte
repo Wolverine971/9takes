@@ -29,12 +29,4 @@
 		border-radius: var(--base-border-radius);
 		padding: 0.25rem;
 	}
-	li::marker {
-		// display: none;
-		// content: '';
-	}
-	ul {
-		margin: 0;
-		padding: 0;
-	}
 </style>

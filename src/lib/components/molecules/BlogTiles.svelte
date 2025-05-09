@@ -124,6 +124,14 @@
 </div>
 
 <style class="scss">
+	li::marker {
+		display: none;
+		content: '';
+	}
+	ul {
+		/* // margin: 0;
+		// padding: 0; */
+	}
 	h3 {
 		font-size: 1.5rem;
 	}

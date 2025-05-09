@@ -13,75 +13,20 @@
 	let loaded = false;
 	let observer: IntersectionObserver;
 
-	const siteName = '9takes';
-	const title = '9takes | Open Source Your Conflict Resolution';
-	const metaDescription =
-		'Transform conflicts into growth opportunities. Get unique perspectives from 9 different personality types. Anonymous, unbiased feedback for better decision-making.';
-	const ogImage = 'https://9takes.com/greek_pantheon.png';
-	const domain = 'https://9takes.com';
-	const twitterHandle = '@djwayne3';
-
-	// Keywords for SEO
-	const keywords =
-		'conflict resolution, personality types, enneagram, anonymous advice, relationship help, different perspectives, personal growth, problem solving, community feedback, decision making';
-
 	// Initialize all sections as visible if not in browser, or if this is a re-render
 	let sectionsVisible = Array(5).fill(browser ? false : true);
 
-	// Sample featured question (replace with actual data)
-	const featuredQuestion = data?.top9Questions?.filter((e) => e.id === 137 || e.id === 116)[0] || {
-		id: '1',
-		title: 'How do you handle conflicts with coworkers who have different communication styles?',
-		content:
-			'I work in a team with diverse personalities. Some are direct and blunt while others prefer softer, more diplomatic approaches. This leads to frequent misunderstandings...',
-		tags: ['workplace', 'communication', 'conflict'],
-		commentCount: 24,
-		createdAt: new Date().toISOString()
+	const enneagramTypes = {
+		1: 'Type 1: The Perfectionist',
+		2: 'Type 2: The Helper',
+		3: 'Type 3: The Achiever',
+		4: 'Type 4: The Individualist',
+		5: 'Type 5: The Investigator',
+		6: 'Type 6: The Loyalist',
+		7: 'Type 7: The Enthusiast',
+		8: 'Type 8: The Challenger',
+		9: 'Type 9: The Peacemaker'
 	};
-
-	// Personality blogs
-	const personalityBlogs = [
-		{
-			id: '1',
-			title: 'Type 3: The Achiever',
-			authorName: 'Dua Lipa',
-			authorImage: '/types/3s/Dua-Lipa.webp',
-			url: '/personality-analysis/Dua-Lipa',
-			authorType: 3
-		},
-		{
-			id: '2',
-			title: 'Type 2: The Helper',
-			authorName: 'Olivia Rodrigo',
-			authorImage: '/types/2s/Olivia-Rodrigo.webp',
-			url: '/personality-analysis/Olivia-Rodrigo',
-			authorType: 2
-		},
-		{
-			id: '3',
-			title: 'Type 5: The Investigator',
-			authorName: 'David Sacks',
-			authorImage: '/types/5s/David-Sacks.webp',
-			url: '/personality-analysis/David-Sacks',
-			authorType: 5
-		},
-		{
-			id: '4',
-			title: 'Type 4: The Individualist',
-			authorName: 'Anya-Taylor-Joy',
-			authorImage: '/types/4s/Anya-Taylor-Joy.webp',
-			url: '/personality-analysis/Anya-Taylor-Joy',
-			authorType: 4
-		},
-		{
-			id: '5',
-			title: 'Type 3: The Achiever',
-			authorName: 'Sydney Sweeney',
-			authorImage: '/types/3s/Sydney-Sweeney.webp',
-			url: '/personality-analysis/Sydney-Sweeney',
-			authorType: 3
-		}
-	];
 
 	// Featured articles (recently updated from sitemap)
 	const featuredArticles = [
@@ -119,26 +64,7 @@
 		}
 	];
 
-	const steps = [
-		{
-			emoji: '🤔',
-			title: 'Ask Your Question',
-			description:
-				'Share your situation anonymously and get perspectives from different personality types.'
-		},
-		{
-			emoji: '✍️',
-			title: 'Provide Your Take',
-			description:
-				"Comment before seeing others' responses to ensure unbiased, authentic perspectives."
-		},
-		{
-			emoji: '💡',
-			title: 'Gain Insights',
-			description: 'See different takes on the question and sort answers by personality type.'
-		}
-	];
-
+	// Benefits of 9takes
 	const benefits = [
 		{
 			title: 'No More Echo Chambers',
@@ -159,21 +85,9 @@
 		}
 	];
 
-	const enneagramTypes = {
-		1: 'Type 1: The Perfectionist',
-		2: 'Type 2: The Helper',
-		3: 'Type 3: The Achiever',
-		4: 'Type 4: The Individualist',
-		5: 'Type 5: The Investigator',
-		6: 'Type 6: The Loyalist',
-		7: 'Type 7: The Enthusiast',
-		8: 'Type 8: The Challenger',
-		9: 'Type 9: The Peacemaker'
-	};
-
 	function getTransition(index) {
-		const duration = 600; // Reduced from 800 for faster loading
-		const delay = 150; // Reduced from 200 for faster loading
+		const duration = 600;
+		const delay = 150;
 		return index % 2 === 0 ? { x: -30, duration, delay } : { x: 30, duration, delay };
 	}
 
@@ -198,8 +112,8 @@
 				});
 			},
 			{
-				threshold: 0.1, // Reduced threshold for earlier loading
-				rootMargin: '100px 0px' // Increased margin for earlier loading
+				threshold: 0.1,
+				rootMargin: '100px 0px'
 			}
 		);
 
@@ -236,6 +150,17 @@
 			if (observer) observer.disconnect();
 		};
 	});
+
+	// Select 9 famous people, one from each type
+	const famousByType = Array(9)
+		.fill(null)
+		.map((_, index) => {
+			const typeNumber = index + 1;
+			// Filter data.images to find people of this type
+			const peopleOfType = data.images.filter((person) => person.type === typeNumber);
+			// Return the first person of this type, or null if none found
+			return peopleOfType.length > 0 ? peopleOfType[0] : null;
+		});
 </script>
 
 <svelte:head>
@@ -249,26 +174,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height" />
 
 	<!-- Primary Meta Tags -->
-	<title>{title}</title>
-	<meta name="title" content={title} />
-	<meta name="description" content={metaDescription} />
-	<meta name="keywords" content={keywords} />
+	<title>9takes | Open Source Your Conflict Resolution</title>
+	<meta name="title" content="9takes | Open Source Your Conflict Resolution" />
+	<meta
+		name="description"
+		content="Transform conflicts into growth opportunities. Get unique perspectives from 9 different personality types. Anonymous, unbiased feedback for better decision-making."
+	/>
+	<meta
+		name="keywords"
+		content="conflict resolution, personality types, enneagram, anonymous advice, relationship help, different perspectives, personal growth, problem solving, community feedback, decision making"
+	/>
 	<meta name="robots" content="index, follow" />
 	<meta name="language" content="English" />
-	<meta name="author" content={siteName} />
+	<meta name="author" content="9takes" />
 
 	<!-- Links -->
-	<link rel="canonical" href={domain} />
-	<link rel="alternate" href={domain} hreflang="x-default" />
-	<link rel="alternate" href={domain} hreflang="en" />
+	<link rel="canonical" href="https://9takes.com" />
+	<link rel="alternate" href="https://9takes.com" hreflang="x-default" />
+	<link rel="alternate" href="https://9takes.com" hreflang="en" />
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content={domain} />
-	<meta property="og:site_name" content={siteName} />
-	<meta property="og:title" content={title} />
-	<meta property="og:description" content={metaDescription} />
-	<meta property="og:image" content={ogImage} />
+	<meta property="og:url" content="https://9takes.com" />
+	<meta property="og:site_name" content="9takes" />
+	<meta property="og:title" content="9takes | Open Source Your Conflict Resolution" />
+	<meta
+		property="og:description"
+		content="Transform conflicts into growth opportunities. Get unique perspectives from 9 different personality types. Anonymous, unbiased feedback for better decision-making."
+	/>
+	<meta property="og:image" content="https://9takes.com/greek_pantheon.png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:locale" content="en_US" />
@@ -276,211 +210,257 @@
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content={twitterHandle} />
-	<meta name="twitter:creator" content={twitterHandle} />
-	<meta name="twitter:title" content={title} />
-	<meta name="twitter:description" content={metaDescription} />
-	<meta name="twitter:image" content={ogImage} />
+	<meta name="twitter:site" content="@djwayne3" />
+	<meta name="twitter:creator" content="@djwayne3" />
+	<meta name="twitter:title" content="9takes | Open Source Your Conflict Resolution" />
+	<meta
+		name="twitter:description"
+		content="Transform conflicts into growth opportunities. Get unique perspectives from 9 different personality types. Anonymous, unbiased feedback for better decision-making."
+	/>
+	<meta name="twitter:image" content="https://9takes.com/greek_pantheon.png" />
 	<meta name="twitter:image:alt" content="9takes - Open Source Your Conflict Resolution" />
-
-	<!-- Additional SEO Tags -->
-	<meta name="theme-color" content="#000000" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="apple-mobile-web-app-title" content={siteName} />
-
-	<!-- Mobile Specific -->
-	<meta name="format-detection" content="telephone=no" />
-	<meta name="mobile-web-app-capable" content="yes" />
 </svelte:head>
 
 <svelte:window bind:innerWidth />
 
 <!-- Main container -->
 <div class="mx-auto w-full max-w-7xl px-4">
-	<!-- Bento Grid Hero Section -->
+	<!-- Hero Section with Single Clear CTA -->
 	{#if loaded}
-		<section class="py-8 md:py-12" in:fly={getTransition(0)}>
-			<!-- Site title and tagline -->
-			<div class="mb-6 text-center md:text-left">
+		<section
+			class="flex min-h-[85vh] flex-col items-center justify-center py-8 md:py-12"
+			in:fly={getTransition(0)}
+		>
+			<div class="mb-6 text-center">
 				<h1
-					class="mb-2 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-3xl font-bold text-transparent md:text-4xl lg:text-5xl"
+					class="mb-2 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-4xl font-bold text-transparent md:text-5xl lg:text-6xl"
 				>
 					9takes
 				</h1>
-				<p class="text-lg text-gray-600 md:text-xl">What is your take on life?</p>
+				<h2 class="mb-6 text-xl text-gray-600 md:text-2xl lg:text-3xl">
+					Open Source Your Conflict Resolution
+				</h2>
+				<p class="mx-auto max-w-2xl text-lg text-gray-600 md:text-xl">
+					Get unique perspectives from 9 different personality types. Anonymous, unbiased feedback
+					for better decision-making.
+				</p>
 			</div>
 
-			<!-- Bento Box Grid Layout -->
-			<div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-3">
-				<!-- Main Question of the Day - Left Column (spans 2 rows) -->
-				<div
-					class="group rounded-2xl border border-gray-200 bg-white p-5 shadow-md transition-all duration-300 hover:shadow-lg md:col-span-2 md:row-span-2"
+			<!-- Question of the Day - Featured -->
+			<a
+				href={`/questions/${data.questionOfTheDay.url}`}
+				class="mb-8 w-full max-w-3xl rounded-xl border border-primary-200 bg-white p-6 shadow-md"
+			>
+				<span
+					class="inline-block rounded-full bg-primary-100 px-2.5 py-1 text-xs font-semibold text-primary-800"
 				>
-					<div class="flex h-full flex-col justify-between">
-						<div>
-							<span
-								class="inline-block rounded-full bg-primary-100 px-2.5 py-1 text-xs font-semibold text-primary-800"
-							>
-								Question of the Day
-							</span>
+					Question of the Day
+				</span>
+				<h3 class="my-4 text-center text-xl font-bold md:text-2xl">
+					{data.questionOfTheDay ? data.questionOfTheDay.question_formatted : 'Loading question...'}
+				</h3>
+				<div class="flex items-center justify-between">
+					<div class="flex items-center">
+						<div class="flex -space-x-2">
+							{#if data.questionOfTheDay}
+								{#each data.questionOfTheDay.comment_count.toString().split('') as num, i}
+									<div
+										class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-primary-200 text-xs font-bold text-primary-700"
+									>
+										{num}
+									</div>
+								{/each}
+							{/if}
 						</div>
-
-						<div class="my-6 flex flex-grow items-center justify-center">
-							<h2
-								class="text-center text-xl font-bold transition-colors duration-300 group-hover:text-primary-700 md:text-2xl"
-							>
-								{data.questionOfTheDay
-									? data.questionOfTheDay.question_formatted
-									: 'Loading question...'}
-							</h2>
-						</div>
-
-						<div class="flex items-center justify-between">
-							<div class="flex items-center">
-								<div class="flex -space-x-2">
-									{#if data.questionOfTheDay}
-										{#each data.questionOfTheDay.comment_count.toString().split('') as num, i}
-											<div
-												class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-primary-200 text-xs font-bold text-primary-700"
-											>
-												{num}
-											</div>
-										{/each}
-									{/if}
-								</div>
-								<span class="ml-2 text-sm text-gray-500"> takes</span>
-							</div>
-							<a
-								href={data.questionOfTheDay
-									? `/questions/${data.questionOfTheDay.url}`
-									: '/questions'}
-								class="inline-flex items-center text-sm font-semibold text-primary-700 hover:text-primary-800"
-							>
-								Give your take
-								<svg
-									class="ml-1 h-4 w-4"
-									fill="none"
-									stroke="currentColor"
-									viewBox="0 0 24 24"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M9 5l7 7-7 7"
-									></path>
-								</svg>
-							</a>
-						</div>
+						<span class="ml-2 text-sm text-gray-500">takes</span>
 					</div>
 				</div>
+			</a>
 
-				<!-- Personality Blog Tiles - Right Column (5 small tiles) -->
-				{#each data.famousPeople as blog, index}
-					<div
-						class="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
-					>
-						<a href={`personality-analysis/${blog.person}`} class="flex h-full items-center p-3">
-							<div
-								class="mr-3 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full border-2 border-primary-100"
-							>
-								<img
-									src={`/types/${blog.enneagram}s/${blog.person}.webp`}
-									alt={blog.person}
-									class="h-full w-full object-cover"
-									loading="eager"
-								/>
-							</div>
-							<div class="overflow-hidden">
-								<h3 class="truncate text-sm font-medium">{enneagramTypes[blog.enneagram]}</h3>
-								<p class="truncate text-xs text-gray-500">{blog.person.split('-').join(' ')}</p>
-							</div>
-						</a>
-					</div>
-				{/each}
-			</div>
-
-			<!-- Article Grid (2x2) -->
-			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-				{#each featuredArticles as article}
-					<a href={article.url} class="group">
-						<div
-							class="h-full overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
-						>
-							<div class="h-48 overflow-hidden">
-								<div class="relative h-full w-full overflow-hidden">
-									<img
-										src={article.image}
-										alt={article.title}
-										class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-									/>
-									<div
-										class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-									></div>
-								</div>
-							</div>
-							<div class="p-4">
-								<h3
-									class="mb-2 text-lg font-bold transition-colors duration-300 group-hover:text-primary-700"
-								>
-									{article.title}
-								</h3>
-								<p class="line-clamp-2 text-sm text-gray-600">{article.excerpt}</p>
-							</div>
-						</div>
-					</a>
-				{/each}
-			</div>
-
-			<!-- Quick Action Buttons -->
-			<div class="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-				<a
-					href="/questions"
-					class="btn-primary rounded-lg bg-primary-700 px-6 py-3 text-center font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
-				>
-					Ask a Question
-				</a>
-				<a
-					href="/book-session"
-					class="rounded-lg border border-primary-300 bg-white px-6 py-3 text-center font-semibold text-primary-700 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-400 hover:bg-primary-50 hover:shadow-md"
-				>
-					Signup for Enneagram Coaching
-				</a>
-			</div>
+			<!-- PRIMARY CTA BUTTON -->
+			<a
+				href="/questions"
+				class="btn-primary mb-4 transform rounded-xl bg-primary-700 px-8 py-4 text-center text-xl font-bold text-white shadow-lg transition-all duration-200 hover:-translate-y-1 hover:bg-primary-800 hover:shadow-xl md:text-2xl"
+			>
+				Ask a Question
+			</a>
+			<p class="text-center text-gray-500">
+				Join our community and get answers from all perspectives
+			</p>
 		</section>
 	{:else}
 		<!-- Initial placeholder to prevent layout shift -->
 		<div class="hero-placeholder h-screen"></div>
 	{/if}
 
-	<!-- How it Works Section -->
+	<!-- 3x3 Grid of Famous People by Personality Type -->
 	<div class="section-observer" data-section-index="1">
 		{#if sectionsVisible[1] || !browser}
-			<section class="py-8 md:py-16" in:fly={getTransition(1)}>
-				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">How 9takes Works</h2>
-				<div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
-					{#each steps as { emoji, title, description }}
-						<div
-							class="rounded-lg border border-gray-200 bg-white p-6 text-center transition-all duration-300 hover:-translate-y-0.5 hover:border-primary-200 hover:shadow-md"
-						>
-							<div class="mb-2 inline-block text-4xl">{emoji}</div>
-							<h3 class="mb-2 text-lg font-semibold text-primary-800 md:text-xl">{title}</h3>
-							<p class="text-gray-600">{description}</p>
-						</div>
+			<section class="py-12 md:py-16" in:fly={getTransition(1)}>
+				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">
+					Explore Personality Types
+				</h2>
+
+				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-6">
+					{#each famousByType as person, i}
+						{#if person}
+							<a href={person.url || `/types/${i + 1}`} class="group">
+								<div
+									class="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+								>
+									<div class="relative flex items-center justify-center overflow-hidden p-4">
+										<!-- Personality Type Label -->
+										<div
+											class="absolute left-0 top-0 z-10 m-3 rounded-full bg-primary-700 px-3 py-1 text-xs font-bold text-white"
+										>
+											Type {i + 1}
+										</div>
+
+										<!-- Person Image -->
+										<div
+											class="relative h-48 w-48 overflow-hidden rounded-full border-4 border-primary-100"
+										>
+											<img
+												src={person.image || `/types/${i + 1}s/${person.name}.webp`}
+												alt={person.name || `Type ${i + 1} Example`}
+												class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+												loading={i < 6 ? 'eager' : 'lazy'}
+											/>
+										</div>
+									</div>
+
+									<div class="flex flex-1 flex-col justify-between p-4 text-center">
+										<h3 class="mb-2 text-lg font-bold text-primary-800">
+											{enneagramTypes[i + 1]}
+										</h3>
+										<p class="text-sm text-gray-600">
+											{person.name ? person.name.split('-').join(' ') : 'Example personality'}
+										</p>
+									</div>
+								</div>
+							</a>
+						{:else}
+							<!-- Fallback if no person of this type is found -->
+							<a href={`/types/${i + 1}`} class="group">
+								<div
+									class="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+								>
+									<div class="relative flex items-center justify-center overflow-hidden p-4">
+										<div
+											class="absolute left-0 top-0 z-10 m-3 rounded-full bg-primary-700 px-3 py-1 text-xs font-bold text-white"
+										>
+											Type {i + 1}
+										</div>
+										<div
+											class="relative h-48 w-48 overflow-hidden rounded-full border-4 border-primary-100 bg-gray-100"
+										>
+											<div
+												class="flex h-full w-full items-center justify-center text-4xl text-gray-400"
+											>
+												{i + 1}
+											</div>
+										</div>
+									</div>
+									<div class="flex flex-1 flex-col justify-between p-4 text-center">
+										<h3 class="mb-2 text-lg font-bold text-primary-800">
+											{enneagramTypes[i + 1]}
+										</h3>
+										<p class="text-sm text-gray-600">Explore this personality type</p>
+									</div>
+								</div>
+							</a>
+						{/if}
 					{/each}
+				</div>
+
+				<div class="mt-8 text-center">
+					<a
+						href="/enneagram"
+						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-4 py-2 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
+					>
+						Learn more about the Enneagram
+						<svg
+							class="ml-2 h-4 w-4"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"
+							></path>
+						</svg>
+					</a>
 				</div>
 			</section>
 		{/if}
 	</div>
 
-	<!-- Nine Types Section -->
+	<!-- Recent Articles Section -->
 	<div class="section-observer" data-section-index="2">
 		{#if sectionsVisible[2] || !browser}
+			<section class="py-12 md:py-16" in:fly={getTransition(2)}>
+				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">Recent Articles</h2>
+
+				<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+					{#each featuredArticles as article}
+						<a href={article.url} class="group">
+							<div
+								class="h-full overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+							>
+								<div class="h-48 overflow-hidden">
+									<div class="relative h-full w-full overflow-hidden">
+										<img
+											src={article.image}
+											alt={article.title}
+											class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+											loading="lazy"
+										/>
+										<div
+											class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+										></div>
+									</div>
+								</div>
+								<div class="p-4">
+									<h3
+										class="mb-2 text-lg font-bold transition-colors duration-300 group-hover:text-primary-700"
+									>
+										{article.title}
+									</h3>
+									<p class="line-clamp-2 text-sm text-gray-600">{article.excerpt}</p>
+								</div>
+							</div>
+						</a>
+					{/each}
+				</div>
+
+				<div class="mt-8 text-center">
+					<a
+						href="/enneagram-corner"
+						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-4 py-2 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
+					>
+						View all articles
+						<svg
+							class="ml-2 h-4 w-4"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"
+							></path>
+						</svg>
+					</a>
+				</div>
+			</section>
+		{/if}
+	</div>
+
+	<!-- Why the Enneagram Section -->
+	<div class="section-observer" data-section-index="3">
+		{#if sectionsVisible[3] || !browser}
 			<section
 				class="overflow-hidden rounded-xl bg-gradient-to-br from-primary-800 to-gray-800 p-8 text-white shadow-lg"
-				in:fly={getTransition(2)}
+				in:fly={getTransition(3)}
 			>
 				<h2 class="mb-6 text-center text-3xl font-bold md:mb-8 md:text-4xl">Why the Enneagram?</h2>
 				<div class="mx-auto max-w-3xl pb-6 text-center">
@@ -501,14 +481,14 @@
 	</div>
 
 	<!-- Benefits Section -->
-	<div class="section-observer" data-section-index="3">
-		{#if sectionsVisible[3] || !browser}
-			<section class="py-8 md:py-16" in:fly={getTransition(3)}>
+	<div class="section-observer" data-section-index="4">
+		{#if sectionsVisible[4] || !browser}
+			<section class="py-12 md:py-16" in:fly={getTransition(4)}>
 				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">Why It Works</h2>
 				<div class="grid gap-6 md:grid-cols-2 md:gap-8">
 					{#each benefits as { title, description }}
 						<div
-							class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-primary-200 hover:shadow-md"
+							class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary-200 hover:shadow-md"
 						>
 							<h3 class="mb-3 text-lg font-semibold text-primary-800 md:mb-4 md:text-xl">
 								{title}
@@ -521,13 +501,13 @@
 		{/if}
 	</div>
 
-	<!-- CTA Section -->
+	<!-- Final CTA Section -->
 	{#if !data?.session?.user}
-		<div class="section-observer" data-section-index="4">
-			{#if sectionsVisible[4] || !browser}
+		<div class="section-observer" data-section-index="5">
+			{#if sectionsVisible[5] || !browser}
 				<section
 					class="mb-16 rounded-xl border border-gray-200 bg-gradient-to-r from-primary-100 to-white p-8 text-center shadow-md md:mb-24"
-					in:fly={getTransition(4)}
+					in:fly={getTransition(5)}
 				>
 					<h2 class="mb-4 text-3xl font-bold text-primary-800 md:mb-6 md:text-4xl">
 						Ready to Gain New Perspectives?
@@ -535,8 +515,19 @@
 					<p class="mb-6 text-lg text-gray-600 md:mb-8 md:text-xl">
 						Join our community and start seeing conflicts from all angles.
 					</p>
-					<div class="mx-auto max-w-lg">
-						<EmailSignup cta="Get Started Now →" />
+					<div class="mx-auto flex flex-col justify-center gap-4 sm:flex-row">
+						<a
+							href="/questions"
+							class="btn-primary rounded-lg bg-primary-700 px-6 py-3 text-center font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
+						>
+							Ask a Question
+						</a>
+						<a
+							href="/signup"
+							class="rounded-lg border border-primary-300 bg-white px-6 py-3 text-center font-semibold text-primary-700 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-400 hover:bg-primary-50 hover:shadow-md"
+						>
+							Sign Up Free
+						</a>
 					</div>
 				</section>
 			{/if}
