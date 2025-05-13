@@ -56,7 +56,7 @@ export const load: PageServerLoad = async () => {
 
 			const slicedGroup = group.slice(0, gridSize);
 			slicedGroup.forEach((person) => {
-				let info = { ...person, type: key, url: person.link };
+				let info = { ...person, type: key };
 				images.push(info);
 			});
 		}

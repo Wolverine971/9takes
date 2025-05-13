@@ -304,7 +304,7 @@
 				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-6">
 					{#each famousByType as person, i}
 						{#if person}
-							<a href={`/personality-analysis/${person.person}` || `/types/${i + 1}`} class="group">
+							<a href={`/personality-analysis/${person.name}` || `/types/${i + 1}`} class="group">
 								<div
 									class="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
 								>
