@@ -375,7 +375,7 @@
 
 				<div class="mt-8 text-center">
 					<a
-						href="/enneagram"
+						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
 						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-4 py-2 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
 					>
 						Learn more about the Enneagram
