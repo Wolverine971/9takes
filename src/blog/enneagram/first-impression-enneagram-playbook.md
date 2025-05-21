@@ -11,7 +11,7 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'greek-statues-getting-ready-to-approach'
 ---
 
 <script>
