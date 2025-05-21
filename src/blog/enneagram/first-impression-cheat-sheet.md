@@ -11,7 +11,7 @@ published: true
 type: ['situational', 'situational', 'practical']
 blog: false
 previewHtml: ''
-pic: ''
+pic: 'greek-statue-taking-notes'
 ---
 
 <!-- Main container with proper typography -->
