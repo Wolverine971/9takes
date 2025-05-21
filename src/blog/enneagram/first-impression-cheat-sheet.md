@@ -31,7 +31,7 @@ pic: 'greek-statue-taking-notes'
           <div class="flex items-center mb-1">
             <span class="font-bold">Type 1</span>
           </div>
-          <a href="/enneagram/type-1" class="hover:underline font-bold text-lg">The Perfectionist</a>
+          <a href="/enneagram-corner/enneagram-type-1" class="hover:underline font-bold text-lg">The Perfectionist</a>
         </div>
       </div>
       <div class="p-4 flex-grow flex flex-col">
@@ -44,13 +44,12 @@ pic: 'greek-statue-taking-notes'
         <div class="mt-auto pt-3 border-t border-neutral-100">
           <p class="text-xs text-neutral-500">Ask about standards:</p>
           <p class="text-sm text-primary-700 italic h-12">"Between perfect but late or good enough but on time - which do you prefer?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type1" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
+          <a href="/enneagram-corner/first-impression-enneagram-playbook#the-perfectionist-lead-with-integrity-and-purpose" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
             More details →
           </a>
         </div>
       </div>
     </div>
-    
     <!-- Type 2 -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow h-110 flex flex-col">
       <div class="bg-primary-700 text-white p-3">
@@ -58,7 +57,7 @@ pic: 'greek-statue-taking-notes'
           <div class="flex items-center mb-1">
             <span class="font-bold">Type 2</span>
           </div>
-          <a href="/enneagram/type-2" class="hover:underline font-bold text-lg">The Helper</a>
+          <a href="/enneagram-corner/enneagram-type-2" class="hover:underline font-bold text-lg">The Helper</a>
         </div>
       </div>
       <div class="p-4 flex-grow flex flex-col">
@@ -71,13 +70,12 @@ pic: 'greek-statue-taking-notes'
         <div class="mt-auto pt-3 border-t border-neutral-100">
           <p class="text-xs text-neutral-500">Ask about support:</p>
           <p class="text-sm text-primary-700 italic h-12">"What's the most interesting thing you've helped someone with recently?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type2" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
+          <a href="/enneagram-corner/first-impression-enneagram-playbook#the-helper-be-warm-and-appreciative" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
             More details →
           </a>
         </div>
       </div>
     </div>
-    
     <!-- Type 3 -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow h-110 flex flex-col">
       <div class="bg-primary-700 text-white p-3">
@@ -85,7 +83,7 @@ pic: 'greek-statue-taking-notes'
           <div class="flex items-center mb-1">
             <span class="font-bold">Type 3</span>
           </div>
-          <a href="/enneagram/type-3" class="hover:underline font-bold text-lg">The Achiever</a>
+          <a href="/enneagram-corner/enneagram-type-3" class="hover:underline font-bold text-lg">The Achiever</a>
         </div>
       </div>
       <div class="p-4 flex-grow flex flex-col">
@@ -98,13 +96,12 @@ pic: 'greek-statue-taking-notes'
         <div class="mt-auto pt-3 border-t border-neutral-100">
           <p class="text-xs text-neutral-500">Ask about accomplishments:</p>
           <p class="text-sm text-primary-700 italic h-12">"What's your hidden win that most people don't know about?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type3" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
+          <a href="/enneagram-corner/first-impression-enneagram-playbook#the-achiever-respect-their-time-and-accomplishments" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
             More details →
           </a>
         </div>
       </div>
     </div>
-    
     <!-- Type 4 -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow h-110 flex flex-col">
       <div class="bg-primary-700 text-white p-3">
@@ -112,7 +109,7 @@ pic: 'greek-statue-taking-notes'
           <div class="flex items-center mb-1">
             <span class="font-bold">Type 4</span>
           </div>
-          <a href="/enneagram/type-4" class="hover:underline font-bold text-lg">The Individualist</a>
+          <a href="/enneagram-corner/enneagram-type-4" class="hover:underline font-bold text-lg">The Individualist</a>
         </div>
       </div>
       <div class="p-4 flex-grow flex flex-col">
@@ -125,13 +122,12 @@ pic: 'greek-statue-taking-notes'
         <div class="mt-auto pt-3 border-t border-neutral-100">
           <p class="text-xs text-neutral-500">Ask about depth:</p>
           <p class="text-sm text-primary-700 italic h-12">"What's something that moved you recently that most people missed?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type4" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
+          <a href="/enneagram-corner/first-impression-enneagram-playbook#the-individualist-appreciate-their-uniqueness" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
             More details →
           </a>
         </div>
       </div>
     </div>
-    
     <!-- Type 5 -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow h-110 flex flex-col">
       <div class="bg-primary-700 text-white p-3">
@@ -139,7 +135,7 @@ pic: 'greek-statue-taking-notes'
           <div class="flex items-center mb-1">
             <span class="font-bold">Type 5</span>
           </div>
-          <a href="/enneagram/type-5" class="hover:underline font-bold text-lg">The Investigator</a>
+          <a href="/enneagram-corner/enneagram-type-5" class="hover:underline font-bold text-lg">The Investigator</a>
         </div>
       </div>
       <div class="p-4 flex-grow flex flex-col">
@@ -152,13 +148,12 @@ pic: 'greek-statue-taking-notes'
         <div class="mt-auto pt-3 border-t border-neutral-100">
           <p class="text-xs text-neutral-500">Ask about expertise:</p>
           <p class="text-sm text-primary-700 italic h-12">"What's your niche knowledge area that most people don't know about?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type5" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
+          <a href="/enneagram-corner/first-impression-enneagram-playbook#the-investigator-respect-their-space-and-expertise" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
             More details →
           </a>
         </div>
       </div>
     </div>
-    
     <!-- Type 6 -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow h-110 flex flex-col">
       <div class="bg-primary-700 text-white p-3">
@@ -166,7 +161,7 @@ pic: 'greek-statue-taking-notes'
           <div class="flex items-center mb-1">
             <span class="font-bold">Type 6</span>
           </div>
-          <a href="/enneagram/type-6" class="hover:underline font-bold text-lg">The Loyalist</a>
+          <a href="/enneagram-corner/enneagram-type-6" class="hover:underline font-bold text-lg">The Loyalist</a>
         </div>
       </div>
       <div class="p-4 flex-grow flex flex-col">
@@ -179,13 +174,12 @@ pic: 'greek-statue-taking-notes'
         <div class="mt-auto pt-3 border-t border-neutral-100">
           <p class="text-xs text-neutral-500">Ask about instincts:</p>
           <p class="text-sm text-primary-700 italic h-12">"What's your gut telling you about this situation right now?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type6" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
+          <a href="/enneagram-corner/first-impression-enneagram-playbook#the-loyalist-build-trust-through-consistency" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
             More details →
           </a>
         </div>
       </div>
     </div>
-    
     <!-- Type 7 -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow h-110 flex flex-col">
       <div class="bg-primary-700 text-white p-3">
@@ -193,7 +187,7 @@ pic: 'greek-statue-taking-notes'
           <div class="flex items-center mb-1">
             <span class="font-bold">Type 7</span>
           </div>
-          <a href="/enneagram/type-7" class="hover:underline font-bold text-lg">The Enthusiast</a>
+          <a href="/enneagram-corner/enneagram-type-7" class="hover:underline font-bold text-lg">The Enthusiast</a>
         </div>
       </div>
       <div class="p-4 flex-grow flex flex-col">
@@ -206,13 +200,12 @@ pic: 'greek-statue-taking-notes'
         <div class="mt-auto pt-3 border-t border-neutral-100">
           <p class="text-xs text-neutral-500">Ask about adventures:</p>
           <p class="text-sm text-primary-700 italic h-12">"If you had to leave for a surprise trip in two hours, where would you go?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type7" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
+          <a href="/enneagram-corner/first-impression-enneagram-playbook#the-enthusiast-bring-energy-and-possibilities" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
             More details →
           </a>
         </div>
       </div>
     </div>
-    
     <!-- Type 8 -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow h-110 flex flex-col">
       <div class="bg-primary-700 text-white p-3">
@@ -220,7 +213,7 @@ pic: 'greek-statue-taking-notes'
           <div class="flex items-center mb-1">
             <span class="font-bold">Type 8</span>
           </div>
-          <a href="/enneagram/type-8" class="hover:underline font-bold text-lg">The Challenger</a>
+          <a href="/enneagram-corner/enneagram-type-8" class="hover:underline font-bold text-lg">The Challenger</a>
         </div>
       </div>
       <div class="p-4 flex-grow flex flex-col">
@@ -233,13 +226,12 @@ pic: 'greek-statue-taking-notes'
         <div class="mt-auto pt-3 border-t border-neutral-100">
           <p class="text-xs text-neutral-500">Ask about directness:</p>
           <p class="text-sm text-primary-700 italic h-12">"What's something everyone is thinking but nobody's saying out loud?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type8" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
+          <a href="/enneagram-corner/first-impression-enneagram-playbook#the-challenger-show-strength-and-directness" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
             More details →
           </a>
         </div>
       </div>
     </div>
-    
     <!-- Type 9 -->
     <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow h-110 flex flex-col">
       <div class="bg-primary-700 text-white p-3">
@@ -247,7 +239,7 @@ pic: 'greek-statue-taking-notes'
           <div class="flex items-center mb-1">
             <span class="font-bold">Type 9</span>
           </div>
-          <a href="/enneagram/type-9" class="hover:underline font-bold text-lg">The Peacemaker</a>
+          <a href="/enneagram-corner/enneagram-type-9" class="hover:underline font-bold text-lg">The Peacemaker</a>
         </div>
       </div>
       <div class="p-4 flex-grow flex flex-col">
@@ -260,7 +252,7 @@ pic: 'greek-statue-taking-notes'
         <div class="mt-auto pt-3 border-t border-neutral-100">
           <p class="text-xs text-neutral-500">Ask about harmony:</p>
           <p class="text-sm text-primary-700 italic h-12">"What's something you think more people should slow down and appreciate?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type9" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
+          <a href="/enneagram-corner/first-impression-enneagram-playbook#the-peacemaker-create-harmony-and-inclusion" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
             More details →
           </a>
         </div>
