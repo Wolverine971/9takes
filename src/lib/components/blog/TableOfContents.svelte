@@ -62,7 +62,7 @@
 				(heading) => heading.textContent?.trim() !== title
 			);
 
-			if (headings.length === 0) {
+			if (headings.length < 3) {
 				return { tocHtml: '', tocStructure: [] };
 			}
 

@@ -40,6 +40,10 @@ But something shifted in middle school. The shy girl found community theater.
 
 **The security-seeking Type 6 had discovered a safe space for expression.**
 
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/jORFHuGIvVI?si=zlM2BTp8ahRXrVVO&amp;start=30" title="Aubrey Plaza ready for disaster" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 While other Type 6s might retreat further into safety, Plaza showed early signs of what Enneagram experts call "counterphobic" tendencies – moving toward rather than away from what frightens them.
 
 Her high school boyfriend, now Broadway actor John Gallagher Jr., saw it clearly, describing teenage Aubrey as "a female teenage small-town Andy Kaufman" – someone who blurred the lines between sincerity and performance, keeping others guessing.
