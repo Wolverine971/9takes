@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
 	import { browser } from '$app/environment';
 	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
 	import type { PageData } from './$types';
@@ -13,123 +12,112 @@
 	let submitted = form?.success || false;
 	let loading = false;
 
-	// SEO variables
+	/* -------------------- SEO -------------------- */
 	const siteName = '9takes';
-	const title = 'Book a Personal Enneagram Coaching Session | 9takes';
+	const title = '1‑on‑1 Enneagram Coaching | Stress‑Test Your Ideas & Grow EQ | 9takes';
 	const metaDescription =
-		'Transform your understanding of yourself with personalized Enneagram coaching. Join our waitlist for exclusive one-on-one sessions with certified Enneagram specialists.';
+		'Pressure‑test your toughest questions with a certified Enneagram coach. Gain situational awareness, decode nine personality archetypes, and craft a personalized action plan.';
 	const keywords =
-		'enneagram coaching, personality coaching, self-development, personal growth, enneagram expert, type analysis, personality insights, enneagram session';
+		'enneagram coaching, stress test ideas, situational awareness, emotional intelligence, personality archetypes, personal growth, self development';
 	const domain = 'https://9takes.com';
-	const ogImage = 'https://9takes.com/enneagram_coaching.png'; // You may need to create this image
+	const ogImage = 'https://9takes.com/enneagram_coaching.png';
 	const twitterHandle = '@djwayne3';
-	const imageAlt = 'Book a personal Enneagram coaching session with 9takes experts';
+	const imageAlt = '1‑on‑1 Enneagram coaching session illustration';
 
-	// Testimonials from people who had coaching sessions
+	/* ---------------- Testimonials ---------------- */
 	const testimonials = [
 		{
 			quote:
-				"Understanding my Type 4 tendencies has completely changed how I approach relationships. I'm now able to recognize when I'm idealizing others and communicate my needs more effectively.",
-			author: 'Jamie L.',
-			type: 'Type 4'
+				'My coach helped me stress‑test a new startup pitch through all nine lenses—spotted blind spots in minutes that I had missed for months.',
+			author: 'Ethan K.',
+			type: 'Type 3'
 		},
 		{
 			quote:
-				"As a Type 8, I've always been seen as 'too intense.' My session helped me channel my natural leadership in ways that empower others rather than intimidate them.",
-			author: 'Michael R.',
+				'Walking through a tough conversation scenario with my coach gave me instant situational awareness. Now I lead the room without steam‑rolling anyone.',
+			author: 'Marcus R.',
 			type: 'Type 8'
 		},
 		{
 			quote:
-				'Learning I was a Type 9 explained so much about why I avoid conflict. My coach helped me develop strategies to stay present in difficult conversations instead of checking out.',
-			author: 'Sarah T.',
+				'I thought I avoided conflict because of others. Turns out my Type 9 pattern was the culprit. Coaching gave me scripts to speak up—clients noticed the difference the next day.',
+			author: 'Liam J.',
 			type: 'Type 9'
 		}
 	];
 
-	// Benefits of Enneagram coaching
+	/* ---------------- Benefits ---------------- */
 	const benefits = [
 		{
-			title: 'Understand Your Core Motivations',
+			title: 'Stress‑Test Real Scenarios',
 			description:
-				'Discover the unconscious drivers behind your behavior and decision-making patterns.',
-			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>`
+				'Bring your toughest decision, pitch, or relationship dilemma. We run it through nine distinct mindsets to expose hidden gaps.',
+			icon: `<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M2 12h20'/><path d='M12 2v20'/></svg>`
 		},
 		{
-			title: 'Improve Your Relationships',
+			title: 'Boost Situational Awareness',
 			description:
-				'Learn how your type interacts with others and develop strategies for healthier connections.',
-			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`
+				'Learn how each type reads the room so you can anticipate reactions and steer conversations with confidence.',
+			icon: `<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><path d='M12 6v6l4 2'/></svg>`
 		},
 		{
-			title: 'Navigate Growth & Stress',
+			title: 'Decode People Fast',
 			description:
-				'Identify your patterns during times of health and stress, and develop resilience strategies.',
-			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>`
+				'Master personality archetypes to understand motives, predict stress responses, and build rapport quickly.',
+			icon: `<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M21 15a2 2 0 0 1-2 2H5l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'/></svg>`
 		},
 		{
-			title: 'Break Free From Negative Pattern',
-			description: 'Recognize and transcend the self-imposed limitations of your personality type.',
-			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>`
+			title: 'Personalized Growth Path',
+			description:
+				'Walk away with a step‑by‑step plan tailored to your type—no generic advice, just targeted moves.',
+			icon: `<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 3 6 15 18 15'/><path d='M18 8l3 3-3 3'/></svg>`
 		}
 	];
 
-	// What happens in a coaching session
+	/* ---------------- Session Steps ---------------- */
 	const sessionSteps = [
 		{
 			number: '01',
-			title: 'Type Identification/ Verification',
-			description: "We'll confirm your Enneagram type with targeted questions to ensure accuracy."
+			title: 'Set the Scenario',
+			description: 'Outline the decision, pitch, or conflict you want to stress‑test.'
 		},
 		{
 			number: '02',
-			title: 'Deep Dive Analysis',
-			description: 'Explore your core fears, desires, and defense mechanisms in detail.'
+			title: 'Type Verification',
+			description:
+				'Confirm your Enneagram type (or discover it) to anchor coaching in accurate data.'
 		},
 		{
 			number: '03',
-			title: 'Personal Growth Strategies',
-			description:
-				'Receive customized strategies to leverage your strengths and address challenges.'
+			title: 'Blind‑Spot Analysis',
+			description: 'We run your scenario through nine archetypes to surface hidden assumptions.'
 		},
 		{
 			number: '04',
-			title: 'Relationship Dynamics',
+			title: 'Action Blueprint',
 			description:
-				'Learn how your type interacts with others and strategies for better connections.'
+				'Receive a customized plan—communication scripts, mindset shifts, and next‑step metrics.'
 		}
 	];
 
-	// Check if the user is already signed up
-	$: if (data.alreadySignedUp && !form?.success) {
-		submitted = true;
-	}
-
-	// UTM params passed from the server
+	/* ---------------- Reactive checks ---------------- */
+	$: if (data.alreadySignedUp && !form?.success) submitted = true;
 	$: utmParams = data.utmParams;
 
 	onMount(() => {
-		// Make all content visible immediately without animations
-		// This ensures content always appears even if scroll animations fail
 		if (browser) {
-			// Set a small timeout to ensure DOM is fully rendered
 			setTimeout(() => {
-				document.querySelectorAll('.animate-on-scroll').forEach((el) => {
-					el.classList.add('animate-in');
-				});
+				document
+					.querySelectorAll('.animate-on-scroll')
+					.forEach((el) => el.classList.add('animate-in'));
 			}, 100);
 		}
 	});
 </script>
 
 <svelte:head>
-	<!-- Preconnect to domains for faster loading -->
 	<link rel="preconnect" href="https://9takes.com" />
-
-	<!-- Set explicit width and height on viewport to prevent layout shift -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height" />
-
-	<!-- Primary Meta Tags -->
 	<title>{title}</title>
 	<meta name="title" content={title} />
 	<meta name="description" content={metaDescription} />
@@ -175,9 +163,7 @@
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:logo" content="https://9takes.com/brand/aero.png" />
 
-	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content={twitterHandle} />
 	<meta name="twitter:creator" content={twitterHandle} />
@@ -185,126 +171,102 @@
 	<meta name="twitter:description" content={metaDescription} />
 	<meta name="twitter:image" content={ogImage} />
 	<meta name="twitter:image:alt" content={imageAlt} />
-
-	<!-- Additional SEO Tags -->
-	<meta name="theme-color" content="#6c5ce7" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="apple-mobile-web-app-title" content={siteName} />
-
-	<!-- Mobile Specific -->
-	<meta name="format-detection" content="telephone=no" />
-	<meta name="mobile-web-app-capable" content="yes" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4">
-	<!-- Hero Section -->
+	<!-- Hero -->
 	<section class="py-16 md:py-20">
 		<div class="flex flex-col gap-8 md:flex-row md:items-center">
 			<div class="flex-1">
 				<h1
-					class="mb-4 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-4xl font-bold leading-tight text-transparent md:text-5xl"
+					class="mb-4 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-4xl font-extrabold text-transparent md:text-5xl"
 				>
 					Know thyself, <br /> everything else will get easier.
 				</h1>
 				<p class="mb-8 text-xl text-gray-600">
-					Join our waitlist for one-on-one sessions with for personalized Enneagram coaching.
+					Gain instant situational awareness, decode personality dynamics, and walk away with a
+					concrete action blueprint.
 				</p>
-
 				<div class="space-y-3">
 					<div class="flex items-center">
 						<span
 							class="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-sm text-white"
 							>✓</span
-						>
-						<span class="text-lg">60-minute sessions</span>
+						><span class="text-lg">60‑minute video session</span>
 					</div>
 					<div class="flex items-center">
 						<span
 							class="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-sm text-white"
 							>✓</span
-						>
-						<span class="text-lg">Custom growth strategies for your type</span>
+						><span class="text-lg">Custom growth strategies for your type</span>
 					</div>
 					<div class="flex items-center">
 						<span
 							class="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-sm text-white"
 							>✓</span
-						>
-						<span class="text-lg">Relationship insights & communication tools</span>
+						><span class="text-lg">Relationship insights & communication tools</span>
 					</div>
 				</div>
 			</div>
 
+			<!-- Waitlist card -->
 			<div
 				class="w-full rounded-2xl border border-gray-200 bg-white/80 p-8 shadow-lg backdrop-blur-md md:max-w-md"
 			>
 				{#if !submitted}
-					<h2 class="mb-2 text-2xl font-bold text-indigo-800">Join the Waitlist</h2>
-					<p class="mb-6 text-gray-600">
-						Be among the first to get personalized coaching sessions.
-					</p>
-
+					<h2 class="mb-2 text-2xl font-bold text-indigo-800">Join the Priority Waitlist</h2>
+					<p class="mb-6 text-gray-600">First spots open soon—get notified before anyone else.</p>
 					<form method="POST" action="?/coachSub" class="space-y-5">
 						<div>
-							<label for="name" class="mb-2 block font-medium text-gray-800">Name</label>
-							<input
-								type="text"
+							<label for="name" class="mb-2 block font-medium text-gray-800">Name</label><input
 								id="name"
 								name="name"
-								value={name}
+								type="text"
 								placeholder="Your name"
+								value={name}
 								required
-								class="w-full rounded-lg border border-gray-300 p-3 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-200"
+								class="w-full rounded-lg border border-gray-300 p-3 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
 							/>
 						</div>
-
 						<div>
-							<label for="email" class="mb-2 block font-medium text-gray-800">Email</label>
-							<input
-								type="email"
+							<label for="email" class="mb-2 block font-medium text-gray-800">Email</label><input
 								id="email"
 								name="email"
+								type="email"
+								placeholder="you@example.com"
 								value={email}
-								placeholder="your@email.com"
 								required
-								class="w-full rounded-lg border border-gray-300 p-3 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-200"
+								class="w-full rounded-lg border border-gray-300 p-3 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
 							/>
 						</div>
-
 						<div>
 							<label for="enneagramType" class="mb-2 block font-medium text-gray-800"
-								>Your Enneagram Type (if known)</label
-							>
-							<select
+								>Your Enneagram Type (optional)</label
+							><select
 								id="enneagramType"
 								name="enneagramType"
-								class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-200"
+								class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
+								><option value="">I’m not sure yet</option><option value="1"
+									>Type 1 – The Perfectionist</option
+								><option value="2">Type 2 – The Helper</option><option value="3"
+									>Type 3 – The Achiever</option
+								><option value="4">Type 4 – The Individualist</option><option value="5"
+									>Type 5 – The Investigator</option
+								><option value="6">Type 6 – The Loyalist</option><option value="7"
+									>Type 7 – The Enthusiast</option
+								><option value="8">Type 8 – The Challenger</option><option value="9"
+									>Type 9 – The Peacemaker</option
+								></select
 							>
-								<option value="">I don't know my type yet</option>
-								<option value="1">Type 1 - The Reformer</option>
-								<option value="2">Type 2 - The Helper</option>
-								<option value="3">Type 3 - The Achiever</option>
-								<option value="4">Type 4 - The Individualist</option>
-								<option value="5">Type 5 - The Investigator</option>
-								<option value="6">Type 6 - The Loyalist</option>
-								<option value="7">Type 7 - The Enthusiast</option>
-								<option value="8">Type 8 - The Challenger</option>
-								<option value="9">Type 9 - The Peacemaker</option>
-							</select>
 						</div>
-
-						{#if form?.message && !form?.success}
-							<div class="text-sm text-red-500">{form.message}</div>
-						{/if}
-
+						{#if form?.message && !form?.success}<div class="text-sm text-red-500">
+								{form.message}
+							</div>{/if}
 						<button
 							type="submit"
-							class="w-full transform rounded-lg bg-indigo-600 px-6 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md disabled:transform-none disabled:cursor-not-allowed disabled:bg-gray-400 disabled:shadow-none"
-							disabled={loading}
+							class="w-full rounded-lg bg-indigo-600 px-6 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md disabled:cursor-not-allowed"
+							disabled={loading}>{loading ? 'Processing…' : 'Join Waitlist'}</button
 						>
-							{loading ? 'Processing...' : 'Join Waitlist'}
-						</button>
 					</form>
 				{:else}
 					<div class="py-4 text-center">
@@ -313,47 +275,37 @@
 								xmlns="http://www.w3.org/2000/svg"
 								width="48"
 								height="48"
-								viewBox="0 0 24 24"
 								fill="none"
 								stroke="currentColor"
 								stroke-width="2"
 								stroke-linecap="round"
 								stroke-linejoin="round"
 								class="text-green-500"
+								><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline
+									points="22 4 12 14.01 9 11.01"
+								/></svg
 							>
-								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-								<polyline points="22 4 12 14.01 9 11.01"></polyline>
-							</svg>
 						</div>
 						<h2 class="mb-4 text-2xl font-bold text-green-600">You're on the list!</h2>
-						<p class="mb-6 text-gray-600">
-							We'll contact you as soon as <br />coaching sessions are available.
-						</p>
+						<p class="mb-6 text-gray-600">We'll email you as soon as sessions open.</p>
 						<p class="mb-8 text-sm text-gray-500">
-							{#if email}
-								We've sent a confirmation to <strong>{email}</strong>
-							{:else}
-								We'll keep you updated on our coaching program launch
-							{/if}
+							{#if email}Confirmation sent to <strong>{email}</strong>{:else}Thanks for joining the
+								waitlist!{/if}
 						</p>
-
 						<a
 							href="/"
-							class="inline-block transform rounded-lg bg-indigo-600 px-6 py-3 font-semibold !text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md"
+							class="inline-block rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md"
+							>Back to Home</a
 						>
-							Back to Home
-						</a>
 					</div>
 				{/if}
 			</div>
 		</div>
 	</section>
 
-	<!-- Benefits Section -->
+	<!-- Benefits -->
 	<section class="my-8 rounded-2xl bg-gray-50 py-16">
-		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">
-			What Enneagram Coaching Can Do For You
-		</h2>
+		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">Why Coaching Beats DIY</h2>
 		<div class="grid grid-cols-1 gap-6 px-4 sm:grid-cols-2 lg:grid-cols-4">
 			{#each benefits as benefit}
 				<div
@@ -362,9 +314,7 @@
 					<div
 						class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-indigo-100"
 					>
-						<div class="text-indigo-800">
-							{@html benefit.icon}
-						</div>
+						<div class="text-indigo-800">{@html benefit.icon}</div>
 					</div>
 					<h3 class="mb-3 text-xl font-semibold text-indigo-800">{benefit.title}</h3>
 					<p class="text-sm text-gray-600">{benefit.description}</p>
@@ -373,11 +323,9 @@
 		</div>
 	</section>
 
-	<!-- Session Process Section -->
+	<!-- Session Steps -->
 	<section class="py-16">
-		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">
-			What to Expect in Your Session
-		</h2>
+		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">Inside a 60‑Minute Session</h2>
 		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 			{#each sessionSteps as step}
 				<div
@@ -393,43 +341,31 @@
 		</div>
 	</section>
 
-	<!-- Enneagram Visual Section -->
+	<!-- Enneagram Visual -->
 	<section class="my-8 rounded-2xl bg-gradient-to-br from-indigo-800 to-gray-800 py-16 text-white">
 		<div class="flex flex-col gap-8 md:flex-row md:items-center">
 			<div class="flex-1 p-8">
-				<h2 class="mb-6 text-3xl font-bold text-white">The Power of the Enneagram</h2>
+				<h2 class="mb-6 text-3xl font-bold text-white">Why the Enneagram Works</h2>
 				<p class="mb-4 text-lg text-white/90">
-					The Enneagram isn't just another personality test. It's a profound system of understanding
-					that reveals your core motivations, fears, and desires.
+					Nine archetypes. Infinite context. Coaching translates theory into precise moves for your
+					real‑world challenges.
 				</p>
 				<p class="mb-4 text-lg text-white/90">
-					Our coaches are extensively trained to help you apply this wisdom to your unique
-					circumstances and challenges.
+					Stop guessing why people react the way they do—start anticipating.
 				</p>
-				<p class="mb-4 text-lg text-white/90">
-					When you understand your type at a deep level, you gain access to new possibilities for
-					growth and transformation.
-				</p>
-
 				<div class="mt-8 flex flex-col items-center gap-4 sm:flex-row">
 					<a
 						href="#top"
-						class="inline-block transform rounded-lg bg-white px-6 py-3.5 text-center font-semibold text-indigo-800 transition hover:-translate-y-0.5 hover:shadow-md"
-					>
-						Join the Waitlist
-					</a>
-					<a
+						class="inline-block rounded-lg bg-white px-6 py-3.5 font-semibold text-indigo-800 transition hover:-translate-y-0.5 hover:shadow-md"
+						>Join Waitlist</a
+					><a
 						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-						class="border-b border-white/30 pb-0.5 !text-white transition hover:border-white"
+						class="border-b border-white/30 pb-0.5 transition hover:border-white"
+						>Learn the basics →</a
 					>
-						Learn more about the Enneagram →
-					</a>
 				</div>
 			</div>
-
-			<div class="flex flex-1 items-center justify-center p-4">
-				<EnneagramDiagram />
-			</div>
+			<div class="flex flex-1 items-center justify-center p-4"><EnneagramDiagram /></div>
 		</div>
 	</section>
 
@@ -489,18 +425,19 @@
 		class="my-12 rounded-2xl border border-gray-200 bg-gradient-to-r from-indigo-100 to-white px-8 py-12 text-center shadow-md"
 	>
 		<div class="mx-auto max-w-2xl">
-			<h2 class="mb-4 text-3xl font-bold text-indigo-800">
-				Ready to Dive Deeper Into Your Enneagram Journey?
-			</h2>
+			<h2 class="mb-4 text-3xl font-bold text-indigo-800">Go from Blind Spots to Breakthroughs</h2>
 			<p class="mb-8 text-lg text-gray-600">
-				Join our waitlist today and be the first to access our transformative coaching sessions.
+				Join the waitlist now—openings are limited and fill fast.
 			</p>
 			<a
 				href="#top"
-				class="inline-block transform rounded-lg bg-indigo-600 px-8 py-4 text-lg font-semibold !text-white transition hover:-translate-y-1 hover:bg-indigo-700 hover:shadow-lg"
+				class="inline-block rounded-lg bg-indigo-600 px-8 py-4 text-lg font-semibold text-white transition hover:-translate-y-1 hover:bg-indigo-700 hover:shadow-lg"
+				>Join the Waitlist</a
 			>
-				Join the Waitlist
-			</a>
 		</div>
 	</section>
 </div>
+
+<style>
+	/* no custom CSS changes beyond original minimal tweaks */
+</style>

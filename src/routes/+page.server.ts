@@ -49,7 +49,7 @@ export const load: PageServerLoad = async () => {
 	Object.keys(famousTypes).forEach((keyStr, i) => {
 		if (i < gridSize) {
 			const key = Number(keyStr);
-			let group = famousTypes[key].filter((person) => person.link);
+			let group = famousTypes[key].filter((person) => person.link).sort(() => Math.random() - 0.5);
 			if (group.length < 9) {
 				group.push(...famousTypes[key].filter((person) => !person.link).slice(0, 3));
 			}

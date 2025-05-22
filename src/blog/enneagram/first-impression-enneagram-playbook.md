@@ -38,7 +38,7 @@ pic: 'greek-statues-getting-ready-to-approach'
     <div class="bg-primary-600 text-white p-4">
       <h2 id="the-perfectionist-lead-with-integrity-and-purpose" class="!text-2xl font-bold flex items-center">
         <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">1</span>
-        <a href="enneagram-corner/enneagram-type-1" class="hover:underline !text-white" style="color: white !important">The Perfectionist - Lead with Integrity and Purpose</a>
+        <a href="/enneagram-corner/enneagram-type-1" class="hover:underline !text-white" style="color: white !important">The Perfectionist - Lead with Integrity and Purpose</a>
       </h2>
     </div>
     <div class="p-6">
@@ -97,7 +97,7 @@ pic: 'greek-statues-getting-ready-to-approach'
     <div class="bg-primary-600 text-white p-4">
       <h2 id="the-helper-be-warm-and-appreciative" class="!text-2xl font-bold flex items-center">
         <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">2</span>
-        <a href="enneagram-corner/enneagram-type-2" class="hover:underline !text-white" style="color: white !important">The Helper - Be Warm and Appreciative</a>
+        <a href="/enneagram-corner/enneagram-type-2" class="hover:underline !text-white" style="color: white !important">The Helper - Be Warm and Appreciative</a>
       </h2>
     </div>
     <div class="p-6">
@@ -156,7 +156,7 @@ pic: 'greek-statues-getting-ready-to-approach'
     <div class="bg-primary-600 text-white p-4">
       <h2 id="the-achiever-respect-their-time-and-accomplishments" class="!text-2xl font-bold flex items-center">
         <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">3</span>
-        <a href="enneagram-corner/enneagram-type-3" class="hover:underline !text-white" style="color: white !important">The Achiever - Respect Their Time and Accomplishments</a>
+        <a href="/enneagram-corner/enneagram-type-3" class="hover:underline !text-white" style="color: white !important">The Achiever - Respect Their Time and Accomplishments</a>
       </h2>
     </div>
     <div class="p-6">
@@ -215,7 +215,7 @@ pic: 'greek-statues-getting-ready-to-approach'
     <div class="bg-primary-600 text-white p-4">
       <h2 id="the-individualist-appreciate-their-uniqueness" class="!text-2xl font-bold flex items-center">
         <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">4</span>
-        <a href="enneagram-corner/enneagram-type-4" class="hover:underline !text-white" style="color: white !important">The Individualist - Appreciate Their Uniqueness</a>
+        <a href="/enneagram-corner/enneagram-type-4" class="hover:underline !text-white" style="color: white !important">The Individualist - Appreciate Their Uniqueness</a>
       </h2>
     </div>
     <div class="p-6">
@@ -274,7 +274,7 @@ pic: 'greek-statues-getting-ready-to-approach'
     <div class="bg-primary-600 text-white p-4">
       <h2 id="the-investigator-respect-their-space-and-expertise" class="!text-2xl font-bold flex items-center">
         <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">5</span>
-        <a href="enneagram-corner/enneagram-type-5" class="hover:underline !text-white" style="color: white !important">The Investigator - Respect Their Space and Expertise</a>
+        <a href="/enneagram-corner/enneagram-type-5" class="hover:underline !text-white" style="color: white !important">The Investigator - Respect Their Space and Expertise</a>
       </h2>
     </div>
     <div class="p-6">
@@ -333,7 +333,7 @@ pic: 'greek-statues-getting-ready-to-approach'
     <div class="bg-primary-600 text-white p-4">
       <h2 id="the-loyalist-build-trust-through-consistency" class="!text-2xl font-bold flex items-center">
         <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">6</span>
-        <a href="enneagram-corner/enneagram-type-6" class="hover:underline !text-white" style="color: white !important">The Loyalist - Build Trust Through Consistency</a>
+        <a href="/enneagram-corner/enneagram-type-6" class="hover:underline !text-white" style="color: white !important">The Loyalist - Build Trust Through Consistency</a>
       </h2>
     </div>
     <div class="p-6">
@@ -393,7 +393,7 @@ pic: 'greek-statues-getting-ready-to-approach'
     <div class="bg-primary-600 text-white p-4">
       <h2 id="the-enthusiast-bring-energy-and-possibilities" class="!text-2xl font-bold flex items-center">
         <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">7</span>
-        <a href="enneagram-corner/enneagram-type-7" class="hover:underline !text-white" style="color: white !important">The Enthusiast - Bring Energy and Possibilities</a>
+        <a href="/enneagram-corner/enneagram-type-7" class="hover:underline !text-white" style="color: white !important">The Enthusiast - Bring Energy and Possibilities</a>
       </h2>
     </div>
     <div class="p-6">
@@ -453,7 +453,7 @@ pic: 'greek-statues-getting-ready-to-approach'
     <div class="bg-primary-600 text-white p-4">
       <h2 id="the-challenger-show-strength-and-directness" class="!text-2xl font-bold flex items-center">
         <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">8</span>
-        <a href="enneagram-corner/enneagram-type-8" class="hover:underline !text-white" style="color: white !important">The Challenger - Show Strength and Directness</a>
+        <a href="/enneagram-corner/enneagram-type-8" class="hover:underline !text-white" style="color: white !important">The Challenger - Show Strength and Directness</a>
       </h2>
     </div>
     <div class="p-6">
@@ -513,7 +513,7 @@ pic: 'greek-statues-getting-ready-to-approach'
     <div class="bg-primary-600 text-white p-4">
       <h2 id="the-peacemaker-create-harmony-and-inclusion" class="!text-2xl font-bold flex items-center">
         <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">9</span>
-        <a href="enneagram-corner/enneagram-type-9" class="hover:underline !text-white" style="color: white !important">The Peacemaker - Create Harmony and Inclusion</a>
+        <a href="/enneagram-corner/enneagram-type-9" class="hover:underline !text-white" style="color: white !important">The Peacemaker - Create Harmony and Inclusion</a>
       </h2>
     </div>
     <div class="p-6">
@@ -594,24 +594,13 @@ pic: 'greek-statues-getting-ready-to-approach'
   <!-- Conclusion -->
   <div class="my-16 bg-primary-50 border border-primary-200 rounded-xl p-8">
     <h2 id="conclusion" class="text-3xl font-bold text-primary-800 mb-6 text-center">Conclusion</h2>
-    
     <p class="text-lg text-neutral-700 mb-4">First impressions are powerful, but they don't have to be left to chance. By understanding someone's Enneagram type, you can approach new connections with insight and intention.</p>
-    
     <p class="text-lg text-neutral-700 mb-4">Remember that these guidelines are starting points, not rigid rules. The best connections come when you balance this understanding with authentic presence and genuine interest in the unique individual before you.</p>
-    
     <p class="text-lg text-neutral-700 mb-6">The real magic happens when someone feels truly seen and understood from the very first interaction. The Enneagram gives us a map to make that happen more consistently.</p>
-    
     <div class="text-center mt-8">
       <a href="/enneagram-corner/first-impression-cheat-sheet" class="inline-block mb-6 bg-primary-100 hover:bg-primary-200 text-primary-800 font-medium py-2 px-4 rounded-lg">
         → Bookmark the Quick-Reference Cheat Sheet
       </a>
-      
-      <p class="text-primary-800 font-semibold text-lg">If you found this helpful, sign up and join 9takes below ⬇️.</p>
-      <p class="text-neutral-600 italic">Of course, you are free to decline, but there is much more to explore. 🚀</p>
-      
-      <button class="mt-6 bg-primary-700 hover:bg-primary-800 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-all transform hover:scale-105">
-        Join 9takes
-      </button>
     </div>
   </div>
 </div>
