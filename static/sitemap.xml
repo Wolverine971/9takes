@@ -3,7 +3,7 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 <loc>https://9takes.com</loc>
-<lastmod>2025-03-26</lastmod>
+<lastmod>2025-05-21</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1.0</priority>
 </url>
@@ -21,7 +21,7 @@
 </url>
 <url>
 <loc>https://9takes.com/book-session</loc>
-<lastmod>2025-03-03</lastmod>
+<lastmod>2025-05-21</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -701,6 +701,15 @@
 <priority>0.7</priority>
 <image:image>
 <image:loc>https://9takes.com/blogs/young-couple-on-a-date.webp</image:loc>
+</image:image>
+</url>
+<url>
+<loc>https://9takes.com/enneagram-corner/neurodiversity-vs-personality</loc>
+<lastmod>2025-05-22T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+<image:image>
+<image:loc>https://9takes.com/blogs/brain-vs-heart-dichotomy.webp</image:loc>
 </image:image>
 </url>
 <url>
