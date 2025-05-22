@@ -274,10 +274,10 @@ pic: 'brain-vs-heart-dichotomy'
                 And that makes all the difference.
             </p>
             <div class="space-x-4">
-                <a href="https://9takes.com/enneagram-corner" class="inline-block bg-black !text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray transition-colors" color="color: white !important">
-                    Explore the Enneagram Corner
+                <a href="https://9takes.com/enneagram-corner" class="inline-block bg-white !text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray transition-colors" color="">
+                    Explore the Enneagram
                 </a>
-                <a href="https://9takes.com/questions" class="inline-block bg-black !text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray transition-colors" color="color: white !important">
+                <a href="https://9takes.com/questions" class="inline-block bg-white !text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray transition-colors" color="">
                     Ask a Question on 9takes
                 </a>
             </div>

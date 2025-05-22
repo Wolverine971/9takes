@@ -98,7 +98,7 @@ export async function GET() {
 
 	<url>
 	    <loc>https://9takes.com</loc>
-	    <lastmod>2025-05-21</lastmod>
+	    <lastmod>2025-05-22</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>1.0</priority>
 	</url>
@@ -110,13 +110,13 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/about</loc>
-	    <lastmod>2025-04-09</lastmod>
+	    <lastmod>2025-05-22</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/book-session</loc>
-	    <lastmod>2025-05-21</lastmod>
+	    <lastmod>2025-05-22</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>0.7</priority>
 	</url>

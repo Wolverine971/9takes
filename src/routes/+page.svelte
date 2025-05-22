@@ -65,24 +65,24 @@
 	// Updated Benefits – focus on stress‑testing ideas & coaching
 	const benefits = [
 		{
-			title: 'Idea Stress Test',
+			title: 'Stress‑Test Your Ideas',
 			description:
-				'Ask your question, lock in your answer, then unlock unfiltered takes from every type to catch blind spots you never knew you had.'
+				'Give your take, then unlock 9 different perspectives. Catch blind spots—before they catch you.'
 		},
 		{
-			title: 'Situational Awareness',
+			title: 'Escape Your Bubble',
 			description:
-				'Watch how nine personality archetypes read the exact same scenario so you can map hidden motives and social dynamics in real life.'
+				'See how 9 personality types read the same situation. Map hidden motives and decode people fast—no more guesswork.'
 		},
 		{
-			title: 'Decode People Fast',
+			title: 'Personality‑Max Your Stats',
 			description:
-				'Master the Enneagram framework to understand friends, dates, and teammates at a glance—no more guesswork.'
+				"Know your type's strengths and blind spots. Turn cognitive weaknesses into competitive advantages through targeted practice."
 		},
 		{
-			title: '1‑on‑1 Coaching',
+			title: 'Level‑Up with Coaching',
 			description:
-				'Need deeper guidance? <a href="/book-session" class="text-primary-700 underline">Book a personal session</a> and apply insights directly to your situation.'
+				'Ready to go deeper? <a href="/book-session" class="text-primary-700 underline font-semibold">Book a session</a> and apply insights directly to your situation.'
 		}
 	];
 
@@ -159,15 +159,15 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height" />
 
-	<title>9takes | Enneagram‑Powered Emotional Intelligence</title>
-	<meta name="title" content="9takes | Enneagram‑Powered Emotional Intelligence" />
+	<title>9takes | One situation, 9 ways to see it</title>
+	<meta name="title" content="9takes | One situation, 9 ways to see it" />
 	<meta
 		name="description"
-		content="Level‑up your emotional intelligence & social awareness through bias‑proof Q&A and data‑driven drills based on the Enneagram."
+		content="Stress‑test your ideas and personality‑max using the Enneagram. Give your take first, then unlock 9 different perspectives."
 	/>
 	<meta
 		name="keywords"
-		content="emotional intelligence, social awareness, enneagram, personality types, EQ training, mens mental health, unbiased advice, self development"
+		content="personality maxing, stress test ideas, enneagram, perspective taking, blind spot detection, emotional intelligence, cognitive training"
 	/>
 	<meta name="robots" content="index, follow" />
 	<meta name="language" content="English" />
@@ -182,10 +182,10 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://9takes.com" />
 	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content="9takes | Enneagram‑Powered Emotional Intelligence" />
+	<meta property="og:title" content="9takes | One situation, 9 ways to see it" />
 	<meta
 		property="og:description"
-		content="Build EQ by answering before you peek. Compare nine personality lenses on every question."
+		content="Stress‑test your ideas and personality‑max using the Enneagram. Give your take first, then unlock 9 different perspectives."
 	/>
 	<meta property="og:image" content="https://9takes.com/greek_pantheon.png" />
 	<meta property="og:image:width" content="1200" />
@@ -196,13 +196,13 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@djwayne3" />
 	<meta name="twitter:creator" content="@djwayne3" />
-	<meta name="twitter:title" content="9takes | Enneagram‑Powered Emotional Intelligence" />
+	<meta name="twitter:title" content="9takes | One situation, 9 ways to see it" />
 	<meta
 		name="twitter:description"
-		content="Train your emotional intelligence with bias‑proof Q&A tailored by personality type."
+		content="Stress‑test your ideas and personality‑max using the Enneagram. Give your take first, then unlock 9 different perspectives."
 	/>
 	<meta name="twitter:image" content="https://9takes.com/greek_pantheon.png" />
-	<meta name="twitter:image:alt" content="9takes – Enneagram‑Powered Emotional Intelligence" />
+	<meta name="twitter:image:alt" content="9takes – One situation, 9 ways to see it" />
 </svelte:head>
 
 <svelte:window bind:innerWidth />
@@ -215,30 +215,30 @@
 			class="flex min-h-[85vh] flex-col items-center justify-center py-8 md:py-12"
 			in:fly={getTransition(0)}
 		>
-			<div class="mb-6 max-w-3xl text-center">
+			<div class="mb-6 max-w-4xl text-center">
 				<h1
-					class="mb-2 bg-gradient-to-r from-gray-800 to-indigo-700 bg-clip-text text-4xl font-extrabold text-transparent md:text-5xl lg:text-6xl"
+					class="mb-4 bg-gradient-to-r from-gray-800 to-indigo-700 bg-clip-text text-4xl font-extrabold text-transparent md:text-5xl lg:text-6xl"
 				>
 					Build Emotional Intelligence with the Enneagram
 				</h1>
-				<h2 class="mb-6 text-lg text-gray-600 md:text-xl lg:text-2xl">
-					Gain social awareness by asking questions and getting unbiased responses on 9takes.
+				<h2 class="mb-6 text-xl font-bold text-gray-700 md:text-2xl lg:text-3xl">
+					Stress‑test your ideas • Escape your bubble <br />Max out your Personality
 				</h2>
 				<p class="mx-auto max-w-2xl text-base text-gray-600 md:text-lg">
-					All users must give their take before seeing other's takes. Compare the nine personality
-					types and look for patterns‑ strengthen your social awareness and EQ—one question at a
-					time.
+					Give your take, digest other perspectives, escape the hive‑mind. See how 9 personality
+					types can <b>see the same scenario differently</b>—catch blind spots before they catch
+					you.
 				</p>
 			</div>
 
 			<!-- Question of the Day -->
 			<a
 				href={`/questions/${data.questionOfTheDay.url}`}
-				class="mb-8 w-full max-w-3xl rounded-xl border border-primary-200 bg-white p-6 shadow-md"
+				class="mb-8 w-full max-w-3xl rounded-xl border-2 border-primary-200 bg-white p-6 shadow-lg transition-all duration-200 hover:shadow-xl"
 			>
 				<span
-					class="inline-block rounded-full bg-primary-100 px-2.5 py-1 text-xs font-semibold text-primary-800"
-					>Daily Question</span
+					class="inline-block rounded-full bg-primary-100 px-3 py-1.5 text-sm font-bold text-primary-800"
+					>💡 Daily Brain Gym</span
 				>
 				<h3 class="my-4 text-center text-xl font-bold md:text-2xl">
 					{data.questionOfTheDay ? data.questionOfTheDay.question_formatted : 'Loading question...'}
@@ -256,7 +256,7 @@
 								{/each}
 							{/if}
 						</div>
-						<span class="ml-2 text-sm text-gray-500">takes</span>
+						<span class="ml-2 text-sm text-gray-500">takes unlocked</span>
 					</div>
 				</div>
 			</a>
@@ -266,21 +266,22 @@
 				href="/questions"
 				class="btn-primary mb-4 transform rounded-xl bg-primary-700 px-8 py-4 text-center text-xl font-bold text-white shadow-lg transition-all duration-200 hover:-translate-y-1 hover:bg-primary-800 hover:shadow-xl md:text-2xl"
 			>
-				Ask Your First Question
+				Start Stress‑Test
 			</a>
-			<p class="text-center text-gray-500">Join free • No test required</p>
+			<p class="text-center text-gray-500">Free to join • No personality test required</p>
 		</section>
 	{:else}
 		<div class="hero-placeholder h-screen"></div>
 	{/if}
 
 	<!-- 3x3 Grid of Famous People by Personality Type -->
-	<div class="section-observer" data-section-index="1">
-		{#if sectionsVisible[1] || !browser}
+	<div class="section-observer">
+		{#if sectionsVisible[0] || !browser}
 			<section class="py-12 md:py-16" in:fly={getTransition(1)}>
-				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">
-					Explore the Nine Lenses
-				</h2>
+				<h2 class="mb-4 text-center text-3xl font-bold md:mb-8 md:text-4xl">Master the 9 Lenses</h2>
+				<p class="mx-auto mb-12 max-w-2xl text-center text-lg text-gray-600">
+					Each personality type sees different details. Learn their patterns—decode people faster.
+				</p>
 
 				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-6">
 					{#each famousByType as person, i}
@@ -335,7 +336,7 @@
 									</div>
 									<div class="flex flex-1 flex-col justify-between p-4 text-center">
 										<h3 class="mb-2 text-lg font-bold text-primary-800">{enneagramTypes[i + 1]}</h3>
-										<p class="text-sm text-gray-600">Explore this personality type</p>
+										<p class="text-sm text-gray-600">Explore this lens</p>
 									</div>
 								</div>
 							</a>
@@ -346,9 +347,9 @@
 				<div class="mt-8 text-center">
 					<a
 						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-4 py-2 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
+						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-6 py-3 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
 					>
-						Learn the basics
+						Learn the System
 						<svg
 							class="ml-2 h-4 w-4"
 							fill="none"
@@ -369,10 +370,13 @@
 	</div>
 
 	<!-- Recent Articles Section -->
-	<div class="section-observer" data-section-index="2">
-		{#if sectionsVisible[2] || !browser}
+	<div class="section-observer">
+		{#if sectionsVisible[1] || !browser}
 			<section class="py-12 md:py-16" in:fly={getTransition(2)}>
-				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">Latest EQ Reads</h2>
+				<h2 class="mb-4 text-center text-3xl font-bold md:mb-8 md:text-4xl">Cognitive Drills</h2>
+				<p class="mx-auto mb-12 max-w-2xl text-center text-lg text-gray-600">
+					Perspective gains are earned, not scrolled. Here's your training material.
+				</p>
 
 				<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 					{#each featuredArticles as article}
@@ -409,9 +413,9 @@
 				<div class="mt-8 text-center">
 					<a
 						href="/enneagram-corner"
-						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-4 py-2 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
+						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-6 py-3 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
 					>
-						View all articles
+						More Brain Gym
 						<svg
 							class="ml-2 h-4 w-4"
 							fill="none"
@@ -432,33 +436,35 @@
 	</div>
 
 	<!-- Why the Enneagram Section -->
-	<div class="section-observer" data-section-index="3">
-		{#if sectionsVisible[3] || !browser}
+	<div class="section-observer">
+		{#if sectionsVisible[2] || !browser}
 			<section
 				class="overflow-hidden rounded-xl bg-gradient-to-br from-primary-800 to-gray-800 p-8 text-white shadow-lg"
 				in:fly={getTransition(3)}
 			>
-				<h2 class="mb-6 text-center text-3xl font-bold md:mb-8 md:text-4xl">Why the Enneagram?</h2>
+				<h2 class="mb-6 text-center text-3xl font-bold md:mb-8 md:text-4xl">
+					Why the Enneagram Works
+				</h2>
 				<div class="mx-auto max-w-3xl pb-6 text-center">
 					<p class="mb-4 text-lg text-white/90 md:text-xl">
-						Emotional intelligence isn’t one‑size‑fits‑all. The Enneagram maps nine core motivation
-						patterns that shape how we think, feel, and relate.
+						Your brain defaults to one lens—miss 8 others. The Enneagram maps core motivations that
+						drive how people filter reality.
 					</p>
 
 					<p class="mb-8 text-lg font-extrabold tracking-wide md:text-xl">
-						Learn how each type expands—or constrains—your range of empathy. Then practice
-						stretching the edges.
+						Digesting new angles burns mental glucose—but that's where the IQ gains live. 💪
 					</p>
 					<EnneagramDiagram />
 				</div>
 			</section>
 		{/if}
 	</div>
+
 	<!-- Benefits Section -->
-	<div class="section-observer" data-section-index="4">
-		{#if sectionsVisible[4] || !browser}
+	<div class="section-observer">
+		{#if sectionsVisible[3] || !browser}
 			<section class="py-12 md:py-16" in:fly={getTransition(4)}>
-				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">Why 9takes Works</h2>
+				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">How It Works</h2>
 				<div class="grid gap-6 md:grid-cols-2 md:gap-8">
 					{#each benefits as { title, description }}
 						<div
@@ -478,7 +484,7 @@
 						href="/book-session"
 						class="inline-flex items-center rounded-lg bg-primary-700 px-6 py-3 font-semibold text-white shadow-lg transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
 					>
-						Book Individual Coaching
+						Level‑Up 1‑on‑1
 						<svg
 							class="ml-3 h-5 w-5"
 							fill="none"
@@ -500,28 +506,28 @@
 
 	<!-- Final CTA Section -->
 	{#if !data?.session?.user}
-		<div class="section-observer" data-section-index="5">
-			{#if sectionsVisible[5] || !browser}
+		<div class="section-observer">
+			{#if sectionsVisible[4] || !browser}
 				<section
 					class="mb-16 rounded-xl border border-gray-200 bg-gradient-to-r from-primary-100 to-white p-8 text-center shadow-md md:mb-24"
 					in:fly={getTransition(5)}
 				>
 					<h2 class="mb-4 text-3xl font-bold text-primary-800 md:mb-6 md:text-4xl">
-						Ready to Train?
+						Ready for Brain Gym?
 					</h2>
-					<p class="mb-6 text-lg text-gray-600 md:mb-8 md:text-xl">
-						Create your free profile and start building emotional muscle today.
+					<p class="mb-6 text-lg font-semibold text-gray-700 md:mb-8 md:text-xl">
+						Start stress‑testing your takes. Build cognitive muscle.
 					</p>
 					<div class="mx-auto flex flex-col justify-center gap-4 sm:flex-row">
 						<a
 							href="/questions"
-							class="btn-primary rounded-lg bg-primary-700 px-6 py-3 text-center font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
-							>Start Answering</a
+							class="btn-primary rounded-lg bg-primary-700 px-8 py-4 text-center text-lg font-bold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
+							>Start Training</a
 						>
 						<a
 							href="/signup"
-							class="rounded-lg border border-primary-300 bg-white px-6 py-3 text-center font-semibold text-primary-700 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-400 hover:bg-primary-50 hover:shadow-md"
-							>Sign Up Free</a
+							class="rounded-lg border border-primary-300 bg-white px-8 py-4 text-center text-lg font-bold text-primary-700 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-400 hover:bg-primary-50 hover:shadow-md"
+							>Join Free</a
 						>
 					</div>
 				</section>
