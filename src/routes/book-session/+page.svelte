@@ -153,143 +153,224 @@
 
 <div class="mx-auto max-w-7xl px-4">
 	<!-- Hero -->
+	<!-- Replace your existing hero section with this clean version -->
 	<section class="py-16 md:py-20">
 		<!-- Main headline and CTA aligned horizontally -->
-		<div class="mb-12 flex flex-col gap-8 md:flex-row md:items-start">
-			<div class="flex-1">
+		<div class="mb-16 flex flex-col gap-12 lg:flex-row lg:items-start">
+			<div class="flex-1 lg:pr-8">
 				<h1
-					class="mb-4 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-4xl font-extrabold text-transparent md:text-5xl"
+					class="mb-6 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-4xl font-extrabold leading-tight text-transparent md:text-5xl"
 				>
 					Know thyself, <br /> everything else will get easier.
 				</h1>
-				<p class="mb-4 text-xl text-gray-600">In any given situation → 9 ways to see it.</p>
-				<p class="text-xl text-gray-600">
-					Stress‑test your toughest decisions through all 9 personality lenses. Decode stakeholder
-					dynamics, sharpen your situational awareness, and max your personality stats.
+				<p class="mb-8 text-xl font-medium text-gray-600">
+					In any given situation → 9 ways to see it.
 				</p>
+
+				<!-- Clean Question Stack -->
+				<div class="mb-8 space-y-4">
+					<div class="flex items-start gap-3">
+						<div class="mt-1 flex-shrink-0">
+							<div class="flex h-6 w-6 items-center justify-center rounded-full bg-indigo-100">
+								<span class="text-sm">🎯</span>
+							</div>
+						</div>
+						<span class="text-lg font-medium text-gray-700"
+							>Want to sharpen your situational awareness?</span
+						>
+					</div>
+
+					<div class="flex items-start gap-3">
+						<div class="mt-1 flex-shrink-0">
+							<div class="flex h-6 w-6 items-center justify-center rounded-full bg-indigo-100">
+								<span class="text-sm">💭</span>
+							</div>
+						</div>
+						<span class="text-lg font-medium text-gray-700"
+							>Need perspective? <span class="font-normal italic text-gray-500"
+								>(as abstract as that sounds)</span
+							></span
+						>
+					</div>
+
+					<div class="flex items-start gap-3">
+						<div class="mt-1 flex-shrink-0">
+							<div class="flex h-6 w-6 items-center justify-center rounded-full bg-indigo-100">
+								<span class="text-sm">🧪</span>
+							</div>
+						</div>
+						<span class="text-lg font-medium text-gray-700">Want to stress-test your ideas?</span>
+					</div>
+				</div>
 			</div>
 
 			<!-- Waitlist card -->
-			<div class="w-full rounded-2xl border-2 border-indigo-200 bg-white p-8 shadow-xl md:max-w-md">
-				{#if !submitted}
-					<div class="mb-4 text-center">
-						<div class="mb-2 text-sm font-semibold uppercase tracking-wide text-indigo-600">
-							Join the Priority Waitlist
+			<div class="w-full flex-shrink-0 lg:w-96">
+				<div class="rounded-2xl border-2 border-indigo-200 bg-white p-8 shadow-xl">
+					{#if !submitted}
+						<div class="mb-6 text-center">
+							<div class="mb-2 text-sm font-semibold uppercase tracking-wide text-indigo-600">
+								Join the Priority Waitlist
+							</div>
 						</div>
-					</div>
 
-					<h2 class="mb-2 text-xl font-bold text-indigo-800">Lock In Early Access</h2>
-					<p class="mb-6 text-gray-600">First spots open soon—get notified before anyone else.</p>
+						<h2 class="mb-2 text-xl font-bold text-indigo-800">Lock In Early Access</h2>
+						<p class="mb-6 text-gray-600">First spots open soon—get notified before anyone else.</p>
 
-					<form method="POST" action="?/coachSub" class="space-y-4">
-						<div>
-							<input
-								id="name"
-								name="name"
-								type="text"
-								placeholder="Your name"
-								value={name}
-								required
-								class="w-full rounded-lg border border-gray-300 p-3 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
-							/>
-						</div>
-						<div>
-							<input
-								id="email"
-								name="email"
-								type="email"
-								placeholder="you@example.com"
-								value={email}
-								required
-								class="w-full rounded-lg border border-gray-300 p-3 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
-							/>
-						</div>
-						<div>
-							<select
-								id="enneagramType"
-								name="enneagramType"
-								class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
+						<form method="POST" action="?/coachSub" class="space-y-4">
+							<div>
+								<input
+									id="name"
+									name="name"
+									type="text"
+									placeholder="Your name"
+									value={name}
+									required
+									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
+								/>
+							</div>
+							<div>
+								<input
+									id="email"
+									name="email"
+									type="email"
+									placeholder="you@example.com"
+									value={email}
+									required
+									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
+								/>
+							</div>
+							<div>
+								<select
+									id="enneagramType"
+									name="enneagramType"
+									class="w-full rounded-lg border border-gray-300 bg-white p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
+								>
+									<option value="">Your Enneagram Type (optional)</option>
+									<option value="1">Type 1 – The Perfectionist</option>
+									<option value="2">Type 2 – The Helper</option>
+									<option value="3">Type 3 – The Achiever</option>
+									<option value="4">Type 4 – The Individualist</option>
+									<option value="5">Type 5 – The Investigator</option>
+									<option value="6">Type 6 – The Loyalist</option>
+									<option value="7">Type 7 – The Enthusiast</option>
+									<option value="8">Type 8 – The Challenger</option>
+									<option value="9">Type 9 – The Peacemaker</option>
+								</select>
+							</div>
+							{#if form?.message && !form?.success}
+								<div class="text-sm text-red-500">{form.message}</div>
+							{/if}
+							<button
+								type="submit"
+								class="w-full rounded-lg bg-indigo-600 px-6 py-4 text-lg font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-lg disabled:cursor-not-allowed"
+								disabled={loading}
 							>
-								<option value="">Your Enneagram Type (optional)</option>
-								<option value="1">Type 1 – The Perfectionist</option>
-								<option value="2">Type 2 – The Helper</option>
-								<option value="3">Type 3 – The Achiever</option>
-								<option value="4">Type 4 – The Individualist</option>
-								<option value="5">Type 5 – The Investigator</option>
-								<option value="6">Type 6 – The Loyalist</option>
-								<option value="7">Type 7 – The Enthusiast</option>
-								<option value="8">Type 8 – The Challenger</option>
-								<option value="9">Type 9 – The Peacemaker</option>
-							</select>
-						</div>
-						{#if form?.message && !form?.success}
-							<div class="text-sm text-red-500">{form.message}</div>
-						{/if}
-						<button
-							type="submit"
-							class="w-full rounded-lg bg-indigo-600 px-6 py-4 text-lg font-semibold text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-lg disabled:cursor-not-allowed"
-							disabled={loading}
-						>
-							{loading ? 'Processing…' : 'Join Waitlist'}
-						</button>
-						<div class="text-center text-xs text-gray-500">💳 No payment until sessions launch</div>
-					</form>
-				{:else}
-					<div class="py-4 text-center">
-						<div class="mb-4 flex justify-center">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="48"
-								height="48"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								class="text-green-500"
-								><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline
-									points="22 4 12 14.01 9 11.01"
-								/></svg
+								{loading ? 'Processing…' : 'Join Waitlist'}
+							</button>
+							<div class="text-center text-xs text-gray-500">
+								💳 No payment until sessions launch
+							</div>
+						</form>
+					{:else}
+						<div class="py-4 text-center">
+							<div class="mb-4 flex justify-center">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="48"
+									height="48"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="text-green-500"
+									><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline
+										points="22 4 12 14.01 9 11.01"
+									/></svg
+								>
+							</div>
+							<h2 class="mb-4 text-2xl font-bold text-green-600">You're on the list!</h2>
+							<p class="mb-6 text-gray-600">We'll email you as soon as sessions open.</p>
+							<p class="mb-8 text-sm text-gray-500">
+								{#if email}Confirmation sent to <strong>{email}</strong>{:else}Welcome to the
+									priority list!{/if}
+							</p>
+							<a
+								href="/"
+								class="inline-block rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md"
+								>Back to 9takes</a
 							>
 						</div>
-						<h2 class="mb-4 text-2xl font-bold text-green-600">You're on the list!</h2>
-						<p class="mb-6 text-gray-600">We'll email you as soon as sessions open.</p>
-						<p class="mb-8 text-sm text-gray-500">
-							{#if email}Confirmation sent to <strong>{email}</strong>{:else}Welcome to the priority
-								list!{/if}
-						</p>
-						<a
-							href="/"
-							class="inline-block rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md"
-							>Back to 9takes</a
-						>
-					</div>
-				{/if}
+					{/if}
+				</div>
 			</div>
 		</div>
 
-		<!-- Bullet points below both sections -->
-		<div class="mx-auto max-w-md">
-			<div class="flex flex-col space-y-3">
-				<div class="flex items-center">
-					<span
-						class="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-sm text-white"
-						>✓</span
-					><span class="text-lg">60‑minute deep‑dive</span>
+		<div class="mx-auto mb-16 max-w-4xl">
+			<!-- Value Proposition -->
+			<div class="rounded-lg border-l-4 border-indigo-500 bg-gray-50 p-6">
+				<p class="text-lg leading-relaxed text-gray-700">
+					<span class="font-semibold text-gray-900">Review your life up to this point.</span><br />
+					Identify your relationship to the 3 core emotions that form your personality. Walk away understanding
+					your strengths and weaknesses, identifying your personality's blind spots and work 1‑on‑1 to
+					create your own
+					<span class="font-semibold text-indigo-700">personalized life strategy.</span>
+				</p>
+			</div>
+		</div>
+
+		<!-- Clean Benefits Section -->
+		<div class="mx-auto max-w-4xl">
+			<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+				<div
+					class="flex items-start gap-4 rounded-xl border border-indigo-100 bg-gradient-to-br from-indigo-50 to-blue-50 p-6"
+				>
+					<div class="flex-shrink-0">
+						<div
+							class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-600 font-bold text-white"
+						>
+							✓
+						</div>
+					</div>
+					<div>
+						<h3 class="mb-1 text-lg font-semibold text-gray-900">60‑minute deep‑dive</h3>
+						<p class="text-sm text-gray-600">Comprehensive personality analysis</p>
+					</div>
 				</div>
-				<div class="flex items-center">
-					<span
-						class="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-sm text-white"
-						>✓</span
-					><span class="text-lg"
-						>Type‑specific growth blueprint <br />(<b>Max out your personality</b>)</span
-					>
+
+				<div
+					class="flex items-start gap-4 rounded-xl border border-purple-100 bg-gradient-to-br from-purple-50 to-indigo-50 p-6"
+				>
+					<div class="flex-shrink-0">
+						<div
+							class="flex h-10 w-10 items-center justify-center rounded-full bg-purple-600 font-bold text-white"
+						>
+							✓
+						</div>
+					</div>
+					<div>
+						<h3 class="mb-1 text-lg font-semibold text-gray-900">Type‑specific growth blueprint</h3>
+						<p class="text-sm text-gray-600">
+							<span class="font-semibold">Max out your personality</span>
+						</p>
+					</div>
 				</div>
-				<div class="flex items-center">
-					<span
-						class="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-sm text-white"
-						>✓</span
-					><span class="text-lg">Relationship insights & communication tools</span>
+
+				<div
+					class="flex items-start gap-4 rounded-xl border border-green-100 bg-gradient-to-br from-green-50 to-emerald-50 p-6"
+				>
+					<div class="flex-shrink-0">
+						<div
+							class="flex h-10 w-10 items-center justify-center rounded-full bg-green-600 font-bold text-white"
+						>
+							✓
+						</div>
+					</div>
+					<div>
+						<h3 class="mb-1 text-lg font-semibold text-gray-900">Relationship insights</h3>
+						<p class="text-sm text-gray-600">Communication tools & strategies</p>
+					</div>
 				</div>
 			</div>
 		</div>
