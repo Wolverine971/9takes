@@ -4,7 +4,7 @@ description: 'A tactical guide for connecting with each Enneagram type in your f
 author: 'DJ Wayne'
 date: '2025-05-20'
 loc: 'https://9takes.com/enneagram-corner/first-impression-enneagram-playbook'
-lastmod: '2025-05-22'
+lastmod: '2025-05-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -573,9 +573,6 @@ pic: 'greek-statues-getting-ready-to-approach'
   <div class="my-12 py-4 bg-primary-100 rounded-lg overflow-hidden">
     <div class="marquee-container">
       <div class="flex space-x-6 animate-marquee">
-        <a href="/enneagram-corner/enneagram-in-meetings" class="flex items-center px-4 py-2 bg-white rounded-full shadow-sm hover:shadow-md transition-shadow">
-          <span class="font-medium text-primary-700">in meetings 📊</span>
-        </a>
         <a href="/enneagram-corner/enneagram-types-in-stress" class="flex items-center px-4 py-2 bg-white rounded-full shadow-sm hover:shadow-md transition-shadow">
           <span class="font-medium text-primary-700">in stress 😰</span>
         </a>
@@ -651,7 +648,7 @@ pic: 'greek-statues-getting-ready-to-approach'
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2025-05-20"
+        "@value": "2025-05-26"
       },
       "datePublished": {
         "@type": "Date",
