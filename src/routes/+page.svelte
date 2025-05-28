@@ -266,7 +266,7 @@
 				href="/questions"
 				class="btn-primary mb-4 transform rounded-xl bg-primary-700 px-8 py-4 text-center text-xl font-bold text-white shadow-lg transition-all duration-200 hover:-translate-y-1 hover:bg-primary-800 hover:shadow-xl md:text-2xl"
 			>
-				Start Stress‑Test
+				Ask a Question
 			</a>
 			<p class="text-center text-gray-500">Free to join • No personality test required</p>
 		</section>
@@ -522,7 +522,7 @@
 						<a
 							href="/questions"
 							class="btn-primary rounded-lg bg-primary-700 px-8 py-4 text-center text-lg font-bold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
-							>Start Training</a
+							>Ask a question</a
 						>
 						<a
 							href="/signup"
