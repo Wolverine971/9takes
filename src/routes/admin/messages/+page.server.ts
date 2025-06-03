@@ -28,7 +28,7 @@ export const load: PageServerLoad = async (event) => {
 		console.log(findUsersError);
 	}
 
-	return { session, user, users };
+	return {  user, users };
 };
 
 export const actions: Actions = {};

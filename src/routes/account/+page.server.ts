@@ -1,4 +1,5 @@
 import { supabase } from '$lib/supabase';
+
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 
@@ -34,7 +35,7 @@ export const load: PageServerLoad = async (event) => {
 		console.log(subscriptionsError);
 	}
 	if (!findUserError) {
-		return { session, user: mapDemoValues(user), subscriptions: mapDemoValues(subscriptions) };
+		return { user: mapDemoValues(user), subscriptions: mapDemoValues(subscriptions) };
 	} else {
 		throw error(404, {
 			message: `Error searching for user`

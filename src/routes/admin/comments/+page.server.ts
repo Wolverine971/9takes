@@ -1,5 +1,6 @@
+import { Actions, error, redirect, type } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
-import { error, redirect, type Actions } from '@sveltejs/kit';
+
 import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 import { getCommentParents } from '../../../utils/conversions';
@@ -176,7 +177,6 @@ export const load: PageServerLoad = async (event) => {
 
 		return {
 			user,
-			session,
 			comments: processedComments,
 			flaggedComments,
 			blogComments,

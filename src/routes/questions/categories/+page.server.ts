@@ -32,7 +32,6 @@ export const load: PageServerLoad = async (
 		});
 		if (!tags) {
 			return {
-				session,
 				subcategoryTags: [],
 				// questionsAndTags: [],
 				rootCategories: [],
@@ -77,7 +76,6 @@ export const load: PageServerLoad = async (
 		// });
 		if (demo_time === true) {
 			return {
-				session,
 				subcategoryTags,
 				categories,
 				rootCategories: mapDemoValues(rootCategories)
@@ -85,7 +83,6 @@ export const load: PageServerLoad = async (
 			};
 		}
 		return {
-			session,
 			subcategoryTags,
 			categories,
 			rootCategories: mapDemoValues(rootCategories)

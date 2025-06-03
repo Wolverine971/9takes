@@ -1,5 +1,6 @@
-import { supabase } from '$lib/supabase';
 import { error } from '@sveltejs/kit';
+import { supabase } from '$lib/supabase';
+
 import type { Actions, PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
@@ -51,7 +52,6 @@ export const load: PageServerLoad = async (event) => {
 
 	if (!findUserError) {
 		return {
-			session,
 			user: mapDemoValues(user),
 			subscriptions: mapDemoValues(subscriptions),
 			comments: mapDemoValues(comments)

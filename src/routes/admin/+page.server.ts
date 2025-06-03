@@ -50,7 +50,6 @@ export const load: PageServerLoad = async (event) => {
 
 	if (!findUserError) {
 		return {
-			session,
 			user: mapDemoValues(user),
 			demoTime: demo_time,
 			dailyVisitors,

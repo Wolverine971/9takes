@@ -1,5 +1,6 @@
 import { supabase } from '$lib/supabase';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+import { supabase } from '$lib/supabase';
+
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
@@ -39,7 +40,6 @@ export const load: PageServerLoad = async (event) => {
 	}
 	if (!findUserError) {
 		return {
-			session,
 			user: mapDemoValues(user),
 			profiles: mapDemoValues(profiles),
 			signups: mapDemoValues(signups)

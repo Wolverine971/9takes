@@ -38,7 +38,6 @@ export const load: PageServerLoad = async (event) => {
 		return;
 	} else {
 		return {
-			session,
 			signups: userSignups
 		};
 	}

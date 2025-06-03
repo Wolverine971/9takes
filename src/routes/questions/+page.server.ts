@@ -92,7 +92,7 @@ export const load: PageServerLoad = async (event) => {
 
 		if (demo_time === true) {
 			return {
-				session,
+				user: session?.user,
 				subcategoryTags,
 				allTags,
 				questionSubcategories,
@@ -103,7 +103,7 @@ export const load: PageServerLoad = async (event) => {
 			};
 		}
 		return {
-			session,
+			user: session?.user,
 			subcategoryTags,
 			allTags,
 			questionSubcategories,

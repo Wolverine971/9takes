@@ -33,7 +33,7 @@
 	}
 
 	function goToCreateQuestionPage(detail: string) {
-		if (!data?.session?.user?.id) {
+		if (!data?.user?.id) {
 			goto('/register', { invalidateAll: true });
 			return;
 		}
@@ -83,7 +83,7 @@
 	class:no-animation={!transitionEnabled}
 	in:fade={{ duration }}
 >
-	{#if data?.session?.user?.id}
+	{#if data?.user?.id}
 		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="my-4 mb-2 text-2xl font-bold md:text-3xl">
 			Explore your psychology and those around you
 		</h1>
@@ -160,7 +160,7 @@
 		{/each}
 	</section>
 
-	{#if !data?.session?.user?.id}
+	{#if !data?.user?.id}
 		<section
 			class="my-4 rounded border border-gray-200 bg-white p-4 transition-shadow duration-300 hover:shadow-md md:my-6"
 			in:fly={{ y: 20, duration, delay: 900 }}

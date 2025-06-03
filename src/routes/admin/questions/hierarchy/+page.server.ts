@@ -46,7 +46,6 @@ export const load: PageServerLoad = async (event) => {
 
 		if (demo_time === true) {
 			return {
-				session,
 				questionSubcategories,
 				questionsAndTags: mapDemoValues(questionsAndTags).filter((q) => {
 					return !q.removed;
@@ -62,7 +61,6 @@ export const load: PageServerLoad = async (event) => {
 
 		return {
 			categories,
-			session,
 			questionSubcategories,
 			questionsAndTags: (questionsAndTags || []).filter((q) => {
 				return !q.removed;
