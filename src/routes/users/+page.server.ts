@@ -1,5 +1,4 @@
 import { supabase } from '$lib/supabase';
-import { supabase } from '$lib/supabase';
 
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
