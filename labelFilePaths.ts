@@ -43,7 +43,7 @@ const COMMENT_PATTERNS = {
   mjs: (filePath: string) => `// ${filePath}`,
   jsx: (filePath: string) => `// ${filePath}`,
   tsx: (filePath: string) => `// ${filePath}`,
-  json: (filePath: string) => `// ${filePath}`,
+  // json: (filePath: string) => `// ${filePath}`,
   jsonc: (filePath: string) => `// ${filePath}`,
   
   // CSS-style comments
@@ -103,7 +103,7 @@ function shouldProcessFile(filePath: string): boolean {
   }
   
   // Skip binary files and images
-  const binaryExtensions = ['png', 'jpg', 'jpeg', 'gif', 'ico', 'svg', 'pdf', 'zip', 'tar', 'gz'];
+  const binaryExtensions = ['png', 'jpg', 'jpeg', 'gif', 'ico', 'svg', 'pdf', 'zip', 'tar', 'gz', 'json'];
   if (binaryExtensions.includes(ext)) {
     return false;
   }
