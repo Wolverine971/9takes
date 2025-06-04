@@ -1,4 +1,4 @@
-<!-- $lib/components/atoms/Modal2.svelte -->
+<!-- lib/components/atoms/Modal2.svelte -->
 <script context="module" lang="ts">
 	import { browser } from '$app/environment';
 	const modals: Record<string, { open: Function; close: Function }> = {};

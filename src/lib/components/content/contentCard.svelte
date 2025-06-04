@@ -1,3 +1,4 @@
+<!-- lib/components/content/contentCard.svelte -->
 <script lang="ts">
 	export let blogContent: App.BlogPost = null;
 	export let stage = null;

@@ -1,3 +1,4 @@
+<!-- lib/components/icons/xmarkIcon.svelte -->
 <script>
 	export let className = '';
 

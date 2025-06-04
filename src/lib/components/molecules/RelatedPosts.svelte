@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/RelatedPosts.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Pluralize from 'pluralize';

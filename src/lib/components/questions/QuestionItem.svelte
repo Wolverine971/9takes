@@ -1,3 +1,4 @@
+<!-- lib/components/questions/QuestionItem.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';

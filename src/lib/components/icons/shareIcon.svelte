@@ -1,3 +1,4 @@
+<!-- lib/components/icons/shareIcon.svelte -->
 <script>
 	export let className = '';
 

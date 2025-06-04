@@ -1,3 +1,4 @@
+// routes/comments/+server.ts
 import { error, json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 

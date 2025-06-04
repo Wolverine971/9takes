@@ -1,27 +1,10 @@
+<!-- routes/blog/+layout.svelte -->
 <script lang="ts">
 	import '../../app.scss';
 </script>
 
-<!-- <Layout> -->
-<!-- <div class="app"> -->
-<!-- {#if $page.url.pathname === '/blog'}
-	<Jumbotron
-		image={'/blogs/rome.webp'}
-		showIcon={false}
-		text={'The Blog'}
-		subtext={''}
-		aspectRatio={''}
-	>
-		<h1 class="jumbo-name bold-shadow " data-value={'The Blog'} style:--tag="h-blog">
-			{'The Blog'}
-		</h1>
-	</Jumbotron>
-{/if} -->
 <slot />
 
-<!-- </div> -->
-
-<!-- </Layout> -->
 <style lang="scss">
 	.jumbo-name {
 		position: relative;

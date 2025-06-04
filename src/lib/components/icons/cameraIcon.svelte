@@ -1,3 +1,4 @@
+<!-- lib/components/icons/cameraIcon.svelte -->
 <script>
 	export let className = '';
 

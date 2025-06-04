@@ -1,3 +1,4 @@
+<!-- lib/components/map/controls/ScaleControl.svelte -->
 <script>
 	import { getContext } from 'svelte';
 	import { contextKey } from '$lib/components/map/mapbox';

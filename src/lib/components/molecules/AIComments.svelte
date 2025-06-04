@@ -1,4 +1,4 @@
-<!-- AIComments.svelte -->
+<!-- lib/components/molecules/AIComments.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';

@@ -1,3 +1,4 @@
+// routes/api/update-questions/+server.ts
 import { error, json } from '@sveltejs/kit';
 import { PRIVATE_WEBHOOK_AUTH } from '$env/static/private';
 

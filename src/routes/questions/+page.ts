@@ -1,4 +1,4 @@
-// import { supabase } from '$lib/supabase';
+// routes/questions/+page.ts
 // import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 // // import type { PostgrestResponse } from '@supabase/supabase-js';
 // import type { Actions, PageLoad } from './$types';

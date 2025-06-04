@@ -1,3 +1,4 @@
+<!-- lib/components/blog/EnneagramTypeIntro.svelte -->
 <script lang="ts">
 	export let type: string;
 </script>

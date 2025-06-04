@@ -1,3 +1,4 @@
+<!-- lib/components/marketing/CampaignManager.svelte -->
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import {

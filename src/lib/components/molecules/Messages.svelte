@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/Messages.svelte -->
 <script lang="ts">
 	const sendBtn = document.querySelector('#send');
 	const messages = document.querySelector('#messages');

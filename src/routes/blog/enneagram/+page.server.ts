@@ -1,3 +1,4 @@
+// routes/blog/enneagram/+page.server.ts
 import { redirect } from '@sveltejs/kit';
 // import { PageServerLoad } from "./$types";
 

@@ -1,3 +1,4 @@
+<!-- routes/marketing/+page.svelte -->
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
 

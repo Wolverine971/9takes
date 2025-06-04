@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/BlogTiles.svelte -->
 <script lang="ts">
 	export let blogs: {
 		people: App.BlogPost[];

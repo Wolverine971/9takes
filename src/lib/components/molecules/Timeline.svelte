@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/Timeline.svelte -->
 <script lang="ts">
 	export let timeline: { title: string; date: string; description: string }[];
 </script>

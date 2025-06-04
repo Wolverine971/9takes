@@ -1,3 +1,4 @@
+<!-- routes/personality-analysis/[slug]/+page.svelte -->
 <script lang="ts">
 	import { onMount, tick, afterUpdate } from 'svelte';
 	import type { PageData } from './$types';

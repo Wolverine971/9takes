@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/CategoryItem.svelte -->
 <script lang="ts">
 	import DownIcon from '$lib/components/icons/downIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';

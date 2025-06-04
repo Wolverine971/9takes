@@ -1,3 +1,4 @@
+<!-- routes/+page.svelte -->
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
 	import { fade, fly } from 'svelte/transition';

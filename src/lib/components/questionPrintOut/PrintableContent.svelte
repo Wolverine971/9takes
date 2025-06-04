@@ -1,3 +1,4 @@
+<!-- lib/components/questionPrintOut/PrintableContent.svelte -->
 <script lang="ts">
 	import { get } from 'svelte/store';
 

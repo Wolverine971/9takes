@@ -1,3 +1,4 @@
+<!-- lib/components/icons/CommentXMarkIcon.svelte -->
 <script>
 	export let className = '';
 

@@ -1,3 +1,4 @@
+// routes/account/unsubscribe/+page.server.ts
 import { error, redirect } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 

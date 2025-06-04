@@ -1,4 +1,4 @@
-// import type { error, redirect } from '@supabase/supabase-js';
+// routes/questions/+page.server.ts
 import { error, redirect } from '@sveltejs/kit';
 import { deleteESQuestion, elasticClient } from '$lib/elasticSearch';
 import { supabase } from '$lib/supabase';

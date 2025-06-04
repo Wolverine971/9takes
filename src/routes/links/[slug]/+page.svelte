@@ -1,3 +1,4 @@
+<!-- routes/links/[slug]/+page.svelte -->
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import { onMount } from 'svelte';

@@ -1,3 +1,4 @@
+<!-- lib/components/icons/envelope.svelte -->
 <script>
 	export let className = '';
 

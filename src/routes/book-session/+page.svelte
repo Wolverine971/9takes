@@ -1,3 +1,4 @@
+<!-- routes/book-session/+page.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';

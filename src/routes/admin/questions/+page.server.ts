@@ -1,3 +1,4 @@
+// routes/admin/questions/+page.server.ts
 import { supabase } from '$lib/supabase';
 
 import type { PageServerLoad } from './$types';

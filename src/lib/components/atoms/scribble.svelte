@@ -1,3 +1,4 @@
+<!-- lib/components/atoms/scribble.svelte -->
 <script lang="ts">
 	export let text = '9takes';
 

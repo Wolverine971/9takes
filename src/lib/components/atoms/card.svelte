@@ -1,5 +1,4 @@
-
-<!-- $lib/components/atoms/card.svelte -->
+<!-- lib/components/atoms/card.svelte -->
 <script lang="ts">
 	export let style = '';
 	export let className = '';

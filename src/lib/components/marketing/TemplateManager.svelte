@@ -1,3 +1,4 @@
+<!-- lib/components/marketing/TemplateManager.svelte -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { Button, Card, Input, Label, Textarea, Modal } from 'flowbite-svelte';

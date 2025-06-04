@@ -1,3 +1,4 @@
+// routes/content-board/+page.server.ts
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';

@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/NavbarLinks.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { afterUpdate } from 'svelte';

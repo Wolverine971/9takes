@@ -1,3 +1,4 @@
+<!-- lib/components/icons/NO-caseyNeistatCareer.svelte -->
 <script>
 	export let className = '';
 

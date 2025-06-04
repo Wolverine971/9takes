@@ -1,3 +1,4 @@
+// emails/index.ts
 import { EmailHead } from './EmailHead';
 
 const from = '9takes Admins';

@@ -1,4 +1,4 @@
-// import { supabase } from '$lib/supabase';
+// routes/blog/+layout.server.ts
 
 // /** @type {import('./$types').PageLoad} */
 // export async function load({

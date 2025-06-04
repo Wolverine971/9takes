@@ -1,3 +1,4 @@
+<!-- lib/components/atoms/jumbotron.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';

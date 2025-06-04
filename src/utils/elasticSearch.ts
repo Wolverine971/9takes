@@ -1,3 +1,4 @@
+// utils/elasticSearch.ts
 export const typeaheadQuery = ({
 	index,
 	field,

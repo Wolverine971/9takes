@@ -1,3 +1,4 @@
+// routes/blog/topical/[slug]/+page.ts
 import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';

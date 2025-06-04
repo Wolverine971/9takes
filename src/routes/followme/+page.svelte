@@ -1,3 +1,4 @@
+<!-- routes/followme/+page.svelte -->
 <script lang="ts">
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 

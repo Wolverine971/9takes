@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+// utils/demo.ts
 export const mapDemoValues = (values: { [x: string]: any }[] | { [x: string]: any } | null) => {
 	if (!values) {
 		return null;

@@ -1,3 +1,4 @@
+<!-- lib/components/map/Map.svelte -->
 <script>
 	import { setContext, onDestroy, createEventDispatcher } from 'svelte';
 	import { contextKey } from '$lib/components/map/mapbox';

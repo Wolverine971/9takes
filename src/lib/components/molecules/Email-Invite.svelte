@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/Email-Invite.svelte -->
 <script lang="ts">
 	import { notifications } from './notifications';
 	import Envelope from '$lib/components/icons/envelope.svelte';

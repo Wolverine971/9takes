@@ -1,3 +1,4 @@
+// lib/utils/clickOutside.ts
 type Listener = [CallableFunction, HTMLElement];
 
 const ClickOutsideManager = {

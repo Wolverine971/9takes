@@ -1,3 +1,4 @@
+// routes/admin/messages/+page.server.ts
 import { supabase } from '$lib/supabase';
 import type { PageServerLoad } from './$types';
 import { redirect, type Actions } from '@sveltejs/kit';

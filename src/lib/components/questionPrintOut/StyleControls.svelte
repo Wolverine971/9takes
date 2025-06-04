@@ -1,3 +1,4 @@
+<!-- lib/components/questionPrintOut/StyleControls.svelte -->
 <script>
 	import { createEventDispatcher } from 'svelte';
 

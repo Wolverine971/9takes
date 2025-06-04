@@ -1,3 +1,4 @@
+// routes/links/+page.server.ts
 import { redirect, type Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import { supabase } from '$lib/supabase';

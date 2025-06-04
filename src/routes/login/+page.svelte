@@ -1,3 +1,4 @@
+<!-- routes/login/+page.svelte -->
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
 	import { fade, fly } from 'svelte/transition';

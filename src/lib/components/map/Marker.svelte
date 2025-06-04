@@ -1,3 +1,4 @@
+<!-- lib/components/map/Marker.svelte -->
 <script>
 	import { onMount, getContext, createEventDispatcher } from 'svelte';
 	import { contextKey } from '$lib/components/map/mapbox';

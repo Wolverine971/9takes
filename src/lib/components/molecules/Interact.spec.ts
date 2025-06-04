@@ -1,3 +1,4 @@
+// lib/components/molecules/Interact.spec.ts
 import { beforeEach, describe, expect, it } from 'vitest';
 import Interact from './Interact.svelte';
 

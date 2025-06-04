@@ -1,3 +1,4 @@
+// lib/components/map/map-action.ts
 import { load } from '$lib/components/map/asset-loader';
 import { bindEvents } from '$lib/components/map/event-binding';
 

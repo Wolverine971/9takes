@@ -1,4 +1,4 @@
-// +page.server.ts (or the file containing your PageServerLoad)
+// routes/enneagram-corner/[slug]/+page.server.ts
 
 import { dev } from '$app/environment';
 

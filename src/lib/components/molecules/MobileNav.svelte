@@ -1,4 +1,4 @@
-<!-- Optimized MobileNav Component -->
+<!-- lib/components/molecules/MobileNav.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { onDestroy } from 'svelte';

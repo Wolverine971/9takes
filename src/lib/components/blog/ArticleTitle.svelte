@@ -1,3 +1,4 @@
+<!-- lib/components/blog/ArticleTitle.svelte -->
 <script lang="ts">
 	export let slug = '';
 	export let title: string;

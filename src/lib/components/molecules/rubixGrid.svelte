@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/rubixGrid.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';

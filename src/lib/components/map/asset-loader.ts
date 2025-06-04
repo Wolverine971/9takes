@@ -1,3 +1,4 @@
+// lib/components/map/asset-loader.ts
 function load(assets, cb) {
 	for (const { type, value, id } of assets) {
 		const existing = document.getElementById(id);

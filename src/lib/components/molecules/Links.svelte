@@ -1,4 +1,4 @@
-<!-- Links.svelte -->
+<!-- lib/components/molecules/Links.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { createEventDispatcher, onMount } from 'svelte';

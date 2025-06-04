@@ -1,4 +1,4 @@
-<!-- Optimized Header Component -->
+<!-- lib/components/molecules/Header.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';

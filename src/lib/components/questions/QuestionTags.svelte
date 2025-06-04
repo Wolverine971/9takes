@@ -1,3 +1,4 @@
+<!-- lib/components/questions/QuestionTags.svelte -->
 <script lang="ts">
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import { convertDateToReadable } from '../../../utils/conversions';

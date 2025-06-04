@@ -1,3 +1,4 @@
+// blog/people/metrics.ts
 export const getMetrics = async () => {
 	// anthropological
 	// blog topic

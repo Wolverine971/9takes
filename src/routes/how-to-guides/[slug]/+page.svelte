@@ -1,3 +1,4 @@
+<!-- routes/how-to-guides/[slug]/+page.svelte -->
 <script lang="ts">
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 

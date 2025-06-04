@@ -1,3 +1,4 @@
+<!-- lib/components/blog/PeopleBlogPageHead.svelte -->
 <script lang="ts">
 	export let data: App.BlogPost;
 

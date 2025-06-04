@@ -1,3 +1,4 @@
+<!-- lib/components/questionPrintOut/frame.svelte -->
 <script lang="ts">
 	export let width = '100%';
 	export let height = '100%';

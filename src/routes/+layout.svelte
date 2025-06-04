@@ -1,3 +1,4 @@
+<!-- routes/+layout.svelte -->
 <script lang="ts">
 	import '../app.scss';
 	import { browser, dev } from '$app/environment';

@@ -1,3 +1,4 @@
+// routes/api/adder/+server.ts
 import { supabase } from '$lib/supabase';
 import { error, json } from '@sveltejs/kit';
 

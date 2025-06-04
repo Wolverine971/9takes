@@ -1,4 +1,4 @@
-// utils.ts
+// lib/utils/debounce.ts
 
 /**
  * Creates a debounced function that delays invoking `func` until after `wait` milliseconds

@@ -1,3 +1,4 @@
+// routes/calendar/+page.server.ts
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 
 import { PRIVATE_gmail_private_key } from '$env/static/private';

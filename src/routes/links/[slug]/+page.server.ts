@@ -1,3 +1,4 @@
+// routes/links/[slug]/+page.server.ts
 import { PRIVATE_GOOGLE_MAPS_API_KEY } from '$env/static/private';
 import { error, redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';

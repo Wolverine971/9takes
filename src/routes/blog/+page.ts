@@ -1,3 +1,4 @@
+// routes/blog/+page.ts
 import { error } from '@sveltejs/kit';
 // import type { slugFromPath } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';

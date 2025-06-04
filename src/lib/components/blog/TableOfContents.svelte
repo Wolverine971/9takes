@@ -1,3 +1,4 @@
+<!-- lib/components/blog/TableOfContents.svelte -->
 <script lang="ts">
 	import { onMount, onDestroy, afterUpdate } from 'svelte';
 	import { fly } from 'svelte/transition';

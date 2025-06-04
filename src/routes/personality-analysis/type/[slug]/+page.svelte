@@ -1,3 +1,4 @@
+<!-- routes/personality-analysis/type/[slug]/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';

@@ -1,3 +1,4 @@
+// hooks.server.ts
 import { getSupabase } from '@supabase/auth-helpers-sveltekit';
 
 import '$lib/supabase';

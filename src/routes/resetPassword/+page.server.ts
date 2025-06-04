@@ -1,3 +1,4 @@
+// routes/resetPassword/+page.server.ts
 import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';

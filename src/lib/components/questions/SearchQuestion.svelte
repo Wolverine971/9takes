@@ -1,3 +1,4 @@
+<!-- lib/components/questions/SearchQuestion.svelte -->
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import { goto } from '$app/navigation';

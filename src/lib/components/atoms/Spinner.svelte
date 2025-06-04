@@ -1,3 +1,4 @@
+<!-- lib/components/atoms/Spinner.svelte -->
 <script lang="ts">
 	/**
 	 * Simple, customizable loading spinner component

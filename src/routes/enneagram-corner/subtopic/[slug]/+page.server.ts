@@ -1,3 +1,4 @@
+// routes/enneagram-corner/subtopic/[slug]/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 

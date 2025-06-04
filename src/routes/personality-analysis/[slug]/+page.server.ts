@@ -1,3 +1,4 @@
+// routes/personality-analysis/[slug]/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { supabase } from '$lib/supabase';
 import { dev } from '$app/environment';

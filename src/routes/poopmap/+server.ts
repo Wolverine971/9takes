@@ -1,3 +1,4 @@
+// routes/poopmap/+server.ts
 import { error } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 

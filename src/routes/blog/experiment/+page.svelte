@@ -1,3 +1,4 @@
+<!-- routes/blog/experiment/+page.svelte -->
 <script lang="ts">
 	import { stemmer } from 'stemmer';
 	import { supabase } from '$lib/supabase';
@@ -1264,7 +1265,7 @@
 			rootWord: 'wrath'
 		},
 
-		///////
+		//
 
 		disguest: {
 			root: 'shame',

@@ -1,3 +1,4 @@
+<!-- lib/components/blog/ArticleSubTitle.svelte -->
 <script lang="ts">
 	export let metaData: App.BlogPost;
 

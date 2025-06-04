@@ -1,3 +1,4 @@
+<!-- lib/components/blog/SuggestionsPeople.svelte -->
 <script lang="ts">
 	import Pluralize from 'pluralize';
 	export let suggestions: {

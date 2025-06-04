@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/Link.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Card from '$lib/components/atoms/card.svelte';

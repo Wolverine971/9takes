@@ -1,3 +1,4 @@
+<!-- lib/components/questionPrintOut/ImageDropZone.svelte -->
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 

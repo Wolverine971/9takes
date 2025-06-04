@@ -1,3 +1,4 @@
+<!-- routes/blog/topical/[slug]/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import type { SvelteComponent } from 'svelte';

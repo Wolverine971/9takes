@@ -1,4 +1,4 @@
-<!-- BlogComments.svelte -->
+<!-- lib/components/blog/BlogComments.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import BlogComment from '$lib/components/blog/BlogComment.svelte';

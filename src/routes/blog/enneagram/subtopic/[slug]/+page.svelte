@@ -1,3 +1,4 @@
+<!-- routes/blog/enneagram/subtopic/[slug]/+page.svelte -->
 <script lang="ts">
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import EnneagramCategoryIntro from '$lib/components/blog/EnneagramCategoryIntro.svelte';

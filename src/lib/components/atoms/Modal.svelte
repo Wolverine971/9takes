@@ -1,3 +1,4 @@
+<!-- lib/components/atoms/Modal.svelte -->
 <script lang="ts">
 	import { Portal } from '$lib/components/abstract';
 	import { clickOutside } from '$lib/utils';

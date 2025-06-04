@@ -1,4 +1,4 @@
-<!-- <section class="blog" itemprop="articleBody"> -->
+<!-- lib/components/blog/layout.svelte -->
 <slot />
 
 <!-- </section> -->

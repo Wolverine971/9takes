@@ -1,3 +1,4 @@
+// routes/email/+page.server.ts
 import { PRIVATE_gmail_private_key } from '$env/static/private';
 
 import type { PageServerLoad } from './$types';

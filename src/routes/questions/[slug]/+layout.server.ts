@@ -1,3 +1,4 @@
+// routes/questions/[slug]/+layout.server.ts
 import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 

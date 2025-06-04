@@ -1,3 +1,4 @@
+// lib/components/map/event-binding.ts
 function bindEvents(el, handlers, mapbox, node) {
 	const unbindings = [];
 

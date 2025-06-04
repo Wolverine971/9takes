@@ -1,3 +1,4 @@
+// lib/elasticSearch.ts
 import { Client } from '@elastic/elasticsearch';
 // import type { Request, Response } from '@sveltejs/kit';
 

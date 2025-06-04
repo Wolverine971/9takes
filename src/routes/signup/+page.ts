@@ -1,0 +1,1 @@
+// routes/signup/+page.ts

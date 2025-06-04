@@ -1,3 +1,4 @@
+// emails/EmailHead.ts
 export const EmailHead = (title: string) => {
   return `<head>
     <meta charset="utf-8">

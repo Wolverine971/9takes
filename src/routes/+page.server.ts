@@ -1,3 +1,4 @@
+// routes/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { supabase } from '$lib/supabase';
 import { famousTypes } from '$lib/components/molecules/famousTypes'; // adjust path as needed

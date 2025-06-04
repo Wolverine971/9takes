@@ -1,3 +1,4 @@
+// lib/components/molecules/notifications.ts
 import { writable, derived } from 'svelte/store';
 
 const TIMEOUT = 3000;

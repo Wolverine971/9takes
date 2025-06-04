@@ -1,3 +1,4 @@
+// routes/blog/famous-enneagram-types/[slug]/+page.ts
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';

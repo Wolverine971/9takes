@@ -1,3 +1,4 @@
+// routes/plans.json.ts
 import plans from './plansData.json';
 
 export async function get() {

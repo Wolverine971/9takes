@@ -1,3 +1,4 @@
+<!-- lib/analytics.svelte -->
 <script lang="ts">
 	import { dev } from '$app/environment';
 	import { page } from '$app/stores';

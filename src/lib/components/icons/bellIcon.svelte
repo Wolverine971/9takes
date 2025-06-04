@@ -1,3 +1,4 @@
+<!-- lib/components/icons/bellIcon.svelte -->
 <script>
 	export let className = '';
 

@@ -1,3 +1,4 @@
+<!-- routes/forgotPassword/+page.svelte -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import type { ActionData } from './$types';

@@ -1,3 +1,4 @@
+// lib/supabase.ts
 import { createClient } from '@supabase/auth-helpers-sveltekit';
 import { env } from '$env/dynamic/public';
 // https://supabase.com/docs/guides/auth/auth-helpers/sveltekit

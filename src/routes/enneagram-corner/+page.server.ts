@@ -1,4 +1,4 @@
-// import type { PageServerLoad } from './$types';
+// routes/enneagram-corner/+page.server.ts
 // import { slugFromPath } from '$lib/slugFromPath';
 
 // const MAX_POSTS = 20;

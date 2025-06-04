@@ -1,3 +1,4 @@
+// lib/components/map/components.ts
 'use strict';
 
 import Map from '$lib/components/map/Map.svelte';

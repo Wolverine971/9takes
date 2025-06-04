@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+// routes/questions/categories/[slug]/+page.server.ts
 import { supabase } from '$lib/supabase';
 import { error } from '@sveltejs/kit';
 

@@ -1,3 +1,4 @@
+// routes/marketing/+page.server.ts
 import { error, fail } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import type { Actions } from './$types';

@@ -1,3 +1,4 @@
+<!-- lib/components/icons/objectsColumnOutlineIcon.svelte -->
 <script>
 	export let className = '';
 

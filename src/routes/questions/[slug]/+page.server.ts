@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+// routes/questions/[slug]/+page.server.ts
 import { supabase } from '$lib/supabase';
 
 import type { Actions } from './$types';

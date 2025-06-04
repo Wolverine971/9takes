@@ -1,3 +1,4 @@
+<!-- routes/admin/comments/+page.svelte -->
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
 	import { page } from '$app/stores';

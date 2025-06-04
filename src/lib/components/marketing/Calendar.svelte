@@ -1,3 +1,4 @@
+<!-- lib/components/marketing/Calendar.svelte -->
 <script lang="ts">
 	import { Button, Card, Modal, Select, Tooltip, Badge, Spinner } from 'flowbite-svelte';
 	import ContentEditor from './ContentEditor.svelte';

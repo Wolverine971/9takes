@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/SuggestFamousPerson.svelte -->
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import { notifications } from './notifications';

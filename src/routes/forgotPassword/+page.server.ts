@@ -1,3 +1,4 @@
+// routes/forgotPassword/+page.server.ts
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { AuthApiError } from '@supabase/supabase-js';
 import { Actions, fail, redirect, type } from '@sveltejs/kit';

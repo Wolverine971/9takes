@@ -1,3 +1,4 @@
+<!-- routes/questions/categories/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 

@@ -1,3 +1,4 @@
+<!-- routes/questions/categories/[slug]/+page.svelte -->
 <script lang="ts">
 	import { goto, invalidateAll } from '$app/navigation';
 	import { QuestionItem } from '$lib/components';

@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/Mermaid.svelte -->
 <script lang="ts">
 	import mermaid from 'mermaid';
 	import { onMount } from 'svelte';

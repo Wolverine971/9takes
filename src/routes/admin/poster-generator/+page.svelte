@@ -1,4 +1,4 @@
-<!-- src/routes/poster-generator/+page.svelte -->
+<!-- routes/admin/poster-generator/+page.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import QRCode from 'qrcode';

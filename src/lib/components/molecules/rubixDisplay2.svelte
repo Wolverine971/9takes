@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/rubixDisplay2.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
@@ -172,23 +173,7 @@
 	};
 </script>
 
-<!-- `/types/${type}s/${visibleImage}.webp`
-url({`/types/${type}s/${person}.webp`}) -->
-<!-- 
-<div class="cube">
-	<div class="cube-face cube-face-front">
-		<div class="container">
-			{#each firstGroup as person}
-				{#if person}
-					<div
-						class="cell cell-1"
-						style="background-image: url({`/types/${type}s/${person}.webp`}); background-repeat: no-repeat; background-size: cover;"
-					/>
-				{/if}
-			{/each}
-		</div>
-	</div>
-</div> -->
+
 
 <div id="rubix">
 	<div

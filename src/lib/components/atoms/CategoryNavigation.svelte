@@ -1,3 +1,4 @@
+<!-- lib/components/atoms/CategoryNavigation.svelte -->
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';

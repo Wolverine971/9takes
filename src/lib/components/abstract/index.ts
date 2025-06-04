@@ -1,2 +1,2 @@
-// export { default as AuthGuard } from './AuthGuard.svelte';
+// lib/components/abstract/index.ts
 export { default as Portal } from './Portal.svelte';

@@ -1,3 +1,4 @@
+<!-- lib/components/blog/EnneagramDiagram.svelte -->
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
 	import { fade, scale, fly } from 'svelte/transition';

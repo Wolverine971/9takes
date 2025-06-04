@@ -1,3 +1,4 @@
+<!-- lib/components/icons/commentsIcon.svelte -->
 <script>
 	export let className = '';
 

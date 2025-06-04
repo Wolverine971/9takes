@@ -1,3 +1,4 @@
+<!-- lib/components/molecules/ComboBox.svelte -->
 <script>
 	import { createEventDispatcher } from 'svelte';
 	import { onClickOutside } from '$lib/components/molecules/Context.svelte';

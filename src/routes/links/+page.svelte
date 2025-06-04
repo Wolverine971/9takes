@@ -1,3 +1,4 @@
+<!-- routes/links/+page.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { PageData } from './$types';

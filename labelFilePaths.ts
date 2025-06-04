@@ -52,9 +52,7 @@ const COMMENT_PATTERNS = {
   sass: (filePath: string) => `/* ${filePath} */`,
   less: (filePath: string) => `/* ${filePath} */`,
   
-  // Markdown
-  md: (filePath: string) => `<!-- ${filePath} -->`,
-  mdx: (filePath: string) => `<!-- ${filePath} -->`,
+
   
   // Python
   py: (filePath: string) => `# ${filePath}`,

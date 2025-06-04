@@ -1,3 +1,4 @@
+// lib/components/abstract/lazyLoad.ts
 let options = {
 	root: null,
 	rootMargin: '0px',

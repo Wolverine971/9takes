@@ -1,3 +1,4 @@
+// routes/logout/+server.ts
 import { error, redirect } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 

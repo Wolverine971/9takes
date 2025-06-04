@@ -1,3 +1,4 @@
+<!-- lib/components/icons/rubix.svelte -->
 <script lang="ts">
 	export let height: number = 265;
 

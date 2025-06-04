@@ -1,3 +1,4 @@
+<!-- routes/account/unsubscribe/[slug]/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { goto } from '$app/navigation';

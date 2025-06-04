@@ -1,4 +1,4 @@
-<!-- AmpStoryPromo.svelte -->
+<!-- lib/amp-stories/EnneagramMentalIllnessPromo.svelte -->
 <script>
 	export let title = 'Explore as Web Story';
 	export let subtitle = 'View an interactive version of this article';
