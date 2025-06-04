@@ -15,6 +15,7 @@ blog: true
 <!-- wings
 Enneagram 6 wing 5
 Enneagram 6 wing 7
+look for intellectual sparring partners
  -->
 
 <script>

@@ -1,3 +1,4 @@
+<!-- SortComments.svelte -->
 <script lang="ts">
 	import { fly, fade } from 'svelte/transition';
 	import { deserialize } from '$app/forms';
@@ -88,55 +89,63 @@
 {#if size === 'large'}
 	<button
 		type="button"
-		class="filter-button"
+		class="flex items-center gap-2 px-4 py-3 bg-white border border-neutral-200 rounded cursor-pointer transition-all duration-200 font-medium hover:bg-neutral-100 hover:-translate-y-px hover:shadow-sm"
 		on:click={() => getModal('sorter').open()}
 		in:fade={{ duration: 200 }}
 		aria-label="Filter and sort comments"
 		title="Filter and sort comments"
 	>
-		<SlidersIcon className="filter-icon" />
-		<span class="filter-text">Filter Comments</span>
+		<SlidersIcon className="text-primary-500 h-5 w-5" />
+		<span class="text-sm whitespace-nowrap">Filter Comments</span>
 		{#if selected.length !== typeOptions.length}
-			<span class="filter-badge">{selected.length}</span>
+			<span class="flex items-center justify-center min-w-[20px] h-5 px-1.5 bg-primary-500 text-white rounded-full text-xs font-semibold">
+				{selected.length}
+			</span>
 		{/if}
 	</button>
 {:else}
 	<button
 		type="button"
-		class="filter-button-small"
+		class="flex items-center justify-center p-2 bg-white border border-neutral-200 rounded cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:-translate-y-px"
 		on:click={() => getModal('sorter').open()}
 		aria-label="Filter and sort comments"
 		title="Filter and sort comments"
 	>
-		<SlidersIcon className="filter-icon-small" />
+		<SlidersIcon className="text-primary-500 h-5 w-5" />
 	</button>
 {/if}
 
 <!-- Filter Modal -->
 <Modal2 id="sorter">
-	<div class="filter-modal" in:fly={{ y: -20, duration: 300 }}>
-		<h2 class="modal-title">Filter & Sort Comments</h2>
+	<div class="p-6 sm:p-4 min-w-[320px] sm:min-w-[280px] max-w-[600px] w-full bg-white rounded shadow-lg" in:fly={{ y: -20, duration: 300 }}>
+		<h2 class="mt-0 mb-6 text-xl font-semibold text-neutral-900 text-center relative after:content-[''] after:absolute after:bottom-[-8px] after:left-1/2 after:-translate-x-1/2 after:w-[60px] after:h-0.5 after:bg-primary-500">
+			Filter & Sort Comments
+		</h2>
 
 		<!-- Personality Type Filters -->
-		<div class="filter-section">
-			<h3 class="filter-heading">Personality Type</h3>
-			<div class="type-selection">
-				<div class="quick-select">
-					<button class="quick-select-btn" on:click={selectAll} type="button"> Select All </button>
-					<button class="quick-select-btn" on:click={clearAll} type="button"> Clear All </button>
+		<div class="mb-6">
+			<h3 class="mb-4 text-lg font-semibold text-neutral-900">Personality Type</h3>
+			<div class="mb-4">
+				<div class="flex gap-3 sm:flex-col sm:gap-2">
+					<button class="px-4 py-2 border border-neutral-200 rounded bg-transparent cursor-pointer transition-all duration-200 text-sm hover:bg-neutral-100" on:click={selectAll} type="button"> 
+						Select All 
+					</button>
+					<button class="px-4 py-2 border border-neutral-200 rounded bg-transparent cursor-pointer transition-all duration-200 text-sm hover:bg-neutral-100" on:click={clearAll} type="button"> 
+						Clear All 
+					</button>
 				</div>
 
-				<div class="type-grid">
+				<div class="grid grid-cols-[repeat(auto-fill,minmax(100px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(80px,1fr))] gap-2 mt-4">
 					{#each typeOptions as type}
-						<label class="type-chip" class:selected={selected.includes(type)}>
+						<label class="flex items-center justify-center p-2 border border-neutral-200 rounded cursor-pointer transition-all duration-200 text-sm text-center hover:bg-neutral-100 {selected.includes(type) ? 'bg-primary-500 border-primary-500 text-white' : ''}">
 							<input
 								type="checkbox"
 								value={type}
 								checked={selected.includes(type)}
 								on:change={() => toggleType(type)}
-								class="visually-hidden"
+								class="sr-only"
 							/>
-							<span class="chip-text">Type {type}</span>
+							<span class="font-medium">Type {type}</span>
 						</label>
 					{/each}
 				</div>
@@ -144,38 +153,37 @@
 		</div>
 
 		<!-- Sort Options -->
-		<div class="filter-section">
-			<h3 class="filter-heading">Sort Order</h3>
-			<div class="sort-options">
-				<label class="sort-option" class:selected={sortBy === 'newest'}>
-					<input type="radio" bind:group={sortBy} value="newest" class="visually-hidden" />
+		<div class="mb-6">
+			<h3 class="mb-4 text-lg font-semibold text-neutral-900">Sort Order</h3>
+			<div class="flex flex-col gap-2">
+				<label class="flex items-center justify-center p-3 border border-neutral-200 rounded cursor-pointer transition-all duration-200 text-sm font-medium hover:bg-neutral-100 {sortBy === 'newest' ? 'bg-primary-500 border-primary-500 text-white' : ''}">
+					<input type="radio" bind:group={sortBy} value="newest" class="sr-only" />
 					<span>Newest First</span>
 				</label>
-				<label class="sort-option" class:selected={sortBy === 'oldest'}>
-					<input type="radio" bind:group={sortBy} value="oldest" class="visually-hidden" />
+				<label class="flex items-center justify-center p-3 border border-neutral-200 rounded cursor-pointer transition-all duration-200 text-sm font-medium hover:bg-neutral-100 {sortBy === 'oldest' ? 'bg-primary-500 border-primary-500 text-white' : ''}">
+					<input type="radio" bind:group={sortBy} value="oldest" class="sr-only" />
 					<span>Oldest First</span>
 				</label>
-				<label class="sort-option" class:selected={sortBy === 'likes'}>
-					<input type="radio" bind:group={sortBy} value="likes" class="visually-hidden" />
+				<label class="flex items-center justify-center p-3 border border-neutral-200 rounded cursor-pointer transition-all duration-200 text-sm font-medium hover:bg-neutral-100 {sortBy === 'likes' ? 'bg-primary-500 border-primary-500 text-white' : ''}">
+					<input type="radio" bind:group={sortBy} value="likes" class="sr-only" />
 					<span>Most Liked</span>
 				</label>
 			</div>
 		</div>
 
 		<!-- Action Buttons -->
-		<div class="filter-actions">
-			<button class="cancel-btn" on:click={() => getModal('sorter').close()} type="button">
+		<div class="flex justify-end gap-3 mt-6 sm:flex-col">
+			<button class="px-6 py-3 bg-transparent border border-neutral-400 text-neutral-600 rounded font-medium cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900" on:click={() => getModal('sorter').close()} type="button">
 				Cancel
 			</button>
 			<button
-				class="apply-btn"
-				class:disabled={!data?.flags?.userHasAnswered}
+				class="flex items-center justify-center gap-2 px-6 py-3 bg-primary-500 text-white border-none rounded font-medium cursor-pointer transition-all duration-200 hover:bg-primary-600 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed"
 				on:click={applyFilters}
 				disabled={sortLoading || !data?.flags?.userHasAnswered}
 				type="button"
 			>
 				{#if sortLoading}
-					<div class="loader" />
+					<div class="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
 				{:else}
 					Apply Filters
 				{/if}
@@ -183,295 +191,3 @@
 		</div>
 	</div>
 </Modal2>
-
-<style lang="scss">
-	@keyframes spin {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
-	}
-
-	/* Hide inputs visually but keep them accessible */
-	.visually-hidden {
-		position: absolute;
-		width: 1px;
-		height: 1px;
-		margin: -1px;
-		padding: 0;
-		overflow: hidden;
-		clip: rect(0, 0, 0, 0);
-		border: 0;
-	}
-
-	/* Filter button styles */
-	.filter-button {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		padding: 0.75rem 1rem;
-		background: white;
-		border: 1px solid var(--light-gray);
-		border-radius: var(--base-border-radius);
-		cursor: pointer;
-		transition: all 0.2s ease;
-		font-weight: 500;
-
-		&:hover {
-			background: var(--light-gray);
-			transform: translateY(-1px);
-			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-		}
-
-		.filter-icon {
-			color: var(--accent);
-			height: 1.25rem;
-			width: 1.25rem;
-		}
-
-		.filter-text {
-			font-size: 0.95rem;
-			white-space: nowrap;
-		}
-
-		.filter-badge {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			min-width: 20px;
-			height: 20px;
-			padding: 0 6px;
-			background: var(--accent);
-			color: white;
-			border-radius: 10px;
-			font-size: 0.75rem;
-			font-weight: 600;
-		}
-	}
-
-	.filter-button-small {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.5rem;
-		background: white;
-		border: 1px solid var(--light-gray);
-		border-radius: var(--base-border-radius);
-		cursor: pointer;
-		transition: all 0.2s ease;
-
-		&:hover {
-			background: var(--light-gray);
-			transform: translateY(-1px);
-		}
-
-		.filter-icon-small {
-			color: var(--accent);
-			height: 1.25rem;
-			width: 1.25rem;
-		}
-	}
-
-	/* Filter modal styles */
-	.filter-modal {
-		padding: 1.5rem;
-		min-width: 320px;
-		max-width: 600px;
-		width: 100%;
-		background: white;
-		border-radius: var(--base-border-radius);
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-
-		@media (max-width: 576px) {
-			padding: 1rem;
-			min-width: 280px;
-		}
-	}
-
-	.modal-title {
-		margin-top: 0;
-		margin-bottom: 1.5rem;
-		font-size: 1.4rem;
-		font-weight: 600;
-		color: var(--darkest-gray);
-		text-align: center;
-		position: relative;
-
-		&::after {
-			content: '';
-			position: absolute;
-			bottom: -8px;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 60px;
-			height: 2px;
-			background: var(--accent);
-		}
-	}
-
-	.filter-section {
-		margin-bottom: 1.5rem;
-
-		.filter-heading {
-			margin-bottom: 1rem;
-			font-size: 1.1rem;
-			font-weight: 600;
-			color: var(--darkest-gray);
-		}
-	}
-
-	.quick-select {
-		display: flex;
-		gap: 0.75rem;
-		margin-bottom: 1rem;
-
-		@media (max-width: 576px) {
-			flex-direction: column;
-			gap: 0.5rem;
-		}
-
-		.quick-select-btn {
-			padding: 0.5rem 1rem;
-			border: 1px solid var(--light-gray);
-			border-radius: var(--base-border-radius);
-			background: transparent;
-			cursor: pointer;
-			transition: all 0.2s ease;
-			font-size: 0.9rem;
-
-			&:hover {
-				background: var(--light-gray);
-			}
-		}
-	}
-
-	.type-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-		gap: 0.5rem;
-
-		@media (max-width: 576px) {
-			grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-		}
-
-		.type-chip {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			padding: 0.5rem;
-			border: 1px solid var(--light-gray);
-			border-radius: var(--base-border-radius);
-			cursor: pointer;
-			transition: all 0.2s ease;
-			font-size: 0.9rem;
-			text-align: center;
-
-			&:hover {
-				background: var(--light-gray);
-			}
-
-			&.selected {
-				background: var(--accent);
-				border-color: var(--accent);
-				color: white;
-			}
-
-			.chip-text {
-				font-weight: 500;
-			}
-		}
-	}
-
-	.sort-options {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-
-		.sort-option {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			padding: 0.75rem;
-			border: 1px solid var(--light-gray);
-			border-radius: var(--base-border-radius);
-			cursor: pointer;
-			transition: all 0.2s ease;
-			font-size: 0.9rem;
-			font-weight: 500;
-
-			&:hover {
-				background: var(--light-gray);
-			}
-
-			&.selected {
-				background: var(--accent);
-				border-color: var(--accent);
-				color: white;
-			}
-		}
-	}
-
-	.filter-actions {
-		display: flex;
-		justify-content: flex-end;
-		gap: 0.75rem;
-		margin-top: 1.5rem;
-
-		@media (max-width: 576px) {
-			flex-direction: column;
-		}
-	}
-
-	.cancel-btn,
-	.apply-btn {
-		padding: 0.75rem 1.5rem;
-		border-radius: var(--base-border-radius);
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.2s ease;
-		font-size: 0.95rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-	}
-
-	.cancel-btn {
-		background: transparent;
-		border: 1px solid var(--medium-gray);
-		color: var(--dark-gray);
-
-		&:hover {
-			background: var(--light-gray);
-			color: var(--darkest-gray);
-		}
-	}
-
-	.apply-btn {
-		background: var(--accent);
-		color: white;
-		border: none;
-
-		&:hover:not(:disabled) {
-			background: var(--accent-dark);
-			transform: translateY(-2px);
-		}
-
-		&:disabled,
-		&.disabled {
-			opacity: 0.5;
-			cursor: not-allowed;
-		}
-	}
-
-	.loader {
-		width: 1.25rem;
-		height: 1.25rem;
-		border: 3px solid rgba(255, 255, 255, 0.3);
-		border-radius: 50%;
-		border-top: 3px solid white;
-		animation: spin 0.8s linear infinite;
-	}
-</style>

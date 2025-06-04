@@ -1,3 +1,4 @@
+<!-- Links.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { createEventDispatcher, onMount } from 'svelte';
@@ -83,7 +84,7 @@
 </script>
 
 {#if browser && links.length && parentType === 'question' && data?.flags?.userHasAnswered}
-	<div class="flex-down">
+	<div class="flex flex-col gap-2">
 		{#each links as link (link.id)}
 			{#if link}
 				<Link {questionId} {link} {user} {data} on:commentAdded={refreshLinks} />
@@ -92,23 +93,18 @@
 	</div>
 
 	{#if links.length < linksCount}
-		<button class="btn btn-secondary" on:click={loadMore} disabled={loading}>
+		<button 
+			class="flex items-center justify-center gap-2 px-5 py-3 bg-primary-500 text-white border-none rounded font-medium cursor-pointer transition-all duration-200 hover:bg-primary-600 hover:-translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed mt-4" 
+			on:click={loadMore} 
+			disabled={loading}
+		>
 			{#if loading}
-				<div class="loader" />
+				<div class="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
 			{:else}
 				Load More
 			{/if}
 		</button>
 	{/if}
 {:else if !links.length}
-	<p>Nothing right now</p>
+	<p class="text-center text-neutral-600 py-8">Nothing right now</p>
 {/if}
-
-<style lang="scss">
-	.flex-down {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		gap: 0.5rem;
-	}
-</style>

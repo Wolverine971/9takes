@@ -1,3 +1,4 @@
+<!-- Optimized Header Component -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';
@@ -7,22 +8,25 @@
 
 	export let data: any;
 
+	console.log(data)
+
 	// Responsive state
 	let innerWidth: number;
 	let isDropdownOpen = false;
 
+	// Reactive statements
 	$: isMobile = innerWidth < 768;
 	$: isHomePage = $page.url.pathname === '/';
 
 	// Reset dropdown state on navigation
 	afterNavigate(() => (isDropdownOpen = false));
 
-	// Initialize and handle window resize
+	// Initialize window resize handler
 	onMount(() => {
 		innerWidth = window.innerWidth;
 	});
 
-	// Navigation structure
+	// Navigation structure - centralized for consistency
 	const navItems = [
 		{ href: '/', label: 'Home' },
 		{ href: '/questions', label: 'Question List' }
@@ -35,22 +39,25 @@
 		{ href: '/how-to-guides', label: 'How-to Guides' }
 	];
 
-	// Account navigation handler
+	// Handlers
 	const goToAccount = () => goto('/account');
+	const toggleDropdown = () => (isDropdownOpen = !isDropdownOpen);
+	const closeDropdown = () => (isDropdownOpen = false);
 </script>
 
 <svelte:window bind:innerWidth />
 
-<header class="relative z-50 bg-white shadow">
+<header class="relative z-50 bg-white shadow-sm border-b border-neutral-100 nav-main">
 	{#if isMobile}
 		<!-- Mobile Header -->
 		<div class="flex h-16 items-center justify-between px-4">
 			<MobileNav {navItems} {blogItems} />
 
+			<!-- Logo - centered -->
 			<a
 				href="/"
-				class="absolute left-1/2 flex -translate-x-1/2 transform items-center"
-				aria-label="Home"
+				class="absolute left-1/2 flex -translate-x-1/2 transform items-center focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded-lg"
+				aria-label="Go to homepage"
 			>
 				<img
 					src="/brand/aero.png"
@@ -61,11 +68,12 @@
 				/>
 			</a>
 
-			{#if data?.session?.user}
+			<!-- Account button -->
+			{#if data?.user}
 				<button
 					type="button"
 					on:click={goToAccount}
-					class="flex cursor-pointer items-center justify-center border-none bg-transparent p-0"
+					class="flex cursor-pointer items-center justify-center border-none bg-transparent p-1 rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 					aria-label="Go to account"
 				>
 					<img
@@ -73,36 +81,42 @@
 						alt="Account"
 						width="30"
 						height="30"
-						class="rounded-full border border-gray-300 p-0.5 transition-transform duration-200 hover:scale-110"
+						class="rounded-full border border-neutral-300 p-0.5 transition-transform duration-200 hover:scale-110"
 					/>
 				</button>
 			{/if}
 		</div>
 	{:else}
 		<!-- Desktop Navigation -->
-		<nav class="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-8">
+		<nav class="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
 			<!-- Logo & Brand -->
-			<a href="/" class="flex items-center no-underline" aria-label="Home">
+			<a 
+				href="/" 
+				class="flex items-center no-underline group focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded-lg" 
+				aria-label="Go to homepage"
+			>
 				<img
 					src="/brand/aero.png"
 					alt="9takes Logo"
 					height="60"
 					width="60"
-					class="transition-transform duration-200 hover:scale-110"
+					class="transition-transform duration-200 group-hover:scale-110"
 				/>
-				<span class="ml-2 w-[75px] text-2xl font-bold text-gray-800">
+				<span class="ml-2 w-[75px] text-2xl font-bold text-neutral-800 transition-colors duration-200 group-hover:text-primary-700">
 					{!isHomePage ? '9takes' : ' '}
 				</span>
 			</a>
 
-			<!-- Main Navigation -->
+			<!-- Main Navigation - centered -->
 			<div class="absolute left-1/2 flex -translate-x-1/2 transform items-center justify-center">
 				<div class="flex items-center gap-8">
+					<!-- Main nav items -->
 					{#each navItems as { href, label }}
 						<a
 							{href}
-							class="nav-link relative px-0 py-2 text-base font-semibold text-gray-800 no-underline"
+							class="nav-link relative px-2 py-2 text-base font-semibold text-neutral-800 no-underline transition-colors duration-200 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded"
 							class:active-link={$page.url.pathname === href}
+							aria-current={$page.url.pathname === href ? 'page' : undefined}
 						>
 							{label}
 						</a>
@@ -111,42 +125,55 @@
 					<!-- Blog Dropdown -->
 					<div class="relative z-40">
 						<button
-							on:click={() => (isDropdownOpen = !isDropdownOpen)}
-							class="nav-link relative px-0 py-2 text-base font-semibold text-gray-800 no-underline"
+							on:click={toggleDropdown}
+							class="nav-link relative px-2 py-2 text-base font-semibold text-neutral-800 no-underline transition-colors duration-200 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded flex items-center gap-1"
 							aria-haspopup="true"
 							aria-controls="blogMenu"
 							aria-expanded={isDropdownOpen}
 						>
 							Blog
+							<svg 
+								class="w-4 h-4 transition-transform duration-200"
+								class:rotate-180={isDropdownOpen}
+								fill="none" 
+								stroke="currentColor" 
+								viewBox="0 0 24 24"
+							>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+							</svg>
 						</button>
 
-						<Context>
-							<ul
-								id="blogMenu"
-								class="dropdown-menu absolute left-1/2 top-[calc(100%+0.5rem)] w-[220px] -translate-x-1/2 transform rounded bg-white py-2 shadow-md"
-								class:is-open={isDropdownOpen}
-								use:onClickOutside={() => (isDropdownOpen = false)}
-							>
-								{#each blogItems as { href, label }}
-									<li>
-										<a
-											{href}
-											tabindex={isDropdownOpen ? 0 : -1}
-											class="block px-4 py-3 font-normal text-gray-800 no-underline transition-colors duration-200 hover:bg-gray-100"
-											class:text-primary-700={$page.url.pathname === href}
-										>
-											{label}
-										</a>
-									</li>
-								{/each}
-							</ul>
-						</Context>
+						{#if isDropdownOpen}
+							<Context>
+								<ul
+									id="blogMenu"
+									class="dropdown-menu absolute left-1/2 top-[calc(100%+0.5rem)] w-[240px] -translate-x-1/2 transform rounded-lg bg-white py-2 shadow-lg border border-neutral-200 z-50"
+									use:onClickOutside={closeDropdown}
+								>
+									{#each blogItems as { href, label }}
+										<li>
+											<a
+												{href}
+												class="block px-4 py-3 text-sm font-medium text-neutral-700 no-underline transition-colors duration-200 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:bg-primary-50 focus:text-primary-700"
+												class:text-primary-700={$page.url.pathname === href}
+												class:bg-primary-50={$page.url.pathname === href}
+												on:click={closeDropdown}
+											>
+												{label}
+											</a>
+										</li>
+									{/each}
+								</ul>
+							</Context>
+						{/if}
 					</div>
 
+					<!-- About link -->
 					<a
 						href="/about"
-						class="nav-link relative px-0 py-2 text-base font-semibold text-gray-800 no-underline"
+						class="nav-link relative px-2 py-2 text-base font-semibold text-neutral-800 no-underline transition-colors duration-200 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded"
 						class:active-link={$page.url.pathname === '/about'}
+						aria-current={$page.url.pathname === '/about' ? 'page' : undefined}
 					>
 						About
 					</a>
@@ -154,11 +181,12 @@
 			</div>
 
 			<!-- Account / Login Area -->
-			<div>
-				{#if data?.session?.user}
+			<div class="flex items-center">
+				{#if data?.user}
 					<a
 						href="/account"
-						class="flex cursor-pointer items-center justify-center border-none bg-transparent p-0"
+						class="flex cursor-pointer items-center justify-center border-none bg-transparent p-1 rounded-full transition-all duration-200 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+						aria-label="Go to account"
 					>
 						<img
 							src="/brand/account-icon2.png"
@@ -166,13 +194,13 @@
 							title="Account"
 							width="30"
 							height="30"
-							class="rounded-full border border-gray-300 p-0.5 transition-transform duration-200 hover:scale-110"
+							class="rounded-full border border-neutral-300 p-0.5 transition-transform duration-200 hover:scale-110"
 						/>
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
 					<a
 						href="/login"
-						class="inline-block rounded bg-primary-700 px-6 py-2 font-semibold !text-white no-underline transition-colors duration-200 hover:bg-primary-800"
+						class="inline-flex items-center rounded-lg bg-primary-700 px-6 py-2.5 text-sm font-semibold text-white no-underline transition-all duration-200 hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 shadow-sm hover:shadow-md"
 					>
 						Login / Register
 					</a>
@@ -184,25 +212,28 @@
 
 <style lang="scss">
 	.dropdown-menu {
-		display: none;
-		list-style: none;
-		margin: 0;
-		padding: 0.5rem 0;
-
-		&.is-open {
-			display: block;
-		}
-
+		animation: fadeInScale 0.15s ease-out forwards;
+		transform-origin: top center;
+		
 		li {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			
 			&::marker {
-				content: none;
+				display: none;
 			}
+		}
+	}
 
-			a {
-				&::after {
-					display: none;
-				}
-			}
+	@keyframes fadeInScale {
+		from {
+			opacity: 0;
+			transform: translate(-50%, -4px) scale(0.95);
+		}
+		to {
+			opacity: 1;
+			transform: translate(-50%, 0) scale(1);
 		}
 	}
 
@@ -217,15 +248,16 @@
 			content: '';
 			position: absolute;
 			bottom: 0;
-			left: 0;
+			left: 50%;
 			height: 2px;
 			width: 0;
 			background-color: theme('colors.primary.700');
-			transition: width 0.2s ease;
+			transition: all 0.2s ease;
+			transform: translateX(-50%);
 		}
 
 		&:hover::after {
-			width: 100%;
+			width: 80%;
 		}
 	}
 
@@ -233,7 +265,7 @@
 		color: theme('colors.primary.700');
 
 		&::after {
-			width: 100%;
+			width: 80%;
 		}
 	}
 </style>

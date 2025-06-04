@@ -1,3 +1,4 @@
+<!-- QuestionContent.svelte -->
 <script lang="ts">
 	import { fade, slide } from 'svelte/transition';
 	import { createEventDispatcher } from 'svelte';
@@ -98,7 +99,7 @@
 <div class="mt-4 w-full">
 	<!-- Tabs Navigation -->
 	<nav
-		class="scrollbar-hide sticky top-0 z-10 flex overflow-x-auto rounded-t-md bg-white shadow-sm sm:relative"
+		class="sticky top-0 z-10 flex overflow-x-auto rounded-t-md bg-white shadow-sm sm:relative scrollbar-hide"
 		role="tablist"
 	>
 		{#each tabs as tab}
@@ -106,10 +107,7 @@
 				role="tab"
 				aria-selected={selectedTab === tab}
 				aria-controls={tab}
-				class="xs:px-4 xs:py-3 min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 border-b-2 border-transparent bg-transparent px-6 py-4 text-sm font-medium text-gray-600 transition-all duration-200 hover:bg-gray-100 hover:text-gray-800 sm:px-6 sm:py-4"
-				class:border-indigo-600={selectedTab === tab}
-				class:text-indigo-600={selectedTab === tab}
-				class:font-semibold={selectedTab === tab}
+				class="min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 border-b-2 border-transparent bg-transparent px-6 py-4 sm:px-4 sm:py-3 text-sm font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-800 {selectedTab === tab ? 'border-primary-600 text-primary-600 font-semibold' : ''}"
 				on:click={() => {
 					selectedTab = tab;
 					scrollToSection(tab);
@@ -131,7 +129,7 @@
 						this={iconComponents[tab]}
 						iconStyle={''}
 						height={'1.5rem'}
-						fill={selectedTab === tab ? 'var(--primary)' : 'var(--dark-gray)'}
+						fill={selectedTab === tab ? 'currentColor' : 'currentColor'}
 						type={tab === 'Comments' ? 'multiple' : undefined}
 					/>
 				{/if}
@@ -140,12 +138,11 @@
 	</nav>
 
 	<!-- Tab Content -->
-	<div class="min-h-[300px] rounded-b-md bg-gray-100">
+	<div class="min-h-[300px] rounded-b-md bg-neutral-100">
 		{#each tabs as section}
 			<section
 				id={section}
-				class="xs:p-2 hidden p-4"
-				class:showSection={selectedTab === section}
+				class="p-4 sm:p-2 {selectedTab === section ? 'block' : 'hidden'}"
 				aria-labelledby={`${section}-tab`}
 				role="tabpanel"
 				tabindex="0"
@@ -162,11 +159,11 @@
 							</div>
 						{/if}
 
-						<Card className="bg-white border-0 shadow-md rounded-md p-4 xs:p-3">
+						<Card className="bg-white border-0 shadow-md rounded-md p-4 sm:p-3">
 							{#if section === 'Comments'}
 								{#if !data?.flags?.userHasAnswered}
 									<p
-										class="xs:text-lg xs:my-4 my-8 text-center text-2xl font-semibold text-indigo-500 md:my-6 md:text-xl"
+										class="my-8 md:my-6 sm:my-4 text-center text-2xl md:text-xl sm:text-lg font-semibold text-primary-500"
 										in:fade={{ duration: 200 }}
 									>
 										{_data.comment_count === 0
@@ -201,14 +198,14 @@
 							{:else if section === 'Visuals'}
 								{#if data?.flags?.userHasAnswered}
 									<div
-										class="flex flex-col items-center justify-center gap-4 px-4 py-12 text-gray-500"
+										class="flex flex-col items-center justify-center gap-4 px-4 py-12 text-neutral-500"
 									>
-										<CameraIcon height="2rem" fill="var(--medium-gray)" />
+										<CameraIcon height="2rem" fill="currentColor" />
 										<p class="m-0 text-center">No visuals available yet</p>
 									</div>
 								{:else}
 									<p
-										class="xs:text-lg xs:my-4 my-8 text-center text-2xl font-semibold text-indigo-500 md:my-6 md:text-xl"
+										class="my-8 md:my-6 sm:my-4 text-center text-2xl md:text-xl sm:text-lg font-semibold text-primary-500"
 									>
 										Answer the question to see content
 									</p>
@@ -231,10 +228,6 @@
 </div>
 
 <style>
-	.showSection {
-		display: block;
-		visibility: visible;
-	}
 	/* Hide scrollbar but allow scrolling */
 	.scrollbar-hide {
 		-ms-overflow-style: none; /* IE and Edge */
@@ -243,36 +236,5 @@
 
 	.scrollbar-hide::-webkit-scrollbar {
 		display: none; /* Chrome, Safari, Opera */
-	}
-
-	/* Extra small screen utilities */
-	@media (max-width: 576px) {
-		.xs\:p-2 {
-			padding: 0.5rem;
-		}
-
-		.xs\:p-3 {
-			padding: 0.75rem;
-		}
-
-		.xs\:px-4 {
-			padding-left: 1rem;
-			padding-right: 1rem;
-		}
-
-		.xs\:py-3 {
-			padding-top: 0.75rem;
-			padding-bottom: 0.75rem;
-		}
-
-		.xs\:text-lg {
-			font-size: 1.125rem;
-			line-height: 1.75rem;
-		}
-
-		.xs\:my-4 {
-			margin-top: 1rem;
-			margin-bottom: 1rem;
-		}
 	}
 </style>

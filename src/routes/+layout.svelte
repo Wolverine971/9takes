@@ -256,7 +256,6 @@
 			class:max-w-4xl={shouldShowMaxWidth}
 			class:mx-auto={shouldShowMaxWidth}
 			class:w-full={shouldShowMaxWidth}
-			style="margin-top: {isHomePage ? '-60px' : '0'};"
 		>
 			<slot />
 		</main>

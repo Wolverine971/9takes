@@ -1,3 +1,4 @@
+<!-- Comments.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { createEventDispatcher, onMount, onDestroy } from 'svelte';
@@ -111,7 +112,7 @@
 
 {#key key}
 	{#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
-		<div class="comments-container">
+		<div class="flex flex-col gap-4">
 			{#each _comments as comment, index (comment.id)}
 				<div in:fade={{ duration: 300, delay: index * 50 }}>
 					<Comment
@@ -127,15 +128,15 @@
 
 			<!-- Infinite scroll sentinel -->
 			{#if _comments.length < comment_count && parentData?.flags?.userHasAnswered}
-				<div bind:this={bottomSentinel} class="load-more-sentinel">
+				<div bind:this={bottomSentinel} class="h-2.5 my-4">
 					{#if loading}
-						<div class="loading-skeleton">
+						<div class="space-y-4">
 							{#each Array(2) as _, i}
-								<div class="skeleton-comment" in:fade={{ duration: 300, delay: i * 100 }}>
-									<div class="skeleton-avatar"></div>
-									<div class="skeleton-content">
-										<div class="skeleton-line" style="width: 95%"></div>
-										<div class="skeleton-line" style="width: 80%"></div>
+								<div class="flex gap-4 p-4 my-2 bg-white/80 rounded-lg shadow-sm" in:fade={{ duration: 300, delay: i * 100 }}>
+									<div class="w-20 h-8 bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%] animate-[shimmer_1.5s_infinite] rounded"></div>
+									<div class="flex-1 flex flex-col gap-3">
+										<div class="h-3 bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%] animate-[shimmer_1.5s_infinite] rounded w-[95%]"></div>
+										<div class="h-3 bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%] animate-[shimmer_1.5s_infinite] rounded w-[80%]"></div>
 									</div>
 								</div>
 							{/each}
@@ -145,82 +146,19 @@
 			{/if}
 		</div>
 	{:else if parentData?.flags?.userHasAnswered && !comments.length}
-		<div class="empty-comments">
+		<div class="text-center py-8 text-neutral-600">
 			<p>No comments yet. Be the first to share your thoughts!</p>
 		</div>
 	{/if}
 {/key}
 
-<style lang="scss">
-	.comments-container {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-	}
-
-	.load-more-sentinel {
-		height: 10px;
-		margin: 1rem 0;
-	}
-
-	.empty-comments {
-		text-align: center;
-		padding: 2rem 0;
-		color: var(--dark-gray);
-	}
-
-	.loading-skeleton {
-		@keyframes shimmer {
-			0% {
-				background-position: -200% 0;
-			}
-			100% {
-				background-position: 200% 0;
-			}
+<style>
+	@keyframes shimmer {
+		0% {
+			background-position: -200% 0;
 		}
-
-		.skeleton-comment {
-			display: flex;
-			gap: 1rem;
-			padding: 1rem;
-			margin: 0.5rem 0;
-			background: rgba(255, 255, 255, 0.8);
-			border-radius: var(--base-border-radius);
-			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-		}
-
-		.skeleton-avatar {
-			width: 80px;
-			height: 32px;
-			background: linear-gradient(
-				90deg,
-				var(--light-gray) 25%,
-				var(--medium-gray) 50%,
-				var(--light-gray) 75%
-			);
-			background-size: 200% 100%;
-			animation: shimmer 1.5s infinite;
-			border-radius: var(--base-border-radius);
-		}
-
-		.skeleton-content {
-			flex: 1;
-			display: flex;
-			flex-direction: column;
-			gap: 0.75rem;
-		}
-
-		.skeleton-line {
-			height: 12px;
-			background: linear-gradient(
-				90deg,
-				var(--light-gray) 25%,
-				var(--medium-gray) 50%,
-				var(--light-gray) 75%
-			);
-			background-size: 200% 100%;
-			animation: shimmer 1.5s infinite;
-			border-radius: 4px;
+		100% {
+			background-position: 200% 0;
 		}
 	}
 </style>

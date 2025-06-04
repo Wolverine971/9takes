@@ -1,3 +1,4 @@
+<!-- /routes/questions/[slug]/+page.svelte -->
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
 	import { onMount } from 'svelte';
@@ -147,21 +148,21 @@
 
 <div class="mx-auto w-full max-w-7xl px-4">
 	<aside
-		class="relative mb-6 flex flex-col overflow-x-auto rounded bg-gray-100 p-3 xl:fixed xl:right-auto xl:z-10 xl:ml-[860px] xl:mt-2 xl:w-[250px] xl:border xl:border-gray-200"
+		class="relative mb-6 flex flex-col overflow-x-auto rounded bg-neutral-100 p-3 xl:fixed xl:right-auto xl:z-10 xl:ml-[860px] xl:mt-2 xl:w-[250px] xl:border xl:border-neutral-200"
 	>
-		{#if data.questionTags}
+		{#if data.questionTags && innerWidth > 1200}
 			{#if innerWidth > 1200}
-				<h3 class="m-0 mb-3 text-lg font-semibold text-gray-800">
+				<h3 class="m-0 mb-3 text-lg font-semibold text-neutral-800">
 					Related question <br />categories
 				</h3>
 			{/if}
 			<div
-				class="-webkit-overflow-scrolling-touch flex flex-wrap gap-2 overflow-x-auto pb-2 xl:flex-wrap xl:overflow-visible"
+				class="flex flex-wrap gap-2 overflow-x-auto pb-2 xl:flex-wrap xl:overflow-visible touch-scroll"
 			>
 				{#each data.questionTags as tag}
 					<a
 						href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
-						class="inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded border border-gray-200 bg-indigo-100 px-3 py-2 text-sm text-indigo-800 no-underline transition-all duration-200 ease-in-out hover:-translate-y-0.5 hover:bg-indigo-200 hover:text-indigo-900 hover:shadow-sm"
+						class="inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded border border-neutral-200 bg-primary-100 px-3 py-2 text-sm text-primary-800 no-underline transition-all duration-200 ease-in-out hover:-translate-y-0.5 hover:bg-primary-200 hover:text-primary-900 hover:shadow-sm"
 						rel="tag"
 					>
 						{tag.question_categories.category_name}
@@ -183,6 +184,22 @@
 				{qrCodeSize}
 			/>
 		</div>
+		{#if data.questionTags && innerWidth <= 1200}
+			
+			<div
+				class="flex flex-wrap gap-2 overflow-x-auto pb-2 xl:flex-wrap xl:overflow-visible touch-scroll"
+			>
+				{#each data.questionTags as tag}
+					<a
+						href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
+						class="inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded border border-neutral-200 bg-primary-100 px-3 py-2 text-sm text-primary-800 no-underline transition-all duration-200 ease-in-out hover:-translate-y-0.5 hover:bg-primary-200 hover:text-primary-900 hover:shadow-sm"
+						rel="tag"
+					>
+						{tag.question_categories.category_name}
+					</a>
+				{/each}
+			</div>
+		{/if}
 		{#if dataForChild}
 			<QuestionContent
 				data={dataForChild}
@@ -194,22 +211,8 @@
 </div>
 
 <style>
-	/* QR code styles that might be hard to implement with just Tailwind */
-	:global(.qr-image-border) {
-		@apply my-2 h-[60px] w-[60px] rounded border border-gray-200 bg-gradient-to-tr from-blue-300 via-purple-300 to-pink-300 p-0.5 transition-transform duration-300 ease-in-out hover:scale-105 !important;
-	}
-
-	@media (max-width: 576px) {
-		:global(.qr-image-border) {
-			@apply h-[50px] w-[50px] !important;
-		}
-	}
-
 	/* Adding touch scrolling for iOS */
-	.-webkit-overflow-scrolling-touch {
+	.touch-scroll {
 		-webkit-overflow-scrolling: touch;
-	}
-	.main-content {
-		margin-bottom: 0;
 	}
 </style>

@@ -1,3 +1,4 @@
+<!-- AIComments.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
@@ -42,35 +43,22 @@
 		}
 	}
 
-	// Auto-rotate comments (can be implemented if desired)
-	// let autoRotateInterval: number;
-	// function startAutoRotate() {
-	//   autoRotateInterval = setInterval(() => {
-	//     moveRight();
-	//   }, 5000);
-	// }
-	// function stopAutoRotate() {
-	//   clearInterval(autoRotateInterval);
-	// }
-
 	onMount(() => {
-		// Auto-rotation could be initialized here
-		// startAutoRotate();
-		// return () => {
-		//   stopAutoRotate();
-		// };
+		// Auto-rotation could be initialized here if desired
 	});
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
 
 {#if browser && data?.ai_comments?.length && parentType === 'question' && data?.flags?.userHasAnswered && showAiComments}
-	<section class="enneagram-perspectives" aria-label="Enneagram personality type perspectives">
-		<h2 class="section-title">Enneagram Takes (stereotypes)</h2>
+	<section class="mb-8" aria-label="Enneagram personality type perspectives">
+		<h2 class="text-xl font-semibold mb-4 text-neutral-900 py-2 text-center relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-[60px] after:h-0.5 after:bg-primary-500 after:rounded-sm">
+			Enneagram Takes (stereotypes)
+		</h2>
 
-		<div class="carousel" role="region" aria-live="polite">
+		<div class="relative flex items-center justify-center overflow-hidden border border-neutral-400 rounded bg-white mb-4 shadow-sm" role="region" aria-live="polite">
 			<button
-				class="carousel-arrow carousel-arrow-left"
+				class="w-10 h-10 sm:w-8 sm:h-8 ml-2 bg-white/80 border-none cursor-pointer text-primary-500 transition-all duration-300 rounded-full flex items-center justify-center z-10 shadow-sm hover:bg-white hover:text-primary-600 hover:scale-110"
 				on:click={moveLeft}
 				aria-label="Previous perspective"
 				title="Previous perspective"
@@ -78,12 +66,11 @@
 				<LeftIcon />
 			</button>
 
-			<div class="carousel-content">
-				<div class="carousel-track" style="transform: translateX(-{active * 100}%)">
+			<div class="flex-1 overflow-hidden">
+				<div class="flex transition-transform duration-300 ease-out" style="transform: translateX(-{active * 100}%)">
 					{#each data.ai_comments as comment, index}
 						<div
-							class="carousel-item"
-							class:active={index === active}
+							class="flex-none w-full p-4 box-border transition-opacity duration-300 {index === active ? 'opacity-100' : 'opacity-30'}"
 							role="tabpanel"
 							id={`enneagram-type-${comment.enneagram_type}`}
 							aria-labelledby={`enneagram-type-${comment.enneagram_type}-tab`}
@@ -91,13 +78,17 @@
 						>
 							<Card>
 								<div
-									class="comment"
+									class="flex flex-col items-center text-center gap-6 p-4 min-h-[200px] justify-center"
 									itemscope
 									itemtype="https://schema.org/Answer"
 									in:fade={{ duration: 300, delay: 100 }}
 								>
-									<p class="comment-text" itemprop="text">{comment.comment}</p>
-									<span class="comment-type">Type {comment.enneagram_type}</span>
+									<p class="m-0 leading-relaxed text-lg sm:text-base text-neutral-900 italic" itemprop="text">
+										{comment.comment}
+									</p>
+									<span class="py-2 px-4 border border-primary-100 font-semibold rounded transition-all duration-300 bg-primary-100 text-primary-800">
+										Type {comment.enneagram_type}
+									</span>
 								</div>
 							</Card>
 						</div>
@@ -106,7 +97,7 @@
 			</div>
 
 			<button
-				class="carousel-arrow carousel-arrow-right"
+				class="w-10 h-10 sm:w-8 sm:h-8 mr-2 bg-white/80 border-none cursor-pointer text-primary-500 transition-all duration-300 rounded-full flex items-center justify-center z-10 shadow-sm hover:bg-white hover:text-primary-600 hover:scale-110"
 				on:click={moveRight}
 				aria-label="Next perspective"
 				title="Next perspective"
@@ -115,11 +106,10 @@
 			</button>
 		</div>
 
-		<div class="carousel-indicator" role="tablist">
+		<div class="flex justify-center mt-2 gap-2" role="tablist">
 			{#each data.ai_comments as comment, index}
 				<button
-					class="indicator-dot"
-					class:active={active === index}
+					class="w-2.5 h-2.5 rounded-full border-none p-0 cursor-pointer transition-all duration-300 {active === index ? 'bg-primary-500 scale-110' : 'bg-neutral-400 hover:bg-neutral-600'}"
 					on:click={() => {
 						direction = index > active ? 'right' : 'left';
 						active = index;
@@ -130,181 +120,9 @@
 					aria-selected={active === index}
 					tabindex={active === index ? 0 : -1}
 				>
-					<span class="visually-hidden">Type {comment.enneagram_type}</span>
+					<span class="sr-only">Type {comment.enneagram_type}</span>
 				</button>
 			{/each}
 		</div>
 	</section>
 {/if}
-
-<style lang="scss">
-	.enneagram-perspectives {
-		margin-bottom: 2rem;
-	}
-
-	.section-title {
-		font-size: 1.25rem;
-		font-weight: 600;
-		margin-bottom: 1rem;
-		color: var(--darkest-gray);
-		padding: 0.5rem 0;
-		text-align: center;
-		position: relative;
-
-		&::after {
-			content: '';
-			position: absolute;
-			bottom: 0;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 60px;
-			height: 2px;
-			background: var(--accent);
-			border-radius: 2px;
-		}
-	}
-
-	.carousel {
-		position: relative;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		overflow: hidden;
-		border: 1px solid var(--medium-gray);
-		border-radius: var(--base-border-radius);
-		background: white;
-		margin-bottom: 1rem;
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-
-		&-content {
-			flex: 1;
-			overflow: hidden;
-		}
-
-		&-track {
-			display: flex;
-			transition: transform 0.3s ease;
-		}
-
-		&-item {
-			flex: 0 0 100%;
-			padding: 1rem;
-			box-sizing: border-box;
-			opacity: 0.3;
-			transition: opacity 0.3s ease;
-
-			&.active {
-				opacity: 1;
-			}
-		}
-
-		&-arrow {
-			background: rgba(255, 255, 255, 0.8);
-			border: none;
-			cursor: pointer;
-			color: var(--accent);
-			transition: all 0.3s ease;
-			padding: 0.75rem;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			z-index: 1;
-			border-radius: 50%;
-			width: 40px;
-			height: 40px;
-			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-			&:hover {
-				background: white;
-				color: var(--accent-dark);
-				transform: scale(1.1);
-			}
-
-			&-left {
-				margin-left: 0.5rem;
-			}
-
-			&-right {
-				margin-right: 0.5rem;
-			}
-
-			@media (max-width: 576px) {
-				width: 32px;
-				height: 32px;
-				padding: 0.5rem;
-			}
-		}
-
-		&-indicator {
-			display: flex;
-			justify-content: center;
-			margin-top: 0.5rem;
-			gap: 0.5rem;
-		}
-	}
-
-	.indicator-dot {
-		width: 10px;
-		height: 10px;
-		border-radius: 50%;
-		background-color: var(--medium-gray);
-		border: none;
-		padding: 0;
-		cursor: pointer;
-		transition: all 0.3s ease;
-
-		&.active {
-			background-color: var(--accent);
-			transform: scale(1.2);
-		}
-
-		&:hover:not(.active) {
-			background-color: var(--dark-gray);
-		}
-	}
-
-	.comment {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		gap: 1.5rem;
-		padding: 1rem;
-		min-height: 200px;
-		justify-content: center;
-
-		&-text {
-			margin: 0;
-			line-height: 1.6;
-			font-size: 1.1rem;
-			color: var(--darkest-gray);
-			font-style: italic;
-
-			@media (max-width: 576px) {
-				font-size: 1rem;
-				line-height: 1.5;
-			}
-		}
-
-		&-type {
-			padding: 0.4rem 1rem;
-			border: 1px solid var(--accent-light);
-			font-weight: 600;
-			border-radius: var(--base-border-radius);
-			transition: all 0.3s;
-			background: var(--accent-light);
-			color: var(--accent-dark);
-		}
-	}
-
-	.visually-hidden {
-		position: absolute;
-		width: 1px;
-		height: 1px;
-		margin: -1px;
-		padding: 0;
-		overflow: hidden;
-		clip: rect(0, 0, 0, 0);
-		border: 0;
-	}
-</style>

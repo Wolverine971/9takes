@@ -238,7 +238,7 @@
 			>
 				<span
 					class="inline-block rounded-full bg-primary-100 px-3 py-1.5 text-sm font-bold text-primary-800"
-					>💡 Daily Brain Gym</span
+					>💡 Daily Question</span
 				>
 				<h3 class="my-4 text-center text-xl font-bold md:text-2xl">
 					{data.questionOfTheDay ? data.questionOfTheDay.question_formatted : 'Loading question...'}
@@ -415,7 +415,7 @@
 						href="/enneagram-corner"
 						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-6 py-3 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
 					>
-						More Brain Gym
+						More about the Enneagram
 						<svg
 							class="ml-2 h-4 w-4"
 							fill="none"
@@ -513,21 +513,21 @@
 					in:fly={getTransition(5)}
 				>
 					<h2 class="mb-4 text-3xl font-bold text-primary-800 md:mb-6 md:text-4xl">
-						Ready for Brain Gym?
+						Ready to explore into 9takes?
 					</h2>
 					<p class="mb-6 text-lg font-semibold text-gray-700 md:mb-8 md:text-xl">
-						Start stress‑testing your takes. Build cognitive muscle.
+						Start stress‑testing your takes. Do the work of growing your perspective.
 					</p>
 					<div class="mx-auto flex flex-col justify-center gap-4 sm:flex-row">
 						<a
 							href="/questions"
 							class="btn-primary rounded-lg bg-primary-700 px-8 py-4 text-center text-lg font-bold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
-							>Ask a question</a
+							>Explore and give your takes</a
 						>
 						<a
-							href="/signup"
+							href="/register"
 							class="rounded-lg border border-primary-300 bg-white px-8 py-4 text-center text-lg font-bold text-primary-700 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-400 hover:bg-primary-50 hover:shadow-md"
-							>Join Free</a
+							>Sign up to ask a question</a
 						>
 					</div>
 				</section>

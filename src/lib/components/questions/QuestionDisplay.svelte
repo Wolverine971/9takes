@@ -1,3 +1,4 @@
+<!-- QuestionDisplay.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import QRCode from 'qrcode';
@@ -66,9 +67,9 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="question-container">
+<div class="flex flex-col items-center gap-4 bg-gradient-to-br from-white to-neutral-100 rounded-2xl shadow-sm p-8 sm:p-5 mb-4 transition-all duration-300 hover:shadow-md hover:-translate-y-0.5">
 	<h1
-		class="question-box"
+		class="w-full text-center text-neutral-900 font-bold leading-tight tracking-wide m-0 py-2 uppercase relative after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:-translate-x-1/2 after:w-[60px] after:h-[3px] after:bg-primary-500 after:rounded-sm"
 		style="font-size: {fontSize}"
 		itemprop="name"
 		style:--tag={`h-question-${question.question.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
@@ -77,78 +78,12 @@
 		{#if !question.question_formatted && addQuestionMark}?{/if}
 	</h1>
 	{#if innerWidth <= 576 && qrCodeUrl}
-		<div class="qr-container">
-			<img src={qrCodeUrl} alt="9takes QR Code" class="qr-image-mobile" />
+		<div class="flex justify-center mt-2">
+			<img 
+				src={qrCodeUrl} 
+				alt="9takes QR Code" 
+				class="w-[100px] h-[100px] rounded bg-white p-2 border border-neutral-200 transition-transform duration-300 hover:scale-105" 
+			/>
 		</div>
 	{/if}
 </div>
-
-<style lang="scss">
-	.question-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 1rem;
-		background: linear-gradient(145deg, #ffffff, var(--light-gray));
-		border-radius: 15px;
-		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
-		padding: 2rem 1.5rem;
-		margin-bottom: 1rem;
-		transition: all 0.3s ease;
-
-		@media (max-width: 576px) {
-			padding: 1.25rem 1rem;
-			gap: 1rem;
-		}
-
-		&:hover {
-			box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-			transform: translateY(-2px);
-		}
-	}
-
-	.question-box {
-		width: 100%;
-		text-align: center;
-		color: var(--darkest-gray);
-		font-weight: 700;
-		line-height: 1.4;
-		letter-spacing: 0.5px;
-		margin: 0;
-		padding: 0.5rem 0;
-		text-transform: uppercase;
-		position: relative;
-
-		&::after {
-			content: '';
-			position: absolute;
-			bottom: -10px;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 60px;
-			height: 3px;
-			background: var(--accent);
-			border-radius: 2px;
-		}
-	}
-
-	.qr-container {
-		display: flex;
-		justify-content: center;
-		margin-top: 0.5rem;
-	}
-
-	.qr-image-mobile {
-		width: 100px;
-		height: 100px;
-		border-radius: var(--base-border-radius);
-		background-color: white;
-		padding: 0.5rem;
-		border: 1px solid var(--base-white-outline);
-		transition: transform 0.3s ease;
-
-		&:hover {
-			transform: scale(1.05);
-		}
-	}
-</style>

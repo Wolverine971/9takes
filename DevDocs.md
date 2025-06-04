@@ -12,8 +12,8 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "wyoming-course.jpg" -o "wyoming-course.webp"
-cwebp -sns 70 -f 50 -size 20000 "wyoming-course.webp" -o "./s-wyoming-course.webp"
+cwebp "greek-statue-interested-in-personality-maxing.png" -o "greek-statue-interested-in-personality-maxing.webp"
+cwebp -sns 70 -f 50 -size 20000 "greek-statue-interested-in-personality-maxing.webp" -o "./s-greek-statue-interested-in-personality-maxing.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

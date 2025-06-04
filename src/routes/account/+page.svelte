@@ -20,11 +20,7 @@
 				question: string;
 			};
 		}>;
-		session: {
-			user: {
-				email: string;
-			};
-		};
+		
 	}
 
 	export let data: AccountData;
@@ -66,7 +62,7 @@
 
 <div class="account-card">
 	<header class="header">
-		<h1>Hello {data.session.user.email}</h1>
+		<h1>Hello {data.user.email}</h1>
 		<div class="header-actions">
 			<form action="/logout" method="POST" use:enhance={submitLogout}>
 				<button type="submit" class="btn btn-secondary">Logout</button>
