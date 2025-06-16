@@ -363,112 +363,109 @@
 			itemtype="https://schema.org/Answer"
 		>
 			<div class="flex flex-col w-full">
-				<div class="flex flex-col md:flex-row justify-between gap-4 md:gap-3 p-4" id="comment-box{_commentComment.id}">
-					<div class="flex gap-3 sm:gap-2 flex-1">
-						{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
-							<a
-								title="View profile"
-								class="inline-flex items-center justify-center min-w-[90px] sm:min-w-[70px] h-9 sm:h-8 bg-gradient-to-br from-primary-700 to-primary-800 text-white font-semibold text-sm sm:text-xs text-center rounded-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-sm no-underline"
-								href={`/users/${_commentComment.profiles.external_id}`}
-							>
-								{_commentComment?.profiles?.enneagram || 'Rando'}
-							</a>
-						{:else}
-							<span
-								class="inline-flex items-center justify-center min-w-[90px] sm:min-w-[70px] h-9 sm:h-8 {_commentComment?.profiles?.external_id ? '' : 'opacity-70'} bg-neutral-200 text-neutral-600 font-semibold text-sm sm:text-xs text-center rounded-sm"
-							>
-								Rando
-							</span>
-						{/if}
-
-						<div class="relative w-full">
-							<div class="block {isExpanded ? '' : 'max-h-[4.5em] overflow-hidden'} whitespace-pre-line leading-6 text-neutral-900 relative transition-all duration-300" itemprop="text">
-								{_commentComment.comment}
-							</div>
-
-							{#if shouldTruncate && !isExpanded}
-								<button 
-									type="button" 
-									class="px-2 py-1 border border-t-0 border-neutral-300 rounded-b text-xs text-primary-700 cursor-pointer hover:text-primary-800 hover:underline z-10" 
-									on:click={toggleExpandText}
+				<!-- Comment Header and Content -->
+				<div class="p-4 pb-2" id="comment-box{_commentComment.id}">
+					<!-- User Badge and Timestamp -->
+					<div class="flex items-start justify-between mb-3">
+						<div class="flex items-center gap-3">
+							{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
+								<a
+									title="View profile"
+									class="inline-flex items-center justify-center min-w-[90px] sm:min-w-[70px] h-9 sm:h-8 bg-gradient-to-br from-primary-700 to-primary-800 text-white font-semibold text-sm sm:text-xs text-center rounded-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-sm no-underline"
+									href={`/users/${_commentComment.profiles.external_id}`}
 								>
-									Read More
-								</button>
+									{_commentComment?.profiles?.enneagram || 'Rando'}
+								</a>
+							{:else}
+								<span
+									class="inline-flex items-center justify-center min-w-[90px] sm:min-w-[70px] h-9 sm:h-8 {_commentComment?.profiles?.external_id ? '' : 'opacity-70'} bg-neutral-200 text-neutral-600 font-semibold text-sm sm:text-xs text-center rounded-sm"
+								>
+									Rando
+								</span>
 							{/if}
+							
+							<!-- Timestamp -->
+							<span class="flex items-center gap-1 text-xs text-neutral-600">
+								{#if _commentComment.modified_at}
+									<span class="inline-flex items-center justify-center w-4 h-4 bg-primary-100 text-primary-800 rounded-full text-xs font-bold" title="Modified">M</span>
+								{/if}
+								<time itemprop="dateCreated" datetime={createdOrModifiedAt}>
+									{createdOrModifiedAt}
+								</time>
+							</span>
 						</div>
 					</div>
 
-					<div
-						class="flex items-start min-w-[120px] md:w-auto md:justify-end w-full justify-start"
-						on:mouseenter={() => (isHovered = true)}
-						on:mouseleave={() => (isHovered = false)}
-					>
-						<div class="flex gap-2 transition-opacity duration-200 opacity-80 hover:opacity-100 md:w-auto w-full md:justify-start justify-start">
+					<!-- Comment Text -->
+					<div class="relative w-full mb-3">
+						<div class="block {isExpanded ? '' : 'max-h-[4.5em] overflow-hidden'} whitespace-pre-line leading-6 text-neutral-900 relative transition-all duration-300" itemprop="text">
+							{_commentComment.comment}
+						</div>
+
+						{#if shouldTruncate && !isExpanded}
 							<button 
-								title="Reply" 
-								class="flex items-center gap-2 p-2 border-none bg-transparent text-neutral-600 rounded cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900" 
-								on:click={() => (commenting = !commenting)}
+								type="button" 
+								class="mt-1 px-2 py-1 border border-neutral-300 rounded text-xs text-primary-700 cursor-pointer hover:text-primary-800 hover:underline z-10 transition-all duration-200" 
+								on:click={toggleExpandText}
 							>
-								<MasterCommentIcon
-									className="w-5 h-5"
-									type={_commentComment.comments?.length ? 'full' : 'empty'}
-								/>
-								{#if innerWidth > 576}
-									<span class="text-sm">Reply</span>
-								{/if}
+								Read More
 							</button>
+						{/if}
+					</div>
 
-							<button
-								title={likes.some((e) => e.user_id === user?.id) ? 'Unlike' : 'Like'}
-								class="flex items-center gap-2 p-2 border-none bg-transparent {likes.some((e) => e.user_id === user?.id) ? 'text-primary-500 bg-neutral-100' : 'text-neutral-600'} rounded cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
-								on:click={toggleLike}
-							>
-								<ThumbsUpIcon className="w-5 h-5" />
-								{#if likes.length}
-									<span itemprop="upvoteCount" class="text-sm font-semibold">
-										{likes.length}
-									</span>
-								{:else if innerWidth > 576}
-									<span class="text-sm">Like</span>
-								{/if}
-							</button>
+					<!-- Interaction Buttons -->
+					<div class="flex items-center gap-1 -ml-2 -mr-2">
+						<button
+							title={likes.some((e) => e.user_id === user?.id) ? 'Unlike' : 'Like'}
+							class="flex items-center gap-2 px-3 py-2 border-none bg-transparent {likes.some((e) => e.user_id === user?.id) ? 'text-primary-600 bg-primary-50' : 'text-neutral-600'} rounded cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900 text-sm"
+							on:click={toggleLike}
+						>
+							<ThumbsUpIcon className="w-4 h-4" />
+							{#if likes.length}
+								<span itemprop="upvoteCount" class="font-medium">
+									{likes.length}
+								</span>
+							{:else}
+								<span>Like</span>
+							{/if}
+						</button>
 
-							<div class="inline-block relative ml-auto md:ml-0">
-								<Popover>
-									<div slot="icon">
-										<SettingsIcon className="w-5 h-5" />
-									</div>
+						<button 
+							title="Reply" 
+							class="flex items-center gap-2 px-3 py-2 border-none bg-transparent text-neutral-600 rounded cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900 text-sm" 
+							on:click={() => (commenting = !commenting)}
+						>
+							<MasterCommentIcon
+								className="w-4 h-4"
+								type={_commentComment.comments?.length ? 'full' : 'empty'}
+							/>
+							<span>Reply</span>
+						</button>
 
-									<div slot="popoverValue" class="min-w-[180px] p-2 right-0 left-auto z-[100] md:w-[200px] md:right-0">
-										<div class="mb-2 pb-2 border-b border-neutral-200">
-											<span class="flex items-center gap-1 text-xs text-neutral-600">
-												{#if _commentComment.modified_at}
-													<span class="inline-flex items-center justify-center w-4 h-4 bg-primary-100 text-primary-800 rounded-full text-xs font-bold" title="Modified">M</span>
-												{/if}
-												<time itemprop="dateCreated" datetime={createdOrModifiedAt}>
-													{createdOrModifiedAt}
-												</time>
-											</span>
-										</div>
+						<div class="ml-auto">
+							<Popover>
+								<div slot="icon" class="flex items-center justify-center w-8 h-8 rounded hover:bg-neutral-100 transition-colors duration-200 cursor-pointer">
+									<SettingsIcon className="w-4 h-4 text-neutral-600" />
+								</div>
 
-										{#if user?.id === _commentComment.author_id}
-											<button
-												class="w-full text-left p-2 bg-transparent border-none rounded cursor-pointer text-sm text-neutral-900 transition-colors duration-200 hover:bg-neutral-100"
-												on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
-											>
-												Edit Comment
-											</button>
-										{/if}
-
-										<button 
-											class="w-full text-left p-2 bg-transparent border-none rounded cursor-pointer text-sm text-error-500 transition-colors duration-200 hover:bg-neutral-100" 
-											on:click={openFlagModal}
+								<div slot="popoverValue" class="min-w-[180px] p-2 right-0 left-auto z-[100] md:w-[200px] md:right-0">
+									{#if user?.id === _commentComment.author_id}
+										<button
+											class="w-full text-left p-2 bg-transparent border-none rounded cursor-pointer text-sm text-neutral-900 transition-colors duration-200 hover:bg-neutral-100"
+											on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
 										>
-											Flag Comment
+											Edit Comment
 										</button>
-									</div>
-								</Popover>
-							</div>
+									{/if}
+
+									<button 
+										class="w-full text-left p-2 bg-transparent border-none rounded cursor-pointer text-sm text-error-500 transition-colors duration-200 hover:bg-neutral-100" 
+										on:click={openFlagModal}
+									>
+										Flag Comment
+									</button>
+								</div>
+							</Popover>
 						</div>
 					</div>
 				</div>
