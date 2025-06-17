@@ -100,7 +100,6 @@
 	</nav>
 </Context>
 
-
 <style lang="scss">
 	.enneagram-btn {
 		display: flex;

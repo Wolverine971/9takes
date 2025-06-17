@@ -38,7 +38,7 @@ export const load: PageServerLoad = async (event: any) => {
 		.from('blogs_famous_people')
 		.select('*')
 		.eq('person', slug)
-		.maybeSingle()
+		.maybeSingle();
 
 	// Create cache keys
 	const userCacheKey = user?.id ? `${slug}:${user.id}` : `${slug}:${cookie}`;
@@ -51,17 +51,17 @@ export const load: PageServerLoad = async (event: any) => {
 	if (userHasAnswered === undefined) {
 		const queryPromise = user?.id
 			? supabase
-				.from('blog_comments')
-				.select('id')
-				.eq('blog_link', slug)
-				.eq('author_id', user?.id)
-				.maybeSingle()
+					.from('blog_comments')
+					.select('id')
+					.eq('blog_link', slug)
+					.eq('author_id', user?.id)
+					.maybeSingle()
 			: supabase
-				.from('blog_comments')
-				.select('id')
-				.eq('blog_link', slug)
-				.eq('fingerprint', cookie)
-				.maybeSingle();
+					.from('blog_comments')
+					.select('id')
+					.eq('blog_link', slug)
+					.eq('fingerprint', cookie)
+					.maybeSingle();
 
 		const { data: hasCommented } = await queryPromise;
 		userHasAnswered = !!hasCommented;
@@ -104,11 +104,10 @@ export const load: PageServerLoad = async (event: any) => {
 		}
 	}
 
-	let { content, placeholders } = await processBlogContent(personData.content)
+	let { content, placeholders } = await processBlogContent(personData.content);
 
 	return {
-		user,
-		session, // Make sure session is available to components
+		user: session?.user ? { id: session?.user?.id, email: session?.user?.email } : null, // Pass user info to components
 		flags: {
 			userHasAnswered,
 			userSignedIn: !!event?.locals?.session?.user?.aud
@@ -182,28 +181,24 @@ export const actions: Actions = {
 
 // Functions to get related posts by niche
 async function getNichePosts(currentSlug: string, postType: string) {
-
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
-		.filter('type', 'cs', `["${postType}"]`)
+		.filter('type', 'cs', `["${postType}"]`);
 
 	if (personDataError) {
-		console.log(personDataError)
+		console.log(personDataError);
 	}
-
 
 	// Return at most 3 posts, randomly sorted
 	return personData
 		.filter((p) => p.published && p.person !== currentSlug)
 		.sort(() => 0.5 - Math.random())
-		.slice(0, 4).map(e => {
-			return { ...e, slug: e.person }
-		})
-
+		.slice(0, 4)
+		.map((e) => {
+			return { ...e, slug: e.person };
+		});
 }
-
-
 
 // Function to get posts by enneagram number
 async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
@@ -215,22 +210,20 @@ async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
-		.eq('enneagram', enneagramNum)
+		.eq('enneagram', enneagramNum);
 
 	if (personDataError) {
-		console.log(personDataError)
+		console.log(personDataError);
 	}
-
 
 	// Return at most 3 posts, randomly sorted
 	return personData
 		.filter((p) => p.published && p.person !== currentSlug)
 		.sort(() => 0.5 - Math.random())
-		.slice(0, 4).map(e => {
-			return { ...e, slug: e.person }
-		})
-
-
+		.slice(0, 4)
+		.map((e) => {
+			return { ...e, slug: e.person };
+		});
 }
 
 import PopCard from '$lib/components/atoms/PopCard.svelte';
@@ -239,7 +232,6 @@ import MarqueeHorizontal from '$lib/components/atoms/MarqueeHorizontal.svelte';
 import { marked } from 'marked'; // Import the marked library
 
 async function processBlogContent(content) {
-
 	let processedContent = '';
 
 	// First, parse the markdown to HTML
@@ -308,8 +300,6 @@ async function processBlogContent(content) {
 	// Update processed content
 	processedContent = htmlContent;
 
-
-
 	// Helper to parse props from string
 	function parseProps(propsString) {
 		const props = {};
@@ -342,7 +332,5 @@ async function processBlogContent(content) {
 
 		return props;
 	}
-	return { content: processedContent, placeholders }
-
-
+	return { content: processedContent, placeholders };
 }

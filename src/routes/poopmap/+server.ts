@@ -27,7 +27,7 @@ const getAllPosts = async () => {
 		people,
 		popculture,
 		situational,
-		topical,
+		topical
 	];
 
 	const body = [];
@@ -73,15 +73,17 @@ export async function GET() {
 		.select('*')
 		.eq('published', true)
 		.order('lastmod')
-		.order('person')
+		.order('person');
 	if (personDataError) {
-		console.log(personDataError)
+		console.log(personDataError);
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const peoplePosts: any = personData.map(e => { return { ...e, slug: e.person } })
+	const peoplePosts: any = personData.map((e) => {
+		return { ...e, slug: e.person };
+	});
 
-	const posts = [...await getAllPosts(), ...peoplePosts]
+	const posts = [...(await getAllPosts()), ...peoplePosts];
 
 	const questions = await getQuestions();
 
@@ -249,10 +251,10 @@ export async function GET() {
 	</url>
 
 	  ${posts
-				.map((post) => {
-					if (post.loc.includes('personality-analysis')) {
-						if (post.person && post.enneagram) {
-							return `		
+			.map((post) => {
+				if (post.loc.includes('personality-analysis')) {
+					if (post.person && post.enneagram) {
+						return `		
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -263,8 +265,8 @@ export async function GET() {
 		</image:image>
 	  </url>
 	  `;
-						} else {
-							return `
+					} else {
+						return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -272,16 +274,16 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `;
-						}
 					}
+				}
 
-					if (
-						post.loc.includes('enneagram') ||
-						post.loc.includes('guides') ||
-						post.loc.includes('community')
-					) {
-						if (post.pic) {
-							return `
+				if (
+					post.loc.includes('enneagram') ||
+					post.loc.includes('guides') ||
+					post.loc.includes('community')
+				) {
+					if (post.pic) {
+						return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -292,8 +294,8 @@ export async function GET() {
 		</image:image>
 	  </url>
 	  `;
-						} else {
-							return `
+					} else {
+						return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -301,9 +303,9 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `;
-						}
-					} else {
-						return `
+					}
+				} else {
+					return `
 							<url>
 							  <loc>${post.loc}</loc>
 							  <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -311,9 +313,9 @@ export async function GET() {
 							  <priority>0.7</priority>
 							</url>
 							`;
-					}
-				})
-				.join('')}
+				}
+			})
+			.join('')}
 
 				<url>
 					<loc>https://9takes.com/questions</loc>
@@ -323,15 +325,15 @@ export async function GET() {
 				</url>
 
 				${questions
-				?.map((q) => {
-					return `<url>
+					?.map((q) => {
+						return `<url>
 	    <loc>https://9takes.com/questions/${q.url}</loc>
 	    <lastmod>${new Date(q.created_at).toISOString()}</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	  </url>`;
-				})
-				.join('')}
+					})
+					.join('')}
 			
 
 	</urlset>`.trim(),

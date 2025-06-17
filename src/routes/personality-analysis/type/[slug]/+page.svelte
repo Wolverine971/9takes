@@ -64,7 +64,7 @@
 
 	<footer>
 		<p class="more-info">🚧 More information coming soon about Enneagram Type {data.slug}!</p>
-		{#if !data?.session?.user}
+		{#if !data?.user}
 			<div class="email-signup">
 				<EmailSignup />
 			</div>

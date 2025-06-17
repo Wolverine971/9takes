@@ -29,7 +29,7 @@
 	 */
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
-		
+
 		if (!isMenuOpen) {
 			isDropdownOpen = false;
 		}
@@ -50,7 +50,7 @@
 	function closeMenu() {
 		isMenuOpen = false;
 		isDropdownOpen = false;
-		
+
 		if (typeof document !== 'undefined') {
 			document.body.classList.remove('overflow-hidden');
 		}
@@ -78,7 +78,7 @@
 <div class="relative z-40 flex items-center">
 	<!-- Menu toggle button -->
 	<button
-		class="hamburger-btn flex h-10 w-10 cursor-pointer items-center justify-center border-none bg-transparent rounded-lg transition-colors duration-200 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+		class="hamburger-btn flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border-none bg-transparent transition-colors duration-200 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 		aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
 		tabindex="0"
 		on:click={toggleMenu}
@@ -96,7 +96,7 @@
 	<!-- Mobile navigation overlay -->
 	{#if isMenuOpen}
 		<div
-			class="fixed inset-0 z-50 flex items-start justify-center bg-black/50 pt-16 transition-opacity duration-300 backdrop-blur-sm"
+			class="fixed inset-0 z-50 flex items-start justify-center bg-black/50 pt-16 backdrop-blur-sm transition-opacity duration-300"
 			on:click|self={closeMenu}
 			role="dialog"
 			aria-modal="true"
@@ -105,21 +105,21 @@
 			<Context>
 				<nav
 					id="mobile-menu"
-					class="mobile-nav max-h-[80vh] w-[320px] max-w-[90vw] overflow-y-auto rounded-xl bg-white shadow-2xl border border-neutral-200"
+					class="mobile-nav max-h-[80vh] w-[320px] max-w-[90vw] overflow-y-auto rounded-xl border border-neutral-200 bg-white shadow-2xl"
 					aria-label="Mobile Navigation"
 					use:onClickOutside={closeMenu}
 				>
 					<div class="p-6">
 						<!-- Menu title for screen readers -->
 						<h2 id="mobile-menu-title" class="sr-only">Navigation Menu</h2>
-						
-						<ul class="list-none space-y-1 m-0 p-0">
+
+						<ul class="m-0 list-none space-y-1 p-0">
 							<!-- Main navigation items -->
 							{#each navItems as { href, label }}
-								<li class="list-none m-0 p-0">
+								<li class="m-0 list-none p-0">
 									<a
 										{href}
-										class="mobile-nav-link flex items-center w-full py-3 px-4 text-lg font-semibold text-neutral-800 rounded-lg transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:bg-primary-50 focus:text-primary-700"
+										class="mobile-nav-link flex w-full items-center rounded-lg px-4 py-3 text-lg font-semibold text-neutral-800 transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:bg-primary-50 focus:text-primary-700 focus:outline-none"
 										class:active={$page.url.pathname === href}
 										on:click={closeMenu}
 										aria-current={$page.url.pathname === href ? 'page' : undefined}
@@ -130,37 +130,42 @@
 							{/each}
 
 							<!-- Blog dropdown section -->
-							<li class="relative list-none m-0 p-0">
+							<li class="relative m-0 list-none p-0">
 								<button
 									type="button"
-									class="mobile-nav-link flex w-full items-center justify-between py-3 px-4 text-left text-lg font-semibold text-neutral-800 rounded-lg transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:bg-primary-50 focus:text-primary-700"
+									class="mobile-nav-link flex w-full items-center justify-between rounded-lg px-4 py-3 text-left text-lg font-semibold text-neutral-800 transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:bg-primary-50 focus:text-primary-700 focus:outline-none"
 									aria-haspopup="true"
 									aria-expanded={isDropdownOpen}
 									aria-controls="mobile-blog-menu"
 									on:click={toggleDropdown}
 								>
 									Blog
-									<svg 
+									<svg
 										class="chevron-icon h-5 w-5 transition-transform duration-200 ease-in-out"
 										class:rotate-180={isDropdownOpen}
-										fill="none" 
-										stroke="currentColor" 
+										fill="none"
+										stroke="currentColor"
 										viewBox="0 0 24 24"
 									>
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M19 9l-7 7-7-7"
+										/>
 									</svg>
 								</button>
 
 								{#if isDropdownOpen}
-									<ul 
+									<ul
 										id="mobile-blog-menu"
-										class="mt-2 list-none space-y-1 border-l-2 border-primary-200 pl-4 m-0"
+										class="m-0 mt-2 list-none space-y-1 border-l-2 border-primary-200 pl-4"
 									>
 										{#each blogItems as { href, label }}
-											<li class="list-none m-0 p-0">
+											<li class="m-0 list-none p-0">
 												<a
 													{href}
-													class="mobile-nav-link flex items-center w-full py-2.5 px-3 text-base font-medium text-neutral-700 rounded-lg transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:bg-primary-50 focus:text-primary-700"
+													class="mobile-nav-link flex w-full items-center rounded-lg px-3 py-2.5 text-base font-medium text-neutral-700 transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:bg-primary-50 focus:text-primary-700 focus:outline-none"
 													class:active={$page.url.pathname === href}
 													on:click={closeMenu}
 													aria-current={$page.url.pathname === href ? 'page' : undefined}
@@ -174,10 +179,10 @@
 							</li>
 
 							<!-- About link -->
-							<li class="list-none m-0 p-0">
+							<li class="m-0 list-none p-0">
 								<a
 									href="/about"
-									class="mobile-nav-link flex items-center w-full py-3 px-4 text-lg font-semibold text-neutral-800 rounded-lg transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:bg-primary-50 focus:text-primary-700"
+									class="mobile-nav-link flex w-full items-center rounded-lg px-4 py-3 text-lg font-semibold text-neutral-800 transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:bg-primary-50 focus:text-primary-700 focus:outline-none"
 									class:active={$page.url.pathname === '/about'}
 									on:click={closeMenu}
 									aria-current={$page.url.pathname === '/about' ? 'page' : undefined}
@@ -195,7 +200,8 @@
 
 <style lang="scss">
 	// Reset list styles
-	ul, li {
+	ul,
+	li {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;

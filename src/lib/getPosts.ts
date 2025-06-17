@@ -31,13 +31,15 @@ export const getPosts = async () => {
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
-		.eq('published', true)
+		.eq('published', true);
 	if (personDataError) {
-		console.log(personDataError)
+		console.log(personDataError);
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const peoplePosts: any = personData.map(e => { return { ...e, slug: e.person } })
+	const peoplePosts: any = personData.map((e) => {
+		return { ...e, slug: e.person };
+	});
 
 	const posts = [...enneagramPosts, ...communityPosts, ...peoplePosts]
 		// get post metadata

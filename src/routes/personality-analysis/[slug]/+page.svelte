@@ -2,7 +2,6 @@
 <script lang="ts">
 	import { onMount, tick, afterUpdate } from 'svelte';
 	import type { PageData } from './$types';
-	import type { SvelteComponent } from 'svelte';
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 
@@ -27,6 +26,7 @@
 
 	let post = data.post;
 	let mounted = false;
+	console.log('Post data:', data);
 
 	let comments = data.comments;
 	let userHasAnswered = data.flags.userHasAnswered;
@@ -124,7 +124,7 @@
 		);
 
 		// Load SuggestFamousPerson component (lowest priority)
-		if (!data?.session?.user) {
+		if (!data?.user) {
 			import('$lib/components/molecules/SuggestFamousPerson.svelte').then((module) => {
 				SuggestFamousPerson = module.default;
 			});
@@ -212,7 +212,7 @@
 			<BlogComments
 				slug={post.slug}
 				{comments}
-				session={data.session}
+				user={data?.user}
 				parentType={'personality-analysis'}
 				{userHasAnswered}
 			/>
@@ -220,7 +220,7 @@
 				{data}
 				parentType={'personality-analysis'}
 				on:commentAdded={({ detail }) => commentAdded(detail)}
-				user={data?.session?.user}
+				user={data?.user}
 			/>
 		</div>
 	{:else}
@@ -242,7 +242,7 @@
 </section>
 
 <div class="join">
-	{#if !data?.session?.user && SuggestFamousPerson}
+	{#if !data?.user && SuggestFamousPerson}
 		<SuggestFamousPerson />
 	{/if}
 </div>

@@ -73,7 +73,7 @@
 <SuggestionsBlog posts={data?.posts} blogType={'How to Guides'} slugPrefix={'how-to-guides'} />
 
 <div class="join">
-	{#if !data?.session?.user}
+	{#if !data?.user}
 		<EmailSignup cta={'We are making something 👷🔨 join the waitlist'} />
 	{/if}
 </div>

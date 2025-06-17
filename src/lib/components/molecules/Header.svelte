@@ -8,8 +8,6 @@
 
 	export let data: any;
 
-	console.log(data)
-
 	// Responsive state
 	let innerWidth: number;
 	let isDropdownOpen = false;
@@ -47,7 +45,7 @@
 
 <svelte:window bind:innerWidth />
 
-<header class="relative z-50 bg-white shadow-sm border-b border-neutral-100 nav-main">
+<header class="nav-main relative z-50 border-b border-neutral-100 bg-white shadow-sm">
 	{#if isMobile}
 		<!-- Mobile Header -->
 		<div class="flex h-16 items-center justify-between px-4">
@@ -56,7 +54,7 @@
 			<!-- Logo - centered -->
 			<a
 				href="/"
-				class="absolute left-1/2 flex -translate-x-1/2 transform items-center focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded-lg"
+				class="absolute left-1/2 flex -translate-x-1/2 transform items-center rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 				aria-label="Go to homepage"
 			>
 				<img
@@ -73,7 +71,7 @@
 				<button
 					type="button"
 					on:click={goToAccount}
-					class="flex cursor-pointer items-center justify-center border-none bg-transparent p-1 rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+					class="flex cursor-pointer items-center justify-center rounded-full border-none bg-transparent p-1 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 					aria-label="Go to account"
 				>
 					<img
@@ -90,9 +88,9 @@
 		<!-- Desktop Navigation -->
 		<nav class="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
 			<!-- Logo & Brand -->
-			<a 
-				href="/" 
-				class="flex items-center no-underline group focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded-lg" 
+			<a
+				href="/"
+				class="group flex items-center rounded-lg no-underline focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 				aria-label="Go to homepage"
 			>
 				<img
@@ -102,7 +100,9 @@
 					width="60"
 					class="transition-transform duration-200 group-hover:scale-110"
 				/>
-				<span class="ml-2 w-[75px] text-2xl font-bold text-neutral-800 transition-colors duration-200 group-hover:text-primary-700">
+				<span
+					class="ml-2 w-[75px] text-2xl font-bold text-neutral-800 transition-colors duration-200 group-hover:text-primary-700"
+				>
 					{!isHomePage ? '9takes' : ' '}
 				</span>
 			</a>
@@ -114,7 +114,7 @@
 					{#each navItems as { href, label }}
 						<a
 							{href}
-							class="nav-link relative px-2 py-2 text-base font-semibold text-neutral-800 no-underline transition-colors duration-200 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded"
+							class="nav-link relative rounded px-2 py-2 text-base font-semibold text-neutral-800 no-underline transition-colors duration-200 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 							class:active-link={$page.url.pathname === href}
 							aria-current={$page.url.pathname === href ? 'page' : undefined}
 						>
@@ -126,20 +126,25 @@
 					<div class="relative z-40">
 						<button
 							on:click={toggleDropdown}
-							class="nav-link relative px-2 py-2 text-base font-semibold text-neutral-800 no-underline transition-colors duration-200 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded flex items-center gap-1"
+							class="nav-link relative flex items-center gap-1 rounded px-2 py-2 text-base font-semibold text-neutral-800 no-underline transition-colors duration-200 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 							aria-haspopup="true"
 							aria-controls="blogMenu"
 							aria-expanded={isDropdownOpen}
 						>
 							Blog
-							<svg 
-								class="w-4 h-4 transition-transform duration-200"
+							<svg
+								class="h-4 w-4 transition-transform duration-200"
 								class:rotate-180={isDropdownOpen}
-								fill="none" 
-								stroke="currentColor" 
+								fill="none"
+								stroke="currentColor"
 								viewBox="0 0 24 24"
 							>
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M19 9l-7 7-7-7"
+								/>
 							</svg>
 						</button>
 
@@ -147,14 +152,14 @@
 							<Context>
 								<ul
 									id="blogMenu"
-									class="dropdown-menu absolute left-1/2 top-[calc(100%+0.5rem)] w-[240px] -translate-x-1/2 transform rounded-lg bg-white py-2 shadow-lg border border-neutral-200 z-50"
+									class="dropdown-menu absolute left-1/2 top-[calc(100%+0.5rem)] z-50 w-[240px] -translate-x-1/2 transform rounded-lg border border-neutral-200 bg-white py-2 shadow-lg"
 									use:onClickOutside={closeDropdown}
 								>
 									{#each blogItems as { href, label }}
 										<li>
 											<a
 												{href}
-												class="block px-4 py-3 text-sm font-medium text-neutral-700 no-underline transition-colors duration-200 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:bg-primary-50 focus:text-primary-700"
+												class="block px-4 py-3 text-sm font-medium text-neutral-700 no-underline transition-colors duration-200 hover:bg-primary-50 hover:text-primary-700 focus:bg-primary-50 focus:text-primary-700 focus:outline-none"
 												class:text-primary-700={$page.url.pathname === href}
 												class:bg-primary-50={$page.url.pathname === href}
 												on:click={closeDropdown}
@@ -171,7 +176,7 @@
 					<!-- About link -->
 					<a
 						href="/about"
-						class="nav-link relative px-2 py-2 text-base font-semibold text-neutral-800 no-underline transition-colors duration-200 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded"
+						class="nav-link relative rounded px-2 py-2 text-base font-semibold text-neutral-800 no-underline transition-colors duration-200 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 						class:active-link={$page.url.pathname === '/about'}
 						aria-current={$page.url.pathname === '/about' ? 'page' : undefined}
 					>
@@ -185,7 +190,7 @@
 				{#if data?.user}
 					<a
 						href="/account"
-						class="flex cursor-pointer items-center justify-center border-none bg-transparent p-1 rounded-full transition-all duration-200 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+						class="flex cursor-pointer items-center justify-center rounded-full border-none bg-transparent p-1 transition-all duration-200 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 						aria-label="Go to account"
 					>
 						<img
@@ -200,7 +205,7 @@
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
 					<a
 						href="/login"
-						class="inline-flex items-center rounded-lg bg-primary-700 px-6 py-2.5 text-sm font-semibold text-white no-underline transition-all duration-200 hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 shadow-sm hover:shadow-md"
+						class="inline-flex items-center rounded-lg bg-primary-700 px-6 py-2.5 text-sm font-semibold !text-white no-underline shadow-sm transition-all duration-200 hover:bg-primary-800 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 					>
 						Login / Register
 					</a>
@@ -214,12 +219,12 @@
 	.dropdown-menu {
 		animation: fadeInScale 0.15s ease-out forwards;
 		transform-origin: top center;
-		
+
 		li {
 			list-style: none;
 			margin: 0;
 			padding: 0;
-			
+
 			&::marker {
 				display: none;
 			}

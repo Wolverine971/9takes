@@ -4,7 +4,7 @@ import { EmailHead } from './EmailHead';
 const from = '9takes Admins';
 
 export const joinEmail = () => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
   <html>
     ${EmailHead('Welcome to the 9takes Waitlist')}
     <body style="background-color: #f9f9ff; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
@@ -105,7 +105,7 @@ export const joinEmail = () => {
 };
 
 export const joinEmail2 = () => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
   <html>
     ${EmailHead('Welcome to the 9takes Waitlist')}
     <body style="background-color: #f9f9ff; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
@@ -206,7 +206,7 @@ export const joinEmail2 = () => {
 };
 
 export const personSuggestionEmail = () => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
   <html>
     ${EmailHead('Appreciate the suggestion')}
     <body style="background-color: #f9f9ff; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
@@ -310,7 +310,7 @@ export const personSuggestionEmail = () => {
 };
 
 export const emailTemplate = (subject, header, body) => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
   <html>
     ${EmailHead(subject)}
     <body style="background-color: #f9f9ff; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
@@ -393,7 +393,7 @@ export const emailTemplate = (subject, header, body) => {
 };
 
 export const signupEmail = () => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
   <html>
     ${EmailHead('Confirm your email to join 9takes')}
     <body style="background-color: #f9f9ff; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
@@ -468,7 +468,7 @@ export const signupEmail = () => {
 };
 // <p><a href="{{ .ConfirmationURL }}" > <b style="" > Confirm your mail < /b></a > </p>
 export const forgotPass = (link) => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
   <html>
     ${EmailHead('Reset Your Password')}
     <body style="background-color: #f9f9ff; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
@@ -546,5 +546,5 @@ export const forgotPass = (link) => {
         </tr>
       </table>
     </body>
-  </html>`
-}
+  </html>`;
+};

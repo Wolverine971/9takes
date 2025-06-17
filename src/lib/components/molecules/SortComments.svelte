@@ -89,16 +89,18 @@
 {#if size === 'large'}
 	<button
 		type="button"
-		class="flex items-center gap-2 px-4 py-3 bg-white border border-neutral-200 rounded cursor-pointer transition-all duration-200 font-medium hover:bg-neutral-100 hover:-translate-y-px hover:shadow-sm"
+		class="flex cursor-pointer items-center gap-2 rounded border border-neutral-200 bg-white px-4 py-3 font-medium transition-all duration-200 hover:-translate-y-px hover:bg-neutral-100 hover:shadow-sm"
 		on:click={() => getModal('sorter').open()}
 		in:fade={{ duration: 200 }}
 		aria-label="Filter and sort comments"
 		title="Filter and sort comments"
 	>
 		<SlidersIcon className="text-primary-500 h-5 w-5" />
-		<span class="text-sm whitespace-nowrap">Filter Comments</span>
+		<span class="whitespace-nowrap text-sm">Filter Comments</span>
 		{#if selected.length !== typeOptions.length}
-			<span class="flex items-center justify-center min-w-[20px] h-5 px-1.5 bg-primary-500 text-white rounded-full text-xs font-semibold">
+			<span
+				class="flex h-5 min-w-[20px] items-center justify-center rounded-full bg-primary-500 px-1.5 text-xs font-semibold text-white"
+			>
 				{selected.length}
 			</span>
 		{/if}
@@ -106,7 +108,7 @@
 {:else}
 	<button
 		type="button"
-		class="flex items-center justify-center p-2 bg-white border border-neutral-200 rounded cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:-translate-y-px"
+		class="flex cursor-pointer items-center justify-center rounded border border-neutral-200 bg-white p-2 transition-all duration-200 hover:-translate-y-px hover:bg-neutral-100"
 		on:click={() => getModal('sorter').open()}
 		aria-label="Filter and sort comments"
 		title="Filter and sort comments"
@@ -117,8 +119,13 @@
 
 <!-- Filter Modal -->
 <Modal2 id="sorter">
-	<div class="p-6 sm:p-4 min-w-[320px] sm:min-w-[280px] max-w-[600px] w-full bg-white rounded shadow-lg" in:fly={{ y: -20, duration: 300 }}>
-		<h2 class="mt-0 mb-6 text-xl font-semibold text-neutral-900 text-center relative after:content-[''] after:absolute after:bottom-[-8px] after:left-1/2 after:-translate-x-1/2 after:w-[60px] after:h-0.5 after:bg-primary-500">
+	<div
+		class="w-full min-w-[320px] max-w-[600px] rounded bg-white p-6 shadow-lg sm:min-w-[280px] sm:p-4"
+		in:fly={{ y: -20, duration: 300 }}
+	>
+		<h2
+			class="relative mb-6 mt-0 text-center text-xl font-semibold text-neutral-900 after:absolute after:bottom-[-8px] after:left-1/2 after:h-0.5 after:w-[60px] after:-translate-x-1/2 after:bg-primary-500 after:content-['']"
+		>
 			Filter & Sort Comments
 		</h2>
 
@@ -127,17 +134,33 @@
 			<h3 class="mb-4 text-lg font-semibold text-neutral-900">Personality Type</h3>
 			<div class="mb-4">
 				<div class="flex gap-3 sm:flex-col sm:gap-2">
-					<button class="px-4 py-2 border border-neutral-200 rounded bg-transparent cursor-pointer transition-all duration-200 text-sm hover:bg-neutral-100" on:click={selectAll} type="button"> 
-						Select All 
+					<button
+						class="cursor-pointer rounded border border-neutral-200 bg-transparent px-4 py-2 text-sm transition-all duration-200 hover:bg-neutral-100"
+						on:click={selectAll}
+						type="button"
+					>
+						Select All
 					</button>
-					<button class="px-4 py-2 border border-neutral-200 rounded bg-transparent cursor-pointer transition-all duration-200 text-sm hover:bg-neutral-100" on:click={clearAll} type="button"> 
-						Clear All 
+					<button
+						class="cursor-pointer rounded border border-neutral-200 bg-transparent px-4 py-2 text-sm transition-all duration-200 hover:bg-neutral-100"
+						on:click={clearAll}
+						type="button"
+					>
+						Clear All
 					</button>
 				</div>
 
-				<div class="grid grid-cols-[repeat(auto-fill,minmax(100px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(80px,1fr))] gap-2 mt-4">
+				<div
+					class="mt-4 grid grid-cols-[repeat(auto-fill,minmax(100px,1fr))] gap-2 sm:grid-cols-[repeat(auto-fill,minmax(80px,1fr))]"
+				>
 					{#each typeOptions as type}
-						<label class="flex items-center justify-center p-2 border border-neutral-200 rounded cursor-pointer transition-all duration-200 text-sm text-center hover:bg-neutral-100 {selected.includes(type) ? 'bg-primary-500 border-primary-500 text-white' : ''}">
+						<label
+							class="flex cursor-pointer items-center justify-center rounded border border-neutral-200 p-2 text-center text-sm transition-all duration-200 hover:bg-neutral-100 {selected.includes(
+								type
+							)
+								? 'border-primary-500 bg-primary-500 text-white'
+								: ''}"
+						>
 							<input
 								type="checkbox"
 								value={type}
@@ -156,15 +179,30 @@
 		<div class="mb-6">
 			<h3 class="mb-4 text-lg font-semibold text-neutral-900">Sort Order</h3>
 			<div class="flex flex-col gap-2">
-				<label class="flex items-center justify-center p-3 border border-neutral-200 rounded cursor-pointer transition-all duration-200 text-sm font-medium hover:bg-neutral-100 {sortBy === 'newest' ? 'bg-primary-500 border-primary-500 text-white' : ''}">
+				<label
+					class="flex cursor-pointer items-center justify-center rounded border border-neutral-200 p-3 text-sm font-medium transition-all duration-200 hover:bg-neutral-100 {sortBy ===
+					'newest'
+						? 'border-primary-500 bg-primary-500 text-white'
+						: ''}"
+				>
 					<input type="radio" bind:group={sortBy} value="newest" class="sr-only" />
 					<span>Newest First</span>
 				</label>
-				<label class="flex items-center justify-center p-3 border border-neutral-200 rounded cursor-pointer transition-all duration-200 text-sm font-medium hover:bg-neutral-100 {sortBy === 'oldest' ? 'bg-primary-500 border-primary-500 text-white' : ''}">
+				<label
+					class="flex cursor-pointer items-center justify-center rounded border border-neutral-200 p-3 text-sm font-medium transition-all duration-200 hover:bg-neutral-100 {sortBy ===
+					'oldest'
+						? 'border-primary-500 bg-primary-500 text-white'
+						: ''}"
+				>
 					<input type="radio" bind:group={sortBy} value="oldest" class="sr-only" />
 					<span>Oldest First</span>
 				</label>
-				<label class="flex items-center justify-center p-3 border border-neutral-200 rounded cursor-pointer transition-all duration-200 text-sm font-medium hover:bg-neutral-100 {sortBy === 'likes' ? 'bg-primary-500 border-primary-500 text-white' : ''}">
+				<label
+					class="flex cursor-pointer items-center justify-center rounded border border-neutral-200 p-3 text-sm font-medium transition-all duration-200 hover:bg-neutral-100 {sortBy ===
+					'likes'
+						? 'border-primary-500 bg-primary-500 text-white'
+						: ''}"
+				>
 					<input type="radio" bind:group={sortBy} value="likes" class="sr-only" />
 					<span>Most Liked</span>
 				</label>
@@ -172,18 +210,22 @@
 		</div>
 
 		<!-- Action Buttons -->
-		<div class="flex justify-end gap-3 mt-6 sm:flex-col">
-			<button class="px-6 py-3 bg-transparent border border-neutral-400 text-neutral-600 rounded font-medium cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900" on:click={() => getModal('sorter').close()} type="button">
+		<div class="mt-6 flex justify-end gap-3 sm:flex-col">
+			<button
+				class="cursor-pointer rounded border border-neutral-400 bg-transparent px-6 py-3 font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
+				on:click={() => getModal('sorter').close()}
+				type="button"
+			>
 				Cancel
 			</button>
 			<button
-				class="flex items-center justify-center gap-2 px-6 py-3 bg-primary-500 text-white border-none rounded font-medium cursor-pointer transition-all duration-200 hover:bg-primary-600 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed"
+				class="flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-6 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-50"
 				on:click={applyFilters}
 				disabled={sortLoading || !data?.flags?.userHasAnswered}
 				type="button"
 			>
 				{#if sortLoading}
-					<div class="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+					<div class="h-5 w-5 animate-spin rounded-full border-2 border-white/30 border-t-white" />
 				{:else}
 					Apply Filters
 				{/if}

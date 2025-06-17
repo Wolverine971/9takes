@@ -108,7 +108,7 @@ async function getPaginatedComments(table, page = 0, options = {}) {
 			.from(table)
 			.select(selectionFields)
 			.order(orderField, orderDirection)
-			.range(page * limit, (page * limit) + limit - 1);
+			.range(page * limit, page * limit + limit - 1);
 
 		// Apply any filters to the query
 		Object.entries(filters).forEach(([key, value]) => {
@@ -141,7 +141,9 @@ export const load: PageServerLoad = async (event) => {
 	try {
 		const session = event.locals.session;
 		const { demo_time } = await event.parent();
-		const page = event.url.searchParams.get('page') ? parseInt(event.url.searchParams.get('page')) : 0;
+		const page = event.url.searchParams.get('page')
+			? parseInt(event.url.searchParams.get('page'))
+			: 0;
 
 		// Validate user is an admin
 		const user = await validateAdmin(session, demo_time);
@@ -183,9 +185,10 @@ export const load: PageServerLoad = async (event) => {
 			blogComments,
 			demoTime: demo_time,
 			currentPage: page,
-			hasMore: (comments?.length === PAGE_SIZE) ||
-				(flaggedComments?.length === PAGE_SIZE) ||
-				(blogComments?.length === PAGE_SIZE)
+			hasMore:
+				comments?.length === PAGE_SIZE ||
+				flaggedComments?.length === PAGE_SIZE ||
+				blogComments?.length === PAGE_SIZE
 		};
 	} catch (err) {
 		// Pass through redirects and errors

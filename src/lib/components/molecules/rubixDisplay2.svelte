@@ -173,8 +173,6 @@
 	};
 </script>
 
-
-
 <div id="rubix">
 	<div
 		id="contain"

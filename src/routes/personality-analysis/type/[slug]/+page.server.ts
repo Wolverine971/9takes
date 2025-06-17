@@ -16,24 +16,24 @@ export const load: PageServerLoad = async ({
 		.from('blogs_famous_people')
 		.select('*')
 		.eq('published', true)
-		.eq('enneagram', slug)
+		.eq('enneagram', slug);
 
 	if (personDataError) {
-		console.log(personDataError)
+		console.log(personDataError);
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const posts: any = personData
+	const posts: any = personData;
 
 	// const posts: any = await getAllPosts(slug);
-	const publishedPosts = posts.map(e => { return { ...e, slug: e.person } })
+	const publishedPosts = posts.map((e) => {
+		return { ...e, slug: e.person };
+	});
 
 	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
 	return { people: publishedPosts, slug };
 };
-
-
 
 export const actions: Actions = {
 	createComment: async ({ request, getClientAddress }) => {

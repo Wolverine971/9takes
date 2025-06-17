@@ -4,6 +4,6 @@
 	export let className = '';
 </script>
 
-<section class="p-2 {className}" {style}>
+<section class="md:p-4 {className}" {style}>
 	<slot />
 </section>

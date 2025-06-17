@@ -89,7 +89,7 @@
 
 <SuggestionsBlog posts={data?.posts} blogType={'Enneagram'} slugPrefix={'enneagram-corner'} />
 
-{#if !data?.session?.user}
+{#if !data?.user}
 	<div class="join">
 		<EmailSignup />
 	</div>

@@ -173,9 +173,6 @@ export const actions: Actions = {
 					.promise();
 			} catch (err) {
 				console.error('S3 upload error:', err);
-				throw error(500, {
-					message: 'Failed to upload image'
-				});
 			}
 
 			// Check user permissions

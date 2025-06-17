@@ -93,18 +93,22 @@
 	</div>
 
 	{#if links.length < linksCount}
-		<button 
-			class="flex items-center justify-center gap-2 px-5 py-3 bg-primary-500 text-white border-none rounded font-medium cursor-pointer transition-all duration-200 hover:bg-primary-600 hover:-translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed mt-4" 
-			on:click={loadMore} 
+		<button
+			class="mt-4 flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-5 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-60"
+			on:click={loadMore}
 			disabled={loading}
 		>
 			{#if loading}
-				<div class="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+				<div class="h-5 w-5 animate-spin rounded-full border-2 border-white/30 border-t-white" />
 			{:else}
 				Load More
 			{/if}
 		</button>
 	{/if}
 {:else if !links.length}
-	<p class="text-center text-neutral-600 py-8">Nothing right now</p>
+	<h2
+		class="relative mb-4 py-2 text-center text-xl font-semibold text-neutral-900 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-[60px] after:-translate-x-1/2 after:rounded-sm after:bg-primary-500 after:content-['']"
+	>
+		None
+	</h2>
 {/if}

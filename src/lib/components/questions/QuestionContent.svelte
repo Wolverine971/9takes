@@ -1,6 +1,6 @@
 <!-- lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
-	import { fade, slide } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 	import { createEventDispatcher } from 'svelte';
 	import Card from '$lib/components/atoms/card.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
@@ -99,15 +99,17 @@
 <div class="mt-4 w-full">
 	<!-- Tabs Navigation -->
 	<nav
-		class="sticky top-0 z-10 flex overflow-x-auto rounded-t-md bg-white shadow-sm sm:relative scrollbar-hide"
-		role="tablist"
+		class="scrollbar-hide sticky top-0 z-10 flex overflow-x-auto rounded-t-md bg-white shadow-sm sm:relative"
 	>
 		{#each tabs as tab}
 			<button
 				role="tab"
 				aria-selected={selectedTab === tab}
 				aria-controls={tab}
-				class="min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 border-b-2 border-transparent bg-transparent px-6 py-4 sm:px-4 sm:py-3 text-sm font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-800 {selectedTab === tab ? 'border-primary-600 text-primary-600 font-semibold' : ''}"
+				class="min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 border-b-2 border-transparent bg-transparent px-6 py-4 text-sm font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-800 sm:px-4 sm:py-3 {selectedTab ===
+				tab
+					? 'border-primary-600 font-semibold text-primary-600'
+					: ''}"
 				on:click={() => {
 					selectedTab = tab;
 					scrollToSection(tab);
@@ -140,53 +142,51 @@
 	<!-- Tab Content -->
 	<div class="min-h-[300px] rounded-b-md bg-neutral-100">
 		{#each tabs as section}
-			<section
-				id={section}
-				class="p-4 sm:p-2 {selectedTab === section ? 'block' : 'hidden'}"
-				aria-labelledby={`${section}-tab`}
-				role="tabpanel"
-				tabindex="0"
-			>
-				{#if selectedTab === section}
-					<div in:fade={{ duration: 300 }}>
-						{#if section === 'Comments' && _data.comment_count !== 0}
-							<div class="mb-3 flex items-center gap-4">
-								<SortComments
-									data={_data}
-									on:commentsSorted={({ detail }) => sortComments(detail)}
-									size={'large'}
-								/>
-							</div>
-						{/if}
-
-						<Card className="bg-white border-0 shadow-md rounded-md p-4 sm:p-3">
-							{#if section === 'Comments'}
-								{#if !data?.flags?.userHasAnswered}
-									<p
-										class="my-8 md:my-6 sm:my-4 text-center text-2xl md:text-xl sm:text-lg font-semibold text-primary-500"
-										in:fade={{ duration: 200 }}
-									>
-										{_data.comment_count === 0
-											? 'Be the first one to answer ✋'
-											: 'Must answer before seeing the comments'}
-									</p>
-								{:else}
-									<!-- AI-Generated Comments -->
-									<AIComments data={_data} parentType={'question'} {showAiComments} />
-
-									<!-- User Comments -->
-									<Comments
-										questionId={_data.id}
-										comments={_data.comments}
-										comment_count={_data.comment_count}
-										parentType={'question'}
-										parentData={_data}
-										{user}
-										key={_data.comment_count}
-										on:commentAdded={handleCommentAdded}
+			{#if selectedTab === section}
+				<section
+					in:fade={{ duration: 300 }}
+					id={section}
+					class="!sm:p-0 {selectedTab === section ? 'block' : 'hidden'}"
+					aria-labelledby={`${section}-tab`}
+				>
+					<Card
+						className="md:bg-white md:border-0 md:shadow-md rounded-b-md rounded-none md:p-4 sm:p-2"
+					>
+						{#if section === 'Comments'}
+							{#if !data?.flags?.userHasAnswered}
+								<p
+									class="my-8 text-center text-2xl font-semibold text-primary-500 sm:my-4 sm:text-lg md:my-6 md:text-xl"
+									in:fade={{ duration: 200 }}
+								>
+									{_data.comment_count === 0
+										? 'Be the first one to answer ✋'
+										: 'Must answer before seeing the comments'}
+								</p>
+							{:else}
+								<!-- AI-Generated Comments -->
+								<AIComments data={_data} parentType={'question'} {showAiComments} />
+								<div class="mb-3 flex items-center gap-4">
+									<SortComments
+										data={_data}
+										on:commentsSorted={({ detail }) => sortComments(detail)}
+										size={'large'}
 									/>
-								{/if}
-							{:else if section === 'Removed Comments' && _data?.removedComments?.length > 0}
+								</div>
+
+								<!-- User Comments -->
+								<Comments
+									questionId={_data.id}
+									comments={_data.comments}
+									comment_count={_data.comment_count}
+									parentType={'question'}
+									parentData={_data}
+									{user}
+									key={_data.comment_count}
+									on:commentAdded={handleCommentAdded}
+								/>
+							{/if}
+						{:else if section === 'Removed Comments'}
+							{#if _data?.removedComments?.length > 0}
 								<Comments
 									questionId={_data.id}
 									parentData={_data}
@@ -195,34 +195,39 @@
 									parentType={'question'}
 									{user}
 								/>
-							{:else if section === 'Visuals'}
-								{#if data?.flags?.userHasAnswered}
-									<div
-										class="flex flex-col items-center justify-center gap-4 px-4 py-12 text-neutral-500"
-									>
-										<CameraIcon height="2rem" fill="currentColor" />
-										<p class="m-0 text-center">No visuals available yet</p>
-									</div>
-								{:else}
-									<p
-										class="my-8 md:my-6 sm:my-4 text-center text-2xl md:text-xl sm:text-lg font-semibold text-primary-500"
-									>
-										Answer the question to see content
-									</p>
-								{/if}
-							{:else if section === 'Articles'}
-								<ArticleLinks
-									questionId={data.id}
-									data={_data}
-									parentType={'question'}
-									{user}
-									on:commentAdded={handleCommentAdded}
-								/>
+							{:else}
+								<h2
+									class="relative mb-4 py-2 text-center text-xl font-semibold text-neutral-900 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-[60px] after:-translate-x-1/2 after:rounded-sm after:bg-primary-500 after:content-['']"
+								>
+									None
+								</h2>
 							{/if}
-						</Card>
-					</div>
-				{/if}
-			</section>
+						{:else if section === 'Visuals'}
+							{#if data?.flags?.userHasAnswered}
+								<h2
+									class="relative mb-4 py-2 text-center text-xl font-semibold text-neutral-900 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-[60px] after:-translate-x-1/2 after:rounded-sm after:bg-primary-500 after:content-['']"
+								>
+									None
+								</h2>
+							{:else}
+								<p
+									class="my-8 text-center text-2xl font-semibold text-primary-500 sm:my-4 sm:text-lg md:my-6 md:text-xl"
+								>
+									Answer the question to see content
+								</p>
+							{/if}
+						{:else if section === 'Articles'}
+							<ArticleLinks
+								questionId={data.id}
+								data={_data}
+								parentType={'question'}
+								{user}
+								on:commentAdded={handleCommentAdded}
+							/>
+						{/if}
+					</Card>
+				</section>
+			{/if}
 		{/each}
 	</div>
 </div>

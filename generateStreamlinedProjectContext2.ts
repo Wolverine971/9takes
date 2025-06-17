@@ -70,16 +70,33 @@ interface ProjectContext {
 
 /*────────────────────────────────────────────────────── UTIL HELPERS */
 const SKIP_FILES = [
-	'**/*.d.ts', '**/node_modules/**', '**/.svelte-kit/**', '**/.git/**',
-	'**/dist/**', '**/build/**', '**/vite.config.*', '**/tailwind.config.*',
-	'**/postcss.config.*', '**/svelte.config.*', '**/playwright.config.*',
+	'**/*.d.ts',
+	'**/node_modules/**',
+	'**/.svelte-kit/**',
+	'**/.git/**',
+	'**/dist/**',
+	'**/build/**',
+	'**/vite.config.*',
+	'**/tailwind.config.*',
+	'**/postcss.config.*',
+	'**/svelte.config.*',
+	'**/playwright.config.*',
 	'**/eslint.config.*'
 ];
 
 const FRAMEWORK_IMPORTS = new Set([
-	'svelte', 'svelte/store', 'svelte/transition', 'svelte/easing',
-	'@sveltejs/kit', '@supabase/ssr', 'mode-watcher', 'date-fns', 
-	'canvas-confetti', 'zod', 'marked', 'sanitize-html'
+	'svelte',
+	'svelte/store',
+	'svelte/transition',
+	'svelte/easing',
+	'@sveltejs/kit',
+	'@supabase/ssr',
+	'mode-watcher',
+	'date-fns',
+	'canvas-confetti',
+	'zod',
+	'marked',
+	'sanitize-html'
 ]);
 
 function relative(root: string, file: string) {
@@ -87,57 +104,40 @@ function relative(root: string, file: string) {
 }
 
 function extractPathParams(routePath: string): string[] {
-	return routePath.split('/').map(seg => {
-		if (seg.startsWith('[') && seg.endsWith(']')) {
-			return seg.slice(1, -1).replace(/^\.\.\./, '');
-		}
-	}).filter(Boolean) as string[];
+	return routePath
+		.split('/')
+		.map((seg) => {
+			if (seg.startsWith('[') && seg.endsWith(']')) {
+				return seg.slice(1, -1).replace(/^\.\.\./, '');
+			}
+		})
+		.filter(Boolean) as string[];
 }
 
 function getRouteFromFile(file: string): string {
-	return file
-		.replace(/^src\/routes/, '')
-		.replace(/\/\+[^/]*$/, '')
-		.replace(/\/\[([^\]]+)\]/g, '/[$1]') || '/';
+	return (
+		file
+			.replace(/^src\/routes/, '')
+			.replace(/\/\+[^/]*$/, '')
+			.replace(/\/\[([^\]]+)\]/g, '/[$1]') || '/'
+	);
 }
 
-function parseBabel(code: string, isTypeScript = false) {
+function parseBabel(code: string) {
 	try {
-		const plugins: any[] = ['jsx'];
-		
-		if (isTypeScript || code.includes(': ') || code.includes('import type') || code.includes('export type')) {
-			plugins.push('typescript', 'decorators-legacy');
-		}
-
 		return babelParser.parse(code, {
 			sourceType: 'module',
-			plugins,
-			strictMode: false,
-			allowImportExportEverywhere: true,
-			allowReturnOutsideFunction: true
+			plugins: ['typescript', 'jsx', 'decorators-legacy']
 		});
-	} catch (error) {
-		// Try again with TypeScript if first attempt failed
-		if (!isTypeScript) {
-			try {
-				return babelParser.parse(code, {
-					sourceType: 'module',
-					plugins: ['typescript', 'jsx', 'decorators-legacy'],
-					strictMode: false,
-					allowImportExportEverywhere: true,
-					allowReturnOutsideFunction: true
-				});
-			} catch {
-				return null;
-			}
-		}
+	} catch {
 		return null;
 	}
 }
 
 function isCustomComponent(name: string): boolean {
 	// Filter out common lucide icons but keep business components
-	const lucideIcons = /^(Loader2?|Check|X|Plus|Edit[0-9]*|Save|Delete|Search|Filter|Calendar|Clock|User|Mail|Settings|Eye|Download|Upload|Arrow(Left|Right|Up|Down)|Chevron(Left|Right|Up|Down)|Alert(Circle|Triangle)|CheckCircle2?|Target|Brain|Sparkles|FileText|File|FolderOpen|Folder|Shield(Off)?|Activity|Bar(Chart|Chart3)|PieChart|TrendingUp|Award|Zap|Mic(Off)?|Send|Refresh(Cw)?|Trash2?|Copy|Sun|Moon|Menu|LogOut|Star|Heart|Home|Info|Lock|Unlock|Play|Pause|Stop|Volume|VolumeX|Wifi|WifiOff|Battery|BatteryLow|Power|PowerOff)$/;
+	const lucideIcons =
+		/^(Loader2?|Check|X|Plus|Edit[0-9]*|Save|Delete|Search|Filter|Calendar|Clock|User|Mail|Settings|Eye|Download|Upload|Arrow(Left|Right|Up|Down)|Chevron(Left|Right|Up|Down)|Alert(Circle|Triangle)|CheckCircle2?|Target|Brain|Sparkles|FileText|File|FolderOpen|Folder|Shield(Off)?|Activity|Bar(Chart|Chart3)|PieChart|TrendingUp|Award|Zap|Mic(Off)?|Send|Refresh(Cw)?|Trash2?|Copy|Sun|Moon|Menu|LogOut|Star|Heart|Home|Info|Lock|Unlock|Play|Pause|Stop|Volume|VolumeX|Wifi|WifiOff|Battery|BatteryLow|Power|PowerOff)$/;
 	return !lucideIcons.test(name);
 }
 
@@ -151,24 +151,22 @@ function getModuleType(filePath: string): LibModule['type'] {
 	return 'other';
 }
 
-function extractImportsAndExports(code: string, filePath?: string) {
+function extractImportsAndExports(code: string) {
 	const imports: string[] = [];
 	const exports: string[] = [];
 
-	// Detect if this is TypeScript
-	const isTypeScript = filePath?.endsWith('.ts') || 
-						code.includes('import type') || 
-						code.includes('export type') ||
-						code.includes(': ') && (code.includes('interface') || code.includes('type '));
-
-	const ast = parseBabel(code, isTypeScript);
+	const ast = parseBabel(code);
 	if (ast) {
 		traverse(ast, {
 			ImportDeclaration(path) {
 				const source = path.node.source.value;
 				if (!FRAMEWORK_IMPORTS.has(source) && !source.startsWith('.')) {
 					imports.push(source);
-				} else if (source.startsWith('$lib/') || source.startsWith('./') || source.startsWith('../')) {
+				} else if (
+					source.startsWith('$lib/') ||
+					source.startsWith('./') ||
+					source.startsWith('../')
+				) {
 					imports.push(source);
 				}
 			},
@@ -177,7 +175,7 @@ function extractImportsAndExports(code: string, filePath?: string) {
 					if (t.isFunctionDeclaration(path.node.declaration) && path.node.declaration.id) {
 						exports.push(path.node.declaration.id.name);
 					} else if (t.isVariableDeclaration(path.node.declaration)) {
-						path.node.declaration.declarations.forEach(decl => {
+						path.node.declaration.declarations.forEach((decl) => {
 							if (t.isIdentifier(decl.id)) {
 								exports.push(decl.id.name);
 							}
@@ -191,7 +189,7 @@ function extractImportsAndExports(code: string, filePath?: string) {
 					}
 				}
 				if (path.node.specifiers) {
-					path.node.specifiers.forEach(spec => {
+					path.node.specifiers.forEach((spec) => {
 						if (t.isExportSpecifier(spec) && t.isIdentifier(spec.exported)) {
 							exports.push(spec.exported.name);
 						}
@@ -208,22 +206,17 @@ function extractImportsAndExports(code: string, filePath?: string) {
 }
 
 /*───────────────────────────────────────────────────── SCAN FUNCTIONS */
-async function scanSvelteFile(file: string, projectRoot: string): Promise<ComponentInfo | PageInfo | null> {
+async function scanSvelteFile(
+	file: string,
+	projectRoot: string
+): Promise<ComponentInfo | PageInfo | null> {
 	const rel = relative(projectRoot, file);
 	const isPage = path.basename(file) === '+page.svelte';
 	const isLayout = path.basename(file) === '+layout.svelte';
 
 	try {
 		const src = await fs.readFile(file, 'utf-8');
-		
-		// Try to parse Svelte - if it fails, skip this file
-		let ast;
-		try {
-			ast = parseSvelte(src);
-		} catch (parseError) {
-			console.warn(`⚠️  Failed to parse Svelte syntax in ${rel}: ${parseError}`);
-			return null;
-		}
+		const ast = parseSvelte(src);
 
 		const props: ComponentProp[] = [];
 		const customComponents: string[] = [];
@@ -232,12 +225,8 @@ async function scanSvelteFile(file: string, projectRoot: string): Promise<Compon
 		// Extract props
 		if (ast.instance) {
 			const scriptCode = src.slice(ast.instance.content.start, ast.instance.content.end);
-			
-			// Check if it's TypeScript
-			const isTypeScript = src.includes('lang="ts"') || src.includes("lang='ts'") || 
-								scriptCode.includes(': ') || scriptCode.includes('import type');
-			
-			const exportLetRegex = /export\s+let\s+([a-zA-Z_$][a-zA-Z0-9_$]*)\s*(?::\s*([^=;,]+?))?\s*(?:=\s*[^;,]+?)?[;,]/g;
+			const exportLetRegex =
+				/export\s+let\s+([a-zA-Z_$][a-zA-Z0-9_$]*)\s*(?::\s*([^=;,]+?))?\s*(?:=\s*[^;,]+?)?[;,]/g;
 			let match;
 			while ((match = exportLetRegex.exec(scriptCode)) !== null) {
 				const type = match[2]?.trim().replace(/\s*\|\s*undefined$/, '');
@@ -275,7 +264,7 @@ async function scanSvelteFile(file: string, projectRoot: string): Promise<Compon
 
 		const baseInfo = {
 			file: rel,
-			props: props.filter(p => p.name !== 'data'), // Skip common 'data' prop
+			props: props.filter((p) => p.name !== 'data'), // Skip common 'data' prop
 			customComponents
 		};
 
@@ -308,7 +297,8 @@ async function scanEndpoint(file: string, projectRoot: string): Promise<APIEndpo
 		const methods: string[] = [];
 
 		// Extract HTTP methods
-		const methodRegex = /export\s+(?:async\s+)?function\s+(GET|POST|PUT|DELETE|PATCH|OPTIONS|HEAD)/g;
+		const methodRegex =
+			/export\s+(?:async\s+)?function\s+(GET|POST|PUT|DELETE|PATCH|OPTIONS|HEAD)/g;
 		let match;
 		while ((match = methodRegex.exec(src)) !== null) {
 			methods.push(match[1]);
@@ -332,7 +322,7 @@ async function scanLibModule(file: string, projectRoot: string): Promise<LibModu
 
 	try {
 		const code = await fs.readFile(file, 'utf-8');
-		const { imports, exports } = extractImportsAndExports(code, rel);
+		const { imports, exports } = extractImportsAndExports(code);
 		const type = getModuleType(rel);
 
 		return {
@@ -353,7 +343,7 @@ async function scanRouteModule(file: string, projectRoot: string): Promise<Route
 
 	try {
 		const code = await fs.readFile(file, 'utf-8');
-		const { exports } = extractImportsAndExports(code, rel);
+		const { exports } = extractImportsAndExports(code);
 
 		let type: RouteModule['type'];
 		if (rel.includes('+page.server.')) type = 'page.server';
@@ -379,11 +369,7 @@ async function scanRouteModule(file: string, projectRoot: string): Promise<Route
 /*─────────────────────────────────────────────────── MAIN BUILD */
 async function buildContext(projectRoot: string): Promise<ProjectContext> {
 	// More comprehensive file discovery
-	const allFiles = await fg([
-		'src/**/*.svelte',
-		'src/**/*.ts',
-		'src/**/*.js'
-	], {
+	const allFiles = await fg(['src/**/*.svelte', 'src/**/*.ts', 'src/**/*.js'], {
 		cwd: projectRoot,
 		ignore: SKIP_FILES,
 		absolute: true,
@@ -400,7 +386,7 @@ async function buildContext(projectRoot: string): Promise<ProjectContext> {
 
 	for (const file of allFiles) {
 		const rel = relative(projectRoot, file);
-		
+
 		try {
 			if (file.endsWith('.svelte')) {
 				const result = await scanSvelteFile(file, projectRoot);
@@ -417,11 +403,10 @@ async function buildContext(projectRoot: string): Promise<ProjectContext> {
 			} else if (rel.startsWith('src/lib/')) {
 				const result = await scanLibModule(file, projectRoot);
 				if (result) libModules.push(result);
-			} else if (file.includes('/routes/') && (
-				file.includes('+page.') || 
-				file.includes('+layout.') || 
-				file.includes('+error.')
-			)) {
+			} else if (
+				file.includes('/routes/') &&
+				(file.includes('+page.') || file.includes('+layout.') || file.includes('+error.'))
+			) {
 				const result = await scanRouteModule(file, projectRoot);
 				if (result) routeModules.push(result);
 			}
@@ -434,11 +419,11 @@ async function buildContext(projectRoot: string): Promise<ProjectContext> {
 	const dependencies: Record<string, string[]> = {};
 	const usedComponents = new Set<string>();
 
-	[...pages, ...components].forEach(item => {
+	[...pages, ...components].forEach((item) => {
 		const deps: string[] = [];
 
-		item.customComponents.forEach(compName => {
-			const matchingComp = components.find(c => {
+		item.customComponents.forEach((compName) => {
+			const matchingComp = components.find((c) => {
 				const baseName = path.basename(c.file, '.svelte');
 				return baseName === compName || baseName.toLowerCase() === compName.toLowerCase();
 			});
@@ -454,12 +439,12 @@ async function buildContext(projectRoot: string): Promise<ProjectContext> {
 	});
 
 	// Mark pages and layouts as used
-	pages.forEach(page => usedComponents.add(page.file));
+	pages.forEach((page) => usedComponents.add(page.file));
 
 	// Find unused components
 	const unusedComponents = components
-		.filter(comp => !usedComponents.has(comp.file))
-		.map(comp => comp.file);
+		.filter((comp) => !usedComponents.has(comp.file))
+		.map((comp) => comp.file);
 
 	return {
 		pages,
@@ -491,7 +476,7 @@ async function main() {
 	console.log(`   • ${context.apis.length} API endpoints`);
 	console.log(`   • ${context.libModules.length} lib modules`);
 	console.log(`   • ${context.routeModules.length} route modules`);
-	
+
 	if (context.unusedComponents.length) {
 		console.log(`🗑️  Unused: ${context.unusedComponents.length} components`);
 	}

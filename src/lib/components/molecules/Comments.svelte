@@ -112,7 +112,7 @@
 
 {#key key}
 	{#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
-		<div class="flex flex-col gap-4">
+		<div class="flex flex-col md:gap-4">
 			{#each _comments as comment, index (comment.id)}
 				<div in:fade={{ duration: 300, delay: index * 50 }}>
 					<Comment
@@ -128,15 +128,24 @@
 
 			<!-- Infinite scroll sentinel -->
 			{#if _comments.length < comment_count && parentData?.flags?.userHasAnswered}
-				<div bind:this={bottomSentinel} class="h-2.5 my-4">
+				<div bind:this={bottomSentinel} class="my-4 h-2.5">
 					{#if loading}
 						<div class="space-y-4">
 							{#each Array(2) as _, i}
-								<div class="flex gap-4 p-4 my-2 bg-white/80 rounded-lg shadow-sm" in:fade={{ duration: 300, delay: i * 100 }}>
-									<div class="w-20 h-8 bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%] animate-[shimmer_1.5s_infinite] rounded"></div>
-									<div class="flex-1 flex flex-col gap-3">
-										<div class="h-3 bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%] animate-[shimmer_1.5s_infinite] rounded w-[95%]"></div>
-										<div class="h-3 bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%] animate-[shimmer_1.5s_infinite] rounded w-[80%]"></div>
+								<div
+									class="my-2 flex gap-4 rounded-lg bg-white/80 p-4 shadow-sm"
+									in:fade={{ duration: 300, delay: i * 100 }}
+								>
+									<div
+										class="h-8 w-20 animate-[shimmer_1.5s_infinite] rounded bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%]"
+									></div>
+									<div class="flex flex-1 flex-col gap-3">
+										<div
+											class="h-3 w-[95%] animate-[shimmer_1.5s_infinite] rounded bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%]"
+										></div>
+										<div
+											class="h-3 w-[80%] animate-[shimmer_1.5s_infinite] rounded bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%]"
+										></div>
 									</div>
 								</div>
 							{/each}
@@ -146,7 +155,7 @@
 			{/if}
 		</div>
 	{:else if parentData?.flags?.userHasAnswered && !comments.length}
-		<div class="text-center py-8 text-neutral-600">
+		<div class="py-8 text-center text-neutral-600">
 			<p>No comments yet. Be the first to share your thoughts!</p>
 		</div>
 	{/if}

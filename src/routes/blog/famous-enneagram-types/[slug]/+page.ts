@@ -26,13 +26,12 @@ export const load: PageServerLoad = async (
 		.from('blogs_famous_people')
 		.select('*')
 		.eq('person', params.slug)
-		.maybeSingle()
+		.maybeSingle();
 
 	const { data: personsData } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
-		.eq('published', true)
-
+		.eq('published', true);
 
 	const pposts: { post: any; posts: any[] } = {
 		posts: personsData,
@@ -122,5 +121,3 @@ export const load: PageServerLoad = async (
 		flags: event.data.flags
 	};
 };
-
-

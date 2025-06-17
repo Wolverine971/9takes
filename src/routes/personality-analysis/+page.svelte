@@ -329,7 +329,7 @@
 		{/each}
 	</section>
 
-	{#if !data?.session?.user}
+	{#if !data?.user}
 		<section class="join">
 			<EmailSignup />
 		</section>

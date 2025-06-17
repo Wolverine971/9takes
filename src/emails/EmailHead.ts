@@ -1,6 +1,6 @@
 // emails/EmailHead.ts
 export const EmailHead = (title: string) => {
-  return `<head>
+	return `<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>${title}</title>

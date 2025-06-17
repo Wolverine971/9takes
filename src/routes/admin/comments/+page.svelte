@@ -190,7 +190,7 @@
 						<div
 							class="rounded-lg border border-warning-500 bg-warning-50 p-4 shadow-sm transition-all hover:shadow-md"
 						>
-							<div class="mb-3">
+							<div class="md:mb-3">
 								{#if comment?.comments}
 									<p class="mb-2 text-neutral-800">{comment.comments.comment}</p>
 									<div class="space-y-1 rounded-md bg-neutral-100 p-2 text-sm text-neutral-600">

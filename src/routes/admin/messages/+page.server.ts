@@ -29,7 +29,7 @@ export const load: PageServerLoad = async (event) => {
 		console.log(findUsersError);
 	}
 
-	return {  user, users };
+	return { user, users };
 };
 
 export const actions: Actions = {};

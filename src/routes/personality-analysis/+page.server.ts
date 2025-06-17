@@ -7,18 +7,18 @@ import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 
 export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogPost[] }> => {
-
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
-		.eq('published', true)
+		.eq('published', true);
 	if (personDataError) {
-		console.log(personDataError)
+		console.log(personDataError);
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const posts: any = personData.map(e => { return { ...e, slug: e.person } })
-
+	const posts: any = personData.map((e) => {
+		return { ...e, slug: e.person };
+	});
 
 	const uniqueTypes = Array.from(new Set(posts.map((obj) => obj?.enneagram)));
 
@@ -31,7 +31,7 @@ export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogP
 		const objectsWithType = posts.filter((obj) => obj?.enneagram === enneagram);
 
 		// Sort objects by date_created
-		objectsWithType.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod))
+		objectsWithType.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod));
 
 		// Push first 3 objects to uniqueObjects
 		uniqueObjects.push(...objectsWithType.slice(0, 5));
@@ -39,7 +39,6 @@ export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogP
 
 	return { people: uniqueObjects };
 };
-
 
 export const actions: Actions = {
 	createComment: async ({ request, getClientAddress }) => {

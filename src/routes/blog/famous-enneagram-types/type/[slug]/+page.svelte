@@ -45,7 +45,7 @@
 	<hr />
 	<br />
 	<p class="position-center">🚧 More to come</p>
-	{#if !data?.session?.user}
+	{#if !data?.user}
 		<div class="join position-center">
 			<EmailSignup />
 		</div>

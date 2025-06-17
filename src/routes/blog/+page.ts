@@ -71,19 +71,20 @@ export const load = async (): Promise<{
 	// 	.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1))
 	// 	.slice(0, MAX_POSTS);
 
-
 	const { data: peoplePosts, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
 		.eq('published', true)
 		.limit(MAX_POSTS)
-		.order('date', { ascending: false })
+		.order('date', { ascending: false });
 	if (personDataError) {
-		console.log(personDataError)
+		console.log(personDataError);
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const posts: any = peoplePosts.map(e => { return { ...e, slug: e.person } })
+	const posts: any = peoplePosts.map((e) => {
+		return { ...e, slug: e.person };
+	});
 
 	// const peoplePosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 

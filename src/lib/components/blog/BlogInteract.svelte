@@ -7,7 +7,6 @@
 	// import { page } from '$app/stores';
 
 	import { createEventDispatcher } from 'svelte';
-	import type { Session } from '@supabase/supabase-js';
 
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	const dispatch = createEventDispatcher();
@@ -15,7 +14,6 @@
 	export let parentType: string;
 
 	export let data: {
-		session: Session | null;
 		component: any;
 		comments: any[];
 		metadata: App.BlogPost;
@@ -102,9 +100,11 @@
 
 <div class="interaction-div-display">
 	<button
-		class="btn btn-primary sub-comment"
+		class="btn btn-primary flex"
 		type="button"
-		style={comment?.length > 1 ? 'color: var(--accent); border: 1px solid var(--accent);' : ''}
+		style="{comment?.length > 1
+			? 'color: var(--accent); border: 1px solid var(--accent);'
+			: ''} display: flex;"
 		title="You only YOLO once"
 		on:click={createComment}
 		disabled={comment?.length < 1}
@@ -121,4 +121,24 @@
 </div>
 
 <style lang="scss">
+	.interact-text-container {
+		position: relative;
+		width: 100%;
+		height: 100px;
+	}
+
+	.interact-textbox {
+		box-sizing: border-box;
+		position: relative;
+		border-radius: var(--base-border-radius);
+		padding: 1rem;
+		width: 100%;
+		background-color: var(--medium-gray);
+		border: 1px solid var(--base-white-outline) !important;
+
+		&:focus {
+			outline: none !important;
+			box-shadow: 0 0 10px var(--accent);
+		}
+	}
 </style>

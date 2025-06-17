@@ -25,9 +25,8 @@ export const load: PageServerLoad = async () => {
 	const questionIndex = daysSinceEpoch % 9; // Rotate through 9 questions (0-8)
 
 	// Select the question of the day
-	const questionOfTheDay = top9Questions && top9Questions.length > 0
-		? top9Questions[questionIndex]
-		: null;
+	const questionOfTheDay =
+		top9Questions && top9Questions.length > 0 ? top9Questions[questionIndex] : null;
 
 	// Rest of your existing code
 	let images: any[] = [];
@@ -67,6 +66,6 @@ export const load: PageServerLoad = async () => {
 		images,
 		top9Questions,
 		famousPeople,
-		questionOfTheDay  // Add the question of the day to the returned data
+		questionOfTheDay // Add the question of the day to the returned data
 	};
 };

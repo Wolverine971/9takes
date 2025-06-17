@@ -44,8 +44,7 @@ export const load: PageServerLoad = async (event) => {
 		const { data: questions, error: questionsError } = await supabase
 			.from(demo_time ? 'questions_demo' : 'questions')
 			.select(
-				`*, question_tag(*), ${demo_time ? 'profiles_demo' : 'profiles'
-				} ( external_id, enneagram)`
+				`*, question_tag(*), ${demo_time ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)`
 			)
 			.order('created_at', { ascending: false })
 			.limit(100);

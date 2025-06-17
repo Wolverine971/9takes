@@ -9,7 +9,7 @@
 
 	export let comment: any;
 	export let slug: string;
-	export let session: any;
+	export let user: any;
 	export let userHasAnswered: any;
 
 	let _commentComment = comment?.id ? { ...comment } : null;
@@ -25,7 +25,7 @@
 	}
 
 	const loadMore = async () => {
-		if (!session?.user?.id) {
+		if (!user?.id) {
 			notifications.info('Must register or login to see nested comments', 3000);
 			return;
 		}
@@ -89,7 +89,7 @@
 			<BlogComments
 				{slug}
 				comments={_commentComment.comments}
-				{session}
+				{user}
 				parentType={'comment'}
 				{userHasAnswered}
 			/>

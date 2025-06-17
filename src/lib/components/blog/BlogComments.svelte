@@ -5,9 +5,9 @@
 
 	export let slug: string;
 	export let comments: any[];
-	export let session: any;
 	export let parentType: string;
 	export let userHasAnswered: boolean;
+	export let user: any;
 
 	$: comment_count = comments.length;
 	let loading = false;
@@ -29,7 +29,7 @@
 					<BlogComment
 						{comment}
 						{slug}
-						{session}
+						{user}
 						{userHasAnswered}
 						on:commentAdded={({ detail }) => refreshComments(detail)}
 					/>

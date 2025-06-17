@@ -52,8 +52,6 @@ export const load: PageLoad = async (event) => {
 		getFlagReasons()
 	]);
 
-
-
 	return createFullResponse(
 		question,
 		comments.data,
@@ -500,9 +498,7 @@ async function getQuestionLinks(questionId: number) {
 }
 
 async function getFlagReasons() {
-	const { data, error } = await supabase
-		.from('flag_reasons')
-		.select(`*`)
+	const { data, error } = await supabase.from('flag_reasons').select(`*`);
 	if (error) {
 		console.log('No links for question', error);
 	}
@@ -540,7 +536,7 @@ function createBaseResponse(
 		comment_count: commentCount,
 		removed_comment_count: removedCommentCount,
 		questionTags,
-		session,
+		user: session?.user ? { id: session?.user?.id, email: session?.user?.email } : null,
 		flags: {
 			userHasAnswered,
 			userSignedIn: event?.locals?.session?.user?.aud

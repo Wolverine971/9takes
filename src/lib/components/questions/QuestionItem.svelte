@@ -102,7 +102,7 @@
 		<!-- Optional philosopher quote mark -->
 		<div class="flex items-start">
 			<p
-				class="m-0 line-clamp-2 overflow-hidden text-ellipsis break-words font-greek-body"
+				class="font-greek-body m-0 line-clamp-2 overflow-hidden text-ellipsis break-words"
 				style:--tag={`h-question-${questionData.question.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
 			>
 				{displayQuestion}

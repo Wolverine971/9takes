@@ -355,39 +355,47 @@
 <svelte:window bind:innerWidth />
 
 {#if _commentComment}
-	<Card className="bg-white rounded-lg shadow-md border border-neutral-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 mb-3 sm:mb-0">
+	<Card
+		className="bg-white rounded-lg shadow-md border border-neutral-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 md:mb-3"
+	>
 		<div
 			class="flex flex-col"
 			itemprop="suggestedAnswer acceptedAnswer"
 			itemscope
 			itemtype="https://schema.org/Answer"
 		>
-			<div class="flex flex-col w-full">
+			<div class="flex w-full flex-col">
 				<!-- Comment Header and Content -->
 				<div class="p-4 pb-2" id="comment-box{_commentComment.id}">
 					<!-- User Badge and Timestamp -->
-					<div class="flex items-start justify-between mb-3">
+					<div class="mb-3 flex items-start justify-between">
 						<div class="flex items-center gap-3">
 							{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
 								<a
 									title="View profile"
-									class="inline-flex items-center justify-center min-w-[90px] sm:min-w-[70px] h-9 sm:h-8 bg-gradient-to-br from-primary-700 to-primary-800 text-white font-semibold text-sm sm:text-xs text-center rounded-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-sm no-underline"
+									class="inline-flex h-9 min-w-[90px] items-center justify-center rounded-sm bg-gradient-to-br from-primary-700 to-primary-800 text-center text-sm font-semibold text-white no-underline transition-all duration-200 hover:-translate-y-0.5 hover:shadow-sm sm:h-8 sm:min-w-[70px] sm:text-xs"
 									href={`/users/${_commentComment.profiles.external_id}`}
 								>
 									{_commentComment?.profiles?.enneagram || 'Rando'}
 								</a>
 							{:else}
 								<span
-									class="inline-flex items-center justify-center min-w-[90px] sm:min-w-[70px] h-9 sm:h-8 {_commentComment?.profiles?.external_id ? '' : 'opacity-70'} bg-neutral-200 text-neutral-600 font-semibold text-sm sm:text-xs text-center rounded-sm"
+									class="inline-flex h-9 min-w-[90px] items-center justify-center sm:h-8 sm:min-w-[70px] {_commentComment
+										?.profiles?.external_id
+										? ''
+										: 'opacity-70'} rounded-sm bg-neutral-200 text-center text-sm font-semibold text-neutral-600 sm:text-xs"
 								>
 									Rando
 								</span>
 							{/if}
-							
+
 							<!-- Timestamp -->
 							<span class="flex items-center gap-1 text-xs text-neutral-600">
 								{#if _commentComment.modified_at}
-									<span class="inline-flex items-center justify-center w-4 h-4 bg-primary-100 text-primary-800 rounded-full text-xs font-bold" title="Modified">M</span>
+									<span
+										class="inline-flex h-4 w-4 items-center justify-center rounded-full bg-primary-100 text-xs font-bold text-primary-800"
+										title="Modified">M</span
+									>
 								{/if}
 								<time itemprop="dateCreated" datetime={createdOrModifiedAt}>
 									{createdOrModifiedAt}
@@ -397,15 +405,20 @@
 					</div>
 
 					<!-- Comment Text -->
-					<div class="relative w-full mb-3">
-						<div class="block {isExpanded ? '' : 'max-h-[4.5em] overflow-hidden'} whitespace-pre-line leading-6 text-neutral-900 relative transition-all duration-300" itemprop="text">
+					<div class="relative mb-3 w-full">
+						<div
+							class="block {isExpanded
+								? ''
+								: 'max-h-[4.5em] overflow-hidden'} relative whitespace-pre-line leading-6 text-neutral-900 transition-all duration-300"
+							itemprop="text"
+						>
 							{_commentComment.comment}
 						</div>
 
 						{#if shouldTruncate && !isExpanded}
-							<button 
-								type="button" 
-								class="mt-1 px-2 py-1 border border-neutral-300 rounded text-xs text-primary-700 cursor-pointer hover:text-primary-800 hover:underline z-10 transition-all duration-200" 
+							<button
+								type="button"
+								class="z-10 mt-1 cursor-pointer rounded border border-neutral-300 px-2 py-1 text-xs text-primary-700 transition-all duration-200 hover:text-primary-800 hover:underline"
 								on:click={toggleExpandText}
 							>
 								Read More
@@ -414,10 +427,14 @@
 					</div>
 
 					<!-- Interaction Buttons -->
-					<div class="flex items-center gap-1 -ml-2 -mr-2">
+					<div class="-ml-2 -mr-2 flex items-center gap-1">
 						<button
 							title={likes.some((e) => e.user_id === user?.id) ? 'Unlike' : 'Like'}
-							class="flex items-center gap-2 px-3 py-2 border-none bg-transparent {likes.some((e) => e.user_id === user?.id) ? 'text-primary-600 bg-primary-50' : 'text-neutral-600'} rounded cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900 text-sm"
+							class="flex items-center gap-2 border-none bg-transparent px-3 py-2 {likes.some(
+								(e) => e.user_id === user?.id
+							)
+								? 'bg-primary-50 text-primary-600'
+								: 'text-neutral-600'} cursor-pointer rounded text-sm transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
 							on:click={toggleLike}
 						>
 							<ThumbsUpIcon className="w-4 h-4" />
@@ -430,9 +447,9 @@
 							{/if}
 						</button>
 
-						<button 
-							title="Reply" 
-							class="flex items-center gap-2 px-3 py-2 border-none bg-transparent text-neutral-600 rounded cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900 text-sm" 
+						<button
+							title="Reply"
+							class="flex cursor-pointer items-center gap-2 rounded border-none bg-transparent px-3 py-2 text-sm text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
 							on:click={() => (commenting = !commenting)}
 						>
 							<MasterCommentIcon
@@ -444,22 +461,28 @@
 
 						<div class="ml-auto">
 							<Popover>
-								<div slot="icon" class="flex items-center justify-center w-8 h-8 rounded hover:bg-neutral-100 transition-colors duration-200 cursor-pointer">
+								<div
+									slot="icon"
+									class="flex h-8 w-8 cursor-pointer items-center justify-center rounded transition-colors duration-200 hover:bg-neutral-100"
+								>
 									<SettingsIcon className="w-4 h-4 text-neutral-600" />
 								</div>
 
-								<div slot="popoverValue" class="min-w-[180px] p-2 right-0 left-auto z-[100] md:w-[200px] md:right-0">
+								<div
+									slot="popoverValue"
+									class="left-auto right-0 z-[100] min-w-[180px] p-2 md:right-0 md:w-[200px]"
+								>
 									{#if user?.id === _commentComment.author_id}
 										<button
-											class="w-full text-left p-2 bg-transparent border-none rounded cursor-pointer text-sm text-neutral-900 transition-colors duration-200 hover:bg-neutral-100"
+											class="w-full cursor-pointer rounded border-none bg-transparent p-2 text-left text-sm text-neutral-900 transition-colors duration-200 hover:bg-neutral-100"
 											on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
 										>
 											Edit Comment
 										</button>
 									{/if}
 
-									<button 
-										class="w-full text-left p-2 bg-transparent border-none rounded cursor-pointer text-sm text-error-500 transition-colors duration-200 hover:bg-neutral-100" 
+									<button
+										class="w-full cursor-pointer rounded border-none bg-transparent p-2 text-left text-sm text-error-500 transition-colors duration-200 hover:bg-neutral-100"
 										on:click={openFlagModal}
 									>
 										Flag Comment
@@ -474,18 +497,21 @@
 
 		<!-- Reply form -->
 		{#if commenting}
-			<div class="p-4 border-t border-neutral-200 bg-neutral-50" transition:slide={{ duration: 200 }}>
+			<div
+				class="border-t border-neutral-200 bg-neutral-50 p-4"
+				transition:slide={{ duration: 200 }}
+			>
 				<div class="mb-3">
 					<textarea
 						placeholder="Write your reply..."
-						class="w-full p-3 border border-neutral-400 rounded resize-y font-inherit text-sm focus:outline-none focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)]"
+						class="font-inherit w-full resize-y rounded border border-neutral-400 p-3 text-sm focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)] focus:outline-none"
 						bind:value={newcomment}
 						rows="3"
 					></textarea>
 				</div>
 				<div class="flex justify-end gap-3 sm:flex-col">
 					<button
-						class="px-4 py-2 bg-transparent border border-neutral-400 text-neutral-600 rounded font-medium cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
+						class="cursor-pointer rounded border border-neutral-400 bg-transparent px-4 py-2 font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
 						type="button"
 						on:click={() => {
 							commenting = false;
@@ -495,13 +521,15 @@
 						Cancel
 					</button>
 					<button
-						class="flex items-center justify-center gap-2 px-4 py-2 bg-primary-500 text-white border-none rounded font-medium cursor-pointer transition-all duration-200 hover:bg-primary-600 hover:-translate-y-0.5 disabled:opacity-70 disabled:cursor-not-allowed"
+						class="flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-4 py-2 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-70"
 						type="button"
 						on:click={createReply}
 						disabled={loading || !newcomment?.trim()}
 					>
 						{#if loading}
-							<div class="w-5 h-5 border-2 border-primary-200 border-t-white rounded-full animate-spin"></div>
+							<div
+								class="h-5 w-5 animate-spin rounded-full border-2 border-primary-200 border-t-white"
+							></div>
 						{:else}
 							Submit
 							<RightIcon className="w-4 h-4" />
@@ -513,7 +541,7 @@
 
 		<!-- Nested comments -->
 		{#if _commentComment?.comments?.length}
-			<div class="ml-6 sm:ml-3 pl-4 sm:pl-2 pb-2 border-l-2 border-neutral-200">
+			<div class="ml-6 border-l-2 border-neutral-200 pb-2 pl-4 sm:ml-3 sm:pl-2">
 				<Comments
 					{questionId}
 					comments={_commentComment.comments}
@@ -533,12 +561,14 @@
 		{#if _commentComment.comment_count > 0 && !_commentComment?.comments?.length}
 			<button
 				type="button"
-				class="flex items-center justify-center gap-2 w-full p-3 bg-neutral-100 border-none border-t border-neutral-400 text-neutral-900 text-sm cursor-pointer transition-colors duration-200 hover:bg-neutral-200 disabled:cursor-not-allowed disabled:opacity-70"
+				class="flex w-full cursor-pointer items-center justify-center gap-2 border-t border-none border-neutral-400 bg-neutral-100 p-3 text-sm text-neutral-900 transition-colors duration-200 hover:bg-neutral-200 disabled:cursor-not-allowed disabled:opacity-70"
 				on:click={loadNestedComments}
 				disabled={loadingComments}
 			>
 				{#if loadingComments}
-					<div class="w-5 h-5 border-2 border-primary-200 border-t-primary-600 rounded-full animate-spin" />
+					<div
+						class="h-5 w-5 animate-spin rounded-full border-2 border-primary-200 border-t-primary-600"
+					/>
 				{:else}
 					<span
 						>Show {_commentComment.comment_count}
@@ -556,32 +586,34 @@
 
 <!-- Edit Comment Modal -->
 <Modal2 id={`edit-modal-${_commentComment?.id}`}>
-	<div class="p-6 w-full max-w-lg bg-white rounded-lg shadow-lg">
-		<h2 class="mt-0 mb-5 text-xl text-neutral-900">Edit Comment</h2>
+	<div class="w-full max-w-lg rounded-lg bg-white p-6 shadow-lg">
+		<h2 class="mb-5 mt-0 text-xl text-neutral-900">Edit Comment</h2>
 		<div class="mb-6">
 			<textarea
 				rows="5"
 				bind:value={commentEdit}
-				class="w-full p-3 border border-neutral-400 rounded font-inherit text-sm resize-y min-h-[100px] focus:outline-none focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)]"
+				class="font-inherit min-h-[100px] w-full resize-y rounded border border-neutral-400 p-3 text-sm focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)] focus:outline-none"
 				placeholder="Edit your comment..."
 			></textarea>
 		</div>
 		<div class="flex justify-end gap-3 sm:flex-col">
 			<button
-				class="px-5 py-3 bg-transparent border border-neutral-400 text-neutral-600 rounded font-medium cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
+				class="cursor-pointer rounded border border-neutral-400 bg-transparent px-5 py-3 font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
 				type="button"
 				on:click={() => getModal(`edit-modal-${_commentComment?.id}`).close()}
 			>
 				Cancel
 			</button>
 			<button
-				class="flex items-center justify-center gap-2 px-5 py-3 bg-primary-500 text-white border-none rounded font-medium cursor-pointer transition-all duration-200 hover:bg-primary-600 hover:-translate-y-0.5 disabled:opacity-70 disabled:cursor-not-allowed"
+				class="flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-5 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-70"
 				type="button"
 				on:click={saveEdit}
 				disabled={loading || !commentEdit.trim()}
 			>
 				{#if loading}
-					<div class="w-5 h-5 border-2 border-primary-200 border-t-white rounded-full animate-spin"></div>
+					<div
+						class="h-5 w-5 animate-spin rounded-full border-2 border-primary-200 border-t-white"
+					></div>
 				{:else}
 					Save Changes
 				{/if}
@@ -592,24 +624,27 @@
 
 <!-- Flag Comment Modal -->
 <Modal2 id={`flag-comment-modal-${_commentComment?.id}`}>
-	<div class="p-6 w-full max-w-lg bg-white rounded-lg shadow-lg">
-		<h2 class="mt-0 mb-5 text-xl text-neutral-900">Flag Comment</h2>
+	<div class="w-full max-w-lg rounded-lg bg-white p-6 shadow-lg">
+		<h2 class="mb-5 mt-0 text-xl text-neutral-900">Flag Comment</h2>
 		<div class="mb-6">
 			{#if flagError}
-				<div class="p-2 mb-4 bg-error-50 border-l-4 border-error-500 text-error-700 rounded">
+				<div class="mb-4 rounded border-l-4 border-error-500 bg-error-50 p-2 text-error-700">
 					{flagError}
 				</div>
 			{/if}
 
 			{#if parentData?.flagReasons?.length > 0}
 				<div class="mb-4">
-					<label for="flag-reason" class="block mb-2 font-medium text-neutral-900">
+					<label for="flag-reason" class="mb-2 block font-medium text-neutral-900">
 						Reason <span class="text-error-500">*</span>
 					</label>
 					<select
 						id="flag-reason"
 						bind:value={flaggingReasonId}
-						class="w-full p-3 border border-neutral-400 rounded font-inherit text-sm {flagError && !flaggingReasonId ? 'border-error-500' : ''} focus:outline-none focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)]"
+						class="font-inherit w-full rounded border border-neutral-400 p-3 text-sm {flagError &&
+						!flaggingReasonId
+							? 'border-error-500'
+							: ''} focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)] focus:outline-none"
 					>
 						<option value="" disabled selected>Select a reason</option>
 						{#each parentData.flagReasons as reason}
@@ -617,42 +652,46 @@
 						{/each}
 					</select>
 					{#if flagError && !flaggingReasonId}
-						<div class="text-error-500 text-xs mt-1">Please select a reason</div>
+						<div class="mt-1 text-xs text-error-500">Please select a reason</div>
 					{/if}
 				</div>
 			{:else}
-				<div class="p-2 mb-4 bg-info-50 border-l-4 border-info-500 text-info-700 rounded">
+				<div class="mb-4 rounded border-l-4 border-info-500 bg-info-50 p-2 text-info-700">
 					No flag reasons available. Please contact an administrator.
 				</div>
 			{/if}
 
 			<div class="mb-4">
-				<label for="flag-description" class="block mb-2 font-medium text-neutral-900">Description</label>
+				<label for="flag-description" class="mb-2 block font-medium text-neutral-900"
+					>Description</label
+				>
 				<textarea
 					id="flag-description"
 					rows="4"
 					bind:value={flaggingReasonDescription}
-					class="w-full p-3 border border-neutral-400 rounded font-inherit text-sm resize-y min-h-[100px] focus:outline-none focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)]"
+					class="font-inherit min-h-[100px] w-full resize-y rounded border border-neutral-400 p-3 text-sm focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)] focus:outline-none"
 					placeholder="Please provide details about why you're flagging this comment..."
 				></textarea>
 			</div>
 		</div>
 		<div class="flex justify-end gap-3 sm:flex-col">
-			<button 
-				class="px-5 py-3 bg-transparent border border-neutral-400 text-neutral-600 rounded font-medium cursor-pointer transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900" 
-				type="button" 
+			<button
+				class="cursor-pointer rounded border border-neutral-400 bg-transparent px-5 py-3 font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
+				type="button"
 				on:click={closeFlagModal}
-			> 
-				Cancel 
+			>
+				Cancel
 			</button>
 			<button
-				class="flex items-center justify-center gap-2 px-5 py-3 bg-primary-500 text-white border-none rounded font-medium cursor-pointer transition-all duration-200 hover:bg-primary-600 hover:-translate-y-0.5 disabled:opacity-70 disabled:cursor-not-allowed"
+				class="flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-5 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-70"
 				type="button"
 				on:click={submitFlag}
 				disabled={loading || !flaggingReasonId || !parentData?.flagReasons?.length}
 			>
 				{#if loading}
-					<div class="w-5 h-5 border-2 border-primary-200 border-t-white rounded-full animate-spin"></div>
+					<div
+						class="h-5 w-5 animate-spin rounded-full border-2 border-primary-200 border-t-white"
+					></div>
 				{:else}
 					Submit
 				{/if}

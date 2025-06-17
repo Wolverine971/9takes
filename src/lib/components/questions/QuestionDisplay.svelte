@@ -67,9 +67,11 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="flex flex-col items-center gap-4 bg-gradient-to-br from-white to-neutral-100 rounded-2xl shadow-sm p-8 sm:p-5 mb-4 transition-all duration-300 hover:shadow-md hover:-translate-y-0.5">
+<div
+	class="mb-4 flex flex-col items-center gap-4 rounded-2xl bg-gradient-to-br from-white to-neutral-100 p-8 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md sm:p-5"
+>
 	<h1
-		class="w-full text-center text-neutral-900 font-bold leading-tight tracking-wide m-0 py-2 uppercase relative after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:-translate-x-1/2 after:w-[60px] after:h-[3px] after:bg-primary-500 after:rounded-sm"
+		class="relative m-0 w-full py-2 text-center font-bold uppercase leading-tight tracking-wide text-neutral-900 after:absolute after:bottom-[-10px] after:left-1/2 after:h-[3px] after:w-[60px] after:-translate-x-1/2 after:rounded-sm after:bg-primary-500 after:content-['']"
 		style="font-size: {fontSize}"
 		itemprop="name"
 		style:--tag={`h-question-${question.question.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
@@ -78,11 +80,11 @@
 		{#if !question.question_formatted && addQuestionMark}?{/if}
 	</h1>
 	{#if innerWidth <= 576 && qrCodeUrl}
-		<div class="flex justify-center mt-2">
-			<img 
-				src={qrCodeUrl} 
-				alt="9takes QR Code" 
-				class="w-[100px] h-[100px] rounded bg-white p-2 border border-neutral-200 transition-transform duration-300 hover:scale-105" 
+		<div class="mt-2 flex justify-center">
+			<img
+				src={qrCodeUrl}
+				alt="9takes QR Code"
+				class="h-[100px] w-[100px] rounded border border-neutral-200 bg-white p-2 transition-transform duration-300 hover:scale-105"
 			/>
 		</div>
 	{/if}

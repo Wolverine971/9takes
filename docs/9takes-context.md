@@ -6,9 +6,9 @@ This document serves as the **core context engine** for 9takes - a personality-b
 
 ## 🎯 Core Mission & Values
 
-**Tagline**: *"See the emotions behind every take"*
+**Tagline**: _"See the emotions behind every take"_
 
-**Secondary**: *"One situation, 9 ways to see it"*
+**Secondary**: _"One situation, 9 ways to see it"_
 
 ### 🎲 Core Problem We Solve
 
@@ -39,7 +39,7 @@ Social media has become inauthentic, filled with echo chambers and performative 
 ```
 9takes.com/
 ├── questions/           # Main Q&A platform
-├── personality-analysis/# Celebrity Enneagram analyses  
+├── personality-analysis/# Celebrity Enneagram analyses
 ├── enneagram-corner/   # Educational content
 ├── how-to-guides/      # Practical advice content
 ├── community/          # Platform insights & philosophy
@@ -54,6 +54,7 @@ Social media has become inauthentic, filled with echo chambers and performative 
 ### 🔑 Primary Tables
 
 #### `questions` Table
+
 ```sql
 CREATE TABLE questions (
     id SERIAL PRIMARY KEY,
@@ -74,6 +75,7 @@ CREATE TABLE questions (
 ```
 
 #### `comments` Table
+
 ```sql
 CREATE TABLE comments (
     id SERIAL PRIMARY KEY,
@@ -92,6 +94,7 @@ CREATE TABLE comments (
 ```
 
 #### `profiles` Table
+
 ```sql
 CREATE TABLE profiles (
     id UUID PRIMARY KEY,
@@ -110,7 +113,9 @@ CREATE TABLE profiles (
 ### 🎭 Content Tables
 
 #### `blogs_famous_people` Table
+
 Celebrity Enneagram analyses with rich metadata:
+
 - `person`: Celebrity name
 - `enneagram`: Their type
 - `content`: Analysis content
@@ -118,6 +123,7 @@ Celebrity Enneagram analyses with rich metadata:
 - Social media links (Instagram, Twitter, TikTok, Wikipedia)
 
 #### `question_categories` & `question_tags`
+
 Hierarchical categorization system for questions across topics like relationships, politics, technology, etc.
 
 ---
@@ -152,17 +158,20 @@ Hierarchical categorization system for questions across topics like relationship
 ## 🎨 Brand Voice & Positioning
 
 ### 🎯 Target Audience
+
 **Primary**: Young men seeking social/dating advantage, tactical psychology enthusiasts
 **Secondary**: Anyone interested in personality psychology and authentic discourse
 
 ### 📝 Voice Attributes
+
 - **Tactically Direct**: No fluff, actionable insights
-- **Socially Savvy**: Connect insights to real-world social wins  
+- **Socially Savvy**: Connect insights to real-world social wins
 - **Respectfully Provocative**: Challenge comfort zones without shaming
 - **Pattern-Recognition Focused**: Show emotional logic behind behavior
 - **Results-Driven**: Encouraging but focused on practical outcomes
 
 ### 🗣️ Key Messaging
+
 - **Emotional Foundation Mapping**: "Understand WHY people see things differently"
 - **Give-First Intelligence**: "Comment first, then see everyone else's take"
 - **Personality-Maxing**: "Level up your EQ through tactical self-knowledge"
@@ -196,6 +205,7 @@ src/
 ### 🧩 Key Components
 
 #### Core UI Components
+
 - `Card`: Flexible container component
 - `Modal`: Overlay dialogs
 - `QuestionItem`: Question display component
@@ -203,6 +213,7 @@ src/
 - `QuestionSearch`: Search interface
 
 #### Specialized Components
+
 - `Mermaid`: Diagram rendering
 - `WordCloud`: Tag visualization
 - `Toast`: Notification system
@@ -220,12 +231,12 @@ const enneagramTypes = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
 // Type-specific content routing
 function getTypeSpecificContent(type, category) {
-    // Returns content tailored to specific Enneagram type
+	// Returns content tailored to specific Enneagram type
 }
 
 // Comment filtering by personality type
 function filterCommentsByType(comments, types) {
-    // Filters comments to show only specified types
+	// Filters comments to show only specified types
 }
 ```
 
@@ -271,16 +282,19 @@ CREATE TABLE comment_like (
 **Primary Goal**: Drive organic search traffic to convert readers into platform users
 
 1. **Celebrity Enneagram Analysis** (`/personality-analysis/[slug]`)
+
    - Gateway content for Enneagram discovery
    - High-volume search terms (celebrity names + personality)
    - Convert curiosity into platform engagement
 
 2. **Enneagram Education** (`/enneagram-corner/[slug]`)
-   - Core Enneagram concepts and applications  
+
+   - Core Enneagram concepts and applications
    - Target educational search queries
    - Build authority in personality psychology space
 
 3. **How-To Guides** (`/how-to-guides/[slug]`)
+
    - Practical relationship and personal development advice
    - Long-tail SEO opportunities
    - Convert help-seekers into question-askers
@@ -299,16 +313,19 @@ CREATE TABLE comment_like (
 ### **When Building Features or Creating Content**
 
 1. **SEO-First Approach**: Always optimize for organic search discovery
+
    - Target high-volume, relevant keywords in content creation
    - Structure content with clear H1/H2/H3 hierarchy
    - Include meta descriptions and structured data where applicable
 
 2. **Enneagram Integration**: Consider personality psychology throughout
+
    - Offer type-specific insights when relevant
    - Use Enneagram as framework for understanding diverse perspectives
    - Include personality context in user-facing features
 
 3. **Platform Funnel Strategy**: All content should drive platform engagement
+
    - Include clear CTAs to encourage question-asking
    - Cross-link between content types to increase time on site
    - Convert content consumers into active community participants
@@ -321,32 +338,34 @@ CREATE TABLE comment_like (
 ### **Content Creation Standards**
 
 - **Celebrity Analyses**: Build mental models, target "[Celebrity Name] personality type" searches
-- **Educational Content**: Answer common Enneagram questions, establish topical authority  
+- **Educational Content**: Answer common Enneagram questions, establish topical authority
 - **How-To Guides**: Solve relationship/personal development problems, capture help-seeking searches
 - **Community Posts**: Share platform philosophy, build brand recognition
-
-
 
 ---
 
 ## 🔗 Future Integration Points (Not Currently Prioritized)
 
 ### 📧 Email System (Future)
+
 - Newsletter subscriptions via `signups` table
-- Question notifications for subscribers  
+- Question notifications for subscribers
 - Coaching waitlist management
 
 ### 🎨 Social Media (Future)
+
 - Auto-generated quote cards from celebrity analyses
 - Cross-platform content distribution
 - Influencer collaboration tracking
 
 ### 📍 Location Features (Future)
+
 - `addresses` table for potential local meetups
 - Geographic question filtering
 - Location-based community building
 
 ### 🎓 Coaching Integration (Future)
+
 - `coaching_waitlist` with UTM tracking
 - Session booking system
 - Enneagram-based coaching matching
@@ -356,8 +375,9 @@ CREATE TABLE comment_like (
 ## 🎭 Enneagram Type Reference
 
 ### Quick Type Descriptions
+
 - **Type 1 (Reformer)**: Principled, purposeful, self-controlled, perfectionistic
-- **Type 2 (Helper)**: Generous, demonstrative, people-pleasing, possessive  
+- **Type 2 (Helper)**: Generous, demonstrative, people-pleasing, possessive
 - **Type 3 (Achiever)**: Adaptive, excelling, driven, image-conscious
 - **Type 4 (Individualist)**: Expressive, dramatic, self-absorbed, temperamental
 - **Type 5 (Investigator)**: Perceptive, innovative, secretive, isolated
@@ -367,6 +387,7 @@ CREATE TABLE comment_like (
 - **Type 9 (Peacemaker)**: Receptive, reassuring, complacent, resigned
 
 ### Type-Specific UX Considerations
+
 - **Type 1**: Needs clear structure and quality content
 - **Type 2**: Values community connection and helping others
 - **Type 3**: Wants efficient, goal-oriented interactions

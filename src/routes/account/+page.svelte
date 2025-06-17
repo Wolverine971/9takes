@@ -21,7 +21,6 @@
 				question: string;
 			};
 		}>;
-		
 	}
 
 	export let data: AccountData;

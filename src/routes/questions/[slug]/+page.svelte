@@ -146,7 +146,7 @@
 	{/if}
 </svelte:head>
 
-<div class="mx-auto w-full max-w-7xl px-4">
+<div class="mx-auto w-full max-w-7xl">
 	<aside
 		class="relative mb-6 flex flex-col overflow-x-auto rounded bg-neutral-100 p-3 xl:fixed xl:right-auto xl:z-10 xl:ml-[860px] xl:mt-2 xl:w-[250px] xl:border xl:border-neutral-200"
 	>
@@ -157,7 +157,7 @@
 				</h3>
 			{/if}
 			<div
-				class="flex flex-wrap gap-2 overflow-x-auto pb-2 xl:flex-wrap xl:overflow-visible touch-scroll"
+				class="touch-scroll flex flex-wrap gap-2 overflow-x-auto pb-2 xl:flex-wrap xl:overflow-visible"
 			>
 				{#each data.questionTags as tag}
 					<a
@@ -179,15 +179,14 @@
 				questionId={data.question.id}
 				parentType={'question'}
 				on:commentAdded={addComment}
-				user={data?.session?.user}
+				user={data?.user}
 				{qrCodeUrl}
 				{qrCodeSize}
 			/>
 		</div>
 		{#if data.questionTags && innerWidth <= 1200}
-			
 			<div
-				class="flex flex-wrap gap-2 overflow-x-auto pb-2 xl:flex-wrap xl:overflow-visible touch-scroll"
+				class="touch-scroll flex flex-wrap gap-2 overflow-x-auto pb-2 xl:flex-wrap xl:overflow-visible"
 			>
 				{#each data.questionTags as tag}
 					<a
@@ -203,7 +202,7 @@
 		{#if dataForChild}
 			<QuestionContent
 				data={dataForChild}
-				user={data?.session?.user}
+				user={data?.user}
 				on:commentAdded={() => invalidateAll()}
 			/>
 		{/if}

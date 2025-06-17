@@ -506,7 +506,7 @@
 	</div>
 
 	<!-- Final CTA Section -->
-	{#if !data?.session?.user}
+	{#if !data?.user}
 		<div class="section-observer">
 			{#if sectionsVisible[4] || !browser}
 				<section

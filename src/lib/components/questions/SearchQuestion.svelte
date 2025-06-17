@@ -22,7 +22,7 @@
 	});
 
 	const goToCreateQuestionPage = () => {
-		if (!data?.session?.user?.id) {
+		if (!data?.user?.id) {
 			goto(`/register`, { invalidateAll: true });
 			return;
 		}
@@ -91,11 +91,11 @@
 
 	// Memoized button properties
 	$: buttonText = getButtonText(data);
-	$: buttonDisabled = !data?.canAskQuestion && data?.session?.user?.id;
-	$: placeholder = data?.session?.user?.id ? 'Ask a question here' : 'Search questions...';
+	$: buttonDisabled = !data?.canAskQuestion && data?.user?.id;
+	$: placeholder = data?.user?.id ? 'Ask a question here' : 'Search questions...';
 
 	function getButtonText(data: any): string {
-		if (!data?.session?.user?.id) return 'Sign up to ask';
+		if (!data?.user?.id) return 'Sign up to ask';
 		return data?.canAskQuestion ? 'Ask question' : 'Limit reached';
 	}
 </script>

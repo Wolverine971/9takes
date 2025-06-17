@@ -3,7 +3,7 @@ import { EmailHead } from './EmailHead';
 
 const from = '9takes Team';
 export const welcomeEmail = (name: string) => {
-    return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
     <html>
       ${EmailHead('Welcome to 9takes - Your Enneagram Journey Begins')}
       <body style="background-color: #f6f6f6;">
