@@ -148,7 +148,8 @@
 
 <div class="mx-auto w-full max-w-7xl">
 	<aside
-		class="relative mb-6 flex flex-col overflow-x-auto rounded bg-neutral-100 p-3 xl:fixed xl:right-auto xl:z-10 xl:ml-[860px] xl:mt-2 xl:w-[250px] xl:border xl:border-neutral-200"
+		class="relative mb-6 flex flex-col overflow-x-auto rounded p-3 xl:fixed xl:right-auto xl:z-10 xl:ml-[860px] xl:mt-2 xl:w-[250px] xl:border"
+		style="overflow: visible;"
 	>
 		{#if data.questionTags && innerWidth > 1200}
 			{#if innerWidth > 1200}
