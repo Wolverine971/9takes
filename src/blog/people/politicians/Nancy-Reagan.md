@@ -18,8 +18,6 @@ instagram: ''
 tiktok: ''
 ---
 
-
-
 > "My life really began when I married my husband." — Nancy Reagan
 
 <p class="firstLetter">She gazed at him adoringly. Always.</p>
@@ -115,5 +113,3 @@ Nancy shows how Type 2 psychology can shape history. Her "Just Say No" campaign,
 What other political spouses might share this same Type 2 psychology? And how does understanding personality help us see past surface judgments to recognize the deeper human motivations driving public figures?
 
 > **Disclaimer** This analysis of Nancy Reagan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nancy Reagan.
-
-

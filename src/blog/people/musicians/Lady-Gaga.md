@@ -18,8 +18,6 @@ instagram: 'https://www.instagram.com/ladygaga'
 tiktok: 'https://www.tiktok.com/@ladygaga'
 ---
 
-
-
 > "I remember feeling like I was not accepted in school... I remember feeling isolated and different." — Lady Gaga
 
 <p class="firstLetter">Little monsters, gather 'round, here we dive into the psyche of Mother Monster, Lady Gaga.</p>
@@ -129,8 +127,6 @@ Gaga represents Type 4 potential at its highest: transforming personal pain into
 What other artists might share this same Type 4 psychology of transforming difference into artistic power? And how can we embrace our own uniqueness without falling into the Type 4 trap of believing we're fundamentally flawed?
 
 > **Disclaimer** This analysis of Lady Gaga's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lady Gaga.
-
-
 
 <svelte:head>
 

@@ -18,7 +18,6 @@ instagram: ''
 tiktok: ''
 ---
 
-
 > "I've never been Romeo who comes back to life, but I did bleed when I was cut." — Leonardo DiCaprio
 
 <details>

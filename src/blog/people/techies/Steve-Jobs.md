@@ -18,8 +18,6 @@ instagram: ''
 tiktok: ''
 ---
 
-
-
 > "We're here to put a dent in the universe. Otherwise why else even be here?" — Steve Jobs
 
 <p class="firstLetter">You know his name, you've seen his face, and you've likely used a product he created.</p>

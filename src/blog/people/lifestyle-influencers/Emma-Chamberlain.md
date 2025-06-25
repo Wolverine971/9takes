@@ -17,11 +17,9 @@ instagram: 'https://www.instagram.com/emmachamberlain'
 tiktok: 'https://www.tiktok.com/@emmachambie'
 ---
 
-
-
 > "I put so much pressure on myself… phobia of accidentally hurting others… it haunts me." — Emma Chamberlain, Vogue 2021
 
-<p class="firstLetter">Most people see Emma Chamberlain as the carefree YouTube star who turned morning coffee into a million-dollar empire.</p> 
+<p class="firstLetter">Most people see Emma Chamberlain as the carefree YouTube star who turned morning coffee into a million-dollar empire.</p>
 
 But behind her infectious energy lies a complex psychological landscape that reveals why she's one of the most relatable creators of her generation. Understanding Emma's inner world through personality psychology shows us someone who's built her entire life around managing fear while chasing authentic connection.
 
@@ -137,7 +135,7 @@ Her collaborators consistently note her ability to maintain enthusiasm while bei
 
 Emma's response to public criticism reveals how a fear-driven Type 7 handles conflict differently than typical 7s, who often deflect with humor or distraction.
 
-When facing internet backlash about her personal style choices, Emma's response was characteristically thoughtful: > "Emma Chamberlain Knows the Internet 'F*cking Hates' Her Personal Style Sometimes," as Teen Vogue reported. Rather than defending herself or changing direction, she demonstrated the compartmentalization skills she's developed.
+When facing internet backlash about her personal style choices, Emma's response was characteristically thoughtful: > "Emma Chamberlain Knows the Internet 'F\*cking Hates' Her Personal Style Sometimes," as Teen Vogue reported. Rather than defending herself or changing direction, she demonstrated the compartmentalization skills she's developed.
 
 Her 2025 admission about being "terrified to post… people waiting for me to mess up" shows someone who feels criticism deeply but has learned to process it without abandoning her authentic expression. This isn't typical Type 7 conflict avoidance — it's someone who's learned to face fear directly while maintaining her core values.
 
@@ -155,13 +153,11 @@ Most significantly, her increasing openness about anxiety and perfectionism show
 
 ---
 
-Understanding Emma Chamberlain as an anxiety-driven Type 7 reveals why she resonates with so many people who struggle to balance enthusiasm with emotional safety. She's not just someone who happens to be successful and relatable — she's someone who's done the psychological work to let her natural gifts emerge despite, and because of, her deepest fears. The next time you see her planning elaborate coffee rituals or carefully sharing vulnerable moments, you'll recognize the sophisticated emotional intelligence that makes authentic spontaneity possible. 
+Understanding Emma Chamberlain as an anxiety-driven Type 7 reveals why she resonates with so many people who struggle to balance enthusiasm with emotional safety. She's not just someone who happens to be successful and relatable — she's someone who's done the psychological work to let her natural gifts emerge despite, and because of, her deepest fears. The next time you see her planning elaborate coffee rituals or carefully sharing vulnerable moments, you'll recognize the sophisticated emotional intelligence that makes authentic spontaneity possible.
 
 What other creators do you think might be doing similar psychological work behind their seemingly effortless success?
 
-
 > **Disclaimer** This analysis of Emma Chamberlain's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Emma.
-
 
 <svelte:head>
 

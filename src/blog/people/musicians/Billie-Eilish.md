@@ -18,7 +18,6 @@ instagram: 'https://www.instagram.com/billieeilish'
 tiktok: 'https://www.tiktok.com/@billieeilish'
 ---
 
-
 > "I was going through a rough patch. I didn't know who I was trying to be." — Billie Eilish
 
 <details>
@@ -150,5 +149,3 @@ Billie shows how Type 4s can succeed without compromising their core identity—
 What other artists might share this same Type 4 psychology of authentic emotional expression? And how can we support the Type 4s in our lives to see their sensitivity and individuality as strengths rather than weaknesses?
 
 > **Disclaimer** This analysis of Billie Eilish's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Billie.
-
-

@@ -18,8 +18,6 @@ instagram: ''
 tiktok: ''
 ---
 
-
-
 > "I was a loner growing up. I never had a group of girlfriends. I was very much inside my own head." — Rooney Mara
 
 <p class="firstLetter">You know her face, her captivating performances, and perhaps even her famous family.</p>

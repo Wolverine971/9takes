@@ -150,7 +150,7 @@ export const load = async (
 	peopleContent.forEach((content) => {
 		peopleMap[content.loc] = content;
 	});
-	
+
 	const peoplePosts = (peopleBlogPosts || []).map((post) => {
 		const content = peopleMap[post.loc];
 		return {

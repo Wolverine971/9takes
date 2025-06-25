@@ -18,8 +18,6 @@ instagram:
 tiktok:
 ---
 
-
-
 > "I think the hard part about being a CEO is that there are so many different ways to screw up, and you're guaranteed to screw up in some of them." — Sam Altman
 
 <p class="firstLetter">Sam Altman, a name synonymous with innovation and disruption in the tech world, embodies the essence of Enneagram Type 4 - The Individualist.</p>

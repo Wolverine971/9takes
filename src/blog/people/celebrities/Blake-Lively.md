@@ -18,17 +18,6 @@ instagram: ''
 tiktok: ''
 ---
 
-<!--
-    childhood and upbringing
-    first big success
-    style habits and quirks that relate to their personality type
-    stressful moments in their life and how they handled them
-    comfort- moments in their life where they are doing well and killing it
--->
-<!-- // keywords:  -->
-
-<!-- blake is an Enneagram type 1 -->
-
 > "I'm a perfectionist. Sometimes I have to remind myself that it's okay if there are flaws."
 > — Blake Lively
 

@@ -18,8 +18,6 @@ instagram: 'https://www.instagram.com/sensanders'
 tiktok: 'https://www.tiktok.com/@bernie'
 ---
 
-
-
 > "I've been saying the same thing for 50 years. Sometimes I think people get bored hearing it."
 
 Bernie Sanders has delivered this same message about economic inequality for decades, rarely wavering despite changing political winds. His unwavering consistency isn't just political strategy—it reveals the deeper psychology of someone who embodies the Enneagram Type 9 personality.
@@ -75,5 +73,3 @@ This perspective helps explain both his appeal and his limitations. Type 9s insp
 What other consistent political figures might share this same Type 9 psychology? And how might understanding personality types help us better evaluate the politicians we choose to follow?
 
 > **Disclaimer** This analysis of Bernie Sanders's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bernie Sanders.
-
-

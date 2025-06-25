@@ -18,7 +18,6 @@ instagram:
 tiktok:
 ---
 
-
 > "You've got to be ready to take a punch. And you have to be ready to throw a punch - for the children." — Nancy Pelosi
 
 <p class="firstLetter">Nancy Pelosi, is an influential and pioneering political figure to say the least.</p>

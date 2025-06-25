@@ -1,5 +1,5 @@
 ---
-title: "Paul Graham: Y Combinator & The Type 7 Psychology of His Startup Revolution"
+title: 'Paul Graham: Y Combinator & The Type 7 Psychology of His Startup Revolution'
 description: "Discover how Paul Graham's Enneagram Type 7 personality fuels his innovation and shapes the tech startup landscape."
 author: 'DJ Wayne'
 date: '2024-07-04'
@@ -17,7 +17,6 @@ twitter: 'https://twitter.com/paulg'
 instagram:
 tiktok:
 ---
-
 
 > "I think the way to get startup ideas is not to try to think of startup ideas. It's to look for problems, preferably problems you have yourself." — Paul Graham
 
@@ -106,7 +105,6 @@ Graham shows how Type 7 energy, when channeled constructively, can create entire
 What other tech leaders might share this same Type 7 enthusiasm for multiple domains? And how can we harness this kind of intellectual curiosity without losing focus on execution?
 
 > **Disclaimer** This analysis of Paul Graham's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Paul.
-
 
 <svelte:head>
 
