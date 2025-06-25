@@ -14,9 +14,8 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Jennifer-Garner', link: true },
 		{ name: 'Anne-Hathaway', link: true },
 		{ name: 'Emma-Watson', link: true },
-		{ name: 'Natalie-Portman', link: false },
+		{ name: 'Natalie-Portman', link: true },
 		{ name: 'Blake-Lively', link: true }
-		// { name: 'Matt-Damon', link: false },
 	],
 	2: [
 		{ name: 'Oprah-Winfrey', link: true },
@@ -34,7 +33,8 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Tom-Hiddleston', link: true },
 		{ name: 'Henry-Cavill', link: true },
 		{ name: 'Saoirse-Ronan', link: true },
-		{ name: 'Kristen-Bell', link: true }
+		{ name: 'Kristen-Bell', link: true },
+		{ name: 'Harry-Styles', link: true }
 	],
 	3: [
 		{ name: 'Sydney-Sweeney', link: true },
@@ -59,9 +59,6 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Logan-Paul', link: true },
 		{ name: 'Adin-Ross', link: true },
 		{ name: 'Jenna-Ortega', link: true }
-
-		// { name: 'Jordan-Belfort ', link: false },
-		// { name: 'Matthew-Cox', link: false },
 	],
 	4: [
 		{ name: 'Billie-Eilish', link: true },
@@ -77,16 +74,17 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Lady-Gaga', link: true },
 		{ name: 'Jackie-Kennedy', link: true },
 		{ name: 'Elton-John', link: true },
-		// { name: 'The-Weeknd', link: false },
 		{ name: 'Dixie-Damelio', link: false },
 		{ name: 'Nikola-Tesla', link: true },
 		{ name: 'Robert-Oppenheimer', link: true },
 		{ name: 'Prince', link: true },
 		{ name: 'Joaquin-Phoenix', link: true },
 		{ name: 'Robert-Pattinson', link: true },
-		{ name: 'Zoe-Kravitz', link: true }
-
-		// { name: 'Ian-Cron', link: false }
+		{ name: 'Zoe-Kravitz', link: true },
+		{ name: 'Madison-Beer', link: true },
+		{ name: 'Zayn-Malik', link: true },
+		{ name: 'Anya-Taylor-Joy', link: true },
+		{ name: 'Jerad-Leto', link: true }
 	],
 	5: [
 		{ name: 'Bill-Gates', link: true },
@@ -147,7 +145,8 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Doechii', link: true },
 		{ name: 'Kai-Cenat', link: true },
 		{ name: 'Robert-Downey-Jr', link: true },
-		{ name: 'Jennifer-Lawrence', link: true }
+		{ name: 'Jennifer-Lawrence', link: true },
+		{ name: 'Emma-Chamberlain', link: true }
 	],
 	8: [
 		{ name: 'Joe-Rogan', link: true },
@@ -167,7 +166,8 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Rihanna', link: true },
 		{ name: 'IShowSpeed', link: true },
 		{ name: 'Druski', link: true },
-		{ name: 'Chappell-Roan', link: true }
+		{ name: 'Chappell-Roan', link: true },
+		{ name: 'Tom-Hardy', link: true }
 	],
 	9: [
 		{ name: 'Selena-Gomez', link: true },
@@ -186,7 +186,8 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Ryan-Gosling', link: true },
 		{ name: 'Mikey-Madison', link: true },
 		{ name: 'Brad-Pitt', link: true },
-		{ name: 'Scarlett-Johansson', link: true }
-		// { name: 'Dave-Chappelle', link: false }
+		{ name: 'Scarlett-Johansson', link: true },
+		{ name: 'Dave-Chappelle', link: true },
+		{ name: 'Travis-Scott', link: true }
 	]
 };
