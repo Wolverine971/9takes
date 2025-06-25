@@ -7,7 +7,7 @@ loc: 'https://9takes.com/personality-analysis/Abraham-Lincoln'
 lastmod: '2025-03-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['politician']
 person: 'Abraham-Lincoln'

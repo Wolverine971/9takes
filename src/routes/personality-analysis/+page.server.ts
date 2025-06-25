@@ -1,9 +1,9 @@
 // routes/personality-analysis/+page.server.ts
 import { supabase } from '$lib/supabase';
+
 import type { Actions } from './$types';
 
 import type { PageServerLoad } from './$types';
-import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 
 export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogPost[] }> => {

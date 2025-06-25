@@ -130,7 +130,15 @@ export const load = async (
 		};
 	});
 
-	const peopleBlogPosts = await getAllPeoplePosts();
+	// Updated people blogs section - now using Supabase instead of file imports
+	const { data: peopleBlogPosts, error: peopleBlogPostsError } = await supabase
+		.from('blogs_famous_people')
+		.select('*');
+
+	if (peopleBlogPostsError) {
+		console.log(peopleBlogPostsError);
+	}
+
 	const peopleMap = {};
 	const { data: peopleContent, error: peopleContentError } = await supabase
 		.from(`content_people`)
@@ -142,10 +150,12 @@ export const load = async (
 	peopleContent.forEach((content) => {
 		peopleMap[content.loc] = content;
 	});
-	const peoplePosts = peopleBlogPosts.map((post) => {
+	
+	const peoplePosts = (peopleBlogPosts || []).map((post) => {
 		const content = peopleMap[post.loc];
 		return {
 			...post,
+			slug: post.person, // Add slug field like in personality-analysis
 			stageName: content?.stageName
 		};
 	});
@@ -156,63 +166,6 @@ export const load = async (
 		community: communityPosts,
 		guides: guidesPosts
 	};
-};
-
-const getAllPeoplePosts = async (): Promise<App.BlogPost[]> => {
-	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
-	const comedians = import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`);
-	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
-	const lifestyleInfluencers = import.meta.glob(
-		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
-	);
-	const movieStars = import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`);
-	const newMovieStars = import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`);
-	const historical = import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`);
-	const musicians = import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`);
-	const politicians = import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`);
-	const techies = import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`);
-	const tiktokers = import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`);
-
-	const imports = [
-		celebrities,
-		comedians,
-		creators,
-		lifestyleInfluencers,
-		movieStars,
-		newMovieStars,
-		historical,
-		musicians,
-		politicians,
-		techies,
-		tiktokers
-	];
-
-	const body = [];
-
-	for (const category in imports) {
-		for (const path in imports[category]) {
-			body.push(
-				imports[category][path]().then(({ metadata }) => {
-					const parts = path.split('/');
-					const slug = slugFromPath(parts[parts.length - 1]);
-					if (metadata) {
-						return {
-							...metadata, // may not be required for sitemap
-							path,
-							slug
-						};
-					}
-				})
-			);
-		}
-	}
-	const posts = await Promise.all(body);
-
-	return posts.filter((p) => {
-		if (p?.loc) {
-			return true;
-		}
-	});
 };
 
 export const actions: Actions = {
