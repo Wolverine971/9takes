@@ -488,7 +488,7 @@ This comprehensive guide represents the current landscape of Enneagram resources
 
 </script>
 
-svelte:head
+<svelte:head>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
