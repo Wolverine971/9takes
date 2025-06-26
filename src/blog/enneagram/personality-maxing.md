@@ -4,7 +4,7 @@ description: 'Learn how to proactively strengthen your mental health using the E
 author: 'DJ Wayne'
 date: '2025-05-22'
 loc: 'https://9takes.com/enneagram-corner/personality-maxing'
-lastmod: '2025-05-22'
+lastmod: '2025-05-26'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
@@ -26,8 +26,6 @@ https://chatgpt.com/c/682f690e-006c-8011-9fac-9d5191eaaf65
 https://claude.ai/chat/40b2847c-86db-45e6-b4eb-3edd4996802d -->
 
 <article class="prose prose-lg max-w-4xl mx-auto px-6 py-8">
-
-<h1 class="text-4xl font-bold text-neutral-900 mb-8">Personality Maxing: Using the Enneagram to Max Out Your Personality</h1>
 
 <div class="bg-primary-100 border-l-4 border-primary-600 p-6 rounded-lg mb-8">
 Look, this is going to sound clickbaity and unrealistic - thinking that you can max out your personality. But we're going to try anyway.

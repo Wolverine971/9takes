@@ -33,7 +33,7 @@ pic: 'giving-a-speech'
     />
 </div>
 
-<p class="firstLetter">I remember the moment everything shifted.</p> 
+<p class="firstLetter">I remember the moment everything shifted.</p>
 
 My brother was over at my apartment, and I could barely containing my excitement about this "life-changing personality system" I'd discovered. In my enthusiasm, I started explaining how he was clearly a [Type 9](/enneagram-corner/enneagram-type-9)—how he pacified himself when things got difficult, how he went numb to avoid conflict, how his stubbornness was really just a way of resisting change.
 
@@ -54,6 +54,7 @@ Psychologists call what I did with Sarah "unsolicited psychoanalysis"—which of
 Think about it: our personality feels deeply personal, maybe even sacred. Having someone categorize it can feel invasive, especially when they haven't asked for that level of intimacy.
 
 **What this sounds like:**
+
 - ❌ "You're totally a Type 2—you're always helping everyone else!"
 - ✅ "Learning about my type helped me understand why I always feel responsible for everyone's emotions."
 
@@ -70,6 +71,7 @@ There's something intoxicating about understanding a system that explains so muc
 I've watched friends' eyes glaze over as I explained wings, arrows, and instinctual variants—not because the material wasn't fascinating, but because they felt like they were being lectured to rather than invited into a conversation.
 
 **What this sounds like:**
+
 - ❌ "Let me explain the nine types and how they connect."
 - ✅ "I discovered something about myself that was pretty eye-opening. Want to hear about it?"
 
@@ -86,6 +88,7 @@ The Enneagram's depth is both its strength and its challenge. You've likely spen
 Expecting someone to grasp even a fraction of this in one conversation is like trying to explain the ocean to someone who's never seen water.
 
 **What this sounds like:**
+
 - ❌ "So there are nine types, but also wings, and each type has different levels of health, plus instinctual variants..."
 - ✅ "I learned something that explained why I always [specific personal insight]. Have you ever noticed a pattern like that in yourself?"
 
@@ -102,6 +105,7 @@ Here's what I wish I'd understood earlier: your journey to the Enneagram was lik
 When we push someone toward self-discovery, we're actually working against the very process that makes it meaningful. Real insight can't be imposed—it has to be chosen.
 
 **What this sounds like:**
+
 - ❌ "You really should take this test—it'll change your life!"
 - ✅ "If you're ever curious about personality stuff, I found this resource really helpful."
 
@@ -118,6 +122,7 @@ Every explanation of the Enneagram is inevitably colored by our own experiences 
 This isn't a flaw—it's human. But acknowledging it can help us present the system more honestly and invite others to find their own perspective.
 
 **What this sounds like:**
+
 - ❌ "The most important thing about the Enneagram is [your type's core focus]."
 - ✅ "What struck me most was [personal insight], though I imagine it might resonate differently for different people."
 
@@ -130,6 +135,7 @@ Your view is one among many—celebrate that diversity.
 The difference between a beacon and a spotlight is intention. A spotlight seeks out and illuminates what the operator wants to see. A beacon simply glows, allowing others to find their way if they choose to look.
 
 When we share the Enneagram as a beacon, we:
+
 - Share our own discoveries without analyzing others
 - Invite curiosity without demanding attention
 - Offer resources without pushing agendas
@@ -147,18 +153,23 @@ Before your next conversation about the Enneagram, consider:
 ## What to Say Instead: A Quick Reference
 
 **Instead of analyzing them:**
+
 - "I learned something surprising about why I [specific behavior]"
 
 **Instead of teaching the system:**
+
 - "Want to hear about something I discovered about myself?"
 
 **Instead of overwhelming with details:**
+
 - "I found this one insight that really clicked for me"
 
 **Instead of pushing exploration:**
+
 - "If you're ever curious about this stuff, I know some good resources"
 
 **Instead of assuming universal application:**
+
 - "This is what resonated with me, though I imagine everyone's experience is different"
 
 ## Your Gentle Invitation

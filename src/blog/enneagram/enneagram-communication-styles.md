@@ -4,7 +4,7 @@ description: 'Explore the different communication styles of Enneagram types 1-9.
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/enneagram-corner/enneagram-communication-styles'
-lastmod: '2025-03-27'
+lastmod: '2025-05-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -15,15 +15,10 @@ pic: 'two-female-greek-statues-having-a-conversation'
 ---
 
 <script>
-  
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-# The 9 Unique Communication Languages: Understanding and Speaking to Each Enneagram Type
-
-_Decode the hidden patterns beneath conversations and transform your relationships_
-
-Have you ever felt like you and someone else were speaking completely different languages despite using the same words?
+<p class="firstLetter">Have you ever felt like you and someone else were speaking completely different languages despite using the same words?</p>
 
 That's because we are.
 
@@ -500,7 +495,7 @@ Which communication language do you speak naturally? Which ones feel like a fore
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2025-03-27"
+        "@value": "2025-05-26"
       },
       "datePublished": {
         "@type": "Date",

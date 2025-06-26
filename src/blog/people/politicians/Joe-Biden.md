@@ -33,10 +33,9 @@ what did he say when his son died
 - He is the first president to have a female vice president, Kamala Harris, as his running mate.
 - Biden has a strong connection to his Irish heritage. He has often spoken about the influence of his Irish Catholic upbringing and has quoted Irish poets in his speeches. -->
 
-
 > "I've been knocked down a lot. And I've learned you can't stay down. You've got to get up."
 
-<p class="firstLetter">Behind the aviator sunglasses and reassuring smile lies a man whose life has been defined by profound loss and an unwavering desire to help others heal.</p> 
+<p class="firstLetter">Behind the aviator sunglasses and reassuring smile lies a man whose life has been defined by profound loss and an unwavering desire to help others heal.</p>
 
 Joe Biden, the 46th President of the United States, embodies the quintessential traits of an Enneagram Type 2 – "The Helper" – whose nearly half-century in public service reveals a person driven by an almost visceral need to connect, comfort, and create meaningful change in people's lives.
 

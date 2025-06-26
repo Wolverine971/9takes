@@ -4,7 +4,7 @@ description: 'Unlock the power of Enneagram types in teamwork. Learn how each ty
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-working-in-teams'
-lastmod: '2024-05-04'
+lastmod: '2025-05-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -15,6 +15,7 @@ pic: 'greek-statues-building-a-boat'
 ---
 
 <script>
+	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <!-- here -->
@@ -199,6 +200,10 @@ When giving feedback to an Investigator, it is essential to recognize their expe
 
 </section>
 
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
+
 <section class="section-content">
 
 ### Enneagram Type 6 - The Loyal Skeptic: Ensuring Security in Teams
@@ -362,7 +367,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
    "dateModified":{
       "@type":"Date",
-      "@value":"2024-05-04"
+      "@value":"2025-05-26"
    },
    "datePublished":{
       "@type":"Date",

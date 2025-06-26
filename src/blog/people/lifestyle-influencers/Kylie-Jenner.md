@@ -18,7 +18,6 @@ instagram: 'https://www.instagram.com/kyliejenner'
 tiktok: 'https://www.tiktok.com/@kyliejenner'
 ---
 
-
 > "I just want to be myself and do what makes me happy."
 
 <p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon. Behind the filters and fame lies something deeper – the psychology of a Peacekeeper.</p>

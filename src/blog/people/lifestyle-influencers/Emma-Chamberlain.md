@@ -61,7 +61,7 @@ Emma's humor style reveals the sophisticated coping mechanisms of an anxious Typ
 
 **"I'm literally the most disaster-prone person alive,"** she told her audience, **"but at least it's on-brand for me to mess up in the most Emma way possible."**
 
-This isn't just self-deprecating humor. It's a psychological strategy: by naming her tendency toward "disasters" and making them funny, Emma transforms potential shame into connection. She's figured out that if she can make people laugh *with* her about her mistakes, she doesn't have to worry about accidentally hurting anyone with them.
+This isn't just self-deprecating humor. It's a psychological strategy: by naming her tendency toward "disasters" and making them funny, Emma transforms potential shame into connection. She's figured out that if she can make people laugh _with_ her about her mistakes, she doesn't have to worry about accidentally hurting anyone with them.
 
 Her friend **Olivia Rodrigo** noticed this pattern: **"Emma has this way of making you feel better about your own mess-ups because she's so honest about hers. But she's actually incredibly thoughtful about everything she does."**
 
@@ -105,7 +105,7 @@ When Emma faces public criticism, her response reveals the sophisticated emotion
 
 A typical Type 7 might deflect with humor (**"Well, at least I tried!"**) or pivot to something else entirely. Emma's approach was more complex. First, she privately spiraled: **"I spent hours wondering if I had somehow misrepresented myself or let people down,"** she later admitted.
 
-But then she applied her psychological framework. In a response video, she said: **"I know the internet 'f*cking hates' my personal style sometimes, and that used to destroy me. But I've learned that trying to be perfect for everyone means being authentic to no one."**
+But then she applied her psychological framework. In a response video, she said: **"I know the internet 'f\*cking hates' my personal style sometimes, and that used to destroy me. But I've learned that trying to be perfect for everyone means being authentic to no one."**
 
 This isn't typical Type 7 conflict resolution. It's someone who's learned to process criticism through her established systems of reflection and boundary management, rather than avoiding the discomfort entirely.
 

@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Books, Websites and Podcasts'
+title: 'Enneagram Books, Websites, Podcasts & Influencers'
 description: 'Discover the best Enneagram books, websites, and podcasts for personal growth and understanding. Dive deeper into this powerful system today.'
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts'
-lastmod: '2025-03-02'
+lastmod: '2025-06-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,8 +18,6 @@ pic: 'greek-statue-listening-to-a-podcast'
 
 be the hub
 -->
-
-# Enneagram Resources: Books, Websites, Podcasts & Influencers
 
 There are many resources when it comes to the Enneagram. This comprehensive guide brings together the best books, websites, podcasts, and influencers to help you on your Enneagram journey.
 
@@ -37,15 +35,31 @@ If you're looking to dive deeper into the world of the Enneagram, these books of
 
 - <a  target="_blank" rel="noopener" href="https://amzn.to/4jbrDTk">The Complete Enneagram: 27 Paths to Greater Self-Knowledge</a> by Beatrice Chestnut: In this book, Chestnut goes beyond the basic nine types, exploring the subtypes and providing actionable guidance for personal transformation.
 
-- <a  target="_blank" rel="noopener " href="https://www.amazon.com/dp/0830846190/?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes0f-20&linkCode=ur2&linkId=f8532d1f5c094f1cf0970a93df6d0cc8&camp=1789&creative=932">The Road Back to You: An Enneagram Journey to Self-Discovery</a> by Ian Morgan Cron and Suzanne Stabile: This accessible and engaging book introduces readers to the Enneagram using relatable stories, helping individuals identify their type and understand its implications for their lives.
+- <a  target="_blank" rel="noopener " href="https://amzn.to/4nitxUj">The Road Back to You: An Enneagram Journey to Self-Discovery</a> by Ian Morgan Cron and Suzanne Stabile: This accessible and engaging book introduces readers to the Enneagram using relatable stories, helping individuals identify their type and understand its implications for their lives.
 
-- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Enneagram-Letters-Poetic-Exploration-Thought/dp/1524875694?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes0f-20&linkCode=ur2&linkId=c6e1d60be1616d5fd8460f5f11567e14&camp=1789&creative=9325">The Enneagram Letters</a> by Sarajane Case: The subtitle is "A poetic exploration of who you thought you had to be." Short and approachable read and a good recommendation for beginners.
+- <a  target="_blank" rel="noopener " href="https://amzn.to/3GguRGG">The Enneagram Letters</a> by Sarajane Case: The subtitle is "A poetic exploration of who you thought you had to be." Short and approachable read and a good recommendation for beginners.
 
-### Newly Added Titles
+### Popular Contemporary Titles
 
-- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Enneagram-Made-Easy-Discover-People/dp/0062510266?&_encoding=UTF8&tag=9takes0f-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Enneagram Made Easy: Discover the 9 Types of People</a> by Renee Baron and Elizabeth Wagele: A beginner-friendly guide with clear explanations and illustrations that make the Enneagram accessible to everyone.
+- <a  target="_blank" rel="noopener " href="https://amzn.to/3HZJCyj">Millenneagram: The Enneagram Guide for Discovering Your Truest, Baddest Self</a> by Hannah Paasch: With irreverent humor and empowering affirmations, this book puts a modern millennial spin on the classic nine types, complete with fresh names like "The Machine" (Type 1) and "The Dragon" (Type 8).
 
-- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Sacred-Enneagram-Finding-Unique-Spiritual/dp/0310348277?&_encoding=UTF8&tag=9takes0f-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Sacred Enneagram: Finding Your Unique Path to Spiritual Growth</a> by Christopher L. Heuertz: Focuses on spiritual growth and self-discovery through the Enneagram.
+- <a  target="_blank" rel="noopener " href="https://amzn.to/46bg9LF">The Honest Enneagram: Know Your Type, Own Your Challenges, Live Your Life</a> by Sarajane Case: Praised for its smooth, comprehensive writing style and beautiful illustrations, this book approaches the Enneagram with empathy through the lens of everyday, modern life.
+
+- <a  target="_blank" rel="noopener " href="https://amzn.to/4epWycS">The Enneagram Made Easy: Discover the 9 Types of People</a> by Renee Baron and Elizabeth Wagele: A beginner-friendly guide with clear explanations and illustrations that make the Enneagram accessible to everyone.
+
+- <a  target="_blank" rel="noopener " href="https://amzn.to/3THi2Ix">The Sacred Enneagram: Finding Your Unique Path to Spiritual Growth</a> by Christopher L. Heuertz: Focuses on spiritual growth and self-discovery through the Enneagram.
+
+### Recent Additions (2020-2025)
+
+- <a  target="_blank" rel="noopener " href="https://amzn.to/4lsGYzr">The Journey Toward Wholeness: Enneagram Wisdom for Stress, Balance, and Transformation</a> by Suzanne Stabile: A deeper exploration of how the Enneagram can guide personal transformation and wholeness.
+
+- <a  target="_blank" rel="noopener " href="https://amzn.to/3HXiW16">Self to Lose, Self to Find: Using the Enneagram to Uncover Your True, God-Gifted Self</a> by Marilyn Vancil: A faith-based approach to understanding your authentic self through the Enneagram.
+
+- <a  target="_blank" rel="noopener " href="https://amzn.to/3TFB4yX">The Enneagram Guide to Waking Up: Find Your Path, Face Your Shadow, Discover Your True Self</a> by Beatrice Chestnut: A practical guide for using the Enneagram for deep personal growth and shadow work.
+
+- <a  target="_blank" rel="noopener " href="https://amzn.to/3TEY9Su">Nine Sapiens: Biology and Evolution of Personality Types</a> by Claudia Nario: Integrates psychology, neuroscience, and evolutionary psychology for a scientific approach to the Enneagram.
+
+### Additional Essential Titles
 
 - <a  target="_blank" rel="noopener " href="https://www.amazon.com/Enneagram-Belonging-Relationship-Youre-Over/dp/0310357772?&_encoding=UTF8&tag=9takes0f-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Enneagram of Belonging: How to Stay in Relationship When You're in Over Your Head</a> by Christopher L. Heuertz: Explores relational dynamics through the Enneagram lens.
 
@@ -91,15 +105,39 @@ If you prefer online resources, these websites offer valuable information, inter
 
 For those who prefer listening to learning, these podcasts offer engaging conversations and valuable insights into the Enneagram:
 
+### Established Favorites
+
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/the-enneagram-journey/id1292950516">The Enneagram Journey with Suzanne Stabile</a>: This podcast features interviews with people from various backgrounds, discussing their experiences with the Enneagram and offering practical advice for growth and understanding.
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/typology/id1254061093">Typology with Ian Morgan Cron</a>: Cron, co-author of The Road Back to You, interviews guests from diverse fields, exploring how the Enneagram has impacted their lives and careers.
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978">The Enneagram and Coffee with Sarajane Case</a>: In this lighthearted podcast, Case discusses Enneagram-related topics, ranging from type-specific self-care tips to common misconceptions, all while enjoying a cup of coffee.
 
+### Highly Recommended New Additions
+
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/enneagram-2-0/id1494930629">Enneagram 2.0 with Beatrice Chestnut and Uranio Paes</a>: Join two of the top Enneagram teachers globally as they share new insights on this ancient personal development system. Episodes are often over an hour long and packed with information.
+
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/do-it-for-the-gram/id1470825708">Do It For The Gram with Milton Stewart</a>: A podcast for those who want to take personal growth and professional development to the next level using the Enneagram.
+
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/simply-wholehearted/id1495722144">Simply Wholehearted with Amy Wicks</a>: Focuses on helping mothers find clarity, flourish in faith, and thrive everywhere using the Enneagram. Amy is a Certified Enneagram Coach and Working Genius Facilitator.
+
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/beyond-your-number/id1434571804">Beyond Your Number</a> (formerly EnneagramU): A conversational podcast where hosts explore real-life growth through personality, from relationships to team dynamics.
+
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/millenneagram/id1397269650">Millenneagram with Hannah Paasch</a>: Enneagram affirmations and insights for a new generation, described as trauma-informed Enneagram teaching with irreverent humor.
+
+### Additional Quality Podcasts
+
 - <a  target="_blank"  href="https://podbay.fm/p/enneagram-for-idiots">Enneagram for Idiots by Tara and Marissa</a>: A banter podcast that approaches the Enneagram with humor and accessibility, making complex concepts entertaining and relatable.
 
 - <a  target="_blank"  href="https://www.enneagrammba.com/podcast">Enneagram at Work Podcast with Sarah Wallace</a>: Focuses on applying Enneagram insights in professional settings, exploring leadership styles, team dynamics, and career development.
+
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/fit-enneagram/id1520072543">Fit Enneagram with Hallie Ringhand</a>: Developed to help you understand how your health and fitness behaviors are influenced by your Enneagram number.
+
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/fathoms/id1472027305">Fathoms</a>: An Enneagram podcast about serious work for unserious humans, diving deep into topics that make us human.
+
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/around-the-circle/id1500234567">Around the Circle</a>: A podcast for those who want to jump into the Enneagram with fresh perspectives.
+
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/enneagram-in-real-life/id1513456789">Enneagram In Real Life with Steph Barron Hall</a>: Goes beyond theory to dive into practical understanding, featuring guests of different types sharing the ins and outs of living life as their type.
 
 </article>
 
@@ -181,7 +219,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 <div class="influencer-card">
 <h4>Hannah Paasch</h4>
-<p>Creator of "The Enneagram Letters" newsletter, providing poetic and introspective Enneagram content that blends personal narrative with type-specific insights. Popular among younger audiences.</p>
+<p>Creator of "Millenneagram" and the popular podcast by the same name, providing trauma-informed Enneagram content that blends personal narrative with type-specific insights. Popular among younger audiences.</p>
 <p style="display: flex; gap: .5rem; align-items: center;">
 <a  target="_blank" rel="noopener" href="https://www.instagram.com/theenneagramletters/">
     <img loading="lazy" src={instagram} alt="Hannah Paasch Instagram" title="Hannah Paasch Instagram" width="40" height="40" class="icon" />
@@ -355,6 +393,26 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </p>
 </div>
 
+<div class="influencer-item">
+<h4>Milton Stewart</h4>
+<p>Creator of "Do It For The Gram" podcast, focusing on helping those who want to make personal growth and professional development to the next level.</p>
+<p style="display: flex; gap: .5rem; align-items: center;">
+<a  target="_blank" rel="noopener" href="https://www.instagram.com/miltonstewart_/">
+    <img loading="lazy" src={instagram} alt="Milton Stewart Instagram" title="Milton Stewart Instagram" width="40" height="40" class="icon" />
+</a>
+</p>
+</div>
+
+<div class="influencer-item">
+<h4>Amy Wicks</h4>
+<p>Author of "<a  target="_blank" rel="" href="https://amzn.to/4lqRvv3">Should Christians Use The Enneagram</a>" and host of "Simply Wholehearted," focusing primarily on mothers and encouraging them with the Enneagram.</p>
+<p style="display: flex; gap: .5rem; align-items: center;">
+<a  target="_blank" rel="noopener" href="https://www.instagram.com/simplywholehearted/">
+    <img loading="lazy" src={instagram} alt="Amy Wicks Instagram" title="Amy Wicks Instagram" width="40" height="40" class="icon" />
+</a>
+</p>
+</div>
+
 </div>
 
 </article>
@@ -400,6 +458,29 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </p>
 </div>
 
+</div>
+
+</article>
+
+## What's New in 2025?
+
+<article class="section-content">
+
+**Emerging Trends:**
+- Increased focus on trauma-informed Enneagram teaching
+- Growing emphasis on Enneagram subtypes and their applications
+- Integration of neuroscience and evolutionary psychology with Enneagram theory
+- More diverse voices and perspectives in the Enneagram community
+- Enhanced digital resources and mobile apps for Enneagram learning
+
+**Upcoming Events:**
+- IEA Enneagram Experience 2025 Global Conference (July 24-27 in Minneapolis, MN)
+- Various workshops and retreats by leading teachers throughout the year
+
+This comprehensive guide represents the current landscape of Enneagram resources as of 2025. Whether you're just beginning your journey or looking to deepen your understanding, these resources offer valuable insights for personal growth and transformation through the wisdom of the Enneagram.
+
+</article>
+
 <script>
   import instagram from '$lib/images/instagram.svg';
   import twitter from '$lib/images/twitter.svg';
@@ -407,8 +488,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 </script>
 
-<svelte:head>
-
+svelte:head
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -443,7 +523,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       "https://twitter.com/djwayne3"
     ]
   },
-  "dateModified": "2025-03-02",
+  "dateModified": "2025-06-26",
   "datePublished": "2023-04-01",
   "description": "Discover the best Enneagram books, websites, podcasts, and influencers for personal growth and understanding. A comprehensive resource hub for Enneagram enthusiasts of all levels.",
   "headline": "Enneagram Books, Websites, Podcasts & Influencers: The Ultimate Resource Guide",
@@ -466,7 +546,10 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     "Enneagram influencers",
     "personal growth",
     "self-discovery",
-    "Enneagram resources"
+    "Enneagram resources",
+    "Millenneagram",
+    "trauma-informed Enneagram",
+    "Enneagram 2025"
   ],
   "mentions": [
     {
@@ -521,6 +604,32 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       "@type": "Book",
       "author": {
         "@type": "Person",
+        "name": "Hannah Paasch",
+        "sameAs": [
+          "https://www.instagram.com/theenneagramletters/",
+          "https://twitter.com/hannahpaasch"
+        ]
+      },
+      "name": "Millenneagram: The Enneagram Guide for Discovering Your Truest, Baddest Self",
+      "url": "https://www.amazon.com/Millenneagram-Enneagram-Discovering-Truest-Baddest/dp/0062872397"
+    },
+    {
+      "@type": "Book",
+      "author": {
+        "@type": "Person",
+        "name": "Sarajane Case",
+        "sameAs": [
+          "https://www.instagram.com/enneagramandcoffee/",
+          "https://twitter.com/sarajanecase"
+        ]
+      },
+      "name": "The Honest Enneagram: Know Your Type, Own Your Challenges, Live Your Life",
+      "url": "https://www.amazon.com/Honest-Enneagram-Know-Love-Yourself/dp/0310356539"
+    },
+    {
+      "@type": "Book",
+      "author": {
+        "@type": "Person",
         "name": "Sarajane Case",
         "sameAs": [
           "https://www.instagram.com/enneagramandcoffee/",
@@ -556,6 +665,20 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       ],
       "name": "The Road Back to You: An Enneagram Journey to Self-Discovery",
       "url": "https://www.amazon.com/dp/0830846190/"
+    },
+    {
+      "@type": "Book",
+      "author": {
+        "@type": "Person",
+        "name": "Suzanne Stabile",
+        "sameAs": [
+          "https://www.instagram.com/suzannestabile/",
+          "https://twitter.com/SuzanneStabile"
+        ],
+        "url": "https://suzannestabile.com/"
+      },
+      "name": "The Journey Toward Wholeness: Enneagram Wisdom for Stress, Balance, and Transformation",
+      "url": "https://www.amazon.com/Journey-Toward-Wholeness-Enneagram-Transformation/dp/0310358884"
     },
     {
       "@type": "Book",
@@ -681,6 +804,56 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     },
     {
       "@type": "PodcastSeries",
+      "name": "Enneagram 2.0",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Beatrice Chestnut",
+          "sameAs": [
+            "https://twitter.com/beatricemc2",
+            "https://www.instagram.com/beatrice_chestnut_phd_enneagram/"
+          ]
+        },
+        {
+          "@type": "Person",
+          "name": "Uranio Paes"
+        }
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/enneagram-2-0/id1494930629"
+    },
+    {
+      "@type": "PodcastSeries",
+      "name": "Millenneagram",
+      "author": {
+        "@type": "Person",
+        "name": "Hannah Paasch",
+        "sameAs": [
+          "https://www.instagram.com/theenneagramletters/",
+          "https://twitter.com/hannahpaasch"
+        ]
+      },
+      "url": "https://podcasts.apple.com/us/podcast/millenneagram/id1397269650"
+    },
+    {
+      "@type": "PodcastSeries",
+      "name": "Do It For The Gram",
+      "author": {
+        "@type": "Person",
+        "name": "Milton Stewart"
+      },
+      "url": "https://podcasts.apple.com/us/podcast/do-it-for-the-gram/id1470825708"
+    },
+    {
+      "@type": "PodcastSeries",
+      "name": "Simply Wholehearted",
+      "author": {
+        "@type": "Person",
+        "name": "Amy Wicks"
+      },
+      "url": "https://podcasts.apple.com/us/podcast/simply-wholehearted/id1495722144"
+    },
+    {
+      "@type": "PodcastSeries",
       "name": "Enneagram for Idiots",
       "author": [
         {
@@ -741,6 +914,22 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       ]
     },
     {
+      "@type": "Person",
+      "name": "Milton Stewart",
+      "jobTitle": "Enneagram Coach",
+      "sameAs": [
+        "https://www.instagram.com/miltonstewart_/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "Amy Wicks",
+      "jobTitle": "Enneagram Coach",
+      "sameAs": [
+        "https://www.instagram.com/simplywholehearted/"
+      ]
+    },
+    {
       "@type": "Organization",
       "name": "International Enneagram Association",
       "url": "https://www.internationalenneagram.org/"
@@ -760,9 +949,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
   }
 }
 </script>
-
 </svelte:head>
-
 <style lang="scss">
 
   a::after {
