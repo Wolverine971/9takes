@@ -29,7 +29,7 @@ keywords:
 
 <p class="firstLetter">Ever wondered what fuels David Sacks's strategic decisions and deep involvement in the tech world? Behind the successful entrepreneur and investor lies a personality driven by a relentless quest for knowledge and understanding.</p>
 
-Let's delve into how David Sacks embodies the Enneagram Type 5 personality—the Investigator—and how this shapes his journey through the realms of technology, investment, and innovation.
+Let's delve into how David Sacks embodies the [Enneagram Type 5](/enneagram-corner/enneagram-type-5) personality—the Investigator—and how this shapes his journey through the realms of technology, investment, and innovation.
 
 <details>
 <summary class="accordion">TL;DR: Why David Sacks is an Enneagram Type 5</summary>
@@ -118,7 +118,7 @@ This methodical problem-solving reflects a Type 5's reliance on intellect over e
 
 ## Brief Mention: The PayPal Mafia Connection
 
-While not the focus, it's worth noting that David's early collaboration with notable figures like Peter Thiel at PayPal provided a foundation for his career. These relationships, however, serve as a backdrop to his independent journey.
+While not the focus, it's worth noting that David's early collaboration with notable figures like [Peter Thiel](/personality-analysis/Peter-Thiel) at PayPal provided a foundation for his career. These relationships, however, serve as a backdrop to his independent journey.
 
 His subsequent ventures demonstrate his ability to carve his own path, applying his analytical mind to new challenges beyond his initial network.
 

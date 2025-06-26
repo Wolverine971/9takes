@@ -69,7 +69,7 @@ Few actors physically transform like Phoenix does. For his Oscar-winning role as
 
 But this physical suffering serves a psychological purpose for Phoenix's Type 4 personality. Director Todd Phillips observed during _Joker_ filming: "He uses his entire being when he acts. It's like watching someone channel something."
 
-_The Enneagram Type 4 often externalizes internal emotional states._ Phoenix takes this tendency to extremes, literally reshaping his body to match his character's inner turmoil.
+The [Enneagram Type 4](/enneagram-corner/enneagram-type-4) often externalizes internal emotional states. Phoenix takes this tendency to extremes, literally reshaping his body to match his character's inner turmoil.
 
 Consider his other transformations:
 
@@ -103,7 +103,7 @@ For a Type 4 who often feels misunderstood, finding genuine connection is rare a
 
 These creative partnerships allow his Type 4 need for depth and authenticity to flourish.
 
-But his most significant relationship is with actress Rooney Mara. They met on the set of _Her_ in 2013, reconnected while filming _Mary Magdalene_, and now share a life and a son named River, after his brother.
+But his most significant relationship is with actress [Rooney Mara](/personality-analysis/Rooney-Mara). They met on the set of _Her_ in 2013, reconnected while filming _Mary Magdalene_, and now share a life and a son named River, after his brother.
 
 "She's the only girl I ever looked up on the internet," Phoenix admitted to _Vanity Fair_, revealing the shy, romantic side of his Type 4 personality.
 
@@ -169,4 +169,4 @@ That's the gift of the Enneagram Type 4 at its best - reminding us that our deep
 
 And nobody embodies that reminder quite like Joaquin Phoenix.
 
-> **Disclaimer** This analysis of Joaquin Phoenix's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Joaquin Phoenix.
+> **Disclaimer** This analysis of Joaquin Phoenix's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Joaquin.

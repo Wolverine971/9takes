@@ -18,34 +18,6 @@ instagram: 'https://www.instagram.com/mrbeast/'
 tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 ---
 
-<!-- redo -->
-<!-- chris from mr beast
-mr beast girlfriend
-mr beast logo
-how tall is mr beast
-how old is mr beast
-featstables
-
- -->
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
-</script>
-
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/types/8s/${'Mr-Beast'}.webp`}
-    showIcon={false}
-    enneagramType="8"
-    displayText="MrBeast"
-    subtext=""
-  />
-</div>
 
 <p class="firstLetter">Look, we've all seen those crazy MrBeast videos pop up in our feeds - you know, the ones where he's giving away houses, spending 50 hours buried alive, or helping 2,000 people walk again. But what drives a 26-year-old from a small town in North Carolina to build the most subscribed YouTube channel in the world with over 365 million subscribers?</p>
 
@@ -142,7 +114,7 @@ These days, MrBeast is diving into all sorts of new ventures - there's the MrBea
 
 His ambition doesn't stop with content creation. He's mentioned [Elon Musk](/personality-analysis/Elon-Musk) as an inspiration, suggesting he has aspirations well beyond YouTube. Given his trajectory so far - from a kid in his bedroom to the biggest creator on the platform - it's entirely possible we're just seeing the beginning of what MrBeast will accomplish.
 
-<BlogPurpose/>
+
 
 ## Will MrBeast Change the Future of Content Creation?
 
@@ -154,103 +126,3 @@ So what's next for Jimmy? Honestly, who knows. But whatever it is, you can bet i
 
 > **Disclaimer** This analysis of MrBeast's Enneagram type is speculative, based on publicly available information, and may not reflect Jimmy's actual personality type.
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article goes a deep dive into the personality traits of MrBeast, proposing him as a representation of Enneagram Type 8. Known for his assertiveness, control, and desire to influence, MrBeast embodies many characteristics of Type 8 personalities. Go into the various facets of MrBeast's life and career that demonstrate his Type 8 traits, including his ambitious charity work, audacious YouTube stunts, and determination in the face of adversity.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-02-25"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-06-21"
-      },
-      "description": "Dive into the psyche of YouTube's generous giant. Discover how MrBeast's Enneagram Type 8 personality fuels his epic videos, philanthropy, and billion-dollar business empire.",
-      "headline": "Inside The Mind of MrBeast: An Enneagram Type 8's Quest for Influence",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/8s/Mr_Beast.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Mr-Beast",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Person",
-        "name": "MrBeast",
-        "sameAs": ["https://en.wikipedia.org/wiki/MrBeast", "https://twitter.com/MrBeast", "https://www.instagram.com/MrBeast/", "https://www.tiktok.com/discover/Mr-Beast"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "MrBeast displays many characteristics of Enneagram Type 8 personalities. This includes his assertiveness, desire for control, and strong will to influence others. His bold leadership, ambitious projects, and drive to protect others through philanthropy all reflect Type 8 traits. These traits stem from his core motivation to protect himself and remain independent, typical of Type 8 individuals."
-          },
-          "name": "Why is MrBeast considered an Enneagram Type 8?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "MrBeast's charitable initiatives, his audacious YouTube content, which often involves asserting control over situations, and his willingness to confront challenges head-on are indicative of his Type 8 personality. His ability to maintain his independence despite his high-profile status reflects the resilience and personal power of Type 8 individuals. His business ventures like Feastables and MrBeast Burger also show the Type 8's empire-building tendencies."
-          },
-          "name": "What are some examples of MrBeast's Type 8 characteristics?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "MrBeast, real name Jimmy Donaldson, is known for his assertive, bold, and ambitious personality. He is driven, energetic, and highly determined, often pushing boundaries with his audacious challenges and generous philanthropic projects. While outwardly confident and commanding, he describes himself as introverted in his personal life. MrBeast is focused and often takes control of situations, displaying a strength of character and a protective demeanor towards those in need."
-          },
-          "name": "What is MrBeast's personality?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Based on an analysis of his personality traits, behaviors, and motivations, MrBeast appears to align with the Enneagram Type 8, also known as the Challenger. This type is characterized by a desire to influence their environment, maintain control, and protect themselves from vulnerability. They are often self-confident, strong, and assertive, all traits seen in MrBeast's public persona and actions. While some sources suggest alternative types like 3w2 or 9w8, the evidence most strongly supports Type 8."
-          },
-          "name": "What is MrBeast's Enneagram type?"
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
-<style lang="scss"></style>

@@ -22,7 +22,7 @@ tiktok: 'https://www.tiktok.com/@bernie'
 
 Bernie Sanders has delivered this same message about economic inequality for decades, rarely wavering despite changing political winds. His unwavering consistency isn't just political strategy—it reveals the deeper psychology of someone who embodies the Enneagram Type 9 personality.
 
-The Vermont senator's approach to politics, his measured responses to criticism, and his persistent advocacy for working-class Americans all point to the inner world of [Enneagram Type 9](/enneagram-corner/enneagram-type-9)—The Peacemaker.
+The Vermont senator's approach to politics, his measured responses to criticism, and his persistent advocacy for working-class Americans all point to the inner world of [Enneagram Type 9—The Peacemaker](/enneagram-corner/enneagram-type-9).
 
 ## What is Bernie Sanders' Personality Type?
 
@@ -72,4 +72,4 @@ This perspective helps explain both his appeal and his limitations. Type 9s insp
 
 What other consistent political figures might share this same Type 9 psychology? And how might understanding personality types help us better evaluate the politicians we choose to follow?
 
-> **Disclaimer** This analysis of Bernie Sanders's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bernie Sanders.
+> **Disclaimer** This analysis of Bernie Sanders's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bernie.

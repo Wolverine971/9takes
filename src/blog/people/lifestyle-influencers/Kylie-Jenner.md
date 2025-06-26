@@ -18,9 +18,10 @@ instagram: 'https://www.instagram.com/kyliejenner'
 tiktok: 'https://www.tiktok.com/@kyliejenner'
 ---
 
-<p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon. Behind the filters and fame lies something deeper – the psychology of a Peacekeeper.</p>
 
 > "I just want to be myself and do what makes me happy."
+
+<p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon. Behind the filters and fame lies something deeper – the psychology of a Peacekeeper.</p>
 
 These words reveal more about Kylie Jenner than any Instagram post ever could. The youngest member of the Kardashian-Jenner clan hasn't just established an empire – she's done it with a personality type that often struggles with asserting itself. **This is what makes her success story so fascinating.**
 
@@ -209,7 +210,7 @@ This is the Type 9's gift: **creating a sense of peace and belonging even in cha
 Her Instagram success demonstrates how Type 9s can leverage their natural abilities to connect and adapt, creating harmony in even the most chaotic modern spaces.
 
 <div style="background-color: #FCF5F5; padding: 20px; border-radius: 5px; margin: 25px 0;">
-<h3 style="color: #333; text-align: center;">Kylie's Social Media by the Numbers</h3>
+<h3 style="color: #333; text-align: center;">Kylie's Social Media by the Numbers as of March 2025</h3>
 <ul style="list-style-type: none; text-align: center;">
 <li><strong>400 million+</strong> - Instagram followers</li>
 <li><strong>5th</strong> - Most followed person on Instagram </li>

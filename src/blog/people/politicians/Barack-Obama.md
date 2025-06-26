@@ -30,7 +30,7 @@ What drives a community organizer from Chicago to the highest office in the land
 
 ### The Harmonizer-in-Chief
 
-At the heart of the Enneagram Type 9 is a profound desire for inner and outer peace. Type 9s are the mediators and conciliators of the Enneagram, driven by an almost visceral need to maintain harmony and avoid conflict. They possess a unique ability to see multiple perspectives simultaneously, making them natural bridge-builders.
+At the heart of the Enneagram Type 9 is a profound desire for inner and outer peace. [Type 9s](/enneagram-corner/enneagram-type-9) are the mediators and conciliators of the Enneagram, driven by an almost visceral need to maintain harmony and avoid conflict. They possess a unique ability to see multiple perspectives simultaneously, making them natural bridge-builders.
 
 For Obama, this manifested as his signature approach to governance – seeking common ground, emphasizing unity over division, and approaching problems with thoughtful deliberation rather than reactive impulse.
 
@@ -176,7 +176,7 @@ This capacity to remain both connected to others and clear about personal priori
 
 ### The Family Anchor: Obama's Source of Stability
 
-Like many Type 9s, Obama anchors himself in close relationships that provide stability amid chaos. His frequently expressed devotion to Michelle and his daughters reveals how these connections ground him and prevent the Type 9's tendency toward self-forgetting.
+Like many Type 9s, Obama anchors himself in close relationships that provide stability amid chaos. His frequently expressed devotion to [Michelle](/personality-analysis/Michelle-Obama) and his daughters reveals how these connections ground him and prevent the Type 9's tendency toward self-forgetting.
 
 Former Obama aide Reggie Love noted:
 

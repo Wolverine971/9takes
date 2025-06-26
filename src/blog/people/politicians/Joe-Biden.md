@@ -33,9 +33,12 @@ what did he say when his son died
 - He is the first president to have a female vice president, Kamala Harris, as his running mate.
 - Biden has a strong connection to his Irish heritage. He has often spoken about the influence of his Irish Catholic upbringing and has quoted Irish poets in his speeches. -->
 
+
 > "I've been knocked down a lot. And I've learned you can't stay down. You've got to get up."
 
-<p class="firstLetter">Behind the aviator sunglasses and reassuring smile lies a man whose life has been defined by profound loss and an unwavering desire to help others heal. Joe Biden, the 46th President of the United States, embodies the quintessential traits of an Enneagram Type 2 – "The Helper" – whose nearly half-century in public service reveals a person driven by an almost visceral need to connect, comfort, and create meaningful change in people's lives.</p>
+<p class="firstLetter">Behind the aviator sunglasses and reassuring smile lies a man whose life has been defined by profound loss and an unwavering desire to help others heal.</p> 
+
+Joe Biden, the 46th President of the United States, embodies the quintessential traits of an Enneagram Type 2 – "The Helper" – whose nearly half-century in public service reveals a person driven by an almost visceral need to connect, comfort, and create meaningful change in people's lives.
 
 What drives a man to persist through unimaginable personal tragedy and still extend his hand to others? How does a Helper personality navigate the brutal realities of modern politics while maintaining authentic empathy? Let's explore the heart and mind of Joe Biden through the illuminating lens of the Enneagram.
 
@@ -43,7 +46,7 @@ What drives a man to persist through unimaginable personal tragedy and still ext
 
 ### The Archetype of the Enneagram Type 2
 
-At the core of Enneagram Type 2 is the fundamental desire to be loved and appreciated for their care and support of others. Type 2s, often called "The Helpers" or "The Givers," possess an extraordinary radar for others' needs and derive profound satisfaction from fulfilling them. They're naturally empathetic, relationship-oriented, and often place others' wellbeing above their own.
+At the core of [Enneagram Type 2](/enneagram-corner/enneagram-type-2) is the fundamental desire to be loved and appreciated for their care and support of others. Type 2s, often called "The Helpers" or "The Givers," possess an extraordinary radar for others' needs and derive profound satisfaction from fulfilling them. They're naturally empathetic, relationship-oriented, and often place others' wellbeing above their own.
 
 For Joe Biden, this Helper orientation isn't merely a political strategy—it's the authentic expression of his personality that has guided his approach to public service since he first arrived in Washington as a young senator in 1973.
 
@@ -253,7 +256,7 @@ This doesn't mean sacrificing policy substance—indeed, Biden's legislative rec
 
 As Biden navigates questions about his age and potential succession, his handling of this transition will represent a final test of healthy Type 2 development—the capacity to let go of helping roles without losing identity, to trust others to carry forward important work.
 
-His mentorship of younger leaders, evident in his selection of Kamala Harris as Vice President and his elevation of diverse voices within his administration, suggests a growing comfort with preparing others to assume leadership—a crucial developmental task for the mature Helper.
+His mentorship of younger leaders, evident in his selection of [Kamala Harris](/personality-analysis/Kamala-Harris) as Vice President and his elevation of diverse voices within his administration, suggests a growing comfort with preparing others to assume leadership—a crucial developmental task for the mature Helper.
 
 ## Conclusion: The Helper President in Historical Context
 

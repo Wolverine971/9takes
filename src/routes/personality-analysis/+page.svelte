@@ -337,14 +337,6 @@
 </div>
 
 <style lang="scss">
-	:global(body) {
-		background: #eee;
-		position: relative;
-		min-height: 100vh;
-		margin: 0;
-		padding: 0;
-	}
-
 	.background-clock {
 		position: fixed;
 		top: 0;
