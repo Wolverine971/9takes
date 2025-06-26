@@ -59,7 +59,6 @@ In a 2015 Fader interview, he explained: _"Not being vulnerable is never gonna b
 
 This vulnerability isn't weakness; **it's strategic authenticity** that resonates with millions who feel similarly torn between ambition and connection.
 
----
 
 ## How Perfectionism Became His Creative Process
 
