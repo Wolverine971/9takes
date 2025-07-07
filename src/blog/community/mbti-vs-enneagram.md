@@ -2,9 +2,9 @@
 title: 'MBTI Failed Us — Can the Enneagram Do Better?'
 description: 'How the Myers-Briggs system boxed people in, and why the Enneagram offers a more transformative, human-centered alternative for careers, relationships, and society.'
 author: 'DJ Wayne'
-date: '2025-06-05'
-loc: 'https://9takes.com/enneagram/mbti-vs-enneagram'
-lastmod: '2025-06-05'
+date: '2025-07-07'
+loc: 'https://9takes.com/enneagram-corner/mbti-vs-enneagram'
+lastmod: '2025-07-07'
 changefreq: 'monthly'
 priority: '0.7'
 published: true

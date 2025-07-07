@@ -21,6 +21,17 @@ export const load: PageServerLoad = async (event) => {
 		.eq('id', session?.user?.id)
 		.single();
 
+	if (!user?.admin) {
+		throw redirect(307, '/questions');
+	}
+
+	if (findUserError) {
+
+		throw error(404, {
+			message: `Error searching for user`
+		});
+	}
+
 	const { data: dailyVisitors, error: dailyVisitorsErrors } = await supabase.rpc(
 		'visitors_last_30_days',
 		{}
@@ -49,19 +60,14 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(307, '/questions');
 	}
 
-	if (!findUserError) {
-		return {
-			user: mapDemoValues(user),
-			demoTime: demo_time,
-			dailyVisitors,
-			dailyComments,
-			dailyQuestions
-		};
-	} else {
-		throw error(404, {
-			message: `Error searching for user`
-		});
-	}
+	return {
+		user: mapDemoValues(user),
+		demoTime: demo_time,
+		dailyVisitors,
+		dailyComments,
+		dailyQuestions
+	};
+
 };
 
 export const actions: Actions = {
