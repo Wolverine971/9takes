@@ -376,7 +376,7 @@
 			<section class="py-12 md:py-16" in:fly={getTransition(2)}>
 				<h2 class="mb-4 text-center text-3xl font-bold md:mb-8 md:text-4xl">Cognitive Drills</h2>
 				<p class="mx-auto mb-12 max-w-2xl text-center text-lg text-gray-600">
-					Perspective gains are earned, not scrolled. Here's your training material.
+					Perspective gains are earned, not scrolled. It takes effort to digest a new perspective.
 				</p>
 
 				<div class="grid grid-cols-1 gap-6 md:grid-cols-2">

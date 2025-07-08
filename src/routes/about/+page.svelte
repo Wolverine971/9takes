@@ -269,7 +269,7 @@
 
 		<div class="rounded-lg bg-black p-6 text-center text-white">
 			<p class="mb-2 text-xl font-bold">"Perspective gains are earned, not scrolled." 💪</p>
-			<p class="text-lg">Ready to start training?</p>
+			<p class="text-lg">It takes effort to digest a new perspective.</p>
 		</div>
 	</section>
 
