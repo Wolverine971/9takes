@@ -157,6 +157,10 @@ Go here to see <a style="font-weight: bold;" href="/enneagram-corner/how-each-en
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "articleBody": "At a party, each Enneagram type will likely do something unique, revealing their motivations and characteristics. In this informative article, we'll explore what each Enneagram type thinks, feels, and does at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.",
+  "keywords": ["enneagram at party", "personality types social behavior", "enneagram social dynamics", "party behavior by type", "social situations enneagram", "enneagram type 1 party", "enneagram type 2 party", "enneagram type 3 party", "enneagram type 4 party", "enneagram type 5 party", "enneagram type 6 party", "enneagram type 7 party", "enneagram type 8 party", "enneagram type 9 party", "social psychology"],
+  "wordCount": 1850,
+  "articleSection": "Enneagram",
+  "url": "https://9takes.com/enneagram-corner/enneagram-types-at-party",
   "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

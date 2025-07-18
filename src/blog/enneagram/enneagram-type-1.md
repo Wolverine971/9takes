@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
+pic: ''
 ---
 
 <script>
@@ -651,7 +652,11 @@ In the end, the Type 1's journey teaches us all something valuable about the hum
           "https://www.instagram.com/9takesdotcom/",
           "https://twitter.com/9takesdotcom"
         ]
-      }
+      },
+      "wordCount": 7200,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-type-1",
+      "articleBody": "An in-depth exploration of Enneagram Type 1, known as 'The Perfectionist' or 'The Reformer.' This comprehensive guide covers the core characteristics, motivations, strengths, and challenges of Type 1 personalities. Discover how their internal critic drives them toward excellence while sometimes undermining their peace. Learn about their deep moral convictions, desire for integrity, and commitment to making the world better. Explore their relationships, workplace dynamics, childhood patterns, and growth strategies. Understand how Type 1s navigate stress, develop self-compassion, and integrate toward health. Features real experiences from Type 1 panel discussions and famous examples of this personality type."
     },
     {
       "@type": "FAQPage",

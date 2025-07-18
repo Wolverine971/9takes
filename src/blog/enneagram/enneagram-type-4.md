@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
+pic: ''
 ---
 
 <script>
@@ -589,7 +590,11 @@ Growth involves self-awareness, gratitude, self-compassion, goal-setting, and ba
           "https://www.instagram.com/9takesdotcom/",
           "https://twitter.com/9takesdotcom"
         ]
-      }
+      },
+      "wordCount": 6900,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-type-4",
+      "articleBody": "An in-depth exploration of Enneagram Type 4, known as 'The Individualist.' This comprehensive guide examines the depth, creativity, and emotional intensity of Type 4 personalities. Learn about their search for authentic identity, their relationship with beauty and meaning, and their unique perspective on life. Discover how Individualists navigate relationships, creative expression, and personal growth. Understand their psychological framework, including their focus on what's missing, emotional amplification, and the challenge of envy. Explore their three distinct subtypes, childhood patterns, stress responses, and integration toward health. Features insights from Type 4 individuals and famous examples of this deeply feeling personality type."
     }
   ]
 }

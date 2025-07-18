@@ -290,18 +290,8 @@ pic: 'brain-vs-heart-dichotomy'
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This article challenges the current trend of self-diagnosing neurodivergent conditions and argues that most people aren't actually neurodivergent but are simply human with normal personality variations. It positions the Enneagram as a superior alternative to neurodiversity labels, emphasizing that the Enneagram addresses deeper motivations, childhood wounds, and emotional patterns that other personality systems avoid. The piece argues that understanding your Enneagram type provides actionable intelligence for personal growth, unlike diagnostic labels that may keep people stuck without offering solutions for change.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -312,14 +302,12 @@ pic: 'brain-vs-heart-dichotomy'
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-05-22"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2025-05-22"
-      },
+      "dateModified": "2025-05-26",
+      "datePublished": "2025-05-22",
+      "keywords": ["neurodiversity", "Enneagram", "personality types", "ADHD", "autism", "self-awareness", "mental health", "psychology", "personality development", "emotional intelligence"],
+      "wordCount": 2800,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/neurodiversity-vs-personality",
       "description": "Why the neurodiversity trend is getting out of hand and how the Enneagram offers deeper self-understanding than diagnostic labels.",
       "headline": "Stop Hunting for Neurodivergent Labels: The Enneagram Reveals What You Really Need to Know",
       "image": {

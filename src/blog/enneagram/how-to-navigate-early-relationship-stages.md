@@ -80,7 +80,7 @@ pic: 'young-couple-on-a-date'
       },
       "url": "https://9takes.com/enneagram-corner/how-to-navigate-early-relationship-stages",
       "articleBody": "This comprehensive guide explores how each Enneagram type navigates the thrilling yet turbulent waters of early relationships. Whether you're a perfectionist Type 1 learning to embrace flaws, or a passionate Type 4 seeking depth in everyday moments, understanding your type can be a game-changer in your dating life. The guide covers all nine types with personalized strategies: Type 1 (Perfectionist) - embrace imperfect connections, Type 2 (Helper) - balance giving and receiving, Type 3 (Achiever) - show authenticity beyond image, Type 4 (Individualist) - find depth in ordinary moments, Type 5 (Investigator) - share your inner world gradually, Type 6 (Loyalist) - build trust through consistency, Type 7 (Enthusiast) - practice presence and depth, Type 8 (Challenger) - show vulnerability safely, Type 9 (Peacemaker) - express your true preferences. Each type section includes quick tips, texting advice, date ideas, and vulnerability strategies for building authentic connections in early relationships.",
-      "wordCount": 4200,
+      "wordCount": 3845,
       "keywords": [
         "enneagram",
         "dating",

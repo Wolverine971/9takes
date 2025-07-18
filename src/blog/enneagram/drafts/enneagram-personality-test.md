@@ -11,7 +11,10 @@ published: false
 type: ['resources']
 blog: true
 previewHtml: ''
+pic: ''
 ---
+
+<!-- Midjourney Prompt: ancient greek statue sitting at a desk taking a personality test, pen in hand, looking thoughtfully at a questionnaire with multiple choice questions, several completed test booklets stacked nearby, expression of deep concentration and self-reflection, library setting with warm lighting, marble white with gold accents, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
 
 <!-- Hook graphic + CTA components -->
 <script>

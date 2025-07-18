@@ -11,7 +11,10 @@ published: false
 type: ['overview']
 blog: true
 previewHtml: ''
+pic: ''
 ---
+
+<!-- Midjourney Prompt: ancient greek statue sitting in a library surrounded by psychology textbooks, reading from an open book about the history of psychology, taking notes on a notepad, bookshelf filled with psychology classics in the background, scholarly and studious atmosphere, marble white with gold accents, warm library lighting, Unreal Engine, Cinematic, Shot on 70mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
 
 <!-- todo -->
 <!-- notes: what psychology career is right for me, what psychology means, psychology jobs are there, how psychology works, are psychology degrees useless, when psychology started, where psychology came from, psychology is defined as, psychology is a science, psychology without degree, international affairs, psychology to psychaitry, psychology near me, psychology for dummies, psychology and sociology, psychology and art, psychology vrs therapy, psychology today, psychology today therapists, psychology books, tools -->

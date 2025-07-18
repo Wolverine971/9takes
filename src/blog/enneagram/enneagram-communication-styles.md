@@ -513,6 +513,28 @@ Which communication language do you speak naturally? Which ones feel like a fore
         "@id": "https://9takes.com/enneagram-corner/enneagram-communication-styles",
         "@type": "WebPage"
       },
+      "keywords": [
+        "Enneagram communication",
+        "communication styles",
+        "Enneagram types",
+        "personality communication",
+        "interpersonal skills",
+        "relationship communication",
+        "Enneagram relationships",
+        "communication patterns",
+        "Type 1 communication",
+        "Type 2 communication",
+        "Type 3 communication",
+        "Type 4 communication",
+        "Type 5 communication",
+        "Type 6 communication",
+        "Type 7 communication",
+        "Type 8 communication",
+        "Type 9 communication"
+      ],
+      "wordCount": 4310,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-communication-styles",
       "mentions": {
               "@type": "Thing",
               "name": "Enneagram of Personality",

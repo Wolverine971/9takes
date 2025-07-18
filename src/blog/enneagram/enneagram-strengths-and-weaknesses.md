@@ -10,7 +10,9 @@ priority: '0.6'
 published: true
 type: ['development']
 blog: true
+pic: ''
 previewHtml: ''
+wordCount: 2484
 ---
 
 <!--

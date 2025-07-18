@@ -391,18 +391,8 @@ Book Coaching Session →
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This comprehensive guide introduces 'personality maxing' - a proactive approach to strengthening mental health using the Enneagram. The article identifies the critical mistake of only addressing mental health reactively, explains why our culture promotes emotional suppression (the stoicism trap), and provides a solution through personality maxing. It includes a complete Enneagram crash course with 5 practical sections covering the three core emotions (anger, fear, shame), their corresponding intelligences, the 9 personality types, and actionable steps for identifying your type and developing emotional intelligence. Unlike reactive approaches, personality maxing treats psychological development like physical fitness - building strength before you need it.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -413,14 +403,12 @@ Book Coaching Session →
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-05-26"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2025-05-22"
-      },
+      "dateModified": "2025-05-26",
+      "datePublished": "2025-05-22",
+      "keywords": ["personality maxing", "Enneagram", "self-improvement", "mental health", "emotional intelligence", "personal development", "psychology", "personality types", "self-awareness", "growth mindset"],
+      "wordCount": 4200,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/personality-maxing",
       "description": "Learn how to proactively strengthen your mental health using the Enneagram. Discover your core emotion, maximize your intelligence type, and build personality gains like hitting the gym.",
       "headline": "Personality Maxing: Using the Enneagram to Max Out Your Personality",
       "image": {

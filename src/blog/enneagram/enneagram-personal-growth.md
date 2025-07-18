@@ -12,7 +12,10 @@ published: true
 type: ['development']
 blog: true
 previewHtml: ''
+pic: ''
 ---
+
+<!-- Midjourney Prompt: ancient greek statue climbing a mountain path, looking back at how far they've come, then looking forward toward the summit, carrying a backpack and walking stick, determined expression, sunrise lighting casting long shadows, marble white with gold accents, Unreal Engine, Cinematic, Shot on 70mm lens, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
 
 <!-- 3 step plan for personal growth
 fix this
@@ -188,12 +191,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "wordCount": 1800,
       "articleSection": "Enneagram",
       "url": "https://9takes.com/enneagram-corner/enneagram-personal-growth",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-arguing.webp",
-        "width": 900
-      },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/enneagram-corner/enneagram-personal-growth",
         "@type": "WebPage"

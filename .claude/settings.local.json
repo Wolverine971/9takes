@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(rm:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(for file in enneagram-faqs.md enneagram-personal-growth.md enneagram-strengths-and-weaknesses.md enneagram-team-dynamics.md)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(grep:*)",
+      "Bash(done)"
+    ],
+    "deny": []
+  }
+}

@@ -80,7 +80,7 @@ pic: 'greek-statue-taking-notes'
       },
       "url": "https://9takes.com/enneagram-corner/first-impression-cheat-sheet",
       "articleBody": "A printable, bookmarkable quick-reference card deck for making meaningful connections with each Enneagram type. Essential approaches, power questions, and key tips for authentic first impressions. Meeting someone new? This cheat sheet gives you the essential approaches for making an authentic connection with each Enneagram type. Review it right before your meeting to make a great first impression that resonates with their specific worldview. The guide covers all nine types: Type 1 The Perfectionist - be prepared, orderly, on time; Type 2 The Helper - be warm and genuinely interested; Type 3 The Achiever - be efficient and on-point; Type 4 The Individualist - be authentic, not generic; Type 5 The Investigator - respect their space and boundaries; Type 6 The Loyalist - be transparent and consistent; Type 7 The Enthusiast - match their energy and enthusiasm; Type 8 The Challenger - be direct and confident; Type 9 The Peacemaker - create a calm, pressure-free environment. Each type includes specific conversation starters and approaches to avoid.",
-      "wordCount": 1200,
+      "wordCount": 1626,
       "keywords": [
         "enneagram",
         "first impressions",

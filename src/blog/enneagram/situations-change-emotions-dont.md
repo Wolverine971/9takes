@@ -128,18 +128,8 @@ The Eightfold Fence is presented as a tool for maintaining sanity and composure 
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This article explores the stress paradox, explaining why our emotional responses remain consistent even as situations change. It delves into how personality shapes our stress reactions, discusses the core emotions of anger, fear, and shame, and introduces the Enneagram as a tool for understanding stress responses. The article provides practical steps for breaking free from emotional patterns and mastering stress management.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -150,14 +140,12 @@ The Eightfold Fence is presented as a tool for maintaining sanity and composure 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-01-22"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-09-14"
-      },
+      "dateModified": "2025-01-22",
+      "datePublished": "2024-09-14",
+      "keywords": ["stress management", "emotional patterns", "Enneagram", "personality types", "stress response", "emotional intelligence", "self-awareness", "coping strategies", "mental health", "psychology"],
+      "wordCount": 2200,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/situations-change-emotions-dont",
       "description": "Discover why your emotional responses to stress remain consistent despite changing situations. Learn to decode your stress reactions, understand your emotional patterns, and develop effective coping strategies for a more resilient life.",
       "headline": "The Stress Paradox: Learn Why Situations Change, But Emotional Patterns Don't",
       "image": {

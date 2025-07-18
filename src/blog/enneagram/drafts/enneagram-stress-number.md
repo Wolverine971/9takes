@@ -589,7 +589,11 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     "url": "https://9takes.com/blogs/feeling-tension.webp",
     "width": 900
   },
-  "keywords": "Enneagram, Stress Number, Personality Types, Relationships, Coping Mechanisms, shadow side, path of disintegration, lashing out",
+  "keywords": ["Enneagram", "Stress Number", "Personality Types", "Relationships", "Coping Mechanisms", "shadow side", "path of disintegration", "lashing out", "stress management", "emotional triggers", "unhealthy patterns", "Type 1 stress", "Type 2 stress", "Type 3 stress", "Type 4 stress", "Type 5 stress", "Type 6 stress", "Type 7 stress", "Type 8 stress", "Type 9 stress", "anger fear shame", "stress response", "psychological stress", "personality under stress"],
+  "wordCount": 4200,
+  "articleSection": "Enneagram",
+  "url": "https://9takes.com/enneagram-corner/enneagram-stress-number",
+  "articleBody": "Everyone gets stressed, but how people act when stressed differs dramatically. The Enneagram explains this through stress numbers - how each personality type takes on negative traits of another type when under pressure. This comprehensive guide explores the stress patterns of all nine Enneagram types, revealing how Type 1s become moody like Type 4s, Type 2s become aggressive like Type 8s, and so on. Understanding your stress number helps you recognize warning signs, manage triggers, and develop healthier coping mechanisms. Learn the specific thoughts, feelings, and behaviors each type exhibits when stressed, plus practical tips for stress management and prevention.",
   "mainEntityOfPage": {
     "@id": "https://9takes.com/enneagram-corner/enneagram-stress-number",
     "@type": "WebPage"

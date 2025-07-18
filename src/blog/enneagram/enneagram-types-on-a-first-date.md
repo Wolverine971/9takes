@@ -697,6 +697,11 @@ If you found this helpful, explore our deeper guides on [navigating early relati
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
+  "articleBody": "First dates trigger a universal cocktail of excitement and anxiety. But did you know your Enneagram type significantly influences how you approach this dating milestone? This guide reveals what's actually happening beneath the surface for each type when they're sitting across from you at that trendy coffee shop or intimate restaurant. Understanding these patterns can transform your dating life. Whether you're trying to impress a perfectionist Type 1 or connect with a creative Type 4, knowing what makes each type tick can help you navigate those crucial first impressions with confidence.",
+  "keywords": ["enneagram dating", "personality types first date", "dating psychology", "enneagram relationships", "first date tips", "dating compatibility", "enneagram type 1 dating", "enneagram type 2 dating", "enneagram type 3 dating", "enneagram type 4 dating", "enneagram type 5 dating", "enneagram type 6 dating", "enneagram type 7 dating", "enneagram type 8 dating", "enneagram type 9 dating", "relationship advice"],
+  "wordCount": 4500,
+  "articleSection": "Enneagram",
+  "url": "https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date"

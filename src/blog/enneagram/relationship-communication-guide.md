@@ -365,7 +365,7 @@ If you found these insights helpful, sign up and join 9takes below ⬇️. Of co
       "@context": "http://schema.org",
       "@graph": [
         {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://9takes.com/enneagram-corner/relationship-communication-guide"
@@ -379,12 +379,6 @@ If you found these insights helpful, sign up and join 9takes below ⬇️. Of co
         "width": 900
       },
       "keywords": ["Enneagram communication", "relationship communication", "personality types", "conflict resolution", "Enneagram relationships", "effective communication", "personality compatibility", "communication styles", "relationship psychology", "couples communication"],
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -410,7 +404,10 @@ If you found these insights helpful, sign up and join 9takes below ⬇️. Of co
         "name": "9takes"
       },
       "datePublished": "2024-09-28",
-      "dateModified": "2024-09-28"
+      "dateModified": "2025-02-26",
+      "wordCount": 3800,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/relationship-communication-guide"
     },
     {
       "@type": "FAQPage",

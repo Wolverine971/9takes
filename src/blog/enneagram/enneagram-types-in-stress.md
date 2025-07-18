@@ -563,6 +563,10 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "dateModified": "2024-03-27",
   "datePublished": "2023-04-14",
   "url": "https://9takes.com/enneagram-corner/enneagram-types-in-stress",
+  "keywords": ["Enneagram types in stress", "stress management", "personality under pressure", "Enneagram stress response", "Type 1 stress", "Type 2 stress", "Type 3 stress", "Type 4 stress", "Type 5 stress", "Type 6 stress", "Type 7 stress", "Type 8 stress", "Type 9 stress", "stress triggers", "coping mechanisms", "personality psychology", "emotional intelligence", "stress warning signs", "psychological stress", "stress boundaries", "healthy self-talk", "unhealthy patterns", "stress prevention", "mental health"],
+  "wordCount": 3800,
+  "articleSection": "Enneagram",
+  "articleBody": "Stress affects people in different ways, and each Enneagram type has unique stress triggers and response patterns. This comprehensive guide explores how all nine Enneagram types handle stress, from Type 1's perfectionist anxiety to Type 9's conflict avoidance. Learn about specific stressors, warning signs, internal dialogues, and practical stress management techniques for each type. Discover how Type 2s become overwhelmed from helping others, how Type 5s retreat under pressure, and how Type 8s become confrontational when feeling powerless. Understanding these patterns helps develop empathy and effective stress management strategies.",
   "mentions": {
         "@type": "Thing",
         "name": "Enneagram of Personality",

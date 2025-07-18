@@ -387,6 +387,26 @@ If you enjoy personality explorations, explore our [questions](https://9takes.co
       "@id": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
       "@type": "WebPage"
     },
+    "keywords": [
+      "Enneagram subtypes",
+      "instinctual subtypes",
+      "self-preservation",
+      "social instinct",
+      "one-to-one instinct",
+      "sexual instinct",
+      "Enneagram instincts",
+      "subtype stacking",
+      "Enneagram variants",
+      "personality subtypes",
+      "instinctual drives",
+      "survival instincts",
+      "relationship patterns",
+      "personal growth",
+      "Enneagram theory"
+    ],
+    "wordCount": 2236,
+    "articleSection": "Enneagram",
+    "url": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
     "mentions": {
       "@type": "Thing",
       "name": "Enneagram of Personality",

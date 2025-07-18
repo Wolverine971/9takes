@@ -291,6 +291,26 @@ Each of these types has a distinct worldview and set of behaviors, which are sha
     "id": "https://9takes.com/enneagram-corner/enneagram-concepts",
     "@type": "WebPage"
   },
+  "keywords": [
+    "Enneagram concepts",
+    "Enneagram basics",
+    "personality types",
+    "Enneagram system",
+    "nine types",
+    "Enneagram wings",
+    "Enneagram arrows",
+    "stress and growth",
+    "instinctual subtypes",
+    "centers of intelligence",
+    "Enneagram theory",
+    "personality framework",
+    "self-discovery",
+    "personal growth",
+    "psychological development"
+  ],
+  "wordCount": 2210,
+  "articleSection": "Enneagram",
+  "url": "https://9takes.com/enneagram-corner/enneagram-concepts",
   "mentions": {
               "@type": "Thing",
               "name": "Enneagram of Personality",

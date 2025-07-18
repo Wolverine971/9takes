@@ -397,18 +397,8 @@ So which toxic traits did you recognize in yourself? And more importantly – wh
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This in-depth article explores the toxic traits associated with each Enneagram type, explaining their psychological origins and impact on relationships. It provides detailed examples of negative behaviors, unpacks the fears driving these patterns, and offers guidance on recognizing and addressing these traits in yourself and others. The article aims to increase self-awareness and foster healthier relationships through understanding the shadow aspects of personality.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -419,14 +409,12 @@ So which toxic traits did you recognize in yourself? And more importantly – wh
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-03-10"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-07-12"
-      },
+      "dateModified": "2025-03-10",
+      "datePublished": "2024-07-12",
+      "keywords": ["toxic traits", "Enneagram", "personality types", "shadow work", "self-awareness", "toxic behavior", "personal growth", "relationships", "psychology", "emotional patterns"],
+      "wordCount": 4500,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type",
       "description": "Discover the hidden toxic traits of each Enneagram type. Learn why these shadow aspects emerge, how to spot them in yourself and others, and strategies to overcome them for healthier relationships.",
       "headline": "9 Toxic Personality Traits: The Hidden Dark Side of Each Enneagram Type",
       "image": {

@@ -388,6 +388,10 @@ For more check out <a style="font-weight: bold;" href="/enneagram-corner/enneagr
     {
       "@type": "BlogPosting",
       "articleBody": "Explore the ideal career choices for each Enneagram type. It explores how personality traits influence professional preferences and capabilities, offering insights into the most suitable careers for each type. From the perfectionist Type 1 finding fulfillment in law and academia to the adventurous Type 7 thriving in dynamic roles like event planning, the article provides a comprehensive guide for aligning career choices with Enneagram personality types.",
+      "keywords": ["enneagram careers", "personality types jobs", "career guidance", "enneagram type 1 careers", "enneagram type 2 careers", "enneagram type 3 careers", "enneagram type 4 careers", "enneagram type 5 careers", "enneagram type 6 careers", "enneagram type 7 careers", "enneagram type 8 careers", "enneagram type 9 careers", "career choices by personality", "professional development", "job matching"],
+      "wordCount": 5200,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-types-and-career-choices",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

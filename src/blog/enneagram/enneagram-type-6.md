@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
+pic: ''
 ---
 
 <!-- wings
@@ -499,7 +500,11 @@ In understanding the Loyalist, we glimpse the strength that comes from facing un
           "https://www.instagram.com/9takesdotcom/",
           "https://twitter.com/9takesdotcom"
         ]
-      }
+      },
+      "wordCount": 7000,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-type-6",
+      "articleBody": "A comprehensive exploration of Enneagram Type 6, known as 'The Loyalist.' This detailed guide examines the loyalty, responsibility, and anxiety patterns of Type 6 personalities. Learn about their need for security, their relationship with authority, and their unique approach to trust and commitment. Discover how Loyalists navigate relationships, work environments, and personal growth. Understand their psychological framework, including their focus on potential problems, loyalty to groups, and the challenge of anxiety. Explore their three distinct subtypes, childhood patterns, stress responses, and integration toward health. Features insights from Type 6 individuals and famous examples of this dedicated personality type."
     },
     {
       "@type": "FAQPage",

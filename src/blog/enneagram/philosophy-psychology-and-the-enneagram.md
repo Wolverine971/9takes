@@ -182,8 +182,23 @@ I guess it is up to us to make the connections and dive deeper.
     "Anger",
     "personal development",
     "human psyche",
-    "human soul"
+    "human soul",
+    "Tripartite Soul",
+    "id ego superego",
+    "personality theory",
+    "psychological frameworks",
+    "ancient philosophy",
+    "depth psychology",
+    "consciousness",
+    "self-awareness",
+    "emotional intelligence",
+    "intellectual intelligence",
+    "instinctual intelligence"
   ],
+  "wordCount": 1600,
+  "articleSection": "Enneagram",
+  "url": "https://9takes.com/enneagram-corner/philosophy-psychology-and-the-enneagram",
+  "articleBody": "Philosophy and psychology crystallize when examining the Enneagram, revealing profound connections between ancient wisdom and modern psychological understanding. This article explores how Plato's Tripartite Soul (reason, spirit, appetite) and Freud's psyche model (id, ego, superego) align remarkably with the Enneagram's three intelligence centers. Discover how fear drives intellectual intelligence, shame fuels emotional intelligence, and anger powers instinctual intelligence. The convergence of these frameworks suggests that great thinkers throughout history have been grappling with the same fundamental questions about human nature, consciousness, and the structure of the psyche.",
   "mainEntityOfPage": {
     "@id": "https://9takes.com/enneagram-corner/philosophy-psychology-and-the-enneagram",
     "@type": "WebPage"

@@ -14,6 +14,8 @@ previewHtml: ''
 pic: ''
 ---
 
+<!-- Midjourney Prompt: ancient greek statue sitting at a desk with multiple personality assessment charts and documents spread out, using a magnifying glass to examine fine details, books on psychology and personality types stacked nearby, focused and studious expression, library setting with warm lighting, marble white with gold accents, Unreal Engine, Cinematic, Shot on 70mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
+
 <!--
 Famous Figure: Beatrice Chestnut
 Core Concept: The 27 Enneagram Subtypes

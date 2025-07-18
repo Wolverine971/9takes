@@ -11,8 +11,10 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'anxiety-and-enneagram-types-guide'
 ---
+
+<!-- Midjourney Prompt: greek statue with face showing worried expression and tension, surrounded by nine smaller statues each displaying different anxiety responses, dark stormy clouds transforming into calming light, marble white with subtle blue and gold accents, representing journey from anxiety to peace, therapeutic and healing atmosphere, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting transitioning to Soft Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
 
 <!-- how anxiety manifests itself in each Enneagram type
 todo Finish this

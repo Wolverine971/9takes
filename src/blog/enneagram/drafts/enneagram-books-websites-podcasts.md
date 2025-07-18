@@ -551,6 +551,10 @@ This comprehensive guide represents the current landscape of Enneagram resources
     "trauma-informed Enneagram",
     "Enneagram 2025"
   ],
+  "wordCount": 4430,
+  "url": "https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts",
+  "articleBody": "There are many resources when it comes to the Enneagram. This comprehensive guide brings together the best books, websites, podcasts, and influencers to help you on your Enneagram journey. Here we present our favorites and community recommendations to help you explore this powerful system for personal growth and understanding. The guide covers must-read classics like The Wisdom of the Enneagram by Don Richard Riso and Russ Hudson, popular contemporary titles like Millenneagram by Hannah Paasch, and recent additions from 2020-2025. For online resources, we explore essential sites like The Enneagram Institute and The Narrative Enneagram, along with interactive tools and tests. The podcast section features established favorites like The Enneagram Journey with Suzanne Stabile and Typology with Ian Morgan Cron, plus highly recommended new additions and specialized shows. We also profile leading Enneagram influencers and experts, from popular voices like Steph Barron Hall and Ian Morgan Cron to International Enneagram Association leaders and certified coaches. The guide includes emerging trends for 2025, such as increased focus on trauma-informed teaching and integration with neuroscience. Whether you're just beginning your journey or looking to deepen your understanding, these resources offer valuable insights for personal growth and transformation through the wisdom of the Enneagram.",
+  "articleSection": "Enneagram",
   "mentions": [
     {
       "@type": "Thing",

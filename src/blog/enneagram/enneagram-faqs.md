@@ -11,7 +11,10 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
+pic: ''
 ---
+
+<!-- Midjourney Prompt: ancient greek statue sitting at a desk with open books and scrolls, one hand raised as if asking a question, the other hand writing notes, surrounded by stacks of books and documents, library setting with warm lighting, marble white with gold accents, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
 
 <!-- notes: compatible  -->
 <!-- fix this -->
