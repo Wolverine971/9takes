@@ -624,18 +624,8 @@ pic: 'greek-statues-getting-ready-to-approach'
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This tactical guide provides type-specific strategies for making great first impressions with each Enneagram type. Learn conversation starters, approaches, and connection points that create instant rapport, whether for job interviews, dates, or business meetings.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -646,16 +636,14 @@ pic: 'greek-statues-getting-ready-to-approach'
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-05-26"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2025-05-20"
-      },
+      "dateModified": "2025-05-26",
+      "datePublished": "2025-05-20",
       "description": "A tactical guide for connecting with each Enneagram type in your first meeting. Learn the right questions, approaches, and connection points for instant rapport.",
       "headline": "Making a Great First Impression: The Enneagram Playbook",
+      "keywords": ["Enneagram", "first impression", "rapport", "networking", "communication", "personality types", "social skills", "connection", "relationships", "conversation"],
+      "wordCount": 3800,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/first-impression-enneagram-playbook",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/enneagram-corner/first-impression-enneagram-playbook",
         "@type": "WebPage"

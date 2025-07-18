@@ -291,30 +291,22 @@ If you found this eye-opening, sign up and join 9takes below ⬇️. Of course, 
     "@context": "http://schema.org",
     "@graph": [
         {
-            "@type": "Article",
+            "@type": "BlogPosting",
             "articleBody": "We all want to be seen and valued in specific ways. Each Enneagram type has a unique signature 'flex' - their subtle (or not-so-subtle) way of showcasing their strengths to the world. From the Perfectionist's attention to detail to the Challenger's power moves, understanding how and why each type flexes reveals deep insights about human motivation and our universal need for recognition.",
-            "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
             "author": {
                 "@type": "Person",
                 "name": "DJ Wayne",
                 "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
                 ]
                 },
-            "dateModified": {
-                "@type": "Date",
-                "@value": "2025-03-10"
-            },
-            "datePublished": {
-                "@type": "Date",
-                "@value": "2023-08-09"
-            },
+            "dateModified": "2025-03-10",
+            "datePublished": "2023-08-09",
             "description": "Discover the unique ways each Enneagram type shows off their strengths and craves recognition in everyday interactions",
             "headline": "How All 9 Enneagram Types Flex: Revealing Each Type's Secret Need for Recognition",
+            "keywords": ["Enneagram", "personality types", "recognition", "validation", "flexing", "showing off", "strengths", "human behavior", "psychology", "self-awareness"],
+            "wordCount": 2800,
+            "articleSection": "Enneagram",
+            "url": "https://9takes.com/enneagram-corner/how-each-enneagram-flexes",
             "image": {
                 "@type": "ImageObject",
                 "height": 900,

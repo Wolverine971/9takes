@@ -419,18 +419,8 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This article explores the complex relationship between the Enneagram and various religious traditions, including Christianity, Judaism, Sufism, and New Age philosophies. It examines how different spiritual practices have adopted and adapted the Enneagram, the controversies surrounding its use in religious contexts, and its potential for personal and spiritual growth across various belief systems.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -441,15 +431,13 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-08-23"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-08-23"
-      },
+      "dateModified": "2024-08-23",
+      "datePublished": "2024-08-23",
       "description": "Discover how the Enneagram intersects with Christianity, Judaism, Sufism, and New Age beliefs. Explore its spiritual applications and controversies across religions.",
+      "keywords": "Enneagram religion, Christianity Enneagram, Judaism Enneagram, Sufism Enneagram, New Age Enneagram, spiritual personality types, religious personality assessment, Enneagram spirituality, faith and personality, religious psychology",
+      "wordCount": 8500,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-and-religion",
       "headline": "Exploring the Connections between the Enneagram and Religion",
       "image": {
         "@type": "ImageObject",

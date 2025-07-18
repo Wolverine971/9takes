@@ -556,30 +556,22 @@ The language barrier that's causing friction today could become your greatest co
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This comprehensive guide explores how the Enneagram personality system can transform workplace team dynamics by helping leaders understand the core motivations, communication styles, and needs of each type. The article provides detailed insights into how each of the nine Enneagram types functions in the workplace, their unique contributions, potential blind spots, and specific strategies for leveraging their strengths. It includes a practical 5-step implementation plan for integrating Enneagram insights into team management, with real-world impacts and success metrics from organizations that have successfully adopted this approach.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
           ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-03-10"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-03-27"
-      },
+      "dateModified": "2025-03-10",
+      "datePublished": "2023-03-27",
       "description": "Unlock the secret language of your team with Enneagram personality insights. Learn actionable strategies to resolve conflicts, boost productivity, and create a workplace where every personality type thrives.",
       "headline": "Transforming Workplace Teams Using Enneagram: A Leader's Guide to Personality-Driven Collaboration",
+      "keywords": ["Enneagram", "team building", "workplace", "leadership", "personality types", "team dynamics", "conflict resolution", "productivity", "collaboration", "management"],
+      "wordCount": 4500,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-workplace-team-building",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/enneagram-corner/enneagram-workplace-team-building",
         "@type": "WebPage"

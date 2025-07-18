@@ -120,7 +120,7 @@
 <svelte:window bind:innerWidth />
 
 <div
-	class="image-card-base {enneagramType ? 'enneagram-type-overlay' : ''}"
+	class="image-card-base {enneagramType ? 'enneagram-card' : ''}"
 	style="aspect-ratio: {aspectRatio};"
 	title={altText || displayText}
 	aria-roledescription="card"
@@ -147,30 +147,14 @@
 	<!-- Overlay with scanline effect -->
 	<div class="image-card__overlay" />
 
-	<!-- Content container -->
+	<!-- Content container positioned at bottom -->
 	<div class="image-card__content">
 		{#if showIcon}
 			<img class="image-card__icon" src="darkRubix.webp" alt="rubix cube" loading="lazy" />
 		{/if}
 
 		<div class="image-card__text">
-			{#if showDescription && enneagramType && enneagramType > 0 && enneagramType <= 9}
-				<div class="enneagram-info" in:fly={{ y: 200, duration: 2000 }}>
-					<h2 class="enneagram-info__title">{enneagramTypes[enneagramType - 1].EnneagramType}</h2>
-					<p class="enneagram-info__detail">
-						<b>Motivation:</b>
-						{enneagramTypes[enneagramType - 1].CoreMotivation}
-					</p>
-					<p class="enneagram-info__detail">
-						<b>Fear:</b>
-						{enneagramTypes[enneagramType - 1].CoreFear}
-					</p>
-					<p class="enneagram-info__detail">
-						<b>Stereotypes:</b>
-						{enneagramTypes[enneagramType - 1].CommonStereotypes}
-					</p>
-				</div>
-			{:else if displayText}
+			{#if displayText && !showDescription}
 				<p
 					class={`name-pop-${namePopId} image-card__title`}
 					data-value={displayText}
@@ -180,22 +164,145 @@
 				</p>
 			{/if}
 
-			{#if subtext}
+			{#if subtext && !showDescription}
 				<p class="image-card__subtitle">{subtext}</p>
 			{/if}
 		</div>
 	</div>
+
+	<!-- Enneagram overlay that fills entire card -->
+	{#if showDescription && enneagramType && enneagramType > 0 && enneagramType <= 9}
+		<div class="enneagram-overlay" in:fly={{ y: 200, duration: 2000 }}>
+			<div class="enneagram-info">
+				<h2 class="enneagram-info__title">{enneagramTypes[enneagramType - 1].EnneagramType}</h2>
+				<p class="enneagram-info__detail">
+					<b>Motivation:</b>
+					{enneagramTypes[enneagramType - 1].CoreMotivation}
+				</p>
+				<p class="enneagram-info__detail">
+					<b>Fear:</b>
+					{enneagramTypes[enneagramType - 1].CoreFear}
+				</p>
+				<p class="enneagram-info__detail">
+					<b>Stereotypes:</b>
+					{enneagramTypes[enneagramType - 1].CommonStereotypes}
+				</p>
+			</div>
+		</div>
+	{/if}
 </div>
 
 <style lang="scss">
-	// Component-specific enneagram type overlay behavior
-	.enneagram-type-overlay {
+	// Enneagram card specific behavior
+	.enneagram-card {
 		&:hover {
 			transform: translateY(-5px);
-			box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+			box-shadow: 0 12px 28px rgba(0, 0, 0, 0.067);
+		}
+	}
 
-			.image-card__content {
-				backdrop-filter: blur(5px);
+	// Full-card overlay for enneagram info - just blur, no dark background
+	.enneagram-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 10;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		backdrop-filter: blur(15px);
+		border-radius: inherit;
+	}
+
+	// Override content positioning for proper bottom placement
+	:global(.image-card-base) .image-card__content {
+		position: absolute;
+		bottom: 1rem;
+		left: 1rem;
+		right: 1rem;
+		background: transparent;
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	// Text container styling - minimal
+	:global(.image-card-base) .image-card__text {
+		background: transparent;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	// Title styling - single clean background
+	:global(.image-card-base) .image-card__title {
+		background-color: rgba(0, 0, 0, 0.3);
+		backdrop-filter: blur(8px);
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		padding: 0.75rem 0.75rem;
+		margin: 0;
+		border-radius: 1rem;
+		display: inline-block;
+		width: auto;
+		color: white;
+	}
+
+	// Subtitle styling - single clean background
+	:global(.image-card-base) .image-card__subtitle {
+		background-color: rgba(0, 0, 0, 0.5);
+		backdrop-filter: blur(6px);
+		border: 1px solid rgba(255, 255, 255, 0.15);
+		padding: 0.5rem 1rem;
+		border-radius: 0.75rem;
+		display: inline-block;
+		width: auto;
+		margin: 0;
+	}
+
+	// Enneagram info styling within overlay
+	.enneagram-info {
+		color: white;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+		text-wrap: balance;
+		font-weight: bolder;
+		background-color: rgba(0, 0, 0, 0.3);
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		border-radius: 1rem;
+		padding: 2rem;
+		margin: 1rem;
+		max-width: 90%;
+		text-align: center;
+		backdrop-filter: blur(10px);
+
+		&__title {
+			font-size: 2rem;
+			margin-bottom: 1rem;
+			
+			@media (max-width: 700px) {
+				font-size: 1.7rem;
+			}
+			
+			@media (max-width: 400px) {
+				font-size: 1.4rem;
+			}
+		}
+
+		&__detail {
+			color: white;
+			font-size: 1.6rem;
+			margin-bottom: 0.75rem;
+			line-height: 1.4;
+			
+			@media (max-width: 700px) {
+				font-size: 1.5rem;
+			}
+			
+			@media (max-width: 400px) {
+				font-size: 1.1rem;
 			}
 		}
 	}

@@ -388,7 +388,7 @@
 
 <style lang="scss">
 	.toc-sidebar {
-		@extend .card-base;
+		@extend .card-base !optional;
 		position: fixed;
 		top: 50%;
 		transform: translateY(-50%);
@@ -409,7 +409,7 @@
 	}
 
 	.toc-accordion {
-		@extend .card-base;
+		@extend .card-base !optional;
 		margin: 1.5rem 0;
 		background-color: var(--neutral-50);
 		overflow: hidden;
@@ -487,7 +487,7 @@
 	}
 
 	:global(.toc-link) {
-		@extend .link-subtle;
+		@extend .link-subtle !optional;
 		display: block !important;
 		width: 100%;
 		overflow: hidden;

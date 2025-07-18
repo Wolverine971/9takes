@@ -122,9 +122,13 @@ _Give your take, unlock everyone else’s._ 9takes is the metabolic gym for pers
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "headline": "Enneagram Personality Test: Decode Your Core Drive in 5 Minutes",
       "description": "Skip superficial quizzes. Use this 9takes playbook to spot the emotion that secretly fuels your decisions—then run our 5‑min test to confirm your type.",
+      "keywords": ["Enneagram", "personality test", "core emotion", "personality assessment", "self-discovery", "emotional intelligence", "personality quiz", "nine types"],
+      "wordCount": 850,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-personality-test",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne"

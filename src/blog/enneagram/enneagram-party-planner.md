@@ -288,14 +288,8 @@ Go here to dive deeper and see [how each Enneagram type behaves at a party](/enn
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This article goes into how each Enneagram type experiences and contributes to the dynamics of a party. It provides insights into the motivations, inviting strategies, and ideal party setups for each type, ensuring every guest enjoys the event in a way that resonates with their personality. The article also explores the philosophical implications of these gatherings, likening them to a modern-day symposium of Greek philosophers.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -303,16 +297,14 @@ Go here to dive deeper and see [how each Enneagram type behaves at a party](/enn
           "https://www.instagram.com/djwayne3/","https://www.youtube.com/@djwayne3","https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-04-04"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-12-09"
-      },
+      "dateModified": "2024-04-04",
+      "datePublished": "2023-12-09",
       "description": "This blog post explores the diverse emotional landscapes of the Enneagram types in the context of party planning. It discusses the unique needs and preferences of each type, offering tailored suggestions for invitations and party environments to ensure an engaging and inclusive experience for all.",
-      "headline": "Enneagram Party Planner: Customize Your Invites in 9 Wayss",
+      "headline": "Enneagram Party Planner: Customize Your Invites in 9 Ways",
+      "keywords": ["Enneagram", "party planning", "personality types", "event planning", "team building", "social dynamics", "invitation strategies", "personality-based planning"],
+      "wordCount": 1250,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-party-planner",
       "image": {
         "@type": "ImageObject",
         "height": 900,

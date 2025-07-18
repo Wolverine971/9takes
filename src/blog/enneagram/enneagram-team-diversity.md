@@ -142,14 +142,8 @@ What steps will you take today to start diversifying your team's thinking and co
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "In today's rapidly evolving business landscape, the ability to create balanced and diverse teams has become increasingly crucial for success. The Enneagram, a powerful personality typing system, offers valuable insights into understanding team dynamics and assembling the ideal mix of members. This blog explores the significance of triad diversity, the impact of Enneagram dominance on team dynamics, strategies for achieving balance through diverse Enneagram types, and specific examples of effective type combinations.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -158,16 +152,14 @@ What steps will you take today to start diversifying your team's thinking and co
 "https://www.linkedin.com/in/davidtwayne/",
 "https://twitter.com/djwayne3" ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-08-12"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-08-12"
-      },
+      "dateModified": "2024-08-12",
+      "datePublished": "2024-08-12",
       "description": "Harnessing the Power of the Enneagram for Balanced and Diverse Teams",
       "headline": "Enneagram Team Diversity",
+      "keywords": ["Enneagram", "team diversity", "workplace dynamics", "team building", "communication styles", "leadership", "organizational psychology", "team effectiveness"],
+      "wordCount": 2100,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-team-diversity",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/enneagram-corner/enneagram-team-diversity",
         "@type": "WebPage"

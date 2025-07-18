@@ -1,6 +1,7 @@
 // routes/resetPassword/+page.server.ts
-import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+import { Actions, fail, redirect, type } from '@sveltejs/kit';
+
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
@@ -37,7 +38,7 @@ export const actions: Actions = {
 		try {
 			// The auth token is handled automatically by Supabase client
 			// when the user lands on this page from the reset email
-			const { data, error } = await locals.sb.auth.updateUser({
+			const { data, error } = await locals.supabase.auth.updateUser({
 				password: body.password as string
 			});
 

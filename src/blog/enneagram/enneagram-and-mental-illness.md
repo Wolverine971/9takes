@@ -656,18 +656,8 @@ By integrating Enneagram insights with professional advice and personal reflecti
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This article provides an in-depth guide on each Enneagram type's predispositions to specific mental health challenges. It highlights the shadow side, or negative aspects, of each personality type and describes how these can lead to unique mental health risks. The article offers two detailed examples of unhealthy spirals for each type and discusses how their coping mechanisms can exacerbate these negative patterns, providing a comprehensive understanding of each type's mental health journey.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -678,14 +668,8 @@ By integrating Enneagram insights with professional advice and personal reflecti
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-01-22"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-12-08"
-      },
+      "dateModified": "2025-01-22",
+      "datePublished": "2023-12-08",
       "description": "Explore each Enneagram type's mental health risks and shadow side in our guide on personality predispositions and coping mechanisms.",
       "headline": "The Enneagram and Mental Illness: A Guide to Understanding Each Type's Predispositions",
       "image": {
@@ -709,7 +693,11 @@ By integrating Enneagram insights with professional advice and personal reflecti
           "https://www.instagram.com/9takesdotcom/",
           "https://twitter.com/9takesdotcom"
         ]
-      }
+      },
+      "keywords": ["enneagram", "mental health", "personality types", "psychology", "mental illness", "shadow side", "personality disorders", "self-awareness", "emotional health", "enneagram types"],
+      "wordCount": 5000,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-and-mental-illness"
     },
     {
       "@type": "FAQPage",

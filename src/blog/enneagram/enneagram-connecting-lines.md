@@ -327,28 +327,16 @@ The Enneagram isn't just about knowing your number—it's about understanding yo
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "The article explores the dynamic transformation patterns of the nine Enneagram types through integration and disintegration lines, providing detailed examples of how each type's behavior, thought patterns, and emotional responses shift under different states of mental health and stress.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-02-26"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-08-06"
-      },
+      "dateModified": "2025-02-26",
+      "datePublished": "2023-07-23",
       "description": "Discover how the Enneagram's connecting lines reveal your transformation during growth and stress patterns. Learn specific examples of how each of the 9 personality types changes when integrating or disintegrating.",
       "headline": "Enneagram Connecting Lines: The Hidden Dynamics of Growth and Stress Patterns",
       "mainEntityOfPage": {
@@ -362,6 +350,9 @@ The Enneagram isn't just about knowing your number—it's about understanding yo
         "width": 900
       },
       "keywords": ["enneagram connecting lines", "enneagram growth patterns", "enneagram stress patterns", "enneagram integration", "enneagram disintegration", "enneagram transformation", "personality development", "enneagram types under stress", "enneagram personal growth"],
+      "wordCount": 2847,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-connecting-lines",
       "mentions": {
               "@type": "Thing",
               "name": "Enneagram of Personality",

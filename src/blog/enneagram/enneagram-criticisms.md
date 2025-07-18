@@ -340,28 +340,16 @@ What's your experience with the Enneagram? Has it offered you useful insights, o
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This article addresses common criticisms of the Enneagram personality system and the 9takes platform. It explores concerns about scientific validity, stereotyping risks, subjective typing, and potential echo chambers. Each criticism is examined thoughtfully with balanced responses that acknowledge limitations while highlighting the practical value many find in the Enneagram framework.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-02-26"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-02-10"
-      },
+      "dateModified": "2024-02-26",
+      "datePublished": "2023-02-10",
       "description": "Explore thoughtful responses to common Enneagram criticisms including questions about scientific validity, stereotyping concerns, and practical application challenges. Discover why many find value in this personality system despite its limitations.",
       "headline": "The Enneagram Under Fire: Addressing Common Criticisms & Misconceptions",
       "mainEntityOfPage": {
@@ -375,6 +363,9 @@ What's your experience with the Enneagram? Has it offered you useful insights, o
         "width": 900
       },
       "keywords": ["enneagram criticisms", "enneagram scientific validity", "personality theory limitations", "enneagram stereotyping", "personality test accuracy", "enneagram pseudoscience", "personality framework limitations", "enneagram vs big five", "personality type criticism"],
+      "wordCount": 3254,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-criticisms",
       "mentions": {
               "@type": "Thing",
               "name": "Enneagram of Personality",

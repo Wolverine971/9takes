@@ -103,28 +103,20 @@ Want to dive deeper? <a class="external-link" target="_blank" href="https://expl
     "@context": "http://schema.org",
     "@graph": [
     {
-      "@type": "Article",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
+      "@type": "BlogPosting",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
           ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-05-03"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-04-19"
-      },
+      "dateModified": "2025-05-03",
+      "datePublished": "2024-04-19",
       "description": "Discover essential homework strategies for Enneagram coaches and learn to avoid common explanation mistakes in our latest blog.",
+      "keywords": "Enneagram coach, coaching toolkit, Enneagram homework, coaching strategies, personality type coaching, Enneagram teaching, coaching techniques, professional development, Enneagram practice, coaching resources",
+      "wordCount": 2400,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-coach-toolkit",
       "headline": "The Busy Enneagram Coach's Toolkit: Homework & Tips",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/enneagram-corner/enneagram-coach-toolkit",

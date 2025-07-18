@@ -259,14 +259,8 @@ What patterns will you notice about yourself tomorrow that you missed today?
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This guide walks through a four-step process to determine your Enneagram type, focusing on core emotional drivers, centers of intelligence, childhood patterns, and specific type characteristics. It explains how the Enneagram differs from other personality systems by focusing on motivations rather than behaviors, and includes information on growth and stress patterns for each type.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -342,7 +336,11 @@ What patterns will you notice about yourself tomorrow that you missed today?
           "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
-      }
+      },
+      "keywords": ["enneagram", "personality types", "self-discovery", "enneagram guide", "personality test", "emotional intelligence", "self-awareness", "personal growth", "enneagram types", "beginner guide"],
+      "wordCount": 2500,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
     },
     {
       "@type": "FAQPage",

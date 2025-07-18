@@ -171,14 +171,8 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "The blog explores personalized growth strategies based on your Enneagram type, covering **Ideal Environment**s, practical tips, and empowering self-talk mantras for each type. It delves into the unique paths to self-improvement for each Enneagram type, discussing their strengths, weaknesses, and **Ideal Approach**es to growth.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -186,16 +180,14 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
           "https://www.instagram.com/djwayne3/","https://www.youtube.com/@djwayne3","https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-10-11"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-03-10"
-      },
+      "dateModified": "2024-10-11",
+      "datePublished": "2023-03-10",
       "description": "Discover personalized growth strategies based on your Enneagram type with this insightful guide, covering **Ideal Environment**s, practical tips, and empowering self-talk mantras for each type.",
       "headline": "Enneagram Personal Growth",
+      "keywords": ["Enneagram", "personal growth", "self-improvement", "personality development", "mindfulness", "self-awareness", "personal development", "emotional intelligence"],
+      "wordCount": 1800,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-personal-growth",
       "image": {
         "@type": "ImageObject",
         "height": 900,

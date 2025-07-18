@@ -665,27 +665,20 @@ Remember that every interaction is an opportunity to practice empathy, understan
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "Have you ever walked away from a conversation feeling misunderstood or frustrated? Perhaps you've wondered why your well-intentioned words didn't land as expected. You're not alone. Communication is a complex dance, and understanding the Enneagram can be your guide to mastering its rhythms. This guide will take you on a journey through the Enneagram types, helping you understand not just your own communication style, but those of others around you. The Enneagram offers a window into our motivations, fears, and behaviors, helping us navigate the world more easily.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-03-27"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-09-06"
-      },
+      "dateModified": "2025-03-27",
+      "datePublished": "2024-09-06",
       "description": "Master communication with all 9 Enneagram types. Discover inner motivations, overcome challenges, and learn practical strategies to be truly heard and understood.",
+      "keywords": "Enneagram communication, effective communication, personality type communication, interpersonal skills, communication styles, conflict resolution, team communication, relationship communication, communication strategies, workplace communication",
+      "wordCount": 12000,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-communication-guide",
       "headline": "9 Ways to Be Heard: Enneagram Secrets for Impactful Communication",
       "mainEntityOfPage": {
         "@type": "WebPage",

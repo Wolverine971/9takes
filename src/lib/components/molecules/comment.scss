@@ -9,7 +9,7 @@
 }
 
 .comment-card {
-	@extend .card-interactive;
+	@extend .card-interactive !optional;
 	margin: var(--comment-margin);
 	padding: var(--comment-padding);
 

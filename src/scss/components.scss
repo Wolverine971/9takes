@@ -35,7 +35,7 @@
 }
 
 .btn-primary {
-	@extend .btn-base;
+	@extend .btn-base !optional;
 	background-color: var(--primary);
 	color: var(--text-on-primary);
 
@@ -47,7 +47,7 @@
 }
 
 .btn-secondary {
-	@extend .btn-base;
+	@extend .btn-base !optional;
 	background-color: var(--accent);
 	color: var(--text-on-primary);
 
@@ -59,7 +59,7 @@
 }
 
 .btn-outline {
-	@extend .btn-base;
+	@extend .btn-base !optional;
 	background-color: transparent;
 	color: var(--primary);
 	border: 1px solid var(--primary);
@@ -72,7 +72,7 @@
 }
 
 .btn-ghost {
-	@extend .btn-base;
+	@extend .btn-base !optional;
 	background-color: transparent;
 	color: var(--text-primary);
 
@@ -113,8 +113,8 @@
 }
 
 .card-interactive {
-	@extend .card-base;
-	@extend .card-hover-effect;
+	@extend .card-base !optional;
+	@extend .card-hover-effect !optional;
 	cursor: pointer;
 
 	&:focus-visible {
@@ -183,13 +183,13 @@
 }
 
 .form-textarea {
-	@extend .form-input;
+	@extend .form-input !optional;
 	resize: vertical;
 	min-height: 100px;
 }
 
 .form-select {
-	@extend .form-input;
+	@extend .form-input !optional;
 	cursor: pointer;
 	appearance: none;
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M6 9l6 6 6-6'/%3e%3c/svg%3e");
@@ -492,7 +492,7 @@
   IMAGE CARD COMPONENTS
 ==============================================*/
 .image-card-base {
-	@extend .card-interactive;
+	@extend .card-interactive !optional;
 	position: relative;
 	z-index: 10;
 	overflow: hidden;
@@ -525,7 +525,7 @@
 	left: 0;
 	top: 0;
 	pointer-events: none;
-	@extend .animate-pan-overlay;
+	@extend .animate-pan-overlay !optional;
 }
 
 .image-card__img {
@@ -539,7 +539,7 @@
 	transition: filter 0.3s ease, transform 0.5s ease;
 	
 	&--home {
-		@extend .animate-pan-image;
+		@extend .animate-pan-image !optional;
 	}
 	
 	&--profile {
@@ -547,7 +547,7 @@
 	}
 	
 	&--tinted {
-		filter: brightness(0.7) contrast(1.2);
+		filter: brightness(0.5) contrast(1.2);
 	}
 }
 
@@ -586,7 +586,7 @@
 	font-family: var(--font-family, sans-serif);
 	text-transform: uppercase;
 	color: var(--text-on-dark);
-	@extend .text-shadow-md;
+	@extend .text-shadow-md !optional;
 	font-size: 2rem;
 	font-weight: 400;
 	margin: 1rem;
@@ -605,12 +605,12 @@
 	margin-top: 0.5rem;
 	margin-bottom: 1rem;
 	color: var(--text-on-dark);
-	@extend .text-shadow-md;
+	@extend .text-shadow-md !optional;
 }
 
 .enneagram-info {
 	color: var(--text-on-dark);
-	@extend .text-shadow-md;
+	@extend .text-shadow-md !optional;
 	text-wrap: balance;
 	font-weight: bolder;
 	background-color: rgba(255, 255, 255, 0.2);
@@ -963,7 +963,7 @@
   QUESTION COMPONENTS
 ==============================================*/
 .question-card {
-	@extend .card-interactive;
+	@extend .card-interactive !optional;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -1035,7 +1035,7 @@
 }
 
 .spinner {
-	@extend .loading-spinner;
+	@extend .loading-spinner !optional;
 	border-style: solid;
 	border-radius: 50%;
 	animation: spin 0.8s linear infinite;
@@ -1119,7 +1119,7 @@
   ENNEAGRAM DIAGRAM COMPONENTS
 ==============================================*/
 .enneagram-container {
-	@extend .card-base;
+	@extend .card-base !optional;
 	aspect-ratio: 1;
 	width: 100%;
 	overflow: hidden;

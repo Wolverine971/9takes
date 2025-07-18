@@ -304,18 +304,8 @@ What red flags have you noticed in yourself or others? How has understanding per
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This article provides a comprehensive guide on identifying mental health red flags for each Enneagram type. It offers specific warning signs, practical steps to help, and tailored communication strategies for each type. The guide aims to promote early intervention and support for mental health challenges within the framework of the Enneagram personality system.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -326,14 +316,8 @@ What red flags have you noticed in yourself or others? How has understanding per
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-07-15"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-07-12"
-      },
+      "dateModified": "2024-07-15",
+      "datePublished": "2024-07-12",
       "description": "Learn how to identify mental health red flags for each Enneagram type and discover practical ways to offer support and encourage positive change.",
       "headline": "9 Enneagram Mental Health Flags: A Guide to Early Intervention",
       "image": {
@@ -346,6 +330,10 @@ What red flags have you noticed in yourself or others? How has understanding per
         "@id": "https://9takes.com/enneagram-corner/enneagram-mental-health-flags",
         "@type": "WebPage"
       },
+      "keywords": ["enneagram mental health", "mental health red flags", "enneagram warning signs", "enneagram stress signals", "mental health early intervention", "enneagram type mental health", "personality mental health", "enneagram psychology", "mental health support"],
+      "wordCount": 4127,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-mental-health-flags",
       "publisher": {
         "@type": "Organization",
         "name": "9takes",

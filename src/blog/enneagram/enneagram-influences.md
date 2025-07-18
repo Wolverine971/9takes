@@ -85,7 +85,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type. Over the centuries, different schools of thought have contributed to the development of the Enneagram, including the Sufi tradition, Gurdjieff's work, Oscar Ichazo's teachings, and Claudio Naranjo's legacy. The article also discusses the influence of ancient philosophy and early psychology on the Enneagram, as well as modern interpretations such as the Narrative Tradition and the Integrative Tradition.",
       "author": {
 			"@type": "Person",
@@ -127,8 +127,17 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
 		  "sameAs": ["https://en.wikipedia.org/wiki/Claudio_Naranjo", "https://www.claudionaranjo.net/home.html"]
         }
       ],
+      "keywords": ["enneagram influences", "enneagram history", "enneagram traditions", "sufi enneagram", "gurdjieff enneagram", "oscar ichazo", "claudio naranjo", "enneagram development", "enneagram schools", "enneagram origins"],
+      "wordCount": 1847,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-influences",
       "publisher": {
         "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
         "name": "9takes"
       }
     },

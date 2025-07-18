@@ -262,18 +262,8 @@ Whether you're a seasoned astrologer, an Enneagram enthusiast, or simply curious
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "This article explores the fascinating intersection of Astrology and the Enneagram, two popular systems for understanding personality and behavior. It covers how practitioners map Enneagram types to zodiac signs, associate Enneagram types with astrological houses, and connect Enneagram types with planetary influences. The article also discusses how these systems are combined for comprehensive personality analysis, drawing parallels between Enneagram wings and astrological aspects, and relating Enneagram growth and stress points to astrological transits.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -284,14 +274,8 @@ Whether you're a seasoned astrologer, an Enneagram enthusiast, or simply curious
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-09-28"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-08-23"
-      },
+      "dateModified": "2024-09-28",
+      "datePublished": "2024-08-23",
       "description": "Explore the fascinating intersection of Astrology and the Enneagram. Discover how these two systems combine to offer unique perspectives on personality and growth.",
       "headline": "Astrology Meets Enneagram: Cosmic Personality Insights",
       "image": {
@@ -315,7 +299,21 @@ Whether you're a seasoned astrologer, an Enneagram enthusiast, or simply curious
           "https://www.instagram.com/9takesdotcom/",
           "https://twitter.com/9takesdotcom"
         ]
-      }
+      },
+      "keywords": [
+        "Enneagram",
+        "Astrology",
+        "Zodiac signs",
+        "Personality types",
+        "Astrological houses",
+        "Planetary influences",
+        "Cosmic personality insights",
+        "Personal growth",
+        "Psychological systems"
+      ],
+      "wordCount": 2800,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/astrology-and-the-enneagram"
     },
     {
       "@type": "FAQPage",

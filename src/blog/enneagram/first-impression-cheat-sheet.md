@@ -14,6 +14,86 @@ previewHtml: ''
 pic: 'greek-statue-taking-notes'
 ---
 
+<script>
+  import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+</script>
+
+<svelte:head>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "about": {
+        "@type": "Thing",
+        "name": "Enneagram of Personality",
+        "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types.",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q273047",
+          "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        ]
+      },
+      "articleSection": "Psychology",
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2025-05-20",
+      "datePublished": "2025-05-20",
+      "headline": "Enneagram First Impression Cheat Sheet: Instant Connection Guide",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greek-statue-taking-notes.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/enneagram-corner/first-impression-cheat-sheet"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "name": "9takes"
+      },
+      "url": "https://9takes.com/enneagram-corner/first-impression-cheat-sheet",
+      "articleBody": "A printable, bookmarkable quick-reference card deck for making meaningful connections with each Enneagram type. Essential approaches, power questions, and key tips for authentic first impressions. Meeting someone new? This cheat sheet gives you the essential approaches for making an authentic connection with each Enneagram type. Review it right before your meeting to make a great first impression that resonates with their specific worldview. The guide covers all nine types: Type 1 The Perfectionist - be prepared, orderly, on time; Type 2 The Helper - be warm and genuinely interested; Type 3 The Achiever - be efficient and on-point; Type 4 The Individualist - be authentic, not generic; Type 5 The Investigator - respect their space and boundaries; Type 6 The Loyalist - be transparent and consistent; Type 7 The Enthusiast - match their energy and enthusiasm; Type 8 The Challenger - be direct and confident; Type 9 The Peacemaker - create a calm, pressure-free environment. Each type includes specific conversation starters and approaches to avoid.",
+      "wordCount": 1200,
+      "keywords": [
+        "enneagram",
+        "first impressions",
+        "personality types",
+        "connection guide",
+        "networking",
+        "communication",
+        "cheat sheet"
+      ]
+    }
+  </script>
+</svelte:head>
+
 <!-- Main container with proper typography -->
 <div class="max-w-4xl mx-auto px-4 py-8 bg-neutral-50">
 

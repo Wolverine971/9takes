@@ -54,29 +54,21 @@ Embracing the Enneagram could be your team's catalyst to transform potential int
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
+      "@type": "BlogPosting",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-03-28"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-04-01"
-      },
+      "dateModified": "2024-03-28",
+      "datePublished": "2023-04-01",
       "description": "Discover how Enneagram Team Dynamics unlock full potential, enhancing team efficiency, communication, and innovation for unparalleled success",
       "headline": "Enneagram Team Dynamics: Unlocking Full Potential",
+      "keywords": ["Enneagram", "team dynamics", "team collaboration", "workplace productivity", "team communication", "leadership development", "team effectiveness", "organizational behavior"],
+      "wordCount": 1400,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-team-dynamics",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/enneagram-corner/enneagram-team-dynamics",
         "@type": "WebPage"

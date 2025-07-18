@@ -80,30 +80,22 @@ Go here to check out <a style="font-weight: bold;" href="/enneagram-corner/ennea
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "articleBody": "The blog provides a short synopsis of the Enneagram, a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. It briefly describes each of the nine Enneagram types and offers tips on how to determine your own type through self-reflection and introspection.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-04-07"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-02-10"
-      },
+      "dateModified": "2024-06-12",
+      "datePublished": "2023-02-10",
       "description": "Explore the Enneagram fast with our TL;DR guide, offering quick insights into all nine types for those seeking personal growth on the go",
       "headline": "Enneagram TLDR",
+      "keywords": ["Enneagram", "personality types", "self-discovery", "personal growth", "nine types", "personality system", "Enneagram guide", "psychology", "self-awareness", "emotional intelligence"],
+      "wordCount": 1200,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-tldr",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/enneagram-corner/enneagram-tldr",
         "@type": "WebPage"

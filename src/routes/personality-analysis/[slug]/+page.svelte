@@ -286,7 +286,7 @@
 	}
 
 	.loading-placeholder {
-		@extend .card-base;
+		@extend .card-base !optional;
 		height: 100px;
 		margin: 1rem 0;
 		display: flex;

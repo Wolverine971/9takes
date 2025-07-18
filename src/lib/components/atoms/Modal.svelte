@@ -59,17 +59,17 @@
 	} */
 
 	.modal {
-		@extend .modal-overlay;
+		@extend .modal-overlay !optional;
 	}
 
 	.modal-box {
-		@extend .modal-content;
+		@extend .modal-content !optional;
 		max-width: 64ch;
 		padding: 2rem;
 	}
 
 	button {
-		@extend .modal-close;
+		@extend .modal-close !optional;
 		font-size: 1.25rem;
 		width: 2.5rem;
 		height: 2.5rem;

@@ -224,7 +224,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     "@context": "http://schema.org",
   "@graph": [
   {
-  "@type": "Article",
+  "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://9takes.com/enneagram-corner/enneagram-communication-tips"
@@ -236,12 +236,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     "url": "https://9takes.com/blogs/greek-statues-arguing.webp",
     "width": 900
   },
-  "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -268,7 +262,11 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
   "datePublished": "2023-02-27",
   "dateModified": "2024-05-22",
-  "description": "This article provides practical communication tips for each Enneagram type, helping individuals understand how to interact effectively with different personality types."
+  "description": "This article provides practical communication tips for each Enneagram type, helping individuals understand how to interact effectively with different personality types.",
+  "keywords": "Enneagram communication tips, personality type communication, communication strategies, interpersonal skills, effective dialogue, personality types, communication guide, relationship communication, workplace communication, conflict resolution",
+  "wordCount": 3200,
+  "articleSection": "Enneagram",
+  "url": "https://9takes.com/enneagram-corner/enneagram-communication-tips"
   },
   {
       "@type": "FAQPage",

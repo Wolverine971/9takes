@@ -295,28 +295,16 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
    "@context":"http://schema.org",
    "@graph":[
       {
-         "@type":"Article",
+         "@type":"BlogPosting",
          "articleBody":"Ever wondered how to make someone's day with the right compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special.",
-         "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
          "author": {
             "@type": "Person",
             "name": "DJ Wayne",
             "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
                ]
             },
-         "dateModified":{
-            "@type":"Date",
-            "@value":"2024-04-07"
-         },
-         "datePublished":{
-            "@type":"Date",
-            "@value":"2023-08-09"
-         },
+         "dateModified":"2024-04-07",
+         "datePublished":"2023-08-09",
          "description":"A captivating and informative exploration of the biggest compliments one can give to each Enneagram type, crafted to offer insights and resonating deeply with each type's essence.",
          "headline":"The 9 Biggest Compliments to Give to Each Enneagram Type",
          "image":{
@@ -341,7 +329,11 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
                "url": "https://9takes.com/brand/aero.png"
             },
             "name": "9takes"
-         }
+         },
+         "keywords": ["enneagram", "compliments", "personality types", "enneagram types", "appreciation", "validation", "interpersonal skills", "emotional intelligence", "relationship building", "communication"],
+         "wordCount": 1800,
+         "articleSection": "Enneagram",
+         "url": "https://9takes.com/enneagram-corner/biggest-compliments-to-give-each-enneagram-type"
       },
       {
          "@type":"FAQPage",

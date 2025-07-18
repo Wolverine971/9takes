@@ -126,30 +126,22 @@ The Enneagram and the Myers-Briggs Type Indicator, rich in history and insights,
 {
    "@graph":[
       {
-         "@type": "Article",
+         "@type": "BlogPosting",
          "articleBody": "The article discusses the Enneagram and the Myers-Briggs Type Indicator (MBTI), two systems that aim to decode the complexity of human personality. The article dives into both systems' origins, key concepts, and principles and explores their differences and potential intersections. In addition, it provides guidance on how to choose between the two systems based on the aspects of personality one aims to explore.",
-         "creator": {
-               "@type": "Person",
-               "name": "DJ Wayne",
-               "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-            ]
-         },
          "author": {
             "@type": "Person",
             "name": "DJ Wayne",
             "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
             ]
          },
-         "dateModified":{
-            "@type":"Date",
-            "@value":"2024-04-07"
-         },
-         "datePublished":{
-            "@type":"Date",
-            "@value":"2023-07-16"
-         },
+         "dateModified": "2024-04-07",
+         "datePublished": "2023-07-16",
          "description":"This article offers a comprehensive comparison between the Enneagram and the Myers-Briggs Type Indicator (MBTI), two popular systems for understanding human personality. The discussion spans the origins, structure, and principles of both systems, their contrasting approaches to personality understanding, and how they can be used in conjunction.",
          "headline":"Enneagram vs. Myers-Briggs: A Comprehensive Exploration",
+         "keywords": ["Enneagram", "Myers-Briggs", "MBTI", "personality types", "personality systems", "psychology", "cognitive functions", "self-awareness", "personal development", "assessment tools"],
+         "wordCount": 2500,
+         "articleSection": "Enneagram",
+         "url": "https://9takes.com/enneagram-corner/enneagram-vs-meyers-briggs",
          "image":{
             "@type":"ImageObject",
             "height":810,

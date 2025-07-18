@@ -18,6 +18,83 @@ pic: 'young-couple-on-a-date'
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
+<svelte:head>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "about": {
+        "@type": "Thing",
+        "name": "Enneagram of Personality",
+        "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types.",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q273047",
+          "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        ]
+      },
+      "articleSection": "Psychology",
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2024-09-28",
+      "datePublished": "2024-09-28",
+      "headline": "How to Navigate Early Relationship Stages using the Enneagram",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/young-couple-on-a-date.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/enneagram-corner/how-to-navigate-early-relationship-stages"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "name": "9takes"
+      },
+      "url": "https://9takes.com/enneagram-corner/how-to-navigate-early-relationship-stages",
+      "articleBody": "This comprehensive guide explores how each Enneagram type navigates the thrilling yet turbulent waters of early relationships. Whether you're a perfectionist Type 1 learning to embrace flaws, or a passionate Type 4 seeking depth in everyday moments, understanding your type can be a game-changer in your dating life. The guide covers all nine types with personalized strategies: Type 1 (Perfectionist) - embrace imperfect connections, Type 2 (Helper) - balance giving and receiving, Type 3 (Achiever) - show authenticity beyond image, Type 4 (Individualist) - find depth in ordinary moments, Type 5 (Investigator) - share your inner world gradually, Type 6 (Loyalist) - build trust through consistency, Type 7 (Enthusiast) - practice presence and depth, Type 8 (Challenger) - show vulnerability safely, Type 9 (Peacemaker) - express your true preferences. Each type section includes quick tips, texting advice, date ideas, and vulnerability strategies for building authentic connections in early relationships.",
+      "wordCount": 4200,
+      "keywords": [
+        "enneagram",
+        "dating",
+        "relationships",
+        "personality types",
+        "early relationships",
+        "dating tips",
+        "relationship advice",
+        "personality psychology"
+      ]
+    }
+  </script>
+</svelte:head>
+
 <p class="firstLetter">Have you ever wondered why you behave the way you do in new relationships?</p>
 
 Have you considered why certain dating behaviors feel natural while others are a struggle? Well the Enneagram is going to offer some insight.
