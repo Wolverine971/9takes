@@ -6,72 +6,24 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Preload critical font files -->
-		<!-- Use "crossorigin" if your server or setup requires CORS headers. 
-       If everything is on the same domain, you can omit it. -->
+		<!-- Preload critical font files (WOFF2 format for better performance) -->
 		<link
 			rel="preload"
-			href="/fonts/NoticiaText-Regular.ttf"
+			href="/fonts/NoticiaText-Regular.woff2"
 			as="font"
-			type="font/ttf"
+			type="font/woff2"
 			crossorigin
 		/>
-		<link rel="preload" href="/fonts/NoticiaText-Bold.ttf" as="font" type="font/ttf" crossorigin />
-		<!-- Repeat as needed for Italic, BoldItalic if you use those styles:
-       <link rel="preload" href="/fonts/NoticiaText-Italic.ttf" as="font" type="font/ttf" crossorigin>
-       <link rel="preload" href="/fonts/NoticiaText-BoldItalic.ttf" as="font" type="font/ttf" crossorigin>
-  -->
-
-		<!-- Define @font-face rules for Noticia Text (self-hosted) -->
-		<style>
-			@font-face {
-				font-family: 'Noticia Text';
-				src:
-					url('/fonts/NoticiaText-BoldItalic.woff2') format('woff2'),
-					url('/fonts/NoticiaText-BoldItalic.woff') format('woff');
-				font-weight: bold;
-				font-style: italic;
-				font-display: swap;
-			}
-
-			@font-face {
-				font-family: 'Noticia Text';
-				src:
-					url('/fonts/NoticiaText-Italic.woff2') format('woff2'),
-					url('/fonts/NoticiaText-Italic.woff') format('woff');
-				font-weight: normal;
-				font-style: italic;
-				font-display: swap;
-			}
-
-			@font-face {
-				font-family: 'Noticia Text';
-				src:
-					url('/fonts/NoticiaText-Regular.woff2') format('woff2'),
-					url('/fonts/NoticiaText-Regular.woff') format('woff');
-				font-weight: normal;
-				font-style: normal;
-				font-display: swap;
-			}
-
-			@font-face {
-				font-family: 'Noticia Text';
-				src:
-					url('/fonts/NoticiaText-Bold.woff2') format('woff2'),
-					url('/fonts/NoticiaText-Bold.woff') format('woff');
-				font-weight: bold;
-				font-style: normal;
-				font-display: swap;
-			}
-
-			/* Use the fallback or just specify the custom font directly */
-			body {
-				/* If using fallback: font-family: 'Noticia Fallback', serif; */
-				font-family: 'Noticia Text', serif;
-				margin: 0;
-				padding: 0;
-			}
-		</style>
+		<link 
+			rel="preload" 
+			href="/fonts/NoticiaText-Bold.woff2" 
+			as="font" 
+			type="font/woff2" 
+			crossorigin 
+		/>
+		
+		<!-- Load font stylesheet (contains @font-face declarations) -->
+		<link rel="stylesheet" href="/fonts/stylesheet.css" />
 
 		<!-- Insert any additional critical CSS or <link rel="alternate" ... > as needed -->
 		<link rel="alternate" type="application/rss+xml" href="https://9takes.com/rss.xml" />

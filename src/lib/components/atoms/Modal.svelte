@@ -46,25 +46,7 @@
 </Portal>
 
 <style lang="scss">
-	:root {
-		--fore-color: #2e3440;
-		--secondary-fore-color: #3b4252;
-		--back-color: #eceff4;
-		--secondary-back-color: #e5e9f0;
-		--border-color: #d8dee9;
-		--secondary-border-color: #e5e9f0;
-		--universal-margin: 0.5rem;
-		--universal-padding: 0.5rem;
-		--universal-border-radius: 0.25rem;
-		accent-color: #5e81ac;
-		--button-fore-color: #2e3440;
-		--button-border-color: transparent;
-		--button-hover-border-color: transparent;
-		--modal-overlay-color: rgba(0, 0, 0, 0.45);
-		--modal-close-color: #3b4252;
-		--modal-close-hover-color: #e5e9f0;
-		--modal-back-color: #fff;
-	}
+	/* Using global CSS variables from design system */
 	/* h2 {
 		@apply text-primary-content font-bold;
 	}
@@ -76,24 +58,37 @@
 		@apply text-2xl;
 	} */
 
-	modal {
-		border-radius: calc(2 * var(--universal-border-radius));
-		border-color: var(--border-color);
-		border-width: 4px;
-		box-shadow: 0 0 24px var(--modal-close-color);
-		padding: calc(2 * var(--universal-padding)) calc(4 * var(--universal-padding));
-		background-color: var(--modal-back-color);
-		max-width: 64ch;
-		margin: auto;
-		position: fixed;
-	}
-	::backdrop {
-		background-color: var(--modal-overlay-color);
-		backdrop-filter: blur(2px);
+	.modal {
+		@extend .modal-overlay;
 	}
 
-	modal form {
-		border: 0;
+	.modal-box {
+		@extend .modal-content;
+		max-width: 64ch;
+		padding: 2rem;
+	}
+
+	button {
+		@extend .modal-close;
+		font-size: 1.25rem;
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+
+	h2 {
+		color: var(--text-primary);
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin: 0 0 1rem 0;
+	}
+
+	.modal-action {
+		display: flex;
+		gap: 1rem;
+		justify-content: flex-end;
+		margin-top: 2rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--border-color);
 	}
 	modal #modalActions {
 		display: flex;

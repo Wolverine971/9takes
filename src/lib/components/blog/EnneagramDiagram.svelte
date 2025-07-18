@@ -280,9 +280,7 @@
 </script>
 
 <div class="relative mx-auto w-full max-w-4xl" bind:this={containerElement}>
-	<div
-		class="enneagram-container relative aspect-square w-full overflow-hidden rounded-xl border border-gray-200 bg-white p-6 shadow-lg md:p-8"
-	>
+	<div class="enneagram-container">
 		<svg class="h-full w-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 			<!-- Outer circle with subtle gradient -->
 			<defs>
@@ -327,7 +325,7 @@
 			{#if mounted}
 				<a
 					href={getTypeUrl(type.id)}
-					class="node-hover-effect absolute z-10 flex -translate-x-1/2 -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full shadow-md transition-all duration-300 ease-out"
+					class="node-hover-effect"
 					style="
 						left: {typePositions[index].x}%;
 						top: {typePositions[index].y}%;
@@ -356,7 +354,7 @@
 		{#each enneagramTypes as type, index}
 			{#if mounted && window.innerWidth > 400}
 				<div
-					class="absolute z-0 text-xs font-medium transition-opacity duration-200 md:text-sm"
+					class="enneagram-label"
 					style="
 						left: {getLabelPosition(index).left};
 						top: {getLabelPosition(index).top};
@@ -372,9 +370,7 @@
 						font-weight: {hoveredType === type.id ? '700' : '600'};
 					"
 				>
-					<span
-						class="label-text whitespace-nowrap rounded-md bg-white bg-opacity-90 px-1.5 py-0.5 shadow-sm"
-					>
+					<span class="label-text">
 						{type.name}
 					</span>
 				</div>
@@ -384,39 +380,39 @@
 		<!-- Tooltip with smooth transitions -->
 		{#if hoveredType && mounted}
 			<div
-				class="absolute z-20 w-64 rounded-lg border border-gray-200 bg-white p-4 shadow-xl md:w-72"
-				style={`left: ${getTooltipPosition().left}; top: ${getTooltipPosition().top}; transform: translate(-50%, -50%);`}
+				class="enneagram-tooltip"
+				style={`left: ${getTooltipPosition().left}; top: ${getTooltipPosition().top};`}
 				in:scale={{ duration: 200, delay: 50, opacity: 0, start: 0.9, easing: cubicOut }}
 				out:fade={{ duration: 150 }}
 			>
 				<!-- Header circle with hovered type number -->
 				<div
-					class="mx-auto mb-2 flex h-12 w-12 items-center justify-center rounded-full ring-2 ring-white"
+					class="enneagram-tooltip__header"
 					style={`background-color: ${enneagramTypes[hoveredType - 1].color}`}
 					in:scale={{ duration: 300, delay: 100, easing: elasticOut }}
 				>
-					<span class="text-lg font-bold text-white">{hoveredType}</span>
+					<span>{hoveredType}</span>
 				</div>
 
 				<!-- Type name -->
-				<h3 class="mb-1 text-center text-lg font-bold text-gray-800">
+				<h3 class="enneagram-tooltip__title">
 					{enneagramTypes[hoveredType - 1].name}
 				</h3>
 
 				<!-- Short excerpt from the description -->
-				<p class="mb-3 text-center text-sm text-gray-600">
+				<p class="enneagram-tooltip__description">
 					{enneagramTypes[hoveredType - 1].description.split('.')[0]}.
 				</p>
 
 				<!-- Growth & Stress quick info -->
-				<div class="flex text-xs">
-					<div class="w-1/2 border-r border-gray-200 pr-2">
-						<p class="mb-1 font-semibold text-gray-700">In Growth:</p>
-						<p class="text-gray-600">→ Type {getGrowthType(hoveredType)}</p>
+				<div class="enneagram-tooltip__info">
+					<div>
+						<p>In Growth:</p>
+						<p>→ Type {getGrowthType(hoveredType)}</p>
 					</div>
-					<div class="w-1/2 pl-2">
-						<p class="mb-1 font-semibold text-gray-700">In Stress:</p>
-						<p class="text-gray-600">→ Type {getStressType(hoveredType)}</p>
+					<div>
+						<p>In Stress:</p>
+						<p>→ Type {getStressType(hoveredType)}</p>
 					</div>
 				</div>
 			</div>
@@ -425,49 +421,12 @@
 </div>
 
 <style>
-	/* Adding a subtle pulse animation effect for nodes */
-	.node-hover-effect {
-		transition:
-			transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
-			box-shadow 0.3s ease;
-	}
-
-	.node-hover-effect:hover {
-		animation: pulse 2s infinite;
-	}
-
-	@keyframes pulse {
-		0% {
-			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
-		}
-		70% {
-			box-shadow: 0 0 0 6px rgba(0, 0, 0, 0);
-		}
-		100% {
-			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-		}
-	}
-
-	/* Improve label visibility with background and shadow */
-	.label-text {
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
-		transition: all 0.2s ease;
-	}
-
+	/* Remove any default link styling */
 	a {
 		display: flex;
 	}
-
-	/* Remove any default link styling */
+	
 	a::after {
 		content: none !important;
-	}
-
-	/* Responsive adjustments */
-	@media (max-width: 640px) {
-		.enneagram-container {
-			padding: 0.75rem;
-		}
 	}
 </style>

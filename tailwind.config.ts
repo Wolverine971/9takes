@@ -5,8 +5,8 @@ export default {
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
 		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}',
-		'./src/routes/**/*.{html,js,svelte,ts}',
-		'./src/routes/*.{html,js,svelte,ts}'
+		// Exclude SCSS files from purging as they use CSS variables
+		'!./src/**/*.scss'
 	],
 
 	plugins: [require('flowbite/plugin'), require('@tailwindcss/typography')],

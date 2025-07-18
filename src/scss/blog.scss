@@ -3,6 +3,8 @@
  * Blog specific styles - Optimized
  */
 
+@use 'index.scss' as *;
+
 .blog {
 	/* Link styling for blog content */
 	a {
@@ -105,7 +107,7 @@ blockquote {
 }
 
 /* Blog layout container */
-@media (min-width: 800px) {
+@include tablet-up {
 	.blog {
 		background-color: var(--card-background);
 		border-radius: var(--border-radius-lg);
@@ -123,7 +125,7 @@ blockquote {
 }
 
 /* Responsive adjustments */
-@media (max-width: 576px) {
+@include mobile {
 	.comment-box {
 		margin: 0.25rem 0;
 		padding: 0.5rem;
@@ -144,8 +146,8 @@ blockquote {
 }
 
 .insight-box {
-	background-color: #e8f5e9;
-	border-left: 4px solid #4caf50;
+	background-color: var(--success-light);
+	border-left: 4px solid var(--success-border);
 	padding: 15px;
 	margin: 20px 0;
 	border-radius: 5px;
@@ -154,13 +156,13 @@ blockquote {
 
 .insight-box h4 {
 	margin-top: 0;
-	color: #2e7d32;
+	color: var(--success-text);
 	font-weight: bold;
 }
 
 .visual-metaphor {
-	background-color: #e3f2fd;
-	border-left: 4px solid #2196f3;
+	background-color: var(--info-light);
+	border-left: 4px solid var(--info-border);
 	padding: 15px;
 	margin: 20px 0;
 	border-radius: 5px;
@@ -169,13 +171,13 @@ blockquote {
 
 .visual-metaphor h4 {
 	margin-top: 0;
-	color: #1565c0;
+	color: var(--info-text);
 	font-weight: bold;
 }
 
 .checklist-container {
-	background-color: #fafafa;
-	border: 1px solid #e0e0e0;
+	background-color: var(--neutral-light);
+	border: 1px solid var(--neutral-border);
 	border-radius: 8px;
 	padding: 20px;
 	margin: 25px 0;
@@ -186,7 +188,7 @@ blockquote {
 	text-align: center;
 	font-size: 1.4em;
 	margin-bottom: 20px;
-	color: #424242;
+	color: var(--neutral-text);
 }
 
 .checklist-item {
@@ -208,16 +210,16 @@ blockquote {
 .results-section {
 	margin-top: 20px;
 	padding-top: 15px;
-	border-top: 1px dotted #bdbdbd;
+	border-top: 1px dotted var(--neutral-divider);
 	font-style: italic;
-	color: #616161;
+	color: var(--muted-text);
 }
 
 .quote-box {
 	font-style: italic;
 	padding: 15px 20px;
-	background-color: #fff8e1;
-	border-left: 4px solid #ffc107;
+	background-color: var(--warning-light);
+	border-left: 4px solid var(--warning-border);
 	margin: 20px 0;
 	font-size: 1.05em;
 }

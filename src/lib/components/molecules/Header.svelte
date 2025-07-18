@@ -45,25 +45,15 @@
 
 <svelte:window bind:innerWidth />
 
-<header class="nav-main relative z-50 border-b border-neutral-100 bg-white shadow-sm">
+<header class="nav-main">
 	{#if isMobile}
 		<!-- Mobile Header -->
 		<div class="flex h-16 items-center justify-between px-4">
 			<MobileNav {navItems} {blogItems} />
 
 			<!-- Logo - centered -->
-			<a
-				href="/"
-				class="absolute left-1/2 flex -translate-x-1/2 transform items-center rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
-				aria-label="Go to homepage"
-			>
-				<img
-					src="/brand/aero.png"
-					alt="9takes Logo"
-					height="60"
-					width="60"
-					class="transition-transform duration-200 hover:scale-110"
-				/>
+			<a href="/" class="logo-link absolute left-1/2 -translate-x-1/2 transform" aria-label="Go to homepage">
+				<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
 			</a>
 
 			<!-- Account button -->
@@ -215,62 +205,3 @@
 	{/if}
 </header>
 
-<style lang="scss">
-	.dropdown-menu {
-		animation: fadeInScale 0.15s ease-out forwards;
-		transform-origin: top center;
-
-		li {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-
-			&::marker {
-				display: none;
-			}
-		}
-	}
-
-	@keyframes fadeInScale {
-		from {
-			opacity: 0;
-			transform: translate(-50%, -4px) scale(0.95);
-		}
-		to {
-			opacity: 1;
-			transform: translate(-50%, 0) scale(1);
-		}
-	}
-
-	.nav-link {
-		position: relative;
-		cursor: pointer;
-		background: transparent;
-		text-decoration: none !important;
-		border: none;
-
-		&::after {
-			content: '';
-			position: absolute;
-			bottom: 0;
-			left: 50%;
-			height: 2px;
-			width: 0;
-			background-color: theme('colors.primary.700');
-			transition: all 0.2s ease;
-			transform: translateX(-50%);
-		}
-
-		&:hover::after {
-			width: 80%;
-		}
-	}
-
-	.active-link {
-		color: theme('colors.primary.700');
-
-		&::after {
-			width: 80%;
-		}
-	}
-</style>
