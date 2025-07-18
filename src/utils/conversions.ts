@@ -10,7 +10,13 @@ export const convertDateToReadable = (date: string): string => {
 	return newdate;
 };
 
-export const getCommentParents = async (comments: any[]) => {
+interface Comment {
+	id: number;
+	parent_id: number | null;
+	parent_type: string;
+}
+
+export const getCommentParents = async (comments: Comment[]) => {
 	const commentsOnQuestions = comments.filter(
 		(comment) => comment.parent_id !== null && comment.parent_type === 'question'
 	);

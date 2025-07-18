@@ -4,10 +4,6 @@
 	import QRCode from 'qrcode';
 	import { fade } from 'svelte/transition';
 
-	// Import necessary for PDF export
-	import { toPng } from 'html-to-image';
-	import { jsPDF } from 'jspdf';
-
 	// State for the poster
 	let question = 'Who do you look up to and why?';
 	let questionUrl = 'https://9takes.com/question-of-the-day';
@@ -15,6 +11,8 @@
 	let activeTab = 'content';
 	let exporting = false;
 	let posterRef;
+	let toPng: any;
+	let jsPDF: any;
 
 	// Poster format settings
 	let posterFormat = 'letter';
@@ -412,6 +410,16 @@
 		try {
 			exporting = true;
 
+			// Dynamically import libraries when needed
+			if (!toPng || !jsPDF) {
+				const [htmlToImageModule, jsPDFModule] = await Promise.all([
+					import('html-to-image'),
+					import('jspdf')
+				]);
+				toPng = htmlToImageModule.toPng;
+				jsPDF = jsPDFModule.jsPDF;
+			}
+
 			// Get the current poster format settings
 			const format = posterFormats.find((f) => f.id === posterFormat);
 
@@ -450,6 +458,12 @@
 
 		try {
 			exporting = true;
+
+			// Dynamically import toPng when needed
+			if (!toPng) {
+				const htmlToImageModule = await import('html-to-image');
+				toPng = htmlToImageModule.toPng;
+			}
 
 			// Convert the poster to a PNG using html-to-image
 			const dataUrl = await toPng(posterRef, {

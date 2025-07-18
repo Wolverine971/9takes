@@ -2,10 +2,10 @@
 import { Client } from '@elastic/elasticsearch';
 // import type { Request, Response } from '@sveltejs/kit';
 
-import { PRIVATE_ELASTIC_GENERAL, PRIVATE_ELASTIC_ADMIN } from '$env/static/private';
+import { PRIVATE_ELASTIC_GENERAL, PRIVATE_ELASTIC_ADMIN, PRIVATE_ELASTICSEARCH_NODE } from '$env/static/private';
 
 export const elasticClient = new Client({
-	node: 'http://69.164.208.9',
+	node: PRIVATE_ELASTICSEARCH_NODE || 'http://localhost:9200',
 	auth: { username: 'elastic', password: PRIVATE_ELASTIC_ADMIN }
 	// auth: { username: 'anon', password: PRIVATE_ELASTIC_GENERAL }
 });

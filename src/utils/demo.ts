@@ -1,5 +1,7 @@
 // utils/demo.ts
-export const mapDemoValues = (values: { [x: string]: any }[] | { [x: string]: any } | null) => {
+type DemoValue = Record<string, unknown>;
+
+export const mapDemoValues = (values: DemoValue[] | DemoValue | null): DemoValue[] | DemoValue | null => {
 	if (!values) {
 		return null;
 	}
@@ -8,7 +10,7 @@ export const mapDemoValues = (values: { [x: string]: any }[] | { [x: string]: an
 			return [];
 		}
 		return values.map((value) => {
-			const newValue: any = {};
+			const newValue: DemoValue = {};
 			Object.keys(value).forEach((key) => {
 				if (key.includes('_demo')) {
 					const newKey = key.replace('_demo', '');
@@ -20,7 +22,7 @@ export const mapDemoValues = (values: { [x: string]: any }[] | { [x: string]: an
 			return newValue;
 		});
 	} else {
-		const newValue: any = {};
+		const newValue: DemoValue = {};
 		Object.keys(values).forEach((key) => {
 			if (key.includes('_demo')) {
 				const newKey = key.replace('_demo', '');

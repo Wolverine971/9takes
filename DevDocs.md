@@ -12,8 +12,8 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "the-MBTI-sucks.png" -o "the-MBTI-sucks.webp"
-cwebp -sns 70 -f 50 -size 20000 "the-MBTI-sucks.webp" -o "./s-the-MBTI-sucks.webp"
+cwebp "dj-wayne-profile.jpg" -o "dj-wayne-profile.webp"
+cwebp -sns 70 -f 50 -size 20000 "dj-wayne-profile.webp" -o "./s-dj-wayne-profile.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

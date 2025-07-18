@@ -29,7 +29,7 @@ export const load: PageServerLoad = async () => {
 		top9Questions && top9Questions.length > 0 ? top9Questions[questionIndex] : null;
 
 	// Rest of your existing code
-	let images: any[] = [];
+	let images: Array<{ img_url: string; img_alt: string }> = [];
 
 	const { data: famousPeople, error: famousPeopleError } = await supabase
 		.from('blogs_famous_people')

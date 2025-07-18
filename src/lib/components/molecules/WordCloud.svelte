@@ -1,16 +1,23 @@
 <!-- lib/components/molecules/WordCloud.svelte -->
 <script>
 	import { onMount } from 'svelte';
-	import * as d3 from 'd3';
-	import cloud from 'd3-cloud';
 
 	export let words = [];
 	export let width = 800;
 	export let height = 400;
 
 	let svg;
+	let d3;
+	let cloud;
 
-	onMount(() => {
+	onMount(async () => {
+		// Dynamically import d3 libraries
+		const [d3Module, cloudModule] = await Promise.all([
+			import('d3'),
+			import('d3-cloud')
+		]);
+		d3 = d3Module;
+		cloud = cloudModule.default;
 		const layout = cloud()
 			.size([width, height])
 			.words(words.map((d) => ({ ...d, text: d.text, size: d.value })))

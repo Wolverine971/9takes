@@ -11,7 +11,7 @@ export const load: LayoutServerLoad = async (event) => {
 		console.log(adminSettingsError);
 	}
 
-	let parents: any = [];
+	let parents: { name: string; slug: string }[] = [];
 	if (event.url.pathname.includes('/categories')) {
 		const slug = event.url.pathname.split('/').pop();
 

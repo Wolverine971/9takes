@@ -47,26 +47,6 @@ export const load = async (
 		)
 	);
 
-	const enneagramBlogPosts = await Promise.all(enneagramPromises);
-	const enneagramMap = {};
-	const { data: enneagramContent, error: enneagramContentError } = await supabase
-		.from(`content_enneagram`)
-		.select('*');
-
-	if (enneagramContentError) {
-		console.log(enneagramContentError);
-	}
-	enneagramContent.forEach((content) => {
-		enneagramMap[content.loc] = content;
-	});
-	const enneagramPosts = enneagramBlogPosts.map((post) => {
-		const content = enneagramMap[post.loc];
-		return {
-			...post,
-			stageName: content?.stageName
-		};
-	});
-
 	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
 	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
 		resolver().then(
@@ -78,28 +58,7 @@ export const load = async (
 		)
 	);
 
-	const communityBlogPosts = await Promise.all(communityPromises);
-	const communityMap = {};
-	const { data: communityContent, error: communityContentError } = await supabase
-		.from(`content_community`)
-		.select('*');
-
-	if (communityContentError) {
-		console.log(communityContentError);
-	}
-	communityContent.forEach((content) => {
-		communityMap[content.loc] = content;
-	});
-	const communityPosts = communityBlogPosts.map((post) => {
-		const content = communityMap[post.loc];
-		return {
-			...post,
-			stageName: content?.stageName
-		};
-	});
-
 	const guidesModules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
-
 	const guidesPromises = Object.entries(guidesModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
@@ -110,18 +69,72 @@ export const load = async (
 		)
 	);
 
-	const guidesBlogPosts = await Promise.all(guidesPromises);
-	const guidesMap = {};
-	const { data: guidesContent, error: guidesContentError } = await supabase
-		.from(`content_guides`)
-		.select('*');
+	// Execute all promises in parallel
+	const [
+		enneagramBlogPosts,
+		communityBlogPosts,
+		guidesBlogPosts,
+		enneagramContent,
+		communityContent,
+		guidesContent,
+		peopleContent,
+		peopleBlogPosts
+	] = await Promise.all([
+		Promise.all(enneagramPromises),
+		Promise.all(communityPromises),
+		Promise.all(guidesPromises),
+		supabase.from(`content_enneagram`).select('*'),
+		supabase.from(`content_community`).select('*'),
+		supabase.from(`content_guides`).select('*'),
+		supabase.from(`content_people`).select('*'),
+		supabase.from('blogs_famous_people').select('*')
+	]);
 
-	if (guidesContentError) {
-		console.log(guidesContentError);
-	}
-	guidesContent.forEach((content) => {
-		guidesMap[content.loc] = content;
+	// Handle errors
+	if (enneagramContent.error) console.log(enneagramContent.error);
+	if (communityContent.error) console.log(communityContent.error);
+	if (guidesContent.error) console.log(guidesContent.error);
+	if (peopleContent.error) console.log(peopleContent.error);
+	if (peopleBlogPosts.error) console.log(peopleBlogPosts.error);
+
+	// Create maps using reduce for better performance
+	const enneagramMap = (enneagramContent.data || []).reduce((acc, content) => {
+		acc[content.loc] = content;
+		return acc;
+	}, {});
+
+	const communityMap = (communityContent.data || []).reduce((acc, content) => {
+		acc[content.loc] = content;
+		return acc;
+	}, {});
+
+	const guidesMap = (guidesContent.data || []).reduce((acc, content) => {
+		acc[content.loc] = content;
+		return acc;
+	}, {});
+
+	const peopleMap = (peopleContent.data || []).reduce((acc, content) => {
+		acc[content.loc] = content;
+		return acc;
+	}, {});
+
+	// Map posts with stage names
+	const enneagramPosts = enneagramBlogPosts.map((post) => {
+		const content = enneagramMap[post.loc];
+		return {
+			...post,
+			stageName: content?.stageName
+		};
 	});
+
+	const communityPosts = communityBlogPosts.map((post) => {
+		const content = communityMap[post.loc];
+		return {
+			...post,
+			stageName: content?.stageName
+		};
+	});
+
 	const guidesPosts = guidesBlogPosts.map((post) => {
 		const content = guidesMap[post.loc];
 		return {
@@ -130,28 +143,7 @@ export const load = async (
 		};
 	});
 
-	// Updated people blogs section - now using Supabase instead of file imports
-	const { data: peopleBlogPosts, error: peopleBlogPostsError } = await supabase
-		.from('blogs_famous_people')
-		.select('*');
-
-	if (peopleBlogPostsError) {
-		console.log(peopleBlogPostsError);
-	}
-
-	const peopleMap = {};
-	const { data: peopleContent, error: peopleContentError } = await supabase
-		.from(`content_people`)
-		.select('*');
-
-	if (peopleContentError) {
-		console.log(peopleContentError);
-	}
-	peopleContent.forEach((content) => {
-		peopleMap[content.loc] = content;
-	});
-
-	const peoplePosts = (peopleBlogPosts || []).map((post) => {
+	const peoplePosts = (peopleBlogPosts.data || []).map((post) => {
 		const content = peopleMap[post.loc];
 		return {
 			...post,

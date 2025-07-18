@@ -11,7 +11,6 @@
 	import { fade, fly } from 'svelte/transition';
 	import type { PageData } from './$types';
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
-	import html2canvas from 'html2canvas';
 	export let data: PageData;
 
 	let question = '';
@@ -19,6 +18,7 @@
 	let loading = false;
 	let qrImageSrc = '';
 	let imgPreview = '';
+	let html2canvas: any;
 
 	$: isQuestionValid = question.trim().length > 0;
 
@@ -67,6 +67,13 @@
 	async function createQuestion() {
 		try {
 			loading = true;
+			
+			// Dynamically import html2canvas when needed
+			if (!html2canvas) {
+				const html2canvasModule = await import('html2canvas');
+				html2canvas = html2canvasModule.default;
+			}
+			
 			const questionNode = document.getElementById('question-pic');
 
 			// Get the computed styles of the original element
@@ -162,6 +169,12 @@
 	}
 
 	const showImage = async () => {
+		// Dynamically import html2canvas when needed
+		if (!html2canvas) {
+			const html2canvasModule = await import('html2canvas');
+			html2canvas = html2canvasModule.default;
+		}
+		
 		const questionNode = document.getElementById('question-pic');
 
 		// Get the computed styles of the original element

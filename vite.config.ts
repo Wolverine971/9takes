@@ -60,6 +60,40 @@ const config = {
 				api: 'modern-compiler'
 			}
 		}
+	},
+	build: {
+		rollupOptions: {
+			output: {
+				manualChunks: {
+					// Core dependencies
+					'vendor-core': ['svelte', '@sveltejs/kit'],
+					'vendor-supabase': ['@supabase/supabase-js', '@supabase/auth-helpers-sveltekit'],
+					
+					// Chart and visualization libraries
+					'vendor-charts': ['d3', 'd3-cloud'],
+					
+					// Image and PDF processing libraries
+					'vendor-media': ['html2canvas', 'html-to-image', 'jspdf'],
+					
+					// Utility libraries
+					'vendor-utils': ['qrcode', 'axios', 'uuid', 'pluralize'],
+					
+					// UI libraries
+					'vendor-ui': ['flowbite', 'flowbite-svelte'],
+					
+					// AWS and other services
+					'vendor-services': ['aws-sdk', '@elastic/elasticsearch'],
+					
+					// Google services
+					'vendor-google': ['googleapis']
+				}
+			}
+		},
+		// Optimize chunk size
+		chunkSizeWarningLimit: 1000,
+		// Improve performance
+		target: 'esnext',
+		minify: 'esbuild'
 	}
 };
 
