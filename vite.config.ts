@@ -60,39 +60,6 @@ const config = {
 				api: 'modern-compiler'
 			}
 		}
-	},
-	build: {
-		rollupOptions: {
-			output: {
-				manualChunks: {
-					// Core dependencies
-					'vendor-core': ['svelte', '@sveltejs/kit'],
-
-					// Chart and visualization libraries
-					'vendor-charts': ['d3', 'd3-cloud'],
-
-					// Image and PDF processing libraries
-					'vendor-media': ['html2canvas', 'html-to-image', 'jspdf'],
-
-					// Utility libraries
-					'vendor-utils': ['qrcode', 'axios', 'uuid', 'pluralize'],
-
-					// UI libraries
-					'vendor-ui': ['flowbite', 'flowbite-svelte'],
-
-					// ⚠️ Removed server-only or external modules:
-					// - '@supabase/supabase-js'
-					// - 'aws-sdk'
-					// - '@elastic/elasticsearch'
-					// - 'googleapis'
-					}
-			}
-		},
-		// Optimize chunk size
-		chunkSizeWarningLimit: 1000,
-		// Improve performance
-		target: 'esnext',
-		minify: 'esbuild'
 	}
 };
 
