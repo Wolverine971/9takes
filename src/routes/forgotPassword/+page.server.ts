@@ -22,7 +22,7 @@ export const actions: Actions = {
 		// Get the site URL for proper redirect
 		const siteUrl = url.origin;
 
-		const { error: err } = await locals.sb.auth.resetPasswordForEmail(body.email as string, {
+		const { error: err } = await locals.supabase.auth.resetPasswordForEmail(body.email as string, {
 			redirectTo: `${siteUrl}/resetPassword`
 		});
 

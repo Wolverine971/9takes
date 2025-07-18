@@ -212,6 +212,12 @@
 	background: rgba(0, 0, 0, 0.5);
 	backdrop-filter: blur(4px);
 	padding: 1rem;
+	
+	@include mobile {
+		padding: 0.5rem;
+		align-items: flex-start;
+		padding-top: 2rem;
+	}
 }
 
 .modal-content {
@@ -223,16 +229,37 @@
 	max-height: 90vh;
 	overflow-y: auto;
 	position: relative;
+	margin: 0 auto;
+	
+	@include mobile {
+		max-width: 100%;
+		max-height: calc(100vh - 3rem);
+		border-radius: var(--border-radius) var(--border-radius) 0 0;
+		margin-top: auto;
+	}
+	
+	@media (max-width: 480px) {
+		max-width: 28rem;
+	}
 }
 
 .modal-header {
 	padding: 1.5rem 1.5rem 0;
 	border-bottom: 1px solid var(--border-color);
 	margin-bottom: 1.5rem;
+	
+	@include mobile {
+		padding: 1rem 1rem 0;
+		margin-bottom: 1rem;
+	}
 }
 
 .modal-body {
 	padding: 0 1.5rem 1.5rem;
+	
+	@include mobile {
+		padding: 0 1rem 1rem;
+	}
 }
 
 .modal-close {
@@ -731,13 +758,21 @@
 
 .mobile-nav__menu {
 	padding: 1.5rem;
-	width: 280px;
+	width: 320px;
 	max-width: 90vw;
 	background-color: var(--card-background);
 	border-radius: var(--border-radius-lg);
 	box-shadow: var(--shadow-lg);
 	overflow-y: auto;
 	max-height: calc(100vh - 80px);
+	animation: slideInFade 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+	
+	@include mobile {
+		width: 280px;
+		max-width: 95vw;
+		padding: 1rem;
+		max-height: calc(100vh - 60px);
+	}
 
 	ul {
 		list-style: none;
@@ -753,17 +788,24 @@
 			font-size: 1.25rem;
 			color: var(--text-primary);
 			text-decoration: none;
-			padding: 0.5rem 0;
-			transition: color 0.3s ease;
+			padding: 0.75rem 1rem;
+			border-radius: var(--border-radius);
+			transition: all 0.2s ease;
 
 			&:hover,
 			&.is-active {
 				color: var(--primary);
+				background-color: rgba(162, 155, 254, 0.1);
 			}
 
 			&:focus-visible {
 				outline: 2px solid var(--primary);
 				outline-offset: 2px;
+			}
+			
+			@include mobile {
+				font-size: 1.125rem;
+				padding: 0.625rem 0.875rem;
 			}
 		}
 
@@ -786,17 +828,24 @@
 		text-align: left;
 		font-size: 1.25rem;
 		color: var(--text-primary);
-		padding: 0.5rem 0;
+		padding: 0.75rem 1rem;
+		border-radius: var(--border-radius);
 		cursor: pointer;
-		transition: color 0.3s ease;
+		transition: all 0.2s ease;
 
 		&:hover {
 			color: var(--primary);
+			background-color: rgba(162, 155, 254, 0.1);
 		}
 
 		&:focus-visible {
 			outline: 2px solid var(--primary);
 			outline-offset: 2px;
+		}
+		
+		@include mobile {
+			font-size: 1.125rem;
+			padding: 0.625rem 0.875rem;
 		}
 	}
 }
@@ -827,13 +876,23 @@
 .mobile-nav__submenu {
 	padding-left: 1.25rem;
 	margin-top: 0.75rem;
-	border-left: 1px solid var(--border-color);
+	border-left: 2px solid var(--primary-light);
 
 	li {
 		margin-bottom: 0.75rem;
 
 		a {
 			font-size: 1.125rem;
+			padding: 0.625rem 0.75rem;
+			
+			@include mobile {
+				font-size: 1rem;
+				padding: 0.5rem 0.625rem;
+			}
+		}
+		
+		&:last-child {
+			margin-bottom: 0;
 		}
 	}
 }
@@ -1333,6 +1392,17 @@
 	}
 }
 
+@keyframes slideInFade {
+	from {
+		opacity: 0;
+		transform: translateY(-20px) scale(0.95);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+}
+
 .logo-link {
 	display: flex;
 	align-items: center;
@@ -1401,7 +1471,8 @@
 .dropdown-arrow {
 	transition: transform 0.2s ease;
 	
-	&.rotated {
+	&.rotated,
+	&.rotate-180 {
 		transform: rotate(180deg);
 	}
 }

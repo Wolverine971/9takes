@@ -78,18 +78,21 @@
 <div class="relative z-40 flex items-center">
 	<!-- Menu toggle button -->
 	<button
-		class="hamburger-btn flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border-none bg-transparent transition-colors duration-200 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+		class="mobile-nav__toggle"
 		aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
 		tabindex="0"
 		on:click={toggleMenu}
 		aria-expanded={isMenuOpen}
 		aria-controls="mobile-menu"
 	>
-		<span class="hamburger-icon relative flex h-6 w-6 items-center justify-center">
-			<span
-				class="hamburger-line absolute left-0 h-0.5 w-full bg-neutral-800 transition-all duration-300 ease-in-out"
-				class:active={isMenuOpen}
-			></span>
+		<span class="mobile-nav__icon">
+			{#if isMenuOpen}
+				<span class="mobile-nav__close"></span>
+			{:else}
+				<span class="mobile-nav__line"></span>
+				<span class="mobile-nav__line"></span>
+				<span class="mobile-nav__line"></span>
+			{/if}
 		</span>
 	</button>
 
@@ -105,7 +108,7 @@
 			<Context>
 				<nav
 					id="mobile-menu"
-					class="mobile-nav max-h-[80vh] w-[320px] max-w-[90vw] overflow-y-auto rounded-xl border border-neutral-200 bg-white shadow-2xl"
+					class="mobile-nav__menu"
 					aria-label="Mobile Navigation"
 					use:onClickOutside={closeMenu}
 				>
@@ -119,8 +122,7 @@
 								<li class="m-0 list-none p-0">
 									<a
 										{href}
-										class="mobile-nav-link flex w-full items-center rounded-lg px-4 py-3 text-lg font-semibold text-neutral-800 transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:bg-primary-50 focus:text-primary-700 focus:outline-none"
-										class:active={$page.url.pathname === href}
+										class:is-active={$page.url.pathname === href}
 										on:click={closeMenu}
 										aria-current={$page.url.pathname === href ? 'page' : undefined}
 									>
@@ -133,40 +135,26 @@
 							<li class="relative m-0 list-none p-0">
 								<button
 									type="button"
-									class="mobile-nav-link flex w-full items-center justify-between rounded-lg px-4 py-3 text-left text-lg font-semibold text-neutral-800 transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:bg-primary-50 focus:text-primary-700 focus:outline-none"
+									class="mobile-nav__dropdown-toggle"
 									aria-haspopup="true"
 									aria-expanded={isDropdownOpen}
 									aria-controls="mobile-blog-menu"
 									on:click={toggleDropdown}
 								>
 									Blog
-									<svg
-										class="chevron-icon h-5 w-5 transition-transform duration-200 ease-in-out"
-										class:rotate-180={isDropdownOpen}
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-									>
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M19 9l-7 7-7-7"
-										/>
-									</svg>
+									<span class="mobile-nav__arrow" class:is-open={isDropdownOpen}></span>
 								</button>
 
 								{#if isDropdownOpen}
 									<ul
 										id="mobile-blog-menu"
-										class="m-0 mt-2 list-none space-y-1 border-l-2 border-primary-200 pl-4"
+										class="mobile-nav__submenu"
 									>
 										{#each blogItems as { href, label }}
 											<li class="m-0 list-none p-0">
 												<a
 													{href}
-													class="mobile-nav-link flex w-full items-center rounded-lg px-3 py-2.5 text-base font-medium text-neutral-700 transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:bg-primary-50 focus:text-primary-700 focus:outline-none"
-													class:active={$page.url.pathname === href}
+													class:is-active={$page.url.pathname === href}
 													on:click={closeMenu}
 													aria-current={$page.url.pathname === href ? 'page' : undefined}
 												>
@@ -182,8 +170,7 @@
 							<li class="m-0 list-none p-0">
 								<a
 									href="/about"
-									class="mobile-nav-link flex w-full items-center rounded-lg px-4 py-3 text-lg font-semibold text-neutral-800 transition-all duration-200 hover:bg-primary-50 hover:text-primary-700 focus:bg-primary-50 focus:text-primary-700 focus:outline-none"
-									class:active={$page.url.pathname === '/about'}
+									class:is-active={$page.url.pathname === '/about'}
 									on:click={closeMenu}
 									aria-current={$page.url.pathname === '/about' ? 'page' : undefined}
 								>
@@ -198,89 +185,8 @@
 	{/if}
 </div>
 
-<style lang="scss">
-	// Reset list styles
-	ul,
-	li {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	li::marker {
-		display: none;
-		content: none;
-	}
-
-	// Hamburger animation
-	.hamburger-icon {
-		.hamburger-line {
-			&::before,
-			&::after {
-				content: '';
-				position: absolute;
-				left: 0;
-				height: 0.125rem;
-				width: 100%;
-				background-color: currentColor;
-				transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-			}
-
-			&::before {
-				top: -8px;
-			}
-
-			&::after {
-				bottom: -8px;
-			}
-
-			&.active {
-				background-color: transparent;
-
-				&::before {
-					top: 0;
-					transform: rotate(45deg);
-				}
-
-				&::after {
-					bottom: 0;
-					transform: rotate(-45deg);
-				}
-			}
-		}
-	}
-
-	// Mobile navigation animation
-	.mobile-nav {
-		animation: slideInFade 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-	}
-
-	@keyframes slideInFade {
-		from {
-			opacity: 0;
-			transform: translateY(-20px) scale(0.95);
-		}
-		to {
-			opacity: 1;
-			transform: translateY(0) scale(1);
-		}
-	}
-
-	// Active link styles
-	.mobile-nav-link {
-		position: relative;
-		text-decoration: none;
-		border: none;
-		background: transparent;
-
-		&.active {
-			background-color: theme('colors.primary.50');
-			color: theme('colors.primary.700');
-			font-weight: 600;
-		}
-	}
-
-	// Screen reader only content
+<style>
+	/* Screen reader only content */
 	.sr-only {
 		position: absolute;
 		width: 1px;

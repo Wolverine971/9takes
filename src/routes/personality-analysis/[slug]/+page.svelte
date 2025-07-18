@@ -169,12 +169,7 @@
 		<ArticleSubTitle metaData={post} />
 	</div>
 
-	<div
-		style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
-	>
+	<div class="featured-image">
 		<PopCard
 			image={`/types/${post.enneagram}s/${post.person}.webp`}
 			showIcon={false}
@@ -260,38 +255,57 @@
 		margin-bottom: 2rem;
 	}
 
+	.featured-image {
+		display: flex;
+		justify-content: center;
+		margin: 1rem 0;
+	}
+
+	.article-body {
+		margin-bottom: 2rem;
+	}
+
+	.sidebar-container {
+		@include tablet-up {
+			position: fixed;
+			top: 20%;
+			right: 20px;
+			max-width: 250px;
+			z-index: 100;
+		}
+	}
+
 	.section-divider {
 		margin: 5rem 0;
 		border: 0;
 		border-top: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
 	}
 
+	.join {
+		margin-top: 2rem;
+	}
+
 	.loading-placeholder {
+		@extend .card-base;
 		height: 100px;
-		width: 100%;
-		background-color: #f9f9f9;
-		border-radius: 8px;
 		margin: 1rem 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		background-color: var(--neutral-100);
 	}
 
 	.loading-spinner {
 		width: 30px;
 		height: 30px;
-		border: 3px solid #eee;
-		border-top: 3px solid #666;
+		border: 3px solid var(--neutral-200);
+		border-top: 3px solid var(--primary);
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
 	}
 
 	@keyframes spin {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
 	}
 </style>

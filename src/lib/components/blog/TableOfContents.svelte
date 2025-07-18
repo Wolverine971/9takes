@@ -388,49 +388,42 @@
 
 <style lang="scss">
 	.toc-sidebar {
+		@extend .card-base;
 		position: fixed;
 		top: 50%;
 		transform: translateY(-50%);
-		width: 220px; /* Slightly wider to accommodate longer text */
-		font-size: 0.875rem;
-		line-height: 1.25;
-		max-width: 14rem; /* Increased from 12rem */
-		background-color: var(--color-background, white);
-		border-radius: 0.5rem;
-		padding: 1rem;
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+		width: 220px;
+		font-size: var(--font-size-sm);
+		line-height: var(--line-height-tight);
+		max-width: 14rem;
 		z-index: 10;
 		overflow: hidden;
-
-		// Option: add subtle border
-		border: 1px solid var(--color-border, rgba(0, 0, 0, 0.05));
 	}
 
 	.toc-title {
-		margin: 0;
+		margin: 0 0 0.5rem 0;
 		padding: 0;
-		font-size: 1rem;
-		font-weight: 600;
-		margin-bottom: 0.5rem;
-		color: var(--color-heading, #333);
+		font-size: var(--font-size-base);
+		font-weight: var(--font-weight-semibold);
+		color: var(--text-primary);
 	}
 
 	.toc-accordion {
+		@extend .card-base;
 		margin: 1.5rem 0;
-		border: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
-		border-radius: 0.5rem;
-		background-color: var(--color-background-secondary, #f9f9f9);
+		background-color: var(--neutral-50);
 		overflow: hidden;
 	}
 
 	.toc-summary {
-		font-weight: 600;
-		font-size: 1.1rem;
+		font-weight: var(--font-weight-semibold);
+		font-size: var(--font-size-lg);
 		padding: 1rem;
 		cursor: pointer;
 		display: block;
 		outline: none;
-		color: var(--color-heading, #333);
+		color: var(--text-primary);
+		transition: var(--transition-base);
 
 		&::-webkit-details-marker {
 			display: none;
@@ -440,8 +433,12 @@
 			content: '▶';
 			display: inline-block;
 			margin-right: 0.5rem;
-			font-size: 0.8rem;
-			transition: transform 0.2s;
+			font-size: var(--font-size-sm);
+			transition: var(--transition-base);
+		}
+
+		&:hover {
+			color: var(--primary);
 		}
 
 		:global(details[open]) > &::before {
@@ -485,28 +482,21 @@
 	:global(.toc-level-h3) {
 		padding-left: 0;
 		padding-right: 4px;
-		font-size: 0.8125rem;
+		font-size: var(--font-size-xs);
 		opacity: 0.9;
 	}
 
 	:global(.toc-link) {
-		text-decoration: none;
-		color: var(--primary, #0066cc);
+		@extend .link-subtle;
 		display: block !important;
 		width: 100%;
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;
-		transition: color 0.2s ease;
-		padding-right: 8px; /* Add padding to ensure text doesn't touch the edge */
+		padding-right: 8px;
 		box-sizing: border-box;
-		font-size: 0.875rem; /* Slightly smaller font size for better fit */
-		line-height: 1.4;
-
-		&:hover {
-			text-decoration: underline !important;
-			color: var(--primary-dark, #004499);
-		}
+		font-size: var(--font-size-sm);
+		line-height: var(--line-height-relaxed);
 
 		&::after {
 			content: none !important;
@@ -514,10 +504,9 @@
 		}
 	}
 
-	/* Handle active states for TOC links */
 	:global(.toc-link.active) {
-		font-weight: 600;
-		color: var(--primary-dark, #004499);
+		font-weight: var(--font-weight-semibold);
+		color: var(--primary-dark);
 	}
 
 	/* Responsive adjustments */

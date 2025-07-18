@@ -8,8 +8,7 @@ declare namespace App {
 	// interface Platform {}
 }
 
-import type { TypedSupabaseClient } from '@supabase/auth-helpers-sveltekit/dist/types';
-import type { Session } from '@supabase/supabase-js';
+import type { Session, SupabaseClient, User } from '@supabase/supabase-js';
 
 interface TakesUser extends User {
 	first_name: string;
@@ -35,8 +34,10 @@ declare global {
 	declare namespace App {
 		// interface Error {}
 		interface Locals {
-			sb: TypedSupabaseClient;
-			session: SbSession | Session | null;
+			supabase: SupabaseClient;
+			safeGetSession: () => Promise<{ session: Session | null; user: User | null }>;
+			session: Session | null;
+			user: User | null;
 		}
 		interface PageData {
 			session: SbSession | null;

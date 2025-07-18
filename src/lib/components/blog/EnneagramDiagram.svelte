@@ -420,13 +420,12 @@
 	</div>
 </div>
 
-<style>
-	/* Remove any default link styling */
+<style lang="scss">
 	a {
 		display: flex;
-	}
-	
-	a::after {
-		content: none !important;
+		
+		&::after {
+			content: none !important;
+		}
 	}
 </style>

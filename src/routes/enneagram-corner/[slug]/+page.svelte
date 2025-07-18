@@ -59,14 +59,14 @@
 </script>
 
 <article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog" id="blogA">
-	<div style="align-items: inherit;">
+	<div class="article-header">
 		<BlogPageHead data={data.frontmatter} slug={`enneagram-corner/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
 		<ArticleSubTitle metaData={data.frontmatter} />
 	</div>
 
 	{#if data?.frontmatter?.pic}
-		<div style="display: flex; justify-content: center; margin: 1rem 0;">
+		<div class="featured-image">
 			<PopCard
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
 				showIcon={false}
@@ -85,7 +85,7 @@
 	<svelte:component this={component} />
 </article>
 
-<hr style="margin: 5rem;" />
+<hr class="section-divider" />
 
 <SuggestionsBlog posts={data?.posts} blogType={'Enneagram'} slugPrefix={'enneagram-corner'} />
 
@@ -96,4 +96,25 @@
 {/if}
 
 <style lang="scss">
+	@use '../../../scss/index.scss' as *;
+
+	.article-header {
+		margin-bottom: 2rem;
+	}
+
+	.featured-image {
+		display: flex;
+		justify-content: center;
+		margin: 1rem 0;
+	}
+
+	.section-divider {
+		margin: 5rem 0;
+		border: 0;
+		border-top: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
+	}
+
+	.join {
+		margin-top: 2rem;
+	}
 </style>

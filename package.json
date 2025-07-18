@@ -88,6 +88,7 @@
 		"@elastic/elasticsearch": "^8.15.0",
 		"@fingerprintjs/fingerprintjs": "^4.5.0",
 		"@million/lint": "1.0.0-rc.13",
+		"@supabase/ssr": "^0.6.1",
 		"@sveltejs/adapter-node": "^2.0.2",
 		"@sveltejs/amp": "^1.1.3",
 		"@types/gsap": "^3.0.0",
