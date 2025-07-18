@@ -67,26 +67,25 @@ const config = {
 				manualChunks: {
 					// Core dependencies
 					'vendor-core': ['svelte', '@sveltejs/kit'],
-					'vendor-supabase': ['@supabase/supabase-js', '@supabase/auth-helpers-sveltekit'],
-					
+
 					// Chart and visualization libraries
 					'vendor-charts': ['d3', 'd3-cloud'],
-					
+
 					// Image and PDF processing libraries
 					'vendor-media': ['html2canvas', 'html-to-image', 'jspdf'],
-					
+
 					// Utility libraries
 					'vendor-utils': ['qrcode', 'axios', 'uuid', 'pluralize'],
-					
+
 					// UI libraries
 					'vendor-ui': ['flowbite', 'flowbite-svelte'],
-					
-					// AWS and other services
-					'vendor-services': ['aws-sdk', '@elastic/elasticsearch'],
-					
-					// Google services
-					'vendor-google': ['googleapis']
-				}
+
+					// ⚠️ Removed server-only or external modules:
+					// - '@supabase/supabase-js'
+					// - 'aws-sdk'
+					// - '@elastic/elasticsearch'
+					// - 'googleapis'
+					}
 			}
 		},
 		// Optimize chunk size
