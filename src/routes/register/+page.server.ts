@@ -1,12 +1,11 @@
 // routes/register/+page.server.ts
 import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { AuthApiError } from '@supabase/supabase-js';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
-	const session = await getServerSession(event);
-	if (session?.user?.id) {
+	const user = event.locals.user;
+	if (user?.id) {
 		throw redirect(302, '/');
 	}
 };

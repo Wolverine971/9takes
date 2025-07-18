@@ -1,14 +1,13 @@
 // routes/forgotPassword/+page.server.ts
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { AuthApiError } from '@supabase/supabase-js';
 import { Actions, fail, redirect, type } from '@sveltejs/kit';
 
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
-	const session = await getServerSession(event);
+	const user = event.locals.user;
 	// redirect user if logged in
-	if (session?.user?.id) {
+	if (user?.id) {
 		throw redirect(302, '/');
 	}
 

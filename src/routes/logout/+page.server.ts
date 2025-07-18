@@ -1,7 +1,6 @@
 // routes/logout/+page.server.ts
 import { redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
-import { supabase } from '$lib/supabase';
 
 export const load: PageServerLoad = async () => {
 	// we only use this endpoint for the api
@@ -11,11 +10,9 @@ export const load: PageServerLoad = async () => {
 };
 
 export const actions: Actions = {
-	async default({ cookies }) {
-		cookies.set('session', '', {
-			path: '/',
-			expires: new Date(0)
-		});
+	async default({ locals }) {
+		// Sign out using the server-side Supabase client
+		await locals.supabase.auth.signOut();
 
 		// redirect the user
 		throw redirect(302, '/login');

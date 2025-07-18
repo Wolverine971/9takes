@@ -1,5 +1,4 @@
 // routes/resetPassword/+page.server.ts
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { Actions, fail, redirect, type } from '@sveltejs/kit';
 
 import type { PageServerLoad } from './$types';
@@ -9,7 +8,7 @@ export const load: PageServerLoad = async (event) => {
 	// We don't need to extract it server-side as it's handled client-side by Supabase
 
 	// Check if the user is already logged in (with a valid session)
-	const session = await getServerSession(event);
+	const session = event.locals.session;
 
 	// We don't need to redirect here as the user might have a valid session
 	// but still needs to reset their password via the token

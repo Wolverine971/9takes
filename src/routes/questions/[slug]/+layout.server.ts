@@ -1,6 +1,6 @@
 // routes/questions/[slug]/+layout.server.ts
-import { supabase } from '$lib/supabase';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 
 /** @type {import('./$types').PageLoad} */
-export async function load(event) {}
+export async function load(event) {
+	// Empty load function - can be used if needed
+}

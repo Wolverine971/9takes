@@ -48,8 +48,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 		return { session, user };
 	};
 
-	event.locals.session = (await event.locals.safeGetSession()).session;
-	event.locals.user = (await event.locals.safeGetSession()).user;
+	const { session, user } = await event.locals.safeGetSession();
+	event.locals.session = session;
+	event.locals.user = user;
 
 	// const job = schedule.scheduleJob('*/1 * * * *', async function () {
 	// 	console.log('This runs every minute');

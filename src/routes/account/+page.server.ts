@@ -1,5 +1,4 @@
 // routes/account/+page.server.ts
-import { supabase } from '$lib/supabase';
 
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
@@ -18,13 +17,13 @@ export const load: PageServerLoad = async (event) => {
 
 	const { demo_time } = await event.parent();
 
-	const { data: user, error: findUserError } = await supabase
+	const { data: user, error: findUserError } = await event.locals.supabase
 		.from(demo_time === true ? 'profiles_demo' : 'profiles')
 		.select('*')
 		.eq('email', session?.user?.email)
 		.single();
 
-	const { data: subscriptions, error: subscriptionsError } = await supabase
+	const { data: subscriptions, error: subscriptionsError } = await event.locals.supabase
 		.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
 		.select(
 			`*,

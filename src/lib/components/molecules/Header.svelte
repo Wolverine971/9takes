@@ -153,7 +153,7 @@
 						<img src="/brand/account-icon2.png" alt="Account" title="Account" width="30" height="30" />
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-					<a href="/login" class="btn-primary">
+					<a href="/login" class="btn btn-primary">
 						Login / Register
 					</a>
 				{/if}

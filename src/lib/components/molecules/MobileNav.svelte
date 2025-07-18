@@ -177,6 +177,19 @@
 									About
 								</a>
 							</li>
+
+							<!-- Login/Register link -->
+							{#if !($page.data?.user)}
+								<li class="m-0 list-none p-0 mt-4">
+									<a
+										href="/login"
+										class="mobile-nav__login-btn"
+										on:click={closeMenu}
+									>
+										Login / Register
+									</a>
+								</li>
+							{/if}
 						</ul>
 					</div>
 				</nav>
@@ -197,5 +210,22 @@
 		clip: rect(0, 0, 0, 0);
 		white-space: nowrap;
 		border: 0;
+	}
+
+	.mobile-nav__login-btn {
+		display: block;
+		width: 100%;
+		padding: 0.75rem 1.25rem;
+		background-color: var(--primary);
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		border-radius: var(--border-radius);
+		font-weight: 500;
+		transition: background-color 0.2s ease;
+	}
+
+	.mobile-nav__login-btn:hover {
+		background-color: var(--primary-dark);
 	}
 </style>

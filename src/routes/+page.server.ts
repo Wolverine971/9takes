@@ -1,12 +1,11 @@
 // routes/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { supabase } from '$lib/supabase';
 import { famousTypes } from '$lib/components/molecules/famousTypes'; // adjust path as needed
 import { error } from '@sveltejs/kit';
 
-export const load: PageServerLoad = async () => {
+export const load: PageServerLoad = async ({ locals }) => {
 	// Fetch top questions
-	const { data: top9Questions, error: top9QuestionsError } = await supabase
+	const { data: top9Questions, error: top9QuestionsError } = await locals.supabase
 		.from('questions')
 		.select('*')
 		.order('comment_count', { ascending: false })
