@@ -31,5 +31,12 @@ declare namespace App {
 		changefreq: string;
 		priority: string;
 		published: boolean;
+		type?: string[];
+		blog?: boolean;
+		previewHtml?: string;
+		pic?: string;
+		path?: string;
+		rssDate?: string;
+		rssUpdateDate?: string;
 	}
 }

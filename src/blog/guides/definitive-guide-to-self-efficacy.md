@@ -14,53 +14,125 @@ pic: 'gandalf-statue'
 <svelte:head>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "The Definitive Guide to Self-Efficacy",
-  "description": "Explore the comprehensive guide to understanding and improving self-efficacy. Learn its origins, key sources, and practical tips for enhancing your life",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "This article goes into the concept of self-efficacy, its origins, and its practical applications. It explores the four sources of self-efficacy, provides examples, and discusses how to improve it. The article also touches upon the role of environment, psychological constructs related to self-efficacy, and future trends in research.",
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+          ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2025-05-03"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-08-31"
+      },
+      "description": "An in-depth exploration of self-efficacy, its origins, and its applications. The article provides actionable tips and examples to help individuals improve their self-efficacy.",
+      "headline": "The Comprehensive Guide to Understanding and Improving Self-Efficacy",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/gandalf-statue.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "name": "9takes"
+      }
     },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2023-08-31",
-  "dateModified": "2025-05-03",
-  "url": "https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/gandalf-statue.webp",
-    "width": 900,
-    "height": 900
-  },
-  "articleSection": "Self Development",
-  "keywords": ["self-efficacy", "self-belief", "personal development", "confidence building", "goal achievement", "psychology"],
-  "wordCount": 4783,
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Guides",
-    "url": "https://9takes.com/how-to-guides"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy"
-  }
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Self-efficacy refers to an individual's belief in their ability to achieve goals and complete tasks. It is a psychological construct that has been studied extensively and has applications in various aspects of life, including education, career development, and mental health."
+          },
+          "name": "What is self-efficacy?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The four main sources of self-efficacy are Mastery Experiences, Vicarious Experiences, Social Persuasion, and Emotional and Physiological States. Understanding these sources can help you improve your self-efficacy."
+          },
+          "name": "What are the sources of self-efficacy?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Self-efficacy is different from self-esteem, motivation, and resilience, although they are related. Self-esteem is a general feeling of self-worth, while self-efficacy is task-specific. Motivation drives you to act, but self-efficacy is the belief that you can successfully complete the task. Resilience is the ability to bounce back from setbacks, and self-efficacy can contribute to resilience."
+          },
+          "name": "How is self-efficacy different from self-esteem, motivation, and resilience?"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Improve Your Self-Efficacy",
+      "description": "A guide to understanding and enhancing your self-efficacy through practical steps and strategies.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Understand the Four Sources of Self-Efficacy",
+          "text": "Learn about mastery experiences, vicarious experiences, social persuasion, and emotional and physiological states as the key sources of self-efficacy."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Set and Achieve Small Goals",
+          "text": "Start with small, achievable goals to build confidence and provide tangible evidence of your capabilities."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Find Role Models",
+          "text": "Identify and learn from people who have achieved what you aspire to, using their success as inspiration and guidance."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Use Positive Affirmations",
+          "text": "Practice daily positive affirmations to rewire your brain and boost your belief in your abilities."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Develop Coping Mechanisms",
+          "text": "Learn stress-relief techniques and problem-solving skills to better handle challenges and setbacks."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Optimize Your Environment",
+          "text": "Create a supportive environment in your family, education, workplace, and community that fosters self-efficacy."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Understand Related Psychological Constructs",
+          "text": "Learn how self-efficacy relates to self-esteem, motivation, and resilience to develop a more holistic approach to personal growth."
+        }
+      ]
+    }
+  ]
 }
 </script>
 </svelte:head>
@@ -1233,131 +1305,3 @@ Your journey toward stronger self-efficacy begins with a single step—deciding 
 
 What will you do with the time given to you?
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article goes into the concept of self-efficacy, its origins, and its practical applications. It explores the four sources of self-efficacy, provides examples, and discusses how to improve it. The article also touches upon the role of environment, psychological constructs related to self-efficacy, and future trends in research.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-          ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-05-03"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-08-31"
-      },
-      "description": "An in-depth exploration of self-efficacy, its origins, and its applications. The article provides actionable tips and examples to help individuals improve their self-efficacy.",
-      "headline": "The Comprehensive Guide to Understanding and Improving Self-Efficacy",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/gandalf-statue.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Self-efficacy refers to an individual's belief in their ability to achieve goals and complete tasks. It is a psychological construct that has been studied extensively and has applications in various aspects of life, including education, career development, and mental health."
-          },
-          "name": "What is self-efficacy?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The four main sources of self-efficacy are Mastery Experiences, Vicarious Experiences, Social Persuasion, and Emotional and Physiological States. Understanding these sources can help you improve your self-efficacy."
-          },
-          "name": "What are the sources of self-efficacy?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Self-efficacy is different from self-esteem, motivation, and resilience, although they are related. Self-esteem is a general feeling of self-worth, while self-efficacy is task-specific. Motivation drives you to act, but self-efficacy is the belief that you can successfully complete the task. Resilience is the ability to bounce back from setbacks, and self-efficacy can contribute to resilience."
-          },
-          "name": "How is self-efficacy different from self-esteem, motivation, and resilience?"
-        }
-      ]
-    },
-    {
-      "@type": "HowTo",
-      "name": "How to Improve Your Self-Efficacy",
-      "description": "A guide to understanding and enhancing your self-efficacy through practical steps and strategies.",
-      "step": [
-        {
-          "@type": "HowToStep",
-          "name": "Understand the Four Sources of Self-Efficacy",
-          "text": "Learn about mastery experiences, vicarious experiences, social persuasion, and emotional and physiological states as the key sources of self-efficacy."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Set and Achieve Small Goals",
-          "text": "Start with small, achievable goals to build confidence and provide tangible evidence of your capabilities."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Find Role Models",
-          "text": "Identify and learn from people who have achieved what you aspire to, using their success as inspiration and guidance."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Use Positive Affirmations",
-          "text": "Practice daily positive affirmations to rewire your brain and boost your belief in your abilities."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Develop Coping Mechanisms",
-          "text": "Learn stress-relief techniques and problem-solving skills to better handle challenges and setbacks."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Optimize Your Environment",
-          "text": "Create a supportive environment in your family, education, workplace, and community that fosters self-efficacy."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Understand Related Psychological Constructs",
-          "text": "Learn how self-efficacy relates to self-esteem, motivation, and resilience to develop a more holistic approach to personal growth."
-        }
-      ]
-    }
-  ]
-}
-
-</script>
-
-</svelte:head>
