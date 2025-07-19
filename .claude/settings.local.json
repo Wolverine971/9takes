@@ -20,7 +20,8 @@
       "Bash(find:*)",
       "Bash(ls:*)",
       "Bash(pnpm svelte-check:*)",
-      "Bash(powershell:*)"
+      "Bash(powershell:*)",
+      "Bash(npm run check:*)"
     ],
     "deny": []
   }

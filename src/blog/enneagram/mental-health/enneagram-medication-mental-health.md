@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-medication-men
 lastmod: '2024-03-20'
 changefreq: 'monthly'
 priority: '0.8'
-published: false
+published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''

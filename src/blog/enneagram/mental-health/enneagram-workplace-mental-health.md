@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-ment
 lastmod: '2024-03-25'
 changefreq: 'monthly'
 priority: '0.8'
-published: false
+published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''

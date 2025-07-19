@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide'
 lastmod: '2024-02-25'
 changefreq: 'monthly'
 priority: '0.8'
-published: false
+published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''

@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-crisis-managem
 lastmod: '2024-03-15'
 changefreq: 'monthly'
 priority: '0.9'
-published: false
+published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''

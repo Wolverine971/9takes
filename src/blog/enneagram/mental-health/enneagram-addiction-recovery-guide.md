@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-reco
 lastmod: '2024-03-01'
 changefreq: 'monthly'
 priority: '0.8'
-published: false
+published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''

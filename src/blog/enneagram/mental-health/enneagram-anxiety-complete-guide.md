@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-anxiety-comple
 lastmod: '2024-02-15'
 changefreq: 'monthly'
 priority: '0.8'
-published: false
+published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
