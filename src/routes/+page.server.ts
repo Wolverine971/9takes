@@ -30,7 +30,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	// Rest of your existing code
 	let images: Array<{ img_url: string; img_alt: string }> = [];
 
-	const { data: famousPeople, error: famousPeopleError } = await supabase
+	const { data: famousPeople, error: famousPeopleError } = await locals.supabase
 		.from('blogs_famous_people')
 		.select('*')
 		.order('lastmod', { ascending: false })
