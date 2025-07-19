@@ -5,6 +5,7 @@
 	import ComboBox from '$lib/components/molecules/ComboBox.svelte';
 	import Context from '$lib/components/molecules/Context.svelte';
 	import { createEventDispatcher, onDestroy } from 'svelte';
+	import { browser } from '$app/environment';
 
 	const dispatch = createEventDispatcher();
 	export let data: any;
@@ -14,6 +15,13 @@
 	let timer: ReturnType<typeof setTimeout> | null = null;
 	let isSearching = false;
 	let abortController: AbortController | null = null;
+	let searchError = '';
+	let isMobile = false;
+
+	// Check if mobile
+	$: if (browser) {
+		isMobile = window.innerWidth < 768;
+	}
 
 	// Clean up resources on component destruction
 	onDestroy(() => {
@@ -21,20 +29,27 @@
 		if (abortController) abortController.abort();
 	});
 
-	const goToCreateQuestionPage = () => {
-		if (!data?.user?.id) {
-			goto(`/register`, { invalidateAll: true });
-			return;
+	const goToCreateQuestionPage = async () => {
+		try {
+			if (!data?.user?.id) {
+				await goto(`/register`, { invalidateAll: true });
+				return;
+			}
+			const url = question
+				? `/questions/create/?question=${encodeURIComponent(question)}`
+				: '/questions/create/';
+			await goto(url, { invalidateAll: true });
+		} catch (error) {
+			console.error('Navigation error:', error);
+			searchError = 'Failed to navigate. Please try again.';
 		}
-		const url = question
-			? `/questions/create/?question=${encodeURIComponent(question)}`
-			: '/questions/create/';
-		goto(url, { invalidateAll: true });
 	};
 
 	// Enhanced search with abort controller for cancellable requests
 	const searchES = async (searchString: string) => {
-		if (!searchString.trim()) {
+		searchError = '';
+		
+		if (!searchString.trim() || searchString.length < 2) {
 			options = [];
 			isSearching = false;
 			return;
@@ -58,18 +73,49 @@
 				signal: abortController.signal
 			});
 
-			const resp: any = deserialize(await response.text());
-			options =
-				resp?.data?.map((o: any) => ({
-					text: o?._source?.question,
-					value: o?._source
-				})) || [];
+			if (!response.ok) {
+				throw new Error('Search failed');
+			}
+
+			const respText = await response.text();
+			const result: any = deserialize(respText);
+			
+			// Handle the response based on its structure
+			let searchResults = [];
+			if (result?.type === 'success') {
+				// This is a form action response
+				searchResults = result.data || [];
+			} else if (Array.isArray(result)) {
+				// Direct array response
+				searchResults = result;
+			} else {
+				console.warn('Unexpected search response format:', result);
+				searchResults = [];
+			}
+			
+			options = searchResults.map((item: any) => {
+				const question = item._source?.question || '';
+				const url = item._source?.url || '';
+				return {
+					text: question, // Use plain text for the text property
+					displayText: item._source?.highlighted || question, // HTML for display
+					value: url // Use URL as the value for simpler handling
+				};
+			}).filter(opt => opt.text && opt.value);
 		} catch (error) {
-			// Only log real errors, not aborted requests
+			// Only show error for real failures, not aborted requests
 			if (!(error instanceof DOMException && error.name === 'AbortError')) {
 				console.error('Search error:', error);
+				// More specific error messages
+				if (error instanceof TypeError && error.message.includes('Failed to fetch')) {
+					searchError = 'Network error. Check your connection and try again.';
+				} else if (error instanceof Error && error.message.includes('Search failed')) {
+					searchError = 'Search service is currently unavailable.';
+				} else {
+					searchError = 'Search temporarily unavailable. Please try again.';
+				}
+				options = [];
 			}
-			options = [];
 		} finally {
 			isSearching = false;
 		}
@@ -83,149 +129,231 @@
 		// For empty searches, clear immediately without delay
 		if (!value.trim()) {
 			options = [];
+			searchError = '';
 			return;
 		}
 
-		timer = setTimeout(() => searchES(value), 300);
+		// Slightly longer delay to reduce server load
+		timer = setTimeout(() => searchES(value), 400);
 	};
 
 	// Memoized button properties
-	$: buttonText = getButtonText(data);
+	$: buttonText = getButtonText(data, isMobile);
 	$: buttonDisabled = !data?.canAskQuestion && data?.user?.id;
-	$: placeholder = data?.user?.id ? 'Ask a question here' : 'Search questions...';
+	$: placeholder = data?.user?.id 
+		? (isMobile ? 'Ask a question...' : 'Ask a question here') 
+		: (isMobile ? 'Search...' : 'Search questions...');
 
-	function getButtonText(data: any): string {
-		if (!data?.user?.id) return 'Sign up to ask';
-		return data?.canAskQuestion ? 'Ask question' : 'Limit reached';
+	function getButtonText(data: any, mobile: boolean): string {
+		if (!data?.user?.id) return mobile ? 'Sign up' : 'Sign up to ask';
+		return data?.canAskQuestion 
+			? (mobile ? 'Ask' : 'Ask question')
+			: (mobile ? 'Limit' : 'Limit reached');
+	}
+
+	// Handle question selection
+	async function handleQuestionSelected(detail: any) {
+		question = '';
+		options = [];
+		
+		// Detail is now the URL directly
+		if (detail) {
+			try {
+				await goto(`/questions/${detail}`);
+			} catch (error) {
+				console.error('Navigation error:', error);
+				// For backward compatibility, wrap in object
+				dispatch('questionSelected', { url: detail });
+			}
+		}
 	}
 </script>
 
 <form class="search-form" on:submit|preventDefault={goToCreateQuestionPage}>
-	<div class="search-container" class:is-searching={isSearching}>
-		<Context>
-			<ComboBox
-				label=""
-				name="question"
-				{placeholder}
-				on:inputChange={({ detail: { text } }) => debounce(text)}
-				on:selectQuestion={() => dispatch('createQuestion', question)}
-				{options}
-				on:selection={({ detail }) => dispatch('questionSelected', detail)}
-			/>
-		</Context>
-		{#if isSearching}
-			<div class="search-indicator" aria-hidden="true"></div>
+	<div class="search-wrapper">
+		<div class="search-container" class:is-searching={isSearching}>
+			<Context>
+				<ComboBox
+					label=""
+					name="question"
+					{placeholder}
+					on:inputChange={({ detail: { text } }) => debounce(text)}
+					on:selectQuestion={() => dispatch('createQuestion', question)}
+					{options}
+					on:selection={({ detail }) => handleQuestionSelected(detail)}
+					loading={isSearching}
+					value={question}
+					filter={() => options}
+				>
+					<span slot="option" let:option>
+						{@html option.displayText || option.text}
+					</span>
+				</ComboBox>
+			</Context>
+			{#if isSearching}
+				<div class="search-indicator" aria-hidden="true">
+					<span class="spinner"></span>
+				</div>
+			{/if}
+		</div>
+		
+		{#if searchError}
+			<div class="search-error" role="alert">
+				<span class="error-icon">!</span>
+				{searchError}
+			</div>
 		{/if}
 	</div>
 
 	<button
 		class="search-button"
-		type="button"
-		on:click={goToCreateQuestionPage}
+		type="submit"
 		title={buttonText}
 		disabled={buttonDisabled}
 		aria-label={buttonText}
 	>
-		{buttonText}
+		<span class="button-text">{buttonText}</span>
+		{#if !data?.user?.id}
+			<svg class="button-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<path d="M18 8L22 12L18 16"/>
+				<path d="M2 12H22"/>
+			</svg>
+		{/if}
 	</button>
 </form>
 
 <style lang="scss">
 	/* Variables for consistent styling */
-	$spacing-xs: 0.25rem;
-	$spacing-sm: 0.5rem;
-	$spacing-md: 1rem;
-	$spacing-lg: 1.5rem;
+	$breakpoint-mobile: 768px;
+	$transition-fast: 0.2s ease;
 	$transition-standard: 0.3s ease;
-	$border-radius: var(--border-radius, 0.5rem);
-	$breakpoint-sm: 576px;
-	$breakpoint-md: 768px;
-	$breakpoint-lg: 992px;
-	$golden-ratio: 1.618;
-
+	
 	.search-form {
 		display: flex;
-		gap: $spacing-md;
-		margin-bottom: calc($spacing-md * $golden-ratio);
-		align-items: stretch;
+		gap: 1rem;
 		width: 100%;
-		position: relative;
+		align-items: flex-start;
+	}
+
+	.search-wrapper {
+		flex: 1;
+		min-width: 0;
 	}
 
 	.search-container {
-		flex: 1;
-		width: 100%;
-		min-width: 0;
 		position: relative;
-
-		&.is-searching {
-			.search-indicator {
-				opacity: 1;
-			}
-		}
+		width: 100%;
+		z-index: 50;
 	}
 
 	.search-indicator {
 		position: absolute;
 		top: 50%;
-		right: $spacing-lg;
+		right: 1rem;
 		transform: translateY(-50%);
-		width: 16px;
-		height: 16px;
-		border: 2px solid rgba(0, 0, 0, 0.1);
-		border-top: 2px solid var(--primary);
+		pointer-events: none;
+		z-index: 10;
+	}
+
+	.spinner {
+		display: block;
+		width: 20px;
+		height: 20px;
+		border: 2px solid rgba(108, 92, 231, 0.2);
+		border-top-color: var(--primary);
 		border-radius: 50%;
 		animation: spin 0.8s linear infinite;
-		opacity: 0;
-		transition: opacity 0.2s ease;
-		pointer-events: none;
 	}
 
 	@keyframes spin {
-		0% {
-			transform: translateY(-50%) rotate(0deg);
+		to { transform: rotate(360deg); }
+	}
+
+	.search-error {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		margin-top: 0.5rem;
+		padding: 0.5rem 0.75rem;
+		background-color: var(--error-light, #fee);
+		color: var(--error, #e84393);
+		border-radius: 0.375rem;
+		font-size: 0.875rem;
+		animation: slideIn 0.2s ease-out;
+	}
+
+	.error-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 18px;
+		height: 18px;
+		background-color: var(--error);
+		color: white;
+		border-radius: 50%;
+		font-size: 0.75rem;
+		font-weight: bold;
+		flex-shrink: 0;
+	}
+
+	@keyframes slideIn {
+		from {
+			opacity: 0;
+			transform: translateY(-0.5rem);
 		}
-		100% {
-			transform: translateY(-50%) rotate(360deg);
+		to {
+			opacity: 1;
+			transform: translateY(0);
 		}
 	}
 
 	.search-button {
-		padding: $spacing-sm $spacing-lg;
-		height: auto;
-		align-self: stretch;
-		border: none;
-		border-radius: $border-radius;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		padding: 0.75rem 1.5rem;
 		background-color: var(--primary);
 		color: white;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		font-size: 0.95rem;
+		border: none;
+		border-radius: 0.5rem;
 		font-weight: 600;
+		font-size: 1rem;
 		white-space: nowrap;
 		cursor: pointer;
+		transition: all $transition-standard;
 		position: relative;
 		overflow: hidden;
+		flex-shrink: 0;
 
 		&::before {
 			content: '';
 			position: absolute;
 			top: 0;
-			left: 0;
-			right: 0;
-			height: 2px;
+			left: -100%;
+			width: 100%;
+			height: 100%;
 			background: linear-gradient(
 				90deg,
-				transparent 0%,
-				var(--greek-gold, gold) 50%,
-				transparent 100%
+				transparent,
+				rgba(255, 255, 255, 0.2),
+				transparent
 			);
+			transition: left 0.5s ease;
 		}
 
 		&:hover:not(:disabled) {
 			background-color: var(--primary-dark);
 			transform: translateY(-2px);
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 4px 12px rgba(108, 92, 231, 0.25);
+
+			&::before {
+				left: 100%;
+			}
+		}
+
+		&:active:not(:disabled) {
+			transform: translateY(0);
 		}
 
 		&:disabled {
@@ -233,66 +361,121 @@
 			cursor: not-allowed;
 		}
 
-		&:focus {
-			outline: 2px solid var(--primary-light);
+		&:focus-visible {
+			outline: 2px solid var(--primary);
 			outline-offset: 2px;
 		}
 	}
 
-	/* Custom input styling to match Greek theme */
+	.button-text {
+		font-weight: 600;
+	}
+
+	.button-icon {
+		width: 16px;
+		height: 16px;
+		transition: transform $transition-fast;
+	}
+
+	.search-button:hover:not(:disabled) .button-icon {
+		transform: translateX(2px);
+	}
+
+	/* Custom input styling */
 	:global(.search-container input) {
-		border-color: var(--border-color) !important;
-		border-width: 1px !important;
-		border-radius: $border-radius !important;
-		padding: calc($spacing-sm * $golden-ratio) !important;
+		padding-right: 3rem !important; // Space for spinner
+		font-size: 1rem !important;
+		height: 2.75rem !important;
+		border-radius: 0.5rem !important;
+		border: 2px solid var(--border-color) !important;
+		transition: all $transition-fast !important;
 
 		&:focus {
 			border-color: var(--primary) !important;
-			box-shadow: 0 0 0 2px rgba(108, 92, 231, 0.2) !important;
+			box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1) !important;
+		}
+
+		&::placeholder {
+			color: var(--text-tertiary);
 		}
 	}
 
-	/* Scrollable dropdown styling */
-	:global(.search-container ul) {
-		border-radius: $border-radius !important;
-		box-shadow: var(--shadow-md) !important;
+	/* Highlighted text in search results */
+	:global(.search-container .combo-list em) {
+		font-style: normal;
+		font-weight: 600;
+		color: var(--primary);
+		background-color: var(--primary-light, rgba(108, 92, 231, 0.1));
+		padding: 0 2px;
+		border-radius: 2px;
+	}
+
+	/* Dropdown styling */
+	:global(.search-container .combobox__list) {
+		margin-top: 0.5rem !important;
+		border-radius: 0.5rem !important;
+		box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1) !important;
 		border: 1px solid var(--border-color) !important;
+		max-height: 320px !important;
+		overflow-y: auto !important;
+		z-index: 1000 !important;
+		background-color: white !important;
+	}
 
-		& li {
-			padding: calc($spacing-sm * $golden-ratio) !important;
+	:global(.search-container .combobox__list li) {
+		padding: 0.75rem 1rem !important;
+		transition: background-color $transition-fast !important;
+		cursor: pointer;
+		border-bottom: 1px solid var(--lightest-gray);
 
-			&:hover {
-				background-color: var(--primary-50) !important;
-			}
+		&:last-child {
+			border-bottom: none;
+		}
+
+		&:hover {
+			background-color: var(--primary-light) !important;
+		}
+
+		&:focus {
+			background-color: var(--primary-light) !important;
+			outline: none;
 		}
 	}
 
-	/* Responsive adjustments */
-	@media (max-width: $breakpoint-md) {
+	/* Mobile styles */
+	@media (max-width: $breakpoint-mobile) {
 		.search-form {
 			flex-direction: column;
-			gap: $spacing-sm;
+			gap: 0.75rem;
 		}
 
 		.search-button {
 			width: 100%;
-			margin-top: $spacing-xs;
-			padding: $spacing-md;
+			padding: 0.875rem 1.25rem;
+			font-size: 1rem;
+		}
+
+		:global(.search-container input) {
+			font-size: 16px !important; // Prevent zoom on iOS
+		}
+
+		.search-error {
+			font-size: 0.8125rem;
 		}
 	}
 
-	@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
-		.search-button {
-			padding: $spacing-sm;
-			font-size: 0.9rem;
-		}
-	}
-
+	/* Reduced motion */
 	@media (prefers-reduced-motion: reduce) {
 		.search-button,
-		.search-indicator {
-			transition: none;
-			animation: none;
+		.button-icon,
+		.spinner,
+		.search-error {
+			animation: none !important;
+			transition: none !important;
+		}
+
+		.search-button::before {
+			display: none;
 		}
 	}
 </style>

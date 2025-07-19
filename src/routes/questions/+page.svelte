@@ -2,35 +2,129 @@
 <script lang="ts">
 	import { fade, fly } from 'svelte/transition';
 	import { goto, invalidateAll } from '$app/navigation';
+	import { page } from '$app/stores';
+	import { browser } from '$app/environment';
+	import { enhance } from '$app/forms';
+	import { onMount, onDestroy } from 'svelte';
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
+	import QuestionItemSkeleton from '$lib/components/questions/QuestionItemSkeleton.svelte';
+	import ErrorBoundary from '$lib/components/error/ErrorBoundary.svelte';
+	import AsyncErrorHandler from '$lib/components/error/AsyncErrorHandler.svelte';
 	import type { PageData } from './$types';
-	import { browser } from '$app/environment';
 
 	export let data: PageData;
 
-	// Memoize categories processing to prevent unnecessary recalculations
-	$: categories = processQuestionsAndTags(data.questionsAndTags);
-	$: totalQuestions = categories ? Object.values(categories).flat().length : 0;
-	$: totalAnswers = categories
-		? Object.values(categories)
-				.flat()
-				.reduce((sum, q) => sum + (q?.comment_count || 0), 0)
-		: 0;
+	// State management
+	let loading = false;
+	let loadingMore = false;
+	let selectedCategory: number | null = null;
+	let allQuestions = [...(data.questionsAndTags || [])];
+	let currentPage = data.currentPage || 1;
+	let hasMore = data.hasMore;
+	let observer: IntersectionObserver | null = null;
+	let loadMoreTrigger: HTMLElement;
+	let errorMessage = '';
 
-	function processQuestionsAndTags(questionsAndTags) {
-		if (!questionsAndTags) return {};
+	// Memoized calculations
+	$: categories = processQuestionsAndTags(allQuestions);
+	$: filteredQuestions = selectedCategory 
+		? allQuestions.filter(q => q.tag_id === selectedCategory)
+		: allQuestions;
+	$: displayedCategories = data.subcategoryTags?.filter(cat => 
+		allQuestions.some(q => q.tag_id === cat.id)
+	) || [];
 
-		const questionUrls = new Set();
-		return questionsAndTags.reduce((acc, curr) => {
-			if (!questionUrls.has(curr.url)) {
-				const key = curr.tag_name;
-				questionUrls.add(curr.url);
-				if (!acc[key]) acc[key] = [];
-				acc[key].push(curr);
+	// Animation settings
+	const transitionEnabled = browser && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+	const duration = transitionEnabled ? 300 : 0;
+
+	function processQuestionsAndTags(questions) {
+		if (!questions || questions.length === 0) return {};
+		
+		const grouped = {};
+		const seen = new Set();
+		
+		for (const question of questions) {
+			if (!seen.has(question.id)) {
+				seen.add(question.id);
+				const key = question.tag_name || 'Uncategorized';
+				if (!grouped[key]) grouped[key] = [];
+				grouped[key].push(question);
 			}
-			return acc;
-		}, {});
+		}
+		
+		return grouped;
+	}
+
+	async function loadMore() {
+		if (loadingMore || !hasMore) return;
+		
+		loadingMore = true;
+		errorMessage = '';
+		
+		try {
+			const formData = new FormData();
+			formData.append('page', String(currentPage + 1));
+			if (selectedCategory) {
+				formData.append('categoryId', String(selectedCategory));
+			}
+			
+			const response = await fetch('?/loadMore', {
+				method: 'POST',
+				body: formData
+			});
+			
+			const result = await response.json();
+			
+			if (result.data) {
+				allQuestions = [...allQuestions, ...(result.data.questions || [])];
+				currentPage = result.data.page;
+				hasMore = result.data.hasMore;
+			}
+		} catch (error) {
+			console.error('Error loading more questions:', error);
+			errorMessage = 'Failed to load more questions. Please try again.';
+		} finally {
+			loadingMore = false;
+		}
+	}
+
+	async function filterByCategory(categoryId: number | null) {
+		if (selectedCategory === categoryId) return;
+		
+		loading = true;
+		selectedCategory = categoryId;
+		currentPage = 1;
+		errorMessage = '';
+		
+		try {
+			if (categoryId === null) {
+				// Reset to all questions
+				await invalidateAll();
+			} else {
+				// Filter by category
+				const formData = new FormData();
+				formData.append('categoryId', String(categoryId));
+				
+				const response = await fetch('?/filterByCategory', {
+					method: 'POST',
+					body: formData
+				});
+				
+				const result = await response.json();
+				
+				if (result.data) {
+					allQuestions = result.data.questions || [];
+					hasMore = false; // Filtered results don't paginate
+				}
+			}
+		} catch (error) {
+			console.error('Error filtering questions:', error);
+			errorMessage = 'Failed to filter questions. Please try again.';
+		} finally {
+			loading = false;
+		}
 	}
 
 	function goToCreateQuestionPage(detail: string) {
@@ -44,10 +138,37 @@
 		goto(url, { invalidateAll: true });
 	}
 
-	// Set initial animation value only for client-side rendering
-	const transitionEnabled =
-		browser && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-	const duration = transitionEnabled ? 300 : 0;
+	// Set up infinite scroll
+	onMount(() => {
+		if (browser && hasMore) {
+			observer = new IntersectionObserver(
+				(entries) => {
+					if (entries[0].isIntersecting && !loadingMore && hasMore) {
+						loadMore();
+					}
+				},
+				{ threshold: 0.1, rootMargin: '100px' }
+			);
+			
+			if (loadMoreTrigger) {
+				observer.observe(loadMoreTrigger);
+			}
+		}
+	});
+
+	onDestroy(() => {
+		if (observer) {
+			observer.disconnect();
+		}
+	});
+
+	// Handle URL changes
+	$: if (browser && $page.url.searchParams.get('category')) {
+		const catId = parseInt($page.url.searchParams.get('category') || '');
+		if (!isNaN(catId) && catId !== selectedCategory) {
+			filterByCategory(catId);
+		}
+	}
 </script>
 
 <svelte:head>
@@ -79,104 +200,172 @@
 	</script>
 </svelte:head>
 
+<ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
 <div
-	class="greek-column shadow-column rounded-lg border border-neutral-200 bg-white bg-opacity-90 p-4 backdrop-blur-sm md:p-6"
+	class="questions-container"
 	class:no-animation={!transitionEnabled}
 	in:fade={{ duration }}
 >
-	{#if data?.user?.id}
-		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="my-4 mb-2 text-2xl font-bold md:text-3xl">
-			Explore your psychology and those around you
-		</h1>
-	{:else}
-		<h1
-			in:fly={{ y: -20, duration, delay: 150 }}
-			class="my-4 mb-2 text-center text-2xl font-bold md:text-3xl"
-		>
-			Explore your psychology and those around you
-		</h1>
-
-		<div class="mb-6 text-center" in:fly={{ y: 20, duration, delay: 300 }}>
-			<p class="mx-auto my-2 max-w-3xl">
-				Welcome to 9takes, where you can ask personal questions anonymously and receive answers from
-				diverse perspectives. Our unique platform allows you to explore life's questions through the
-				lens of personality types, ensuring a rich and varied discussion.
-			</p>
-			<div class="xs:gap-4 my-4 flex flex-col justify-center gap-6 md:flex-row">
-				<p><strong class="font-semibold">{totalQuestions}</strong> questions asked</p>
-				<p><strong class="font-semibold">{totalAnswers}</strong> answers shared</p>
+	<!-- Header Section -->
+	<header class="questions-header">
+		{#if data?.user?.id}
+			<h1 in:fly={{ y: -20, duration, delay: 150 }}>
+				Explore your psychology and those around you
+			</h1>
+		{:else}
+			<h1 in:fly={{ y: -20, duration, delay: 150 }}>
+				Explore your psychology and those around you
+			</h1>
+			
+			<div class="header-content" in:fly={{ y: 20, duration, delay: 300 }}>
+				<p class="header-description">
+					Welcome to 9takes, where you can ask personal questions anonymously and receive answers from
+					diverse perspectives. Our unique platform allows you to explore life's questions through the
+					lens of personality types, ensuring a rich and varied discussion.
+				</p>
+				<div class="stats-row">
+					<div class="stat">
+						<strong>{data.totalQuestions || 0}</strong>
+						<span>questions asked</span>
+					</div>
+					<div class="stat">
+						<strong>{data.totalAnswers || 0}</strong>
+						<span>answers shared</span>
+					</div>
+				</div>
 			</div>
-		</div>
-	{/if}
+		{/if}
+	</header>
 
-	<div in:fly={{ y: 20, duration, delay: 450 }}>
+	<!-- Search Section -->
+	<div class="search-section" in:fly={{ y: 20, duration, delay: 450 }}>
 		<SearchQuestion
 			{data}
 			on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
-			on:questionSelected={({ detail }) => goto(`/questions/${detail.url}`)}
+			on:questionSelected={({ detail }) => {
+				if (detail?.url) {
+					goto(`/questions/${detail.url}`);
+				}
+			}}
 		/>
 	</div>
 
+	<!-- Categories Section -->
 	<section
-		class="my-4 rounded border border-gray-200 bg-white p-4 transition-shadow duration-300 hover:shadow-md md:my-6"
+		class="categories-section"
 		in:fly={{ y: 20, duration, delay: 600 }}
 	>
-		<h2 class="mb-3 mt-1 text-xl font-semibold">Categories of Questions</h2>
-		<div class="scrollbar-thin flex max-h-[150px] flex-wrap gap-1 overflow-y-auto py-2">
-			{#each data.subcategoryTags as category}
-				{#if category}
-					<a
-						href={`/questions/categories/${category.category_name.split(' ').join('-')}`}
-						class="shimmer-button m-1 inline-flex items-center justify-center rounded bg-indigo-600 px-2 py-1 text-sm font-bold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md"
-						data-sveltekit-preload-data="tap"
-					>
-						{category.category_name}
-					</a>
-				{/if}
+		<h2>Categories of Questions</h2>
+		<div class="categories-container">
+			<button
+				class="category-pill"
+				class:active={selectedCategory === null}
+				on:click={() => filterByCategory(null)}
+				disabled={loading}
+			>
+				All Questions
+			</button>
+			{#each displayedCategories as category (category.id)}
+				<button
+					class="category-pill"
+					class:active={selectedCategory === category.id}
+					on:click={() => filterByCategory(category.id)}
+					disabled={loading}
+				>
+					{category.category_name}
+				</button>
 			{/each}
 		</div>
 	</section>
 
+	<!-- Error Handler -->
+	<AsyncErrorHandler 
+		error={errorMessage} 
+		{loading}
+		on:retry={() => {
+			errorMessage = '';
+			if (selectedCategory) {
+				filterByCategory(selectedCategory);
+			} else {
+				invalidateAll();
+			}
+		}}
+		on:dismiss={() => errorMessage = ''}
+	/>
+
+	<!-- Questions List -->
 	<section
-		class="my-4 rounded border border-gray-200 bg-white p-4 transition-shadow duration-300 hover:shadow-md md:my-6"
+		class="questions-section"
 		in:fly={{ y: 20, duration, delay: 750 }}
 	>
-		<!-- <h2 class="text-xl font-semibold mb-3">Recent Questions</h2> -->
-		{#each data.subcategoryTags as category}
-			{#if categories[category.category_name]?.length}
-				<div class="my-4 md:my-6" in:fly={{ y: 20, duration, delay: 600 }}>
-					<h3
-						class="my-4 mb-2 scroll-mt-8 text-lg font-semibold"
-						id={category.category_name.split(' ').join('-')}
-					>
-						{category.category_name}
+		{#if loading}
+			<!-- Loading skeletons -->
+			<div class="skeleton-list">
+				{#each Array(5) as _, i}
+					<QuestionItemSkeleton />
+				{/each}
+			</div>
+		{:else if selectedCategory}
+			<!-- Filtered view -->
+			<div class="questions-list">
+				<h3 class="category-title">
+					{displayedCategories.find(c => c.id === selectedCategory)?.category_name || 'Category'}
+				</h3>
+				{#if filteredQuestions.length === 0}
+					<p class="no-questions">No questions found in this category.</p>
+				{:else}
+					{#each filteredQuestions as questionData (questionData.id)}
+						<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
+					{/each}
+				{/if}
+			</div>
+		{:else}
+			<!-- Grouped by category view -->
+			{#each Object.entries(categories) as [categoryName, questions]}
+				<div class="category-group">
+					<h3 class="category-title" id={categoryName.replace(/\s+/g, '-')}>
+						{categoryName}
 					</h3>
-					<div class="flex flex-col gap-1">
-						{#each categories[category.category_name] as questionData (questionData.id)}
+					<div class="questions-list">
+						{#each questions as questionData (questionData.id)}
 							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
 						{/each}
 					</div>
 				</div>
-			{/if}
-		{/each}
+			{/each}
+		{/if}
+
+		<!-- Load more trigger -->
+		{#if hasMore && !selectedCategory}
+			<div
+				bind:this={loadMoreTrigger}
+				class="load-more-trigger"
+				class:loading={loadingMore}
+			>
+				{#if loadingMore}
+					<div class="loading-spinner" role="status" aria-label="Loading more questions">
+						<span class="visually-hidden">Loading more questions...</span>
+					</div>
+				{/if}
+			</div>
+		{/if}
 	</section>
 
+	<!-- How It Works Section (for non-users) -->
 	{#if !data?.user?.id}
 		<section
-			class="my-4 rounded border border-gray-200 bg-white p-4 transition-shadow duration-300 hover:shadow-md md:my-6"
+			class="how-it-works"
 			in:fly={{ y: 20, duration, delay: 900 }}
 		>
-			<h2 class="mb-3 text-xl font-semibold">How It Works</h2>
-			<ol class="my-4 list-decimal pl-6">
-				<li class="mb-2">Anonymously answer questions to see other answers</li>
-				<li class="mb-2">
-					<strong class="font-semibold">Sign up to ask your questions anonymously</strong>
-				</li>
-				<li class="mb-2">Receive answers from diverse perspectives</li>
-				<li class="mb-2">Sort comments by personality type and learn yours</li>
+			<h2>How It Works</h2>
+			<ol>
+				<li>Anonymously answer questions to see other answers</li>
+				<li><strong>Sign up to ask your questions anonymously</strong></li>
+				<li>Receive answers from diverse perspectives</li>
+				<li>Sort comments by personality type and learn yours</li>
 			</ol>
 			<button
-				class="mx-auto my-4 flex w-full cursor-pointer items-center justify-center rounded border-none bg-indigo-600 px-4 py-4 text-lg font-bold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md focus:outline-offset-2 focus:outline-indigo-700 md:w-auto"
+				class="cta-button"
 				on:click={() => goToCreateQuestionPage('')}
 				aria-label="Ask your question now"
 			>
@@ -185,73 +374,326 @@
 		</section>
 	{/if}
 </div>
+</ErrorBoundary>
 
 <style>
-	/* Only adding styles that might be hard to implement with pure Tailwind */
+	.questions-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 1rem;
+		background-color: white;
+		border-radius: 0.5rem;
+		box-shadow: var(--shadow-md);
+		border: 1px solid var(--border-color);
+	}
+
+	.questions-header {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.questions-header h1 {
+		font-size: 2rem;
+		font-weight: 700;
+		margin: 1rem 0;
+		color: var(--text-primary);
+	}
+
+	.header-content {
+		margin-top: 1.5rem;
+	}
+
+	.header-description {
+		max-width: 48rem;
+		margin: 0 auto 1.5rem;
+		color: var(--text-secondary);
+		line-height: 1.6;
+	}
+
+	.stats-row {
+		display: flex;
+		justify-content: center;
+		gap: 3rem;
+		margin: 1.5rem 0;
+	}
+
+	.stat {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.25rem;
+	}
+
+	.stat strong {
+		font-size: 1.5rem;
+		color: var(--primary);
+	}
+
+	.stat span {
+		font-size: 0.875rem;
+		color: var(--text-secondary);
+	}
+
+	.search-section {
+		margin-bottom: 2rem;
+		position: relative;
+		z-index: 20;
+	}
+
+	.categories-section {
+		background-color: var(--lightest-gray);
+		border-radius: 0.5rem;
+		padding: 1rem 1.5rem;
+		margin-bottom: 2rem;
+		border: 1px solid var(--border-color);
+		max-height: 200px;
+		overflow-y: auto;
+		scrollbar-width: thin;
+		scrollbar-color: var(--medium-gray) var(--lightest-gray);
+	}
+	
+	.categories-section::-webkit-scrollbar {
+		width: 8px;
+	}
+	
+	.categories-section::-webkit-scrollbar-track {
+		background: var(--lightest-gray);
+		border-radius: 4px;
+	}
+	
+	.categories-section::-webkit-scrollbar-thumb {
+		background-color: var(--medium-gray);
+		border-radius: 4px;
+		border: 2px solid var(--lightest-gray);
+	}
+	
+	.categories-section::-webkit-scrollbar-thumb:hover {
+		background-color: var(--dark-gray);
+	}
+
+	.categories-section h2 {
+		font-size: 1.125rem;
+		font-weight: 600;
+		margin-bottom: 0.75rem;
+		color: var(--text-primary);
+		position: sticky;
+		top: 0;
+		background-color: var(--lightest-gray);
+		padding-bottom: 0.5rem;
+		z-index: 1;
+	}
+
+	.categories-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		padding: 0.25rem 0;
+	}
+
+	.category-pill {
+		flex-shrink: 0;
+		padding: 0.5rem 1rem;
+		border: 1px solid var(--border-color);
+		border-radius: 9999px;
+		background-color: white;
+		color: var(--text-primary);
+		font-size: 0.875rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.2s ease;
+		white-space: nowrap;
+		scroll-snap-align: start;
+	}
+
+	.category-pill:hover:not(:disabled) {
+		background-color: var(--primary-light);
+		border-color: var(--primary);
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.category-pill:disabled {
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
+
+	.category-pill.active {
+		background-color: var(--primary);
+		color: white;
+		border-color: var(--primary);
+	}
+
+	.questions-section {
+		background-color: white;
+		border-radius: 0.5rem;
+		padding: 1.5rem;
+		border: 1px solid var(--border-color);
+		min-height: 300px;
+	}
+
+	.skeleton-list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.category-group {
+		margin-bottom: 2.5rem;
+	}
+
+	.category-group:last-child {
+		margin-bottom: 0;
+	}
+
+	.category-title {
+		font-size: 1.125rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+		color: var(--text-primary);
+		scroll-margin-top: 1rem;
+	}
+
+	.questions-list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.no-questions {
+		text-align: center;
+		color: var(--text-secondary);
+		padding: 2rem;
+	}
+
+	.load-more-trigger {
+		height: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 1rem;
+	}
+
+	.loading-spinner {
+		width: 32px;
+		height: 32px;
+		border: 3px solid var(--light-gray);
+		border-top-color: var(--primary);
+		border-radius: 50%;
+		animation: spin 0.8s linear infinite;
+	}
+
+	@keyframes spin {
+		to { transform: rotate(360deg); }
+	}
+
+	.how-it-works {
+		background-color: var(--lightest-gray);
+		border-radius: 0.5rem;
+		padding: 1.5rem;
+		margin-top: 2rem;
+		border: 1px solid var(--border-color);
+	}
+
+	.how-it-works h2 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+		color: var(--text-primary);
+	}
+
+	.how-it-works ol {
+		margin: 1rem 0 1.5rem 1.5rem;
+		color: var(--text-secondary);
+	}
+
+	.how-it-works li {
+		margin-bottom: 0.5rem;
+		line-height: 1.6;
+	}
+
+	.cta-button {
+		width: 100%;
+		padding: 1rem 1.5rem;
+		background-color: var(--primary);
+		color: white;
+		border: none;
+		border-radius: 0.5rem;
+		font-size: 1.125rem;
+		font-weight: 600;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	}
+
+	.cta-button:hover {
+		background-color: var(--primary-dark);
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-md);
+	}
+
+	.cta-button:focus {
+		outline: 2px solid var(--primary);
+		outline-offset: 2px;
+	}
+
+	/* Mobile Styles */
+	@media (max-width: 768px) {
+		.questions-container {
+			padding: 0.5rem;
+			border-radius: 0;
+		}
+
+		.questions-header h1 {
+			font-size: 1.5rem;
+		}
+
+		.header-description {
+			font-size: 0.875rem;
+		}
+
+		.stats-row {
+			gap: 1.5rem;
+		}
+
+		.stat strong {
+			font-size: 1.25rem;
+		}
+
+		.categories-section {
+			padding: 0.75rem 1rem;
+			max-height: 150px;
+		}
+		
+		.questions-section,
+		.how-it-works {
+			padding: 1rem;
+		}
+
+		.categories-container {
+			padding: 0.25rem 0;
+		}
+
+		.cta-button {
+			font-size: 1rem;
+		}
+	}
+
+	@media (max-width: 576px) {
+		.stats-row {
+			flex-direction: column;
+			gap: 1rem;
+		}
+	}
+
+	/* Reduced motion */
 	.no-animation * {
 		animation: none !important;
 		transition: none !important;
 	}
 
-	/* Custom scrollbar styles */
-	.scrollbar-thin::-webkit-scrollbar {
-		width: 6px;
-		height: 6px;
-	}
-
-	.scrollbar-thin::-webkit-scrollbar-thumb {
-		background-color: rgba(0, 0, 0, 0.2);
-		border-radius: 3px;
-	}
-
-	.scrollbar-thin {
-		scrollbar-width: thin;
-		overscroll-behavior-y: contain;
-	}
-
-	/* Adding extra small screen breakpoint */
-	@media (max-width: 576px) {
-		.xs\:gap-4 {
-			gap: 1rem;
-		}
-	}
-
-	/* Accessibility */
 	@media (prefers-reduced-motion: reduce) {
 		* {
 			animation: none !important;
 			transition: none !important;
 		}
-	}
-
-	/*==============================================
-  GREEK COMPONENT STYLES
-==============================================*/
-	/* Column-inspired container */
-	.greek-column {
-		position: relative;
-		padding: var(--spacing-golden);
-		background-color: var(--card-background);
-		box-shadow: var(--shadow-md);
-		border-radius: var(--border-radius);
-		overflow: hidden;
-	}
-
-	.greek-column::before,
-	.greek-column::after {
-		content: '';
-		position: absolute;
-		left: 0;
-		right: 0;
-		height: 8px;
-		/* background: var(--greek-border-pattern); */
-	}
-
-	.greek-column::before {
-		top: 0;
-	}
-
-	.greek-column::after {
-		bottom: 0;
 	}
 </style>

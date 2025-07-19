@@ -1,5 +1,5 @@
 // routes/questions/+page.server.ts
-import { error, redirect } from '@sveltejs/kit';
+import { error } from '@sveltejs/kit';
 import { deleteESQuestion, elasticClient } from '$lib/elasticSearch';
 import { supabase } from '$lib/supabase';
 
@@ -8,112 +8,49 @@ import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../utils/api';
 import { mapDemoValues } from '../../utils/demo';
 
+const QUESTIONS_PER_PAGE = 20;
+
 export const load: PageServerLoad = async (event) => {
 	try {
 		const { demo_time } = await event.parent();
 		const session = event.locals.session;
-
-		let canAskQuestion = false;
-
-		if (session?.user?.id) {
-			const { data: questions, error: questionsError } = await supabase
-				.from(demo_time === true ? 'questions_demo' : 'questions')
-				.select('*')
-				.eq('author_id', session?.user?.id)
-				.eq('removed', false)
-				.gte('created_at', new Date(new Date().getTime() - 24 * 60 * 60 * 1000).toISOString())
-				.limit(10);
-
-			if (questionsError) {
-				console.log(questionsError);
+		const page = Number(event.url.searchParams.get('page')) || 1;
+		const categoryId = event.url.searchParams.get('category');
+		
+		// Use optimized RPC function that combines all queries
+		const { data: pageData, error: pageDataError } = await supabase.rpc(
+			'get_questions_page_data',
+			{
+				p_user_id: session?.user?.id || null,
+				p_limit: QUESTIONS_PER_PAGE,
+				p_offset: (page - 1) * QUESTIONS_PER_PAGE,
+				p_category_id: categoryId ? parseInt(categoryId) : null
 			}
-			if (questions && questions?.length <= 10) {
-				canAskQuestion = true;
-			}
-		}
+		);
 
-		const { data: uniqueQuestionTags, error: tagsError } = await supabase
-			.from('distinct_question_categories')
-			.select();
-
-		if (tagsError) {
-			console.log(tagsError);
-		}
-
-		const tags = uniqueQuestionTags?.map((t) => {
-			return t.tag_id;
-		});
-		if (!tags) {
-			return {
-				subcategoryTags: [],
-				allTags: [],
-				questionSubcategories: [],
-				questionsAndTags: [],
-				canAskQuestion
-			};
-		}
-
-		const { data: subcategoryTags, error: subcategoryTagsError } = await supabase
-			.from('question_categories')
-			.select(`*, question_category_tags(*)`)
-			.in('id', tags);
-
-		if (subcategoryTagsError) {
+		if (pageDataError) {
+			console.error('Error fetching page data:', pageDataError);
 			throw error(500, {
-				message: 'Error finding questions'
+				message: 'Error loading questions'
 			});
 		}
 
-		// all comments
-		const { data: questionsAndTags, error: findQuestionsError } = await supabase.rpc(
-			'get_10_question_tags',
-			{}
-		);
-
-		if (findQuestionsError) {
-			console.log(findQuestionsError);
-		}
-
-		const { data: allTags, error: allTagsError } = await supabase
-			.from('question_categories')
-			.select(`*`);
-
-		if (allTagsError) {
-			console.log(allTagsError);
-		}
-
-		const { data: questionSubcategories, error: questionSubcategoriesError } = await supabase
-			.from('question_category_tags')
-			.select(`*`);
-
-		if (questionSubcategoriesError) {
-			console.log(questionSubcategoriesError);
-		}
-
-		if (demo_time === true) {
-			return {
-				user: session?.user,
-				subcategoryTags,
-				allTags,
-				questionSubcategories,
-				canAskQuestion,
-				questionsAndTags: mapDemoValues(questionsAndTags).filter((q) => {
-					return !q.removed;
-				})
-			};
-		}
-		return {
+		// Process the data
+		const processedData = {
 			user: session?.user,
-			subcategoryTags,
-			allTags,
-			questionSubcategories,
-			canAskQuestion,
-			questionsAndTags: (questionsAndTags || []).filter((q) => {
-				return !q.removed;
-			})
+			canAskQuestion: pageData?.canAskQuestion || false,
+			subcategoryTags: pageData?.categories || [],
+			questionsAndTags: demo_time ? mapDemoValues(pageData?.questions || []) : (pageData?.questions || []),
+			totalQuestions: pageData?.totalQuestions || 0,
+			totalAnswers: pageData?.totalAnswers || 0,
+			currentPage: page,
+			hasMore: (pageData?.questions || []).length === QUESTIONS_PER_PAGE,
+			selectedCategory: categoryId
 		};
+
+		return processedData;
 	} catch (e) {
-		console.log(e);
+		console.error('Page load error:', e);
 		throw error(500, {
 			message: 'Error finding questions'
 		});
@@ -121,162 +58,139 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	search: async ({ request }) => {
-		try {
-			const demo_time = await checkDemoTime();
-
-			const body = Object.fromEntries(await request.formData());
-			const questionString = body.searchString as string;
-
-			const { data: questions, error: findQuestionsError } = await supabase
-				.from(demo_time === true ? 'questions_demo' : 'questions')
-				.select('*')
-				.textSearch('question', `${questionString.split(' ').join(' | ')}`, {
-					type: 'websearch',
-					config: 'english'
-				})
-				.eq('removed', false);
-
-			if (findQuestionsError) {
-				console.log(findQuestionsError);
-			}
-
-			return mapDemoValues(questions);
-		} catch (e) {
-			console.log(e);
-			throw error(500, {
-				message: 'Error finding questions'
-			});
-		}
-	},
+	// Optimized search with single ES query
 	typeahead: async ({ request }) => {
 		try {
 			const body = Object.fromEntries(await request.formData());
 			const questionString = body.searchString as string;
 
-			const {
-				hits: { hits: elasticPrefixHits }
-			} = await elasticClient.search({
+			if (!questionString || questionString.length < 2) {
+				return [];
+			}
+
+			// Single optimized Elasticsearch query
+			const { hits: { hits } } = await elasticClient.search({
 				index: 'question',
 				body: {
 					query: {
-						match_phrase_prefix: {
-							['question']: {
-								query: questionString
+						bool: {
+							should: [
+								{
+									match_phrase_prefix: {
+										question: {
+											query: questionString,
+											boost: 2
+										}
+									}
+								},
+								{
+									match: {
+										question: {
+											query: questionString,
+											fuzziness: 'AUTO',
+											boost: 1
+										}
+									}
+								}
+							]
+						}
+					},
+					highlight: {
+						fields: {
+							question: {
+								fragment_size: 150,
+								number_of_fragments: 1
 							}
 						}
-					}
+					},
+					size: 10,
+					_source: ['question', 'url', 'id', 'comment_count']
 				}
 			});
 
-			const {
-				hits: { hits: elasticQueryStringHits }
-			} = await elasticClient.search({
-				index: 'question',
-				body: {
-					query: {
-						query_string: {
-							query: questionString
-						}
-					}
+			// Simplify the response structure to avoid complex serialization
+			const results = hits.map(hit => ({
+				_source: {
+					question: hit._source.question,
+					url: hit._source.url,
+					id: hit._source.id,
+					comment_count: hit._source.comment_count,
+					highlighted: hit.highlight?.question?.[0] || hit._source.question
 				}
-			});
-
-			const hitMap: any = {};
-			const dedupedHits: any[] = [];
-
-			const hits = [...elasticPrefixHits, ...elasticQueryStringHits];
-
-			hits.forEach((hit) => {
-				if (!hitMap[hit._id]) {
-					hitMap[hit._id] = 1;
-					dedupedHits.push(hit);
-				}
-			});
-
-			return dedupedHits;
+			}));
+			
+			return results;
 		} catch (e) {
-			console.log(e);
+			console.error('Search error:', e);
 			return [];
 		}
 	},
-	sortComments: async ({ request }) => {
+
+	// Load more questions (for infinite scroll)
+	loadMore: async ({ request, locals }) => {
 		try {
 			const demo_time = await checkDemoTime();
-
 			const body = Object.fromEntries(await request.formData());
-			const enneagramTypes = (body.enneagramTypes as string).split(',');
-			const questionId = parseInt(body.questionId as string);
-			const sortBy = body.sortBy as string;
+			const page = parseInt(body.page as string) || 2;
+			const categoryId = body.categoryId ? parseInt(body.categoryId as string) : null;
 
-			const { data: comments, error: findCommentsError } = await supabase
-				.from(demo_time === true ? 'comments_demo' : 'comments')
-				.select(
-					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
-					!enneagramTypes.includes('rando') ? '!inner' : ''
-				} (enneagram, id, external_id)
-				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
-					{
-						count: 'exact'
-					}
-				)
-				.eq('parent_type', 'question')
-				.eq('parent_id', questionId)
-				.eq('removed', false)
-				.or(`enneagram.in.(${enneagramTypes.join(',')})`, {
-					foreignTable: demo_time === true ? 'profiles_demo' : 'profiles'
-				})
-				.order(sortBy === 'newest' || sortBy === 'oldest' ? 'created_at' : 'like_count', {
-					ascending:
-						sortBy === 'newest' || sortBy === 'oldest'
-							? sortBy === 'newest'
-								? false
-								: true
-							: false
-				});
-
-			if (comments) {
-				return mapDemoValues(comments);
-			} else {
-				if (findCommentsError) {
-					console.log(findCommentsError);
+			const { data: pageData, error: loadError } = await supabase.rpc(
+				'get_questions_page_data',
+				{
+					p_user_id: locals.session?.user?.id || null,
+					p_limit: QUESTIONS_PER_PAGE,
+					p_offset: (page - 1) * QUESTIONS_PER_PAGE,
+					p_category_id: categoryId
 				}
-				throw error(500, {
-					message: 'Error finding comments'
-				});
+			);
+
+			if (loadError) {
+				console.error('Load more error:', loadError);
+				return { questions: [], hasMore: false };
 			}
+
+			return {
+				questions: demo_time ? mapDemoValues(pageData?.questions || []) : (pageData?.questions || []),
+				hasMore: (pageData?.questions || []).length === QUESTIONS_PER_PAGE,
+				page
+			};
 		} catch (e) {
-			console.log(e);
-			return [];
+			console.error('Load more error:', e);
+			return { questions: [], hasMore: false };
 		}
 	},
-	getMoreQuestions: async ({ request }) => {
+
+	// Optimized comment filtering
+	filterByCategory: async ({ request }) => {
 		try {
 			const demo_time = await checkDemoTime();
-
 			const body = Object.fromEntries(await request.formData());
-			const count = parseInt(body.count as string);
+			const categoryId = parseInt(body.categoryId as string);
 
-			const { data: moreQuestions, error: moreQuestionsError } = await supabase
-				.from(demo_time === true ? 'questions_demo' : 'questions')
-				.select(`* `, { count: 'estimated' })
-				.eq('removed', false)
-				.order('created_at', { ascending: false })
-				.range(count, count + 10);
+			const { data: questions, error: filterError } = await supabase.rpc(
+				'get_questions_by_category',
+				{
+					p_category_id: categoryId,
+					p_limit: QUESTIONS_PER_PAGE,
+					p_offset: 0
+				}
+			);
 
-			if (!moreQuestionsError) {
-				return moreQuestions;
-			} else {
-				throw error(500, {
-					message: 'Error finding comments'
-				});
+			if (filterError) {
+				console.error('Filter error:', filterError);
+				return { questions: [], category: null };
 			}
+
+			return {
+				questions: demo_time ? mapDemoValues(questions || []) : (questions || []),
+				category: categoryId
+			};
 		} catch (e) {
-			console.log(e);
-			return [];
+			console.error('Filter error:', e);
+			return { questions: [], category: null };
 		}
 	},
+
 	remove: async ({ request, locals }) => {
 		try {
 			const session = locals.session;
@@ -289,16 +203,12 @@ export const actions: Actions = {
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
+				.select('id, admin')
 				.eq('id', session?.user?.id)
 				.single();
 
-			if (findUserError) {
-				console.log(findUserError);
-			}
-
-			if (!user?.admin) {
-				throw redirect(307, '/questions');
+			if (findUserError || !user?.admin) {
+				throw error(403, 'Not authorized');
 			}
 
 			const body = Object.fromEntries(await request.formData());
@@ -312,25 +222,24 @@ export const actions: Actions = {
 			if (!removeQuestionError) {
 				const { data: question } = await supabase
 					.from(demo_time === true ? 'questions_demo' : 'questions')
-					.select('*')
+					.select('es_id')
 					.eq('id', questionId)
 					.single();
 
-				if (question) {
+				if (question?.es_id) {
 					await deleteESQuestion({ questionId: question.es_id.toString() });
 				}
 
-				return true;
+				return { success: true };
 			} else {
-				throw error(500, {
-					message: 'Error removing question'
-				});
+				throw error(500, 'Error removing question');
 			}
 		} catch (e) {
-			console.log(e);
-			return false;
+			console.error('Remove error:', e);
+			return { success: false };
 		}
 	},
+
 	update: async ({ request, locals }) => {
 		try {
 			const session = locals.session;
@@ -343,189 +252,54 @@ export const actions: Actions = {
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
+				.select('id, admin')
 				.eq('id', session?.user?.id)
 				.single();
 
-			if (findUserError) {
-				console.log(findUserError);
-			}
-
-			if (!user?.admin) {
-				throw error(400, {
-					message: 'Not authorized'
-				});
+			if (findUserError || !user?.admin) {
+				throw error(403, 'Not authorized');
 			}
 
 			const body = Object.fromEntries(await request.formData());
 			const questionId = parseInt(body.questionId as string);
-			// const question = body.question as string;
-			const removed = body.removed as string;
-			const flagged = body.flagged as string;
+			const removed = body.removed === 'true';
+			const flagged = body.flagged === 'true';
 			const question_formatted = body.question_formatted as string;
 			const tags = JSON.parse(body.tags as string);
 
-			// 	body.append('questionId', questionData.id);
-			// body.append('question', questionData.question);
-			// body.append('question_formatted', questionData.question_formatted);
-			// body.append('tags', JSON.stringify(tags));
-			// body.append('flagged', questionData.flagged);
-			// body.append('removed', questionData.removed);
-
-			const { error: removeQuestionError } = await supabase
+			// Update question
+			const { error: updateError } = await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.update({ question_formatted, removed, flagged })
 				.eq('id', questionId);
 
+			if (updateError) {
+				throw error(500, 'Error updating question');
+			}
+
+			// Update tags if provided
 			if (tags.length > 0) {
-				const { error: removeQuestionTagsError } = await supabase
+				// Remove existing tags
+				await supabase
 					.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
 					.delete()
 					.eq('question_id', questionId);
 
-				if (removeQuestionTagsError) {
-					console.log('error removing tags');
-					throw error(400, {
-						message: 'error updating tags'
-					});
-				}
+				// Add new tags
+				const tagInserts = tags.map((tag: any) => ({
+					question_id: questionId,
+					tag_id: tag.tag_id
+				}));
 
-				tags.forEach(async (tag: any) => {
-					const { error: addTagError } = await supabase
-						.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
-						.insert({ question_id: questionId, tag_id: tag.tag_id });
-
-					if (addTagError) {
-						console.log('error adding tag', addTagError);
-					}
-				});
+				await supabase
+					.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
+					.insert(tagInserts);
 			}
 
-			if (!removeQuestionError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: 'Error removing question'
-				});
-			}
+			return { success: true };
 		} catch (e) {
-			console.log(e);
-			return false;
+			console.error('Update error:', e);
+			return { success: false };
 		}
 	}
 };
-
-interface Comment {
-	id: number;
-	created_at: string;
-	comment: string;
-	author_id: string;
-	ip: string;
-	comment_count: number;
-	parent_type: string;
-	es_id: string;
-	parent_id: number;
-	like_count: number;
-	profiles: Profiles;
-}
-
-interface Profiles {
-	enneagram: string;
-	id: string;
-}
-
-// const createHeirarchy = (categories: {id: number, subcategory_name: string, parent_id: number}[]) => {
-// 	const rootCategories: any[] = []
-// 	let categoriestoFilter = [...categories]
-
-// 	do {
-// 		categoriestoFilter.forEach(category => {
-// 			if (category.parent_id === null) {
-// 				rootCategories.push(category);
-// 			} else  {
-// 				const parent = rootCategories.find(c => c.id === category.parent_id)
-// 				if (!parent.children) {
-// 					parent.children = [category]
-// 				}
-// 			}
-// 		})
-// 	} while (categoriestoFilter > 0);
-
-// }
-
-type Category = {
-	id: number;
-	subcategory_name: string;
-	parent_id: number | null;
-	children?: Category[] | any;
-};
-
-// const categories: Category[] = [
-// 	{ id: 1, subcategory_name: 'test', parent_id: null },
-// 	{ id: 5, subcategory_name: 'test2', parent_id: 1 }
-// 	// ... add more categories as needed
-// ];
-
-function buildHierarchy(categories: Category[]): Category[] {
-	const map: { [key: number]: Category } = {};
-
-	// First pass: Create a map of all categories by their ID
-	categories.forEach((category) => {
-		category.children = [];
-		map[category.id] = category;
-	});
-
-	// Second pass: Attach each category to its parent's children array
-	categories.forEach((category) => {
-		if (category.parent_id !== null) {
-			if (map[category.parent_id]) {
-				map[category.parent_id].children!.push(category);
-			}
-		}
-	});
-
-	// Filter out the categories that are not root (those with a parent_id)
-	return categories.filter((category) => category.parent_id === null);
-}
-
-// let rootCategories = buildHierarchy(categories);
-// console.log(rootCategories);
-
-function addQuestionsToHierarchy(
-	rootCategories: Category[],
-	questionTags: { tag: any; questions: any }[]
-): Category[] {
-	function recurse(category: Category) {
-		questionTags.forEach((qTag, index) => {
-			if (qTag.question_tag.tag_name === category.subcategory_name) {
-				if (!category.children) {
-					category.children = [];
-				}
-				category.children.push(qTag);
-				// Remove the string from the list to prevent adding it multiple times
-				questionTags.splice(index, 1);
-			}
-		});
-
-		if (category.children) {
-			category.children.forEach((child: any) => {
-				if (!child.question) {
-					recurse(child);
-				}
-			});
-		}
-	}
-
-	rootCategories.forEach(recurse);
-	return rootCategories;
-}
-
-// Example usage:
-// const rootCategories: Category[] = [
-//     { id: 1, subcategory_name: "test", parent_id: null, children: [{ id: 5, subcategory_name: "test2", parent_id: 1 }] }
-// ];
-
-// const strings = ["test2", "example"];
-
-// const updatedRootCategories = addStringsAsChildren(rootCategories, strings);
-// console.log(updatedRootCategories);

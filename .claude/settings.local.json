@@ -18,7 +18,8 @@
       "Bash(node:*)",
       "Bash(timeout:*)",
       "Bash(find:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(pnpm svelte-check:*)"
     ],
     "deny": []
   }

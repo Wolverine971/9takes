@@ -189,7 +189,8 @@
 	// Select an option
 	function selectOption(optionElement) {
 		loading = true;
-		const selection = options.find((o) => o.text === optionElement.dataset.text);
+		const searchText = optionElement.dataset.text;
+		const selection = options.find((o) => o.text === searchText);
 		if (selection) {
 			value = selection.value;
 			selectedOption = selection;
