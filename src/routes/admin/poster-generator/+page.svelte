@@ -494,17 +494,11 @@
 
 <div class="min-h-screen bg-neutral-100 p-6">
 	<div class="mx-auto max-w-7xl">
-		<header class="mb-6">
-			<div class="flex items-center gap-3">
-				<img src="/brand/nimbus.png" alt="9takes Logo" class="h-10" />
-				<div>
-					<h1 class="text-2xl font-bold text-primary-700">9takes Poster Generator</h1>
-					<p class="text-sm text-neutral-600">
-						Create customizable question posters for print or digital use
-					</p>
-				</div>
-			</div>
-		</header>
+		<!-- Page Header -->
+		<div class="page-header mb-6">
+			<h1 class="text-2xl font-bold text-neutral-900">Poster Generator</h1>
+			<p class="text-neutral-600">Create customizable question posters for print or digital use</p>
+		</div>
 
 		<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
 			<!-- Left Column: Controls -->

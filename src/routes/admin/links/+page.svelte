@@ -35,18 +35,11 @@
 	});
 </script>
 
-<div class="row">
-	<a href="/admin/users">Users</a> |
-	<a href="/admin/questions">Questions</a> |
-	<a href="/admin/comments">Comments</a> |
-	<a href="/content-board">Content Board</a> |
-	<a href="/marketing">Marketing</a> |
-	<a href="/links" class="active-link">Links</a> |
-	<a href="/admin/messages">Messages</a>
-</div>
-
-<div>
-	<h1>Link Drops</h1>
+<div class="admin-links">
+	<div class="page-header">
+		<h1>Link Management</h1>
+		<p class="subtitle">Manage QR codes and link drops</p>
+	</div>
 	<div style="display: flex;">
 		<div style="display: flex; flex-direction: column; gap: 2px">
 			{#each Array(numberOfQRCodes) as _, i}

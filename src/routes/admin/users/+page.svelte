@@ -109,222 +109,200 @@
 	let showAdditionalColumns = false;
 </script>
 
-{#if data.user?.admin}
-	<div class="rounded-lg bg-neutral-50 bg-opacity-80 p-6 shadow-lg backdrop-blur-sm">
-		<!-- Admin Navigation -->
-		<div class="mb-6 flex space-x-4 overflow-x-auto pb-2">
-			<a href="/admin/users" class="font-semibold text-primary-700">Users</a>
-			<span class="text-neutral-400">|</span>
-			<a href="/admin/questions" class="text-neutral-600 transition-colors hover:text-primary-600"
-				>Questions</a
-			>
-			<span class="text-neutral-400">|</span>
-			<a href="/admin/comments" class="text-neutral-600 transition-colors hover:text-primary-600"
-				>Comments</a
-			>
-			<span class="text-neutral-400">|</span>
-			<a href="/content-board" class="text-neutral-600 transition-colors hover:text-primary-600"
-				>Content Board</a
-			>
-			<span class="text-neutral-400">|</span>
-			<a href="/marketing" class="text-neutral-600 transition-colors hover:text-primary-600"
-				>Marketing</a
-			>
-			<span class="text-neutral-400">|</span>
-			<a href="/links" class="text-neutral-600 transition-colors hover:text-primary-600">Links</a>
-			<span class="text-neutral-400">|</span>
-			<a href="/admin/messages" class="text-neutral-600 transition-colors hover:text-primary-600"
-				>Messages</a
-			>
+<div class="admin-users">
+	<div class="page-header">
+		<h1>User Management</h1>
+		<p class="subtitle">Manage user accounts and permissions</p>
+	</div>
+
+	<!-- Stats Cards -->
+	<div class="stats-grid">
+		<div class="stat-card">
+			<div class="stat-icon">👥</div>
+			<div class="stat-content">
+				<h3>Total Users</h3>
+				<p class="stat-value">{formattedProfiles?.length || 0}</p>
+			</div>
 		</div>
-
-		<div class="mb-6">
-			<h1 class="text-2xl font-bold text-neutral-900">Users</h1>
+		<div class="stat-card">
+			<div class="stat-icon">🛡️</div>
+			<div class="stat-content">
+				<h3>Admin Users</h3>
+				<p class="stat-value">{formattedProfiles?.filter(p => p.admin).length || 0}</p>
+			</div>
 		</div>
+		<div class="stat-card">
+			<div class="stat-icon">📧</div>
+			<div class="stat-content">
+				<h3>Email Signups</h3>
+				<p class="stat-value">{formattedSignups?.length || 0}</p>
+			</div>
+		</div>
+	</div>
 
-		{#if formattedProfiles?.length}
-			<div class="mb-6 rounded-lg bg-white p-4 shadow-md">
-				<div class="mb-4 flex items-center justify-between">
-					<h2 class="text-xl font-semibold text-neutral-800">
-						User Profiles ({formattedProfiles.length})
-					</h2>
-					<button
-						class="rounded bg-primary-100 px-3 py-1 text-sm text-primary-700 transition-colors hover:bg-primary-200"
-						on:click={() => (showAdditionalColumns = !showAdditionalColumns)}
-					>
-						{showAdditionalColumns ? 'Show Less' : 'Show More Columns'}
-					</button>
-				</div>
+	{#if formattedProfiles?.length}
+		<div class="section-card">
+			<div class="section-header-toolbar">
+				<h2 class="section-title">User Profiles</h2>
+				<button
+					class="toggle-btn"
+					on:click={() => (showAdditionalColumns = !showAdditionalColumns)}
+				>
+					{showAdditionalColumns ? 'Show Less' : 'Show More'} Columns
+				</button>
+			</div>
+			<div class="table-wrapper">
+				<table class="data-table">
+					<thead>
+						<tr>
+							{#each essentialColumns as column}
+								<th
+									class="sortable"
+									on:click={() => sortProfiles(column.field)}
+								>
+									<div class="th-content">
+										{column.label}
+										{#if sortField === column.field}
+											<span class="sort-indicator">
+												{sortDirection === 'asc' ? '↑' : '↓'}
+											</span>
+										{/if}
+									</div>
+								</th>
+							{/each}
 
-				<div class="max-h-96 overflow-x-auto rounded border border-neutral-200">
-					<table class="min-w-full divide-y divide-neutral-200">
-						<thead class="bg-neutral-50">
-							<tr>
-								{#each essentialColumns as column}
+							{#if showAdditionalColumns}
+								{#each additionalColumns as column}
 									<th
-										class="sticky top-0 cursor-pointer bg-neutral-50 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-neutral-600 transition-colors hover:bg-primary-50"
+										class="sortable"
 										on:click={() => sortProfiles(column.field)}
 									>
-										<div class="flex items-center">
+										<div class="th-content">
 											{column.label}
 											{#if sortField === column.field}
-												<span class="ml-1 text-primary-700">
+												<span class="sort-indicator">
 													{sortDirection === 'asc' ? '↑' : '↓'}
 												</span>
 											{/if}
 										</div>
 									</th>
 								{/each}
+							{/if}
+
+							<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each formattedProfiles as profile}
+							<tr>
+								{#each essentialColumns as column}
+									<td>
+										{#if column.field === 'admin'}
+											<span class="badge" class:badge-success={profile.admin}>
+												{profile.admin ? 'Yes' : 'No'}
+											</span>
+										{:else if column.field === 'email'}
+											<a href="mailto:{profile.email}" class="table-link">{profile.email}</a>
+										{:else}
+											{profile[column.field] || '—'}
+										{/if}
+									</td>
+								{/each}
 
 								{#if showAdditionalColumns}
 									{#each additionalColumns as column}
-										<th
-											class="sticky top-0 cursor-pointer bg-neutral-50 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-neutral-600 transition-colors hover:bg-primary-50"
-											on:click={() => sortProfiles(column.field)}
-										>
-											<div class="flex items-center">
-												{column.label}
-												{#if sortField === column.field}
-													<span class="ml-1 text-primary-700">
-														{sortDirection === 'asc' ? '↑' : '↓'}
-													</span>
-												{/if}
-											</div>
-										</th>
+										<td>
+											{column.field.includes('_at') && profile[column.field]
+												? new Date(profile[column.field]).toLocaleString()
+												: profile[column.field] || '—'}
+										</td>
 									{/each}
 								{/if}
 
-								<th class="sticky top-0 bg-neutral-50 px-4 py-3">Actions</th>
+								<td class="action-cell">
+									<button
+										type="button"
+										class="btn-action"
+										on:click={() => {
+											active = { ...profile };
+											activeAdmin = !!active.admin;
+											getModal('user-modal').open();
+										}}
+									>
+										Edit
+									</button>
+								</td>
 							</tr>
-						</thead>
-						<tbody class="divide-y divide-neutral-200 bg-white">
-							{#each formattedProfiles as profile}
-								<tr class="transition-colors hover:bg-primary-50">
-									{#each essentialColumns as column}
-										<td class="whitespace-nowrap px-4 py-2 text-sm text-neutral-800">
-											{column.field === 'admin'
-												? profile[column.field]
-													? 'Yes'
-													: 'No'
-												: profile[column.field] || ''}
-										</td>
-									{/each}
-
-									{#if showAdditionalColumns}
-										{#each additionalColumns as column}
-											<td class="whitespace-nowrap px-4 py-2 text-sm text-neutral-800">
-												{column.field.includes('_at') && profile[column.field]
-													? new Date(profile[column.field]).toLocaleString()
-													: profile[column.field] || ''}
-											</td>
-										{/each}
-									{/if}
-
-									<td class="whitespace-nowrap px-4 py-2 text-right text-sm font-medium">
-										<button
-											type="button"
-											class="inline-flex items-center rounded border border-transparent bg-primary-600 px-3 py-1.5 text-xs font-medium text-white shadow-sm transition-colors hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
-											on:click={() => {
-												active = { ...profile };
-												activeAdmin = !!active.admin;
-												getModal('user-modal').open();
-											}}
-										>
-											Edit
-										</button>
-									</td>
-								</tr>
-							{/each}
-						</tbody>
-					</table>
-				</div>
+						{/each}
+					</tbody>
+				</table>
 			</div>
-		{/if}
+		</div>
+	{/if}
 
-		{#if formattedSignups?.length}
-			<div class="rounded-lg bg-white p-4 shadow-md">
-				<h2 class="mb-4 text-xl font-semibold text-neutral-800">
-					Signups ({formattedSignups.length})
-				</h2>
-				<div class="max-h-96 overflow-x-auto rounded border border-neutral-200">
-					<table class="min-w-full divide-y divide-neutral-200">
-						<thead class="bg-neutral-50">
+	{#if formattedSignups?.length}
+		<div class="section-card">
+			<div class="section-header-toolbar">
+				<h2 class="section-title">Email Signups</h2>
+			</div>
+			<div class="table-wrapper">
+				<table class="data-table">
+					<thead>
+						<tr>
+							<th>Email</th>
+							<th>Name</th>
+							<th>Created At</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each formattedSignups as signup}
 							<tr>
-								<th
-									class="sticky top-0 bg-neutral-50 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-neutral-600"
-								>
-									Email
-								</th>
-								<th
-									class="sticky top-0 bg-neutral-50 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-neutral-600"
-								>
-									Name
-								</th>
-								<th
-									class="sticky top-0 bg-neutral-50 px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-neutral-600"
-								>
-									Created At
-								</th>
+								<td>
+									<a href="mailto:{signup.email}" class="table-link">{signup.email}</a>
+								</td>
+								<td>{signup.name || '—'}</td>
+								<td>{signup.createdAt}</td>
 							</tr>
-						</thead>
-						<tbody class="divide-y divide-neutral-200 bg-white">
-							{#each formattedSignups as signup}
-								<tr class="transition-colors hover:bg-primary-50">
-									<td class="whitespace-nowrap px-4 py-2 text-sm text-neutral-800"
-										>{signup.email}</td
-									>
-									<td class="whitespace-nowrap px-4 py-2 text-sm text-neutral-800">{signup.name}</td
-									>
-									<td class="whitespace-nowrap px-4 py-2 text-sm text-neutral-800"
-										>{signup.createdAt}</td
-									>
-								</tr>
-							{/each}
-						</tbody>
-					</table>
-				</div>
+						{/each}
+					</tbody>
+				</table>
 			</div>
-		{/if}
-	</div>
-{:else}
-	<div class="rounded-lg bg-white p-6 text-center shadow-md">
-		<h1 class="text-xl font-semibold text-error-500">Access Denied</h1>
-		<p class="mt-2 text-neutral-600">You need administrator privileges to view this page.</p>
-	</div>
-{/if}
+		</div>
+	{/if}
+</div>
 
 <Modal2 id="user-modal">
-	<div class="bg-neutral-50 p-6">
-		<h1 class="mb-2 text-xl font-bold text-neutral-900">Edit User</h1>
-		<h2 class="mb-2 text-primary-700">{active?.email}</h2>
-		<p class="mb-6 text-sm text-neutral-600">{active?.first_name} {active?.last_name}</p>
+	<div class="modal-content">
+		<h2 class="modal-title">Edit User</h2>
+		<div class="modal-info">
+			<p class="user-email">{active?.email}</p>
+			<p class="user-name">{active?.first_name} {active?.last_name}</p>
+		</div>
 
-		<div class="mb-6">
-			<label for="isAdmin" class="mb-1 block text-sm font-medium text-neutral-800"
-				>Administrator Status</label
-			>
+		<div class="form-group">
+			<label for="isAdmin">Administrator Status</label>
 			<select
 				name="isAdmin"
 				id="isAdmin"
 				bind:value={activeAdmin}
-				class="mt-1 block w-full rounded border-neutral-300 py-2 pl-3 pr-10 text-base focus:border-primary-500 focus:outline-none focus:ring-primary-500 sm:text-sm"
+				class="form-select"
 			>
 				<option value={true}>Administrator</option>
 				<option value={false}>Regular User</option>
 			</select>
 		</div>
 
-		<div class="flex justify-end space-x-3">
+		<div class="modal-actions">
 			<button
 				type="button"
-				class="inline-flex justify-center rounded border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-neutral-700 shadow-md transition-colors hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+				class="btn btn-secondary"
 				on:click={() => getModal('user-modal').close()}
 			>
 				Cancel
 			</button>
 			<button
 				type="button"
-				class="inline-flex justify-center rounded border border-transparent bg-primary-600 px-4 py-2 text-sm font-medium text-white shadow-md transition-colors hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+				class="btn btn-primary"
 				on:click={saveUserAdminChanges}
 			>
 				Save Changes
@@ -332,3 +310,379 @@
 		</div>
 	</div>
 </Modal2>
+
+<style>
+	.admin-users {
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+
+	.page-header {
+		margin-bottom: 2rem;
+	}
+
+	.page-header h1 {
+		font-size: 2rem;
+		margin: 0 0 0.5rem 0;
+		color: var(--text-primary);
+	}
+
+	.subtitle {
+		color: var(--text-secondary);
+		margin: 0;
+	}
+
+	/* Stats Grid */
+	.stats-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 1.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.stat-card {
+		background-color: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 1.5rem;
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		transition: transform 0.2s ease, box-shadow 0.2s ease;
+	}
+
+	.stat-card:hover {
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-md);
+	}
+
+	.stat-icon {
+		font-size: 2.5rem;
+		opacity: 0.8;
+	}
+
+	.stat-content h3 {
+		margin: 0 0 0.5rem 0;
+		font-size: 0.875rem;
+		color: var(--text-secondary);
+		font-weight: 500;
+	}
+
+	.stat-value {
+		margin: 0;
+		font-size: 1.75rem;
+		font-weight: 600;
+		color: var(--primary);
+	}
+
+	/* Section Cards */
+	.section-card {
+		background-color: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		margin-bottom: 2rem;
+		overflow: hidden;
+	}
+
+	.section-header-toolbar {
+		padding: 1.25rem;
+		background-color: var(--hover-background);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.section-title {
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin: 0;
+	}
+
+	.toggle-btn {
+		padding: 0.5rem 1rem;
+		background-color: var(--background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		font-size: 0.875rem;
+		color: var(--text-primary);
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.toggle-btn:hover {
+		background-color: var(--primary-light);
+		border-color: var(--primary);
+		color: var(--primary);
+	}
+
+	/* Table Styles */
+	.table-wrapper {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.data-table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.data-table thead {
+		background-color: var(--hover-background);
+	}
+
+	.data-table th {
+		padding: 0.75rem 1rem;
+		text-align: left;
+		font-weight: 600;
+		color: var(--text-primary);
+		font-size: 0.875rem;
+		white-space: nowrap;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.data-table th.sortable {
+		cursor: pointer;
+		user-select: none;
+		transition: background-color 0.2s ease;
+	}
+
+	.data-table th.sortable:hover {
+		background-color: var(--primary-light);
+	}
+
+	.th-content {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.sort-indicator {
+		color: var(--primary);
+		font-size: 0.75rem;
+	}
+
+	.data-table td {
+		padding: 0.75rem 1rem;
+		border-top: 1px solid var(--border-color);
+		color: var(--text-primary);
+	}
+
+	.data-table tbody tr {
+		transition: background-color 0.2s ease;
+	}
+
+	.data-table tbody tr:hover {
+		background-color: var(--hover-background);
+	}
+
+	/* Badges */
+	.badge {
+		display: inline-block;
+		padding: 0.25rem 0.625rem;
+		border-radius: 9999px;
+		font-size: 0.75rem;
+		font-weight: 500;
+		background-color: var(--error-light);
+		color: var(--error);
+	}
+
+	.badge-success {
+		background-color: var(--success-light);
+		color: var(--success);
+	}
+
+	/* Links */
+	.table-link {
+		color: var(--primary);
+		text-decoration: none;
+		transition: color 0.2s ease;
+	}
+
+	.table-link:hover {
+		color: var(--primary-dark);
+		text-decoration: underline;
+	}
+
+	/* Action Buttons */
+	.action-cell {
+		text-align: right;
+		white-space: nowrap;
+	}
+
+	.btn-action {
+		padding: 0.375rem 0.75rem;
+		background-color: var(--primary);
+		color: white;
+		border: none;
+		border-radius: var(--border-radius);
+		font-size: 0.875rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.btn-action:hover {
+		background-color: var(--primary-dark);
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-sm);
+	}
+
+	/* Modal Styles */
+	.modal-content {
+		padding: 1.5rem;
+	}
+
+	.modal-title {
+		font-size: 1.5rem;
+		margin: 0 0 1rem 0;
+		color: var(--text-primary);
+	}
+
+	.modal-info {
+		margin-bottom: 1.5rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.user-email {
+		font-size: 1.125rem;
+		font-weight: 600;
+		color: var(--primary);
+		margin: 0 0 0.25rem 0;
+	}
+
+	.user-name {
+		color: var(--text-secondary);
+		margin: 0;
+	}
+
+	.form-group {
+		margin-bottom: 1.5rem;
+	}
+
+	.form-group label {
+		display: block;
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		color: var(--text-primary);
+	}
+
+	.form-select {
+		width: 100%;
+		padding: 0.625rem;
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		background-color: var(--background);
+		color: var(--text-primary);
+		font-size: 1rem;
+		transition: border-color 0.2s ease;
+	}
+
+	.form-select:focus {
+		outline: none;
+		border-color: var(--primary);
+		box-shadow: 0 0 0 3px var(--primary-light);
+	}
+
+	.modal-actions {
+		display: flex;
+		justify-content: flex-end;
+		gap: 1rem;
+		margin-top: 2rem;
+	}
+
+	.btn-secondary {
+		background-color: var(--secondary);
+		color: var(--text-on-secondary);
+		padding: 0.625rem 1.25rem;
+		border: none;
+		border-radius: var(--border-radius);
+		font-size: 1rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.btn-secondary:hover {
+		background-color: var(--secondary-dark);
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-sm);
+	}
+
+	/* Responsive Design */
+	@media (max-width: 768px) {
+		.page-header h1 {
+			font-size: 1.5rem;
+		}
+
+		.stats-grid {
+			grid-template-columns: 1fr;
+			gap: 1rem;
+		}
+
+		.stat-card {
+			padding: 1rem;
+		}
+
+		.stat-icon {
+			font-size: 2rem;
+		}
+
+		.stat-value {
+			font-size: 1.5rem;
+		}
+
+		.section-header-toolbar {
+			flex-direction: column;
+			gap: 1rem;
+			align-items: flex-start;
+		}
+
+		.data-table {
+			font-size: 0.875rem;
+		}
+
+		.data-table th,
+		.data-table td {
+			padding: 0.5rem;
+		}
+
+		/* Hide less important columns on mobile */
+		.data-table th:nth-child(n+4),
+		.data-table td:nth-child(n+4) {
+			display: none;
+		}
+
+		.modal-content {
+			padding: 1rem;
+		}
+
+		.modal-actions {
+			flex-direction: column;
+			gap: 0.5rem;
+		}
+
+		.modal-actions button {
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.data-table {
+			font-size: 0.75rem;
+		}
+
+		.data-table th,
+		.data-table td {
+			padding: 0.375rem;
+		}
+
+		/* Show only essential columns on very small screens */
+		.data-table th:nth-child(n+3),
+		.data-table td:nth-child(n+3) {
+			display: none;
+		}
+	}
+</style>

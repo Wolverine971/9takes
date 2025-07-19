@@ -1,7 +1,6 @@
 <!-- routes/admin/comments/+page.svelte -->
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
-	import { page } from '$app/stores';
 	import type { PageData } from './$types';
 	import { convertDateToReadable } from '../../../utils/conversions';
 	import { notifications } from '$lib/components/molecules/notifications';
@@ -15,29 +14,6 @@
 	let loading = false;
 	let currentCommentId: number | null = null;
 	let actionType: 'remove' | 'unflag' | null = null;
-
-	// Admin navigation items with dynamic active state
-	$: navItems = [
-		{ href: '/admin/users', label: 'Users', active: $page.url.pathname === '/admin/users' },
-		{
-			href: '/admin/questions',
-			label: 'Questions',
-			active: $page.url.pathname === '/admin/questions'
-		},
-		{
-			href: '/admin/comments',
-			label: 'Comments',
-			active: $page.url.pathname === '/admin/comments'
-		},
-		{
-			href: '/content-board',
-			label: 'Content Board',
-			active: $page.url.pathname === '/content-board'
-		},
-		{ href: '/marketing', label: 'Marketing', active: $page.url.pathname === '/marketing' },
-		{ href: '/links', label: 'Links', active: $page.url.pathname === '/links' },
-		{ href: '/admin/messages', label: 'Messages', active: $page.url.pathname === '/admin/messages' }
-	];
 
 	// Set up action confirmation
 	const confirmAction = (id: number, type: 'remove' | 'unflag') => {
@@ -144,27 +120,10 @@
 
 {#if data.user?.admin}
 	<div class="rounded-lg bg-neutral-50 bg-opacity-80 p-4 shadow-lg backdrop-blur-sm md:p-6">
-		<!-- Admin Navigation -->
-		<div class="mb-6 flex flex-wrap gap-y-2 overflow-x-auto pb-2">
-			{#each navItems as item, i}
-				<div class="flex items-center">
-					<a
-						href={item.href}
-						class="{item.active
-							? 'font-semibold text-primary-700'
-							: 'text-neutral-600 hover:text-primary-600'} whitespace-nowrap px-2 transition-colors"
-					>
-						{item.label}
-					</a>
-					{#if i !== navItems.length - 1}
-						<span class="text-neutral-400">|</span>
-					{/if}
-				</div>
-			{/each}
-		</div>
-
-		<div class="mb-6">
+		<!-- Page Header -->
+		<div class="page-header mb-6">
 			<h1 class="text-2xl font-bold text-neutral-900">Comments</h1>
+			<p class="text-neutral-600">Review and moderate user comments</p>
 		</div>
 
 		<!-- Loading Overlay -->

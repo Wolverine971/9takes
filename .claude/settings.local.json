@@ -9,7 +9,10 @@
       "Bash(do echo \"=== $file ===\")",
       "Bash(grep:*)",
       "Bash(done)",
-      "Bash(pnpm dev:*)"
+      "Bash(pnpm dev:*)",
+      "Bash(move:*)",
+      "Bash(move srcroutescontent-board+page.server.ts srcroutesadmincontent-board+page.server.ts)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }

@@ -171,17 +171,10 @@
 </script>
 
 <div class="content-board-container">
-	<header class="nav-header">
-		<div class="nav-links">
-			<a href="/admin/users">Users</a>
-			<a href="/admin/questions">Questions</a>
-			<a href="/admin/comments">Comments</a>
-			<a href="/content-board" class="active-link">Content Board</a>
-			<a href="/marketing">Marketing</a>
-			<a href="/links">Links</a>
-			<a href="/admin/messages">Messages</a>
-		</div>
-	</header>
+	<div class="page-header">
+		<h1>Content Board</h1>
+		<p class="subtitle">Manage blog posts and content creation</p>
+	</div>
 
 	<div class="content-controls">
 		<div class="content-type-selector">

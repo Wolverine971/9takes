@@ -10,16 +10,6 @@
 
 	export let data: PageData;
 
-	// Admin navigation items
-	const navItems = [
-		{ href: '/admin/users', label: 'Users' },
-		{ href: '/admin/questions', label: 'Questions', active: true },
-		{ href: '/admin/comments', label: 'Comments' },
-		{ href: '/content-board', label: 'Content Board' },
-		{ href: '/marketing', label: 'Marketing' },
-		{ href: '/links', label: 'Links' },
-		{ href: '/admin/messages', label: 'Messages' }
-	];
 
 	// Question sorting functions
 	const sortFunctions = {
@@ -89,25 +79,10 @@
 
 {#if data.user?.admin}
 	<div class="rounded-lg bg-neutral-50 bg-opacity-80 p-6 shadow-lg backdrop-blur-sm">
-		<!-- Admin Navigation -->
-		<div class="mb-6 flex space-x-4 overflow-x-auto pb-2">
-			{#each navItems as item}
-				<a
-					href={item.href}
-					class="{item.active
-						? 'font-semibold text-primary-700'
-						: 'text-neutral-600 hover:text-primary-600'} transition-colors"
-				>
-					{item.label}
-				</a>
-				{#if item !== navItems[navItems.length - 1]}
-					<span class="text-neutral-400">|</span>
-				{/if}
-			{/each}
-		</div>
-
-		<div class="mb-6">
+		<!-- Page Header -->
+		<div class="page-header mb-6">
 			<h1 class="text-2xl font-bold text-neutral-900">Questions</h1>
+			<p class="text-neutral-600">Manage and monitor all platform questions</p>
 		</div>
 
 		<!-- Action Buttons -->

@@ -16,16 +16,13 @@
 	let categories: Category[] = data.categories;
 </script>
 
-<div class="container mx-auto p-8">
-	<h1 class="mb-6 text-3xl font-bold">Category Hierarchy</h1>
-	<div class="rounded-lg bg-white p-6 shadow-md">
-		{#each categories as category}
-			<CategoryTree {category} />
-		{/each}
+<div class="rounded-lg bg-neutral-50 bg-opacity-80 p-6 shadow-lg backdrop-blur-sm">
+	<!-- Page Header -->
+	<div class="page-header mb-6">
+		<h1 class="text-2xl font-bold text-neutral-900">Category Hierarchy</h1>
+		<p class="text-neutral-600">View and manage question category structure</p>
 	</div>
-</div>
-<div class="container mx-auto p-8">
-	<h1 class="mb-6 text-3xl font-bold">Category Hierarchy</h1>
+	
 	<div class="rounded-lg bg-white p-6 shadow-md">
 		{#each categories as category}
 			<CategoryTree {category} />
