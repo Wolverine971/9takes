@@ -18,6 +18,11 @@ instagram: 'https://www.instagram.com/jakepaul'
 tiktok: 'https://www.tiktok.com/@jakepaul'
 ---
 
+
+<script>
+	import PopCard from "$lib/components/atoms/PopCard.svelte";
+</script>
+
 <!-- Notes: boxing, can he actually fight, net worth, where is he from, close friends, tommy fury, nate diaz, anderson silva, andrew tate, ksi, disney channel, age, girlfriend, news, logan paul -->
 
 <p class="firstLetter">You've seen the highlight reels. You've heard the trash talk. Maybe you've even paid to watch him knock out an ex-UFC fighter.</p>

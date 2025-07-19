@@ -1,15 +1,8 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import type { PageData } from './$types';
-  import BlogList from '$lib/components/blog/BlogList.svelte';
-  import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 
   export let data: PageData;
-
-  const breadcrumbItems = [
-    { name: 'Enneagram Corner', url: '/enneagram-corner' },
-    { name: 'Mental Health', url: '/enneagram-corner/mental-health' }
-  ];
 
   const hubDescription = `Explore the intersection of Enneagram personality types and mental health. Our comprehensive guides help you understand how each type experiences anxiety, depression, trauma, and other mental health challenges, with tailored strategies for healing and growth.`;
 
@@ -69,7 +62,11 @@
 </svelte:head>
 
 <div class="container">
-  <Breadcrumb items={breadcrumbItems} />
+  <nav class="breadcrumb">
+    <a href="/enneagram-corner">Enneagram Corner</a>
+    <span class="separator">/</span>
+    <span class="current">Mental Health</span>
+  </nav>
   
   <header class="hub-header">
     <h1>Enneagram and Mental Health</h1>
@@ -257,6 +254,30 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+  }
+
+  .breadcrumb {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+
+    a {
+      color: var(--color-primary);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .separator {
+      margin: 0 0.5rem;
+    }
+
+    .current {
+      color: var(--text-primary);
+      font-weight: 500;
+    }
   }
 
   .hub-header {
