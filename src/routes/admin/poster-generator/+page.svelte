@@ -492,17 +492,17 @@
 	});
 </script>
 
-<div class="min-h-screen bg-neutral-100 p-6">
-	<div class="mx-auto max-w-7xl">
+<div class="admin-poster-generator">
+	<div class="content-wrapper">
 		<!-- Page Header -->
-		<div class="page-header mb-6">
-			<h1 class="text-2xl font-bold text-neutral-900">Poster Generator</h1>
-			<p class="text-neutral-600">Create customizable question posters for print or digital use</p>
+		<div class="page-header">
+			<h1>Poster Generator</h1>
+			<p class="subtitle">Create customizable question posters for print or digital use</p>
 		</div>
 
-		<div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+		<div class="poster-grid">
 			<!-- Left Column: Controls -->
-			<div class="rounded-lg bg-white p-6 shadow-md">
+			<div class="section-card">
 				<!-- Tab Navigation -->
 				<div class="mb-6 flex items-center justify-between">
 					<div class="w-2/3 pr-2">
@@ -1353,6 +1353,38 @@
 </div>
 
 <style>
+	.admin-poster-generator {
+		max-width: 100%;
+		margin: 0 auto;
+		background-color: var(--background);
+		padding: 1rem;
+	}
+
+	.content-wrapper {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.poster-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+
+	@media (min-width: 1024px) {
+		.poster-grid {
+			grid-template-columns: 1fr 2fr;
+		}
+	}
+
+	.section-card {
+		background-color: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 1.5rem;
+		box-shadow: var(--shadow-sm);
+	}
+
 	/* Ensure container properly handles poster dimensions */
 	:global(.font-serif) {
 		font-family: 'Georgia', serif;
@@ -1389,5 +1421,58 @@
 	/* Ensure QR code is crisp */
 	img[alt='QR Code'] {
 		image-rendering: pixelated;
+	}
+
+	/* Style form elements consistently */
+	select,
+	input[type="text"],
+	input[type="url"],
+	textarea {
+		width: 100%;
+		padding: 0.5rem;
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		background-color: var(--background);
+		color: var(--text-primary);
+		font-size: 0.875rem;
+		transition: border-color 0.2s ease;
+	}
+
+	select:focus,
+	input[type="text"]:focus,
+	input[type="url"]:focus,
+	textarea:focus {
+		outline: none;
+		border-color: var(--primary);
+		box-shadow: 0 0 0 3px var(--primary-light);
+	}
+
+	label {
+		display: block;
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		color: var(--text-primary);
+		font-size: 0.875rem;
+	}
+
+	h2 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin-bottom: 1rem;
+	}
+
+	@media (max-width: 768px) {
+		.admin-poster-generator {
+			padding: 0.5rem;
+		}
+
+		.section-card {
+			padding: 1rem;
+		}
+
+		.poster-grid {
+			gap: 1rem;
+		}
 	}
 </style>

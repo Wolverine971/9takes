@@ -46,15 +46,15 @@
 	});
 </script>
 
-<div class="rounded-lg bg-neutral-50 bg-opacity-80 p-6 shadow-lg backdrop-blur-sm">
+<div class="admin-messages">
 	<!-- Page Header -->
-	<div class="page-header mb-6">
-		<h1 class="text-2xl font-bold text-neutral-900">Messages</h1>
-		<p class="text-neutral-600">Monitor real-time user messages and interactions</p>
+	<div class="page-header">
+		<h1>Messages</h1>
+		<p class="subtitle">Monitor real-time user messages and interactions</p>
 	</div>
 
-	<div class="rounded-lg bg-white p-6 shadow-md">
-		<div class="flex flex-col gap-8 lg:flex-row lg:justify-between">
+	<div class="section-card">
+		<div class="message-grid">
 			<div class="flex-1">
 				<h2 class="mb-4 text-xl font-semibold text-neutral-800">Server Messages</h2>
 				<div class="mb-4">
@@ -109,8 +109,8 @@
 	</div>
 
 
-	<div class="rounded-lg bg-white p-6 shadow-md">
-		<div class="flex flex-col gap-8 lg:flex-row lg:justify-between">
+	<div class="section-card">
+		<div class="message-grid">
 			<div class="flex-1">
 				<h2 class="mb-4 text-xl font-semibold text-neutral-800">User Messages</h2>
 				<div class="mb-4">
@@ -190,7 +190,135 @@
 </div>
 
 <style lang="scss">
-	h1 {
-		font-size: 1.5rem;
+	.admin-messages {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.section-card {
+		background-color: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 1.5rem;
+		margin-bottom: 1.5rem;
+		box-shadow: var(--shadow-sm);
+	}
+
+	.message-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 2rem;
+	}
+
+	h2 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin-bottom: 1rem;
+	}
+
+	label {
+		display: block;
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		color: var(--text-primary);
+		font-size: 0.875rem;
+	}
+
+	input[type="text"] {
+		width: 100%;
+		padding: 0.5rem;
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		background-color: var(--background);
+		color: var(--text-primary);
+		font-size: 0.875rem;
+		transition: border-color 0.2s ease;
+	}
+
+	input[type="text"]:focus {
+		outline: none;
+		border-color: var(--primary);
+		box-shadow: 0 0 0 3px var(--primary-light);
+	}
+
+	button[type="button"] {
+		padding: 0.5rem 1rem;
+		background-color: var(--primary);
+		color: white;
+		border: none;
+		border-radius: var(--border-radius);
+		font-size: 0.875rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	button[type="button"]:hover {
+		background-color: var(--primary-dark);
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.max-h-96 {
+		max-height: 24rem;
+	}
+
+	.overflow-y-auto {
+		overflow-y: auto;
+	}
+
+	.rounded-lg {
+		border-radius: var(--border-radius);
+	}
+
+	.border {
+		border: 1px solid var(--border-color);
+	}
+
+	.bg-neutral-50 {
+		background-color: var(--hover-background);
+	}
+
+	.p-4 {
+		padding: 1rem;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	ul li {
+		padding: 0.5rem;
+		background-color: var(--background);
+		border-radius: var(--border-radius);
+		margin-bottom: 0.5rem;
+		font-size: 0.875rem;
+		color: var(--text-primary);
+	}
+
+	.font-medium {
+		font-weight: 500;
+	}
+
+	.text-neutral-500 {
+		color: var(--text-secondary);
+	}
+
+	.text-primary-600 {
+		color: var(--primary);
+	}
+
+	@media (max-width: 768px) {
+		.message-grid {
+			grid-template-columns: 1fr;
+			gap: 1.5rem;
+		}
+
+		.section-card {
+			padding: 1rem;
+		}
 	}
 </style>

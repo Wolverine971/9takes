@@ -78,11 +78,11 @@
 </svelte:head>
 
 {#if data.user?.admin}
-	<div class="rounded-lg bg-neutral-50 bg-opacity-80 p-6 shadow-lg backdrop-blur-sm">
+	<div class="admin-questions">
 		<!-- Page Header -->
-		<div class="page-header mb-6">
-			<h1 class="text-2xl font-bold text-neutral-900">Questions</h1>
-			<p class="text-neutral-600">Manage and monitor all platform questions</p>
+		<div class="page-header">
+			<h1>Questions</h1>
+			<p class="subtitle">Manage and monitor all platform questions</p>
 		</div>
 
 		<!-- Action Buttons -->
@@ -126,32 +126,28 @@
 		</div>
 
 		{#if displayedQuestions.length}
-			<div class="rounded-lg bg-white p-4 shadow-md">
-				<div class="-mr-4 max-h-[calc(100vh-240px)] space-y-4 overflow-y-auto pr-4">
+			<div class="section-card">
+				<div class="questions-list">
 					{#each displayedQuestions as question}
 						<div
-							class="{getQuestionBackground(
-								question
-							)} rounded border border-neutral-200 p-4 shadow-sm transition-all hover:shadow-md"
+							class="question-item {getQuestionBackground(question)}"
 						>
-							<h2 class="mb-2 text-xl font-bold text-neutral-800">
+							<h2 class="question-title">
 								{question.question_formatted || question.question}
 							</h2>
-							<div class="flex flex-wrap items-center justify-between gap-2">
-								<div class="text-sm text-neutral-600">
-									<span
-										class="mr-2 inline-flex items-center rounded-full bg-primary-50 px-2 py-1 text-xs font-medium text-primary-700"
-									>
+							<div class="question-meta">
+								<div class="meta-info">
+									<span class="comment-badge">
 										{question.comment_count} Comments
 									</span>
-									<span class="mr-2">Created: {convertDateToReadable(question.created_at)}</span>
+									<span>Created: {convertDateToReadable(question.created_at)}</span>
 									{#if question.last_comment_date}
 										<span>Last Comment: {convertDateToReadable(question.last_comment_date)}</span>
 									{/if}
 								</div>
 								<button
 									type="button"
-									class="rounded bg-primary-600 px-3 py-1.5 text-sm font-medium text-white shadow-sm transition-colors hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+									class="btn-action"
 									on:click={() => openModal(question)}
 								>
 									Details
@@ -162,8 +158,8 @@
 				</div>
 			</div>
 		{:else}
-			<div class="rounded-lg border border-neutral-200 bg-neutral-50 p-8 text-center">
-				<p class="text-neutral-600">No questions found.</p>
+			<div class="empty-state">
+				<p>No questions found.</p>
 			</div>
 		{/if}
 	</div>
@@ -185,3 +181,142 @@
 		{/if}
 	</div>
 </Modal2>
+
+<style>
+	.admin-questions {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.action-buttons {
+		margin-bottom: 1.5rem;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.section-card {
+		background-color: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 1.5rem;
+		box-shadow: var(--shadow-sm);
+	}
+
+	.questions-list {
+		max-height: calc(100vh - 300px);
+		overflow-y: auto;
+		padding-right: 0.5rem;
+	}
+
+	.question-item {
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 1rem;
+		margin-bottom: 1rem;
+		transition: all 0.2s ease;
+		background-color: var(--background);
+	}
+
+	.question-item:hover {
+		box-shadow: var(--shadow-md);
+		transform: translateY(-1px);
+	}
+
+	.question-item.bg-error-50 {
+		background-color: var(--error-light);
+		border-color: var(--error);
+	}
+
+	.question-item.bg-warning-50 {
+		background-color: var(--warning-light);
+		border-color: var(--warning);
+	}
+
+	.question-title {
+		font-size: 1.125rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin-bottom: 0.75rem;
+		line-height: 1.4;
+	}
+
+	.question-meta {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.meta-info {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		flex-wrap: wrap;
+		font-size: 0.875rem;
+		color: var(--text-secondary);
+	}
+
+	.comment-badge {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.25rem 0.75rem;
+		background-color: var(--primary-light);
+		color: var(--primary);
+		border-radius: 9999px;
+		font-size: 0.75rem;
+		font-weight: 500;
+	}
+
+	.btn-action {
+		padding: 0.375rem 0.75rem;
+		background-color: var(--primary);
+		color: white;
+		border: none;
+		border-radius: var(--border-radius);
+		font-size: 0.875rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.btn-action:hover {
+		background-color: var(--primary-dark);
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.empty-state {
+		text-align: center;
+		padding: 3rem;
+		color: var(--text-secondary);
+		background-color: var(--hover-background);
+		border: 1px dashed var(--border-color);
+		border-radius: var(--border-radius);
+	}
+
+	@media (max-width: 768px) {
+		.questions-list {
+			padding-right: 0;
+		}
+
+		.question-item {
+			padding: 0.75rem;
+		}
+
+		.question-title {
+			font-size: 1rem;
+		}
+
+		.question-meta {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 0.75rem;
+		}
+
+		.meta-info {
+			font-size: 0.75rem;
+		}
+	}
+</style>

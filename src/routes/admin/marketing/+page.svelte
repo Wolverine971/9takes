@@ -30,13 +30,13 @@
 	).length;
 </script>
 
-<main class="container mx-auto p-4">
-	<div class="page-header mb-6">
-		<h1 class="text-2xl font-bold text-gray-900 dark:text-white">Marketing Dashboard</h1>
-		<p class="text-gray-600 dark:text-gray-400">Manage marketing campaigns and analytics</p>
+<div class="admin-marketing">
+	<div class="page-header">
+		<h1>Marketing Dashboard</h1>
+		<p class="subtitle">Manage marketing campaigns and analytics</p>
 	</div>
 
-	<div class="rounded-lg bg-white p-4 shadow dark:bg-gray-800">
+	<div class="section-card">
 		<Tabs
 			tabStyle="pills"
 			contentClass="py-6 bg-transparent"
@@ -84,9 +84,22 @@
 			</TabItem>
 		</Tabs>
 	</div>
-</main>
+</div>
 
 <style lang="scss">
+	.admin-marketing {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.section-card {
+		background-color: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 1.5rem;
+		box-shadow: var(--shadow-sm);
+	}
+
 	nav a {
 		position: relative;
 	}

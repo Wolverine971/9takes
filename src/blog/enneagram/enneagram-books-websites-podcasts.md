@@ -954,6 +954,7 @@ This comprehensive guide represents the current landscape of Enneagram resources
 }
 </script>
 </svelte:head>
+
 <style lang="scss">
 
   a::after {

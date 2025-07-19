@@ -119,11 +119,11 @@
 </script>
 
 {#if data.user?.admin}
-	<div class="rounded-lg bg-neutral-50 bg-opacity-80 p-4 shadow-lg backdrop-blur-sm md:p-6">
+	<div class="admin-comments">
 		<!-- Page Header -->
-		<div class="page-header mb-6">
-			<h1 class="text-2xl font-bold text-neutral-900">Comments</h1>
-			<p class="text-neutral-600">Review and moderate user comments</p>
+		<div class="page-header">
+			<h1>Comments</h1>
+			<p class="subtitle">Review and moderate user comments</p>
 		</div>
 
 		<!-- Loading Overlay -->
@@ -137,8 +137,8 @@
 		{/if}
 
 		<!-- Flagged Comments Section -->
-		<div class="mb-6 rounded-lg bg-white p-4 shadow-md">
-			<h2 class="mb-4 flex items-center text-xl font-semibold text-neutral-800">
+		<div class="section-card">
+			<h2 class="section-title flex items-center">
 				<span class="mr-2 inline-block h-4 w-4 rounded-full bg-warning-500"></span>
 				Flagged Comments
 			</h2>
@@ -241,8 +241,8 @@
 
 		<!-- Regular Comments Section -->
 		{#if !isEmptyData(data.comments)}
-			<div class="mb-6 rounded-lg bg-white p-4 shadow-md">
-				<h2 class="mb-4 flex items-center text-xl font-semibold text-neutral-800">
+			<div class="section-card">
+				<h2 class="section-title flex items-center">
 					<span class="mr-2 inline-block h-4 w-4 rounded-full bg-info-500"></span>
 					Recent Comments
 				</h2>
@@ -333,8 +333,8 @@
 
 		<!-- Blog Comments Section -->
 		{#if !isEmptyData(data.blogComments)}
-			<div class="rounded-lg bg-white p-4 shadow-md">
-				<h2 class="mb-4 flex items-center text-xl font-semibold text-neutral-800">
+			<div class="section-card">
+				<h2 class="section-title flex items-center">
 					<span class="mr-2 inline-block h-4 w-4 rounded-full bg-success-500"></span>
 					Blog Comments
 				</h2>
@@ -465,3 +465,125 @@
 		<p class="text-neutral-600">You need administrator privileges to view this page.</p>
 	</div>
 {/if}
+
+<style>
+	.admin-comments {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.section-card {
+		background-color: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 1.5rem;
+		margin-bottom: 1.5rem;
+		box-shadow: var(--shadow-sm);
+	}
+
+	.section-title {
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin-bottom: 1rem;
+	}
+
+	.max-h-96 {
+		max-height: 24rem;
+	}
+
+	.overflow-y-auto {
+		overflow-y: auto;
+		padding-right: 0.5rem;
+	}
+
+	/* Comment cards */
+	.rounded-lg {
+		border-radius: var(--border-radius);
+	}
+
+	.border {
+		border: 1px solid var(--border-color);
+	}
+
+	.shadow-sm {
+		box-shadow: var(--shadow-sm);
+	}
+
+	.hover\:shadow-md:hover {
+		box-shadow: var(--shadow-md);
+	}
+
+	/* Colors */
+	.bg-warning-50 {
+		background-color: var(--warning-light);
+	}
+
+	.border-warning-500 {
+		border-color: var(--warning);
+	}
+
+	.bg-error-50 {
+		background-color: var(--error-light);
+	}
+
+	.text-error-700 {
+		color: var(--error);
+	}
+
+	.bg-neutral-50 {
+		background-color: var(--hover-background);
+	}
+
+	.bg-neutral-100 {
+		background-color: var(--hover-background);
+	}
+
+	/* Buttons */
+	button:disabled {
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
+
+	/* Status indicators */
+	.h-4.w-4 {
+		height: 1rem;
+		width: 1rem;
+	}
+
+	.rounded-full {
+		border-radius: 9999px;
+	}
+
+	.bg-warning-500 {
+		background-color: var(--warning);
+	}
+
+	.bg-info-500 {
+		background-color: var(--info);
+	}
+
+	.bg-success-500 {
+		background-color: var(--success);
+	}
+
+	/* Links */
+	.text-primary-700 {
+		color: var(--primary);
+	}
+
+	.hover\:text-primary-800:hover {
+		color: var(--primary-dark);
+	}
+
+	/* Responsive */
+	@media (max-width: 768px) {
+		.section-card {
+			padding: 1rem;
+		}
+
+		.overflow-y-auto {
+			padding-right: 0;
+		}
+	}
+</style>
