@@ -19,57 +19,97 @@ pic: 'greek-mind'
 </script>
 
 <svelte:head>
+
+<script async src="//www.instagram.com/embed.js"></script>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "The Hardware and Software of the Mind",
-  "description": "Where the study of Personality went wrong in the modern Psychological discourse",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "This article goes into the holistic approach to psychology, highlighting the integration of empirical research with exploring emotions, personal narratives, and psychological complexities. It features insights from thought leaders such as Dr. Brené Brown, Esther Perel, Jordan Peterson, and Ray Dalio, who champion the fusion of empirical methods with a deep understanding of human emotions and personality. The article emphasizes the need for a comprehensive understanding of the human psyche, combining the observable 'hardware' of behavior with the intricate 'software' of our inner lives.",
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2024-06-11"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-12-10"
+      },
+      "description": "Exploring the integration of empirical research with emotional and psychological insights in the field of psychology, featuring contributions from Dr. Brené Brown, Esther Perel, Jordan Peterson, and Ray Dalio.",
+      "headline": "Integrating Empirical Research with Emotional Insights in Psychology",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": "https://9takes.com/blogs/greek-mind.webp",
+        "width": 800
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/community/software-and-hardware-of-the-mind",
+        "@type": "WebPage"
+      },
+      "publisher": {
+            "@type": "Organization",
+            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://9takes.com/brand/aero.png"
+            },
+            "name": "9takes"
+         }
     },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2023-12-10",
-  "dateModified": "2024-06-12",
-  "url": "https://9takes.com/community/software-and-hardware-of-the-mind",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/greek-mind.webp",
-    "width": 900,
-    "height": 900
-  },
-  "articleSection": "Psychology",
-  "keywords": ["mind hardware software", "psychology discourse", "personality study", "cognitive functions", "brain anatomy"],
-  "wordCount": 1683,
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Community Blog",
-    "url": "https://9takes.com/community"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/community/software-and-hardware-of-the-mind"
-  }
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dr. Brené Brown is renowned for her qualitative research on vulnerability, courage, and shame. She connects empirical findings with deep emotional insights, offering a comprehensive understanding of human emotions and behaviors."
+          },
+          "name": "What is Dr. Brené Brown's contribution to psychology?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esther Perel is known for her work on relationships and intimacy, combining her clinical psychology background with a rich exploration of emotional aspects in human connections. Her approach provides a unique understanding of the dynamics in relationships."
+          },
+          "name": "How does Esther Perel's work integrate clinical knowledge with emotional depth?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jordan Peterson integrates the study of archetypes and myths with modern psychological practice. He advocates using the Big Five personality test, blending empirical psychology with narrative and mythology to understand human behavior and personality."
+          },
+          "name": "What distinguishes Jordan Peterson's approach in psychology?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ray Dalio applies psychological insights in the business world, especially in his book 'Principles,' where he dedicates a chapter to personality. His approach highlights the importance of understanding personality for effective decision-making and team management in professional settings."
+          },
+          "name": "How does Ray Dalio incorporate psychology into business principles?"
+        }
+      ]
+    }
+  ]
 }
 </script>
+
 </svelte:head>
 
 <div
@@ -208,99 +248,6 @@ https://a16z.com/author/vijay-pande/
 
 -->
 
-<svelte:head>
-
-<script async src="//www.instagram.com/embed.js"></script>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article goes into the holistic approach to psychology, highlighting the integration of empirical research with exploring emotions, personal narratives, and psychological complexities. It features insights from thought leaders such as Dr. Brené Brown, Esther Perel, Jordan Peterson, and Ray Dalio, who champion the fusion of empirical methods with a deep understanding of human emotions and personality. The article emphasizes the need for a comprehensive understanding of the human psyche, combining the observable 'hardware' of behavior with the intricate 'software' of our inner lives.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-06-11"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-12-10"
-      },
-      "description": "Exploring the integration of empirical research with emotional and psychological insights in the field of psychology, featuring contributions from Dr. Brené Brown, Esther Perel, Jordan Peterson, and Ray Dalio.",
-      "headline": "Integrating Empirical Research with Emotional Insights in Psychology",
-      "image": {
-        "@type": "ImageObject",
-        "height": 800,
-        "url": "https://9takes.com/blogs/greek-mind.webp",
-        "width": 800
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/community/software-and-hardware-of-the-mind",
-        "@type": "WebPage"
-      },
-      "publisher": {
-            "@type": "Organization",
-            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-            "logo": {
-               "@type": "ImageObject",
-               "url": "https://9takes.com/brand/aero.png"
-            },
-            "name": "9takes"
-         }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dr. Brené Brown is renowned for her qualitative research on vulnerability, courage, and shame. She connects empirical findings with deep emotional insights, offering a comprehensive understanding of human emotions and behaviors."
-          },
-          "name": "What is Dr. Brené Brown's contribution to psychology?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Esther Perel is known for her work on relationships and intimacy, combining her clinical psychology background with a rich exploration of emotional aspects in human connections. Her approach provides a unique understanding of the dynamics in relationships."
-          },
-          "name": "How does Esther Perel's work integrate clinical knowledge with emotional depth?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Jordan Peterson integrates the study of archetypes and myths with modern psychological practice. He advocates using the Big Five personality test, blending empirical psychology with narrative and mythology to understand human behavior and personality."
-          },
-          "name": "What distinguishes Jordan Peterson's approach in psychology?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ray Dalio applies psychological insights in the business world, especially in his book 'Principles,' where he dedicates a chapter to personality. His approach highlights the importance of understanding personality for effective decision-making and team management in professional settings."
-          },
-          "name": "How does Ray Dalio incorporate psychology into business principles?"
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
 
 <style lang="scss">
   blockquote {

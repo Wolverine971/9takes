@@ -14,55 +14,156 @@ pic: 'two-greek-statues-having-a-serious-conversation'
 <svelte:head>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "5 Critical Conversations All Couples Must Have or Risk Relationship Failure",
-  "description": "Research-backed relationship strategies that foster deep connection and prevent common relationship pitfalls - based on Gottman principles and Enneagram insights",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner"
+      },
+      "headline": "5 Critical Conversations All Couples Must Have or Risk Relationship Failure",
+      "description": "Research-backed relationship strategies that foster deep connection and prevent common relationship pitfalls - based on Gottman principles and Enneagram insights",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/two-greek-statues-having-a-serious-conversation.webp",
+        "width": 900
+      },
+      "keywords": ["relationship communication", "Gottman method", "Enneagram relationships", "couples therapy", "healthy relationships", "conflict resolution", "intimacy", "relationship advice", "communication skills"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "Enneagram of Personality",
+          "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types.",
+          "SameAs": [
+            "https://www.wikidata.org/wiki/Q273047",
+            "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "The Gottman Institute",
+          "description": "Founded by Drs. John and Julie Gottman, the Gottman Institute applies leading-edge research on marriage in developing evidence-based approaches to improving relationships.",
+          "url": "https://www.gottman.com/"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "name": "9takes"
+      },
+      "datePublished": "2024-05-08",
+      "dateModified": "2025-05-03"
     },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2024-05-08",
-  "dateModified": "2025-05-03",
-  "url": "https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/two-greek-statues-having-a-serious-conversation.webp",
-    "width": 900,
-    "height": 900
-  },
-  "articleSection": "Relationship Advice",
-  "keywords": ["relationship conversations", "couples communication", "Gottman method", "Enneagram relationships", "relationship success", "critical conversations"],
-  "wordCount": 3245,
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Guides",
-    "url": "https://9takes.com/how-to-guides"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner"
-  }
+    {
+      "@type": "HowTo",
+      "name": "How to Have 5 Essential Conversations for Relationship Success",
+      "description": "Research-based guide to having crucial conversations that strengthen your relationship and prevent common causes of breakups",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Map Your Emotional Landscapes",
+          "text": "Understand your partner's core emotional patterns based on Enneagram personality insights to deepen empathy and connection."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Confront the Four Horsemen",
+          "text": "Learn to recognize and address criticism, contempt, defensiveness, and stonewalling - the four toxic communication patterns that predict relationship failure."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Create a Compelling Shared Vision",
+          "text": "Develop what researchers call 'vision complementarity' where individual dreams enhance rather than contradict each other."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Decode Your Conflict Styles",
+          "text": "Identify your natural conflict patterns and create a customized protocol for handling disagreements effectively."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Rekindle Intimacy Beyond the Bedroom",
+          "text": "Implement the 'Magic Six Hours' concept and customize intimacy approaches based on Enneagram type needs."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the Four Horsemen in relationships?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Four Horsemen are toxic communication patterns identified by the Gottman Institute that predict relationship failure: criticism (attacking character instead of behavior), contempt (expressing superiority or disgust), defensiveness (refusing responsibility), and stonewalling (shutting down completely during conflict). The latest research shows these patterns are amplified by modern stressors like digital distraction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the Enneagram help relationships?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram reveals the deeper motivational patterns that drive behavior in relationships. Recent studies show couples who understand each other's Enneagram types report 58% higher relationship satisfaction. This understanding helps partners interpret behaviors correctly, communicate more effectively, resolve conflicts faster, and customize intimacy approaches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is vision complementarity in relationships?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vision complementarity is a concept from 2025 relationship research showing that successful couples don't need identical goals, but rather create visions where individual dreams enhance rather than contradict each other. This process involves values alignment, resource allocation planning, and obstacle anticipation. Couples who engage in structured vision planning are 83% more likely to achieve their shared goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do different conflict styles affect relationships?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "New research shows mismatched conflict styles cause more relationship damage than the actual issues being fought about. The Enneagram identifies three main styles: Positive Outlook Types (2,7,9) avoid conflict, Competency Types (1,3,5) prioritize facts over emotions, and Reactive Types (4,6,8) express emotions intensely. Couples who understand and adapt to each other's conflict styles resolve disagreements 4x faster."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Magic Six Hours concept?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Gottman Institute's Magic Six Hours concept shows that small, intentional connection moments create more relationship satisfaction than grand gestures. These include: 2-minute partings, 20-minute reunions with a 6-second kiss, daily admiration, weekly date nights, and regular non-sexual touch. Recent studies show couples practicing these habits are 37% less likely to divorce."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
+
 </svelte:head>
 
 <!-- todo -->
@@ -258,161 +359,7 @@ Which conversation will you start tonight?
 
 **For a deeper dive into relationship communication patterns, check out our comprehensive guides on [navigating relationship conflict](/how-to-guides/definitive-guide-to-relationship-conflict-part-1) and [understanding different Enneagram communication styles](/enneagram-corner/enneagram-communication-styles).**
 
-<svelte:head>
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner"
-      },
-      "headline": "5 Critical Conversations All Couples Must Have or Risk Relationship Failure",
-      "description": "Research-backed relationship strategies that foster deep connection and prevent common relationship pitfalls - based on Gottman principles and Enneagram insights",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/two-greek-statues-having-a-serious-conversation.webp",
-        "width": 900
-      },
-      "keywords": ["relationship communication", "Gottman method", "Enneagram relationships", "couples therapy", "healthy relationships", "conflict resolution", "intimacy", "relationship advice", "communication skills"],
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "mentions": [
-        {
-          "@type": "Thing",
-          "name": "Enneagram of Personality",
-          "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types.",
-          "SameAs": [
-            "https://www.wikidata.org/wiki/Q273047",
-            "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-          ]
-        },
-        {
-          "@type": "Organization",
-          "name": "The Gottman Institute",
-          "description": "Founded by Drs. John and Julie Gottman, the Gottman Institute applies leading-edge research on marriage in developing evidence-based approaches to improving relationships.",
-          "url": "https://www.gottman.com/"
-        }
-      ],
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      },
-      "datePublished": "2024-05-08",
-      "dateModified": "2025-05-03"
-    },
-    {
-      "@type": "HowTo",
-      "name": "How to Have 5 Essential Conversations for Relationship Success",
-      "description": "Research-based guide to having crucial conversations that strengthen your relationship and prevent common causes of breakups",
-      "step": [
-        {
-          "@type": "HowToStep",
-          "name": "Map Your Emotional Landscapes",
-          "text": "Understand your partner's core emotional patterns based on Enneagram personality insights to deepen empathy and connection."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Confront the Four Horsemen",
-          "text": "Learn to recognize and address criticism, contempt, defensiveness, and stonewalling - the four toxic communication patterns that predict relationship failure."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Create a Compelling Shared Vision",
-          "text": "Develop what researchers call 'vision complementarity' where individual dreams enhance rather than contradict each other."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Decode Your Conflict Styles",
-          "text": "Identify your natural conflict patterns and create a customized protocol for handling disagreements effectively."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Rekindle Intimacy Beyond the Bedroom",
-          "text": "Implement the 'Magic Six Hours' concept and customize intimacy approaches based on Enneagram type needs."
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What are the Four Horsemen in relationships?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Four Horsemen are toxic communication patterns identified by the Gottman Institute that predict relationship failure: criticism (attacking character instead of behavior), contempt (expressing superiority or disgust), defensiveness (refusing responsibility), and stonewalling (shutting down completely during conflict). The latest research shows these patterns are amplified by modern stressors like digital distraction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the Enneagram help relationships?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Enneagram reveals the deeper motivational patterns that drive behavior in relationships. Recent studies show couples who understand each other's Enneagram types report 58% higher relationship satisfaction. This understanding helps partners interpret behaviors correctly, communicate more effectively, resolve conflicts faster, and customize intimacy approaches."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is vision complementarity in relationships?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Vision complementarity is a concept from 2025 relationship research showing that successful couples don't need identical goals, but rather create visions where individual dreams enhance rather than contradict each other. This process involves values alignment, resource allocation planning, and obstacle anticipation. Couples who engage in structured vision planning are 83% more likely to achieve their shared goals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do different conflict styles affect relationships?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "New research shows mismatched conflict styles cause more relationship damage than the actual issues being fought about. The Enneagram identifies three main styles: Positive Outlook Types (2,7,9) avoid conflict, Competency Types (1,3,5) prioritize facts over emotions, and Reactive Types (4,6,8) express emotions intensely. Couples who understand and adapt to each other's conflict styles resolve disagreements 4x faster."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Magic Six Hours concept?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Gottman Institute's Magic Six Hours concept shows that small, intentional connection moments create more relationship satisfaction than grand gestures. These include: 2-minute partings, 20-minute reunions with a 6-second kiss, daily admiration, weekly date nights, and regular non-sexual touch. Recent studies show couples practicing these habits are 37% less likely to divorce."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
 
 <style lang="scss">
 </style>
