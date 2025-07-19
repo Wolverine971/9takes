@@ -18,6 +18,60 @@ pic: 'reddit-late-at-night'
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "5 Reasons Reddit Can't Help You Find Deep Connections",
+  "description": "Discover why Reddit falls short in forging deep connections and learn how to find meaningful interactions online.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2024-02-18",
+  "dateModified": "2024-02-18",
+  "url": "https://9takes.com/community/reddit-deep-connections-limitations",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/reddit-late-at-night.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Social Media Analysis",
+  "keywords": ["Reddit limitations", "deep connections", "online relationships", "social media critique", "meaningful interactions"],
+  "wordCount": 1247,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Community Blog",
+    "url": "https://9takes.com/community"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/community/reddit-deep-connections-limitations"
+  }
+}
+</script>
+</svelte:head>
+
 <div
     style="display: flex;
     justify-content: center;

@@ -15,7 +15,57 @@ pic: 'greek-statue-introducing-9takes'
 ---
 
 <svelte:head>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Introducing 9takes: A Fresh Take on Online Conversations",
+  "description": "A Q&A platform fostering diverse, built on anonymous perspectives inspired by the Enneagram.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2023-04-17",
+  "dateModified": "2024-07-24",
+  "url": "https://9takes.com/community/introducing-9takes",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/greek-statue-introducing-9takes.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Technology",
+  "keywords": ["9takes platform", "online conversations", "Enneagram", "social media", "anonymous discussions", "diverse perspectives"],
+  "wordCount": 1876,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Community Blog",
+    "url": "https://9takes.com/community"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/community/introducing-9takes"
+  }
+}
+</script>
 </svelte:head>
 
 <script>

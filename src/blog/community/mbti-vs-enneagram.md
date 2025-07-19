@@ -14,6 +14,60 @@ previewHtml: ''
 pic: 'the-MBTI-sucks'
 ---
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "MBTI Failed Us — Can the Enneagram Do Better?",
+  "description": "How the Myers-Briggs system boxed people in, and why the Enneagram offers a more transformative, human-centered alternative for careers, relationships, and society.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2025-07-07",
+  "dateModified": "2025-07-07",
+  "url": "https://9takes.com/community/mbti-vs-enneagram",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/the-MBTI-sucks.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Psychology",
+  "keywords": ["MBTI critique", "Enneagram benefits", "personality systems", "personal growth", "career guidance", "society transformation"],
+  "wordCount": 3842,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Community Blog",
+    "url": "https://9takes.com/community"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/community/mbti-vs-enneagram"
+  }
+}
+</script>
+</svelte:head>
+
 
 
 <div class="bg-gray-100 border-l-4 border-gray-500 p-6 rounded-lg mb-8 text-lg italic">

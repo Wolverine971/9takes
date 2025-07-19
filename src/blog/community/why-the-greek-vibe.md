@@ -18,6 +18,60 @@ pic: 'neoclassical-metropolis'
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Why the Greek vibe?",
+  "description": "9takes is what Socrates would have wanted",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2023-09-24",
+  "dateModified": "2023-12-24",
+  "url": "https://9takes.com/community/why-the-greek-vibe",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/neoclassical-metropolis.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Philosophy",
+  "keywords": ["Greek philosophy", "Socrates", "neoclassical", "ancient Greece", "philosophy", "discourse", "democracy"],
+  "wordCount": 789,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Community Blog",
+    "url": "https://9takes.com/community"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/community/why-the-greek-vibe"
+  }
+}
+</script>
+</svelte:head>
+
 <p class="firstLetter">Ancient Greece was ahead of its time. They had the world's first Democracy. They came up with Philosophy. They built a working plumbing system and many of their buildings still remain standing today ~ 2000 years later.</p>
 
 The Greeks formed many aspects of western thought. However today we don't have a place to follow one of their most important practices. And that is openly talking about philosophy through asking questions. The socratic method is sometimes still talked about in college classrooms but it remains an obscure relec from the past. We need to bring it back.

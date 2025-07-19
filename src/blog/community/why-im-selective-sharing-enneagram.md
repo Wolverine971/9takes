@@ -18,6 +18,60 @@ pic: 'giving-a-speech'
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Enneagram Changed My Life, But I am Careful Who I Tell",
+  "description": "Discover why sharing the life-changing insights of the Enneagram requires thoughtful consideration and how to approach conversations wisely.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2024-03-09",
+  "dateModified": "2025-06-25",
+  "url": "https://9takes.com/community/why-im-selective-sharing-enneagram",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/giving-a-speech.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Psychology",
+  "keywords": ["Enneagram", "personality types", "self-development", "communication", "psychology", "personal growth"],
+  "wordCount": 2847,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Community Blog",
+    "url": "https://9takes.com/community"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/community/why-im-selective-sharing-enneagram"
+  }
+}
+</script>
+</svelte:head>
+
 <div
     style="display: flex;
     justify-content: center;

@@ -15,7 +15,57 @@ pic: 'husband-and-wife-arguing'
 ---
 
 <svelte:head>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "What Was The Inspiration For 9takes?",
+  "description": "TLDR: My wife and I were fighting, and we went to a counselor which led to personality tests (Enneagram)",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2023-06-17",
+  "dateModified": "2024-04-18",
+  "url": "https://9takes.com/community/inspiration-for-9takes",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/husband-and-wife-arguing.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Personal Story",
+  "keywords": ["9takes inspiration", "marriage counseling", "Enneagram", "personality tests", "relationship communication", "listening skills"],
+  "wordCount": 1532,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Community Blog",
+    "url": "https://9takes.com/community"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/community/inspiration-for-9takes"
+  }
+}
+</script>
 </svelte:head>
 
 <script>

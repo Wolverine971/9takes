@@ -33,7 +33,7 @@
 
 ### 6. **User Engagement**
 - [ ] Add actionable takeaways in each section
-- [ ] Include real-world examples
+- [ ] Include real-world or relatable examples 
 - [ ] Create scannable content with bullets/lists
 - [ ] Add "Try this tonight" micro-actions
 
@@ -64,3 +64,4 @@
 ## Markdown considerations
 - Use proper fontmatter formatting
 - Do not change the pic in frontmatter
+- Dont use links in headers or subheaders

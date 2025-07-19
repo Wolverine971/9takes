@@ -18,6 +18,60 @@ pic: 'greek-mind'
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Hardware and Software of the Mind",
+  "description": "Where the study of Personality went wrong in the modern Psychological discourse",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2023-12-10",
+  "dateModified": "2024-06-12",
+  "url": "https://9takes.com/community/software-and-hardware-of-the-mind",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/greek-mind.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Psychology",
+  "keywords": ["mind hardware software", "psychology discourse", "personality study", "cognitive functions", "brain anatomy"],
+  "wordCount": 1683,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Community Blog",
+    "url": "https://9takes.com/community"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/community/software-and-hardware-of-the-mind"
+  }
+}
+</script>
+</svelte:head>
+
 <div
     style="display: flex;
     justify-content: center;

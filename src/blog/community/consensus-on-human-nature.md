@@ -18,6 +18,60 @@ pic: 'greeks-debating-human-nature'
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Consensus on Human Nature",
+  "description": "Do we sway between being rational or irrational? Or is it more complicated?",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2023-05-13",
+  "dateModified": "2024-04-05",
+  "url": "https://9takes.com/community/consensus-on-human-nature",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/greeks-debating-human-nature.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Philosophy",
+  "keywords": ["human nature", "philosophy", "psychology", "Plato", "Aristotle", "Freud", "Pinker", "rationality"],
+  "wordCount": 4476,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Community Blog",
+    "url": "https://9takes.com/community"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/community/consensus-on-human-nature"
+  }
+}
+</script>
+</svelte:head>
+
 <div style="display: flex; justify-content: center; margin: 2rem 0; text-align: center;">
 <img loading="lazy" title="Google definition of human nature" src="/blogs/human-nature.webp" alt="Google's human nature definition" />
 </div>
@@ -138,176 +192,6 @@ Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Con
 
 So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something check out the <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type" >Enneagram</a>. It shares many similar concepts but it has no direct lineage to Plato or Freud. Perhaps the reoccurring 3 divisions that we keep stumbling upon form a better model for understanding "human nature." 9takes is on a quest to poke and prod at these divisions because we think there is still a lot to learn. And maybe, just maybe we can start to heal the human psyche and soul.
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the varying perspectives on human nature, focusing on the theories of Plato, Aristotle, Freud, and Steven Pinker. It dives into the complexities of human nature, contrasting the logical and illogical aspects. The article discusses Plato’s tripartite soul theory and Freud's concept of the id, ego, and superego, while examining Pinker's emphasis on rationality. The blog concludes by pondering whether human nature can be simplified or if the theories of Plato and Freud offer a more accurate representation.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2024-04-05",
-      "datePublished": "2023-07-16",
-      "description": "Explore the diverse theories on human nature, including perspectives from Plato, Aristotle, Freud, and Steven Pinker.",
-      "headline": "The Consensus on Human Nature",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greeks-debating-human-nature.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/community/consensus-on-human-nature",
-        "@type": "WebPage"
-      },
-      "about": [
-        {
-            "@type": "Thing",
-            "name": "Human nature",
-            "description": "Human nature comprises the fundamental dispositions and characteristics--including ways of thinking feeling and acting--that humans are said to have naturally. The term is often used to denote the essence of humankind or what it 'means' to be human",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q742609",
-                "http://en.wikipedia.org/wiki/Human_nature"
-            ]
-        }
-      ],
-      "mentions": [
-        {
-            "@type": "Thing",
-            "name": "Plato",
-            "description": "Plato ( PLAY-toe; Greek: Platon Platon; 428/427 or 424/423 - 348 BC) was an ancient Greek philosopher born in Athens during the Classical period. In Athens Plato founded the Academy a philosophical school where he taught the philosophical doctrines that would later become known as Platonism",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q859",
-                "http://en.wikipedia.org/wiki/Plato"
-            ]
-        },
-        {
-            "@type": "Thing",
-            "name": "Aristotle",
-            "description": "Aristotle (; Greek: Aristoteles Aristoteles pronounced [aristotele:s]; 384-322 BCE) was an Ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences philosophy linguistics economics politics psychology and the arts",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q868",
-                "http://en.wikipedia.org/wiki/Aristotle"
-            ]
-        },
-        {
-            "@type": "Thing",
-            "name": "Psychology",
-            "description": "Psychology is the study of mind and behavior. Its subject matter includes the behavior of humans and nonhumans both conscious and unconscious phenomena and mental processes such as thoughts feelings and motives",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q9418",
-                "http://en.wikipedia.org/wiki/Psychology"
-            ]
-        },
-        {
-            "@type": "Thing",
-            "name": "Sigmund Freud",
-            "description": "Sigmund Freud ( FROYD German: ['zi:gmUnd 'froYd]; born Sigismund Schlomo Freud; 6 May 1856 - 23 September 1939) was an Austrian neurologist and the founder of psychoanalysis a clinical method for evaluating and treating pathologies seen as originating from conflicts in the psyche through dialogue between patient and psychoanalyst and the distinctive theory of mind and human agency derived from it. Freud was born to Galician Jewish parents in the Moravian town of Freiberg in the Austrian Empire",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q9215",
-                "http://en.wikipedia.org/wiki/Sigmund_Freud"
-            ]
-        },
-        {
-            "@type": "Thing",
-            "name": "Rationality",
-            "description": "Rationality is the quality of being guided by or based on reason. In this regard a person acts rationally if they have a good reason for what they do or a belief is rational if it is based on strong evidence",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q938185",
-                "http://en.wikipedia.org/wiki/Rationality"
-            ]
-        },
-        {
-            "@type": "Thing",
-            "name": "Steven Pinker",
-            "description": "Steven Arthur Pinker (born September 18 1954) is a Canadian-American cognitive psychologist psycholinguist popular science author and public intellectual. He is an advocate of evolutionary psychology and the computational theory of mind",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q212730",
-                "http://en.wikipedia.org/wiki/Steven_Pinker"
-            ]
-        }
-      ],
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What are the two main perspectives on human nature?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The two main perspectives on human nature are the fluctuation between logical and illogical behavior and the complexity of human psyche. Philosophers Plato and Aristotle, along with psychologists Freud and Steven Pinker, represent opposing views on this topic. Aristotle and Pinker advocate for rationality, while Plato and Freud present a more complex interplay of elements within the human psyche."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What was Plato's view of human nature?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plato viewed human nature as divided into three parts: reason, spirit, and appetite, forming the 'tripartite soul.' Reason represents wisdom and logical thinking, spirit relates to emotions and noble ideals, and appetite concerns bodily desires and needs"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do Freud's concepts relate to Plato's theory of the soul?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Freud’s theory of the mind, comprising the id, ego, and superego, parallels Plato's tripartite soul. The id corresponds to Plato's appetite, representing instinctual drives; the ego is akin to reason, mediating rational thought; and the superego aligns with spirit, embodying internalized societal values and moral standards."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Steven Pinker's stance on human nature?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Steven Pinker advocates for rationality in understanding human nature. He posits that discussions on human nature tend to oversimplify by focusing predominantly on rational aspects, thereby neglecting the complex interplay of rational and irrational elements in the human psyche."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does the 9takes blog conclude about the understanding of human nature?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The 9takes blog suggests that while figures like Aristotle and Pinker have aimed to simplify human nature, the complexity outlined by Plato and Freud might offer a more accurate representation. The blog implies that the recurring divisions in theories of human nature might provide a more comprehensive understanding of the concept."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
 
 <style lang="scss">
 </style>
