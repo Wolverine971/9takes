@@ -19,6 +19,60 @@ internal and external conflict
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "The Ultimate Guide to Relationship Conflict Resolution [Part 1]",
+  "description": "Master the art of managing relationship conflict. Learn essential strategies to turn conflicts into growth opportunities and strengthen your bond.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2023-08-24",
+  "dateModified": "2025-05-03",
+  "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/greek-statue-having-a-disagreement.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Relationship Advice",
+  "keywords": ["relationship conflict resolution", "Gottman four horsemen", "healthy conflict", "relationship communication", "conflict patterns"],
+  "wordCount": 4562,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Guides",
+    "url": "https://9takes.com/how-to-guides"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1"
+  }
+}
+</script>
+</svelte:head>
+
 <p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But as you might have heard, love isn't always a bed of roses. In fact, one of the most consistent findings in relationship research is that conflict is not just common but inevitable in even the healthiest relationships.</p>
 
 Conflict is inevitable in any meaningful relationship. The question isn't if you'll fight but when, how, and over what. This comprehensive guide aims to be your go-to resource for navigating relationship conflict. Here we will explore the science behind healthy conflict, common pitfalls, practical resolution steps, and prevention strategies to transform disagreements into opportunities for growth and deeper connection.

@@ -20,6 +20,60 @@ internal and external conflict
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "The Definitive Guide to Relationship Conflict [Part 2]",
+  "description": "Part 2 of Navigating relationship conflicts. Resolve disagreements, avoid pitfalls, and gain skills for better conflict resolution.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2023-08-24",
+  "dateModified": "2025-05-03",
+  "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/greek-statues-walking-past-a-pothole.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Relationship Advice",
+  "keywords": ["relationship conflict resolution", "conflict resolution techniques", "healthy relationships", "communication skills", "relationship advice"],
+  "wordCount": 3892,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Guides",
+    "url": "https://9takes.com/how-to-guides"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2"
+  }
+}
+</script>
+</svelte:head>
+
 <p class="firstLetter">This guide picks up where <a href="/how-to-guides/definitive-guide-to-relationship-conflict-part-1" >Part 1</a> left off. </p>
 
 Having explored the Four Horsemen of relationship conflict and their antidotes, we now dive deeper into practical applications, common questions, and advanced conflict resolution techniques to transform your relationship challenges into opportunities for profound connection.

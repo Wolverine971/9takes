@@ -19,7 +19,8 @@
       "Bash(timeout:*)",
       "Bash(find:*)",
       "Bash(ls:*)",
-      "Bash(pnpm svelte-check:*)"
+      "Bash(pnpm svelte-check:*)",
+      "Bash(powershell:*)"
     ],
     "deny": []
   }

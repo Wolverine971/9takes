@@ -11,6 +11,60 @@ published: true
 pic: ''
 ---
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "The Pattern-Breaking Guide to Fighting Depression",
+  "description": "Decode the emotional mechanics behind depression using the Enneagram. Learn why each personality type gets stuck differently and discover type-specific escape routes.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2025-05-22",
+  "dateModified": "2025-05-22",
+  "url": "https://9takes.com/how-to-guides/guide-to-fighting-depression",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/brand/aero.png",
+    "width": 256,
+    "height": 256
+  },
+  "articleSection": "Mental Health",
+  "keywords": ["depression guide", "Enneagram depression", "mental health", "personality types", "emotional patterns", "self-help"],
+  "wordCount": 5234,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Guides",
+    "url": "https://9takes.com/how-to-guides"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/how-to-guides/guide-to-fighting-depression"
+  }
+}
+</script>
+</svelte:head>
+
 <!-- need pic -->
 
 <div class="max-w-4xl mx-auto bg-neutral-50 text-neutral-900">

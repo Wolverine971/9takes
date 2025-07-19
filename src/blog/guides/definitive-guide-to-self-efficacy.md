@@ -11,6 +11,60 @@ published: true
 pic: 'gandalf-statue'
 ---
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "The Definitive Guide to Self-Efficacy",
+  "description": "Explore the comprehensive guide to understanding and improving self-efficacy. Learn its origins, key sources, and practical tips for enhancing your life",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2023-08-31",
+  "dateModified": "2025-05-03",
+  "url": "https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/gandalf-statue.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Self Development",
+  "keywords": ["self-efficacy", "self-belief", "personal development", "confidence building", "goal achievement", "psychology"],
+  "wordCount": 4783,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Guides",
+    "url": "https://9takes.com/how-to-guides"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy"
+  }
+}
+</script>
+</svelte:head>
+
 <p class="firstLetter">By the end of this guide, you will be your own agent of change.</p>
 
 You'll have a clear roadmap to boost your self-belief and tackle everyday challenges more effectively. You'll learn simple yet powerful techniques to set achievable goals, overcome setbacks, and build the confidence you need to make real, lasting changes in your life.

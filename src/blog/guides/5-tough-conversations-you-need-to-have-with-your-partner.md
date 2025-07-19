@@ -11,6 +11,60 @@ published: true
 pic: 'two-greek-statues-having-a-serious-conversation'
 ---
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "5 Critical Conversations All Couples Must Have or Risk Relationship Failure",
+  "description": "Research-backed relationship strategies that foster deep connection and prevent common relationship pitfalls - based on Gottman principles and Enneagram insights",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2024-05-08",
+  "dateModified": "2025-05-03",
+  "url": "https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/two-greek-statues-having-a-serious-conversation.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Relationship Advice",
+  "keywords": ["relationship conversations", "couples communication", "Gottman method", "Enneagram relationships", "relationship success", "critical conversations"],
+  "wordCount": 3245,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Guides",
+    "url": "https://9takes.com/how-to-guides"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner"
+  }
+}
+</script>
+</svelte:head>
+
 <!-- todo -->
 <!-- // notes:  -->
 

@@ -20,6 +20,60 @@ get more niche-->
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "The Enneagram and Self-Development: A Guide to Personal Growth",
+  "description": "Discover how the Enneagram can transform your self-development journey. Learn to avoid common pitfalls and leverage your type for personal growth and success.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "datePublished": "2024-09-14",
+  "dateModified": "2025-05-03",
+  "url": "https://9takes.com/how-to-guides/using-the-enneagram-for-self-development",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/female-greek-statue-reading-about-self-development.webp",
+    "width": 900,
+    "height": 900
+  },
+  "articleSection": "Self Development",
+  "keywords": ["Enneagram self-development", "personal growth", "personality development", "Enneagram transformation", "self-improvement"],
+  "wordCount": 4321,
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "9takes Guides",
+    "url": "https://9takes.com/how-to-guides"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/how-to-guides/using-the-enneagram-for-self-development"
+  }
+}
+</script>
+</svelte:head>
+
 <p class="firstLetter">Ever felt like you're running on a hamster wheel of the same patterns and behaviors, no matter how hard you try to change? You're not alone. Welcome to the human condition.</p>
 
 The Enneagram might just be your ticket off that wheel. This ancient-yet-modern personality system has exploded in popularity—and for good reason. It doesn't just label you and call it a day. It offers a roadmap for growth that's specifically tailored to YOUR patterns.
