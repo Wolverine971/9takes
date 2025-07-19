@@ -182,19 +182,61 @@
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
-			"@type": "WebPage",
-			"name": "Ask Questions Anonymously & Get Answers",
-			"description": "A platform for asking personal questions anonymously and receiving answers based on personality types.",
-			"mainEntity": {
-				"@type": "QAPage",
-				"mainEntity": {
-					"@type": "Question",
-					"name": "How can I ask questions anonymously on 9takes?",
-					"acceptedAnswer": {
-						"@type": "Answer",
-						"text": "On 9takes, you can ask questions anonymously by creating an account using your Enneagram personality type as your identity. This allows you to maintain privacy while engaging in meaningful discussions."
+			"@type": "CollectionPage",
+			"name": "Ask Questions Anonymously & Get Answers | 9takes",
+			"description": "Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types.",
+			"url": "https://9takes.com/questions",
+			"isPartOf": {
+				"@type": "WebSite",
+				"name": "9takes",
+				"url": "https://9takes.com"
+			},
+			"breadcrumb": {
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Home",
+						"item": "https://9takes.com"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Questions",
+						"item": "https://9takes.com/questions"
 					}
-				}
+				]
+			},
+			"mainEntity": {
+				"@type": "FAQPage",
+				"name": "Frequently Asked Questions about 9takes",
+				"mainEntity": [
+					{
+						"@type": "Question",
+						"name": "How can I ask questions anonymously on 9takes?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "On 9takes, you can ask questions anonymously by creating an account using your Enneagram personality type as your identity. This allows you to maintain privacy while engaging in meaningful discussions."
+						}
+					},
+					{
+						"@type": "Question",
+						"name": "What is the give-first commenting system?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "The give-first system requires you to share your own perspective before viewing others' responses. This encourages authentic participation and reduces bias from seeing other answers first."
+						}
+					},
+					{
+						"@type": "Question",
+						"name": "How do personality types work on 9takes?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "9takes uses the Enneagram personality system (types 1-9). Each user identifies with a type, allowing you to see how different personality types respond to the same questions."
+						}
+					}
+				]
 			}
 		}
 	</script>

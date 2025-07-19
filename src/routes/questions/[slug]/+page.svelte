@@ -85,7 +85,7 @@
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
 
 	// Prepare JSON-LD for structured data
-	const formattedAIComments = data?.aiComments?.map((comment) => {
+	const formattedAIComments = data?.ai_comments?.map((comment) => {
 		return {
 			'@type': 'Answer',
 			text: comment.comment,
@@ -93,33 +93,59 @@
 			upvoteCount: 0,
 			author: {
 				'@type': 'Person',
-				name: `Enneagram Type ${comment.enneagram_type}`
+				name: `Enneagram Type ${comment.enneagram}`,
+				identifier: `enneagram-type-${comment.enneagram}`
 			}
 		};
 	});
 
-	const questionJsonLd = formattedAIComments?.length
-		? JSON.stringify({
-				'@context': 'https://schema.org',
-				'@type': 'QAPage',
-				mainEntity: {
-					'@type': 'Question',
-					name: data.question.question_formatted,
-					answerCount: data.question.comment_count || 0,
-					dateCreated: data.question.created_at,
-					suggestedAnswer: formattedAIComments
+	const questionJsonLd = JSON.stringify({
+		'@context': 'https://schema.org',
+		'@type': 'QAPage',
+		url: url,
+		name: title,
+		description: description,
+		isPartOf: {
+			'@type': 'WebSite',
+			name: '9takes',
+			url: 'https://9takes.com'
+		},
+		breadcrumb: {
+			'@type': 'BreadcrumbList',
+			itemListElement: [
+				{
+					'@type': 'ListItem',
+					position: 1,
+					name: 'Home',
+					item: 'https://9takes.com'
+				},
+				{
+					'@type': 'ListItem',
+					position: 2,
+					name: 'Questions',
+					item: 'https://9takes.com/questions'
+				},
+				{
+					'@type': 'ListItem',
+					position: 3,
+					name: data.question.question_formatted || data.question.question,
+					item: url
 				}
-			})
-		: JSON.stringify({
-				'@context': 'https://schema.org',
-				'@type': 'QAPage',
-				mainEntity: {
-					'@type': 'Question',
-					name: data.question.question_formatted,
-					answerCount: data.question.comment_count || 0,
-					dateCreated: data.question.created_at
-				}
-			});
+			]
+		},
+		mainEntity: {
+			'@type': 'Question',
+			name: data.question.question_formatted || data.question.question,
+			text: data.question.context || data.question.question_formatted || data.question.question,
+			answerCount: data.question.comment_count || 0,
+			dateCreated: data.question.created_at,
+			author: data.question.author_id ? {
+				'@type': 'Person',
+				identifier: data.question.author_id
+			} : undefined,
+			...(formattedAIComments?.length > 0 && { suggestedAnswer: formattedAIComments })
+		}
+	});
 </script>
 
 <svelte:window bind:innerWidth />
@@ -141,9 +167,7 @@
 	<meta name="twitter:title" content={title} />
 	<meta property="twitter:url" content={url} />
 	<meta name="twitter:image" content={imgUrl} />
-	{#if formattedAIComments?.length}
-		{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
-	{/if}
+	{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
 </svelte:head>
 
 <div class="mx-auto w-full max-w-7xl">
@@ -172,7 +196,7 @@
 			</div>
 		{/if}
 	</aside>
-	<article itemscope itemtype="https://schema.org/Question" class="mb-6 max-w-4xl">
+	<article itemscope itemtype="https://schema.org/QAPage" class="mb-6 max-w-4xl">
 		<div>
 			<QuestionDisplay question={data.question} />
 			<Interact

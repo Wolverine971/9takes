@@ -59,13 +59,56 @@
 
 <svelte:head>
 	<title>{`9takes Question Categories | ${data.questionTag?.category_name}`}</title>
-	<meta name="description" content={`9takes Question | ${data.questionTag?.category_name}`} />
+	<meta name="description" content={`Browse ${data.questionTag?.category_name} questions. User generated questions with comments sorted by personality type.`} />
 	<link
 		rel="canonical"
 		href={`https://9takes.com/questions/categories/${data.questionTag?.category_name
 			.split(' ')
 			.join('-')}`}
 	/>
+	<script type="application/ld+json">
+		{JSON.stringify({
+			"@context": "https://schema.org",
+			"@type": "CollectionPage",
+			"name": `${data.questionTag?.category_name} Questions | 9takes`,
+			"description": `Browse ${data.questionTag?.category_name} questions. User generated questions with comments sorted by personality type.`,
+			"url": `https://9takes.com/questions/categories/${data.questionTag?.category_name?.split(' ').join('-')}`,
+			"isPartOf": {
+				"@type": "WebSite",
+				"name": "9takes",
+				"url": "https://9takes.com"
+			},
+			"breadcrumb": {
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Home",
+						"item": "https://9takes.com"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Questions",
+						"item": "https://9takes.com/questions"
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"name": "Categories",
+						"item": "https://9takes.com/questions/categories"
+					},
+					{
+						"@type": "ListItem",
+						"position": 4,
+						"name": data.questionTag?.category_name,
+						"item": `https://9takes.com/questions/categories/${data.questionTag?.category_name?.split(' ').join('-')}`
+					}
+				]
+			}
+		})}
+	</script>
 </svelte:head>
 
 <div>

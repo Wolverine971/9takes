@@ -73,8 +73,45 @@
 
 <svelte:head>
 	<title>9takes | Question Categories</title>
-	<meta name="description" content="User generated questions with comments sorted by personality" />
-	<link rel="canonical" href="https://9takes.com/questions" />
+	<meta name="description" content="Browse questions organized by category. User generated questions with comments sorted by personality type." />
+	<link rel="canonical" href="https://9takes.com/questions/categories" />
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "CollectionPage",
+			"name": "Question Categories | 9takes",
+			"description": "Browse questions organized by category. User generated questions with comments sorted by personality type.",
+			"url": "https://9takes.com/questions/categories",
+			"isPartOf": {
+				"@type": "WebSite",
+				"name": "9takes",
+				"url": "https://9takes.com"
+			},
+			"breadcrumb": {
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Home",
+						"item": "https://9takes.com"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Questions",
+						"item": "https://9takes.com/questions"
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"name": "Categories",
+						"item": "https://9takes.com/questions/categories"
+					}
+				]
+			}
+		}
+	</script>
 </svelte:head>
 
 <div>
