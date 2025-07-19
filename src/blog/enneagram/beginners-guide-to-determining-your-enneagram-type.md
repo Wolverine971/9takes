@@ -18,7 +18,7 @@ pic: 'greek-statues-two-females-on-phones'
 
 The Enneagram isn't just another personality quiz—it's a map to your inner world. One that reveals not just what you do, but _why_ you do it.
 
-Let's cut through the confusion and find your type in four straightforward steps.
+Let's cut through the confusion and find your type in four straightforward steps. New to the Enneagram? Check our [FAQ page](/enneagram-corner/enneagram-faqs) for common questions before diving in.
 
 ## Step 1: Understand What Makes the Enneagram Different
 
@@ -26,7 +26,7 @@ Most personality systems focus on behavior—what you do in different situations
 
 > "The Enneagram doesn't put you in a box. It shows you the box you're already in and how to break free."
 
-What sets the Enneagram apart is its focus on core emotions and motivations. It explains not just your actions, but the unconscious drives behind them—often rooted in childhood experiences.
+What sets the Enneagram apart is its focus on core emotions and motivations. It explains not just your actions, but the unconscious drives behind them—often rooted in [childhood experiences](/enneagram-corner/enneagram-childhood-stereotypes). Understanding these [core concepts](/enneagram-corner/enneagram-concepts) is essential for accurate typing.
 
 Think about it: Your friend might appear confident in social settings just like you, but for completely different reasons. Maybe you're showcasing achievements (Type 3), while they're building connections to feel secure (Type 6).
 

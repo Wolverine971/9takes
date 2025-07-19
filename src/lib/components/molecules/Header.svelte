@@ -45,7 +45,7 @@
 
 <svelte:window bind:innerWidth />
 
-<header class="nav-main">
+<header class="nav-main" role="banner" aria-label="Site header">
 	{#if isMobile}
 		<!-- Mobile Header -->
 		<div class="flex h-16 items-center justify-between px-4">
@@ -65,7 +65,7 @@
 		</div>
 	{:else}
 		<!-- Desktop Navigation -->
-		<nav class="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
+		<nav class="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8" role="navigation" aria-label="Main navigation">
 			<!-- Logo & Brand -->
 			<a href="/" class="logo-link" aria-label="Go to homepage">
 				<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />

@@ -27,7 +27,7 @@ pic: ''
 <summary class="accordion">What is the Enneagram?</summary>
 <div class="panel">
   <p >The Enneagram is a personality framework that describes nine distinct personality types, each with its own unique motivations, fears, and core values. Each type is represented by a number, and individuals may identify with one or more of these types based on their personality traits and tendencies. The Enneagram system can be used as a tool for self-awareness and personal growth, as well as for understanding and improving relationships communication, and team dynamics in various settings.</p>
-  <a href="/enneagram-corner/enneagram-tldr" >TLDR </a>
+  <p><strong>Learn more:</strong> <a href="/enneagram-corner/enneagram-tldr">Complete Enneagram overview</a> | <a href="/enneagram-corner/enneagram-concepts">Core concepts explained</a> | <a href="/enneagram-corner/philosophy-psychology-and-the-enneagram">Psychological foundations</a></p>
   </div>
 </details>
 
@@ -46,37 +46,32 @@ pic: ''
 <div class="panel" style="margin: 16px 0">
   <p>The nine Enneagram types are as follows:</p>
   <ul>
-    <li>Type 1: The Perfectionist</li>
-    <li>Type 2: The Helper</li>
-    <li>Type 3: The Achiever</li>
-    <li>Type 4: The Individualist</li>
-    <li>Type 5: The Investigator</li>
-    <li>Type 6: The Loyalist</li>
-    <li>Type 7: The Enthusiast</li>
-    <li>Type 8: The Challenger</li>
-    <li>Type 9: The Peacemaker</li>
+    <li><a href="/enneagram-corner/enneagram-type-1">Type 1: The Perfectionist</a></li>
+    <li><a href="/enneagram-corner/enneagram-type-2">Type 2: The Helper</a></li>
+    <li><a href="/enneagram-corner/enneagram-type-3">Type 3: The Achiever</a></li>
+    <li><a href="/enneagram-corner/enneagram-type-4">Type 4: The Individualist</a></li>
+    <li><a href="/enneagram-corner/enneagram-type-5">Type 5: The Investigator</a></li>
+    <li><a href="/enneagram-corner/enneagram-type-6">Type 6: The Loyalist</a></li>
+    <li><a href="/enneagram-corner/enneagram-type-7">Type 7: The Enthusiast</a></li>
+    <li><a href="/enneagram-corner/enneagram-type-8">Type 8: The Challenger</a></li>
+    <li><a href="/enneagram-corner/enneagram-type-9">Type 9: The Peacemaker</a></li>
     </ul>
- <!-- - Type 1: The Perfectionist
-  + Type 2: The Helper
-  + Type 3: The Achiever
-  + Type 4: The Individualist
-  + Type 5: The Investigator
-  + Type 6: The Loyalist
-  + Type 7: The Enthusiast
-  + Type 8: The Challenger
-  + Type 9: The Peacemaker -->
  <p >Each type is characterized by a core motivation, core fear, and core desire that underlie their personality and
     behavior patterns.</p>
+ <p><strong>Explore more:</strong> <a href="/enneagram-corner/enneagram-strengths-and-weaknesses">Strengths & weaknesses of each type</a> | <a href="/enneagram-corner/enneagram-types-in-stress">How each type handles stress</a></p>
 </div>
 </details>
 
 <details>
 <summary class="accordion">How do I identify my Enneagram type?</summary>
-  <p class="panel">There are various online tests and assessments that can help individuals identify their Enneagram type, but these
-    should be used as a starting point for self-reflection and exploration, rather than as a definitive answer. <br> <br>The
-    Enneagram system is complex and nuanced, and it can take time and self-awareness to accurately identify one's type.
+<div class="panel">
+  <p>There are various online tests and assessments that can help individuals identify their Enneagram type, but these
+    should be used as a starting point for self-reflection and exploration, rather than as a definitive answer.</p>
+  <p>The Enneagram system is complex and nuanced, and it can take time and self-awareness to accurately identify one's type.
     Some individuals may find it helpful to read about each type and reflect on which one resonates most with their
     personality traits, tendencies, and motivations.</p>
+  <p><strong>Get started:</strong> <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Complete beginner's guide to finding your type</a> | <a href="/enneagram-corner/enneagram-childhood-stereotypes">How each type showed up in childhood</a></p>
+</div>
 
 </details>
 

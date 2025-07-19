@@ -22,19 +22,23 @@ pic: 'greek-statue-flex'
 
 But how we seek this recognition? That's where things get interesting.
 
-Your Enneagram type reveals not just your personality, but your unique signature flex—that subtle (or not-so-subtle) way you showcase your strengths to the world.
+Your [Enneagram type](/enneagram-corner/enneagram-tldr) reveals not just your personality, but your unique signature flex—that subtle (or not-so-subtle) way you showcase your strengths to the world.
 
 Some boast. Others humble-brag. Many flex without even realizing they're doing it.
 
 I've spent years observing these patterns, and what I've discovered might surprise you. Let's pull back the curtain on the secret ways each Enneagram type craves validation and what their flexing behavior reveals about their deepest desires.
 
+Understanding these patterns can transform your [communication style](/enneagram-corner/enneagram-communication-styles) with greater empathy.
+
 ## The Psychology Behind Why We Flex
 
 Before diving into specific types, let's face a universal truth: showing off is human nature.
 
-We flex because we need external validation for our internal values. Each Enneagram type has core fears and desires driving their behavior. When they flex, they're essentially saying: "Notice this about me. This matters."
+We flex because we need external validation for our internal values. Each Enneagram type has [core fears and desires](/enneagram-corner/enneagram-strengths-and-weaknesses) driving their behavior. When they flex, they're essentially saying: "Notice this about me. This matters."
 
 That perfectly organized spreadsheet? That selfless act of kindness? That daring adventure story? Each is a bid for recognition in the language of their type.
+
+Notice how these flexes often become more pronounced during [stress](/enneagram-corner/enneagram-types-in-stress) when our need for validation intensifies.
 
 Now, let's explore exactly how each type communicates their value to the world.
 
@@ -271,6 +275,8 @@ Understanding flexing patterns offers three powerful opportunities:
 3. **Growth**: Consciously choosing when to flex and when to be humble leads to more authentic connections
 
 The most evolved individuals don't stop flexing—they flex mindfully, with an awareness of why they're doing it.
+
+For deeper insights into personal development using the Enneagram, explore our guide on [Enneagram personal growth](/enneagram-corner/enneagram-personal-growth). You might also find value in understanding [toxic traits](/enneagram-corner/toxic-traits-of-each-enneagram-type) that can emerge when flexing becomes unhealthy.
 
 ## Wrap up
 

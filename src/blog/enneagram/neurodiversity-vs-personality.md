@@ -42,6 +42,8 @@ pic: 'brain-vs-heart-dichotomy'
             </p>
             <p>
                 But here's what's happening: People are desperately searching for explanations for why they feel different, why they struggle, why they don't fit the mold. So they latch onto neurodiversity as their golden ticket to understanding themselves.
+
+What they really need? A proper [personality framework](/enneagram-corner/enneagram-tldr) that explains their patterns without pathologizing their humanity.
             </p>
         </div>
         <div class="bg-primary-700 text-white p-6 rounded-lg mt-6 shadow-lg border-l-4 border-primary-500">
@@ -126,13 +128,19 @@ pic: 'brain-vs-heart-dichotomy'
         </h2>
         <div class="prose prose-lg max-w-none">
             <p>
-                While everyone's busy hunting for neurodivergent labels, they're missing the real goldmine: personality systems. Specifically, the most powerful one we have—the Enneagram. 💎
+                While everyone's busy hunting for neurodivergent labels, they're missing the real goldmine: personality systems. Specifically, the most powerful one we have—the [Enneagram](/enneagram-corner/enneagram-tldr). 💎
             </p>
             <p>
                 Unlike the alphabet soup of online quizzes and surface-level personality tests, the Enneagram doesn't just tell you <em>what</em> you do. It tells you <em>why</em> you do it. And that "why" runs deep—deeper than most people are willing to go.
             </p>
+            <p>
+                Understanding your [core motivations and fears](/enneagram-corner/enneagram-strengths-and-weaknesses) provides the roadmap for actual change that diagnostic labels simply can't offer.
+            </p>
         </div>
     </section>
+    
+    <MarqueeHorizontal theme="growth" />
+    
     <!-- Section 5 -->
     <section class="mb-12">
         <h2 class="text-3xl font-bold text-primary-900 mb-6 border-l-4 border-primary-700 pl-4">

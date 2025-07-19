@@ -280,7 +280,7 @@ Most people project their own emotional patterns onto others and get confused wh
 
 <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-6 rounded-lg my-8">
 <h3 class="text-xl font-bold text-gray-800 mb-4">Step 3: Learn Your Type's Basic Pattern</h3>
-<p class="mb-4">Based on your core emotion and strategy, you can identify your likely Enneagram type:</p>
+<p class="mb-4">Based on your core emotion and strategy, you can identify your likely <a href="/enneagram-corner/enneagram-tldr">Enneagram type</a>:</p>
 
 <div class="space-y-6">
 <div class="bg-red-50 border border-red-200 p-4 rounded-lg">
@@ -322,7 +322,7 @@ Most people project their own emotional patterns onto others and get confused wh
 
 <div class="bg-gradient-to-r from-purple-50 to-pink-50 border border-purple-200 p-6 rounded-lg">
 <h3 class="text-xl font-bold text-purple-800 mb-3">Develop Situational Awareness</h3>
-<p><strong>Start noticing your emotional reactions in real-time.</strong> When you feel triggered, stressed, or reactive, pause and ask: "What core emotion is driving this response right now?" This builds the self-awareness that's essential for personality maxing.</p>
+<p><strong>Start noticing your emotional reactions in real-time.</strong> When you feel triggered, stressed, or reactive, pause and ask: "What core emotion is driving this response right now?" This builds the self-awareness that's essential for personality maxing. Understanding <a href="/enneagram-corner/enneagram-types-in-stress">how your type responds to stress</a> can accelerate this development.</p>
 </div>
 
 <div class="bg-gradient-to-r from-green-50 to-teal-50 border border-green-200 p-6 rounded-lg">

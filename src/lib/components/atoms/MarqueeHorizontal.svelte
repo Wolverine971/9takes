@@ -8,11 +8,55 @@
 	}[] = [];
 	export let noMove: boolean = false;
 	export let speed: number = 30; // seconds for one full rotation
+	export let theme: 'types' | 'relationships' | 'workplace' | 'growth' | 'custom' = 'custom';
 
 	let marqueeWidth: number;
 
+	// Predefined theme lists for smart cross-linking
+	const themeDisplayLists = {
+		types: [
+			{name: "Type 1 Perfectionist", link: "/enneagram-corner/enneagram-type-1"},
+			{name: "Type 2 Helper", link: "/enneagram-corner/enneagram-type-2"},
+			{name: "Type 3 Achiever", link: "/enneagram-corner/enneagram-type-3"},
+			{name: "Type 4 Individualist", link: "/enneagram-corner/enneagram-type-4"},
+			{name: "Type 5 Investigator", link: "/enneagram-corner/enneagram-type-5"},
+			{name: "Type 6 Loyalist", link: "/enneagram-corner/enneagram-type-6"},
+			{name: "Type 7 Enthusiast", link: "/enneagram-corner/enneagram-type-7"},
+			{name: "Type 8 Challenger", link: "/enneagram-corner/enneagram-type-8"},
+			{name: "Type 9 Peacemaker", link: "/enneagram-corner/enneagram-type-9"}
+		],
+		relationships: [
+			{name: "Dating Guide for Men", link: "/enneagram-corner/enneagram-dating-guide-for-men"},
+			{name: "Dating Guide for Women", link: "/enneagram-corner/enneagram-dating-guide-for-women"},
+			{name: "Types in Relationships", link: "/enneagram-corner/enneagram-types-in-relationships"},
+			{name: "Communication Guide", link: "/enneagram-corner/enneagram-communication-guide"},
+			{name: "First Date Dynamics", link: "/enneagram-corner/enneagram-types-on-a-first-date"},
+			{name: "Relationship Stages", link: "/enneagram-corner/how-to-navigate-early-relationship-stages"},
+			{name: "Toxic Relationship Signs", link: "/enneagram-corner/toxic-traits-relationships-warning-signs"}
+		],
+		workplace: [
+			{name: "Leadership Styles", link: "/enneagram-corner/enneagram-leadership"},
+			{name: "Team Dynamics", link: "/enneagram-corner/enneagram-team-dynamics"},
+			{name: "Working in Teams", link: "/enneagram-corner/enneagram-types-working-in-teams"},
+			{name: "Career Choices", link: "/enneagram-corner/enneagram-types-and-career-choices"},
+			{name: "Workplace Building", link: "/enneagram-corner/enneagram-workplace-team-building"},
+			{name: "Communication Styles", link: "/enneagram-corner/enneagram-communication-styles"}
+		],
+		growth: [
+			{name: "Personal Growth", link: "/enneagram-corner/enneagram-personal-growth"},
+			{name: "Stress Responses", link: "/enneagram-corner/enneagram-types-in-stress"},
+			{name: "Mental Health Flags", link: "/enneagram-corner/enneagram-mental-health-flags"},
+			{name: "Toxic Traits", link: "/enneagram-corner/toxic-traits-of-each-enneagram-type"},
+			{name: "Strengths & Weaknesses", link: "/enneagram-corner/enneagram-strengths-and-weaknesses"},
+			{name: "Self Development", link: "/enneagram-corner/enneagram-self-development"}
+		]
+	};
+
+	// Use theme-based display list if no custom list provided
+	$: finalDisplayList = displayList.length > 0 ? displayList : themeDisplayLists[theme] || [];
+
 	onMount(() => {
-		marqueeWidth = displayList.length * 250; // Adjust based on your content
+		marqueeWidth = finalDisplayList.length * 250; // Adjust based on your content
 	});
 
 	$: jsonLd = {
@@ -25,7 +69,7 @@
 		name: '9takes Enneagram Types Marquee',
 		description: 'A scrolling marquee displaying Enneagram personality types and related content',
 		cssSelector: '.marquee-container',
-		hasPart: displayList.map((item, index) => {
+		hasPart: finalDisplayList.map((item, index) => {
 			return {
 				'@type': 'WebPageElement',
 				name: item.name,
@@ -46,12 +90,12 @@
 >
 	<div class="marquee" class:paused={noMove} role="marquee">
 		<div class="marquee-content">
-			{#each displayList as item}
+			{#each finalDisplayList as item}
 				<a href={item.link} class="marquee-item">{item.name}</a>
 			{/each}
 		</div>
 		<div class="marquee-content" aria-hidden="true">
-			{#each displayList as item}
+			{#each finalDisplayList as item}
 				<a href={item.link} class="marquee-item">{item.name}</a>
 			{/each}
 		</div>

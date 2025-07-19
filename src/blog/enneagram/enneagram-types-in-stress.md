@@ -22,9 +22,13 @@ pic: 'feeling-stressed'
 
 People get stressed over different things.
 
-We will explore how each Enneagram type responds to stress and what they get stressed about. We are going to offer insight into each type's internal monologue. My goal is to help you empathize with other people who get stressed out by things different from yours and handle that stress differently.
+We will explore how each [Enneagram type](/enneagram-corner/enneagram-tldr) responds to stress and what they get stressed about. We are going to offer insight into each type's internal monologue. My goal is to help you empathize with other people who get stressed out by things different from yours and handle that stress differently.
+
+Understanding stress patterns is crucial for [mental health awareness](/enneagram-corner/enneagram-and-mental-illness) and recognizing [toxic traits](/enneagram-corner/toxic-traits-of-each-enneagram-type) that can emerge under pressure.
 
 Let's dive into how each Enneagram type handles stress.
+
+<MarqueeHorizontal theme="types" />
 
 <section class="section-content">
 
@@ -34,7 +38,7 @@ Let's dive into how each Enneagram type handles stress.
 <img loading="lazy" src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
 </p>
 
-Under stress, Type 1s become overly critical of themselves and others. They often exhibit black-and-white thinking and become more rigid in their beliefs about right and wrong. Outsiders might notice an increased tendency to nitpick or frustration over imperfections.
+Under stress, [Type 1s](/enneagram-corner/enneagram-type-1) become overly critical of themselves and others. They often exhibit black-and-white thinking and become more rigid in their beliefs about right and wrong. Outsiders might notice an increased tendency to nitpick or frustration over imperfections.
 
 **Stressors:** Unrealistic expectations, disorder, and perceived incompetence.
 
@@ -537,6 +541,10 @@ Seek out healthy, supportive relationships where mutual respect and harmony are 
 ## Wrapping up
 
 Understanding how each Enneagram type responds to stress and its unique challenges can help individuals develop healthier coping mechanisms and proactively set boundaries. By recognizing the patterns of thoughts and behaviors associated with stress, we can foster self-awareness and empathy, ultimately leading to improved well-being and interpersonal relationships.
+
+For a deeper dive into how stress affects your specific type, check out your individual [type page](/enneagram-corner/enneagram-tldr). Understanding your [stress number](/enneagram-corner/enneagram-stress-number) can also provide valuable insights into how you change under pressure.
+
+If you're ready to work on personal development, explore our guides on [Enneagram personal growth](/enneagram-corner/enneagram-personal-growth) and learn to recognize [mental health warning flags](/enneagram-corner/enneagram-mental-health-flags) for each type.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 

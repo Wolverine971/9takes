@@ -257,6 +257,8 @@
 			class:max-w-4xl={shouldShowMaxWidth}
 			class:mx-auto={shouldShowMaxWidth}
 			class:w-full={shouldShowMaxWidth}
+			role="main"
+			aria-label="Main content"
 		>
 			<slot />
 		</main>

@@ -35,7 +35,7 @@ Thinking about how the world works and how it should work is also hard.
 
 You are dealing with who you are as a person and what it means to be conscious.
 
-But there is a thing called the Enneagram (if you haven't already heard of it) that can shed light on much of this. The Enneagram can be thought of as a framework that describes our behaviors, emotions, and thoughts in understandable patterns. And the interesting part is that **both Plato and Sigmund Freud himself elude to the ideas in the Enneagram.**
+But there is a thing called the [Enneagram](/enneagram-corner/enneagram-tldr) (if you haven't already heard of it) that can shed light on much of this. The Enneagram can be thought of as a framework that describes our behaviors, emotions, and thoughts in understandable patterns. And the interesting part is that **both Plato and Sigmund Freud himself elude to the ideas in the Enneagram.**
 
 This article maps and connects the ideas of Plato Freud and the Enneagram.
 
@@ -68,7 +68,7 @@ Freud had a model of the mind in which he described three distinct parts: the **
 
 ## The Enneagram framework
 
-The Enneagram is a personality system that identifies personality types based on childhood wounds.
+The Enneagram is a personality system that identifies personality types based on [childhood wounds](/enneagram-corner/enneagram-childhood-stereotypes).
 
 These childhood wounds form as a result of an underdeveloped response (or sensitivity) to one of 3 emotions. Those three emotions are **anger, fear, and shame**. But it is not all bad because, from those three emotions, people learn to develop coping mechanisms in response to those three emotions.
 
@@ -118,7 +118,7 @@ But alas this wont happen.
 
 Because 2 of the 3 are dead. 😢
 
-I guess it is up to us to make the connections and dive deeper.
+I guess it is up to us to make the connections and dive deeper. Ready to explore these concepts further? Start with our [core Enneagram concepts guide](/enneagram-corner/enneagram-concepts).
 
 <svelte:head>
 

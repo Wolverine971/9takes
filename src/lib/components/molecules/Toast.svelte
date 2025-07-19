@@ -10,12 +10,14 @@
 	};
 </script>
 
-<div class="notifications">
+<div class="notifications" role="region" aria-live="polite" aria-label="Notifications">
 	{#each $notifications as notification (notification?.id)}
 		<div
 			animate:flip
 			class="toast {getThemeClass(notification.type)}"
 			transition:fly={{ y: 30 }}
+			role="alert"
+			aria-atomic="true"
 		>
 			<div class="toast__content">{notification.message}</div>
 			{#if notification.icon}<i class="toast__icon {notification.icon}" />{/if}
