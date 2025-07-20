@@ -47,7 +47,7 @@ export const createESQuestion = async (body: {
 			return { success: false };
 		}
 	} catch (e) {
-		console.log(e);
+		// Error handling
 	}
 };
 
@@ -66,7 +66,7 @@ export const deleteESQuestion = async (body: { questionId: string }) => {
 			return { success: false };
 		}
 	} catch (e) {
-		console.log(e);
+		// Error handling
 	}
 };
 
@@ -88,7 +88,7 @@ export const addESQuestionLike = async ({
 			}
 		});
 	} catch (e) {
-		console.log(e);
+		// Error handling
 	}
 };
 
@@ -112,7 +112,7 @@ export const addESSubscription = async ({
 			}
 		});
 	} catch (e) {
-		console.log(e);
+		// Error handling
 	}
 };
 
@@ -201,7 +201,7 @@ export const addESComment = async ({
 				return resp;
 			});
 	} catch (e) {
-		console.log(e);
+		// Error handling
 	}
 };
 
@@ -223,6 +223,6 @@ export const addESCommentLike = async ({
 			}
 		});
 	} catch (e) {
-		console.log(e);
+		// Error handling
 	}
 };

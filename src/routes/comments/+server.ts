@@ -29,7 +29,7 @@ export async function GET({ url, locals, cookies }) {
 
 			if (!userHasAnswered) {
 				if (canSeeCommentsError) {
-					console.log(canSeeCommentsError);
+					// Error checking if user can see comments
 				}
 				return json({});
 			}
@@ -59,7 +59,6 @@ export async function GET({ url, locals, cookies }) {
 				return q.id;
 			});
 			if (questionCommentsError) {
-				console.log(questionCommentsError);
 				throw new Error('Unable to retrieve comments');
 			}
 			if (questionCommentIds) {
@@ -82,7 +81,6 @@ export async function GET({ url, locals, cookies }) {
 				}
 
 				if (commentError) {
-					console.log(commentError);
 					throw error(400, {
 						message: `encountered error`
 					});
@@ -122,7 +120,6 @@ export async function GET({ url, locals, cookies }) {
 			});
 		}
 	} catch (e) {
-		console.log(e);
 		throw error(400, {
 			message: `encountered error`
 		});
@@ -161,7 +158,6 @@ export async function POST({ locals, request }) {
 			throw error(400, 'unauthorized');
 		}
 	} catch (e) {
-		console.log(e);
 		throw error(400, {
 			message: `encountered error`
 		});

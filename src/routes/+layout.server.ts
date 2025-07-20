@@ -7,7 +7,7 @@ export const load: LayoutServerLoad = async (event) => {
 		.select('*');
 
 	if (adminSettingsError) {
-		console.log(adminSettingsError);
+		// Handle admin settings error
 	}
 
 	let parents: { name: string; slug: string }[] = [];
@@ -19,7 +19,9 @@ export const load: LayoutServerLoad = async (event) => {
 			{ input_category_name: slug?.split('-').join(' ') }
 		);
 
-		if (parentsError) console.error(parentsError);
+		if (parentsError) {
+			// Handle parents error
+		}
 		parents = parentsCats;
 	}
 

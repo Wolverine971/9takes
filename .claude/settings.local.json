@@ -21,7 +21,8 @@
       "Bash(ls:*)",
       "Bash(pnpm svelte-check:*)",
       "Bash(powershell:*)",
-      "Bash(npm run check:*)"
+      "Bash(npm run check:*)",
+      "Bash(pnpm lint:*)"
     ],
     "deny": []
   }

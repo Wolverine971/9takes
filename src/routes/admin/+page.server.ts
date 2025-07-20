@@ -37,7 +37,7 @@ export const load: PageServerLoad = async (event) => {
 		{}
 	);
 	if (dailyVisitorsErrors) {
-		console.log(dailyVisitorsErrors);
+		// Handle daily visitors error
 	}
 
 	const { data: dailyComments, error: dailyCommentsErrors } = await supabase.rpc(
@@ -45,7 +45,7 @@ export const load: PageServerLoad = async (event) => {
 		{}
 	);
 	if (dailyCommentsErrors) {
-		console.log(dailyCommentsErrors);
+		// Handle daily comments error
 	}
 
 	const { data: dailyQuestions, error: dailyQuestionsErrors } = await supabase.rpc(
@@ -53,7 +53,7 @@ export const load: PageServerLoad = async (event) => {
 		{}
 	);
 	if (dailyQuestionsErrors) {
-		console.log(dailyQuestionsErrors);
+		// Handle daily questions error
 	}
 
 	if (!user?.admin) {
@@ -152,7 +152,7 @@ export const actions: Actions = {
 							.eq('id', question.id);
 
 						if (updateQuestionError) {
-							console.log(updateQuestionError);
+							// Handle update question error
 						}
 					}
 				}

@@ -111,7 +111,7 @@
 				});
 			}
 		} catch (error) {
-			console.error('Error in fingerprint processing:', error);
+			// Error in fingerprint processing
 		}
 	};
 
@@ -165,13 +165,7 @@
 		// Update mobile status based on window width
 		updateMobileStatus();
 
-		console.log(`
- ___  _        _              
-/ _ \\| |_ __ _| | _____  ___ 
-| (_) | __/ _\`| |/ / _ \\/ __|
- \\__, | || (_| |   <  __/\\__ \\
-   /_/ \\__\\__,_|_|\\_\\___||___/
-`);
+		// 9takes initialized
 	});
 
 	// Update mobile status when window resizes

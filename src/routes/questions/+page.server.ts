@@ -29,7 +29,7 @@ export const load: PageServerLoad = async (event) => {
 		);
 
 		if (pageDataError) {
-			console.error('Error fetching page data:', pageDataError);
+			// Error('Error fetching page data:', pageDataError);
 			throw error(500, {
 				message: 'Error loading questions'
 			});
@@ -50,7 +50,7 @@ export const load: PageServerLoad = async (event) => {
 
 		return processedData;
 	} catch (e) {
-		console.error('Page load error:', e);
+		// Error('Page load error:', e);
 		throw error(500, {
 			message: 'Error finding questions'
 		});
@@ -121,7 +121,7 @@ export const actions: Actions = {
 			
 			return results;
 		} catch (e) {
-			console.error('Search error:', e);
+			// Error('Search error:', e);
 			return [];
 		}
 	},
@@ -145,7 +145,7 @@ export const actions: Actions = {
 			);
 
 			if (loadError) {
-				console.error('Load more error:', loadError);
+				// Error('Load more error:', loadError);
 				return { questions: [], hasMore: false };
 			}
 
@@ -155,7 +155,7 @@ export const actions: Actions = {
 				page
 			};
 		} catch (e) {
-			console.error('Load more error:', e);
+			// Load more error
 			return { questions: [], hasMore: false };
 		}
 	},
@@ -177,7 +177,7 @@ export const actions: Actions = {
 			);
 
 			if (filterError) {
-				console.error('Filter error:', filterError);
+				// Error('Filter error:', filterError);
 				return { questions: [], category: null };
 			}
 
@@ -186,7 +186,7 @@ export const actions: Actions = {
 				category: categoryId
 			};
 		} catch (e) {
-			console.error('Filter error:', e);
+			// Error('Filter error:', e);
 			return { questions: [], category: null };
 		}
 	},
@@ -235,7 +235,7 @@ export const actions: Actions = {
 				throw error(500, 'Error removing question');
 			}
 		} catch (e) {
-			console.error('Remove error:', e);
+			// Error('Remove error:', e);
 			return { success: false };
 		}
 	},
@@ -298,7 +298,7 @@ export const actions: Actions = {
 
 			return { success: true };
 		} catch (e) {
-			console.error('Update error:', e);
+			// Error('Update error:', e);
 			return { success: false };
 		}
 	}

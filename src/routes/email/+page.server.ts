@@ -25,7 +25,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	if (findUserError) {
-		console.log(findUserError);
+		// Handle find user error
 	}
 
 	return {
@@ -99,7 +99,6 @@ export const actions: Actions = {
 			throw error(400, 'unauthorized');
 		}
 		if (findUserError) {
-			console.log(findUserError);
 			throw error(400, 'unauthorized');
 		}
 
@@ -173,7 +172,6 @@ export const actions: Actions = {
 			throw error(400, 'unauthorized');
 		}
 		if (findUserError) {
-			console.log(findUserError);
 			throw error(400, 'unauthorized');
 		}
 
@@ -224,7 +222,6 @@ export const actions: Actions = {
 			throw error(400, 'unauthorized');
 		}
 		if (findUserError) {
-			console.log(findUserError);
 			throw error(400, 'unauthorized');
 		}
 

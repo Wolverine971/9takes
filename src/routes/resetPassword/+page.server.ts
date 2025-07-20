@@ -42,7 +42,7 @@ export const actions: Actions = {
 			});
 
 			if (error) {
-				console.error('Password reset error:', error);
+				// Password reset error
 				return fail(500, {
 					error: 'Failed to reset password. The reset link may have expired.',
 					details: error.message
@@ -56,7 +56,7 @@ export const actions: Actions = {
 				message: 'Password has been reset successfully!'
 			};
 		} catch (err) {
-			console.error('Unexpected error during password reset:', err);
+			// Unexpected error during password reset
 			return fail(500, {
 				error: 'An unexpected error occurred. Please try again.'
 			});

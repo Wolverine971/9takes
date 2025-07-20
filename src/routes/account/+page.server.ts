@@ -32,7 +32,7 @@ export const load: PageServerLoad = async (event) => {
 		.eq('user_id', user?.id);
 
 	if (subscriptionsError) {
-		console.log(subscriptionsError);
+		// Handle subscriptions error
 	}
 	if (!findUserError) {
 		return { user: mapDemoValues(user), subscriptions: mapDemoValues(subscriptions) };

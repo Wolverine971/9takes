@@ -3,7 +3,6 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
-		"startNode": "node ./server/index.js",
 		"devTest": "vavite-loader vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -122,8 +121,6 @@
 		"rehype-slug": "^5.1.0",
 		"remark-abbr": "^1.4.2",
 		"remark-github": "^11.2.4",
-		"socket.io": "^4.7.5",
-		"socket.io-client": "^4.7.5",
 		"stemmer": "^2.0.1",
 		"stripe": "^11.18.0",
 		"uuid": "^9.0.1",

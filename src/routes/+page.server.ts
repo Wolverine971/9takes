@@ -14,7 +14,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 		.limit(9);
 
 	if (top9QuestionsError) {
-		console.log(top9QuestionsError);
+		// Handle error appropriately
 	}
 
 	// Calculate which question to display based on current date

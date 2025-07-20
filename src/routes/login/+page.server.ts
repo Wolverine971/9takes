@@ -11,7 +11,6 @@ export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
 	const user = event.locals.user;
 	if (user?.id) {
-		console.log('User is already logged in:', user.id);
 		throw redirect(302, '/');
 	}
 };
@@ -26,7 +25,6 @@ export const actions: Actions = {
 		});
 
 		if (err) {
-			console.log(err);
 			if (err instanceof AuthApiError && err.status === 400) {
 				return fail(400, {
 					error: 'Invalid credentials'

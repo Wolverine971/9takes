@@ -101,7 +101,6 @@
 			}
 		} catch (err) {
 			notifications.danger('Error sending email', 3000);
-			console.error('Error sending email:', err);
 		}
 
 		validationError = '';
@@ -145,7 +144,6 @@
 			}
 		} catch (err) {
 			notifications.danger('Error sending email', 3000);
-			console.error('Error sending email:', err);
 		}
 
 		validationError = '';
@@ -182,7 +180,6 @@
 			}
 		} catch (err) {
 			notifications.danger('Error sending emails', 3000);
-			console.error('Error sending emails:', err);
 		}
 
 		getModal('send-email-to-everyone').close();

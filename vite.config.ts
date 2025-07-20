@@ -1,7 +1,6 @@
+import { enhancedImages } from '@sveltejs/enhanced-img';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
-import injectSocketIO from './src/utils/socket';
-import { enhancedImages } from '@sveltejs/enhanced-img';
 
 const dev = process.env.NODE_ENV === 'development';
 
@@ -11,12 +10,6 @@ const config = {
 		enhancedImages(),
 		sveltekit(),
 		nodeLoaderPlugin(),
-		dev && {
-			name: 'webSocketServer',
-			configureServer(server) {
-				injectSocketIO(server.httpServer);
-			}
-		}
 	],
 	resolve: {
 		preserveSymlinks: false

@@ -15,7 +15,7 @@ export const tagQuestions = async () => {
 			.eq('type', 'refresh_questions');
 
 		if (settingsDataError) {
-			console.log(settingsDataError);
+			// Log(settingsDataError);
 			return;
 		}
 
@@ -105,11 +105,11 @@ export const tagQuestions = async () => {
 			.eq('type', 'refresh_questions');
 
 		if (updateFailed) {
-			console.log(updateFailed);
+			// Log(updateFailed);
 		}
 		return updateSuccess;
 	} catch (e) {
-		console.log(e);
+		// Log(e);
 	}
 };
 
@@ -169,7 +169,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		//   }
 
 		if (!chatResp?.answers) {
-			console.log(chatResp);
+			// Log(chatResp);
 			notifications.danger('Something went wrong', 3000);
 			return;
 		}
@@ -222,7 +222,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 
 		return;
 	} catch (e) {
-		console.log(e);
+		// Log(e);
 	}
 };
 

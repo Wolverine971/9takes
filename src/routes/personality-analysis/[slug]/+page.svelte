@@ -26,7 +26,6 @@
 
 	let post = data.post;
 	let mounted = false;
-	console.log('Post data:', data);
 
 	let comments = data.comments;
 	let userHasAnswered = data.flags.userHasAnswered;

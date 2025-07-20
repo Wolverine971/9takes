@@ -33,9 +33,8 @@ export const getPosts = async () => {
 		.select('*')
 		.eq('published', true);
 	if (personDataError) {
-		console.log(personDataError);
-
-		throw error(404, { message: 'Error getting posts' });
+		// Handle person data error
+		throw new Error('Error getting posts');
 	}
 	const peoplePosts: any = personData.map((e) => {
 		return { ...e, slug: e.person };

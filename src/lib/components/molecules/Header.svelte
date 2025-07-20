@@ -5,6 +5,7 @@
 	import { page } from '$app/stores';
 	import MobileNav from './MobileNav.svelte';
 	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
+	import AdminMessageReceiver from '$lib/components/notifications/AdminMessageReceiver.svelte';
 
 	export let data: any;
 
@@ -56,12 +57,15 @@
 				<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
 			</a>
 
-			<!-- Account button -->
-			{#if data?.user}
-				<button type="button" on:click={goToAccount} class="account-button" aria-label="Go to account">
-					<img src="/brand/account-icon2.png" alt="Account" width="30" height="30" />
-				</button>
-			{/if}
+			<!-- Notifications and Account -->
+			<div class="flex items-center gap-2">
+				{#if data?.user}
+					<AdminMessageReceiver user={data.user} />
+					<button type="button" on:click={goToAccount} class="account-button" aria-label="Go to account">
+						<img src="/brand/account-icon2.png" alt="Account" width="30" height="30" />
+					</button>
+				{/if}
+			</div>
 		</div>
 	{:else}
 		<!-- Desktop Navigation -->
@@ -147,8 +151,9 @@
 			</div>
 
 			<!-- Account / Login Area -->
-			<div class="flex items-center">
+			<div class="flex items-center gap-3">
 				{#if data?.user}
+					<AdminMessageReceiver user={data.user} />
 					<a href="/account" class="account-button" aria-label="Go to account">
 						<img src="/brand/account-icon2.png" alt="Account" title="Account" width="30" height="30" />
 					</a>

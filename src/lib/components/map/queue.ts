@@ -16,7 +16,7 @@ export class EventQueue {
 	}
 
 	start(map) {
-		console.log('starting event queue');
+		// Starting event queue
 		this.unsubscribe = this.queue.subscribe((queue) => {
 			while (queue.length) {
 				const [command, params] = queue.shift();

@@ -26,10 +26,14 @@ export const load: PageServerLoad = async (event) => {
 		.select('id, admin, email, external_id');
 
 	if (findUsersError) {
-		console.log(findUsersError);
+		// Handle error appropriately
 	}
 
-	return { user, users };
+	// Don't pass supabase client - it's not serializable
+	return { 
+		user, 
+		users
+	};
 };
 
 export const actions: Actions = {};

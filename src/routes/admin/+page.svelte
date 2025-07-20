@@ -3,6 +3,7 @@
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { convertDateToReadable } from '../../utils/conversions';
+	import LineChart from '$lib/components/charts/LineChart.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -30,6 +31,28 @@
 		notifications.info('Reindexed Questions', 3000);
 		getModal('confirmReindex').close();
 	};
+
+	// Transform visitor data for chart with actual dates
+	$: visitorChartData = data.dailyVisitors ? data.dailyVisitors.map((visitor) => {
+		// Parse the date string directly
+		const date = new Date(visitor.days);
+		return {
+			x: date.getTime(), // Use timestamp for x value
+			y: visitor.number_of_visitors,
+			label: `${date.toLocaleDateString()}: ${visitor.number_of_visitors} visitors`
+		};
+	}).sort((a, b) => a.x - b.x) : []; // Sort by date ascending
+
+	// Transform comment data for chart with actual dates
+	$: commentChartData = data.dailyComments ? data.dailyComments.map((comment) => {
+		// Parse the date string directly
+		const date = new Date(comment.days);
+		return {
+			x: date.getTime(), // Use timestamp for x value
+			y: comment.number_of_comments,
+			label: `${date.toLocaleDateString()}: ${comment.number_of_comments} comments`
+		};
+	}).sort((a, b) => a.x - b.x) : []; // Sort by date ascending
 </script>
 
 <div class="admin-dashboard">
@@ -73,7 +96,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Data Tables Section -->
+	<!-- Data Visualization Section -->
 	<div class="data-section">
 		<div class="section-card">
 			<details open>
@@ -81,23 +104,17 @@
 					<span class="section-title">📊 Visitor Analytics</span>
 					<span class="chevron">▼</span>
 				</summary>
-				<div class="table-wrapper">
-					<table class="data-table">
-						<thead>
-							<tr>
-								<th>Days Ago</th>
-								<th>Visitor Count</th>
-							</tr>
-						</thead>
-						<tbody>
-							{#each data.dailyVisitors as visitor}
-								<tr>
-									<td>{visitor.days}</td>
-									<td>{visitor.number_of_visitors}</td>
-								</tr>
-							{/each}
-						</tbody>
-					</table>
+				<div class="chart-wrapper">
+					<LineChart 
+						data={visitorChartData}
+						title="Daily Visitors (Last 30 Days)"
+						xLabel="Date"
+						yLabel="Number of Visitors"
+						height={350}
+						color="#3b82f6"
+						showPoints={true}
+						showGrid={true}
+					/>
 				</div>
 			</details>
 		</div>
@@ -108,25 +125,17 @@
 					<span class="section-title">💬 Comment Analytics</span>
 					<span class="chevron">▼</span>
 				</summary>
-				<div class="table-wrapper">
-					<table class="data-table">
-						<thead>
-							<tr>
-								<th>Days Ago</th>
-								<th>Comments</th>
-								<th>Modified</th>
-							</tr>
-						</thead>
-						<tbody>
-							{#each data.dailyComments as comment}
-								<tr>
-									<td>{comment.days}</td>
-									<td>{comment.number_of_comments}</td>
-									<td>{comment.number_modified}</td>
-								</tr>
-							{/each}
-						</tbody>
-					</table>
+				<div class="chart-wrapper">
+					<LineChart 
+						data={commentChartData}
+						title="Daily Comments (Last 30 Days)"
+						xLabel="Date"
+						yLabel="Number of Comments"
+						height={350}
+						color="#10b981"
+						showPoints={true}
+						showGrid={true}
+					/>
 				</div>
 			</details>
 		</div>
@@ -326,6 +335,11 @@
 	.table-wrapper {
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
+	}
+
+	.chart-wrapper {
+		padding: 1.5rem;
+		background-color: var(--card-background);
 	}
 
 	.data-table {
