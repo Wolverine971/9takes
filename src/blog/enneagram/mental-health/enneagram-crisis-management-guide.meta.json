@@ -1,0 +1,60 @@
+{
+  "title": "Enneagram Crisis Management: Navigating Mental Health Emergencies",
+  "slug": "enneagram-crisis-management-guide",
+  "category": "mental-health",
+  "primaryAudience": {
+    "name": "People experiencing mental health crises or their supporters",
+    "description": "People interested in crisis management with Enneagram awareness",
+    "demographics": {
+      "ageRange": "25-55",
+      "interests": [
+        "enneagram",
+        "mental health",
+        "crisis",
+        "emergency",
+        "suicide-prevention",
+        "intervention"
+      ],
+      "psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
+    }
+  },
+  "tags": [
+    "enneagram",
+    "mental-health",
+    "crisis",
+    "emergency",
+    "suicide-prevention",
+    "intervention"
+  ],
+  "painPoints": [
+    "Mental health crisis",
+    "Feeling suicidal",
+    "Supporting someone in crisis"
+  ],
+  "topicsAddressed": [
+    "How each Enneagram type experiences crisis management",
+    "Type-specific strategies for crisis management",
+    "Practical tools and resources",
+    "When to seek professional help"
+  ],
+  "seo": {
+    "keywords": [
+      "enneagram crisis management",
+      "crisis management by personality type"
+    ],
+    "targetQueries": [
+      "how does enneagram affect crisis management",
+      "crisis management help for my type"
+    ]
+  },
+  "contentGoals": [
+    "Provide type-specific guidance for crisis management",
+    "Build understanding and reduce stigma",
+    "Connect people with appropriate resources"
+  ],
+  "socialMediaFocus": {
+    "twitter": "Educational content about crisis management and type-specific tips",
+    "instagram": "Visual guides and supportive content about crisis management",
+    "reddit": "Community support and resource sharing in relevant subreddits"
+  }
+}

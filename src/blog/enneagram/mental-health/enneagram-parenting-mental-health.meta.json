@@ -1,0 +1,135 @@
+{
+  "title": "The Enneagram Parent's Guide to Children's Mental Health",
+  "slug": "enneagram-parenting-mental-health",
+  "category": "mental-health",
+  "primaryAudience": {
+    "name": "Enneagram-Aware Parents",
+    "description": "Parents who are familiar with the Enneagram and want to apply it to understand and support their children's mental health",
+    "demographics": {
+      "ageRange": "28-45",
+      "interests": ["enneagram", "parenting", "mental health", "child development", "psychology"],
+      "psychographics": "Self-reflective parents who value emotional intelligence and conscious parenting. They seek tools and frameworks to better understand themselves and their children."
+    }
+  },
+  "secondaryAudiences": [
+    {
+      "name": "Mental Health Professionals",
+      "description": "Therapists, counselors, and child psychologists interested in personality-based approaches",
+      "overlap": "Professional interest in personality frameworks for child development"
+    },
+    {
+      "name": "New Enneagram Enthusiasts",
+      "description": "Parents just discovering the Enneagram who want practical applications",
+      "overlap": "Seeking actionable ways to apply Enneagram knowledge in daily life"
+    }
+  ],
+  "personas": [
+    {
+      "name": "Sarah - Type 1 Perfectionist Parent",
+      "description": "A detail-oriented mother who worries about doing everything 'right' and struggles with her child's emotional outbursts",
+      "painPoints": [
+        "Feeling like she's failing when her child struggles",
+        "Difficulty accepting that parenting isn't perfect",
+        "Worry about whether she's causing her child's problems"
+      ],
+      "goals": [
+        "Learn to recognize normal vs concerning behaviors",
+        "Develop patience with the parenting process",
+        "Support her child without being overly critical"
+      ],
+      "enneagramType": 1
+    },
+    {
+      "name": "Marcus - Type 6 Anxious Parent",
+      "description": "A father who tends to worry about worst-case scenarios and wants to protect his children from all potential harm",
+      "painPoints": [
+        "Constant worry about child's safety and wellbeing",
+        "Difficulty knowing when concern is appropriate vs excessive",
+        "Fear of missing warning signs of mental health issues"
+      ],
+      "goals": [
+        "Learn to distinguish between normal and concerning behaviors",
+        "Develop confidence in his parenting decisions",
+        "Create a safe environment without being overprotective"
+      ],
+      "enneagramType": 6
+    },
+    {
+      "name": "Lisa - Type 2 Helper Parent",
+      "description": "A mother who focuses intensely on her children's needs and emotions, sometimes at the expense of boundaries",
+      "painPoints": [
+        "Difficulty setting healthy boundaries with children",
+        "Taking on her children's emotional problems as her own",
+        "Feeling guilty when she can't 'fix' her child's struggles"
+      ],
+      "goals": [
+        "Learn healthy ways to support without enabling",
+        "Understand when to step back and let children process",
+        "Maintain her own mental health while caring for others"
+      ],
+      "enneagramType": 2
+    }
+  ],
+  "tags": [
+    "enneagram",
+    "parenting",
+    "mental-health",
+    "child-development",
+    "emotional-intelligence",
+    "family-therapy",
+    "conscious-parenting",
+    "children-psychology",
+    "early-intervention",
+    "resilience-building"
+  ],
+  "painPoints": [
+    "Struggling to know when child's behavior is normal vs concerning",
+    "Feeling overwhelmed by parenting decisions related to mental health",
+    "Difficulty understanding their child's emotional needs",
+    "Worry about damaging their child's mental health",
+    "Not knowing when to seek professional help",
+    "Feeling unprepared to handle child's anxiety or depression",
+    "Confusion about how their own personality affects their parenting",
+    "Guilt about family mental health history",
+    "Fear of stigmatizing their child by seeking help"
+  ],
+  "topicsAddressed": [
+    "Recognizing early mental health warning signs by type",
+    "Type-specific parenting approaches for mental health",
+    "Building resilience in children based on their temperament",
+    "When and how to seek professional help",
+    "Supporting anxious and depressed children",
+    "Creating type-appropriate environments for mental wellness",
+    "Understanding developmental considerations with Enneagram",
+    "Balancing support with healthy boundaries",
+    "Family dynamics and mental health patterns"
+  ],
+  "seo": {
+    "keywords": [
+      "enneagram parenting mental health",
+      "children mental health by personality type",
+      "early warning signs child depression anxiety",
+      "parenting strategies mental health",
+      "enneagram child development"
+    ],
+    "targetQueries": [
+      "how to support child mental health enneagram",
+      "when to worry about child behavior",
+      "parenting anxious child by type",
+      "enneagram parenting guide mental health",
+      "early signs child needs therapy"
+    ]
+  },
+  "contentGoals": [
+    "Educate parents about type-aware mental health support",
+    "Provide practical tools for recognizing concerning patterns",
+    "Reduce stigma around children's mental health",
+    "Empower parents to seek help when needed",
+    "Build community around conscious, informed parenting"
+  ],
+  "socialMediaFocus": {
+    "twitter": "Educational threads about parenting insights and mental health awareness",
+    "instagram": "Visual guides and relatable parenting moments with mental health tips",
+    "reddit": "Community support and experience sharing in parenting and mental health subreddits"
+  }
+}

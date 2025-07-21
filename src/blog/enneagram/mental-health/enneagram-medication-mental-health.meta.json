@@ -1,0 +1,60 @@
+{
+  "title": "The Enneagram Guide to Mental Health Medication",
+  "slug": "enneagram-medication-mental-health",
+  "category": "mental-health",
+  "primaryAudience": {
+    "name": "People considering or taking mental health medication",
+    "description": "People interested in medication and treatment with Enneagram awareness",
+    "demographics": {
+      "ageRange": "25-55",
+      "interests": [
+        "enneagram",
+        "mental health",
+        "medication",
+        "psychiatry",
+        "treatment",
+        "therapy"
+      ],
+      "psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
+    }
+  },
+  "tags": [
+    "enneagram",
+    "mental-health",
+    "medication",
+    "psychiatry",
+    "treatment",
+    "therapy"
+  ],
+  "painPoints": [
+    "Deciding about medication",
+    "Medication side effects",
+    "Treatment resistance"
+  ],
+  "topicsAddressed": [
+    "How each Enneagram type experiences medication and treatment",
+    "Type-specific strategies for medication and treatment",
+    "Practical tools and resources",
+    "When to seek professional help"
+  ],
+  "seo": {
+    "keywords": [
+      "enneagram medication and treatment",
+      "medication and treatment by personality type"
+    ],
+    "targetQueries": [
+      "how does enneagram affect medication and treatment",
+      "medication and treatment help for my type"
+    ]
+  },
+  "contentGoals": [
+    "Provide type-specific guidance for medication and treatment",
+    "Build understanding and reduce stigma",
+    "Connect people with appropriate resources"
+  ],
+  "socialMediaFocus": {
+    "twitter": "Educational content about medication and treatment and type-specific tips",
+    "instagram": "Visual guides and supportive content about medication and treatment",
+    "reddit": "Community support and resource sharing in relevant subreddits"
+  }
+}

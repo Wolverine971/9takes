@@ -1,0 +1,143 @@
+{
+  "title": "The Complete Enneagram Guide to Understanding and Managing Anxiety",
+  "slug": "enneagram-anxiety-complete-guide",
+  "category": "mental-health",
+  "primaryAudience": {
+    "name": "Enneagram-Aware Anxiety Sufferers",
+    "description": "People who struggle with anxiety and are familiar with the Enneagram, seeking type-specific strategies for managing their mental health",
+    "demographics": {
+      "ageRange": "22-50",
+      "interests": ["enneagram", "mental health", "anxiety management", "self-improvement", "therapy"],
+      "psychographics": "Self-aware individuals who want to understand the deeper patterns behind their anxiety and develop personalized coping strategies"
+    }
+  },
+  "secondaryAudiences": [
+    {
+      "name": "Mental Health Professionals",
+      "description": "Therapists and counselors interested in personality-based approaches to anxiety treatment",
+      "overlap": "Professional interest in integrating personality frameworks into therapy"
+    },
+    {
+      "name": "Anxiety Supporters",
+      "description": "Friends, family members, and partners of people with anxiety who want to understand better",
+      "overlap": "Seeking ways to provide more effective support and understanding"
+    }
+  ],
+  "personas": [
+    {
+      "name": "Alex - Type 6 with Chronic Anxiety",
+      "description": "A 32-year-old professional who has struggled with anxiety since college and recognizes their Type 6 patterns",
+      "painPoints": [
+        "Constant worry about potential problems",
+        "Decision paralysis from overthinking",
+        "Physical symptoms of anxiety interfering with daily life",
+        "Feeling like anxiety controls their life"
+      ],
+      "goals": [
+        "Develop type-specific coping strategies",
+        "Understand the root of their anxiety patterns",
+        "Learn to make decisions with confidence",
+        "Build a sustainable anxiety management system"
+      ],
+      "enneagramType": 6
+    },
+    {
+      "name": "Maria - Type 1 with Perfectionist Anxiety",
+      "description": "A 28-year-old who experiences anxiety when things aren't 'perfect' or when she makes mistakes",
+      "painPoints": [
+        "Overwhelming anxiety about making mistakes",
+        "Difficulty relaxing when things are 'undone'",
+        "Fear of criticism or judgment",
+        "Burnout from maintaining impossibly high standards"
+      ],
+      "goals": [
+        "Learn to accept 'good enough'",
+        "Develop self-compassion practices",
+        "Manage perfectionist triggers",
+        "Find balance between standards and wellbeing"
+      ],
+      "enneagramType": 1
+    },
+    {
+      "name": "Jordan - Type 4 with Emotional Anxiety",
+      "description": "A 35-year-old artist who experiences intense anxiety around their emotions and sense of identity",
+      "painPoints": [
+        "Overwhelming emotional intensity",
+        "Anxiety about being 'too much' for others",
+        "Fear of abandonment and rejection",
+        "Difficulty regulating emotional responses"
+      ],
+      "goals": [
+        "Learn healthy emotional regulation",
+        "Develop stable sense of self-worth",
+        "Build sustainable relationships",
+        "Channel emotional intensity productively"
+      ],
+      "enneagramType": 4
+    }
+  ],
+  "tags": [
+    "enneagram",
+    "anxiety",
+    "mental-health",
+    "stress-management",
+    "coping-strategies",
+    "self-awareness",
+    "therapy",
+    "emotional-regulation",
+    "mindfulness",
+    "personal-growth"
+  ],
+  "painPoints": [
+    "Feeling like anxiety controls their life",
+    "Not understanding why typical anxiety advice doesn't work for them",
+    "Experiencing different anxiety triggers than other people",
+    "Feeling misunderstood by generic mental health resources",
+    "Struggling with type-specific anxiety patterns",
+    "Difficulty finding coping strategies that fit their personality",
+    "Overwhelming worry and overthinking",
+    "Physical symptoms of anxiety",
+    "Social anxiety and fear of judgment",
+    "Decision paralysis and avoidance behaviors"
+  ],
+  "topicsAddressed": [
+    "How each Enneagram type experiences anxiety differently",
+    "Type-specific anxiety triggers and patterns",
+    "Customized coping strategies for each type",
+    "Understanding the connection between core fears and anxiety",
+    "Practical tools for managing anxiety by type",
+    "When and how to seek professional help",
+    "Building type-appropriate support systems",
+    "Lifestyle changes that help each type manage anxiety",
+    "Mindfulness and meditation practices by type",
+    "Breaking free from anxiety-driven behaviors"
+  ],
+  "seo": {
+    "keywords": [
+      "enneagram anxiety guide",
+      "anxiety by personality type",
+      "type specific anxiety management",
+      "enneagram mental health",
+      "anxiety coping strategies by type"
+    ],
+    "targetQueries": [
+      "how does my enneagram type affect my anxiety",
+      "anxiety management for enneagram types",
+      "why doesn't anxiety advice work for me",
+      "enneagram type 6 anxiety help",
+      "personalized anxiety treatment"
+    ]
+  },
+  "contentGoals": [
+    "Help people understand their unique anxiety patterns",
+    "Provide type-specific coping strategies",
+    "Reduce shame around anxiety struggles",
+    "Guide people toward appropriate professional help",
+    "Build community around type-aware mental health"
+  ],
+  "socialMediaFocus": {
+    "twitter": "Educational threads about type-specific anxiety patterns and quick coping tips",
+    "instagram": "Visual guides for anxiety management and relatable content about different anxiety experiences",
+    "reddit": "Community support in anxiety and mental health subreddits, sharing type-aware insights"
+  }
+}

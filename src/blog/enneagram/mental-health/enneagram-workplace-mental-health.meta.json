@@ -1,0 +1,61 @@
+{
+  "title": "Enneagram Guide to Workplace Mental Health",
+  "slug": "enneagram-workplace-mental-health",
+  "category": "mental-health",
+  "primaryAudience": {
+    "name": "Working professionals concerned about mental health",
+    "description": "People interested in workplace wellbeing with Enneagram awareness",
+    "demographics": {
+      "ageRange": "25-55",
+      "interests": [
+        "enneagram",
+        "mental health",
+        "workplace",
+        "burnout",
+        "stress",
+        "work-life-balance"
+      ],
+      "psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
+    }
+  },
+  "tags": [
+    "enneagram",
+    "mental-health",
+    "workplace",
+    "burnout",
+    "stress",
+    "work-life-balance"
+  ],
+  "painPoints": [
+    "Work stress",
+    "Burnout",
+    "Workplace anxiety",
+    "Career pressures"
+  ],
+  "topicsAddressed": [
+    "How each Enneagram type experiences workplace wellbeing",
+    "Type-specific strategies for workplace wellbeing",
+    "Practical tools and resources",
+    "When to seek professional help"
+  ],
+  "seo": {
+    "keywords": [
+      "enneagram workplace wellbeing",
+      "workplace wellbeing by personality type"
+    ],
+    "targetQueries": [
+      "how does enneagram affect workplace wellbeing",
+      "workplace wellbeing help for my type"
+    ]
+  },
+  "contentGoals": [
+    "Provide type-specific guidance for workplace wellbeing",
+    "Build understanding and reduce stigma",
+    "Connect people with appropriate resources"
+  ],
+  "socialMediaFocus": {
+    "twitter": "Educational content about workplace wellbeing and type-specific tips",
+    "instagram": "Visual guides and supportive content about workplace wellbeing",
+    "reddit": "Community support and resource sharing in relevant subreddits"
+  }
+}
