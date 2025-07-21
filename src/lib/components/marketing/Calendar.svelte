@@ -327,8 +327,9 @@
 				</svg>
 			</Button>
 
-			<Button on:click={toggleViewMode} size="sm" color="alternative" class="ml-2">
-				{viewMode === 'month' ? 'Week View' : 'Month View'}
+			<Button on:click={toggleViewMode} size="xs" color="alternative" class="ml-2 px-2 py-1.5 sm:px-3 sm:py-2 sm:size-sm">
+				<span class="hidden sm:inline">{viewMode === 'month' ? 'Week View' : 'Month View'}</span>
+				<span class="sm:hidden">{viewMode === 'month' ? 'Week' : 'Month'}</span>
 			</Button>
 		</div>
 
@@ -337,7 +338,7 @@
 				<Select
 					on:change={handleCampaignSelection}
 					value={selectedCampaignId}
-					class="w-full text-sm"
+					class="w-full text-xs sm:text-sm"
 					size="sm"
 				>
 					<option value="all">All Campaigns</option>
@@ -349,9 +350,9 @@
 			</div>
 
 			<div class="relative w-full sm:w-64">
-				<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+				<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-2 sm:pl-3">
 					<svg
-						class="h-4 w-4 text-gray-500 dark:text-gray-400"
+						class="h-3 w-3 text-gray-500 dark:text-gray-400 sm:h-4 sm:w-4"
 						aria-hidden="true"
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -369,8 +370,8 @@
 				<input
 					type="search"
 					bind:value={searchTerm}
-					placeholder="Search content..."
-					class="w-full rounded-lg border border-gray-300 bg-gray-50 p-2 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+					placeholder="Search..."
+					class="w-full rounded-lg border border-gray-300 bg-gray-50 p-1.5 pl-8 text-xs text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500 sm:p-2 sm:pl-10 sm:text-sm"
 				/>
 			</div>
 		</div>
@@ -410,7 +411,7 @@
 							{#each dayContent.slice(0, 3) as item (item.id)}
 								<div
 									transition:slide={{ duration: 150 }}
-									class="group flex cursor-pointer items-center overflow-hidden rounded p-1 text-xs hover:shadow-md dark:text-white"
+									class="group flex cursor-pointer items-center overflow-hidden rounded p-0.5 text-[10px] hover:shadow-md dark:text-white sm:p-1 sm:text-xs"
 									style="background-color: {getCampaignColor(item.campaign_id)}; color: white;"
 									on:click|stopPropagation={(e) => openContentEditor(item, e)}
 								>
@@ -693,9 +694,94 @@
 </Modal>
 
 <style>
+	/* Calendar container */
+	.calendar-container {
+		width: 100%;
+		overflow-x: auto;
+		overflow-y: hidden;
+		-webkit-overflow-scrolling: touch;
+	}
+	
 	/* Custom styling for content items */
 	:global(.item-color) {
 		color: white;
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	}
+	
+	/* Platform icon styling on mobile */
+	@media (max-width: 640px) {
+		:global(.calendar-container svg) {
+			width: 10px !important;
+			height: 10px !important;
+		}
+	}
+	
+	/* Small mobile optimizations (below 480px) */
+	@media (max-width: 480px) {
+		/* Calendar grid adjustments */
+		:global(.calendar-container .grid) {
+			min-width: 280px;
+		}
+		
+		/* Reduce all button sizes in calendar */
+		:global(.calendar-container button) {
+			padding: 0.25rem 0.5rem !important;
+			font-size: 0.75rem !important;
+		}
+		
+		/* Select and input adjustments */
+		:global(.calendar-container select),
+		:global(.calendar-container input) {
+			font-size: 0.75rem !important;
+			padding: 0.375rem 0.5rem !important;
+		}
+		
+		/* Badge adjustments */
+		:global(.calendar-container .badge) {
+			padding: 0 0.25rem !important;
+			font-size: 0.625rem !important;
+		}
+		
+		:global(.modal-body) {
+			padding: 0.5rem !important;
+		}
+		
+		:global(.modal-header) {
+			padding: 0.5rem !important;
+		}
+		
+		/* Make modals full screen on very small devices */
+		:global(.modal) {
+			max-width: 100% !important;
+			margin: 0 !important;
+			min-height: 100vh;
+		}
+		
+		/* Reduce spacing on mobile */
+		:global(.flowbite-modal) {
+			padding: 0 !important;
+		}
+		
+		/* Hide status badges on very small screens to save space */
+		:global(.calendar-container .group .badge) {
+			display: none !important;
+		}
+	}
+	
+	/* Mobile optimizations */
+	@media (max-width: 640px) {
+		:global(.modal-body) {
+			padding: 0.75rem !important;
+		}
+		
+		:global(.modal-header) {
+			padding: 0.75rem !important;
+		}
+		
+		/* Adjust button sizes */
+		:global(.btn-sm) {
+			padding: 0.25rem 0.5rem !important;
+			font-size: 0.75rem !important;
+		}
 	}
 </style>

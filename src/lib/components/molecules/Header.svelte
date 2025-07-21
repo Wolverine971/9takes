@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import MobileNav from './MobileNav.svelte';
+	import MobileNav from './MobileNavNew.svelte';
 	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
 	import AdminMessageReceiver from '$lib/components/notifications/AdminMessageReceiver.svelte';
 

@@ -162,21 +162,20 @@
 	}
 	
 	.notification-bell {
-		background: var(--button-background, #f3f4f6);
-		border: 1px solid var(--border-color, #e5e7eb);
+		background: none;
+		border: none;
 		font-size: 1.125rem;
 		cursor: pointer;
-		padding: 0.625rem;
-		border-radius: 0.625rem;
+		padding: 0.375rem;
+		border-radius: 50%;
 		transition: all 0.2s ease;
 		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.75rem;
-		height: 2.75rem;
+		width: 2.25rem;
+		height: 2.25rem;
 		color: var(--text-primary, #1f2937);
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 	}
 	
 	.notification-bell:hover {
