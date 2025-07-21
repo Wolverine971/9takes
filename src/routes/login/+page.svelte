@@ -4,6 +4,7 @@
 	import { fade, fly } from 'svelte/transition';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { invalidateAll } from '$app/navigation';
+	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
 
 	let loading = false;
 	let email = '';
@@ -59,13 +60,17 @@
 			<label for="password">Password</label>
 			<input type="password" id="password" name="password" bind:value={password} required />
 		</div>
-		<button type="submit" class="btn btn-primary" disabled={loading}>
-			{#if loading}
-				<span class="loader" />
-			{:else}
-				Login
-			{/if}
-		</button>
+		<LoadingButton
+			type="submit"
+			variant="primary"
+			size="lg"
+			fullWidth
+			{loading}
+			loadingText="Logging in..."
+			className="mt-4"
+		>
+			Login
+		</LoadingButton>
 	</form>
 	<div class="forgot-password" in:fly={{ y: 20, duration: 300, delay: 450 }}>
 		<a href="/forgotPassword">Forgot Password?</a>

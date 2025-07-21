@@ -1,18 +1,40 @@
 // routes/comments/+server.ts
 import { error, json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
+import { logger, withApiLogging } from '$lib/utils/logger';
+import { z } from 'zod';
 
 import { checkDemoTime } from '../../utils/api';
 
+// Validation schemas
+const getCommentsSchema = z.object({
+  parentId: z.string().transform(Number),
+  type: z.enum(['question', 'comment']).default('question'),
+  range: z.string().transform(Number).default('0')
+});
+
+const postCommentSchema = z.object({
+  comment: z.string().min(1).max(5000),
+  comment_id: z.string().uuid()
+});
+
 /** @type {import('./$types').RequestHandler} */
-export async function GET({ url, locals, cookies }) {
+export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 	try {
+		// Validate query parameters
+		const params = {
+			parentId: url.searchParams.get('parentId') ?? '0',
+			type: url.searchParams.get('type') ?? 'question',
+			range: url.searchParams.get('range') ?? '0'
+		};
+		
+		const validatedParams = getCommentsSchema.parse(params);
 		const demo_time = await checkDemoTime();
 		const cookie = cookies.get('9tfingerprint');
 
-		const parentId = Number(url.searchParams.get('parentId') ?? '0');
-		const parentType = String(url.searchParams.get('type') ?? '0');
-		const range = parseInt(url.searchParams.get('range') as string) || 0;
+		const parentId = validatedParams.parentId;
+		const parentType = validatedParams.type;
+		const range = validatedParams.range;
 
 		const user = locals?.session?.user;
 
@@ -29,7 +51,7 @@ export async function GET({ url, locals, cookies }) {
 
 			if (!userHasAnswered) {
 				if (canSeeCommentsError) {
-					// Error checking if user can see comments
+					logger.error('Error checking comment permissions', canSeeCommentsError);
 				}
 				return json({});
 			}
@@ -50,8 +72,17 @@ export async function GET({ url, locals, cookies }) {
 			.order('created_at', { ascending: false })
 			.range(range, range + 10);
 
-		if (questionCommentsError || !questionComments?.length) {
+		if (questionCommentsError) {
+			logger.error('Failed to retrieve comments', questionCommentsError, {
+				parentId,
+				parentType,
+				range
+			});
 			throw new Error('Unable to retrieve comments');
+		}
+		
+		if (!questionComments?.length) {
+			return json([]);
 		}
 
 		if (parentType !== 'question') {
@@ -120,23 +151,38 @@ export async function GET({ url, locals, cookies }) {
 			});
 		}
 	} catch (e) {
-		throw error(400, {
-			message: `encountered error`
+		if (e instanceof z.ZodError) {
+			logger.warn('Invalid request parameters', {
+				errors: e.errors
+			});
+			throw error(400, {
+				message: 'Invalid request parameters',
+				details: e.errors
+			});
+		}
+		logger.error('Error in GET /comments', e as Error);
+		throw error(500, {
+			message: 'Internal server error'
 		});
 	}
-}
+});
 
-export async function POST({ locals, request }) {
+export const POST = withApiLogging(async ({ locals, request }) => {
 	try {
 		const session = locals.session;
 
 		if (!session?.user?.id) {
-			throw error(400, 'unauthorized');
+			logger.warn('Unauthorized comment attempt');
+			throw error(401, 'Unauthorized');
 		}
+		
 		const demo_time = await checkDemoTime();
-		const body = Object.fromEntries(await request.formData());
-		const comment = body.comment as string;
-		const comment_id = body.comment_id as string;
+		const formData = await request.formData();
+		const body = Object.fromEntries(formData);
+		
+		// Validate request body
+		const validatedData = postCommentSchema.parse(body);
+		const { comment, comment_id } = validatedData;
 
 		const { data: commentAuthorized } = await supabase
 			.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -153,13 +199,34 @@ export async function POST({ locals, request }) {
 				.eq('id', comment_id)
 				.single();
 
+			logger.info('Comment updated successfully', {
+				commentId: comment_id,
+				userId: session.user.id
+			});
 			return json({ success: true, commentUpdated });
 		} else {
-			throw error(400, 'unauthorized');
+			logger.warn('Unauthorized comment update attempt', {
+				commentId: comment_id,
+				userId: session.user.id
+			});
+			throw error(403, 'Forbidden');
 		}
 	} catch (e) {
-		throw error(400, {
-			message: `encountered error`
+		if (e instanceof z.ZodError) {
+			logger.warn('Invalid comment data', {
+				errors: e.errors
+			});
+			throw error(400, {
+				message: 'Invalid comment data',
+				details: e.errors
+			});
+		}
+		if ((e as any).status) {
+			throw e; // Re-throw HTTP errors
+		}
+		logger.error('Error in POST /comments', e as Error);
+		throw error(500, {
+			message: 'Internal server error'
 		});
 	}
-}
+});

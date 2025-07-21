@@ -4,6 +4,8 @@
 	import { createEventDispatcher, onMount, onDestroy } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import Comment from './Comment.svelte';
+	import SkeletonLoader from '../atoms/SkeletonLoader.svelte';
+	import Spinner from '../atoms/Spinner.svelte';
 	import { debounce } from '../../utils/debounce';
 
 	const dispatch = createEventDispatcher();
@@ -23,6 +25,7 @@
 	$: _comments = comments ? JSON.parse(JSON.stringify(comments)) : [];
 
 	let loading = false;
+	let initialLoading = false;
 	let observer: IntersectionObserver | null = null;
 	let bottomSentinel: HTMLDivElement;
 
@@ -56,6 +59,7 @@
 		if (parentType !== 'question') return;
 
 		dispatch('commentAdded');
+		initialLoading = _comments.length === 0;
 		loading = true;
 
 		try {
@@ -126,29 +130,31 @@
 				</div>
 			{/each}
 
+			<!-- Initial loading state -->
+			{#if initialLoading && _comments.length === 0}
+				<div class="space-y-4 py-4">
+					{#each Array(3) as _, i}
+						<div class="rounded-lg bg-white/80 p-4 shadow-sm" in:fade={{ duration: 300, delay: i * 100 }}>
+							<div class="flex gap-4">
+								<SkeletonLoader variant="circular" width={32} height={32} />
+								<div class="flex-1">
+									<SkeletonLoader variant="text" width="30%" className="mb-2" />
+									<SkeletonLoader variant="text" count={2} />
+								</div>
+							</div>
+						</div>
+					{/each}
+				</div>
+			{/if}
+
 			<!-- Infinite scroll sentinel -->
 			{#if _comments.length < comment_count && parentData?.flags?.userHasAnswered}
-				<div bind:this={bottomSentinel} class="my-4 h-2.5">
-					{#if loading}
-						<div class="space-y-4">
-							{#each Array(2) as _, i}
-								<div
-									class="my-2 flex gap-4 rounded-lg bg-white/80 p-4 shadow-sm"
-									in:fade={{ duration: 300, delay: i * 100 }}
-								>
-									<div
-										class="h-8 w-20 animate-[shimmer_1.5s_infinite] rounded bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%]"
-									></div>
-									<div class="flex flex-1 flex-col gap-3">
-										<div
-											class="h-3 w-[95%] animate-[shimmer_1.5s_infinite] rounded bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%]"
-										></div>
-										<div
-											class="h-3 w-[80%] animate-[shimmer_1.5s_infinite] rounded bg-gradient-to-r from-neutral-200 via-neutral-400 to-neutral-200 bg-[length:200%_100%]"
-										></div>
-									</div>
-								</div>
-							{/each}
+				<div bind:this={bottomSentinel} class="my-4">
+					{#if loading && !initialLoading}
+						<div class="flex justify-center py-4">
+							<Spinner size="md" color="primary">
+								Loading more comments...
+							</Spinner>
 						</div>
 					{/if}
 				</div>
@@ -169,5 +175,9 @@
 		100% {
 			background-position: 200% 0;
 		}
+	}
+	:global(.skeleton) {
+		--skeleton-bg: #f3f4f6;
+		--skeleton-bg-dark: #374151;
 	}
 </style>

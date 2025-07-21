@@ -100,7 +100,7 @@ importers:
         version: 2.1.1
       openai:
         specifier: ^4.62.1
-        version: 4.77.4(encoding@0.1.13)
+        version: 4.77.4(encoding@0.1.13)(zod@4.0.5)
       pluralize:
         specifier: ^8.0.0
         version: 8.0.0
@@ -134,6 +134,9 @@ importers:
       web-vitals:
         specifier: ^3.5.2
         version: 3.5.2
+      zod:
+        specifier: ^4.0.5
+        version: 4.0.5
     devDependencies:
       '@babel/parser':
         specifier: ^7.27.4
@@ -7203,7 +7206,7 @@ packages:
       mimic-fn: 4.0.0
     dev: true
 
-  /openai@4.77.4(encoding@0.1.13):
+  /openai@4.77.4(encoding@0.1.13)(zod@4.0.5):
     resolution: {integrity: sha512-rShjKsZ/HXm1cSxXt6iFeZxiCohrVShawt0aRRQmbb+z/EXcH4OouyQZP1ShyZMb63LJajpl8aGw3DzEi8Wh9Q==}
     hasBin: true
     peerDependencies:
@@ -7219,6 +7222,7 @@ packages:
       form-data-encoder: 1.7.2
       formdata-node: 4.4.1
       node-fetch: 2.7.0(encoding@0.1.13)
+      zod: 4.0.5
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -10311,3 +10315,7 @@ packages:
     resolution: {integrity: sha512-b4JR1PFR10y1mKjhHY9LaGo6tmrgjit7hxVIeAmyMw3jegXR4dhYqLaQF5zMXZxY7tLpMyJeLjr1C4rLmkVe8g==}
     engines: {node: '>=12.20'}
     dev: true
+
+  /zod@4.0.5:
+    resolution: {integrity: sha512-/5UuuRPStvHXu7RS+gmvRf4NXrNxpSllGwDnCBcJZtQsKrviYXm54yDGV2KYNLT5kq0lHGcl7lqWJLgSaG+tgA==}
+    dev: false

@@ -1,10 +1,17 @@
 // routes/admin/comments/+page.server.ts
 import { Actions, error, redirect, type } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
+import { logger } from '$lib/utils/logger';
+import { z } from 'zod';
 
 import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 import { getCommentParents } from '../../../utils/conversions';
+
+// Validation schemas
+const commentActionSchema = z.object({
+  commentId: z.string().uuid('Invalid comment ID format')
+});
 
 /**
  * Configuration constants
@@ -27,11 +34,17 @@ async function validateAdmin(session, demoTime) {
 		.single();
 
 	if (findUserError) {
-		console.error('Error finding user:', findUserError);
+		logger.error('Error finding user', findUserError, {
+			userId: session.user.id
+		});
 		throw error(404, { message: 'Error searching for user' });
 	}
 
 	if (!user?.admin) {
+		logger.warn('Non-admin access attempt to admin page', {
+			userId: session.user.id,
+			externalId: user?.external_id
+		});
 		throw redirect(307, '/questions');
 	}
 

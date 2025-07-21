@@ -11,6 +11,7 @@
 	import QuestionItemSkeleton from '$lib/components/questions/QuestionItemSkeleton.svelte';
 	import ErrorBoundary from '$lib/components/error/ErrorBoundary.svelte';
 	import AsyncErrorHandler from '$lib/components/error/AsyncErrorHandler.svelte';
+	import Spinner from '$lib/components/atoms/Spinner.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -297,7 +298,10 @@
 		class="categories-section"
 		in:fly={{ y: 20, duration, delay: 600 }}
 	>
-		<h2>Categories of Questions</h2>
+		<div class="categories-header">
+			<h2>Browse by Category</h2>
+			<span class="category-count">{displayedCategories.length} categories</span>
+		</div>
 		<div class="categories-container">
 			<button
 				class="category-pill"
@@ -385,8 +389,10 @@
 				class:loading={loadingMore}
 			>
 				{#if loadingMore}
-					<div class="loading-spinner" role="status" aria-label="Loading more questions">
-						<span class="visually-hidden">Loading more questions...</span>
+					<div class="flex justify-center py-8">
+						<Spinner size="md" color="primary">
+							Loading more questions...
+						</Spinner>
 					</div>
 				{/if}
 			</div>
@@ -483,75 +489,81 @@
 	}
 
 	.categories-section {
-		background-color: var(--lightest-gray);
-		border-radius: 0.5rem;
-		padding: 1rem 1.5rem;
-		margin-bottom: 2rem;
+		background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+		border-radius: 0.75rem;
+		padding: 1rem;
+		margin-bottom: 1.5rem;
 		border: 1px solid var(--border-color);
-		max-height: 200px;
-		overflow-y: auto;
-		scrollbar-width: thin;
-		scrollbar-color: var(--medium-gray) var(--lightest-gray);
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 	}
 	
-	.categories-section::-webkit-scrollbar {
-		width: 8px;
-	}
-	
-	.categories-section::-webkit-scrollbar-track {
-		background: var(--lightest-gray);
-		border-radius: 4px;
-	}
-	
-	.categories-section::-webkit-scrollbar-thumb {
-		background-color: var(--medium-gray);
-		border-radius: 4px;
-		border: 2px solid var(--lightest-gray);
-	}
-	
-	.categories-section::-webkit-scrollbar-thumb:hover {
-		background-color: var(--dark-gray);
+
+	.categories-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 0.75rem;
 	}
 
 	.categories-section h2 {
-		font-size: 1.125rem;
+		font-size: 1rem;
 		font-weight: 600;
-		margin-bottom: 0.75rem;
 		color: var(--text-primary);
-		position: sticky;
-		top: 0;
-		background-color: var(--lightest-gray);
-		padding-bottom: 0.5rem;
-		z-index: 1;
+		margin: 0;
+	}
+
+	.category-count {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
 	}
 
 	.categories-container {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.5rem;
-		padding: 0.25rem 0;
+		gap: 0.375rem;
+		max-height: 120px;
+		overflow-y: auto;
+		padding: 0.25rem;
+		scrollbar-width: thin;
+		scrollbar-color: var(--medium-gray) transparent;
+	}
+	
+	.categories-container::-webkit-scrollbar {
+		width: 6px;
+	}
+	
+	.categories-container::-webkit-scrollbar-track {
+		background: transparent;
+	}
+	
+	.categories-container::-webkit-scrollbar-thumb {
+		background-color: var(--medium-gray);
+		border-radius: 3px;
+	}
+	
+	.categories-container::-webkit-scrollbar-thumb:hover {
+		background-color: var(--dark-gray);
 	}
 
 	.category-pill {
 		flex-shrink: 0;
-		padding: 0.5rem 1rem;
-		border: 1px solid var(--border-color);
-		border-radius: 9999px;
+		padding: 0.375rem 0.875rem;
+		border: 1px solid #e2e8f0;
+		border-radius: 20px;
 		background-color: white;
 		color: var(--text-primary);
-		font-size: 0.875rem;
+		font-size: 0.8125rem;
 		font-weight: 500;
 		cursor: pointer;
-		transition: all 0.2s ease;
+		transition: all 0.15s ease;
 		white-space: nowrap;
-		scroll-snap-align: start;
+		line-height: 1.3;
 	}
 
 	.category-pill:hover:not(:disabled) {
-		background-color: var(--primary-light);
+		background-color: #f0f4ff;
 		border-color: var(--primary);
-		transform: translateY(-1px);
-		box-shadow: var(--shadow-sm);
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 	}
 
 	.category-pill:disabled {
@@ -568,7 +580,7 @@
 	.questions-section {
 		background-color: white;
 		border-radius: 0.5rem;
-		padding: 1.5rem;
+		padding: 1.25rem;
 		border: 1px solid var(--border-color);
 		min-height: 300px;
 	}
@@ -580,7 +592,7 @@
 	}
 
 	.category-group {
-		margin-bottom: 2.5rem;
+		margin-bottom: 1.5rem;
 	}
 
 	.category-group:last-child {
@@ -588,17 +600,19 @@
 	}
 
 	.category-title {
-		font-size: 1.125rem;
+		font-size: 1rem;
 		font-weight: 600;
-		margin-bottom: 1rem;
+		margin-bottom: 0.5rem;
 		color: var(--text-primary);
 		scroll-margin-top: 1rem;
+		padding: 0.25rem 0;
+		border-bottom: 1px solid #f0f0f0;
 	}
 
 	.questions-list {
 		display: flex;
 		flex-direction: column;
-		gap: 0.25rem;
+		gap: 0.375rem;
 	}
 
 	.no-questions {
@@ -701,8 +715,25 @@
 		}
 
 		.categories-section {
-			padding: 0.75rem 1rem;
-			max-height: 150px;
+			padding: 0.75rem;
+			margin-bottom: 1rem;
+		}
+		
+		.categories-header {
+			margin-bottom: 0.5rem;
+		}
+		
+		.categories-section h2 {
+			font-size: 0.9375rem;
+		}
+		
+		.category-count {
+			font-size: 0.6875rem;
+		}
+		
+		.categories-container {
+			max-height: 100px;
+			gap: 0.25rem;
 		}
 		
 		.questions-section,
@@ -710,8 +741,18 @@
 			padding: 1rem;
 		}
 
-		.categories-container {
-			padding: 0.25rem 0;
+		.category-pill {
+			padding: 0.3125rem 0.75rem;
+			font-size: 0.75rem;
+		}
+		
+		.category-title {
+			font-size: 0.9375rem;
+			margin-bottom: 0.375rem;
+		}
+		
+		.category-group {
+			margin-bottom: 1rem;
 		}
 
 		.cta-button {

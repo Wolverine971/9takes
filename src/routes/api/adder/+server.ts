@@ -1,12 +1,23 @@
 // routes/api/adder/+server.ts
 import { supabase } from '$lib/supabase';
 import { error, json } from '@sveltejs/kit';
+import { logger, withApiLogging } from '$lib/utils/logger';
+import { z } from 'zod';
+
+// Validation schema
+const visitorSchema = z.object({
+  fp: z.string().min(1).max(100)
+});
 
 /** @type {import('./$types').RequestHandler} */
-export async function POST({ request }) {
+export const POST = withApiLogging(async ({ request }) => {
 	try {
-		const body = Object.fromEntries(await request.formData());
-		const fingerprint = body.fp as string;
+		const formData = await request.formData();
+		const body = Object.fromEntries(formData);
+		
+		// Validate request body
+		const validatedData = visitorSchema.parse(body);
+		const fingerprint = validatedData.fp;
 
 		const { data: addedVisitor, error: addedVisitorsError } = await supabase
 			.from('visitors')
@@ -14,13 +25,30 @@ export async function POST({ request }) {
 			.select();
 
 		if (addedVisitorsError) {
-			console.log(addedVisitorsError);
+			logger.error('Failed to upsert visitor', addedVisitorsError, {
+				fingerprint
+			});
+			throw error(500, 'Failed to record visitor');
 		}
 
+		logger.info('Visitor recorded', { fingerprint });
 		return json(addedVisitor);
 	} catch (e) {
-		throw error(400, {
-			message: `encountered error`
+		if (e instanceof z.ZodError) {
+			logger.warn('Invalid visitor data', {
+				errors: e.errors
+			});
+			throw error(400, {
+				message: 'Invalid visitor data',
+				details: e.errors
+			});
+		}
+		if ((e as any).status) {
+			throw e; // Re-throw HTTP errors
+		}
+		logger.error('Error in POST /api/adder', e as Error);
+		throw error(500, {
+			message: 'Internal server error'
 		});
 	}
-}
+});

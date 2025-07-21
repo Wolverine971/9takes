@@ -8,6 +8,23 @@ import {
 } from '$env/static/private';
 import { v4 as uuidv4 } from 'uuid';
 import S3 from 'aws-sdk/clients/s3.js';
+import { logger } from '$lib/utils/logger';
+import { z } from 'zod';
+
+// Validation schemas
+const getUrlSchema = z.object({
+  question: z.string().min(10).max(500).trim()
+});
+
+const createQuestionSchema = z.object({
+  question: z.string().min(10).max(500).trim(),
+  author_id: z.string().uuid(),
+  context: z.string().max(2000).optional().default(''),
+  url: z.string().min(1).max(200),
+  img_url: z.string().refine((val) => val.startsWith('data:image/'), {
+    message: 'Invalid image format'
+  })
+});
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -36,14 +53,17 @@ export const actions: Actions = {
 			const session = locals.session;
 
 			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
+				logger.warn('Unauthorized URL generation attempt');
+				throw error(401, 'Unauthorized');
 			}
 
 			const demo_time = await checkDemoTime();
+			const formData = await request.formData();
+			const body = Object.fromEntries(formData);
 
-			const body = Object.fromEntries(await request.formData());
-
-			const question = body.question as string;
+			// Validate input
+			const validatedData = getUrlSchema.parse(body);
+			const question = validatedData.question;
 			const tempUrl = getUrlString(question);
 
 			if (demo_time === true) {
@@ -67,9 +87,18 @@ export const actions: Actions = {
 			// 	res.json({ url: tempUrl });
 			// }
 			// console.log(tempUrl);
-			// return tempUrl;
 		} catch (e) {
-			console.log(e);
+			if (e instanceof z.ZodError) {
+				logger.warn('Invalid URL generation data', {
+					errors: e.errors
+				});
+				throw error(400, {
+					message: 'Invalid question format',
+					details: e.errors
+				});
+			}
+			logger.error('Error generating URL', e as Error);
+			throw error(500, 'Failed to generate URL');
 		}
 	},
 	createQuestion: async (event) => {
@@ -111,7 +140,7 @@ export const actions: Actions = {
 				});
 			}
 
-			// Convert FormData to object with validation
+			// Convert FormData to object
 			const body: Record<string, string> = {};
 			for (const [key, value] of formData.entries()) {
 				if (typeof value !== 'string') {
@@ -122,24 +151,9 @@ export const actions: Actions = {
 				body[key] = value;
 			}
 
-			// Validate required fields
-			const requiredFields = ['question', 'author_id', 'url', 'img_url'];
-			for (const field of requiredFields) {
-				if (!body[field]) {
-					throw error(400, {
-						message: `Missing required field: ${field}`
-					});
-				}
-			}
-
-			const { question, author_id, context, url, img_url } = body;
-
-			// Validate image data
-			if (!img_url.startsWith('data:image/')) {
-				throw error(400, {
-					message: 'Invalid image format'
-				});
-			}
+			// Validate all fields with Zod
+			const validatedData = createQuestionSchema.parse(body);
+			const { question, author_id, context, url, img_url } = validatedData;
 
 			const Key = uuidv4();
 
@@ -171,8 +185,17 @@ export const actions: Actions = {
 						ACL: 'public-read'
 					})
 					.promise();
+				
+				logger.info('Image uploaded to S3', {
+					Key,
+					userId: session.user.id
+				});
 			} catch (err) {
-				console.error('S3 upload error:', err);
+				logger.error('S3 upload error', err as Error, {
+					Key,
+					userId: session.user.id
+				});
+				// Continue without image if S3 fails
 			}
 
 			// Check user permissions
@@ -203,7 +226,10 @@ export const actions: Actions = {
 						esId = resp._id;
 					}
 				} catch (err) {
-					console.error('ElasticSearch error:', err);
+					logger.error('ElasticSearch error', err as Error, {
+						question,
+						url
+					});
 					// Continue without ES if it fails
 				}
 			}
@@ -231,14 +257,31 @@ export const actions: Actions = {
 
 			if (insertedQuestion?.length) {
 				await tagQuestion(question, insertedQuestion[0].id);
+				logger.info('Question created successfully', {
+					questionId: insertedQuestion[0].id,
+					url,
+					userId: session.user.id
+				});
 				return mapDemoValues(insertedQuestion);
 			}
 
 			return { success: true };
 		} catch (e) {
-			console.error('Create question error:', e);
+			if (e instanceof z.ZodError) {
+				logger.warn('Invalid question data', {
+					errors: e.errors
+				});
+				throw error(400, {
+					message: 'Invalid question data',
+					details: e.errors
+				});
+			}
+			if ((e as any).status) {
+				throw e; // Re-throw HTTP errors
+			}
+			logger.error('Create question error', e as Error);
 			throw error(500, {
-				message: e.message || 'Internal server error'
+				message: 'Failed to create question'
 			});
 		}
 	}
