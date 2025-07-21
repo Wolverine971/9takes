@@ -1,8 +1,6 @@
 // hooks.server.ts
 import { createServerClient } from '@supabase/ssr';
-
-import { PUBLIC_SUPABASE_ANON_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
-
+import { PUBLIC_SUPABASE_PUBLISHABLE_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
 
 import type { Handle } from '@sveltejs/kit';
 
@@ -13,7 +11,7 @@ import type { Handle } from '@sveltejs/kit';
 // import { tagQuestions } from './utils/openai';
 
 export const handle: Handle = async ({ event, resolve }) => {
-	event.locals.supabase = createServerClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, {
+	event.locals.supabase = createServerClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_PUBLISHABLE_KEY, {
 		cookies: {
 			get: (key) => event.cookies.get(key),
 			set: (key, value, options) => {
@@ -55,7 +53,6 @@ export const handle: Handle = async ({ event, resolve }) => {
 	event.locals.user = user;
 
 	// const job = schedule.scheduleJob('*/1 * * * *', async function () {
-	// 	console.log('This runs every minute');
 	// 	await tagQuestions();
 	// });
 
