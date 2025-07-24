@@ -752,18 +752,6 @@ If you found this helpful, explore our deeper guides on [navigating early relati
   },
   "datePublished": "2025-02-25",
   "dateModified": "2025-02-25",
-  "keywords": [
-    "Enneagram dating",
-    "personality compatibility",
-    "first date tips",
-    "dating psychology",
-    "relationship advice",
-    "Enneagram types",
-    "dating preferences",
-    "dating green flags",
-    "dating red flags",
-    "personality-based dating"
-  ],
   "isAccessibleForFree": "True",
   "articleSection": "Relationships",
   "wordCount": "4500",
