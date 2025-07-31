@@ -305,3 +305,276 @@ This optimism grounded in practical possibility represents the integrated Type 6
 Whatever history's verdict on specific policies, Reagan's distinctly Loyalist contribution to American leadership deserves recognition and understanding. In a world increasingly defined by uncertainty, the Loyalist's path—with all its complexities and challenges—offers essential insights worthy of our attention.
 
 > **Disclaimer** This analysis of Ronald Reagan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of President Reagan.
+
+
+<svelte:head>
+
+<script type="application/ld+json">
+{
+  "@graph": [
+    {
+      "@type": "Article",
+      "about": [
+        {
+          "name": "Enneagram Type 6",
+          "@type": "Thing",
+          "description": "The Loyalist personality type characterized by security-seeking, vigilance, and commitment to building stable structures"
+        },
+        {
+          "name": "Ronald Reagan",
+          "@type": "Person",
+          "description": "40th President of the United States, former actor and Governor of California who reshaped American conservatism and Cold War politics"
+        }
+      ],
+      "image": {
+        "url": "https://9takes.com/types/6s/Ronald-Reagan.webp",
+        "@type": "ImageObject",
+        "width": 900,
+        "height": 900
+      },
+      "author": {
+        "name": "DJ Wayne",
+        "@type": "Person",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "creator": {
+        "name": "DJ Wayne",
+        "@type": "Person",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "headline": "Ronald Reagan's Type 6 Mind: The Loyalist's Quest for American Security",
+      "keywords": "Ronald Reagan, Enneagram Type 6, The Loyalist, presidency, Cold War, conservatism, security, leadership, communication, Soviet Union, Nancy Reagan, GE years, Iran-Contra, assassination attempt, Berlin Wall, Alzheimer's, Type 6 psychology, political transformation, Morning in America, trust but verify",
+      "mentions": [
+        {
+          "name": "Ronald Reagan",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Ronald_Reagan",
+            "https://www.reaganlibrary.gov/"
+          ]
+        },
+        {
+          "name": "Nancy Reagan",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Nancy_Reagan"
+          ]
+        },
+        {
+          "name": "Mikhail Gorbachev",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
+          ]
+        },
+        {
+          "name": "General Electric",
+          "@type": "Organization",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/General_Electric"
+          ]
+        },
+        {
+          "name": "PATCO Strike",
+          "@type": "Event",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Professional_Air_Traffic_Controllers_Organization_(1968)#August_1981_strike"
+          ],
+          "description": "1981 strike by the Professional Air Traffic Controllers Organization, resulting in Reagan firing over 11,000 federal employees",
+          "location": {
+            "@type": "Place",
+            "name": "United States",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "US"
+            }
+          },
+          "startDate": "1981-08-03",
+          "endDate": "1981-08-05",
+          "eventStatus": "https://schema.org/EventCompleted",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "organizer": {
+            "@type": "Organization",
+            "name": "Professional Air Traffic Controllers Organization"
+          },
+          "performer": [
+            {
+              "@type": "Person",
+              "name": "Ronald Reagan"
+            },
+            {
+              "@type": "Organization",
+              "name": "PATCO"
+            }
+          ]
+        },
+        {
+          "name": "Iran-Contra Affair",
+          "@type": "Event",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair"
+          ],
+          "description": "Political scandal involving arms sales to Iran and funding of Contra rebels in Nicaragua",
+          "location": {
+            "@type": "Place",
+            "name": "Washington, D.C.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Washington",
+              "addressRegion": "DC",
+              "addressCountry": "US"
+            }
+          },
+          "startDate": "1985-08-01",
+          "endDate": "1987-03-04",
+          "eventStatus": "https://schema.org/EventCompleted",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "organizer": {
+            "@type": "Organization",
+            "name": "Reagan Administration"
+          },
+          "performer": [
+            {
+              "@type": "Person",
+              "name": "Ronald Reagan"
+            },
+            {
+              "@type": "Person",
+              "name": "Oliver North"
+            }
+          ]
+        }
+      ],
+      "publisher": {
+        "logo": {
+          "url": "https://9takes.com/brand/darkRubix.png",
+          "@type": "ImageObject"
+        },
+        "name": "9takes",
+        "@type": "Organization",
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "articleBody": "This article examines Ronald Reagan through the lens of Enneagram Type 6. Known as 'The Loyalist,' Reagan's journey from Hollywood actor to transformative president reveals a personality driven by a profound search for security and stable foundations. The article analyzes how his Type 6 traits shaped his political evolution, leadership style, response to crises, relationships with trusted allies, communication approach, and enduring legacy as a leader who transformed anxiety into action and uncertainty into clarity.",
+      "description": "Explore Ronald Reagan's Type 6 personality, examining how his Loyalist traits shaped his evolution from actor to president. This analysis reveals how his quest for security drove his political transformation, leadership approach, and communication style, ultimately creating a legacy of strength through stability.",
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2025-04-10"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2025-04-10"
+      },
+      "contentLocation": {
+        "name": "United States",
+        "@type": "Place",
+        "description": "Focus on Ronald Reagan's American presidency and political career"
+      },
+      "locationCreated": {
+        "name": "United States",
+        "@type": "Place"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/personality-analysis/Ronald-Reagan",
+        "@type": "WebPage"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "name": "Why is Ronald Reagan considered an Enneagram Type 6?",
+          "@type": "Question",
+          "acceptedAnswer": {
+            "text": "Ronald Reagan exhibited classic Type 6 traits including his profound search for security, vigilance toward potential threats, commitment to building stable structures, and paradoxical relationship with authority—simultaneously questioning systems while working to build more perfect ones. His famous quote 'Freedom is never more than one generation away from extinction' reveals the Type 6's characteristic vigilance and awareness that security must be actively maintained through constant attention.",
+            "@type": "Answer"
+          }
+        },
+        {
+          "name": "How did Ronald Reagan transform from a New Deal Democrat to a conservative icon?",
+          "@type": "Question",
+          "acceptedAnswer": {
+            "text": "Reagan's political evolution from New Deal Democrat to conservative Republican leader illustrates the Type 6's complex relationship with authority and ideology. As Reagan explained, 'I didn't leave the Democratic Party. The party left me.' This transformation reflects the Loyalist's journey toward increasingly secure foundations when a trusted system appears to change its fundamental nature, creating the need to find new structures that better align with core values.",
+            "@type": "Answer"
+          }
+        },
+        {
+          "name": "How did Reagan's Type 6 personality shape his approach to the Cold War?",
+          "@type": "Question",
+          "acceptedAnswer": {
+            "text": "Reagan's approach to the Soviet Union revealed the Loyalist's characteristic blend of vigilance and hope. His military buildup, rhetorical clarity about the 'evil empire,' and development of missile defense technology reflected the Type 6's awareness of threats. Simultaneously, his persistent diplomacy once sufficient strength was established showed the healthy Type 6's understanding that true security comes through transforming adversarial relationships, perfectly captured in his phrase 'Trust, but verify.'",
+            "@type": "Answer"
+          }
+        },
+        {
+          "name": "What does the Iran-Contra affair reveal about Reagan's Type 6 blind spots?",
+          "@type": "Question",
+          "acceptedAnswer": {
+            "text": "The Iran-Contra affair illustrated a potential blind spot in the Type 6 personality—the tendency to place excessive trust in those perceived as aligned with core values and missions. Reagan's delegation of significant authority to trusted advisors who operated outside legal boundaries reflected the Loyalist's inclination to create trusted inner circles, revealing how loyalty itself can sometimes undermine the very security it seeks to protect.",
+            "@type": "Answer"
+          }
+        },
+        {
+          "name": "How did Nancy Reagan support Ronald Reagan's Type 6 personality?",
+          "@type": "Question",
+          "acceptedAnswer": {
+            "text": "Reagan's relationship with Nancy provided the secure base from which he could navigate the complexities of leadership. Their partnership exemplified the Loyalist's need for trusted allies, with Nancy's protective instincts complementing Reagan's Type 6 vigilance. As Reagan wrote to Nancy, 'There would be no life without you, nor would I want one,' illustrating the Loyalist's understanding that security isn't found in isolation but in deep connection with trusted others.",
+            "@type": "Answer"
+          }
+        },
+        {
+          "name": "How did Reagan's communication style reflect his Type 6 personality?",
+          "@type": "Question",
+          "acceptedAnswer": {
+            "text": "Reagan's remarkable talent for storytelling and accessible analogies reflected the Type 6's natural tendency to create narrative frameworks that provide clarity amid confusion. His economic illustrations using household budgets and grocery store analogies weren't merely political technique but orientation tools that made abstract challenges concrete and navigable. This approach revealed the Loyalist's belief that security comes through shared understanding—a common framework that allows collective navigation of challenges.",
+            "@type": "Answer"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "item": "https://9takes.com/",
+          "name": "Home",
+          "@type": "ListItem",
+          "position": 1
+        },
+        {
+          "item": "https://9takes.com/personality-analysis/",
+          "name": "Personality Analysis",
+          "@type": "ListItem",
+          "position": 2
+        },
+        {
+          "item": "https://9takes.com/personality-analysis/type/6",
+          "name": "Enneagram Type 6",
+          "@type": "ListItem",
+          "position": 3
+        },
+        {
+          "item": "https://9takes.com/personality-analysis/Ronald-Reagan",
+          "name": "Ronald Reagan's Type 6 Mind: The Loyalist's Quest for American Security",
+          "@type": "ListItem",
+          "position": 4
+        }
+      ]
+    }
+  ],
+  "@context": "http://schema.org"
+}
+</script>
+</svelte:head>

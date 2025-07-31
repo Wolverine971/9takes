@@ -120,21 +120,420 @@ What other visionary leaders might share this same Type 4 psychology of creating
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article explores the psychology of Sam Altman through the lens of Enneagram Type 4. Known for his introspective leadership and unique vision in AI, Altman embodies many characteristics of The Individualist. The article examines how his Type 4 traits manifest in his thoughtful communication style, his integration to Type 1 for organizational effectiveness, his creation of unprecedented structures like OpenAI, his emotional depth regarding AI's implications, and his leadership through vision and meaning rather than conventional authority.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
+      "about": [
+        {
+          "name": "Enneagram Type 4",
+          "@type": "Thing",
+          "description": "The Individualist personality type characterized by the search for identity, authenticity, emotional depth, and unique contribution"
+        },
+        {
+          "name": "Sam Altman",
+          "@type": "Person",
+          "description": "American entrepreneur and CEO of OpenAI, known for leadership in artificial intelligence and startup ecosystems"
+        },
+        {
+          "name": "Leadership Psychology",
+          "@type": "Thing",
+          "description": "The study of psychological factors that influence leadership styles and organizational success"
+        },
+        {
+          "name": "Tech Entrepreneurship",
+          "@type": "Thing",
+          "description": "The field of starting and scaling technology-based companies and innovations"
+        }
+      ],
+      "image": {
+        "url": "https://9takes.com/types/4s/Sam-Altman.webp",
+        "@type": "ImageObject",
+        "width": 900,
+        "height": 900
       },
       "author": {
-        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
+        "@type": "Person",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
       },
+      "creator": {
+        "name": "DJ Wayne",
+        "@type": "Person",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "headline": "Sam Altman: OpenAI Revolution & The Type 4 Psychology of His Visionary Leadership",
+      "keywords": "Sam Altman, Enneagram Type 4, OpenAI CEO, Y Combinator president, Type 4 individualist, AI leadership, visionary thinking, artificial intelligence, AGI development, tech entrepreneur, individualist psychology, introspective leadership, unique vision, emotional depth, Silicon Valley, ChatGPT, GPT-4, Oppenheimer comparison, AI ethics, celebrity psychology, personality psychology, leadership psychology, tech innovation, meaning-driven leadership",
+      "mentions": [
+        {
+          "name": "Sam Altman",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Sam_Altman",
+            "https://twitter.com/sama",
+            "https://blog.samaltman.com/"
+          ]
+        },
+        {
+          "name": "OpenAI",
+          "@type": "Organization",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/OpenAI",
+            "https://openai.com/"
+          ]
+        },
+        {
+          "name": "Y Combinator",
+          "@type": "Organization",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Y_Combinator",
+            "https://www.ycombinator.com/"
+          ]
+        },
+        {
+          "name": "Loopt",
+          "@type": "Organization",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Loopt"
+          ]
+        },
+        {
+          "name": "Elon Musk",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Elon_Musk"
+          ]
+        },
+        {
+          "name": "Ilya Sutskever",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Ilya_Sutskever"
+          ]
+        },
+        {
+          "name": "Greg Brockman",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Greg_Brockman"
+          ]
+        },
+        {
+          "name": "Reid Hoffman",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Reid_Hoffman"
+          ]
+        },
+        {
+          "name": "Robert Oppenheimer",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"
+          ]
+        },
+        {
+          "name": "Peter Thiel",
+          "@type": "Person",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Peter_Thiel"
+          ]
+        },
+        {
+          "name": "Stanford University",
+          "@type": "EducationalOrganization",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Stanford_University"
+          ]
+        },
+        {
+          "name": "Microsoft",
+          "@type": "Organization",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Microsoft"
+          ]
+        },
+        {
+          "name": "Google",
+          "@type": "Organization",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Google"
+          ]
+        },
+        {
+          "name": "Helion Energy",
+          "@type": "Organization",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Helion_Energy"
+          ]
+        },
+        {
+          "name": "GPT-4",
+          "@type": "Product",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/GPT-4"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "OpenAI"
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "USD",
+            "lowPrice": "20",
+            "highPrice": "200",
+            "offerCount": "3",
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "ChatGPT Plus",
+                "price": "20",
+                "priceCurrency": "USD",
+                "url": "https://chat.openai.com/"
+              },
+              {
+                "@type": "Offer",
+                "name": "ChatGPT Team",
+                "price": "30",
+                "priceCurrency": "USD",
+                "url": "https://openai.com/chatgpt/team"
+              },
+              {
+                "@type": "Offer",
+                "name": "API Access",
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": "0.03",
+                  "priceCurrency": "USD",
+                  "unitText": "per 1K tokens"
+                },
+                "url": "https://platform.openai.com/"
+              }
+            ]
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "10000"
+          }
+        },
+        {
+          "name": "ChatGPT",
+          "@type": "Product",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/ChatGPT"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "OpenAI"
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "USD",
+            "lowPrice": "0",
+            "highPrice": "200",
+            "offerCount": "4",
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "ChatGPT Free",
+                "price": "0",
+                "priceCurrency": "USD",
+                "url": "https://chat.openai.com/"
+              },
+              {
+                "@type": "Offer",
+                "name": "ChatGPT Plus",
+                "price": "20",
+                "priceCurrency": "USD",
+                "url": "https://chat.openai.com/"
+              },
+              {
+                "@type": "Offer",
+                "name": "ChatGPT Team",
+                "price": "30",
+                "priceCurrency": "USD",
+                "url": "https://openai.com/chatgpt/team"
+              },
+              {
+                "@type": "Offer",
+                "name": "ChatGPT Enterprise",
+                "priceSpecification": {
+                  "@type": "PriceSpecification",
+                  "price": "Contact for pricing"
+                },
+                "url": "https://openai.com/chatgpt/enterprise"
+              }
+            ]
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "50000"
+          }
+        },
+        {
+          "name": "Bard",
+          "@type": "Product",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Bard_(chatbot)"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Google"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": "https://bard.google.com/",
+            "description": "Free AI chatbot service by Google"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.2",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "15000"
+          }
+        },
+        {
+          "name": "Y Combinator Demo Day",
+          "@type": "Event",
+          "description": "Biannual event where Y Combinator startups present to investors. Occurs four times per year with each batch of startups.",
+          "location": {
+            "@type": "Place",
+            "name": "Mountain View, California",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Mountain View",
+              "addressRegion": "CA",
+              "addressCountry": "US"
+            }
+          },
+          "startDate": "2006-03-01",
+          "endDate": "2025-12-31",no 
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+          "organizer": {
+            "@type": "Organization",
+            "name": "Y Combinator",
+            "url": "https://www.ycombinator.com/"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.ycombinator.com/demoday/",
+            "description": "Attendance is by invitation only for investors and alumni"
+          },
+          "sameAs": [
+            "https://www.ycombinator.com/demoday/"
+          ]
+        },
+        {
+          "name": "Manhattan Project",
+          "@type": "Event",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Manhattan_Project"
+          ],
+          "description": "U.S. government research project that produced the first atomic bombs during World War II",
+          "location": {
+            "@type": "Place",
+            "name": "Multiple locations across United States",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "US"
+            }
+          },
+          "startDate": "1942-09-01",
+          "endDate": "1946-08-01",
+          "eventStatus": "https://schema.org/EventCompleted",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "organizer": {
+            "@type": "Organization",
+            "name": "United States Army Corps of Engineers"
+          }
+        },
+        {
+          "name": "OpenAI Board Crisis",
+          "@type": "Event",
+          "description": "November 2023 event where Sam Altman was briefly removed and reinstated as OpenAI CEO",
+          "location": {
+            "@type": "Place",
+            "name": "San Francisco, California",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "San Francisco",
+              "addressRegion": "CA",
+              "addressCountry": "US"
+            }
+          },
+          "startDate": "2023-11-17",
+          "endDate": "2023-11-22",
+          "eventStatus": "https://schema.org/EventCompleted",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "organizer": {
+            "@type": "Organization",
+            "name": "OpenAI",
+            "url": "https://openai.com/"
+          },
+          "performer": [
+            {
+              "@type": "Person",
+              "name": "Sam Altman",
+              "sameAs": "https://en.wikipedia.org/wiki/Sam_Altman"
+            },
+            {
+              "@type": "Organization",
+              "name": "OpenAI Board of Directors"
+            }
+          ]
+        },
+        {
+          "name": "Artificial General Intelligence",
+          "@type": "Thing",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+          ]
+        },
+        {
+          "name": "AI Safety",
+          "@type": "Thing",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/AI_safety"
+          ]
+        }
+      ],
+      "publisher": {
+        "logo": {
+          "url": "https://9takes.com/brand/darkRubix.png",
+          "@type": "ImageObject"
+        },
+        "name": "9takes",
+        "@type": "Organization",
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "articleBody": "This article explores the psychology of Sam Altman through the lens of Enneagram Type 4. Known for his introspective leadership and unique vision in AI, Altman embodies many characteristics of The Individualist. The article examines how his Type 4 traits manifest in his thoughtful communication style, his integration to Type 1 for organizational effectiveness, his creation of unprecedented structures like OpenAI, his emotional depth regarding AI's implications, and his leadership through vision and meaning rather than conventional authority.",
+      "description": "Explore Altman's Type 4 inner world. How does his unique perspective fuel AI ethics and startup ecosystems?",
       "dateModified": {
         "@type": "Date",
         "@value": "2025-06-25"
@@ -143,229 +542,86 @@ What other visionary leaders might share this same Type 4 psychology of creating
         "@type": "Date",
         "@value": "2025-06-25"
       },
-      "description": "Explore Altman's Type 4 inner world. How does his unique perspective fuel AI ethics and startup ecosystems?",
-      "headline": "Sam Altman: OpenAI Revolution & The Type 4 Psychology of His Visionary Leadership",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/types/4s/Sam-Altman.webp",
-        "width": 900
+      "contentLocation": {
+        "name": "San Francisco, California, United States",
+        "@type": "Place",
+        "description": "Focus on Sam Altman's Silicon Valley tech leadership and AI innovation"
+      },
+      "locationCreated": {
+        "name": "United States",
+        "@type": "Place"
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/personality-analysis/Sam-Altman",
         "@type": "WebPage"
-      },
-      "mentions": [
-        {
-          "@type": "Person",
-          "name": "Sam Altman",
-          "sameAs": ["https://en.wikipedia.org/wiki/Sam_Altman", "https://twitter.com/sama", "https://blog.samaltman.com/"]
-        },
-        {
-          "@type": "Organization",
-          "name": "OpenAI",
-          "sameAs": ["https://en.wikipedia.org/wiki/OpenAI", "https://openai.com/"]
-        },
-        {
-          "@type": "Organization",
-          "name": "Y Combinator",
-          "sameAs": ["https://en.wikipedia.org/wiki/Y_Combinator", "https://www.ycombinator.com/"]
-        },
-        {
-          "@type": "Organization",
-          "name": "Loopt",
-          "sameAs": ["https://en.wikipedia.org/wiki/Loopt"]
-        },
-        {
-          "@type": "Person",
-          "name": "Elon Musk",
-          "sameAs": ["https://en.wikipedia.org/wiki/Elon_Musk"]
-        },
-        {
-          "@type": "Person",
-          "name": "Ilya Sutskever",
-          "sameAs": ["https://en.wikipedia.org/wiki/Ilya_Sutskever"]
-        },
-        {
-          "@type": "Person",
-          "name": "Greg Brockman",
-          "sameAs": ["https://en.wikipedia.org/wiki/Greg_Brockman"]
-        },
-        {
-          "@type": "Person",
-          "name": "Reid Hoffman",
-          "sameAs": ["https://en.wikipedia.org/wiki/Reid_Hoffman"]
-        },
-        {
-          "@type": "Person",
-          "name": "Robert Oppenheimer",
-          "sameAs": ["https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"]
-        },
-        {
-          "@type": "Person",
-          "name": "Peter Thiel",
-          "sameAs": ["https://en.wikipedia.org/wiki/Peter_Thiel"]
-        },
-        {
-          "@type": "EducationalOrganization",
-          "name": "Stanford University",
-          "sameAs": ["https://en.wikipedia.org/wiki/Stanford_University"]
-        },
-        {
-          "@type": "Organization",
-          "name": "Microsoft",
-          "sameAs": ["https://en.wikipedia.org/wiki/Microsoft"]
-        },
-        {
-          "@type": "Organization",
-          "name": "Google",
-          "sameAs": ["https://en.wikipedia.org/wiki/Google"]
-        },
-        {
-          "@type": "Organization",
-          "name": "Helion Energy",
-          "sameAs": ["https://en.wikipedia.org/wiki/Helion_Energy"]
-        },
-        {
-          "@type": "Product",
-          "name": "GPT-4",
-          "sameAs": ["https://en.wikipedia.org/wiki/GPT-4"]
-        },
-        {
-          "@type": "Product",
-          "name": "ChatGPT",
-          "sameAs": ["https://en.wikipedia.org/wiki/ChatGPT"]
-        },
-        {
-          "@type": "Product",
-          "name": "Bard",
-          "sameAs": ["https://en.wikipedia.org/wiki/Bard_(chatbot)"]
-        },
-        {
-          "@type": "Event",
-          "name": "Y Combinator Demo Day",
-          "description": "Biannual event where Y Combinator startups present to investors"
-        },
-        {
-          "@type": "Event",
-          "name": "Manhattan Project",
-          "sameAs": ["https://en.wikipedia.org/wiki/Manhattan_Project"]
-        },
-        {
-          "@type": "Event",
-          "name": "OpenAI Board Crisis",
-          "description": "November 2023 event where Sam Altman was briefly removed and reinstated as OpenAI CEO"
-        },
-        {
-          "@type": "Thing",
-          "name": "Artificial General Intelligence",
-          "sameAs": ["https://en.wikipedia.org/wiki/Artificial_general_intelligence"]
-        },
-        {
-          "@type": "Thing",
-          "name": "AI Safety",
-          "sameAs": ["https://en.wikipedia.org/wiki/AI_safety"]
-        }
-      ],
-      "keywords": "Sam Altman, Enneagram Type 4, OpenAI CEO, Y Combinator president, Type 4 individualist, AI leadership, visionary thinking, artificial intelligence, AGI development, tech entrepreneur, individualist psychology, introspective leadership, unique vision, emotional depth, Silicon Valley, ChatGPT, GPT-4, Oppenheimer comparison, AI ethics, celebrity psychology, personality psychology, leadership psychology, tech innovation, meaning-driven leadership",
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Enneagram Type 4",
-          "description": "The Individualist personality type characterized by the search for identity, authenticity, emotional depth, and unique contribution"
-        },
-        {
-          "@type": "Person",
-          "name": "Sam Altman",
-          "description": "American entrepreneur and CEO of OpenAI, known for leadership in artificial intelligence and startup ecosystems"
-        },
-        {
-          "@type": "Thing",
-          "name": "Leadership Psychology",
-          "description": "The study of psychological factors that influence leadership styles and organizational success"
-        },
-        {
-          "@type": "Thing",
-          "name": "Tech Entrepreneurship",
-          "description": "The field of starting and scaling technology-based companies and innovations"
-        }
-      ]
+      }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
         {
+          "name": "Why is Sam Altman considered an Enneagram Type 4?",
           "@type": "Question",
           "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sam Altman exhibits many characteristics of an Enneagram Type 4, including his introspective and thoughtful communication style, his focus on creating unique and unprecedented solutions (OpenAI's capped-profit structure), his emotional depth when discussing AI's implications, his leadership through vision and meaning rather than authority, and his ability to inspire others through significance rather than just success. His wrestling with AI's ethical implications mirrors Oppenheimer's complexity with atomic weapons."
-          },
-          "name": "Why is Sam Altman considered an Enneagram Type 4?"
+            "text": "Sam Altman exhibits many characteristics of an Enneagram Type 4, including his introspective and thoughtful communication style, his focus on creating unique and unprecedented solutions (OpenAI's capped-profit structure), his emotional depth when discussing AI's implications, his leadership through vision and meaning rather than authority, and his ability to inspire others through significance rather than just success. His wrestling with AI's ethical implications mirrors Oppenheimer's complexity with atomic weapons.",
+            "@type": "Answer"
+          }
         },
         {
+          "name": "What are examples of Sam Altman's Type 4 characteristics?",
           "@type": "Question",
           "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Altman's Type 4 traits include his soft-spoken, reflective communication style, his creation of unprecedented organizational structures (OpenAI's unique model), his focus on significance over conventional success, his emotional complexity when discussing AI safety ('I lose sleep thinking about AI safety'), his integration to Type 1 for organizational effectiveness, and his leadership through inspiring vision rather than charisma or authority."
-          },
-          "name": "What are examples of Sam Altman's Type 4 characteristics?"
+            "text": "Altman's Type 4 traits include his soft-spoken, reflective communication style, his creation of unprecedented organizational structures (OpenAI's unique model), his focus on significance over conventional success, his emotional complexity when discussing AI safety ('I lose sleep thinking about AI safety'), his integration to Type 1 for organizational effectiveness, and his leadership through inspiring vision rather than charisma or authority.",
+            "@type": "Answer"
+          }
         },
         {
+          "name": "How does Sam Altman's Type 4 integration to Type 1 drive his achievements?",
           "@type": "Question",
           "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Type 4s become highly effective when they integrate to Type 1, gaining organization and systematic thinking. Altman's achievements - scaling Y Combinator, building OpenAI, managing multiple ventures - reflect this integration. He's said 'I try to be very systematic about how I think about problems,' showing Type 1's methodical approach serving Type 4's vision for unique, meaningful contributions."
-          },
-          "name": "How does Sam Altman's Type 4 integration to Type 1 drive his achievements?"
+            "text": "Type 4s become highly effective when they integrate to Type 1, gaining organization and systematic thinking. Altman's achievements - scaling Y Combinator, building OpenAI, managing multiple ventures - reflect this integration. He's said 'I try to be very systematic about how I think about problems,' showing Type 1's methodical approach serving Type 4's vision for unique, meaningful contributions.",
+            "@type": "Answer"
+          }
         },
         {
+          "name": "What is Sam Altman's Enneagram type?",
           "@type": "Question",
           "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sam Altman is most commonly typed as an Enneagram Type 4, 'The Individualist.' This type is characterized by the search for authentic identity, emotional depth, creative vision, and a drive to make unique, meaningful contributions that others cannot replicate."
-          },
-          "name": "What is Sam Altman's Enneagram type?"
+            "text": "Sam Altman is most commonly typed as an Enneagram Type 4, 'The Individualist.' This type is characterized by the search for authentic identity, emotional depth, creative vision, and a drive to make unique, meaningful contributions that others cannot replicate.",
+            "@type": "Answer"
+          }
         },
         {
+          "name": "How does Sam Altman's Type 4 psychology shape his leadership style?",
           "@type": "Question",
           "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Altman leads through vision and emotional intelligence rather than charisma or authority. He's said 'I try to hire people who are better than me at most things,' showing Type 4 authentic humility. His communication emphasizes meaning: 'We're working on something that could be the most important thing humans ever do.' He motivates through significance rather than just incentives."
-          },
-          "name": "How does Sam Altman's Type 4 psychology shape his leadership style?"
+            "text": "Altman leads through vision and emotional intelligence rather than charisma or authority. He's said 'I try to hire people who are better than me at most things,' showing Type 4 authentic humility. His communication emphasizes meaning: 'We're working on something that could be the most important thing humans ever do.' He motivates through significance rather than just incentives.",
+            "@type": "Answer"
+          }
         },
         {
+          "name": "How does Sam Altman's emotional depth reflect Type 4 psychology?",
           "@type": "Question",
           "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Like Oppenheimer wrestling with atomic weapons, Altman grapples with AI's implications with Type 4 emotional complexity. He's said 'I lose sleep thinking about AI safety' and 'We're not just building technology; we're potentially creating something that could change what it means to be human.' This depth reflects Type 4's natural inclination toward meaning-making and existential responsibility."
-          },
-          "name": "How does Sam Altman's emotional depth reflect Type 4 psychology?"
+            "text": "Like Oppenheimer wrestling with atomic weapons, Altman grapples with AI's implications with Type 4 emotional complexity. He's said 'I lose sleep thinking about AI safety' and 'We're not just building technology; we're potentially creating something that could change what it means to be human.' This depth reflects Type 4's natural inclination toward meaning-making and existential responsibility.",
+            "@type": "Answer"
+          }
         },
         {
+          "name": "What does Sam Altman's unique vision reveal about Type 4 psychology?",
           "@type": "Question",
           "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Type 4s are compelled to create something entirely new and significant. OpenAI's 'capped-profit' structure reflects pure Type 4 thinking - unprecedented, complex, designed for significance over profit. Altman said 'We needed a structure that didn't exist,' revealing the Type 4's comfort with creating entirely new frameworks. His AGI focus serves meaningful transition rather than just better technology."
-          },
-          "name": "What does Sam Altman's unique vision reveal about Type 4 psychology?"
+            "text": "Type 4s are compelled to create something entirely new and significant. OpenAI's 'capped-profit' structure reflects pure Type 4 thinking - unprecedented, complex, designed for significance over profit. Altman said 'We needed a structure that didn't exist,' revealing the Type 4's comfort with creating entirely new frameworks. His AGI focus serves meaningful transition rather than just better technology.",
+            "@type": "Answer"
+          }
         },
         {
+          "name": "How does Sam Altman handle criticism as a Type 4?",
           "@type": "Question",
           "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "When criticized, Altman responds with Type 4 depth rather than defensiveness. He's said 'I understand the fears about AI. I share many of them,' showing willingness to engage with emotional concerns. His response to the board crisis was thoughtful reflection: 'I learned a lot about governance and communication.' Type 4s use conflicts as growth opportunities rather than just winning."
-          },
-          "name": "How does Sam Altman handle criticism as a Type 4?"
+            "text": "When criticized, Altman responds with Type 4 depth rather than defensiveness. He's said 'I understand the fears about AI. I share many of them,' showing willingness to engage with emotional concerns. His response to the board crisis was thoughtful reflection: 'I learned a lot about governance and communication.' Type 4s use conflicts as growth opportunities rather than just winning.",
+            "@type": "Answer"
+          }
         }
       ]
     },
@@ -373,34 +629,34 @@ What other visionary leaders might share this same Type 4 psychology of creating
       "@type": "BreadcrumbList",
       "itemListElement": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "item": "https://9takes.com/",
           "name": "Home",
-          "item": "https://9takes.com/"
+          "@type": "ListItem",
+          "position": 1
         },
         {
-          "@type": "ListItem",
-          "position": 2,
+          "item": "https://9takes.com/personality-analysis/",
           "name": "Personality Analysis",
-          "item": "https://9takes.com/personality-analysis/"
+          "@type": "ListItem",
+          "position": 2
         },
         {
-          "@type": "ListItem",
-          "position": 3,
+          "item": "https://9takes.com/personality-analysis/type/4",
           "name": "Enneagram Type 4",
-          "item": "https://9takes.com/personality-analysis/type/4"
+          "@type": "ListItem",
+          "position": 3
         },
         {
-          "@type": "ListItem",
-          "position": 4,
+          "item": "https://9takes.com/personality-analysis/Sam-Altman",
           "name": "Sam Altman: OpenAI Revolution & The Type 4 Psychology of His Visionary Leadership",
-          "item": "https://9takes.com/personality-analysis/Sam-Altman"
+          "@type": "ListItem",
+          "position": 4
         }
       ]
     }
-  ]
+  ],
+  "@context": "http://schema.org"
 }
-
 </script>
 
 </svelte:head>

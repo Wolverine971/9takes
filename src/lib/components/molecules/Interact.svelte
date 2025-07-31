@@ -317,20 +317,32 @@
 
 <!-- QR Code Modal -->
 <Modal2 id="qr-modal">
-	<div class="mx-auto flex max-w-sm flex-col items-center p-8 text-center sm:p-6">
-		<h2 class="m-0 mb-6 text-xl font-semibold text-neutral-900">Share Question via QR Code</h2>
-		<div
-			class="mb-6 flex items-center justify-center rounded bg-white p-6 shadow-[0_4px_12px_rgba(0,0,0,0.1)]"
-		>
-			<img
-				src={qrCodeUrl}
-				alt="9takes QR Code"
-				class="h-[200px] w-[200px] sm:h-[150px] sm:w-[150px]"
-			/>
+	<div class="mx-auto flex max-w-md flex-col items-center p-8 text-center sm:p-6">
+		<div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-primary-100">
+			<svg class="h-8 w-8 text-primary-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m9.632 4.684C18.886 16.938 19 17.482 19 18c0 .482-.114.938-.316 1.342m0-2.684a3 3 0 110 2.684M15 12a3 3 0 11-6 0 3 3 0 016 0zm6 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+			</svg>
 		</div>
-		<p class="m-0 max-w-[250px] text-sm leading-6 text-neutral-600">
-			Scan this code with your camera to share this question
-		</p>
+		
+		<h2 class="mb-2 text-2xl font-bold text-neutral-900">Share This Question</h2>
+		<p class="mb-8 text-base text-neutral-600">Scan the QR code to share with others</p>
+		
+		<div class="mb-8 rounded-2xl bg-gradient-to-br from-primary-50 to-primary-100 p-8 shadow-lg">
+			<div class="rounded-xl bg-white p-4 shadow-inner">
+				<img
+					src={qrCodeUrl}
+					alt="Share question QR code"
+					class="h-[220px] w-[220px] sm:h-[180px] sm:w-[180px]"
+				/>
+			</div>
+		</div>
+		
+		<div class="flex items-center gap-2 text-sm text-neutral-500">
+			<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+			</svg>
+			<span>Share and explore different perspectives</span>
+		</div>
 	</div>
 </Modal2>
 

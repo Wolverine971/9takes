@@ -70,9 +70,9 @@
 </script>
 
 <div
-	class="fixed inset-0 z-[23425343] flex items-center justify-center bg-neutral-200/80 {visible
-		? ''
-		: 'invisible'}"
+	class="fixed inset-0 z-[23425343] flex items-center justify-center bg-black/50 backdrop-blur-sm transition-all duration-300 {visible
+		? 'opacity-100'
+		: 'opacity-0 invisible'}"
 	bind:this={topDiv}
 	use:portal
 	role="dialog"
@@ -82,23 +82,24 @@
 >
 	<!-- Modal content container -->
 	<div
-		class="relative max-h-[80vh] w-[95%] max-w-[calc(100vw-20px)] overflow-auto rounded-md border-2 border-black bg-neutral-200 p-4 drop-shadow-[5px_5px_5px_#555] sm:w-auto"
+		class="relative max-h-[90vh] w-[95%] max-w-[calc(100vw-20px)] transform overflow-hidden rounded-xl bg-white shadow-2xl transition-all duration-300 sm:w-auto {visible
+			? 'scale-100 opacity-100'
+			: 'scale-95 opacity-0'}"
 		on:click|stopPropagation={() => {}}
 	>
 		{#if !navTop}
 			<button
 				on:click={close}
 				aria-label="Close dialog"
-				class="absolute -right-3 -top-3 flex h-6 w-6 cursor-pointer items-center justify-center border-none bg-none p-0 transition-transform duration-300 hover:scale-110"
+				class="absolute right-4 top-4 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-neutral-100 p-0 transition-all duration-200 hover:bg-neutral-200 hover:rotate-90"
 			>
-				<svg width="24" height="24" viewBox="0 0 12 12" class="h-full w-full">
-					<circle cx="6" cy="6" r="6" class="fill-primary-700" />
-					<line x1="3" y1="3" x2="9" y2="9" class="stroke-white stroke-2" />
-					<line x1="9" y1="3" x2="3" y2="9" class="stroke-white stroke-2" />
+				<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-neutral-600">
+					<line x1="18" y1="6" x2="6" y2="18"></line>
+					<line x1="6" y1="6" x2="18" y2="18"></line>
 				</svg>
 			</button>
 		{/if}
-		<div>
+		<div class="max-h-[85vh] overflow-y-auto">
 			<slot />
 		</div>
 	</div>
