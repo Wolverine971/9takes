@@ -385,7 +385,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "url":"https://9takes.com/blogs/greek-statues-building-a-boat.webp",
       "width":"900"
    },
-   "keywords":"Enneagram, personality types, team building, leadership development, communication, collaboration",
    "mainEntityOfPage":{
       "@id":"https://9takes.com/enneagram-corner/enneagram-types-working-in-teams",
       "@type":"WebPage"

@@ -17,8 +17,7 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"clean": "rimraf .svelte-kit",
 		"gen:sctx": "tsx generateStreamlinedProjectContext2.ts . -o ./sproject-context.json",
-		"label-paths": "tsx labelFilePaths.ts",
-		"label-paths:src": "tsx labelFilePaths.ts ./src"
+		"label-paths": "tsx labelFilePaths.ts"
 	},
 	"devDependencies": {
 		"@babel/parser": "^7.27.4",

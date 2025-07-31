@@ -753,8 +753,6 @@ If you found this helpful, explore our deeper guides on [navigating early relati
   "datePublished": "2025-02-25",
   "dateModified": "2025-02-25",
   "isAccessibleForFree": "True",
-  "articleSection": "Relationships",
-  "wordCount": "4500",
   "inLanguage": "en-US",
   "mainEntity": {
     "@type": "FAQPage",
