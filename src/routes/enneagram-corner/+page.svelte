@@ -150,6 +150,15 @@
 
 <main>
 	<h1>Enneagram Corner: Your Guide to Personal Growth and Understanding</h1>
+	
+	<div class="authority-section">
+		<p class="intro-text">
+			The Enneagram is a powerful personality framework backed by decades of psychological research and practice. 
+			Our content draws from authoritative sources including the <strong>Enneagram Institute</strong>, 
+			works by <strong>Don Richard Riso</strong> and <strong>Russ Hudson</strong>, and contemporary research in personality psychology.
+		</p>
+		
+	</div>
 
 	<nav aria-label="Table of Contents">
 		<h2>Explore Enneagram Topics</h2>
@@ -213,7 +222,108 @@
 	{/each}
 </main>
 
+<div class="resources-footer">
+	<h2>Authoritative Enneagram Resources</h2>
+	<p>Our content is informed by these respected sources in the Enneagram community:</p>
+	<ul class="resources-list">
+		<li>
+			<strong>The Enneagram Institute</strong> - Founded by Don Richard Riso and Russ Hudson, 
+			offering the most comprehensive Enneagram type descriptions and growth paths.
+		</li>
+		<li>
+			<strong>The Wisdom of the Enneagram</strong> by Riso & Hudson - 
+			The definitive guide to psychological and spiritual growth for the nine personality types.
+		</li>
+		<li>
+			<strong>Helen Palmer's Work</strong> - 
+			Pioneer in bringing the Enneagram to modern psychology and business applications.
+		</li>
+		<li>
+			<strong>Beatrice Chestnut</strong> - 
+			Leading expert on Enneagram subtypes and instinctual variants.
+		</li>
+		<li>
+			<strong>International Enneagram Association (IEA)</strong> - 
+			The global organization promoting accuracy, ethics, and excellence in Enneagram education.
+		</li>
+	</ul>
+	<p class="citation-note">
+		<em>All our content aims to present Enneagram insights accurately while making them accessible 
+		for personal growth and improved relationships.</em>
+	</p>
+</div>
+
 <style lang="scss">
+	.authority-section {
+		background-color: #f8f9fa;
+		border-radius: 8px;
+		padding: 2rem;
+		margin: 2rem 0;
+		border-left: 4px solid var(--primary);
+		
+		.intro-text {
+			font-size: 1.1rem;
+			line-height: 1.6;
+			margin-bottom: 1.5rem;
+			color: #333;
+		}
+		
+		.credibility-badges {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1.5rem;
+			
+			.badge-item {
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				margin: 0;
+				
+				.badge-icon {
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+	
+	.resources-footer {
+		background-color: #f0f4f8;
+		padding: 3rem;
+		margin-top: 4rem;
+		border-radius: 12px;
+		
+		h2 {
+			color: var(--primary);
+			margin-bottom: 1rem;
+		}
+		
+		.resources-list {
+			list-style: none;
+			padding: 0;
+			margin: 1.5rem 0;
+			
+			li {
+				padding: 1rem;
+				margin-bottom: 1rem;
+				background: white;
+				border-radius: 8px;
+				border-left: 3px solid var(--primary);
+				
+				strong {
+					color: var(--primary);
+				}
+			}
+		}
+		
+		.citation-note {
+			margin-top: 1.5rem;
+			padding: 1rem;
+			background: rgba(108, 92, 231, 0.1);
+			border-radius: 8px;
+			text-align: center;
+		}
+	}
+
 	nav {
 		margin-bottom: 3rem;
 

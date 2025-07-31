@@ -204,6 +204,95 @@
 	/>
 	<meta name="twitter:image" content="https://9takes.com/greek_pantheon.png" />
 	<meta name="twitter:image:alt" content="9takes – One situation, 9 ways to see it" />
+	
+	<!-- FAQ Schema -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [
+				{
+					"@type": "Question",
+					"name": "What is 9takes?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "9takes is a platform that helps you build emotional intelligence using the Enneagram personality system. It allows you to stress-test your ideas and escape your echo chamber by seeing how 9 different personality types respond to the same situations."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "How does the give-first system work?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "On 9takes, you must share your own perspective on a question before you can see how others responded. This encourages authentic thinking and prevents bias from seeing others' opinions first."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "What is the Enneagram?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "The Enneagram is a personality system that describes 9 interconnected personality types, each with distinct motivations, fears, and worldviews. It goes beyond behavior to explain WHY people act the way they do."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "How can 9takes help with personal growth?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "9takes helps you develop perspective-taking skills by exposing you to how different personality types think and feel. This builds emotional intelligence, improves relationships, and helps you make better decisions by considering multiple viewpoints."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Is 9takes free to use?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Yes, 9takes offers free access to explore questions and perspectives. Premium features like personalized coaching sessions are available for those seeking deeper personality insights."
+					}
+				}
+			]
+		}
+	</script>
+	
+	<!-- Image Structured Data for Featured Content -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebPage",
+			"name": "9takes - Build Emotional Intelligence with the Enneagram",
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"url": "https://9takes.com/greek_pantheon.png",
+				"width": 1200,
+				"height": 630,
+				"caption": "9takes - One situation, 9 ways to see it"
+			},
+			"image": [
+				{
+					"@type": "ImageObject",
+					"url": "https://9takes.com/blogs/greek-statue-flex.webp",
+					"width": 800,
+					"height": 600,
+					"caption": "How Each Enneagram Type Flexes"
+				},
+				{
+					"@type": "ImageObject",
+					"url": "https://9takes.com/blogs/greek-statue-showing-cracks.webp",
+					"width": 800,
+					"height": 600,
+					"caption": "Toxic Traits of Each Enneagram Type"
+				},
+				{
+					"@type": "ImageObject",
+					"url": "https://9takes.com/blogs/greek-statues-in-an-office-setting.webp",
+					"width": 800,
+					"height": 600,
+					"caption": "Workplace Team Building with the Enneagram"
+				}
+			]
+		}
+	</script>
 </svelte:head>
 
 <svelte:window bind:innerWidth />

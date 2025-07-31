@@ -241,6 +241,56 @@
 			}
 		}
 	</script>
+	
+	<!-- FAQ Schema for common questions about the platform -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [
+				{
+					"@type": "Question",
+					"name": "How does 9takes anonymous questioning work?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "9takes uses a unique 'give-first' system where you must provide your own answer before seeing others' responses. This encourages authentic, thoughtful participation while maintaining anonymity through our personality-based system."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "What makes 9takes different from other Q&A platforms?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "9takes combines anonymous questioning with personality psychology. Each answer is tagged with the respondent's Enneagram type, allowing you to see how different personality types approach the same question, creating deeper understanding and empathy."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Can I filter answers by personality type?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Yes! You can filter responses by any of the 9 Enneagram types to see how specific personality types answer questions. This helps you understand different perspectives and find answers that resonate with your own personality."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Is my identity protected on 9takes?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Absolutely. While your Enneagram type is shown with your answers, your personal identity remains anonymous. This allows for honest, vulnerable discussions without the social pressure of being identified."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "How do I know my Enneagram type?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Though you can take tests, we advise that you deduce your Enneagram type after immersing yourself in the system and doing some self reflection. You can also explore our Enneagram Corner to learn more about each type and confirm your results."
+					}
+				}
+			]
+		}
+	</script>
 </svelte:head>
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
