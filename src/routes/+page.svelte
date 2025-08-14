@@ -1,13 +1,10 @@
 <!-- routes/+page.svelte -->
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 	import { browser } from '$app/environment';
 	import type { PageData } from './$types';
-	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
-	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
-	import PeopleBoard from '$lib/components/molecules/PeopleBoard.svelte';
 
 	export let data: PageData;
 	let innerWidth = 0;
@@ -346,7 +343,7 @@
 								{/each}
 							{/if}
 						</div>
-						<span class="ml-2 text-sm text-gray-500">takes unlocked</span>
+						<span class="ml-2 text-sm text-gray-500">takes given</span>
 					</div>
 				</div>
 			</a>
