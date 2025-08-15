@@ -13,7 +13,7 @@
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
 cwebp "anxiety-and-enneagram-types-guide.png" -o "anxiety-and-enneagram-types-guide.webp"
-cwebp -sns 70 -f 50 -size 20000 "anxiety-and-enneagram-types-guide.webp" -o "./s-anxiety-and-enneagram-types-guide.webp"
+cwebp -sns 70 -f 50 -size 20000 "4.png" -o "./s-4.png"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

@@ -1,10 +1,10 @@
 ---
-title: 'First Impression Enneagram Guide: Decode Anyone in 60 Seconds'
-description: 'Master the art of instant rapport with this tactical Enneagram playbook. Decode each personality type with proven questions and approaches that create real connection.'
+title: 'Read Anyone in 30 Seconds: The Enneagram Body Language Cheat Sheet'
+description: 'Stop guessing what people want. Learn the 9 personality tells that reveal exactly how to connect with anyone instantly—from job interviews to first dates.'
 author: 'DJ Wayne'
 date: '2025-05-20'
 loc: 'https://9takes.com/enneagram-corner/first-impression-enneagram-playbook'
-lastmod: '2025-07-18'
+lastmod: '2025-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,724 +18,640 @@ pic: 'greek-statues-getting-ready-to-approach'
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<!-- Main container with proper typography -->
-<div class="max-w-4xl mx-auto px-4 py-8 bg-neutral-50">
+<p class="firstLetter">They've already decided about you.</p>
 
-  <!-- Introduction -->
-  <div class="mb-12">
-    <p class="text-xl mb-6 first-letter:text-5xl first-letter:font-bold first-letter:text-primary-700 first-letter:float-left first-letter:mr-2 firstLetter">That awkward small talk isn't working because you're using the wrong playbook for their personality type.</p>
-    
-    <p class="text-lg text-neutral-700 mb-4">Here's what most people miss: **Each Enneagram type has a specific first-impression formula**. Type 8s respect directness. Type 2s need warmth. Type 5s require intellectual space. Generic approaches fail because they ignore these core patterns.</p>
-    
-    <p class="text-lg text-neutral-700 mb-4">In this tactical guide, you'll decode the exact moves that create instant rapport with each type—from the questions that make them light up to the behaviors that kill connection before it starts.</p>
-    
-    <div class="bg-primary-100 p-6 rounded-lg shadow-md my-8 border-l-4 border-primary-600">
-      <blockquote class="text-primary-900 font-semibold text-lg">"She's not 'cold'—Type 5s need intellectual respect before emotional connection. Lead with substance, not small talk."</blockquote>
-    </div>
-    
-    <p class="text-lg text-neutral-700 mb-4">Whether you're walking into a job interview, first date, or crucial business meeting, these personality-specific strategies transform awkward encounters into authentic connections.</p>
-    
-    <p class="text-lg text-neutral-700 mb-4"><strong>Small experiment</strong>: Pick one person you'll meet this week. Use their type's playbook below. Watch what happens when you speak their emotional language from hello.</p>
-  </div>
+**10 seconds.** That's all it took.
 
-  <!-- Type 1: The Perfectionist -->
-  <div class="mb-16 bg-white rounded-xl shadow-md overflow-hidden">
-    <div class="bg-primary-600 text-white p-4">
-      <h2 id="type-1-perfectionist-first-impression" class="!text-2xl font-bold flex items-center">
-        <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">1</span>
-        <a href="/enneagram-corner/enneagram-type-1" class="hover:underline !text-white" style="color: white !important">Type 1: The Perfectionist - Win Them Over with Competence</a>
-      </h2>
-    </div>
-    <div class="p-6">
-      <div class="mb-6">
-        <h3 id="type-1-first-10-seconds" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The First 10 Seconds That Matter</h3>
-        <p class="text-neutral-700">Type 1s are scanning for competence before they even hear your first word. Arrive 5 minutes early, not 1. Your handshake should be firm and confident. Your appearance doesn't need to be perfect—but it needs to show you tried. They're not judging you; they're assessing if you respect the situation enough to prepare.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-1-power-questions" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">3 Power Questions That Hook Type 1s</h3>
-        <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-          <li><strong>"What's something you've improved recently that most people wouldn't even notice?"</strong> - Shows you value excellence in details</li>
-          <li><strong>"I'm curious—when you see something done halfway, does it physically bother you or is that just me?"</strong> - Creates instant bonding over standards</li>
-          <li><strong>"What's your take on [relevant topic]? You seem like someone who's thought this through properly."</strong> - Positions them as the competent authority</li>
-        </ul>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-1-hidden-psychology" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The Hidden Psychology of Type 1s</h3>
-        <p class="text-neutral-700"><strong>What they're really thinking</strong>: "Can I respect this person's standards?" Type 1s have an internal quality meter that never turns off. They're not looking for perfection in you—they're looking for evidence that you care about doing things right. Show them you have your own standards, and they'll relax enough to actually connect.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-success-50 p-4 rounded-lg">
-          <h3 id="type-1-trust-builders" class="text-xl font-semibold text-success-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-            ✓ Moves That Build Trust with Type 1s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Acknowledge their expertise and attention to detail</li>
-            <li>Show appreciation for their clear principles and standards</li>
-            <li>Demonstrate your own commitment to doing things correctly</li>
-            <li>Follow through on anything you promise</li>
-            <li>Share accurate, fair observations</li>
-          </ul>
-        </div>
-        <div class="bg-error-50 p-4 rounded-lg">
-          <h3 id="type-1-connection-killers" class="text-xl font-semibold text-error-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-            </svg>
-            ✗ Instant Connection Killers for Type 1s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Being sloppy, disorganized, or late</li>
-            <li>Making excuses instead of taking responsibility</li>
-            <li>Suggesting ethically questionable shortcuts</li>
-            <li>Dismissing their standards as "perfectionism"</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+Before you opened your mouth. Before your elevator pitch. Before your charming story.
 
-  <!-- Type 2: The Helper -->
-  <div class="mb-16 bg-white rounded-xl shadow-md overflow-hidden">
-    <div class="bg-primary-600 text-white p-4">
-      <h2 id="type-2-helper-first-impression" class="!text-2xl font-bold flex items-center">
-        <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">2</span>
-        <a href="/enneagram-corner/enneagram-type-2" class="hover:underline !text-white" style="color: white !important">Type 2: The Helper - Connect Through Genuine Warmth</a>
-      </h2>
-    </div>
-    <div class="p-6">
-      <div class="mb-6">
-        <h3 id="type-2-approach" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">Type 2 Approach</h3>
-        <p class="text-neutral-700">Greet them warmly with authentic enthusiasm. Make good eye contact, smile, and show interest in them as a person before diving into business. Small thoughtful gestures (like remembering their coffee preference) make a strong impression.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-2-connection-questions" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">Questions That Create Instant Connection with Type 2s</h3>
-        <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-          <li><strong>"You strike me as the person everyone goes to for advice. What kind of problems do people usually bring you?"</strong> - Acknowledges their helpful nature</li>
-          <li><strong>"I'm curious—how do you balance taking care of everyone else with taking care of yourself?"</strong> - Shows you see their challenge</li>
-          <li><strong>"What's the best compliment someone's ever given you about how you've helped them?"</strong> - Lets them share their impact</li>
-        </ul>
-      </div>
-      <div class="mb-6">
-        <h3 id="the-type-2-worldview" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The Type 2 Worldview (Relationship Radar Always On)</h3>
-        <p class="text-neutral-700">Type 2s see the world through relationships and needs. They're naturally attuned to how they can be helpful and valuable to others. They notice when others recognize their contributions and respect people who show genuine care.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-success-50 p-4 rounded-lg">
-          <h3 id="type-2-connection-accelerators" class="text-xl font-semibold text-success-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-            ✓ Connection Accelerators for Type 2s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Show sincere appreciation for their support or contributions</li>
-            <li>Ask about people important to them</li>
-            <li>Remember personal details they share</li>
-            <li>Offer help before they have to ask</li>
-            <li>Express how their insights made a difference</li>
-          </ul>
-        </div>
-        <div class="bg-error-50 p-4 rounded-lg">
-          <h3 id="type-2-trust-destroyers" class="text-xl font-semibold text-error-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-            </svg>
-            ✗ Trust Destroyers for Type 2s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Being cold, distant, or all-business</li>
-            <li>Taking their help for granted</li>
-            <li>Focusing only on tasks while ignoring relationships</li>
-            <li>Appearing self-centered or uninterested in others</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+Their Enneagram type determined exactly what they were looking for—and whether you delivered it.
 
-  <!-- Type 3: The Achiever -->
-  <div class="mb-16 bg-white rounded-xl shadow-md overflow-hidden">
-    <div class="bg-primary-600 text-white p-4">
-      <h2 id="the-achiever-win-them-over" class="!text-2xl font-bold flex items-center">
-        <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">3</span>
-        <a href="/enneagram-corner/enneagram-type-3" class="hover:underline !text-white" style="color: white !important">The Achiever - Win Them Over: Efficiency Meets Recognition</a>
-      </h2>
-    </div>
-    <div class="p-6">
-      <div class="mb-6">
-        <h3 id="type-3-approach" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">Type 3 Approach</h3>
-        <p class="text-neutral-700">Be efficient, confident, and goal-oriented from the start. Arrive prepared with a clear agenda. Dress appropriately for the context, showing you understand professional expectations and respect their time.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-3-first-10-seconds" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The First 10 Seconds That Matter</h3>
-        <p class="text-neutral-700">Type 3s are measuring your success signals before you speak. Your confident posture, quality clothing, and efficient greeting all register. They're not shallow—they're assessing if you're someone worth their valuable time. Show competence through preparation, not just confidence.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-3-power-questions" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">3 Power Questions That Hook Type 3s</h3>
-        <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-          <li><strong>"You strike me as someone who's accomplished something impressive that most people don't know about. What's your hidden win?"</strong> - Appeals to their achievement drive</li>
-          <li><strong>"What's the most ambitious goal you're working on right now that actually excites you?"</strong> - Shows you understand their forward momentum</li>
-          <li><strong>"I bet you've optimized something in your life that saves you hours. What's your secret productivity hack?"</strong> - Positions them as the efficiency expert</li>
-        </ul>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-3-hidden-psychology" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The Hidden Psychology of Type 3s</h3>
-        <p class="text-neutral-700"><strong>What they're really thinking</strong>: "Is this person going to waste my time or add value?" Type 3s have an internal ROI calculator for every interaction. They're drawn to people who are going places, doing things, creating results. Show them you're action-oriented, not just talk.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-success-50 p-4 rounded-lg">
-          <h3 id="type-3-credibility-builders" class="text-xl font-semibold text-success-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-            ✓ Credibility Builders for Type 3s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Acknowledge their specific achievements and capabilities</li>
-            <li>Be clear and direct about objectives</li>
-            <li>Show that you value efficiency and results too</li>
-            <li>Reference their professional reputation positively</li>
-            <li>Follow up promptly and reliably</li>
-          </ul>
-        </div>
-        <div class="bg-error-50 p-4 rounded-lg">
-          <h3 id="type-3-respect-killers" class="text-xl font-semibold text-error-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-            </svg>
-            ✗ Respect Killers for Type 3s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Wasting their time with rambling conversations</li>
-            <li>Undermining their professional image</li>
-            <li>Being unprepared or disorganized</li>
-            <li>Making promises you can't deliver on</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+- Type 8s dismissed you for weak energy
+- Type 5s wrote you off for surface-level chatter
+- Type 2s felt your emotional coldness
+- Type 1s noticed you were 3 minutes late
 
-  <!-- Type 4: The Individualist -->
-  <div class="mb-16 bg-white rounded-xl shadow-md overflow-hidden">
-    <div class="bg-primary-600 text-white p-4">
-      <h2 id="the-individualist-stand-out-strategy" class="!text-2xl font-bold flex items-center">
-        <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">4</span>
-        <a href="/enneagram-corner/enneagram-type-4" class="hover:underline !text-white" style="color: white !important">The Individualist - Stand Out Strategy: Authenticity Over Generic Pleasantries</a>
-      </h2>
-    </div>
-    <div class="p-6">
-      <div class="mb-6">
-        <h3 id="type-4-approach" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">Type 4 Approach</h3>
-        <p class="text-neutral-700">Show authenticity rather than generic pleasantries. Notice something distinctive about them or the environment and comment thoughtfully. Your genuine emotional presence matters more than polished small talk.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-4-first-10-seconds" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The First 10 Seconds That Matter</h3>
-        <p class="text-neutral-700">Type 4s are reading your authenticity instantly. Skip the standard scripts—they've heard them all and find them hollow. Your genuine nervousness is better than polished fakeness. They're looking for real human connection, not networking performance. One authentic comment beats ten smooth lines.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-4-power-questions" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">3 Power Questions That Hook Type 4s</h3>
-        <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-          <li><strong>"There's something distinctive about your [style/perspective/energy] that I can't quite place. What influences it?"</strong> - Acknowledges their uniqueness</li>
-          <li><strong>"Most people here seem to be having the same conversation. What are you actually thinking about?"</strong> - Validates their different wavelength</li>
-          <li><strong>"What's something beautiful or meaningful you've noticed recently that others probably walked right past?"</strong> - Speaks to their depth</li>
-        </ul>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-4-hidden-psychology" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The Hidden Psychology of Type 4s</h3>
-        <p class="text-neutral-700"><strong>What they're really thinking</strong>: "Does this person see ME or just another person to talk to?" Type 4s have a finely-tuned authenticity detector. They're not looking for agreement—they're looking for someone who can handle their emotional intensity without trying to fix or minimize it.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-success-50 p-4 rounded-lg">
-          <h3 id="type-4-authentic-connection-points" class="text-xl font-semibold text-success-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-            ✓ Authentic Connection Points for Type 4s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Notice and appreciate their unique perspective or style</li>
-            <li>Share something genuine about yourself beyond surface facts</li>
-            <li>Take time for thoughtful conversation rather than rushing</li>
-            <li>Show that you value depth and authenticity</li>
-            <li>Respond to their emotional tone with appropriate empathy</li>
-          </ul>
-        </div>
-        <div class="bg-error-50 p-4 rounded-lg">
-          <h3 id="type-4-connection-blockers" class="text-xl font-semibold text-error-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-            </svg>
-            ✗ Connection Blockers for Type 4s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Generic, "one-size-fits-all" approaches</li>
-            <li>Rushing past emotional aspects to "get to the point"</li>
-            <li>Comparisons that minimize their uniqueness</li>
-            <li>Forced positivity that glosses over complexity</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+You're not failing at first impressions. **You're using the wrong playbook for their personality.**
 
-  <!-- Type 5: The Investigator -->
-  <div class="mb-16 bg-white rounded-xl shadow-md overflow-hidden">
-    <div class="bg-primary-600 text-white p-4">
-      <h2 id="the-investigator-respect-building-approach" class="!text-2xl font-bold flex items-center">
-        <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">5</span>
-        <a href="/enneagram-corner/enneagram-type-5" class="hover:underline !text-white" style="color: white !important">The Investigator - Respect-Building Approach: Space and Intellectual Credibility</a>
-      </h2>
-    </div>
-    <div class="p-6">
-      <div class="mb-6">
-        <h3 id="type-5-approach" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">Type 5 Approach</h3>
-        <p class="text-neutral-700">Begin with intellectual respect—don't crowd their physical or mental space. Start with a clear, concise introduction of your meeting purpose. Allow them time to observe and process before expecting full engagement.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-5-first-10-seconds" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The First 10 Seconds That Matter</h3>
-        <p class="text-neutral-700">Type 5s need space to observe before engaging. Don't rush to fill silence or stand too close. They're assessing the intellectual weight of the interaction—will this be substantive or superficial? Your calm, non-invasive presence signals respect for their mental space. Let them come to you.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-5-power-questions" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">3 Power Questions That Hook Type 5s</h3>
-        <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-          <li><strong>"You seem like someone who notices patterns others miss. What's something interesting you've observed here?"</strong> - Appeals to their analytical nature</li>
-          <li><strong>"I'm curious—what rabbit hole have you gone down lately that completely absorbed you?"</strong> - Taps into their deep dive tendency</li>
-          <li><strong>"What's a complex problem you've been thinking about that most people oversimplify?"</strong> - Shows you value depth over surface</li>
-        </ul>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-5-hidden-psychology" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The Hidden Psychology of Type 5s</h3>
-        <p class="text-neutral-700"><strong>What they're really thinking</strong>: "How much energy will this interaction cost me?" Type 5s treat social energy like a limited resource. They're calculating if you'll drain them with small talk or energize them with interesting ideas. Show intellectual respect, not emotional demands.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-success-50 p-4 rounded-lg">
-          <h3 id="type-5-credibility-moves" class="text-xl font-semibold text-success-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-            ✓ Credibility Moves for Type 5s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Demonstrate knowledge in your area without dominating</li>
-            <li>Ask insightful questions about their expertise</li>
-            <li>Respect their need for mental and physical space</li>
-            <li>Share useful information rather than emotional appeals</li>
-            <li>Be patient with pauses as they formulate responses</li>
-          </ul>
-        </div>
-        <div class="bg-error-50 p-4 rounded-lg">
-          <h3 id="type-5-instant-turn-offs" class="text-xl font-semibold text-error-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-            </svg>
-            ✗ Instant Turn-Offs for Type 5s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Overwhelming them with excessive personal disclosures</li>
-            <li>Expecting immediate emotional connection</li>
-            <li>Pressuring for quick decisions or responses</li>
-            <li>Small talk without substance or purpose</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+## The 30-Second Personality Decoder
 
-  <!-- Type 6: The Loyalist -->
-  <div class="mb-16 bg-white rounded-xl shadow-md overflow-hidden">
-    <div class="bg-primary-600 text-white p-4">
-      <h2 id="the-loyalist-trust-building-formula" class="!text-2xl font-bold flex items-center">
-        <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">6</span>
-        <a href="/enneagram-corner/enneagram-type-6" class="hover:underline !text-white" style="color: white !important">The Loyalist - Trust-Building Formula: Consistency and Transparency</a>
-      </h2>
-    </div>
-    <div class="p-6">
-      <div class="mb-6">
-        <h3 id="type-6-approach" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">Type 6 Approach</h3>
-        <p class="text-neutral-700">Be straightforward, reliable, and consistent from the first interaction. Clearly explain who you are, why you're meeting, and what you hope to accomplish. Address potential concerns proactively rather than glossing over them.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-6-first-10-seconds" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The First 10 Seconds That Matter</h3>
-        <p class="text-neutral-700">Type 6s are running a security scan on you immediately. Mixed signals create anxiety—be consistent in your words, tone, and body language. They're looking for red flags: overconfidence, vagueness, pressure tactics. Your straightforward approach and willingness to acknowledge uncertainties builds instant credibility.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-6-power-questions" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">3 Power Questions That Hook Type 6s</h3>
-        <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-          <li><strong>"You strike me as someone with good instincts. What's your read on [situation/place/person]?"</strong> - Validates their vigilance</li>
-          <li><strong>"What's something you've been right about that everyone else doubted at first?"</strong> - Acknowledges their foresight</li>
-          <li><strong>"I bet you're the friend people call when they need solid advice. What do they usually ask about?"</strong> - Positions them as trusted advisor</li>
-        </ul>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-6-hidden-psychology" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The Hidden Psychology of Type 6s</h3>
-        <p class="text-neutral-700"><strong>What they're really thinking</strong>: "Can I trust this person or is there a hidden agenda?" Type 6s test loyalty through questions—answer directly without defensiveness. They're not being paranoid; they're being careful. Once you pass their trust tests, they're incredibly loyal allies.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-success-50 p-4 rounded-lg">
-          <h3 id="type-6-trust-accelerators" class="text-xl font-semibold text-success-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-            ✓ Trust Accelerators for Type 6s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Be completely honest about capabilities and limitations</li>
-            <li>Acknowledge potential problems rather than offering only positives</li>
-            <li>Demonstrate reliability through consistent words and actions</li>
-            <li>Show loyalty to shared principles or mutual connections</li>
-            <li>Provide concrete details and clear expectations</li>
-          </ul>
-        </div>
-        <div class="bg-error-50 p-4 rounded-lg">
-          <h3 id="type-6-red-flags" class="text-xl font-semibold text-error-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-            </svg>
-            ✗ Red Flags for Type 6s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Vague assurances without specific support</li>
-            <li>Glossing over potential problems or risks</li>
-            <li>Presenting yourself as flawless or overconfident</li>
-            <li>Making promises you might not keep</li>
-            <li>Pressure tactics or rushing decisions</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="scroll-table">
 
-  <!-- Type 7: The Enthusiast -->
-  <div class="mb-16 bg-white rounded-xl shadow-md overflow-hidden">
-    <div class="bg-primary-600 text-white p-4">
-      <h2 id="the-enthusiast-energy-matching-strategy" class="!text-2xl font-bold flex items-center">
-        <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">7</span>
-        <a href="/enneagram-corner/enneagram-type-7" class="hover:underline !text-white" style="color: white !important">The Enthusiast - Energy Matching Strategy: Possibilities and Positive Vibes</a>
-      </h2>
-    </div>
-    <div class="p-6">
-      <div class="mb-6">
-        <h3 id="type-7-approach" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">Type 7 Approach</h3>
-        <p class="text-neutral-700">Match their energy and enthusiasm with a positive, upbeat greeting. Show curiosity and openness to adventure. A genuine smile and engaging presence signals that meeting them is a highlight of your day.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-7-first-10-seconds" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The First 10 Seconds That Matter</h3>
-        <p class="text-neutral-700">Type 7s are reading your energy level instantly. Low energy equals boring—game over. But fake enthusiasm is worse. They want genuine excitement about possibilities, not forced positivity. Your natural curiosity and playful approach signal you're someone fun to explore ideas with, not another energy vampire.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-7-power-questions" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">3 Power Questions That Hook Type 7s</h3>
-        <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-          <li><strong>"What's the most spontaneous thing you've done recently that turned out amazing?"</strong> - Celebrates their adventurous spirit</li>
-          <li><strong>"If you could be anywhere in the world right now, where would make today perfect?"</strong> - Engages their imagination</li>
-          <li><strong>"What's the next big adventure or project you're excited about?"</strong> - Taps into their future focus</li>
-        </ul>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-7-hidden-psychology" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The Hidden Psychology of Type 7s</h3>
-        <p class="text-neutral-700"><strong>What they're really thinking</strong>: "Is this going to be fun or am I trapped in another boring conversation?" Type 7s are escape artists from boredom. They're not shallow—they're seeking experiences that make them feel alive. Show them new angles, fresh ideas, unexpected connections.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-success-50 p-4 rounded-lg">
-          <h3 id="type-7-energy-amplifiers" class="text-xl font-semibold text-success-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-            ✓ Energy Amplifiers for Type 7s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Match their enthusiastic energy (authentically)</li>
-            <li>Be open to spontaneity and conversation pivots</li>
-            <li>Show curiosity about their interests and experiences</li>
-            <li>Share interesting ideas or possibilities they might not have considered</li>
-            <li>Use humor and lightness when appropriate</li>
-          </ul>
-        </div>
-        <div class="bg-error-50 p-4 rounded-lg">
-          <h3 id="type-7-energy-drains" class="text-xl font-semibold text-error-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-            </svg>
-            ✗ Energy Drains for Type 7s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Being overly negative or focused on limitations</li>
-            <li>Lengthy, detailed explanations without clear relevance</li>
-            <li>Rigid adherence to plans or structures</li>
-            <li>Shutting down their ideas before exploring possibilities</li>
-            <li>Monotonous or low-energy presentation</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+| What You See | Their Type | What They Need From You | Fatal First Impression Error |
+|--------------|-----------|------------------------|------------------------------|
+| Checking watch, perfect posture | Type 1 | Competence signals | Being late or sloppy |
+| Leaning in, warm smile | Type 2 | Emotional availability | Cold professionalism |
+| Firm handshake, name-dropping | Type 3 | Respect for achievement | Not knowing who they are |
+| Unique accessory, distant gaze | Type 4 | Depth recognition | Generic small talk |
+| Observing quietly, minimal eye contact | Type 5 | Intellectual space | Forced emotional connection |
+| Nervous energy, testing questions | Type 6 | Trustworthiness proof | Overconfidence without substance |
+| Animated gestures, multiple topics | Type 7 | Energy matching | Being a downer |
+| Taking up space, direct stare | Type 8 | Strength respect | Weakness or indirection |
+| Agreeable nodding, soft voice | Type 9 | Non-threatening presence | Aggressive energy |
 
-  <!-- Type 8: The Challenger -->
-  <div class="mb-16 bg-white rounded-xl shadow-md overflow-hidden">
-    <div class="bg-primary-600 text-white p-4">
-      <h2 id="the-challenger-power-move" class="!text-2xl font-bold flex items-center">
-        <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">8</span>
-        <a href="/enneagram-corner/enneagram-type-8" class="hover:underline !text-white" style="color: white !important">The Challenger - Power Move: Directness and Confident Strength</a>
-      </h2>
-    </div>
-    <div class="p-6">
-      <div class="mb-6">
-        <h3 id="type-8-approach" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">Type 8 Approach</h3>
-        <p class="text-neutral-700">Lead with confidence and directness. A firm handshake, strong eye contact, and straightforward introduction establishes respect. Get straight to the point without unnecessary preamble.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-8-first-10-seconds" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The First 10 Seconds That Matter</h3>
-        <p class="text-neutral-700">Type 8s are testing your strength before hello ends. Weak handshake? Strike one. Avoiding eye contact? Strike two. Apologizing for existing? You're out. They respect power meeting power. Stand tall, speak clearly, take up your space. They'd rather clash with someone strong than dominate someone weak.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-8-power-questions" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">3 Power Questions That Hook Type 8s</h3>
-        <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-          <li><strong>"You have this powerful presence. What battle are you fighting that most people don't even see?"</strong> - Acknowledges their strength with depth</li>
-          <li><strong>"What's the hard truth about [topic] that everyone's too scared to say out loud?"</strong> - Invites their directness</li>
-          <li><strong>"If you ran this place, what would you change immediately?"</strong> - Engages their leadership instinct</li>
-        </ul>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-8-hidden-psychology" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The Hidden Psychology of Type 8s</h3>
-        <p class="text-neutral-700"><strong>What they're really thinking</strong>: "Are you real or are you weak?" Type 8s respect honest conflict over fake harmony. They test people to see who folds under pressure. Don't try to out-alpha them—just hold your ground authentically. They protect those they respect.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-success-50 p-4 rounded-lg">
-          <h3 id="type-8-strength-signals" class="text-xl font-semibold text-success-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-            ✓ Strength Signals for Type 8s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Be straightforward and get to the point quickly</li>
-            <li>Stand your ground respectfully if you disagree</li>
-            <li>Demonstrate competence and conviction</li>
-            <li>Address conflicts directly rather than avoiding them</li>
-            <li>Show that you can take action and make tough decisions</li>
-          </ul>
-        </div>
-        <div class="bg-error-50 p-4 rounded-lg">
-          <h3 id="type-8-weakness-indicators" class="text-xl font-semibold text-error-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-            </svg>
-            ✗ Weakness Indicators for Type 8s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Being passive, timid, or overly deferential</li>
-            <li>Dancing around sensitive issues or sugarcoating feedback</li>
-            <li>Showing signs of being easily intimidated</li>
-            <li>Using manipulative or unclear communication</li>
-            <li>Making claims you can't back up with action</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Type 9: The Peacemaker -->
-  <div class="mb-16 bg-white rounded-xl shadow-md overflow-hidden">
-    <div class="bg-primary-600 text-white p-4">
-      <h2 id="the-peacemaker-harmony-creation" class="!text-2xl font-bold flex items-center">
-        <span class="inline-block bg-white text-primary-600 w-8 h-8 rounded-full mr-3 text-center font-bold" style="line-height: 2rem;">9</span>
-        <a href="/enneagram-corner/enneagram-type-9" class="hover:underline !text-white" style="color: white !important">The Peacemaker - Harmony Creation: Inclusion and Patient Presence</a>
-      </h2>
-    </div>
-    <div class="p-6">
-      <div class="mb-6">
-        <h3 id="type-9-approach" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">Type 9 Approach</h3>
-        <p class="text-neutral-700">Approach with a calm, welcoming presence. Don't rush the interaction or apply pressure. Create a peaceful atmosphere where they feel included and valued from the start.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-9-first-10-seconds" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The First 10 Seconds That Matter</h3>
-        <p class="text-neutral-700">Type 9s are checking if you'll let them exist peacefully or demand their energy. Aggressive approaches make them disappear inside themselves. Your calm, inclusive presence—making space without forcing engagement—helps them feel safe to show up. They need to feel chosen, not cornered.</p>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-9-power-questions" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">3 Power Questions That Hook Type 9s</h3>
-        <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-          <li><strong>"I've noticed you taking everything in quietly. What's your take when you're not being rushed?"</strong> - Values their processing style</li>
-          <li><strong>"You seem like someone who sees all sides. What are most people here missing?"</strong> - Honors their perspective</li>
-          <li><strong>"What's something simple that brings you peace that others overlook?"</strong> - Connects to their values</li>
-        </ul>
-      </div>
-      <div class="mb-6">
-        <h3 id="type-9-hidden-psychology" class="text-xl font-semibold text-primary-800 mb-3 border-b border-primary-200 pb-2">The Hidden Psychology of Type 9s</h3>
-        <p class="text-neutral-700"><strong>What they're really thinking</strong>: "Is my presence actually wanted here or am I just filling space?" Type 9s have learned to merge with others' agendas to keep peace. They light up when someone specifically wants THEIR unique perspective. Make them feel essential, not optional.</p>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-success-50 p-4 rounded-lg">
-          <h3 id="type-9-connection-builders" class="text-xl font-semibold text-success-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-            ✓ Connection Builders for Type 9s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Listen patiently and attentively to their full response</li>
-            <li>Include them specifically in conversation ("I'd really like to hear your thoughts")</li>
-            <li>Acknowledge the wisdom in their balanced perspective</li>
-            <li>Create a comfortable, pressure-free atmosphere</li>
-            <li>Show genuine interest in their point of view</li>
-          </ul>
-        </div>
-        <div class="bg-error-50 p-4 rounded-lg">
-          <h3 id="type-9-harmony-disruptors" class="text-xl font-semibold text-error-700 mb-3 flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-            </svg>
-            ✗ Harmony Disruptors for Type 9s
-          </h3>
-          <ul class="list-disc pl-6 text-neutral-700 space-y-1">
-            <li>Creating conflict or tension in the environment</li>
-            <li>Rushing them to make decisions or express opinions quickly</li>
-            <li>Dismissing their concerns for harmony as unimportant</li>
-            <li>Interrupting or talking over them</li>
-            <li>Using high-pressure or confrontational approaches</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Horizontal Marquee Placeholder -->
-  <div class="my-12 py-4 bg-primary-100 rounded-lg overflow-hidden">
-    <div class="marquee-container">
-      <div class="flex space-x-6 animate-marquee">
-        <a href="/enneagram-corner/enneagram-types-in-stress" class="flex items-center px-4 py-2 bg-white rounded-full shadow-sm hover:shadow-md transition-shadow">
-          <span class="font-medium text-primary-700">in stress 😰</span>
-        </a>
-        <a href="/enneagram-corner/enneagram-communication-styles" class="flex items-center px-4 py-2 bg-white rounded-full shadow-sm hover:shadow-md transition-shadow">
-          <span class="font-medium text-primary-700">communication styles 🙊</span>
-        </a>
-        <a href="/enneagram-corner/enneagram-strengths-and-weaknesses" class="flex items-center px-4 py-2 bg-white rounded-full shadow-sm hover:shadow-md transition-shadow">
-          <span class="font-medium text-primary-700">strengths 💪 and weaknesses</span>
-        </a>
-        <a href="/enneagram-corner/biggest-compliments-to-give-each-enneagram-type" class="flex items-center px-4 py-2 bg-white rounded-full shadow-sm hover:shadow-md transition-shadow">
-          <span class="font-medium text-primary-700">biggest compliments 🌟</span>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Master the System Section -->
-  <div class="my-16 bg-primary-50 border border-primary-200 rounded-xl p-8">
-    <h2 id="master-first-impressions" class="text-3xl font-bold text-primary-800 mb-6 text-center">The First Impression Mastery System</h2>
-    
-    <div class="mb-8">
-      <h3 class="text-xl font-semibold text-primary-800 mb-4">Why Type-Specific First Impressions Work</h3>
-      <p class="text-lg text-neutral-700 mb-4">Generic rapport-building fails because it assumes everyone connects the same way. Type 3s see through fake interest. Type 4s reject surface-level pleasantries. Type 9s shut down under pressure.</p>
-      <p class="text-lg text-neutral-700 mb-4">When you decode their type and adjust your approach, you're speaking their emotional language from word one.</p>
-    </div>
-    
-    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
-      <h3 class="text-xl font-semibold text-primary-800 mb-4">The 60-Second Assessment Framework</h3>
-      <div class="space-y-4">
-        <div class="border-l-4 border-primary-500 pl-4">
-          <p class="font-semibold text-primary-700">0-10 seconds: Energy Read</p>
-          <p class="text-neutral-700">High energy + future-focused → likely 3, 7, 8<br/>Warm + people-focused → likely 2, 6, 9<br/>Reserved + observing → likely 1, 4, 5</p>
-        </div>
-        <div class="border-l-4 border-primary-500 pl-4">
-          <p class="font-semibold text-primary-700">10-30 seconds: Core Driver</p>
-          <p class="text-neutral-700">Listen for what they emphasize: standards (1), relationships (2), achievements (3), uniqueness (4), knowledge (5), security (6), possibilities (7), control (8), or harmony (9)</p>
-        </div>
-        <div class="border-l-4 border-primary-500 pl-4">
-          <p class="font-semibold text-primary-700">30-60 seconds: Confirmation</p>
-          <p class="text-neutral-700">Test with a type-specific question from this guide. Their response confirms or redirects your read.</p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="bg-primary-100 p-6 rounded-lg shadow-md my-6 border-l-4 border-primary-600">
-      <blockquote class="text-primary-900 font-semibold text-lg">"Understanding beats charisma. When you decode someone's type, you can give them exactly what they need to feel seen."</blockquote>
-    </div>
-    
-    <div class="mb-8">
-      <h3 class="text-xl font-semibold text-primary-800 mb-4">Your Practice Protocol</h3>
-      <ol class="list-decimal pl-6 text-neutral-700 space-y-3">
-        <li><strong>This week</strong>: Pick 3 people you'll meet. Guess their type beforehand based on what you know.</li>
-        <li><strong>In the moment</strong>: Use their type's specific approach and questions from this guide.</li>
-        <li><strong>After</strong>: Note what worked and what didn't. Refine your type radar.</li>
-        <li><strong>Level up</strong>: Start recognizing types in 30 seconds instead of 60.</li>
-      </ol>
-    </div>
-    
-    <div class="text-center mt-8">
-      <p class="text-lg font-semibold text-primary-800 mb-4">Ready to transform your first impressions?</p>
-      <div class="space-y-4">
-        <a href="/questions" class="inline-block mb-4 bg-primary-600 hover:bg-primary-700 text-white font-medium py-3 px-6 rounded-lg transition-colors">
-          Practice on Real Situations →
-        </a>
-        <p class="text-sm text-neutral-600">Join discussions where people share their first impression challenges</p>
-        
-        <a href="/enneagram-corner/first-impression-cheat-sheet" class="inline-block text-primary-600 hover:text-primary-700 font-medium">
-          Get the Quick Reference Guide →
-        </a>
-      </div>
-    </div>
-  </div>
-  
-  <!-- FAQ Section -->
-  <div class="my-16">
-    <h2 class="text-3xl font-bold text-primary-800 mb-8">First Impression FAQs</h2>
-    
-    <div class="space-y-6">
-      <div class="bg-white p-6 rounded-lg shadow-md">
-        <h3 class="text-xl font-semibold text-primary-700 mb-3">What if I guess their type wrong?</h3>
-        <p class="text-neutral-700">That's data! If your Type 3 approach doesn't land, pivot. Maybe they're a 1 who values precision over achievement, or a 7 who wants energy over efficiency. Wrong guesses teach you to read people better.</p>
-      </div>
-      
-      <div class="bg-white p-6 rounded-lg shadow-md">
-        <h3 class="text-xl font-semibold text-primary-700 mb-3">How quickly can I identify someone's type?</h3>
-        <p class="text-neutral-700">With practice: 60-80% accuracy in the first conversation. Perfect accuracy isn't the goal—connection is. Use these approaches as starting points, then adjust based on their actual responses.</p>
-      </div>
-      
-      <div class="bg-white p-6 rounded-lg shadow-md">
-        <h3 class="text-xl font-semibold text-primary-700 mb-3">Do these techniques work in professional settings?</h3>
-        <p class="text-neutral-700">Absolutely. In fact, they're even more powerful in professional contexts where people expect generic interactions. When you speak to a Type 8 interviewer with directness or show a Type 6 client you've thought through risks, you immediately stand out.</p>
-      </div>
-      
-      <div class="bg-white p-6 rounded-lg shadow-md">
-        <h3 class="text-xl font-semibold text-primary-700 mb-3">What's the biggest first impression mistake?</h3>
-        <p class="text-neutral-700">Using your own type's preferences on everyone else. Type 2s overwhelm 5s with warmth. Type 8s intimidate 9s with directness. The magic happens when you adjust your natural style to match what they need.</p>
-      </div>
-    </div>
-  </div>
 </div>
+
+### The Universal Truth Nobody Talks About
+
+**People don't want connection. They want THEIR version of connection.**
+
+And their Enneagram type determines exactly what that looks like.
+
+<section class="section-content">
+
+## Type 1 - The Perfectionist: They're Grading You Already
+
+### The 10-Second Test You Don't Know You're Taking
+
+**Body language tells:**
+- Scanning your appearance for effort
+- Checking time obsessively
+- Sitting with perfect posture
+- Micro-expressions of judgment
+
+They're not looking for perfection. They're looking for **evidence you give a damn.**
+
+### You Might Be Talking to a Type 1 If:
+- They correct something small in passing
+- Their workspace is suspiciously organized
+- They use phrases like "the right way" or "properly"
+- They physically tense at inefficiency
+- They arrived 10 minutes early
+
+### The Hidden Psychology
+
+**What they're really thinking:** *"Can I respect this person's standards?"*
+
+Their inner critic runs 24/7. If you pass their initial quality check, they relax into actual human connection.
+
+### Your 60-Second Playbook
+
+**Opening move:** Arrive early. Firm handshake. One specific compliment about something they've clearly put effort into.
+
+**Power questions that hook Type 1s:**
+- "What's something you've improved recently that most people wouldn't notice?"
+- "How do you maintain such high standards without burning out?"
+- "What's your take on [topic]? You seem like someone who's thought this through."
+
+**Body language that works:**
+- Upright posture (mirror theirs)
+- Clean, deliberate gestures
+- Direct eye contact
+- No fidgeting
+
+**Instant trust builders:**
+✓ Reference a system or process you follow  
+✓ Admit a mistake and how you fixed it  
+✓ Show appreciation for quality  
+✓ Keep your word on tiny things  
+
+**Connection killers:**
+✗ Being late without acknowledgment  
+✗ Sloppy appearance or speech  
+✗ Suggesting ethical shortcuts  
+✗ Making excuses  
+
+> **Going deeper with Type 1s:** <a href="/enneagram-corner/enneagram-type-1">Understand their inner world →</a>
+
+</section>
+
+<section class="section-content">
+
+## Type 2 - The Helper: They're Reading Your Heart
+
+### The Emotional Temperature Check
+
+**Body language tells:**
+- Leaning in when others speak
+- Touching arm while talking
+- Remembering everyone's name
+- Offering help before asked
+
+They're not being nice. They're **scanning for emotional availability.**
+
+### You Might Be Talking to a Type 2 If:
+- They ask about your comfort/needs immediately
+- They remember personal details from last time
+- They're connecting people to each other
+- They deflect compliments reflexively
+- They look physically pained when unable to help
+
+### The Hidden Psychology
+
+**What they're really thinking:** *"Am I needed here? Do they see my value?"*
+
+They've been earning love through service since childhood. Show them they matter beyond their usefulness.
+
+### Your 60-Second Playbook
+
+**Opening move:** Warm smile. Use their name twice. Ask how THEY are (and mean it).
+
+**Power questions that hook Type 2s:**
+- "You seem like someone who takes care of everyone—who takes care of you?"
+- "What's the most meaningful way someone's helped you recently?"
+- "How did you develop such strong emotional intelligence?"
+
+**Body language that works:**
+- Open posture
+- Genuine facial expressions
+- Appropriate touch (handshake with both hands)
+- Leaning in when they speak
+
+**Instant trust builders:**
+✓ Accept their help graciously  
+✓ Share a vulnerability  
+✓ Notice their efforts specifically  
+✓ Offer to help them with something  
+
+**Connection killers:**
+✗ All business, no warmth  
+✗ Rejecting their offers to help  
+✗ Not reciprocating personal sharing  
+✗ Treating them like staff  
+
+> **Understanding Type 2s:** <a href="/enneagram-corner/enneagram-type-2">Why they give until it hurts →</a>
+
+</section>
+
+<section class="section-content">
+
+## Type 3 - The Achiever: They're Calculating Your Value
+
+### The Success Scanner
+
+**Body language tells:**
+- Firm handshake with eye contact
+- Checking phone frequently
+- Dressed one level above occasion
+- Name-dropping naturally
+
+They're not showing off. They're **establishing pecking order.**
+
+### You Might Be Talking to a Type 3 If:
+- They lead with credentials
+- They ask what you do within 60 seconds
+- They're multitasking while talking
+- They light up at recognition
+- They have that "closing deals" energy
+
+### The Hidden Psychology
+
+**What they're really thinking:** *"Are they successful enough to be worth my time?"*
+
+Love equals achievement in their world. Show them you're going places too.
+
+### Your 60-Second Playbook
+
+**Opening move:** Strong energy. Match their pace. Lead with a recent win.
+
+**Power questions that hook Type 3s:**
+- "What's the biggest win you're working toward right now?"
+- "How did you build such impressive momentum?"
+- "What's your secret to getting so much done?"
+
+**Body language that works:**
+- Power posture
+- Efficient gestures
+- Time awareness
+- High energy level
+
+**Instant trust builders:**
+✓ Recognize their achievements specifically  
+✓ Share your own ambitions  
+✓ Demonstrate competence quickly  
+✓ Respect their time  
+
+**Connection killers:**
+✗ Wasting their time with rambling  
+✗ Not knowing who they are  
+✗ Low energy or ambition  
+✗ Questioning their success  
+
+> **Type 3s unmasked:** <a href="/enneagram-corner/enneagram-type-3">Beyond the success facade →</a>
+
+</section>
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
+
+<section class="section-content">
+
+## Type 4 - The Individualist: They're Testing Your Depth
+
+### The Authenticity Detector
+
+**Body language tells:**
+- Unique style choices
+- Intense eye contact or none
+- Dramatic hand gestures
+- Visible emotional shifts
+
+They're not being difficult. They're **screening for depth.**
+
+### You Might Be Talking to a Type 4 If:
+- They cringe at small talk
+- They share something deeply personal quickly
+- They're wearing something nobody else would
+- They ask about feelings, not facts
+- They seem slightly removed from the group
+
+### The Hidden Psychology
+
+**What they're really thinking:** *"Do they see how different I am? Can they handle my intensity?"*
+
+Ordinary feels like death to them. Show them you see their uniqueness.
+
+### Your 60-Second Playbook
+
+**Opening move:** Notice something unique about them. Skip the weather. Go deep fast.
+
+**Power questions that hook Type 4s:**
+- "What's something you see that most people miss?"
+- "When did you realize you were different?"
+- "What are you creating right now?"
+
+**Body language that works:**
+- Authentic expressions
+- Emotional availability
+- Artistic gestures
+- Intensity matching
+
+**Instant trust builders:**
+✓ Share something vulnerable  
+✓ Appreciate their uniqueness specifically  
+✓ Go beyond surface conversation  
+✓ Show your own depth  
+
+**Connection killers:**
+✗ Generic compliments  
+✗ Forced positivity  
+✗ Comparing them to others  
+✗ Surface-level anything  
+
+> **The Type 4 experience:** <a href="/enneagram-corner/enneagram-type-4">Living at emotional extremes →</a>
+
+</section>
+
+<section class="section-content">
+
+## Type 5 - The Investigator: They're Analyzing Your Intelligence
+
+### The Competence Calculator
+
+**Body language tells:**
+- Maintaining physical distance
+- Minimal eye contact
+- Economical gestures
+- Observing before engaging
+
+They're not cold. They're **conserving energy for what matters.**
+
+### You Might Be Talking to a Type 5 If:
+- They take long pauses before responding
+- They ask precise, specific questions
+- They're in the corner at social events
+- They light up at intellectual topics
+- They seem to be taking mental notes
+
+### The Hidden Psychology
+
+**What they're really thinking:** *"Are they intellectually interesting enough to warrant my energy?"*
+
+Knowledge is safety. Stupidity is danger. Show them your brain first.
+
+### Your 60-Second Playbook
+
+**Opening move:** Respect their space. Lead with ideas, not feelings. One fascinating fact.
+
+**Power questions that hook Type 5s:**
+- "What are you researching lately?"
+- "What's your take on [complex topic]?"
+- "Have you noticed [interesting observation]?"
+
+**Body language that works:**
+- Respectful distance
+- Minimal gestures
+- Calm energy
+- No touching
+
+**Instant trust builders:**
+✓ Share unique knowledge  
+✓ Respect their boundaries  
+✓ Ask for their expertise  
+✓ Give them processing time  
+
+**Connection killers:**
+✗ Invading personal space  
+✗ Emotional overwhelm  
+✗ Demanding immediate responses  
+✗ Anti-intellectual attitudes  
+
+> **Inside Type 5s:** <a href="/enneagram-corner/enneagram-type-5">The fortress of the mind →</a>
+
+</section>
+
+<section class="section-content">
+
+## Type 6 - The Loyalist: They're Testing Your Trustworthiness
+
+### The Safety Assessment
+
+**Body language tells:**
+- Nervous energy
+- Scanning environment
+- Testing questions
+- Loyalty displays
+
+They're not paranoid. They're **pattern-matching for danger.**
+
+### You Might Be Talking to a Type 6 If:
+- They ask lots of "what if" questions
+- They mention past betrayals
+- They're checking your consistency
+- They show strong group loyalty
+- They seem anxious but engaged
+
+### The Hidden Psychology
+
+**What they're really thinking:** *"Can I trust them? What's their agenda?"*
+
+The world proved dangerous early. Show them you're safe through consistency.
+
+### Your 60-Second Playbook
+
+**Opening move:** Calm presence. Consistent behavior. No sudden moves.
+
+**Power questions that hook Type 6s:**
+- "What helps you know who to trust?"
+- "How do you stay grounded when things get uncertain?"
+- "Who's in your inner circle?"
+
+**Body language that works:**
+- Steady, predictable movements
+- Reassuring tone
+- Open, honest expressions
+- Consistent energy
+
+**Instant trust builders:**
+✓ Be transparent about intentions  
+✓ Show loyalty to others  
+✓ Keep small promises  
+✓ Acknowledge their concerns  
+
+**Connection killers:**
+✗ Inconsistent stories  
+✗ Dismissing their worries  
+✗ Overconfidence without substance  
+✗ Pressuring for quick trust  
+
+> **Type 6 anxiety patterns:** <a href="/enneagram-corner/enneagram-type-6">From fear to security →</a>
+
+</section>
+
+<section class="section-content">
+
+## Type 7 - The Enthusiast: They're Measuring Your Fun Factor
+
+### The Energy Evaluator
+
+**Body language tells:**
+- Animated everything
+- Multiple conversation threads
+- Restless movement
+- Infectious laughter
+
+They're not scattered. They're **optimizing for maximum life experience.**
+
+### You Might Be Talking to a Type 7 If:
+- They're planning five things simultaneously
+- They pivot topics rapidly
+- They're the loudest laugher
+- They suggest spontaneous adventures
+- They physically can't sit still
+
+### The Hidden Psychology
+
+**What they're really thinking:** *"Will they add to my life or drain it?"*
+
+Boredom equals death. Pain equals danger. Be their dopamine hit.
+
+### Your 60-Second Playbook
+
+**Opening move:** Match their energy. Share something exciting. Suggest possibilities.
+
+**Power questions that hook Type 7s:**
+- "What's the most exciting thing in your life right now?"
+- "What adventure is next on your list?"
+- "Have you tried [exciting experience]?"
+
+**Body language that works:**
+- High energy
+- Expressive gestures
+- Genuine smiles
+- Movement and animation
+
+**Instant trust builders:**
+✓ Match their enthusiasm  
+✓ Share exciting ideas  
+✓ Be spontaneous  
+✓ Keep things light initially  
+
+**Connection killers:**
+✗ Being a downer  
+✗ Limiting their options  
+✗ Getting too heavy too fast  
+✗ Killing their ideas  
+
+> **The Type 7 paradox:** <a href="/enneagram-corner/enneagram-type-7">Running from pain into it →</a>
+
+</section>
+
+<section class="section-content">
+
+## Type 8 - The Challenger: They're Testing Your Strength
+
+### The Power Assessment
+
+**Body language tells:**
+- Taking up space
+- Direct, unblinking stare
+- Firm everything
+- Protective positioning
+
+They're not intimidating you. They're **checking if you can handle them.**
+
+### You Might Be Talking to a Type 8 If:
+- They test you with confrontation
+- They respect pushback
+- They protect the underdog
+- They speak in absolutes
+- They radiate "don't fuck with me" energy
+
+### The Hidden Psychology
+
+**What they're really thinking:** *"Are they strong enough to be trusted?"*
+
+Weakness invites predators. Show them your spine.
+
+### Your 60-Second Playbook
+
+**Opening move:** Strong handshake. Direct eye contact. Stand your ground.
+
+**Power questions that hook Type 8s:**
+- "What battle are you fighting right now?"
+- "Who do you respect and why?"
+- "What injustice pisses you off most?"
+
+**Body language that works:**
+- Power posture
+- Direct gaze
+- Firm gestures
+- No shrinking
+
+**Instant trust builders:**
+✓ Stand up to them respectfully  
+✓ Show protective instincts  
+✓ Be direct, no games  
+✓ Demonstrate competence  
+
+**Connection killers:**
+✗ Weakness or waffling  
+✗ Manipulation attempts  
+✗ Excessive emotion  
+✗ Going behind their back  
+
+> **Type 8 vulnerability:** <a href="/enneagram-corner/enneagram-type-8">The soft heart under armor →</a>
+
+</section>
+
+<section class="section-content">
+
+## Type 9 - The Peacemaker: They're Ensuring Harmony
+
+### The Comfort Checker
+
+**Body language tells:**
+- Soft, agreeable presence
+- Mirroring your energy
+- Avoiding confrontation
+- Inclusive gestures
+
+They're not passive. They're **managing everyone's comfort.**
+
+### You Might Be Talking to a Type 9 If:
+- They agree with everything
+- They deflect from themselves
+- They mediate conflicts naturally
+- They seem to disappear in groups
+- They have that "human Xanax" energy
+
+### The Hidden Psychology
+
+**What they're really thinking:** *"How do I keep everyone comfortable?"*
+
+Conflict means disconnection. Help them feel safe to exist.
+
+### Your 60-Second Playbook
+
+**Opening move:** Gentle energy. No pressure. Create space for them to emerge.
+
+**Power questions that hook Type 9s:**
+- "What's your take when you have time to think?"
+- "What do YOU actually want?"
+- "When do you feel most yourself?"
+
+**Body language that works:**
+- Relaxed posture
+- Gentle movements
+- Patient presence
+- No aggressive energy
+
+**Instant trust builders:**
+✓ Give them time to respond  
+✓ Ask their opinion specifically  
+✓ Create comfortable silence  
+✓ Appreciate their calming presence  
+
+**Connection killers:**
+✗ Forcing quick decisions  
+✗ Creating conflict  
+✗ Ignoring their presence  
+✗ Aggressive energy  
+
+> **Finding Type 9s:** <a href="/enneagram-corner/enneagram-type-9">The invisible peacekeeper →</a>
+
+</section>
+
+## Your First Impression Cheat Sheet
+
+### The 10-Second Read
+
+**Look for these instant tells:**
+1. **Energy level** - High (3,7,8) vs Low (4,5,9) vs Controlled (1,2,6)
+2. **Eye contact** - Intense (4,8) vs Minimal (5,9) vs Searching (1,2,3,6,7)
+3. **Physical space** - Invading (2,8) vs Protecting (5,6) vs Neutral (1,3,4,7,9)
+4. **Speaking style** - Rapid (3,7) vs Measured (1,5) vs Responsive (2,6,9) vs Intense (4,8)
+
+### The Universal First Impression Hack
+
+**When in doubt:**
+1. Mirror their energy level
+2. Respect their space preferences
+3. Match their emotional temperature
+4. Ask about what lights them up
+
+## The Science Behind Instant Connection
+
+**MIT research shows:** We make 11 major decisions about someone in the first 7 seconds.
+
+**What the Enneagram reveals:** Those decisions are filtered through our type's core fear and desire.
+
+- Type 1s scan for: Competence
+- Type 2s scan for: Warmth
+- Type 3s scan for: Success
+- Type 4s scan for: Depth
+- Type 5s scan for: Intelligence
+- Type 6s scan for: Safety
+- Type 7s scan for: Fun
+- Type 8s scan for: Strength
+- Type 9s scan for: Peace
+
+**Give them what they're scanning for, and the door opens.**
+
+## Your Action Plan
+
+1. **This week:** Identify three people's types using the tells above
+2. **Test it:** Use their type's playbook in your next interaction
+3. **Notice:** How the conversation shifts when you speak their language
+4. **Advanced move:** Share this with someone and guess each other's types
+
+The person across from you isn't mysterious.
+
+They're predictable—once you know their type.
+
+Stop using generic approaches. Start speaking their emotional language.
+
+**First impressions aren't about being liked. They're about being understood.**
+
+> **Master all 9 types:** <a href="/enneagram-corner/enneagram-types-at-party">See how each type works a room →</a>
 
 <svelte:head>
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",
-      "articleBody": "This tactical guide provides type-specific strategies for making great first impressions with each Enneagram type. Learn conversation starters, approaches, and connection points that create instant rapport, whether for job interviews, dates, or business meetings.",
+      "headline": "Read Anyone in 30 Seconds: The Enneagram Body Language Cheat Sheet",
+      "description": "Stop guessing what people want. Learn the 9 personality tells that reveal exactly how to connect with anyone instantly—from job interviews to first dates.",
+      "datePublished": "2025-05-20",
+      "dateModified": "2025-08-15",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-07-18",
-      "datePublished": "2025-05-20",
-      "description": "A tactical guide for connecting with each Enneagram type in your first meeting. Learn the right questions, approaches, and connection points for instant rapport.",
-      "headline": "First Impression Enneagram Guide: Decode Anyone in 60 Seconds",
-      "keywords": ["first impression Enneagram", "Enneagram rapport building", "personality type first meeting", "instant connection techniques", "Enneagram conversation starters", "decode personality quickly", "first impression strategies", "Enneagram social skills", "rapport building guide", "personality recognition"],
-      "wordCount": 5200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/first-impression-enneagram-playbook",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/first-impression-enneagram-playbook",
-        "@type": "WebPage"
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
       "publisher": {
         "@type": "Organization",
@@ -743,46 +659,47 @@ pic: 'greek-statues-getting-ready-to-approach'
         "logo": {
           "@type": "ImageObject",
           "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/enneagram-corner/first-impression-enneagram-playbook"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://9takes.com/blogs/greek-statues-getting-ready-to-approach.webp",
+        "width": 1200,
+        "height": 630
+      },
+      "articleBody": "Complete guide to reading personality types through body language and making powerful first impressions. Learn the specific tells, questions, and approaches that create instant rapport with each Enneagram type.",
+      "wordCount": 3500,
+      "keywords": ["first impressions", "body language", "Enneagram types", "personality assessment", "instant rapport", "reading people", "nonverbal communication", "personality tells", "connection strategies"]
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What conversation starters work best for Enneagram Type 1s?",
+          "name": "How can you tell someone's Enneagram type in 30 seconds?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "For Type 1s, acknowledge their attention to detail with questions like 'Do you always have such great attention to detail?' or ask about organization and improvement opportunities. They respond well to recognition of their standards and principles."
+            "text": "Look for key body language tells: Type 1s check time and maintain perfect posture, Type 2s lean in with warm smiles, Type 3s lead with firm handshakes and credentials, Type 4s display unique style choices, Type 5s maintain distance with minimal eye contact, Type 6s show nervous energy with testing questions, Type 7s use animated gestures, Type 8s take up space with direct stares, and Type 9s mirror others with soft presence."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I build trust quickly with an Enneagram Type 6?",
+          "name": "What's the fastest way to connect with each Enneagram type?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Build trust with Type 6s by being completely honest about capabilities and limitations, acknowledging potential problems rather than glossing over them, and demonstrating reliability through consistent words and actions. Avoid vague assurances without specific support."
+            "text": "Give each type what they're scanning for: Type 1s need competence signals, Type 2s need emotional warmth, Type 3s need respect for achievement, Type 4s need depth recognition, Type 5s need intellectual space, Type 6s need trustworthiness proof, Type 7s need energy matching, Type 8s need strength respect, and Type 9s need non-threatening presence."
           }
         },
         {
           "@type": "Question",
-          "name": "What energy should I bring when meeting an Enneagram Type 7?",
+          "name": "What kills connection with each Enneagram type?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Match Type 7s' enthusiastic energy authentically, show curiosity about their interests, be open to spontaneity in conversation, and share interesting possibilities they might not have considered. Avoid being overly negative or rigidly structured."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can I show respect to an Enneagram Type 8 in our first meeting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Show respect to Type 8s by being straightforward and getting to the point quickly, standing your ground respectfully if you disagree, demonstrating competence and conviction, and addressing conflicts directly rather than avoiding them."
+            "text": "Each type has specific connection killers: Being late or sloppy (Type 1), cold professionalism (Type 2), not knowing who they are (Type 3), generic small talk (Type 4), forced emotional connection (Type 5), overconfidence without substance (Type 6), being negative (Type 7), showing weakness (Type 8), and aggressive energy (Type 9)."
           }
         }
       ]
@@ -794,15 +711,5 @@ pic: 'greek-statues-getting-ready-to-approach'
 </svelte:head>
 
 <style lang="scss">
-  
-  
-  @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-  }
-  
-  .animate-marquee {
-    animation: marquee 30s linear infinite;
-    min-width: max-content;
-  }
+
 </style>

@@ -22,8 +22,16 @@
       "Bash(pnpm svelte-check:*)",
       "Bash(powershell:*)",
       "Bash(npm run check:*)",
-      "Bash(pnpm lint:*)"
+      "Bash(pnpm lint:*)",
+      "Bash(for:*)",
+      "Bash(wc:*)",
+      "Bash(do [ -f \"$file\" ])",
+      "Bash(echo \"=== $file ===\")"
     ],
-    "deny": []
+    "deny": [],
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"
+    ]
   }
 }
