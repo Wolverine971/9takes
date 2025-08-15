@@ -47,6 +47,7 @@ Not who they were, but **who they could become** with just a little... refinemen
 Enneagram Type 1s don't just love—they love with an improvement plan. Their inner critic, that relentless voice that's been cataloging imperfections since childhood, doesn't take a vacation for romance. If anything, it works overtime.
 
 Watch a Type 1 in love and you'll see a fascinating contradiction:
+
 - They chose you (which means you passed their standards)
 - Yet they can't stop noticing what needs fixing
 - They love deeply but express it through "constructive feedback"
@@ -61,6 +62,7 @@ So they edit. Constantly. That misplaced dish isn't just a dish—it's evidence 
 The very thing they want most—deep, authentic connection—requires the very thing they fear most: embracing imperfection.
 
 **What breaks the pattern:**
+
 - Partners who acknowledge effort before criticizing results
 - Learning that "good enough" isn't giving up—it's growing up
 - Discovering that love isn't a project to perfect but a mystery to experience
@@ -83,7 +85,7 @@ Sad? They've already cleared their schedule.
 
 Type 2s don't just love—they **become love incarnate**. They're emotional psychics, relationship ninjas, the partners who make you wonder how you ever survived without them.
 
-*Until they explode.*
+_Until they explode._
 
 Because here's what's really happening:
 
@@ -106,6 +108,7 @@ Leaving their partner confused: "But I never asked you to..."
 **The tragic truth:** Type 2s create the very abandonment they fear by never letting anyone truly care for them.
 
 **What breaks the cycle:**
+
 - Partners who insist on reciprocating (even when Twos resist)
 - Learning that having needs doesn't make you needy
 - Understanding that love isn't earned—it just is
@@ -128,19 +131,20 @@ The relationship? A well-oiled machine.
 
 Type 3s approach love like a LinkedIn profile—optimized, strategic, impressive. They're the partners who never forget anniversaries (calendar reminders), always look good in photos (practiced angles), and somehow maintain a relationship while crushing it at work.
 
-But ask them how they *feel* and watch them short-circuit.
+But ask them how they _feel_ and watch them short-circuit.
 
 **Feel?**
 
-They'll tell you what they've *accomplished* today.  
-What they're *planning* tomorrow.  
-Their relationship *milestones*.
+They'll tell you what they've _accomplished_ today.  
+What they're _planning_ tomorrow.  
+Their relationship _milestones_.
 
 Anything but that scary four-letter word: feel.
 
 **The core terror:** "Without my achievements, who am I?"
 
 So they perform love rather than feel it:
+
 - Instagram-worthy dates that look better than they feel
 - Relationship goals that miss the point of relationship
 - Being the "perfect partner" while remaining perfectly distant
@@ -150,6 +154,7 @@ So they perform love rather than feel it:
 They're so busy earning love, they never stop to receive it.
 
 **What changes everything:**
+
 - Partners who celebrate them for being, not doing
 - Moments where nothing needs to be accomplished
 - Learning that vulnerability is the ultimate achievement
@@ -172,13 +177,14 @@ Here's the thing:
 
 They're right. You don't.
 
-*And that's the point.*
+_And that's the point._
 
 Type 4s don't want to be understood—they want to be **unknowable**. Because if you could fully understand them, they wouldn't be special. And if they're not special, then that terrible fear might be true:
 
 **They're fundamentally defective.**
 
 So they create emotional storms to test you:
+
 - Push you away to see if you'll pursue
 - Create drama to feel alive
 - Sabotage happiness because melancholy feels safer
@@ -197,6 +203,7 @@ For them. For you. For everyone.
 Beneath all that intensity is a person who just wants to be loved for exactly who they are—missing pieces and all.
 
 **What heals the wound:**
+
 - Partners who don't try to cheer them up or fix them
 - Steady presence during emotional hurricanes
 - Showing them their "brokenness" is actually their beauty
@@ -220,6 +227,7 @@ Beneath all that intensity is a person who just wants to be loved for exactly wh
 You just might not know it.
 
 Because Type 5s express love through:
+
 - Sharing their research on your problems
 - Sitting in the same room (while reading)
 - Remembering obscure facts you mentioned once
@@ -236,6 +244,7 @@ Think of them as emotional introverts on steroids.
 **The core fear:** "If I let you in completely, I'll cease to exist."
 
 So they parcel out intimacy in carefully measured doses:
+
 - Monday: Share one (1) feeling
 - Tuesday: Recover from sharing feeling
 - Wednesday: Consider holding hands
@@ -247,6 +256,7 @@ So they parcel out intimacy in carefully measured doses:
 They crave connection but fear consumption. Want intimacy but need distance. Love deeply but express it like a dissertation.
 
 **What opens the fortress:**
+
 - Partners who respect boundaries without taking them personally
 - Understanding that their love language is "research"
 - Recognizing withdrawal isn't rejection—it's recharging
@@ -270,6 +280,7 @@ Then they'll say, "I knew it."
 This isn't pessimism—it's programming. Type 6s run a mental software that constantly scans for threats, betrayals, and abandonment. Even (especially) in love.
 
 Watch their relationship pattern:
+
 - Monday: "Do you really love me?"
 - Tuesday: "But what if you stop?"
 - Wednesday: "You're probably already pulling away."
@@ -283,6 +294,7 @@ For everyone.
 **The childhood download:** "The world isn't safe, and neither are people."
 
 So they become relationship security guards:
+
 - Checking your emotional perimeter
 - Testing your loyalty triggers
 - Creating worst-case scenarios
@@ -293,6 +305,7 @@ So they become relationship security guards:
 Their constant testing often creates the very abandonment they fear. Partners get exhausted by the doubt and leave, "proving" the Six was right to worry.
 
 **What breaks the anxiety loop:**
+
 - **Boring reliability** (excitement is suspicious)
 - Transparency to the point of TMI
 - Patience with their catastrophizing
@@ -312,11 +325,12 @@ Their constant testing often creates the very abandonment they fear. Partners ge
 **Second month:** Why are we having the same conversation?  
 **Third month:** "I need space to explore myself."
 
-*Translation: They're terrified.*
+_Translation: They're terrified._
 
 Type 7s don't fear commitment—they fear what commitment will reveal: **all the pain they've been outrunning since childhood**.
 
 Their relationship recipe:
+
 - Add constant stimulation
 - Avoid difficult conversations
 - When things get heavy, plan a trip
@@ -326,6 +340,7 @@ Their relationship recipe:
 **The core terror:** "If I stop moving, the pain will catch me."
 
 So they treat partners like entertainment channels:
+
 - You're fun? Great!
 - You're deep? Uh-oh.
 - You need to process emotions? They need to "run errands."
@@ -336,6 +351,7 @@ So they treat partners like entertainment channels:
 In their desperation to avoid pain, they avoid the very thing that could heal it: **genuine intimacy**.
 
 **What makes them stay:**
+
 - Partners who make depth feel like discovery
 - Reframing commitment as "exclusive adventure partner"
 - Showing them that feeling pain won't kill them
@@ -366,6 +382,7 @@ Won't show you where it hurts.
 **The childhood lesson:** "Vulnerability is how they get you."
 
 So they built armor. Thick, impenetrable, exhausting armor:
+
 - Anger instead of hurt
 - Control instead of trust
 - Intensity instead of intimacy
@@ -375,13 +392,14 @@ So they built armor. Thick, impenetrable, exhausting armor:
 
 They want partners strong enough to handle them but soft enough to need them. Independent enough to respect but dependent enough to stay. Tough enough to fight with but tender enough to comfort.
 
-*Good luck with that.*
+_Good luck with that._
 
 **The secret truth Type 8s will never admit:**
 
 Inside that armor is someone desperate to take it off. They're exhausted from being strong. They dream of safety. They crave the very softness they mock.
 
 **What melts the armor:**
+
 - Partners who aren't intimidated or controlled
 - Strength that doesn't require dominance
 - Creating safety for their secret softness
@@ -401,16 +419,17 @@ Inside that armor is someone desperate to take it off. They're exhausted from be
 
 "I don't mind."
 
-*They mind.*
+_They mind._
 
 They mind so much they've forgotten they're allowed to mind. They've been "not minding" for so long, their own preferences have become foreign territory.
 
 Ask a Type 9:
+
 - "What do you want for dinner?" → "Whatever you want."
 - "Where should we live?" → "Wherever makes you happy."
 - "Are you okay with this?" → "Sure, it's fine."
 
-**Six months later:** *Explosion*
+**Six months later:** _Explosion_
 
 "I NEVER wanted to eat Thai food! I HATE this city! Nothing is fine!"
 
@@ -421,6 +440,7 @@ Partner: "But you said—"
 **The childhood download:** "Your needs create conflict. Conflict destroys connection."
 
 So they learned to disappear:
+
 - Merge with others' preferences
 - Forget their own opinions
 - Become human Switzerland
@@ -431,6 +451,7 @@ So they learned to disappear:
 Their partners fall in love with an echo, not a person. A reflection, not a reality. And both parties wonder why the relationship feels empty.
 
 **What brings them back to themselves:**
+
 - Partners who refuse to accept "I don't mind"
 - Specific questions (not "what do you want?" but "pizza or burgers?")
 - Patience with their processing time
@@ -486,7 +507,7 @@ It's about finding someone worth breaking your patterns for.
 
 ---
 
-*Ready to go deeper? Discover [what happens when each type falls in love](/enneagram-corner/enneagram-types-on-a-first-date) or explore [how types handle heartbreak](/enneagram-corner/enneagram-types-being-ghosted).*
+_Ready to go deeper? Discover [what happens when each type falls in love](/enneagram-corner/enneagram-types-on-a-first-date) or explore [how types handle heartbreak](/enneagram-corner/enneagram-types-being-ghosted)._
 
 <svelte:head>
 

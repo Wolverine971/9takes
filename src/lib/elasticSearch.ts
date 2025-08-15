@@ -2,7 +2,11 @@
 import { Client } from '@elastic/elasticsearch';
 // import type { Request, Response } from '@sveltejs/kit';
 
-import { PRIVATE_ELASTIC_GENERAL, PRIVATE_ELASTIC_ADMIN, PRIVATE_ELASTICSEARCH_NODE } from '$env/static/private';
+import {
+	PRIVATE_ELASTIC_GENERAL,
+	PRIVATE_ELASTIC_ADMIN,
+	PRIVATE_ELASTICSEARCH_NODE
+} from '$env/static/private';
 
 export const elasticClient = new Client({
 	node: PRIVATE_ELASTICSEARCH_NODE || 'http://localhost:9200',

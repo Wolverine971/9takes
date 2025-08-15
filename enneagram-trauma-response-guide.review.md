@@ -1,6 +1,7 @@
 # Review Tracking: The Enneagram and Trauma Responses: A Mental Health Guide
 
 ## Blog Information
+
 - **Blog File:** src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md
 - **Created:** 2025-07-20
 - **Last Updated:** 2025-07-20
@@ -10,16 +11,20 @@
 ---
 
 ## Iteration 1: Initial Draft Review
+
 **Date:** 2025-07-20 14:30
 **Reviewer:** AI Assistant
 
 ### Content Completeness Check
+
 1. **Does the blog have a clear introduction that hooks the reader?**
+
    - [x] Yes [ ] No [ ] Needs improvement
    - **Response:** The introduction effectively uses a relatable scenario about family gatherings and different stress responses. It immediately connects to readers' experiences.
    - **Action:** None needed
 
 2. **Are all 9 Enneagram types covered with equal depth?**
+
    - [x] Yes [ ] No [ ] Some missing/uneven
    - **Response:** All 9 types are covered with trauma responses, healing approaches, and specific examples.
    - **Action:** None needed
@@ -30,7 +35,9 @@
    - **Action:** Add clear CTA inviting readers to discover their type and connect with others on their healing journey
 
 ### Technical Quality
+
 1. **Are there any factual errors about the Enneagram?**
+
    - **Issues Found:** None identified
    - **Response:** Enneagram descriptions align with established theory
 
@@ -39,10 +46,12 @@
    - **Response:** Content is educational but needs clearer boundaries about when to seek professional support
 
 ### User Feedback
+
 **Overall thoughts on this iteration:**
 [Awaiting user input]
 
 ### Action Items for Next Iteration
+
 1. Add stronger CTA linking to 9takes platform features
 2. Include disclaimer about professional mental health support
 3. Consider adding more specific examples of trauma responses
@@ -51,12 +60,15 @@
 ---
 
 ## Iteration 2: Audience Alignment Review
+
 **Date:** [Pending]
 **Reviewer:** [Pending]
 
 ### Primary Audience Alignment
+
 1. **Does the content speak directly to the primary audience's pain points?**
-   - **Pain points addressed:** 
+
+   - **Pain points addressed:**
      - Feeling alone in trauma responses
      - Not understanding why they react differently
      - Seeking validation for their experiences
@@ -65,11 +77,12 @@
    - **Response:** [Awaiting user input]
 
 2. **Is the language appropriate for the target demographic?**
+
    - [ ] Too technical [ ] Just right [ ] Too simple
    - **Response:** [Awaiting user input]
 
 3. **Are the examples relatable to the target audience?**
-   - **Strong examples:** 
+   - **Strong examples:**
      - Family gathering scenario
      - Workplace stress responses
      - Relationship patterns
@@ -77,30 +90,37 @@
    - **Response:** [Awaiting user input]
 
 ### Secondary Audience Consideration
+
 1. **How well does the content serve secondary audiences?**
    - **Response:** [Awaiting user input]
 
 ### User Feedback
+
 **Audience targeting thoughts:**
 [Awaiting user input]
 
 ### Action Items for Next Iteration
+
 1. [Pending based on feedback]
 2. [Pending based on feedback]
 
 ---
 
 ## Iteration 3: Platform Optimization Review
+
 **Date:** [Pending]
 **Reviewer:** [Pending]
 
 ### Social Media Content Review
+
 1. **Twitter Content Assessment**
+
    - **Thread quality (1-10):** [Pending]
    - **Standalone tweets engaging?** [ ] Yes [ ] No
    - **Response:** [Awaiting creation and review]
 
 2. **Instagram Content Assessment**
+
    - **Visual concepts clear?** [ ] Yes [ ] No
    - **Captions compelling?** [ ] Yes [ ] No
    - **Response:** [Awaiting creation and review]
@@ -111,28 +131,35 @@
    - **Response:** [Awaiting creation and review]
 
 ### Cross-Platform Consistency
+
 1. **Is the core message consistent across platforms?**
    - **Response:** [Awaiting platform content creation]
 
 ### User Feedback
+
 **Platform optimization thoughts:**
 [Awaiting user input]
 
 ### Action Items for Next Iteration
+
 1. Create platform-specific content files
 2. [Additional items pending]
 
 ---
 
 ## Iteration 4: Final Quality Review
+
 **Date:** [Pending]
 **Reviewer:** [Pending]
 
 ### Overall Quality Assessment
+
 1. **Content Impact (1-10):** [Pending]
+
    - **Rationale:** [To be assessed]
 
 2. **SEO Optimization (1-10):** [Pending]
+
    - **Keywords properly integrated?** [ ] Yes [ ] No
    - **Meta description compelling?** [ ] Yes [ ] No
 
@@ -141,6 +168,7 @@
    - **Supports platform goals?** [ ] Yes [ ] No
 
 ### Final Checklist
+
 - [ ] All typos and grammar issues fixed
 - [ ] All links tested and working
 - [ ] Images have alt text
@@ -149,14 +177,17 @@
 - [ ] Reddit strategy documented
 
 ### User Decision
+
 **Ready to publish?** [ ] Yes [ ] No [ ] Needs minor fixes
 
 ### Final Notes
+
 [Pending final review]
 
 ---
 
 ## Post-Publication Notes
+
 **Published Date:** [Pending]
 **Initial Performance:** [To be tracked]
 **Lessons Learned:** [To be documented]
@@ -166,6 +197,7 @@
 ## Deviation Log
 
 ### 2025-07-20
+
 - Initial review identifies need for professional help disclaimer
 - CTA needs to be more specific to 9takes platform features
 - Consider adding content warning for trauma-related content
@@ -174,9 +206,9 @@
 
 ## Review History
 
-| Date | Reviewer | Iteration | Key Changes | Status |
-|------|----------|-----------|-------------|---------|
-| 2025-07-20 | AI | 1 | Initial draft review, identified CTA and disclaimer needs | Pending user review |
+| Date       | Reviewer | Iteration | Key Changes                                               | Status              |
+| ---------- | -------- | --------- | --------------------------------------------------------- | ------------------- |
+| 2025-07-20 | AI       | 1         | Initial draft review, identified CTA and disclaimer needs | Pending user review |
 
 ---
 

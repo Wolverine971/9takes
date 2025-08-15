@@ -3,38 +3,40 @@
 ## How to Update the Actions
 
 Add these imports at the top of the file:
+
 ```typescript
 import { logger } from '$lib/utils/logger';
-import { 
-  createCommentSchema, 
-  likeCommentSchema, 
-  subscribeSchema, 
-  saveLinkClickSchema, 
-  flagCommentSchema, 
-  updateQuestionImgSchema,
-  validateFormData 
+import {
+	createCommentSchema,
+	likeCommentSchema,
+	subscribeSchema,
+	saveLinkClickSchema,
+	flagCommentSchema,
+	updateQuestionImgSchema,
+	validateFormData
 } from '$lib/validation/questionSchemas';
 ```
 
 ## Update Each Action
 
 ### 1. createComment Action
+
 ```typescript
 createComment: async ({ request, getClientAddress }) => {
   try {
     const { body, demo_time } = await getRequestData(request);
-    
+
     // Validate the comment data
     const validatedData = createCommentSchema.parse(body);
-    
+
     logger.info('Creating comment', {
       parentId: validatedData.parent_id,
       parentType: validatedData.parent_type
     });
-    
+
     const commentData = await createCommentData(validatedData, getClientAddress(), demo_time);
     const result = await handleCommentCreation(commentData, validatedData.parent_type, demo_time);
-    
+
     logger.info('Comment created successfully');
     return result;
   } catch (e) {
@@ -52,6 +54,7 @@ createComment: async ({ request, getClientAddress }) => {
 ```
 
 ### 2. likeComment Action
+
 ```typescript
 likeComment: async ({ request, locals }) => {
   try {
@@ -63,7 +66,7 @@ likeComment: async ({ request, locals }) => {
 
     const { body, demo_time } = await getRequestData(request);
     const validatedData = likeCommentSchema.parse(body);
-    
+
     logger.info('Processing comment like', {
       commentId: validatedData.parent_id,
       operation: validatedData.operation,
@@ -71,9 +74,9 @@ likeComment: async ({ request, locals }) => {
     });
 
     if (validatedData.es_id) {
-      await addESCommentLike({ 
-        commentId: validatedData.es_id, 
-        operation: validatedData.operation 
+      await addESCommentLike({
+        commentId: validatedData.es_id,
+        operation: validatedData.operation
       });
     }
 
@@ -97,6 +100,7 @@ likeComment: async ({ request, locals }) => {
 ```
 
 ### 3. subscribe Action
+
 ```typescript
 subscribe: async ({ request, locals }) => {
   try {
@@ -108,7 +112,7 @@ subscribe: async ({ request, locals }) => {
 
     const { body, demo_time } = await getRequestData(request);
     const validatedData = subscribeSchema.parse(body);
-    
+
     logger.info('Processing subscription', {
       questionId: validatedData.parent_id,
       operation: validatedData.operation,
@@ -116,9 +120,9 @@ subscribe: async ({ request, locals }) => {
     });
 
     if (validatedData.es_id) {
-      await addESSubscription({ 
-        questionId: validatedData.es_id, 
-        operation: validatedData.operation 
+      await addESSubscription({
+        questionId: validatedData.es_id,
+        operation: validatedData.operation
       });
     }
 
@@ -142,13 +146,14 @@ subscribe: async ({ request, locals }) => {
 ```
 
 ### 4. saveLinkClick Action
+
 ```typescript
 saveLinkClick: async ({ request }) => {
   try {
     const validatedData = await validateFormData(saveLinkClickSchema, request);
-    
+
     logger.info('Recording link click', { linkId: validatedData.linkId });
-    
+
     await incrementLinkClicks(validatedData.linkId);
     return true;
   } catch (e) {
@@ -163,6 +168,7 @@ saveLinkClick: async ({ request }) => {
 ```
 
 ### 5. flagComment Action
+
 ```typescript
 flagComment: async ({ request, locals }) => {
   try {
@@ -173,14 +179,14 @@ flagComment: async ({ request, locals }) => {
     }
 
     const validatedData = await validateFormData(flagCommentSchema, request);
-    
+
     logger.info('Flagging comment', {
       commentId: validatedData.comment_id,
       userId: session.user.id
     });
 
     await flagComment(session.user.id, validatedData.comment_id, validatedData.description);
-    
+
     logger.info('Comment flagged successfully');
     return { success: true };
   } catch (e) {
@@ -197,38 +203,39 @@ flagComment: async ({ request, locals }) => {
 ```
 
 ### 6. updateQuestionImg Action
+
 ```typescript
 updateQuestionImg: async ({ request, locals }) => {
-  try {
-    const session = locals.session;
-    if (!session?.user?.id) {
-      logger.warn('Unauthorized image update attempt');
-      throw error(401, 'Unauthorized');
-    }
+	try {
+		const session = locals.session;
+		if (!session?.user?.id) {
+			logger.warn('Unauthorized image update attempt');
+			throw error(401, 'Unauthorized');
+		}
 
-    const validatedData = await validateFormData(updateQuestionImgSchema, request);
-    
-    logger.info('Updating question image', {
-      url: validatedData.url,
-      userId: session.user.id
-    });
+		const validatedData = await validateFormData(updateQuestionImgSchema, request);
 
-    const imgPath = await uploadImage(validatedData.img_url, validatedData.url);
-    await updateQuestionImageUrl(validatedData.url, imgPath);
-    
-    logger.info('Question image updated successfully');
-    return true;
-  } catch (e) {
-    if (e instanceof z.ZodError) {
-      logger.warn('Invalid image update data', { errors: e.errors });
-      throw error(400, {
-        message: e.errors[0].message
-      });
-    }
-    logger.error('Error updating question image', e as Error);
-    throw error(500, 'Failed to update question image');
-  }
-}
+		logger.info('Updating question image', {
+			url: validatedData.url,
+			userId: session.user.id
+		});
+
+		const imgPath = await uploadImage(validatedData.img_url, validatedData.url);
+		await updateQuestionImageUrl(validatedData.url, imgPath);
+
+		logger.info('Question image updated successfully');
+		return true;
+	} catch (e) {
+		if (e instanceof z.ZodError) {
+			logger.warn('Invalid image update data', { errors: e.errors });
+			throw error(400, {
+				message: e.errors[0].message
+			});
+		}
+		logger.error('Error updating question image', e as Error);
+		throw error(500, 'Failed to update question image');
+	}
+};
 ```
 
 ## Benefits of These Updates

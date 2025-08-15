@@ -10,117 +10,126 @@ import path from 'path';
 
 // Blog information extracted from file names and content
 const blogs = [
-  {
-    filename: 'enneagram-addiction-recovery-guide',
-    title: 'The Enneagram Guide to Addiction Recovery',
-    focus: 'addiction recovery',
-    audience: 'People in recovery or supporting someone in recovery',
-    tags: ['addiction', 'recovery', '12-step', 'sobriety', 'healing'],
-    painPoints: ['Struggling with recovery', 'Understanding addiction patterns', 'Finding personalized recovery approaches']
-  },
-  {
-    filename: 'enneagram-crisis-management-guide',
-    title: 'Enneagram Crisis Management: Navigating Mental Health Emergencies',
-    focus: 'crisis management',
-    audience: 'People experiencing mental health crises or their supporters',
-    tags: ['crisis', 'emergency', 'suicide-prevention', 'intervention'],
-    painPoints: ['Mental health crisis', 'Feeling suicidal', 'Supporting someone in crisis']
-  },
-  {
-    filename: 'enneagram-medication-mental-health',
-    title: 'The Enneagram Guide to Mental Health Medication',
-    focus: 'medication and treatment',
-    audience: 'People considering or taking mental health medication',
-    tags: ['medication', 'psychiatry', 'treatment', 'therapy'],
-    painPoints: ['Deciding about medication', 'Medication side effects', 'Treatment resistance']
-  },
-  {
-    filename: 'enneagram-neurodivergence-guide',
-    title: 'Understanding Neurodivergence Through the Enneagram Lens',
-    focus: 'neurodivergence',
-    audience: 'Neurodivergent individuals and their families',
-    tags: ['neurodivergence', 'ADHD', 'autism', 'different-abilities'],
-    painPoints: ['Feeling misunderstood', 'Masking behaviors', 'Finding accommodations']
-  },
-  {
-    filename: 'enneagram-science-mental-health',
-    title: 'The Science Behind Enneagram and Mental Health',
-    focus: 'research and science',
-    audience: 'People seeking evidence-based information',
-    tags: ['research', 'science', 'evidence', 'psychology'],
-    painPoints: ['Wanting scientific validation', 'Understanding the research', 'Evidence-based approaches']
-  },
-  {
-    filename: 'enneagram-therapy-guide',
-    title: 'Finding the Right Therapist for Your Enneagram Type',
-    focus: 'therapy and treatment',
-    audience: 'People seeking therapy or improving their therapy experience',
-    tags: ['therapy', 'counseling', 'treatment', 'therapeutic-relationship'],
-    painPoints: ['Finding the right therapist', 'Therapy not working', 'Therapy anxiety']
-  },
-  {
-    filename: 'enneagram-trauma-response-guide',
-    title: 'Understanding Trauma Responses Through the Enneagram',
-    focus: 'trauma and healing',
-    audience: 'Trauma survivors and their supporters',
-    tags: ['trauma', 'PTSD', 'healing', 'recovery'],
-    painPoints: ['Trauma symptoms', 'Feeling stuck in trauma', 'Understanding trauma responses']
-  },
-  {
-    filename: 'enneagram-workplace-mental-health',
-    title: 'Enneagram Guide to Workplace Mental Health',
-    focus: 'workplace wellbeing',
-    audience: 'Working professionals concerned about mental health',
-    tags: ['workplace', 'burnout', 'stress', 'work-life-balance'],
-    painPoints: ['Work stress', 'Burnout', 'Workplace anxiety', 'Career pressures']
-  }
+	{
+		filename: 'enneagram-addiction-recovery-guide',
+		title: 'The Enneagram Guide to Addiction Recovery',
+		focus: 'addiction recovery',
+		audience: 'People in recovery or supporting someone in recovery',
+		tags: ['addiction', 'recovery', '12-step', 'sobriety', 'healing'],
+		painPoints: [
+			'Struggling with recovery',
+			'Understanding addiction patterns',
+			'Finding personalized recovery approaches'
+		]
+	},
+	{
+		filename: 'enneagram-crisis-management-guide',
+		title: 'Enneagram Crisis Management: Navigating Mental Health Emergencies',
+		focus: 'crisis management',
+		audience: 'People experiencing mental health crises or their supporters',
+		tags: ['crisis', 'emergency', 'suicide-prevention', 'intervention'],
+		painPoints: ['Mental health crisis', 'Feeling suicidal', 'Supporting someone in crisis']
+	},
+	{
+		filename: 'enneagram-medication-mental-health',
+		title: 'The Enneagram Guide to Mental Health Medication',
+		focus: 'medication and treatment',
+		audience: 'People considering or taking mental health medication',
+		tags: ['medication', 'psychiatry', 'treatment', 'therapy'],
+		painPoints: ['Deciding about medication', 'Medication side effects', 'Treatment resistance']
+	},
+	{
+		filename: 'enneagram-neurodivergence-guide',
+		title: 'Understanding Neurodivergence Through the Enneagram Lens',
+		focus: 'neurodivergence',
+		audience: 'Neurodivergent individuals and their families',
+		tags: ['neurodivergence', 'ADHD', 'autism', 'different-abilities'],
+		painPoints: ['Feeling misunderstood', 'Masking behaviors', 'Finding accommodations']
+	},
+	{
+		filename: 'enneagram-science-mental-health',
+		title: 'The Science Behind Enneagram and Mental Health',
+		focus: 'research and science',
+		audience: 'People seeking evidence-based information',
+		tags: ['research', 'science', 'evidence', 'psychology'],
+		painPoints: [
+			'Wanting scientific validation',
+			'Understanding the research',
+			'Evidence-based approaches'
+		]
+	},
+	{
+		filename: 'enneagram-therapy-guide',
+		title: 'Finding the Right Therapist for Your Enneagram Type',
+		focus: 'therapy and treatment',
+		audience: 'People seeking therapy or improving their therapy experience',
+		tags: ['therapy', 'counseling', 'treatment', 'therapeutic-relationship'],
+		painPoints: ['Finding the right therapist', 'Therapy not working', 'Therapy anxiety']
+	},
+	{
+		filename: 'enneagram-trauma-response-guide',
+		title: 'Understanding Trauma Responses Through the Enneagram',
+		focus: 'trauma and healing',
+		audience: 'Trauma survivors and their supporters',
+		tags: ['trauma', 'PTSD', 'healing', 'recovery'],
+		painPoints: ['Trauma symptoms', 'Feeling stuck in trauma', 'Understanding trauma responses']
+	},
+	{
+		filename: 'enneagram-workplace-mental-health',
+		title: 'Enneagram Guide to Workplace Mental Health',
+		focus: 'workplace wellbeing',
+		audience: 'Working professionals concerned about mental health',
+		tags: ['workplace', 'burnout', 'stress', 'work-life-balance'],
+		painPoints: ['Work stress', 'Burnout', 'Workplace anxiety', 'Career pressures']
+	}
 ];
 
 const baseDir = './src/blog/enneagram/mental-health/';
 
 // Template for meta.json files
 function generateMetaFile(blog) {
-  return {
-    title: blog.title,
-    slug: blog.filename,
-    category: "mental-health",
-    primaryAudience: {
-      name: blog.audience,
-      description: `People interested in ${blog.focus} with Enneagram awareness`,
-      demographics: {
-        ageRange: "25-55",
-        interests: ["enneagram", "mental health", ...blog.tags],
-        psychographics: "Self-aware individuals seeking personalized approaches to mental health challenges"
-      }
-    },
-    tags: ["enneagram", "mental-health", ...blog.tags],
-    painPoints: blog.painPoints,
-    topicsAddressed: [
-      `How each Enneagram type experiences ${blog.focus}`,
-      `Type-specific strategies for ${blog.focus}`,
-      "Practical tools and resources",
-      "When to seek professional help"
-    ],
-    seo: {
-      keywords: [`enneagram ${blog.focus}`, `${blog.focus} by personality type`],
-      targetQueries: [`how does enneagram affect ${blog.focus}`, `${blog.focus} help for my type`]
-    },
-    contentGoals: [
-      `Provide type-specific guidance for ${blog.focus}`,
-      "Build understanding and reduce stigma",
-      "Connect people with appropriate resources"
-    ],
-    socialMediaFocus: {
-      twitter: `Educational content about ${blog.focus} and type-specific tips`,
-      instagram: `Visual guides and supportive content about ${blog.focus}`,
-      reddit: `Community support and resource sharing in relevant subreddits`
-    }
-  };
+	return {
+		title: blog.title,
+		slug: blog.filename,
+		category: 'mental-health',
+		primaryAudience: {
+			name: blog.audience,
+			description: `People interested in ${blog.focus} with Enneagram awareness`,
+			demographics: {
+				ageRange: '25-55',
+				interests: ['enneagram', 'mental health', ...blog.tags],
+				psychographics:
+					'Self-aware individuals seeking personalized approaches to mental health challenges'
+			}
+		},
+		tags: ['enneagram', 'mental-health', ...blog.tags],
+		painPoints: blog.painPoints,
+		topicsAddressed: [
+			`How each Enneagram type experiences ${blog.focus}`,
+			`Type-specific strategies for ${blog.focus}`,
+			'Practical tools and resources',
+			'When to seek professional help'
+		],
+		seo: {
+			keywords: [`enneagram ${blog.focus}`, `${blog.focus} by personality type`],
+			targetQueries: [`how does enneagram affect ${blog.focus}`, `${blog.focus} help for my type`]
+		},
+		contentGoals: [
+			`Provide type-specific guidance for ${blog.focus}`,
+			'Build understanding and reduce stigma',
+			'Connect people with appropriate resources'
+		],
+		socialMediaFocus: {
+			twitter: `Educational content about ${blog.focus} and type-specific tips`,
+			instagram: `Visual guides and supportive content about ${blog.focus}`,
+			reddit: `Community support and resource sharing in relevant subreddits`
+		}
+	};
 }
 
 // Template for Twitter content
 function generateTwitterContent(blog) {
-  return `# Twitter Content for "${blog.title}"
+	return `# Twitter Content for "${blog.title}"
 
 ## Main Thread: Understanding ${blog.focus.charAt(0).toUpperCase() + blog.focus.slice(1)} by Type
 
@@ -152,13 +161,13 @@ What works for others might not work for you—and that's okay. Find YOUR approa
 Your type matters, but support is available for everyone. 💙
 
 ## Hashtags to Use
-${blog.tags.map(tag => `#${tag.charAt(0).toUpperCase() + tag.slice(1).replace('-', '')}`).join(' ')} #EnneagramMentalHealth #9takes
+${blog.tags.map((tag) => `#${tag.charAt(0).toUpperCase() + tag.slice(1).replace('-', '')}`).join(' ')} #EnneagramMentalHealth #9takes
 `;
 }
 
 // Template for Instagram content
 function generateInstagramContent(blog) {
-  return `# Instagram Content for "${blog.title}"
+	return `# Instagram Content for "${blog.title}"
 
 ## Main Feed Post: Carousel Guide
 
@@ -180,7 +189,7 @@ This isn't about putting yourself in a box—it's about understanding your uniqu
 [Continue with detailed caption...]
 
 **Hashtags:**
-${blog.tags.map(tag => `#${tag.charAt(0).toUpperCase() + tag.slice(1).replace('-', '')}`).join(' ')} #EnneagramMentalHealth #9takes
+${blog.tags.map((tag) => `#${tag.charAt(0).toUpperCase() + tag.slice(1).replace('-', '')}`).join(' ')} #EnneagramMentalHealth #9takes
 
 ## Story Ideas
 
@@ -198,7 +207,7 @@ ${blog.tags.map(tag => `#${tag.charAt(0).toUpperCase() + tag.slice(1).replace('-
 
 // Template for Reddit content
 function generateRedditContent(blog) {
-  return `# Reddit Strategy for "${blog.title}"
+	return `# Reddit Strategy for "${blog.title}"
 
 ## Target Subreddits
 
@@ -246,35 +255,35 @@ What resources have been most helpful for your type?
 }
 
 // Generate files for each blog
-blogs.forEach(blog => {
-  const metaPath = path.join(baseDir, `${blog.filename}.meta.json`);
-  const twitterPath = path.join(baseDir, `${blog.filename}.twitter.md`);
-  const instagramPath = path.join(baseDir, `${blog.filename}.instagram.md`);
-  const redditPath = path.join(baseDir, `${blog.filename}.reddit.md`);
+blogs.forEach((blog) => {
+	const metaPath = path.join(baseDir, `${blog.filename}.meta.json`);
+	const twitterPath = path.join(baseDir, `${blog.filename}.twitter.md`);
+	const instagramPath = path.join(baseDir, `${blog.filename}.instagram.md`);
+	const redditPath = path.join(baseDir, `${blog.filename}.reddit.md`);
 
-  // Generate meta file
-  if (!fs.existsSync(metaPath)) {
-    fs.writeFileSync(metaPath, JSON.stringify(generateMetaFile(blog), null, 2));
-    console.log(`✅ Created ${blog.filename}.meta.json`);
-  }
+	// Generate meta file
+	if (!fs.existsSync(metaPath)) {
+		fs.writeFileSync(metaPath, JSON.stringify(generateMetaFile(blog), null, 2));
+		console.log(`✅ Created ${blog.filename}.meta.json`);
+	}
 
-  // Generate Twitter content
-  if (!fs.existsSync(twitterPath)) {
-    fs.writeFileSync(twitterPath, generateTwitterContent(blog));
-    console.log(`✅ Created ${blog.filename}.twitter.md`);
-  }
+	// Generate Twitter content
+	if (!fs.existsSync(twitterPath)) {
+		fs.writeFileSync(twitterPath, generateTwitterContent(blog));
+		console.log(`✅ Created ${blog.filename}.twitter.md`);
+	}
 
-  // Generate Instagram content
-  if (!fs.existsSync(instagramPath)) {
-    fs.writeFileSync(instagramPath, generateInstagramContent(blog));
-    console.log(`✅ Created ${blog.filename}.instagram.md`);
-  }
+	// Generate Instagram content
+	if (!fs.existsSync(instagramPath)) {
+		fs.writeFileSync(instagramPath, generateInstagramContent(blog));
+		console.log(`✅ Created ${blog.filename}.instagram.md`);
+	}
 
-  // Generate Reddit content
-  if (!fs.existsSync(redditPath)) {
-    fs.writeFileSync(redditPath, generateRedditContent(blog));
-    console.log(`✅ Created ${blog.filename}.reddit.md`);
-  }
+	// Generate Reddit content
+	if (!fs.existsSync(redditPath)) {
+		fs.writeFileSync(redditPath, generateRedditContent(blog));
+		console.log(`✅ Created ${blog.filename}.reddit.md`);
+	}
 });
 
 console.log('\n🎉 Mental health blog social media files generated!');

@@ -1,7 +1,7 @@
 <!-- lib/components/atoms/LoadingButton.svelte -->
 <script lang="ts">
 	import Spinner from './Spinner.svelte';
-	
+
 	// Props
 	export let loading = false;
 	export let disabled = false;
@@ -34,7 +34,7 @@
 		.join(' ');
 
 	$: isDisabled = disabled || loading;
-	$: buttonAriaLabel = loading ? (loadingText || 'Loading...') : ariaLabel;
+	$: buttonAriaLabel = loading ? loadingText || 'Loading...' : ariaLabel;
 </script>
 
 <button

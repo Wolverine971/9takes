@@ -96,8 +96,6 @@ What other visionary leaders might share this same Type 1 drive for revolutionar
 
 > **Disclaimer** This analysis of Steve Jobs's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Steve.
 
-
-
 <svelte:head>
 
 <script type="application/ld+json">
@@ -452,4 +450,3 @@ What other visionary leaders might share this same Type 1 drive for revolutionar
 </script>
 
 </svelte:head>
-

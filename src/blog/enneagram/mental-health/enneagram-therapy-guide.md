@@ -14,7 +14,7 @@ previewHtml: ''
 pic: 'enneagram-therapy-guide'
 ---
 
-<!-- 
+<!--
 NOTES:
 - Compare CBT vs DBT vs psychodynamic vs somatic approaches for each type
 - Include how to find the right therapist for your type
@@ -39,6 +39,7 @@ This guide explores various therapeutic modalities through the lens of the Ennea
 ### Why Type Matters in Therapy
 
 Each Enneagram type has:
+
 - **Different defense mechanisms**: How we protect ourselves
 - **Unique resistance patterns**: What we avoid in therapy
 - **Specific growth edges**: Where we need to stretch
@@ -55,41 +56,49 @@ Each Enneagram type has:
 Before diving into type-specific recommendations, let's understand the main approaches:
 
 ### Cognitive Behavioral Therapy (CBT)
+
 - Focus: Changing thought patterns to change behaviors
 - Best for: Anxiety, depression, specific phobias
 - Approach: Structured, goal-oriented, homework-based
 
 ### Dialectical Behavior Therapy (DBT)
+
 - Focus: Emotional regulation and distress tolerance
 - Best for: Emotional dysregulation, self-harm, BPD
 - Approach: Skills-based, group and individual components
 
 ### Psychodynamic/Psychoanalytic Therapy
+
 - Focus: Unconscious patterns and early relationships
 - Best for: Deep-seated patterns, relationship issues
 - Approach: Insight-oriented, less structured
 
 ### Somatic Therapies
+
 - Focus: Body-based healing and trauma release
 - Best for: Trauma, anxiety, disconnection from body
 - Approach: Body awareness, movement, touch
 
 ### Internal Family Systems (IFS)
+
 - Focus: Working with different parts of self
 - Best for: Trauma, internal conflicts, self-criticism
 - Approach: Parts work, self-compassion
 
 ### EMDR (Eye Movement Desensitization and Reprocessing)
+
 - Focus: Trauma processing through bilateral stimulation
 - Best for: PTSD, specific traumas, phobias
 - Approach: Structured trauma processing
 
 ### Gestalt Therapy
+
 - Focus: Present-moment awareness and responsibility
 - Best for: Avoidance patterns, unfinished business
 - Approach: Experiential, here-and-now focus
 
 ### Acceptance and Commitment Therapy (ACT)
+
 - Focus: Psychological flexibility and values-based action
 - Best for: Anxiety, chronic pain, life transitions
 - Approach: Mindfulness-based, values clarification
@@ -97,6 +106,7 @@ Before diving into type-specific recommendations, let's understand the main appr
 ## Type 1: The Perfectionist in Therapy
 
 ### What Type 1s Bring to Therapy
+
 - High motivation for self-improvement
 - Detailed self-observation
 - Strong work ethic
@@ -105,19 +115,25 @@ Before diving into type-specific recommendations, let's understand the main appr
 ### Best Therapeutic Approaches for Type 1s
 
 #### 1. **Acceptance and Commitment Therapy (ACT)** ⭐⭐⭐⭐⭐
+
 Why it works: ACT's focus on acceptance rather than perfection directly addresses Type 1's core struggle
+
 - Helps develop psychological flexibility
 - Reduces black-and-white thinking
 - Emphasizes values over rules
 
 #### 2. **Compassion-Focused Therapy (CFT)** ⭐⭐⭐⭐⭐
+
 Why it works: Directly addresses the harsh inner critic
+
 - Develops self-compassion
 - Softens self-judgment
 - Integrates anger healthily
 
 #### 3. **Somatic Experiencing** ⭐⭐⭐⭐
+
 Why it works: Helps release chronic tension
+
 - Addresses body armoring
 - Teaches relaxation
 - Connects to pleasure
@@ -130,13 +146,16 @@ Why it works: Helps release chronic tension
 **Growth Edge**: Embracing "good enough"
 
 ### Finding the Right Therapist
+
 Look for someone who:
+
 - Models self-compassion
 - Has a warm, accepting presence
 - Can handle being idealized/devalued
 - Balances structure with flexibility
 
 ### Type 1 Therapy Tips
+
 - Give yourself permission to be a "bad" client
 - Notice urges to perfect the therapeutic process
 - Celebrate incremental progress
@@ -145,6 +164,7 @@ Look for someone who:
 ## Type 2: The Helper in Therapy
 
 ### What Type 2s Bring to Therapy
+
 - Eagerness to please the therapist
 - Difficulty identifying own needs
 - Focus on others' problems
@@ -153,19 +173,25 @@ Look for someone who:
 ### Best Therapeutic Approaches for Type 2s
 
 #### 1. **Emotionally Focused Therapy (EFT)** ⭐⭐⭐⭐⭐
+
 Why it works: Addresses attachment patterns directly
+
 - Helps identify emotional needs
 - Repairs attachment wounds
 - Teaches healthy dependence
 
 #### 2. **Gestalt Therapy** ⭐⭐⭐⭐⭐
+
 Why it works: Brings focus back to self
+
 - "What do YOU need?" emphasis
 - Present-moment awareness
 - Boundary exploration
 
 #### 3. **Assertiveness Training/DBT** ⭐⭐⭐⭐
+
 Why it works: Builds interpersonal effectiveness
+
 - DEAR MAN skills for asking
 - Emotion regulation
 - Distress tolerance
@@ -178,13 +204,16 @@ Why it works: Builds interpersonal effectiveness
 **Growth Edge**: Putting self first
 
 ### Finding the Right Therapist
+
 Look for someone who:
+
 - Maintains clear boundaries
 - Doesn't need caretaking
 - Encourages self-focus
 - Models healthy self-care
 
 ### Type 2 Therapy Tips
+
 - Notice urges to help your therapist
 - Practice receiving without reciprocating
 - Keep focus on your own experience
@@ -193,6 +222,7 @@ Look for someone who:
 ## Type 3: The Achiever in Therapy
 
 ### What Type 3s Bring to Therapy
+
 - Goal-oriented approach
 - May perform "good client"
 - Difficulty accessing emotions
@@ -201,19 +231,25 @@ Look for someone who:
 ### Best Therapeutic Approaches for Type 3s
 
 #### 1. **Mindfulness-Based Therapy (MBCT/MBSR)** ⭐⭐⭐⭐⭐
+
 Why it works: Slows down the achievement drive
+
 - Present-moment focus
 - Being vs. doing
 - Non-judgmental awareness
 
 #### 2. **Psychodynamic Therapy** ⭐⭐⭐⭐⭐
+
 Why it works: Explores beneath the image
+
 - Uncovers authentic self
 - Processes childhood achievement pressure
 - Develops emotional depth
 
 #### 3. **Somatic Therapies** ⭐⭐⭐⭐
+
 Why it works: Bypasses mental performance
+
 - Body doesn't lie
 - Feels without thinking
 - Grounds in sensation
@@ -226,13 +262,16 @@ Why it works: Bypasses mental performance
 **Growth Edge**: Valuing process over outcome
 
 ### Finding the Right Therapist
+
 Look for someone who:
+
 - Sees through facades kindly
 - Values authenticity over achievement
 - Can sit with emotions
 - Won't be impressed by success
 
 ### Type 3 Therapy Tips
+
 - Resist urge to "win" at therapy
 - Share failures and struggles
 - Notice performing for approval
@@ -241,6 +280,7 @@ Look for someone who:
 ## Type 4: The Individualist in Therapy
 
 ### What Type 4s Bring to Therapy
+
 - Deep emotional awareness
 - Comfort with intensity
 - Tendency to romanticize suffering
@@ -249,21 +289,27 @@ Look for someone who:
 ### Best Therapeutic Approaches for Type 4s
 
 #### 1. **Dialectical Behavior Therapy (DBT)** ⭐⭐⭐⭐⭐
+
 Why it works: Balances validation with change
+
 - Emotion regulation skills
 - Distress tolerance
 - Interpersonal effectiveness
 - Wise mind concept
 
 #### 2. **Art/Expressive Therapies** ⭐⭐⭐⭐⭐
+
 Why it works: Honors creative expression
+
 - Non-verbal processing
 - Symbolic exploration
 - Identity expression
 - Emotional release
 
 #### 3. **Narrative Therapy** ⭐⭐⭐⭐
+
 Why it works: Reauthors life story
+
 - Externalizes problems
 - Identifies unique outcomes
 - Creates preferred narrative
@@ -277,13 +323,16 @@ Why it works: Reauthors life story
 **Growth Edge**: Emotional regulation without losing depth
 
 ### Finding the Right Therapist
+
 Look for someone who:
+
 - Appreciates emotional depth
 - Won't pathologize intensity
 - Balances validation with growth
 - Has creative sensibilities
 
 ### Type 4 Therapy Tips
+
 - Notice attachment to special suffering
 - Practice gratitude for ordinary moments
 - Balance expression with regulation
@@ -292,6 +341,7 @@ Look for someone who:
 ## Type 5: The Investigator in Therapy
 
 ### What Type 5s Bring to Therapy
+
 - Intellectual approach to emotions
 - Need for therapist competence
 - Difficulty with vulnerability
@@ -300,21 +350,27 @@ Look for someone who:
 ### Best Therapeutic Approaches for Type 5s
 
 #### 1. **Cognitive Behavioral Therapy (CBT)** ⭐⭐⭐⭐⭐
+
 Why it works: Logical, structured approach
+
 - Clear rationale for interventions
 - Thought-focused initially
 - Gradual emotional integration
 - Respects autonomy
 
 #### 2. **Somatic Experiencing** ⭐⭐⭐⭐⭐
+
 Why it works: Gently reconnects to body
+
 - Non-invasive approach
 - Builds capacity gradually
 - Respects boundaries
 - Develops embodiment
 
 #### 3. **Internal Family Systems (IFS)** ⭐⭐⭐⭐
+
 Why it works: Analytical framework for emotions
+
 - Parts language appeals
 - Self-directed process
 - Cognitive understanding
@@ -328,13 +384,16 @@ Why it works: Analytical framework for emotions
 **Growth Edge**: Emotional expression and needs
 
 ### Finding the Right Therapist
+
 Look for someone who:
+
 - Respects need for space
 - Demonstrates competence
 - Doesn't push too quickly
 - Explains interventions clearly
 
 ### Type 5 Therapy Tips
+
 - Start with shorter sessions if needed
 - Ask for rationales behind interventions
 - Practice small emotional expressions
@@ -343,6 +402,7 @@ Look for someone who:
 ## Type 6: The Loyalist in Therapy
 
 ### What Type 6s Bring to Therapy
+
 - Anxiety about the process
 - Testing therapist's trustworthiness
 - Excellent problem-anticipation
@@ -351,21 +411,27 @@ Look for someone who:
 ### Best Therapeutic Approaches for Type 6s
 
 #### 1. **Cognitive Behavioral Therapy (CBT)** ⭐⭐⭐⭐⭐
+
 Why it works: Addresses anxious thinking directly
+
 - Challenges catastrophic thoughts
 - Builds coping strategies
 - Structured and predictable
 - Evidence-based (trustworthy)
 
 #### 2. **EMDR** ⭐⭐⭐⭐⭐
+
 Why it works: Processes trauma without extensive talking
+
 - Addresses trust wounds
 - Bilateral stimulation calms
 - Structured protocol
 - Measurable progress
 
 #### 3. **Mindfulness-Based Stress Reduction (MBSR)** ⭐⭐⭐⭐
+
 Why it works: Calms anxious system
+
 - Present-moment focus
 - Body-based grounding
 - Group setting for support
@@ -379,13 +445,16 @@ Why it works: Calms anxious system
 **Growth Edge**: Self-trust over external validation
 
 ### Finding the Right Therapist
+
 Look for someone who:
+
 - Transparent about methods
 - Consistent and reliable
 - Earns trust gradually
 - Collaborative approach
 
 ### Type 6 Therapy Tips
+
 - Voice doubts openly
 - Ask all your questions
 - Notice testing behaviors
@@ -394,6 +463,7 @@ Look for someone who:
 ## Type 7: The Enthusiast in Therapy
 
 ### What Type 7s Bring to Therapy
+
 - Optimism and humor
 - Difficulty with painful emotions
 - Tendency to intellectualize
@@ -402,21 +472,27 @@ Look for someone who:
 ### Best Therapeutic Approaches for Type 7s
 
 #### 1. **Acceptance and Commitment Therapy (ACT)** ⭐⭐⭐⭐⭐
+
 Why it works: Values-based and forward-moving
+
 - Doesn't dwell on pain
 - Action-oriented
 - Flexibility focus
 - Experiential exercises
 
 #### 2. **Dialectical Behavior Therapy (DBT)** ⭐⭐⭐⭐⭐
+
 Why it works: Skills for sitting with discomfort
+
 - Distress tolerance crucial
 - Emotion regulation
 - Concrete tools
 - Group component adds variety
 
 #### 3. **Somatic Therapies** ⭐⭐⭐⭐
+
 Why it works: Grounds in present moment
+
 - Can't escape into future
 - Body holds truth
 - Movement incorporated
@@ -430,13 +506,16 @@ Why it works: Grounds in present moment
 **Growth Edge**: Staying with discomfort
 
 ### Finding the Right Therapist
+
 Look for someone who:
+
 - Can match energy initially
 - Gently guides to depth
 - Uses humor appropriately
 - Holds space for pain
 
 ### Type 7 Therapy Tips
+
 - Commit to consistent attendance
 - Notice escape fantasies
 - Practice staying with one feeling
@@ -445,6 +524,7 @@ Look for someone who:
 ## Type 8: The Challenger in Therapy
 
 ### What Type 8s Bring to Therapy
+
 - Direct communication style
 - Resistance to vulnerability
 - Testing of therapist's strength
@@ -453,21 +533,27 @@ Look for someone who:
 ### Best Therapeutic Approaches for Type 8s
 
 #### 1. **Gestalt Therapy** ⭐⭐⭐⭐⭐
+
 Why it works: Direct, confrontational style
+
 - Here-and-now focus
 - Experiential techniques
 - Honors intensity
 - Promotes responsibility
 
 #### 2. **Bioenergetic Therapy** ⭐⭐⭐⭐⭐
+
 Why it works: Physical release of armor
+
 - Intense bodywork
 - Emotional catharsis
 - Power through vulnerability
 - Active participation
 
 #### 3. **Group Therapy** ⭐⭐⭐⭐
+
 Why it works: Real-time relationship work
+
 - Direct feedback
 - Leadership opportunities
 - Vulnerability practice
@@ -481,13 +567,16 @@ Why it works: Real-time relationship work
 **Growth Edge**: Embracing tenderness
 
 ### Finding the Right Therapist
+
 Look for someone who:
+
 - Can handle intensity
 - Won't be intimidated
 - Models strength and vulnerability
 - Direct communication style
 
 ### Type 8 Therapy Tips
+
 - Choose therapist you respect
 - Notice urges to dominate
 - Practice vulnerable shares
@@ -496,6 +585,7 @@ Look for someone who:
 ## Type 9: The Peacemaker in Therapy
 
 ### What Type 9s Bring to Therapy
+
 - Agreeable, easy-going nature
 - Difficulty identifying wants
 - Tendency to merge with therapist
@@ -504,21 +594,27 @@ Look for someone who:
 ### Best Therapeutic Approaches for Type 9s
 
 #### 1. **Gestalt Therapy** ⭐⭐⭐⭐⭐
+
 Why it works: Brings them into presence
+
 - "What do you want?" focus
 - Body awareness exercises
 - Experiments with assertion
 - Contact and withdrawal
 
 #### 2. **Somatic Experiencing** ⭐⭐⭐⭐⭐
+
 Why it works: Reconnects to body aliveness
+
 - Gentle awakening
 - Finds lost vitality
 - Builds energy awareness
 - Honors pacing
 
 #### 3. **Assertiveness Training** ⭐⭐⭐⭐
+
 Why it works: Directly addresses core issue
+
 - Practical communication skills
 - Role-playing practice
 - Boundary setting
@@ -532,13 +628,16 @@ Why it works: Directly addresses core issue
 **Growth Edge**: Prioritizing own agenda
 
 ### Finding the Right Therapist
+
 Look for someone who:
+
 - Gently challenges passivity
 - Notices when they disappear
 - Encourages self-assertion
 - Creates energizing environment
 
 ### Type 9 Therapy Tips
+
 - Practice disagreeing with therapist
 - Notice when you merge/accommodate
 - Set concrete goals
@@ -549,6 +648,7 @@ Look for someone who:
 ### Why Mixed Modalities Work
 
 Most effective therapy combines approaches:
+
 - **Start with safety**: Build therapeutic alliance
 - **Address symptoms**: Immediate relief strategies
 - **Process past**: Understand patterns
@@ -579,6 +679,7 @@ Most effective therapy combines approaches:
 ### When to Switch Therapists
 
 Consider changing if:
+
 - They don't understand your type's patterns
 - You feel stuck in type's comfort zone
 - No growth after giving it real effort
@@ -607,6 +708,7 @@ Consider changing if:
 ### Red Flags in Therapy by Type
 
 Each type should watch for:
+
 - **Type 1**: Therapist who reinforces perfectionism
 - **Type 2**: Therapist who needs caretaking
 - **Type 3**: Therapist impressed by achievements
@@ -642,6 +744,7 @@ The courage to enter therapy is already a step outside your type's comfort zone.
 Your type is not your destiny—it's your starting point. With the right therapeutic support, you can develop beyond your type's limitations while honoring its gifts. The journey may not always be comfortable, but it leads to freedom.
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -686,6 +789,7 @@ Your type is not your destiny—it's your starting point. With the right therape
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

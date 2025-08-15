@@ -15,6 +15,7 @@ pic: 'the-MBTI-sucks'
 ---
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +67,8 @@ pic: 'the-MBTI-sucks'
   }
 }
 </script>
+
 </svelte:head>
-
-
 
 <div class="bg-gray-100 border-l-4 border-gray-500 p-6 rounded-lg mb-8 text-lg italic">
 "You're an INTP."<br>
@@ -276,7 +276,6 @@ Encourages internal transformation
 
 </div>
 
-
 <h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">🧭 Design Principles to Avoid a Caste System</h2>
 
 <div class="overflow-x-auto my-8">
@@ -315,7 +314,6 @@ Encourages internal transformation
 <div class="bg-gradient-to-r from-green-100 to-blue-100 p-6 rounded-lg text-center my-8">
 <p class="text-xl font-semibold text-gray-800">This system works <strong>because people are expected to evolve</strong>, not because they're sorted.</p>
 </div>
-
 
 <h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">🌄 What This Society Feels Like</h2>
 
@@ -377,7 +375,6 @@ We don't promote power. We promote wholeness."
 </div>
 </div>
 
-
 <h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">✨ A Final Picture</h2>
 
 <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-8 rounded-lg my-8 border border-purple-200">
@@ -403,7 +400,6 @@ And maybe—one day—their whole world.
 </div>
 </div>
 </div>
-
 
 <div class="bg-yellow-50 border border-yellow-200 border-l-4 border-l-yellow-500 p-6 rounded-lg my-8">
 <p class="text-lg"><strong>Still skeptical?</strong> That's healthy.</p>

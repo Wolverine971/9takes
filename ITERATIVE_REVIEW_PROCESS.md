@@ -3,6 +3,7 @@
 ## Overview
 
 This document outlines the iterative review process for mental health blog content. The process is designed to:
+
 - Enable async collaboration between content creators and AI assistants
 - Track multiple review iterations with clear timestamps
 - Ensure content quality and alignment with goals
@@ -13,6 +14,7 @@ This document outlines the iterative review process for mental health blog conte
 Each blog should have a corresponding `.review.md` file that tracks the entire review history.
 
 ### File Naming Convention
+
 ```
 blog-name.md          # Main blog post
 blog-name.review.md   # Review tracking file
@@ -24,6 +26,7 @@ blog-name.review.md   # Review tracking file
 # Review Tracking: [Blog Title]
 
 ## Blog Information
+
 - **Blog File:** blog-name.md
 - **Created:** [Date]
 - **Last Updated:** [Date]
@@ -33,15 +36,19 @@ blog-name.review.md   # Review tracking file
 ---
 
 ## Round 1: [YYYY-MM-DDTHH:MM:SSZ] - Initial Draft Review
+
 **Reviewer:** [Human/AI]
 
 ### Content Completeness Check
+
 1. **Does the blog have a clear introduction that hooks the reader?**
+
    - [ ] Yes [ ] No [ ] Needs improvement
    - **Response:** [User input]
    - **Action:** [What needs to be done]
 
 2. **Are all 9 Enneagram types covered with equal depth?**
+
    - [ ] Yes [ ] No [ ] Some missing/uneven
    - **Response:** [User input]
    - **Action:** [What needs to be done]
@@ -52,7 +59,9 @@ blog-name.review.md   # Review tracking file
    - **Action:** [What needs to be done]
 
 ### Technical Quality
+
 1. **Are there any factual errors about the Enneagram?**
+
    - **Issues Found:** [List any]
    - **Response:** [User input]
 
@@ -63,18 +72,22 @@ blog-name.review.md   # Review tracking file
 ### User Responses
 
 #### Response to Content Completeness Check
+
 **Question 1 Response:** [User input here]
 **Question 2 Response:** [User input here]
 **Question 3 Response:** [User input here]
 
 #### Response to Technical Quality
+
 **Factual Errors Response:** [User input here]
 **Mental Health Advice Response:** [User input here]
 
 ### My Comments
+
 [Additional user comments not covered in questions above]
 
 ### Action Items for Next Iteration
+
 1. [Action item 1]
 2. [Action item 2]
 3. [Action item 3]
@@ -82,15 +95,19 @@ blog-name.review.md   # Review tracking file
 ---
 
 ## Round 2: [YYYY-MM-DDTHH:MM:SSZ] - Audience Alignment Review [COMPLETED]
+
 **Reviewer:** [Human/AI]
 
 ### Primary Audience Alignment
+
 1. **Does the content speak directly to the primary audience's pain points?**
+
    - **Pain points addressed:** [List]
    - **Missing pain points:** [List]
    - **Response:** [User input]
 
 2. **Is the language appropriate for the target demographic?**
+
    - [ ] Too technical [ ] Just right [ ] Too simple
    - **Response:** [User input]
 
@@ -100,30 +117,37 @@ blog-name.review.md   # Review tracking file
    - **Response:** [User input]
 
 ### Secondary Audience Consideration
+
 1. **How well does the content serve secondary audiences?**
    - **Response:** [User input]
 
 ### User Feedback
+
 **Audience targeting thoughts:**
 [Space for open-ended feedback]
 
 ### Action Items for Next Iteration
+
 1. [Action item 1]
 2. [Action item 2]
 
 ---
 
 ## Iteration 3: Platform Optimization Review
+
 **Date:** [YYYY-MM-DD HH:MM]
 **Reviewer:** [Human/AI]
 
 ### Social Media Content Review
+
 1. **Twitter Content Assessment**
+
    - **Thread quality (1-10):** [Score]
    - **Standalone tweets engaging?** [ ] Yes [ ] No
    - **Response:** [User input]
 
 2. **Instagram Content Assessment**
+
    - **Visual concepts clear?** [ ] Yes [ ] No
    - **Captions compelling?** [ ] Yes [ ] No
    - **Response:** [User input]
@@ -134,28 +158,35 @@ blog-name.review.md   # Review tracking file
    - **Response:** [User input]
 
 ### Cross-Platform Consistency
+
 1. **Is the core message consistent across platforms?**
    - **Response:** [User input]
 
 ### User Feedback
+
 **Platform optimization thoughts:**
 [Space for open-ended feedback]
 
 ### Action Items for Next Iteration
+
 1. [Action item 1]
 2. [Action item 2]
 
 ---
 
 ## Iteration 4: Final Quality Review
+
 **Date:** [YYYY-MM-DD HH:MM]
 **Reviewer:** [Human/AI]
 
 ### Overall Quality Assessment
+
 1. **Content Impact (1-10):** [Score]
+
    - **Rationale:** [Explanation]
 
 2. **SEO Optimization (1-10):** [Score]
+
    - **Keywords properly integrated?** [ ] Yes [ ] No
    - **Meta description compelling?** [ ] Yes [ ] No
 
@@ -164,6 +195,7 @@ blog-name.review.md   # Review tracking file
    - **Supports platform goals?** [ ] Yes [ ] No
 
 ### Final Checklist
+
 - [ ] All typos and grammar issues fixed
 - [ ] All links tested and working
 - [ ] Images have alt text
@@ -172,14 +204,17 @@ blog-name.review.md   # Review tracking file
 - [ ] Reddit strategy documented
 
 ### User Decision
+
 **Ready to publish?** [ ] Yes [ ] No [ ] Needs minor fixes
 
 ### Final Notes
+
 [Any last thoughts or future considerations]
 
 ---
 
 ## Post-Publication Notes
+
 **Published Date:** [Date]
 **Initial Performance:** [Notes after 1 week]
 **Lessons Learned:** [What worked, what didn't]
@@ -210,17 +245,20 @@ blog-name.review.md   # Review tracking file
 ## Best Practices
 
 ### Timing
+
 - Allow at least 4-6 hours between iterations for reflection
 - Complete all iterations within 1 week to maintain momentum
 - Don't skip iterations even if content seems ready
 
 ### Communication
+
 - Be specific about what works and what doesn't
 - Use examples from the actual content
 - Reference successful blogs as models
 - Keep feedback constructive and actionable
 
 ### Synchronization
+
 - Update the review file immediately after making changes
 - Note any changes made outside the review process
 - Keep version history if major rewrites occur
@@ -228,23 +266,27 @@ blog-name.review.md   # Review tracking file
 ## Review States
 
 ### Draft
+
 - Initial content complete
 - Ready for first review
 - Major changes expected
 
 ### In Review
+
 - Active iteration process
 - Multiple rounds of feedback
 - Incremental improvements
 - Rounds marked [COMPLETED] when done
 
 ### Final
+
 - All iterations complete
 - All rounds marked [COMPLETED]
 - Ready for publication
 - Only minor fixes needed
 
 ### Published
+
 - Content is live
 - Post-publication metrics tracked
 - Future improvements noted
@@ -252,23 +294,28 @@ blog-name.review.md   # Review tracking file
 ## Round Management
 
 ### Round Header Format
+
 ```
 ## Round [Number]: [ISO 8601 DateTime] - [Topic] [STATUS]
 ```
 
 Example:
+
 ```
 ## Round 1: 2025-01-20T10:00:00Z - Initial Content Review
 ## Round 2: 2025-01-21T14:30:00Z - Audience Alignment Review [COMPLETED]
 ```
 
 ### Round Status Tags
+
 - No tag: Round is active/in progress
 - `[COMPLETED]`: Round is finished, all questions answered
 - `[SKIPPED]`: Round was skipped with explanation
 
 ### User Response Sections
+
 Each round should include:
+
 1. **Questions:** Structured review questions
 2. **User Responses:** Dedicated section for answers
 3. **My Comments:** Open section for additional feedback
@@ -277,15 +324,19 @@ Each round should include:
 ## Common Issues and Solutions
 
 ### Issue: Review Feedback Not Implemented
+
 **Solution:** Create a "Deviation Log" section explaining why certain feedback wasn't incorporated
 
 ### Issue: Scope Creep During Reviews
+
 **Solution:** Reference original goals in meta file, defer new ideas to future content
 
 ### Issue: Conflicting Feedback
+
 **Solution:** Document both perspectives, make decision based on primary audience needs
 
 ### Issue: Review Process Taking Too Long
+
 **Solution:** Set strict 48-hour deadline per iteration, move forward with "good enough"
 
 ## Integration with Content Calendar
@@ -298,6 +349,7 @@ Each round should include:
 ## Metrics for Review Success
 
 Track these metrics to improve the review process:
+
 - Number of iterations needed (target: 3-4)
 - Time per iteration (target: 30-60 minutes)
 - Action items completed rate (target: 90%+)
@@ -329,6 +381,7 @@ The blog's meta.json file should include review tracking:
 ## Future Enhancements
 
 As the process matures, consider:
+
 - Automated sync checking between files
 - Review templates for specific content types
 - Peer review integration

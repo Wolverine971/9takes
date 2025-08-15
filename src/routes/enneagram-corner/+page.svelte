@@ -9,40 +9,52 @@
 	const blogSections = [
 		{
 			id: 'understanding',
-			title: 'Understanding the Enneagram',
+			title: '🧬 Core Psychology: Master the System',
+			subtitle: 'The operating system behind all human behavior',
 			type: 'overview',
-			linkTitle: 'Understanding the Enneagram'
+			linkTitle: 'Core Psychology'
 		},
 		{
 			id: 'nine-types',
-			title: 'The Nine Enneagram Types',
+			title: '🎭 The 9 Types: Deep Psychological Profiles',
+			subtitle: 'Which childhood wound shaped your entire life?',
 			type: 'nine-types',
-			linkTitle: 'Nine Types'
+			linkTitle: 'All 9 Types'
 		},
 		{
 			id: 'personal-development',
-			title: 'Using the Enneagram for Personal Development',
+			title: '🚀 Personality Maxing: Transform Your Wiring',
+			subtitle: 'Stop generic self-help. Use type-specific strategies that actually work',
 			type: 'development',
-			linkTitle: 'Personal Development'
+			linkTitle: 'Personality Maxing'
 		},
 		{
 			id: 'relationships',
-			title: 'Enneagram in Relationships',
+			title: '💔 Relationship Patterns: Break the Cycle',
+			subtitle: 'Why you sabotage love the same way every time',
 			type: 'relationships',
-			linkTitle: 'Relationships'
+			linkTitle: 'Relationship Dynamics'
 		},
 		{
 			id: 'workplace',
-			title: 'Enneagram in the Workplace',
+			title: '💼 Career Optimization: Work With Your Type',
+			subtitle: 'Stop fighting your nature. Build a career that fits',
 			type: 'workplace',
-			linkTitle: 'Workplace'
+			linkTitle: 'Career Strategy'
 		},
-		{ id: 'resources', title: 'Enneagram Resources', type: 'resources', linkTitle: 'Resources' },
+		{
+			id: 'resources',
+			title: '🔬 Resources: Tools That Actually Work',
+			subtitle: "We tested everything so you don't have to",
+			type: 'resources',
+			linkTitle: 'Verified Resources'
+		},
 		{
 			id: 'situations',
-			title: 'Enneagram Situational Topics',
+			title: '🎯 Real-World Behaviors: Types in Action',
+			subtitle: "From first dates to crisis mode — predict anyone's behavior",
 			type: 'situational',
-			linkTitle: 'Situational Topics'
+			linkTitle: 'Situational Analysis'
 		}
 	];
 
@@ -141,30 +153,49 @@
 <!-- here -->
 <BlogPageHead
 	data={{
-		title: '9takes Enneagram Corner - Explore All Enneagram Topics',
+		title: 'The Enneagram: Complete Psychological Operating Manual | 9takes',
 		description:
-			'Dive into the Enneagram with 9takes. Explore the nine types, personal development, relationships, workplace dynamics, and more. Your comprehensive guide to understanding and applying the Enneagram.'
+			'Stop living on autopilot. Decode your psychological wiring, break self-sabotage patterns, and master human behavior. From childhood wounds to adult transformation.'
 	}}
 	slug={'enneagram-corner'}
 />
 
 <main>
-	<h1>Enneagram Corner: Your Guide to Personal Growth and Understanding</h1>
-	
+	<h1>Your Mind Has Been Running the Same Program Since Age 5</h1>
+
 	<div class="authority-section">
 		<p class="intro-text">
-			The Enneagram is a powerful personality framework backed by decades of psychological research and practice. 
-			Our content draws from authoritative sources including the <strong>Enneagram Institute</strong>, 
-			works by <strong>Don Richard Riso</strong> and <strong>Russ Hudson</strong>, and contemporary research in personality psychology.
+			<strong
+				>Every decision you've made. Every relationship that failed. Every success you achieved.</strong
+			> They all follow a pattern you didn't choose — a psychological operating system installed in childhood
+			that's been running your life ever since.
 		</p>
-		
+		<p class="intro-text">
+			The Enneagram doesn't just describe your personality. It reveals the exact mechanisms driving
+			your behavior, the childhood wound that created them, and most importantly — <strong
+				>how to finally take control.</strong
+			>
+		</p>
+		<div class="authority-badges">
+			<div class="badge-item">✓ 100+ Deep Psychology Guides</div>
+			<div class="badge-item">✓ Type-Specific Strategies</div>
+			<div class="badge-item">✓ No Generic Advice</div>
+			<div class="badge-item">✓ Actual Transformation Tools</div>
+		</div>
 	</div>
 
 	<nav aria-label="Table of Contents">
-		<h2>Explore Enneagram Topics</h2>
+		<h2>Choose Your Transformation Path</h2>
 		<ul>
 			{#each blogSections as section}
-				<li><a href="#{section.id}">{section.title}</a></li>
+				<li>
+					<a href="#{section.id}">
+						<span class="nav-title">{section.title}</span>
+						{#if section.subtitle}
+							<span class="nav-subtitle">{section.subtitle}</span>
+						{/if}
+					</a>
+				</li>
 			{/each}
 		</ul>
 	</nav>
@@ -172,6 +203,9 @@
 	{#each blogSections as section}
 		<section aria-labelledby={section.id}>
 			<h2 id={section.id}>{section.title}</h2>
+			{#if section.subtitle}
+				<p class="section-subtitle">{section.subtitle}</p>
+			{/if}
 			<div class="blog-grid-container" class:nine-types={section.type === 'nine-types'}>
 				{#each data.enneagramBlogs
 					.filter((blog) => blog.type[0] === section.type)
@@ -205,7 +239,7 @@
 							<div class="grid-item-content">
 								<div class="text-overlay">
 									<h3>
-										All {section.linkTitle} Articles
+										Unlock All {section.linkTitle}
 										<ArrowRightIcon
 											iconStyle={'margin-left: .5rem'}
 											height={'1.5rem'}
@@ -223,104 +257,187 @@
 </main>
 
 <div class="resources-footer">
-	<h2>Authoritative Enneagram Resources</h2>
-	<p>Our content is informed by these respected sources in the Enneagram community:</p>
-	<ul class="resources-list">
-		<li>
-			<strong>The Enneagram Institute</strong> - Founded by Don Richard Riso and Russ Hudson, 
-			offering the most comprehensive Enneagram type descriptions and growth paths.
-		</li>
-		<li>
-			<strong>The Wisdom of the Enneagram</strong> by Riso & Hudson - 
-			The definitive guide to psychological and spiritual growth for the nine personality types.
-		</li>
-		<li>
-			<strong>Helen Palmer's Work</strong> - 
-			Pioneer in bringing the Enneagram to modern psychology and business applications.
-		</li>
-		<li>
-			<strong>Beatrice Chestnut</strong> - 
-			Leading expert on Enneagram subtypes and instinctual variants.
-		</li>
-		<li>
-			<strong>International Enneagram Association (IEA)</strong> - 
-			The global organization promoting accuracy, ethics, and excellence in Enneagram education.
-		</li>
-	</ul>
-	<p class="citation-note">
-		<em>All our content aims to present Enneagram insights accurately while making them accessible 
-		for personal growth and improved relationships.</em>
-	</p>
+	<h2>Why 9takes Is Different</h2>
+	<div class="difference-grid">
+		<div class="difference-item">
+			<h3>🧠 Psychological Depth</h3>
+			<p>
+				We don't just list traits. We reveal the childhood wounds, defense mechanisms, and
+				unconscious patterns driving each type.
+			</p>
+		</div>
+		<div class="difference-item">
+			<h3>🎯 Precision Tools</h3>
+			<p>
+				No generic "be more confident" advice. Every strategy is tailored to your exact
+				psychological wiring.
+			</p>
+		</div>
+		<div class="difference-item">
+			<h3>🔬 Evidence-Based</h3>
+			<p>
+				Built on decades of research from Riso, Hudson, Palmer, and Chestnut. Psychology, not
+				personality astrology.
+			</p>
+		</div>
+		<div class="difference-item">
+			<h3>💪 Transformation Focus</h3>
+			<p>We're not here to put you in a box. We're here to show you how to break out of it.</p>
+		</div>
+	</div>
+	<div class="cta-section">
+		<h3>Ready to Decode Your Operating System?</h3>
+		<p>
+			Start with our comprehensive type assessments or dive straight into your type's deep
+			psychological profile.
+		</p>
+		<div class="cta-buttons">
+			<a href="/enneagram-corner/subtopic/nine-types" class="cta-primary">Explore All 9 Types</a>
+			<a href="/enneagram-corner/subtopic/overview" class="cta-secondary">Learn the System</a>
+		</div>
+	</div>
 </div>
 
 <style lang="scss">
 	.authority-section {
-		background-color: #f8f9fa;
-		border-radius: 8px;
-		padding: 2rem;
+		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+		border-radius: 16px;
+		padding: 3rem;
 		margin: 2rem 0;
-		border-left: 4px solid var(--primary);
-		
+		color: white;
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+
 		.intro-text {
-			font-size: 1.1rem;
-			line-height: 1.6;
+			font-size: 1.2rem;
+			line-height: 1.8;
 			margin-bottom: 1.5rem;
-			color: #333;
+
+			strong {
+				color: #ffd700;
+				font-weight: 700;
+			}
 		}
-		
-		.credibility-badges {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 1.5rem;
-			
+
+		.authority-badges {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			gap: 1rem;
+			margin-top: 2rem;
+
 			.badge-item {
-				display: flex;
-				align-items: center;
-				gap: 0.5rem;
-				margin: 0;
-				
-				.badge-icon {
-					font-size: 1.5rem;
-				}
+				background: rgba(255, 255, 255, 0.1);
+				backdrop-filter: blur(10px);
+				padding: 1rem;
+				border-radius: 8px;
+				text-align: center;
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				font-weight: 600;
 			}
 		}
 	}
-	
+
 	.resources-footer {
-		background-color: #f0f4f8;
-		padding: 3rem;
+		background: linear-gradient(to bottom, #1a1a2e, #0f0f1e);
+		padding: 4rem;
 		margin-top: 4rem;
-		border-radius: 12px;
-		
+		border-radius: 20px;
+		color: white;
+
 		h2 {
-			color: var(--primary);
-			margin-bottom: 1rem;
+			color: white;
+			font-size: 2.5rem;
+			margin-bottom: 2rem;
+			text-align: center;
 		}
-		
-		.resources-list {
-			list-style: none;
-			padding: 0;
-			margin: 1.5rem 0;
-			
-			li {
-				padding: 1rem;
-				margin-bottom: 1rem;
-				background: white;
-				border-radius: 8px;
-				border-left: 3px solid var(--primary);
-				
-				strong {
-					color: var(--primary);
+
+		.difference-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			gap: 2rem;
+			margin: 3rem 0;
+
+			.difference-item {
+				background: rgba(255, 255, 255, 0.05);
+				padding: 2rem;
+				border-radius: 12px;
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				transition:
+					transform 0.3s ease,
+					background 0.3s ease;
+
+				&:hover {
+					transform: translateY(-5px);
+					background: rgba(255, 255, 255, 0.08);
+				}
+
+				h3 {
+					color: #ffd700;
+					font-size: 1.3rem;
+					margin-bottom: 1rem;
+				}
+
+				p {
+					line-height: 1.6;
+					opacity: 0.9;
+					font-size: 1rem;
 				}
 			}
 		}
-		
-		.citation-note {
-			margin-top: 1.5rem;
-			padding: 1rem;
-			background: rgba(108, 92, 231, 0.1);
-			border-radius: 8px;
+
+		.cta-section {
 			text-align: center;
+			padding: 3rem;
+			background: rgba(102, 126, 234, 0.1);
+			border-radius: 16px;
+			margin-top: 3rem;
+
+			h3 {
+				font-size: 2rem;
+				margin-bottom: 1rem;
+				color: #ffd700;
+			}
+
+			p {
+				font-size: 1.1rem;
+				margin-bottom: 2rem;
+				opacity: 0.9;
+			}
+
+			.cta-buttons {
+				display: flex;
+				justify-content: center;
+				gap: 1rem;
+				flex-wrap: wrap;
+
+				a {
+					padding: 1rem 2rem;
+					border-radius: 8px;
+					text-decoration: none;
+					font-weight: 600;
+					transition: all 0.3s ease;
+
+					&.cta-primary {
+						background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+						color: white;
+
+						&:hover {
+							transform: scale(1.05);
+							box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+						}
+					}
+
+					&.cta-secondary {
+						background: transparent;
+						color: #ffd700;
+						border: 2px solid #ffd700;
+
+						&:hover {
+							background: #ffd700;
+							color: #1a1a2e;
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -328,39 +445,68 @@
 		margin-bottom: 3rem;
 
 		h2 {
-			font-size: 1.5rem;
-			margin-bottom: 1rem;
+			font-size: 2rem;
+			margin-bottom: 2rem;
+			text-align: center;
+			color: var(--primary);
 		}
 
 		ul {
 			list-style-type: none;
 			padding: 0;
-			display: flex;
-			flex-wrap: wrap;
-			gap: 0.5rem;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			gap: 1rem;
 		}
 
-		a {
-			color: var(--text-color);
-			text-decoration: none;
-			padding: 0.5rem;
-			border-radius: var(--base-border-radius);
-			background-color: var(--card-bg-color);
-			transition: background-color 0.3s ease;
+		li {
+			a {
+				display: block;
+				color: var(--text-color);
+				text-decoration: none;
+				padding: 1.5rem;
+				border-radius: 12px;
+				background-color: var(--card-bg-color);
+				border: 2px solid transparent;
+				transition: all 0.3s ease;
 
-			&:hover,
-			&:focus {
-				background-color: var(--primary-light);
+				.nav-title {
+					display: block;
+					font-weight: 600;
+					font-size: 1.1rem;
+					margin-bottom: 0.5rem;
+				}
+
+				.nav-subtitle {
+					display: block;
+					font-size: 0.9rem;
+					opacity: 0.7;
+					line-height: 1.4;
+				}
+
+				&:hover,
+				&:focus {
+					border-color: var(--primary);
+					transform: translateY(-3px);
+					box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+				}
 			}
 		}
 	}
 
 	section {
-		margin-bottom: 3rem;
+		margin-bottom: 4rem;
 
 		h2 {
 			font-size: 2rem;
-			margin-bottom: 1rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.section-subtitle {
+			font-size: 1.1rem;
+			opacity: 0.8;
+			margin-bottom: 1.5rem;
+			color: var(--text-muted);
 		}
 	}
 

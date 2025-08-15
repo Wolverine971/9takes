@@ -1,13 +1,16 @@
 # 9takes Content Strategy - START HERE
-*Last Modified: 2025-08-15*
-*Status: Active Implementation Phase*
+
+_Last Modified: 2025-08-15_
+_Status: Active Implementation Phase_
 
 ## 🎯 Current Mission
+
 Transform 9takes into THE definitive authority for personality-based life optimization through strategic content creation, filling critical gaps, and building domain authority in 6 key areas.
 
 ## 📊 Current State Assessment
 
 ### Content Inventory
+
 - **Published Posts:** 60+ active Enneagram blogs
 - **Draft Posts:** 12 in progress (see `/src/blog/enneagram/drafts/`)
 - **Draft Outlines:** 6 comprehensive outlines (6-10k words each) ready for development
@@ -16,14 +19,16 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 - **Twitter Strategy:** Complete 3-week content calendar with engagement templates
 
 ### Domain Authority Status
+
 1. **Mental Health & Wellness** - 🟢 90% complete (STRONGEST)
-2. **Social Dynamics** - 🟢 75% complete 
+2. **Social Dynamics** - 🟢 75% complete
 3. **Relationship Conflict** - 🟡 65% complete
 4. **Enneagram Core** - 🟡 65% complete
 5. **Personality Maxing** - 🟡 60% complete
 6. **Workplace & Leadership** - 🟡 45% complete
 
 ### Traffic & Engagement
+
 - **Current Followers:** 28 (Twitter)
 - **Target:** 500k+ monthly organic traffic within 6 months
 - **Email List:** Building from base
@@ -31,6 +36,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 🚨 CRITICAL GAPS (Immediate Action Required)
 
 ### Top 5 Content Gaps by Search Volume
+
 1. **Enneagram Test Comparison** - 246,000 searches/month ❌ NO CONTENT
 2. **Shadow Work by Type** - 74,000 searches/month ❌ MINIMAL
 3. **Love Languages Integration** - 301,000 searches/month ❌ NO CONTENT
@@ -38,6 +44,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 5. **Enneagram Wings Guide** - 22,200 searches/month ❌ NO CONTENT
 
 ### Missing Cornerstone Content
+
 - No comprehensive compatibility matrix
 - No depression-specific guide
 - No ADHD/neurodivergence expansion
@@ -47,12 +54,14 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## ✅ Completed Work (Last Session)
 
 ### Blog Optimizations
+
 1. **Deep psychological rewrites** with childhood wounds and adult patterns
 2. **SEO optimization** with question-based headers
 3. **Created optimization framework** for future blog improvements
 4. **Updated JSON-LD** structured data for all optimized posts
 
 ### Strategy Documents Created
+
 1. **Twitter growth strategy** (28 → 1000 followers playbook)
 2. **3-week content calendar** with actual tweets
 3. **Big accounts engagement list** with specific targets
@@ -62,6 +71,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 7. **Metrics tracker** for performance monitoring
 
 ### Domain Authority Analysis
+
 - **7 domain authority documents** mapping content gaps and opportunities
 - **Master index** with prioritized roadmap
 - **Competitor analysis** for each domain
@@ -70,6 +80,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 🎯 IMMEDIATE PRIORITIES (This Week)
 
 ### Content Creation (5 Critical Pieces)
+
 1. **"Enneagram Wings: The Complete Guide"** - Fill 22,200/mo search gap
 2. **"The 10 Best Enneagram Tests (2025 Review)"** - Capture 246,000/mo searches
 3. **"Depression Patterns by Enneagram Type"** - Complete mental health suite
@@ -77,11 +88,13 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 5. **"90-Day Personality Maxing Blueprint"** - Flagship transformation guide
 
 ### Blog Updates (Still Pending)
+
 - ⏳ enneagram-self-development.md (in progress)
-- ⏳ enneagram-mental-health-flags.md 
+- ⏳ enneagram-mental-health-flags.md
 - ⏳ enneagram-team-dynamics.md
 
 ### Draft Outlines Ready for Development
+
 - 📄 **27 Enneagram Subtypes** (8-10k words) - Definitive subtype guide
 - 📄 **Positive Self-Talk Guide** (6-8k words) - Type-specific affirmations
 - 📄 **Active Listening Guide** (8-10k words) - Communication mastery
@@ -90,6 +103,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 - 📄 **9takes First Principles** (5-7k words) - Platform philosophy
 
 ### Twitter Execution
+
 - Start Week 1 content calendar
 - Engage with 3 big accounts daily
 - Post Monday question hook @ 9 AM
@@ -97,6 +111,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 📁 Directory Structure & Key Files
 
 ### Strategy Documents
+
 ```
 /docs/
 ├── domain-authority/
@@ -119,6 +134,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ```
 
 ### Content Directories
+
 ```
 /src/blog/enneagram/
 ├── [60+ published posts]
@@ -129,11 +145,13 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 💰 Monetization Pipeline
 
 ### Q1 2025 Products
+
 1. **90-Day Personality Maxing Program** - $197
 2. **Compatibility Report Generator** - $27/report
 3. **Shadow Work Workbook** - $37
 
 ### Revenue Projections
+
 - Year 1: $150-250k
 - Year 2: $300-500k
 - Year 3: $500k-1M
@@ -141,16 +159,19 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 🔄 Weekly Workflow
 
 ### Monday
+
 - Post Twitter question hook (9 AM)
 - Write 1 new authority post
 - Update metrics tracker
 
-### Wednesday  
+### Wednesday
+
 - Post main Twitter thread (12 PM)
 - Write 1 new authority post
 - Engage with big accounts
 
 ### Friday
+
 - Post Twitter follow-up with link
 - Complete 1 draft post
 - Plan next week's content
@@ -158,12 +179,14 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 📈 Success Metrics
 
 ### 30-Day Targets
+
 - ✅ 5 critical gap posts published
 - ✅ 150 Twitter followers (from 28)
 - ✅ 10k+ blog traffic increase
 - ✅ 3 big accounts notice you
 
 ### 6-Month Targets
+
 - ✅ 100+ comprehensive guides
 - ✅ 500k+ monthly organic traffic
 - ✅ 10,000+ email subscribers
@@ -172,6 +195,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 🚀 Next Steps for Agent
 
 ### Immediate Actions
+
 1. Review domain authority gaps in `/docs/domain-authority/00-master-index.md`
 2. Check draft status in `/src/blog/enneagram/drafts/`
 3. Create this week's 5 critical posts
@@ -179,6 +203,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 5. Set up tracking systems
 
 ### Questions to Address
+
 - Which critical gap should we tackle first?
 - Should we hire a VA for content research?
 - Do we need to adjust Twitter strategy based on initial response?
@@ -187,6 +212,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 🎨 Content Creation Guidelines
 
 ### Blog Optimization Framework
+
 1. **Hook:** Emotional or controversial opening
 2. **Structure:** Problem → Pattern → Solution
 3. **Psychology:** Childhood wounds → Adult patterns
@@ -196,6 +222,7 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 7. **JSON-LD:** Always include structured data
 
 ### Voice & Tone
+
 - Modern without losing complexity
 - Practical over theoretical
 - Direct and concise
@@ -205,11 +232,13 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 📞 Support & Resources
 
 ### Key Documents
+
 - Blog optimization framework: `/docs/blog-optimization-strategies.md`
 - Twitter strategy: `/docs/twitter-growth-strategy-9takes.md`
 - Domain authority plans: `/docs/domain-authority/`
 
 ### External Resources
+
 - Enneagram Institute (competitor research)
 - Google Keyword Planner (SEO research)
 - Answer The Public (question research)
@@ -219,17 +248,21 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ## 🎯 AGENT FOCUS AREAS
 
 ### Priority 1: Content Creation
+
 Fill the 5 critical gaps this week. These have highest search volume and lowest competition.
 
 ### Priority 2: Twitter Execution
+
 Launch Week 1 strategy. We have complete templates ready - just execute.
 
 ### Priority 3: Blog Updates
+
 Complete the 3 pending blog updates marked in todo list.
 
 ### Priority 4: Tracking Setup
+
 Implement metrics tracking for both blog and Twitter performance.
 
 ---
 
-*This document is your north star. Update it weekly with progress and new priorities.*
+_This document is your north star. Update it weekly with progress and new priorities._

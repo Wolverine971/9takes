@@ -19,6 +19,7 @@ pic: 'young-couple-on-a-date'
 </script>
 
 <svelte:head>
+
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -88,6 +89,7 @@ pic: 'young-couple-on-a-date'
       ]
     }
   </script>
+
 </svelte:head>
 
 <p class="firstLetter">Three dates in. Everything's perfect. Then you do it again.</p>
@@ -97,6 +99,7 @@ That thing. Your thing.
 The pattern that kills every promising connection before it can bloom.
 
 **Maybe you:**
+
 - Pick apart their flaws until attraction dies (Type 1)
 - Give so much you lose yourself entirely (Type 2)
 - Perform so hard you forget to actually connect (Type 3)
@@ -109,17 +112,17 @@ The Enneagram reveals these hidden patterns—and more importantly, how to break
 
 <div class="scroll-table">
 
-| Type | Your Sabotage Pattern | What It Looks Like | The Unconscious Fear |
-|------|----------------------|-------------------|---------------------|
-| 1 | Perfection paralysis | Mental scorecard of flaws | "If it's not perfect, I'll be disappointed" |
-| 2 | Self-abandonment | Becoming whoever they need | "If I have needs, they'll leave" |
-| 3 | Performance anxiety | Dating resume instead of presence | "If they see the real me, I'm not enough" |
-| 4 | Intensity addiction | Creating drama for connection | "Ordinary love isn't real love" |
-| 5 | Emotional fortress | Analyzing feelings to death | "If I open up, I'll be consumed" |
-| 6 | Trust terrorism | Testing until they fail | "Everyone eventually betrays" |
-| 7 | Depth avoidance | Keeping it light forever | "If we go deep, I'll feel trapped" |
-| 8 | Vulnerability armor | Dominating to stay safe | "If I soften, I'll be hurt" |
-| 9 | Identity erasure | Merging into them | "If I assert myself, they'll leave" |
+| Type | Your Sabotage Pattern | What It Looks Like                | The Unconscious Fear                        |
+| ---- | --------------------- | --------------------------------- | ------------------------------------------- |
+| 1    | Perfection paralysis  | Mental scorecard of flaws         | "If it's not perfect, I'll be disappointed" |
+| 2    | Self-abandonment      | Becoming whoever they need        | "If I have needs, they'll leave"            |
+| 3    | Performance anxiety   | Dating resume instead of presence | "If they see the real me, I'm not enough"   |
+| 4    | Intensity addiction   | Creating drama for connection     | "Ordinary love isn't real love"             |
+| 5    | Emotional fortress    | Analyzing feelings to death       | "If I open up, I'll be consumed"            |
+| 6    | Trust terrorism       | Testing until they fail           | "Everyone eventually betrays"               |
+| 7    | Depth avoidance       | Keeping it light forever          | "If we go deep, I'll feel trapped"          |
+| 8    | Vulnerability armor   | Dominating to stay safe           | "If I soften, I'll be hurt"                 |
+| 9    | Identity erasure      | Merging into them                 | "If I assert myself, they'll leave"         |
 
 </div>
 
@@ -146,6 +149,7 @@ Now you date with a clipboard, checking boxes, noting infractions.
 **The adult pattern:** Seeking the perfect partner to avoid the pain of disappointment.
 
 ### You Might Be a Type 1 If:
+
 - Their grammar mistakes physically hurt you
 - You've already planned how to "improve" them
 - You notice what's wrong before what's right
@@ -158,7 +162,7 @@ Now you date with a clipboard, checking boxes, noting infractions.
 
 While they're sharing their dreams, you're cataloging their split ends. While they're being vulnerable, you're judging their life choices.
 
-*"Great person, but..."* becomes your dating tagline.
+_"Great person, but..."_ becomes your dating tagline.
 
 ### The Mindset Shift That Changes Everything
 
@@ -175,7 +179,7 @@ Perfection is a myth that keeps you alone. Growth together is the real goal.
 ✓ **Wine and paint nights** - Imperfection is part of the art  
 ✓ **Hiking with multiple trail options** - Structure with flexibility  
 ✗ Fine dining - Pressure cooker for perfection  
-✗ Movies - No room for real connection  
+✗ Movies - No room for real connection
 
 **Texting hack:** Set a 2-minute timer for responses. Send without editing. Let humanity show.
 
@@ -200,6 +204,7 @@ Now you date like an emotional EMT, rushing to rescue before checking if they ne
 **The adult pattern:** Compulsive giving that creates covert contracts: "I gave you everything, now you owe me love."
 
 ### You Might Be a Type 2 If:
+
 - You know their coffee order after one mention
 - You've already figured out how to fix their problems
 - You feel anxious when they don't need you
@@ -212,7 +217,7 @@ Now you date like an emotional EMT, rushing to rescue before checking if they ne
 
 You become a shapeshifter, morphing into their perfect partner. But they never meet YOU—just your performance of what you think they need.
 
-*"I don't mind"* becomes your most dangerous lie.
+_"I don't mind"_ becomes your most dangerous lie.
 
 ### The Mindset Shift That Changes Everything
 
@@ -229,7 +234,7 @@ Your value isn't in your utility. The right person loves you at rest.
 ✓ **Cooking together** - Shared effort, shared result  
 ✓ **Board game café** - Playful competition, not caretaking  
 ✗ Them venting, you solving - Not a therapy session  
-✗ You planning everything - Sets unhealthy precedent  
+✗ You planning everything - Sets unhealthy precedent
 
 **Texting hack:** Match their message length. If they send 10 words, you send 10-15. Not 100.
 
@@ -254,6 +259,7 @@ Now you date like you're closing a deal, showcasing ROI instead of revealing you
 **The adult pattern:** Performing intimacy instead of experiencing it.
 
 ### You Might Be a Type 3 If:
+
 - Your dating profile reads like LinkedIn
 - You've rehearsed your "casual" success stories
 - Emotional conversations make you check your phone
@@ -266,7 +272,7 @@ Now you date like you're closing a deal, showcasing ROI instead of revealing you
 
 You optimize for impressiveness: career, abs, witty banter. Meanwhile, you miss the only metric that matters: genuine emotional connection.
 
-*"I showed them my best self"*—but your best self is a hologram.
+_"I showed them my best self"_—but your best self is a hologram.
 
 ### The Mindset Shift That Changes Everything
 
@@ -283,7 +289,7 @@ Your value exists between the victories. Love happens in the quiet moments.
 ✓ **Food truck hopping** - Keep it real, not refined  
 ✓ **Sunset hike** - Share dreams, not spreadsheets  
 ✗ Networking events - Work mode activated  
-✗ Competitive sports - Winning overtakes connecting  
+✗ Competitive sports - Winning overtakes connecting
 
 **Texting hack:** Share one failure for every success you mention.
 
@@ -312,6 +318,7 @@ Now you date like every interaction needs a soundtrack, turning coffee into cine
 **The adult pattern:** Creating turbulence to confirm connection exists.
 
 ### You Might Be a Type 4 If:
+
 - Small talk feels like soul death
 - You're discussing childhood trauma by date two
 - Stable relationships feel somehow "less real"
@@ -324,7 +331,7 @@ Now you date like every interaction needs a soundtrack, turning coffee into cine
 
 You mistake drama for depth. Chaos for connection. You create problems just to feel something.
 
-*"If it's not passionate, is it even real?"*—Yes. The mundane is where love lives.
+_"If it's not passionate, is it even real?"_—Yes. The mundane is where love lives.
 
 ### The Mindset Shift That Changes Everything
 
@@ -341,7 +348,7 @@ Real love is boring sometimes. That's not emptiness—it's peace.
 ✓ **Used bookstore browsing** - Share influences naturally  
 ✓ **Picnic with their/your playlist** - Emotional sharing through music  
 ✗ Loud clubs - Forced intensity  
-✗ Group events - Can't go deep  
+✗ Group events - Can't go deep
 
 **Texting hack:** Send one ordinary observation daily. "The coffee shop played our song." Practice finding meaning in the mundane.
 
@@ -366,6 +373,7 @@ Now you date like an anthropologist, studying human connection from a safe dista
 **The adult pattern:** Observing intimacy instead of experiencing it.
 
 ### You Might Be a Type 5 If:
+
 - You've researched their entire digital footprint
 - You analyze chemistry instead of feeling it
 - You need three days to process one feeling
@@ -378,7 +386,7 @@ Now you date like an anthropologist, studying human connection from a safe dista
 
 You understand the concept of love. You've read the research. You can explain attachment theory. But understanding and experiencing are different worlds.
 
-*"I need to think about how I feel"*—Some things are felt, not thought.
+_"I need to think about how I feel"_—Some things are felt, not thought.
 
 ### The Mindset Shift That Changes Everything
 
@@ -395,7 +403,7 @@ Analysis paralysis keeps you alone. Sometimes you have to jump before mapping th
 ✓ **Documentary + coffee** - Ideas bridge to feelings  
 ✓ **Bookstore date** - Share intellectual interests personally  
 ✗ Loud venues - Sensory overwhelm  
-✗ Group activities - Energy drain  
+✗ Group activities - Energy drain
 
 **Texting hack:** Add one feeling word to every message. "That's interesting" becomes "That's interesting—it made me smile."
 
@@ -420,6 +428,7 @@ Now you date like a detective, gathering evidence for the betrayal you're sure i
 **The adult pattern:** Testing loyalty until you break it.
 
 ### You Might Be a Type 6 If:
+
 - You've created tests they don't know they're taking
 - Mixed signals send you into analysis spirals
 - You need constant reassurance (but don't believe it)
@@ -432,7 +441,7 @@ Now you date like a detective, gathering evidence for the betrayal you're sure i
 
 You mistake fear for foresight. Create problems to solve them. Test until they fail—then say "I knew it."
 
-*"Something feels off"*—Maybe. Or maybe safety feels foreign.
+_"Something feels off"_—Maybe. Or maybe safety feels foreign.
 
 ### The Mindset Shift That Changes Everything
 
@@ -449,7 +458,7 @@ Your fears are usually worse than reality. Trust is a choice, not a guarantee.
 ✓ **Mini golf** - Playful but structured  
 ✓ **Afternoon dates** - Less pressure than evening  
 ✗ Surprises - Trigger hypervigilance  
-✗ Ambiguous plans - Anxiety spike  
+✗ Ambiguous plans - Anxiety spike
 
 **Texting hack:** When anxious about their response, wait 20 minutes before reading into it. Most "signs" are projections.
 
@@ -474,6 +483,7 @@ Now you date like you're collecting experiences, skimming surfaces to avoid the 
 **The adult pattern:** Mistaking variety for vitality.
 
 ### You Might Be a Type 7 If:
+
 - You're planning date five during date one
 - Emotional conversations trigger your flight response
 - You've ended things for being "too heavy"
@@ -486,7 +496,7 @@ Now you date like you're collecting experiences, skimming surfaces to avoid the 
 
 You keep things light, fun, exciting. But connection requires going into the dark sometimes. You can't build intimacy at surface level.
 
-*"Why so serious?"*—Because real life includes serious moments.
+_"Why so serious?"_—Because real life includes serious moments.
 
 ### The Mindset Shift That Changes Everything
 
@@ -503,7 +513,7 @@ The greatest thrills require staying still. The best adventures happen internall
 ✓ **Sunset kayaking** - Adventure with intimate moments  
 ✓ **Comedy show + late night coffee** - Fun bridging to real  
 ✗ Bar hopping - Too much stimulation  
-✗ Amusement parks - No space for connection  
+✗ Amusement parks - No space for connection
 
 **Texting hack:** When you want to change subjects from something heavy, don't. Stay there one more message.
 
@@ -528,6 +538,7 @@ Now you date in full armor, wondering why no one can reach your heart.
 **The adult pattern:** Dominating to avoid being dominated.
 
 ### You Might Be a Type 8 If:
+
 - First dates feel like friendly combat
 - You test their strength through confrontation
 - Emotional conversations feel like losing
@@ -540,7 +551,7 @@ Now you date in full armor, wondering why no one can reach your heart.
 
 You show strength, intensity, passion—everything except the soft parts that actually create intimacy.
 
-*"I don't do vulnerable"*—Then you don't do love.
+_"I don't do vulnerable"_—Then you don't do love.
 
 ### The Mindset Shift That Changes Everything
 
@@ -557,7 +568,7 @@ Real power includes the courage to be soft. The strongest thing you can do is lo
 ✓ **Cooking together** - Collaboration not competition  
 ✓ **Animal shelter volunteering** - Show your soft side safely  
 ✗ Debate events - Triggers combat mode  
-✗ Competitive anything - Winning overtakes connecting  
+✗ Competitive anything - Winning overtakes connecting
 
 **Texting hack:** Use one emoji per message. Yes, even the heart ones. Practice emotional expression.
 
@@ -582,6 +593,7 @@ Now you date by becoming a mirror, reflecting what they want while losing yourse
 **The adult pattern:** Self-erasure disguised as easygoing.
 
 ### You Might Be a Type 9 If:
+
 - "I don't mind" is your catchphrase
 - You adopt their interests instantly
 - Conflict makes you physically sick
@@ -594,7 +606,7 @@ Now you date by becoming a mirror, reflecting what they want while losing yourse
 
 You merge so completely there's no "you" left to love. They're dating their own reflection.
 
-*"I'm just easygoing"*—No, you're hiding.
+_"I'm just easygoing"_—No, you're hiding.
 
 ### The Mindset Shift That Changes Everything
 
@@ -611,7 +623,7 @@ Real harmony includes all voices—especially yours. Peace without presence is j
 ✓ **Walk in your neighborhood** - Your territory, your stories  
 ✓ **Activity you're good at** - Show competence and preference  
 ✗ "Whatever you want" - Stop that immediately  
-✗ Their choices only - Sets self-erasure pattern  
+✗ Their choices only - Sets self-erasure pattern
 
 **Texting hack:** Share one preference daily. "I love rainy days" or "I hate cilantro." Practice having opinions.
 

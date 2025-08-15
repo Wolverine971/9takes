@@ -1,11 +1,14 @@
 # Twitter Content Calendar: Weeks 1-3
-*Last Modified: 2025-08-15*
+
+_Last Modified: 2025-08-15_
 
 ## Week 1: "Decode People Instantly"
-*Theme: First impressions and body language*
-*Based on: first-impression-enneagram-playbook.md*
+
+_Theme: First impressions and body language_
+_Based on: first-impression-enneagram-playbook.md_
 
 ### Monday, Day 1 @ 9 AM - Question Hook
+
 ```
 What's the weirdest thing you do in social situations that you think nobody notices?
 
@@ -15,6 +18,7 @@ I'll go first: I count how many times people check their phones during conversat
 ```
 
 ### Wednesday, Day 3 @ 12 PM - Main Thread
+
 ```
 1/7 I've studied 1000+ social interactions and found something wild:
 
@@ -68,6 +72,7 @@ What patterns do you notice in people?
 ```
 
 **1 hour later - Reply to thread:**
+
 ```
 The responses to this are incredible.
 
@@ -79,6 +84,7 @@ That's literally the most Type 6 response possible.
 ```
 
 ### Thursday, Day 4 @ 5 PM - Link Drop
+
 ```
 That thread about reading people in 30 seconds?
 
@@ -92,6 +98,7 @@ Reply with your type and I'll tell you your conversation superpower 👇
 ```
 
 ### Friday, Day 5 @ 9 AM - Community Engagement
+
 ```
 From yesterday's replies, here's what I learned about you:
 
@@ -105,11 +112,13 @@ Who feels seen? 👀
 
 ---
 
-## Week 2: "Your Hidden Patterns" 
-*Theme: Self-sabotage in relationships*
-*Based on: how-to-navigate-early-relationship-stages.md*
+## Week 2: "Your Hidden Patterns"
+
+_Theme: Self-sabotage in relationships_
+_Based on: how-to-navigate-early-relationship-stages.md_
 
 ### Monday, Day 8 @ 9 AM - Poll
+
 ```
 What ruins relationships fastest?
 
@@ -122,6 +131,7 @@ Your answer reveals your type btw 👇
 ```
 
 ### Wednesday, Day 10 @ 8 AM - Story Thread
+
 ```
 1/8 My friend kept dating the same toxic person in different bodies.
 
@@ -131,7 +141,7 @@ Then she discovered her Type 2 pattern:
 
 2/8 The pattern:
 - Give everything immediately
-- Ignore her own needs  
+- Ignore her own needs
 - Build resentment silently
 - Explode "out of nowhere"
 - Partner leaves confused
@@ -154,7 +164,7 @@ Type 4: Rejects before being rejected
 Type 5: Withdraws until they're alone
 
 5/8 Type 6: Tests until trust breaks
-Type 7: Runs from depth into loneliness  
+Type 7: Runs from depth into loneliness
 Type 8: Controls until no one's vulnerable
 Type 9: Disappears until forgotten
 
@@ -186,6 +196,7 @@ What pattern are you ready to break?
 ```
 
 **1 hour later - Reply:**
+
 ```
 The DMs from this thread... 💔
 
@@ -197,6 +208,7 @@ Your awareness is the first step to breaking it.
 ```
 
 ### Thursday, Day 11 @ 12 PM - Vulnerable Share
+
 ```
 Personal confession:
 
@@ -212,6 +224,7 @@ It's about conscious imperfection.
 ```
 
 ### Friday, Day 12 @ 5 PM - Link + Value
+
 ```
 This week we talked about relationship patterns.
 
@@ -227,12 +240,14 @@ Which pattern hit too close to home?
 ---
 
 ## Week 3: "Dating Decoded"
-*Theme: Ghosting and FAQs*
-*Based on: enneagram-types-being-ghosted.md & enneagram-faqs.md*
+
+_Theme: Ghosting and FAQs_
+_Based on: enneagram-types-being-ghosted.md & enneagram-faqs.md_
 
 ### Monday, Day 15 @ 12 PM - Controversial Hook
+
 ```
-Hot take: 
+Hot take:
 
 The Enneagram is just astrology for people with masters degrees.
 
@@ -244,6 +259,7 @@ What's your biggest skepticism about personality typing?
 ```
 
 ### Wednesday, Day 17 @ 9 AM - Ghosting Thread
+
 ```
 1/6 Getting ghosted hits different based on your personality type.
 
@@ -267,7 +283,7 @@ Same ghosting. Nine different stories.
 4/6 The Type 2 spiral is heartbreaking:
 
 "Maybe their phone died"
-"Are they hurt?"  
+"Are they hurt?"
 "Should I check in?"
 "What did I do wrong?"
 "How can I fix this?"
@@ -293,6 +309,7 @@ How did your last ghosting hit you?
 ```
 
 **2 hours later - Reply:**
+
 ```
 Update: This thread has been shared 200+ times
 
@@ -305,6 +322,7 @@ Sometimes naming the wound starts the healing.
 ```
 
 ### Thursday, Day 18 @ 2 PM - FAQ Bomb
+
 ```
 Is the Enneagram real?
 
@@ -324,6 +342,7 @@ But it works.
 ```
 
 ### Friday, Day 19 @ 10 AM - Week Recap + Link
+
 ```
 This week's uncomfortable truths:
 
@@ -339,6 +358,7 @@ What truth hit hardest?
 ```
 
 ### Saturday, Day 20 @ 11 AM - Community Building
+
 ```
 Small account confession:
 
@@ -359,8 +379,9 @@ Who else is building from scratch? 👇
 ## Engagement Responses Bank
 
 ### When someone shares vulnerability:
+
 ```
-This takes courage to share. Thank you for trusting us with this. 
+This takes courage to share. Thank you for trusting us with this.
 
 Your Type [X] pattern makes so much sense - [specific validation].
 
@@ -368,6 +389,7 @@ You're not alone in this.
 ```
 
 ### When someone disagrees:
+
 ```
 Fair point! The Enneagram isn't for everyone.
 
@@ -377,6 +399,7 @@ Always curious about different approaches.
 ```
 
 ### When someone asks for help:
+
 ```
 Based on what you shared, sounds like Type [X] pattern.
 
@@ -388,6 +411,7 @@ Want the deeper guide? [link if appropriate]
 ```
 
 ### When someone mistypes themselves:
+
 ```
 Interesting! Type [X] and Type [Y] can look similar.
 
@@ -402,6 +426,7 @@ Fear of [X] or fear of [Y]?
 ## Performance Tracking
 
 ### Week 1 Targets:
+
 - [ ] 3 threads posted
 - [ ] 50+ replies total
 - [ ] 100+ profile visits
@@ -409,6 +434,7 @@ Fear of [X] or fear of [Y]?
 - [ ] 20+ link clicks
 
 ### Week 2 Targets:
+
 - [ ] 4 posts minimum
 - [ ] 75+ replies total
 - [ ] 150+ profile visits
@@ -416,6 +442,7 @@ Fear of [X] or fear of [Y]?
 - [ ] 30+ link clicks
 
 ### Week 3 Targets:
+
 - [ ] 4 posts minimum
 - [ ] 100+ replies total
 - [ ] 200+ profile visits

@@ -273,7 +273,6 @@ This control frequently manifests in nuanced ways—through unsolicited advice, 
 **The Unacknowledged Emotional Undercurrent**  
 "There's so much unprocessed sadness beneath the surface," reveals another participant, describing the grief many Type 2s carry regarding not being truly seen or valued for themselves apart from what they provide. This sorrow often remains concealed beneath busy schedules of caring for others.
 
-
 <div class="quote-box">
 "The first time someone thanked me simply for being present, without my having done anything for them, I burst into tears. It revealed how deeply I'd believed my worth came only from what I could provide, not from who I inherently was."
 </div>
@@ -292,9 +291,6 @@ One describes the initially terrifying but ultimately essential process of askin
 Multiple participants articulate their journey toward healthier relationship patterns with remarkable clarity. "I operated as if love were a transaction—I provide care, you provide acceptance and security," explains one. "Learning that I'm inherently worthy of love regardless of what I provide has fundamentally transformed my relationships."
 
 This shift from conditional to inherent self-worth represents a crucial developmental milestone in the Type 2 growth journey, opening possibilities for more authentic and mutually nourishing connections.
-
-
-
 
 </section>
 

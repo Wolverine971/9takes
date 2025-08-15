@@ -33,26 +33,34 @@
 	};
 
 	// Transform visitor data for chart with actual dates
-	$: visitorChartData = data.dailyVisitors ? data.dailyVisitors.map((visitor) => {
-		// Parse the date string directly
-		const date = new Date(visitor.days);
-		return {
-			x: date.getTime(), // Use timestamp for x value
-			y: visitor.number_of_visitors,
-			label: `${date.toLocaleDateString()}: ${visitor.number_of_visitors} visitors`
-		};
-	}).sort((a, b) => a.x - b.x) : []; // Sort by date ascending
+	$: visitorChartData = data.dailyVisitors
+		? data.dailyVisitors
+				.map((visitor) => {
+					// Parse the date string directly
+					const date = new Date(visitor.days);
+					return {
+						x: date.getTime(), // Use timestamp for x value
+						y: visitor.number_of_visitors,
+						label: `${date.toLocaleDateString()}: ${visitor.number_of_visitors} visitors`
+					};
+				})
+				.sort((a, b) => a.x - b.x)
+		: []; // Sort by date ascending
 
 	// Transform comment data for chart with actual dates
-	$: commentChartData = data.dailyComments ? data.dailyComments.map((comment) => {
-		// Parse the date string directly
-		const date = new Date(comment.days);
-		return {
-			x: date.getTime(), // Use timestamp for x value
-			y: comment.number_of_comments,
-			label: `${date.toLocaleDateString()}: ${comment.number_of_comments} comments`
-		};
-	}).sort((a, b) => a.x - b.x) : []; // Sort by date ascending
+	$: commentChartData = data.dailyComments
+		? data.dailyComments
+				.map((comment) => {
+					// Parse the date string directly
+					const date = new Date(comment.days);
+					return {
+						x: date.getTime(), // Use timestamp for x value
+						y: comment.number_of_comments,
+						label: `${date.toLocaleDateString()}: ${comment.number_of_comments} comments`
+					};
+				})
+				.sort((a, b) => a.x - b.x)
+		: []; // Sort by date ascending
 </script>
 
 <div class="admin-dashboard">
@@ -105,7 +113,7 @@
 					<span class="chevron">▼</span>
 				</summary>
 				<div class="chart-wrapper">
-					<LineChart 
+					<LineChart
 						data={visitorChartData}
 						title="Daily Visitors (Last 30 Days)"
 						xLabel="Date"
@@ -126,7 +134,7 @@
 					<span class="chevron">▼</span>
 				</summary>
 				<div class="chart-wrapper">
-					<LineChart 
+					<LineChart
 						data={commentChartData}
 						title="Daily Comments (Last 30 Days)"
 						xLabel="Date"
@@ -173,9 +181,7 @@
 										</a>
 									</td>
 									<td>
-										<a href="/questions/{question.url}" class="table-link">
-											View
-										</a>
+										<a href="/questions/{question.url}" class="table-link"> View </a>
 									</td>
 								</tr>
 							{/each}
@@ -190,12 +196,12 @@
 	<div class="actions-section">
 		<div class="action-card">
 			<h3>Demo Mode Control</h3>
-			<p>Current Status: <span class="status-badge" class:active={isDemoTime}>{isDemoTime ? 'ON' : 'OFF'}</span></p>
-			<button
-				type="button"
-				class="btn btn-primary"
-				on:click={changeDemoTime}
-			>
+			<p>
+				Current Status: <span class="status-badge" class:active={isDemoTime}
+					>{isDemoTime ? 'ON' : 'OFF'}</span
+				>
+			</p>
+			<button type="button" class="btn btn-primary" on:click={changeDemoTime}>
 				Toggle Demo Mode
 			</button>
 		</div>
@@ -257,7 +263,9 @@
 		display: flex;
 		align-items: center;
 		gap: 1rem;
-		transition: transform 0.2s ease, box-shadow 0.2s ease;
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease;
 	}
 
 	.stat-card:hover {
@@ -500,8 +508,8 @@
 		}
 
 		/* Hide less important columns on very small screens */
-		.data-table th:nth-child(n+5),
-		.data-table td:nth-child(n+5) {
+		.data-table th:nth-child(n + 5),
+		.data-table td:nth-child(n + 5) {
 			display: none;
 		}
 	}

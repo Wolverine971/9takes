@@ -14,7 +14,7 @@ previewHtml: ''
 pic: 'enneagram-crisis-management'
 ---
 
-<!-- 
+<!--
 NOTES:
 - Immediate interventions for each type in crisis
 - Suicide prevention strategies by type
@@ -77,6 +77,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How Crisis Manifests in Type 1s
 
 **Early Warning Signs**:
+
 - Increased rigidity and rules
 - Obsessive self-criticism
 - Physical tension/pain
@@ -84,6 +85,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Explosive anger episodes
 
 **Crisis Presentation**:
+
 - "I'm fundamentally bad/wrong"
 - Severe self-punishment
 - Suicidal ideation as "justice"
@@ -93,23 +95,27 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Immediate Interventions for Type 1s
 
 #### 1. Interrupt the Critic
+
 - "What would you tell a friend?"
 - "Is this thought helpful or harmful?"
 - "Can we pause the judgment?"
 
 #### 2. Physical Release
+
 - Vigorous exercise
 - Screaming into pillows
 - Breaking safe objects
 - Cold water immersion
 
 #### 3. Perspective Shift
+
 - List what IS working
 - Find gray areas
 - Remember past recoveries
 - "Progress not perfection"
 
 #### 4. Professional Support
+
 - Call therapist immediately
 - Consider medication evaluation
 - Group support for perspective
@@ -117,6 +123,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Building a Type 1 Crisis Plan
 
 **Prevention**:
+
 - Daily self-compassion practice
 - Regular therapy
 - Anger outlets
@@ -124,6 +131,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Support network
 
 **Crisis Kit**:
+
 - Self-compassion phrases
 - Therapist contact
 - Trusted friend numbers
@@ -131,6 +139,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Comfort items
 
 **Recovery**:
+
 - Gentle re-entry
 - Adjusted standards
 - Increased support
@@ -139,6 +148,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How to Help a Type 1 in Crisis
 
 **Do**:
+
 - Acknowledge their pain
 - Avoid judging their judgment
 - Offer practical support
@@ -146,6 +156,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Remind them of their goodness
 
 **Don't**:
+
 - Criticize their criticism
 - Minimize their concerns
 - Add more rules
@@ -153,6 +164,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Leave them alone
 
 **Say**:
+
 - "You are inherently good"
 - "Mistakes don't define you"
 - "I'm here without judgment"
@@ -172,6 +184,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How Crisis Manifests in Type 2s
 
 **Early Warning Signs**:
+
 - Frantic helping increase
 - Emotional manipulation
 - Physical illness from stress
@@ -179,6 +192,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Resentment building
 
 **Crisis Presentation**:
+
 - "Nobody really loves me"
 - Hysterical emotions
 - Self-harm for attention
@@ -188,23 +202,27 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Immediate Interventions for Type 2s
 
 #### 1. Validate Their Worth
+
 - "You matter for who you are"
 - "Your needs are important"
 - "You deserve love and care"
 
 #### 2. Gentle Boundaries
+
 - Limit helping others
 - Schedule self-care
 - Say no to requests
 - Put oxygen mask on first
 
 #### 3. Emotional Expression
+
 - Cry without fixing
 - Journal feelings
 - Express anger safely
 - Voice needs directly
 
 #### 4. Connection Without Giving
+
 - Receive support
 - Let others help
 - Join support group
@@ -213,6 +231,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Building a Type 2 Crisis Plan
 
 **Prevention**:
+
 - Regular self-care routine
 - Boundary practice
 - Therapy for codependency
@@ -220,6 +239,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Multiple support sources
 
 **Crisis Kit**:
+
 - Self-love affirmations
 - Photos of being loved
 - Comfort activities
@@ -227,6 +247,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Receiving practice
 
 **Recovery**:
+
 - Gradual re-engagement
 - Maintained boundaries
 - Continued therapy
@@ -235,6 +256,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How to Help a Type 2 in Crisis
 
 **Do**:
+
 - Express unconditional love
 - Offer practical help
 - Listen without fixing
@@ -242,6 +264,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Check in regularly
 
 **Don't**:
+
 - Let them help you
 - Criticize their emotions
 - Enable martyrdom
@@ -249,6 +272,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Judge their needs
 
 **Say**:
+
 - "I love you for you"
 - "Your needs matter to me"
 - "Let me help you"
@@ -268,6 +292,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How Crisis Manifests in Type 3s
 
 **Early Warning Signs**:
+
 - Manic productivity
 - Emotional numbness
 - Image obsession increase
@@ -275,6 +300,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Relationship neglect
 
 **Crisis Presentation**:
+
 - "I'm worthless without success"
 - Complete identity collapse
 - Severe depression
@@ -284,23 +310,27 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Immediate Interventions for Type 3s
 
 #### 1. Separate Worth from Work
+
 - "You matter beyond achievements"
 - "Who are you at core?"
 - "What did you love as child?"
 
 #### 2. Feel Without Fixing
+
 - Sit with emotions
 - No productivity allowed
 - Mindfulness practice
 - Body sensation focus
 
 #### 3. Authentic Connection
+
 - Share real struggles
 - Drop the image
 - Vulnerable conversations
 - Support group attendance
 
 #### 4. Redefine Success
+
 - Values exploration
 - Being goals vs doing
 - Character development
@@ -309,6 +339,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Building a Type 3 Crisis Plan
 
 **Prevention**:
+
 - Work-life balance
 - Regular feeling check-ins
 - Authentic relationships
@@ -316,6 +347,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Therapy for worth issues
 
 **Crisis Kit**:
+
 - Identity reminders
 - Photos of loved ones
 - Mindfulness tools
@@ -323,6 +355,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Values list
 
 **Recovery**:
+
 - Slow return to work
 - Maintained balance
 - Continued authenticity
@@ -331,6 +364,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How to Help a Type 3 in Crisis
 
 **Do**:
+
 - Value them as person
 - Encourage rest
 - Share your struggles
@@ -338,6 +372,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Stay present
 
 **Don't**:
+
 - Ask about work
 - Praise achievements
 - Enable workaholism
@@ -345,6 +380,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Offer quick fixes
 
 **Say**:
+
 - "You matter to me"
 - "I see the real you"
 - "Rest is productive"
@@ -364,6 +400,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How Crisis Manifests in Type 4s
 
 **Early Warning Signs**:
+
 - Increased melancholy
 - Dramatic expressions
 - Self-harm thoughts
@@ -371,6 +408,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Identity obsession
 
 **Crisis Presentation**:
+
 - "I don't belong anywhere"
 - Active suicidal ideation
 - Self-harm behaviors
@@ -380,23 +418,27 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Immediate Interventions for Type 4s
 
 #### 1. Validate Without Amplifying
+
 - "Your pain is real"
 - "You're not too much"
 - "I see your uniqueness"
 
 #### 2. Ground in Present
+
 - 5-4-3-2-1 sensing
 - Body movement
 - Creative expression
 - Nature immersion
 
 #### 3. Connection Practice
+
 - Reach out to one person
 - Share authentically
 - Join support group
 - Pet interaction
 
 #### 4. Meaning Making
+
 - Journal insights
 - Create from pain
 - Help others similar
@@ -405,6 +447,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Building a Type 4 Crisis Plan
 
 **Prevention**:
+
 - Regular therapy
 - Creative routine
 - Stable relationships
@@ -412,6 +455,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Meaning activities
 
 **Crisis Kit**:
+
 - Grounding tools
 - Creative supplies
 - Support contacts
@@ -419,6 +463,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Hope reminders
 
 **Recovery**:
+
 - Gentle re-entry
 - Maintained connections
 - Continued creativity
@@ -427,6 +472,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How to Help a Type 4 in Crisis
 
 **Do**:
+
 - Validate their uniqueness
 - Sit with their emotions
 - Encourage expression
@@ -434,6 +480,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Show up regularly
 
 **Don't**:
+
 - Minimize their pain
 - Compare to others
 - Rush them through
@@ -441,6 +488,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Match their intensity
 
 **Say**:
+
 - "Your feelings matter"
 - "You belong here"
 - "I'm not leaving"
@@ -460,6 +508,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How Crisis Manifests in Type 5s
 
 **Early Warning Signs**:
+
 - Extreme withdrawal
 - Neglecting basic needs
 - Paranoid thoughts
@@ -467,6 +516,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Hoarding increase
 
 **Crisis Presentation**:
+
 - "I can't handle life"
 - Severe isolation
 - Suicidal planning
@@ -476,24 +526,28 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Immediate Interventions for Type 5s
 
 #### 1. Reduce All Demands
+
 - Clear schedule
 - No decisions needed
 - Quiet environment
 - Minimal interaction
 
 #### 2. Basic Needs First
+
 - Gentle food reminders
 - Hydration focus
 - Sleep priority
 - Hygiene support
 
 #### 3. Gradual Re-engagement
+
 - One small task
 - Brief check-ins
 - Written communication
 - Respect boundaries
 
 #### 4. Resource Building
+
 - Energy inventory
 - Boundary setting
 - Support acceptance
@@ -502,6 +556,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Building a Type 5 Crisis Plan
 
 **Prevention**:
+
 - Energy management
 - Regular solitude
 - Clear boundaries
@@ -509,6 +564,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Minimal commitments
 
 **Crisis Kit**:
+
 - Quiet space plan
 - Basic needs list
 - Trusted contact
@@ -516,6 +572,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Grounding items
 
 **Recovery**:
+
 - Very slow pace
 - Maintained boundaries
 - Gradual re-entry
@@ -524,6 +581,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How to Help a Type 5 in Crisis
 
 **Do**:
+
 - Respect their space
 - Offer practical help
 - Communicate briefly
@@ -531,6 +589,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Stay available
 
 **Don't**:
+
 - Overwhelm with presence
 - Force interaction
 - Make demands
@@ -538,6 +597,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Expect quick recovery
 
 **Say**:
+
 - "No pressure to respond"
 - "I'm here when ready"
 - "Your needs matter"
@@ -557,6 +617,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How Crisis Manifests in Type 6s
 
 **Early Warning Signs**:
+
 - Anxiety spike
 - Hypervigilance increase
 - Testing behaviors
@@ -564,6 +625,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Sleep disruption
 
 **Crisis Presentation**:
+
 - "Nothing is safe"
 - Panic attacks
 - Paranoid thoughts
@@ -573,24 +635,28 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Immediate Interventions for Type 6s
 
 #### 1. Create Immediate Safety
+
 - Safe physical space
 - Predictable routine
 - Clear information
 - Trusted presence
 
 #### 2. Reality Testing
+
 - Fact vs fear lists
 - Probability assessment
 - Past survival review
 - Grounding in present
 
 #### 3. Anxiety Management
+
 - Breathing exercises
 - Progressive relaxation
 - Movement/walking
 - Anxiety medication
 
 #### 4. Support Activation
+
 - Call trusted people
 - Join support group
 - Therapist session
@@ -599,6 +665,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Building a Type 6 Crisis Plan
 
 **Prevention**:
+
 - Anxiety management tools
 - Multiple support sources
 - Regular therapy
@@ -606,6 +673,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Structure/routine
 
 **Crisis Kit**:
+
 - Anxiety toolkit
 - Support network list
 - Calming activities
@@ -613,6 +681,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Safety reminders
 
 **Recovery**:
+
 - Rebuilt routine
 - Trust repair work
 - Continued support
@@ -621,6 +690,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How to Help a Type 6 in Crisis
 
 **Do**:
+
 - Be consistently present
 - Provide clear information
 - Stay calm yourself
@@ -628,6 +698,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Build trust slowly
 
 **Don't**:
+
 - Dismiss anxiety
 - Be unpredictable
 - Break promises
@@ -635,6 +706,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Push too fast
 
 **Say**:
+
 - "I'm here consistently"
 - "Let's look at facts"
 - "You've survived before"
@@ -654,6 +726,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How Crisis Manifests in Type 7s
 
 **Early Warning Signs**:
+
 - Manic activity increase
 - Substance use spike
 - Emotional avoidance
@@ -661,6 +734,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Sleep avoidance
 
 **Crisis Presentation**:
+
 - "I can't escape this"
 - Hidden severe depression
 - Dangerous impulsivity
@@ -670,24 +744,28 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Immediate Interventions for Type 7s
 
 #### 1. Contain Safely
+
 - Remove harmful options
 - Create safe boundaries
 - Monitor substances
 - Stay physically present
 
 #### 2. Process in Doses
+
 - Brief feeling moments
 - Then distraction
 - Gradual increase
 - Professional help
 
 #### 3. Healthy Stimulation
+
 - Safe adventures
 - Creative projects
 - Physical activity
 - Social connection
 
 #### 4. Hope Building
+
 - Future planning
 - Option generation
 - Meaning making
@@ -696,6 +774,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Building a Type 7 Crisis Plan
 
 **Prevention**:
+
 - Regular therapy
 - Emotional practice
 - Healthy coping list
@@ -703,6 +782,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Meaning activities
 
 **Crisis Kit**:
+
 - Safe activity list
 - Support contacts
 - Grounding tools
@@ -710,6 +790,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Comfort items
 
 **Recovery**:
+
 - Maintained processing
 - Healthy stimulation
 - Continued support
@@ -718,6 +799,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How to Help a Type 7 in Crisis
 
 **Do**:
+
 - Stay with them
 - Allow some distraction
 - Encourage small processing
@@ -725,6 +807,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Maintain hope
 
 **Don't**:
+
 - Force deep processing
 - Remove all stimulation
 - Judge their avoidance
@@ -732,6 +815,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Match their mania
 
 **Say**:
+
 - "We'll get through this"
 - "Pain is temporary"
 - "I'm here with you"
@@ -751,6 +835,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How Crisis Manifests in Type 8s
 
 **Early Warning Signs**:
+
 - Rage increase
 - Isolation/withdrawal
 - Reckless behavior
@@ -758,6 +843,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Relationship destruction
 
 **Crisis Presentation**:
+
 - "I'll never trust again"
 - Violent thoughts/plans
 - Complete shutdown
@@ -767,23 +853,27 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Immediate Interventions for Type 8s
 
 #### 1. Honor Their Strength
+
 - "You're still powerful"
 - "Vulnerability is strength"
 - "You've survived worse"
 
 #### 2. Physical Outlets
+
 - Intense exercise
 - Martial arts
 - Breaking things safely
 - Screaming space
 
 #### 3. Controlled Vulnerability
+
 - One trusted person
 - Small admissions
 - Tears as strength
 - Ask for one thing
 
 #### 4. Justice Channel
+
 - Protect others
 - Fight good fight
 - Channel rage positively
@@ -792,6 +882,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Building a Type 8 Crisis Plan
 
 **Prevention**:
+
 - Trust building work
 - Vulnerability practice
 - Anger management
@@ -799,6 +890,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Support network
 
 **Crisis Kit**:
+
 - Physical outlet plan
 - Trusted contact
 - Rage release tools
@@ -806,6 +898,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Strength reminders
 
 **Recovery**:
+
 - Slow trust rebuild
 - Maintained vulnerability
 - Continued support
@@ -814,6 +907,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How to Help a Type 8 in Crisis
 
 **Do**:
+
 - Respect their walls
 - Stay strong yourself
 - Offer practical help
@@ -821,6 +915,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Be trustworthy
 
 **Don't**:
+
 - Force vulnerability
 - Show pity
 - Betray trust
@@ -828,6 +923,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Match aggression
 
 **Say**:
+
 - "I respect your strength"
 - "I'm here when ready"
 - "You're not alone"
@@ -847,6 +943,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How Crisis Manifests in Type 9s
 
 **Early Warning Signs**:
+
 - Increased dissociation
 - Complete passivity
 - Physical numbness
@@ -854,6 +951,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Conflict avoidance
 
 **Crisis Presentation**:
+
 - "Nothing matters"
 - Severe depression
 - Complete shutdown
@@ -863,24 +961,28 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Immediate Interventions for Type 9s
 
 #### 1. Gentle Activation
+
 - Small movements
 - Simple choices
 - Brief interactions
 - Basic needs focus
 
 #### 2. Anger Permission
+
 - "It's okay to be angry"
 - Physical expression
 - Boundary setting
 - Needs stating
 
 #### 3. Identity Building
+
 - "What do YOU want?"
 - Preference practice
 - Opinion expression
 - Value exploration
 
 #### 4. Energy Building
+
 - Physical movement
 - Nature time
 - Creative expression
@@ -889,6 +991,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Building a Type 9 Crisis Plan
 
 **Prevention**:
+
 - Regular activation
 - Anger expression
 - Identity work
@@ -896,6 +999,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Conflict skills
 
 **Crisis Kit**:
+
 - Activation activities
 - Support contacts
 - Anger outlets
@@ -903,6 +1007,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Energy tools
 
 **Recovery**:
+
 - Maintained activation
 - Continued expression
 - Identity development
@@ -911,6 +1016,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### How to Help a Type 9 in Crisis
 
 **Do**:
+
 - Gently activate them
 - Ask their opinion
 - Encourage expression
@@ -918,6 +1024,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Notice them
 
 **Don't**:
+
 - Let them disappear
 - Decide for them
 - Avoid conflict
@@ -925,6 +1032,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Ignore their needs
 
 **Say**:
+
 - "You matter to me"
 - "What do you need?"
 - "Your voice counts"
@@ -936,17 +1044,20 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Creating Your Crisis Plan
 
 1. **Know Your Triggers**
+
    - Type-specific vulnerabilities
    - Personal history
    - Warning signs
 
 2. **Build Your Toolkit**
+
    - Coping strategies
    - Support contacts
    - Comfort items
    - Professional resources
 
 3. **Practice When Calm**
+
    - Regular skill building
    - Support activation
    - Plan reviewing
@@ -960,6 +1071,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### When to Seek Immediate Help
 
 **Call 988 or 911 if**:
+
 - Suicidal plan exists
 - Self-harm occurring
 - Danger to others
@@ -967,6 +1079,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Cannot ensure safety
 
 **Schedule urgent care if**:
+
 - Suicidal thoughts present
 - Functioning impaired
 - Substances increasing
@@ -976,6 +1089,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ## Supporting Others in Crisis
 
 ### Universal Do's
+
 - Stay calm yourself
 - Listen without fixing
 - Validate their pain
@@ -983,6 +1097,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Follow up consistently
 
 ### Universal Don'ts
+
 - Minimize their crisis
 - Give quick solutions
 - Break confidentiality
@@ -990,6 +1105,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Judge their struggle
 
 ### Getting Help
+
 - Know crisis resources
 - Have numbers ready
 - Offer to call/go
@@ -1001,12 +1117,14 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### After the Crisis
 
 1. **Immediate** (Days 1-7)
+
    - Safety first
    - Basic needs
    - Professional help
    - Minimal demands
 
 2. **Short-term** (Weeks 1-4)
+
    - Routine building
    - Support activation
    - Therapy intensive
@@ -1021,6 +1139,7 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Post-Crisis Growth
 
 Each type can emerge stronger:
+
 - **Type 1**: Self-compassion developed
 - **Type 2**: Self-worth discovered
 - **Type 3**: Authenticity found
@@ -1036,6 +1155,7 @@ Each type can emerge stronger:
 Crisis is not the end—it's a painful doorway to growth. Your Enneagram type shows both your vulnerabilities and your path through darkness. With the right support, tools, and understanding, you can not only survive crisis but transform through it.
 
 Remember:
+
 - Your type's crisis pattern isn't your destiny
 - Help is always available
 - Recovery is possible
@@ -1045,6 +1165,7 @@ Remember:
 If you're reading this in crisis, please reach out for help. Your life matters, your pain is temporary, and your future holds possibilities you can't see right now.
 
 **Crisis Resources**:
+
 - National Suicide Prevention Lifeline: 988
 - Crisis Text Line: Text HOME to 741741
 - SAMHSA National Helpline: 1-800-662-4357
@@ -1053,6 +1174,7 @@ If you're reading this in crisis, please reach out for help. Your life matters, 
 You deserve support. You deserve life. You deserve to discover who you can become on the other side of this crisis.
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -1097,6 +1219,7 @@ You deserve support. You deserve life. You deserve to discover who you can becom
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

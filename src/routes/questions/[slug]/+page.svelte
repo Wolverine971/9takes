@@ -139,10 +139,12 @@
 			text: data.question.context || data.question.question_formatted || data.question.question,
 			answerCount: data.question.comment_count || 0,
 			dateCreated: data.question.created_at,
-			author: data.question.author_id ? {
-				'@type': 'Person',
-				identifier: data.question.author_id
-			} : undefined,
+			author: data.question.author_id
+				? {
+						'@type': 'Person',
+						identifier: data.question.author_id
+					}
+				: undefined,
 			...(formattedAIComments?.length > 0 && { suggestedAnswer: formattedAIComments })
 		}
 	});

@@ -1,13 +1,15 @@
 # Response Template Bank
-*Last Modified: 2025-08-15*
+
+_Last Modified: 2025-08-15_
 
 ## Responses to Common Comments
 
 ### "This is just astrology/pseudoscience"
 
 **Respectful & Informative:**
+
 ```
-Fair skepticism! 
+Fair skepticism!
 
 Unlike astrology (external/stars), the Enneagram maps internal patterns (fears/motivations).
 
@@ -17,6 +19,7 @@ Tool, not truth. What frameworks help you understand patterns?
 ```
 
 **Short & Sweet:**
+
 ```
 Totally get the skepticism.
 
@@ -26,6 +29,7 @@ Like knowing your friend will be late - not science, but usually accurate 😅
 ```
 
 **Bridge Builder:**
+
 ```
 I was skeptical too!
 
@@ -39,6 +43,7 @@ Not for everyone, but the patterns are hard to unsee once you notice them.
 ### "I think I'm Type [X]"
 
 **Validating:**
+
 ```
 [Specific thing about their comment] definitely sounds like Type [X] energy!
 
@@ -48,8 +53,9 @@ What resonates most: [Type X fear] or [Type X desire]?
 ```
 
 **Clarifying:**
+
 ```
-Could be Type [X]! 
+Could be Type [X]!
 
 Quick check: Is your bigger fear [Type X fear] or [similar type fear]?
 
@@ -59,6 +65,7 @@ The motivation matters more than behavior.
 ```
 
 **Engaging:**
+
 ```
 Type [X] would say exactly that! 😅
 
@@ -72,6 +79,7 @@ How do you handle [situation specific to that type]?
 ### "I'm multiple types"
 
 **Educational:**
+
 ```
 Super common feeling!
 
@@ -86,6 +94,7 @@ Look at core fears, not behaviors, to find your main type.
 ```
 
 **Helpful:**
+
 ```
 That's actually how it works!
 
@@ -99,6 +108,7 @@ What's your deepest fear? That usually points to core type.
 ### "This is too limiting/puts people in boxes"
 
 **Philosophical:**
+
 ```
 Completely understand that concern.
 
@@ -110,6 +120,7 @@ How do you think about personality patterns?
 ```
 
 **Practical:**
+
 ```
 Valid concern!
 
@@ -125,6 +136,7 @@ Map, not territory. Tool, not identity.
 ### "Can your type change?"
 
 **Clear Answer:**
+
 ```
 Core type stays the same (like being right/left handed).
 
@@ -138,6 +150,7 @@ You can break patterns without changing type.
 ```
 
 **Metaphorical:**
+
 ```
 Think of it like your native language.
 
@@ -154,6 +167,7 @@ Core stays, expression evolves.
 ### Success Stories Shared
 
 **Amplifying:**
+
 ```
 THIS is why I share this stuff! 🙌
 
@@ -163,6 +177,7 @@ Mind if I screenshot this? Others need to see this is possible.
 ```
 
 **Celebrating:**
+
 ```
 [Specific detail] is HUGE for a Type [X]!
 
@@ -178,6 +193,7 @@ What helped you make that shift?
 ### Relationship Questions
 
 **"My partner is Type [X], I'm Type [Y]"**
+
 ```
 Type [X] + Type [Y] can be powerful!
 
@@ -190,6 +206,7 @@ What's your biggest challenge together?
 ```
 
 **"How do I date a Type [X]?"**
+
 ```
 Type [X] needs to feel [core desire].
 
@@ -207,6 +224,7 @@ What draws you to Type [X]s?
 ### Workplace Questions
 
 **"My boss is Type [X]"**
+
 ```
 Type [X] boss = [core motivation] drives everything.
 
@@ -221,6 +239,7 @@ What's your biggest challenge with them?
 ```
 
 **"Team dynamics with types"**
+
 ```
 That combination is interesting!
 
@@ -238,6 +257,7 @@ What role do you usually play on teams?
 ### Mental Health Related
 
 **Sensitive Response:**
+
 ```
 Thanks for sharing something so personal.
 
@@ -249,6 +269,7 @@ Have you found strategies that help? (Also, therapy can really help unpack these
 ```
 
 **Supportive:**
+
 ```
 This is hard, and you're not alone.
 
@@ -264,6 +285,7 @@ Be gentle with yourself - these patterns took years to form.
 ### Quick Engagement Responses
 
 **Agreement:**
+
 ```
 "Exactly this! The [specific detail] is so real."
 
@@ -273,6 +295,7 @@ Be gentle with yourself - these patterns took years to form.
 ```
 
 **Adding Value:**
+
 ```
 "This + [additional insight]"
 
@@ -282,6 +305,7 @@ Be gentle with yourself - these patterns took years to form.
 ```
 
 **Questions:**
+
 ```
 "Curious: How does this show up for Type [X]s?"
 
@@ -295,6 +319,7 @@ Be gentle with yourself - these patterns took years to form.
 ### Handling Criticism
 
 **Aggressive Criticism:**
+
 ```
 Appreciate you sharing your perspective!
 
@@ -304,6 +329,7 @@ What frameworks do you find helpful for understanding patterns?
 ```
 
 **Misunderstanding:**
+
 ```
 I hear you! Let me clarify:
 
@@ -315,6 +341,7 @@ Does that distinction make sense?
 ```
 
 **Bad Faith Engagement:**
+
 ```
 [Don't engage with obvious trolls. Block and move on.]
 
@@ -328,6 +355,7 @@ If borderline, one response max:
 ### DM Responses
 
 **Type Questions:**
+
 ```
 Based on what you've shared:
 
@@ -342,6 +370,7 @@ Happy to clarify if you have questions!
 ```
 
 **Appreciation:**
+
 ```
 This made my day! Thank you for taking time to share this.
 
@@ -353,6 +382,7 @@ Feel free to DM anytime with questions!
 ```
 
 **Collaboration Requests:**
+
 ```
 Thanks for reaching out!
 
@@ -368,6 +398,7 @@ Let's stay connected!
 ## Response Strategy
 
 ### Prioritize Responses To:
+
 1. **Vulnerable shares** (always respond)
 2. **Questions** (opportunity to help)
 3. **Disagreements** (chance to clarify)
@@ -375,12 +406,14 @@ Let's stay connected!
 5. **Potential amplifiers** (bigger accounts)
 
 ### Response Timing:
+
 - **Within 15 min:** Hot takes, controversial
 - **Within 1 hour:** Questions, vulnerable shares
 - **Within 2 hours:** All other engagement
 - **Within 24 hours:** DMs
 
 ### Energy Management:
+
 - Set timer for response sessions
 - Batch similar responses
 - Save templates for common questions

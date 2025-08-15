@@ -1,6 +1,7 @@
 // hooks.server.ts
 import { createServerClient } from '@supabase/ssr';
 import { PUBLIC_SUPABASE_PUBLISHABLE_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
+import type { Database } from '../database.types';
 
 import type { Handle } from '@sveltejs/kit';
 
@@ -11,17 +12,21 @@ import type { Handle } from '@sveltejs/kit';
 // import { tagQuestions } from './utils/openai';
 
 export const handle: Handle = async ({ event, resolve }) => {
-	event.locals.supabase = createServerClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_PUBLISHABLE_KEY, {
-		cookies: {
-			get: (key) => event.cookies.get(key),
-			set: (key, value, options) => {
-				event.cookies.set(key, value, { ...options, path: '/' });
-			},
-			remove: (key, options) => {
-				event.cookies.delete(key, { ...options, path: '/' });
-			},
-		},
-	});
+	event.locals.supabase = createServerClient<Database>(
+		PUBLIC_SUPABASE_URL,
+		PUBLIC_SUPABASE_PUBLISHABLE_KEY,
+		{
+			cookies: {
+				get: (key) => event.cookies.get(key),
+				set: (key, value, options) => {
+					event.cookies.set(key, value, { ...options, path: '/' });
+				},
+				remove: (key, options) => {
+					event.cookies.delete(key, { ...options, path: '/' });
+				}
+			}
+		}
+	);
 
 	/**
 	 * Unlike `supabase.auth.getSession()`, which returns the session _without_
@@ -30,7 +35,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 	 */
 	event.locals.safeGetSession = async () => {
 		const {
-			data: { session },
+			data: { session }
 		} = await event.locals.supabase.auth.getSession();
 		if (!session) {
 			return { session: null, user: null };
@@ -38,7 +43,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 
 		const {
 			data: { user },
-			error,
+			error
 		} = await event.locals.supabase.auth.getUser();
 		if (error) {
 			// JWT validation has failed

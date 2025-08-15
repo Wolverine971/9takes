@@ -1,6 +1,6 @@
 ---
 title: 'The Party Test: What Your Social Style Reveals About Your Type'
-description: "Watch someone for 10 minutes at a party and know their Enneagram type. The kitchen helper, the networker, the corner philosopher—which one are you?"
+description: 'Watch someone for 10 minutes at a party and know their Enneagram type. The kitchen helper, the networker, the corner philosopher—which one are you?'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-at-party'
@@ -44,13 +44,14 @@ Which one are you playing?
 **Internal monologue:** "Someone needs to refill the ice."
 
 **What they're actually doing:**
+
 - Fixing the crooked picture frame
 - Organizing the chaos
 - Judging everyone's drinking habits
 - Waiting for the "right" moment to dance
 - Low-key stressed about the mess
 
-**The tell:** They're having fun but also *working*. Watch them straighten coasters while talking.
+**The tell:** They're having fun but also _working_. Watch them straighten coasters while talking.
 
 **Party superpower:** Making sure nobody drives drunk  
 **Party kryptonite:** That one person being "too much"
@@ -69,6 +70,7 @@ Which one are you playing?
 **Internal monologue:** "Is everyone okay? That person looks sad."
 
 **What they're actually doing:**
+
 - Introducing shy people
 - Holding someone's hair back
 - Complimenting EVERYONE
@@ -94,6 +96,7 @@ Which one are you playing?
 **Internal monologue:** "This could be a great networking opportunity."
 
 **What they're actually doing:**
+
 - Working the room systematically
 - Dropping accomplishments casually
 - Instagram story-ing the highlights
@@ -135,6 +138,7 @@ Which one are you playing?
 **Internal monologue:** "Nobody here really gets me."
 
 **What they're actually doing:**
+
 - Having intense 1-on-1 conversations
 - Judging the music taste
 - Feeling simultaneously special and left out
@@ -160,6 +164,7 @@ Which one are you playing?
 **Internal monologue:** "Fascinating social dynamics. Also, when can I leave?"
 
 **What they're actually doing:**
+
 - Cataloging human behavior
 - Having one deep conversation
 - Protecting their energy
@@ -190,6 +195,7 @@ Which one are you playing?
 **Internal monologue:** "Is everyone getting home okay?"
 
 **What they're actually doing:**
+
 - Designated driver duties
 - Texting friends "you good?"
 - Suspicious of that one sketchy person
@@ -215,6 +221,7 @@ Which one are you playing?
 **Internal monologue:** "What else is happening? Where's the after-party?"
 
 **What they're actually doing:**
+
 - Starting dance circles
 - Suggesting drinking games
 - Planning the next three parties
@@ -256,6 +263,7 @@ Which one are you playing?
 **Internal monologue:** "This party needs more energy."
 
 **What they're actually doing:**
+
 - Dominating conversations
 - Protecting their crew
 - Challenging someone to something
@@ -281,6 +289,7 @@ Which one are you playing?
 **Internal monologue:** "This is nice. Hope there's no drama."
 
 **What they're actually doing:**
+
 - Agreeing with everyone
 - Mediating drunk arguments
 - Disappearing into conversations
@@ -328,7 +337,7 @@ It's "What game are you tired of playing?"
 
 ---
 
-*Next: See [how each type shows off](/enneagram-corner/how-each-enneagram-flexes) or discover [what happens on first dates](/enneagram-corner/enneagram-types-on-a-first-date).*
+_Next: See [how each type shows off](/enneagram-corner/how-each-enneagram-flexes) or discover [what happens on first dates](/enneagram-corner/enneagram-types-on-a-first-date)._
 
 <svelte:head>
 

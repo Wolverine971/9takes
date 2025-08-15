@@ -162,7 +162,9 @@
 	border: 1px solid var(--light-gray);
 	border-radius: var(--border-radius);
 	font-size: 1rem;
-	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+	transition:
+		border-color 0.3s ease,
+		box-shadow 0.3s ease;
 	background-color: var(--card-background);
 
 	&:focus {
@@ -212,7 +214,7 @@
 	background: rgba(0, 0, 0, 0.5);
 	backdrop-filter: blur(4px);
 	padding: 1rem;
-	
+
 	@include mobile {
 		padding: 0.5rem;
 		align-items: flex-start;
@@ -230,14 +232,14 @@
 	overflow-y: auto;
 	position: relative;
 	margin: 0 auto;
-	
+
 	@include mobile {
 		max-width: 100%;
 		max-height: calc(100vh - 3rem);
 		border-radius: var(--border-radius) var(--border-radius) 0 0;
 		margin-top: auto;
 	}
-	
+
 	@media (max-width: 480px) {
 		max-width: 28rem;
 	}
@@ -247,7 +249,7 @@
 	padding: 1.5rem 1.5rem 0;
 	border-bottom: 1px solid var(--border-color);
 	margin-bottom: 1.5rem;
-	
+
 	@include mobile {
 		padding: 1rem 1rem 0;
 		margin-bottom: 1rem;
@@ -256,7 +258,7 @@
 
 .modal-body {
 	padding: 0 1.5rem 1.5rem;
-	
+
 	@include mobile {
 		padding: 0 1rem 1rem;
 	}
@@ -303,9 +305,10 @@
 }
 
 .loading-shimmer {
-	background: linear-gradient(90deg, 
-		var(--lightest-gray) 25%, 
-		var(--light-gray) 50%, 
+	background: linear-gradient(
+		90deg,
+		var(--lightest-gray) 25%,
+		var(--light-gray) 50%,
 		var(--lightest-gray) 75%
 	);
 	background-size: 200% 100%;
@@ -315,16 +318,16 @@
 .loading-skeleton {
 	background: var(--lightest-gray);
 	border-radius: var(--border-radius);
-	
+
 	&.skeleton-text {
 		height: 1rem;
 		margin-bottom: 0.5rem;
-		
+
 		&:last-child {
 			width: 75%;
 		}
 	}
-	
+
 	&.skeleton-avatar {
 		width: 3rem;
 		height: 3rem;
@@ -499,11 +502,11 @@
 	margin: 1rem;
 	border: 3px solid rgba(108, 92, 231, 0.8);
 	background-color: rgba(108, 92, 231, 0.15);
-	
+
 	&:hover {
 		transform: translateY(-5px);
 		box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
-		
+
 		.image-card__content {
 			backdrop-filter: blur(5px);
 		}
@@ -536,16 +539,18 @@
 	left: 0;
 	top: 0;
 	object-fit: cover;
-	transition: filter 0.3s ease, transform 0.5s ease;
-	
+	transition:
+		filter 0.3s ease,
+		transform 0.5s ease;
+
 	&--home {
 		@extend .animate-pan-image !optional;
 	}
-	
+
 	&--profile {
 		object-position: center;
 	}
-	
+
 	&--tinted {
 		filter: brightness(0.5) contrast(1.2);
 	}
@@ -621,11 +626,11 @@
 	&__title {
 		font-size: 2rem;
 		margin-bottom: 0.5rem;
-		
+
 		@include mobile {
 			font-size: 1.7rem;
 		}
-		
+
 		@media (max-width: 400px) {
 			font-size: 1.4rem;
 		}
@@ -635,11 +640,11 @@
 		font-size: 1.6rem;
 		margin-bottom: 0.3rem;
 		line-height: 1.3;
-		
+
 		@include mobile {
 			font-size: 1.5rem;
 		}
-		
+
 		@media (max-width: 400px) {
 			font-size: 1.1rem;
 		}
@@ -651,11 +656,11 @@
 	.image-card-base {
 		margin-bottom: 0;
 		width: 100%;
-		
+
 		.image-card__content {
 			padding: 1rem;
 		}
-		
+
 		.image-card__title {
 			font-size: 1.5rem;
 			font-weight: 200;
@@ -936,7 +941,7 @@
 	width: 100%;
 	overflow: hidden;
 	padding: 2rem;
-	
+
 	@include mobile {
 		padding: 0.75rem;
 	}
@@ -951,7 +956,9 @@
 	border-radius: 50%;
 	cursor: pointer;
 	transform: translate(-50%, -50%);
-	transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+	transition:
+		transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+		box-shadow 0.3s ease;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 	&:hover {
@@ -969,7 +976,7 @@
 		font-weight: bold;
 		color: white;
 		font-size: 0.875rem;
-		
+
 		@include tablet {
 			font-size: 1rem;
 		}
@@ -994,7 +1001,7 @@
 	font-size: 0.75rem;
 	font-weight: 600;
 	transition: opacity 0.2s ease;
-	
+
 	@include tablet {
 		font-size: 0.875rem;
 	}
@@ -1020,7 +1027,7 @@
 	padding: 1rem;
 	box-shadow: var(--shadow-xl);
 	transform: translate(-50%, -50%);
-	
+
 	@include tablet {
 		width: 18rem;
 	}
@@ -1035,7 +1042,7 @@
 	margin: 0 auto 0.5rem;
 	border-radius: 50%;
 	ring: 2px solid white;
-	
+
 	span {
 		font-size: 1.125rem;
 		font-weight: bold;
@@ -1061,27 +1068,27 @@
 .enneagram-tooltip__info {
 	display: flex;
 	font-size: 0.75rem;
-	
+
 	> div {
 		width: 50%;
-		
+
 		&:first-child {
 			border-right: 1px solid var(--border-color);
 			padding-right: 0.5rem;
 		}
-		
+
 		&:last-child {
 			padding-left: 0.5rem;
 		}
 	}
-	
+
 	p {
 		&:first-child {
 			margin-bottom: 0.25rem;
 			font-weight: 600;
 			color: var(--text-primary);
 		}
-		
+
 		&:last-child {
 			color: var(--text-secondary);
 		}
@@ -1282,7 +1289,7 @@
 
 .dropdown-arrow {
 	transition: transform 0.2s ease;
-	
+
 	&.rotated,
 	&.rotate-180 {
 		transform: rotate(180deg);
@@ -1296,12 +1303,12 @@
 	.card-hover-effect:hover {
 		transform: none;
 	}
-	
+
 	.btn-primary:hover,
 	.btn-secondary:hover {
 		transform: none;
 	}
-	
+
 	.animate-fade-in-up,
 	.animate-fade-in-down,
 	.animate-scale-in {

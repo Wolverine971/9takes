@@ -35,10 +35,13 @@ In this guide, you'll decode your type's exact attraction patterns—what draws 
 As a Type 1 woman, you're seeking a partner who shares your high standards and commitment to personal growth. You value integrity, honesty, and a strong moral compass in your relationships. The ideal partnership, in your eyes, is one where you both strive for betterment while accepting each other's inherent worth.
 
 ### Your Dating Pattern That Sabotages Connection
+
 You're interviewing dates like job candidates. Checking boxes, noting flaws, maintaining mental scorecards. You think "high standards" protect you, but they're preventing real intimacy.
 
 ### Your Attraction Formula
+
 **Tactical shift**: Transform criticism into curiosity.
+
 - Pre-date mantra: "I'm here to discover, not evaluate"
 - Flaw reframe: Every "imperfection" is data about their humanity
 - Growth attraction: Look for someone improving, not someone perfect
@@ -116,10 +119,13 @@ Remember, Type 1, your drive for improvement is beautiful, but it's your authent
 As a Type 2 woman, you're seeking a partner who not only appreciates your nurturing nature but reciprocates with equal care and affection. You desire a deep emotional connection where your efforts are recognized and your need to be needed is fulfilled. The ideal relationship, for you, is one of mutual support and emotional intimacy.
 
 ### Your Dating Pattern That Sabotages Connection
+
 You're auditioning for the role of "perfect girlfriend" on first dates. Over-giving, anticipating needs, ignoring red flags because "they need you." You think love is earned through service.
 
 ### Your Attraction Formula
+
 **Tactical shift**: Make yourself the prize, not the prize-giver.
+
 - Energy audit: Rate your energy before/after each interaction
 - Reciprocity test: What do they do for YOU without being asked?
 - Boundary practice: One "no" per date, no explanation needed
@@ -194,10 +200,13 @@ Remember, Type 2, the most beautiful relationships are built on mutual care and 
 As a Type 3 woman, you're attracted to success and seek a partner who matches your ambition and can keep pace with your dynamic lifestyle. You value recognition and want someone who appreciates your accomplishments while also seeing beyond your achievements to your authentic self. The ideal relationship, in your eyes, is one where you both push each other to greater heights while maintaining a deep, genuine connection.
 
 ### Your Dating Pattern That Sabotages Connection
+
 You're marketing yourself like a LinkedIn profile. Leading with achievements, optimizing for impressive venues, measuring dating ROI. You think success attracts love, but it only attracts users.
 
 ### Your Attraction Formula
+
 **Tactical shift**: Lead with presence, not performance.
+
 - Achievement detox: Remove all status symbols from dating profiles
 - Vulnerability metric: Share one "failure" that taught you something
 - Connection over collection: Quality time beats quality venues
@@ -280,10 +289,13 @@ Remember, Type 3, in 2025's dating landscape where "loud looking" (transparency)
 As a Type 4 woman, you're seeking a deep, soulful connection with someone who appreciates your uniqueness. You want a partner who can engage in emotional depth, share in the beauty and pain of life, and understand your need for authenticity and self-expression. The ideal relationship, for you, is one where you feel truly seen, understood, and cherished for your individuality.
 
 ### Your Dating Pattern That Sabotages Connection
+
 You're writing poetry about people you barely know. Creating elaborate fantasies, expecting soulmate-level depth from strangers, rejecting anyone who feels "too ordinary." You're in love with potential, not people.
 
 ### Your Attraction Formula
+
 **Tactical shift**: Find magic in the mundane.
+
 - Reality check: Date who they ARE, not who they could become
 - Ordinary appreciation: Notice three "normal" things you actually enjoy
 - Depth detector: Real depth builds slowly, not instantly
@@ -361,10 +373,13 @@ Remember, Type 4, in 2025's dating landscape that increasingly values authentici
 As a Type 5 woman, you're looking for an intellectual equal who respects your need for space and independence. You value deep, stimulating conversations and a partner who has their own interests and knowledge to share. The ideal relationship, in your view, is one where you can explore ideas together while maintaining your individual autonomy and emotional boundaries.
 
 ### Your Dating Pattern That Sabotages Connection
+
 You're treating dates like research projects. Asking great questions, sharing fascinating insights, but avoiding emotional vulnerability. You think connection happens through minds, not hearts.
 
 ### Your Attraction Formula
+
 **Tactical shift**: Bridge intellect with intimacy.
+
 - Feeling practice: Share how ideas make you FEEL, not just what you think
 - Energy investment: Emotional connection energizes rather than drains
 - Vulnerability experiments: One personal revelation per conversation
@@ -442,10 +457,13 @@ Remember, Type 5, in 2025's dating landscape that increasingly values emotional 
 As a Type 6 woman, you're seeking a trustworthy, reliable partner who can provide a sense of security in an often unpredictable world. You value honesty, commitment, and mutual support in facing life's challenges. The ideal relationship, for you, is one where you feel safe to be yourself and can count on your partner through thick and thin.
 
 ### Your Dating Pattern That Sabotages Connection
+
 You're background-checking dates like FBI investigations. Over-analyzing texts, seeking reassurance from friends, catastrophizing normal relationship uncertainty. You think safety comes from control.
 
 ### Your Attraction Formula
+
 **Tactical shift**: Build security through trust experiments.
+
 - Risk calculator: Start with 10% vulnerability, build to 50%
 - Anxiety audit: Notice when fears predict vs. create problems
 - Support network: Use friends for encouragement, not constant analysis
@@ -520,10 +538,13 @@ Remember, Type 6, in 2025's dating landscape that increasingly values authentic 
 As a Type 7 woman, you're looking for a fun, adventurous partner who can keep up with your energy and zest for life. You value freedom, new experiences, and a positive outlook in relationships. The ideal partnership, in your eyes, is one filled with excitement, growth, and endless possibilities to explore together.
 
 ### Your Dating Pattern That Sabotages Connection
+
 You're treating people like experiences to consume. Constantly seeking novelty, avoiding "boring" conversations, jumping to the next option at the first sign of routine. You think excitement equals compatibility.
 
 ### Your Attraction Formula
+
 **Tactical shift**: Find adventure in depth.
+
 - Depth challenge: Discover something new about one person vs. meeting new people
 - Present practice: Find three fascinating details in "ordinary" moments
 - Commitment reframe: Depth is the ultimate adventure
@@ -597,10 +618,13 @@ Remember, Type 7, your enthusiasm and zest for life are incredible gifts in a re
 As a Type 8 woman, you're attracted to strength and authenticity. You want a partner who can match your intensity, stand their ground, and engage in passionate exchanges. The ideal relationship, for you, is one where you both challenge each other to grow, where there's mutual respect, and where you can let your guard down without fear of being taken advantage of or seen as weak.
 
 ### Your Dating Pattern That Sabotages Connection
+
 You're testing everyone's strength before showing yours. Challenging, pushing boundaries, refusing to be vulnerable first. You think attraction requires conquest.
 
 ### Your Attraction Formula
+
 **Tactical shift**: Lead with strength, follow with softness.
+
 - Vulnerability timing: Strength first, then softness
 - Power balance: Seek partners who match your energy, not submit to it
 - Protection instinct: Use strength to create safety for both of you
@@ -674,10 +698,13 @@ Remember, Type 8, your intensity and strength are powerful assets in a relations
 As a Type 9 woman, you're seeking harmony and a deep, peaceful connection. You value a partner who appreciates your calming presence and can help you engage more fully with life. The ideal relationship, in your view, is one where you feel at peace being yourself, where conflicts are resolved gently, and where you're encouraged to grow without feeling pushed or overwhelmed.
 
 ### Your Dating Pattern That Sabotages Connection
+
 You're becoming whoever you think they want. Agreeing with everything, hiding preferences, avoiding conflict at all costs. You think harmony requires invisibility.
 
 ### Your Attraction Formula
+
 **Tactical shift**: Practice visible authenticity.
+
 - Voice training: One genuine opinion per conversation
 - Preference practice: State what YOU want without apologizing
 - Conflict reframe: Disagreement creates depth, not distance
@@ -789,15 +816,19 @@ Whether you're embracing a solo phase, casual dating, or selective searching, yo
 ## Your Type-Specific Dating Detox Protocol
 
 ### Week 1: Pattern Recognition
+
 Track your dating choices for one week. Notice which types you're consistently attracted to and why. Are you attracted to your growth point or your stress point?
 
 ### Week 2: Formula Implementation
+
 Try ONE dating strategy from your type's attraction formula. Notice resistance—that's your growth edge.
 
 ### Week 3: Boundary Testing
+
 Practice your type's specific boundary work. Type 2s practice receiving. Type 9s practice stating preferences. Type 6s practice trusting gut instincts.
 
 ### Week 4: Integration
+
 Reflect on what worked. Your dating patterns will shift when you understand your psychological wiring.
 
 **Small experiment**: Next time you're attracted to someone, ask "Am I attracted to who they are or who I think they could become?" Your answer reveals everything.

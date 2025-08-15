@@ -36,6 +36,7 @@ Let's decode your specific ghosting response pattern and discover healing strate
 <section class="section-content">
 
 ## Type 1: The Perfectionist
+
 ### When Standards Meet Silence
 
 The message shows "Read 9:43 PM."
@@ -44,7 +45,7 @@ No response.
 
 For Type 1s, ghosting isn't just rude—it's **morally wrong.**
 
-Your brain immediately launches an investigation: *"What did I do incorrectly?"*
+Your brain immediately launches an investigation: _"What did I do incorrectly?"_
 
 You replay every interaction. Analyze every word. Search for the flaw that drove them away.
 
@@ -71,6 +72,7 @@ The imperfection isn't in you—it's in their response.
 <section class="section-content">
 
 ## Type 2: The Helper
+
 ### When Love Goes Unreturned
 
 Four days since your "just checking in" text.
@@ -81,7 +83,7 @@ For Type 2s, ghosting feels like **rejection of your entire being.**
 
 You gave everything. How could they just... vanish?
 
-Your mind races: *"Maybe they didn't see it?" "Are they hurt?"*
+Your mind races: _"Maybe they didn't see it?" "Are they hurt?"_
 
 You check multiple platforms. Send follow-ups. Create elaborate excuses for them.
 
@@ -108,6 +110,7 @@ Set boundaries. Your inherent value doesn't require constant proof through servi
 <section class="section-content">
 
 ## Type 3: The Achiever
+
 ### When Success Stories End Abruptly
 
 Blue checkmarks confirm they've read everything.
@@ -116,7 +119,7 @@ Radio silence.
 
 For image-conscious Type 3s, ghosting isn't just painful—it's **embarrassing.**
 
-*"This doesn't happen to people like me."*
+_"This doesn't happen to people like me."_
 
 You scroll through your impressive Instagram. Check your LinkedIn views. Anything to restore your self-image.
 
@@ -151,6 +154,7 @@ Your value exists even in rejection.
 <section class="section-content">
 
 ## Type 4: The Individualist
+
 ### When Abandonment Confirms Everything
 
 You felt a rare connection.
@@ -159,11 +163,11 @@ Then—silence.
 
 For Type 4s, ghosting becomes **exquisite suffering.**
 
-It confirms your deepest fear: *"I'm too different to be loved."*
+It confirms your deepest fear: _"I'm too different to be loved."_
 
 Unlike others, you might romanticize the pain. Create poetry from the abandonment.
 
-*"Of course they left. Everyone does."*
+_"Of course they left. Everyone does."_
 
 **But here's the truth:** Beneath the melancholy lies genuine heartbreak.
 
@@ -206,6 +210,7 @@ Their ghosting is about their limitations, not your worth.
 <section class="section-content">
 
 ## Type 5: The Investigator
+
 ### When Logic Fails to Explain
 
 Three weeks of fascinating conversation.
@@ -243,6 +248,7 @@ Connection and autonomy can coexist. One rejection doesn't negate future possibi
 <section class="section-content">
 
 ## Type 6: The Loyalist
+
 ### When Safety Shatters
 
 The text thread ends abruptly.
@@ -252,11 +258,12 @@ Your anxiety **spikes.**
 For Type 6s, ghosting confirms your worst fear: **the world is unpredictable and dangerous.**
 
 Your mind races:
+
 - "Are they hurt?"
 - "Did I miss red flags?"
 - "Will everyone eventually disappear?"
 
-You alternate between anger (*"How irresponsible!"*) and self-doubt (*"I should've seen this coming"*).
+You alternate between anger (_"How irresponsible!"_) and self-doubt (_"I should've seen this coming"_).
 
 **The haunting thought:** You can't trust your own judgment about people.
 
@@ -279,6 +286,7 @@ You survived this discomfort. You can survive uncertainty.
 <section class="section-content">
 
 ## Type 7: The Enthusiast
+
 ### When Adventure Gets Cancelled
 
 Mid-conversation, they vanish.
@@ -291,9 +299,9 @@ Your immediate instinct: **distraction.**
 
 Schedule three dates. Book a trip. Start five projects.
 
-*"Their loss!"* you tell friends cheerfully.
+_"Their loss!"_ you tell friends cheerfully.
 
-Secretly wondering: *Wasn't I entertaining enough?*
+Secretly wondering: _Wasn't I entertaining enough?_
 
 **The avoided truth:** Rejection hurts, even for optimists.
 
@@ -316,6 +324,7 @@ Depth requires staying still sometimes.
 <section class="section-content">
 
 ## Type 8: The Challenger
+
 ### When Power Gets Undermined
 
 Days without response.
@@ -326,9 +335,10 @@ For Type 8s, ghosting isn't disappointing—it's **disrespectful.**
 
 First reaction: rage.
 
-*"How DARE they think they can disappear on ME?"*
+_"How DARE they think they can disappear on ME?"_
 
 You might:
+
 - Send a forceful final message
 - Block them first (power move)
 - Publicly denounce their character
@@ -372,6 +382,7 @@ The most powerful response might be accepting powerlessness.
 <section class="section-content">
 
 ## Type 9: The Peacemaker
+
 ### When Harmony Dissolves
 
 Days pass without response.
@@ -380,11 +391,12 @@ You notice but pretend not to.
 
 For Type 9s, ghosting creates a reaction **you might not even recognize.**
 
-Surface response: *"It's fine. Whatever."*
+Surface response: _"It's fine. Whatever."_
 
 Beneath the nonchalance: abandonment cuts deep.
 
 Instead of processing hurt, you:
+
 - Numb out
 - "Forget" to check your phone
 - Convince yourself it wasn't important
@@ -440,6 +452,7 @@ In 2024, where **92% of Gen Z** spends 4+ hours daily on phones, ghosting create
 We're constantly available. Read receipts expose the truth. The absence of response is **deliberate.**
 
 Add the paradox of modern dating:
+
 - More options than ever
 - Meaningful connection feels increasingly rare
 - **45% of dating app users** report more anxiety than hope

@@ -1,73 +1,66 @@
 {
-  "title": "Finding the Right Therapist for Your Enneagram Type",
-  "slug": "enneagram-therapy-guide",
-  "category": "mental-health",
-  "primaryAudience": {
-    "name": "People seeking therapy or improving their therapy experience",
-    "description": "People interested in therapy and treatment with Enneagram awareness",
-    "demographics": {
-      "ageRange": "25-55",
-      "interests": [
-        "enneagram",
-        "mental health",
-        "therapy",
-        "counseling",
-        "treatment",
-        "therapeutic-relationship"
-      ],
-      "psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
-    }
-  },
-  "tags": [
-    "enneagram",
-    "mental-health",
-    "therapy",
-    "counseling",
-    "treatment",
-    "therapeutic-relationship"
-  ],
-  "painPoints": [
-    "Finding the right therapist",
-    "Therapy not working",
-    "Therapy anxiety"
-  ],
-  "topicsAddressed": [
-    "How each Enneagram type experiences therapy and treatment",
-    "Type-specific strategies for therapy and treatment",
-    "Practical tools and resources",
-    "When to seek professional help"
-  ],
-  "seo": {
-    "keywords": [
-      "enneagram therapy and treatment",
-      "therapy and treatment by personality type"
-    ],
-    "targetQueries": [
-      "how does enneagram affect therapy and treatment",
-      "therapy and treatment help for my type"
-    ]
-  },
-  "contentGoals": [
-    "Provide type-specific guidance for therapy and treatment",
-    "Build understanding and reduce stigma",
-    "Connect people with appropriate resources"
-  ],
-  "socialMediaFocus": {
-    "twitter": "Educational content about therapy and treatment and type-specific tips",
-    "instagram": "Visual guides and supportive content about therapy and treatment",
-    "reddit": "Community support and resource sharing in relevant subreddits"
-  },
-  "reviewTracking": {
-    "rounds": [
-      {
-        "roundNumber": 1,
-        "datetime": "2025-01-20T10:00:00Z",
-        "topic": "Initial Content Review",
-        "status": "in_progress",
-        "reviewer": "human"
-      }
-    ],
-    "lastReviewDate": "2025-01-20T10:00:00Z",
-    "nextReviewScheduled": null
-  }
+	"title": "Finding the Right Therapist for Your Enneagram Type",
+	"slug": "enneagram-therapy-guide",
+	"category": "mental-health",
+	"primaryAudience": {
+		"name": "People seeking therapy or improving their therapy experience",
+		"description": "People interested in therapy and treatment with Enneagram awareness",
+		"demographics": {
+			"ageRange": "25-55",
+			"interests": [
+				"enneagram",
+				"mental health",
+				"therapy",
+				"counseling",
+				"treatment",
+				"therapeutic-relationship"
+			],
+			"psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
+		}
+	},
+	"tags": [
+		"enneagram",
+		"mental-health",
+		"therapy",
+		"counseling",
+		"treatment",
+		"therapeutic-relationship"
+	],
+	"painPoints": ["Finding the right therapist", "Therapy not working", "Therapy anxiety"],
+	"topicsAddressed": [
+		"How each Enneagram type experiences therapy and treatment",
+		"Type-specific strategies for therapy and treatment",
+		"Practical tools and resources",
+		"When to seek professional help"
+	],
+	"seo": {
+		"keywords": ["enneagram therapy and treatment", "therapy and treatment by personality type"],
+		"targetQueries": [
+			"how does enneagram affect therapy and treatment",
+			"therapy and treatment help for my type"
+		]
+	},
+	"contentGoals": [
+		"Provide type-specific guidance for therapy and treatment",
+		"Build understanding and reduce stigma",
+		"Connect people with appropriate resources"
+	],
+	"socialMediaFocus": {
+		"twitter": "Educational content about therapy and treatment and type-specific tips",
+		"instagram": "Visual guides and supportive content about therapy and treatment",
+		"reddit": "Community support and resource sharing in relevant subreddits"
+	},
+	"reviewTracking": {
+		"rounds": [
+			{
+				"roundNumber": 1,
+				"datetime": "2025-01-20T10:00:00Z",
+				"topic": "Initial Content Review",
+				"status": "in_progress",
+				"reviewer": "human"
+			}
+		],
+		"lastReviewDate": "2025-01-20T10:00:00Z",
+		"nextReviewScheduled": null
+	}
 }

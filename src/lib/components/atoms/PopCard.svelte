@@ -281,11 +281,11 @@
 		&__title {
 			font-size: 2rem;
 			margin-bottom: 1rem;
-			
+
 			@media (max-width: 700px) {
 				font-size: 1.7rem;
 			}
-			
+
 			@media (max-width: 400px) {
 				font-size: 1.4rem;
 			}
@@ -296,11 +296,11 @@
 			font-size: 1.6rem;
 			margin-bottom: 0.75rem;
 			line-height: 1.4;
-			
+
 			@media (max-width: 700px) {
 				font-size: 1.5rem;
 			}
-			
+
 			@media (max-width: 400px) {
 				font-size: 1.1rem;
 			}

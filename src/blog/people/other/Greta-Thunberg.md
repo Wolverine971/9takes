@@ -17,8 +17,6 @@ instagram: ''
 tiktok: ''
 ---
 
-
-
 > "We can't save the world by playing by the rules, because the rules have to be changed… Everything needs to change – and it has to start today."
 
 <p class="firstLetter">When Greta Thunberg spoke these words at TEDx Stockholm in 2018, she revealed something deeper than climate activism. She exposed the inner workings of a mind that sees the world in **stark moral clarity**—one that simply cannot accept "good enough" when perfection is required.</p>
@@ -39,7 +37,7 @@ Type 1s are the reformers, the activists, the people who simply cannot ignore wh
 
 Every Type 1 has an internal voice that never stops evaluating.
 
-For Greta, this voice nearly destroyed her before it saved the world. 
+For Greta, this voice nearly destroyed her before it saved the world.
 
 > "I became depressed. I saw that everything was so wrong, and nothing mattered… the lowest depth of misery is when you're too depressed to see that you yourself actually matter."
 
@@ -47,7 +45,7 @@ Her family watched her disappear—stopped talking, stopped eating, lost 10 kilo
 
 This is the **Type 1 curse**: an internal critic so loud it can drown out everything else, including self-worth. When the world feels irredeemably broken and you feel powerless to fix it, the internal critic turns inward with devastating force.
 
-But then came the breakthrough that defines healthy Type 1s: finding a meaningful way to channel that critical energy. 
+But then came the breakthrough that defines healthy Type 1s: finding a meaningful way to channel that critical energy.
 
 > "Before I started school striking I had no energy… All of that is gone now, since I have found a meaning."
 
@@ -55,7 +53,7 @@ But then came the breakthrough that defines healthy Type 1s: finding a meaningfu
 
 **Type 1s don't experience anger the way most people do**—it's not an emotion that comes and goes, but a constant undercurrent of moral outrage at imperfection.
 
-Greta's famous UN speech reveals this perfectly: 
+Greta's famous UN speech reveals this perfectly:
 
 > "This is all wrong… You have stolen my dreams and my childhood with your empty words."
 
@@ -63,17 +61,17 @@ The trembling voice, the barely controlled fury—this wasn't teenage drama. Thi
 
 **"How dare you!"** she continued, and suddenly the world saw what Type 1 anger looks like when it's healthy and focused. Not destructive rage, but constructive fury that demands better from everyone, starting with those in power.
 
-Her father later observed: *"She felt she had to do something, and she had to do it on her own."* This captures the **Type 1 burden**—they feel personally responsible for fixing what's broken, even when it's far beyond their individual control.
+Her father later observed: _"She felt she had to do something, and she had to do it on her own."_ This captures the **Type 1 burden**—they feel personally responsible for fixing what's broken, even when it's far beyond their individual control.
 
 ## When Everything Falls Apart: Type 1 Under Stress
 
 Understanding Greta's pre-activism depression reveals how **Type 1s disintegrate under overwhelming stress**.
 
-Type 1s under extreme pressure move toward Type 4 patterns—becoming withdrawn, moody, and convinced they're fundamentally different from everyone else. *"Too depressed to see that you yourself actually matter,"* as Greta described it.
+Type 1s under extreme pressure move toward Type 4 patterns—becoming withdrawn, moody, and convinced they're fundamentally different from everyone else. _"Too depressed to see that you yourself actually matter,"_ as Greta described it.
 
 But even during her 2021 admission of exhaustion—**"I'm so tired of talking about the climate right now"**—she couldn't fully retreat. Type 1s can't simply stop caring, even when caring becomes overwhelming.
 
-Her response to the 2020 pandemic shows Type 1 stress management in action: 
+Her response to the 2020 pandemic shows Type 1 stress management in action:
 
 > "In a crisis we change our behavior… You have to take a few steps back for the greater good of society."
 
@@ -85,7 +83,7 @@ This is **classic Type 1 coping**: when you can't fix everything, you find new r
 
 **Healthy Type 1s move toward Type 7 energy**—becoming more spontaneous, optimistic, and able to see possibilities instead of just problems.
 
-By 2021, Greta began showing these integration signs: 
+By 2021, Greta began showing these integration signs:
 
 > "I really see the value of friendship… Apart from the climate, almost nothing else matters."
 
@@ -105,7 +103,7 @@ Her evolution from solitary striker to movement leader shows Type 7 integration:
 
 This isn't coincidence—**Type 1s bond most deeply with people who share their values** and commitment to improvement.
 
-Her meeting with Malala Yousafzai reveals this pattern: *"So… today I met my role model."* Type 1s are drawn to others who embody moral courage and principled action.
+Her meeting with Malala Yousafzai reveals this pattern: _"So… today I met my role model."_ Type 1s are drawn to others who embody moral courage and principled action.
 
 Even her recent relationship with photographer Chris Kebbon, who supported her during the Gaza flotilla crisis, follows this pattern—**connection through shared activism and moral purpose**.
 
@@ -119,7 +117,7 @@ Type 1s don't separate love from ethics; they need partners who understand their
 
 Notice there's no middle ground here—you either act with moral integrity or you're evil. This isn't teenage drama; it's the **Type 1 worldview in action**.
 
-Her response to criticism shows this same pattern: 
+Her response to criticism shows this same pattern:
 
 > "When haters go after your looks and differences… you know you're winning!"
 
@@ -135,7 +133,7 @@ This moral clarity gives Type 1s incredible power to create change, but it also 
 
 Greta has openly embraced her autism diagnosis as what she calls her **"superpower,"** and this reveals something crucial about Type 1 psychology.
 
-Her mother once reflected: *"She saw what the rest of us did not want to see… as if she could see our CO₂ emissions with her naked eye."* This isn't metaphorical—**Greta's neurodivergent perspective strips away the social filters** that allow most people to compartmentalize uncomfortable truths.
+Her mother once reflected: _"She saw what the rest of us did not want to see… as if she could see our CO₂ emissions with her naked eye."_ This isn't metaphorical—**Greta's neurodivergent perspective strips away the social filters** that allow most people to compartmentalize uncomfortable truths.
 
 > "That happens all the time… The most common criticism… I'm being manipulated… I can't think for myself… And I think that is so annoying!"
 
@@ -161,7 +159,7 @@ Greta's recent Gaza activism reveals **mature Type 1 psychology under extreme pr
 
 > "We are doing this because, no matter what odds we are against, we have to keep trying."
 
-When Israeli forces intercepted the vessel, she called it "kidnapping" and declared: 
+When Israeli forces intercepted the vessel, she called it "kidnapping" and declared:
 
 > "Doing nothing is not an option, I am terrified by the passivity and silence all over the world."
 
@@ -175,13 +173,13 @@ Her response to Trump's criticism—**"I think the world needs a lot more young 
 
 > "The eyes of all future generations are upon you."
 
-Greta warned world leaders, articulating the Type 1 experience of feeling accountable for outcomes they can't fully control. 
+Greta warned world leaders, articulating the Type 1 experience of feeling accountable for outcomes they can't fully control.
 
 > "Hope is something you have to earn."
 
 She wrote, rejecting passive optimism in favor of earned progress.
 
-Her lifestyle choices—refusing flights, buying only second-hand clothes, maintaining a vegan diet—aren't performative. They're the **Type 1 need for personal integrity**: 
+Her lifestyle choices—refusing flights, buying only second-hand clothes, maintaining a vegan diet—aren't performative. They're the **Type 1 need for personal integrity**:
 
 > "I'm not telling anyone what to do… I prefer second-hand clothes… avoiding flights… sustainable lifestyle."
 
@@ -195,13 +193,12 @@ By 2021, Greta began showing the **self-awareness that marks Type 1 growth**.
 
 This represents huge growth for a Type 1—**recognizing limits without abandoning principles**.
 
-Her description of herself as "different" from the 2018 version shows Type 1 integration: *"Different Thunberg… changed her—for the better."* She's learning to **balance moral urgency with personal sustainability**.
+Her description of herself as "different" from the 2018 version shows Type 1 integration: _"Different Thunberg… changed her—for the better."_ She's learning to **balance moral urgency with personal sustainability**.
 
 Even her recent fatigue admission—**"I'm so tired of talking about the climate right now"**—shows healthy Type 1 evolution: acknowledging limitations while maintaining commitment.
 
 ---
 
 Understanding Greta Thunberg as an **Enneagram Type 1** reveals why she couldn't just stay in school like other teenagers—her psychological wiring literally wouldn't allow it. The internal critic that nearly destroyed her became the force that moved millions to action. **Her anger isn't dysfunction; it's the healthy response** of someone who sees clearly what others choose to ignore. The next time you see her confronting world leaders or making uncomfortable moral demands, you'll recognize the deeper psychology at play: a mind that simply cannot accept "good enough" when perfection is both possible and necessary. What aspects of your own **inner critic** might be trying to tell you something important about the world around you?
-
 
 > **Disclaimer** This analysis of Greta Thunberg's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Greta Thunberg.

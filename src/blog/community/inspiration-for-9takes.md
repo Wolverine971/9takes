@@ -15,6 +15,7 @@ pic: 'husband-and-wife-arguing'
 ---
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +67,7 @@ pic: 'husband-and-wife-arguing'
   }
 }
 </script>
+
 </svelte:head>
 
 <script>

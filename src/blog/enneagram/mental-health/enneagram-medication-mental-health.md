@@ -14,7 +14,7 @@ previewHtml: ''
 pic: 'enneagram-medication-guide'
 ---
 
-<!-- 
+<!--
 NOTES:
 - How each type responds to different medications
 - Common medication fears by type
@@ -45,6 +45,7 @@ This guide explores how each Enneagram type typically relates to psychiatric med
 ### Why Type Matters in Medication
 
 Each Enneagram type brings different:
+
 - **Core fears** about medication
 - **Motivations** for considering it
 - **Resistance patterns**
@@ -62,6 +63,7 @@ Each Enneagram type brings different:
 ### Type 1's Relationship with Medication
 
 **Core Fears**:
+
 - Being "weak" for needing help
 - Medication as moral failure
 - Loss of control over thoughts
@@ -69,6 +71,7 @@ Each Enneagram type brings different:
 - Side effects disrupting order
 
 **Common Resistance Patterns**:
+
 - "I should fix this myself"
 - Researching exhaustively
 - Trying everything else first
@@ -78,6 +81,7 @@ Each Enneagram type brings different:
 ### What Works for Type 1s
 
 #### Medication Approach
+
 - Frame as tool for better functioning
 - Emphasize increased self-control
 - Start low and go slow
@@ -85,12 +89,14 @@ Each Enneagram type brings different:
 - Regular review schedules
 
 #### Helpful Medications Often Include
+
 - **SSRIs**: For anxiety/depression with minimal side effects
 - **Buspirone**: Non-addictive anxiety relief
 - **Wellbutrin**: Depression without sexual side effects
 - **Extended-release formulations**: Consistent effects
 
 #### Natural Alternatives Type 1s Often Prefer
+
 - Structured therapy (CBT)
 - Meditation programs
 - Exercise regimens
@@ -100,6 +106,7 @@ Each Enneagram type brings different:
 ### Working with Psychiatrists as Type 1
 
 **What You Need**:
+
 - Detailed explanations
 - Clear expectations
 - Side effect probabilities
@@ -107,12 +114,14 @@ Each Enneagram type brings different:
 - Exit strategies
 
 **Communication Tips**:
+
 - "I need to understand exactly how this works"
 - "What's the evidence base?"
 - "How will we measure success?"
 - "What's the plan if it doesn't work?"
 
 **Red Flags to Watch**:
+
 - Perfectionism about dosing
 - Hiding side effects
 - Self-adjusting doses
@@ -120,13 +129,14 @@ Each Enneagram type brings different:
 
 ### Type 1 Medication Success Story
 
-*"I resisted antidepressants for years, thinking I should be strong enough. When I finally tried them, I was amazed—my inner critic got quieter, not because I was numbed, but because my brain could finally access self-compassion. I track my mood daily and work closely with my psychiatrist. Medication didn't make me perfect; it made me human."* - Anonymous Type 1
+_"I resisted antidepressants for years, thinking I should be strong enough. When I finally tried them, I was amazed—my inner critic got quieter, not because I was numbed, but because my brain could finally access self-compassion. I track my mood daily and work closely with my psychiatrist. Medication didn't make me perfect; it made me human."_ - Anonymous Type 1
 
 ## Type 2: The Helper and Medication
 
 ### Type 2's Relationship with Medication
 
 **Core Fears**:
+
 - Being "selfish" for focusing on self
 - Medication changing their caring nature
 - Others seeing them as needy
@@ -134,6 +144,7 @@ Each Enneagram type brings different:
 - Being a burden
 
 **Common Resistance Patterns**:
+
 - "Others need it more"
 - Helping others before self
 - Hiding mental health needs
@@ -143,6 +154,7 @@ Each Enneagram type brings different:
 ### What Works for Type 2s
 
 #### Medication Approach
+
 - Frame as enabling better care for others
 - Emphasize maintaining empathy
 - Connect to values
@@ -150,12 +162,14 @@ Each Enneagram type brings different:
 - Regular check-ins about needs
 
 #### Helpful Medications Often Include
+
 - **Sertraline (Zoloft)**: Gentle, good for anxiety
 - **Escitalopram (Lexapro)**: Minimal side effects
 - **Lamotrigine**: Mood stabilization
 - **Gabapentin**: Anxiety without dependence
 
 #### Natural Alternatives Type 2s Often Prefer
+
 - Group therapy
 - Heart-centered meditation
 - Volunteering (with boundaries)
@@ -165,6 +179,7 @@ Each Enneagram type brings different:
 ### Working with Psychiatrists as Type 2
 
 **What You Need**:
+
 - Warm, caring provider
 - Permission to prioritize self
 - Validation of struggles
@@ -172,12 +187,14 @@ Each Enneagram type brings different:
 - Family involvement options
 
 **Communication Tips**:
+
 - "I'm worried about how this affects my relationships"
 - "Will I still feel empathy?"
 - "How can I help my loved ones understand?"
 - "Is it okay to need this?"
 
 **Red Flags to Watch**:
+
 - Giving meds to others
 - Skipping doses for others
 - Not reporting side effects
@@ -185,13 +202,14 @@ Each Enneagram type brings different:
 
 ### Type 2 Medication Success Story
 
-*"I felt so guilty taking antidepressants—wasn't I supposed to be the caregiver? But my therapist helped me see that self-care IS caring for others. On medication, I can still feel deeply, but I'm not drowning in everyone's emotions. I'm a better friend and mom because I'm stable."* - Anonymous Type 2
+_"I felt so guilty taking antidepressants—wasn't I supposed to be the caregiver? But my therapist helped me see that self-care IS caring for others. On medication, I can still feel deeply, but I'm not drowning in everyone's emotions. I'm a better friend and mom because I'm stable."_ - Anonymous Type 2
 
 ## Type 3: The Achiever and Medication
 
 ### Type 3's Relationship with Medication
 
 **Core Fears**:
+
 - Appearing weak or broken
 - Reduced performance
 - Others finding out
@@ -199,6 +217,7 @@ Each Enneagram type brings different:
 - Identity without achievement
 
 **Common Resistance Patterns**:
+
 - "I don't have time for this"
 - Hiding medication use
 - Wanting quick fixes
@@ -208,6 +227,7 @@ Each Enneagram type brings different:
 ### What Works for Type 3s
 
 #### Medication Approach
+
 - Frame as performance enhancement
 - Emphasize functionality
 - Quick-acting options
@@ -215,12 +235,14 @@ Each Enneagram type brings different:
 - Success metrics
 
 #### Helpful Medications Often Include
+
 - **Modafinil**: Wakefulness without jitters
 - **Bupropion**: Energy and focus
 - **Vyvanse**: ADHD with less crash
 - **Propranolol**: Performance anxiety
 
 #### Natural Alternatives Type 3s Often Prefer
+
 - Executive coaching
 - Biohacking approaches
 - Performance nutrition
@@ -230,6 +252,7 @@ Each Enneagram type brings different:
 ### Working with Psychiatrists as Type 3
 
 **What You Need**:
+
 - Efficient appointments
 - Results-focused approach
 - Privacy assurance
@@ -237,12 +260,14 @@ Each Enneagram type brings different:
 - Minimal disruption
 
 **Communication Tips**:
+
 - "I need to maintain my edge"
 - "How quickly will this work?"
 - "What about my performance?"
 - "Can we be discrete?"
 
 **Red Flags to Watch**:
+
 - Medication abuse for performance
 - Not reporting struggles
 - Image over health
@@ -250,13 +275,14 @@ Each Enneagram type brings different:
 
 ### Type 3 Medication Success Story
 
-*"I saw medication as failure until burnout forced my hand. Starting Wellbutrin was like lifting a weight off my chest—I could still achieve, but without the desperate edge. I'm actually MORE successful now because I'm not running on anxiety. I tell other Type 3s: it's not cheating, it's smart."* - Anonymous Type 3
+_"I saw medication as failure until burnout forced my hand. Starting Wellbutrin was like lifting a weight off my chest—I could still achieve, but without the desperate edge. I'm actually MORE successful now because I'm not running on anxiety. I tell other Type 3s: it's not cheating, it's smart."_ - Anonymous Type 3
 
 ## Type 4: The Individualist and Medication
 
 ### Type 4's Relationship with Medication
 
 **Core Fears**:
+
 - Losing their depth/uniqueness
 - Becoming "ordinary"
 - Emotional numbing
@@ -264,6 +290,7 @@ Each Enneagram type brings different:
 - Identity change
 
 **Common Resistance Patterns**:
+
 - "Suffering makes me authentic"
 - Fear of happiness
 - Rejecting "normal" solutions
@@ -273,6 +300,7 @@ Each Enneagram type brings different:
 ### What Works for Type 4s
 
 #### Medication Approach
+
 - Honor their uniqueness
 - Emphasize emotional range
 - Artistic/creative framing
@@ -280,12 +308,14 @@ Each Enneagram type brings different:
 - Meaning-making included
 
 #### Helpful Medications Often Include
+
 - **Lamictal**: Mood stability without numbing
 - **Seroquel (low dose)**: Sleep and mood
 - **Ketamine therapy**: Rapid relief
 - **Lithium (low dose)**: Gentle stabilization
 
 #### Natural Alternatives Type 4s Often Prefer
+
 - Art/music therapy
 - Depth psychology
 - Plant medicine (legal)
@@ -295,6 +325,7 @@ Each Enneagram type brings different:
 ### Working with Psychiatrists as Type 4
 
 **What You Need**:
+
 - Provider who "gets" you
 - Validation of uniqueness
 - Collaborative creativity
@@ -302,12 +333,14 @@ Each Enneagram type brings different:
 - Flexible approaches
 
 **Communication Tips**:
+
 - "I'm afraid of losing myself"
 - "Will I still feel deeply?"
 - "What about my creativity?"
 - "I need to stay authentic"
 
 **Red Flags to Watch**:
+
 - Stopping during stable periods
 - Romanticizing symptoms
 - Medication splitting
@@ -315,13 +348,14 @@ Each Enneagram type brings different:
 
 ### Type 4 Medication Success Story
 
-*"I thought antidepressants would make me a happy robot. Instead, they gave me the stability to actually USE my depth. I still feel everything—I just don't drown in it. My art has actually improved because I can channel emotions instead of being consumed by them."* - Anonymous Type 4
+_"I thought antidepressants would make me a happy robot. Instead, they gave me the stability to actually USE my depth. I still feel everything—I just don't drown in it. My art has actually improved because I can channel emotions instead of being consumed by them."_ - Anonymous Type 4
 
 ## Type 5: The Investigator and Medication
 
 ### Type 5's Relationship with Medication
 
 **Core Fears**:
+
 - Mind alteration/control
 - Dependence on externals
 - Unknown effects
@@ -329,6 +363,7 @@ Each Enneagram type brings different:
 - Forced vulnerability
 
 **Common Resistance Patterns**:
+
 - Exhaustive research paralysis
 - DIY approaches first
 - Minimal effective dose
@@ -338,6 +373,7 @@ Each Enneagram type brings different:
 ### What Works for Type 5s
 
 #### Medication Approach
+
 - Full information provided
 - Start very low
 - Patient control
@@ -345,12 +381,14 @@ Each Enneagram type brings different:
 - Exit strategy clear
 
 #### Helpful Medications Often Include
+
 - **Low-dose SSRIs**: Minimal intervention
 - **Strattera**: Non-stimulant focus
 - **Buspar**: Non-addictive anxiety
 - **Micro-dosing protocols**: Control maintained
 
 #### Natural Alternatives Type 5s Often Prefer
+
 - Nootropics
 - Meditation retreats
 - Solo therapy
@@ -360,6 +398,7 @@ Each Enneagram type brings different:
 ### Working with Psychiatrists as Type 5
 
 **What You Need**:
+
 - Competent provider
 - Research discussion
 - Minimal appointments
@@ -367,12 +406,14 @@ Each Enneagram type brings different:
 - Autonomy respected
 
 **Communication Tips**:
+
 - "I've researched extensively"
 - "I need to understand the mechanism"
 - "What does the research say?"
 - "I prefer minimal intervention"
 
 **Red Flags to Watch**:
+
 - Self-medicating
 - Hoarding medications
 - Not reporting effects
@@ -380,13 +421,14 @@ Each Enneagram type brings different:
 
 ### Type 5 Medication Success Story
 
-*"I spent two years researching before trying an SSRI. I started at 1/4 the normal dose and tracked everything. To my surprise, it didn't dull my mind—it actually freed up mental energy I was using to manage anxiety. I still think deeply; I just don't spiral."* - Anonymous Type 5
+_"I spent two years researching before trying an SSRI. I started at 1/4 the normal dose and tracked everything. To my surprise, it didn't dull my mind—it actually freed up mental energy I was using to manage anxiety. I still think deeply; I just don't spiral."_ - Anonymous Type 5
 
 ## Type 6: The Loyalist and Medication
 
 ### Type 6's Relationship with Medication
 
 **Core Fears**:
+
 - Side effects
 - Addiction potential
 - Wrong medication
@@ -394,6 +436,7 @@ Each Enneagram type brings different:
 - Making things worse
 
 **Common Resistance Patterns**:
+
 - Reading all warnings
 - Seeking multiple opinions
 - Starting/stopping frequently
@@ -403,6 +446,7 @@ Each Enneagram type brings different:
 ### What Works for Type 6s
 
 #### Medication Approach
+
 - Slow, careful titration
 - Regular check-ins
 - Clear protocols
@@ -410,12 +454,14 @@ Each Enneagram type brings different:
 - Predictable effects
 
 #### Helpful Medications Often Include
+
 - **Lexapro**: Well-studied, predictable
 - **Hydroxyzine**: As-needed anxiety
 - **Gabapentin**: Non-addictive option
 - **Extended-release**: Consistent effects
 
 #### Natural Alternatives Type 6s Often Prefer
+
 - Structured therapy
 - Support groups
 - Exercise programs
@@ -425,6 +471,7 @@ Each Enneagram type brings different:
 ### Working with Psychiatrists as Type 6
 
 **What You Need**:
+
 - Trustworthy provider
 - Consistent availability
 - Clear communication
@@ -432,12 +479,14 @@ Each Enneagram type brings different:
 - Patience with questions
 
 **Communication Tips**:
+
 - "What are all the risks?"
 - "How do I know it's working?"
 - "What if something goes wrong?"
 - "Can I trust this process?"
 
 **Red Flags to Watch**:
+
 - Googling obsessively
 - Multiple provider opinions
 - Stopping from fear
@@ -445,13 +494,14 @@ Each Enneagram type brings different:
 
 ### Type 6 Medication Success Story
 
-*"My anxiety about taking anxiety medication was ironic. I grilled my psychiatrist for three sessions before starting. She patiently answered everything. Now on Lexapro, I realize my constant worry wasn't 'being prepared'—it was suffering. I still plan, but I don't panic."* - Anonymous Type 6
+_"My anxiety about taking anxiety medication was ironic. I grilled my psychiatrist for three sessions before starting. She patiently answered everything. Now on Lexapro, I realize my constant worry wasn't 'being prepared'—it was suffering. I still plan, but I don't panic."_ - Anonymous Type 6
 
 ## Type 7: The Enthusiast and Medication
 
 ### Type 7's Relationship with Medication
 
 **Core Fears**:
+
 - Feeling limited/trapped
 - Emotional dulling
 - Loss of joy/excitement
@@ -459,6 +509,7 @@ Each Enneagram type brings different:
 - Facing pain
 
 **Common Resistance Patterns**:
+
 - "I don't need it, I'm fine!"
 - Trying briefly, stopping
 - Preferring "natural highs"
@@ -468,6 +519,7 @@ Each Enneagram type brings different:
 ### What Works for Type 7s
 
 #### Medication Approach
+
 - Frame as expanding options
 - Emphasize maintained joy
 - Combination approaches
@@ -475,12 +527,14 @@ Each Enneagram type brings different:
 - Quick effects appreciated
 
 #### Helpful Medications Often Include
+
 - **Wellbutrin**: Energy without mania
 - **Vyvanse**: Focused energy
 - **Mood stabilizers**: Prevent crashes
 - **As-needed options**: Flexibility
 
 #### Natural Alternatives Type 7s Often Prefer
+
 - Adventure therapy
 - Multiple modalities
 - Movement-based healing
@@ -490,6 +544,7 @@ Each Enneagram type brings different:
 ### Working with Psychiatrists as Type 7
 
 **What You Need**:
+
 - Engaging provider
 - Options presented
 - Flexibility
@@ -497,12 +552,14 @@ Each Enneagram type brings different:
 - Positive focus
 
 **Communication Tips**:
+
 - "Will I still feel joy?"
 - "I need flexibility"
 - "What about my energy?"
 - "Keep it interesting"
 
 **Red Flags to Watch**:
+
 - Medication non-compliance
 - Mixing substances
 - Chasing highs
@@ -510,13 +567,14 @@ Each Enneagram type brings different:
 
 ### Type 7 Medication Success Story
 
-*"I avoided medication because I thought it would cage me. ADHD meds changed everything—I still have enthusiasm, but I can actually FINISH things. Mood stabilizers helped me realize: true joy comes from depth, not just novelty. I'm more alive, not less."* - Anonymous Type 7
+_"I avoided medication because I thought it would cage me. ADHD meds changed everything—I still have enthusiasm, but I can actually FINISH things. Mood stabilizers helped me realize: true joy comes from depth, not just novelty. I'm more alive, not less."_ - Anonymous Type 7
 
 ## Type 8: The Challenger and Medication
 
 ### Type 8's Relationship with Medication
 
 **Core Fears**:
+
 - Loss of control
 - Appearing weak
 - Vulnerability
@@ -524,6 +582,7 @@ Each Enneagram type brings different:
 - Being manipulated
 
 **Common Resistance Patterns**:
+
 - "I can handle it myself"
 - Power struggles with providers
 - Secret use if any
@@ -533,6 +592,7 @@ Each Enneagram type brings different:
 ### What Works for Type 8s
 
 #### Medication Approach
+
 - Frame as taking control
 - Emphasize strength
 - Patient autonomy
@@ -540,12 +600,14 @@ Each Enneagram type brings different:
 - Power maintained
 
 #### Helpful Medications Often Include
+
 - **Testosterone (if low)**: Energy/strength
 - **Modafinil**: Alertness/power
 - **Low-dose mood stabilizers**: Control
 - **As-needed anxiety meds**: Choice
 
 #### Natural Alternatives Type 8s Often Prefer
+
 - Intense physical exercise
 - Martial arts
 - Leadership coaching
@@ -555,6 +617,7 @@ Each Enneagram type brings different:
 ### Working with Psychiatrists as Type 8
 
 **What You Need**:
+
 - Strong, direct provider
 - Respect for autonomy
 - No condescension
@@ -562,12 +625,14 @@ Each Enneagram type brings different:
 - Honest communication
 
 **Communication Tips**:
+
 - "I need to maintain control"
 - "Be straight with me"
 - "I make the final decision"
 - "Don't treat me as weak"
 
 **Red Flags to Watch**:
+
 - Not disclosing use
 - Power struggles
 - Stopping without telling
@@ -575,13 +640,14 @@ Each Enneagram type brings different:
 
 ### Type 8 Medication Success Story
 
-*"Asking for antidepressants felt like surrender. My psychiatrist reframed it: 'You're taking control of your brain chemistry.' That clicked. On medication, I'm not weaker—I'm strategic. I have MORE power because I'm not fighting myself. Real strength includes getting help."* - Anonymous Type 8
+_"Asking for antidepressants felt like surrender. My psychiatrist reframed it: 'You're taking control of your brain chemistry.' That clicked. On medication, I'm not weaker—I'm strategic. I have MORE power because I'm not fighting myself. Real strength includes getting help."_ - Anonymous Type 8
 
 ## Type 9: The Peacemaker and Medication
 
 ### Type 9's Relationship with Medication
 
 **Core Fears**:
+
 - Conflict with providers
 - Making wrong choice
 - Others' opinions
@@ -589,6 +655,7 @@ Each Enneagram type brings different:
 - Being difficult
 
 **Common Resistance Patterns**:
+
 - Going along passively
 - Not voicing concerns
 - Forgetting doses
@@ -598,6 +665,7 @@ Each Enneagram type brings different:
 ### What Works for Type 9s
 
 #### Medication Approach
+
 - Gentle encouragement
 - Simple routines
 - Automated reminders
@@ -605,12 +673,14 @@ Each Enneagram type brings different:
 - Gradual changes
 
 #### Helpful Medications Often Include
+
 - **Sertraline**: Gentle activation
 - **Wellbutrin**: Energy without anxiety
 - **Trazodone**: Sleep support
 - **Extended-release**: Simplicity
 
 #### Natural Alternatives Type 9s Often Prefer
+
 - Gentle yoga
 - Nature therapy
 - Acupuncture
@@ -620,6 +690,7 @@ Each Enneagram type brings different:
 ### Working with Psychiatrists as Type 9
 
 **What You Need**:
+
 - Patient provider
 - Encouragement to speak
 - Validation of needs
@@ -627,12 +698,14 @@ Each Enneagram type brings different:
 - Regular check-ins
 
 **Communication Tips**:
+
 - "I tend to minimize"
 - "Ask me directly"
 - "I need encouragement"
 - "Help me decide"
 
 **Red Flags to Watch**:
+
 - Not reporting problems
 - Passive compliance
 - Forgetting frequently
@@ -640,7 +713,7 @@ Each Enneagram type brings different:
 
 ### Type 9 Medication Success Story
 
-*"I went along with medication for years without really engaging. When I finally spoke up about side effects, we found the right fit. Wellbutrin woke me up—not anxiously, but like morning sunshine. I realized: advocating for my needs isn't conflict, it's self-care."* - Anonymous Type 9
+_"I went along with medication for years without really engaging. When I finally spoke up about side effects, we found the right fit. Wellbutrin woke me up—not anxiously, but like morning sunshine. I realized: advocating for my needs isn't conflict, it's self-care."_ - Anonymous Type 9
 
 ## Universal Medication Principles
 
@@ -677,6 +750,7 @@ Each Enneagram type brings different:
 ### Medication Is One Tool
 
 Remember:
+
 - Not a sign of weakness
 - Not necessarily forever
 - Works best with therapy
@@ -686,6 +760,7 @@ Remember:
 ### Finding the Right Provider
 
 Look for someone who:
+
 - Respects your autonomy
 - Understands your concerns
 - Offers collaborative care
@@ -705,6 +780,7 @@ Look for someone who:
 ### Whole Person Approach
 
 Consider:
+
 - Therapy alongside medication
 - Lifestyle modifications
 - Social support
@@ -726,6 +802,7 @@ There's no "right" choice—only what's right for you at this time. Whether you 
 Remember: Seeking help, in whatever form, is an act of strength. Your Enneagram type shows you how to seek help in a way that honors who you are while supporting who you're becoming.
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -775,6 +852,7 @@ Remember: Seeking help, in whatever form, is an act of strength. Your Enneagram 
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

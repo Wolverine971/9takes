@@ -3,6 +3,7 @@
 ## Problem
 
 The Socket.IO implementation didn't work on Vercel because:
+
 1. Vercel uses serverless functions that don't support persistent WebSocket connections
 2. The custom Express server (`server/index.js`) was incompatible with Vercel's architecture
 3. Socket.IO requires a long-running server process
@@ -14,11 +15,13 @@ Since the project already uses Supabase, we leveraged their built-in realtime ca
 ### What Was Changed
 
 1. **Created Realtime Helper** (`src/lib/realtime.ts`)
+
    - Wrapper around Supabase Realtime for messaging
    - Support for broadcast channels and presence tracking
    - Type-safe message interfaces
 
 2. **Updated Admin Messages Page** (`src/routes/admin/messages/+page.svelte`)
+
    - Replaced Socket.IO with Supabase Realtime channels
    - Added presence tracking to show online users
    - Improved message display with timestamps
@@ -33,11 +36,13 @@ Since the project already uses Supabase, we leveraged their built-in realtime ca
 ### How It Works Now
 
 1. **Channels**:
+
    - `admin-global`: For broadcasting server messages to all users
    - `user-{id}`: Individual channels for each user
    - `admin-presence`: Presence channel to track online users
 
 2. **Message Types**:
+
    - Server messages: Sent by admins to users
    - User messages: Direct messages between users
 
@@ -64,26 +69,29 @@ The admin messages page now works without any additional configuration. Simply d
 To add realtime features to other parts of your app:
 
 1. Import the realtime helper:
+
    ```typescript
    import { RealtimeMessaging } from '$lib/realtime';
    ```
 
 2. Initialize with your Supabase client:
+
    ```typescript
    const messaging = new RealtimeMessaging(supabase);
    ```
 
 3. Subscribe to channels and send messages:
+
    ```typescript
    // Subscribe
    const channel = messaging.subscribeToChannel('my-channel', (message) => {
-     console.log('Received:', message);
+   	console.log('Received:', message);
    });
-   
+
    // Send
    await messaging.sendMessage('my-channel', {
-     type: 'user',
-     from: 'user-123',
-     content: 'Hello!'
+   	type: 'user',
+   	from: 'user-123',
+   	content: 'Hello!'
    });
    ```

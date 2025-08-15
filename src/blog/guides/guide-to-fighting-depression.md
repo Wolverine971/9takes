@@ -12,6 +12,7 @@ pic: ''
 ---
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -63,6 +64,7 @@ pic: ''
   }
 }
 </script>
+
 </svelte:head>
 
 <!-- need pic -->
@@ -707,7 +709,6 @@ pic: ''
 </div>
 
 </div>
-
 
 <style lang="scss">
 /* 

@@ -1,5 +1,3 @@
-
-
 dont say "there is such a thing as that"
 
 Say what is more important is the idea of personality maxing.
@@ -38,7 +36,6 @@ The Reason This Happens:
 
 (3-5 “Reason” Bullets)
 
-
 The News Only Celebrates The Unicorns: Mainstream media does a horrible job of educating young entrepreneurs on what the real startup world is like. Turn on CNBC, or read any business publication, and all you’ll hear is story after story about some guy in a dorm room becoming a billionaire overnight. What you won’t hear are the thousands and thousands of failure stories, putting into context just how rare these “home-run” outcomes really are.
 
 Shark Tank Makes Startup Life Seem Like A Reality TV Show: Shark Tank is incredibly entertaining, but unfortunately it has educated a generation of entrepreneurs to believe that the name of the game when it comes to raising money is to be “clever.” That it’s all about having a great pitch. And really, the wittiness of your pitch has very little to do with it.
@@ -63,9 +60,7 @@ Pretend You Can Never Raise Again: Here’s a good mental exercise. Pretend this
 
 Start With Raising From Friends & Family: Once you’ve settled on a reasonable number of money you need to raise (probably less than $250,000), don’t go straight for “the sharks.” Start with a friends and family round. Get a couple practice reps in pitching for your mom and dad. Besides, most institutional investors won’t be ready to give you money until your startup is further along anyways.
 
-
-
------ 
+---
 
 after you have completely gone into the problem go into the other parts for diving deeper and add more organization
 
@@ -77,9 +72,7 @@ and then talk about how the best tool for the job is the enneagram. Then we will
 
 here is an example crash course
 
-
 For example: here’s an outline for a “Crash Course” on how to get started writing on Twitter
-
 
 0: Introduction & Email Course Outline - “Here’s what you can expect”
 
@@ -116,39 +109,40 @@ For example: here’s an outline for a “Crash Course” on how to get started 
 - Review Your Analytics Once Per Month
 - Once You Find A Winning Topic, Repeat It (Endlessly!)
 
-
-
 Here are my notes for this format.
 
-0: Here’s what you can expect 
+0: Here’s what you can expect
 
 1: X Most Important Things To Know
-- mention the 3 core emotions 
+
+- mention the 3 core emotions
 - 3 different ways/strategies of handling those emotion
 - 9 personality types or worldviews, or life strategies
 
 2: X Mistakes Most People Make
+
 - your childhood wound is still running the show
 
 3: X Steps To Go From Zero to 1
+
 - find your core emotion
 
 4: X Simple Upgrades To Accelerate Growth
+
 - talk to other, ask what they see in you, ask for their honest feedback and compare it to what you are thinking
-- you are trying to zero in on your self perception and gain situational awareness of 
+- you are trying to zero in on your self perception and gain situational awareness of
 
 5: X Best Practices Moving Forward
+
 - dont go telling everyone about your enneagram --> not everyone will be interested, link to this blog post https://9takes.com/community/why-im-selective-sharing-enneagram
 - you now have a framework for emotions, so its ok to label and try to speak about emotions that will draw people in
 - read about your type's steriotypes and see how you are similar and different
-- overall get curious, you now 
-
+- overall get curious, you now
 
 add other things that make sense
 
+---
 
-
----- 
 move the plato and freud part to a side note
 
 dont say "Over the next few days I will be posting brief guides. Stay tuned."

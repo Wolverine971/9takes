@@ -467,6 +467,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 <article class="section-content">
 
 **Emerging Trends:**
+
 - Increased focus on trauma-informed Enneagram teaching
 - Growing emphasis on Enneagram subtypes and their applications
 - Integration of neuroscience and evolutionary psychology with Enneagram theory
@@ -474,6 +475,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 - Enhanced digital resources and mobile apps for Enneagram learning
 
 **Upcoming Events:**
+
 - IEA Enneagram Experience 2025 Global Conference (July 24-27 in Minneapolis, MN)
 - Various workshops and retreats by leading teachers throughout the year
 
@@ -489,6 +491,7 @@ This comprehensive guide represents the current landscape of Enneagram resources
 </script>
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -953,6 +956,7 @@ This comprehensive guide represents the current landscape of Enneagram resources
   }
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

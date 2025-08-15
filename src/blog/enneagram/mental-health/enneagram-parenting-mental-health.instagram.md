@@ -170,11 +170,13 @@ What's one parenting truth you wish someone had told you earlier? 👇
 ### Story Series 2: "Quick Tips by Type"
 
 **Story 1:** "Supporting Your Perfectionist Child 📐"
+
 - Accept 'good enough'
 - Model making mistakes gracefully
 - Praise effort over outcome
 
 **Story 2:** "Supporting Your Helper Child 💕"
+
 - Teach them to identify their own needs
 - Set healthy boundaries
 - Show love isn't conditional on helping
@@ -194,22 +196,26 @@ What's one parenting truth you wish someone had told you earlier? 👇
 ## Story Highlights Categories
 
 ### "Mental Health Basics"
+
 - When to seek help
 - Warning signs to watch for
 - Resources and hotlines
 - FAQ about children's therapy
 
 ### "By Type" (create one for each)
+
 - "Type 1 Parents"
 - "Type 2 Parents"
 - etc.
 
 ### "Self-Care for Parents"
+
 - Taking care of your own mental health
 - Dealing with parental guilt
 - Finding support
 
 ### "Community Q&A"
+
 - Common questions and answers
 - Parent experiences
 - Expert tips
@@ -217,17 +223,21 @@ What's one parenting truth you wish someone had told you earlier? 👇
 ## Reels Ideas
 
 ### Reel 1: "POV: You're worried about your child's mental health"
+
 **Audio:** Trending relatable audio
-**Visuals:** 
+**Visuals:**
+
 - Parent looking concerned
-- Text overlay: "Googling 'is this normal?'" 
+- Text overlay: "Googling 'is this normal?'"
 - "Asking other parents"
 - "Finally calling a professional"
 - End with: "And realizing seeking help was the right choice"
 
 ### Reel 2: "Signs your child might need mental health support"
+
 **Audio:** Educational/trending audio
 **Visuals:** Quick text overlays with warning signs
+
 - "Persistent changes in sleep"
 - "Loss of interest in favorite activities"
 - "Difficulty concentrating"
@@ -235,16 +245,20 @@ What's one parenting truth you wish someone had told you earlier? 👇
 - End with: "Trust your instincts"
 
 ### Reel 3: "Different types of kids, different struggles"
+
 **Audio:** Trending audio with beat drops
 **Visuals:** Quick cuts showing different "types"
+
 - "The perfectionist" (neat, organized imagery)
 - "The helper" (caring for others imagery)
 - "The achiever" (competitive imagery)
 - Text: "Same love, different support needed"
 
 ### Reel 4: "Things I wish I knew as a new parent"
+
 **Audio:** Emotional/reflective trending audio
 **Text overlays:**
+
 - "Mental health struggles don't mean you failed"
 - "Prevention is better than crisis intervention"
 - "Your mental health affects theirs"
@@ -253,11 +267,13 @@ What's one parenting truth you wish someone had told you earlier? 👇
 ## Collaboration Ideas
 
 ### With Mental Health Professionals
+
 - Takeover by child psychologist
 - Q&A sessions
 - Myth-busting content
 
 ### With Other Parent Accounts
+
 - Share experiences with different personality types
 - Resource roundups
 - Support posts
@@ -265,26 +281,31 @@ What's one parenting truth you wish someone had told you earlier? 👇
 ## Content Calendar Themes
 
 ### Monday: Motivational Monday
+
 - Inspirational quotes about parenting and mental health
 - Success stories
 - Encouragement for parents
 
 ### Tuesday: Tip Tuesday
+
 - Quick mental health tips
 - Type-specific strategies
 - Practical advice
 
 ### Wednesday: Wisdom Wednesday
+
 - Educational content
 - Expert insights
 - Research findings
 
 ### Thursday: Thoughtful Thursday
+
 - Personal reflections
 - Community discussions
 - Deeper topics
 
 ### Friday: Feel-Good Friday
+
 - Positive stories
 - Wins and celebrations
 - Community highlights
@@ -292,17 +313,20 @@ What's one parenting truth you wish someone had told you earlier? 👇
 ## Engagement Strategies
 
 ### Regular Engagement Posts
+
 - "Tell me about your parenting wins this week"
 - "What's one thing you're struggling with as a parent?"
 - "Share a mental health tip that's worked for your family"
 - "What would you tell your past parenting self?"
 
 ### Educational Polls
+
 - "What age did you start talking to your kids about mental health?"
 - "What's your biggest parenting mental health concern?"
 - "How do you take care of your own mental health?"
 
 ### Community Building
+
 - Feature parent stories (with permission)
 - Share resources from followers
 - Create support threads in comments

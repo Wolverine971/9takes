@@ -19,6 +19,7 @@ pic: 'reddit-late-at-night'
 </script>
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +71,7 @@ pic: 'reddit-late-at-night'
   }
 }
 </script>
+
 </svelte:head>
 
 <div

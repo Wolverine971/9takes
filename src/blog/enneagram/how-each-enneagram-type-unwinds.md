@@ -37,20 +37,25 @@ Most people are actively sabotaging their downtime without knowing it. They foll
 ## Type 1: The Perfectionist - From Structured Stress to Deliberate Play
 
 ### The Pattern That Exhausts You
+
 Your "relaxation" has KPIs. You schedule downtime like meetings, judge your leisure performance, and feel guilty for "unproductive" rest. The inner critic never clocks out.
 
 ### Your Unwinding Formula
+
 **Tactical shift**: Transform perfection into playful imperfection.
+
 - Morning ritual: Start weekends with one deliberately "wrong" thing
 - Permission slip: "Good enough" is the goal for all leisure activities
 - Structured chaos: Activities with built-in imperfection (watercolors, improv, sandcastles)
 
 ### Environmental Hacks
+
 - Messy creative spaces that prevent perfection
 - Time-boxed activities that end regardless of "completion"
 - Partners who model joyful mediocrity
 
 ### The 60-Second Reset
+
 When stressed: Do something badly on purpose. Sing off-key. Draw with your non-dominant hand. Dance like nobody's watching (because they're not).
 
 **Real transformation**: Sarah, Type 1 surgeon, discovered "chaos gardening"—planting without planning. "My professional life requires precision. My garden is where I practice beautiful randomness."
@@ -60,20 +65,25 @@ When stressed: Do something badly on purpose. Sing off-key. Draw with your non-d
 ## Type 2: The Helper - From Depleted Giver to Recharged Human
 
 ### The Pattern That Exhausts You
+
 Your "self-care" involves making others comfortable. Spa days become networking opportunities. Alone time gets donated to whoever needs it more. You're the phone charger that never gets plugged in.
 
 ### Your Unwinding Formula
+
 **Tactical shift**: Create non-negotiable selfishness windows.
+
 - Hotel room protocol: Book solo stays with zero agenda
 - Permission mantra: "My needs are not selfish, they're necessary"
 - Boundary practice: One "no" daily without explanation
 
 ### Environmental Hacks
+
 - Spaces where you can't help (movie theaters, float tanks)
 - Activities with enforced solitude (massage, solo hikes)
 - Friends who refuse your help and model self-care
 
 ### The 60-Second Reset
+
 When stressed: Lock the bathroom door. Set a timer for 10 minutes. Do absolutely nothing productive. Your discomfort is proof it's working.
 
 **Real transformation**: Jessica, Type 2 therapist, installed a "closed for maintenance" sign on her bedroom door. "My family learned that when the sign's up, I'm recharging. No emergencies allowed."
@@ -83,20 +93,25 @@ When stressed: Lock the bathroom door. Set a timer for 10 minutes. Do absolutely
 ## Type 3: The Achiever - From Success Metrics to Present Moments
 
 ### The Pattern That Exhausts You
+
 Your relaxation has ROI calculations. Meditation becomes a performance sport. Vacations need Instagram-worthy outcomes. You're optimizing the joy out of joy.
 
 ### Your Unwinding Formula
+
 **Tactical shift**: Embrace unmeasurable experiences.
+
 - Metric detox: Remove all trackers during downtime
 - Process focus: Choose activities where journey > destination
 - Witness protection: Do things nobody will ever know about
 
 ### Environmental Hacks
+
 - Places with no cell service (forced disconnection)
 - Activities with no "levels" or achievements (sunset watching, floating)
 - People who don't care about your resume
 
 ### The 60-Second Reset
+
 When stressed: Sit still for 60 seconds. Do nothing. Achieve nothing. Let your nervous system remember you exist beyond your accomplishments.
 
 **Real transformation**: Michael, Type 3 CEO, took up bread making. "There's no way to rush yeast. No hacks. Just time and patience. It broke my brain in the best way."
@@ -106,20 +121,25 @@ When stressed: Sit still for 60 seconds. Do nothing. Achieve nothing. Let your n
 ## Type 4: The Individualist - From Emotional Loops to Creative Release
 
 ### The Pattern That Exhausts You
+
 Your "relaxation" amplifies feelings instead of processing them. Sad songs when sad. Melancholy films when melancholy. You're marinating in emotions, not metabolizing them.
 
 ### Your Unwinding Formula
+
 **Tactical shift**: Channel emotions through creative transformation.
+
 - Emotion timer: 30 minutes feeling, 30 minutes creating
 - Alchemy practice: Transform pain into art, not more pain
 - Balance protocol: Every deep dive needs an equal ascent
 
 ### Environmental Hacks
+
 - Creative spaces with built-in endpoints (pottery classes, painting sessions)
 - Physical activities that demand presence (rock climbing, dance)
 - Friends who appreciate depth AND lightness
 
 ### The 60-Second Reset
+
 When stressed: Create something terrible quickly. Scribble furiously. Sing loudly. Move the emotion through you, not into you.
 
 **Real transformation**: David, Type 4 writer, discovered boxing. "I spent years journaling my anger. Now I hit things for 30 minutes, then I'm actually done with it."
@@ -129,20 +149,25 @@ When stressed: Create something terrible quickly. Scribble furiously. Sing loudl
 ## Type 5: The Investigator - From Mental Hoarding to Embodied Wisdom
 
 ### The Pattern That Exhausts You
+
 Your "relaxation" is more information consumption. Seven open browser tabs about relaxation techniques. Researching vacation spots instead of going. You're collecting knowledge about life instead of living it.
 
 ### Your Unwinding Formula
+
 **Tactical shift**: Transform knowledge into embodied experience.
+
 - Learn-then-do protocol: Every hour of research = one hour of practice
 - Sensory integration: Don't just read about coffee, cup taste, smell process
 - Selective sharing: Teach one person what you learned (integration through teaching)
 
 ### Environmental Hacks
+
 - Hands-on learning environments (workshops, maker spaces)
 - Solo experiences with sensory richness (museums, nature)
 - Small groups who appreciate deep dives
 
 ### The 60-Second Reset
+
 When stressed: Put down the book. Touch five textures. Name three sounds. You have a body—remind your brain.
 
 **Real transformation**: Lisa, Type 5 professor, joined a woodworking class. "I knew everything about wood grain in theory. Feeling it under my hands while creating—that's when I finally understood."
@@ -152,20 +177,25 @@ When stressed: Put down the book. Touch five textures. Name three sounds. You ha
 ## Type 6: The Loyalist - From Anxious Control to Secure Adventure
 
 ### The Pattern That Exhausts You
+
 Your "relaxation" involves threat assessment. Researching every review before trying a restaurant. Creating backup plans for your backup plans. You're so busy preventing disasters, you miss the actual experience.
 
 ### Your Unwinding Formula
+
 **Tactical shift**: Build security to enable spontaneity.
+
 - Trust squad: 2-3 people who are your "safe adventure" crew
 - Incremental risk: Start with 10% unknown, build to 50%
 - Evidence journal: Record when fears didn't materialize
 
 ### Environmental Hacks
+
 - Familiar bases for new experiences (known hotel, new city)
 - Structured spontaneity (guided tours with flexibility)
 - Communities with built-in safety nets
 
 ### The 60-Second Reset
+
 When stressed: Name 5 things that are safe right now. Your body doesn't know the difference between real and imagined threats—remind it.
 
 **Real transformation**: Mark, Type 6 analyst, joined an improv group. "The structure of 'yes, and' gave me permission to be spontaneous. My anxiety decreased more in 6 weeks than 6 years of planning."
@@ -175,20 +205,25 @@ When stressed: Name 5 things that are safe right now. Your body doesn't know the
 ## Type 7: The Enthusiast - From Surface Skimming to Deep Diving
 
 ### The Pattern That Exhausts You
+
 Your "relaxation" is a marathon of activities. Five social events, three new restaurants, two spontaneous road trips. You're so busy avoiding boredom, you never actually rest.
 
 ### Your Unwinding Formula
+
 **Tactical shift**: Find infinite variety within constraints.
+
 - One-thing weekends: Single activity, endless variations
 - Depth challenges: Master something instead of sampling everything
 - JOMO practice: Joy of Missing Out on options B through Z
 
 ### Environmental Hacks
+
 - Activities with layers (cooking, music, games with depth)
 - Locations with rich details (museums, nature spots)
 - Friends who appreciate going deep, not just wide
 
 ### The 60-Second Reset
+
 When stressed: Stop. Pick one thing in your environment. Notice 10 details about it. Depth is always available; you just have to stop running.
 
 **Real transformation**: Emma, Type 7 marketer, committed to one hiking trail for a year. "Same path, different seasons, weather, times of day. I discovered more variety in that one trail than in all my random adventures."
@@ -198,20 +233,25 @@ When stressed: Stop. Pick one thing in your environment. Notice 10 details about
 ## Type 8: The Challenger - From Armor to Authentic Power
 
 ### The Pattern That Exhausts You
+
 Your "relaxation" is just redirected intensity. Crushing workouts. Competitive games. Dominating hobbies. You're fighting even in your downtime.
 
 ### Your Unwinding Formula
+
 **Tactical shift**: Discover power through surrender.
+
 - Vulnerability windows: Private spaces with zero power dynamics
 - Surrender practices: Activities you can't control (gardening, baking, pets)
 - Gentle strength: Yoga, tai chi, patience-requiring crafts
 
 ### Environmental Hacks
+
 - Solo activities where you can drop the armor
 - Nature settings that dwarf your control
 - Trusted people who see through your tough exterior
 
 ### The 60-Second Reset
+
 When stressed: Find something you can't control (clouds, waves, cats). Watch it. Accept it. Your power includes knowing when not to use it.
 
 **Real transformation**: Robert, Type 8 CEO, took up pottery. "Clay doesn't care about my title. Push too hard, it collapses. I learned power through gentleness."
@@ -221,20 +261,25 @@ When stressed: Find something you can't control (clouds, waves, cats). Watch it.
 ## Type 9: The Peacemaker - From Checked Out to Tuned In
 
 ### The Pattern That Exhausts You
+
 Your "relaxation" is disappearing. Netflix binges you don't remember. Scrolling without seeing. Existing without being. You're so conflict-avoidant, you avoid your own presence.
 
 ### Your Unwinding Formula
+
 **Tactical shift**: Engage with gentle presence.
+
 - Sensory anchoring: Activities that keep you here, now
 - Micro-engagements: Small, present moments over long zones-outs
 - Preference practice: Choose things because YOU want them
 
 ### Environmental Hacks
+
 - Activities with gentle structure (tea ceremonies, gardening)
 - Environments that encourage presence (nature, art)
 - People who draw out your opinions kindly
 
 ### The 60-Second Reset
+
 When stressed: Name one thing you want right now. Not what others want, not what's easiest—what YOU want. Your desires matter.
 
 **Real transformation**: Patricia, Type 9 teacher, started morning pages. "Three pages of my actual thoughts, not filtered for anyone. It was the first time I heard my own voice clearly."
@@ -246,6 +291,7 @@ When stressed: Name one thing you want right now. Not what others want, not what
 Here's the pattern most miss: When you're stressed, you need your type's specific medicine. But when you're growing, borrowing from your integration point accelerates healing.
 
 **Integration shortcuts**:
+
 - Type 1 → Type 7's playfulness (scheduled spontaneity)
 - Type 2 → Type 4's self-expression (creative selfishness)
 - Type 3 → Type 6's collaboration (success through connection)
@@ -259,15 +305,19 @@ Here's the pattern most miss: When you're stressed, you need your type's specifi
 ## Your 7-Day Relaxation Reset Protocol
 
 ### Day 1-2: Decode Your Patterns
+
 Track your current "relaxation" activities. Rate energy before and after (1-10). Notice which actually drain you.
 
 ### Day 3-4: Experiment with Type-Specific Activities
+
 Try ONE activity from your type's formula. Start with 15 minutes. Notice resistance—it reveals your growth edge.
 
 ### Day 5-6: Environmental Design
+
 Create one space/time that supports your type's unwinding needs. Type 1s need imperfection corners. Type 8s need vulnerability vaults.
 
 ### Day 7: Integration
+
 Reflect on what worked. Schedule it. What you don't schedule doesn't happen.
 
 **The uncomfortable truth**: The relaxation methods that feel most foreign to your type often work best. Type 7s resist stillness because they need it. Type 5s avoid embodiment because it heals them.

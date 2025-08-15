@@ -306,7 +306,6 @@ Whatever history's verdict on specific policies, Reagan's distinctly Loyalist co
 
 > **Disclaimer** This analysis of Ronald Reagan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of President Reagan.
 
-
 <svelte:head>
 
 <script type="application/ld+json">
@@ -577,4 +576,5 @@ Whatever history's verdict on specific policies, Reagan's distinctly Loyalist co
   "@context": "http://schema.org"
 }
 </script>
+
 </svelte:head>

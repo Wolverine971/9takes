@@ -41,6 +41,7 @@ Let's cut through the noise.
 The Enneagram isn't scientifically validated like the Big Five personality model. There's limited peer-reviewed research. Most studies that exist have small sample sizes.
 
 **But here's what we do know:**
+
 - It's been used effectively in therapy for 40+ years
 - Major companies (Google, Adobe, Slack) use it for team development
 - Thousands of therapists incorporate it into their practice
@@ -51,6 +52,7 @@ The Enneagram isn't scientifically validated like the Big Five personality model
 The Enneagram is a framework for understanding motivation, not a diagnostic tool. Use it as a lens, not a label.
 
 <strong>Deep dive:</strong> <a href="/enneagram-corner/enneagram-criticisms">Complete analysis of Enneagram criticisms</a>
+
 </div>
 </details>
 
@@ -64,16 +66,19 @@ The Enneagram is a framework for understanding motivation, not a diagnostic tool
 **Enneagram:** Reveals WHY you do what you do (core fears and motivations)
 
 **Practical example:**
+
 - MBTI tells you: "You're an introvert who makes logical decisions"
 - Enneagram tells you: "You withdraw because you fear being overwhelmed and incompetent"
 
 **Which is more useful?**
+
 - MBTI: Better for understanding communication styles
 - Enneagram: Better for understanding emotional patterns and growth paths
 
 Many people use both. They're measuring different things.
 
 <strong>Full comparison:</strong> <a href="/enneagram-corner/enneagram-vs-meyers-briggs">Enneagram vs MBTI detailed breakdown</a>
+
 </div>
 </details>
 
@@ -87,6 +92,7 @@ Many people use both. They're measuring different things.
 **Enneagram:** Based on observable behavior patterns and motivations (internal factors you can change)
 
 **The Enneagram:**
+
 - Doesn't claim to predict your future
 - Focuses on patterns you can verify in your own experience
 - Offers specific growth paths, not vague predictions
@@ -95,6 +101,7 @@ Many people use both. They're measuring different things.
 **The real test:** Read about your type. If it makes you uncomfortable because it's TOO accurate about your flaws, it's not astrology—it's pattern recognition.
 
 <strong>Interesting read:</strong> <a href="/enneagram-corner/astrology-and-the-enneagram">When astrology meets Enneagram</a>
+
 </div>
 </details>
 
@@ -109,6 +116,7 @@ Many people use both. They're measuring different things.
 **Fuller picture:**
 
 The Enneagram describes nine ways of viewing and navigating the world. Each type has:
+
 - A core fear (what you're unconsciously avoiding)
 - A core desire (what you're unconsciously seeking)
 - A defense mechanism (how you protect yourself)
@@ -119,6 +127,7 @@ The Enneagram describes nine ways of viewing and navigating the world. Each type
 **What makes it unique:** It's dynamic. You don't just have a type—you move toward other types under stress and security, showing how personality shifts with circumstances.
 
 <strong>Complete overview:</strong> <a href="/enneagram-corner/enneagram-tldr">Everything you need to know in 10 minutes</a>
+
 </div>
 </details>
 
@@ -128,21 +137,22 @@ The Enneagram describes nine ways of viewing and navigating the world. Each type
 
 <div class="scroll-table">
 
-| Type | Name | Core Fear | Core Desire | In One Sentence |
-|------|------|-----------|-------------|-----------------|
-| 1 | The Perfectionist | Being corrupt/defective | Being good, right | "There's always a right way to do things" |
-| 2 | The Helper | Being unloved | Being loved | "I'm valuable when I'm needed" |
-| 3 | The Achiever | Being worthless | Being valuable | "I am what I accomplish" |
-| 4 | The Individualist | Having no identity | Being unique | "I'm different from everyone else" |
-| 5 | The Investigator | Being incompetent | Being capable | "Knowledge is power and safety" |
-| 6 | The Loyalist | Being without support | Having security | "What could go wrong here?" |
-| 7 | The Enthusiast | Being trapped in pain | Being satisfied | "There's always something better" |
-| 8 | The Challenger | Being controlled | Self-reliance | "It's better to be feared than hurt" |
-| 9 | The Peacemaker | Loss and separation | Inner stability | "Why rock the boat?" |
+| Type | Name              | Core Fear               | Core Desire       | In One Sentence                           |
+| ---- | ----------------- | ----------------------- | ----------------- | ----------------------------------------- |
+| 1    | The Perfectionist | Being corrupt/defective | Being good, right | "There's always a right way to do things" |
+| 2    | The Helper        | Being unloved           | Being loved       | "I'm valuable when I'm needed"            |
+| 3    | The Achiever      | Being worthless         | Being valuable    | "I am what I accomplish"                  |
+| 4    | The Individualist | Having no identity      | Being unique      | "I'm different from everyone else"        |
+| 5    | The Investigator  | Being incompetent       | Being capable     | "Knowledge is power and safety"           |
+| 6    | The Loyalist      | Being without support   | Having security   | "What could go wrong here?"               |
+| 7    | The Enthusiast    | Being trapped in pain   | Being satisfied   | "There's always something better"         |
+| 8    | The Challenger    | Being controlled        | Self-reliance     | "It's better to be feared than hurt"      |
+| 9    | The Peacemaker    | Loss and separation     | Inner stability   | "Why rock the boat?"                      |
 
 </div>
 
 <strong>Deep dives:</strong> <a href="/enneagram-corner/enneagram-strengths-and-weaknesses">Each type's strengths & weaknesses</a>
+
 </div>
 </details>
 
@@ -153,11 +163,13 @@ The Enneagram describes nine ways of viewing and navigating the world. Each type
 **Warning:** Most people mistype themselves at first.
 
 **Why? Because:**
+
 - We see ourselves as we want to be, not as we are
 - We confuse behavior with motivation
 - We're blind to our own patterns
 
 **Best approach:**
+
 1. **Read about core fears/desires** (not behaviors)
 2. **Ask yourself:** "What am I running from?" Not "What do I do?"
 3. **Look at your worst moments** - Your type is clearest under stress
@@ -167,6 +179,7 @@ The Enneagram describes nine ways of viewing and navigating the world. Each type
 **Skip the online tests initially.** They measure behavior, not motivation.
 
 <strong>Proven method:</strong> <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Find your type in 10 minutes</a>
+
 </div>
 </details>
 
@@ -178,11 +191,12 @@ The Enneagram describes nine ways of viewing and navigating the world. Each type
 
 **Short answer:** No, your core type doesn't change.
 
-**Longer truth:** 
+**Longer truth:**
 
 Your core motivations remain stable throughout life. A Type 6 doesn't wake up as a Type 3.
 
 **But here's what DOES change:**
+
 - How healthy you are within your type
 - Which aspects of your type you express
 - Your ability to access qualities of other types
@@ -193,6 +207,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **The good news:** You're not stuck with your type's unhealthy patterns. Every type has a path to growth.
 
 <strong>Growth paths:</strong> <a href="/enneagram-corner/enneagram-self-development">How each type evolves</a>
+
 </div>
 </details>
 
@@ -208,6 +223,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 4. **Behaviors overlap** - Different types can act similarly for different reasons
 
 **How to find your core type:**
+
 - Look at motivation, not behavior
 - Consider your worst fears
 - Think about childhood patterns
@@ -216,6 +232,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **Example:** Both Type 1 and Type 6 can be anxious. But Type 1 fears being bad/wrong, while Type 6 fears being without support.
 
 <strong>Learn more:</strong> <a href="/enneagram-corner/enneagram-connecting-lines">How types connect and influence each other</a>
+
 </div>
 </details>
 
@@ -226,12 +243,14 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **Valid concern. Here's the reality:**
 
 **When it's boxing:**
+
 - "You're a Type 8, so you must be aggressive"
 - Using type to excuse bad behavior
 - Assuming you know someone because of their number
 - Limiting growth ("Type 4s are just dramatic")
 
 **When it's liberating:**
+
 - Understanding WHY you do what you do
 - Seeing patterns you can change
 - Having compassion for your struggles
@@ -242,6 +261,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **Remember:** The map is not the territory. People are infinitely complex. The Enneagram is just one lens.
 
 <strong>Important read:</strong> <a href="/enneagram-corner/enneagram-criticisms">Valid criticisms and how to avoid misuse</a>
+
 </div>
 </details>
 
@@ -254,6 +274,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **Concrete ways people use it:**
 
 **Personal:**
+
 - Break repetitive relationship patterns
 - Understand why certain things trigger you
 - Find career paths that align with core motivations
@@ -261,12 +282,14 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 - Recognize and interrupt self-sabotage
 
 **Relationships:**
+
 - Understand partner's needs beyond surface
 - Communicate in ways others can hear
 - Resolve conflicts at the root level
 - Build empathy for different perspectives
 
 **Professional:**
+
 - Build better teams
 - Improve leadership style
 - Navigate workplace dynamics
@@ -276,6 +299,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **Example:** Type 9 realizes they say "yes" to avoid conflict, not because they agree. Changes everything.
 
 <strong>Practical applications:</strong> <a href="/enneagram-corner/enneagram-self-development">Personal growth guide for each type</a>
+
 </div>
 </details>
 
@@ -292,6 +316,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 - Are in acute mental health crisis (see a professional first)
 
 **The Enneagram isn't:**
+
 - A replacement for therapy
 - An excuse for bad behavior
 - A hiring tool
@@ -299,12 +324,14 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 - The only truth about personality
 
 **It works best for people who:**
+
 - Can hold complexity
 - Want to understand patterns
 - Are ready for uncomfortable truths
 - Seek growth, not just knowledge
 
 <strong>Mental health consideration:</strong> <a href="/enneagram-corner/enneagram-and-mental-illness">Enneagram and mental health connection</a>
+
 </div>
 </details>
 
@@ -325,6 +352,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **But here's the thing:** Those patterns are running your life whether you see them or not. Awareness gives you choice.
 
 <strong>Balanced perspective:</strong> <a href="/enneagram-corner/enneagram-criticisms">Honest critique of the Enneagram</a>
+
 </div>
 </details>
 
@@ -341,7 +369,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 ✅ Your close friends say "That's SO you"  
 ✅ The core fear resonates deeply  
 ✅ You recognize the defense mechanisms  
-✅ Growth recommendations feel relevant  
+✅ Growth recommendations feel relevant
 
 **Signs you might be mistyped:**
 
@@ -350,11 +378,12 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 ❌ It doesn't explain your struggles  
 ❌ The core fear doesn't resonate  
 ❌ You don't see childhood patterns  
-❌ Friends disagree with the typing  
+❌ Friends disagree with the typing
 
 **Pro tip:** Read about how your suspected type behaves under stress. If it matches your worst moments, you're probably right.
 
 <strong>Verification guide:</strong> <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Confirm your type</a>
+
 </div>
 </details>
 
@@ -365,24 +394,28 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **It depends on context:**
 
 **When sharing helps:**
+
 - With a partner/close friend for deeper understanding
 - In therapy or coaching
 - In teams that all know the Enneagram
 - When explaining your needs/triggers
 
 **When to keep it to yourself:**
+
 - Job interviews (can backfire)
 - First dates (too much too soon)
 - With people who think it's "woo-woo"
 - When it might box you in
 
 **How to share effectively:**
+
 - Focus on insights, not the number
 - "I've realized I tend to..." vs "I'm a Type 6 so..."
 - Share growth edges, not just patterns
 - Don't assume others care as much as you do
 
 **Remember:** The Enneagram is a tool for understanding, not an identity to broadcast.
+
 </div>
 </details>
 
@@ -391,21 +424,25 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 <div class="panel">
 
 **Week 1: Observe without judgment**
+
 - Notice when your core fear gets triggered
 - Watch your defense mechanisms activate
 - See the pattern, don't try to change it yet
 
 **Week 2: Track the cost**
+
 - What relationships has this pattern affected?
 - What opportunities have you missed?
 - What joy have you avoided?
 
 **Week 3: One small shift**
+
 - Pick ONE growth recommendation
 - Practice in low-stakes situations
 - Notice resistance (that's normal)
 
 **Week 4: Get support**
+
 - Share insights with someone you trust
 - Find others of your type (online communities)
 - Consider therapy or coaching
@@ -413,6 +450,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **Most important:** Be patient. You've been running these patterns for decades. Change takes time.
 
 <strong>Your growth path:</strong> <a href="/enneagram-corner/enneagram-self-development">Specific development guide for each type</a>
+
 </div>
 </details>
 
@@ -435,6 +473,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **5. The burden of awareness:** Can't pretend you don't know anymore
 
 **The medicine:** Remember the Enneagram shows patterns, not destiny. You always have choice.
+
 </div>
 </details>
 
@@ -459,6 +498,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 - They were mistyped
 
 **The reality:** Like any tool, it can be misused. That doesn't invalidate its utility when used well.
+
 </div>
 </details>
 
@@ -469,18 +509,21 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 **That's completely valid.**
 
 Some people prefer:
+
 - Living intuitively vs analytically
 - Discovering through experience vs framework
 - Keeping mystery in self-understanding
 - Avoiding labels entirely
 
 **You don't need the Enneagram to:**
+
 - Grow as a person
 - Have great relationships
 - Understand yourself
 - Live a meaningful life
 
 **It's just one tool among many.** If it doesn't resonate, that's fine. Trust your instincts.
+
 </div>
 </details>
 
@@ -489,6 +532,7 @@ Some people prefer:
 The Enneagram raises as many questions as it answers. That's part of its value—it makes you curious about yourself.
 
 **Remember:**
+
 - It's a tool, not truth
 - It shows patterns, not destiny
 - Use it for growth, not games

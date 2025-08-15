@@ -37,17 +37,17 @@ You're not failing at first impressions. **You're using the wrong playbook for t
 
 <div class="scroll-table">
 
-| What You See | Their Type | What They Need From You | Fatal First Impression Error |
-|--------------|-----------|------------------------|------------------------------|
-| Checking watch, perfect posture | Type 1 | Competence signals | Being late or sloppy |
-| Leaning in, warm smile | Type 2 | Emotional availability | Cold professionalism |
-| Firm handshake, name-dropping | Type 3 | Respect for achievement | Not knowing who they are |
-| Unique accessory, distant gaze | Type 4 | Depth recognition | Generic small talk |
-| Observing quietly, minimal eye contact | Type 5 | Intellectual space | Forced emotional connection |
-| Nervous energy, testing questions | Type 6 | Trustworthiness proof | Overconfidence without substance |
-| Animated gestures, multiple topics | Type 7 | Energy matching | Being a downer |
-| Taking up space, direct stare | Type 8 | Strength respect | Weakness or indirection |
-| Agreeable nodding, soft voice | Type 9 | Non-threatening presence | Aggressive energy |
+| What You See                           | Their Type | What They Need From You  | Fatal First Impression Error     |
+| -------------------------------------- | ---------- | ------------------------ | -------------------------------- |
+| Checking watch, perfect posture        | Type 1     | Competence signals       | Being late or sloppy             |
+| Leaning in, warm smile                 | Type 2     | Emotional availability   | Cold professionalism             |
+| Firm handshake, name-dropping          | Type 3     | Respect for achievement  | Not knowing who they are         |
+| Unique accessory, distant gaze         | Type 4     | Depth recognition        | Generic small talk               |
+| Observing quietly, minimal eye contact | Type 5     | Intellectual space       | Forced emotional connection      |
+| Nervous energy, testing questions      | Type 6     | Trustworthiness proof    | Overconfidence without substance |
+| Animated gestures, multiple topics     | Type 7     | Energy matching          | Being a downer                   |
+| Taking up space, direct stare          | Type 8     | Strength respect         | Weakness or indirection          |
+| Agreeable nodding, soft voice          | Type 9     | Non-threatening presence | Aggressive energy                |
 
 </div>
 
@@ -64,6 +64,7 @@ And their Enneagram type determines exactly what that looks like.
 ### The 10-Second Test You Don't Know You're Taking
 
 **Body language tells:**
+
 - Scanning your appearance for effort
 - Checking time obsessively
 - Sitting with perfect posture
@@ -72,6 +73,7 @@ And their Enneagram type determines exactly what that looks like.
 They're not looking for perfection. They're looking for **evidence you give a damn.**
 
 ### You Might Be Talking to a Type 1 If:
+
 - They correct something small in passing
 - Their workspace is suspiciously organized
 - They use phrases like "the right way" or "properly"
@@ -80,7 +82,7 @@ They're not looking for perfection. They're looking for **evidence you give a da
 
 ### The Hidden Psychology
 
-**What they're really thinking:** *"Can I respect this person's standards?"*
+**What they're really thinking:** _"Can I respect this person's standards?"_
 
 Their inner critic runs 24/7. If you pass their initial quality check, they relax into actual human connection.
 
@@ -89,11 +91,13 @@ Their inner critic runs 24/7. If you pass their initial quality check, they rela
 **Opening move:** Arrive early. Firm handshake. One specific compliment about something they've clearly put effort into.
 
 **Power questions that hook Type 1s:**
+
 - "What's something you've improved recently that most people wouldn't notice?"
 - "How do you maintain such high standards without burning out?"
 - "What's your take on [topic]? You seem like someone who's thought this through."
 
 **Body language that works:**
+
 - Upright posture (mirror theirs)
 - Clean, deliberate gestures
 - Direct eye contact
@@ -103,13 +107,13 @@ Their inner critic runs 24/7. If you pass their initial quality check, they rela
 ✓ Reference a system or process you follow  
 ✓ Admit a mistake and how you fixed it  
 ✓ Show appreciation for quality  
-✓ Keep your word on tiny things  
+✓ Keep your word on tiny things
 
 **Connection killers:**
 ✗ Being late without acknowledgment  
 ✗ Sloppy appearance or speech  
 ✗ Suggesting ethical shortcuts  
-✗ Making excuses  
+✗ Making excuses
 
 > **Going deeper with Type 1s:** <a href="/enneagram-corner/enneagram-type-1">Understand their inner world →</a>
 
@@ -122,6 +126,7 @@ Their inner critic runs 24/7. If you pass their initial quality check, they rela
 ### The Emotional Temperature Check
 
 **Body language tells:**
+
 - Leaning in when others speak
 - Touching arm while talking
 - Remembering everyone's name
@@ -130,6 +135,7 @@ Their inner critic runs 24/7. If you pass their initial quality check, they rela
 They're not being nice. They're **scanning for emotional availability.**
 
 ### You Might Be Talking to a Type 2 If:
+
 - They ask about your comfort/needs immediately
 - They remember personal details from last time
 - They're connecting people to each other
@@ -138,7 +144,7 @@ They're not being nice. They're **scanning for emotional availability.**
 
 ### The Hidden Psychology
 
-**What they're really thinking:** *"Am I needed here? Do they see my value?"*
+**What they're really thinking:** _"Am I needed here? Do they see my value?"_
 
 They've been earning love through service since childhood. Show them they matter beyond their usefulness.
 
@@ -147,11 +153,13 @@ They've been earning love through service since childhood. Show them they matter
 **Opening move:** Warm smile. Use their name twice. Ask how THEY are (and mean it).
 
 **Power questions that hook Type 2s:**
+
 - "You seem like someone who takes care of everyone—who takes care of you?"
 - "What's the most meaningful way someone's helped you recently?"
 - "How did you develop such strong emotional intelligence?"
 
 **Body language that works:**
+
 - Open posture
 - Genuine facial expressions
 - Appropriate touch (handshake with both hands)
@@ -161,13 +169,13 @@ They've been earning love through service since childhood. Show them they matter
 ✓ Accept their help graciously  
 ✓ Share a vulnerability  
 ✓ Notice their efforts specifically  
-✓ Offer to help them with something  
+✓ Offer to help them with something
 
 **Connection killers:**
 ✗ All business, no warmth  
 ✗ Rejecting their offers to help  
 ✗ Not reciprocating personal sharing  
-✗ Treating them like staff  
+✗ Treating them like staff
 
 > **Understanding Type 2s:** <a href="/enneagram-corner/enneagram-type-2">Why they give until it hurts →</a>
 
@@ -180,6 +188,7 @@ They've been earning love through service since childhood. Show them they matter
 ### The Success Scanner
 
 **Body language tells:**
+
 - Firm handshake with eye contact
 - Checking phone frequently
 - Dressed one level above occasion
@@ -188,6 +197,7 @@ They've been earning love through service since childhood. Show them they matter
 They're not showing off. They're **establishing pecking order.**
 
 ### You Might Be Talking to a Type 3 If:
+
 - They lead with credentials
 - They ask what you do within 60 seconds
 - They're multitasking while talking
@@ -196,7 +206,7 @@ They're not showing off. They're **establishing pecking order.**
 
 ### The Hidden Psychology
 
-**What they're really thinking:** *"Are they successful enough to be worth my time?"*
+**What they're really thinking:** _"Are they successful enough to be worth my time?"_
 
 Love equals achievement in their world. Show them you're going places too.
 
@@ -205,11 +215,13 @@ Love equals achievement in their world. Show them you're going places too.
 **Opening move:** Strong energy. Match their pace. Lead with a recent win.
 
 **Power questions that hook Type 3s:**
+
 - "What's the biggest win you're working toward right now?"
 - "How did you build such impressive momentum?"
 - "What's your secret to getting so much done?"
 
 **Body language that works:**
+
 - Power posture
 - Efficient gestures
 - Time awareness
@@ -219,13 +231,13 @@ Love equals achievement in their world. Show them you're going places too.
 ✓ Recognize their achievements specifically  
 ✓ Share your own ambitions  
 ✓ Demonstrate competence quickly  
-✓ Respect their time  
+✓ Respect their time
 
 **Connection killers:**
 ✗ Wasting their time with rambling  
 ✗ Not knowing who they are  
 ✗ Low energy or ambition  
-✗ Questioning their success  
+✗ Questioning their success
 
 > **Type 3s unmasked:** <a href="/enneagram-corner/enneagram-type-3">Beyond the success facade →</a>
 
@@ -242,6 +254,7 @@ Love equals achievement in their world. Show them you're going places too.
 ### The Authenticity Detector
 
 **Body language tells:**
+
 - Unique style choices
 - Intense eye contact or none
 - Dramatic hand gestures
@@ -250,6 +263,7 @@ Love equals achievement in their world. Show them you're going places too.
 They're not being difficult. They're **screening for depth.**
 
 ### You Might Be Talking to a Type 4 If:
+
 - They cringe at small talk
 - They share something deeply personal quickly
 - They're wearing something nobody else would
@@ -258,7 +272,7 @@ They're not being difficult. They're **screening for depth.**
 
 ### The Hidden Psychology
 
-**What they're really thinking:** *"Do they see how different I am? Can they handle my intensity?"*
+**What they're really thinking:** _"Do they see how different I am? Can they handle my intensity?"_
 
 Ordinary feels like death to them. Show them you see their uniqueness.
 
@@ -267,11 +281,13 @@ Ordinary feels like death to them. Show them you see their uniqueness.
 **Opening move:** Notice something unique about them. Skip the weather. Go deep fast.
 
 **Power questions that hook Type 4s:**
+
 - "What's something you see that most people miss?"
 - "When did you realize you were different?"
 - "What are you creating right now?"
 
 **Body language that works:**
+
 - Authentic expressions
 - Emotional availability
 - Artistic gestures
@@ -281,13 +297,13 @@ Ordinary feels like death to them. Show them you see their uniqueness.
 ✓ Share something vulnerable  
 ✓ Appreciate their uniqueness specifically  
 ✓ Go beyond surface conversation  
-✓ Show your own depth  
+✓ Show your own depth
 
 **Connection killers:**
 ✗ Generic compliments  
 ✗ Forced positivity  
 ✗ Comparing them to others  
-✗ Surface-level anything  
+✗ Surface-level anything
 
 > **The Type 4 experience:** <a href="/enneagram-corner/enneagram-type-4">Living at emotional extremes →</a>
 
@@ -300,6 +316,7 @@ Ordinary feels like death to them. Show them you see their uniqueness.
 ### The Competence Calculator
 
 **Body language tells:**
+
 - Maintaining physical distance
 - Minimal eye contact
 - Economical gestures
@@ -308,6 +325,7 @@ Ordinary feels like death to them. Show them you see their uniqueness.
 They're not cold. They're **conserving energy for what matters.**
 
 ### You Might Be Talking to a Type 5 If:
+
 - They take long pauses before responding
 - They ask precise, specific questions
 - They're in the corner at social events
@@ -316,7 +334,7 @@ They're not cold. They're **conserving energy for what matters.**
 
 ### The Hidden Psychology
 
-**What they're really thinking:** *"Are they intellectually interesting enough to warrant my energy?"*
+**What they're really thinking:** _"Are they intellectually interesting enough to warrant my energy?"_
 
 Knowledge is safety. Stupidity is danger. Show them your brain first.
 
@@ -325,11 +343,13 @@ Knowledge is safety. Stupidity is danger. Show them your brain first.
 **Opening move:** Respect their space. Lead with ideas, not feelings. One fascinating fact.
 
 **Power questions that hook Type 5s:**
+
 - "What are you researching lately?"
 - "What's your take on [complex topic]?"
 - "Have you noticed [interesting observation]?"
 
 **Body language that works:**
+
 - Respectful distance
 - Minimal gestures
 - Calm energy
@@ -339,13 +359,13 @@ Knowledge is safety. Stupidity is danger. Show them your brain first.
 ✓ Share unique knowledge  
 ✓ Respect their boundaries  
 ✓ Ask for their expertise  
-✓ Give them processing time  
+✓ Give them processing time
 
 **Connection killers:**
 ✗ Invading personal space  
 ✗ Emotional overwhelm  
 ✗ Demanding immediate responses  
-✗ Anti-intellectual attitudes  
+✗ Anti-intellectual attitudes
 
 > **Inside Type 5s:** <a href="/enneagram-corner/enneagram-type-5">The fortress of the mind →</a>
 
@@ -358,6 +378,7 @@ Knowledge is safety. Stupidity is danger. Show them your brain first.
 ### The Safety Assessment
 
 **Body language tells:**
+
 - Nervous energy
 - Scanning environment
 - Testing questions
@@ -366,6 +387,7 @@ Knowledge is safety. Stupidity is danger. Show them your brain first.
 They're not paranoid. They're **pattern-matching for danger.**
 
 ### You Might Be Talking to a Type 6 If:
+
 - They ask lots of "what if" questions
 - They mention past betrayals
 - They're checking your consistency
@@ -374,7 +396,7 @@ They're not paranoid. They're **pattern-matching for danger.**
 
 ### The Hidden Psychology
 
-**What they're really thinking:** *"Can I trust them? What's their agenda?"*
+**What they're really thinking:** _"Can I trust them? What's their agenda?"_
 
 The world proved dangerous early. Show them you're safe through consistency.
 
@@ -383,11 +405,13 @@ The world proved dangerous early. Show them you're safe through consistency.
 **Opening move:** Calm presence. Consistent behavior. No sudden moves.
 
 **Power questions that hook Type 6s:**
+
 - "What helps you know who to trust?"
 - "How do you stay grounded when things get uncertain?"
 - "Who's in your inner circle?"
 
 **Body language that works:**
+
 - Steady, predictable movements
 - Reassuring tone
 - Open, honest expressions
@@ -397,13 +421,13 @@ The world proved dangerous early. Show them you're safe through consistency.
 ✓ Be transparent about intentions  
 ✓ Show loyalty to others  
 ✓ Keep small promises  
-✓ Acknowledge their concerns  
+✓ Acknowledge their concerns
 
 **Connection killers:**
 ✗ Inconsistent stories  
 ✗ Dismissing their worries  
 ✗ Overconfidence without substance  
-✗ Pressuring for quick trust  
+✗ Pressuring for quick trust
 
 > **Type 6 anxiety patterns:** <a href="/enneagram-corner/enneagram-type-6">From fear to security →</a>
 
@@ -416,6 +440,7 @@ The world proved dangerous early. Show them you're safe through consistency.
 ### The Energy Evaluator
 
 **Body language tells:**
+
 - Animated everything
 - Multiple conversation threads
 - Restless movement
@@ -424,6 +449,7 @@ The world proved dangerous early. Show them you're safe through consistency.
 They're not scattered. They're **optimizing for maximum life experience.**
 
 ### You Might Be Talking to a Type 7 If:
+
 - They're planning five things simultaneously
 - They pivot topics rapidly
 - They're the loudest laugher
@@ -432,7 +458,7 @@ They're not scattered. They're **optimizing for maximum life experience.**
 
 ### The Hidden Psychology
 
-**What they're really thinking:** *"Will they add to my life or drain it?"*
+**What they're really thinking:** _"Will they add to my life or drain it?"_
 
 Boredom equals death. Pain equals danger. Be their dopamine hit.
 
@@ -441,11 +467,13 @@ Boredom equals death. Pain equals danger. Be their dopamine hit.
 **Opening move:** Match their energy. Share something exciting. Suggest possibilities.
 
 **Power questions that hook Type 7s:**
+
 - "What's the most exciting thing in your life right now?"
 - "What adventure is next on your list?"
 - "Have you tried [exciting experience]?"
 
 **Body language that works:**
+
 - High energy
 - Expressive gestures
 - Genuine smiles
@@ -455,13 +483,13 @@ Boredom equals death. Pain equals danger. Be their dopamine hit.
 ✓ Match their enthusiasm  
 ✓ Share exciting ideas  
 ✓ Be spontaneous  
-✓ Keep things light initially  
+✓ Keep things light initially
 
 **Connection killers:**
 ✗ Being a downer  
 ✗ Limiting their options  
 ✗ Getting too heavy too fast  
-✗ Killing their ideas  
+✗ Killing their ideas
 
 > **The Type 7 paradox:** <a href="/enneagram-corner/enneagram-type-7">Running from pain into it →</a>
 
@@ -474,6 +502,7 @@ Boredom equals death. Pain equals danger. Be their dopamine hit.
 ### The Power Assessment
 
 **Body language tells:**
+
 - Taking up space
 - Direct, unblinking stare
 - Firm everything
@@ -482,6 +511,7 @@ Boredom equals death. Pain equals danger. Be their dopamine hit.
 They're not intimidating you. They're **checking if you can handle them.**
 
 ### You Might Be Talking to a Type 8 If:
+
 - They test you with confrontation
 - They respect pushback
 - They protect the underdog
@@ -490,7 +520,7 @@ They're not intimidating you. They're **checking if you can handle them.**
 
 ### The Hidden Psychology
 
-**What they're really thinking:** *"Are they strong enough to be trusted?"*
+**What they're really thinking:** _"Are they strong enough to be trusted?"_
 
 Weakness invites predators. Show them your spine.
 
@@ -499,11 +529,13 @@ Weakness invites predators. Show them your spine.
 **Opening move:** Strong handshake. Direct eye contact. Stand your ground.
 
 **Power questions that hook Type 8s:**
+
 - "What battle are you fighting right now?"
 - "Who do you respect and why?"
 - "What injustice pisses you off most?"
 
 **Body language that works:**
+
 - Power posture
 - Direct gaze
 - Firm gestures
@@ -513,13 +545,13 @@ Weakness invites predators. Show them your spine.
 ✓ Stand up to them respectfully  
 ✓ Show protective instincts  
 ✓ Be direct, no games  
-✓ Demonstrate competence  
+✓ Demonstrate competence
 
 **Connection killers:**
 ✗ Weakness or waffling  
 ✗ Manipulation attempts  
 ✗ Excessive emotion  
-✗ Going behind their back  
+✗ Going behind their back
 
 > **Type 8 vulnerability:** <a href="/enneagram-corner/enneagram-type-8">The soft heart under armor →</a>
 
@@ -532,6 +564,7 @@ Weakness invites predators. Show them your spine.
 ### The Comfort Checker
 
 **Body language tells:**
+
 - Soft, agreeable presence
 - Mirroring your energy
 - Avoiding confrontation
@@ -540,6 +573,7 @@ Weakness invites predators. Show them your spine.
 They're not passive. They're **managing everyone's comfort.**
 
 ### You Might Be Talking to a Type 9 If:
+
 - They agree with everything
 - They deflect from themselves
 - They mediate conflicts naturally
@@ -548,7 +582,7 @@ They're not passive. They're **managing everyone's comfort.**
 
 ### The Hidden Psychology
 
-**What they're really thinking:** *"How do I keep everyone comfortable?"*
+**What they're really thinking:** _"How do I keep everyone comfortable?"_
 
 Conflict means disconnection. Help them feel safe to exist.
 
@@ -557,11 +591,13 @@ Conflict means disconnection. Help them feel safe to exist.
 **Opening move:** Gentle energy. No pressure. Create space for them to emerge.
 
 **Power questions that hook Type 9s:**
+
 - "What's your take when you have time to think?"
 - "What do YOU actually want?"
 - "When do you feel most yourself?"
 
 **Body language that works:**
+
 - Relaxed posture
 - Gentle movements
 - Patient presence
@@ -571,13 +607,13 @@ Conflict means disconnection. Help them feel safe to exist.
 ✓ Give them time to respond  
 ✓ Ask their opinion specifically  
 ✓ Create comfortable silence  
-✓ Appreciate their calming presence  
+✓ Appreciate their calming presence
 
 **Connection killers:**
 ✗ Forcing quick decisions  
 ✗ Creating conflict  
 ✗ Ignoring their presence  
-✗ Aggressive energy  
+✗ Aggressive energy
 
 > **Finding Type 9s:** <a href="/enneagram-corner/enneagram-type-9">The invisible peacekeeper →</a>
 
@@ -588,6 +624,7 @@ Conflict means disconnection. Help them feel safe to exist.
 ### The 10-Second Read
 
 **Look for these instant tells:**
+
 1. **Energy level** - High (3,7,8) vs Low (4,5,9) vs Controlled (1,2,6)
 2. **Eye contact** - Intense (4,8) vs Minimal (5,9) vs Searching (1,2,3,6,7)
 3. **Physical space** - Invading (2,8) vs Protecting (5,6) vs Neutral (1,3,4,7,9)
@@ -596,6 +633,7 @@ Conflict means disconnection. Help them feel safe to exist.
 ### The Universal First Impression Hack
 
 **When in doubt:**
+
 1. Mirror their energy level
 2. Respect their space preferences
 3. Match their emotional temperature

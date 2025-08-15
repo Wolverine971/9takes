@@ -10,10 +10,13 @@ import { checkDemoTime } from '../../../utils/api';
 
 // Validation schemas
 const updateQuestionSchema = z.object({
-  questionId: z.string().transform(val => parseInt(val, 10)).refine(val => !isNaN(val), {
-    message: 'Invalid question ID'
-  }),
-  questionText: z.string().min(1).max(1000)
+	questionId: z
+		.string()
+		.transform((val) => parseInt(val, 10))
+		.refine((val) => !isNaN(val), {
+			message: 'Invalid question ID'
+		}),
+	questionText: z.string().min(1).max(1000)
 });
 
 /** @type {import('./$types').RequestHandler} */
@@ -50,7 +53,7 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 			logger.warn('Unauthorized question update attempt');
 			throw error(401, 'Unauthorized');
 		}
-		
+
 		const demo_time = await checkDemoTime();
 
 		const { data: user } = await supabase
@@ -68,7 +71,7 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 
 		const formData = await request.formData();
 		const body = Object.fromEntries(formData);
-		
+
 		// Validate request body
 		const validatedData = updateQuestionSchema.parse(body);
 		const { questionId, questionText } = validatedData;
@@ -77,7 +80,7 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 			questionId,
 			adminId: user.external_id
 		});
-		
+
 		await tagQuestion(questionText, questionId);
 
 		logger.info('Question tagged successfully', { questionId });

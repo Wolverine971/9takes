@@ -53,7 +53,11 @@
 			<MobileNav {navItems} {blogItems} />
 
 			<!-- Logo - centered -->
-			<a href="/" class="logo-link absolute left-1/2 -translate-x-1/2 transform" aria-label="Go to homepage">
+			<a
+				href="/"
+				class="logo-link absolute left-1/2 -translate-x-1/2 transform"
+				aria-label="Go to homepage"
+			>
 				<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
 			</a>
 
@@ -61,7 +65,12 @@
 			<div class="flex items-center gap-2">
 				{#if data?.user}
 					<AdminMessageReceiver user={data.user} />
-					<button type="button" on:click={goToAccount} class="account-button" aria-label="Go to account">
+					<button
+						type="button"
+						on:click={goToAccount}
+						class="account-button"
+						aria-label="Go to account"
+					>
 						<img src="/brand/account-icon2.png" alt="Account" width="30" height="30" />
 					</button>
 				{/if}
@@ -69,7 +78,11 @@
 		</div>
 	{:else}
 		<!-- Desktop Navigation -->
-		<nav class="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8" role="navigation" aria-label="Main navigation">
+		<nav
+			class="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8"
+			role="navigation"
+			aria-label="Main navigation"
+		>
 			<!-- Logo & Brand -->
 			<a href="/" class="logo-link" aria-label="Go to homepage">
 				<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
@@ -124,11 +137,7 @@
 								<ul id="blogMenu" class="dropdown-menu" use:onClickOutside={closeDropdown}>
 									{#each blogItems as { href, label }}
 										<li>
-											<a
-												{href}
-												class:active={$page.url.pathname === href}
-												on:click={closeDropdown}
-											>
+											<a {href} class:active={$page.url.pathname === href} on:click={closeDropdown}>
 												{label}
 											</a>
 										</li>
@@ -155,15 +164,18 @@
 				{#if data?.user}
 					<AdminMessageReceiver user={data.user} />
 					<a href="/account" class="account-button" aria-label="Go to account">
-						<img src="/brand/account-icon2.png" alt="Account" title="Account" width="30" height="30" />
+						<img
+							src="/brand/account-icon2.png"
+							alt="Account"
+							title="Account"
+							width="30"
+							height="30"
+						/>
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-					<a href="/login" class="btn btn-primary">
-						Login / Register
-					</a>
+					<a href="/login" class="btn btn-primary"> Login / Register </a>
 				{/if}
 			</div>
 		</nav>
 	{/if}
 </header>
-

@@ -23,6 +23,7 @@ What works for others might not work for you—and that's okay. Find YOUR approa
 ## Resource Tweets
 
 📚 Resources for addiction recovery:
+
 - [List relevant resources]
 - [Professional organizations]
 - [Helplines or support]
@@ -30,4 +31,5 @@ What works for others might not work for you—and that's okay. Find YOUR approa
 Your type matters, but support is available for everyone. 💙
 
 ## Hashtags to Use
+
 #Addiction #Recovery #12step #Sobriety #Healing #EnneagramMentalHealth #9takes

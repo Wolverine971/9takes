@@ -10,7 +10,6 @@
 
 	export let data: PageData;
 
-
 	// Question sorting functions
 	const sortFunctions = {
 		lastComment: (questions) => {
@@ -129,9 +128,7 @@
 			<div class="section-card">
 				<div class="questions-list">
 					{#each displayedQuestions as question}
-						<div
-							class="question-item {getQuestionBackground(question)}"
-						>
+						<div class="question-item {getQuestionBackground(question)}">
 							<h2 class="question-title">
 								{question.question_formatted || question.question}
 							</h2>
@@ -145,11 +142,7 @@
 										<span>Last Comment: {convertDateToReadable(question.last_comment_date)}</span>
 									{/if}
 								</div>
-								<button
-									type="button"
-									class="btn-action"
-									on:click={() => openModal(question)}
-								>
+								<button type="button" class="btn-action" on:click={() => openModal(question)}>
 									Details
 								</button>
 							</div>

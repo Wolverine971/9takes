@@ -8,6 +8,7 @@ How your personality affects your experience
 Swipe for insights ➡️"
 
 **Slides 2-10:** Each type with:
+
 - How this type might experience trauma and healing
 - Common challenges for this type
 - One specific tip or strategy
@@ -25,11 +26,13 @@ This isn't about putting yourself in a box—it's about understanding your uniqu
 ## Story Ideas
 
 ### Educational Series: "Trauma and healing by Type"
+
 - Quick tips for each type
 - Myth vs reality content
 - Resource sharing
 
 ### Community Engagement
+
 - Polls about experiences
 - Question stickers for support
 - Behind-the-scenes content about the topic

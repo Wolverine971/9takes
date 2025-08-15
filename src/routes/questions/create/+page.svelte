@@ -67,13 +67,13 @@
 	async function createQuestion() {
 		try {
 			loading = true;
-			
+
 			// Dynamically import html2canvas when needed
 			if (!html2canvas) {
 				const html2canvasModule = await import('html2canvas');
 				html2canvas = html2canvasModule.default;
 			}
-			
+
 			const questionNode = document.getElementById('question-pic');
 
 			// Get the computed styles of the original element
@@ -174,7 +174,7 @@
 			const html2canvasModule = await import('html2canvas');
 			html2canvas = html2canvasModule.default;
 		}
-		
+
 		const questionNode = document.getElementById('question-pic');
 
 		// Get the computed styles of the original element

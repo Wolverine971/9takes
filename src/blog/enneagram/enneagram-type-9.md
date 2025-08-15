@@ -193,6 +193,7 @@ The Nine's growth journey isn't about becoming louder or more aggressive. It's a
 When Nines integrate, they move toward the healthy aspects of Type 3, "The Achiever." This doesn't mean becoming workaholics or status-seekers. It means discovering that they have goals worth pursuing, opinions worth expressing, a self worth asserting.
 
 Integrated Nines learn to:
+
 - Set personal goals independent of others' needs
 - Take decisive action even when it might create conflict
 - Value their own contribution rather than just facilitating others'
@@ -239,7 +240,6 @@ Type 9s when asked about their inner world often say the following:
 <h2 id="experience">🤝 Enneagram Nine's Sharing Their Experience</h2>
 
 In this insightful video, Beatrice Chestnut moderates a panel of Enneagram Type 9 individuals who share their personal experiences and insights. This firsthand account offers valuable perspectives on the complex inner world of "The Peacemaker":
-
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/VJ3nZIXKvqc?si=8iVvz94DxQzFEPCl" title="Enneagram 9 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

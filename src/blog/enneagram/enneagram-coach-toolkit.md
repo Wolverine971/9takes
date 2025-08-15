@@ -1,5 +1,5 @@
 ---
-title: "Enneagram Coach Toolkit: Transform Clients with Type-Specific Homework"
+title: 'Enneagram Coach Toolkit: Transform Clients with Type-Specific Homework'
 description: "Master the art of Enneagram coaching with proven homework strategies that create breakthroughs. Decode each type's patterns and unlock real transformation."
 author: 'DJ Wayne'
 date: '2024-04-19'
@@ -35,47 +35,58 @@ Most coaches assign the same "observe your patterns" homework to everyone. Resul
 ### Type-Specific Homework That Creates Breakthroughs
 
 **[Type 1 - The Perfectionist](/enneagram-corner/enneagram-type-1)**
+
 - **Assignment**: Track 3 moments daily where you notice the urge to correct something. Don't fix it—just notice.
 - **Why it works**: Type 1s need to see their criticism pattern before they can choose differently.
 
-**[Type 2 - The Helper](/enneagram-corner/enneagram-type-2)**  
+**[Type 2 - The Helper](/enneagram-corner/enneagram-type-2)**
+
 - **Assignment**: Before saying "yes" to any request, pause for 10 seconds and ask "What do I need right now?"
 - **Why it works**: Creates space between their helping impulse and automatic response.
 
 **[Type 3 - The Achiever](/enneagram-corner/enneagram-type-3)**
+
 - **Assignment**: Spend 15 minutes daily doing something with zero productive outcome.
 - **Why it works**: Breaks their addiction to constant productivity and achievement.
 
 **[Type 4 - The Individualist](/enneagram-corner/enneagram-type-4)**
+
 - **Assignment**: When feeling misunderstood, write 3 things others might be experiencing in that moment.
 - **Why it works**: Shifts focus from their emotional intensity to broader perspective.
 
 **[Type 5 - The Investigator](/enneagram-corner/enneagram-type-5)**
+
 - **Assignment**: Share one half-formed thought daily with someone you trust.
 - **Why it works**: Challenges their need to have everything figured out before engaging.
 
 **[Type 6 - The Loyalist](/enneagram-corner/enneagram-type-6)**
+
 - **Assignment**: Make 3 small decisions daily without seeking reassurance.
 - **Why it works**: Builds trust in their own judgment and reduces anxiety loops.
 
 **[Type 7 - The Enthusiast](/enneagram-corner/enneagram-type-7)**
+
 - **Assignment**: Set a timer for 20 minutes and stay with one activity—no multitasking.
 - **Why it works**: Develops capacity to stay present instead of escaping to mental possibilities.
 
 **[Type 8 - The Challenger](/enneagram-corner/enneagram-type-8)**
+
 - **Assignment**: Ask "What are you feeling about this?" in 3 conversations before sharing your opinion.
 - **Why it works**: Develops emotional intelligence beyond their default control mode.
 
 **[Type 9 - The Peacemaker](/enneagram-corner/enneagram-type-9)**
+
 - **Assignment**: State one preference daily, even if it might create mild conflict.
 - **Why it works**: Strengthens their ability to show up authentically instead of merging.
 
 ## The 3-Phase Homework System That Transforms Patterns
 
 ### Phase 1: Pattern Recognition (Week 1-2)
+
 **Decode the unconscious behavior**
 
 Assign micro-observations that reveal their type's automatic responses:
+
 - Type 2s track every time they anticipate someone's need
 - Type 5s notice when they withdraw instead of engaging
 - Type 8s log moments of taking charge without being asked
@@ -83,19 +94,23 @@ Assign micro-observations that reveal their type's automatic responses:
 **Small experiment**: Have clients set 3 phone alarms daily. When it rings, they write down what type pattern they're in right now.
 
 ### Phase 2: Pattern Interruption (Week 3-4)
+
 **Break the automatic response**
 
 Once they see the pattern, assign tiny disruptions:
+
 - Type 1s practice saying "good enough" out loud
-- Type 6s wait 60 seconds before seeking reassurance  
+- Type 6s wait 60 seconds before seeking reassurance
 - Type 9s express one disagreement daily
 
 **Key insight**: The disruption must be small enough to actually do, but meaningful enough to feel uncomfortable.
 
 ### Phase 3: New Pattern Installation (Week 5-6)
+
 **Build healthier responses**
 
 Design exercises that strengthen their growth direction:
+
 - Type 3s practice vulnerability by sharing one failure
 - Type 4s engage in ordinary activities without making them special
 - Type 7s complete one thing fully before starting another
@@ -109,38 +124,38 @@ Design exercises that strengthen their growth direction:
 Each type resists homework differently:
 
 **Type 1**: "I'm not doing it perfectly, so why bother?"
-→ *Solution*: Emphasize progress over perfection
+→ _Solution_: Emphasize progress over perfection
 
 **Type 2**: "I'm too busy helping others"
-→ *Solution*: Frame self-work as helping others better
+→ _Solution_: Frame self-work as helping others better
 
 **Type 3**: "This isn't productive enough"
-→ *Solution*: Show how it leads to better performance
+→ _Solution_: Show how it leads to better performance
 
 **Type 4**: "This feels too ordinary"
-→ *Solution*: Let them customize it to feel authentic
+→ _Solution_: Let them customize it to feel authentic
 
 **Type 5**: "I need more information first"
-→ *Solution*: Set clear boundaries on research time
+→ _Solution_: Set clear boundaries on research time
 
 **Type 6**: "What if I do it wrong?"
-→ *Solution*: Provide detailed instructions and reassurance
+→ _Solution_: Provide detailed instructions and reassurance
 
 **Type 7**: "This is boring"
-→ *Solution*: Make it a game or add variety
+→ _Solution_: Make it a game or add variety
 
 **Type 8**: "No one tells me what to do"
-→ *Solution*: Let them design their own version
+→ _Solution_: Let them design their own version
 
 **Type 9**: "I forgot" (conflict avoidance)
-→ *Solution*: Connect it to their values and comfort
+→ _Solution_: Connect it to their values and comfort
 
 ### The 80/20 Rule of Enneagram Homework
 
 Focus on these high-impact areas for each type:
 
 - **Types 1, 3, 8**: Softening and vulnerability work
-- **Types 2, 6, 9**: Boundary and assertion work  
+- **Types 2, 6, 9**: Boundary and assertion work
 - **Types 4, 5, 7**: Presence and completion work
 
 ## How to Explain the Enneagram Without Losing People
@@ -192,6 +207,7 @@ Match your explanation to what they care about:
 ### Measuring Success
 
 Your homework is working when clients:
+
 - Report insights between sessions (not just during)
 - Start catching their patterns in real-time
 - Make different choices without prompting
@@ -233,6 +249,7 @@ Look for pattern interruption stories: "I noticed myself doing X and chose Y ins
 Yes! Have each type share their homework experiences. Type 4s often feel less alone, Type 3s get motivated by others' progress, and Type 2s love supporting the group.
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",

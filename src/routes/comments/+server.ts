@@ -8,14 +8,14 @@ import { checkDemoTime } from '../../utils/api';
 
 // Validation schemas
 const getCommentsSchema = z.object({
-  parentId: z.string().transform(Number),
-  type: z.enum(['question', 'comment']).default('question'),
-  range: z.string().transform(Number).default('0')
+	parentId: z.string().transform(Number),
+	type: z.enum(['question', 'comment']).default('question'),
+	range: z.string().transform(Number).default('0')
 });
 
 const postCommentSchema = z.object({
-  comment: z.string().min(1).max(5000),
-  comment_id: z.string().uuid()
+	comment: z.string().min(1).max(5000),
+	comment_id: z.string().uuid()
 });
 
 /** @type {import('./$types').RequestHandler} */
@@ -27,7 +27,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			type: url.searchParams.get('type') ?? 'question',
 			range: url.searchParams.get('range') ?? '0'
 		};
-		
+
 		const validatedParams = getCommentsSchema.parse(params);
 		const demo_time = await checkDemoTime();
 		const cookie = cookies.get('9tfingerprint');
@@ -80,7 +80,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			});
 			throw new Error('Unable to retrieve comments');
 		}
-		
+
 		if (!questionComments?.length) {
 			return json([]);
 		}
@@ -175,11 +175,11 @@ export const POST = withApiLogging(async ({ locals, request }) => {
 			logger.warn('Unauthorized comment attempt');
 			throw error(401, 'Unauthorized');
 		}
-		
+
 		const demo_time = await checkDemoTime();
 		const formData = await request.formData();
 		const body = Object.fromEntries(formData);
-		
+
 		// Validate request body
 		const validatedData = postCommentSchema.parse(body);
 		const { comment, comment_id } = validatedData;

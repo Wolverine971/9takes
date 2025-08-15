@@ -14,7 +14,7 @@ previewHtml: ''
 pic: 'enneagram-addiction-recovery'
 ---
 
-<!-- 
+<!--
 NOTES:
 - Cover both substance and behavioral addictions
 - Explain why each type develops specific addictions
@@ -40,6 +40,7 @@ This guide explores how addiction manifests in each Enneagram type, why certain 
 ### Why Personality Type Matters in Addiction
 
 Each Enneagram type uses addiction to:
+
 - **Escape their core fear**
 - **Avoid their core pain**
 - **Fulfill their core desire (artificially)**
@@ -64,6 +65,7 @@ Each Enneagram type uses addiction to:
 ### Common Addictions for Type 1s
 
 **Primary Addictions**:
+
 - Workaholism (most common)
 - Exercise addiction
 - Eating disorders (orthorexia, anorexia)
@@ -71,6 +73,7 @@ Each Enneagram type uses addiction to:
 - Alcohol (to relax the inner critic)
 
 **Secondary Patterns**:
+
 - Compulsive organizing/cleaning
 - Religious addiction
 - Self-improvement addiction
@@ -78,6 +81,7 @@ Each Enneagram type uses addiction to:
 ### Why Type 1s Become Addicted
 
 Type 1s use addiction to:
+
 - Silence the relentless inner critic
 - Achieve impossible standards
 - Release suppressed anger
@@ -96,21 +100,25 @@ Type 1s use addiction to:
 ### Recovery Strategies for Type 1s
 
 #### 1. Embrace "Progress Not Perfection"
+
 - Accept that recovery is messy
 - Celebrate small victories
 - Reframe "slips" as learning
 
 #### 2. Develop Self-Compassion
+
 - Daily self-forgiveness practice
 - Loving-kindness meditation
 - Inner critic dialogue work
 
 #### 3. Healthy Structure
+
 - Flexible routines (not rigid rules)
 - Harm reduction approach
 - Middle path philosophy
 
 #### 4. Type-Specific Support
+
 - Sponsors who model self-acceptance
 - Groups that embrace imperfection
 - Therapists who address perfectionism
@@ -118,18 +126,21 @@ Type 1s use addiction to:
 ### Relapse Prevention for Type 1s
 
 **Warning Signs**:
+
 - Increasing self-criticism
 - All-or-nothing thinking
 - Isolation due to shame
 - Rigid rule-making
 
 **Prevention Plan**:
+
 - Daily "good enough" practice
 - Accountability without judgment
 - Regular "play" time
 - Anger expression outlets
 
 ### Type 1 Recovery Mantra
+
 "I am perfectly imperfect. Recovery is about progress, not perfection. I choose self-compassion over self-criticism."
 
 ## Type 2: The Helper's Addictions
@@ -137,6 +148,7 @@ Type 1s use addiction to:
 ### Common Addictions for Type 2s
 
 **Primary Addictions**:
+
 - Codependency (relationship addiction)
 - Food (emotional eating)
 - Prescription medications (anxiety/pain)
@@ -144,6 +156,7 @@ Type 1s use addiction to:
 - Romance/love addiction
 
 **Secondary Patterns**:
+
 - Compulsive caretaking
 - Social media validation
 - People-pleasing addiction
@@ -151,6 +164,7 @@ Type 1s use addiction to:
 ### Why Type 2s Become Addicted
 
 Type 2s use addiction to:
+
 - Fill the emptiness from self-neglect
 - Manage anxiety about being unloved
 - Cope with suppressed needs
@@ -169,21 +183,25 @@ Type 2s use addiction to:
 ### Recovery Strategies for Type 2s
 
 #### 1. Radical Self-Care
+
 - Schedule "selfish" time daily
 - Practice receiving without giving
 - Develop personal interests
 
 #### 2. Codependency Recovery
+
 - CoDA meetings
 - Boundary setting practice
 - Detachment with love
 
 #### 3. Emotional Processing
+
 - Feel feelings without fixing
 - Grief work for lost self
 - Anger expression therapy
 
 #### 4. Type-Specific Support
+
 - Groups focused on self-love
 - Sponsors who model self-care
 - Therapy for childhood neglect
@@ -191,18 +209,21 @@ Type 2s use addiction to:
 ### Relapse Prevention for Type 2s
 
 **Warning Signs**:
+
 - Increased people-pleasing
 - Neglecting personal needs
 - Resentment building
 - Relationship drama
 
 **Prevention Plan**:
+
 - Daily needs check-in
 - Maintain personal boundaries
 - Regular alone time
 - Support network activation
 
 ### Type 2 Recovery Mantra
+
 "My needs matter. I can't give from an empty cup. Self-care is not selfish—it's necessary for my recovery."
 
 ## Type 3: The Achiever's Addictions
@@ -210,6 +231,7 @@ Type 2s use addiction to:
 ### Common Addictions for Type 3s
 
 **Primary Addictions**:
+
 - Workaholism (extremely common)
 - Stimulants (cocaine, Adderall)
 - Exercise addiction
@@ -217,6 +239,7 @@ Type 2s use addiction to:
 - Image management (surgery, shopping)
 
 **Secondary Patterns**:
+
 - Gambling (high-stakes)
 - Sex/porn (conquest)
 - Social media (image crafting)
@@ -224,6 +247,7 @@ Type 2s use addiction to:
 ### Why Type 3s Become Addicted
 
 Type 3s use addiction to:
+
 - Maintain peak performance
 - Escape feelings of inadequacy
 - Numb authentic emotions
@@ -242,21 +266,25 @@ Type 3s use addiction to:
 ### Recovery Strategies for Type 3s
 
 #### 1. Redefine Success
+
 - Values-based goals
 - Being over doing practice
 - Success in vulnerability
 
 #### 2. Slow Down
+
 - Meditation (non-goal oriented)
 - Mindfulness practices
 - Rest as achievement
 
 #### 3. Authentic Connection
+
 - Share failures in groups
 - Unmask with sponsor
 - Therapy for impostor syndrome
 
 #### 4. Type-Specific Support
+
 - Groups that value authenticity
 - Sponsors who see through image
 - Activities without competition
@@ -264,18 +292,21 @@ Type 3s use addiction to:
 ### Relapse Prevention for Type 3s
 
 **Warning Signs**:
+
 - Increasing performance pressure
 - Emotional disconnection
 - Image over authenticity
 - Burnout symptoms
 
 **Prevention Plan**:
+
 - Regular "failure" practice
 - Emotional check-ins
 - Authentic sharing commitment
 - Work-life balance
 
 ### Type 3 Recovery Mantra
+
 "I am valuable for who I am, not what I achieve. My worth is inherent. Authenticity is my new success."
 
 ## Type 4: The Individualist's Addictions
@@ -283,6 +314,7 @@ Type 3s use addiction to:
 ### Common Addictions for Type 4s
 
 **Primary Addictions**:
+
 - Alcohol/drugs (for emotional regulation)
 - Romantic fantasy addiction
 - Self-harm behaviors
@@ -290,6 +322,7 @@ Type 3s use addiction to:
 - Melancholy addiction
 
 **Secondary Patterns**:
+
 - Social media (comparison)
 - Shopping (unique items)
 - Emotional intensity addiction
@@ -297,6 +330,7 @@ Type 3s use addiction to:
 ### Why Type 4s Become Addicted
 
 Type 4s use addiction to:
+
 - Intensify or numb emotions
 - Feel special or understood
 - Escape ordinary reality
@@ -315,21 +349,25 @@ Type 4s use addiction to:
 ### Recovery Strategies for Type 4s
 
 #### 1. Emotional Regulation
+
 - DBT skills training
 - Emotion surfing practice
 - Routine as stability
 
 #### 2. Find Beauty in Ordinary
+
 - Gratitude practices
 - Mindfulness of simple pleasures
 - Community connection
 
 #### 3. Creative Recovery
+
 - Art as processing (not escape)
 - Structured creative time
 - Share creations vulnerably
 
 #### 4. Type-Specific Support
+
 - Groups that honor depth
 - Sponsors who balance validation/growth
 - Therapy for abandonment
@@ -337,18 +375,21 @@ Type 4s use addiction to:
 ### Relapse Prevention for Type 4s
 
 **Warning Signs**:
+
 - Romanticizing suffering
 - Isolation increasing
 - Emotional extremes
 - Identity crisis
 
 **Prevention Plan**:
+
 - Daily emotional balance
 - Connection commitment
 - Ordinary joy practice
 - Creative outlets
 
 ### Type 4 Recovery Mantra
+
 "I am extraordinary in my ordinariness. I can feel deeply without drowning. Connection heals abandonment."
 
 ## Type 5: The Investigator's Addictions
@@ -356,6 +397,7 @@ Type 4s use addiction to:
 ### Common Addictions for Type 5s
 
 **Primary Addictions**:
+
 - Internet/information addiction
 - Gaming addiction
 - Marijuana (for detachment)
@@ -363,6 +405,7 @@ Type 4s use addiction to:
 - Isolation addiction
 
 **Secondary Patterns**:
+
 - Pornography (non-relational)
 - Psychedelics (exploration)
 - Caffeine (mental stimulation)
@@ -370,6 +413,7 @@ Type 4s use addiction to:
 ### Why Type 5s Become Addicted
 
 Type 5s use addiction to:
+
 - Avoid overwhelming demands
 - Escape emotional/social needs
 - Maintain safe distance
@@ -388,21 +432,25 @@ Type 5s use addiction to:
 ### Recovery Strategies for Type 5s
 
 #### 1. Gradual Re-engagement
+
 - Small social commitments
 - Embodiment practices
 - Energy management
 
 #### 2. Knowledge to Wisdom
+
 - Apply learning to life
 - Share knowledge with others
 - Experiential learning
 
 #### 3. Connection Practice
+
 - Online groups initially
 - One-on-one sponsorship
 - Gradual vulnerability
 
 #### 4. Type-Specific Support
+
 - Respect for boundaries
 - Intellectual frameworks
 - Low-demand environments
@@ -410,18 +458,21 @@ Type 5s use addiction to:
 ### Relapse Prevention for Type 5s
 
 **Warning Signs**:
+
 - Increasing withdrawal
 - Neglecting basic needs
 - Emotional numbing
 - Hoarding behaviors
 
 **Prevention Plan**:
+
 - Daily connection practice
 - Body awareness routine
 - Social commitments
 - Need expression
 
 ### Type 5 Recovery Mantra
+
 "I have enough to share. Connection energizes rather than depletes. My needs are valid and meetable."
 
 ## Type 6: The Loyalist's Addictions
@@ -429,6 +480,7 @@ Type 5s use addiction to:
 ### Common Addictions for Type 6s
 
 **Primary Addictions**:
+
 - Anxiety medication dependence
 - Alcohol (liquid courage)
 - Conspiracy theories/news
@@ -436,6 +488,7 @@ Type 5s use addiction to:
 - Security seeking behaviors
 
 **Secondary Patterns**:
+
 - Caffeine (hypervigilance)
 - Relationship dependence
 - Authority/group addiction
@@ -443,6 +496,7 @@ Type 5s use addiction to:
 ### Why Type 6s Become Addicted
 
 Type 6s use addiction to:
+
 - Manage chronic anxiety
 - Feel temporarily secure
 - Escape mental loops
@@ -461,21 +515,25 @@ Type 6s use addiction to:
 ### Recovery Strategies for Type 6s
 
 #### 1. Internal Authority
+
 - Develop self-trust
 - Challenge catastrophizing
 - Inner guidance practice
 
 #### 2. Anxiety Management
+
 - Breathing techniques
 - Present-moment focus
 - Body-based grounding
 
 #### 3. Community Support
+
 - Consistent meeting attendance
 - Trustworthy sponsor
 - Group accountability
 
 #### 4. Type-Specific Support
+
 - Predictable structure
 - Evidence-based approaches
 - Gradual trust building
@@ -483,18 +541,21 @@ Type 6s use addiction to:
 ### Relapse Prevention for Type 6s
 
 **Warning Signs**:
+
 - Increasing doubt spirals
 - Testing behaviors
 - Authority conflicts
 - Catastrophic thinking
 
 **Prevention Plan**:
+
 - Daily trust practice
 - Anxiety toolkit
 - Support network
 - Reality checking
 
 ### Type 6 Recovery Mantra
+
 "I can trust myself to handle uncertainty. I have survived everything so far. Inner authority guides me."
 
 ## Type 7: The Enthusiast's Addictions
@@ -502,6 +563,7 @@ Type 6s use addiction to:
 ### Common Addictions for Type 7s
 
 **Primary Addictions**:
+
 - Multiple substance abuse
 - Activity addiction
 - Shopping/spending
@@ -509,6 +571,7 @@ Type 6s use addiction to:
 - Travel/experience addiction
 
 **Secondary Patterns**:
+
 - ADHD medication abuse
 - Gambling (excitement)
 - Sex addiction (novelty)
@@ -516,6 +579,7 @@ Type 6s use addiction to:
 ### Why Type 7s Become Addicted
 
 Type 7s use addiction to:
+
 - Escape emotional pain
 - Maintain high stimulation
 - Avoid boredom/limits
@@ -534,21 +598,25 @@ Type 7s use addiction to:
 ### Recovery Strategies for Type 7s
 
 #### 1. Learn to Stay
+
 - Distress tolerance skills
 - Sitting with discomfort
 - Depth over breadth
 
 #### 2. Process Pain
+
 - Grief work essential
 - Feel without escaping
 - Find joy through pain
 
 #### 3. Healthy Stimulation
+
 - Planned adventures
 - Creative projects
 - Meaningful variety
 
 #### 4. Type-Specific Support
+
 - Dynamic meetings
 - Engaging sponsor
 - Fun in recovery
@@ -556,18 +624,21 @@ Type 7s use addiction to:
 ### Relapse Prevention for Type 7s
 
 **Warning Signs**:
+
 - Increasing restlessness
 - Minimizing problems
 - Multiple escape plans
 - Avoiding feelings
 
 **Prevention Plan**:
+
 - Daily feeling check
 - Commitment practice
 - Pain processing
 - Structured freedom
 
 ### Type 7 Recovery Mantra
+
 "I can survive difficult feelings. True joy comes through, not around, pain. Limitations create freedom."
 
 ## Type 8: The Challenger's Addictions
@@ -575,6 +646,7 @@ Type 7s use addiction to:
 ### Common Addictions for Type 8s
 
 **Primary Addictions**:
+
 - Alcohol (control/release)
 - Rage addiction
 - Power/control addiction
@@ -582,6 +654,7 @@ Type 7s use addiction to:
 - Workaholism (domination)
 
 **Secondary Patterns**:
+
 - Steroids/testosterone
 - Aggressive sports
 - Sexual conquest
@@ -589,6 +662,7 @@ Type 7s use addiction to:
 ### Why Type 8s Become Addicted
 
 Type 8s use addiction to:
+
 - Maintain invulnerability
 - Release intense energy
 - Avoid feeling weak
@@ -607,21 +681,25 @@ Type 8s use addiction to:
 ### Recovery Strategies for Type 8s
 
 #### 1. Vulnerable Power
+
 - Strength through softness
 - Ask for help practice
 - Tears as courage
 
 #### 2. Healthy Intensity
+
 - Physical exercise outlets
 - Protective leadership
 - Fight for recovery
 
 #### 3. Trust Building
+
 - Choose strong sponsor
 - Men's/women's groups
 - Gradual emotional exposure
 
 #### 4. Type-Specific Support
+
 - Direct communication
 - Respect for strength
 - Challenge with love
@@ -629,18 +707,21 @@ Type 8s use addiction to:
 ### Relapse Prevention for Type 8s
 
 **Warning Signs**:
+
 - Increasing aggression
 - Denying all needs
 - Isolating from support
 - Control escalating
 
 **Prevention Plan**:
+
 - Daily vulnerability
 - Emotional expression
 - Trust exercises
 - Tender strength
 
 ### Type 8 Recovery Mantra
+
 "My vulnerability is my greatest strength. I am powerful enough to feel everything. Surrender is victory."
 
 ## Type 9: The Peacemaker's Addictions
@@ -648,6 +729,7 @@ Type 8s use addiction to:
 ### Common Addictions for Type 9s
 
 **Primary Addictions**:
+
 - Television/streaming
 - Food (comfort eating)
 - Marijuana (numbing)
@@ -655,6 +737,7 @@ Type 8s use addiction to:
 - Conflict avoidance
 
 **Secondary Patterns**:
+
 - Internet scrolling
 - Routine addiction
 - Relationship merging
@@ -662,6 +745,7 @@ Type 8s use addiction to:
 ### Why Type 9s Become Addicted
 
 Type 9s use addiction to:
+
 - Maintain inner peace
 - Avoid conflict/decisions
 - Numb difficult feelings
@@ -680,21 +764,25 @@ Type 9s use addiction to:
 ### Recovery Strategies for Type 9s
 
 #### 1. Wake Up
+
 - Energy building practices
 - Anger as life force
 - Priority clarification
 
 #### 2. Show Up
+
 - Consistent attendance
 - Voice in meetings
 - Take up space
 
 #### 3. Speak Up
+
 - Share opinions
 - Express needs
 - Healthy conflict
 
 #### 4. Type-Specific Support
+
 - Activating sponsor
 - Energizing meetings
 - Accountability structure
@@ -702,23 +790,27 @@ Type 9s use addiction to:
 ### Relapse Prevention for Type 9s
 
 **Warning Signs**:
+
 - Increasing sleepiness
 - Avoiding decisions
 - Merging behaviors
 - Passive aggression
 
 **Prevention Plan**:
+
 - Daily energy check
 - Decision practice
 - Anger expression
 - Self-assertion
 
 ### Type 9 Recovery Mantra
+
 "My presence matters. My voice deserves to be heard. I choose to wake up and engage with life fully."
 
 ## Universal Recovery Principles
 
 ### The Stages of Change
+
 1. **Precontemplation**: Not ready (type-specific denial)
 2. **Contemplation**: Considering (type fears change)
 3. **Preparation**: Planning (type-specific strategies)
@@ -728,21 +820,25 @@ Type 9s use addiction to:
 ### Building a Type-Aware Recovery Program
 
 #### 1. Assessment
+
 - Identify your type's patterns
 - Recognize specific triggers
 - Understand your "why"
 
 #### 2. Customized Plan
+
 - Type-specific meetings
 - Appropriate therapy
 - Tailored coping strategies
 
 #### 3. Support Network
+
 - Sponsor who gets your type
 - Recovery friends
 - Professional help
 
 #### 4. Ongoing Growth
+
 - Address core issues
 - Develop healthy type
 - Spiritual development
@@ -756,6 +852,7 @@ Type 9s use addiction to:
 ## Recovery Resources by Type
 
 ### Recommended Programs
+
 - **Type 1**: SMART Recovery, CoDA
 - **Type 2**: CoDA, Al-Anon, SLAA
 - **Type 3**: Workaholics Anonymous, AA
@@ -767,6 +864,7 @@ Type 9s use addiction to:
 - **Type 9**: Gentle activation groups
 
 ### Type-Specific Books
+
 - **Type 1**: "The Gifts of Imperfection"
 - **Type 2**: "Codependent No More"
 - **Type 3**: "Daring Greatly"
@@ -780,26 +878,31 @@ Type 9s use addiction to:
 ## Creating Your Recovery Plan
 
 ### Step 1: Honest Assessment
+
 - What are you really addicted to?
 - How does it serve your type?
 - What are you avoiding?
 
 ### Step 2: Type-Specific Strategy
+
 - Choose appropriate support
 - Identify your triggers
 - Plan healthy alternatives
 
 ### Step 3: Build Your Team
+
 - Find understanding professionals
 - Connect with recovery community
 - Educate loved ones
 
 ### Step 4: Address Core Issues
+
 - Work on type's core fear
 - Heal original wounds
 - Develop healthy coping
 
 ### Step 5: Maintain Growth
+
 - Regular type work
 - Ongoing support
 - Celebrate progress
@@ -807,6 +910,7 @@ Type 9s use addiction to:
 ## The Spiritual Dimension
 
 Each type has a spiritual path in recovery:
+
 - **Type 1**: Serenity and acceptance
 - **Type 2**: Humility and self-love
 - **Type 3**: Authenticity and being
@@ -828,6 +932,7 @@ The path may look different for each type, but the destination is the same: a li
 Recovery isn't just about stopping addictive behaviors—it's about becoming who you were always meant to be.
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -872,6 +977,7 @@ Recovery isn't just about stopping addictive behaviors—it's about becoming who
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

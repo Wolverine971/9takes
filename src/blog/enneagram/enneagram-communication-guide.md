@@ -707,15 +707,19 @@ Type 8s hear "you're weak" while you think you're being "considerate."
 ## Your 7-Day Communication Transformation
 
 ### Day 1-2: Pattern Recognition
+
 Track one difficult relationship. Notice their communication triggers and yours. When do conversations go sideways?
 
 ### Day 3-4: Type Detection
+
 Guess their type based on communication patterns. What frequency do they operate on?
 
 ### Day 5-6: Language Matching
+
 Try speaking their emotional language for ONE conversation. Notice their response.
 
 ### Day 7: Integration
+
 Reflect on what worked. Your relationships will shift when you stop expecting people to speak YOUR language.
 
 **Small experiment**: Next time someone "doesn't listen," ask yourself: "Am I speaking Type 1 to a Type 7? Type 8 to a Type 9?" Adjust your frequency.

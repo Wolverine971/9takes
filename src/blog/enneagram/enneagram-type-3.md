@@ -239,7 +239,7 @@ When Type 3s share their inner experience they often say things like the followi
 **On love**: "My wife once said, 'I don't care about your promotion. I just want you here, present, even if you're doing nothing.' I literally couldn't compute that."
 
 **On growth**: "Learning that I am not my achievements was like death and rebirth simultaneously. Terrifying and liberating in equal measure."
- 
+
 ### 🤝 In Their Own Words: The Three's Inner Experience
 
 Nothing illuminates the Type 3 experience like hearing directly from those who live it daily. In a revealing panel discussion facilitated by renowned Enneagram expert Beatrice Chestnut, several Type 3 individuals offered rare insights into their internal landscape and growth journey.
@@ -286,9 +286,6 @@ The panel emphasized how self-awareness practices, authentic relationships, and 
 <div class="quote-box">
 "I still achieve, but now it comes from wholeness rather than lack. That's the difference between achievement that depletes you and achievement that fulfills you."
 </div>
-
-
-
 
 </section>
 

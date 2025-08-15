@@ -21,6 +21,7 @@ get more niche-->
 </script>
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +73,7 @@ get more niche-->
   }
 }
 </script>
+
 </svelte:head>
 
 <p class="firstLetter">Ever felt like you're running on a hamster wheel of the same patterns and behaviors, no matter how hard you try to change? You're not alone. Welcome to the human condition.</p>

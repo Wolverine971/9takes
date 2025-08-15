@@ -20,6 +20,7 @@ internal and external conflict
 </script>
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,6 +72,7 @@ internal and external conflict
   }
 }
 </script>
+
 </svelte:head>
 
 <p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But as you might have heard, love isn't always a bed of roses. In fact, one of the most consistent findings in relationship research is that conflict is not just common but inevitable in even the healthiest relationships.</p>
@@ -496,8 +498,6 @@ For additional insights on personal growth that can enhance your conflict resolu
 - <a class="external-link" target="_blank" rel="noopener" href="https://www.washingtonpost.com/wellness/2024/05/30/relationships-conflict-management-settle-strategies/">Science-based tips to manage conflicts in relationships</a>
 - <a class="external-link" target="_blank" rel="noopener" href="https://link.springer.com/article/10.1007/s12671-020-01449-9">Mindfulness and Romantic Relationship Outcomes: the Mediating Role of Conflict Resolution Styles and Closeness</a>
 - <a class="external-link" target="_blank" rel="noopener" href="https://www.helpguide.org/relationships/communication/conflict-resolution-skills">Conflict Resolution Skills</a>
-
-
 
 <style lang="scss">
 </style>

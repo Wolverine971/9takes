@@ -48,7 +48,7 @@
 	// Enhanced search with abort controller for cancellable requests
 	const searchES = async (searchString: string) => {
 		searchError = '';
-		
+
 		if (!searchString.trim() || searchString.length < 2) {
 			options = [];
 			isSearching = false;
@@ -79,7 +79,7 @@
 
 			const respText = await response.text();
 			const result: any = deserialize(respText);
-			
+
 			// Handle the response based on its structure
 			let searchResults = [];
 			if (result?.type === 'success') {
@@ -92,16 +92,18 @@
 				console.warn('Unexpected search response format:', result);
 				searchResults = [];
 			}
-			
-			options = searchResults.map((item: any) => {
-				const question = item._source?.question || '';
-				const url = item._source?.url || '';
-				return {
-					text: question, // Use plain text for the text property
-					displayText: item._source?.highlighted || question, // HTML for display
-					value: url // Use URL as the value for simpler handling
-				};
-			}).filter(opt => opt.text && opt.value);
+
+			options = searchResults
+				.map((item: any) => {
+					const question = item._source?.question || '';
+					const url = item._source?.url || '';
+					return {
+						text: question, // Use plain text for the text property
+						displayText: item._source?.highlighted || question, // HTML for display
+						value: url // Use URL as the value for simpler handling
+					};
+				})
+				.filter((opt) => opt.text && opt.value);
 		} catch (error) {
 			// Only show error for real failures, not aborted requests
 			if (!(error instanceof DOMException && error.name === 'AbortError')) {
@@ -140,22 +142,30 @@
 	// Memoized button properties
 	$: buttonText = getButtonText(data, isMobile);
 	$: buttonDisabled = !data?.canAskQuestion && data?.user?.id;
-	$: placeholder = data?.user?.id 
-		? (isMobile ? 'Ask a question...' : 'Ask a question here') 
-		: (isMobile ? 'Search...' : 'Search questions...');
+	$: placeholder = data?.user?.id
+		? isMobile
+			? 'Ask a question...'
+			: 'Ask a question here'
+		: isMobile
+			? 'Search...'
+			: 'Search questions...';
 
 	function getButtonText(data: any, mobile: boolean): string {
 		if (!data?.user?.id) return mobile ? 'Sign up' : 'Sign up to ask';
-		return data?.canAskQuestion 
-			? (mobile ? 'Ask' : 'Ask question')
-			: (mobile ? 'Limit' : 'Limit reached');
+		return data?.canAskQuestion
+			? mobile
+				? 'Ask'
+				: 'Ask question'
+			: mobile
+				? 'Limit'
+				: 'Limit reached';
 	}
 
 	// Handle question selection
 	async function handleQuestionSelected(detail: any) {
 		question = '';
 		options = [];
-		
+
 		// Detail is now the URL directly
 		if (detail) {
 			try {
@@ -196,7 +206,7 @@
 				</div>
 			{/if}
 		</div>
-		
+
 		{#if searchError}
 			<div class="search-error" role="alert">
 				<span class="error-icon">!</span>
@@ -214,9 +224,17 @@
 	>
 		<span class="button-text">{buttonText}</span>
 		{#if !data?.user?.id}
-			<svg class="button-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-				<path d="M18 8L22 12L18 16"/>
-				<path d="M2 12H22"/>
+			<svg
+				class="button-icon"
+				width="16"
+				height="16"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2"
+			>
+				<path d="M18 8L22 12L18 16" />
+				<path d="M2 12H22" />
 			</svg>
 		{/if}
 	</button>
@@ -227,7 +245,7 @@
 	$breakpoint-mobile: 768px;
 	$transition-fast: 0.2s ease;
 	$transition-standard: 0.3s ease;
-	
+
 	.search-form {
 		display: flex;
 		gap: 1rem;
@@ -266,7 +284,9 @@
 	}
 
 	@keyframes spin {
-		to { transform: rotate(360deg); }
+		to {
+			transform: rotate(360deg);
+		}
 	}
 
 	.search-error {
@@ -333,12 +353,7 @@
 			left: -100%;
 			width: 100%;
 			height: 100%;
-			background: linear-gradient(
-				90deg,
-				transparent,
-				rgba(255, 255, 255, 0.2),
-				transparent
-			);
+			background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
 			transition: left 0.5s ease;
 		}
 

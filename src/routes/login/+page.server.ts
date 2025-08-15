@@ -10,8 +10,8 @@ import { PRIVATE_ADMIN_EMAIL } from '$env/static/private';
 
 // Validation schema
 const loginSchema = z.object({
-  email: z.string().email('Invalid email address'),
-  password: z.string().min(1, 'Password is required')
+	email: z.string().email('Invalid email address'),
+	password: z.string().min(1, 'Password is required')
 });
 
 export const load: PageServerLoad = async (event) => {
@@ -54,10 +54,10 @@ export const actions: Actions = {
 				});
 			}
 
-			logger.info('Login successful', { 
-				email, 
+			logger.info('Login successful', {
+				email,
 				userId: data.user?.id,
-				isAdmin: email === PRIVATE_ADMIN_EMAIL 
+				isAdmin: email === PRIVATE_ADMIN_EMAIL
 			});
 
 			if (email === PRIVATE_ADMIN_EMAIL) {

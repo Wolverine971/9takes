@@ -3,13 +3,17 @@
 **Based on draft notes from:** `src/blog/enneagram/drafts/positive-self-talk.md`
 
 ## Proposed Title
+
 "The Enneagram Guide to Positive Self-Talk: Rewiring Your Inner Voice by Type"
 
 ## Subtitle
+
 "Transform your relationship with yourself through type-specific affirmations, self-compassion practices, and cognitive reframing techniques"
 
 ## User's Existing Notes Integration
+
 The draft contains excellent type-specific questions and frameworks:
+
 - Self-compassion practices for Type 1 (3 daily practices, 4 key insights, 5 common mistakes)
 - Emotional resilience affirmations for Type 2 (3 daily affirmations, 4 benefits, 5 supporting habits)
 - Assertive communication for Type 3 (4 development steps, 3 strategy examples, 5 critical reasons)
@@ -18,6 +22,7 @@ The draft contains excellent type-specific questions and frameworks:
 ## Expanded Outline
 
 ### Introduction: The Inner Critic vs. The Inner Ally
+
 - How each Enneagram type has a different "inner critic"
 - The cost of negative self-talk by type
 - Introduction to type-specific positive self-talk strategies
@@ -26,11 +31,13 @@ The draft contains excellent type-specific questions and frameworks:
 ### Part I: Understanding Your Type's Inner Voice Patterns
 
 #### Chapter 1: The Three Centers and Self-Talk
+
 - **Body Types (8, 9, 1)**: Anger-based inner criticism
-- **Heart Types (2, 3, 4)**: Shame-based inner criticism  
+- **Heart Types (2, 3, 4)**: Shame-based inner criticism
 - **Head Types (5, 6, 7)**: Fear-based inner criticism
 
 #### Chapter 2: Type-Specific Inner Critic Patterns
+
 - Type 1: "You're not good enough" - perfectionist inner critic
 - Type 2: "You're selfish" - martyrdom inner critic
 - Type 3: "You're failing" - performance inner critic
@@ -44,13 +51,17 @@ The draft contains excellent type-specific questions and frameworks:
 ### Part II: Type-Specific Positive Self-Talk Strategies
 
 #### Type 1: Cultivating Self-Compassion to Counteract Critical Thoughts
+
 **Integration of user's notes:**
+
 - **3 Daily Self-Compassion Practices:**
+
   1. Morning self-forgiveness ritual
   2. "Good enough" decision-making practice
   3. Evening progress acknowledgment (not perfection)
 
 - **4 Key Self-Compassion Insights for Type 1s:**
+
   1. Perfection is the enemy of progress
   2. Mistakes are data, not character flaws
   3. Self-criticism doesn't improve performance
@@ -64,18 +75,23 @@ The draft contains excellent type-specific questions and frameworks:
   5. Using shame as motivation
 
 **Specific Affirmations:**
+
 - "I am learning and growing with each experience"
 - "Progress matters more than perfection"
 - "My worth isn't determined by my mistakes"
 
 #### Type 2: Enhancing Emotional Resilience Through Self-Care Affirmations
+
 **Integration of user's notes:**
+
 - **3 Daily Resilience Affirmations:**
+
   1. "My needs matter and deserve attention"
   2. "I can love others without sacrificing myself"
   3. "Receiving support makes me stronger, not weaker"
 
 - **4 Benefits of Affirmations for Type 2s:**
+
   1. Reduces caregiver burnout
   2. Improves boundary setting
   3. Enhances authentic relationships
@@ -89,14 +105,18 @@ The draft contains excellent type-specific questions and frameworks:
   5. Support-seeking exercises
 
 #### Type 3: Developing Assertive Self-Worth Beyond Achievement
+
 **Integration of user's notes:**
+
 - **4 Steps to Develop Authentic Self-Talk:**
+
   1. Identify achievement-based self-worth patterns
   2. Practice being-based affirmations
   3. Develop failure-resilience language
   4. Create authentic success metrics
 
 - **3 Assertive Communication Strategies:**
+
   1. "I am valuable beyond my accomplishments"
   2. "My worth isn't tied to others' approval"
   3. "I can fail and still be successful"
@@ -109,13 +129,17 @@ The draft contains excellent type-specific questions and frameworks:
   5. Develops genuine self-confidence
 
 #### Type 4: Fostering Emotional Stability Through Balanced Internal Dialogue
+
 **Integration of user's notes:**
+
 - **3 Daily Stability Routines:**
+
   1. Morning emotional temperature check
   2. Afternoon grounding affirmations
   3. Evening gratitude for ordinary moments
 
 - **4 Benefits of Positive Internal Dialogue:**
+
   1. Reduces emotional volatility
   2. Improves self-acceptance
   3. Enhances creative expression
@@ -129,13 +153,17 @@ The draft contains excellent type-specific questions and frameworks:
   5. "I am enough, right now"
 
 #### Type 5: Encouraging Engagement and Reducing Withdrawal Self-Talk
+
 **Integration of user's notes:**
+
 - **3 Engagement-Encouraging Activities:**
+
   1. Social energy tracking and planning
   2. Competence affirmations before interactions
   3. Connection appreciation practice
 
 - **4 Strategies to Overcome Withdrawal:**
+
   1. Reframe social interaction as learning
   2. Use competence-building language
   3. Practice abundance mindset affirmations
@@ -149,13 +177,17 @@ The draft contains excellent type-specific questions and frameworks:
   5. Creates support networks
 
 #### Type 6: Building Confidence in Self-Trust and Decision-Making
+
 **Integration of user's notes:**
+
 - **3 Confidence-Building Habits:**
+
   1. Daily decision wins acknowledgment
   2. Inner authority strengthening affirmations
   3. Anxiety vs. intuition distinction practice
 
 - **4 Decision-Making Support Tools:**
+
   1. Past success reminder cards
   2. Trusted advisor internal dialogue
   3. Fear vs. wisdom evaluation framework
@@ -169,13 +201,17 @@ The draft contains excellent type-specific questions and frameworks:
   5. "What feels aligned with my values?"
 
 #### Type 7: Emphasizing Contentment to Balance Experience-Seeking
+
 **Integration of user's notes:**
+
 - **3 Contentment Cultivation Practices:**
+
   1. Present moment appreciation affirmations
   2. Depth over breadth mantras
   3. Satisfaction inventory exercises
 
 - **4 Benefits of Balanced Pursuit:**
+
   1. Reduces anxiety and restlessness
   2. Improves relationship depth
   3. Enhances experience quality
@@ -189,13 +225,17 @@ The draft contains excellent type-specific questions and frameworks:
   5. Settling → "Contentment is active, not passive"
 
 #### Type 8: Reinforcing Patience and Vulnerability in Self-Talk
+
 **Integration of user's notes:**
+
 - **3 Daily Patience Exercises:**
+
   1. Strength through softness affirmations
   2. Vulnerable courage self-talk
   3. Power through connection mantras
 
 - **4 Benefits of Patient Understanding:**
+
   1. Improves leadership effectiveness
   2. Builds deeper relationships
   3. Reduces conflict and stress
@@ -209,13 +249,17 @@ The draft contains excellent type-specific questions and frameworks:
   5. Reflect on interaction outcomes
 
 #### Type 9: Promoting Assertiveness and Self-Realization
+
 **Integration of user's notes:**
+
 - **3 Assertiveness Techniques:**
+
   1. "My voice matters" daily practice
   2. Opinion sharing exercises
   3. Boundary setting affirmations
 
 - **4 Benefits of Assertiveness:**
+
   1. Prevents resentment buildup
   2. Improves relationship authenticity
   3. Enhances self-respect
@@ -231,30 +275,35 @@ The draft contains excellent type-specific questions and frameworks:
 ### Part III: Implementation and Integration
 
 #### Chapter 3: Building Your Personal Practice
+
 - Creating type-specific daily routines
 - Tracking progress and adjustments
 - Handling setbacks and resistance
 - Building accountability systems
 
 #### Chapter 4: Advanced Techniques
+
 - Integration with therapy and coaching
 - Using positive self-talk in relationships
 - Workplace applications
 - Crisis and stress management
 
 #### Chapter 5: Growth and Evolution
+
 - How self-talk changes as you develop
 - Moving toward health vs. stress patterns
 - Supporting others in their self-talk journey
 - Long-term maintenance strategies
 
 ### Conclusion: Your Inner Ally Awakened
+
 - Recap of type-specific strategies
 - The compound effect of positive self-talk
 - Call to action for implementation
 - Resources for continued growth
 
 ### Appendices
+
 - Type-specific affirmation cards
 - Daily practice templates
 - Troubleshooting common challenges

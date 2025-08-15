@@ -11,29 +11,35 @@
 {#if subsection === 'overview'}
 	<BlogPageHead
 		data={{
-			title: `9takes- Overview of the Enneagram System`,
-			description: 'Describing the basics of the Enneagram system and its applications.',
+			title: `Master the Enneagram: The Complete Psychology Framework | 9takes`,
+			description:
+				'Discover why millions use the Enneagram to decode human behavior. From childhood wounds to adult patterns, master the system that transforms self-understanding.',
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
 			loc: 'https://9takes.com/enneagram-corner/subtopic/overview',
-			lastmod: '2024-05-09',
+			lastmod: '2025-08-15',
 			blog: true,
 			pic: ''
 		}}
 		{slug}
 	/>
 	<header>
-		<h1>Understanding the Enneagram</h1>
+		<h1>The Enneagram: Your Operating System Decoded</h1>
 	</header>
 
 	<main>
 		<section id="introduction">
-			<p>The Enneagram is a personality system that describes nine distinct personality types.</p>
 			<p>
-				Each has its own unique set of motivations, fears, and behavioral patterns. This subsection
-				is dedicated to providing a foundational understanding of the Enneagram system and its
-				applications.
+				<strong>You've been running on autopilot your entire life.</strong> Every reaction, every decision,
+				every relationship pattern — they're all driven by an invisible operating system you never chose
+				to install.
+			</p>
+			<p>
+				The Enneagram reveals this hidden code. It's not just another personality test — it's a map
+				of your psychological DNA, showing exactly why you sabotage yourself in predictable ways and
+				how to finally break free. Master this framework, and you'll understand people at levels
+				they don't even understand themselves.
 			</p>
 		</section>
 
@@ -490,33 +496,34 @@
 {#if subsection === 'resources'}
 	<BlogPageHead
 		data={{
-			title: `9takes- Enneagram Resources`,
+			title: `Essential Enneagram Resources: Tools, Tests & Training | 9takes`,
 			description:
-				'Various resources for those interested in the Enneagram and personality theory and its applications.',
+				'Cut through the noise. Access the best Enneagram tests, books, tools, and training. Curated resources for serious students of personality psychology.',
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
 			loc: 'https://9takes.com/enneagram-corner/subtopic/resources',
-			lastmod: '2024-05-09',
+			lastmod: '2025-08-15',
 			blog: true,
 			pic: 'greek-dude-reading-book'
 		}}
 		{slug}
 	/>
 	<header>
-		<h1>The Enneagram Resources</h1>
+		<h1>Resources That Actually Work (We Tested Everything)</h1>
 	</header>
 
 	<main>
 		<section id="introduction">
 			<p>
-				Exploring the wealth of available Enneagram resources can help you deepen your understanding
-				of this powerful personality framework and its practical applications in various areas of
-				life.
+				<strong>90% of Enneagram content is garbage.</strong> Surface-level buzzfeed quizzes, Instagram
+				infographics that oversimplify, books that contradict each other. We've sorted through it all
+				so you don't have to.
 			</p>
 			<p>
-				This subsection is dedicated to providing a curated list of high-quality Enneagram books,
-				courses, workshops, podcasts, and online communities to support your learning journey.
+				These are the resources that pass our test: scientifically grounded, practically useful, and
+				actually accurate. No fluff, no mysticism, just tools that deliver real psychological
+				insight.
 			</p>
 		</section>
 
@@ -552,31 +559,30 @@
 		</section>
 
 		<section id="conclusion">
-			<h2>Conclusion</h2>
+			<h2>Skip the Beginner Mistakes</h2>
 			<p>
-				Whether you're new to the Enneagram or a seasoned practitioner, the resources featured in
-				this subsection can help you expand your knowledge, deepen your self-awareness, and apply
-				the Enneagram more effectively in your personal and professional life.
+				Most people waste months on bad tests, contradictory books, and surface-level content. <strong
+					>Start with resources that actually deliver results.</strong
+				> We've done the research, tested the tools, and validated the frameworks.
 			</p>
 			<p>
-				We encourage you to explore these resources and find the ones that resonate with your
-				learning style and goals.
+				Our curated collection includes professional-grade assessments, evidence-based books, and
+				advanced training programs. Stop wasting time on personality astrology. Get the real tools.
 			</p>
 		</section>
 
 		<section id="related-subsections">
-			<h2>Related Subsections</h2>
+			<h2>Apply Your Knowledge</h2>
 			<ul>
-				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
+				<li><a href="/enneagram-corner/subtopic/overview">🎓 Start With Core Theory</a></li>
+				<li><a href="/enneagram-corner/subtopic/nine-types">🔬 Study All 9 Types</a></li>
 				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
-					>
+					<a href="/enneagram-corner/subtopic/development">🚀 Apply to Personal Growth</a>
 				</li>
 				<li>
-					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
+					<a href="/enneagram-corner/subtopic/relationships">💕 Transform Your Relationships</a>
 				</li>
-				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
+				<li><a href="/enneagram-corner/subtopic/workplace">💼 Optimize Your Career</a></li>
 			</ul>
 		</section>
 
@@ -593,29 +599,33 @@
 {#if subsection === 'situational'}
 	<BlogPageHead
 		data={{
-			title: `9takes- Using the Enneagram in specific situations and scenarios`,
-			description: 'Blogs and listicles that explore Enneagram types in specific situations.',
+			title: `Real-World Type Behaviors: How Each Type Actually Shows Up | 9takes`,
+			description:
+				'See the types in action. From first dates to job interviews, from parties to panic attacks — understand exactly how each type behaves in real situations.',
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
 			loc: 'https://9takes.com/enneagram-corner/subtopic/situational',
-			lastmod: '2024-05-09',
+			lastmod: '2025-08-15',
 			blog: true,
 			pic: 'greek-statue-flex'
 		}}
 		{slug}
 	/>
 	<header>
-		<h1>The Enneagram Types in Specific Situations</h1>
+		<h1>The Types in the Wild: Real Situations, Real Behaviors</h1>
 	</header>
 
 	<main>
 		<section id="introduction">
-			<p>Each Enneagram type behaves and reacts in situations differently.</p>
 			<p>
-				Here we dive into navigating scenarios and give tips for improving communication and
-				collaboration. This subsection explores the unique ways in which each Enneagram type
-				approaches stress, conflict, decision-making, and other common situations.
+				<strong>Theory is useless without application.</strong> You can memorize all nine types, but
+				can you spot them at a party? In a meeting? During a crisis? On a first date?
+			</p>
+			<p>
+				These guides show you exactly how each type behaves in specific, real-world situations. No
+				abstract theory — just concrete patterns you'll recognize immediately. Learn to read people
+				like a book in any scenario.
 			</p>
 		</section>
 
@@ -651,31 +661,30 @@
 		</section>
 
 		<section id="conclusion">
-			<h2>Conclusion</h2>
+			<h2>Become a Human Behavior Expert</h2>
 			<p>
-				By gaining a deeper understanding of how each Enneagram type navigates specific situations,
-				you can develop greater self-awareness, empathy, and adaptability in your personal and
-				professional life.
+				Imagine walking into any room and instantly understanding everyone's motivations, fears, and
+				likely behaviors. <strong>This isn't mind reading — it's pattern recognition.</strong>
 			</p>
 			<p>
-				We invite you to explore the articles in this subsection to learn more about leveraging your
-				Enneagram type's strengths and managing its challenges in a variety of contexts.
+				Our situational guides train you to spot types in action, predict their responses, and adapt
+				your approach accordingly. Whether you're dating, managing, selling, or just trying to
+				understand people better, these are your field guides to human behavior.
 			</p>
 		</section>
 
 		<section id="related-subsections">
-			<h2>Related Subsections</h2>
+			<h2>Master Every Domain</h2>
 			<ul>
-				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
+				<li><a href="/enneagram-corner/subtopic/overview">🧠 Learn the Psychology</a></li>
+				<li><a href="/enneagram-corner/subtopic/nine-types">👥 Understand All Types</a></li>
 				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
-					>
+					<a href="/enneagram-corner/subtopic/development">🎯 Apply to Yourself</a>
 				</li>
 				<li>
-					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
+					<a href="/enneagram-corner/subtopic/relationships">❤️ Navigate Relationships</a>
 				</li>
-				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
+				<li><a href="/enneagram-corner/subtopic/workplace">💼 Excel Professionally</a></li>
 			</ul>
 		</section>
 

@@ -1,62 +1,51 @@
 {
-  "title": "The Enneagram Guide to Addiction Recovery",
-  "slug": "enneagram-addiction-recovery-guide",
-  "category": "mental-health",
-  "primaryAudience": {
-    "name": "People in recovery or supporting someone in recovery",
-    "description": "People interested in addiction recovery with Enneagram awareness",
-    "demographics": {
-      "ageRange": "25-55",
-      "interests": [
-        "enneagram",
-        "mental health",
-        "addiction",
-        "recovery",
-        "12-step",
-        "sobriety",
-        "healing"
-      ],
-      "psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
-    }
-  },
-  "tags": [
-    "enneagram",
-    "mental-health",
-    "addiction",
-    "recovery",
-    "12-step",
-    "sobriety",
-    "healing"
-  ],
-  "painPoints": [
-    "Struggling with recovery",
-    "Understanding addiction patterns",
-    "Finding personalized recovery approaches"
-  ],
-  "topicsAddressed": [
-    "How each Enneagram type experiences addiction recovery",
-    "Type-specific strategies for addiction recovery",
-    "Practical tools and resources",
-    "When to seek professional help"
-  ],
-  "seo": {
-    "keywords": [
-      "enneagram addiction recovery",
-      "addiction recovery by personality type"
-    ],
-    "targetQueries": [
-      "how does enneagram affect addiction recovery",
-      "addiction recovery help for my type"
-    ]
-  },
-  "contentGoals": [
-    "Provide type-specific guidance for addiction recovery",
-    "Build understanding and reduce stigma",
-    "Connect people with appropriate resources"
-  ],
-  "socialMediaFocus": {
-    "twitter": "Educational content about addiction recovery and type-specific tips",
-    "instagram": "Visual guides and supportive content about addiction recovery",
-    "reddit": "Community support and resource sharing in relevant subreddits"
-  }
+	"title": "The Enneagram Guide to Addiction Recovery",
+	"slug": "enneagram-addiction-recovery-guide",
+	"category": "mental-health",
+	"primaryAudience": {
+		"name": "People in recovery or supporting someone in recovery",
+		"description": "People interested in addiction recovery with Enneagram awareness",
+		"demographics": {
+			"ageRange": "25-55",
+			"interests": [
+				"enneagram",
+				"mental health",
+				"addiction",
+				"recovery",
+				"12-step",
+				"sobriety",
+				"healing"
+			],
+			"psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
+		}
+	},
+	"tags": ["enneagram", "mental-health", "addiction", "recovery", "12-step", "sobriety", "healing"],
+	"painPoints": [
+		"Struggling with recovery",
+		"Understanding addiction patterns",
+		"Finding personalized recovery approaches"
+	],
+	"topicsAddressed": [
+		"How each Enneagram type experiences addiction recovery",
+		"Type-specific strategies for addiction recovery",
+		"Practical tools and resources",
+		"When to seek professional help"
+	],
+	"seo": {
+		"keywords": ["enneagram addiction recovery", "addiction recovery by personality type"],
+		"targetQueries": [
+			"how does enneagram affect addiction recovery",
+			"addiction recovery help for my type"
+		]
+	},
+	"contentGoals": [
+		"Provide type-specific guidance for addiction recovery",
+		"Build understanding and reduce stigma",
+		"Connect people with appropriate resources"
+	],
+	"socialMediaFocus": {
+		"twitter": "Educational content about addiction recovery and type-specific tips",
+		"instagram": "Visual guides and supportive content about addiction recovery",
+		"reddit": "Community support and resource sharing in relevant subreddits"
+	}
 }

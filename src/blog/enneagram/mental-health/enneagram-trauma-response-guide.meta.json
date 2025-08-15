@@ -1,60 +1,39 @@
 {
-  "title": "Understanding Trauma Responses Through the Enneagram",
-  "slug": "enneagram-trauma-response-guide",
-  "category": "mental-health",
-  "primaryAudience": {
-    "name": "Trauma survivors and their supporters",
-    "description": "People interested in trauma and healing with Enneagram awareness",
-    "demographics": {
-      "ageRange": "25-55",
-      "interests": [
-        "enneagram",
-        "mental health",
-        "trauma",
-        "PTSD",
-        "healing",
-        "recovery"
-      ],
-      "psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
-    }
-  },
-  "tags": [
-    "enneagram",
-    "mental-health",
-    "trauma",
-    "PTSD",
-    "healing",
-    "recovery"
-  ],
-  "painPoints": [
-    "Trauma symptoms",
-    "Feeling stuck in trauma",
-    "Understanding trauma responses"
-  ],
-  "topicsAddressed": [
-    "How each Enneagram type experiences trauma and healing",
-    "Type-specific strategies for trauma and healing",
-    "Practical tools and resources",
-    "When to seek professional help"
-  ],
-  "seo": {
-    "keywords": [
-      "enneagram trauma and healing",
-      "trauma and healing by personality type"
-    ],
-    "targetQueries": [
-      "how does enneagram affect trauma and healing",
-      "trauma and healing help for my type"
-    ]
-  },
-  "contentGoals": [
-    "Provide type-specific guidance for trauma and healing",
-    "Build understanding and reduce stigma",
-    "Connect people with appropriate resources"
-  ],
-  "socialMediaFocus": {
-    "twitter": "Educational content about trauma and healing and type-specific tips",
-    "instagram": "Visual guides and supportive content about trauma and healing",
-    "reddit": "Community support and resource sharing in relevant subreddits"
-  }
+	"title": "Understanding Trauma Responses Through the Enneagram",
+	"slug": "enneagram-trauma-response-guide",
+	"category": "mental-health",
+	"primaryAudience": {
+		"name": "Trauma survivors and their supporters",
+		"description": "People interested in trauma and healing with Enneagram awareness",
+		"demographics": {
+			"ageRange": "25-55",
+			"interests": ["enneagram", "mental health", "trauma", "PTSD", "healing", "recovery"],
+			"psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
+		}
+	},
+	"tags": ["enneagram", "mental-health", "trauma", "PTSD", "healing", "recovery"],
+	"painPoints": ["Trauma symptoms", "Feeling stuck in trauma", "Understanding trauma responses"],
+	"topicsAddressed": [
+		"How each Enneagram type experiences trauma and healing",
+		"Type-specific strategies for trauma and healing",
+		"Practical tools and resources",
+		"When to seek professional help"
+	],
+	"seo": {
+		"keywords": ["enneagram trauma and healing", "trauma and healing by personality type"],
+		"targetQueries": [
+			"how does enneagram affect trauma and healing",
+			"trauma and healing help for my type"
+		]
+	},
+	"contentGoals": [
+		"Provide type-specific guidance for trauma and healing",
+		"Build understanding and reduce stigma",
+		"Connect people with appropriate resources"
+	],
+	"socialMediaFocus": {
+		"twitter": "Educational content about trauma and healing and type-specific tips",
+		"instagram": "Visual guides and supportive content about trauma and healing",
+		"reddit": "Community support and resource sharing in relevant subreddits"
+	}
 }

@@ -30,27 +30,27 @@
 		border-radius: 0.25rem;
 		min-height: 3rem;
 	}
-	
+
 	.skeleton-content {
 		flex: 1;
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
 	}
-	
+
 	.skeleton-meta {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
 		flex-shrink: 0;
 	}
-	
+
 	.skeleton-comments {
 		display: flex;
 		align-items: center;
 		gap: 0.25rem;
 	}
-	
+
 	@media (max-width: 576px) {
 		.skeleton-meta {
 			flex-direction: column;

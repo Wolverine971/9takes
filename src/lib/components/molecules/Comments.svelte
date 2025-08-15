@@ -134,7 +134,10 @@
 			{#if initialLoading && _comments.length === 0}
 				<div class="space-y-4 py-4">
 					{#each Array(3) as _, i}
-						<div class="rounded-lg bg-white/80 p-4 shadow-sm" in:fade={{ duration: 300, delay: i * 100 }}>
+						<div
+							class="rounded-lg bg-white/80 p-4 shadow-sm"
+							in:fade={{ duration: 300, delay: i * 100 }}
+						>
 							<div class="flex gap-4">
 								<SkeletonLoader variant="circular" width={32} height={32} />
 								<div class="flex-1">
@@ -152,9 +155,7 @@
 				<div bind:this={bottomSentinel} class="my-4">
 					{#if loading && !initialLoading}
 						<div class="flex justify-center py-4">
-							<Spinner size="md" color="primary">
-								Loading more comments...
-							</Spinner>
+							<Spinner size="md" color="primary">Loading more comments...</Spinner>
 						</div>
 					{/if}
 				</div>

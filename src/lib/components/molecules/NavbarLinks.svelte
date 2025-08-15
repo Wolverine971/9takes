@@ -98,9 +98,13 @@
 				<div class="subnav-content">
 					<a href="/enneagram-corner/mental-health">Mental Health Hub</a>
 					<a href="/enneagram-corner/enneagram-and-mental-illness">Mental Illness Guide</a>
-					<a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide">Anxiety & Disorders</a>
+					<a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
+						>Anxiety & Disorders</a
+					>
 					<a href="/enneagram-corner/mental-health/enneagram-therapy-guide">Therapy Guide</a>
-					<a href="/enneagram-corner/mental-health/enneagram-crisis-management-guide">Crisis Support</a>
+					<a href="/enneagram-corner/mental-health/enneagram-crisis-management-guide"
+						>Crisis Support</a
+					>
 				</div>
 			</div>
 			<div class="subnav">

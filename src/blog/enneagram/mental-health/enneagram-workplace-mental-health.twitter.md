@@ -23,6 +23,7 @@ What works for others might not work for you—and that's okay. Find YOUR approa
 ## Resource Tweets
 
 📚 Resources for workplace wellbeing:
+
 - [List relevant resources]
 - [Professional organizations]
 - [Helplines or support]
@@ -30,4 +31,5 @@ What works for others might not work for you—and that's okay. Find YOUR approa
 Your type matters, but support is available for everyone. 💙
 
 ## Hashtags to Use
+
 #Workplace #Burnout #Stress #Worklife-balance #EnneagramMentalHealth #9takes

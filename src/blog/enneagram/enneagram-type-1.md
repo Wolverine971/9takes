@@ -191,6 +191,7 @@ The One's growth journey isn't about lowering standards. It's about discovering 
 When Ones integrate, they move toward the healthy aspects of Type 7, "The Enthusiast." This doesn't mean becoming careless or abandoning principles. It means discovering that joy and spontaneity can coexist with integrity.
 
 Integrated Ones learn to:
+
 - Accept "good enough" as genuinely good enough
 - Find delight in imperfection—the wobble in handmade pottery, the spontaneous laugh during a serious moment
 - Release the need to control every outcome
@@ -236,7 +237,6 @@ Type 1s when asked to share their inner experience often say the following:
 
 ### 🤝 In Their Own Words: Enneagram Type Ones Sharing Their Experience
 
-
 In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Type 1s discussed the unique patterns and challenges of their personality type. Their candid reflections offer valuable insights into the lived experience of being a Type 1:
 
 <div class="iframe-container">
@@ -262,10 +262,6 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
   <h4>The Relaxation Discovery</h4>
   <p>Many Type 1s describe a profound discovery in midlife or during significant growth work: that relaxation and enjoyment aren't merely permitted activities but essential components of a well-lived life. This realization often feels revolutionary—the understanding that their worth doesn't depend solely on productivity and that taking genuine pleasure in life's gifts actually makes them more effective in their contributions, not less.</p>
 </div>
-
-
-
-
 
 </section>
 

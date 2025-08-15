@@ -6,7 +6,7 @@ import { z } from 'zod';
 
 // Validation schema
 const visitorSchema = z.object({
-  fp: z.string().min(1).max(100)
+	fp: z.string().min(1).max(100)
 });
 
 /** @type {import('./$types').RequestHandler} */
@@ -14,7 +14,7 @@ export const POST = withApiLogging(async ({ request }) => {
 	try {
 		const formData = await request.formData();
 		const body = Object.fromEntries(formData);
-		
+
 		// Validate request body
 		const validatedData = visitorSchema.parse(body);
 		const fingerprint = validatedData.fp;

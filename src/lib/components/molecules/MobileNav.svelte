@@ -7,8 +7,8 @@
 	import { cubicOut } from 'svelte/easing';
 
 	// Props to receive navigation items
-	export let navItems: Array<{href: string, label: string}> = [];
-	export let blogItems: Array<{href: string, label: string}> = [];
+	export let navItems: Array<{ href: string; label: string }> = [];
+	export let blogItems: Array<{ href: string; label: string }> = [];
 
 	// State management
 	let isMenuOpen = false;
@@ -31,7 +31,7 @@
 	 */
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
-		
+
 		if (!isMenuOpen) {
 			isDropdownOpen = false;
 		}
@@ -119,12 +119,15 @@
 				<!-- Header -->
 				<div class="mobile-nav-header">
 					<h2 id="mobile-nav-title" class="nav-title">Menu</h2>
-					<button
-						class="close-button"
-						aria-label="Close navigation"
-						on:click={closeMenu}
-					>
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+					<button class="close-button" aria-label="Close navigation" on:click={closeMenu}>
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+						>
 							<line x1="18" y1="6" x2="6" y2="18"></line>
 							<line x1="6" y1="6" x2="18" y2="18"></line>
 						</svg>
@@ -160,14 +163,14 @@
 								on:click={toggleDropdown}
 							>
 								<span>Blog</span>
-								<svg 
+								<svg
 									class="dropdown-arrow"
 									class:rotated={isDropdownOpen}
-									width="20" 
-									height="20" 
-									viewBox="0 0 24 24" 
-									fill="none" 
-									stroke="currentColor" 
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
 									stroke-width="2"
 								>
 									<polyline points="6,9 12,15 18,9"></polyline>
@@ -215,13 +218,7 @@
 					<!-- Login/Register section -->
 					{#if !$page.data?.user}
 						<div class="nav-actions">
-							<a
-								href="/login"
-								class="login-button"
-								on:click={closeMenu}
-							>
-								Login / Register
-							</a>
+							<a href="/login" class="login-button" on:click={closeMenu}> Login / Register </a>
 						</div>
 					{/if}
 				</div>

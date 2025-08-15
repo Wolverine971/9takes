@@ -1,7 +1,9 @@
 // utils/demo.ts
 type DemoValue = Record<string, unknown>;
 
-export const mapDemoValues = (values: DemoValue[] | DemoValue | null): DemoValue[] | DemoValue | null => {
+export const mapDemoValues = (
+	values: DemoValue[] | DemoValue | null
+): DemoValue[] | DemoValue | null => {
 	if (!values) {
 		return null;
 	}

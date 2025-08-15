@@ -1,6 +1,6 @@
 ---
-title: "Find Your Enneagram Type in 10 Minutes (4 Simple Steps)"
-description: "Skip the confusion. Discover your true Enneagram type with this proven 4-step method that focuses on motivations, not behaviors."
+title: 'Find Your Enneagram Type in 10 Minutes (4 Simple Steps)'
+description: 'Skip the confusion. Discover your true Enneagram type with this proven 4-step method that focuses on motivations, not behaviors.'
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type'
@@ -18,7 +18,7 @@ pic: 'greek-statues-two-females-on-phones'
 
 **But something's still missing.**
 
-You know *what* you do. But not *why* you do it.
+You know _what_ you do. But not _why_ you do it.
 
 That's where the Enneagram changes everything. In the next 10 minutes, you'll discover which of the nine types drives your deepest motivations—and finally understand the "why" behind your patterns.
 
@@ -66,47 +66,53 @@ Which one feels most familiar?
 ### 🔥 **ANGER** (Body Center: Types 8, 9, 1)
 
 **You know anger is your driver if:**
+
 - Your first reaction is physical (fight, freeze, or withdraw)
 - You're constantly aware of power dynamics
 - Control and autonomy are non-negotiable
 - Injustice makes your blood boil (or simmer)
 
 **But here's the twist:**
+
 - **Type 8s** express it directly ("I'm pissed and here's why")
 - **Type 9s** bury it so deep they forget it exists
 - **Type 1s** transform it into "constructive criticism"
 
-*Ask yourself:* Do you explode, implode, or redirect?
+_Ask yourself:_ Do you explode, implode, or redirect?
 
 ### 💔 **SHAME** (Heart Center: Types 2, 3, 4)
 
 **You know shame is your driver if:**
+
 - You're hyperaware of how others see you
 - Your worth feels tied to external validation
 - You unconsciously adapt to gain approval
 - Identity questions keep you up at night
 
 **But it shows up differently:**
+
 - **Type 2s** become indispensable ("They need me")
-- **Type 3s** achieve relentlessly ("I am my accomplishments")  
+- **Type 3s** achieve relentlessly ("I am my accomplishments")
 - **Type 4s** embrace uniqueness ("No one understands me")
 
-*Ask yourself:* Do you earn love, achieve it, or long for it?
+_Ask yourself:_ Do you earn love, achieve it, or long for it?
 
 ### 😰 **FEAR** (Head Center: Types 5, 6, 7)
 
 **You know fear is your driver if:**
+
 - Your mind never stops analyzing
 - You're always three steps ahead (planning or worrying)
 - Security feels perpetually out of reach
 - You process life intellectually before emotionally
 
 **But it manifests uniquely:**
+
 - **Type 5s** withdraw to build competence ("Knowledge is safety")
 - **Type 6s** prepare for every scenario ("What if...?")
 - **Type 7s** chase the next high ("Keep moving, stay happy")
 
-*Ask yourself:* Do you hide, prepare, or run?
+_Ask yourself:_ Do you hide, prepare, or run?
 
 **The moment of truth:** Which emotion do you spend the most energy managing, avoiding, or expressing?
 
@@ -121,11 +127,13 @@ It's a brilliant survival strategy you developed as a kid. Not necessarily from 
 ### If You're ANGER-Driven (8, 9, 1):
 
 **Your childhood likely included:**
+
 - Feeling powerless or overlooked
 - Pressure to be "strong" or "good"
 - An environment where anger was explosive or forbidden
 
 **The lesson you learned:**
+
 - Type 8: "I must never be vulnerable"
 - Type 9: "My needs create conflict"
 - Type 1: "I'm only good if I'm perfect"
@@ -133,11 +141,13 @@ It's a brilliant survival strategy you developed as a kid. Not necessarily from 
 ### If You're SHAME-Driven (2, 3, 4):
 
 **Your childhood likely included:**
+
 - Love that felt conditional
 - Pressure to be a certain way
 - Recognition for doing, not being
 
 **The lesson you learned:**
+
 - Type 2: "I'm only loved when I'm helpful"
 - Type 3: "I'm only valued for what I achieve"
 - Type 4: "I'm fundamentally different (and that's why I'm alone)"
@@ -145,11 +155,13 @@ It's a brilliant survival strategy you developed as a kid. Not necessarily from 
 ### If You're FEAR-Driven (5, 6, 7):
 
 **Your childhood likely included:**
+
 - Unpredictability or chaos
 - Too many demands or too little guidance
 - Intellectual achievement valued over emotional expression
 
 **The lesson you learned:**
+
 - Type 5: "The world takes more than it gives"
 - Type 6: "I can't trust authority to keep me safe"
 - Type 7: "Pain must be avoided at all costs"
@@ -167,9 +179,11 @@ Read these descriptions slowly. One will feel uncomfortably accurate—like some
 ### 🔥 **The Body Types (Gut Center)**
 
 #### **Type 8 - The Challenger**
-*"I protect myself and others through strength"*
+
+_"I protect myself and others through strength"_
 
 **Dead giveaways:**
+
 - You'd rather be respected than liked
 - Vulnerability feels like death
 - You spot bullshit from a mile away
@@ -179,9 +193,11 @@ Read these descriptions slowly. One will feel uncomfortably accurate—like some
 **Your kryptonite:** Admitting you need anyone
 
 #### **Type 9 - The Peacemaker**
-*"I create harmony by disappearing myself"*
+
+_"I create harmony by disappearing myself"_
 
 **Dead giveaways:**
+
 - You see all perspectives (except your own)
 - Conflict makes you physically uncomfortable
 - You've forgotten what you actually want
@@ -191,9 +207,11 @@ Read these descriptions slowly. One will feel uncomfortably accurate—like some
 **Your kryptonite:** Knowing what YOU want
 
 #### **Type 1 - The Perfectionist**
-*"There's a right way to do everything"*
+
+_"There's a right way to do everything"_
 
 **Dead giveaways:**
+
 - You see mistakes before anything else
 - Your inner critic never sleeps
 - "Good enough" feels like failure
@@ -205,9 +223,11 @@ Read these descriptions slowly. One will feel uncomfortably accurate—like some
 ### 💔 **The Heart Types (Feeling Center)**
 
 #### **Type 2 - The Helper**
-*"I'm valuable when I'm needed"*
+
+_"I'm valuable when I'm needed"_
 
 **Dead giveaways:**
+
 - You know what others need before they do
 - Receiving help feels wrong
 - You give until you're empty (then resent it)
@@ -217,9 +237,11 @@ Read these descriptions slowly. One will feel uncomfortably accurate—like some
 **Your kryptonite:** Acknowledging your own needs
 
 #### **Type 3 - The Achiever**
-*"I am what I accomplish"*
+
+_"I am what I accomplish"_
 
 **Dead giveaways:**
+
 - Your calendar is your bible
 - Stillness feels like death
 - You become whoever the room needs
@@ -229,9 +251,11 @@ Read these descriptions slowly. One will feel uncomfortably accurate—like some
 **Your kryptonite:** Being loved for who you are, not what you do
 
 #### **Type 4 - The Individualist**
-*"Something essential is missing in me"*
+
+_"Something essential is missing in me"_
 
 **Dead giveaways:**
+
 - You feel emotions others don't have names for
 - Ordinary feels like death
 - You're nostalgic for experiences you've never had
@@ -243,9 +267,11 @@ Read these descriptions slowly. One will feel uncomfortably accurate—like some
 ### 😰 **The Head Types (Thinking Center)**
 
 #### **Type 5 - The Investigator**
-*"Knowledge is my fortress"*
+
+_"Knowledge is my fortress"_
 
 **Dead giveaways:**
+
 - People exhaust you (even ones you love)
 - You need to understand before you participate
 - Privacy is oxygen
@@ -255,9 +281,11 @@ Read these descriptions slowly. One will feel uncomfortably accurate—like some
 **Your kryptonite:** Engaging before you're "ready"
 
 #### **Type 6 - The Loyalist**
-*"The world is unsafe and I must be prepared"*
+
+_"The world is unsafe and I must be prepared"_
 
 **Dead giveaways:**
+
 - You spot every possible problem
 - Authority is both needed and suspect
 - Loyalty is everything
@@ -267,9 +295,11 @@ Read these descriptions slowly. One will feel uncomfortably accurate—like some
 **Your kryptonite:** Trusting your own judgment
 
 #### **Type 7 - The Enthusiast**
-*"Life is full of possibilities I can't miss"*
+
+_"Life is full of possibilities I can't miss"_
 
 **Dead giveaways:**
+
 - Boredom feels like dying
 - You're planning tomorrow during today
 - Negative emotions get reframed instantly
@@ -295,16 +325,16 @@ Each type has **predictable patterns** when thriving or struggling. These "conne
 ### Quick Reference: Your Stress & Growth Patterns
 
 | **Your Type** | **When Thriving You Become...** | **When Stressed You Become...** |
-|---------------|----------------------------------|----------------------------------|
-| **Type 1** | Spontaneous like a 7 | Moody like a 4 |
-| **Type 2** | Self-aware like a 4 | Aggressive like an 8 |
-| **Type 3** | Loyal like a 6 | Checked-out like a 9 |
-| **Type 4** | Principled like a 1 | Clingy like a 2 |
-| **Type 5** | Confident like an 8 | Scattered like a 7 |
-| **Type 6** | Calm like a 9 | Image-conscious like a 3 |
-| **Type 7** | Focused like a 5 | Critical like a 1 |
-| **Type 8** | Caring like a 2 | Withdrawn like a 5 |
-| **Type 9** | Decisive like a 3 | Anxious like a 6 |
+| ------------- | ------------------------------- | ------------------------------- |
+| **Type 1**    | Spontaneous like a 7            | Moody like a 4                  |
+| **Type 2**    | Self-aware like a 4             | Aggressive like an 8            |
+| **Type 3**    | Loyal like a 6                  | Checked-out like a 9            |
+| **Type 4**    | Principled like a 1             | Clingy like a 2                 |
+| **Type 5**    | Confident like an 8             | Scattered like a 7              |
+| **Type 6**    | Calm like a 9                   | Image-conscious like a 3        |
+| **Type 7**    | Focused like a 5                | Critical like a 1               |
+| **Type 8**    | Caring like a 2                 | Withdrawn like a 5              |
+| **Type 9**    | Decisive like a 3               | Anxious like a 6                |
 
 **The revealing question:** How do you act when everything's falling apart?
 
@@ -363,7 +393,7 @@ Now that you see the box you've been living in...
 
 ---
 
-*P.S. Still uncertain? That's normal. Some people take months to find their true type. The key is to keep observing your motivations, not your behaviors. The truth always reveals itself.*
+_P.S. Still uncertain? That's normal. Some people take months to find their true type. The key is to keep observing your motivations, not your behaviors. The truth always reveals itself._
 
 <svelte:head>
 

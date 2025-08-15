@@ -25,7 +25,6 @@ can no one else say it
 https://chatgpt.com/c/682f690e-006c-8011-9fac-9d5191eaaf65
 https://claude.ai/chat/40b2847c-86db-45e6-b4eb-3edd4996802d -->
 
-
 <div class="bg-primary-100 border-l-4 border-primary-600 p-6 rounded-lg mb-8">
 You've heard of "looks maxing" and optimizing your physical appearance. What's more important is the idea of <strong>personality maxing</strong>.
 </div>
@@ -133,6 +132,7 @@ Instead of waiting for emotional crises to force you into self-reflection, here'
 </div>
 
 The problem is most approaches to personality development either:
+
 - Focus on surface-level traits without addressing core emotional patterns
 - Encourage emotional suppression (the stoicism trap)
 - Only provide reactive solutions after problems have already occurred
@@ -184,6 +184,7 @@ After exploring various personality systems, the **Enneagram** stands out as the
 <p class="text-lg mb-4">This crash course will teach you how to use the Enneagram for personality maxing. You'll learn to identify your core emotional patterns, understand why you developed them, and develop specific strategies for optimizing your psychological strengths.</p>
 
 <strong class="text-lg text-neutral-800">Here are the 5 things we'll cover:</strong>
+
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
 <div class="bg-white p-4 rounded border">✅ The 3 most important Enneagram concepts for personality maxing</div>
 <div class="bg-white p-4 rounded border">❌ The biggest mistakes people make when trying to understand themselves</div>
@@ -508,4 +509,3 @@ Book Coaching Session →
 </script>
 
 </svelte:head>
-

@@ -2,20 +2,20 @@
 <script lang="ts">
 	import QuestionItem from './QuestionItem.svelte';
 	import { createEventDispatcher } from 'svelte';
-	
+
 	export let questionData: any;
-	
+
 	const dispatch = createEventDispatcher();
-	
+
 	let hasError = false;
 	let errorMessage = '';
-	
+
 	const handleError = (error: Error) => {
 		hasError = true;
 		errorMessage = error.message || 'Failed to load question';
 		console.error('QuestionItem error:', error);
 	};
-	
+
 	// Wrap async operations in try-catch
 	const handleQuestionRemoved = async () => {
 		try {
@@ -29,14 +29,11 @@
 {#if hasError}
 	<div class="question-error">
 		<p>{errorMessage}</p>
-		<button on:click={() => hasError = false}>Try Again</button>
+		<button on:click={() => (hasError = false)}>Try Again</button>
 	</div>
 {:else}
 	<div on:error={handleError}>
-		<QuestionItem 
-			{questionData} 
-			on:questionRemoved={handleQuestionRemoved}
-		/>
+		<QuestionItem {questionData} on:questionRemoved={handleQuestionRemoved} />
 	</div>
 {/if}
 
@@ -52,12 +49,12 @@
 		justify-content: space-between;
 		align-items: center;
 	}
-	
+
 	.question-error p {
 		margin: 0;
 		font-size: 0.875rem;
 	}
-	
+
 	.question-error button {
 		padding: 0.25rem 0.75rem;
 		background-color: var(--error);
@@ -68,7 +65,7 @@
 		cursor: pointer;
 		font-weight: 600;
 	}
-	
+
 	.question-error button:hover {
 		opacity: 0.9;
 	}

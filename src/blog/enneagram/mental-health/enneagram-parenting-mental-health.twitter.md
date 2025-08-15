@@ -6,7 +6,7 @@
 
 As an Enneagram-aware parent, you have unique insights. Here's what to watch for: 👇
 
-1/10 First - IMPORTANT disclaimer: 
+1/10 First - IMPORTANT disclaimer:
 
 Don't "type" your young child. Instead, watch for patterns that can help you understand their natural temperament and how they might struggle.
 
@@ -15,6 +15,7 @@ Every child is unique. These are general patterns, not rules. 🧠
 2/10 **Perfectionist-leaning children** (Type 1 patterns):
 
 ⚠️ Warning signs:
+
 - Excessive self-criticism
 - Meltdowns over "mistakes"
 - Rigid thinking about right/wrong
@@ -25,6 +26,7 @@ They might say: "I'm stupid" or "I can't do anything right" 💔
 3/10 **Helper-focused children** (Type 2 patterns):
 
 ⚠️ Warning signs:
+
 - Always putting others first, never themselves
 - Difficulty expressing their own needs
 - Emotional outbursts when not appreciated
@@ -35,6 +37,7 @@ They might say: "Nobody likes me when I don't help" 😢
 4/10 **Achievement-oriented children** (Type 3 patterns):
 
 ⚠️ Warning signs:
+
 - Panic over any perceived failure
 - Lying about grades or accomplishments
 - Exhaustion from over-scheduling
@@ -45,6 +48,7 @@ They might say: "I have to be the best or I'm nothing" 🏆
 5/10 **Sensitive/creative children** (Type 4 patterns):
 
 ⚠️ Warning signs:
+
 - Intense mood swings
 - Feeling fundamentally different or flawed
 - Withdrawal during difficult emotions
@@ -55,6 +59,7 @@ They might say: "Nobody understands me" or "I don't belong anywhere" 🎭
 6/10 **Quiet/observant children** (Type 5 patterns):
 
 ⚠️ Warning signs:
+
 - Extreme withdrawal from family/friends
 - Hoarding behaviors (time, space, energy)
 - Difficulty expressing emotions
@@ -65,6 +70,7 @@ They might say very little, but seem increasingly distant 🔍
 7/10 **Anxious/loyal children** (Type 6 patterns):
 
 ⚠️ Warning signs:
+
 - Constant worst-case scenario thinking
 - Difficulty making decisions alone
 - Physical symptoms of anxiety
@@ -75,6 +81,7 @@ They might say: "What if something bad happens?" repeatedly 😰
 8/10 **High-energy/scattered children** (Type 7 patterns):
 
 ⚠️ Warning signs:
+
 - Inability to sit with difficult emotions
 - Extreme avoidance of anything "boring" or hard
 - Difficulty completing tasks
@@ -85,6 +92,7 @@ They might say: "I don't want to think about that" 🎢
 9/10 **Strong-willed children** (Type 8 patterns):
 
 ⚠️ Warning signs:
+
 - Extreme anger outbursts
 - Difficulty showing vulnerability
 - Aggressive responses to feeling controlled
@@ -95,6 +103,7 @@ They might say: "I don't need anyone" while clearly struggling 💪
 10/10 **Easy-going children** (Type 9 patterns):
 
 ⚠️ Warning signs:
+
 - Complete shutdown/withdrawal
 - Difficulty expressing any strong emotions
 - Passive-aggressive behaviors
@@ -159,6 +168,7 @@ If YOU'RE feeling overwhelmed, anxious, or unsure about parenting decisions, get
 You can't pour from an empty cup. 💜
 
 Resources:
+
 - Crisis Text Line: Text HOME to 741741
 - National Suicide Prevention Lifeline: 988
 - Psychology Today therapist finder: psychologytoday.com
@@ -207,21 +217,25 @@ What tools are you teaching your kids? 🧰
 It's the easiest way to save this info for when you need it! ➡️ @9takes
 
 ## Hashtags to Use Consistently
+
 #EnneagramParenting #MentalHealthMatters #ParentingTips #ChildPsychology #ConsciousParenting #ParentalMentalHealth #EmotionalIntelligence #9takes #ParentingSupport #MentalHealthAwareness
 
 ## Engagement Strategies
 
 ### Ask Questions:
+
 - "What's your biggest parenting mental health concern?"
 - "How do you talk to your kids about emotions?"
 - "What would you tell your younger parenting self?"
 
 ### Share Experiences:
+
 - "I used to think asking for help meant I was failing as a parent..."
 - "The day I realized my anxiety was affecting my kids..."
 - "When we started therapy, my child said..."
 
 ### Educational Moments:
+
 - "Did you know that 1 in 5 children struggle with mental health?"
 - "Here's why 'boys don't cry' is actually harmful..."
 - "The difference between sadness and depression in children..."

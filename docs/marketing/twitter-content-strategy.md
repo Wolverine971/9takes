@@ -9,6 +9,7 @@ This document outlines a 30-day Twitter content strategy to promote recently upd
 ## Current Best Practices (2025)
 
 ### Optimal Posting Times
+
 - **Peak engagement windows:**
   - Weekdays: 8-10 AM EST (morning commute)
   - Weekdays: 12-1 PM EST (lunch break)
@@ -16,6 +17,7 @@ This document outlines a 30-day Twitter content strategy to promote recently upd
   - Sundays: 9-11 AM EST (Sunday scroll)
 
 ### Thread Best Practices
+
 - **Hook within first 7 words** (before "show more")
 - **3-7 tweets optimal** (not too short, not overwhelming)
 - **Visual breaks** with emojis/line breaks
@@ -24,6 +26,7 @@ This document outlines a 30-day Twitter content strategy to promote recently upd
 - **Reply with additional value** after thread posts
 
 ### Engagement Tactics
+
 - Post thread → Wait 1 hour → Add valuable reply
 - Quote tweet your own thread next day with different angle
 - Create "bookmark bait" (high-value content people save)
@@ -34,18 +37,22 @@ This document outlines a 30-day Twitter content strategy to promote recently upd
 ## Content Themes & Posting Schedule
 
 ### Week 1: "Decode People Instantly"
+
 **Theme**: First impressions and reading people
 **Hero Blog**: first-impression-enneagram-playbook.md
 
 ### Week 2: "Your Hidden Patterns"
+
 **Theme**: Self-discovery and blind spots
 **Hero Blog**: how-to-navigate-early-relationship-stages.md
 
 ### Week 3: "Dating Decoded"
+
 **Theme**: Relationships and dating patterns
 **Hero Blogs**: enneagram-dating-guide-for-men.md, enneagram-types-being-ghosted.md
 
 ### Week 4: "The Truth About Personality"
+
 **Theme**: Myths, science, and FAQs
 **Hero Blog**: enneagram-faqs.md
 
@@ -56,6 +63,7 @@ This document outlines a 30-day Twitter content strategy to promote recently upd
 ### WEEK 1: DECODE PEOPLE INSTANTLY
 
 #### Thread 1: The Body Language Cheat Sheet
+
 **Post Date**: Monday, Week 1 @ 9 AM EST
 **Target Audience**: Business professionals, networkers, people pleasers
 **Hook**: "I read 100+ people wrong until I learned these 9 body language patterns"
@@ -103,6 +111,7 @@ Full breakdown of all 9 types: [link to blog]
 ```
 
 #### Thread 2: Job Interview Mind Reading
+
 **Post Date**: Wednesday, Week 1 @ 12 PM EST
 **Target Audience**: Job seekers, career changers, young professionals
 **Hook**: "Failed 5 interviews until I realized: I was using the wrong personality playbook"
@@ -140,6 +149,7 @@ Complete guide to reading anyone: [link]
 ```
 
 #### Thread 3: First Date Psychology
+
 **Post Date**: Friday, Week 1 @ 5 PM EST
 **Target Audience**: Singles, dating app users, relationship seekers
 **Hook**: "She ghosted me after 3 perfect dates. Then I learned why..."
@@ -193,6 +203,7 @@ Your dating life will never be the same: [link]
 ### WEEK 2: YOUR HIDDEN PATTERNS
 
 #### Thread 4: Relationship Self-Sabotage
+
 **Post Date**: Monday, Week 2 @ 9 AM EST
 **Target Audience**: People in relationships, self-improvement focused
 **Hook**: "I killed every relationship the same way for 10 years"
@@ -236,6 +247,7 @@ Find your pattern, break your pattern: [link]
 ```
 
 #### Thread 5: Why You're Actually Single
+
 **Post Date**: Wednesday, Week 2 @ 8 AM EST
 **Target Audience**: Singles, dating app users
 **Hook**: "You're not single because of bad luck"
@@ -274,6 +286,7 @@ Find your dating blind spot: [link]
 ### WEEK 3: DATING DECODED
 
 #### Thread 6: Why You Got Ghosted
+
 **Post Date**: Monday, Week 3 @ 12 PM EST
 **Target Audience**: Recently ghosted, dating app users
 **Hook**: "Getting ghosted isn't about you. It's about your type."
@@ -314,6 +327,7 @@ Heal the right wound: [link]
 ```
 
 #### Thread 7: Dating Guide for Men
+
 **Post Date**: Thursday, Week 3 @ 5 PM EST
 **Target Audience**: Single men, dating apps users
 **Hook**: "Nice guys don't finish last. They're using the wrong playbook."
@@ -355,6 +369,7 @@ Know yours → use yours → find real connection: [link]
 ### WEEK 4: THE TRUTH ABOUT PERSONALITY
 
 #### Thread 8: Is the Enneagram Real?
+
 **Post Date**: Monday, Week 4 @ 9 AM EST
 **Target Audience**: Skeptics, curious professionals
 **Hook**: "The Enneagram isn't scientifically proven. Here's why I use it anyway."
@@ -405,6 +420,7 @@ I answer the 27 everyone asks: [link]
 ```
 
 #### Thread 9: Your Type Can't Change (Here's Why That's Good)
+
 **Post Date**: Wednesday, Week 4 @ 12 PM EST
 **Target Audience**: Personal development community
 **Hook**: "Your Enneagram type never changes. That's the best news you'll hear today."
@@ -452,18 +468,22 @@ Your personalized growth path: [link]
 ## Engagement Boosters
 
 ### Weekly Polls (Post 2 hours before thread)
+
 - Week 1: "What reads people better: Body language / Words / Energy / Gut feeling"
 - Week 2: "Biggest relationship killer: Too clingy / Too distant / Too critical / Too nice"
 - Week 3: "Worst dating app behavior: Ghosting / Love bombing / Breadcrumbing / Slow fade"
 - Week 4: "Most believable: Astrology / MBTI / Enneagram / None"
 
 ### Quote Tweet Previous Threads
+
 - Next day: Quote with "One thing I forgot to mention..."
 - Week later: "This thread aged well" with update
 - Month later: "Still the most saved thread I've written"
 
 ### Reply Chains
+
 After each thread posts, wait 1 hour then add:
+
 - "Bookmark this if you're tired of misreading people"
 - "The responses to this are wild. Here's what I'm seeing..."
 - "Since you asked: [answer common question]"
@@ -473,18 +493,21 @@ After each thread posts, wait 1 hour then add:
 ## Metrics to Track
 
 ### Engagement Metrics
+
 - Bookmark rate (target: >5%)
 - Reply rate (target: >2%)
 - Click-through rate (target: >1%)
 - Follower growth (target: +10% monthly)
 
 ### Content Performance
+
 - Which types get most engagement
 - Which hooks perform best
 - Optimal thread length
 - Best posting times
 
 ### Conversion Metrics
+
 - Blog visits from Twitter
 - Email signups from Twitter traffic
 - Platform signups from Twitter traffic
@@ -494,14 +517,17 @@ After each thread posts, wait 1 hour then add:
 ## A/B Testing Schedule
 
 ### Week 1-2: Hook Testing
+
 - Version A: Question hooks
 - Version B: Statement hooks
 
 ### Week 3-4: Length Testing
+
 - Version A: 3-4 tweet threads
 - Version B: 5-6 tweet threads
 
 ### Month 2: Time Testing
+
 - Version A: Morning posts (9 AM)
 - Version B: Evening posts (5 PM)
 
@@ -510,16 +536,19 @@ After each thread posts, wait 1 hour then add:
 ## Content Bank for Quick Posts
 
 ### "Did You Know" Series
+
 - "Did you know your personality type determines how you ghost people?"
 - "Did you know Type 6s create the problems they fear?"
 - "Did you know Type 2s give to avoid receiving?"
 
 ### "Spot the Type" Series
+
 - "Spot the Type 1: They just corrected your grammar"
 - "Spot the Type 7: They're planning next weekend on Monday"
 - "Spot the Type 9: They said 'whatever you want' 3 times"
 
 ### Controversy Posts
+
 - "The Enneagram is just astrology for people with master's degrees"
 - "Your personality type is an excuse for bad behavior"
 - "Most people are mistyped. Including you."
@@ -529,18 +558,21 @@ After each thread posts, wait 1 hour then add:
 ## Monthly Theme Calendar
 
 ### Month 1: Discovery
+
 - Week 1: Reading others
 - Week 2: Reading yourself
 - Week 3: Dating patterns
 - Week 4: Truth/myths
 
 ### Month 2: Application
+
 - Week 1: Workplace dynamics
 - Week 2: Family patterns
 - Week 3: Friendship dynamics
 - Week 4: Growth strategies
 
 ### Month 3: Mastery
+
 - Week 1: Advanced typing
 - Week 2: Integration paths
 - Week 3: Shadow work
@@ -551,15 +583,19 @@ After each thread posts, wait 1 hour then add:
 ## Response Templates
 
 ### To Skeptics
+
 "Totally fair! I was skeptical too. What convinced me was [specific example]. Not saying it's for everyone, but [benefit]."
 
 ### To Mistyping
+
 "That's super common! Most people think they're [type] at first. Have you looked at core fears rather than behaviors?"
 
 ### To Success Stories
+
 "Love this! 🙌 This is exactly why I share this stuff. Mind if I screenshot this for others who might relate?"
 
 ### To Criticism
+
 "Appreciate the perspective! You're right that [acknowledge valid point]. I've found [counter-point]. What's been your experience?"
 
 ---
@@ -567,11 +603,13 @@ After each thread posts, wait 1 hour then add:
 ## Legal/Ethical Considerations
 
 ### Always Include
+
 - "This isn't therapy/medical advice"
 - "Patterns not predictions"
 - "Your experience may vary"
 
 ### Never Claim
+
 - Scientific proof
 - Diagnostic capability
 - Universal truth
@@ -582,6 +620,7 @@ After each thread posts, wait 1 hour then add:
 ## Implementation Checklist
 
 ### Pre-Launch (Week 0)
+
 - [ ] Set up scheduling tool (Buffer/Hootsuite)
 - [ ] Create visual templates
 - [ ] Write Week 1 threads
@@ -589,6 +628,7 @@ After each thread posts, wait 1 hour then add:
 - [ ] Prepare response templates
 
 ### Weekly Tasks
+
 - [ ] Monday: Post main thread
 - [ ] Tuesday: Quote tweet yesterday's thread
 - [ ] Wednesday: Engagement thread
@@ -597,6 +637,7 @@ After each thread posts, wait 1 hour then add:
 - [ ] Sunday: Preview next week
 
 ### Daily Tasks
+
 - [ ] Morning: Check overnight engagement
 - [ ] Noon: Respond to comments
 - [ ] Evening: Post scheduled content
@@ -607,17 +648,20 @@ After each thread posts, wait 1 hour then add:
 ## Success Criteria (30 Days)
 
 ### Minimum Success
+
 - 5 threads with >100 bookmarks
 - 500 new followers
 - 1000 blog clicks
 
 ### Target Success
+
 - 10 threads with >250 bookmarks
 - 1500 new followers
 - 3000 blog clicks
 - 1 viral thread (>1000 bookmarks)
 
 ### Stretch Goals
+
 - Featured in newsletter/RT by major account
 - 3000 new followers
 - 5000 blog clicks
@@ -628,6 +672,7 @@ After each thread posts, wait 1 hour then add:
 ## Notes
 
 This strategy prioritizes:
+
 1. **Value over promotion** (80/20 rule)
 2. **Consistency over perfection**
 3. **Engagement over reach**

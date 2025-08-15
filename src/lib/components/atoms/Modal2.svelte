@@ -72,7 +72,7 @@
 <div
 	class="fixed inset-0 z-[23425343] flex items-center justify-center bg-black/50 backdrop-blur-sm transition-all duration-300 {visible
 		? 'opacity-100'
-		: 'opacity-0 invisible'}"
+		: 'invisible opacity-0'}"
 	bind:this={topDiv}
 	use:portal
 	role="dialog"
@@ -91,9 +91,19 @@
 			<button
 				on:click={close}
 				aria-label="Close dialog"
-				class="absolute right-4 top-4 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-neutral-100 p-0 transition-all duration-200 hover:bg-neutral-200 hover:rotate-90"
+				class="absolute right-4 top-4 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-neutral-100 p-0 transition-all duration-200 hover:rotate-90 hover:bg-neutral-200"
 			>
-				<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-neutral-600">
+				<svg
+					width="16"
+					height="16"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					class="text-neutral-600"
+				>
 					<line x1="18" y1="6" x2="6" y2="18"></line>
 					<line x1="6" y1="6" x2="18" y2="18"></line>
 				</svg>

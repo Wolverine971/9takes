@@ -205,6 +205,7 @@ The Five's growth journey isn't about abandoning their fortress. It's about inst
 When Fives integrate, they move toward the healthy aspects of Type 8, "The Challenger." This doesn't mean becoming aggressive or domineering. It means discovering that knowledge without action is impotent, that understanding without application is incomplete.
 
 Integrated Fives learn to:
+
 - Trust their competence enough to engage before feeling perfectly prepared
 - Express themselves assertively rather than withdrawing
 - Take up space in the world rather than minimizing their presence
@@ -253,8 +254,6 @@ The theoretical architecture of Type 5 comes alive through firsthand accounts. I
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/8-vZtfZB7Is?si=V1HyruLDiNU4OtYs" title="Enneagram 5 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
-
 
 </section>
 

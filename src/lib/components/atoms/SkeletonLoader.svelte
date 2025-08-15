@@ -79,12 +79,7 @@
 			bottom: 0;
 			left: 0;
 			transform: translateX(-100%);
-			background: linear-gradient(
-				90deg,
-				transparent,
-				rgba(255, 255, 255, 0.4),
-				transparent
-			);
+			background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
 			animation: skeleton-wave 1.5s ease-in-out infinite;
 		}
 	}

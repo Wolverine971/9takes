@@ -30,8 +30,8 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	// Don't pass supabase client - it's not serializable
-	return { 
-		user, 
+	return {
+		user,
 		users
 	};
 };

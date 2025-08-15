@@ -17,6 +17,7 @@ pic: 'greek-sculpture-on-a-laptop'
 <!-- steal like an artist there is nothing new under the sun -->
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +69,7 @@ pic: 'greek-sculpture-on-a-laptop'
   }
 }
 </script>
+
 </svelte:head>
 
 <script>
@@ -135,7 +137,6 @@ How can we replace these impulse reactions with genuine curiosity and open-minde
 Refocusing on respectful engagement and diverse perspectives can rejuvenate online discourse, enhancing mutual understanding.
 
 The negative effects of mimetics can be stopped. And that is what 9takes is here to do.
-
 
 <style lang="scss">
 </style>

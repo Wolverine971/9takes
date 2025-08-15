@@ -68,6 +68,7 @@ pic: 'greek-statue-arguing-online'
   }
 }
 </script>
+
 </svelte:head>
 
 <!--
@@ -189,5 +190,3 @@ This is how you speed-run an argument towards progress. Once you open yourself t
 If the other side takes the time to try to understand your views, you are not having an argument anymore.
 
 I hope this help you experience what winning feels like.
-
-

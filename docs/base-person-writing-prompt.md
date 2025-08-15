@@ -114,6 +114,3 @@ Before publishing, ensure:
 - [ ] Writing balances analysis with accessibility
 
 **Remember:** Your goal is to make readers think "I never understood [PERSON] like this before" while inspiring them to explore their own personality through the Enneagram.
-
-
-

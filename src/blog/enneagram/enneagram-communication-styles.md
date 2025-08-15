@@ -50,6 +50,7 @@ Them: "Actually, we were 3 minutes late starting, the agenda wasn't followed, an
 ### Inside Their Head
 
 Every conversation is being **simultaneously edited** in real-time:
+
 - Grammar check ✓
 - Fact check ✓
 - Logic check ✓
@@ -66,7 +67,7 @@ They're not trying to be difficult. Their brain is literally **wired to spot err
 **They say:** "That's not quite accurate"  
 **They mean:** "I'm anxious about imperfection"
 
-**They say:** *\*sigh\**  
+**They say:** \*\*sigh\*\*  
 **They mean:** "I'm overwhelmed by all the wrongness"
 
 ### 🔓 The Master Key
@@ -78,12 +79,14 @@ Watch them physically relax. You've just told them their inner critic is correct
 ### How to Be Heard
 
 ✅ **DO:**
+
 - Come prepared with facts
 - Acknowledge the standard they're upholding
 - Ask "How could this be better?"
 - Thank them for catching errors
 
 ❌ **DON'T:**
+
 - Say "good enough"
 - Dismiss details as unimportant
 - Take corrections personally
@@ -111,6 +114,7 @@ Them: "But you seem tired. When did you last eat? Here, I brought extra lunch. A
 ### Inside Their Head
 
 Their brain is running **constant emotional diagnostics**:
+
 - Sarah looks sad → needs encouragement
 - Tom skipped lunch → needs food
 - Boss seems stressed → needs support
@@ -138,12 +142,14 @@ Three words that make them feel valuable, seen, and loved. But follow up with: "
 ### How to Be Heard
 
 ✅ **DO:**
+
 - Share feelings, not just facts
 - Accept their help sometimes
 - Notice their needs before they ask
 - Use warm, personal language
 
 ❌ **DON'T:**
+
 - Reject all offers of help
 - Be emotionally closed off
 - Ignore their hints about needs
@@ -156,7 +162,6 @@ Three words that make them feel valuable, seen, and loved. But follow up with: "
 This reverses their pattern and shows them love flows both ways.
 
 [Understand the Helper →](/enneagram-corner/enneagram-type-2)
-
 
 ## Type 3: The Achiever's Efficiency Engine
 
@@ -172,6 +177,7 @@ Them: "Productive! Finished the deck, ran 10K, networked at that event. You?"
 ### Inside Their Head
 
 Every conversation has **invisible metrics**:
+
 - Time invested vs. outcome achieved ⏱️
 - Impression management score 📊
 - Progress toward goals meter 📈
@@ -200,6 +206,7 @@ Watch them short-circuit. You've just challenged their entire operating system.
 ### How to Be Heard
 
 ✅ **DO:**
+
 - Lead with the bottom line
 - Show clear ROI
 - Respect their time
@@ -207,6 +214,7 @@ Watch them short-circuit. You've just challenged their entire operating system.
 - Speak in bullet points
 
 ❌ **DON'T:**
+
 - Waste time with small talk
 - Question their competence
 - Make them look bad publicly
@@ -234,6 +242,7 @@ Them: "I'm experiencing this profound melancholy that's somehow both devastating
 ### Inside Their Head
 
 Every conversation has **emotional subtitles**:
+
 - Surface words + underlying feelings
 - What's said + what's meant
 - Present moment + past wounds
@@ -262,6 +271,7 @@ Validation without trying to fix. This is their oxygen.
 ### How to Be Heard
 
 ✅ **DO:**
+
 - Go deep, skip surface
 - Share your own vulnerability
 - Appreciate their uniqueness
@@ -269,6 +279,7 @@ Validation without trying to fix. This is their oxygen.
 - Use metaphors and imagery
 
 ❌ **DON'T:**
+
 - Say "cheer up"
 - Dismiss intensity as drama
 - Offer quick fixes
@@ -282,7 +293,6 @@ Validation without trying to fix. This is their oxygen.
 This tells them their intensity is welcome, not too much.
 
 [Understand the Individualist →](/enneagram-corner/enneagram-type-4)
-
 
 ## Type 5: The Investigator's Data Stream
 
@@ -298,6 +308,7 @@ Them: "Well, statistically speaking, the data suggests..."
 ### Inside Their Head
 
 Every conversation has an **energy meter**:
+
 - Battery level: 47% 🔋
 - Social capacity: depleting
 - Information to share: abundant
@@ -314,7 +325,7 @@ Every conversation has an **energy meter**:
 **They say:** "I need to think about it"  
 **They mean:** "I need to be alone NOW"
 
-**They say:** *\*shares random fact\**  
+**They say:** \*\*shares random fact\*\*  
 **They mean:** "This is me showing affection"
 
 ### 🔓 The Master Key
@@ -326,6 +337,7 @@ No pressure. No invasion. Pure relief.
 ### How to Be Heard
 
 ✅ **DO:**
+
 - Send agendas in advance
 - Speak in logic, not emotion
 - Respect their space
@@ -333,6 +345,7 @@ No pressure. No invasion. Pure relief.
 - Text instead of calling
 
 ❌ **DON'T:**
+
 - Drop by unannounced
 - Demand immediate responses
 - Touch without permission
@@ -346,6 +359,7 @@ No pressure. No invasion. Pure relief.
 This respects both their intellect and their boundaries.
 
 [Decode the Investigator →](/enneagram-corner/enneagram-type-5)
+
 - Unexpected invasions of their personal space
 - Dismissing their ideas without thoughtful consideration
 - Pressuring them for quick decisions before they've analyzed the situation

@@ -6,11 +6,7 @@ const dev = process.env.NODE_ENV === 'development';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [
-		enhancedImages(),
-		sveltekit(),
-		nodeLoaderPlugin(),
-	],
+	plugins: [enhancedImages(), sveltekit(), nodeLoaderPlugin()],
 	resolve: {
 		preserveSymlinks: false
 	},

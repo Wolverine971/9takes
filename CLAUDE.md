@@ -11,6 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Development Commands
 
 ### Essential Commands
+
 ```bash
 # Development
 pnpm dev              # Start development server (port 5173)
@@ -31,7 +32,9 @@ pnpm clean            # Clean build artifacts
 ```
 
 ### Package Management
+
 This project uses pnpm. Install dependencies with:
+
 ```bash
 pnpm install
 ```
@@ -39,6 +42,7 @@ pnpm install
 ## Architecture Overview
 
 ### Tech Stack
+
 - **Framework**: SvelteKit 2.x with TypeScript
 - **Database**: Supabase (PostgreSQL with real-time features)
 - **Deployment**: Vercel
@@ -48,6 +52,7 @@ pnpm install
 - **UI Components**: Flowbite-Svelte
 
 ### Project Structure
+
 ```
 src/
 ├── routes/                    # SvelteKit routes
@@ -68,11 +73,13 @@ src/
 ### Key Features Implementation
 
 1. **Give-First Commenting System**
+
    - Located in: `src/routes/questions/[slug]/+page.svelte`
    - Users must submit a comment before viewing others' responses
    - Tracks participation via fingerprinting for anonymous users
 
 2. **Personality Context**
+
    - All users have an Enneagram type (1-9)
    - Comments can be filtered by personality type
    - Located in: `src/lib/components/questions/CommentList.svelte`
@@ -85,6 +92,7 @@ src/
 ### Database Schema
 
 Key tables:
+
 - `questions`: User-submitted questions with context
 - `comments`: Nested comment system with personality types
 - `profiles`: User profiles with Enneagram types
@@ -93,33 +101,37 @@ Key tables:
 ### API Patterns
 
 Server-side routes follow this pattern:
+
 ```typescript
 // src/routes/api/[resource]/+server.ts
 export async function GET({ locals, url }) {
-  const supabase = locals.supabase;
-  // Implementation
+	const supabase = locals.supabase;
+	// Implementation
 }
 ```
 
 ### Component Patterns
 
 Components use:
+
 - TypeScript for type safety
 - Svelte stores for state management
 - TailwindCSS for styling
 - Props validation with TypeScript interfaces
 
 Example:
+
 ```svelte
 <script lang="ts">
-  export let enneagramType: number;
-  export let comment: Comment;
+	export let enneagramType: number;
+	export let comment: Comment;
 </script>
 ```
 
 ### Environment Variables
 
 Required environment variables (create `.env` file):
+
 - `PUBLIC_SUPABASE_URL`
 - `PUBLIC_SUPABASE_ANON_KEY`
 - `SUPABASE_SERVICE_KEY`
@@ -133,6 +145,7 @@ Required environment variables (create `.env` file):
 The platform has two main content areas:
 
 1. **User-Generated Q&A** (`/questions`)
+
    - Anonymous participation
    - Personality-based filtering
    - Give-first mechanic
@@ -151,6 +164,7 @@ The platform has two main content areas:
 ### Deployment
 
 Deployed to Vercel with:
+
 - Adapter: `@sveltejs/adapter-vercel`
 - Build command: `pnpm build`
 - Output directory: `.vercel`
@@ -167,6 +181,7 @@ Deployed to Vercel with:
 ### Common Development Tasks
 
 When implementing new features:
+
 1. Check existing patterns in similar components
 2. Use TypeScript interfaces for data structures
 3. Follow the give-first pattern for new interactive features

@@ -46,8 +46,8 @@ A Six might spend years working for a boss they respect, then one day notice a c
 
 <div class="scroll-table">
 
-| Type | Characteristic role | Ego fixation | Holy idea | Trap     | Basic fear                   | Basic desire              | Temptation                        | Vice/Passion | Virtue  | Stress/ Disintegration | Security/ Integration |
-| ---- | ------------------- | ------------ | --------- | -------- | ---------------------------- | ------------------------- | --------------------------------- | ------------ | ------- | ---------------------- | --------------------- |
+| Type | Characteristic role | Ego fixation | Holy idea | Trap     | Basic fear                     | Basic desire             | Temptation                      | Vice/Passion | Virtue  | Stress/ Disintegration | Security/ Integration |
+| ---- | ------------------- | ------------ | --------- | -------- | ------------------------------ | ------------------------ | ------------------------------- | ------------ | ------- | ---------------------- | --------------------- |
 | 6    | Loyalist, Skeptic   | Cowardice    | Faith     | Security | Being without support/guidance | To have security/support | Indecision, seeking reassurance | Fear         | Courage | 3                      | 9                     |
 
 </div>
@@ -254,7 +254,6 @@ These firsthand accounts illuminate the internal experience of Type 6s—reveali
 
 </section>
 
-
 <div class="checklist-container">
   <h3 class="checklist-title">✅ Are You a Type 6? Self-Assessment Checklist</h3>
   <div class="checklist-item">
@@ -309,7 +308,6 @@ These firsthand accounts illuminate the internal experience of Type 6s—reveali
     <p>If you checked 7 or more items, you likely have strong Type 6 patterns. Remember, everyone has aspects of each Enneagram type, but usually one or two types predominate in our personality structure.</p>
   </div>
 </div>
-
 
 <section class="section-content">
 

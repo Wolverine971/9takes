@@ -12,6 +12,7 @@ pic: 'gandalf-statue'
 ---
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -135,6 +136,7 @@ pic: 'gandalf-statue'
   ]
 }
 </script>
+
 </svelte:head>
 
 <p class="firstLetter">By the end of this guide, you will be your own agent of change.</p>
@@ -1304,4 +1306,3 @@ Remember that setbacks are not failures but opportunities for learning and refin
 Your journey toward stronger self-efficacy begins with a single step—deciding that you can indeed influence your capabilities and outcomes. That decision opens the door to possibility, and the practices in this guide provide the path forward.
 
 What will you do with the time given to you?
-

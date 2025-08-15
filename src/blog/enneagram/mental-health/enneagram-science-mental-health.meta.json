@@ -1,60 +1,43 @@
 {
-  "title": "The Science Behind Enneagram and Mental Health",
-  "slug": "enneagram-science-mental-health",
-  "category": "mental-health",
-  "primaryAudience": {
-    "name": "People seeking evidence-based information",
-    "description": "People interested in research and science with Enneagram awareness",
-    "demographics": {
-      "ageRange": "25-55",
-      "interests": [
-        "enneagram",
-        "mental health",
-        "research",
-        "science",
-        "evidence",
-        "psychology"
-      ],
-      "psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
-    }
-  },
-  "tags": [
-    "enneagram",
-    "mental-health",
-    "research",
-    "science",
-    "evidence",
-    "psychology"
-  ],
-  "painPoints": [
-    "Wanting scientific validation",
-    "Understanding the research",
-    "Evidence-based approaches"
-  ],
-  "topicsAddressed": [
-    "How each Enneagram type experiences research and science",
-    "Type-specific strategies for research and science",
-    "Practical tools and resources",
-    "When to seek professional help"
-  ],
-  "seo": {
-    "keywords": [
-      "enneagram research and science",
-      "research and science by personality type"
-    ],
-    "targetQueries": [
-      "how does enneagram affect research and science",
-      "research and science help for my type"
-    ]
-  },
-  "contentGoals": [
-    "Provide type-specific guidance for research and science",
-    "Build understanding and reduce stigma",
-    "Connect people with appropriate resources"
-  ],
-  "socialMediaFocus": {
-    "twitter": "Educational content about research and science and type-specific tips",
-    "instagram": "Visual guides and supportive content about research and science",
-    "reddit": "Community support and resource sharing in relevant subreddits"
-  }
+	"title": "The Science Behind Enneagram and Mental Health",
+	"slug": "enneagram-science-mental-health",
+	"category": "mental-health",
+	"primaryAudience": {
+		"name": "People seeking evidence-based information",
+		"description": "People interested in research and science with Enneagram awareness",
+		"demographics": {
+			"ageRange": "25-55",
+			"interests": ["enneagram", "mental health", "research", "science", "evidence", "psychology"],
+			"psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
+		}
+	},
+	"tags": ["enneagram", "mental-health", "research", "science", "evidence", "psychology"],
+	"painPoints": [
+		"Wanting scientific validation",
+		"Understanding the research",
+		"Evidence-based approaches"
+	],
+	"topicsAddressed": [
+		"How each Enneagram type experiences research and science",
+		"Type-specific strategies for research and science",
+		"Practical tools and resources",
+		"When to seek professional help"
+	],
+	"seo": {
+		"keywords": ["enneagram research and science", "research and science by personality type"],
+		"targetQueries": [
+			"how does enneagram affect research and science",
+			"research and science help for my type"
+		]
+	},
+	"contentGoals": [
+		"Provide type-specific guidance for research and science",
+		"Build understanding and reduce stigma",
+		"Connect people with appropriate resources"
+	],
+	"socialMediaFocus": {
+		"twitter": "Educational content about research and science and type-specific tips",
+		"instagram": "Visual guides and supportive content about research and science",
+		"reddit": "Community support and resource sharing in relevant subreddits"
+	}
 }

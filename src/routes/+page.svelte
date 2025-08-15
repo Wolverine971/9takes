@@ -201,7 +201,7 @@
 	/>
 	<meta name="twitter:image" content="https://9takes.com/greek_pantheon.png" />
 	<meta name="twitter:image:alt" content="9takes – One situation, 9 ways to see it" />
-	
+
 	<!-- FAQ Schema -->
 	<script type="application/ld+json">
 		{
@@ -251,7 +251,7 @@
 			]
 		}
 	</script>
-	
+
 	<!-- Image Structured Data for Featured Content -->
 	<script type="application/ld+json">
 		{

@@ -5,12 +5,12 @@
 	export let borderRadius = '4px';
 	export let variant: 'text' | 'circular' | 'rectangular' = 'rectangular';
 	export let animation: 'pulse' | 'wave' | 'none' = 'pulse';
-	
+
 	$: computedBorderRadius = variant === 'circular' ? '50%' : borderRadius;
 	$: computedHeight = variant === 'text' ? '1em' : height;
 </script>
 
-<div 
+<div
 	class="skeleton skeleton--{animation} skeleton--{variant}"
 	style="width: {width}; height: {computedHeight}; border-radius: {computedBorderRadius};"
 	role="status"
@@ -25,16 +25,16 @@
 		position: relative;
 		overflow: hidden;
 	}
-	
+
 	.skeleton--text {
 		transform: scale(1, 0.6);
 		margin: 0.5em 0;
 	}
-	
+
 	.skeleton--pulse {
 		animation: pulse 1.5s ease-in-out infinite;
 	}
-	
+
 	.skeleton--wave::after {
 		content: '';
 		position: absolute;
@@ -52,7 +52,7 @@
 		);
 		animation: wave 1.5s linear infinite;
 	}
-	
+
 	@keyframes pulse {
 		0% {
 			opacity: 1;
@@ -64,7 +64,7 @@
 			opacity: 1;
 		}
 	}
-	
+
 	@keyframes wave {
 		0% {
 			transform: translateX(-100%);
@@ -73,18 +73,18 @@
 			transform: translateX(100%);
 		}
 	}
-	
+
 	@media (prefers-reduced-motion: reduce) {
 		.skeleton--pulse,
 		.skeleton--wave::after {
 			animation: none;
 		}
 	}
-	
+
 	:root {
 		--skeleton-bg: #e0e0e0;
 	}
-	
+
 	:global([data-theme='dark']) {
 		--skeleton-bg: #3a3a3a;
 	}

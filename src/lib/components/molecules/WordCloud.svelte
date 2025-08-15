@@ -12,10 +12,7 @@
 
 	onMount(async () => {
 		// Dynamically import d3 libraries
-		const [d3Module, cloudModule] = await Promise.all([
-			import('d3'),
-			import('d3-cloud')
-		]);
+		const [d3Module, cloudModule] = await Promise.all([import('d3'), import('d3-cloud')]);
 		d3 = d3Module;
 		cloud = cloudModule.default;
 		const layout = cloud()

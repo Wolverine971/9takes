@@ -13,17 +13,17 @@ import { z } from 'zod';
 
 // Validation schemas
 const getUrlSchema = z.object({
-  question: z.string().min(10).max(500).trim()
+	question: z.string().min(10).max(500).trim()
 });
 
 const createQuestionSchema = z.object({
-  question: z.string().min(10).max(500).trim(),
-  author_id: z.string().uuid(),
-  context: z.string().max(2000).optional().default(''),
-  url: z.string().min(1).max(200),
-  img_url: z.string().refine((val) => val.startsWith('data:image/'), {
-    message: 'Invalid image format'
-  })
+	question: z.string().min(10).max(500).trim(),
+	author_id: z.string().uuid(),
+	context: z.string().max(2000).optional().default(''),
+	url: z.string().min(1).max(200),
+	img_url: z.string().refine((val) => val.startsWith('data:image/'), {
+		message: 'Invalid image format'
+	})
 });
 
 export const load: PageServerLoad = async (event) => {
@@ -185,7 +185,7 @@ export const actions: Actions = {
 						ACL: 'public-read'
 					})
 					.promise();
-				
+
 				logger.info('Image uploaded to S3', {
 					Key,
 					userId: session.user.id

@@ -75,22 +75,23 @@ export const getBlogPosts = async (): Promise<App.BlogPost[]> => {
 
 export const getMentalHealthPosts = async (): Promise<App.BlogPost[]> => {
 	const allPosts = await getBlogPosts();
-	
+
 	// Filter for mental health posts
-	return allPosts.filter(post => {
+	return allPosts.filter((post) => {
 		// Check if the post is in the mental-health directory or has mental-health type
-		return post.loc?.includes('/mental-health/') || 
-			   (post.type && post.type.includes('mental-health')) ||
-			   post.loc?.includes('enneagram-and-mental-illness');
+		return (
+			post.loc?.includes('/mental-health/') ||
+			(post.type && post.type.includes('mental-health')) ||
+			post.loc?.includes('enneagram-and-mental-illness')
+		);
 	});
 };
 
 export const getEnneagramPosts = async (): Promise<App.BlogPost[]> => {
 	const allPosts = await getBlogPosts();
-	
+
 	// Filter for enneagram posts (excluding mental health unless specifically tagged)
-	return allPosts.filter(post => {
-		return post.loc?.includes('/enneagram-corner/') && 
-			   !post.loc?.includes('/mental-health/');
+	return allPosts.filter((post) => {
+		return post.loc?.includes('/enneagram-corner/') && !post.loc?.includes('/mental-health/');
 	});
 };

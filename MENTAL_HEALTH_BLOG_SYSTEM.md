@@ -3,6 +3,7 @@
 ## Overview
 
 This system creates a comprehensive content ecosystem for mental health blogs that includes:
+
 - Blog metadata files for audience targeting
 - Platform-specific social media content
 - Reddit research and targeting
@@ -29,60 +30,55 @@ Contains targeting and strategy information:
 
 ```json
 {
-  "title": "Blog Title",
-  "slug": "blog-slug",
-  "category": "mental-health",
-  "primaryAudience": {
-    "name": "Primary Audience Name",
-    "description": "Detailed audience description",
-    "demographics": {
-      "ageRange": "25-45",
-      "interests": ["enneagram", "parenting", "mental health"],
-      "psychographics": "Description of mindset and values"
-    }
-  },
-  "secondaryAudiences": [
-    {
-      "name": "Secondary Audience",
-      "description": "Description",
-      "overlap": "How they relate to primary audience"
-    }
-  ],
-  "personas": [
-    {
-      "name": "Persona Name",
-      "description": "Detailed persona description",
-      "painPoints": ["pain point 1", "pain point 2"],
-      "goals": ["goal 1", "goal 2"],
-      "enneagramType": 2
-    }
-  ],
-  "tags": [
-    "enneagram",
-    "mental-health",
-    "parenting",
-    "emotional-intelligence"
-  ],
-  "painPoints": [
-    "Struggling with parental guilt",
-    "Difficulty understanding child's emotions",
-    "Feeling overwhelmed by parenting decisions"
-  ],
-  "topicsAddressed": [
-    "Enneagram parenting styles",
-    "Emotional regulation for parents",
-    "Building empathy with children",
-    "Managing parental stress"
-  ],
-  "seo": {
-    "keywords": ["enneagram parenting", "mental health parenting"],
-    "targetQueries": ["how to parent with enneagram", "mental health tips for parents"]
-  },
-  "contentGoals": [
-    "Educate parents about enneagram-based parenting",
-    "Provide practical mental health strategies",
-    "Build community around conscious parenting"
-  ]
+	"title": "Blog Title",
+	"slug": "blog-slug",
+	"category": "mental-health",
+	"primaryAudience": {
+		"name": "Primary Audience Name",
+		"description": "Detailed audience description",
+		"demographics": {
+			"ageRange": "25-45",
+			"interests": ["enneagram", "parenting", "mental health"],
+			"psychographics": "Description of mindset and values"
+		}
+	},
+	"secondaryAudiences": [
+		{
+			"name": "Secondary Audience",
+			"description": "Description",
+			"overlap": "How they relate to primary audience"
+		}
+	],
+	"personas": [
+		{
+			"name": "Persona Name",
+			"description": "Detailed persona description",
+			"painPoints": ["pain point 1", "pain point 2"],
+			"goals": ["goal 1", "goal 2"],
+			"enneagramType": 2
+		}
+	],
+	"tags": ["enneagram", "mental-health", "parenting", "emotional-intelligence"],
+	"painPoints": [
+		"Struggling with parental guilt",
+		"Difficulty understanding child's emotions",
+		"Feeling overwhelmed by parenting decisions"
+	],
+	"topicsAddressed": [
+		"Enneagram parenting styles",
+		"Emotional regulation for parents",
+		"Building empathy with children",
+		"Managing parental stress"
+	],
+	"seo": {
+		"keywords": ["enneagram parenting", "mental health parenting"],
+		"targetQueries": ["how to parent with enneagram", "mental health tips for parents"]
+	},
+	"contentGoals": [
+		"Educate parents about enneagram-based parenting",
+		"Provide practical mental health strategies",
+		"Build community around conscious parenting"
+	]
 }
 ```
 
@@ -103,7 +99,7 @@ And understanding this can be a game-changer for both you AND your kids. 🧠
 
 2/9 Type 1 parents: You strive for the "perfect" parenting moment.
 
-But here's the thing—there's no such thing as perfect parenting. 
+But here's the thing—there's no such thing as perfect parenting.
 
 Your kids need to see you make mistakes. It teaches them it's okay to be human. ✨
 
@@ -119,7 +115,7 @@ What's your type? 👇
 
 ---
 
-🔄 RETWEET if you agree: 
+🔄 RETWEET if you agree:
 Mental health isn't selfish—it's essential parenting.
 
 When you take care of your emotional needs, you model healthy behavior for your children.
@@ -131,6 +127,7 @@ When you take care of your emotional needs, you model healthy behavior for your 
 What does "working on yourself" look like for your Enneagram type? 🤔
 
 ## Hashtags to Use
+
 #EnneagramParenting #MentalHealthMatters #ConsciousParenting #ParentingTips #EmotionalIntelligence #SelfAwareness #9takes
 ```
 
@@ -150,12 +147,13 @@ Visual-focused content with captions, story ideas, and carousel concepts:
 Swipe to see how each type shows up as a parent"
 
 **Slide 2-10:** Each Enneagram type with:
+
 - Type name and core fear
 - How this shows up in parenting
 - One tip for this type
 
 **Caption:**
-Your Enneagram type doesn't stop being relevant when you become a parent—it becomes MORE relevant. 
+Your Enneagram type doesn't stop being relevant when you become a parent—it becomes MORE relevant.
 
 Here's how each type tends to show up in their parenting journey, and why understanding this can transform your relationship with your kids 👇
 
@@ -179,11 +177,13 @@ What's one way you're working on yourself for your family? 👇
 ## Instagram Stories Ideas
 
 ### Story Series: "Enneagram Parent Check-ins"
+
 - Daily polls: "Which type struggles with this parenting challenge?"
 - Question stickers: "What's your biggest parenting win this week?"
 - Behind-the-scenes: "How I use my Type [X] awareness in parenting"
 
 ### Story Highlights Categories
+
 - "Parenting Tips"
 - "Type 1 Parents" (create for each type)
 - "Mental Health"
@@ -206,12 +206,15 @@ Research and community-specific content:
 ## Target Subreddits
 
 ### Primary Communities
+
 - r/Enneagram (180k members)
+
   - **Posting Strategy:** Educational posts about parenting applications
   - **Best Times:** Tuesday-Thursday, 10am-2pm EST
   - **Content Type:** Discussion posts, "How do you..." questions
 
 - r/Parenting (3.2M members)
+
   - **Posting Strategy:** Practical advice posts, share experiences
   - **Best Times:** Sunday-Tuesday, 7-9pm EST
   - **Content Type:** Support posts, resource sharing
@@ -221,6 +224,7 @@ Research and community-specific content:
   - **Content Type:** Philosophy discussions, gentle parenting tips
 
 ### Secondary Communities
+
 - r/MomentsWithFamily (25k members)
 - r/ParentingAdvice (85k members)
 - r/MBTI (400k members) - crossover audience
@@ -229,23 +233,27 @@ Research and community-specific content:
 ## Content Templates
 
 ### Educational Post
+
 **Title:** "How Your Personality Type Affects Your Parenting Style (Enneagram Perspective)"
 
 **Content:**
 I've been studying the Enneagram for [X] years and recently became a parent. I wanted to share some insights about how our personality types show up in parenting.
 
 **Type 1 (The Perfectionist):** Tends to have high standards for children, struggles with flexibility
+
 - **Challenge:** Being too critical
 - **Growth tip:** Practice "good enough" parenting
 
 [Continue for each type...]
 
 **Discussion prompts:**
+
 - What's your type and how do you see it in your parenting?
 - What struggles have you noticed?
 - Any tips for other parents of your type?
 
 ### Experience Sharing Post
+
 **Title:** "Realized my Enneagram type was affecting my kids' mental health"
 
 **Content:**
@@ -254,22 +262,26 @@ As a Type [X], I noticed I was [specific behavior pattern]. My kids started [spe
 [Personal story with specific examples and outcomes]
 
 **Questions for community:**
+
 - Has anyone else noticed this pattern?
 - What strategies have worked for you?
 
 ## Engagement Strategy
 
 ### Comment Templates
+
 - "This resonates so much as a Type [X] parent..."
 - "Adding to this - I've found that [specific tip]..."
 - "Question for other [Type X] parents: how do you handle [specific scenario]?"
 
 ### Cross-posting Strategy
+
 1. Share main insights in r/Enneagram
 2. Adapt for parenting focus in r/Parenting
 3. Create type-specific discussions in smaller communities
 
 ## Community Rules Compliance
+
 - Always add value, never just promote
 - Share personal experiences and insights
 - Engage genuinely with comments
@@ -279,16 +291,19 @@ As a Type [X], I noticed I was [specific behavior pattern]. My kids started [spe
 ## Implementation Strategy
 
 ### Phase 1: Foundation
+
 1. Create meta files for all existing mental health blogs
 2. Analyze current content for social media potential
 3. Set up file structure and templates
 
 ### Phase 2: Content Creation
+
 1. Generate platform-specific content for 5 top-performing blogs
 2. Test engagement strategies
 3. Refine templates based on performance
 
 ### Phase 3: Automation & Scaling
+
 1. Create content generation workflows
 2. Develop posting schedules
 3. Track engagement and optimize
@@ -331,6 +346,7 @@ The mental health blog system includes a structured review process to ensure con
 ### Review Files
 
 For each blog, create a review file:
+
 ```
 src/blog/enneagram/mental-health/
 ├── blog-name.md                    # Main blog post
@@ -339,6 +355,7 @@ src/blog/enneagram/mental-health/
 ```
 
 The review file tracks:
+
 - Review iterations with timestamps
 - Structured feedback questions
 - User responses and decisions

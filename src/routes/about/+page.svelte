@@ -20,22 +20,28 @@
 	/>
 	<meta name="author" content="DJ Wayne" />
 	<link rel="canonical" href="https://9takes.com/about" />
-	
+
 	<!-- Open Graph -->
 	<meta property="og:title" content="About DJ Wayne - 9takes Founder" />
-	<meta property="og:description" content="From USMC infantry to tech entrepreneur. Meet DJ Wayne, creator of 9takes, helping people build emotional intelligence through personality psychology." />
+	<meta
+		property="og:description"
+		content="From USMC infantry to tech entrepreneur. Meet DJ Wayne, creator of 9takes, helping people build emotional intelligence through personality psychology."
+	/>
 	<meta property="og:image" content="https://9takes.com/brand/djface.png" />
 	<meta property="og:url" content="https://9takes.com/about" />
 	<meta property="og:type" content="profile" />
-	
+
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@djwayne3" />
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content="About DJ Wayne - 9takes Founder" />
-	<meta name="twitter:description" content="From USMC infantry to tech entrepreneur. Meet DJ Wayne, creator of 9takes, helping people build emotional intelligence through personality psychology." />
+	<meta
+		name="twitter:description"
+		content="From USMC infantry to tech entrepreneur. Meet DJ Wayne, creator of 9takes, helping people build emotional intelligence through personality psychology."
+	/>
 	<meta name="twitter:image" content="https://9takes.com/brand/djface.png" />
-	
+
 	<!-- Structured Data for Person and Organization -->
 	<script type="application/ld+json">
 		{
@@ -50,9 +56,7 @@
 				"name": "9takes",
 				"url": "https://9takes.com",
 				"logo": "https://9takes.com/brand/aero.png",
-				"sameAs": [
-					"https://twitter.com/djwayne3"
-				]
+				"sameAs": ["https://twitter.com/djwayne3"]
 			},
 			"alumniOf": [
 				{
@@ -74,13 +78,10 @@
 			"description": "From USMC infantry to tech entrepreneur. Meet DJ Wayne, creator of 9takes, helping people build emotional intelligence through personality psychology.",
 			"image": "https://9takes.com/brand/djface.png",
 			"url": "https://9takes.com/about",
-			"sameAs": [
-				"https://twitter.com/djwayne3",
-				"https://www.linkedin.com/in/djwayne3"
-			]
+			"sameAs": ["https://twitter.com/djwayne3", "https://www.linkedin.com/in/djwayne3"]
 		}
 	</script>
-	
+
 	<!-- AboutPage Schema -->
 	<script type="application/ld+json">
 		{
@@ -141,13 +142,12 @@
 					<p class="mb-4 text-lg font-semibold">
 						Former military → Tech entrepreneur → Enneagram coach
 					</p>
-					
+
 					<p class="mb-4">
 						I built 9takes because most conversations happen in echo chambers. Your brain prefers
 						agreement—but growth lives in the tension between perspectives.
 					</p>
-					
-					
+
 					<div class="flex space-x-3">
 						<a
 							class="inline-flex items-center rounded bg-gray-100 p-3 font-semibold transition-colors duration-300 hover:bg-gray-200"
@@ -167,7 +167,9 @@
 							aria-label="Connect with DJ Wayne on LinkedIn"
 						>
 							<svg class="mr-2 h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-								<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+								<path
+									d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+								/>
 							</svg>
 							LinkedIn
 						</a>
@@ -372,7 +374,6 @@
 			<p class="text-lg">It takes effort to digest a new perspective.</p>
 		</div>
 	</section>
-	
 
 	<section
 		class="mt-12 rounded-lg border border-gray-200 bg-gradient-to-r from-gray-100 to-indigo-100 p-8 text-center"

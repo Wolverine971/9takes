@@ -12,6 +12,7 @@ pic: 'two-greek-statues-having-a-serious-conversation'
 ---
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -358,8 +359,6 @@ The latest relationship science confirms what the wisest couples have always kno
 Which conversation will you start tonight?
 
 **For a deeper dive into relationship communication patterns, check out our comprehensive guides on [navigating relationship conflict](/how-to-guides/definitive-guide-to-relationship-conflict-part-1) and [understanding different Enneagram communication styles](/enneagram-corner/enneagram-communication-styles).**
-
-
 
 <style lang="scss">
 </style>

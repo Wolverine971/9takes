@@ -34,7 +34,8 @@ Their childhood environment demanded strength beyond their years. Perhaps they g
 
 Many 8s can pinpoint the exact moment their armor locked into place. One betrayal. One abandonment. One realization that the world respects strength and exploits weakness.
 
-From that moment, their life strategy crystallized: 
+From that moment, their life strategy crystallized:
+
 - Gain power in every domain
 - Control what can be controlled
 - Never depend on anyone completely
@@ -73,7 +74,7 @@ The world divides into categories: strong/weak, friend/enemy, truth/deception. T
 8s experience life with the intensity dial turned to eleven:
 
 - When they love, they love with fierce protection
-- When they work, they work with total commitment  
+- When they work, they work with total commitment
 - When they fight, they fight to win
 - When they rest... actually, they rarely rest
 
@@ -225,6 +226,7 @@ The path forward involves recognizing that the very vulnerability they fear is t
 When 8s integrate, they move toward the healthy aspects of Type 2, "The Helper." But this isn't about becoming sweet or sacrificial. It's about discovering that power can nurture, that strength can be tender, that protection can include emotional availability.
 
 Integrated 8s learn to:
+
 - Express care through presence
 - Show strength through vulnerability
 - Lead through empowerment rather than domination
@@ -268,18 +270,13 @@ Type 8s when asked about their inner experience often reveal the following:
 
 **On the Growth Edge**: "Learning to be vulnerable with my partner was like learning to breathe underwater. Everything in me said it would kill me. It didn't. It saved me."
 
-
 ## 🤝 Type 8s In Their Own Words
 
 In this panel discussion moderated by Enneagram expert Beatrice Chestnut, a group of self-identified Type 8s share authentic insights about their lived experience with this powerful personality type. Their reflections reveal the complex internal landscape beneath the 8's imposing exterior.
 
-
-
-
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/bfMfq4g6DU4?si=LX8NB4ILDuk6OV4r" title="Enneagram 8 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
 
 </section>
 

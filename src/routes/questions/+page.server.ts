@@ -16,17 +16,14 @@ export const load: PageServerLoad = async (event) => {
 		const session = event.locals.session;
 		const page = Number(event.url.searchParams.get('page')) || 1;
 		const categoryId = event.url.searchParams.get('category');
-		
+
 		// Use optimized RPC function that combines all queries
-		const { data: pageData, error: pageDataError } = await supabase.rpc(
-			'get_questions_page_data',
-			{
-				p_user_id: session?.user?.id || null,
-				p_limit: QUESTIONS_PER_PAGE,
-				p_offset: (page - 1) * QUESTIONS_PER_PAGE,
-				p_category_id: categoryId ? parseInt(categoryId) : null
-			}
-		);
+		const { data: pageData, error: pageDataError } = await supabase.rpc('get_questions_page_data', {
+			p_user_id: session?.user?.id || null,
+			p_limit: QUESTIONS_PER_PAGE,
+			p_offset: (page - 1) * QUESTIONS_PER_PAGE,
+			p_category_id: categoryId ? parseInt(categoryId) : null
+		});
 
 		if (pageDataError) {
 			// Error('Error fetching page data:', pageDataError);
@@ -40,7 +37,9 @@ export const load: PageServerLoad = async (event) => {
 			user: session?.user,
 			canAskQuestion: pageData?.canAskQuestion || false,
 			subcategoryTags: pageData?.categories || [],
-			questionsAndTags: demo_time ? mapDemoValues(pageData?.questions || []) : (pageData?.questions || []),
+			questionsAndTags: demo_time
+				? mapDemoValues(pageData?.questions || [])
+				: pageData?.questions || [],
 			totalQuestions: pageData?.totalQuestions || 0,
 			totalAnswers: pageData?.totalAnswers || 0,
 			currentPage: page,
@@ -69,7 +68,9 @@ export const actions: Actions = {
 			}
 
 			// Single optimized Elasticsearch query
-			const { hits: { hits } } = await elasticClient.search({
+			const {
+				hits: { hits }
+			} = await elasticClient.search({
 				index: 'question',
 				body: {
 					query: {
@@ -109,7 +110,7 @@ export const actions: Actions = {
 			});
 
 			// Simplify the response structure to avoid complex serialization
-			const results = hits.map(hit => ({
+			const results = hits.map((hit) => ({
 				_source: {
 					question: hit._source.question,
 					url: hit._source.url,
@@ -118,7 +119,7 @@ export const actions: Actions = {
 					highlighted: hit.highlight?.question?.[0] || hit._source.question
 				}
 			}));
-			
+
 			return results;
 		} catch (e) {
 			// Error('Search error:', e);
@@ -134,15 +135,12 @@ export const actions: Actions = {
 			const page = parseInt(body.page as string) || 2;
 			const categoryId = body.categoryId ? parseInt(body.categoryId as string) : null;
 
-			const { data: pageData, error: loadError } = await supabase.rpc(
-				'get_questions_page_data',
-				{
-					p_user_id: locals.session?.user?.id || null,
-					p_limit: QUESTIONS_PER_PAGE,
-					p_offset: (page - 1) * QUESTIONS_PER_PAGE,
-					p_category_id: categoryId
-				}
-			);
+			const { data: pageData, error: loadError } = await supabase.rpc('get_questions_page_data', {
+				p_user_id: locals.session?.user?.id || null,
+				p_limit: QUESTIONS_PER_PAGE,
+				p_offset: (page - 1) * QUESTIONS_PER_PAGE,
+				p_category_id: categoryId
+			});
 
 			if (loadError) {
 				// Error('Load more error:', loadError);
@@ -150,7 +148,7 @@ export const actions: Actions = {
 			}
 
 			return {
-				questions: demo_time ? mapDemoValues(pageData?.questions || []) : (pageData?.questions || []),
+				questions: demo_time ? mapDemoValues(pageData?.questions || []) : pageData?.questions || [],
 				hasMore: (pageData?.questions || []).length === QUESTIONS_PER_PAGE,
 				page
 			};
@@ -182,7 +180,7 @@ export const actions: Actions = {
 			}
 
 			return {
-				questions: demo_time ? mapDemoValues(questions || []) : (questions || []),
+				questions: demo_time ? mapDemoValues(questions || []) : questions || [],
 				category: categoryId
 			};
 		} catch (e) {

@@ -29,23 +29,23 @@
 
 	// Memoized calculations
 	$: categories = processQuestionsAndTags(allQuestions);
-	$: filteredQuestions = selectedCategory 
-		? allQuestions.filter(q => q.tag_id === selectedCategory)
+	$: filteredQuestions = selectedCategory
+		? allQuestions.filter((q) => q.tag_id === selectedCategory)
 		: allQuestions;
-	$: displayedCategories = data.subcategoryTags?.filter(cat => 
-		allQuestions.some(q => q.tag_id === cat.id)
-	) || [];
+	$: displayedCategories =
+		data.subcategoryTags?.filter((cat) => allQuestions.some((q) => q.tag_id === cat.id)) || [];
 
 	// Animation settings
-	const transitionEnabled = browser && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+	const transitionEnabled =
+		browser && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 	const duration = transitionEnabled ? 300 : 0;
 
 	function processQuestionsAndTags(questions) {
 		if (!questions || questions.length === 0) return {};
-		
+
 		const grouped = {};
 		const seen = new Set();
-		
+
 		for (const question of questions) {
 			if (!seen.has(question.id)) {
 				seen.add(question.id);
@@ -54,30 +54,30 @@
 				grouped[key].push(question);
 			}
 		}
-		
+
 		return grouped;
 	}
 
 	async function loadMore() {
 		if (loadingMore || !hasMore) return;
-		
+
 		loadingMore = true;
 		errorMessage = '';
-		
+
 		try {
 			const formData = new FormData();
 			formData.append('page', String(currentPage + 1));
 			if (selectedCategory) {
 				formData.append('categoryId', String(selectedCategory));
 			}
-			
+
 			const response = await fetch('?/loadMore', {
 				method: 'POST',
 				body: formData
 			});
-			
+
 			const result = await response.json();
-			
+
 			if (result.data) {
 				allQuestions = [...allQuestions, ...(result.data.questions || [])];
 				currentPage = result.data.page;
@@ -93,12 +93,12 @@
 
 	async function filterByCategory(categoryId: number | null) {
 		if (selectedCategory === categoryId) return;
-		
+
 		loading = true;
 		selectedCategory = categoryId;
 		currentPage = 1;
 		errorMessage = '';
-		
+
 		try {
 			if (categoryId === null) {
 				// Reset to all questions
@@ -107,14 +107,14 @@
 				// Filter by category
 				const formData = new FormData();
 				formData.append('categoryId', String(categoryId));
-				
+
 				const response = await fetch('?/filterByCategory', {
 					method: 'POST',
 					body: formData
 				});
-				
+
 				const result = await response.json();
-				
+
 				if (result.data) {
 					allQuestions = result.data.questions || [];
 					hasMore = false; // Filtered results don't paginate
@@ -150,7 +150,7 @@
 				},
 				{ threshold: 0.1, rootMargin: '100px' }
 			);
-			
+
 			if (loadMoreTrigger) {
 				observer.observe(loadMoreTrigger);
 			}
@@ -241,7 +241,7 @@
 			}
 		}
 	</script>
-	
+
 	<!-- FAQ Schema for common questions about the platform -->
 	<script type="application/ld+json">
 		{
@@ -294,184 +294,166 @@
 </svelte:head>
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
-<div
-	class="questions-container"
-	class:no-animation={!transitionEnabled}
-	in:fade={{ duration }}
->
-	<!-- Header Section -->
-	<header class="questions-header">
-		{#if data?.user?.id}
-			<h1 in:fly={{ y: -20, duration, delay: 150 }}>
-				Explore your psychology and those around you
-			</h1>
-		{:else}
-			<h1 in:fly={{ y: -20, duration, delay: 150 }}>
-				Explore your psychology and those around you
-			</h1>
-			
-			<div class="header-content" in:fly={{ y: 20, duration, delay: 300 }}>
-				<p class="header-description">
-					Welcome to 9takes, where you can ask personal questions anonymously and receive answers from
-					diverse perspectives. Our unique platform allows you to explore life's questions through the
-					lens of personality types, ensuring a rich and varied discussion.
-				</p>
-				<div class="stats-row">
-					<div class="stat">
-						<strong>{data.totalQuestions || 0}</strong>
-						<span>questions asked</span>
-					</div>
-					<div class="stat">
-						<strong>{data.totalAnswers || 0}</strong>
-						<span>answers shared</span>
+	<div class="questions-container" class:no-animation={!transitionEnabled} in:fade={{ duration }}>
+		<!-- Header Section -->
+		<header class="questions-header">
+			{#if data?.user?.id}
+				<h1 in:fly={{ y: -20, duration, delay: 150 }}>
+					Explore your psychology and those around you
+				</h1>
+			{:else}
+				<h1 in:fly={{ y: -20, duration, delay: 150 }}>
+					Explore your psychology and those around you
+				</h1>
+
+				<div class="header-content" in:fly={{ y: 20, duration, delay: 300 }}>
+					<p class="header-description">
+						Welcome to 9takes, where you can ask personal questions anonymously and receive answers
+						from diverse perspectives. Our unique platform allows you to explore life's questions
+						through the lens of personality types, ensuring a rich and varied discussion.
+					</p>
+					<div class="stats-row">
+						<div class="stat">
+							<strong>{data.totalQuestions || 0}</strong>
+							<span>questions asked</span>
+						</div>
+						<div class="stat">
+							<strong>{data.totalAnswers || 0}</strong>
+							<span>answers shared</span>
+						</div>
 					</div>
 				</div>
-			</div>
-		{/if}
-	</header>
+			{/if}
+		</header>
 
-	<!-- Search Section -->
-	<div class="search-section" in:fly={{ y: 20, duration, delay: 450 }}>
-		<SearchQuestion
-			{data}
-			on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
-			on:questionSelected={({ detail }) => {
-				if (detail?.url) {
-					goto(`/questions/${detail.url}`);
-				}
-			}}
-		/>
-	</div>
-
-	<!-- Categories Section -->
-	<section
-		class="categories-section"
-		in:fly={{ y: 20, duration, delay: 600 }}
-	>
-		<div class="categories-header">
-			<h2>Browse by Category</h2>
-			<span class="category-count">{displayedCategories.length} categories</span>
+		<!-- Search Section -->
+		<div class="search-section" in:fly={{ y: 20, duration, delay: 450 }}>
+			<SearchQuestion
+				{data}
+				on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
+				on:questionSelected={({ detail }) => {
+					if (detail?.url) {
+						goto(`/questions/${detail.url}`);
+					}
+				}}
+			/>
 		</div>
-		<div class="categories-container">
-			<button
-				class="category-pill"
-				class:active={selectedCategory === null}
-				on:click={() => filterByCategory(null)}
-				disabled={loading}
-			>
-				All Questions
-			</button>
-			{#each displayedCategories as category (category.id)}
+
+		<!-- Categories Section -->
+		<section class="categories-section" in:fly={{ y: 20, duration, delay: 600 }}>
+			<div class="categories-header">
+				<h2>Browse by Category</h2>
+				<span class="category-count">{displayedCategories.length} categories</span>
+			</div>
+			<div class="categories-container">
 				<button
 					class="category-pill"
-					class:active={selectedCategory === category.id}
-					on:click={() => filterByCategory(category.id)}
+					class:active={selectedCategory === null}
+					on:click={() => filterByCategory(null)}
 					disabled={loading}
 				>
-					{category.category_name}
+					All Questions
 				</button>
-			{/each}
-		</div>
-	</section>
-
-	<!-- Error Handler -->
-	<AsyncErrorHandler 
-		error={errorMessage} 
-		{loading}
-		on:retry={() => {
-			errorMessage = '';
-			if (selectedCategory) {
-				filterByCategory(selectedCategory);
-			} else {
-				invalidateAll();
-			}
-		}}
-		on:dismiss={() => errorMessage = ''}
-	/>
-
-	<!-- Questions List -->
-	<section
-		class="questions-section"
-		in:fly={{ y: 20, duration, delay: 750 }}
-	>
-		{#if loading}
-			<!-- Loading skeletons -->
-			<div class="skeleton-list">
-				{#each Array(5) as _, i}
-					<QuestionItemSkeleton />
+				{#each displayedCategories as category (category.id)}
+					<button
+						class="category-pill"
+						class:active={selectedCategory === category.id}
+						on:click={() => filterByCategory(category.id)}
+						disabled={loading}
+					>
+						{category.category_name}
+					</button>
 				{/each}
 			</div>
-		{:else if selectedCategory}
-			<!-- Filtered view -->
-			<div class="questions-list">
-				<h3 class="category-title">
-					{displayedCategories.find(c => c.id === selectedCategory)?.category_name || 'Category'}
-				</h3>
-				{#if filteredQuestions.length === 0}
-					<p class="no-questions">No questions found in this category.</p>
-				{:else}
-					{#each filteredQuestions as questionData (questionData.id)}
-						<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
+		</section>
+
+		<!-- Error Handler -->
+		<AsyncErrorHandler
+			error={errorMessage}
+			{loading}
+			on:retry={() => {
+				errorMessage = '';
+				if (selectedCategory) {
+					filterByCategory(selectedCategory);
+				} else {
+					invalidateAll();
+				}
+			}}
+			on:dismiss={() => (errorMessage = '')}
+		/>
+
+		<!-- Questions List -->
+		<section class="questions-section" in:fly={{ y: 20, duration, delay: 750 }}>
+			{#if loading}
+				<!-- Loading skeletons -->
+				<div class="skeleton-list">
+					{#each Array(5) as _, i}
+						<QuestionItemSkeleton />
 					{/each}
-				{/if}
-			</div>
-		{:else}
-			<!-- Grouped by category view -->
-			{#each Object.entries(categories) as [categoryName, questions]}
-				<div class="category-group">
-					<h3 class="category-title" id={categoryName.replace(/\s+/g, '-')}>
-						{categoryName}
+				</div>
+			{:else if selectedCategory}
+				<!-- Filtered view -->
+				<div class="questions-list">
+					<h3 class="category-title">
+						{displayedCategories.find((c) => c.id === selectedCategory)?.category_name ||
+							'Category'}
 					</h3>
-					<div class="questions-list">
-						{#each questions as questionData (questionData.id)}
+					{#if filteredQuestions.length === 0}
+						<p class="no-questions">No questions found in this category.</p>
+					{:else}
+						{#each filteredQuestions as questionData (questionData.id)}
 							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
 						{/each}
-					</div>
+					{/if}
 				</div>
-			{/each}
-		{/if}
-
-		<!-- Load more trigger -->
-		{#if hasMore && !selectedCategory}
-			<div
-				bind:this={loadMoreTrigger}
-				class="load-more-trigger"
-				class:loading={loadingMore}
-			>
-				{#if loadingMore}
-					<div class="flex justify-center py-8">
-						<Spinner size="md" color="primary">
-							Loading more questions...
-						</Spinner>
+			{:else}
+				<!-- Grouped by category view -->
+				{#each Object.entries(categories) as [categoryName, questions]}
+					<div class="category-group">
+						<h3 class="category-title" id={categoryName.replace(/\s+/g, '-')}>
+							{categoryName}
+						</h3>
+						<div class="questions-list">
+							{#each questions as questionData (questionData.id)}
+								<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
+							{/each}
+						</div>
 					</div>
-				{/if}
-			</div>
-		{/if}
-	</section>
+				{/each}
+			{/if}
 
-	<!-- How It Works Section (for non-users) -->
-	{#if !data?.user?.id}
-		<section
-			class="how-it-works"
-			in:fly={{ y: 20, duration, delay: 900 }}
-		>
-			<h2>How It Works</h2>
-			<ol>
-				<li>Anonymously answer questions to see other answers</li>
-				<li><strong>Sign up to ask your questions anonymously</strong></li>
-				<li>Receive answers from diverse perspectives</li>
-				<li>Sort comments by personality type and learn yours</li>
-			</ol>
-			<button
-				class="cta-button"
-				on:click={() => goToCreateQuestionPage('')}
-				aria-label="Ask your question now"
-			>
-				Ask Your Question Now
-			</button>
+			<!-- Load more trigger -->
+			{#if hasMore && !selectedCategory}
+				<div bind:this={loadMoreTrigger} class="load-more-trigger" class:loading={loadingMore}>
+					{#if loadingMore}
+						<div class="flex justify-center py-8">
+							<Spinner size="md" color="primary">Loading more questions...</Spinner>
+						</div>
+					{/if}
+				</div>
+			{/if}
 		</section>
-	{/if}
-</div>
+
+		<!-- How It Works Section (for non-users) -->
+		{#if !data?.user?.id}
+			<section class="how-it-works" in:fly={{ y: 20, duration, delay: 900 }}>
+				<h2>How It Works</h2>
+				<ol>
+					<li>Anonymously answer questions to see other answers</li>
+					<li><strong>Sign up to ask your questions anonymously</strong></li>
+					<li>Receive answers from diverse perspectives</li>
+					<li>Sort comments by personality type and learn yours</li>
+				</ol>
+				<button
+					class="cta-button"
+					on:click={() => goToCreateQuestionPage('')}
+					aria-label="Ask your question now"
+				>
+					Ask Your Question Now
+				</button>
+			</section>
+		{/if}
+	</div>
 </ErrorBoundary>
 
 <style>
@@ -546,7 +528,6 @@
 		border: 1px solid var(--border-color);
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 	}
-	
 
 	.categories-header {
 		display: flex;
@@ -577,20 +558,20 @@
 		scrollbar-width: thin;
 		scrollbar-color: var(--medium-gray) transparent;
 	}
-	
+
 	.categories-container::-webkit-scrollbar {
 		width: 6px;
 	}
-	
+
 	.categories-container::-webkit-scrollbar-track {
 		background: transparent;
 	}
-	
+
 	.categories-container::-webkit-scrollbar-thumb {
 		background-color: var(--medium-gray);
 		border-radius: 3px;
 	}
-	
+
 	.categories-container::-webkit-scrollbar-thumb:hover {
 		background-color: var(--dark-gray);
 	}
@@ -689,7 +670,9 @@
 	}
 
 	@keyframes spin {
-		to { transform: rotate(360deg); }
+		to {
+			transform: rotate(360deg);
+		}
 	}
 
 	.how-it-works {
@@ -768,24 +751,24 @@
 			padding: 0.75rem;
 			margin-bottom: 1rem;
 		}
-		
+
 		.categories-header {
 			margin-bottom: 0.5rem;
 		}
-		
+
 		.categories-section h2 {
 			font-size: 0.9375rem;
 		}
-		
+
 		.category-count {
 			font-size: 0.6875rem;
 		}
-		
+
 		.categories-container {
 			max-height: 100px;
 			gap: 0.25rem;
 		}
-		
+
 		.questions-section,
 		.how-it-works {
 			padding: 1rem;
@@ -795,12 +778,12 @@
 			padding: 0.3125rem 0.75rem;
 			font-size: 0.75rem;
 		}
-		
+
 		.category-title {
 			font-size: 0.9375rem;
 			margin-bottom: 0.375rem;
 		}
-		
+
 		.category-group {
 			margin-bottom: 1rem;
 		}

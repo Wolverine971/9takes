@@ -1,60 +1,53 @@
 {
-  "title": "Understanding Neurodivergence Through the Enneagram Lens",
-  "slug": "enneagram-neurodivergence-guide",
-  "category": "mental-health",
-  "primaryAudience": {
-    "name": "Neurodivergent individuals and their families",
-    "description": "People interested in neurodivergence with Enneagram awareness",
-    "demographics": {
-      "ageRange": "25-55",
-      "interests": [
-        "enneagram",
-        "mental health",
-        "neurodivergence",
-        "ADHD",
-        "autism",
-        "different-abilities"
-      ],
-      "psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
-    }
-  },
-  "tags": [
-    "enneagram",
-    "mental-health",
-    "neurodivergence",
-    "ADHD",
-    "autism",
-    "different-abilities"
-  ],
-  "painPoints": [
-    "Feeling misunderstood",
-    "Masking behaviors",
-    "Finding accommodations"
-  ],
-  "topicsAddressed": [
-    "How each Enneagram type experiences neurodivergence",
-    "Type-specific strategies for neurodivergence",
-    "Practical tools and resources",
-    "When to seek professional help"
-  ],
-  "seo": {
-    "keywords": [
-      "enneagram neurodivergence",
-      "neurodivergence by personality type"
-    ],
-    "targetQueries": [
-      "how does enneagram affect neurodivergence",
-      "neurodivergence help for my type"
-    ]
-  },
-  "contentGoals": [
-    "Provide type-specific guidance for neurodivergence",
-    "Build understanding and reduce stigma",
-    "Connect people with appropriate resources"
-  ],
-  "socialMediaFocus": {
-    "twitter": "Educational content about neurodivergence and type-specific tips",
-    "instagram": "Visual guides and supportive content about neurodivergence",
-    "reddit": "Community support and resource sharing in relevant subreddits"
-  }
+	"title": "Understanding Neurodivergence Through the Enneagram Lens",
+	"slug": "enneagram-neurodivergence-guide",
+	"category": "mental-health",
+	"primaryAudience": {
+		"name": "Neurodivergent individuals and their families",
+		"description": "People interested in neurodivergence with Enneagram awareness",
+		"demographics": {
+			"ageRange": "25-55",
+			"interests": [
+				"enneagram",
+				"mental health",
+				"neurodivergence",
+				"ADHD",
+				"autism",
+				"different-abilities"
+			],
+			"psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
+		}
+	},
+	"tags": [
+		"enneagram",
+		"mental-health",
+		"neurodivergence",
+		"ADHD",
+		"autism",
+		"different-abilities"
+	],
+	"painPoints": ["Feeling misunderstood", "Masking behaviors", "Finding accommodations"],
+	"topicsAddressed": [
+		"How each Enneagram type experiences neurodivergence",
+		"Type-specific strategies for neurodivergence",
+		"Practical tools and resources",
+		"When to seek professional help"
+	],
+	"seo": {
+		"keywords": ["enneagram neurodivergence", "neurodivergence by personality type"],
+		"targetQueries": [
+			"how does enneagram affect neurodivergence",
+			"neurodivergence help for my type"
+		]
+	},
+	"contentGoals": [
+		"Provide type-specific guidance for neurodivergence",
+		"Build understanding and reduce stigma",
+		"Connect people with appropriate resources"
+	],
+	"socialMediaFocus": {
+		"twitter": "Educational content about neurodivergence and type-specific tips",
+		"instagram": "Visual guides and supportive content about neurodivergence",
+		"reddit": "Community support and resource sharing in relevant subreddits"
+	}
 }

@@ -185,7 +185,6 @@
 ==============================================*/
 @import 'components.scss';
 
-
 /*==============================================
   RESET & BASE STYLES
 ==============================================*/
@@ -555,7 +554,9 @@ textarea {
 	width: 100%;
 	color: hsl(222, 15%, 19%);
 	font-size: 16px;
-	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+	transition:
+		border-color 0.3s ease,
+		box-shadow 0.3s ease;
 
 	&:focus {
 		outline: none;
@@ -564,19 +565,21 @@ textarea {
 	}
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="number"],
-input[type="search"],
-input[type="url"],
-input[type="tel"],
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'],
+input[type='search'],
+input[type='url'],
+input[type='tel'],
 select {
 	border: 1px solid var(--light-gray);
 	border-radius: var(--border-radius-sm);
 	padding: 8px 12px;
 	font-size: 16px;
-	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+	transition:
+		border-color 0.3s ease,
+		box-shadow 0.3s ease;
 
 	&:focus {
 		outline: none;

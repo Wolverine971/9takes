@@ -15,6 +15,7 @@ pic: 'greek-statue-introducing-9takes'
 ---
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +67,7 @@ pic: 'greek-statue-introducing-9takes'
   }
 }
 </script>
+
 </svelte:head>
 
 <script>

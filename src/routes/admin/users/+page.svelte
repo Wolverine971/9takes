@@ -128,7 +128,7 @@
 			<div class="stat-icon">🛡️</div>
 			<div class="stat-content">
 				<h3>Admin Users</h3>
-				<p class="stat-value">{formattedProfiles?.filter(p => p.admin).length || 0}</p>
+				<p class="stat-value">{formattedProfiles?.filter((p) => p.admin).length || 0}</p>
 			</div>
 		</div>
 		<div class="stat-card">
@@ -156,10 +156,7 @@
 					<thead>
 						<tr>
 							{#each essentialColumns as column}
-								<th
-									class="sortable"
-									on:click={() => sortProfiles(column.field)}
-								>
+								<th class="sortable" on:click={() => sortProfiles(column.field)}>
 									<div class="th-content">
 										{column.label}
 										{#if sortField === column.field}
@@ -173,10 +170,7 @@
 
 							{#if showAdditionalColumns}
 								{#each additionalColumns as column}
-									<th
-										class="sortable"
-										on:click={() => sortProfiles(column.field)}
-									>
+									<th class="sortable" on:click={() => sortProfiles(column.field)}>
 										<div class="th-content">
 											{column.label}
 											{#if sortField === column.field}
@@ -281,12 +275,7 @@
 
 		<div class="form-group">
 			<label for="isAdmin">Administrator Status</label>
-			<select
-				name="isAdmin"
-				id="isAdmin"
-				bind:value={activeAdmin}
-				class="form-select"
-			>
+			<select name="isAdmin" id="isAdmin" bind:value={activeAdmin} class="form-select">
 				<option value={true}>Administrator</option>
 				<option value={false}>Regular User</option>
 			</select>
@@ -300,11 +289,7 @@
 			>
 				Cancel
 			</button>
-			<button
-				type="button"
-				class="btn btn-primary"
-				on:click={saveUserAdminChanges}
-			>
+			<button type="button" class="btn btn-primary" on:click={saveUserAdminChanges}>
 				Save Changes
 			</button>
 		</div>
@@ -348,7 +333,9 @@
 		display: flex;
 		align-items: center;
 		gap: 1rem;
-		transition: transform 0.2s ease, box-shadow 0.2s ease;
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease;
 	}
 
 	.stat-card:hover {
@@ -650,8 +637,8 @@
 		}
 
 		/* Hide less important columns on mobile */
-		.data-table th:nth-child(n+4),
-		.data-table td:nth-child(n+4) {
+		.data-table th:nth-child(n + 4),
+		.data-table td:nth-child(n + 4) {
 			display: none;
 		}
 
@@ -680,8 +667,8 @@
 		}
 
 		/* Show only essential columns on very small screens */
-		.data-table th:nth-child(n+3),
-		.data-table td:nth-child(n+3) {
+		.data-table th:nth-child(n + 3),
+		.data-table td:nth-child(n + 3) {
 			display: none;
 		}
 	}

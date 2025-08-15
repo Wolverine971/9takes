@@ -32,6 +32,7 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 **Decode social dynamics in any room.** Each Enneagram type operates on a specific emotional frequency. Spot these patterns and you'll never misread people again—turning confusion into understanding, conflict into connection.
 
 ### [Type 1: The Perfectionist](/enneagram-corner/enneagram-type-1) ➔ The Quality Controller
+
 **Core drive**: Make everything correct and improved
 **Secret fear**: Being fundamentally flawed or corrupt
 **Blind spot**: Their "helpful" criticism feels like attacks to others
@@ -39,6 +40,7 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 **Magic words**: "You clearly put thought into this. What would make it even better?"
 
 ### [Type 2: The Helper](/enneagram-corner/enneagram-type-2) ➔ The People Pleaser
+
 **Core drive**: Be needed and appreciated by others
 **Secret fear**: Being unwanted or unloved
 **Blind spot**: They give to get, creating resentment when others don't reciprocate
@@ -46,6 +48,7 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 **Magic words**: "Thank you for always thinking of others. What do YOU need right now?"
 
 ### [Type 3: The Achiever](/enneagram-corner/enneagram-type-3) ➔ The Success Machine
+
 **Core drive**: Achieve success and gain admiration
 **Secret fear**: Being worthless without achievements
 **Blind spot**: They optimize image over authenticity, losing their true self
@@ -53,6 +56,7 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 **Magic words**: "You're clearly successful. What matters to you beyond the achievements?"
 
 ### [Type 4: The Individualist](/enneagram-corner/enneagram-type-4) ➔ The Emotional Intensity
+
 **Core drive**: Find and express their authentic identity
 **Secret fear**: Having no identity or personal significance
 **Blind spot**: They romanticize suffering and reject "ordinary" happiness
@@ -60,6 +64,7 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 **Magic words**: "Your perspective is really unique. I hadn't thought about it that way."
 
 ### [Type 5: The Investigator](/enneagram-corner/enneagram-type-5) ➔ The Energy Conservationist
+
 **Core drive**: Understand the world and protect their resources
 **Secret fear**: Being overwhelmed by others' demands
 **Blind spot**: They hoard knowledge and energy, missing out on connection
@@ -67,6 +72,7 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 **Magic words**: "I'd value your expertise on this. Take your time thinking about it."
 
 ### [Type 6: The Loyalist](/enneagram-corner/enneagram-type-6) ➔ The Security Seeker
+
 **Core drive**: Find security and reliable support
 **Secret fear**: Being without support or guidance
 **Blind spot**: They create the problems they're trying to prevent through anxiety
@@ -74,6 +80,7 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 **Magic words**: "Let's think through this together. What are your main concerns?"
 
 ### [Type 7: The Enthusiast](/enneagram-corner/enneagram-type-7) ➔ The Possibility Addict
+
 **Core drive**: Experience everything life offers and avoid pain
 **Secret fear**: Being trapped in pain or deprivation
 **Blind spot**: They escape problems instead of solving them, missing depth
@@ -81,6 +88,7 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 **Magic words**: "This could be really exciting! Let's explore all the possibilities."
 
 ### [Type 8: The Challenger](/enneagram-corner/enneagram-type-8) ➔ The Power Player
+
 **Core drive**: Control their environment and protect others
 **Secret fear**: Being controlled or vulnerable
 **Blind spot**: They intimidate people while trying to help them
@@ -88,6 +96,7 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 **Magic words**: "I respect your directness. What's the bottom line here?"
 
 ### [Type 9: The Peacemaker](/enneagram-corner/enneagram-type-9) ➔ The Conflict Avoider
+
 **Core drive**: Maintain inner and outer harmony
 **Secret fear**: Loss of connection and fragmentation
 **Blind spot**: They keep peace by disappearing, losing themselves in the process

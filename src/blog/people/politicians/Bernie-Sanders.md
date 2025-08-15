@@ -384,4 +384,5 @@ What other consistent political figures might share this same Type 9 psychology?
   "@context": "http://schema.org"
 }
 </script>
+
 </svelte:head>

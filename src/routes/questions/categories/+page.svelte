@@ -73,7 +73,10 @@
 
 <svelte:head>
 	<title>9takes | Question Categories</title>
-	<meta name="description" content="Browse questions organized by category. User generated questions with comments sorted by personality type." />
+	<meta
+		name="description"
+		content="Browse questions organized by category. User generated questions with comments sorted by personality type."
+	/>
 	<link rel="canonical" href="https://9takes.com/questions/categories" />
 	<script type="application/ld+json">
 		{

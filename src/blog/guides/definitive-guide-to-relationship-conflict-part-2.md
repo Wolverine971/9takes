@@ -21,6 +21,7 @@ internal and external conflict
 </script>
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +73,7 @@ internal and external conflict
   }
 }
 </script>
+
 </svelte:head>
 
 <p class="firstLetter">This guide picks up where <a href="/how-to-guides/definitive-guide-to-relationship-conflict-part-1" >Part 1</a> left off. </p>
@@ -598,8 +600,6 @@ parasocial relationships
 self-sabotaging relationships
 anecdotal
 -->
-
-
 
 <style lang="scss">
 </style>

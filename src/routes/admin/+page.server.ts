@@ -26,7 +26,6 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	if (findUserError) {
-
 		throw error(404, {
 			message: `Error searching for user`
 		});
@@ -67,7 +66,6 @@ export const load: PageServerLoad = async (event) => {
 		dailyComments,
 		dailyQuestions
 	};
-
 };
 
 export const actions: Actions = {

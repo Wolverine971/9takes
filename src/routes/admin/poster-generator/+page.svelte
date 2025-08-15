@@ -1425,8 +1425,8 @@
 
 	/* Style form elements consistently */
 	select,
-	input[type="text"],
-	input[type="url"],
+	input[type='text'],
+	input[type='url'],
 	textarea {
 		width: 100%;
 		padding: 0.5rem;
@@ -1439,8 +1439,8 @@
 	}
 
 	select:focus,
-	input[type="text"]:focus,
-	input[type="url"]:focus,
+	input[type='text']:focus,
+	input[type='url']:focus,
 	textarea:focus {
 		outline: none;
 		border-color: var(--primary);

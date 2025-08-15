@@ -1,17 +1,22 @@
 # Content Creation Workflow
-*Last Modified: 2025-08-15*
-*Purpose: Step-by-step process for creating high-quality blog content*
+
+_Last Modified: 2025-08-15_
+_Purpose: Step-by-step process for creating high-quality blog content_
 
 ## Overview
+
 This document provides the complete workflow for creating, editing, and optimizing blog content for 9takes. Follow this process for consistent, high-quality output.
 
 ## Phase 1: Strategy & Planning
 
 ### Before You Write
+
 **Goal:** Align the idea, audience, and CTA before drafting.
 
 #### Quick Planning Template
+
 Fill this out for every piece:
+
 - **Title:** [SEO-optimized, compelling]
 - **Target Keyword:** [Primary search term]
 - **Search Volume:** [Monthly searches]
@@ -25,6 +30,7 @@ Fill this out for every piece:
 - **Internal Links:** [3-5 related posts]
 
 ### Content Type Decision Tree
+
 ```
 Is it filling a critical gap? → Priority 1
 ├── Yes + High search volume → IMMEDIATE
@@ -38,21 +44,26 @@ Is it filling a critical gap? → Priority 1
 ## Phase 2: Structure First (McPhee Method)
 
 ### The Invisible Architecture
+
 **Goal:** Make the structure strong but invisible to readers.
 
 #### Structural Options
+
 Choose based on content type:
 
 1. **Problem → Cause → Solution** (Most common)
+
    - Open with relatable problem
    - Explore root causes
    - Provide actionable solutions
 
 2. **Chronological Journey**
+
    - Past state → Present challenge → Future solution
    - Good for transformation content
 
 3. **Type-by-Type Analysis** (Enneagram standard)
+
    - Introduction to concept
    - Type 1 through Type 9
    - Synthesis and conclusion
@@ -63,31 +74,40 @@ Choose based on content type:
    - Natural FAQ format
 
 ### Beat Outline Template
+
 ```markdown
 # Title (H1)
 
 ## Hook & Promise (150 words)
+
 - Emotional/controversial opening
 - Clear promise
 - Roadmap preview
 
 ## [Core Concept] (H2)
+
 ### The Hidden Psychology (H3)
+
 - Childhood pattern
 - Adult manifestation
 - Why it matters
 
 ## [Practical Application] (H2)
+
 ### Type-Specific Strategies (H3)
+
 [Table or structured list]
 
 ## [Deep Dive Section] (H2)
+
 ### [Specific aspect] (H3)
+
 - Examples
 - Scripts
 - Tools
 
 ## Action Steps (H2)
+
 - Immediate action
 - This week
 - Long-term
@@ -100,6 +120,7 @@ Choose based on content type:
 ### Writing Guidelines
 
 #### Voice & Tone
+
 - **Direct and concise** - No fluff
 - **Psychologically insightful** - Show depth
 - **Modern but professional** - Current references
@@ -107,6 +128,7 @@ Choose based on content type:
 - **Data-driven when possible** - Back up claims
 
 #### Content Requirements
+
 - **Length:** 2,500-3,500 words optimal
 - **Time to Value:** Quick win in first 300 words
 - **Specifics:** Numbers, examples, scripts
@@ -115,6 +137,7 @@ Choose based on content type:
 - **External Authority:** 1-2 credible sources
 
 #### The 9takes Formula
+
 1. **Emotional Hook** - Start with feeling
 2. **Pattern Recognition** - "You've probably noticed..."
 3. **Psychological Insight** - "Here's why..."
@@ -125,6 +148,7 @@ Choose based on content type:
 ## Phase 4: Two-Pass Editing System
 
 ### Pass 1: Macro Edit (Structure)
+
 **Focus:** Big picture coherence
 
 - [ ] Does the lead deliver the promise?
@@ -135,6 +159,7 @@ Choose based on content type:
 - [ ] Does it resolve the tension?
 
 **Actions:**
+
 - Reorder sections if needed
 - Merge redundant parts
 - Split complex sections
@@ -142,9 +167,11 @@ Choose based on content type:
 - Strengthen transitions
 
 ### Pass 2: Micro Edit (Language)
+
 **Focus:** Sentence-level precision
 
 #### The McPhee Method
+
 1. **Box vague words** → Replace with precise terms
 2. **Green unnecessary words** → Cut 10-20%
 3. **Vary sentence rhythm** → Mix lengths
@@ -152,6 +179,7 @@ Choose based on content type:
 5. **Kill filler words:** very, really, basically, just, actually
 
 #### Quick Edit Checklist
+
 - [ ] Cut opening throat-clearing
 - [ ] Remove hedging language
 - [ ] Replace passive voice
@@ -162,6 +190,7 @@ Choose based on content type:
 ## Phase 5: SEO & Technical Optimization
 
 ### SEO Checklist
+
 - [ ] Title tag: 50-60 characters
 - [ ] Meta description: 150-160 characters
 - [ ] URL slug: Short, keyword-rich
@@ -173,6 +202,7 @@ Choose based on content type:
 - [ ] External links: 1-2 authority sites
 
 ### Technical Requirements
+
 ```markdown
 ---
 title: '[SEO Title]'
@@ -190,15 +220,18 @@ pic: 'image-name'
 ---
 
 <svelte:head>
+
 <script type="application/ld+json">
 {JSON-LD structured data}
 </script>
+
 </svelte:head>
 ```
 
 ## Phase 6: Final Review & Publishing
 
 ### Pre-Publishing Checklist
+
 - [ ] Fact-check all claims
 - [ ] Test all links
 - [ ] Check mobile formatting
@@ -209,6 +242,7 @@ pic: 'image-name'
 - [ ] Set up tracking
 
 ### Post-Publishing Actions
+
 1. Create social media adaptations
 2. Add to relevant hub pages
 3. Update related posts with links
@@ -219,6 +253,7 @@ pic: 'image-name'
 ## Quality Standards
 
 ### Must-Haves
+
 ✅ Clear value proposition
 ✅ Actionable takeaways
 ✅ Type-specific insights
@@ -228,6 +263,7 @@ pic: 'image-name'
 ✅ Accessible language
 
 ### Never Include
+
 ❌ Unsubstantiated claims
 ❌ Excessive jargon
 ❌ Walls of text
@@ -239,12 +275,14 @@ pic: 'image-name'
 ## Templates & Tools
 
 ### Quick Reference
+
 - [Blog optimization framework](/docs/writing-system/02-blog-optimization-framework.md)
 - [McPhee editing method](/docs/writing-system/03-mcphee-editing-method.md)
 - [Content examples](/docs/writing-system/04-content-patterns-library.md)
 - [SEO checklist](/docs/seo/seo-optimization-checklist.md)
 
 ### External Tools
+
 - Hemingway Editor (readability)
 - Grammarly (grammar/spelling)
 - CoSchedule Headline Analyzer
@@ -254,6 +292,7 @@ pic: 'image-name'
 ## Success Metrics
 
 ### Engagement Metrics
+
 - **Time on page:** 3+ minutes
 - **Scroll depth:** 75%+
 - **Bounce rate:** <50%
@@ -261,12 +300,14 @@ pic: 'image-name'
 - **Comments:** 5+
 
 ### SEO Metrics
+
 - **Page 1 ranking:** Within 30 days
 - **Featured snippet:** Within 60 days
 - **Click-through rate:** 5%+
 - **Organic traffic:** Growing 20% monthly
 
 ### Business Metrics
+
 - **Email captures:** 2-3% of visitors
 - **CTA clicks:** 5-10% of readers
 - **Product interest:** Tracked via UTM
@@ -274,4 +315,4 @@ pic: 'image-name'
 
 ---
 
-*This workflow ensures consistent, high-quality content that serves readers while building domain authority and driving business goals.*
+_This workflow ensures consistent, high-quality content that serves readers while building domain authority and driving business goals._

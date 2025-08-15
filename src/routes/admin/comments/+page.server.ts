@@ -10,7 +10,7 @@ import { getCommentParents } from '../../../utils/conversions';
 
 // Validation schemas
 const commentActionSchema = z.object({
-  commentId: z.string().uuid('Invalid comment ID format')
+	commentId: z.string().uuid('Invalid comment ID format')
 });
 
 /**

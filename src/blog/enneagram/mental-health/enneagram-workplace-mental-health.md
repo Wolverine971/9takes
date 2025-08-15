@@ -14,7 +14,7 @@ previewHtml: ''
 pic: 'enneagram-workplace-mental-health'
 ---
 
-<!-- 
+<!--
 NOTES:
 - How each type experiences workplace stress
 - Burnout patterns by type
@@ -38,6 +38,7 @@ Understanding how your type experiences workplace stress, recognizes burnout sig
 ### Why Type Matters in Workplace Wellness
 
 Each Enneagram type has:
+
 - **Unique stress triggers** in professional settings
 - **Different burnout patterns** and warning signs
 - **Specific needs** for psychological safety
@@ -55,6 +56,7 @@ Each Enneagram type has:
 ### How Type 1s Experience Work Stress
 
 **Primary Stressors**:
+
 - Unclear standards or expectations
 - Inefficient systems and processes
 - Ethical compromises
@@ -62,6 +64,7 @@ Each Enneagram type has:
 - Work-life imbalance
 
 **Stress Response**:
+
 - Increased criticism and rigidity
 - Physical tension and headaches
 - Obsessive quality checking
@@ -71,6 +74,7 @@ Each Enneagram type has:
 ### Type 1 Burnout Pattern
 
 **Early Warning Signs**:
+
 - Working longer hours to "fix" everything
 - Increasing irritability with colleagues
 - Physical symptoms (back pain, TMJ)
@@ -78,6 +82,7 @@ Each Enneagram type has:
 - Loss of perspective on priorities
 
 **Full Burnout Looks Like**:
+
 - Complete exhaustion
 - Cynicism about workplace
 - Health problems
@@ -87,13 +92,16 @@ Each Enneagram type has:
 ### Preventing Burnout for Type 1s
 
 #### Individual Strategies
+
 1. **Set "Good Enough" Standards**
+
    - Define minimum acceptable quality
    - Practice selective perfectionism
    - Time-box tasks
    - Celebrate completion over perfection
 
 2. **Build in Flexibility**
+
    - Schedule buffer time
    - Plan for mistakes
    - Create "improvement" lists for later
@@ -106,6 +114,7 @@ Each Enneagram type has:
    - Boundary setting with work hours
 
 #### Organizational Support
+
 - Clear role definitions and expectations
 - Regular feedback (not just criticism)
 - Ethics-aligned company values
@@ -115,6 +124,7 @@ Each Enneagram type has:
 ### Type 1 Thriving at Work
 
 **Ideal Conditions**:
+
 - Clear standards with autonomy
 - Ethical alignment
 - Quality-focused culture
@@ -122,6 +132,7 @@ Each Enneagram type has:
 - Work-life balance support
 
 **Warning Signs to Address**:
+
 - "Nothing is ever good enough"
 - Working through illness
 - Alienating team members
@@ -132,6 +143,7 @@ Each Enneagram type has:
 ### How Type 2s Experience Work Stress
 
 **Primary Stressors**:
+
 - Lack of appreciation
 - Competitive environments
 - Being unable to help
@@ -139,6 +151,7 @@ Each Enneagram type has:
 - Own needs ignored
 
 **Stress Response**:
+
 - Over-extending to prove value
 - Emotional manipulation
 - Passive-aggressive behavior
@@ -148,6 +161,7 @@ Each Enneagram type has:
 ### Type 2 Burnout Pattern
 
 **Early Warning Signs**:
+
 - Taking on others' work
 - Skipping breaks to help
 - Feeling indispensable
@@ -155,6 +169,7 @@ Each Enneagram type has:
 - Hidden resentment
 
 **Full Burnout Looks Like**:
+
 - Complete emotional depletion
 - Feeling used and unappreciated
 - Physical illness
@@ -164,13 +179,16 @@ Each Enneagram type has:
 ### Preventing Burnout for Type 2s
 
 #### Individual Strategies
+
 1. **Establish Helper Boundaries**
+
    - Set "office hours" for helping
    - Practice saying "I can't right now"
    - Schedule self-care first
    - Track your own achievements
 
 2. **Direct Communication**
+
    - Ask for what you need
    - Express feelings directly
    - Avoid emotional manipulation
@@ -183,6 +201,7 @@ Each Enneagram type has:
    - Separate worth from helping
 
 #### Organizational Support
+
 - Recognition programs
 - Team appreciation culture
 - Clear job boundaries
@@ -192,6 +211,7 @@ Each Enneagram type has:
 ### Type 2 Thriving at Work
 
 **Ideal Conditions**:
+
 - Collaborative environment
 - Regular appreciation
 - Clear role boundaries
@@ -199,6 +219,7 @@ Each Enneagram type has:
 - Emotional intelligence valued
 
 **Warning Signs to Address**:
+
 - "I'm the only one who cares"
 - Neglecting own projects
 - Emotional outbursts
@@ -209,6 +230,7 @@ Each Enneagram type has:
 ### How Type 3s Experience Work Stress
 
 **Primary Stressors**:
+
 - Failure or perceived failure
 - Lack of recognition
 - Inefficient systems
@@ -216,6 +238,7 @@ Each Enneagram type has:
 - Imposter syndrome
 
 **Stress Response**:
+
 - Workaholism escalation
 - Emotional disconnection
 - Competition intensifies
@@ -225,6 +248,7 @@ Each Enneagram type has:
 ### Type 3 Burnout Pattern
 
 **Early Warning Signs**:
+
 - Working unsustainable hours
 - Losing touch with feelings
 - Relationships suffering
@@ -232,6 +256,7 @@ Each Enneagram type has:
 - Success feels empty
 
 **Full Burnout Looks Like**:
+
 - Complete identity crisis
 - Severe depression
 - Physical collapse
@@ -241,13 +266,16 @@ Each Enneagram type has:
 ### Preventing Burnout for Type 3s
 
 #### Individual Strategies
+
 1. **Redefine Success**
+
    - Include wellbeing metrics
    - Value process not just outcomes
    - Set sustainable goals
    - Measure growth not just achievement
 
 2. **Emotional Check-ins**
+
    - Daily feeling inventory
    - Regular therapy/coaching
    - Vulnerability practice
@@ -260,6 +288,7 @@ Each Enneagram type has:
    - Rest as productivity
 
 #### Organizational Support
+
 - Sustainable performance metrics
 - Work-life balance modeling
 - Mental health days
@@ -269,6 +298,7 @@ Each Enneagram type has:
 ### Type 3 Thriving at Work
 
 **Ideal Conditions**:
+
 - Clear success metrics
 - Growth opportunities
 - Recognition for healthy achievement
@@ -276,6 +306,7 @@ Each Enneagram type has:
 - Wellbeing prioritized
 
 **Warning Signs to Address**:
+
 - "I am my achievements"
 - Working while sick
 - Lying about limitations
@@ -286,6 +317,7 @@ Each Enneagram type has:
 ### How Type 4s Experience Work Stress
 
 **Primary Stressors**:
+
 - Feeling misunderstood
 - Mundane/meaningless tasks
 - Lack of creativity
@@ -293,6 +325,7 @@ Each Enneagram type has:
 - Emotional intensity at work
 
 **Stress Response**:
+
 - Withdrawal and isolation
 - Emotional volatility
 - Productivity swings
@@ -302,6 +335,7 @@ Each Enneagram type has:
 ### Type 4 Burnout Pattern
 
 **Early Warning Signs**:
+
 - Increasing moodiness
 - Creative blocks
 - Feeling alienated
@@ -309,6 +343,7 @@ Each Enneagram type has:
 - Envy of others
 
 **Full Burnout Looks Like**:
+
 - Severe depression
 - Complete withdrawal
 - Unable to work
@@ -318,13 +353,16 @@ Each Enneagram type has:
 ### Preventing Burnout for Type 4s
 
 #### Individual Strategies
+
 1. **Create Meaning**
+
    - Connect work to values
    - Find creative outlets
    - Personalize workspace
    - Build authentic relationships
 
 2. **Emotional Regulation**
+
    - Mood tracking
    - Grounding techniques
    - Regular creative time
@@ -337,6 +375,7 @@ Each Enneagram type has:
    - Meaningful projects
 
 #### Organizational Support
+
 - Creative expression opportunities
 - Flexible work arrangements
 - Meaningful work alignment
@@ -346,6 +385,7 @@ Each Enneagram type has:
 ### Type 4 Thriving at Work
 
 **Ideal Conditions**:
+
 - Creative freedom
 - Meaningful work
 - Authentic relationships
@@ -353,6 +393,7 @@ Each Enneagram type has:
 - Emotional depth appreciated
 
 **Warning Signs to Address**:
+
 - "No one understands me"
 - Extreme mood swings
 - Creative paralysis
@@ -363,6 +404,7 @@ Each Enneagram type has:
 ### How Type 5s Experience Work Stress
 
 **Primary Stressors**:
+
 - Open office environments
 - Excessive meetings
 - Emotional demands
@@ -370,6 +412,7 @@ Each Enneagram type has:
 - Energy depletion
 
 **Stress Response**:
+
 - Extreme withdrawal
 - Communication shutdown
 - Hoarding resources
@@ -379,6 +422,7 @@ Each Enneagram type has:
 ### Type 5 Burnout Pattern
 
 **Early Warning Signs**:
+
 - Avoiding all interaction
 - Skipping meals
 - Information overload
@@ -386,6 +430,7 @@ Each Enneagram type has:
 - Isolation extreme
 
 **Full Burnout Looks Like**:
+
 - Complete withdrawal
 - Unable to function
 - Severe anxiety
@@ -395,13 +440,16 @@ Each Enneagram type has:
 ### Preventing Burnout for Type 5s
 
 #### Individual Strategies
+
 1. **Energy Management**
+
    - Limited meeting days
    - Quiet workspace
    - Regular alone time
    - Clear boundaries
 
 2. **Communication Strategies**
+
    - Written updates preferred
    - Agenda-driven meetings
    - Minimal small talk
@@ -414,6 +462,7 @@ Each Enneagram type has:
    - Sleep prioritization
 
 #### Organizational Support
+
 - Remote work options
 - Private workspace
 - Asynchronous communication
@@ -423,6 +472,7 @@ Each Enneagram type has:
 ### Type 5 Thriving at Work
 
 **Ideal Conditions**:
+
 - Autonomous work
 - Intellectual challenges
 - Minimal social demands
@@ -430,6 +480,7 @@ Each Enneagram type has:
 - Expertise valued
 
 **Warning Signs to Address**:
+
 - "People are exhausting"
 - Skipping basic needs
 - Complete isolation
@@ -440,6 +491,7 @@ Each Enneagram type has:
 ### How Type 6s Experience Work Stress
 
 **Primary Stressors**:
+
 - Job insecurity
 - Unclear expectations
 - Untrustworthy leadership
@@ -447,6 +499,7 @@ Each Enneagram type has:
 - Conflicting demands
 
 **Stress Response**:
+
 - Anxiety spirals
 - Hypervigilance
 - Authority testing
@@ -456,6 +509,7 @@ Each Enneagram type has:
 ### Type 6 Burnout Pattern
 
 **Early Warning Signs**:
+
 - Constant worry
 - Sleep disruption
 - Trust issues
@@ -463,6 +517,7 @@ Each Enneagram type has:
 - Physical anxiety
 
 **Full Burnout Looks Like**:
+
 - Panic attacks
 - Complete mistrust
 - Unable to decide
@@ -472,13 +527,16 @@ Each Enneagram type has:
 ### Preventing Burnout for Type 6s
 
 #### Individual Strategies
+
 1. **Anxiety Management**
+
    - Daily grounding practices
    - Worst-case planning
    - Reality checking
    - Support network
 
 2. **Build Security**
+
    - Clear role documentation
    - Regular check-ins
    - Skill building
@@ -491,6 +549,7 @@ Each Enneagram type has:
    - Inner authority
 
 #### Organizational Support
+
 - Job security messaging
 - Clear communication
 - Consistent leadership
@@ -500,6 +559,7 @@ Each Enneagram type has:
 ### Type 6 Thriving at Work
 
 **Ideal Conditions**:
+
 - Stable environment
 - Trustworthy leadership
 - Clear expectations
@@ -507,6 +567,7 @@ Each Enneagram type has:
 - Security valued
 
 **Warning Signs to Address**:
+
 - "What if everything goes wrong?"
 - Testing behaviors
 - Anxiety interference
@@ -517,6 +578,7 @@ Each Enneagram type has:
 ### How Type 7s Experience Work Stress
 
 **Primary Stressors**:
+
 - Boredom/repetition
 - Micromanagement
 - Limiting structures
@@ -524,6 +586,7 @@ Each Enneagram type has:
 - Lack of variety
 
 **Stress Response**:
+
 - Scattered attention
 - Commitment avoidance
 - Pleasure seeking
@@ -533,6 +596,7 @@ Each Enneagram type has:
 ### Type 7 Burnout Pattern
 
 **Early Warning Signs**:
+
 - Multiple project juggling
 - Avoiding difficulties
 - Substance use increase
@@ -540,6 +604,7 @@ Each Enneagram type has:
 - Fun becomes frantic
 
 **Full Burnout Looks Like**:
+
 - Hidden depression
 - Complete overwhelm
 - Nothing brings joy
@@ -549,13 +614,16 @@ Each Enneagram type has:
 ### Preventing Burnout for Type 7s
 
 #### Individual Strategies
+
 1. **Structured Freedom**
+
    - Variety within limits
    - Completion rewards
    - Difficult task scheduling
    - Pain processing time
 
 2. **Depth Practice**
+
    - One thing deeply
    - Emotional check-ins
    - Mindfulness training
@@ -568,6 +636,7 @@ Each Enneagram type has:
    - Team variety
 
 #### Organizational Support
+
 - Project variety
 - Innovation culture
 - Flexible scheduling
@@ -577,6 +646,7 @@ Each Enneagram type has:
 ### Type 7 Thriving at Work
 
 **Ideal Conditions**:
+
 - Dynamic environment
 - Multiple projects
 - Learning opportunities
@@ -584,6 +654,7 @@ Each Enneagram type has:
 - Future focused
 
 **Warning Signs to Address**:
+
 - "Everything's fine!" (when not)
 - Avoiding all negativity
 - Scattered priorities
@@ -594,6 +665,7 @@ Each Enneagram type has:
 ### How Type 8s Experience Work Stress
 
 **Primary Stressors**:
+
 - Micromanagement
 - Perceived injustice
 - Incompetent leadership
@@ -601,6 +673,7 @@ Each Enneagram type has:
 - Lack of control
 
 **Stress Response**:
+
 - Aggressive confrontation
 - Taking over everything
 - Trust destruction
@@ -610,6 +683,7 @@ Each Enneagram type has:
 ### Type 8 Burnout Pattern
 
 **Early Warning Signs**:
+
 - Anger escalation
 - Working solo
 - Physical symptoms
@@ -617,6 +691,7 @@ Each Enneagram type has:
 - Control obsession
 
 **Full Burnout Looks Like**:
+
 - Complete rage
 - Trust obliterated
 - Physical breakdown
@@ -626,13 +701,16 @@ Each Enneagram type has:
 ### Preventing Burnout for Type 8s
 
 #### Individual Strategies
+
 1. **Channel Intensity**
+
    - Physical exercise
    - Protective leadership
    - Justice projects
    - Controlled vulnerability
 
 2. **Trust Building**
+
    - Choose battles
    - Strategic alliances
    - Gradual openness
@@ -645,6 +723,7 @@ Each Enneagram type has:
    - Long-term vision
 
 #### Organizational Support
+
 - Autonomy respect
 - Direct communication
 - Justice culture
@@ -654,6 +733,7 @@ Each Enneagram type has:
 ### Type 8 Thriving at Work
 
 **Ideal Conditions**:
+
 - Leadership roles
 - Autonomy high
 - Direct communication
@@ -661,6 +741,7 @@ Each Enneagram type has:
 - Impact visible
 
 **Warning Signs to Address**:
+
 - "I'll do it all myself"
 - Crushing opposition
 - Health ignored
@@ -671,6 +752,7 @@ Each Enneagram type has:
 ### How Type 9s Experience Work Stress
 
 **Primary Stressors**:
+
 - Conflict situations
 - Being overlooked
 - Pressure for decisions
@@ -678,6 +760,7 @@ Each Enneagram type has:
 - Disharmony in team
 
 **Stress Response**:
+
 - Procrastination increase
 - Passive resistance
 - Energy depletion
@@ -687,6 +770,7 @@ Each Enneagram type has:
 ### Type 9 Burnout Pattern
 
 **Early Warning Signs**:
+
 - Falling behind
 - Everyone's priority but own
 - Exhaustion constant
@@ -694,6 +778,7 @@ Each Enneagram type has:
 - Resentment hidden
 
 **Full Burnout Looks Like**:
+
 - Complete shutdown
 - Unable to engage
 - Depression severe
@@ -703,13 +788,16 @@ Each Enneagram type has:
 ### Preventing Burnout for Type 9s
 
 #### Individual Strategies
+
 1. **Priority Clarity**
+
    - Top 3 focus
    - Daily priorities
    - Saying no practice
    - Energy tracking
 
 2. **Voice Development**
+
    - Opinion sharing
    - Meeting participation
    - Boundary setting
@@ -722,6 +810,7 @@ Each Enneagram type has:
    - Self-advocacy
 
 #### Organizational Support
+
 - Clear priorities
 - Voice encouragement
 - Conflict resolution
@@ -731,6 +820,7 @@ Each Enneagram type has:
 ### Type 9 Thriving at Work
 
 **Ideal Conditions**:
+
 - Harmonious team
 - Clear priorities
 - Voice valued
@@ -738,6 +828,7 @@ Each Enneagram type has:
 - Peace with purpose
 
 **Warning Signs to Address**:
+
 - "It doesn't matter"
 - Chronic lateness
 - Forgetting self
@@ -748,11 +839,13 @@ Each Enneagram type has:
 ### Universal Principles
 
 1. **Psychological Safety**
+
    - All types need different safety
    - Create multiple pathways
    - Honor diverse needs
 
 2. **Flexible Policies**
+
    - Work style options
    - Communication choices
    - Success metrics variety
@@ -815,6 +908,7 @@ For organizations, supporting type diversity means creating environments where a
 Remember: Your type's challenges at work are also doorways to development. With awareness, support, and type-appropriate strategies, you can build a career that honors both your professional goals and your mental health.
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -859,6 +953,7 @@ Remember: Your type's challenges at work are also doorways to development. With 
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

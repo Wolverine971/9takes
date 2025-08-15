@@ -423,7 +423,7 @@
 <style lang="scss">
 	a {
 		display: flex;
-		
+
 		&::after {
 			content: none !important;
 		}

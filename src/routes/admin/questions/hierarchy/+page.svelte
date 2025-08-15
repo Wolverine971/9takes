@@ -22,7 +22,7 @@
 		<h1 class="text-2xl font-bold text-neutral-900">Category Hierarchy</h1>
 		<p class="text-neutral-600">View and manage question category structure</p>
 	</div>
-	
+
 	<div class="rounded-lg bg-white p-6 shadow-md">
 		{#each categories as category}
 			<CategoryTree {category} />

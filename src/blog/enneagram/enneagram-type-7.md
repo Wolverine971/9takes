@@ -254,9 +254,6 @@ In panel discussions and personal accounts, Self-identified Type 7s offer valuab
 
 These firsthand accounts reveal the lived experience behind the theoretical framework—showing how Type 7s navigate their unique perspective and the growth challenges and opportunities they encounter. Their stories highlight both the gifts of the Seven perspective and the potential for integration and balance that comes through self-awareness and intentional development.
 
-
-
-
 </section>
 
 <section class="section-content">

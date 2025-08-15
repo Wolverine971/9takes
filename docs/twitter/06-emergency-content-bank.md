@@ -1,9 +1,11 @@
 # Emergency Content Bank
-*Last Modified: 2025-08-15*
+
+_Last Modified: 2025-08-15_
 
 ## When You're Stuck: Quick Posts
 
 ### The "Did You Know" Series
+
 ```
 Did you know Type 2s give to avoid receiving?
 
@@ -37,6 +39,7 @@ The peacemaker who lost their peace.
 ---
 
 ### The "Spot the Type" Series
+
 ```
 Spot the Type 1:
 
@@ -76,6 +79,7 @@ Spot the Type 3:
 ---
 
 ### The "Wrong Answers Only" Series
+
 ```
 Why do Type 5s need so much alone time?
 
@@ -103,6 +107,7 @@ Wrong answers only 👇
 ---
 
 ### The "[Type] Things" Series
+
 ```
 Type 2 things:
 
@@ -130,6 +135,7 @@ Too real? 😅
 ---
 
 ### One-Liner Observations
+
 ```
 Type 1s don't have standards. Standards have them.
 ```
@@ -149,6 +155,7 @@ Type 8s don't have feelings. They have strategic emotional investments.
 ---
 
 ### Controversial Takes
+
 ```
 Hot take:
 
@@ -185,6 +192,7 @@ Except it actually works.
 ---
 
 ### Personal Confessions
+
 ```
 Type [X] confession:
 
@@ -213,6 +221,7 @@ Growth isn't linear, friends.
 ---
 
 ### Question Starters
+
 ```
 Real question:
 
@@ -243,6 +252,7 @@ The pattern will shock you.
 ---
 
 ### Mini Thread Starters
+
 ```
 1/ Every type has a superpower nobody talks about:
 ```
@@ -264,6 +274,7 @@ The pattern will shock you.
 ### Seasonal/Timely Content
 
 **Monday Energy:**
+
 ```
 Monday by Enneagram type:
 
@@ -281,6 +292,7 @@ How's your Monday?
 ```
 
 **Friday Mood:**
+
 ```
 Friday night by type:
 
@@ -300,6 +312,7 @@ What's your Friday vibe?
 ---
 
 ### Meme-able Content
+
 ```
 Nobody:
 
@@ -339,6 +352,7 @@ Type 9: Someone suggested it
 ---
 
 ### Reply Bait
+
 ```
 Your type = your toxic trait
 
@@ -360,6 +374,7 @@ I'll go first: [behavior]
 ---
 
 ### Wisdom Drops
+
 ```
 The Enneagram isn't about changing who you are.
 
@@ -389,18 +404,23 @@ Until we see them.
 ## Quick Creation Formulas
 
 ### Formula 1: Type + Situation + Truth
+
 "Type [X] at [situation]: [funny/true observation]"
 
 ### Formula 2: Question + Wrong Answers
+
 "Why do Type [X]s [behavior]? Wrong answers only"
 
 ### Formula 3: Spot the Type
+
 "You know someone's Type [X] when they [specific behaviors]"
 
 ### Formula 4: Confession
+
 "My Type [X] confession: [vulnerable truth]"
 
 ### Formula 5: Hot Take
+
 "Controversial: [spicy opinion about types]"
 
 ---

@@ -147,7 +147,7 @@ The person who color-codes their calendar suddenly can't get out of bed. The one
 Week 1: "This project needs minor adjustments"  
 Week 2: "Nothing I do is ever good enough"  
 Week 3: "I'm fundamentally broken"  
-Week 4: *Listening to Adele on repeat while journaling about their pain*
+Week 4: _Listening to Adele on repeat while journaling about their pain_
 
 #### 🚨 **Red Alert Warning Signs**
 
@@ -160,7 +160,7 @@ Week 4: *Listening to Adele on repeat while journaling about their pain*
 #### **Inside the Type 1's Stressed Brain**
 
 **The Internal Monologue:**  
-*"I tried so hard to be perfect, but I'm the most flawed person alive. Everyone else seems to manage life while I'm falling apart. Maybe I'm just fundamentally defective."*
+_"I tried so hard to be perfect, but I'm the most flawed person alive. Everyone else seems to manage life while I'm falling apart. Maybe I'm just fundamentally defective."_
 
 **What's Actually Happening:**  
 Your inner critic got so loud it broke your system. Now you're swinging to the opposite extreme—from rigid control to emotional chaos.
@@ -168,17 +168,20 @@ Your inner critic got so loud it broke your system. Now you're swinging to the o
 #### 💊 **Emergency Recovery Plan for Type 1s**
 
 **Immediate Circuit Breaker:**
+
 1. Stop whatever you're perfecting RIGHT NOW
 2. Set a timer for 10 minutes
 3. Do something "badly" on purpose (messy drawing, terrible dancing, off-key singing)
 4. Notice: The world didn't end
 
 **The 48-Hour Reset:**
+
 - **Hour 1-12:** No fixing, editing, or improving anything
 - **Hour 12-24:** Watch comedy, not documentaries
 - **Hour 24-48:** Call someone who loves your imperfect self
 
 **Long-term Prevention:**
+
 - Schedule weekly "good enough" practice
 - Create a "done list" not a "perfect list"
 - Find one person who celebrates your mistakes
@@ -206,7 +209,7 @@ Remember that friend who brought soup when you were sick? They're now listing ev
 Monday: "Let me help you with that!"  
 Tuesday: "I do everything around here."  
 Wednesday: "You're all ungrateful parasites."  
-Thursday: *Flips table*
+Thursday: _Flips table_
 
 #### 🚨 **Warning: Helper About to Explode**
 
@@ -219,7 +222,7 @@ Thursday: *Flips table*
 #### **Inside the Type 2's Pressure Cooker**
 
 **The Breaking Point Thought:**  
-*"I've given EVERYTHING and received NOTHING. Time to collect what I'm owed—with interest."*
+_"I've given EVERYTHING and received NOTHING. Time to collect what I'm owed—with interest."_
 
 **The Scariest Part:**  
 Years of suppressed needs erupting all at once. Every swallowed boundary, every fake "it's okay," every moment of self-abandonment demanding payback NOW.
@@ -227,17 +230,20 @@ Years of suppressed needs erupting all at once. Every swallowed boundary, every 
 #### 🛡️ **Damage Control for Type 2s**
 
 **Before You Explode:**
+
 1. Count to 10 (or 100)
 2. Write the angry text—don't send it
 3. Ask yourself: "What do I actually need right now?"
 4. Say it out loud to yourself first
 
 **The Recovery Protocol:**
+
 - **Day 1:** Cancel all helping for 24 hours
 - **Day 2:** Make a list of YOUR needs (yes, you have them)
 - **Day 3:** Ask for one thing without explaining why you deserve it
 
 **Prevention Strategy:**
+
 - Daily needs check-in (morning)
 - Weekly boundary setting practice
 - Monthly "selfish day" (non-negotiable)
@@ -264,7 +270,7 @@ The person with seventeen side hustles is now binge-watching Netflix in yesterda
 
 Monday: "I'll finish this tomorrow"  
 Tuesday: "What's the point of any of this?"  
-Wednesday: *Scrolling LinkedIn feeling nothing*  
+Wednesday: _Scrolling LinkedIn feeling nothing_  
 Thursday: "Maybe I'll just... disappear"
 
 #### 🚨 **System Failure Warning Signs**
@@ -278,7 +284,7 @@ Thursday: "Maybe I'll just... disappear"
 #### **Inside the Achiever's Void**
 
 **The Collapse Thought:**  
-*"None of it matters. All that climbing, all that striving—for what? I'm tired of performing. I just want to disappear."*
+_"None of it matters. All that climbing, all that striving—for what? I'm tired of performing. I just want to disappear."_
 
 **The Hidden Terror:**  
 Without achievement, who are you? The answer feels like: nobody.
@@ -286,17 +292,20 @@ Without achievement, who are you? The answer feels like: nobody.
 #### ⚡ **Reboot Protocol for Type 3s**
 
 **Emergency Restart:**
+
 1. Close all productivity apps NOW
 2. Do absolutely nothing for 1 hour
 3. Ask: "What would I do if nobody was watching?"
 4. Do that thing
 
 **The Comeback Plan:**
+
 - **Week 1:** One small task per day (just one)
 - **Week 2:** Remember why you started
 - **Week 3:** Reconnect with one person who knew you before success
 
 **Prevention Mode:**
+
 - Schedule weekly "being" time (not doing)
 - Find one person who loves your failures
 - Practice saying "I don't know" daily
@@ -324,7 +333,7 @@ The person who prided themselves on being "different" is now desperately trying 
 Hour 1: "I don't need anyone"  
 Hour 12: "Why haven't they texted back?"  
 Hour 24: "Do you still care about me?"  
-Hour 48: *Showing up at their door uninvited*
+Hour 48: _Showing up at their door uninvited_
 
 #### 🚨 **Desperation Alert Signals**
 
@@ -337,7 +346,7 @@ Hour 48: *Showing up at their door uninvited*
 #### **Inside the Type 4's Panic**
 
 **The Desperate Thought:**  
-*"I'm so unique that I'm alone. Maybe if I make myself indispensable, someone will finally stay."*
+_"I'm so unique that I'm alone. Maybe if I make myself indispensable, someone will finally stay."_
 
 **The Tragic Irony:**  
 The more they cling, the more people pull away, confirming their worst fear.
@@ -345,17 +354,20 @@ The more they cling, the more people pull away, confirming their worst fear.
 #### 🎨 **Emergency Dignity Restoration**
 
 **Stop the Spiral:**
+
 1. Put down the phone
 2. No contact for 24 hours
 3. Create something (anything) alone
 4. Remember: Your worth isn't in being needed
 
 **The Recovery Path:**
+
 - **Day 1:** No relationship talk
 - **Day 2:** Focus on creating, not connecting
 - **Day 3:** Find beauty in solitude again
 
 **Long-term Fix:**
+
 - Daily creative practice (solo)
 - Weekly "no validation" challenge
 - Build identity beyond relationships
@@ -387,7 +399,7 @@ The person who needs three days to recover from a coffee date is suddenly at eve
 Week 1: "I need some space"  
 Week 2: "Maybe I'll go to that thing"  
 Week 3: "YES to everything!"  
-Week 4: *Wakes up in Vegas*
+Week 4: _Wakes up in Vegas_
 
 #### 🚨 **System Overload Warnings**
 
@@ -400,7 +412,7 @@ Week 4: *Wakes up in Vegas*
 #### **Inside the Investigator's Manic Mode**
 
 **The Panic Logic:**  
-*"If I stop moving, I'll have to think. If I think, I'll realize how empty I feel. Keep moving. Keep distracted. Keep running."*
+_"If I stop moving, I'll have to think. If I think, I'll realize how empty I feel. Keep moving. Keep distracted. Keep running."_
 
 **The Energy Crash:**  
 This isn't sustainable. The collapse will be spectacular.
@@ -408,17 +420,20 @@ This isn't sustainable. The collapse will be spectacular.
 #### 🧪 **Emergency Grounding Protocol**
 
 **Immediate Stabilization:**
+
 1. Cancel everything for tomorrow
 2. Turn off all devices
 3. Sit in silence for 10 minutes
 4. Remember: You're not dying, you're just overstimulated
 
 **The Detox Plan:**
+
 - **Day 1-3:** Complete social media blackout
 - **Day 4-6:** One activity per day maximum
 - **Day 7:** Return to your books/research
 
 **Prevention System:**
+
 - Maximum 2 social events per week
 - Daily quiet time (non-negotiable)
 - "Excitement budget" - limited supply
@@ -446,7 +461,7 @@ The person who questioned everything is now selling you their "success story." T
 Monday: "I don't trust successful people"  
 Tuesday: "Maybe I should network more"  
 Wednesday: "Check out my LinkedIn post!"  
-Thursday: *Lying about achievements*
+Thursday: _Lying about achievements_
 
 #### 🚨 **Fraud Alert Symptoms**
 
@@ -459,7 +474,7 @@ Thursday: *Lying about achievements*
 #### **Inside the Loyalist's Identity Crisis**
 
 **The Desperate Logic:**  
-*"If I can't trust the world, I'll become someone the world trusts. Even if it's not really me."*
+_"If I can't trust the world, I'll become someone the world trusts. Even if it's not really me."_
 
 **The Betrayal:**  
 You've become everything you feared—false, untrustworthy, alone.
@@ -467,17 +482,20 @@ You've become everything you feared—false, untrustworthy, alone.
 #### 🎭 **Reality Check Protocol**
 
 **Strip the Mask:**
+
 1. Delete that fake post
 2. Call an old friend
 3. Admit one failure publicly
 4. Remember: Your worth isn't in your image
 
 **The Authenticity Recovery:**
+
 - **Week 1:** No self-promotion allowed
 - **Week 2:** Reconnect with core values
 - **Week 3:** Apologize to someone you've neglected
 
 **Prevention Plan:**
+
 - Daily authenticity check
 - Keep one friend who knew you "before"
 - Regular "ego deflation" sessions
@@ -505,7 +523,7 @@ The person who said "YES AND!" now says "No, because..." The optimist became the
 Day 1: "This could be better"  
 Day 2: "Why is everyone so incompetent?"  
 Day 3: "There are RULES for a reason!"  
-Day 4: *Creating spreadsheets for fun activities*
+Day 4: _Creating spreadsheets for fun activities_
 
 #### 🚨 **Killjoy Warning Signs**
 
@@ -518,7 +536,7 @@ Day 4: *Creating spreadsheets for fun activities*
 #### **Inside the Enthusiast's Dark Turn**
 
 **The Bitter Realization:**  
-*"Nothing is as good as I thought it would be. Maybe if I control everything, I can finally be satisfied."*
+_"Nothing is as good as I thought it would be. Maybe if I control everything, I can finally be satisfied."_
 
 **The Lost Magic:**  
 You've become everything that kills joy—including your own.
@@ -526,17 +544,20 @@ You've become everything that kills joy—including your own.
 #### 🎈 **Joy Recovery Mission**
 
 **Break the Criticism Loop:**
+
 1. Say 3 positive things NOW
 2. Do something "wrong" on purpose
 3. Laugh at a mistake
 4. Remember: Perfect is the enemy of fun
 
 **The Lightness Return:**
+
 - **Day 1:** No criticism allowed
 - **Day 2:** One spontaneous activity
 - **Day 3:** Celebrate something imperfect
 
 **Prevention Mode:**
+
 - Daily "good enough" practice
 - Weekly adventure without plans
 - Keep one messy area in your life
@@ -563,7 +584,7 @@ The person who fought everything is now hiding from everyone. The challenger won
 
 Week 1: "I need to think about this"  
 Week 2: "Leave me alone"  
-Week 3: *Phone on silent, doors locked*  
+Week 3: _Phone on silent, doors locked_  
 Week 4: "Feelings are for weak people"
 
 #### 🚨 **Retreat Warning Signs**
@@ -577,7 +598,7 @@ Week 4: "Feelings are for weak people"
 #### **Inside the Challenger's Withdrawal**
 
 **The Secret Fear:**  
-*"If I can't dominate, I'll disappear. If I can't control, I'll vanish. Better to leave than to lose."*
+_"If I can't dominate, I'll disappear. If I can't control, I'll vanish. Better to leave than to lose."_
 
 **The Hidden Wound:**  
 You're not protecting yourself—you're abandoning yourself.
@@ -585,17 +606,20 @@ You're not protecting yourself—you're abandoning yourself.
 #### 💪 **Re-engagement Protocol**
 
 **Break the Isolation:**
+
 1. Text one person right now
 2. Go outside (even just the porch)
 3. Do one physical thing
 4. Feel one emotion (any emotion)
 
 **The Comeback Strategy:**
+
 - **Week 1:** One human interaction daily
 - **Week 2:** One small confrontation
 - **Week 3:** Return to one leadership role
 
 **Prevention Plan:**
+
 - Daily physical activity (fighting the gym counts)
 - Weekly vulnerability practice
 - Keep one person who can call you out
@@ -623,7 +647,7 @@ The person who trusted everyone now trusts no one. The peacemaker is preparing f
 Hour 1: "That's weird..."  
 Hour 6: "Are they talking about me?"  
 Hour 12: "Everyone's against me"  
-Hour 24: *Building a bunker*
+Hour 24: _Building a bunker_
 
 #### 🚨 **Paranoia Alert Status**
 
@@ -636,7 +660,7 @@ Hour 24: *Building a bunker*
 #### **Inside the Peacemaker's Panic**
 
 **The Spiral Thought:**  
-*"I've been asleep while danger was everywhere. I missed all the signs. Nothing is safe. No one can be trusted."*
+_"I've been asleep while danger was everywhere. I missed all the signs. Nothing is safe. No one can be trusted."_
 
 **The Lost Center:**  
 Your superpower was calm. Now you're the storm.
@@ -644,17 +668,20 @@ Your superpower was calm. Now you're the storm.
 #### ☮️ **Peace Restoration Plan**
 
 **Stop the Spiral:**
+
 1. Name 5 things you can see
 2. Touch something soft
 3. Breathe: 4 in, 6 out, repeat
 4. Remember: Not everything is a threat
 
 **The Calm Return:**
+
 - **Day 1:** No news, no social media
 - **Day 2:** One trust exercise
 - **Day 3:** Return to one routine
 
 **Prevention Protocol:**
+
 - Daily grounding practice
 - Weekly reality check with trusted friend
 - Limit "what if" thinking to 5 minutes
@@ -672,6 +699,7 @@ Your superpower was calm. Now you're the storm.
 The question is: What will you do next time you feel it starting?
 
 Will you:
+
 - Recognize the warning signs?
 - Catch yourself mid-transformation?
 - Use your emergency protocols?
@@ -699,7 +727,7 @@ While stress takes you to your worst, growth takes you to your best. Each type a
 
 ---
 
-*Ready to master your patterns? Explore [your type's growth path](/enneagram-corner/enneagram-types) or discover [how to recognize stress in others](/enneagram-corner/enneagram-types-in-relationships).*
+_Ready to master your patterns? Explore [your type's growth path](/enneagram-corner/enneagram-types) or discover [how to recognize stress in others](/enneagram-corner/enneagram-types-in-relationships)._
 
 <svelte:head>
 

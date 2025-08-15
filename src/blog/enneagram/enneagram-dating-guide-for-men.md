@@ -32,17 +32,17 @@ Not another "be confident" guide. But a psychological roadmap to understanding y
 
 <div class="scroll-table">
 
-| Type | Your Dating Superpower | Your Fatal Flaw | What Women Actually See |
-|------|------------------------|-----------------|-------------------------|
-| 1 | Principled reliability | Constant criticism | A man who makes them feel inadequate |
-| 2 | Emotional attentiveness | Self-abandonment | Someone trying too hard to be needed |
-| 3 | Magnetic achievement | Image over substance | A LinkedIn profile, not a person |
-| 4 | Emotional depth | Drama addiction | Exhausting intensity |
-| 5 | Intellectual fascination | Emotional absence | A brain without a heart |
-| 6 | Rock-solid loyalty | Anxiety spirals | Someone who needs constant reassurance |
-| 7 | Infectious enthusiasm | Commitment phobia | Fun that never goes deeper |
-| 8 | Protective strength | Domination patterns | Intimidation masked as confidence |
-| 9 | Calming presence | Self-erasure | Nice but forgettable |
+| Type | Your Dating Superpower   | Your Fatal Flaw      | What Women Actually See                |
+| ---- | ------------------------ | -------------------- | -------------------------------------- |
+| 1    | Principled reliability   | Constant criticism   | A man who makes them feel inadequate   |
+| 2    | Emotional attentiveness  | Self-abandonment     | Someone trying too hard to be needed   |
+| 3    | Magnetic achievement     | Image over substance | A LinkedIn profile, not a person       |
+| 4    | Emotional depth          | Drama addiction      | Exhausting intensity                   |
+| 5    | Intellectual fascination | Emotional absence    | A brain without a heart                |
+| 6    | Rock-solid loyalty       | Anxiety spirals      | Someone who needs constant reassurance |
+| 7    | Infectious enthusiasm    | Commitment phobia    | Fun that never goes deeper             |
+| 8    | Protective strength      | Domination patterns  | Intimidation masked as confidence      |
+| 9    | Calming presence         | Self-erasure         | Nice but forgettable                   |
 
 </div>
 
@@ -72,7 +72,7 @@ And emotional intelligence starts with knowing yourself.
 **Type 6:** You test them with small challenges to gauge loyalty  
 **Type 7:** You're already planning the third date during the first  
 **Type 8:** You turn conversations into friendly debates  
-**Type 9:** You agree with everything to avoid conflict  
+**Type 9:** You agree with everything to avoid conflict
 
 </div>
 
@@ -91,6 +91,7 @@ You learned early that love had conditions. Good behavior earned affection. Mist
 **The adult pattern:** Seeking perfection to avoid the pain of imperfection.
 
 ### You Might Be a Type 1 If:
+
 - You notice typos in their texts and it bothers you
 - You plan dates with backup plans for the backup plans
 - You've ended things over "small" violations of your values
@@ -110,11 +111,12 @@ Women exhausted by mixed signals find your consistency revolutionary.
 **The inner critic on steroids.**
 
 Your brain runs two programs simultaneously:
+
 1. Evaluating them against impossible standards
 2. Attacking yourself for not being perfect enough
 
-*"She's amazing but she was rude to the waiter."*  
-*"I should have been funnier. Why did I say that?"*
+_"She's amazing but she was rude to the waiter."_  
+_"I should have been funnier. Why did I say that?"_
 
 This creates a suffocating dynamic where neither of you can relax into authentic connection.
 
@@ -133,9 +135,10 @@ The perfection that protected you in childhood now prevents intimacy. Real conne
 ✓ **Wine tastings** - Framework that encourages exploration  
 ✓ **Museum tours** - Conversation prompts without scripts  
 ✗ Fine dining - Too much pressure for perfection  
-✗ Movies - No room for connection  
+✗ Movies - No room for connection
 
 **Power conversations that work:**
+
 - "What's something you're working to improve about yourself?"
 - "Tell me about a belief you've completely changed your mind on"
 - "What's a mistake that actually improved your life?"
@@ -147,6 +150,7 @@ The perfection that protected you in childhood now prevents intimacy. Real conne
 **Go deeper without the judgment:**
 
 Choose values-aligned activities:
+
 - Volunteer at an animal shelter together
 - Attend a thought-provoking lecture or workshop
 - Visit a social justice museum or exhibit
@@ -170,6 +174,7 @@ You learned that love was earned through service. Being needed meant being safe.
 **The adult pattern:** Compulsive giving that creates covert contracts.
 
 ### You Might Be a Type 2 If:
+
 - You remember their coffee order after one date
 - You offer solutions before they finish describing problems
 - You feel anxious when you can't help
@@ -187,10 +192,11 @@ You pick up on subtle cues others miss. You anticipate needs. You create safety 
 **Self-abandonment disguised as love.**
 
 You become a shape-shifter, morphing into whoever they need. But this creates two problems:
+
 1. They never meet the real you
 2. You build resentment for needs never voiced
 
-*"I do everything for them. Why can't they see what I need?"*
+_"I do everything for them. Why can't they see what I need?"_
 
 Because you never told them. You were too busy earning love to risk asking for it.
 
@@ -209,9 +215,10 @@ Your value isn't measured in acts of service. It's inherent. The right person wi
 ✓ **Farmer's market stroll** - Natural pauses for sharing  
 ✓ **Acoustic music venues** - Connection without constant talking  
 ✗ Expensive dinners - Sets up giver/taker dynamic  
-✗ Activities where you're the expert - Reinforces helper role  
+✗ Activities where you're the expert - Reinforces helper role
 
 **Power conversations that work:**
+
 - "What makes you feel most appreciated?"
 - "How do you like to receive care from others?"
 - "What's something you need help with?" (Then actually let them help YOU)
@@ -223,6 +230,7 @@ Your value isn't measured in acts of service. It's inherent. The right person wi
 **Balance giving with receiving:**
 
 Choose reciprocal activities:
+
 - Cook a meal together (shared effort)
 - Take a dance class (mutual vulnerability)
 - Partner yoga or rock climbing (interdependence)
@@ -246,6 +254,7 @@ You learned that love was a reward for achievement. Trophies brought hugs. Succe
 **The adult pattern:** Performing intimacy instead of experiencing it.
 
 ### You Might Be a Type 3 If:
+
 - Your dating profile reads like a LinkedIn summary
 - You've practiced your "casual" success stories
 - You feel anxious when conversation turns emotional
@@ -263,13 +272,14 @@ You make things happen. You have vision, drive, and the ability to execute. You 
 **Treating connection like a KPI.**
 
 You optimize for metrics that don't matter:
+
 - How impressive you appear
 - How quickly you "close"
 - How envious others are
 
 Meanwhile, you miss the only metric that counts: genuine emotional connection.
 
-*"I showed her my best self. Why didn't it work?"*
+_"I showed her my best self. Why didn't it work?"_
 
 Because your "best self" was a performance, not a person.
 
@@ -288,9 +298,10 @@ Your worth exists at rest. The right person will love your failures as much as y
 ✓ **Escape rooms** - Collaborate, don't dominate  
 ✓ **Food truck tours** - Keep it real, not refined  
 ✗ Business networking events - Work mode activated  
-✗ Competitive activities - Winning overtakes connecting  
+✗ Competitive activities - Winning overtakes connecting
 
 **Power conversations that work:**
+
 - "What lights you up outside of work?"
 - "Tell me about a time you felt truly seen"
 - "What failure taught you the most?"
@@ -302,6 +313,7 @@ Your worth exists at rest. The right person will love your failures as much as y
 **Show depth beyond success:**
 
 Choose vulnerable activities:
+
 - Beginner's pottery class (be bad at something together)
 - Improv workshop (can't plan or perfect)
 - Sunrise hike (share dreams, not goals)
@@ -329,6 +341,7 @@ You learned early that being ordinary meant being invisible. Intensity brought a
 **The adult pattern:** Creating intensity to confirm connection.
 
 ### You Might Be a Type 4 If:
+
 - Small talk feels like spiritual death
 - You want to discuss childhood trauma on date one
 - You've ended things because it "didn't feel special enough"
@@ -347,7 +360,7 @@ You feel everything. Express authentically. Find meaning in moments others miss.
 
 Every moment needs meaning. Every silence holds significance. You create drama to feel alive, mistaking intensity for intimacy.
 
-*"If it's not passionate, is it even real?"*
+_"If it's not passionate, is it even real?"_
 
 Yes. The mundane moments are where love actually lives.
 
@@ -366,9 +379,10 @@ Connection happens in simple moments too. Your uniqueness doesn't need constant 
 ✓ **Poetry readings or jazz clubs** - Emotional without overwhelming  
 ✓ **Sunset picnics** - Natural beauty inspires connection  
 ✗ Chain restaurants - Soul-crushing conformity  
-✗ Comedy clubs - Forced lightness  
+✗ Comedy clubs - Forced lightness
 
 **Power conversations that work:**
+
 - "What experience fundamentally changed who you are?"
 - "When do you feel most yourself?"
 - "What beauty have you noticed today that others might miss?"
@@ -380,6 +394,7 @@ Connection happens in simple moments too. Your uniqueness doesn't need constant 
 **Deepen without dramatizing:**
 
 Choose meaningful simplicity:
+
 - Cook a meal using family recipes (story without melodrama)
 - Visit a used bookstore (share influences naturally)
 - Watch sunrise or sunset (beauty without orchestration)
@@ -403,6 +418,7 @@ You learned that knowledge meant safety. Understanding meant control. Emotions w
 **The adult pattern:** Observing intimacy instead of experiencing it.
 
 ### You Might Be a Type 5 If:
+
 - You've researched dating psychology instead of dating
 - You analyze chemistry instead of feeling it
 - You need three days to process emotional conversations
@@ -421,7 +437,7 @@ You bring unique perspectives. You listen without judgment. You remember details
 
 You study feelings instead of feeling them. Observe connection instead of creating it. Your date wants a partner, not a researcher.
 
-*"I understand the concept of love..."*
+_"I understand the concept of love..."_
 
 But understanding and experiencing are different worlds.
 
@@ -440,9 +456,10 @@ Some territories are explored through feeling, not thinking.
 ✓ **Bookstore browsing with coffee** - Share intellectual interests naturally  
 ✓ **Documentary screening + discussion** - Ideas with feelings  
 ✗ Loud bars - Sensory overwhelm  
-✗ Group activities - Energy drain  
+✗ Group activities - Energy drain
 
 **Power conversations that work:**
+
 - "What rabbit hole are you currently exploring?"
 - "What idea recently changed how you see the world?"
 - "How did that make you FEEL?" (Use feeling words)
@@ -454,6 +471,7 @@ Some territories are explored through feeling, not thinking.
 **Add experience to analysis:**
 
 Choose embodied learning:
+
 - Cooking class (sensory engagement)
 - Partner dancing (physical connection)
 - Nature hike (presence over thinking)
@@ -477,6 +495,7 @@ You learned the world was dangerous. People couldn't be trusted. Safety required
 **The adult pattern:** Testing loyalty until you break it.
 
 ### You Might Be a Type 6 If:
+
 - You Google them extensively before meeting
 - You create small tests to gauge trustworthiness
 - You catastrophize after unreturned texts
@@ -495,7 +514,7 @@ You show up. You follow through. You protect those you care about. Your loyalty,
 
 You see danger where none exists. Create problems to solve them. Your "gut feelings" might be old fears in disguise.
 
-*"Something feels off..."*
+_"Something feels off..."_
 
 Maybe. Or maybe safety feels foreign.
 
@@ -514,9 +533,10 @@ Trust is a choice, not a guarantee. Choose it anyway.
 ✓ **Mini golf or bowling** - Playful but structured  
 ✓ **Coffee and walk in populated areas** - Easy exit if needed  
 ✗ Isolated locations - Triggers safety fears  
-✗ Extreme activities - Too much uncertainty  
+✗ Extreme activities - Too much uncertainty
 
 **Power conversations that work:**
+
 - "What does loyalty mean to you?"
 - "How do you know when you can trust someone?"
 - "What makes you feel secure in relationships?"
@@ -528,6 +548,7 @@ Trust is a choice, not a guarantee. Choose it anyway.
 **Expand comfort zones together:**
 
 Choose controlled adventures:
+
 - New cuisine at established restaurants
 - Beginner's class in shared interest
 - Day trip to nearby town (planned but exploratory)
@@ -551,6 +572,7 @@ You learned that pain could be avoided. Sadness could be outrun. If you kept mov
 **The adult pattern:** Skimming surfaces to avoid depths.
 
 ### You Might Be a Type 7 If:
+
 - You're planning date three during date one
 - Emotional conversations make you crack jokes
 - You've ended things because they got "too heavy"
@@ -569,7 +591,7 @@ You make everything an adventure. Find silver linings. Turn mundane into magical
 
 You avoid difficult emotions. Change subjects from pain. Your date wants a partner who can hold space for all feelings, not just fun ones.
 
-*"Why so serious?"*
+_"Why so serious?"_
 
 Because real life includes serious moments.
 
@@ -588,9 +610,10 @@ The greatest thrills require staying still sometimes.
 ✓ **Interactive museums** - Fun learning together  
 ✓ **Escape rooms** - Adventure requiring teamwork  
 ✗ Movies - Too passive  
-✗ Loud concerts - No space for connection  
+✗ Loud concerts - No space for connection
 
 **Power conversations that work:**
+
 - "What adventure changed your life?"
 - "What simple pleasure never gets old?"
 - "What difficult experience shaped who you are?"
@@ -602,6 +625,7 @@ The greatest thrills require staying still sometimes.
 **Find depth in adventure:**
 
 Balance novelty with connection:
+
 - Cooking exotic cuisine together (new but intimate)
 - Sunrise hike with breakfast (adventure + quiet moments)
 - Road trip to nearby town (journey matters more than destination)
@@ -625,6 +649,7 @@ You learned that vulnerability got you hurt. Weakness invited predators. Power m
 **The adult pattern:** Dominating to avoid being dominated.
 
 ### You Might Be a Type 8 If:
+
 - You turn first dates into friendly debates
 - You test their strength through confrontation
 - Emotional conversations feel like losing control
@@ -643,7 +668,7 @@ You stand up for truth. Fight for justice. Shield those you love. Your strength 
 
 You armor up against the very thing required for intimacy. Your date wants to see your heart, not just your strength.
 
-*"I don't do vulnerable."*
+_"I don't do vulnerable."_
 
 Then you don't do intimacy.
 
@@ -662,9 +687,10 @@ Real power includes the courage to be soft.
 ✓ **Cooking together** - Playful competition with collaboration  
 ✓ **Trivia nights** - Intellectual sparring without aggression  
 ✗ Passive activities - Need engagement  
-✗ Overly romantic settings - Trigger vulnerability fears  
+✗ Overly romantic settings - Trigger vulnerability fears
 
 **Power conversations that work:**
+
 - "What principle would you fight for?"
 - "When did someone's vulnerability inspire you?"
 - "What makes you feel protected?"
@@ -676,6 +702,7 @@ Real power includes the courage to be soft.
 **Add softness to strength:**
 
 Choose vulnerable strength:
+
 - Paint and wine class (creative vulnerability)
 - Partner yoga (physical trust)
 - Volunteer at animal shelter (showing tenderness)
@@ -699,6 +726,7 @@ You learned that having needs created conflict. Opinions caused problems. It was
 **The adult pattern:** Self-erasure disguised as easygoing.
 
 ### You Might Be a Type 9 If:
+
 - You say "I don't care" when you do
 - You mirror their interests and opinions
 - Conflict makes you physically uncomfortable
@@ -717,7 +745,7 @@ You see all perspectives. Create safe spaces. Make others feel heard. Your prese
 
 You merge so completely that there's no "you" left to love. Your date wants a person, not a mirror.
 
-*"I'm easygoing!"*
+_"I'm easygoing!"_
 
 Or you're hiding.
 
@@ -736,9 +764,10 @@ Harmony includes your melody too.
 ✓ **Nature walks** - Peaceful but purposeful  
 ✓ **Art galleries** - Practice having opinions  
 ✗ "Whatever you want" - Start patterns of self-erasure  
-✗ Loud environments - Can't hear yourself think  
+✗ Loud environments - Can't hear yourself think
 
 **Power conversations that work:**
+
 - "What brings you peace?"
 - "What boundary changed your life?"
 - "What do you want that you rarely ask for?"
@@ -750,6 +779,7 @@ Harmony includes your melody too.
 **Deepen through assertion:**
 
 Choose self-expression activities:
+
 - Cook your favorite meal for them
 - Share your playlist during a drive
 - Take them to a place meaningful to you
@@ -765,6 +795,7 @@ Choose self-expression activities:
 Here's what changes when you understand your type:
 
 **You stop:**
+
 - Performing a version of yourself
 - Repeating unconscious patterns
 - Attracting the wrong people
@@ -772,6 +803,7 @@ Here's what changes when you understand your type:
 - Wondering why it never works
 
 **You start:**
+
 - Dating from awareness, not wounds
 - Recognizing compatible partners
 - Breaking destructive patterns

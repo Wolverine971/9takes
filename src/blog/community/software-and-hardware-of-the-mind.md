@@ -248,7 +248,6 @@ https://a16z.com/author/vijay-pande/
 
 -->
 
-
 <style lang="scss">
   blockquote {
     font-style: italic;

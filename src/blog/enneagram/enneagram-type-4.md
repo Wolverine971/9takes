@@ -242,7 +242,6 @@ When Type 4s share their inner experience they often say things like this below:
 
 In revealing panel discussions moderated by Enneagram expert Beatrice Chestnut, Type 4 individuals offer rare glimpses into their inner architecture—illuminating the complex structures of feeling, meaning, and identity that define their experience.
 
-
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/BySvn_zyTnY?si=62xJaQdTFhx-vmBH" title="Enneagram 4 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
@@ -270,7 +269,6 @@ The conversation explored how **Creativity Functions** for Fours—not merely as
 Perhaps most poignantly, the panel discussed the **Journey Toward Self-Acceptance**. "The biggest shift for me was realizing I don't have to be extraordinary to be worthy," shared one participant. "My ordinary humanity is enough." Another added: "I spent years trying to prove my uniqueness, only to discover that my deepest connections with others came from our shared experiences, not our differences."
 
 These authentic reflections offer valuable insights for Fours on their journey of self-discovery and for those seeking to understand the Four perspective better. They illuminate both the challenges and gifts of navigating life with a personality architecture designed for depth, meaning, and authentic expression.
-
 
 </section>
 
