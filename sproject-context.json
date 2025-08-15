@@ -1,1723 +1,2049 @@
 {
-	"pages": [
-		{
-			"file": "src/routes/blog/+layout.svelte",
-			"props": [],
-			"customComponents": [],
-			"route": "/blog"
-		},
-		{
-			"file": "src/routes/calendar/+page.svelte",
-			"props": [],
-			"customComponents": [],
-			"route": "/calendar"
-		},
-		{
-			"file": "src/routes/followme/+page.svelte",
-			"props": [],
-			"customComponents": ["EmailSignup"],
-			"route": "/followme"
-		},
-		{
-			"file": "src/routes/login/+layout.svelte",
-			"props": [],
-			"customComponents": [],
-			"route": "/login"
-		},
-		{
-			"file": "src/routes/signup/+page.svelte",
-			"props": [],
-			"customComponents": ["Card", "EmailInvite"],
-			"route": "/signup"
-		},
-		{
-			"file": "src/routes/blog/topical/+page.svelte",
-			"props": [],
-			"customComponents": [],
-			"route": "/blog/topical"
-		},
-		{
-			"file": "src/routes/stories/enneagram-and-mental-illness/+page.svelte",
-			"props": [],
-			"customComponents": [],
-			"route": "/stories/enneagram-and-mental-illness"
-		}
-	],
-	"components": [
-		{
-			"file": "src/lib/analytics.svelte",
-			"props": [],
-			"customComponents": []
-		},
-		{
-			"file": "src/routes/+error.svelte",
-			"props": [],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/amp-stories/EnneagramMentalIllnessPromo.svelte",
-			"props": [
-				{
-					"name": "title",
-					"required": false
-				},
-				{
-					"name": "subtitle",
-					"required": false
-				},
-				{
-					"name": "ampUrl",
-					"required": false
-				},
-				{
-					"name": "imageUrl",
-					"required": false
-				},
-				{
-					"name": "altText",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/atoms/card.svelte",
-			"props": [
-				{
-					"name": "style",
-					"required": false
-				},
-				{
-					"name": "className",
-					"required": false
-				}
-			],
-			"customComponents": [],
-			"slots": ["default"]
-		},
-		{
-			"file": "src/lib/components/atoms/DateTip.svelte",
-			"props": [
-				{
-					"name": "tipType",
-					"required": false
-				}
-			],
-			"customComponents": [],
-			"slots": ["default"]
-		},
-		{
-			"file": "src/lib/components/blog/Article.svelte",
-			"props": [],
-			"customComponents": [],
-			"slots": ["default"]
-		},
-		{
-			"file": "src/lib/components/blog/layout.svelte",
-			"props": [],
-			"customComponents": [],
-			"slots": ["default"]
-		},
-		{
-			"file": "src/lib/components/blog/StructuredBlogView.svelte",
-			"props": [],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/arrowRightIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/bellIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/cameraIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/commentsIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/CommentXMarkIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/downIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/editIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/enneagram.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/envelope.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/filterListIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/leftIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/login.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/NO-caseyNeistatCareer.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/objectsColumnIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/objectsColumnOutlineIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/postIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/rightIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/searchIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/settingsIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/shareIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/siteMapIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/slidersIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/thumbsUpIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/upIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/icons/xmarkIcon.svelte",
-			"props": [
-				{
-					"name": "className",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "fill",
-					"required": false
-				},
-				{
-					"name": "iconStyle",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/map/Map.svelte",
-			"props": [
-				{
-					"name": "map",
-					"required": false
-				},
-				{
-					"name": "version",
-					"required": false
-				},
-				{
-					"name": "center",
-					"required": false
-				},
-				{
-					"name": "zoom",
-					"required": false
-				},
-				{
-					"name": "zoomRate",
-					"required": false
-				},
-				{
-					"name": "wheelZoomRate",
-					"required": false
-				},
-				{
-					"name": "options",
-					"required": false
-				},
-				{
-					"name": "accessToken",
-					"required": true
-				},
-				{
-					"name": "customStylesheetUrl",
-					"required": false
-				},
-				{
-					"name": "style",
-					"required": false
-				}
-			],
-			"customComponents": [],
-			"slots": ["default"]
-		},
-		{
-			"file": "src/lib/components/map/Marker.svelte",
-			"props": [
-				{
-					"name": "lat",
-					"required": true
-				},
-				{
-					"name": "lng",
-					"required": true
-				},
-				{
-					"name": "label",
-					"required": false
-				},
-				{
-					"name": "popupClassName",
-					"required": false
-				},
-				{
-					"name": "markerOffset",
-					"required": false
-				},
-				{
-					"name": "popupOffset",
-					"required": false
-				},
-				{
-					"name": "color",
-					"required": false
-				},
-				{
-					"name": "popup",
-					"required": false
-				},
-				{
-					"name": "popupOptions",
-					"required": false
-				},
-				{
-					"name": "markerOptions",
-					"required": false
-				},
-				{
-					"name": "popupHtml",
-					"required": false
-				}
-			],
-			"customComponents": [],
-			"slots": ["default", "popup"]
-		},
-		{
-			"file": "src/lib/components/molecules/Context.svelte",
-			"props": [],
-			"customComponents": [],
-			"slots": ["default"]
-		},
-		{
-			"file": "src/lib/components/molecules/Mermaid.svelte",
-			"props": [
-				{
-					"name": "newGraph",
-					"type": "string",
-					"required": true
-				}
-			],
-			"customComponents": [],
-			"slots": ["default"]
-		},
-		{
-			"file": "src/lib/components/molecules/Messages.svelte",
-			"props": [],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/molecules/mobile-ham.svelte",
-			"props": [
-				{
-					"name": "navItems",
-					"required": false
-				},
-				{
-					"name": "blogItems",
-					"required": false
-				}
-			],
-			"customComponents": ["Modal2", "Context"]
-		},
-		{
-			"file": "src/lib/components/molecules/QuestionSearch.svelte",
-			"props": [
-				{
-					"name": "placeholder",
-					"required": false
-				},
-				{
-					"name": "loading",
-					"required": false
-				},
-				{
-					"name": "options",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/molecules/Toast.svelte",
-			"props": [],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/molecules/WordCloud.svelte",
-			"props": [
-				{
-					"name": "words",
-					"required": false
-				},
-				{
-					"name": "width",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/questionPrintOut/frame.svelte",
-			"props": [
-				{
-					"name": "width",
-					"required": false
-				},
-				{
-					"name": "height",
-					"required": false
-				},
-				{
-					"name": "color",
-					"required": false
-				},
-				{
-					"name": "cornerSize",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/questionPrintOut/ImageDropZone.svelte",
-			"props": [],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/questionPrintOut/StyleControls.svelte",
-			"props": [
-				{
-					"name": "style",
-					"required": true
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/questions/QuestionItemSkeleton.svelte",
-			"props": [],
-			"customComponents": ["Skeleton"]
-		},
-		{
-			"file": "src/lib/components/map/controls/GeolocateControl.svelte",
-			"props": [
-				{
-					"name": "position",
-					"required": false
-				},
-				{
-					"name": "options",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/map/controls/NavigationControl.svelte",
-			"props": [
-				{
-					"name": "position",
-					"required": false
-				},
-				{
-					"name": "options",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/map/controls/ScaleControl.svelte",
-			"props": [
-				{
-					"name": "position",
-					"required": false
-				},
-				{
-					"name": "options",
-					"required": false
-				}
-			],
-			"customComponents": []
-		},
-		{
-			"file": "src/lib/components/map/geocoder/Geocoder.svelte",
-			"props": [
-				{
-					"name": "accessToken",
-					"required": true
-				},
-				{
-					"name": "options",
-					"required": false
-				},
-				{
-					"name": "version",
-					"required": false
-				},
-				{
-					"name": "types",
-					"required": false
-				},
-				{
-					"name": "placeholder",
-					"required": false
-				},
-				{
-					"name": "value",
-					"required": false
-				},
-				{
-					"name": "customStylesheetUrl",
-					"required": false
-				},
-				{
-					"name": "geocoder",
-					"required": false
-				}
-			],
-			"customComponents": []
-		}
-	],
-	"apis": [
-		{
-			"file": "src/routes/comments/+server.ts",
-			"route": "/comments",
-			"methods": []
-		},
-		{
-			"file": "src/routes/logout/+server.ts",
-			"route": "/logout",
-			"methods": []
-		},
-		{
-			"file": "src/routes/poopmap/+server.ts",
-			"route": "/poopmap",
-			"methods": ["GET"]
-		},
-		{
-			"file": "src/routes/rss.xml/+server.ts",
-			"route": "/rss.xml",
-			"methods": ["GET"]
-		},
-		{
-			"file": "src/routes/sitemap.xml/+server.ts",
-			"route": "/sitemap.xml",
-			"methods": []
-		},
-		{
-			"file": "src/routes/api/adder/+server.ts",
-			"route": "/api/adder",
-			"methods": []
-		},
-		{
-			"file": "src/routes/api/update-questions/+server.ts",
-			"route": "/api/update-questions",
-			"methods": []
-		},
-		{
-			"file": "src/routes/blog/topical/+server.ts",
-			"route": "/blog/topical",
-			"methods": []
-		}
-	],
-	"libModules": [
-		{
-			"file": "src/lib/elasticSearch.ts",
-			"type": "other",
-			"exports": [
-				"elasticClient",
-				"createESQuestion",
-				"deleteESQuestion",
-				"addESQuestionLike",
-				"addESSubscription",
-				"addESComment",
-				"addESCommentLike"
-			],
-			"imports": ["@elastic/elasticsearch", "$env/static/private"]
-		},
-		{
-			"file": "src/lib/getPosts.ts",
-			"type": "other",
-			"exports": ["getPosts"],
-			"imports": ["./slugFromPath", "./supabase"]
-		},
-		{
-			"file": "src/lib/page-transition.ts",
-			"type": "other",
-			"exports": ["preparePageTransition"],
-			"imports": ["$app/navigation"]
-		},
-		{
-			"file": "src/lib/realtime.ts",
-			"type": "other",
-			"exports": ["Message", "RealtimeMessaging", "createPresenceChannel"],
-			"imports": ["@supabase/supabase-js", "@supabase/supabase-js"]
-		},
-		{
-			"file": "src/lib/slugFromPath.ts",
-			"type": "other",
-			"exports": ["slugFromPath"]
-		},
-		{
-			"file": "src/lib/supabase.ts",
-			"type": "other",
-			"exports": ["supabase"],
-			"imports": ["../../database.types", "$env/static/public"]
-		},
-		{
-			"file": "src/lib/vitals.ts",
-			"type": "other",
-			"exports": ["webVitals"],
-			"imports": ["web-vitals"]
-		},
-		{
-			"file": "src/lib/components/index.ts",
-			"type": "component"
-		},
-		{
-			"file": "src/lib/utils/blog.ts",
-			"type": "util",
-			"exports": ["getBlogPosts", "getMentalHealthPosts", "getEnneagramPosts"],
-			"imports": ["../slugFromPath"]
-		},
-		{
-			"file": "src/lib/utils/clickOutside.ts",
-			"type": "util",
-			"exports": ["clickOutside"]
-		},
-		{
-			"file": "src/lib/utils/debounce.ts",
-			"type": "util",
-			"exports": ["debounce"]
-		},
-		{
-			"file": "src/lib/utils/index.ts",
-			"type": "util"
-		},
-		{
-			"file": "src/lib/utils/logger.ts",
-			"type": "util",
-			"exports": ["logger", "withTiming", "withApiLogging"],
-			"imports": ["$app/environment"]
-		},
-		{
-			"file": "src/lib/validation/questionSchemas.ts",
-			"type": "other",
-			"exports": [
-				"createCommentSchema",
-				"likeCommentSchema",
-				"subscribeSchema",
-				"saveLinkClickSchema",
-				"flagCommentSchema",
-				"updateQuestionImgSchema",
-				"validateFormData"
-			]
-		},
-		{
-			"file": "src/lib/validation/schemas.ts",
-			"type": "other",
-			"exports": [
-				"emailSchema",
-				"enneagramTypeSchema",
-				"userSchema",
-				"commentSchema",
-				"questionSchema",
-				"blogOperationSchema",
-				"aiPromptSchema",
-				"notificationSchema",
-				"subscriptionSchema",
-				"searchSchema",
-				"paginationSchema",
-				"forgotPasswordSchema",
-				"resetPasswordSchema",
-				"updateAccountSchema",
-				"adminActionSchema",
-				"validateData",
-				"validateRequest",
-				"validateFormData"
-			]
-		},
-		{
-			"file": "src/lib/components/abstract/index.ts",
-			"type": "component",
-			"exports": ["Portal"]
-		},
-		{
-			"file": "src/lib/components/abstract/lazyLoad.ts",
-			"type": "component",
-			"exports": ["lazyLoad"]
-		},
-		{
-			"file": "src/lib/components/atoms/index.ts",
-			"type": "component",
-			"exports": ["Modal", "Modal2"]
-		},
-		{
-			"file": "src/lib/components/map/asset-loader.ts",
-			"type": "component",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/lib/components/map/components.ts",
-			"type": "component",
-			"exports": ["Map", "Marker", "Geocoder", "contextKey", "controls"],
-			"imports": [
-				"$lib/components/map/Map.svelte",
-				"$lib/components/map/Marker.svelte",
-				"$lib/components/map/geocoder/Geocoder.svelte",
-				"$lib/components/map/mapbox",
-				"$lib/components/map/controls/GeolocateControl.svelte",
-				"$lib/components/map/controls/NavigationControl.svelte",
-				"$lib/components/map/controls/ScaleControl.svelte"
-			]
-		},
-		{
-			"file": "src/lib/components/map/event-binding.ts",
-			"type": "component",
-			"exports": ["bindEvents"]
-		},
-		{
-			"file": "src/lib/components/map/map-action.ts",
-			"type": "component",
-			"exports": ["default"],
-			"imports": ["$lib/components/map/asset-loader", "$lib/components/map/event-binding"]
-		},
-		{
-			"file": "src/lib/components/map/mapbox.ts",
-			"type": "component",
-			"exports": ["contextKey"]
-		},
-		{
-			"file": "src/lib/components/map/queue.ts",
-			"type": "component",
-			"exports": ["EventQueue"]
-		},
-		{
-			"file": "src/lib/components/molecules/famousTypes.ts",
-			"type": "component",
-			"exports": ["famousTypes"]
-		},
-		{
-			"file": "src/lib/components/molecules/index.ts",
-			"type": "component",
-			"exports": ["Comments", "Comment", "QuestionItem"]
-		},
-		{
-			"file": "src/lib/components/molecules/Interact.spec.ts",
-			"type": "component",
-			"imports": ["vitest", "./Interact.svelte", "@testing-library/svelte"]
-		},
-		{
-			"file": "src/lib/components/molecules/notifications.ts",
-			"type": "component",
-			"exports": ["notifications"]
-		},
-		{
-			"file": "src/lib/components/map/geocoder/geocoder-action.ts",
-			"type": "component",
-			"exports": ["default"],
-			"imports": ["$lib/components/map/asset-loader", "$lib/components/map/event-binding"]
-		}
-	],
-	"routeModules": [
-		{
-			"file": "src/routes/+layout.server.ts",
-			"route": "/",
-			"type": "layout.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/+page.server.ts",
-			"route": "/",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/+page.ts",
-			"route": "/",
-			"type": "page"
-		},
-		{
-			"file": "src/routes/about/+page.server.ts",
-			"route": "/about",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/account/+page.server.ts",
-			"route": "/account",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/admin/+layout.server.ts",
-			"route": "/admin",
-			"type": "layout.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/admin/+page.server.ts",
-			"route": "/admin",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/blog/+layout.server.ts",
-			"route": "/blog",
-			"type": "layout.server"
-		},
-		{
-			"file": "src/routes/blog/+page.ts",
-			"route": "/blog",
-			"type": "page",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/book-session/+page.server.ts",
-			"route": "/book-session",
-			"type": "page.server",
-			"exports": ["actions", "load"]
-		},
-		{
-			"file": "src/routes/book-session/+page.ts",
-			"route": "/book-session",
-			"type": "page",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/calendar/+page.server.ts",
-			"route": "/calendar",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/community/+page.server.ts",
-			"route": "/community",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/email/+page.server.ts",
-			"route": "/email",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/enneagram-corner/+page.server.ts",
-			"route": "/enneagram-corner",
-			"type": "page.server"
-		},
-		{
-			"file": "src/routes/enneagram-corner/+page.ts",
-			"route": "/enneagram-corner",
-			"type": "page",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/forgotPassword/+page.server.ts",
-			"route": "/forgotPassword",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/how-to-guides/+page.server.ts",
-			"route": "/how-to-guides",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/logout/+page.server.ts",
-			"route": "/logout",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/personality-analysis/+page.server.ts",
-			"route": "/personality-analysis",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/login/+page.server.ts",
-			"route": "/login",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/questionPrint/+page.server.ts",
-			"route": "/questionPrint",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/questions/+page.server.ts",
-			"route": "/questions",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/questions/+page.ts",
-			"route": "/questions",
-			"type": "page"
-		},
-		{
-			"file": "src/routes/register/+page.server.ts",
-			"route": "/register",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/resetPassword/+page.server.ts",
-			"route": "/resetPassword",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/signup/+page.ts",
-			"route": "/signup",
-			"type": "page"
-		},
-		{
-			"file": "src/routes/users/+page.server.ts",
-			"route": "/users",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/account/unsubscribe/+page.server.ts",
-			"route": "/account/unsubscribe",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/admin/comments/+page.server.ts",
-			"route": "/admin/comments",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/admin/content-board/+page.server.ts",
-			"route": "/admin/content-board",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/admin/links/+page.server.ts",
-			"route": "/admin/links",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/admin/marketing/+page.server.ts",
-			"route": "/admin/marketing",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/admin/messages/+page.server.ts",
-			"route": "/admin/messages",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/admin/poster-generator/+page.server.ts",
-			"route": "/admin/poster-generator",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/admin/questions/+page.server.ts",
-			"route": "/admin/questions",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/admin/users/+page.server.ts",
-			"route": "/admin/users",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/blog/community/+page.server.ts",
-			"route": "/blog/community",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/blog/enneagram/+page.server.ts",
-			"route": "/blog/enneagram",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/blog/enneagram/+page.ts",
-			"route": "/blog/enneagram",
-			"type": "page",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/blog/experiment/+page.server.ts",
-			"route": "/blog/experiment",
-			"type": "page.server",
-			"exports": ["actions"]
-		},
-		{
-			"file": "src/routes/blog/famous-enneagram-types/+page.server.ts",
-			"route": "/blog/famous-enneagram-types",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/blog/guides/+page.server.ts",
-			"route": "/blog/guides",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/blog/topical/+page.server.ts",
-			"route": "/blog/topical",
-			"type": "page.server"
-		},
-		{
-			"file": "src/routes/community/[slug]/+page.ts",
-			"route": "/community/[slug]",
-			"type": "page",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/enneagram-corner/mental-health/+page.server.ts",
-			"route": "/enneagram-corner/mental-health",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/enneagram-corner/subtopic/+page.server.ts",
-			"route": "/enneagram-corner/subtopic",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/enneagram-corner/[slug]/+page.server.ts",
-			"route": "/enneagram-corner/[slug]",
-			"type": "page.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/enneagram-corner/[slug]/+page.ts",
-			"route": "/enneagram-corner/[slug]",
-			"type": "page",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/how-to-guides/[slug]/+page.ts",
-			"route": "/how-to-guides/[slug]",
-			"type": "page",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/personality-analysis/type/+page.server.ts",
-			"route": "/personality-analysis/type",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/personality-analysis/[slug]/+page.server.ts",
-			"route": "/personality-analysis/[slug]",
-			"type": "page.server",
-			"exports": ["load", "actions"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/questions/create/+page.server.ts",
-			"route": "/questions/create",
-			"type": "page.server",
-			"exports": ["load", "actions"]
-		},
-		{
-			"file": "src/routes/questions/categories/+page.server.ts",
-			"route": "/questions/categories",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/questions/[slug]/+layout.server.ts",
-			"route": "/questions/[slug]",
-			"type": "layout.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/questions/[slug]/+page.server.ts",
-			"route": "/questions/[slug]",
-			"type": "page.server",
-			"exports": ["load", "actions"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/users/[externalId]/+page.server.ts",
-			"route": "/users/[externalId]",
-			"type": "page.server",
-			"exports": ["load", "actions"],
-			"pathParams": ["externalId"]
-		},
-		{
-			"file": "src/routes/account/unsubscribe/[slug]/+page.server.ts",
-			"route": "/account/unsubscribe/[slug]",
-			"type": "page.server",
-			"exports": ["load", "actions"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/admin/links/[slug]/+page.server.ts",
-			"route": "/admin/links/[slug]",
-			"type": "page.server",
-			"exports": ["load", "actions"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/admin/questions/hierarchy/+page.server.ts",
-			"route": "/admin/questions/hierarchy",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/blog/community/[slug]/+page.server.ts",
-			"route": "/blog/community/[slug]",
-			"type": "page.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/blog/enneagram/subtopic/+page.server.ts",
-			"route": "/blog/enneagram/subtopic",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/blog/enneagram/[slug]/+page.server.ts",
-			"route": "/blog/enneagram/[slug]",
-			"type": "page.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/blog/famous-enneagram-types/type/+page.server.ts",
-			"route": "/blog/famous-enneagram-types/type",
-			"type": "page.server",
-			"exports": ["load"]
-		},
-		{
-			"file": "src/routes/blog/famous-enneagram-types/[slug]/+page.server.ts",
-			"route": "/blog/famous-enneagram-types/[slug]",
-			"type": "page.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/blog/famous-enneagram-types/[slug]/+page.ts",
-			"route": "/blog/famous-enneagram-types/[slug]",
-			"type": "page",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/blog/guides/[slug]/+page.server.ts",
-			"route": "/blog/guides/[slug]",
-			"type": "page.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/blog/topical/[slug]/+page.ts",
-			"route": "/blog/topical/[slug]",
-			"type": "page",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/enneagram-corner/subtopic/[slug]/+page.server.ts",
-			"route": "/enneagram-corner/subtopic/[slug]",
-			"type": "page.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/personality-analysis/type/[slug]/+page.server.ts",
-			"route": "/personality-analysis/type/[slug]",
-			"type": "page.server",
-			"exports": ["load", "actions"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/questions/categories/[slug]/+page.server.ts",
-			"route": "/questions/categories/[slug]",
-			"type": "page.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/blog/enneagram/subtopic/[slug]/+page.server.ts",
-			"route": "/blog/enneagram/subtopic/[slug]",
-			"type": "page.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		},
-		{
-			"file": "src/routes/blog/famous-enneagram-types/type/[slug]/+page.server.ts",
-			"route": "/blog/famous-enneagram-types/type/[slug]",
-			"type": "page.server",
-			"exports": ["load"],
-			"pathParams": ["slug"]
-		}
-	],
-	"dependencies": {
-		"src/routes/signup/+page.svelte": ["src/lib/components/atoms/card.svelte"],
-		"src/lib/components/molecules/mobile-ham.svelte": [
-			"src/lib/components/molecules/Context.svelte"
-		]
-	},
-	"unusedComponents": [
-		"src/lib/analytics.svelte",
-		"src/routes/+error.svelte",
-		"src/lib/amp-stories/EnneagramMentalIllnessPromo.svelte",
-		"src/lib/components/atoms/DateTip.svelte",
-		"src/lib/components/blog/Article.svelte",
-		"src/lib/components/blog/layout.svelte",
-		"src/lib/components/blog/StructuredBlogView.svelte",
-		"src/lib/components/icons/arrowRightIcon.svelte",
-		"src/lib/components/icons/bellIcon.svelte",
-		"src/lib/components/icons/cameraIcon.svelte",
-		"src/lib/components/icons/commentsIcon.svelte",
-		"src/lib/components/icons/CommentXMarkIcon.svelte",
-		"src/lib/components/icons/downIcon.svelte",
-		"src/lib/components/icons/editIcon.svelte",
-		"src/lib/components/icons/enneagram.svelte",
-		"src/lib/components/icons/envelope.svelte",
-		"src/lib/components/icons/filterListIcon.svelte",
-		"src/lib/components/icons/leftIcon.svelte",
-		"src/lib/components/icons/login.svelte",
-		"src/lib/components/icons/NO-caseyNeistatCareer.svelte",
-		"src/lib/components/icons/objectsColumnIcon.svelte",
-		"src/lib/components/icons/objectsColumnOutlineIcon.svelte",
-		"src/lib/components/icons/postIcon.svelte",
-		"src/lib/components/icons/rightIcon.svelte",
-		"src/lib/components/icons/searchIcon.svelte",
-		"src/lib/components/icons/settingsIcon.svelte",
-		"src/lib/components/icons/shareIcon.svelte",
-		"src/lib/components/icons/siteMapIcon.svelte",
-		"src/lib/components/icons/slidersIcon.svelte",
-		"src/lib/components/icons/thumbsUpIcon.svelte",
-		"src/lib/components/icons/upIcon.svelte",
-		"src/lib/components/icons/xmarkIcon.svelte",
-		"src/lib/components/map/Map.svelte",
-		"src/lib/components/map/Marker.svelte",
-		"src/lib/components/molecules/Mermaid.svelte",
-		"src/lib/components/molecules/Messages.svelte",
-		"src/lib/components/molecules/mobile-ham.svelte",
-		"src/lib/components/molecules/QuestionSearch.svelte",
-		"src/lib/components/molecules/Toast.svelte",
-		"src/lib/components/molecules/WordCloud.svelte",
-		"src/lib/components/questionPrintOut/frame.svelte",
-		"src/lib/components/questionPrintOut/ImageDropZone.svelte",
-		"src/lib/components/questionPrintOut/StyleControls.svelte",
-		"src/lib/components/questions/QuestionItemSkeleton.svelte",
-		"src/lib/components/map/controls/GeolocateControl.svelte",
-		"src/lib/components/map/controls/NavigationControl.svelte",
-		"src/lib/components/map/controls/ScaleControl.svelte",
-		"src/lib/components/map/geocoder/Geocoder.svelte"
-	]
+  "pages": [
+    {
+      "file": "src/routes/calendar/+page.svelte",
+      "props": [],
+      "customComponents": [],
+      "route": "/calendar"
+    },
+    {
+      "file": "src/routes/blog/+layout.svelte",
+      "props": [],
+      "customComponents": [],
+      "route": "/blog"
+    },
+    {
+      "file": "src/routes/followme/+page.svelte",
+      "props": [],
+      "customComponents": [
+        "EmailSignup"
+      ],
+      "route": "/followme"
+    },
+    {
+      "file": "src/routes/login/+layout.svelte",
+      "props": [],
+      "customComponents": [],
+      "route": "/login"
+    },
+    {
+      "file": "src/routes/signup/+page.svelte",
+      "props": [],
+      "customComponents": [
+        "Card",
+        "EmailInvite"
+      ],
+      "route": "/signup"
+    },
+    {
+      "file": "src/routes/blog/topical/+page.svelte",
+      "props": [],
+      "customComponents": [],
+      "route": "/blog/topical"
+    },
+    {
+      "file": "src/routes/stories/enneagram-and-mental-illness/+page.svelte",
+      "props": [],
+      "customComponents": [],
+      "route": "/stories/enneagram-and-mental-illness"
+    }
+  ],
+  "components": [
+    {
+      "file": "src/lib/analytics.svelte",
+      "props": [],
+      "customComponents": []
+    },
+    {
+      "file": "src/routes/+error.svelte",
+      "props": [],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/amp-stories/EnneagramMentalIllnessPromo.svelte",
+      "props": [
+        {
+          "name": "title",
+          "required": false
+        },
+        {
+          "name": "subtitle",
+          "required": false
+        },
+        {
+          "name": "ampUrl",
+          "required": false
+        },
+        {
+          "name": "imageUrl",
+          "required": false
+        },
+        {
+          "name": "altText",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/atoms/card.svelte",
+      "props": [
+        {
+          "name": "style",
+          "required": false
+        },
+        {
+          "name": "className",
+          "required": false
+        }
+      ],
+      "customComponents": [],
+      "slots": [
+        "default"
+      ]
+    },
+    {
+      "file": "src/lib/components/atoms/DateTip.svelte",
+      "props": [
+        {
+          "name": "tipType",
+          "required": false
+        }
+      ],
+      "customComponents": [],
+      "slots": [
+        "default"
+      ]
+    },
+    {
+      "file": "src/lib/components/blog/Article.svelte",
+      "props": [],
+      "customComponents": [],
+      "slots": [
+        "default"
+      ]
+    },
+    {
+      "file": "src/lib/components/blog/layout.svelte",
+      "props": [],
+      "customComponents": [],
+      "slots": [
+        "default"
+      ]
+    },
+    {
+      "file": "src/lib/components/blog/StructuredBlogView.svelte",
+      "props": [],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/arrowRightIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/bellIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/cameraIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/commentsIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/CommentXMarkIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/downIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/editIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/enneagram.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/envelope.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/filterListIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/leftIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/login.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/NO-caseyNeistatCareer.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/objectsColumnIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/objectsColumnOutlineIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/postIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/rightIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/searchIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/settingsIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/shareIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/siteMapIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/slidersIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/thumbsUpIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/upIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/icons/xmarkIcon.svelte",
+      "props": [
+        {
+          "name": "className",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "fill",
+          "required": false
+        },
+        {
+          "name": "iconStyle",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/map/Map.svelte",
+      "props": [
+        {
+          "name": "map",
+          "required": false
+        },
+        {
+          "name": "version",
+          "required": false
+        },
+        {
+          "name": "center",
+          "required": false
+        },
+        {
+          "name": "zoom",
+          "required": false
+        },
+        {
+          "name": "zoomRate",
+          "required": false
+        },
+        {
+          "name": "wheelZoomRate",
+          "required": false
+        },
+        {
+          "name": "options",
+          "required": false
+        },
+        {
+          "name": "accessToken",
+          "required": true
+        },
+        {
+          "name": "customStylesheetUrl",
+          "required": false
+        },
+        {
+          "name": "style",
+          "required": false
+        }
+      ],
+      "customComponents": [],
+      "slots": [
+        "default"
+      ]
+    },
+    {
+      "file": "src/lib/components/map/Marker.svelte",
+      "props": [
+        {
+          "name": "lat",
+          "required": true
+        },
+        {
+          "name": "lng",
+          "required": true
+        },
+        {
+          "name": "label",
+          "required": false
+        },
+        {
+          "name": "popupClassName",
+          "required": false
+        },
+        {
+          "name": "markerOffset",
+          "required": false
+        },
+        {
+          "name": "popupOffset",
+          "required": false
+        },
+        {
+          "name": "color",
+          "required": false
+        },
+        {
+          "name": "popup",
+          "required": false
+        },
+        {
+          "name": "popupOptions",
+          "required": false
+        },
+        {
+          "name": "markerOptions",
+          "required": false
+        },
+        {
+          "name": "popupHtml",
+          "required": false
+        }
+      ],
+      "customComponents": [],
+      "slots": [
+        "default",
+        "popup"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/Context.svelte",
+      "props": [],
+      "customComponents": [],
+      "slots": [
+        "default"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/Mermaid.svelte",
+      "props": [
+        {
+          "name": "newGraph",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "customComponents": [],
+      "slots": [
+        "default"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/Messages.svelte",
+      "props": [],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/molecules/mobile-ham.svelte",
+      "props": [
+        {
+          "name": "navItems",
+          "required": false
+        },
+        {
+          "name": "blogItems",
+          "required": false
+        }
+      ],
+      "customComponents": [
+        "Modal2",
+        "Context"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/QuestionSearch.svelte",
+      "props": [
+        {
+          "name": "placeholder",
+          "required": false
+        },
+        {
+          "name": "loading",
+          "required": false
+        },
+        {
+          "name": "options",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/molecules/Toast.svelte",
+      "props": [],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/molecules/WordCloud.svelte",
+      "props": [
+        {
+          "name": "words",
+          "required": false
+        },
+        {
+          "name": "width",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/questionPrintOut/frame.svelte",
+      "props": [
+        {
+          "name": "width",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        },
+        {
+          "name": "color",
+          "required": false
+        },
+        {
+          "name": "cornerSize",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/questionPrintOut/ImageDropZone.svelte",
+      "props": [],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/questionPrintOut/StyleControls.svelte",
+      "props": [
+        {
+          "name": "style",
+          "required": true
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/questions/QuestionItemSkeleton.svelte",
+      "props": [],
+      "customComponents": [
+        "Skeleton"
+      ]
+    },
+    {
+      "file": "src/lib/components/map/controls/GeolocateControl.svelte",
+      "props": [
+        {
+          "name": "position",
+          "required": false
+        },
+        {
+          "name": "options",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/map/controls/NavigationControl.svelte",
+      "props": [
+        {
+          "name": "position",
+          "required": false
+        },
+        {
+          "name": "options",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/map/controls/ScaleControl.svelte",
+      "props": [
+        {
+          "name": "position",
+          "required": false
+        },
+        {
+          "name": "options",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/map/geocoder/Geocoder.svelte",
+      "props": [
+        {
+          "name": "accessToken",
+          "required": true
+        },
+        {
+          "name": "options",
+          "required": false
+        },
+        {
+          "name": "version",
+          "required": false
+        },
+        {
+          "name": "types",
+          "required": false
+        },
+        {
+          "name": "placeholder",
+          "required": false
+        },
+        {
+          "name": "value",
+          "required": false
+        },
+        {
+          "name": "customStylesheetUrl",
+          "required": false
+        },
+        {
+          "name": "geocoder",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    }
+  ],
+  "apis": [
+    {
+      "file": "src/routes/comments/+server.ts",
+      "route": "/comments",
+      "methods": []
+    },
+    {
+      "file": "src/routes/logout/+server.ts",
+      "route": "/logout",
+      "methods": []
+    },
+    {
+      "file": "src/routes/poopmap/+server.ts",
+      "route": "/poopmap",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "file": "src/routes/rss.xml/+server.ts",
+      "route": "/rss.xml",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "file": "src/routes/sitemap.xml/+server.ts",
+      "route": "/sitemap.xml",
+      "methods": []
+    },
+    {
+      "file": "src/routes/api/adder/+server.ts",
+      "route": "/api/adder",
+      "methods": []
+    },
+    {
+      "file": "src/routes/api/update-questions/+server.ts",
+      "route": "/api/update-questions",
+      "methods": []
+    },
+    {
+      "file": "src/routes/blog/topical/+server.ts",
+      "route": "/blog/topical",
+      "methods": []
+    }
+  ],
+  "libModules": [
+    {
+      "file": "src/lib/elasticSearch.ts",
+      "type": "other",
+      "exports": [
+        "elasticClient",
+        "createESQuestion",
+        "deleteESQuestion",
+        "addESQuestionLike",
+        "addESSubscription",
+        "addESComment",
+        "addESCommentLike"
+      ],
+      "imports": [
+        "@elastic/elasticsearch",
+        "$env/static/private"
+      ]
+    },
+    {
+      "file": "src/lib/getPosts.ts",
+      "type": "other",
+      "exports": [
+        "getPosts"
+      ],
+      "imports": [
+        "./slugFromPath",
+        "./supabase"
+      ]
+    },
+    {
+      "file": "src/lib/page-transition.ts",
+      "type": "other",
+      "exports": [
+        "preparePageTransition"
+      ],
+      "imports": [
+        "$app/navigation"
+      ]
+    },
+    {
+      "file": "src/lib/realtime.ts",
+      "type": "other",
+      "exports": [
+        "Message",
+        "RealtimeMessaging",
+        "createPresenceChannel"
+      ],
+      "imports": [
+        "@supabase/supabase-js",
+        "@supabase/supabase-js"
+      ]
+    },
+    {
+      "file": "src/lib/slugFromPath.ts",
+      "type": "other",
+      "exports": [
+        "slugFromPath"
+      ]
+    },
+    {
+      "file": "src/lib/supabase.ts",
+      "type": "other",
+      "exports": [
+        "supabase"
+      ],
+      "imports": [
+        "../../database.types",
+        "$env/static/public"
+      ]
+    },
+    {
+      "file": "src/lib/vitals.ts",
+      "type": "other",
+      "exports": [
+        "webVitals"
+      ],
+      "imports": [
+        "web-vitals"
+      ]
+    },
+    {
+      "file": "src/lib/components/index.ts",
+      "type": "component"
+    },
+    {
+      "file": "src/lib/utils/blog.ts",
+      "type": "util",
+      "exports": [
+        "getBlogPosts",
+        "getMentalHealthPosts",
+        "getEnneagramPosts"
+      ],
+      "imports": [
+        "../slugFromPath"
+      ]
+    },
+    {
+      "file": "src/lib/utils/clickOutside.ts",
+      "type": "util",
+      "exports": [
+        "clickOutside"
+      ]
+    },
+    {
+      "file": "src/lib/utils/debounce.ts",
+      "type": "util",
+      "exports": [
+        "debounce"
+      ]
+    },
+    {
+      "file": "src/lib/utils/index.ts",
+      "type": "util"
+    },
+    {
+      "file": "src/lib/utils/logger.ts",
+      "type": "util",
+      "exports": [
+        "logger",
+        "withTiming",
+        "withApiLogging"
+      ],
+      "imports": [
+        "$app/environment"
+      ]
+    },
+    {
+      "file": "src/lib/validation/questionSchemas.ts",
+      "type": "other",
+      "exports": [
+        "createCommentSchema",
+        "likeCommentSchema",
+        "subscribeSchema",
+        "saveLinkClickSchema",
+        "flagCommentSchema",
+        "updateQuestionImgSchema",
+        "validateFormData"
+      ]
+    },
+    {
+      "file": "src/lib/validation/schemas.ts",
+      "type": "other",
+      "exports": [
+        "emailSchema",
+        "enneagramTypeSchema",
+        "userSchema",
+        "commentSchema",
+        "questionSchema",
+        "blogOperationSchema",
+        "aiPromptSchema",
+        "notificationSchema",
+        "subscriptionSchema",
+        "searchSchema",
+        "paginationSchema",
+        "forgotPasswordSchema",
+        "resetPasswordSchema",
+        "updateAccountSchema",
+        "adminActionSchema",
+        "validateData",
+        "validateRequest",
+        "validateFormData"
+      ]
+    },
+    {
+      "file": "src/lib/components/abstract/index.ts",
+      "type": "component",
+      "exports": [
+        "Portal"
+      ]
+    },
+    {
+      "file": "src/lib/components/abstract/lazyLoad.ts",
+      "type": "component",
+      "exports": [
+        "lazyLoad"
+      ]
+    },
+    {
+      "file": "src/lib/components/atoms/index.ts",
+      "type": "component",
+      "exports": [
+        "Modal",
+        "Modal2"
+      ]
+    },
+    {
+      "file": "src/lib/components/map/asset-loader.ts",
+      "type": "component",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/lib/components/map/components.ts",
+      "type": "component",
+      "exports": [
+        "Map",
+        "Marker",
+        "Geocoder",
+        "contextKey",
+        "controls"
+      ],
+      "imports": [
+        "$lib/components/map/Map.svelte",
+        "$lib/components/map/Marker.svelte",
+        "$lib/components/map/geocoder/Geocoder.svelte",
+        "$lib/components/map/mapbox",
+        "$lib/components/map/controls/GeolocateControl.svelte",
+        "$lib/components/map/controls/NavigationControl.svelte",
+        "$lib/components/map/controls/ScaleControl.svelte"
+      ]
+    },
+    {
+      "file": "src/lib/components/map/event-binding.ts",
+      "type": "component",
+      "exports": [
+        "bindEvents"
+      ]
+    },
+    {
+      "file": "src/lib/components/map/map-action.ts",
+      "type": "component",
+      "exports": [
+        "default"
+      ],
+      "imports": [
+        "$lib/components/map/asset-loader",
+        "$lib/components/map/event-binding"
+      ]
+    },
+    {
+      "file": "src/lib/components/map/mapbox.ts",
+      "type": "component",
+      "exports": [
+        "contextKey"
+      ]
+    },
+    {
+      "file": "src/lib/components/map/queue.ts",
+      "type": "component",
+      "exports": [
+        "EventQueue"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/famousTypes.ts",
+      "type": "component",
+      "exports": [
+        "famousTypes"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/index.ts",
+      "type": "component",
+      "exports": [
+        "Comments",
+        "Comment",
+        "QuestionItem"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/Interact.spec.ts",
+      "type": "component",
+      "imports": [
+        "vitest",
+        "./Interact.svelte",
+        "@testing-library/svelte"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/notifications.ts",
+      "type": "component",
+      "exports": [
+        "notifications"
+      ]
+    },
+    {
+      "file": "src/lib/components/map/geocoder/geocoder-action.ts",
+      "type": "component",
+      "exports": [
+        "default"
+      ],
+      "imports": [
+        "$lib/components/map/asset-loader",
+        "$lib/components/map/event-binding"
+      ]
+    }
+  ],
+  "routeModules": [
+    {
+      "file": "src/routes/+layout.server.ts",
+      "route": "/",
+      "type": "layout.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/+page.server.ts",
+      "route": "/",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/+page.ts",
+      "route": "/",
+      "type": "page"
+    },
+    {
+      "file": "src/routes/about/+page.server.ts",
+      "route": "/about",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/account/+page.server.ts",
+      "route": "/account",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/admin/+layout.server.ts",
+      "route": "/admin",
+      "type": "layout.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/admin/+page.server.ts",
+      "route": "/admin",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/calendar/+page.server.ts",
+      "route": "/calendar",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/book-session/+page.server.ts",
+      "route": "/book-session",
+      "type": "page.server",
+      "exports": [
+        "actions",
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/book-session/+page.ts",
+      "route": "/book-session",
+      "type": "page",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/blog/+layout.server.ts",
+      "route": "/blog",
+      "type": "layout.server"
+    },
+    {
+      "file": "src/routes/blog/+page.ts",
+      "route": "/blog",
+      "type": "page",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/community/+page.server.ts",
+      "route": "/community",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/email/+page.server.ts",
+      "route": "/email",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/enneagram-corner/+page.server.ts",
+      "route": "/enneagram-corner",
+      "type": "page.server"
+    },
+    {
+      "file": "src/routes/enneagram-corner/+page.ts",
+      "route": "/enneagram-corner",
+      "type": "page",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/forgotPassword/+page.server.ts",
+      "route": "/forgotPassword",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/how-to-guides/+page.server.ts",
+      "route": "/how-to-guides",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/login/+page.server.ts",
+      "route": "/login",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/logout/+page.server.ts",
+      "route": "/logout",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/personality-analysis/+page.server.ts",
+      "route": "/personality-analysis",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/questionPrint/+page.server.ts",
+      "route": "/questionPrint",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/questions/+page.server.ts",
+      "route": "/questions",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/questions/+page.ts",
+      "route": "/questions",
+      "type": "page"
+    },
+    {
+      "file": "src/routes/register/+page.server.ts",
+      "route": "/register",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/resetPassword/+page.server.ts",
+      "route": "/resetPassword",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/signup/+page.ts",
+      "route": "/signup",
+      "type": "page"
+    },
+    {
+      "file": "src/routes/users/+page.server.ts",
+      "route": "/users",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/account/unsubscribe/+page.server.ts",
+      "route": "/account/unsubscribe",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/admin/comments/+page.server.ts",
+      "route": "/admin/comments",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/admin/content-board/+page.server.ts",
+      "route": "/admin/content-board",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/admin/links/+page.server.ts",
+      "route": "/admin/links",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/admin/marketing/+page.server.ts",
+      "route": "/admin/marketing",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/admin/messages/+page.server.ts",
+      "route": "/admin/messages",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/admin/poster-generator/+page.server.ts",
+      "route": "/admin/poster-generator",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/admin/questions/+page.server.ts",
+      "route": "/admin/questions",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/admin/users/+page.server.ts",
+      "route": "/admin/users",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/blog/community/+page.server.ts",
+      "route": "/blog/community",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/blog/enneagram/+page.server.ts",
+      "route": "/blog/enneagram",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/blog/enneagram/+page.ts",
+      "route": "/blog/enneagram",
+      "type": "page",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/blog/famous-enneagram-types/+page.server.ts",
+      "route": "/blog/famous-enneagram-types",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/blog/experiment/+page.server.ts",
+      "route": "/blog/experiment",
+      "type": "page.server",
+      "exports": [
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/blog/guides/+page.server.ts",
+      "route": "/blog/guides",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/blog/topical/+page.server.ts",
+      "route": "/blog/topical",
+      "type": "page.server"
+    },
+    {
+      "file": "src/routes/community/[slug]/+page.ts",
+      "route": "/community/[slug]",
+      "type": "page",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/enneagram-corner/mental-health/+page.server.ts",
+      "route": "/enneagram-corner/mental-health",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/enneagram-corner/subtopic/+page.server.ts",
+      "route": "/enneagram-corner/subtopic",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/enneagram-corner/[slug]/+page.server.ts",
+      "route": "/enneagram-corner/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/enneagram-corner/[slug]/+page.ts",
+      "route": "/enneagram-corner/[slug]",
+      "type": "page",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/personality-analysis/type/+page.server.ts",
+      "route": "/personality-analysis/type",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/questions/categories/+page.server.ts",
+      "route": "/questions/categories",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/personality-analysis/[slug]/+page.server.ts",
+      "route": "/personality-analysis/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/how-to-guides/[slug]/+page.ts",
+      "route": "/how-to-guides/[slug]",
+      "type": "page",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/questions/[slug]/+layout.server.ts",
+      "route": "/questions/[slug]",
+      "type": "layout.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/questions/[slug]/+page.server.ts",
+      "route": "/questions/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/questions/create/+page.server.ts",
+      "route": "/questions/create",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/users/[externalId]/+page.server.ts",
+      "route": "/users/[externalId]",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ],
+      "pathParams": [
+        "externalId"
+      ]
+    },
+    {
+      "file": "src/routes/account/unsubscribe/[slug]/+page.server.ts",
+      "route": "/account/unsubscribe/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/admin/links/[slug]/+page.server.ts",
+      "route": "/admin/links/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/admin/questions/hierarchy/+page.server.ts",
+      "route": "/admin/questions/hierarchy",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/blog/community/[slug]/+page.server.ts",
+      "route": "/blog/community/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/blog/enneagram/subtopic/+page.server.ts",
+      "route": "/blog/enneagram/subtopic",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/blog/enneagram/[slug]/+page.server.ts",
+      "route": "/blog/enneagram/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/blog/famous-enneagram-types/type/+page.server.ts",
+      "route": "/blog/famous-enneagram-types/type",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
+      "file": "src/routes/blog/famous-enneagram-types/[slug]/+page.server.ts",
+      "route": "/blog/famous-enneagram-types/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/blog/famous-enneagram-types/[slug]/+page.ts",
+      "route": "/blog/famous-enneagram-types/[slug]",
+      "type": "page",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/blog/guides/[slug]/+page.server.ts",
+      "route": "/blog/guides/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/blog/topical/[slug]/+page.ts",
+      "route": "/blog/topical/[slug]",
+      "type": "page",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/enneagram-corner/subtopic/[slug]/+page.server.ts",
+      "route": "/enneagram-corner/subtopic/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/personality-analysis/type/[slug]/+page.server.ts",
+      "route": "/personality-analysis/type/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/questions/categories/[slug]/+page.server.ts",
+      "route": "/questions/categories/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/blog/enneagram/subtopic/[slug]/+page.server.ts",
+      "route": "/blog/enneagram/subtopic/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/blog/famous-enneagram-types/type/[slug]/+page.server.ts",
+      "route": "/blog/famous-enneagram-types/type/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    }
+  ],
+  "dependencies": {
+    "src/routes/signup/+page.svelte": [
+      "src/lib/components/atoms/card.svelte"
+    ],
+    "src/lib/components/molecules/mobile-ham.svelte": [
+      "src/lib/components/molecules/Context.svelte"
+    ]
+  },
+  "unusedComponents": [
+    "src/lib/analytics.svelte",
+    "src/routes/+error.svelte",
+    "src/lib/amp-stories/EnneagramMentalIllnessPromo.svelte",
+    "src/lib/components/atoms/DateTip.svelte",
+    "src/lib/components/blog/Article.svelte",
+    "src/lib/components/blog/layout.svelte",
+    "src/lib/components/blog/StructuredBlogView.svelte",
+    "src/lib/components/icons/arrowRightIcon.svelte",
+    "src/lib/components/icons/bellIcon.svelte",
+    "src/lib/components/icons/cameraIcon.svelte",
+    "src/lib/components/icons/commentsIcon.svelte",
+    "src/lib/components/icons/CommentXMarkIcon.svelte",
+    "src/lib/components/icons/downIcon.svelte",
+    "src/lib/components/icons/editIcon.svelte",
+    "src/lib/components/icons/enneagram.svelte",
+    "src/lib/components/icons/envelope.svelte",
+    "src/lib/components/icons/filterListIcon.svelte",
+    "src/lib/components/icons/leftIcon.svelte",
+    "src/lib/components/icons/login.svelte",
+    "src/lib/components/icons/NO-caseyNeistatCareer.svelte",
+    "src/lib/components/icons/objectsColumnIcon.svelte",
+    "src/lib/components/icons/objectsColumnOutlineIcon.svelte",
+    "src/lib/components/icons/postIcon.svelte",
+    "src/lib/components/icons/rightIcon.svelte",
+    "src/lib/components/icons/searchIcon.svelte",
+    "src/lib/components/icons/settingsIcon.svelte",
+    "src/lib/components/icons/shareIcon.svelte",
+    "src/lib/components/icons/siteMapIcon.svelte",
+    "src/lib/components/icons/slidersIcon.svelte",
+    "src/lib/components/icons/thumbsUpIcon.svelte",
+    "src/lib/components/icons/upIcon.svelte",
+    "src/lib/components/icons/xmarkIcon.svelte",
+    "src/lib/components/map/Map.svelte",
+    "src/lib/components/map/Marker.svelte",
+    "src/lib/components/molecules/Mermaid.svelte",
+    "src/lib/components/molecules/Messages.svelte",
+    "src/lib/components/molecules/mobile-ham.svelte",
+    "src/lib/components/molecules/QuestionSearch.svelte",
+    "src/lib/components/molecules/Toast.svelte",
+    "src/lib/components/molecules/WordCloud.svelte",
+    "src/lib/components/questionPrintOut/frame.svelte",
+    "src/lib/components/questionPrintOut/ImageDropZone.svelte",
+    "src/lib/components/questionPrintOut/StyleControls.svelte",
+    "src/lib/components/questions/QuestionItemSkeleton.svelte",
+    "src/lib/components/map/controls/GeolocateControl.svelte",
+    "src/lib/components/map/controls/NavigationControl.svelte",
+    "src/lib/components/map/controls/ScaleControl.svelte",
+    "src/lib/components/map/geocoder/Geocoder.svelte"
+  ]
 }
