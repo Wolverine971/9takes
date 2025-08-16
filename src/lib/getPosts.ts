@@ -3,7 +3,7 @@ import { slugFromPath } from './slugFromPath';
 import { supabase } from './supabase';
 
 export const getPosts = async () => {
-	const enneagramModules = import.meta.glob(`/src/blog/enneagram/*.{md,svx,svelte.md}`);
+	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		resolver().then((post) => ({
 			...(post as unknown as App.MdsvexFile).metadata,

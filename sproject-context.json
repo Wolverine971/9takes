@@ -1,16 +1,16 @@
 {
   "pages": [
     {
-      "file": "src/routes/calendar/+page.svelte",
-      "props": [],
-      "customComponents": [],
-      "route": "/calendar"
-    },
-    {
       "file": "src/routes/blog/+layout.svelte",
       "props": [],
       "customComponents": [],
       "route": "/blog"
+    },
+    {
+      "file": "src/routes/calendar/+page.svelte",
+      "props": [],
+      "customComponents": [],
+      "route": "/calendar"
     },
     {
       "file": "src/routes/followme/+page.svelte",
@@ -50,12 +50,12 @@
   ],
   "components": [
     {
-      "file": "src/lib/analytics.svelte",
+      "file": "src/routes/+error.svelte",
       "props": [],
       "customComponents": []
     },
     {
-      "file": "src/routes/+error.svelte",
+      "file": "src/lib/analytics.svelte",
       "props": [],
       "customComponents": []
     },
@@ -1386,12 +1386,16 @@
       ]
     },
     {
-      "file": "src/routes/calendar/+page.server.ts",
-      "route": "/calendar",
-      "type": "page.server",
+      "file": "src/routes/blog/+layout.server.ts",
+      "route": "/blog",
+      "type": "layout.server"
+    },
+    {
+      "file": "src/routes/blog/+page.ts",
+      "route": "/blog",
+      "type": "page",
       "exports": [
-        "load",
-        "actions"
+        "load"
       ]
     },
     {
@@ -1412,16 +1416,12 @@
       ]
     },
     {
-      "file": "src/routes/blog/+layout.server.ts",
-      "route": "/blog",
-      "type": "layout.server"
-    },
-    {
-      "file": "src/routes/blog/+page.ts",
-      "route": "/blog",
-      "type": "page",
+      "file": "src/routes/calendar/+page.server.ts",
+      "route": "/calendar",
+      "type": "page.server",
       "exports": [
-        "load"
+        "load",
+        "actions"
       ]
     },
     {
@@ -1657,19 +1657,19 @@
       ]
     },
     {
-      "file": "src/routes/blog/famous-enneagram-types/+page.server.ts",
-      "route": "/blog/famous-enneagram-types",
-      "type": "page.server",
-      "exports": [
-        "load"
-      ]
-    },
-    {
       "file": "src/routes/blog/experiment/+page.server.ts",
       "route": "/blog/experiment",
       "type": "page.server",
       "exports": [
         "actions"
+      ]
+    },
+    {
+      "file": "src/routes/blog/famous-enneagram-types/+page.server.ts",
+      "route": "/blog/famous-enneagram-types",
+      "type": "page.server",
+      "exports": [
+        "load"
       ]
     },
     {
@@ -1735,16 +1735,19 @@
       ]
     },
     {
-      "file": "src/routes/personality-analysis/type/+page.server.ts",
-      "route": "/personality-analysis/type",
-      "type": "page.server",
+      "file": "src/routes/how-to-guides/[slug]/+page.ts",
+      "route": "/how-to-guides/[slug]",
+      "type": "page",
       "exports": [
         "load"
+      ],
+      "pathParams": [
+        "slug"
       ]
     },
     {
-      "file": "src/routes/questions/categories/+page.server.ts",
-      "route": "/questions/categories",
+      "file": "src/routes/personality-analysis/type/+page.server.ts",
+      "route": "/personality-analysis/type",
       "type": "page.server",
       "exports": [
         "load"
@@ -1763,14 +1766,20 @@
       ]
     },
     {
-      "file": "src/routes/how-to-guides/[slug]/+page.ts",
-      "route": "/how-to-guides/[slug]",
-      "type": "page",
+      "file": "src/routes/questions/categories/+page.server.ts",
+      "route": "/questions/categories",
+      "type": "page.server",
       "exports": [
         "load"
-      ],
-      "pathParams": [
-        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/questions/create/+page.server.ts",
+      "route": "/questions/create",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
       ]
     },
     {
@@ -1794,15 +1803,6 @@
       ],
       "pathParams": [
         "slug"
-      ]
-    },
-    {
-      "file": "src/routes/questions/create/+page.server.ts",
-      "route": "/questions/create",
-      "type": "page.server",
-      "exports": [
-        "load",
-        "actions"
       ]
     },
     {
@@ -1869,6 +1869,14 @@
       ]
     },
     {
+      "file": "src/routes/blog/famous-enneagram-types/type/+page.server.ts",
+      "route": "/blog/famous-enneagram-types/type",
+      "type": "page.server",
+      "exports": [
+        "load"
+      ]
+    },
+    {
       "file": "src/routes/blog/enneagram/[slug]/+page.server.ts",
       "route": "/blog/enneagram/[slug]",
       "type": "page.server",
@@ -1877,14 +1885,6 @@
       ],
       "pathParams": [
         "slug"
-      ]
-    },
-    {
-      "file": "src/routes/blog/famous-enneagram-types/type/+page.server.ts",
-      "route": "/blog/famous-enneagram-types/type",
-      "type": "page.server",
-      "exports": [
-        "load"
       ]
     },
     {
@@ -1997,8 +1997,8 @@
     ]
   },
   "unusedComponents": [
-    "src/lib/analytics.svelte",
     "src/routes/+error.svelte",
+    "src/lib/analytics.svelte",
     "src/lib/amp-stories/EnneagramMentalIllnessPromo.svelte",
     "src/lib/components/atoms/DateTip.svelte",
     "src/lib/components/blog/Article.svelte",

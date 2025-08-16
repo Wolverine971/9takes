@@ -11,7 +11,9 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'greek-statue-asking-questions'
+pic: 'faq-2'
+pic_alt: 'Greek statue surrounded by floating question marks and glowing inquiry symbols'
+midjourney_prompt: 'contemplative greek statue in ancient library setting surrounded by floating holographic question marks and glowing inquiry symbols, face showing deep thoughtful curiosity and wisdom, scrolls and books floating around with mystical glowing text, ancient knowledge meets modern questioning, museum atmosphere with dramatic lighting, cyberpunk, cyberpunk style, neon blue and purple question marks, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lense, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections, Screen Space Reflections, Diffraction Grading, Chromatic Aberration, GB Displacement, Scan Lines, Ray Traced, Ray Tracing Ambient Occlusion, Anti-Aliasing, FKAA, TXAA, RTX, SSAO, Shaders, OpenGL-Shaders, GLSL-Shaders, Post Processing, Post-Production, Cel Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hypermaximalist, elegant, hyper realistic, super detailed'
 ---
 
 <p class="firstLetter">"Is this just astrology for people who think they're too smart for astrology?"</p>

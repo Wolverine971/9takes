@@ -14,7 +14,7 @@ export const load = async (): Promise<{
 }> => {
 	// const modules = import.meta.glob(`/src/blog/people/*.{md,svx,svelte.md}`);
 
-	const enneagramModules = import.meta.glob(`/src/blog/enneagram/*.{md,svx,svelte.md}`);
+	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
 
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		resolver().then(

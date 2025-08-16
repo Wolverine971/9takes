@@ -15,7 +15,7 @@ export const load: PageLoad = async ({ params }) => {
 		// throw error(301, redirectMap[params.slug]);
 		throw redirect(302, redirectMap[params.slug]);
 	}
-	const modules = import.meta.glob(`/src/blog/enneagram/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(modules)) {

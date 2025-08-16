@@ -1,6 +1,7 @@
+import { error, json } from '@sveltejs/kit';
+import { dev } from '$app/environment';
 // routes/api/adder/+server.ts
 import { supabase } from '$lib/supabase';
-import { error, json } from '@sveltejs/kit';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { z } from 'zod';
 
@@ -14,6 +15,12 @@ export const POST = withApiLogging(async ({ request }) => {
 	try {
 		const formData = await request.formData();
 		const body = Object.fromEntries(formData);
+
+		if (dev) {
+			return json({
+				message: 'Development mode - visitor data not recorded'
+			});
+		}
 
 		// Validate request body
 		const validatedData = visitorSchema.parse(body);

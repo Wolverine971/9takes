@@ -8,7 +8,7 @@ const getAllPosts = async () => {
 	const community = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
 
 	const guides = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
-	const enneagram = import.meta.glob(`/src/blog/enneagram/*.{md,svx,svelte.md}`);
+	const enneagram = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
 	const generational = import.meta.glob(`/src/blog/generational/*.{md,svx,svelte.md}`);
 	const historical = import.meta.glob(`/src/blog/historical/*.{md,svx,svelte.md}`);
 	const lifesituations = import.meta.glob(`/src/blog/life-situations/*.{md,svx,svelte.md}`);

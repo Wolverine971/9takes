@@ -1,15 +1,18 @@
 ---
+title: "The 10 Best Enneagram Tests (2025 Review)- We Took Them All So You Don't Have To"
 description: 'In-depth comparison of the 10 best Enneagram tests for 2025. We tested them all - paid and free - analyzing accuracy, depth, and value. Find your perfect match.'
 author: 'DJ Wayne'
-date: '2025-08-15'
+date: '2025-08-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-test-comparison-2025'
-lastmod: '2025-08-15'
+lastmod: '2025-08-16'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
 type: ['overview']
 blog: true
-title: `The 10 Best Enneagram Tests (2025 Review)- We Took Them All So You Don't Have To`
+pic: 'enneagram-inspiration-docs'
+pic_alt: 'Greek statue contemplating personality test on futuristic holographic interface'
+midjourney_prompt: 'greek statue sitting at a futuristic testing station with glowing holographic screens displaying personality test questions, face showing contemplative concentration and curiosity, multiple floating digital interfaces around the statue showing different test results, cyberpunk aesthetic with neon blue and magenta glow, ancient wisdom meets modern technology, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lense, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections, Screen Space Reflections, Diffraction Grading, Chromatic Aberration, GB Displacement, Scan Lines, Ray Traced, Ray Tracing Ambient Occlusion, Anti-Aliasing, FKAA, TXAA, RTX, SSAO, Shaders, OpenGL-Shaders, GLSL-Shaders, Post Processing, Post-Production, Cel Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hypermaximalist, elegant, hyper realistic, super detailed'
 ---
 
 <!--
@@ -677,8 +680,8 @@ Remember: The Enneagram isn't about getting a number assigned to you. It's about
     "@type": "Person",
     "name": "DJ Wayne"
   },
-  "datePublished": "2025-08-15",
-  "dateModified": "2025-08-15",
+  "datePublished": "2025-08-16",
+  "dateModified": "2025-08-16",
   "publisher": {
     "@type": "Organization",
     "name": "9takes",
