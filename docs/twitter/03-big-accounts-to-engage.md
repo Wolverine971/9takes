@@ -8,26 +8,26 @@ _Last Modified: 2025-08-15_
 
 **Reply to these accounts 3x/week minimum**
 
-#### @ThinkGrowProsper (85k)
+#### @ChrisWillx (90k)
 
-- **Why:** Self-development visuals, pattern recognition
-- **Best time:** Morning posts (7-9 AM EST)
-- **Approach:** Add psychological depth to their insights
-- **Example reply:** "This visual perfectly captures Type 3 energy - the achiever who forgot why they started climbing"
+- **Why:** Leading voice in personal development with psychology-backed advice
+- **Best time:** Morning posts (8-10 AM EST)
+- **Approach:** Connect his advice to Enneagram types and psychological frameworks
+- **Example reply:** "This productivity tip screams Type 1 energy—perfectionism driving focus but risking burnout. Balance is key."
 
-#### @thread_reader_app (When sharing psych content)
+#### @PsycologyToday (75k)
 
-- **Why:** Amplification opportunity
-- **Best time:** Within 5 minutes of thread unroll
-- **Approach:** Add unique angle to popular threads
-- **Example reply:** "This thread on perfectionism is textbook Type 1 - the inner critic that never sleeps"
+- **Why:** Shares cutting-edge research and self-improvement content, highly active in 2025
+- **Best time:** Midday posts (11 AM-1 PM EST)
+- **Approach:** Tie their research to Enneagram or personality insights
+- **Example reply:** "This study on self-acceptance maps to Type 9's growth path—embracing presence over avoidance."
 
-#### @PsychologyDocs (42k)
+#### @EnneagramInst (30k)
 
-- **Why:** Academic credibility crossover
-- **Best time:** Research posts
-- **Approach:** Bridge research to practical application
-- **Example reply:** "This attachment study maps perfectly to Enneagram Type 6 patterns - anxiety as a survival strategy"
+- **Why:** Official Enneagram Institute account with authoritative content
+- **Best time:** Afternoon posts (2-4 PM EST)
+- **Approach:** Amplify their content with your own Enneagram expertise
+- **Example reply:** "Type 4's individuality shines here, but their shadow side—envy—needs this kind of self-awareness to heal."
 
 #### @ModernTherapist (28k)
 
@@ -44,10 +44,23 @@ _Last Modified: 2025-08-15_
 - **Approach:** Connect money patterns to personality
 - **Example:** "Type 3s chase money for status, Type 5s for security - same goal, different wound"
 
-#### @LifeMathMoney (350k) - On relationship posts
+#### @melrobbins (250k)
 
-- **Why:** Male self-improvement audience
-- **Approach:** Add depth to dating advice
+- **Why:** No-nonsense self-improvement content with actionable psychology
+- **Approach:** Connect her action-oriented advice to Enneagram motivations
+- **Example:** "Type 7s jump into action to avoid pain, but Mel's 5-second rule could ground their impulsivity"
+
+#### @PsychCentral (234k)
+
+- **Why:** Leading mental health resource covering disorders with large engaged audience
+- **Approach:** Tie their clinical insights to personality type dynamics
+- **Example:** "Type 2s often mask their own needs, which can fuel the burnout Psych Central describes here"
+
+#### @jayshetty (300k)
+
+- **Why:** Blends mindfulness, relationships, and purpose-driven content
+- **Approach:** Link his spiritual insights to Enneagram growth paths
+- **Example:** "Jay's focus on purpose is Type 3's growth edge—shifting from external validation to inner meaning"
 - **Example:** "This is why Type 8 men struggle with vulnerability - strength became their only currency"
 
 #### @refined_mind (200k)
