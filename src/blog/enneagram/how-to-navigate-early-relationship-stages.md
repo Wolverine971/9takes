@@ -242,7 +242,7 @@ Your value isn't in your utility. The right person loves you at rest.
 
 **The power move:** Share three of your needs. Ask for one to be met. Notice you don't die.
 
-> **Type 2s and boundaries:** <a href="/enneagram-corner/enneagram-boundaries#type2">Learn to receive without guilt →</a>
+> **Type 2s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Learn relationship dynamics →</a>
 
 </section>
 

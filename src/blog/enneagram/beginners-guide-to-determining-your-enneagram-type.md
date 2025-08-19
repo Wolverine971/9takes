@@ -381,7 +381,7 @@ But here's what matters more:
 
 1. **Test your hypothesis:** Watch yourself for 24 hours. Notice when your type's patterns show up.
 
-2. **Find your growth path:** Each type has specific practices for health. [Discover yours here →](/enneagram-corner/enneagram-types)
+2. **Find your growth path:** Each type has specific practices for health. [Explore the types →](/enneagram-corner)
 
 3. **Join the conversation:** Share your type discovery with someone close. Their reaction will confirm or challenge your self-assessment.
 
