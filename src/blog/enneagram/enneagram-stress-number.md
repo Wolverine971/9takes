@@ -727,7 +727,7 @@ While stress takes you to your worst, growth takes you to your best. Each type a
 
 ---
 
-_Ready to master your patterns? Explore [your type's growth path](/enneagram-corner/enneagram-types) or discover [how to recognize stress in others](/enneagram-corner/enneagram-types-in-relationships)._
+_Ready to master your patterns? Explore [the Enneagram types](/enneagram-corner) or discover [how to recognize stress in others](/enneagram-corner/enneagram-types-in-relationships)._
 
 <svelte:head>
 

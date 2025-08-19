@@ -32,7 +32,8 @@
       "Bash(if [ -f \"$file\" ])",
       "Bash(then wc -l \"$file\")",
       "Bash(else echo \"File not found\")",
-      "Bash(fi)"
+      "Bash(fi)",
+      "Bash(find:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits",

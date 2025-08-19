@@ -157,7 +157,7 @@ Choose values-aligned activities:
 
 **The growth edge:** Let something go wrong. Laugh about it. Show her that you can handle imperfection with grace.
 
-> **Type 1s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships#type1">Discover your compatibility patterns →</a>
+> **Type 1s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Discover your compatibility patterns →</a>
 
 </section>
 
@@ -237,7 +237,7 @@ Choose reciprocal activities:
 
 **The growth edge:** Share three of your own needs. Ask for one to be met. Notice that the world doesn't end.
 
-> **Type 2s and love languages:** <a href="/enneagram-corner/enneagram-and-love-languages#type2">Learn how you express affection →</a>
+> **Type 2s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Learn relationship dynamics →</a>
 
 </section>
 
@@ -320,7 +320,7 @@ Choose vulnerable activities:
 
 **The growth edge:** Turn off your phone. Be present. Let success be the quality of connection, not the impressiveness of activity.
 
-> **Type 3s under stress:** <a href="/enneagram-corner/enneagram-types-in-stress#type3">Recognize when you're performing →</a>
+> **Type 3s under stress:** <a href="/enneagram-corner/enneagram-types-in-stress">Recognize when you're performing →</a>
 
 </section>
 
@@ -401,7 +401,7 @@ Choose meaningful simplicity:
 
 **The growth edge:** Appreciate three "boring" things about them. Find depth in the everyday.
 
-> **Type 4s and emotional intelligence:** <a href="/enneagram-corner/enneagram-emotional-intelligence#type4">Master your emotional intensity →</a>
+> **Type 4s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Master your emotional intensity →</a>
 
 </section>
 
@@ -478,7 +478,7 @@ Choose embodied learning:
 
 **The growth edge:** Make eye contact for five seconds. Share one feeling. Don't explain why.
 
-> **Type 5s in relationships:** <a href="/enneagram-corner/relationship-dynamics-type-5">Understand your attachment style →</a>
+> **Type 5s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Understand your attachment style →</a>
 
 </section>
 
@@ -555,7 +555,7 @@ Choose controlled adventures:
 
 **The growth edge:** Assume positive intent. Act as if they're trustworthy. Notice what happens.
 
-> **Type 6s and anxiety:** <a href="/enneagram-corner/enneagram-and-anxiety#type6">Manage dating anxiety effectively →</a>
+> **Type 6s and anxiety:** <a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide">Manage dating anxiety effectively →</a>
 
 </section>
 
@@ -632,7 +632,7 @@ Balance novelty with connection:
 
 **The growth edge:** Sit with one uncomfortable feeling for 30 seconds. Share it. Don't deflect with humor.
 
-> **Type 7s and commitment:** <a href="/enneagram-corner/enneagram-commitment-issues#type7">Transform FOMO into depth →</a>
+> **Type 7s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Transform FOMO into depth →</a>
 
 </section>
 
@@ -709,7 +709,7 @@ Choose vulnerable strength:
 
 **The growth edge:** Share a fear. Accept help. Let them lead something.
 
-> **Type 8s and vulnerability:** <a href="/enneagram-corner/enneagram-type-8-vulnerability">Master the strength of softness →</a>
+> **Type 8s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Master the strength of softness →</a>
 
 </section>
 
@@ -786,7 +786,7 @@ Choose self-expression activities:
 
 **The growth edge:** Make three decisions without asking their preference. Express one disagreement. State one need.
 
-> **Type 9s and boundaries:** <a href="/enneagram-corner/enneagram-boundaries#type9">Learn to maintain self in relationships →</a>
+> **Type 9s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Learn to maintain self in relationships →</a>
 
 </section>
 
