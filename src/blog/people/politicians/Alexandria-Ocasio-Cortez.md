@@ -25,7 +25,6 @@ tiktok: ''
     stressful moments in their life and how they handled them
     comfort- moments in their life where they are doing well and killing it
 
-    todo\
 
 Alexandria Ocasio-Cortez (AOC) has been a vocal advocate for addressing climate change. She introduced the Green New Deal resolution in 2019, which aimed to reduce greenhouse gas emissions, create jobs in clean energy, and promote environmental justice.
 AOC has worked to protect the rights of immigrants. She has opposed the separation of families at the U.S.-Mexico border and has called for more humane immigration policies.

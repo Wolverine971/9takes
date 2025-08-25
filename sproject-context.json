@@ -7,10 +7,10 @@
       "route": "/blog"
     },
     {
-      "file": "src/routes/calendar/+page.svelte",
+      "file": "src/routes/login/+layout.svelte",
       "props": [],
       "customComponents": [],
-      "route": "/calendar"
+      "route": "/login"
     },
     {
       "file": "src/routes/followme/+page.svelte",
@@ -21,12 +21,6 @@
       "route": "/followme"
     },
     {
-      "file": "src/routes/login/+layout.svelte",
-      "props": [],
-      "customComponents": [],
-      "route": "/login"
-    },
-    {
       "file": "src/routes/signup/+page.svelte",
       "props": [],
       "customComponents": [
@@ -34,6 +28,12 @@
         "EmailInvite"
       ],
       "route": "/signup"
+    },
+    {
+      "file": "src/routes/calendar/+page.svelte",
+      "props": [],
+      "customComponents": [],
+      "route": "/calendar"
     },
     {
       "file": "src/routes/blog/topical/+page.svelte",
@@ -683,6 +683,91 @@
       "customComponents": []
     },
     {
+      "file": "src/lib/components/molecules/Context.svelte",
+      "props": [],
+      "customComponents": [],
+      "slots": [
+        "default"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/Mermaid.svelte",
+      "props": [
+        {
+          "name": "newGraph",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "customComponents": [],
+      "slots": [
+        "default"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/Messages.svelte",
+      "props": [],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/molecules/QuestionSearch.svelte",
+      "props": [
+        {
+          "name": "placeholder",
+          "required": false
+        },
+        {
+          "name": "loading",
+          "required": false
+        },
+        {
+          "name": "options",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/molecules/Toast.svelte",
+      "props": [],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/molecules/WordCloud.svelte",
+      "props": [
+        {
+          "name": "words",
+          "required": false
+        },
+        {
+          "name": "width",
+          "required": false
+        },
+        {
+          "name": "height",
+          "required": false
+        }
+      ],
+      "customComponents": []
+    },
+    {
+      "file": "src/lib/components/molecules/mobile-ham.svelte",
+      "props": [
+        {
+          "name": "navItems",
+          "required": false
+        },
+        {
+          "name": "blogItems",
+          "required": false
+        }
+      ],
+      "customComponents": [
+        "Modal2",
+        "Context"
+      ]
+    },
+    {
       "file": "src/lib/components/map/Map.svelte",
       "props": [
         {
@@ -786,88 +871,10 @@
       ]
     },
     {
-      "file": "src/lib/components/molecules/Context.svelte",
+      "file": "src/lib/components/questions/QuestionItemSkeleton.svelte",
       "props": [],
-      "customComponents": [],
-      "slots": [
-        "default"
-      ]
-    },
-    {
-      "file": "src/lib/components/molecules/Mermaid.svelte",
-      "props": [
-        {
-          "name": "newGraph",
-          "type": "string",
-          "required": true
-        }
-      ],
-      "customComponents": [],
-      "slots": [
-        "default"
-      ]
-    },
-    {
-      "file": "src/lib/components/molecules/Messages.svelte",
-      "props": [],
-      "customComponents": []
-    },
-    {
-      "file": "src/lib/components/molecules/QuestionSearch.svelte",
-      "props": [
-        {
-          "name": "placeholder",
-          "required": false
-        },
-        {
-          "name": "loading",
-          "required": false
-        },
-        {
-          "name": "options",
-          "required": false
-        }
-      ],
-      "customComponents": []
-    },
-    {
-      "file": "src/lib/components/molecules/Toast.svelte",
-      "props": [],
-      "customComponents": []
-    },
-    {
-      "file": "src/lib/components/molecules/WordCloud.svelte",
-      "props": [
-        {
-          "name": "words",
-          "required": false
-        },
-        {
-          "name": "width",
-          "required": false
-        },
-        {
-          "name": "height",
-          "required": false
-        }
-      ],
-      "customComponents": []
-    },
-    {
-      "file": "src/lib/components/molecules/mobile-ham.svelte",
-      "props": [
-        {
-          "name": "navItems",
-          "required": false
-        },
-        {
-          "name": "blogItems",
-          "required": false
-        }
-      ],
       "customComponents": [
-        "Modal2",
-        "Context"
+        "Skeleton"
       ]
     },
     {
@@ -906,13 +913,6 @@
         }
       ],
       "customComponents": []
-    },
-    {
-      "file": "src/lib/components/questions/QuestionItemSkeleton.svelte",
-      "props": [],
-      "customComponents": [
-        "Skeleton"
-      ]
     },
     {
       "file": "src/lib/components/map/controls/GeolocateControl.svelte",
@@ -1014,16 +1014,16 @@
       ]
     },
     {
+      "file": "src/routes/sitemap.xml/+server.ts",
+      "route": "/sitemap.xml",
+      "methods": []
+    },
+    {
       "file": "src/routes/rss.xml/+server.ts",
       "route": "/rss.xml",
       "methods": [
         "GET"
       ]
-    },
-    {
-      "file": "src/routes/sitemap.xml/+server.ts",
-      "route": "/sitemap.xml",
-      "methods": []
     },
     {
       "file": "src/routes/api/adder/+server.ts",
@@ -1227,6 +1227,38 @@
       ]
     },
     {
+      "file": "src/lib/components/molecules/Interact.spec.ts",
+      "type": "component",
+      "imports": [
+        "vitest",
+        "./Interact.svelte",
+        "@testing-library/svelte"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/famousTypes.ts",
+      "type": "component",
+      "exports": [
+        "famousTypes"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/index.ts",
+      "type": "component",
+      "exports": [
+        "Comments",
+        "Comment",
+        "QuestionItem"
+      ]
+    },
+    {
+      "file": "src/lib/components/molecules/notifications.ts",
+      "type": "component",
+      "exports": [
+        "notifications"
+      ]
+    },
+    {
       "file": "src/lib/components/map/asset-loader.ts",
       "type": "component",
       "exports": [
@@ -1286,38 +1318,6 @@
       ]
     },
     {
-      "file": "src/lib/components/molecules/Interact.spec.ts",
-      "type": "component",
-      "imports": [
-        "vitest",
-        "./Interact.svelte",
-        "@testing-library/svelte"
-      ]
-    },
-    {
-      "file": "src/lib/components/molecules/famousTypes.ts",
-      "type": "component",
-      "exports": [
-        "famousTypes"
-      ]
-    },
-    {
-      "file": "src/lib/components/molecules/index.ts",
-      "type": "component",
-      "exports": [
-        "Comments",
-        "Comment",
-        "QuestionItem"
-      ]
-    },
-    {
-      "file": "src/lib/components/molecules/notifications.ts",
-      "type": "component",
-      "exports": [
-        "notifications"
-      ]
-    },
-    {
       "file": "src/lib/components/map/geocoder/geocoder-action.ts",
       "type": "component",
       "exports": [
@@ -1352,20 +1352,20 @@
       "type": "page"
     },
     {
-      "file": "src/routes/about/+page.server.ts",
-      "route": "/about",
-      "type": "page.server",
-      "exports": [
-        "load"
-      ]
-    },
-    {
       "file": "src/routes/account/+page.server.ts",
       "route": "/account",
       "type": "page.server",
       "exports": [
         "load",
         "actions"
+      ]
+    },
+    {
+      "file": "src/routes/about/+page.server.ts",
+      "route": "/about",
+      "type": "page.server",
+      "exports": [
+        "load"
       ]
     },
     {
@@ -1416,8 +1416,8 @@
       ]
     },
     {
-      "file": "src/routes/calendar/+page.server.ts",
-      "route": "/calendar",
+      "file": "src/routes/email/+page.server.ts",
+      "route": "/email",
       "type": "page.server",
       "exports": [
         "load",
@@ -1430,15 +1430,6 @@
       "type": "page.server",
       "exports": [
         "load"
-      ]
-    },
-    {
-      "file": "src/routes/email/+page.server.ts",
-      "route": "/email",
-      "type": "page.server",
-      "exports": [
-        "load",
-        "actions"
       ]
     },
     {
@@ -1464,20 +1455,20 @@
       ]
     },
     {
-      "file": "src/routes/how-to-guides/+page.server.ts",
-      "route": "/how-to-guides",
-      "type": "page.server",
-      "exports": [
-        "load"
-      ]
-    },
-    {
       "file": "src/routes/login/+page.server.ts",
       "route": "/login",
       "type": "page.server",
       "exports": [
         "load",
         "actions"
+      ]
+    },
+    {
+      "file": "src/routes/how-to-guides/+page.server.ts",
+      "route": "/how-to-guides",
+      "type": "page.server",
+      "exports": [
+        "load"
       ]
     },
     {
@@ -1488,6 +1479,20 @@
         "load",
         "actions"
       ]
+    },
+    {
+      "file": "src/routes/questions/+page.server.ts",
+      "route": "/questions",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/questions/+page.ts",
+      "route": "/questions",
+      "type": "page"
     },
     {
       "file": "src/routes/personality-analysis/+page.server.ts",
@@ -1505,20 +1510,6 @@
       "exports": [
         "load"
       ]
-    },
-    {
-      "file": "src/routes/questions/+page.server.ts",
-      "route": "/questions",
-      "type": "page.server",
-      "exports": [
-        "load",
-        "actions"
-      ]
-    },
-    {
-      "file": "src/routes/questions/+page.ts",
-      "route": "/questions",
-      "type": "page"
     },
     {
       "file": "src/routes/register/+page.server.ts",
@@ -1546,6 +1537,15 @@
     {
       "file": "src/routes/users/+page.server.ts",
       "route": "/users",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ]
+    },
+    {
+      "file": "src/routes/calendar/+page.server.ts",
+      "route": "/calendar",
       "type": "page.server",
       "exports": [
         "load",
@@ -1727,14 +1727,6 @@
       ]
     },
     {
-      "file": "src/routes/enneagram-corner/subtopic/+page.server.ts",
-      "route": "/enneagram-corner/subtopic",
-      "type": "page.server",
-      "exports": [
-        "load"
-      ]
-    },
-    {
       "file": "src/routes/how-to-guides/[slug]/+page.ts",
       "route": "/how-to-guides/[slug]",
       "type": "page",
@@ -1746,20 +1738,8 @@
       ]
     },
     {
-      "file": "src/routes/personality-analysis/[slug]/+page.server.ts",
-      "route": "/personality-analysis/[slug]",
-      "type": "page.server",
-      "exports": [
-        "load",
-        "actions"
-      ],
-      "pathParams": [
-        "slug"
-      ]
-    },
-    {
-      "file": "src/routes/personality-analysis/type/+page.server.ts",
-      "route": "/personality-analysis/type",
+      "file": "src/routes/enneagram-corner/subtopic/+page.server.ts",
+      "route": "/enneagram-corner/subtopic",
       "type": "page.server",
       "exports": [
         "load"
@@ -1803,6 +1783,26 @@
       "exports": [
         "load",
         "actions"
+      ]
+    },
+    {
+      "file": "src/routes/personality-analysis/[slug]/+page.server.ts",
+      "route": "/personality-analysis/[slug]",
+      "type": "page.server",
+      "exports": [
+        "load",
+        "actions"
+      ],
+      "pathParams": [
+        "slug"
+      ]
+    },
+    {
+      "file": "src/routes/personality-analysis/type/+page.server.ts",
+      "route": "/personality-analysis/type",
+      "type": "page.server",
+      "exports": [
+        "load"
       ]
     },
     {
@@ -1943,23 +1943,23 @@
       ]
     },
     {
-      "file": "src/routes/personality-analysis/type/[slug]/+page.server.ts",
-      "route": "/personality-analysis/type/[slug]",
+      "file": "src/routes/questions/categories/[slug]/+page.server.ts",
+      "route": "/questions/categories/[slug]",
       "type": "page.server",
       "exports": [
-        "load",
-        "actions"
+        "load"
       ],
       "pathParams": [
         "slug"
       ]
     },
     {
-      "file": "src/routes/questions/categories/[slug]/+page.server.ts",
-      "route": "/questions/categories/[slug]",
+      "file": "src/routes/personality-analysis/type/[slug]/+page.server.ts",
+      "route": "/personality-analysis/type/[slug]",
       "type": "page.server",
       "exports": [
-        "load"
+        "load",
+        "actions"
       ],
       "pathParams": [
         "slug"
@@ -2029,18 +2029,18 @@
     "src/lib/components/icons/thumbsUpIcon.svelte",
     "src/lib/components/icons/upIcon.svelte",
     "src/lib/components/icons/xmarkIcon.svelte",
-    "src/lib/components/map/Map.svelte",
-    "src/lib/components/map/Marker.svelte",
     "src/lib/components/molecules/Mermaid.svelte",
     "src/lib/components/molecules/Messages.svelte",
     "src/lib/components/molecules/QuestionSearch.svelte",
     "src/lib/components/molecules/Toast.svelte",
     "src/lib/components/molecules/WordCloud.svelte",
     "src/lib/components/molecules/mobile-ham.svelte",
+    "src/lib/components/map/Map.svelte",
+    "src/lib/components/map/Marker.svelte",
+    "src/lib/components/questions/QuestionItemSkeleton.svelte",
     "src/lib/components/questionPrintOut/ImageDropZone.svelte",
     "src/lib/components/questionPrintOut/StyleControls.svelte",
     "src/lib/components/questionPrintOut/frame.svelte",
-    "src/lib/components/questions/QuestionItemSkeleton.svelte",
     "src/lib/components/map/controls/GeolocateControl.svelte",
     "src/lib/components/map/controls/NavigationControl.svelte",
     "src/lib/components/map/controls/ScaleControl.svelte",
