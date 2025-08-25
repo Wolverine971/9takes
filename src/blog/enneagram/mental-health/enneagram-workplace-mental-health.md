@@ -94,14 +94,12 @@ Each Enneagram type has:
 #### Individual Strategies
 
 1. **Set "Good Enough" Standards**
-
    - Define minimum acceptable quality
    - Practice selective perfectionism
    - Time-box tasks
    - Celebrate completion over perfection
 
 2. **Build in Flexibility**
-
    - Schedule buffer time
    - Plan for mistakes
    - Create "improvement" lists for later
@@ -181,14 +179,12 @@ Each Enneagram type has:
 #### Individual Strategies
 
 1. **Establish Helper Boundaries**
-
    - Set "office hours" for helping
    - Practice saying "I can't right now"
    - Schedule self-care first
    - Track your own achievements
 
 2. **Direct Communication**
-
    - Ask for what you need
    - Express feelings directly
    - Avoid emotional manipulation
@@ -268,14 +264,12 @@ Each Enneagram type has:
 #### Individual Strategies
 
 1. **Redefine Success**
-
    - Include wellbeing metrics
    - Value process not just outcomes
    - Set sustainable goals
    - Measure growth not just achievement
 
 2. **Emotional Check-ins**
-
    - Daily feeling inventory
    - Regular therapy/coaching
    - Vulnerability practice
@@ -355,14 +349,12 @@ Each Enneagram type has:
 #### Individual Strategies
 
 1. **Create Meaning**
-
    - Connect work to values
    - Find creative outlets
    - Personalize workspace
    - Build authentic relationships
 
 2. **Emotional Regulation**
-
    - Mood tracking
    - Grounding techniques
    - Regular creative time
@@ -442,14 +434,12 @@ Each Enneagram type has:
 #### Individual Strategies
 
 1. **Energy Management**
-
    - Limited meeting days
    - Quiet workspace
    - Regular alone time
    - Clear boundaries
 
 2. **Communication Strategies**
-
    - Written updates preferred
    - Agenda-driven meetings
    - Minimal small talk
@@ -529,14 +519,12 @@ Each Enneagram type has:
 #### Individual Strategies
 
 1. **Anxiety Management**
-
    - Daily grounding practices
    - Worst-case planning
    - Reality checking
    - Support network
 
 2. **Build Security**
-
    - Clear role documentation
    - Regular check-ins
    - Skill building
@@ -616,14 +604,12 @@ Each Enneagram type has:
 #### Individual Strategies
 
 1. **Structured Freedom**
-
    - Variety within limits
    - Completion rewards
    - Difficult task scheduling
    - Pain processing time
 
 2. **Depth Practice**
-
    - One thing deeply
    - Emotional check-ins
    - Mindfulness training
@@ -703,14 +689,12 @@ Each Enneagram type has:
 #### Individual Strategies
 
 1. **Channel Intensity**
-
    - Physical exercise
    - Protective leadership
    - Justice projects
    - Controlled vulnerability
 
 2. **Trust Building**
-
    - Choose battles
    - Strategic alliances
    - Gradual openness
@@ -790,14 +774,12 @@ Each Enneagram type has:
 #### Individual Strategies
 
 1. **Priority Clarity**
-
    - Top 3 focus
    - Daily priorities
    - Saying no practice
    - Energy tracking
 
 2. **Voice Development**
-
    - Opinion sharing
    - Meeting participation
    - Boundary setting
@@ -839,13 +821,11 @@ Each Enneagram type has:
 ### Universal Principles
 
 1. **Psychological Safety**
-
    - All types need different safety
    - Create multiple pathways
    - Honor diverse needs
 
 2. **Flexible Policies**
-
    - Work style options
    - Communication choices
    - Success metrics variety

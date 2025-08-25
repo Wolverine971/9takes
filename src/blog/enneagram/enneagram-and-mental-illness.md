@@ -117,7 +117,6 @@ Type 1s are susceptible to a range of mental health challenges, including:
 ### Unhealthy Spirals: Real-Life Examples of Perfectionism's Impact
 
 1. **Alex, a dedicated teacher, develops obsessive-compulsive tendencies**
-
    - Spending excessive hours revising materials
    - Experiencing anxiety attacks before classes
    - Developing insomnia due to worry about potential mistakes
@@ -178,7 +177,6 @@ Type 2s are susceptible to:
 ### Unhealthy Spirals: Case Studies in Codependency and Manipulation
 
 1. **Liam, a healthcare professional, forms unhealthy emotional attachments**
-
    - Offers more help than necessary, hoping to be appreciated
    - Resentment grows when patients don't follow his advice
    - Begins exerting more control, blurring lines between care and manipulation
@@ -239,7 +237,6 @@ Type 3s are susceptible to:
 ### Unhealthy Spirals: Case Studies in Narcissism and Imposter Syndrome
 
 1. **Jack, an ambitious executive with severe narcissistic traits**
-
    - Climbs the corporate ladder, upgrading lifestyle constantly
    - Works harder and cuts ethical corners to maintain status
    - Experiences high stress, ethical compromises, and potential burnout
@@ -299,7 +296,6 @@ Type 4s are susceptible to:
 ### Unhealthy Spirals: Case Studies in Depression and Identity Struggles
 
 1. **Oliver, grappling with depression and alienation**
-
    - Emotional volatility creates strained relationships
    - Self-sabotage by pushing away supportive people
    - Sense of alienation intensifies, deepening depression
@@ -370,7 +366,6 @@ Type 5s are susceptible to:
 ### Unhealthy Spirals: Case Studies in Isolation and Schizoid Behavior
 
 1. **Ethan, a researcher lost in extreme isolation**
-
    - Consumed by intellectual pursuits, ignoring self-care
    - Increasingly eccentric, refusing help from friends
    - Perceptions become distorted, leading to suicidal thoughts
@@ -429,7 +424,6 @@ Type 6s are susceptible to:
 ### Unhealthy Spirals: Case Studies in Anxiety and Paranoid Thinking
 
 1. **Noah, severe anxiety and panic attacks**
-
    - Fear of losing others’ support escalates anxiety
    - Intense reliance on peers for reassurance
    - Grows defiant when feeling cornered, fueling conflicts
@@ -489,7 +483,6 @@ Type 7s are susceptible to:
 ### Unhealthy Spirals: Case Studies in Mania and Addiction
 
 1. **Lucas, descending into severe addiction**
-
    - Impulsivity leads to substance abuse for relief
    - Addiction fuels unpredictable behavior and panic episodes
    - Life becomes a series of euphoric highs and devastating lows
@@ -548,7 +541,6 @@ Type 8s are susceptible to:
 ### Unhealthy Spirals: Case Studies in Aggression and Antisocial Behavior
 
 1. **James, consumed by anger and isolation**
-
    - Feels betrayed and withdraws from supportive relationships
    - Episodes of rage worsen, leading toward antisocial behavior
    - Isolation and distrust form a feedback loop of bitterness
@@ -606,7 +598,6 @@ Type 9s are susceptible to:
 ### Unhealthy Spirals: Case Studies in Dissociation and Chronic Avoidance
 
 1. **William, sinking into chronic depression**
-
    - Skirts personal issues, maintaining superficial harmony
    - Becomes emotionally numb, relying on others for decisions
    - Increasing disconnection from his own feelings deepens depression

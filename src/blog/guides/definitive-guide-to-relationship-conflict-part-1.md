@@ -407,21 +407,18 @@ Identify shared goals and values. This common ground will serve as the <a class=
 Different types of conflicts often require specific approaches. Here are strategies for navigating common sources of relationship disagreement:
 
 1. **Financial conflicts**
-
    - Share your money histories and the values you learned growing up
    - Create a budget that respects both partners' priorities
    - Consider separate, joint, and personal discretionary accounts
    - Schedule regular financial check-ins to prevent issues from building up
 
 2. **Household responsibilities**
-
    - List all household tasks and their frequency
    - Divide based on preferences, skills, and available time
    - Create a rotating schedule for disliked tasks
    - Consider outsourcing particularly contentious chores if financially feasible
 
 3. **In-law and extended family issues**
-
    - Establish boundaries as a unified team
    - Support each other in interactions with difficult family members
    - Compromise on holiday and visit schedules
@@ -473,13 +470,11 @@ For additional insights on personal growth that can enhance your conflict resolu
 <h3 id="recommended-resources">Recommended Resources</h3>
 
 - **Books:**
-
   - "The Seven Principles for Making Marriage Work" by John Gottman and Nan Silver
   - "Mindful Relationship Habits" by S.J. Scott and Barrie Davenport
   - "Nonviolent Communication" by Marshall Rosenberg
 
 - **Podcasts:**
-
   - "Where Should We Begin?" with Esther Perel
   - "The Gottman Relationship Coach" podcast
   - "Relationship Alive" with Neil Sattin

@@ -84,6 +84,10 @@
 		"crypto": false
 	},
 	"type": "module",
+	"engines": {
+		"node": ">=22.0.0",
+		"pnpm": ">=8.0.0"
+	},
 	"dependencies": {
 		"@builder.io/partytown": "^0.8.2",
 		"@elastic/elasticsearch": "^8.15.0",

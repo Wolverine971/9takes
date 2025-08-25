@@ -179,7 +179,6 @@ This document summarizes all the optimizations implemented for the `/questions` 
 ## Migration Steps
 
 1. Run the database migrations in order:
-
    - `20250719_add_comment_count_column.sql`
    - `20250719_optimize_questions_page.sql`
 

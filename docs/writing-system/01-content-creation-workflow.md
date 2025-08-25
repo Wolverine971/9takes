@@ -52,18 +52,15 @@ Is it filling a critical gap? → Priority 1
 Choose based on content type:
 
 1. **Problem → Cause → Solution** (Most common)
-
    - Open with relatable problem
    - Explore root causes
    - Provide actionable solutions
 
 2. **Chronological Journey**
-
    - Past state → Present challenge → Future solution
    - Good for transformation content
 
 3. **Type-by-Type Analysis** (Enneagram standard)
-
    - Introduction to concept
    - Type 1 through Type 9
    - Synthesis and conclusion

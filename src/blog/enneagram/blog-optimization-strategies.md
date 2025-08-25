@@ -360,20 +360,17 @@ Floating action button with:
 ## Success Metrics to Track
 
 1. **Engagement Metrics:**
-
    - Time on page (target: >4 minutes)
    - Scroll depth (target: >75%)
    - Internal link clicks (target: >30% CTR)
 
 2. **Conversion Metrics:**
-
    - Quiz completions
    - Email captures
    - Platform signups
    - Related article views
 
 3. **Sharing Metrics:**
-
    - Social shares
    - Bookmark saves
    - Return visits

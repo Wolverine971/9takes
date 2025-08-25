@@ -229,42 +229,34 @@ In New Age and energy healing circles, practitioners often draw connections betw
 This synthesis is used to create personalized energy healing practices and to gain deeper insights into each type's energetic patterns. Here's a breakdown of how each Enneagram type is commonly associated with specific chakras:
 
 - **Type 1 (The Perfectionist)** - Root Chakra (Muladhara)
-
   - Associated with stability, security, and groundedness
   - Healing focus: Balancing perfectionism with self-acceptance
 
 - **Type 2 (The Helper)** - Heart Chakra (Anahata)
-
   - Connected to love, compassion, and relationships
   - Healing focus: Nurturing self-love alongside care for others
 
 - **Type 3 (The Achiever)** - Solar Plexus Chakra (Manipura)
-
   - Linked to personal power, confidence, and self-esteem
   - Healing focus: Balancing achievement with authentic self-expression
 
 - **Type 4 (The Individualist)** - Heart Chakra (Anahata)
-
   - Associated with emotions, creativity, and self-expression
   - Healing focus: Integrating emotions with a sense of inner wholeness
 
 - **Type 5 (The Investigator)** - Third Eye Chakra (Ajna)
-
   - Connected to intuition, insight, and mental clarity
   - Healing focus: Balancing intellectual pursuits with emotional connection
 
 - **Type 6 (The Loyalist)** - Root Chakra (Muladhara)
-
   - Linked to safety, security, and trust
   - Healing focus: Cultivating inner security and faith in oneself
 
 - **Type 7 (The Enthusiast)** - Crown Chakra (Sahasrara)
-
   - Associated with spiritual connection, joy, and possibility
   - Healing focus: Grounding excitement in present moment awareness
 
 - **Type 8 (The Challenger)** - Solar Plexus Chakra (Manipura)
-
   - Connected to personal power, assertiveness, and vitality
   - Healing focus: Balancing strength with vulnerability and compassion
 

@@ -401,6 +401,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/enneagram-corner/enneagram-compatibility-matrix</loc>
+    <lastmod>2025-08-24T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-compatibility-matrix.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/enneagram-corner/enneagram-concepts</loc>
     <lastmod>2024-08-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -474,7 +483,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-mental-health-flags</loc>
-    <lastmod>2024-07-15T00:00:00.000Z</lastmod>
+    <lastmod>2025-08-24T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -498,7 +507,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-self-development</loc>
-    <lastmod>2025-02-26T00:00:00.000Z</lastmod>
+    <lastmod>2025-08-24T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -531,7 +540,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-team-dynamics</loc>
-    <lastmod>2024-03-28T00:00:00.000Z</lastmod>
+    <lastmod>2025-08-24T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
 </url>

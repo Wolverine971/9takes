@@ -1,50 +1,55 @@
+TODO
+
 # Supabase Blog Management Instructions for Claude Code
 
 ## Setup & Configuration
 
 ### Environment Variables Required
+
 ```bash
 SUPABASE_URL=https://[your-project-ref].supabase.co
 SUPABASE_SERVICE_KEY=[your-service-key]
 ```
 
 ### API Endpoints
+
 - Base URL: `${SUPABASE_URL}/rest/v1/blogs_famous_people`
 - Headers for all requests:
   ```json
   {
-    "apikey": "${SUPABASE_SERVICE_KEY}",
-    "Authorization": "Bearer ${SUPABASE_SERVICE_KEY}",
-    "Content-Type": "application/json",
-    "Prefer": "return=representation"
+  	"apikey": "${SUPABASE_SERVICE_KEY}",
+  	"Authorization": "Bearer ${SUPABASE_SERVICE_KEY}",
+  	"Content-Type": "application/json",
+  	"Prefer": "return=representation"
   }
   ```
 
 ## Database Schema Reference
+
 ```typescript
 {
-  id: number                    // Auto-generated, do not modify
-  created_at: string            // Auto-generated, do not modify
-  title: string | null          // SEO-optimized title
-  description: string | null    // Meta description for SEO
-  author: string | null         // Article author name
-  loc: string | null           // Full URL path
-  lastmod: string | null       // YYYY-MM-DD format
-  changefreq: string | null    // monthly, weekly, etc.
-  priority: string | null      // 0.0 to 1.0
-  published: boolean | null    // Publication status
-  enneagram: string | null     // Enneagram type (1-9)
-  type: Json | null           // Array of types ["politician", "actor", etc.]
-  person: string | null        // Person identifier (First-Last format)
-  wikipedia: string | null     // Wikipedia URL
-  twitter: string | null       // Twitter handle
-  instagram: string | null     // Instagram handle
-  tiktok: string | null       // TikTok handle
-  date: string | null         // Original publish date YYYY-MM-DD
-  content: string | null      // Markdown content of the blog
-  jsonld_snippet: Json | null // Schema.org structured data
-  suggestions: Json | null    // Array of related person names
-  meta_title: string | null   // SEO meta title
+	id: number; // Auto-generated, do not modify
+	created_at: string; // Auto-generated, do not modify
+	title: string | null; // SEO-optimized title
+	description: string | null; // Meta description for SEO
+	author: string | null; // Article author name
+	loc: string | null; // Full URL path
+	lastmod: string | null; // YYYY-MM-DD format
+	changefreq: string | null; // monthly, weekly, etc.
+	priority: string | null; // 0.0 to 1.0
+	published: boolean | null; // Publication status
+	enneagram: string | null; // Enneagram type (1-9)
+	type: Json | null; // Array of types ["politician", "actor", etc.]
+	person: string | null; // Person identifier (First-Last format)
+	wikipedia: string | null; // Wikipedia URL
+	twitter: string | null; // Twitter handle
+	instagram: string | null; // Instagram handle
+	tiktok: string | null; // TikTok handle
+	date: string | null; // Original publish date YYYY-MM-DD
+	content: string | null; // Markdown content of the blog
+	jsonld_snippet: Json | null; // Schema.org structured data
+	suggestions: Json | null; // Array of related person names
+	meta_title: string | null; // SEO meta title
 }
 ```
 
@@ -53,6 +58,7 @@ SUPABASE_SERVICE_KEY=[your-service-key]
 ### 1. READ - Get a Blog Entry
 
 #### Get by ID
+
 ```bash
 curl -X GET \
   "${SUPABASE_URL}/rest/v1/blogs_famous_people?id=eq.${ID}" \
@@ -61,6 +67,7 @@ curl -X GET \
 ```
 
 #### Get by Person Name
+
 ```bash
 curl -X GET \
   "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.${PERSON_NAME}" \
@@ -69,6 +76,7 @@ curl -X GET \
 ```
 
 #### Get Multiple with Filters
+
 ```bash
 # Get all published blogs
 curl -X GET \
@@ -112,6 +120,7 @@ curl -X POST \
 ### 3. UPDATE - Modify Existing Blog
 
 #### Update by ID
+
 ```bash
 curl -X PATCH \
   "${SUPABASE_URL}/rest/v1/blogs_famous_people?id=eq.${ID}" \
@@ -127,6 +136,7 @@ curl -X PATCH \
 ```
 
 #### Update by Person Name
+
 ```bash
 curl -X PATCH \
   "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.Joe-Biden" \
@@ -143,28 +153,31 @@ curl -X PATCH \
 ## Workflow for Research & Update
 
 ### Step 1: Retrieve the Current Blog
+
 ```javascript
 // Example using fetch in Node.js
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 
 async function getBlog(personName) {
-  const response = await fetch(
-    `${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.${personName}`,
-    {
-      headers: {
-        'apikey': SUPABASE_SERVICE_KEY,
-        'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`
-      }
-    }
-  );
-  const data = await response.json();
-  return data[0]; // Returns first matching blog
+	const response = await fetch(
+		`${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.${personName}`,
+		{
+			headers: {
+				apikey: SUPABASE_SERVICE_KEY,
+				Authorization: `Bearer ${SUPABASE_SERVICE_KEY}`
+			}
+		}
+	);
+	const data = await response.json();
+	return data[0]; // Returns first matching blog
 }
 ```
 
 ### Step 2: Research & Generate Updated Content
+
 When updating content, Claude should:
+
 1. Read the existing content
 2. Research current information about the person
 3. Maintain the existing structure and Enneagram analysis framework
@@ -172,43 +185,44 @@ When updating content, Claude should:
 5. Preserve the markdown formatting style
 
 ### Step 3: Update the Blog
+
 ```javascript
 async function updateBlog(blogId, updates) {
-  const response = await fetch(
-    `${SUPABASE_URL}/rest/v1/blogs_famous_people?id=eq.${blogId}`,
-    {
-      method: 'PATCH',
-      headers: {
-        'apikey': SUPABASE_SERVICE_KEY,
-        'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`,
-        'Content-Type': 'application/json',
-        'Prefer': 'return=representation'
-      },
-      body: JSON.stringify({
-        ...updates,
-        lastmod: new Date().toISOString().split('T')[0] // Auto-update lastmod
-      })
-    }
-  );
-  return await response.json();
+	const response = await fetch(`${SUPABASE_URL}/rest/v1/blogs_famous_people?id=eq.${blogId}`, {
+		method: 'PATCH',
+		headers: {
+			apikey: SUPABASE_SERVICE_KEY,
+			Authorization: `Bearer ${SUPABASE_SERVICE_KEY}`,
+			'Content-Type': 'application/json',
+			Prefer: 'return=representation'
+		},
+		body: JSON.stringify({
+			...updates,
+			lastmod: new Date().toISOString().split('T')[0] // Auto-update lastmod
+		})
+	});
+	return await response.json();
 }
 ```
 
 ## Content Guidelines for Updates
 
 ### Markdown Structure
+
 - Use proper heading hierarchy (# for title, ## for main sections, ### for subsections)
 - Include blockquotes for notable quotes
 - Use **bold** for emphasis
 - Maintain the personality analysis framework
 
 ### Required Elements to Preserve
+
 1. **Enneagram Type Analysis** - Core personality framework
 2. **Quote attributions** - Properly formatted with `>`
 3. **Disclaimer** at the end
 4. **SEO elements** - title, description, meta_title
 
 ### Fields to Update When Modifying Content
+
 - `content`: The updated markdown
 - `lastmod`: Current date in YYYY-MM-DD format
 - `meta_title`: Update if title changes significantly
@@ -216,6 +230,7 @@ async function updateBlog(blogId, updates) {
 - `suggestions`: Update array of related people if relevant
 
 ### Fields NOT to Modify
+
 - `id` - System generated
 - `created_at` - System generated
 - `author` - Unless specifically instructed
@@ -225,6 +240,7 @@ async function updateBlog(blogId, updates) {
 ## Example Update Commands for Claude Code
 
 ### Quick Content Update
+
 ```bash
 # Get the blog
 curl -X GET "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.Joe-Biden" \
@@ -245,6 +261,7 @@ curl -X PATCH "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.Joe-Biden" 
 ```
 
 ### Full Blog Creation
+
 ```bash
 curl -X POST "${SUPABASE_URL}/rest/v1/blogs_famous_people" \
   -H "apikey: ${SUPABASE_SERVICE_KEY}" \
@@ -270,6 +287,7 @@ curl -X POST "${SUPABASE_URL}/rest/v1/blogs_famous_people" \
 ## Error Handling
 
 Common errors and solutions:
+
 - **401 Unauthorized**: Check SUPABASE_SERVICE_KEY
 - **404 Not Found**: Check SUPABASE_URL and table name
 - **400 Bad Request**: Validate JSON structure and data types

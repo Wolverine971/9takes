@@ -56,13 +56,11 @@ This guide examines the scientific evidence linking Enneagram types to mental he
 **Validated Assessment Tools**:
 
 1. **Riso-Hudson Enneagram Type Indicator (RHETI)**
-
    - 144-item forced-choice test
    - Internal consistency: α = 0.90
    - Test-retest reliability: r = 0.83
 
 2. **Essential Enneagram Online (EEO)**
-
    - Paragraph-based assessment
    - 90% accuracy in type identification
    - Used in clinical research
@@ -418,13 +416,11 @@ This guide examines the scientific evidence linking Enneagram types to mental he
 ### Scientific Challenges
 
 1. **Measurement Issues**:
-
    - Self-report bias
    - Type misidentification
    - Cultural validity questions
 
 2. **Research Gaps**:
-
    - Limited longitudinal studies
    - Small sample sizes
    - Need for replication
@@ -448,13 +444,11 @@ This guide examines the scientific evidence linking Enneagram types to mental he
 ### Emerging Areas
 
 1. **Precision Psychiatry**:
-
    - Type-specific medication response
    - Personalized treatment algorithms
    - Biomarker development
 
 2. **Prevention Science**:
-
    - Early identification of risk
    - Type-specific interventions
    - Resilience building
@@ -475,13 +469,11 @@ This guide examines the scientific evidence linking Enneagram types to mental he
 ### For Mental Health Professionals
 
 1. **Assessment Integration**:
-
    - Include Enneagram in comprehensive assessment
    - Use validated instruments
    - Consider cultural factors
 
 2. **Treatment Planning**:
-
    - Identify type-specific patterns
    - Select compatible interventions
    - Monitor progress through type lens
@@ -494,7 +486,6 @@ This guide examines the scientific evidence linking Enneagram types to mental he
 ### For Individuals
 
 1. **Self-Understanding**:
-
    - Use type as starting point
    - Explore patterns not identity
    - Seek professional guidance

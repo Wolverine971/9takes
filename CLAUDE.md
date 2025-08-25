@@ -73,13 +73,11 @@ src/
 ### Key Features Implementation
 
 1. **Give-First Commenting System**
-
    - Located in: `src/routes/questions/[slug]/+page.svelte`
    - Users must submit a comment before viewing others' responses
    - Tracks participation via fingerprinting for anonymous users
 
 2. **Personality Context**
-
    - All users have an Enneagram type (1-9)
    - Comments can be filtered by personality type
    - Located in: `src/lib/components/questions/CommentList.svelte`
@@ -145,7 +143,6 @@ Required environment variables (create `.env` file):
 The platform has two main content areas:
 
 1. **User-Generated Q&A** (`/questions`)
-
    - Anonymous participation
    - Personality-based filtering
    - Give-first mechanic

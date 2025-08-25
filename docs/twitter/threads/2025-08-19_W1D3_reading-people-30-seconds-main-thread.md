@@ -1,6 +1,7 @@
 # Reading People in 30 Seconds - Main Thread
 
 ## Meta Information
+
 - **Date to Post**: Wednesday, August 19, 2025 @ 12:00 PM EST
 - **Week**: Week 1, Day 3
 - **Thread Type**: Value Thread (Main Content)
@@ -12,6 +13,7 @@
 ## Thread Breakdown
 
 ### Tweet 1/7 (Hook)
+
 ```
 I've studied 1000+ social interactions and found something wild:
 
@@ -23,6 +25,7 @@ Here are 3 signs you're probably missing:
 ```
 
 ### Tweet 2/7 (Type 1 - The Perfectionist)
+
 ```
 The Perfectionist Test:
 
@@ -34,6 +37,7 @@ They can't help it. Imperfection causes them physical discomfort.
 ```
 
 ### Tweet 3/7 (Type 2 - The Helper)
+
 ```
 The Helper Test:
 
@@ -46,6 +50,7 @@ They're not being nice. They're earning love through service.
 ```
 
 ### Tweet 4/7 (Type 3 - The Achiever)
+
 ```
 The Achiever Test:
 
@@ -57,6 +62,7 @@ They're not bragging. They literally believe they ARE their accomplishments.
 ```
 
 ### Tweet 5/7 (Type 4 - The Individualist)
+
 ```
 The Individualist Test:
 
@@ -68,6 +74,7 @@ They're not rude. Ordinary conversation feels like death to them.
 ```
 
 ### Tweet 6/7 (Type 5 - The Investigator)
+
 ```
 The Investigator Test:
 
@@ -79,6 +86,7 @@ They're not antisocial. They're conserving energy for what matters.
 ```
 
 ### Tweet 7/7 (Close + Engagement)
+
 ```
 Once you see these patterns, every conversation becomes fascinating.
 
@@ -90,6 +98,7 @@ What patterns do you notice in people?
 ```
 
 ## Character Counts
+
 - Tweet 1: 178 chars ✅
 - Tweet 2: 193 chars ✅
 - Tweet 3: 181 chars ✅
@@ -99,6 +108,7 @@ What patterns do you notice in people?
 - Tweet 7: 184 chars ✅
 
 ## Planned Follow-up Reply (1 hour later)
+
 ```
 The responses to this are incredible.
 
@@ -112,6 +122,7 @@ That's literally the most Type 6 response possible.
 ## Expected Responses & Engagement Strategy
 
 ### Likely Type Responses:
+
 - **Type 1s**: "This is so accurate it's scary"
 - **Type 2s**: Offering to help others figure out their type
 - **Type 3s**: Sharing their own achievements while commenting
@@ -123,6 +134,7 @@ That's literally the most Type 6 response possible.
 - **Type 9s**: Lurking/reading but not commenting much
 
 ### Reply Strategy:
+
 - Type every response that shows clear patterns
 - Ask "what resonates more: [fear X] or [fear Y]?" for mistypes
 - Share mini-insights about other types when asked
@@ -130,6 +142,7 @@ That's literally the most Type 6 response possible.
 - Tease Thursday's link drop: "The other types are in tomorrow's post"
 
 ## Connection to Strategy
+
 - **Builds on**: Monday's "sizing people up" post
 - **Theme**: Week 1 "Decode People Instantly"
 - **Setup for**: Thursday's link drop to first impressions guide
@@ -137,6 +150,7 @@ That's literally the most Type 6 response possible.
 - **No links**: Maximizes algorithmic reach
 
 ## Performance Targets
+
 - **Replies**: 50+ (your biggest thread yet)
 - **Retweets**: 10+
 - **Likes**: 100+
@@ -145,12 +159,14 @@ That's literally the most Type 6 response possible.
 - **Engagement rate**: 20%+
 
 ## SEO Content Connection
-- **Links to**: `/blog/enneagram/first-impression-enneagram-playbook` 
+
+- **Links to**: `/blog/enneagram/first-impression-enneagram-playbook`
 - **Drives traffic**: To 9takes first impressions guide
 - **Builds authority**: As Enneagram expert
 - **Email captures**: Through guide opt-in
 
 ## Post-Thread Actions
+
 1. Reply to all comments within 2 hours
 2. Heart every single response
 3. Follow engaged commenters who seem genuinely interested
@@ -159,6 +175,7 @@ That's literally the most Type 6 response possible.
 6. Prepare Thursday's link drop based on response themes
 
 ## Notes
+
 - Post exactly at 12 PM for lunch-time engagement
 - This is your biggest content piece of the week
 - No links = algorithm will push harder

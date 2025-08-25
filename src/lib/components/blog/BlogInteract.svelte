@@ -32,7 +32,7 @@
 	};
 	export let user: any;
 
-	$: data, watchData();
+	$: (data, watchData());
 
 	let anonymousComment = false;
 

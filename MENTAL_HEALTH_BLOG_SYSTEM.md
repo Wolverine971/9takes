@@ -208,13 +208,11 @@ Research and community-specific content:
 ### Primary Communities
 
 - r/Enneagram (180k members)
-
   - **Posting Strategy:** Educational posts about parenting applications
   - **Best Times:** Tuesday-Thursday, 10am-2pm EST
   - **Content Type:** Discussion posts, "How do you..." questions
 
 - r/Parenting (3.2M members)
-
   - **Posting Strategy:** Practical advice posts, share experiences
   - **Best Times:** Sunday-Tuesday, 7-9pm EST
   - **Content Type:** Support posts, resource sharing

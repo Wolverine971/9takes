@@ -947,7 +947,8 @@
 			align-items: center;
 			width: 100%;
 			justify-content: space-between;
-			background-image: url('https://www.transparenttextures.com/patterns/cubes.png'),
+			background-image:
+				url('https://www.transparenttextures.com/patterns/cubes.png'),
 				linear-gradient(
 					to right top,
 					#cf4af3,

@@ -60,7 +60,6 @@ Become THE definitive resource for personality-based life optimization, serving 
 #### Current/Immediate:
 
 1. **Digital Products**
-
    - 90-Day Personality Maxing Program ($197)
    - Compatibility Report Generator ($27/report)
    - Shadow Work Workbook ($37)
@@ -72,7 +71,6 @@ Become THE definitive resource for personality-based life optimization, serving 
 #### Future:
 
 3. **Subscription Services**
-
    - Premium Q&A features
    - Advanced personality analytics
    - Exclusive content access

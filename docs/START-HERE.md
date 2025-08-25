@@ -105,18 +105,21 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ### Twitter Execution (Current Focus)
 
 **Week 1: "Decode People Instantly"**
+
 - Monday @ 9 AM: Question hook about social patterns
 - Wednesday @ 12 PM: "Read people in 30 seconds" thread
 - Friday @ 9 AM: Community engagement follow-up
 - Daily: Engage with 3 big accounts (ChrisWillx, PsycologyToday, EnneagramInst)
 
-**Week 2: "Your Hidden Patterns"**  
+**Week 2: "Your Hidden Patterns"**
+
 - Focus: Self-sabotage in relationships
 - Monday: Poll about relationship patterns
 - Wednesday: Story thread about Type 2 pattern breaking
 - Friday: Link to relationship guide
 
 **Week 3: "Dating Decoded"**
+
 - Focus: Ghosting and FAQ responses
 - Monday: Controversial "astrology for smart people" take
 - Wednesday: How ghosting hits each type differently
@@ -128,19 +131,22 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ### Twitter Action Items (Today)
 
 **IMMEDIATE POST OPTIONS:**
+
 1. **New Blog Announcement** (RECOMMENDED): Tweet about Wings guide completion
-2. **Mental Health Authority**: Depression patterns by type thread  
+2. **Mental Health Authority**: Depression patterns by type thread
 3. **Value-First**: Enneagram test comparison thread
 
 **Daily Engagement Targets:**
+
 - Reply to @ChrisWillx morning post (8-10 AM EST)
 - Reply to @PsycologyToday research content (11 AM-1 PM EST)
 - Reply to @EnneagramInst afternoon content (2-4 PM EST)
 - Target: 3 meaningful replies minimum
 
 **Success Metrics This Week:**
+
 - 10+ new followers
-- 50+ replies total  
+- 50+ replies total
 - 20+ link clicks to new blogs
 
 ## 📁 Directory Structure & Key Files

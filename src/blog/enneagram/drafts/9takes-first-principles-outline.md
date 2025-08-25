@@ -38,13 +38,11 @@ The draft contains foundational philosophical concepts:
 **The Fundamental Trio:**
 
 1. **Anger/Rage** (Body/Gut Center)
-
    - The emotion of boundary violation
    - Response to injustice, control, and autonomy threats
    - How anger shapes Types 8, 9, and 1
 
 2. **Shame** (Heart Center)
-
    - The emotion of worth and belonging
    - Response to rejection, failure, and image threats
    - How shame shapes Types 2, 3, and 4
@@ -120,13 +118,11 @@ The draft contains foundational philosophical concepts:
 **The False Principles of Current Platforms:**
 
 1. **Engagement = Value** (False)
-
    - Confuses activity with meaningful connection
    - Rewards sensationalism over substance
    - Creates addiction rather than satisfaction
 
 2. **More Connections = Better** (False)
-
    - Quantity over quality relationships
    - Surface-level interactions
    - Parasocial relationship confusion
@@ -190,13 +186,11 @@ The draft contains foundational philosophical concepts:
 **How 9takes Implements These Principles:**
 
 1. **Emotional Framework Integration**
-
    - Questions designed to trigger different emotional responses
    - Sorting by type to see perspective patterns
    - Recognition that all views have emotional validity
 
 2. **Reciprocity Implementation**
-
    - Give-first commenting system
    - Contribution requirements for access
    - Building investment through participation

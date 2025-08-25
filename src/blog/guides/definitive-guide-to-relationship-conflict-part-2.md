@@ -527,7 +527,6 @@ Mindfulness—the practice of present-moment awareness without judgment—provid
 3. **Noting Practice** - Silently label what's happening in your mind: "Planning my response... judging... remembering past hurts..." This creates space between experiencing thoughts and identifying with them.
 
 4. **RAIN Technique** - When strong emotions arise, practice:
-
    - **R**ecognize what's happening
    - **A**llow the experience to be there
    - **I**nvestigate with kindness

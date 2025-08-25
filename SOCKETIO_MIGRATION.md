@@ -15,13 +15,11 @@ Since the project already uses Supabase, we leveraged their built-in realtime ca
 ### What Was Changed
 
 1. **Created Realtime Helper** (`src/lib/realtime.ts`)
-
    - Wrapper around Supabase Realtime for messaging
    - Support for broadcast channels and presence tracking
    - Type-safe message interfaces
 
 2. **Updated Admin Messages Page** (`src/routes/admin/messages/+page.svelte`)
-
    - Replaced Socket.IO with Supabase Realtime channels
    - Added presence tracking to show online users
    - Improved message display with timestamps
@@ -36,13 +34,11 @@ Since the project already uses Supabase, we leveraged their built-in realtime ca
 ### How It Works Now
 
 1. **Channels**:
-
    - `admin-global`: For broadcasting server messages to all users
    - `user-{id}`: Individual channels for each user
    - `admin-presence`: Presence channel to track online users
 
 2. **Message Types**:
-
    - Server messages: Sent by admins to users
    - User messages: Direct messages between users
 

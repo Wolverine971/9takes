@@ -31,12 +31,10 @@ Without in-depth crawling, here's what to check via tools:
 
 - **Content types**: Blog posts (Enneagram, character studies), questions/answers, personality pages.
 - **Structured formatting**:
-
   - Blog posts have clear headings.
   - Question pages likely use Q\&A structure (but not visible on Home search results).
 
 - **Schema markup**:
-
   - Article pages could benefit from `Article` structured data.
   - Personality analysis pages: consider `Person` schema if about real persons.
   - Q\&A pages: apply `FAQPage` or `QAPage` markup with structured questions and answers.

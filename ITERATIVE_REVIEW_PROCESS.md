@@ -42,13 +42,11 @@ blog-name.review.md   # Review tracking file
 ### Content Completeness Check
 
 1. **Does the blog have a clear introduction that hooks the reader?**
-
    - [ ] Yes [ ] No [ ] Needs improvement
    - **Response:** [User input]
    - **Action:** [What needs to be done]
 
 2. **Are all 9 Enneagram types covered with equal depth?**
-
    - [ ] Yes [ ] No [ ] Some missing/uneven
    - **Response:** [User input]
    - **Action:** [What needs to be done]
@@ -61,7 +59,6 @@ blog-name.review.md   # Review tracking file
 ### Technical Quality
 
 1. **Are there any factual errors about the Enneagram?**
-
    - **Issues Found:** [List any]
    - **Response:** [User input]
 
@@ -101,13 +98,11 @@ blog-name.review.md   # Review tracking file
 ### Primary Audience Alignment
 
 1. **Does the content speak directly to the primary audience's pain points?**
-
    - **Pain points addressed:** [List]
    - **Missing pain points:** [List]
    - **Response:** [User input]
 
 2. **Is the language appropriate for the target demographic?**
-
    - [ ] Too technical [ ] Just right [ ] Too simple
    - **Response:** [User input]
 
@@ -141,13 +136,11 @@ blog-name.review.md   # Review tracking file
 ### Social Media Content Review
 
 1. **Twitter Content Assessment**
-
    - **Thread quality (1-10):** [Score]
    - **Standalone tweets engaging?** [ ] Yes [ ] No
    - **Response:** [User input]
 
 2. **Instagram Content Assessment**
-
    - **Visual concepts clear?** [ ] Yes [ ] No
    - **Captions compelling?** [ ] Yes [ ] No
    - **Response:** [User input]
@@ -182,11 +175,9 @@ blog-name.review.md   # Review tracking file
 ### Overall Quality Assessment
 
 1. **Content Impact (1-10):** [Score]
-
    - **Rationale:** [Explanation]
 
 2. **SEO Optimization (1-10):** [Score]
-
    - **Keywords properly integrated?** [ ] Yes [ ] No
    - **Meta description compelling?** [ ] Yes [ ] No
 

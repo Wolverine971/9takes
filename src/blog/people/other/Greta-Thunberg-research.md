@@ -7,17 +7,14 @@ Here’s the **foundational Phase 1 research** based on concrete evidence—quot
 ### 🎙️ Direct Quotes
 
 - **“And I am sorry, but saying everything will be all right while continuing doing nothing at all is just not hopeful… You can’t just sit around waiting for hope to come… hope is something you have to earn.”** (“No One Is Too Small to Make a Difference”) ([goodreads.com][1])
-
   - _Reveals a drive for tangible action over empty promises—common in Type 1’s need for integrity and responsibility._
 
 - **“We can’t save the world by playing by the rules, because the rules have to be changed… Everything needs to change – and it has to start today.”** (TEDx Stockholm, Nov 2018) ([en.wikipedia.org][2])
-
   - _Demonstrates her perfectionist, corrective attitude—“rules” aren’t good enough until they’re right._
 
 ### Behavioral Pattern
 
 - At age 15, organized the first **school strike for climate** (Aug 2018), starting entirely **alone**, refusing to be deterred by peer indifference ([glamour.com][3]).
-
   - _Her decision to act solely (“I’m going to do this alone”) underscores internal moral compulsion and fear of failing to do what is right._
 
 ---
@@ -27,17 +24,14 @@ Here’s the **foundational Phase 1 research** based on concrete evidence—quot
 ### 🎙️ Handling Criticism
 
 - **“When haters go after your looks and differences… you know you’re winning!”** (Instagram, Aug 2019) ([teenvogue.com][4], [bbc.co.uk][5])
-
   - _Reframes attack as sign of moral clarity rather than insecurity—a Type 1 hallmark of turning shame or attack into moral high ground._
 
 - **“That happens all the time… The most common criticism… I’m being manipulated… I can’t think for myself… And I think that is so annoying!... I’m sure you hear that a lot… when I see all the hate… I honestly can’t believe how you manage to stay so strong.”** (Guardian interview, June 2019) ([quotepark.com][6])
-
   - _Acknowledges criticism and annoyance, but also self-awareness and defiance rooted in inner conviction._
 
 ### 🎙️ Emotional Expression
 
 - UN 2019 speech (“**How dare you!**”) Jan 23, 2019: **“This is all wrong… You have stolen my dreams and my childhood…”** ([en.wikipedia.org][2])
-
   - _Highly charged, righteous anger toward inaction, consistent with the “anger at corruption” of Type 1 under stress._
 
 ---
@@ -47,13 +41,11 @@ Here’s the **foundational Phase 1 research** based on concrete evidence—quot
 ### 🧠 Intellectual
 
 - Consistently **cites scientific data** (e.g., IPCC carbon budgets—Chapter 2, page 108) during speeches ([rianswart.co.za][7], [newyorker.com][8]).
-
   - _Indicates objective reasoning and structured, truth-based argumentation._
 
 ### 💗 Emotional
 
 - Shows **empathy** for future generations: “The eyes of all future generations are upon you…” ([bbc.co.uk][5]).
-
   - _Caring for others through moral standards is typical of Type 1’s emotional engagement._
 
 ### 🦅 Instinctual
@@ -230,7 +222,6 @@ Here is **Phase 3: Developmental & Relational Research** for Greta Thunberg, ric
 
 - **Born** January 3, 2003, to an opera singer mother (Malena Ernman) and actor father (Svante Thunberg) in Stockholm—a creative, expressive household ([wildbloomfamilies.com][1], [en.wikipedia.org][2]).
 - **Diagnosed** with Asperger’s, OCD, and selective mutism by age 11, after falling into depression and severe eating disorder—stopped talking and eating, lost 10 kg within two months ([en.wikipedia.org][2]).
-
   - Her mother later reflected: _“She saw what the rest of us did not want to see… as if she could see our CO₂ emissions with her naked eye.”_ ([theguardian.com][3]).
 
 - **Parents’ initial resistance** to her activism: her father wanted academic consistency, mother revealed the diagnosis publicly in 2015 to help others—a catalyst for support ([en.wikipedia.org][2]).
@@ -254,7 +245,6 @@ Here is **Phase 3: Developmental & Relational Research** for Greta Thunberg, ric
 - **With fellow activists** (e.g._, Fridays for Future_):
 
   > “We don’t just campaign together, we are also friends. My best friends are within the climate movement.” ([earth.org][6], [theguardian.com][7]).
-
   - She emphasizes solidarity and mutual inspiration with activists like Vanessa Nakate ([theguardian.com][7]).
 
 ### High-Profile Connections
@@ -262,13 +252,11 @@ Here is **Phase 3: Developmental & Relational Research** for Greta Thunberg, ric
 - **Meeting Malala Yousafzai** (Feb 2020):
 
   > “So… today I met my role model.” ([people.com][8]).
-
   - Shows deep respect for shared moral courage and global sisterhood in activism.
 
 ### Emerging Relationship Patterns
 
 - Recent **bond with Chris Kebbon**, a photographer and fellow activist—seen supporting her post-Gaza mission, prompting public speculation ([iol.co.za][9]).
-
   - While unconfirmed romantically, his calming presence during crisis suggests emotional intimacy and preferred support patterns.
 
 ---
@@ -287,7 +275,6 @@ Here is **Phase 3: Developmental & Relational Research** for Greta Thunberg, ric
 - **Blunt truth-telling**:
 
   > “We have to tell it like it is… we can’t do that, we have to tell the truth.” ([en.wikipedia.org][2], [biography.com][11]).
-
   - Prefers black-and-white moral clarity—consistent with Type 1’s direct, non-hedging style.
 
 ### Handling Criticism
@@ -533,7 +520,6 @@ Here is **Phase 5: Specific Evidence — Quote Bank & Behavioral Summary** for
 ## ⛳ 5. **Connect to Enneagram Type 1**
 
 - **Behavioral Triads**:
-
   - _Under stress_: internal collapse and depression aligned with disintegration to 4.
   - _Under growth_: outward purpose-led action, optimism, integration with 7 energy.
   - _Defenses_: reframing shame as moral validation, intellectualizing criticism.
@@ -569,7 +555,6 @@ Here is **Phase 6: Crisis & Career Pressure Points** for Greta Thunberg, with 
   > _Behavior:_ Emotional, tearful speech—revealing moral urgency and commitment amid danger.
 
 - **Interception & Detention (June 9–10, 2025):**
-
   - Described Israeli boarding as “kidnapping” and illegal under international law ([en.wikipedia.org][2], [theguardian.com][4]).
   - Upon deportation, said: “Doing nothing is not an option, I am terrified by the passivity and silence all over the world...” ([thetimes.co.uk][5]).
   - Responded to Trump’s criticism with: “I think the world needs a lot more young angry women…” ([reuters.com][6]).

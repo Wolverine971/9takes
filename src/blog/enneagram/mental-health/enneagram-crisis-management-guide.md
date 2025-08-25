@@ -1044,20 +1044,17 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### Creating Your Crisis Plan
 
 1. **Know Your Triggers**
-
    - Type-specific vulnerabilities
    - Personal history
    - Warning signs
 
 2. **Build Your Toolkit**
-
    - Coping strategies
    - Support contacts
    - Comfort items
    - Professional resources
 
 3. **Practice When Calm**
-
    - Regular skill building
    - Support activation
    - Plan reviewing
@@ -1117,14 +1114,12 @@ This guide provides type-specific crisis management strategies, warning signs to
 ### After the Crisis
 
 1. **Immediate** (Days 1-7)
-
    - Safety first
    - Basic needs
    - Professional help
    - Minimal demands
 
 2. **Short-term** (Weeks 1-4)
-
    - Routine building
    - Support activation
    - Therapy intensive

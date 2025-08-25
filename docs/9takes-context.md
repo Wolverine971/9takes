@@ -282,19 +282,16 @@ CREATE TABLE comment_like (
 **Primary Goal**: Drive organic search traffic to convert readers into platform users
 
 1. **Celebrity Enneagram Analysis** (`/personality-analysis/[slug]`)
-
    - Gateway content for Enneagram discovery
    - High-volume search terms (celebrity names + personality)
    - Convert curiosity into platform engagement
 
 2. **Enneagram Education** (`/enneagram-corner/[slug]`)
-
    - Core Enneagram concepts and applications
    - Target educational search queries
    - Build authority in personality psychology space
 
 3. **How-To Guides** (`/how-to-guides/[slug]`)
-
    - Practical relationship and personal development advice
    - Long-tail SEO opportunities
    - Convert help-seekers into question-askers
@@ -313,19 +310,16 @@ CREATE TABLE comment_like (
 ### **When Building Features or Creating Content**
 
 1. **SEO-First Approach**: Always optimize for organic search discovery
-
    - Target high-volume, relevant keywords in content creation
    - Structure content with clear H1/H2/H3 hierarchy
    - Include meta descriptions and structured data where applicable
 
 2. **Enneagram Integration**: Consider personality psychology throughout
-
    - Offer type-specific insights when relevant
    - Use Enneagram as framework for understanding diverse perspectives
    - Include personality context in user-facing features
 
 3. **Platform Funnel Strategy**: All content should drive platform engagement
-
    - Include clear CTAs to encourage question-asking
    - Cross-link between content types to increase time on site
    - Convert content consumers into active community participants
