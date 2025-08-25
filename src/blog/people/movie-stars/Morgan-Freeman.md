@@ -18,11 +18,6 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- // notes:
-todo
-
--->
-
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
