@@ -22,9 +22,7 @@ Keyword Strategy:
 - Long-tail: which enneagram types are most compatible, enneagram compatibility matrix, enneagram type compatibility in relationships
 -->
 
-# The Complete Enneagram Compatibility Matrix: All 81 Type Combinations Decoded
-
-**Your perfect match isn't who you think it is. And your worst enemy might be your greatest teacher.**
+<p class="firstLetter">Your perfect match isn't who you think it is. And your worst enemy might be your greatest teacher.</p>
 
 After analyzing thousands of relationships across all 81 Enneagram pairings, we've discovered something shocking: **The couples who look perfect on paper often struggle the most, while the "incompatible" pairs create the deepest transformations.**
 

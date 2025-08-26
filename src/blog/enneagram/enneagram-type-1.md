@@ -222,17 +222,15 @@ When Ones learn to extend to themselves the compassion they'd show a child—whe
 
 Not the serenity of everything being perfect, but the serenity of being at peace with imperfection. The serenity of knowing that goodness and mistakes can coexist. The serenity of finally, finally being good enough.
 
-<div style="display: flex; justify-content: center; margin: 1rem 0;">
-    <a href="/blog/enneagram/enneagram-personal-growth" class="blog-link">
-      <PopCard
-          image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
-          showIcon={false}
-          subtext=""
-          displayText="Personal Growth by Type"
-          scramble={false}
-      />
-    </a>
-</div>
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth by Type"
+      scramble={false}
+  />
+</a>
 
 </section>
 

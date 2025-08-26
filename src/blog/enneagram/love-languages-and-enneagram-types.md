@@ -15,6 +15,10 @@ pic_alt: 'Nine Greek statues demonstrating different love languages - giving gif
 midjourney_prompt: 'nine elegant greek statues arranged in a circle, each demonstrating a different love language - one statue offering a gift, another embracing warmly, one performing service, another speaking lovingly, one giving quality time, golden threads connecting them showing different personality types, warm romantic lighting with soft pink and gold tones, ethereal glow around each statue, classical marble texture with modern romantic energy, beautifully detailed facial expressions showing love and connection, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6'
 ---
 
+<script>
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
+</script>
+
 <!--
 Keyword Strategy:
 - Primary: love languages (301,000/mo)
@@ -23,9 +27,8 @@ Keyword Strategy:
 - Questions: how do love languages work with personality types, what's my love language based on personality, love language compatibility guide
 -->
 
-# Love Languages & Enneagram Types: The Ultimate Compatibility Guide (2025)
 
-**Your love language isn't random. It's your personality's blueprint for giving and receiving affection.**
+<p class="firstLetter">Your love language isn't random. It's your personality's blueprint for giving and receiving affection.</p>
 
 Here's what nobody tells you about love languages: **The traditional "5 love languages" quiz only scratches the surface.** Your Enneagram type reveals not just HOW you prefer to receive love, but WHY you need it that way—and how your personality unconsciously sabotages the love you're seeking.
 
@@ -91,6 +94,8 @@ Let's decode how each type's psychology creates their love language patterns:
 
 ## Type 1: The Perfectionist's Love Language
 
+<a href="/blog/enneagram/enneagram-type-1">→ Learn more about Type 1: The Perfectionist</a>
+
 **Primary Love Languages:** Acts of Service + Words of Affirmation
 **Why:** Perfectionism feels like carrying the weight of the world alone
 
@@ -132,6 +137,8 @@ Let's decode how each type's psychology creates their love language patterns:
 ✅ **Acknowledge their growth:** "I noticed you've been more flexible lately, and it means a lot"
 
 ## Type 2: The Helper's Love Language Paradox
+
+<a href="/blog/enneagram/enneagram-type-2">→ Learn more about Type 2: The Helper</a>
 
 **Primary Love Languages:** Words of Affirmation + Physical Touch
 **Why:** They give constantly but struggle to ask for what they need
@@ -175,6 +182,8 @@ Let's decode how each type's psychology creates their love language patterns:
 
 ## Type 3: The Achiever's Performance Love
 
+<a href="/blog/enneagram/enneagram-type-3">→ Learn more about Type 3: The Achiever</a>
+
 **Primary Love Languages:** Words of Affirmation + Receiving Gifts
 **Why:** Love needs to reflect their successful image
 
@@ -216,6 +225,8 @@ Let's decode how each type's psychology creates their love language patterns:
 ✅ **Appreciate their efforts:** Acknowledge the work behind their achievements
 
 ## Type 4: The Individualist's Depth Connection
+
+<a href="/blog/enneagram/enneagram-type-4">→ Learn more about Type 4: The Individualist</a>
 
 **Primary Love Languages:** Quality Time + Words of Affirmation
 **Why:** They need to feel seen and understood in their uniqueness
@@ -259,6 +270,8 @@ Let's decode how each type's psychology creates their love language patterns:
 
 ## Type 5: The Investigator's Independent Love
 
+<a href="/blog/enneagram/enneagram-type-5">→ Learn more about Type 5: The Investigator</a>
+
 **Primary Love Languages:** Acts of Service + Quality Time (with space)
 **Why:** They need love that respects their need for autonomy and energy
 
@@ -300,6 +313,8 @@ Let's decode how each type's psychology creates their love language patterns:
 ✅ **Help practically:** Take care of draining tasks so they can focus on what matters to them
 
 ## Type 6: The Loyalist's Security Love
+
+<a href="/blog/enneagram/enneagram-type-6">→ Learn more about Type 6: The Loyalist</a>
 
 **Primary Love Languages:** Words of Affirmation + Quality Time
 **Why:** They need reassurance and proof of commitment
@@ -343,6 +358,8 @@ Let's decode how each type's psychology creates their love language patterns:
 
 ## Type 7: The Enthusiast's Adventure Love
 
+<a href="/blog/enneagram/enneagram-type-7">→ Learn more about Type 7: The Enthusiast</a>
+
 **Primary Love Languages:** Quality Time + Physical Touch
 **Why:** They need love that's engaging, fun, and prevents boredom
 
@@ -385,6 +402,8 @@ Let's decode how each type's psychology creates their love language patterns:
 
 ## Type 8: The Challenger's Power Love
 
+<a href="/blog/enneagram/enneagram-type-8">→ Learn more about Type 8: The Challenger</a>
+
 **Primary Love Languages:** Physical Touch + Acts of Service
 **Why:** They need love that matches their intensity and respects their strength
 
@@ -426,6 +445,8 @@ Let's decode how each type's psychology creates their love language patterns:
 ✅ **Appreciate their protection:** Recognize that their strength serves others
 
 ## Type 9: The Peacemaker's Harmony Love
+
+<a href="/blog/enneagram/enneagram-type-9">→ Learn more about Type 9: The Peacemaker</a>
 
 **Primary Love Languages:** Physical Touch + Quality Time
 **Why:** They need love that creates connection without conflict or pressure
@@ -731,6 +752,27 @@ Your love language reveals your heart. Your personality type reveals why your he
 Together, they give you the map to love that actually lands.
 
 ---
+
+## Related Resources for Your Journey
+
+<a href="/blog/enneagram/enneagram-compatibility-matrix" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
+  <PopCard
+      image={`/blogs/greek-statues-embracing-1.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Compatibility Matrix"
+      scramble={false}
+  />
+</a>
+<a href="/blog/enneagram/enneagram-types-in-relationships" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
+  <PopCard
+      image={`/blogs/greek-statues-showing-different-expressions-of-love.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Types in Relationships"
+      scramble={false}
+  />
+</a>
 
 ## Take Action: Discover Your Love Language + Enneagram Combination
 

@@ -16,6 +16,7 @@ pic: ''
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">The child sits at the family dinner table, surrounded by laughter and conversation, yet feeling like they're watching through glass. Everyone else seems to know the script—how to laugh at the right moments, what to say, how to simply be. But for this child, everything feels slightly off, like wearing clothes that don't quite fit.</p>
@@ -64,6 +65,8 @@ They're drawn to the bittersweet, the melancholic, the poignant. Not from masoch
 
 This gives them an extraordinary gift—the ability to sit with others in their pain without trying to fix it. While others offer solutions or silver linings, Fours offer presence. They can hold space for grief, disappointment, and loss because they know these emotions have their own intelligence, their own necessity.
 
+**Wing Influences:** Type 4s are influenced by their neighboring types. With a <a href="/blog/enneagram/enneagram-type-3">Type 3 wing (4w3)</a>, they become more ambitious and image-conscious, channeling their creativity toward achievement and recognition. With a <a href="/blog/enneagram/enneagram-type-5">Type 5 wing (4w5)</a>, they become more introverted and intellectually focused, diving deeper into creative and philosophical pursuits.
+
 ### Strengths of Sensitivity
 
 When Fours are at their best, they become:
@@ -98,7 +101,7 @@ But perpetual uniqueness casts dark shadows:
 
 ## When Depth Becomes Desperate: Fours Under Stress
 
-When overwhelmed, something disturbing happens to the usually self-contained Four. They shift toward the unhealthy aspects of Type 2, "The Helper"—their independence morphing into clinging dependency.
+When overwhelmed, something disturbing happens to the usually self-contained Four. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-2">Type 2, "The Helper"</a>—their independence morphing into clinging dependency.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/2-4.png" class="arrow-img" alt="four going to 2 in stress">
@@ -176,7 +179,7 @@ Understand that their emotions aren't performances—they're genuine experiences
 
 Their push-pull isn't game-playing. It's genuine conflict between their need for connection and their fear of losing themselves. Provide consistent presence that doesn't pursue when they withdraw or retreat when they approach.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 4s connect with each type.
 
 </section>
 
@@ -188,7 +191,7 @@ The Four's growth journey isn't about becoming less emotional. It's about discov
 
 ### Moving Toward One
 
-When Fours integrate, they move toward the healthy aspects of Type 1, "The Perfectionist." This doesn't mean becoming rigid or critical. It means developing the capacity for:
+When Fours integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-1">Type 1, "The Perfectionist."</a> This doesn't mean becoming rigid or critical. It means developing the capacity for:
 
 **Principled action**. Moving from emotional paralysis to values-based decisions, even when feelings are complex.
 
@@ -221,6 +224,16 @@ The very sensitivity that made them feel defective is actually their gift. The e
 When Fours learn this—when they stop searching for the missing piece and recognize their completeness—they find what they've been seeking all along: peace with who they are. Not despite their sensitivity but because of it. Not in spite of their difference but through it.
 
 The search can finally end. Not because they found what was missing, but because they realized nothing was missing after all.
+
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth by Type"
+      scramble={false}
+  />
+</a>
 
 </section>
 

@@ -16,6 +16,7 @@ pic: ''
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">The child discovers early that the world is too much. Too loud. Too demanding. Too unpredictable. Too invasive. So they retreat—not physically, but mentally—into a fortress of their own making where knowledge becomes armor and understanding becomes power.</p>
@@ -41,6 +42,8 @@ At the heart of every Five runs an economy of scarcity. Not of money (though the
 They wake each morning with a specific amount of energy for human interaction. Use it up, and they're done—not angry, not sad, just empty. Like a phone battery that's hit zero, they simply shut down until they can recharge in solitude.
 
 This creates a peculiar relationship with the world. Fives often feel like they're living in a foreign country where everyone else knows the language and customs, while they're constantly translating, constantly effortful, constantly aware of how much energy each translation costs.
+
+**Wing Influences:** Type 5s are influenced by their neighboring types. With a <a href="/blog/enneagram/enneagram-type-4">Type 4 wing (5w4)</a>, they become more creative and emotionally intense, combining deep analysis with artistic expression. With a <a href="/blog/enneagram/enneagram-type-6">Type 6 wing (5w6)</a>, they become more practical and security-oriented, focusing their knowledge toward building reliable systems and alliances.
 
 <div class="scroll-table">
 
@@ -110,7 +113,7 @@ Their protective patterns manifest as:
 
 ## When the Fortress Crumbles: Fives Under Stress
 
-When overwhelmed, something shocking happens to the usually controlled Five. They shift toward the unhealthy aspects of Type 7, "The Enthusiast"—their careful mental architecture collapsing into chaos.
+When overwhelmed, something shocking happens to the usually controlled Five. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-7">Type 7, "The Enthusiast"</a>—their careful mental architecture collapsing into chaos.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
@@ -190,7 +193,7 @@ When they share something personal, recognize it as the gift it is. They're lite
 
 Learn to appreciate their unique expressions of love: remembering something you mentioned once, researching solutions to your problems, being steadfastly present in crisis.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 5s connect with each type.
 
 </section>
 
@@ -202,7 +205,7 @@ The Five's growth journey isn't about abandoning their fortress. It's about inst
 
 ### Moving Toward Eight
 
-When Fives integrate, they move toward the healthy aspects of Type 8, "The Challenger." This doesn't mean becoming aggressive or domineering. It means discovering that knowledge without action is impotent, that understanding without application is incomplete.
+When Fives integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-8">Type 8, "The Challenger."</a> This doesn't mean becoming aggressive or domineering. It means discovering that knowledge without action is impotent, that understanding without application is incomplete.
 
 Integrated Fives learn to:
 
@@ -230,6 +233,16 @@ In conversations, resist the urge to retreat into your mind. Stay present with t
 The most integrated Fives discover a profound truth: engaging with life doesn't deplete resources—it generates them. Connection doesn't drain—it energizes. Sharing knowledge doesn't diminish their value—it multiplies their impact.
 
 The fortress that protected them in childhood becomes a prison in adulthood. But they don't need to demolish it. They need to transform it from a bunker into a lighthouse—still elevated, still protected, but now illuminating the world rather than hiding from it.
+
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth by Type"
+      scramble={false}
+  />
+</a>
 
 </section>
 

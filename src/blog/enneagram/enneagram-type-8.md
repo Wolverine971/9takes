@@ -16,6 +16,7 @@ pic: ''
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">At some point in childhood, the future Type 8 learns a devastating lesson: vulnerability gets you hurt. Maybe it was a betrayal by someone who should have protected them. Maybe it was the moment they realized no one else would stand up to the bully. Whatever the specifics, the message seared itself into their consciousness—never again.</p>
@@ -79,6 +80,8 @@ The world divides into categories: strong/weak, friend/enemy, truth/deception. T
 - When they rest... actually, they rarely rest
 
 This intensity creates a peculiar paradox. 8s feel most alive in conflict, challenge, and confrontation. Peace can feel like death. Calm can feel like vulnerability. They may unconsciously create conflict just to feel that familiar surge of power.
+
+**Wing Influences:** Type 8s are influenced by their neighboring types. With a <a href="/blog/enneagram/enneagram-type-7">Type 7 wing (8w7)</a>, they become more enthusiastic and expansive, combining power with charm and visionary energy. With a <a href="/blog/enneagram/enneagram-type-9">Type 9 wing (8w9)</a>, they become more calm and steady, using their strength to create stability and protective environments.
 
 <div class="scroll-table">
 
@@ -150,7 +153,7 @@ When you're always the strong one, who do you turn to when you need strength? Wh
 
 ## When the Armor Cracks: 8s Under Stress
 
-Under extreme stress, something strange happens to Type 8s. The warrior retreats. The challenger goes silent. They shift toward the unhealthy aspects of Type 5, "The Investigator."
+Under extreme stress, something strange happens to Type 8s. The warrior retreats. The challenger goes silent. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-5">Type 5, "The Investigator."</a>
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
@@ -205,7 +208,7 @@ Don't try to soften them—they'll experience it as control. Don't try to fix th
 
 When they finally lower their armor—and it may take years—you'll discover something remarkable. Behind all that strength is someone who feels everything intensely. Someone whose protection comes from profound caring. Someone whose toughness guards a heart that, once opened, loves with devastating completeness.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 8s connect with each type.
 
 </section>
 
@@ -223,7 +226,7 @@ The path forward involves recognizing that the very vulnerability they fear is t
 
 ### Moving Toward Type 2
 
-When 8s integrate, they move toward the healthy aspects of Type 2, "The Helper." But this isn't about becoming sweet or sacrificial. It's about discovering that power can nurture, that strength can be tender, that protection can include emotional availability.
+When 8s integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-2">Type 2, "The Helper."</a> But this isn't about becoming sweet or sacrificial. It's about discovering that power can nurture, that strength can be tender, that protection can include emotional availability.
 
 Integrated 8s learn to:
 
@@ -253,6 +256,16 @@ The most powerful 8s eventually discover a profound truth: the armor that protec
 And in that recognition, they find the courage to do what they once swore they'd never do again: be vulnerable. But this time, it's different. This time, it's chosen. This time, it's strength.
 
 This is the journey of Type 8: from wounded child to armored warrior to integrated leader who protects through empowerment, leads through vulnerability, and discovers that the greatest strength is the courage to be human.
+
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth by Type"
+      scramble={false}
+  />
+</a>
 
 </section>
 

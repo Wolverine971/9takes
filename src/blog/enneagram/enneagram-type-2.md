@@ -227,26 +227,24 @@ When Twos learn to receive with the same grace they give—when they realize tha
 
 Not love because they're helpful. Not love because they're needed. Just love. Plain, simple, no strings attached love. The kind they've been giving others all along, finally flowing back to them.
 
-<div style="display: flex; justify-content: center; margin: 1rem 0;">
-    <a href="/blog/enneagram/enneagram-personal-growth" class="blog-link">
-      <PopCard
-          image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
-          showIcon={false}
-          subtext=""
-          displayText="Personal Growth by Type"
-          scramble={false}
-      />
-    </a>
-    <a href="/blog/enneagram/love-languages-and-enneagram-types" class="blog-link">
-      <PopCard
-          image={`/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp`}
-          showIcon={false}
-          subtext=""
-          displayText="Love Languages & Enneagram"
-          scramble={false}
-      />
-    </a>
-</div>
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth by Type"
+      scramble={false}
+  />
+</a>
+<a href="/blog/enneagram/love-languages-and-enneagram-types" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Love Languages & Enneagram"
+      scramble={false}
+  />
+</a>
 
 </section>
 

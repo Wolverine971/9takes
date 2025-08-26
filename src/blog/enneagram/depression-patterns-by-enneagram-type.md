@@ -22,9 +22,7 @@ Keyword Strategy:
 - Long-tail: how different personalities experience depression, depression patterns by type
 -->
 
-# Depression Patterns by Enneagram Type: How Your Personality Shapes Your Mental Health
-
-**Depression isn't one-size-fits-all. Your Enneagram type determines how you experience it, what triggers it, and most importantly - how to heal from it.**
+<p class="firstLetter">Depression isn't one-size-fits-all. Your Enneagram type determines how you experience it, what triggers it, and most importantly - how to heal from it.</p>
 
 After analyzing thousands of mental health stories across all 9 Enneagram types, we've discovered something profound: **Depression has a personality.**
 

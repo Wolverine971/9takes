@@ -15,6 +15,10 @@ pic_alt: 'Nine Greek statues standing before a wall where their shadows reveal t
 midjourney_prompt: 'nine elegant greek marble statues arranged in a semicircle facing a large stone wall, each statue casting a distinctive shadow that reveals hidden aspects - one shadow shows perfectionist criticism, another shows manipulative helping, shadows showing different dark patterns while the statues themselves appear noble and bright, dramatic lighting with strong contrast between light and shadow, psychological and introspective mood, warm golden hour lighting creating long dramatic shadows, classical architecture with modern psychological symbolism, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6'
 ---
 
+<script>
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
+</script>
+
 <!--
 Keyword Strategy:
 - Primary: shadow work (74,000/mo)
@@ -23,9 +27,7 @@ Keyword Strategy:
 - Questions: how to do shadow work by personality type, what is my shadow side enneagram, shadow work exercises for my type
 -->
 
-# Shadow Work by Enneagram Type: The Complete Guide to Confronting Your Dark Side (2025)
-
-**You know that voice in your head that whispers your worst thoughts? The part of you that emerges when you're triggered, exhausted, or caught off guard? That's not a flaw to fix—that's your shadow asking to be integrated.**
+<p class="firstLetter">You know that voice in your head that whispers your worst thoughts? The part of you that emerges when you're triggered, exhausted, or caught off guard? That's not a flaw to fix—that's your shadow asking to be integrated.</p>
 
 Here's what most shadow work approaches get wrong: **They treat everyone's darkness the same.** But your shadow isn't random. It's specifically shaped by your Enneagram type's core fears, repressed qualities, and unconscious patterns.
 
@@ -84,7 +86,28 @@ But here's the crucial insight Jung discovered: **What you resist persists—and
 
 Let's explore how shadow work looks for each of the nine types.
 
+<a href="/blog/enneagram/enneagram-mental-health-flags" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-of-athena-with-red.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Mental Health Red Flags"
+      scramble={false}
+  />
+</a>
+<a href="/blog/enneagram/toxic-traits-of-each-enneagram-type" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-showing-cracks.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Toxic Traits by Type"
+      scramble={false}
+  />
+</a>
+
 ## Type 1: The Perfectionist's Shadow - "The Inner Critic's Rage"
+
+<a href="/blog/enneagram/enneagram-type-1">→ Learn more about Type 1: The Perfectionist</a>
 
 ### Type 1's Light Side:
 
@@ -157,6 +180,8 @@ Let's explore how shadow work looks for each of the nine types.
 
 ## Type 2: The Helper's Shadow - "The Manipulative Martyr"
 
+<a href="/blog/enneagram/enneagram-type-2">→ Learn more about Type 2: The Helper</a>
+
 ### Type 2's Light Side:
 
 - Genuine care and empathy for others
@@ -227,6 +252,8 @@ Let's explore how shadow work looks for each of the nine types.
 - "I am lovable even when I'm not giving"
 
 ## Type 3: The Achiever's Shadow - "The Fraudulent Competitor"
+
+<a href="/blog/enneagram/enneagram-type-3">→ Learn more about Type 3: The Achiever</a>
 
 ### Type 3's Light Side:
 
@@ -299,6 +326,8 @@ Let's explore how shadow work looks for each of the nine types.
 
 ## Type 4: The Individualist's Shadow - "The Victim Artist"
 
+<a href="/blog/enneagram/enneagram-type-4">→ Learn more about Type 4: The Individualist</a>
+
 ### Type 4's Light Side:
 
 - Deep emotional intelligence and authenticity
@@ -369,6 +398,8 @@ Let's explore how shadow work looks for each of the nine types.
 - "My worth isn't tied to my suffering or my art"
 
 ## Type 5: The Investigator's Shadow - "The Miserly Hermit"
+
+<a href="/blog/enneagram/enneagram-type-5">→ Learn more about Type 5: The Investigator</a>
 
 ### Type 5's Light Side:
 
@@ -441,6 +472,8 @@ Let's explore how shadow work looks for each of the nine types.
 
 ## Type 6: The Loyalist's Shadow - "The Paranoid Rebel"
 
+<a href="/blog/enneagram/enneagram-type-6">→ Learn more about Type 6: The Loyalist</a>
+
 ### Type 6's Light Side:
 
 - Loyalty, commitment, and strong team skills
@@ -511,6 +544,8 @@ Let's explore how shadow work looks for each of the nine types.
 - "My intuition is different from my anxiety"
 
 ## Type 7: The Enthusiast's Shadow - "The Addictive Escapist"
+
+<a href="/blog/enneagram/enneagram-type-7">→ Learn more about Type 7: The Enthusiast</a>
 
 ### Type 7's Light Side:
 
@@ -583,6 +618,8 @@ Let's explore how shadow work looks for each of the nine types.
 
 ## Type 8: The Challenger's Shadow - "The Destructive Tyrant"
 
+<a href="/blog/enneagram/enneagram-type-8">→ Learn more about Type 8: The Challenger</a>
+
 ### Type 8's Light Side:
 
 - Strength, protection, and advocacy for the underdog
@@ -653,6 +690,8 @@ Let's explore how shadow work looks for each of the nine types.
 - "Love requires courage, and I am brave enough to love fully"
 
 ## Type 9: The Peacemaker's Shadow - "The Passive-Aggressive Sloth"
+
+<a href="/blog/enneagram/enneagram-type-9">→ Learn more about Type 9: The Peacemaker</a>
 
 ### Type 9's Light Side:
 
@@ -844,6 +883,27 @@ Are you ready to meet the parts of yourself you've been avoiding? The journey is
 - "Meeting the Shadow" by Connie Zweig and Jeremiah Abrams
 - "The Dark Side of the Light Chasers" by Debbie Ford
 - "The Wisdom of the Enneagram" by Don Riso and Russ Hudson
+
+## Deepen Your Shadow Work Journey
+
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth Guide"
+      scramble={false}
+  />
+</a>
+<a href="/blog/enneagram/enneagram-and-mental-illness" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-2-sided-mask.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Mental Health & Enneagram"
+      scramble={false}
+  />
+</a>
 
 ### Professional Support:
 

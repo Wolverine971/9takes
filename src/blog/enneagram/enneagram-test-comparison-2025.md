@@ -22,9 +22,7 @@ Keyword Strategy:
 - Long-tail: most accurate enneagram test reddit, enneagram test with wings
 -->
 
-# The 10 Best Enneagram Tests (2025): We Took Them All So You Don't Have To
-
-**You're about to spend 20-40 minutes of your life taking a personality test. It better be the right one.**
+<p class="firstLetter">You're about to spend 20-40 minutes of your life taking a personality test. It better be the right one.</p>
 
 After taking 47 different Enneagram tests (yes, really), spending $300+ on paid assessments, and comparing results across platforms, we discovered something shocking: **75% of Enneagram tests online are complete garbage.**
 

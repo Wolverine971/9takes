@@ -16,6 +16,7 @@ pic: ''
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">The child trusted completely. Then the ground shifted. Maybe it was a promise broken by someone who should have kept it. Maybe it was realizing the adults didn't actually know what they were doing. Maybe it was discovering that the rules they'd been taught didn't protect them after all.</p>
@@ -62,6 +63,8 @@ For Type 6s, loyalty isn't just a value—it's a survival strategy.
 
 In a world where the ground keeps shifting, loyal relationships become the only solid places to stand. They invest deeply in their chosen people, creating bonds strong enough to withstand the earthquakes they're always expecting.
 
+**Wing Influences:** Type 6s are influenced by their neighboring types. With a <a href="/blog/enneagram/enneagram-type-5">Type 5 wing (6w5)</a>, they become more independent and analytical, seeking security through knowledge and competence. With a <a href="/blog/enneagram/enneagram-type-7">Type 7 wing (6w7)</a>, they become more outgoing and optimistic, balancing their anxiety with enthusiasm and social connection.
+
 But this loyalty comes with a cost. Sixes often stay in relationships, jobs, and situations long after they've become unhealthy, because abandoning ship feels like betrayal—of others and of their own investment. They'd rather ride a sinking ship with trusted crew than jump to a potentially safer vessel with strangers.
 
 ### Strengths of the Sentinel
@@ -98,7 +101,7 @@ But perpetual vigilance casts dark shadows:
 
 ## When Fear Becomes Frenzy: Sixes Under Stress
 
-When overwhelmed, something disturbing happens to the usually loyal Six. They shift toward the unhealthy aspects of Type 3, "The Achiever"—their authenticity morphing into image management.
+When overwhelmed, something disturbing happens to the usually loyal Six. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-3">Type 3, "The Achiever"</a>—their authenticity morphing into image management.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
@@ -182,7 +185,7 @@ Understand that their questioning isn't accusation—it's their way of creating 
 
 Be boringly reliable. Show up when you say you will. Do what you promise. Be the solid ground they're searching for, and they'll be the most loyal partner you could imagine.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 6s connect with each type.
 
 </section>
 
@@ -194,7 +197,7 @@ The Six's growth journey isn't about eliminating fear. It's about developing cou
 
 ### Moving Toward Nine
 
-When Sixes integrate, they move toward the healthy aspects of Type 9, "The Peacemaker." This doesn't mean becoming passive or conflict-avoidant. It means developing the capacity for:
+When Sixes integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-9">Type 9, "The Peacemaker."</a> This doesn't mean becoming passive or conflict-avoidant. It means developing the capacity for:
 
 **Inner calm**. Finding a still center that remains stable regardless of external circumstances.
 
@@ -227,6 +230,16 @@ When Sixes learn to trust their own inner authority—when they realize that the
 Not the false security of guarantees and certainties, but the real security of knowing they can navigate uncertainty. The very vigilance that seemed like weakness becomes strength. The questioning that seemed like doubt becomes wisdom.
 
 The search for solid ground can finally end. Not because they found it outside themselves, but because they discovered they are it.
+
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth by Type"
+      scramble={false}
+  />
+</a>
 
 </section>
 

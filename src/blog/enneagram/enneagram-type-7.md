@@ -16,6 +16,7 @@ pic: ''
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">The child sits in the uncomfortable silence of disappointment. Maybe it's a cancelled trip. Maybe it's parents fighting. Maybe it's being told "no" one too many times. Whatever the specifics, the young Seven makes a discovery that will shape their entire life: <b>if you can't change reality, you can change how you think about it.</b></p>
@@ -62,6 +63,8 @@ Present them with a problem, and watch what happens. Where others see obstacle, 
 
 This isn't just optimism. It's a fundamental different way of processing reality. The Seven's brain literally sees more connections, more patterns, more potential combinations than other types. They live in a world where everything relates to everything else, where boundaries are suggestions, where "impossible" is just another word for "interesting challenge."
 
+**Wing Influences:** Type 7s are influenced by their neighboring types. With a <a href="/blog/enneagram/enneagram-type-6">Type 6 wing (7w6)</a>, they become more responsible and anxiety-aware, balancing their adventurous spirit with loyalty and planning. With a <a href="/blog/enneagram/enneagram-type-8">Type 8 wing (7w8)</a>, they become more aggressive and decisive, combining enthusiasm with powerful action and leadership.
+
 ### Strengths That Shine
 
 When Sevens are at their best, they become:
@@ -104,7 +107,7 @@ Their fear of limitation manifests as:
 
 ## When the Music Stops: Sevens Under Stress
 
-When stress becomes unavoidable, something strange happens to the usually effervescent Seven. They transform into their opposite—shifting toward the unhealthy aspects of Type 1, "The Perfectionist."
+When stress becomes unavoidable, something strange happens to the usually effervescent Seven. They transform into their opposite—shifting toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-1">Type 1, "The Perfectionist."</a>
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/1-7.png" class="arrow-img" alt="seven going to one in stress">
@@ -186,7 +189,7 @@ Don't try to clip their wings—they'll only fly away. Instead, become part of t
 
 When they retreat into planning and possibility, gently anchor them in the present. Not through criticism but through appreciation of what's here, now, between you.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 7s connect with each type.
 
 </section>
 
@@ -198,7 +201,7 @@ The Seven's growth journey isn't about dampening their enthusiasm. It's about di
 
 ### Moving Toward Five
 
-When Sevens integrate, they move toward the healthy aspects of Type 5, "The Investigator." This doesn't mean becoming withdrawn or overly analytical. It means developing the capacity for:
+When Sevens integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-5">Type 5, "The Investigator."</a> This doesn't mean becoming withdrawn or overly analytical. It means developing the capacity for:
 
 **Sustained focus**. Learning that diving deep into one area can be more exhilarating than skimming the surface of many.
 
@@ -227,6 +230,16 @@ The most integrated Sevens discover a profound truth: the present moment contain
 When Sevens learn to stay present—with joy AND pain, excitement AND boredom, possibility AND limitation—they discover what they've been seeking all along: genuine satisfaction.
 
 The very thing they've been running toward has been here all along, waiting for them to stop long enough to receive it.
+
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth by Type"
+      scramble={false}
+  />
+</a>
 
 </section>
 

@@ -16,6 +16,7 @@ pic: ''
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">The child brings home the report card. Straight A's. For a moment, the house transforms. Dad puts down his phone. Mom's face lights up. "That's our star!" They call the grandparents. Post it on social media. The child basks in a warmth that feels like love.</p>
@@ -43,6 +44,8 @@ Here's the cruel irony: Type 3's core sin is deceit, but they're often the last 
 The deception isn't conscious lying. It's something more subtle and tragic: they've performed for so long, they've forgotten they're performing. The mask has fused with the face. The role has replaced the person.
 
 Ask a Three who they really are beneath all the achievements, and watch them struggle. Not because they're being evasive, but because they genuinely don't know. They are their resume. They are their accomplishments. Remove those, and they fear nothing remains.
+
+**Wing Influences:** Type 3s are influenced by their neighboring types. With a <a href="/blog/enneagram/enneagram-type-2">Type 2 wing (3w2)</a>, they become more charming and interpersonal, wanting to be seen as helpful achievers. With a <a href="/blog/enneagram/enneagram-type-4">Type 4 wing (3w4)</a>, they become more creative and introspective, adding depth to their achievements.
 
 <div class="scroll-table">
 
@@ -98,7 +101,7 @@ But perpetual performance casts dark shadows:
 
 ## When Achievement Fails: Threes Under Stress
 
-When overwhelmed, something shocking happens to the dynamic Three. They shift toward the unhealthy aspects of Type 9, "The Peacemaker"—their drive evaporating into paralysis.
+When overwhelmed, something shocking happens to the dynamic Three. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-9">Type 9, "The Peacemaker"</a>—their drive evaporating into paralysis.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
@@ -178,7 +181,7 @@ Understand that their achievement drive is a protection against deep unworthines
 
 Celebrate their non-achievements. Notice who they are when they're not performing. Love them hardest when they fail. Show them that your love doesn't fluctuate with their success.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 3s connect with each type.
 
 </section>
 
@@ -190,7 +193,7 @@ The Three's growth journey isn't about achieving less. It's about discovering th
 
 ### Moving Toward Six
 
-When Threes integrate, they move toward the healthy aspects of Type 6, "The Loyalist." This doesn't mean becoming anxious or dependent. It means developing the capacity for:
+When Threes integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-6">Type 6, "The Loyalist."</a> This doesn't mean becoming anxious or dependent. It means developing the capacity for:
 
 **Authentic collaboration**. Working with others rather than competing against them, finding strength in interdependence.
 
@@ -223,6 +226,16 @@ When Threes learn to value themselves for being rather than doing—when they re
 Not impressive enough. Not successful enough. Just... enough. As is. Without modification. Without performance. Without proof.
 
 The performance can finally end. The person can finally emerge.
+
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth by Type"
+      scramble={false}
+  />
+</a>
 
 </section>
 

@@ -16,6 +16,7 @@ pic: ''
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">The child watches the family dinner table erupt in argument. Again. Voices rise, dishes clatter, accusations fly. And in that moment, the young Nine makes a discovery that will shape their entire life: if you become very still, very small, very agreeable, you can make it stop.</p>
@@ -64,6 +65,8 @@ They construct elaborate routines, predictable patterns, safe habits that create
 
 This isn't laziness. It's architecture. Each routine is a wall against chaos. Each habit is a moat against conflict. Each predictable pattern is a bridge they don't have to rebuild every day.
 
+**Wing Influences:** Type 9s are influenced by their neighboring types. With a <a href="/blog/enneagram/enneagram-type-8">Type 8 wing (9w8)</a>, they become more assertive and protective, using their natural harmony-building skills with more decisive action. With a <a href="/blog/enneagram/enneagram-type-1">Type 1 wing (9w1)</a>, they become more principled and idealistic, combining their peacemaking with a clearer sense of right and wrong.
+
 ### Strengths Born from Stillness
 
 When Nines are at their best, they become:
@@ -98,7 +101,7 @@ But perpetual peacekeeping casts dark shadows:
 
 ## When Peace Breaks: Nines Under Stress
 
-When overwhelmed, something shocking happens to the usually calm Nine. They shift toward the unhealthy aspects of Type 6, "The Loyalist"—their placid exterior cracking to reveal unexpected anxiety.
+When overwhelmed, something shocking happens to the usually calm Nine. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-6">Type 6, "The Loyalist"</a>—their placid exterior cracking to reveal unexpected anxiety.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
@@ -178,7 +181,7 @@ Create space for their opinion before sharing yours. Once you've stated your pre
 
 Notice their indirect communication. A Nine saying "I'm fine" while sighing deeply is not fine. They're testing whether you'll notice, whether it's safe to be not fine.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 9s connect with each type.
 
 </section>
 
@@ -190,7 +193,7 @@ The Nine's growth journey isn't about becoming louder or more aggressive. It's a
 
 ### Moving Toward Three
 
-When Nines integrate, they move toward the healthy aspects of Type 3, "The Achiever." This doesn't mean becoming workaholics or status-seekers. It means discovering that they have goals worth pursuing, opinions worth expressing, a self worth asserting.
+When Nines integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-3">Type 3, "The Achiever."</a> This doesn't mean becoming workaholics or status-seekers. It means discovering that they have goals worth pursuing, opinions worth expressing, a self worth asserting.
 
 Integrated Nines learn to:
 
@@ -220,6 +223,16 @@ The most integrated Nines discover a profound truth: peace created through self-
 When Nines learn to stay present—with their needs, their anger, their own precious existence—they discover what they've been seeking all along: not the absence of conflict, but the presence of self.
 
 The very thing they feared would destroy harmony—their full presence—actually creates it. Because real peace doesn't come from one person disappearing. It comes from all people, including them, showing up fully.
+
+<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+      showIcon={false}
+      subtext=""
+      displayText="Personal Growth by Type"
+      scramble={false}
+  />
+</a>
 
 </section>
 
