@@ -2,9 +2,9 @@
 title: 'Enneagram Types and Trauma Response: Understanding Your Survival Patterns'
 description: 'Explore how each Enneagram type processes trauma differently through fight, flight, freeze, and fawn responses. Discover healing pathways tailored to your personality type.'
 author: 'DJ Wayne'
-date: '2024-02-20'
+date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-trauma-response-guide'
-lastmod: '2024-02-20'
+lastmod: '2025-08-25'
 changefreq: 'monthly'
 priority: '0.8'
 published: true

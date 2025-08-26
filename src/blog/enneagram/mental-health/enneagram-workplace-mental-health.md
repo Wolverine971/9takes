@@ -2,9 +2,9 @@
 title: 'Enneagram and Workplace Mental Health: Preventing Burnout by Type'
 description: 'Learn how each Enneagram type experiences workplace stress and burnout. Discover type-specific strategies for maintaining mental health at work.'
 author: 'DJ Wayne'
-date: '2024-03-25'
+date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-mental-health'
-lastmod: '2024-03-25'
+lastmod: '2025-08-25'
 changefreq: 'monthly'
 priority: '0.8'
 published: true

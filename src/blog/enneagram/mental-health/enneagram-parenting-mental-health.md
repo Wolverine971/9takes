@@ -2,9 +2,9 @@
 title: "The Enneagram Parent's Guide to Children's Mental Health"
 description: 'Learn to recognize early mental health warning signs in children based on their Enneagram type. Build resilience and know when to seek help.'
 author: 'DJ Wayne'
-date: '2024-03-05'
+date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-parenting-mental-health'
-lastmod: '2024-03-05'
+lastmod: '2025-08-25'
 changefreq: 'monthly'
 priority: '0.8'
 published: true

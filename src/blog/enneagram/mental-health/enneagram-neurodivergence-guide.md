@@ -2,9 +2,9 @@
 title: 'Enneagram and Neurodivergence: When Personality Meets Brain Wiring'
 description: 'Explore how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type. Learn accommodations and strategies for thriving.'
 author: 'DJ Wayne'
-date: '2024-03-10'
+date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide'
-lastmod: '2024-03-10'
+lastmod: '2025-08-25'
 changefreq: 'monthly'
 priority: '0.8'
 published: true

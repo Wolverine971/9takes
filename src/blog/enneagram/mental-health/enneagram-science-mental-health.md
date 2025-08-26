@@ -2,9 +2,9 @@
 title: 'The Science Behind Enneagram and Mental Health: Research, Neuroscience, and Evidence'
 description: 'Explore the scientific research linking Enneagram types to mental health patterns, including neuroscience findings, clinical studies, and evidence-based applications.'
 author: 'DJ Wayne'
-date: '2024-03-30'
+date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-science-mental-health'
-lastmod: '2024-03-30'
+lastmod: '2025-08-25'
 changefreq: 'monthly'
 priority: '0.8'
 published: true

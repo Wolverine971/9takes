@@ -2,9 +2,9 @@
 title: 'The Complete Guide to Enneagram and Anxiety Disorders'
 description: 'Discover how anxiety manifests differently in each Enneagram type, with tailored coping strategies, grounding exercises, and evidence-based interventions for your personality.'
 author: 'DJ Wayne'
-date: '2024-02-15'
+date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-anxiety-complete-guide'
-lastmod: '2024-02-15'
+lastmod: '2025-08-25'
 changefreq: 'monthly'
 priority: '0.8'
 published: true

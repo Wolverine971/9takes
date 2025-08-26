@@ -9,7 +9,6 @@
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
-	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
@@ -32,175 +31,127 @@
 			const observer = new MutationObserver((mutations) => {
 				mutations.forEach((mutation) => {
 					if (mutation.type === 'childList') {
-						const newContent = node.innerHTML;
-						contentStore.set(newContent);
-						observer.disconnect();
+						contentStore.set(node.innerHTML);
 					}
 				});
 			});
 
-			observer.observe(node, {
-				childList: true,
-				subtree: true
-			});
+			observer.observe(node, { childList: true, subtree: true });
 		}
 	};
 </script>
 
-<svelte:head>
-	<style>
-		:global(blockquote) {
-			background-color: var(--card-bg-color);
-			border-left: 4px solid var(--primary);
-			padding: 1rem;
-			margin: 1rem 0;
-			font-style: italic;
-			color: var(--text-color);
-			opacity: 0.9;
-		}
+<!-- Crisis Notice Banner -->
+<div class="crisis-notice">
+	<strong>Crisis Resources:</strong> If you need immediate help, please call the National Suicide
+	Prevention Lifeline at <strong>988</strong> or Crisis Text Line by texting HOME to
+	<strong>741741</strong>.
+</div>
 
-		:global(blockquote p) {
-			margin: 0;
-		}
-	</style>
-</svelte:head>
-
-<BlogPageHead {data} slug={data?.slug} />
-
-<main>
-	<nav class="breadcrumb">
-		<a href="/enneagram-corner">Enneagram Corner</a>
-		<span class="separator">/</span>
-		<a href="/enneagram-corner/mental-health">Mental Health</a>
-		<span class="separator">/</span>
-		<span class="current">{data.frontmatter.title}</span>
-	</nav>
-
-	<div class="crisis-notice">
-		<strong>Crisis Resources:</strong> If you need immediate help, please call the National Suicide
-		Prevention Lifeline at <strong>988</strong> or Crisis Text Line by texting HOME to
-		<strong>741741</strong>.
+<article itemscope itemtype="https://schema.org/BlogPosting" class="blog" id="blogA">
+	<div class="article-header">
+		<BlogPageHead data={data.frontmatter} slug={`enneagram-corner/mental-health/${data.slug}`} />
+		<ArticleTitle title={data.frontmatter.title} />
+		<ArticleSubTitle metaData={data.frontmatter} />
 	</div>
 
-	<article class="p-4">
-		<ArticleTitle frontmatter={data.frontmatter} />
-		<ArticleSubTitle frontmatter={data.frontmatter} />
+	<!-- Disclaimer Box -->
+	<div class="disclaimer-box">
+		<p>
+			<strong>Important:</strong> This content is for educational purposes only and should not replace
+			professional mental health care. If you're struggling, please reach out to a qualified mental health
+			professional.
+		</p>
+	</div>
 
-		<div class="disclaimer-box">
-			<p>
-				<strong>Important:</strong> This content is for educational purposes only and should not replace
-				professional mental health care. If you're struggling, please reach out to a qualified mental
-				health professional.
-			</p>
+	{#if data?.frontmatter?.pic}
+		<div class="featured-image">
+			<PopCard
+				image={`/blogs/${data?.frontmatter?.pic}.webp`}
+				showIcon={false}
+				displayText=""
+				altText=""
+				subtext=""
+			/>
 		</div>
+	{/if}
 
-		<ArticleDescription frontmatter={data.frontmatter} />
+	<TableOfContents
+		{contentStore}
+		pageUrl={`https://9takes.com/enneagram-corner/mental-health/${data.slug}`}
+	/>
 
-		<div class="items-start justify-start md:flex">
-			<div class="sticky top-2 hidden w-fit max-w-[270px] md:block">
-				<TableOfContents {contentStore} />
-			</div>
+	<svelte:component this={component} />
+</article>
 
-			<div class="min-w-0">
-				<div id="blogA" class="blog-content">
-					<svelte:component this={component} data={{ a: 'd' }} />
-				</div>
+<hr class="section-divider" />
 
-				<div class="blog-footer">
-					<div class="share-section">
-						<h3>Found this helpful?</h3>
-						<p>
-							Share this guide with others who might benefit from type-specific mental health
-							insights.
-						</p>
-					</div>
-
-					<div class="resources-section">
-						<h3>Additional Mental Health Resources</h3>
-						<ul>
-							<li>
-								<a href="https://www.nami.org" target="_blank" rel="noopener">
-									National Alliance on Mental Illness (NAMI)
-								</a>
-							</li>
-							<li>
-								<a href="https://www.samhsa.gov/find-help" target="_blank" rel="noopener">
-									SAMHSA's National Helpline
-								</a>
-							</li>
-							<li>
-								<a
-									href="https://www.psychologytoday.com/us/therapists"
-									target="_blank"
-									rel="noopener"
-								>
-									Find a Therapist - Psychology Today
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<EmailSignup />
-
-				{#if data?.posts?.length > 0}
-					<SuggestionsBlog
-						posts={data.posts}
-						blogType="Mental Health"
-						slugPrefix="enneagram-corner/mental-health"
-					/>
-				{/if}
-			</div>
+<!-- Additional Mental Health Resources -->
+<section class="resources-section">
+	<h2>Additional Mental Health Resources</h2>
+	<div class="resources-grid">
+		<div class="resource-card">
+			<h3>National Alliance on Mental Illness</h3>
+			<p>Support, education, and advocacy for mental health</p>
+			<a href="https://www.nami.org" target="_blank" rel="noopener">Visit NAMI →</a>
 		</div>
-	</article>
-</main>
+		<div class="resource-card">
+			<h3>SAMHSA National Helpline</h3>
+			<p>Treatment referral and information service</p>
+			<a href="https://www.samhsa.gov/find-help" target="_blank" rel="noopener">Get Help →</a>
+		</div>
+		<div class="resource-card">
+			<h3>Find a Therapist</h3>
+			<p>Psychology Today's therapist directory</p>
+			<a href="https://www.psychologytoday.com/us/therapists" target="_blank" rel="noopener">
+				Search Therapists →
+			</a>
+		</div>
+	</div>
+</section>
 
-<PopCard />
+<hr class="section-divider" />
+
+<SuggestionsBlog
+	posts={data?.posts}
+	blogType={'Mental Health'}
+	slugPrefix={'enneagram-corner/mental-health'}
+/>
+
+{#if !data?.user}
+	<div class="join">
+		<EmailSignup />
+	</div>
+{/if}
 
 <style lang="scss">
-	.breadcrumb {
-		padding: 1rem 2rem;
-		font-size: 0.875rem;
-		color: var(--text-secondary);
-
-		a {
-			color: var(--color-primary);
-			text-decoration: none;
-
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-
-		.separator {
-			margin: 0 0.5rem;
-			color: var(--text-muted);
-		}
-
-		.current {
-			color: var(--text-primary);
-		}
-	}
+	@use '../../../../scss/index.scss' as *;
 
 	.crisis-notice {
 		background-color: #fee;
 		border: 2px solid #f66;
 		padding: 1rem;
-		margin: 1rem 2rem;
+		margin: 1rem auto 2rem;
 		border-radius: 8px;
 		color: #d00;
 		text-align: center;
+		max-width: 800px;
 
 		strong {
 			font-weight: 700;
 		}
 	}
 
+	.article-header {
+		margin-bottom: 2rem;
+	}
+
 	.disclaimer-box {
 		background-color: var(--color-bg-secondary);
 		border-left: 4px solid var(--color-warning, #ffa500);
 		padding: 1rem;
-		margin: 1.5rem 0;
+		margin: 1.5rem auto;
+		max-width: 800px;
 		border-radius: 4px;
 
 		p {
@@ -214,109 +165,87 @@
 		}
 	}
 
-	.blog-content {
-		:global(h2) {
-			margin-top: 2rem;
-			margin-bottom: 1rem;
-			font-size: 1.75rem;
-			font-weight: 700;
-			color: var(--text-primary);
-		}
-
-		:global(h3) {
-			margin-top: 1.5rem;
-			margin-bottom: 0.75rem;
-			font-size: 1.25rem;
-			font-weight: 600;
-			color: var(--text-primary);
-		}
-
-		:global(p) {
-			margin-bottom: 1rem;
-			line-height: 1.7;
-			color: var(--text-secondary);
-		}
-
-		:global(ul),
-		:global(ol) {
-			margin: 1rem 0;
-			padding-left: 2rem;
-		}
-
-		:global(ul li),
-		:global(ol li) {
-			margin-bottom: 0.5rem;
-			line-height: 1.6;
-			color: var(--text-secondary);
-		}
-
-		:global(strong) {
-			font-weight: 600;
-			color: var(--text-primary);
-		}
+	.featured-image {
+		display: flex;
+		justify-content: center;
+		margin: 1rem 0;
 	}
 
-	.blog-footer {
-		margin-top: 3rem;
-		padding-top: 2rem;
-		border-top: 1px solid var(--border-color);
+	.section-divider {
+		margin: 5rem 0;
+		border: 0;
+		border-top: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
+	}
 
-		.share-section {
+	.resources-section {
+		padding: 2rem 0;
+
+		h2 {
+			text-align: center;
 			margin-bottom: 2rem;
-
-			h3 {
-				font-size: 1.25rem;
-				margin-bottom: 0.5rem;
-				color: var(--text-primary);
-			}
-
-			p {
-				color: var(--text-secondary);
-			}
+			font-size: 2rem;
+			color: var(--text-primary);
 		}
 
-		.resources-section {
-			background-color: var(--color-bg-secondary);
-			padding: 1.5rem;
-			border-radius: 8px;
-			margin-bottom: 2rem;
+		.resources-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			gap: 2rem;
+			max-width: 900px;
+			margin: 0 auto;
 
-			h3 {
-				font-size: 1.25rem;
-				margin-bottom: 1rem;
-				color: var(--text-primary);
-			}
+			.resource-card {
+				background: var(--color-bg-secondary);
+				padding: 1.5rem;
+				border-radius: 8px;
+				text-align: center;
+				transition:
+					transform 0.3s ease,
+					box-shadow 0.3s ease;
 
-			ul {
-				list-style: none;
-				padding: 0;
+				&:hover {
+					transform: translateY(-4px);
+					box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+				}
 
-				li {
-					margin-bottom: 0.75rem;
+				h3 {
+					margin-bottom: 0.5rem;
+					color: var(--text-primary);
+					font-size: 1.25rem;
+				}
 
-					a {
-						color: var(--color-primary);
-						text-decoration: none;
+				p {
+					margin-bottom: 1rem;
+					color: var(--text-secondary);
+					line-height: 1.5;
+				}
 
-						&:hover {
-							text-decoration: underline;
-						}
+				a {
+					color: var(--color-primary);
+					text-decoration: none;
+					font-weight: 500;
+
+					&:hover {
+						text-decoration: underline;
 					}
 				}
 			}
 		}
 	}
 
-	@media (max-width: 768px) {
-		.breadcrumb {
-			padding: 0.75rem 1rem;
-			font-size: 0.75rem;
-		}
+	.join {
+		margin-top: 2rem;
+	}
 
+	@media (max-width: 768px) {
 		.crisis-notice {
 			margin: 0.75rem 1rem;
 			padding: 0.75rem;
 			font-size: 0.875rem;
+		}
+
+		.resources-grid {
+			grid-template-columns: 1fr !important;
 		}
 	}
 </style>

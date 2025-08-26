@@ -2,9 +2,9 @@
 title: 'Enneagram and Addiction: Understanding Each Type's Escape Patterns'
 description: 'Discover how each Enneagram type develops specific addictions, from substances to behaviors. Learn recovery strategies tailored to your personality type.'
 author: 'DJ Wayne'
-date: '2024-03-01'
+date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide'
-lastmod: '2024-03-01'
+lastmod: '2025-08-25'
 changefreq: 'monthly'
 priority: '0.8'
 published: true

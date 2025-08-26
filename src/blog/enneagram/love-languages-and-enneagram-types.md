@@ -27,7 +27,6 @@ Keyword Strategy:
 - Questions: how do love languages work with personality types, what's my love language based on personality, love language compatibility guide
 -->
 
-
 <p class="firstLetter">Your love language isn't random. It's your personality's blueprint for giving and receiving affection.</p>
 
 Here's what nobody tells you about love languages: **The traditional "5 love languages" quiz only scratches the surface.** Your Enneagram type reveals not just HOW you prefer to receive love, but WHY you need it that way—and how your personality unconsciously sabotages the love you're seeking.

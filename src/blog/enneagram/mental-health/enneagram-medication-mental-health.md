@@ -2,9 +2,9 @@
 title: 'The Enneagram Guide to Medication and Mental Health'
 description: 'Understand how each Enneagram type responds to psychiatric medications, common fears, and strategies for working with psychiatrists based on personality type.'
 author: 'DJ Wayne'
-date: '2024-03-20'
+date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-medication-mental-health'
-lastmod: '2024-03-20'
+lastmod: '2025-08-25'
 changefreq: 'monthly'
 priority: '0.8'
 published: true

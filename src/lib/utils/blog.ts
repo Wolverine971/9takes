@@ -76,8 +76,17 @@ export const getBlogPosts = async (): Promise<App.BlogPost[]> => {
 export const getMentalHealthPosts = async (): Promise<App.BlogPost[]> => {
 	const allPosts = await getBlogPosts();
 
-	// Filter for mental health posts
+	// Filter for mental health posts (excluding social media versions)
 	return allPosts.filter((post) => {
+		// Skip social media versions
+		if (
+			post.slug?.includes('-instagram') ||
+			post.slug?.includes('-twitter') ||
+			post.slug?.includes('-reddit') ||
+			post.slug?.includes('-review')
+		) {
+			return false;
+		}
 		// Check if the post is in the mental-health directory or has mental-health type
 		return (
 			post.loc?.includes('/mental-health/') ||

@@ -2,9 +2,9 @@
 title: 'The Enneagram Guide to Therapy: Which Therapeutic Approach Works Best for Your Type'
 description: 'Discover which therapy modalities work best for each Enneagram type. From CBT to somatic therapy, find your ideal therapeutic match and learn what to expect.'
 author: 'DJ Wayne'
-date: '2024-02-25'
+date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide'
-lastmod: '2024-02-25'
+lastmod: '2025-08-25'
 changefreq: 'monthly'
 priority: '0.8'
 published: true

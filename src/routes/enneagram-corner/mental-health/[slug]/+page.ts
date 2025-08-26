@@ -6,11 +6,20 @@ import { error } from '@sveltejs/kit';
 const MAX_POSTS = 6;
 
 export const load: PageLoad = async ({ params }) => {
-	// Import only mental health blog posts
+	// Import only main mental health blog posts (excluding social media versions)
 	const modules = import.meta.glob(`/src/blog/enneagram/mental-health/*.{md,svx,svelte.md}`);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(modules)) {
+		// Skip social media versions
+		if (
+			path.includes('.instagram.') ||
+			path.includes('.twitter.') ||
+			path.includes('.reddit.') ||
+			path.includes('.review.')
+		) {
+			continue;
+		}
 		if (slugFromPath(path) === params.slug) {
 			match = { path, resolver: resolver as unknown as App.MdsvexResolver };
 			break;
@@ -20,15 +29,25 @@ export const load: PageLoad = async ({ params }) => {
 	const post = await match?.resolver?.();
 
 	// Get other mental health posts for suggestions
-	const postPromises = Object.entries(modules).map(([path, resolver]) =>
-		resolver().then(
-			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				}) as App.BlogPost
-		)
-	);
+	const postPromises = Object.entries(modules)
+		.filter(([path]) => {
+			// Skip social media versions
+			return (
+				!path.includes('.instagram.') &&
+				!path.includes('.twitter.') &&
+				!path.includes('.reddit.') &&
+				!path.includes('.review.')
+			);
+		})
+		.map(([path, resolver]) =>
+			resolver().then(
+				(post) =>
+					({
+						...(post as unknown as App.MdsvexFile).metadata,
+						slug: slugFromPath(path)
+					}) as App.BlogPost
+			)
+		);
 
 	const posts = await Promise.all(postPromises);
 	const publishedPosts = posts
