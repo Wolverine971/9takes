@@ -70,6 +70,41 @@ src/
 └── scss/                   # Global styles
 ```
 
+### Documentation Structure
+
+```
+docs/
+├── development/             # Development utilities and scripts
+│   ├── DevDocs.md
+│   ├── generate-mental-health-files.js
+│   ├── generateStreamlinedProjectContext2.ts
+│   └── labelFilePaths.ts
+├── security/               # Security and credential management
+│   ├── CREDENTIAL_ROTATION_GUIDE.md
+│   └── SECURITY_AND_IMPROVEMENTS_TODO.md
+├── validation/             # Data validation guides
+│   ├── VALIDATION_SUMMARY.md
+│   └── VALIDATION_UPDATE_GUIDE.md
+├── migrations/             # Database and service migrations
+│   └── SOCKETIO_MIGRATION.md
+├── content-generation/     # Content creation and management
+│   ├── ITERATIVE_REVIEW_PROCESS.md
+│   ├── MENTAL_HEALTH_BLOG_SYSTEM.md
+│   ├── enneagram-trauma-response-guide.review.md
+│   ├── midjourney.md
+│   ├── midjourney_cleaned.md
+│   ├── midjourney_prompt_templates.md
+│   └── missing_images_summary.md
+├── marketing/              # Marketing and growth strategies
+│   ├── google-search-results.md
+│   ├── questions-page-optimization-summary.md
+│   ├── twitter-wings-announcement.md
+│   └── [existing marketing docs]
+├── utilities/              # Utility files and scripts
+│   └── matching-files.txt
+└── [other existing folders]
+```
+
 ### Key Features Implementation
 
 1. **Give-First Commenting System**

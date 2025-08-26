@@ -48,26 +48,31 @@ Midjourney Prompt: five interconnected circles with elegant symbols representing
 Dr. Gary Chapman identified five primary ways humans express and receive love:
 
 **1. Words of Affirmation**
+
 - Verbal appreciation, compliments, "I love you"
 - Written notes, texts, encouragement
 - Recognition of achievements and efforts
 
 **2. Acts of Service**
+
 - Doing helpful tasks without being asked
 - Taking care of responsibilities
 - Making life easier through actions
 
 **3. Receiving Gifts**
+
 - Thoughtful presents that show care
-- Symbols of love and remembrance  
+- Symbols of love and remembrance
 - The thought and effort behind the gesture
 
 **4. Quality Time**
+
 - Undivided attention and presence
 - Meaningful conversations
 - Shared experiences and activities
 
 **5. Physical Touch**
+
 - Affectionate contact and intimacy
 - Hugs, holding hands, closeness
 - Physical comfort and connection
@@ -90,31 +95,38 @@ Let's decode how each type's psychology creates their love language patterns:
 **Why:** Perfectionism feels like carrying the weight of the world alone
 
 ### How Type 1s Give Love:
+
 - Improving their partner's life through helpful actions
 - Offering constructive feedback (that may feel like criticism)
 - Creating order and structure in shared spaces
 - Setting high standards as an expression of care
 
 ### How Type 1s Receive Love:
+
 - **Acts of Service:** "Help me carry this burden of making everything right"
 - **Words of Affirmation:** "Tell me I'm good enough, that my efforts matter"
 - **Quality Time:** Structured activities where they can relax their perfectionist guard
 
 ### Type 1 Love Language Challenges:
+
 ❌ **They edit their partner's love expressions** ("That was sweet, but you spelled my name wrong in the card")
 ❌ **Their Acts of Service can feel controlling** ("I cleaned your car" = "Your car was too messy")
 ❌ **They struggle to receive imperfect love** (late gifts, misspelled notes, "good enough" efforts)
 
 ### Love Language Compatibility for Type 1:
+
 **Best Matches:**
+
 - **Acts of Service partners** who appreciate their helpful nature
 - **Words of Affirmation givers** who can articulate appreciation for their standards
 
 **Growth Challenges:**
+
 - **Physical Touch partners** who need spontaneous affection (hard for structured 1s)
 - **Receiving Gifts partners** who value thoughtfulness over perfection
 
 ### How to Love a Type 1:
+
 ✅ **Appreciate their efforts specifically:** "Thank you for organizing the garage—having that system makes our mornings so much smoother"
 ✅ **Help with their standards:** Don't just say "it's fine as is"—help them achieve their vision
 ✅ **Acknowledge their growth:** "I noticed you've been more flexible lately, and it means a lot"
@@ -125,31 +137,38 @@ Let's decode how each type's psychology creates their love language patterns:
 **Why:** They give constantly but struggle to ask for what they need
 
 ### How Type 2s Give Love:
+
 - Anticipating needs before they're expressed
 - Over-giving through Acts of Service
 - Creating emotional safety for others
 - Sacrificing their own needs for their partner's comfort
 
 ### How Type 2s Receive Love:
+
 - **Words of Affirmation:** "Tell me I matter, that my giving is valued"
 - **Physical Touch:** Affection that doesn't require them to earn it
 - **Quality Time:** Attention focused on them (not what they can do)
 
 ### Type 2 Love Language Challenges:
+
 ❌ **They give Acts of Service but crave Words of Affirmation** (creating mismatched cycles)
 ❌ **They feel guilty receiving without giving back** ("You don't need to get me anything")
 ❌ **Their love can feel conditional** ("I did all this for you, so why don't you appreciate me?")
 
 ### Love Language Compatibility for Type 2:
+
 **Best Matches:**
+
 - **Words of Affirmation partners** who naturally express gratitude
 - **Quality Time givers** who make them the focus
 
 **Growth Challenges:**
+
 - **Acts of Service partners** who show love through doing (2s may feel unloved)
 - **Receiving Gifts partners** who prefer tangible expressions over verbal/emotional ones
 
 ### How to Love a Type 2:
+
 ✅ **Express gratitude specifically:** "Your emotional support got me through that difficult meeting"
 ✅ **Give attention without agenda:** Focus on them, not what they can do for you  
 ✅ **Notice their self-sacrifice:** "I see how you put everyone else first—what do YOU need?"
@@ -160,31 +179,38 @@ Let's decode how each type's psychology creates their love language patterns:
 **Why:** Love needs to reflect their successful image
 
 ### How Type 3s Give Love:
+
 - Creating impressive experiences and dates
 - Achieving goals that benefit their partner
 - Supporting their partner's success and image
 - Gift-giving that demonstrates their thoughtfulness and success
 
 ### How Type 3s Receive Love:
+
 - **Words of Affirmation:** Praise for their accomplishments and efforts
 - **Receiving Gifts:** Thoughtful presents that reflect their taste and status
 - **Acts of Service:** Support that helps them achieve their goals
 
 ### Type 3 Love Language Challenges:
+
 ❌ **Their love expressions can feel performative** ("Is this genuine or for show?")
 ❌ **They struggle with low-key, private affection** (prefer public displays)
 ❌ **They may compete with their partner** instead of supporting them
 
 ### Love Language Compatibility for Type 3:
+
 **Best Matches:**
+
 - **Words of Affirmation partners** who celebrate their achievements
 - **Receiving Gifts givers** who appreciate quality and thought
 
 **Growth Challenges:**
+
 - **Quality Time partners** who want deep, unperformed intimacy
 - **Physical Touch partners** who need simple, non-achievement-based affection
 
 ### How to Love a Type 3:
+
 ✅ **Celebrate their wins publicly:** "I'm so proud of what you accomplished"
 ✅ **Support their goals:** Help them succeed rather than competing
 ✅ **Appreciate their efforts:** Acknowledge the work behind their achievements
@@ -195,31 +221,38 @@ Let's decode how each type's psychology creates their love language patterns:
 **Why:** They need to feel seen and understood in their uniqueness
 
 ### How Type 4s Give Love:
+
 - Deep, meaningful conversations and emotional support
 - Creative expressions and personalized gifts
 - Intense focus and attention during quality time
 - Sharing their inner world and creative depths
 
 ### How Type 4s Receive Love:
+
 - **Quality Time:** Undivided attention that explores their emotional depths
 - **Words of Affirmation:** Recognition of their uniqueness and authenticity
 - **Receiving Gifts:** Meaningful, personalized presents that show deep understanding
 
 ### Type 4 Love Language Challenges:
+
 ❌ **Ordinary expressions of love feel insufficient** ("Everyone gets flowers")
 ❌ **They may reject love that feels "basic"** or conventional
 ❌ **Their intensity can overwhelm partners** who prefer lighter connection
 
 ### Love Language Compatibility for Type 4:
+
 **Best Matches:**
+
 - **Quality Time partners** who enjoy deep, meaningful conversations
 - **Words of Affirmation givers** who can articulate emotional depth
 
 **Growth Challenges:**
+
 - **Acts of Service partners** who show love practically (4s may feel misunderstood)
 - **Physical Touch partners** who prefer simple, consistent affection over dramatic gestures
 
 ### How to Love a Type 4:
+
 ✅ **See their uniqueness:** "No one sees the world quite like you do"
 ✅ **Engage their depth:** Ask about their feelings, creative projects, inner world
 ✅ **Personalize your love:** Generic gestures feel meaningless—make it specifically about them
@@ -230,31 +263,38 @@ Let's decode how each type's psychology creates their love language patterns:
 **Why:** They need love that respects their need for autonomy and energy
 
 ### How Type 5s Give Love:
+
 - Sharing their knowledge and insights
 - Giving space and independence to their partner
 - Thoughtful, well-researched gifts or solutions
 - Quality time that's intellectually stimulating
 
 ### How Type 5s Receive Love:
+
 - **Acts of Service:** Help that preserves their energy and autonomy
 - **Quality Time:** Meaningful connection that doesn't drain them
 - **Words of Affirmation:** Appreciation for their insights and independence
 
 ### Type 5 Love Language Challenges:
+
 ❌ **They can seem withholding or distant** (protecting their energy)
 ❌ **Physical touch and emotional intensity can feel overwhelming**
 ❌ **They may intellectualize love rather than feeling it**
 
 ### Love Language Compatibility for Type 5:
+
 **Best Matches:**
+
 - **Acts of Service partners** who help without intruding
 - **Quality Time givers** who respect their need for space
 
 **Growth Challenges:**
+
 - **Physical Touch partners** who need consistent affectionate contact
 - **Words of Affirmation partners** who need frequent verbal reassurance
 
 ### How to Love a Type 5:
+
 ✅ **Respect their space:** Give love that doesn't require constant reciprocation
 ✅ **Appreciate their insights:** Value their knowledge and unique perspective
 ✅ **Help practically:** Take care of draining tasks so they can focus on what matters to them
@@ -265,31 +305,38 @@ Let's decode how each type's psychology creates their love language patterns:
 **Why:** They need reassurance and proof of commitment
 
 ### How Type 6s Give Love:
+
 - Consistent, reliable support and loyalty
 - Anticipating and preparing for their partner's needs
 - Creating security and stability in the relationship
 - Standing by their partner through difficulties
 
 ### How Type 6s Receive Love:
+
 - **Words of Affirmation:** Constant reassurance of love and commitment
 - **Quality Time:** Consistent presence that builds trust over time
 - **Acts of Service:** Reliable support that creates security
 
 ### Type 6 Love Language Challenges:
+
 ❌ **They need constant reassurance** ("Do you still love me?" even after being told)
 ❌ **They may test their partner's loyalty** unconsciously
 ❌ **Anxiety can make them question sincere love expressions**
 
 ### Love Language Compatibility for Type 6:
+
 **Best Matches:**
+
 - **Words of Affirmation partners** who naturally provide reassurance
 - **Acts of Service givers** who show love through consistent reliability
 
 **Growth Challenges:**
+
 - **Receiving Gifts partners** who prefer tangible over verbal expressions
 - **Physical Touch partners** who show love physically without words
 
 ### How to Love a Type 6:
+
 ✅ **Provide consistent reassurance:** "I'm here, I'm committed, I'm not going anywhere"
 ✅ **Be reliable:** Follow through on what you say you'll do
 ✅ **Address their anxiety:** Don't dismiss their fears—help them feel secure
@@ -300,31 +347,38 @@ Let's decode how each type's psychology creates their love language patterns:
 **Why:** They need love that's engaging, fun, and prevents boredom
 
 ### How Type 7s Give Love:
+
 - Creating fun, exciting experiences together
 - Bringing energy, positivity, and adventure to the relationship
 - Sharing new discoveries and interests
 - Keeping things light and optimistic
 
 ### How Type 7s Receive Love:
+
 - **Quality Time:** Engaging activities and adventures together
 - **Physical Touch:** Playful, energetic affection
 - **Words of Affirmation:** Encouragement for their ideas and enthusiasm
 
 ### Type 7 Love Language Challenges:
+
 ❌ **They avoid heavy emotional conversations** (preferring to keep things positive)
 ❌ **May struggle with routine, everyday expressions of love**
 ❌ **Can seem scattered or uncommitted** when really they're just energetic
 
 ### Love Language Compatibility for Type 7:
+
 **Best Matches:**
+
 - **Quality Time partners** who enjoy adventures and new experiences
 - **Physical Touch givers** who match their energy and playfulness
 
 **Growth Challenges:**
+
 - **Acts of Service partners** who show love through routine, practical help
 - **Receiving Gifts partners** who prefer thoughtful, planned expressions over spontaneous ones
 
 ### How to Love a Type 7:
+
 ✅ **Keep it engaging:** Find ways to make love expressions fun and interesting
 ✅ **Join their adventures:** Participate in their interests and explorations
 ✅ **Appreciate their optimism:** Value the joy and energy they bring
@@ -335,31 +389,38 @@ Let's decode how each type's psychology creates their love language patterns:
 **Why:** They need love that matches their intensity and respects their strength
 
 ### How Type 8s Give Love:
+
 - Fierce protection and loyalty
 - Taking charge of problems and responsibilities
 - Direct, honest communication (even when difficult)
 - Physical affection and presence
 
 ### How Type 8s Receive Love:
+
 - **Physical Touch:** Affection that matches their intensity
 - **Acts of Service:** Practical support that doesn't undermine their autonomy
 - **Words of Affirmation:** Respect for their strength and capabilities
 
 ### Type 8 Love Language Challenges:
+
 ❌ **Their intensity can overwhelm partners** (love expressed through power/control)
 ❌ **They may struggle with vulnerability** (hard to ask for gentle love)
 ❌ **Can seem aggressive when they're actually being protective**
 
 ### Love Language Compatibility for Type 8:
+
 **Best Matches:**
+
 - **Physical Touch partners** who can match their intensity
 - **Acts of Service givers** who support without trying to control them
 
 **Growth Challenges:**
+
 - **Quality Time partners** who need gentle, quiet intimacy
 - **Receiving Gifts partners** who prefer thoughtful gestures over powerful actions
 
 ### How to Love a Type 8:
+
 ✅ **Match their intensity:** Don't be intimidated by their powerful energy
 ✅ **Respect their autonomy:** Support without trying to control or fix them
 ✅ **Appreciate their protection:** Recognize that their strength serves others
@@ -370,31 +431,38 @@ Let's decode how each type's psychology creates their love language patterns:
 **Why:** They need love that creates connection without conflict or pressure
 
 ### How Type 9s Give Love:
+
 - Creating peaceful, harmonious environments
 - Accepting their partner completely without trying to change them
 - Being present and supportive without demands
 - Physical comfort and gentle affection
 
 ### How Type 9s Receive Love:
+
 - **Physical Touch:** Gentle, comforting affection
 - **Quality Time:** Peaceful presence without pressure or conflict
 - **Acts of Service:** Help with decisions and responsibilities
 
 ### Type 9 Love Language Challenges:
+
 ❌ **They may merge with their partner's love language** (losing their own needs)
 ❌ **Avoid conflict even when it's needed** for relationship health
 ❌ **Can seem passive or disengaged** when really they're keeping peace
 
 ### Love Language Compatibility for Type 9:
+
 **Best Matches:**
+
 - **Physical Touch partners** who provide gentle, consistent affection
 - **Quality Time givers** who create peaceful, pressure-free connection
 
 **Growth Challenges:**
+
 - **Words of Affirmation partners** who need verbal expressions (9s may stay quiet)
 - **Receiving Gifts partners** who prefer active, thoughtful gestures
 
 ### How to Love a Type 9:
+
 ✅ **Create peaceful connection:** Avoid pressure and conflict in love expressions
 ✅ **Be patient:** Don't rush them to reciprocate or respond immediately
 ✅ **Appreciate their acceptance:** Value how they love you exactly as you are
@@ -404,26 +472,31 @@ Let's decode how each type's psychology creates their love language patterns:
 ### High Compatibility Combinations
 
 **Words of Affirmation + Words of Affirmation:**
+
 - Types 2, 3, 4, 6 together
 - Natural verbal expression and appreciation
 - Risk: Can become all talk, no action
 
 **Acts of Service + Acts of Service:**
+
 - Types 1, 2, 5, 8 together
 - Mutual practical support and help
 - Risk: Can become transactional ("I did this, so you should do that")
 
 **Quality Time + Quality Time:**
+
 - Types 4, 5, 6, 7, 9 together
 - Deep connection and meaningful presence
 - Risk: May neglect practical aspects of relationship
 
 **Physical Touch + Physical Touch:**
+
 - Types 7, 8, 9 together
 - Natural physical affection and connection
 - Risk: May lack verbal/emotional communication
 
 **Receiving Gifts + Receiving Gifts:**
+
 - Types 3, 4 together
 - Thoughtful, meaningful gift exchange
 - Risk: Can become materialistic or competitive
@@ -431,16 +504,19 @@ Let's decode how each type's psychology creates their love language patterns:
 ### Growth-Oriented Combinations
 
 **Words of Affirmation + Acts of Service:**
+
 - One partner expresses love verbally, the other practically
 - Growth: Learning to appreciate different love expressions
 - Challenge: Verbal partner may feel unloved by practical partner
 
 **Quality Time + Physical Touch:**
+
 - Deep emotional connection meets physical intimacy
 - Growth: Balancing emotional and physical needs
 - Challenge: Different comfort levels with intensity
 
 **Acts of Service + Receiving Gifts:**
+
 - Practical help meets thoughtful gestures
 - Growth: Learning to value both utility and thoughtfulness
 - Challenge: Different definitions of meaningful love
@@ -448,46 +524,55 @@ Let's decode how each type's psychology creates their love language patterns:
 ## Common Love Language Mistakes by Enneagram Type
 
 ### Type 1 Mistakes:
+
 ❌ **Criticizing their partner's love expressions** ("You didn't fold the laundry the right way")
 ❌ **Making their Acts of Service feel controlling** ("I cleaned because you're messy")
 ✅ **Instead:** Appreciate the intention behind imperfect expressions
 
 ### Type 2 Mistakes:
+
 ❌ **Giving Acts of Service but expecting Words of Affirmation** (mismatched giving/receiving)
 ❌ **Feeling resentful when their giving isn't appreciated enough**
 ✅ **Instead:** Ask directly for the appreciation they need
 
 ### Type 3 Mistakes:
+
 ❌ **Performing love for external validation** ("Look how thoughtful I am")
 ❌ **Competing with their partner instead of supporting them**
 ✅ **Instead:** Focus on genuine connection over impressive gestures
 
 ### Type 4 Mistakes:
+
 ❌ **Rejecting "ordinary" love expressions** ("Everyone gives flowers")
 ❌ **Creating drama to feel special** or deeply connected
 ✅ **Instead:** Appreciate consistent love even when it's not dramatic
 
 ### Type 5 Mistakes:
+
 ❌ **Withholding love to preserve energy** (seeming distant or cold)
 ❌ **Intellectualizing love instead of expressing it emotionally**
 ✅ **Instead:** Share their inner world and appreciate their partner's efforts
 
 ### Type 6 Mistakes:
+
 ❌ **Testing their partner's love** ("If you really loved me, you'd...")
 ❌ **Needing constant reassurance** that exhausts their partner
 ✅ **Instead:** Trust the love that's consistently shown
 
 ### Type 7 Mistakes:
+
 ❌ **Avoiding serious love conversations** (keeping things too light)
 ❌ **Getting bored with routine expressions** of love
 ✅ **Instead:** Appreciate consistent love even when it's not exciting
 
 ### Type 8 Mistakes:
+
 ❌ **Overwhelming their partner** with intense love expressions
 ❌ **Controlling how their partner should show love**
 ✅ **Instead:** Allow vulnerability and gentle expressions
 
 ### Type 9 Mistakes:
+
 ❌ **Merging with their partner's love language** (losing their own needs)
 ❌ **Avoiding conflict** even when it's necessary for relationship health
 ✅ **Instead:** Express their own needs and preferences
@@ -499,6 +584,7 @@ Let's decode how each type's psychology creates their love language patterns:
 Instead of asking "What's your love language?" (people often don't know), observe these patterns:
 
 **Watch How They Comfort Others:**
+
 - Do they offer practical help? (Acts of Service)
 - Give encouraging words? (Words of Affirmation)
 - Offer physical comfort? (Physical Touch)
@@ -506,16 +592,18 @@ Instead of asking "What's your love language?" (people often don't know), observ
 - Bring thoughtful gestures? (Receiving Gifts)
 
 **Notice What They Complain About:**
+
 - "You never say you love me" = Words of Affirmation
-- "You never help with anything" = Acts of Service  
+- "You never help with anything" = Acts of Service
 - "We never spend time together" = Quality Time
 - "You never touch me anymore" = Physical Touch
 - "You never think to bring me anything" = Receiving Gifts
 
 **Pay Attention to Their Requests:**
+
 - Type 1: "Can you help me organize this?"
 - Type 2: "Tell me you appreciate what I do"
-- Type 3: "Come to my presentation" 
+- Type 3: "Come to my presentation"
 - Type 4: "I need to talk about how I'm feeling"
 - Type 5: "I need some space to think"
 - Type 6: "Promise me you're not going anywhere"
@@ -536,26 +624,31 @@ Ask these specific questions:
 ## Love Language Challenges by Personality Type Combinations
 
 ### Type 1 + Type 7 (Different Love Languages)
+
 **Challenge:** Type 1 needs structured Acts of Service, Type 7 needs spontaneous Quality Time
 **Solution:** Schedule adventure time (structure meets spontaneity)
 **Growth:** Type 1 learns flexibility, Type 7 learns planning
 
 ### Type 2 + Type 5 (Energy Mismatch)
+
 **Challenge:** Type 2 gives constantly (overwhelming), Type 5 needs space
 **Solution:** Type 2 gives space as an act of love, Type 5 schedules quality time
 **Growth:** Type 2 learns boundaries, Type 5 learns to receive
 
 ### Type 3 + Type 4 (Image vs Authenticity)
+
 **Challenge:** Type 3 wants impressive love displays, Type 4 wants deep authenticity
 **Solution:** Private authentic moments + public celebrations
 **Growth:** Type 3 learns vulnerability, Type 4 appreciates achievement
 
 ### Type 6 + Type 8 (Security vs Independence)
+
 **Challenge:** Type 6 needs constant reassurance, Type 8 values autonomy
 **Solution:** Consistent reliable love that doesn't feel controlling
 **Growth:** Type 6 learns trust, Type 8 learns gentle reassurance
 
 ### Type 9 + Type 3 (Passive vs Active)
+
 **Challenge:** Type 9 avoids decisions, Type 3 wants active participation
 **Solution:** Type 3 leads while genuinely including Type 9's input
 **Growth:** Type 9 learns engagement, Type 3 learns patience
@@ -563,21 +656,25 @@ Ask these specific questions:
 ## Creating Your Love Language Action Plan
 
 ### Step 1: Identify Your Combination
+
 - Take an accurate Enneagram test (not just any personality test)
 - Observe your natural patterns of giving and receiving love
 - Consider both your primary and secondary love languages
 
 ### Step 2: Understand Your Partner's Combination
+
 - Use the observation methods above
 - Ask direct questions about their preferences
 - Notice the gap between how they give vs how they want to receive
 
 ### Step 3: Bridge the Gap
+
 - Learn to give love in their language, not just your own
 - Communicate your needs clearly without expecting them to mind-read
 - Appreciate their love expressions even when they're different from yours
 
 ### Step 4: Grow Together
+
 - Use your differences as growth opportunities
 - Address personality-based challenges with compassion
 - Regularly check in about what's working and what isn't
@@ -585,26 +682,34 @@ Ask these specific questions:
 ## Frequently Asked Questions
 
 ### Can Your Love Language Change?
+
 **Yes, but your core patterns remain consistent.** Life stages, stress levels, and relationship dynamics can shift your priorities:
+
 - New parents often need more Acts of Service
 - During stress, Types 1-9 may crave their security love language more
 - As relationships deepen, Quality Time often becomes more important
 
 ### What If We Have Completely Different Love Languages?
+
 **This is actually an opportunity for growth.** The most transformative relationships often involve learning to love in a completely different way:
+
 - You expand your capacity for love expression
-- You learn to appreciate love in new forms  
+- You learn to appreciate love in new forms
 - You develop empathy for different emotional needs
 
 ### Why Don't Traditional Love Language Tests Work?
+
 **They don't account for personality psychology.** Knowing you're a "Words of Affirmation" person doesn't tell you:
+
 - WHY you need verbal appreciation
 - WHAT specific words land for your type
 - HOW your personality sabotages receiving love
 - WHEN your love language needs change
 
 ### How Do You Handle Love Language Conflicts?
+
 **Focus on the underlying need, not the specific expression:**
+
 - Type 1 needing Acts of Service = "Help me feel less alone in my standards"
 - Type 4 needing Quality Time = "See me as unique and special"
 - Type 8 needing Physical Touch = "Match my intensity and don't fear my power"

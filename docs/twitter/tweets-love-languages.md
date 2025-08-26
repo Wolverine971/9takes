@@ -6,11 +6,12 @@ _Topic: Love Languages + Communication_
 ## Question Hooks (Mondays)
 
 ### Hook 1: Love Language Reveal
+
 ```
 What's your love language?
 
 🔸 Words of Affirmation
-🔸 Acts of Service  
+🔸 Acts of Service
 🔸 Receiving Gifts
 🔸 Quality Time
 🔸 Physical Touch
@@ -19,6 +20,7 @@ Your choice reveals how your personality processes affection 👇
 ```
 
 ### Hook 2: Mismatched Languages
+
 ```
 What happens when your love language doesn't match your partner's?
 
@@ -33,6 +35,7 @@ What's your mismatch story?
 ```
 
 ### Hook 3: Controversial Take
+
 ```
 Hot take: Love languages aren't about how you want to RECEIVE love.
 
@@ -46,6 +49,7 @@ Agree or disagree?
 ## Value Threads (Wednesdays)
 
 ### Thread 1: Love Languages Meet Personality Types
+
 ```
 1/8 Your love language isn't random.
 
@@ -65,7 +69,7 @@ Warning: Can feel like criticism instead of care
 
 "Love me by acknowledging how much I give"
 
-They show love by: Anticipating needs, constant giving  
+They show love by: Anticipating needs, constant giving
 They feel loved when: Their giving is noticed and appreciated
 Warning: Can become resentful if unacknowledged
 
@@ -82,7 +86,7 @@ Warning: May prioritize image over intimacy
 "Love me by seeing my uniqueness and depth"
 
 They show love by: Sharing deep emotions and authenticity
-They feel loved when: Given undivided attention and understanding  
+They feel loved when: Given undivided attention and understanding
 Warning: Ordinary affection can feel insufficient
 
 6/8 TYPE 5 (Investigator) → Acts of Service + Quality Time
@@ -96,7 +100,7 @@ Warning: Can withdraw if love feels too demanding
 7/8 TYPE 6-9 patterns:
 
 Type 6 (Loyalist): Quality Time + Words of Affirmation ("prove I can trust you")
-Type 7 (Enthusiast): Physical Touch + Quality Time ("adventure together") 
+Type 7 (Enthusiast): Physical Touch + Quality Time ("adventure together")
 Type 8 (Challenger): Acts of Service + Physical Touch ("respect my strength")
 Type 9 (Peacemaker): All languages ("just don't make me choose")
 
@@ -110,6 +114,7 @@ What's your type + love language combo?
 ```
 
 ### Thread 2: Why Love Languages Don't Work
+
 ```
 1/6 Love languages don't work the way most people think.
 
@@ -161,6 +166,7 @@ What did you learn about your combo?
 ```
 
 ### Thread 3: Communication Breakdowns by Love Language
+
 ```
 1/7 Same words. Different meanings.
 
@@ -182,7 +188,7 @@ Without it: "They say they love me but won't help when I need it"
 
 4/7 Quality Time Types (4, 6, 9):
 "I love you" = connection, but give me presence
-They hear: You're choosing me over distractions  
+They hear: You're choosing me over distractions
 They need: Undivided attention, deep conversation, shared experiences
 
 Without it: "They're always distracted when we're together"
@@ -190,7 +196,7 @@ Without it: "They're always distracted when we're together"
 5/7 Physical Touch Types (7, 8):
 "I love you" = nice, but touch me
 They hear: You want physical connection with me
-They need: Affectionate contact, closeness, physical reassurance  
+They need: Affectionate contact, closeness, physical reassurance
 
 Without it: "They seem distant and cold lately"
 
@@ -215,6 +221,7 @@ What language have you been missing?
 ## Follow-up Links (Fridays)
 
 ### Link Drop 1: Compatibility Guide
+
 ```
 That thread on love languages + personality types?
 
@@ -231,6 +238,7 @@ What combo surprised you most?
 ```
 
 ### Link Drop 2: Communication Guide
+
 ```
 Y'all loved the communication breakdown thread.
 
@@ -245,6 +253,7 @@ Try it with someone today and report back 👇
 ## Daily Engagement Responses
 
 ### When someone shares their love language:
+
 ```
 [Love Language] + Type [X] is such a powerful combo!
 
@@ -254,6 +263,7 @@ How does that show up in your relationships?
 ```
 
 ### When someone disagrees:
+
 ```
 Fair point! Love languages aren't universal.
 
@@ -263,6 +273,7 @@ Always curious about different approaches.
 ```
 
 ### When someone asks for help:
+
 ```
 Based on [love language] + Type [X], sounds like you need [specific advice].
 
@@ -274,6 +285,7 @@ Have you tried [specific suggestion]?
 ## Community Building
 
 ### Vulnerability Share:
+
 ```
 Personal confession:
 
@@ -293,6 +305,7 @@ What love language mismatch taught you the most?
 ```
 
 ### Success Story:
+
 ```
 Update from last week's love language thread:
 
@@ -318,18 +331,21 @@ What small change made a big difference for you?
 ## Engagement Targets for Love Languages Content
 
 ### Relationship Accounts to Engage With:
+
 - @AttachmentTheory
-- @DrJulieSmith  
+- @DrJulieSmith
 - @TherapyForBlackGirls
 - @MindfullCouples
 - @RelationshipGoals
 
 ### Psychology Accounts:
+
 - @PsychologyToday
 - @MentalHealthAmerica
 - @SelfCareSaturday
 
 ### Personal Development:
+
 - @BreneBrown
 - @EstherPerel
 - @JohnGottman

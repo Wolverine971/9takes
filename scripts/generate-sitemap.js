@@ -29,6 +29,7 @@ async function getAllPosts() {
 		'community',
 		'guides',
 		'enneagram',
+		'enneagram/mental-health',
 		'generational',
 		'historical',
 		'life-situations',
@@ -224,6 +225,12 @@ async function generateSitemap() {
     <lastmod>2024-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides</loc>

@@ -249,7 +249,12 @@
 				{/each}
 				{#if section.type !== 'nine-types'}
 					<div class="grid-item view-all">
-						<a href="/enneagram-corner/{section.type === 'mental-health' ? 'mental-health' : `subtopic/${section.type}`}" class="blog-link">
+						<a
+							href="/enneagram-corner/{section.type === 'mental-health'
+								? 'mental-health'
+								: `subtopic/${section.type}`}"
+							class="blog-link"
+						>
 							<div class="grid-item-content">
 								<div class="text-overlay">
 									<h3>

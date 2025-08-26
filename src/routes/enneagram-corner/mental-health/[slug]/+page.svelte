@@ -96,8 +96,8 @@
 
 		<ArticleDescription frontmatter={data.frontmatter} />
 
-		<div class="md:flex justify-start items-start">
-			<div class="hidden md:block sticky top-2 w-fit max-w-[270px]">
+		<div class="items-start justify-start md:flex">
+			<div class="sticky top-2 hidden w-fit max-w-[270px] md:block">
 				<TableOfContents {contentStore} />
 			</div>
 
@@ -109,7 +109,10 @@
 				<div class="blog-footer">
 					<div class="share-section">
 						<h3>Found this helpful?</h3>
-						<p>Share this guide with others who might benefit from type-specific mental health insights.</p>
+						<p>
+							Share this guide with others who might benefit from type-specific mental health
+							insights.
+						</p>
 					</div>
 
 					<div class="resources-section">
@@ -126,7 +129,11 @@
 								</a>
 							</li>
 							<li>
-								<a href="https://www.psychologytoday.com/us/therapists" target="_blank" rel="noopener">
+								<a
+									href="https://www.psychologytoday.com/us/therapists"
+									target="_blank"
+									rel="noopener"
+								>
 									Find a Therapist - Psychology Today
 								</a>
 							</li>
@@ -230,15 +237,17 @@
 			color: var(--text-secondary);
 		}
 
-		:global(ul), :global(ol) {
+		:global(ul),
+		:global(ol) {
 			margin: 1rem 0;
 			padding-left: 2rem;
-			
-			li {
-				margin-bottom: 0.5rem;
-				line-height: 1.6;
-				color: var(--text-secondary);
-			}
+		}
+
+		:global(ul li),
+		:global(ol li) {
+			margin-bottom: 0.5rem;
+			line-height: 1.6;
+			color: var(--text-secondary);
 		}
 
 		:global(strong) {

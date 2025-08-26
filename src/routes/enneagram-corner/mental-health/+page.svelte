@@ -257,7 +257,10 @@
 			Understanding your Enneagram type is the first step toward personalized mental health care.
 		</p>
 		<div class="cta-buttons">
-			<a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide" class="btn btn-primary">
+			<a
+				href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
+				class="btn btn-primary"
+			>
 				Read Our Anxiety Guide
 			</a>
 			<a href="/enneagram-test" class="btn btn-secondary"> Discover Your Type </a>

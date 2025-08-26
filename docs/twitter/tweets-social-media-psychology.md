@@ -6,6 +6,7 @@ _Topic: Social Media Effects + Digital Behavior_
 ## Question Hooks (Mondays)
 
 ### Hook 1: Platform Preferences
+
 ```
 Your favorite social media platform reveals your personality type.
 
@@ -21,6 +22,7 @@ Your choice shows what your brain craves.
 ```
 
 ### Hook 2: Scrolling Behavior
+
 ```
 How do you scroll through social media?
 
@@ -34,6 +36,7 @@ Your scrolling pattern reveals your core need.
 ```
 
 ### Hook 3: Digital Boundaries
+
 ```
 What's your biggest social media struggle?
 
@@ -49,6 +52,7 @@ Your struggle reveals your personality's digital vulnerability.
 ## Value Threads (Wednesdays)
 
 ### Thread 1: Reddit Behavior by Personality Type
+
 ```
 1/10 Your Reddit behavior reveals your personality type.
 
@@ -139,6 +143,7 @@ What's your Reddit personality?
 ```
 
 ### Thread 2: Social Media Addiction Patterns by Type
+
 ```
 1/8 Social media addiction looks different for everyone.
 
@@ -211,6 +216,7 @@ What's your social media addiction really about?
 ```
 
 ### Thread 3: Instagram vs Reality by Personality Type
+
 ```
 1/9 Instagram vs Reality by personality type.
 
@@ -286,6 +292,7 @@ What gap exists between your posts and reality?
 ## Follow-up Links (Fridays)
 
 ### Link Drop 1: Digital Wellness Guide
+
 ```
 The social media addiction thread hit different.
 
@@ -299,6 +306,7 @@ What boundary does your type need most?
 ```
 
 ### Link Drop 2: Reddit Psychology Analysis
+
 ```
 Y'all loved the Reddit personality breakdown.
 
@@ -312,6 +320,7 @@ Which platform reveals your true personality?
 ```
 
 ### Link Drop 3: Authenticity vs Performance
+
 ```
 The Instagram vs Reality thread sparked important conversations.
 
@@ -327,6 +336,7 @@ What would authentic posting look like for you?
 ## Daily Engagement Responses
 
 ### When someone shares social media struggles:
+
 ```
 That [specific struggle] makes so much sense for Type [X].
 
@@ -336,6 +346,7 @@ Have you tried [type-specific suggestion] instead of fighting your natural tende
 ```
 
 ### When someone disagrees about social media effects:
+
 ```
 Fair point! Social media affects everyone differently.
 
@@ -345,6 +356,7 @@ Curious about experiences that don't fit the typical narratives.
 ```
 
 ### When someone asks for digital wellness help:
+
 ```
 Based on your [behavior/type], sounds like you need [specific boundary type].
 
@@ -356,6 +368,7 @@ What feels like the most realistic first step for you?
 ## Community Building
 
 ### Vulnerability Share:
+
 ```
 Social media confession:
 
@@ -373,6 +386,7 @@ What social media pattern are you ready to break?
 ```
 
 ### Success Story:
+
 ```
 Update from the digital boundaries thread:
 
@@ -396,6 +410,7 @@ What boundary made the biggest difference for you?
 ## Engagement Targets for Social Media Content
 
 ### Digital Wellness Accounts:
+
 - @DigitalWellnessInstitute
 - @TimeWellSpent
 - @ScreenTimeStats
@@ -403,13 +418,15 @@ What boundary made the biggest difference for you?
 - @SocialMediaDetox
 
 ### Psychology/Behavior Accounts:
+
 - @BehavioralEcon
-- @PsychologyToday  
+- @PsychologyToday
 - @SocialPsychNet
 - @DigitalPsych
 - @OnlineBehavior
 
 ### Tech Commentary:
+
 - @WaitButWhy
 - @TechCrunch (on social impact stories)
 - @WSJ (tech/social media articles)

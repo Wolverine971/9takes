@@ -6,6 +6,7 @@ _Topic: Neurodiversity + Mental Health_
 ## Question Hooks (Mondays)
 
 ### Hook 1: ADHD & Personality
+
 ```
 ADHD + personality type = your unique brain wiring.
 
@@ -21,6 +22,7 @@ Same ADHD. Different experience.
 ```
 
 ### Hook 2: Masking Patterns
+
 ```
 Autism masking looks different for everyone.
 
@@ -35,6 +37,7 @@ Your personality shapes how you mask.
 ```
 
 ### Hook 3: Anxiety Manifestations
+
 ```
 Anxiety hits different based on your personality:
 
@@ -50,6 +53,7 @@ Which anxiety pattern is yours?
 ## Value Threads (Wednesdays)
 
 ### Thread 1: ADHD Patterns by Personality Type
+
 ```
 1/9 ADHD isn't one-size-fits-all.
 
@@ -81,7 +85,7 @@ Internal dialogue: "I must appear to have it all together"
 
 They research 47 productivity methods but use none.
 
-5/9 TYPE 4 + ADHD: The Creative's Emotional Rollercoaster  
+5/9 TYPE 4 + ADHD: The Creative's Emotional Rollercoaster
 
 Hyperfocus: Art, emotions, deep meaning-making
 Struggles: Rejection sensitive dysphoria hits harder
@@ -127,6 +131,7 @@ What's your ADHD + type combo?
 ```
 
 ### Thread 2: Mental Health Stigma by Personality Type
+
 ```
 1/8 Mental health stigma hits different based on your personality type.
 
@@ -192,6 +197,7 @@ What barrier does your type need to overcome?
 ```
 
 ### Thread 3: Autism Masking by Personality Type
+
 ```
 1/7 Autism masking looks different for every personality type.
 
@@ -240,7 +246,7 @@ Masking exhaustion: Complete social withdrawal
 7/7 TYPE 6-9 masking patterns:
 
 Type 6: Seeks group belonging through careful rule-following
-Type 7: Uses humor/entertainment to deflect from differences  
+Type 7: Uses humor/entertainment to deflect from differences
 Type 8: Controls environments to minimize masking needs
 Type 9: Camouflages through extreme agreeableness
 
@@ -252,6 +258,7 @@ What does masking look like for your type?
 ## Follow-up Links (Fridays)
 
 ### Link Drop 1: ADHD Guide
+
 ```
 That ADHD + personality thread resonated with so many of you.
 
@@ -267,6 +274,7 @@ What strategy worked best for your type?
 ```
 
 ### Link Drop 2: Mental Health Resource
+
 ```
 The mental health stigma thread has people sharing their stories.
 
@@ -280,6 +288,7 @@ What barrier are you ready to face?
 ```
 
 ### Link Drop 3: Autism Acceptance
+
 ```
 The autism masking thread opened so many important conversations.
 
@@ -295,6 +304,7 @@ What would authentic expression look like for you?
 ## Daily Engagement Responses
 
 ### When someone shares ADHD struggles:
+
 ```
 ADHD + Type [X] is such a specific experience.
 
@@ -304,6 +314,7 @@ Have you found any strategies that work with your personality instead of against
 ```
 
 ### When someone disagrees about neurodiversity:
+
 ```
 You're right that neurodiversity experiences are individual.
 
@@ -313,6 +324,7 @@ Always learning from different perspectives.
 ```
 
 ### When someone asks for resources:
+
 ```
 Based on Type [X] + [condition], you might benefit from [specific approach].
 
@@ -324,6 +336,7 @@ Here are some [type-specific] resources: [relevant suggestions]
 ## Community Building
 
 ### Vulnerability Share:
+
 ```
 Personal share:
 
@@ -341,6 +354,7 @@ What would change if you stopped trying to be a different kind of brain?
 ```
 
 ### Success Story:
+
 ```
 Update from the ADHD thread:
 
@@ -364,6 +378,7 @@ What tiny change made a big difference for you?
 ## Engagement Targets for Neurodiversity Content
 
 ### Neurodiversity Accounts:
+
 - @ADHDWomenUK
 - @AutisticSciencePerson
 - @TheADHDAdult
@@ -371,6 +386,7 @@ What tiny change made a big difference for you?
 - @ADHDCouple
 
 ### Mental Health Accounts:
+
 - @MentalHealthAmerica
 - @NAMI
 - @TherapyForBlackGirls
@@ -378,6 +394,7 @@ What tiny change made a big difference for you?
 - @SelfCareSaturday
 
 ### Psychology/Research:
+
 - @PsychologyToday
 - @ADHDFoundation
 - @AutismSpeaks10 (engage carefully)

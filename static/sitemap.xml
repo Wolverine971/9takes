@@ -1,4 +1,3 @@
-<!-- static/sitemap.xml -->
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
@@ -73,6 +72,12 @@
     <lastmod>2024-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides</loc>
@@ -753,6 +758,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/enneagram-corner/love-languages-and-enneagram-types</loc>
+    <lastmod>2025-08-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/enneagram-corner/neurodiversity-vs-personality</loc>
     <lastmod>2025-05-26T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -789,6 +803,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/enneagram-corner/shadow-work-by-enneagram-type</loc>
+    <lastmod>2025-08-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/nine_greek_statues_facing_their_shadows_on_the_wall.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/enneagram-corner/situations-change-emotions-dont</loc>
     <lastmod>2025-01-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -813,6 +836,96 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/blogs/greek-statues-in-a-tense-moment.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide</loc>
+    <lastmod>2024-03-01T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-addiction-recovery.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-anxiety-complete-guide</loc>
+    <lastmod>2024-02-15T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-anxiety-guide.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-crisis-management-guide</loc>
+    <lastmod>2024-03-15T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-crisis-management.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-medication-mental-health</loc>
+    <lastmod>2024-03-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-medication-guide.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide</loc>
+    <lastmod>2024-03-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-neurodivergence.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-parenting-mental-health</loc>
+    <lastmod>2024-03-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-parenting-mental-health.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-science-mental-health</loc>
+    <lastmod>2024-03-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-science-mental-health.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide</loc>
+    <lastmod>2024-02-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-therapy-guide.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-trauma-response-guide</loc>
+    <lastmod>2024-02-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-trauma-response.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-mental-health</loc>
+    <lastmod>2024-03-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/enneagram-workplace-mental-health.webp</image:loc>
     </image:image>
 </url>
 <url>

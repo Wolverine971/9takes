@@ -15,7 +15,7 @@ Phase 1: Foundation & Discoverability (Weeks 1-4)
 ├── Goal: 28 → 200 followers
 └── Strategy: Light, accessible content
 
-Phase 2: Authority Building (Weeks 5-8)  
+Phase 2: Authority Building (Weeks 5-8)
 ├── Focus: Core Enneagram expertise
 ├── Goal: 200 → 500 followers
 └── Strategy: Deep psychological insights
@@ -71,6 +71,7 @@ START-HERE.md
 **Core Principle:** Cast a wide net with tangential content that attracts people interested in personality, psychology, relationships, and self-development without requiring Enneagram knowledge.
 
 **Content Mix:**
+
 - 40% Tangential topics (love languages, neurodiversity, mental health)
 - 30% Social dynamics (conflict resolution, Reddit culture, social media)
 - 20% Light Enneagram content (accessible to newcomers)
@@ -81,6 +82,7 @@ START-HERE.md
 These topics attract users who might be interested in Enneagram/9takes but don't know it yet:
 
 **Direct Psychology Connection:**
+
 - Love Languages (301k searches/month)
 - Neurodiversity (ADHD, autism, etc.)
 - Mental health patterns
@@ -88,6 +90,7 @@ These topics attract users who might be interested in Enneagram/9takes but don't
 - Communication styles
 
 **Social Dynamics Connection:**
+
 - Reddit culture and psychology
 - Social media's effects on relationships
 - Conflict resolution patterns
@@ -95,6 +98,7 @@ These topics attract users who might be interested in Enneagram/9takes but don't
 - Workplace personality conflicts
 
 **Self-Development Connection:**
+
 - Productivity styles by personality
 - Decision-making patterns
 - Stress responses
@@ -104,6 +108,7 @@ These topics attract users who might be interested in Enneagram/9takes but don't
 ## Success Metrics by Phase
 
 ### Phase 1 Targets (Weeks 1-4)
+
 - **Followers:** 28 → 200 (175 new)
 - **Engagement Rate:** 15%+ (current small account advantage)
 - **Profile Visits:** 1000+ total
@@ -111,6 +116,7 @@ These topics attract users who might be interested in Enneagram/9takes but don't
 - **Mentions/Tags:** 10+ from other accounts
 
 ### Phase 2 Targets (Weeks 5-8)
+
 - **Followers:** 200 → 500 (300 new)
 - **Engagement Rate:** 12%+ (maintaining as we grow)
 - **Shares/Retweets:** 50+ per major thread
@@ -118,12 +124,14 @@ These topics attract users who might be interested in Enneagram/9takes but don't
 - **DMs:** 20+ per week
 
 ### Phase 3 Targets (Weeks 9-12)
+
 - **Followers:** 500 → 1000 (500 new)
 - **9takes Sign-ups:** 50+ from Twitter
 - **Newsletter Sign-ups:** 100+ from Twitter
 - **User-Generated Content:** 10+ posts mentioning 9takes
 
 ### Phase 4 Targets (Weeks 13-16)
+
 - **Followers:** 1000 → 2500 (1500 new)
 - **Product Sales:** $2000+ from Twitter traffic
 - **Collaboration Offers:** 5+ from other creators
@@ -132,6 +140,7 @@ These topics attract users who might be interested in Enneagram/9takes but don't
 ## Content Calendar Integration
 
 Each phase will have its own 4-week content calendar with:
+
 - Daily posting schedule
 - Weekly themes
 - Engagement targets

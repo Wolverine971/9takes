@@ -1,49 +1,49 @@
 1.  **knolling, coding, programmer, laptop, code, computers, hacker --ar 4:9** - @Wolverine971 (fast) Create, explore, and organize on [midjourney.com](https://midjourney.com/imagine?from_discord=1 'midjourney.com
 (https://midjourney.com/imagine?from_discord=1)')
 
-                                                [](https://cdn.discordapp.com/attachments/1064745971042504725/1375262277342728323/wolverine971_knolling_coding_programmer_laptop_code_computers_h_cac90447-f4bf-4ed5-b6a4-54b34a439ac5.png?ex=687b890e&is=687a378e&hm=7183933bd2d9d4a2e4c3a168ec9b9a2aeac4bc7432a5cdcc07c10ceaa307ac6d&)
+                                                        [](https://cdn.discordapp.com/attachments/1064745971042504725/1375262277342728323/wolverine971_knolling_coding_programmer_laptop_code_computers_h_cac90447-f4bf-4ed5-b6a4-54b34a439ac5.png?ex=687b890e&is=687a378e&hm=7183933bd2d9d4a2e4c3a168ec9b9a2aeac4bc7432a5cdcc07c10ceaa307ac6d&)
 
-                                                ![Image](https://media.discordapp.net/attachments/1064745971042504725/1375262277342728323/wolverine971_knolling_coding_programmer_laptop_code_computers_h_cac90447-f4bf-4ed5-b6a4-54b34a439ac5.png?ex=687b890e&is=687a378e&hm=7183933bd2d9d4a2e4c3a168ec9b9a2aeac4bc7432a5cdcc07c10ceaa307ac6d&=&format=webp&quality=lossless&width=156&height=350)
+                                                        ![Image](https://media.discordapp.net/attachments/1064745971042504725/1375262277342728323/wolverine971_knolling_coding_programmer_laptop_code_computers_h_cac90447-f4bf-4ed5-b6a4-54b34a439ac5.png?ex=687b890e&is=687a378e&hm=7183933bd2d9d4a2e4c3a168ec9b9a2aeac4bc7432a5cdcc07c10ceaa307ac6d&=&format=webp&quality=lossless&width=156&height=350)
 
-                                                U1
+                                                        U1
 
-                                                ,
+                                                        ,
 
-                                                U2
+                                                        U2
 
-                                                ,
+                                                        ,
 
-                                                U3
+                                                        U3
 
-                                                ,
+                                                        ,
 
-                                                U4
+                                                        U4
 
-                                                ,
+                                                        ,
 
-                                                ![🔄](https://discord.com/assets/e541f62450f233be.svg)
+                                                        ![🔄](https://discord.com/assets/e541f62450f233be.svg)
 
-                                                ,
+                                                        ,
 
-                                                ,
+                                                        ,
 
-                                                V1
+                                                        V1
 
-                                                ,
+                                                        ,
 
-                                                V2
+                                                        V2
 
-                                                ,
+                                                        ,
 
-                                                V3
+                                                        V3
 
-                                                ,
+                                                        ,
 
-                                                V4
+                                                        V4
 
-                                                ,,
+                                                        ,,
 
-                                                ,
+                                                        ,
 
 2.  _[\_8:02 PM_]\_
 

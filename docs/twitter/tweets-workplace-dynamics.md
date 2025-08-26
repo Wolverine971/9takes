@@ -6,13 +6,14 @@ _Topic: Productivity + Professional Communication_
 ## Question Hooks (Mondays)
 
 ### Hook 1: Meeting Behavior
+
 ```
 Your meeting behavior reveals your personality type.
 
 Which describes you?
 
 🔸 "Actually, the correct information is..." (facts first)
-🔸 "How can I help make this happen?" (service oriented)  
+🔸 "How can I help make this happen?" (service oriented)
 🔸 "What's our timeline and deliverables?" (results focused)
 🔸 "Has anyone considered this angle?" (unique perspective)
 🔸 "I need to think about this more" (processing time)
@@ -21,6 +22,7 @@ Your default meeting persona is on autopilot.
 ```
 
 ### Hook 2: Procrastination Patterns
+
 ```
 Why do you procrastinate?
 
@@ -34,11 +36,12 @@ Your procrastination has a hidden purpose.
 ```
 
 ### Hook 3: Productivity Systems
+
 ```
 What productivity system works for you?
 
 🔸 Detailed calendars and checklists (structure lovers)
-🔸 Flexible time blocks (freedom within framework)  
+🔸 Flexible time blocks (freedom within framework)
 🔸 Sprint-based work sessions (intensity then rest)
 🔸 Follow-your-energy approach (work with natural rhythms)
 🔸 None - productivity advice stresses me out
@@ -49,6 +52,7 @@ Your brain needs different systems than others.
 ## Value Threads (Wednesdays)
 
 ### Thread 1: Email Communication Styles by Type
+
 ```
 1/10 Your email style reveals your personality type.
 
@@ -139,6 +143,7 @@ What's your email personality?
 ```
 
 ### Thread 2: Leadership Styles by Personality Type
+
 ```
 1/9 Your leadership style is your personality on steroids.
 
@@ -229,6 +234,7 @@ What leadership challenges does your type face?
 ```
 
 ### Thread 3: Procrastination Patterns by Personality Type
+
 ```
 1/8 Procrastination looks different for every personality type.
 
@@ -243,7 +249,7 @@ Solution: Set "good enough" standards and deadlines for perfection
 
 They'd rather not start than start imperfectly.
 
-3/8 TYPE 2: People-First Procrastination  
+3/8 TYPE 2: People-First Procrastination
 
 Pattern: "Let me help everyone else first, then I'll do my work"
 Avoidance: Answering others' requests, solving others' problems
@@ -291,7 +297,7 @@ They'll plan for every contingency except actually starting.
 8/8 TYPE 7-9 procrastination patterns:
 
 Type 7: "This is boring, let me do something more interesting first"
-Type 8: "I don't want to do this, so I'll control everything else instead"  
+Type 8: "I don't want to do this, so I'll control everything else instead"
 Type 9: "I'll get to it eventually, it's not urgent yet"
 
 Your procrastination pattern is your personality's protection mechanism.
@@ -302,6 +308,7 @@ What's your type avoiding?
 ## Follow-up Links (Fridays)
 
 ### Link Drop 1: Productivity Systems Guide
+
 ```
 The productivity systems thread resonated with everyone.
 
@@ -315,6 +322,7 @@ What system breakthrough did you have?
 ```
 
 ### Link Drop 2: Leadership Development
+
 ```
 That leadership styles thread got people talking about their management challenges.
 
@@ -328,6 +336,7 @@ What leadership challenge are you ready to face?
 ```
 
 ### Link Drop 3: Communication Improvement
+
 ```
 Y'all loved the email styles breakdown.
 
@@ -343,6 +352,7 @@ What communication pattern do you need to adjust?
 ## Daily Engagement Responses
 
 ### When someone shares work struggles:
+
 ```
 That [specific struggle] is so common for Type [X].
 
@@ -352,6 +362,7 @@ Have you tried [type-specific workplace strategy]?
 ```
 
 ### When someone disagrees about productivity:
+
 ```
 You're absolutely right that productivity isn't one-size-fits-all.
 
@@ -361,6 +372,7 @@ Always learning about effective alternatives to popular advice.
 ```
 
 ### When someone asks for workplace help:
+
 ```
 Based on [behavior pattern], sounds like you're Type [X] dealing with [specific challenge].
 
@@ -372,6 +384,7 @@ What feels like the most realistic first step in your current role?
 ## Community Building
 
 ### Vulnerability Share:
+
 ```
 Workplace confession:
 
@@ -389,6 +402,7 @@ What workplace pattern are you ready to change?
 ```
 
 ### Success Story:
+
 ```
 Update from the productivity thread:
 
@@ -414,13 +428,15 @@ What tiny change made work better for you?
 ## Engagement Targets for Workplace Content
 
 ### Leadership/Management Accounts:
+
 - @HarvardBiz
-- @LinkedInLearning  
+- @LinkedInLearning
 - @SimonSinek
 - @AdamMGrant
 - @BreneBrown
 
 ### Productivity/Career Accounts:
+
 - @JamesClear
 - @tferriss
 - @StartupGrind
@@ -428,6 +444,7 @@ What tiny change made work better for you?
 - @CareerContessa
 
 ### Psychology/Business:
+
 - @PsychologyToday (workplace psychology)
 - @FastCompany
 - @Inc
