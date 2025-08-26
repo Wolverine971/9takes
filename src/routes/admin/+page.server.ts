@@ -1,4 +1,4 @@
-// routes/admin/+page.server.ts
+// src/routes/admin/+page.server.ts
 import { supabase } from '$lib/supabase';
 
 import type { PageServerLoad } from './$types';

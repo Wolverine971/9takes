@@ -1,4 +1,4 @@
-// routes/blog/guides/[slug]/+page.server.ts
+// src/routes/blog/guides/[slug]/+page.server.ts
 import { redirect } from '@sveltejs/kit';
 
 export const load = async (event: any) => {

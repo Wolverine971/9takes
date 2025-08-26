@@ -1,4 +1,4 @@
-// lib/getPosts.ts
+// src/lib/getPosts.ts
 import { slugFromPath } from './slugFromPath';
 import { supabase } from './supabase';
 

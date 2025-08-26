@@ -1,4 +1,4 @@
-<!-- lib/components/atoms/DateTip.svelte -->
+<!-- src/lib/components/atoms/DateTip.svelte -->
 <!-- This component displays dating tips in a highlighted box with a distinctive styling -->
 
 <script>

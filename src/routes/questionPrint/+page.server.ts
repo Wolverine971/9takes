@@ -1,4 +1,4 @@
-// routes/questionPrint/+page.server.ts
+// src/routes/questionPrint/+page.server.ts
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 

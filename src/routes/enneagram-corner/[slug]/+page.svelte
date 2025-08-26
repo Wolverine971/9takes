@@ -1,4 +1,4 @@
-<!-- routes/enneagram-corner/[slug]/+page.svelte -->
+<!-- src/routes/enneagram-corner/[slug]/+page.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';

@@ -1,4 +1,4 @@
-// lib/components/molecules/famousTypes.ts
+// src/lib/components/molecules/famousTypes.ts
 export const famousTypes: { [index: number]: any[] } = {
 	1: [
 		{ name: 'Hillary-Clinton', link: true },

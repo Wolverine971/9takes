@@ -1,4 +1,4 @@
--- Migration: Add high-traffic famous people with unique, clickbait-optimized metadata
+-- scripts/migration-for-new-people.sql
 -- Date: 2025-06-25
 
 BEGIN;

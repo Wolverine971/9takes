@@ -1,4 +1,4 @@
-<!-- routes/questions/[slug]/+page.svelte -->
+<!-- src/routes/questions/[slug]/+page.svelte -->
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
 	import { onMount } from 'svelte';

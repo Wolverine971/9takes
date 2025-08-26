@@ -1,4 +1,4 @@
-// utils/crypto.ts
+// src/utils/crypto.ts
 import crypto from 'crypto';
 import { PRIVATE_SIGNUP_KEY } from '$env/static/private';
 

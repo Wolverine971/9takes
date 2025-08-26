@@ -1,4 +1,4 @@
-<!-- routes/email/+page.svelte -->
+<!-- src/routes/email/+page.svelte -->
 <script lang="ts">
 	import { joinEmail, joinEmail2, signupEmail, forgotPass, emailTemplate } from '../../emails';
 	import { notifications } from '$lib/components/molecules/notifications';

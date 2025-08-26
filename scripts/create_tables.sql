@@ -1,3 +1,4 @@
+-- scripts/create_tables.sql
 
 -- Create Subcategories table
 CREATE TABLE question_subcategories (

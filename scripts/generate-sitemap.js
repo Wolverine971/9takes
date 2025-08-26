@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+// scripts/generate-sitemap.js
 
 import fs from 'fs/promises';
 import path from 'path';

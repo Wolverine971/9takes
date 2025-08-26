@@ -1,4 +1,4 @@
-<!-- lib/components/atoms/SmallPopCard.svelte -->
+<!-- src/lib/components/atoms/SmallPopCard.svelte -->
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';

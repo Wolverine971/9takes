@@ -1,4 +1,4 @@
-<!-- lib/components/blog/EnneagramCTASidebar.svelte -->
+<!-- src/lib/components/blog/EnneagramCTASidebar.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';

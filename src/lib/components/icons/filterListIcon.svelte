@@ -1,4 +1,4 @@
-<!-- lib/components/icons/filterListIcon.svelte -->
+<!-- src/lib/components/icons/filterListIcon.svelte -->
 <script>
 	export let className = '';
 

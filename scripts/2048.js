@@ -1,4 +1,4 @@
-// create 2048
+// scripts/2048.js
 
 let gridCol = 4;
 let gridRow = 4;

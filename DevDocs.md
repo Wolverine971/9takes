@@ -12,8 +12,8 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "faces-of-depression.png" -o "faces-of-depression.webp"
-cwebp -sns 70 -f 50 -size 20000 "faces-of-depression.webp" -o "./s-faces-of-depression.webp"
+cwebp "type8-date.png" -o "type8-date.webp"
+cwebp -sns 70 -f 50 -size 20000 "type8-date.webp" -o "./s-type8-date.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

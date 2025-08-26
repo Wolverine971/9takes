@@ -1,4 +1,4 @@
-// routes/sitemap.xml/+server.ts
+// src/routes/sitemap.xml/+server.ts
 import fs from 'fs';
 
 export const GET = async () => {

@@ -1,4 +1,4 @@
-<!-- lib/components/map/controls/NavigationControl.svelte -->
+<!-- src/lib/components/map/controls/NavigationControl.svelte -->
 <script>
 	import { getContext } from 'svelte';
 	import { contextKey } from '$lib/components/map/mapbox';

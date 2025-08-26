@@ -1,4 +1,4 @@
-// routes/questions/create/+page.server.ts
+// src/routes/questions/create/+page.server.ts
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import {

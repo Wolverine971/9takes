@@ -1,4 +1,4 @@
-// routes/questions/[slug]/+layout.server.ts
+// src/routes/questions/[slug]/+layout.server.ts
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event) {

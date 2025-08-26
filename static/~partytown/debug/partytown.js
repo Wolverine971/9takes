@@ -1,4 +1,4 @@
-/* Partytown 0.8.1 - MIT builder.io */
+// static/~partytown/debug/partytown.js
 !function(win, doc, nav, top, useAtomics, config, libPath, timeout, scripts, sandbox, mainForwardFn, isReady) {
     function ready() {
         if (!isReady) {

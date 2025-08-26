@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/Interact.svelte -->
+<!-- src/lib/components/molecules/Interact.svelte -->
 <script lang="ts">
 	import { createEventDispatcher, onMount } from 'svelte';
 	import { deserialize } from '$app/forms';

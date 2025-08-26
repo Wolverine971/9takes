@@ -1,4 +1,4 @@
-<!-- lib/components/icons/settingsIcon.svelte -->
+<!-- src/lib/components/icons/settingsIcon.svelte -->
 <script>
 	export let className = '';
 

@@ -1,4 +1,4 @@
-// routes/community/+page.server.ts
+// src/routes/community/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 

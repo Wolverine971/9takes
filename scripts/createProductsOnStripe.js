@@ -1,3 +1,4 @@
+// scripts/createProductsOnStripe.js
 import Stripe from 'stripe';
 import dotenv from 'dotenv';
 import fs from 'fs';

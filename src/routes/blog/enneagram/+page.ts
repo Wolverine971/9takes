@@ -1,4 +1,4 @@
-// routes/blog/enneagram/+page.ts
+// src/routes/blog/enneagram/+page.ts
 import type { PageServerLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 

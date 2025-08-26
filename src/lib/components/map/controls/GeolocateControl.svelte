@@ -1,4 +1,4 @@
-<!-- lib/components/map/controls/GeolocateControl.svelte -->
+<!-- src/lib/components/map/controls/GeolocateControl.svelte -->
 <script>
 	import { getContext, onMount } from 'svelte';
 	import { contextKey } from '$lib/components/map/mapbox';

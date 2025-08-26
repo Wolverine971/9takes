@@ -1,1 +1,1 @@
-// routes/signup/+page.ts
+// src/routes/signup/+page.ts

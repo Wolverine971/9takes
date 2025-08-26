@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/SortComments.svelte -->
+<!-- src/lib/components/molecules/SortComments.svelte -->
 <script lang="ts">
 	import { fly, fade } from 'svelte/transition';
 	import { deserialize } from '$app/forms';

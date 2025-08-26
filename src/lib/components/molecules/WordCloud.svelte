@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/WordCloud.svelte -->
+<!-- src/lib/components/molecules/WordCloud.svelte -->
 <script>
 	import { onMount } from 'svelte';
 

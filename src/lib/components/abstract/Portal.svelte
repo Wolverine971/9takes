@@ -1,4 +1,4 @@
-<!-- lib/components/abstract/Portal.svelte -->
+<!-- src/lib/components/abstract/Portal.svelte -->
 <script lang="ts">
 	import { tick } from 'svelte';
 

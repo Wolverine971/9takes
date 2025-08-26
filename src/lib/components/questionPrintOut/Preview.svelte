@@ -1,4 +1,4 @@
-<!-- lib/components/questionPrintOut/Preview.svelte -->
+<!-- src/lib/components/questionPrintOut/Preview.svelte -->
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import type { Writable } from 'svelte/store';

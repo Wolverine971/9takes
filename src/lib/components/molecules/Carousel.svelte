@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/Carousel.svelte -->
+<!-- src/lib/components/molecules/Carousel.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';

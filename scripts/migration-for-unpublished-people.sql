@@ -1,4 +1,4 @@
--- Migration: Update metadata for unpublished famous people blogs
+-- scripts/migration-for-unpublished-people.sql
 -- Date: 2025-06-25
 
 --https://claude.ai/chat/3d9120f0-29f7-43b2-90e9-9899d204aab2

@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/Enneagram-Select.svelte -->
+<!-- src/lib/components/molecules/Enneagram-Select.svelte -->
 <script lang="ts">
 	import Enneagram from '$lib/components/icons/enneagram.svelte';
 	import { createEventDispatcher } from 'svelte';

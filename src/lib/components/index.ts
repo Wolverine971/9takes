@@ -1,4 +1,4 @@
-// lib/components/index.ts
+// src/lib/components/index.ts
 export * from './atoms';
 // export * from './layouts';
 export * from './molecules';

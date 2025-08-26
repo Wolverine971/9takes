@@ -1,4 +1,4 @@
--- Add comment_count column to questions table if it doesn't exist
+-- supabase/migrations/20250719_add_comment_count_column.sql
 DO $$
 BEGIN
   IF NOT EXISTS (

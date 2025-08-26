@@ -1,4 +1,4 @@
-// https://supabase.com/docs/guides/auth/auth-helpers/sveltekit
+// app.d.ts
 // https://supabase.com/blog/supabase-auth-helpers-with-sveltekit-support
 declare namespace App {
 	interface Supabase {

@@ -1,4 +1,4 @@
-<!-- lib/components/blog/BlogInteract.svelte -->
+<!-- src/lib/components/blog/BlogInteract.svelte -->
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';

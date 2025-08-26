@@ -1,3 +1,4 @@
+// mdsvex.config.js
 import { defineMDSveXConfig as defineConfig } from 'mdsvex';
 import path from 'path';
 import { fileURLToPath } from 'url';

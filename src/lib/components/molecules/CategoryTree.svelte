@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/CategoryTree.svelte -->
+<!-- src/lib/components/molecules/CategoryTree.svelte -->
 <script lang="ts">
 	import { A } from 'flowbite-svelte';
 	import { slide } from 'svelte/transition';

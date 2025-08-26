@@ -1,4 +1,4 @@
-<!-- lib/components/blog/EnneagramCategoryIntro.svelte -->
+<!-- src/lib/components/blog/EnneagramCategoryIntro.svelte -->
 <script lang="ts">
 	import BlogPageHead from './BlogPageHead.svelte';
 

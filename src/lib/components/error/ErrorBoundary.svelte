@@ -1,4 +1,4 @@
-<!-- lib/components/error/ErrorBoundary.svelte -->
+<!-- src/lib/components/error/ErrorBoundary.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';

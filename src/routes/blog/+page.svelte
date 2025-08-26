@@ -1,4 +1,4 @@
-<!-- routes/blog/+page.svelte -->
+<!-- src/routes/blog/+page.svelte -->
 <script lang="ts">
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import BlogTiles from '$lib/components/molecules/BlogTiles.svelte';

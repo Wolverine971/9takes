@@ -1,4 +1,4 @@
-// routes/how-to-guides/+page.server.ts
+// src/routes/how-to-guides/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 

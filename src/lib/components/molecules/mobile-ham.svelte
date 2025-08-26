@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/mobile-ham.svelte -->
+<!-- src/lib/components/molecules/mobile-ham.svelte -->
 <script lang="ts">
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 

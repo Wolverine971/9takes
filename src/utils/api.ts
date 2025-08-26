@@ -1,4 +1,4 @@
-// utils/api.ts
+// src/utils/api.ts
 import { supabase } from '$lib/supabase';
 
 export const checkDemoTime = async () => {

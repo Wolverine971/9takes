@@ -1,3 +1,4 @@
+// src/routes/enneagram-corner/mental-health/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { getMentalHealthPosts } from '$lib/utils/blog';
 

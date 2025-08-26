@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/Comment.svelte -->
+<!-- src/lib/components/molecules/Comment.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { createEventDispatcher, onMount } from 'svelte';

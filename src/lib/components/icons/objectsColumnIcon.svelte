@@ -1,4 +1,4 @@
-<!-- lib/components/icons/objectsColumnIcon.svelte -->
+<!-- src/lib/components/icons/objectsColumnIcon.svelte -->
 <script>
 	export let className = '';
 

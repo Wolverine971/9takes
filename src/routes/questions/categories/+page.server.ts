@@ -1,4 +1,4 @@
-// routes/questions/categories/+page.server.ts
+// src/routes/questions/categories/+page.server.ts
 import { error } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 

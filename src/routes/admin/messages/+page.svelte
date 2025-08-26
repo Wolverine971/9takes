@@ -1,4 +1,4 @@
-<!-- routes/admin/messages/+page.svelte -->
+<!-- src/routes/admin/messages/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { onMount, onDestroy } from 'svelte';

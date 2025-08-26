@@ -1,4 +1,4 @@
-// routes/book-session/+page.server.ts
+// src/routes/book-session/+page.server.ts
 import { fail, redirect } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 import type { Actions } from './$types';

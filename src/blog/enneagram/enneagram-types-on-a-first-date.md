@@ -414,9 +414,9 @@ Beneath their calm exterior, Type 5s feel:
 ## Type 6: The Loyalist - Cautiously Optimistic
 
 <div class="type-intro">
-    <!-- <div class="type-image">
+    <div class="type-image">
         <img loading="lazy" src="/blogs/type6-date.webp" alt="Type 6 on a date" />
-    </div> -->
+    </div>
     <div class="type-quotes">
         <blockquote>"I told my roommate where I'd be, just as a safety precaution. Hope that doesn't sound weird!"</blockquote>
         <blockquote>"I love how this café is busy enough to feel safe but quiet enough that we can actually talk."</blockquote>
@@ -548,9 +548,9 @@ Type 7s approach dates with:
 ## Type 8: The Challenger - Testing for Authenticity
 
 <div class="type-intro">
-    <!-- <div class="type-image">
+    <div class="type-image">
         <img loading="lazy" src="/blogs/type8-date.webp" alt="Type 8 on a date" />
-    </div> -->
+    </div>
     <div class="type-quotes">
         <blockquote>"I appreciate someone who can tell me directly what they want. Games are a waste of everyone's time."</blockquote>
         <blockquote>"Let's skip the small talk. What are you passionate about that would make you fight for it?"</blockquote>

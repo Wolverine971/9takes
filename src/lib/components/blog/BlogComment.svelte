@@ -1,4 +1,4 @@
-<!-- lib/components/blog/BlogComment.svelte -->
+<!-- src/lib/components/blog/BlogComment.svelte -->
 
 <script lang="ts">
 	import Card from '$lib/components/atoms/card.svelte';

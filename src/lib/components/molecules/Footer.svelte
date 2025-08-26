@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/Footer.svelte -->
+<!-- src/lib/components/molecules/Footer.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
 	import instagram from '$lib/images/instagram.svg';

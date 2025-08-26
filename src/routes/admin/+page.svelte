@@ -1,4 +1,4 @@
-<!-- routes/admin/+page.svelte -->
+<!-- src/routes/admin/+page.svelte -->
 <script lang="ts">
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';

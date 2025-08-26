@@ -1,4 +1,4 @@
-<!-- routes/stories/enneagram-and-mental-illness/+page.svelte -->
+<!-- src/routes/stories/enneagram-and-mental-illness/+page.svelte -->
 <!DOCTYPE html>
 <html amp lang="en">
 	<head>

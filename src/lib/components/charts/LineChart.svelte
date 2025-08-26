@@ -1,4 +1,4 @@
-<!-- lib/components/charts/LineChart.svelte -->
+<!-- src/lib/components/charts/LineChart.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import * as d3 from 'd3';

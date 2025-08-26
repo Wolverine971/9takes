@@ -1,3 +1,4 @@
+# scripts/findMissingPurpose.py
 import os
 
 def find_files_missing_blogpurpose(directory):

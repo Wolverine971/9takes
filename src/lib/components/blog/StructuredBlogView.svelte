@@ -1,4 +1,4 @@
-<!-- lib/components/blog/StructuredBlogView.svelte -->
+<!-- src/lib/components/blog/StructuredBlogView.svelte -->
 <section>
 	<h2>Enneagram explained</h2>
 	<div>

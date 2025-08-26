@@ -1,4 +1,4 @@
-<!-- lib/components/questions/QuestionItemWrapper.svelte -->
+<!-- src/lib/components/questions/QuestionItemWrapper.svelte -->
 <script lang="ts">
 	import QuestionItem from './QuestionItem.svelte';
 	import { createEventDispatcher } from 'svelte';

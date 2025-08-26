@@ -1,4 +1,4 @@
-<!-- routes/admin/+layout.svelte -->
+<!-- src/routes/admin/+layout.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
 	import type { LayoutData } from './$types';

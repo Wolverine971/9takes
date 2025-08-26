@@ -1,4 +1,4 @@
-<!-- lib/components/blog/ArticleDescription.svelte -->
+<!-- src/lib/components/blog/ArticleDescription.svelte -->
 <script lang="ts">
 	export let description: string;
 	export let slug = '';

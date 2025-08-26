@@ -1,4 +1,4 @@
-<!-- routes/enneagram-corner/+page.svelte -->
+<!-- src/routes/enneagram-corner/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
@@ -34,6 +34,13 @@
 			subtitle: 'Why you sabotage love the same way every time',
 			type: 'relationships',
 			linkTitle: 'Relationship Dynamics'
+		},
+		{
+			id: 'mental-health',
+			title: '🧠 Mental Health: Type-Specific Healing',
+			subtitle: 'Understand your unique vulnerabilities and build resilience that actually works',
+			type: 'mental-health',
+			linkTitle: 'Mental Health Hub'
 		},
 		{
 			id: 'workplace',
@@ -102,20 +109,27 @@
 					{
 						"@type": "ListItem",
 						"position": 5,
+						"name": "Enneagram and Mental Health",
+						"description": "Type-specific mental health resources, therapy guides, and healing strategies tailored to each Enneagram type",
+						"url": "https://9takes.com/enneagram-corner#mental-health"
+					},
+					{
+						"@type": "ListItem",
+						"position": 6,
 						"name": "Enneagram in the Workplace",
 						"description": "Discover how Enneagram knowledge can improve workplace dynamics and productivity",
 						"url": "https://9takes.com/enneagram-corner#workplace"
 					},
 					{
 						"@type": "ListItem",
-						"position": 6,
+						"position": 7,
 						"name": "Enneagram Resources",
 						"description": "Curated collection of Enneagram books, tools, and other resources",
 						"url": "https://9takes.com/enneagram-corner#resources"
 					},
 					{
 						"@type": "ListItem",
-						"position": 7,
+						"position": 8,
 						"name": "Enneagram Situational Topics",
 						"description": "Explore how Enneagram types respond in various life situations",
 						"url": "https://9takes.com/enneagram-corner#situations"
@@ -235,7 +249,7 @@
 				{/each}
 				{#if section.type !== 'nine-types'}
 					<div class="grid-item view-all">
-						<a href="/enneagram-corner/subtopic/{section.type}" class="blog-link">
+						<a href="/enneagram-corner/{section.type === 'mental-health' ? 'mental-health' : `subtopic/${section.type}`}" class="blog-link">
 							<div class="grid-item-content">
 								<div class="text-overlay">
 									<h3>

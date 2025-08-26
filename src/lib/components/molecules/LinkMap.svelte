@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/LinkMap.svelte -->
+<!-- src/lib/components/molecules/LinkMap.svelte -->
 <script lang="ts">
 	import { PUBLIC_MAPBOX_TOKEN } from '$env/static/public';
 	import { Map, Geocoder, Marker, controls } from '$lib/components/map/components';

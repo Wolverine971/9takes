@@ -1,4 +1,4 @@
-<!-- routes/admin/questions/hierarchy/+page.svelte -->
+<!-- src/routes/admin/questions/hierarchy/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import CategoryItem from '$lib/components/molecules/CategoryItem.svelte';

@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+// scripts/generate-types.js
 
 import { exec } from 'child_process';
 import { promises as fs } from 'fs';

@@ -1,4 +1,4 @@
-<!-- lib/components/atoms/MarqueeHorizontal.svelte -->
+<!-- src/lib/components/atoms/MarqueeHorizontal.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 

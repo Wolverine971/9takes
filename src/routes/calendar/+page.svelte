@@ -1,4 +1,4 @@
-<!-- routes/calendar/+page.svelte -->
+<!-- src/routes/calendar/+page.svelte -->
 <script lang="ts">
 	import { dev } from '$app/environment';
 </script>

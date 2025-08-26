@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/Context.svelte -->
+<!-- src/lib/components/molecules/Context.svelte -->
 <script context="module">
 	let id = 1;
 

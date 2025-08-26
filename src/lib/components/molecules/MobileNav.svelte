@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/MobileNav.svelte -->
+<!-- src/lib/components/molecules/MobileNav.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { afterNavigate } from '$app/navigation';

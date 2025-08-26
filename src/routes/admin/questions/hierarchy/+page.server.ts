@@ -1,4 +1,4 @@
-// routes/admin/questions/hierarchy/+page.server.ts
+// src/routes/admin/questions/hierarchy/+page.server.ts
 import { supabase } from '$lib/supabase';
 import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';

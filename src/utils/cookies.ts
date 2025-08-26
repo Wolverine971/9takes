@@ -1,4 +1,4 @@
-// utils/cookies.ts
+// src/utils/cookies.ts
 export const setCookie = (name, value, days) => {
 	let expires = '';
 	if (days) {

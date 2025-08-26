@@ -1,4 +1,4 @@
-/* Partytown 0.8.1 - MIT builder.io */
+// static/~partytown/debug/partytown-atomics.js
 (window => {
     const isPromise = v => "object" == typeof v && v && v.then;
     const noop = () => {};

@@ -1,4 +1,4 @@
-<!-- lib/components/icons/searchIcon.svelte -->
+<!-- src/lib/components/icons/searchIcon.svelte -->
 <script>
 	export let className = '';
 

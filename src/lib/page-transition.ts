@@ -1,4 +1,4 @@
-// lib/page-transition.ts
+// src/lib/page-transition.ts
 import { onNavigate } from '$app/navigation';
 
 export const preparePageTransition = () => {

@@ -1,3 +1,4 @@
+<!-- src/routes/enneagram-corner/mental-health/+page.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
 	import type { PageData } from './$types';
@@ -12,9 +13,9 @@
 			description: 'Essential resources for understanding mental health through the Enneagram lens',
 			blogs: data.mentalHealthBlogs.filter(
 				(blog) =>
-					blog.loc.includes('enneagram-and-mental-illness') ||
-					blog.loc.includes('enneagram-anxiety-complete-guide') ||
-					blog.loc.includes('enneagram-therapy-guide')
+					blog.slug?.includes('enneagram-and-mental-illness') ||
+					blog.slug?.includes('enneagram-anxiety-complete-guide') ||
+					blog.slug?.includes('enneagram-therapy-guide')
 			)
 		},
 		{
@@ -22,8 +23,8 @@
 			description: 'Resources for healing, crisis management, and building resilience',
 			blogs: data.mentalHealthBlogs.filter(
 				(blog) =>
-					blog.loc.includes('enneagram-trauma-response-guide') ||
-					blog.loc.includes('enneagram-crisis-management-guide')
+					blog.slug?.includes('enneagram-trauma-response-guide') ||
+					blog.slug?.includes('enneagram-crisis-management-guide')
 			)
 		},
 		{
@@ -31,9 +32,9 @@
 			description: 'In-depth guides on specific mental health areas',
 			blogs: data.mentalHealthBlogs.filter(
 				(blog) =>
-					blog.loc.includes('enneagram-addiction-recovery-guide') ||
-					blog.loc.includes('enneagram-neurodivergence-guide') ||
-					blog.loc.includes('enneagram-medication-mental-health')
+					blog.slug?.includes('enneagram-addiction-recovery-guide') ||
+					blog.slug?.includes('enneagram-neurodivergence-guide') ||
+					blog.slug?.includes('enneagram-medication-mental-health')
 			)
 		},
 		{
@@ -41,15 +42,15 @@
 			description: 'Mental health across different life contexts',
 			blogs: data.mentalHealthBlogs.filter(
 				(blog) =>
-					blog.loc.includes('enneagram-parenting-mental-health') ||
-					blog.loc.includes('enneagram-workplace-mental-health')
+					blog.slug?.includes('enneagram-parenting-mental-health') ||
+					blog.slug?.includes('enneagram-workplace-mental-health')
 			)
 		},
 		{
 			title: 'Research & Science',
 			description: 'Evidence-based insights and scientific findings',
 			blogs: data.mentalHealthBlogs.filter((blog) =>
-				blog.loc.includes('enneagram-science-mental-health')
+				blog.slug?.includes('enneagram-science-mental-health')
 			)
 		}
 	];
@@ -138,7 +139,7 @@
 			<div class="blog-grid">
 				{#each category.blogs as blog}
 					<article class="blog-card">
-						<a href={blog.loc}>
+						<a href="/enneagram-corner/mental-health/{blog.slug}">
 							<h3>{blog.title}</h3>
 							<p>{blog.description}</p>
 							<span class="read-more">Read Guide →</span>
@@ -256,8 +257,8 @@
 			Understanding your Enneagram type is the first step toward personalized mental health care.
 		</p>
 		<div class="cta-buttons">
-			<a href="/enneagram-corner/enneagram-and-mental-illness" class="btn btn-primary">
-				Read Our Most Popular Guide
+			<a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide" class="btn btn-primary">
+				Read Our Anxiety Guide
 			</a>
 			<a href="/enneagram-test" class="btn btn-secondary"> Discover Your Type </a>
 		</div>

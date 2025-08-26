@@ -1,4 +1,4 @@
-<!-- routes/testRoute/+page.svelte -->
+<!-- src/routes/testRoute/+page.svelte -->
 <script lang="ts">
 </script>
 

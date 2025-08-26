@@ -1,4 +1,4 @@
-<!-- lib/components/icons/thumbsUpIcon.svelte -->
+<!-- src/lib/components/icons/thumbsUpIcon.svelte -->
 <script>
 	export let className = '';
 

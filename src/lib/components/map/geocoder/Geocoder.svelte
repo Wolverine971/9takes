@@ -1,4 +1,4 @@
-<!-- lib/components/map/geocoder/Geocoder.svelte -->
+<!-- src/lib/components/map/geocoder/Geocoder.svelte -->
 <script>
 	import { createEventDispatcher } from 'svelte';
 	import action from '$lib/components/map/geocoder/geocoder-action';

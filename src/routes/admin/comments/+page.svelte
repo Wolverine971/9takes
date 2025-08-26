@@ -1,4 +1,4 @@
-<!-- routes/admin/comments/+page.svelte -->
+<!-- src/routes/admin/comments/+page.svelte -->
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
 	import type { PageData } from './$types';

@@ -1,4 +1,4 @@
-// routes/personality-analysis/+page.server.ts
+// src/routes/personality-analysis/+page.server.ts
 import { supabase } from '$lib/supabase';
 
 import type { Actions } from './$types';

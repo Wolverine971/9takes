@@ -1,4 +1,4 @@
-<!-- routes/blog/enneagram/subtopic/[slug]/+page.svelte -->
+<!-- src/routes/blog/enneagram/subtopic/[slug]/+page.svelte -->
 <script lang="ts">
 	import EnneagramCategoryIntro from '$lib/components/blog/EnneagramCategoryIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';

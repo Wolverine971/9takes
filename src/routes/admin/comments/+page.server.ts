@@ -1,4 +1,4 @@
-// routes/admin/comments/+page.server.ts
+// src/routes/admin/comments/+page.server.ts
 import { Actions, error, redirect, type } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 import { logger } from '$lib/utils/logger';

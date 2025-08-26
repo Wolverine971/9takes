@@ -1,3 +1,4 @@
+# scripts/resize.sh
 
 #!/bin/bash
 

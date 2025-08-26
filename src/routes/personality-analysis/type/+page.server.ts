@@ -1,4 +1,4 @@
-// routes/personality-analysis/type/+page.server.ts
+// src/routes/personality-analysis/type/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { redirect } from '@sveltejs/kit';
 

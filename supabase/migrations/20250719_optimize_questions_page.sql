@@ -1,4 +1,4 @@
--- Optimized function to get questions page data with pagination
+-- supabase/migrations/20250719_optimize_questions_page.sql
 CREATE OR REPLACE FUNCTION get_questions_page_data(
   p_user_id UUID DEFAULT NULL,
   p_limit INTEGER DEFAULT 20,

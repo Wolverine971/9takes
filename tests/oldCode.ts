@@ -1,3 +1,4 @@
+// tests/oldCode.ts
 const jsonldString = {
 	'@context': 'http://schema.org',
 	'@type': 'SiteNavigationElement',

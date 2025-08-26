@@ -1,4 +1,4 @@
-// routes/blog/experiment/+page.server.ts
+// src/routes/blog/experiment/+page.server.ts
 import type { Actions, RequestHandler } from '@sveltejs/kit';
 import { json } from '@sveltejs/kit';
 // import { supabase } from '$lib/supabase';

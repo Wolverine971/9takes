@@ -1,4 +1,4 @@
-<!-- lib/components/atoms/LoadingButton.svelte -->
+<!-- src/lib/components/atoms/LoadingButton.svelte -->
 <script lang="ts">
 	import Spinner from './Spinner.svelte';
 

@@ -1,4 +1,4 @@
-<!-- lib/components/error/AsyncErrorHandler.svelte -->
+<!-- src/lib/components/error/AsyncErrorHandler.svelte -->
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 

@@ -1,4 +1,4 @@
-<!-- lib/components/atoms/SkeletonLoader.svelte -->
+<!-- src/lib/components/atoms/SkeletonLoader.svelte -->
 <script lang="ts">
 	/**
 	 * Skeleton loader component for showing loading placeholders

@@ -1,4 +1,4 @@
-// utils/elasticSearch.ts
+// src/utils/elasticSearch.ts
 export const typeaheadQuery = ({
 	index,
 	field,

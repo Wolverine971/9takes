@@ -1,4 +1,4 @@
-<!-- lib/components/questions/AdminQuestionItem.svelte -->
+<!-- src/lib/components/questions/AdminQuestionItem.svelte -->
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import { deserialize } from '$app/forms';

@@ -1,4 +1,4 @@
-<!-- lib/components/blog/Article.svelte -->
+<!-- src/lib/components/blog/Article.svelte -->
 <article>
 	<slot />
 </article>

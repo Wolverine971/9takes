@@ -1,4 +1,4 @@
-// routes/rss.xml/+server.ts
+// src/routes/rss.xml/+server.ts
 import { getPosts } from '$lib/getPosts';
 
 const name = '9takes';

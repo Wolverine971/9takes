@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/QuestionSearch.svelte -->
+<!-- src/lib/components/molecules/QuestionSearch.svelte -->
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 

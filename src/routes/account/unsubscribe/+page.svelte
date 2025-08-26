@@ -1,4 +1,4 @@
-<!-- routes/account/unsubscribe/+page.svelte -->
+<!-- src/routes/account/unsubscribe/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { convertDateToReadable } from '../../../utils/conversions';

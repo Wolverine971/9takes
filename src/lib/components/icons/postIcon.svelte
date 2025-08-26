@@ -1,4 +1,4 @@
-<!-- lib/components/icons/postIcon.svelte -->
+<!-- src/lib/components/icons/postIcon.svelte -->
 <script>
 	export let className = '';
 

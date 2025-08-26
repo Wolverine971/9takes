@@ -1,4 +1,4 @@
-<!-- routes/blog/+layout.svelte -->
+<!-- src/routes/blog/+layout.svelte -->
 <script lang="ts">
 	import '../../app.scss';
 </script>

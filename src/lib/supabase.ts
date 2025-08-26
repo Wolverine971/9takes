@@ -1,4 +1,4 @@
-// lib/supabase.ts
+// src/lib/supabase.ts
 import { createBrowserClient } from '@supabase/ssr';
 import type { Database } from '../../database.types';
 

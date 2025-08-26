@@ -1,4 +1,4 @@
-// utils/openai.ts
+// src/utils/openai.ts
 import { PRIVATE_AI_API_KEY } from '$env/static/private';
 import { supabase } from '$lib/supabase';
 import OpenAI from 'openai';

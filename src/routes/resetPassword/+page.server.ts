@@ -1,4 +1,4 @@
-// routes/resetPassword/+page.server.ts
+// src/routes/resetPassword/+page.server.ts
 import { Actions, fail, redirect, type } from '@sveltejs/kit';
 
 import type { PageServerLoad } from './$types';

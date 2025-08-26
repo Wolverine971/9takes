@@ -1,4 +1,4 @@
-// lib/components/map/queue.ts
+// src/lib/components/map/queue.ts
 import { writable } from 'svelte/store';
 
 export class EventQueue {

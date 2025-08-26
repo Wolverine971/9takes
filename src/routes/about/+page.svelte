@@ -1,4 +1,4 @@
-<!-- routes/about/+page.svelte -->
+<!-- src/routes/about/+page.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import twitter from '$lib/images/twitter.svg';

@@ -1,4 +1,4 @@
-// emails/BookSessionEmail.ts
+// src/emails/BookSessionEmail.ts
 import { EmailHead } from './EmailHead';
 
 const from = '9takes Team';

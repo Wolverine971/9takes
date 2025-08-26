@@ -1,1 +1,1 @@
-// routes/blog/topical/+server.ts
+// src/routes/blog/topical/+server.ts

@@ -1,4 +1,4 @@
-<!-- lib/components/questions/QuestionItemSkeleton.svelte -->
+<!-- src/lib/components/questions/QuestionItemSkeleton.svelte -->
 <script lang="ts">
 	import Skeleton from '$lib/components/atoms/Skeleton.svelte';
 </script>

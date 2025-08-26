@@ -1,4 +1,4 @@
-<!-- lib/components/questions/QuestionContent.svelte -->
+<!-- src/lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
 	import { fade } from 'svelte/transition';
 	import { createEventDispatcher } from 'svelte';

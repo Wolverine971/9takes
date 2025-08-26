@@ -1,3 +1,4 @@
+// src/routes/api/adder/+server.ts
 import { error, json } from '@sveltejs/kit';
 import { dev } from '$app/environment';
 // routes/api/adder/+server.ts

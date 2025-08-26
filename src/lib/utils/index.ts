@@ -1,3 +1,3 @@
-// lib/utils/index.ts
+// src/lib/utils/index.ts
 export * from './clickOutside';
 export * from './blog';

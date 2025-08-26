@@ -1,4 +1,4 @@
-<!-- lib/components/marketing/ContentEditor.svelte -->
+<!-- src/lib/components/marketing/ContentEditor.svelte -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import {

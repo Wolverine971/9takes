@@ -1,4 +1,4 @@
-<!-- lib/components/blog/SuggestionsBlog.svelte -->
+<!-- src/lib/components/blog/SuggestionsBlog.svelte -->
 <script lang="ts">
 	export let posts: App.BlogPost[];
 	export let blogType: string;

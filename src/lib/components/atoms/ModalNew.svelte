@@ -1,4 +1,4 @@
-<!-- lib/components/atoms/ModalNew.svelte -->
+<!-- src/lib/components/atoms/ModalNew.svelte -->
 <script lang="ts">
 	import { createEventDispatcher, onDestroy } from 'svelte';
 	import { fade, scale } from 'svelte/transition';

@@ -1,4 +1,4 @@
-<!-- routes/content-board/+page.svelte -->
+<!-- src/routes/admin/content-board/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { fade, slide } from 'svelte/transition';

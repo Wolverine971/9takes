@@ -1,4 +1,4 @@
-// lib/utils/blog.ts
+// src/lib/utils/blog.ts
 import { slugFromPath } from '../slugFromPath';
 
 function addLeadingZero(num: number): string {

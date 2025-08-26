@@ -1,4 +1,4 @@
-<!-- lib/components/blog/BlogPurpose.svelte -->
+<!-- src/lib/components/blog/BlogPurpose.svelte -->
 <script>
 	import { page } from '$app/stores';
 	import EnneagramDiagram from './EnneagramDiagram.svelte';

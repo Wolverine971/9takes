@@ -1,4 +1,4 @@
-<!-- routes/admin/users/+page.svelte -->
+<!-- src/routes/admin/users/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';

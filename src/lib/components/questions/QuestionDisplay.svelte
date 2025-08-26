@@ -1,4 +1,4 @@
-<!-- lib/components/questions/QuestionDisplay.svelte -->
+<!-- src/lib/components/questions/QuestionDisplay.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import QRCode from 'qrcode';

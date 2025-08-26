@@ -1,4 +1,4 @@
-// routes/users/[externalId]/+page.server.ts
+// src/routes/users/[externalId]/+page.server.ts
 import { error } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 

@@ -1,4 +1,4 @@
-<!-- lib/components/atoms/Skeleton.svelte -->
+<!-- src/lib/components/atoms/Skeleton.svelte -->
 <script lang="ts">
 	export let width = '100%';
 	export let height = '20px';

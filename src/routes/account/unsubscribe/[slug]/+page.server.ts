@@ -1,4 +1,4 @@
-// routes/account/unsubscribe/[slug]/+page.server.ts
+// src/routes/account/unsubscribe/[slug]/+page.server.ts
 import { error, redirect } from '@sveltejs/kit';
 
 import type { Actions } from '@sveltejs/kit';

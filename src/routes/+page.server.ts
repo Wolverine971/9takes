@@ -1,4 +1,4 @@
-// routes/+page.server.ts
+// src/routes/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { famousTypes } from '$lib/components/molecules/famousTypes'; // adjust path as needed
 import { error } from '@sveltejs/kit';

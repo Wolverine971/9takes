@@ -1,4 +1,4 @@
-// routes/blog/+layout.server.ts
+// src/routes/blog/+layout.server.ts
 
 // /** @type {import('./$types').PageLoad} */
 // export async function load({

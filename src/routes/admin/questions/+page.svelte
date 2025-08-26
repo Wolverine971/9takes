@@ -1,4 +1,4 @@
-<!-- routes/admin/questions/+page.svelte -->
+<!-- src/routes/admin/questions/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import AdminQuestionItem from '$lib/components/questions/AdminQuestionItem.svelte';

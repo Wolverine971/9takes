@@ -1,4 +1,4 @@
-// hooks.server.ts
+// src/hooks.server.ts
 import { createServerClient } from '@supabase/ssr';
 import { PUBLIC_SUPABASE_PUBLISHABLE_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
 import type { Database } from '../database.types';

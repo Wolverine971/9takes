@@ -1,4 +1,4 @@
-<!-- routes/questionPrint/+page.svelte -->
+<!-- src/routes/questionPrint/+page.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import QRCode from 'qrcode';

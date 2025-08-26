@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/rubixDisplay2.svelte -->
+<!-- src/lib/components/molecules/rubixDisplay2.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';

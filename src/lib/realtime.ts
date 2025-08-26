@@ -1,4 +1,4 @@
-// lib/realtime.ts
+// src/lib/realtime.ts
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { RealtimeChannel } from '@supabase/supabase-js';
 

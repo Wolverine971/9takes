@@ -1,4 +1,4 @@
-<!-- lib/components/blog/PeopleSuggestionsSideBar.svelte -->
+<!-- src/lib/components/blog/PeopleSuggestionsSideBar.svelte -->
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
 	import { fly } from 'svelte/transition';

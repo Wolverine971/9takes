@@ -1,3 +1,4 @@
+// src/lib/utils/logger.ts
 import { dev } from '$app/environment';
 
 export enum LogLevel {

@@ -1,4 +1,4 @@
-// routes/stripe/webhook.ts
+// src/routes/stripe/webhook.ts
 import type { RequestEvent, RequestHandler } from '@sveltejs/kit';
 import stripe from './_stripe';
 

@@ -1,4 +1,4 @@
-<!-- lib/components/icons/enneagram.svelte -->
+<!-- src/lib/components/icons/enneagram.svelte -->
 <script>
 	export let className = '';
 

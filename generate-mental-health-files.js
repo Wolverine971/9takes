@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+// generate-mental-health-files.js
 
 /**
  * Script to generate social media and meta files for all mental health blogs

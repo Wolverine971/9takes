@@ -1,1 +1,1 @@
-<!-- routes/blog/topical/+page.svelte -->
+<!-- src/routes/blog/topical/+page.svelte -->

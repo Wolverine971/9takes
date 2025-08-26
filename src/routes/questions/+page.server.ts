@@ -1,4 +1,4 @@
-// routes/questions/+page.server.ts
+// src/routes/questions/+page.server.ts
 import { error } from '@sveltejs/kit';
 import { deleteESQuestion, elasticClient } from '$lib/elasticSearch';
 import { supabase } from '$lib/supabase';

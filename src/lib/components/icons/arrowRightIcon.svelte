@@ -1,4 +1,4 @@
-<!-- lib/components/icons/arrowRightIcon.svelte -->
+<!-- src/lib/components/icons/arrowRightIcon.svelte -->
 <script>
 	export let className = '';
 

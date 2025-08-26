@@ -1,4 +1,4 @@
-/* Partytown 0.8.1 - MIT builder.io */
+// static/~partytown/debug/partytown-ww-sw.js
 (self => {
     const WinIdKey = Symbol();
     const InstanceIdKey = Symbol();

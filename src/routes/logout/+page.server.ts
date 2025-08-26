@@ -1,4 +1,4 @@
-// routes/logout/+page.server.ts
+// src/routes/logout/+page.server.ts
 import { redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 

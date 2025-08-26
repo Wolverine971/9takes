@@ -1,4 +1,4 @@
-<!-- lib/components/blog/layout.svelte -->
+<!-- src/lib/components/blog/layout.svelte -->
 <slot />
 
 <!-- </section> -->

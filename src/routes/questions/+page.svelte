@@ -1,4 +1,4 @@
-<!-- routes/questions/+page.svelte -->
+<!-- src/routes/questions/+page.svelte -->
 <script lang="ts">
 	import { fade, fly } from 'svelte/transition';
 	import { goto, invalidateAll } from '$app/navigation';

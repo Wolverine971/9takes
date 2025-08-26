@@ -1,4 +1,4 @@
-<!-- lib/components/blog/BlogPageHead.svelte -->
+<!-- src/lib/components/blog/BlogPageHead.svelte -->
 <script lang="ts">
 	export let data: App.BlogPost;
 	export let slug: string;

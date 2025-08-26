@@ -1,3 +1,4 @@
+# static/rename.py
 import os
 
 # Set the directory path

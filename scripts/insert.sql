@@ -1,3 +1,4 @@
+-- scripts/insert.sql
 INSERT INTO tag (name, description, category_id) VALUES 
 ('Politics', 'Opinions on political parties, candidates, policies, current events.', 1),
 ('International Relations', 'Views on foreign policies, global issues.', 1),

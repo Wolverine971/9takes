@@ -1,4 +1,4 @@
-<!-- routes/blog/famous-enneagram-types/type/[slug]/+page.svelte -->
+<!-- src/routes/blog/famous-enneagram-types/type/[slug]/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';

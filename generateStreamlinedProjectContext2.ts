@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+// generateStreamlinedProjectContext2.ts
 /**
  * generateProjectContext.ts - Comprehensive SvelteKit Context Generator
  * Captures all architectural relationships and business logic

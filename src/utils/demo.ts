@@ -1,4 +1,4 @@
-// utils/demo.ts
+// src/utils/demo.ts
 type DemoValue = Record<string, unknown>;
 
 export const mapDemoValues = (

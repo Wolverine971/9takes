@@ -1,4 +1,4 @@
-// routes/forgotPassword/+page.server.ts
+// src/routes/forgotPassword/+page.server.ts
 import { AuthApiError } from '@supabase/supabase-js';
 import { Actions, fail, redirect, type } from '@sveltejs/kit';
 

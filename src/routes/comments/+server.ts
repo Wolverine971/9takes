@@ -1,4 +1,4 @@
-// routes/comments/+server.ts
+// src/routes/comments/+server.ts
 import { error, json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 import { logger, withApiLogging } from '$lib/utils/logger';

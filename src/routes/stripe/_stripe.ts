@@ -1,4 +1,4 @@
-// routes/stripe/_stripe.ts
+// src/routes/stripe/_stripe.ts
 import Stripe from 'stripe';
 import * as dotenv from 'dotenv';
 

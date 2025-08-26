@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/PeopleBoard.svelte -->
+<!-- src/lib/components/molecules/PeopleBoard.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { famousTypes } from './famousTypes'; // adjust path as needed

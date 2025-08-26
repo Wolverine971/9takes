@@ -1,4 +1,4 @@
-<!-- lib/components/molecules/Toast.svelte -->
+<!-- src/lib/components/molecules/Toast.svelte -->
 <script>
 	import { flip } from 'svelte/animate';
 	import { fly } from 'svelte/transition';

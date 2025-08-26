@@ -1,4 +1,4 @@
-// routes/questions/[slug]/+page.server.ts
+// src/routes/questions/[slug]/+page.server.ts
 import { supabase } from '$lib/supabase';
 
 import type { Actions } from './$types';

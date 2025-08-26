@@ -1,4 +1,4 @@
-<!-- routes/login/+layout.svelte -->
+<!-- src/routes/login/+layout.svelte -->
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
 	import { supabase } from '$lib/supabase';

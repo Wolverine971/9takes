@@ -1,4 +1,4 @@
-<!-- routes/account/+page.svelte -->
+<!-- src/routes/account/+page.svelte -->
 <script lang="ts">
 	import { supabase } from '$lib/supabase';
 	import type { PageData } from './$types';

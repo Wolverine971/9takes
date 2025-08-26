@@ -1,4 +1,4 @@
-// routes/stripe/checkout-session.ts
+// src/routes/stripe/checkout-session.ts
 import type { RequestEvent, RequestHandler } from '@sveltejs/kit';
 import stripe from './_stripe';
 

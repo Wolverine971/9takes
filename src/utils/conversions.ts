@@ -1,4 +1,4 @@
-// utils/conversions.ts
+// src/utils/conversions.ts
 import { supabase } from '$lib/supabase';
 
 export const convertDateToReadable = (date: string): string => {

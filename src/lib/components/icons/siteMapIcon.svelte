@@ -1,4 +1,4 @@
-<!-- lib/components/icons/siteMapIcon.svelte -->
+<!-- src/lib/components/icons/siteMapIcon.svelte -->
 <script>
 	export let className = '';
 
