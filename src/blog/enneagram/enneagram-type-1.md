@@ -16,6 +16,7 @@ pic: ''
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">The child makes a mistake. Small. Forgettable. But the reaction is swift and disproportionate. Disappointment clouds the parent's face. Words cut deeper than intended: "You should know better." "This isn't good enough." "What's wrong with you?"</p>
@@ -37,6 +38,8 @@ Every action goes on trial. Did I respond to that email quickly enough? (Prosecu
 The verdict is always the same: not quite.
 
 This isn't narcissism or neurosis. It's moral vigilance. Type 1s genuinely believe that without constant self-monitoring, they might drift into the corruption they fear lives at their core. Every small imperfection feels like evidence of this hidden flaw trying to surface.
+
+**Wing Influences:** Type 1s are influenced by their neighboring types. With a <a href="/blog/enneagram/enneagram-type-9">Type 9 wing (1w9)</a>, they become more idealistic and withdrawn, seeking internal peace. With a <a href="/blog/enneagram/enneagram-type-2">Type 2 wing (1w2)</a>, they become more interpersonal and teaching-oriented, wanting to help others improve.
 
 ### The Anger They Can't Feel
 
@@ -98,7 +101,7 @@ But perpetual perfection casts dark shadows:
 
 ## When Standards Shatter: Ones Under Stress
 
-When overwhelmed, something shocking happens to the controlled Type 1. They shift toward the unhealthy aspects of Type 4, "The Individualist"—their rational fortress crumbling into emotional chaos.
+When overwhelmed, something shocking happens to the controlled Type 1. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-4">Type 4, "The Individualist"</a>—their rational fortress crumbling into emotional chaos.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
@@ -176,7 +179,7 @@ Understand that their criticism of you is nothing compared to their criticism of
 
 When they offer "feedback," hear the love beneath it. They're trying to help you avoid the judgment they fear for themselves.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 1s connect with each type.
 
 </section>
 
@@ -188,7 +191,7 @@ The One's growth journey isn't about lowering standards. It's about discovering 
 
 ### Moving Toward Seven
 
-When Ones integrate, they move toward the healthy aspects of Type 7, "The Enthusiast." This doesn't mean becoming careless or abandoning principles. It means discovering that joy and spontaneity can coexist with integrity.
+When Ones integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-7">Type 7, "The Enthusiast."</a> This doesn't mean becoming careless or abandoning principles. It means discovering that joy and spontaneity can coexist with integrity.
 
 Integrated Ones learn to:
 
@@ -218,6 +221,18 @@ The most integrated Ones discover a profound truth: they were never bad. The chi
 When Ones learn to extend to themselves the compassion they'd show a child—when they realize that perfection was never the price of acceptability—they discover what they've been seeking all along: serenity.
 
 Not the serenity of everything being perfect, but the serenity of being at peace with imperfection. The serenity of knowing that goodness and mistakes can coexist. The serenity of finally, finally being good enough.
+
+<div style="display: flex; justify-content: center; margin: 1rem 0;">
+    <a href="/blog/enneagram/enneagram-personal-growth" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Personal Growth by Type"
+          scramble={false}
+      />
+    </a>
+</div>
 
 </section>
 

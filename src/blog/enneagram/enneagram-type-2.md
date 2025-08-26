@@ -16,6 +16,7 @@ pic: ''
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">The child notices something crucial: when they help mommy, she smiles. When they comfort their crying sibling, dad says "you're such a good kid." When they put others first, love flows. When they express their own needs, the atmosphere shifts—subtle disappointment, slight withdrawal, the warmth cooling by degrees.</p>
@@ -43,6 +44,8 @@ Here's the cruel irony: Type 2's core sin is pride, but they often appear as the
 Their pride isn't in achievements or status—it's in being needed. "She couldn't have gotten through it without me." "They always call me when there's a crisis." "I'm the one who holds everyone together." This pride protects them from their deepest fear: that without their usefulness, they're unworthy of love.
 
 The pride manifests as an unconscious belief: "I alone know what you need. I alone can provide it. You need me more than I need you." It's a protective delusion that prevents them from experiencing their own vulnerability and neediness.
+
+**Wing Influences:** Type 2s are influenced by their neighboring types. With a <a href="/blog/enneagram/enneagram-type-1">Type 1 wing (2w1)</a>, they become more idealistic and service-oriented, focusing on doing good in the world. With a <a href="/blog/enneagram/enneagram-type-3">Type 3 wing (2w3)</a>, they become more ambitious and charming, wanting to be seen as successful helpers.
 
 <div class="scroll-table">
 
@@ -98,7 +101,7 @@ But perpetual giving casts dark shadows:
 
 ## When Helpers Snap: Twos Under Stress
 
-When pushed beyond their limits, something shocking happens to the gentle Two. They shift toward the unhealthy aspects of Type 8, "The Challenger"—their sweetness transforming into sudden ferocity.
+When pushed beyond their limits, something shocking happens to the gentle Two. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-8">Type 8, "The Challenger"</a>—their sweetness transforming into sudden ferocity.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
@@ -180,7 +183,7 @@ Understand that their giving often contains hidden requests. When they bring you
 
 Don't wait for them to ask for help—they've been trained that asking diminishes their worth. Offer proactively. Insist gently. Make receiving an act of giving them what they need: the experience of being cared for.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 2s connect with each type.
 
 </section>
 
@@ -192,7 +195,7 @@ The Two's growth journey isn't about stopping their giving. It's about discoveri
 
 ### Moving Toward Four
 
-When Twos integrate, they move toward the healthy aspects of Type 4, "The Individualist." This doesn't mean becoming self-absorbed or dramatic. It means developing the capacity for:
+When Twos integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-4">Type 4, "The Individualist."</a> This doesn't mean becoming self-absorbed or dramatic. It means developing the capacity for:
 
 **Emotional authenticity**. Acknowledging their real feelings, including the "selfish" ones—anger, envy, neediness.
 
@@ -223,6 +226,27 @@ The most integrated Twos discover a profound truth: love isn't earned through se
 When Twos learn to receive with the same grace they give—when they realize that allowing others to care for them is also a gift—they discover what they've been seeking all along: unconditional love.
 
 Not love because they're helpful. Not love because they're needed. Just love. Plain, simple, no strings attached love. The kind they've been giving others all along, finally flowing back to them.
+
+<div style="display: flex; justify-content: center; margin: 1rem 0;">
+    <a href="/blog/enneagram/enneagram-personal-growth" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Personal Growth by Type"
+          scramble={false}
+      />
+    </a>
+    <a href="/blog/enneagram/love-languages-and-enneagram-types" class="blog-link">
+      <PopCard
+          image={`/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Love Languages & Enneagram"
+          scramble={false}
+      />
+    </a>
+</div>
 
 </section>
 
