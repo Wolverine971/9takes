@@ -165,6 +165,18 @@ This creates a profound loneliness—the special pain of being alone while toget
 
 </article>
 
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/enneagram-corner/enneagram-mental-health-flags" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statue-of-athena-with-red.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Mental Health Red Flags for Each Type"
+          scramble={false}
+      />
+    </a>
+</div>
+
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
@@ -277,31 +289,6 @@ These tests are rarely passed because the rules are unclear and constantly chang
 
 </article>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
-    <a href="/enneagram-corner/enneagram-mental-health-flags" class="blog-link">
-      <PopCard
-          image={`/blogs/greek-statue-of-athena-with-red.webp`}
-          showIcon={false}
-          subtext=""
-          displayText="Mental Health Red Flags for Each Type"
-          scramble={false}
-      />
-     </a>
-    <a href="/enneagram-corner/biggest-compliments-to-give-each-enneagram-type" class="blog-link">
-      <PopCard
-          image={`/blogs/greek-statue-yeah-boi.webp`}
-          showIcon={false}
-          subtext=""
-          displayText="Compliments That Make Each Type Feel Truly Seen"
-          scramble={false}
-      />
-    </a>
-</div>
-
  <article class="section-content">
 
 ### Type 7: The Enthusiast's Commitment-Phobic Love
@@ -373,6 +360,18 @@ This emotional unavailability creates a profound disconnection, where partners f
 [More on Type 8s](/enneagram-corner/enneagram-type-8)
 
 </article>
+
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/enneagram-corner/biggest-compliments-to-give-each-enneagram-type" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statue-yeah-boi.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Compliments That Make Each Type Feel Truly Seen"
+          scramble={false}
+      />
+    </a>
+</div>
 
  <article class="section-content">
 

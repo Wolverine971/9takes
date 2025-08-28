@@ -245,12 +245,8 @@ These loyalty tests stem from their fundamental doubt about who and what can be 
 
 <a href="/enneagram-corner/enneagram-type-6">Explore More About Type Sixes</a>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
-    <a href="/enneagram-corner/how-each-enneagram-type-unwinds" class="blog-link">
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/enneagram-corner/how-each-enneagram-type-unwinds" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek-statues-at-the-beach.webp`}
           showIcon={false}
@@ -259,15 +255,6 @@ These loyalty tests stem from their fundamental doubt about who and what can be 
           scramble={false}
       />
      </a>
-    <a href="/enneagram-corner/toxic-traits-relationships-warning-signs" class="blog-link">
-      <PopCard
-          image={`/blogs/greek-statues-in-a-tense-moment.webp`}
-          showIcon={false}
-          subtext=""
-          displayText="Know the warning signs in a relationship"
-          scramble={false}
-      />
-    </a>
 </div>
 
 ## Type 7: The Chronic Escapist Running From Reality
@@ -329,6 +316,18 @@ They hover. They second-guess. They take back tasks they've assigned because "if
 This controlling behavior stems from their deep distrust of others' competence. They believe that surrendering control means inviting disaster – so they maintain an iron grip on everything within their reach.
 
 <a href="/enneagram-corner/enneagram-type-8">Explore More About Type Eights</a>
+
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/enneagram-corner/toxic-traits-relationships-warning-signs" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statues-in-a-tense-moment.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Know the warning signs in a relationship"
+          scramble={false}
+      />
+    </a>
+</div>
 
 ## Type 9: The Conflict-Avoider Who Disappears When Needed Most
 

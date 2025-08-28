@@ -86,24 +86,17 @@ But here's the crucial insight Jung discovered: **What you resist persists—and
 
 Let's explore how shadow work looks for each of the nine types.
 
-<a href="/blog/enneagram/enneagram-mental-health-flags" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
-  <PopCard
-      image={`/blogs/greek-statue-of-athena-with-red.webp`}
-      showIcon={false}
-      subtext=""
-      displayText="Mental Health Red Flags"
-      scramble={false}
-  />
-</a>
-<a href="/blog/enneagram/toxic-traits-of-each-enneagram-type" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
-  <PopCard
-      image={`/blogs/greek-statue-showing-cracks.webp`}
-      showIcon={false}
-      subtext=""
-      displayText="Toxic Traits by Type"
-      scramble={false}
-  />
-</a>
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/blog/enneagram/enneagram-mental-health-flags" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statue-of-athena-with-red.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Mental Health Red Flags"
+          scramble={false}
+      />
+    </a>
+</div>
 
 ## Type 1: The Perfectionist's Shadow - "The Inner Critic's Rage"
 
@@ -470,6 +463,18 @@ Let's explore how shadow work looks for each of the nine types.
 - "Connection with others energizes me when done consciously"
 - "My needs and boundaries can be communicated with care, not withdrawal"
 
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/blog/enneagram/toxic-traits-of-each-enneagram-type" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statue-showing-cracks.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Toxic Traits by Type"
+          scramble={false}
+      />
+    </a>
+</div>
+
 ## Type 6: The Loyalist's Shadow - "The Paranoid Rebel"
 
 <a href="/blog/enneagram/enneagram-type-6">→ Learn more about Type 6: The Loyalist</a>
@@ -689,6 +694,18 @@ Let's explore how shadow work looks for each of the nine types.
 - "I can be firm in my boundaries without being harsh with people"
 - "Love requires courage, and I am brave enough to love fully"
 
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/blog/enneagram/enneagram-and-mental-illness" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statue-2-sided-mask.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Mental Health & Enneagram"
+          scramble={false}
+      />
+    </a>
+</div>
+
 ## Type 9: The Peacemaker's Shadow - "The Passive-Aggressive Sloth"
 
 <a href="/blog/enneagram/enneagram-type-9">→ Learn more about Type 9: The Peacemaker</a>
@@ -886,24 +903,17 @@ Are you ready to meet the parts of yourself you've been avoiding? The journey is
 
 ## Deepen Your Shadow Work Journey
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
-  <PopCard
-      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
-      showIcon={false}
-      subtext=""
-      displayText="Personal Growth Guide"
-      scramble={false}
-  />
-</a>
-<a href="/blog/enneagram/enneagram-and-mental-illness" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
-  <PopCard
-      image={`/blogs/greek-statue-2-sided-mask.webp`}
-      showIcon={false}
-      subtext=""
-      displayText="Mental Health & Enneagram"
-      scramble={false}
-  />
-</a>
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Personal Growth Guide"
+          scramble={false}
+      />
+    </a>
+</div>
 
 ### Professional Support:
 

@@ -147,6 +147,18 @@ They became the family emotional manager, the parent's confidant, the sibling's 
 
 But their own feelings? Their own needs? These became increasingly foreign territory. They learned to find satisfaction in others' happiness, to feel full when others were fed, to rest only when everyone else was comfortable.
 
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/blog/enneagram/love-languages-and-enneagram-types" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Love Languages & Enneagram"
+          scramble={false}
+      />
+    </a>
+</div>
+
 </section>
 
 <section class="section-content">
@@ -227,24 +239,17 @@ When Twos learn to receive with the same grace they give—when they realize tha
 
 Not love because they're helpful. Not love because they're needed. Just love. Plain, simple, no strings attached love. The kind they've been giving others all along, finally flowing back to them.
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
-  <PopCard
-      image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
-      showIcon={false}
-      subtext=""
-      displayText="Personal Growth by Type"
-      scramble={false}
-  />
-</a>
-<a href="/blog/enneagram/love-languages-and-enneagram-types" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
-  <PopCard
-      image={`/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp`}
-      showIcon={false}
-      subtext=""
-      displayText="Love Languages & Enneagram"
-      scramble={false}
-  />
-</a>
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Personal Growth by Type"
+          scramble={false}
+      />
+    </a>
+</div>
 
 </section>
 

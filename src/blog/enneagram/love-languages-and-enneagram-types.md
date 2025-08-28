@@ -311,6 +311,18 @@ Let's decode how each type's psychology creates their love language patterns:
 ✅ **Appreciate their insights:** Value their knowledge and unique perspective
 ✅ **Help practically:** Take care of draining tasks so they can focus on what matters to them
 
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/blog/enneagram/enneagram-types-in-relationships" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statues-on-a-date.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Types in Relationships"
+          scramble={false}
+      />
+    </a>
+</div>
+
 ## Type 6: The Loyalist's Security Love
 
 <a href="/blog/enneagram/enneagram-type-6">→ Learn more about Type 6: The Loyalist</a>
@@ -754,24 +766,17 @@ Together, they give you the map to love that actually lands.
 
 ## Related Resources for Your Journey
 
-<a href="/blog/enneagram/enneagram-compatibility-matrix" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
-  <PopCard
-      image={`/blogs/greek-statues-embracing-1.webp`}
-      showIcon={false}
-      subtext=""
-      displayText="Compatibility Matrix"
-      scramble={false}
-  />
-</a>
-<a href="/blog/enneagram/enneagram-types-in-relationships" class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
-  <PopCard
-      image={`/blogs/greek-statues-showing-different-expressions-of-love.webp`}
-      showIcon={false}
-      subtext=""
-      displayText="Types in Relationships"
-      scramble={false}
-  />
-</a>
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/blog/enneagram/enneagram-compatibility-matrix" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek_statues_in_a_circle_holding_hands.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Compatibility Matrix"
+          scramble={false}
+      />
+    </a>
+</div>
 
 ## Take Action: Discover Your Love Language + Enneagram Combination
 

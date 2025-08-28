@@ -332,12 +332,8 @@ Sixes often struggle with anxiety and worst-case scenario thinking. This can lea
 
 <a href="/enneagram-corner/enneagram-type-6">More on Type Six</a>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
-    <a href="/enneagram-corner/enneagram-and-mental-illness" class="blog-link">
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/enneagram-corner/enneagram-and-mental-illness" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek-statue-2-sided-mask.webp`}
           showIcon={false}
@@ -346,15 +342,6 @@ Sixes often struggle with anxiety and worst-case scenario thinking. This can lea
           scramble={false}
       />
      </a>
-    <a href="/enneagram-corner/toxic-traits-of-each-enneagram-type" class="blog-link">
-      <PopCard
-          image={`/blogs/greek-statue-showing-cracks.webp`}
-          showIcon={false}
-          subtext=""
-          displayText="The Toxic Traits of Each Type"
-          scramble={false}
-      />
-    </a>
 </div>
 
 ## Type 7: The Enthusiast's Escape Hatch Alert
@@ -446,6 +433,18 @@ Eights often struggle with vulnerability and fear of being controlled. This can 
 - Finding power in service to others
 
 <a href="/enneagram-corner/enneagram-type-8">More on Type Eight</a>
+
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/enneagram-corner/toxic-traits-of-each-enneagram-type" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statue-showing-cracks.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="The Toxic Traits of Each Type"
+          scramble={false}
+      />
+    </a>
+</div>
 
 ## Type 9: The Peacemaker's Disappearing Act Alert
 

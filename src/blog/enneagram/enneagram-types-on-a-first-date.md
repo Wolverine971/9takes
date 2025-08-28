@@ -384,12 +384,8 @@ Beneath their calm exterior, Type 5s feel:
 
 </section>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 2rem 0;"
->
-    <a href="/enneagram-corner/how-to-navigate-early-relationship-stages" class="blog-link">
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/enneagram-corner/how-to-navigate-early-relationship-stages" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/young-couple-on-a-date.webp`}
           showIcon={false}
@@ -398,15 +394,6 @@ Beneath their calm exterior, Type 5s feel:
           scramble={false}
       />
      </a>
-    <a href="/enneagram-corner/enneagram-types-in-relationships" class="blog-link">
-      <PopCard
-          image={`/blogs/greek-statues-on-a-date.webp`}
-          showIcon={false}
-          subtext="Beyond the first date"
-          displayText="What each Type wants out of a relationship"
-          scramble={false}
-      />
-    </a>
 </div>
 
 <section id="type6" class="type-section">
@@ -609,6 +596,18 @@ Type 8s experience dates with:
 [Understand Type 8 in depth →](/enneagram-corner/enneagram-type-8)
 
 </section>
+
+<div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
+    <a href="/enneagram-corner/enneagram-types-in-relationships" class="blog-link" style="width: 100%;">
+      <PopCard
+          image={`/blogs/greek-statues-on-a-date.webp`}
+          showIcon={false}
+          subtext="Beyond the first date"
+          displayText="What each Type wants out of a relationship"
+          scramble={false}
+      />
+    </a>
+</div>
 
 <section id="type9" class="type-section">
 
