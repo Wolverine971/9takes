@@ -1,13 +1,14 @@
 // src/routes/sitemap.xml/+server.ts
 import fs from 'fs';
+import path from 'path';
 
 export const GET = async () => {
-	const sitemap = fs.readFileSync('sitemap.xml', 'utf-8');
+	const sitemapPath = path.join(process.cwd(), 'static', 'sitemap.xml');
+	const sitemap = fs.readFileSync(sitemapPath, 'utf-8');
 
-	return {
+	return new Response(sitemap, {
 		headers: {
 			'Content-Type': 'application/xml'
-		},
-		body: sitemap
-	};
+		}
+	});
 };
