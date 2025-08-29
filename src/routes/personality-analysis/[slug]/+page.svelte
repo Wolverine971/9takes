@@ -1,6 +1,7 @@
 <!-- src/routes/personality-analysis/[slug]/+page.svelte -->
 <script lang="ts">
 	import { onMount, tick, afterUpdate } from 'svelte';
+	import { writable } from 'svelte/store';
 	import type { PageData } from './$types';
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
@@ -10,6 +11,7 @@
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import PeopleSuggestionsSideBar from '$lib/components/blog/PeopleSuggestionsSideBar.svelte';
+	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	// Lazy-loaded RelatedPosts component
 	import RelatedPosts from '$lib/components/molecules/RelatedPosts.svelte';
 	// import MarkdownRenderer from '$lib/components/MarkdownRenderer.svelte';
@@ -32,6 +34,10 @@
 	let commentsLoaded = false;
 	let commentsVisible = false;
 	let currentPath = '';
+	
+	// Table of Contents support
+	const contentStore = writable('');
+	let contentObserver: MutationObserver | null = null;
 
 	const commentAdded = (detail: any) => {
 		comments = [...detail, ...comments];
@@ -51,10 +57,15 @@
 
 		if (browser) {
 			setupPage();
+			setupContentObserver();
 
 			return () => {
 				if (commentsObserver) {
 					commentsObserver.disconnect();
+				}
+				if (contentObserver) {
+					contentObserver.disconnect();
+					contentObserver = null;
 				}
 			};
 		}
@@ -65,6 +76,25 @@
 		// Page has changed
 		currentPath = $page.url.pathname;
 		resetPageState();
+	}
+	
+	// Watch for slug changes and reinitialize content observer
+	$: if (data?.post?.slug) {
+		// Reset content store when slug changes
+		contentStore.set('');
+		
+		// Clean up existing observer
+		if (contentObserver) {
+			contentObserver.disconnect();
+			contentObserver = null;
+		}
+		
+		// Set up new observer after a short delay to ensure DOM is updated
+		if (browser) {
+			setTimeout(() => {
+				setupContentObserver();
+			}, 100);
+		}
 	}
 
 	// Update page data when data prop changes
@@ -92,6 +122,34 @@
 	}
 
 	let commentsObserver: IntersectionObserver;
+	
+	// Set up content observer for Table of Contents
+	function setupContentObserver() {
+		if (!browser) return;
+		const node = document.querySelector('.article-body');
+		
+		if (!node) {
+			setTimeout(setupContentObserver, 500);
+		} else {
+			// Disconnect existing observer if any
+			if (contentObserver) {
+				contentObserver.disconnect();
+			}
+			
+			contentObserver = new MutationObserver((mutations) => {
+				mutations.forEach((mutation) => {
+					if (mutation.type === 'childList') {
+						contentStore.set(node.innerHTML);
+					}
+				});
+			});
+			
+			contentObserver.observe(node, { childList: true, subtree: true });
+			
+			// Also set initial content
+			contentStore.set(node.innerHTML);
+		}
+	}
 
 	// Set up the page observers and dynamic components
 	function setupPage() {
@@ -178,6 +236,11 @@
 			subtext=""
 		/>
 	</div>
+	
+	<TableOfContents 
+		{contentStore} 
+		pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
+	/>
 
 	<div class="article-body">
 		{@html post.content}

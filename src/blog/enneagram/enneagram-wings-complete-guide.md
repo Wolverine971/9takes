@@ -24,7 +24,7 @@ Keyword Strategy:
 
 <!-- # Enneagram Wings: The Complete Guide to Understanding Your Secondary Drive -->
 
-**Your Enneagram type is just the beginning. Your wing is what makes you uniquely you.**
+<p class="firstLetter">Your Enneagram type is just the beginning. Your wing is what makes you uniquely you.</p>
 
 Imagine two Type 8s walking into a room. One commands attention through raw charisma and protective energy (8w7). The other radiates quiet intensity and methodical strength (8w9). Same core type, completely different flavors.
 

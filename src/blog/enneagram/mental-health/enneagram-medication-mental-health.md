@@ -11,7 +11,7 @@ published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: 'enneagram-medication-guide'
+pic: ''
 ---
 
 <!--

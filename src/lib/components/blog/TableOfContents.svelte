@@ -15,6 +15,17 @@
 	export let desktopBreakpoint: number = 1200;
 	export let maxTocEntries: number = 24;
 	export let title: string = 'Table of Contents';
+	export let collapseLongSections: boolean = true;
+	export let maxH3sPerSection: number = 3;
+	export let alwaysShowFirstH3: boolean = true;
+	
+	// Smart format detection thresholds
+	const FORMAT_THRESHOLDS = {
+		SIMPLE: { maxHeaders: 15, maxDepth: 2 },
+		MODERATE: { maxHeaders: 30, maxDepth: 3 },
+		COMPLEX: { maxHeaders: 60, maxDepth: 4 },
+		DENSE: { maxHeaders: Infinity, maxDepth: 5 }
+	};
 
 	let visible = false;
 	let windowWidth: number = 0;
@@ -29,8 +40,23 @@
 	interface TocItem {
 		id: string;
 		name: string;
+		level: number;
 		children?: TocItem[];
+		collapsed?: boolean;
+		visibleChildren?: number;
 	}
+
+	interface ContentAnalysis {
+		headerLevels: number[];
+		primaryStructure: 'single-level' | 'hierarchical' | 'deep-hierarchical';
+		contentType: 'faq' | 'guide' | 'types' | 'generic';
+		totalHeaders: number;
+		minThreshold: number;
+		headerSelector: string;
+	}
+
+	let expandedSections: Set<string> = new Set();
+	let contentAnalysis: ContentAnalysis | null = null;
 
 	// Calculate sidebar position
 	$: sidebarPosition = calculateSidebarPosition(windowWidth, contentWidth, sidebarWidth);
@@ -52,35 +78,173 @@
 		};
 	}
 
+	function analyzeContent(html: string): ContentAnalysis {
+		if (!browser || !html) {
+			return {
+				headerLevels: [2, 3],
+				primaryStructure: 'hierarchical',
+				contentType: 'generic',
+				totalHeaders: 0,
+				minThreshold: 3,
+				headerSelector: 'h2, h3'
+			};
+		}
+
+		const tempDiv = document.createElement('div');
+		tempDiv.innerHTML = html;
+
+		// Find all headers H1-H6
+		const allHeaders = [...tempDiv.querySelectorAll('h1, h2, h3, h4, h5, h6')].filter(
+			(heading) => heading.textContent?.trim() !== title
+		);
+
+		// Analyze header level distribution
+		const headerLevelCounts: { [key: number]: number } = {};
+		const headerTexts: string[] = [];
+
+		allHeaders.forEach(header => {
+			const level = parseInt(header.tagName.charAt(1));
+			headerLevelCounts[level] = (headerLevelCounts[level] || 0) + 1;
+			headerTexts.push(header.textContent?.trim() || '');
+		});
+
+		const availableLevels = Object.keys(headerLevelCounts).map(Number).sort();
+		const totalHeaders = allHeaders.length;
+
+		// Detect content type
+		let contentType: ContentAnalysis['contentType'] = 'generic';
+
+		// FAQ detection - look for question patterns
+		const faqPatterns = [
+			/^\d+\./,  // numbered questions
+			/^(what|how|why|when|where|who|can|is|are|do|does|will|would|should)/i,
+			/\?$/,     // ends with question mark
+			/^(🤔|❓|💭|🔍|❗|🎯|😰|🔬)/  // emoji indicators
+		];
+
+		const faqMatches = headerTexts.filter(text => 
+			faqPatterns.some(pattern => pattern.test(text))
+		).length;
+
+		if (faqMatches / totalHeaders > 0.4) {
+			contentType = 'faq';
+		}
+
+		// Types detection - Enneagram type patterns
+		const typePatterns = [
+			/type\s*[1-9]/i,
+			/enneagram\s*[1-9]/i,
+			/(perfectionist|helper|achiever|individualist|investigator|loyalist|enthusiast|challenger|peacemaker)/i
+		];
+
+		const typeMatches = headerTexts.filter(text =>
+			typePatterns.some(pattern => pattern.test(text))
+		).length;
+
+		if (typeMatches / totalHeaders > 0.5) {
+			contentType = 'types';
+		}
+
+		// Guide detection - step/process indicators
+		const guidePatterns = [
+			/^(step\s*\d+|phase\s*\d+|stage\s*\d+)/i,
+			/^(day\s*\d+|week\s*\d+)/i,
+			/^(how\s+to|guide\s+to)/i
+		];
+
+		const guideMatches = headerTexts.filter(text =>
+			guidePatterns.some(pattern => pattern.test(text))
+		).length;
+
+		if (guideMatches / totalHeaders > 0.3) {
+			contentType = 'guide';
+		}
+
+		// Determine structure type
+		let primaryStructure: ContentAnalysis['primaryStructure'] = 'single-level';
+
+		if (availableLevels.length === 1) {
+			primaryStructure = 'single-level';
+		} else if (availableLevels.length === 2) {
+			primaryStructure = 'hierarchical';
+		} else if (availableLevels.length >= 3) {
+			primaryStructure = 'deep-hierarchical';
+		}
+
+		// Determine optimal header selector and minimum threshold
+		let headerSelector: string;
+		let minThreshold: number;
+
+		if (totalHeaders <= 2) {
+			// Very few headers - show them all regardless
+			headerSelector = availableLevels.map(level => `h${level}`).join(', ');
+			minThreshold = 1;
+		} else if (primaryStructure === 'single-level') {
+			// Single level - use whatever level has the most headers
+			const dominantLevel = availableLevels.reduce((prev, current) => 
+				headerLevelCounts[current] > headerLevelCounts[prev] ? current : prev
+			);
+			headerSelector = `h${dominantLevel}`;
+			minThreshold = Math.min(2, totalHeaders);
+		} else if (contentType === 'faq') {
+			// FAQ content - be more permissive
+			headerSelector = availableLevels.slice(0, 2).map(level => `h${level}`).join(', ');
+			minThreshold = 2;
+		} else if (contentType === 'types') {
+			// Type-based content - usually needs main sections + type headers
+			headerSelector = availableLevels.slice(0, 2).map(level => `h${level}`).join(', ');
+			minThreshold = 3;
+		} else {
+			// Default hierarchical approach
+			const topTwoLevels = availableLevels.slice(0, 2);
+			headerSelector = topTwoLevels.map(level => `h${level}`).join(', ');
+			minThreshold = 3;
+		}
+
+		return {
+			headerLevels: availableLevels,
+			primaryStructure,
+			contentType,
+			totalHeaders,
+			minThreshold,
+			headerSelector
+		};
+	}
+
 	function generateTableOfContents(html: string): { tocHtml: string; tocStructure: TocItem[] } {
 		if (!browser || !html) return { tocHtml: '', tocStructure: [] };
 
 		try {
+			// Analyze content to get smart configuration
+			const analysis = analyzeContent(html);
+			contentAnalysis = analysis;
+
 			const tempDiv = document.createElement('div');
 			tempDiv.innerHTML = html;
 
-			const headings = [...tempDiv.querySelectorAll('h2, h3')].filter(
+			const headings = [...tempDiv.querySelectorAll(analysis.headerSelector)].filter(
 				(heading) => heading.textContent?.trim() !== title
 			);
 
-			if (headings.length < 3) {
+			if (headings.length < analysis.minThreshold) {
 				return { tocHtml: '', tocStructure: [] };
 			}
 
 			const list = document.createElement('ul');
 			list.className = 'toc-list';
 
-			let h2Sections: { h2: HTMLLIElement; h3s: HTMLLIElement[]; tocItem: TocItem }[] = [];
+			// Build hierarchical structure based on content analysis
 			let tocStructure: TocItem[] = [];
+			let parentStack: { item: TocItem; element: HTMLLIElement; level: number }[] = [];
 
 			headings.forEach((heading) => {
+				const level = parseInt(heading.tagName.charAt(1));
 				const listItem = document.createElement('li');
 				listItem.className = `toc-item toc-level-${heading.tagName.toLowerCase()}`;
 				const link = document.createElement('a');
 
 				// Handle empty headings
 				const headingText = heading.textContent?.trim() || 'Untitled Section';
-				// Shorten very long headings for TOC display (over 35 chars)
 				const displayText = headingText;
 
 				// Generate a valid ID if missing
@@ -99,63 +263,108 @@
 				link.href = `#${id}`;
 				link.textContent = displayText;
 				link.className = 'toc-link';
-				link.setAttribute('title', headingText); // Add title for tooltip showing full text
+				link.setAttribute('title', headingText);
 
 				listItem.appendChild(link);
 
 				const tocItem: TocItem = {
 					id,
-					name: headingText
+					name: headingText,
+					level
 				};
 
-				if (heading.tagName === 'H2') {
+				// Handle hierarchical structure based on analysis
+				if (analysis.primaryStructure === 'single-level') {
+					// Flat structure - all items at top level
 					list.appendChild(listItem);
 					tocStructure.push(tocItem);
-					h2Sections.push({ h2: listItem, h3s: [], tocItem });
-				} else if (heading.tagName === 'H3' && h2Sections.length > 0) {
-					h2Sections[h2Sections.length - 1].h3s.push(listItem);
-					if (!h2Sections[h2Sections.length - 1].tocItem.children) {
-						h2Sections[h2Sections.length - 1].tocItem.children = [];
+				} else {
+					// Hierarchical structure - build nested structure
+					// Remove items from stack that are at same or higher level
+					while (parentStack.length > 0 && parentStack[parentStack.length - 1].level >= level) {
+						parentStack.pop();
 					}
-					h2Sections[h2Sections.length - 1].tocItem.children?.push(tocItem);
+
+					if (parentStack.length === 0) {
+						// Top level item
+						list.appendChild(listItem);
+						tocStructure.push(tocItem);
+						parentStack.push({ item: tocItem, element: listItem, level });
+					} else {
+						// Child item
+						const parent = parentStack[parentStack.length - 1];
+						
+						// Create or find sub-list in parent
+						let subList = parent.element.querySelector('ul');
+						if (!subList) {
+							subList = document.createElement('ul');
+							subList.className = 'toc-sublist';
+							parent.element.appendChild(subList);
+						}
+						
+						subList.appendChild(listItem);
+
+						// Add to parent's children array
+						if (!parent.item.children) {
+							parent.item.children = [];
+						}
+						parent.item.children.push(tocItem);
+
+						// Add to parent stack if this could have children
+						if (analysis.primaryStructure === 'deep-hierarchical') {
+							parentStack.push({ item: tocItem, element: listItem, level });
+						}
+					}
 				}
 			});
 
-			// Limit the number of TOC entries if there are too many
-			const totalH2s = h2Sections.length;
-			const totalH3s = h2Sections.reduce((sum, section) => sum + section.h3s.length, 0);
-			const totalLinks = totalH2s + totalH3s;
+			// Apply entry limits based on content type and maxTocEntries
+			const totalEntries = headings.length;
+			if (totalEntries > maxTocEntries) {
+				// For content types that benefit from more entries, be more generous
+				const adjustedMax = analysis.contentType === 'faq' || analysis.contentType === 'types' 
+					? maxTocEntries + 6 
+					: maxTocEntries;
 
-			if (totalLinks > maxTocEntries) {
-				const availableH3Slots = maxTocEntries - totalH2s;
-				const h3sPerSection = Math.floor(availableH3Slots / totalH2s);
-				let extraH3s = availableH3Slots % totalH2s;
+				if (totalEntries > adjustedMax) {
+					// Truncate excess entries - remove from bottom of list
+					const excessCount = totalEntries - adjustedMax;
+					const listItems = list.querySelectorAll('.toc-item');
+					for (let i = listItems.length - excessCount; i < listItems.length; i++) {
+						listItems[i].remove();
+					}
 
-				h2Sections.forEach((section, index) => {
-					const h3sToKeep = h3sPerSection + (index < extraH3s ? 1 : 0);
-					if (section.h3s.length > 0) {
-						const subList = document.createElement('ul');
-						subList.className = 'toc-sublist';
-						section.h3s.slice(0, h3sToKeep).forEach((h3) => {
-							subList.appendChild(h3);
-						});
-						section.h2.appendChild(subList);
+					// Also truncate the structure array to match
+					function truncateStructure(items: TocItem[], maxItems: number): TocItem[] {
+						if (items.length <= maxItems) return items;
+						
+						let count = 0;
+						const result: TocItem[] = [];
+						
+						for (const item of items) {
+							if (count >= maxItems) break;
+							
+							const itemCopy = { ...item };
+							count++;
+							
+							if (item.children) {
+								const remainingSlots = maxItems - count;
+								if (remainingSlots > 0) {
+									itemCopy.children = truncateStructure(item.children, remainingSlots);
+									count += itemCopy.children.length;
+								} else {
+									delete itemCopy.children;
+								}
+							}
+							
+							result.push(itemCopy);
+						}
+						
+						return result;
 					}
-					if (section.tocItem.children) {
-						section.tocItem.children = section.tocItem.children.slice(0, h3sToKeep);
-					}
-				});
-			} else {
-				h2Sections.forEach((section) => {
-					if (section.h3s.length > 0) {
-						const subList = document.createElement('ul');
-						subList.className = 'toc-sublist';
-						section.h3s.forEach((h3) => {
-							subList.appendChild(h3);
-						});
-						section.h2.appendChild(subList);
-					}
-				});
+
+					tocStructure = truncateStructure(tocStructure, adjustedMax);
+				}
 			}
 
 			return { tocHtml: list.outerHTML, tocStructure };
@@ -271,16 +480,13 @@
 
 	// Add active state tracking for TOC links
 	function updateActiveTocLink() {
-		if (!browser) return;
+		if (!browser || !contentAnalysis) return;
 
-		// Get all headings and TOC links
-		const headings = Array.from(document.querySelectorAll('h2[id], h3[id]'));
+		// Get all headings using the dynamic selector and TOC links
+		const headings = Array.from(document.querySelectorAll(`${contentAnalysis.headerSelector}[id]`));
 		const tocLinks = document.querySelectorAll('.toc-link');
 
 		if (!headings.length || !tocLinks.length) return;
-
-		// Find the heading currently in view
-		const scrollPosition = window.scrollY;
 
 		// Find the heading that's currently visible
 		let activeHeading = null;
@@ -343,7 +549,7 @@
 	});
 
 	// Subscribe to content changes
-	const unsubscribe = contentStore.subscribe((value) => {
+	contentStore.subscribe((value) => {
 		if (value && value !== content) {
 			content = value;
 			contentProcessed = false; // Reset processing flag for new content
@@ -357,7 +563,7 @@
 	});
 </script>
 
-{#if showSidebar}
+{#if showSidebar && sidebarPosition}
 	<aside
 		class="toc-sidebar"
 		style="left: {sidebarPosition.left};"
@@ -473,17 +679,51 @@
 		position: relative;
 	}
 
+	:global(.toc-level-h1) {
+		padding-left: 0;
+		margin-top: 0.75rem;
+		padding-right: 4px;
+		font-weight: var(--font-weight-bold);
+		font-size: var(--font-size-base);
+	}
+
 	:global(.toc-level-h2) {
 		padding-left: 0;
 		margin-top: 0.5rem;
 		padding-right: 4px;
+		font-weight: var(--font-weight-semibold);
+		font-size: var(--font-size-sm);
 	}
 
 	:global(.toc-level-h3) {
-		padding-left: 0;
+		padding-left: 0.25rem;
 		padding-right: 4px;
 		font-size: var(--font-size-xs);
 		opacity: 0.9;
+	}
+
+	:global(.toc-level-h4) {
+		padding-left: 0.5rem;
+		padding-right: 4px;
+		font-size: var(--font-size-xs);
+		opacity: 0.85;
+		font-weight: var(--font-weight-normal);
+	}
+
+	:global(.toc-level-h5) {
+		padding-left: 0.75rem;
+		padding-right: 4px;
+		font-size: var(--font-size-xs);
+		opacity: 0.8;
+		font-weight: var(--font-weight-normal);
+	}
+
+	:global(.toc-level-h6) {
+		padding-left: 1rem;
+		padding-right: 4px;
+		font-size: var(--font-size-xs);
+		opacity: 0.75;
+		font-weight: var(--font-weight-normal);
 	}
 
 	:global(.toc-link) {

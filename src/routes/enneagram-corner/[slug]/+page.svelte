@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
+	import { browser } from '$app/environment';
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import Carousel from '$lib/components/molecules/Carousel.svelte';
@@ -35,17 +36,50 @@
 	const enneagram = data?.slug.split('-');
 	const type = enneagram[enneagram.length - 1];
 
+	let observer: MutationObserver | null = null;
+
 	onMount(() => {
 		findObserver();
+		
+		return () => {
+			// Cleanup observer on unmount
+			if (observer) {
+				observer.disconnect();
+				observer = null;
+			}
+		};
 	});
 
+	// Watch for slug changes and reinitialize observer
+	$: if (data?.slug) {
+		// Reset content store when slug changes
+		contentStore.set('');
+		
+		// Clean up existing observer
+		if (observer) {
+			observer.disconnect();
+			observer = null;
+		}
+		
+		// Set up new observer after a short delay to ensure DOM is updated
+		setTimeout(() => {
+			findObserver();
+		}, 100);
+	}
+
 	const findObserver = () => {
+		if (!browser) return
 		const node = document.querySelector('#blogA');
 
 		if (!node) {
 			setTimeout(findObserver, 500);
 		} else {
-			const observer = new MutationObserver((mutations) => {
+			// Disconnect existing observer if any
+			if (observer) {
+				observer.disconnect();
+			}
+			
+			observer = new MutationObserver((mutations) => {
 				mutations.forEach((mutation) => {
 					if (mutation.type === 'childList') {
 						contentStore.set(node.innerHTML);
@@ -54,6 +88,9 @@
 			});
 
 			observer.observe(node, { childList: true, subtree: true });
+			
+			// Also set initial content
+			contentStore.set(node.innerHTML);
 		}
 	};
 </script>
