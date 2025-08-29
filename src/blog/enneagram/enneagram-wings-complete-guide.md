@@ -1321,7 +1321,7 @@ Because in the end, you're not just a number with an add-on. You're a unique hum
     "name": "9takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/9takes-logo.svg"
+      "url": "https://9takes.com/brand/aero.png"
     }
   },
   "mainEntityOfPage": {
@@ -1330,7 +1330,7 @@ Because in the end, you're not just a number with an add-on. You're a unique hum
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://9takes.com/enneagram-wings-guide.jpg",
+    "url": "https://9takes.com/blogs/two_greek_statues_with_wings.webp",
     "width": 1200,
     "height": 630
   },

@@ -11,7 +11,7 @@ published: true
 type: ['development']
 blog: true
 previewHtml: ''
-pic: 'greek-statue-reading'
+pic: 'female-greek-statue-reading-about-self-development' 
 ---
 
 <script>
@@ -345,7 +345,7 @@ If you found these insights valuable, I invite you to join the 9takes community 
   "image": {
     "@type": "ImageObject",
     "height": 900,
-    "url": "https://9takes.com/blogs/greek-statue-reading.webp",
+    "url": "https://9takes.com/blogs/female-greek-statue-reading-about-self-development.webp",
     "width": 900
   },
   "keywords": "Enneagram self development, personality growth strategies, shadow work, core childhood wounds, trauma healing, somatic patterns, spiritual bypassing, personality integration, centers of intelligence, Enneagram subtypes, mindfulness, decision-making, relationship patterns, Internal Family Systems, authentic transformation",

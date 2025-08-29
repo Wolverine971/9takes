@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
+	import SEOHead from '$lib/components/SEOHead.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -94,63 +95,36 @@
 	});
 </script>
 
-<svelte:head>
-	<link rel="preconnect" href="https://9takes.com" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height" />
-	<title>{title}</title>
-	<meta name="title" content={title} />
-	<meta name="description" content={metaDescription} />
-	<meta name="keywords" content={keywords} />
-	<meta name="robots" content="index, follow" />
-	<meta name="language" content="English" />
-	<meta name="author" content={siteName} />
-
-	<!-- Structured Data for Coaching Service -->
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Service",
-			"name": "Enneagram Coaching by 9takes",
-			"description": "Stress-test decisions and max personality stats with personalized Enneagram coaching sessions.",
-			"provider": {
-				"@type": "Organization",
-				"name": "9takes",
-				"url": "https://9takes.com"
-			},
-			"serviceType": "Personality Coaching",
-			"offers": {
-				"@type": "Offer",
-				"availability": "https://schema.org/PreOrder",
-				"price": "297",
-				"priceCurrency": "USD"
-			}
+<SEOHead
+	{title}
+	description={metaDescription}
+	canonical="{domain}/book-session"
+	twitterCardType="summary_large_image"
+	ogImage={ogImage}
+	twitterCreator={twitterHandle}
+	jsonLd={{
+		"@context": "https://schema.org",
+		"@type": "Service",
+		"name": "Enneagram Coaching by 9takes",
+		"description": "Stress-test decisions and max personality stats with personalized Enneagram coaching sessions.",
+		"provider": {
+			"@type": "Organization",
+			"name": "9takes",
+			"url": "https://9takes.com"
+		},
+		"serviceType": "Personality Coaching",
+		"offers": {
+			"@type": "Offer",
+			"availability": "https://schema.org/PreOrder",
+			"price": "297",
+			"priceCurrency": "USD"
 		}
-	</script>
-
-	<!-- Links -->
-	<link rel="canonical" href={domain + '/book-session'} />
-	<link rel="alternate" href={domain + '/book-session'} hreflang="x-default" />
-	<link rel="alternate" href={domain + '/book-session'} hreflang="en" />
-
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content={domain + '/book-session'} />
-	<meta property="og:site_name" content={siteName} />
-	<meta property="og:title" content={title} />
-	<meta property="og:description" content={metaDescription} />
-	<meta property="og:image" content={ogImage} />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="630" />
-	<meta property="og:locale" content="en_US" />
-
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content={twitterHandle} />
-	<meta name="twitter:creator" content={twitterHandle} />
-	<meta name="twitter:title" content={title} />
-	<meta name="twitter:description" content={metaDescription} />
-	<meta name="twitter:image" content={ogImage} />
-	<meta name="twitter:image:alt" content={imageAlt} />
-</svelte:head>
+	}}
+	additionalMeta={[
+		{ name: 'keywords', content: keywords },
+		{ name: 'twitter:image:alt', content: imageAlt }
+	]}
+/>
 
 <div class="mx-auto max-w-7xl px-4">
 	<!-- Hero -->

@@ -192,7 +192,7 @@
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@djwayne3" />
+	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content="9takes | One situation, 9 ways to see it" />
 	<meta

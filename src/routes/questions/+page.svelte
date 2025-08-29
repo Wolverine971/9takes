@@ -12,6 +12,7 @@
 	import ErrorBoundary from '$lib/components/error/ErrorBoundary.svelte';
 	import AsyncErrorHandler from '$lib/components/error/AsyncErrorHandler.svelte';
 	import Spinner from '$lib/components/atoms/Spinner.svelte';
+	import SEOHead from '$lib/components/SEOHead.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -172,126 +173,77 @@
 	}
 </script>
 
-<svelte:head>
-	<title>Ask Questions Anonymously & Get Answers | 9takes</title>
-	<meta
-		name="description"
-		content="Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types."
-	/>
-	<link rel="canonical" href="https://9takes.com/questions" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "CollectionPage",
-			"name": "Ask Questions Anonymously & Get Answers | 9takes",
-			"description": "Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types.",
-			"url": "https://9takes.com/questions",
-			"isPartOf": {
-				"@type": "WebSite",
-				"name": "9takes",
-				"url": "https://9takes.com"
-			},
-			"breadcrumb": {
-				"@type": "BreadcrumbList",
-				"itemListElement": [
-					{
-						"@type": "ListItem",
-						"position": 1,
-						"name": "Home",
-						"item": "https://9takes.com"
-					},
-					{
-						"@type": "ListItem",
-						"position": 2,
-						"name": "Questions",
-						"item": "https://9takes.com/questions"
-					}
-				]
-			},
-			"mainEntity": {
-				"@type": "FAQPage",
-				"name": "Frequently Asked Questions about 9takes",
-				"mainEntity": [
-					{
-						"@type": "Question",
-						"name": "How can I ask questions anonymously on 9takes?",
-						"acceptedAnswer": {
-							"@type": "Answer",
-							"text": "On 9takes, you can ask questions anonymously by creating an account using your Enneagram personality type as your identity. This allows you to maintain privacy while engaging in meaningful discussions."
-						}
-					},
-					{
-						"@type": "Question",
-						"name": "What is the give-first commenting system?",
-						"acceptedAnswer": {
-							"@type": "Answer",
-							"text": "The give-first system requires you to share your own perspective before viewing others' responses. This encourages authentic participation and reduces bias from seeing other answers first."
-						}
-					},
-					{
-						"@type": "Question",
-						"name": "How do personality types work on 9takes?",
-						"acceptedAnswer": {
-							"@type": "Answer",
-							"text": "9takes uses the Enneagram personality system (types 1-9). Each user identifies with a type, allowing you to see how different personality types respond to the same questions."
-						}
-					}
-				]
-			}
-		}
-	</script>
-
-	<!-- FAQ Schema for common questions about the platform -->
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
+<SEOHead
+	title="Ask Questions Anonymously & Get Answers | 9takes"
+	description="Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types."
+	canonical="https://9takes.com/questions"
+	twitterCardType="summary_large_image"
+	ogImage="https://9takes.com/questions-default.webp"
+	jsonLd={{
+		"@context": "https://schema.org",
+		"@type": "CollectionPage",
+		"name": "Ask Questions Anonymously & Get Answers | 9takes",
+		"description": "Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types.",
+		"url": "https://9takes.com/questions",
+		"isPartOf": {
+			"@type": "WebSite",
+			"name": "9takes",
+			"url": "https://9takes.com"
+		},
+		"breadcrumb": {
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Home",
+					"item": "https://9takes.com"
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"name": "Questions",
+					"item": "https://9takes.com/questions"
+				}
+			]
+		},
+		"mainEntity": {
 			"@type": "FAQPage",
+			"name": "Frequently Asked Questions about 9takes",
 			"mainEntity": [
 				{
 					"@type": "Question",
-					"name": "How does 9takes anonymous questioning work?",
+					"name": "How can I ask questions anonymously on 9takes?",
 					"acceptedAnswer": {
 						"@type": "Answer",
-						"text": "9takes uses a unique 'give-first' system where you must provide your own answer before seeing others' responses. This encourages authentic, thoughtful participation while maintaining anonymity through our personality-based system."
+						"text": "On 9takes, you can ask questions anonymously by creating an account using your Enneagram personality type as your identity. This allows you to maintain privacy while engaging in meaningful discussions."
 					}
 				},
 				{
 					"@type": "Question",
-					"name": "What makes 9takes different from other Q&A platforms?",
+					"name": "What is the give-first commenting system?",
 					"acceptedAnswer": {
 						"@type": "Answer",
-						"text": "9takes combines anonymous questioning with personality psychology. Each answer is tagged with the respondent's Enneagram type, allowing you to see how different personality types approach the same question, creating deeper understanding and empathy."
+						"text": "The give-first system requires you to share your own perspective before viewing others' responses. This encourages authentic participation and reduces bias from seeing other answers first."
 					}
 				},
 				{
 					"@type": "Question",
-					"name": "Can I filter answers by personality type?",
+					"name": "How do personality types work on 9takes?",
 					"acceptedAnswer": {
 						"@type": "Answer",
-						"text": "Yes! You can filter responses by any of the 9 Enneagram types to see how specific personality types answer questions. This helps you understand different perspectives and find answers that resonate with your own personality."
-					}
-				},
-				{
-					"@type": "Question",
-					"name": "Is my identity protected on 9takes?",
-					"acceptedAnswer": {
-						"@type": "Answer",
-						"text": "Absolutely. While your Enneagram type is shown with your answers, your personal identity remains anonymous. This allows for honest, vulnerable discussions without the social pressure of being identified."
-					}
-				},
-				{
-					"@type": "Question",
-					"name": "How do I know my Enneagram type?",
-					"acceptedAnswer": {
-						"@type": "Answer",
-						"text": "Though you can take tests, we advise that you deduce your Enneagram type after immersing yourself in the system and doing some self reflection. You can also explore our Enneagram Corner to learn more about each type and confirm your results."
+						"text": "9takes uses the Enneagram personality system (types 1-9). Each user identifies with a type, allowing you to see how different personality types respond to the same questions."
 					}
 				}
 			]
 		}
-	</script>
-</svelte:head>
+	}}
+	additionalMeta={[
+		{ name: 'keywords', content: 'anonymous questions, personality types, enneagram, Q&A platform, diverse perspectives, give-first system' },
+		{ name: 'twitter:label1', content: 'Active Questions' },
+		{ name: 'twitter:data1', content: `${data.questionsAndTags?.length || 0}+` }
+	]}
+/>
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
 	<div class="questions-container" class:no-animation={!transitionEnabled} in:fade={{ duration }}>

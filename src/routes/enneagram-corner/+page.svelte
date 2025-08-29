@@ -1,67 +1,67 @@
 <!-- src/routes/enneagram-corner/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
-	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
+	import SEOHead from '$lib/components/SEOHead.svelte';
 
 	export let data: PageData;
 
 	const blogSections = [
 		{
 			id: 'understanding',
-			title: '🧬 Core Psychology: Master the System',
-			subtitle: 'The operating system behind all human behavior',
+			title: 'Understanding the Enneagram',
+			subtitle: 'Master the fundamental principles of personality psychology',
 			type: 'overview',
-			linkTitle: 'Core Psychology'
+			linkTitle: 'Core Concepts'
 		},
 		{
 			id: 'nine-types',
-			title: '🎭 The 9 Types: Deep Psychological Profiles',
-			subtitle: 'Which childhood wound shaped your entire life?',
+			title: 'The Nine Personality Types',
+			subtitle: 'Deep dive into each type\'s motivations, fears, and growth paths',
 			type: 'nine-types',
 			linkTitle: 'All 9 Types'
 		},
 		{
 			id: 'personal-development',
-			title: '🚀 Personality Maxing: Transform Your Wiring',
-			subtitle: 'Stop generic self-help. Use type-specific strategies that actually work',
+			title: 'Personal Development',
+			subtitle: 'Type-specific strategies for authentic growth and transformation',
 			type: 'development',
-			linkTitle: 'Personality Maxing'
+			linkTitle: 'Growth Strategies'
 		},
 		{
 			id: 'relationships',
-			title: '💔 Relationship Patterns: Break the Cycle',
-			subtitle: 'Why you sabotage love the same way every time',
+			title: 'Relationships & Compatibility',
+			subtitle: 'Navigate relationships with deeper understanding and empathy',
 			type: 'relationships',
-			linkTitle: 'Relationship Dynamics'
+			linkTitle: 'Relationship Insights'
 		},
 		{
 			id: 'mental-health',
-			title: '🧠 Mental Health: Type-Specific Healing',
-			subtitle: 'Understand your unique vulnerabilities and build resilience that actually works',
+			title: 'Mental Health & Wellness',
+			subtitle: 'Type-aware approaches to emotional well-being and resilience',
 			type: 'mental-health',
-			linkTitle: 'Mental Health Hub'
+			linkTitle: 'Wellness Resources'
 		},
 		{
 			id: 'workplace',
-			title: '💼 Career Optimization: Work With Your Type',
-			subtitle: 'Stop fighting your nature. Build a career that fits',
+			title: 'Career & Leadership',
+			subtitle: 'Leverage your natural strengths in professional settings',
 			type: 'workplace',
-			linkTitle: 'Career Strategy'
+			linkTitle: 'Career Insights'
 		},
 		{
 			id: 'resources',
-			title: '🔬 Resources: Tools That Actually Work',
-			subtitle: "We tested everything so you don't have to",
+			title: 'Tools & Resources',
+			subtitle: 'Curated collection of books, tests, and practical applications',
 			type: 'resources',
-			linkTitle: 'Verified Resources'
+			linkTitle: 'Resources'
 		},
 		{
 			id: 'situations',
-			title: '🎯 Real-World Behaviors: Types in Action',
-			subtitle: "From first dates to crisis mode — predict anyone's behavior",
+			title: 'Types in Real Life',
+			subtitle: 'How each type responds to everyday situations and challenges',
 			type: 'situational',
-			linkTitle: 'Situational Analysis'
+			linkTitle: 'Real-World Examples'
 		}
 	];
 
@@ -164,42 +164,40 @@
 		}
 	</script>
 </svelte:head>
-<!-- here -->
-<BlogPageHead
-	data={{
-		title: 'The Enneagram: Complete Psychological Operating Manual | 9takes',
-		description:
-			'Stop living on autopilot. Decode your psychological wiring, break self-sabotage patterns, and master human behavior. From childhood wounds to adult transformation.'
-	}}
-	slug={'enneagram-corner'}
+
+<SEOHead
+	title="The Enneagram: Complete Psychological Operating Manual | 9takes"
+	description="Stop living on autopilot. Decode your psychological wiring, break self-sabotage patterns, and master human behavior. From childhood wounds to adult transformation."
+	canonical="https://9takes.com/enneagram-corner"
+	twitterCardType="summary_large_image"
+	ogImage="https://9takes.com/enneagram-corner-card.webp"
+	additionalMeta={[
+		{ name: 'keywords', content: 'enneagram, personality types, personality psychology, self-improvement, personal growth, mental health, relationships, career development' }
+	]}
 />
 
-<main>
-	<h1>Your Mind Has Been Running the Same Program Since Age 5</h1>
+<main class="enneagram-corner-page">
+	<h1>Discover Your Enneagram Type and Transform Your Life</h1>
 
 	<div class="authority-section">
 		<p class="intro-text">
-			<strong
-				>Every decision you've made. Every relationship that failed. Every success you achieved.</strong
-			> They all follow a pattern you didn't choose — a psychological operating system installed in childhood
-			that's been running your life ever since.
+			<strong>The Enneagram is more than a personality test</strong> — it's a profound map of human consciousness
+			that reveals why you think, feel, and act the way you do.
 		</p>
 		<p class="intro-text">
-			The Enneagram doesn't just describe your personality. It reveals the exact mechanisms driving
-			your behavior, the childhood wound that created them, and most importantly — <strong
-				>how to finally take control.</strong
-			>
+			By understanding your core type, you'll uncover the hidden patterns driving your decisions,
+			relationships, and life choices. More importantly, you'll discover <strong>proven pathways
+			for growth and transformation</strong> specific to your personality structure.
 		</p>
 		<div class="authority-badges">
-			<div class="badge-item">✓ 100+ Deep Psychology Guides</div>
-			<div class="badge-item">✓ Type-Specific Strategies</div>
-			<div class="badge-item">✓ No Generic Advice</div>
-			<div class="badge-item">✓ Actual Transformation Tools</div>
+			<div class="badge-item">✓ 100+ In-Depth Guides</div>
+			<div class="badge-item">✓ Evidence-Based Insights</div>
+			<div class="badge-item">✓ Practical Applications</div>
 		</div>
 	</div>
 
 	<nav aria-label="Table of Contents">
-		<h2>Choose Your Transformation Path</h2>
+		<h2>Explore the Enneagram</h2>
 		<ul>
 			{#each blogSections as section}
 				<li>
@@ -224,7 +222,7 @@
 				{#each data.enneagramBlogs
 					.filter((blog) => blog.type[0] === section.type)
 					.slice(0, section.type === 'nine-types' ? 9 : 3) as blog (blog.slug)}
-					<article class="grid-item">
+					<article class="grid-item" class:no-image={!blog.pic}>
 						<a
 							href="/enneagram-corner/{blog.slug}"
 							class="blog-link"
@@ -232,16 +230,15 @@
 						>
 							<div
 								class="grid-item-content"
+								class:has-image={blog.pic}
 								style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
 							>
+								{#if !blog.pic}
+									<div class="pattern-overlay"></div>
+								{/if}
 								<div class="text-overlay">
-									<h3
-										style="padding: 2rem 0 0rem;"
-										style:--tag={`h-blog-${blog.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
-									>
-										{blog.title}
-									</h3>
-									<p style="margin-top: .3rem;">{blog.description}</p>
+									<h3>{blog.title}</h3>
+									<p>{blog.description}</p>
 								</div>
 							</div>
 						</a>
@@ -262,7 +259,7 @@
 										<ArrowRightIcon
 											iconStyle={'margin-left: .5rem'}
 											height={'1.5rem'}
-											fill={'var(--accent)'}
+											fill={'white'}
 										/>
 									</h3>
 								</div>
@@ -276,39 +273,39 @@
 </main>
 
 <div class="resources-footer">
-	<h2>Why 9takes Is Different</h2>
+	<h2>Why Choose 9takes</h2>
 	<div class="difference-grid">
 		<div class="difference-item">
-			<h3>🧠 Psychological Depth</h3>
+			<h3>Deep Psychological Insights</h3>
 			<p>
-				We don't just list traits. We reveal the childhood wounds, defense mechanisms, and
-				unconscious patterns driving each type.
+				Go beyond surface-level descriptions to understand the core motivations,
+				fears, and desires that shape each personality type.
 			</p>
 		</div>
 		<div class="difference-item">
-			<h3>🎯 Precision Tools</h3>
+			<h3>Personalized Growth Strategies</h3>
 			<p>
-				No generic "be more confident" advice. Every strategy is tailored to your exact
-				psychological wiring.
+				Receive specific, actionable guidance tailored to your unique
+				personality type and individual growth path.
 			</p>
 		</div>
 		<div class="difference-item">
-			<h3>🔬 Evidence-Based</h3>
+			<h3>Research-Based Approach</h3>
 			<p>
-				Built on decades of research from Riso, Hudson, Palmer, and Chestnut. Psychology, not
-				personality astrology.
+				Grounded in decades of psychological research and the work of leading
+				Enneagram experts and practitioners.
 			</p>
 		</div>
 		<div class="difference-item">
-			<h3>💪 Transformation Focus</h3>
-			<p>We're not here to put you in a box. We're here to show you how to break out of it.</p>
+			<h3>Practical Applications</h3>
+			<p>Transform theory into practice with real-world examples, exercises, and tools for immediate implementation.</p>
 		</div>
 	</div>
 	<div class="cta-section">
-		<h3>Ready to Decode Your Operating System?</h3>
+		<h3>Start Your Enneagram Journey</h3>
 		<p>
-			Start with our comprehensive type assessments or dive straight into your type's deep
-			psychological profile.
+			Whether you're new to the Enneagram or deepening your understanding,
+			we have resources to support your growth.
 		</p>
 		<div class="cta-buttons">
 			<a href="/enneagram-corner/subtopic/nine-types" class="cta-primary">Explore All 9 Types</a>
@@ -318,11 +315,42 @@
 </div>
 
 <style lang="scss">
+	// Page-specific isolation wrapper
+	.enneagram-corner-page {
+		// Reset global styles that might interfere
+		article {
+			margin: 0;
+			padding: 0;
+			border-radius: 0;
+		}
+		
+		a {
+			&::after {
+				display: none;
+			}
+		}
+		
+		h1, h2, h3, h4, p {
+			margin-top: 0;
+			padding-top: 0;
+		}
+	}
+	
+	h1 {
+		text-align: center;
+		margin: 3rem auto 2rem;
+		max-width: 900px;
+		color: #2d3436;
+		font-size: 2.5rem;
+		line-height: 1.3;
+	}
+	
 	.authority-section {
-		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-		border-radius: 16px;
+		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+		
+		border-radius: 20px;
 		padding: 3rem;
-		margin: 2rem 0;
+		margin: 2rem auto;
 		color: white;
 		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 
@@ -332,7 +360,7 @@
 			margin-bottom: 1.5rem;
 
 			strong {
-				color: #ffd700;
+				color: #a29bfe;
 				font-weight: 700;
 			}
 		}
@@ -390,8 +418,9 @@
 				}
 
 				h3 {
-					color: #ffd700;
-					font-size: 1.3rem;
+					color: #a29bfe;
+					font-size: 1.25rem;
+					font-weight: 600;
 					margin-bottom: 1rem;
 				}
 
@@ -413,7 +442,8 @@
 			h3 {
 				font-size: 2rem;
 				margin-bottom: 1rem;
-				color: #ffd700;
+				color: white;
+				font-weight: 700;
 			}
 
 			p {
@@ -447,12 +477,12 @@
 
 					&.cta-secondary {
 						background: transparent;
-						color: #ffd700;
-						border: 2px solid #ffd700;
+						color: white;
+						border: 2px solid rgba(255, 255, 255, 0.3);
 
 						&:hover {
-							background: #ffd700;
-							color: #1a1a2e;
+							background: rgba(255, 255, 255, 0.1);
+							border-color: rgba(255, 255, 255, 0.5);
 						}
 					}
 				}
@@ -515,17 +545,23 @@
 
 	section {
 		margin-bottom: 4rem;
+		padding: 0 1.5rem;
 
 		h2 {
-			font-size: 2rem;
-			margin-bottom: 0.5rem;
+			font-size: 1.875rem;
+			font-weight: 700;
+			margin-bottom: 0.75rem;
+			color: #2d3436;
+			letter-spacing: -0.02em;
 		}
 
 		.section-subtitle {
-			font-size: 1.1rem;
-			opacity: 0.8;
-			margin-bottom: 1.5rem;
-			color: var(--text-muted);
+			font-size: 1.05rem;
+			opacity: 0.75;
+			margin-bottom: 2rem;
+			color: #636e72;
+			max-width: 650px;
+			line-height: 1.6;
 		}
 	}
 
@@ -533,79 +569,230 @@
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		gap: 1.5rem;
+		margin: 0 auto;
+		max-width: 1400px;
 
 		&.nine-types {
 			grid-template-columns: repeat(3, 1fr);
+			gap: 1.5rem;
 		}
 	}
 
-	.grid-item {
-		aspect-ratio: 1 / 1;
-		padding: 0;
+	.blog-grid-container .grid-item {
+		// Override global article styles
+		margin: 0 !important;
+		padding: 0 !important;
+		aspect-ratio: 3 / 4;
+		border-radius: 12px;
 		overflow: hidden;
-		transition:
-			transform 0.3s ease,
-			box-shadow 0.3s ease;
+		position: relative;
+		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+		
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		cursor: pointer;
+		border: 1px solid rgba(0, 0, 0, 0.06);
 
 		&:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+			transform: translateY(-4px);
+			box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
+			border-color: rgba(108, 92, 231, 0.2);
+
+			.grid-item-content {
+				&::after {
+					transform: scale(1.05);
+				}
+			}
+
+			.text-overlay {
+				background: linear-gradient(
+					to top,
+					rgba(0, 0, 0, 0.95) 0%,
+					rgba(0, 0, 0, 0.8) 50%,
+					rgba(0, 0, 0, 0.3) 100%
+				);
+
+				p {
+					opacity: 1;
+					transform: translateY(0);
+				}
+			}
+			
+			&.no-image {
+				background: linear-gradient(135deg, #1a1a2e 0%, #2d3436 100%);
+				border-color: rgba(255, 255, 255, 0.08);
+				
+				.text-overlay {
+					background: transparent;
+				}
+				
+				&:hover {
+					background: linear-gradient(135deg, #2d3436 0%, #3d4447 100%);
+				}
+			}
 		}
 	}
 
-	.blog-link {
+	.blog-grid-container .blog-link {
 		display: block;
-		text-decoration: none;
-		color: inherit;
+		text-decoration: none !important;
+		color: inherit !important;
 		height: 100%;
+		width: 100%;
+		
+		// Override global blog link styles
+		&::after {
+			display: none !important;
+		}
+		
+		&:hover {
+			text-decoration: none !important;
+			color: inherit !important;
+		}
 	}
 
 	.grid-item-content {
 		height: 100%;
+		width: 100%;
 		background-size: cover;
 		background-position: center;
+		background-repeat: no-repeat;
 		position: relative;
+		display: flex;
+		align-items: flex-end;
+		
+		&.has-image::after {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background: inherit;
+			background-size: inherit;
+			background-position: inherit;
+			transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+			z-index: 0;
+		}
+		
+		&:not(.has-image) {
+			background: transparent;
+		}
+	}
+	
+	.pattern-overlay {
+		position: absolute;
+		inset: 0;
+		background-image: 
+			linear-gradient(45deg, rgba(255,255,255,0.02) 25%, transparent 25%),
+			linear-gradient(-45deg, rgba(255,255,255,0.02) 25%, transparent 25%),
+			linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.02) 75%),
+			linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.02) 75%);
+		background-size: 30px 30px;
+		background-position: 0 0, 0 15px, 15px -15px, -15px 0px;
+		opacity: 1;
+		z-index: 1;
 	}
 
 	.text-overlay {
 		position: absolute;
-		inset: 0;
-		background-color: rgba(0, 0, 0, 0.6);
-		color: var(--accent);
-		padding: 0.5rem;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+		padding: 1.5rem;
+		background: linear-gradient(
+			to top,
+			rgba(0, 0, 0, 0.9) 0%,
+			rgba(0, 0, 0, 0.7) 60%,
+			rgba(0, 0, 0, 0.2) 100%
+		);
+		color: white;
 		display: flex;
 		flex-direction: column;
+		justify-content: flex-end;
+		gap: 0.75rem;
+		min-height: 60%;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	
+	.no-image .text-overlay {
+		background: transparent;
+		min-height: 100%;
 		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 2rem;
 	}
 
-	h3 {
-		font-size: 1.2rem;
-		margin-bottom: 0.5rem;
-		line-height: 1.3;
-	}
-
-	p {
-		font-size: 0.8rem;
-		line-height: 1.3;
+	.blog-grid-container .text-overlay h3 {
+		font-size: 1.15rem !important;
+		font-weight: 600;
+		margin: 0 !important;
+		padding: 0 !important;
+		line-height: 1.35;
+		color: white !important;
+		letter-spacing: -0.01em;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+		hyphens: auto;
 		display: -webkit-box;
 		-webkit-line-clamp: 3;
+		line-clamp: 3;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
+	
+	.no-image .text-overlay h3 {
+		-webkit-line-clamp: 4;
+		line-clamp: 4;
+		font-size: 1.25rem !important;
+	}
 
-	.view-all {
-		margin-top: 0.5rem;
-		padding: 0;
-		border-radius: var(--base-border-radius);
+	.blog-grid-container .text-overlay p {
+		font-size: 0.9rem !important;
+		line-height: 1.5;
+		opacity: 0;
+		color: rgba(255, 255, 255, 0.95) !important;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		transition: all 0.3s ease;
+		margin: 0 !important;
+		padding: 0 !important;
+		font-weight: 400;
+		transform: translateY(10px);
+	}
+	
+	.no-image .text-overlay p {
+		opacity: 0.95;
+		transform: none;
+		-webkit-line-clamp: 3;
+		line-clamp: 3;
+	}
+
+	.blog-grid-container .view-all {
+		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		
 		.grid-item-content {
-			background-color: var(--primary-light);
+			background: transparent;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+			&::after {
+				display: none;
+			}
 		}
 
 		.text-overlay {
-			background-color: rgba(0, 0, 0, 0.3);
-			justify-content: center;
+			background: transparent !important;
+			min-height: 100%;
+			padding: 2rem;
 			align-items: center;
+			justify-content: center;
 			text-align: center;
 		}
 
@@ -613,57 +800,99 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			font-size: 0.9rem;
+			font-size: 1.15rem !important;
+			font-weight: 600;
+			color: white !important;
+			margin: 0 !important;
+			padding: 0 !important;
+			-webkit-line-clamp: unset;
+			line-clamp: unset;
+			overflow: visible;
+		}
+		
+		&:hover {
+			background: linear-gradient(135deg, #3d4447 0%, #2a2a3e 100%);
+			transform: translateY(-4px);
+			border-color: rgba(255, 255, 255, 0.15);
+			
+			h3 {
+				color: #a29bfe !important;
+			}
 		}
 	}
 
-	@media (max-width: 1024px) {
+	@media (max-width: 1200px) {
 		.blog-grid-container {
-			grid-template-columns: repeat(4, 1fr);
+			grid-template-columns: repeat(3, 1fr);
+			gap: 1.5rem;
 
 			&.nine-types {
 				grid-template-columns: repeat(3, 1fr);
 			}
-		}
-
-		h3 {
-			font-size: 1.2rem;
-		}
-
-		p {
-			font-size: 0.9rem;
-			-webkit-line-clamp: 3;
 		}
 	}
 
 	@media (max-width: 768px) {
 		h1 {
 			font-size: 2rem;
+			line-height: 1.3;
 		}
 
 		section h2 {
-			font-size: 1.5rem;
+			font-size: 1.75rem;
 		}
 
 		.blog-grid-container,
 		.blog-grid-container.nine-types {
 			grid-template-columns: repeat(2, 1fr);
+			gap: 1rem;
 		}
 
-		h3 {
-			font-size: 1rem;
+		.grid-item {
+			aspect-ratio: 1 / 1;
 		}
 
-		p {
-			font-size: 0.8rem;
+		.text-overlay {
+			padding: 1.5rem 1rem 1rem;
+			min-height: 50%;
+		}
+
+		.text-overlay h3 {
+			font-size: 1.1rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.text-overlay p {
+			font-size: 0.85rem;
 			-webkit-line-clamp: 2;
+			line-clamp: 2;
 		}
 	}
 
 	@media (max-width: 480px) {
 		.blog-grid-container,
 		.blog-grid-container.nine-types {
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: 1fr;
+			gap: 1.5rem;
+		}
+
+		.grid-item {
+			aspect-ratio: 16 / 9;
+		}
+
+		.text-overlay {
+			min-height: auto;
+			padding: 1.25rem;
+		}
+
+		.text-overlay h3 {
+			font-size: 1.25rem;
+		}
+
+		.text-overlay p {
+			font-size: 0.9rem;
+			-webkit-line-clamp: 3;
+			line-clamp: 3;
 		}
 	}
 </style>

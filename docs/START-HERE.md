@@ -137,6 +137,74 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 
 **Phase 1 Launch Status:** READY - Complete 4-week content calendar with targeted engagement strategy
 
+### Reddit Strategy (HIGH-VALUE ORGANIC GROWTH CHANNEL)
+
+**Target Communities by Priority:**
+
+**Tier 1: Personality & Psychology** (Direct fit - 280k+ potential reach)
+- r/Enneagram (47k) - Home base for expertise
+- r/mbti (280k) - Personality enthusiasts
+- r/socialskills (3.5M) - "Decode social dynamics" angle
+- r/DecidingToBeBetter (1.5M) - Personality-maxing audience
+
+**Tier 2: Relationship & Dating** (12M+ reach - Highest conversion)
+- r/relationship_advice (12M) - Conflict resolution goldmine
+- r/dating_advice (2.8M) - "Read their real motivations"
+- r/AskMen / r/AskWomen (5M/4M) - Gender-specific dynamics
+- r/attachment_theory (85k) - Deep relationship patterns
+
+**Daily Reddit Workflow:**
+
+**Morning Scan (15 min)**
+```
+Search queries to run daily:
+- site:reddit.com "boyfriend" ("doesn't understand" OR "won't listen") after:[yesterday]
+- site:reddit.com "why do I" ("always" OR "never") after:[yesterday]
+- site:reddit.com "[trending celebrity]" "personality" after:[yesterday]
+```
+
+**Value-First Response Strategy:**
+1. Find 3-5 posts describing behavior patterns
+2. Comment with type-based insights (NO LINKS)
+3. Example: "This sounds like classic Type 8 behavior - they test boundaries to see if you'll fold..."
+4. Track high-engagement responses
+
+**Weekly Reddit Goals:**
+- 20+ value-first comments
+- 2-3 deep analysis posts
+- 1 trending celebrity analysis
+- Track: Upvotes, DMs, profile clicks
+
+**Conversion Path:**
+Hook → Curiosity → Education → Soft Pitch → 9takes Discovery
+
+**Quick Reddit Search Queries (Copy & Paste):**
+
+```bash
+# Relationship conflicts (run daily)
+site:reddit.com "boyfriend" ("doesn't understand" OR "won't listen" OR "different perspective") after:2025-08-28
+site:reddit.com "girlfriend" ("emotional" OR "cold" OR "distant" OR "clingy") after:2025-08-28
+site:reddit.com "partner" ("conflict" OR "fight" OR "argument") "different values" after:2025-08-28
+
+# Self-discovery moments (high engagement)
+site:reddit.com "why do I" ("always" OR "never" OR "can't stop") after:2025-08-28
+site:reddit.com "anyone else" ("feel like" OR "struggle with" OR "relate to") after:2025-08-28
+
+# Celebrity/trending (check when news breaks)
+site:reddit.com "[celebrity name]" ("toxic" OR "narcissist" OR "personality") after:2025-08-28
+```
+
+**Response Templates:**
+
+**Type Pattern Recognition:**
+> "This sounds like classic Type [X] behavior - [explain pattern]. Type [X]s often [specific behavior] because [psychological reason]. Try [specific tactic]. The key is understanding they're not trying to be [negative trait] - their emotional foundation is [core motivation]."
+
+**Relationship Conflict:**
+> "This dynamic often happens when a Type [X] (partner A's behavior) meets a Type [Y] (partner B's behavior). The [X] needs [specific need], while the [Y] needs [different need]. Bridge this by [specific action]."
+
+**Self-Discovery:**
+> "What you're describing aligns with Type [X] patterns - especially the part about [specific detail they mentioned]. Type [X]s often struggle with [common challenge] because [psychological explanation]. Have you noticed you also [related pattern]?"
+
 ### Twitter Action Items (Today - Phase 1 Launch)
 
 **READY TO POST: Love Languages Content**
@@ -188,6 +256,8 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 │   ├── 05-response-templates.md
 │   ├── 06-emergency-content-bank.md
 │   └── 07-metrics-tracker.md
+├── reddit/
+│   └── reddit-plan.md (Comprehensive engagement strategy)
 └── START-HERE.md (THIS FILE)
 ```
 
@@ -219,20 +289,35 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 ### Monday
 
 - Post Twitter question hook (9 AM)
+- Reddit: Morning scan + 3-5 value comments
 - Write 1 new authority post
 - Update metrics tracker
 
 ### Wednesday
 
 - Post main Twitter thread (12 PM)
+- Reddit: Deep analysis post in r/relationship_advice
 - Write 1 new authority post
-- Engage with big accounts
+- Engage with big accounts (Twitter + Reddit)
 
 ### Friday
 
 - Post Twitter follow-up with link
+- Reddit: Celebrity personality analysis (if trending)
 - Complete 1 draft post
 - Plan next week's content
+
+### Daily Reddit Routine (30 min)
+
+**Morning (15 min):**
+- Run search queries for fresh posts
+- Identify 3-5 high-value threads
+- Quick value comments on 2-3 posts
+
+**Evening (15 min):**
+- Check for responses/DMs
+- Engage with follow-up questions
+- Track metrics (upvotes, awards, profile clicks)
 
 ## 📈 Success Metrics
 
@@ -240,8 +325,10 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 
 - ✅ 4 of 5 critical gap posts published (Compatibility Matrix added)
 - ⏳ 150 Twitter followers (from 28) - IN PROGRESS
+- ⏳ 100+ Reddit karma from value comments - NEW TARGET
 - ⏳ 10k+ blog traffic increase - IN PROGRESS
-- ⏳ 3 big accounts notice you - IN PROGRESS
+- ⏳ 3 big accounts notice you (Twitter/Reddit) - IN PROGRESS
+- ⏳ 50+ Reddit → 9takes referrals - NEW TARGET
 
 ### 6-Month Targets
 
@@ -309,9 +396,11 @@ Transform 9takes into THE definitive authority for personality-based life optimi
 
 Fill the 5 critical gaps this week. These have highest search volume and lowest competition.
 
-### Priority 2: Twitter Execution
+### Priority 2: Social Media Execution (Twitter + Reddit)
 
-Launch Week 1 strategy. We have complete templates ready - just execute.
+- **Twitter:** Launch Week 1 strategy with ready templates
+- **Reddit:** Start daily value-first commenting routine (30 min/day)
+- Focus on r/relationship_advice for highest conversion potential
 
 ### Priority 3: Blog Updates
 

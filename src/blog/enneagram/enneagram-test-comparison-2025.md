@@ -685,7 +685,7 @@ Remember: The Enneagram isn't about getting a number assigned to you. It's about
     "name": "9takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/9takes-logo.svg"
+      "url": "https://9takes.com/brand/aero.png"
     }
   },
   "mainEntityOfPage": {
@@ -694,7 +694,7 @@ Remember: The Enneagram isn't about getting a number assigned to you. It's about
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://9takes.com/enneagram-test-comparison.jpg",
+    "url": "https://9takes.com/blogs/enneagram-inspiration-docs.webp",
     "width": 1200,
     "height": 630
   },

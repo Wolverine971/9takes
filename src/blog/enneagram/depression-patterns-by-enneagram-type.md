@@ -1108,7 +1108,7 @@ The emotions behind your depression make complete sense. The pattern can be lovi
     "name": "9takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/9takes-logo.svg"
+      "url": "https://9takes.com/brand/aero.png"
     }
   },
   "mainEntityOfPage": {
@@ -1117,7 +1117,7 @@ The emotions behind your depression make complete sense. The pattern can be lovi
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://9takes.com/depression-enneagram-types.jpg",
+    "url": "https://9takes.com/blogs/faces-of-depression.webp",
     "width": 1200,
     "height": 630
   },
