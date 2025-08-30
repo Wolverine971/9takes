@@ -96,6 +96,24 @@
 			}, 100);
 		}
 	}
+	
+	// Also update content store directly when post content changes
+	$: if (post?.content && browser) {
+		// Wait for DOM to update with new content
+		tick().then(() => {
+			// Add a small delay to ensure {@html} has rendered
+			setTimeout(() => {
+				const node = document.querySelector('.article-body');
+				if (node) {
+					const currentContent = node.innerHTML;
+					if (currentContent && currentContent.trim() !== '') {
+						// Trigger content update which will cause TableOfContents to process
+						contentStore.set(currentContent);
+					}
+				}
+			}, 100); // Increased delay to ensure DOM is fully rendered
+		});
+	}
 
 	// Update page data when data prop changes
 	$: if (data && mounted) {
@@ -126,29 +144,51 @@
 	// Set up content observer for Table of Contents
 	function setupContentObserver() {
 		if (!browser) return;
-		const node = document.querySelector('.article-body');
 		
-		if (!node) {
-			setTimeout(setupContentObserver, 500);
-		} else {
-			// Disconnect existing observer if any
-			if (contentObserver) {
-				contentObserver.disconnect();
-			}
+		// Wait for next tick to ensure DOM is updated
+		tick().then(() => {
+			const node = document.querySelector('.article-body');
 			
-			contentObserver = new MutationObserver((mutations) => {
-				mutations.forEach((mutation) => {
-					if (mutation.type === 'childList') {
-						contentStore.set(node.innerHTML);
+			if (!node) {
+				// Retry if node not found
+				setTimeout(setupContentObserver, 500);
+			} else {
+				// Disconnect existing observer if any
+				if (contentObserver) {
+					contentObserver.disconnect();
+				}
+				
+				// Set initial content immediately
+				const currentContent = node.innerHTML;
+				if (currentContent && currentContent.trim() !== '') {
+					contentStore.set(currentContent);
+				}
+				
+				// Set up observer for future changes
+				contentObserver = new MutationObserver((mutations) => {
+					// Debounce updates to avoid excessive re-renders
+					let hasRelevantChanges = false;
+					mutations.forEach((mutation) => {
+						if (mutation.type === 'childList' || mutation.type === 'characterData') {
+							hasRelevantChanges = true;
+						}
+					});
+					
+					if (hasRelevantChanges) {
+						const updatedContent = node.innerHTML;
+						if (updatedContent && updatedContent.trim() !== '') {
+							contentStore.set(updatedContent);
+						}
 					}
 				});
-			});
-			
-			contentObserver.observe(node, { childList: true, subtree: true });
-			
-			// Also set initial content
-			contentStore.set(node.innerHTML);
-		}
+				
+				contentObserver.observe(node, { 
+					childList: true, 
+					subtree: true,
+					characterData: true 
+				});
+			}
+		});
 	}
 
 	// Set up the page observers and dynamic components
@@ -240,12 +280,19 @@
 	<TableOfContents 
 		{contentStore} 
 		pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
+		sidePosition="right"
 	/>
 
 	<div class="article-body">
 		{@html post.content}
 	</div>
 </article>
+
+<TableOfContents 
+		{contentStore} 
+		pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
+		sidePosition="right"
+	/>
 
 <!-- Sidebar components - positioned absolutely -->
 <div class="sidebar-container">

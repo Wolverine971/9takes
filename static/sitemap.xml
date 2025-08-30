@@ -288,6 +288,9 @@
     <lastmod>2025-05-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/greek-statue-being-ghosted.webp</image:loc>
+    </image:image>
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides/using-the-enneagram-for-self-development</loc>
@@ -305,6 +308,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/blogs/looking-up-at-the-night-sky.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/enneagram-corner/attachment-styles-and-enneagram-types</loc>
+    <lastmod>2025-08-29T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/attachment_styles_enneagram_types_psychology.webp</image:loc>
     </image:image>
 </url>
 <url>

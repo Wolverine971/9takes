@@ -18,6 +18,7 @@
 	export let collapseLongSections: boolean = true;
 	export let maxH3sPerSection: number = 3;
 	export let alwaysShowFirstH3: boolean = true;
+	export let sidePosition: 'left' | 'right' | 'none' = 'left'; // New prop to control side position
 	
 	// Smart format detection thresholds
 	const FORMAT_THRESHOLDS = {
@@ -64,18 +65,45 @@
 		visible && toc !== '' && windowWidth >= desktopBreakpoint && sidebarPosition !== null;
 
 	function calculateSidebarPosition(winWidth: number, contentW: number, sidebarW: number) {
-		// Calculate the left position relative to the main content column
-		const mainContentLeft = Math.max((winWidth - contentW) / 2, 16); // Minimum 16px from edge
-		const sidebarLeft = mainContentLeft - sidebarW - 24; // 24px gap from main content
+		// Main content has max-width of 56rem (896px)
+		const maxContentWidth = 56 * 16; // 896px
+		const actualContentWidth = Math.min(contentW, maxContentWidth);
+		
+		if (sidePosition === 'left') {
+			// Calculate the left position relative to the main content column
+			const mainContentLeft = Math.max((winWidth - actualContentWidth) / 2, 16); // Minimum 16px from edge
+			const sidebarLeft = mainContentLeft - sidebarW - 24; // 24px gap from main content
 
-		// If sidebar would be positioned less than 16px from left edge, hide it
-		if (sidebarLeft < 16) {
-			return null; // Will cause sidebar to hide
+			// If sidebar would be positioned less than 16px from left edge, hide it
+			if (sidebarLeft < 16) {
+				return null; // Will cause sidebar to hide
+			}
+
+			return {
+				left: `${sidebarLeft}px`,
+				right: undefined
+			};
+		} else {
+			// For right positioning, calculate based on main content position
+			const mainContentLeft = (winWidth - actualContentWidth) / 2;
+			const mainContentRight = mainContentLeft + actualContentWidth;
+			
+			// Position sidebar to the right of main content with 24px gap
+			const sidebarLeft = mainContentRight + 24;
+			
+			// Check if there's enough space for the sidebar on the right
+			if (sidebarLeft + sidebarW > winWidth - 16) {
+				return null; // Will cause sidebar to hide
+			}
+
+			// Calculate distance from right edge
+			const rightPosition = winWidth - sidebarLeft - sidebarW;
+
+			return {
+				left: undefined,
+				right: `${rightPosition}px`
+			};
 		}
-
-		return {
-			left: `${sidebarLeft}px`
-		};
 	}
 
 	function analyzeContent(html: string): ContentAnalysis {
@@ -219,12 +247,51 @@
 			const analysis = analyzeContent(html);
 			contentAnalysis = analysis;
 
-			const tempDiv = document.createElement('div');
-			tempDiv.innerHTML = html;
-
-			const headings = [...tempDiv.querySelectorAll(analysis.headerSelector)].filter(
-				(heading) => heading.textContent?.trim() !== title
-			);
+			// First, find the article content container (could be .article-body or #blogA)
+			const actualArticleBody = document.querySelector('.article-body') || document.querySelector('#blogA');
+			
+			let headings: Element[] = [];
+			
+			if (actualArticleBody) {
+				// Get actual headings from the DOM
+				const actualHeadings = [...actualArticleBody.querySelectorAll(analysis.headerSelector)].filter(
+					(heading) => heading.textContent?.trim() !== title
+				);
+				
+				// Set IDs on actual DOM elements
+				actualHeadings.forEach((heading) => {
+					if (!heading.id) {
+						const headingText = heading.textContent?.trim() || 'Untitled Section';
+						const id = `toc-${headingText
+							.toLowerCase()
+							.replace(/[^\w\s-]/g, '')
+							.replace(/\s+/g, '-')}`;
+						heading.id = id;
+					}
+				});
+				
+				headings = actualHeadings;
+			} else {
+				// Fallback: parse from HTML string if DOM elements not found
+				const tempDiv = document.createElement('div');
+				tempDiv.innerHTML = html;
+				
+				headings = [...tempDiv.querySelectorAll(analysis.headerSelector)].filter(
+					(heading) => heading.textContent?.trim() !== title
+				);
+				
+				// Generate IDs for these temporary elements (won't persist to actual DOM)
+				headings.forEach((heading) => {
+					if (!heading.id) {
+						const headingText = heading.textContent?.trim() || 'Untitled Section';
+						const id = `toc-${headingText
+							.toLowerCase()
+							.replace(/[^\w\s-]/g, '')
+							.replace(/\s+/g, '-')}`;
+						heading.id = id;
+					}
+				});
+			}
 
 			if (headings.length < analysis.minThreshold) {
 				return { tocHtml: '', tocStructure: [] };
@@ -247,18 +314,8 @@
 				const headingText = heading.textContent?.trim() || 'Untitled Section';
 				const displayText = headingText;
 
-				// Generate a valid ID if missing
-				const id =
-					heading.id ||
-					`toc-${headingText
-						.toLowerCase()
-						.replace(/[^\w\s-]/g, '')
-						.replace(/\s+/g, '-')}`;
-
-				// Make sure the heading has an ID for linking
-				if (!heading.id) {
-					heading.id = id;
-				}
+				// Use the ID that was already set on the actual DOM element
+				const id = heading.id;
 
 				link.href = `#${id}`;
 				link.textContent = displayText;
@@ -566,8 +623,8 @@
 {#if showSidebar && sidebarPosition}
 	<aside
 		class="toc-sidebar"
-		style="left: {sidebarPosition.left};"
-		transition:fly={{ x: -100, duration: 300 }}
+		style="{sidebarPosition.left ? `left: ${sidebarPosition.left}` : `right: ${sidebarPosition.right}`};"
+		transition:fly={{ x: sidePosition === 'left' ? -100 : 100, duration: 300 }}
 		aria-label="Table of contents navigation"
 	>
 		<nav>
@@ -602,8 +659,33 @@
 		font-size: var(--font-size-sm);
 		line-height: var(--line-height-tight);
 		max-width: 14rem;
-		z-index: 10;
-		overflow: hidden;
+		z-index: 30; // Higher z-index to avoid conflicts with other sidebars
+		max-height: 70vh;
+		overflow-y: auto;
+		overflow-x: hidden;
+		
+		// Custom scrollbar
+		&::-webkit-scrollbar {
+			width: 6px;
+		}
+
+		&::-webkit-scrollbar-track {
+			background: transparent;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: rgba(0, 0, 0, 0.2);
+			border-radius: 3px;
+			
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.3);
+			}
+		}
+		
+		nav {
+			width: 100%;
+			padding: 0.5rem;
+		}
 	}
 
 	.toc-title {

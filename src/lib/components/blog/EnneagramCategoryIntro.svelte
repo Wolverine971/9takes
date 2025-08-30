@@ -45,19 +45,19 @@
 
 		<section id="article-list">
 			<h2>All Articles</h2>
-			<div class="blog-grid-container temp-three-row">
+			<div class="enneagram-blog-grid">
 				{#each blogs as eBlog}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
-						class="grid-item inline-it"
+						class="blog-card {!eBlog.pic ? 'no-image' : ''}"
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 					>
-						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
-							<h3 style:--tag={`h-blog-${eBlog.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}>
+						<div class="card-content">
+							<h3>
 								{eBlog.title}
 							</h3>
-							<p class="font-adjust-p">{eBlog.description}</p>
+							<p>{eBlog.description}</p>
 						</div>
 					</a>
 				{/each}
@@ -700,100 +700,221 @@
 {/if}
 
 <style lang="scss">
+	/* Style Guide Compliant Styles */
+	h1 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		color: #2d3436;
+		margin-bottom: 1.5rem;
+	}
+
+	h2 {
+		font-size: 1.875rem;
+		font-weight: 600;
+		color: #2d3436;
+		margin-bottom: 1rem;
+	}
+
 	h3 {
 		font-size: 1.5rem;
+		font-weight: 600;
+		color: #2d3436;
 	}
+
 	p {
-		font-size: 1rem;
+		font-size: 0.9rem;
+		color: #636e72;
+		line-height: 1.6;
+		margin-bottom: 1rem;
 	}
+
+	/* Disable default link arrows */
 	a::after {
 		display: none !important;
 	}
 
-	.blog-grid-container {
-		column-count: 3;
-		column-gap: 0.5rem;
-		orphans: 1;
+	/* Blog Grid - Style Guide Compliant */
+	.enneagram-blog-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
 		gap: 1.5rem;
+		margin-bottom: 4rem;
 	}
 
-	.blog-grid-container .grid-item {
-		margin-bottom: 0.5rem;
-		background-color: rgba(255, 255, 255, 0.5);
+	.blog-card {
+		aspect-ratio: 3 / 4;
+		border-radius: 12px;
+		background: white;
+		border: 1px solid rgba(0, 0, 0, 0.06);
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		text-decoration: none;
+		display: flex;
+		position: relative;
+		overflow: hidden;
 		background-size: cover;
 		background-position: center;
-		text-align: center;
-		border: var(--classic-border);
-		border-radius: var(--base-border-radius);
-		position: relative;
-		padding: 0.5rem;
-		height: 100%;
-		width: 100%;
-		gap: 1rem;
-		overflow: hidden;
-		text-overflow: clip;
+
 		&:hover {
-			text-decoration: none;
-			filter: sepia(100%) hue-rotate(160deg);
-			border: 1px solid var(--primary) !important;
+			transform: translateY(-4px);
+			box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
+			border-color: rgba(108, 92, 231, 0.2);
 		}
+
+		/* Dark cards for no-image items */
+		&.no-image {
+			background: linear-gradient(135deg, #1a1a2e 0%, #2d3436 100%);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+
+			&:hover {
+				background: linear-gradient(135deg, #2d3436 0%, #3d4447 100%);
+			}
+
+			.card-content {
+				background: none;
+
+				h3 {
+					color: white;
+				}
+
+				p {
+					color: rgba(255, 255, 255, 0.8);
+				}
+			}
+		}
+
+		.card-content {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 1.5rem;
+			background: linear-gradient(
+				to top,
+				rgba(0, 0, 0, 0.9) 0%,
+				rgba(0, 0, 0, 0.7) 60%,
+				rgba(0, 0, 0, 0.2) 100%
+			);
+			min-height: 60%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			gap: 0.75rem;
+
+			h3 {
+				color: white;
+				font-size: 1.15rem;
+				font-weight: 600;
+				line-height: 1.35;
+				margin: 0;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				line-clamp: 3;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+
+			p {
+				color: rgba(255, 255, 255, 0.95);
+				font-size: 0.875rem;
+				line-height: 1.5;
+				margin: 0;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				line-clamp: 2;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+		}
+	}
+
+	/* Legacy support */
+	.blog-grid-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5rem;
+		margin-bottom: 4rem;
 	}
 
 	.temp-three-row {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		gap: 0.5rem;
-		grid-row: inherit;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5rem;
 	}
 
-	.fit-card {
-		position: absolute;
-		/* top: 0;
-		right: 0; */
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		z-index: 2;
-		padding: 1rem;
-		width: 100%;
+	/* Section spacing */
+	section {
+		margin-bottom: 2rem;
 	}
-	.inline-it {
-		display: inline-block;
+
+	/* Related links styling */
+	#related-subsections {
+		ul {
+			list-style: none;
+			padding: 0;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			gap: 1rem;
+
+			li a {
+				display: block;
+				padding: 1rem;
+				background: white;
+				border: 1px solid rgba(0, 0, 0, 0.08);
+				border-radius: 8px;
+				text-decoration: none;
+				color: #6c5ce7;
+				transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+				&:hover {
+					background: rgba(108, 92, 231, 0.05);
+					transform: translateX(4px);
+				}
+			}
+		}
+	}
+
+	/* Mobile responsiveness */
+	@media (max-width: 768px) {
+		.enneagram-blog-grid,
+		.blog-grid-container,
+		.temp-three-row {
+			grid-template-columns: 1fr;
+			gap: 1rem;
+		}
+
+		h1 {
+			font-size: 2rem;
+		}
+
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		h3 {
+			font-size: 1.25rem;
+		}
+
+		.blog-card .card-content h3 {
+			font-size: 1rem;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+		}
+
+		.blog-card .card-content p {
+			font-size: 0.8rem;
+		}
 	}
 
 	@media (max-width: 550px) {
-		h3 {
-			font-size: 1rem;
-		}
-		p {
-			font-size: 0.7rem;
-		}
-
+		.enneagram-blog-grid,
+		.blog-grid-container,
 		.temp-three-row {
-			display: grid;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr;
 		}
 
-		.blog-grid-container {
-			grid-template-columns: 45vw 45vw;
-			// gap: 0;
-			column-gap: 0.5rem;
-		}
-		.inline-it {
-			width: 30vw; // !important;
-		}
-		.fit-card {
-			padding: 0.5rem;
-		}
-
-		.three-small {
-			grid-template-columns: 1fr 1fr 1fr;
-		}
-	}
-
-	@media (min-width: 850px) {
-		.blog-grid-container {
-			grid-auto-rows: 300px;
+		p {
+			font-size: 0.85rem;
 		}
 	}
 </style>

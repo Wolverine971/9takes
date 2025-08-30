@@ -144,8 +144,8 @@
 					</p>
 
 					<p class="mb-4">
-						I built 9takes because most conversations happen in echo chambers. Your brain prefers
-						agreement—but growth lives in the tension between perspectives.
+						I built 9takes because online discourse is broken. We've traded depth for dopamine, wisdom for virality.
+						Real growth happens when perspectives collide—not when they align.
 					</p>
 
 					<div class="flex space-x-3">
@@ -180,35 +180,37 @@
 	</section>
 
 	<section class="mt-12">
-		<h2 class="mb-6 text-3xl font-bold text-indigo-800">The Problem with Online Thinking</h2>
+		<h2 class="mb-6 text-3xl font-bold text-indigo-800">The Problem with Being Chronically Online</h2>
 
 		<div class="mb-8 grid gap-6 md:grid-cols-3">
 			<div class="rounded-r-lg border-l-4 border-red-400 bg-red-50 p-4">
-				<h3 class="mb-2 font-bold text-red-800">🎭 Echo Chamber Bias</h3>
+				<h3 class="mb-2 font-bold text-red-800">The Algorithm Trap</h3>
 				<p class="text-sm text-red-700">
-					Algorithms feed you content that agrees with you—leaving blind spots unchecked.
+					Your feed becomes a mirror—reflecting back what you already believe, never challenging it.
 				</p>
 			</div>
 			<div class="rounded-r-lg border-l-4 border-orange-400 bg-orange-50 p-4">
-				<h3 class="mb-2 font-bold text-orange-800">⚡ Reaction Speed</h3>
+				<h3 class="mb-2 font-bold text-orange-800">Instant Reaction Culture</h3>
 				<p class="text-sm text-orange-700">
-					See others' takes first → knee‑jerk responses instead of original thinking.
+					You consume opinions before forming your own—becoming an echo, not a voice.
 				</p>
 			</div>
 			<div class="rounded-r-lg border-l-4 border-yellow-400 bg-yellow-50 p-4">
-				<h3 class="mb-2 font-bold text-yellow-800">📊 Engagement Metrics</h3>
+				<h3 class="mb-2 font-bold text-yellow-800">Dopamine Over Depth</h3>
 				<p class="text-sm text-yellow-700">
-					Platforms optimize for clicks, not cognitive growth or meaningful connection.
+					Platforms harvest attention, not understanding. Engagement beats enlightenment every time.
 				</p>
 			</div>
 		</div>
 
 		<div class="rounded-lg border-2 border-indigo-200 bg-indigo-50 p-6 text-center">
 			<p class="mb-2 text-xl font-bold text-indigo-800">
-				Result: Your perspective muscle atrophies
+				The cost: Your mind becomes brittle
 			</p>
 			<p class="text-indigo-700">
-				You get really good at confirming what you already think—terrible at stress‑testing it.
+				Online, nuance gets skipped—it's too complex to go viral. You're fed black-and-white takes because grey areas don't generate clicks. 
+				Over time, you lose the ability to think through complexity. Two things can't be true at once anymore. 
+				You pick a side and dig in, because that's all you've been trained to do.
 			</p>
 		</div>
 	</section>
@@ -228,71 +230,68 @@
 	{/if}
 
 	<section class="mt-12">
-		<h2 class="mb-6 text-3xl font-bold text-indigo-800">My Enneagram Breakthrough</h2>
+		<h2 class="mb-6 text-3xl font-bold text-indigo-800">The Enneagram Changed Everything</h2>
 
 		<div class="mb-6 rounded-lg border border-gray-200 bg-gray-50 p-6">
 			<p class="mb-4 text-lg">
-				<strong>The setup:</strong> Leaving military life, marriage under stress, couldn't bridge the
-				gap between my wife's perspective and mine.
+				<strong>The crisis:</strong> Post-military, my marriage was falling apart. Same events, completely different realities.
 			</p>
 			<p class="mb-4 text-lg">
-				<strong>The discovery:</strong> The Enneagram revealed our core motivational patterns—why we
-				filtered the same situations so differently.
+				<strong>The revelation:</strong> The Enneagram exposed why—we weren't just disagreeing, we were operating from different emotional operating systems.
 			</p>
 			<p class="text-lg font-semibold text-indigo-800">
-				<strong>The insight:</strong> If understanding emotional patterns could save my marriage, what
-				could it do for every conversation?
+				<strong>The epiphany:</strong> Two opposing viewpoints can both have merit. The "winner" is usually just whoever's context you understand better. 
+				Every perspective comes loaded with backstory, wounds, and motivations you can't see. Conflict happens when we judge conclusions without seeing the journey.
 			</p>
 		</div>
 
 		<div class="rounded-lg bg-indigo-800 p-6 text-center text-white">
-			<p class="mb-2 text-xl font-bold">That's when 9takes was born 🚀</p>
+			<p class="mb-2 text-xl font-bold">That's why I created 9takes</p>
 			<p class="text-lg">
-				A platform where perspective‑taking becomes a metabolic workout for your brain.
+				I wanted a place where people could share their real perspectives—with all the context that shapes them. 
+				Where understanding why someone thinks differently matters more than proving them wrong.
 			</p>
 		</div>
 	</section>
 
 	<section class="mt-12">
-		<h2 class="mb-6 text-3xl font-bold text-indigo-800">How 9takes Builds Cognitive Muscle</h2>
+		<h2 class="mb-6 text-3xl font-bold text-indigo-800">How 9takes Attempts to Rewire Your Brain</h2>
 
 		<div class="mb-8 grid gap-6 md:grid-cols-2">
 			<div class="rounded-lg border border-green-200 bg-green-50 p-6">
-				<h3 class="mb-3 text-xl font-bold text-green-800">🎯 Give‑First Unlock</h3>
+				<h3 class="mb-3 text-xl font-bold text-green-800">The Give-First System</h3>
 				<p class="mb-3 text-green-700">
-					<strong>Old way:</strong> See others' takes → reactive thinking<br />
-					<strong>9takes way:</strong> Give your take first → unlock the hive‑mind
+					You have to share your perspective before you can see what others wrote. No scrolling through opinions first.
 				</p>
 				<p class="text-sm font-semibold text-green-600">
-					Forces original thought before bias kicks in.
+					This forces you to think for yourself instead of echoing the crowd.
 				</p>
 			</div>
 
 			<div class="rounded-lg border border-blue-200 bg-blue-50 p-6">
-				<h3 class="mb-3 text-xl font-bold text-blue-800">🧭 Personality‑Type Context</h3>
+				<h3 class="mb-3 text-xl font-bold text-blue-800">Anonymous + Personality Type</h3>
 				<p class="mb-3 text-blue-700">
-					<strong>Anonymous identity</strong> + <strong>Enneagram type</strong> = understanding without
-					judgment
+					Everyone's anonymous, but their Enneagram type is shown. You learn to recognize patterns in how different personality types see the world.
 				</p>
 				<p class="text-sm font-semibold text-blue-600">
-					See the emotional foundation behind each perspective.
+					No profile pics, no status games—just pure perspective.
 				</p>
 			</div>
 		</div>
 
 		<div class="rounded-lg border-2 border-purple-200 bg-purple-50 p-6 text-center">
-			<h3 class="mb-3 text-xl font-bold text-purple-800">🏋️ The Metabolic Cost</h3>
+			<h3 class="mb-3 text-xl font-bold text-purple-800">Building Mental Flexibility</h3>
 			<p class="mb-2 text-lg text-purple-700">
-				Digesting new perspectives burns mental glucose—that's the point.
+				Reading nine different takes on the same situation stretches your mind. It's uncomfortable. That's the point.
 			</p>
 			<p class="font-semibold text-purple-600">
-				Each conflicting viewpoint is a rep. Build tolerance for cognitive dissonance.
+				Each question becomes practice holding multiple truths at once.
 			</p>
 		</div>
 	</section>
 
 	<section class="mt-12">
-		<h2 class="mb-6 text-3xl font-bold text-indigo-800">Why the Enneagram Works</h2>
+		<h2 class="mb-6 text-3xl font-bold text-indigo-800">Why the Enneagram Is Perfect for This</h2>
 
 		<div class="mb-6 space-y-4">
 			<div class="flex items-start space-x-3">
@@ -302,9 +301,9 @@
 					1
 				</div>
 				<div>
-					<h4 class="text-lg font-semibold">Maps core motivations, not behaviors</h4>
+					<h4 class="text-lg font-semibold">Shows why people do what they do</h4>
 					<p class="text-gray-700">
-						Two people can do the same thing for completely different emotional reasons.
+						Two people can take the same action for completely different emotional reasons. The Enneagram reveals those hidden motivations.
 					</p>
 				</div>
 			</div>
@@ -316,9 +315,9 @@
 					2
 				</div>
 				<div>
-					<h4 class="text-lg font-semibold">Bridges ancient wisdom + modern psychology</h4>
+					<h4 class="text-lg font-semibold">Proven patterns of human behavior</h4>
 					<p class="text-gray-700">
-						Thousands of years of human observation meets contemporary research on personality.
+						The Enneagram has been refined over centuries. It identifies nine core patterns that explain how people consistently react under stress, in relationships, and at work.
 					</p>
 				</div>
 			</div>
@@ -330,8 +329,8 @@
 					3
 				</div>
 				<div>
-					<h4 class="text-lg font-semibold">Practical framework for empathy</h4>
-					<p class="text-gray-700">Instead of "they're wrong," ask "what lens are they using?"</p>
+					<h4 class="text-lg font-semibold">Replaces judgment with understanding</h4>
+					<p class="text-gray-700">Instead of thinking someone's wrong, you start wondering what experiences shaped their view. It becomes a puzzle to solve, not a fight to win.</p>
 				</div>
 			</div>
 		</div>
@@ -340,47 +339,44 @@
 			class="rounded-lg border border-indigo-300 bg-gradient-to-r from-indigo-100 to-purple-100 p-6 text-center"
 		>
 			<p class="mb-2 text-lg font-bold text-indigo-800">
-				9 types × infinite situations = unlimited perspective training
+				9 personality types × endless questions = deeper understanding
 			</p>
 			<p class="text-indigo-700">
-				Each question becomes a cognitive drill. Each response expands your empathy range.
+				Every question shows you how differently people process the same situation. Over time, you build a mental map of human perspectives.
 			</p>
 		</div>
 	</section>
 
 	<section class="mt-12">
-		<h2 class="mb-6 text-3xl font-bold text-indigo-800">The Endgame</h2>
+		<h2 class="mb-6 text-3xl font-bold text-indigo-800">What You Actually Get</h2>
 
 		<div class="prose prose-lg max-w-none">
 			<p class="mb-4 text-lg leading-relaxed text-gray-700">
-				Most platforms optimize for engagement. 9takes optimizes for <strong
-					>perspective gains</strong
-				>.
+				9takes helps you develop <strong>the ability to hold complexity</strong>. Most platforms push you toward one answer. We show you nine.
 			</p>
 
 			<p class="mb-4 text-lg leading-relaxed text-gray-700">
-				When you can genuinely see through someone else's emotional lens—without losing your
-				own—you've unlocked a superpower. You decode people faster. Navigate conflict better. Make
-				decisions with more data.
+				You'll start recognizing the patterns behind people's reactions. You'll understand why your partner sees things differently. 
+				Why your coworker approaches problems that way. Why certain arguments never get resolved.
 			</p>
 
 			<p class="mb-6 text-lg leading-relaxed text-gray-700">
-				That's what we're building: <strong>a gym for your perspective‑taking muscle</strong>.
+				This isn't another social network. It's <strong>practice for real-world understanding</strong>.
 			</p>
 		</div>
 
 		<div class="rounded-lg bg-black p-6 text-center text-white">
-			<p class="mb-2 text-xl font-bold">"Perspective gains are earned, not scrolled." 💪</p>
-			<p class="text-lg">It takes effort to digest a new perspective.</p>
+			<p class="mb-2 text-xl font-bold">The goal: See through other people's eyes without losing your own vision</p>
+			<p class="text-lg">That's the skill that changes everything.</p>
 		</div>
 	</section>
 
 	<section
 		class="mt-12 rounded-lg border border-gray-200 bg-gradient-to-r from-gray-100 to-indigo-100 p-8 text-center"
 	>
-		<h3 class="mb-4 text-2xl font-bold text-indigo-800">Continue the Conversation</h3>
+		<h3 class="mb-4 text-2xl font-bold text-indigo-800">Want to Connect?</h3>
 		<p class="mb-6 text-lg text-gray-700">
-			Questions about the platform? Ideas for features? Just want to chat about the Enneagram?
+			I'd love to hear your thoughts on the platform, answer questions, or just chat about personality psychology.
 		</p>
 		{#if !showEmail}
 			<button

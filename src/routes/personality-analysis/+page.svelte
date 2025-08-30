@@ -19,52 +19,7 @@
 	$: innerWidth = 0;
 
 	onMount(() => {
-		// Add clock markers
-		const svg = document.querySelector('svg');
-		for (let i = 1; i <= 12; i++) {
-			const el = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-			el.setAttribute('x1', '100');
-			el.setAttribute('y1', '30');
-			el.setAttribute('x2', '100');
-			el.setAttribute('y2', '40');
-			el.setAttribute('transform', `rotate(${(i * 360) / 12} 100 100)`);
-			el.setAttribute('style', 'stroke: #ffffff;');
-			svg?.appendChild(el);
-		}
-
-		// Function to update clock hands
-		const updateClock = () => {
-			const date = new Date();
-			const hours = date.getHours() % 12;
-			const minutes = date.getMinutes();
-			const seconds = date.getSeconds();
-			const milliseconds = date.getMilliseconds();
-
-			// Calculate precise angles including milliseconds for smooth movement
-			const hoursAngle =
-				(hours * 360) / 12 + (minutes * 360) / (12 * 60) + (seconds * 360) / (12 * 60 * 60);
-			const minutesAngle = (minutes * 360) / 60 + (seconds * 360) / (60 * 60);
-			const secondsAngle = (seconds * 360) / 60 + (milliseconds * 360) / (60 * 1000);
-
-			// Get hand elements
-			const hourHand = document.querySelector('#hourhand');
-			const minuteHand = document.querySelector('#minutehand');
-			const secondHand = document.querySelector('#secondhand');
-
-			// Update transforms
-			hourHand?.setAttribute('transform', `rotate(${hoursAngle} 100 100)`);
-			minuteHand?.setAttribute('transform', `rotate(${minutesAngle} 100 100)`);
-			secondHand?.setAttribute('transform', `rotate(${secondsAngle} 100 100)`);
-		};
-
-		// Initial update
-		updateClock();
-
-		// Update every 50ms for smooth second hand movement
-		const interval = setInterval(updateClock, 50);
-
-		// Cleanup interval on component unmount
-		return () => clearInterval(interval);
+		
 	});
 </script>
 
@@ -169,90 +124,8 @@
 	</script>
 </svelte:head>
 
-<div class="background-clock">
-	<div class="filler"></div>
-	<svg width="400" height="400" viewBox="0 0 200 200">
-		<filter id="innerShadow" x="-20%" y="-20%" width="140%" height="140%">
-			<feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur" />
-			<feOffset in="blur" dx="2.5" dy="2.5" />
-		</filter>
-		<g>
-			<circle
-				id="shadow"
-				style="fill:rgba(0,0,0,0.1)"
-				cx="97"
-				cy="100"
-				r="87"
-				filter="url(#innerShadow)"
-			></circle>
-			<circle
-				id="circle"
-				style="stroke: rgba(255, 255, 255, 0.9); stroke-width: 12px; fill:rgb(98, 44, 191)"
-				cx="100"
-				cy="100"
-				r="80"
-			></circle>
-		</g>
-		<g>
-			<line
-				x1="100"
-				y1="100"
-				x2="100"
-				y2="55"
-				transform="rotate(80 100 100)"
-				style="stroke-width: 3px; stroke: #fffbf9;"
-				id="hourhand"
-			>
-				<animatetransform
-					attributeName="transform"
-					attributeType="XML"
-					type="rotate"
-					dur="43200s"
-					repeatCount="indefinite"
-				/>
-			</line>
-			<line
-				x1="100"
-				y1="100"
-				x2="100"
-				y2="40"
-				style="stroke-width: 4px; stroke: #fdfdfd;"
-				id="minutehand"
-			>
-				<animatetransform
-					attributeName="transform"
-					attributeType="XML"
-					type="rotate"
-					dur="3600s"
-					repeatCount="indefinite"
-				/>
-			</line>
-			<line
-				x1="100"
-				y1="100"
-				x2="100"
-				y2="30"
-				style="stroke-width: 2px; stroke: #e9d9ff;"
-				id="secondhand"
-			>
-				<animatetransform
-					attributeName="transform"
-					attributeType="XML"
-					type="rotate"
-					dur="60s"
-					repeatCount="indefinite"
-				/>
-			</line>
-		</g>
-		<circle
-			id="center"
-			style="fill:rgb(111, 39, 235); stroke: #e9d9ff; stroke-width: 2px;"
-			cx="100"
-			cy="100"
-			r="3"
-		></circle>
-	</svg>
-</div>
+<div class="personality-analysis-page">
+
 
 <div class="content-wrapper">
 	<BlogPageHead
@@ -291,7 +164,7 @@
 				<div class="people-grid-container">
 					{#each data.people
 						.filter((p) => parseInt(p.enneagram) === number)
-						.slice(0, innerWidth > 960 ? 4 : 5) as person}
+						.slice(0, 5) as person}
 						<a
 							href="/personality-analysis/{person.slug}"
 							class="grid-item"
@@ -321,7 +194,7 @@
 					>
 						<div class="view-all-content">
 							<span>All {number}s</span>
-							<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#833bff'} />
+							<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'white'} />
 						</div>
 					</a>
 				</div>
@@ -335,91 +208,135 @@
 		</section>
 	{/if}
 </div>
+</div>
 
 <style lang="scss">
-	.background-clock {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: -1;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background: #eee;
+	// Page wrapper to isolate styles
+	.personality-analysis-page {
+		// Reset global styles that might interfere
+		article {
+			margin: 0;
+			padding: 0;
+			border-radius: 0;
+		}
+		
+		a {
+			&::after {
+				display: none;
+			}
+		}
 	}
+
 
 	.content-wrapper {
 		position: relative;
 		z-index: 1;
 		background: rgba(255, 255, 255, 0.98);
 		min-height: 100vh;
-		padding: 2rem;
-		box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-		opacity: 0.9;
+		padding: 2rem 1.5rem;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+		max-width: 1400px;
+		margin: 0 auto;
 	}
 
 	h1 {
 		text-align: center;
 		font-size: 2.5rem;
-		margin-bottom: 2rem;
+		margin: 3rem auto 2rem;
+		max-width: 900px;
+		color: #2d3436;
+		line-height: 1.3;
+		font-weight: 700;
 	}
 
 	.introduction {
-		margin-bottom: 3rem;
+		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+		border-radius: 20px;
+		padding: 3rem;
+		margin: 2rem auto 3rem;
+		max-width: 1200px;
+		color: white;
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 
 		p {
 			font-size: 1.1rem;
 			line-height: 1.6;
 			margin-bottom: 1rem;
+			opacity: 0.95;
 		}
 
 		ul {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 0.5rem;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+			gap: 1rem;
 			list-style-type: none;
 			padding: 0;
-			margin-bottom: 1rem;
+			margin: 2rem 0;
 
 			li {
-				background-color: var(--primary-light);
-				padding: 0.5rem 1rem;
-				border-radius: var(--base-border-radius);
-				font-size: 1rem;
+				background: rgba(255, 255, 255, 0.1);
+				backdrop-filter: blur(10px);
+				padding: 0.75rem 1rem;
+				border-radius: 12px;
+				text-align: center;
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				font-weight: 500;
+				transition: all 0.3s ease;
+				
+				&:hover {
+					background: rgba(255, 255, 255, 0.15);
+					transform: translateY(-2px);
+				}
 			}
 		}
 	}
 
 	.enneagram-type {
-		margin-bottom: 3rem;
+		margin-bottom: 4rem;
+		padding: 0 1.5rem;
 
 		h2 {
-			text-align: center;
-			font-size: 2rem;
-			margin-bottom: 1.5rem;
+			font-size: 1.875rem;
+			font-weight: 700;
+			margin-bottom: 2rem;
+			color: #2d3436;
+			letter-spacing: -0.02em;
 		}
 	}
 
 	.people-grid-container {
 		display: grid;
-		grid-template-columns: repeat(5, 1fr);
-		gap: 1rem;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 1.5rem;
+		max-width: 1400px;
+		margin: 0 auto;
 	}
 
 	.grid-item {
 		position: relative;
 		aspect-ratio: 1 / 1;
 		overflow: hidden;
-		border-radius: var(--base-border-radius);
-		transition:
-			transform 0.3s ease,
-			box-shadow 0.3s ease;
+		border-radius: 12px;
+		background: white;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		cursor: pointer;
+		border: 1px solid rgba(0, 0, 0, 0.06);
+		text-decoration: none !important;
 
 		&:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+			transform: translateY(-4px);
+			box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
+			border-color: rgba(108, 92, 231, 0.2);
+			
+			.person-name {
+				background: linear-gradient(
+					to top,
+					rgba(0, 0, 0, 0.95) 0%,
+					rgba(0, 0, 0, 0.8) 100%
+				);
+			}
 		}
 	}
 
@@ -434,19 +351,39 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background-color: rgba(0, 0, 0, 0.7);
-		color: var(--accent);
-		padding: 0.5rem;
+		background: linear-gradient(
+			to top,
+			rgba(0, 0, 0, 0.9) 0%,
+			rgba(0, 0, 0, 0.7) 100%
+		);
+		color: white;
+		padding: 0.75rem;
 		font-size: 0.9rem;
 		text-align: center;
+		font-weight: 500;
+		transition: all 0.3s ease;
+		
+		span {
+			text-transform: capitalize;
+		}
 	}
 
 	.view-all {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: var(--primary-light);
-		font-weight: bold;
+		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		font-weight: 600;
+		
+		&:hover {
+			background: linear-gradient(135deg, #3d4447 0%, #2a2a3e 100%);
+			border-color: rgba(255, 255, 255, 0.15);
+			
+			.view-all-content {
+				color: #a29bfe;
+			}
+		}
 	}
 
 	.view-all-content {
@@ -454,7 +391,9 @@
 		align-items: center;
 		justify-content: center;
 		text-align: center;
-		font-size: 1rem;
+		font-size: 1.1rem;
+		color: white;
+		transition: all 0.3s ease;
 	}
 
 	.join {
@@ -463,11 +402,9 @@
 
 	@media (max-width: 1024px) {
 		.people-grid-container {
-			grid-template-columns: repeat(5, 1fr);
-		}
-
-		.view-all {
-			grid-column: span 1;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			gap: 1rem;
 		}
 	}
 
@@ -487,13 +424,14 @@
 		}
 
 		.people-grid-container {
-			grid-template-columns: repeat(5, 1fr);
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(3, 1fr);
 			gap: 0.75rem;
 		}
 
 		.person-name {
 			font-size: 0.8rem;
-			padding: 0.3rem;
+			padding: 0.5rem 0.3rem;
 		}
 
 		.view-all-content {
@@ -509,6 +447,7 @@
 
 		.introduction {
 			margin-bottom: 2rem;
+			padding: 2rem 1.5rem;
 
 			p {
 				font-size: 0.9rem;
@@ -528,6 +467,7 @@
 
 		.enneagram-type {
 			margin-bottom: 2rem;
+			padding: 0 0.75rem;
 
 			h2 {
 				font-size: 1.25rem;
@@ -536,17 +476,27 @@
 		}
 
 		.people-grid-container {
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(3, 1fr);
 			gap: 0.5rem;
+		}
+
+		.grid-item {
+			border-radius: 8px;
 		}
 
 		.person-name {
 			font-size: 0.7rem;
-			padding: 0.2rem;
+			padding: 0.4rem 0.2rem;
+			line-height: 1.2;
 		}
 
 		.view-all-content {
 			font-size: 0.8rem;
+			
+			span {
+				display: block;
+			}
 		}
 	}
 </style>

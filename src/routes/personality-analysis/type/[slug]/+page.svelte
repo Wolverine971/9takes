@@ -73,6 +73,7 @@
 </article>
 
 <style lang="scss">
+	/* Style Guide Compliant Styles */
 	.enneagram-type-page {
 		max-width: 1200px;
 		margin: 0 auto;
@@ -80,40 +81,53 @@
 	}
 
 	h2 {
-		font-size: 2rem;
-		color: var(--text-color);
+		font-size: 1.875rem;
+		font-weight: 600;
+		color: #2d3436;
 		margin-top: 2rem;
-		margin-bottom: 1rem;
+		margin-bottom: 1.5rem;
 		text-align: center;
 	}
 
 	.famous-people {
-		margin-bottom: 3rem;
+		margin-bottom: 4rem;
 	}
 
 	.people-grid-container {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-		gap: 1.25rem;
+		grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+		gap: 1.5rem;
 	}
 
 	.grid-item {
 		position: relative;
-		border-radius: var(--base-border-radius);
+		border-radius: 12px;
 		overflow: hidden;
-		transition:
-			transform 0.3s ease,
-			box-shadow 0.3s ease;
+		background: white;
+		border: 1px solid rgba(0, 0, 0, 0.06);
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		text-decoration: none;
 
 		&:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+			transform: translateY(-4px);
+			box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
+			border-color: rgba(108, 92, 231, 0.2);
+
+			.person-name {
+				background: linear-gradient(
+					to top,
+					rgba(108, 92, 231, 0.95) 0%,
+					rgba(108, 92, 231, 0.8) 100%
+				);
+			}
 		}
 	}
 
 	.grid-img {
 		width: 100%;
 		height: auto;
+		aspect-ratio: 1;
 		object-fit: cover;
 	}
 
@@ -122,25 +136,38 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background-color: rgba(0, 0, 0, 0.7);
-		padding: 0.5rem;
+		background: linear-gradient(
+			to top,
+			rgba(0, 0, 0, 0.9) 0%,
+			rgba(0, 0, 0, 0.7) 100%
+		);
+		padding: 0.75rem;
 		text-align: center;
+		transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
 		h3 {
-			color: var(--accent);
-			font-size: 1rem;
+			color: white;
+			font-size: 0.9rem;
+			font-weight: 600;
 			margin: 0;
+			text-transform: capitalize;
 		}
 	}
 
 	footer {
 		text-align: center;
-		margin-top: 3rem;
+		margin-top: 4rem;
+		padding: 3rem;
+		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+		border-radius: 20px;
+		color: white;
 	}
 
 	.more-info {
 		font-style: italic;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
+		color: rgba(255, 255, 255, 0.95);
+		font-size: 0.9rem;
 	}
 
 	.email-signup {
@@ -148,19 +175,25 @@
 		margin: 0 auto;
 	}
 
+	/* Mobile responsiveness */
 	@media (max-width: 768px) {
 		h2 {
 			font-size: 1.5rem;
 		}
 
 		.people-grid-container {
-			grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+			grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+			gap: 1rem;
+		}
+
+		footer {
+			padding: 2rem 1.5rem;
 		}
 	}
 
 	@media (max-width: 480px) {
 		.people-grid-container {
-			grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+			grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 		}
 
 		.person-name h3 {

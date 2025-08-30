@@ -8,7 +8,7 @@ lastmod: '2025-05-22'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
-pic: ''
+pic: 'greek-statue-being-ghosted'
 ---
 
 <svelte:head>
