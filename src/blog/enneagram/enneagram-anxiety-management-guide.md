@@ -845,10 +845,10 @@ One breath, one tool, one moment at a time.
 **[Share Your Anxiety Pattern →](/questions)**
 Connect with others who understand your specific struggle
 
-**[Download Your Type's Anxiety Toolkit →](/enneagram-corner/subscribe)**
+**[Download Your Type's Anxiety Toolkit →](/signup)**
 Get your personalized anxiety management guide
 
-**[Work With a Type-Aware Therapist →](/coaching)**
+**[Work With a Type-Aware Therapist →](/book-session)**
 Find professional support that understands your pattern
 
 </div>

@@ -62,6 +62,15 @@ Neurodivergence can:
 - **Complicate** type patterns (e.g., Dyslexic Type 5)
 - **Transform** type patterns (e.g., ADHD Type 1)
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Medication Guide", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
+  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
+  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" },
+  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" }
+]} />
+</div>
+
 ## Type 1: The Perfectionist + Neurodivergence
 
 ### Type 1 + ADHD
@@ -79,6 +88,8 @@ Neurodivergence can:
 - Hyperfocus on organizing systems
 - RSD (Rejection Sensitive Dysphoria) amplified
 - Compensatory rigid structures
+
+Type 1s with ADHD often benefit from [medication management](/enneagram-corner/mental-health/enneagram-medication-mental-health) that addresses both their perfectionist resistance to taking medication and their need for executive function support.
 
 **Strategies That Help**:
 
@@ -154,6 +165,8 @@ Neurodivergence can:
 - Hyperfocus on others' needs
 - Chaotic helping patterns
 
+Type 2s with ADHD may develop [codependent addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) around helping others, using people-pleasing as a way to regulate their rejection sensitivity and emotional dysregulation.
+
 **Strategies That Help**:
 
 - Emotional regulation skills first
@@ -219,6 +232,8 @@ Neurodivergence can:
 - Burnout from overwork
 - Hidden struggles
 - Achievement addiction
+
+Type 3s often mask their neurodivergent challenges to maintain their successful image, which can lead to severe [workplace mental health issues](/enneagram-corner/mental-health/enneagram-workplace-mental-health) and burnout when their coping strategies fail.
 
 **Strategies That Help**:
 
@@ -303,6 +318,16 @@ Neurodivergence can:
 - Emotional expression differences
 - Identity through special interests
 
+<a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard 
+      image="/blogs/greek-statue-surrounded-by-snowflakes.webp"
+      displayText="Find Neurodivergent-Affirming Support"
+      showIcon={false}
+      altText="Neurodivergent support for Enneagram types"
+      subtext="Therapy approaches for neurodivergent individuals"
+  />
+</a>
+
 **How It Manifests**:
 
 - Deep special interest identity
@@ -351,6 +376,8 @@ Neurodivergence can:
 - Forgotten basic needs
 - Intense special interests
 - Social battery drain
+
+Type 5s with ADHD may experience [crisis situations](/enneagram-corner/mental-health/enneagram-crisis-management-guide) when their coping mechanisms fail and executive dysfunction overwhelms their need for competence and self-sufficiency.
 
 **Strategies That Help**:
 
@@ -418,6 +445,8 @@ Neurodivergence can:
 - Authority confusion
 - Trust issues intensified
 
+Type 6s with ADHD often need careful [medication management](/enneagram-corner/mental-health/enneagram-medication-mental-health) as their anxiety about taking medication can be as problematic as the ADHD symptoms themselves.
+
 **Strategies That Help**:
 
 - ADHD education reduces fear
@@ -484,6 +513,8 @@ Neurodivergence can:
 - Dopamine seeking behaviors
 - Emotional dysregulation
 
+Type 7s with ADHD have the highest risk for [addiction issues](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) due to their double drive for stimulation and their tendency to use substances or behaviors to manage both ADHD symptoms and emotional pain.
+
 **Strategies That Help**:
 
 - Channel double energy
@@ -549,6 +580,8 @@ Neurodivergence can:
 - Hidden struggles
 - Intense energy bursts
 - Control through chaos
+
+Type 8s with ADHD often have [trauma histories](/enneagram-corner/mental-health/enneagram-trauma-response-guide) that compound their challenges, as their rejection sensitivity can trigger intense anger responses that mask their underlying vulnerability.
 
 **Strategies That Help**:
 
@@ -747,6 +780,15 @@ Each combination has unique strengths:
 - Occupational therapy
 - Integrated assessment
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
+  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
+  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
+  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" }
+]} />
+</div>
+
 ## Conclusion: Embracing Your Full Self
 
 You are not "Type X with a disorder"—you are a complete person whose neurodivergent brain and Enneagram type create a unique way of being in the world. Understanding both aspects helps you:
@@ -760,6 +802,8 @@ You are not "Type X with a disorder"—you are a complete person whose neurodive
 Your neurodivergence and your Enneagram type are both parts of who you are. Neither is a limitation—both offer insights into how you can thrive. The intersection is where you find your unique path forward.
 
 Remember: The goal isn't to fit into neurotypical or type-based boxes. It's to understand yourself fully and create a life that honors all aspects of who you are.
+
+For additional support, consider exploring [therapy options that understand both neurodivergence and personality](/enneagram-corner/mental-health/enneagram-therapy-guide), learning about [medication approaches for neurodivergent individuals](/enneagram-corner/mental-health/enneagram-medication-mental-health), or understanding how [trauma intersects with neurodivergence and personality](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
 
 <svelte:head>
 
@@ -780,8 +824,8 @@ Remember: The goal isn't to fit into neurotypical or type-based boxes. It's to u
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-03-10",
-      "datePublished": "2024-03-10",
+      "dateModified": "2025-08-25",
+      "datePublished": "2025-08-25",
       "description": "Explore how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type. Learn accommodations and strategies for thriving.",
       "headline": "Enneagram and Neurodivergence: When Personality Meets Brain Wiring",
       "image": {

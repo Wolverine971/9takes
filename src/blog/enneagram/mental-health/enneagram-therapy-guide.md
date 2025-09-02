@@ -11,7 +11,7 @@ published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: 'enneagram-therapy-guide'
+pic: 'greek-statues-in-a-progression'
 ---
 
 <!--
@@ -50,6 +50,15 @@ Each Enneagram type has:
 **Body Center (8, 9, 1)**: Often benefit from somatic and action-oriented therapies
 **Heart Center (2, 3, 4)**: Typically resonate with relational and expressive therapies
 **Head Center (5, 6, 7)**: Usually prefer cognitive and insight-oriented approaches
+
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
+  { name: "Enneagram Medication Guide", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
+  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" }
+]} />
+</div>
 
 ## Overview of Major Therapeutic Modalities
 
@@ -130,6 +139,8 @@ Why it works: Directly addresses the harsh inner critic
 - Softens self-judgment
 - Integrates anger healthily
 
+Type 1s often come to therapy when their perfectionism has led to [addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) (often workaholism) or when they're facing a [mental health crisis](/enneagram-corner/mental-health/enneagram-crisis-management-guide) triggered by a major "failure" or mistake.
+
 #### 3. **Somatic Experiencing** ⭐⭐⭐⭐
 
 Why it works: Helps release chronic tension
@@ -197,6 +208,16 @@ Why it works: Builds interpersonal effectiveness
 - Distress tolerance
 
 ### What Type 2s Should Expect in Therapy
+
+<a href="/enneagram-corner/mental-health/enneagram-medication-mental-health" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard 
+      image="/blogs/greek-statue-enneagram-coaching.webp"
+      displayText="Explore Treatment Options"
+      showIcon={false}
+      altText="Therapy guide for Enneagram types"
+      subtext="Find the right therapeutic approach for your type"
+  />
+</a>
 
 **Early Sessions**: May focus on others' problems or therapist's needs
 **Resistance Patterns**: Difficulty receiving without giving
@@ -719,6 +740,15 @@ Each type should watch for:
 - **Type 8**: Therapist who is conflict-avoidant
 - **Type 9**: Therapist who lets them disappear
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" },
+  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
+  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
+  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
+]} />
+</div>
+
 ## Insurance and Practical Considerations
 
 ### Getting Therapy Covered
@@ -743,6 +773,8 @@ The courage to enter therapy is already a step outside your type's comfort zone.
 
 Your type is not your destiny—it's your starting point. With the right therapeutic support, you can develop beyond your type's limitations while honoring its gifts. The journey may not always be comfortable, but it leads to freedom.
 
+Remember that therapy often works best when combined with other supports. Consider [medication if appropriate for your situation](/enneagram-corner/mental-health/enneagram-medication-mental-health), learn [crisis management skills](/enneagram-corner/mental-health/enneagram-crisis-management-guide), understand how [trauma may have shaped your type](/enneagram-corner/mental-health/enneagram-trauma-response-guide), and explore whether [neurodivergence factors](/enneagram-corner/mental-health/enneagram-neurodivergence-guide) into your mental health picture.
+
 <svelte:head>
 
 <script type="application/ld+json">
@@ -762,14 +794,14 @@ Your type is not your destiny—it's your starting point. With the right therape
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-02-25",
-      "datePublished": "2024-02-25",
+      "dateModified": "2025-08-25",
+      "datePublished": "2025-08-25",
       "description": "Discover which therapy modalities work best for each Enneagram type. From CBT to somatic therapy, find your ideal therapeutic match.",
       "headline": "The Enneagram Guide to Therapy: Which Therapeutic Approach Works Best for Your Type",
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/enneagram-therapy-guide.webp",
+        "url": "https://9takes.com/blogs/greek-statues-in-a-progression.webp",
         "width": 900
       },
       "mainEntityOfPage": {

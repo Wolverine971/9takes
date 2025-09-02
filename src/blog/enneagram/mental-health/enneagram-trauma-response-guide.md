@@ -65,6 +65,15 @@ This guide explores how each Enneagram type typically responds to trauma, the ch
 - **Heart Center (2, 3, 4)**: Trauma affects identity and worth
 - **Head Center (5, 6, 7)**: Trauma creates mental loops and anxiety
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
+  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
+  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
+  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" }
+]} />
+</div>
+
 ## Type 1: The Perfectionist's Trauma Response
 
 ### Core Childhood Wound
@@ -77,6 +86,8 @@ This guide explores how each Enneagram type typically responds to trauma, the ch
 - Chaotic home requiring child to be "perfect"
 - Religious or moral rigidity
 - Being parentified young
+
+Type 1s often develop trauma responses that later manifest as [addiction to perfectionism or work](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide), and may need [specialized therapy approaches](/enneagram-corner/mental-health/enneagram-therapy-guide) that address both their trauma and their perfectionist coping mechanisms.
 
 ### How Type 1s Typically Respond to Trauma
 
@@ -413,6 +424,16 @@ This guide explores how each Enneagram type typically responds to trauma, the ch
 
 "I can trust myself to navigate uncertainty. I have survived everything so far and have the wisdom to guide myself."
 
+<a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard 
+      image="/blogs/greek-statue-showing-cracks.webp"
+      displayText="Trauma-Informed Therapy Guide"
+      showIcon={false}
+      altText="Trauma therapy for Enneagram types"
+      subtext="Learn about trauma-informed approaches for your type"
+  />
+</a>
+
 ## Type 7: The Enthusiast's Trauma Response
 
 ### Core Childhood Wound
@@ -436,6 +457,8 @@ This guide explores how each Enneagram type typically responds to trauma, the ch
 ### Trauma Manifestations in Type 7s
 
 - Addiction patterns
+
+Type 7s have the highest risk for [multiple addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) as they use substances, activities, and experiences to escape processing traumatic emotions.
 - Inability to process grief
 - Chronic FOMO
 - Superficial relationships
@@ -611,6 +634,15 @@ Each type needs different resources:
 - **Heart types (2,3,4)**: Emotional support
 - **Head types (5,6,7)**: Cognitive frameworks
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Medication & Trauma", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
+  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" },
+  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
+  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
+]} />
+</div>
+
 ## Creating Your Trauma Healing Plan
 
 ### 1. Recognize Your Pattern
@@ -682,6 +714,8 @@ Remember:
 
 Your Enneagram type offers both insight into your trauma patterns and a roadmap for healing. Use this knowledge with compassion, and remember—you are not broken. You are a survivor learning to thrive.
 
+Healing trauma often requires professional support. Consider [trauma-informed therapy approaches](/enneagram-corner/mental-health/enneagram-therapy-guide), explore [crisis management resources](/enneagram-corner/mental-health/enneagram-crisis-management-guide) if you're struggling, understand how trauma intersects with [addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide), and consider [medication if appropriate](/enneagram-corner/mental-health/enneagram-medication-mental-health) as part of your healing journey.
+
 <svelte:head>
 
 <script type="application/ld+json">
@@ -701,8 +735,8 @@ Your Enneagram type offers both insight into your trauma patterns and a roadmap 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-02-20",
-      "datePublished": "2024-02-20",
+      "dateModified": "2025-08-25",
+      "datePublished": "2025-08-25",
       "description": "Explore how each Enneagram type processes trauma differently through fight, flight, freeze, and fawn responses. Discover healing pathways tailored to your personality type.",
       "headline": "Enneagram Types and Trauma Response: Understanding Your Survival Patterns",
       "image": {

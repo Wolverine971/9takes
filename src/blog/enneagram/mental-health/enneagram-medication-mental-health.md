@@ -58,6 +58,15 @@ Each Enneagram type brings different:
 **Heart Center (2, 3, 4)**: Concern about identity and image
 **Head Center (5, 6, 7)**: Analyze extensively, fear mental changes
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
+  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
+  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
+  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" }
+]} />
+</div>
+
 ## Type 1: The Perfectionist and Medication
 
 ### Type 1's Relationship with Medication
@@ -77,6 +86,8 @@ Each Enneagram type brings different:
 - Trying everything else first
 - Rigid medication routines
 - Catastrophizing side effects
+
+Type 1s often benefit from understanding that medication can actually support their perfectionist tendencies by providing [stable ground for therapy work](/enneagram-corner/mental-health/enneagram-therapy-guide) and helping manage the anxiety that drives their rigidity.
 
 ### What Works for Type 1s
 
@@ -151,6 +162,8 @@ _"I resisted antidepressants for years, thinking I should be strong enough. When
 - Taking medication inconsistently
 - Prioritizing others' opinions
 
+Type 2s may struggle with [codependency patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) around medication, sometimes sharing or giving away their prescriptions to help others, which is both dangerous and reflects their core issue of self-neglect.
+
 ### What Works for Type 2s
 
 #### Medication Approach
@@ -223,6 +236,8 @@ _"I felt so guilty taking antidepressants—wasn't I supposed to be the caregive
 - Wanting quick fixes
 - Stopping when functional
 - Image management
+
+Type 3s often need medication management that addresses their [workplace stress patterns](/enneagram-corner/mental-health/enneagram-workplace-mental-health) and their tendency toward stimulant abuse for performance enhancement.
 
 ### What Works for Type 3s
 
@@ -350,6 +365,16 @@ _"I saw medication as failure until burnout forced my hand. Starting Wellbutrin 
 
 _"I thought antidepressants would make me a happy robot. Instead, they gave me the stability to actually USE my depth. I still feel everything—I just don't drown in it. My art has actually improved because I can channel emotions instead of being consumed by them."_ - Anonymous Type 4
 
+<a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard 
+      image="/blogs/greek-statue-taking-notes.webp"
+      displayText="Find Professional Help"
+      showIcon={false}
+      altText="Medication guidance for Enneagram types"
+      subtext="Find the right therapist and psychiatrist for your type"
+  />
+</a>
+
 ## Type 5: The Investigator and Medication
 
 ### Type 5's Relationship with Medication
@@ -369,6 +394,8 @@ _"I thought antidepressants would make me a happy robot. Instead, they gave me t
 - Minimal effective dose
 - Hoarding information
 - Avoiding psychiatrists
+
+Type 5s often have [neurodivergent traits like autism or ADHD](/enneagram-corner/mental-health/enneagram-neurodivergence-guide) that compound their medication sensitivities and need for autonomy in treatment decisions.
 
 ### What Works for Type 5s
 
@@ -443,6 +470,8 @@ _"I spent two years researching before trying an SSRI. I started at 1/4 the norm
 - Catastrophizing effects
 - Testing providers
 
+Type 6s may need [crisis intervention support](/enneagram-corner/mental-health/enneagram-crisis-management-guide) when their anxiety about medication becomes paralyzing, requiring specialized approaches that honor their need for security while encouraging treatment.
+
 ### What Works for Type 6s
 
 #### Medication Approach
@@ -516,6 +545,8 @@ _"My anxiety about taking anxiety medication was ironic. I grilled my psychiatri
 - Multiple substances
 - Avoiding emotional work
 
+Type 7s often have complex [addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) involving multiple substances and behaviors, making coordinated care between addiction specialists and psychiatrists essential for proper medication management.
+
 ### What Works for Type 7s
 
 #### Medication Approach
@@ -588,6 +619,8 @@ _"I avoided medication because I thought it would cage me. ADHD meds changed eve
 - Secret use if any
 - Stopping abruptly
 - Minimal doses only
+
+Type 8s often have [trauma histories](/enneagram-corner/mental-health/enneagram-trauma-response-guide) that make trusting healthcare providers difficult, requiring trauma-informed approaches that respect their need for control while ensuring proper medication management.
 
 ### What Works for Type 8s
 
@@ -787,6 +820,15 @@ Consider:
 - Spiritual practices
 - Regular reassessment
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
+  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" },
+  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
+  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
+]} />
+</div>
+
 ## Conclusion: Your Choice, Your Journey
 
 Medication is a deeply personal decision that intersects with your Enneagram type in unique ways. Understanding your type's patterns can help you:
@@ -800,6 +842,8 @@ Medication is a deeply personal decision that intersects with your Enneagram typ
 There's no "right" choice—only what's right for you at this time. Whether you choose medication, natural alternatives, or a combination, let your decision be informed by both your type's wisdom and professional guidance.
 
 Remember: Seeking help, in whatever form, is an act of strength. Your Enneagram type shows you how to seek help in a way that honors who you are while supporting who you're becoming.
+
+Whether you choose medication or not, consider exploring [therapy approaches tailored to your type](/enneagram-corner/mental-health/enneagram-therapy-guide), understanding your [trauma patterns](/enneagram-corner/mental-health/enneagram-trauma-response-guide), or developing [crisis management skills](/enneagram-corner/mental-health/enneagram-crisis-management-guide) as part of your comprehensive mental health care.
 
 <svelte:head>
 
@@ -825,8 +869,8 @@ Remember: Seeking help, in whatever form, is an act of strength. Your Enneagram 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-03-20",
-      "datePublished": "2024-03-20",
+      "dateModified": "2025-08-25",
+      "datePublished": "2025-08-25",
       "description": "Understand how each Enneagram type responds to psychiatric medications, common fears, and strategies for working with psychiatrists based on personality type.",
       "headline": "The Enneagram Guide to Medication and Mental Health",
       "image": {

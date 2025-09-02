@@ -263,7 +263,7 @@
 			>
 				Read Our Anxiety Guide
 			</a>
-			<a href="/enneagram-test" class="btn btn-secondary"> Discover Your Type </a>
+			<a href="/questions" class="btn btn-secondary"> Discover Your Type </a>
 		</div>
 	</section>
 </div>

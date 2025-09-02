@@ -64,6 +64,15 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Giving away possessions
 - Saying goodbye
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
+  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
+  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
+]} />
+</div>
+
 ## Type 1: The Perfectionist in Crisis
 
 ### What Triggers Crisis for Type 1s
@@ -91,6 +100,8 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Suicidal ideation as "justice"
 - Complete shutdown
 - Psychosomatic illness
+
+Type 1s in crisis often benefit from [trauma-informed therapy approaches](/enneagram-corner/mental-health/enneagram-therapy-guide) that address the perfectionist patterns that often develop from childhood experiences of harsh criticism or impossible standards.
 
 ### Immediate Interventions for Type 1s
 
@@ -199,6 +210,8 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Complete withdrawal
 - Psychosomatic symptoms
 
+The Helper's crisis often stems from deep [trauma patterns around abandonment](/enneagram-corner/mental-health/enneagram-trauma-response-guide), making attachment-based therapy and understanding their addiction to helping others crucial components of crisis intervention.
+
 ### Immediate Interventions for Type 2s
 
 #### 1. Validate Their Worth
@@ -306,6 +319,8 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Severe depression
 - Suicidal planning
 - Substance abuse
+
+Type 3 crises are often triggered by [workplace failures or burnout](/enneagram-corner/mental-health/enneagram-workplace-mental-health), and may be complicated by [addiction to stimulants or work itself](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide).
 
 ### Immediate Interventions for Type 3s
 
@@ -479,6 +494,16 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Stay consistent
 - Show up regularly
 
+<a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard 
+      image="/blogs/greek-statues-who-are-stressed.webp"
+      displayText="Get Professional Crisis Support"
+      showIcon={false}
+      altText="Crisis support for Enneagram types"
+      subtext="Learn therapy approaches for crisis intervention"
+  />
+</a>
+
 **Don't**:
 
 - Minimize their pain
@@ -522,6 +547,8 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Suicidal planning
 - Psychotic features
 - Catatonic states
+
+Type 5s in crisis may also struggle with [neurodivergent traits](/enneagram-corner/mental-health/enneagram-neurodivergence-guide) that compound their overwhelm, making specialized support essential for their recovery.
 
 ### Immediate Interventions for Type 5s
 
@@ -632,6 +659,8 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Complete paralysis
 - Self-fulfilling disasters
 
+Type 6 crises often involve [medication management for severe anxiety](/enneagram-corner/mental-health/enneagram-medication-mental-health), and understanding their specific trauma responses helps in providing appropriate crisis support.
+
 ### Immediate Interventions for Type 6s
 
 #### 1. Create Immediate Safety
@@ -741,6 +770,8 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Suicidal impulsivity
 - Complete collapse
 
+Type 7s often have [multiple addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) that can complicate crisis intervention, requiring specialized approaches that balance containment with their need for stimulation.
+
 ### Immediate Interventions for Type 7s
 
 #### 1. Contain Safely
@@ -849,6 +880,8 @@ This guide provides type-specific crisis management strategies, warning signs to
 - Complete shutdown
 - Suicidal planning
 - Revenge obsession
+
+Type 8 crises often involve complex [trauma histories around betrayal and powerlessness](/enneagram-corner/mental-health/enneagram-trauma-response-guide), requiring crisis workers who can match their intensity while providing safety.
 
 ### Immediate Interventions for Type 8s
 
@@ -1054,6 +1087,15 @@ This guide provides type-specific crisis management strategies, warning signs to
    - Comfort items
    - Professional resources
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Medication Guide", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
+  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
+  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" },
+  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" }
+]} />
+</div>
+
 3. **Practice When Calm**
    - Regular skill building
    - Support activation
@@ -1159,6 +1201,8 @@ Remember:
 
 If you're reading this in crisis, please reach out for help. Your life matters, your pain is temporary, and your future holds possibilities you can't see right now.
 
+For ongoing support after crisis stabilization, explore [therapy options tailored to your type](/enneagram-corner/mental-health/enneagram-therapy-guide), understand how [trauma has shaped your patterns](/enneagram-corner/mental-health/enneagram-trauma-response-guide), or learn about [addiction recovery strategies](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) if substance use is part of your crisis pattern.
+
 **Crisis Resources**:
 
 - National Suicide Prevention Lifeline: 988
@@ -1187,8 +1231,8 @@ You deserve support. You deserve life. You deserve to discover who you can becom
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-03-15",
-      "datePublished": "2024-03-15",
+      "dateModified": "2025-08-25",
+      "datePublished": "2025-08-25",
       "description": "Learn immediate interventions for each Enneagram type in crisis, including suicide prevention strategies, emergency coping tools, and how to help others.",
       "headline": "Crisis Management by Enneagram Type: Your Emergency Mental Health Toolkit",
       "image": {

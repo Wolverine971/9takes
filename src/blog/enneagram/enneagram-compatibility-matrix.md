@@ -649,7 +649,7 @@ Understanding Enneagram compatibility isn't about finding the perfect match - it
 
 Want to explore your specific type combination in more depth? Check out our detailed guides:
 
-- [Enneagram in Relationships](/enneagram-corner/enneagram-in-relationships)
+- [Enneagram Types in Relationships](/enneagram-corner/enneagram-types-in-relationships)
 - [Enneagram Types Working in Teams](/enneagram-corner/enneagram-types-working-in-teams)
 - [Understanding Your Enneagram Type](/enneagram-corner/)
 

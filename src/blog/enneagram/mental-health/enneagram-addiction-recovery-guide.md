@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram and Addiction: Understanding Each Type's Escape Patterns'
+title: "Enneagram and Addiction: Understanding Each Type's Escape Patterns"
 description: 'Discover how each Enneagram type develops specific addictions, from substances to behaviors. Learn recovery strategies tailored to your personality type.'
 author: 'DJ Wayne'
-date: '2025-08-25'
+date: '2025-09-01'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide'
-lastmod: '2025-08-25'
+lastmod: '2025-09-01'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -60,6 +60,16 @@ Each Enneagram type uses addiction to:
 4. **Relationship Addictions**: Codependency, love addiction
 5. **Digital Addictions**: Social media, gaming, internet
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
+  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
+  { name: "Enneagram and Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" },
+  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
+]} />
+</div>
+
 ## Type 1: The Perfectionist's Addictions
 
 ### Common Addictions for Type 1s
@@ -87,6 +97,8 @@ Type 1s use addiction to:
 - Release suppressed anger
 - Escape feelings of inadequacy
 - Control the "messy" parts of life
+
+This perfectionist drive often leads Type 1s to seek [therapy approaches that address their inner critic](/enneagram-corner/mental-health/enneagram-therapy-guide), as traditional addiction treatment alone may not address the root perfectionist patterns.
 
 ### The Addiction Cycle for Type 1s
 
@@ -171,6 +183,8 @@ Type 2s use addiction to:
 - Maintain the "helpful" image
 - Avoid their own pain
 
+The Helper's addiction patterns often develop from childhood experiences where they learned to suppress their own needs. Understanding [trauma responses in Type 2s](/enneagram-corner/mental-health/enneagram-trauma-response-guide) can be crucial for effective recovery.
+
 ### The Addiction Cycle for Type 2s
 
 1. **Trigger**: Feeling unneeded or rejected
@@ -253,6 +267,8 @@ Type 3s use addiction to:
 - Numb authentic emotions
 - Keep up the successful image
 - Avoid inner emptiness
+
+The Achiever's addiction often manifests in [workplace environments](/enneagram-corner/mental-health/enneagram-workplace-mental-health) where performance pressure is high, making occupational therapy and workplace boundaries essential components of recovery.
 
 ### The Addiction Cycle for Type 3s
 
@@ -475,6 +491,15 @@ Type 5s use addiction to:
 
 "I have enough to share. Connection energizes rather than depletes. My needs are valid and meetable."
 
+<a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard 
+      image="/blogs/greek-statues-in-a-progression.webp"
+      displayText="Explore Therapy Guide"
+      showIcon={false}
+      subtext=""
+  />
+</a>
+
 ## Type 6: The Loyalist's Addictions
 
 ### Common Addictions for Type 6s
@@ -586,6 +611,8 @@ Type 7s use addiction to:
 - Keep options open
 - Deny dark feelings
 
+Type 7s often struggle with multiple addictions simultaneously, making [crisis management skills](/enneagram-corner/mental-health/enneagram-crisis-management-guide) particularly important when they hit rock bottom or face consequences from their various escape behaviors.
+
 ### The Addiction Cycle for Type 7s
 
 1. **Trigger**: Pain/limitation
@@ -668,6 +695,8 @@ Type 8s use addiction to:
 - Avoid feeling weak
 - Control environment
 - Deny emotional needs
+
+The Challenger's addiction often stems from early [trauma that taught them vulnerability equals danger](/enneagram-corner/mental-health/enneagram-trauma-response-guide). Recovery requires learning that true strength includes emotional openness and asking for help.
 
 ### The Addiction Cycle for Type 8s
 
@@ -875,6 +904,15 @@ Type 9s use addiction to:
 - **Type 8**: "A New Earth"
 - **Type 9**: "The Power of Now"
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Medication Guide", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
+  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
+  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" },
+  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" }
+]} />
+</div>
+
 ## Creating Your Recovery Plan
 
 ### Step 1: Honest Assessment
@@ -900,6 +938,8 @@ Type 9s use addiction to:
 - Work on type's core fear
 - Heal original wounds
 - Develop healthy coping
+
+Addressing core issues often requires understanding how [your type responds to trauma](/enneagram-corner/mental-health/enneagram-trauma-response-guide) and may include [medication as part of a comprehensive treatment plan](/enneagram-corner/mental-health/enneagram-medication-mental-health) depending on your specific needs and type patterns.
 
 ### Step 5: Maintain Growth
 
@@ -931,6 +971,8 @@ The path may look different for each type, but the destination is the same: a li
 
 Recovery isn't just about stopping addictive behaviors—it's about becoming who you were always meant to be.
 
+If you're ready to begin your recovery journey, consider exploring [professional therapy options](/enneagram-corner/mental-health/enneagram-therapy-guide) that align with your Enneagram type, or learn about [crisis management strategies](/enneagram-corner/mental-health/enneagram-crisis-management-guide) if you're currently in an urgent situation.
+
 <svelte:head>
 
 <script type="application/ld+json">
@@ -950,8 +992,8 @@ Recovery isn't just about stopping addictive behaviors—it's about becoming who
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-03-01",
-      "datePublished": "2024-03-01",
+      "dateModified": "2025-09-01",
+      "datePublished": "2025-09-01",
       "description": "Discover how each Enneagram type develops specific addictions, from substances to behaviors. Learn recovery strategies tailored to your personality type.",
       "headline": "Enneagram and Addiction: Understanding Each Type's Escape Patterns",
       "image": {

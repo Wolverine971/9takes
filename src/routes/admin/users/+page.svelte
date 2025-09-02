@@ -84,13 +84,14 @@
 
 	// Define essential columns for better UI
 	const essentialColumns = [
-		{ field: 'id', label: 'ID' },
+		{ field: 'last_sign_in_at', label: 'Last Sign-In' },
+		{ field: 'email', label: 'Email' },
+		{ field: 'enneagram', label: 'Enneagram' },
 		{ field: 'username', label: 'Username' },
 		{ field: 'first_name', label: 'First Name' },
 		{ field: 'last_name', label: 'Last Name' },
-		{ field: 'enneagram', label: 'Enneagram' },
 		{ field: 'admin', label: 'Is Admin' },
-		{ field: 'email', label: 'Email' }
+		{ field: 'id', label: 'ID' }
 	];
 
 	// Define additional columns that can be hidden/shown
@@ -101,8 +102,7 @@
 		{ field: 'role', label: 'Role' },
 		{ field: 'invited_at', label: 'Invited At' },
 		{ field: 'confirmation_sent_at', label: 'Confirmation Sent At' },
-		{ field: 'confirmed_at', label: 'Confirmed At' },
-		{ field: 'last_sign_in_at', label: 'Last Sign-In At' }
+		{ field: 'confirmed_at', label: 'Confirmed At' }
 	];
 
 	// State for showing additional columns
@@ -197,6 +197,10 @@
 											</span>
 										{:else if column.field === 'email'}
 											<a href="mailto:{profile.email}" class="table-link">{profile.email}</a>
+										{:else if column.field === 'last_sign_in_at'}
+											{profile.last_sign_in_at
+												? new Date(profile.last_sign_in_at).toLocaleString()
+												: '—'}
 										{:else}
 											{profile[column.field] || '—'}
 										{/if}

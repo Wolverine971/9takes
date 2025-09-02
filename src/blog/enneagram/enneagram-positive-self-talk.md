@@ -1390,10 +1390,10 @@ Starting tomorrow morning.
 **[Share Your Inner Critic Pattern →](/questions)**
 Get type-specific support from people who understand
 
-**[Track Your 30-Day Transformation →](/enneagram-corner/subscribe)**
+**[Track Your 30-Day Transformation →](/signup)**
 Download our free type-specific self-talk tracker
 
-**[Go Deeper With Personal Coaching →](/coaching)**
+**[Go Deeper With Personal Coaching →](/book-session)**
 Work 1-on-1 to rewire decades of programming
 
 </div>

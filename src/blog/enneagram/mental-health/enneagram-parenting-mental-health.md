@@ -62,6 +62,15 @@ Don't focus on:
 - What you want them to be
 - Comparisons to siblings
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
+  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
+  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" }
+]} />
+</div>
+
 ## Type 1 Patterns in Children
 
 ### Early Warning Signs of Mental Health Issues
@@ -89,6 +98,8 @@ Don't focus on:
 - Explosive anger followed by shame
 - Academic performance anxiety
 - Friend problems due to criticism
+
+Type 1 children often develop these patterns from [trauma responses to harsh criticism or perfectionist environments](/enneagram-corner/mental-health/enneagram-trauma-response-guide), making early intervention crucial.
 
 ### Building Resilience in Type 1 Children
 
@@ -147,6 +158,8 @@ Consider therapy if:
 - Eating becomes disordered
 - Sleep is consistently disrupted
 - Social isolation increases
+
+For crisis situations, follow [emergency intervention guidelines](/enneagram-corner/mental-health/enneagram-crisis-management-guide), and consider whether [neurodivergent traits like ADHD or autism](/enneagram-corner/mental-health/enneagram-neurodivergence-guide) might be contributing to their perfectionist struggles.
 
 ## Type 2 Patterns in Children
 
@@ -406,6 +419,16 @@ Consider therapy if:
 - Eating becomes disordered
 - Isolation increases
 
+<a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard 
+      image="/blogs/greek-statue-babies.webp"
+      displayText="Find Professional Help"
+      showIcon={false}
+      altText="Parenting mental health for Enneagram types"
+      subtext="Professional support for children with different personality patterns"
+  />
+</a>
+
 ## Type 5 Patterns in Children
 
 ### Early Warning Signs of Mental Health Issues
@@ -433,6 +456,8 @@ Consider therapy if:
 - Dissociation episodes
 - Neglecting hygiene/food
 - No peer connections
+
+Type 5 children may also show [neurodivergent traits like autism](/enneagram-corner/mental-health/enneagram-neurodivergence-guide) which can compound their withdrawal patterns and need specialized assessment and support.
 
 ### Building Resilience in Type 5 Children
 
@@ -906,6 +931,15 @@ Consider therapy if:
 - **Type 8**: Leadership roles, intense sports
 - **Type 9**: Gentle movement, nature
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Medication & Children", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
+  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" },
+  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
+  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
+]} />
+</div>
+
 ## Conclusion: Parenting with the Enneagram
 
 Understanding your child's Enneagram patterns isn't about labeling or limiting them—it's about seeing them clearly and supporting them appropriately. Every child deserves parents who understand their unique needs and vulnerabilities.
@@ -928,6 +962,8 @@ Use these insights to:
 
 Most importantly, remember that behind every behavior is a need. When you understand your child's core motivations and fears, you can meet their needs before they become mental health crises.
 
+If you're facing a mental health crisis with your child, don't hesitate to use [crisis management resources](/enneagram-corner/mental-health/enneagram-crisis-management-guide). Consider whether [trauma responses](/enneagram-corner/mental-health/enneagram-trauma-response-guide) or [neurodivergent traits](/enneagram-corner/mental-health/enneagram-neurodivergence-guide) might be influencing their behavior, and seek [appropriate professional help](/enneagram-corner/mental-health/enneagram-therapy-guide) when needed.
+
 Your awareness and action today shape your child's mental health tomorrow. Trust yourself, seek help when needed, and remember—understanding your child's patterns is an act of love that can change their life.
 
 <svelte:head>
@@ -949,8 +985,8 @@ Your awareness and action today shape your child's mental health tomorrow. Trust
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-03-05",
-      "datePublished": "2024-03-05",
+      "dateModified": "2025-08-25",
+      "datePublished": "2025-08-25",
       "description": "Learn to recognize early mental health warning signs in children based on their Enneagram type. Build resilience and know when to seek help.",
       "headline": "The Enneagram Parent's Guide to Children's Mental Health",
       "image": {

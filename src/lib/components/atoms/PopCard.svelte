@@ -150,7 +150,7 @@
 	<!-- Content container positioned at bottom -->
 	<div class="image-card__content">
 		{#if showIcon}
-			<img class="image-card__icon" src="darkRubix.webp" alt="rubix cube" loading="lazy" />
+			<img class="image-card__icon" src="brand/darkRubix.webp" alt="rubix cube" loading="lazy" />
 		{/if}
 
 		<div class="image-card__text">

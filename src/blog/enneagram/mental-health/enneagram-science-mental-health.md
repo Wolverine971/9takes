@@ -69,6 +69,15 @@ This guide examines the scientific evidence linking Enneagram types to mental he
    - 376 items measuring 27 subtypes
    - Cronbach's alpha > 0.80 for all scales
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
+  { name: "Enneagram Medication Guide", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
+  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" },
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" }
+]} />
+</div>
+
 ## Neuroscience of the Enneagram
 
 ### Brain Imaging Studies
@@ -98,6 +107,8 @@ This guide examines the scientific evidence linking Enneagram types to mental he
 - Predisposition to OCD-like patterns
 - Heightened stress response to imperfection
 - Difficulty downregulating critical thoughts
+
+These neural patterns help explain why Type 1s often benefit from [specific therapy approaches](/enneagram-corner/mental-health/enneagram-therapy-guide) that address their perfectionist anxiety and may respond well to [certain medications](/enneagram-corner/mental-health/enneagram-medication-mental-health) that regulate their overactive error-detection systems.
 
 #### Type 2: The Helper Brain
 
@@ -411,6 +422,18 @@ This guide examines the scientific evidence linking Enneagram types to mental he
 - COMT variants + Type 6 = Increased anxiety
 - DRD4 variants + Type 7 = ADHD symptoms
 
+<a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard 
+      image="/blogs/greek-statue-reading-a-book.webp"
+      displayText="Explore Scientific Applications"
+      showIcon={false}
+      altText="Science-based Enneagram mental health research"
+      subtext="Evidence-based therapy approaches for your type"
+  />
+</a>
+
+These genetic findings support the use of [personalized medication approaches](/enneagram-corner/mental-health/enneagram-medication-mental-health) and help explain why certain types have higher rates of [neurodivergent conditions](/enneagram-corner/mental-health/enneagram-neurodivergence-guide) like ADHD and autism.
+
 ## Limitations and Criticisms
 
 ### Scientific Challenges
@@ -438,6 +461,15 @@ This guide examines the scientific evidence linking Enneagram types to mental he
 - Avoid rigid categorization
 - Focus on patterns not labels
 - Integrate with established methods
+
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
+  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
+  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
+  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
+]} />
+</div>
 
 ## Future Research Directions
 
@@ -510,6 +542,8 @@ As research continues, the Enneagram is emerging as a scientifically grounded fr
 
 The future of mental health treatment lies not in one-size-fits-all approaches, but in understanding the unique patterns that make us who we are—and the Enneagram provides a scientifically supported map for that journey.
 
+Explore how this scientific understanding applies to practical mental health support through [evidence-based therapy approaches](/enneagram-corner/mental-health/enneagram-therapy-guide), [medication considerations](/enneagram-corner/mental-health/enneagram-medication-mental-health), [trauma-informed care](/enneagram-corner/mental-health/enneagram-trauma-response-guide), and [crisis intervention strategies](/enneagram-corner/mental-health/enneagram-crisis-management-guide).
+
 <svelte:head>
 
 <script type="application/ld+json">
@@ -529,8 +563,8 @@ The future of mental health treatment lies not in one-size-fits-all approaches, 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-03-30",
-      "datePublished": "2024-03-30",
+      "dateModified": "2025-08-25",
+      "datePublished": "2025-08-25",
       "description": "Explore the scientific research linking Enneagram types to mental health patterns, including neuroscience findings, clinical studies, and evidence-based applications.",
       "headline": "The Science Behind Enneagram and Mental Health: Research, Neuroscience, and Evidence",
       "image": {

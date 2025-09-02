@@ -161,7 +161,7 @@
 		{#if showIcon}
 			<img
 				class="drop-shadow-white mt-2 w-8 filter"
-				src="darkRubix.webp"
+				src="brand/darkRubix.webp"
 				alt="rubix cube"
 				loading="lazy"
 			/>

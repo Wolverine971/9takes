@@ -51,6 +51,15 @@ Each Enneagram type has:
 **Heart Center (2, 3, 4)**: Stress from rejection, failure, or lack of recognition
 **Head Center (5, 6, 7)**: Stress from uncertainty, overwhelm, or limitation
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
+  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
+  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" }
+]} />
+</div>
+
 ## Type 1: The Perfectionist's Workplace Mental Health
 
 ### How Type 1s Experience Work Stress
@@ -78,6 +87,8 @@ Each Enneagram type has:
 - Working longer hours to "fix" everything
 - Increasing irritability with colleagues
 - Physical symptoms (back pain, TMJ)
+
+Type 1s often develop [workaholism and perfectionist addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) in the workplace, using achievement to manage their anxiety and self-criticism.
 - Perfectionism paralysis
 - Loss of perspective on priorities
 
@@ -335,6 +346,18 @@ Each Enneagram type has:
 - Feeling alienated
 - Meaning crisis
 - Envy of others
+
+<a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard 
+      image="/blogs/greek-statues-working-in-teams.webp"
+      displayText="Get Professional Support"
+      showIcon={false}
+      altText="Workplace mental health for Enneagram types"
+      subtext="Therapy approaches for workplace challenges"
+  />
+</a>
+
+Type 4s may develop workplace depression or anxiety when their need for authenticity and meaning isn't met, sometimes requiring [specialized therapy approaches](/enneagram-corner/mental-health/enneagram-therapy-guide) that honor their depth while building resilience.
 
 **Full Burnout Looks Like**:
 
@@ -879,6 +902,15 @@ Each type needs specific support for remote mental health.
 **Type 8**: Vulnerability training, sustainable leadership
 **Type 9**: Assertiveness training, priority management
 
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Medication Guide", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
+  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" },
+  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" },
+  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" }
+]} />
+</div>
+
 ## Conclusion: Work as Growth Opportunity
 
 Understanding your Enneagram type's workplace mental health patterns transforms work from a source of stress to an opportunity for growth. By recognizing your unique triggers, burnout patterns, and needs, you can create sustainable success while maintaining psychological wellbeing.
@@ -886,6 +918,8 @@ Understanding your Enneagram type's workplace mental health patterns transforms 
 For organizations, supporting type diversity means creating environments where all personalities can thrive. This isn't just good for mental health—it's good for business, innovation, and human potential.
 
 Remember: Your type's challenges at work are also doorways to development. With awareness, support, and type-appropriate strategies, you can build a career that honors both your professional goals and your mental health.
+
+If workplace stress is affecting your mental health significantly, don't hesitate to seek [professional therapy support](/enneagram-corner/mental-health/enneagram-therapy-guide), learn [crisis management strategies](/enneagram-corner/mental-health/enneagram-crisis-management-guide), understand how [trauma may be affecting your work patterns](/enneagram-corner/mental-health/enneagram-trauma-response-guide), or explore [treatment options including medication](/enneagram-corner/mental-health/enneagram-medication-mental-health) if workplace stress is contributing to anxiety, depression, or addiction patterns.
 
 <svelte:head>
 
@@ -906,8 +940,8 @@ Remember: Your type's challenges at work are also doorways to development. With 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-03-25",
-      "datePublished": "2024-03-25",
+      "dateModified": "2025-08-25",
+      "datePublished": "2025-08-25",
       "description": "Learn how each Enneagram type experiences workplace stress and burnout. Discover type-specific strategies for maintaining mental health at work.",
       "headline": "Enneagram and Workplace Mental Health: Preventing Burnout by Type",
       "image": {

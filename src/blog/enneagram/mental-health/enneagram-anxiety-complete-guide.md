@@ -54,13 +54,25 @@ Before diving into type-specific patterns, let's establish what makes the Enneag
 5. **Health Anxiety**
 6. **Performance Anxiety**
 
+<MarqueeHorizontal 
+  displayList={[
+    { name: 'Trauma Response Guide', link: '/enneagram-corner/mental-health/enneagram-trauma-response-guide' },
+    { name: 'Crisis Management', link: '/enneagram-corner/mental-health/enneagram-crisis-management-guide' },
+    { name: 'Therapy Guide', link: '/enneagram-corner/mental-health/enneagram-therapy-guide' },
+    { name: 'Mental Health Flags', link: '/enneagram-corner/enneagram-mental-health-flags' },
+    { name: 'Workplace Mental Health', link: '/enneagram-corner/mental-health/enneagram-workplace-mental-health' },
+    { name: 'Medication & Mental Health', link: '/enneagram-corner/mental-health/enneagram-medication-mental-health' }
+  ]} 
+  speed={30}
+/>
+
 ## Type 1: The Perfectionist's Anxiety
 
 ### How Anxiety Manifests in Type 1s
 
 Type 1s experience anxiety primarily through:
 
-- **Perfectionistic anxiety**: Fear of making mistakes or being imperfect
+- **[Perfectionistic anxiety](/enneagram-corner/mental-health/enneagram-perfectionism-guide)**: Fear of making mistakes or being imperfect
 - **Moral anxiety**: Worry about doing the "wrong" thing
 - **Health anxiety**: Concern about body imperfections or illness
 - **Performance anxiety**: Fear of not meeting standards
@@ -113,7 +125,7 @@ Studies show that perfectionism is linked to a 50% higher risk of anxiety disord
 
 Type 2s experience anxiety through:
 
-- **Social anxiety**: Fear of rejection or not being needed
+- **[Social anxiety](/enneagram-corner/mental-health/enneagram-social-anxiety-guide)**: Fear of rejection or not being needed
 - **Separation anxiety**: Distress when apart from loved ones
 - **People-pleasing anxiety**: Worry about disappointing others
 - **Emotional contagion anxiety**: Taking on others' emotions
@@ -213,6 +225,16 @@ Type 3s experience anxiety through:
 
 Studies show that achievement-oriented individuals have 40% higher cortisol levels during rest periods (Psychoneuroendocrinology, 2023).
 
+<a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+    image="/blogs/greek-statue-enneagram-coaching.webp"
+    showIcon={false}
+    displayText="Find Your Therapy Match"
+    altText="Enneagram therapy guide"
+    subtext="Discover therapy approaches that work for your type"
+  />
+</a>
+
 ## Type 4: The Individualist's Anxiety
 
 ### How Anxiety Manifests in Type 4s
@@ -222,7 +244,7 @@ Type 4s experience anxiety through:
 - **Existential anxiety**: Fear of meaninglessness or ordinariness
 - **Abandonment anxiety**: Fear of being left due to defectiveness
 - **Identity anxiety**: Uncertainty about authentic self
-- **Emotional flooding anxiety**: Fear of overwhelming feelings
+- **[Emotional flooding anxiety](/enneagram-corner/mental-health/enneagram-emotional-regulation-guide)**: Fear of overwhelming feelings
 
 ### Common Anxiety Triggers for Type 4s
 
@@ -325,7 +347,7 @@ Introverted thinking types show 60% higher baseline arousal in brain scans (Jour
 
 Type 6s experience anxiety through:
 
-- **Generalized anxiety**: Pervasive worry about everything
+- **[Generalized anxiety](/enneagram-corner/mental-health/enneagram-generalized-anxiety-guide)**: Pervasive worry about everything
 - **Authority anxiety**: Fear related to authority figures
 - **Decision anxiety**: Fear of making wrong choices
 - **Trust anxiety**: Fear of betrayal or deception
@@ -372,6 +394,11 @@ Type 6s experience anxiety through:
 
 The anxiety-prone personality type shows heightened amygdala response to uncertain stimuli (Nature Neuroscience, 2023).
 
+<MarqueeHorizontal 
+  theme="growth"
+  speed={35}
+/>
+
 ## Type 7: The Enthusiast's Anxiety
 
 ### How Anxiety Manifests in Type 7s
@@ -380,7 +407,7 @@ Type 7s experience anxiety through:
 
 - **FOMO anxiety**: Fear of missing out on experiences
 - **Constraint anxiety**: Fear of limitation or boredom
-- **Dark emotion anxiety**: Fear of pain, sadness, or negativity
+- **Dark emotion anxiety**: Fear of pain, sadness, or [negativity](/enneagram-corner/mental-health/enneagram-depression-guide)
 - **Commitment anxiety**: Fear of being trapped
 
 ### Common Anxiety Triggers for Type 7s
@@ -531,6 +558,16 @@ Type 9s experience anxiety through:
 
 Conflict-avoidant personalities show 40% higher baseline anxiety but 70% higher spike during confrontations (Journal of Personality, 2023).
 
+<a href="/enneagram-corner/mental-health/enneagram-crisis-management-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+  <PopCard
+    image="/blogs/greek-statues-who-are-stressed.webp"
+    showIcon={false}
+    displayText="Crisis Support Guide"
+    altText="Crisis management by Enneagram type"
+    subtext="Emergency strategies tailored to your personality"
+  />
+</a>
+
 ## Universal Anxiety Management Techniques
 
 ### Breathing Techniques by Center
@@ -540,6 +577,8 @@ Conflict-avoidant personalities show 40% higher baseline anxiety but 70% higher 
 **Head Center (5, 6, 7)**: 4-7-8 breathing for mental calm
 
 ### Crisis Resources
+
+For immediate support and crisis management strategies tailored to your Enneagram type, see our [comprehensive crisis guide](/enneagram-corner/mental-health/enneagram-crisis-management-guide).
 
 - **National Suicide Prevention Lifeline**: 988
 - **Crisis Text Line**: Text HOME to 741741
@@ -563,7 +602,7 @@ Research shows that consistent anxiety management practices can reduce symptoms 
 
 Understanding how your Enneagram type experiences and can manage anxiety is a game-changer. While anxiety is universal, your path through it is uniquely yours. Use these insights as a starting point, but remember—you are the expert on your own experience.
 
-Remember: This guide is for educational purposes only. If you're struggling with anxiety, please reach out to a qualified mental health professional who can provide personalized support.
+Remember: This guide is for educational purposes only. If you're struggling with anxiety, please reach out to a [qualified mental health professional](/enneagram-corner/mental-health/enneagram-therapy-guide) who can provide personalized support.
 
 <svelte:head>
 
@@ -584,8 +623,8 @@ Remember: This guide is for educational purposes only. If you're struggling with
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-02-15",
-      "datePublished": "2024-02-15",
+      "dateModified": "2025-08-25",
+      "datePublished": "2025-08-25",
       "description": "Discover how anxiety manifests differently in each Enneagram type, with tailored coping strategies, grounding exercises, and evidence-based interventions.",
       "headline": "The Complete Guide to Enneagram and Anxiety Disorders",
       "image": {
