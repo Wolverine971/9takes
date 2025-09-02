@@ -11,7 +11,7 @@ published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: 'enneagram-neurodivergence'
+pic: 'greek-statue-playing-with-toys'
 ---
 
 <!--
@@ -831,7 +831,7 @@ For additional support, consider exploring [therapy options that understand both
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/enneagram-neurodivergence.webp",
+        "url": "https://9takes.com/blogs/greek-statue-playing-with-toys.webp",
         "width": 900
       },
       "mainEntityOfPage": {

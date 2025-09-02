@@ -561,9 +561,12 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses</loc>
-    <lastmod>2024-05-04T00:00:00.000Z</lastmod>
+    <lastmod>2025-09-02T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/greek-statue-holding-scales.webp</image:loc>
+    </image:image>
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-stress-number</loc>
@@ -913,7 +916,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-        <image:loc>https://9takes.com/blogs/enneagram-neurodivergence.webp</image:loc>
+        <image:loc>https://9takes.com/blogs/greek-statue-playing-with-toys.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -922,16 +925,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-        <image:loc>https://9takes.com/blogs/enneagram-parenting-mental-health.webp</image:loc>
+        <image:loc>https://9takes.com/blogs/greek-statue-struggling-to-parent.webp</image:loc>
     </image:image>
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-science-mental-health</loc>
-    <lastmod>2025-08-25T00:00:00.000Z</lastmod>
+    <lastmod>2025-09-02T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-        <image:loc>https://9takes.com/blogs/enneagram-science-mental-health.webp</image:loc>
+        <image:loc>https://9takes.com/blogs/greek-statue-researcher.webp</image:loc>
     </image:image>
 </url>
 <url>

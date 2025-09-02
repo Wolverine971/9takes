@@ -11,7 +11,7 @@ published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: 'enneagram-parenting-mental-health'
+pic: 'greek-statue-struggling-to-parent'
 ---
 
 <!--
@@ -992,7 +992,7 @@ Your awareness and action today shape your child's mental health tomorrow. Trust
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/enneagram-parenting-mental-health.webp",
+        "url": "https://9takes.com/blogs/greek-statue-struggling-to-parent.webp",
         "width": 900
       },
       "mainEntityOfPage": {

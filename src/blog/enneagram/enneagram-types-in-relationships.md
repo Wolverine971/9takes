@@ -14,6 +14,16 @@ previewHtml: ''
 pic: 'greek-statues-on-a-date'
 ---
 
+<!-- MIDJOURNEY PROMPTS
+
+Hero Image - The Dance of Love:
+Two Greek statues in romantic restaurant setting, marble hands reaching across candlelit table with wine glasses, one statue leaning in attentively while other gestures expressively, rose petals scattered on white tablecloth, soft bokeh lights in background creating intimate atmosphere, warm golden hour lighting through restaurant windows, fine dining ambiance, lifestyle photography --ar 16:9 --v 6
+
+Alternative - Love's Different Languages:
+Nine pairs of Greek statues arranged in a heart formation, each couple showing different love expressions - Type 1 couple organizing together with checklist, Type 2 couple with one giving flowers, Type 3 couple celebrating achievement together, Type 4 couple in deep emotional gaze, Type 5 couple reading side by side, Type 6 couple holding hands protectively, Type 7 couple laughing and playing, Type 8 couple in passionate debate, Type 9 couple peacefully embracing, soft museum lighting, wide angle architectural photography --ar 16:9 --v 6
+
+-->
+
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>

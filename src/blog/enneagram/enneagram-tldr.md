@@ -14,6 +14,16 @@ previewHtml: ''
 pic: 'greek-dude-reading-book'
 ---
 
+<!-- MIDJOURNEY PROMPTS
+
+Hero Image - Speed Reading the Enneagram:
+Greek statue in modern library speed-reading through massive ancient tome with marble fingers tracing lines of text, pages flying and floating around the statue caught mid-air showing personality diagrams, stopwatch on desk showing 5 minutes, stack of discarded lengthy psychology textbooks pushed aside, focused marble expression with slight smirk, dramatic library lighting through tall windows, shallow depth of field, lifestyle photography --ar 16:9 --v 6
+
+Alternative - The Quick Study:
+Greek statue at minimalist desk with single-page cheat sheet in marble hands, nine sticky notes arranged in enneagram pattern on wall behind with one-word descriptions, coffee cup with steam, smartphone timer showing 5:00, other thick books closed and stacked as armrest, morning light streaming through window, modern workspace, documentary photography style --ar 16:9 --v 6
+
+-->
+
 <script>
 </script>
 

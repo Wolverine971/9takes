@@ -14,6 +14,16 @@ previewHtml: ''
 pic: 'greek-statues-working-in-teams'
 ---
 
+<!-- MIDJOURNEY PROMPTS
+
+Hero Image - Collaborative Problem Solving:
+Nine Greek statues around modern conference table, each in characteristic working pose - Type 1 statue with detailed project plan, Type 2 statue helping colleague, Type 3 statue presenting on whiteboard, Type 4 statue sketching creative ideas, Type 5 statue analyzing data on laptop, Type 6 statue taking thorough notes, Type 7 statue brainstorming with sticky notes everywhere, Type 8 statue leading from head of table, Type 9 statue mediating between two others, modern office with glass walls, natural daylight, corporate photography style --ar 16:9 --v 6
+
+Alternative - Building Together:
+Greek statues constructing modern architectural structure together, each statue contributing differently - one measuring precisely, another supporting beam, one directing efforts, another designing blueprint, some carrying materials, others problem-solving, construction site with both ancient marble and modern steel elements, golden hour lighting casting long shadows, teamwork in action, wide angle documentary photography --ar 16:9 --v 6
+
+-->
+
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>

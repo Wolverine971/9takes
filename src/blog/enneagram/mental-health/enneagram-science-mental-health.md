@@ -4,14 +4,14 @@ description: 'Explore the scientific research linking Enneagram types to mental 
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-science-mental-health'
-lastmod: '2025-08-25'
+lastmod: '2025-09-02'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: 'enneagram-science-mental-health'
+pic: 'greek-statue-researcher'
 ---
 
 <!--
@@ -563,14 +563,14 @@ Explore how this scientific understanding applies to practical mental health sup
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-08-25",
+      "dateModified": "2025-09-02",
       "datePublished": "2025-08-25",
       "description": "Explore the scientific research linking Enneagram types to mental health patterns, including neuroscience findings, clinical studies, and evidence-based applications.",
       "headline": "The Science Behind Enneagram and Mental Health: Research, Neuroscience, and Evidence",
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/enneagram-science-mental-health.webp",
+        "url": "https://9takes.com/blogs/greek-statue-researcher.webp",
         "width": 900
       },
       "mainEntityOfPage": {

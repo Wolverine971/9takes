@@ -541,6 +541,47 @@
 				}
 			}
 		}
+		
+		// Mobile styles for 2-column grid
+		@media (max-width: 768px) {
+			ul {
+				grid-template-columns: repeat(2, 1fr);
+				gap: 0.75rem;
+			}
+			
+			li a {
+				padding: 1rem;
+				
+				.nav-title {
+					font-size: 0.95rem;
+					margin-bottom: 0.25rem;
+				}
+				
+				.nav-subtitle {
+					font-size: 0.8rem;
+					line-height: 1.3;
+				}
+			}
+		}
+		
+		@media (max-width: 480px) {
+			ul {
+				grid-template-columns: repeat(2, 1fr);
+				gap: 0.5rem;
+			}
+			
+			li a {
+				padding: 0.75rem;
+				
+				.nav-title {
+					font-size: 0.9rem;
+				}
+				
+				.nav-subtitle {
+					display: none; // Hide subtitle on very small screens for better readability
+				}
+			}
+		}
 	}
 
 	section {
