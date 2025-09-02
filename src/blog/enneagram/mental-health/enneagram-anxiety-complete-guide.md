@@ -11,7 +11,7 @@ published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'greek-statue-circle-of-anxiety'
 ---
 
 <!--
@@ -630,7 +630,7 @@ Remember: This guide is for educational purposes only. If you're struggling with
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/enneagram-anxiety-guide.webp",
+        "url": "https://9takes.com/blogs/greek-statue-circle-of-anxiety.webp",
         "width": 900
       },
       "mainEntityOfPage": {

@@ -11,7 +11,7 @@ published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: 'enneagram-workplace-mental-health'
+pic: 'greek-statue-on-laptop-stressed'
 ---
 
 <!--
@@ -947,7 +947,7 @@ If workplace stress is affecting your mental health significantly, don't hesitat
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/enneagram-workplace-mental-health.webp",
+        "url": "https://9takes.com/blogs/greek-statue-on-laptop-stressed.webp",
         "width": 900
       },
       "mainEntityOfPage": {
