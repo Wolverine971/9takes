@@ -166,38 +166,25 @@
 </svelte:head>
 
 <SEOHead
-	title="The Enneagram: Complete Psychological Operating Manual | 9takes"
-	description="Stop living on autopilot. Decode your psychological wiring, break self-sabotage patterns, and master human behavior. From childhood wounds to adult transformation."
+	title="Enneagram Personality Guide: Complete Psychology System | 9takes"
+	description="Master the Enneagram personality system. Discover your type among 9 distinct patterns, understand core motivations, break limiting patterns, and transform relationships. Expert insights on mental health, career, and personal growth."
 	canonical="https://9takes.com/enneagram-corner"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/enneagram-corner-card.webp"
 	additionalMeta={[
-		{ name: 'keywords', content: 'enneagram, personality types, personality psychology, self-improvement, personal growth, mental health, relationships, career development' }
+		{ name: 'keywords', content: 'enneagram, personality types, enneagram test, personality psychology, 9 types, self-improvement, personal growth, mental health, relationships, career development, enneagram compatibility, personality assessment' },
+		{ name: 'author', content: '9takes' },
+		{ property: 'article:publisher', content: 'https://9takes.com' },
+		{ property: 'og:site_name', content: '9takes' },
+		{ property: 'og:locale', content: 'en_US' }
 	]}
 />
 
 <main class="enneagram-corner-page">
-	<h1>Discover Your Enneagram Type and Transform Your Life</h1>
+	<h1 style="text-align: start;">Explore the Enneagram</h1>
 
-	<div class="authority-section">
-		<p class="intro-text">
-			<strong>The Enneagram is more than a personality test</strong> — it's a profound map of human consciousness
-			that reveals why you think, feel, and act the way you do.
-		</p>
-		<p class="intro-text">
-			By understanding your core type, you'll uncover the hidden patterns driving your decisions,
-			relationships, and life choices. More importantly, you'll discover <strong>proven pathways
-			for growth and transformation</strong> specific to your personality structure.
-		</p>
-		<div class="authority-badges">
-			<div class="badge-item">✓ 100+ In-Depth Guides</div>
-			<div class="badge-item">✓ Evidence-Based Insights</div>
-			<div class="badge-item">✓ Practical Applications</div>
-		</div>
-	</div>
-
-	<nav aria-label="Table of Contents">
-		<h2>Explore the Enneagram</h2>
+	<nav aria-label="Table of Contents" class="nav-section">
+		
 		<ul>
 			{#each blogSections as section}
 				<li>
@@ -221,7 +208,7 @@
 			<div class="blog-grid-container" class:nine-types={section.type === 'nine-types'}>
 				{#each data.enneagramBlogs
 					.filter((blog) => blog.type[0] === section.type)
-					.slice(0, section.type === 'nine-types' ? 9 : 3) as blog (blog.slug)}
+					.slice(0, section.type === 'nine-types' ? 9 : 5) as blog (blog.slug)}
 					<article class="grid-item" class:no-image={!blog.pic}>
 						<a
 							href="/enneagram-corner/{blog.slug}"
@@ -255,7 +242,7 @@
 							<div class="grid-item-content">
 								<div class="text-overlay">
 									<h3>
-										Unlock All {section.linkTitle}
+										View All {section.linkTitle}
 										<ArrowRightIcon
 											iconStyle={'margin-left: .5rem'}
 											height={'1.5rem'}
@@ -337,12 +324,12 @@
 	}
 	
 	h1 {
-		text-align: center;
-		margin: 3rem auto 2rem;
-		max-width: 900px;
+		text-align: start;
+		margin: 2rem 0 2.5rem;
 		color: #2d3436;
 		font-size: 2.5rem;
 		line-height: 1.3;
+		font-weight: 700;
 	}
 	
 	.authority-section {
@@ -491,7 +478,8 @@
 	}
 
 	nav {
-		margin-bottom: 3rem;
+		margin: 0 0 3rem 0;
+		padding: 0;
 
 		h2 {
 			font-size: 2rem;
@@ -507,6 +495,17 @@
 			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 			gap: 1rem;
 		}
+
+		.nav-section, ul {
+			margin: 0;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+				gap: 0.75rem;
+		}
+
+		
+
+		
 
 		li {
 			a {
@@ -544,10 +543,7 @@
 		
 		// Mobile styles for 2-column grid
 		@media (max-width: 768px) {
-			ul {
-				grid-template-columns: repeat(2, 1fr);
-				gap: 0.75rem;
-			}
+			
 			
 			li a {
 				padding: 1rem;
@@ -585,13 +581,14 @@
 	}
 
 	section {
-		margin-bottom: 4rem;
-		padding: 0 1.5rem;
+		margin: 0 0 3.5rem 0;
+		padding: 0;
 
 		h2 {
 			font-size: 1.875rem;
 			font-weight: 700;
-			margin-bottom: 0.75rem;
+			margin: 0 0 0.75rem 0;
+			padding: 0;
 			color: #2d3436;
 			letter-spacing: -0.02em;
 		}
@@ -599,7 +596,8 @@
 		.section-subtitle {
 			font-size: 1.05rem;
 			opacity: 0.75;
-			margin-bottom: 2rem;
+			margin: 0 0 1.5rem 0;
+			padding: 0;
 			color: #636e72;
 			max-width: 650px;
 			line-height: 1.6;
@@ -608,14 +606,22 @@
 
 	.blog-grid-container {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		// grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, minmax(300px, 1fr));
+			
 		gap: 1.5rem;
-		margin: 0 auto;
-		max-width: 1400px;
+		margin: 0;
+		padding: 0;
+		
+		// Regular sections always show 2 columns with 3 blogs + 1 view all = 4 items total (2x2)
 
 		&.nine-types {
 			grid-template-columns: repeat(3, 1fr);
-			gap: 1.5rem;
+			gap: 1.25rem;
+			
+			.grid-item {
+				aspect-ratio: 1 / 1;
+			}
 		}
 	}
 
@@ -624,7 +630,7 @@
 		margin: 0 !important;
 		padding: 0 !important;
 		aspect-ratio: 3 / 4;
-		border-radius: 12px;
+		border-radius: 16px;
 		overflow: hidden;
 		position: relative;
 		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
@@ -648,15 +654,10 @@
 			.text-overlay {
 				background: linear-gradient(
 					to top,
-					rgba(0, 0, 0, 0.95) 0%,
-					rgba(0, 0, 0, 0.8) 50%,
-					rgba(0, 0, 0, 0.3) 100%
+					rgba(0, 0, 0, 0.98) 0%,
+					rgba(0, 0, 0, 0.85) 50%,
+					rgba(0, 0, 0, 0.4) 100%
 				);
-
-				p {
-					opacity: 1;
-					transform: translateY(0);
-				}
 			}
 			
 			&.no-image {
@@ -741,16 +742,17 @@
 		padding: 1.5rem;
 		background: linear-gradient(
 			to top,
-			rgba(0, 0, 0, 0.9) 0%,
-			rgba(0, 0, 0, 0.7) 60%,
-			rgba(0, 0, 0, 0.2) 100%
+			rgba(0, 0, 0, 0.95) 0%,
+			rgba(0, 0, 0, 0.8) 40%,
+			rgba(0, 0, 0, 0.4) 70%,
+			rgba(0, 0, 0, 0) 100%
 		);
 		color: white;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		gap: 0.75rem;
-		min-height: 60%;
+		gap: 0.5rem;
+		min-height: 50%;
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	
@@ -764,8 +766,8 @@
 	}
 
 	.blog-grid-container .text-overlay h3 {
-		font-size: 1.15rem !important;
-		font-weight: 600;
+		font-size: 1.2rem !important;
+		font-weight: 700;
 		margin: 0 !important;
 		padding: 0 !important;
 		line-height: 1.35;
@@ -789,10 +791,10 @@
 	}
 
 	.blog-grid-container .text-overlay p {
-		font-size: 0.9rem !important;
+		font-size: 0.95rem !important;
 		line-height: 1.5;
-		opacity: 0;
-		color: rgba(255, 255, 255, 0.95) !important;
+		opacity: 0.9;
+		color: rgba(255, 255, 255, 0.9) !important;
 		display: -webkit-box;
 		-webkit-line-clamp: 2;
 		line-clamp: 2;
@@ -803,7 +805,6 @@
 		margin: 0 !important;
 		padding: 0 !important;
 		font-weight: 400;
-		transform: translateY(10px);
 	}
 	
 	.no-image .text-overlay p {
@@ -862,17 +863,6 @@
 		}
 	}
 
-	@media (max-width: 1200px) {
-		.blog-grid-container {
-			grid-template-columns: repeat(3, 1fr);
-			gap: 1.5rem;
-
-			&.nine-types {
-				grid-template-columns: repeat(3, 1fr);
-			}
-		}
-	}
-
 	@media (max-width: 768px) {
 		h1 {
 			font-size: 2rem;
@@ -883,18 +873,21 @@
 			font-size: 1.75rem;
 		}
 
-		.blog-grid-container,
-		.blog-grid-container.nine-types {
+		.blog-grid-container {
 			grid-template-columns: repeat(2, 1fr);
 			gap: 1rem;
+			
+			&.nine-types {
+				grid-template-columns: repeat(2, 1fr);
+			}
 		}
 
 		.grid-item {
-			aspect-ratio: 1 / 1;
+			aspect-ratio: 3 / 4;
 		}
 
 		.text-overlay {
-			padding: 1.5rem 1rem 1rem;
+			padding: 1.25rem;
 			min-height: 50%;
 		}
 
@@ -911,29 +904,32 @@
 	}
 
 	@media (max-width: 480px) {
-		.blog-grid-container,
-		.blog-grid-container.nine-types {
-			grid-template-columns: 1fr;
-			gap: 1.5rem;
+		.blog-grid-container {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 0.75rem;
+			
+			&.nine-types {
+				grid-template-columns: repeat(2, 1fr);
+			}
 		}
 
 		.grid-item {
-			aspect-ratio: 16 / 9;
+			aspect-ratio: 1 / 1;
 		}
 
 		.text-overlay {
 			min-height: auto;
-			padding: 1.25rem;
+			padding: 1rem;
 		}
 
 		.text-overlay h3 {
-			font-size: 1.25rem;
+			font-size: 1rem;
 		}
 
 		.text-overlay p {
-			font-size: 0.9rem;
-			-webkit-line-clamp: 3;
-			line-clamp: 3;
+			font-size: 0.8rem;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
 		}
 	}
 </style>

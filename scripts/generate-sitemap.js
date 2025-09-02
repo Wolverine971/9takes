@@ -162,13 +162,13 @@ async function generateSitemap() {
 </url>
 <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2024-05-04</lastmod>
+    <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
 </url>
 <url>
     <loc>https://9takes.com/about</loc>
-    <lastmod>2025-05-22</lastmod>
+    <lastmod>2025-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -180,7 +180,7 @@ async function generateSitemap() {
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner</loc>
-    <lastmod>2024-07-14</lastmod>
+    <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -228,7 +228,7 @@ async function generateSitemap() {
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health</loc>
-    <lastmod>2025-02-15</lastmod>
+    <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
