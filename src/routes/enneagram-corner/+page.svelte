@@ -225,7 +225,9 @@
 								{/if}
 								<div class="text-overlay">
 									<h3>{blog.title}</h3>
-									<p>{blog.description}</p>
+									{#if section.type !== 'nine-types'}
+										<p>{blog.description}</p>
+									{/if}
 								</div>
 							</div>
 						</a>
