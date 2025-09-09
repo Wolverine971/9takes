@@ -23,17 +23,23 @@ Essential strategy and planning documents for the project.
 
 - [Project Overview](./project-docs/00-project-overview.md) - Complete platform documentation
 
-### 📊 Domain Authority Strategy
+### 📊 Domain Authority Strategy (9 DOMAINS + EXPANSION)
 
-Content strategy for building topical authority in 6 key domains.
+Complete content strategy across all domains (627+ total content items):
 
-- [00-master-index.md](./domain-authority/00-master-index.md) - **Domain strategy overview**
-- [01-enneagram-core.md](./domain-authority/01-enneagram-core.md) - Enneagram foundation content
-- [02-personality-maxing.md](./domain-authority/02-personality-maxing.md) - Self-optimization content
-- [03-relationship-conflict.md](./domain-authority/03-relationship-conflict.md) - Relationship content
-- [04-mental-health-wellness.md](./domain-authority/04-mental-health-wellness.md) - Mental health content
-- [05-workplace-leadership.md](./domain-authority/05-workplace-leadership.md) - Professional content
-- [06-social-dynamics.md](./domain-authority/06-social-dynamics.md) - Social intelligence content
+#### Primary Domains:
+- [00-master-index.md](./domain-authority/00-master-index.md) - **MASTER STRATEGY** (Start here!)
+- [01-enneagram-core.md](./domain-authority/01-enneagram-core.md) - 🟢 Core Knowledge (67 posts)
+- [02-personality-maxing.md](./domain-authority/02-personality-maxing.md) - 🔴 Self-optimization (8 posts - CRITICAL GAP)
+- [03-relationship-conflict.md](./domain-authority/03-relationship-conflict.md) - 🔴 Relationships (6 posts - URGENT)
+- [04-mental-health-wellness.md](./domain-authority/04-mental-health-wellness.md) - 🟢 Mental Health (12 guides)
+- [05-workplace-leadership.md](./domain-authority/05-workplace-leadership.md) - 🟡 Professional (15 posts)
+- [06-social-dynamics.md](./domain-authority/06-social-dynamics.md) - 🟡 Social Intelligence (12 posts)
+
+#### Specialty Domains:
+- [07-pop-culture-celebrities.md](./domain-authority/07-pop-culture-celebrities.md) - 🟢 **DOMINANT** (284 in database!)
+- [08-community-engagement.md](./domain-authority/08-community-engagement.md) - 🟡 Platform & Q&A (25 posts)
+- [09-guides-resources.md](./domain-authority/09-guides-resources.md) - 🟡 Practical Guides (18 guides)
 
 ### ✍️ Writing System
 
@@ -107,7 +113,6 @@ Older documents and audits for reference.
 
 - [base-person-research-prompt.md](./base-person-research-prompt.md) - Person research template
 - [base-person-writing-prompt.md](./base-person-writing-prompt.md) - Person writing template
-- [life_os_master_seed (4).md](<./life_os_master_seed%20(4).md>) - Life OS framework
 
 ## 🎯 How to Use This Documentation
 
@@ -139,26 +144,27 @@ Older documents and audits for reference.
 
 ## 📊 Current Priorities
 
-### Immediate (This Week):
+### CRITICAL - This Week (Sept 9-15):
 
-1. Create 5 critical content pieces
-2. Execute Twitter Week 1 strategy
-3. Complete pending blog updates
-4. Set up tracking systems
+1. **URGENT:** Fix relationship gap (1.7% → 5% minimum)
+2. **URGENT:** Fix optimization gap (2.3% → 5% minimum)  
+3. **Complete:** 3 ready outlines from drafts
+4. **Continue:** Twitter Phase 1 + Reddit value strategy
+5. **Track:** Daily progress in `/docs/daily-progress/`
 
-### Short-term (2 Weeks):
+### Short-term (Next 2 Weeks):
 
-1. Build email automation
-2. Launch first product
-3. Create assessment tools
-4. Optimize existing content
+1. Complete 27 Subtypes guide
+2. Launch leadership content series
+3. Build friendship content
+4. Continue social media growth
 
-### Medium-term (1 Month):
+### Medium-term (Month 2):
 
-1. Complete domain authority gaps
-2. Scale content production
-3. Build partnerships
-4. Launch monetization
+1. Launch parenting vertical (untapped)
+2. Add learning/education content
+3. Build assessment tools
+4. Scale monetization
 
 ## 🚀 Quick Links
 

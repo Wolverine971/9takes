@@ -4,7 +4,7 @@ description: 'Understand how each Enneagram type responds to psychiatric medicat
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-medication-mental-health'
-lastmod: '2025-08-25'
+lastmod: '2025-09-09'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -869,7 +869,7 @@ Whether you choose medication or not, consider exploring [therapy approaches tai
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-08-25",
+      "dateModified": "2025-09-09",
       "datePublished": "2025-08-25",
       "description": "Understand how each Enneagram type responds to psychiatric medications, common fears, and strategies for working with psychiatrists based on personality type.",
       "headline": "The Enneagram Guide to Medication and Mental Health",

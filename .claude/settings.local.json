@@ -1,9 +1,15 @@
 {
-	"permissions": {
-		"allow": ["WebSearch"],
-		"deny": [],
-		"defaultMode": "acceptEdits",
-		"additionalDirectories": ["C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"],
-		"ask": []
-	}
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(grep:*)",
+      "Bash(node:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"
+    ]
+  }
 }

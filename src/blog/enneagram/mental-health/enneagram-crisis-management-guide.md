@@ -4,7 +4,7 @@ description: 'Learn immediate interventions for each Enneagram type in crisis, i
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-crisis-management-guide'
-lastmod: '2025-08-25'
+lastmod: '2025-09-09'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
@@ -1231,7 +1231,7 @@ You deserve support. You deserve life. You deserve to discover who you can becom
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-08-25",
+      "dateModified": "2025-09-09",
       "datePublished": "2025-08-25",
       "description": "Learn immediate interventions for each Enneagram type in crisis, including suicide prevention strategies, emergency coping tools, and how to help others.",
       "headline": "Crisis Management by Enneagram Type: Your Emergency Mental Health Toolkit",

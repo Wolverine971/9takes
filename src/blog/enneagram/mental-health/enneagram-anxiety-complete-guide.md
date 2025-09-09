@@ -4,7 +4,7 @@ description: 'Discover how anxiety manifests differently in each Enneagram type,
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-anxiety-complete-guide'
-lastmod: '2025-08-25'
+lastmod: '2025-09-09'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -623,7 +623,7 @@ Remember: This guide is for educational purposes only. If you're struggling with
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-08-25",
+      "dateModified": "2025-09-09",
       "datePublished": "2025-08-25",
       "description": "Discover how anxiety manifests differently in each Enneagram type, with tailored coping strategies, grounding exercises, and evidence-based interventions.",
       "headline": "The Complete Guide to Enneagram and Anxiety Disorders",

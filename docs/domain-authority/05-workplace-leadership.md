@@ -1,8 +1,17 @@
 # Domain Authority: Workplace & Leadership Development
 
-_Last Modified: 2025-08-15_
+_Last Modified: 2025-09-09_
+_[Return to Master Index](./00-master-index.md) | [View START-HERE](../START-HERE.md)_
 
-## Current Authority Status: 🟡 Good Foundation (Need 15-20 more pieces for authority)
+## Current Authority Status: 🟡 Developing (15 posts - 4.4% of content)
+
+### Domain Statistics:
+- **Published Posts:** 15 (moderate coverage)
+- **Percentage of Site:** 4.4% of all content
+- **Strengths:** Team dynamics well covered, coach toolkit exists
+- **Critical Gaps:** Leadership styles, remote work, career development
+- **In Pipeline:** Enneagram leadership guide (draft), Historical leaders
+- **Priority:** HIGH - Create 10-15 leadership and career guides
 
 ## Content Inventory by Subtopic
 
@@ -18,13 +27,13 @@ _Last Modified: 2025-08-15_
 - [Enneagram Leadership](/enneagram-corner/drafts/enneagram-leadership) 🚧
 - [Historical Leaders Enneagram](/enneagram-corner/drafts/historical-leaders-enneagram) 🚧
 
-#### 📝 SUGGESTED New Content:
+#### 📝 CRITICAL GAPS - HIGH PRIORITY:
 
-- **"The Career Pivot Guide by Enneagram Type"** - Career transitions
-- **"Salary Negotiation Tactics for Each Type"** - Practical value
-- **"Interview Success Strategies by Type"** - Job hunting
-- **"Performance Review Hacks by Personality"** - Career advancement
-- **"Side Hustle Ideas for Each Enneagram Type"** - Entrepreneurship
+- 🔴 **"Leadership Styles by Enneagram Type"** - URGENT GAP
+- 🔴 **"Career Pivot Guide by Type"** - HIGH DEMAND
+- 🔴 **"Remote Work Success by Personality"** - MODERN NEED
+- 🟡 **"Salary Negotiation by Type"** - Practical value
+- 🟡 **"Interview Success by Type"** - Job hunting help
 
 ### 🤝 Team Dynamics & Collaboration
 
