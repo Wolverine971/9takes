@@ -58,7 +58,7 @@
 			<div class="subnav">
 				<button class="subNavBtn">Personal Development <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
-					<a href="/enneagram-corner/enneagram-personality-test">Determining your type</a>
+					<a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Determining your type</a>
 					<a href="/enneagram-corner/enneagram-self-development">Self development</a>
 					<a href="/enneagram-corner/enneagram-strengths-and-weaknesses">Strengths and weaknesses</a
 					>

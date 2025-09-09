@@ -45,7 +45,7 @@
 		</h3>
 		<ul>
 			<li>
-				<a href="/enneagram-corner/enneagram-personality-test">
+				<a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">
 					How to determine your Enneagram type
 				</a>
 			</li>
