@@ -74,26 +74,64 @@
 		<div class="stat-card">
 			<div class="stat-icon">👥</div>
 			<div class="stat-content">
-				<h3>Total Visitors (30d)</h3>
+				<h3>Total Users</h3>
+				<p class="stat-value">{data.totalUsers.toLocaleString()}</p>
+				<p class="stat-change">+{data.newUsersToday} today</p>
+			</div>
+		</div>
+		<div class="stat-card">
+			<div class="stat-icon">📈</div>
+			<div class="stat-content">
+				<h3>New Users (30d)</h3>
+				<p class="stat-value">{data.newUsersMonth.toLocaleString()}</p>
+				<p class="stat-change">
+					{((data.newUsersMonth / data.totalUsers) * 100).toFixed(1)}% of total
+				</p>
+			</div>
+		</div>
+		<div class="stat-card">
+			<div class="stat-icon">🎯</div>
+			<div class="stat-content">
+				<h3>Coaching Waitlist</h3>
+				<p class="stat-value">{data.coachingWaitlist.toLocaleString()}</p>
+				<p class="stat-change">signups</p>
+			</div>
+		</div>
+		<div class="stat-card">
+			<div class="stat-icon">🔥</div>
+			<div class="stat-content">
+				<h3>Active Users (7d)</h3>
+				<p class="stat-value">{data.activeUsers.toLocaleString()}</p>
+				<p class="stat-change">commented recently</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Secondary Stats Grid -->
+	<div class="stats-grid secondary-stats">
+		<div class="stat-card">
+			<div class="stat-icon">👁️</div>
+			<div class="stat-content">
+				<h3>Visitors (30d)</h3>
 				<p class="stat-value">
 					{data.dailyVisitors.reduce((sum, v) => sum + v.number_of_visitors, 0).toLocaleString()}
 				</p>
 			</div>
 		</div>
 		<div class="stat-card">
-			<div class="stat-icon">💬</div>
+			<div class="stat-icon">❓</div>
 			<div class="stat-content">
-				<h3>Total Comments (30d)</h3>
-				<p class="stat-value">
-					{data.dailyComments.reduce((sum, c) => sum + c.number_of_comments, 0).toLocaleString()}
-				</p>
+				<h3>Total Questions</h3>
+				<p class="stat-value">{data.totalQuestions.toLocaleString()}</p>
+				<p class="stat-change">+{data.questionsToday} today</p>
 			</div>
 		</div>
 		<div class="stat-card">
-			<div class="stat-icon">❓</div>
+			<div class="stat-icon">💬</div>
 			<div class="stat-content">
-				<h3>Active Questions</h3>
-				<p class="stat-value">{data.dailyQuestions.length}</p>
+				<h3>Total Comments</h3>
+				<p class="stat-value">{data.totalComments.toLocaleString()}</p>
+				<p class="stat-change">+{data.commentsToday} today</p>
 			</div>
 		</div>
 		<div class="stat-card">
@@ -104,6 +142,71 @@
 			</div>
 		</div>
 	</div>
+	<!-- Enneagram Distribution -->
+	<div class="enneagram-section">
+		<h2 class="section-title">📊 User Enneagram Type Distribution</h2>
+		<div class="enneagram-grid">
+			{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
+				<div class="enneagram-card">
+					<div class="enneagram-type">Type {type}</div>
+					<div class="enneagram-count">{data.enneagramDistribution[type] || 0}</div>
+					<div class="enneagram-bar">
+						<div
+							class="enneagram-bar-fill"
+							style="width: {(
+								((data.enneagramDistribution[type] || 0) / data.totalUsers) *
+								100
+							).toFixed(1)}%"
+						></div>
+					</div>
+					<div class="enneagram-percent">
+						{(((data.enneagramDistribution[type] || 0) / data.totalUsers) * 100).toFixed(1)}%
+					</div>
+				</div>
+			{/each}
+		</div>
+	</div>
+
+	<!-- Recent Signups -->
+	<div class="section-card">
+		<details>
+			<summary class="section-header">
+				<span class="section-title">🆕 Recent Signups</span>
+				<span class="chevron">▼</span>
+			</summary>
+			<div class="table-wrapper">
+				<table class="data-table">
+					<thead>
+						<tr>
+							<th>Email</th>
+							<th>Type</th>
+							<th>Joined</th>
+							<th>Profile</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each data.recentSignups as signup}
+							<tr>
+								<td>{signup.email || 'Anonymous'}</td>
+								<td>
+									{#if signup.enneagram}
+										<span class="type-badge">Type {signup.enneagram}</span>
+									{:else}
+										<span class="type-badge pending">Pending</span>
+									{/if}
+								</td>
+								<td>{convertDateToReadable(signup.created_at)}</td>
+								<td>
+									<a href="/users/{signup.external_id}" class="table-link">View</a>
+								</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			</div>
+		</details>
+	</div>
+
 	<!-- Data Visualization Section -->
 	<div class="data-section">
 		<div class="section-card">
@@ -290,6 +393,97 @@
 		font-size: 1.75rem;
 		font-weight: 600;
 		color: var(--primary);
+	}
+
+	.stat-change {
+		margin: 0.25rem 0 0 0;
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+	}
+
+	.secondary-stats {
+		margin-bottom: 2rem;
+	}
+
+	/* Enneagram Section */
+	.enneagram-section {
+		margin-bottom: 2rem;
+	}
+
+	.enneagram-section .section-title {
+		font-size: 1.25rem;
+		font-weight: 600;
+		margin-bottom: 1rem;
+		color: var(--text-primary);
+	}
+
+	.enneagram-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+		gap: 1rem;
+		background-color: var(--card-background);
+		padding: 1.5rem;
+		border-radius: var(--border-radius);
+		border: 1px solid var(--border-color);
+	}
+
+	.enneagram-card {
+		text-align: center;
+		padding: 0.75rem;
+		background-color: var(--hover-background);
+		border-radius: var(--border-radius);
+		transition: transform 0.2s ease;
+	}
+
+	.enneagram-card:hover {
+		transform: translateY(-2px);
+	}
+
+	.enneagram-type {
+		font-size: 0.875rem;
+		color: var(--text-secondary);
+		margin-bottom: 0.25rem;
+	}
+
+	.enneagram-count {
+		font-size: 1.5rem;
+		font-weight: 600;
+		color: var(--primary);
+		margin-bottom: 0.5rem;
+	}
+
+	.enneagram-bar {
+		height: 4px;
+		background-color: var(--border-color);
+		border-radius: 2px;
+		overflow: hidden;
+		margin-bottom: 0.25rem;
+	}
+
+	.enneagram-bar-fill {
+		height: 100%;
+		background-color: var(--primary);
+		transition: width 0.3s ease;
+	}
+
+	.enneagram-percent {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+	}
+
+	.type-badge {
+		display: inline-block;
+		padding: 0.25rem 0.5rem;
+		border-radius: 9999px;
+		font-size: 0.75rem;
+		font-weight: 500;
+		background-color: var(--primary-light);
+		color: var(--primary);
+	}
+
+	.type-badge.pending {
+		background-color: var(--warning-light);
+		color: var(--warning);
 	}
 
 	/* Data Section */

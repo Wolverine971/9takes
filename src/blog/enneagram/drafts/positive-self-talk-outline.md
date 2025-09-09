@@ -1,6 +1,7 @@
 # Positive Self-Talk by Enneagram Type: Rewire Your Inner Critic Into Your Inner Champion
 
 ## Blog Metadata
+
 - **Title:** "The Voice in Your Head: Master Positive Self-Talk for Your Enneagram Type"
 - **Description:** "Decode your inner critic's patterns and transform negative self-talk into type-specific affirmations that actually work. Practical scripts for each Enneagram type."
 - **Target Keywords:** positive self-talk, enneagram self-talk, inner critic, self-compassion, mental health enneagram
@@ -16,6 +17,7 @@ Every Enneagram type has a specific inner critic pattern - a broken record that 
 This isn't wishful thinking or generic affirmations. This is tactical inner dialogue engineering based on how your specific personality type processes reality.
 
 **The Pattern Recognition Insight:**
+
 - Type 1s hear: "You're not good enough"
 - Type 2s hear: "You're selfish if you have needs"
 - Type 3s hear: "You're worthless if you're not achieving"
@@ -31,6 +33,7 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Why Your Brain Defaults to Negative Self-Talk
 
 **The Childhood Programming:**
+
 - How each type's core wound creates specific self-talk patterns
 - The neuroscience of negative bias (type-specific variations)
 - Why generic affirmations fail (they don't address your core fear)
@@ -38,6 +41,7 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### The Cost of Toxic Self-Talk by Type
 
 **Real-world impact analysis:**
+
 - Relationship sabotage patterns
 - Career limitations
 - Mental health correlations
@@ -50,11 +54,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Type 1: From Inner Critic to Inner Coach
 
 **The Perfectionist's Mental Trap:**
+
 - Childhood origin: "Love is conditional on being perfect"
 - Adult manifestation: Crushing self-criticism
 - The physical toll: Tension, TMJ, digestive issues
 
 **The Inner Critic Script:**
+
 - "You should have done better"
 - "That mistake proves you're incompetent"
 - "Everyone can see your flaws"
@@ -86,11 +92,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Type 2: From People-Pleasing to Self-Honoring
 
 **The Helper's Hidden Wound:**
+
 - Childhood origin: "Your needs don't matter"
 - Adult manifestation: Compulsive giving with hidden resentment
 - The emotional toll: Burnout, anxiety, suppressed anger
 
 **The Inner Critic Script:**
+
 - "You're selfish for having boundaries"
 - "They need you more than you need rest"
 - "If you don't help, you're worthless"
@@ -122,11 +130,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Type 3: From Achievement Addiction to Authentic Worth
 
 **The Achiever's Identity Crisis:**
+
 - Childhood origin: "You are what you accomplish"
 - Adult manifestation: Constant performance anxiety
 - The cost: Emotional emptiness, relationship neglect, burnout
 
 **The Inner Critic Script:**
+
 - "You're falling behind"
 - "They'll discover you're a fraud"
 - "Rest is for losers"
@@ -158,11 +168,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Type 4: From Deficiency to Depth
 
 **The Individualist's Emotional Intensity:**
+
 - Childhood origin: "You're fundamentally different/flawed"
 - Adult manifestation: Chronic sense of missing something
 - The pattern: Emotional volatility, melancholy addiction
 
 **The Inner Critic Script:**
+
 - "No one understands your pain"
 - "You'll always be broken"
 - "Others have it figured out, you don't"
@@ -194,11 +206,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Type 5: From Scarcity to Sufficiency
 
 **The Investigator's Resource Anxiety:**
+
 - Childhood origin: "The world demands more than you have"
 - Adult manifestation: Chronic depletion fear, isolation
 - The impact: Missed opportunities, relationship distance
 
 **The Inner Critic Script:**
+
 - "You don't know enough yet"
 - "Engaging will drain you"
 - "You need more information before acting"
@@ -230,11 +244,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Type 6: From Catastrophizing to Capable
 
 **The Loyalist's Anxiety Loop:**
+
 - Childhood origin: "The world is unpredictable and dangerous"
 - Adult manifestation: Worst-case scenario addiction
 - The result: Decision paralysis, chronic stress
 
 **The Inner Critic Script:**
+
 - "What if everything goes wrong?"
 - "You can't trust your judgment"
 - "You're not prepared for this"
@@ -266,11 +282,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Type 7: From Escapism to Presence
 
 **The Enthusiast's Avoidance Pattern:**
+
 - Childhood origin: "Pain and limitation are unbearable"
 - Adult manifestation: Constant stimulation seeking
 - The shadow: Inability to process difficult emotions
 
 **The Inner Critic Script:**
+
 - "You're missing out on something better"
 - "This feeling is unbearable"
 - "Staying still means falling behind"
@@ -302,11 +320,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Type 8: From Armor to Authenticity
 
 **The Challenger's Vulnerability Phobia:**
+
 - Childhood origin: "Showing weakness invites attack"
 - Adult manifestation: Emotional suppression, relationship walls
 - The price: Isolation, health issues, missed intimacy
 
 **The Inner Critic Script:**
+
 - "Vulnerability is weakness"
 - "They'll use your emotions against you"
 - "You have to stay in control"
@@ -338,11 +358,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Type 9: From Invisible to Influential
 
 **The Peacemaker's Self-Erasure:**
+
 - Childhood origin: "Your presence creates problems"
 - Adult manifestation: Chronic self-minimization
 - The result: Resentment, lost identity, unfulfilled potential
 
 **The Inner Critic Script:**
+
 - "Your opinion doesn't matter"
 - "Don't rock the boat"
 - "It's easier to go along"
@@ -376,21 +398,25 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### The 30-Day Rewiring Protocol
 
 **Week 1: Recognition**
+
 - Daily self-talk journaling
 - Pattern identification
 - Trigger mapping
 
 **Week 2: Interruption**
+
 - Circuit breaker techniques
 - Replacement phrase practice
 - Body awareness integration
 
 **Week 3: Replacement**
+
 - New script installation
 - Morning/evening rituals
 - Situation-specific responses
 
 **Week 4: Integration**
+
 - Real-world application
 - Relationship communication
 - Long-term maintenance plan
@@ -398,6 +424,7 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Cross-Type Insights
 
 **When Types Trigger Each Other:**
+
 - How different types' self-talk patterns interact
 - Recognizing projection vs. reality
 - Supporting other types' inner work
@@ -407,6 +434,7 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### The Neuroscience of Lasting Change
 
 **Why This Works:**
+
 - Neuroplasticity and self-talk
 - The 66-day habit formation research
 - Cognitive behavioral foundations
@@ -418,6 +446,7 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### When Positive Self-Talk Feels Fake
 
 **The Resistance Patterns by Type:**
+
 - Why each type resists self-compassion
 - The "toxic positivity" trap
 - Finding authentic encouragement
@@ -425,11 +454,13 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Relapse Patterns and Recovery
 
 **Type-Specific Relapse Triggers:**
+
 - Stress responses that resurrect old patterns
 - Environmental factors
 - Relationship dynamics
 
 **The Recovery Protocol:**
+
 - Quick reset techniques
 - Self-forgiveness practices
 - Progress vs. perfection mindset
@@ -439,6 +470,7 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Creating Your Custom Self-Talk Toolkit
 
 **Essential Components:**
+
 1. Morning activation phrase
 2. Stress circuit breaker
 3. Mistake response script
@@ -448,6 +480,7 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### Tracking Progress
 
 **Metrics That Matter:**
+
 - Mood stability patterns
 - Relationship quality indicators
 - Achievement vs. wellbeing balance
@@ -456,6 +489,7 @@ This isn't wishful thinking or generic affirmations. This is tactical inner dial
 ### The Maintenance Phase
 
 **Long-term Sustainability:**
+
 - Monthly practice audits
 - Seasonal adjustments
 - Growth edge exploration
@@ -474,23 +508,26 @@ Your inner critic has had years of practice. Give your inner champion at least 3
 ## Internal Links Strategy
 
 **Primary Links:**
+
 - [Enneagram Mental Health Guide](/enneagram-corner/enneagram-and-mental-illness)
 - [Enneagram Stress Patterns](/enneagram-corner/enneagram-stress-number)
 - [Enneagram Growth Paths](/enneagram-corner/enneagram-self-development)
 
 **Type-Specific Links:**
+
 - Link each type section to their individual type page
 - Connect to shadow work guide
 - Reference childhood wounds article
 
 **Related Topics:**
+
 - [Enneagram and Therapy](/enneagram-corner/enneagram-therapy-guide)
 - [Communication Patterns](/enneagram-corner/enneagram-communication-guide)
 - [Relationship Dynamics](/enneagram-corner/enneagram-relationships)
 
 ## CTA Strategy
 
-**Primary CTA:** 
+**Primary CTA:**
 "Decode your inner critic with our community. Share your self-talk pattern and get type-specific support." → Link to questions platform
 
 **Secondary CTA:**
@@ -502,6 +539,7 @@ Your inner critic has had years of practice. Give your inner champion at least 3
 ## SEO Optimization Notes
 
 **Target Keywords:**
+
 - Primary: "positive self-talk enneagram"
 - Secondary: "inner critic enneagram type"
 - Long-tail: "how to change negative self-talk [type number]"
@@ -510,6 +548,7 @@ Your inner critic has had years of practice. Give your inner champion at least 3
 "Decode your inner critic's patterns and transform negative self-talk into type-specific affirmations that actually work. Practical scripts and 30-day protocol for each Enneagram type."
 
 **Schema Markup:**
+
 - FAQ schema for common questions
 - How-to schema for transformation process
 - Review schema for success stories
@@ -517,6 +556,7 @@ Your inner critic has had years of practice. Give your inner champion at least 3
 ## Content Production Notes
 
 **Tone Requirements:**
+
 - Tactically direct (no fluff)
 - Pattern-recognition focused
 - Respectfully provocative
@@ -524,12 +564,14 @@ Your inner critic has had years of practice. Give your inner champion at least 3
 - Modern language, ancient wisdom
 
 **Brand Voice Elements:**
+
 - "See the emotions behind every take"
 - Personality-maxing angle
 - Social dynamics lens
 - Give-first philosophy references
 
 **Length & Structure:**
+
 - 6,000-8,000 words total
 - ~600-800 words per type
 - Scannable with bullets/lists
@@ -537,6 +579,7 @@ Your inner critic has had years of practice. Give your inner champion at least 3
 - Visual breaks with examples
 
 **Small Experiments:**
+
 - One per type section
 - Immediately actionable
 - Low-risk, high-insight

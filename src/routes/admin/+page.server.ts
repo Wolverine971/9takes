@@ -55,6 +55,81 @@ export const load: PageServerLoad = async (event) => {
 		// Handle daily questions error
 	}
 
+	// Get total users count
+	const { count: totalUsers } = await supabase
+		.from(demo_time === true ? 'profiles_demo' : 'profiles')
+		.select('*', { count: 'exact', head: true });
+
+	// Get new users in last 30 days
+	const thirtyDaysAgo = new Date();
+	thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+	const { count: newUsersMonth } = await supabase
+		.from(demo_time === true ? 'profiles_demo' : 'profiles')
+		.select('*', { count: 'exact', head: true })
+		.gte('created_at', thirtyDaysAgo.toISOString());
+
+	// Get new users today
+	const today = new Date();
+	today.setHours(0, 0, 0, 0);
+	const { count: newUsersToday } = await supabase
+		.from(demo_time === true ? 'profiles_demo' : 'profiles')
+		.select('*', { count: 'exact', head: true })
+		.gte('created_at', today.toISOString());
+
+	// Get coaching waitlist signups
+	const { count: coachingWaitlist } = await supabase
+		.from('coaching_waitlist')
+		.select('*', { count: 'exact', head: true });
+
+	// Get total questions count
+	const { count: totalQuestions } = await supabase
+		.from('questions')
+		.select('*', { count: 'exact', head: true });
+
+	// Get total comments count
+	const { count: totalComments } = await supabase
+		.from('comments')
+		.select('*', { count: 'exact', head: true });
+
+	// Get active users (users who commented in last 7 days)
+	const sevenDaysAgo = new Date();
+	sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+	const { data: activeUsersData } = await supabase
+		.from('comments')
+		.select('author_id')
+		.gte('created_at', sevenDaysAgo.toISOString());
+	const activeUsers = new Set(activeUsersData?.map((c) => c.author_id) || []).size;
+
+	// Get users by enneagram type
+	const { data: usersByType } = await supabase
+		.from(demo_time === true ? 'profiles_demo' : 'profiles')
+		.select('enneagram');
+	const enneagramDistribution = usersByType?.reduce((acc: any, user: any) => {
+		if (user.enneagram) {
+			acc[user.enneagram] = (acc[user.enneagram] || 0) + 1;
+		}
+		return acc;
+	}, {});
+
+	// Get recent signups (last 10)
+	const { data: recentSignups } = await supabase
+		.from(demo_time === true ? 'profiles_demo' : 'profiles')
+		.select('id, email, enneagram, created_at, external_id')
+		.order('created_at', { ascending: false })
+		.limit(10);
+
+	// Get questions created today
+	const { count: questionsToday } = await supabase
+		.from('questions')
+		.select('*', { count: 'exact', head: true })
+		.gte('created_at', today.toISOString());
+
+	// Get comments created today
+	const { count: commentsToday } = await supabase
+		.from('comments')
+		.select('*', { count: 'exact', head: true })
+		.gte('created_at', today.toISOString());
+
 	if (!user?.admin) {
 		throw redirect(307, '/questions');
 	}
@@ -64,7 +139,18 @@ export const load: PageServerLoad = async (event) => {
 		demoTime: demo_time,
 		dailyVisitors,
 		dailyComments,
-		dailyQuestions
+		dailyQuestions,
+		totalUsers: totalUsers || 0,
+		newUsersMonth: newUsersMonth || 0,
+		newUsersToday: newUsersToday || 0,
+		coachingWaitlist: coachingWaitlist || 0,
+		totalQuestions: totalQuestions || 0,
+		totalComments: totalComments || 0,
+		activeUsers,
+		enneagramDistribution: enneagramDistribution || {},
+		recentSignups: recentSignups || [],
+		questionsToday: questionsToday || 0,
+		commentsToday: commentsToday || 0
 	};
 };
 

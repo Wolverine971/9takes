@@ -22,10 +22,11 @@ _Last Modified: 2025-08-15_
 
 ### Recommended Additional Domains:
 
-7. **🔴 Parenting & Family** - Untapped (10% complete)
-8. **🔴 Learning & Education** - Opportunity (5% complete)
-9. **🔴 Creativity & Arts** - Virgin territory (5% complete)
-10. **🔴 Health & Fitness** - High potential (10% complete)
+7. **🟢 Pop Culture Psychology** - LAUNCHED (15% complete, high growth)
+8. **🔴 Parenting & Family** - Untapped (10% complete)
+9. **🔴 Learning & Education** - Opportunity (5% complete)
+10. **🔴 Creativity & Arts** - Virgin territory (5% complete)
+11. **🔴 Health & Fitness** - High potential (10% complete)
 
 ---
 
@@ -79,13 +80,26 @@ _Last Modified: 2025-08-15_
 
 ### 🌟 Expansion Domains (Future Growth)
 
-#### 7. Parenting & Family Dynamics
+#### 7. Pop Culture Psychology (ACTIVE DEVELOPMENT)
+
+- **Status:** Launched January 2025 with flagship "Dark Triad" piece
+- **Opportunity:** Massive viral potential, untapped SEO goldmine
+- **Content Pillars:**
+  - Celebrity family dynamics (Kardashians, Royals)
+  - Political psychology (Trump, Biden, historical figures)
+  - Criminal psychology (serial killers, cult leaders)
+  - Internet culture (influencers, cancel culture)
+- **Published:** "The Dark Triad Meets the Enneagram"
+- **Pipeline:** 20+ articles planned, 4 immediate
+- **Monetization:** Dark Psychology course ($97), media consulting
+
+#### 8. Parenting & Family Dynamics
 
 - **Opportunity:** Huge untapped market
 - **Content Needs:** Parent types, child development, family systems
 - **Monetization:** Parenting courses, family workshops
 
-#### 8. Learning & Education
+#### 9. Learning & Education
 
 - **Opportunity:** Academic and student market
 - **Content Needs:** Study methods by type, learning styles, academic success

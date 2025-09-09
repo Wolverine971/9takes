@@ -11,7 +11,7 @@ published: true
 type: ['development']
 blog: true
 previewHtml: ''
-pic: 'female-greek-statue-reading-about-self-development' 
+pic: 'female-greek-statue-reading-about-self-development'
 ---
 
 <script>

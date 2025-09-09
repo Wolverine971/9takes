@@ -19,7 +19,7 @@
 	export let maxH3sPerSection: number = 3;
 	export let alwaysShowFirstH3: boolean = true;
 	export let sidePosition: 'left' | 'right' | 'none' = 'left'; // New prop to control side position
-	
+
 	// Smart format detection thresholds
 	const FORMAT_THRESHOLDS = {
 		SIMPLE: { maxHeaders: 15, maxDepth: 2 },
@@ -68,7 +68,7 @@
 		// Main content has max-width of 56rem (896px)
 		const maxContentWidth = 56 * 16; // 896px
 		const actualContentWidth = Math.min(contentW, maxContentWidth);
-		
+
 		if (sidePosition === 'left') {
 			// Calculate the left position relative to the main content column
 			const mainContentLeft = Math.max((winWidth - actualContentWidth) / 2, 16); // Minimum 16px from edge
@@ -87,10 +87,10 @@
 			// For right positioning, calculate based on main content position
 			const mainContentLeft = (winWidth - actualContentWidth) / 2;
 			const mainContentRight = mainContentLeft + actualContentWidth;
-			
+
 			// Position sidebar to the right of main content with 24px gap
 			const sidebarLeft = mainContentRight + 24;
-			
+
 			// Check if there's enough space for the sidebar on the right
 			if (sidebarLeft + sidebarW > winWidth - 16) {
 				return null; // Will cause sidebar to hide
@@ -130,7 +130,7 @@
 		const headerLevelCounts: { [key: number]: number } = {};
 		const headerTexts: string[] = [];
 
-		allHeaders.forEach(header => {
+		allHeaders.forEach((header) => {
 			const level = parseInt(header.tagName.charAt(1));
 			headerLevelCounts[level] = (headerLevelCounts[level] || 0) + 1;
 			headerTexts.push(header.textContent?.trim() || '');
@@ -144,14 +144,14 @@
 
 		// FAQ detection - look for question patterns
 		const faqPatterns = [
-			/^\d+\./,  // numbered questions
+			/^\d+\./, // numbered questions
 			/^(what|how|why|when|where|who|can|is|are|do|does|will|would|should)/i,
-			/\?$/,     // ends with question mark
-			/^(🤔|❓|💭|🔍|❗|🎯|😰|🔬)/  // emoji indicators
+			/\?$/, // ends with question mark
+			/^(🤔|❓|💭|🔍|❗|🎯|😰|🔬)/ // emoji indicators
 		];
 
-		const faqMatches = headerTexts.filter(text => 
-			faqPatterns.some(pattern => pattern.test(text))
+		const faqMatches = headerTexts.filter((text) =>
+			faqPatterns.some((pattern) => pattern.test(text))
 		).length;
 
 		if (faqMatches / totalHeaders > 0.4) {
@@ -165,8 +165,8 @@
 			/(perfectionist|helper|achiever|individualist|investigator|loyalist|enthusiast|challenger|peacemaker)/i
 		];
 
-		const typeMatches = headerTexts.filter(text =>
-			typePatterns.some(pattern => pattern.test(text))
+		const typeMatches = headerTexts.filter((text) =>
+			typePatterns.some((pattern) => pattern.test(text))
 		).length;
 
 		if (typeMatches / totalHeaders > 0.5) {
@@ -180,8 +180,8 @@
 			/^(how\s+to|guide\s+to)/i
 		];
 
-		const guideMatches = headerTexts.filter(text =>
-			guidePatterns.some(pattern => pattern.test(text))
+		const guideMatches = headerTexts.filter((text) =>
+			guidePatterns.some((pattern) => pattern.test(text))
 		).length;
 
 		if (guideMatches / totalHeaders > 0.3) {
@@ -205,27 +205,33 @@
 
 		if (totalHeaders <= 2) {
 			// Very few headers - show them all regardless
-			headerSelector = availableLevels.map(level => `h${level}`).join(', ');
+			headerSelector = availableLevels.map((level) => `h${level}`).join(', ');
 			minThreshold = 1;
 		} else if (primaryStructure === 'single-level') {
 			// Single level - use whatever level has the most headers
-			const dominantLevel = availableLevels.reduce((prev, current) => 
+			const dominantLevel = availableLevels.reduce((prev, current) =>
 				headerLevelCounts[current] > headerLevelCounts[prev] ? current : prev
 			);
 			headerSelector = `h${dominantLevel}`;
 			minThreshold = Math.min(2, totalHeaders);
 		} else if (contentType === 'faq') {
 			// FAQ content - be more permissive
-			headerSelector = availableLevels.slice(0, 2).map(level => `h${level}`).join(', ');
+			headerSelector = availableLevels
+				.slice(0, 2)
+				.map((level) => `h${level}`)
+				.join(', ');
 			minThreshold = 2;
 		} else if (contentType === 'types') {
 			// Type-based content - usually needs main sections + type headers
-			headerSelector = availableLevels.slice(0, 2).map(level => `h${level}`).join(', ');
+			headerSelector = availableLevels
+				.slice(0, 2)
+				.map((level) => `h${level}`)
+				.join(', ');
 			minThreshold = 3;
 		} else {
 			// Default hierarchical approach
 			const topTwoLevels = availableLevels.slice(0, 2);
-			headerSelector = topTwoLevels.map(level => `h${level}`).join(', ');
+			headerSelector = topTwoLevels.map((level) => `h${level}`).join(', ');
 			minThreshold = 3;
 		}
 
@@ -248,16 +254,17 @@
 			contentAnalysis = analysis;
 
 			// First, find the article content container (could be .article-body or #blogA)
-			const actualArticleBody = document.querySelector('.article-body') || document.querySelector('#blogA');
-			
+			const actualArticleBody =
+				document.querySelector('.article-body') || document.querySelector('#blogA');
+
 			let headings: Element[] = [];
-			
+
 			if (actualArticleBody) {
 				// Get actual headings from the DOM
-				const actualHeadings = [...actualArticleBody.querySelectorAll(analysis.headerSelector)].filter(
-					(heading) => heading.textContent?.trim() !== title
-				);
-				
+				const actualHeadings = [
+					...actualArticleBody.querySelectorAll(analysis.headerSelector)
+				].filter((heading) => heading.textContent?.trim() !== title);
+
 				// Set IDs on actual DOM elements
 				actualHeadings.forEach((heading) => {
 					if (!heading.id) {
@@ -269,17 +276,17 @@
 						heading.id = id;
 					}
 				});
-				
+
 				headings = actualHeadings;
 			} else {
 				// Fallback: parse from HTML string if DOM elements not found
 				const tempDiv = document.createElement('div');
 				tempDiv.innerHTML = html;
-				
+
 				headings = [...tempDiv.querySelectorAll(analysis.headerSelector)].filter(
 					(heading) => heading.textContent?.trim() !== title
 				);
-				
+
 				// Generate IDs for these temporary elements (won't persist to actual DOM)
 				headings.forEach((heading) => {
 					if (!heading.id) {
@@ -350,7 +357,7 @@
 					} else {
 						// Child item
 						const parent = parentStack[parentStack.length - 1];
-						
+
 						// Create or find sub-list in parent
 						let subList = parent.element.querySelector('ul');
 						if (!subList) {
@@ -358,7 +365,7 @@
 							subList.className = 'toc-sublist';
 							parent.element.appendChild(subList);
 						}
-						
+
 						subList.appendChild(listItem);
 
 						// Add to parent's children array
@@ -379,9 +386,10 @@
 			const totalEntries = headings.length;
 			if (totalEntries > maxTocEntries) {
 				// For content types that benefit from more entries, be more generous
-				const adjustedMax = analysis.contentType === 'faq' || analysis.contentType === 'types' 
-					? maxTocEntries + 6 
-					: maxTocEntries;
+				const adjustedMax =
+					analysis.contentType === 'faq' || analysis.contentType === 'types'
+						? maxTocEntries + 6
+						: maxTocEntries;
 
 				if (totalEntries > adjustedMax) {
 					// Truncate excess entries - remove from bottom of list
@@ -394,16 +402,16 @@
 					// Also truncate the structure array to match
 					function truncateStructure(items: TocItem[], maxItems: number): TocItem[] {
 						if (items.length <= maxItems) return items;
-						
+
 						let count = 0;
 						const result: TocItem[] = [];
-						
+
 						for (const item of items) {
 							if (count >= maxItems) break;
-							
+
 							const itemCopy = { ...item };
 							count++;
-							
+
 							if (item.children) {
 								const remainingSlots = maxItems - count;
 								if (remainingSlots > 0) {
@@ -413,10 +421,10 @@
 									delete itemCopy.children;
 								}
 							}
-							
+
 							result.push(itemCopy);
 						}
-						
+
 						return result;
 					}
 
@@ -623,7 +631,9 @@
 {#if showSidebar && sidebarPosition}
 	<aside
 		class="toc-sidebar"
-		style="{sidebarPosition.left ? `left: ${sidebarPosition.left}` : `right: ${sidebarPosition.right}`};"
+		style="{sidebarPosition.left
+			? `left: ${sidebarPosition.left}`
+			: `right: ${sidebarPosition.right}`};"
 		transition:fly={{ x: sidePosition === 'left' ? -100 : 100, duration: 300 }}
 		aria-label="Table of contents navigation"
 	>
@@ -663,7 +673,7 @@
 		max-height: 70vh;
 		overflow-y: auto;
 		overflow-x: hidden;
-		
+
 		// Custom scrollbar
 		&::-webkit-scrollbar {
 			width: 6px;
@@ -676,12 +686,12 @@
 		&::-webkit-scrollbar-thumb {
 			background-color: rgba(0, 0, 0, 0.2);
 			border-radius: 3px;
-			
+
 			&:hover {
 				background-color: rgba(0, 0, 0, 0.3);
 			}
 		}
-		
+
 		nav {
 			width: 100%;
 			padding: 0.5rem;

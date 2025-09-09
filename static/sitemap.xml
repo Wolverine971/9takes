@@ -15,7 +15,7 @@
 </url>
 <url>
     <loc>https://9takes.com/about</loc>
-    <lastmod>2025-08-28</lastmod>
+    <lastmod>2025-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -903,12 +903,18 @@
     <lastmod>2025-08-25T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/crisis-management.webp</image:loc>
+    </image:image>
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-medication-mental-health</loc>
     <lastmod>2025-08-25T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/medications_and_stress.webp</image:loc>
+    </image:image>
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide</loc>
@@ -962,6 +968,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/blogs/greek-statue-on-laptop-stressed.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/pop-culture/dark-triad-meets-enneagram</loc>
+    <lastmod>2025-01-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/cracked_mask_wall.webp</image:loc>
     </image:image>
 </url>
 <url>

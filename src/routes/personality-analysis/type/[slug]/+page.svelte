@@ -136,11 +136,7 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: linear-gradient(
-			to top,
-			rgba(0, 0, 0, 0.9) 0%,
-			rgba(0, 0, 0, 0.7) 100%
-		);
+		background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 100%);
 		padding: 0.75rem;
 		text-align: center;
 		transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1);

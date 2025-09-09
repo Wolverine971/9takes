@@ -54,16 +54,16 @@ Before diving into type-specific patterns, let's establish what makes the Enneag
 5. **Health Anxiety**
 6. **Performance Anxiety**
 
-<MarqueeHorizontal 
-  displayList={[
-    { name: 'Trauma Response Guide', link: '/enneagram-corner/mental-health/enneagram-trauma-response-guide' },
-    { name: 'Crisis Management', link: '/enneagram-corner/mental-health/enneagram-crisis-management-guide' },
-    { name: 'Therapy Guide', link: '/enneagram-corner/mental-health/enneagram-therapy-guide' },
-    { name: 'Mental Health Flags', link: '/enneagram-corner/enneagram-mental-health-flags' },
-    { name: 'Workplace Mental Health', link: '/enneagram-corner/mental-health/enneagram-workplace-mental-health' },
-    { name: 'Medication & Mental Health', link: '/enneagram-corner/mental-health/enneagram-medication-mental-health' }
-  ]} 
-  speed={30}
+<MarqueeHorizontal
+displayList={[
+{ name: 'Trauma Response Guide', link: '/enneagram-corner/mental-health/enneagram-trauma-response-guide' },
+{ name: 'Crisis Management', link: '/enneagram-corner/mental-health/enneagram-crisis-management-guide' },
+{ name: 'Therapy Guide', link: '/enneagram-corner/mental-health/enneagram-therapy-guide' },
+{ name: 'Mental Health Flags', link: '/enneagram-corner/enneagram-mental-health-flags' },
+{ name: 'Workplace Mental Health', link: '/enneagram-corner/mental-health/enneagram-workplace-mental-health' },
+{ name: 'Medication & Mental Health', link: '/enneagram-corner/mental-health/enneagram-medication-mental-health' }
+]}
+speed={30}
 />
 
 ## Type 1: The Perfectionist's Anxiety

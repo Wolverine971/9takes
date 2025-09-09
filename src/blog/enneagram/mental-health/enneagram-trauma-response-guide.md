@@ -459,6 +459,7 @@ Type 1s often develop trauma responses that later manifest as [addiction to perf
 - Addiction patterns
 
 Type 7s have the highest risk for [multiple addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) as they use substances, activities, and experiences to escape processing traumatic emotions.
+
 - Inability to process grief
 - Chronic FOMO
 - Superficial relationships

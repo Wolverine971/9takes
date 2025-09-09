@@ -168,7 +168,7 @@ async function generateSitemap() {
 </url>
 <url>
     <loc>https://9takes.com/about</loc>
-    <lastmod>2025-08-28</lastmod>
+    <lastmod>2025-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
 </url>

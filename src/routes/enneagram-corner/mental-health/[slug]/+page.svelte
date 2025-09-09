@@ -22,7 +22,7 @@
 
 	onMount(() => {
 		findObserver();
-		
+
 		return () => {
 			// Cleanup observer on unmount
 			if (observer) {
@@ -36,13 +36,13 @@
 	$: if (data?.slug) {
 		// Reset content store when slug changes
 		contentStore.set('');
-		
+
 		// Clean up existing observer
 		if (observer) {
 			observer.disconnect();
 			observer = null;
 		}
-		
+
 		// Set up new observer after a short delay to ensure DOM is updated
 		setTimeout(() => {
 			findObserver();
@@ -60,7 +60,7 @@
 			if (observer) {
 				observer.disconnect();
 			}
-			
+
 			observer = new MutationObserver((mutations) => {
 				mutations.forEach((mutation) => {
 					if (mutation.type === 'childList') {
@@ -70,7 +70,7 @@
 			});
 
 			observer.observe(node, { childList: true, subtree: true });
-			
+
 			// Also set initial content
 			contentStore.set(node.innerHTML);
 		}

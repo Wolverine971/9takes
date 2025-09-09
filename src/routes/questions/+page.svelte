@@ -180,66 +180,71 @@
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/questions-default.webp"
 	jsonLd={{
-		"@context": "https://schema.org",
-		"@type": "CollectionPage",
-		"name": "Ask Questions Anonymously & Get Answers | 9takes",
-		"description": "Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types.",
-		"url": "https://9takes.com/questions",
-		"isPartOf": {
-			"@type": "WebSite",
-			"name": "9takes",
-			"url": "https://9takes.com"
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: 'Ask Questions Anonymously & Get Answers | 9takes',
+		description:
+			"Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types.",
+		url: 'https://9takes.com/questions',
+		isPartOf: {
+			'@type': 'WebSite',
+			name: '9takes',
+			url: 'https://9takes.com'
 		},
-		"breadcrumb": {
-			"@type": "BreadcrumbList",
-			"itemListElement": [
+		breadcrumb: {
+			'@type': 'BreadcrumbList',
+			itemListElement: [
 				{
-					"@type": "ListItem",
-					"position": 1,
-					"name": "Home",
-					"item": "https://9takes.com"
+					'@type': 'ListItem',
+					position: 1,
+					name: 'Home',
+					item: 'https://9takes.com'
 				},
 				{
-					"@type": "ListItem",
-					"position": 2,
-					"name": "Questions",
-					"item": "https://9takes.com/questions"
+					'@type': 'ListItem',
+					position: 2,
+					name: 'Questions',
+					item: 'https://9takes.com/questions'
 				}
 			]
 		},
-		"mainEntity": {
-			"@type": "FAQPage",
-			"name": "Frequently Asked Questions about 9takes",
-			"mainEntity": [
+		mainEntity: {
+			'@type': 'FAQPage',
+			name: 'Frequently Asked Questions about 9takes',
+			mainEntity: [
 				{
-					"@type": "Question",
-					"name": "How can I ask questions anonymously on 9takes?",
-					"acceptedAnswer": {
-						"@type": "Answer",
-						"text": "On 9takes, you can ask questions anonymously by creating an account using your Enneagram personality type as your identity. This allows you to maintain privacy while engaging in meaningful discussions."
+					'@type': 'Question',
+					name: 'How can I ask questions anonymously on 9takes?',
+					acceptedAnswer: {
+						'@type': 'Answer',
+						text: 'On 9takes, you can ask questions anonymously by creating an account using your Enneagram personality type as your identity. This allows you to maintain privacy while engaging in meaningful discussions.'
 					}
 				},
 				{
-					"@type": "Question",
-					"name": "What is the give-first commenting system?",
-					"acceptedAnswer": {
-						"@type": "Answer",
-						"text": "The give-first system requires you to share your own perspective before viewing others' responses. This encourages authentic participation and reduces bias from seeing other answers first."
+					'@type': 'Question',
+					name: 'What is the give-first commenting system?',
+					acceptedAnswer: {
+						'@type': 'Answer',
+						text: "The give-first system requires you to share your own perspective before viewing others' responses. This encourages authentic participation and reduces bias from seeing other answers first."
 					}
 				},
 				{
-					"@type": "Question",
-					"name": "How do personality types work on 9takes?",
-					"acceptedAnswer": {
-						"@type": "Answer",
-						"text": "9takes uses the Enneagram personality system (types 1-9). Each user identifies with a type, allowing you to see how different personality types respond to the same questions."
+					'@type': 'Question',
+					name: 'How do personality types work on 9takes?',
+					acceptedAnswer: {
+						'@type': 'Answer',
+						text: '9takes uses the Enneagram personality system (types 1-9). Each user identifies with a type, allowing you to see how different personality types respond to the same questions.'
 					}
 				}
 			]
 		}
 	}}
 	additionalMeta={[
-		{ name: 'keywords', content: 'anonymous questions, personality types, enneagram, Q&A platform, diverse perspectives, give-first system' },
+		{
+			name: 'keywords',
+			content:
+				'anonymous questions, personality types, enneagram, Q&A platform, diverse perspectives, give-first system'
+		},
 		{ name: 'twitter:label1', content: 'Active Questions' },
 		{ name: 'twitter:data1', content: `${data.questionsAndTags?.length || 0}+` }
 	]}

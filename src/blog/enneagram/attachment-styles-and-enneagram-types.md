@@ -38,6 +38,7 @@ Here's what most people don't know: **There's a personality system called the En
 The Enneagram is a model of nine interconnected personality types, each driven by a core fear and core desire. Unlike surface-level personality tests, it maps the unconscious motivations that shape every decision you make—including how you love.
 
 Think of it this way:
+
 - **Attachment style** = Your relationship operating system
 - **Enneagram type** = The specific programming that runs on that system
 
@@ -46,6 +47,7 @@ When you combine them, you get something powerful: a complete map of why you lov
 > **Your attachment style is your personality's survival strategy for managing the terror of abandonment.**
 
 For example:
+
 - Two people can both have anxious attachment, but a <a href="/blog/enneagram/enneagram-type-2">Type 2 (The Helper)</a> seeks reassurance by over-giving until you need them, while a <a href="/blog/enneagram/enneagram-type-6">Type 6 (The Loyalist)</a> seeks it through constant loyalty tests.
 
 - Two people can both be avoidant, but a <a href="/blog/enneagram/enneagram-type-5">Type 5 (The Investigator)</a> creates distance to preserve emotional resources, while a <a href="/blog/enneagram/enneagram-type-8">Type 8 (The Challenger)</a> does it to avoid the vulnerability that once got them hurt.
@@ -63,24 +65,28 @@ Attachment theory, developed by John Bowlby and Mary Ainsworth, reveals four pri
 ### The Four Core Attachment Styles
 
 **1. Secure Attachment (60% of population)**
+
 - Comfortable with intimacy and independence
 - Trusts others while maintaining healthy boundaries
 - Can communicate needs directly
 - Manages conflict without catastrophizing
 
 **2. Anxious Attachment (20% of population)**
+
 - Craves closeness but fears abandonment
 - Needs constant reassurance
 - Highly sensitive to partner's moods
 - Tends to protest behavior when triggered
 
 **3. Avoidant Attachment (15% of population)**
+
 - Values independence over intimacy
 - Struggles with emotional expression
 - Minimizes attachment needs
 - Creates distance when others get too close
 
 **4. Disorganized Attachment (5% of population)**
+
 - Alternates between anxious and avoidant
 - Chaotic, unpredictable relationship patterns
 - Often stems from trauma or inconsistent caregiving
@@ -145,11 +151,13 @@ Type 1s learned early that **love comes with conditions**—be good, be right, b
 ### Type 1 Attachment Compatibility:
 
 **Secure Partners Help By:**
+
 - Offering consistent acceptance despite imperfections
 - Not taking their criticism personally
 - Gently challenging their black-and-white thinking
 
 **Triggered By:**
+
 - Anxious partners who need constant reassurance (exhausts their patience)
 - Disorganized partners whose chaos activates their control
 
@@ -191,11 +199,13 @@ Type 2s are the **poster children for anxious attachment**, but with a unique tw
 ### Type 2 Attachment Compatibility:
 
 **Secure Partners Help By:**
+
 - Appreciating their giving while maintaining boundaries
 - Encouraging their independence
 - Calling out manipulation gently but firmly
 
 **Triggered By:**
+
 - Avoidant partners who reject their caregiving
 - Other anxious partners (creates anxious spiral)
 
@@ -237,11 +247,13 @@ Type 3s create **attachment through achievement**, leading to:
 ### Type 3 Attachment Compatibility:
 
 **Secure Partners Help By:**
+
 - Loving them through failures
 - Not being impressed by image alone
 - Requesting authentic presence
 
 **Triggered By:**
+
 - Anxious partners who need emotional availability
 - Other achievers (competition kills intimacy)
 
@@ -283,11 +295,13 @@ Type 4s experience **attachment as identity**, creating:
 ### Type 4 Attachment Compatibility:
 
 **Secure Partners Help By:**
+
 - Staying steady through emotional storms
 - Validating feelings without joining chaos
 - Appreciating their uniqueness while staying grounded
 
 **Triggered By:**
+
 - Avoidant partners (abandonment fears activated)
 - Other 4s (emotional amplification spiral)
 
@@ -329,11 +343,13 @@ Type 5s create **attachment through compartmentalization**:
 ### Type 5 Attachment Compatibility:
 
 **Secure Partners Help By:**
+
 - Respecting their need for space
 - Not taking withdrawal personally
 - Creating predictable connection rituals
 
 **Triggered By:**
+
 - Anxious partners (overwhelming emotional needs)
 - Demanding social expectations
 
@@ -375,11 +391,13 @@ Type 6s experience **attachment as a threat assessment**:
 ### Type 6 Attachment Compatibility:
 
 **Secure Partners Help By:**
+
 - Providing consistent reassurance without enabling
 - Being predictable and reliable
 - Not playing into their worst-case scenarios
 
 **Triggered By:**
+
 - Avoidant partners (inconsistency triggers anxiety)
 - Unpredictable or chaotic partners
 
@@ -421,11 +439,13 @@ Type 7s use **positive excitement to avoid attachment depth**:
 ### Type 7 Attachment Compatibility:
 
 **Secure Partners Help By:**
+
 - Keeping things interesting while building depth
 - Not shaming their need for variety
 - Gently bringing them back to present
 
 **Triggered By:**
+
 - Anxious partners who need heavy processing
 - Depressive or limiting dynamics
 
@@ -467,11 +487,13 @@ Type 8s create **attachment through control and testing**:
 ### Type 8 Attachment Compatibility:
 
 **Secure Partners Help By:**
+
 - Standing strong without competing
 - Seeing through their armor to their heart
 - Creating safe spaces for vulnerability
 
 **Triggered By:**
+
 - Anxious partners who seem weak
 - Controlling or manipulative partners
 
@@ -513,11 +535,13 @@ Type 9s create **attachment through self-erasure**:
 ### Type 9 Attachment Compatibility:
 
 **Secure Partners Help By:**
+
 - Drawing out their opinions and preferences
 - Making it safe to disagree
 - Not overwhelming them with intensity
 
 **Triggered By:**
+
 - Aggressive or demanding partners
 - Partners who need them to take strong positions
 
@@ -525,17 +549,17 @@ Type 9s create **attachment through self-erasure**:
 
 ### How Each Type Can Earn Secure Attachment
 
-| Type | Primary Wound | Healing Strategy | Daily Practice |
-|------|--------------|------------------|----------------|
-| 1 | "Love has conditions" | Self-compassion | Share one imperfection daily |
-| 2 | "Only loved for giving" | Receive gracefully | Ask for help once daily |
-| 3 | "Loved for achievements" | Vulnerable sharing | Share a fear or failure |
-| 4 | "Too much/not enough" | Choose available love | Appreciate ordinary moments |
-| 5 | "Relationships deplete" | Emotional generosity | Share inner world daily |
-| 6 | "Can't trust safety" | Internal authority | Trust gut over anxiety |
-| 7 | "Commitment is limitation" | Emotional depth | Stay with difficult feelings |
-| 8 | "Vulnerability is danger" | Tender expression | Show soft side daily |
-| 9 | "My needs don't matter" | Self-assertion | State one preference daily |
+| Type | Primary Wound              | Healing Strategy      | Daily Practice               |
+| ---- | -------------------------- | --------------------- | ---------------------------- |
+| 1    | "Love has conditions"      | Self-compassion       | Share one imperfection daily |
+| 2    | "Only loved for giving"    | Receive gracefully    | Ask for help once daily      |
+| 3    | "Loved for achievements"   | Vulnerable sharing    | Share a fear or failure      |
+| 4    | "Too much/not enough"      | Choose available love | Appreciate ordinary moments  |
+| 5    | "Relationships deplete"    | Emotional generosity  | Share inner world daily      |
+| 6    | "Can't trust safety"       | Internal authority    | Trust gut over anxiety       |
+| 7    | "Commitment is limitation" | Emotional depth       | Stay with difficult feelings |
+| 8    | "Vulnerability is danger"  | Tender expression     | Show soft side daily         |
+| 9    | "My needs don't matter"    | Self-assertion        | State one preference daily   |
 
 ## Breaking Anxious Attachment by Type
 
@@ -544,6 +568,7 @@ Type 9s create **attachment through self-erasure**:
 **Types Most Prone to Anxious Attachment: 2, 4, 6**
 
 **Universal Anxious Attachment Symptoms:**
+
 - Constant need for reassurance
 - Obsessive relationship thinking
 - Protest behaviors (calling/texting excessively)
@@ -553,18 +578,21 @@ Type 9s create **attachment through self-erasure**:
 **Type-Specific Healing Approaches:**
 
 **Type 2 Anxious Attachment:**
+
 - Stop emotional merged state
 - Develop interests outside relationship
 - Practice being alone without helping anyone
 - Challenge: Go 24 hours without offering help
 
 **Type 4 Anxious Attachment:**
+
 - Separate feelings from facts
 - Choose boring stability over exciting chaos
 - Stop idealizing unavailable people
 - Challenge: Appreciate three ordinary moments daily
 
 **Type 6 Anxious Attachment:**
+
 - Stop catastrophizing scenarios
 - Trust your own judgment over partner's
 - Build internal sense of safety
@@ -577,6 +605,7 @@ Type 9s create **attachment through self-erasure**:
 **Types Most Prone to Avoidant Attachment: 5, 7, 8, 9**
 
 **Universal Avoidant Attachment Symptoms:**
+
 - Discomfort with closeness
 - Emotional shutdowns
 - Valuing independence over connection
@@ -586,24 +615,28 @@ Type 9s create **attachment through self-erasure**:
 **Type-Specific Healing Approaches:**
 
 **Type 5 Avoidant Attachment:**
+
 - Share thoughts before fully formed
 - Express emotions in real-time
 - Let partner into your inner world
 - Challenge: Share three feelings daily
 
 **Type 7 Avoidant Attachment:**
+
 - Stay present with partner's pain
 - Choose depth over novelty
 - Complete emotional cycles
 - Challenge: Have one deep conversation daily
 
 **Type 8 Avoidant Attachment:**
+
 - Express needs without demands
 - Show emotional vulnerability
 - Let partner see your fears
 - Challenge: Ask for comfort when hurt
 
 **Type 9 Avoidant Attachment:**
+
 - Express disagreements directly
 - Share your actual preferences
 - Stay present during conflict
@@ -626,6 +659,7 @@ Type 9s create **attachment through self-erasure**:
 ### The Enneagram Attachment Compatibility Matrix
 
 **Most Natural Matches:**
+
 - Type 1 + Secure Type 9 (balances perfectionism)
 - Type 2 + Secure Type 8 (strength meets nurture)
 - Type 3 + Secure Type 9 (ambition meets peace)
@@ -637,6 +671,7 @@ Type 9s create **attachment through self-erasure**:
 - Type 9 + Secure Type 3 (peace meets direction)
 
 **Most Challenging Combinations:**
+
 - Anxious Type 2 + Avoidant Type 5
 - Anxious Type 6 + Avoidant Type 7
 - Disorganized Type 4 + Avoidant Type 8
@@ -657,16 +692,19 @@ Research shows **you can change your attachment style** through:
 ### Daily Practices for Secure Attachment
 
 **Morning Check-in:**
+
 - How am I feeling about my relationships?
 - What attachment pattern might activate today?
 - What secure behavior can I practice?
 
 **Evening Reflection:**
+
 - Did I act from wound or wisdom today?
 - What triggered my attachment system?
 - How can I respond differently tomorrow?
 
 **Weekly Relationship Review:**
+
 - What patterns showed up this week?
 - Where did I grow?
 - What needs attention?
@@ -704,21 +742,25 @@ Research shows **you can change your attachment style** through:
 ## Your Attachment Healing Action Plan
 
 ### Step 1: Identify Your Pattern
+
 - What's your Enneagram type?
 - What's your attachment style?
 - How do they interact?
 
 ### Step 2: Start Daily Practice
+
 - Choose one healing practice from your type section
 - Commit to 30 days minimum
 - Track patterns in journal
 
 ### Step 3: Communicate with Partners
+
 - Share this article with them
 - Discuss both your patterns
 - Create safety agreements
 
 ### Step 4: Get Support
+
 - Consider therapy for deep wounds
 - Join attachment-focused groups
 - Read recommended resources
@@ -726,11 +768,13 @@ Research shows **you can change your attachment style** through:
 ## Resources for Deeper Work
 
 ### Books for Attachment Healing:
+
 - "Attached" by Amir Levine (attachment basics)
 - "Hold Me Tight" by Sue Johnson (couples work)
 - "The Body Keeps Score" by Bessel van der Kolk (trauma)
 
 ### Therapeutic Approaches:
+
 - EFT (Emotionally Focused Therapy) for couples
 - EMDR for trauma-based attachment wounds
 - Somatic therapy for body-based healing

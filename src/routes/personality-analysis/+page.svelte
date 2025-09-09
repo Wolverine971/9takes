@@ -18,9 +18,7 @@
 	];
 	$: innerWidth = 0;
 
-	onMount(() => {
-		
-	});
+	onMount(() => {});
 </script>
 
 <svelte:window bind:innerWidth />
@@ -125,89 +123,87 @@
 </svelte:head>
 
 <div class="personality-analysis-page">
+	<div class="content-wrapper">
+		<BlogPageHead
+			data={{
+				title: '9takes Analysis of Famous People | Character Studies',
+				description:
+					'Explore in-depth Enneagram-based personality analyses of influential figures across various domains. Gain unique insights into human behavior and potential.'
+			}}
+			slug={'personality-analysis'}
+		/>
 
+		<h1>Person Analysis / Character Studies</h1>
 
-<div class="content-wrapper">
-	<BlogPageHead
-		data={{
-			title: '9takes Analysis of Famous People | Character Studies',
-			description:
-				'Explore in-depth Enneagram-based personality analyses of influential figures across various domains. Gain unique insights into human behavior and potential.'
-		}}
-		slug={'personality-analysis'}
-	/>
+		<section class="introduction">
+			<p>
+				In order to understand what makes you tick it is helpful to understand what makes other
+				people tick.
+			</p>
+			<p>Here we dissect the personalities of influential figures across various domains.</p>
+			<ul>
+				{#each categories as category}
+					<li>{category}</li>
+				{/each}
+			</ul>
+			<p>
+				Going beyond surface-level observations we ground our insights in psychological theories and
+				real-life examples. When you start to understand the nuances of these personalities you
+				develop sharp perspective on human behavior and our own potential.
+			</p>
+		</section>
 
-	<h1>Person Analysis / Character Studies</h1>
-
-	<section class="introduction">
-		<p>
-			In order to understand what makes you tick it is helpful to understand what makes other people
-			tick.
-		</p>
-		<p>Here we dissect the personalities of influential figures across various domains.</p>
-		<ul>
-			{#each categories as category}
-				<li>{category}</li>
-			{/each}
-		</ul>
-		<p>
-			Going beyond surface-level observations we ground our insights in psychological theories and
-			real-life examples. When you start to understand the nuances of these personalities you
-			develop sharp perspective on human behavior and our own potential.
-		</p>
-	</section>
-
-	<section class="enneagram-types">
-		{#each Array.from({ length: 9 }, (_, i) => i + 1) as number}
-			<div class="enneagram-type">
-				<h2 id="type-{number}">Enneagram Type {number}s</h2>
-				<div class="people-grid-container">
-					{#each data.people
-						.filter((p) => parseInt(p.enneagram) === number)
-						.slice(0, 5) as person}
+		<section class="enneagram-types">
+			{#each Array.from({ length: 9 }, (_, i) => i + 1) as number}
+				<div class="enneagram-type">
+					<h2 id="type-{number}">Enneagram Type {number}s</h2>
+					<div class="people-grid-container">
+						{#each data.people
+							.filter((p) => parseInt(p.enneagram) === number)
+							.slice(0, 5) as person}
+							<a
+								href="/personality-analysis/{person.slug}"
+								class="grid-item"
+								aria-label="View analysis of {person.slug.split('-').join(' ')}"
+								style:--tag={`h-blog-${person.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
+							>
+								{#if person.enneagram}
+									<img
+										srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
+										loading="lazy"
+										class="grid-img"
+										src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+										alt={person.slug.split('-').join(' ')}
+										width="218"
+										height="218"
+									/>
+								{/if}
+								<div class="person-name">
+									<span>{person.slug.split('-').join(' ')}</span>
+								</div>
+							</a>
+						{/each}
 						<a
-							href="/personality-analysis/{person.slug}"
-							class="grid-item"
-							aria-label="View analysis of {person.slug.split('-').join(' ')}"
-							style:--tag={`h-blog-${person.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
+							href="/personality-analysis/type/{number}"
+							class="grid-item view-all"
+							aria-label="View all Type {number}s"
 						>
-							{#if person.enneagram}
-								<img
-									srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-									loading="lazy"
-									class="grid-img"
-									src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-									alt={person.slug.split('-').join(' ')}
-									width="218"
-									height="218"
-								/>
-							{/if}
-							<div class="person-name">
-								<span>{person.slug.split('-').join(' ')}</span>
+							<div class="view-all-content">
+								<span>All {number}s</span>
+								<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'white'} />
 							</div>
 						</a>
-					{/each}
-					<a
-						href="/personality-analysis/type/{number}"
-						class="grid-item view-all"
-						aria-label="View all Type {number}s"
-					>
-						<div class="view-all-content">
-							<span>All {number}s</span>
-							<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'white'} />
-						</div>
-					</a>
+					</div>
 				</div>
-			</div>
-		{/each}
-	</section>
-
-	{#if !data?.user}
-		<section class="join">
-			<EmailSignup />
+			{/each}
 		</section>
-	{/if}
-</div>
+
+		{#if !data?.user}
+			<section class="join">
+				<EmailSignup />
+			</section>
+		{/if}
+	</div>
 </div>
 
 <style lang="scss">
@@ -219,14 +215,13 @@
 			padding: 0;
 			border-radius: 0;
 		}
-		
+
 		a {
 			&::after {
 				display: none;
 			}
 		}
 	}
-
 
 	.content-wrapper {
 		position: relative;
@@ -282,7 +277,7 @@
 				border: 1px solid rgba(255, 255, 255, 0.2);
 				font-weight: 500;
 				transition: all 0.3s ease;
-				
+
 				&:hover {
 					background: rgba(255, 255, 255, 0.15);
 					transform: translateY(-2px);
@@ -329,13 +324,9 @@
 			transform: translateY(-4px);
 			box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
 			border-color: rgba(108, 92, 231, 0.2);
-			
+
 			.person-name {
-				background: linear-gradient(
-					to top,
-					rgba(0, 0, 0, 0.95) 0%,
-					rgba(0, 0, 0, 0.8) 100%
-				);
+				background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 100%);
 			}
 		}
 	}
@@ -351,18 +342,14 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: linear-gradient(
-			to top,
-			rgba(0, 0, 0, 0.9) 0%,
-			rgba(0, 0, 0, 0.7) 100%
-		);
+		background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 100%);
 		color: white;
 		padding: 0.75rem;
 		font-size: 0.9rem;
 		text-align: center;
 		font-weight: 500;
 		transition: all 0.3s ease;
-		
+
 		span {
 			text-transform: capitalize;
 		}
@@ -375,11 +362,11 @@
 		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
 		border: 1px solid rgba(255, 255, 255, 0.08);
 		font-weight: 600;
-		
+
 		&:hover {
 			background: linear-gradient(135deg, #3d4447 0%, #2a2a3e 100%);
 			border-color: rgba(255, 255, 255, 0.15);
-			
+
 			.view-all-content {
 				color: #a29bfe;
 			}
@@ -493,7 +480,7 @@
 
 		.view-all-content {
 			font-size: 0.8rem;
-			
+
 			span {
 				display: block;
 			}

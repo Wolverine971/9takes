@@ -1,45 +1,9 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(python:*)",
-      "Bash(rm:*)",
-      "Bash(mkdir:*)",
-      "Bash(mv:*)",
-      "Bash(for file in enneagram-faqs.md enneagram-personal-growth.md enneagram-strengths-and-weaknesses.md enneagram-team-dynamics.md)",
-      "Bash(do echo \"=== $file ===\")",
-      "Bash(grep:*)",
-      "Bash(done)",
-      "Bash(pnpm dev:*)",
-      "Bash(move:*)",
-      "Bash(move srcroutescontent-board+page.server.ts srcroutesadmincontent-board+page.server.ts)",
-      "Bash(cp:*)",
-      "Bash(pnpm check:*)",
-      "Bash(pnpm build:*)",
-      "Bash(node:*)",
-      "Bash(timeout:*)",
-      "Bash(find:*)",
-      "Bash(ls:*)",
-      "Bash(pnpm svelte-check:*)",
-      "Bash(powershell:*)",
-      "Bash(npm run check:*)",
-      "Bash(pnpm lint:*)",
-      "Bash(for:*)",
-      "Bash(wc:*)",
-      "Bash(do [ -f \"$file\" ])",
-      "Bash(echo \"=== $file ===\")",
-      "Bash(iconv:*)",
-      "Bash(pnpm gen:types:*)",
-      "Bash(if [ -f \"$file\" ])",
-      "Bash(then wc -l \"$file\")",
-      "Bash(else echo \"File not found\")",
-      "Bash(fi)",
-      "Bash(find:*)",
-      "Bash(tree:*)"
-    ],
-    "deny": [],
-    "defaultMode": "acceptEdits",
-    "additionalDirectories": [
-      "C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"
-    ]
-  }
+	"permissions": {
+		"allow": ["WebSearch"],
+		"deny": [],
+		"defaultMode": "acceptEdits",
+		"additionalDirectories": ["C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"],
+		"ask": []
+	}
 }

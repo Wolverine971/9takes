@@ -11,7 +11,7 @@ published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'crisis-management'
 ---
 
 <!--
@@ -1238,7 +1238,7 @@ You deserve support. You deserve life. You deserve to discover who you can becom
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/enneagram-crisis-management.webp",
+        "url": "https://9takes.com/blogs/crisis-management.webp",
         "width": 900
       },
       "mainEntityOfPage": {

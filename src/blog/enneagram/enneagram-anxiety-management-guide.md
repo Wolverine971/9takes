@@ -15,6 +15,7 @@ pic: 'greek-statues-who-are-stressed'
 pic_alt: 'Nine Greek statues showing different anxiety patterns and coping mechanisms'
 midjourney_prompt: 'Nine ancient Greek marble statues arranged in a circle, each displaying different anxiety manifestations - one statue holding its head in worry, another with clenched fists showing control, one withdrawn and isolated, another pacing restlessly, one frozen in indecision, one hypervigilant looking in all directions, one escaping upward, one armored and defensive, one dissolving into background, soft dramatic lighting with shadows representing inner turmoil, mist and atmospheric effects, some statues beginning to glow from within showing transformation and healing, photorealistic detail, museum quality, depth of field, volumetric lighting --ar 16:9 --v 6'
 ---
+
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
@@ -36,7 +37,7 @@ Let's get something straight: Anxiety isn't your enemy. It's your bodyguard who'
 For every Enneagram type, anxiety serves a specific protective function:
 
 - **Type 1s:** Anxiety keeps you scanning for mistakes before they happen
-- **Type 2s:** Anxiety alerts you to potential rejection or abandonment  
+- **Type 2s:** Anxiety alerts you to potential rejection or abandonment
 - **Type 3s:** Anxiety drives you to achieve before you can be exposed
 - **Type 4s:** Anxiety maintains your sense of unique identity through intensity
 - **Type 5s:** Anxiety protects your resources from depletion
@@ -62,6 +63,7 @@ The Enneagram organizes types into three centers, each with a different relation
 Types in the body center experience anxiety somatically – you literally feel it in your gut, your jaw, your fists. Your anxiety is anger wearing a disguise. You're not afraid; you're pissed off that things aren't under your control.
 
 **The Physical Signature:**
+
 - Chronic muscle tension
 - Digestive issues
 - Sleep problems from inability to "turn off"
@@ -78,6 +80,7 @@ Types in the body center experience anxiety somatically – you literally feel i
 Types in the heart center experience anxiety relationally – you feel it in your chest, your breathing, your need for others' approval. Your anxiety is shame in disguise. You're not just worried; you're terrified of being seen as worthless.
 
 **The Emotional Signature:**
+
 - Panic about how others perceive you
 - Emotional flooding and overwhelm
 - Identity confusion when alone
@@ -94,6 +97,7 @@ Types in the heart center experience anxiety relationally – you feel it in you
 Types in the head center experience anxiety cognitively – you feel it in your racing thoughts, your need for certainty, your mental escape routes. Your anxiety is pure fear. You're trying to think your way to safety.
 
 **The Mental Signature:**
+
 - Overthinking and rumination
 - Future-focused worry
 - Information seeking as soothing
@@ -114,6 +118,7 @@ Types in the head center experience anxiety cognitively – you feel it in your 
 Type 1s, your anxiety is a quality control inspector who never takes a break. It's constantly scanning for flaws, mistakes, and imperfections – in yourself, others, and the world. Your anxiety sounds like: "It's not right yet. You're not good enough yet. What if someone notices the mistake?"
 
 **Your Specific Triggers:**
+
 - Unclear standards or moving goalposts
 - Time pressure without ability to ensure quality
 - Criticism that confirms your inner critic
@@ -121,6 +126,7 @@ Type 1s, your anxiety is a quality control inspector who never takes a break. It
 - Ethical compromises or "gray areas"
 
 **How Your Anxiety Manifests:**
+
 - **Perfectionist Paralysis:** Can't start because you can't guarantee perfection
 - **Physical Tension:** Your body holds the stress of constant vigilance
 - **Inner Critic Overdrive:** The voice gets louder under pressure
@@ -130,12 +136,14 @@ Type 1s, your anxiety is a quality control inspector who never takes a break. It
 ### Your Targeted Anxiety Protocol
 
 **Morning Reset (5 minutes):**
+
 1. Set a "good enough" standard for the day (literally write it down)
 2. Choose one thing to do imperfectly on purpose
 3. Repeat: "Progress over perfection is my practice today"
 
 **Anxiety Circuit Breaker:**
 When perfectionist anxiety hits:
+
 - Name it: "My quality control inspector is panicking"
 - Rate the actual consequence of imperfection (usually 2/10)
 - Do the 80% version and move on
@@ -143,11 +151,13 @@ When perfectionist anxiety hits:
 
 **Physical Release Practice:**
 Your anxiety lives in your muscles. Daily requirement:
+
 - Progressive muscle relaxation (tense and release each muscle group)
 - Vigorous exercise to discharge the tension
 - Stretch your jaw, shoulders, and hands specifically
 
 **Evening Integration:**
+
 - Write three things that were "good enough" today
 - Forgive yourself for one specific imperfection
 - Say: "I did my best with what I knew today"
@@ -170,6 +180,7 @@ Tomorrow, send an email with a deliberate typo. Watch how nobody cares. Notice h
 Type 2s, your anxiety is a rejection radar constantly scanning for signs you're not needed. It monitors every facial expression, every tone of voice, every delayed response for evidence that you're about to be abandoned. Your anxiety sounds like: "They don't need me anymore. I'm being selfish. What if I'm alone?"
 
 **Your Specific Triggers:**
+
 - Someone declining your help
 - Being asked to focus on your own needs
 - Conflict that might lead to disconnection
@@ -177,6 +188,7 @@ Type 2s, your anxiety is a rejection radar constantly scanning for signs you're 
 - Feeling emotionally depleted with nothing left to give
 
 **How Your Anxiety Manifests:**
+
 - **People-Pleasing Panic:** Desperate giving to secure connection
 - **Emotional Contagion:** Absorbing others' anxiety as your own
 - **Burnout Anxiety:** Fear when you have nothing left to give
@@ -186,12 +198,14 @@ Type 2s, your anxiety is a rejection radar constantly scanning for signs you're 
 ### Your Targeted Anxiety Protocol
 
 **Morning Reset (5 minutes):**
+
 1. Check your own emotional temperature first
 2. List your needs before considering others'
 3. Repeat: "My needs matter as much as everyone else's"
 
 **Anxiety Circuit Breaker:**
 When helper anxiety hits:
+
 - Pause: "Is this my feeling or theirs?"
 - Check: "What do I need right now?"
 - Practice: "No is a complete sentence"
@@ -199,11 +213,13 @@ When helper anxiety hits:
 
 **Emotional Differentiation Practice:**
 Your anxiety merges with others'. Daily requirement:
+
 - Visualize an emotional boundary between you and others
 - Name: "Their feelings, my feelings" separately
 - One hour daily that's just for you (non-negotiable)
 
 **Evening Integration:**
+
 - Celebrate one boundary you held today
 - List three ways you met your own needs
 - Say: "I am loved for who I am, not what I do"
@@ -226,6 +242,7 @@ Tomorrow, ask someone for help without offering anything in return. Notice they'
 Type 3s, your anxiety is a performance reviewer who never gives perfect scores. It's constantly measuring your worth against your latest achievement, comparing you to others, and threatening exposure as a fraud. Your anxiety sounds like: "You're falling behind. They'll see you're not that impressive. Rest equals death."
 
 **Your Specific Triggers:**
+
 - Public failure or visible mistakes
 - Successful peers (comparison trap)
 - Undefined success metrics
@@ -233,6 +250,7 @@ Type 3s, your anxiety is a performance reviewer who never gives perfect scores. 
 - Forced rest or stillness
 
 **How Your Anxiety Manifests:**
+
 - **Imposter Syndrome:** Constant fear of being exposed
 - **Productivity Addiction:** Can't stop without anxiety spiking
 - **Image Management Exhaustion:** Maintaining the perfect facade
@@ -242,12 +260,14 @@ Type 3s, your anxiety is a performance reviewer who never gives perfect scores. 
 ### Your Targeted Anxiety Protocol
 
 **Morning Reset (5 minutes):**
+
 1. Define success by values, not metrics
 2. Set a "being" goal alongside "doing" goals
 3. Repeat: "I am valuable for who I am, not what I produce"
 
 **Anxiety Circuit Breaker:**
 When achiever anxiety hits:
+
 - Reality check: "Will this matter in 5 years?"
 - Share one authentic struggle with someone
 - Do something unproductive for 10 minutes
@@ -255,11 +275,13 @@ When achiever anxiety hits:
 
 **Identity Expansion Practice:**
 Your anxiety collapses identity into achievement. Daily requirement:
+
 - Spend time being without doing
 - Connect with someone without mentioning work
 - List 5 non-achievement aspects of yourself
 
 **Evening Integration:**
+
 - Celebrate effort, not just outcomes
 - Share one failure and what you learned
 - Say: "Today's rest is tomorrow's excellence"
@@ -282,6 +304,7 @@ Tomorrow, share a failure story without the success redemption arc. Watch people
 Type 4s, your anxiety is an identity crisis on repeat. It's constantly comparing you to others and finding you either too much or not enough. Your anxiety amplifies emotions until you can't tell what's real. Your anxiety sounds like: "Nobody understands. Something essential is missing. I'll always be abandoned."
 
 **Your Specific Triggers:**
+
 - Feeling ordinary or unremarkable
 - Others' apparent happiness or ease
 - Emotional numbness or disconnection
@@ -289,6 +312,7 @@ Type 4s, your anxiety is an identity crisis on repeat. It's constantly comparing
 - Comparison-triggering social media
 
 **How Your Anxiety Manifests:**
+
 - **Emotional Tsunami:** Feelings so intense they feel fatal
 - **Identity Quicksand:** Not knowing who you are without the pain
 - **Abandonment Prophecy:** Creating the rejection you fear
@@ -298,12 +322,14 @@ Type 4s, your anxiety is an identity crisis on repeat. It's constantly comparing
 ### Your Targeted Anxiety Protocol
 
 **Morning Reset (5 minutes):**
+
 1. Rate emotional intensity (1-10) without story
 2. Find one ordinary thing to appreciate
 3. Repeat: "I have everything I need to be whole"
 
 **Anxiety Circuit Breaker:**
 When emotional anxiety hits:
+
 - Set a timer: "I'll feel this fully for 10 minutes"
 - Describe sensations without narrative
 - Text one friend: "Thinking of you"
@@ -311,11 +337,13 @@ When emotional anxiety hits:
 
 **Emotional Regulation Practice:**
 Your anxiety amplifies feelings. Daily requirement:
+
 - Practice emotional surfing (ride the wave, don't drown)
 - Journal facts vs. feelings separately
 - One stable routine to anchor your day
 
 **Evening Integration:**
+
 - List three ordinary moments that were enough
 - Appreciate one stable relationship
 - Say: "My sensitivity is a gift, not a curse"
@@ -338,6 +366,7 @@ Tomorrow, post about something ordinary that brought you joy. Notice that depth 
 Type 5s, your anxiety is a resource manager convinced you're always running on empty. It hoards knowledge, energy, and time like you're preparing for an apocalypse. Your anxiety sounds like: "I don't know enough. They want too much. I need to withdraw before I'm depleted."
 
 **Your Specific Triggers:**
+
 - Unexpected demands on your time/energy
 - Being put on the spot without preparation
 - Emotional intensity from others
@@ -345,6 +374,7 @@ Type 5s, your anxiety is a resource manager convinced you're always running on e
 - Feeling incompetent or unprepared
 
 **How Your Anxiety Manifests:**
+
 - **Depletion Paranoia:** Convinced engagement will drain you
 - **Analysis Paralysis:** Never enough information to act
 - **Social Withdrawal:** Isolation as anxiety management
@@ -354,12 +384,14 @@ Type 5s, your anxiety is a resource manager convinced you're always running on e
 ### Your Targeted Anxiety Protocol
 
 **Morning Reset (5 minutes):**
+
 1. Assess actual energy (not feared depletion)
 2. Choose one small social connection
 3. Repeat: "I have enough for what matters today"
 
 **Anxiety Circuit Breaker:**
 When scarcity anxiety hits:
+
 - Test it: "What's my actual energy after engaging?"
 - Share one piece of knowledge
 - Stay present for 5 minutes without escape planning
@@ -367,11 +399,13 @@ When scarcity anxiety hits:
 
 **Abundance Practice:**
 Your anxiety assumes scarcity. Daily requirement:
+
 - Visualize unlimited resources
 - Give knowledge freely in small doses
 - Track energy before/after social interaction (usually surprised)
 
 **Evening Integration:**
+
 - Acknowledge competencies you demonstrated
 - Appreciate energy that renewed itself
 - Say: "Engaging with life fills me up"
@@ -394,6 +428,7 @@ Tomorrow, teach someone something without perfect preparation. Notice that 80% k
 Type 6s, your anxiety is a disaster preparedness expert who sees threats everywhere. It's running worst-case scenarios 24/7, questioning everything, and trusting nothing. Your anxiety sounds like: "What if everything goes wrong? Can I trust this? I'm not prepared for what's coming."
 
 **Your Specific Triggers:**
+
 - Uncertainty or ambiguous situations
 - Conflicting information or advice
 - Making decisions without guarantees
@@ -401,6 +436,7 @@ Type 6s, your anxiety is a disaster preparedness expert who sees threats everywh
 - Feeling unsupported or alone
 
 **How Your Anxiety Manifests:**
+
 - **Catastrophic Thinking:** Every possibility becomes a probability
 - **Decision Paralysis:** Too many what-ifs to choose
 - **Trust Oscillation:** Blind faith to total suspicion
@@ -410,12 +446,14 @@ Type 6s, your anxiety is a disaster preparedness expert who sees threats everywh
 ### Your Targeted Anxiety Protocol
 
 **Morning Reset (5 minutes):**
+
 1. Name three things that are certain right now
 2. Choose to trust one thing today
 3. Repeat: "I can handle whatever comes"
 
 **Anxiety Circuit Breaker:**
 When catastrophic anxiety hits:
+
 - Probability check: "What are the actual odds?"
 - Best-case scenario: Imagine everything going right
 - Present anchor: Five things that are safe now
@@ -423,11 +461,13 @@ When catastrophic anxiety hits:
 
 **Trust Building Practice:**
 Your anxiety erodes trust. Daily requirement:
+
 - Make one quick decision without research
 - Document when things went right
 - Practice trusting your gut for small choices
 
 **Evening Integration:**
+
 - List three things that didn't go wrong
 - Appreciate support that showed up
 - Say: "My track record of handling life is 100%"
@@ -450,6 +490,7 @@ Tomorrow, make three decisions in under a minute each. Notice your quick instinc
 Type 7s, your anxiety is an escape artist terrified of being trapped in pain. It's constantly scanning for exits, planning contingencies, and flooding you with options to avoid feeling trapped. Your anxiety sounds like: "This feeling is unbearable. I'm missing out. What if I'm stuck here forever?"
 
 **Your Specific Triggers:**
+
 - Limitation or commitment
 - Negative emotions surfacing
 - Boredom or routine
@@ -457,6 +498,7 @@ Type 7s, your anxiety is an escape artist terrified of being trapped in pain. It
 - Being forced to slow down
 
 **How Your Anxiety Manifests:**
+
 - **FOMO Panic:** Terror of missing better options
 - **Emotional Avoidance:** Activity as anxiety medication
 - **Commitment Phobia:** Every choice feels like a cage
@@ -466,12 +508,14 @@ Type 7s, your anxiety is an escape artist terrified of being trapped in pain. It
 ### Your Targeted Anxiety Protocol
 
 **Morning Reset (5 minutes):**
+
 1. Sit still for 2 minutes (no phone)
 2. Choose depth over breadth in one area
 3. Repeat: "This moment has everything I need"
 
 **Anxiety Circuit Breaker:**
 When escape anxiety hits:
+
 - Stay: "What if I don't run?"
 - Feel: Let one emotion complete its cycle
 - Pause: Wait 24 hours before adding plans
@@ -479,11 +523,13 @@ When escape anxiety hits:
 
 **Presence Practice:**
 Your anxiety lives in future options. Daily requirement:
+
 - One activity with no multitasking
 - Feel boredom for 10 minutes without fixing
 - Say no to one exciting opportunity
 
 **Evening Integration:**
+
 - Appreciate depth discovered through limitation
 - Acknowledge one difficult feeling you survived
 - Say: "Constraints create freedom"
@@ -506,6 +552,7 @@ Tomorrow, cancel one plan and do nothing instead. Discover what emerges from the
 Type 8s, your anxiety is a warrior in armor who forgot the war is over. It masks fear with anger, vulnerability with control, and converts every anxiety into action. Your anxiety sounds like: "They'll use weakness against me. I must control this. Never let them see you sweat."
 
 **Your Specific Triggers:**
+
 - Betrayal or dishonesty
 - Being controlled or manipulated
 - Forced vulnerability
@@ -513,6 +560,7 @@ Type 8s, your anxiety is a warrior in armor who forgot the war is over. It masks
 - Physical weakness or limitation
 
 **How Your Anxiety Manifests:**
+
 - **Control Compulsion:** Managing anxiety through dominance
 - **Anger Mask:** Rage covering fear
 - **Vulnerability Allergy:** Soft feelings feel dangerous
@@ -522,12 +570,14 @@ Type 8s, your anxiety is a warrior in armor who forgot the war is over. It masks
 ### Your Targeted Anxiety Protocol
 
 **Morning Reset (5 minutes):**
+
 1. Name one fear honestly
 2. Choose one moment for gentleness
 3. Repeat: "Vulnerability is strength, not weakness"
 
 **Anxiety Circuit Breaker:**
 When control anxiety hits:
+
 - Admit: "I'm actually scared about..."
 - Soften: Lower volume and intensity
 - Ask: Request help with something
@@ -535,11 +585,13 @@ When control anxiety hits:
 
 **Vulnerability Practice:**
 Your anxiety armors against softness. Daily requirement:
+
 - Share one tender feeling
 - Accept help without reciprocating
 - Use gentle touch or voice
 
 **Evening Integration:**
+
 - Appreciate one moment of received care
 - Acknowledge vulnerability that didn't kill you
 - Say: "My softness makes me stronger"
@@ -562,6 +614,7 @@ Tomorrow, tell someone how they positively impact you. Watch them move closer, n
 Type 9s, your anxiety is a conflict-avoidant mediator who'd rather disappear than disagree. It numbs you out, helps you merge with others' wants, and keeps you small to avoid making waves. Your anxiety sounds like: "Don't rock the boat. Your needs will cause problems. It's easier to go along."
 
 **Your Specific Triggers:**
+
 - Direct conflict or confrontation
 - Having to choose sides
 - Pressure to make decisions
@@ -569,6 +622,7 @@ Type 9s, your anxiety is a conflict-avoidant mediator who'd rather disappear tha
 - Too many competing demands
 
 **How Your Anxiety Manifests:**
+
 - **Merge Anxiety:** Losing yourself in others' wants
 - **Decision Paralysis:** Every choice might upset someone
 - **Invisible Anxiety:** Disappearing to avoid conflict
@@ -578,12 +632,14 @@ Type 9s, your anxiety is a conflict-avoidant mediator who'd rather disappear tha
 ### Your Targeted Anxiety Protocol
 
 **Morning Reset (5 minutes):**
+
 1. Identify your top priority (just one)
 2. State one personal preference
 3. Repeat: "My voice matters and people want to hear it"
 
 **Anxiety Circuit Breaker:**
 When avoidance anxiety hits:
+
 - Speak: Share your actual opinion
 - Choose: Make a decision in 30 seconds
 - Stand: Take up physical space
@@ -591,11 +647,13 @@ When avoidance anxiety hits:
 
 **Presence Practice:**
 Your anxiety makes you disappear. Daily requirement:
+
 - Voice one preference without polling others
 - Sit in the center, not the corner
 - Pursue one personal goal for 30 minutes
 
 **Evening Integration:**
+
 - Celebrate one moment you showed up
 - Appreciate conflict that led to connection
 - Say: "My presence improves every space"
@@ -628,48 +686,57 @@ Regardless of type, when anxiety becomes overwhelming:
 ### Type-Specific Crisis Interventions
 
 **Type 1 Crisis:** When perfectionism becomes paralysis
+
 - Give yourself permission to do nothing
 - Call someone who loves your imperfections
 - Physical movement to discharge tension
 
 **Type 2 Crisis:** When giving has emptied you
+
 - Stop helping immediately
 - Focus only on your needs for 24 hours
 - Let someone take care of you
 - Review your [love language patterns](/enneagram-corner/enneagram-love-languages) for healthier connection
 
 **Type 3 Crisis:** When achievement addiction crashes
+
 - Take a "failure day" - do nothing productive
 - Share your struggles without solutions
 - Remember who loved you before success
 
 **Type 4 Crisis:** When emotions become tsunamis
+
 - Set boundaries on feeling time
 - Focus on physical sensations, not stories
 - Connect with someone stable
 
 **Type 5 Crisis:** When withdrawal becomes isolation
+
 - Force one small social contact
 - Share what you're struggling with
 - Remember: engagement can energize
 
 **Type 6 Crisis:** When catastrophizing spirals
+
 - Write down actual probabilities
 - Focus only on the next hour
 - Activate your support network
 - Use [trauma response understanding](/enneagram-corner/enneagram-trauma-response) to recognize patterns
 
 **Type 7 Crisis:** When running stops working
+
 - Stay still and let feelings complete
 - Cancel all plans for 24 hours
 - Ask for help sitting with difficulty
 
 **Type 8 Crisis:** When control crumbles
+
 - Admit powerlessness to someone safe
 - Let yourself cry or shake
 - Accept care without giving back
 
 **Type 9 Crisis:** When you've disappeared completely
+
 - Make one decision just for you
 - Express one strong opinion
 - Take up space unapologetically
@@ -677,6 +744,7 @@ Regardless of type, when anxiety becomes overwhelming:
 ### When to Get Professional Help
 
 Seek immediate professional support if:
+
 - Anxiety interferes with daily functioning
 - Physical symptoms persist or worsen
 - Suicidal thoughts emerge (see our [crisis management guide](/enneagram-corner/enneagram-crisis-management-guide))
@@ -713,18 +781,21 @@ Here's something counterintuitive: Your anxiety often points to your growth edge
 ### Integration Practices by Center
 
 **Body Center (8, 9, 1):**
+
 - Daily physical movement to discharge tension
 - Somatic therapy or bodywork
 - Anger expression in healthy ways
 - Grounding through physical sensation
 
 **Heart Center (2, 3, 4):**
+
 - Emotional regulation skills
 - Identity work beyond roles
 - Shame resilience practices
 - Authentic connection focus
 
 **Head Center (5, 6, 7):**
+
 - Mindfulness and presence training
 - Cognitive restructuring
 - Body awareness to exit mental loops
@@ -741,16 +812,19 @@ Instead of fighting anxiety, make it your ally:
 ### The 90-Day Transformation
 
 **Days 1-30:** Recognition and awareness
+
 - Track your patterns
 - Notice without changing
 - Build observation skills
 
 **Days 31-60:** Experimentation
+
 - Try type-specific techniques
 - Note what works/doesn't
 - Adjust and customize
 
 **Days 61-90:** Integration
+
 - Consistent daily practice
 - Share with others
 - Become support for someone else

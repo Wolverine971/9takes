@@ -1993,7 +1993,8 @@
 
 		<p>
 			If you gravitate to one bucket of emotions that may be a clue in <a
-				href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">determining your personality</a
+				href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
+				>determining your personality</a
 			>.
 		</p>
 

@@ -46,12 +46,12 @@
 		max-width: 1400px;
 		margin: 0 auto;
 		padding: 0 1.5rem;
-		
+
 		// Reset global styles
 		* {
 			box-sizing: border-box;
 		}
-		
+
 		article,
 		h1,
 		h2,
@@ -60,38 +60,38 @@
 			all: unset;
 			display: block;
 		}
-		
+
 		a {
 			text-decoration: none !important;
-			
+
 			&::after {
 				display: none !important;
 			}
 		}
 
 		.page-header {
-		text-align: center;
-		margin-bottom: 4rem;
-		padding: 3rem;
-		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
-		border-radius: 20px;
-		color: white;
-
-		h1 {
-			font-size: 2.5rem;
-			font-weight: 700;
-			margin-bottom: 1rem;
+			text-align: center;
+			margin-bottom: 4rem;
+			padding: 3rem;
+			background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+			border-radius: 20px;
 			color: white;
-		}
 
-		.page-description {
-			font-size: 1.125rem;
-			color: rgba(255, 255, 255, 0.95);
-			max-width: 600px;
-			margin: 0 auto;
-			line-height: 1.6;
+			h1 {
+				font-size: 2.5rem;
+				font-weight: 700;
+				margin-bottom: 1rem;
+				color: white;
+			}
+
+			.page-description {
+				font-size: 1.125rem;
+				color: rgba(255, 255, 255, 0.95);
+				max-width: 600px;
+				margin: 0 auto;
+				line-height: 1.6;
+			}
 		}
-	}
 
 		/* Guides Grid - Style Guide Compliant */
 		.guides-grid {
@@ -112,7 +112,7 @@
 			display: flex;
 			position: relative;
 			overflow: hidden;
-			
+
 			&.has-image {
 				background-size: cover !important;
 				background-position: center !important;
@@ -230,16 +230,16 @@
 				grid-template-columns: repeat(2, 1fr);
 				gap: 0.75rem;
 			}
-			
+
 			.guide-card .card-content {
 				padding: 1rem;
-				
+
 				h3 {
 					font-size: 0.9rem;
 					-webkit-line-clamp: 2;
 					line-clamp: 2;
 				}
-				
+
 				p {
 					font-size: 0.75rem;
 					-webkit-line-clamp: 2;

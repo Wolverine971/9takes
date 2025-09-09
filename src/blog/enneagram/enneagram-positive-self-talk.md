@@ -85,21 +85,25 @@ For each Enneagram type, this negativity bias gets filtered through your core fe
 Your inner critic isn't just annoying – it's expensive. Here's what that voice is actually costing you:
 
 **Relationship Sabotage:**
+
 - Type 2s burn out trying to earn love through service
 - Type 5s withdraw, creating the isolation they fear
 - Type 8s push people away before they can get close
 
 **Career Limitations:**
+
 - Type 1s procrastinate, paralyzed by perfectionism
 - Type 3s burn out chasing endless achievement
 - Type 9s stay invisible, missing promotions and opportunities
 
 **Mental Health Impact:**
+
 - Type 4s spiral into depression through comparison
 - Type 6s develop [anxiety disorders](/enneagram-corner/enneagram-anxiety-management-guide) from chronic worry
 - Type 7s develop addictive patterns to escape discomfort
 
 **Physical Manifestations:**
+
 - Type 1s: Chronic tension, TMJ, digestive issues
 - Type 8s: High blood pressure, heart problems
 - Type 9s: Fatigue, weight gain, autoimmune issues
@@ -142,55 +146,58 @@ Notice the pattern? It's always about falling short of an impossible standard. Y
 
 Your first job isn't to change anything – it's to notice. You can't hack a system you don't understand.
 
-*Daily Practice:*
+_Daily Practice:_
+
 - Keep a "should tracker" – every time you think or say "should," write it down
 - Notice where you hold tension when self-criticizing (jaw? shoulders? stomach?)
 - Document trigger situations (what specifically activated your inner critic?)
 
-*Pattern to Watch:* You'll likely discover your inner critic is loudest during transitions (morning, arriving at work, bedtime) and after any perceived mistake.
+_Pattern to Watch:_ You'll likely discover your inner critic is loudest during transitions (morning, arriving at work, bedtime) and after any perceived mistake.
 
 **Week 2: Interruption Techniques**
 
 Now we install circuit breakers – ways to interrupt the critic mid-sentence.
 
-*The "Good Enough" Mantra:*
+_The "Good Enough" Mantra:_
 When perfectionism strikes, repeat: "Done at 80% is better than perfect never." This isn't lowering standards – it's recognizing that your 80% is most people's 110%.
 
-*The Progress Tracker:*
+_The Progress Tracker:_
 Every night, document 3 wins. They can be tiny:
+
 - "I sent that email despite typos"
 - "I left dishes in the sink"
 - "I said 'I don't know' in a meeting"
 
-*The Compassion Pause:*
+_The Compassion Pause:_
 When the critic attacks, ask: "What would I tell my best friend in this situation?" You'd never talk to them the way you talk to yourself.
 
 **Week 3: Replacement Scripts**
 
 Time to install new software. These aren't generic affirmations – they're targeted rewrites of your specific inner critic patterns.
 
-*Morning Activation:*
+_Morning Activation:_
 "I choose progress over perfection today. My humanity is not a flaw to fix."
 
-*Mistake Response:*
+_Mistake Response:_
 Instead of: "I'm so stupid, I should have known better"
 Try: "This is data, not a verdict. I'm learning and adjusting."
 
-*Evening Integration:*
+_Evening Integration:_
 "I did my best with what I knew then. Tomorrow I'll know more."
 
 **Week 4: Integration Practices**
 
 Making it stick requires deliberate imperfection.
 
-*The 1% Better Rule:*
+_The 1% Better Rule:_
 Stop aiming for 100% improvement. Aim for 1% better than yesterday. Compound interest works in personal development too.
 
-*The Forgiveness Practice:*
+_The Forgiveness Practice:_
 Write one self-criticism on paper each night. Read it aloud: "I forgive myself for believing this." Then literally burn it or tear it up.
 
-*The Play Hour:*
+_The Play Hour:_
 Schedule activities where perfection is impossible:
+
 - Finger painting
 - Dancing badly to music
 - Cooking without a recipe
@@ -200,10 +207,10 @@ Schedule activities where perfection is impossible:
 
 ### Type 1 Success Stories
 
-*Sarah, Type 1, Marketing Director:*
+_Sarah, Type 1, Marketing Director:_
 "I used to rewrite emails seven times. Now I use the two-draft rule: rough draft, quick polish, send. My anxiety dropped 70% and nobody noticed the difference. Actually, people say I seem more 'human' now."
 
-*Marcus, Type 1, Teacher:*
+_Marcus, Type 1, Teacher:_
 "The forgiveness practice changed everything. I realized I was holding myself to standards I'd never impose on my students. Now I grade myself the way I grade them – with encouragement and growth focus."
 
 </article>
@@ -242,68 +249,71 @@ See the pattern? Your inner critic has weaponized compassion against you.
 
 Time to map your giving patterns and their real cost.
 
-*Daily Practice:*
+_Daily Practice:_
+
 - Track every "yes" when your body wanted to say "no"
 - Notice the physical sensation of resentment (where do you feel it?)
 - Document your own unmet needs (when did you last eat? rest? play?)
 
-*Pattern to Watch:* You'll likely discover you give most when you're depleted – using helping others to avoid facing your own needs.
+_Pattern to Watch:_ You'll likely discover you give most when you're depleted – using helping others to avoid facing your own needs.
 
 **Week 2: Interruption Techniques**
 
 Installing boundaries isn't selfish – it's sustainable.
 
-*The Needs Check:*
+_The Needs Check:_
 Before helping anyone, ask yourself:
+
 1. Have I eaten in the last 4 hours?
 2. Have I rested adequately?
 3. What do I need right now?
 4. Can I give this freely without resentment?
 
-*The Boundary Statement:*
+_The Boundary Statement:_
 "Let me check my capacity and get back to you." This buys you time to actually consider if you want to help, rather than knee-jerk saying yes.
 
-*The Self-Care Non-Negotiable:*
+_The Self-Care Non-Negotiable:_
 Block one hour daily that's just for you. Not productive time. Not helping time. Your time. Guard it like you'd guard a friend's important appointment.
 
 **Week 3: Replacement Scripts**
 
 Rewiring from self-abandonment to self-honoring.
 
-*Morning Activation:*
+_Morning Activation:_
 "My needs are as valid as everyone else's. Caring for myself allows me to care for others sustainably."
 
-*Boundary Moment:*
+_Boundary Moment:_
 Instead of: "I can't help because I'm selfish"
 Try: "I'm at capacity right now. Saying no to this means saying yes to my wellbeing."
 
-*Evening Integration:*
+_Evening Integration:_
 "I gave what I could today, and that's enough. My worth isn't measured in sacrifice."
 
 **Week 4: Integration Practices**
 
 Learning to receive is as important as giving.
 
-*The Receiving Practice:*
+_The Receiving Practice:_
 Accept one thing daily without reciprocating:
+
 - A compliment (just say "thank you")
 - An offer of help
 - Someone else paying for coffee
 
-*The Desire Journal:*
+_The Desire Journal:_
 Write three personal wants daily. Not needs – wants. Train your brain that wanting things is allowed.
 
-*The "No" Challenge:*
+_The "No" Challenge:_
 Decline one request weekly without explaining or justifying. "That won't work for me" is a complete sentence.
 
 **Small Experiment:** Tomorrow, ask someone for help with something you'd normally do alone. Notice their response. Notice they don't think you're selfish.
 
 ### Type 2 Success Stories
 
-*Jennifer, Type 2, Nurse:*
+_Jennifer, Type 2, Nurse:_
 "I thought boundaries would end my relationships. Instead, they saved them. When I stopped over-giving, I stopped resenting. My marriage improved, my friendships deepened, and ironically, people respect me more."
 
-*David, Type 2, Coach:*
+_David, Type 2, Coach:_
 "The receiving practice was torture at first. But I realized I was robbing others of the joy of giving – the same joy I felt when helping. Now I let people love me without earning it."
 
 </article>
@@ -342,25 +352,27 @@ Notice how it's always about external validation? Your inner critic has outsourc
 
 Time to see the hamster wheel you're running on.
 
-*Daily Practice:*
+_Daily Practice:_
+
 - Track how many times you check metrics (likes, email, numbers)
 - Notice when you feel worthless without achieving
 - Document what you're avoiding by staying busy
 
-*Pattern to Watch:* You'll likely discover you're most driven when you feel emotionally empty – using achievement as emotional bypass.
+_Pattern to Watch:_ You'll likely discover you're most driven when you feel emotionally empty – using achievement as emotional bypass.
 
 **Week 2: Interruption Techniques**
 
 Learning that you're a human being, not a human doing.
 
-*The Being Practice:*
+_The Being Practice:_
 10 minutes daily doing absolutely nothing productive. No phone. No planning. Just exist. This will feel like torture at first – that's the addiction talking.
 
-*The Vulnerability Share:*
+_The Vulnerability Share:_
 Tell someone about a failure weekly. Not a humble-brag disguised as failure – a real mistake. Watch them not abandon you.
 
-*The Process Celebration:*
+_The Process Celebration:_
 Reward effort, not just outcomes:
+
 - "I showed up even though I was scared"
 - "I tried something new"
 - "I kept going when it got hard"
@@ -369,31 +381,33 @@ Reward effort, not just outcomes:
 
 From performance to presence.
 
-*Morning Activation:*
+_Morning Activation:_
 "I am valuable for who I am, not what I produce. My worth is inherent, not earned."
 
-*Failure Moment:*
+_Failure Moment:_
 Instead of: "I'm a failure, everyone will know I'm incompetent"
 Try: "This setback is redirecting me toward something better. Failure is data, not identity."
 
-*Evening Integration:*
+_Evening Integration:_
 "Today's rest is tomorrow's excellence. I'm investing in sustainability, not sprinting to burnout."
 
 **Week 4: Integration Practices**
 
 Building an identity beyond achievement.
 
-*The Connection Hour:*
+_The Connection Hour:_
 Prioritize one relationship over work daily. Full presence, no multitasking, no talking about achievements.
 
-*The Failure Resume:*
+_The Failure Resume:_
 Document lessons from mistakes:
+
 - "Failed startup taught me market research"
 - "Lost promotion showed me I was in wrong field"
 - "Relationship ending taught me authenticity"
 
-*The Identity Exploration:*
+_The Identity Exploration:_
 List 10 things about you that have nothing to do with achievement:
+
 - Your laugh
 - How you treat servers
 - Your curiosity about specific topics
@@ -403,10 +417,10 @@ List 10 things about you that have nothing to do with achievement:
 
 ### Type 3 Success Stories
 
-*Michael, Type 3, CEO:*
+_Michael, Type 3, CEO:_
 "I thought vulnerability would destroy my leadership. Instead, sharing my struggles made my team trust me more. Turns out, perfection is intimidating. Humanity is inspiring."
 
-*Rachel, Type 3, Surgeon:*
+_Rachel, Type 3, Surgeon:_
 "The being practice saved my life. Literally. I was heading for a heart attack at 38. Now I measure success by presence, not just procedures. My patients say I'm a better doctor."
 
 </article>
@@ -445,60 +459,65 @@ See the trap? Your inner critic has made suffering part of your identity.
 
 Time to map your emotional patterns without drowning in them.
 
-*Daily Practice:*
+_Daily Practice:_
+
 - Track comparison triggers (social media, conversations, observations)
 - Notice when you're indulging melancholy vs. processing emotion
 - Document moments of unexpected contentment
 
-*Pattern to Watch:* You'll likely discover you create drama when things are stable – chaos feels more authentic than peace.
+_Pattern to Watch:_ You'll likely discover you create drama when things are stable – chaos feels more authentic than peace.
 
 **Week 2: Interruption Techniques**
 
 Finding the profound in the ordinary.
 
-*The Ordinary Beauty Practice:*
+_The Ordinary Beauty Practice:_
 Find profound meaning in mundane moments:
+
 - The way light hits your coffee
 - The rhythm of typing
 - The feeling of clean sheets
 
-*The Gratitude Specificity:*
+_The Gratitude Specificity:_
 List 3 unique things you appreciate daily – but make them specific and sensory:
+
 - Not "my friend" but "the way Sarah snorts when she really laughs"
 - Not "nature" but "how the oak tree's shadow moves across my wall"
 
-*The Connection Reality Check:*
+_The Connection Reality Check:_
 When feeling isolated, text one friend: "Thinking of you." Watch them respond with warmth. You're not as alone as your inner critic claims.
 
 **Week 3: Replacement Scripts**
 
 From deficiency to depth.
 
-*Morning Activation:*
+_Morning Activation:_
 "My sensitivity is a gift that reveals what others miss. I have everything I need to be whole right now."
 
-*Comparison Moment:*
+_Comparison Moment:_
 Instead of: "They have it all figured out, I'm broken"
 Try: "Their path isn't my path, and that's beautiful. My journey has its own timing."
 
-*Evening Integration:*
+_Evening Integration:_
 "Today's emotions were weather, not identity. I am the sky, not the storms."
 
 **Week 4: Integration Practices**
 
 Building stability without losing depth.
 
-*The Stability Anchor:*
+_The Stability Anchor:_
 Create one consistent daily routine:
+
 - Same morning coffee ritual
 - Same evening walk
 - Same Sunday phone call
 
-*The Service Hour:*
+_The Service Hour:_
 Help someone else with their emotions weekly. Your depth becomes medicine when you share it.
 
-*The Present Moment Practice:*
+_The Present Moment Practice:_
 Describe current sensations without story:
+
 - "Tight chest, shallow breath, cool air"
 - Not: "Tight chest because I'm always anxious about being abandoned"
 
@@ -506,10 +525,10 @@ Describe current sensations without story:
 
 ### Type 4 Success Stories
 
-*Elena, Type 4, Artist:*
+_Elena, Type 4, Artist:_
 "I thought happiness would make me shallow. But I discovered joy actually deepened my art. My pain was a crutch, not a muse. Now I create from wholeness, not wounds."
 
-*James, Type 4, Therapist:*
+_James, Type 4, Therapist:_
 "The stability anchor changed everything. Routine didn't cage me – it freed me. With structure, my emotions became waves, not tsunamis."
 
 </article>
@@ -548,25 +567,27 @@ Notice the scarcity mindset? Your inner critic treats knowledge and energy like 
 
 Mapping your withdrawal patterns.
 
-*Daily Practice:*
+_Daily Practice:_
+
 - Track withdrawal impulses (when do you ghost?)
 - Notice knowledge hoarding (when do you withhold information?)
 - Document energy before and after interactions (is depletion real or anticipated?)
 
-*Pattern to Watch:* You'll likely discover you withdraw most when you actually need connection – isolation as maladaptive coping.
+_Pattern to Watch:_ You'll likely discover you withdraw most when you actually need connection – isolation as maladaptive coping.
 
 **Week 2: Interruption Techniques**
 
 Testing the depletion hypothesis.
 
-*The Engagement Experiment:*
+_The Engagement Experiment:_
 Say yes to one social invitation weekly. Rate energy before and after. You'll often find you have more energy post-interaction.
 
-*The Knowledge Sufficient Check:*
+_The Knowledge Sufficient Check:_
 Before researching more, ask: "Do I know enough to take the next small step?" Usually, you do.
 
-*The Energy Reality Test:*
+_The Energy Reality Test:_
 Track actual vs. anticipated energy drain:
+
 - Anticipated: "This party will destroy me"
 - Actual: "I'm tired but oddly energized"
 
@@ -574,37 +595,37 @@ Track actual vs. anticipated energy drain:
 
 From scarcity to sufficiency.
 
-*Morning Activation:*
+_Morning Activation:_
 "I have enough energy for what matters today. Knowledge is infinite – I can learn as I go."
 
-*Social Moment:*
+_Social Moment:_
 Instead of: "This will drain me completely"
 Try: "Connection energizes me when I'm selective. I can leave when I need to."
 
-*Evening Integration:*
+_Evening Integration:_
 "My knowledge is valuable and worth sharing. Teaching others clarifies my own understanding."
 
 **Week 4: Integration Practices**
 
 Building connection without depletion.
 
-*The Sharing Practice:*
+_The Sharing Practice:_
 Teach someone something weekly. Notice how explaining deepens your understanding.
 
-*The Presence Practice:*
+_The Presence Practice:_
 One conversation weekly without mental escape routes. Full presence for 20 minutes.
 
-*The Abundance Meditation:*
+_The Abundance Meditation:_
 Visualize unlimited energy, infinite knowledge, endless time. Feel the relief of sufficiency.
 
 **Small Experiment:** Share an unfinished idea with someone tomorrow. Notice they value your thinking process, not just conclusions.
 
 ### Type 5 Success Stories
 
-*Robert, Type 5, Researcher:*
+_Robert, Type 5, Researcher:_
 "I spent years gathering knowledge before sharing anything. Now I share as I learn. Turns out, people value the journey, not just the destination."
 
-*Lisa, Type 5, Engineer:*
+_Lisa, Type 5, Engineer:_
 "The engagement experiment shocked me. I have more energy after good conversations than after alone time. Quality interaction is energizing, not draining."
 
 </article>
@@ -643,30 +664,34 @@ See the pattern? Your inner critic has appointed itself your bodyguard, but it's
 
 Tracking the anxiety spiral.
 
-*Daily Practice:*
+_Daily Practice:_
+
 - Log catastrophic thoughts and their actual outcomes
 - Notice your body's anxiety signals (racing heart, tight chest, scattered thoughts)
 - Document when anxiety is highest (transitions, decisions, silence)
 
-*Pattern to Watch:* You'll likely discover 95% of what you worry about never happens, and what does happen, you handle.
+_Pattern to Watch:_ You'll likely discover 95% of what you worry about never happens, and what does happen, you handle.
 
 **Week 2: Interruption Techniques**
 
 Breaking the catastrophizing cycle.
 
-*The Probability Check:*
+_The Probability Check:_
 When anxiety strikes, ask:
+
 1. What's the actual likelihood of this? (Usually \<\5\%)
 2. If it did happen, could I handle it? (Usually yes)
 3. Is worrying helping? (Never)
 
-*The Best-Case Scenario:*
+_The Best-Case Scenario:_
 For every worst-case thought, imagine the best case:
+
 - "What if I get fired?" → "What if I get promoted?"
 - "What if they hate me?" → "What if they love me?"
 
-*The Present Return:*
+_The Present Return:_
 Name 5 things that are safe right now:
+
 - "My feet on the floor"
 - "The walls around me"
 - "My breath going in and out"
@@ -675,31 +700,33 @@ Name 5 things that are safe right now:
 
 From anxiety to agency.
 
-*Morning Activation:*
+_Morning Activation:_
 "I can handle whatever comes today. My track record of surviving difficult things is 100%."
 
-*Anxiety Moment:*
+_Anxiety Moment:_
 Instead of: "Everything's going to fall apart"
 Try: "This feeling is familiar, not factual. I'm safe right now."
 
-*Evening Integration:*
+_Evening Integration:_
 "I navigated today successfully. Tomorrow's problems can wait for tomorrow's resources."
 
 **Week 4: Integration Practices**
 
 Building self-trust.
 
-*The Trust Building:*
+_The Trust Building:_
 Make one quick decision daily without seeking reassurance. Start small: what to eat, what to wear.
 
-*The Success Journal:*
+_The Success Journal:_
 Document when things went right:
+
 - "Presentation went well"
 - "Friend appreciated my advice"
 - "Handled unexpected problem calmly"
 
-*The Body Regulation:*
+_The Body Regulation:_
 5-minute breathing practice when spiraling:
+
 - Inhale for 4
 - Hold for 4
 - Exhale for 6
@@ -708,10 +735,10 @@ Document when things went right:
 
 ### Type 6 Success Stories
 
-*Amanda, Type 6, Project Manager:*
+_Amanda, Type 6, Project Manager:_
 "I used to have 17 contingency plans. Now I have one good plan and trust myself to adapt. My anxiety dropped 80% and my performance improved."
 
-*Carlos, Type 6, Teacher:*
+_Carlos, Type 6, Teacher:_
 "The probability check changed my life. I realized I was living in a fictional future of disasters. Now I live in the actual present, which is usually fine."
 
 </article>
@@ -750,28 +777,31 @@ Notice how it's always about what's not here? Your inner critic has made the pre
 
 Mapping your escape patterns.
 
-*Daily Practice:*
+_Daily Practice:_
+
 - Track distraction impulses (when do you reach for your phone?)
 - Notice what feelings you're avoiding
 - Document rare moments of contentment
 
-*Pattern to Watch:* You'll likely discover you're busiest when you're saddest – activity as emotional avoidance.
+_Pattern to Watch:_ You'll likely discover you're busiest when you're saddest – activity as emotional avoidance.
 
 **Week 2: Interruption Techniques**
 
 Learning to stay when you want to run.
 
-*The Pause Practice:*
+_The Pause Practice:_
 Wait 24 hours before adding new plans. Let anticipation build. Often, the desire passes.
 
-*The Feeling Completion:*
+_The Feeling Completion:_
 Let one difficult emotion fully process:
+
 - Don't distract
 - Don't reframe
 - Just feel it through
 
-*The Depth Dive:*
+_The Depth Dive:_
 Choose depth over breadth in one area:
+
 - Read one book fully vs. starting five
 - Master one skill vs. dabbling in ten
 - Have one deep conversation vs. five surface ones
@@ -780,40 +810,41 @@ Choose depth over breadth in one area:
 
 From FOMO to JOMO (Joy of Missing Out).
 
-*Morning Activation:*
+_Morning Activation:_
 "Today has everything I need for fulfillment. The treasure is here, not there."
 
-*Restlessness Moment:*
+_Restlessness Moment:_
 Instead of: "I need to escape this feeling"
 Try: "This feeling will pass if I let it. Discomfort is temporary, not terminal."
 
-*Evening Integration:*
+_Evening Integration:_
 "Staying present today revealed unexpected gifts. Depth delivered what variety promised."
 
 **Week 4: Integration Practices**
 
 Finding freedom through commitment.
 
-*The Limitation Embrace:*
+_The Limitation Embrace:_
 Set one boundary and keep it:
+
 - No plans after 9 PM
 - One weekend day with no activities
 - Phone-free mornings
 
-*The Boredom Challenge:*
+_The Boredom Challenge:_
 Sit with boredom for 10 minutes daily. No stimulation. Watch what emerges from the emptiness.
 
-*The Single Focus:*
+_The Single Focus:_
 Complete one thing fully before starting another. Feel the satisfaction of completion.
 
 **Small Experiment:** Cancel one plan tomorrow and do nothing instead. Notice what arises in the space.
 
 ### Type 7 Success Stories
 
-*Jake, Type 7, Entrepreneur:*
+_Jake, Type 7, Entrepreneur:_
 "I thought limitation would kill me. Instead, constraints made me creative. Now I do less but experience more. Quality over quantity changed everything."
 
-*Sofia, Type 7, Designer:*
+_Sofia, Type 7, Designer:_
 "The feeling completion practice was terrifying then liberating. I discovered my difficult emotions last about 90 seconds when I don't run. Now I stay, and they pass."
 
 </article>
@@ -852,28 +883,31 @@ See the pattern? Your inner critic has confused vulnerability with victimization
 
 Mapping your armor.
 
-*Daily Practice:*
+_Daily Practice:_
+
 - Track emotional suppression moments (when do you go numb?)
 - Notice when you amp up intensity to avoid softness
 - Document the cost of invulnerability (what are you missing?)
 
-*Pattern to Watch:* You'll likely discover you armor up most with people you care about most – intimacy triggers defenses.
+_Pattern to Watch:_ You'll likely discover you armor up most with people you care about most – intimacy triggers defenses.
 
 **Week 2: Interruption Techniques**
 
 Strength through softness.
 
-*The Feeling Admission:*
+_The Feeling Admission:_
 Name one emotion to someone daily:
+
 - "I'm actually nervous about this"
 - "That hurt my feelings"
 - "I'm excited about this"
 
-*The Help Request:*
+_The Help Request:_
 Ask for assistance with something you'd normally muscle through alone. Notice people like helping you.
 
-*The Soft Start:*
+_The Soft Start:_
 Lead conversations with vulnerability, not intensity:
+
 - Instead of: "This is unacceptable!"
 - Try: "I'm concerned because I care about this"
 
@@ -881,43 +915,45 @@ Lead conversations with vulnerability, not intensity:
 
 From domination to connection.
 
-*Morning Activation:*
+_Morning Activation:_
 "My vulnerability is my strength. Showing my heart takes more courage than showing my fists."
 
-*Emotional Moment:*
+_Emotional Moment:_
 Instead of: "I can't let them see this affects me"
 Try: "Feeling this fully makes me more powerful, not less."
 
-*Evening Integration:*
+_Evening Integration:_
 "I showed up authentically today. My softness didn't diminish my strength."
 
 **Week 4: Integration Practices**
 
 Power through vulnerability.
 
-*The Tenderness Practice:*
+_The Tenderness Practice:_
 One gentle gesture daily:
+
 - Soft tone of voice
 - Gentle touch
 - Patient listening
 
-*The Receiving Practice:*
+_The Receiving Practice:_
 Accept care without reciprocating:
+
 - Let someone else pay
 - Accept a compliment fully
 - Receive help without keeping score
 
-*The Fear Share:*
+_The Fear Share:_
 Tell someone what scares you. Watch them move closer, not away.
 
 **Small Experiment:** Tell someone tomorrow how they positively impact you. Be specific. Watch their face light up.
 
 ### Type 8 Success Stories
 
-*Marcus, Type 8, CEO:*
+_Marcus, Type 8, CEO:_
 "I thought vulnerability would end my leadership. My team saw me cry during a tough announcement. They said it was the moment I became a real leader to them."
 
-*Diana, Type 8, Attorney:*
+_Diana, Type 8, Attorney:_
 "The soft start changed my marriage. My husband said he'd been waiting 15 years to meet the person behind the armor. We're closer than ever."
 
 </article>
@@ -956,28 +992,31 @@ Notice the self-abandonment? Your inner critic has made you a ghost in your own 
 
 Finding yourself in the fog.
 
-*Daily Practice:*
+_Daily Practice:_
+
 - Track self-minimizing moments (when do you disappear?)
 - Notice when you merge with others' opinions
 - Document your suppressed preferences
 
-*Pattern to Watch:* You'll likely discover you have strong opinions that you've buried so deep you forgot they existed.
+_Pattern to Watch:_ You'll likely discover you have strong opinions that you've buried so deep you forgot they existed.
 
 **Week 2: Interruption Techniques**
 
 Resurrection of the self.
 
-*The Opinion Practice:*
+_The Opinion Practice:_
 Share one preference daily:
+
 - "I'd prefer Italian food"
 - "I'd rather meet at 3"
 - "I don't enjoy that show"
 
-*The Priority Check:*
+_The Priority Check:_
 Before agreeing, ask: "What do I actually want here?" Take 30 seconds to find your truth.
 
-*The Presence Claim:*
+_The Presence Claim:_
 Take up physical space:
+
 - Sit in the center, not the corner
 - Speak at full volume
 - Stand your full height
@@ -986,42 +1025,44 @@ Take up physical space:
 
 From invisible to influential.
 
-*Morning Activation:*
+_Morning Activation:_
 "My voice matters and people want to hear it. My presence improves every room I enter."
 
-*Conflict Moment:*
+_Conflict Moment:_
 Instead of: "It's not worth the conflict"
 Try: "Healthy conflict leads to deeper connection. My truth deserves expression."
 
-*Evening Integration:*
+_Evening Integration:_
 "I showed up as myself today. The world is better for my participation."
 
 **Week 4: Integration Practices**
 
 Claiming your life back.
 
-*The Disagreement Practice:*
+_The Disagreement Practice:_
 Kindly disagree once weekly:
+
 - "I see it differently"
 - "That hasn't been my experience"
 - "I have another perspective"
 
-*The Desire Declaration:*
+_The Desire Declaration:_
 State wants without justification:
+
 - "I want to go to the beach"
 - Not: "I want to go to the beach if that's okay with everyone and nobody minds and it's not too much trouble"
 
-*The Energy Direction:*
+_The Energy Direction:_
 Pursue one personal goal daily for 30 minutes. Your dreams matter.
 
 **Small Experiment:** Tomorrow, be the first to suggest where to eat. Don't ask "What does everyone want?" Say "I'd like to go to [specific place]."
 
 ### Type 9 Success Stories
 
-*Patricia, Type 9, Counselor:*
+_Patricia, Type 9, Counselor:_
 "I spent 40 years disappearing. The opinion practice terrified me. But people actually valued my perspective. They'd been waiting for me to show up."
 
-*Tom, Type 9, Manager:*
+_Tom, Type 9, Manager:_
 "I thought conflict would destroy my relationships. But when I started expressing preferences, people said I became more interesting, more real. My marriage transformed."
 
 </article>
@@ -1036,7 +1077,8 @@ You've identified your type's specific inner critic pattern. Now let's put it al
 
 **The Foundation: You can't change what you don't see.**
 
-*Daily Requirements:*
+_Daily Requirements:_
+
 1. **Morning Check-In** (2 minutes)
    - Rate your inner critic volume (1-10)
    - Note your primary emotion
@@ -1052,13 +1094,14 @@ You've identified your type's specific inner critic pattern. Now let's put it al
    - Identify your top 3 critic phrases
    - Notice when critic was loudest/quietest
 
-*Week 1 Success Metric:* You can predict when your inner critic will activate.
+_Week 1 Success Metric:_ You can predict when your inner critic will activate.
 
 ### Week 2: Interruption (Days 8-14)
 
 **The Circuit Breaker: Stopping the spiral.**
 
-*Daily Requirements:*
+_Daily Requirements:_
+
 1. **Morning Armor** (3 minutes)
    - Choose one interruption technique for the day
    - Practice it once before leaving home
@@ -1074,13 +1117,14 @@ You've identified your type's specific inner critic pattern. Now let's put it al
    - Adjust technique if needed
    - Plan tomorrow's approach
 
-*Week 2 Success Metric:* You can stop your inner critic mid-sentence 50% of the time.
+_Week 2 Success Metric:_ You can stop your inner critic mid-sentence 50% of the time.
 
 ### Week 3: Replacement (Days 15-21)
 
 **The New Software: Installing upgraded programming.**
 
-*Daily Requirements:*
+_Daily Requirements:_
+
 1. **Morning Installation** (5 minutes)
    - Say your morning activation phrase 3 times
    - Write it somewhere you'll see it
@@ -1096,13 +1140,14 @@ You've identified your type's specific inner critic pattern. Now let's put it al
    - Journal one moment you used new script
    - Notice any shifts, however small
 
-*Week 3 Success Metric:* New scripts feel less foreign, old scripts feel more optional.
+_Week 3 Success Metric:_ New scripts feel less foreign, old scripts feel more optional.
 
 ### Week 4: Integration (Days 22-30)
 
 **The New Normal: Making it stick.**
 
-*Daily Requirements:*
+_Daily Requirements:_
+
 1. **Morning Practice** (10 minutes)
    - One type-specific integration practice
    - Set daily experiment
@@ -1118,23 +1163,27 @@ You've identified your type's specific inner critic pattern. Now let's put it al
    - Share success with someone
    - Plan tomorrow's growth edge
 
-*Week 4 Success Metric:* Your new inner voice is louder than your inner critic 70% of the time.
+_Week 4 Success Metric:_ Your new inner voice is louder than your inner critic 70% of the time.
 
 ### Troubleshooting: When Things Get Hard
 
 **Days 3-5: "This isn't working"**
+
 - Normal. Your brain is resisting change.
 - Solution: Lower the bar. One tiny win counts.
 
 **Days 10-12: "This feels fake"**
+
 - Expected. New patterns feel inauthentic at first.
 - Solution: Add "I'm learning to believe that..." before affirmations.
 
 **Days 18-20: "I'm backsliding"**
+
 - Common. Growth isn't linear.
 - Solution: Progress, not perfection. You're building muscle.
 
 **Day 25+: "Is this permanent?"**
+
 - The real question.
 - Answer: With consistent practice, yes. Your brain is literally rewiring.
 
@@ -1151,6 +1200,7 @@ Let's talk about why this isn't just positive thinking bullshit. Your brain is p
 Your brain has approximately 86 billion neurons. These neurons form pathways based on repetition. Your inner critic? That's a superhighway built from years of traffic. Your new positive self-talk? That's a dirt path you're paving into a road.
 
 **The Research:**
+
 - It takes approximately 66 days for a new behavior to become automatic (Lally et al., 2010)
 - Positive self-talk activates the left prefrontal cortex, associated with emotional regulation
 - Negative self-talk triggers the amygdala, your fear center
@@ -1160,6 +1210,7 @@ Your brain has approximately 86 billion neurons. These neurons form pathways bas
 Your brain has a "default mode" – what it does when you're not actively focused. For most people, this default is negative rumination. The practices in this guide literally rewire your default mode.
 
 **Type-Specific Default Modes:**
+
 - Type 1: Scanning for imperfection
 - Type 2: Monitoring others' needs
 - Type 3: Measuring achievement
@@ -1175,6 +1226,7 @@ Your brain has a "default mode" – what it does when you're not actively focuse
 When you say something you don't believe, your brain activates the anterior cingulate cortex – the brain's "bullshit detector." This creates cognitive dissonance, actually increasing stress.
 
 **Type-specific affirmations work because:**
+
 1. They address your specific fear
 2. They're incremental and believable
 3. They build on existing neural pathways
@@ -1185,6 +1237,7 @@ When you say something you don't believe, your brain activates the anterior cing
 Why 30 days? That's approximately how long it takes to build a competing neural pathway strong enough to challenge your default. It's not magic – it's repetition creating physical changes in your brain.
 
 **The Timeline:**
+
 - Days 1-7: Conscious incompetence (aware but struggling)
 - Days 8-14: Conscious competence (can do it with effort)
 - Days 15-21: Unconscious moments (catches you by surprise)
@@ -1201,26 +1254,31 @@ Your inner critic doesn't exist in isolation. It interacts with others' inner cr
 ### The Toxic Tango: How Types Trigger Each Other
 
 **Type 1 + Type 7:**
+
 - 1's critic: "They're so irresponsible"
 - 7's critic: "They're so rigid and boring"
 - Reality: Both fearing different aspects of imperfection
 
 **Type 2 + Type 5:**
+
 - 2's critic: "They don't care about anyone"
 - 5's critic: "They're so needy and invasive"
 - Reality: Both protecting against different vulnerabilities
 
 **Type 3 + Type 9:**
+
 - 3's critic: "They have no ambition"
 - 9's critic: "They're so exhaustingly intense"
 - Reality: Both avoiding different aspects of identity
 
 **Type 4 + Type 1:**
+
 - 4's critic: "They don't understand depth"
 - 1's critic: "They're so dramatically impractical"
 - Reality: Both seeking different forms of authenticity
 
 **Type 6 + Type 8:**
+
 - 6's critic: "They're dangerously reckless"
 - 8's critic: "They're paralyzed by fear"
 - Reality: Both managing different relationships with power
@@ -1230,12 +1288,14 @@ Your inner critic doesn't exist in isolation. It interacts with others' inner cr
 When someone you care about is battling their inner critic:
 
 **Don't:**
+
 - Tell them to "just think positive"
 - Minimize their struggle
 - Share your own inner critic as comparison
 - Try to fix them
 
 **Do:**
+
 - Acknowledge their specific pattern
 - Share observations without judgment
 - Celebrate small victories
@@ -1263,16 +1323,19 @@ Transformation isn't a 30-day project – it's a lifetime practice. Here's how t
 ### The Maintenance Protocol
 
 **Daily Minimums:**
+
 - Morning activation phrase (30 seconds)
 - One interruption technique (when needed)
 - Evening integration (1 minute)
 
 **Weekly Practices:**
+
 - Review your progress journal
 - Share one success with someone
 - Identify next growth edge
 
 **Monthly Audits:**
+
 - Has your inner critic evolved new tactics?
 - Which techniques need refreshing?
 - What's your next level of growth?
@@ -1282,16 +1345,19 @@ Transformation isn't a 30-day project – it's a lifetime practice. Here's how t
 Your inner critic changes with life circumstances:
 
 **High-Stress Periods:**
+
 - Double down on interruption techniques
 - Lower expectations for perfect execution
 - Focus on harm reduction, not transformation
 
 **Stable Periods:**
+
 - Push growth edges
 - Try advanced practices
 - Help others with their inner work
 
 **Transition Periods:**
+
 - Expect inner critic resurgence
 - Return to basics
 - Be extra compassionate with yourself
@@ -1344,6 +1410,7 @@ That's it. One day. Three attempts. Pure observation.
 ### The Compound Effect
 
 If you improve your inner dialogue by just 1% daily:
+
 - After 30 days: 26% improvement
 - After 60 days: 45% improvement
 - After 90 days: 59% improvement

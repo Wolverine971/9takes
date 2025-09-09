@@ -11,7 +11,7 @@ published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'medications_and_stress'
 ---
 
 <!--
@@ -876,7 +876,7 @@ Whether you choose medication or not, consider exploring [therapy approaches tai
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/enneagram-medication-guide.webp",
+        "url": "https://9takes.com/blogs/medications_and_stress.webp",
         "width": 900
       },
       "mainEntityOfPage": {

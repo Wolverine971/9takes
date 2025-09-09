@@ -273,13 +273,13 @@
 		max-width: 1400px;
 		margin: 0 auto;
 		padding: 0 1.5rem;
-		
-		.breadcrumb {
-		margin-bottom: 2rem;
-		font-size: 0.9rem;
-		color: var(--text-secondary);
 
-		a {
+		.breadcrumb {
+			margin-bottom: 2rem;
+			font-size: 0.9rem;
+			color: var(--text-secondary);
+
+			a {
 				color: #6c5ce7;
 				text-decoration: none;
 
@@ -289,8 +289,8 @@
 			}
 
 			.separator {
-			margin: 0 0.5rem;
-		}
+				margin: 0 0.5rem;
+			}
 
 			.current {
 				color: #2d3436;
@@ -298,7 +298,7 @@
 			}
 		}
 
-			.hub-header {
+		.hub-header {
 			text-align: center;
 			margin-bottom: 4rem;
 			padding: 3rem;
@@ -320,8 +320,8 @@
 				margin: 0 auto 2rem;
 				line-height: 1.6;
 			}
-			
-					.crisis-banner {
+
+			.crisis-banner {
 				background-color: rgba(255, 255, 255, 0.1);
 				border: 2px solid rgba(255, 255, 255, 0.3);
 				padding: 1.5rem;
@@ -545,32 +545,32 @@
 					font-size: 1.25rem;
 				}
 
-			.type-resources {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-				gap: 2rem;
+				.type-resources {
+					display: grid;
+					grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+					gap: 2rem;
 
-				.vulnerability-summary,
-				.strength-summary {
-					h4 {
-						margin-bottom: 1rem;
-						font-size: 1.1rem;
-					}
+					.vulnerability-summary,
+					.strength-summary {
+						h4 {
+							margin-bottom: 1rem;
+							font-size: 1.1rem;
+						}
 
-					ul {
-						margin: 0;
-						padding-left: 1.5rem;
+						ul {
+							margin: 0;
+							padding-left: 1.5rem;
 
 							li {
 								margin-bottom: 0.5rem;
 								color: #636e72;
 								font-size: 0.9rem;
 							}
+						}
 					}
 				}
 			}
 		}
-	}
 
 		.cta-section {
 			text-align: center;
@@ -657,12 +657,12 @@
 			.navigation-cards .type-grid {
 				grid-template-columns: repeat(3, 1fr);
 			}
-			
+
 			.blog-card .card-content {
 				h3 {
 					font-size: 1rem;
 				}
-				
+
 				p {
 					font-size: 0.8rem;
 				}
@@ -674,16 +674,16 @@
 				grid-template-columns: repeat(2, 1fr);
 				gap: 0.75rem;
 			}
-			
+
 			.blog-card .card-content {
 				padding: 1rem;
-				
+
 				h3 {
 					font-size: 0.9rem;
 					-webkit-line-clamp: 2;
 					line-clamp: 2;
 				}
-				
+
 				p {
 					font-size: 0.75rem;
 					-webkit-line-clamp: 2;

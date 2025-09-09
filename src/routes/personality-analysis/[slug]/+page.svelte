@@ -34,7 +34,7 @@
 	let commentsLoaded = false;
 	let commentsVisible = false;
 	let currentPath = '';
-	
+
 	// Table of Contents support
 	const contentStore = writable('');
 	let contentObserver: MutationObserver | null = null;
@@ -77,18 +77,18 @@
 		currentPath = $page.url.pathname;
 		resetPageState();
 	}
-	
+
 	// Watch for slug changes and reinitialize content observer
 	$: if (data?.post?.slug) {
 		// Reset content store when slug changes
 		contentStore.set('');
-		
+
 		// Clean up existing observer
 		if (contentObserver) {
 			contentObserver.disconnect();
 			contentObserver = null;
 		}
-		
+
 		// Set up new observer after a short delay to ensure DOM is updated
 		if (browser) {
 			setTimeout(() => {
@@ -96,7 +96,7 @@
 			}, 100);
 		}
 	}
-	
+
 	// Also update content store directly when post content changes
 	$: if (post?.content && browser) {
 		// Wait for DOM to update with new content
@@ -140,15 +140,15 @@
 	}
 
 	let commentsObserver: IntersectionObserver;
-	
+
 	// Set up content observer for Table of Contents
 	function setupContentObserver() {
 		if (!browser) return;
-		
+
 		// Wait for next tick to ensure DOM is updated
 		tick().then(() => {
 			const node = document.querySelector('.article-body');
-			
+
 			if (!node) {
 				// Retry if node not found
 				setTimeout(setupContentObserver, 500);
@@ -157,13 +157,13 @@
 				if (contentObserver) {
 					contentObserver.disconnect();
 				}
-				
+
 				// Set initial content immediately
 				const currentContent = node.innerHTML;
 				if (currentContent && currentContent.trim() !== '') {
 					contentStore.set(currentContent);
 				}
-				
+
 				// Set up observer for future changes
 				contentObserver = new MutationObserver((mutations) => {
 					// Debounce updates to avoid excessive re-renders
@@ -173,7 +173,7 @@
 							hasRelevantChanges = true;
 						}
 					});
-					
+
 					if (hasRelevantChanges) {
 						const updatedContent = node.innerHTML;
 						if (updatedContent && updatedContent.trim() !== '') {
@@ -181,11 +181,11 @@
 						}
 					}
 				});
-				
-				contentObserver.observe(node, { 
-					childList: true, 
+
+				contentObserver.observe(node, {
+					childList: true,
 					subtree: true,
-					characterData: true 
+					characterData: true
 				});
 			}
 		});
@@ -276,9 +276,9 @@
 			subtext=""
 		/>
 	</div>
-	
-	<TableOfContents 
-		{contentStore} 
+
+	<TableOfContents
+		{contentStore}
 		pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
 		sidePosition="right"
 	/>
@@ -288,11 +288,11 @@
 	</div>
 </article>
 
-<TableOfContents 
-		{contentStore} 
-		pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
-		sidePosition="right"
-	/>
+<TableOfContents
+	{contentStore}
+	pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
+	sidePosition="right"
+/>
 
 <!-- Sidebar components - positioned absolutely -->
 <div class="sidebar-container">

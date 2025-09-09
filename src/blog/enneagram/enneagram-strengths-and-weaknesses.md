@@ -82,6 +82,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 **Core Motivation:** To feel loved and needed by others
 
 **Energizers:**
+
 - Making a tangible difference in someone's life
 - Being the "go-to" person others rely on
 - Creating warm, intimate connections
@@ -89,6 +90,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Receiving heartfelt appreciation and recognition
 
 **Drainers:**
+
 - Being overlooked or taken for granted
 - Enforcing boundaries or saying "no"
 - Working in isolation without human connection
@@ -96,6 +98,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Having their motives questioned
 
 **Natural Strengths:**
+
 - **Emotional Intelligence:** Twos read people and situations with uncanny accuracy
 - **Relationship Building:** They create trust and rapport effortlessly
 - **Anticipation:** They sense what others need before it's expressed
@@ -103,6 +106,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Crisis Support:** They show up with exactly what's needed in difficult times
 
 **Shadow Sides:**
+
 - **Boundary Blindness:** Difficulty distinguishing where they end and others begin
 - **Hidden Transactions:** Giving with unconscious strings attached
 - **Self-Neglect:** Pour from an empty cup until depletion
@@ -110,6 +114,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Identity Confusion:** Self-worth becomes dependent on being needed
 
 **Leveraging Your Type 2 Strengths:**
+
 1. **Set "helping hours":** Designate specific times for supporting others
 2. **Track your giving:** Notice patterns of over-giving to certain people
 3. **Develop expertise:** Become invaluable through skills, not just availability
@@ -129,6 +134,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 **Core Motivation:** To be valued, successful, and worthwhile
 
 **Energizers:**
+
 - Crushing ambitious goals ahead of schedule
 - Receiving public recognition for achievements
 - Outperforming the competition
@@ -136,6 +142,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Seeing measurable progress and results
 
 **Drainers:**
+
 - Working without clear metrics or goals
 - Processing emotions or "touchy-feely" activities
 - Failing publicly or visibly underperforming
@@ -143,6 +150,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Being seen as average or unsuccessful
 
 **Natural Strengths:**
+
 - **Goal Achievement:** Threes turn visions into reality with remarkable efficiency
 - **Adaptability:** They shape-shift to succeed in any environment
 - **Inspiring Leadership:** Their energy and confidence motivate others
@@ -150,6 +158,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Resilience:** Setbacks become fuel for the next achievement
 
 **Shadow Sides:**
+
 - **Image Over Substance:** Success metrics might override actual value
 - **Workaholic Tendencies:** Achievements become addictive, relationships suffer
 - **Emotional Bypass:** Feelings get postponed indefinitely for productivity
@@ -157,6 +166,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Authenticity Struggles:** The "real self" gets lost in the performance
 
 **Leveraging Your Type 3 Strengths:**
+
 1. **Define multi-dimensional success:** Include relationships and wellbeing in your KPIs
 2. **Schedule non-productive time:** Make rest and play achievements to unlock
 3. **Find meaning beyond metrics:** Connect achievements to deeper purpose
@@ -176,6 +186,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 **Core Motivation:** To find themselves and their significance
 
 **Energizers:**
+
 - Creating something original and meaningful
 - Having deep, authentic conversations
 - Being seen and understood for who they really are
@@ -183,6 +194,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Transforming pain into beauty or art
 
 **Drainers:**
+
 - Conforming to others' expectations
 - Small talk and surface-level interactions
 - Being compared to others or feeling ordinary
@@ -190,6 +202,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Repetitive tasks without creative freedom
 
 **Natural Strengths:**
+
 - **Emotional Depth:** Fours navigate complex feelings others avoid
 - **Creative Vision:** They see possibilities others can't imagine
 - **Authenticity Radar:** They spot fakeness immediately
@@ -197,6 +210,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Transformative Insight:** They alchemize suffering into wisdom
 
 **Shadow Sides:**
+
 - **Melancholic Loops:** Emotions become self-reinforcing prisons
 - **Identity Crisis:** Constant questioning of "who am I really?"
 - **Envy Patterns:** Focusing on what others have that they lack
@@ -204,6 +218,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Productivity Struggles:** Waiting for the "right mood" to act
 
 **Leveraging Your Type 4 Strengths:**
+
 1. **Create emotional containers:** Set times for feeling deeply vs. taking action
 2. **Channel intensity creatively:** Use strong emotions as creative fuel
 3. **Build a uniqueness portfolio:** Document what makes you irreplaceable
@@ -227,6 +242,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 **Core Motivation:** To be competent and understanding
 
 **Energizers:**
+
 - Deep diving into complex subjects
 - Solving problems through analysis and research
 - Having uninterrupted time to think
@@ -234,6 +250,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Building expertise in specialized areas
 
 **Drainers:**
+
 - Emotional processing in groups
 - Being put on the spot without preparation
 - Small talk and social obligations
@@ -241,6 +258,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Dealing with incompetence or illogical thinking
 
 **Natural Strengths:**
+
 - **Analytical Mastery:** Fives see patterns and connections others miss
 - **Independent Thinking:** They form conclusions based on data, not opinion
 - **Deep Expertise:** They become true subject matter experts
@@ -248,6 +266,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Innovation:** Their insights lead to breakthrough solutions
 
 **Shadow Sides:**
+
 - **Analysis Paralysis:** Endless research prevents action
 - **Emotional Detachment:** Relationships suffer from over-intellectualization
 - **Hoarding Tendency:** Knowledge, time, and energy become scarce resources
@@ -255,6 +274,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Arrogance Risk:** Expertise can breed contempt for "lesser minds"
 
 **Leveraging Your Type 5 Strengths:**
+
 1. **Set research boundaries:** Time-box investigation phases before action
 2. **Translate expertise:** Learn to communicate complex ideas simply
 3. **Schedule social energy:** Plan for interaction when you're resourced
@@ -274,6 +294,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 **Core Motivation:** To have security and support
 
 **Energizers:**
+
 - Building trusted alliances and teams
 - Preparing for contingencies and worst-cases
 - Protecting others from harm or risk
@@ -281,6 +302,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Troubleshooting potential problems
 
 **Drainers:**
+
 - Making decisions without complete information
 - Navigating conflicting authorities or advice
 - Being responsible for unpredictable outcomes
@@ -288,6 +310,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Facing ambiguous or changing rules
 
 **Natural Strengths:**
+
 - **Risk Assessment:** Sixes spot dangers others overlook
 - **Loyalty:** Their commitment to people and causes runs deep
 - **Troubleshooting:** They excel at contingency planning
@@ -295,6 +318,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Responsible Execution:** When committed, they're incredibly reliable
 
 **Shadow Sides:**
+
 - **Anxiety Spirals:** Worst-case thinking becomes self-fulfilling
 - **Authority Confusion:** Oscillating between compliance and rebellion
 - **Decision Paralysis:** Too many "what-ifs" prevent action
@@ -302,6 +326,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Trust Issues:** Suspicion undermines potentially good relationships
 
 **Leveraging Your Type 6 Strengths:**
+
 1. **Channel anxiety productively:** Turn worry into preparation, not rumination
 2. **Build a personal board of advisors:** Create your trusted authority network
 3. **Develop decision frameworks:** Use structured approaches for choices
@@ -321,6 +346,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 **Core Motivation:** To maintain happiness and avoid pain
 
 **Energizers:**
+
 - Brainstorming new possibilities and ideas
 - Starting exciting new projects
 - Connecting diverse concepts and people
@@ -328,6 +354,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Creating fun, positive experiences for others
 
 **Drainers:**
+
 - Dealing with negative emotions or conflict
 - Following strict routines or limitations
 - Focusing on one thing for extended periods
@@ -335,6 +362,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Being trapped in boring or repetitive situations
 
 **Natural Strengths:**
+
 - **Possibility Thinking:** Sevens see opportunities everywhere
 - **Contagious Enthusiasm:** Their energy lifts entire teams
 - **Quick Learning:** They rapidly synthesize new information
@@ -342,6 +370,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Innovation:** Their connections between ideas spark breakthroughs
 
 **Shadow Sides:**
+
 - **Commitment Phobia:** FOMO prevents deep engagement
 - **Emotional Avoidance:** Pain gets buried under constant activity
 - **Scattered Focus:** Multiple projects mean nothing gets finished
@@ -349,6 +378,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Superficiality Risk:** Breadth without depth limits mastery
 
 **Leveraging Your Type 7 Strengths:**
+
 1. **Create variety within structure:** Build multiple projects into one role
 2. **Gamify difficult tasks:** Make challenges into adventures
 3. **Schedule joy and depth:** Plan both fun and meaningful experiences
@@ -368,6 +398,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 **Core Motivation:** To be self-reliant and in control
 
 **Energizers:**
+
 - Taking decisive action in crisis situations
 - Fighting against injustice or unfairness
 - Building something significant from scratch
@@ -375,6 +406,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Overcoming seemingly impossible challenges
 
 **Drainers:**
+
 - Being micromanaged or controlled
 - Showing vulnerability or weakness
 - Dealing with passive-aggressive behavior
@@ -382,6 +414,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Being betrayed or manipulated
 
 **Natural Strengths:**
+
 - **Decisive Action:** Eights make tough calls others avoid
 - **Natural Authority:** People follow their confident lead
 - **Protective Instinct:** They fiercely defend their people
@@ -389,6 +422,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Resourcefulness:** They make things happen against all odds
 
 **Shadow Sides:**
+
 - **Bulldozer Mode:** Intensity overwhelms others unintentionally
 - **Vulnerability Armor:** Denying soft emotions limits intimacy
 - **Control Issues:** Delegation becomes nearly impossible
@@ -396,6 +430,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Vengeance Patterns:** Betrayals get remembered and repaid
 
 **Leveraging Your Type 8 Strengths:**
+
 1. **Calibrate your intensity:** Learn when 10% power achieves 100% results
 2. **Make vulnerability a strength:** Strategic openness builds trust
 3. **Develop others' power:** Create leaders, not followers
@@ -415,6 +450,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 **Core Motivation:** To maintain inner and outer peace
 
 **Energizers:**
+
 - Creating harmony between conflicting parties
 - Supporting others' dreams and goals
 - Being in nature or peaceful environments
@@ -422,6 +458,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Building consensus and finding common ground
 
 **Drainers:**
+
 - Direct confrontation or conflict
 - Being forced to choose sides
 - High-pressure, urgent decisions
@@ -429,6 +466,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - Feeling invisible or overlooked
 
 **Natural Strengths:**
+
 - **Mediation Magic:** Nines see all perspectives simultaneously
 - **Calming Presence:** They bring peace to chaotic situations
 - **Inclusive Leadership:** Everyone feels heard and valued
@@ -436,6 +474,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Big Picture Thinking:** They see how everything connects
 
 **Shadow Sides:**
+
 - **Conflict Avoidance:** Problems fester while being "kept peaceful"
 - **Self-Forgetting:** Others' priorities override their own
 - **Passive-Aggression:** Unexpressed anger leaks out sideways
@@ -443,6 +482,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 - **Merge Tendency:** Losing themselves in others' agendas
 
 **Leveraging Your Type 9 Strengths:**
+
 1. **Set non-negotiable priorities:** Identify what you won't compromise
 2. **Practice healthy conflict:** Learn that disagreement doesn't mean disconnection
 3. **Schedule self-check-ins:** Regularly ask "What do I want?"
@@ -483,16 +523,19 @@ Recognizing weaknesses isn't about fixing what's "wrong" with you—it's about u
 Your strengths aren't fixed—they show up differently depending on the situation:
 
 ### At Work
+
 - **Leadership roles**: Types 3, 8, and 1 naturally excel but must watch for burnout
 - **Support roles**: Types 2, 6, and 9 thrive but need boundaries
 - **Creative roles**: Types 4, 7, and 5 innovate but need structure
 
 ### In Relationships
+
 - **Intimacy**: Types 2, 4, and 9 connect deeply but may lose themselves
 - **Independence**: Types 5, 8, and 3 maintain autonomy but may distance
 - **Stability**: Types 1, 6, and 7 create different kinds of security
 
 ### During Stress
+
 - Each type has predictable stress patterns
 - Knowing yours helps you prepare and recover
 - Your weakness becomes most pronounced under pressure
@@ -502,8 +545,9 @@ Your strengths aren't fixed—they show up differently depending on the situatio
 True growth isn't about becoming a different type—it's about accessing the full spectrum of human capability while honoring your core motivation. Think of it as expanding your range rather than changing your nature.
 
 The healthiest version of each type can access:
+
 - The One's integrity without rigidity
-- The Two's compassion without codependence  
+- The Two's compassion without codependence
 - The Three's achievement without emptiness
 - The Four's depth without drowning
 - The Five's wisdom without withdrawal

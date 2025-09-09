@@ -100,24 +100,25 @@
 	description={metaDescription}
 	canonical="{domain}/book-session"
 	twitterCardType="summary_large_image"
-	ogImage={ogImage}
+	{ogImage}
 	twitterCreator={twitterHandle}
 	jsonLd={{
-		"@context": "https://schema.org",
-		"@type": "Service",
-		"name": "Enneagram Coaching by 9takes",
-		"description": "Stress-test decisions and max personality stats with personalized Enneagram coaching sessions.",
-		"provider": {
-			"@type": "Organization",
-			"name": "9takes",
-			"url": "https://9takes.com"
+		'@context': 'https://schema.org',
+		'@type': 'Service',
+		name: 'Enneagram Coaching by 9takes',
+		description:
+			'Stress-test decisions and max personality stats with personalized Enneagram coaching sessions.',
+		provider: {
+			'@type': 'Organization',
+			name: '9takes',
+			url: 'https://9takes.com'
 		},
-		"serviceType": "Personality Coaching",
-		"offers": {
-			"@type": "Offer",
-			"availability": "https://schema.org/PreOrder",
-			"price": "297",
-			"priceCurrency": "USD"
+		serviceType: 'Personality Coaching',
+		offers: {
+			'@type': 'Offer',
+			availability: 'https://schema.org/PreOrder',
+			price: '297',
+			priceCurrency: 'USD'
 		}
 	}}
 	additionalMeta={[

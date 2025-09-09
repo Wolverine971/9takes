@@ -17,7 +17,7 @@
 		{
 			id: 'nine-types',
 			title: 'The Nine Personality Types',
-			subtitle: 'Deep dive into each type\'s motivations, fears, and growth paths',
+			subtitle: "Deep dive into each type's motivations, fears, and growth paths",
 			type: 'nine-types',
 			linkTitle: 'All 9 Types'
 		},
@@ -172,7 +172,11 @@
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/enneagram-corner-card.webp"
 	additionalMeta={[
-		{ name: 'keywords', content: 'enneagram, personality types, enneagram test, personality psychology, 9 types, self-improvement, personal growth, mental health, relationships, career development, enneagram compatibility, personality assessment' },
+		{
+			name: 'keywords',
+			content:
+				'enneagram, personality types, enneagram test, personality psychology, 9 types, self-improvement, personal growth, mental health, relationships, career development, enneagram compatibility, personality assessment'
+		},
 		{ name: 'author', content: '9takes' },
 		{ property: 'article:publisher', content: 'https://9takes.com' },
 		{ property: 'og:site_name', content: '9takes' },
@@ -184,7 +188,6 @@
 	<h1 style="text-align: start;">Explore the Enneagram</h1>
 
 	<nav aria-label="Table of Contents" class="nav-section">
-		
 		<ul>
 			{#each blogSections as section}
 				<li>
@@ -267,34 +270,37 @@
 		<div class="difference-item">
 			<h3>Deep Psychological Insights</h3>
 			<p>
-				Go beyond surface-level descriptions to understand the core motivations,
-				fears, and desires that shape each personality type.
+				Go beyond surface-level descriptions to understand the core motivations, fears, and desires
+				that shape each personality type.
 			</p>
 		</div>
 		<div class="difference-item">
 			<h3>Personalized Growth Strategies</h3>
 			<p>
-				Receive specific, actionable guidance tailored to your unique
-				personality type and individual growth path.
+				Receive specific, actionable guidance tailored to your unique personality type and
+				individual growth path.
 			</p>
 		</div>
 		<div class="difference-item">
 			<h3>Research-Based Approach</h3>
 			<p>
-				Grounded in decades of psychological research and the work of leading
-				Enneagram experts and practitioners.
+				Grounded in decades of psychological research and the work of leading Enneagram experts and
+				practitioners.
 			</p>
 		</div>
 		<div class="difference-item">
 			<h3>Practical Applications</h3>
-			<p>Transform theory into practice with real-world examples, exercises, and tools for immediate implementation.</p>
+			<p>
+				Transform theory into practice with real-world examples, exercises, and tools for immediate
+				implementation.
+			</p>
 		</div>
 	</div>
 	<div class="cta-section">
 		<h3>Start Your Enneagram Journey</h3>
 		<p>
-			Whether you're new to the Enneagram or deepening your understanding,
-			we have resources to support your growth.
+			Whether you're new to the Enneagram or deepening your understanding, we have resources to
+			support your growth.
 		</p>
 		<div class="cta-buttons">
 			<a href="/enneagram-corner/subtopic/nine-types" class="cta-primary">Explore All 9 Types</a>
@@ -312,19 +318,23 @@
 			padding: 0;
 			border-radius: 0;
 		}
-		
+
 		a {
 			&::after {
 				display: none;
 			}
 		}
-		
-		h1, h2, h3, h4, p {
+
+		h1,
+		h2,
+		h3,
+		h4,
+		p {
 			margin-top: 0;
 			padding-top: 0;
 		}
 	}
-	
+
 	h1 {
 		text-align: start;
 		margin: 2rem 0 2.5rem;
@@ -333,10 +343,10 @@
 		line-height: 1.3;
 		font-weight: 700;
 	}
-	
+
 	.authority-section {
 		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
-		
+
 		border-radius: 20px;
 		padding: 3rem;
 		margin: 2rem auto;
@@ -498,16 +508,13 @@
 			gap: 1rem;
 		}
 
-		.nav-section, ul {
+		.nav-section,
+		ul {
 			margin: 0;
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
-				gap: 0.75rem;
+			gap: 0.75rem;
 		}
-
-		
-
-		
 
 		li {
 			a {
@@ -542,39 +549,37 @@
 				}
 			}
 		}
-		
+
 		// Mobile styles for 2-column grid
 		@media (max-width: 768px) {
-			
-			
 			li a {
 				padding: 1rem;
-				
+
 				.nav-title {
 					font-size: 0.95rem;
 					margin-bottom: 0.25rem;
 				}
-				
+
 				.nav-subtitle {
 					font-size: 0.8rem;
 					line-height: 1.3;
 				}
 			}
 		}
-		
+
 		@media (max-width: 480px) {
 			ul {
 				grid-template-columns: repeat(2, 1fr);
 				gap: 0.5rem;
 			}
-			
+
 			li a {
 				padding: 0.75rem;
-				
+
 				.nav-title {
 					font-size: 0.9rem;
 				}
-				
+
 				.nav-subtitle {
 					display: none; // Hide subtitle on very small screens for better readability
 				}
@@ -610,17 +615,17 @@
 		display: grid;
 		// grid-template-columns: repeat(2, 1fr);
 		grid-template-columns: repeat(3, minmax(300px, 1fr));
-			
+
 		gap: 1.5rem;
 		margin: 0;
 		padding: 0;
-		
+
 		// Regular sections always show 2 columns with 3 blogs + 1 view all = 4 items total (2x2)
 
 		&.nine-types {
 			grid-template-columns: repeat(3, 1fr);
 			gap: 1.25rem;
-			
+
 			.grid-item {
 				aspect-ratio: 1 / 1;
 			}
@@ -636,7 +641,7 @@
 		overflow: hidden;
 		position: relative;
 		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
-		
+
 		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		cursor: pointer;
@@ -661,15 +666,15 @@
 					rgba(0, 0, 0, 0.4) 100%
 				);
 			}
-			
+
 			&.no-image {
 				background: linear-gradient(135deg, #1a1a2e 0%, #2d3436 100%);
 				border-color: rgba(255, 255, 255, 0.08);
-				
+
 				.text-overlay {
 					background: transparent;
 				}
-				
+
 				&:hover {
 					background: linear-gradient(135deg, #2d3436 0%, #3d4447 100%);
 				}
@@ -683,12 +688,12 @@
 		color: inherit !important;
 		height: 100%;
 		width: 100%;
-		
+
 		// Override global blog link styles
 		&::after {
 			display: none !important;
 		}
-		
+
 		&:hover {
 			text-decoration: none !important;
 			color: inherit !important;
@@ -704,7 +709,7 @@
 		position: relative;
 		display: flex;
 		align-items: flex-end;
-		
+
 		&.has-image::after {
 			content: '';
 			position: absolute;
@@ -715,22 +720,26 @@
 			transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 			z-index: 0;
 		}
-		
+
 		&:not(.has-image) {
 			background: transparent;
 		}
 	}
-	
+
 	.pattern-overlay {
 		position: absolute;
 		inset: 0;
-		background-image: 
-			linear-gradient(45deg, rgba(255,255,255,0.02) 25%, transparent 25%),
-			linear-gradient(-45deg, rgba(255,255,255,0.02) 25%, transparent 25%),
-			linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.02) 75%),
-			linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.02) 75%);
+		background-image:
+			linear-gradient(45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%),
+			linear-gradient(-45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%),
+			linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.02) 75%),
+			linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.02) 75%);
 		background-size: 30px 30px;
-		background-position: 0 0, 0 15px, 15px -15px, -15px 0px;
+		background-position:
+			0 0,
+			0 15px,
+			15px -15px,
+			-15px 0px;
 		opacity: 1;
 		z-index: 1;
 	}
@@ -757,7 +766,7 @@
 		min-height: 50%;
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	}
-	
+
 	.no-image .text-overlay {
 		background: transparent;
 		min-height: 100%;
@@ -785,7 +794,7 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
-	
+
 	.no-image .text-overlay h3 {
 		-webkit-line-clamp: 4;
 		line-clamp: 4;
@@ -808,7 +817,7 @@
 		padding: 0 !important;
 		font-weight: 400;
 	}
-	
+
 	.no-image .text-overlay p {
 		opacity: 0.95;
 		transform: none;
@@ -819,13 +828,13 @@
 	.blog-grid-container .view-all {
 		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
 		border: 1px solid rgba(255, 255, 255, 0.08);
-		
+
 		.grid-item-content {
 			background: transparent;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			
+
 			&::after {
 				display: none;
 			}
@@ -853,12 +862,12 @@
 			line-clamp: unset;
 			overflow: visible;
 		}
-		
+
 		&:hover {
 			background: linear-gradient(135deg, #3d4447 0%, #2a2a3e 100%);
 			transform: translateY(-4px);
 			border-color: rgba(255, 255, 255, 0.15);
-			
+
 			h3 {
 				color: #a29bfe !important;
 			}
@@ -878,7 +887,7 @@
 		.blog-grid-container {
 			grid-template-columns: repeat(2, 1fr);
 			gap: 1rem;
-			
+
 			&.nine-types {
 				grid-template-columns: repeat(2, 1fr);
 			}
@@ -909,7 +918,7 @@
 		.blog-grid-container {
 			grid-template-columns: repeat(2, 1fr);
 			gap: 0.75rem;
-			
+
 			&.nine-types {
 				grid-template-columns: repeat(2, 1fr);
 			}

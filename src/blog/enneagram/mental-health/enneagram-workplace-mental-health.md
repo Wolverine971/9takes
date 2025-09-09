@@ -89,6 +89,7 @@ Each Enneagram type has:
 - Physical symptoms (back pain, TMJ)
 
 Type 1s often develop [workaholism and perfectionist addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) in the workplace, using achievement to manage their anxiety and self-criticism.
+
 - Perfectionism paralysis
 - Loss of perspective on priorities
 
