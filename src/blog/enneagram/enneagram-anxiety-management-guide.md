@@ -3,12 +3,12 @@ title: 'The Enneagram Anxiety Handbook: Decode Your Unique Anxiety Pattern'
 description: "Discover how anxiety manifests differently in each Enneagram type and learn tailored techniques that actually work for your personality. Stop using generic advice that doesn't fit."
 author: 'DJ Wayne'
 date: '2025-08-28'
-loc: 'https://9takes.com/enneagram-corner/enneagram-anxiety-management'
+loc: 'https://9takes.com/enneagram-corner/enneagram-anxiety-management-guide'
 lastmod: '2025-08-28'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
-type: ['mental-health']
+type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-who-are-stressed'
@@ -636,6 +636,7 @@ Regardless of type, when anxiety becomes overwhelming:
 - Stop helping immediately
 - Focus only on your needs for 24 hours
 - Let someone take care of you
+- Review your [love language patterns](/enneagram-corner/enneagram-love-languages) for healthier connection
 
 **Type 3 Crisis:** When achievement addiction crashes
 - Take a "failure day" - do nothing productive
@@ -656,6 +657,7 @@ Regardless of type, when anxiety becomes overwhelming:
 - Write down actual probabilities
 - Focus only on the next hour
 - Activate your support network
+- Use [trauma response understanding](/enneagram-corner/enneagram-trauma-response) to recognize patterns
 
 **Type 7 Crisis:** When running stops working
 - Stay still and let feelings complete
@@ -677,12 +679,12 @@ Regardless of type, when anxiety becomes overwhelming:
 Seek immediate professional support if:
 - Anxiety interferes with daily functioning
 - Physical symptoms persist or worsen
-- Suicidal thoughts emerge
-- Substance use increases
-- Relationships are deteriorating
+- Suicidal thoughts emerge (see our [crisis management guide](/enneagram-corner/enneagram-crisis-management-guide))
+- Substance use increases (explore [addiction recovery patterns](/enneagram-corner/enneagram-addiction-recovery))
+- Relationships are deteriorating (check our [relationship dynamics guide](/enneagram-corner/enneagram-relationship-dynamics))
 - You can't remember feeling calm
 
-Remember: Getting help isn't weakness. It's wisdom.
+Remember: Getting help isn't weakness. It's wisdom. Consider our [therapy integration guide](/enneagram-corner/enneagram-therapy-guide) for type-specific approaches.
 
 </article>
 
@@ -694,7 +696,7 @@ Managing anxiety isn't a one-time fix – it's an ongoing practice. Here's how t
 
 ### The Growth Edge Paradox
 
-Here's something counterintuitive: Your anxiety often points to your growth edge. What you avoid contains what you need.
+Here's something counterintuitive: Your anxiety often points to your growth edge. What you avoid contains what you need. This aligns with the [wings concept](/enneagram-corner/enneagram-wings-guide) where growth comes from integrating neighboring type qualities.
 
 - **Type 1:** Your growth is in imperfection
 - **Type 2:** Your growth is in receiving
@@ -869,7 +871,7 @@ Find professional support that understands your pattern
   "dateModified": "2025-08-28",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/enneagram-anxiety-management"
+    "@id": "https://9takes.com/enneagram-corner/enneagram-anxiety-management-guide"
   },
   "publisher": {
     "@type": "Organization",
