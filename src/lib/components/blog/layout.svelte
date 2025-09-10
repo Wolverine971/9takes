@@ -1,6 +1,5 @@
 <!-- src/lib/components/blog/layout.svelte -->
-<script lang="ts">
-	// Accept all props that MDsvex might pass
+<!-- <script lang="ts">
 	export let title: string = '';
 	export let description: string = '';
 	export let author: string = '';
@@ -13,7 +12,7 @@
 	export let blog: string = '';
 	export let previewHtml: string = '';
 	export let pic: string = '';
-</script>
+</script> -->
 
 <slot />
 
