@@ -60,94 +60,75 @@
 
 <style lang="scss">
 	.loading-button {
-		position: relative;
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		font-weight: 500;
-		border: none;
-		border-radius: 0.375rem;
-		cursor: pointer;
+		@apply relative inline-flex items-center justify-center gap-2 font-medium border-none rounded-md cursor-pointer whitespace-nowrap;
 		transition: all 0.2s ease;
-		white-space: nowrap;
 
 		&--primary {
-			background-color: var(--color-primary, #9c27b0);
-			color: white;
+			@apply bg-primary-700 text-white;
 
 			&:hover:not(:disabled) {
-				background-color: var(--color-primary-dark, #7b1fa2);
+				@apply bg-primary-800;
 			}
 		}
 
 		&--secondary {
-			background-color: var(--color-secondary, #e0e0e0);
-			color: var(--color-text, #333);
+			@apply bg-neutral-200 text-neutral-800;
 
 			&:hover:not(:disabled) {
-				background-color: var(--color-secondary-dark, #bdbdbd);
+				@apply bg-neutral-300;
 			}
 		}
 
 		&--danger {
-			background-color: var(--color-danger, #f44336);
-			color: white;
+			@apply bg-red-600 text-white;
 
 			&:hover:not(:disabled) {
-				background-color: var(--color-danger-dark, #d32f2f);
+				@apply bg-red-700;
 			}
 		}
 
 		&--success {
-			background-color: var(--color-success, #4caf50);
-			color: white;
+			@apply bg-green-600 text-white;
 
 			&:hover:not(:disabled) {
-				background-color: var(--color-success-dark, #388e3c);
+				@apply bg-green-700;
 			}
 		}
 
 		&--sm {
-			padding: 0.25rem 0.75rem;
-			font-size: 0.875rem;
+			@apply py-1 px-3 text-sm;
 		}
 
 		&--md {
-			padding: 0.5rem 1rem;
-			font-size: 1rem;
+			@apply py-2 px-4 text-base;
 		}
 
 		&--lg {
-			padding: 0.75rem 1.5rem;
-			font-size: 1.125rem;
+			@apply py-3 px-6 text-lg;
 		}
 
 		&--full-width {
-			width: 100%;
+			@apply w-full;
 		}
 
 		&--loading {
-			cursor: not-allowed;
-			opacity: 0.8;
+			@apply cursor-not-allowed opacity-80;
 		}
 
 		&--disabled {
-			cursor: not-allowed;
-			opacity: 0.5;
+			@apply cursor-not-allowed opacity-50;
 		}
 
 		&:disabled {
-			cursor: not-allowed;
+			@apply cursor-not-allowed;
 		}
 	}
 
 	.loading-button__spinner {
-		display: inline-flex;
-		align-items: center;
+		@apply inline-flex items-center;
 	}
 
 	.loading-button__text {
-		margin-left: 0.25rem;
+		@apply ml-1;
 	}
 </style>

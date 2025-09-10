@@ -307,7 +307,7 @@
 			gap: 1rem;
 
 			a {
-				color: #4b5563;
+				color: var(--neutral-600);
 				text-decoration: none;
 				padding: 0.5rem 0.75rem;
 				border-radius: 4px;
@@ -315,7 +315,7 @@
 
 				&:hover {
 					background-color: #f3f4f6;
-					color: #111827;
+					color: var(--neutral-800);
 				}
 
 				&.active-link {
@@ -432,12 +432,12 @@
 				font-size: 1rem;
 				font-weight: 600;
 				margin: 0;
-				color: #4b5563;
+				color: var(--neutral-600);
 			}
 
 			.count-badge {
 				background-color: #e5e7eb;
-				color: #4b5563;
+				color: var(--neutral-600);
 				font-size: 0.75rem;
 				font-weight: 600;
 				padding: 0.25rem 0.5rem;
@@ -510,7 +510,7 @@
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				color: #6b7280;
+				color: var(--neutral-600);
 
 				&:hover {
 					color: #4f46e5;

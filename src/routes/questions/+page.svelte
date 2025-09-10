@@ -251,32 +251,32 @@
 />
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
-	<div class="questions-container" class:no-animation={!transitionEnabled} in:fade={{ duration }}>
+	<div class="mx-auto max-w-6xl rounded-lg border border-neutral-200 bg-white p-4 shadow-md" class:no-animation={!transitionEnabled} in:fade={{ duration }}>
 		<!-- Header Section -->
-		<header class="questions-header">
+		<header class="mb-8 text-center">
 			{#if data?.user?.id}
-				<h1 in:fly={{ y: -20, duration, delay: 150 }}>
+				<h1 class="mb-4 text-2xl font-bold text-neutral-800" in:fly={{ y: -20, duration, delay: 150 }}>
 					Explore your psychology and those around you
 				</h1>
 			{:else}
-				<h1 in:fly={{ y: -20, duration, delay: 150 }}>
+				<h1 class="mb-4 text-2xl font-bold text-neutral-800" in:fly={{ y: -20, duration, delay: 150 }}>
 					Explore your psychology and those around you
 				</h1>
 
-				<div class="header-content" in:fly={{ y: 20, duration, delay: 300 }}>
-					<p class="header-description">
+				<div class="mt-6" in:fly={{ y: 20, duration, delay: 300 }}>
+					<p class="mx-auto mb-6 max-w-4xl text-neutral-600 leading-relaxed">
 						Welcome to 9takes, where you can ask personal questions anonymously and receive answers
 						from diverse perspectives. Our unique platform allows you to explore life's questions
 						through the lens of personality types, ensuring a rich and varied discussion.
 					</p>
-					<div class="stats-row">
-						<div class="stat">
-							<strong>{data.totalQuestions || 0}</strong>
-							<span>questions asked</span>
+					<div class="flex justify-center gap-12">
+						<div class="flex flex-col items-center gap-1">
+							<strong class="text-2xl text-primary-700">{data.totalQuestions || 0}</strong>
+							<span class="text-sm text-neutral-600">questions asked</span>
 						</div>
-						<div class="stat">
-							<strong>{data.totalAnswers || 0}</strong>
-							<span>answers shared</span>
+						<div class="flex flex-col items-center gap-1">
+							<strong class="text-2xl text-primary-700">{data.totalAnswers || 0}</strong>
+							<span class="text-sm text-neutral-600">answers shared</span>
 						</div>
 					</div>
 				</div>
@@ -284,7 +284,7 @@
 		</header>
 
 		<!-- Search Section -->
-		<div class="search-section" in:fly={{ y: 20, duration, delay: 450 }}>
+		<div class="relative z-20 mb-8" in:fly={{ y: 20, duration, delay: 450 }}>
 			<SearchQuestion
 				{data}
 				on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
@@ -297,15 +297,17 @@
 		</div>
 
 		<!-- Categories Section -->
-		<section class="categories-section" in:fly={{ y: 20, duration, delay: 600 }}>
-			<div class="categories-header">
-				<h2>Browse by Category</h2>
-				<span class="category-count">{displayedCategories.length} categories</span>
+		<section class="mb-6 rounded-xl border border-neutral-200 bg-gradient-to-b from-neutral-50 to-white p-4 shadow-sm" in:fly={{ y: 20, duration, delay: 600 }}>
+			<div class="mb-3 flex items-center justify-between">
+				<h2 class="text-base font-semibold text-neutral-800">Browse by Category</h2>
+				<span class="text-xs text-neutral-600">{displayedCategories.length} categories</span>
 			</div>
-			<div class="categories-container">
+			<div class="flex max-h-30 flex-wrap gap-1.5 overflow-y-auto p-1 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-neutral-400 scrollbar-thumb-rounded">
 				<button
-					class="category-pill"
-					class:active={selectedCategory === null}
+					class="flex-shrink-0 whitespace-nowrap rounded-full border border-neutral-300 bg-white px-3.5 py-1.5 text-sm font-medium text-neutral-800 transition-all duration-150 hover:border-primary-700 hover:bg-primary-50 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60"
+					class:!bg-primary-700={selectedCategory === null}
+					class:!text-white={selectedCategory === null}
+					class:!border-primary-700={selectedCategory === null}
 					on:click={() => filterByCategory(null)}
 					disabled={loading}
 				>
@@ -313,8 +315,10 @@
 				</button>
 				{#each displayedCategories as category (category.id)}
 					<button
-						class="category-pill"
-						class:active={selectedCategory === category.id}
+						class="flex-shrink-0 whitespace-nowrap rounded-full border border-neutral-300 bg-white px-3.5 py-1.5 text-sm font-medium text-neutral-800 transition-all duration-150 hover:border-primary-700 hover:bg-primary-50 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60"
+						class:!bg-primary-700={selectedCategory === category.id}
+						class:!text-white={selectedCategory === category.id}
+						class:!border-primary-700={selectedCategory === category.id}
 						on:click={() => filterByCategory(category.id)}
 						disabled={loading}
 					>
@@ -340,23 +344,23 @@
 		/>
 
 		<!-- Questions List -->
-		<section class="questions-section" in:fly={{ y: 20, duration, delay: 750 }}>
+		<section class="min-h-75 rounded-lg border border-neutral-200 bg-white p-5" in:fly={{ y: 20, duration, delay: 750 }}>
 			{#if loading}
 				<!-- Loading skeletons -->
-				<div class="skeleton-list">
+				<div class="flex flex-col gap-2">
 					{#each Array(5) as _, i}
 						<QuestionItemSkeleton />
 					{/each}
 				</div>
 			{:else if selectedCategory}
 				<!-- Filtered view -->
-				<div class="questions-list">
-					<h3 class="category-title">
+				<div class="flex flex-col gap-1.5">
+					<h3 class="border-b border-neutral-100 pb-1 text-base font-semibold text-neutral-800">
 						{displayedCategories.find((c) => c.id === selectedCategory)?.category_name ||
 							'Category'}
 					</h3>
 					{#if filteredQuestions.length === 0}
-						<p class="no-questions">No questions found in this category.</p>
+						<p class="py-8 text-center text-neutral-600">No questions found in this category.</p>
 					{:else}
 						{#each filteredQuestions as questionData (questionData.id)}
 							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
@@ -366,11 +370,11 @@
 			{:else}
 				<!-- Grouped by category view -->
 				{#each Object.entries(categories) as [categoryName, questions]}
-					<div class="category-group">
-						<h3 class="category-title" id={categoryName.replace(/\s+/g, '-')}>
+					<div class="mb-6 last:mb-0">
+						<h3 class="border-b border-neutral-100 pb-1 text-base font-semibold text-neutral-800 scroll-mt-4" id={categoryName.replace(/\s+/g, '-')}>
 							{categoryName}
 						</h3>
-						<div class="questions-list">
+						<div class="flex flex-col gap-1.5">
 							{#each questions as questionData (questionData.id)}
 								<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
 							{/each}
@@ -381,7 +385,7 @@
 
 			<!-- Load more trigger -->
 			{#if hasMore && !selectedCategory}
-				<div bind:this={loadMoreTrigger} class="load-more-trigger" class:loading={loadingMore}>
+				<div bind:this={loadMoreTrigger} class="flex h-20 items-center justify-center mt-4" class:loading={loadingMore}>
 					{#if loadingMore}
 						<div class="flex justify-center py-8">
 							<Spinner size="md" color="primary">Loading more questions...</Spinner>
@@ -393,16 +397,16 @@
 
 		<!-- How It Works Section (for non-users) -->
 		{#if !data?.user?.id}
-			<section class="how-it-works" in:fly={{ y: 20, duration, delay: 900 }}>
-				<h2>How It Works</h2>
-				<ol>
+			<section class="mt-8 rounded-lg border border-neutral-200 bg-neutral-50 p-6" in:fly={{ y: 20, duration, delay: 900 }}>
+				<h2 class="mb-4 text-xl font-semibold text-neutral-800">How It Works</h2>
+				<ol class="mb-6 ml-6 space-y-2 text-neutral-600">
 					<li>Anonymously answer questions to see other answers</li>
 					<li><strong>Sign up to ask your questions anonymously</strong></li>
 					<li>Receive answers from diverse perspectives</li>
 					<li>Sort comments by personality type and learn yours</li>
 				</ol>
 				<button
-					class="cta-button"
+					class="w-full rounded-lg bg-primary-700 px-6 py-4 text-lg font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2"
 					on:click={() => goToCreateQuestionPage('')}
 					aria-label="Ask your question now"
 				>
@@ -414,349 +418,6 @@
 </ErrorBoundary>
 
 <style>
-	.questions-container {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 1rem;
-		background-color: white;
-		border-radius: 0.5rem;
-		box-shadow: var(--shadow-md);
-		border: 1px solid var(--border-color);
-	}
-
-	.questions-header {
-		text-align: center;
-		margin-bottom: 2rem;
-	}
-
-	.questions-header h1 {
-		font-size: 2rem;
-		font-weight: 700;
-		margin: 1rem 0;
-		color: var(--text-primary);
-	}
-
-	.header-content {
-		margin-top: 1.5rem;
-	}
-
-	.header-description {
-		max-width: 48rem;
-		margin: 0 auto 1.5rem;
-		color: var(--text-secondary);
-		line-height: 1.6;
-	}
-
-	.stats-row {
-		display: flex;
-		justify-content: center;
-		gap: 3rem;
-		margin: 1.5rem 0;
-	}
-
-	.stat {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 0.25rem;
-	}
-
-	.stat strong {
-		font-size: 1.5rem;
-		color: var(--primary);
-	}
-
-	.stat span {
-		font-size: 0.875rem;
-		color: var(--text-secondary);
-	}
-
-	.search-section {
-		margin-bottom: 2rem;
-		position: relative;
-		z-index: 20;
-	}
-
-	.categories-section {
-		background: linear-gradient(to bottom, #f8f9fa, #ffffff);
-		border-radius: 0.75rem;
-		padding: 1rem;
-		margin-bottom: 1.5rem;
-		border: 1px solid var(--border-color);
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-	}
-
-	.categories-header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		margin-bottom: 0.75rem;
-	}
-
-	.categories-section h2 {
-		font-size: 1rem;
-		font-weight: 600;
-		color: var(--text-primary);
-		margin: 0;
-	}
-
-	.category-count {
-		font-size: 0.75rem;
-		color: var(--text-secondary);
-	}
-
-	.categories-container {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.375rem;
-		max-height: 120px;
-		overflow-y: auto;
-		padding: 0.25rem;
-		scrollbar-width: thin;
-		scrollbar-color: var(--medium-gray) transparent;
-	}
-
-	.categories-container::-webkit-scrollbar {
-		width: 6px;
-	}
-
-	.categories-container::-webkit-scrollbar-track {
-		background: transparent;
-	}
-
-	.categories-container::-webkit-scrollbar-thumb {
-		background-color: var(--medium-gray);
-		border-radius: 3px;
-	}
-
-	.categories-container::-webkit-scrollbar-thumb:hover {
-		background-color: var(--dark-gray);
-	}
-
-	.category-pill {
-		flex-shrink: 0;
-		padding: 0.375rem 0.875rem;
-		border: 1px solid #e2e8f0;
-		border-radius: 20px;
-		background-color: white;
-		color: var(--text-primary);
-		font-size: 0.8125rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.15s ease;
-		white-space: nowrap;
-		line-height: 1.3;
-	}
-
-	.category-pill:hover:not(:disabled) {
-		background-color: #f0f4ff;
-		border-color: var(--primary);
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-	}
-
-	.category-pill:disabled {
-		opacity: 0.6;
-		cursor: not-allowed;
-	}
-
-	.category-pill.active {
-		background-color: var(--primary);
-		color: white;
-		border-color: var(--primary);
-	}
-
-	.questions-section {
-		background-color: white;
-		border-radius: 0.5rem;
-		padding: 1.25rem;
-		border: 1px solid var(--border-color);
-		min-height: 300px;
-	}
-
-	.skeleton-list {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	.category-group {
-		margin-bottom: 1.5rem;
-	}
-
-	.category-group:last-child {
-		margin-bottom: 0;
-	}
-
-	.category-title {
-		font-size: 1rem;
-		font-weight: 600;
-		margin-bottom: 0.5rem;
-		color: var(--text-primary);
-		scroll-margin-top: 1rem;
-		padding: 0.25rem 0;
-		border-bottom: 1px solid #f0f0f0;
-	}
-
-	.questions-list {
-		display: flex;
-		flex-direction: column;
-		gap: 0.375rem;
-	}
-
-	.no-questions {
-		text-align: center;
-		color: var(--text-secondary);
-		padding: 2rem;
-	}
-
-	.load-more-trigger {
-		height: 80px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-top: 1rem;
-	}
-
-	.loading-spinner {
-		width: 32px;
-		height: 32px;
-		border: 3px solid var(--light-gray);
-		border-top-color: var(--primary);
-		border-radius: 50%;
-		animation: spin 0.8s linear infinite;
-	}
-
-	@keyframes spin {
-		to {
-			transform: rotate(360deg);
-		}
-	}
-
-	.how-it-works {
-		background-color: var(--lightest-gray);
-		border-radius: 0.5rem;
-		padding: 1.5rem;
-		margin-top: 2rem;
-		border: 1px solid var(--border-color);
-	}
-
-	.how-it-works h2 {
-		font-size: 1.25rem;
-		font-weight: 600;
-		margin-bottom: 1rem;
-		color: var(--text-primary);
-	}
-
-	.how-it-works ol {
-		margin: 1rem 0 1.5rem 1.5rem;
-		color: var(--text-secondary);
-	}
-
-	.how-it-works li {
-		margin-bottom: 0.5rem;
-		line-height: 1.6;
-	}
-
-	.cta-button {
-		width: 100%;
-		padding: 1rem 1.5rem;
-		background-color: var(--primary);
-		color: white;
-		border: none;
-		border-radius: 0.5rem;
-		font-size: 1.125rem;
-		font-weight: 600;
-		cursor: pointer;
-		transition: all 0.3s ease;
-	}
-
-	.cta-button:hover {
-		background-color: var(--primary-dark);
-		transform: translateY(-2px);
-		box-shadow: var(--shadow-md);
-	}
-
-	.cta-button:focus {
-		outline: 2px solid var(--primary);
-		outline-offset: 2px;
-	}
-
-	/* Mobile Styles */
-	@media (max-width: 768px) {
-		.questions-container {
-			padding: 0.5rem;
-			border-radius: 0;
-		}
-
-		.questions-header h1 {
-			font-size: 1.5rem;
-		}
-
-		.header-description {
-			font-size: 0.875rem;
-		}
-
-		.stats-row {
-			gap: 1.5rem;
-		}
-
-		.stat strong {
-			font-size: 1.25rem;
-		}
-
-		.categories-section {
-			padding: 0.75rem;
-			margin-bottom: 1rem;
-		}
-
-		.categories-header {
-			margin-bottom: 0.5rem;
-		}
-
-		.categories-section h2 {
-			font-size: 0.9375rem;
-		}
-
-		.category-count {
-			font-size: 0.6875rem;
-		}
-
-		.categories-container {
-			max-height: 100px;
-			gap: 0.25rem;
-		}
-
-		.questions-section,
-		.how-it-works {
-			padding: 1rem;
-		}
-
-		.category-pill {
-			padding: 0.3125rem 0.75rem;
-			font-size: 0.75rem;
-		}
-
-		.category-title {
-			font-size: 0.9375rem;
-			margin-bottom: 0.375rem;
-		}
-
-		.category-group {
-			margin-bottom: 1rem;
-		}
-
-		.cta-button {
-			font-size: 1rem;
-		}
-	}
-
-	@media (max-width: 576px) {
-		.stats-row {
-			flex-direction: column;
-			gap: 1rem;
-		}
-	}
-
 	/* Reduced motion */
 	.no-animation * {
 		animation: none !important;
@@ -767,6 +428,14 @@
 		* {
 			animation: none !important;
 			transition: none !important;
+		}
+	}
+
+	/* Mobile responsive adjustments for stats */
+	@media (max-width: 576px) {
+		.flex.justify-center.gap-12 {
+			flex-direction: column;
+			gap: 1rem;
 		}
 	}
 </style>

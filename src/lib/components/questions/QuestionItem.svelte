@@ -15,7 +15,7 @@
 	export let showDetails = true;
 
 	let innerWidth = 0;
-	let commentColor = '#a29bfe'; // Primary light color
+	let commentColor = '#a29bfe'; // Primary light color - will be replaced with Tailwind classes
 	let hovered = false;
 
 	// Format date using date format cache to avoid repeated calculations
@@ -79,11 +79,11 @@
 	// Memoize hover/leave handlers
 	const handleMouseEnter = () => {
 		hovered = true;
-		commentColor = '#6c5ce7'; // Primary color
+		commentColor = '#6c5ce7'; // Primary color - will be replaced with Tailwind classes
 	};
 	const handleMouseLeave = () => {
 		hovered = false;
-		commentColor = '#a29bfe'; // Primary light color
+		commentColor = '#a29bfe'; // Primary light color - will be replaced with Tailwind classes
 	};
 </script>
 
@@ -133,19 +133,16 @@
 </a>
 
 <style>
-	/* Greek-inspired styles for question cards */
+	/* Greek-inspired styles for question cards - converted to use Tailwind theme colors */
 	:global(.greek-question-card) {
-		position: relative;
-		overflow: hidden;
-		background-color: white;
-		border-left: 3px solid var(--primary-light, #a29bfe);
-		box-shadow: var(--shadow-sm);
+		@apply relative overflow-hidden bg-white shadow-sm;
+		border-left: 3px solid theme('colors.primary.400');
 	}
 
 	:global(.greek-question-card:hover) {
-		border-left: 3px solid var(--primary, #6c5ce7);
+		border-left: 3px solid theme('colors.primary.700');
 		background: linear-gradient(to right, rgba(247, 247, 255, 0.9), rgba(255, 255, 255, 1));
-		box-shadow: var(--shadow-md);
+		@apply shadow-md;
 	}
 
 	.question-content {
@@ -227,13 +224,10 @@
 	}
 
 	:global(.greek-circle) {
-		border-radius: 50%;
-		box-shadow: var(--shadow-sm);
-		border: 1px solid var(--border-color, #e3e1f0);
-		transition: all 0.3s ease;
+		@apply rounded-full shadow-sm border border-neutral-200 transition-all duration-300;
 	}
 
 	:global(.greek-question-card:hover .greek-circle) {
-		background-color: var(--primary-100, #e9e4ff) !important;
+		@apply bg-primary-100 !important;
 	}
 </style>

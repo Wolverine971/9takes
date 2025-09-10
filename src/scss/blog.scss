@@ -51,7 +51,7 @@ blockquote {
 	margin: 1.5em 0;
 	padding: 1em 1.5em;
 	border-left: 4px solid var(--primary);
-	background-color: var(--neutral-100);
+	background-color: var(--lightest-gray);
 	font-style: italic;
 	color: var(--text-primary);
 
@@ -249,8 +249,8 @@ blockquote {
 
 	/* Enhanced code blocks */
 	pre {
-		background-color: var(--neutral-50);
-		border: 1px solid var(--neutral-200);
+		background-color: var(--off-white);
+		border: 1px solid var(--light-gray);
 		border-radius: var(--border-radius-md);
 		padding: 1rem;
 		margin: 1.5rem 0;
@@ -260,7 +260,7 @@ blockquote {
 
 	/* Inline code styling */
 	code {
-		background-color: var(--neutral-100);
+		background-color: var(--lightest-gray);
 		color: var(--primary-dark);
 		padding: 0.2rem 0.4rem;
 		border-radius: var(--border-radius-sm);
@@ -275,18 +275,18 @@ blockquote {
 
 		th,
 		td {
-			border: 1px solid var(--neutral-200);
+			border: 1px solid var(--light-gray);
 			padding: 0.75rem;
 			text-align: left;
 		}
 
 		th {
-			background-color: var(--neutral-100);
+			background-color: var(--lightest-gray);
 			font-weight: 600;
 		}
 
 		tr:nth-child(even) {
-			background-color: var(--neutral-50);
+			background-color: var(--off-white);
 		}
 	}
 }

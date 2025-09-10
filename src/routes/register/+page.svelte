@@ -38,175 +38,71 @@
 	<meta property="og:image:type" content="image/png" />
 </svelte:head>
 
-<div class="container" in:fade={{ duration: 300 }}>
-	<h1 class="title" in:fly={{ y: -20, duration: 300, delay: 150 }}>
-		<a href="/login" class="inactive">Login</a> /
-		<span class="active">Register</span>
+<div class="max-w-md mx-auto mt-12 p-8 bg-white rounded-lg shadow-md" in:fade={{ duration: 300 }}>
+	<h1 class="text-center mb-8 text-3xl font-bold" in:fly={{ y: -20, duration: 300, delay: 150 }}>
+		<a href="/login" class="text-neutral-600 no-underline opacity-70 hover:opacity-100 transition-opacity duration-300">Login</a> /
+		<span class="text-primary-700 border-b-2 border-primary-700 pb-1">Register</span>
 	</h1>
 	<form
 		action="?/register"
 		method="POST"
-		class="auth-form"
+		class="flex flex-col gap-6"
 		use:enhance={handleSubmit}
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
-		<div class="form-group">
-			<label for="email">Email</label>
-			<input type="email" id="email" name="email" bind:value={email} required />
+		<div class="flex flex-col gap-2">
+			<label for="email" class="font-bold text-sm text-neutral-800">Email</label>
+			<input 
+				type="email" 
+				id="email" 
+				name="email" 
+				bind:value={email} 
+				required 
+				class="px-3 py-3 border border-neutral-300 rounded text-base transition-all duration-300 focus:outline-none focus:border-primary-700 focus:ring-2 focus:ring-primary-400/20"
+			/>
 		</div>
-		<div class="form-group">
-			<label for="password">Password</label>
-			<input type="password" id="password" name="password" bind:value={password} required />
+		<div class="flex flex-col gap-2">
+			<label for="password" class="font-bold text-sm text-neutral-800">Password</label>
+			<input 
+				type="password" 
+				id="password" 
+				name="password" 
+				bind:value={password} 
+				required 
+				class="px-3 py-3 border border-neutral-300 rounded text-base transition-all duration-300 focus:outline-none focus:border-primary-700 focus:ring-2 focus:ring-primary-400/20"
+			/>
 		</div>
-		<button type="submit" class="btn btn-primary" disabled={loading}>
+		<button 
+			type="submit" 
+			class="bg-primary-700 text-white px-5 py-3 border-none rounded-lg text-base cursor-pointer transition-all duration-300 hover:bg-primary-800 active:translate-y-px disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2" 
+			disabled={loading}
+		>
 			{#if loading}
-				<span class="loader" />
+				<span class="inline-block w-5 h-5 border-2 border-white border-b-transparent rounded-full animate-spin" />
 			{:else}
 				Register
 			{/if}
 		</button>
 	</form>
-	<div class="forgot-password" in:fly={{ y: 20, duration: 300, delay: 450 }}>
-		<a href="/forgotPassword">Forgot Password?</a>
+	<div class="text-center mt-6" in:fly={{ y: 20, duration: 300, delay: 450 }}>
+		<a href="/forgotPassword" class="text-primary-700 no-underline text-sm transition-colors duration-300 hover:text-primary-800 hover:underline">Forgot Password?</a>
 	</div>
 </div>
 
-<style lang="scss">
-	:root {
-		--primary-dark: color-mix(in srgb, var(--primary) 90%, black);
-		--primary-rgba-light: color-mix(in srgb, var(--primary) 20%, transparent);
-	}
-
-	.container {
-		max-width: 400px;
-		margin: 3rem auto;
-		padding: 2rem;
-		background-color: var(--input-background);
-		border-radius: 8px;
-		box-shadow: var(--box-shadow);
-		min-height: auto;
-	}
-
-	.title {
-		text-align: center;
-		margin-bottom: 2rem;
-		font-size: 1.8rem;
-		font-weight: bold;
-
-		.active {
-			color: var(--primary);
-			border-bottom: 2px solid var(--primary);
-			padding-bottom: 4px;
-		}
-
-		.inactive {
-			color: var(--dark-gray);
-			text-decoration: none;
-			opacity: 0.7;
-			transition: opacity 0.3s ease;
-
-			&:hover {
-				opacity: 1;
-			}
-		}
-	}
-
-	.auth-form {
-		display: flex;
-		flex-direction: column;
-		gap: 1.5rem;
-	}
-
-	.form-group {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	label {
-		font-weight: bold;
-		font-size: 0.9rem;
-		color: var(--dark-gray);
-	}
-
-	input {
-		padding: 0.75rem;
-		border: 1px solid var(--accent);
-		border-radius: 4px;
-		font-size: 1rem;
-		transition:
-			border-color 0.3s ease,
-			box-shadow 0.3s ease;
-
-		&:focus {
-			outline: none;
-			border-color: var(--primary);
-			box-shadow: 0 0 0 2px var(--primary-rgba-light);
-		}
-	}
-
-	.btn {
-		&.btn-primary {
-			&:active {
-				transform: translateY(1px);
-			}
-
-			&:disabled {
-				opacity: 0.7;
-				cursor: not-allowed;
-			}
-		}
-	}
-
-	.loader {
-		width: 20px;
-		height: 20px;
-		border: 2px solid #ffffff;
-		border-bottom-color: transparent;
-		border-radius: 50%;
-		display: inline-block;
-		box-sizing: border-box;
-		animation: rotation 1s linear infinite;
-	}
-
-	@keyframes rotation {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
-	}
-
-	.forgot-password {
-		text-align: center;
-		margin-top: 1.5rem;
-
-		a {
-			color: var(--primary);
-			text-decoration: none;
-			font-size: 0.9rem;
-			transition: color 0.3s ease;
-
-			&:hover {
-				color: var(--primary-dark);
-				text-decoration: underline;
-			}
-		}
-	}
-
+<style>
+	/* Custom styles can be added here if needed */
 	@media (max-width: 480px) {
-		.container {
+		.max-w-md {
 			margin: 1rem auto;
 			padding: 1.5rem;
 		}
 
-		.title {
+		.text-3xl {
 			font-size: 1.5rem;
 		}
 
 		input,
-		.btn {
+		button {
 			font-size: 0.9rem;
 		}
 	}

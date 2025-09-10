@@ -24,18 +24,18 @@
 	<meta property="og:image:type" content="image/png" />
 </svelte:head>
 
-<div class="container">
-	<h1 class="title">Forgot Password</h1>
+<div class="max-w-md mx-auto mt-8 p-4">
+	<h1 class="text-center mb-8 text-2xl text-primary-700">Forgot Password</h1>
 
 	{#if form?.success}
-		<div class="success-message">
+		<div class="bg-success-100 text-success-700 p-4 rounded mb-4 text-center">
 			{form.message}
 		</div>
 	{:else}
 		<form
 			action="?/forgotPass"
 			method="POST"
-			class="auth-form"
+			class="flex flex-col gap-4"
 			use:enhance={() => {
 				submitting = true;
 
@@ -45,130 +45,50 @@
 				};
 			}}
 		>
-			<div class="form-group">
-				<label for="email">Email</label>
-				<input type="email" id="email" name="email" bind:value={email} required />
+			<div class="flex flex-col gap-2">
+				<label for="email" class="font-bold text-neutral-800">Email</label>
+				<input 
+					type="email" 
+					id="email" 
+					name="email" 
+					bind:value={email} 
+					required 
+					class="p-2 border border-neutral-300 rounded focus:outline-none focus:border-primary-700 focus:ring-2 focus:ring-primary-400/20 transition-all duration-300"
+				/>
 			</div>
 
 			{#if form?.error}
-				<div class="error-message">
+				<div class="text-error-500 text-sm mb-2">
 					{form.error}
 				</div>
 			{/if}
 
-			<button type="submit" class="btn btn-primary" disabled={submitting}>
+			<button 
+				type="submit" 
+				class="bg-primary-700 text-white px-4 py-2 border-none rounded cursor-pointer text-base transition-colors duration-200 hover:bg-primary-800 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2" 
+				disabled={submitting}
+			>
 				{submitting ? 'Sending...' : 'Reset Password'}
 			</button>
 		</form>
 	{/if}
 
-	<div class="back-to-login">
-		<a href="/login">Back to Login</a>
+	<div class="text-center mt-4">
+		<a href="/login" class="text-primary-700 no-underline hover:underline">Back to Login</a>
 	</div>
 </div>
 
-<style lang="scss">
-	:root {
-		--primary-dark: color-mix(in srgb, var(--primary) 90%, black);
-	}
-
-	.container {
-		max-width: 400px;
-		margin: 2rem auto;
-		padding: 1rem;
-	}
-
-	.title {
-		text-align: center;
-		margin-bottom: 2rem;
-		font-size: 1.5rem;
-		color: var(--primary);
-	}
-
-	.auth-form {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-	}
-
-	.form-group {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	label {
-		font-weight: bold;
-	}
-
-	input {
-		padding: 0.5rem;
-		border: 1px solid var(--accent);
-		border-radius: 4px;
-	}
-
-	.btn {
-		padding: 0.5rem 1rem;
-		border: none;
-		border-radius: 4px;
-		cursor: pointer;
-		font-size: 1rem;
-		transition: background-color 0.2s;
-
-		&:disabled {
-			opacity: 0.7;
-			cursor: not-allowed;
-		}
-
-		&.btn-primary {
-			background-color: var(--primary);
-			color: white;
-
-			&:hover:not(:disabled) {
-				background-color: var(--primary-dark);
-			}
-		}
-	}
-
-	.back-to-login {
-		text-align: center;
-		margin-top: 1rem;
-
-		a {
-			color: var(--primary);
-			text-decoration: none;
-
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-	}
-
-	.error-message {
-		color: #e74c3c;
-		font-size: 0.9rem;
-		margin-bottom: 0.5rem;
-	}
-
-	.success-message {
-		background-color: #d4edda;
-		color: #155724;
-		padding: 1rem;
-		border-radius: 4px;
-		margin-bottom: 1rem;
-		text-align: center;
-	}
-
+<style>
 	@media (max-width: 480px) {
-		.container {
+		.max-w-md {
 			padding: 1rem 0.5rem;
 		}
 
-		.title {
+		.text-2xl {
 			font-size: 1.2rem;
 		}
 
-		.btn {
+		button {
 			width: 100%;
 		}
 	}

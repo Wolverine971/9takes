@@ -161,10 +161,10 @@
 	};
 </script>
 
-<canvas id="world" />
-<div class="success-div">
+<canvas id="world" class="m-0 p-0 w-screen h-screen absolute left-0 top-0 overflow-hidden" />
+<div class="min-h-[60vh] flex flex-col z-[1243434]">
 	<Card>
-		<h1 style="text-align:center">
+		<h1 class="text-center">
 			Sweet! Cannot wait to show you what we are building
 			<!-- Sweet! Cannot wait to show you what we are building -->
 		</h1>
@@ -176,24 +176,3 @@
 		<!-- <button type="button" on:click={slowDown}> slow down</button> -->
 	</Card>
 </div>
-
-<style lang="scss">
-	/* Add your styles here */
-	.success-div {
-		min-height: 60vh;
-		display: flex;
-		flex-direction: column;
-		z-index: 1243434;
-	}
-	#world {
-		margin: 0;
-		padding: 0;
-		width: 100vw;
-		height: 100vh;
-		position: absolute;
-		left: 0;
-		top: 0;
-		overflow: hidden;
-		/* background: #111; */
-	}
-</style>

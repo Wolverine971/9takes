@@ -248,7 +248,7 @@
 			margin-bottom: 1.5rem;
 			font-size: 1.875rem;
 			font-weight: 700;
-			color: #2d3436;
+			color: var(--neutral-800);
 		}
 
 		:global(h3) {
@@ -256,7 +256,7 @@
 			margin-bottom: 1rem;
 			font-size: 1.5rem;
 			font-weight: 600;
-			color: #2d3436;
+			color: var(--neutral-800);
 		}
 
 		:global(p) {
@@ -266,11 +266,11 @@
 		}
 
 		:global(blockquote) {
-			border-left: 4px solid #667eea;
+			border-left: 4px solid var(--primary-700);
 			padding-left: 1.5rem;
 			margin: 2rem 0;
 			font-style: italic;
-			color: #636e72;
+			color: var(--neutral-600);
 		}
 
 		:global(ul),

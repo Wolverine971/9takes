@@ -293,7 +293,7 @@
 		h1 {
 			font-size: 3rem;
 			font-weight: 800;
-			color: #2d3436;
+			color: var(--neutral-800);
 			margin-bottom: 1rem;
 			line-height: 1.2;
 			letter-spacing: -0.02em;
@@ -305,7 +305,7 @@
 
 		.hero-subtitle {
 			font-size: 1.25rem;
-			color: #636e72;
+			color: var(--neutral-600);
 			max-width: 700px;
 			margin: 0 auto;
 			line-height: 1.6;
@@ -322,7 +322,7 @@
 		h2 {
 			font-size: 2rem;
 			font-weight: 700;
-			color: #2d3436;
+			color: var(--neutral-800);
 			margin-bottom: 2rem;
 		}
 
@@ -388,13 +388,13 @@
 			h3 {
 				font-size: 1.75rem;
 				font-weight: 700;
-				color: #2d3436;
+				color: var(--neutral-800);
 				margin-bottom: 1rem;
 				line-height: 1.3;
 			}
 
 			p {
-				color: #636e72;
+				color: var(--neutral-600);
 				line-height: 1.6;
 				margin-bottom: 1.5rem;
 			}
@@ -419,7 +419,7 @@
 		h2 {
 			font-size: 2rem;
 			font-weight: 700;
-			color: #2d3436;
+			color: var(--neutral-800);
 			margin-bottom: 2rem;
 			text-align: center;
 		}
@@ -467,12 +467,12 @@
 				font-size: 1.25rem;
 				font-weight: 600;
 				margin-bottom: 0.5rem;
-				color: #2d3436;
+				color: var(--neutral-800);
 			}
 
 			p {
 				font-size: 0.95rem;
-				color: #636e72;
+				color: var(--neutral-600);
 				line-height: 1.4;
 			}
 		}
@@ -484,7 +484,7 @@
 		h2 {
 			font-size: 2rem;
 			font-weight: 700;
-			color: #2d3436;
+			color: var(--neutral-800);
 			margin-bottom: 2rem;
 		}
 
@@ -552,7 +552,7 @@
 			h3 {
 				font-size: 1.25rem;
 				font-weight: 600;
-				color: #2d3436;
+				color: var(--neutral-800);
 				margin-bottom: 0.75rem;
 				line-height: 1.3;
 				display: -webkit-box;
@@ -562,7 +562,7 @@
 			}
 
 			p {
-				color: #636e72;
+				color: var(--neutral-600);
 				line-height: 1.5;
 				margin-bottom: 1rem;
 				display: -webkit-box;

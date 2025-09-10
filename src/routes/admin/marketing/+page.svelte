@@ -127,7 +127,7 @@
 	.page-header {
 		margin-bottom: 2rem;
 		padding: 1.5rem;
-		background: linear-gradient(135deg, var(--primary-light, #f0f9ff) 0%, #f8fafc 100%);
+		background: linear-gradient(135deg, var(--primary-100) 0%, #f8fafc 100%);
 		border-radius: 1rem;
 		border: 1px solid var(--border-color, #e5e7eb);
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -142,7 +142,7 @@
 			margin: 0 0 0.5rem 0;
 			font-size: 2rem;
 			font-weight: 700;
-			color: var(--text-primary, #111827);
+			color: var(--neutral-800);
 			letter-spacing: -0.025em;
 
 			@media (max-width: 768px) {
@@ -153,7 +153,7 @@
 		.subtitle {
 			margin: 0;
 			font-size: 1rem;
-			color: var(--text-secondary, #6b7280);
+			color: var(--neutral-600);
 			line-height: 1.5;
 
 			@media (max-width: 768px) {

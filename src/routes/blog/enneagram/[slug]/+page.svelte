@@ -13,8 +13,8 @@
 	$: component = data.component as unknown as C;
 </script>
 
-<article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog">
-	<div style="align-items: inherit;">
+<article itemscope itemtype="https://schema.org/BlogPosting" class="blog">
+	<div>
 		<BlogPageHead data={data.frontmatter} slug={`blog/enneagram/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
 		<!-- <ArticleDescription description={data.frontmatter.description} /> -->
@@ -24,7 +24,7 @@
 	<svelte:component this={component} />
 </article>
 
-<hr style="margin: 5rem;" />
+<hr class="my-20" />
 
 <SuggestionsBlog posts={data?.posts} blogType={'Enneagram'} slugPrefix={'enneagram-corner'} />
 

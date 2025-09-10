@@ -185,7 +185,7 @@
 />
 
 <main class="enneagram-corner-page">
-	<h1 style="text-align: start;">Explore the Enneagram</h1>
+	<h1 class="text-start">Explore the Enneagram</h1>
 
 	<nav aria-label="Table of Contents" class="nav-section">
 		<ul>
@@ -338,7 +338,7 @@
 	h1 {
 		text-align: start;
 		margin: 2rem 0 2.5rem;
-		color: #2d3436;
+		color: theme('colors.gray.700');
 		font-size: 2.5rem;
 		line-height: 1.3;
 		font-weight: 700;
@@ -497,7 +497,7 @@
 			font-size: 2rem;
 			margin-bottom: 2rem;
 			text-align: center;
-			color: var(--primary);
+			color: theme('colors.primary.600');
 		}
 
 		ul {
@@ -519,11 +519,11 @@
 		li {
 			a {
 				display: block;
-				color: var(--text-color);
+				color: theme('colors.gray.700');
 				text-decoration: none;
 				padding: 1.5rem;
 				border-radius: 12px;
-				background-color: var(--card-bg-color);
+				background-color: theme('colors.white');
 				border: 2px solid transparent;
 				transition: all 0.3s ease;
 
@@ -543,7 +543,7 @@
 
 				&:hover,
 				&:focus {
-					border-color: var(--primary);
+					border-color: theme('colors.primary.600');
 					transform: translateY(-3px);
 					box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 				}

@@ -2069,7 +2069,7 @@ resentment temper violence -->
 	}
 	.emotion-div {
 		border-radius: var(--base-border-radius);
-		border: 1px solid var(--primary);
+		border: 1px solid var(--primary-700);
 		position: inherit;
 		top: 0;
 		left: 0;

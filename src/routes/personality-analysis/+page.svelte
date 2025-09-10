@@ -239,13 +239,13 @@
 		font-size: 2.5rem;
 		margin: 3rem auto 2rem;
 		max-width: 900px;
-		color: #2d3436;
+		color: theme('colors.neutral.800');
 		line-height: 1.3;
 		font-weight: 700;
 	}
 
 	.introduction {
-		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+		background: linear-gradient(135deg, theme('colors.neutral.800') 0%, theme('colors.neutral.900') 100%);
 		border-radius: 20px;
 		padding: 3rem;
 		margin: 2rem auto 3rem;
@@ -294,7 +294,7 @@
 			font-size: 1.875rem;
 			font-weight: 700;
 			margin-bottom: 2rem;
-			color: #2d3436;
+			color: theme('colors.neutral.800');
 			letter-spacing: -0.02em;
 		}
 	}
@@ -322,8 +322,8 @@
 
 		&:hover {
 			transform: translateY(-4px);
-			box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
-			border-color: rgba(108, 92, 231, 0.2);
+			box-shadow: 0 8px 24px theme('colors.primary.700' / 15%);
+			border-color: theme('colors.primary.700' / 20%);
 
 			.person-name {
 				background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.8) 100%);
@@ -359,16 +359,16 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+		background: linear-gradient(135deg, theme('colors.neutral.800') 0%, theme('colors.neutral.900') 100%);
 		border: 1px solid rgba(255, 255, 255, 0.08);
 		font-weight: 600;
 
 		&:hover {
-			background: linear-gradient(135deg, #3d4447 0%, #2a2a3e 100%);
+			background: linear-gradient(135deg, theme('colors.neutral.700') 0%, theme('colors.neutral.800') 100%);
 			border-color: rgba(255, 255, 255, 0.15);
 
 			.view-all-content {
-				color: #a29bfe;
+				color: theme('colors.primary.400');
 			}
 		}
 	}

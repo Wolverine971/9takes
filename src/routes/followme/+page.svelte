@@ -81,7 +81,7 @@
 		margin: 1em;
 	}
 	a {
-		color: var(--primary-dark);
+		color: var(--primary-700);
 		align-items: center;
 		overflow: hidden;
 

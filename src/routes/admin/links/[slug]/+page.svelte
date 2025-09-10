@@ -331,7 +331,7 @@
 
 		h2 {
 			font-size: 1.25rem;
-			color: #4b5563;
+			color: var(--neutral-600);
 		}
 	}
 
@@ -353,16 +353,16 @@
 	}
 
 	.selected-question {
-		background: #f9fafb;
+		background: var(--neutral-50);
 		padding: 1rem;
 		border-radius: 4px;
-		border: 1px solid #e5e7eb;
+		border: 1px solid var(--neutral-200);
 		margin-bottom: 1.5rem;
 
 		h3 {
 			margin-bottom: 0.5rem;
 			font-size: 1rem;
-			color: #4b5563;
+			color: var(--neutral-600);
 		}
 
 		p {
@@ -376,10 +376,10 @@
 	}
 
 	.statistics {
-		background: #f9fafb;
+		background: var(--neutral-50);
 		padding: 1rem;
 		border-radius: 4px;
-		border: 1px solid #e5e7eb;
+		border: 1px solid var(--neutral-200);
 		margin-bottom: 1.5rem;
 
 		h2 {
@@ -399,7 +399,7 @@
 
 			.stat-label {
 				font-weight: 500;
-				color: #4b5563;
+				color: var(--neutral-600);
 				margin-bottom: 0.25rem;
 			}
 
@@ -419,7 +419,7 @@
 	}
 
 	.info-message {
-		color: #6b7280;
+		color: var(--neutral-600);
 		font-style: italic;
 		margin: 0.5rem 0 0;
 	}
@@ -458,22 +458,22 @@
 	}
 
 	.btn-primary {
-		background: #4f46e5;
+		background: var(--primary-700);
 		color: white;
 		border: none;
 
 		&:hover:not(:disabled) {
-			background: #4338ca;
+			background: var(--primary-800);
 		}
 	}
 
 	.btn-secondary {
-		background: #f3f4f6;
-		color: #1f2937;
-		border: 1px solid #d1d5db;
+		background: var(--neutral-100);
+		color: var(--neutral-800);
+		border: 1px solid var(--neutral-300);
 
 		&:hover:not(:disabled) {
-			background: #e5e7eb;
+			background: var(--neutral-200);
 		}
 	}
 

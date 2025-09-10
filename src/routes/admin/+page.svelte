@@ -342,11 +342,11 @@
 	.page-header h1 {
 		font-size: 2rem;
 		margin: 0 0 0.5rem 0;
-		color: var(--text-primary);
+		color: theme('colors.neutral.800');
 	}
 
 	.subtitle {
-		color: var(--text-secondary);
+		color: theme('colors.neutral.600');
 		margin: 0;
 	}
 
@@ -359,9 +359,9 @@
 	}
 
 	.stat-card {
-		background-color: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background-color: white;
+		border: 1px solid theme('colors.neutral.200');
+		border-radius: theme('borderRadius.lg');
 		padding: 1.5rem;
 		display: flex;
 		align-items: center;
@@ -373,7 +373,7 @@
 
 	.stat-card:hover {
 		transform: translateY(-2px);
-		box-shadow: var(--shadow-md);
+		box-shadow: theme('boxShadow.md');
 	}
 
 	.stat-icon {
@@ -384,7 +384,7 @@
 	.stat-content h3 {
 		margin: 0 0 0.5rem 0;
 		font-size: 0.875rem;
-		color: var(--text-secondary);
+		color: theme('colors.neutral.600');
 		font-weight: 500;
 	}
 
@@ -392,13 +392,13 @@
 		margin: 0;
 		font-size: 1.75rem;
 		font-weight: 600;
-		color: var(--primary);
+		color: theme('colors.primary.700');
 	}
 
 	.stat-change {
 		margin: 0.25rem 0 0 0;
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: theme('colors.neutral.600');
 	}
 
 	.secondary-stats {

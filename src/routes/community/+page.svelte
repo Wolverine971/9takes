@@ -33,7 +33,7 @@
 					<a
 						href={`/community/${blog.slug}`}
 						class="blog-card {!blog.pic ? 'no-image' : 'has-image'}"
-						style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
+						style:background-image={blog.pic ? `url(/blogs/s-${blog.pic}.webp)` : null}
 					>
 						<div class="card-content">
 							<h3>
@@ -55,7 +55,7 @@
 					<a
 						href={`/community/${blog.slug}`}
 						class="blog-card {!blog.pic ? 'no-image' : 'has-image'}"
-						style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
+						style:background-image={blog.pic ? `url(/blogs/s-${blog.pic}.webp)` : null}
 					>
 						<div class="card-content">
 							<h3>
@@ -103,7 +103,7 @@
 			text-align: center;
 			margin-bottom: 4rem;
 			padding: 3rem;
-			background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
+			background: linear-gradient(135deg, theme('colors.gray.700') 0%, theme('colors.gray.800') 100%);
 			border-radius: 20px;
 			color: white;
 

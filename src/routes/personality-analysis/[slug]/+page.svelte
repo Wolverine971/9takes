@@ -387,7 +387,7 @@
 	.section-divider {
 		margin: 5rem 0;
 		border: 0;
-		border-top: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
+		border-top: 1px solid theme('colors.gray.200');
 	}
 
 	.join {
@@ -401,14 +401,14 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: var(--neutral-100);
+		background-color: theme('colors.gray.100');
 	}
 
 	.loading-spinner {
 		width: 30px;
 		height: 30px;
-		border: 3px solid var(--neutral-200);
-		border-top: 3px solid var(--primary);
+		border: 3px solid theme('colors.gray.200');
+		border-top: 3px solid theme('colors.primary.600');
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
 	}

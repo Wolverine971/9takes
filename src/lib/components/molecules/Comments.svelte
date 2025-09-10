@@ -178,7 +178,8 @@
 		}
 	}
 	:global(.skeleton) {
-		--skeleton-bg: #f3f4f6;
-		--skeleton-bg-dark: #374151;
+		/* Use Tailwind color tokens instead of hardcoded hex values */
+		--skeleton-bg: theme('colors.gray.100');
+		--skeleton-bg-dark: theme('colors.gray.700');
 	}
 </style>

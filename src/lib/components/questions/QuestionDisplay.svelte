@@ -21,8 +21,8 @@
 		quality: 0.7,
 		margin: 1,
 		color: {
-			dark: '#333333',
-			light: '#ffffff'
+			dark: 'rgb(55, 65, 81)', // equivalent to text-neutral-700
+			light: 'rgb(255, 255, 255)' // white
 		}
 	};
 

@@ -33,7 +33,7 @@
 		margin: 1,
 		color: {
 			dark: '',
-			light: '#c1c0c036'
+			light: 'rgba(193, 192, 192, 0.21)'
 		}
 	};
 
