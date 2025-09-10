@@ -224,7 +224,7 @@
 	}
 
 	:global(.greek-circle) {
-		@apply rounded-full shadow-sm border border-neutral-200 transition-all duration-300;
+		@apply rounded-full border border-neutral-200 shadow-sm transition-all duration-300;
 	}
 
 	:global(.greek-question-card:hover .greek-circle) {

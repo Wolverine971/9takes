@@ -208,35 +208,35 @@
 <svelte:window bind:innerWidth />
 
 <div class="my-4 flex flex-col gap-4">
-	<div class="flex flex-wrap gap-3 sm:gap-2">
+	<div class="flex flex-wrap gap-3">
 		<button
 			title="Comment"
-			class="flex flex-1 cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-700 px-5 py-3 text-sm font-semibold text-white transition-all duration-200 hover:-translate-y-px hover:bg-primary-800 hover:shadow-sm sm:flex-1 sm:px-2 md:px-4 md:py-2.5"
+			class="flex items-center justify-center gap-2 rounded-lg bg-primary-600 px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:bg-primary-700 active:scale-[0.98]"
 			on:click={() => (commenting = !commenting)}
 			aria-label={commenting ? 'Hide comment box' : 'Write a comment'}
 		>
 			<MasterCommentIcon
-				iconStyle={'padding: 0.25rem;'}
-				height={'1.5rem'}
+				iconStyle={'padding: 0;'}
+				height={'1.25rem'}
 				fill={'currentColor'}
 				type={comment?.length ? 'full' : 'empty'}
 			/>
-			<span class="whitespace-nowrap sm:hidden">Comment</span>
+			<span class="whitespace-nowrap">Comment</span>
 		</button>
 
 		{#if parentType === 'question'}
 			<button
 				title={subscriptions.some((e) => e.user_id === user?.id) ? 'Unsubscribe' : 'Subscribe'}
-				class="flex items-center justify-center gap-2 border border-neutral-200 px-5 py-3 sm:flex-1 sm:px-2 md:px-4 md:py-2.5 {subscriptions.some(
+				class="flex items-center justify-center gap-2 rounded-lg border px-5 py-2.5 text-sm font-medium transition-all duration-200 active:scale-[0.98] {subscriptions.some(
 					(e) => e.user_id === user?.id
 				)
-					? 'border-primary-500 bg-primary-100 text-primary-800'
-					: 'bg-neutral-100 text-neutral-600'} cursor-pointer rounded text-sm font-medium transition-all duration-200 hover:bg-neutral-200 hover:text-neutral-900"
+					? 'border-primary-500 bg-primary-50 text-primary-700 hover:bg-primary-100'
+					: 'border-neutral-300 bg-white text-neutral-700 hover:bg-neutral-50'}"
 				on:click={toggleSubscription}
 				aria-label={subscriptions.some((e) => e.user_id === user?.id) ? 'Unsubscribe' : 'Subscribe'}
 			>
-				<BellIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={'currentColor'} />
-				<span class="whitespace-nowrap sm:hidden">
+				<BellIcon iconStyle={'padding: 0;'} height={'1.25rem'} fill={'currentColor'} />
+				<span class="whitespace-nowrap">
 					{subscriptions.some((e) => e.user_id === user?.id) ? 'Subscribed' : 'Subscribe'}
 				</span>
 			</button>
@@ -244,7 +244,7 @@
 			{#if qrCodeUrl && innerWidth > 576}
 				<button
 					title="Share via QR Code"
-					class="flex cursor-pointer items-center justify-center gap-2 rounded border border-neutral-200 bg-neutral-100 px-5 py-3 text-sm font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-200 hover:text-neutral-900 md:px-4 md:py-2.5"
+					class="flex items-center justify-center gap-2 rounded-lg border border-neutral-300 bg-white px-5 py-2.5 text-sm font-medium text-neutral-700 transition-all duration-200 hover:bg-neutral-50 active:scale-[0.98]"
 					on:click={openQRModal}
 					aria-label="Share via QR Code"
 				>
@@ -260,56 +260,65 @@
 	</div>
 
 	{#if commenting}
-		<div
-			class="flex flex-col gap-4 rounded-lg border border-neutral-300 bg-neutral-50 p-4"
-			in:slide={{ duration: 300 }}
-		>
-			<div
-				class="textarea-container"
-				data-replicated-value={comment}
-				style="--text-height: {textareaHeight};"
-			>
-				<textarea
-					placeholder={parentType === 'question'
-						? "What's your perspective on this question? Share your thoughts..."
-						: 'Write your reply...'}
-					class="w-full resize-none overflow-y-auto rounded-sm border border-neutral-200 bg-white text-neutral-900 placeholder:text-neutral-600 placeholder:opacity-70 focus:border-primary-700 focus:shadow-[0_0_0_2px_theme(colors.primary.100)] focus:outline-none"
-					bind:value={comment}
-					id="comment-box"
-					rows="3"
-					on:input={handleTextareaInput}
-					on:keydown={handleKeydown}
-				></textarea>
-			</div>
-			<div class="flex justify-end gap-3 sm:flex-col">
-				{#if data?.flags?.userHasAnswered}
-					<button
-						class="cursor-pointer rounded border border-neutral-400 bg-transparent px-6 py-3 font-semibold text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900 sm:px-4 sm:py-2.5"
-						type="button"
-						on:click={() => {
-							commenting = false;
-							comment = '';
-						}}
-					>
-						Cancel
-					</button>
-				{/if}
-				<button
-					class="flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-700 px-6 py-3 font-semibold text-white transition-all duration-200 hover:-translate-y-px hover:bg-primary-800 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60 sm:px-4 sm:py-2.5"
-					type="button"
-					on:click={createComment}
-					disabled={!comment.trim() || loading}
-					id="comment-button"
+		<div class="rounded-lg border border-neutral-200 bg-white" in:slide={{ duration: 300 }}>
+			<div class="p-4">
+				<div
+					class="textarea-container"
+					data-replicated-value={comment}
+					style="--text-height: {textareaHeight};"
 				>
-					{#if loading}
-						<div
-							class="h-5 w-5 animate-spin rounded-full border-2 border-white/30 border-t-white"
-						/>
+					<textarea
+						placeholder={parentType === 'question'
+							? "What's your perspective on this question? Share your thoughts..."
+							: 'Write your reply...'}
+						class="w-full resize-none overflow-y-auto rounded-md border border-neutral-300 px-3 py-2 text-sm leading-relaxed text-neutral-900 placeholder:text-neutral-500 focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500"
+						bind:value={comment}
+						id="comment-box"
+						rows="3"
+						on:input={handleTextareaInput}
+						on:keydown={handleKeydown}
+					></textarea>
+				</div>
+			</div>
+			<div
+				class="flex items-center justify-between border-t border-neutral-200 bg-neutral-50 px-4 py-3"
+			>
+				<span class="text-xs text-neutral-500">
+					{#if comment.length > 0}
+						{comment.length} characters
 					{:else}
-						{parentType === 'question' ? 'Send it' : 'Reply'}
-						<RightIcon iconStyle={'margin-left: .5rem;'} height={'1.5rem'} fill={'white'} />
+						Press Ctrl+Enter to submit
 					{/if}
-				</button>
+				</span>
+				<div class="flex gap-2">
+					{#if data?.flags?.userHasAnswered}
+						<button
+							class="rounded-md border border-neutral-300 bg-white px-4 py-1.5 text-sm font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-50 active:scale-[0.98]"
+							type="button"
+							on:click={() => {
+								commenting = false;
+								comment = '';
+							}}
+						>
+							Cancel
+						</button>
+					{/if}
+					<button
+						class="flex items-center justify-center gap-2 rounded-md bg-primary-600 px-4 py-1.5 text-sm font-medium text-white transition-all duration-200 hover:bg-primary-700 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
+						type="button"
+						on:click={createComment}
+						disabled={!comment.trim() || loading}
+						id="comment-button"
+					>
+						{#if loading}
+							<div
+								class="h-3.5 w-3.5 animate-spin rounded-full border-2 border-white/30 border-t-white"
+							/>
+						{:else}
+							{parentType === 'question' ? 'Post Comment' : 'Reply'}
+						{/if}
+					</button>
+				</div>
 			</div>
 		</div>
 	{/if}
@@ -318,8 +327,8 @@
 <!-- QR Code Modal -->
 <Modal2 id="qr-modal">
 	<div class="mx-auto flex max-w-md flex-col items-center p-8 text-center sm:p-6">
-		<div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-primary-100">
-			<svg class="h-8 w-8 text-primary-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+		<div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-neutral-100">
+			<svg class="h-7 w-7 text-neutral-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 				<path
 					stroke-linecap="round"
 					stroke-linejoin="round"
@@ -329,20 +338,20 @@
 			</svg>
 		</div>
 
-		<h2 class="mb-2 text-2xl font-bold text-neutral-900">Share This Question</h2>
-		<p class="mb-8 text-base text-neutral-600">Scan the QR code to share with others</p>
+		<h2 class="mb-2 text-2xl font-semibold text-neutral-900">Share This Question</h2>
+		<p class="mb-8 text-sm text-neutral-600">Scan the QR code to share with others</p>
 
-		<div class="mb-8 rounded-2xl bg-gradient-to-br from-primary-50 to-primary-100 p-8 shadow-lg">
-			<div class="rounded-xl bg-white p-4 shadow-inner">
+		<div class="mb-8 rounded-3xl bg-gradient-to-b from-neutral-50 to-neutral-100 p-6">
+			<div class="rounded-2xl bg-white p-4 shadow-sm">
 				<img
 					src={qrCodeUrl}
 					alt="Share question QR code"
-					class="h-[220px] w-[220px] sm:h-[180px] sm:w-[180px]"
+					class="h-[200px] w-[200px] sm:h-[160px] sm:w-[160px]"
 				/>
 			</div>
 		</div>
 
-		<div class="flex items-center gap-2 text-sm text-neutral-500">
+		<div class="flex items-center gap-2 text-xs text-neutral-500">
 			<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 				<path
 					stroke-linecap="round"

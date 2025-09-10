@@ -1,7 +1,6 @@
 <!-- src/lib/components/icons/cameraIcon.svelte -->
 <script>
 	export let className = '';
-
 	export let height = '1rem';
 	export let fill = 'var(--dark-gray)';
 	export let iconStyle = '';

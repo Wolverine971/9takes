@@ -245,7 +245,11 @@
 	}
 
 	.introduction {
-		background: linear-gradient(135deg, theme('colors.neutral.800') 0%, theme('colors.neutral.900') 100%);
+		background: linear-gradient(
+			135deg,
+			theme('colors.neutral.800') 0%,
+			theme('colors.neutral.900') 100%
+		);
 		border-radius: 20px;
 		padding: 3rem;
 		margin: 2rem auto 3rem;
@@ -359,12 +363,20 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: linear-gradient(135deg, theme('colors.neutral.800') 0%, theme('colors.neutral.900') 100%);
+		background: linear-gradient(
+			135deg,
+			theme('colors.neutral.800') 0%,
+			theme('colors.neutral.900') 100%
+		);
 		border: 1px solid rgba(255, 255, 255, 0.08);
 		font-weight: 600;
 
 		&:hover {
-			background: linear-gradient(135deg, theme('colors.neutral.700') 0%, theme('colors.neutral.800') 100%);
+			background: linear-gradient(
+				135deg,
+				theme('colors.neutral.700') 0%,
+				theme('colors.neutral.800') 100%
+			);
 			border-color: rgba(255, 255, 255, 0.15);
 
 			.view-all-content {

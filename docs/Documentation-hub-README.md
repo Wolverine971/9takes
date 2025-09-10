@@ -28,6 +28,7 @@ Essential strategy and planning documents for the project.
 Complete content strategy across all domains (627+ total content items):
 
 #### Primary Domains:
+
 - [00-master-index.md](./domain-authority/00-master-index.md) - **MASTER STRATEGY** (Start here!)
 - [01-enneagram-core.md](./domain-authority/01-enneagram-core.md) - 🟢 Core Knowledge (67 posts)
 - [02-personality-maxing.md](./domain-authority/02-personality-maxing.md) - 🔴 Self-optimization (8 posts - CRITICAL GAP)
@@ -37,6 +38,7 @@ Complete content strategy across all domains (627+ total content items):
 - [06-social-dynamics.md](./domain-authority/06-social-dynamics.md) - 🟡 Social Intelligence (12 posts)
 
 #### Specialty Domains:
+
 - [07-pop-culture-celebrities.md](./domain-authority/07-pop-culture-celebrities.md) - 🟢 **DOMINANT** (284 in database!)
 - [08-community-engagement.md](./domain-authority/08-community-engagement.md) - 🟡 Platform & Q&A (25 posts)
 - [09-guides-resources.md](./domain-authority/09-guides-resources.md) - 🟡 Practical Guides (18 guides)
@@ -147,7 +149,7 @@ Older documents and audits for reference.
 ### CRITICAL - This Week (Sept 9-15):
 
 1. **URGENT:** Fix relationship gap (1.7% → 5% minimum)
-2. **URGENT:** Fix optimization gap (2.3% → 5% minimum)  
+2. **URGENT:** Fix optimization gap (2.3% → 5% minimum)
 3. **Complete:** 3 ready outlines from drafts
 4. **Continue:** Twitter Phase 1 + Reddit value strategy
 5. **Track:** Daily progress in `/docs/daily-progress/`

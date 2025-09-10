@@ -136,11 +136,13 @@ Building a new content vertical analyzing pop culture through the Enneagram lens
 ### Daily Workflow Integration
 
 **Morning:**
+
 - Check `/docs/daily-progress/[yesterday]-summary.md`
 - Review this START-HERE.md for priorities
 - Check `/docs/domain-authority/00-master-index.md` for gaps
 
 **Evening:**
+
 - Create `/docs/daily-progress/[today]-summary.md`
 - Update completed items in START-HERE.md
 - Note tomorrow's priorities
@@ -372,17 +374,20 @@ site:reddit.com "[celebrity name]" ("toxic" OR "narcissist" OR "personality") af
 ### Daily Core Tasks
 
 **Morning (9-11 AM):**
+
 - Check yesterday's `/docs/daily-progress/` summary
 - Twitter: Post scheduled content (Phase 1)
 - Reddit: 15-min scan + 3 value comments
 - START critical gap content (relationship or optimization)
 
 **Afternoon (2-5 PM):**
+
 - FOCUS: Complete 1 critical gap post
 - Twitter: Engage with big accounts
 - Reddit: Deep value post if applicable
 
 **Evening (5-6 PM):**
+
 - Create today's `/docs/daily-progress/[date]-summary.md`
 - Update START-HERE.md progress
 - Prep tomorrow's social content

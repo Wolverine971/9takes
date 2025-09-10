@@ -355,8 +355,8 @@
 <svelte:window bind:innerWidth />
 
 {#if _commentComment}
-	<Card
-		className="bg-white rounded-lg shadow-md border border-neutral-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 md:mb-3"
+	<div
+		class="group relative overflow-hidden rounded-lg border border-neutral-200 bg-white transition-all duration-200 hover:border-neutral-300 hover:shadow-sm"
 	>
 		<div
 			class="flex flex-col"
@@ -366,34 +366,31 @@
 		>
 			<div class="flex w-full flex-col">
 				<!-- Comment Header and Content -->
-				<div class="p-4 pb-2" id="comment-box{_commentComment.id}">
+				<div class="p-4" id="comment-box{_commentComment.id}">
 					<!-- User Badge and Timestamp -->
 					<div class="mb-3 flex items-start justify-between">
 						<div class="flex items-center gap-3">
 							{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
 								<a
 									title="View profile"
-									class="inline-flex h-9 min-w-[90px] items-center justify-center rounded-sm bg-gradient-to-br from-primary-700 to-primary-800 text-center text-sm font-semibold text-white no-underline transition-all duration-200 hover:-translate-y-0.5 hover:shadow-sm sm:h-8 sm:min-w-[70px] sm:text-xs"
+									class="inline-flex h-8 items-center justify-center rounded-md bg-primary-600 px-3 text-xs font-semibold text-white transition-all duration-200 hover:bg-primary-700"
 									href={`/users/${_commentComment.profiles.external_id}`}
 								>
-									{_commentComment?.profiles?.enneagram || 'Rando'}
+									Type {_commentComment?.profiles?.enneagram || 'Rando'}
 								</a>
 							{:else}
 								<span
-									class="inline-flex h-9 min-w-[90px] items-center justify-center sm:h-8 sm:min-w-[70px] {_commentComment
-										?.profiles?.external_id
-										? ''
-										: 'opacity-70'} rounded-sm bg-neutral-200 text-center text-sm font-semibold text-neutral-600 sm:text-xs"
+									class="inline-flex h-8 items-center justify-center rounded-md bg-neutral-100 px-3 text-xs font-medium text-neutral-600"
 								>
-									Rando
+									Anonymous
 								</span>
 							{/if}
 
 							<!-- Timestamp -->
-							<span class="flex items-center gap-1 text-xs text-neutral-600">
+							<span class="flex items-center gap-1.5 text-xs text-neutral-500">
 								{#if _commentComment.modified_at}
 									<span
-										class="inline-flex h-4 w-4 items-center justify-center rounded-full bg-primary-100 text-xs font-bold text-primary-800"
+										class="inline-flex h-3.5 w-3.5 items-center justify-center rounded bg-amber-100 text-[9px] font-bold text-amber-700"
 										title="Modified">M</span
 									>
 								{/if}
@@ -409,7 +406,7 @@
 						<div
 							class="block {isExpanded
 								? ''
-								: 'max-h-[4.5em] overflow-hidden'} relative whitespace-pre-line leading-6 text-neutral-900 transition-all duration-300"
+								: 'max-h-[4.5em] overflow-hidden'} relative whitespace-pre-line text-sm leading-relaxed text-neutral-700 transition-all duration-200"
 							itemprop="text"
 						>
 							{_commentComment.comment}
@@ -418,10 +415,10 @@
 						{#if shouldTruncate && !isExpanded}
 							<button
 								type="button"
-								class="z-10 mt-1 cursor-pointer rounded border border-neutral-300 px-2 py-1 text-xs text-primary-700 transition-all duration-200 hover:text-primary-800 hover:underline"
+								class="mt-1 text-sm font-medium text-primary-600 transition-all duration-200 hover:text-primary-700"
 								on:click={toggleExpandText}
 							>
-								Read More
+								Read more
 							</button>
 						{/if}
 					</div>
@@ -430,16 +427,16 @@
 					<div class="-ml-2 -mr-2 flex items-center gap-1">
 						<button
 							title={likes.some((e) => e.user_id === user?.id) ? 'Unlike' : 'Like'}
-							class="flex items-center gap-2 border-none bg-transparent px-3 py-2 {likes.some(
+							class="flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm transition-all duration-200 {likes.some(
 								(e) => e.user_id === user?.id
 							)
-								? 'bg-primary-50 text-primary-600'
-								: 'text-neutral-600'} cursor-pointer rounded text-sm transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
+								? 'bg-primary-50 text-primary-700'
+								: 'text-neutral-600 hover:bg-neutral-50'}"
 							on:click={toggleLike}
 						>
-							<ThumbsUpIcon className="w-4 h-4" />
+							<ThumbsUpIcon className="w-3.5 h-3.5" />
 							{#if likes.length}
-								<span itemprop="upvoteCount" class="font-medium">
+								<span itemprop="upvoteCount">
 									{likes.length}
 								</span>
 							{:else}
@@ -449,45 +446,47 @@
 
 						<button
 							title="Reply"
-							class="flex cursor-pointer items-center gap-2 rounded border-none bg-transparent px-3 py-2 text-sm text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
+							class="flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm text-neutral-600 transition-all duration-200 hover:bg-neutral-50"
 							on:click={() => (commenting = !commenting)}
 						>
 							<MasterCommentIcon
-								className="w-4 h-4"
+								className="w-3.5 h-3.5"
 								type={_commentComment.comments?.length ? 'full' : 'empty'}
 							/>
 							<span>Reply</span>
 						</button>
 
 						<div class="ml-auto">
-							<Popover>
-								<div
-									slot="icon"
-									class="flex h-8 w-8 cursor-pointer items-center justify-center rounded transition-colors duration-200 hover:bg-neutral-100"
-								>
-									<SettingsIcon className="w-4 h-4 text-neutral-600" />
-								</div>
-
-								<div
-									slot="popoverValue"
-									class="left-auto right-0 z-[100] min-w-[180px] p-2 md:right-0 md:w-[200px]"
-								>
-									{#if user?.id === _commentComment.author_id}
-										<button
-											class="w-full cursor-pointer rounded border-none bg-transparent p-2 text-left text-sm text-neutral-900 transition-colors duration-200 hover:bg-neutral-100"
-											on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
-										>
-											Edit Comment
-										</button>
-									{/if}
-
-									<button
-										class="w-full cursor-pointer rounded border-none bg-transparent p-2 text-left text-sm text-error-500 transition-colors duration-200 hover:bg-neutral-100"
-										on:click={openFlagModal}
+							<Popover position="bottom-right">
+								<svelte:fragment slot="icon">
+									<div
+										class="flex h-8 w-8 items-center justify-center rounded-lg transition-colors duration-200 hover:bg-neutral-100"
 									>
-										Flag Comment
-									</button>
-								</div>
+										<SettingsIcon className="w-4 h-4 text-neutral-500" />
+									</div>
+								</svelte:fragment>
+
+								<svelte:fragment slot="popoverValue">
+									<div class="flex flex-col">
+										{#if user?.id === _commentComment.author_id}
+											<button
+												type="button"
+												class="w-full px-4 py-2 text-left text-sm text-neutral-700 transition-colors duration-200 hover:bg-neutral-50"
+												on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
+											>
+												Edit Comment
+											</button>
+										{/if}
+
+										<button
+											type="button"
+											class="w-full px-4 py-2 text-left text-sm text-red-600 transition-colors duration-200 hover:bg-red-50"
+											on:click={openFlagModal}
+										>
+											Flag Comment
+										</button>
+									</div>
+								</svelte:fragment>
 							</Popover>
 						</div>
 					</div>
@@ -498,20 +497,20 @@
 		<!-- Reply form -->
 		{#if commenting}
 			<div
-				class="border-t border-neutral-200 bg-neutral-50 p-4"
-				transition:slide={{ duration: 200 }}
+				class="border-t border-neutral-100 bg-neutral-50/50 p-4 sm:p-3"
+				transition:slide={{ duration: 300 }}
 			>
 				<div class="mb-3">
 					<textarea
 						placeholder="Write your reply..."
-						class="font-inherit w-full resize-y rounded border border-neutral-400 p-3 text-sm focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)] focus:outline-none"
+						class="w-full resize-y rounded-xl border border-neutral-200 bg-white p-3 text-sm focus:border-neutral-300 focus:outline-none focus:ring-2 focus:ring-neutral-900/10"
 						bind:value={newcomment}
 						rows="3"
 					></textarea>
 				</div>
-				<div class="flex justify-end gap-3 sm:flex-col">
+				<div class="flex justify-end gap-2 sm:flex-row">
 					<button
-						class="cursor-pointer rounded border border-neutral-400 bg-transparent px-4 py-2 font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
+						class="rounded-xl border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-50 active:scale-[0.98] sm:px-3 sm:py-1.5"
 						type="button"
 						on:click={() => {
 							commenting = false;
@@ -521,18 +520,17 @@
 						Cancel
 					</button>
 					<button
-						class="flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-4 py-2 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-70"
+						class="flex items-center justify-center gap-2 rounded-xl bg-neutral-900 px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:bg-neutral-800 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 sm:px-3 sm:py-1.5"
 						type="button"
 						on:click={createReply}
 						disabled={loading || !newcomment?.trim()}
 					>
 						{#if loading}
 							<div
-								class="h-5 w-5 animate-spin rounded-full border-2 border-primary-200 border-t-white"
+								class="h-4 w-4 animate-spin rounded-full border-2 border-white/30 border-t-white"
 							></div>
 						{:else}
-							Submit
-							<RightIcon className="w-4 h-4" />
+							Reply
 						{/if}
 					</button>
 				</div>
@@ -541,7 +539,7 @@
 
 		<!-- Nested comments -->
 		{#if _commentComment?.comments?.length}
-			<div class="ml-6 border-l-2 border-neutral-200 pb-2 pl-4 sm:ml-3 sm:pl-2">
+			<div class="ml-8 border-l-2 border-neutral-100 pb-2 pl-6 sm:ml-4 sm:pl-3">
 				<Comments
 					{questionId}
 					comments={_commentComment.comments}
@@ -561,27 +559,31 @@
 		{#if _commentComment.comment_count > 0 && !_commentComment?.comments?.length}
 			<button
 				type="button"
-				class="flex w-full cursor-pointer items-center justify-center gap-2 border-t border-none border-neutral-400 bg-neutral-100 p-3 text-sm text-neutral-900 transition-colors duration-200 hover:bg-neutral-200 disabled:cursor-not-allowed disabled:opacity-70"
+				class="flex w-full items-center justify-center gap-2 border-t border-neutral-100 bg-neutral-50/50 px-4 py-3 text-sm font-medium text-neutral-600 transition-colors duration-200 hover:bg-neutral-100 disabled:cursor-not-allowed disabled:opacity-50"
 				on:click={loadNestedComments}
 				disabled={loadingComments}
 			>
 				{#if loadingComments}
 					<div
-						class="h-5 w-5 animate-spin rounded-full border-2 border-primary-200 border-t-primary-600"
+						class="h-4 w-4 animate-spin rounded-full border-2 border-neutral-300 border-t-neutral-600"
 					/>
 				{:else}
 					<span
-						>Show {_commentComment.comment_count}
+						>View {_commentComment.comment_count}
 						{_commentComment.comment_count === 1 ? 'reply' : 'replies'}</span
 					>
-					<div class="flex items-center gap-1">
-						<MasterCommentIcon className="w-5 h-5" type="multiple" />
-						<DownIcon className="w-5 h-5" />
-					</div>
+					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M19 9l-7 7-7-7"
+						/>
+					</svg>
 				{/if}
 			</button>
 		{/if}
-	</Card>
+	</div>
 {/if}
 
 <!-- Edit Comment Modal -->

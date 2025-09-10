@@ -6,6 +6,7 @@ _[Return to Master Index](./00-master-index.md) | [View START-HERE](../START-HER
 ## Current Authority Status: 🟢 Well Developed (12 comprehensive guides + related content)
 
 ### Domain Statistics:
+
 - **Published Posts:** 12 unique mental health guides + related
 - **Percentage of Site:** 3.5% of all content
 - **Strength:** Most comprehensive mental health suite by personality type online

@@ -21,8 +21,8 @@
 		quality: 0.7,
 		margin: 1,
 		color: {
-			dark: 'rgb(55, 65, 81)', // equivalent to text-neutral-700
-			light: 'rgb(255, 255, 255)' // white
+			dark: '#374151', // Darker for better contrast
+			light: '#ffffff' // white
 		}
 	};
 
@@ -30,17 +30,107 @@
 	$: fontSize = question.question ? calculateFontSize(question.question) : '2rem';
 
 	function calculateFontSize(text: string): string {
-		// Define breakpoints for font sizing
+		// Optimized breakpoints for better desktop readability
 		const breakpoints = {
-			xs: { length: 45, size: innerWidth > 500 ? '2.3rem' : '1.9rem' },
-			sm: { length: 60, size: innerWidth > 500 ? '2.2rem' : '1.8rem' },
-			md: { length: 80, size: innerWidth > 500 ? '2.1rem' : '1.7rem' },
-			lg: { length: 105, size: innerWidth > 500 ? '2rem' : '1.6rem' },
-			xl: { length: 130, size: innerWidth > 500 ? '1.8rem' : '1.4rem' },
-			xxl: { length: 150, size: innerWidth > 500 ? '1.7rem' : '1.3rem' },
-			xxxl: { length: 200, size: innerWidth > 500 ? '1.6rem' : '1.2rem' },
-			huge: { length: 250, size: innerWidth > 500 ? '1.4rem' : '1rem' },
-			massive: { length: 300, size: innerWidth > 500 ? '1.2rem' : '0.9rem' }
+			xs: {
+				length: 45,
+				size:
+					innerWidth > 1024
+						? '2.25rem'
+						: innerWidth > 768
+							? '2rem'
+							: innerWidth > 500
+								? '1.75rem'
+								: '1.5rem'
+			},
+			sm: {
+				length: 60,
+				size:
+					innerWidth > 1024
+						? '2rem'
+						: innerWidth > 768
+							? '1.875rem'
+							: innerWidth > 500
+								? '1.625rem'
+								: '1.375rem'
+			},
+			md: {
+				length: 80,
+				size:
+					innerWidth > 1024
+						? '1.875rem'
+						: innerWidth > 768
+							? '1.75rem'
+							: innerWidth > 500
+								? '1.5rem'
+								: '1.25rem'
+			},
+			lg: {
+				length: 105,
+				size:
+					innerWidth > 1024
+						? '1.75rem'
+						: innerWidth > 768
+							? '1.625rem'
+							: innerWidth > 500
+								? '1.375rem'
+								: '1.125rem'
+			},
+			xl: {
+				length: 130,
+				size:
+					innerWidth > 1024
+						? '1.625rem'
+						: innerWidth > 768
+							? '1.5rem'
+							: innerWidth > 500
+								? '1.25rem'
+								: '1rem'
+			},
+			xxl: {
+				length: 150,
+				size:
+					innerWidth > 1024
+						? '1.5rem'
+						: innerWidth > 768
+							? '1.375rem'
+							: innerWidth > 500
+								? '1.125rem'
+								: '0.9375rem'
+			},
+			xxxl: {
+				length: 200,
+				size:
+					innerWidth > 1024
+						? '1.375rem'
+						: innerWidth > 768
+							? '1.25rem'
+							: innerWidth > 500
+								? '1rem'
+								: '0.875rem'
+			},
+			huge: {
+				length: 250,
+				size:
+					innerWidth > 1024
+						? '1.25rem'
+						: innerWidth > 768
+							? '1.125rem'
+							: innerWidth > 500
+								? '0.9375rem'
+								: '0.875rem'
+			},
+			massive: {
+				length: 300,
+				size:
+					innerWidth > 1024
+						? '1.125rem'
+						: innerWidth > 768
+							? '1rem'
+							: innerWidth > 500
+								? '0.875rem'
+								: '0.8125rem'
+			}
 		};
 
 		// Find the appropriate size
@@ -67,24 +157,22 @@
 
 <svelte:window bind:innerWidth />
 
-<div
-	class="mb-4 flex flex-col items-center gap-4 rounded-2xl bg-gradient-to-br from-white to-neutral-100 p-8 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md sm:p-5"
->
+<div class="relative overflow-hidden rounded-xl border border-neutral-200 bg-white p-8 sm:p-6">
 	<h1
-		class="relative m-0 w-full py-2 text-center font-bold uppercase leading-tight tracking-wide text-neutral-900 after:absolute after:bottom-[-10px] after:left-1/2 after:h-[3px] after:w-[60px] after:-translate-x-1/2 after:rounded-sm after:bg-primary-500 after:content-['']"
-		style="font-size: {fontSize}"
+		class="relative m-0 w-full text-center font-bold leading-snug text-neutral-900"
+		style="font-size: {fontSize};"
 		itemprop="name"
-		style:--tag={`h-question-${question.question.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
 	>
 		{question.question_formatted || question.question}
 		{#if !question.question_formatted && addQuestionMark}?{/if}
 	</h1>
+
 	{#if innerWidth <= 576 && qrCodeUrl}
-		<div class="mt-2 flex justify-center">
+		<div class="mt-6 flex justify-center">
 			<img
 				src={qrCodeUrl}
-				alt="9takes QR Code"
-				class="h-[100px] w-[100px] rounded border border-neutral-200 bg-white p-2 transition-transform duration-300 hover:scale-105"
+				alt="Share this question"
+				class="h-20 w-20 rounded-lg border border-neutral-200 bg-white p-2"
 			/>
 		</div>
 	{/if}

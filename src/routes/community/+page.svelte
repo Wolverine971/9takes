@@ -103,7 +103,11 @@
 			text-align: center;
 			margin-bottom: 4rem;
 			padding: 3rem;
-			background: linear-gradient(135deg, theme('colors.gray.700') 0%, theme('colors.gray.800') 100%);
+			background: linear-gradient(
+				135deg,
+				theme('colors.gray.700') 0%,
+				theme('colors.gray.800') 100%
+			);
 			border-radius: 20px;
 			color: white;
 

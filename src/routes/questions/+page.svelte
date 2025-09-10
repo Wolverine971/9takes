@@ -251,20 +251,30 @@
 />
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
-	<div class="mx-auto max-w-6xl rounded-lg border border-neutral-200 bg-white p-4 shadow-md" class:no-animation={!transitionEnabled} in:fade={{ duration }}>
+	<div
+		class="mx-auto max-w-6xl rounded-lg border border-neutral-200 bg-white p-4 shadow-md"
+		class:no-animation={!transitionEnabled}
+		in:fade={{ duration }}
+	>
 		<!-- Header Section -->
 		<header class="mb-8 text-center">
 			{#if data?.user?.id}
-				<h1 class="mb-4 text-2xl font-bold text-neutral-800" in:fly={{ y: -20, duration, delay: 150 }}>
+				<h1
+					class="mb-4 text-2xl font-bold text-neutral-800"
+					in:fly={{ y: -20, duration, delay: 150 }}
+				>
 					Explore your psychology and those around you
 				</h1>
 			{:else}
-				<h1 class="mb-4 text-2xl font-bold text-neutral-800" in:fly={{ y: -20, duration, delay: 150 }}>
+				<h1
+					class="mb-4 text-2xl font-bold text-neutral-800"
+					in:fly={{ y: -20, duration, delay: 150 }}
+				>
 					Explore your psychology and those around you
 				</h1>
 
 				<div class="mt-6" in:fly={{ y: 20, duration, delay: 300 }}>
-					<p class="mx-auto mb-6 max-w-4xl text-neutral-600 leading-relaxed">
+					<p class="mx-auto mb-6 max-w-4xl leading-relaxed text-neutral-600">
 						Welcome to 9takes, where you can ask personal questions anonymously and receive answers
 						from diverse perspectives. Our unique platform allows you to explore life's questions
 						through the lens of personality types, ensuring a rich and varied discussion.
@@ -297,12 +307,17 @@
 		</div>
 
 		<!-- Categories Section -->
-		<section class="mb-6 rounded-xl border border-neutral-200 bg-gradient-to-b from-neutral-50 to-white p-4 shadow-sm" in:fly={{ y: 20, duration, delay: 600 }}>
+		<section
+			class="mb-6 rounded-xl border border-neutral-200 bg-gradient-to-b from-neutral-50 to-white p-4 shadow-sm"
+			in:fly={{ y: 20, duration, delay: 600 }}
+		>
 			<div class="mb-3 flex items-center justify-between">
 				<h2 class="text-base font-semibold text-neutral-800">Browse by Category</h2>
 				<span class="text-xs text-neutral-600">{displayedCategories.length} categories</span>
 			</div>
-			<div class="flex max-h-30 flex-wrap gap-1.5 overflow-y-auto p-1 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-neutral-400 scrollbar-thumb-rounded">
+			<div
+				class="max-h-30 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-neutral-400 scrollbar-thumb-rounded flex flex-wrap gap-1.5 overflow-y-auto p-1"
+			>
 				<button
 					class="flex-shrink-0 whitespace-nowrap rounded-full border border-neutral-300 bg-white px-3.5 py-1.5 text-sm font-medium text-neutral-800 transition-all duration-150 hover:border-primary-700 hover:bg-primary-50 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60"
 					class:!bg-primary-700={selectedCategory === null}
@@ -344,7 +359,10 @@
 		/>
 
 		<!-- Questions List -->
-		<section class="min-h-75 rounded-lg border border-neutral-200 bg-white p-5" in:fly={{ y: 20, duration, delay: 750 }}>
+		<section
+			class="min-h-75 rounded-lg border border-neutral-200 bg-white p-5"
+			in:fly={{ y: 20, duration, delay: 750 }}
+		>
 			{#if loading}
 				<!-- Loading skeletons -->
 				<div class="flex flex-col gap-2">
@@ -371,7 +389,10 @@
 				<!-- Grouped by category view -->
 				{#each Object.entries(categories) as [categoryName, questions]}
 					<div class="mb-6 last:mb-0">
-						<h3 class="border-b border-neutral-100 pb-1 text-base font-semibold text-neutral-800 scroll-mt-4" id={categoryName.replace(/\s+/g, '-')}>
+						<h3
+							class="scroll-mt-4 border-b border-neutral-100 pb-1 text-base font-semibold text-neutral-800"
+							id={categoryName.replace(/\s+/g, '-')}
+						>
 							{categoryName}
 						</h3>
 						<div class="flex flex-col gap-1.5">
@@ -385,7 +406,11 @@
 
 			<!-- Load more trigger -->
 			{#if hasMore && !selectedCategory}
-				<div bind:this={loadMoreTrigger} class="flex h-20 items-center justify-center mt-4" class:loading={loadingMore}>
+				<div
+					bind:this={loadMoreTrigger}
+					class="mt-4 flex h-20 items-center justify-center"
+					class:loading={loadingMore}
+				>
 					{#if loadingMore}
 						<div class="flex justify-center py-8">
 							<Spinner size="md" color="primary">Loading more questions...</Spinner>
@@ -397,7 +422,10 @@
 
 		<!-- How It Works Section (for non-users) -->
 		{#if !data?.user?.id}
-			<section class="mt-8 rounded-lg border border-neutral-200 bg-neutral-50 p-6" in:fly={{ y: 20, duration, delay: 900 }}>
+			<section
+				class="mt-8 rounded-lg border border-neutral-200 bg-neutral-50 p-6"
+				in:fly={{ y: 20, duration, delay: 900 }}
+			>
 				<h2 class="mb-4 text-xl font-semibold text-neutral-800">How It Works</h2>
 				<ol class="mb-6 ml-6 space-y-2 text-neutral-600">
 					<li>Anonymously answer questions to see other answers</li>

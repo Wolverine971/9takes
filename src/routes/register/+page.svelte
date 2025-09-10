@@ -38,10 +38,15 @@
 	<meta property="og:image:type" content="image/png" />
 </svelte:head>
 
-<div class="max-w-md mx-auto mt-12 p-8 bg-white rounded-lg shadow-md" in:fade={{ duration: 300 }}>
-	<h1 class="text-center mb-8 text-3xl font-bold" in:fly={{ y: -20, duration: 300, delay: 150 }}>
-		<a href="/login" class="text-neutral-600 no-underline opacity-70 hover:opacity-100 transition-opacity duration-300">Login</a> /
-		<span class="text-primary-700 border-b-2 border-primary-700 pb-1">Register</span>
+<div class="mx-auto mt-12 max-w-md rounded-lg bg-white p-8 shadow-md" in:fade={{ duration: 300 }}>
+	<h1 class="mb-8 text-center text-3xl font-bold" in:fly={{ y: -20, duration: 300, delay: 150 }}>
+		<a
+			href="/login"
+			class="text-neutral-600 no-underline opacity-70 transition-opacity duration-300 hover:opacity-100"
+			>Login</a
+		>
+		/
+		<span class="border-b-2 border-primary-700 pb-1 text-primary-700">Register</span>
 	</h1>
 	<form
 		action="?/register"
@@ -51,41 +56,47 @@
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
 		<div class="flex flex-col gap-2">
-			<label for="email" class="font-bold text-sm text-neutral-800">Email</label>
-			<input 
-				type="email" 
-				id="email" 
-				name="email" 
-				bind:value={email} 
-				required 
-				class="px-3 py-3 border border-neutral-300 rounded text-base transition-all duration-300 focus:outline-none focus:border-primary-700 focus:ring-2 focus:ring-primary-400/20"
+			<label for="email" class="text-sm font-bold text-neutral-800">Email</label>
+			<input
+				type="email"
+				id="email"
+				name="email"
+				bind:value={email}
+				required
+				class="rounded border border-neutral-300 px-3 py-3 text-base transition-all duration-300 focus:border-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400/20"
 			/>
 		</div>
 		<div class="flex flex-col gap-2">
-			<label for="password" class="font-bold text-sm text-neutral-800">Password</label>
-			<input 
-				type="password" 
-				id="password" 
-				name="password" 
-				bind:value={password} 
-				required 
-				class="px-3 py-3 border border-neutral-300 rounded text-base transition-all duration-300 focus:outline-none focus:border-primary-700 focus:ring-2 focus:ring-primary-400/20"
+			<label for="password" class="text-sm font-bold text-neutral-800">Password</label>
+			<input
+				type="password"
+				id="password"
+				name="password"
+				bind:value={password}
+				required
+				class="rounded border border-neutral-300 px-3 py-3 text-base transition-all duration-300 focus:border-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400/20"
 			/>
 		</div>
-		<button 
-			type="submit" 
-			class="bg-primary-700 text-white px-5 py-3 border-none rounded-lg text-base cursor-pointer transition-all duration-300 hover:bg-primary-800 active:translate-y-px disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2" 
+		<button
+			type="submit"
+			class="cursor-pointer rounded-lg border-none bg-primary-700 px-5 py-3 text-base text-white transition-all duration-300 hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 active:translate-y-px disabled:cursor-not-allowed disabled:opacity-70"
 			disabled={loading}
 		>
 			{#if loading}
-				<span class="inline-block w-5 h-5 border-2 border-white border-b-transparent rounded-full animate-spin" />
+				<span
+					class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-white border-b-transparent"
+				/>
 			{:else}
 				Register
 			{/if}
 		</button>
 	</form>
-	<div class="text-center mt-6" in:fly={{ y: 20, duration: 300, delay: 450 }}>
-		<a href="/forgotPassword" class="text-primary-700 no-underline text-sm transition-colors duration-300 hover:text-primary-800 hover:underline">Forgot Password?</a>
+	<div class="mt-6 text-center" in:fly={{ y: 20, duration: 300, delay: 450 }}>
+		<a
+			href="/forgotPassword"
+			class="text-sm text-primary-700 no-underline transition-colors duration-300 hover:text-primary-800 hover:underline"
+			>Forgot Password?</a
+		>
 	</div>
 </div>
 

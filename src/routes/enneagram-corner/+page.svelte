@@ -185,16 +185,21 @@
 />
 
 <main class="enneagram-corner-page">
-	<h1 class="text-start">Explore the Enneagram</h1>
+	<h1 class="my-8 mb-10 text-start text-4xl font-bold leading-tight text-gray-700 lg:text-5xl">
+		Explore the Enneagram
+	</h1>
 
-	<nav aria-label="Table of Contents" class="nav-section">
-		<ul>
+	<nav aria-label="Table of Contents" class="mb-12">
+		<ul class="grid list-none grid-cols-2 gap-3 p-0">
 			{#each blogSections as section}
 				<li>
-					<a href="#{section.id}">
-						<span class="nav-title">{section.title}</span>
+					<a
+						href="#{section.id}"
+						class="block rounded-xl border-2 border-transparent bg-white p-6 text-gray-700 no-underline transition-all duration-300 hover:-translate-y-1 hover:border-primary-600 hover:shadow-lg focus:-translate-y-1 focus:border-primary-600 focus:shadow-lg"
+					>
+						<span class="mb-2 block text-lg font-semibold">{section.title}</span>
 						{#if section.subtitle}
-							<span class="nav-subtitle">{section.subtitle}</span>
+							<span class="block text-sm leading-relaxed opacity-70">{section.subtitle}</span>
 						{/if}
 					</a>
 				</li>
@@ -203,33 +208,63 @@
 	</nav>
 
 	{#each blogSections as section}
-		<section aria-labelledby={section.id}>
-			<h2 id={section.id}>{section.title}</h2>
+		<section aria-labelledby={section.id} class="mb-14">
+			<h2 id={section.id} class="mb-3 text-3xl font-bold tracking-tight text-gray-800">
+				{section.title}
+			</h2>
 			{#if section.subtitle}
-				<p class="section-subtitle">{section.subtitle}</p>
+				<p class="mb-6 max-w-2xl text-lg leading-relaxed text-gray-600 opacity-75">
+					{section.subtitle}
+				</p>
 			{/if}
-			<div class="blog-grid-container" class:nine-types={section.type === 'nine-types'}>
+			<div
+				class="grid gap-6 {section.type === 'nine-types'
+					? 'grid-cols-2 gap-5 md:grid-cols-3'
+					: 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3'}"
+			>
 				{#each data.enneagramBlogs
 					.filter((blog) => blog.type[0] === section.type)
 					.slice(0, section.type === 'nine-types' ? 9 : 5) as blog (blog.slug)}
-					<article class="grid-item" class:no-image={!blog.pic}>
+					<article
+						class="relative overflow-hidden rounded-2xl border border-black/5 bg-gradient-to-br from-gray-800 to-gray-900 shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-indigo-500/20 hover:shadow-xl {section.type ===
+						'nine-types'
+							? 'aspect-square'
+							: 'aspect-[3/4]'}"
+						class:no-image={!blog.pic}
+					>
 						<a
 							href="/enneagram-corner/{blog.slug}"
 							class="blog-link"
 							data-tag={`h-blog-${formatBlogSlug(blog.title)}`}
 						>
 							<div
-								class="grid-item-content"
+								class="relative flex h-full w-full items-end bg-cover bg-center bg-no-repeat"
 								class:has-image={blog.pic}
 								style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
 							>
 								{#if !blog.pic}
-									<div class="pattern-overlay"></div>
+									<div class="bg-pattern absolute inset-0 z-10 opacity-100"></div>
 								{/if}
-								<div class="text-overlay">
-									<h3>{blog.title}</h3>
+								<div
+									class={blog.pic
+										? 'absolute bottom-0 left-0 right-0 z-20 flex min-h-[50%] flex-col justify-end gap-2 bg-gradient-to-t from-black/95 via-black/80 to-transparent p-6 text-white'
+										: 'absolute inset-0 z-20 flex flex-col items-center justify-center p-8 text-center text-white'}
+								>
+									<h3
+										class={blog.pic
+											? 'line-clamp-3 text-xl font-bold leading-snug tracking-tight text-white'
+											: 'line-clamp-4 text-xl font-bold leading-snug tracking-tight text-white md:text-2xl'}
+									>
+										{blog.title}
+									</h3>
 									{#if section.type !== 'nine-types'}
-										<p>{blog.description}</p>
+										<p
+											class={blog.pic
+												? 'line-clamp-2 text-base leading-relaxed text-white/90 opacity-90'
+												: 'line-clamp-3 text-base leading-relaxed text-white/95 opacity-95'}
+										>
+											{blog.description}
+										</p>
 									{/if}
 								</div>
 							</div>
@@ -237,16 +272,20 @@
 					</article>
 				{/each}
 				{#if section.type !== 'nine-types'}
-					<div class="grid-item view-all">
+					<div
+						class="relative aspect-[3/4] overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-gray-800 to-gray-900 shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-gradient-to-br hover:from-gray-700 hover:to-gray-800 hover:shadow-xl"
+					>
 						<a
 							href="/enneagram-corner/{section.type === 'mental-health'
 								? 'mental-health'
 								: `subtopic/${section.type}`}"
-							class="blog-link"
+							class="block h-full w-full no-underline"
 						>
-							<div class="grid-item-content">
-								<div class="text-overlay">
-									<h3>
+							<div class="flex h-full w-full items-center justify-center">
+								<div class="flex items-center justify-center p-8 text-center">
+									<h3
+										class="flex items-center justify-center text-lg font-semibold text-white transition-colors hover:text-indigo-400"
+									>
 										View All {section.linkTitle}
 										<ArrowRightIcon
 											iconStyle={'margin-left: .5rem'}
@@ -264,471 +303,70 @@
 	{/each}
 </main>
 
-<div class="resources-footer">
-	<h2>Why Choose 9takes</h2>
-	<div class="difference-grid">
-		<div class="difference-item">
-			<h3>Deep Psychological Insights</h3>
-			<p>
+<div class="mt-16 rounded-3xl bg-gradient-to-b from-gray-900 to-gray-950 p-16 text-white">
+	<h2 class="mb-8 text-center text-4xl font-bold text-white">Why Choose 9takes</h2>
+	<div class="my-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+		<div
+			class="rounded-xl border border-white/10 bg-white/5 p-8 transition-all duration-300 hover:-translate-y-1 hover:bg-white/10"
+		>
+			<h3 class="mb-4 text-xl font-semibold text-indigo-400">Deep Psychological Insights</h3>
+			<p class="text-base leading-relaxed opacity-90">
 				Go beyond surface-level descriptions to understand the core motivations, fears, and desires
 				that shape each personality type.
 			</p>
 		</div>
-		<div class="difference-item">
-			<h3>Personalized Growth Strategies</h3>
-			<p>
+		<div
+			class="rounded-xl border border-white/10 bg-white/5 p-8 transition-all duration-300 hover:-translate-y-1 hover:bg-white/10"
+		>
+			<h3 class="mb-4 text-xl font-semibold text-indigo-400">Personalized Growth Strategies</h3>
+			<p class="text-base leading-relaxed opacity-90">
 				Receive specific, actionable guidance tailored to your unique personality type and
 				individual growth path.
 			</p>
 		</div>
-		<div class="difference-item">
-			<h3>Research-Based Approach</h3>
-			<p>
+		<div
+			class="rounded-xl border border-white/10 bg-white/5 p-8 transition-all duration-300 hover:-translate-y-1 hover:bg-white/10"
+		>
+			<h3 class="mb-4 text-xl font-semibold text-indigo-400">Research-Based Approach</h3>
+			<p class="text-base leading-relaxed opacity-90">
 				Grounded in decades of psychological research and the work of leading Enneagram experts and
 				practitioners.
 			</p>
 		</div>
-		<div class="difference-item">
-			<h3>Practical Applications</h3>
-			<p>
+		<div
+			class="rounded-xl border border-white/10 bg-white/5 p-8 transition-all duration-300 hover:-translate-y-1 hover:bg-white/10"
+		>
+			<h3 class="mb-4 text-xl font-semibold text-indigo-400">Practical Applications</h3>
+			<p class="text-base leading-relaxed opacity-90">
 				Transform theory into practice with real-world examples, exercises, and tools for immediate
 				implementation.
 			</p>
 		</div>
 	</div>
-	<div class="cta-section">
-		<h3>Start Your Enneagram Journey</h3>
-		<p>
+	<div class="mt-12 rounded-2xl bg-indigo-600/10 p-12 text-center">
+		<h3 class="mb-4 text-3xl font-bold text-white">Start Your Enneagram Journey</h3>
+		<p class="mb-8 text-lg opacity-90">
 			Whether you're new to the Enneagram or deepening your understanding, we have resources to
 			support your growth.
 		</p>
-		<div class="cta-buttons">
-			<a href="/enneagram-corner/subtopic/nine-types" class="cta-primary">Explore All 9 Types</a>
-			<a href="/enneagram-corner/subtopic/overview" class="cta-secondary">Learn the System</a>
+		<div class="flex flex-wrap justify-center gap-4">
+			<a
+				href="/enneagram-corner/subtopic/nine-types"
+				class="rounded-lg bg-gradient-to-r from-indigo-600 to-purple-600 px-8 py-4 font-semibold text-white no-underline transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-indigo-600/40"
+				>Explore All 9 Types</a
+			>
+			<a
+				href="/enneagram-corner/subtopic/overview"
+				class="rounded-lg border-2 border-white/30 bg-transparent px-8 py-4 font-semibold text-white no-underline transition-all duration-300 hover:border-white/50 hover:bg-white/10"
+				>Learn the System</a
+			>
 		</div>
 	</div>
 </div>
 
 <style lang="scss">
-	// Page-specific isolation wrapper
-	.enneagram-corner-page {
-		// Reset global styles that might interfere
-		article {
-			margin: 0;
-			padding: 0;
-			border-radius: 0;
-		}
-
-		a {
-			&::after {
-				display: none;
-			}
-		}
-
-		h1,
-		h2,
-		h3,
-		h4,
-		p {
-			margin-top: 0;
-			padding-top: 0;
-		}
-	}
-
-	h1 {
-		text-align: start;
-		margin: 2rem 0 2.5rem;
-		color: theme('colors.gray.700');
-		font-size: 2.5rem;
-		line-height: 1.3;
-		font-weight: 700;
-	}
-
-	.authority-section {
-		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
-
-		border-radius: 20px;
-		padding: 3rem;
-		margin: 2rem auto;
-		color: white;
-		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-
-		.intro-text {
-			font-size: 1.2rem;
-			line-height: 1.8;
-			margin-bottom: 1.5rem;
-
-			strong {
-				color: #a29bfe;
-				font-weight: 700;
-			}
-		}
-
-		.authority-badges {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-			gap: 1rem;
-			margin-top: 2rem;
-
-			.badge-item {
-				background: rgba(255, 255, 255, 0.1);
-				backdrop-filter: blur(10px);
-				padding: 1rem;
-				border-radius: 8px;
-				text-align: center;
-				border: 1px solid rgba(255, 255, 255, 0.2);
-				font-weight: 600;
-			}
-		}
-	}
-
-	.resources-footer {
-		background: linear-gradient(to bottom, #1a1a2e, #0f0f1e);
-		padding: 4rem;
-		margin-top: 4rem;
-		border-radius: 20px;
-		color: white;
-
-		h2 {
-			color: white;
-			font-size: 2.5rem;
-			margin-bottom: 2rem;
-			text-align: center;
-		}
-
-		.difference-grid {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-			gap: 2rem;
-			margin: 3rem 0;
-
-			.difference-item {
-				background: rgba(255, 255, 255, 0.05);
-				padding: 2rem;
-				border-radius: 12px;
-				border: 1px solid rgba(255, 255, 255, 0.1);
-				transition:
-					transform 0.3s ease,
-					background 0.3s ease;
-
-				&:hover {
-					transform: translateY(-5px);
-					background: rgba(255, 255, 255, 0.08);
-				}
-
-				h3 {
-					color: #a29bfe;
-					font-size: 1.25rem;
-					font-weight: 600;
-					margin-bottom: 1rem;
-				}
-
-				p {
-					line-height: 1.6;
-					opacity: 0.9;
-					font-size: 1rem;
-				}
-			}
-		}
-
-		.cta-section {
-			text-align: center;
-			padding: 3rem;
-			background: rgba(102, 126, 234, 0.1);
-			border-radius: 16px;
-			margin-top: 3rem;
-
-			h3 {
-				font-size: 2rem;
-				margin-bottom: 1rem;
-				color: white;
-				font-weight: 700;
-			}
-
-			p {
-				font-size: 1.1rem;
-				margin-bottom: 2rem;
-				opacity: 0.9;
-			}
-
-			.cta-buttons {
-				display: flex;
-				justify-content: center;
-				gap: 1rem;
-				flex-wrap: wrap;
-
-				a {
-					padding: 1rem 2rem;
-					border-radius: 8px;
-					text-decoration: none;
-					font-weight: 600;
-					transition: all 0.3s ease;
-
-					&.cta-primary {
-						background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-						color: white;
-
-						&:hover {
-							transform: scale(1.05);
-							box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
-						}
-					}
-
-					&.cta-secondary {
-						background: transparent;
-						color: white;
-						border: 2px solid rgba(255, 255, 255, 0.3);
-
-						&:hover {
-							background: rgba(255, 255, 255, 0.1);
-							border-color: rgba(255, 255, 255, 0.5);
-						}
-					}
-				}
-			}
-		}
-	}
-
-	nav {
-		margin: 0 0 3rem 0;
-		padding: 0;
-
-		h2 {
-			font-size: 2rem;
-			margin-bottom: 2rem;
-			text-align: center;
-			color: theme('colors.primary.600');
-		}
-
-		ul {
-			list-style-type: none;
-			padding: 0;
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-			gap: 1rem;
-		}
-
-		.nav-section,
-		ul {
-			margin: 0;
-			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			gap: 0.75rem;
-		}
-
-		li {
-			a {
-				display: block;
-				color: theme('colors.gray.700');
-				text-decoration: none;
-				padding: 1.5rem;
-				border-radius: 12px;
-				background-color: theme('colors.white');
-				border: 2px solid transparent;
-				transition: all 0.3s ease;
-
-				.nav-title {
-					display: block;
-					font-weight: 600;
-					font-size: 1.1rem;
-					margin-bottom: 0.5rem;
-				}
-
-				.nav-subtitle {
-					display: block;
-					font-size: 0.9rem;
-					opacity: 0.7;
-					line-height: 1.4;
-				}
-
-				&:hover,
-				&:focus {
-					border-color: theme('colors.primary.600');
-					transform: translateY(-3px);
-					box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-				}
-			}
-		}
-
-		// Mobile styles for 2-column grid
-		@media (max-width: 768px) {
-			li a {
-				padding: 1rem;
-
-				.nav-title {
-					font-size: 0.95rem;
-					margin-bottom: 0.25rem;
-				}
-
-				.nav-subtitle {
-					font-size: 0.8rem;
-					line-height: 1.3;
-				}
-			}
-		}
-
-		@media (max-width: 480px) {
-			ul {
-				grid-template-columns: repeat(2, 1fr);
-				gap: 0.5rem;
-			}
-
-			li a {
-				padding: 0.75rem;
-
-				.nav-title {
-					font-size: 0.9rem;
-				}
-
-				.nav-subtitle {
-					display: none; // Hide subtitle on very small screens for better readability
-				}
-			}
-		}
-	}
-
-	section {
-		margin: 0 0 3.5rem 0;
-		padding: 0;
-
-		h2 {
-			font-size: 1.875rem;
-			font-weight: 700;
-			margin: 0 0 0.75rem 0;
-			padding: 0;
-			color: #2d3436;
-			letter-spacing: -0.02em;
-		}
-
-		.section-subtitle {
-			font-size: 1.05rem;
-			opacity: 0.75;
-			margin: 0 0 1.5rem 0;
-			padding: 0;
-			color: #636e72;
-			max-width: 650px;
-			line-height: 1.6;
-		}
-	}
-
-	.blog-grid-container {
-		display: grid;
-		// grid-template-columns: repeat(2, 1fr);
-		grid-template-columns: repeat(3, minmax(300px, 1fr));
-
-		gap: 1.5rem;
-		margin: 0;
-		padding: 0;
-
-		// Regular sections always show 2 columns with 3 blogs + 1 view all = 4 items total (2x2)
-
-		&.nine-types {
-			grid-template-columns: repeat(3, 1fr);
-			gap: 1.25rem;
-
-			.grid-item {
-				aspect-ratio: 1 / 1;
-			}
-		}
-	}
-
-	.blog-grid-container .grid-item {
-		// Override global article styles
-		margin: 0 !important;
-		padding: 0 !important;
-		aspect-ratio: 3 / 4;
-		border-radius: 16px;
-		overflow: hidden;
-		position: relative;
-		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
-
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-		cursor: pointer;
-		border: 1px solid rgba(0, 0, 0, 0.06);
-
-		&:hover {
-			transform: translateY(-4px);
-			box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
-			border-color: rgba(108, 92, 231, 0.2);
-
-			.grid-item-content {
-				&::after {
-					transform: scale(1.05);
-				}
-			}
-
-			.text-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(0, 0, 0, 0.98) 0%,
-					rgba(0, 0, 0, 0.85) 50%,
-					rgba(0, 0, 0, 0.4) 100%
-				);
-			}
-
-			&.no-image {
-				background: linear-gradient(135deg, #1a1a2e 0%, #2d3436 100%);
-				border-color: rgba(255, 255, 255, 0.08);
-
-				.text-overlay {
-					background: transparent;
-				}
-
-				&:hover {
-					background: linear-gradient(135deg, #2d3436 0%, #3d4447 100%);
-				}
-			}
-		}
-	}
-
-	.blog-grid-container .blog-link {
-		display: block;
-		text-decoration: none !important;
-		color: inherit !important;
-		height: 100%;
-		width: 100%;
-
-		// Override global blog link styles
-		&::after {
-			display: none !important;
-		}
-
-		&:hover {
-			text-decoration: none !important;
-			color: inherit !important;
-		}
-	}
-
-	.grid-item-content {
-		height: 100%;
-		width: 100%;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		position: relative;
-		display: flex;
-		align-items: flex-end;
-
-		&.has-image::after {
-			content: '';
-			position: absolute;
-			inset: 0;
-			background: inherit;
-			background-size: inherit;
-			background-position: inherit;
-			transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-			z-index: 0;
-		}
-
-		&:not(.has-image) {
-			background: transparent;
-		}
-	}
-
-	.pattern-overlay {
-		position: absolute;
-		inset: 0;
+	/* Pattern overlay for cards without images */
+	.bg-pattern {
 		background-image:
 			linear-gradient(45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%),
 			linear-gradient(-45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%),
@@ -740,207 +378,30 @@
 			0 15px,
 			15px -15px,
 			-15px 0px;
-		opacity: 1;
-		z-index: 1;
 	}
 
-	.text-overlay {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		z-index: 2;
-		padding: 1.5rem;
-		background: linear-gradient(
-			to top,
-			rgba(0, 0, 0, 0.95) 0%,
-			rgba(0, 0, 0, 0.8) 40%,
-			rgba(0, 0, 0, 0.4) 70%,
-			rgba(0, 0, 0, 0) 100%
-		);
-		color: white;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
-		gap: 0.5rem;
-		min-height: 50%;
-		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-	}
-
-	.no-image .text-overlay {
-		background: transparent;
-		min-height: 100%;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		padding: 2rem;
-	}
-
-	.blog-grid-container .text-overlay h3 {
-		font-size: 1.2rem !important;
-		font-weight: 700;
-		margin: 0 !important;
-		padding: 0 !important;
-		line-height: 1.35;
-		color: white !important;
-		letter-spacing: -0.01em;
-		word-wrap: break-word;
-		overflow-wrap: break-word;
-		hyphens: auto;
-		display: -webkit-box;
-		-webkit-line-clamp: 3;
-		line-clamp: 3;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-
-	.no-image .text-overlay h3 {
-		-webkit-line-clamp: 4;
-		line-clamp: 4;
-		font-size: 1.25rem !important;
-	}
-
-	.blog-grid-container .text-overlay p {
-		font-size: 0.95rem !important;
-		line-height: 1.5;
-		opacity: 0.9;
-		color: rgba(255, 255, 255, 0.9) !important;
+	/* Line clamp utilities - Tailwind doesn't have built-in line-clamp */
+	.line-clamp-2 {
 		display: -webkit-box;
 		-webkit-line-clamp: 2;
-		line-clamp: 2;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		transition: all 0.3s ease;
-		margin: 0 !important;
-		padding: 0 !important;
-		font-weight: 400;
 	}
 
-	.no-image .text-overlay p {
-		opacity: 0.95;
-		transform: none;
+	.line-clamp-3 {
+		display: -webkit-box;
 		-webkit-line-clamp: 3;
-		line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 
-	.blog-grid-container .view-all {
-		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
-		border: 1px solid rgba(255, 255, 255, 0.08);
-
-		.grid-item-content {
-			background: transparent;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-
-			&::after {
-				display: none;
-			}
-		}
-
-		.text-overlay {
-			background: transparent !important;
-			min-height: 100%;
-			padding: 2rem;
-			align-items: center;
-			justify-content: center;
-			text-align: center;
-		}
-
-		h3 {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			font-size: 1.15rem !important;
-			font-weight: 600;
-			color: white !important;
-			margin: 0 !important;
-			padding: 0 !important;
-			-webkit-line-clamp: unset;
-			line-clamp: unset;
-			overflow: visible;
-		}
-
-		&:hover {
-			background: linear-gradient(135deg, #3d4447 0%, #2a2a3e 100%);
-			transform: translateY(-4px);
-			border-color: rgba(255, 255, 255, 0.15);
-
-			h3 {
-				color: #a29bfe !important;
-			}
-		}
-	}
-
-	@media (max-width: 768px) {
-		h1 {
-			font-size: 2rem;
-			line-height: 1.3;
-		}
-
-		section h2 {
-			font-size: 1.75rem;
-		}
-
-		.blog-grid-container {
-			grid-template-columns: repeat(2, 1fr);
-			gap: 1rem;
-
-			&.nine-types {
-				grid-template-columns: repeat(2, 1fr);
-			}
-		}
-
-		.grid-item {
-			aspect-ratio: 3 / 4;
-		}
-
-		.text-overlay {
-			padding: 1.25rem;
-			min-height: 50%;
-		}
-
-		.text-overlay h3 {
-			font-size: 1.1rem;
-			margin-bottom: 0.5rem;
-		}
-
-		.text-overlay p {
-			font-size: 0.85rem;
-			-webkit-line-clamp: 2;
-			line-clamp: 2;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.blog-grid-container {
-			grid-template-columns: repeat(2, 1fr);
-			gap: 0.75rem;
-
-			&.nine-types {
-				grid-template-columns: repeat(2, 1fr);
-			}
-		}
-
-		.grid-item {
-			aspect-ratio: 1 / 1;
-		}
-
-		.text-overlay {
-			min-height: auto;
-			padding: 1rem;
-		}
-
-		.text-overlay h3 {
-			font-size: 1rem;
-		}
-
-		.text-overlay p {
-			font-size: 0.8rem;
-			-webkit-line-clamp: 2;
-			line-clamp: 2;
-		}
+	.line-clamp-4 {
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 </style>

@@ -116,9 +116,12 @@
 
 {#key key}
 	{#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
-		<div class="flex flex-col md:gap-4">
+		<div class="space-y-4">
 			{#each _comments as comment, index (comment.id)}
-				<div in:fade={{ duration: 300, delay: index * 50 }}>
+				<div
+					class="transform transition-all duration-500 ease-out"
+					in:fade={{ duration: 400, delay: Math.min(index * 30, 150) }}
+				>
 					<Comment
 						{questionId}
 						{comment}
@@ -135,13 +138,13 @@
 				<div class="space-y-4 py-4">
 					{#each Array(3) as _, i}
 						<div
-							class="rounded-lg bg-white/80 p-4 shadow-sm"
-							in:fade={{ duration: 300, delay: i * 100 }}
+							class="rounded-2xl bg-white/50 p-5 backdrop-blur-sm"
+							in:fade={{ duration: 300, delay: i * 50 }}
 						>
 							<div class="flex gap-4">
-								<SkeletonLoader variant="circular" width={32} height={32} />
+								<SkeletonLoader variant="circular" width={40} height={40} />
 								<div class="flex-1">
-									<SkeletonLoader variant="text" width="30%" className="mb-2" />
+									<SkeletonLoader variant="text" width="25%" className="mb-2" />
 									<SkeletonLoader variant="text" count={2} />
 								</div>
 							</div>
@@ -152,18 +155,36 @@
 
 			<!-- Infinite scroll sentinel -->
 			{#if _comments.length < comment_count && parentData?.flags?.userHasAnswered}
-				<div bind:this={bottomSentinel} class="my-4">
+				<div bind:this={bottomSentinel} class="my-6">
 					{#if loading && !initialLoading}
-						<div class="flex justify-center py-4">
-							<Spinner size="md" color="primary">Loading more comments...</Spinner>
+						<div class="flex justify-center py-6">
+							<div
+								class="flex items-center gap-3 rounded-full bg-white/80 px-4 py-2 shadow-sm backdrop-blur-sm"
+							>
+								<div
+									class="h-4 w-4 animate-spin rounded-full border-2 border-neutral-300 border-t-neutral-600"
+								/>
+								<span class="text-sm font-medium text-neutral-600">Loading more...</span>
+							</div>
 						</div>
 					{/if}
 				</div>
 			{/if}
 		</div>
 	{:else if parentData?.flags?.userHasAnswered && !comments.length}
-		<div class="py-8 text-center text-neutral-600">
-			<p>No comments yet. Be the first to share your thoughts!</p>
+		<div class="flex flex-col items-center justify-center py-12">
+			<div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-neutral-100">
+				<svg class="h-7 w-7 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+					/>
+				</svg>
+			</div>
+			<p class="text-center text-lg font-medium text-neutral-600">No comments yet</p>
+			<p class="mt-1 text-center text-sm text-neutral-500">Be the first to share your thoughts</p>
 		</div>
 	{/if}
 {/key}

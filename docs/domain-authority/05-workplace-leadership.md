@@ -6,6 +6,7 @@ _[Return to Master Index](./00-master-index.md) | [View START-HERE](../START-HER
 ## Current Authority Status: 🟡 Developing (15 posts - 4.4% of content)
 
 ### Domain Statistics:
+
 - **Published Posts:** 15 (moderate coverage)
 - **Percentage of Site:** 4.4% of all content
 - **Strengths:** Team dynamics well covered, coach toolkit exists

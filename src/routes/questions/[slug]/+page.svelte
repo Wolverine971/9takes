@@ -33,7 +33,7 @@
 		margin: 1,
 		color: {
 			dark: '',
-			light: 'rgba(193, 192, 192, 0.21)'
+			light: '#c1c0c036'
 		}
 	};
 
@@ -172,35 +172,15 @@
 	{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
 </svelte:head>
 
-<div class="mx-auto w-full max-w-7xl">
-	<aside
-		class="relative mb-6 flex flex-col overflow-x-auto rounded p-3 xl:fixed xl:right-auto xl:z-10 xl:ml-[860px] xl:mt-2 xl:w-[250px] xl:border"
-		style="overflow: visible;"
-	>
-		{#if data.questionTags && innerWidth > 1200}
-			{#if innerWidth > 1200}
-				<h3 class="m-0 mb-3 text-lg font-semibold text-neutral-800">
-					Related question <br />categories
-				</h3>
-			{/if}
-			<div
-				class="touch-scroll flex flex-wrap gap-2 overflow-x-auto pb-2 xl:flex-wrap xl:overflow-visible"
-			>
-				{#each data.questionTags as tag}
-					<a
-						href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
-						class="inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded border border-neutral-200 bg-primary-100 px-3 py-2 text-sm text-primary-800 no-underline transition-all duration-200 ease-in-out hover:-translate-y-0.5 hover:bg-primary-200 hover:text-primary-900 hover:shadow-sm"
-						rel="tag"
-					>
-						{tag.question_categories.category_name}
-					</a>
-				{/each}
-			</div>
-		{/if}
-	</aside>
-	<article itemscope itemtype="https://schema.org/QAPage" class="mb-6 max-w-4xl">
-		<div>
+<div class="mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6 lg:px-8">
+	<article itemscope itemtype="https://schema.org/QAPage">
+		<!-- Question Display -->
+		<div class="mb-6">
 			<QuestionDisplay question={data.question} />
+		</div>
+
+		<!-- Interaction Area -->
+		<div class="mb-6">
 			<Interact
 				{data}
 				questionId={data.question.id}
@@ -211,21 +191,25 @@
 				{qrCodeSize}
 			/>
 		</div>
-		{#if data.questionTags && innerWidth <= 1200}
-			<div
-				class="touch-scroll flex flex-wrap gap-2 overflow-x-auto pb-2 xl:flex-wrap xl:overflow-visible"
-			>
-				{#each data.questionTags as tag}
-					<a
-						href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
-						class="inline-flex cursor-pointer items-center justify-center whitespace-nowrap rounded border border-neutral-200 bg-primary-100 px-3 py-2 text-sm text-primary-800 no-underline transition-all duration-200 ease-in-out hover:-translate-y-0.5 hover:bg-primary-200 hover:text-primary-900 hover:shadow-sm"
-						rel="tag"
-					>
-						{tag.question_categories.category_name}
-					</a>
-				{/each}
+
+		<!-- Tags -->
+		{#if data.questionTags && data.questionTags.length > 0}
+			<div class="mb-6">
+				<div class="flex flex-wrap gap-2">
+					{#each data.questionTags as tag}
+						<a
+							href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
+							class="inline-flex items-center rounded-lg bg-neutral-100 px-3 py-1.5 text-sm font-medium text-neutral-700 transition-all duration-200 hover:bg-neutral-200 hover:text-neutral-900"
+							rel="tag"
+						>
+							{tag.question_categories.category_name}
+						</a>
+					{/each}
+				</div>
 			</div>
 		{/if}
+
+		<!-- Question Content -->
 		{#if dataForChild}
 			<QuestionContent
 				data={dataForChild}
@@ -237,8 +221,27 @@
 </div>
 
 <style>
-	/* Adding touch scrolling for iOS */
-	.touch-scroll {
-		-webkit-overflow-scrolling: touch;
+	/* Smooth scrolling for all browsers */
+	:global(html) {
+		scroll-behavior: smooth;
+	}
+
+	/* Custom scrollbar styles */
+	:global(::-webkit-scrollbar) {
+		width: 8px;
+		height: 8px;
+	}
+
+	:global(::-webkit-scrollbar-track) {
+		background: transparent;
+	}
+
+	:global(::-webkit-scrollbar-thumb) {
+		background: rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+	}
+
+	:global(::-webkit-scrollbar-thumb:hover) {
+		background: rgba(0, 0, 0, 0.3);
 	}
 </style>

@@ -145,11 +145,6 @@
 				<p>Deep dives into the personalities of public figures.</p>
 				<a href="/pop-culture#celebrity-analysis">View Articles →</a>
 			</div>
-			<div class="related-card">
-				<h3>🎬 Fictional Characters</h3>
-				<p>Psychological profiles of beloved characters.</p>
-				<a href="/pop-culture#fictional-characters">View Articles →</a>
-			</div>
 		</div>
 	</section>
 </article>

@@ -152,7 +152,7 @@ Need someone with titanium boundaries who won't let you caretake them. If they s
 ### Your Therapy Reality Check
 
 - You'll present the TED talk version of your problems
-- Impatience with "just talking" without action items  
+- Impatience with "just talking" without action items
 - Breakthrough: Ugly crying without apologizing
 - Success: Valuing who you are over what you've done
 

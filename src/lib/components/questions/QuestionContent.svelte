@@ -96,19 +96,17 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="mt-4 w-full">
+<div class="w-full">
 	<!-- Tabs Navigation -->
-	<nav
-		class="scrollbar-hide sticky top-0 z-10 flex overflow-x-auto rounded-t-md bg-white shadow-sm sm:relative"
-	>
+	<nav class="scrollbar-hide flex overflow-x-auto border-b border-neutral-200 bg-white">
 		{#each tabs as tab}
 			<button
 				role="tab"
 				aria-selected={selectedTab === tab}
 				aria-controls={tab}
-				class="min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 border-b-2 border-transparent bg-transparent px-6 py-4 text-sm font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-800 sm:px-4 sm:py-3 {selectedTab ===
+				class="relative min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 bg-transparent px-6 py-3.5 text-sm font-medium text-neutral-600 transition-all duration-200 hover:text-neutral-900 sm:px-4 sm:py-3 {selectedTab ===
 				tab
-					? 'border-primary-600 font-semibold text-primary-600'
+					? 'border-b-2 border-primary-600 text-neutral-900'
 					: ''}"
 				on:click={() => {
 					selectedTab = tab;
@@ -116,60 +114,84 @@
 				}}
 			>
 				{#if innerWidth > 575}
-					<!-- Show text on larger screens -->
 					{#if tab === 'Comments' || tab === 'Removed Comments' || tab === 'Articles' || tab === 'Visuals'}
-						<span class="flex items-center justify-center" transition:fade={{ duration: 200 }}>
-							{getContentCount(tab).count}
-							{getContentCount(tab).label}
+						<span class="flex items-center justify-center gap-2">
+							<span class="font-semibold">{getContentCount(tab).count}</span>
+							<span>{getContentCount(tab).label}</span>
 						</span>
 					{:else}
 						<span>{tab}</span>
 					{/if}
 				{:else}
 					<!-- Show icons on mobile -->
-					<svelte:component
-						this={iconComponents[tab]}
-						iconStyle={''}
-						height={'1.5rem'}
-						fill={selectedTab === tab ? 'currentColor' : 'currentColor'}
-						type={tab === 'Comments' ? 'multiple' : undefined}
-					/>
+					<div class="flex flex-col items-center gap-1">
+						<svelte:component
+							this={iconComponents[tab]}
+							iconStyle={''}
+							height={'1.25rem'}
+							fill={selectedTab === tab ? 'currentColor' : 'currentColor'}
+							type={tab === 'Comments' ? 'multiple' : undefined}
+						/>
+						<span class="text-[10px]">{getContentCount(tab).count}</span>
+					</div>
 				{/if}
 			</button>
 		{/each}
 	</nav>
 
 	<!-- Tab Content -->
-	<div class="min-h-[300px] rounded-b-md bg-neutral-100">
+	<div class="min-h-[400px] bg-white">
 		{#each tabs as section}
 			{#if selectedTab === section}
 				<section
-					in:fade={{ duration: 300 }}
+					in:fade={{ duration: 200 }}
 					id={section}
-					class="!sm:p-0 {selectedTab === section ? 'block' : 'hidden'}"
+					class={selectedTab === section ? 'block' : 'hidden'}
 					aria-labelledby={`${section}-tab`}
 				>
-					<Card
-						className="md:bg-white md:border-0 md:shadow-md rounded-b-md rounded-none md:p-4 sm:p-2"
-					>
+					<div class="py-6">
 						{#if section === 'Comments'}
 							{#if !data?.flags?.userHasAnswered}
-								<p
-									class="my-8 text-center text-2xl font-semibold text-primary-500 sm:my-4 sm:text-lg md:my-6 md:text-xl"
-									in:fade={{ duration: 200 }}
-								>
-									{_data.comment_count === 0
-										? 'Be the first one to answer ✋'
-										: 'Must answer before seeing the comments'}
-								</p>
+								<div class="flex flex-col items-center justify-center py-16">
+									<div
+										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-neutral-100"
+									>
+										<svg
+											class="h-8 w-8 text-neutral-600"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+											/>
+										</svg>
+									</div>
+									<p
+										class="text-center text-xl font-medium text-neutral-900 sm:text-lg"
+										in:fade={{ duration: 200 }}
+									>
+										{_data.comment_count === 0
+											? 'Be the first to share your perspective'
+											: 'Share your perspective to unlock comments'}
+									</p>
+									<p class="mt-2 text-sm text-neutral-500">
+										{_data.comment_count > 0
+											? `${_data.comment_count} perspectives waiting to be revealed`
+											: 'Your unique viewpoint matters'}
+									</p>
+								</div>
 							{:else}
 								<!-- AI-Generated Comments -->
 								<AIComments data={_data} parentType={'question'} {showAiComments} />
-								<div class="mb-3 flex items-center gap-4">
+								<div class="mb-4 flex items-center justify-between px-4">
 									<SortComments
 										data={_data}
 										on:commentsSorted={({ detail }) => sortComments(detail)}
-										size={'large'}
+										size={'medium'}
 									/>
 								</div>
 
@@ -196,25 +218,76 @@
 									{user}
 								/>
 							{:else}
-								<h2
-									class="relative mb-4 py-2 text-center text-xl font-semibold text-neutral-900 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-[60px] after:-translate-x-1/2 after:rounded-sm after:bg-primary-500 after:content-['']"
-								>
-									None
-								</h2>
+								<div class="flex flex-col items-center justify-center py-16">
+									<div
+										class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-neutral-100"
+									>
+										<svg
+											class="h-7 w-7 text-neutral-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+											/>
+										</svg>
+									</div>
+									<p class="text-center text-lg font-medium text-neutral-600">
+										No removed comments
+									</p>
+								</div>
 							{/if}
 						{:else if section === 'Visuals'}
 							{#if data?.flags?.userHasAnswered}
-								<h2
-									class="relative mb-4 py-2 text-center text-xl font-semibold text-neutral-900 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-[60px] after:-translate-x-1/2 after:rounded-sm after:bg-primary-500 after:content-['']"
-								>
-									None
-								</h2>
+								<div class="flex flex-col items-center justify-center py-16">
+									<div
+										class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-neutral-100"
+									>
+										<svg
+											class="h-7 w-7 text-neutral-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+											/>
+										</svg>
+									</div>
+									<p class="text-center text-lg font-medium text-neutral-600">
+										No visuals available
+									</p>
+								</div>
 							{:else}
-								<p
-									class="my-8 text-center text-2xl font-semibold text-primary-500 sm:my-4 sm:text-lg md:my-6 md:text-xl"
-								>
-									Answer the question to see content
-								</p>
+								<div class="flex flex-col items-center justify-center py-16">
+									<div
+										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-neutral-100"
+									>
+										<svg
+											class="h-8 w-8 text-neutral-600"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+											/>
+										</svg>
+									</div>
+									<p class="text-center text-xl font-medium text-neutral-900 sm:text-lg">
+										Share your perspective to unlock content
+									</p>
+								</div>
 							{/if}
 						{:else if section === 'Articles'}
 							<ArticleLinks
@@ -225,7 +298,7 @@
 								on:commentAdded={handleCommentAdded}
 							/>
 						{/if}
-					</Card>
+					</div>
 				</section>
 			{/if}
 		{/each}

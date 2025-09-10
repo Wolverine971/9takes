@@ -71,6 +71,7 @@ These patterns saved you then. They're killing you now.
 **Your trauma response:** Fight against imperfection while freezing your emotions. You turned anger inward until your jaw locked and shoulders became armor. Your inner critic is a prison guard who never sleeps.
 
 **How it shows up now:**
+
 - OCD behaviors that feel like life or death
 - Can't relax without guilt
 - Body holds so much tension you're basically a human fist
@@ -85,6 +86,7 @@ These patterns saved you then. They're killing you now.
 **Anger work:** You're sitting on rage. Find safe ways to let it move—boxing, screaming in your car, breaking plates in a controlled setting.
 
 **Daily medicine:**
+
 - Morning mantra: "I am already enough"
 - Scheduled fuck-up time (yes, really)
 - One thing done badly on purpose
@@ -100,6 +102,7 @@ These patterns saved you then. They're killing you now.
 **Your trauma response:** Fawn until you're invisible, then fight for scraps of connection. You people-please compulsively while your heart literally hurts from giving itself away.
 
 **How it shows up now:**
+
 - Can't identify a single need without checking everyone else first
 - Resentment volcano waiting to explode
 - Manipulation tactics when desperate
@@ -114,6 +117,7 @@ These patterns saved you then. They're killing you now.
 **Solo missions:** Take yourself on dates. Journal about YOUR desires. Create art no one will see.
 
 **Daily medicine:**
+
 - Morning question: "What do I need?" (not want—NEED)
 - Say no without explaining why
 - Receive one thing without reciprocating
@@ -129,6 +133,7 @@ These patterns saved you then. They're killing you now.
 **Your trauma response:** Flight into achievement, fighting anyone in your way. You're running so fast from your feelings that burnout is inevitable. Your identity is a LinkedIn profile.
 
 **How it shows up now:**
+
 - Impostor syndrome is your roommate
 - Rest feels like death
 - Without achievements, you don't exist
@@ -143,6 +148,7 @@ These patterns saved you then. They're killing you now.
 **EMDR for achievement trauma:** Process the moments when love became conditional.
 
 **Daily medicine:**
+
 - Meditation without measuring progress
 - Share one real failure daily
 - Celebrate existing, not achieving
@@ -158,6 +164,7 @@ These patterns saved you then. They're killing you now.
 **Your trauma response:** Freeze in melancholy, flee into fantasy. You're drowning in feelings while searching for an identity that feels real. Your suffering became your identity.
 
 **How it shows up now:**
+
 - Depression is your baseline
 - Identity changes hourly
 - Self-sabotage when things go well
@@ -172,6 +179,7 @@ These patterns saved you then. They're killing you now.
 **EMDR for abandonment:** Process the original wound without reliving it.
 
 **Daily medicine:**
+
 - Gratitude for one ordinary thing
 - Body scan when emotions flood
 - Same routine for 30 days straight
@@ -187,6 +195,7 @@ These patterns saved you then. They're killing you now.
 **Your trauma response:** Freeze and withdraw, flee into your head. You're so disconnected from your body you forget to eat. Isolation is oxygen.
 
 **How it shows up now:**
+
 - Social interaction drains you in minutes
 - Your body is a stranger
 - Hoarding knowledge like it's food
@@ -201,6 +210,7 @@ These patterns saved you then. They're killing you now.
 **Window of tolerance work:** Learn your capacity without exceeding it.
 
 **Daily medicine:**
+
 - 5-minute body scan
 - Text one human
 - State one need out loud
@@ -216,6 +226,7 @@ These patterns saved you then. They're killing you now.
 **Your trauma response:** All of them, randomly. Fight, flight, freeze, fawn—you never know which until it happens. Hypervigilance is exhausting but stopping feels dangerous.
 
 **How it shows up now:**
+
 - Anxiety is your co-pilot
 - Can't trust yourself or others
 - Analysis paralysis on every decision
@@ -230,6 +241,7 @@ These patterns saved you then. They're killing you now.
 **Build inner authority:** IFS to find your own guidance system.
 
 **Daily medicine:**
+
 - Morning grounding: 5 things you can see, 4 you can touch
 - Write facts vs. fears
 - One brave thing daily
@@ -255,6 +267,7 @@ These patterns saved you then. They're killing you now.
 **Your trauma response:** Flight is life. Stay busy, stay high, stay anywhere but here. Your addiction isn't to substances—it's to escape itself.
 
 **How it shows up now:**
+
 - Multiple addictions (substances, experiences, people)
 - Grief is kryptonite
 - FOMO runs your life
@@ -269,6 +282,7 @@ These patterns saved you then. They're killing you now.
 **EMDR:** Let your brain process trauma without the story.
 
 **Daily medicine:**
+
 - 5 minutes of stillness (yes, it'll feel like torture)
 - Write what you actually feel
 - One real conversation weekly
@@ -284,6 +298,7 @@ These patterns saved you then. They're killing you now.
 **Your trauma response:** Fight everything, deny you can freeze or fawn. Dominate or be dominated. Your body is armor, your anger is a weapon, vulnerability is death.
 
 **How it shows up now:**
+
 - Can't say "I need help"
 - Relationships die from your intensity
 - Anger is your only emotion
@@ -298,6 +313,7 @@ These patterns saved you then. They're killing you now.
 **EMDR for betrayal:** Process the original wound.
 
 **Daily medicine:**
+
 - Name one fear out loud
 - Touch yourself gently
 - Ask for help with something small
@@ -313,6 +329,7 @@ These patterns saved you then. They're killing you now.
 **Your trauma response:** Freeze into numbness, fawn until you vanish. You forgot yourself so thoroughly you don't know who you are. Anger is buried so deep it comes out sideways.
 
 **How it shows up now:**
+
 - Dissociation is your default
 - Identity? What identity?
 - Anger terrifies you
@@ -327,6 +344,7 @@ These patterns saved you then. They're killing you now.
 **Bioenergetics:** Your anger is life force, not danger.
 
 **Daily medicine:**
+
 - Morning body wake-up routine
 - State one preference (coffee or tea counts)
 - Hourly check: "Am I here?"
@@ -383,6 +401,7 @@ Practice different responses. Build new habits. Make meaning from the mess.
 ## When to Get Professional Help
 
 **Now. Get help now if:**
+
 - You're thinking about ending it
 - Substances are your only coping
 - Relationships are imploding
@@ -418,6 +437,7 @@ But here's the thing: You're not in danger anymore. The war is over, but you're 
 Your Enneagram type shows you exactly how you survived—and exactly how to heal. The pattern that saved you is now the prison. But you built it, which means you can dismantle it.
 
 **The non-negotiables:**
+
 - Healing happens in relationship
 - The body keeps the score
 - You can't think your way out

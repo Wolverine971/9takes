@@ -51,11 +51,11 @@
 	<meta property="og:image:type" content="image/png" />
 </svelte:head>
 
-<div class="max-w-md mx-auto mt-8 p-4">
-	<h1 class="text-center mb-8 text-2xl text-primary-700">Reset Password</h1>
+<div class="mx-auto mt-8 max-w-md p-4">
+	<h1 class="mb-8 text-center text-2xl text-primary-700">Reset Password</h1>
 
 	{#if form?.success || showSuccessMessage}
-		<div class="bg-success-100 text-success-700 p-4 rounded mb-4 text-center">
+		<div class="mb-4 rounded bg-success-100 p-4 text-center text-success-700">
 			<p>{form?.message || 'Password has been reset successfully!'}</p>
 			<p>Redirecting to login page...</p>
 		</div>
@@ -82,36 +82,36 @@
 					bind:value={password}
 					required
 					minlength="6"
-					class="p-2 border border-neutral-300 rounded focus:outline-none focus:border-primary-700 focus:ring-2 focus:ring-primary-400/20 transition-all duration-300"
+					class="rounded border border-neutral-300 p-2 transition-all duration-300 focus:border-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400/20"
 				/>
 				{#if password && !isValidPassword}
-					<div class="text-error-500 text-sm mt-1">Password must be at least 6 characters</div>
+					<div class="mt-1 text-sm text-error-500">Password must be at least 6 characters</div>
 				{/if}
 			</div>
 
 			<div class="flex flex-col gap-2">
 				<label for="confirmPassword" class="font-bold text-neutral-800">Confirm Password</label>
-				<input 
-					type="password" 
-					id="confirmPassword" 
-					bind:value={confirmPassword} 
-					required 
-					class="p-2 border border-neutral-300 rounded focus:outline-none focus:border-primary-700 focus:ring-2 focus:ring-primary-400/20 transition-all duration-300"
+				<input
+					type="password"
+					id="confirmPassword"
+					bind:value={confirmPassword}
+					required
+					class="rounded border border-neutral-300 p-2 transition-all duration-300 focus:border-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400/20"
 				/>
 				{#if confirmPassword && !passwordsMatch}
-					<div class="text-error-500 text-sm mt-1">Passwords do not match</div>
+					<div class="mt-1 text-sm text-error-500">Passwords do not match</div>
 				{/if}
 			</div>
 
 			{#if form?.error}
-				<div class="text-error-500 text-sm">
+				<div class="text-sm text-error-500">
 					{form.error}
 				</div>
 			{/if}
 
-			<button 
-				type="submit" 
-				class="bg-primary-700 text-white px-4 py-2 border-none rounded cursor-pointer text-base transition-colors duration-200 hover:bg-primary-800 disabled:opacity-70 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2" 
+			<button
+				type="submit"
+				class="cursor-pointer rounded border-none bg-primary-700 px-4 py-2 text-base text-white transition-colors duration-200 hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70"
 				disabled={!canSubmit}
 			>
 				{submitting ? 'Resetting Password...' : 'Reset Password'}
@@ -119,7 +119,7 @@
 		</form>
 	{/if}
 
-	<div class="text-center mt-4">
+	<div class="mt-4 text-center">
 		<a href="/login" class="text-primary-700 no-underline hover:underline">Back to Login</a>
 	</div>
 </div>

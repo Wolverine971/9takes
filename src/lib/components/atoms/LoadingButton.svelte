@@ -60,7 +60,7 @@
 
 <style lang="scss">
 	.loading-button {
-		@apply relative inline-flex items-center justify-center gap-2 font-medium border-none rounded-md cursor-pointer whitespace-nowrap;
+		@apply relative inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-md border-none font-medium;
 		transition: all 0.2s ease;
 
 		&--primary {
@@ -96,15 +96,15 @@
 		}
 
 		&--sm {
-			@apply py-1 px-3 text-sm;
+			@apply px-3 py-1 text-sm;
 		}
 
 		&--md {
-			@apply py-2 px-4 text-base;
+			@apply px-4 py-2 text-base;
 		}
 
 		&--lg {
-			@apply py-3 px-6 text-lg;
+			@apply px-6 py-3 text-lg;
 		}
 
 		&--full-width {
