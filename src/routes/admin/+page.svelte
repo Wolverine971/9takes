@@ -32,40 +32,31 @@
 		getModal('confirmReindex').close();
 	};
 
-	// Get user's timezone offset in milliseconds
-	const getTimezoneOffset = () => {
-		return new Date().getTimezoneOffset() * 60 * 1000;
-	};
-
-	// Transform visitor data for chart with timezone-adjusted dates
+	// Transform visitor data for chart
 	$: visitorChartData = data.dailyVisitors
 		? data.dailyVisitors
 				.map((visitor) => {
-					// Parse the date string and adjust for user's timezone
-					const serverDate = new Date(visitor.days);
-					// Adjust the date to the user's timezone for proper 24-hour boundaries
-					const userTimezoneDate = new Date(serverDate.getTime() - getTimezoneOffset());
+					// Parse the date string directly
+					const date = new Date(visitor.days);
 					return {
-						x: userTimezoneDate.getTime(), // Use timezone-adjusted timestamp for x value
+						x: date.getTime(), // Use timestamp for x value
 						y: visitor.number_of_visitors,
-						label: `${userTimezoneDate.toLocaleDateString()}: ${visitor.number_of_visitors} visitors`
+						label: `${date.toLocaleDateString()}: ${visitor.number_of_visitors} visitors`
 					};
 				})
 				.sort((a, b) => a.x - b.x)
 		: []; // Sort by date ascending
 
-	// Transform comment data for chart with timezone-adjusted dates
+	// Transform comment data for chart
 	$: commentChartData = data.dailyComments
 		? data.dailyComments
 				.map((comment) => {
-					// Parse the date string and adjust for user's timezone
-					const serverDate = new Date(comment.days);
-					// Adjust the date to the user's timezone for proper 24-hour boundaries
-					const userTimezoneDate = new Date(serverDate.getTime() - getTimezoneOffset());
+					// Parse the date string directly
+					const date = new Date(comment.days);
 					return {
-						x: userTimezoneDate.getTime(), // Use timezone-adjusted timestamp for x value
+						x: date.getTime(), // Use timestamp for x value
 						y: comment.number_of_comments,
-						label: `${userTimezoneDate.toLocaleDateString()}: ${comment.number_of_comments} comments`
+						label: `${date.toLocaleDateString()}: ${comment.number_of_comments} comments`
 					};
 				})
 				.sort((a, b) => a.x - b.x)
