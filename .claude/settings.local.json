@@ -1,9 +1,19 @@
 {
-	"permissions": {
-		"allow": ["WebSearch", "Bash(grep:*)", "Bash(node:*)", "Read(//Users/annawayne/Desktop/**)"],
-		"deny": [],
-		"ask": [],
-		"defaultMode": "acceptEdits",
-		"additionalDirectories": ["C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"]
-	}
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(grep:*)",
+      "Bash(node:*)",
+      "Read(//Users/annawayne/Desktop/**)",
+      "Bash(npm install:*)",
+      "Bash(env)",
+      "Bash(psql:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"
+    ]
+  }
 }

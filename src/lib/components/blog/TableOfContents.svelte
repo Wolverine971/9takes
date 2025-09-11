@@ -19,6 +19,7 @@
 	export let maxH3sPerSection: number = 3;
 	export let alwaysShowFirstH3: boolean = true;
 	export let sidePosition: 'left' | 'right' | 'none' = 'left'; // New prop to control side position
+	export let renderMode: 'both' | 'sidebar-only' | 'accordion-only' = 'both'; // Control which version renders
 
 	// Smart format detection thresholds
 	const FORMAT_THRESHOLDS = {
@@ -628,7 +629,7 @@
 	});
 </script>
 
-{#if showSidebar && sidebarPosition}
+{#if showSidebar && sidebarPosition && (renderMode === 'both' || renderMode === 'sidebar-only')}
 	<aside
 		class="toc-sidebar"
 		style="{sidebarPosition.left
@@ -644,7 +645,7 @@
 	</aside>
 {/if}
 
-{#if toc}
+{#if toc && (renderMode === 'both' || renderMode === 'accordion-only')}
 	<details class="toc-accordion" open>
 		<summary class="toc-summary">{title}</summary>
 		<div class="toc-accordion-content">

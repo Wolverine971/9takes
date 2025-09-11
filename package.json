@@ -20,7 +20,7 @@
 		"label-paths": "tsx labelFilePaths.ts",
 		"gen:types": "node scripts/generate-types.js",
 		"gen:sitemap": "node scripts/generate-sitemap.js",
-		"gen:all": "pnpm format && pnpm gen:sctx && pnpm gen:types && pnpm gen:sitemap"
+		"gen:all": "pnpm format && pnpm gen:types && pnpm gen:sitemap"
 	},
 	"devDependencies": {
 		"@babel/parser": "^7.27.4",

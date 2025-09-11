@@ -1,5 +1,4 @@
 // src/routes/admin/content-board/+page.server.ts
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
 import { supabase } from '$lib/supabase';
@@ -14,7 +13,7 @@ export const load = async (
 	community: App.BlogPost[];
 	guides: App.BlogPost[];
 }> => {
-	const session = await getServerSession(event);
+	const session = event.locals.session;
 
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');

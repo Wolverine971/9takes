@@ -31,14 +31,14 @@ If you encounter a mismatch:
 - STOP and think deeply about why the plan can't be followed
 - Present the issue clearly:
 
-    ```
-    Issue in Phase [N]:
-    Expected: [what the plan says]
-    Found: [actual situation]
-    Why this matters: [explanation]
+  ```
+  Issue in Phase [N]:
+  Expected: [what the plan says]
+  Found: [actual situation]
+  Why this matters: [explanation]
 
-    How should I proceed?
-    ```
+  How should I proceed?
+  ```
 
 ## Verification Approach
 

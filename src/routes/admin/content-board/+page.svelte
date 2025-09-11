@@ -14,6 +14,14 @@
 	let isDragging = false;
 	let searchQuery = '';
 	let filterUnpublished = false;
+	
+	// Enhanced filtering for people
+	let selectedEnneagramType = '';
+	let selectedAuthor = '';
+	let selectedType = '';
+	let sortBy = 'lastmod';
+	let sortOrder = 'desc';
+	let showSocialMediaOnly = false;
 
 	const contentTypes = ['enneagram', 'community', 'guides', 'people'];
 	const stages = [
@@ -45,18 +53,131 @@
 		});
 	}
 
-	// Filtered data based on search query
+	// Get unique values for filters
+	$: uniqueEnneagramTypes = activeSelection === 'people' && data[activeSelection]
+		? [...new Set(data[activeSelection].map(item => item.enneagram).filter(Boolean))].sort()
+		: [];
+	
+	$: uniqueAuthors = activeSelection === 'people' && data[activeSelection]
+		? [...new Set(data[activeSelection].map(item => item.author).filter(Boolean))].sort()
+		: [];
+	
+	$: uniqueTypes = activeSelection === 'people' && data[activeSelection]
+		? [...new Set(
+			data[activeSelection]
+				.map(item => {
+					// Handle JSONB array - extract all values from the array
+					if (Array.isArray(item.type)) {
+						return item.type;
+					} else if (typeof item.type === 'string') {
+						// Handle case where it might be a string
+						try {
+							const parsed = JSON.parse(item.type);
+							return Array.isArray(parsed) ? parsed : [parsed];
+						} catch {
+							return [item.type];
+						}
+					}
+					return [];
+				})
+				.flat()
+				.filter(Boolean)
+			)].sort()
+		: [];
+
+	// Filtered data based on search query and filters
 	$: filteredData =
 		activeSelection && data[activeSelection]
-			? data[activeSelection].filter((blog) => {
+			? data[activeSelection]
+				.filter((blog) => {
 					const matchesSearch =
 						!searchQuery ||
 						blog.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-						blog.description?.toLowerCase().includes(searchQuery.toLowerCase());
+						blog.description?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+						blog.person?.toLowerCase().includes(searchQuery.toLowerCase());
 
 					const matchesPublished = !filterUnpublished || blog.published;
+					
+					// People-specific filters
+					let matchesEnneagramType = true;
+					let matchesAuthor = true;
+					let matchesType = true;
+					let matchesSocialMedia = true;
+					
+					if (activeSelection === 'people') {
+						matchesEnneagramType = !selectedEnneagramType || blog.enneagram === selectedEnneagramType;
+						matchesAuthor = !selectedAuthor || blog.author === selectedAuthor;
+						matchesSocialMedia = !showSocialMediaOnly || blog.instagram || blog.twitter || blog.tiktok;
+						
+						// Handle type filtering (JSONB array)
+						if (selectedType) {
+							if (Array.isArray(blog.type)) {
+								matchesType = blog.type.includes(selectedType);
+							} else if (typeof blog.type === 'string') {
+								try {
+									const parsed = JSON.parse(blog.type);
+									matchesType = Array.isArray(parsed) ? parsed.includes(selectedType) : parsed === selectedType;
+								} catch {
+									matchesType = blog.type === selectedType;
+								}
+							} else {
+								matchesType = false;
+							}
+						}
+					}
 
-					return matchesSearch && matchesPublished;
+					return matchesSearch && matchesPublished && matchesEnneagramType && matchesAuthor && matchesType && matchesSocialMedia;
+				})
+				.sort((a, b) => {
+					let aValue, bValue;
+					
+					switch(sortBy) {
+						case 'title':
+							aValue = a.title || '';
+							bValue = b.title || '';
+							break;
+						case 'person':
+							aValue = a.person || '';
+							bValue = b.person || '';
+							break;
+						case 'enneagram':
+							aValue = a.enneagram || '';
+							bValue = b.enneagram || '';
+							break;
+						case 'author':
+							aValue = a.author || '';
+							bValue = b.author || '';
+							break;
+						case 'type':
+							// Handle JSONB array sorting - use first type value for sorting
+							const getFirstType = (item) => {
+								if (Array.isArray(item.type)) {
+									return item.type[0] || '';
+								} else if (typeof item.type === 'string') {
+									try {
+										const parsed = JSON.parse(item.type);
+										return Array.isArray(parsed) ? (parsed[0] || '') : parsed || '';
+									} catch {
+										return item.type || '';
+									}
+								}
+								return '';
+							};
+							aValue = getFirstType(a);
+							bValue = getFirstType(b);
+							break;
+						case 'lastmod':
+						default:
+							aValue = new Date(a.lastmod || 0);
+							bValue = new Date(b.lastmod || 0);
+							break;
+					}
+					
+					if (sortOrder === 'asc') {
+						return aValue < bValue ? -1 : aValue > bValue ? 1 : 0;
+					} else {
+						return aValue > bValue ? -1 : aValue < bValue ? 1 : 0;
+					}
 				})
 			: [];
 
@@ -164,74 +285,186 @@
 
 	// Count blogs in each stage for the current content type
 	$: stageCounts = stages.map((_, stageIndex) => {
-		return activeSelection && data[activeSelection]
-			? data[activeSelection].filter((blog) => blog.stage === stageIndex).length
-			: 0;
+		return filteredData.filter((blog) => blog.stage === stageIndex).length;
 	});
+	
+	// Reset filters when switching content types
+	$: if (activeSelection !== 'people') {
+		selectedEnneagramType = '';
+		selectedAuthor = '';
+		selectedType = '';
+		showSocialMediaOnly = false;
+	}
+	
+	function clearFilters() {
+		searchQuery = '';
+		selectedEnneagramType = '';
+		selectedAuthor = '';
+		selectedType = '';
+		showSocialMediaOnly = false;
+		filterUnpublished = false;
+		sortBy = 'lastmod';
+		sortOrder = 'desc';
+	}
 </script>
 
-<div class="content-board-container">
-	<div class="page-header">
-		<h1>Content Board</h1>
-		<p class="subtitle">Manage blog posts and content creation</p>
+<div class="min-h-screen bg-gray-50 p-4">
+	<!-- Header -->
+	<div class="mb-8">
+		<h1 class="text-3xl font-bold text-gray-900 mb-2">Content Board</h1>
+		<p class="text-gray-600">Manage blog posts and content creation</p>
 	</div>
 
-	<div class="content-controls">
-		<div class="content-type-selector">
-			<select
-				bind:value={activeSelection}
-				id="content-type-select"
-				aria-label="Select content type"
-			>
-				{#each contentTypes as type}
-					<option value={type}>{type.charAt(0).toUpperCase() + type.slice(1)}</option>
-				{/each}
-			</select>
-		</div>
-
-		<div class="search-filter">
-			<input
-				type="text"
-				bind:value={searchQuery}
-				placeholder="Search content..."
-				aria-label="Search content"
-			/>
-			<label class="filter-checkbox">
-				<input type="checkbox" bind:checked={filterUnpublished} />
-				<span>Published only</span>
-			</label>
+	<!-- Content Type Selector -->
+	<div class="mb-6">
+		<div class="flex flex-wrap gap-2">
+			{#each contentTypes as type}
+				<button
+					class="px-4 py-2 rounded-lg font-medium transition-all duration-200 {activeSelection === type 
+						? 'bg-blue-600 text-white shadow-md' 
+						: 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'}"
+					on:click={() => activeSelection = type}
+				>
+					{type.charAt(0).toUpperCase() + type.slice(1)}
+					<span class="ml-2 text-xs px-2 py-1 rounded-full {activeSelection === type 
+						? 'bg-blue-500 text-blue-100' 
+						: 'bg-gray-200 text-gray-600'}">
+						{data[type]?.length || 0}
+					</span>
+				</button>
+			{/each}
 		</div>
 	</div>
 
-	<h1 class="board-title">
-		{activeSelection.charAt(0).toUpperCase() + activeSelection.slice(1)} Content
-	</h1>
-
-	<div class="trello-board" class:is-dragging={isDragging}>
-		{#each stages as stage, stageIndex}
-			<div
-				class="stage"
-				on:dragover={(event) => dragOver(event, stageIndex)}
-				on:dragleave={dragLeave}
-				on:drop={async (event) => await drop(event, stageIndex, activeSelection)}
-				role="region"
-				aria-labelledby={`stage-${stageIndex}-heading`}
+	<!-- Enhanced Controls -->
+	<div class="bg-white rounded-lg border border-gray-200 p-6 mb-6">
+		<div class="flex flex-wrap gap-4 items-center justify-between">
+			<!-- Search -->
+			<div class="flex-1 min-w-64">
+				<input
+					type="text"
+					bind:value={searchQuery}
+					placeholder="Search content..."
+					class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+				/>
+			</div>
+			
+			<!-- Sort Controls -->
+			<div class="flex gap-2 items-center">
+				<select bind:value={sortBy} class="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+					<option value="lastmod">Date Modified</option>
+					<option value="title">Title</option>
+					{#if activeSelection === 'people'}
+						<option value="person">Person</option>
+						<option value="enneagram">Enneagram Type</option>
+						<option value="author">Author</option>
+						<option value="type">Type</option>
+					{/if}
+				</select>
+				<button 
+					class="px-3 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 focus:ring-2 focus:ring-blue-500"
+					on:click={() => sortOrder = sortOrder === 'asc' ? 'desc' : 'asc'}
+				>
+					{sortOrder === 'asc' ? '↑' : '↓'}
+				</button>
+			</div>
+			
+			<!-- Clear Filters -->
+			<button 
+				class="px-4 py-2 text-gray-600 hover:text-gray-800 underline"
+				on:click={clearFilters}
 			>
-				<div class="stage-header">
-					<h2 id={`stage-${stageIndex}-heading`}>{stage}</h2>
-					<span class="count-badge">{stageCounts[stageIndex]}</span>
+				Clear All
+			</button>
+		</div>
+		
+		<!-- Enhanced People Filters -->
+		{#if activeSelection === 'people'}
+			<div class="mt-4 pt-4 border-t border-gray-200">
+				<div class="flex flex-wrap gap-4 items-center">
+					<!-- Enneagram Type Filter -->
+					<div class="flex items-center gap-2">
+						<label class="text-sm font-medium text-gray-700">Type:</label>
+						<select bind:value={selectedEnneagramType} class="px-3 py-1 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500">
+							<option value="">All Types</option>
+							{#each uniqueEnneagramTypes as type}
+								<option value={type}>Type {type}</option>
+							{/each}
+						</select>
+					</div>
+					
+					<!-- Author Filter -->
+					<div class="flex items-center gap-2">
+						<label class="text-sm font-medium text-gray-700">Author:</label>
+						<select bind:value={selectedAuthor} class="px-3 py-1 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500">
+							<option value="">All Authors</option>
+							{#each uniqueAuthors as author}
+								<option value={author}>{author}</option>
+							{/each}
+						</select>
+					</div>
+					
+					<!-- Type Filter -->
+					<div class="flex items-center gap-2">
+						<label class="text-sm font-medium text-gray-700">Type:</label>
+						<select bind:value={selectedType} class="px-3 py-1 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500">
+							<option value="">All Types</option>
+							{#each uniqueTypes as type}
+								<option value={type}>{type}</option>
+							{/each}
+						</select>
+					</div>
+					
+					<!-- Checkboxes -->
+					<label class="flex items-center gap-2 text-sm">
+						<input type="checkbox" bind:checked={showSocialMediaOnly} class="rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+						<span class="text-gray-700">Has Social Media</span>
+					</label>
+					
+					<label class="flex items-center gap-2 text-sm">
+						<input type="checkbox" bind:checked={filterUnpublished} class="rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+						<span class="text-gray-700">Published Only</span>
+					</label>
 				</div>
+			</div>
+		{:else}
+			<div class="mt-4 pt-4 border-t border-gray-200">
+				<label class="flex items-center gap-2 text-sm">
+					<input type="checkbox" bind:checked={filterUnpublished} class="rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+					<span class="text-gray-700">Published Only</span>
+				</label>
+			</div>
+		{/if}
+		
+		<!-- Results Summary -->
+		<div class="mt-4 pt-4 border-t border-gray-200 text-sm text-gray-600">
+			Showing {filteredData.length} of {data[activeSelection]?.length || 0} items
+		</div>
+	</div>
 
-				{#if activeSelection && data[activeSelection]}
-					<div class="stage-content">
-						{#each filteredData
-							.filter((blog) => blog.stage === stageIndex)
-							.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod)) as blog, index}
+	<!-- Kanban Board -->
+	<div class="overflow-x-auto">
+		<div class="flex gap-4 min-w-max pb-4" class:cursor-grabbing={isDragging}>
+			{#each stages as stage, stageIndex}
+				<div
+					class="w-80 bg-gray-100 rounded-lg p-4 transition-all duration-200 hover:bg-gray-200 {isDragging ? 'ring-2 ring-blue-300' : ''}"
+					on:dragover={(event) => dragOver(event, stageIndex)}
+					on:dragleave={dragLeave}
+					on:drop={async (event) => await drop(event, stageIndex, activeSelection)}
+					role="region"
+					aria-labelledby={`stage-${stageIndex}-heading`}
+				>
+					<div class="flex items-center justify-between mb-4">
+						<h2 id={`stage-${stageIndex}-heading`} class="font-semibold text-gray-800">{stage}</h2>
+						<span class="bg-gray-300 text-gray-700 text-sm px-2 py-1 rounded-full">{stageCounts[stageIndex]}</span>
+					</div>
+
+					<div class="space-y-3 max-h-96 overflow-y-auto">
+						{#each filteredData.filter((blog) => blog.stage === stageIndex) as blog, index}
 							{#if blog.title}
 								<div
-									class="card"
-									class:expanded={expandedBlogTitle === blog.title}
-									class:published={blog.published}
+									class="bg-white rounded-lg border-l-4 {blog.published ? 'border-green-500' : 'border-yellow-500'} p-4 shadow-sm hover:shadow-md transition-all duration-200 cursor-grab {expandedBlogTitle === blog.title ? 'ring-2 ring-blue-300' : ''}"
+									class:cursor-grabbing={isDragging}
 									draggable={expandedBlogTitle !== blog.title}
 									on:dragstart={(event) => dragStart(event, blog)}
 									on:dragend={dragEnd}
@@ -239,318 +472,74 @@
 									aria-labelledby={`blog-title-${stageIndex}-${index}`}
 									transition:fade={{ duration: 100 }}
 								>
-									<div class="card-header">
-										<h3 id={`blog-title-${stageIndex}-${index}`} class="card-title">
-											{blog.title}
-										</h3>
+									<div class="flex items-start justify-between">
+										<div class="flex-1">
+											<h3 id={`blog-title-${stageIndex}-${index}`} class="font-medium text-gray-900 text-sm mb-1">
+												{blog.title}
+											</h3>
+											
+											<!-- People-specific info -->
+											{#if activeSelection === 'people'}
+												<div class="flex flex-wrap gap-1 mb-2">
+													{#if blog.person}
+														<span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">{blog.person}</span>
+													{/if}
+													{#if blog.enneagram}
+														<span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">Type {blog.enneagram}</span>
+													{/if}
+													{#if blog.type}
+														{#each (Array.isArray(blog.type) ? blog.type : (typeof blog.type === 'string' ? (() => { try { return JSON.parse(blog.type); } catch { return [blog.type]; } })() : [])) as typeItem}
+															<span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">{typeItem}</span>
+														{/each}
+													{/if}
+												</div>
+												
+												
+											{/if}
+											
+											<div class="text-xs text-gray-500 mt-1">
+												{new Date(blog.lastmod).toLocaleDateString()}
+											</div>
+										</div>
+										
 										<button
 											type="button"
-											class="toggle-button"
+											class="text-gray-400 hover:text-gray-600 ml-2"
 											on:click={() => expand(blog)}
 											aria-expanded={expandedBlogTitle === blog.title}
 											aria-controls={`blog-content-${stageIndex}-${index}`}
-											aria-label={expandedBlogTitle === blog.title
-												? 'Collapse details'
-												: 'Expand details'}
+											aria-label={expandedBlogTitle === blog.title ? 'Collapse details' : 'Expand details'}
 										>
-											<svelte:component
-												this={expandedBlogTitle === blog.title ? DownIcon : RightIcon}
-											/>
+											<svelte:component this={expandedBlogTitle === blog.title ? DownIcon : RightIcon} />
 										</button>
 									</div>
 
 									{#if expandedBlogTitle === blog.title}
 										<div
 											id={`blog-content-${stageIndex}-${index}`}
-											class="card-content"
+											class="mt-3 pt-3 border-t border-gray-200"
 											transition:slide={{ duration: 200 }}
 										>
-											<ContentCard blogContent={blog} {stage} />
+											<ContentCard blogContent={blog} {stage} contentType={activeSelection} />
 										</div>
 									{/if}
 								</div>
 							{/if}
 						{:else}
-							<div class="empty-state">
+							<div class="p-8 text-center text-gray-500 bg-gray-50 rounded-lg border-2 border-dashed border-gray-300">
 								<p>No content in this stage</p>
 							</div>
 						{/each}
 					</div>
-				{/if}
-			</div>
-		{/each}
+				</div>
+			{/each}
+		</div>
 	</div>
 </div>
 
-<style lang="scss">
-	.content-board-container {
-		max-width: max-content;
-		display: flex;
-		flex-direction: column;
-		height: 100%;
-		max-width: 100%;
-		width: 100%;
-		background-color: #f9fafb;
-		padding: 1rem;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-	}
-
-	.nav-header {
-		margin-bottom: 1.5rem;
-		padding-bottom: 1rem;
-		border-bottom: 1px solid #e5e7eb;
-
-		.nav-links {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 1rem;
-
-			a {
-				color: var(--neutral-600);
-				text-decoration: none;
-				padding: 0.5rem 0.75rem;
-				border-radius: 4px;
-				transition: all 0.2s ease;
-
-				&:hover {
-					background-color: #f3f4f6;
-					color: var(--neutral-800);
-				}
-
-				&.active-link {
-					color: #4f46e5;
-					font-weight: 600;
-					background-color: rgba(79, 70, 229, 0.1);
-				}
-			}
-		}
-	}
-
-	.content-controls {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 1.5rem;
-		flex-wrap: wrap;
-		gap: 1rem;
-
-		.content-type-selector select {
-			padding: 0.5rem 1rem;
-			border-radius: 4px;
-			border: 1px solid #d1d5db;
-			background-color: white;
-			min-width: 150px;
-			cursor: pointer;
-
-			&:focus {
-				outline: 2px solid #4f46e5;
-				border-color: transparent;
-			}
-		}
-
-		.search-filter {
-			display: flex;
-			gap: 1rem;
-			align-items: center;
-			flex-wrap: wrap;
-
-			input[type='text'] {
-				padding: 0.5rem 1rem;
-				border-radius: 4px;
-				border: 1px solid #d1d5db;
-				min-width: 200px;
-
-				&:focus {
-					outline: 2px solid #4f46e5;
-					border-color: transparent;
-				}
-			}
-
-			.filter-checkbox {
-				display: flex;
-				align-items: center;
-				gap: 0.5rem;
-				cursor: pointer;
-				user-select: none;
-
-				input {
-					cursor: pointer;
-				}
-			}
-		}
-	}
-
-	.board-title {
-		font-size: 1.5rem;
-		font-weight: 600;
-		margin-bottom: 1rem;
-		color: #111827;
-	}
-
-	.trello-board {
-		display: flex;
-
-		gap: 1rem;
-		overflow-x: auto;
-		padding-bottom: 1rem;
-		flex: 1;
-
-		&.is-dragging {
-			cursor: grabbing;
-		}
-
-		@media (min-width: 768px) {
-			grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-		}
-	}
-
-	.stage {
-		display: flex;
-		flex-direction: column;
-		min-width: 200px;
-		box-sizing: content-box;
-		background-color: #f3f4f6;
-		border-radius: 6px;
-		padding: 1rem;
-		min-height: 200px;
-
-		&.drag-over {
-			background-color: #e0e7ff;
-			box-shadow: 0 0 0 2px #4f46e5;
-		}
-
-		.stage-header {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			margin-bottom: 1rem;
-			padding-bottom: 0.5rem;
-			border-bottom: 1px solid #e5e7eb;
-
-			h2 {
-				font-size: 1rem;
-				font-weight: 600;
-				margin: 0;
-				color: var(--neutral-600);
-			}
-
-			.count-badge {
-				background-color: #e5e7eb;
-				color: var(--neutral-600);
-				font-size: 0.75rem;
-				font-weight: 600;
-				padding: 0.25rem 0.5rem;
-				border-radius: 9999px;
-			}
-		}
-
-		.stage-content {
-			flex: 1;
-			display: flex;
-			flex-direction: column;
-			gap: 0.75rem;
-			overflow-y: auto;
-			max-height: 70vh;
-		}
-	}
-
-	.card {
-		background-color: white;
-		border-radius: 4px;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-		transition: all 0.2s ease;
-		margin: 0.5rem;
-		padding: 0;
-
-		&:hover {
-			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-		}
-
-		&.expanded {
-			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-		}
-
-		&.dragging {
-			opacity: 0.7;
-			transform: scale(1.05);
-			box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-		}
-
-		&.published {
-			border-left: 3px solid #10b981;
-		}
-
-		&:not(.published) {
-			border-left: 3px solid #f59e0b;
-		}
-
-		.card-header {
-			padding: 0.75rem;
-			cursor: grab;
-
-			&:active {
-				cursor: grabbing;
-			}
-		}
-
-		.card-title {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			font-size: 0.875rem;
-			font-weight: 600;
-			margin: 0;
-			color: #1f2937;
-
-			.toggle-button {
-				background: none;
-				border: none;
-				cursor: pointer;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				color: var(--neutral-600);
-
-				&:hover {
-					color: #4f46e5;
-				}
-
-				&:focus {
-					outline: 2px solid #4f46e5;
-					outline-offset: 2px;
-				}
-			}
-		}
-
-		.card-content {
-			border-top: 1px solid #f3f4f6;
-			padding: 0.75rem;
-		}
-	}
-
-	.empty-state {
-		padding: 1.5rem;
-		text-align: center;
-		color: #6b7280;
-		background-color: #f9fafb;
-		border-radius: 4px;
-		border: 1px dashed #d1d5db;
-	}
-
-	@media (max-width: 768px) {
-		.content-controls {
-			flex-direction: column;
-			align-items: stretch;
-
-			.search-filter {
-				flex-direction: column;
-				align-items: stretch;
-			}
-		}
-
-		.nav-header .nav-links {
-			justify-content: center;
-		}
+<style>
+	/* Custom drag-over styles */
+	:global(.drag-over) {
+		@apply bg-blue-100 ring-2 ring-blue-500;
 	}
 </style>

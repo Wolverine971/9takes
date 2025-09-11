@@ -972,7 +972,7 @@
 </url>
 <url>
     <loc>https://9takes.com/pop-culture/dark-triad-meets-enneagram</loc>
-    <lastmod>2025-01-23T00:00:00.000Z</lastmod>
+    <lastmod>2025-09-07T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1364,15 +1364,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Sydney-Sweeney.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Taylor-Swift</loc>
-    <lastmod>2025-03-02T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Taylor-Swift.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2336,6 +2327,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/6s/Tom-Hanks.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Taylor-Swift</loc>
+    <lastmod>2025-09-11T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Taylor-Swift.webp</image:loc>
     </image:image>
 </url>
 <url>

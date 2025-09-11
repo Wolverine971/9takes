@@ -276,8 +276,12 @@
 			subtext=""
 		/>
 	</div>
-
-	
+	<TableOfContents
+		{contentStore}
+		pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
+		sidePosition="right"
+		renderMode="accordion-only"
+	/>
 
 	<div class="article-body">
 		{@html post.content}
@@ -288,6 +292,7 @@
 	{contentStore}
 	pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
 	sidePosition="right"
+	renderMode="sidebar-only"
 />
 <!-- Sidebar components - positioned absolutely -->
 <div class="sidebar-container">

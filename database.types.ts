@@ -126,6 +126,41 @@ export type Database = {
 					}
 				];
 			};
+			blogs_famous_people_history: {
+				Row: {
+					changed_at: string;
+					changed_by: string | null;
+					famous_people_id: number;
+					id: number;
+					new_content: string | null;
+					old_content: string | null;
+				};
+				Insert: {
+					changed_at?: string;
+					changed_by?: string | null;
+					famous_people_id: number;
+					id?: number;
+					new_content?: string | null;
+					old_content?: string | null;
+				};
+				Update: {
+					changed_at?: string;
+					changed_by?: string | null;
+					famous_people_id?: number;
+					id?: number;
+					new_content?: string | null;
+					old_content?: string | null;
+				};
+				Relationships: [
+					{
+						foreignKeyName: 'blogs_famous_people_history_famous_people_id_fkey';
+						columns: ['famous_people_id'];
+						isOneToOne: false;
+						referencedRelation: 'blogs_famous_people';
+						referencedColumns: ['id'];
+					}
+				];
+			};
 			blogs_famous_people: {
 				Row: {
 					author: string | null;

@@ -2,6 +2,7 @@
 <script lang="ts">
 	export let blogContent: App.BlogPost = null;
 	export let stage = null;
+	export let contentType: string = '';
 
 	// Define stages that allow content retrieval
 	const stagesContentRetrieval = ['Sent out for review', 'Reviewed', 'Socialized', 'Growing'];
@@ -18,6 +19,9 @@
 		console.log('Get Update for', blogContent.title);
 		// Add your update logic here
 	}
+
+	// Check if this is a blog from the famous people table (has version history)
+	$: hasVersionHistory = contentType === 'people' && blogContent.id;
 </script>
 
 <div class="panel">
@@ -41,6 +45,10 @@
 	<div class="actions">
 		{#if blogContent.loc}
 			<a href={blogContent.loc.replace('https://9takes.com', '')} class="link-btn">View</a>
+		{/if}
+
+		{#if hasVersionHistory}
+			<a href="/admin/blog-diff/{blogContent.id}" class="link-btn version-btn">View Versions</a>
 		{/if}
 
 		<details>
@@ -126,6 +134,15 @@
 
 		&:hover {
 			background: #e0e0e0;
+		}
+
+		&.version-btn {
+			background: #e6f3ff;
+			color: #0066cc;
+
+			&:hover {
+				background: #cce6ff;
+			}
 		}
 	}
 

@@ -1,0 +1,117 @@
+// src/routes/api/blog-versions/[id]/+server.ts
+import { json } from '@sveltejs/kit';
+import type { RequestHandler } from './$types';
+import { supabase } from '$lib/supabase';
+import { readFileSync, existsSync, statSync } from 'fs';
+import { join } from 'path';
+
+export const GET: RequestHandler = async ({ params }) => {
+	const blogId = parseInt(params.id as string);
+
+	if (isNaN(blogId)) {
+		return json({ error: 'Invalid blog ID' }, { status: 400 });
+	}
+
+	try {
+		// Get the current blog post
+		const { data: currentBlog, error: currentError } = await supabase
+			.from('blogs_famous_people')
+			.select('id, person, title, content, lastmod')
+			.eq('id', blogId)
+			.single();
+
+		if (currentError) {
+			console.error('Error fetching current blog:', currentError);
+			return json({ error: 'Blog not found' }, { status: 404 });
+		}
+
+		// Get the version history
+		const { data: history, error: historyError } = await supabase
+			.from('blogs_famous_people_history')
+			.select('id, old_content, new_content, changed_at, changed_by')
+			.eq('famous_people_id', blogId)
+			.order('changed_at', { ascending: false });
+
+		if (historyError) {
+			console.error('Error fetching blog history:', historyError);
+			return json({ error: 'Failed to fetch version history' }, { status: 500 });
+		}
+
+		// Check for draft file
+		let draftContent: string | null = null;
+		let draftModified: Date | null = null;
+		
+		const draftPath = join(process.cwd(), 'src', 'blog', 'people', 'drafts', `${currentBlog.person}.md`);
+		
+		if (existsSync(draftPath)) {
+			try {
+				draftContent = readFileSync(draftPath, 'utf-8');
+				const stats = statSync(draftPath);
+				draftModified = stats.mtime;
+				
+				// Extract content after frontmatter
+				const frontmatterEnd = draftContent.indexOf('---', 4);
+				if (frontmatterEnd !== -1) {
+					draftContent = draftContent.substring(frontmatterEnd + 3).trim();
+				}
+			} catch (err) {
+				console.error('Error reading draft file:', err);
+				// Continue without draft if file can't be read
+			}
+		}
+
+		// Build versions array with current version, draft, and history
+		const versions = [];
+
+		// Add current version as the most recent (unless draft is newer)
+		const currentVersionNumber = history.length + (draftContent ? 2 : 1);
+		versions.push({
+			id: 'current',
+			content: currentBlog.content,
+			changed_at: currentBlog.lastmod,
+			changed_by: null,
+			version_number: draftContent ? currentVersionNumber - 1 : currentVersionNumber,
+			is_current: !draftContent,
+			source: 'database'
+		});
+
+		// Add draft version if it exists (as the most recent)
+		if (draftContent) {
+			versions.unshift({
+				id: 'draft',
+				content: draftContent,
+				changed_at: draftModified?.toISOString() || new Date().toISOString(),
+				changed_by: null,
+				version_number: currentVersionNumber,
+				is_current: true,
+				source: 'draft'
+			});
+		}
+
+		// Add historical versions
+		history.forEach((historyItem, index) => {
+			versions.push({
+				id: historyItem.id,
+				content: historyItem.new_content,
+				changed_at: historyItem.changed_at,
+				changed_by: historyItem.changed_by,
+				version_number: history.length - index,
+				is_current: false,
+				source: 'history'
+			});
+		});
+
+		return json({
+			blog: {
+				id: currentBlog.id,
+				person: currentBlog.person,
+				title: currentBlog.title
+			},
+			versions,
+			hasDraft: !!draftContent
+		});
+	} catch (error) {
+		console.error('Unexpected error:', error);
+		return json({ error: 'Internal server error' }, { status: 500 });
+	}
+};
