@@ -40,15 +40,22 @@ export const GET: RequestHandler = async ({ params }) => {
 		// Check for draft file
 		let draftContent: string | null = null;
 		let draftModified: Date | null = null;
-		
-		const draftPath = join(process.cwd(), 'src', 'blog', 'people', 'drafts', `${currentBlog.person}.md`);
-		
+
+		const draftPath = join(
+			process.cwd(),
+			'src',
+			'blog',
+			'people',
+			'drafts',
+			`${currentBlog.person}.md`
+		);
+
 		if (existsSync(draftPath)) {
 			try {
 				draftContent = readFileSync(draftPath, 'utf-8');
 				const stats = statSync(draftPath);
 				draftModified = stats.mtime;
-				
+
 				// Extract content after frontmatter
 				const frontmatterEnd = draftContent.indexOf('---', 4);
 				if (frontmatterEnd !== -1) {

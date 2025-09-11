@@ -72,11 +72,11 @@
 									{/if}
 								</div>
 							</div>
-							
+
 							{#if draft.description}
 								<p class="draft-description">{draft.description}</p>
 							{/if}
-							
+
 							<div class="draft-footer">
 								<div class="draft-dates">
 									{#if draft.lastmod}
@@ -90,7 +90,7 @@
 										</span>
 									{/if}
 								</div>
-								
+
 								<div class="draft-actions">
 									<span class="view-draft">
 										View Draft
@@ -147,7 +147,7 @@
 				padding: 0.75rem 1.5rem;
 				border-radius: 8px;
 				border: 1px solid #e9ecef;
-				
+
 				strong {
 					color: #2d3436;
 				}

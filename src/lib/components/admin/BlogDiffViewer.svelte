@@ -135,7 +135,7 @@
 
 	$: {
 		// Reactively update diff when content changes
-		leftContent, rightContent;
+		(leftContent, rightContent);
 		updateDiff();
 	}
 
@@ -166,9 +166,9 @@
 	}
 </script>
 
-<div class="diff-viewer border rounded-lg overflow-hidden">
+<div class="diff-viewer overflow-hidden rounded-lg border">
 	<!-- Header -->
-	<div class="bg-gray-100 px-4 py-2 border-b">
+	<div class="border-b bg-gray-100 px-4 py-2">
 		<div class="grid grid-cols-2 gap-4">
 			<div class="font-medium text-gray-800">{leftTitle}</div>
 			<div class="font-medium text-gray-800">{rightTitle}</div>
@@ -178,17 +178,21 @@
 	<!-- Diff Content -->
 	<div class="diff-content bg-white">
 		{#each diffLines as line, index}
-			<div class="grid grid-cols-2 gap-0 min-h-[1.5rem] {getLineClass(line.type)}">
+			<div class="grid min-h-[1.5rem] grid-cols-2 gap-0 {getLineClass(line.type)}">
 				<!-- Left Side -->
 				<div class="flex">
 					{#if line.leftLineNumber}
-						<div class="w-12 bg-gray-50 text-xs text-gray-500 px-2 py-1 border-r flex-shrink-0 text-right">
+						<div
+							class="w-12 flex-shrink-0 border-r bg-gray-50 px-2 py-1 text-right text-xs text-gray-500"
+						>
 							{line.leftLineNumber}
 						</div>
 					{:else}
-						<div class="w-12 bg-gray-100 border-r flex-shrink-0"></div>
+						<div class="w-12 flex-shrink-0 border-r bg-gray-100"></div>
 					{/if}
-					<div class="px-3 py-1 flex-1 {getTextClass(line.type)} font-mono text-sm whitespace-pre-wrap">
+					<div
+						class="flex-1 px-3 py-1 {getTextClass(line.type)} whitespace-pre-wrap font-mono text-sm"
+					>
 						{line.leftText || ''}
 					</div>
 				</div>
@@ -196,13 +200,17 @@
 				<!-- Right Side -->
 				<div class="flex border-l">
 					{#if line.rightLineNumber}
-						<div class="w-12 bg-gray-50 text-xs text-gray-500 px-2 py-1 border-r flex-shrink-0 text-right">
+						<div
+							class="w-12 flex-shrink-0 border-r bg-gray-50 px-2 py-1 text-right text-xs text-gray-500"
+						>
 							{line.rightLineNumber}
 						</div>
 					{:else}
-						<div class="w-12 bg-gray-100 border-r flex-shrink-0"></div>
+						<div class="w-12 flex-shrink-0 border-r bg-gray-100"></div>
 					{/if}
-					<div class="px-3 py-1 flex-1 {getTextClass(line.type)} font-mono text-sm whitespace-pre-wrap">
+					<div
+						class="flex-1 px-3 py-1 {getTextClass(line.type)} whitespace-pre-wrap font-mono text-sm"
+					>
 						{line.rightText || ''}
 					</div>
 				</div>
@@ -216,7 +224,7 @@
 		max-height: 70vh;
 		overflow-y: auto;
 	}
-	
+
 	.diff-content {
 		font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
 	}

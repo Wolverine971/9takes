@@ -100,7 +100,7 @@ importers:
         version: 2.1.1
       openai:
         specifier: ^4.62.1
-        version: 4.104.0(encoding@0.1.13)(ws@8.18.3)(zod@4.1.1)
+        version: 4.104.0(encoding@0.1.13)(ws@8.18.3)(zod@3.25.76)
       pluralize:
         specifier: ^8.0.0
         version: 8.0.0
@@ -135,8 +135,8 @@ importers:
         specifier: ^3.5.2
         version: 3.5.2
       zod:
-        specifier: ^4.0.5
-        version: 4.1.1
+        specifier: ^3.25.76
+        version: 3.25.76
     devDependencies:
       '@babel/parser':
         specifier: ^7.27.4
@@ -5885,8 +5885,8 @@ packages:
     resolution: {integrity: sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==}
     engines: {node: '>=12.20'}
 
-  zod@4.1.1:
-    resolution: {integrity: sha512-SgMZK/h8Tigt9nnKkfJMvB/mKjiJXaX26xegP4sa+0wHIFVFWVlsQGdhklDmuargBD3Hsi3rsQRIzwJIhTPJHA==}
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
 snapshots:
 
@@ -9715,7 +9715,7 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  openai@4.104.0(encoding@0.1.13)(ws@8.18.3)(zod@4.1.1):
+  openai@4.104.0(encoding@0.1.13)(ws@8.18.3)(zod@3.25.76):
     dependencies:
       '@types/node': 18.19.123
       '@types/node-fetch': 2.6.13
@@ -9726,7 +9726,7 @@ snapshots:
       node-fetch: 2.7.0(encoding@0.1.13)
     optionalDependencies:
       ws: 8.18.3
-      zod: 4.1.1
+      zod: 3.25.76
     transitivePeerDependencies:
       - encoding
 
@@ -11506,4 +11506,4 @@ snapshots:
 
   yocto-queue@1.2.1: {}
 
-  zod@4.1.1: {}
+  zod@3.25.76: {}

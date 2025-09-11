@@ -125,13 +125,14 @@ Then wait for the user's input.
 - Save the draft to `/src/blog/people/drafts/[Person-Name].md` for preview
 - **IMPORTANT**: Use the person's name as the filename (e.g., "Taylor-Swift.md")
 - Inform user that draft has been created and provide preview instructions:
+
   ```
-  Draft created successfully! 
-  
+  Draft created successfully!
+
   📁 Location: /src/blog/people/drafts/[Person-Name].md
   🔍 Preview: Visit /admin/drafts to browse all drafts
   👀 View: Visit /admin/drafts/[Person-Name] to review this specific draft
-  
+
   Options:
   1. Make specific edits (tell me what to change)
   2. Regenerate specific sections

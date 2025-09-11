@@ -23,7 +23,8 @@
 
 <SEOHead
 	title="Draft: {data.frontmatter.title || data.person} - Admin Panel | 9takes"
-	description="Review draft: {data.frontmatter.description || 'Celebrity personality analysis draft'}"
+	description="Review draft: {data.frontmatter.description ||
+		'Celebrity personality analysis draft'}"
 	canonical="https://9takes.com/admin/drafts/{data.slug}"
 	robots="noindex, nofollow"
 />
@@ -32,11 +33,7 @@
 	<div class="draft-header">
 		<div class="navigation">
 			<a href="/admin/drafts" class="back-link">
-				<ArrowLeftIcon
-					iconStyle={'margin-right: .5rem'}
-					height={'1rem'}
-					fill={'currentColor'}
-				/>
+				<ArrowLeftIcon iconStyle={'margin-right: .5rem'} height={'1rem'} fill={'currentColor'} />
 				Back to Drafts
 			</a>
 		</div>
@@ -49,9 +46,9 @@
 				{/if}
 				<span class="status-badge draft">DRAFT</span>
 			</div>
-			
+
 			<h1>{data.frontmatter.title || `${data.person} Personality Analysis`}</h1>
-			
+
 			{#if data.frontmatter.description}
 				<p class="draft-description">{data.frontmatter.description}</p>
 			{/if}
@@ -64,19 +61,19 @@
 							<span>{formatDate(data.frontmatter.date)}</span>
 						</div>
 					{/if}
-					
+
 					{#if data.frontmatter.lastmod}
 						<div class="stat-item">
 							<label>Last Modified</label>
 							<span>{formatDate(data.frontmatter.lastmod)}</span>
 						</div>
 					{/if}
-					
+
 					<div class="stat-item">
 						<label>Word Count</label>
 						<span>{getWordCount('')}</span>
 					</div>
-					
+
 					{#if data.frontmatter.author}
 						<div class="stat-item">
 							<label>Author</label>
@@ -88,12 +85,8 @@
 		</div>
 
 		<div class="draft-actions">
-			<button class="btn btn-secondary" type="button">
-				Edit Draft
-			</button>
-			<button class="btn btn-primary" type="button">
-				Publish to Database
-			</button>
+			<button class="btn btn-secondary" type="button"> Edit Draft </button>
+			<button class="btn btn-primary" type="button"> Publish to Database </button>
 		</div>
 	</div>
 
@@ -326,7 +319,8 @@
 				color: #495057;
 			}
 
-			:global(ul), :global(ol) {
+			:global(ul),
+			:global(ol) {
 				margin: 1rem 0 1.5rem 0;
 				padding-left: 2rem;
 

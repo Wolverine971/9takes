@@ -17,11 +17,11 @@ export const load: PageLoad = async () => {
 	);
 
 	const posts = await Promise.all(postPromises);
-	
+
 	// Sort by last modified date, most recent first
 	posts.sort((a, b) => (new Date(a.lastmod || a.date) > new Date(b.lastmod || b.date) ? -1 : 1));
 
-	return { 
+	return {
 		drafts: posts
 	};
 };
