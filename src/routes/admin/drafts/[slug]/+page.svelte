@@ -2,7 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
-	import ArrowLeftIcon from '$lib/components/icons/arrowLeftIcon.svelte';
+	import ArrowLeftIcon from '$lib/components/icons/leftIcon.svelte';
 
 	export let data: PageData;
 
