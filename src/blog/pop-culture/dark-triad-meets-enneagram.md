@@ -2,9 +2,9 @@
 title: 'The Dark Triad Meets the Enneagram: When Personality Turns Pathological'
 description: "Explore how narcissism, psychopathy, and Machiavellianism manifest through each Enneagram type. From Nixon's paranoid Type 3 to Dahmer's dissociative Type 9."
 author: 'DJ Wayne'
-date: '2025-01-23'
+date: '2025-09-07'
 loc: 'https://9takes.com/pop-culture/dark-triad-meets-enneagram'
-lastmod: '2025-01-23'
+lastmod: '2025-09-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -650,8 +650,8 @@ Remember: If you recognize concerning patterns in yourself or others, seek profe
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-01-23",
-      "datePublished": "2025-01-23",
+      "dateModified": "2025-09-07",
+      "datePublished": "2025-09-07",
       "description": "Explore how narcissism, psychopathy, and Machiavellianism manifest through each Enneagram type. From Nixon's paranoid Type 3 to Dahmer's dissociative Type 9.",
       "headline": "The Dark Triad Meets the Enneagram: When Personality Turns Pathological",
       "image": {

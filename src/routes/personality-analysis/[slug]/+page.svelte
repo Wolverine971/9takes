@@ -277,11 +277,7 @@
 		/>
 	</div>
 
-	<TableOfContents
-		{contentStore}
-		pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
-		sidePosition="right"
-	/>
+	
 
 	<div class="article-body">
 		{@html post.content}
@@ -293,7 +289,6 @@
 	pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
 	sidePosition="right"
 />
-
 <!-- Sidebar components - positioned absolutely -->
 <div class="sidebar-container">
 	{#if post.suggestions?.length}
