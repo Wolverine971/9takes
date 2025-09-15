@@ -109,7 +109,7 @@
 				</svg>
 			</button>
 		{/if}
-		<div class="max-h-[85vh] overflow-y-auto">
+		<div class="max-h-[85vh] overflow-y-auto p-6 sm:p-8">
 			<slot />
 		</div>
 	</div>

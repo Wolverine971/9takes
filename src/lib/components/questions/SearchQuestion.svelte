@@ -242,18 +242,23 @@
 
 <style lang="scss">
 	/* Variables for consistent styling */
-	$breakpoint-mobile: 768px;
+	$breakpoint-mobile: 640px;
 	$transition-fast: 0.2s ease;
 	$transition-standard: 0.3s ease;
 
 	.search-form {
 		display: flex;
-		gap: 1rem;
+		gap: 0.75rem;
 		width: 100%;
 		align-items: flex-start;
+		
+		@media (min-width: $breakpoint-mobile) {
+			gap: 1rem;
+		}
 	}
 
 	.search-wrapper {
+		width: 100%;
 		flex: 1;
 		min-width: 0;
 	}
@@ -461,13 +466,13 @@
 	@media (max-width: $breakpoint-mobile) {
 		.search-form {
 			flex-direction: column;
-			gap: 0.75rem;
+			gap: 0.5rem;
 		}
 
 		.search-button {
 			width: 100%;
-			padding: 0.875rem 1.25rem;
-			font-size: 1rem;
+			padding: 0.75rem 1rem;
+			font-size: 0.9375rem;
 		}
 
 		:global(.search-container input) {

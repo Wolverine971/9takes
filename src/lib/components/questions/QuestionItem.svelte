@@ -89,7 +89,7 @@
 
 <a
 	href="/questions/{questionData.url}"
-	class="greek-question-card my-1 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded px-4 py-3 text-inherit no-underline transition-all duration-200 will-change-auto"
+	class="greek-question-card my-1 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded px-3 sm:px-4 py-2.5 sm:py-3 text-inherit no-underline transition-all duration-200 will-change-auto"
 	class:focus:outline-primary-light={true}
 	class:focus:outline-offset-2={true}
 	class:w-full={showDetails}
@@ -102,7 +102,7 @@
 		<!-- Optional philosopher quote mark -->
 		<div class="flex items-start">
 			<p
-				class="font-greek-body m-0 line-clamp-2 overflow-hidden text-ellipsis break-words"
+				class="font-greek-body m-0 line-clamp-2 overflow-hidden text-ellipsis break-words text-sm sm:text-base"
 				style:--tag={`h-question-${questionData.question.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
 			>
 				{displayQuestion}
@@ -112,19 +112,19 @@
 
 	{#if showDetails}
 		<div
-			class="xs:flex-col xs:items-end xs:gap-1 flex flex-shrink-0 items-center gap-2 sm:flex-row sm:items-center"
+			class="flex flex-shrink-0 flex-col items-end gap-1 xs:flex-row xs:items-center xs:gap-2 sm:flex-row sm:items-center"
 		>
-			<span class="flex min-w-[2.5rem] items-center font-bold text-gray-800">
-				<span class="min-w-4 text-right">{questionData.comment_count || ''}</span>
+			<span class="flex min-w-[2rem] sm:min-w-[2.5rem] items-center text-xs sm:text-sm font-bold text-gray-800">
+				<span class="min-w-3 sm:min-w-4 text-right">{questionData.comment_count || ''}</span>
 				<MasterCommentIcon
-					iconStyle="margin-left: 0.25rem; min-width: 1.25rem; min-height: 1.25rem;"
-					height="1.25rem"
+					iconStyle="margin-left: 0.25rem; min-width: 1rem; min-height: 1rem;"
+					height="1rem"
 					fill={commentColor}
 					type={questionData.comment_count ? 'multiple' : 'empty'}
 				/>
 			</span>
 			<span
-				class="xs:py-0.5 xs:px-2 xs:text-xs xs:min-w-14 flex min-w-16 justify-center rounded border border-neutral-300 bg-white px-0.5 py-0.5 text-center text-sm"
+				class="flex min-w-12 xs:min-w-14 sm:min-w-16 justify-center rounded border border-neutral-300 bg-white px-1.5 xs:px-2 py-0.5 text-center text-xs sm:text-sm"
 			>
 				{formattedDate}
 			</span>

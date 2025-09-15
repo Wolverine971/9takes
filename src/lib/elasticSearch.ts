@@ -48,7 +48,8 @@ export const createESQuestion = async (body: {
 			return { success: false };
 		}
 	} catch (e) {
-		// Error handling
+		console.error('Failed to create ES question:', e);
+		throw new Error(`Elasticsearch indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
 	}
 };
 
@@ -67,7 +68,8 @@ export const deleteESQuestion = async (body: { questionId: string }) => {
 			return { success: false };
 		}
 	} catch (e) {
-		// Error handling
+		console.error('Failed to delete ES question:', e);
+		throw new Error(`Elasticsearch deletion failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
 	}
 };
 
@@ -89,7 +91,8 @@ export const addESQuestionLike = async ({
 			}
 		});
 	} catch (e) {
-		// Error handling
+		console.error('Failed to update ES question likes:', e);
+		// Non-critical operation, don't throw
 	}
 };
 
@@ -113,7 +116,8 @@ export const addESSubscription = async ({
 			}
 		});
 	} catch (e) {
-		// Error handling
+		console.error('Failed to update ES subscription:', e);
+		// Non-critical operation, don't throw
 	}
 };
 
@@ -202,7 +206,8 @@ export const addESComment = async ({
 				return resp;
 			});
 	} catch (e) {
-		// Error handling
+		console.error('Failed to add ES comment:', e);
+		throw new Error(`Elasticsearch comment indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
 	}
 };
 
@@ -224,6 +229,7 @@ export const addESCommentLike = async ({
 			}
 		});
 	} catch (e) {
-		// Error handling
+		console.error('Failed to update ES comment likes:', e);
+		// Non-critical operation, don't throw
 	}
 };

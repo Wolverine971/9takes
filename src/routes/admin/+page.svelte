@@ -21,15 +21,50 @@
 		isDemoTime = !isDemoTime;
 	};
 
+	let isReindexing = false;
+	
 	const reindexEverything = async () => {
+		isReindexing = true;
 		let body = new FormData();
 
-		await fetch('?/reindexEverything', {
-			method: 'POST',
-			body
-		});
-		notifications.info('Reindexed Questions', 3000);
-		getModal('confirmReindex').close();
+		try {
+			const response = await fetch('?/reindexEverything', {
+				method: 'POST',
+				body
+			});
+			
+			const result = await response.json();
+			
+			if (response.ok && result.data) {
+				const data = JSON.parse(result.data);
+				
+				if (data.success) {
+					notifications.success(data.message || `Successfully reindexed ${data.indexed} questions`, 5000);
+				} else if (data.failed > 0) {
+					notifications.warning(
+						`Reindexing completed with errors: ${data.indexed} succeeded, ${data.failed} failed out of ${data.total} total`, 
+						8000
+					);
+					if (data.failedQuestions?.length > 0) {
+						console.error('Failed to reindex questions:', data.failedQuestions);
+					}
+				} else {
+					notifications.info(data.message || 'Reindexing completed', 3000);
+				}
+			} else {
+				const errorData = result.error || {};
+				notifications.error(
+					errorData.message || 'Failed to reindex questions. Check server logs for details.', 
+					5000
+				);
+			}
+		} catch (err) {
+			console.error('Reindexing error:', err);
+			notifications.error('Failed to reindex questions. Please check your Elasticsearch connection.', 5000);
+		} finally {
+			isReindexing = false;
+			getModal('confirmReindex').close();
+		}
 	};
 
 	// Transform visitor data for chart
@@ -316,17 +351,40 @@
 				type="button"
 				class="btn btn-secondary"
 				on:click={() => getModal('confirmReindex').open()}
+				disabled={isReindexing}
 			>
-				Reindex Elastic Search
+				{isReindexing ? 'Reindexing...' : 'Reindex Elastic Search'}
 			</button>
 		</div>
 	</div>
 </div>
 
 <Modal2 id="confirmReindex">
-	<h1>Reindex elastic</h1>
-	Are you sure?
-	<button type="button" class="btn btn-primary" on:click={reindexEverything}>yes</button>
+	<h2 style="margin: 0 0 1rem 0; font-size: 1.5rem;">Reindex Elasticsearch</h2>
+	<p style="margin-bottom: 1.5rem;">
+		This will rebuild the Elasticsearch index for all questions. This process may take a few moments depending on the number of questions.
+	</p>
+	<p style="margin-bottom: 1.5rem; color: var(--warning);">
+		<strong>Note:</strong> Make sure Elasticsearch is running and accessible before proceeding.
+	</p>
+	<div style="display: flex; gap: 1rem; justify-content: flex-end;">
+		<button 
+			type="button" 
+			class="btn btn-secondary" 
+			on:click={() => getModal('confirmReindex').close()}
+			disabled={isReindexing}
+		>
+			Cancel
+		</button>
+		<button 
+			type="button" 
+			class="btn btn-primary" 
+			on:click={reindexEverything}
+			disabled={isReindexing}
+		>
+			{isReindexing ? 'Reindexing...' : 'Start Reindexing'}
+		</button>
+	</div>
 </Modal2>
 
 <style>
@@ -644,10 +702,16 @@
 		text-decoration: none;
 	}
 
-	.btn-secondary:hover {
+	.btn-secondary:hover:not(:disabled) {
 		background-color: var(--secondary-dark);
 		transform: translateY(-2px);
 		box-shadow: var(--shadow-md);
+	}
+
+	.btn-secondary:disabled,
+	.btn-primary:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
 	}
 
 	/* Responsive Design */

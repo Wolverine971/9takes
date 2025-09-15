@@ -212,13 +212,27 @@ export const actions: Actions = {
 				.single();
 
 			if (!user?.admin) {
-				// throw redirect(307, '/questions');
 				throw error(400, 'unauthorized');
 			}
 
 			const { data: questions } = await supabase.from('questions').select('*');
-			if (questions?.length) {
-				for await (const question of questions) {
+			
+			if (!questions?.length) {
+				return { 
+					success: false,
+					message: 'No questions found to reindex',
+					indexed: 0,
+					failed: 0,
+					total: 0
+				};
+			}
+
+			let successCount = 0;
+			let failureCount = 0;
+			const failedQuestions: string[] = [];
+
+			for (const question of questions) {
+				try {
 					const resp: any = await createESQuestion({
 						question: question.question,
 						author_id: question.author_id,
@@ -236,15 +250,37 @@ export const actions: Actions = {
 							.eq('id', question.id);
 
 						if (updateQuestionError) {
-							// Handle update question error
+							console.error(`Failed to update es_id for question ${question.id}:`, updateQuestionError);
+							failureCount++;
+							failedQuestions.push(question.url);
+						} else {
+							successCount++;
 						}
+					} else {
+						failureCount++;
+						failedQuestions.push(question.url);
 					}
+				} catch (indexError) {
+					console.error(`Failed to index question ${question.id}:`, indexError);
+					failureCount++;
+					failedQuestions.push(question.url);
 				}
-				return { success: true };
 			}
+
+			return { 
+				success: failureCount === 0,
+				message: failureCount > 0 
+					? `Reindexing completed with errors. Successfully indexed ${successCount} out of ${questions.length} questions.`
+					: `Successfully reindexed all ${successCount} questions.`,
+				indexed: successCount,
+				failed: failureCount,
+				total: questions.length,
+				failedQuestions: failureCount > 0 ? failedQuestions.slice(0, 10) : undefined // Return first 10 failed questions
+			};
 		} catch (e) {
-			throw error(400, {
-				message: `Failed to update demo ${JSON.stringify(e)}`
+			console.error('Reindexing failed:', e);
+			throw error(500, {
+				message: `Failed to reindex questions: ${e instanceof Error ? e.message : 'Unknown error'}`
 			});
 		}
 	}

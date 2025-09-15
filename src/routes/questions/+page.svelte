@@ -252,41 +252,41 @@
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
 	<div
-		class="mx-auto max-w-6xl rounded-lg border border-neutral-200 bg-white p-4 shadow-md"
+		class="mx-auto max-w-6xl overflow-x-hidden rounded-lg border border-neutral-200 bg-white p-2 sm:p-4 shadow-md"
 		class:no-animation={!transitionEnabled}
 		in:fade={{ duration }}
 	>
 		<!-- Header Section -->
-		<header class="mb-8 text-center">
+		<header class="mb-6 sm:mb-8 text-center px-2 sm:px-4">
 			{#if data?.user?.id}
 				<h1
-					class="mb-4 text-2xl font-bold text-neutral-800"
+					class="mb-3 sm:mb-4 text-xl sm:text-2xl font-bold text-neutral-800 break-words"
 					in:fly={{ y: -20, duration, delay: 150 }}
 				>
 					Explore your psychology and those around you
 				</h1>
 			{:else}
 				<h1
-					class="mb-4 text-2xl font-bold text-neutral-800"
+					class="mb-3 sm:mb-4 text-xl sm:text-2xl font-bold text-neutral-800 break-words"
 					in:fly={{ y: -20, duration, delay: 150 }}
 				>
 					Explore your psychology and those around you
 				</h1>
 
-				<div class="mt-6" in:fly={{ y: 20, duration, delay: 300 }}>
-					<p class="mx-auto mb-6 max-w-4xl leading-relaxed text-neutral-600">
+				<div class="mt-4 sm:mt-6" in:fly={{ y: 20, duration, delay: 300 }}>
+					<p class="mx-auto mb-4 sm:mb-6 max-w-4xl text-sm sm:text-base leading-relaxed text-neutral-600">
 						Welcome to 9takes, where you can ask personal questions anonymously and receive answers
 						from diverse perspectives. Our unique platform allows you to explore life's questions
 						through the lens of personality types, ensuring a rich and varied discussion.
 					</p>
-					<div class="flex justify-center gap-12">
-						<div class="flex flex-col items-center gap-1">
-							<strong class="text-2xl text-primary-700">{data.totalQuestions || 0}</strong>
-							<span class="text-sm text-neutral-600">questions asked</span>
+					<div class="flex justify-center gap-6 sm:gap-8 md:gap-12">
+						<div class="flex flex-col items-center gap-0.5 sm:gap-1">
+							<strong class="text-lg sm:text-xl md:text-2xl text-primary-700">{data.totalQuestions || 0}</strong>
+							<span class="text-xs sm:text-sm text-neutral-600">questions asked</span>
 						</div>
-						<div class="flex flex-col items-center gap-1">
-							<strong class="text-2xl text-primary-700">{data.totalAnswers || 0}</strong>
-							<span class="text-sm text-neutral-600">answers shared</span>
+						<div class="flex flex-col items-center gap-0.5 sm:gap-1">
+							<strong class="text-lg sm:text-xl md:text-2xl text-primary-700">{data.totalAnswers || 0}</strong>
+							<span class="text-xs sm:text-sm text-neutral-600">answers shared</span>
 						</div>
 					</div>
 				</div>
@@ -294,7 +294,7 @@
 		</header>
 
 		<!-- Search Section -->
-		<div class="relative z-20 mb-8" in:fly={{ y: 20, duration, delay: 450 }}>
+		<div class="relative z-20 mb-6 sm:mb-8 px-2 sm:px-0" in:fly={{ y: 20, duration, delay: 450 }}>
 			<SearchQuestion
 				{data}
 				on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
@@ -308,18 +308,18 @@
 
 		<!-- Categories Section -->
 		<section
-			class="mb-6 rounded-xl border border-neutral-200 bg-gradient-to-b from-neutral-50 to-white p-4 shadow-sm"
+			class="mb-4 sm:mb-6 mx-2 sm:mx-0 rounded-xl border border-neutral-200 bg-gradient-to-b from-neutral-50 to-white p-3 sm:p-4 shadow-sm"
 			in:fly={{ y: 20, duration, delay: 600 }}
 		>
-			<div class="mb-3 flex items-center justify-between">
-				<h2 class="text-base font-semibold text-neutral-800">Browse by Category</h2>
+			<div class="mb-2 sm:mb-3 flex items-center justify-between">
+				<h2 class="text-sm sm:text-base font-semibold text-neutral-800">Browse by Category</h2>
 				<span class="text-xs text-neutral-600">{displayedCategories.length} categories</span>
 			</div>
 			<div
-				class="max-h-30 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-neutral-400 scrollbar-thumb-rounded flex flex-wrap gap-1.5 overflow-y-auto p-1"
+				class="max-h-32 sm:max-h-30 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-neutral-400 scrollbar-thumb-rounded flex flex-wrap gap-1 sm:gap-1.5 overflow-y-auto overflow-x-hidden p-0.5 sm:p-1"
 			>
 				<button
-					class="flex-shrink-0 whitespace-nowrap rounded-full border border-neutral-300 bg-white px-3.5 py-1.5 text-sm font-medium text-neutral-800 transition-all duration-150 hover:border-primary-700 hover:bg-primary-50 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60"
+					class="flex-shrink-0 whitespace-nowrap rounded-full border border-neutral-300 bg-white px-2.5 sm:px-3.5 py-1 sm:py-1.5 text-xs sm:text-sm font-medium text-neutral-800 transition-all duration-150 hover:border-primary-700 hover:bg-primary-50 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60"
 					class:!bg-primary-700={selectedCategory === null}
 					class:!text-white={selectedCategory === null}
 					class:!border-primary-700={selectedCategory === null}
@@ -330,7 +330,7 @@
 				</button>
 				{#each displayedCategories as category (category.id)}
 					<button
-						class="flex-shrink-0 whitespace-nowrap rounded-full border border-neutral-300 bg-white px-3.5 py-1.5 text-sm font-medium text-neutral-800 transition-all duration-150 hover:border-primary-700 hover:bg-primary-50 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60"
+						class="flex-shrink-0 whitespace-nowrap rounded-full border border-neutral-300 bg-white px-2.5 sm:px-3.5 py-1 sm:py-1.5 text-xs sm:text-sm font-medium text-neutral-800 transition-all duration-150 hover:border-primary-700 hover:bg-primary-50 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60"
 						class:!bg-primary-700={selectedCategory === category.id}
 						class:!text-white={selectedCategory === category.id}
 						class:!border-primary-700={selectedCategory === category.id}
@@ -360,7 +360,7 @@
 
 		<!-- Questions List -->
 		<section
-			class="min-h-75 rounded-lg border border-neutral-200 bg-white p-5"
+			class="min-h-75 mx-2 sm:mx-0 rounded-lg border border-neutral-200 bg-white p-3 sm:p-5"
 			in:fly={{ y: 20, duration, delay: 750 }}
 		>
 			{#if loading}
@@ -373,7 +373,7 @@
 			{:else if selectedCategory}
 				<!-- Filtered view -->
 				<div class="flex flex-col gap-1.5">
-					<h3 class="border-b border-neutral-100 pb-1 text-base font-semibold text-neutral-800">
+					<h3 class="border-b border-neutral-100 pb-1 text-sm sm:text-base font-semibold text-neutral-800">
 						{displayedCategories.find((c) => c.id === selectedCategory)?.category_name ||
 							'Category'}
 					</h3>
@@ -390,7 +390,7 @@
 				{#each Object.entries(categories) as [categoryName, questions]}
 					<div class="mb-6 last:mb-0">
 						<h3
-							class="scroll-mt-4 border-b border-neutral-100 pb-1 text-base font-semibold text-neutral-800"
+							class="scroll-mt-4 border-b border-neutral-100 pb-1 text-sm sm:text-base font-semibold text-neutral-800"
 							id={categoryName.replace(/\s+/g, '-')}
 						>
 							{categoryName}
@@ -423,18 +423,18 @@
 		<!-- How It Works Section (for non-users) -->
 		{#if !data?.user?.id}
 			<section
-				class="mt-8 rounded-lg border border-neutral-200 bg-neutral-50 p-6"
+				class="mt-6 sm:mt-8 mx-2 sm:mx-0 rounded-lg border border-neutral-200 bg-neutral-50 p-4 sm:p-6"
 				in:fly={{ y: 20, duration, delay: 900 }}
 			>
-				<h2 class="mb-4 text-xl font-semibold text-neutral-800">How It Works</h2>
-				<ol class="mb-6 ml-6 space-y-2 text-neutral-600">
+				<h2 class="mb-3 sm:mb-4 text-lg sm:text-xl font-semibold text-neutral-800">How It Works</h2>
+				<ol class="mb-4 sm:mb-6 ml-4 sm:ml-6 space-y-1.5 sm:space-y-2 text-sm sm:text-base text-neutral-600">
 					<li>Anonymously answer questions to see other answers</li>
 					<li><strong>Sign up to ask your questions anonymously</strong></li>
 					<li>Receive answers from diverse perspectives</li>
 					<li>Sort comments by personality type and learn yours</li>
 				</ol>
 				<button
-					class="w-full rounded-lg bg-primary-700 px-6 py-4 text-lg font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2"
+					class="w-full rounded-lg bg-primary-700 px-4 sm:px-6 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2"
 					on:click={() => goToCreateQuestionPage('')}
 					aria-label="Ask your question now"
 				>
@@ -459,11 +459,11 @@
 		}
 	}
 
-	/* Mobile responsive adjustments for stats */
-	@media (max-width: 576px) {
-		.flex.justify-center.gap-12 {
-			flex-direction: column;
-			gap: 1rem;
+	/* Mobile responsive adjustments */
+	@media (max-width: 640px) {
+		/* Prevent horizontal scroll */
+		:global(body) {
+			overflow-x: hidden;
 		}
 	}
 </style>
