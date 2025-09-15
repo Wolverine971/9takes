@@ -1,6 +1,6 @@
 // src/routes/admin/comments/+page.server.ts
-import { Actions, error, redirect, type } from '@sveltejs/kit';
-import { supabase } from '$lib/supabase';
+import {  error, redirect } from '@sveltejs/kit';
+import type { Actions } from './$types';
 import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
 
@@ -22,7 +22,7 @@ const MAX_COMMENTS = 1000;
 /**
  * Validates if a user is an admin and returns the user data
  */
-async function validateAdmin(session, demoTime) {
+async function validateAdmin(session, demoTime, supabase) {
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
@@ -54,7 +54,7 @@ async function validateAdmin(session, demoTime) {
 /**
  * Updates comment counts for parent content after a comment is removed or restored
  */
-async function updateCommentCounts(commentData, demoTime) {
+async function updateCommentCounts(commentData, demoTime, supabase) {
 	try {
 		if (!commentData?.parent_type || !commentData?.parent_id) {
 			console.warn('Missing parent data for comment count update');
@@ -106,7 +106,7 @@ async function updateCommentCounts(commentData, demoTime) {
 /**
  * Get paginated comments with optional filters
  */
-async function getPaginatedComments(table, page = 0, options = {}) {
+async function getPaginatedComments(table, page = 0, options = {}, supabase) {
 	try {
 		const {
 			selectionFields = '*',
@@ -153,13 +153,14 @@ async function getPaginatedComments(table, page = 0, options = {}) {
 export const load: PageServerLoad = async (event) => {
 	try {
 		const session = event.locals.session;
+		const locals = event.locals
 		const { demo_time } = await event.parent();
 		const page = event.url.searchParams.get('page')
 			? parseInt(event.url.searchParams.get('page'))
 			: 0;
 
 		// Validate user is an admin
-		const user = await validateAdmin(session, demo_time);
+		const user = await validateAdmin(session, demo_time, locals.supabase);
 
 		// Table name based on demo mode
 		const commentsTable = demo_time ? 'comments_demo' : 'comments';
@@ -171,7 +172,7 @@ export const load: PageServerLoad = async (event) => {
 			limit: PAGE_SIZE,
 			orderField: 'created_at',
 			orderDirection: { ascending: false }
-		});
+		}, locals.supabase);
 
 		// Load flagged comments
 		const { data: flaggedComments } = await getPaginatedComments('flagged_comments', page, {
@@ -181,12 +182,12 @@ export const load: PageServerLoad = async (event) => {
 				removed_at: null,
 				cleared_at: null
 			}
-		});
+		}, locals.supabase);
 
 		// Load blog comments
 		const { data: blogComments } = await getPaginatedComments('blog_comments', page, {
 			limit: PAGE_SIZE
-		});
+		}, locals.supabase);
 
 		// Process comments to include parent questions
 		const processedComments = comments ? await getCommentParents(comments) : [];
@@ -219,7 +220,7 @@ export const actions: Actions = {
 			const demo_time = await checkDemoTime();
 
 			// Validate user is an admin
-			await validateAdmin(session, demo_time);
+			await validateAdmin(session, demo_time, locals.supabase);
 
 			// Get comment ID from form data
 			const body = Object.fromEntries(await request.formData());
@@ -235,7 +236,7 @@ export const actions: Actions = {
 			// Start a transaction
 			const transaction = async () => {
 				// 1. Update flagged_comments table
-				const { error: flagError } = await supabase
+				const { error: flagError } = await locals.supabase
 					.from('flagged_comments')
 					.update({ removed_at: removedAt })
 					.eq('comment_id', commentId);
@@ -246,7 +247,7 @@ export const actions: Actions = {
 				}
 
 				// 2. Update comments table
-				const { error: removedError } = await supabase
+				const { error: removedError } = await locals.supabase
 					.from(commentsTable)
 					.update({ removed: true, removed_at: removedAt })
 					.eq('id', commentId);
@@ -257,7 +258,7 @@ export const actions: Actions = {
 				}
 
 				// 3. Get the comment data for updating counts
-				const { data: comment, error: commentError } = await supabase
+				const { data: comment, error: commentError } = await locals.supabase
 					.from(commentsTable)
 					.select('*')
 					.eq('id', commentId)
@@ -269,7 +270,7 @@ export const actions: Actions = {
 				}
 
 				// 4. Update comment counts for parent content
-				await updateCommentCounts(comment, demo_time);
+				await updateCommentCounts(comment, demo_time, locals.supabase);
 
 				return comment;
 			};
@@ -292,7 +293,7 @@ export const actions: Actions = {
 			const demo_time = await checkDemoTime();
 
 			// Validate user is an admin
-			await validateAdmin(session, demo_time);
+			await validateAdmin(session, demo_time, locals.supabase);
 
 			// Get comment ID from form data
 			const body = Object.fromEntries(await request.formData());
@@ -308,7 +309,7 @@ export const actions: Actions = {
 			// Start a transaction
 			const transaction = async () => {
 				// 1. Update flagged_comments table
-				const { error: unFlagError } = await supabase
+				const { error: unFlagError } = await locals.supabase
 					.from('flagged_comments')
 					.update({ cleared_at: clearedAt })
 					.eq('comment_id', commentId);
@@ -319,7 +320,7 @@ export const actions: Actions = {
 				}
 
 				// 2. Update comments table
-				const { error: clearedCommentError } = await supabase
+				const { error: clearedCommentError } = await locals.supabase
 					.from(commentsTable)
 					.update({ removed: false, removed_at: null })
 					.eq('id', commentId);
@@ -330,7 +331,7 @@ export const actions: Actions = {
 				}
 
 				// 3. Get the comment data for updating counts
-				const { data: comment, error: commentError } = await supabase
+				const { data: comment, error: commentError } = await locals.supabase
 					.from(commentsTable)
 					.select('*')
 					.eq('id', commentId)
@@ -342,7 +343,7 @@ export const actions: Actions = {
 				}
 
 				// 4. Update comment counts for parent content
-				await updateCommentCounts(comment, demo_time);
+				await updateCommentCounts(comment, demo_time, locals.supabase);
 
 				return comment;
 			};

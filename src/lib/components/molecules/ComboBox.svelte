@@ -151,6 +151,41 @@
 		}
 	}
 
+	// Deduplicate options based on value
+	function deduplicateOptions(optionsList) {
+		const seen = new Set();
+		const deduped = [];
+		
+		for (const option of optionsList) {
+			if (option.options) {
+				// Handle grouped options
+				const dedupedSubOptions = [];
+				const subSeen = new Set();
+				
+				for (const subOption of option.options) {
+					const key = subOption.value || subOption.text;
+					if (!subSeen.has(key)) {
+						subSeen.add(key);
+						dedupedSubOptions.push(subOption);
+					}
+				}
+				
+				if (dedupedSubOptions.length > 0) {
+					deduped.push({ ...option, options: dedupedSubOptions });
+				}
+			} else {
+				// Handle regular options
+				const key = option.value || option.text;
+				if (!seen.has(key)) {
+					seen.add(key);
+					deduped.push(option);
+				}
+			}
+		}
+		
+		return deduped;
+	}
+
 	// Show dropdown list with filtered options
 	async function showList(inputValue) {
 		// Check cache first
@@ -158,7 +193,8 @@
 		if (cachedResults.has(cacheKey)) {
 			list = cachedResults.get(cacheKey);
 		} else {
-			list = inputValue === '' ? options : await filter(inputValue);
+			const filteredList = inputValue === '' ? options : await filter(inputValue);
+			list = deduplicateOptions(filteredList);
 			cachedResults.set(cacheKey, list);
 
 			// Limit cache size to prevent memory issues
@@ -255,14 +291,14 @@
 				bind:this={listElement}
 				tabindex="-1"
 			>
-				{#each list as option, i (option?.value || i)}
+				{#each list as option, i (`${option?.value || option?.text || ''}_${i}`)}
 					{#if option.options}
 						<li class="combobox__group-heading" role="presentation">
 							<slot name="group" {option}>
 								{option.text}
 							</slot>
 						</li>
-						{#each option.options as subOption, j (subOption?.value || j)}
+						{#each option.options as subOption, j (`${option?.text || i}_${subOption?.value || subOption?.text || ''}_${j}`)}
 							<li
 								class="combobox__option"
 								class:disabled={subOption.disabled}

@@ -221,7 +221,15 @@ export const actions: Actions = {
 			let esId = null;
 			if (!demo_time) {
 				try {
-					const resp: any = await createESQuestion(body);
+					const resp: any = await createESQuestion({
+						...body,
+						comment_count: 0,
+						flagged: false,
+						removed: false,
+						question_formatted: question,
+						enneagram: user.enneagram,
+						author_name: user.username || `${user.first_name || ''} ${user.last_name || ''}`.trim()
+					});
 					if (resp?._id) {
 						esId = resp._id;
 					}
