@@ -44,12 +44,6 @@ Instead, we got "use your words" and "how does that make you feel?" As if we had
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Parents of past generations had almost zero emotional education. No guidance for how they needed to help their children self regulate, to help them through their pain, and how to meet their emotional needs. <br><br>Of course the end result is generational trauma. <br><br>Parents do they best…</p>&mdash; Dr. Nicole LePera (@Theholisticpsyc) <a href="https://twitter.com/Theholisticpsyc/status/1644983048897720322?ref_src=twsrc%5Etfw">April 9, 2023</a></blockquote>
 
-<svelte:head>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</svelte:head>
-
 Dr. LePera nails it. But here's what she doesn't mention: **Each Enneagram type got screwed over by this lack of emotional education in a completely different way.**
 
 ## The Education System's $847 Billion Blind Spot
@@ -395,6 +389,8 @@ Your emotions aren't the enemy. They're the curriculum. And understanding them t
 _Class is now in session._
 
 <svelte:head>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <script type="application/ld+json">
 {

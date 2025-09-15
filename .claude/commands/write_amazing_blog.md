@@ -296,7 +296,7 @@ Before publishing, verify:
 - [ ] JSON-LD schema included
 - [ ] PopCard components properly placed
 
-### The Tim Ferriss Test
+### The Quality Test
 
 - [ ] Would this be "evergreen" valuable in 6 months?
 - [ ] Is it prescriptive rather than just descriptive?
@@ -308,7 +308,7 @@ Before publishing, verify:
 
 **Great Opening Lines:**
 
-- "Here's what Tim Ferriss discovered after interviewing 500+ world-class performers:"
+- "After analyzing 500+ high performers, a clear pattern emerged:"
 - "Most people think they're good listeners. They're wrong."
 - "You matched on a dating app. The conversation flows. The first date arrives. But something feels... off."
 
