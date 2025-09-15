@@ -8,7 +8,10 @@ import {
 	createESQuestion, 
 	bulkIndexQuestions, 
 	bulkIndexBlogs,
-	indexWithRetry 
+	indexWithRetry,
+	recreateIndex,
+	getQuestionIndexMapping,
+	getBlogIndexMapping
 } from '$lib/elasticSearch';
 import { mapDemoValues } from '../../utils/demo';
 
@@ -227,7 +230,27 @@ export const actions: Actions = {
 				blogs: { indexed: 0, failed: 0, total: 0, errors: [] as any[] }
 			};
 
-			// Reindex Questions with batch processing
+			// Step 1: Delete and recreate indices with proper mappings
+			console.log('Deleting and recreating Elasticsearch indices...');
+			try {
+				// Recreate question index
+				await recreateIndex('question', getQuestionIndexMapping());
+				console.log('Question index recreated successfully');
+				
+				// Recreate blog index
+				await recreateIndex('blog', getBlogIndexMapping());
+				console.log('Blog index recreated successfully');
+				
+				// Wait a moment for indices to be fully ready
+				await new Promise(resolve => setTimeout(resolve, 1000));
+			} catch (indexError) {
+				console.error('Failed to recreate indices:', indexError);
+				throw error(500, {
+					message: `Failed to recreate Elasticsearch indices: ${indexError instanceof Error ? indexError.message : 'Unknown error'}`
+				});
+			}
+
+			// Step 2: Reindex Questions with batch processing
 			console.log('Reindexing questions...');
 			const QUESTION_BATCH_SIZE = 100; // Reduced for safety
 			let questionOffset = 0;
@@ -294,7 +317,7 @@ export const actions: Actions = {
 				questionOffset += QUESTION_BATCH_SIZE;
 			}
 
-			// Reindex Blog Posts
+			// Step 3: Reindex Blog Posts
 			console.log('Reindexing blog posts...');
 			const BLOG_BATCH_SIZE = 20; // Much smaller batch size for blogs due to large content
 			let blogOffset = 0;

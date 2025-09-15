@@ -39,14 +39,23 @@
 				const data = JSON.parse(result.data);
 				
 				if (data.success) {
-					notifications.success(data.message || `Successfully reindexed ${data.indexed} questions`, 5000);
+					notifications.success(data.message || `Successfully reindexed ${data.indexed} documents`, 5000);
 				} else if (data.failed > 0) {
-					notifications.warning(
-						`Reindexing completed with errors: ${data.indexed} succeeded, ${data.failed} failed out of ${data.total} total`, 
-						8000
-					);
-					if (data.failedQuestions?.length > 0) {
-						console.error('Failed to reindex questions:', data.failedQuestions);
+					const details = data.details;
+					let errorMessage = `Reindexing completed with errors: ${data.indexed} succeeded, ${data.failed} failed out of ${data.total} total`;
+					
+					if (details) {
+						errorMessage += `\n\nQuestions: ${details.questions.indexed}/${details.questions.total} indexed`;
+						errorMessage += `\nBlogs: ${details.blogs.indexed}/${details.blogs.total} indexed`;
+					}
+					
+					notifications.warning(errorMessage, 10000);
+					
+					if (details?.questions?.errors?.length > 0) {
+						console.error('Failed to reindex questions:', details.questions.errors);
+					}
+					if (details?.blogs?.errors?.length > 0) {
+						console.error('Failed to reindex blogs:', details.blogs.errors);
 					}
 				} else {
 					notifications.info(data.message || 'Reindexing completed', 3000);
@@ -54,7 +63,7 @@
 			} else {
 				const errorData = result.error || {};
 				notifications.error(
-					errorData.message || 'Failed to reindex questions. Check server logs for details.', 
+					errorData.message || 'Failed to reindex. Check server logs for details.', 
 					5000
 				);
 			}
@@ -362,10 +371,18 @@
 <Modal2 id="confirmReindex">
 	<h2 style="margin: 0 0 1rem 0; font-size: 1.5rem;">Reindex Elasticsearch</h2>
 	<p style="margin-bottom: 1.5rem;">
-		This will rebuild the Elasticsearch index for all questions. This process may take a few moments depending on the number of questions.
+		This will completely rebuild the Elasticsearch indices for all questions and blog posts. The existing indices will be deleted and recreated with fresh data from the database.
 	</p>
+	<p style="margin-bottom: 1rem;">
+		This process will:
+	</p>
+	<ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+		<li>Delete the current 'question' and 'blog' indices</li>
+		<li>Recreate them with proper mappings</li>
+		<li>Re-import all questions and published blog posts from Supabase</li>
+	</ul>
 	<p style="margin-bottom: 1.5rem; color: var(--warning);">
-		<strong>Note:</strong> Make sure Elasticsearch is running and accessible before proceeding.
+		<strong>Warning:</strong> This process may take several minutes depending on the amount of data. Make sure Elasticsearch is running and accessible before proceeding.
 	</p>
 	<div style="display: flex; gap: 1rem; justify-content: flex-end;">
 		<button 

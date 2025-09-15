@@ -414,6 +414,108 @@ export const bulkIndexBlogs = async (blogs: any[]) => {
 	}
 };
 
+// Index management functions for clean reindexing
+export const deleteIndex = async (indexName: string) => {
+	try {
+		const exists = await elasticClient.indices.exists({ index: indexName });
+		if (exists) {
+			const response = await elasticClient.indices.delete({ index: indexName });
+			console.log(`Successfully deleted index: ${indexName}`);
+			return response;
+		} else {
+			console.log(`Index ${indexName} does not exist, skipping deletion`);
+			return { acknowledged: true, skipped: true };
+		}
+	} catch (e) {
+		console.error(`Failed to delete index ${indexName}:`, e);
+		throw new Error(`Index deletion failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+	}
+};
+
+export const createIndex = async (indexName: string, mappings?: any, settings?: any) => {
+	try {
+		const exists = await elasticClient.indices.exists({ index: indexName });
+		if (!exists) {
+			const body: any = {};
+			if (mappings) body.mappings = mappings;
+			if (settings) body.settings = settings;
+			
+			const response = await elasticClient.indices.create({
+				index: indexName,
+				...(Object.keys(body).length > 0 && { body })
+			});
+			console.log(`Successfully created index: ${indexName}`);
+			return response;
+		} else {
+			console.log(`Index ${indexName} already exists`);
+			return { acknowledged: true, exists: true };
+		}
+	} catch (e) {
+		console.error(`Failed to create index ${indexName}:`, e);
+		throw new Error(`Index creation failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+	}
+};
+
+export const recreateIndex = async (indexName: string, mappings?: any, settings?: any) => {
+	try {
+		// Delete if exists
+		await deleteIndex(indexName);
+		// Create new index
+		return await createIndex(indexName, mappings, settings);
+	} catch (e) {
+		console.error(`Failed to recreate index ${indexName}:`, e);
+		throw new Error(`Index recreation failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+	}
+};
+
+// Get index mappings for questions
+export const getQuestionIndexMapping = () => ({
+	properties: {
+		question: { type: 'text', analyzer: 'standard' },
+		questionFormatted: { type: 'text', analyzer: 'standard' },
+		authorId: { type: 'keyword' },
+		authorType: { type: 'keyword' },
+		authorName: { type: 'text' },
+		context: { type: 'text' },
+		url: { type: 'keyword' },
+		imgUrl: { type: 'keyword' },
+		comments: { type: 'integer' },
+		likes: { type: 'integer' },
+		subscriptions: { type: 'integer' },
+		flagged: { type: 'boolean' },
+		removed: { type: 'boolean' },
+		createdDate: { type: 'date' },
+		updatedDate: { type: 'date' }
+	}
+});
+
+// Get index mappings for blogs
+export const getBlogIndexMapping = () => ({
+	properties: {
+		title: { type: 'text', analyzer: 'standard' },
+		person: { type: 'text' },
+		content: { type: 'text', analyzer: 'standard' },
+		description: { type: 'text' },
+		author: { type: 'text' },
+		enneagram: { type: 'keyword' },
+		type: { type: 'keyword' },
+		url: { type: 'keyword' },
+		metaTitle: { type: 'text' },
+		socialLinks: {
+			type: 'object',
+			properties: {
+				twitter: { type: 'keyword' },
+				instagram: { type: 'keyword' },
+				tiktok: { type: 'keyword' },
+				wikipedia: { type: 'keyword' }
+			}
+		},
+		published: { type: 'boolean' },
+		createdDate: { type: 'date' },
+		lastModified: { type: 'date' }
+	}
+});
+
 // Retry logic with exponential backoff
 export const indexWithRetry = async (
 	indexFunction: () => Promise<any>,
