@@ -1,9 +1,7 @@
 // src/lib/elasticSearch.ts
 import { Client } from '@elastic/elasticsearch';
-// import type { Request, Response } from '@sveltejs/kit';
 
 import {
-	PRIVATE_ELASTIC_GENERAL,
 	PRIVATE_ELASTIC_ADMIN,
 	PRIVATE_ELASTICSEARCH_NODE
 } from '$env/static/private';
@@ -11,7 +9,6 @@ import {
 export const elasticClient = new Client({
 	node: PRIVATE_ELASTICSEARCH_NODE || 'http://localhost:9200',
 	auth: { username: 'elastic', password: PRIVATE_ELASTIC_ADMIN }
-	// auth: { username: 'anon', password: PRIVATE_ELASTIC_GENERAL }
 });
 
 export const createESQuestion = async (body: {
