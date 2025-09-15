@@ -1,6 +1,5 @@
 <!-- src/lib/components/questions/SearchQuestion.svelte -->
 <script lang="ts">
-	import { deserialize } from '$app/forms';
 	import { goto } from '$app/navigation';
 	import ComboBox from '$lib/components/molecules/ComboBox.svelte';
 	import Context from '$lib/components/molecules/Context.svelte';
@@ -65,11 +64,12 @@
 		isSearching = true;
 
 		try {
-			let body = new FormData();
-			body.append('searchString', searchString);
-			const response = await fetch('/questions?/typeahead', {
-				method: 'POST',
-				body,
+			// Use the new JSON API endpoint
+			const response = await fetch(`/api/questions/typeahead?q=${encodeURIComponent(searchString)}`, {
+				method: 'GET',
+				headers: {
+					'Content-Type': 'application/json'
+				},
 				signal: abortController.signal
 			});
 
@@ -77,30 +77,17 @@
 				throw new Error('Search failed');
 			}
 
-			const respText = await response.text();
-			const result: any = deserialize(respText);
-
-			// Handle the response based on its structure
-			let searchResults = [];
-			if (result?.type === 'success') {
-				// This is a form action response
-				searchResults = result.data || [];
-			} else if (Array.isArray(result)) {
-				// Direct array response
-				searchResults = result;
-			} else {
-				console.warn('Unexpected search response format:', result);
-				searchResults = [];
-			}
+			const data = await response.json();
+			
+			// Handle the JSON response
+			const searchResults = data.results || [];
 
 			options = searchResults
 				.map((item: any) => {
-					const question = item._source?.question || '';
-					const url = item._source?.url || '';
 					return {
-						text: question, // Use plain text for the text property
-						displayText: item._source?.highlighted || question, // HTML for display
-						value: url // Use URL as the value for simpler handling
+						text: item.question, // Use plain text for the text property
+						displayText: item.highlighted || item.question, // HTML for display
+						value: item.url // Use URL as the value for simpler handling
 					};
 				})
 				.filter((opt) => opt.text && opt.value);

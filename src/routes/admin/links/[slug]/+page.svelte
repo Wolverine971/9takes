@@ -68,20 +68,28 @@
 
 		isSearching = true;
 		try {
-			const formData = new FormData();
-			formData.append('searchString', text);
-
-			const response = await fetch('/questions?/typeahead', {
-				method: 'POST',
-				body: formData
+			const response = await fetch(`/api/questions/typeahead?q=${encodeURIComponent(text)}`, {
+				method: 'GET',
+				headers: {
+					'Content-Type': 'application/json'
+				}
 			});
 
-			const result = deserialize(await response.text());
-			const elasticOptions = result?.data || [];
+			if (!response.ok) {
+				throw new Error('Search failed');
+			}
+
+			const data = await response.json();
+			const elasticOptions = data.results || [];
 
 			searchOptions = elasticOptions.map((o) => ({
-				text: o?._source?.question,
-				value: o?._source
+				text: o?.question,
+				value: {
+					question: o?.question,
+					url: o?.url,
+					id: o?.id,
+					comment_count: o?.comment_count
+				}
 			}));
 		} catch (error) {
 			console.error('Search error:', error);
