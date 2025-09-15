@@ -203,6 +203,8 @@ Here's your personalized 90-day blueprint based on your core type:
 - Identify top 5 image management strategies
 - **Daily Practice:** 10 minutes being "unsuccessful" (no productivity)
 
+**Productivity Note:** Type 3s often mistake activity for achievement. Discover [the productivity system designed for your personality type](/how-to-guides/productivity-systems-by-enneagram-type) to work smarter, not just harder.
+
 **Week 3-4: Feeling Location**
 
 - Set hourly emotion check-in alarms

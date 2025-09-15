@@ -289,6 +289,52 @@ _Last Modified: 2025-08-15_
 
 ---
 
+## Content Creation Best Practices
+
+### The 9takes Content Formula
+
+1. **Emotional Hook Opening**
+   - Start with `<p class="firstLetter">` for visual impact
+   - Lead with relatable problem or controversial statement
+   - Promise clear value within first 150 words
+
+2. **Invisible Structure (McPhee Method)**
+   - Choose structure based on content type
+   - Make transitions seamless
+   - Build tension and resolution
+   - Every section advances the narrative
+
+3. **Psychological Depth**
+   - Connect adult behaviors to childhood patterns
+   - Explain the "why" behind behaviors
+   - Provide type-specific insights
+   - Include growth edges for each type
+
+4. **Practical Application**
+   - Scripts and exact language to use
+   - Step-by-step action plans
+   - Type-specific strategies
+   - Real-world examples
+
+5. **Engagement Elements**
+   - PopCard components for interaction
+   - Tables/lists every 300-400 words
+   - Question-based H2 headers
+   - Clear CTAs throughout
+
+### Quality Checklist
+
+Before publishing any content:
+
+- [ ] Follows `/docs/writing-system/01-content-creation-workflow.md`
+- [ ] Includes proper frontmatter and JSON-LD
+- [ ] 2,500-3,500 words optimal length
+- [ ] 3-5 internal links to related content
+- [ ] PopCard components correctly implemented
+- [ ] Two-pass editing completed
+- [ ] SEO optimization verified
+- [ ] Mobile formatting checked
+
 ## Next Steps for Total Dominance (REVISED STRATEGY)
 
 ### Phase 1: Balance Content Portfolio (Weeks 1-2)
@@ -316,11 +362,30 @@ _Last Modified: 2025-08-15_
 
 ## Resource Requirements
 
-### Content Creation
+### Content Creation System
+
+**📝 CRITICAL: All blog content must follow the established writing system:**
+
+#### Primary Resources
+
+- **Main Workflow:** `/docs/writing-system/01-content-creation-workflow.md`
+  - Complete 6-phase content creation process
+  - Planning templates and structure options
+  - Two-pass editing system
+  - Quality standards and checklists
+
+#### Supporting Documentation
+
+- `/docs/writing-system/02-blog-optimization-framework.md` - SEO and optimization
+- `/docs/writing-system/03-mcphee-editing-method.md` - Professional editing
+- `/docs/writing-system/04-content-patterns-library.md` - Content examples
+
+#### Content Requirements
 
 - **Blog Posts Needed:** 50-60 new pieces
 - **Time Investment:** 150-200 hours
 - **Writing Support:** Consider VA for research
+- **Quality Standard:** All posts must follow workflow guidelines
 
 ### Technical Development
 

@@ -33,6 +33,8 @@ Attachment theory explains the "what" of your relationship patterns, but it does
 
 Here's what most people don't know: **There's a personality system called the Enneagram that adds a fourth dimension to attachment styles**—revealing not just how you attach, but the deep psychological machinery driving those patterns.
 
+Understanding this connection transforms how you approach dating. Discover how [your personality type creates specific dating dynamics](/how-to-guides/dating-dynamics-by-enneagram-type) and learn to recognize attachment patterns before they sabotage your relationships.
+
 ## The Missing Piece: What Is the Enneagram?
 
 The Enneagram is a model of nine interconnected personality types, each driven by a core fear and core desire. Unlike surface-level personality tests, it maps the unconscious motivations that shape every decision you make—including how you love.

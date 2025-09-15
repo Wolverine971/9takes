@@ -117,6 +117,8 @@ Types in the head center experience anxiety cognitively – you feel it in your 
 
 Type 1s, your anxiety is a quality control inspector who never takes a break. It's constantly scanning for flaws, mistakes, and imperfections – in yourself, others, and the world. Your anxiety sounds like: "It's not right yet. You're not good enough yet. What if someone notices the mistake?"
 
+This critical inner voice drives much of your anxiety. Master [positive self-talk techniques designed specifically for Type 1s](/enneagram-corner/enneagram-positive-self-talk) to quiet the perfectionist critic and reduce anxiety at its source.
+
 **Your Specific Triggers:**
 
 - Unclear standards or moving goalposts

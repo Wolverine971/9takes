@@ -57,6 +57,8 @@ You're not failing at first impressions. **You're using the wrong playbook for t
 
 And their Enneagram type determines exactly what that looks like.
 
+Ready to go deeper than first impressions? Learn [how to psychoanalyze people comprehensively](/how-to-guides/how-to-psychoanalyze-people) using the full 4-step framework that reveals what truly drives someone's behavior.
+
 <section class="section-content">
 
 ## Type 1 - The Perfectionist: They're Grading You Already

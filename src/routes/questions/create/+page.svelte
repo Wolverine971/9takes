@@ -19,12 +19,14 @@
 	let qrImageSrc = '';
 	let imgPreview = '';
 	let html2canvas: any;
+	let fontLoaded = false;
+	let resizeDebounceTimer: number;
 
-	$: isQuestionValid = question.trim().length > 0;
+	$: isQuestionValid = question.trim().length > 0 && question.length <= MAX_CHAR_COUNT;
 
-	const QR_OPTS = {
-		errorCorrectionLevel: 'H',
-		type: 'image/png',
+	const QR_OPTS: QRCode.QRCodeToDataURLOptions = {
+		errorCorrectionLevel: 'H' as QRCode.QRCodeErrorCorrectionLevel,
+		type: 'image/png' as 'image/png',
 		quality: 0.3,
 		margin: 1,
 		color: { dark: '#5407d9', light: '#ffffff' }
@@ -33,160 +35,86 @@
 	onMount(() => {
 		question = $page.url.searchParams.get('question') || '';
 
-		// Preload the Noticia Text font to ensure it's available for canvas
-		const link = document.createElement('link');
-		link.href =
-			'https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap';
-		link.rel = 'stylesheet';
-		document.head.appendChild(link);
+		// Check if font is already loaded
+		if (!document.querySelector('link[href*="Noticia+Text"]')) {
+			const link = document.createElement('link');
+			link.href =
+				'https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+			link.rel = 'stylesheet';
+			document.head.appendChild(link);
+		}
 
 		// Wait for font to load
 		document.fonts.ready.then(() => {
-			console.log('Fonts loaded');
+			fontLoaded = true;
 		});
+
+		return () => {
+			// Cleanup
+			if (resizeDebounceTimer) clearTimeout(resizeDebounceTimer);
+		};
 	});
 
 	async function getUrl() {
-		const sanitizedQuestion = question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' ');
+		if (!isQuestionValid) {
+			notifications.warning('Please enter a valid question (1-280 characters)', 3000);
+			return;
+		}
+
+		const sanitizedQuestion = question
+			.trim()
+			.replace(/[^\w\s]|_/g, '')
+			.replace(/\s+/g, ' ');
 		const body = new FormData();
 		body.append('question', sanitizedQuestion);
 
 		try {
 			const response = await fetch('?/getUrl', { method: 'POST', body });
+
+			if (!response.ok) {
+				const error = await response.text();
+				throw new Error(error || 'Failed to generate URL');
+			}
+
 			const data = await response.json();
 			url = JSON.parse(data?.data)?.[0];
+
+			if (!url) {
+				throw new Error('No URL generated');
+			}
 
 			qrImageSrc = await QRCode.toDataURL(`https://9takes.com/questions/${url}`, QR_OPTS);
 			getModal('question-create').open();
 		} catch (error) {
 			console.error('Error generating URL or QR code:', error);
-			notifications.danger('An error occurred while preparing the question', 3000);
+			const message = error instanceof Error ? error.message : 'Failed to prepare question';
+			notifications.danger(message, 5000);
 		}
 	}
 
-	async function createQuestion() {
-		try {
-			loading = true;
-
-			// Dynamically import html2canvas when needed
-			if (!html2canvas) {
-				const html2canvasModule = await import('html2canvas');
-				html2canvas = html2canvasModule.default;
-			}
-
-			const questionNode = document.getElementById('question-pic');
-
-			// Get the computed styles of the original element
-			const computedStyle = window.getComputedStyle(questionNode);
-			const width = parseInt(computedStyle.width);
-
-			// Calculate a reasonable scale factor based on the element's width
-			// This ensures the image isn't too large while maintaining quality
-			const scale = Math.min(2, 1200 / width); // Cap max width at 1200px
-
-			// Wait for fonts to load
-			await document.fonts.ready;
-
-			const canvas = await html2canvas(questionNode, {
-				useCORS: true,
-				allowTaint: true,
-				backgroundColor: computedStyle.backgroundColor || '#d4d4d4',
-				scale: scale,
-				logging: false,
-				width: width,
-				height: parseInt(computedStyle.height),
-				onclone: (clonedDoc) => {
-					const element = clonedDoc.getElementById('question-pic');
-					if (element) {
-						// Copy all relevant styles from the original element
-						element.style.cssText = computedStyle.cssText;
-						element.style.transform = 'none'; // Remove any transforms
-						element.style.margin = '0';
-						element.style.padding = computedStyle.padding;
-						element.style.fontFamily = '"Noticia Text", serif';
-						element.style.width = `${width}px`;
-						element.style.height = `${parseInt(computedStyle.height)}px`;
-
-						// Ensure text styles are preserved
-						element.style.fontSize = computedStyle.fontSize;
-						element.style.lineHeight = computedStyle.lineHeight;
-						element.style.fontWeight = computedStyle.fontWeight;
-						element.style.textAlign = computedStyle.textAlign;
-						element.style.color = computedStyle.color;
-
-						// Remove any transition effects
-						element.style.transition = 'none';
-
-						// Ensure the background is solid
-						element.style.backgroundColor = computedStyle.backgroundColor || '#d4d4d4';
-
-						// Remove any overflow
-						element.style.overflow = 'hidden';
-					}
-				}
-			});
-
-			// Optionally resize the canvas if it's still too large
-			const maxWidth = 800; // Set your desired max width
-			let finalCanvas = canvas;
-
-			if (canvas.width > maxWidth) {
-				const scale = maxWidth / canvas.width;
-				finalCanvas = document.createElement('canvas');
-				finalCanvas.width = canvas.width * scale;
-				finalCanvas.height = canvas.height * scale;
-				const ctx = finalCanvas.getContext('2d');
-				ctx.scale(scale, scale);
-				ctx.drawImage(canvas, 0, 0);
-			}
-
-			const png = finalCanvas.toDataURL('image/png', 0.5); // Added quality parameter
-
-			const body = new FormData();
-			body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
-			body.append('author_id', data?.session?.user?.id?.toString() || '');
-			body.append('context', '');
-			body.append('url', url);
-			body.append('img_url', png);
-
-			const resp = await fetch('?/createQuestion', { method: 'POST', body });
-			const result = deserialize(await resp.text());
-
-			if (result?.error) {
-				notifications.danger(result.error.message, 3000);
-				getModal('question-create').close();
-				return;
-			}
-
-			getModal('question-create').close();
-			goto(`/questions/${url}`);
-		} catch (error) {
-			console.error('Error creating question:', error);
-			notifications.danger('An error occurred while creating the question', 3000);
-		} finally {
-			loading = false;
-		}
-	}
-
-	const showImage = async () => {
+	async function generateQuestionImage(elementId: string): Promise<string> {
 		// Dynamically import html2canvas when needed
 		if (!html2canvas) {
 			const html2canvasModule = await import('html2canvas');
 			html2canvas = html2canvasModule.default;
 		}
 
-		const questionNode = document.getElementById('question-pic');
+		const questionNode = document.getElementById(elementId);
+		if (!questionNode) {
+			throw new Error('Question element not found');
+		}
 
 		// Get the computed styles of the original element
 		const computedStyle = window.getComputedStyle(questionNode);
 		const width = parseInt(computedStyle.width);
 
 		// Calculate a reasonable scale factor based on the element's width
-		// This ensures the image isn't too large while maintaining quality
-		const scale = Math.min(2, 1200 / width); // Cap max width at 1200px
+		const scale = Math.min(2, 1200 / width);
 
 		// Wait for fonts to load
-		await document.fonts.ready;
+		if (!fontLoaded) {
+			await document.fonts.ready;
+		}
 
 		const canvas = await html2canvas(questionNode, {
 			useCORS: true,
@@ -196,67 +124,121 @@
 			logging: false,
 			width: width,
 			height: parseInt(computedStyle.height),
-			onclone: (clonedDoc) => {
-				const element = clonedDoc.getElementById('question-pic');
+			onclone: (clonedDoc: Document) => {
+				const element = clonedDoc.getElementById(elementId);
 				if (element) {
-					// Copy all relevant styles from the original element
 					element.style.cssText = computedStyle.cssText;
-					element.style.transform = 'none'; // Remove any transforms
+					element.style.transform = 'none';
 					element.style.margin = '0';
 					element.style.padding = computedStyle.padding;
 					element.style.fontFamily = '"Noticia Text", serif';
 					element.style.width = `${width}px`;
 					element.style.height = `${parseInt(computedStyle.height)}px`;
-
-					// Ensure text styles are preserved
 					element.style.fontSize = computedStyle.fontSize;
 					element.style.lineHeight = computedStyle.lineHeight;
 					element.style.fontWeight = computedStyle.fontWeight;
 					element.style.textAlign = computedStyle.textAlign;
 					element.style.color = computedStyle.color;
-
-					// Remove any transition effects
 					element.style.transition = 'none';
-
-					// Ensure the background is solid
 					element.style.backgroundColor = computedStyle.backgroundColor || '#d4d4d4';
-
-					// Remove any overflow
 					element.style.overflow = 'hidden';
 				}
 			}
 		});
 
-		// Optionally resize the canvas if it's still too large
-		const maxWidth = 800; // Set your desired max width
+		// Resize if needed
+		const maxWidth = 800;
 		let finalCanvas = canvas;
 
 		if (canvas.width > maxWidth) {
-			const scale = maxWidth / canvas.width;
+			const resizeScale = maxWidth / canvas.width;
 			finalCanvas = document.createElement('canvas');
-			finalCanvas.width = canvas.width * scale;
-			finalCanvas.height = canvas.height * scale;
+			finalCanvas.width = canvas.width * resizeScale;
+			finalCanvas.height = canvas.height * resizeScale;
 			const ctx = finalCanvas.getContext('2d');
-			ctx.scale(scale, scale);
-			ctx.drawImage(canvas, 0, 0);
+			if (ctx) {
+				ctx.scale(resizeScale, resizeScale);
+				ctx.drawImage(canvas, 0, 0);
+			}
 		}
 
-		const png = finalCanvas.toDataURL('image/png', 0.8);
-		imgPreview = png;
-	};
-
-	let questionCharCount = 0;
-	const MAX_CHAR_COUNT = 280;
-
-	$: {
-		questionCharCount = question.length;
-		isQuestionValid = question.trim().length > 0 && questionCharCount <= MAX_CHAR_COUNT;
+		return finalCanvas.toDataURL('image/png', 0.5);
 	}
+
+	async function createQuestion() {
+		try {
+			loading = true;
+
+			if (!data?.session?.user?.id) {
+				notifications.info('Please login to create a question', 3000);
+				getModal('question-create').close();
+				return;
+			}
+
+			const png = await generateQuestionImage('question-pic');
+
+			// Check image size (rough estimate: base64 is ~1.37x larger than binary)
+			const estimatedSize = png.length * 0.75;
+			if (estimatedSize > 10 * 1024 * 1024) {
+				throw new Error('Generated image is too large. Please try a shorter question.');
+			}
+
+			const body = new FormData();
+			body.append(
+				'question',
+				question
+					.trim()
+					.replace(/[^\w\s]|_/g, '')
+					.replace(/\s+/g, ' ')
+			);
+			body.append('author_id', data.session.user.id.toString());
+			body.append('context', '');
+			body.append('url', url);
+			body.append('img_url', png);
+
+			const resp = await fetch('?/createQuestion', { method: 'POST', body });
+			const result = deserialize(await resp.text());
+
+			if (result && typeof result === 'object' && 'error' in result) {
+				const error = (result as any).error;
+				throw new Error(error?.message || 'Failed to create question');
+			}
+
+			getModal('question-create').close();
+			notifications.success('Question created successfully!', 3000);
+			goto(`/questions/${url}`);
+		} catch (error) {
+			console.error('Error creating question:', error);
+			const message = error instanceof Error ? error.message : 'Failed to create question';
+			notifications.danger(message, 5000);
+			getModal('question-create').close();
+		} finally {
+			loading = false;
+		}
+	}
+
+	// Preview function (currently unused but available for testing)
+	// const showImage = async () => {
+	// 	try {
+	// 		imgPreview = await generateQuestionImage('question-pic');
+	// 	} catch (error) {
+	// 		console.error('Error generating preview:', error);
+	// 		notifications.danger('Failed to generate preview', 3000);
+	// 	}
+	// };
+
+	const MAX_CHAR_COUNT = 280;
+	$: questionCharCount = question.length;
 
 	function handleInput(event: Event) {
 		const target = event.target as HTMLTextAreaElement;
-		target.style.height = 'auto';
-		target.style.height = target.scrollHeight + 'px';
+
+		// Debounce resize for performance
+		if (resizeDebounceTimer) clearTimeout(resizeDebounceTimer);
+		resizeDebounceTimer = setTimeout(() => {
+			target.style.height = 'auto';
+			target.style.height = target.scrollHeight + 'px';
+		}, 10) as unknown as number;
 	}
 </script>
 
@@ -328,6 +310,23 @@
 </Modal2>
 
 <style lang="scss">
+	.modal-content {
+		padding: 2rem;
+		min-width: 350px;
+
+		@media (max-width: 640px) {
+			padding: 1.5rem;
+			min-width: unset;
+		}
+
+		h2 {
+			margin-top: 0;
+			margin-bottom: 1rem;
+			color: var(--primary);
+			font-size: 1.8rem;
+		}
+	}
+
 	.question-preview {
 		padding: 1rem;
 		border: 1px solid var(--color-theme-purple-dark);
@@ -342,6 +341,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		width: 100%;
+		margin-top: 1rem;
 	}
 	.question-container {
 		padding: 2rem 1rem;

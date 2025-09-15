@@ -12,8 +12,8 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "greek_statue_looking_in_the_mirror.png" -o "greek_statue_looking_in_the_mirror.webp"
-cwebp -sns 70 -f 50 -size 20000 "greek_statue_looking_in_the_mirror.webp" -o "./s-greek_statue_looking_in_the_mirror.webp"
+cwebp "attachment_styles_enneagram_types_psychology.png" -o "attachment_styles_enneagram_types_psychology.webp"
+cwebp -sns 70 -f 50 -size 20000 "attachment_styles_enneagram_types_psychology.webp" -o "./s-attachment_styles_enneagram_types_psychology.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

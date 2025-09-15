@@ -86,6 +86,8 @@ Ask yourself: "When I'm being most myself - not performing or adapting - what se
 Not: "What do I sometimes do?"
 But: "What feels like a natural extension of who I am?"
 
+Understanding wings is crucial for accurately reading people. Master [the complete guide to psychoanalyzing personalities](/how-to-guides/how-to-psychoanalyze-people) to spot these subtle wing influences that reveal someone's true motivations.
+
 ## The 18 Wing Combinations: Deep Dive Analysis
 
 ### Type 1: The Perfectionist

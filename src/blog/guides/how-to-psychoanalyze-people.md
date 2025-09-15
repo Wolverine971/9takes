@@ -7,7 +7,7 @@ loc: 'https://9takes.com/how-to-guides/how-to-psychoanalyze-people'
 lastmod: '2025-09-08'
 changefreq: 'monthly'
 priority: '0.8'
-published: false
+published: true
 type: ['guide']
 blog: true
 previewHtml: ''
@@ -413,6 +413,8 @@ Remember: **Understanding someone doesn't mean you know everything about them.**
 
 Here's a cheat sheet for quick pattern recognition:
 
+**Want to make accurate reads even faster?** Master [the first impression playbook for each Enneagram type](/enneagram-corner/first-impression-enneagram-playbook) to understand someone's core motivations within minutes of meeting them.
+
 ### The Perfectionist Pattern
 
 - **Image:** "I'm good and right"
@@ -525,6 +527,8 @@ Once I understood this, I stopped taking his rebellion personally. I stopped try
 **The shift was immediate.** When he felt his autonomy was respected, he stopped needing to rebel. When I stopped expecting him to value rules like I did, I stopped being disappointed.
 
 We're still different. He's still Thor to my Loki (or maybe vice versa). But now I understand the script we're each running. And that understanding transformed frustration into fascination, confusion into compassion.
+
+**Important Note:** People are more complex than just their main type. Discover how [Enneagram wings add layers of nuance](/enneagram-corner/enneagram-wings-complete-guide) to personality, explaining why two people of the same type can seem so different.
 
 </article>
 
