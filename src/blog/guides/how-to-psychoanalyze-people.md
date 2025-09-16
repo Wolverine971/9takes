@@ -21,6 +21,7 @@ Detective in trench coat holding oversized magnifying glass examining busy city 
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">My brother and I grew up in the same house, with the same parents, eating the same food. Yet we might as well have been raised on different planets.</p>
