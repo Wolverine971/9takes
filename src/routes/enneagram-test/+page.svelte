@@ -1,5 +1,5 @@
 <!-- src/routes/enneagram-test/+page.svelte -->
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -26,5 +26,3 @@
 		</a>
 	</div>
 </main>
-</svelte:parameter>
-</invoke>
