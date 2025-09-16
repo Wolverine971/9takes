@@ -39,104 +39,81 @@ export const load: PageServerLoad = async (event) => {
 		});
 	}
 
-	const { data: dailyVisitors, error: dailyVisitorsErrors } = await supabase.rpc(
-		'visitors_last_30_days',
-		{}
-	);
+	// Parallelize analytics RPC calls for better performance
+	const [
+		{ data: dailyVisitors, error: dailyVisitorsErrors },
+		{ data: dailyComments, error: dailyCommentsErrors },
+		{ data: dailyQuestions, error: dailyQuestionsErrors }
+	] = await Promise.all([
+		supabase.rpc('visitors_last_30_days', {}),
+		supabase.rpc('comments_last_30_days', {}),
+		supabase.rpc('daily_questions_stats', {})
+	]);
+
+	// Handle errors after parallel execution
 	if (dailyVisitorsErrors) {
 		// Handle daily visitors error
 	}
-
-	const { data: dailyComments, error: dailyCommentsErrors } = await supabase.rpc(
-		'comments_last_30_days',
-		{}
-	);
 	if (dailyCommentsErrors) {
 		// Handle daily comments error
 	}
-
-	const { data: dailyQuestions, error: dailyQuestionsErrors } = await supabase.rpc(
-		'daily_questions_stats',
-		{}
-	);
 	if (dailyQuestionsErrors) {
 		// Handle daily questions error
 	}
 
-	// Get total users count
-	const { count: totalUsers } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('*', { count: 'exact', head: true });
-
-	// Get new users in last 30 days
+	// Pre-calculate date constants
 	const thirtyDaysAgo = new Date();
 	thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-	const { count: newUsersMonth } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('*', { count: 'exact', head: true })
-		.gte('created_at', thirtyDaysAgo.toISOString());
-
-	// Get new users today
 	const today = new Date();
 	today.setHours(0, 0, 0, 0);
-	const { count: newUsersToday } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('*', { count: 'exact', head: true })
-		.gte('created_at', today.toISOString());
-
-	// Get coaching waitlist signups
-	const { count: coachingWaitlist } = await supabase
-		.from('coaching_waitlist')
-		.select('*', { count: 'exact', head: true });
-
-	// Get total questions count
-	const { count: totalQuestions } = await supabase
-		.from('questions')
-		.select('*', { count: 'exact', head: true });
-
-	// Get total comments count
-	const { count: totalComments } = await supabase
-		.from('comments')
-		.select('*', { count: 'exact', head: true });
-
-	// Get active users (users who commented in last 7 days)
 	const sevenDaysAgo = new Date();
 	sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
-	const { data: activeUsersData } = await supabase
-		.from('comments')
-		.select('author_id')
-		.gte('created_at', sevenDaysAgo.toISOString());
+
+	const profilesTable = demo_time === true ? 'profiles_demo' : 'profiles';
+
+	// Parallelize all count queries and data fetching for massive performance improvement
+	const [
+		{ count: totalUsers },
+		{ count: newUsersMonth },
+		{ count: newUsersToday },
+		{ count: coachingWaitlist },
+		{ count: totalQuestions },
+		{ count: totalComments },
+		{ data: activeUsersData },
+		{ data: usersByType },
+		{ data: recentSignups },
+		{ count: questionsToday },
+		{ count: commentsToday }
+	] = await Promise.all([
+		// User counts
+		supabase.from(profilesTable).select('*', { count: 'exact', head: true }),
+		supabase.from(profilesTable).select('*', { count: 'exact', head: true }).gte('created_at', thirtyDaysAgo.toISOString()),
+		supabase.from(profilesTable).select('*', { count: 'exact', head: true }).gte('created_at', today.toISOString()),
+		// Coaching waitlist
+		supabase.from('coaching_waitlist').select('*', { count: 'exact', head: true }),
+		// Content counts
+		supabase.from('questions').select('*', { count: 'exact', head: true }),
+		supabase.from('comments').select('*', { count: 'exact', head: true }),
+		// Active users data
+		supabase.from('comments').select('author_id').gte('created_at', sevenDaysAgo.toISOString()),
+		// Enneagram distribution data
+		supabase.from(profilesTable).select('enneagram'),
+		// Recent signups
+		supabase.from(profilesTable).select('id, email, enneagram, created_at, external_id').order('created_at', { ascending: false }).limit(10),
+		// Today's activity
+		supabase.from('questions').select('*', { count: 'exact', head: true }).gte('created_at', today.toISOString()),
+		supabase.from('comments').select('*', { count: 'exact', head: true }).gte('created_at', today.toISOString())
+	]);
+
+	// Process results after parallel execution
 	const activeUsers = new Set(activeUsersData?.map((c) => c.author_id) || []).size;
 
-	// Get users by enneagram type
-	const { data: usersByType } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('enneagram');
 	const enneagramDistribution = usersByType?.reduce((acc: any, user: any) => {
 		if (user.enneagram) {
 			acc[user.enneagram] = (acc[user.enneagram] || 0) + 1;
 		}
 		return acc;
 	}, {});
-
-	// Get recent signups (last 10)
-	const { data: recentSignups } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('id, email, enneagram, created_at, external_id')
-		.order('created_at', { ascending: false })
-		.limit(10);
-
-	// Get questions created today
-	const { count: questionsToday } = await supabase
-		.from('questions')
-		.select('*', { count: 'exact', head: true })
-		.gte('created_at', today.toISOString());
-
-	// Get comments created today
-	const { count: commentsToday } = await supabase
-		.from('comments')
-		.select('*', { count: 'exact', head: true })
-		.gte('created_at', today.toISOString());
 
 	if (!user?.admin) {
 		throw redirect(307, '/questions');

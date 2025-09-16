@@ -166,43 +166,48 @@ export const load: PageServerLoad = async (event) => {
 		const commentsTable = demo_time ? 'comments_demo' : 'comments';
 		const profilesTable = demo_time ? 'profiles_demo' : 'profiles';
 
-		// Load regular comments
-		const { data: comments } = await getPaginatedComments(
-			commentsTable,
-			page,
-			{
-				selectionFields: `*, ${profilesTable} (*)`,
-				limit: PAGE_SIZE,
-				orderField: 'created_at',
-				orderDirection: { ascending: false }
-			},
-			locals.supabase
-		);
-
-		// Load flagged comments
-		const { data: flaggedComments } = await getPaginatedComments(
-			'flagged_comments',
-			page,
-			{
-				selectionFields: `*, comments (*), profiles (*)`,
-				limit: PAGE_SIZE,
-				filters: {
-					removed_at: null,
-					cleared_at: null
-				}
-			},
-			locals.supabase
-		);
-
-		// Load blog comments
-		const { data: blogComments } = await getPaginatedComments(
-			'blog_comments',
-			page,
-			{
-				limit: PAGE_SIZE
-			},
-			locals.supabase
-		);
+		// Parallelize all comment loading for better performance
+		const [
+			{ data: comments },
+			{ data: flaggedComments },
+			{ data: blogComments }
+		] = await Promise.all([
+			// Load regular comments
+			getPaginatedComments(
+				commentsTable,
+				page,
+				{
+					selectionFields: `*, ${profilesTable} (*)`,
+					limit: PAGE_SIZE,
+					orderField: 'created_at',
+					orderDirection: { ascending: false }
+				},
+				locals.supabase
+			),
+			// Load flagged comments
+			getPaginatedComments(
+				'flagged_comments',
+				page,
+				{
+					selectionFields: `*, comments (*), profiles (*)`,
+					limit: PAGE_SIZE,
+					filters: {
+						removed_at: null,
+						cleared_at: null
+					}
+				},
+				locals.supabase
+			),
+			// Load blog comments
+			getPaginatedComments(
+				'blog_comments',
+				page,
+				{
+					limit: PAGE_SIZE
+				},
+				locals.supabase
+			)
+		]);
 
 		// Process comments to include parent questions
 		const processedComments = comments ? await getCommentParents(comments) : [];

@@ -13,24 +13,28 @@ export const GET: RequestHandler = async ({ params }) => {
 	}
 
 	try {
-		// Get the current blog post
-		const { data: currentBlog, error: currentError } = await supabase
-			.from('blogs_famous_people')
-			.select('id, person, title, content, lastmod')
-			.eq('id', blogId)
-			.single();
+		// Parallelize blog and history queries for better performance
+		const [
+			{ data: currentBlog, error: currentError },
+			{ data: history, error: historyError }
+		] = await Promise.all([
+			supabase
+				.from('blogs_famous_people')
+				.select('id, person, title, content, lastmod')
+				.eq('id', blogId)
+				.single(),
+			supabase
+				.from('blogs_famous_people_history')
+				.select('id, old_content, new_content, changed_at, changed_by')
+				.eq('famous_people_id', blogId)
+				.order('changed_at', { ascending: false })
+		]);
 
+		// Handle errors after parallel execution
 		if (currentError) {
 			console.error('Error fetching current blog:', currentError);
 			return json({ error: 'Blog not found' }, { status: 404 });
 		}
-
-		// Get the version history
-		const { data: history, error: historyError } = await supabase
-			.from('blogs_famous_people_history')
-			.select('id, old_content, new_content, changed_at, changed_by')
-			.eq('famous_people_id', blogId)
-			.order('changed_at', { ascending: false });
 
 		if (historyError) {
 			console.error('Error fetching blog history:', historyError);
