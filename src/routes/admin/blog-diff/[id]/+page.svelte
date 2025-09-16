@@ -1,3 +1,4 @@
+<!-- src/routes/admin/blog-diff/[id]/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogDiffViewer from '$lib/components/admin/BlogDiffViewer.svelte';

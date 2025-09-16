@@ -1,3 +1,4 @@
+<!-- src/lib/components/SEOHead.svelte -->
 <script lang="ts">
 	export let title = '9takes - See the emotions behind every take';
 	export let description =

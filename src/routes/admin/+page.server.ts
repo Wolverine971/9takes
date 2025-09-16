@@ -4,9 +4,9 @@ import { supabase } from '$lib/supabase';
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
-import { 
-	createESQuestion, 
-	bulkIndexQuestions, 
+import {
+	createESQuestion,
+	bulkIndexQuestions,
 	bulkIndexBlogs,
 	indexWithRetry,
 	recreateIndex,
@@ -224,7 +224,7 @@ export const actions: Actions = {
 			}
 
 			console.log('Starting comprehensive reindexing...');
-			
+
 			const results = {
 				questions: { indexed: 0, failed: 0, total: 0, errors: [] as any[] },
 				blogs: { indexed: 0, failed: 0, total: 0, errors: [] as any[] }
@@ -236,13 +236,13 @@ export const actions: Actions = {
 				// Recreate question index
 				await recreateIndex('question', getQuestionIndexMapping());
 				console.log('Question index recreated successfully');
-				
+
 				// Recreate blog index
 				await recreateIndex('blog', getBlogIndexMapping());
 				console.log('Blog index recreated successfully');
-				
+
 				// Wait a moment for indices to be fully ready
-				await new Promise(resolve => setTimeout(resolve, 1000));
+				await new Promise((resolve) => setTimeout(resolve, 1000));
 			} catch (indexError) {
 				console.error('Failed to recreate indices:', indexError);
 				throw error(500, {
@@ -260,7 +260,7 @@ export const actions: Actions = {
 			const { count: totalQuestions } = await supabase
 				.from('questions')
 				.select('*', { count: 'exact', head: true });
-			
+
 			results.questions.total = totalQuestions || 0;
 
 			while (hasMoreQuestions) {
@@ -277,7 +277,7 @@ export const actions: Actions = {
 				}
 
 				// Prepare questions for indexing (using existing data)
-				const enrichedQuestions = questionBatch.map(q => ({
+				const enrichedQuestions = questionBatch.map((q) => ({
 					...q,
 					author_enneagram: '', // Will be enriched in future update
 					author_name: '' // Will be enriched in future update
@@ -295,8 +295,8 @@ export const actions: Actions = {
 				results.questions.errors.push(...indexResult.errors);
 
 				// Update Supabase with ES IDs for successfully indexed questions
-				const successfulQuestions = enrichedQuestions.filter((_, i) => 
-					!indexResult.errors.find(e => e.questionId === enrichedQuestions[i].id)
+				const successfulQuestions = enrichedQuestions.filter(
+					(_, i) => !indexResult.errors.find((e) => e.questionId === enrichedQuestions[i].id)
 				);
 
 				if (successfulQuestions.length > 0) {
@@ -309,8 +309,10 @@ export const actions: Actions = {
 					}
 				}
 
-				console.log(`Processed questions ${questionOffset} to ${questionOffset + questionBatch.length}`);
-				
+				console.log(
+					`Processed questions ${questionOffset} to ${questionOffset + questionBatch.length}`
+				);
+
 				if (questionBatch.length < QUESTION_BATCH_SIZE) {
 					hasMoreQuestions = false;
 				}
@@ -328,7 +330,7 @@ export const actions: Actions = {
 				.from('blogs_famous_people')
 				.select('*', { count: 'exact', head: true })
 				.eq('published', true);
-			
+
 			results.blogs.total = totalBlogs || 0;
 
 			while (hasMoreBlogs) {
@@ -352,18 +354,14 @@ export const actions: Actions = {
 				}));
 
 				// Use bulk indexing for blogs
-				const blogIndexResult = await indexWithRetry(
-					() => bulkIndexBlogs(processedBlogs),
-					3,
-					1000
-				);
+				const blogIndexResult = await indexWithRetry(() => bulkIndexBlogs(processedBlogs), 3, 1000);
 
 				results.blogs.indexed += blogIndexResult.indexed;
 				results.blogs.failed += blogIndexResult.failed;
 				results.blogs.errors.push(...blogIndexResult.errors);
 
 				console.log(`Processed blogs ${blogOffset} to ${blogOffset + blogBatch.length}`);
-				
+
 				if (blogBatch.length < BLOG_BATCH_SIZE) {
 					hasMoreBlogs = false;
 				}
@@ -375,9 +373,10 @@ export const actions: Actions = {
 			const totalFailed = results.questions.failed + results.blogs.failed;
 			const totalDocuments = results.questions.total + results.blogs.total;
 
-			const successMessage = totalFailed === 0
-				? `Successfully reindexed all ${totalIndexed} documents (${results.questions.indexed} questions, ${results.blogs.indexed} blogs).`
-				: `Reindexing completed with errors. Successfully indexed ${totalIndexed} out of ${totalDocuments} documents.`;
+			const successMessage =
+				totalFailed === 0
+					? `Successfully reindexed all ${totalIndexed} documents (${results.questions.indexed} questions, ${results.blogs.indexed} blogs).`
+					: `Reindexing completed with errors. Successfully indexed ${totalIndexed} out of ${totalDocuments} documents.`;
 
 			console.log('Reindexing complete:', {
 				questions: results.questions,

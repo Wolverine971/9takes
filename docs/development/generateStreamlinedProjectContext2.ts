@@ -1,4 +1,4 @@
-// generateStreamlinedProjectContext2.ts
+// docs/development/generateStreamlinedProjectContext2.ts
 /**
  * generateProjectContext.ts - Comprehensive SvelteKit Context Generator
  * Captures all architectural relationships and business logic

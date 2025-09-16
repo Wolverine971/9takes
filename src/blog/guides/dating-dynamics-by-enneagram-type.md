@@ -764,7 +764,7 @@ You have two choices:
 
 **Here's what to do right now:**
 
-1. **Identify your type** (if unsure, take our [Enneagram assessment](https://9takes.com/enneagram-test))
+1. **Identify your type** (if unsure, take our [Enneagram assessment](https://9takes.com/questions))
 2. **Start your type's Week 1 plan today**
 3. **Share this guide with your partner/dates**
 4. **Track your progress daily**

@@ -1,10 +1,7 @@
 // src/lib/elasticSearch.ts
 import { Client } from '@elastic/elasticsearch';
 
-import {
-	PRIVATE_ELASTIC_ADMIN,
-	PRIVATE_ELASTICSEARCH_NODE
-} from '$env/static/private';
+import { PRIVATE_ELASTIC_ADMIN, PRIVATE_ELASTICSEARCH_NODE } from '$env/static/private';
 
 export const elasticClient = new Client({
 	node: PRIVATE_ELASTICSEARCH_NODE || 'http://localhost:9200',
@@ -60,7 +57,9 @@ export const createESQuestion = async (body: {
 		}
 	} catch (e) {
 		console.error('Failed to create ES question:', e);
-		throw new Error(`Elasticsearch indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+		throw new Error(
+			`Elasticsearch indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`
+		);
 	}
 };
 
@@ -80,7 +79,9 @@ export const deleteESQuestion = async (body: { questionId: string }) => {
 		}
 	} catch (e) {
 		console.error('Failed to delete ES question:', e);
-		throw new Error(`Elasticsearch deletion failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+		throw new Error(
+			`Elasticsearch deletion failed: ${e instanceof Error ? e.message : 'Unknown error'}`
+		);
 	}
 };
 
@@ -218,7 +219,9 @@ export const addESComment = async ({
 			});
 	} catch (e) {
 		console.error('Failed to add ES comment:', e);
-		throw new Error(`Elasticsearch comment indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+		throw new Error(
+			`Elasticsearch comment indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`
+		);
 	}
 };
 
@@ -249,7 +252,7 @@ export const addESCommentLike = async ({
 export const bulkIndexQuestions = async (questions: any[]) => {
 	if (!questions.length) return { indexed: 0, failed: 0, errors: [] };
 
-	const bulkBody = questions.flatMap(q => [
+	const bulkBody = questions.flatMap((q) => [
 		{ index: { _index: 'question', _id: q.es_id } },
 		{
 			question: q.question,
@@ -360,7 +363,7 @@ export const bulkIndexBlogs = async (blogs: any[]) => {
 	const MAX_CONTENT_LENGTH = 10000; // 10k chars max for content
 	const MAX_DESCRIPTION_LENGTH = 1000; // 1k chars max for description
 
-	const bulkBody = blogs.flatMap(b => [
+	const bulkBody = blogs.flatMap((b) => [
 		{ index: { _index: 'blog', _id: b.es_id || `blog_${b.id}` } },
 		{
 			title: b.title,
@@ -410,7 +413,9 @@ export const bulkIndexBlogs = async (blogs: any[]) => {
 		return { indexed, failed, errors };
 	} catch (e) {
 		console.error('Bulk blog indexing failed:', e);
-		throw new Error(`Bulk blog indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+		throw new Error(
+			`Bulk blog indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`
+		);
 	}
 };
 
@@ -439,7 +444,7 @@ export const createIndex = async (indexName: string, mappings?: any, settings?: 
 			const body: any = {};
 			if (mappings) body.mappings = mappings;
 			if (settings) body.settings = settings;
-			
+
 			const response = await elasticClient.indices.create({
 				index: indexName,
 				...(Object.keys(body).length > 0 && { body })
@@ -527,10 +532,10 @@ export const indexWithRetry = async (
 			return await indexFunction();
 		} catch (error) {
 			if (i === retries - 1) throw error;
-			
+
 			const delay = initialDelay * Math.pow(2, i);
 			console.log(`Retry ${i + 1}/${retries} after ${delay}ms`);
-			await new Promise(resolve => setTimeout(resolve, delay));
+			await new Promise((resolve) => setTimeout(resolve, delay));
 		}
 	}
 };

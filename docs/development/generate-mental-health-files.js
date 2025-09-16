@@ -1,4 +1,4 @@
-// generate-mental-health-files.js
+// docs/development/generate-mental-health-files.js
 
 /**
  * Script to generate social media and meta files for all mental health blogs

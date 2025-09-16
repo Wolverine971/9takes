@@ -698,7 +698,7 @@ Regardless of type, when anxiety becomes overwhelming:
 - Stop helping immediately
 - Focus only on your needs for 24 hours
 - Let someone take care of you
-- Review your [love language patterns](/enneagram-corner/enneagram-love-languages) for healthier connection
+- Review your [love language patterns](/enneagram-corner/love-languages-and-enneagram-types) for healthier connection
 
 **Type 3 Crisis:** When achievement addiction crashes
 
@@ -750,7 +750,7 @@ Seek immediate professional support if:
 - Anxiety interferes with daily functioning
 - Physical symptoms persist or worsen
 - Suicidal thoughts emerge (see our [crisis management guide](/enneagram-corner/enneagram-crisis-management-guide))
-- Substance use increases (explore [addiction recovery patterns](/enneagram-corner/enneagram-addiction-recovery))
+- Substance use increases (explore [addiction recovery patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide))
 - Relationships are deteriorating (check our [relationship dynamics guide](/enneagram-corner/enneagram-relationship-dynamics))
 - You can't remember feeling calm
 
@@ -766,7 +766,7 @@ Managing anxiety isn't a one-time fix – it's an ongoing practice. Here's how t
 
 ### The Growth Edge Paradox
 
-Here's something counterintuitive: Your anxiety often points to your growth edge. What you avoid contains what you need. This aligns with the [wings concept](/enneagram-corner/enneagram-wings-guide) where growth comes from integrating neighboring type qualities.
+Here's something counterintuitive: Your anxiety often points to your growth edge. What you avoid contains what you need. This aligns with the [wings concept](/enneagram-corner/enneagram-wings-complete-guide) where growth comes from integrating neighboring type qualities.
 
 - **Type 1:** Your growth is in imperfection
 - **Type 2:** Your growth is in receiving

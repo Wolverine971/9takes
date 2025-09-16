@@ -17,7 +17,7 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"clean": "rimraf .svelte-kit",
 		"gen:sctx": "tsx generateStreamlinedProjectContext2.ts . -o ./sproject-context.json",
-		"label-paths": "tsx labelFilePaths.ts",
+		"label-paths": "tsx docs/development/labelFilePaths.ts",
 		"gen:types": "node scripts/generate-types.js",
 		"gen:sitemap": "node scripts/generate-sitemap.js",
 		"gen:all": "pnpm format && pnpm gen:types && pnpm gen:sitemap"

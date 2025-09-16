@@ -155,13 +155,13 @@
 	function deduplicateOptions(optionsList) {
 		const seen = new Set();
 		const deduped = [];
-		
+
 		for (const option of optionsList) {
 			if (option.options) {
 				// Handle grouped options
 				const dedupedSubOptions = [];
 				const subSeen = new Set();
-				
+
 				for (const subOption of option.options) {
 					const key = subOption.value || subOption.text;
 					if (!subSeen.has(key)) {
@@ -169,7 +169,7 @@
 						dedupedSubOptions.push(subOption);
 					}
 				}
-				
+
 				if (dedupedSubOptions.length > 0) {
 					deduped.push({ ...option, options: dedupedSubOptions });
 				}
@@ -182,7 +182,7 @@
 				}
 			}
 		}
-		
+
 		return deduped;
 	}
 

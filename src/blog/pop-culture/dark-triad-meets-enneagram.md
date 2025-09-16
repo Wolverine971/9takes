@@ -419,7 +419,7 @@ displayList={[
 {name: 'being toxic ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'},
 {name: 'narcissistic tendencies 🪞', link: '/enneagram-corner/narcissism-enneagram'},
 {name: 'manipulative behaviors 🎭', link: '/enneagram-corner/manipulation-tactics-by-type'},
-{name: 'shadow work guide 🌑', link: '/enneagram-corner/shadow-work-by-type'}
+{name: 'shadow work guide 🌑', link: '/enneagram-corner/shadow-work-by-enneagram-type'}
 ]}
 />
 </div>

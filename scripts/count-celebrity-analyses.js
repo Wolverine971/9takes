@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+// scripts/count-celebrity-analyses.js
 
 // Script to count celebrity analyses from Supabase
 import { createClient } from '@supabase/supabase-js';

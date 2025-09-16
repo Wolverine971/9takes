@@ -65,20 +65,23 @@
 
 		try {
 			// Use the new JSON API endpoint
-			const response = await fetch(`/api/questions/typeahead?q=${encodeURIComponent(searchString)}`, {
-				method: 'GET',
-				headers: {
-					'Content-Type': 'application/json'
-				},
-				signal: abortController.signal
-			});
+			const response = await fetch(
+				`/api/questions/typeahead?q=${encodeURIComponent(searchString)}`,
+				{
+					method: 'GET',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					signal: abortController.signal
+				}
+			);
 
 			if (!response.ok) {
 				throw new Error('Search failed');
 			}
 
 			const data = await response.json();
-			
+
 			// Handle the JSON response
 			const searchResults = data.results || [];
 
@@ -238,7 +241,7 @@
 		gap: 0.75rem;
 		width: 100%;
 		align-items: flex-start;
-		
+
 		@media (min-width: $breakpoint-mobile) {
 			gap: 1rem;
 		}

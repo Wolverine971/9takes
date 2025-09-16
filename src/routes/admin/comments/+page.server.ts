@@ -1,5 +1,5 @@
 // src/routes/admin/comments/+page.server.ts
-import {  error, redirect } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 import type { Actions } from './$types';
 import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
@@ -153,7 +153,7 @@ async function getPaginatedComments(table, page = 0, options = {}, supabase) {
 export const load: PageServerLoad = async (event) => {
 	try {
 		const session = event.locals.session;
-		const locals = event.locals
+		const locals = event.locals;
 		const { demo_time } = await event.parent();
 		const page = event.url.searchParams.get('page')
 			? parseInt(event.url.searchParams.get('page'))
@@ -167,27 +167,42 @@ export const load: PageServerLoad = async (event) => {
 		const profilesTable = demo_time ? 'profiles_demo' : 'profiles';
 
 		// Load regular comments
-		const { data: comments } = await getPaginatedComments(commentsTable, page, {
-			selectionFields: `*, ${profilesTable} (*)`,
-			limit: PAGE_SIZE,
-			orderField: 'created_at',
-			orderDirection: { ascending: false }
-		}, locals.supabase);
+		const { data: comments } = await getPaginatedComments(
+			commentsTable,
+			page,
+			{
+				selectionFields: `*, ${profilesTable} (*)`,
+				limit: PAGE_SIZE,
+				orderField: 'created_at',
+				orderDirection: { ascending: false }
+			},
+			locals.supabase
+		);
 
 		// Load flagged comments
-		const { data: flaggedComments } = await getPaginatedComments('flagged_comments', page, {
-			selectionFields: `*, comments (*), profiles (*)`,
-			limit: PAGE_SIZE,
-			filters: {
-				removed_at: null,
-				cleared_at: null
-			}
-		}, locals.supabase);
+		const { data: flaggedComments } = await getPaginatedComments(
+			'flagged_comments',
+			page,
+			{
+				selectionFields: `*, comments (*), profiles (*)`,
+				limit: PAGE_SIZE,
+				filters: {
+					removed_at: null,
+					cleared_at: null
+				}
+			},
+			locals.supabase
+		);
 
 		// Load blog comments
-		const { data: blogComments } = await getPaginatedComments('blog_comments', page, {
-			limit: PAGE_SIZE
-		}, locals.supabase);
+		const { data: blogComments } = await getPaginatedComments(
+			'blog_comments',
+			page,
+			{
+				limit: PAGE_SIZE
+			},
+			locals.supabase
+		);
 
 		// Process comments to include parent questions
 		const processedComments = comments ? await getCommentParents(comments) : [];

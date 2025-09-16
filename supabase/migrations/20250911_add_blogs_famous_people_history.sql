@@ -1,4 +1,4 @@
--- Migration to add change tracking for blogs_famous_people table
+-- supabase/migrations/20250911_add_blogs_famous_people_history.sql
 -- This tracks the last 5 changes to the 'content' column only
 
 -- Create the history table

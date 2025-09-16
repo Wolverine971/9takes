@@ -89,7 +89,7 @@
 
 <a
 	href="/questions/{questionData.url}"
-	class="greek-question-card my-1 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded px-3 sm:px-4 py-2.5 sm:py-3 text-inherit no-underline transition-all duration-200 will-change-auto"
+	class="greek-question-card my-1 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded px-3 py-2.5 text-inherit no-underline transition-all duration-200 will-change-auto sm:px-4 sm:py-3"
 	class:focus:outline-primary-light={true}
 	class:focus:outline-offset-2={true}
 	class:w-full={showDetails}
@@ -112,10 +112,12 @@
 
 	{#if showDetails}
 		<div
-			class="flex flex-shrink-0 flex-col items-end gap-1 xs:flex-row xs:items-center xs:gap-2 sm:flex-row sm:items-center"
+			class="xs:flex-row xs:items-center xs:gap-2 flex flex-shrink-0 flex-col items-end gap-1 sm:flex-row sm:items-center"
 		>
-			<span class="flex min-w-[2rem] sm:min-w-[2.5rem] items-center text-xs sm:text-sm font-bold text-gray-800">
-				<span class="min-w-3 sm:min-w-4 text-right">{questionData.comment_count || ''}</span>
+			<span
+				class="flex min-w-[2rem] items-center text-xs font-bold text-gray-800 sm:min-w-[2.5rem] sm:text-sm"
+			>
+				<span class="min-w-3 text-right sm:min-w-4">{questionData.comment_count || ''}</span>
 				<MasterCommentIcon
 					iconStyle="margin-left: 0.25rem; min-width: 1rem; min-height: 1rem;"
 					height="1rem"
@@ -124,7 +126,7 @@
 				/>
 			</span>
 			<span
-				class="flex min-w-12 xs:min-w-14 sm:min-w-16 justify-center rounded border border-neutral-300 bg-white px-1.5 xs:px-2 py-0.5 text-center text-xs sm:text-sm"
+				class="xs:min-w-14 xs:px-2 flex min-w-12 justify-center rounded border border-neutral-300 bg-white px-1.5 py-0.5 text-center text-xs sm:min-w-16 sm:text-sm"
 			>
 				{formattedDate}
 			</span>

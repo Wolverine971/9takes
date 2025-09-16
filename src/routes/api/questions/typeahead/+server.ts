@@ -1,3 +1,4 @@
+// src/routes/api/questions/typeahead/+server.ts
 import { json } from '@sveltejs/kit';
 import { elasticClient } from '$lib/elasticSearch';
 import type { RequestHandler } from './$types';

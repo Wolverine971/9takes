@@ -22,7 +22,7 @@
 	};
 
 	let isReindexing = false;
-	
+
 	const reindexEverything = async () => {
 		isReindexing = true;
 		let body = new FormData();
@@ -32,25 +32,28 @@
 				method: 'POST',
 				body
 			});
-			
+
 			const result = await response.json();
-			
+
 			if (response.ok && result.data) {
 				const data = JSON.parse(result.data);
-				
+
 				if (data.success) {
-					notifications.success(data.message || `Successfully reindexed ${data.indexed} documents`, 5000);
+					notifications.success(
+						data.message || `Successfully reindexed ${data.indexed} documents`,
+						5000
+					);
 				} else if (data.failed > 0) {
 					const details = data.details;
 					let errorMessage = `Reindexing completed with errors: ${data.indexed} succeeded, ${data.failed} failed out of ${data.total} total`;
-					
+
 					if (details) {
 						errorMessage += `\n\nQuestions: ${details.questions.indexed}/${details.questions.total} indexed`;
 						errorMessage += `\nBlogs: ${details.blogs.indexed}/${details.blogs.total} indexed`;
 					}
-					
+
 					notifications.warning(errorMessage, 10000);
-					
+
 					if (details?.questions?.errors?.length > 0) {
 						console.error('Failed to reindex questions:', details.questions.errors);
 					}
@@ -63,13 +66,16 @@
 			} else {
 				const errorData = result.error || {};
 				notifications.error(
-					errorData.message || 'Failed to reindex. Check server logs for details.', 
+					errorData.message || 'Failed to reindex. Check server logs for details.',
 					5000
 				);
 			}
 		} catch (err) {
 			console.error('Reindexing error:', err);
-			notifications.error('Failed to reindex questions. Please check your Elasticsearch connection.', 5000);
+			notifications.error(
+				'Failed to reindex questions. Please check your Elasticsearch connection.',
+				5000
+			);
 		} finally {
 			isReindexing = false;
 			getModal('confirmReindex').close();
@@ -371,31 +377,31 @@
 <Modal2 id="confirmReindex">
 	<h2 style="margin: 0 0 1rem 0; font-size: 1.5rem;">Reindex Elasticsearch</h2>
 	<p style="margin-bottom: 1.5rem;">
-		This will completely rebuild the Elasticsearch indices for all questions and blog posts. The existing indices will be deleted and recreated with fresh data from the database.
+		This will completely rebuild the Elasticsearch indices for all questions and blog posts. The
+		existing indices will be deleted and recreated with fresh data from the database.
 	</p>
-	<p style="margin-bottom: 1rem;">
-		This process will:
-	</p>
+	<p style="margin-bottom: 1rem;">This process will:</p>
 	<ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
 		<li>Delete the current 'question' and 'blog' indices</li>
 		<li>Recreate them with proper mappings</li>
 		<li>Re-import all questions and published blog posts from Supabase</li>
 	</ul>
 	<p style="margin-bottom: 1.5rem; color: var(--warning);">
-		<strong>Warning:</strong> This process may take several minutes depending on the amount of data. Make sure Elasticsearch is running and accessible before proceeding.
+		<strong>Warning:</strong> This process may take several minutes depending on the amount of data.
+		Make sure Elasticsearch is running and accessible before proceeding.
 	</p>
 	<div style="display: flex; gap: 1rem; justify-content: flex-end;">
-		<button 
-			type="button" 
-			class="btn btn-secondary" 
+		<button
+			type="button"
+			class="btn btn-secondary"
 			on:click={() => getModal('confirmReindex').close()}
 			disabled={isReindexing}
 		>
 			Cancel
 		</button>
-		<button 
-			type="button" 
-			class="btn btn-primary" 
+		<button
+			type="button"
+			class="btn btn-primary"
 			on:click={reindexEverything}
 			disabled={isReindexing}
 		>
