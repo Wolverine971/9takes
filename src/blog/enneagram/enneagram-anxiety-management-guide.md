@@ -723,7 +723,7 @@ Regardless of type, when anxiety becomes overwhelming:
 - Write down actual probabilities
 - Focus only on the next hour
 - Activate your support network
-- Use [trauma response understanding](/enneagram-corner/enneagram-trauma-response) to recognize patterns
+- Use [trauma response understanding](/enneagram-corner/mental-health/enneagram-trauma-response-guide) to recognize patterns
 
 **Type 7 Crisis:** When running stops working
 
@@ -751,7 +751,7 @@ Seek immediate professional support if:
 - Physical symptoms persist or worsen
 - Suicidal thoughts emerge (see our [crisis management guide](/enneagram-corner/enneagram-crisis-management-guide))
 - Substance use increases (explore [addiction recovery patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide))
-- Relationships are deteriorating (check our [relationship dynamics guide](/enneagram-corner/enneagram-relationship-dynamics))
+- Relationships are deteriorating (check our [relationship dynamics guide](/enneagram-corner/enneagram-types-in-relationships))
 - You can't remember feeling calm
 
 Remember: Getting help isn't weakness. It's wisdom. Consider our [therapy integration guide](/enneagram-corner/enneagram-therapy-guide) for type-specific approaches.

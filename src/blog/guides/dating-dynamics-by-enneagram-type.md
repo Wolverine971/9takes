@@ -8,7 +8,7 @@ lastmod: '2025-09-14'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
-pic: 'couple-on-romantic-date-personality-types'
+pic: 'greek-statues-on-a-date'
 ---
 
 <!-- enneagram dating

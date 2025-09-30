@@ -72,7 +72,7 @@ speed={30}
 
 Type 1s experience anxiety primarily through:
 
-- **[Perfectionistic anxiety](/enneagram-corner/mental-health/enneagram-perfectionism-guide)**: Fear of making mistakes or being imperfect
+- **Perfectionistic anxiety**: Fear of making mistakes or being imperfect
 - **Moral anxiety**: Worry about doing the "wrong" thing
 - **Health anxiety**: Concern about body imperfections or illness
 - **Performance anxiety**: Fear of not meeting standards
@@ -125,7 +125,7 @@ Studies show that perfectionism is linked to a 50% higher risk of anxiety disord
 
 Type 2s experience anxiety through:
 
-- **[Social anxiety](/enneagram-corner/mental-health/enneagram-social-anxiety-guide)**: Fear of rejection or not being needed
+- **Social anxiety**: Fear of rejection or not being needed
 - **Separation anxiety**: Distress when apart from loved ones
 - **People-pleasing anxiety**: Worry about disappointing others
 - **Emotional contagion anxiety**: Taking on others' emotions
@@ -244,7 +244,7 @@ Type 4s experience anxiety through:
 - **Existential anxiety**: Fear of meaninglessness or ordinariness
 - **Abandonment anxiety**: Fear of being left due to defectiveness
 - **Identity anxiety**: Uncertainty about authentic self
-- **[Emotional flooding anxiety](/enneagram-corner/mental-health/enneagram-emotional-regulation-guide)**: Fear of overwhelming feelings
+- **Emotional flooding anxiety**: Fear of overwhelming feelings
 
 ### Common Anxiety Triggers for Type 4s
 
@@ -347,7 +347,7 @@ Introverted thinking types show 60% higher baseline arousal in brain scans (Jour
 
 Type 6s experience anxiety through:
 
-- **[Generalized anxiety](/enneagram-corner/mental-health/enneagram-generalized-anxiety-guide)**: Pervasive worry about everything
+- **Generalized anxiety**: Pervasive worry about everything
 - **Authority anxiety**: Fear related to authority figures
 - **Decision anxiety**: Fear of making wrong choices
 - **Trust anxiety**: Fear of betrayal or deception
@@ -407,7 +407,7 @@ Type 7s experience anxiety through:
 
 - **FOMO anxiety**: Fear of missing out on experiences
 - **Constraint anxiety**: Fear of limitation or boredom
-- **Dark emotion anxiety**: Fear of pain, sadness, or [negativity](/enneagram-corner/mental-health/enneagram-depression-guide)
+- **Dark emotion anxiety**: Fear of pain, sadness, or [negativity](/enneagram-corner/depression-patterns-by-enneagram-type)
 - **Commitment anxiety**: Fear of being trapped
 
 ### Common Anxiety Triggers for Type 7s

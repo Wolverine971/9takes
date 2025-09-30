@@ -417,8 +417,8 @@ They're not just escaping pain—they're spreading it.
 displayList={[
 {name: 'at their worst 😰', link: '/enneagram-corner/enneagram-types-in-stress'},
 {name: 'being toxic ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'},
-{name: 'narcissistic tendencies 🪞', link: '/enneagram-corner/narcissism-enneagram'},
-{name: 'manipulative behaviors 🎭', link: '/enneagram-corner/manipulation-tactics-by-type'},
+{name: 'narcissistic tendencies 🪞', link: '/pop-culture/dark-triad-meets-enneagram'},
+{name: 'manipulative behaviors 🎭', link: '/pop-culture/dark-triad-meets-enneagram'},
 {name: 'shadow work guide 🌑', link: '/enneagram-corner/shadow-work-by-enneagram-type'}
 ]}
 />
