@@ -6,6 +6,9 @@ import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../../utils/api';
 import { tagQuestion } from '../../../utils/openai';
 import { mapDemoValues } from '../../../utils/demo';
+import { adminUserUpdateSchema, adminUpdateAdminStatusSchema } from '$lib/validation/schemas';
+import { z } from 'zod';
+import { logger } from '$lib/utils/logger';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -150,26 +153,46 @@ export const actions: Actions = {
 			}
 
 			const body = Object.fromEntries(await request.formData());
-			const first_name = body.firstName as string;
-			const last_name = body.lastName as string;
-			const enneagram = body.enneagram as string;
-			const email = body.email as string;
+
+			// Validate input data
+			let validatedData;
+			try {
+				validatedData = adminUserUpdateSchema.parse(body);
+			} catch (e) {
+				if (e instanceof z.ZodError) {
+					logger.warn('Admin user update validation failed', { errors: e.errors });
+					throw error(400, {
+						message: 'Invalid input data',
+						details: e.errors
+					});
+				}
+				throw e;
+			}
+
+			const { firstName, lastName, enneagram, email } = validatedData;
+
 			const { error: updateUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.update({ first_name, last_name, enneagram })
+				.update({
+					first_name: firstName,
+					last_name: lastName,
+					enneagram
+				})
 				.eq('email', email);
-			// insert(userData);
-			if (!updateUserError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update user ${JSON.stringify(updateUserError)}`
-				});
+
+			if (updateUserError) {
+				logger.error('Failed to update user', updateUserError, { email });
+				throw error(500, 'Failed to update user account');
 			}
+
+			logger.info('Admin updated user account', { email, adminId: session.user.id });
+			return { success: true };
 		} catch (e) {
-			throw error(400, {
-				message: `Failed to update user ${JSON.stringify(e)}`
-			});
+			if (e instanceof Error && e.message.includes('Invalid input data')) {
+				throw e;
+			}
+			logger.error('Unexpected error in updateUserAccount', e as Error);
+			throw error(500, 'An unexpected error occurred');
 		}
 	},
 	updateAdmin: async (event) => {
@@ -199,24 +222,46 @@ export const actions: Actions = {
 			const { request } = event;
 
 			const body = Object.fromEntries(await request.formData());
-			const isAdmin = body.isAdmin as string;
-			const email = body.email as string;
+
+			// Validate input data
+			let validatedData;
+			try {
+				validatedData = adminUpdateAdminStatusSchema.parse(body);
+			} catch (e) {
+				if (e instanceof z.ZodError) {
+					logger.warn('Admin status update validation failed', { errors: e.errors });
+					throw error(400, {
+						message: 'Invalid input data',
+						details: e.errors
+					});
+				}
+				throw e;
+			}
+
+			const { email, isAdmin } = validatedData;
+
 			const { error: updateUserToAdminError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.update({ admin: isAdmin === 'true' })
+				.update({ admin: isAdmin })
 				.eq('email', email);
-			// insert(userData);
-			if (!updateUserToAdminError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update user to admin ${JSON.stringify(updateUserToAdminError)}`
-				});
+
+			if (updateUserToAdminError) {
+				logger.error('Failed to update admin status', updateUserToAdminError, { email, isAdmin });
+				throw error(500, 'Failed to update admin status');
 			}
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to update user to admin ${JSON.stringify(e)}`
+
+			logger.info('Admin status updated', {
+				targetEmail: email,
+				isAdmin,
+				updatedBy: session.user.id
 			});
+			return { success: true };
+		} catch (e) {
+			if (e instanceof Error && e.message.includes('Invalid input data')) {
+				throw e;
+			}
+			logger.error('Unexpected error in updateAdmin', e as Error);
+			throw error(500, 'An unexpected error occurred');
 		}
 	}
 };

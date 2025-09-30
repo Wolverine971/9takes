@@ -105,6 +105,37 @@ export const adminActionSchema = z.object({
 	action: z.enum(['makeAdmin', 'removeAdmin', 'ban', 'unban']).optional()
 });
 
+export const adminUserUpdateSchema = z.object({
+	firstName: z.string().min(1).max(50).regex(/^[a-zA-Z\s-']+$/, 'Invalid first name format'),
+	lastName: z.string().min(1).max(50).regex(/^[a-zA-Z\s-']+$/, 'Invalid last name format'),
+	email: emailSchema,
+	enneagram: z.string().regex(/^[1-9]$/, 'Enneagram must be 1-9').transform(Number)
+});
+
+export const adminUpdateAdminStatusSchema = z.object({
+	email: emailSchema,
+	isAdmin: z.string().transform((val) => val === 'true')
+});
+
+// Email validation schemas
+export const emailSubmissionSchema = z.object({
+	email: emailSchema,
+	suggestedPerson: z.string().min(2).max(100).regex(/^[a-zA-Z\s-']+$/, 'Invalid person name')
+});
+
+export const emailTemplateSchema = z.object({
+	email: emailSchema,
+	subject: z.string().min(1).max(200),
+	emailType: z.enum(['joinEmail', 'joinEmail2', 'signupEmail', 'forgotPass']),
+	emailToSend: z.string().max(50000).optional()
+});
+
+export const customEmailSchema = z.object({
+	email: emailSchema,
+	subject: z.string().min(1).max(200),
+	emailContent: z.string().min(1).max(50000)
+});
+
 // Helper function to validate and parse data
 export function validateData<T>(schema: z.ZodSchema<T>, data: unknown): T {
 	const result = schema.safeParse(data);

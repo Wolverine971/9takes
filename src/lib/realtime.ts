@@ -40,7 +40,30 @@ export class RealtimeMessaging {
 	 * Send a message to a channel
 	 */
 	async sendMessage(channelName: string, message: Omit<Message, 'id' | 'timestamp'>) {
-		const channel = this.channels.get(channelName) || this.supabase.channel(channelName);
+		let channel = this.channels.get(channelName);
+
+		// If channel doesn't exist, create and subscribe to it first
+		if (!channel) {
+			channel = this.supabase.channel(channelName);
+
+			// Wait for subscription to complete before sending
+			await new Promise<void>((resolve, reject) => {
+				const timeout = setTimeout(() => {
+					reject(new Error('Channel subscription timeout'));
+				}, 5000);
+
+				channel.subscribe((status) => {
+					if (status === 'SUBSCRIBED') {
+						clearTimeout(timeout);
+						this.channels.set(channelName, channel);
+						resolve();
+					} else if (status === 'CLOSED' || status === 'CHANNEL_ERROR') {
+						clearTimeout(timeout);
+						reject(new Error(`Channel subscription failed with status: ${status}`));
+					}
+				});
+			});
+		}
 
 		const payload: Message = {
 			...message,

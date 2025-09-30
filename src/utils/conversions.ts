@@ -14,9 +14,11 @@ interface Comment {
 	id: number;
 	parent_id: number | null;
 	parent_type: string;
+	parentQuestion?: any;
+	parentComment?: any;
 }
 
-export const getCommentParents = async (comments: Comment[]) => {
+export const getCommentParents = async (comments: Comment[]): Promise<Comment[]> => {
 	const commentsOnQuestions = comments.filter(
 		(comment) => comment.parent_id !== null && comment.parent_type === 'question'
 	);
@@ -36,7 +38,7 @@ export const getCommentParents = async (comments: Comment[]) => {
 		throw new Error(`Failed to get parent questions ${JSON.stringify(questionsError)}`);
 	}
 
-	const questionMap = {};
+	const questionMap: { [key: number]: any } = {};
 	questions.forEach((question) => {
 		questionMap[question.id] = question;
 	});
@@ -53,7 +55,7 @@ export const getCommentParents = async (comments: Comment[]) => {
 		throw new Error(`Failed to get parent comments ${JSON.stringify(cOnCommentsError)}`);
 	}
 
-	const commentMap = {};
+	const commentMap: { [key: number]: any } = {};
 	cOnComments.forEach((comment) => {
 		commentMap[comment.id] = comment;
 	});

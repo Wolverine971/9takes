@@ -23,24 +23,26 @@ export const load: PageServerLoad = async (event) => {
 		.eq('email', session?.user?.email)
 		.single();
 
+	if (findUserError || !user) {
+		console.error('Failed to load user profile:', findUserError);
+		throw error(404, 'User profile not found');
+	}
+
 	const { data: subscriptions, error: subscriptionsError } = await event.locals.supabase
 		.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
 		.select(
 			`*,
 		${demo_time === true ? 'questions_demo' : 'questions'}(id, question, question_formatted, url)`
 		)
-		.eq('user_id', user?.id);
+		.eq('user_id', user.id);
 
 	if (subscriptionsError) {
-		// Handle subscriptions error
+		console.error('Failed to load subscriptions:', subscriptionsError);
+		// Don't fail the request, just return empty subscriptions
+		return { user: mapDemoValues(user), subscriptions: [] };
 	}
-	if (!findUserError) {
-		return { user: mapDemoValues(user), subscriptions: mapDemoValues(subscriptions) };
-	} else {
-		throw error(404, {
-			message: `Error searching for user`
-		});
-	}
+
+	return { user: mapDemoValues(user), subscriptions: mapDemoValues(subscriptions) };
 };
 
 export const actions: Actions = {
@@ -60,13 +62,17 @@ export const actions: Actions = {
 			const first_name = body.firstName as string;
 			const last_name = body.lastName as string;
 			const enneagram = body.enneagram as string;
-
 			const email = body.email as string;
 
-			const { error: updateUserError } = await supabase
+			// Verify the email matches the authenticated user to prevent privilege escalation
+			if (email !== session.user.email) {
+				throw error(403, 'Unauthorized: Cannot modify another user\'s account');
+			}
+
+			const { error: updateUserError } = await locals.supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
 				.update({ first_name, last_name, enneagram })
-				.eq('email', email);
+				.eq('id', session.user.id);
 			// insert(userData);
 			if (!updateUserError) {
 				return { success: true };

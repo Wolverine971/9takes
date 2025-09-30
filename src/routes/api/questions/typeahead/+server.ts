@@ -3,12 +3,22 @@ import { json } from '@sveltejs/kit';
 import { elasticClient } from '$lib/elasticSearch';
 import type { RequestHandler } from './$types';
 
-export const GET: RequestHandler = async ({ url }) => {
+export const GET: RequestHandler = async ({ url, locals }) => {
+	// Add authentication check
+	if (!locals.session?.user?.id) {
+		return json({ error: 'Unauthorized' }, { status: 401 });
+	}
+
 	try {
 		const searchString = url.searchParams.get('q');
 
 		if (!searchString || searchString.length < 2) {
 			return json({ results: [] });
+		}
+
+		// Add maximum length validation
+		if (searchString.length > 200) {
+			return json({ results: [], error: 'Search query too long' }, { status: 400 });
 		}
 
 		const {
@@ -67,13 +77,23 @@ export const GET: RequestHandler = async ({ url }) => {
 	}
 };
 
-export const POST: RequestHandler = async ({ request }) => {
+export const POST: RequestHandler = async ({ request, locals }) => {
+	// Add authentication check
+	if (!locals.session?.user?.id) {
+		return json({ error: 'Unauthorized' }, { status: 401 });
+	}
+
 	try {
 		const body = await request.formData();
 		const searchString = body.get('searchString') as string;
 
 		if (!searchString || searchString.length < 2) {
 			return json({ results: [] });
+		}
+
+		// Add maximum length validation
+		if (searchString.length > 200) {
+			return json({ results: [], error: 'Search query too long' }, { status: 400 });
 		}
 
 		const {

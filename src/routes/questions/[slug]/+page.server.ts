@@ -344,7 +344,38 @@ interface OGData {
 
 async function fetchOGData(url: string): Promise<OGData> {
 	try {
-		const response = await axios.get(url);
+		// Validate URL to prevent SSRF attacks
+		const parsedUrl = new URL(url);
+
+		// Block internal IPs and localhost
+		const blockedHosts = ['localhost', '127.0.0.1', '0.0.0.0', '::1', '169.254.169.254'];
+		const hostname = parsedUrl.hostname.toLowerCase();
+
+		if (blockedHosts.includes(hostname)) {
+			console.warn('Blocked request to internal host:', hostname);
+			return {};
+		}
+
+		// Block private IP ranges (basic check)
+		if (hostname.startsWith('10.') || hostname.startsWith('192.168.') || hostname.startsWith('172.')) {
+			console.warn('Blocked request to private IP range:', hostname);
+			return {};
+		}
+
+		// Only allow HTTP/HTTPS
+		if (!['http:', 'https:'].includes(parsedUrl.protocol)) {
+			console.warn('Blocked non-HTTP(S) protocol:', parsedUrl.protocol);
+			return {};
+		}
+
+		const response = await axios.get(url, {
+			timeout: 5000,
+			maxContentLength: 1024 * 1024, // 1MB limit
+			maxRedirects: 3,
+			headers: {
+				'User-Agent': '9takes-bot/1.0'
+			}
+		});
 		const $ = cheerioLoad(response.data);
 
 		const ogData: OGData = {};

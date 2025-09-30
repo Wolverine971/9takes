@@ -1,13 +1,33 @@
 // src/lib/utils/blog.ts
 import { slugFromPath } from '../slugFromPath';
 
+// Helper to safely process Mdsvex modules
+function processMdsvexModule(path: string, resolver: App.MdsvexResolver) {
+	return resolver().then((post) => {
+		const mdsvexFile = post as App.MdsvexFile;
+		const metadata = mdsvexFile.metadata as App.BlogPost;
+		return {
+			...metadata,
+			slug: slugFromPath(path),
+			path,
+			rssDate: buildRFC822Date(metadata.date),
+			rssUpdateDate: buildRFC822Date(metadata.lastmod)
+		};
+	});
+}
+
 function addLeadingZero(num: number): string {
 	let numStr = num.toString();
 	while (numStr.length < 2) numStr = '0' + numStr;
 	return numStr;
 }
 
-function buildRFC822Date(dateString: string): string {
+function buildRFC822Date(dateString: string | undefined): string {
+	// Handle undefined or empty date strings
+	if (!dateString) {
+		return new Date().toUTCString();
+	}
+
 	const dayStrings = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 	const monthStrings = [
 		'Jan',
@@ -25,6 +45,13 @@ function buildRFC822Date(dateString: string): string {
 	];
 
 	const timeStamp = Date.parse(dateString);
+
+	// Validate date parsing
+	if (isNaN(timeStamp)) {
+		console.warn(`Invalid date string: ${dateString}, using current date`);
+		return new Date().toUTCString();
+	}
+
 	const date = new Date(timeStamp);
 
 	const day = dayStrings[date.getDay()];
@@ -32,9 +59,15 @@ function buildRFC822Date(dateString: string): string {
 	const month = monthStrings[date.getMonth()];
 	const year = date.getFullYear();
 	const time = `${addLeadingZero(date.getHours())}:${addLeadingZero(date.getMinutes())}:00`;
-	const timezone = date.getTimezoneOffset() === 0 ? 'GMT' : 'BST';
 
-	//Wed, 02 Oct 2002 13:00:00 GMT
+	// Fix timezone calculation - use proper RFC822 format
+	const offset = -date.getTimezoneOffset();
+	const sign = offset >= 0 ? '+' : '-';
+	const hours = Math.floor(Math.abs(offset) / 60);
+	const minutes = Math.abs(offset) % 60;
+	const timezone = `${sign}${addLeadingZero(hours)}${addLeadingZero(minutes)}`;
+
+	//Wed, 02 Oct 2002 13:00:00 +0000
 	return `${day}, ${dayNumber} ${month} ${year} ${time} ${timezone}`;
 }
 
@@ -42,26 +75,14 @@ export const getBlogPosts = async (): Promise<App.BlogPost[]> => {
 	// Get all enneagram blog posts including subdirectories
 	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
-		resolver().then((post) => ({
-			...(post as unknown as App.MdsvexFile).metadata,
-			slug: slugFromPath(path),
-			path,
-			rssDate: buildRFC822Date((post as unknown as App.MdsvexFile)?.metadata?.date),
-			rssUpdateDate: buildRFC822Date((post as unknown as App.MdsvexFile)?.metadata?.lastmod)
-		}))
+		processMdsvexModule(path, resolver)
 	);
 	const enneagramPosts = (await Promise.all(enneagramPromises)).filter((post) => post.published);
 
 	// Get community posts
 	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
 	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
-		resolver().then((post) => ({
-			...(post as unknown as App.MdsvexFile).metadata,
-			slug: slugFromPath(path),
-			path,
-			rssDate: buildRFC822Date((post as unknown as App.MdsvexFile)?.metadata?.date),
-			rssUpdateDate: buildRFC822Date((post as unknown as App.MdsvexFile)?.metadata?.lastmod)
-		}))
+		processMdsvexModule(path, resolver)
 	);
 	const communityPosts = (await Promise.all(communityPromises)).filter((post) => post?.published);
 

@@ -8,6 +8,24 @@ export const elasticClient = new Client({
 	auth: { username: 'elastic', password: PRIVATE_ELASTIC_ADMIN }
 });
 
+/**
+ * Validate Elasticsearch connection
+ * Should be called on application startup
+ */
+export async function validateElasticConnection(): Promise<boolean> {
+	try {
+		const pingResponse = await elasticClient.ping();
+		if (pingResponse) {
+			console.log('Elasticsearch connection successful');
+			return true;
+		}
+		return false;
+	} catch (error) {
+		console.error('Elasticsearch connection failed:', error);
+		throw new Error('Failed to connect to Elasticsearch. Please check your configuration.');
+	}
+}
+
 export const createESQuestion = async (body: {
 	question: string;
 	author_id: string;
@@ -63,7 +81,9 @@ export const createESQuestion = async (body: {
 	}
 };
 
-export const deleteESQuestion = async (body: { questionId: string }) => {
+export const deleteESQuestion = async (
+	body: { questionId: string }
+): Promise<{ success?: boolean; [key: string]: any }> => {
 	try {
 		const questionId = body.questionId as string;
 
@@ -91,7 +111,7 @@ export const addESQuestionLike = async ({
 }: {
 	questionId: string;
 	operation: string;
-}) => {
+}): Promise<boolean> => {
 	try {
 		await elasticClient.update({
 			index: 'question',
@@ -102,9 +122,15 @@ export const addESQuestionLike = async ({
 				}
 			}
 		});
+		return true;
 	} catch (e) {
-		console.error('Failed to update ES question likes:', e);
-		// Non-critical operation, don't throw
+		console.error('Failed to update ES question likes:', {
+			questionId,
+			operation,
+			error: e instanceof Error ? e.message : 'Unknown error'
+		});
+		// Non-critical operation, return false instead of throwing
+		return false;
 	}
 };
 
@@ -114,9 +140,9 @@ export const addESSubscription = async ({
 }: {
 	questionId: string;
 	operation: string;
-}) => {
+}): Promise<boolean> => {
 	try {
-		return await elasticClient.update({
+		await elasticClient.update({
 			index: 'question',
 			id: questionId,
 			body: {
@@ -127,9 +153,15 @@ export const addESSubscription = async ({
 				}
 			}
 		});
+		return true;
 	} catch (e) {
-		console.error('Failed to update ES subscription:', e);
-		// Non-critical operation, don't throw
+		console.error('Failed to update ES subscription:', {
+			questionId,
+			operation,
+			error: e instanceof Error ? e.message : 'Unknown error'
+		});
+		// Non-critical operation, return false instead of throwing
+		return false;
 	}
 };
 
@@ -147,76 +179,49 @@ export const addESComment = async ({
 	authorId: string;
 	comment: string;
 	ip: string;
-}) => {
+}): Promise<string | null> => {
 	try {
 		const date = new Date();
-		return elasticClient
-			.index({
-				index: 'comment',
+		const resp = await elasticClient.index({
+			index: 'comment',
+			body: {
+				parentId: parentId,
+				authorId: authorId,
+				comment: comment,
+				comments: 0,
+				likes: 0,
+				createdDate: date,
+				ip
+			}
+		});
+
+		// Update parent comment count with better error handling
+		try {
+			const updateIndex = index === 'comment' || index === 'question' || index === 'relationship' || index === 'blog'
+				? index
+				: enneaType;
+
+			await elasticClient.update({
+				index: updateIndex,
+				id: parentId,
 				body: {
-					parentId: parentId,
-					authorId: authorId,
-					comment: comment,
-					comments: 0,
-					likes: 0,
-					createdDate: date,
-					ip
+					script: {
+						source: 'ctx._source.comments++'
+					}
 				}
-			})
-			.then(async (resp) => {
-				if (index === 'question') {
-					await elasticClient.update({
-						index: 'question',
-						id: parentId,
-						body: {
-							script: {
-								source: 'ctx._source.comments++'
-							}
-						}
-					});
-				} else if (index === 'comment') {
-					await elasticClient.update({
-						index: 'comment',
-						id: parentId,
-						body: {
-							script: {
-								source: 'ctx._source.comments++'
-							}
-						}
-					});
-				} else if (index === 'relationship') {
-					await elasticClient.update({
-						index: 'relationship',
-						id: parentId,
-						body: {
-							script: {
-								source: 'ctx._source.comments++'
-							}
-						}
-					});
-				} else if (index === 'blog') {
-					await elasticClient.update({
-						index: 'blog',
-						id: parentId,
-						body: {
-							script: {
-								source: 'ctx._source.comments++'
-							}
-						}
-					});
-				} else {
-					await elasticClient.update({
-						index: enneaType,
-						id: parentId,
-						body: {
-							script: {
-								source: 'ctx._source.comments++'
-							}
-						}
-					});
-				}
-				return resp;
 			});
+		} catch (updateError) {
+			console.error('Failed to update parent comment count:', {
+				parentId,
+				index,
+				commentId: resp._id,
+				error: updateError instanceof Error ? updateError.message : 'Unknown error'
+			});
+			// Don't throw - comment was successfully created
+			// Consider queuing for retry or manual reconciliation
+		}
+
+		return resp._id;
 	} catch (e) {
 		console.error('Failed to add ES comment:', e);
 		throw new Error(
@@ -231,9 +236,9 @@ export const addESCommentLike = async ({
 }: {
 	commentId: string;
 	operation: string;
-}) => {
+}): Promise<boolean> => {
 	try {
-		return await elasticClient.update({
+		await elasticClient.update({
 			index: 'comment',
 			id: commentId,
 			body: {
@@ -242,14 +247,55 @@ export const addESCommentLike = async ({
 				}
 			}
 		});
+		return true;
 	} catch (e) {
-		console.error('Failed to update ES comment likes:', e);
-		// Non-critical operation, don't throw
+		console.error('Failed to update ES comment likes:', {
+			commentId,
+			operation,
+			error: e instanceof Error ? e.message : 'Unknown error'
+		});
+		// Non-critical operation, return false instead of throwing
+		return false;
 	}
 };
 
+// Define types for bulk operations
+interface QuestionIndexData {
+	es_id?: string;
+	id?: number;
+	question: string;
+	question_formatted?: string;
+	author_id: string;
+	author_enneagram?: string;
+	author_name?: string;
+	context?: string;
+	url: string;
+	img_url?: string | null;
+	comment_count?: number;
+	like_count?: number;
+	subscription_count?: number;
+	flagged?: boolean;
+	removed?: boolean;
+	created_at: string;
+	updated_at?: string;
+}
+
+interface BulkIndexError {
+	questionId?: number;
+	blogId?: number;
+	url?: string;
+	title?: string;
+	error: unknown;
+}
+
+interface BulkIndexResult {
+	indexed: number;
+	failed: number;
+	errors: BulkIndexError[];
+}
+
 // Bulk indexing utilities
-export const bulkIndexQuestions = async (questions: any[]) => {
+export const bulkIndexQuestions = async (questions: QuestionIndexData[]): Promise<BulkIndexResult> => {
 	if (!questions.length) return { indexed: 0, failed: 0, errors: [] };
 
 	const bulkBody = questions.flatMap((q) => [
@@ -281,7 +327,7 @@ export const bulkIndexQuestions = async (questions: any[]) => {
 
 		let indexed = 0;
 		let failed = 0;
-		const errors: any[] = [];
+		const errors: BulkIndexError[] = [];
 
 		response.items.forEach((item, i) => {
 			if (item.index?.error) {
@@ -355,8 +401,29 @@ export const createESBlog = async (body: {
 	}
 };
 
+interface BlogIndexData {
+	es_id?: string;
+	id: number;
+	title: string;
+	person: string;
+	content?: string;
+	description?: string;
+	author: string;
+	enneagram: string;
+	type?: string[];
+	loc: string;
+	meta_title?: string;
+	twitter?: string;
+	instagram?: string;
+	tiktok?: string;
+	wikipedia?: string;
+	published: boolean;
+	created_at: string;
+	lastmod: string;
+}
+
 // Bulk indexing for blogs
-export const bulkIndexBlogs = async (blogs: any[]) => {
+export const bulkIndexBlogs = async (blogs: BlogIndexData[]): Promise<BulkIndexResult> => {
 	if (!blogs.length) return { indexed: 0, failed: 0, errors: [] };
 
 	// Truncate content to prevent request size issues
@@ -395,7 +462,7 @@ export const bulkIndexBlogs = async (blogs: any[]) => {
 
 		let indexed = 0;
 		let failed = 0;
-		const errors: any[] = [];
+		const errors: BulkIndexError[] = [];
 
 		response.items.forEach((item, i) => {
 			if (item.index?.error) {
@@ -420,7 +487,9 @@ export const bulkIndexBlogs = async (blogs: any[]) => {
 };
 
 // Index management functions for clean reindexing
-export const deleteIndex = async (indexName: string) => {
+export const deleteIndex = async (
+	indexName: string
+): Promise<{ acknowledged: boolean; skipped?: boolean }> => {
 	try {
 		const exists = await elasticClient.indices.exists({ index: indexName });
 		if (exists) {
@@ -437,7 +506,11 @@ export const deleteIndex = async (indexName: string) => {
 	}
 };
 
-export const createIndex = async (indexName: string, mappings?: any, settings?: any) => {
+export const createIndex = async (
+	indexName: string,
+	mappings?: any,
+	settings?: any
+): Promise<{ acknowledged: boolean; exists?: boolean }> => {
 	try {
 		const exists = await elasticClient.indices.exists({ index: indexName });
 		if (!exists) {
@@ -461,7 +534,11 @@ export const createIndex = async (indexName: string, mappings?: any, settings?: 
 	}
 };
 
-export const recreateIndex = async (indexName: string, mappings?: any, settings?: any) => {
+export const recreateIndex = async (
+	indexName: string,
+	mappings?: any,
+	settings?: any
+): Promise<{ acknowledged: boolean; exists?: boolean }> => {
 	try {
 		// Delete if exists
 		await deleteIndex(indexName);

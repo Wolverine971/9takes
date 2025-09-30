@@ -4,6 +4,9 @@ import { PRIVATE_gmail_private_key } from '$env/static/private';
 import type { PageServerLoad } from './$types';
 
 import { google } from 'googleapis';
+import { emailSubmissionSchema, emailTemplateSchema, customEmailSchema } from '$lib/validation/schemas';
+import { z } from 'zod';
+import { logger } from '$lib/utils/logger';
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -49,36 +52,50 @@ export const actions: Actions = {
 	submitFamousPerson: async ({ request }) => {
 		const body = Object.fromEntries(await request.formData());
 
-		const email = body.email.toString();
-		const suggestedPerson = body.suggestedPerson.toString();
+		// Validate input
+		let validatedData;
+		try {
+			validatedData = emailSubmissionSchema.parse(body);
+		} catch (e) {
+			if (e instanceof z.ZodError) {
+				logger.warn('Person suggestion validation failed', { errors: e.errors });
+				throw error(400, {
+					message: 'Invalid input data',
+					details: e.errors
+				});
+			}
+			throw e;
+		}
+
+		const { email, suggestedPerson } = validatedData;
 
 		const { error: insertError } = await supabase
 			.from('person_suggestions')
 			.insert([{ email: email, person_name: suggestedPerson }]);
 
-		if (!insertError) {
-			try {
-				const sent = await sendEmail({
-					to: body.email.toString(),
-					subject: `Thanks for suggesting ${suggestedPerson}`,
-					body: personSuggestionEmail()
-				});
-				if (sent) {
-					return { success: true };
-				} else {
-					throw error(404, {
-						message: `Failed to insert suggestion, no error available`
-					});
-				}
-			} catch (e) {
-				throw error(404, {
-					message: `Failed to insert suggestion, ${JSON.stringify(e)}`
-				});
-			}
-		} else {
-			throw error(404, {
-				message: `Failed to insert suggestion, ${JSON.stringify(insertError)}`
+		if (insertError) {
+			logger.error('Failed to insert person suggestion', insertError, { email, suggestedPerson });
+			throw error(500, 'Failed to save suggestion');
+		}
+
+		try {
+			const sent = await sendEmail({
+				to: email,
+				subject: `Thanks for suggesting ${suggestedPerson}`,
+				body: personSuggestionEmail()
 			});
+
+			if (!sent) {
+				logger.error('Failed to send confirmation email', { email });
+				// Don't fail the request if email fails - suggestion was saved
+			}
+
+			logger.info('Person suggestion submitted', { email, suggestedPerson });
+			return { success: true };
+		} catch (e) {
+			logger.error('Error sending confirmation email', e as Error, { email });
+			// Still return success since suggestion was saved
+			return { success: true };
 		}
 	},
 
@@ -103,9 +120,26 @@ export const actions: Actions = {
 		}
 
 		const body = Object.fromEntries(await request.formData());
-		const email = body.email.toString();
-		const subject = body.subject ? body.subject.toString() : 'TEST EMAIL for 9takes';
-		const emailType = body.emailType.toString();
+
+		// Validate input
+		let validatedData;
+		try {
+			validatedData = emailTemplateSchema.parse({
+				...body,
+				subject: body.subject || 'TEST EMAIL for 9takes'
+			});
+		} catch (e) {
+			if (e instanceof z.ZodError) {
+				logger.warn('Email template validation failed', { errors: e.errors });
+				throw error(400, {
+					message: 'Invalid input data',
+					details: e.errors
+				});
+			}
+			throw e;
+		}
+
+		const { email, subject, emailType } = validatedData;
 
 		let emailTypeToSend: string = '';
 
@@ -130,29 +164,23 @@ export const actions: Actions = {
 				break;
 		}
 
-		if (!email) {
-			throw error(404, {
-				message: 'no email'
-			});
-		}
-
 		try {
 			const sent = await sendEmail({
-				to: body.email.toString(),
+				to: email,
 				subject,
 				body: emailTypeToSend
 			});
-			if (sent) {
-				return { success: true };
-			} else {
-				throw error(404, {
-					message: `Failed to test email, no error available`
-				});
+
+			if (!sent) {
+				logger.error('Failed to send test email', { email, emailType });
+				throw error(500, 'Failed to send test email');
 			}
+
+			logger.info('Test email sent', { email, emailType, adminId: locals.session.user.id });
+			return { success: true };
 		} catch (e) {
-			throw error(404, {
-				message: `Failed to send email, ${JSON.stringify(e)}`
-			});
+			logger.error('Error sending test email', e as Error, { email, emailType });
+			throw error(500, 'Failed to send test email');
 		}
 	},
 	singleCustomEmail: async ({ request, locals }) => {

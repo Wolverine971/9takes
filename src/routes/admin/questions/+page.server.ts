@@ -124,9 +124,7 @@ export const actions: Actions = {
 			return { success: true };
 		} catch (e) {
 			console.error('Failed to classify question:', e);
-			throw error(400, {
-				message: `Failed to classify question: ${e.message || 'Unknown error'}`
-			});
+			throw error(500, 'Failed to classify question');
 		}
 	},
 
@@ -150,9 +148,7 @@ export const actions: Actions = {
 			return { success: true };
 		} catch (e) {
 			console.error('Failed to classify all questions:', e);
-			throw error(400, {
-				message: `Failed to classify questions: ${e.message || 'Unknown error'}`
-			});
+			throw error(500, 'Failed to classify questions');
 		}
 	},
 

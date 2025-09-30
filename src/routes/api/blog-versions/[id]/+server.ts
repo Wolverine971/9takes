@@ -45,13 +45,20 @@ export const GET: RequestHandler = async ({ params }) => {
 		let draftContent: string | null = null;
 		let draftModified: Date | null = null;
 
+		// Sanitize person name to prevent path traversal
+		const sanitizedPerson = currentBlog.person.replace(/[^a-zA-Z0-9-_]/g, '');
+		if (sanitizedPerson !== currentBlog.person) {
+			console.warn('Invalid person identifier detected:', currentBlog.person);
+			return json({ error: 'Invalid person identifier' }, { status: 400 });
+		}
+
 		const draftPath = join(
 			process.cwd(),
 			'src',
 			'blog',
 			'people',
 			'drafts',
-			`${currentBlog.person}.md`
+			`${sanitizedPerson}.md`
 		);
 
 		if (existsSync(draftPath)) {
