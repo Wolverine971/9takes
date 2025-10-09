@@ -4,7 +4,11 @@ import { PRIVATE_gmail_private_key } from '$env/static/private';
 import type { PageServerLoad } from './$types';
 
 import { google } from 'googleapis';
-import { emailSubmissionSchema, emailTemplateSchema, customEmailSchema } from '$lib/validation/schemas';
+import {
+	emailSubmissionSchema,
+	emailTemplateSchema,
+	customEmailSchema
+} from '$lib/validation/schemas';
 import { z } from 'zod';
 import { logger } from '$lib/utils/logger';
 

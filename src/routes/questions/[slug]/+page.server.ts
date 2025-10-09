@@ -357,7 +357,11 @@ async function fetchOGData(url: string): Promise<OGData> {
 		}
 
 		// Block private IP ranges (basic check)
-		if (hostname.startsWith('10.') || hostname.startsWith('192.168.') || hostname.startsWith('172.')) {
+		if (
+			hostname.startsWith('10.') ||
+			hostname.startsWith('192.168.') ||
+			hostname.startsWith('172.')
+		) {
 			console.warn('Blocked request to private IP range:', hostname);
 			return {};
 		}

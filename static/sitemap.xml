@@ -1187,15 +1187,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Kamala-Harris</loc>
-    <lastmod>2024-08-31T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Kamala-Harris.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Alexandria-Ocasio-Cortez</loc>
     <lastmod>2024-09-11T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1304,6 +1295,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Jeff-Bezos</loc>
+    <lastmod>2025-01-16T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Jeff-Bezos.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Bill-Gates</loc>
     <lastmod>2025-01-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1319,15 +1319,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/1s/Hillary-Clinton.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Jeff-Bezos</loc>
-    <lastmod>2025-02-25T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/1s/Jeff-Bezos.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1355,15 +1346,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Mr-Beast.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Peter-Thiel</loc>
-    <lastmod>2025-02-25T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Peter-Thiel.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1769,15 +1751,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Chappell-Roan.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Emma-Watson</loc>
-    <lastmod>2025-03-26T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/1s/Emma-Watson.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2393,8 +2366,35 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Kamala-Harris</loc>
+    <lastmod>2025-09-24T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Kamala-Harris.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Emma-Watson</loc>
+    <lastmod>2025-10-08T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Emma-Watson.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Peter-Thiel</loc>
+    <lastmod>2025-10-08T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Peter-Thiel.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Taylor-Swift</loc>
-    <lastmod>2025-09-11T00:00:00.000Z</lastmod>
+    <lastmod>2025-10-08T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>

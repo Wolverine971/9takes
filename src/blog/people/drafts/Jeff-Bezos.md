@@ -114,7 +114,7 @@ His continued focus on Blue Origin despite stepping back from Amazon's day-to-da
 
 His 10,000-year clock, his space colonization dreams, and his focus on customer obsession all reflect this infinite mindset. **Bezos** isn't building for quarterly earnings or even lifetime achievement—he's building systems designed to work long after he's gone.
 
-What drives someone to think this way? For Type 8s like **Bezos**, it's the deep understanding that true power comes not from controlling people, but from creating systems that protect what you care about indefinitely. 
+What drives someone to think this way? For Type 8s like **Bezos**, it's the deep understanding that true power comes not from controlling people, but from creating systems that protect what you care about indefinitely.
 
 What would you build if you thought like Jeff Bezos—not in years, but in millennia?
 
@@ -139,7 +139,7 @@ CRITICAL BUSINESS MOMENTS:
 
 7. Blue Origin Rocket Failures: How does he mentally process failure when billions are at stake? What goes through his mind during the countdown to a test flight?
 
-8. First Amazon Drone Delivery: What emotions did he feel seeing his vision finally realized? 
+8. First Amazon Drone Delivery: What emotions did he feel seeing his vision finally realized?
 
 RELATIONSHIP PSYCHOLOGY:
 9. Elon Musk Rivalry: What's the real psychology behind their space race competition? Is it admiration, frustration, or motivation?

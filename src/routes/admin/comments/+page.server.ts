@@ -167,47 +167,44 @@ export const load: PageServerLoad = async (event) => {
 		const profilesTable = demo_time ? 'profiles_demo' : 'profiles';
 
 		// Parallelize all comment loading for better performance
-		const [
-			{ data: comments },
-			{ data: flaggedComments },
-			{ data: blogComments }
-		] = await Promise.all([
-			// Load regular comments
-			getPaginatedComments(
-				commentsTable,
-				page,
-				{
-					selectionFields: `*, ${profilesTable} (*)`,
-					limit: PAGE_SIZE,
-					orderField: 'created_at',
-					orderDirection: { ascending: false }
-				},
-				locals.supabase
-			),
-			// Load flagged comments
-			getPaginatedComments(
-				'flagged_comments',
-				page,
-				{
-					selectionFields: `*, comments (*), profiles (*)`,
-					limit: PAGE_SIZE,
-					filters: {
-						removed_at: null,
-						cleared_at: null
-					}
-				},
-				locals.supabase
-			),
-			// Load blog comments
-			getPaginatedComments(
-				'blog_comments',
-				page,
-				{
-					limit: PAGE_SIZE
-				},
-				locals.supabase
-			)
-		]);
+		const [{ data: comments }, { data: flaggedComments }, { data: blogComments }] =
+			await Promise.all([
+				// Load regular comments
+				getPaginatedComments(
+					commentsTable,
+					page,
+					{
+						selectionFields: `*, ${profilesTable} (*)`,
+						limit: PAGE_SIZE,
+						orderField: 'created_at',
+						orderDirection: { ascending: false }
+					},
+					locals.supabase
+				),
+				// Load flagged comments
+				getPaginatedComments(
+					'flagged_comments',
+					page,
+					{
+						selectionFields: `*, comments (*), profiles (*)`,
+						limit: PAGE_SIZE,
+						filters: {
+							removed_at: null,
+							cleared_at: null
+						}
+					},
+					locals.supabase
+				),
+				// Load blog comments
+				getPaginatedComments(
+					'blog_comments',
+					page,
+					{
+						limit: PAGE_SIZE
+					},
+					locals.supabase
+				)
+			]);
 
 		// Process comments to include parent questions
 		const processedComments = comments ? await getCommentParents(comments) : [];

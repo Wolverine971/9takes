@@ -1,6 +1,6 @@
 ---
 title: 'Kamala Harris: "That Little Girl Was Me" - Type 3 Psychology of Her Political Ascent'
-description: "Explore VP Kamala Harris through the lens of Enneagram Type 3. Discover how ambition and adaptability shape her political journey and leadership style."
+description: 'Explore VP Kamala Harris through the lens of Enneagram Type 3. Discover how ambition and adaptability shape her political journey and leadership style.'
 author: 'DJ Wayne'
 date: '2023-06-21'
 loc: 'https://9takes.com/personality-analysis/Kamala-Harris'

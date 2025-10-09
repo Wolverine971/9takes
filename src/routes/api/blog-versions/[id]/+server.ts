@@ -14,21 +14,19 @@ export const GET: RequestHandler = async ({ params }) => {
 
 	try {
 		// Parallelize blog and history queries for better performance
-		const [
-			{ data: currentBlog, error: currentError },
-			{ data: history, error: historyError }
-		] = await Promise.all([
-			supabase
-				.from('blogs_famous_people')
-				.select('id, person, title, content, lastmod')
-				.eq('id', blogId)
-				.single(),
-			supabase
-				.from('blogs_famous_people_history')
-				.select('id, old_content, new_content, changed_at, changed_by')
-				.eq('famous_people_id', blogId)
-				.order('changed_at', { ascending: false })
-		]);
+		const [{ data: currentBlog, error: currentError }, { data: history, error: historyError }] =
+			await Promise.all([
+				supabase
+					.from('blogs_famous_people')
+					.select('id, person, title, content, lastmod')
+					.eq('id', blogId)
+					.single(),
+				supabase
+					.from('blogs_famous_people_history')
+					.select('id, old_content, new_content, changed_at, changed_by')
+					.eq('famous_people_id', blogId)
+					.order('changed_at', { ascending: false })
+			]);
 
 		// Handle errors after parallel execution
 		if (currentError) {

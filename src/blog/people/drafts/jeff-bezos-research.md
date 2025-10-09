@@ -442,6 +442,7 @@ This research document explores the psychological depth behind Jeff Bezos's publ
 ### Psychological Contradictions
 
 The research reveals someone who simultaneously:
+
 - Craves control yet takes enormous risks
 - Values privacy yet operates in public spotlight
 - Focuses on customer obsession while facing worker criticism
@@ -451,6 +452,7 @@ The research reveals someone who simultaneously:
 ### The Type 8 Pattern
 
 Throughout all categories, Bezos demonstrates classic Enneagram Type 8 patterns:
+
 - **Autonomy and Control**: Building systems to maintain independence
 - **Impact and Legacy**: Refusing to accept temporary or small-scale achievements
 - **Protective Instincts**: Using wealth and power to protect what he values
@@ -541,6 +543,7 @@ The research suggests someone who has successfully channeled Type 8 energy into 
     - Key sources: USC Moore School, Greylock, Inc.com, Diamond6 Leadership, Yale Insights
 
 ### Key Publications and Sources Referenced:
+
 - **News Organizations**: Washington Post, CNN, CNBC, Bloomberg, NPR, CBS News, NBC News, ABC News
 - **Business Publications**: Fortune, Inc.com, Fast Company, Harvard Business School Online
 - **Academic Sources**: Psychology Today, SAGE Journals, Yale Insights, Georgia Tech Scheller
@@ -549,7 +552,8 @@ The research suggests someone who has successfully channeled Type 8 energy into 
 
 **Research Methodology**: Systematic web searches were conducted across 8 categories of psychological inquiry, with 20+ distinct search queries yielding information from 100+ sources. All quoted material and statistics were verified across multiple independent sources where possible.
 
-**Confidence Levels**: 
+**Confidence Levels**:
+
 - **High Confidence**: Direct quotes, documented events, public statements, verified statistics
 - **Medium Confidence**: Reported behaviors, third-party observations, expert analyses
 - **Lower Confidence**: Psychological interpretations, speculative motivations, internal mental states

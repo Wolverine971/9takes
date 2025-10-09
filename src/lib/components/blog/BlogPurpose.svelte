@@ -121,12 +121,7 @@
 
 	/* CTA Section - Using subtle gradient with better contrast */
 	.cta-section {
-		background: linear-gradient(
-			135deg,
-			#6c5ce7 0%,
-			#5a4dd6 50%,
-			#4834d4 100%
-		);
+		background: linear-gradient(135deg, #6c5ce7 0%, #5a4dd6 50%, #4834d4 100%);
 		color: #ffffff;
 		position: relative;
 		overflow: hidden;
@@ -139,11 +134,7 @@
 			left: 0;
 			right: 0;
 			bottom: 0;
-			background: radial-gradient(
-				circle at 20% 50%,
-				rgba(162, 155, 254, 0.15) 0%,
-				transparent 50%
-			);
+			background: radial-gradient(circle at 20% 50%, rgba(162, 155, 254, 0.15) 0%, transparent 50%);
 			pointer-events: none;
 		}
 	}
@@ -205,12 +196,7 @@
 			left: -100%;
 			width: 100%;
 			height: 100%;
-			background: linear-gradient(
-				90deg,
-				transparent,
-				rgba(255, 255, 255, 0.3),
-				transparent
-			);
+			background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
 			transition: left 0.5s ease;
 		}
 
@@ -264,11 +250,7 @@
 
 	/* Explorer Section */
 	.explorer-section {
-		background: linear-gradient(
-			to bottom,
-			#ffffff 0%,
-			#f9f9ff 100%
-		);
+		background: linear-gradient(to bottom, #ffffff 0%, #f9f9ff 100%);
 		color: #2d3436;
 
 		h3 {

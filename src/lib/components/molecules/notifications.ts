@@ -27,7 +27,11 @@ function createNotificationStore(defaultTimeout: number): NotificationStore {
 	const _notifications = writable<Notification[]>([]);
 	const timers = new Map<string, ReturnType<typeof setTimeout>>();
 
-	function send(message: string, type: NotificationType = 'default', timeout: number = defaultTimeout) {
+	function send(
+		message: string,
+		type: NotificationType = 'default',
+		timeout: number = defaultTimeout
+	) {
 		const notification: Notification = {
 			id: id(),
 			type,
@@ -39,7 +43,7 @@ function createNotificationStore(defaultTimeout: number): NotificationStore {
 
 		// Set timer to auto-remove notification
 		const timer = setTimeout(() => {
-			_notifications.update((state) => state.filter(n => n.id !== notification.id));
+			_notifications.update((state) => state.filter((n) => n.id !== notification.id));
 			timers.delete(notification.id);
 		}, timeout);
 
@@ -48,7 +52,7 @@ function createNotificationStore(defaultTimeout: number): NotificationStore {
 
 	function clearAll() {
 		// Clear all timers
-		timers.forEach(timer => clearTimeout(timer));
+		timers.forEach((timer) => clearTimeout(timer));
 		timers.clear();
 		_notifications.set([]);
 	}

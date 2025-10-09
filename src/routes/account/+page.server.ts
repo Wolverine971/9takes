@@ -66,7 +66,7 @@ export const actions: Actions = {
 
 			// Verify the email matches the authenticated user to prevent privilege escalation
 			if (email !== session.user.email) {
-				throw error(403, 'Unauthorized: Cannot modify another user\'s account');
+				throw error(403, "Unauthorized: Cannot modify another user's account");
 			}
 
 			const { error: updateUserError } = await locals.supabase

@@ -106,10 +106,21 @@ export const adminActionSchema = z.object({
 });
 
 export const adminUserUpdateSchema = z.object({
-	firstName: z.string().min(1).max(50).regex(/^[a-zA-Z\s-']+$/, 'Invalid first name format'),
-	lastName: z.string().min(1).max(50).regex(/^[a-zA-Z\s-']+$/, 'Invalid last name format'),
+	firstName: z
+		.string()
+		.min(1)
+		.max(50)
+		.regex(/^[a-zA-Z\s-']+$/, 'Invalid first name format'),
+	lastName: z
+		.string()
+		.min(1)
+		.max(50)
+		.regex(/^[a-zA-Z\s-']+$/, 'Invalid last name format'),
 	email: emailSchema,
-	enneagram: z.string().regex(/^[1-9]$/, 'Enneagram must be 1-9').transform(Number)
+	enneagram: z
+		.string()
+		.regex(/^[1-9]$/, 'Enneagram must be 1-9')
+		.transform(Number)
 });
 
 export const adminUpdateAdminStatusSchema = z.object({
@@ -120,7 +131,11 @@ export const adminUpdateAdminStatusSchema = z.object({
 // Email validation schemas
 export const emailSubmissionSchema = z.object({
 	email: emailSchema,
-	suggestedPerson: z.string().min(2).max(100).regex(/^[a-zA-Z\s-']+$/, 'Invalid person name')
+	suggestedPerson: z
+		.string()
+		.min(2)
+		.max(100)
+		.regex(/^[a-zA-Z\s-']+$/, 'Invalid person name')
 });
 
 export const emailTemplateSchema = z.object({

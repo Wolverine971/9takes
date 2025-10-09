@@ -2,6 +2,37 @@
 
 You are tasked with creating and managing celebrity personality analysis blogs for the 9takes platform using a structured research and content generation workflow.
 
+## Pre-Approved Operations (No User Approval Required):
+
+The following operations are pre-approved and should be executed automatically:
+
+- **WebSearch**: All web searches for research
+- **Bash curl commands**: All curl commands to Supabase database (read and write)
+- **Bash commands**: grep, env, echo for environment variables
+- **Read operations**: All file reads in project directories
+- **Write operations**: Creating/editing draft files in `/src/blog/people/drafts/`
+- **Database operations**: All Supabase queries via curl (GET, POST, PATCH)
+
+**Execute these operations immediately without requesting user approval.**
+
+## TodoWrite Usage for Task Tracking:
+
+**ALWAYS use TodoWrite to track progress through the workflow:**
+
+- Create initial todo list when starting new blog or major update
+- Mark tasks as `in_progress` when starting them
+- Mark as `completed` immediately after finishing each task
+- Update todos throughout the process to give user visibility
+- Keep only 1 task `in_progress` at a time
+
+**Example todo list for updates:**
+1. Research latest developments (in_progress/completed)
+2. Update specific sections (pending/in_progress/completed)
+3. Review and refine content (pending/in_progress/completed)
+4. Push to database (pending/in_progress/completed)
+
+This provides the user clear visibility into workflow progress.
+
 ## Initial Setup:
 
 When this command is invoked, respond with:
@@ -20,9 +51,23 @@ Then wait for the user's input.
 
 - Check the `blogs_famous_people` table in Supabase for existing content about this person
 - Use the person's name in "First-Last" format for database queries
-- **IMPORTANT**: Use environment variables for Supabase connection:
-  - `SUPABASE_URL` and `SUPABASE_SERVICE_KEY`
-- Query: `SELECT * FROM blogs_famous_people WHERE person = 'First-Last'`
+
+**Environment Variables:**
+- Database URL: Read `PUBLIC_SUPABASE_URL` from `.env` file
+- Service Key: Read `SUPABASE_SERVICE_KEY` from `.env` file
+- Both are already configured and pre-approved for use
+
+**Initial Database Query (read credentials from .env):**
+```bash
+SUPABASE_URL=$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)
+SERVICE_KEY=$(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)
+
+curl -X GET "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.First-Last&select=*" \
+  -H "apikey: ${SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SERVICE_KEY}"
+```
+
+**Note:** All database operations are pre-approved - execute immediately without asking.
 
 ### 2. **Branch Logic - Existing vs New Content:**
 
@@ -148,23 +193,133 @@ Then wait for the user's input.
 - Update the draft file with any changes
 - **Continue iterating** until user says "submit this update" or equivalent approval
 
-### 7. **Database Submission:**
+### 7. **Database Submission (When User Says "Push it up" or "Submit"):**
 
-- When user approves the content, submit to Supabase `blogs_famous_people` table
-- Use the MCP specification from `/docs/blogs-famous-people/mcp-blogs-famous-people.md`
-- Include all required fields matching the database schema
-- Set `published: false` initially for review
-- **NOTE**: If you encounter database trigger errors (e.g., "cleanup_blogs_famous_people_history function does not exist"), update metadata fields first, then content separately
-- Confirm successful submission with entry ID
+When the user approves content with phrases like "push it up," "submit," "update the database," or similar:
+
+**EXECUTE IMMEDIATELY WITHOUT ASKING:**
+
+1. **Read the complete draft file** from `/src/blog/people/drafts/[Person-Name].md`
+
+2. **Extract content and metadata**:
+   - Split markdown into frontmatter and content
+   - Content should be everything after the `---` closing tag
+
+3. **For EXISTING entries (updates):**
+
+   **Step 1: Read credentials and update metadata first**
+   ```bash
+   SUPABASE_URL=$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)
+   SERVICE_KEY=$(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)
+
+   curl -X PATCH "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]" \
+     -H "apikey: ${SERVICE_KEY}" \
+     -H "Authorization: Bearer ${SERVICE_KEY}" \
+     -H "Content-Type: application/json" \
+     -H "Prefer: return=minimal" \
+     -d '{"lastmod":"YYYY-MM-DD"}'
+   ```
+
+   **Step 2: Update content separately using Python script**
+   - Create a simple Python script to properly escape the markdown content
+   - Use curl with `@file.json` to submit large content
+   - This avoids shell escaping issues with large content
+
+   **Example Python approach:**
+   ```python
+   import json
+   import subprocess
+
+   # Read credentials from .env
+   with open('.env', 'r') as f:
+       env_vars = dict(line.strip().split('=', 1) for line in f if '=' in line)
+
+   supabase_url = env_vars['PUBLIC_SUPABASE_URL']
+   service_key = env_vars['SUPABASE_SERVICE_KEY']
+
+   # Read and prepare content
+   with open('draft.md', 'r') as f:
+       content = f.read().split('---', 2)[2].strip()
+
+   with open('/tmp/update.json', 'w') as f:
+       f.write(json.dumps({"content": content}))
+
+   # Execute curl with credentials
+   subprocess.run([
+       'curl', '-X', 'PATCH',
+       f'{supabase_url}/rest/v1/blogs_famous_people?person=eq.Person-Name',
+       '-H', f'apikey: {service_key}',
+       '-H', f'Authorization: Bearer {service_key}',
+       '-H', 'Content-Type: application/json',
+       '-H', 'Prefer: return=minimal',
+       '-d', '@/tmp/update.json'
+   ])
+   ```
+
+4. **For NEW entries:**
+   - Prepare all fields including content, metadata, and JSON-LD
+   - Use POST request to create new entry
+   - Set `published: false` initially
+   - Read credentials from `.env` before making request
+
+5. **Verify the update:**
+   ```bash
+   SUPABASE_URL=$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)
+   SERVICE_KEY=$(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)
+
+   curl "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=lastmod,person,title" \
+     -H "apikey: ${SERVICE_KEY}" \
+     -H "Authorization: Bearer ${SERVICE_KEY}"
+   ```
+
+6. **Confirm to user:**
+   - "✅ Successfully pushed to database!"
+   - Show updated lastmod date
+   - Provide database ID
+   - Note the blog is now live in database
+
+**ERROR HANDLING:**
+- If you encounter trigger errors, update metadata and content in separate requests
+- If content is too large for direct curl, always use the Python + file approach
+- Clean up temporary files after submission
+- Retry once if initial submission fails
+
+**IMPORTANT:** All database operations are pre-approved. Execute them immediately when user requests submission.
 
 ### 8. **Update Workflows (Existing Content):**
 
-#### **Fresh Web Research Update:**
+#### **Fresh Web Research Update (Efficient Workflow):**
 
-- Fetch current blog content from database
-- Perform new WebSearch for recent information
-- Update relevant sections while preserving structure
-- Maintain existing Enneagram analysis unless significant new insights
+When user requests updates based on latest developments:
+
+1. **Create TodoWrite task list** for the update workflow
+
+2. **Perform comprehensive WebSearch** in parallel:
+   - Latest news about the person (past 6-12 months)
+   - Recent interviews, releases, or major life events
+   - Changes in public perception or lifestyle
+   - New accomplishments or controversies
+
+3. **Analyze through Enneagram lens:**
+   - How do recent developments reflect Type X patterns?
+   - Signs of growth, integration, or stress?
+   - New psychological insights from recent behavior?
+
+4. **Update draft file directly** at `/src/blog/people/drafts/[Person-Name].md`:
+   - Modify opening section to reflect current (2025) context
+   - Update relevant body sections with new information
+   - Add new sections if warranted (e.g., new album, relationship, controversy)
+   - Update TL;DR if significant new developments
+   - Update metadata (lastmod date)
+
+5. **Preserve existing content:**
+   - Keep strong existing sections unchanged
+   - Maintain Enneagram type analysis unless compelling evidence suggests otherwise
+   - Preserve historical sections (upbringing, early career, etc.)
+
+6. **When user says "push it up":**
+   - Execute database submission workflow immediately
+   - No additional approval needed
 
 #### **Manual Content Editing:**
 
@@ -224,6 +379,15 @@ Then wait for the user's input.
 - Allow easy iteration and refinement
 - Confirm actions before irreversible operations
 
+### **Workflow Efficiency:**
+
+- **Minimize intermediate files**: Use direct operations when possible
+- **Parallel operations**: Run multiple WebSearches concurrently
+- **Clean up**: Remove temporary files after database submission
+- **Direct database updates**: Use curl directly rather than creating unnecessary helper scripts
+- **TodoWrite always**: Use throughout workflow for user visibility
+- **When user says "push it up"**: Execute immediately without additional confirmation
+
 ## File References:
 
 - Template structure: `/src/blog/people/person-template.md`
@@ -233,9 +397,30 @@ Then wait for the user's input.
 
 ## Environment Requirements:
 
+The following credentials are stored in `.env` and should be read at runtime:
+
+- `PUBLIC_SUPABASE_URL` - Supabase project URL
+- `SUPABASE_SERVICE_KEY` - Service role key for database operations
+
+**Read credentials from `.env` file using:**
 ```bash
-SUPABASE_URL=https://[project].supabase.co
-SUPABASE_SERVICE_KEY=[service-key]
+# Read from .env or use bash commands to access environment
+curl -X GET "$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)/rest/v1/blogs_famous_people?person=eq.Person-Name" \
+  -H "apikey: $(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)" \
+  -H "Authorization: Bearer $(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)"
 ```
 
-This workflow ensures comprehensive, high-quality celebrity personality analysis blogs that align with 9takes' content strategy and technical requirements.
+**All database operations using these credentials are pre-approved.**
+
+## Summary of Workflow Improvements:
+
+1. **Pre-approved operations** - No user approval needed for database, web search, or file operations
+2. **Direct database updates** - Execute curl commands immediately when user says "push it up"
+3. **TodoWrite tracking** - Always use to give user visibility into progress
+4. **Parallel research** - Run multiple WebSearches concurrently for efficiency
+5. **Clean workflow** - Minimize intermediate files, clean up after submission
+6. **Two-step updates** - Update metadata first, then content (avoids trigger errors)
+7. **Python for large content** - Use Python script for proper JSON escaping of large markdown content
+8. **Credentials security** - Read from `.env` file, never hardcode in commands
+
+This workflow ensures comprehensive, high-quality celebrity personality analysis blogs that align with 9takes' content strategy and technical requirements, while providing a smooth, efficient user experience.

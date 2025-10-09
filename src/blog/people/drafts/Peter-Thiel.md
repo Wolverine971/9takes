@@ -66,7 +66,7 @@ For a Type 6, stagnation isn't just disappointing—it's terrifying. Without pro
 
 When Ross Douthat asked him in June 2025 whether he still believed in the stagnation thesis fourteen years later, Thiel's answer was unequivocal: **"Yes. I still broadly believe in the stagnation thesis."** He clarified: "It was never an absolute thesis. The claim was not that we were absolutely, completely stuck; it was in some ways a claim about how the velocity had slowed."
 
-This isn't pessimism for its own sake. It's the Type 6's radar detecting a slow-moving catastrophe that others don't see. While the world celebrates each new app and AI chatbot, Thiel sees the absence of flying cars, nuclear fusion, and Mars colonies. He sees the gap between what we *could* have achieved and what we *did* achieve—and that gap represents danger.
+This isn't pessimism for its own sake. It's the Type 6's radar detecting a slow-moving catastrophe that others don't see. While the world celebrates each new app and AI chatbot, Thiel sees the absence of flying cars, nuclear fusion, and Mars colonies. He sees the gap between what we _could_ have achieved and what we _did_ achieve—and that gap represents danger.
 
 **The velocity has slowed.** For Thiel, this isn't an economic statistic—it's a warning siren.
 
@@ -118,7 +118,7 @@ His interest in parabiosis—the controversial idea of using young people's bloo
 
 **"Death is a problem that can be solved,"** Thiel has said. This framing of mortality as a technical challenge rather than an inevitable fate perfectly captures the Type 6's tendency to question even the most fundamental assumptions about human existence.
 
-But in his 2025 interview with Ross Douthat, Thiel revealed a more nuanced, even critical view of current transhumanist efforts. When asked about taking more scientific risks in life extension, Thiel expressed frustration that the ambitions are too *modest*. **"It's more than a nothing burger, and it's less than the total transformation of our society,"** he said of current longevity research.
+But in his 2025 interview with Ross Douthat, Thiel revealed a more nuanced, even critical view of current transhumanist efforts. When asked about taking more scientific risks in life extension, Thiel expressed frustration that the ambitions are too _modest_. **"It's more than a nothing burger, and it's less than the total transformation of our society,"** he said of current longevity research.
 
 The Type 6 pattern emerges again: dissatisfaction with half-measures, fear that we're not taking the threat of mortality seriously enough, worry that incremental progress might lull us into complacency when we need revolutionary breakthroughs.
 
@@ -265,4 +265,3 @@ Fear can be rational. Fear can be productive. Fear can drive innovation and prev
 The question Thiel keeps asking—the question that haunts every Type 6—is whether his fear is prescient or self-fulfilling.
 
 > **Disclaimer** This analysis of Peter Thiel's Enneagram type is speculative, based on publicly available information, and may not reflect Peter's actual personality type.
-

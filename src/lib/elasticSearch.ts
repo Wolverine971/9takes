@@ -81,9 +81,9 @@ export const createESQuestion = async (body: {
 	}
 };
 
-export const deleteESQuestion = async (
-	body: { questionId: string }
-): Promise<{ success?: boolean; [key: string]: any }> => {
+export const deleteESQuestion = async (body: {
+	questionId: string;
+}): Promise<{ success?: boolean; [key: string]: any }> => {
 	try {
 		const questionId = body.questionId as string;
 
@@ -197,9 +197,10 @@ export const addESComment = async ({
 
 		// Update parent comment count with better error handling
 		try {
-			const updateIndex = index === 'comment' || index === 'question' || index === 'relationship' || index === 'blog'
-				? index
-				: enneaType;
+			const updateIndex =
+				index === 'comment' || index === 'question' || index === 'relationship' || index === 'blog'
+					? index
+					: enneaType;
 
 			await elasticClient.update({
 				index: updateIndex,
@@ -295,7 +296,9 @@ interface BulkIndexResult {
 }
 
 // Bulk indexing utilities
-export const bulkIndexQuestions = async (questions: QuestionIndexData[]): Promise<BulkIndexResult> => {
+export const bulkIndexQuestions = async (
+	questions: QuestionIndexData[]
+): Promise<BulkIndexResult> => {
 	if (!questions.length) return { indexed: 0, failed: 0, errors: [] };
 
 	const bulkBody = questions.flatMap((q) => [

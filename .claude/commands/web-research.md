@@ -20,9 +20,9 @@ Then wait for the user's research query.
 
 - Analyze the user's query for ambiguity or missing context
 - If needed, ask up to 3 clarifying questions:
-    - Scope: "Are you looking for recent developments or historical context?"
-    - Depth: "Do you need technical details or a general overview?"
-    - Focus: "Which aspects are most important to you?"
+  - Scope: "Are you looking for recent developments or historical context?"
+  - Depth: "Do you need technical details or a general overview?"
+  - Focus: "Which aspects are most important to you?"
 - Wait for responses before proceeding
 - If the query is clear, proceed directly to planning
 
@@ -201,14 +201,14 @@ status: complete
 #### Key Evidence
 
 - **Finding**: [Specific claim or fact]
-    - **Source**: [Publication, Date]
-    - **Context**: [Why this matters]
-    - **Credibility**: [Assessment]
+  - **Source**: [Publication, Date]
+  - **Context**: [Why this matters]
+  - **Credibility**: [Assessment]
 
 - **Statistics**: [Relevant data]
-    - **Source**: [Organization, Study Year]
-    - **Methodology**: [Brief description]
-    - **Limitations**: [Any caveats]
+  - **Source**: [Organization, Study Year]
+  - **Methodology**: [Brief description]
+  - **Limitations**: [Any caveats]
 
 #### Expert Perspectives
 
@@ -309,9 +309,9 @@ Create a user-friendly analysis with actionable insights:
 ### 🔍 Deep Dive Discoveries
 
 1. **[Discovery 1]**
-    - What: [Brief explanation]
-    - Why it matters: [Significance]
-    - Source strength: [Rating]
+   - What: [Brief explanation]
+   - Why it matters: [Significance]
+   - Source strength: [Rating]
 
 2. **[Discovery 2]**
    [Similar structure]
@@ -354,21 +354,21 @@ Based on this research, here are practical next steps:
 - Present the analysis document to the user
 - Offer specific follow-up options:
 
-    ```
-    Based on this research, I can:
-    - Dive deeper into [specific aspect]
-    - Explore related topic: [suggestion]
-    - Find more recent developments
-    - Investigate practical applications
+  ```
+  Based on this research, I can:
+  - Dive deeper into [specific aspect]
+  - Explore related topic: [suggestion]
+  - Find more recent developments
+  - Investigate practical applications
 
-    What would you like to explore further?
-    ```
+  What would you like to explore further?
+  ```
 
 - If follow-up requested:
-    - Append to existing research document
-    - Update metadata with revision notes
-    - Spawn new targeted sub-agents
-    - Add new section: `## Follow-up Research [timestamp]`
+  - Append to existing research document
+  - Update metadata with revision notes
+  - Spawn new targeted sub-agents
+  - Add new section: `## Follow-up Research [timestamp]`
 
 ## Important Guidelines:
 

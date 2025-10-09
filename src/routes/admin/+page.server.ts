@@ -87,8 +87,14 @@ export const load: PageServerLoad = async (event) => {
 	] = await Promise.all([
 		// User counts
 		supabase.from(profilesTable).select('*', { count: 'exact', head: true }),
-		supabase.from(profilesTable).select('*', { count: 'exact', head: true }).gte('created_at', thirtyDaysAgo.toISOString()),
-		supabase.from(profilesTable).select('*', { count: 'exact', head: true }).gte('created_at', today.toISOString()),
+		supabase
+			.from(profilesTable)
+			.select('*', { count: 'exact', head: true })
+			.gte('created_at', thirtyDaysAgo.toISOString()),
+		supabase
+			.from(profilesTable)
+			.select('*', { count: 'exact', head: true })
+			.gte('created_at', today.toISOString()),
 		// Coaching waitlist
 		supabase.from('coaching_waitlist').select('*', { count: 'exact', head: true }),
 		// Content counts
@@ -99,10 +105,20 @@ export const load: PageServerLoad = async (event) => {
 		// Enneagram distribution data
 		supabase.from(profilesTable).select('enneagram'),
 		// Recent signups
-		supabase.from(profilesTable).select('id, email, enneagram, created_at, external_id').order('created_at', { ascending: false }).limit(10),
+		supabase
+			.from(profilesTable)
+			.select('id, email, enneagram, created_at, external_id')
+			.order('created_at', { ascending: false })
+			.limit(10),
 		// Today's activity
-		supabase.from('questions').select('*', { count: 'exact', head: true }).gte('created_at', today.toISOString()),
-		supabase.from('comments').select('*', { count: 'exact', head: true }).gte('created_at', today.toISOString())
+		supabase
+			.from('questions')
+			.select('*', { count: 'exact', head: true })
+			.gte('created_at', today.toISOString()),
+		supabase
+			.from('comments')
+			.select('*', { count: 'exact', head: true })
+			.gte('created_at', today.toISOString())
 	]);
 
 	// Process results after parallel execution
