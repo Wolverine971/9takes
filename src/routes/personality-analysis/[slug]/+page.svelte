@@ -421,4 +421,63 @@
 			transform: rotate(360deg);
 		}
 	}
+
+	/* Mobile-specific styles */
+	@include mobile {
+		.blog {
+			padding: 1rem;
+		}
+
+		.article-header {
+			margin-bottom: 1rem;
+		}
+
+		.featured-image {
+			margin: 0.5rem 0;
+		}
+
+		.article-body {
+			margin-bottom: 1rem;
+			overflow-wrap: break-word;
+			word-wrap: break-word;
+
+			/* Ensure all images are responsive */
+			:global(img) {
+				max-width: 100%;
+				height: auto;
+				display: block;
+			}
+
+			/* Make embedded content responsive */
+			:global(iframe),
+			:global(video) {
+				max-width: 100%;
+			}
+
+			/* Ensure code blocks don't overflow */
+			:global(pre),
+			:global(code) {
+				overflow-x: auto;
+				word-wrap: normal;
+			}
+		}
+
+		.section-divider {
+			margin: 2rem 0;
+		}
+
+		.join {
+			margin-top: 1rem;
+		}
+	}
+
+	/* Tablet-specific adjustments */
+	@include tablet {
+		.article-body {
+			:global(img) {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
 </style>
