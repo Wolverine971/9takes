@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Wings: The Complete Guide to Understanding Your Secondary Drive'
-description: 'Master Enneagram wings with this complete guide. Discover how your wing shapes your personality, behavior patterns, and relationships. Includes all 18 wing combinations with real examples.'
+title: "Why You Don't Match Your Enneagram Description (It's Your Wing)"
+description: "Confused why you don't fit your type perfectly? Your wing explains everything. Find out if you're 4w3 or 4w5, 6w5 or 6w7, and why it changes everything about your personality."
 author: 'DJ Wayne'
 date: '2025-08-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-wings-complete-guide'
-lastmod: '2025-08-16'
+lastmod: '2025-10-23'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -23,6 +23,12 @@ Keyword Strategy:
 -->
 
 <!-- # Enneagram Wings: The Complete Guide to Understanding Your Secondary Drive -->
+
+## Quick Answer
+
+**Why don't I match my Enneagram type description perfectly?** You have a wing - one of the two adjacent numbers that flavors your main type. If you're Type 4, you're either 4w3 (more performance-oriented) or 4w5 (more withdrawn). Your wing explains why you relate to some aspects of your type but not others. It's not optional - everyone has a dominant wing that permanently influences how their core type manifests.
+
+**Read time**: 15 minutes | **Key insight**: Your wing is 40% of your personality pattern
 
 <p class="firstLetter">Your Enneagram type is just the beginning. Your wing is what makes you uniquely you.</p>
 
@@ -1306,18 +1312,20 @@ Because in the end, you're not just a number with an add-on. You're a unique hum
 
 **Want to see your wing in action?** Explore real examples of all 18 wing combinations responding to life situations on [9takes](/questions). Because reading about wings is helpful - but seeing how they actually think and respond in real life? That's where true understanding begins.
 
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Enneagram Wings: The Complete Guide to Understanding Your Secondary Drive",
-  "description": "Master Enneagram wings with this complete guide. Discover how your wing shapes your personality, behavior patterns, and relationships. Includes all 18 wing combinations with real examples.",
+  "headline": "Why You Don't Match Your Enneagram Description (It's Your Wing)",
+  "description": "Confused why you don't fit your type perfectly? Your wing explains everything. Find out if you're 4w3 or 4w5, 6w5 or 6w7, and why it changes everything about your personality.",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne"
   },
   "datePublished": "2025-08-16",
-  "dateModified": "2025-08-16",
+  "dateModified": "2025-10-23",
   "publisher": {
     "@type": "Organization",
     "name": "9takes",
@@ -1343,3 +1351,46 @@ Because in the end, you're not just a number with an add-on. You're a unique hum
   "inLanguage": "en-US"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why don't I match my Enneagram type description perfectly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You have a wing - one of the two adjacent numbers that flavors your main type. Your wing is about 40% of your personality pattern and permanently influences how your core type manifests. If you're Type 4, you're either 4w3 (more performance-oriented) or 4w5 (more withdrawn)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I have both wings or no wing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, everyone has one dominant wing. While you can access qualities from both adjacent types, one will be stronger and more consistent. Wings don't change based on mood - your access to them does. You cannot be a 'balanced wing' or have no wing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if I'm 4w3 or 4w5?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "4w3s are more performance-oriented, image-conscious, and socially engaged. They channel emotions into creative output and care about audience impact. 4w5s are more withdrawn, intellectual, and internally focused. They explore emotions for personal understanding rather than expression."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do Enneagram wings change over time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, your wing doesn't change. What changes is your access to and integration of your wing qualities. Under stress, you might lose access to your wing's positive qualities. In growth, you integrate your wing more fully, but the wing itself remains constant."
+      }
+    }
+  ]
+}
+</script>
+
+</svelte:head>

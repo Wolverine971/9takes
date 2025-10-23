@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 6: "The Loyalist"'
-description: "Discover the Loyalist's search for solid ground and the childhood betrayal that made trust impossible. Learn how Sixes transform fear into courage."
+title: "Why You Can't Stop Worrying (Type 6 Anxiety Patterns)"
+description: "Can't quiet the 'what if' spiral even when everything's fine? That's Type 6. Learn why your mind catastrophizes, why trust feels impossible, and how to stop worst-case thinking."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/enneagram-corner/enneagram-type-6'
-lastmod: '2025-08-14'
+lastmod: '2025-10-23'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -18,6 +18,12 @@ pic: ''
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
+
+## Quick Answer
+
+**Why can't Type 6s stop worrying?** Type 6s learned in childhood that the ground can shift without warning—trust was broken, authority proved unreliable, or safety disappeared. Their anxiety isn't irrational; it's pattern recognition. They run every scenario through constant calculation: what could go wrong, who can be trusted, where are the exits. The 'what if' spiral is survival-level vigilance, not neurosis. They catastrophize because they experienced catastrophe. Their minds scan for threats because once, they didn't see danger coming and it cost them.
+
+**Read time**: 12 minutes | **Core wound**: Learning that solid ground can become quicksand
 
 <p class="firstLetter">The child trusted completely. Then the ground shifted. Maybe it was a promise broken by someone who should have kept it. Maybe it was realizing the adults didn't actually know what they were doing. Maybe it was discovering that the rules they'd been taught didn't protect them after all.</p>
 
@@ -343,7 +349,8 @@ These firsthand accounts illuminate the internal experience of Type 6s—reveali
     },
     {
       "@type": "BlogPosting",
-      "name": "Overview of Enneagram Type 6: The Loyalist",
+      "name": "Why You Can't Stop Worrying (Type 6 Anxiety Patterns)",
+      "description": "Can't quiet the 'what if' spiral even when everything's fine? That's Type 6. Learn why your mind catastrophizes, why trust feels impossible, and how to stop worst-case thinking.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -354,7 +361,7 @@ These firsthand accounts illuminate the internal experience of Type 6s—reveali
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-08-14",
+      "dateModified": "2025-10-23",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 6",
@@ -396,25 +403,33 @@ These firsthand accounts illuminate the internal experience of Type 6s—reveali
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type 6s develop from childhood experiences where trust was broken or authority proved unreliable. They learned that vigilance is necessary for survival, creating a pattern of simultaneously seeking and questioning security and guidance."
+            "text": "Type 6s constantly worry because they learned that the ground can shift without warning. They experienced betrayal, unreliable authority, or lost safety in childhood. Their anxiety is pattern recognition—running every scenario through threat assessment. The 'what if' spiral is survival-level vigilance, not irrational fear. They catastrophize because they once experienced catastrophe when they weren't watching."
           },
-          "name": "What creates the Type 6 personality pattern?"
+          "name": "Why do I catastrophize everything?"
         },
         {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sixes fear being without support or guidance in an unpredictable world. They have a complex relationship with authority—craving competent leadership while constantly questioning its reliability. Their deepest fear is that the ground will shift when they're not prepared."
+            "text": "Type 6s can't quiet anxious thoughts because their mind constantly scans for threats. This hypervigilance developed when trust was broken—they learned that not seeing danger coming has consequences. Every person, situation, and decision gets run through elaborate trustworthiness calculations. It's not paranoia; it's protective pattern recognition that never turns off."
           },
-          "name": "What do Type 6s fear most?"
+          "name": "Why can't I quiet my anxious thoughts?"
         },
         {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type 6s grow by moving toward Type 9, developing inner calm and self-trust. Their journey involves discovering that the solid ground they seek externally exists within them, transforming vigilance into wisdom and fear into courage."
+            "text": "Type 6s can't trust people because they experienced betrayal that shattered their foundation. They simultaneously crave and question authority—wanting someone competent in charge but knowing many authorities are just scared humans pretending to have answers. Trust was broken by someone who should have been reliable, so now everyone gets scrutinized."
           },
-          "name": "How do Type 6s grow and develop?"
+          "name": "Why can't I trust people even when they prove themselves?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 6s stop catastrophizing by developing inner authority and self-trust. Growth involves moving toward Type 9, learning that the solid ground they seek externally exists within them. The journey is from fear to courage—transforming vigilance into wisdom and recognizing that constant worst-case thinking prevents living in actual reality."
+          },
+          "name": "How do I stop worrying about worst-case scenarios?"
         }
       ]
     }

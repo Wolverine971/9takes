@@ -1,10 +1,10 @@
 ---
-title: 'The Enneagram Anxiety Handbook: Decode Your Unique Anxiety Pattern'
-description: "Discover how anxiety manifests differently in each Enneagram type and learn tailored techniques that actually work for your personality. Stop using generic advice that doesn't fit."
+title: "Why Your Anxiety Doesn't Match Type 6 (Every Type Has Anxiety)"
+description: "Think only Type 6s are anxious? Wrong. Every Enneagram type has specific anxiety patterns. Find out why Type 1s panic about mistakes, Type 3s about failure, and why 'just breathe' doesn't work for your type."
 author: 'DJ Wayne'
 date: '2025-08-28'
 loc: 'https://9takes.com/enneagram-corner/enneagram-anxiety-management-guide'
-lastmod: '2025-08-28'
+lastmod: '2025-10-23'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -19,6 +19,12 @@ midjourney_prompt: 'Nine ancient Greek marble statues arranged in a circle, each
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
+
+## Quick Answer
+
+**Do all Enneagram types experience anxiety?** Yes, every type has specific anxiety patterns - not just Type 6. Type 1s experience moral anxiety about mistakes, Type 3s have performance anxiety about failure, Type 7s have anticipatory anxiety about pain. Your type determines what triggers your anxiety and which coping strategies actually work. Generic advice fails because anxiety manifests differently based on your core fears.
+
+**Read time**: 12 minutes | **Key insight**: Your anxiety pattern is predictable based on your type
 
 <p class="firstLetter">Your anxiety has a personality. And until you understand its specific pattern, you're fighting blind.</p>
 
@@ -937,14 +943,14 @@ Find professional support that understands your pattern
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "The Enneagram Anxiety Handbook: Decode Your Unique Anxiety Pattern",
-  "description": "Discover how anxiety manifests differently in each Enneagram type and learn tailored techniques that actually work for your personality.",
+  "headline": "Why Your Anxiety Doesn't Match Type 6 (Every Type Has Anxiety)",
+  "description": "Think only Type 6s are anxious? Wrong. Every Enneagram type has specific anxiety patterns. Find out why Type 1s panic about mistakes, Type 3s about failure, and why 'just breathe' doesn't work for your type.",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne"
   },
   "datePublished": "2025-08-28",
-  "dateModified": "2025-08-28",
+  "dateModified": "2025-10-23",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://9takes.com/enneagram-corner/enneagram-anxiety-management-guide"
@@ -975,6 +981,47 @@ Find professional support that understands your pattern
       "@type": "Thing",
       "name": "Crisis Protocols",
       "description": "Emergency interventions for overwhelming anxiety by type"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do all Enneagram types experience anxiety?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, every Enneagram type has specific anxiety patterns - not just Type 6. Type 1s experience moral anxiety about mistakes, Type 3s have performance anxiety about failure, Type 7s have anticipatory anxiety about pain. Your type determines what triggers your anxiety and which coping strategies actually work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why doesn't 'just breathe' work for my anxiety?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generic anxiety advice fails because different Enneagram types need different approaches. 'Just breathe' doesn't work for a Type 6 catastrophizing about the future the same way it does for a Type 3 panicking about failure. Your type requires specific techniques that address your core fears and patterns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Enneagram type has the most anxiety?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Type 6 is traditionally known as the anxiety type, but research shows all types experience significant anxiety - just differently. Type 1s have perfectionist anxiety, Type 2s have relationship anxiety, Type 4s have identity anxiety. No type has 'more' anxiety; they have different anxiety patterns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can knowing my Enneagram type help with anxiety treatment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, understanding your Enneagram type helps identify your specific anxiety triggers and patterns. This allows for targeted strategies: Type 5s benefit from information and preparation, Type 9s need grounding techniques, Type 8s respond to action-oriented approaches. It complements but doesn't replace professional treatment."
+      }
     }
   ]
 }
