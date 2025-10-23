@@ -1,10 +1,10 @@
 ---
-title: 'How Each Enneagram Type Responds to Being Ghosted (And How to Heal)'
-description: 'Discover how your Enneagram personality affects your response to ghosting in modern relationships, with actionable healing strategies tailored to each type'
+title: 'Why They Ghosted You (Based on Their Enneagram Type)'
+description: 'They disappeared without explanation and you need to know why. Each Enneagram type ghosts for specific reasons. Learn what triggered their vanishing act and how your type processes the abandonment.'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-being-ghosted'
-lastmod: '2025-08-15'
+lastmod: '2025-10-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,19 +19,37 @@ pic: 'greek-statue-being-ghosted'
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
+## Quick Answer
+
+**Why do people ghost based on their Enneagram type?** Type 1s ghost when you don't meet their standards, Type 2s when they feel unappreciated, Type 3s when you threaten their image, Type 4s when connection feels too ordinary, Type 5s when demands exceed their energy, Type 6s when trust breaks or anxiety spikes, Type 7s when boredom hits or pain surfaces, Type 8s when vulnerability feels dangerous, Type 9s to avoid confrontation. Understanding their type reveals it's about their patterns—not your worth.
+
+**Read time**: 12 minutes | **Key insight**: Their ghosting reveals their limitations, not your value
+
+## Why Each Type Ghosts (Comparison Table)
+
+| Type       | Why They Ghost                      | Trigger Phrase                        | What They're Avoiding          | What They Need (But Won't Ask)       |
+| ---------- | ----------------------------------- | ------------------------------------- | ------------------------------ | ------------------------------------ |
+| **Type 1** | You didn't meet their standards     | "That's not how it should be done"    | Imperfection, moral compromise | Permission to be imperfect           |
+| **Type 2** | They felt unappreciated             | "After all I've done for you..."      | Feeling used, boundaries       | To receive without giving            |
+| **Type 3** | You threatened their image          | "This isn't working for me right now" | Being seen as failure          | Authentic connection                 |
+| **Type 4** | Connection became too ordinary      | "You wouldn't understand"             | Emotional shallowness          | To be loved for reality, not fantasy |
+| **Type 5** | Emotional demands exceeded capacity | "I need space" (then infinite space)  | Energy depletion, invasion     | Slow-burn connection                 |
+| **Type 6** | Trust broke or anxiety spiked       | "I can't trust this"                  | Uncertainty, betrayal          | Consistent reassurance               |
+| **Type 7** | Boredom or pain surfaced            | "This is getting too heavy"           | Limitation, suffering          | Help processing pain                 |
+| **Type 8** | Vulnerability felt dangerous        | "I don't need anyone"                 | Looking weak, control loss     | Safe space for softness              |
+| **Type 9** | Conflict became unavoidable         | No message (just... silence)          | Confrontation, asserting needs | Help with healthy conflict           |
+
 <p class="firstLetter">Three days. No response. Just "delivered" staring back at you.</p>
 
 You've been ghosted.
 
 In 2024, where **78% of young adults** report experiencing this digital vanishing act, ghosting has evolved from dating anomaly to cultural epidemic.
 
-But here's what nobody talks about:
+**But here's what nobody talks about:** Their Enneagram type reveals exactly why they disappeared—and your type determines how the abandonment wounds you.
 
-Your Enneagram type fundamentally shapes how ghosting wounds you—and how you heal.
+Understanding **why they ghosted** (their pattern) separates from **how you heal** (your pattern).
 
-Some spiral into self-blame. Others rage. Many numb out completely.
-
-Let's decode your specific ghosting response pattern and discover healing strategies that actually work for your personality type.
+Let's decode both sides of the ghosting equation.
 
 <section class="section-content">
 
@@ -506,7 +524,7 @@ Ready to explore how your personality shapes every aspect of life? Discover more
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2025-08-15"
+    "@value": "2025-10-23"
   },
   "datePublished": {
     "@type": "Date",
@@ -518,8 +536,8 @@ Ready to explore how your personality shapes every aspect of life? Discover more
     "url": "https://9takes.com/blogs/greek-statue-being-ghosted.webp",
     "width": 900
   },
-  "description": "Discover how your Enneagram personality affects your response to ghosting in modern relationships, with actionable healing strategies tailored to each type",
-  "headline": "How Each Enneagram Type Responds to Being Ghosted (And How to Heal)",
+  "description": "They disappeared without explanation and you need to know why. Each Enneagram type ghosts for specific reasons. Learn what triggered their vanishing act and how your type processes the abandonment.",
+  "headline": "Why They Ghosted You (Based on Their Enneagram Type)",
   "mainEntityOfPage": {
     "@id": "https://9takes.com/enneagram-corner/enneagram-types-being-ghosted",
     "@type": "WebPage"
@@ -542,7 +560,60 @@ Ready to explore how your personality shapes every aspect of life? Discover more
           "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
+      },
+  "mainEntity": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why did they ghost me without explanation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "People ghost based on their Enneagram type patterns. Type 1s ghost when standards aren't met, Type 2s when feeling unappreciated, Type 3s when image is threatened, Type 4s when connection feels ordinary, Type 5s when demands exceed capacity, Type 6s when trust breaks, Type 7s when boredom or pain surfaces, Type 8s when vulnerability feels dangerous, Type 9s to avoid confrontation. Their ghosting reveals their limitations, not your worth."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do perfectionists ghost people?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 1 perfectionists ghost when you don't meet their moral or behavioral standards. They avoid confrontation about imperfection by disappearing instead of communicating. Trigger phrases include 'That's not how it should be done.' They're avoiding perceived moral compromise and need permission to accept imperfection."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do people-pleasers suddenly disappear?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 2 people-pleasers ghost when they feel unappreciated after giving so much. Trigger phrases include 'After all I've done for you.' They're avoiding feeling used and need to learn receiving without giving. Ghosting is their passive-aggressive response to boundary violations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do achievers ghost after seeming interested?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 3 achievers ghost when continuing the relationship threatens their image or success narrative. They say 'This isn't working for me right now' then disappear. They're avoiding being seen as failure and need authentic connection but can't risk appearing unsuccessful."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do introverts ghost instead of communicating?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 5 introverts ghost when emotional demands exceed their limited energy capacity. They say 'I need space' then take infinite space. Social interaction genuinely depletes them and they're avoiding energy invasion. They need slow-burn connections that respect their capacity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do anxious people suddenly cut contact?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 6 anxious people ghost when trust breaks or anxiety spikes beyond tolerance. They say 'I can't trust this' then disappear. They're avoiding uncertainty and potential betrayal. Their catastrophizing convinces them leaving first prevents being hurt later."
+        }
       }
+    ]
+  }
 }
 </script>
 

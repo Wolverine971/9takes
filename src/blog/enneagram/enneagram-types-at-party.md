@@ -4,7 +4,7 @@ description: 'Watch someone for 10 minutes at a party and know their Enneagram t
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-at-party'
-lastmod: '2025-08-15'
+lastmod: '2025-10-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,6 +19,26 @@ pic: 'greek-statues-party-vibes'
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
+## Quick Answer
+
+**How can you spot someone's Enneagram type at a party?** Each type has a predictable social pattern. Type 1s organize the kitchen while judging, Type 2s make sure everyone's okay, Type 3s network with successful people, Type 4s have intense corner conversations, Type 5s observe and plan their escape, Type 6s check on friends' safety, Type 7s plan the after-party mid-party, Type 8s dominate the energy, Type 9s merge with whatever group they're in. Watch their location, drink choice, and what they're secretly thinking—it reveals everything.
+
+**Read time**: 8 minutes | **Party trick**: Type anyone in under 10 minutes
+
+## Party Behavior Cheat Sheet
+
+| Type       | Where They Are        | What They're Drinking    | Their Secret Thought              | Party Superpower              | Dead Giveaway                           |
+| ---------- | --------------------- | ------------------------ | --------------------------------- | ----------------------------- | --------------------------------------- |
+| **Type 1** | Kitchen, helping host | Measured pour            | "Someone needs to refill the ice" | Nobody drives drunk           | Straightening coasters while talking    |
+| **Type 2** | Wherever needed       | Whatever you're having   | "Is everyone okay?"               | Everyone feels included       | Knows everyone's relationship status    |
+| **Type 3** | Center of action      | Whatever's trending      | "Great networking opportunity"    | Makes everyone feel important | Exchanged business cards at house party |
+| **Type 4** | Aesthetic corner      | Something unique         | "Nobody here gets me"             | Deep 2AM connections          | Dressed like different movie            |
+| **Type 5** | Safest corner         | Nursing same drink       | "When can I leave?"               | Best conversation if found    | Knows everything, nobody knows them     |
+| **Type 6** | Near the exit         | Whatever's safe          | "Is everyone getting home?"       | Spots red flags first         | Brought chargers for everyone           |
+| **Type 7** | Everywhere at once    | Yes (all of them)        | "Where's the after-party?"        | Monday = New Year's Eve       | In every Instagram story                |
+| **Type 8** | Where action is       | Strong, no chaser        | "Needs more energy"               | Makes things happen           | Party reorganizes around them           |
+| **Type 9** | Merged with group     | "Whatever you're having" | "Hope there's no drama"           | Everyone feels heard          | Different personality per group         |
+
 <p class="firstLetter">The music's loud. The room's packed. And everyone's true personality is about to show.</p>
 
 **Parties are personality laboratories.**
@@ -27,8 +47,8 @@ No scripts. No meetings. No agendas. Just humans being human under social pressu
 
 And here's what nobody tells you: **Everyone's playing a different game.**
 
-The person organizing the playlist? Different game than the one in the kitchen.  
-The networker working the room? Different game than the philosopher in the corner.  
+The person organizing the playlist? Different game than the one in the kitchen.
+The networker working the room? Different game than the philosopher in the corner.
 The life of the party? Different game than the one who already left.
 
 **Nine games. Nine strategies. Nine types.**
@@ -364,14 +384,14 @@ _Next: See [how each type shows off](/enneagram-corner/how-each-enneagram-flexes
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2025-08-15"
+    "@value": "2025-10-23"
   },
   "datePublished": {
     "@type": "Date",
     "@value": "2023-02-17"
   },
-  "description": "Discover different types of doing, thinking, and feeling at a party.",
-  "headline": "Enneagram & Party Dynamics: Behavior Guide",
+  "description": "Watch someone for 10 minutes at a party and know their Enneagram type. The kitchen helper, the networker, the corner philosopher—which one are you?",
+  "headline": "The Party Test: What Your Social Style Reveals About Your Type",
   "image": {
     "@type": "ImageObject",
     "height": 900,
@@ -399,7 +419,52 @@ _Next: See [how each type shows off](/enneagram-corner/how-each-enneagram-flexes
           "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
+      },
+  "mainEntity": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How can you tell someone's personality type at a party?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each Enneagram type has predictable party behavior. Type 1s organize the kitchen while judging, Type 2s ensure everyone's okay, Type 3s network strategically, Type 4s have intense corner conversations, Type 5s observe and plan escape, Type 6s monitor safety, Type 7s maximize fun and plan after-parties, Type 8s dominate the energy, Type 9s merge with groups. Watch their location, drink choice, and body language for instant typing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do some people avoid parties?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 5s avoid parties because social interaction depletes their limited energy. They view parties as energy drains requiring constant translation of social cues. Type 4s avoid parties when they anticipate shallow small talk. Type 6s avoid parties with strangers due to trust and safety concerns. Each type's avoidance reveals their core fears and energy management strategies."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do extroverts love parties?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 7s love parties for stimulation and avoiding boredom or pain. Type 3s love parties for networking and image cultivation. Type 8s love parties for the energy and social control. Type 2s love parties to help and connect with others. Each 'extroverted' type has different motivations—some seek distraction, others power, some connection."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does your party behavior reveal about you?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Party behavior reveals your childhood survival strategy. Type 1s earned love through being good (organizing). Type 2s earned love through being needed (helping everyone). Type 3s earned love through success (networking). Type 4s sought uniqueness (aesthetic corner). Each type's party game is their original coping mechanism in social clothes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you spot an introvert at a party?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 5s are easiest to spot—observing from corners, nursing one drink, calculating departure time. Type 4s seek deep 1-on-1 conversations in aesthetic spaces. Type 9s merge with groups but seem absent despite physical presence. True introversion shows through energy conservation: Type 5s protect energy, Type 4s conserve emotional energy, Type 9s avoid confrontation energy."
+        }
       }
+    ]
+  }
 }
 </script>
 
