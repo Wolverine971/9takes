@@ -4,7 +4,7 @@ description: 'Discover the shadow aspects hiding in each personality type, why t
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type'
-lastmod: '2025-03-10'
+lastmod: '2025-10-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,6 +18,12 @@ pic: 'greek-statue-showing-cracks'
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
+
+## Quick Answer
+
+**What are the toxic traits of each Enneagram type?** Type 1s become judgmental critics, Type 2s manipulate through guilt, Type 3s deceive for image, Type 4s manipulate through emotional drama, Type 5s withdraw completely, Type 6s become paranoid and accusatory, Type 7s become self-centered escapists, Type 8s dominate and intimidate, Type 9s become passive-aggressive. These toxic traits emerge under stress or insecurity—everyone has them, and recognizing yours is the first step to growth.
+
+**Read time**: 15 minutes | **Key insight**: Your shadow side is predictable
 
 <p class="firstLetter">Ever interact with someone who makes your blood boil?</p>
 
@@ -46,6 +52,24 @@ Understanding these toxic tendencies isn't about pointing fingers. It's about sh
 The Enneagram offers a powerful framework for this self-examination. Each type has specific shadow aspects – predictable patterns that emerge when they're stressed, insecure, or threatened.
 
 Let's rip off the band-aid and explore what makes each type potentially unbearable.
+
+## Toxic Traits Red Flags by Type
+
+| Type | Primary Toxic Behavior | What They Do | Why They Do It | Red Flag Warning | When to Walk Away |
+|------|----------------------|--------------|----------------|------------------|-------------------|
+| **Type 1** | Judgmental Criticism | Nitpick everything, silent punishment, moral superiority | Fear of being corrupt or bad | "I would never do that" statements | When nothing you do is ever good enough |
+| **Type 2** | Manipulative Helping | Give with strings attached, guilt-tripping, boundary violations | Fear of being unlovable | "After all I've done for you..." | When help feels like emotional hostage-taking |
+| **Type 3** | Image Deception | Lie about accomplishments, use people as props, fake authenticity | Fear of being worthless | Everything is a performance | When you realize you don't know the real them |
+| **Type 4** | Emotional Manipulation | Weaponize vulnerability, create drama, victim mentality | Fear of being ordinary | "You wouldn't understand my pain" | When their crisis becomes your constant responsibility |
+| **Type 5** | Cold Withdrawal | Complete emotional unavailability, hoarding resources, condescension | Fear of being incompetent | Intellectually superior attitude | When they make you feel stupid for having needs |
+| **Type 6** | Paranoid Projection | Constant suspicion, test loyalty, catastrophize | Fear of being without support | "I knew you couldn't be trusted" | When you're constantly defending your loyalty |
+| **Type 7** | Selfish Escapism | Avoid responsibility, commitment-phobia, blame others | Fear of being trapped in pain | "This is getting too heavy" then disappears | When fun is mandatory and depth is forbidden |
+| **Type 8** | Dominating Intimidation | Bulldoze boundaries, explosive anger, control everything | Fear of being controlled | "My way or the highway" | When disagreement triggers aggression |
+| **Type 9** | Passive-Aggressive Neglect | Stubborn silence, avoid conflict through withdrawal, forget your needs | Fear of conflict/separation | "I'm fine" (they're not fine) | When their peace requires your self-erasure |
+
+**Remember**: Everyone displays these traits under stress. Consistent patterns indicate unhealthy coping—not permanent character.
+
+---
 
 ## Type 1: The Righteous Critic Who's Never Wrong
 

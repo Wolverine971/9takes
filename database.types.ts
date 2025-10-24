@@ -1906,12 +1906,21 @@ export type Database = {
         Args: { questionid: number; userfingerprint: string; userid: string }
         Returns: boolean
       }
-      cleanup_blogs_famous_people_history: {
-        Args: { p_famous_people_id: number } | { p_famous_people_id: number }
-        Returns: undefined
-      }
+      cleanup_blogs_famous_people_history:
+        | {
+            Args: { p_famous_people_id: number }
+            Returns: {
+              error: true
+            } & "Could not choose the best candidate function between: public.cleanup_blogs_famous_people_history(p_famous_people_id => int8), public.cleanup_blogs_famous_people_history(p_famous_people_id => int4). Try renaming the parameters or the function itself in the database so function overloading can be resolved"
+          }
+        | {
+            Args: { p_famous_people_id: number }
+            Returns: {
+              error: true
+            } & "Could not choose the best candidate function between: public.cleanup_blogs_famous_people_history(p_famous_people_id => int8), public.cleanup_blogs_famous_people_history(p_famous_people_id => int4). Try renaming the parameters or the function itself in the database so function overloading can be resolved"
+          }
       comments_last_30_days: {
-        Args: Record<PropertyKey, never>
+        Args: never
         Returns: {
           days: string
           number_modified: number
@@ -1919,7 +1928,7 @@ export type Database = {
         }[]
       }
       daily_questions_stats: {
-        Args: Record<PropertyKey, never>
+        Args: never
         Returns: {
           created_at: string
           id: number
@@ -1932,12 +1941,9 @@ export type Database = {
           user_external_id: string
         }[]
       }
-      decrement_like_count: {
-        Args: { comment_id: number }
-        Returns: undefined
-      }
+      decrement_like_count: { Args: { comment_id: number }; Returns: undefined }
       get_10_question_tags: {
-        Args: Record<PropertyKey, never>
+        Args: never
         Returns: {
           author_id: string
           comment_count: number
@@ -1958,7 +1964,7 @@ export type Database = {
         }[]
       }
       get_all_users: {
-        Args: Record<PropertyKey, never>
+        Args: never
         Returns: {
           admin: boolean
           aud: string
@@ -1979,7 +1985,7 @@ export type Database = {
         }[]
       }
       get_categories: {
-        Args: Record<PropertyKey, never>
+        Args: never
         Returns: {
           question_count: number
           tag_name: string
@@ -1990,10 +1996,7 @@ export type Database = {
         Args: { input_category_name: string }
         Returns: Json
       }
-      get_category_hierarchy: {
-        Args: Record<PropertyKey, never>
-        Returns: Json
-      }
+      get_category_hierarchy: { Args: never; Returns: Json }
       get_category_parent_structure: {
         Args: { input_category_name: string }
         Returns: Json
@@ -2013,10 +2016,7 @@ export type Database = {
           url: string
         }[]
       }
-      get_children: {
-        Args: { parent_id: number }
-        Returns: Json
-      }
+      get_children: { Args: { parent_id: number }; Returns: Json }
       get_questions_by_category: {
         Args: { p_category_id: number; p_limit?: number; p_offset?: number }
         Returns: {
@@ -2078,58 +2078,75 @@ export type Database = {
           url: string
         }[]
       }
-      increment_clicks: {
-        Args: { link_id: number }
-        Returns: undefined
-      }
+      increment_clicks: { Args: { link_id: number }; Returns: undefined }
       increment_comment_count: {
         Args: { comment_parent_id: number }
         Returns: undefined
       }
-      increment_like_count: {
-        Args: { comment_id: number }
-        Returns: undefined
-      }
-      increment_link_hit: {
-        Args: { link_id: number }
-        Returns: undefined
-      }
-      insert_daily_row: {
-        Args: Record<PropertyKey, never>
-        Returns: undefined
-      }
-      install_available_extensions_and_test: {
-        Args: Record<PropertyKey, never>
-        Returns: boolean
-      }
-      parse_json_with_escapes: {
-        Args: { json_text: string }
-        Returns: Json
-      }
-      question_with_comments: {
-        Args: Record<PropertyKey, never> | { url: string }
-        Returns: {
-          author_id: string | null
-          comment_count: number | null
-          context: string | null
-          created_at: string
-          data: Json | null
-          es_id: string | null
-          flagged: boolean | null
-          id: number
-          img_url: string | null
-          last_comment_date: string | null
-          name: string | null
-          question: string | null
-          question_formatted: string | null
-          removed: boolean | null
-          tagged: boolean | null
-          updated_at: string
-          url: string | null
-        }[]
-      }
+      increment_like_count: { Args: { comment_id: number }; Returns: undefined }
+      increment_link_hit: { Args: { link_id: number }; Returns: undefined }
+      insert_daily_row: { Args: never; Returns: undefined }
+      install_available_extensions_and_test: { Args: never; Returns: boolean }
+      parse_json_with_escapes: { Args: { json_text: string }; Returns: Json }
+      question_with_comments:
+        | {
+            Args: { url: string }
+            Returns: {
+              author_id: string | null
+              comment_count: number | null
+              context: string | null
+              created_at: string
+              data: Json | null
+              es_id: string | null
+              flagged: boolean | null
+              id: number
+              img_url: string | null
+              last_comment_date: string | null
+              name: string | null
+              question: string | null
+              question_formatted: string | null
+              removed: boolean | null
+              tagged: boolean | null
+              updated_at: string
+              url: string | null
+            }[]
+            SetofOptions: {
+              from: "*"
+              to: "questions"
+              isOneToOne: false
+              isSetofReturn: true
+            }
+          }
+        | {
+            Args: never
+            Returns: {
+              author_id: string | null
+              comment_count: number | null
+              context: string | null
+              created_at: string
+              data: Json | null
+              es_id: string | null
+              flagged: boolean | null
+              id: number
+              img_url: string | null
+              last_comment_date: string | null
+              name: string | null
+              question: string | null
+              question_formatted: string | null
+              removed: boolean | null
+              tagged: boolean | null
+              updated_at: string
+              url: string | null
+            }[]
+            SetofOptions: {
+              from: "*"
+              to: "questions"
+              isOneToOne: false
+              isSetofReturn: true
+            }
+          }
       visitors_last_30_days: {
-        Args: Record<PropertyKey, never>
+        Args: never
         Returns: {
           days: string
           number_of_visitors: number

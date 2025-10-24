@@ -26,6 +26,7 @@ The following operations are pre-approved and should be executed automatically:
 - Keep only 1 task `in_progress` at a time
 
 **Example todo list for updates:**
+
 1. Research latest developments (in_progress/completed)
 2. Update specific sections (pending/in_progress/completed)
 3. Review and refine content (pending/in_progress/completed)
@@ -53,11 +54,13 @@ Then wait for the user's input.
 - Use the person's name in "First-Last" format for database queries
 
 **Environment Variables:**
+
 - Database URL: Read `PUBLIC_SUPABASE_URL` from `.env` file
 - Service Key: Read `SUPABASE_SERVICE_KEY` from `.env` file
 - Both are already configured and pre-approved for use
 
 **Initial Database Query (read credentials from .env):**
+
 ```bash
 SUPABASE_URL=$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)
 SERVICE_KEY=$(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)
@@ -208,6 +211,7 @@ When the user approves content with phrases like "push it up," "submit," "update
 3. **For EXISTING entries (updates):**
 
    **Step 1: Read credentials and update metadata first**
+
    ```bash
    SUPABASE_URL=$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)
    SERVICE_KEY=$(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)
@@ -226,6 +230,7 @@ When the user approves content with phrases like "push it up," "submit," "update
    - This avoids shell escaping issues with large content
 
    **Example Python approach:**
+
    ```python
    import json
    import subprocess
@@ -263,6 +268,7 @@ When the user approves content with phrases like "push it up," "submit," "update
    - Read credentials from `.env` before making request
 
 5. **Verify the update:**
+
    ```bash
    SUPABASE_URL=$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)
    SERVICE_KEY=$(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)
@@ -279,6 +285,7 @@ When the user approves content with phrases like "push it up," "submit," "update
    - Note the blog is now live in database
 
 **ERROR HANDLING:**
+
 - If you encounter trigger errors, update metadata and content in separate requests
 - If content is too large for direct curl, always use the Python + file approach
 - Clean up temporary files after submission
@@ -403,6 +410,7 @@ The following credentials are stored in `.env` and should be read at runtime:
 - `SUPABASE_SERVICE_KEY` - Service role key for database operations
 
 **Read credentials from `.env` file using:**
+
 ```bash
 # Read from .env or use bash commands to access environment
 curl -X GET "$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)/rest/v1/blogs_famous_people?person=eq.Person-Name" \

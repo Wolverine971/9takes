@@ -84,7 +84,25 @@ These dark sides are called the **"shadow side,"** and it is central to this exp
 
 The Enneagram is a **personality framework**—not a diagnostic tool. Everyone’s experience with mental health is unique, and symptoms or challenges can vary widely. This article is for **informational and self-reflection purposes** only and **does not replace professional mental health advice**. If you believe you might be experiencing mental health issues, please seek help from a qualified medical or mental health professional.
 
-In addition, we aim to address these topics with **sensitivity and inclusivity**. Mental health struggles affect people of all backgrounds, and it’s important to use non-stigmatizing language. By exploring each type’s risks, we encourage empathy and understanding—both for ourselves and for those around us.
+In addition, we aim to address these topics with **sensitivity and inclusivity**. Mental health struggles affect people of all backgrounds, and it's important to use non-stigmatizing language. By exploring each type's risks, we encourage empathy and understanding—both for ourselves and for those around us.
+
+---
+
+## Mental Health Risk Overview by Type
+
+| Type | Primary Vulnerabilities | Core Pattern | Warning Signs | When to Seek Help |
+|------|------------------------|--------------|---------------|-------------------|
+| **Type 1** | OCD, Depression, Eating Disorders | Perfectionism becomes paralyzing | Can't complete tasks due to perfectionism, extreme self-punishment, social withdrawal | When standards prevent basic functioning |
+| **Type 2** | Codependency, Histrionic Traits, Hypochondriasis | Helping becomes manipulation | Intense need to be indispensable, resentment when unappreciated, stalking behaviors | When relationships become coercive |
+| **Type 3** | Narcissistic Traits, Workaholism, Depression | Image becomes everything | Work addiction causing health issues, inability to stop achieving, identity crisis | When burnout causes physical symptoms |
+| **Type 4** | Depression, BPD Traits, Self-Harm | Emotions become identity | Romanticizing pain, self-destructive behaviors, reality distortion | When emotional intensity threatens safety |
+| **Type 5** | Schizoid Traits, Isolation, Psychotic Breaks | Withdrawal becomes psychosis | Complete social isolation, reality detachment, paranoid thinking | When losing touch with reality |
+| **Type 6** | Anxiety Disorders, Paranoia, Panic | Vigilance becomes paranoia | Constant catastrophizing, trust issues with everyone, panic attacks | When fear prevents daily functioning |
+| **Type 7** | Mania, Addiction, Impulsivity | Avoidance becomes chaos | Manic episodes, substance abuse, reckless behavior | When avoidance creates dangerous situations |
+| **Type 8** | Antisocial Traits, Rage, Violence | Control becomes domination | Frequent explosive anger, intimidation tactics, legal issues | When anger threatens others' safety |
+| **Type 9** | Dissociation, Depression, Self-Neglect | Peace becomes numbness | Complete emotional disconnection, severe self-neglect, passive suicidality | When numbness leads to self-harm through neglect |
+
+**Remember**: These are predispositions, not diagnoses. Anyone experiencing these warning signs should consult a mental health professional immediately.
 
 ---
 
