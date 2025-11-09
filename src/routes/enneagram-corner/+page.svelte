@@ -185,9 +185,11 @@
 />
 
 <main class="mx-auto w-full max-w-6xl px-4 py-10 md:py-12">
-	<h1 class="text-3xl font-semibold tracking-tight text-neutral-900 md:text-4xl">Explore the Enneagram</h1>
+	<h1 class="text-3xl font-semibold tracking-tight text-neutral-900 md:text-4xl">
+		Explore the Enneagram
+	</h1>
 
-	<nav aria-label="Table of Contents" class="mt-6 mb-10">
+	<nav aria-label="Table of Contents" class="mb-10 mt-6">
 		<ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
 			{#each blogSections as section}
 				<li>
@@ -207,7 +209,9 @@
 
 	{#each blogSections as section}
 		<section class="mb-12" aria-labelledby={section.id}>
-			<h2 id={section.id} class="text-2xl font-semibold text-neutral-900 md:text-3xl">{section.title}</h2>
+			<h2 id={section.id} class="text-2xl font-semibold text-neutral-900 md:text-3xl">
+				{section.title}
+			</h2>
 			{#if section.subtitle}
 				<p class="mt-2 max-w-2xl text-sm leading-relaxed text-neutral-600">{section.subtitle}</p>
 			{/if}
@@ -231,9 +235,13 @@
 									style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
 								></div>
 							{:else}
-								<div class="absolute inset-0 bg-gradient-to-br from-brand-purple to-brand-purpleDark opacity-90"></div>
+								<div
+									class="absolute inset-0 bg-gradient-to-br from-brand-purple to-brand-purpleDark opacity-90"
+								></div>
 							{/if}
-							<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/5"></div>
+							<div
+								class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/5"
+							></div>
 							<div class="relative z-10 flex h-full flex-col justify-end gap-2 p-4 text-white">
 								<h3 class="text-lg font-semibold leading-snug">{blog.title}</h3>
 								{#if section.type !== 'nine-types'}
@@ -253,7 +261,11 @@
 						>
 							<h3 class="flex items-center justify-center text-base font-semibold">
 								View All {section.linkTitle}
-								<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'currentColor'} />
+								<ArrowRightIcon
+									iconStyle={'margin-left: .5rem'}
+									height={'1.5rem'}
+									fill={'currentColor'}
+								/>
 							</h3>
 						</a>
 					</div>
@@ -263,32 +275,15 @@
 	{/each}
 </main>
 
-<section class="mx-auto mb-12 w-full max-w-6xl rounded-3xl bg-gradient-to-b from-neutral-900 to-neutral-950 px-6 py-10 text-white shadow-xl">
+<section
+	class="mx-auto mb-12 w-full max-w-6xl rounded-3xl bg-gradient-to-b from-neutral-900 to-neutral-950 px-6 py-10 text-white shadow-xl"
+>
 	<h2 class="text-center text-3xl font-semibold">Why Choose 9takes</h2>
 	<div class="mt-8 grid gap-4 md:grid-cols-2">
-		{#each [
-			{
-				title: 'Deep Psychological Insights',
-				copy:
-					'Go beyond surface-level descriptions to understand the core motivations, fears, and desires that shape each personality type.'
-			},
-			{
-				title: 'Personalized Growth Strategies',
-				copy:
-					'Receive specific, actionable guidance tailored to your unique personality type and individual growth path.'
-			},
-			{
-				title: 'Research-Based Approach',
-				copy:
-					'Grounded in decades of psychological research and the work of leading Enneagram experts and practitioners.'
-			},
-			{
-				title: 'Practical Applications',
-				copy:
-					'Transform theory into practice with real-world examples, exercises, and tools for immediate implementation.'
-			}
-		] as item}
-			<article class="rounded-2xl border border-white/10 bg-white/5 p-5 shadow-sm transition hover:-translate-y-1 hover:bg-white/10">
+		{#each [{ title: 'Deep Psychological Insights', copy: 'Go beyond surface-level descriptions to understand the core motivations, fears, and desires that shape each personality type.' }, { title: 'Personalized Growth Strategies', copy: 'Receive specific, actionable guidance tailored to your unique personality type and individual growth path.' }, { title: 'Research-Based Approach', copy: 'Grounded in decades of psychological research and the work of leading Enneagram experts and practitioners.' }, { title: 'Practical Applications', copy: 'Transform theory into practice with real-world examples, exercises, and tools for immediate implementation.' }] as item}
+			<article
+				class="rounded-2xl border border-white/10 bg-white/5 p-5 shadow-sm transition hover:-translate-y-1 hover:bg-white/10"
+			>
 				<h3 class="text-lg font-semibold text-brand-purpleLight">{item.title}</h3>
 				<p class="mt-2 text-sm leading-relaxed text-white/80">{item.copy}</p>
 			</article>
@@ -297,7 +292,8 @@
 	<div class="mt-8 rounded-2xl border border-white/10 bg-white/5 p-6 text-center shadow-sm">
 		<h3 class="text-2xl font-semibold">Start Your Enneagram Journey</h3>
 		<p class="mt-2 text-base text-white/80">
-			Whether you're new to the Enneagram or deepening your understanding, we have resources to support your growth.
+			Whether you're new to the Enneagram or deepening your understanding, we have resources to
+			support your growth.
 		</p>
 		<div class="mt-6 flex flex-wrap justify-center gap-3">
 			<a
@@ -316,6 +312,8 @@
 	</div>
 </section>
 
+<style lang="scss">
+	.text-overlay {
 		position: absolute;
 		bottom: 0;
 		left: 0;

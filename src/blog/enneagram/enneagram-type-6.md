@@ -275,22 +275,22 @@ These firsthand accounts illuminate the internal experience of Type 6s—reveali
 </section>
 
 <Checklist
-  title="✅ Are You a Type 6? Self-Assessment Checklist"
-  items={[
-    `You consistently find yourself playing out "what if" scenarios to prepare for potential problems.`,
-    `You value loyalty above almost all other qualities in relationships.`,
-    `You often find yourself torn between wanting guidance from authorities and questioning their judgments.`,
-    `You frequently seek reassurance or second opinions before making important decisions.`,
-    `You're often praised for your reliability and commitment to responsibilities.`,
-    `You can quickly identify potential problems in plans that others have overlooked.`,
-    `You tend to be skeptical of things that seem too good to be true.`,
-    `Under stress, you sometimes focus intensely on achievements or how you appear to others.`,
-    `You find comfort in routines, systems, and clear guidelines.`,
-    `You're particularly sensitive to inconsistencies in what people say versus what they do.`,
-    `You value having a trusted inner circle of friends or colleagues you can depend on.`,
-    `You sometimes struggle with self-doubt despite evidence of your competence.`
-  ]}
-  note="If you checked seven or more items, you likely have strong Type 6 patterns. Everyone contains aspects of each Enneagram type, but one or two usually dominate our personality structure."
+title="✅ Are You a Type 6? Self-Assessment Checklist"
+items={[
+`You consistently find yourself playing out "what if" scenarios to prepare for potential problems.`,
+`You value loyalty above almost all other qualities in relationships.`,
+`You often find yourself torn between wanting guidance from authorities and questioning their judgments.`,
+`You frequently seek reassurance or second opinions before making important decisions.`,
+`You're often praised for your reliability and commitment to responsibilities.`,
+`You can quickly identify potential problems in plans that others have overlooked.`,
+`You tend to be skeptical of things that seem too good to be true.`,
+`Under stress, you sometimes focus intensely on achievements or how you appear to others.`,
+`You find comfort in routines, systems, and clear guidelines.`,
+`You're particularly sensitive to inconsistencies in what people say versus what they do.`,
+`You value having a trusted inner circle of friends or colleagues you can depend on.`,
+`You sometimes struggle with self-doubt despite evidence of your competence.`
+]}
+note="If you checked seven or more items, you likely have strong Type 6 patterns. Everyone contains aspects of each Enneagram type, but one or two usually dominate our personality structure."
 />
 
 <section class="section-content">

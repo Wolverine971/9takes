@@ -21,7 +21,9 @@
 	<div class="mt-4 space-y-3">
 		{#each items as item, index}
 			{@const itemId = `${listId}-${index}`}
-			<div class="flex items-start gap-3 rounded-xl border border-neutral-100 bg-neutral-50/60 px-3 py-2">
+			<div
+				class="flex items-start gap-3 rounded-xl border border-neutral-100 bg-neutral-50/60 px-3 py-2"
+			>
 				<input
 					type="checkbox"
 					id={itemId}

@@ -331,7 +331,7 @@
 				on:click={toggleViewMode}
 				size="xs"
 				color="alternative"
-				class="sm:size-sm ml-2 px-2 py-1.5 sm:px-3 sm:py-2"
+				class="ml-2 px-2 py-1.5 sm:size-sm sm:px-3 sm:py-2"
 			>
 				<span class="hidden sm:inline">{viewMode === 'month' ? 'Week View' : 'Month View'}</span>
 				<span class="sm:hidden">{viewMode === 'month' ? 'Week' : 'Month'}</span>
@@ -385,215 +385,217 @@
 	<!-- Month View -->
 	{#if viewMode === 'month'}
 		<div class="w-full overflow-x-auto">
-			<div class="min-w-[46rem] grid grid-cols-7 gap-1 sm:gap-2">
+			<div class="grid min-w-[46rem] grid-cols-7 gap-1 sm:gap-2">
 				{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day}
 					<div class="p-1 text-center text-xs font-bold sm:text-sm md:text-base">{day}</div>
 				{/each}
 
-			{#each calendarDays as day}
-				<div
-					class="relative min-h-32 overflow-hidden rounded-lg border transition-all duration-200 {day
-						? 'cursor-pointer hover:border-blue-400'
-						: ''} p-1 sm:p-2 {day && day.toDateString() === todayDate.toDateString()
-						? 'border-blue-200 bg-blue-50 dark:border-blue-700 dark:bg-blue-900/20'
-						: day
-							? 'bg-white dark:bg-gray-800'
-							: 'bg-gray-50 dark:bg-gray-900'}"
-					on:click={() => day && openCreateModal(day)}
-				>
-					{#if day}
-						<div
-							class="mb-1 text-xs font-semibold sm:text-sm {day.toDateString() ===
-							todayDate.toDateString()
-								? 'text-blue-600 dark:text-blue-300'
-								: ''}"
-						>
-							{day.getDate()}
-						</div>
-						{@const dayContent = filteredContentItems
-							.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
-							.sort(sortContentByDateTime)}
-						<div class="space-y-1">
-							{#each dayContent.slice(0, 3) as item (item.id)}
-								<div
-									transition:slide={{ duration: 150 }}
-									class="group flex cursor-pointer items-center overflow-hidden rounded p-0.5 text-[10px] hover:shadow-md sm:p-1 sm:text-xs dark:text-white"
-									style="background-color: {getCampaignColor(item.campaign_id)}; color: white;"
-									on:click|stopPropagation={(e) => openContentEditor(item, e)}
-								>
-									<!-- Platform icon -->
-									{#if item.platform}
-										<div
-											class="mr-1 flex-shrink-0"
-											style="color: {platformColors[item.platform.toLowerCase()] ||
-												platformColors.default};"
-										>
-											{@html getPlatformIcon(item.platform)}
-										</div>
-									{/if}
-
-									<!-- Time -->
-									<div class="mr-1 text-xs opacity-80">
-										{new Date(item.scheduled_date).toLocaleTimeString([], {
-											hour: '2-digit',
-											minute: '2-digit'
-										})}
-									</div>
-
-									<!-- Content text with truncation -->
-									<div class="flex-grow truncate">
-										{item.content_text}
-									</div>
-
-									<!-- Status indicator -->
-									{#if item.status}
-										<div class="ml-1 flex-shrink-0">
-											<Badge
-												class="max-[480px]:hidden"
-												color={item.status === 'published'
-													? 'green'
-													: item.status === 'scheduled'
-														? 'blue'
-														: item.status === 'pending'
-															? 'yellow'
-															: 'gray'}
-												size="xs"
-											>
-												{item.status}
-											</Badge>
-										</div>
-									{/if}
-								</div>
-							{/each}
-							{#if dayContent.length > 3}
-								<div
-									class="cursor-pointer py-1 text-center text-xs text-primary-600 hover:underline dark:text-primary-400"
-									on:click|stopPropagation={(e) => openAllContentModal(dayContent, e)}
-								>
-									+{dayContent.length - 3} more
-								</div>
-							{/if}
-						</div>
-					{/if}
-				</div>
-			{/each}
-			</div>
-		</div>
-	{:else}
-		<!-- Week view -->
-		<div class="w-full overflow-x-auto">
-			<div class="min-w-[36rem] space-y-2">
-			{#each calendarDays as day}
-				{@const dayContent = filteredContentItems
-					.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
-					.sort(sortContentByDateTime)}
-
-				<div class="flex flex-col">
-					<div class="mb-2 flex items-center">
-						<div
-							class="text-sm font-bold {day.toDateString() === todayDate.toDateString()
-								? 'text-blue-600 dark:text-blue-300'
-								: ''}"
-						>
-							{getFormattedDay(day)}
-						</div>
-
-						{#if day.toDateString() === todayDate.toDateString()}
-							<Badge color="blue" class="ml-2">Today</Badge>
-						{/if}
-
-						<Button
-							size="xs"
-							color="alternative"
-							class="ml-auto"
-							on:click={() => openCreateModal(day)}
-						>
-							Add
-						</Button>
-					</div>
-
-					{#if dayContent.length > 0}
-						<div class="space-y-2 rounded-lg border bg-white p-2 dark:bg-gray-800">
-							{#each dayContent as item (item.id)}
-								<div
-									class="flex cursor-pointer items-center rounded-lg p-2 transition-all hover:shadow-md"
-									style="background-color: {getCampaignColor(item.campaign_id)}15;"
-									on:click={() => openContentEditor(item)}
-								>
-									<!-- Left side: time and platform -->
-									<div class="mr-3 flex flex-col items-center border-r pr-3">
-										<div class="text-sm font-bold">
-											{new Date(item.scheduled_date).toLocaleTimeString([], {
-												hour: '2-digit',
-												minute: '2-digit'
-											})}
-										</div>
-
+				{#each calendarDays as day}
+					<div
+						class="relative min-h-32 overflow-hidden rounded-lg border transition-all duration-200 {day
+							? 'cursor-pointer hover:border-blue-400'
+							: ''} p-1 sm:p-2 {day && day.toDateString() === todayDate.toDateString()
+							? 'border-blue-200 bg-blue-50 dark:border-blue-700 dark:bg-blue-900/20'
+							: day
+								? 'bg-white dark:bg-gray-800'
+								: 'bg-gray-50 dark:bg-gray-900'}"
+						on:click={() => day && openCreateModal(day)}
+					>
+						{#if day}
+							<div
+								class="mb-1 text-xs font-semibold sm:text-sm {day.toDateString() ===
+								todayDate.toDateString()
+									? 'text-blue-600 dark:text-blue-300'
+									: ''}"
+							>
+								{day.getDate()}
+							</div>
+							{@const dayContent = filteredContentItems
+								.filter(
+									(item) => new Date(item.scheduled_date).toDateString() === day.toDateString()
+								)
+								.sort(sortContentByDateTime)}
+							<div class="space-y-1">
+								{#each dayContent.slice(0, 3) as item (item.id)}
+									<div
+										transition:slide={{ duration: 150 }}
+										class="group flex cursor-pointer items-center overflow-hidden rounded p-0.5 text-[10px] hover:shadow-md sm:p-1 sm:text-xs dark:text-white"
+										style="background-color: {getCampaignColor(item.campaign_id)}; color: white;"
+										on:click|stopPropagation={(e) => openContentEditor(item, e)}
+									>
+										<!-- Platform icon -->
 										{#if item.platform}
 											<div
+												class="mr-1 flex-shrink-0"
 												style="color: {platformColors[item.platform.toLowerCase()] ||
 													platformColors.default};"
 											>
 												{@html getPlatformIcon(item.platform)}
 											</div>
 										{/if}
-									</div>
 
-									<!-- Middle: content text -->
-									<div class="flex-grow">
-										<div class="text-sm">
+										<!-- Time -->
+										<div class="mr-1 text-xs opacity-80">
+											{new Date(item.scheduled_date).toLocaleTimeString([], {
+												hour: '2-digit',
+												minute: '2-digit'
+											})}
+										</div>
+
+										<!-- Content text with truncation -->
+										<div class="flex-grow truncate">
 											{item.content_text}
 										</div>
 
-										{#if item.content_hashtags}
-											<div class="mt-1 text-xs text-gray-500 dark:text-gray-400">
-												{item.content_hashtags}
+										<!-- Status indicator -->
+										{#if item.status}
+											<div class="ml-1 flex-shrink-0">
+												<Badge
+													class="max-[480px]:hidden"
+													color={item.status === 'published'
+														? 'green'
+														: item.status === 'scheduled'
+															? 'blue'
+															: item.status === 'pending'
+																? 'yellow'
+																: 'gray'}
+													size="xs"
+												>
+													{item.status}
+												</Badge>
 											</div>
 										{/if}
 									</div>
+								{/each}
+								{#if dayContent.length > 3}
+									<div
+										class="cursor-pointer py-1 text-center text-xs text-primary-600 hover:underline dark:text-primary-400"
+										on:click|stopPropagation={(e) => openAllContentModal(dayContent, e)}
+									>
+										+{dayContent.length - 3} more
+									</div>
+								{/if}
+							</div>
+						{/if}
+					</div>
+				{/each}
+			</div>
+		</div>
+	{:else}
+		<!-- Week view -->
+		<div class="w-full overflow-x-auto">
+			<div class="min-w-[36rem] space-y-2">
+				{#each calendarDays as day}
+					{@const dayContent = filteredContentItems
+						.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
+						.sort(sortContentByDateTime)}
 
-									<!-- Right side: status and campaign badge -->
-									<div class="ml-2 flex flex-col items-end">
-										{#if item.status}
-											<Badge
-												class="max-[480px]:hidden"
-												color={item.status === 'published'
-													? 'green'
-													: item.status === 'scheduled'
-														? 'blue'
-														: item.status === 'pending'
-															? 'yellow'
-															: 'gray'}
-												size="sm"
-											>
-												{item.status}
-											</Badge>
-										{/if}
+					<div class="flex flex-col">
+						<div class="mb-2 flex items-center">
+							<div
+								class="text-sm font-bold {day.toDateString() === todayDate.toDateString()
+									? 'text-blue-600 dark:text-blue-300'
+									: ''}"
+							>
+								{getFormattedDay(day)}
+							</div>
 
-										{#if item.campaign_id}
-											{@const campaign = campaigns.find((c) => c.id === item.campaign_id)}
-											{#if campaign}
+							{#if day.toDateString() === todayDate.toDateString()}
+								<Badge color="blue" class="ml-2">Today</Badge>
+							{/if}
+
+							<Button
+								size="xs"
+								color="alternative"
+								class="ml-auto"
+								on:click={() => openCreateModal(day)}
+							>
+								Add
+							</Button>
+						</div>
+
+						{#if dayContent.length > 0}
+							<div class="space-y-2 rounded-lg border bg-white p-2 dark:bg-gray-800">
+								{#each dayContent as item (item.id)}
+									<div
+										class="flex cursor-pointer items-center rounded-lg p-2 transition-all hover:shadow-md"
+										style="background-color: {getCampaignColor(item.campaign_id)}15;"
+										on:click={() => openContentEditor(item)}
+									>
+										<!-- Left side: time and platform -->
+										<div class="mr-3 flex flex-col items-center border-r pr-3">
+											<div class="text-sm font-bold">
+												{new Date(item.scheduled_date).toLocaleTimeString([], {
+													hour: '2-digit',
+													minute: '2-digit'
+												})}
+											</div>
+
+											{#if item.platform}
 												<div
-													class="mt-1 rounded-full px-2 py-1 text-xs"
-													style="background-color: {campaign.color}; color: white;"
+													style="color: {platformColors[item.platform.toLowerCase()] ||
+														platformColors.default};"
 												>
-													{campaign.name}
+													{@html getPlatformIcon(item.platform)}
 												</div>
 											{/if}
-										{/if}
+										</div>
+
+										<!-- Middle: content text -->
+										<div class="flex-grow">
+											<div class="text-sm">
+												{item.content_text}
+											</div>
+
+											{#if item.content_hashtags}
+												<div class="mt-1 text-xs text-gray-500 dark:text-gray-400">
+													{item.content_hashtags}
+												</div>
+											{/if}
+										</div>
+
+										<!-- Right side: status and campaign badge -->
+										<div class="ml-2 flex flex-col items-end">
+											{#if item.status}
+												<Badge
+													class="max-[480px]:hidden"
+													color={item.status === 'published'
+														? 'green'
+														: item.status === 'scheduled'
+															? 'blue'
+															: item.status === 'pending'
+																? 'yellow'
+																: 'gray'}
+													size="sm"
+												>
+													{item.status}
+												</Badge>
+											{/if}
+
+											{#if item.campaign_id}
+												{@const campaign = campaigns.find((c) => c.id === item.campaign_id)}
+												{#if campaign}
+													<div
+														class="mt-1 rounded-full px-2 py-1 text-xs"
+														style="background-color: {campaign.color}; color: white;"
+													>
+														{campaign.name}
+													</div>
+												{/if}
+											{/if}
+										</div>
 									</div>
-								</div>
-							{/each}
-						</div>
-					{:else}
-						<div
-							class="rounded-lg border border-dashed bg-gray-50 p-4 text-center text-gray-500 dark:bg-gray-800 dark:text-gray-400"
-						>
-							No content scheduled for this day
-						</div>
-					{/if}
-				</div>
-			{/each}
+								{/each}
+							</div>
+						{:else}
+							<div
+								class="rounded-lg border border-dashed bg-gray-50 p-4 text-center text-gray-500 dark:bg-gray-800 dark:text-gray-400"
+							>
+								No content scheduled for this day
+							</div>
+						{/if}
+					</div>
+				{/each}
 			</div>
 		</div>
 	{/if}
@@ -612,7 +614,12 @@
 	{/if}
 </Modal>
 
-<Modal bind:open={showCreateModal} size="xl" autoclose={false} class="w-full max-w-3xl px-2 sm:px-0">
+<Modal
+	bind:open={showCreateModal}
+	size="xl"
+	autoclose={false}
+	class="w-full max-w-3xl px-2 sm:px-0"
+>
 	<h2 class="mb-4 text-2xl font-bold">Create Content</h2>
 	{#if selectedDate}
 		<CreateContent
@@ -625,7 +632,12 @@
 	{/if}
 </Modal>
 
-<Modal bind:open={showAllContentModal} size="lg" autoclose={false} class="w-full max-w-2xl px-2 sm:px-0">
+<Modal
+	bind:open={showAllContentModal}
+	size="lg"
+	autoclose={false}
+	class="w-full max-w-2xl px-2 sm:px-0"
+>
 	<h2 class="mb-4 text-2xl font-bold">
 		All Content for {selectedDayContent.length > 0
 			? new Date(selectedDayContent[0].scheduled_date).toLocaleDateString()

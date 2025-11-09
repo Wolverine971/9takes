@@ -163,26 +163,26 @@
 
 ## 📊 TRACKING SHEET - UPDATED OCT 23, 2025
 
-| Page           | Current Clicks | Target Clicks | Priority | Status   | Completed           |
-| -------------- | -------------- | ------------- | -------- | -------- | ------------------- |
-| Type 1         | 1              | 10+           | HIGH     | ✅ DONE  | Oct 23 - Title/QA/FAQ |
-| Type 2         | 1              | 10+           | HIGH     | ✅ DONE  | Oct 23 - Title/QA/FAQ |
-| Type 3         | 3              | 15+           | HIGH     | ✅ DONE  | Oct 23 - Title/QA/FAQ |
-| Type 4         | 0              | 8+            | HIGH     | ✅ DONE  | Previous optimization |
-| Type 5         | 5              | 10+           | MEDIUM   | ✅ DONE  | Oct 23 - Title/QA/FAQ |
-| Type 6         | 1              | 10+           | HIGH     | ✅ DONE  | Oct 23 - Title/QA/FAQ |
-| Type 7         | 2              | 10+           | HIGH     | ✅ DONE  | Oct 23 - Title/QA/FAQ |
-| Type 8         | 2              | 10+           | HIGH     | ✅ DONE  | Oct 23 - Title/QA/FAQ |
-| Type 9         | 5              | 10+           | MEDIUM   | ✅ DONE  | Oct 23 - Title/QA/FAQ |
-| Wings          | 0              | 15+           | CRITICAL | ✅ DONE  | Previous - Title/QA |
-| Anxiety        | 0              | 10+           | CRITICAL | ✅ DONE  | Previous - Title/QA |
-| Strengths      | 8              | 25+           | HIGH     | ✅ DONE  | Previous - Title/QA |
-| Stress         | 2              | 20+           | HIGH     | ✅ DONE  | Oct 23 - Title/QA/Table |
-| Ghosting       | 1              | 3+            | MEDIUM   | ✅ DONE  | Oct 23 - Flip/QA/Table |
-| Party          | 9              | 12+           | LOW      | ✅ DONE  | Oct 23 - QA/Table |
-| Mental Health  | 147            | 200+          | ENHANCE  | ✅ DONE  | Oct 23 - Table added |
-| Toxic Traits   | 42             | 60+           | ENHANCE  | ✅ DONE  | Oct 23 - QA/Table |
-| Astrology      | 31             | 45+           | ENHANCE  | ✅ DONE  | Oct 23 - FAQ schema updated |
+| Page          | Current Clicks | Target Clicks | Priority | Status  | Completed                   |
+| ------------- | -------------- | ------------- | -------- | ------- | --------------------------- |
+| Type 1        | 1              | 10+           | HIGH     | ✅ DONE | Oct 23 - Title/QA/FAQ       |
+| Type 2        | 1              | 10+           | HIGH     | ✅ DONE | Oct 23 - Title/QA/FAQ       |
+| Type 3        | 3              | 15+           | HIGH     | ✅ DONE | Oct 23 - Title/QA/FAQ       |
+| Type 4        | 0              | 8+            | HIGH     | ✅ DONE | Previous optimization       |
+| Type 5        | 5              | 10+           | MEDIUM   | ✅ DONE | Oct 23 - Title/QA/FAQ       |
+| Type 6        | 1              | 10+           | HIGH     | ✅ DONE | Oct 23 - Title/QA/FAQ       |
+| Type 7        | 2              | 10+           | HIGH     | ✅ DONE | Oct 23 - Title/QA/FAQ       |
+| Type 8        | 2              | 10+           | HIGH     | ✅ DONE | Oct 23 - Title/QA/FAQ       |
+| Type 9        | 5              | 10+           | MEDIUM   | ✅ DONE | Oct 23 - Title/QA/FAQ       |
+| Wings         | 0              | 15+           | CRITICAL | ✅ DONE | Previous - Title/QA         |
+| Anxiety       | 0              | 10+           | CRITICAL | ✅ DONE | Previous - Title/QA         |
+| Strengths     | 8              | 25+           | HIGH     | ✅ DONE | Previous - Title/QA         |
+| Stress        | 2              | 20+           | HIGH     | ✅ DONE | Oct 23 - Title/QA/Table     |
+| Ghosting      | 1              | 3+            | MEDIUM   | ✅ DONE | Oct 23 - Flip/QA/Table      |
+| Party         | 9              | 12+           | LOW      | ✅ DONE | Oct 23 - QA/Table           |
+| Mental Health | 147            | 200+          | ENHANCE  | ✅ DONE | Oct 23 - Table added        |
+| Toxic Traits  | 42             | 60+           | ENHANCE  | ✅ DONE | Oct 23 - QA/Table           |
+| Astrology     | 31             | 45+           | ENHANCE  | ✅ DONE | Oct 23 - FAQ schema updated |
 
 ---
 
@@ -205,6 +205,7 @@
 ### 🟡 NEXT PRIORITY - Enhance Remaining Top Performer
 
 **Astrology Page** (31 clicks, 2,384 impressions - needs enhancement):
+
 - Add Quick Answer box
 - Create zodiac-to-Enneagram comparison table
 - Update FAQ schema with real queries
@@ -215,6 +216,7 @@
 ### 📝 FUTURE CONTENT CREATION (High Impact)
 
 #### Mental Health Expansion (Week 2-3):
+
 1. **"Enneagram and ADHD: Which Types Struggle Most"**
    - High search volume
    - Complement existing mental health content
@@ -231,6 +233,7 @@
    - Target: 30+ clicks/month
 
 #### Toxic/Shadow Series (Week 3-4):
+
 1. **"Red Flags You're Dating Each Enneagram Type"**
    - Extends toxic traits success
    - Dating angle = high search volume
@@ -251,12 +254,14 @@
 ### 📊 MONITORING (Week 1-2)
 
 **Immediate Actions**:
+
 1. Monitor Google Search Console for indexing (pages updated 2025-10-23)
 2. Test AI citations (ChatGPT, Perplexity, Claude)
 3. Check for featured snippet captures (tables are prime candidates)
 4. Track CTR improvements on type posts
 
 **Success Indicators**:
+
 - Type posts: 0-5 clicks → 5-10 clicks each
 - Stress page: 2 clicks → 15+ clicks
 - Mental illness: 147 → 180+ clicks
@@ -267,17 +272,20 @@
 ### 🎯 MONTH 1 GOALS
 
 **Traffic Targets**:
+
 - Overall traffic increase: 30-40%
 - Type posts combined: 50-80 clicks/month
 - Mental health cluster: 200+ clicks/month
 - Toxic/shadow cluster: 80+ clicks/month
 
 **AI Search Goals**:
+
 - Regular citations in ChatGPT/Perplexity
 - Featured snippets from comparison tables
 - "Quick Answer" boxes appearing in Google
 
 **Content Goals**:
+
 - 2-3 new high-value articles published
 - All existing content optimized for AI
 - Comparison tables on all high-traffic pages

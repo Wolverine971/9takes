@@ -137,7 +137,9 @@
 										<!-- <span>{subCategory.id}</span> -->
 										{subCategory.subcategory_name}
 									</p>
-									<ul class="mt-2 space-y-2 border-l border-neutral-200 pl-3 text-sm text-neutral-700">
+									<ul
+										class="mt-2 space-y-2 border-l border-neutral-200 pl-3 text-sm text-neutral-700"
+									>
 										{#if subCats[subCategory.id]}
 											{#each subCats[subCategory.id] as subSubCategory, i}
 												{#if findParent(subSubCategory.subcategory_id) && findParentCategory(subSubCategory.subcategory_id)}
@@ -145,7 +147,9 @@
 														{#each findParentCategory(subSubCategory.subcategory_id) as suuCategory}
 															{#if suuCategory?.tag_name === subSubCategory.subcategory_name && i === 0}
 																<li class="list-none">
-																	<p class="font-medium text-neutral-900">{suuCategory?.subcategory_name}</p>
+																	<p class="font-medium text-neutral-900">
+																		{suuCategory?.subcategory_name}
+																	</p>
 																	{#if subCats[suuCategory.id]}
 																		<ul class="mt-1 space-y-1 pl-4 text-sm text-neutral-700">
 																			{#each subCats[suuCategory.id] as scat}
@@ -157,7 +161,9 @@
 																						class="inline-flex items-center rounded-md border border-neutral-200 px-3 py-1 text-sm text-neutral-800 underline-offset-2 transition hover:text-primary-600"
 																					>
 																						<span class="text-center">{scat?.tag_name}</span>
-																						<span class="ml-2 text-xs text-neutral-500" title="question count"
+																						<span
+																							class="ml-2 text-xs text-neutral-500"
+																							title="question count"
 																							>({scat?.question_count > 1
 																								? `${scat?.question_count} questions`
 																								: '1 question'})</span
@@ -192,7 +198,9 @@
 										{/if}
 									</ul>
 
-									<ul class="mt-3 space-y-2 border-l border-dashed border-neutral-200 pl-4 text-sm text-neutral-700">
+									<ul
+										class="mt-3 space-y-2 border-l border-dashed border-neutral-200 pl-4 text-sm text-neutral-700"
+									>
 										{#each data?.rootCategories as sub}
 											{#if findParent(subCategory.id) && 1 === 5}
 												<li class="list-none">
@@ -213,7 +221,9 @@
 																	>
 																		<span class="text-center">{subSubCategory?.tag_name}</span>
 
-																		<span class="ml-2 text-xs text-neutral-500" title="question count"
+																		<span
+																			class="ml-2 text-xs text-neutral-500"
+																			title="question count"
 																			>({subSubCategory?.question_count > 1
 																				? `${subSubCategory?.question_count} questions`
 																				: '1 question'})</span

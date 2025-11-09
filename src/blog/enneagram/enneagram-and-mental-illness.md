@@ -90,17 +90,17 @@ In addition, we aim to address these topics with **sensitivity and inclusivity**
 
 ## Mental Health Risk Overview by Type
 
-| Type | Primary Vulnerabilities | Core Pattern | Warning Signs | When to Seek Help |
-|------|------------------------|--------------|---------------|-------------------|
-| **Type 1** | OCD, Depression, Eating Disorders | Perfectionism becomes paralyzing | Can't complete tasks due to perfectionism, extreme self-punishment, social withdrawal | When standards prevent basic functioning |
-| **Type 2** | Codependency, Histrionic Traits, Hypochondriasis | Helping becomes manipulation | Intense need to be indispensable, resentment when unappreciated, stalking behaviors | When relationships become coercive |
-| **Type 3** | Narcissistic Traits, Workaholism, Depression | Image becomes everything | Work addiction causing health issues, inability to stop achieving, identity crisis | When burnout causes physical symptoms |
-| **Type 4** | Depression, BPD Traits, Self-Harm | Emotions become identity | Romanticizing pain, self-destructive behaviors, reality distortion | When emotional intensity threatens safety |
-| **Type 5** | Schizoid Traits, Isolation, Psychotic Breaks | Withdrawal becomes psychosis | Complete social isolation, reality detachment, paranoid thinking | When losing touch with reality |
-| **Type 6** | Anxiety Disorders, Paranoia, Panic | Vigilance becomes paranoia | Constant catastrophizing, trust issues with everyone, panic attacks | When fear prevents daily functioning |
-| **Type 7** | Mania, Addiction, Impulsivity | Avoidance becomes chaos | Manic episodes, substance abuse, reckless behavior | When avoidance creates dangerous situations |
-| **Type 8** | Antisocial Traits, Rage, Violence | Control becomes domination | Frequent explosive anger, intimidation tactics, legal issues | When anger threatens others' safety |
-| **Type 9** | Dissociation, Depression, Self-Neglect | Peace becomes numbness | Complete emotional disconnection, severe self-neglect, passive suicidality | When numbness leads to self-harm through neglect |
+| Type       | Primary Vulnerabilities                          | Core Pattern                     | Warning Signs                                                                         | When to Seek Help                                |
+| ---------- | ------------------------------------------------ | -------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Type 1** | OCD, Depression, Eating Disorders                | Perfectionism becomes paralyzing | Can't complete tasks due to perfectionism, extreme self-punishment, social withdrawal | When standards prevent basic functioning         |
+| **Type 2** | Codependency, Histrionic Traits, Hypochondriasis | Helping becomes manipulation     | Intense need to be indispensable, resentment when unappreciated, stalking behaviors   | When relationships become coercive               |
+| **Type 3** | Narcissistic Traits, Workaholism, Depression     | Image becomes everything         | Work addiction causing health issues, inability to stop achieving, identity crisis    | When burnout causes physical symptoms            |
+| **Type 4** | Depression, BPD Traits, Self-Harm                | Emotions become identity         | Romanticizing pain, self-destructive behaviors, reality distortion                    | When emotional intensity threatens safety        |
+| **Type 5** | Schizoid Traits, Isolation, Psychotic Breaks     | Withdrawal becomes psychosis     | Complete social isolation, reality detachment, paranoid thinking                      | When losing touch with reality                   |
+| **Type 6** | Anxiety Disorders, Paranoia, Panic               | Vigilance becomes paranoia       | Constant catastrophizing, trust issues with everyone, panic attacks                   | When fear prevents daily functioning             |
+| **Type 7** | Mania, Addiction, Impulsivity                    | Avoidance becomes chaos          | Manic episodes, substance abuse, reckless behavior                                    | When avoidance creates dangerous situations      |
+| **Type 8** | Antisocial Traits, Rage, Violence                | Control becomes domination       | Frequent explosive anger, intimidation tactics, legal issues                          | When anger threatens others' safety              |
+| **Type 9** | Dissociation, Depression, Self-Neglect           | Peace becomes numbness           | Complete emotional disconnection, severe self-neglect, passive suicidality            | When numbness leads to self-harm through neglect |
 
 **Remember**: These are predispositions, not diagnoses. Anyone experiencing these warning signs should consult a mental health professional immediately.
 

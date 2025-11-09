@@ -37,17 +37,17 @@ At first glance, these systems might seem unrelated. However, many enthusiasts a
 
 One of the most common ways practitioners blend these systems is by associating each Enneagram type with a zodiac sign. Here's a comprehensive mapping:
 
-| Enneagram Type | Primary Zodiac | Ruling Planet | Alternative Signs | Core Connection | Key Overlap |
-|----------------|----------------|---------------|-------------------|-----------------|-------------|
-| **Type 1** - Perfectionist | Virgo | Mercury | Gemini, Capricorn | Critical eye, improvement focus | Detail-oriented, high standards, moral clarity |
-| **Type 2** - Helper | Cancer | Moon | Pisces | Nurturing instinct | Emotional sensitivity, caregiving, intuitive needs |
-| **Type 3** - Achiever | Leo | Sun | Aries | Success drive, image | Leadership, recognition seeking, performance mode |
-| **Type 4** - Individualist | Pisces | Neptune | Scorpio, Cancer | Emotional depth | Creativity, introspection, uniqueness seeking |
-| **Type 5** - Investigator | Aquarius | Uranus | Virgo | Intellectual pursuit | Analytical mind, independence, information gathering |
-| **Type 6** - Loyalist | Capricorn | Saturn | Cancer, Taurus | Security focus | Cautiousness, responsibility, trust issues |
-| **Type 7** - Enthusiast | Sagittarius | Jupiter | Gemini, Aquarius | Freedom seeking | Optimism, adventure, possibility thinking |
-| **Type 8** - Challenger | Aries | Mars | Scorpio, Leo | Power assertion | Intensity, control needs, protective instincts |
-| **Type 9** - Peacemaker | Taurus | Venus | Libra, Pisces | Harmony desire | Stability seeking, conflict avoidance, diplomatic nature |
+| Enneagram Type             | Primary Zodiac | Ruling Planet | Alternative Signs | Core Connection                 | Key Overlap                                              |
+| -------------------------- | -------------- | ------------- | ----------------- | ------------------------------- | -------------------------------------------------------- |
+| **Type 1** - Perfectionist | Virgo          | Mercury       | Gemini, Capricorn | Critical eye, improvement focus | Detail-oriented, high standards, moral clarity           |
+| **Type 2** - Helper        | Cancer         | Moon          | Pisces            | Nurturing instinct              | Emotional sensitivity, caregiving, intuitive needs       |
+| **Type 3** - Achiever      | Leo            | Sun           | Aries             | Success drive, image            | Leadership, recognition seeking, performance mode        |
+| **Type 4** - Individualist | Pisces         | Neptune       | Scorpio, Cancer   | Emotional depth                 | Creativity, introspection, uniqueness seeking            |
+| **Type 5** - Investigator  | Aquarius       | Uranus        | Virgo             | Intellectual pursuit            | Analytical mind, independence, information gathering     |
+| **Type 6** - Loyalist      | Capricorn      | Saturn        | Cancer, Taurus    | Security focus                  | Cautiousness, responsibility, trust issues               |
+| **Type 7** - Enthusiast    | Sagittarius    | Jupiter       | Gemini, Aquarius  | Freedom seeking                 | Optimism, adventure, possibility thinking                |
+| **Type 8** - Challenger    | Aries          | Mars          | Scorpio, Leo      | Power assertion                 | Intensity, control needs, protective instincts           |
+| **Type 9** - Peacemaker    | Taurus         | Venus         | Libra, Pisces     | Harmony desire                  | Stability seeking, conflict avoidance, diplomatic nature |
 
 **Important Note**: These associations represent common patterns practitioners observe, but they're not fixed rules. Your Enneagram type and zodiac sign may differ—both systems measure different aspects of personality.
 

@@ -55,17 +55,17 @@ Let's rip off the band-aid and explore what makes each type potentially unbearab
 
 ## Toxic Traits Red Flags by Type
 
-| Type | Primary Toxic Behavior | What They Do | Why They Do It | Red Flag Warning | When to Walk Away |
-|------|----------------------|--------------|----------------|------------------|-------------------|
-| **Type 1** | Judgmental Criticism | Nitpick everything, silent punishment, moral superiority | Fear of being corrupt or bad | "I would never do that" statements | When nothing you do is ever good enough |
-| **Type 2** | Manipulative Helping | Give with strings attached, guilt-tripping, boundary violations | Fear of being unlovable | "After all I've done for you..." | When help feels like emotional hostage-taking |
-| **Type 3** | Image Deception | Lie about accomplishments, use people as props, fake authenticity | Fear of being worthless | Everything is a performance | When you realize you don't know the real them |
-| **Type 4** | Emotional Manipulation | Weaponize vulnerability, create drama, victim mentality | Fear of being ordinary | "You wouldn't understand my pain" | When their crisis becomes your constant responsibility |
-| **Type 5** | Cold Withdrawal | Complete emotional unavailability, hoarding resources, condescension | Fear of being incompetent | Intellectually superior attitude | When they make you feel stupid for having needs |
-| **Type 6** | Paranoid Projection | Constant suspicion, test loyalty, catastrophize | Fear of being without support | "I knew you couldn't be trusted" | When you're constantly defending your loyalty |
-| **Type 7** | Selfish Escapism | Avoid responsibility, commitment-phobia, blame others | Fear of being trapped in pain | "This is getting too heavy" then disappears | When fun is mandatory and depth is forbidden |
-| **Type 8** | Dominating Intimidation | Bulldoze boundaries, explosive anger, control everything | Fear of being controlled | "My way or the highway" | When disagreement triggers aggression |
-| **Type 9** | Passive-Aggressive Neglect | Stubborn silence, avoid conflict through withdrawal, forget your needs | Fear of conflict/separation | "I'm fine" (they're not fine) | When their peace requires your self-erasure |
+| Type       | Primary Toxic Behavior     | What They Do                                                           | Why They Do It                | Red Flag Warning                            | When to Walk Away                                      |
+| ---------- | -------------------------- | ---------------------------------------------------------------------- | ----------------------------- | ------------------------------------------- | ------------------------------------------------------ |
+| **Type 1** | Judgmental Criticism       | Nitpick everything, silent punishment, moral superiority               | Fear of being corrupt or bad  | "I would never do that" statements          | When nothing you do is ever good enough                |
+| **Type 2** | Manipulative Helping       | Give with strings attached, guilt-tripping, boundary violations        | Fear of being unlovable       | "After all I've done for you..."            | When help feels like emotional hostage-taking          |
+| **Type 3** | Image Deception            | Lie about accomplishments, use people as props, fake authenticity      | Fear of being worthless       | Everything is a performance                 | When you realize you don't know the real them          |
+| **Type 4** | Emotional Manipulation     | Weaponize vulnerability, create drama, victim mentality                | Fear of being ordinary        | "You wouldn't understand my pain"           | When their crisis becomes your constant responsibility |
+| **Type 5** | Cold Withdrawal            | Complete emotional unavailability, hoarding resources, condescension   | Fear of being incompetent     | Intellectually superior attitude            | When they make you feel stupid for having needs        |
+| **Type 6** | Paranoid Projection        | Constant suspicion, test loyalty, catastrophize                        | Fear of being without support | "I knew you couldn't be trusted"            | When you're constantly defending your loyalty          |
+| **Type 7** | Selfish Escapism           | Avoid responsibility, commitment-phobia, blame others                  | Fear of being trapped in pain | "This is getting too heavy" then disappears | When fun is mandatory and depth is forbidden           |
+| **Type 8** | Dominating Intimidation    | Bulldoze boundaries, explosive anger, control everything               | Fear of being controlled      | "My way or the highway"                     | When disagreement triggers aggression                  |
+| **Type 9** | Passive-Aggressive Neglect | Stubborn silence, avoid conflict through withdrawal, forget your needs | Fear of conflict/separation   | "I'm fine" (they're not fine)               | When their peace requires your self-erasure            |
 
 **Remember**: Everyone displays these traits under stress. Consistent patterns indicate unhealthy coping—not permanent character.
 

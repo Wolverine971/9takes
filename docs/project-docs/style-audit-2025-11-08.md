@@ -6,15 +6,15 @@ This document captures the current state of the design system, identifies the bi
 
 ## 1. Stack & Inventory Snapshot
 
-| Area | Current State | Notes |
-| --- | --- | --- |
-| Framework | SvelteKit + mdsvex + Tailwind 3.4 + Flowbite (`tailwind.config.ts:1`) | Flowbite utilities are available but lightly used. |
-| Global styles | `src/app.scss:1` imports Tailwind layers plus `src/scss/index.scss` (1,054 lines), `components.scss` (1,335 lines) and `blog.scss` (332 lines). | Every Svelte `<style lang="scss">` automatically inherits these via the SCSS `prependData` hook in `svelte.config.js:9`. |
-| Legacy CSS | `src/app.postcss:1` + `src/global.postcss:1` still ship a conflicting dark theme; nothing imports them anymore. | Safe to archive once the Tailwind base covers required resets. |
-| Component styling | 201 Svelte files total, 135 still declare `<style>` blocks (Python audit). | Inline styles dominate long-form/blog components and admin surfaces. |
-| Custom SCSS helpers | Token + utility definitions live in `src/scss/index.scss:10` and `src/scss/components.scss:1` (`.btn-*`, `.card-base`, etc.). | Heavy use of `@extend` ties components to SCSS compilation order and hinders tree-shaking. |
-| Content overrides | `src/scss/blog.scss:10` rewrites anchor, heading, quote, checklist, and callout styles for every `.blog` wrapper. | Adds decorative arrows, extra spacing, and box shadows that fight density goals. |
-| Existing docs | `docs/CSS_STYLE_GUIDE.md:1` and `STYLE_AUDIT_REPORT.md:1` describe a previous purple/glass aesthetic. | Neither reflects the lean, high-density direction nor the current Tailwind palette. |
+| Area                | Current State                                                                                                                                   | Notes                                                                                                                    |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Framework           | SvelteKit + mdsvex + Tailwind 3.4 + Flowbite (`tailwind.config.ts:1`)                                                                           | Flowbite utilities are available but lightly used.                                                                       |
+| Global styles       | `src/app.scss:1` imports Tailwind layers plus `src/scss/index.scss` (1,054 lines), `components.scss` (1,335 lines) and `blog.scss` (332 lines). | Every Svelte `<style lang="scss">` automatically inherits these via the SCSS `prependData` hook in `svelte.config.js:9`. |
+| Legacy CSS          | `src/app.postcss:1` + `src/global.postcss:1` still ship a conflicting dark theme; nothing imports them anymore.                                 | Safe to archive once the Tailwind base covers required resets.                                                           |
+| Component styling   | 201 Svelte files total, 135 still declare `<style>` blocks (Python audit).                                                                      | Inline styles dominate long-form/blog components and admin surfaces.                                                     |
+| Custom SCSS helpers | Token + utility definitions live in `src/scss/index.scss:10` and `src/scss/components.scss:1` (`.btn-*`, `.card-base`, etc.).                   | Heavy use of `@extend` ties components to SCSS compilation order and hinders tree-shaking.                               |
+| Content overrides   | `src/scss/blog.scss:10` rewrites anchor, heading, quote, checklist, and callout styles for every `.blog` wrapper.                               | Adds decorative arrows, extra spacing, and box shadows that fight density goals.                                         |
+| Existing docs       | `docs/CSS_STYLE_GUIDE.md:1` and `STYLE_AUDIT_REPORT.md:1` describe a previous purple/glass aesthetic.                                           | Neither reflects the lean, high-density direction nor the current Tailwind palette.                                      |
 
 ---
 
@@ -70,17 +70,17 @@ This document captures the current state of the design system, identifies the bi
 
 ### 3.2 Tokens (Tailwind Theme Extensions)
 
-| Token | Value | Tailwind Usage |
-| --- | --- | --- |
-| `brand.purple` | `#6c5ce7` (current `primary.700`) | `text-brand-purple`, `bg-brand-purple`, `border-brand-purple` |
-| `brand.purpleDark` | `#4834d4` | Hover states, dark surfaces |
-| `brand.purpleLight` | `#a29bfe` | Subtle backgrounds, chips |
-| `neutral.900` | `#18191a` | Body text |
-| `neutral.700` | `#4b5563` | Secondary text |
-| `accent.gold` | `#d4af37` (Greek highlight) | Sparing highlight strokes |
-| `semantic.success` | `#00b894` | Success badges |
-| `semantic.warning` | `#fdcb6e` | Warning callouts |
-| `semantic.info` | `#74b9ff` | Info callouts |
+| Token               | Value                             | Tailwind Usage                                                |
+| ------------------- | --------------------------------- | ------------------------------------------------------------- |
+| `brand.purple`      | `#6c5ce7` (current `primary.700`) | `text-brand-purple`, `bg-brand-purple`, `border-brand-purple` |
+| `brand.purpleDark`  | `#4834d4`                         | Hover states, dark surfaces                                   |
+| `brand.purpleLight` | `#a29bfe`                         | Subtle backgrounds, chips                                     |
+| `neutral.900`       | `#18191a`                         | Body text                                                     |
+| `neutral.700`       | `#4b5563`                         | Secondary text                                                |
+| `accent.gold`       | `#d4af37` (Greek highlight)       | Sparing highlight strokes                                     |
+| `semantic.success`  | `#00b894`                         | Success badges                                                |
+| `semantic.warning`  | `#fdcb6e`                         | Warning callouts                                              |
+| `semantic.info`     | `#74b9ff`                         | Info callouts                                                 |
 
 Add these to `tailwind.config.ts:6` under `theme.extend.colors` and remove duplicated CSS variables once components finish migrating.
 
@@ -143,16 +143,16 @@ Typography:
 
 ## 5. Priority Fix List
 
-| Rank | Path | Issues | Recommended Action |
-| --- | --- | --- | --- |
-| 1 | `src/routes/blog/experiment/+page.svelte:2037` | 2,079-line page with bespoke `.row`, `.emotions-box`, undefined `var(--primary-700)`. | Break into mdsvex sections + shared components, move layout to Tailwind grids, drop custom variables. |
-| 2 | `src/routes/enneagram-corner/+page.svelte:312` | Large gradients, 2–4 rem padding, manual typography resets. | Rebuild hero/CTA using Tailwind containers, convert badges to card components, enforce new spacing scale. |
-| 3 | `src/lib/components/blog/EnneagramCategoryIntro.svelte:704` | Hard-coded headings, grid, overlays; duplicates CSS style guide. | Convert to Tailwind classes with responsive grid utilities and semantic tokens. |
-| 4 | `src/lib/components/blog/TableOfContents.svelte:663` | Fixed positioning, custom scrollbars, heavy `@extend`. | Replace with `sticky` sidebar, use utility classes for typography, expose config via props. |
-| 5 | `src/lib/components/marketing/Calendar.svelte:701` | Inline global overrides for Flowbite modals/buttons, heavy `!important`. | Wrap Flowbite calendar in Tailwind `@layer components`, rely on design tokens for badge colors. |
-| 6 | `src/lib/components/molecules/comment.scss:1` | 490 lines of SCSS for cards, avatars, actions. | Swap to Tailwind `flex`/`gap` utilities inside the Comments molecule and delete file. |
-| 7 | `src/scss/blog.scss:10` | Global anchor arrows, callouts, checklists tied to `.blog`. | Replace with mdsvex shortcodes + Tailwind components; remove file from `app.scss`. |
-| 8 | `src/routes/stories/enneagram-and-mental-illness/+page.svelte:98` | AMP-only CSS, divergent palette. | Create AMP-safe Tailwind preset (limited classes) or inline minimal CSS using shared tokens. |
+| Rank | Path                                                              | Issues                                                                                | Recommended Action                                                                                        |
+| ---- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 1    | `src/routes/blog/experiment/+page.svelte:2037`                    | 2,079-line page with bespoke `.row`, `.emotions-box`, undefined `var(--primary-700)`. | Break into mdsvex sections + shared components, move layout to Tailwind grids, drop custom variables.     |
+| 2    | `src/routes/enneagram-corner/+page.svelte:312`                    | Large gradients, 2–4 rem padding, manual typography resets.                           | Rebuild hero/CTA using Tailwind containers, convert badges to card components, enforce new spacing scale. |
+| 3    | `src/lib/components/blog/EnneagramCategoryIntro.svelte:704`       | Hard-coded headings, grid, overlays; duplicates CSS style guide.                      | Convert to Tailwind classes with responsive grid utilities and semantic tokens.                           |
+| 4    | `src/lib/components/blog/TableOfContents.svelte:663`              | Fixed positioning, custom scrollbars, heavy `@extend`.                                | Replace with `sticky` sidebar, use utility classes for typography, expose config via props.               |
+| 5    | `src/lib/components/marketing/Calendar.svelte:701`                | Inline global overrides for Flowbite modals/buttons, heavy `!important`.              | Wrap Flowbite calendar in Tailwind `@layer components`, rely on design tokens for badge colors.           |
+| 6    | `src/lib/components/molecules/comment.scss:1`                     | 490 lines of SCSS for cards, avatars, actions.                                        | Swap to Tailwind `flex`/`gap` utilities inside the Comments molecule and delete file.                     |
+| 7    | `src/scss/blog.scss:10`                                           | Global anchor arrows, callouts, checklists tied to `.blog`.                           | Replace with mdsvex shortcodes + Tailwind components; remove file from `app.scss`.                        |
+| 8    | `src/routes/stories/enneagram-and-mental-illness/+page.svelte:98` | AMP-only CSS, divergent palette.                                                      | Create AMP-safe Tailwind preset (limited classes) or inline minimal CSS using shared tokens.              |
 
 ---
 
