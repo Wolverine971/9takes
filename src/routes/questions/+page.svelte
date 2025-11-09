@@ -252,8 +252,7 @@
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
 	<div
-		class="mx-auto max-w-6xl overflow-x-hidden rounded-lg border border-neutral-200 bg-white p-2 shadow-md sm:p-4"
-		class:no-animation={!transitionEnabled}
+		class="mx-auto max-w-6xl overflow-x-hidden rounded-lg border border-neutral-200 bg-white p-2 shadow-md sm:overflow-visible sm:p-4"
 		in:fade={{ duration }}
 	>
 		<!-- Header Section -->
@@ -454,26 +453,3 @@
 		{/if}
 	</div>
 </ErrorBoundary>
-
-<style>
-	/* Reduced motion */
-	.no-animation * {
-		animation: none !important;
-		transition: none !important;
-	}
-
-	@media (prefers-reduced-motion: reduce) {
-		* {
-			animation: none !important;
-			transition: none !important;
-		}
-	}
-
-	/* Mobile responsive adjustments */
-	@media (max-width: 640px) {
-		/* Prevent horizontal scroll */
-		:global(body) {
-			overflow-x: hidden;
-		}
-	}
-</style>

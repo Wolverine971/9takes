@@ -17,6 +17,7 @@ pic: ''
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import Checklist from "$lib/components/blog/callouts/Checklist.svelte";
 </script>
 
 ## Quick Answer
@@ -273,60 +274,24 @@ These firsthand accounts illuminate the internal experience of Type 6s—reveali
 
 </section>
 
-<div class="checklist-container">
-  <h3 class="checklist-title">✅ Are You a Type 6? Self-Assessment Checklist</h3>
-  <div class="checklist-item">
-    <input type="checkbox" id="item1">
-    <label for="item1">You consistently find yourself playing out "what if" scenarios to prepare for potential problems.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item2">
-    <label for="item2">You value loyalty above almost all other qualities in relationships.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item3">
-    <label for="item3">You often find yourself torn between wanting guidance from authorities and questioning their judgments.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item4">
-    <label for="item4">You frequently seek reassurance or second opinions before making important decisions.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item5">
-    <label for="item5">You're often praised for your reliability and commitment to responsibilities.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item6">
-    <label for="item6">You can quickly identify potential problems in plans that others have overlooked.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item7">
-    <label for="item7">You tend to be skeptical of things that seem too good to be true.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item8">
-    <label for="item8">Under stress, you sometimes focus intensely on achievements or how you appear to others.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item9">
-    <label for="item9">You find comfort in routines, systems, and clear guidelines.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item10">
-    <label for="item10">You're particularly sensitive to inconsistencies in what people say versus what they do.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item11">
-    <label for="item11">You value having a trusted inner circle of friends or colleagues you can depend on.</label>
-  </div>
-  <div class="checklist-item">
-    <input type="checkbox" id="item12">
-    <label for="item12">You sometimes struggle with self-doubt despite evidence of your competence.</label>
-  </div>
-  <div class="results-section">
-    <p>If you checked 7 or more items, you likely have strong Type 6 patterns. Remember, everyone has aspects of each Enneagram type, but usually one or two types predominate in our personality structure.</p>
-  </div>
-</div>
+<Checklist
+  title="✅ Are You a Type 6? Self-Assessment Checklist"
+  items={[
+    `You consistently find yourself playing out "what if" scenarios to prepare for potential problems.`,
+    `You value loyalty above almost all other qualities in relationships.`,
+    `You often find yourself torn between wanting guidance from authorities and questioning their judgments.`,
+    `You frequently seek reassurance or second opinions before making important decisions.`,
+    `You're often praised for your reliability and commitment to responsibilities.`,
+    `You can quickly identify potential problems in plans that others have overlooked.`,
+    `You tend to be skeptical of things that seem too good to be true.`,
+    `Under stress, you sometimes focus intensely on achievements or how you appear to others.`,
+    `You find comfort in routines, systems, and clear guidelines.`,
+    `You're particularly sensitive to inconsistencies in what people say versus what they do.`,
+    `You value having a trusted inner circle of friends or colleagues you can depend on.`,
+    `You sometimes struggle with self-doubt despite evidence of your competence.`
+  ]}
+  note="If you checked seven or more items, you likely have strong Type 6 patterns. Everyone contains aspects of each Enneagram type, but one or two usually dominate our personality structure."
+/>
 
 <section class="section-content">
 

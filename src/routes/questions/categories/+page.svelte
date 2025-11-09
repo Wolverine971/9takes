@@ -118,47 +118,46 @@
 </svelte:head>
 
 <div>
-	<div class="container">
+	<div class="mx-auto flex max-w-4xl flex-col items-start gap-4 px-3">
 		<!-- <ul class=""> -->
 		<!-- Repeating list items for each number, skipping the ones in the 'skip' array -->
 		<!-- Manually expanded for demonstration based on the given start and count -->
 		<!-- You may need to manually adjust the numbers based on your specific requirements -->
-		<h1>Categorized Questions</h1>
+		<h1 class="text-2xl font-semibold text-neutral-900">Categorized Questions</h1>
 
 		{#each data?.rootCategories as category, index}
 			{#if category.parent_id === null}
-				<h3 style="text-align: start;">
+				<h3 class="mt-6 text-left text-lg font-semibold text-neutral-900">
 					{category.subcategory_name}
-					<ul>
+					<ul class="mt-2 space-y-2 text-left text-sm text-neutral-800">
 						{#each data?.rootCategories as subCategory}
 							{#if subCategory?.parent_id === category.id}
-								<li>
-									<p>
+								<li class="list-none text-left">
+									<p class="font-semibold text-neutral-900">
 										<!-- <span>{subCategory.id}</span> -->
 										{subCategory.subcategory_name}
 									</p>
-									<ul>
+									<ul class="mt-2 space-y-2 border-l border-neutral-200 pl-3 text-sm text-neutral-700">
 										{#if subCats[subCategory.id]}
 											{#each subCats[subCategory.id] as subSubCategory, i}
 												{#if findParent(subSubCategory.subcategory_id) && findParentCategory(subSubCategory.subcategory_id)}
-													<ul>
+													<ul class="space-y-1 border-l border-neutral-200 pl-3 text-sm">
 														{#each findParentCategory(subSubCategory.subcategory_id) as suuCategory}
 															{#if suuCategory?.tag_name === subSubCategory.subcategory_name && i === 0}
-																<li>
-																	<p>{suuCategory?.subcategory_name}</p>
+																<li class="list-none">
+																	<p class="font-medium text-neutral-900">{suuCategory?.subcategory_name}</p>
 																	{#if subCats[suuCategory.id]}
-																		<ul>
+																		<ul class="mt-1 space-y-1 pl-4 text-sm text-neutral-700">
 																			{#each subCats[suuCategory.id] as scat}
-																				<li>
+																				<li class="list-none">
 																					<a
 																						href={`/questions/categories/${scat?.tag_name
 																							.split(' ')
 																							.join('-')}`}
-																						class=""
+																						class="inline-flex items-center rounded-md border border-neutral-200 px-3 py-1 text-sm text-neutral-800 underline-offset-2 transition hover:text-primary-600"
 																					>
-																						<span style="text-align: center;">{scat?.tag_name}</span
-																						>
-																						<span title="question count"
+																						<span class="text-center">{scat?.tag_name}</span>
+																						<span class="ml-2 text-xs text-neutral-500" title="question count"
 																							>({scat?.question_count > 1
 																								? `${scat?.question_count} questions`
 																								: '1 question'})</span
@@ -173,16 +172,15 @@
 														{/each}
 													</ul>
 												{:else}
-													<li>
+													<li class="list-none">
 														<a
 															href={`/questions/categories/${subSubCategory?.tag_name
 																.split(' ')
 																.join('-')}`}
-															class=""
+															class="inline-flex items-center rounded-md border border-neutral-200 px-3 py-1 text-sm text-neutral-800 underline-offset-2 transition hover:text-primary-600"
 														>
-															<span style="text-align: center;">{subSubCategory?.tag_name}</span>
-															<!-- <span>{subSubCategory?.question_count}</span> -->
-															<span title="question count"
+															<span class="text-center">{subSubCategory?.tag_name}</span>
+															<span class="ml-2 text-xs text-neutral-500" title="question count"
 																>({subSubCategory?.question_count > 1
 																	? `${subSubCategory?.question_count} questions`
 																	: '1 question'})</span
@@ -194,31 +192,28 @@
 										{/if}
 									</ul>
 
-									<ul>
+									<ul class="mt-3 space-y-2 border-l border-dashed border-neutral-200 pl-4 text-sm text-neutral-700">
 										{#each data?.rootCategories as sub}
 											{#if findParent(subCategory.id) && 1 === 5}
-												<li>
-													<p>
+												<li class="list-none">
+													<p class="font-medium text-neutral-900">
 														<span>sub: {sub.id}</span>
 														{sub.subcategory_name}
 													</p>
-													<ul>
+													<ul class="mt-1 space-y-1 pl-4">
 														<!-- <pre>{JSON.stringify(subCats[sub.id])}</pre> -->
 														{#if subCats[sub.id]}
 															{#each subCats[sub.id] as subSubCategory}
-																<li>
+																<li class="list-none">
 																	<a
 																		href={`/questions/categories/${subSubCategory?.tag_name
 																			.split(' ')
 																			.join('-')}`}
-																		class=""
+																		class="inline-flex items-center rounded-md border border-neutral-200 px-3 py-1 text-sm text-neutral-800 underline-offset-2 transition hover:text-primary-600"
 																	>
-																		<span style="text-align: center;"
-																			>{subSubCategory?.tag_name}</span
-																		>
-																		<!-- <span>{subSubCategory?.question_count}</span> -->
+																		<span class="text-center">{subSubCategory?.tag_name}</span>
 
-																		<span title="question count"
+																		<span class="ml-2 text-xs text-neutral-500" title="question count"
 																			>({subSubCategory?.question_count > 1
 																				? `${subSubCategory?.question_count} questions`
 																				: '1 question'})</span
@@ -242,41 +237,3 @@
 		{/each}
 	</div>
 </div>
-
-<!-- select subcategoryTags.tagname, Count(*) as count from questions
-from subcategoryTags
-join questions on subcategoryTags.id = questions.subcategoryTagId
-
-D3 view 
-
-https://codepen.io/derekmorash/pen/jyMGaX -->
-<style lang="scss">
-	h3 {
-		margin: 0.2rem;
-		padding: 0.2rem;
-	}
-	:root {
-		--threeRoot: 1.73205080757; // sqrt(3);
-	}
-
-	// https://codepen.io/ichimonzi/
-	// pen/BaMvKJK
-
-	.container {
-		height: 100%;
-		max-width: 800px;
-		margin: 0 auto;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		padding: 0;
-	}
-
-	.list_link {
-		color: whitesmoke !important;
-	}
-	li {
-		list-style-type: none;
-		text-align: start;
-	}
-</style>

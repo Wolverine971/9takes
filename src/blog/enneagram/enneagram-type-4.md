@@ -17,6 +17,8 @@ pic: ''
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
+    import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
 </script>
 
 ## Quick Answer
@@ -267,19 +269,17 @@ In revealing panel discussions moderated by Enneagram expert Beatrice Chestnut, 
 
 One panelist articulated the **Complex Relationship with Emotions** that characterizes the Four experience: "I don't just feel sad sometimes—sadness feels like home to me. It's familiar territory that I know how to navigate. Happiness sometimes feels like a place I'm just visiting." This reflection highlights how Fours often develop a particular identification with certain emotional states, especially melancholy or longing. Rather than experiencing emotions as passing weather, they become integral rooms in their internal architecture.
 
-<div class="visual-metaphor">
-  <h4>🎨 The Emotional Palette</h4>
+<VisualMetaphor title="🎨 The Emotional Palette">
   <p>Type 4s work with emotions like artists with a distinctive palette—mixing subtle shades that others might not distinguish, creating depth through layers of feeling rather than simple primary colors, developing signature emotional tones that characterize their unique perspective, and finding beauty in combinations that might seem discordant to others.</p>
-</div>
+</VisualMetaphor>
 
 Several participants explored the **Tension Between Belonging and Difference** that creates distinctive patterns in their lives. "I simultaneously want to be seen as special and unique while also desperately wanting to belong," one explained. "It's like I'm standing at the window of a party, both proud of being outside and aching to be invited in." This paradoxical desire reflects the Four's fundamental architectural tension—creating spaces of uniqueness while simultaneously yearning for connection across those very boundaries.
 
 The discussion revealed how **Envy Functions** in the Four's experience—not as simple jealousy over possessions but as existential questioning. "When I see someone who seems effortlessly happy or at ease in the world, I don't just want what they have—I want to be what they are," one panelist shared. "It feels like they possess some essential quality that I'm missing." This perspective illuminates how envy for Fours connects to their core fear of lacking something fundamental to wholeness.
 
-<div class="insight-box">
-  <h4>The Beauty in Brokenness</h4>
+<InsightBox title="The Beauty in Brokenness">
   <p>A distinctive pattern among many Type 4s is their ability to find meaning and beauty in imperfection—sensing the poignancy in flawed things that others might reject. This perspective connects to the Japanese concept of "wabi-sabi"—finding beauty in impermanence and imperfection—and allows Fours to discover value in aspects of experience that conventional viewpoints might overlook.</p>
-</div>
+</InsightBox>
 
 Panelists also discussed **Growth Strategies** that had proven effective in their personal development. "Learning to be present in ordinary moments was revolutionary for me," one shared. "I used to think meaningful experiences had to be dramatic or intense, but I've discovered depth in simplicity." Another emphasized the importance of action: "I've learned that feelings follow behavior more often than the reverse. When I wait to feel motivated before acting, I stay stuck. When I act despite not feeling ready, my emotions often catch up."
 

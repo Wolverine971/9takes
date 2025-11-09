@@ -17,6 +17,8 @@ pic: ''
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
+    import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
 </script>
 
 ## Quick Answer
@@ -288,20 +290,18 @@ In a revealing panel discussion moderated by Enneagram expert Beatrice Chestnut,
 
 Multiple participants describe the painful discovery that behind their helping lurked an unacknowledged belief: "No one can care for others quite as effectively as I can." This realization often marked a crucial turning point in their development journey.
 
-<div class="insight-box">
-  <h4>The Hidden Pride</h4>
+<InsightBox title="The Hidden Pride">
   <p>What makes the Type 2's pride particularly challenging to recognize is its counterintuitive manifestation. Unlike conventional pride that openly celebrates personal accomplishments, their pride disguises itself as humility and service. This subtle masking explains why many Twos experience genuine shock when first recognizing the prideful elements within their helping patterns—they've confused self-sacrifice with selflessness, not realizing how their indispensability beliefs actually reflect a form of inflated self-importance.</p>
-</div>
+</InsightBox>
 
 **The Subtle Control Dynamic**  
 Several panelists share insights about recognizing previously unconscious manipulative patterns in their helping behavior. "I believed I was being purely supportive," one reflects, "until I realized I was subtly encouraging dependency to feel secure in the relationship."
 
 This control frequently manifests in nuanced ways—through unsolicited advice, creating situations where others rely on their assistance, or positioning themselves as essential in others' decision-making processes. Recognizing these patterns proves both challenging and liberating.
 
-<div class="visual-metaphor">
-  <h4>🎭 The Invisible Puppeteer</h4>
+<VisualMetaphor title="🎭 The Invisible Puppeteer">
   <p>Many Type 2s eventually discover a shadow aspect of their helping nature that resembles an invisible puppeteer—subtly influencing others' choices through strategic support and withdrawal, orchestrating relationships from behind the scenes while appearing to simply respond to needs, maintaining control through seemingly selfless actions, and experiencing both guilt and relief when recognizing this previously unconscious pattern.</p>
-</div>
+</VisualMetaphor>
 
 **The Unacknowledged Emotional Undercurrent**  
 "There's so much unprocessed sadness beneath the surface," reveals another participant, describing the grief many Type 2s carry regarding not being truly seen or valued for themselves apart from what they provide. This sorrow often remains concealed beneath busy schedules of caring for others.
@@ -315,10 +315,9 @@ This control frequently manifests in nuanced ways—through unsolicited advice, 
 
 One describes the initially terrifying but ultimately essential process of asking, "What do I genuinely enjoy? What are my authentic preferences when I'm not adapting to someone else's needs or expectations?"
 
-<div class="insight-box">
-  <h4>The Self-Discovery Journey</h4>
+<InsightBox title="The Self-Discovery Journey">
   <p>For many Type 2s, personal development involves a particularly challenging self-discovery process because their authentic identity has become so thoroughly entangled with their helper role. Unlike some personality types who primarily need to polish or refine an existing self-concept, Twos often must engage in archaeological excavation—carefully uncovering layers of adaptation to reveal preferences, desires, and feelings that have been buried beneath years of focus on others' needs.</p>
-</div>
+</InsightBox>
 
 **The Relationship Transformation**  
 Multiple participants articulate their journey toward healthier relationship patterns with remarkable clarity. "I operated as if love were a transaction—I provide care, you provide acceptance and security," explains one. "Learning that I'm inherently worthy of love regardless of what I provide has fundamentally transformed my relationships."

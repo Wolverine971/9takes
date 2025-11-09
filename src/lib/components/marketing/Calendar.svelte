@@ -384,10 +384,11 @@
 
 	<!-- Month View -->
 	{#if viewMode === 'month'}
-		<div class="grid grid-cols-7 gap-1 sm:gap-2">
-			{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day}
-				<div class="p-1 text-center text-xs font-bold sm:text-sm md:text-base">{day}</div>
-			{/each}
+		<div class="w-full overflow-x-auto">
+			<div class="min-w-[46rem] grid grid-cols-7 gap-1 sm:gap-2">
+				{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day}
+					<div class="p-1 text-center text-xs font-bold sm:text-sm md:text-base">{day}</div>
+				{/each}
 
 			{#each calendarDays as day}
 				<div
@@ -448,6 +449,7 @@
 									{#if item.status}
 										<div class="ml-1 flex-shrink-0">
 											<Badge
+												class="max-[480px]:hidden"
 												color={item.status === 'published'
 													? 'green'
 													: item.status === 'scheduled'
@@ -475,10 +477,12 @@
 					{/if}
 				</div>
 			{/each}
+			</div>
 		</div>
 	{:else}
 		<!-- Week view -->
-		<div class="flex flex-col space-y-2">
+		<div class="w-full overflow-x-auto">
+			<div class="min-w-[36rem] space-y-2">
 			{#each calendarDays as day}
 				{@const dayContent = filteredContentItems
 					.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
@@ -552,6 +556,7 @@
 									<div class="ml-2 flex flex-col items-end">
 										{#if item.status}
 											<Badge
+												class="max-[480px]:hidden"
 												color={item.status === 'published'
 													? 'green'
 													: item.status === 'scheduled'
@@ -589,11 +594,12 @@
 					{/if}
 				</div>
 			{/each}
+			</div>
 		</div>
 	{/if}
 </div>
 
-<Modal bind:open={showEditModal} size="xl" autoclose={false} class="w-full">
+<Modal bind:open={showEditModal} size="xl" autoclose={false} class="w-full max-w-3xl px-2 sm:px-0">
 	<h2 class="mb-4 mt-0 pb-0 pt-0 text-2xl font-bold">Edit Content</h2>
 	{#if selectedContent}
 		<ContentEditor
@@ -606,7 +612,7 @@
 	{/if}
 </Modal>
 
-<Modal bind:open={showCreateModal} size="xl" autoclose={false} class="w-full">
+<Modal bind:open={showCreateModal} size="xl" autoclose={false} class="w-full max-w-3xl px-2 sm:px-0">
 	<h2 class="mb-4 text-2xl font-bold">Create Content</h2>
 	{#if selectedDate}
 		<CreateContent
@@ -619,7 +625,7 @@
 	{/if}
 </Modal>
 
-<Modal bind:open={showAllContentModal} size="lg" autoclose={false} class="w-full">
+<Modal bind:open={showAllContentModal} size="lg" autoclose={false} class="w-full max-w-2xl px-2 sm:px-0">
 	<h2 class="mb-4 text-2xl font-bold">
 		All Content for {selectedDayContent.length > 0
 			? new Date(selectedDayContent[0].scheduled_date).toLocaleDateString()
@@ -697,96 +703,3 @@
 		{/each}
 	</div>
 </Modal>
-
-<style>
-	/* Calendar container */
-	.calendar-container {
-		width: 100%;
-		overflow-x: auto;
-		overflow-y: hidden;
-		-webkit-overflow-scrolling: touch;
-	}
-
-	/* Custom styling for content items */
-	:global(.item-color) {
-		color: white;
-		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-	}
-
-	/* Platform icon styling on mobile */
-	@media (max-width: 640px) {
-		:global(.calendar-container svg) {
-			width: 10px !important;
-			height: 10px !important;
-		}
-	}
-
-	/* Small mobile optimizations (below 480px) */
-	@media (max-width: 480px) {
-		/* Calendar grid adjustments */
-		:global(.calendar-container .grid) {
-			min-width: 280px;
-		}
-
-		/* Reduce all button sizes in calendar */
-		:global(.calendar-container button) {
-			padding: 0.25rem 0.5rem !important;
-			font-size: 0.75rem !important;
-		}
-
-		/* Select and input adjustments */
-		:global(.calendar-container select),
-		:global(.calendar-container input) {
-			font-size: 0.75rem !important;
-			padding: 0.375rem 0.5rem !important;
-		}
-
-		/* Badge adjustments */
-		:global(.calendar-container .badge) {
-			padding: 0 0.25rem !important;
-			font-size: 0.625rem !important;
-		}
-
-		:global(.modal-body) {
-			padding: 0.5rem !important;
-		}
-
-		:global(.modal-header) {
-			padding: 0.5rem !important;
-		}
-
-		/* Make modals full screen on very small devices */
-		:global(.modal) {
-			max-width: 100% !important;
-			margin: 0 !important;
-			min-height: 100vh;
-		}
-
-		/* Reduce spacing on mobile */
-		:global(.flowbite-modal) {
-			padding: 0 !important;
-		}
-
-		/* Hide status badges on very small screens to save space */
-		:global(.calendar-container .group .badge) {
-			display: none !important;
-		}
-	}
-
-	/* Mobile optimizations */
-	@media (max-width: 640px) {
-		:global(.modal-body) {
-			padding: 0.75rem !important;
-		}
-
-		:global(.modal-header) {
-			padding: 0.75rem !important;
-		}
-
-		/* Adjust button sizes */
-		:global(.btn-sm) {
-			padding: 0.25rem 0.5rem !important;
-			font-size: 0.75rem !important;
-		}
-	}
-</style>

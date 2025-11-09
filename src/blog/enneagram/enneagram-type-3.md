@@ -17,6 +17,7 @@ pic: ''
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
 </script>
 
 ## Quick Answer
@@ -289,10 +290,9 @@ Multiple panelists described profound disconnection from their emotional landsca
 
 This emotional blindspot creates specific vulnerability patterns where physical symptoms eventually demand attention when emotions are chronically ignored. "Migraines, back problems, digestive issues—all ways my emotions finally got my attention when I wouldn't listen to them directly."
 
-<div class="visual-metaphor">
-  <h4>🧠 The Efficiency Operating System</h4>
+<VisualMetaphor title="🧠 The Efficiency Operating System">
   <p>Type 3s process emotions through a sophisticated internal operating system—automatically categorizing feelings into "productive" vs. "unproductive" categories, efficiently allocating attention to emotions that support goals while minimizing those that might slow progress, creating workarounds for emotional processing that maintain productivity, and sometimes experiencing system crashes when deferred emotional maintenance reaches critical levels.</p>
-</div>
+</VisualMetaphor>
 
 **The Road to Wholeness**
 

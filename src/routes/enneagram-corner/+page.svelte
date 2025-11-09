@@ -184,17 +184,20 @@
 	]}
 />
 
-<main class="enneagram-corner-page">
-	<h1 class="text-start">Explore the Enneagram</h1>
+<main class="mx-auto w-full max-w-6xl px-4 py-10 md:py-12">
+	<h1 class="text-3xl font-semibold tracking-tight text-neutral-900 md:text-4xl">Explore the Enneagram</h1>
 
-	<nav aria-label="Table of Contents" class="nav-section">
-		<ul>
+	<nav aria-label="Table of Contents" class="mt-6 mb-10">
+		<ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
 			{#each blogSections as section}
 				<li>
-					<a href="#{section.id}">
-						<span class="nav-title">{section.title}</span>
+					<a
+						href="#{section.id}"
+						class="group flex h-full flex-col rounded-2xl border border-neutral-200/70 bg-white/90 p-4 text-left shadow-sm transition hover:-translate-y-1 hover:border-primary-400 hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+					>
+						<span class="text-base font-semibold text-neutral-900">{section.title}</span>
 						{#if section.subtitle}
-							<span class="nav-subtitle">{section.subtitle}</span>
+							<span class="mt-1 text-sm text-neutral-500">{section.subtitle}</span>
 						{/if}
 					</a>
 				</li>
@@ -203,59 +206,55 @@
 	</nav>
 
 	{#each blogSections as section}
-		<section aria-labelledby={section.id}>
-			<h2 id={section.id}>{section.title}</h2>
+		<section class="mb-12" aria-labelledby={section.id}>
+			<h2 id={section.id} class="text-2xl font-semibold text-neutral-900 md:text-3xl">{section.title}</h2>
 			{#if section.subtitle}
-				<p class="section-subtitle">{section.subtitle}</p>
+				<p class="mt-2 max-w-2xl text-sm leading-relaxed text-neutral-600">{section.subtitle}</p>
 			{/if}
-			<div class="blog-grid-container" class:nine-types={section.type === 'nine-types'}>
+			<div
+				class={`mt-6 grid gap-4 sm:grid-cols-2 ${
+					section.type === 'nine-types' ? 'md:grid-cols-3' : 'md:grid-cols-2 lg:grid-cols-3'
+				}`}
+			>
 				{#each data.enneagramBlogs
 					.filter((blog) => blog.type[0] === section.type)
 					.slice(0, section.type === 'nine-types' ? 9 : 5) as blog (blog.slug)}
-					<article class="grid-item" class:no-image={!blog.pic}>
+					<article>
 						<a
 							href="/enneagram-corner/{blog.slug}"
-							class="blog-link"
+							class="group relative block h-full overflow-hidden rounded-2xl border border-neutral-200/70 bg-neutral-900 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
 							data-tag={`h-blog-${formatBlogSlug(blog.title)}`}
 						>
-							<div
-								class="grid-item-content"
-								class:has-image={blog.pic}
-								style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
-							>
-								{#if !blog.pic}
-									<div class="pattern-overlay"></div>
+							{#if blog.pic}
+								<div
+									class="absolute inset-0 bg-cover bg-center transition group-hover:scale-[1.03]"
+									style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
+								></div>
+							{:else}
+								<div class="absolute inset-0 bg-gradient-to-br from-brand-purple to-brand-purpleDark opacity-90"></div>
+							{/if}
+							<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/5"></div>
+							<div class="relative z-10 flex h-full flex-col justify-end gap-2 p-4 text-white">
+								<h3 class="text-lg font-semibold leading-snug">{blog.title}</h3>
+								{#if section.type !== 'nine-types'}
+									<p class="text-sm leading-snug text-white/85">{blog.description}</p>
 								{/if}
-								<div class="text-overlay">
-									<h3>{blog.title}</h3>
-									{#if section.type !== 'nine-types'}
-										<p>{blog.description}</p>
-									{/if}
-								</div>
 							</div>
 						</a>
 					</article>
 				{/each}
 				{#if section.type !== 'nine-types'}
-					<div class="grid-item view-all">
+					<div class="h-full">
 						<a
 							href="/enneagram-corner/{section.type === 'mental-health'
 								? 'mental-health'
 								: `subtopic/${section.type}`}"
-							class="blog-link"
+							class="group flex h-full flex-col items-center justify-center rounded-2xl border border-white/10 bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 p-6 text-center text-white transition hover:-translate-y-1 hover:text-brand-purpleLight"
 						>
-							<div class="grid-item-content">
-								<div class="text-overlay">
-									<h3>
-										View All {section.linkTitle}
-										<ArrowRightIcon
-											iconStyle={'margin-left: .5rem'}
-											height={'1.5rem'}
-											fill={'white'}
-										/>
-									</h3>
-								</div>
-							</div>
+							<h3 class="flex items-center justify-center text-base font-semibold">
+								View All {section.linkTitle}
+								<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'currentColor'} />
+							</h3>
 						</a>
 					</div>
 				{/if}
@@ -264,487 +263,59 @@
 	{/each}
 </main>
 
-<div class="resources-footer">
-	<h2>Why Choose 9takes</h2>
-	<div class="difference-grid">
-		<div class="difference-item">
-			<h3>Deep Psychological Insights</h3>
-			<p>
-				Go beyond surface-level descriptions to understand the core motivations, fears, and desires
-				that shape each personality type.
-			</p>
-		</div>
-		<div class="difference-item">
-			<h3>Personalized Growth Strategies</h3>
-			<p>
-				Receive specific, actionable guidance tailored to your unique personality type and
-				individual growth path.
-			</p>
-		</div>
-		<div class="difference-item">
-			<h3>Research-Based Approach</h3>
-			<p>
-				Grounded in decades of psychological research and the work of leading Enneagram experts and
-				practitioners.
-			</p>
-		</div>
-		<div class="difference-item">
-			<h3>Practical Applications</h3>
-			<p>
-				Transform theory into practice with real-world examples, exercises, and tools for immediate
-				implementation.
-			</p>
-		</div>
+<section class="mx-auto mb-12 w-full max-w-6xl rounded-3xl bg-gradient-to-b from-neutral-900 to-neutral-950 px-6 py-10 text-white shadow-xl">
+	<h2 class="text-center text-3xl font-semibold">Why Choose 9takes</h2>
+	<div class="mt-8 grid gap-4 md:grid-cols-2">
+		{#each [
+			{
+				title: 'Deep Psychological Insights',
+				copy:
+					'Go beyond surface-level descriptions to understand the core motivations, fears, and desires that shape each personality type.'
+			},
+			{
+				title: 'Personalized Growth Strategies',
+				copy:
+					'Receive specific, actionable guidance tailored to your unique personality type and individual growth path.'
+			},
+			{
+				title: 'Research-Based Approach',
+				copy:
+					'Grounded in decades of psychological research and the work of leading Enneagram experts and practitioners.'
+			},
+			{
+				title: 'Practical Applications',
+				copy:
+					'Transform theory into practice with real-world examples, exercises, and tools for immediate implementation.'
+			}
+		] as item}
+			<article class="rounded-2xl border border-white/10 bg-white/5 p-5 shadow-sm transition hover:-translate-y-1 hover:bg-white/10">
+				<h3 class="text-lg font-semibold text-brand-purpleLight">{item.title}</h3>
+				<p class="mt-2 text-sm leading-relaxed text-white/80">{item.copy}</p>
+			</article>
+		{/each}
 	</div>
-	<div class="cta-section">
-		<h3>Start Your Enneagram Journey</h3>
-		<p>
-			Whether you're new to the Enneagram or deepening your understanding, we have resources to
-			support your growth.
+	<div class="mt-8 rounded-2xl border border-white/10 bg-white/5 p-6 text-center shadow-sm">
+		<h3 class="text-2xl font-semibold">Start Your Enneagram Journey</h3>
+		<p class="mt-2 text-base text-white/80">
+			Whether you're new to the Enneagram or deepening your understanding, we have resources to support your growth.
 		</p>
-		<div class="cta-buttons">
-			<a href="/enneagram-corner/subtopic/nine-types" class="cta-primary">Explore All 9 Types</a>
-			<a href="/enneagram-corner/subtopic/overview" class="cta-secondary">Learn the System</a>
+		<div class="mt-6 flex flex-wrap justify-center gap-3">
+			<a
+				href="/enneagram-corner/subtopic/nine-types"
+				class="inline-flex items-center rounded-full bg-brand-purple px-5 py-2 text-sm font-semibold text-white shadow-md transition hover:bg-brand-purpleDark"
+			>
+				Explore All 9 Types
+			</a>
+			<a
+				href="/enneagram-corner/subtopic/overview"
+				class="inline-flex items-center rounded-full border border-white/30 px-5 py-2 text-sm font-semibold text-white transition hover:border-white/80 hover:bg-white/10"
+			>
+				Learn the System
+			</a>
 		</div>
 	</div>
-</div>
+</section>
 
-<style lang="scss">
-	// Page-specific isolation wrapper
-	.enneagram-corner-page {
-		// Reset global styles that might interfere
-		article {
-			margin: 0;
-			padding: 0;
-			border-radius: 0;
-		}
-
-		a {
-			&::after {
-				display: none;
-			}
-		}
-
-		h1,
-		h2,
-		h3,
-		h4,
-		p {
-			margin-top: 0;
-			padding-top: 0;
-		}
-	}
-
-	h1 {
-		text-align: start;
-		margin: 2rem 0 2.5rem;
-		color: theme('colors.gray.700');
-		font-size: 2.5rem;
-		line-height: 1.3;
-		font-weight: 700;
-	}
-
-	.authority-section {
-		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
-
-		border-radius: 20px;
-		padding: 3rem;
-		margin: 2rem auto;
-		color: white;
-		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-
-		.intro-text {
-			font-size: 1.2rem;
-			line-height: 1.8;
-			margin-bottom: 1.5rem;
-
-			strong {
-				color: #a29bfe;
-				font-weight: 700;
-			}
-		}
-
-		.authority-badges {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-			gap: 1rem;
-			margin-top: 2rem;
-
-			.badge-item {
-				background: rgba(255, 255, 255, 0.1);
-				backdrop-filter: blur(10px);
-				padding: 1rem;
-				border-radius: 8px;
-				text-align: center;
-				border: 1px solid rgba(255, 255, 255, 0.2);
-				font-weight: 600;
-			}
-		}
-	}
-
-	.resources-footer {
-		background: linear-gradient(to bottom, #1a1a2e, #0f0f1e);
-		padding: 4rem;
-		margin-top: 4rem;
-		border-radius: 20px;
-		color: white;
-
-		h2 {
-			color: white;
-			font-size: 2.5rem;
-			margin-bottom: 2rem;
-			text-align: center;
-		}
-
-		.difference-grid {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-			gap: 2rem;
-			margin: 3rem 0;
-
-			.difference-item {
-				background: rgba(255, 255, 255, 0.05);
-				padding: 2rem;
-				border-radius: 12px;
-				border: 1px solid rgba(255, 255, 255, 0.1);
-				transition:
-					transform 0.3s ease,
-					background 0.3s ease;
-
-				&:hover {
-					transform: translateY(-5px);
-					background: rgba(255, 255, 255, 0.08);
-				}
-
-				h3 {
-					color: #a29bfe;
-					font-size: 1.25rem;
-					font-weight: 600;
-					margin-bottom: 1rem;
-				}
-
-				p {
-					line-height: 1.6;
-					opacity: 0.9;
-					font-size: 1rem;
-				}
-			}
-		}
-
-		.cta-section {
-			text-align: center;
-			padding: 3rem;
-			background: rgba(102, 126, 234, 0.1);
-			border-radius: 16px;
-			margin-top: 3rem;
-
-			h3 {
-				font-size: 2rem;
-				margin-bottom: 1rem;
-				color: white;
-				font-weight: 700;
-			}
-
-			p {
-				font-size: 1.1rem;
-				margin-bottom: 2rem;
-				opacity: 0.9;
-			}
-
-			.cta-buttons {
-				display: flex;
-				justify-content: center;
-				gap: 1rem;
-				flex-wrap: wrap;
-
-				a {
-					padding: 1rem 2rem;
-					border-radius: 8px;
-					text-decoration: none;
-					font-weight: 600;
-					transition: all 0.3s ease;
-
-					&.cta-primary {
-						background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-						color: white;
-
-						&:hover {
-							transform: scale(1.05);
-							box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
-						}
-					}
-
-					&.cta-secondary {
-						background: transparent;
-						color: white;
-						border: 2px solid rgba(255, 255, 255, 0.3);
-
-						&:hover {
-							background: rgba(255, 255, 255, 0.1);
-							border-color: rgba(255, 255, 255, 0.5);
-						}
-					}
-				}
-			}
-		}
-	}
-
-	nav {
-		margin: 0 0 3rem 0;
-		padding: 0;
-
-		h2 {
-			font-size: 2rem;
-			margin-bottom: 2rem;
-			text-align: center;
-			color: theme('colors.primary.600');
-		}
-
-		ul {
-			list-style-type: none;
-			padding: 0;
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-			gap: 1rem;
-		}
-
-		.nav-section,
-		ul {
-			margin: 0;
-			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			gap: 0.75rem;
-		}
-
-		li {
-			a {
-				display: block;
-				color: theme('colors.gray.700');
-				text-decoration: none;
-				padding: 1.5rem;
-				border-radius: 12px;
-				background-color: theme('colors.white');
-				border: 2px solid transparent;
-				transition: all 0.3s ease;
-
-				.nav-title {
-					display: block;
-					font-weight: 600;
-					font-size: 1.1rem;
-					margin-bottom: 0.5rem;
-				}
-
-				.nav-subtitle {
-					display: block;
-					font-size: 0.9rem;
-					opacity: 0.7;
-					line-height: 1.4;
-				}
-
-				&:hover,
-				&:focus {
-					border-color: theme('colors.primary.600');
-					transform: translateY(-3px);
-					box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-				}
-			}
-		}
-
-		// Mobile styles for 2-column grid
-		@media (max-width: 768px) {
-			li a {
-				padding: 1rem;
-
-				.nav-title {
-					font-size: 0.95rem;
-					margin-bottom: 0.25rem;
-				}
-
-				.nav-subtitle {
-					font-size: 0.8rem;
-					line-height: 1.3;
-				}
-			}
-		}
-
-		@media (max-width: 480px) {
-			ul {
-				grid-template-columns: repeat(2, 1fr);
-				gap: 0.5rem;
-			}
-
-			li a {
-				padding: 0.75rem;
-
-				.nav-title {
-					font-size: 0.9rem;
-				}
-
-				.nav-subtitle {
-					display: none; // Hide subtitle on very small screens for better readability
-				}
-			}
-		}
-	}
-
-	section {
-		margin: 0 0 3.5rem 0;
-		padding: 0;
-
-		h2 {
-			font-size: 1.875rem;
-			font-weight: 700;
-			margin: 0 0 0.75rem 0;
-			padding: 0;
-			color: #2d3436;
-			letter-spacing: -0.02em;
-		}
-
-		.section-subtitle {
-			font-size: 1.05rem;
-			opacity: 0.75;
-			margin: 0 0 1.5rem 0;
-			padding: 0;
-			color: #636e72;
-			max-width: 650px;
-			line-height: 1.6;
-		}
-	}
-
-	.blog-grid-container {
-		display: grid;
-		// grid-template-columns: repeat(2, 1fr);
-		grid-template-columns: repeat(3, minmax(300px, 1fr));
-
-		gap: 1.5rem;
-		margin: 0;
-		padding: 0;
-
-		// Regular sections always show 2 columns with 3 blogs + 1 view all = 4 items total (2x2)
-
-		&.nine-types {
-			grid-template-columns: repeat(3, 1fr);
-			gap: 1.25rem;
-
-			.grid-item {
-				aspect-ratio: 1 / 1;
-			}
-		}
-	}
-
-	.blog-grid-container .grid-item {
-		// Override global article styles
-		margin: 0 !important;
-		padding: 0 !important;
-		aspect-ratio: 3 / 4;
-		border-radius: 16px;
-		overflow: hidden;
-		position: relative;
-		background: linear-gradient(135deg, #2d3436 0%, #1a1a2e 100%);
-
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-		cursor: pointer;
-		border: 1px solid rgba(0, 0, 0, 0.06);
-
-		&:hover {
-			transform: translateY(-4px);
-			box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
-			border-color: rgba(108, 92, 231, 0.2);
-
-			.grid-item-content {
-				&::after {
-					transform: scale(1.05);
-				}
-			}
-
-			.text-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(0, 0, 0, 0.98) 0%,
-					rgba(0, 0, 0, 0.85) 50%,
-					rgba(0, 0, 0, 0.4) 100%
-				);
-			}
-
-			&.no-image {
-				background: linear-gradient(135deg, #1a1a2e 0%, #2d3436 100%);
-				border-color: rgba(255, 255, 255, 0.08);
-
-				.text-overlay {
-					background: transparent;
-				}
-
-				&:hover {
-					background: linear-gradient(135deg, #2d3436 0%, #3d4447 100%);
-				}
-			}
-		}
-	}
-
-	.blog-grid-container .blog-link {
-		display: block;
-		text-decoration: none !important;
-		color: inherit !important;
-		height: 100%;
-		width: 100%;
-
-		// Override global blog link styles
-		&::after {
-			display: none !important;
-		}
-
-		&:hover {
-			text-decoration: none !important;
-			color: inherit !important;
-		}
-	}
-
-	.grid-item-content {
-		height: 100%;
-		width: 100%;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		position: relative;
-		display: flex;
-		align-items: flex-end;
-
-		&.has-image::after {
-			content: '';
-			position: absolute;
-			inset: 0;
-			background: inherit;
-			background-size: inherit;
-			background-position: inherit;
-			transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-			z-index: 0;
-		}
-
-		&:not(.has-image) {
-			background: transparent;
-		}
-	}
-
-	.pattern-overlay {
-		position: absolute;
-		inset: 0;
-		background-image:
-			linear-gradient(45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%),
-			linear-gradient(-45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%),
-			linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.02) 75%),
-			linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.02) 75%);
-		background-size: 30px 30px;
-		background-position:
-			0 0,
-			0 15px,
-			15px -15px,
-			-15px 0px;
-		opacity: 1;
-		z-index: 1;
-	}
-
-	.text-overlay {
 		position: absolute;
 		bottom: 0;
 		left: 0;

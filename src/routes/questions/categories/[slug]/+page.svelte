@@ -123,7 +123,11 @@
 	/>
 
 	<div class="max-w-2xl p-2">
-		<h1 class="question-box" id="question-box" itemprop="name">
+		<h1
+			class="m-1 w-full rounded-lg text-left text-xl font-semibold text-neutral-900"
+			id="question-box"
+			itemprop="name"
+		>
 			{data?.questionTag?.category_name}
 		</h1>
 		{#each hierarchicalData as category (category.id)}
@@ -177,18 +181,3 @@
 		</div>
 	{/if}
 </div>
-
-<style lang="scss">
-	.question-box {
-		width: -webkit-fill-available;
-		border-radius: var(--base-border-radius);
-		text-align: start;
-		// height: 24px;
-		// padding: 0.5rem 1rem;
-		color: var(--darkest-gray);
-		font-size: 1.2rem;
-		// box-sizing: content-box;
-
-		margin: 0.25rem;
-	}
-</style>

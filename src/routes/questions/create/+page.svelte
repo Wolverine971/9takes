@@ -242,27 +242,39 @@
 	}
 </script>
 
-<div class="question-container" in:fade={{ duration: 300 }}>
-	<h1 in:fly={{ y: -20, duration: 300, delay: 150 }}>Spark a Conversation</h1>
-	<p class="subtitle" in:fly={{ y: -20, duration: 300, delay: 200 }}>
+<div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-0" in:fade={{ duration: 300 }}>
+	<h1
+		class="text-center text-3xl font-semibold text-primary-700 sm:text-4xl"
+		in:fly={{ y: -20, duration: 300, delay: 150 }}
+	>
+		Spark a Conversation
+	</h1>
+	<p
+		class="mt-2 text-center text-base text-neutral-600 sm:text-lg"
+		in:fly={{ y: -20, duration: 300, delay: 200 }}
+	>
 		Your question could lead to fascinating insights. What would you like to explore today?
 	</p>
-	<div class="question-box" in:fly={{ y: 20, duration: 300, delay: 300 }}>
+	<div
+		class="mt-6 rounded-2xl border border-neutral-200 bg-neutral-50 p-5 shadow-md transition hover:shadow-lg sm:p-8"
+		in:fly={{ y: 20, duration: 300, delay: 300 }}
+	>
 		<textarea
 			rows="4"
 			name="question"
 			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
-			class="question-textarea noticia-text-regular"
+			class="noticia-text-regular w-full rounded-2xl border-2 border-neutral-200 bg-white p-4 text-lg text-neutral-900 shadow-sm transition focus:border-primary-600 focus:outline-none focus:ring-4 focus:ring-primary-100"
 			bind:value={question}
 			on:input={handleInput}
 			maxlength={MAX_CHAR_COUNT}
 		/>
-		<div class="char-count {questionCharCount > MAX_CHAR_COUNT ? 'error' : ''}">
+		<div
+			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT ? 'text-error-500' : 'text-neutral-500'}`}
+		>
 			{questionCharCount}/{MAX_CHAR_COUNT} characters
 		</div>
 		<button
-			class="btn btn-primary submit-btn"
-			class:disabled={!isQuestionValid}
+			class="inline-flex w-full items-center justify-center rounded-full bg-primary-700 px-5 py-3 text-base font-semibold text-white transition hover:bg-primary-800 disabled:cursor-not-allowed disabled:opacity-60"
 			disabled={!isQuestionValid}
 			on:click={getUrl}
 			type="button"
@@ -270,7 +282,10 @@
 			Launch Your Question
 		</button>
 	</div>
-	<p class="encouragement" in:fly={{ y: 20, duration: 300, delay: 400 }}>
+	<p
+		class="mt-6 text-center text-base italic text-neutral-600"
+		in:fly={{ y: 20, duration: 300, delay: 400 }}
+	>
 		Great questions lead to great conversations. Your unique perspective matters!
 	</p>
 
@@ -278,17 +293,19 @@
 </div>
 
 <Modal2 id="question-create" name="create question">
-	<div class="modal-content" in:fade={{ duration: 300 }}>
-		<h2>Create Question</h2>
-		<br />
+	<div
+		class="w-full max-w-2xl rounded-3xl border border-neutral-100 bg-white p-6 text-neutral-900 shadow-xl sm:p-8"
+		in:fade={{ duration: 300 }}
+	>
+		<h2 class="mt-0 text-2xl font-semibold text-primary-700">Create Question</h2>
 
-		<div class="question-preview" id="question-pic">
+		<div class="mt-4 rounded-2xl border border-primary-200 bg-neutral-50 p-4" id="question-pic">
 			<!-- <h3 id="question-pic" class="question-text noticia-text-regular">{question}</h3> -->
 			<QuestionDisplay question={{ id: '', url: '', question, question_formatted: '' }} />
-			<p class="url-display">
-				<strong class="question-text" style="font-weight: bolder; font-size: larger;"
-					>https://9takes.com/questions/{url}</strong
-				>
+			<p class="mt-4 text-center text-sm text-neutral-700">
+				<strong class="text-base font-semibold text-neutral-900">
+					https://9takes.com/questions/{url}
+				</strong>
 			</p>
 		</div>
 		<!-- 
@@ -298,8 +315,10 @@
 			<img src={imgPreview} alt="image" />
 			<button on:click={showImage}>Show Image</button>
 		</div> -->
-		<br />
-		<button class="btn btn-primary create-btn" on:click={createQuestion}>
+		<button
+			class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-primary-700 px-5 py-3 text-base font-semibold text-white transition hover:bg-primary-800"
+			on:click={createQuestion}
+		>
 			{#if loading}
 				<div class="loader" />
 			{:else}
@@ -308,173 +327,3 @@
 		</button>
 	</div>
 </Modal2>
-
-<style lang="scss">
-	.modal-content {
-		padding: 2rem;
-		min-width: 350px;
-
-		@media (max-width: 640px) {
-			padding: 1.5rem;
-			min-width: unset;
-		}
-
-		h2 {
-			margin-top: 0;
-			margin-bottom: 1rem;
-			color: var(--primary);
-			font-size: 1.8rem;
-		}
-	}
-
-	.question-preview {
-		padding: 1rem;
-		border: 1px solid var(--color-theme-purple-dark);
-		border-radius: var(--base-border-radius);
-		margin-bottom: 1rem;
-	}
-	.submit-btn {
-		border: 1px solid !important;
-	}
-
-	.create-btn {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		margin-top: 1rem;
-	}
-	.question-container {
-		padding: 2rem 1rem;
-		max-width: 800px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		text-align: center;
-		margin-bottom: 0.5rem;
-		color: var(--primary);
-		font-size: 2.5rem;
-	}
-
-	.subtitle {
-		text-align: center;
-		color: var(--color-text-secondary);
-		font-size: 1.2rem;
-		margin-bottom: 2rem;
-	}
-
-	.question-box {
-		background-color: var(--color-background-secondary);
-		border-radius: var(--base-border-radius);
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-		padding: 2rem;
-		transition: all 0.3s ease;
-
-		&:hover {
-			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-		}
-	}
-
-	.question-textarea {
-		width: 100%;
-		min-height: 150px;
-		padding: 1rem;
-		border: 2px solid var(--color-border);
-		border-radius: var(--base-border-radius);
-		font-family: 'Noticia Text', serif;
-		font-size: 1.2rem;
-		resize: none;
-		transition: all 0.3s ease;
-		margin-bottom: 1rem;
-
-		&:focus {
-			outline: none;
-			border-color: var(--primary);
-			box-shadow: 0 0 0 3px rgba(84, 7, 217, 0.1);
-		}
-	}
-
-	.char-count {
-		text-align: right;
-		font-size: 0.9rem;
-		color: var(--color-text-secondary);
-		margin-bottom: 1rem;
-
-		&.error {
-			color: var(--color-error);
-		}
-	}
-
-	.btn {
-		width: 100%;
-
-		&.btn-primary {
-			&.disabled {
-				opacity: 0.6;
-				cursor: not-allowed;
-			}
-		}
-	}
-
-	.encouragement {
-		text-align: center;
-		color: var(--color-text-secondary);
-		font-size: 1rem;
-		margin-top: 1.5rem;
-		font-style: italic;
-	}
-
-	@media (max-width: 576px) {
-		.question-container {
-			padding: 1rem;
-		}
-
-		.comment-box {
-			margin: 0.5rem 0;
-		}
-
-		.profile-avatar {
-			min-width: 60px;
-			font-size: 0.9rem;
-		}
-
-		.action-buttons {
-			padding: 0.25rem;
-		}
-	}
-
-	@media (min-width: 768px) {
-		.question-box {
-			min-width: 500px;
-		}
-	}
-
-	@media (max-width: 767px) {
-		.question-container {
-			padding: 1rem 0.5rem;
-		}
-
-		h1 {
-			font-size: 2rem;
-		}
-
-		.subtitle {
-			font-size: 1rem;
-		}
-
-		.question-box {
-			padding: 1.5rem;
-		}
-
-		.question-textarea {
-			font-size: 1rem;
-			min-height: 120px;
-		}
-
-		.btn {
-			font-size: 1.1rem;
-			padding: 0.75rem 1.5rem;
-		}
-	}
-</style>

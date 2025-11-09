@@ -12,6 +12,8 @@
 	--primary: #6c5ce7; /* Main purple - vibrant */
 	--primary-dark: #4834d4; /* Darker purple for hover states */
 	--primary-light: #a29bfe; /* Light purple for backgrounds and accents */
+	--primary-700: var(--primary);
+	--primary-500: var(--accent);
 
 	/* Accent Colors */
 	--accent: #8c7ae6; /* Softer purple for secondary elements */

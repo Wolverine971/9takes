@@ -219,29 +219,3 @@
 		{/if}
 	</article>
 </div>
-
-<style>
-	/* Smooth scrolling for all browsers */
-	:global(html) {
-		scroll-behavior: smooth;
-	}
-
-	/* Custom scrollbar styles */
-	:global(::-webkit-scrollbar) {
-		width: 8px;
-		height: 8px;
-	}
-
-	:global(::-webkit-scrollbar-track) {
-		background: transparent;
-	}
-
-	:global(::-webkit-scrollbar-thumb) {
-		background: rgba(0, 0, 0, 0.2);
-		border-radius: 4px;
-	}
-
-	:global(::-webkit-scrollbar-thumb:hover) {
-		background: rgba(0, 0, 0, 0.3);
-	}
-</style>

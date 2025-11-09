@@ -17,6 +17,8 @@ pic: ''
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
+    import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
 </script>
 
 ## Quick Answer
@@ -262,10 +264,9 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
 <iframe width="560" height="315"  loading="lazy" src="https://www.youtube.com/embed/nEtJFIPx_xM?si=m-MDPVBgsUv0uoWH" title="Enneagram 1 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="visual-metaphor">
-  <h4>📝 The Inner Critic's Script</h4>
+<VisualMetaphor title="📝 The Inner Critic's Script">
   <p>Type 1s often describe their internal critic as having a very specific, recurring script—playing the same themes of "not good enough" on repeat, measuring current efforts against impossibly perfect standards, pointing out exactly how each attempt falls short, and maintaining a running commentary that would feel brutally harsh if spoken aloud to another person but somehow feels "objective" when directed at themselves.</p>
-</div>
+</VisualMetaphor>
 
 - Type 1s are often highly self-critical, with an internal "inner critic" that can be exhausting to manage. As one panelist described it: "It's like having a perfectionist roommate in your head who never sleeps and never takes a day off."
 
@@ -277,10 +278,9 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
 
 - The high side of Type 1s involves strong discernment, attention to detail, and a drive to improve things, but this can also alienate others if not balanced. Their vision for what could be often inspires those around them, provided it's expressed with patience and understanding.
 
-<div class="insight-box">
-  <h4>The Relaxation Discovery</h4>
+<InsightBox title="The Relaxation Discovery">
   <p>Many Type 1s describe a profound discovery in midlife or during significant growth work: that relaxation and enjoyment aren't merely permitted activities but essential components of a well-lived life. This realization often feels revolutionary—the understanding that their worth doesn't depend solely on productivity and that taking genuine pleasure in life's gifts actually makes them more effective in their contributions, not less.</p>
-</div>
+</InsightBox>
 
 </section>
 
