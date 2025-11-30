@@ -114,227 +114,122 @@
 </script>
 
 <div class="admin-dashboard">
-	<div class="page-header">
-		<h1>Admin Dashboard</h1>
-		<p class="subtitle">System overview and controls</p>
+	<h1 class="page-title">Admin Dashboard</h1>
+
+	<!-- Stats Grid - Compact -->
+	<div class="stats-row">
+		<div class="stat-chip">
+			<span class="stat-label">Users</span>
+			<span class="stat-num">{data.totalUsers.toLocaleString()}</span>
+			<span class="stat-sub">+{data.newUsersToday} today</span>
+		</div>
+		<div class="stat-chip">
+			<span class="stat-label">New (30d)</span>
+			<span class="stat-num">{data.newUsersMonth.toLocaleString()}</span>
+			<span class="stat-sub">{((data.newUsersMonth / data.totalUsers) * 100).toFixed(1)}%</span>
+		</div>
+		<div class="stat-chip highlight">
+			<span class="stat-label">Coaching</span>
+			<span class="stat-num">{data.coachingWaitlist.toLocaleString()}</span>
+			<span class="stat-sub">waitlist</span>
+		</div>
+		<div class="stat-chip">
+			<span class="stat-label">Active (7d)</span>
+			<span class="stat-num">{data.activeUsers.toLocaleString()}</span>
+		</div>
+		<div class="stat-chip">
+			<span class="stat-label">Visitors</span>
+			<span class="stat-num"
+				>{data.dailyVisitors.reduce((sum, v) => sum + v.number_of_visitors, 0).toLocaleString()}</span
+			>
+		</div>
+		<div class="stat-chip">
+			<span class="stat-label">Questions</span>
+			<span class="stat-num">{data.totalQuestions.toLocaleString()}</span>
+			<span class="stat-sub">+{data.questionsToday}</span>
+		</div>
+		<div class="stat-chip">
+			<span class="stat-label">Comments</span>
+			<span class="stat-num">{data.totalComments.toLocaleString()}</span>
+			<span class="stat-sub">+{data.commentsToday}</span>
+		</div>
+		<div class="stat-chip" class:demo-on={isDemoTime}>
+			<span class="stat-label">Demo</span>
+			<span class="stat-num">{isDemoTime ? 'ON' : 'OFF'}</span>
+		</div>
+	</div>
+	<!-- Enneagram Distribution - Compact -->
+	<div class="enneagram-row">
+		<span class="row-label">Types:</span>
+		{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
+			<div class="enn-chip">
+				<span class="enn-type">{type}</span>
+				<span class="enn-count">{data.enneagramDistribution[type] || 0}</span>
+			</div>
+		{/each}
 	</div>
 
-	<!-- Stats Grid -->
-	<div class="stats-grid">
-		<div class="stat-card">
-			<div class="stat-icon">👥</div>
-			<div class="stat-content">
-				<h3>Total Users</h3>
-				<p class="stat-value">{data.totalUsers.toLocaleString()}</p>
-				<p class="stat-change">+{data.newUsersToday} today</p>
-			</div>
-		</div>
-		<div class="stat-card">
-			<div class="stat-icon">📈</div>
-			<div class="stat-content">
-				<h3>New Users (30d)</h3>
-				<p class="stat-value">{data.newUsersMonth.toLocaleString()}</p>
-				<p class="stat-change">
-					{((data.newUsersMonth / data.totalUsers) * 100).toFixed(1)}% of total
-				</p>
-			</div>
-		</div>
-		<div class="stat-card">
-			<div class="stat-icon">🎯</div>
-			<div class="stat-content">
-				<h3>Coaching Waitlist</h3>
-				<p class="stat-value">{data.coachingWaitlist.toLocaleString()}</p>
-				<p class="stat-change">signups</p>
-			</div>
-		</div>
-		<div class="stat-card">
-			<div class="stat-icon">🔥</div>
-			<div class="stat-content">
-				<h3>Active Users (7d)</h3>
-				<p class="stat-value">{data.activeUsers.toLocaleString()}</p>
-				<p class="stat-change">commented recently</p>
-			</div>
-		</div>
-	</div>
-
-	<!-- Secondary Stats Grid -->
-	<div class="stats-grid secondary-stats">
-		<div class="stat-card">
-			<div class="stat-icon">👁️</div>
-			<div class="stat-content">
-				<h3>Visitors (30d)</h3>
-				<p class="stat-value">
-					{data.dailyVisitors.reduce((sum, v) => sum + v.number_of_visitors, 0).toLocaleString()}
-				</p>
-			</div>
-		</div>
-		<div class="stat-card">
-			<div class="stat-icon">❓</div>
-			<div class="stat-content">
-				<h3>Total Questions</h3>
-				<p class="stat-value">{data.totalQuestions.toLocaleString()}</p>
-				<p class="stat-change">+{data.questionsToday} today</p>
-			</div>
-		</div>
-		<div class="stat-card">
-			<div class="stat-icon">💬</div>
-			<div class="stat-content">
-				<h3>Total Comments</h3>
-				<p class="stat-value">{data.totalComments.toLocaleString()}</p>
-				<p class="stat-change">+{data.commentsToday} today</p>
-			</div>
-		</div>
-		<div class="stat-card">
-			<div class="stat-icon">🎮</div>
-			<div class="stat-content">
-				<h3>Demo Mode</h3>
-				<p class="stat-value">{isDemoTime ? 'ON' : 'OFF'}</p>
-			</div>
-		</div>
-	</div>
-	<!-- Enneagram Distribution -->
-	<div class="enneagram-section">
-		<h2 class="section-title">📊 User Enneagram Type Distribution</h2>
-		<div class="enneagram-grid">
-			{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
-				<div class="enneagram-card">
-					<div class="enneagram-type">Type {type}</div>
-					<div class="enneagram-count">{data.enneagramDistribution[type] || 0}</div>
-					<div class="enneagram-bar">
-						<div
-							class="enneagram-bar-fill"
-							style="width: {(
-								((data.enneagramDistribution[type] || 0) / data.totalUsers) *
-								100
-							).toFixed(1)}%"
-						></div>
-					</div>
-					<div class="enneagram-percent">
-						{(((data.enneagramDistribution[type] || 0) / data.totalUsers) * 100).toFixed(1)}%
-					</div>
-				</div>
-			{/each}
-		</div>
-	</div>
-
-	<!-- Recent Signups -->
-	<div class="section-card">
-		<details>
-			<summary class="section-header">
-				<span class="section-title">🆕 Recent Signups</span>
-				<span class="chevron">▼</span>
-			</summary>
-			<div class="table-wrapper">
-				<table class="data-table">
-					<thead>
-						<tr>
-							<th>Email</th>
-							<th>Type</th>
-							<th>Joined</th>
-							<th>Profile</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each data.recentSignups as signup}
-							<tr>
-								<td>{signup.email || 'Anonymous'}</td>
-								<td>
-									{#if signup.enneagram}
-										<span class="type-badge">Type {signup.enneagram}</span>
-									{:else}
-										<span class="type-badge pending">Pending</span>
-									{/if}
-								</td>
-								<td>{convertDateToReadable(signup.created_at)}</td>
-								<td>
-									<a href="/users/{signup.external_id}" class="table-link">View</a>
-								</td>
-							</tr>
-						{/each}
-					</tbody>
-				</table>
-			</div>
-		</details>
-	</div>
-
-	<!-- Data Visualization Section -->
-	<div class="data-section">
-		<div class="section-card">
+	<!-- Two-column layout for tables -->
+	<div class="tables-grid">
+		<!-- Coaching Waitlist -->
+		<div class="section-card compact">
 			<details open>
-				<summary class="section-header">
-					<span class="section-title">📊 Visitor Analytics</span>
-					<span class="chevron">▼</span>
-				</summary>
-				<div class="chart-wrapper">
-					<LineChart
-						data={visitorChartData}
-						title="Daily Visitors (Last 30 Days)"
-						xLabel="Date"
-						yLabel="Number of Visitors"
-						height={350}
-						color="#3b82f6"
-						showPoints={true}
-						showGrid={true}
-					/>
-				</div>
-			</details>
-		</div>
-
-		<div class="section-card">
-			<details>
-				<summary class="section-header">
-					<span class="section-title">💬 Comment Analytics</span>
-					<span class="chevron">▼</span>
-				</summary>
-				<div class="chart-wrapper">
-					<LineChart
-						data={commentChartData}
-						title="Daily Comments (Last 30 Days)"
-						xLabel="Date"
-						yLabel="Number of Comments"
-						height={350}
-						color="#10b981"
-						showPoints={true}
-						showGrid={true}
-					/>
-				</div>
-			</details>
-		</div>
-
-		<div class="section-card">
-			<details>
-				<summary class="section-header">
-					<span class="section-title">❓ Daily Question Stats</span>
+				<summary class="section-header compact">
+					<span class="section-title">🎯 Coaching Waitlist ({data.coachingWaitlist})</span>
 					<span class="chevron">▼</span>
 				</summary>
 				<div class="table-wrapper">
-					<table class="data-table">
+					<table class="data-table compact">
 						<thead>
 							<tr>
-								<th>Question</th>
-								<th>Created</th>
-								<th>Today</th>
-								<th>Total</th>
-								<th>Modified</th>
-								<th>User</th>
-								<th>Link</th>
+								<th>Email</th>
+								<th>Date</th>
 							</tr>
 						</thead>
 						<tbody>
-							{#each data.dailyQuestions as question}
+							{#each data.coachingWaitlistUsers as user}
 								<tr>
-									<td class="question-cell">{question.question}</td>
-									<td>{convertDateToReadable(question.created_at)}</td>
-									<td>{question.number_of_comments_today}</td>
-									<td>{question.number_of_comments}</td>
-									<td>{question.number_modified}</td>
+									<td><a href="mailto:{user.email}" class="table-link">{user.email}</a></td>
+									<td class="date-cell">{convertDateToReadable(user.created_at)}</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
+			</details>
+		</div>
+
+		<!-- Recent Signups -->
+		<div class="section-card compact">
+			<details>
+				<summary class="section-header compact">
+					<span class="section-title">🆕 Recent Signups</span>
+					<span class="chevron">▼</span>
+				</summary>
+				<div class="table-wrapper">
+					<table class="data-table compact">
+						<thead>
+							<tr>
+								<th>Email</th>
+								<th>Type</th>
+								<th>Joined</th>
+								<th>Profile</th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each data.recentSignups as signup}
+								<tr>
+									<td>{signup.email || 'Anonymous'}</td>
 									<td>
-										<a href="/users/{question.user_external_id}" class="table-link">
-											{question.user_email}
-										</a>
+										{#if signup.enneagram}
+											<span class="type-badge">T{signup.enneagram}</span>
+										{:else}
+											<span class="type-badge pending">—</span>
+										{/if}
 									</td>
+									<td class="date-cell">{convertDateToReadable(signup.created_at)}</td>
 									<td>
-										<a href="/questions/{question.url}" class="table-link"> View </a>
+										<a href="/users/{signup.external_id}" class="table-link">View</a>
 									</td>
 								</tr>
 							{/each}
@@ -345,30 +240,108 @@
 		</div>
 	</div>
 
-	<!-- Actions Section -->
-	<div class="actions-section">
-		<div class="action-card">
-			<h3>Demo Mode Control</h3>
-			<p>
-				Current Status: <span class="status-badge" class:active={isDemoTime}
-					>{isDemoTime ? 'ON' : 'OFF'}</span
-				>
-			</p>
-			<button type="button" class="btn btn-primary" on:click={changeDemoTime}>
-				Toggle Demo Mode
-			</button>
+	<!-- Charts - Side by Side -->
+	<div class="charts-grid">
+		<div class="section-card compact">
+			<details open>
+				<summary class="section-header compact">
+					<span class="section-title">📊 Visitors (30d)</span>
+					<span class="chevron">▼</span>
+				</summary>
+				<div class="chart-wrapper compact">
+					<LineChart
+						data={visitorChartData}
+						title=""
+						xLabel=""
+						yLabel=""
+						height={200}
+						color="#3b82f6"
+						showPoints={true}
+						showGrid={true}
+					/>
+				</div>
+			</details>
 		</div>
 
-		<div class="action-card">
-			<h3>Search Index</h3>
-			<p>Rebuild the Elasticsearch index for questions</p>
+		<div class="section-card compact">
+			<details>
+				<summary class="section-header compact">
+					<span class="section-title">💬 Comments (30d)</span>
+					<span class="chevron">▼</span>
+				</summary>
+				<div class="chart-wrapper compact">
+					<LineChart
+						data={commentChartData}
+						title=""
+						xLabel=""
+						yLabel=""
+						height={200}
+						color="#10b981"
+						showPoints={true}
+						showGrid={true}
+					/>
+				</div>
+			</details>
+		</div>
+	</div>
+
+	<!-- Daily Questions Stats -->
+	<div class="section-card compact">
+		<details>
+			<summary class="section-header compact">
+				<span class="section-title">❓ Daily Question Stats</span>
+				<span class="chevron">▼</span>
+			</summary>
+			<div class="table-wrapper">
+				<table class="data-table compact">
+					<thead>
+						<tr>
+							<th>Question</th>
+							<th>Created</th>
+							<th>Today</th>
+							<th>Total</th>
+							<th>User</th>
+							<th>Link</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each data.dailyQuestions as question}
+							<tr>
+								<td class="question-cell">{question.question}</td>
+								<td class="date-cell">{convertDateToReadable(question.created_at)}</td>
+								<td>{question.number_of_comments_today}</td>
+								<td>{question.number_of_comments}</td>
+								<td>
+									<a href="/users/{question.user_external_id}" class="table-link">
+										{question.user_email}
+									</a>
+								</td>
+								<td>
+									<a href="/questions/{question.url}" class="table-link">View</a>
+								</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			</div>
+		</details>
+	</div>
+
+	<!-- Actions - Compact Inline -->
+	<div class="actions-row">
+		<div class="action-inline">
+			<span>Demo: <strong class:demo-active={isDemoTime}>{isDemoTime ? 'ON' : 'OFF'}</strong></span>
+			<button type="button" class="btn-sm" on:click={changeDemoTime}>Toggle</button>
+		</div>
+		<div class="action-inline">
+			<span>Search Index</span>
 			<button
 				type="button"
-				class="btn btn-secondary"
+				class="btn-sm"
 				on:click={() => getModal('confirmReindex').open()}
 				disabled={isReindexing}
 			>
-				{isReindexing ? 'Reindexing...' : 'Reindex Elastic Search'}
+				{isReindexing ? 'Reindexing...' : 'Reindex ES'}
 			</button>
 		</div>
 	</div>
@@ -416,147 +389,229 @@
 		margin: 0 auto;
 	}
 
-	.page-header {
-		margin-bottom: 2rem;
-	}
-
-	.page-header h1 {
-		font-size: 2rem;
-		margin: 0 0 0.5rem 0;
-		color: theme('colors.neutral.800');
-	}
-
-	.subtitle {
-		color: theme('colors.neutral.600');
-		margin: 0;
-	}
-
-	/* Stats Grid */
-	.stats-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 1.5rem;
-		margin-bottom: 3rem;
-	}
-
-	.stat-card {
-		background-color: white;
-		border: 1px solid theme('colors.neutral.200');
-		border-radius: theme('borderRadius.lg');
-		padding: 1.5rem;
-		display: flex;
-		align-items: center;
-		gap: 1rem;
-		transition:
-			transform 0.2s ease,
-			box-shadow 0.2s ease;
-	}
-
-	.stat-card:hover {
-		transform: translateY(-2px);
-		box-shadow: theme('boxShadow.md');
-	}
-
-	.stat-icon {
-		font-size: 2.5rem;
-		opacity: 0.8;
-	}
-
-	.stat-content h3 {
-		margin: 0 0 0.5rem 0;
-		font-size: 0.875rem;
-		color: theme('colors.neutral.600');
-		font-weight: 500;
-	}
-
-	.stat-value {
-		margin: 0;
-		font-size: 1.75rem;
-		font-weight: 600;
-		color: theme('colors.primary.700');
-	}
-
-	.stat-change {
-		margin: 0.25rem 0 0 0;
-		font-size: 0.75rem;
-		color: theme('colors.neutral.600');
-	}
-
-	.secondary-stats {
-		margin-bottom: 2rem;
-	}
-
-	/* Enneagram Section */
-	.enneagram-section {
-		margin-bottom: 2rem;
-	}
-
-	.enneagram-section .section-title {
+	.page-title {
 		font-size: 1.25rem;
-		font-weight: 600;
-		margin-bottom: 1rem;
+		margin: 0 0 0.75rem 0;
 		color: var(--text-primary);
 	}
 
-	.enneagram-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-		gap: 1rem;
-		background-color: var(--card-background);
-		padding: 1.5rem;
-		border-radius: var(--border-radius);
-		border: 1px solid var(--border-color);
+	/* Compact Stats Row */
+	.stats-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-bottom: 0.75rem;
 	}
 
-	.enneagram-card {
-		text-align: center;
+	.stat-chip {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0.5rem 0.75rem;
+		background: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: 6px;
+		min-width: 80px;
+	}
+
+	.stat-chip.highlight {
+		background: var(--primary-light);
+		border-color: var(--primary);
+	}
+
+	.stat-chip.demo-on {
+		background: var(--success-light);
+		border-color: var(--success);
+	}
+
+	.stat-label {
+		font-size: 0.65rem;
+		color: var(--text-secondary);
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+	}
+
+	.stat-num {
+		font-size: 1.125rem;
+		font-weight: 700;
+		color: var(--primary);
+		line-height: 1.2;
+	}
+
+	.stat-sub {
+		font-size: 0.6rem;
+		color: var(--text-secondary);
+	}
+
+	/* Compact Enneagram Row */
+	.enneagram-row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.375rem;
+		margin-bottom: 0.75rem;
+		padding: 0.5rem;
+		background: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: 6px;
+	}
+
+	.row-label {
+		font-size: 0.7rem;
+		color: var(--text-secondary);
+		font-weight: 500;
+	}
+
+	.enn-chip {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		padding: 0.25rem 0.5rem;
+		background: var(--hover-background);
+		border-radius: 4px;
+	}
+
+	.enn-type {
+		font-size: 0.7rem;
+		color: var(--text-secondary);
+	}
+
+	.enn-count {
+		font-size: 0.8rem;
+		font-weight: 600;
+		color: var(--primary);
+	}
+
+	/* Tables Grid */
+	.tables-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0.75rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.charts-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0.75rem;
+		margin-bottom: 0.75rem;
+	}
+
+	/* Section Cards - Compact */
+	.section-card {
+		background-color: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: 6px;
+		overflow: hidden;
+	}
+
+	.section-card.compact {
+		margin-bottom: 0.75rem;
+	}
+
+	details {
+		cursor: pointer;
+	}
+
+	.section-header {
 		padding: 0.75rem;
 		background-color: var(--hover-background);
-		border-radius: var(--border-radius);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		list-style: none;
+	}
+
+	.section-header.compact {
+		padding: 0.5rem 0.75rem;
+	}
+
+	.section-header:hover {
+		background-color: var(--primary-light);
+	}
+
+	.section-title {
+		font-size: 0.8rem;
+		font-weight: 600;
+		color: var(--text-primary);
+	}
+
+	.chevron {
+		font-size: 0.7rem;
+		color: var(--text-secondary);
 		transition: transform 0.2s ease;
 	}
 
-	.enneagram-card:hover {
-		transform: translateY(-2px);
+	details[open] .chevron {
+		transform: rotate(180deg);
 	}
 
-	.enneagram-type {
-		font-size: 0.875rem;
-		color: var(--text-secondary);
-		margin-bottom: 0.25rem;
+	/* Tables - Compact */
+	.table-wrapper {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
 	}
 
-	.enneagram-count {
-		font-size: 1.5rem;
-		font-weight: 600;
-		color: var(--primary);
-		margin-bottom: 0.5rem;
-	}
-
-	.enneagram-bar {
-		height: 4px;
-		background-color: var(--border-color);
-		border-radius: 2px;
-		overflow: hidden;
-		margin-bottom: 0.25rem;
-	}
-
-	.enneagram-bar-fill {
-		height: 100%;
-		background-color: var(--primary);
-		transition: width 0.3s ease;
-	}
-
-	.enneagram-percent {
+	.data-table {
+		width: 100%;
+		border-collapse: collapse;
 		font-size: 0.75rem;
+	}
+
+	.data-table.compact {
+		font-size: 0.7rem;
+	}
+
+	.data-table thead {
+		background-color: var(--hover-background);
+	}
+
+	.data-table th {
+		padding: 0.375rem 0.5rem;
+		text-align: left;
+		font-weight: 600;
+		color: var(--text-primary);
+		white-space: nowrap;
+	}
+
+	.data-table td {
+		padding: 0.375rem 0.5rem;
+		border-top: 1px solid var(--border-color);
+		color: var(--text-primary);
+	}
+
+	.data-table tbody tr:hover {
+		background-color: var(--hover-background);
+	}
+
+	.question-cell {
+		max-width: 200px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.date-cell {
+		white-space: nowrap;
+		font-size: 0.65rem;
 		color: var(--text-secondary);
+	}
+
+	.table-link {
+		color: var(--primary);
+		text-decoration: none;
+		font-weight: 500;
+	}
+
+	.table-link:hover {
+		text-decoration: underline;
 	}
 
 	.type-badge {
 		display: inline-block;
-		padding: 0.25rem 0.5rem;
+		padding: 0.125rem 0.375rem;
 		border-radius: 9999px;
-		font-size: 0.75rem;
+		font-size: 0.65rem;
 		font-weight: 500;
 		background-color: var(--primary-light);
 		color: var(--primary);
@@ -567,230 +622,79 @@
 		color: var(--warning);
 	}
 
-	/* Data Section */
-	.data-section {
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
-		margin-bottom: 3rem;
-	}
-
-	.section-card {
-		background-color: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		overflow: hidden;
-	}
-
-	details {
-		cursor: pointer;
-	}
-
-	.section-header {
-		padding: 1.25rem;
-		background-color: var(--hover-background);
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		transition: background-color 0.2s ease;
-		list-style: none;
-	}
-
-	.section-header:hover {
-		background-color: var(--primary-light);
-	}
-
-	.section-title {
-		font-size: 1.125rem;
-		font-weight: 600;
-		color: var(--text-primary);
-	}
-
-	.chevron {
-		transition: transform 0.3s ease;
-		color: var(--text-secondary);
-	}
-
-	details[open] .chevron {
-		transform: rotate(180deg);
-	}
-
-	.table-wrapper {
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
-	}
-
+	/* Chart Wrapper - Compact */
 	.chart-wrapper {
-		padding: 1.5rem;
+		padding: 0.5rem;
 		background-color: var(--card-background);
 	}
 
-	.data-table {
-		width: 100%;
-		border-collapse: collapse;
+	.chart-wrapper.compact {
+		padding: 0.375rem;
 	}
 
-	.data-table thead {
-		background-color: var(--hover-background);
+	/* Actions Row - Compact */
+	.actions-row {
+		display: flex;
+		gap: 1rem;
+		padding: 0.5rem 0;
 	}
 
-	.data-table th {
-		padding: 0.75rem 1rem;
-		text-align: left;
-		font-weight: 600;
-		color: var(--text-primary);
-		font-size: 0.875rem;
-		white-space: nowrap;
-	}
-
-	.data-table td {
-		padding: 0.75rem 1rem;
-		border-top: 1px solid var(--border-color);
+	.action-inline {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		font-size: 0.75rem;
 		color: var(--text-primary);
 	}
 
-	.data-table tbody tr:hover {
-		background-color: var(--hover-background);
-	}
-
-	.question-cell {
-		max-width: 300px;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-
-	.table-link {
-		color: var(--primary);
-		text-decoration: none;
-		font-weight: 500;
-		transition: color 0.2s ease;
-	}
-
-	.table-link:hover {
-		color: var(--primary-dark);
-		text-decoration: underline;
-	}
-
-	/* Actions Section */
-	.actions-section {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: 1.5rem;
-	}
-
-	.action-card {
-		background-color: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		padding: 1.5rem;
-	}
-
-	.action-card h3 {
-		margin: 0 0 0.5rem 0;
-		color: var(--text-primary);
-	}
-
-	.action-card p {
-		color: var(--text-secondary);
-		margin: 0 0 1rem 0;
-		font-size: 0.875rem;
-	}
-
-	.status-badge {
-		display: inline-block;
-		padding: 0.25rem 0.75rem;
-		border-radius: 9999px;
-		font-size: 0.875rem;
-		font-weight: 500;
-		background-color: var(--error-light);
-		color: var(--error);
-	}
-
-	.status-badge.active {
-		background-color: var(--success-light);
+	.demo-active {
 		color: var(--success);
 	}
 
-	.btn-secondary {
-		background-color: var(--secondary);
-		color: var(--text-on-secondary);
-		padding: 0.75rem 1.25rem;
-		border: none;
-		border-radius: var(--border-radius);
-		font-size: 1rem;
+	.btn-sm {
+		padding: 0.25rem 0.5rem;
+		font-size: 0.7rem;
 		font-weight: 500;
+		background: var(--primary);
+		color: white;
+		border: none;
+		border-radius: 4px;
 		cursor: pointer;
-		transition: all 0.2s ease;
-		text-decoration: none;
 	}
 
-	.btn-secondary:hover:not(:disabled) {
-		background-color: var(--secondary-dark);
-		transform: translateY(-2px);
-		box-shadow: var(--shadow-md);
+	.btn-sm:hover:not(:disabled) {
+		opacity: 0.9;
 	}
 
-	.btn-secondary:disabled,
-	.btn-primary:disabled {
+	.btn-sm:disabled {
 		opacity: 0.5;
 		cursor: not-allowed;
 	}
 
-	/* Responsive Design */
+	/* Responsive */
 	@media (max-width: 768px) {
-		.page-header h1 {
-			font-size: 1.5rem;
-		}
-
-		.stats-grid {
+		.tables-grid,
+		.charts-grid {
 			grid-template-columns: 1fr;
-			gap: 1rem;
 		}
 
-		.stat-card {
-			padding: 1rem;
+		.stats-row {
+			gap: 0.375rem;
 		}
 
-		.stat-icon {
-			font-size: 2rem;
+		.stat-chip {
+			padding: 0.375rem 0.5rem;
+			min-width: 60px;
 		}
 
-		.stat-value {
-			font-size: 1.5rem;
-		}
-
-		.data-table {
-			font-size: 0.875rem;
-		}
-
-		.data-table th,
-		.data-table td {
-			padding: 0.5rem;
-		}
-
-		.question-cell {
-			max-width: 150px;
-		}
-
-		.actions-section {
-			grid-template-columns: 1fr;
+		.stat-num {
+			font-size: 1rem;
 		}
 	}
 
 	@media (max-width: 480px) {
-		.data-table {
-			font-size: 0.75rem;
-		}
-
-		.data-table th,
-		.data-table td {
-			padding: 0.375rem;
-		}
-
-		/* Hide less important columns on very small screens */
-		.data-table th:nth-child(n + 5),
-		.data-table td:nth-child(n + 5) {
+		.data-table th:nth-child(n + 4),
+		.data-table td:nth-child(n + 4) {
 			display: none;
 		}
 	}

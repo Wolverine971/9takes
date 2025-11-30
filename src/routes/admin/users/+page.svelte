@@ -110,80 +110,55 @@
 </script>
 
 <div class="admin-users">
-	<div class="page-header">
-		<h1>User Management</h1>
-		<p class="subtitle">Manage user accounts and permissions</p>
-	</div>
+	<h1 class="page-title">User Management</h1>
 
-	<!-- Stats Cards -->
-	<div class="stats-grid">
-		<div class="stat-card">
-			<div class="stat-icon">👥</div>
-			<div class="stat-content">
-				<h3>Total Users</h3>
-				<p class="stat-value">{formattedProfiles?.length || 0}</p>
-			</div>
+	<!-- Compact Stats Row -->
+	<div class="stats-row">
+		<div class="stat-chip">
+			<span class="stat-label">Users</span>
+			<span class="stat-num">{formattedProfiles?.length || 0}</span>
 		</div>
-		<div class="stat-card">
-			<div class="stat-icon">🛡️</div>
-			<div class="stat-content">
-				<h3>Admin Users</h3>
-				<p class="stat-value">{formattedProfiles?.filter((p) => p.admin).length || 0}</p>
-			</div>
+		<div class="stat-chip">
+			<span class="stat-label">Admins</span>
+			<span class="stat-num">{formattedProfiles?.filter((p) => p.admin).length || 0}</span>
 		</div>
-		<div class="stat-card">
-			<div class="stat-icon">📧</div>
-			<div class="stat-content">
-				<h3>Email Signups</h3>
-				<p class="stat-value">{formattedSignups?.length || 0}</p>
-			</div>
+		<div class="stat-chip">
+			<span class="stat-label">Signups</span>
+			<span class="stat-num">{formattedSignups?.length || 0}</span>
 		</div>
 	</div>
 
 	{#if formattedProfiles?.length}
-		<div class="section-card">
-			<div class="section-header-toolbar">
-				<h2 class="section-title">User Profiles</h2>
-				<button
-					class="toggle-btn"
-					on:click={() => (showAdditionalColumns = !showAdditionalColumns)}
-				>
-					{showAdditionalColumns ? 'Show Less' : 'Show More'} Columns
+		<div class="section-card compact">
+			<div class="section-header-toolbar compact">
+				<span class="section-title">User Profiles ({formattedProfiles.length})</span>
+				<button class="toggle-btn" on:click={() => (showAdditionalColumns = !showAdditionalColumns)}>
+					{showAdditionalColumns ? '− Less' : '+ More'}
 				</button>
 			</div>
 			<div class="table-wrapper">
-				<table class="data-table">
+				<table class="data-table compact">
 					<thead>
 						<tr>
 							{#each essentialColumns as column}
 								<th class="sortable" on:click={() => sortProfiles(column.field)}>
-									<div class="th-content">
-										{column.label}
-										{#if sortField === column.field}
-											<span class="sort-indicator">
-												{sortDirection === 'asc' ? '↑' : '↓'}
-											</span>
-										{/if}
-									</div>
+									{column.label}
+									{#if sortField === column.field}
+										<span class="sort-ind">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+									{/if}
 								</th>
 							{/each}
-
 							{#if showAdditionalColumns}
 								{#each additionalColumns as column}
 									<th class="sortable" on:click={() => sortProfiles(column.field)}>
-										<div class="th-content">
-											{column.label}
-											{#if sortField === column.field}
-												<span class="sort-indicator">
-													{sortDirection === 'asc' ? '↑' : '↓'}
-												</span>
-											{/if}
-										</div>
+										{column.label}
+										{#if sortField === column.field}
+											<span class="sort-ind">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+										{/if}
 									</th>
 								{/each}
 							{/if}
-
-							<th>Actions</th>
+							<th></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -192,42 +167,44 @@
 								{#each essentialColumns as column}
 									<td>
 										{#if column.field === 'admin'}
-											<span class="badge" class:badge-success={profile.admin}>
-												{profile.admin ? 'Yes' : 'No'}
+											<span class="badge" class:badge-yes={profile.admin}>
+												{profile.admin ? 'Y' : 'N'}
 											</span>
 										{:else if column.field === 'email'}
 											<a href="mailto:{profile.email}" class="table-link">{profile.email}</a>
 										{:else if column.field === 'last_sign_in_at'}
-											{profile.last_sign_in_at
-												? new Date(profile.last_sign_in_at).toLocaleString()
-												: '—'}
+											<span class="date-cell">
+												{profile.last_sign_in_at
+													? new Date(profile.last_sign_in_at).toLocaleDateString()
+													: '—'}
+											</span>
+										{:else if column.field === 'enneagram'}
+											{profile.enneagram ? `T${profile.enneagram}` : '—'}
 										{:else}
 											{profile[column.field] || '—'}
 										{/if}
 									</td>
 								{/each}
-
 								{#if showAdditionalColumns}
 									{#each additionalColumns as column}
-										<td>
+										<td class="date-cell">
 											{column.field.includes('_at') && profile[column.field]
-												? new Date(profile[column.field]).toLocaleString()
+												? new Date(profile[column.field]).toLocaleDateString()
 												: profile[column.field] || '—'}
 										</td>
 									{/each}
 								{/if}
-
-								<td class="action-cell">
+								<td>
 									<button
 										type="button"
-										class="btn-action"
+										class="btn-edit"
 										on:click={() => {
 											active = { ...profile };
 											activeAdmin = !!active.admin;
 											getModal('user-modal').open();
 										}}
 									>
-										Edit
+										✎
 									</button>
 								</td>
 							</tr>
@@ -239,27 +216,25 @@
 	{/if}
 
 	{#if formattedSignups?.length}
-		<div class="section-card">
-			<div class="section-header-toolbar">
-				<h2 class="section-title">Email Signups</h2>
+		<div class="section-card compact">
+			<div class="section-header-toolbar compact">
+				<span class="section-title">Email Signups ({formattedSignups.length})</span>
 			</div>
 			<div class="table-wrapper">
-				<table class="data-table">
+				<table class="data-table compact">
 					<thead>
 						<tr>
 							<th>Email</th>
 							<th>Name</th>
-							<th>Created At</th>
+							<th>Created</th>
 						</tr>
 					</thead>
 					<tbody>
 						{#each formattedSignups as signup}
 							<tr>
-								<td>
-									<a href="mailto:{signup.email}" class="table-link">{signup.email}</a>
-								</td>
+								<td><a href="mailto:{signup.email}" class="table-link">{signup.email}</a></td>
 								<td>{signup.name || '—'}</td>
-								<td>{signup.createdAt}</td>
+								<td class="date-cell">{signup.createdAt}</td>
 							</tr>
 						{/each}
 					</tbody>
@@ -306,77 +281,59 @@
 		margin: 0 auto;
 	}
 
-	.page-header {
-		margin-bottom: 2rem;
-	}
-
-	.page-header h1 {
-		font-size: 2rem;
-		margin: 0 0 0.5rem 0;
+	.page-title {
+		font-size: 1.25rem;
+		margin: 0 0 0.75rem 0;
 		color: var(--text-primary);
 	}
 
-	.subtitle {
-		color: var(--text-secondary);
-		margin: 0;
-	}
-
-	/* Stats Grid */
-	.stats-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 1.5rem;
-		margin-bottom: 2rem;
-	}
-
-	.stat-card {
-		background-color: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		padding: 1.5rem;
+	/* Compact Stats Row */
+	.stats-row {
 		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.stat-chip {
+		display: flex;
+		flex-direction: column;
 		align-items: center;
-		gap: 1rem;
-		transition:
-			transform 0.2s ease,
-			box-shadow 0.2s ease;
+		padding: 0.5rem 0.75rem;
+		background: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: 6px;
+		min-width: 70px;
 	}
 
-	.stat-card:hover {
-		transform: translateY(-2px);
-		box-shadow: var(--shadow-md);
-	}
-
-	.stat-icon {
-		font-size: 2.5rem;
-		opacity: 0.8;
-	}
-
-	.stat-content h3 {
-		margin: 0 0 0.5rem 0;
-		font-size: 0.875rem;
+	.stat-label {
+		font-size: 0.65rem;
 		color: var(--text-secondary);
-		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
 	}
 
-	.stat-value {
-		margin: 0;
-		font-size: 1.75rem;
-		font-weight: 600;
+	.stat-num {
+		font-size: 1.125rem;
+		font-weight: 700;
 		color: var(--primary);
+		line-height: 1.2;
 	}
 
-	/* Section Cards */
+	/* Section Cards - Compact */
 	.section-card {
 		background-color: var(--card-background);
 		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		margin-bottom: 2rem;
+		border-radius: 6px;
 		overflow: hidden;
 	}
 
+	.section-card.compact {
+		margin-bottom: 0.75rem;
+	}
+
 	.section-header-toolbar {
-		padding: 1.25rem;
+		padding: 0.5rem 0.75rem;
 		background-color: var(--hover-background);
 		display: flex;
 		justify-content: space-between;
@@ -384,31 +341,33 @@
 		border-bottom: 1px solid var(--border-color);
 	}
 
+	.section-header-toolbar.compact {
+		padding: 0.375rem 0.5rem;
+	}
+
 	.section-title {
-		font-size: 1.25rem;
+		font-size: 0.8rem;
 		font-weight: 600;
 		color: var(--text-primary);
 		margin: 0;
 	}
 
 	.toggle-btn {
-		padding: 0.5rem 1rem;
+		padding: 0.25rem 0.5rem;
 		background-color: var(--background);
 		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		font-size: 0.875rem;
+		border-radius: 4px;
+		font-size: 0.7rem;
 		color: var(--text-primary);
 		cursor: pointer;
-		transition: all 0.2s ease;
 	}
 
 	.toggle-btn:hover {
 		background-color: var(--primary-light);
 		border-color: var(--primary);
-		color: var(--primary);
 	}
 
-	/* Table Styles */
+	/* Table Styles - Compact */
 	.table-wrapper {
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
@@ -417,6 +376,11 @@
 	.data-table {
 		width: 100%;
 		border-collapse: collapse;
+		font-size: 0.75rem;
+	}
+
+	.data-table.compact {
+		font-size: 0.7rem;
 	}
 
 	.data-table thead {
@@ -424,11 +388,10 @@
 	}
 
 	.data-table th {
-		padding: 0.75rem 1rem;
+		padding: 0.375rem 0.5rem;
 		text-align: left;
 		font-weight: 600;
 		color: var(--text-primary);
-		font-size: 0.875rem;
 		white-space: nowrap;
 		border-bottom: 1px solid var(--border-color);
 	}
@@ -436,50 +399,46 @@
 	.data-table th.sortable {
 		cursor: pointer;
 		user-select: none;
-		transition: background-color 0.2s ease;
 	}
 
 	.data-table th.sortable:hover {
 		background-color: var(--primary-light);
 	}
 
-	.th-content {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-	}
-
-	.sort-indicator {
+	.sort-ind {
 		color: var(--primary);
-		font-size: 0.75rem;
+		font-size: 0.65rem;
+		margin-left: 2px;
 	}
 
 	.data-table td {
-		padding: 0.75rem 1rem;
+		padding: 0.375rem 0.5rem;
 		border-top: 1px solid var(--border-color);
 		color: var(--text-primary);
-	}
-
-	.data-table tbody tr {
-		transition: background-color 0.2s ease;
 	}
 
 	.data-table tbody tr:hover {
 		background-color: var(--hover-background);
 	}
 
-	/* Badges */
+	.date-cell {
+		white-space: nowrap;
+		font-size: 0.65rem;
+		color: var(--text-secondary);
+	}
+
+	/* Badges - Compact */
 	.badge {
 		display: inline-block;
-		padding: 0.25rem 0.625rem;
+		padding: 0.125rem 0.375rem;
 		border-radius: 9999px;
-		font-size: 0.75rem;
+		font-size: 0.6rem;
 		font-weight: 500;
 		background-color: var(--error-light);
 		color: var(--error);
 	}
 
-	.badge-success {
+	.badge-yes {
 		background-color: var(--success-light);
 		color: var(--success);
 	}
@@ -488,171 +447,122 @@
 	.table-link {
 		color: var(--primary);
 		text-decoration: none;
-		transition: color 0.2s ease;
+		font-weight: 500;
 	}
 
 	.table-link:hover {
-		color: var(--primary-dark);
 		text-decoration: underline;
 	}
 
-	/* Action Buttons */
-	.action-cell {
-		text-align: right;
-		white-space: nowrap;
-	}
-
-	.btn-action {
-		padding: 0.375rem 0.75rem;
-		background-color: var(--primary);
-		color: white;
-		border: none;
-		border-radius: var(--border-radius);
-		font-size: 0.875rem;
-		font-weight: 500;
+	/* Edit Button - Compact */
+	.btn-edit {
+		padding: 0.125rem 0.375rem;
+		background: transparent;
+		border: 1px solid var(--border-color);
+		border-radius: 3px;
+		font-size: 0.7rem;
 		cursor: pointer;
-		transition: all 0.2s ease;
+		color: var(--text-secondary);
 	}
 
-	.btn-action:hover {
-		background-color: var(--primary-dark);
-		transform: translateY(-1px);
-		box-shadow: var(--shadow-sm);
+	.btn-edit:hover {
+		background-color: var(--primary-light);
+		border-color: var(--primary);
+		color: var(--primary);
 	}
 
 	/* Modal Styles */
 	.modal-content {
-		padding: 1.5rem;
+		padding: 1rem;
 	}
 
 	.modal-title {
-		font-size: 1.5rem;
-		margin: 0 0 1rem 0;
+		font-size: 1.125rem;
+		margin: 0 0 0.75rem 0;
 		color: var(--text-primary);
 	}
 
 	.modal-info {
-		margin-bottom: 1.5rem;
-		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+		padding-bottom: 0.75rem;
 		border-bottom: 1px solid var(--border-color);
 	}
 
 	.user-email {
-		font-size: 1.125rem;
+		font-size: 0.875rem;
 		font-weight: 600;
 		color: var(--primary);
-		margin: 0 0 0.25rem 0;
+		margin: 0 0 0.125rem 0;
 	}
 
 	.user-name {
 		color: var(--text-secondary);
 		margin: 0;
+		font-size: 0.8rem;
 	}
 
 	.form-group {
-		margin-bottom: 1.5rem;
+		margin-bottom: 1rem;
 	}
 
 	.form-group label {
 		display: block;
-		margin-bottom: 0.5rem;
+		margin-bottom: 0.375rem;
 		font-weight: 500;
 		color: var(--text-primary);
+		font-size: 0.8rem;
 	}
 
 	.form-select {
 		width: 100%;
-		padding: 0.625rem;
+		padding: 0.5rem;
 		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border-radius: 4px;
 		background-color: var(--background);
 		color: var(--text-primary);
-		font-size: 1rem;
-		transition: border-color 0.2s ease;
+		font-size: 0.875rem;
 	}
 
 	.form-select:focus {
 		outline: none;
 		border-color: var(--primary);
-		box-shadow: 0 0 0 3px var(--primary-light);
 	}
 
 	.modal-actions {
 		display: flex;
 		justify-content: flex-end;
-		gap: 1rem;
-		margin-top: 2rem;
+		gap: 0.5rem;
+		margin-top: 1rem;
 	}
 
 	.btn-secondary {
 		background-color: var(--secondary);
 		color: var(--text-on-secondary);
-		padding: 0.625rem 1.25rem;
+		padding: 0.375rem 0.75rem;
 		border: none;
-		border-radius: var(--border-radius);
-		font-size: 1rem;
+		border-radius: 4px;
+		font-size: 0.8rem;
 		font-weight: 500;
 		cursor: pointer;
-		transition: all 0.2s ease;
 	}
 
 	.btn-secondary:hover {
 		background-color: var(--secondary-dark);
-		transform: translateY(-1px);
-		box-shadow: var(--shadow-sm);
 	}
 
-	/* Responsive Design */
+	/* Responsive */
 	@media (max-width: 768px) {
-		.page-header h1 {
-			font-size: 1.5rem;
-		}
-
-		.stats-grid {
-			grid-template-columns: 1fr;
-			gap: 1rem;
-		}
-
-		.stat-card {
-			padding: 1rem;
-		}
-
-		.stat-icon {
-			font-size: 2rem;
-		}
-
-		.stat-value {
-			font-size: 1.5rem;
-		}
-
 		.section-header-toolbar {
-			flex-direction: column;
-			gap: 1rem;
-			align-items: flex-start;
+			flex-direction: row;
 		}
 
-		.data-table {
-			font-size: 0.875rem;
-		}
-
-		.data-table th,
-		.data-table td {
-			padding: 0.5rem;
-		}
-
-		/* Hide less important columns on mobile */
-		.data-table th:nth-child(n + 4),
-		.data-table td:nth-child(n + 4) {
+		.data-table th:nth-child(n + 5),
+		.data-table td:nth-child(n + 5) {
 			display: none;
-		}
-
-		.modal-content {
-			padding: 1rem;
 		}
 
 		.modal-actions {
 			flex-direction: column;
-			gap: 0.5rem;
 		}
 
 		.modal-actions button {
@@ -661,16 +571,6 @@
 	}
 
 	@media (max-width: 480px) {
-		.data-table {
-			font-size: 0.75rem;
-		}
-
-		.data-table th,
-		.data-table td {
-			padding: 0.375rem;
-		}
-
-		/* Show only essential columns on very small screens */
 		.data-table th:nth-child(n + 3),
 		.data-table td:nth-child(n + 3) {
 			display: none;

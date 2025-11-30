@@ -77,6 +77,7 @@ export const load: PageServerLoad = async (event) => {
 		{ count: newUsersMonth },
 		{ count: newUsersToday },
 		{ count: coachingWaitlist },
+		{ data: coachingWaitlistUsers },
 		{ count: totalQuestions },
 		{ count: totalComments },
 		{ data: activeUsersData },
@@ -95,8 +96,14 @@ export const load: PageServerLoad = async (event) => {
 			.from(profilesTable)
 			.select('*', { count: 'exact', head: true })
 			.gte('created_at', today.toISOString()),
-		// Coaching waitlist
+		// Coaching waitlist count
 		supabase.from('coaching_waitlist').select('*', { count: 'exact', head: true }),
+		// Coaching waitlist users
+		supabase
+			.from('coaching_waitlist')
+			.select('*')
+			.order('created_at', { ascending: false })
+			.limit(20),
 		// Content counts
 		supabase.from('questions').select('*', { count: 'exact', head: true }),
 		supabase.from('comments').select('*', { count: 'exact', head: true }),
@@ -145,6 +152,7 @@ export const load: PageServerLoad = async (event) => {
 		newUsersMonth: newUsersMonth || 0,
 		newUsersToday: newUsersToday || 0,
 		coachingWaitlist: coachingWaitlist || 0,
+		coachingWaitlistUsers: coachingWaitlistUsers || [],
 		totalQuestions: totalQuestions || 0,
 		totalComments: totalComments || 0,
 		activeUsers,
