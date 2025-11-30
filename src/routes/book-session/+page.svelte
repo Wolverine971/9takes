@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
+	import { enhance } from '$app/forms';
 	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import type { PageData } from './$types';
@@ -9,9 +10,6 @@
 	export let data: PageData;
 	export let form;
 
-	let email = form?.email || '';
-	let name = form?.name || '';
-	let enneagramType = '';
 	let submitted = form?.success || false;
 	let loading = false;
 
@@ -83,17 +81,12 @@
 	/* ---------------- Reactive checks ---------------- */
 	$: if (data.alreadySignedUp && !form?.success) submitted = true;
 
-	// Reset form fields on successful submission
+	// Update submitted state when form response comes back
 	$: if (form?.success) {
-		email = '';
-		name = '';
-		enneagramType = '';
+		submitted = true;
 		loading = false;
-	}
-
-	// Handle form submission state
-	function handleSubmit() {
-		loading = true;
+	} else if (form && !form.success) {
+		loading = false;
 	}
 
 	onMount(() => {
@@ -205,7 +198,18 @@
 						<h2 class="mb-2 text-xl font-bold text-indigo-800">Lock In Early Access</h2>
 						<p class="mb-6 text-gray-600">First spots open soon—get notified before anyone else.</p>
 
-						<form method="POST" action="?/coachSub" on:submit={handleSubmit} class="space-y-4">
+						<form
+							method="POST"
+							action="?/coachSub"
+							use:enhance={() => {
+								loading = true;
+								return async ({ result, update }) => {
+									await update();
+									loading = false;
+								};
+							}}
+							class="space-y-4"
+						>
 							<div>
 								<label for="name" class="sr-only">Your name</label>
 								<input
@@ -213,7 +217,7 @@
 									name="name"
 									type="text"
 									placeholder="Your name"
-									bind:value={name}
+									value={form?.name || ''}
 									required
 									disabled={loading}
 									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
@@ -226,7 +230,7 @@
 									name="email"
 									type="email"
 									placeholder="you@example.com"
-									bind:value={email}
+									value={form?.email || ''}
 									required
 									disabled={loading}
 									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
@@ -237,7 +241,7 @@
 								<select
 									id="enneagramType"
 									name="enneagramType"
-									bind:value={enneagramType}
+									value={form?.enneagramType || ''}
 									disabled={loading}
 									class="w-full rounded-lg border border-gray-300 bg-white p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
 								>
@@ -289,8 +293,8 @@
 							<h2 class="mb-4 text-2xl font-bold text-green-600">You're on the list!</h2>
 							<p class="mb-6 text-gray-600">We'll email you as soon as sessions open.</p>
 							<p class="mb-8 text-sm text-gray-500">
-								{#if email}Confirmation sent to <strong>{email}</strong>{:else}Welcome to the
-									priority list!{/if}
+								{#if form?.email}Confirmation sent to <strong>{form.email}</strong>{:else}Welcome
+									to the priority list!{/if}
 							</p>
 							<a
 								href="/"
