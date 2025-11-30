@@ -1,6 +1,5 @@
 // src/routes/book-session/+page.server.ts
-import { fail, redirect } from '@sveltejs/kit';
-import { supabase } from '$lib/supabase';
+import { fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
 
 export const actions: Actions = {
@@ -48,7 +47,7 @@ export const actions: Actions = {
 
 		try {
 			// Insert into coaching_waitlist table
-			const { data: waitlistData, error: waitlistError } = await supabase
+			const { data: waitlistData, error: waitlistError } = await locals.supabase
 				.from('coaching_waitlist')
 				.insert([{ name, email, enneagram_type: enneagramType }])
 				.select('id')
@@ -101,7 +100,7 @@ export const actions: Actions = {
 
 			// Insert metadata
 			if (waitlistData?.id) {
-				await supabase.from('coaching_waitlist_metadata').insert([
+				await locals.supabase.from('coaching_waitlist_metadata').insert([
 					{
 						waitlist_id: waitlistData.id,
 						source,

@@ -11,11 +11,11 @@
 
 	let email = form?.email || '';
 	let name = form?.name || '';
+	let enneagramType = '';
 	let submitted = form?.success || false;
 	let loading = false;
 
 	/* -------------------- SEO -------------------- */
-	const siteName = '9takes';
 	const title = '1‑on‑1 Enneagram Coaching | Stress‑Test Your Ideas & Grow EQ | 9takes';
 	const metaDescription =
 		'One situation, 9 ways to see it. Stress‑test your situations in your life with Enneagram coaching. Decode personality dynamics, boost situational awareness, and max out your personality.';
@@ -82,7 +82,19 @@
 
 	/* ---------------- Reactive checks ---------------- */
 	$: if (data.alreadySignedUp && !form?.success) submitted = true;
-	$: utmParams = data.utmParams;
+
+	// Reset form fields on successful submission
+	$: if (form?.success) {
+		email = '';
+		name = '';
+		enneagramType = '';
+		loading = false;
+	}
+
+	// Handle form submission state
+	function handleSubmit() {
+		loading = true;
+	}
 
 	onMount(() => {
 		if (browser) {
@@ -130,7 +142,7 @@
 <div class="mx-auto max-w-7xl px-4">
 	<!-- Hero -->
 	<!-- Replace your existing hero section with this clean version -->
-	<section class="py-16 md:py-20">
+	<section id="top" class="py-16 md:py-20">
 		<!-- Main headline and CTA aligned horizontally -->
 		<div class="mb-16 flex flex-col gap-12 lg:flex-row lg:items-start">
 			<div class="flex-1 lg:pr-8">
@@ -193,34 +205,41 @@
 						<h2 class="mb-2 text-xl font-bold text-indigo-800">Lock In Early Access</h2>
 						<p class="mb-6 text-gray-600">First spots open soon—get notified before anyone else.</p>
 
-						<form method="POST" action="?/coachSub" class="space-y-4">
+						<form method="POST" action="?/coachSub" on:submit={handleSubmit} class="space-y-4">
 							<div>
+								<label for="name" class="sr-only">Your name</label>
 								<input
 									id="name"
 									name="name"
 									type="text"
 									placeholder="Your name"
-									value={name}
+									bind:value={name}
 									required
-									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
+									disabled={loading}
+									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
 								/>
 							</div>
 							<div>
+								<label for="email" class="sr-only">Your email</label>
 								<input
 									id="email"
 									name="email"
 									type="email"
 									placeholder="you@example.com"
-									value={email}
+									bind:value={email}
 									required
-									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
+									disabled={loading}
+									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
 								/>
 							</div>
 							<div>
+								<label for="enneagramType" class="sr-only">Your Enneagram Type (optional)</label>
 								<select
 									id="enneagramType"
 									name="enneagramType"
-									class="w-full rounded-lg border border-gray-300 bg-white p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200"
+									bind:value={enneagramType}
+									disabled={loading}
+									class="w-full rounded-lg border border-gray-300 bg-white p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
 								>
 									<option value="">Your Enneagram Type (optional)</option>
 									<option value="1">Type 1 – The Perfectionist</option>
@@ -239,8 +258,9 @@
 							{/if}
 							<button
 								type="submit"
-								class="w-full rounded-lg bg-indigo-600 px-6 py-4 text-lg font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-lg disabled:cursor-not-allowed"
+								class="w-full rounded-lg bg-indigo-600 px-6 py-4 text-lg font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0 disabled:hover:shadow-none"
 								disabled={loading}
+								aria-busy={loading}
 							>
 								{loading ? 'Processing…' : 'Join Waitlist'}
 							</button>
@@ -298,7 +318,7 @@
 
 		<!-- Clean Benefits Section -->
 		<div class="mx-auto max-w-4xl">
-			<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+			<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
 				<div
 					class="flex items-start gap-4 rounded-xl border border-indigo-100 bg-gradient-to-br from-indigo-50 to-blue-50 p-6"
 				>
@@ -353,7 +373,7 @@
 	</section>
 
 	<!-- Benefits -->
-	<section class="my-8 rounded-2xl bg-gray-50 py-16">
+	<section class="my-16 rounded-2xl bg-gray-50 py-16">
 		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">
 			Why 9‑Lens Beats Solo Thinking/ DIY
 		</h2>
@@ -396,7 +416,7 @@
 
 	<!-- Personality-Maxing Section -->
 	<section
-		class="my-8 rounded-2xl bg-gradient-to-r from-purple-50 via-white to-indigo-50 p-12 text-center shadow-md"
+		class="my-16 rounded-2xl bg-gradient-to-r from-purple-50 via-white to-indigo-50 p-12 text-center shadow-md"
 	>
 		<h2 class="mb-6 text-3xl font-bold text-indigo-800">"Max Out" Your Personality.</h2>
 		<p class="mx-auto mb-6 max-w-3xl text-lg text-gray-700">
@@ -429,7 +449,7 @@
 	</section>
 
 	<!-- Enneagram Visual -->
-	<section class="my-8 rounded-2xl bg-gradient-to-br from-indigo-800 to-gray-800 py-16 text-white">
+	<section class="my-16 rounded-2xl bg-gradient-to-br from-indigo-800 to-gray-800 py-16 text-white">
 		<div class="flex flex-col gap-8 md:flex-row md:items-center">
 			<div class="flex-1 p-8">
 				<h2 class="mb-6 text-3xl font-bold text-white">Why the Enneagram Works</h2>
@@ -443,11 +463,11 @@
 				<div class="mt-8 flex flex-col items-center gap-4 sm:flex-row">
 					<a
 						href="#top"
-						class="inline-block rounded-lg bg-white px-6 py-3.5 font-semibold text-indigo-800 transition hover:-translate-y-0.5 hover:shadow-md"
+						class="inline-block rounded-lg bg-white px-6 py-3.5 font-semibold text-indigo-800 transition hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-indigo-800"
 						>Join Waitlist</a
 					><a
 						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-						class="border-b border-white/30 pb-0.5 transition hover:border-white"
+						class="border-b border-white/30 pb-0.5 transition hover:border-white focus-visible:outline-none focus-visible:border-white"
 						>Learn the basics →</a
 					>
 				</div>
@@ -508,21 +528,30 @@
 
 	<!-- Final CTA -->
 	<section
-		class="my-12 rounded-2xl border-2 border-indigo-200 bg-gradient-to-r from-indigo-50 to-white px-8 py-12 text-center shadow-lg"
+		class="my-16 rounded-2xl border-2 border-indigo-200 bg-gradient-to-r from-indigo-50 to-white px-8 py-12 text-center shadow-lg"
 	>
 		<div class="mx-auto max-w-2xl">
 			<h2 class="mb-4 text-3xl font-bold text-indigo-800">Go from Blind Spots to Breakthroughs</h2>
 			<p class="mb-8 text-lg text-gray-600">Join the waitlist now—openings are limited</p>
 			<a
 				href="#top"
-				class="inline-block rounded-lg bg-indigo-600 px-8 py-4 text-lg font-semibold text-white transition hover:-translate-y-1 hover:bg-indigo-700 hover:shadow-lg"
+				class="inline-block rounded-lg bg-indigo-600 px-8 py-4 text-lg font-semibold text-white transition hover:-translate-y-1 hover:bg-indigo-700 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 focus-visible:ring-offset-2"
 				>Join the Waitlist</a
 			>
-			<div class="mt-4 text-sm text-gray-500">⏱ Join the waitlist now—openings are limited</div>
+			<div class="mt-4 text-sm text-gray-500">⏱ First to know when sessions launch</div>
 		</div>
 	</section>
 </div>
 
 <style>
-	/* minimal styling - leverage Tailwind */
+	/* Smooth scroll for anchor links */
+	:global(html) {
+		scroll-behavior: smooth;
+	}
+
+	/* Focus visible improvements for accessibility */
+	:global(*:focus-visible) {
+		outline: 2px solid #4f46e5;
+		outline-offset: 2px;
+	}
 </style>
