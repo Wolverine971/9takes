@@ -116,10 +116,10 @@
 
 {#key key}
 	{#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
-		<div class="space-y-4">
+		
 			{#each _comments as comment, index (comment.id)}
 				<div
-					class="transform transition-all duration-500 ease-out"
+					class="transform transition-all duration-500 ease-out p-1"
 					in:fade={{ duration: 400, delay: Math.min(index * 30, 150) }}
 				>
 					<Comment
@@ -170,7 +170,7 @@
 					{/if}
 				</div>
 			{/if}
-		</div>
+		
 	{:else if parentData?.flags?.userHasAnswered && !comments.length}
 		<div class="flex flex-col items-center justify-center py-12">
 			<div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-neutral-100">

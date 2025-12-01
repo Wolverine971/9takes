@@ -366,9 +366,9 @@
 		>
 			<div class="flex w-full flex-col">
 				<!-- Comment Header and Content -->
-				<div class="p-4" id="comment-box{_commentComment.id}">
+				<div class="p-3" id="comment-box{_commentComment.id}">
 					<!-- User Badge and Timestamp -->
-					<div class="mb-3 flex items-start justify-between">
+					<div class="mb-2 flex items-start justify-between">
 						<div class="flex items-center gap-3">
 							{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
 								<a

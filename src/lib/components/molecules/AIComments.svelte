@@ -2,9 +2,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
-	import { cubicInOut } from 'svelte/easing';
-	import Card from '$lib/components/atoms/card.svelte';
+	import { fade } from 'svelte/transition';
 	import LeftIcon from '$lib/components/icons/leftIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
@@ -51,20 +49,18 @@
 <svelte:window on:keydown={handleKeydown} />
 
 {#if browser && data?.ai_comments?.length && parentType === 'question' && data?.flags?.userHasAnswered && showAiComments}
-	<section class="mb-8" aria-label="Enneagram personality type perspectives">
-		<h2
-			class="relative mb-4 py-2 text-center text-xl font-semibold text-neutral-900 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-[60px] after:-translate-x-1/2 after:rounded-sm after:bg-primary-500 after:content-['']"
-		>
+	<section class="mb-4 p-1" aria-label="Enneagram personality type perspectives">
+		<h3 class="m-2 text-center text-sm font-medium text-neutral-600">
 			Enneagram Takes (stereotypes)
-		</h2>
+		</h3>
 
 		<div
-			class="relative mb-4 flex items-center justify-center overflow-hidden rounded border border-neutral-400 bg-white shadow-sm"
+			class="relative flex items-center justify-center overflow-hidden rounded border border-neutral-300 bg-white"
 			role="region"
 			aria-live="polite"
 		>
 			<button
-				class="z-10 ml-2 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border-none bg-white/80 text-primary-500 shadow-sm transition-all duration-300 hover:scale-110 hover:bg-white hover:text-primary-600 sm:h-8 sm:w-8"
+				class="z-10 ml-1 flex h-7 w-7 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-white/80 text-primary-500 transition-all duration-200 hover:bg-neutral-100 hover:text-primary-600"
 				on:click={moveLeft}
 				aria-label="Previous perspective"
 				title="Previous perspective"
@@ -79,7 +75,7 @@
 				>
 					{#each data.ai_comments as comment, index}
 						<div
-							class="box-border w-full flex-none p-4 transition-opacity duration-300 {index ===
+							class="box-border w-full flex-none px-2 py-2 transition-opacity duration-300 {index ===
 							active
 								? 'opacity-100'
 								: 'opacity-30'}"
@@ -88,33 +84,31 @@
 							aria-labelledby={`enneagram-type-${comment.enneagram_type}-tab`}
 							tabindex={index === active ? 0 : -1}
 						>
-							<Card>
-								<div
-									class="flex min-h-[200px] flex-col items-center justify-center gap-6 p-4 text-center"
-									itemscope
-									itemtype="https://schema.org/Answer"
-									in:fade={{ duration: 300, delay: 100 }}
+							<div
+								class="flex items-center gap-3"
+								itemscope
+								itemtype="https://schema.org/Answer"
+								in:fade={{ duration: 200, delay: 50 }}
+							>
+								<span
+									class="shrink-0 rounded bg-primary-100 px-2 py-1 text-xs font-semibold text-primary-800"
 								>
-									<p
-										class="m-0 text-lg italic leading-relaxed text-neutral-900 sm:text-base"
-										itemprop="text"
-									>
-										{comment.comment}
-									</p>
-									<span
-										class="rounded border border-primary-100 bg-primary-100 px-4 py-2 font-semibold text-primary-800 transition-all duration-300"
-									>
-										Type {comment.enneagram_type}
-									</span>
-								</div>
-							</Card>
+									Type {comment.enneagram_type}
+								</span>
+								<p
+									class="m-0 line-clamp-2 text-sm italic text-neutral-700"
+									itemprop="text"
+								>
+									{comment.comment}
+								</p>
+							</div>
 						</div>
 					{/each}
 				</div>
 			</div>
 
 			<button
-				class="z-10 mr-2 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border-none bg-white/80 text-primary-500 shadow-sm transition-all duration-300 hover:scale-110 hover:bg-white hover:text-primary-600 sm:h-8 sm:w-8"
+				class="z-10 mr-1 flex h-7 w-7 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-white/80 text-primary-500 transition-all duration-200 hover:bg-neutral-100 hover:text-primary-600"
 				on:click={moveRight}
 				aria-label="Next perspective"
 				title="Next perspective"
@@ -123,13 +117,13 @@
 			</button>
 		</div>
 
-		<div class="mt-2 flex justify-center gap-2" role="tablist">
+		<div class="mt-1.5 flex justify-center gap-1.5" role="tablist">
 			{#each data.ai_comments as comment, index}
 				<button
-					class="h-2.5 w-2.5 cursor-pointer rounded-full border-none p-0 transition-all duration-300 {active ===
+					class="h-1.5 w-1.5 cursor-pointer rounded-full border-none p-0 transition-all duration-200 {active ===
 					index
-						? 'scale-110 bg-primary-500'
-						: 'bg-neutral-400 hover:bg-neutral-600'}"
+						? 'bg-primary-500'
+						: 'bg-neutral-300 hover:bg-neutral-500'}"
 					on:click={() => {
 						direction = index > active ? 'right' : 'left';
 						active = index;
