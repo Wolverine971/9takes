@@ -2,10 +2,10 @@
 import { error, fail } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import type { Actions } from './$types';
-import { supabase } from '$lib/supabase';
 
 export const load: PageServerLoad = async (event) => {
 	try {
+		const supabase = event.locals.supabase;
 		const { data: campaigns, error: campaignsError } = await supabase
 			.from('campaigns')
 			.select('*')
@@ -41,6 +41,7 @@ export const load: PageServerLoad = async (event) => {
 export const actions: Actions = {
 	createCampaign: async (event) => {
 		const { request } = event;
+		const supabase = event.locals.supabase;
 		const formData = await request.formData();
 		const campaignData = {
 			name: formData.get('name') as string,
@@ -70,6 +71,7 @@ export const actions: Actions = {
 
 	updateCampaign: async (event) => {
 		const { request } = event;
+		const supabase = event.locals.supabase;
 		const formData = await request.formData();
 		const id = formData.get('id') as string;
 		const campaignData = {
@@ -101,6 +103,7 @@ export const actions: Actions = {
 
 	updateCampaignContent: async (event) => {
 		const { request } = event;
+		const supabase = event.locals.supabase;
 		const formData = await request.formData();
 
 		const campaignId = formData.get('campaignId') as string;
@@ -155,6 +158,7 @@ export const actions: Actions = {
 
 	createContent: async (event) => {
 		const { request } = event;
+		const supabase = event.locals.supabase;
 		const formData = await request.formData();
 		const contentData = {
 			campaign_id: formData.get('campaign_id') as string,
@@ -181,6 +185,7 @@ export const actions: Actions = {
 
 	updateContent: async (event) => {
 		const { request } = event;
+		const supabase = event.locals.supabase;
 		const formData = await request.formData();
 		const id = formData.get('id') as string;
 		const contentData = {
@@ -210,6 +215,7 @@ export const actions: Actions = {
 
 	createTemplate: async (event) => {
 		const { request } = event;
+		const supabase = event.locals.supabase;
 		const formData = await request.formData();
 		const templateData = {
 			content_text: formData.get('content_text') as string,
@@ -232,6 +238,7 @@ export const actions: Actions = {
 
 	updateTemplate: async (event) => {
 		const { request } = event;
+		const supabase = event.locals.supabase;
 		const formData = await request.formData();
 		const id = formData.get('id') as string;
 		const templateData = {
@@ -256,6 +263,7 @@ export const actions: Actions = {
 
 	deleteTemplate: async (event) => {
 		const { request } = event;
+		const supabase = event.locals.supabase;
 		const formData = await request.formData();
 		const id = formData.get('id') as string;
 

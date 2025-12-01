@@ -3,14 +3,36 @@ import { supabase } from '$lib/supabase';
 
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
-import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
+import { addESComment, addESCommentLike, addESSubscription } from '$lib/server/elasticSearch';
 import { decode } from 'base64-arraybuffer';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
+import { z } from 'zod';
 
 import axios from 'axios';
 import { load as cheerioLoad } from 'cheerio';
+
+// =============================================================================
+// Validation Schemas
+// =============================================================================
+const commentSchema = z.object({
+	comment: z
+		.string()
+		.min(1, 'Comment cannot be empty')
+		.max(5000, 'Comment cannot exceed 5000 characters')
+		.trim(),
+	parent_id: z.string().regex(/^\d+$/, 'Invalid parent ID'),
+	parent_type: z.enum(['question', 'comment']),
+	author_id: z.string().optional(),
+	es_id: z.string().optional(),
+	question_id: z.string().regex(/^\d+$/, 'Invalid question ID'),
+	fingerprint: z.string().max(100).optional()
+});
+
+// Rate limit configuration: 5 comments per minute
+const RATE_LIMIT_MAX_COMMENTS = 5;
+const RATE_LIMIT_WINDOW_SECONDS = 60;
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageLoad = async (event) => {
@@ -73,16 +95,53 @@ export const load: PageLoad = async (event) => {
 export const actions: Actions = {
 	createComment: async ({ request, getClientAddress }) => {
 		const { body, demo_time } = await getRequestData(request);
-		const commentData = await createCommentData(body, getClientAddress(), demo_time);
+		const ip = getClientAddress();
+
+		// Validate input
+		const validationResult = commentSchema.safeParse(body);
+		if (!validationResult.success) {
+			const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
+			throw error(400, { message: firstError });
+		}
+
+		// Check rate limit (skip in demo mode)
+		if (!demo_time) {
+			const isAllowed = await checkRateLimit(
+				body.fingerprint as string,
+				ip
+			);
+			if (!isAllowed) {
+				throw error(429, { message: 'Too many comments. Please wait a minute before trying again.' });
+			}
+		}
+
+		const commentData = await createCommentData(body, ip, demo_time);
 		return handleCommentCreation(commentData, body.parent_type as string, demo_time);
 	},
 
 	createCommentRando: async ({ request, getClientAddress }) => {
 		const { body, demo_time } = await getRequestData(request);
-		if (typeof body.comment !== 'string') {
-			throw error(404, { message: 'Bad comment' });
+		const ip = getClientAddress();
+
+		// Validate input
+		const validationResult = commentSchema.safeParse(body);
+		if (!validationResult.success) {
+			const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
+			throw error(400, { message: firstError });
 		}
-		const commentData = await createCommentData(body, getClientAddress(), demo_time);
+
+		// Check rate limit (skip in demo mode)
+		if (!demo_time) {
+			const isAllowed = await checkRateLimit(
+				body.fingerprint as string,
+				ip
+			);
+			if (!isAllowed) {
+				throw error(429, { message: 'Too many comments. Please wait a minute before trying again.' });
+			}
+		}
+
+		const commentData = await createCommentData(body, ip, demo_time);
 		const record = await handleCommentCreation(commentData, body.parent_type as string, demo_time);
 		return mapDemoValues(record);
 	},
@@ -90,7 +149,7 @@ export const actions: Actions = {
 	likeComment: async ({ request, locals }) => {
 		const session = locals.session;
 		if (!session?.user?.id) {
-			throw error(400, 'unauthorized');
+			throw error(401, 'Unauthorized');
 		}
 
 		const { body, demo_time } = await getRequestData(request);
@@ -108,7 +167,7 @@ export const actions: Actions = {
 	subscribe: async ({ request, locals }) => {
 		const session = locals.session;
 		if (!session?.user?.id) {
-			throw error(400, 'unauthorized');
+			throw error(401, 'Unauthorized');
 		}
 
 		const { body, demo_time } = await getRequestData(request);
@@ -132,7 +191,7 @@ export const actions: Actions = {
 	flagComment: async ({ request, locals }) => {
 		const session = locals.session;
 		if (!session?.user?.id) {
-			throw error(400, 'unauthorized');
+			throw error(401, 'Unauthorized');
 		}
 
 		const { comment_id, description } = Object.fromEntries(await request.formData());
@@ -151,6 +210,33 @@ async function getRequestData(request: Request) {
 	const body = Object.fromEntries(await request.formData());
 	const demo_time = await checkDemoTime();
 	return { body, demo_time };
+}
+
+/**
+ * Check if the user has exceeded the rate limit for comments
+ * Returns true if allowed to comment, false if rate limited
+ */
+async function checkRateLimit(fingerprint: string | undefined, ip: string): Promise<boolean> {
+	try {
+		const { data, error: rpcError } = await supabase.rpc('check_comment_rate_limit', {
+			p_fingerprint: fingerprint || null,
+			p_ip: ip,
+			p_max_comments: RATE_LIMIT_MAX_COMMENTS,
+			p_window_seconds: RATE_LIMIT_WINDOW_SECONDS
+		});
+
+		if (rpcError) {
+			// Log error but allow the comment (fail open for availability)
+			console.error('Rate limit check failed:', rpcError);
+			return true;
+		}
+
+		return data === true;
+	} catch (err) {
+		// Fail open - if rate limiting is broken, still allow comments
+		console.error('Rate limit check error:', err);
+		return true;
+	}
 }
 
 async function createCommentData(body: any, ip: string, demo_time: boolean) {
@@ -198,32 +284,39 @@ async function createESComment(
 }
 
 async function handleCommentCreation(commentData: any, parent_type: string, demo_time: boolean) {
-	const { data: record, error: addCommentError } = await supabase
-		.from(demo_time ? 'comments_demo' : 'comments')
-		.insert(commentData)
-		.select()
-		.single();
+	// For demo mode, use regular insert (demo tables don't have the atomic RPC)
+	if (demo_time) {
+		const { data: record, error: addCommentError } = await supabase
+			.from('comments_demo')
+			.insert(commentData)
+			.select()
+			.single();
 
-	if (addCommentError) {
-		console.error(addCommentError);
-		throw error(404, { message: 'Add comment error' });
+		if (addCommentError) {
+			console.error(addCommentError);
+			throw error(500, { message: 'Failed to add comment' });
+		}
+
+		return record;
 	}
 
-	if (parent_type === 'comment' && !demo_time) {
-		await incrementCommentCount(commentData.parent_id);
+	// For production, use atomic RPC that handles insert + count increment in one transaction
+	const { data: record, error: rpcError } = await supabase.rpc('create_comment_atomic', {
+		p_comment: commentData.comment,
+		p_parent_id: commentData.parent_id,
+		p_author_id: commentData.author_id || null,
+		p_parent_type: parent_type,
+		p_fingerprint: commentData.fingerprint || null,
+		p_ip: commentData.ip,
+		p_es_id: commentData.es_id || null
+	});
+
+	if (rpcError) {
+		console.error('Atomic comment creation failed:', rpcError);
+		throw error(500, { message: 'Failed to add comment' });
 	}
 
 	return record;
-}
-
-async function incrementCommentCount(parentId: number) {
-	const { error: incrementError } = await supabase.rpc('increment_comment_count', {
-		comment_parent_id: parentId
-	});
-
-	if (incrementError) {
-		console.error('Error incrementing comment count:', incrementError);
-	}
 }
 
 async function addLike(parent_id: string, user_id: string) {
@@ -235,7 +328,7 @@ async function addLike(parent_id: string, user_id: string) {
 
 	if (addLikeError) {
 		console.error(addLikeError);
-		throw error(404, { message: 'Add like error' });
+		throw error(500, { message: 'Failed to add like' });
 	}
 
 	await supabase.rpc('increment_like_count', { comment_id: parent_id });
@@ -251,7 +344,7 @@ async function removeLike(parent_id: string, user_id: string, demo_time: boolean
 
 	if (removeLikeError) {
 		console.error(removeLikeError);
-		throw error(404, { message: 'Remove like error' });
+		throw error(500, { message: 'Failed to remove like' });
 	}
 
 	await supabase.rpc('decrement_like_count', { comment_id: parent_id });
@@ -267,7 +360,7 @@ async function addSubscription(parent_id: string, user_id: string, demo_time: bo
 
 	if (addSubscriptionError) {
 		console.error(addSubscriptionError);
-		throw error(404, { message: 'Add subscription error' });
+		throw error(500, { message: 'Failed to add subscription' });
 	}
 
 	return subscriptionRecord;
@@ -282,7 +375,7 @@ async function removeSubscription(parent_id: string, user_id: string, demo_time:
 
 	if (removeSubscriptionError) {
 		console.error(removeSubscriptionError);
-		throw error(404, { message: 'Remove subscription error' });
+		throw error(500, { message: 'Failed to remove subscription' });
 	}
 
 	return null;
@@ -294,7 +387,8 @@ async function incrementLinkClicks(linkId: string) {
 	});
 
 	if (incrementError) {
-		throw error(404, { message: 'Increment link clicks error' });
+		console.error('Failed to increment link clicks:', incrementError);
+		// Don't throw - link click tracking is non-critical
 	}
 }
 
@@ -304,7 +398,8 @@ async function flagComment(userId: string, commentId: string, description: strin
 		.insert({ flagged_by: userId, comment_id: commentId, description });
 
 	if (flagCommentError) {
-		throw error(404, { message: 'Flag comment error' });
+		console.error(flagCommentError);
+		throw error(500, { message: 'Failed to flag comment' });
 	}
 }
 

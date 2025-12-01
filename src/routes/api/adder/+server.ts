@@ -2,7 +2,6 @@
 import { error, json } from '@sveltejs/kit';
 import { dev } from '$app/environment';
 // routes/api/adder/+server.ts
-import { supabase } from '$lib/supabase';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { z } from 'zod';
 
@@ -12,10 +11,11 @@ const visitorSchema = z.object({
 });
 
 /** @type {import('./$types').RequestHandler} */
-export const POST = withApiLogging(async ({ request }) => {
+export const POST = withApiLogging(async ({ request, locals }) => {
 	try {
 		const formData = await request.formData();
 		const body = Object.fromEntries(formData);
+		const supabase = locals.supabase;
 
 		if (dev) {
 			return json({

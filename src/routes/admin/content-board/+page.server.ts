@@ -1,7 +1,6 @@
 // src/routes/admin/content-board/+page.server.ts
 import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
-import { supabase } from '$lib/supabase';
 
 import type { Actions } from '@sveltejs/kit';
 
@@ -14,6 +13,7 @@ export const load = async (
 	guides: App.BlogPost[];
 }> => {
 	const session = event.locals.session;
+	const supabase = event.locals.supabase;
 
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');

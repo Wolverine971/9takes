@@ -1,11 +1,11 @@
 // src/routes/admin/messages/+page.server.ts
-import { supabase } from '$lib/supabase';
 import type { PageServerLoad } from './$types';
 import { redirect, type Actions } from '@sveltejs/kit';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
+	const supabase = event.locals.supabase;
 
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');

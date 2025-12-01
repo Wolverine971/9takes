@@ -1,6 +1,6 @@
 // src/routes/api/questions/typeahead/+server.ts
 import { json } from '@sveltejs/kit';
-import { elasticClient } from '$lib/elasticSearch';
+import { elasticClient } from '$lib/server/elasticSearch';
 import type { RequestHandler } from './$types';
 
 export const GET: RequestHandler = async ({ url, locals }) => {

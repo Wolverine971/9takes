@@ -2,13 +2,12 @@
 import { error, redirect } from '@sveltejs/kit';
 
 import type { Actions } from '@sveltejs/kit';
-import { supabase } from '$lib/supabase';
-
 import type { PageServerLoad } from '../../$types';
 import { decrypt } from '../../../../utils/crypto';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
+	const supabase = event.locals.supabase;
 	const slug = event.params.slug;
 
 	const { data: userSignup, error: userSignupfError } = await supabase
@@ -38,6 +37,7 @@ export const actions: Actions = {
 	confirmUnsubscribe: async (event) => {
 		try {
 			const { request, params } = event;
+			const supabase = event.locals.supabase;
 			const slug = params.slug;
 
 			const body = Object.fromEntries(await request.formData());

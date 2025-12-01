@@ -5,10 +5,10 @@ import { PRIVATE_SIGNUP_KEY } from '$env/static/private';
 const algorithm = 'aes-256-cbc';
 
 const key = PRIVATE_SIGNUP_KEY;
-const iv = crypto.randomBytes(16);
 
 export const encrypt = (text: string) => {
 	const bKey = Buffer.from(key, 'hex');
+	const iv = crypto.randomBytes(16);
 	const cipher = crypto.createCipheriv(algorithm, bKey, iv);
 
 	// Updating text

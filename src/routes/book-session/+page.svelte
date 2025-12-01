@@ -13,6 +13,12 @@
 	let submitted = form?.success || false;
 	let loading = false;
 
+	// Bot protection: track form load time
+	let formLoadTime = 0;
+	onMount(() => {
+		formLoadTime = Date.now();
+	});
+
 	/* -------------------- SEO -------------------- */
 	const title = '1‑on‑1 Enneagram Coaching | Stress‑Test Your Ideas & Grow EQ | 9takes';
 	const metaDescription =
@@ -201,8 +207,10 @@
 						<form
 							method="POST"
 							action="?/coachSub"
-							use:enhance={() => {
+							use:enhance={({ formData }) => {
 								loading = true;
+								// Add time token for bot detection (time since page load)
+								formData.set('_timeToken', String(Date.now() - formLoadTime));
 								return async ({ result, update }) => {
 									await update();
 									loading = false;
@@ -210,6 +218,17 @@
 							}}
 							class="space-y-4"
 						>
+							<!-- Honeypot field - hidden from humans, bots will fill it -->
+							<div style="position: absolute; left: -9999px; top: -9999px;" aria-hidden="true">
+								<label for="website">Website</label>
+								<input
+									type="text"
+									id="website"
+									name="website"
+									tabindex="-1"
+									autocomplete="off"
+								/>
+							</div>
 							<div>
 								<label for="name" class="sr-only">Your name</label>
 								<input

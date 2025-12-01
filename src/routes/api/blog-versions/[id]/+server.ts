@@ -1,12 +1,12 @@
 // src/routes/api/blog-versions/[id]/+server.ts
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { supabase } from '$lib/supabase';
 import { readFileSync, existsSync, statSync } from 'fs';
 import { join } from 'path';
 
-export const GET: RequestHandler = async ({ params }) => {
+export const GET: RequestHandler = async ({ params, locals }) => {
 	const blogId = parseInt(params.id as string);
+	const supabase = locals.supabase;
 
 	if (isNaN(blogId)) {
 		return json({ error: 'Invalid blog ID' }, { status: 400 });

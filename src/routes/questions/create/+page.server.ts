@@ -37,13 +37,12 @@ export const load: PageServerLoad = async (event) => {
 
 import type { Actions } from './$types';
 // import type { RequestHandler } from '@sveltejs/kit';
-import { supabase } from '$lib/supabase';
-import { createESQuestion } from '$lib/elasticSearch';
+import { createESQuestion } from '$lib/server/elasticSearch';
 import { error } from '@sveltejs/kit';
-import { tagQuestion } from '../../../utils/openai';
+import { tagQuestion } from '../../../utils/server/openai';
 import { typeaheadQuery } from '../../../utils/elasticSearch';
 
-import { elasticClient } from '$lib/elasticSearch';
+import { elasticClient } from '$lib/server/elasticSearch';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 
@@ -51,13 +50,14 @@ export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
 		try {
 			const session = locals.session;
+			const supabase = locals.supabase;
 
 			if (!session?.user?.id) {
 				logger.warn('Unauthorized URL generation attempt');
 				throw error(401, 'Unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 			const formData = await request.formData();
 			const body = Object.fromEntries(formData);
 
@@ -107,6 +107,7 @@ export const actions: Actions = {
 
 		try {
 			const { request, locals } = event;
+			const supabase = locals.supabase;
 
 			// Add timeout for formData parsing
 			const formDataPromise = request.formData();
@@ -117,7 +118,7 @@ export const actions: Actions = {
 			try {
 				formData = await Promise.race([formDataPromise, timeoutPromise]);
 			} catch (e) {
-				console.error('FormData parsing error:', e);
+				logger.error('FormData parsing error', e as Error);
 				throw error(400, {
 					message: 'Failed to parse form data - request may be too large or malformed'
 				});
@@ -131,7 +132,7 @@ export const actions: Actions = {
 				});
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 			const session = locals.session;
 
 			if (!session?.user?.id) {
@@ -264,7 +265,7 @@ export const actions: Actions = {
 			}
 
 			if (insertedQuestion?.length) {
-				await tagQuestion(question, insertedQuestion[0].id);
+				await tagQuestion(supabase, question, insertedQuestion[0].id);
 				logger.info('Question created successfully', {
 					questionId: insertedQuestion[0].id,
 					url,

@@ -2,10 +2,10 @@
 import { PRIVATE_GOOGLE_MAPS_API_KEY } from '$env/static/private';
 import { error, redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
-import { supabase } from '$lib/supabase';
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
+	const supabase = event.locals.supabase;
 
 	let user = null;
 	if (session?.user?.id) {

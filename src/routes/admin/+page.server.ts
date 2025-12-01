@@ -1,6 +1,4 @@
 // src/routes/admin/+page.server.ts
-import { supabase } from '$lib/supabase';
-
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
@@ -12,12 +10,13 @@ import {
 	recreateIndex,
 	getQuestionIndexMapping,
 	getBlogIndexMapping
-} from '$lib/elasticSearch';
+} from '$lib/server/elasticSearch';
 import { mapDemoValues } from '../../utils/demo';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
+	const supabase = event.locals.supabase;
 
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
@@ -167,11 +166,12 @@ export const actions: Actions = {
 	toggleDemo: async (event) => {
 		try {
 			const session = event.locals.session;
+			const supabase = event.locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const { data: user } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
@@ -207,12 +207,13 @@ export const actions: Actions = {
 	reindexEverything: async (event) => {
 		try {
 			const session = event.locals.session;
+			const supabase = event.locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const { data: user } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')

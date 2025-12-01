@@ -4,8 +4,7 @@ import { PRIVATE_WEBHOOK_AUTH } from '$env/static/private';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { z } from 'zod';
 
-import { tagQuestion, tagQuestions } from '../../../utils/openai';
-import { supabase } from '$lib/supabase';
+import { tagQuestion, tagQuestions } from '../../../utils/server/openai';
 import { checkDemoTime } from '../../../utils/api';
 
 // Validation schemas
@@ -20,7 +19,7 @@ const updateQuestionSchema = z.object({
 });
 
 /** @type {import('./$types').RequestHandler} */
-export const GET = withApiLogging(async ({ request }) => {
+export const GET = withApiLogging(async ({ request, locals }) => {
 	try {
 		const { headers } = request;
 		const auth = headers.get('auth') ?? '';
@@ -30,8 +29,10 @@ export const GET = withApiLogging(async ({ request }) => {
 			throw error(401, 'Unauthorized');
 		}
 
+		const supabase = locals.supabase;
+
 		logger.info('Starting bulk question tagging');
-		await tagQuestions();
+		await tagQuestions(supabase);
 		logger.info('Bulk question tagging completed');
 		return json({ success: true, message: 'Questions tagged successfully' });
 	} catch (e) {
@@ -54,7 +55,8 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 			throw error(401, 'Unauthorized');
 		}
 
-		const demo_time = await checkDemoTime();
+		const supabase = locals.supabase;
+		const demo_time = await checkDemoTime(supabase);
 
 		const { data: user } = await supabase
 			.from(demo_time === true ? 'profiles_demo' : 'profiles')
@@ -81,7 +83,7 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 			adminId: user.external_id
 		});
 
-		await tagQuestion(questionText, questionId);
+		await tagQuestion(supabase, questionText, questionId);
 
 		logger.info('Question tagged successfully', { questionId });
 		return json({ success: true });

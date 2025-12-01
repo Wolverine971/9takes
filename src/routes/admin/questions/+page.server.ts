@@ -1,14 +1,12 @@
 // src/routes/admin/questions/+page.server.ts
-import { supabase } from '$lib/supabase';
-
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../../utils/api';
-import { tagQuestion } from '../../../utils/openai';
+import { tagQuestion } from '../../../utils/server/openai';
 import { mapDemoValues } from '../../../utils/demo';
 
 // Helper functions to reduce repetition
-async function validateAdmin(session, demoTime) {
+async function validateAdmin(session, demoTime, supabase) {
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
@@ -35,10 +33,11 @@ async function validateAdmin(session, demoTime) {
 export const load: PageServerLoad = async (event) => {
 	try {
 		const session = event.locals.session;
+		const supabase = event.locals.supabase;
 		const { demo_time } = await event.parent();
 
 		// Validate user is an admin
-		const user = await validateAdmin(session, demo_time);
+		const user = await validateAdmin(session, demo_time, supabase);
 
 		// Get questions with related data
 		const { data: questions, error: questionsError } = await supabase
@@ -108,10 +107,11 @@ export const actions: Actions = {
 	classifyQuestion: async ({ request, locals }) => {
 		try {
 			const session = locals?.session;
-			const demo_time = await checkDemoTime();
+			const supabase = locals.supabase;
+			const demo_time = await checkDemoTime(supabase);
 
 			// Validate user is an admin
-			await validateAdmin(session, demo_time);
+			await validateAdmin(session, demo_time, supabase);
 
 			// Get question data from form
 			const body = Object.fromEntries(await request.formData());
@@ -119,7 +119,7 @@ export const actions: Actions = {
 			const questionText = body.questionText as string;
 
 			// Process question tagging
-			await tagQuestion(questionText, parseInt(questionId));
+			await tagQuestion(supabase, questionText, parseInt(questionId));
 
 			return { success: true };
 		} catch (e) {
@@ -132,10 +132,11 @@ export const actions: Actions = {
 	classifyAllUntaggedQuestions: async ({ request, locals }) => {
 		try {
 			const session = locals?.session;
-			const demo_time = await checkDemoTime();
+			const supabase = locals.supabase;
+			const demo_time = await checkDemoTime(supabase);
 
 			// Validate user is an admin
-			await validateAdmin(session, demo_time);
+			await validateAdmin(session, demo_time, supabase);
 
 			// Get question data from form
 			const body = Object.fromEntries(await request.formData());
@@ -143,7 +144,7 @@ export const actions: Actions = {
 			const questionText = body.questionText as string;
 
 			// Process question tagging
-			await tagQuestion(questionText, parseInt(questionId));
+			await tagQuestion(supabase, questionText, parseInt(questionId));
 
 			return { success: true };
 		} catch (e) {

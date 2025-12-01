@@ -1,10 +1,10 @@
 // src/routes/admin/links/+page.server.ts
 import { redirect, type Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
-import { supabase } from '$lib/supabase';
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
+	const supabase = event.locals.supabase;
 
 	if (!session?.user?.id) {
 		throw redirect(307, '/questions');

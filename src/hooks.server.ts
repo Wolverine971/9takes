@@ -9,7 +9,7 @@ import type { Handle } from '@sveltejs/kit';
 // import dropcss from 'dropcss';
 
 // import schedule from 'node-schedule';
-// import { tagQuestions } from './utils/openai';
+// import { tagQuestions } from './utils/server/openai';
 
 export const handle: Handle = async ({ event, resolve }) => {
 	event.locals.supabase = createServerClient<Database>(

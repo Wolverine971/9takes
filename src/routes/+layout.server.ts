@@ -1,5 +1,6 @@
 // src/routes/+layout.server.ts
 import type { LayoutServerLoad } from './$types';
+import { logger } from '$lib/utils/logger';
 
 export const load: LayoutServerLoad = async (event) => {
 	const { data: adminSettings, error: adminSettingsError } = await event.locals.supabase
@@ -7,7 +8,7 @@ export const load: LayoutServerLoad = async (event) => {
 		.select('*');
 
 	if (adminSettingsError) {
-		// Handle admin settings error
+		logger.warn('Failed to load admin_settings in layout', adminSettingsError);
 	}
 
 	let parents: { name: string; slug: string }[] = [];
@@ -20,7 +21,7 @@ export const load: LayoutServerLoad = async (event) => {
 		);
 
 		if (parentsError) {
-			// Handle parents error
+			logger.warn('Failed to fetch category parents', parentsError, { slug });
 		}
 		parents = parentsCats;
 	}

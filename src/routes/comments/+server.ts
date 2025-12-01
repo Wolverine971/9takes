@@ -1,6 +1,5 @@
 // src/routes/comments/+server.ts
 import { error, json } from '@sveltejs/kit';
-import { supabase } from '$lib/supabase';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { z } from 'zod';
 import type { Database } from '../../../database.types';
@@ -31,6 +30,7 @@ const postCommentSchema = z.object({
 /** @type {import('./$types').RequestHandler} */
 export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 	try {
+		const supabase = locals.supabase;
 		// Validate query parameters
 		const params = {
 			parentId: url.searchParams.get('parentId') ?? '0',
@@ -39,7 +39,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 		};
 
 		const validatedParams = getCommentsSchema.parse(params);
-		const demo_time = await checkDemoTime();
+		const demo_time = await checkDemoTime(supabase);
 		const cookie = cookies.get('9tfingerprint');
 
 		const parentId = validatedParams.parentId;
@@ -186,13 +186,14 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 export const POST = withApiLogging(async ({ locals, request }) => {
 	try {
 		const session = locals.session;
+		const supabase = locals.supabase;
 
 		if (!session?.user?.id) {
 			logger.warn('Unauthorized comment attempt');
 			throw error(401, 'Unauthorized');
 		}
 
-		const demo_time = await checkDemoTime();
+		const demo_time = await checkDemoTime(supabase);
 		const formData = await request.formData();
 		const body = Object.fromEntries(formData);
 

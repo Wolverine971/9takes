@@ -1,10 +1,8 @@
 // src/routes/admin/users/+page.server.ts
-import { supabase } from '$lib/supabase';
-
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../../utils/api';
-import { tagQuestion } from '../../../utils/openai';
+import { tagQuestion } from '../../../utils/server/openai';
 import { mapDemoValues } from '../../../utils/demo';
 import { adminUserUpdateSchema, adminUpdateAdminStatusSchema } from '$lib/validation/schemas';
 import { z } from 'zod';
@@ -13,6 +11,7 @@ import { logger } from '$lib/utils/logger';
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
+	const supabase = event.locals.supabase;
 
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
@@ -59,12 +58,13 @@ export const actions: Actions = {
 	classifyQuestion: async ({ request, locals }) => {
 		try {
 			const session = locals?.session;
+			const supabase = locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
@@ -84,7 +84,7 @@ export const actions: Actions = {
 			const questionId = body.questionId as string;
 			const questionText = body.questionText as string;
 
-			await tagQuestion(questionText, parseInt(questionId));
+			await tagQuestion(supabase, questionText, parseInt(questionId));
 		} catch (e) {
 			throw error(400, {
 				message: `Failed to classify question ${JSON.stringify(e)}`
@@ -95,12 +95,13 @@ export const actions: Actions = {
 	classifyAllUntaggedQuestions: async ({ request, locals }) => {
 		try {
 			const session = locals?.session;
+			const supabase = locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
@@ -120,7 +121,7 @@ export const actions: Actions = {
 			const questionId = body.questionId as string;
 			const questionText = body.questionText as string;
 
-			await tagQuestion(questionText, parseInt(questionId));
+			await tagQuestion(supabase, questionText, parseInt(questionId));
 		} catch (e) {
 			throw error(400, {
 				message: `Failed to classify question ${JSON.stringify(e)}`
@@ -131,12 +132,13 @@ export const actions: Actions = {
 	updateUserAccount: async ({ request, locals }) => {
 		try {
 			const session = locals?.session;
+			const supabase = locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
@@ -198,12 +200,13 @@ export const actions: Actions = {
 	updateAdmin: async (event) => {
 		try {
 			const session = event.locals.session;
+			const supabase = event.locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')

@@ -2,17 +2,102 @@
 import { fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
 
+// Common disposable email domains
+const DISPOSABLE_EMAIL_DOMAINS = new Set([
+	'tempmail.com', 'temp-mail.org', 'guerrillamail.com', 'guerrillamail.org',
+	'sharklasers.com', 'mailinator.com', 'yopmail.com', 'throwaway.email',
+	'maildrop.cc', 'dispostable.com', '10minutemail.com', '10minutemail.net',
+	'fakeinbox.com', 'tempinbox.com', 'mailnesia.com', 'trashmail.com',
+	'getnada.com', 'mohmal.com', 'emailondeck.com', 'tempr.email',
+	'discard.email', 'spamgourmet.com', 'mytrashmail.com', 'mailcatch.com',
+	'getairmail.com', 'mailforspam.com', 'spam4.me', 'grr.la', 'spamex.com',
+	'guerrillamailblock.com', 'pokemail.net', 'jetable.org', 'meltmail.com'
+]);
+
+// Bot user agent patterns
+const BOT_USER_AGENT_PATTERNS = [
+	/bot/i, /crawl/i, /spider/i, /scraper/i, /curl/i, /wget/i,
+	/python-requests/i, /axios/i, /node-fetch/i, /headless/i,
+	/phantom/i, /selenium/i, /puppeteer/i, /playwright/i
+];
+
+// Minimum time (ms) a human would take to fill the form
+const MIN_FORM_TIME_MS = 3000; // 3 seconds
+
+// Rate limit: max submissions per IP in time window
+const RATE_LIMIT_COUNT = 3;
+const RATE_LIMIT_WINDOW_HOURS = 1;
+
 export const actions: Actions = {
 	/**
 	 * Handle waitlist signup form submission
 	 */
 	coachSub: async ({ request, getClientAddress, url, cookies, locals }) => {
 		const formData = await request.formData();
+		const ipAddress = getClientAddress();
+		const userAgent = request.headers.get('user-agent') || '';
 
 		// Extract form data
 		const name = formData.get('name')?.toString() || '';
 		const email = formData.get('email')?.toString() || '';
 		const enneagramType = formData.get('enneagramType')?.toString() || '';
+
+		// ============ BOT DETECTION CHECKS ============
+
+		// 1. Honeypot check - if the hidden field is filled, it's a bot
+		const honeypot = formData.get('website')?.toString() || '';
+		if (honeypot) {
+			console.log(`[BOT DETECTED] Honeypot triggered from IP: ${ipAddress}`);
+			// Return success to fool the bot, but don't actually save
+			return { success: true, message: 'You have been added to our waitlist!' };
+		}
+
+		// 2. Time-based validation - bots submit too fast
+		const timeToken = parseInt(formData.get('_timeToken')?.toString() || '0', 10);
+		if (timeToken > 0 && timeToken < MIN_FORM_TIME_MS) {
+			console.log(`[BOT DETECTED] Form submitted too fast (${timeToken}ms) from IP: ${ipAddress}`);
+			return { success: true, message: 'You have been added to our waitlist!' };
+		}
+
+		// 3. User agent validation - block known bot patterns
+		if (BOT_USER_AGENT_PATTERNS.some((pattern) => pattern.test(userAgent))) {
+			console.log(`[BOT DETECTED] Bot user agent: ${userAgent} from IP: ${ipAddress}`);
+			return { success: true, message: 'You have been added to our waitlist!' };
+		}
+
+		// 4. Check for empty/suspicious user agent
+		if (!userAgent || userAgent.length < 20) {
+			console.log(`[BOT DETECTED] Missing/short user agent from IP: ${ipAddress}`);
+			return { success: true, message: 'You have been added to our waitlist!' };
+		}
+
+		// 5. Rate limiting by IP - check recent submissions
+		try {
+			const cutoffTime = new Date();
+			cutoffTime.setHours(cutoffTime.getHours() - RATE_LIMIT_WINDOW_HOURS);
+
+			const { count, error: countError } = await locals.supabase
+				.from('coaching_waitlist_metadata')
+				.select('*', { count: 'exact', head: true })
+				.eq('ip_address', ipAddress)
+				.gte('created_at', cutoffTime.toISOString());
+
+			if (!countError && count !== null && count >= RATE_LIMIT_COUNT) {
+				console.log(`[BOT DETECTED] Rate limit exceeded for IP: ${ipAddress} (${count} submissions)`);
+				return fail(429, {
+					success: false,
+					message: 'Too many requests. Please try again later.',
+					name,
+					email,
+					enneagramType
+				});
+			}
+		} catch (e) {
+			// Don't block if rate limit check fails
+			console.error('Rate limit check error:', e);
+		}
+
+		// ============ STANDARD VALIDATION ============
 
 		// Validate form data
 		if (!name) {
@@ -39,6 +124,19 @@ export const actions: Actions = {
 			return fail(400, {
 				success: false,
 				message: 'Please enter a valid email address',
+				name,
+				email,
+				enneagramType
+			});
+		}
+
+		// 6. Check for disposable email domains
+		const emailDomain = email.split('@')[1]?.toLowerCase();
+		if (emailDomain && DISPOSABLE_EMAIL_DOMAINS.has(emailDomain)) {
+			console.log(`[BOT DETECTED] Disposable email domain: ${emailDomain} from IP: ${ipAddress}`);
+			return fail(400, {
+				success: false,
+				message: 'Please use a permanent email address (no temporary emails)',
 				name,
 				email,
 				enneagramType

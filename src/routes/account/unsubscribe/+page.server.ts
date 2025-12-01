@@ -1,7 +1,5 @@
 // src/routes/account/unsubscribe/+page.server.ts
 import { error, redirect } from '@sveltejs/kit';
-import { supabase } from '$lib/supabase';
-
 import type { Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from '../$types';
 import { checkDemoTime } from '../../../utils/api';
@@ -10,6 +8,7 @@ import { encrypt } from '../../../utils/crypto';
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
+	const supabase = event.locals.supabase;
 
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
@@ -49,11 +48,12 @@ export const actions: Actions = {
 		try {
 			const { request, locals } = event;
 			const session = locals.session;
+			const supabase = locals.supabase;
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
@@ -94,12 +94,13 @@ export const actions: Actions = {
 		try {
 			const { request, locals } = event;
 			const session = locals.session;
+			const supabase = locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const body = Object.fromEntries(await request.formData());
 

@@ -1,7 +1,6 @@
 // src/routes/questions/+page.server.ts
 import { error } from '@sveltejs/kit';
-import { deleteESQuestion, elasticClient } from '$lib/elasticSearch';
-import { supabase } from '$lib/supabase';
+import { deleteESQuestion, elasticClient } from '$lib/server/elasticSearch';
 
 import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
@@ -14,6 +13,7 @@ export const load: PageServerLoad = async (event) => {
 	try {
 		const { demo_time } = await event.parent();
 		const session = event.locals.session;
+		const supabase = event.locals.supabase;
 		const page = Number(event.url.searchParams.get('page')) || 1;
 		const categoryId = event.url.searchParams.get('category');
 
@@ -130,7 +130,8 @@ export const actions: Actions = {
 	// Load more questions (for infinite scroll)
 	loadMore: async ({ request, locals }) => {
 		try {
-			const demo_time = await checkDemoTime();
+			const supabase = locals.supabase;
+			const demo_time = await checkDemoTime(supabase);
 			const body = Object.fromEntries(await request.formData());
 			const page = parseInt(body.page as string) || 2;
 			const categoryId = body.categoryId ? parseInt(body.categoryId as string) : null;
@@ -159,9 +160,10 @@ export const actions: Actions = {
 	},
 
 	// Optimized comment filtering
-	filterByCategory: async ({ request }) => {
+	filterByCategory: async ({ request, locals }) => {
 		try {
-			const demo_time = await checkDemoTime();
+			const supabase = locals.supabase;
+			const demo_time = await checkDemoTime(supabase);
 			const body = Object.fromEntries(await request.formData());
 			const categoryId = parseInt(body.categoryId as string);
 
@@ -192,12 +194,13 @@ export const actions: Actions = {
 	remove: async ({ request, locals }) => {
 		try {
 			const session = locals.session;
+			const supabase = locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
@@ -241,12 +244,13 @@ export const actions: Actions = {
 	update: async ({ request, locals }) => {
 		try {
 			const session = locals.session;
+			const supabase = locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(supabase);
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')

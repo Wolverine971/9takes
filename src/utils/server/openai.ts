@@ -1,13 +1,14 @@
-// src/utils/openai.ts
+// src/utils/server/openai.ts
 import { PRIVATE_AI_API_KEY } from '$env/static/private';
-import { supabase } from '$lib/supabase';
+import { logger } from '$lib/utils/logger';
 import OpenAI from 'openai';
-import { checkDemoTime } from './api';
-import { notifications } from '$lib/components/molecules/notifications';
+import { checkDemoTime } from '../api';
+import type { SupabaseClient } from '@supabase/supabase-js';
+import type { Database } from '../../../database.types';
 
-export const tagQuestions = async () => {
+export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 	try {
-		const demo_time = await checkDemoTime();
+		const demo_time = await checkDemoTime(supabase);
 
 		const { data: ableToRefreshQuestions, error: settingsDataError } = await supabase
 			.from('admin_settings')
@@ -15,7 +16,7 @@ export const tagQuestions = async () => {
 			.eq('type', 'refresh_questions');
 
 		if (settingsDataError) {
-			// Log(settingsDataError);
+			logger.warn('Failed to read admin_settings for refresh flag', settingsDataError);
 			return;
 		}
 
@@ -41,6 +42,10 @@ export const tagQuestions = async () => {
 			.from('question_categories')
 			.select('id, category_name');
 		if (tagsError || questionsError) {
+			logger.warn('Failed to load tags or questions for tagging', {
+				tagsError,
+				questionsError
+			});
 			return;
 		}
 
@@ -105,22 +110,27 @@ export const tagQuestions = async () => {
 			.eq('type', 'refresh_questions');
 
 		if (updateFailed) {
-			// Log(updateFailed);
+			logger.error('Failed to update refresh_questions flag', updateFailed);
 		}
 		return updateSuccess;
 	} catch (e) {
-		// Log(e);
+		logger.error('Tag questions failed', e as Error);
 	}
 };
 
-export const tagQuestion = async (questionText: string, questionId: number) => {
+export const tagQuestion = async (
+	supabase: SupabaseClient<Database>,
+	questionText: string,
+	questionId: number
+) => {
 	try {
-		const demo_time = await checkDemoTime();
+		const demo_time = await checkDemoTime(supabase);
 		const { data: tags, error: tagsError } = await supabase
 			.from('question_categories')
 			.select('id, category_name')
 			.eq('level', 3);
 		if (tagsError) {
+			logger.warn('Failed to load tags for tagging question', tagsError);
 			return;
 		}
 
@@ -138,7 +148,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		});
 
 		if (!completion?.choices[0]?.message?.content) {
-			notifications.danger('Something went wrong', 3000);
+			logger.warn('OpenAI tagging returned empty content', { questionId, questionText });
 			return;
 		}
 
@@ -169,8 +179,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		//   }
 
 		if (!chatResp?.answers) {
-			// Log(chatResp);
-			notifications.danger('Something went wrong', 3000);
+			logger.warn('OpenAI tagging missing answers payload', { chatResp, questionId });
 			return;
 		}
 
@@ -222,7 +231,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 
 		return;
 	} catch (e) {
-		// Log(e);
+		logger.error('Tag question failed', e as Error, { questionId });
 	}
 };
 
