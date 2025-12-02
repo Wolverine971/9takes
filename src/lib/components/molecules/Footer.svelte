@@ -42,11 +42,7 @@
 	$: currentYear = new Date().getFullYear();
 </script>
 
-<footer
-	class="mt-16 w-full border-t border-neutral-200 bg-neutral-50"
-	role="contentinfo"
-	aria-label="Site footer"
->
+<footer class="mt-16 w-full border-t border-neutral-200 bg-neutral-50" aria-label="Site footer">
 	<div class="mx-auto max-w-7xl px-6 py-12 lg:px-8">
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
 			<!-- Brand Section -->
@@ -84,7 +80,7 @@
 			</div>
 
 			<!-- Main Navigation -->
-			<nav class="col-span-1" role="navigation" aria-label="Footer navigation">
+			<nav class="col-span-1" aria-label="Footer navigation">
 				<h3 class="mb-4 text-sm font-semibold uppercase tracking-wider text-neutral-900">
 					Navigation
 				</h3>

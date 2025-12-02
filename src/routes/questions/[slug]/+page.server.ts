@@ -106,12 +106,11 @@ export const actions: Actions = {
 
 		// Check rate limit (skip in demo mode)
 		if (!demo_time) {
-			const isAllowed = await checkRateLimit(
-				body.fingerprint as string,
-				ip
-			);
+			const isAllowed = await checkRateLimit(body.fingerprint as string, ip);
 			if (!isAllowed) {
-				throw error(429, { message: 'Too many comments. Please wait a minute before trying again.' });
+				throw error(429, {
+					message: 'Too many comments. Please wait a minute before trying again.'
+				});
 			}
 		}
 
@@ -132,12 +131,11 @@ export const actions: Actions = {
 
 		// Check rate limit (skip in demo mode)
 		if (!demo_time) {
-			const isAllowed = await checkRateLimit(
-				body.fingerprint as string,
-				ip
-			);
+			const isAllowed = await checkRateLimit(body.fingerprint as string, ip);
 			if (!isAllowed) {
-				throw error(429, { message: 'Too many comments. Please wait a minute before trying again.' });
+				throw error(429, {
+					message: 'Too many comments. Please wait a minute before trying again.'
+				});
 			}
 		}
 

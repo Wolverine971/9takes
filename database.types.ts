@@ -850,6 +850,293 @@ export type Database = {
         }
         Relationships: []
       }
+      email_campaigns: {
+        Row: {
+          created_at: string | null
+          created_by: string | null
+          description: string | null
+          id: string
+          name: string
+          status: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          created_by?: string | null
+          description?: string | null
+          id?: string
+          name: string
+          status?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          created_by?: string | null
+          description?: string | null
+          id?: string
+          name?: string
+          status?: string | null
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "email_campaigns_created_by_fkey"
+            columns: ["created_by"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      email_drafts: {
+        Row: {
+          created_at: string | null
+          created_by: string | null
+          html_content: string | null
+          id: string
+          recipients: Json | null
+          scheduled_for: string | null
+          subject: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          created_by?: string | null
+          html_content?: string | null
+          id?: string
+          recipients?: Json | null
+          scheduled_for?: string | null
+          subject?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          created_by?: string | null
+          html_content?: string | null
+          id?: string
+          recipients?: Json | null
+          scheduled_for?: string | null
+          subject?: string | null
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "email_drafts_created_by_fkey"
+            columns: ["created_by"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      email_sends: {
+        Row: {
+          bounce_reason: string | null
+          bounced_at: string | null
+          campaign_id: string | null
+          click_count: number | null
+          clicked_at: string | null
+          created_at: string | null
+          error_message: string | null
+          html_content: string
+          id: string
+          open_count: number | null
+          opened_at: string | null
+          plain_text_content: string | null
+          recipient_email: string
+          recipient_name: string | null
+          recipient_source: string
+          recipient_source_id: string
+          retry_count: number | null
+          sent_at: string | null
+          sent_by: string | null
+          status: string | null
+          subject: string
+          tracking_id: string | null
+          unsubscribed_at: string | null
+        }
+        Insert: {
+          bounce_reason?: string | null
+          bounced_at?: string | null
+          campaign_id?: string | null
+          click_count?: number | null
+          clicked_at?: string | null
+          created_at?: string | null
+          error_message?: string | null
+          html_content: string
+          id?: string
+          open_count?: number | null
+          opened_at?: string | null
+          plain_text_content?: string | null
+          recipient_email: string
+          recipient_name?: string | null
+          recipient_source: string
+          recipient_source_id: string
+          retry_count?: number | null
+          sent_at?: string | null
+          sent_by?: string | null
+          status?: string | null
+          subject: string
+          tracking_id?: string | null
+          unsubscribed_at?: string | null
+        }
+        Update: {
+          bounce_reason?: string | null
+          bounced_at?: string | null
+          campaign_id?: string | null
+          click_count?: number | null
+          clicked_at?: string | null
+          created_at?: string | null
+          error_message?: string | null
+          html_content?: string
+          id?: string
+          open_count?: number | null
+          opened_at?: string | null
+          plain_text_content?: string | null
+          recipient_email?: string
+          recipient_name?: string | null
+          recipient_source?: string
+          recipient_source_id?: string
+          retry_count?: number | null
+          sent_at?: string | null
+          sent_by?: string | null
+          status?: string | null
+          subject?: string
+          tracking_id?: string | null
+          unsubscribed_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "email_sends_campaign_id_fkey"
+            columns: ["campaign_id"]
+            isOneToOne: false
+            referencedRelation: "email_campaigns"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "email_sends_sent_by_fkey"
+            columns: ["sent_by"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      email_templates: {
+        Row: {
+          created_at: string | null
+          created_by: string | null
+          description: string | null
+          html_content: string
+          id: string
+          is_default: boolean | null
+          name: string
+          subject: string
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          created_by?: string | null
+          description?: string | null
+          html_content: string
+          id?: string
+          is_default?: boolean | null
+          name: string
+          subject: string
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          created_by?: string | null
+          description?: string | null
+          html_content?: string
+          id?: string
+          is_default?: boolean | null
+          name?: string
+          subject?: string
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "email_templates_created_by_fkey"
+            columns: ["created_by"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      email_tracking_events: {
+        Row: {
+          city: string | null
+          country: string | null
+          created_at: string | null
+          email_send_id: string
+          event_type: string
+          id: string
+          ip_address: string | null
+          link_url: string | null
+          user_agent: string | null
+        }
+        Insert: {
+          city?: string | null
+          country?: string | null
+          created_at?: string | null
+          email_send_id: string
+          event_type: string
+          id?: string
+          ip_address?: string | null
+          link_url?: string | null
+          user_agent?: string | null
+        }
+        Update: {
+          city?: string | null
+          country?: string | null
+          created_at?: string | null
+          email_send_id?: string
+          event_type?: string
+          id?: string
+          ip_address?: string | null
+          link_url?: string | null
+          user_agent?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "email_tracking_events_email_send_id_fkey"
+            columns: ["email_send_id"]
+            isOneToOne: false
+            referencedRelation: "email_sends"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      email_unsubscribes: {
+        Row: {
+          email: string
+          id: string
+          reason: string | null
+          source: string | null
+          source_id: string | null
+          unsubscribed_at: string | null
+        }
+        Insert: {
+          email: string
+          id?: string
+          reason?: string | null
+          source?: string | null
+          source_id?: string | null
+          unsubscribed_at?: string | null
+        }
+        Update: {
+          email?: string
+          id?: string
+          reason?: string | null
+          source?: string | null
+          source_id?: string | null
+          unsubscribed_at?: string | null
+        }
+        Relationships: []
+      }
       email_update_table: {
         Row: {
           created_at: string
@@ -1618,6 +1905,79 @@ export type Database = {
           },
         ]
       }
+      scheduled_emails: {
+        Row: {
+          campaign_id: string | null
+          created_at: string | null
+          created_by: string | null
+          draft_id: string | null
+          emails_failed: number | null
+          emails_sent: number | null
+          error_log: Json | null
+          html_content: string
+          id: string
+          processed_at: string | null
+          recipients: Json
+          scheduled_for: string
+          status: string | null
+          subject: string
+        }
+        Insert: {
+          campaign_id?: string | null
+          created_at?: string | null
+          created_by?: string | null
+          draft_id?: string | null
+          emails_failed?: number | null
+          emails_sent?: number | null
+          error_log?: Json | null
+          html_content: string
+          id?: string
+          processed_at?: string | null
+          recipients: Json
+          scheduled_for: string
+          status?: string | null
+          subject: string
+        }
+        Update: {
+          campaign_id?: string | null
+          created_at?: string | null
+          created_by?: string | null
+          draft_id?: string | null
+          emails_failed?: number | null
+          emails_sent?: number | null
+          error_log?: Json | null
+          html_content?: string
+          id?: string
+          processed_at?: string | null
+          recipients?: Json
+          scheduled_for?: string
+          status?: string | null
+          subject?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "scheduled_emails_campaign_id_fkey"
+            columns: ["campaign_id"]
+            isOneToOne: false
+            referencedRelation: "email_campaigns"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "scheduled_emails_created_by_fkey"
+            columns: ["created_by"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "scheduled_emails_draft_id_fkey"
+            columns: ["draft_id"]
+            isOneToOne: false
+            referencedRelation: "email_drafts"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       signups: {
         Row: {
           created_at: string | null
@@ -1940,6 +2300,10 @@ export type Database = {
           number_of_comments: number
         }[]
       }
+      count_email_dashboard_users: {
+        Args: { p_search?: string; p_source?: string }
+        Returns: number
+      }
       create_comment_atomic: {
         Args: {
           p_author_id: string
@@ -2042,6 +2406,31 @@ export type Database = {
         }[]
       }
       get_children: { Args: { parent_id: number }; Returns: Json }
+      get_email_analytics: {
+        Args: {
+          p_campaign_id?: string
+          p_from_date?: string
+          p_to_date?: string
+        }
+        Returns: Json
+      }
+      get_email_dashboard_users: {
+        Args: {
+          p_limit?: number
+          p_offset?: number
+          p_search?: string
+          p_source?: string
+        }
+        Returns: {
+          created_at: string
+          email: string
+          enneagram: string
+          id: string
+          name: string
+          source: string
+          unsubscribed: boolean
+        }[]
+      }
       get_questions_by_category: {
         Args: { p_category_id: number; p_limit?: number; p_offset?: number }
         Returns: {

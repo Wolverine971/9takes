@@ -6,16 +6,26 @@
 	export let data: LayoutData;
 
 	const navItems = [
-		{ href: '/admin', label: 'Dashboard' },
+		{ href: '/admin', label: 'Dashboard', exact: true },
 		{ href: '/admin/users', label: 'Users' },
+		{ href: '/admin/email-dashboard', label: 'Email' },
 		{ href: '/admin/questions', label: 'Questions' },
 		{ href: '/admin/comments', label: 'Comments' },
 		{ href: '/admin/messages', label: 'Messages' },
 		{ href: '/admin/content-board', label: 'Content' },
+		{ href: '/admin/drafts', label: 'Drafts' },
 		{ href: '/admin/marketing', label: 'Marketing' },
 		{ href: '/admin/links', label: 'Links' },
 		{ href: '/admin/poster-generator', label: 'Posters' }
 	];
+
+	// Check if nav item is active (supports sub-routes)
+	function isActive(item: { href: string; exact?: boolean }, pathname: string): boolean {
+		if (item.exact) {
+			return pathname === item.href;
+		}
+		return pathname === item.href || pathname.startsWith(item.href + '/');
+	}
 </script>
 
 {#if data.user?.admin}
@@ -27,8 +37,8 @@
 					<a
 						href={item.href}
 						class="nav-link"
-						class:active={$page.url.pathname === item.href}
-						aria-current={$page.url.pathname === item.href ? 'page' : undefined}
+						class:active={isActive(item, $page.url.pathname)}
+						aria-current={isActive(item, $page.url.pathname) ? 'page' : undefined}
 					>
 						{item.label}
 					</a>
@@ -152,20 +162,18 @@
 
 	/* Mobile Responsive */
 	@media (max-width: 768px) {
-		.desktop-nav {
-			display: none;
-		}
-
-		.mobile-only {
-			display: flex;
-		}
-
 		.nav-container {
-			padding: 1rem;
+			padding: 0.5rem;
+			gap: 0.375rem;
+		}
+
+		.nav-link {
+			padding: 0.375rem 0.5rem;
+			font-size: 0.75rem;
 		}
 
 		.admin-content {
-			padding: 0 1rem 1rem;
+			padding: 0 0.5rem 1rem;
 		}
 	}
 </style>

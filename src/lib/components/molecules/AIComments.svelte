@@ -95,10 +95,7 @@
 								>
 									Type {comment.enneagram_type}
 								</span>
-								<p
-									class="m-0 line-clamp-2 text-sm italic text-neutral-700"
-									itemprop="text"
-								>
+								<p class="m-0 line-clamp-2 text-sm italic text-neutral-700" itemprop="text">
 									{comment.comment}
 								</p>
 							</div>

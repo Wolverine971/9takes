@@ -132,7 +132,10 @@
 		<div class="section-card compact">
 			<div class="section-header-toolbar compact">
 				<span class="section-title">User Profiles ({formattedProfiles.length})</span>
-				<button class="toggle-btn" on:click={() => (showAdditionalColumns = !showAdditionalColumns)}>
+				<button
+					class="toggle-btn"
+					on:click={() => (showAdditionalColumns = !showAdditionalColumns)}
+				>
 					{showAdditionalColumns ? '− Less' : '+ More'}
 				</button>
 			</div>

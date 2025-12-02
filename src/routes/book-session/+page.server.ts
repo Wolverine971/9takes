@@ -4,21 +4,57 @@ import type { Actions } from './$types';
 
 // Common disposable email domains
 const DISPOSABLE_EMAIL_DOMAINS = new Set([
-	'tempmail.com', 'temp-mail.org', 'guerrillamail.com', 'guerrillamail.org',
-	'sharklasers.com', 'mailinator.com', 'yopmail.com', 'throwaway.email',
-	'maildrop.cc', 'dispostable.com', '10minutemail.com', '10minutemail.net',
-	'fakeinbox.com', 'tempinbox.com', 'mailnesia.com', 'trashmail.com',
-	'getnada.com', 'mohmal.com', 'emailondeck.com', 'tempr.email',
-	'discard.email', 'spamgourmet.com', 'mytrashmail.com', 'mailcatch.com',
-	'getairmail.com', 'mailforspam.com', 'spam4.me', 'grr.la', 'spamex.com',
-	'guerrillamailblock.com', 'pokemail.net', 'jetable.org', 'meltmail.com'
+	'tempmail.com',
+	'temp-mail.org',
+	'guerrillamail.com',
+	'guerrillamail.org',
+	'sharklasers.com',
+	'mailinator.com',
+	'yopmail.com',
+	'throwaway.email',
+	'maildrop.cc',
+	'dispostable.com',
+	'10minutemail.com',
+	'10minutemail.net',
+	'fakeinbox.com',
+	'tempinbox.com',
+	'mailnesia.com',
+	'trashmail.com',
+	'getnada.com',
+	'mohmal.com',
+	'emailondeck.com',
+	'tempr.email',
+	'discard.email',
+	'spamgourmet.com',
+	'mytrashmail.com',
+	'mailcatch.com',
+	'getairmail.com',
+	'mailforspam.com',
+	'spam4.me',
+	'grr.la',
+	'spamex.com',
+	'guerrillamailblock.com',
+	'pokemail.net',
+	'jetable.org',
+	'meltmail.com'
 ]);
 
 // Bot user agent patterns
 const BOT_USER_AGENT_PATTERNS = [
-	/bot/i, /crawl/i, /spider/i, /scraper/i, /curl/i, /wget/i,
-	/python-requests/i, /axios/i, /node-fetch/i, /headless/i,
-	/phantom/i, /selenium/i, /puppeteer/i, /playwright/i
+	/bot/i,
+	/crawl/i,
+	/spider/i,
+	/scraper/i,
+	/curl/i,
+	/wget/i,
+	/python-requests/i,
+	/axios/i,
+	/node-fetch/i,
+	/headless/i,
+	/phantom/i,
+	/selenium/i,
+	/puppeteer/i,
+	/playwright/i
 ];
 
 // Minimum time (ms) a human would take to fill the form
@@ -84,7 +120,9 @@ export const actions: Actions = {
 				.gte('created_at', cutoffTime.toISOString());
 
 			if (!countError && count !== null && count >= RATE_LIMIT_COUNT) {
-				console.log(`[BOT DETECTED] Rate limit exceeded for IP: ${ipAddress} (${count} submissions)`);
+				console.log(
+					`[BOT DETECTED] Rate limit exceeded for IP: ${ipAddress} (${count} submissions)`
+				);
 				return fail(429, {
 					success: false,
 					message: 'Too many requests. Please try again later.',

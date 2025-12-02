@@ -44,7 +44,7 @@ const normalizeTaggedResponse = (payload: unknown): TaggedQuestion[] => {
 								Object.entries(data.answers as Record<string, unknown>).filter(
 									([, value]) => typeof value === 'string'
 								)
-						  )
+							)
 						: undefined,
 				seo_keywords: Array.isArray(data.seo_keywords)
 					? data.seo_keywords.filter((tag): tag is string => typeof tag === 'string')

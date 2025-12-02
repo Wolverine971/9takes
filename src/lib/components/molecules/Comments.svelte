@@ -116,61 +116,59 @@
 
 {#key key}
 	{#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
-		
-			{#each _comments as comment, index (comment.id)}
-				<div
-					class="transform transition-all duration-500 ease-out p-1"
-					in:fade={{ duration: 400, delay: Math.min(index * 30, 150) }}
-				>
-					<Comment
-						{questionId}
-						{comment}
-						{user}
-						{parentData}
-						on:commentAdded={refreshComments}
-						on:commentUpdated={(e) => handleCommentUpdate(e.detail, index)}
-					/>
-				</div>
-			{/each}
+		{#each _comments as comment, index (comment.id)}
+			<div
+				class="transform p-1 transition-all duration-500 ease-out"
+				in:fade={{ duration: 400, delay: Math.min(index * 30, 150) }}
+			>
+				<Comment
+					{questionId}
+					{comment}
+					{user}
+					{parentData}
+					on:commentAdded={refreshComments}
+					on:commentUpdated={(e) => handleCommentUpdate(e.detail, index)}
+				/>
+			</div>
+		{/each}
 
-			<!-- Initial loading state -->
-			{#if initialLoading && _comments.length === 0}
-				<div class="space-y-4 py-4">
-					{#each Array(3) as _, i}
+		<!-- Initial loading state -->
+		{#if initialLoading && _comments.length === 0}
+			<div class="space-y-4 py-4">
+				{#each Array(3) as _, i}
+					<div
+						class="rounded-2xl bg-white/50 p-5 backdrop-blur-sm"
+						in:fade={{ duration: 300, delay: i * 50 }}
+					>
+						<div class="flex gap-4">
+							<SkeletonLoader variant="circular" width={40} height={40} />
+							<div class="flex-1">
+								<SkeletonLoader variant="text" width="25%" className="mb-2" />
+								<SkeletonLoader variant="text" count={2} />
+							</div>
+						</div>
+					</div>
+				{/each}
+			</div>
+		{/if}
+
+		<!-- Infinite scroll sentinel -->
+		{#if _comments.length < comment_count && parentData?.flags?.userHasAnswered}
+			<div bind:this={bottomSentinel} class="my-6">
+				{#if loading && !initialLoading}
+					<div class="flex justify-center py-6">
 						<div
-							class="rounded-2xl bg-white/50 p-5 backdrop-blur-sm"
-							in:fade={{ duration: 300, delay: i * 50 }}
+							class="flex items-center gap-3 rounded-full bg-white/80 px-4 py-2 shadow-sm backdrop-blur-sm"
 						>
-							<div class="flex gap-4">
-								<SkeletonLoader variant="circular" width={40} height={40} />
-								<div class="flex-1">
-									<SkeletonLoader variant="text" width="25%" className="mb-2" />
-									<SkeletonLoader variant="text" count={2} />
-								</div>
-							</div>
-						</div>
-					{/each}
-				</div>
-			{/if}
-
-			<!-- Infinite scroll sentinel -->
-			{#if _comments.length < comment_count && parentData?.flags?.userHasAnswered}
-				<div bind:this={bottomSentinel} class="my-6">
-					{#if loading && !initialLoading}
-						<div class="flex justify-center py-6">
 							<div
-								class="flex items-center gap-3 rounded-full bg-white/80 px-4 py-2 shadow-sm backdrop-blur-sm"
-							>
-								<div
-									class="h-4 w-4 animate-spin rounded-full border-2 border-neutral-300 border-t-neutral-600"
-								/>
-								<span class="text-sm font-medium text-neutral-600">Loading more...</span>
-							</div>
+								class="h-4 w-4 animate-spin rounded-full border-2 border-neutral-300 border-t-neutral-600"
+							/>
+							<span class="text-sm font-medium text-neutral-600">Loading more...</span>
 						</div>
-					{/if}
-				</div>
-			{/if}
-		
+					</div>
+				{/if}
+			</div>
+		{/if}
 	{:else if parentData?.flags?.userHasAnswered && !comments.length}
 		<div class="flex flex-col items-center justify-center py-12">
 			<div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-neutral-100">

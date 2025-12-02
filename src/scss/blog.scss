@@ -1,9 +1,9 @@
 /* src/scss/blog.scss */
-/* 
+/*
  * Blog specific styles - Optimized
  */
 
-@use 'index.scss' as *;
+@use 'mixins' as *;
 
 .blog {
 	/* Link styling for blog content */

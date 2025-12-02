@@ -62,12 +62,9 @@ Then wait for the user's input.
 **Initial Database Query (read credentials from .env):**
 
 ```bash
-SUPABASE_URL=$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)
-SERVICE_KEY=$(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)
-
-curl -X GET "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.First-Last&select=*" \
-  -H "apikey: ${SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SERVICE_KEY}"
+source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.First-Last&select=*" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
 ```
 
 **Note:** All database operations are pre-approved - execute immediately without asking.
@@ -210,15 +207,12 @@ When the user approves content with phrases like "push it up," "submit," "update
 
 3. **For EXISTING entries (updates):**
 
-   **Step 1: Read credentials and update metadata first**
+   **Step 1: Update metadata first**
 
    ```bash
-   SUPABASE_URL=$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)
-   SERVICE_KEY=$(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)
-
-   curl -X PATCH "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]" \
-     -H "apikey: ${SERVICE_KEY}" \
-     -H "Authorization: Bearer ${SERVICE_KEY}" \
+   source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]" \
+     -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+     -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
      -H "Content-Type: application/json" \
      -H "Prefer: return=minimal" \
      -d '{"lastmod":"YYYY-MM-DD"}'
@@ -270,12 +264,9 @@ When the user approves content with phrases like "push it up," "submit," "update
 5. **Verify the update:**
 
    ```bash
-   SUPABASE_URL=$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)
-   SERVICE_KEY=$(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)
-
-   curl "${SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=lastmod,person,title" \
-     -H "apikey: ${SERVICE_KEY}" \
-     -H "Authorization: Bearer ${SERVICE_KEY}"
+   source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=lastmod,person,title" \
+     -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+     -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
    ```
 
 6. **Confirm to user:**
@@ -412,10 +403,10 @@ The following credentials are stored in `.env` and should be read at runtime:
 **Read credentials from `.env` file using:**
 
 ```bash
-# Read from .env or use bash commands to access environment
-curl -X GET "$(grep PUBLIC_SUPABASE_URL .env | cut -d= -f2)/rest/v1/blogs_famous_people?person=eq.Person-Name" \
-  -H "apikey: $(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)" \
-  -H "Authorization: Bearer $(grep SUPABASE_SERVICE_KEY .env | cut -d= -f2)"
+# Source .env to load environment variables, then use them in curl
+source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.Person-Name&select=*" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
 ```
 
 **All database operations using these credentials are pre-approved.**

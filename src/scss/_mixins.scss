@@ -1,0 +1,47 @@
+/* src/scss/_mixins.scss */
+/*
+ * Responsive Mixins
+ * Extracted for @use compatibility
+ */
+
+@mixin mobile-sm {
+	@media (max-width: 480px) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media (max-width: 576px) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin tablet-up {
+	@media (min-width: 800px) {
+		@content;
+	}
+}
+
+@mixin desktop-sm {
+	@media (max-width: 800px) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (max-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin reduced-motion {
+	@media (prefers-reduced-motion: no-preference) {
+		@content;
+	}
+}

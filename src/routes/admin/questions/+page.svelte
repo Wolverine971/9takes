@@ -76,92 +76,85 @@
 	<title>Admin - Questions</title>
 </svelte:head>
 
-{#if data.user?.admin}
-	<div class="admin-questions">
-		<!-- Page Header -->
-		<div class="page-header">
-			<h1>Questions</h1>
-			<p class="subtitle">Manage and monitor all platform questions</p>
-		</div>
+<div class="admin-questions">
+	<!-- Page Header -->
+	<div class="page-header">
+		<h1>Questions</h1>
+		<p class="subtitle">Manage and monitor all platform questions</p>
+	</div>
 
-		<!-- Action Buttons -->
-		<div class="mb-6 flex flex-wrap gap-4">
+	<!-- Action Buttons -->
+	<div class="action-bar">
+		<Button
+			href="/admin/questions/hierarchy"
+			class="bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500"
+		>
+			View Hierarchy
+		</Button>
+
+		<div class="sort-buttons">
 			<Button
-				href="/admin/questions/hierarchy"
-				class="bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500"
+				color="light"
+				class={currentSort === 'lastComment'
+					? 'border-primary-300 bg-primary-100 text-primary-700'
+					: 'bg-neutral-100 hover:bg-primary-50'}
+				on:click={() => applySorting('lastComment')}
 			>
-				View Hierarchy
+				Last Comment
 			</Button>
+			<Button
+				color="light"
+				class={currentSort === 'newest'
+					? 'border-primary-300 bg-primary-100 text-primary-700'
+					: 'bg-neutral-100 hover:bg-primary-50'}
+				on:click={() => applySorting('newest')}
+			>
+				Newest
+			</Button>
+			<Button
+				color="light"
+				class={currentSort === 'oldest'
+					? 'border-primary-300 bg-primary-100 text-primary-700'
+					: 'bg-neutral-100 hover:bg-primary-50'}
+				on:click={() => applySorting('oldest')}
+			>
+				Oldest
+			</Button>
+		</div>
+	</div>
 
-			<div class="flex flex-wrap gap-2">
-				<Button
-					color="light"
-					class={currentSort === 'lastComment'
-						? 'border-primary-300 bg-primary-100 text-primary-700'
-						: 'bg-neutral-100 hover:bg-primary-50'}
-					on:click={() => applySorting('lastComment')}
-				>
-					Last Comment
-				</Button>
-				<Button
-					color="light"
-					class={currentSort === 'newest'
-						? 'border-primary-300 bg-primary-100 text-primary-700'
-						: 'bg-neutral-100 hover:bg-primary-50'}
-					on:click={() => applySorting('newest')}
-				>
-					Newest
-				</Button>
-				<Button
-					color="light"
-					class={currentSort === 'oldest'
-						? 'border-primary-300 bg-primary-100 text-primary-700'
-						: 'bg-neutral-100 hover:bg-primary-50'}
-					on:click={() => applySorting('oldest')}
-				>
-					Oldest
-				</Button>
+	{#if displayedQuestions.length}
+		<div class="section-card">
+			<div class="questions-list">
+				{#each displayedQuestions as question}
+					<div class="question-item {getQuestionBackground(question)}">
+						<h2 class="question-title">
+							{question.question_formatted || question.question}
+						</h2>
+						<div class="question-meta">
+							<div class="meta-info">
+								<span class="comment-badge">
+									{question.comment_count} Comments
+								</span>
+								<span>Created: {convertDateToReadable(question.created_at)}</span>
+								{#if question.last_comment_date}
+									<span>Last Comment: {convertDateToReadable(question.last_comment_date)}</span>
+								{/if}
+							</div>
+							<button type="button" class="btn-action" on:click={() => openModal(question)}>
+								Details
+							</button>
+						</div>
+					</div>
+				{/each}
 			</div>
 		</div>
-
-		{#if displayedQuestions.length}
-			<div class="section-card">
-				<div class="questions-list">
-					{#each displayedQuestions as question}
-						<div class="question-item {getQuestionBackground(question)}">
-							<h2 class="question-title">
-								{question.question_formatted || question.question}
-							</h2>
-							<div class="question-meta">
-								<div class="meta-info">
-									<span class="comment-badge">
-										{question.comment_count} Comments
-									</span>
-									<span>Created: {convertDateToReadable(question.created_at)}</span>
-									{#if question.last_comment_date}
-										<span>Last Comment: {convertDateToReadable(question.last_comment_date)}</span>
-									{/if}
-								</div>
-								<button type="button" class="btn-action" on:click={() => openModal(question)}>
-									Details
-								</button>
-							</div>
-						</div>
-					{/each}
-				</div>
-			</div>
-		{:else}
-			<div class="empty-state">
-				<p>No questions found.</p>
-			</div>
-		{/if}
-	</div>
-{:else}
-	<div class="rounded-lg bg-white p-6 text-center shadow-md">
-		<h1 class="mb-2 text-xl font-semibold text-error-500">Access Denied</h1>
-		<p class="text-neutral-600">You need administrator privileges to view this page.</p>
-	</div>
-{/if}
+	{:else}
+		<div class="empty-state">
+			<p>No questions found.</p>
+		</div>
+	{/if}
+</div>
 
 <Modal2 id="question-details-modal">
 	<div class="max-w-4xl rounded-lg bg-neutral-50 p-6">
@@ -181,11 +174,18 @@
 		margin: 0 auto;
 	}
 
-	.action-buttons {
+	.action-bar {
 		margin-bottom: 1.5rem;
 		display: flex;
 		flex-wrap: wrap;
 		gap: 1rem;
+		align-items: center;
+	}
+
+	.sort-buttons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
 	}
 
 	.section-card {

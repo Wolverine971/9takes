@@ -51,7 +51,8 @@
 	// Get visible entries for details panel
 	$: visibleEntries = blogContent
 		? Object.entries(blogContent).filter(
-				([key, value]) => !hiddenKeys.has(key) && value !== null && value !== undefined && value !== ''
+				([key, value]) =>
+					!hiddenKeys.has(key) && value !== null && value !== undefined && value !== ''
 			)
 		: [];
 
@@ -185,33 +186,33 @@
 
 <style lang="scss">
 	.content-card-details {
-		padding: 0.75rem;
-		font-size: 0.8125rem;
+		padding: 0.5rem;
+		font-size: 0.6875rem;
 	}
 
 	.description {
-		margin: 0 0 0.75rem 0;
-		padding: 0 0 0.75rem 0;
+		margin: 0 0 0.5rem 0;
+		padding: 0 0 0.5rem 0;
 		border-bottom: 1px solid #f0f0f0;
-		line-height: 1.5;
+		line-height: 1.4;
 		color: #4b5563;
 	}
 
 	.meta-row {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 1rem;
-		margin-bottom: 0.75rem;
+		gap: 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 
 	.meta-item {
 		display: flex;
 		flex-direction: column;
-		gap: 0.125rem;
+		gap: 0;
 	}
 
 	.meta-label {
-		font-size: 0.6875rem;
+		font-size: 0.5625rem;
 		text-transform: uppercase;
 		letter-spacing: 0.025em;
 		color: #9ca3af;
@@ -219,25 +220,25 @@
 	}
 
 	.meta-value {
-		font-size: 0.8125rem;
+		font-size: 0.6875rem;
 		color: #374151;
 	}
 
 	.actions {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem;
+		gap: 0.375rem;
 		flex-wrap: wrap;
 	}
 
 	.action-btn {
 		display: inline-flex;
 		align-items: center;
-		gap: 0.25rem;
-		padding: 0.375rem 0.625rem;
+		gap: 0.125rem;
+		padding: 0.25rem 0.5rem;
 		border: none;
-		border-radius: 0.375rem;
-		font-size: 0.75rem;
+		border-radius: 0.25rem;
+		font-size: 0.625rem;
 		font-weight: 500;
 		cursor: pointer;
 		text-decoration: none;
@@ -282,39 +283,39 @@
 	}
 
 	.btn-icon {
-		width: 0.875rem;
-		height: 0.875rem;
+		width: 0.625rem;
+		height: 0.625rem;
 		flex-shrink: 0;
 	}
 
 	.details-panel {
-		margin-top: 0.75rem;
-		padding: 0.75rem;
+		margin-top: 0.5rem;
+		padding: 0.5rem;
 		background: #f9fafb;
-		border-radius: 0.5rem;
+		border-radius: 0.25rem;
 		border: 1px solid #f0f0f0;
-		max-height: 200px;
+		max-height: 150px;
 		overflow-y: auto;
 	}
 
 	.details-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-		gap: 0.625rem;
+		grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+		gap: 0.375rem;
 	}
 
 	.detail-item {
 		display: flex;
 		flex-direction: column;
-		gap: 0.125rem;
-		padding: 0.375rem;
+		gap: 0;
+		padding: 0.25rem;
 		background: white;
-		border-radius: 0.25rem;
+		border-radius: 0.125rem;
 		border: 1px solid #e5e7eb;
 	}
 
 	.detail-label {
-		font-size: 0.625rem;
+		font-size: 0.5rem;
 		text-transform: uppercase;
 		letter-spacing: 0.025em;
 		color: #9ca3af;
@@ -322,10 +323,10 @@
 	}
 
 	.detail-value {
-		font-size: 0.75rem;
+		font-size: 0.625rem;
 		color: #374151;
 		word-break: break-word;
-		line-height: 1.4;
+		line-height: 1.3;
 	}
 
 	// Scrollbar styling
@@ -334,7 +335,7 @@
 		scrollbar-color: #d1d5db transparent;
 
 		&::-webkit-scrollbar {
-			width: 4px;
+			width: 3px;
 		}
 
 		&::-webkit-scrollbar-track {
@@ -343,7 +344,7 @@
 
 		&::-webkit-scrollbar-thumb {
 			background-color: #d1d5db;
-			border-radius: 4px;
+			border-radius: 3px;
 		}
 	}
 </style>

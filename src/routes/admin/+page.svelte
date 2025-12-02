@@ -140,7 +140,9 @@
 		<div class="stat-chip">
 			<span class="stat-label">Visitors</span>
 			<span class="stat-num"
-				>{data.dailyVisitors.reduce((sum, v) => sum + v.number_of_visitors, 0).toLocaleString()}</span
+				>{data.dailyVisitors
+					.reduce((sum, v) => sum + v.number_of_visitors, 0)
+					.toLocaleString()}</span
 			>
 		</div>
 		<div class="stat-chip">

@@ -725,9 +725,7 @@ export class SmartLLMService {
 				// If validation is enabled and parse failed, we can retry with a more powerful model
 				if (options.validation?.retryOnParseError && retryCount < maxRetries) {
 					retryCount++;
-					console.log(
-						`Retrying with powerful model (attempt ${retryCount}/${maxRetries})`
-					);
+					console.log(`Retrying with powerful model (attempt ${retryCount}/${maxRetries})`);
 
 					let cleanedRetry = ''; // Declare outside try block for error logging
 					try {
@@ -758,10 +756,7 @@ export class SmartLLMService {
 						result = JSON.parse(cleanedRetry) as T;
 					} catch (retryError) {
 						// If retry also fails, throw original error with context
-						console.error(
-							`Retry also failed after ${retryCount} attempts:`,
-							retryError
-						);
+						console.error(`Retry also failed after ${retryCount} attempts:`, retryError);
 						// Log critical parse failure
 						if (this.errorLogger?.logAPIError) {
 							await this.errorLogger.logAPIError(retryError, this.apiUrl, 'POST', options.userId, {
@@ -849,8 +844,7 @@ export class SmartLLMService {
 					retryCount,
 					preferredModels,
 					cachedTokens,
-					reasoningTokens:
-						response.usage?.completion_tokens_details?.reasoning_tokens || 0,
+					reasoningTokens: response.usage?.completion_tokens_details?.reasoning_tokens || 0,
 					systemFingerprint: response.system_fingerprint
 				}
 			}).catch((err) => console.error('Failed to log usage:', err));
@@ -928,11 +922,7 @@ export class SmartLLMService {
 		const estimatedLength = this.estimateResponseLength(options.prompt);
 
 		// Select models based on profile and requirements
-		const preferredModels = this.selectTextModels(
-			profile,
-			estimatedLength,
-			options.requirements
-		);
+		const preferredModels = this.selectTextModels(profile, estimatedLength, options.requirements);
 
 		// Make the OpenRouter API call with model routing
 		try {
@@ -1020,8 +1010,7 @@ export class SmartLLMService {
 					preferredModels,
 					contentLength: content.length,
 					cachedTokens,
-					reasoningTokens:
-						response.usage?.completion_tokens_details?.reasoning_tokens || 0,
+					reasoningTokens: response.usage?.completion_tokens_details?.reasoning_tokens || 0,
 					systemFingerprint: response.system_fingerprint
 				}
 			}).catch((err) => console.error('Failed to log usage:', err));
@@ -1164,9 +1153,7 @@ export class SmartLLMService {
 				model: data.model || params.model,
 				provider: data.provider || 'Unknown',
 				cacheStatus:
-					cachedTokens > 0
-						? `${cacheHitRate}% cached (${cachedTokens} tokens)`
-						: 'no cache',
+					cachedTokens > 0 ? `${cacheHitRate}% cached (${cachedTokens} tokens)` : 'no cache',
 				requestId: data.id,
 				systemFingerprint: data.system_fingerprint,
 				reasoningTokens: data.usage?.completion_tokens_details?.reasoning_tokens || 0
@@ -1372,11 +1359,7 @@ export class SmartLLMService {
 		return 'simple';
 	}
 
-	private selectJSONModels(
-		profile: JSONProfile,
-		complexity: string,
-		requirements?: any
-	): string[] {
+	private selectJSONModels(profile: JSONProfile, complexity: string, requirements?: any): string[] {
 		// If custom requirements, calculate best models
 		if (profile === 'custom' && requirements) {
 			return this.selectModelsByRequirements(JSON_MODELS, requirements, 'json');
@@ -1446,8 +1429,7 @@ export class SmartLLMService {
 		// Filter by requirements
 		let eligible = models.filter((model) => {
 			if (requirements.maxCost && model.cost > requirements.maxCost) return false;
-			if (requirements.minAccuracy && model.smartness < requirements.minAccuracy)
-				return false;
+			if (requirements.minAccuracy && model.smartness < requirements.minAccuracy) return false;
 			if (requirements.minQuality && model.smartness < requirements.minQuality) return false;
 			return true;
 		});
@@ -1894,8 +1876,7 @@ You must respond with valid JSON only. Follow these rules:
 								? ((usage.prompt_tokens || 0) / 1_000_000) * modelConfig.cost
 								: 0;
 							const outputCost = modelConfig
-								? ((usage.completion_tokens || 0) / 1_000_000) *
-									modelConfig.outputCost
+								? ((usage.completion_tokens || 0) / 1_000_000) * modelConfig.outputCost
 								: 0;
 
 							// Log to database (async, non-blocking)
@@ -1979,8 +1960,7 @@ You must respond with valid JSON only. Follow these rules:
 								}
 
 								if (toolCallDelta.function?.arguments) {
-									currentToolCall.function.arguments +=
-										toolCallDelta.function.arguments;
+									currentToolCall.function.arguments += toolCallDelta.function.arguments;
 								}
 
 								// Check if tool call is complete

@@ -221,13 +221,7 @@
 							<!-- Honeypot field - hidden from humans, bots will fill it -->
 							<div style="position: absolute; left: -9999px; top: -9999px;" aria-hidden="true">
 								<label for="website">Website</label>
-								<input
-									type="text"
-									id="website"
-									name="website"
-									tabindex="-1"
-									autocomplete="off"
-								/>
+								<input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
 							</div>
 							<div>
 								<label for="name" class="sr-only">Your name</label>
@@ -289,8 +283,11 @@
 									rows="3"
 									disabled={loading}
 									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
-								>{form?.sessionGoal || ''}</textarea>
-								<p class="mt-1 text-xs text-gray-500">Helps tailor your session (600 characters max).</p>
+									>{form?.sessionGoal || ''}</textarea
+								>
+								<p class="mt-1 text-xs text-gray-500">
+									Helps tailor your session (600 characters max).
+								</p>
 							</div>
 							{#if form?.message && !form?.success}
 								<div class="text-sm text-red-500">{form.message}</div>
@@ -328,8 +325,8 @@
 							<h2 class="mb-4 text-2xl font-bold text-green-600">You're on the list!</h2>
 							<p class="mb-6 text-gray-600">We'll email you as soon as sessions open.</p>
 							<p class="mb-8 text-sm text-gray-500">
-								{#if form?.email}Confirmation sent to <strong>{form.email}</strong>{:else}Welcome
-									to the priority list!{/if}
+								{#if form?.email}Confirmation sent to <strong>{form.email}</strong>{:else}Welcome to
+									the priority list!{/if}
 							</p>
 							<a
 								href="/"
@@ -506,7 +503,7 @@
 						>Join Waitlist</a
 					><a
 						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-						class="border-b border-white/30 pb-0.5 transition hover:border-white focus-visible:outline-none focus-visible:border-white"
+						class="border-b border-white/30 pb-0.5 transition hover:border-white focus-visible:border-white focus-visible:outline-none"
 						>Learn the basics →</a
 					>
 				</div>
