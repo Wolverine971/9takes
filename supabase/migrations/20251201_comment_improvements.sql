@@ -1,4 +1,4 @@
--- Migration: Comment System Improvements
+-- supabase/migrations/20251201_comment_improvements.sql
 -- Created: 2025-12-01
 -- Fixes: Rate limiting, atomic comment creation, N+1 queries
 

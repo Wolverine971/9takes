@@ -183,6 +183,7 @@
 						<thead>
 							<tr>
 								<th>Email</th>
+								<th>Intent</th>
 								<th>Date</th>
 							</tr>
 						</thead>
@@ -190,6 +191,7 @@
 							{#each data.coachingWaitlistUsers as user}
 								<tr>
 									<td><a href="mailto:{user.email}" class="table-link">{user.email}</a></td>
+									<td class="intent-cell">{user.session_goal || '—'}</td>
 									<td class="date-cell">{convertDateToReadable(user.created_at)}</td>
 								</tr>
 							{/each}
@@ -589,6 +591,14 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+	}
+
+	.intent-cell {
+		max-width: 320px;
+		white-space: pre-line;
+		word-break: break-word;
+		color: var(--text-secondary);
+		line-height: 1.3;
 	}
 
 	.date-cell {

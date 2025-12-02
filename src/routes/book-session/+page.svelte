@@ -276,6 +276,22 @@
 									<option value="9">Type 9 – The Peacemaker</option>
 								</select>
 							</div>
+							<div>
+								<label for="sessionGoal" class="sr-only"
+									>What are you looking for in this coaching session?</label
+								>
+								<textarea
+									id="sessionGoal"
+									name="sessionGoal"
+									placeholder="What do you want to walk away with? (context, a decision, a script, etc.)"
+									maxlength="600"
+									required
+									rows="3"
+									disabled={loading}
+									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
+								>{form?.sessionGoal || ''}</textarea>
+								<p class="mt-1 text-xs text-gray-500">Helps tailor your session (600 characters max).</p>
+							</div>
 							{#if form?.message && !form?.success}
 								<div class="text-sm text-red-500">{form.message}</div>
 							{/if}

@@ -1,4 +1,4 @@
-// src/lib/elasticSearch.ts
+// src/lib/server/elasticSearch.ts
 import { Client } from '@elastic/elasticsearch';
 
 import { PRIVATE_ELASTIC_ADMIN, PRIVATE_ELASTICSEARCH_NODE } from '$env/static/private';

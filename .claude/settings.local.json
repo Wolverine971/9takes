@@ -1,34 +1,37 @@
 {
-	"permissions": {
-		"allow": [
-			"WebSearch",
-			"Bash(grep:*)",
-			"Bash(node:*)",
-			"Read(//Users/annawayne/Desktop/**)",
-			"Bash(npm install:*)",
-			"Bash(env)",
-			"Bash(psql:*)",
-			"Bash(echo $SUPABASE_URL)",
-			"Bash(curl:*)",
-			"WebFetch(domain:www.personality-database.com)",
-			"Read(//tmp/**)",
-			"Bash(npx tsc:*)",
-			"Bash(pnpm check:*)",
-			"Bash(git rev-parse:*)",
-			"Bash(echo $SUPABASE_SERVICE_KEY)",
-			"Bash(echo $PUBLIC_SUPABASE_URL)",
-			"WebFetch(domain:www.nytimes.com)",
-			"WebFetch(domain:singjupost.com)",
-			"WebFetch(domain:www.aei.org)",
-			"WebFetch(domain:podcastnotes.org)",
-			"WebFetch(domain:fortune.com)",
-			"WebFetch(domain:sfstandard.com)",
-			"WebFetch(domain:www.bloomberg.com)",
-			"WebFetch(domain:www.youtube.com)"
-		],
-		"deny": [],
-		"ask": [],
-		"defaultMode": "acceptEdits",
-		"additionalDirectories": ["C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"]
-	}
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(grep:*)",
+      "Bash(node:*)",
+      "Read(//Users/annawayne/Desktop/**)",
+      "Bash(npm install:*)",
+      "Bash(env)",
+      "Bash(psql:*)",
+      "Bash(echo $SUPABASE_URL)",
+      "Bash(curl:*)",
+      "WebFetch(domain:www.personality-database.com)",
+      "Read(//tmp/**)",
+      "Bash(npx tsc:*)",
+      "Bash(pnpm check:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(echo $SUPABASE_SERVICE_KEY)",
+      "Bash(echo $PUBLIC_SUPABASE_URL)",
+      "WebFetch(domain:www.nytimes.com)",
+      "WebFetch(domain:singjupost.com)",
+      "WebFetch(domain:www.aei.org)",
+      "WebFetch(domain:podcastnotes.org)",
+      "WebFetch(domain:fortune.com)",
+      "WebFetch(domain:sfstandard.com)",
+      "WebFetch(domain:www.bloomberg.com)",
+      "WebFetch(domain:www.youtube.com)",
+      "Bash(source .env)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"
+    ]
+  }
 }

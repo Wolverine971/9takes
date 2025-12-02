@@ -41,6 +41,7 @@ export const actions: Actions = {
 		const name = formData.get('name')?.toString() || '';
 		const email = formData.get('email')?.toString() || '';
 		const enneagramType = formData.get('enneagramType')?.toString() || '';
+		const sessionGoal = formData.get('sessionGoal')?.toString().trim() || '';
 
 		// ============ BOT DETECTION CHECKS ============
 
@@ -89,7 +90,8 @@ export const actions: Actions = {
 					message: 'Too many requests. Please try again later.',
 					name,
 					email,
-					enneagramType
+					enneagramType,
+					sessionGoal
 				});
 			}
 		} catch (e) {
@@ -106,7 +108,8 @@ export const actions: Actions = {
 				message: 'Name is required',
 				name,
 				email,
-				enneagramType
+				enneagramType,
+				sessionGoal
 			});
 		}
 
@@ -116,7 +119,8 @@ export const actions: Actions = {
 				message: 'Email is required',
 				name,
 				email,
-				enneagramType
+				enneagramType,
+				sessionGoal
 			});
 		}
 
@@ -126,7 +130,8 @@ export const actions: Actions = {
 				message: 'Please enter a valid email address',
 				name,
 				email,
-				enneagramType
+				enneagramType,
+				sessionGoal
 			});
 		}
 
@@ -139,7 +144,30 @@ export const actions: Actions = {
 				message: 'Please use a permanent email address (no temporary emails)',
 				name,
 				email,
-				enneagramType
+				enneagramType,
+				sessionGoal
+			});
+		}
+
+		if (!sessionGoal) {
+			return fail(400, {
+				success: false,
+				message: 'Share what you want from this session',
+				name,
+				email,
+				enneagramType,
+				sessionGoal
+			});
+		}
+
+		if (sessionGoal.length > 600) {
+			return fail(400, {
+				success: false,
+				message: 'Please keep your note under 600 characters',
+				name,
+				email,
+				enneagramType,
+				sessionGoal
 			});
 		}
 
@@ -147,7 +175,7 @@ export const actions: Actions = {
 			// Insert into coaching_waitlist table
 			const { data: waitlistData, error: waitlistError } = await locals.supabase
 				.from('coaching_waitlist')
-				.insert([{ name, email, enneagram_type: enneagramType }])
+				.insert([{ name, email, enneagram_type: enneagramType, session_goal: sessionGoal }])
 				.select('id')
 				.single();
 
@@ -159,7 +187,8 @@ export const actions: Actions = {
 						message: 'This email is already on our waitlist!',
 						name,
 						email,
-						enneagramType
+						enneagramType,
+						sessionGoal
 					});
 				}
 
@@ -169,7 +198,8 @@ export const actions: Actions = {
 					message: 'An unexpected error occurred. Please try again.',
 					name,
 					email,
-					enneagramType
+					enneagramType,
+					sessionGoal
 				});
 			}
 
@@ -235,7 +265,8 @@ export const actions: Actions = {
 				message: 'A server error occurred. Please try again later.',
 				name,
 				email,
-				enneagramType
+				enneagramType,
+				sessionGoal
 			});
 		}
 	}

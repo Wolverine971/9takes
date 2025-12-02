@@ -1,4 +1,4 @@
--- Priority 2 & 3 Performance Indexes for 9takes
+-- supabase/migrations/20250916_add_performance_indexes_priority2_3.sql
 -- Created: 2025-09-16
 -- Purpose: Add indexes for blog content, categorization, and user interactions
 

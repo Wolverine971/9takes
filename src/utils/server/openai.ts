@@ -1,10 +1,112 @@
 // src/utils/server/openai.ts
-import { PRIVATE_AI_API_KEY } from '$env/static/private';
 import { logger } from '$lib/utils/logger';
-import OpenAI from 'openai';
-import { checkDemoTime } from '../api';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Database } from '../../../database.types';
+
+import { checkDemoTime } from '../api';
+import { SmartLLMService } from './smart-llm-service';
+
+const llmService = new SmartLLMService({
+	httpReferer: 'https://9takes.com',
+	appName: '9takes LLM'
+});
+
+type TaggedQuestion = {
+	id?: number | string;
+	question?: string;
+	question_formatted?: string;
+	tags?: string[];
+	answers?: Record<string, string>;
+	seo_keywords?: string[];
+};
+
+type SupabaseQuestion = { id: number; question: string };
+
+const normalizeTaggedResponse = (payload: unknown): TaggedQuestion[] => {
+	if (Array.isArray(payload)) {
+		return payload.flatMap((item) => normalizeTaggedResponse(item));
+	}
+
+	if (payload && typeof payload === 'object') {
+		const data = payload as Record<string, unknown>;
+		return [
+			{
+				id: data.id as TaggedQuestion['id'],
+				question: typeof data.question === 'string' ? data.question : undefined,
+				question_formatted:
+					typeof data.question_formatted === 'string' ? data.question_formatted : undefined,
+				tags: Array.isArray(data.tags)
+					? data.tags.filter((tag): tag is string => typeof tag === 'string')
+					: [],
+				answers:
+					data.answers && typeof data.answers === 'object'
+						? Object.fromEntries(
+								Object.entries(data.answers as Record<string, unknown>).filter(
+									([, value]) => typeof value === 'string'
+								)
+						  )
+						: undefined,
+				seo_keywords: Array.isArray(data.seo_keywords)
+					? data.seo_keywords.filter((tag): tag is string => typeof tag === 'string')
+					: undefined
+			}
+		];
+	}
+
+	return [];
+};
+
+const resolveQuestionId = (
+	tag: TaggedQuestion,
+	questions: SupabaseQuestion[]
+): number | undefined => {
+	if (typeof tag.id === 'number') {
+		return tag.id;
+	}
+	if (typeof tag.id === 'string' && !Number.isNaN(Number(tag.id))) {
+		return Number(tag.id);
+	}
+
+	const candidate = tag.question_formatted || tag.question;
+	if (!candidate) return undefined;
+
+	const normalized = candidate.trim().toLowerCase();
+	const match = questions.find(
+		(q) =>
+			q.question.trim().toLowerCase() === normalized ||
+			normalized.includes(q.question.trim().toLowerCase()) ||
+			q.question.trim().toLowerCase().includes(normalized)
+	);
+
+	return match?.id;
+};
+
+const getLLMTags = (tag: TaggedQuestion): string[] =>
+	Array.isArray(tag.tags)
+		? tag.tags.filter((tagName): tagName is string => typeof tagName === 'string')
+		: [];
+
+const normalizeAnswers = (answers: unknown): Record<string, string> | null => {
+	if (!answers || typeof answers !== 'object') return null;
+	const filtered = Object.entries(answers as Record<string, unknown>).filter(
+		([type, value]) => typeof type === 'string' && typeof value === 'string'
+	);
+	return filtered.length ? (Object.fromEntries(filtered) as Record<string, string>) : null;
+};
+
+const getTheQuestionsToClassify = (questionsToClassify: SupabaseQuestion[]) => {
+	let stringLengthLimit = 2000;
+	const questionsToSend: SupabaseQuestion[] = [];
+	for (const question of questionsToClassify) {
+		stringLengthLimit -= question.question.length;
+		if (stringLengthLimit > 0) {
+			questionsToSend.push(question);
+		} else {
+			break;
+		}
+	}
+	return questionsToSend;
+};
 
 export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 	try {
@@ -50,42 +152,45 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 		}
 
 		const prompt = getMultiQuestionsPrompt(tags.map((e) => e.category_name).join(', '));
-		const questionsToClassify = getTheQuestionsToClassify(questions.map((e) => e.question));
+		const questionsToClassify = getTheQuestionsToClassify(
+			questions.map((question) => ({ id: question.id, question: question.question }))
+		);
 
-		const openai = new OpenAI({
-			apiKey: PRIVATE_AI_API_KEY
-		});
-		const completion = await openai.chat.completions.create({
-			model: 'gpt-3.5-turbo-1106',
-			messages: [
-				{ role: 'system', content: prompt },
-				{ role: 'user', content: questionsToClassify.toString() }
-			],
-			response_format: { type: 'json_object' }
-		});
-
-		if (!completion?.choices[0]?.message?.content) {
+		if (!questionsToClassify.length) {
+			logger.info('No untagged questions ready for classification');
 			return;
 		}
 
-		const cleanedTags = JSON.parse(completion.choices[0].message.content);
-		if (!cleanedTags) {
+		const llmResult = await llmService.getJSONResponse<TaggedQuestion[] | TaggedQuestion>({
+			systemPrompt: prompt,
+			userPrompt: JSON.stringify(questionsToClassify),
+			profile: 'balanced',
+			temperature: 0.2,
+			validation: { retryOnParseError: true, maxRetries: 2 },
+			operationType: 'bulk_question_tagging'
+		});
+
+		const cleanedTags = normalizeTaggedResponse(llmResult);
+		if (!cleanedTags.length) {
+			logger.warn('LLM returned no tagging data for questions');
 			return;
 		}
 
 		for await (const tag of cleanedTags) {
-			const newTags = tag.tags;
-			const newTagz = tags.filter((e) => newTags.includes(e.category_name));
+			const llmTags = getLLMTags(tag);
+			const matchedTags = tags.filter((existing) => llmTags.includes(existing.category_name));
+			const questionId = resolveQuestionId(tag, questions);
+			const formattedQuestion =
+				tag.question_formatted ||
+				tag.question ||
+				questions.find((question) => question.id === questionId)?.question;
 
-			const newTagIds = newTagz.map((e) => e.id);
-			const questionId = questions?.find((e) =>
-				e.question.includes(tag.question.slice(1, tag.question.length - 2))
-			)?.id;
 			if (!questionId) {
+				logger.warn('Could not map LLM response to a question id', { tag });
 				continue;
 			}
 
-			if (!newTagz.length) {
+			if (!matchedTags.length) {
 				await supabase
 					.from(demo_time === true ? 'questions_demo' : 'questions')
 					.update({ flagged: true, updated_at: new Date() })
@@ -93,14 +198,21 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 				continue;
 			}
 
-			newTagIds.forEach(async (tagId) => {
-				await supabase
-					.from('question_category_tags')
-					.insert({ question_id: questionId, tag_id: tagId });
-			});
+			const newTagIds = matchedTags.map((e) => e.id);
+
+			await Promise.all(
+				newTagIds.map((tagId) =>
+					supabase.from('question_category_tags').insert({ question_id: questionId, tag_id: tagId })
+				)
+			);
+
 			await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
-				.update({ tagged: true, updated_at: new Date(), question_formatted: tag.question })
+				.update({
+					tagged: true,
+					updated_at: new Date(),
+					question_formatted: formattedQuestion
+				})
 				.eq('id', questionId);
 		}
 
@@ -134,102 +246,63 @@ export const tagQuestion = async (
 			return;
 		}
 
-		const openai = new OpenAI({
-			organization: 'org-qhR8p39TxOzb3MVePrWE58ld',
-			apiKey: PRIVATE_AI_API_KEY
-		});
-		const completion = await openai.chat.completions.create({
-			model: 'gpt-3.5-turbo-1106',
-			messages: [
-				{ role: 'system', content: getPrompt(tags.map((e) => e.category_name)) },
-				{ role: 'user', content: questionText }
-			],
-			response_format: { type: 'json_object' }
+		const llmResponse = await llmService.getJSONResponse<TaggedQuestion[] | TaggedQuestion>({
+			systemPrompt: getPrompt(tags.map((e) => e.category_name)),
+			userPrompt: JSON.stringify({ id: questionId, question: questionText }),
+			profile: 'balanced',
+			temperature: 0.2,
+			validation: { retryOnParseError: true, maxRetries: 2 },
+			operationType: 'single_question_tagging'
 		});
 
-		if (!completion?.choices[0]?.message?.content) {
-			logger.warn('OpenAI tagging returned empty content', { questionId, questionText });
+		const [chatResp] = normalizeTaggedResponse(llmResponse);
+		const answers = normalizeAnswers(chatResp?.answers);
+
+		if (!chatResp || !answers) {
+			logger.warn('LLM tagging missing answers payload', { chatResp, questionId });
 			return;
 		}
 
-		const chatResp = JSON.parse(completion.choices[0].message.content);
-
-		// {
-		// 	answers: [
-		// 	  {
-		// 		"1": "I hope people describe me as compassionate and idealistic, always striving to make the world a better place.",
-		// 		"2": "I hope people see me as warm and empathetic, someone who can connect with others on a deeper level.",
-		// 		"3": "I hope people describe me as successful and driven, someone who sets high goals and achieves them.",
-		// 		"4": "I hope people see me as creative and authentic, valuing deep connections and emotional expression.",
-		// 		"5": "I hope people describe me as knowledgeable and perceptive, someone who seeks to understand the world deeply.",
-		// 		"6": "I hope people see me as loyal and trustworthy, someone who can always be counted on.",
-		// 		"7": "I hope people describe me as adventurous and fun-loving, always seeking new experiences and opportunities.",
-		// 		"8": "I hope people see me as strong and confident, someone who stands up for themselves and others.",
-		// 		"9": "I hope people describe me as peaceful and harmonious, someone who brings people together and avoids conflict.",
-		// 	  },
-		// 	],
-		// 	question: "How do you hope people describe you",
-		// 	tags: [
-		// 	  "Self-awareness and Self-understanding",
-		// 	  "Building Self-confidence and Self-worth",
-		// 	  "Engaging with Community and Neighbors",
-		// 	  "Building Social Bonds and Trust",
-		// 	  "Personal Growth",
-		// 	],
-		//   }
-
-		if (!chatResp?.answers) {
-			logger.warn('OpenAI tagging missing answers payload', { chatResp, questionId });
-			return;
-		}
+		const matchedTags = tags.filter((tag) => getLLMTags(chatResp).includes(tag.category_name));
+		const questionTable = demo_time === true ? 'questions_demo' : 'questions';
+		const formattedQuestion = chatResp.question_formatted || chatResp.question || questionText;
 
 		await supabase
-			.from(demo_time === true ? 'questions_demo' : 'questions')
+			.from(questionTable)
 			.update({
 				tagged: true,
 				updated_at: new Date(),
-				question_formatted: chatResp.question_formatted || chatResp.question
+				question_formatted: formattedQuestion
 			})
-			.eq('id', questionId)
-			.then(async () => {
-				const newTags = chatResp.tags;
-				const newTagz = tags.filter((e) => newTags.includes(e.category_name));
+			.eq('id', questionId);
 
-				const newTagIds = newTagz.map((e) => e.id);
+		if (!matchedTags.length) {
+			await supabase
+				.from(questionTable)
+				.update({ flagged: true, updated_at: new Date() })
+				.eq('id', questionId);
+		} else {
+			await Promise.all(
+				matchedTags.map((tag) =>
+					supabase.from('question_category_tags').insert({
+						question_id: questionId,
+						tag_id: tag.id
+					})
+				)
+			);
+		}
 
-				if (!newTagz?.length) {
-					await supabase
-						.from(demo_time === true ? 'questions_demo' : 'questions')
-						.update({ flagged: true, updated_at: new Date() })
-						.eq('id', questionId);
-				} else {
-					newTagIds.forEach(async (tagId) => {
-						await supabase
-							.from('question_category_tags')
-							.insert({ question_id: questionId, tag_id: tagId });
-					});
-				}
+		for await (const [type, answerText] of Object.entries(answers)) {
+			await supabase
+				.from(demo_time === true ? 'comments_ai_demo' : 'comments_ai')
+				.insert({ enneagram_type: type, comment: answerText, question_id: questionId });
+		}
 
-				// update ai comments
-				if (chatResp.answers) {
-					for await (const answerKey of Object.keys(chatResp.answers)) {
-						const type = answerKey;
-						const answerText = chatResp.answers[answerKey];
-						if (type && answerText) {
-							await supabase
-								.from(demo_time === true ? 'comments_ai_demo' : 'comments_ai')
-								.insert({ enneagram_type: type, comment: answerText, question_id: questionId });
-						}
-					}
-				}
-				if (chatResp.seo_keywords) {
-					await supabase
-						.from('question_keywords')
-						.insert({ keywords: chatResp.seo_keywords, question_id: questionId });
-				}
-			});
-
-		return;
+		if (chatResp.seo_keywords?.length) {
+			await supabase
+				.from('question_keywords')
+				.insert({ keywords: chatResp.seo_keywords, question_id: questionId });
+		}
 	} catch (e) {
 		logger.error('Tag question failed', e as Error, { questionId });
 	}
@@ -296,19 +369,6 @@ Second, you need to classify the questions or statements and tag them with the a
 
 const getMultiQuestionsPrompt = (tags: string) => {
 	return `${classifymultipleQuestionsPrompt} ${tags}`;
-};
-
-const getTheQuestionsToClassify = (questionsToClassify: string[]) => {
-	let stringLengthLimit = 2000;
-	const questionsToSend = [];
-	for (let i = 0; i < questionsToClassify.length; i++) {
-		stringLengthLimit -= questionsToClassify[i].length;
-		if (stringLengthLimit > 0) {
-			questionsToSend.push(questionsToClassify[i]);
-		}
-	}
-	return questionsToSend;
-	// `${classifymultipleQuestionsPrompt} ${tagsToSend}`;
 };
 
 const getPrompt = (tags: string[]) => {

@@ -1,18 +1,59 @@
 <!-- src/lib/components/content/contentCard.svelte -->
 <script lang="ts">
 	export let blogContent: App.BlogPost = null;
-	export let stage = null;
+	export let stage: string = '';
 	export let contentType: string = '';
 
 	// Define stages that allow content retrieval
 	const stagesContentRetrieval = ['Sent out for review', 'Reviewed', 'Socialized', 'Growing'];
 
-	// Format date function (optional - for cleaner display)
-	function formatDate(dateStr) {
-		if (!dateStr) return '';
+	// Keys to hide in the details panel (already shown or not useful)
+	const hiddenKeys = new Set([
+		'title',
+		'description',
+		'date',
+		'lastmod',
+		'published',
+		'stage',
+		'stageName',
+		'slug'
+	]);
+
+	// Format date function
+	function formatDate(dateStr: string): string {
+		if (!dateStr) return '—';
 		const date = new Date(dateStr);
-		return isNaN(date.getTime()) ? dateStr : date.toLocaleDateString();
+		return isNaN(date.getTime())
+			? dateStr
+			: date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 	}
+
+	// Format value for display
+	function formatValue(value: unknown): string {
+		if (value === null || value === undefined) return '—';
+		if (typeof value === 'boolean') return value ? 'Yes' : 'No';
+		if (Array.isArray(value)) return value.join(', ') || '—';
+		if (typeof value === 'object') return JSON.stringify(value);
+		return String(value) || '—';
+	}
+
+	// Format key for display
+	function formatKey(key: string): string {
+		return key
+			.replace(/_/g, ' ')
+			.replace(/([A-Z])/g, ' $1')
+			.trim()
+			.split(' ')
+			.map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+			.join(' ');
+	}
+
+	// Get visible entries for details panel
+	$: visibleEntries = blogContent
+		? Object.entries(blogContent).filter(
+				([key, value]) => !hiddenKeys.has(key) && value !== null && value !== undefined && value !== ''
+			)
+		: [];
 
 	// Handle get info action
 	function getInfo() {
@@ -21,173 +62,288 @@
 	}
 
 	// Check if this is a blog from the famous people table (has version history)
-	$: hasVersionHistory = contentType === 'people' && blogContent.id;
+	$: hasVersionHistory = contentType === 'people' && blogContent?.id;
+
+	// Only show view link for published content
+	$: showViewLink = blogContent?.published && blogContent?.loc;
+
+	let showDetails = false;
 </script>
 
-<div class="panel">
+<div class="content-card-details">
+	<!-- Description -->
 	{#if blogContent.description}
-		<p class="description"><strong>Description</strong>: {blogContent.description}</p>
+		<p class="description">{blogContent.description}</p>
 	{/if}
 
-	<div class="info-row">
-		<p><strong>Date</strong>: {formatDate(blogContent.date)}</p>
-		<p><strong>Modified</strong>: {formatDate(blogContent.lastmod)}</p>
-		{#if blogContent.published !== undefined}
-			<p class="status">
-				<strong>Status</strong>:
-				<span class:published={blogContent.published}>
-					{blogContent.published ? 'Published' : 'Draft'}
-				</span>
-			</p>
+	<!-- Meta info row -->
+	<div class="meta-row">
+		<div class="meta-item">
+			<span class="meta-label">Created</span>
+			<span class="meta-value">{formatDate(blogContent.date)}</span>
+		</div>
+		<div class="meta-item">
+			<span class="meta-label">Modified</span>
+			<span class="meta-value">{formatDate(blogContent.lastmod)}</span>
+		</div>
+		{#if blogContent.author}
+			<div class="meta-item">
+				<span class="meta-label">Author</span>
+				<span class="meta-value">{blogContent.author}</span>
+			</div>
 		{/if}
 	</div>
 
+	<!-- Actions -->
 	<div class="actions">
-		{#if blogContent.loc}
-			<a href={blogContent.loc.replace('https://9takes.com', '')} class="link-btn">View</a>
+		{#if showViewLink}
+			<a
+				href={blogContent.loc.replace('https://9takes.com', '')}
+				class="action-btn primary"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+					/>
+				</svg>
+				View
+			</a>
 		{/if}
 
 		{#if hasVersionHistory}
-			<a href="/admin/blog-diff/{blogContent.id}" class="link-btn version-btn">View Versions</a>
+			<a href="/admin/blog-diff/{blogContent.id}" class="action-btn secondary">
+				<svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+					/>
+				</svg>
+				Versions
+			</a>
 		{/if}
-
-		<details>
-			<summary class="accordion">More</summary>
-			<div class="panel details-panel">
-				{#each Object.entries(blogContent) as [key, value]}
-					{#if !['title', 'description', 'date', 'lastmod'].includes(key)}
-						<p>
-							<strong>{key.toLocaleUpperCase()}</strong>: {value}
-						</p>
-					{/if}
-				{/each}
-			</div>
-		</details>
 
 		{#if stage && stagesContentRetrieval.includes(stage)}
-			<button class="btn btn-primary" type="button" on:click={getInfo}>Get Update</button>
+			<button class="action-btn accent" type="button" on:click={getInfo}>
+				<svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+					/>
+				</svg>
+				Get Update
+			</button>
+		{/if}
+
+		{#if visibleEntries.length > 0}
+			<button
+				class="action-btn toggle"
+				type="button"
+				on:click={() => (showDetails = !showDetails)}
+				aria-expanded={showDetails}
+			>
+				<svg
+					class="btn-icon transition-transform duration-200 {showDetails ? 'rotate-180' : ''}"
+					fill="none"
+					stroke="currentColor"
+					viewBox="0 0 24 24"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M19 9l-7 7-7-7"
+					/>
+				</svg>
+				{showDetails ? 'Less' : 'More'}
+			</button>
 		{/if}
 	</div>
+
+	<!-- Expandable Details Panel -->
+	{#if showDetails && visibleEntries.length > 0}
+		<div class="details-panel">
+			<div class="details-grid">
+				{#each visibleEntries as [key, value]}
+					<div class="detail-item">
+						<span class="detail-label">{formatKey(key)}</span>
+						<span class="detail-value">{formatValue(value)}</span>
+					</div>
+				{/each}
+			</div>
+		</div>
+	{/if}
 </div>
 
 <style lang="scss">
-	.panel {
-		padding: 0.5rem;
+	.content-card-details {
+		padding: 0.75rem;
 		font-size: 0.8125rem;
 	}
 
-	p {
-		margin: 0;
-		margin-bottom: 0.35rem;
-		line-height: 1.3;
-	}
-
 	.description {
-		margin-bottom: 0.5rem;
-		padding-bottom: 0.5rem;
-		border-bottom: 1px solid #eee;
+		margin: 0 0 0.75rem 0;
+		padding: 0 0 0.75rem 0;
+		border-bottom: 1px solid #f0f0f0;
+		line-height: 1.5;
+		color: #4b5563;
 	}
 
-	.info-row {
+	.meta-row {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.75rem;
-		margin-bottom: 0.5rem;
-
-		p {
-			margin-bottom: 0;
-			white-space: nowrap;
-		}
+		gap: 1rem;
+		margin-bottom: 0.75rem;
 	}
 
-	.status span {
-		padding: 0.125rem 0.375rem;
-		border-radius: 3px;
-		font-size: 0.75rem;
+	.meta-item {
+		display: flex;
+		flex-direction: column;
+		gap: 0.125rem;
+	}
 
-		&.published {
-			background: rgba(0, 128, 0, 0.1);
-			color: green;
-		}
+	.meta-label {
+		font-size: 0.6875rem;
+		text-transform: uppercase;
+		letter-spacing: 0.025em;
+		color: #9ca3af;
+		font-weight: 500;
+	}
 
-		&:not(.published) {
-			background: rgba(255, 166, 0, 0.1);
-			color: orange;
-		}
+	.meta-value {
+		font-size: 0.8125rem;
+		color: #374151;
 	}
 
 	.actions {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
-		margin-top: 0.5rem;
 		flex-wrap: wrap;
 	}
 
-	.link-btn {
-		padding: 0.25rem 0.5rem;
-		background: #f0f0f0;
-		border-radius: 3px;
-		text-decoration: none;
+	.action-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.25rem;
+		padding: 0.375rem 0.625rem;
+		border: none;
+		border-radius: 0.375rem;
 		font-size: 0.75rem;
-		color: #333;
+		font-weight: 500;
+		cursor: pointer;
+		text-decoration: none;
+		transition: all 0.15s ease;
 
-		&:hover {
-			background: #e0e0e0;
-		}
-
-		&.version-btn {
-			background: #e6f3ff;
-			color: #0066cc;
+		&.primary {
+			background: #eff6ff;
+			color: #2563eb;
 
 			&:hover {
-				background: #cce6ff;
+				background: #dbeafe;
+			}
+		}
+
+		&.secondary {
+			background: #f0fdf4;
+			color: #16a34a;
+
+			&:hover {
+				background: #dcfce7;
+			}
+		}
+
+		&.accent {
+			background: #fef3c7;
+			color: #d97706;
+
+			&:hover {
+				background: #fde68a;
+			}
+		}
+
+		&.toggle {
+			background: #f3f4f6;
+			color: #6b7280;
+
+			&:hover {
+				background: #e5e7eb;
+				color: #374151;
 			}
 		}
 	}
 
-	.btn {
-		padding: 0.25rem 0.5rem;
-		border: none;
-		border-radius: 3px;
-		font-size: 0.75rem;
-		cursor: pointer;
-	}
-
-	.btn-primary {
-		background: #e6f0ff;
-		color: #0066cc;
-
-		&:hover {
-			background: #cce0ff;
-		}
-	}
-
-	.accordion {
-		cursor: pointer;
-		padding: 0.25rem 0.5rem;
-		background: #f5f5f5;
-		border-radius: 3px;
-		font-size: 0.75rem;
-
-		&:hover {
-			background: #e9e9e9;
-		}
+	.btn-icon {
+		width: 0.875rem;
+		height: 0.875rem;
+		flex-shrink: 0;
 	}
 
 	.details-panel {
-		margin-top: 0.5rem;
-		padding: 0.5rem;
-		background: #f9f9f9;
-		border-radius: 3px;
+		margin-top: 0.75rem;
+		padding: 0.75rem;
+		background: #f9fafb;
+		border-radius: 0.5rem;
+		border: 1px solid #f0f0f0;
 		max-height: 200px;
 		overflow-y: auto;
 	}
 
-	@media (max-width: 500px) {
-		.info-row {
-			flex-direction: column;
-			gap: 0.25rem;
+	.details-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+		gap: 0.625rem;
+	}
+
+	.detail-item {
+		display: flex;
+		flex-direction: column;
+		gap: 0.125rem;
+		padding: 0.375rem;
+		background: white;
+		border-radius: 0.25rem;
+		border: 1px solid #e5e7eb;
+	}
+
+	.detail-label {
+		font-size: 0.625rem;
+		text-transform: uppercase;
+		letter-spacing: 0.025em;
+		color: #9ca3af;
+		font-weight: 500;
+	}
+
+	.detail-value {
+		font-size: 0.75rem;
+		color: #374151;
+		word-break: break-word;
+		line-height: 1.4;
+	}
+
+	// Scrollbar styling
+	.details-panel {
+		scrollbar-width: thin;
+		scrollbar-color: #d1d5db transparent;
+
+		&::-webkit-scrollbar {
+			width: 4px;
+		}
+
+		&::-webkit-scrollbar-track {
+			background: transparent;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: #d1d5db;
+			border-radius: 4px;
 		}
 	}
 </style>

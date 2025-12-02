@@ -1,3 +1,4 @@
+// tailwind.config.ts
 import type { Config } from 'tailwindcss';
 
 const fontSans = ['"Space Grotesk"', 'Inter', 'system-ui', 'sans-serif'];

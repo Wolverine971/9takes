@@ -1,4 +1,4 @@
--- Test migration to verify schema compatibility
+-- supabase/migrations/20250916_test_schema_compatibility.sql
 -- This will help identify which tables/columns have issues
 
 -- Test 1: Verify comments table structure

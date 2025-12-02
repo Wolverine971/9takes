@@ -296,6 +296,7 @@ export type Database = {
           enneagram_type: string | null
           id: string
           name: string
+          session_goal: string | null
           updated_at: string | null
         }
         Insert: {
@@ -304,6 +305,7 @@ export type Database = {
           enneagram_type?: string | null
           id?: string
           name: string
+          session_goal?: string | null
           updated_at?: string | null
         }
         Update: {
@@ -312,6 +314,7 @@ export type Database = {
           enneagram_type?: string | null
           id?: string
           name?: string
+          session_goal?: string | null
           updated_at?: string | null
         }
         Relationships: []
@@ -1491,7 +1494,7 @@ export type Database = {
       questions: {
         Row: {
           author_id: string | null
-          comment_count: number | null
+          comment_count: number
           context: string | null
           created_at: string
           data: Json | null
@@ -1510,7 +1513,7 @@ export type Database = {
         }
         Insert: {
           author_id?: string | null
-          comment_count?: number | null
+          comment_count?: number
           context?: string | null
           created_at?: string
           data?: Json | null
@@ -1529,7 +1532,7 @@ export type Database = {
         }
         Update: {
           author_id?: string | null
-          comment_count?: number | null
+          comment_count?: number
           context?: string | null
           created_at?: string
           data?: Json | null
@@ -1843,6 +1846,7 @@ export type Database = {
           enneagram_type: string | null
           id: string | null
           name: string | null
+          session_goal: string | null
           source: string | null
           utm_campaign: string | null
           utm_content: string | null
@@ -1906,6 +1910,15 @@ export type Database = {
         Args: { questionid: number; userfingerprint: string; userid: string }
         Returns: boolean
       }
+      check_comment_rate_limit: {
+        Args: {
+          p_fingerprint: string
+          p_ip: string
+          p_max_comments?: number
+          p_window_seconds?: number
+        }
+        Returns: boolean
+      }
       cleanup_blogs_famous_people_history:
         | {
             Args: { p_famous_people_id: number }
@@ -1926,6 +1939,18 @@ export type Database = {
           number_modified: number
           number_of_comments: number
         }[]
+      }
+      create_comment_atomic: {
+        Args: {
+          p_author_id: string
+          p_comment: string
+          p_es_id?: string
+          p_fingerprint: string
+          p_ip: string
+          p_parent_id: number
+          p_parent_type: string
+        }
+        Returns: Json
       }
       daily_questions_stats: {
         Args: never
@@ -2093,7 +2118,7 @@ export type Database = {
             Args: { url: string }
             Returns: {
               author_id: string | null
-              comment_count: number | null
+              comment_count: number
               context: string | null
               created_at: string
               data: Json | null
@@ -2121,7 +2146,7 @@ export type Database = {
             Args: never
             Returns: {
               author_id: string | null
-              comment_count: number | null
+              comment_count: number
               context: string | null
               created_at: string
               data: Json | null

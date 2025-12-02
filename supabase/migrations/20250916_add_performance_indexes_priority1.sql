@@ -1,4 +1,4 @@
--- Priority 1 Performance Indexes for 9takes
+-- supabase/migrations/20250916_add_performance_indexes_priority1.sql
 -- Created: 2025-09-16
 -- Purpose: Add critical indexes for core functionality performance
 
