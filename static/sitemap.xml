@@ -2312,15 +2312,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Sam-Altman</loc>
-    <lastmod>2025-06-25T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Sam-Altman.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Steve-Jobs</loc>
     <lastmod>2025-06-25T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2426,6 +2417,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Sabrina-Carpenter.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Sam-Altman</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Sam-Altman.webp</image:loc>
     </image:image>
 </url>
 <url>

@@ -52,9 +52,8 @@ Then, in true Type 8 fashion, she added: **"Just to be clear, I don't really kno
 But here's what makes Amy special: she's channeled that power into lifting others up rather than dominating them.
 
 <div class="iframe-container">
-<iframe width="560" height="315" loading="lazy" src="
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/65Yh_nmoXbw?si=09VGH3i9u7O_gxfk&amp;start=283" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-https://www.youtube.com/embed/65Yh_nmoXbw?si=09VGH3i9u7O_gxfk&amp;start=283" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Amy Poehler's Blue-Collar Roots
@@ -196,4 +195,3 @@ Amy builds empires not for ego, but for protection. She takes up space so others
 That's the gift of the Type 8: they model what it looks like to have fierce boundaries. They teach us that protecting yourself isn't selfish—it's necessary.
 
 What would your life look like if you stopped caring whether people liked it?
-

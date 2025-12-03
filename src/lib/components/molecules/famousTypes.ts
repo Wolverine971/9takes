@@ -236,6 +236,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Tana-Mongeau', link: false, hasImage: false }
 	],
 	8: [
+		{ name: 'Amy-Poehler', link: false, hasImage: true },
 		{ name: 'Beyonce-Knowles', link: true, hasImage: true },
 		{ name: 'Chappell-Roan', link: true, hasImage: true },
 		{ name: 'Chelsea-Handler', link: true, hasImage: true },
@@ -256,7 +257,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Vladimir-Putin', link: false, hasImage: true },
 		{ name: 'Winston-Churchill', link: true, hasImage: true },
 		{ name: 'Xi-Jinping', link: false, hasImage: true },
-		{ name: 'Amy-Poehler', link: false, hasImage: false },
 		{ name: 'Andrew-Tate', link: false, hasImage: false },
 		{ name: 'Bryce-Hall', link: false, hasImage: false },
 		{ name: 'Dr-Phil', link: false, hasImage: false },
