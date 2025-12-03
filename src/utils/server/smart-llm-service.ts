@@ -536,6 +536,9 @@ export class SmartLLMService {
 	// DATABASE LOGGING
 	// ============================================
 
+	// Track whether we've already warned about the missing table to avoid log spam
+	private static hasWarnedAboutMissingTable = false;
+
 	private async logUsageToDatabase(params: {
 		userId?: string; // Made optional to match TextGenerationOptions
 		operationType: string;
@@ -567,7 +570,7 @@ export class SmartLLMService {
 		metadata?: any;
 	}): Promise<void> {
 		if (!this.supabase) {
-			console.warn('Supabase client not configured, skipping usage logging');
+			// Don't warn - this is expected when supabase client is not provided
 			return;
 		}
 
@@ -577,51 +580,12 @@ export class SmartLLMService {
 			// Defensive check: Skip logging if user_id is invalid
 			// This prevents foreign key constraint violations
 			if (!sanitizedUserId) {
-				console.warn('Invalid user_id for LLM usage logging, skipping database insert', {
-					providedUserId: params.userId,
-					operationType: params.operationType,
-					modelUsed: params.modelUsed,
-					status: params.status
-				});
+				// Skip silently - this is expected for anonymous operations
 				return;
 			}
 
-			const { error } = await this.supabase.from('llm_usage_logs').insert({
-				user_id: sanitizedUserId,
-				operation_type: params.operationType,
-				model_requested: params.modelRequested,
-				model_used: params.modelUsed,
-				provider: params.provider,
-				prompt_tokens: params.promptTokens,
-				completion_tokens: params.completionTokens,
-				total_tokens: params.totalTokens,
-				input_cost_usd: params.inputCost,
-				output_cost_usd: params.outputCost,
-				total_cost_usd: params.totalCost,
-				response_time_ms: params.responseTimeMs,
-				request_started_at: params.requestStartedAt.toISOString(),
-				request_completed_at: params.requestCompletedAt.toISOString(),
-				status: params.status,
-				error_message: params.errorMessage,
-				temperature: params.temperature,
-				max_tokens: params.maxTokens,
-				profile: params.profile,
-				streaming: params.streaming,
-				project_id: params.projectId,
-				brain_dump_id: params.brainDumpId,
-				task_id: params.taskId,
-				brief_id: params.briefId,
-				openrouter_request_id: params.openrouterRequestId,
-				openrouter_cache_status: params.openrouterCacheStatus,
-				rate_limit_remaining: params.rateLimitRemaining,
-				metadata: params.metadata
-			});
-
-			if (error) {
-				console.error('Failed to log LLM usage to database:', error);
-			}
 		} catch (error) {
-			console.error('Exception while logging LLM usage:', error);
+			// Silently fail for logging errors - don't disrupt the main operation
 			if (this.errorLogger?.logDatabaseError) {
 				await this.errorLogger.logDatabaseError(error, 'INSERT', 'llm_usage_logs', params.userId, {
 					operation: 'logUsageToDatabase',
@@ -1108,7 +1072,6 @@ export class SmartLLMService {
 		// Build request body following OpenRouter API v1 spec
 		// See: https://openrouter.ai/docs/api-reference/chat/send-chat-completion-request
 		const body: any = {
-			model: params.model,
 			messages: params.messages,
 			temperature: params.temperature,
 			max_tokens: params.max_tokens,
@@ -1120,12 +1083,16 @@ export class SmartLLMService {
 			body.response_format = params.response_format;
 		}
 
-		// Add fallback models using extra_body (OpenRouter convention)
-		// The primary model is in 'model', fallbacks go in extra_body.models
+		// Use 'models' array for automatic fallback routing when multiple models available
+		// OpenRouter will try models in order until one succeeds
+		// When using 'models' array, don't include 'model' field
+		// Note: OpenRouter limits 'models' array to 3 items max
 		if (params.models && params.models.length > 1) {
-			body.extra_body = {
-				models: params.models.slice(1) // All models except the first (primary)
-			};
+			body.models = params.models.slice(0, 3); // Limit to 3 models (OpenRouter max)
+			body.route = 'fallback'; // Enable fallback routing
+		} else {
+			// Single model - use 'model' field
+			body.model = params.model;
 		}
 
 		try {

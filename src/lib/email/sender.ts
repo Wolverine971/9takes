@@ -78,7 +78,24 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 	const { to, subject, htmlContent, recipientName, trackingId } = options;
 
 	try {
-		const { privateKey } = JSON.parse(PRIVATE_gmail_private_key);
+		// Validate that the private key environment variable is set
+		if (!PRIVATE_gmail_private_key) {
+			throw new Error('PRIVATE_gmail_private_key environment variable is not set');
+		}
+
+		let privateKey: string;
+		try {
+			const parsed = JSON.parse(PRIVATE_gmail_private_key);
+			privateKey = parsed.privateKey;
+		} catch (parseError) {
+			throw new Error(
+				`Failed to parse PRIVATE_gmail_private_key: ${parseError instanceof Error ? parseError.message : 'Invalid JSON'}`
+			);
+		}
+
+		if (!privateKey) {
+			throw new Error('privateKey field is missing from PRIVATE_gmail_private_key');
+		}
 
 		const authClient = new google.auth.JWT(
 			'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',

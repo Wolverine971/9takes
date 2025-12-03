@@ -4,7 +4,7 @@
 import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import type { GenerateEmailRequest, GenerateEmailResponse } from '$lib/types/email';
-import { smartLLMService } from '../../../../../utils/server/smart-llm-service';
+import { SmartLLMService } from '../../../../../utils/server/smart-llm-service';
 
 const SYSTEM_PROMPT = `You are an email copywriter for 9takes, a personality-based Q&A platform built on the Enneagram personality system. 9takes helps people understand themselves and others through the lens of personality.
 
@@ -68,7 +68,14 @@ Context:
 
 Generate the email content now. Return valid JSON only.`;
 
-		const result = await smartLLMService.getJSONResponse<GenerateEmailResponse>({
+		// Create instance of SmartLLMService with supabase for logging
+		const llmService = new SmartLLMService({
+			httpReferer: 'https://9takes.com',
+			appName: '9takes-email-dashboard',
+			supabase
+		});
+
+		const result = await llmService.getJSONResponse<GenerateEmailResponse>({
 			systemPrompt: SYSTEM_PROMPT,
 			userPrompt,
 			userId: session.user.id,
