@@ -316,7 +316,9 @@
 					{@html rightContent}
 
 					<!-- BlogPurpose placeholder - Added automatically before last H2 -->
-					<div class="blog-purpose-placeholder my-6 rounded-lg border-2 border-dashed border-blue-300 bg-blue-50 p-4 text-center">
+					<div
+						class="blog-purpose-placeholder my-6 rounded-lg border-2 border-dashed border-blue-300 bg-blue-50 p-4 text-center"
+					>
 						<p class="text-sm text-blue-600">
 							<strong>BlogPurpose Component</strong> - Automatically inserted here (before the last H2)
 						</p>

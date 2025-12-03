@@ -583,7 +583,6 @@ export class SmartLLMService {
 				// Skip silently - this is expected for anonymous operations
 				return;
 			}
-
 		} catch (error) {
 			// Silently fail for logging errors - don't disrupt the main operation
 			if (this.errorLogger?.logDatabaseError) {

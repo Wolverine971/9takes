@@ -2402,6 +2402,24 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Jordan-Peterson</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Jordan-Peterson.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Tucker-Carlson</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Tucker-Carlson.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/questions</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>

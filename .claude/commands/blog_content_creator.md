@@ -93,8 +93,9 @@ source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peopl
   2.  Execute prep-prompt-2 Enneagram analysis
   3.  Execute writing-prompt-1 blog generation
   4.  Generate proper metadata and frontmatter
-  5.  Review and refinement cycle
-  6.  Database submission
+  5.  Add strategic internal links (2-5 links)
+  6.  Review and refinement cycle
+  7.  Database submission
 
 ### 3. **Research Phase (New Blog Creation):**
 
@@ -185,6 +186,145 @@ source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peopl
   4. Approve and submit to database
   5. Continue editing later
   ```
+
+### 5.5. **Strategic Internal Linking (REQUIRED STEP):**
+
+After creating the draft, add 2-5 strategic internal links to improve SEO and site navigation. This step should be performed automatically before presenting options to the user.
+
+#### **Link Types to Add (in priority order):**
+
+1. **Celebrity Cross-Links** (highest priority)
+2. **Enneagram Type Links**
+3. **Relevant Topical Blog Links**
+4. **External Research Citations** (if applicable)
+
+#### **Step 5.5.1: Gather Available Link Targets**
+
+**Query existing celebrity blogs from database:**
+
+```bash
+source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?select=person&published=eq.true" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
+```
+
+**Scan published topical blogs:**
+
+- Search `/src/blog/enneagram/` for files with `published: true` in frontmatter
+- Note the slug (filename without .md) for each published blog
+- These will be linked as `/enneagram-corner/[slug]`
+
+#### **Step 5.5.2: Scan Content and Add Links**
+
+**Rules for adding links:**
+
+1. **Only 2-5 links total per blog** - Be strategic, don't over-link
+2. **Natural placement** - Links should fit naturally in the text
+3. **First mention only** - Only link the first occurrence of each entity
+4. **Avoid linking in headings** - Keep headings clean
+5. **Context matters** - Only link when the mention is substantive, not passing
+
+**Celebrity Links:**
+
+- Scan the blog content for mentions of other celebrities
+- If we have a published blog about them, link to `/personality-analysis/[Person-Name]`
+- Format: `[Celebrity Name](/personality-analysis/Celebrity-Name)`
+- Example: If "Elon Musk" is mentioned and we have his blog → `[Elon Musk](/personality-analysis/Elon-Musk)`
+
+**Enneagram Type Links:**
+
+- Scan for mentions of Enneagram types (e.g., "Type 5", "Enneagram 3", "type 8")
+- Link to the corresponding type page: `/enneagram-corner/enneagram-type-X`
+- Format: `[Enneagram Type X](/enneagram-corner/enneagram-type-X)` or `[Type X](/enneagram-corner/enneagram-type-X)`
+- Only link types other than the subject's own type (that's already covered in the main analysis)
+
+**Topical Blog Links:**
+
+- If the content discusses topics covered in published `/src/blog/enneagram/` posts, add relevant links
+- Common linkable topics:
+  - Stress patterns → `/enneagram-corner/enneagram-types-in-stress`
+  - Communication styles → `/enneagram-corner/enneagram-communication-styles`
+  - Relationships → `/enneagram-corner/enneagram-relationship-guide`
+  - Wings → `/enneagram-corner/enneagram-wings-complete-guide`
+  - Strengths/weaknesses → `/enneagram-corner/enneagram-strengths-and-weaknesses`
+
+**External Research Links:**
+
+- If citing recent research, studies, or news articles, add external links
+- Use descriptive anchor text, not "click here"
+- Format: `[descriptive text](https://example.com/source)`
+
+#### **Step 5.5.3: HTML Block Handling**
+
+**CRITICAL: When adding links inside HTML blocks, use anchor tags instead of markdown:**
+
+Inside HTML blocks (like `<p>`, `<div>`, `<details>`, `<li>`, etc.):
+
+```html
+<!-- CORRECT - use anchor tags inside HTML -->
+<p class="firstLetter">
+	The intense drive reminds us of <a href="/personality-analysis/Elon-Musk">Elon Musk</a>, another
+	visionary...
+</p>
+
+<li>
+	<b>Strategic thinking:</b> Similar to
+	<a href="/enneagram-corner/enneagram-type-5">Type 5</a> analysis patterns
+</li>
+```
+
+In regular markdown text:
+
+```markdown
+<!-- CORRECT - use markdown links outside HTML -->
+
+This reminds us of [Elon Musk](/personality-analysis/Elon-Musk), another visionary...
+
+Similar to [Type 5](/enneagram-corner/enneagram-type-5) analysis patterns.
+```
+
+**Detection rule:** If the text being linked is:
+
+- Inside any HTML tag (`<p>`, `<div>`, `<span>`, `<li>`, `<td>`, `<details>`, etc.)
+- Use `<a href="/path">text</a>` format
+
+If the text is:
+
+- In plain markdown paragraphs
+- Use `[text](/path)` format
+
+#### **Step 5.5.4: Example Linking Output**
+
+Before linking:
+
+```markdown
+<p class="firstLetter">Taylor Swift's perfectionism is legendary in the music industry. Her attention to detail rivals that of Beyoncé, and her strategic mind often draws comparisons to other Type 3 personalities.</p>
+
+When under stress, Type 3s can exhibit behaviors similar to unhealthy Type 9 patterns...
+```
+
+After linking:
+
+```markdown
+<p class="firstLetter">Taylor Swift's perfectionism is legendary in the music industry. Her attention to detail rivals that of <a href="/personality-analysis/Beyonce">Beyoncé</a>, and her strategic mind often draws comparisons to other Type 3 personalities.</p>
+
+When under stress, Type 3s can exhibit behaviors similar to unhealthy [Type 9](/enneagram-corner/enneagram-type-9) patterns...
+```
+
+#### **Step 5.5.5: Verify and Report**
+
+After adding links:
+
+1. Count total links added (should be 2-5)
+2. List links added in the format:
+   ```
+   Internal links added (X total):
+   - [Person Name] → /personality-analysis/Person-Name
+   - [Type X] → /enneagram-corner/enneagram-type-X
+   - [Topic] → /enneagram-corner/topic-slug
+   ```
+3. Update the draft file with the linked content
+4. Proceed to Review and Refinement
 
 ### 6. **Review and Refinement Cycle:**
 
@@ -310,12 +450,19 @@ When user requests updates based on latest developments:
    - Update TL;DR if significant new developments
    - Update metadata (lastmod date)
 
-5. **Preserve existing content:**
+5. **Review and update internal links (Step 5.5):**
+   - Check if any newly mentioned celebrities have published blogs → add links
+   - Verify existing internal links are still valid
+   - Add links to any new relevant topical content
+   - Ensure total links remain between 2-5
+   - Follow HTML vs markdown rules from Step 5.5.3
+
+6. **Preserve existing content:**
    - Keep strong existing sections unchanged
    - Maintain Enneagram type analysis unless compelling evidence suggests otherwise
    - Preserve historical sections (upbringing, early career, etc.)
 
-6. **When user says "push it up":**
+7. **When user says "push it up":**
    - Execute database submission workflow immediately
    - No additional approval needed
 
@@ -356,32 +503,31 @@ When generating blog content, understand that the blog will be rendered in `/per
 **DO NOT INCLUDE in generated blog content:**
 
 1. **`<script>` import tags** - The page component handles component imports. Never include:
+
    ```svelte
    <script>
-     import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
-     import PopCard from '$lib/components/atoms/PopCard.svelte';
+   	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
+   	import PopCard from '$lib/components/atoms/PopCard.svelte';
    </script>
    ```
 
 2. **Featured image PopCard at the top** - The page template (`+page.svelte:269-278`) already renders a PopCard with the person's image at the top of every blog. Never include:
+
    ```svelte
    <div style="display: flex; justify-content: center; margin: 1rem 0;">
-     <PopCard
-       image={`/types/1s/${person}.webp`}
-       enneagramType={1}
-       ...
-     />
+   	<PopCard image={`/types/1s/${person}.webp`} enneagramType={1} ... />
    </div>
    ```
 
 3. **BlogPurpose component** - The server (`+page.server.ts:274-298`) automatically inserts a BlogPurpose component before the last h2 tag. Do not manually add `<BlogPurpose />` tags.
 
 4. **`<svelte:head>` with JSON-LD** - Schema metadata is stored in the database and handled separately. Never include:
+
    ```svelte
    <svelte:head>
-   <script type="application/ld+json">
+   	<script type="application/ld+json">
    ...
-   </script>
+   	</script>
    </svelte:head>
    ```
 
@@ -397,6 +543,7 @@ When generating blog content, understand that the blog will be rendered in `/per
 - Inline content only - no wrapper components
 
 **Example of CORRECT blog structure:**
+
 ```markdown
 ---
 title: 'Person Name: Enneagram Analysis Title'
@@ -505,5 +652,11 @@ source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peopl
 6. **Two-step updates** - Update metadata first, then content (avoids trigger errors)
 7. **Python for large content** - Use Python script for proper JSON escaping of large markdown content
 8. **Credentials security** - Read from `.env` file, never hardcode in commands
+9. **Strategic internal linking** - Automatically add 2-5 internal links per blog:
+   - Celebrity cross-links to `/personality-analysis/[Person-Name]`
+   - Enneagram type links to `/enneagram-corner/enneagram-type-X`
+   - Relevant topical blog links
+   - External research citations when applicable
+   - HTML anchor tags inside HTML blocks, markdown links elsewhere
 
 This workflow ensures comprehensive, high-quality celebrity personality analysis blogs that align with 9takes' content strategy and technical requirements, while providing a smooth, efficient user experience.

@@ -48,14 +48,22 @@ export const load: PageServerLoad = async ({ locals }) => {
 	Object.keys(famousTypes).forEach((keyStr, i) => {
 		if (i < gridSize) {
 			const key = Number(keyStr);
-			let group = famousTypes[key].filter((person) => person.link).sort(() => Math.random() - 0.5);
+			// Only include people with images; prioritize those with published blogs
+			let group = famousTypes[key]
+				.filter((person) => person.hasImage && person.link)
+				.sort(() => Math.random() - 0.5);
 			if (group.length < 9) {
-				group.push(...famousTypes[key].filter((person) => !person.link).slice(0, 3));
+				// Add people with images but no published blog yet
+				group.push(
+					...famousTypes[key]
+						.filter((person) => person.hasImage && !person.link)
+						.slice(0, 9 - group.length)
+				);
 			}
 
 			const slicedGroup = group.slice(0, gridSize);
 			slicedGroup.forEach((person) => {
-				let info = { ...person, type: key };
+				let info = { ...person, type: key, url: person.link };
 				images.push(info);
 			});
 		}

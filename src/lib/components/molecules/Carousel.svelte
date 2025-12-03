@@ -5,22 +5,25 @@
 	import RubixGrid from '$lib/components/molecules/rubixGrid.svelte';
 	import { famousTypes } from '$lib/components/molecules/famousTypes';
 
-	export let type: number; //: Database['public']['Tables']['comments']['Row'];
+	export let type: number;
 	export let gridDisplay: boolean = false;
 
-	let w: any;
-	let h: any;
+	// Filter to only include people with images
+	$: peopleWithImages = famousTypes[type]?.filter((p) => p.hasImage) || [];
+
+	let currentIndex = 0;
+	$: visiblePerson = peopleWithImages[currentIndex];
+
 	onMount(() => {
-		visibleImage = famousTypes[type][1];
+		if (peopleWithImages.length > 1) {
+			currentIndex = 1;
+		}
 		setInterval(changePerson, 3333);
 	});
-	let visibleImage: string = '';
+
 	const changePerson = () => {
-		let index = famousTypes[type].indexOf(visibleImage);
-		visibleImage =
-			index < 0 || !famousTypes[type][index + 1]
-				? famousTypes[type][0]
-				: famousTypes[type][index + 1];
+		if (peopleWithImages.length === 0) return;
+		currentIndex = (currentIndex + 1) % peopleWithImages.length;
 	};
 </script>
 
@@ -31,12 +34,12 @@
 	"
 >
 	{#if type && gridDisplay}
-		<RubixGrid peopleList={famousTypes[type]} {type} />
-	{:else if type && visibleImage}
+		<RubixGrid peopleList={peopleWithImages} {type} />
+	{:else if type && visiblePerson}
 		<PopCard
-			image={`/types/${type}s/s-${visibleImage}.webp`}
+			image={`/types/${type}s/s-${visiblePerson.name}.webp`}
 			showIcon={false}
-			displayText={visibleImage.split('-').join(' ')}
+			displayText={visiblePerson.name.split('-').join(' ')}
 			subtext={''}
 		/>
 	{/if}

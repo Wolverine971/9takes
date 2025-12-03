@@ -3,14 +3,16 @@
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 
-	export let peopleList: { name: string; link: string }[];
+	type Person = { name: string; link: boolean; hasImage: boolean };
+
+	export let peopleList: Person[];
 
 	export let type: number;
 
 	let randomElements: string[] = [];
 
 	// Efficient shuffling algorithm (Fisher-Yates (aka Knuth) Shuffle)
-	function shuffleArray(array: { name: string; link: string }[]) {
+	function shuffleArray(array: Person[]): Person[] {
 		let currentIndex = array.length,
 			temporaryValue,
 			randomIndex;
@@ -29,14 +31,14 @@
 
 		return array;
 	}
-	let firstGroup: { name: string; link: string }[] = [];
-	let secondGroup: { name: string; link: string }[] = [];
-	let thirdGroup: { name: string; link: string }[] = [];
-	let fourthGroup: { name: string; link: string }[] = [];
-	let fifthGroup: { name: string; link: string }[] = [];
-	let sixthGroup: { name: string; link: string }[] = [];
+	let firstGroup: Person[] = [];
+	let secondGroup: Person[] = [];
+	let thirdGroup: Person[] = [];
+	let fourthGroup: Person[] = [];
+	let fifthGroup: Person[] = [];
+	let sixthGroup: Person[] = [];
 
-	let mainGroup: { name: string; link: string }[] = [];
+	let mainGroup: Person[] = [];
 
 	onMount(() => {
 		firstGroup = shuffleArray([...peopleList]).slice(0, 9);
