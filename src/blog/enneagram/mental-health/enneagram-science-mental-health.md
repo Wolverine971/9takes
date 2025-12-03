@@ -1,10 +1,10 @@
 ---
-title: 'The Science Behind Enneagram and Mental Health: Research, Neuroscience, and Evidence'
-description: 'Explore the scientific research linking Enneagram types to mental health patterns, including neuroscience findings, clinical studies, and evidence-based applications.'
+title: 'Is the Enneagram Scientifically Valid? (What the Research Actually Says)'
+description: "Skeptical about the Enneagram? Here's what peer-reviewed research, neuroscience studies, and clinical evidence actually say about its validity—the good, the bad, and the limitations."
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-science-mental-health'
-lastmod: '2025-09-02'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -28,6 +28,12 @@ NOTES:
   import PopCard from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
+
+## Quick Answer
+
+**Is the Enneagram scientifically valid?** The honest answer: it's complicated. The Enneagram lacks the extensive validation of established models like the Big Five, and its origins are spiritual rather than empirical. However, recent research shows correlations between Enneagram types and measurable psychological traits. Studies have found connections to attachment patterns, stress responses, and therapeutic outcomes. The framework is clinically useful for many practitioners, but it shouldn't be treated as a diagnostic tool. Bottom line: promising but not proven.
+
+**Read time**: 15 minutes | **Key takeaway**: Useful for self-understanding, not for diagnosis
 
 <p class="firstLetter">The Enneagram, often dismissed as pseudoscience, is undergoing rigorous scientific scrutiny with surprising results. While skepticism is warranted, emerging neuroscience and clinical research suggest measurable connections between personality types and mental health patterns worth examining.</p>
 

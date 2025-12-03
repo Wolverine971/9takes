@@ -27,10 +27,13 @@ The following operations are pre-approved and should be executed automatically:
 
 **Example todo list for updates:**
 
-1. Research latest developments (in_progress/completed)
-2. Update specific sections (pending/in_progress/completed)
-3. Review and refine content (pending/in_progress/completed)
-4. Push to database (pending/in_progress/completed)
+1. Read and analyze existing blog content (in_progress/completed)
+2. Research latest developments AND fill any gaps (pending/in_progress/completed)
+3. Analyze new info through Enneagram lens (pending/in_progress/completed)
+4. Integrate updates (preserve existing, enhance with new) (pending/in_progress/completed)
+5. Holistic balance check (pending/in_progress/completed)
+6. Review and refine content (pending/in_progress/completed)
+7. Push to database (pending/in_progress/completed)
 
 This provides the user clear visibility into workflow progress.
 
@@ -445,43 +448,86 @@ When the user approves content with phrases like "push it up," "submit," "update
 
 ### 8. **Update Workflows (Existing Content):**
 
-#### **Fresh Web Research Update (Efficient Workflow):**
+#### **Fresh Web Research Update (Holistic Workflow):**
+
+**CRITICAL PRINCIPLE: Updates must enhance, not narrow.** The goal is to maintain a complete picture of who this person is—their formative experiences, core personality patterns, full career arc, relationships, and growth over time. Recent events are important but should be integrated into the existing narrative, not replace it.
 
 When user requests updates based on latest developments:
 
 1. **Create TodoWrite task list** for the update workflow
 
-2. **Perform comprehensive WebSearch** in parallel:
-   - Latest news about the person (past 6-12 months)
-   - Recent interviews, releases, or major life events
-   - Changes in public perception or lifestyle
-   - New accomplishments or controversies
+2. **FIRST: Read and analyze the existing blog content:**
+   - Read the current blog from database or draft file
+   - **Create a mental map** of what the blog currently covers:
+     - Upbringing and formative experiences
+     - Core personality traits and Enneagram patterns
+     - Career milestones and evolution
+     - Key relationships and influences
+     - Psychological insights and growth patterns
+     - Previous controversies/challenges and how they handled them
+   - **Identify the blog's thesis**: What is the central narrative about this person's personality?
+   - **Note any gaps**: Are there important life areas not yet covered?
 
-3. **Analyze through Enneagram lens:**
-   - How do recent developments reflect Type X patterns?
-   - Signs of growth, integration, or stress?
-   - New psychological insights from recent behavior?
+3. **Perform comprehensive WebSearch** in parallel:
+   - **Recent developments** (past 6-12 months):
+     - Latest news, interviews, releases, or major life events
+     - Changes in public perception or lifestyle
+     - New accomplishments or controversies
+   - **Fill existing gaps** (if any identified in step 2):
+     - Missing childhood/family context
+     - Underexplored relationships or influences
+     - Career phases not well documented
+   - **Deepen psychological understanding**:
+     - Interviews where they discuss motivations, fears, values
+     - Long-form profiles or biographies
+     - Patterns across their entire life, not just recent events
 
-4. **Update draft file directly** at `/src/blog/people/drafts/[Person-Name].md`:
-   - Modify opening section to reflect current (2025) context
-   - Update relevant body sections with new information
-   - Add new sections if warranted (e.g., new album, relationship, controversy)
-   - Update TL;DR if significant new developments
-   - Update metadata (lastmod date)
+4. **Analyze through Enneagram lens (holistic view):**
+   - How do recent developments reflect their core Type X patterns?
+   - Do new events reinforce or add nuance to the existing personality analysis?
+   - Signs of growth, integration, or stress across their life arc?
+   - How do recent behaviors connect to formative experiences?
+   - **Consistency check**: Does the new information align with the established personality portrait?
 
-5. **Review and update internal links (Step 5.5):**
+5. **Integration strategy (NOT replacement):**
+   Before making any edits, determine for each piece of new information:
+   - **Add**: New content that fills gaps or adds depth
+   - **Update**: Existing content that needs factual corrections or current context
+   - **Enhance**: Sections that can be strengthened with additional examples
+   - **Leave unchanged**: Strong existing content that doesn't need modification
+
+   **Default to preservation**: If existing content is accurate and well-written, keep it. Only modify what genuinely needs updating.
+
+6. **Update draft file directly** at `/src/blog/people/drafts/[Person-Name].md`:
+   - **Opening section**: Add current context but preserve the hook and thesis
+   - **Historical sections** (upbringing, early career): Only update if you found new information about these periods—never delete or shorten
+   - **Personality analysis sections**: Add new examples, don't replace existing insights
+   - **Accomplishments**: Add recent ones to the existing list, maintain chronological or thematic order
+   - **Controversies/challenges**: Add new ones if significant, preserve how they handled past ones
+   - **Legacy section**: Update to reflect current status while honoring their full journey
+   - **TL;DR**: Only update if there are genuinely significant new developments that change the core summary
+   - **Metadata**: Update lastmod date
+
+7. **Holistic balance check (REQUIRED before finalizing):**
+   Review the updated draft and verify:
+   - [ ] The blog still covers their entire life arc, not just recent events
+   - [ ] Formative experiences and upbringing remain well-documented
+   - [ ] Core personality patterns are still clearly explained with examples from multiple life phases
+   - [ ] The Enneagram analysis draws from their whole life, not just current behavior
+   - [ ] Historical accomplishments aren't overshadowed by recent ones
+   - [ ] The blog would still be valuable if read 5 years from now
+   - [ ] Someone unfamiliar with this person would get a complete picture of who they are
+
+   **If any check fails, revise before proceeding.**
+
+8. **Review and update internal links (Step 5.5):**
    - Check if any newly mentioned celebrities have published blogs → add links
    - Verify existing internal links are still valid
    - Add links to any new relevant topical content
    - Ensure total links remain between 2-5
    - Follow HTML vs markdown rules from Step 5.5.3
 
-6. **Preserve existing content:**
-   - Keep strong existing sections unchanged
-   - Maintain Enneagram type analysis unless compelling evidence suggests otherwise
-   - Preserve historical sections (upbringing, early career, etc.)
-
-7. **When user says "push it up":**
+9. **When user says "push it up":**
    - Execute database submission workflow immediately
    - No additional approval needed
 
@@ -678,5 +724,14 @@ source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peopl
    - Relevant topical blog links
    - External research citations when applicable
    - HTML anchor tags inside HTML blocks, markdown links elsewhere
+10. **Holistic content preservation for updates** - When updating existing blogs:
+    - ALWAYS read and analyze existing content FIRST before researching
+    - Create a mental map of what the blog currently covers
+    - Research fills gaps AND adds recent developments (not just recent news)
+    - Integration strategy: Add, Update, Enhance, or Leave unchanged—default to preservation
+    - Never delete or shorten historical sections (upbringing, early career, etc.)
+    - Personality analysis must draw from the person's ENTIRE life arc
+    - Required holistic balance check before finalizing updates
+    - Goal: Someone reading the blog should get a complete picture of who this person is, not just what they've done lately
 
-This workflow ensures comprehensive, high-quality celebrity personality analysis blogs that align with 9takes' content strategy and technical requirements, while providing a smooth, efficient user experience.
+This workflow ensures comprehensive, high-quality celebrity personality analysis blogs that align with 9takes' content strategy and technical requirements, while providing a smooth, efficient user experience and maintaining the full context of each person's life and personality.

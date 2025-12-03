@@ -1,14 +1,15 @@
 ---
-title: 'The 9 Biggest Compliments to Give to Each Enneagram Type'
-description: 'Explore the ultimate compliments for each Enneagram type, delving into their core essence and unique strengths. Dive deep with 9takes!'
+title: 'How to Compliment Each Enneagram Type (Words That Actually Land)'
+description: "Generic compliments fall flat. Here's exactly what each Enneagram type secretly wants to hear—the words that make them feel truly seen and appreciated."
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/enneagram-corner/biggest-compliments-to-give-each-enneagram-type'
-lastmod: '2024-07-12'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+blog: true
 pic: 'greek-statue-yeah-boi'
 ---
 
@@ -19,30 +20,46 @@ pic: 'greek-statue-yeah-boi'
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Want to know how to make someone's day with the best compliment possible?</p>
+## Quick Answer
 
-The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes each personality tick and how to make them feel special. Let's get started!
+**What compliments work best for each Enneagram type?** Compliment what they secretly fear they lack. Type 1s want to hear they're good (not just right). Type 2s need to feel loved for who they are, not what they give. Type 3s want genuine recognition beyond achievements. Type 4s crave being truly understood. Type 5s appreciate when their knowledge makes a difference. Type 6s need reassurance they can trust themselves. Type 7s want depth acknowledged beneath their fun exterior. Type 8s respect being seen as fair, not just strong. Type 9s need to know their voice matters.
+
+## Compliment Cheat Sheet
+
+| Type       | What They Fear        | Compliment That Lands                         | Avoid                                    |
+| ---------- | --------------------- | --------------------------------------------- | ---------------------------------------- |
+| **Type 1** | Being corrupt/bad     | "Your integrity inspires me"                  | "You're always right" (sounds sarcastic) |
+| **Type 2** | Being unloved         | "I love you for who you are, not what you do" | "Thanks for helping" (too transactional) |
+| **Type 3** | Being worthless       | "I admire the person behind the success"      | "You're so accomplished" (surface level) |
+| **Type 4** | Being ordinary        | "Your perspective is unlike anyone's"         | "You're so unique" (feels dismissive)    |
+| **Type 5** | Being incompetent     | "Your insight changed how I see this"         | "You're so smart" (too generic)          |
+| **Type 6** | Being without support | "I trust your judgment completely"            | "Don't worry so much" (invalidating)     |
+| **Type 7** | Being trapped in pain | "I see the depth beneath your energy"         | "You're so fun!" (misses the point)      |
+| **Type 8** | Being controlled/hurt | "Your fairness inspires loyalty"              | "You're so strong" (expected)            |
+| **Type 9** | Being insignificant   | "Your presence makes everything better"       | "You're so easy-going" (invisibilizing)  |
+
+<p class="firstLetter">"You're so smart!" "You're so nice!" "Great job!"</p>
+
+These compliments fall flat. They're generic, forgettable, and don't make anyone feel truly seen.
+
+The secret to meaningful compliments? **Acknowledge what they secretly fear they lack.** Each Enneagram type has a core fear—and when you affirm the opposite of that fear, you touch something deep.
 
 <article class="section-content">
 
-### Type 1- The Perfectionist
+### Type 1: The Perfectionist
 
-An innate desire for perfection and righteousness drives type 1 individuals. Recognizing their relentless pursuit of justice and acknowledging their dedication to moral values touches the very core of their being.
+**Core fear:** Being corrupt, bad, or morally flawed
 
-**Basic Compliment:** "Your integrity and commitment to improving the world never cease to inspire. You lead with unwavering principles."
+Type 1s have a relentless inner critic constantly telling them they're not good enough. They strive for perfection because they genuinely want to be good people.
 
-**What the kids say:**
+**Say this:** "Your integrity inspires me. I've noticed how you always try to do the right thing, even when it's hard."
 
-- "Your vibe? Straight-up chef's kiss."
-- "When you walked in with that commitment to excellence? The whole place lit up, no cap."
-- "You're the real OG of keeping things 100."
-- "That dedication to fairness? It's the drip."
-- "You glow different when you're on that righteous mission."
-- "I see you flexing those ethical muscles!"
-- "Your style? Clean, just like your principles."
-- "I'm living for that justice warrior glow-up!"
-- "You're the blueprint for doing things right."
-- "That 'stick to your morals' energy? Straight fire."
+**Why it works:** You're telling them what their inner critic never does—that they ARE good, not just correct.
+
+**Avoid saying:**
+- "You're always right" (sounds sarcastic)
+- "You need to relax" (dismisses their values)
+- "It's good enough" (triggers their inner critic)
 
 [More on Type 1s](/enneagram-corner/enneagram-type-1)
 
@@ -50,24 +67,20 @@ An innate desire for perfection and righteousness drives type 1 individuals. Rec
 
 <article class="section-content">
 
-### Type 2- The Helper
+### Type 2: The Helper
 
-Type 2 personalities thrive on love and appreciation. They long to feel needed. By acknowledging their genuine concern and kindness, you mirror back the love they constantly radiate.
+**Core fear:** Being unloved or unwanted for who they are
 
-**Basic Compliment:** "Your selflessness and warmth bring light to every room. People find solace in your nurturing presence."
+Type 2s give constantly because they fear that without being useful, they won't be loved. They need to know they matter beyond what they provide.
 
-**What the kids say:**
+**Say this:** "I love spending time with you—not because of what you do for me, but because of who you are."
 
-- "Every room you enter? Instantly more lit."
-- "You're the OG of vibes and good times."
-- "Your nurturing energy is straight outta a hype house."
-- "You're like the human version of a glow-up."
-- "When you care? It's louder than my Spotify playlist."
-- "Your style screams 'I got everyone's back'."
-- "If love had a face, it'd be yours."
-- "You're the kind of person everyone wants on their squad."
-- "You're the real MVP of making everyone feel seen."
-- "You drip kindness like it's the latest trend."
+**Why it works:** You're separating their worth from their usefulness. This is the validation they crave but rarely receive.
+
+**Avoid saying:**
+- "Thanks for helping" (too transactional)
+- "What would I do without you?" (reinforces usefulness = worth)
+- "You're so selfless" (pressure to keep giving)
 
 [More on Type 2s](/enneagram-corner/enneagram-type-2)
 
@@ -75,11 +88,20 @@ Type 2 personalities thrive on love and appreciation. They long to feel needed. 
 
 <article class="section-content">
 
-### Type 3- The Achiever
+### Type 3: The Achiever
 
-Type 3 individuals are goal-oriented powerhouses. They yearn for success and validation. Praising their accomplishments and efficiency resonates deeply with their ambitious spirit.
+**Core fear:** Being worthless without achievements
 
-**Basic Compliment:** "Your drive and ambition are unparalleled. The way you transform visions into reality is truly remarkable."
+Type 3s chase success because they believe they ARE their accomplishments. Deep down, they fear that without the wins, no one would want them.
+
+**Say this:** "I admire who you are, not just what you've achieved. The person behind all that success is someone I genuinely respect."
+
+**Why it works:** You're seeing past the resume to the human. That's rare for them—and deeply meaningful.
+
+**Avoid saying:**
+- "You're so successful" (surface level—they hear this constantly)
+- "You're a machine!" (dehumanizing)
+- "I could never do what you do" (puts them on a pedestal)
 
 **What the kids say:**
 

@@ -2,7 +2,7 @@
 
 # 9takes Content Strategy - START HERE
 
-_Last Modified: 2025-10-23 - TRAFFIC DATA ANALYSIS COMPLETE_
+_Last Modified: 2025-12-03 - TRAFFIC DATA ANALYSIS COMPLETE, IMAGES VERIFIED_
 _Status: **CRITICAL PIVOT NEEDED** - Mental Health Content Dominating, Type Posts Failing_
 _**NEW PRIORITY: Fix high-impression/zero-click pages + AI search optimization**_
 
@@ -28,44 +28,91 @@ _**NEW PRIORITY: Fix high-impression/zero-click pages + AI search optimization**
 
 Transform 9takes into THE authority for personality-based PROBLEM SOLVING (not descriptions) through AI-optimized, problem-focused content that actually gets clicked.
 
-## 🔥 IMMEDIATE PRIORITIES (Based on Traffic Data - Oct 23, 2025)
+## 🔥 IMMEDIATE PRIORITIES (Updated Dec 3, 2025)
 
-### TODAY'S CRITICAL FIXES (Do These First!)
+### ✅ COMPLETED: Zero-Click Pages Optimized
 
-#### 1. Fix Zero-Click Pages (High Impressions, No Clicks)
+All 5 high-impression/zero-click pages have been optimized with clickbait titles, Quick Answer boxes, and comparison tables:
 
-These pages are being shown by Google but not clicked - FIX TITLES/METAS NOW:
+| Page                               | Original Issue              | New Title                                                                      | Status             |
+| ---------------------------------- | --------------------------- | ------------------------------------------------------------------------------ | ------------------ |
+| enneagram-wings-complete-guide     | 628 impressions, 0 clicks   | "Why You Don't Match Your Enneagram Description (It's Your Wing)"              | ✅ Done 2025-10-23 |
+| enneagram-anxiety-complete-guide   | 471 impressions, 0 clicks   | "Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety Pattern)" | ✅ Done 2025-12-03 |
+| enneagram-type-4                   | 394 impressions, 0 clicks   | "Type 4: Why You Feel Different From Everyone Else (The Missing Piece)"        | ✅ Done 2025-10-23 |
+| enneagram-strengths-and-weaknesses | 1,002 impressions, 8 clicks | "Your Type's Fatal Flaw (And Secret Superpower) Based on Enneagram"            | ✅ Done 2025-10-23 |
+| enneagram-types-in-stress          | 912 impressions, 2 clicks   | "How Each Type Falls Apart (Your Stress Breakdown Pattern)"                    | ✅ Done 2025-10-23 |
 
-| Page                               | Impressions | Clicks | Action                                                       |
-| ---------------------------------- | ----------- | ------ | ------------------------------------------------------------ |
-| enneagram-wings-complete-guide     | 628         | 0      | Change title to: "Am I 4w3 or 4w5? Find Your Enneagram Wing" |
-| enneagram-anxiety-complete-guide   | 471         | 0      | Change to: "Why Type 6 Isn't the Only Anxious Type (Guide)"  |
-| enneagram-type-4                   | 394         | 0      | Change to: "Type 4: Why You Feel Different From Everyone"    |
-| enneagram-strengths-and-weaknesses | 1,002       | 8      | Add urgency: "Your Type's Fatal Flaw (And Hidden Strength)"  |
-| enneagram-types-in-stress          | 912         | 2      | Change to: "How Each Type Falls Apart Under Stress"          |
+### ✅ COMPLETED: AI Search Optimization
 
-#### 2. Optimize Top Performers for AI Search
+- [x] Add "Quick Answer" box to top 5 pages
+- [x] Remove hedging language (minimal found - already clean)
+- [x] Update FAQs with actual search queries (JSON-LD FAQPages in place)
+- [x] Add comparison tables to mental health content (anxiety guide updated)
+- [ ] Include "When to Seek Help" sections (mental health guides have crisis resources)
 
-Add these elements to your best pages TODAY:
-
-- **Quick Answer boxes** at the very top
-- **Remove hedging language** ("tend to" → "commonly")
-- **Add structured FAQs** with real search queries
-- **Include comparison tables**
-
-#### 3. Create Problem-Focused Content (This Week)
+### 🎯 NEXT PRIORITIES: Create Problem-Focused Content
 
 - "Red Flags You're Dating Each Enneagram Type"
 - "Why Your Enneagram Type Can't Stop [Problem]"
 - "Enneagram and ADHD: Which Types Struggle Most"
 
-### AI Search Optimization Checklist
+---
 
-- [ ] Add "Quick Answer" box to top 5 pages
-- [ ] Remove all "tend to/likely to" hedging
-- [ ] Update FAQs with actual search queries
-- [ ] Add comparison tables to mental health content
-- [ ] Include "When to Seek Help" sections
+## 📊 FRESH GSC DATA ANALYSIS (Dec 3, 2025 - Past 28 Days)
+
+### Top Performers by Clicks
+
+| Page                                | Clicks | Impressions | CTR  |
+| ----------------------------------- | ------ | ----------- | ---- |
+| enneagram-and-mental-illness        | 177    | 2,650       | 6.7% |
+| toxic-traits-of-each-enneagram-type | 63     | 1,313       | 4.8% |
+| astrology-and-the-enneagram         | 46     | 2,595       | 1.8% |
+| enneagram-instinctual-subtypes      | 29     | 2,445       | 1.2% |
+| enneagram-strengths-and-weaknesses  | 20     | 620         | 3.2% |
+
+### ✅ Previous Optimizations Working
+
+- `strengths-and-weaknesses`: **20 clicks** (was 8) → 150% increase
+- `types-in-stress`: **12 clicks** (was 2) → 500% increase
+
+### ✅ All Optimizations (Dec 3, 2025) - 8 Total Pages
+
+#### Round 1: High-Impression Zero-Click Pages
+
+| Page                               | Issue                  | New Title                                                                      | Added                           |
+| ---------------------------------- | ---------------------- | ------------------------------------------------------------------------------ | ------------------------------- |
+| enneagram-anxiety-complete-guide   | 471 imp, 0 clicks      | "Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety Pattern)" | Quick Answer + Comparison Table |
+| enneagram-types-and-career-choices | Last updated Sept 2024 | "Why You Hate Your Job (It's Not the Boss—It's Your Enneagram Type)"           | Quick Answer + Salary Table     |
+| enneagram-tldr                     | 491 imp, 0 clicks      | "What's My Enneagram Type? (The 5-Minute Answer You Actually Need)"            | Quick Answer                    |
+| enneagram-test-comparison-2025     | 1,112 imp, 9 clicks    | "Best Free Enneagram Test (2025): Which One Actually Works?"                   | Quick Answer + Mini Table       |
+
+#### Round 2: High-Impression Low-CTR Pages
+
+| Page                                  | Impressions | New Title                                                                       | Added                |
+| ------------------------------------- | ----------- | ------------------------------------------------------------------------------- | -------------------- |
+| enneagram-science-mental-health       | 740         | "Is the Enneagram Scientifically Valid? (What the Research Actually Says)"      | Quick Answer         |
+| attachment-styles-and-enneagram-types | 708         | "Your Attachment Style Isn't the Whole Story (How Enneagram Explains the Rest)" | Quick Answer + Table |
+| enneagram-instinctual-subtypes        | 2,445       | "Why You Don't Fully Match Your Enneagram Type (It's Your Subtype)"             | Quick Answer + Table |
+
+#### Round 3: Outdated Relationship Content
+
+| Page                                     | Issue                   | New Title                                                        | Added                                                       |
+| ---------------------------------------- | ----------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------- |
+| toxic-traits-relationships-warning-signs | Last updated March 2025 | "Red Flags You're Dating a Toxic Version of Each Enneagram Type" | Quick Answer + "What Attracted You → What It Becomes" Table |
+
+**Note:** `toxic-traits-of-each-enneagram-type` already optimized (Oct 2025) - TOP PERFORMER #2 with 4.8% CTR
+
+#### Round 4: 2024 Outdated Blogs (Dec 3, 2025)
+
+| Page                                            | Last Updated | Impressions     | New Title                                                             | Added                                |
+| ----------------------------------------------- | ------------ | --------------- | --------------------------------------------------------------------- | ------------------------------------ |
+| enneagram-vs-meyers-briggs                      | Apr 2024     | 153 (0 clicks!) | "Enneagram vs Myers-Briggs: Which Actually Explains You Better?"      | Quick Answer + Comparison Table      |
+| biggest-compliments-to-give-each-enneagram-type | Jul 2024     | 574             | "How to Compliment Each Enneagram Type (Words That Actually Land)"    | Quick Answer + Cheat Sheet Table     |
+| enneagram-and-religion                          | Aug 2024     | 279             | "Is the Enneagram Religious? (The Truth About Its Spiritual Origins)" | Quick Answer + Religion Stance Table |
+
+### 📊 Total Optimizations: 11 Pages (Dec 3, 2025)
+
+---
 
 ## 📋 REASSESSMENT SUMMARY (Sept 14, 2025)
 
@@ -597,19 +644,7 @@ site:reddit.com "[celebrity name]" ("toxic" OR "narcissist" OR "personality") af
 - ✅ 10,000+ email subscribers
 - ✅ $10-20k monthly revenue
 
-## 📋 OUTSTANDING TASKS (As of 2025-09-08)
-
-### Images Still Needed
-
-**5 Mental Health Blogs require Midjourney images:**
-
-1. enneagram-neurodivergence - Prompt ready
-2. enneagram-parenting-mental-health - Prompt ready
-3. enneagram-science-mental-health - Prompt ready
-4. enneagram-crisis-management - Prompt ready (pic field updated)
-5. enneagram-medication-guide - Prompt ready (pic field updated)
-
-**Note:** All prompts available in `/docs/content-generation/mental-health-images-still-needed.md`
+## 📋 OUTSTANDING TASKS (As of 2025-12-03)
 
 ### Content Pipeline
 

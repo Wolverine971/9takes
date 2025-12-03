@@ -1,12 +1,12 @@
 ---
-title: 'Toxic Traits in Relationships: Spot the Red Flags Using the Enneagram'
-description: 'Discover how each Enneagram type shows toxic traits in relationships. Learn to identify warning signs early, understand the deeper motivations, and build healthier connections.'
+title: "Red Flags You're Dating a Toxic Version of Each Enneagram Type"
+description: "That charming quirk is now driving you insane. Here's how to spot when each Enneagram type turns toxic in relationships—and when to walk away before it gets worse."
 author: 'DJ Wayne'
 date: '2024-07-31'
 loc: 'https://9takes.com/enneagram-corner/toxic-traits-relationships-warning-signs'
-lastmod: '2025-03-10'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
-priority: '0.6'
+priority: '0.7'
 published: true
 type: ['situational']
 blog: true
@@ -18,6 +18,24 @@ pic: 'greek-statues-in-a-tense-moment'
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
+
+## Quick Answer
+
+**What are the red flags for each Enneagram type in relationships?** Type 1s criticize everything you do. Type 2s help with strings attached ("after all I've done for you"). Type 3s perform instead of connect. Type 4s make their crisis your constant responsibility. Type 5s withdraw when you need them most. Type 6s test your loyalty obsessively. Type 7s disappear when things get serious. Type 8s bulldoze your boundaries. Type 9s go silent and forget your needs exist. The trait that attracted you initially often becomes the toxic pattern that destroys the relationship.
+
+## Relationship Red Flags by Type
+
+| Type       | What Attracted You        | What It Becomes                           | Run When...                              |
+| ---------- | ------------------------- | ----------------------------------------- | ---------------------------------------- |
+| **Type 1** | High standards, integrity | Constant criticism, nothing's good enough | You're walking on eggshells daily        |
+| **Type 2** | Caring, attentive         | Guilt-tripping, emotional debt            | Help feels like hostage-taking           |
+| **Type 3** | Confident, successful     | Fake, uses you as a prop                  | You realize you don't know the real them |
+| **Type 4** | Deep, passionate          | Emotional vampire, endless drama          | Their crisis is always your emergency    |
+| **Type 5** | Smart, independent        | Emotionally unavailable, condescending    | Having needs makes you feel stupid       |
+| **Type 6** | Loyal, committed          | Paranoid, constant loyalty tests          | You're always proving yourself           |
+| **Type 7** | Fun, spontaneous          | Avoids all depth, commitment-phobic       | Serious conversations make them vanish   |
+| **Type 8** | Strong, protective        | Controlling, intimidating                 | Disagreement triggers aggression         |
+| **Type 9** | Easy-going, peaceful      | Passive-aggressive, disappears            | Your needs become invisible              |
 
 <p class="firstLetter">That "quirky trait" you found endearing on your first date? Six months later, it's driving you insane.</p>
 

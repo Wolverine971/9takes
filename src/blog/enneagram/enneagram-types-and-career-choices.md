@@ -1,12 +1,12 @@
 ---
-title: 'Enneagram & Careers: Discover a Path for all 9 types'
-description: 'Explore ideal careers for each Enneagram type and discover how personality traits can guide your professional path in this insightful article.'
+title: "Why You Hate Your Job (It's Not the Boss—It's Your Enneagram Type)"
+description: "Stuck in the wrong career? Your Enneagram type reveals why you're miserable at work and exactly what jobs will actually make you thrive. Find your perfect career match based on your core motivations, not just your skills."
 author: 'DJ Wayne'
 date: '2023-11-29'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-and-career-choices'
-lastmod: '2024-09-27'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
-priority: '0.6'
+priority: '0.7'
 published: true
 type: ['workplace']
 blog: true
@@ -19,8 +19,26 @@ pic: 'female-greek-statues-of-different-professions'
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<!-- what is a good question to ask yourself when choosing a career path -->
-<!-- what question to ask in an interview -->
+## Quick Answer
+
+**What career should I pursue based on my Enneagram type?** Type 1s thrive in quality control and ethics roles. Type 2s excel in healthcare and HR. Type 3s dominate in sales and leadership. Type 4s flourish in creative fields. Type 5s belong in research and tech. Type 6s succeed in security and risk management. Type 7s shine in marketing and entrepreneurship. Type 8s lead in executive and crisis management. Type 9s excel in mediation and counseling. The key isn't just matching skills—it's aligning your career with your core motivations.
+
+**Read time**: 12 minutes | **Key insight**: Your job dissatisfaction isn't about the tasks—it's about whether your work feeds or starves your core motivation
+
+## Career Match Comparison Table
+
+| Type       | Core Work Need           | Dream Role         | Career Killer           | Salary Sweet Spot |
+| ---------- | ------------------------ | ------------------ | ----------------------- | ----------------- |
+| **Type 1** | Improving systems        | Quality Director   | Chaotic environments    | $85-150K          |
+| **Type 2** | Helping people directly  | Healthcare Manager | Solo/remote work        | $60-120K          |
+| **Type 3** | Visible achievement      | Sales Executive    | Behind-the-scenes roles | $100-300K+        |
+| **Type 4** | Creative expression      | Creative Director  | Repetitive tasks        | $55-130K          |
+| **Type 5** | Solving complex problems | Research Scientist | Constant interruptions  | $80-180K          |
+| **Type 6** | Security & team trust    | Risk Manager       | Unstable startups       | $70-140K          |
+| **Type 7** | Variety & innovation     | Entrepreneur       | Routine desk jobs       | $60-unlimited     |
+| **Type 8** | Control & impact         | CEO/Founder        | Micromanagement         | $120-500K+        |
+| **Type 9** | Harmony & purpose        | Mediator/Counselor | High-conflict roles     | $50-100K          |
+
 <p class="firstLetter" style="margin-top:2rem">Follow your heart.</p>
 
 Don't follow your heart.

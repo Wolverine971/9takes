@@ -1,10 +1,10 @@
 ---
-title: 'The Complete Guide to Enneagram and Anxiety Disorders'
-description: 'Discover how anxiety manifests differently in each Enneagram type, with tailored coping strategies, grounding exercises, and evidence-based interventions for your personality.'
+title: "Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety Pattern)"
+description: "Think anxiety is just a Type 6 thing? Wrong. Every Enneagram type has a unique anxiety pattern that sabotages them differently. Discover your type's hidden anxiety triggers and the exact coping strategies that actually work for your personality."
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-anxiety-complete-guide'
-lastmod: '2025-09-09'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -29,11 +29,31 @@ NOTES:
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
+## Quick Answer
+
+**Is Type 6 the only anxious Enneagram type?** No. Every type experiences anxiety differently. Type 1s have perfectionist anxiety (fear of being wrong), Type 2s have rejection anxiety (fear of not being needed), Type 3s have failure anxiety (fear of worthlessness), Type 4s have identity anxiety (fear of being ordinary), Type 5s have depletion anxiety (fear of incompetence), Type 6s have security anxiety (fear of being without support), Type 7s have constraint anxiety (fear of pain), Type 8s have vulnerability anxiety (fear of being controlled), and Type 9s have conflict anxiety (fear of disconnection).
+
+**Read time**: 20 minutes | **Key insight**: Your type's core fear creates your unique anxiety pattern
+
 <p class="firstLetter">Anxiety doesn't discriminate, but it does personalize.</p>
 
 While everyone experiences anxiety, the way it manifests, triggers, and can be managed varies dramatically based on your Enneagram type. Understanding your type's unique anxiety patterns isn't just helpful—it's transformative.
 
 This comprehensive guide explores how each Enneagram type experiences different forms of anxiety, from social anxiety to panic disorders, and provides evidence-based strategies tailored to each personality's needs.
+
+## Anxiety Patterns Comparison Table
+
+| Type       | Primary Anxiety       | Core Trigger     | Physical Symptom          | Quick Intervention              |
+| ---------- | --------------------- | ---------------- | ------------------------- | ------------------------------- |
+| **Type 1** | Perfectionist anxiety | Making mistakes  | Jaw clenching, tension    | Accept "good enough"            |
+| **Type 2** | Rejection anxiety     | Being unneeded   | Heart palpitations        | Set one boundary                |
+| **Type 3** | Failure anxiety       | Public failure   | Insomnia, chest tightness | Separate worth from achievement |
+| **Type 4** | Identity anxiety      | Feeling ordinary | Fatigue, appetite changes | Ground in present reality       |
+| **Type 5** | Depletion anxiety     | Mental overwhelm | Tension, disconnection    | 5-4-3-2-1 sensory grounding     |
+| **Type 6** | Security anxiety      | Uncertainty      | Muscle tension, scanning  | "In this moment, I am safe"     |
+| **Type 7** | Constraint anxiety    | Boredom, pain    | Restlessness              | Sit with one emotion            |
+| **Type 8** | Vulnerability anxiety | Loss of control  | High blood pressure       | Practice soft power release     |
+| **Type 9** | Conflict anxiety      | Confrontation    | Fatigue, numbness         | Assert one small need           |
 
 ## Understanding Anxiety Through the Enneagram Lens
 
@@ -623,10 +643,10 @@ Remember: This guide is for educational purposes only. If you're struggling with
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-09-09",
+      "dateModified": "2025-12-03",
       "datePublished": "2025-08-25",
-      "description": "Discover how anxiety manifests differently in each Enneagram type, with tailored coping strategies, grounding exercises, and evidence-based interventions.",
-      "headline": "The Complete Guide to Enneagram and Anxiety Disorders",
+      "description": "Think anxiety is just a Type 6 thing? Wrong. Every Enneagram type has a unique anxiety pattern that sabotages them differently. Discover your type's hidden anxiety triggers and the exact coping strategies that actually work for your personality.",
+      "headline": "Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety Pattern)",
       "image": {
         "@type": "ImageObject",
         "height": 900,

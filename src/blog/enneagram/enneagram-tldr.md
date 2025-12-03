@@ -1,12 +1,12 @@
 ---
-title: 'Enneagram Types Explained: Decode All 9 Personalities in 5 Minutes'
-description: 'Skip the fluff. Decode all 9 Enneagram types with their core patterns, motivations, and blind spots. Your complete personality-maxing cheat sheet.'
+title: "What's My Enneagram Type? (The 5-Minute Answer You Actually Need)"
+description: 'Stop taking 40-minute tests. Find your Enneagram type in 5 minutes by matching your core fear and motivation. All 9 types explained with the ONE question that reveals yours instantly.'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-tldr'
-lastmod: '2025-07-19'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
-priority: '0.6'
+priority: '0.7'
 published: true
 type: ['overview']
 blog: true
@@ -26,6 +26,12 @@ Greek statue at minimalist desk with single-page cheat sheet in marble hands, ni
 
 <script>
 </script>
+
+## Quick Answer
+
+**What's my Enneagram type?** Find yourself in these core fears: Type 1 fears being wrong/corrupt. Type 2 fears being unloved. Type 3 fears being worthless without success. Type 4 fears having no identity. Type 5 fears being overwhelmed. Type 6 fears being without support. Type 7 fears being trapped in pain. Type 8 fears being controlled. Type 9 fears conflict and separation. **The one that makes you uncomfortable to read is probably yours.**
+
+**Read time**: 5 minutes | **Shortcut**: Skip to "The 9 Human Operating Systems" below
 
 <p class="firstLetter">That personality test was wrong because it measured behavior, not motivation.</p>
 

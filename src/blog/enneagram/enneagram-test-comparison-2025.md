@@ -1,10 +1,10 @@
 ---
-title: "The 10 Best Enneagram Tests (2025 Review)- We Took Them All So You Don't Have To"
-description: 'In-depth comparison of the 10 best Enneagram tests for 2025. We tested them all - paid and free - analyzing accuracy, depth, and value. Find your perfect match.'
+title: 'Best Free Enneagram Test (2025): Which One Actually Works?'
+description: "Most Enneagram tests are garbage—too short, outdated, or designed to sell you something. Here's an honest comparison of the best free and paid tests, ranked by accuracy and value."
 author: 'DJ Wayne'
 date: '2025-08-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-test-comparison-2025'
-lastmod: '2025-08-16'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
@@ -21,6 +21,18 @@ Keyword Strategy:
 - Secondary: enneagram test free (74,000/mo), accurate enneagram test (22,200/mo)
 - Long-tail: most accurate enneagram test reddit, enneagram test with wings
 -->
+
+## Quick Answer
+
+**What is the best free Enneagram test?** The **Truity Enneagram Test** (free, ~10 min) is a solid free option with over 100 questions. For maximum accuracy, the **RHETI** from the Enneagram Institute ($12) is widely considered the gold standard—it uses 144 forced-choice questions designed to bypass ego defenses. **Avoid**: 16Personalities (that's Myers-Briggs, not Enneagram), any test under 50 questions, and tests that only give you one type without wings.
+
+**Bottom line**: Start with a reputable free test. If your result feels off, consider RHETI.
+
+| Test                  | Cost | Time   | Accuracy   | Best For         |
+| --------------------- | ---- | ------ | ---------- | ---------------- |
+| **RHETI**             | $12  | 40 min | ⭐⭐⭐⭐⭐ | Serious seekers  |
+| **Truity**            | Free | 10 min | ⭐⭐⭐⭐   | Quick & accurate |
+| **Eclectic Energies** | Free | 15 min | ⭐⭐⭐     | Second opinion   |
 
 <p class="firstLetter">You're about to spend 20-40 minutes of your life taking a personality test. It better be the right one.</p>
 

@@ -1,10 +1,10 @@
 ---
-title: 'Attachment Styles & Enneagram Types: Why You Love the Way You Do (2025)'
-description: 'Discover how your Enneagram type shapes your attachment style. Complete guide to all 36 personality + attachment combinations with healing strategies that actually work.'
+title: "Your Attachment Style Isn't the Whole Story (How Enneagram Explains the Rest)"
+description: "You know you're anxiously attached—but why do you seek reassurance differently than others? Your Enneagram type reveals the 'why' behind your attachment patterns and how to actually heal them."
 author: 'DJ Wayne'
 date: '2025-08-29'
 loc: 'https://9takes.com/enneagram-corner/attachment-styles-and-enneagram-types'
-lastmod: '2025-08-29'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
@@ -26,6 +26,17 @@ Keyword Strategy:
 - Long-tail: attachment styles and personality types, enneagram attachment theory, attachment style healing, attachment patterns by personality
 - Questions: what's my attachment style, how do attachment styles affect relationships, can you change your attachment style, attachment style compatibility
 -->
+
+## Quick Answer
+
+**How does Enneagram relate to attachment styles?** Attachment style tells you WHAT your relationship pattern is (anxious, avoidant, secure, disorganized). Enneagram tells you WHY. Two anxiously attached people behave completely differently: a Type 2 seeks reassurance by over-giving until you need them, while a Type 6 tests loyalty constantly. Understanding both gives you a roadmap for healing—not just awareness of the problem.
+
+| Attachment Style | Common Enneagram Types | Core Pattern                           |
+| ---------------- | ---------------------- | -------------------------------------- |
+| **Anxious**      | Types 2, 4, 6          | Fear of abandonment drives seeking     |
+| **Avoidant**     | Types 1, 5, 8          | Fear of engulfment drives distance     |
+| **Secure**       | Any type (healthy)     | Core fears don't control relationships |
+| **Disorganized** | Types 4, 6, 9          | Push-pull from conflicting fears       |
 
 <p class="firstLetter">You probably know your attachment style—anxious, avoidant, secure, or disorganized. But what if I told you that's only half the story?</p>
 

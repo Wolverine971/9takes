@@ -1,10 +1,10 @@
 ---
-title: 'Showing the Connections between the Enneagram and Religion'
-description: 'Discover how the Enneagram intersects with Christianity, Judaism, Sufism, and New Age beliefs. Explore its spiritual applications and controversies across religions.'
+title: 'Is the Enneagram Religious? (The Truth About Its Spiritual Origins)'
+description: "Some churches embrace it, others ban it. Here's the real story of the Enneagram's spiritual roots—from Sufism to Christianity to New Age—and whether it conflicts with your faith."
 author: 'DJ Wayne'
 date: '2024-08-23'
 loc: 'https://9takes.com/enneagram-corner/enneagram-and-religion'
-lastmod: '2024-08-23'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -16,6 +16,19 @@ previewHtml: ''
 
 <script>
 </script>
+
+## Quick Answer
+
+**Is the Enneagram religious?** The Enneagram has spiritual roots but isn't inherently religious. It likely originated in Sufi mysticism, was developed by spiritual teachers like Gurdjieff and Ichazo, and has been adopted by Christians (especially through Richard Rohr), Jewish teachers, and New Age practitioners. Some Christian denominations embrace it as a spiritual growth tool; others reject it as occult. The Enneagram itself is neutral—a psychological framework that different traditions interpret through their own lens.
+
+| Religion                           | Stance on Enneagram | Key Figures                   |
+| ---------------------------------- | ------------------- | ----------------------------- |
+| **Catholic/Progressive Christian** | Widely embraced     | Richard Rohr, Ian Cron        |
+| **Evangelical Christian**          | Mixed to skeptical  | Some warn against it          |
+| **Judaism**                        | Growing interest    | Kabbalah connections          |
+| **Sufism**                         | Historical roots    | Oscar Ichazo, Claudio Naranjo |
+| **New Age**                        | Fully embraced      | Integrated with other systems |
+| **Secular**                        | Used as psychology  | No spiritual interpretation   |
 
 <p class="firstLetter">"Is the Enneagram a religious thing?"</p>
 

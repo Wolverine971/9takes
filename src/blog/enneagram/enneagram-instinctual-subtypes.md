@@ -1,12 +1,12 @@
 ---
-title: 'Enneagram Instinctual Subtypes'
-description: 'Discover the three Enneagram Instinctual Subtypes: self-preservation, social, and one-to-one. Learn how they influence your basic needs and relationships.'
+title: "Why You Don't Fully Match Your Enneagram Type (It's Your Subtype)"
+description: "Same Enneagram type, completely different people? That's because of instinctual subtypes. Discover whether you're Self-Preservation, Social, or One-to-One—and why it changes everything about your type."
 author: 'DJ Wayne'
 date: '2023-02-28'
 loc: 'https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes'
-lastmod: '2025-01-22'
+lastmod: '2025-12-03'
 changefreq: 'monthly'
-priority: '0.6'
+priority: '0.7'
 published: true
 type: ['overview']
 blog: true
@@ -18,6 +18,16 @@ pic: 'neoclassical-fortress2'
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
   import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
+
+## Quick Answer
+
+**What are Enneagram instinctual subtypes?** Your subtype is WHY two people of the same Enneagram type can seem completely different. There are three instincts: **Self-Preservation** (focused on safety, health, resources), **Social** (focused on belonging, status, groups), and **One-to-One/Sexual** (focused on intense connections, chemistry, attraction). Your dominant instinct flavors how your type expresses itself—creating 27 distinct subtypes instead of just 9.
+
+| Subtype                    | Focus      | You Prioritize                  | You Neglect                         |
+| -------------------------- | ---------- | ------------------------------- | ----------------------------------- |
+| **Self-Preservation (SP)** | Survival   | Security, comfort, health       | Group belonging, intensity          |
+| **Social (SO)**            | Belonging  | Community, status, contribution | Personal needs, intimacy            |
+| **One-to-One (SX)**        | Connection | Chemistry, passion, depth       | Practical concerns, social standing |
 
 <p class="firstLetter">
 The Enneagram goes beyond its nine core types by introducing three instinctual subtypes—Self-Preservation, Social, and One-to-One. Each subtype reflects how we meet our fundamental needs and shapes our priorities in relationships, work, and personal well-being. By understanding your dominant (and secondary) instinct, you can gain deeper insight into how you navigate daily life, relationships, and challenges.
