@@ -5,6 +5,7 @@
  */
 
 @use 'mixins' as *;
+@forward 'mixins';
 @use 'components';
 
 /*==============================================
