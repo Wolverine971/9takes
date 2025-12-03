@@ -14,11 +14,5 @@
 			"source": "/proxytown/ga",
 			"destination": "https://www.google-analytics.com/analytics.js"
 		}
-	],
-	"crons": [
-		{
-			"path": "/api/cron/send-scheduled-emails",
-			"schedule": "* * * * *"
-		}
 	]
 }
