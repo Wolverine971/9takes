@@ -4,7 +4,7 @@
 import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import type { GenerateEmailRequest, GenerateEmailResponse } from '$lib/types/email';
-import { smartLLMService } from '$utils/server/smart-llm-service';
+import { smartLLMService } from '../../../../../utils/server/smart-llm-service';
 
 const SYSTEM_PROMPT = `You are an email copywriter for 9takes, a personality-based Q&A platform built on the Enneagram personality system. 9takes helps people understand themselves and others through the lens of personality.
 
