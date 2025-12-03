@@ -154,7 +154,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Lex-Fridman', link: true, hasImage: true },
 		{ name: 'Malcolm-Gladwell', link: false, hasImage: true },
 		{ name: 'Mark-Zuckerberg', link: true, hasImage: true },
-		{ name: 'PewDiePie', link: false, hasImage: true },
+		{ name: 'PewDiePie', link: true, hasImage: true },
 		{ name: 'Robert-Greene', link: true, hasImage: true },
 		{ name: 'Rooney-Mara', link: true, hasImage: true },
 		{ name: 'Tina-Fey', link: true, hasImage: true },
@@ -236,7 +236,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Tana-Mongeau', link: false, hasImage: false }
 	],
 	8: [
-		{ name: 'Amy-Poehler', link: false, hasImage: true },
+		{ name: 'Amy-Poehler', link: true, hasImage: true },
 		{ name: 'Beyonce-Knowles', link: true, hasImage: true },
 		{ name: 'Chappell-Roan', link: true, hasImage: true },
 		{ name: 'Chelsea-Handler', link: true, hasImage: true },
@@ -254,9 +254,9 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Rihanna', link: true, hasImage: true },
 		{ name: 'Shia-LaBeouf', link: true, hasImage: true },
 		{ name: 'Tom-Hardy', link: true, hasImage: true },
-		{ name: 'Vladimir-Putin', link: false, hasImage: true },
+		{ name: 'Vladimir-Putin', link: true, hasImage: true },
 		{ name: 'Winston-Churchill', link: true, hasImage: true },
-		{ name: 'Xi-Jinping', link: false, hasImage: true },
+		{ name: 'Xi-Jinping', link: true, hasImage: true },
 		{ name: 'Andrew-Tate', link: false, hasImage: false },
 		{ name: 'Bryce-Hall', link: false, hasImage: false },
 		{ name: 'Dr-Phil', link: false, hasImage: false },
@@ -275,7 +275,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Sean-Penn', link: false, hasImage: false }
 	],
 	9: [
-		{ name: 'Abraham-Lincoln', link: false, hasImage: true },
+		{ name: 'Abraham-Lincoln', link: true, hasImage: true },
 		{ name: 'Barack-Obama', link: true, hasImage: true },
 		{ name: 'Bella-Poarch', link: false, hasImage: true },
 		{ name: 'Bernie-Sanders', link: true, hasImage: true },

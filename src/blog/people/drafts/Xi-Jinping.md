@@ -22,7 +22,7 @@ tiktok: ''
 
 <p class="firstLetter">These aren't the words of a self-help guru. They're from Xi Jinping—the man who went from living in a cave and hauling manure to becoming the most powerful Chinese leader since Mao Zedong.</p>
 
-What makes someone survive having their father beaten until deaf, their sister driven to suicide, and their own mother forced to publicly denounce them—then emerge decades later to control the world's second-largest economy?
+What makes someone survive having their father beaten until deaf, their half-sister driven to suicide, and their own mother forced to publicly denounce them—then emerge decades later to control the world's second-largest economy?
 
 The answer lies in understanding Xi's psychology. And specifically, his Enneagram Type 8 personality.
 

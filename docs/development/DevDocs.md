@@ -12,10 +12,10 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "Xi-Jinping.png" -o "Xi-Jinping.webp"
-cwebp -sns 70 -f 50 -size 20000 "Xi-Jinping.webp" -o "./s-Xi-Jinping.webp"
+cwebp "Amy-Poehler.png" -o "Amy-Poehler.webp"
+cwebp -sns 70 -f 50 -size 20000 "Amy-Poehler.webp" -o "./s-Amy-Poehler.webp"
 
-/Users/annawayne/9takes/static/types/6s/Xi-Jinping.png
+/Users/annawayne/9takes/static/types/6s/Amy-Poehler.png
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

@@ -107,7 +107,7 @@ The control is real. But it costs him.
 
 Putin's commitment to martial arts reveals his psychological operating system.
 
-He holds an 8th dan black belt in judo—the first Russian to achieve this status. He's written books about judo philosophy. Even in his seventies, he trains and demonstrates techniques.
+He was awarded an 8th dan black belt in judo in 2012—the first Russian to achieve this status. (Note: The International Judo Federation stripped Putin of this honor in March 2022 following Russia's invasion of Ukraine.) He's written books about judo philosophy and has long incorporated martial arts into his public image.
 
 Why does this matter psychologically?
 

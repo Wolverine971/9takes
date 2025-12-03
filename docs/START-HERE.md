@@ -1,3 +1,5 @@
+<!-- docs/START-HERE.md -->
+
 # 9takes Content Strategy - START HERE
 
 _Last Modified: 2025-10-23 - TRAFFIC DATA ANALYSIS COMPLETE_

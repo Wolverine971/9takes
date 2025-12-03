@@ -1385,24 +1385,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Alex-Cooper</loc>
-    <lastmod>2025-03-04T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Alex-Cooper.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Ariana-Grande</loc>
-    <lastmod>2025-03-04T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Ariana-Grande.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Marilyn-Monroe</loc>
     <lastmod>2025-03-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1598,15 +1580,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Mikey-Madison.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Millie-Bobby-Brown</loc>
-    <lastmod>2025-03-24T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/2s/Millie-Bobby-Brown.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2366,6 +2339,42 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Abraham-Lincoln</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Abraham-Lincoln.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Alex-Cooper</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Alex-Cooper.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Amy-Poehler</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Amy-Poehler.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Ariana-Grande</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Ariana-Grande.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
     <lastmod>2025-12-03T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2402,6 +2411,24 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Millie-Bobby-Brown</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/2s/Millie-Bobby-Brown.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/PewDiePie</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/PewDiePie.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Reed-Hastings</loc>
     <lastmod>2025-12-03T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2435,6 +2462,24 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/6s/Tucker-Carlson.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Vladimir-Putin</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Vladimir-Putin.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Xi-Jinping</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Xi-Jinping.webp</image:loc>
     </image:image>
 </url>
 <url>

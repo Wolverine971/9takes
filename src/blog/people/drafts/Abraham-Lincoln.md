@@ -49,7 +49,7 @@ But Lincoln was no passive Peacemaker. He represents the fully integrated Type 9
 
 The frontier forged Lincoln's Peacemaker nature in hardship.
 
-Born February 12, 1809, in a one-room log cabin in Kentucky, young Abraham learned early that survival meant adaptation, not confrontation. His mother Nancy died when he was nine—a loss that psychiatrists now recognize as a significant predictor of depressive illness in later life. His infant brother Thomas died before him. His sister Sarah died in childbirth when Lincoln was nineteen.
+Born February 12, 1809, in a one-room log cabin in Kentucky, young Abraham learned early that survival meant adaptation, not confrontation. His mother Nancy died when he was nine—a loss that psychiatrists now recognize as a significant predictor of depressive illness in later life. His infant brother Thomas died before him. His sister Sarah died in childbirth when Lincoln was eighteen.
 
 Death surrounded him, and the boy learned to contain grief rather than express it.
 
@@ -88,7 +88,7 @@ Beyond politics, Lincoln holds a unique distinction: he's the **only U.S. presid
 
 ### The Wrestling President
 
-Before he was a lawyer or politician, Lincoln was a wrestler—and an extraordinary one. He lost just **one match out of approximately 300 bouts**. He's enshrined in the National Wrestling Hall of Fame.
+Before he was a lawyer or politician, Lincoln was a wrestler—and an extraordinary one. According to tradition, he lost just **one match out of approximately 300 bouts**, though historians note that detailed records from this era are scarce. He was inducted into the National Wrestling Hall of Fame in 1992 as an "Outstanding American."
 
 This seems to contradict the peaceful Type 9 image until you understand wrestling's psychology. It's not about destroying opponents; it's about **control, leverage, and knowing when to act**. Lincoln brought this same energy to politics—patient positioning followed by decisive moves.
 
