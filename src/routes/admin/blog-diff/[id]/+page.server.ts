@@ -16,7 +16,7 @@ export const load: PageServerLoad = async ({ params }) => {
 		// Get the current blog post
 		const { data: currentBlog, error: currentError } = await supabase
 			.from('blogs_famous_people')
-			.select('id, person, title, content, lastmod')
+			.select('id, person, title, content, lastmod, enneagram, description')
 			.eq('id', blogId)
 			.single();
 
@@ -112,7 +112,9 @@ export const load: PageServerLoad = async ({ params }) => {
 			blog: {
 				id: currentBlog.id,
 				person: currentBlog.person,
-				title: currentBlog.title
+				title: currentBlog.title,
+				enneagram: currentBlog.enneagram,
+				description: currentBlog.description
 			},
 			versions,
 			hasDraft: !!draftContent

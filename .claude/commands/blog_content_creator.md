@@ -349,6 +349,90 @@ When user requests updates based on latest developments:
 
 ## Important Implementation Notes:
 
+### **Page Template Context - CRITICAL:**
+
+When generating blog content, understand that the blog will be rendered in `/personality-analysis/[slug]/+page.svelte` which **ALREADY INCLUDES** certain elements programmatically. The generated markdown content should **NOT** include these elements:
+
+**DO NOT INCLUDE in generated blog content:**
+
+1. **`<script>` import tags** - The page component handles component imports. Never include:
+   ```svelte
+   <script>
+     import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
+     import PopCard from '$lib/components/atoms/PopCard.svelte';
+   </script>
+   ```
+
+2. **Featured image PopCard at the top** - The page template (`+page.svelte:269-278`) already renders a PopCard with the person's image at the top of every blog. Never include:
+   ```svelte
+   <div style="display: flex; justify-content: center; margin: 1rem 0;">
+     <PopCard
+       image={`/types/1s/${person}.webp`}
+       enneagramType={1}
+       ...
+     />
+   </div>
+   ```
+
+3. **BlogPurpose component** - The server (`+page.server.ts:274-298`) automatically inserts a BlogPurpose component before the last h2 tag. Do not manually add `<BlogPurpose />` tags.
+
+4. **`<svelte:head>` with JSON-LD** - Schema metadata is stored in the database and handled separately. Never include:
+   ```svelte
+   <svelte:head>
+   <script type="application/ld+json">
+   ...
+   </script>
+   </svelte:head>
+   ```
+
+5. **Empty `<style>` tags** - Never include `<style lang="scss"></style>` blocks.
+
+**WHAT TO INCLUDE in generated blog content:**
+
+- Frontmatter with all metadata (title, description, date, enneagram type, etc.)
+- Opening quote (blockquote)
+- `<p class="firstLetter">` for the intro paragraph
+- TL;DR section in `<details>` tag
+- All H2 and H3 sections with content
+- Inline content only - no wrapper components
+
+**Example of CORRECT blog structure:**
+```markdown
+---
+title: 'Person Name: Enneagram Analysis Title'
+description: 'Meta description under 155 chars'
+author: 'DJ Wayne'
+date: 'YYYY-MM-DD'
+... (other frontmatter)
+---
+
+> "Opening quote from or about the person"
+
+<p class="firstLetter">Intro paragraph that hooks the reader...</p>
+
+Content continues here...
+
+<details>
+<summary class="accordion">TL;DR: Why Person is an Enneagram Type X</summary>
+<div class="panel">
+<ul>
+<li><b>Point 1:</b> Description</li>
+...
+</ul>
+</div>
+</details>
+
+## What is Person's Personality Type?
+
+### Person is an Enneagram Type X
+
+... rest of content with H2 and H3 sections ...
+
+## Conclusion Section
+
+Final paragraph with engaging question.
+```
+
 ### **Research Quality:**
 
 - Use multiple sources for fact-checking
