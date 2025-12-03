@@ -33,7 +33,14 @@
 			"Bash(while read f)",
 			"Bash(do basename \"$f\" .md)",
 			"Bash(done)",
-			"Bash(pnpm gen:all:*)"
+			"Bash(pnpm gen:all:*)",
+			"WebFetch(domain:www.reddit.com)",
+			"Bash(python3:*)",
+			"WebFetch(domain:facts.net)",
+			"WebFetch(domain:tracxn.com)",
+			"WebFetch(domain:www.rollingstone.com)",
+			"WebFetch(domain:www.harpersbazaar.com)",
+			"WebFetch(domain:www.truity.com)"
 		],
 		"deny": [],
 		"ask": [],

@@ -200,13 +200,32 @@ After creating the draft, add 2-5 strategic internal links to improve SEO and si
 
 #### **Step 5.5.1: Gather Available Link Targets**
 
-**Query existing celebrity blogs from database:**
+**Get published celebrity blogs from famousTypes.ts:**
 
-```bash
-source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?select=person&published=eq.true" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
+Read the file `src/lib/components/molecules/famousTypes.ts` to find all published celebrity blogs. This file contains an object mapping Enneagram types (1-9) to arrays of famous people with their publication status.
+
+**Key fields:**
+
+- `name`: The person's name in "First-Last" format (e.g., "Taylor-Swift")
+- `link`: If `true`, the blog is published and can be linked to
+- `hasImage`: Whether the person has an image (not needed for linking)
+
+**How to use:**
+
+1. Read the `famousTypes.ts` file
+2. Iterate through all Enneagram types (1-9)
+3. Collect all entries where `link === true`
+4. These are the valid link targets at `/personality-analysis/[name]`
+
+**Example - extracting linkable celebrities:**
+
+```typescript
+// Entries with link: true are published:
+{ name: 'Taylor-Swift', link: true, hasImage: true }  // ✅ Can link to /personality-analysis/Taylor-Swift
+{ name: 'Greta-Thunberg', link: false, hasImage: false }  // ❌ Not published, do not link
 ```
+
+**Do NOT make Supabase API calls to find celebrity blogs.** The `famousTypes.ts` file is the source of truth for published content.
 
 **Scan published topical blogs:**
 
@@ -623,6 +642,7 @@ Final paragraph with engaging question.
 - Prep prompts: `/docs/blogs-famous-people/prep-prompt-*.md`
 - Writing template: `/docs/blogs-famous-people/writing-prompt-1.md`
 - Database schema: `/docs/blogs-famous-people/mcp-blogs-famous-people.md`
+- **Published celebrities list**: `/src/lib/components/molecules/famousTypes.ts` - Contains all famous people with `link: true` indicating published blogs
 
 ## Environment Requirements:
 

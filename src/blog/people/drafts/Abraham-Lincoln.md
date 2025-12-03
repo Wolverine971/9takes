@@ -1,6 +1,6 @@
 ---
 title: 'Abraham Lincoln: The Melancholy President Who United a Divided Nation'
-description: 'Explore Abraham Lincoln''s psychology through the Enneagram lens - how his depression, humor, and peace-seeking nature shaped American history'
+description: "Explore Abraham Lincoln's psychology through the Enneagram lens - how his depression, humor, and peace-seeking nature shaped American history"
 author: 'DJ Wayne'
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/Abraham-Lincoln'
@@ -65,7 +65,7 @@ Lincoln's ascent to the presidency mirrors the Type 9's paradoxical relationship
 
 His early career showed a preference for behind-the-scenes influence. As a young lawyer on the Illinois circuit, he built a reputation not through aggressive courtroom tactics but through connection. He met people where they were. His nickname "Honest Abe" spoke less to rigid integrity than to an authentic presence that put others at ease.
 
-During the famous Lincoln-Douglas debates of 1858, observers noted something unusual: Lincoln actually *listened* to his opponent before responding. While Stephen Douglas performed for the crowd, Lincoln absorbed, synthesized, and responded with measured logic. This is classic Type 9 processing—**taking in all perspectives before forming a position**.
+During the famous Lincoln-Douglas debates of 1858, observers noted something unusual: Lincoln actually _listened_ to his opponent before responding. While Stephen Douglas performed for the crowd, Lincoln absorbed, synthesized, and responded with measured logic. This is classic Type 9 processing—**taking in all perspectives before forming a position**.
 
 When he ran for president in 1860, Lincoln didn't campaign as a firebrand. He positioned himself as a moderate voice in a nation fracturing over slavery. This wasn't mere political calculation—it reflected his genuine psychological need to find common ground.
 
@@ -134,7 +134,7 @@ Lincoln's coping strategies were characteristically Nine:
 - **Reading works of humor** to combat melancholic moods
 - **Seeking others' perspectives** rather than isolating
 
-What makes Lincoln remarkable is how he channeled this suffering. As Joshua Wolf Shenk argues in *Lincoln's Melancholy*, his depression may have fueled his greatness—giving him profound empathy for human suffering and the resilience to persist through the war's darkest years.
+What makes Lincoln remarkable is how he channeled this suffering. As Joshua Wolf Shenk argues in _Lincoln's Melancholy_, his depression may have fueled his greatness—giving him profound empathy for human suffering and the resilience to persist through the war's darkest years.
 
 ## Lincoln's Communication Style
 
@@ -179,7 +179,7 @@ Conservative critics have called Lincoln a "moral fanatic" and even a tyrant. Th
 
 ### From the Left
 
-Liberal critics charge that Lincoln was, in the words of Frederick Douglass, "preeminently the white man's President." They note that Lincoln initially opposed only the *extension* of slavery, not slavery itself. He supported colonization—voluntary emigration of freed slaves to Africa or Central America—well into his presidency. In 1862, he condescendingly lectured a delegation of Black Washingtonians on why they should endorse this policy.
+Liberal critics charge that Lincoln was, in the words of Frederick Douglass, "preeminently the white man's President." They note that Lincoln initially opposed only the _extension_ of slavery, not slavery itself. He supported colonization—voluntary emigration of freed slaves to Africa or Central America—well into his presidency. In 1862, he condescendingly lectured a delegation of Black Washingtonians on why they should endorse this policy.
 
 ### Native American Policy
 

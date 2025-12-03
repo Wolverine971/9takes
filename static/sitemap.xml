@@ -1196,24 +1196,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Jason-Calacanis</loc>
-    <lastmod>2024-09-12T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Jason-Calacanis.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Sabrina-Carpenter</loc>
-    <lastmod>2024-09-12T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Sabrina-Carpenter.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Elton-John</loc>
     <lastmod>2024-09-29T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1364,15 +1346,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/David-Dobrik.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
-    <lastmod>2025-02-26T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Donald-Trump.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2402,12 +2375,57 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Donald-Trump.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Hailey-Bieber</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Hailey-Bieber.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Jason-Calacanis</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Jason-Calacanis.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Jordan-Peterson</loc>
     <lastmod>2025-12-03T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/1s/Jordan-Peterson.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Reed-Hastings</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Reed-Hastings.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Sabrina-Carpenter</loc>
+    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Sabrina-Carpenter.webp</image:loc>
     </image:image>
 </url>
 <url>
