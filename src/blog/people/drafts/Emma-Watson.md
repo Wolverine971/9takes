@@ -19,13 +19,15 @@ instagram: 'emmawatson'
 tiktok: ''
 ---
 
+<script>
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+</script>
+
 > "I was terrified by the level of interest in me." — Emma Watson
 
-<div class="quick-answer">
-
-**Quick Answer:** Emma Watson is an [Enneagram Type 1](/enneagram-corner/enneagram-type-1)—"The Perfectionist." Her privacy, selective career choices, activism, and JK Rowling conflict all stem from the same psychological pattern: Type 1s have an internal critic demanding moral perfection in everything they do. She's not hiding—she's protecting her integrity while wrestling with impossible standards.
-
-</div>
+<QuickAnswer question="Why is Emma Watson so private?">
+Emma Watson is an <a href="/enneagram-corner/enneagram-type-1">Enneagram Type 1</a>—"The Perfectionist." Her privacy, selective career choices, activism, and JK Rowling conflict all stem from the same psychological pattern: Type 1s have an internal critic demanding moral perfection in everything they do. She's not hiding—she's protecting her integrity while wrestling with impossible standards.
+</QuickAnswer>
 
 <p class="firstLetter">Why has Emma Watson virtually disappeared from Hollywood since 2019? Why did she publicly break with JK Rowling—the woman who made her famous? And why does she now split her time between Oxford and a sustainable gin company?</p>
 

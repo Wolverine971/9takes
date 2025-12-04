@@ -54,15 +54,36 @@ For EACH page, apply these 9 steps in order:
 
 ### Step 3: ADD QUICK ANSWER BOX
 
-Insert at the VERY TOP of content (after frontmatter, before first paragraph):
+Insert at the VERY TOP of content (after script imports, before first paragraph).
 
-```markdown
-<div class="quick-answer">
+**First**, add the import to the script tag:
 
-**Quick Answer:** [Direct 2-sentence answer to the implied question in the title. Be definitive, not hedging.]
-
-</div>
+```svelte
+<script>
+	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+	// ... other imports
+</script>
 ```
+
+**Then**, add the component:
+
+```svelte
+<QuickAnswer question="[The question your title implies - e.g., 'Is Elon Musk a narcissist?']">
+	[Direct 2-3 sentence answer. Be definitive, not hedging. This targets Google Featured Snippets.]
+</QuickAnswer>
+```
+
+**Example:**
+
+```svelte
+<QuickAnswer question="Is Elon Musk a narcissist?">
+	Elon Musk shows strong Type 5 (Investigator) traits with an 8 wing, not classic narcissism. His
+	intensity comes from a deep need to understand and master complex systems, combined with a
+	protective shell that makes vulnerability feel dangerous.
+</QuickAnswer>
+```
+
+**Note:** The QuickAnswer component includes Schema.org Answer markup for SEO and has a distinctive purple gradient styling that stands out from regular content.
 
 ### Step 4: REWRITE OPENING (First 150 words)
 

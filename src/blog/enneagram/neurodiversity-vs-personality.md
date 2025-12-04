@@ -361,6 +361,17 @@ pic: 'brain-vs-heart-dichotomy'
 			</a>
 		</div>
 	</div>
+
+<section class="mt-12">
+<h2 class="mb-6 text-2xl font-bold">Related Reading</h2>
+<div class="prose prose-lg max-w-none">
+
+- **[Enneagram and ADHD: Which Types Struggle Most](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** – How ADHD intersects with each Enneagram type, plus type-specific coping strategies
+- **[Mental Health Risks by Enneagram Type](/enneagram-corner/enneagram-and-mental-illness)** – Understanding each type's predispositions
+
+</div>
+</section>
+
 </div>
 
 <svelte:head>

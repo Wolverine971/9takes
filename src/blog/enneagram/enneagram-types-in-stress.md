@@ -565,7 +565,15 @@ For a deeper dive into how stress affects your specific type, check out your ind
 
 If you're ready to work on personal development, explore our guides on [Enneagram personal growth](/enneagram-corner/enneagram-personal-growth) and learn to recognize [mental health warning flags](/enneagram-corner/enneagram-mental-health-flags) for each type.
 
-If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+
+## Related Reading
+
+- **[Why You Can't Stop Overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)** – Your type's specific thought loop and how to finally interrupt it
+- **[How Each Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)** – The protection mechanisms that block your goals
+- **[How Each Enneagram Type Manipulates](/enneagram-corner/how-each-enneagram-type-manipulates)** – When stress drives manipulation patterns
+- **[Red Flags You're Dating Each Type](/enneagram-corner/red-flags-dating-each-enneagram-type)** – Stress behaviors in relationships
+- **[Enneagram and ADHD](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** – How ADHD amplifies stress patterns
 
 <svelte:head>
 

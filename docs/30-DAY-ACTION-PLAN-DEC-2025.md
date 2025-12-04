@@ -1,7 +1,9 @@
+<!-- docs/30-DAY-ACTION-PLAN-DEC-2025.md -->
+
 # 30-Day Action Plan: December 4, 2025 - January 3, 2026
 
 _Created: 2025-12-03_
-_Last Updated: 2025-12-03_
+_Last Updated: 2025-12-04_
 _Strategy: Problem-Focused Content Pivot + AI Search Optimization + Dual-Title System_
 _Goal: 50% traffic increase on optimized pages, 5+ new problem-focused posts, featured snippets captured_
 
@@ -47,6 +49,19 @@ _Goal: 50% traffic increase on optimized pages, 5+ new problem-focused posts, fe
 - ADHD outline: ✅ Complete → `/docs/content-research/adhd-enneagram-outline.md`
 - **ADHD post: ✅ WRITTEN (Dec 3)** → `src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md` (~4,800 words)
 - **TIER 1 Celebrity Pages: ✅ ALL 10 OPTIMIZED (Dec 3)** — Added Quick Answer boxes + FAQ sections to Supabase DB
+- **Self-Sabotage research: ✅ Complete (Dec 4)** → `/docs/content-research/self-sabotage-research.md`
+- **Self-Sabotage outline: ✅ Complete (Dec 4)** → `/docs/content-research/self-sabotage-outline.md`
+- **Self-Sabotage post: ✅ WRITTEN (Dec 4)** → `src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md` (~3,800 words)
+- **Self-Sabotage image prompt: ✅ Created (Dec 4)** → `/docs/content-generation/image-prompts/self-sabotage-prompt.md`
+- **Self-Sabotage image: ✅ GENERATED (Dec 4)** → `static/blogs/greek-statues-self-sabotage.webp`
+- **Overthinking research: ✅ Complete (Dec 4)** → `/docs/content-research/overthinking-enneagram-research.md`
+- **Overthinking outline: ✅ Complete (Dec 4)** → `/docs/content-research/overthinking-enneagram-outline.md`
+- **Overthinking post: ✅ WRITTEN (Dec 4)** → `src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md` (~3,700 words)
+- **Overthinking image prompt: ✅ Created (Dec 4)** → `/docs/content-generation/image-prompts/overthinking-prompt.md`
+- **Overthinking image: ✅ GENERATED (Dec 4)** → `static/blogs/greek-statue-overthinking-spiral.webp`
+- **Manipulation research: ✅ Complete (Dec 4)** → `/docs/content-research/manipulation-enneagram-research.md`
+- **Manipulation outline: ✅ Complete (Dec 4)** → `/docs/content-research/manipulation-enneagram-outline.md`
+- **Manipulation post: ✅ WRITTEN (Dec 4)** → `src/blog/enneagram/how-each-enneagram-type-manipulates.md` (~3,800 words)
 
 **Celebrity Optimization Summary (Dec 3):**
 
@@ -66,9 +81,22 @@ _Goal: 50% traffic increase on optimized pages, 5+ new problem-focused posts, fe
 **Next immediate steps:**
 
 1. ~~Start optimizing celebrity pages~~ ✅ DONE
-2. Add internal links from top-performing pages to Red Flags + ADHD posts
-3. Research Post #3 (Self-Sabotage by Enneagram Type)
-4. Move to TIER 2 celebrity optimizations (Sydney Sweeney, Dua Lipa, Drake, etc.)
+2. ~~Add internal links from top-performing pages to Red Flags + ADHD posts~~
+3. ~~Research Post #3 (Self-Sabotage by Enneagram Type)~~ ✅ DONE (Dec 4)
+4. ~~Research Post #4 (Overthinking by Enneagram Type)~~ ✅ DONE (Dec 4)
+5. ~~Generate Midjourney images for Self-Sabotage and Overthinking posts~~ ✅ DONE (Dec 4)
+6. ~~Research Post #5 (Manipulation Tactics by Enneagram Type)~~ ✅ DONE (Dec 4)
+7. Generate Midjourney image for Manipulation post
+8. Move to TIER 2 celebrity optimizations (Sydney Sweeney, Dua Lipa, Drake, etc.)
+9. Final review and publish all 5 problem-focused posts
+
+**🎉 ALL 5 PROBLEM-FOCUSED POSTS COMPLETE (Dec 4):**
+
+1. Red Flags Dating - ✅ WRITTEN
+2. ADHD - ✅ WRITTEN
+3. Self-Sabotage - ✅ WRITTEN
+4. Overthinking - ✅ WRITTEN
+5. Manipulation - ✅ WRITTEN
 
 ---
 
@@ -282,7 +310,7 @@ This document contains:
 
 The `PeopleBlogPageHead.svelte` component uses `meta_title` for SEO if it exists.
 
-```
+````
 1. TITLE STRATEGY (Celebrity Pages Only)
 
    a. KEEP/REFINE the `title` (Evergreen - shown on page):
@@ -310,13 +338,22 @@ The `PeopleBlogPageHead.svelte` component uses `meta_title` for SEO if it exists
    └── New meta (150-160 chars): _______________
 
 3. ADD QUICK ANSWER BOX
-   Insert at very top of content:
+   First, add the import to the script tag:
+   ```svelte
+   <script>
+       import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+   </script>
+````
 
-   <div class="quick-answer">
+Then insert at very top of content:
 
-   **Quick Answer:** [Direct 2-sentence answer to the implied question]
+```svelte
+<QuickAnswer question="[The question your title implies]">
+	[Direct 2-sentence answer to the implied question]
+</QuickAnswer>
+```
 
-   </div>
+Note: The component includes Schema.org Answer markup for SEO.
 
 4. REWRITE OPENING (first 150 words)
    Must include:
@@ -353,6 +390,7 @@ The `PeopleBlogPageHead.svelte` component uses `meta_title` for SEO if it exists
    ├── dateModified in frontmatter
    ├── JSON-LD dateModified
    └── Verify all schema is correct
+
 ```
 
 #### Afternoon Block (2 hours): Optimize Pages 2 & 3
@@ -397,12 +435,13 @@ Since research is done, use this time for additional optimizations.
 **Research Document: "Red Flags You're Dating Each Enneagram Type"**
 
 ```
+
 COMPLETED: /docs/content-research/red-flags-dating-research.md
 
 ## 1. KEYWORD RESEARCH
 
 Primary keyword: "enneagram dating red flags"
-Search volume: _____ (check Ubersuggest/Ahrefs free)
+Search volume: **\_** (check Ubersuggest/Ahrefs free)
 
 Related keywords (find 10+):
 ├── "toxic [type] boyfriend"
@@ -413,23 +452,23 @@ Related keywords (find 10+):
 └── [add more]
 
 Questions people ask (check AnswerThePublic, AlsoAsked):
-├── _______________
-├── _______________
-├── _______________
+├── **\*\***\_\_\_**\*\***
+├── **\*\***\_\_\_**\*\***
+├── **\*\***\_\_\_**\*\***
 
 ## 2. COMPETITOR ANALYSIS
 
 Who currently ranks for this?
-├── Site 1: ___ (word count: ___, structure: ___)
-├── Site 2: ___ (word count: ___, structure: ___)
-└── Site 3: ___ (word count: ___, structure: ___)
+├── Site 1: **_ (word count: _**, structure: **_)
+├── Site 2: _** (word count: **_, structure: _**)
+└── Site 3: **_ (word count: _**, structure: \_\_\_)
 
 What are they missing?
-├── _______________
-├── _______________
+├── **\*\***\_\_\_**\*\***
+├── **\*\***\_\_\_**\*\***
 
 How do we differentiate?
-├── _______________
+├── **\*\***\_\_\_**\*\***
 
 ## 3. PSYCHOLOGICAL RESEARCH
 
@@ -440,8 +479,8 @@ For each type, document:
 ├── What healthy version looks like
 
 Sources to cite:
-├── _______________
-├── _______________
+├── **\*\***\_\_\_**\*\***
+├── **\*\***\_\_\_**\*\***
 
 ## 4. UNIQUE ANGLE
 
@@ -449,7 +488,8 @@ What can 9takes say that competitors can't?
 ├── Connection to mental health content
 ├── Real behavioral patterns (not just theory)
 └── Practical "what to do" scripts
-```
+
+````
 
 #### Evening (1 hour): Create Detailed Outline
 
@@ -513,7 +553,7 @@ Create: /docs/content-research/red-flags-dating-outline.md
 [100 words]
 
 TOTAL TARGET: 4,000-4,500 words
-```
+````
 
 #### Day 3 Deliverables:
 

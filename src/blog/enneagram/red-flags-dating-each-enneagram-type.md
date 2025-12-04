@@ -357,7 +357,7 @@ Having "the talk" requires understanding what motivates each type:
 - **With a Type 8:** Be direct, respect their strength, don't attack. They respect honesty, not manipulation.
 - **With a Type 9:** Make it safe to disagree. Emphasize that their voice matters and you want to hear it.
 
-For deeper understanding of relationship dynamics, explore [attachment styles and the Enneagram](/enneagram-corner/attachment-styles-and-enneagram-types) or [toxic traits of each type](/enneagram-corner/toxic-traits-of-each-enneagram-type).
+For deeper understanding of relationship dynamics, explore [attachment styles and the Enneagram](/enneagram-corner/attachment-styles-and-enneagram-types), [toxic traits of each type](/enneagram-corner/toxic-traits-of-each-enneagram-type), or [how each type manipulates](/enneagram-corner/how-each-enneagram-type-manipulates).
 
 ## Frequently Asked Questions
 
@@ -398,6 +398,15 @@ The goal isn't a perfect partner—that doesn't exist. The goal is a partner who
 
 That's someone worth building a life with.
 
+---
+
+**Want to explore more about how personality affects relationships?**
+
+- [How Each Enneagram Type Manipulates (And How to Spot It)](/enneagram-corner/how-each-enneagram-type-manipulates)
+- [How Each Enneagram Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)
+- [Why You Can't Stop Overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)
+- [Enneagram Types in Stress](/enneagram-corner/enneagram-types-in-stress)
+
 > **Disclaimer** This analysis uses the Enneagram as a framework for understanding relationship patterns. Individual experiences vary widely, and no personality system captures the full complexity of human behavior in relationships.
 
 <svelte:head>
@@ -405,47 +414,95 @@ That's someone worth building a life with.
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "Which Enneagram type is most toxic in relationships?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No type is inherently toxic. Any type can be healthy or unhealthy depending on their self-awareness and growth. Unhealthy versions of Types 2, 3, 4, and 8 often cause the most visible relationship damage, but any unhealthy type can be destructive."
-      }
+      "@type": "BlogPosting",
+      "articleBody": "This comprehensive guide explores the relationship red flags for each Enneagram type, explaining why these patterns develop from childhood survival mechanisms and core fears. It provides specific warning signs to watch for, how to distinguish between healthy and unhealthy expressions of each type, and practical strategies for addressing red flag behaviors with different personality types.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2025-12-03",
+      "datePublished": "2025-12-03",
+      "description": "Is your partner's behavior a red flag or just their personality? Discover the warning signs for each Enneagram type, why they happen, and what to do about them.",
+      "headline": "Red Flags You Are Dating Each Enneagram Type (And What to Do)",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greek-statues-relationship-red-flags.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/enneagram-corner/red-flags-dating-each-enneagram-type",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "keywords": ["enneagram red flags", "relationship red flags", "dating warning signs", "enneagram relationships", "toxic relationships", "personality types dating", "unhealthy enneagram", "relationship patterns"],
+      "wordCount": 4016,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/red-flags-dating-each-enneagram-type"
     },
     {
-      "@type": "Question",
-      "name": "Can unhealthy Enneagram types change?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, with self-awareness and genuine commitment to growth. The Enneagram exists precisely to illuminate these patterns so people can work on them through therapy, personal development, or motivated self-reflection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I break up if I see these red flags?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not necessarily. What matters is whether they're aware of the behavior, taking responsibility, actively working on change, and showing improvement over time. A partner who acknowledges their patterns and works on them is worth staying for."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if I see red flags in myself?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recognizing your own patterns is the most important step toward growth. Consider taking an Enneagram test to identify your type, then explore what healthy expression looks like. Many people find therapy helpful for transforming these deep patterns."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know someone's Enneagram type?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Look for core motivations, not just surface behaviors. Watch for what triggers them, what they fear most, and what they chase compulsively. When in doubt, ask—people often know their type if they've done any personal development work."
-      }
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type is most toxic in relationships?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No type is inherently toxic. Any type can be healthy or unhealthy depending on their self-awareness and growth. Unhealthy versions of Types 2, 3, 4, and 8 often cause the most visible relationship damage, but any unhealthy type can be destructive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can unhealthy Enneagram types change?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with self-awareness and genuine commitment to growth. The Enneagram exists precisely to illuminate these patterns so people can work on them through therapy, personal development, or motivated self-reflection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I break up if I see these red flags?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. What matters is whether they're aware of the behavior, taking responsibility, actively working on change, and showing improvement over time. A partner who acknowledges their patterns and works on them is worth staying for."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I see red flags in myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Recognizing your own patterns is the most important step toward growth. Consider taking an Enneagram test to identify your type, then explore what healthy expression looks like. Many people find therapy helpful for transforming these deep patterns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know someone's Enneagram type?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look for core motivations, not just surface behaviors. Watch for what triggers them, what they fear most, and what they chase compulsively. When in doubt, ask—people often know their type if they've done any personal development work."
+          }
+        }
+      ]
     }
   ]
 }

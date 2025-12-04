@@ -17,6 +17,7 @@ pic: 'greek-statue-adhd-scattered-thoughts'
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
 <svelte:head>
@@ -24,47 +25,95 @@ pic: 'greek-statue-adhd-scattered-thoughts'
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "Is Type 7 just ADHD?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Type 7 is a psychological pattern—seeking novelty to avoid pain. ADHD is a neurological condition—the brain can't regulate attention normally regardless of motivation. They overlap significantly but the underlying mechanisms are different. A Type 7 without ADHD can focus when truly motivated; someone with ADHD often can't."
-      }
+      "@type": "BlogPosting",
+      "articleBody": "This comprehensive guide explores how ADHD affects each Enneagram type differently, which types are most commonly diagnosed, and type-specific coping strategies. It explains the overlap between Type 7 patterns and ADHD symptoms, the emotional dysregulation connection in Type 4s, and the anxiety-ADHD compound in Type 6s, providing practical strategies tailored to each type's core motivations.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2025-12-07",
+      "datePublished": "2025-12-07",
+      "description": "Do you have ADHD or is it just your personality? Discover how ADHD affects each Enneagram type differently, plus type-specific coping strategies that actually work.",
+      "headline": "Enneagram and ADHD: Which Types Struggle Most (And Why)",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greek-statue-adhd-scattered-thoughts.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "keywords": ["enneagram ADHD", "ADHD personality types", "Type 7 ADHD", "ADHD coping strategies", "neurodivergence enneagram", "ADHD symptoms by type", "attention deficit enneagram"],
+      "wordCount": 4800,
+      "articleSection": "Enneagram",
+      "url": "https://9takes.com/enneagram-corner/enneagram-and-adhd-which-types-struggle-most"
     },
     {
-      "@type": "Question",
-      "name": "Can ADHD make me mistype on the Enneagram?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. ADHD symptoms can amplify or mask certain type behaviors. Someone with ADHD might test as a Type 7 because of shared symptoms when their core motivations actually point to another type. Focus on core fears and motivations rather than behaviors when typing yourself."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which Enneagram types are most commonly diagnosed with ADHD?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 7 shows the highest correlation due to significant overlap in presentation. Type 4 is common due to emotional dysregulation overlap, and Type 6 appears frequently because anxiety often co-occurs with ADHD. However, any type can have ADHD."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know if I have ADHD or if it's just my personality?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ask: 'Can I focus when I genuinely want to, when the stakes are high?' Personality affects willingness; ADHD affects capability. If you've genuinely tried hard and still can't focus, that points toward ADHD. Professional evaluation can help clarify."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if I'm a Type 1 with ADHD—won't I always feel like a failure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 1s with ADHD face a genuine challenge, but it's not hopeless. The key is redefining success: 'good enough' becomes the goal, external systems compensate for internal inconsistency, and self-compassion replaces self-criticism. Many Type 1s with ADHD find their hyperfocus can be a superpower when harnessed correctly."
-      }
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Type 7 just ADHD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Type 7 is a psychological pattern—seeking novelty to avoid pain. ADHD is a neurological condition—the brain can't regulate attention normally regardless of motivation. They overlap significantly but the underlying mechanisms are different. A Type 7 without ADHD can focus when truly motivated; someone with ADHD often can't."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can ADHD make me mistype on the Enneagram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. ADHD symptoms can amplify or mask certain type behaviors. Someone with ADHD might test as a Type 7 because of shared symptoms when their core motivations actually point to another type. Focus on core fears and motivations rather than behaviors when typing yourself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Enneagram types are most commonly diagnosed with ADHD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 7 shows the highest correlation due to significant overlap in presentation. Type 4 is common due to emotional dysregulation overlap, and Type 6 appears frequently because anxiety often co-occurs with ADHD. However, any type can have ADHD."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if I have ADHD or if it's just my personality?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask: 'Can I focus when I genuinely want to, when the stakes are high?' Personality affects willingness; ADHD affects capability. If you've genuinely tried hard and still can't focus, that points toward ADHD. Professional evaluation can help clarify."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I'm a Type 1 with ADHD—won't I always feel like a failure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 1s with ADHD face a genuine challenge, but it's not hopeless. The key is redefining success: 'good enough' becomes the goal, external systems compensate for internal inconsistency, and self-compassion replaces self-criticism. Many Type 1s with ADHD find their hyperfocus can be a superpower when harnessed correctly."
+          }
+        }
+      ]
     }
   ]
 }
@@ -72,11 +121,9 @@ pic: 'greek-statue-adhd-scattered-thoughts'
 
 </svelte:head>
 
-<div class="quick-answer">
-
-**Quick Answer:** Type 7 (The Enthusiast) shows the highest correlation with ADHD symptoms, but every Enneagram type can have ADHD—and each experiences it differently. Your personality type shapes how ADHD manifests and which coping strategies will actually work for you.
-
-</div>
+<QuickAnswer question="Which Enneagram type is most likely to have ADHD?">
+Type 7 (The Enthusiast) shows the highest correlation with ADHD symptoms, but every Enneagram type can have ADHD—and each experiences it differently. Your personality type shapes how ADHD manifests and which coping strategies will actually work for you.
+</QuickAnswer>
 
 <p class="firstLetter">You've been called lazy. Unfocused. "Too much." Maybe you've wondered if there's something wrong with you—why can't you just concentrate like everyone else?</p>
 
@@ -505,7 +552,7 @@ Many people benefit from combining approaches—medication to address neurology,
 
 The Enneagram helps you understand why certain strategies work better for you than others. It doesn't replace professional mental health care.
 
-For more on the connection between personality and mental health, see our guide on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness) and [neurodiversity vs. personality](/enneagram-corner/neurodiversity-vs-personality).
+For more on the connection between personality and mental health, see our guide on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness), [why you can't stop overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram), and [how each type self-sabotages](/enneagram-corner/how-each-enneagram-type-self-sabotages-success).
 
 ---
 
@@ -574,5 +621,15 @@ You're not lazy. You're not stupid. You're not "too much."
 You're differently wired, with a specific personality pattern, trying to navigate a world designed for different brains.
 
 That's worth understanding. And it's definitely worth working with rather than against.
+
+---
+
+**Want to explore more about how personality affects your challenges?**
+
+- [Why You Can't Stop Overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)
+- [How Each Enneagram Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)
+- [How Each Enneagram Type Manipulates](/enneagram-corner/how-each-enneagram-type-manipulates)
+- [Red Flags When Dating Each Enneagram Type](/enneagram-corner/red-flags-dating-each-enneagram-type)
+- [Toxic Traits of Each Enneagram Type](/enneagram-corner/toxic-traits-of-each-enneagram-type)
 
 > **Disclaimer:** This article explores the intersection of ADHD and Enneagram personality types for educational purposes. It is not a substitute for professional diagnosis or treatment. If you suspect you have ADHD, please consult a qualified healthcare provider.

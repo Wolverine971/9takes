@@ -220,6 +220,45 @@ When implementing new features:
 4. Ensure mobile responsiveness with Tailwind
 5. Add appropriate meta tags for SEO
 
+### Blog Callout Components
+
+Located in `src/lib/components/blog/callouts/`, these components provide styled blocks for blog content:
+
+#### QuickAnswer
+
+SEO-optimized component for Featured Snippets. Use at the top of blog posts to provide direct answers to search queries.
+
+```svelte
+<script>
+	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+</script>
+
+<QuickAnswer question="Why do Type 1s constantly criticize everything?">
+	Type 1s live in an internal courtroom where they prosecute themselves against impossible
+	standards. This harsh inner critic developed from childhood experiences of criticism or premature
+	responsibility.
+</QuickAnswer>
+```
+
+**Props:**
+
+- `question` (optional): The question being answered. If provided, displays prominently.
+- `answer` (optional): Explicit answer for structured data.
+- `variant`: `'default'` (purple gradient) or `'subtle'` (gray).
+
+**Features:**
+
+- Schema.org Answer markup for SEO
+- Purple gradient with left accent bar (matches 9takes brand)
+- Dark mode support
+- Mobile responsive
+
+#### Other Callout Components
+
+- `InsightBox.svelte` - Highlight key insights
+- `VisualMetaphor.svelte` - Visual metaphor callouts
+- `Checklist.svelte` - Interactive checklists
+
 ### Performance Considerations
 
 - Use SvelteKit's built-in preloading

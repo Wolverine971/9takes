@@ -665,6 +665,15 @@ Exploring the Enneagram types’ predispositions to mental health challenges is 
 
 By integrating Enneagram insights with professional advice and personal reflection, you can foster a well-rounded approach to mental well-being.
 
+## Related Reading
+
+- **[Enneagram and ADHD: Which Types Struggle Most](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** – How ADHD affects each personality type differently, plus type-specific coping strategies
+- **[Why You Can't Stop Overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)** – Your type's specific overthinking loop and how to interrupt it
+- **[How Each Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)** – The protection mechanisms that hold you back
+- **[How Each Enneagram Type Manipulates](/enneagram-corner/how-each-enneagram-type-manipulates)** – Manipulation as unconscious protection
+- **[Red Flags You're Dating Each Enneagram Type](/enneagram-corner/red-flags-dating-each-enneagram-type)** – Relationship warning signs rooted in each type's shadow side
+- **[Toxic Traits of Each Enneagram Type](/enneagram-corner/toxic-traits-of-each-enneagram-type)** – The predictable patterns that emerge under stress
+
 <svelte:head>
 
 <script type="application/ld+json">

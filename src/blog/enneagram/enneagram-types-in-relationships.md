@@ -519,6 +519,11 @@ It's about finding someone worth breaking your patterns for.
 
 _Ready to go deeper? Discover [what happens when each type falls in love](/enneagram-corner/enneagram-types-on-a-first-date) or explore [how types handle heartbreak](/enneagram-corner/enneagram-types-being-ghosted)._
 
+## Related Reading
+
+- **[Red Flags You're Dating Each Enneagram Type](/enneagram-corner/red-flags-dating-each-enneagram-type)** – Warning signs that reveal unhealthy patterns before it's too late
+- **[Toxic Traits of Each Enneagram Type](/enneagram-corner/toxic-traits-of-each-enneagram-type)** – The shadow side that emerges under stress
+
 <svelte:head>
 
 <script type="application/ld+json">

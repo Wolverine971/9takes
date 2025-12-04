@@ -45,7 +45,8 @@
 			"Bash(find:*)",
 			"Bash(perl -i -0pe:*)",
 			"Bash(cat:*)",
-			"Bash(. /Users/annawayne/9takes/.env)"
+			"Bash(. /Users/annawayne/9takes/.env)",
+			"Bash(pnpm build:*)"
 		],
 		"deny": [],
 		"ask": [],

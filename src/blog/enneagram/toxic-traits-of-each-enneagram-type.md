@@ -414,6 +414,15 @@ The shadows of our personality don't disappear when exposed to light. But they d
 
 So which toxic traits did you recognize in yourself? And more importantly – what will you do about them now?
 
+## Related Reading
+
+- **[Red Flags You're Dating Each Enneagram Type](/enneagram-corner/red-flags-dating-each-enneagram-type)** – How these toxic traits show up in relationships, plus what to do about them
+- **[How Each Enneagram Type Manipulates](/enneagram-corner/how-each-enneagram-type-manipulates)** – The specific manipulation playbook for each type
+- **[How Each Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)** – When toxic traits turn inward and block your goals
+- **[Why You Can't Stop Overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)** – Your type's specific thought loop and how to break it
+- **[Enneagram and ADHD: Which Types Struggle Most](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** – How neurodivergence intersects with personality patterns
+- **[Mental Health Risks by Enneagram Type](/enneagram-corner/enneagram-and-mental-illness)** – When toxic patterns spiral into something more serious
+
 <svelte:head>
 
 <script type="application/ld+json">

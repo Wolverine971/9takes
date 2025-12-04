@@ -37,6 +37,7 @@ const COMMENT_PATTERNS = {
 	svelte: (filePath: string) => `<!-- ${filePath} -->`,
 	html: (filePath: string) => `<!-- ${filePath} -->`,
 	xml: (filePath: string) => `<!-- ${filePath} -->`,
+	md: (filePath: string) => `<!-- ${filePath} -->`,
 
 	// Single-line comments
 	ts: (filePath: string) => `// ${filePath}`,

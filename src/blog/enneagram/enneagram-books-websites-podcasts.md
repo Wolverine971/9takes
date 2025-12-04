@@ -17,6 +17,9 @@ meta_title: "The Only Enneagram Resource Guide You'll Ever Need (2025 Edition)"
 
 <script>
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+  import instagram from '$lib/images/instagram.svg';
+  import twitter from '$lib/images/twitter.svg';
+  import youtube from '$lib/images/youtube.svg';
 </script>
 
 <QuickAnswer question="What's the best way to learn the Enneagram?">
@@ -543,13 +546,6 @@ _Typology_ with Ian Morgan Cron if you want celebrity interviews and accessible 
 Look for certification from the International Enneagram Association (IEA), training in the Narrative Tradition, or credentials from the Enneagram Institute. Be cautious of influencers who learned only from social media. The best teachers can explain subtypes, instinctual variants, and growth paths—not just surface-level type descriptions. They also acknowledge the system's limitations rather than treating it as absolute truth.
 
 </article>
-
-<script>
-  import instagram from '$lib/images/instagram.svg';
-  import twitter from '$lib/images/twitter.svg';
-  import youtube from '$lib/images/youtube.svg'
-
-</script>
 
 <svelte:head>
 

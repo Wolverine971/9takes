@@ -2,6 +2,16 @@
 
 You are tasked with creating a high-quality, engaging blog post using data-driven, prescriptive writing techniques combined with 9takes' personality-focused approach. This command will guide you through research, planning, and writing a comprehensive guide that provides massive value to readers.
 
+## Documentation References:
+
+Before writing, familiarize yourself with these key resources:
+
+- **Documentation Index**: `/docs/INDEX.md` - Quick navigation to all docs
+- **Brand Voice**: `/docs/brand/brand-style-guide-v2.md` - Voice, tone, and style
+- **Content Workflow**: `/docs/writing-system/01-content-creation-workflow.md` - Full 6-phase process
+- **Blog Optimization**: `/docs/writing-system/02-blog-optimization-framework.md` - Transform underperforming content
+- **Current Strategy**: `/docs/START-HERE.md` - Content priorities and what's working
+
 ## Initial Setup:
 
 When this command is invoked, respond with:
