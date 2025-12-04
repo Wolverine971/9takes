@@ -40,11 +40,11 @@ Most productivity methods are designed by specific personality types, for those 
 
 This guide reveals the productivity system that actually works for your Enneagram type—because the best system is the one aligned with who you already are.
 
-<PopCard
+<!-- <PopCard
 	question="What productivity method have you tried that didn't work?"
 	type={0}
 	url="/questions/what-productivity-method-failed-for-you"
-/>
+/> -->
 
 ## The Personality-Productivity Connection
 
@@ -1197,11 +1197,11 @@ Monitor what actually works. Your perfect system evolves with awareness.
 
 Gradually add practices from your growth number for balance.
 
-<PopCard
+<!-- <PopCard
 	question="What's one productivity change you'll make this week?"
 	type={0}
 	url="/questions/what-productivity-change-will-you-make"
-/>
+/> -->
 
 ## Your Productivity Transformation
 

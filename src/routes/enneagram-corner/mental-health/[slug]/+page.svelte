@@ -161,8 +161,6 @@
 {/if}
 
 <style lang="scss">
-	@use '../../../../scss/index.scss' as *;
-
 	.crisis-notice {
 		background-color: #fee;
 		border: 2px solid #f66;

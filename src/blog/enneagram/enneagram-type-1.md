@@ -19,11 +19,12 @@ pic: ''
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
     import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why do Type 1s constantly criticize everything?** Type 1s live in an internal courtroom where they prosecute themselves against impossible standards. This harsh inner critic developed from childhood experiences of criticism or premature responsibility, creating a core belief that they're fundamentally flawed. They criticize others because their internal standards leak outward—the same harsh voice judging them judges everything around them. It's not pickiness; it's moral survival.
+<QuickAnswer question="Why do Type 1s constantly criticize everything?">
+Type 1s live in an internal courtroom where they prosecute themselves against impossible standards. This harsh inner critic developed from childhood experiences of criticism or premature responsibility, creating a core belief that they're fundamentally flawed. They criticize others because their internal standards leak outward—the same harsh voice judging them judges everything around them. It's not pickiness; it's moral survival.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Believing they're fundamentally corrupt or bad
 
@@ -296,7 +297,7 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",

@@ -24,9 +24,13 @@ Keyword Strategy:
 
 <!-- # Enneagram Wings: The Complete Guide to Understanding Your Secondary Drive -->
 
-## Quick Answer
+<script>
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+</script>
 
-**Why don't I match my Enneagram type description perfectly?** You have a wing - one of the two adjacent numbers that flavors your main type. If you're Type 4, you're either 4w3 (more performance-oriented) or 4w5 (more withdrawn). Your wing explains why you relate to some aspects of your type but not others. It's not optional - everyone has a dominant wing that permanently influences how their core type manifests.
+<QuickAnswer question="Why don't I match my Enneagram type description perfectly?">
+You have a wing - one of the two adjacent numbers that flavors your main type. If you're Type 4, you're either 4w3 (more performance-oriented) or 4w5 (more withdrawn). Your wing explains why you relate to some aspects of your type but not others. It's not optional - everyone has a dominant wing that permanently influences how their core type manifests.
+</QuickAnswer>
 
 **Read time**: 15 minutes | **Key insight**: Your wing is 40% of your personality pattern
 

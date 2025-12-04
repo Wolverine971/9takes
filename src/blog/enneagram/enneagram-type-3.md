@@ -18,11 +18,12 @@ pic: ''
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why does success feel like a prison for Type 3s?** Type 3s learned in childhood that achievement equals love. They became trapped in an endless performance where worth depends on accomplishment. Each success provides diminishing satisfaction, requiring ever-greater achievements to feel the same validation. They can't stop because stopping feels like ceasing to exist—their identity fused with their resume. It's not ambition; it's survival. Behind every achievement is the terrifying question: "If I stop performing, will anyone love the person behind the accomplishments?"
+<QuickAnswer question="Why does success feel like a prison for Type 3s?">
+Type 3s learned in childhood that achievement equals love. They became trapped in an endless performance where worth depends on accomplishment. Each success provides diminishing satisfaction, requiring ever-greater achievements to feel the same validation. They can't stop because stopping feels like ceasing to exist—their identity fused with their resume. It's not ambition; it's survival. Behind every achievement is the terrifying question: "If I stop performing, will anyone love the person behind the accomplishments?"
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Believing they're worthless without achievement
 
@@ -320,7 +321,7 @@ The panel emphasized how self-awareness practices, authentic relationships, and 
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",

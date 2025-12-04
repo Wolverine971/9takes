@@ -16,11 +16,12 @@ pic: 'enneagram-vs-meyers-briggs'
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**What's the difference between Enneagram and Myers-Briggs?** Myers-Briggs (MBTI) tells you HOW you think—introvert vs extrovert, sensing vs intuition. Enneagram tells you WHY you do what you do—your core fears, desires, and motivations. MBTI describes your cognitive style; Enneagram exposes your emotional operating system.
+<QuickAnswer question="What's the difference between Enneagram and Myers-Briggs?">
+Myers-Briggs (MBTI) tells you HOW you think—introvert vs extrovert, sensing vs intuition. Enneagram tells you WHY you do what you do—your core fears, desires, and motivations. MBTI describes your cognitive style; Enneagram exposes your emotional operating system.
+</QuickAnswer>
 
 | Aspect       | Myers-Briggs (MBTI)        | Enneagram                      |
 | ------------ | -------------------------- | ------------------------------ |

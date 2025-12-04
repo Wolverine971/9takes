@@ -4,7 +4,7 @@ description: 'Learn how each Enneagram type experiences workplace stress and bur
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-mental-health'
-lastmod: '2025-09-09'
+lastmod: '2025-12-04'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -12,12 +12,18 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-on-laptop-stressed'
+meta_title: "Why You're Burning Out at Work (Your Personality Type Reveals the Hidden Cause)"
 ---
 
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="Why are you burning out at work?">
+**Your Enneagram type has a specific "burnout formula"—a predictable set of workplace conditions that drain you.** Type 1s burn out from fixing broken systems nobody cares about. Type 2s burn out from being everyone's unpaid therapist. Type 3s burn out when achievements feel hollow. Type 5s burn out from open offices and meetings about meetings. The fix isn't working harder—it's knowing your kryptonite and building around it.
+</QuickAnswer>
 
 <p class="firstLetter">Your personality type is burning out at work in a specific, predictable way. And nobody's talking about it.</p>
 
@@ -614,11 +620,33 @@ Need crisis support? [Get help now](/enneagram-corner/mental-health/enneagram-cr
 Dealing with workplace trauma? [Read this](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
 Considering medication? [Understand your options](/enneagram-corner/mental-health/enneagram-medication-mental-health).
 
+## Frequently Asked Questions
+
+### How do I know if I'm experiencing burnout or just work stress?
+
+Burnout has three distinct markers: emotional exhaustion (feeling drained even after rest), cynicism about work (detachment from your job and colleagues), and reduced performance (tasks that used to be easy now feel impossible). Regular stress typically resolves with time off; burnout lingers. If Sunday night fills you with dread and your body shows chronic symptoms—headaches, back pain, insomnia—you're likely past stress and into burnout territory.
+
+### Can my Enneagram type change how quickly I burn out?
+
+Yes. Some types burn faster than others depending on workplace conditions. Type 2s in cold, transactional environments burn out rapidly because their core need for connection goes unmet. Type 5s in open-plan offices with constant interruptions deplete within weeks. Type 8s forced to report to incompetent leadership spiral fast. Your burnout speed depends on the mismatch between your type's needs and your environment.
+
+### What's the fastest way to recover from workplace burnout?
+
+Three steps: Stop the bleeding (take time off, say no to everything new), identify your kryptonite (which type-specific conditions caused this), and build recovery systems (not just rest, but active strategies from this guide). Most people need 2-4 weeks minimum to reset their nervous system. Don't make career decisions during recovery—your judgment is compromised.
+
+### Should I quit my job if I'm burned out?
+
+Not immediately. Burnout clouds judgment. First, recover enough to think clearly (usually 2-4 weeks of genuine rest). Then assess: Can this job accommodate your type's needs? Have you tried the strategies in this guide? If you've tried everything for 90 days and conditions can't change, then yes—plan your exit. Staying in a toxic environment isn't perseverance, it's self-harm.
+
+### How do managers use the Enneagram to prevent team burnout?
+
+Ask three questions: "What drains your energy fastest?", "When do you do your best work?", and "What makes you want to quit?" Answers reveal type and needs without requiring formal typing. Then match assignments and environments to natural strengths. Type 5s need deep work blocks. Type 3s need visible impact. Type 9s need their opinions actively solicited. One-size-fits-all management guarantees some types will burn out.
+
 <svelte:head>
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",

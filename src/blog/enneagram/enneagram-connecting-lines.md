@@ -324,7 +324,7 @@ The Enneagram isn't just about knowing your number—it's about understanding yo
 
 <script type="application/ld+json">
   {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

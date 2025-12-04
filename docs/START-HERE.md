@@ -2,8 +2,10 @@
 
 # 9takes Content Strategy - START HERE
 
-_Last Updated: 2025-12-03_
+_Last Updated: 2025-12-04_
 _Status: **PROBLEM-FOCUSED CONTENT PIVOT** - Mental health angle is your traffic goldmine_
+
+> **AI Agents:** For quick task-based navigation, see [`/docs/INDEX.md`](./INDEX.md)
 
 ---
 
@@ -115,22 +117,29 @@ For your top 10 pages:
 
 ### Strategy Documents
 
-| Purpose          | Location                                                 |
-| ---------------- | -------------------------------------------------------- |
-| Content workflow | `/docs/writing-system/01-content-creation-workflow.md`   |
-| SEO checklist    | `/docs/seo/seo-optimization-checklist.md`                |
-| AI optimization  | `/docs/content-analysis/ai-search-optimization-guide.md` |
-| Domain gaps      | `/docs/domain-authority/00-master-index.md`              |
-| Brand voice      | `/docs/brand/brand-style-guide-v2.md`                    |
+| Purpose                   | Location                                                                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Full doc index**        | [`/docs/INDEX.md`](./INDEX.md)                                                                                                             |
+| Content workflow          | [`/docs/writing-system/01-content-creation-workflow.md`](./writing-system/01-content-creation-workflow.md)                                 |
+| AI & SEO optimization     | [`/docs/content-analysis/ai-search-optimization-guide.md`](./content-analysis/ai-search-optimization-guide.md)                             |
+| Celebrity optimization    | [`/docs/content-generation/celebrity-page-optimization-instructions.md`](./content-generation/celebrity-page-optimization-instructions.md) |
+| Domain gaps               | [`/docs/domain-authority/00-master-index.md`](./domain-authority/00-master-index.md)                                                       |
+| Brand voice               | [`/docs/brand/brand-style-guide-v2.md`](./brand/brand-style-guide-v2.md)                                                                   |
+| DJ communication style    | [`/docs/brand/dj-communication-guide.md`](./brand/dj-communication-guide.md)                                                               |
+| Supabase celebrity CRUD   | [`/docs/blogs-famous-people/mcp-blogs-famous-people.md`](./blogs-famous-people/mcp-blogs-famous-people.md)                                 |
+| Mental health blog system | [`/docs/content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md`](./content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md)                               |
+| Midjourney prompts        | [`/docs/content-generation/midjourney_prompt_templates.md`](./content-generation/midjourney_prompt_templates.md)                           |
 
 ### Content Locations
 
-| Content Type    | Location                             |
-| --------------- | ------------------------------------ |
-| Enneagram blogs | `/src/blog/enneagram/`               |
-| Celebrity posts | `/src/blog/people/`                  |
-| Drafts          | `/src/blog/enneagram/drafts/`        |
-| Mental health   | `/src/blog/enneagram/mental-health/` |
+| Content Type     | Location                                  |
+| ---------------- | ----------------------------------------- |
+| Enneagram blogs  | `/src/blog/enneagram/`                    |
+| Celebrity posts  | `/src/blog/people/`                       |
+| Drafts           | `/src/blog/enneagram/drafts/`             |
+| Mental health    | `/src/blog/enneagram/mental-health/`      |
+| Content research | `/docs/content-research/`                 |
+| Image prompts    | `/docs/content-generation/image-prompts/` |
 
 ---
 
@@ -253,21 +262,34 @@ Celebrity blogs use TWO titles to balance virality with evergreen quality:
 
 ## 🗂️ DOCUMENT STRUCTURE
 
+### Navigation
+
+- **[`INDEX.md`](./INDEX.md)** - Master phone book for AI agents (task-based navigation)
+- **`START-HERE.md`** - This file (strategy overview for humans)
+
 ### Active Plans
 
-- **`30-DAY-ACTION-PLAN-DEC-2025.md`** - Current execution plan (Dec 4 - Jan 3)
+- **[`30-DAY-ACTION-PLAN-DEC-2025.md`](./30-DAY-ACTION-PLAN-DEC-2025.md)** - Current execution plan (Dec 4 - Jan 3)
 
-### Reference Documents
+### Content Generation Resources
 
-- `domain-authority/00-master-index.md` - Content gaps and opportunities
-- `content-analysis/` - Traffic analysis and AI optimization guides
-- `writing-system/` - Content creation workflows
+- **[`content-generation/README.md`](./content-generation/README.md)** - Index of all content creation resources
+- `writing-system/` - Content creation workflows and editing methods
+- `content-research/` - Active research for current posts
+- `blogs-famous-people/` - Supabase CRUD and celebrity prompts
 
-### Archived (Historical Context Only)
+### Analysis & Optimization
 
-- `30-DAY-ACTION-PLAN.md` - August 2025 plan (archived)
-- `daily-todos-2025-08-25.md` - Historical reference
-- Twitter phase strategies - Review if reactivating social
+- `content-analysis/` - AI search optimization, traffic analysis
+- `domain-authority/` - Content gaps and opportunities
+
+### Brand & Voice
+
+- `brand/` - Style guide and communication preferences
+
+### Archives (Historical Context Only)
+
+- `archives/` - Old audits, dated session notes, historical plans
 
 ---
 

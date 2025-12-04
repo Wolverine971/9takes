@@ -4,7 +4,7 @@ description: "Stop miscommunication disasters. Decode each Enneagram type's exac
 author: 'DJ Wayne'
 date: '2024-09-06'
 loc: 'https://9takes.com/enneagram-corner/enneagram-communication-guide'
-lastmod: '2025-07-18'
+lastmod: '2025-12-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -49,21 +49,47 @@ Tailored Communication
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-<p class="firstLetter">That argument happened because you spoke the wrong emotional language for their personality type.</p>
+<QuickAnswer question="How do you communicate effectively with different personality types?">
+Each Enneagram type operates on a specific "communication frequency." Type 1s need precision and acknowledged standards. Type 2s require emotional connection before business. Type 3s want efficiency and recognition. Type 4s crave depth and validation of uniqueness. Type 5s respect intellectual substance. Type 6s need trust built before truth. Type 7s respond to enthusiasm and possibilities. Type 8s demand directness. Type 9s require patience and safety. Match their frequency for instant rapport.
+</QuickAnswer>
 
-Here's what nobody tells you: **Each Enneagram type has a specific communication frequency**. Type 8s shut down when you're indirect. Type 4s disconnect when you're too logical. Type 9s disappear when you create pressure.
+<p class="firstLetter">You gave your Type 8 boss the feedback sandwich—praise, criticism, praise—and watched them lose respect for you. You offered your Type 4 friend solutions to their problem and they said you "didn't understand." You told your Type 6 partner "trust me" and somehow made everything worse.</p>
+
+**That argument happened because you spoke the wrong emotional language for their personality type.**
+
+Here's what nobody tells you: Each Enneagram type has a specific communication frequency. Speak on their frequency and they hear you perfectly. Speak on yours and they hear static—or worse, threat.
+
+- Type 8s shut down when you're indirect. They need you to say it straight.
+- Type 4s disconnect when you're too logical. They need you to honor their feelings first.
+- Type 6s build walls when you dismiss their concerns. They need you to take their fears seriously.
+- Type 9s disappear when you create pressure. They need you to make space for their voice.
 
 In this guide, you'll decode each type's exact communication patterns—what makes them listen versus tune out, how they process conflict, and the precise words that create instant rapport.
-
-> "She's not 'difficult'—Type 6s need security before they can hear feedback. Rush the message and watch them build walls."
 
 **Small experiment**: Think of someone you struggle to communicate with. Once you identify their type, you'll understand why your approach isn't working—and exactly how to fix it.
 
 ## The Communication Decoder: How Each Type Actually Works
 
 Each type has hidden communication rules. Learn these patterns and you'll never have another misunderstanding.
+
+### Quick Reference: Communication Cheat Sheet
+
+| Type  | Their Frequency | What They Need           | Never Do This            |
+| ----- | --------------- | ------------------------ | ------------------------ |
+| **1** | Precision       | Acknowledged standards   | Be sloppy or dismissive  |
+| **2** | Connection      | Emotional validation     | Get straight to business |
+| **3** | Efficiency      | Recognition of results   | Waste their time         |
+| **4** | Depth           | Honored uniqueness       | Minimize feelings        |
+| **5** | Substance       | Intellectual respect     | Demand instant response  |
+| **6** | Trust           | Concerns taken seriously | Say "just trust me"      |
+| **7** | Enthusiasm      | Possibilities affirmed   | Focus only on problems   |
+| **8** | Directness      | Respect for strength     | Be indirect or weak      |
+| **9** | Patience        | Safe space for voice     | Create pressure          |
+
+💡 **The Moment of Recognition:** Notice how you've been speaking YOUR frequency to people who operate on completely different ones?
 
 <section class="section-content">
 
@@ -765,7 +791,7 @@ Only if they're interested in personal growth. Focus on understanding their comm
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",
@@ -775,7 +801,7 @@ Only if they're interested in personal growth. Focus on understanding their comm
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2025-07-18",
+      "dateModified": "2025-12-04",
       "datePublished": "2024-09-06",
       "description": "Stop miscommunication disasters. Decode each Enneagram type's exact communication patterns and speak their emotional language for instant connection.",
       "keywords": "Enneagram communication, decode personality types, communication patterns, emotional language, instant rapport, conflict resolution, team communication, relationship communication, communication strategies, workplace communication",
@@ -813,25 +839,51 @@ Only if they're interested in personal growth. Focus on understanding their comm
         },
         "name": "9takes"
       }
-    }
-  ],
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the Enneagram?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Enneagram is a system of personality typing that describes patterns in how people interpret the world and manage their emotions. It identifies nine distinct personality types, each with its own set of strengths, weaknesses, and opportunities for personal growth."
-      }
     },
     {
-      "@type": "Question",
-      "name": "How can understanding the Enneagram improve communication?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Understanding the Enneagram can improve communication by providing insights into different personality types' motivations, fears, and communication styles. This knowledge allows for more empathetic and effective interactions, as you can tailor your communication approach to better resonate with each type."
-      }
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know someone's Enneagram type from how they communicate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Listen for their core motivation. Type 1s talk about improvement. Type 2s focus on relationships. Type 3s emphasize results. Type 4s seek authenticity. Type 5s share information. Type 6s express concerns. Type 7s explore possibilities. Type 8s speak directly. Type 9s seek harmony."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I guess someone's type wrong?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with their obvious communication patterns and adjust based on their response. If your Type 3 approach doesn't work, try Type 6 (security) or Type 9 (patience). Wrong guesses teach you to read people better."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I communicate with someone when I don't know their type?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with warmth and directness (most people appreciate this), then adjust based on their response. Type 2s will warm up. Type 8s will respect directness. Type 5s will appreciate efficiency. Let their reaction guide you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Enneagram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram is a system of personality typing that describes patterns in how people interpret the world and manage their emotions. It identifies nine distinct personality types, each with its own set of strengths, weaknesses, and opportunities for personal growth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can understanding the Enneagram improve communication?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Understanding the Enneagram can improve communication by providing insights into different personality types' motivations, fears, and communication styles. This knowledge allows for more empathetic and effective interactions, as you can tailor your communication approach to better resonate with each type."
+          }
+        }
+      ]
     }
   ]
 }

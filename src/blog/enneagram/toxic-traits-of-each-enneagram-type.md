@@ -17,11 +17,12 @@ pic: 'greek-statue-showing-cracks'
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**What are the toxic traits of each Enneagram type?** Type 1s become judgmental critics, Type 2s manipulate through guilt, Type 3s deceive for image, Type 4s manipulate through emotional drama, Type 5s withdraw completely, Type 6s become paranoid and accusatory, Type 7s become self-centered escapists, Type 8s dominate and intimidate, Type 9s become passive-aggressive. These toxic traits emerge under stress or insecurity—everyone has them, and recognizing yours is the first step to growth.
+<QuickAnswer question="What are the toxic traits of each Enneagram type?">
+Type 1s become judgmental critics, Type 2s manipulate through guilt, Type 3s deceive for image, Type 4s manipulate through emotional drama, Type 5s withdraw completely, Type 6s become paranoid and accusatory, Type 7s become self-centered escapists, Type 8s dominate and intimidate, Type 9s become passive-aggressive. These toxic traits emerge under stress or insecurity—everyone has them, and recognizing yours is the first step to growth.
+</QuickAnswer>
 
 **Read time**: 15 minutes | **Key insight**: Your shadow side is predictable
 
@@ -417,7 +418,7 @@ So which toxic traits did you recognize in yourself? And more importantly – wh
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

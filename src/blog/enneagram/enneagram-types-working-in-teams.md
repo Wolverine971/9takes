@@ -357,12 +357,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
    "wordCount": 6800,
    "articleSection": "Enneagram",
    "url": "https://9takes.com/enneagram-corner/enneagram-types-working-in-teams",
-   "creator": {
-      "@type": "Person",
-      "name": "DJ Wayne",
-      "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-      ]
-   },
    "author": {
         "@type": "Person",
         "name": "DJ Wayne",

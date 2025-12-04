@@ -17,11 +17,12 @@ pic: ''
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why do Type 9s disappear in relationships?** Type 9s learned that asserting yourself creates conflict, so they chose harmony over self. They become human shock absorbers—agreeing with everyone, accommodating everything, existing quietly to prevent disruption. Every unexpressed need builds internal war. They lose themselves by becoming what others need, until they wake up having lived someone else's life. Disappearing isn't weakness; it's survival. They believe their presence might disturb the delicate balance, so they erase themselves preemptively. The price of external peace is internal erasure.
+<QuickAnswer question="Why do Type 9s disappear in relationships?">
+Type 9s learned that asserting yourself creates conflict, so they chose harmony over self. They become human shock absorbers—agreeing with everyone, accommodating everything, existing quietly to prevent disruption. Every unexpressed need builds internal war. They lose themselves by becoming what others need, until they wake up having lived someone else's life. Disappearing isn't weakness; it's survival. They believe their presence might disturb the delicate balance, so they erase themselves preemptively. The price of external peace is internal erasure.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Believing their presence creates conflict
 
@@ -278,7 +279,7 @@ In this insightful video, Beatrice Chestnut moderates a panel of Enneagram Type 
 
 <script type="application/ld+json">
   {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",

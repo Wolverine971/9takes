@@ -357,7 +357,7 @@ Yes. A 7w8 needs more physical intensity than 7w6. A 1w9 craves more solitude th
 
 <script type="application/ld+json">
     {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

@@ -17,6 +17,7 @@ midjourney_prompt: 'nine elegant figures arranged in a 3x3 grid, each demonstrat
 
 <script>
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
 <!--
@@ -27,9 +28,9 @@ Keyword Strategy:
 - Questions: what's my attachment style, how do attachment styles affect relationships, can you change your attachment style, attachment style compatibility
 -->
 
-## Quick Answer
-
-**How does Enneagram relate to attachment styles?** Attachment style tells you WHAT your relationship pattern is (anxious, avoidant, secure, disorganized). Enneagram tells you WHY. Two anxiously attached people behave completely differently: a Type 2 seeks reassurance by over-giving until you need them, while a Type 6 tests loyalty constantly. Understanding both gives you a roadmap for healing—not just awareness of the problem.
+<QuickAnswer question="How does Enneagram relate to attachment styles?">
+Attachment style tells you WHAT your relationship pattern is (anxious, avoidant, secure, disorganized). Enneagram tells you WHY. Two anxiously attached people behave completely differently: a Type 2 seeks reassurance by over-giving until you need them, while a Type 6 tests loyalty constantly. Understanding both gives you a roadmap for healing—not just awareness of the problem.
+</QuickAnswer>
 
 | Attachment Style | Common Enneagram Types | Core Pattern                           |
 | ---------------- | ---------------------- | -------------------------------------- |
@@ -823,16 +824,11 @@ They're equally important but work on different levels. Attachment is HOW you co
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",
       "articleBody": "This article explores the deep connection between Enneagram personality types and attachment styles. It provides a comprehensive guide to understanding how each of the 9 Enneagram types develops specific attachment patterns (secure, anxious, avoidant, or disorganized) and offers practical strategies for healing attachment wounds based on personality type. The article covers all 36 combinations of Enneagram types and attachment styles, providing specific healing practices, compatibility insights, and a roadmap to earned secure attachment.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

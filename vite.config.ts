@@ -2,7 +2,10 @@
 import { enhancedImages } from '@sveltejs/enhanced-img';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dev = process.env.NODE_ENV === 'development';
 
 /** @type {import('vite').UserConfig} */
@@ -28,7 +31,8 @@ const config = {
 	css: {
 		preprocessorOptions: {
 			scss: {
-				api: 'modern'
+				api: 'modern',
+				additionalData: `@use '${path.resolve(__dirname, 'src/scss/index.scss').replace(/\\/g, '/')}' as *;`
 			}
 		}
 	}

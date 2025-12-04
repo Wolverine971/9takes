@@ -161,121 +161,77 @@ Before finishing, verify:
 - **Impressions:** 22,617 | **CTR:** 0.16% | **Position:** 3.44
 - **Status:** Optimized 2025-12-03
 
-#### 2. Emma Watson
+#### 2. Emma Watson ✅ DONE
 
 - **File:** `src/blog/people/new-movie-stars/Emma-Watson.md`
 - **Impressions:** 8,486 | **CTR:** 0.32% | **Position:** 4.95
-- **Current Title:** "Emma Watson: The Hidden Perfectionist Behind Hermione"
-- **Target Queries:**
-  - "emma watson" (2,100 impressions)
-  - "emma watson personality" (573 impressions)
-  - "emma watson personality type" (447 impressions)
-  - "what is emma watson doing now" (searches exist)
-  - "emma watson personality traits" (133 impressions)
-- **Suggested New Title:** "Why Is Emma Watson So Private? Her Type 1 Personality Explained"
-- **Angle:** Her privacy, perfectionism, activism connection
+- **Status:** Optimized 2025-12-03
+- **Applied meta_title:** "Why Is Emma Watson So Private? Her Type 1 Personality Explained"
+- **Added:** Quick Answer box, FAQ section, internal links to Natalie Portman, Michelle Obama, mental health content
 
-#### 3. Elon Musk
+#### 3. Elon Musk ✅ DONE
 
-- **File:** `src/blog/people/techies/Elon-Musk.md` (verify path)
+- **File:** `src/blog/people/techies/Elon-Musk.md`
 - **Impressions:** 7,654 | **CTR:** 0.34% | **Position:** 5.48
-- **Target Queries:**
-  - "elon musk enneagram" (211 impressions, 3.79% CTR - keep this!)
-  - "elon musk personality type" (285 impressions)
-  - "elon musk personality traits analysis" (108 impressions)
-  - "what is elon musk personality type" (37 impressions)
-  - "elon musk personality analysis" (102 impressions)
-- **Suggested New Title:** "Elon Musk's Personality Type: Why He Acts the Way He Does"
-- **Angle:** Explain his controversial behavior through personality
+- **Status:** Optimized 2025-12-03
+- **Applied meta_title:** "Elon Musk's Personality Type: Why He Acts the Way He Does"
+- **Added:** Quick Answer box, FAQ section (5 questions)
 
-#### 4. Sabrina Carpenter
+#### 4. Sabrina Carpenter ✅ DONE
 
-- **File:** `src/blog/people/` (find exact path)
+- **File:** `src/blog/people/musicians/Sabrina-Carpenter.md`
 - **Impressions:** 6,668 | **CTR:** 0.25% | **Position:** 6.58
-- **Target Queries:**
-  - "sabrina carpenter personality" (1,522 impressions)
-  - "sabrina carpenter personality type" (500 impressions)
-  - "sabrina carpenter personality traits" (365 impressions)
-  - "what is sabrina carpenter's personality" (138 impressions)
-  - "words to describe sabrina carpenter" (13 impressions)
-- **Suggested New Title:** "Sabrina Carpenter's Real Personality: What Type Is She?"
-- **Angle:** Reveal the person behind the performer
+- **Status:** Optimized 2025-12-03
+- **Applied meta_title:** "Sabrina Carpenter's Real Personality: What Type Is She?"
+- **Added:** Quick Answer box, FAQ section (5 questions)
 
-#### 5. Mark Zuckerberg
+#### 5. Mark Zuckerberg ✅ DONE
 
-- **File:** `src/blog/people/techies/Mark-Zuckerberg.md` (verify path)
+- **File:** `src/blog/people/techies/Mark-Zuckerberg.md`
 - **Impressions:** 6,703 | **CTR:** 0.28% | **Position:** 5.35
-- **Target Queries:**
-  - "mark zuckerberg personality" (372 impressions)
-  - "mark zuckerberg personality traits" (236 impressions)
-  - "mark zuckerberg personality type" (204 impressions)
-  - "mark zuckerberg enneagram" (34 impressions)
-- **Suggested New Title:** "Why Is Mark Zuckerberg So Awkward? His Personality Decoded"
-- **Angle:** Explain his robotic public image through personality type
+- **Status:** Optimized 2025-12-03
+- **Applied meta_title:** "Why Is Mark Zuckerberg So Awkward? His Personality Decoded"
+- **Added:** Quick Answer box, FAQ section (5 questions)
 
-#### 6. Selena Gomez
+#### 6. Selena Gomez ✅ DONE
 
-- **File:** `src/blog/people/` (find exact path)
+- **File:** `src/blog/people/lifestyle-influencers/Selena-Gomez.md`
 - **Impressions:** 5,827 | **CTR:** 0.14% | **Position:** 5.94
-- **Target Queries:**
-  - "selena gomez personality" (301 impressions)
-  - "selena gomez personality traits" (183 impressions)
-  - "selena gomez traits" (71 impressions)
-  - "selena gomez enneagram" (61 impressions)
-  - "selena gomez character traits" (104 impressions)
-- **Suggested New Title:** "Selena Gomez's Personality: How She Handles Fame & Mental Health"
-- **Angle:** MENTAL HEALTH CONNECTION - this is the goldmine
+- **Status:** Optimized 2025-12-03
+- **Applied meta_title:** "Selena Gomez's Personality: How She Handles Fame & Mental Health"
+- **Added:** Quick Answer box, FAQ section (5 questions), mental health angle
 
-#### 7. Zendaya
+#### 7. Zendaya ✅ DONE
 
-- **File:** `src/blog/people/` (find exact path)
+- **File:** `src/blog/people/new-movie-stars/Zendaya.md`
 - **Impressions:** 5,229 | **CTR:** 0.17% | **Position:** 6.25
-- **Target Queries:**
-  - "zendaya personality" (621 impressions)
-  - "zendaya personality type" (338 impressions)
-  - "zendaya personality traits" (134 impressions)
-  - "what is zendaya's personality" (50 impressions)
-- **Suggested New Title:** "Zendaya's Personality Type: Why She's So Different From Other Stars"
-- **Angle:** Her uniqueness, groundedness in Hollywood
+- **Status:** Optimized 2025-12-03
+- **Applied meta_title:** "Zendaya's Personality Type: Why She's So Different From Other Stars"
+- **Added:** Quick Answer box, FAQ section (5 questions), anxiety content link
 
-#### 8. Billie Eilish
+#### 8. Billie Eilish ✅ DONE
 
-- **File:** `src/blog/people/` (find exact path)
+- **File:** `src/blog/people/musicians/Billie-Eilish.md`
 - **Impressions:** 5,021 | **CTR:** 0.18% | **Position:** 6.42
-- **Target Queries:**
-  - "billie eilish personality" (453 impressions)
-  - "billie eilish personality type" (260 impressions)
-  - "billie eilish personality traits" (248 impressions)
-  - "billie eilish enneagram" (108 impressions)
-  - "what is billie eilish's personality" (44 impressions)
-- **Suggested New Title:** "Billie Eilish's Dark Personality: What Type Is She Really?"
-- **Angle:** MENTAL HEALTH - her openness about depression/anxiety
+- **Status:** Optimized 2025-12-03
+- **Applied meta_title:** "Billie Eilish's Personality Type: Why She's So Different"
+- **Added:** Quick Answer box, FAQ section (5 questions), mental health angle
 
-#### 9. Sam Altman
+#### 9. Sam Altman ✅ DONE
 
-- **File:** `src/blog/people/techies/Sam-Altman.md` (verify path)
+- **File:** `src/blog/people/techies/Sam-Altman.md`
 - **Impressions:** 5,331 | **CTR:** 0.88% | **Position:** 4.9
-- **Target Queries:**
-  - "sam altman personality" (508 impressions)
-  - "sam altman mbti" (587 impressions)
-  - "sam altman personality type" (180 impressions)
-  - "sam altman enneagram" (25 impressions, 12% CTR!)
-  - "is sam altman a good person" (50 impressions)
-  - "sam altman sociopath" (40 impressions)
-- **Suggested New Title:** "Sam Altman's Personality: Visionary or Villain? A Deep Analysis"
-- **Angle:** Address the controversy around him directly
+- **Status:** Optimized 2025-12-03
+- **Applied meta_title:** "Sam Altman's Personality: The Psychology Behind AI's Most Powerful Man"
+- **Added:** Quick Answer box, FAQ section (5 questions), link to Elon Musk comparison
 
-#### 10. Jenna Ortega
+#### 10. Jenna Ortega ✅ DONE
 
-- **File:** `src/blog/people/` (find exact path)
+- **File:** `src/blog/people/new-movie-stars/Jenna-Ortega.md`
 - **Impressions:** 5,086 | **CTR:** 0.37% | **Position:** 8.29
-- **Target Queries:**
-  - "jenna ortega personality" (674 impressions)
-  - "jenna ortega personality type" (231 impressions)
-  - "jenna ortega personality traits" (302 impressions)
-  - "jenna ortega characteristics" (62 impressions)
-- **Suggested New Title:** "Jenna Ortega's Real Personality: Is She Like Wednesday?"
-- **Angle:** Contrast the character vs. the real person
+- **Status:** Optimized 2025-12-03
+- **Applied meta_title:** "Jenna Ortega's Personality Type: The Real Girl Behind Wednesday"
+- **Added:** Quick Answer box, FAQ section (5 questions)
 
 ---
 

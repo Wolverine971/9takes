@@ -18,11 +18,12 @@ pic: 'greek-statue-yeah-boi'
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**What compliments work best for each Enneagram type?** Compliment what they secretly fear they lack. Type 1s want to hear they're good (not just right). Type 2s need to feel loved for who they are, not what they give. Type 3s want genuine recognition beyond achievements. Type 4s crave being truly understood. Type 5s appreciate when their knowledge makes a difference. Type 6s need reassurance they can trust themselves. Type 7s want depth acknowledged beneath their fun exterior. Type 8s respect being seen as fair, not just strong. Type 9s need to know their voice matters.
+<QuickAnswer question="What compliments work best for each Enneagram type?">
+Compliment what they secretly fear they lack. Type 1s want to hear they're good (not just right). Type 2s need to feel loved for who they are, not what they give. Type 3s want genuine recognition beyond achievements. Type 4s crave being truly understood. Type 5s appreciate when their knowledge makes a difference. Type 6s need reassurance they can trust themselves. Type 7s want depth acknowledged beneath their fun exterior. Type 8s respect being seen as fair, not just strong. Type 9s need to know their voice matters.
+</QuickAnswer>
 
 ## Compliment Cheat Sheet
 

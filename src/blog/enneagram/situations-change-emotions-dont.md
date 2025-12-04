@@ -125,7 +125,7 @@ The Eightfold Fence is presented as a tool for maintaining sanity and composure 
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

@@ -399,7 +399,7 @@ _P.S. Still uncertain? That's normal. Some people take months to find their true
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

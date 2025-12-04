@@ -10,21 +10,11 @@
 
 	// Prepare common JSON-LD fields
 	const commonJsonLDFields = {
-		'@context': 'http://schema.org',
+		'@context': 'https://schema.org',
 		'@type': 'Article',
 		headline: title,
 		description,
 		author: {
-			'@type': 'Person',
-			name: 'DJ Wayne',
-			sameAs: [
-				'https://www.instagram.com/djwayne3/',
-				'https://www.youtube.com/@djwayne3',
-				'https://www.linkedin.com/in/davidtwayne/',
-				'https://twitter.com/djwayne3'
-			]
-		},
-		creator: {
 			'@type': 'Person',
 			name: 'DJ Wayne',
 			sameAs: [

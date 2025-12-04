@@ -294,7 +294,7 @@ If you found this eye-opening, sign up and join 9takes below ⬇️. Of course, 
 
 <script type="application/ld+json">
     {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@graph": [
         {
             "@type": "BlogPosting",

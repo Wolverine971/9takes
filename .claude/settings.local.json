@@ -40,7 +40,12 @@
 			"WebFetch(domain:tracxn.com)",
 			"WebFetch(domain:www.rollingstone.com)",
 			"WebFetch(domain:www.harpersbazaar.com)",
-			"WebFetch(domain:www.truity.com)"
+			"WebFetch(domain:www.truity.com)",
+			"Bash(pnpm gen:famous-types:*)",
+			"Bash(find:*)",
+			"Bash(perl -i -0pe:*)",
+			"Bash(cat:*)",
+			"Bash(. /Users/annawayne/9takes/.env)"
 		],
 		"deny": [],
 		"ask": [],

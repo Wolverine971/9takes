@@ -635,7 +635,7 @@ Remember: If you recognize concerning patterns in yourself or others, seek profe
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",

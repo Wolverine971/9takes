@@ -837,7 +837,7 @@ It's about understanding your patterns so deeply that you can show up authentica
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

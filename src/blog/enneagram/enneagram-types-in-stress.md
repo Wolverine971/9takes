@@ -16,11 +16,12 @@ pic: 'feeling-stressed'
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**How does each type fall apart under stress?** Each Enneagram type has a predictable breakdown pattern triggered by specific stressors. Type 1s become rigidly critical, Type 2s turn manipulative and needy, Type 3s work until they burn out, Type 4s spiral into dramatic withdrawal, Type 5s isolate completely, Type 6s catastrophize everything, Type 7s scatter into frantic distraction, Type 8s become dominating and aggressive, Type 9s go numb and passive-aggressive. Understanding your stress pattern reveals when you're starting to unravel.
+<QuickAnswer question="How does each type fall apart under stress?">
+Each Enneagram type has a predictable breakdown pattern triggered by specific stressors. Type 1s become rigidly critical, Type 2s turn manipulative and needy, Type 3s work until they burn out, Type 4s spiral into dramatic withdrawal, Type 5s isolate completely, Type 6s catastrophize everything, Type 7s scatter into frantic distraction, Type 8s become dominating and aggressive, Type 9s go numb and passive-aggressive. Understanding your stress pattern reveals when you're starting to unravel.
+</QuickAnswer>
 
 **Read time**: 15 minutes | **Key insight**: Your stress behavior is predictable—and preventable
 
@@ -570,16 +571,10 @@ If you like diving into personality, explore our <a href="/questions" >questions
 
  <script type="application/ld+json">
     {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "How Each Type Falls Apart (Your Stress Breakdown Pattern)",
   "description": "Watch yourself unravel under pressure and don't understand why? That's your type's stress pattern. Learn how each Enneagram type breaks down, what triggers their collapse, and how to stop the spiral.",
-  "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
   "author": {
       "@type": "Person",
       "name": "DJ Wayne",

@@ -17,11 +17,12 @@ pic: 'greek-statues-party-vibes'
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**How can you spot someone's Enneagram type at a party?** Each type has a predictable social pattern. Type 1s organize the kitchen while judging, Type 2s make sure everyone's okay, Type 3s network with successful people, Type 4s have intense corner conversations, Type 5s observe and plan their escape, Type 6s check on friends' safety, Type 7s plan the after-party mid-party, Type 8s dominate the energy, Type 9s merge with whatever group they're in. Watch their location, drink choice, and what they're secretly thinking—it reveals everything.
+<QuickAnswer question="How can you spot someone's Enneagram type at a party?">
+Each type has a predictable social pattern. Type 1s organize the kitchen while judging, Type 2s make sure everyone's okay, Type 3s network with successful people, Type 4s have intense corner conversations, Type 5s observe and plan their escape, Type 6s check on friends' safety, Type 7s plan the after-party mid-party, Type 8s dominate the energy, Type 9s merge with whatever group they're in. Watch their location, drink choice, and what they're secretly thinking—it reveals everything.
+</QuickAnswer>
 
 **Read time**: 8 minutes | **Party trick**: Type anyone in under 10 minutes
 
@@ -363,33 +364,21 @@ _Next: See [how each type shows off](/enneagram-corner/how-each-enneagram-flexes
 
  <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "articleBody": "Parties are personality laboratories where everyone's true type reveals itself. Watch someone for 10 minutes at a party and decode their Enneagram type through their social patterns. From the Type 1 organizing the kitchen to the Type 7 planning three after-parties, discover how each type plays a different social game based on their core motivations. Learn the tells, superpowers, and kryptonites of all nine types in social settings, plus prescriptions for breaking limiting patterns.",
   "keywords": ["enneagram party behavior", "personality types at parties", "enneagram social patterns", "party personality test", "social dynamics enneagram", "how to spot enneagram types", "enneagram type identification", "party behavior psychology", "social situations personality", "enneagram type 1 party", "enneagram type 2 party", "enneagram type 3 party", "enneagram type 4 party", "enneagram type 5 party", "enneagram type 6 party", "enneagram type 7 party", "enneagram type 8 party", "enneagram type 9 party"],
   "wordCount": 1850,
   "articleSection": "Enneagram",
   "url": "https://9takes.com/enneagram-corner/enneagram-types-at-party",
-  "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
   "author": {
       "@type": "Person",
       "name": "DJ Wayne",
       "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
   },
-  "dateModified": {
-    "@type": "Date",
-    "@value": "2025-10-23"
-  },
-  "datePublished": {
-    "@type": "Date",
-    "@value": "2023-02-17"
-  },
+  "dateModified": "2025-10-23",
+  "datePublished": "2023-02-17",
   "description": "Watch someone for 10 minutes at a party and know their Enneagram type. The kitchen helper, the networker, the corner philosopher—which one are you?",
   "headline": "The Party Test: What Your Social Style Reveals About Your Type",
   "image": {

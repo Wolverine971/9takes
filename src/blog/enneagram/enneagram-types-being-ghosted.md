@@ -17,11 +17,12 @@ pic: 'greek-statue-being-ghosted'
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why do people ghost based on their Enneagram type?** Type 1s ghost when you don't meet their standards, Type 2s when they feel unappreciated, Type 3s when you threaten their image, Type 4s when connection feels too ordinary, Type 5s when demands exceed their energy, Type 6s when trust breaks or anxiety spikes, Type 7s when boredom hits or pain surfaces, Type 8s when vulnerability feels dangerous, Type 9s to avoid confrontation. Understanding their type reveals it's about their patterns—not your worth.
+<QuickAnswer question="Why do people ghost based on their Enneagram type?">
+Type 1s ghost when you don't meet their standards, Type 2s when they feel unappreciated, Type 3s when you threaten their image, Type 4s when connection feels too ordinary, Type 5s when demands exceed their energy, Type 6s when trust breaks or anxiety spikes, Type 7s when boredom hits or pain surfaces, Type 8s when vulnerability feels dangerous, Type 9s to avoid confrontation. Understanding their type reveals it's about their patterns—not your worth.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Key insight**: Their ghosting reveals their limitations, not your value
 
@@ -507,29 +508,17 @@ Ready to explore how your personality shapes every aspect of life? Discover more
 
  <script type="application/ld+json">
   {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "articleBody": "Ghosting – the act of suddenly cutting off all communication without explanation – has become an epidemic in modern dating and relationships. This comprehensive guide explores how each Enneagram personality type uniquely experiences and processes being ghosted, from the self-blaming perfectionism of Type Ones to the anger of Type Eights and the emotional numbing of Type Nines. Discover personalized healing strategies for each type, understand the psychological impact of ghosting in our digital age, and learn a universal five-step recovery protocol for moving forward with resilience. Whether you've recently been ghosted or want to better understand how personality shapes response to rejection, this article offers insight into turning painful experiences into opportunities for growth and self-knowledge.",
-  "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
     "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
   },
-  "dateModified": {
-    "@type": "Date",
-    "@value": "2025-10-23"
-  },
-  "datePublished": {
-    "@type": "Date",
-    "@value": "2023-02-10"
-  },
+  "dateModified": "2025-10-23",
+  "datePublished": "2023-02-10",
   "image": {
     "@type": "ImageObject",
     "height": 900,

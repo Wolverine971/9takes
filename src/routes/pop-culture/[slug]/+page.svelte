@@ -160,8 +160,6 @@
 {/if}
 
 <style lang="scss">
-	@use '../../../scss/index.scss' as *;
-
 	.pop-culture-article {
 		max-width: 900px;
 		margin: 0 auto;

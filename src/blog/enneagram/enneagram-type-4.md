@@ -19,11 +19,12 @@ pic: ''
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
     import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why do Type 4s feel so different from everyone?** Type 4s experience a fundamental sense of being different, not by choice but as their core reality. They believe everyone else received instructions for being human that they missed. This creates chronic envy - not of things, but of others' apparent wholeness and ease of being. Type 4s don't just feel emotions; they inhabit emotional worlds with depths others don't access.
+<QuickAnswer question="Why do Type 4s feel so different from everyone?">
+Type 4s experience a fundamental sense of being different, not by choice but as their core reality. They believe everyone else received instructions for being human that they missed. This creates chronic envy - not of things, but of others' apparent wholeness and ease of being. Type 4s don't just feel emotions; they inhabit emotional worlds with depths others don't access.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Feeling fundamentally flawed or incomplete
 
@@ -303,7 +304,7 @@ These authentic reflections offer valuable insights for Fours on their journey o
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",

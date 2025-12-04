@@ -352,8 +352,6 @@
 </div>
 
 <style lang="scss">
-	@use '../../../scss/index.scss' as *;
-
 	.blog {
 		position: relative;
 		contain: layout; /* Improves paint performance */

@@ -25,11 +25,12 @@ Greek statue at minimalist desk with single-page cheat sheet in marble hands, ni
 -->
 
 <script>
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**What's my Enneagram type?** Find yourself in these core fears: Type 1 fears being wrong/corrupt. Type 2 fears being unloved. Type 3 fears being worthless without success. Type 4 fears having no identity. Type 5 fears being overwhelmed. Type 6 fears being without support. Type 7 fears being trapped in pain. Type 8 fears being controlled. Type 9 fears conflict and separation. **The one that makes you uncomfortable to read is probably yours.**
+<QuickAnswer question="What's my Enneagram type?">
+Find yourself in these core fears: Type 1 fears being wrong/corrupt. Type 2 fears being unloved. Type 3 fears being worthless without success. Type 4 fears having no identity. Type 5 fears being overwhelmed. Type 6 fears being without support. Type 7 fears being trapped in pain. Type 8 fears being controlled. Type 9 fears conflict and separation. **The one that makes you uncomfortable to read is probably yours.**
+</QuickAnswer>
 
 **Read time**: 5 minutes | **Shortcut**: Skip to "The 9 Human Operating Systems" below
 
@@ -148,7 +149,7 @@ Online tests measure behavior—you need to map your core emotional patterns. **
 
  <script type="application/ld+json">
     {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

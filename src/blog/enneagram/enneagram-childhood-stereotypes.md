@@ -108,7 +108,7 @@ If you are reminded of this blog in a conversation down the road give us a shout
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

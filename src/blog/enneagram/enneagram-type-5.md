@@ -17,11 +17,12 @@ pic: ''
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why do Type 5s withdraw from everyone?** Type 5s operate from a scarcity economy where energy, time, and attention are finite resources. The world feels invasive and depleting—every interaction is a withdrawal from a limited account. They retreat into mental fortresses not from antisocial tendencies but from conservation instincts. Social engagement genuinely exhausts them like a battery hitting zero. Withdrawal isn't avoidance; it's survival. They learned in childhood that the world is too much, so they built internal sanctuaries where knowledge provides safety and isolation preserves resources.
+<QuickAnswer question="Why do Type 5s withdraw from everyone?">
+Type 5s operate from a scarcity economy where energy, time, and attention are finite resources. The world feels invasive and depleting—every interaction is a withdrawal from a limited account. They retreat into mental fortresses not from antisocial tendencies but from conservation instincts. Social engagement genuinely exhausts them like a battery hitting zero. Withdrawal isn't avoidance; it's survival. They learned in childhood that the world is too much, so they built internal sanctuaries where knowledge provides safety and isolation preserves resources.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Believing resources are scarce and the world is depleting
 
@@ -288,7 +289,7 @@ The theoretical architecture of Type 5 comes alive through firsthand accounts. I
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",
@@ -308,7 +309,6 @@ The theoretical architecture of Type 5 comes alive through firsthand accounts. I
           "https://twitter.com/djwayne3"
         ]
       },
-      "name": "Why You Withdraw From Everyone (Type 5 Isolation Patterns)",
       "description": "Feel drained by people and crave constant alone time? That's Type 5. Learn why social interaction feels depleting, why you need to withdraw to recharge, and what you're really protecting.",
       "dateModified": "2025-10-23",
       "datePublished": "2023-02-18",

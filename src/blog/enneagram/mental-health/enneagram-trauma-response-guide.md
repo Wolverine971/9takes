@@ -455,7 +455,7 @@ For the full arsenal: [Trauma-informed therapy](/enneagram-corner/mental-health/
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",

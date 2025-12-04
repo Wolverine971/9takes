@@ -17,7 +17,7 @@
 		removed_comment_count: data.removed_comment_count,
 		comments: data.comments,
 		comment_count: data.comment_count,
-		ai_comments: data.ai_comments,
+		ai_comments: data.aiComments,
 		links: data.links,
 		links_count: data.links_count,
 		flags: data.flags,
@@ -85,7 +85,7 @@
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
 
 	// Prepare JSON-LD for structured data
-	const formattedAIComments = data?.ai_comments?.map((comment) => {
+	const formattedAIComments = data?.aiComments?.map((comment: any) => {
 		return {
 			'@type': 'Answer',
 			text: comment.comment,
@@ -98,6 +98,29 @@
 			}
 		};
 	});
+
+	// Format regular user comments as answers (fallback when no AI comments)
+	const formattedUserComments = data?.comments?.slice(0, 5).map((comment: any) => {
+		return {
+			'@type': 'Answer',
+			text: comment.comment,
+			dateCreated: comment.created_at,
+			upvoteCount: comment.likes || 0,
+			author: {
+				'@type': 'Person',
+				name: comment.enneagram ? `Enneagram Type ${comment.enneagram}` : 'Anonymous',
+				identifier: comment.author_id || 'anonymous'
+			}
+		};
+	});
+
+	// Use AI comments first, then user comments as fallback
+	const suggestedAnswers =
+		formattedAIComments?.length > 0
+			? formattedAIComments
+			: formattedUserComments?.length > 0
+				? formattedUserComments
+				: undefined;
 
 	const questionJsonLd = JSON.stringify({
 		'@context': 'https://schema.org',
@@ -145,7 +168,7 @@
 						identifier: data.question.author_id
 					}
 				: undefined,
-			...(formattedAIComments?.length > 0 && { suggestedAnswer: formattedAIComments })
+			...(suggestedAnswers && { suggestedAnswer: suggestedAnswers })
 		}
 	});
 </script>

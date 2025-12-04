@@ -19,11 +19,12 @@ pic: ''
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
     import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why can't Type 2s say no?** Type 2s learned in childhood that love is earned through giving. They absorbed the message that having needs makes them a burden while meeting others' needs earns connection. Saying no triggers a deep fear that they'll be unlovable without their usefulness. They can't see their own needs clearly—they have sophisticated radar for others but are genuinely blind to their own signals. It's not selflessness; it's a survival strategy for securing love.
+<QuickAnswer question="Why can't Type 2s say no?">
+Type 2s learned in childhood that love is earned through giving. They absorbed the message that having needs makes them a burden while meeting others' needs earns connection. Saying no triggers a deep fear that they'll be unlovable without their usefulness. They can't see their own needs clearly—they have sophisticated radar for others but are genuinely blind to their own signals. It's not selflessness; it's a survival strategy for securing love.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Believing they're only lovable when useful
 
@@ -338,7 +339,7 @@ This shift from conditional to inherent self-worth represents a crucial developm
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",

@@ -17,11 +17,12 @@ pic: ''
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why can't Type 7s sit still?** Type 7s built an operating system around avoiding pain. Their minds work like pinball machines—when emotion heads toward darkness, they instantly redirect toward possibilities and plans. Stillness is dangerous because it lets painful feelings catch up. Constant movement, new experiences, and mental stimulation aren't just preferences—they're protection. They learned in childhood to reframe pain as possibility, but forgot that you can't truly soar until you've learned to land. Their FOMO isn't about missing events; it's terror of being trapped with emotions they've been outrunning.
+<QuickAnswer question="Why can't Type 7s sit still?">
+Type 7s built an operating system around avoiding pain. Their minds work like pinball machines—when emotion heads toward darkness, they instantly redirect toward possibilities and plans. Stillness is dangerous because it lets painful feelings catch up. Constant movement, new experiences, and mental stimulation aren't just preferences—they're protection. They learned in childhood to reframe pain as possibility, but forgot that you can't truly soar until you've learned to land. Their FOMO isn't about missing events; it's terror of being trapped with emotions they've been outrunning.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Believing pain is unbearable and must be avoided
 
@@ -287,7 +288,7 @@ These firsthand accounts reveal the lived experience behind the theoretical fram
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",
@@ -307,7 +308,6 @@ These firsthand accounts reveal the lived experience behind the theoretical fram
           "https://twitter.com/djwayne3"
         ]
       },
-      "name": "Why You Can't Sit Still (Type 7 Avoidance Patterns)",
       "description": "Can't tolerate boredom or sit with negative emotions? That's Type 7. Learn why you need constant stimulation, why stillness feels unbearable, and what you're really running from.",
       "dateModified": "2025-10-23",
       "datePublished": "2023-02-18",

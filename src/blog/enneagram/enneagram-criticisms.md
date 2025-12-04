@@ -337,7 +337,7 @@ What's your experience with the Enneagram? Has it offered you useful insights, o
 
  <script type="application/ld+json">
     {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

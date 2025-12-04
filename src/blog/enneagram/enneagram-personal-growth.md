@@ -397,7 +397,7 @@ Growth requires moving against your type's survival strategy. Type 6s trusting w
 
 <script type="application/ld+json">
   {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

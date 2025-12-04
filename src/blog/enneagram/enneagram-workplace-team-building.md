@@ -563,7 +563,7 @@ The language barrier that's causing friction today could become your greatest co
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

@@ -285,7 +285,7 @@ Go here to dive deeper and see [how each Enneagram type behaves at a party](/enn
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

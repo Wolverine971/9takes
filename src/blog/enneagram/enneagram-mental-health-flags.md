@@ -542,7 +542,7 @@ Your personality type isn't a prison—it's a map. Use it wisely, with compassio
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

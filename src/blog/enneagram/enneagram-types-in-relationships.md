@@ -528,12 +528,6 @@ _Ready to go deeper? Discover [what happens when each type falls in love](/ennea
       {
          "@type":"Article",
          "articleBody":"A deep dive into how each Enneagram type approaches love and relationships, revealing the unconscious patterns that drive romantic dynamics. From Type 1s perfecting love to Type 9s disappearing into it, discover why relationships follow predictable patterns and how to break free from self-sabotaging cycles. Learn the core wounds, defense mechanisms, and growth edges for all nine types in intimate partnerships.",
-         "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
          "author": {
             "@type": "Person",
             "name": "DJ Wayne",

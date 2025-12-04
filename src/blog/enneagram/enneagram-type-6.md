@@ -18,11 +18,12 @@ pic: ''
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import Checklist from "$lib/components/blog/callouts/Checklist.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why can't Type 6s stop worrying?** Type 6s learned in childhood that the ground can shift without warning—trust was broken, authority proved unreliable, or safety disappeared. Their anxiety isn't irrational; it's pattern recognition. They run every scenario through constant calculation: what could go wrong, who can be trusted, where are the exits. The 'what if' spiral is survival-level vigilance, not neurosis. They catastrophize because they experienced catastrophe. Their minds scan for threats because once, they didn't see danger coming and it cost them.
+<QuickAnswer question="Why can't Type 6s stop worrying?">
+Type 6s learned in childhood that the ground can shift without warning—trust was broken, authority proved unreliable, or safety disappeared. Their anxiety isn't irrational; it's pattern recognition. They run every scenario through constant calculation: what could go wrong, who can be trusted, where are the exits. The 'what if' spiral is survival-level vigilance, not neurosis. They catastrophize because they experienced catastrophe. Their minds scan for threats because once, they didn't see danger coming and it cost them.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Learning that solid ground can become quicksand
 
@@ -305,7 +306,7 @@ note="If you checked seven or more items, you likely have strong Type 6 patterns
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",

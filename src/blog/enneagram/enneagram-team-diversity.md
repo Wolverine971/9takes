@@ -139,7 +139,7 @@ What steps will you take today to start diversifying your team's thinking and co
 
  <script type="application/ld+json">
     {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

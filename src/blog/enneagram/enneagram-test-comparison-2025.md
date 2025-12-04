@@ -22,9 +22,13 @@ Keyword Strategy:
 - Long-tail: most accurate enneagram test reddit, enneagram test with wings
 -->
 
-## Quick Answer
+<script>
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+</script>
 
-**What is the best free Enneagram test?** The **Truity Enneagram Test** (free, ~10 min) is a solid free option with over 100 questions. For maximum accuracy, the **RHETI** from the Enneagram Institute ($12) is widely considered the gold standard—it uses 144 forced-choice questions designed to bypass ego defenses. **Avoid**: 16Personalities (that's Myers-Briggs, not Enneagram), any test under 50 questions, and tests that only give you one type without wings.
+<QuickAnswer question="What is the best free Enneagram test?">
+The **Truity Enneagram Test** (free, ~10 min) is a solid free option with over 100 questions. For maximum accuracy, the **RHETI** from the Enneagram Institute ($12) is widely considered the gold standard—it uses 144 forced-choice questions designed to bypass ego defenses. **Avoid**: 16Personalities (that's Myers-Briggs, not Enneagram), any test under 50 questions, and tests that only give you one type without wings.
+</QuickAnswer>
 
 **Bottom line**: Start with a reputable free test. If your result feels off, consider RHETI.
 

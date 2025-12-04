@@ -115,5 +115,4 @@
 </div>
 
 <style lang="scss">
-	@use '../../../scss/index.scss' as *;
 </style>

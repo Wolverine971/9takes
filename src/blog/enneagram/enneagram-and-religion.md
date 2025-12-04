@@ -15,11 +15,12 @@ previewHtml: ''
 ---
 
 <script>
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Is the Enneagram religious?** The Enneagram has spiritual roots but isn't inherently religious. It likely originated in Sufi mysticism, was developed by spiritual teachers like Gurdjieff and Ichazo, and has been adopted by Christians (especially through Richard Rohr), Jewish teachers, and New Age practitioners. Some Christian denominations embrace it as a spiritual growth tool; others reject it as occult. The Enneagram itself is neutral—a psychological framework that different traditions interpret through their own lens.
+<QuickAnswer question="Is the Enneagram religious?">
+The Enneagram has spiritual roots but isn't inherently religious. It likely originated in Sufi mysticism, was developed by spiritual teachers like Gurdjieff and Ichazo, and has been adopted by Christians (especially through Richard Rohr), Jewish teachers, and New Age practitioners. Some Christian denominations embrace it as a spiritual growth tool; others reject it as occult. The Enneagram itself is neutral—a psychological framework that different traditions interpret through their own lens.
+</QuickAnswer>
 
 | Religion                           | Stance on Enneagram | Key Figures                   |
 | ---------------------------------- | ------------------- | ----------------------------- |
@@ -421,7 +422,7 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

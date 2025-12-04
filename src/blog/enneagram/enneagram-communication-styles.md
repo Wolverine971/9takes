@@ -587,30 +587,18 @@ Which communication language do you speak naturally? Which ones feel like a fore
 
 <script type="application/ld+json">
   {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",
       "articleBody": "Want to get better at chatting and relating to people? The Enneagram can help. It's a handy guide that shows us how different folks talk and relate. Each of the nine Enneagram types has a unique way of interacting, and we'll look at that through key stuff like body language, listening, understanding feelings, being clear and brief, showing confidence, empathy, respect, giving feedback, and adapting to changes.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [ "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2025-08-15"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-03-26"
-      },
+      "dateModified": "2025-08-15",
+      "datePublished": "2023-03-26",
       "description": "Explore the unique communication styles of Enneagram types 1-9. Enhance your interactions and interpersonal connections through understanding.",
       "headline": "The 9 Unique Communication Styles of Each Enneagram Type",
       "image": {

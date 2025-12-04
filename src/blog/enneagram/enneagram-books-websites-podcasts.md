@@ -4,7 +4,7 @@ description: 'Discover the best Enneagram books, websites, and podcasts for pers
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts'
-lastmod: '2025-06-26'
+lastmod: '2025-12-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -12,16 +12,42 @@ type: ['resources']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-listening-to-a-podcast'
+meta_title: "The Only Enneagram Resource Guide You'll Ever Need (2025 Edition)"
 ---
 
-<!-- todo go ham on this
+<script>
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+</script>
 
-be the hub
--->
+<QuickAnswer question="What's the best way to learn the Enneagram?">
+**It depends on your learning style and depth you want.** For beginners, start with *The Road Back to You* (accessible storytelling) or *The Enneagram Made Easy* (visual learners). For depth, *The Wisdom of the Enneagram* is the gold standard. Podcast listeners should try *Typology* or *Enneagram 2.0*. For free online learning, The Enneagram Institute has the most comprehensive type descriptions. This guide organizes 50+ vetted resources by format and experience level.
+</QuickAnswer>
 
-There are many resources when it comes to the Enneagram. This comprehensive guide brings together the best books, websites, podcasts, and influencers to help you on your Enneagram journey.
+<p class="firstLetter">You've taken the test. You think you know your type. Now what?</p>
 
-Here we present our favorites and community recommendations to help you explore this powerful system for personal growth and understanding. ❤️
+The internet is drowning in Enneagram content—some brilliant, some dangerously oversimplified. Bad resources turn the Enneagram into horoscopes. Good resources transform how you see yourself and everyone around you.
+
+This guide separates signal from noise. We've vetted books, websites, podcasts, and teachers across every experience level—from "just curious" to "ready for deep shadow work." Whether you want a 20-minute podcast commute or a 500-page scholarly deep dive, you'll find your next resource here.
+
+**Not sure where to start?** Skip to our [quick-pick recommendations](#quick-picks) based on your learning style.
+
+<article class="section-content" id="quick-picks">
+
+## Quick Picks: Best Enneagram Resources by Learning Style
+
+| If You Want...                 | Best Book                   | Best Podcast          | Best Website             |
+| ------------------------------ | --------------------------- | --------------------- | ------------------------ |
+| **Quick introduction**         | The Road Back to You        | Typology              | Enneagram Institute      |
+| **Deep psychological insight** | The Wisdom of the Enneagram | Enneagram 2.0         | 9takes                   |
+| **Faith-based approach**       | The Sacred Enneagram        | The Enneagram Journey | Narrative Enneagram      |
+| **Modern/millennial vibe**     | Millenneagram               | Enneagram and Coffee  | Truity                   |
+| **Workplace applications**     | The 9 Types of Leadership   | Enneagram at Work     | EnneagramMBA             |
+| **Relationship focus**         | The Enneagram of Belonging  | Simply Wholehearted   | 9takes                   |
+| **Subtypes deep dive**         | The Complete Enneagram      | Enneagram 2.0         | Beatrice Chestnut's site |
+
+**Already know your type?** Explore what it means: [Type 1](/enneagram-corner/enneagram-type-1) | [Type 2](/enneagram-corner/enneagram-type-2) | [Type 3](/enneagram-corner/enneagram-type-3) | [Type 4](/enneagram-corner/enneagram-type-4) | [Type 5](/enneagram-corner/enneagram-type-5) | [Type 6](/enneagram-corner/enneagram-type-6) | [Type 7](/enneagram-corner/enneagram-type-7) | [Type 8](/enneagram-corner/enneagram-type-8) | [Type 9](/enneagram-corner/enneagram-type-9)
+
+</article>
 
 <article class="section-content">
 
@@ -483,6 +509,41 @@ This comprehensive guide represents the current landscape of Enneagram resources
 
 </article>
 
+## Continue Your Enneagram Journey on 9takes
+
+Ready to apply what you learn? Explore our in-depth guides:
+
+- **Understanding the basics**: [Enneagram Overview](/enneagram-corner/enneagram-tldr) | [Core Concepts](/enneagram-corner/enneagram-concepts)
+- **Relationships**: [Types in Relationships](/enneagram-corner/enneagram-types-in-relationships) | [Communication Styles](/enneagram-corner/enneagram-communication-styles)
+- **Personal growth**: [Strengths & Weaknesses](/enneagram-corner/enneagram-strengths-and-weaknesses) | [Self-Development Guide](/enneagram-corner/enneagram-self-development)
+- **See it in action**: [Celebrity Personality Analyses](/personality-analysis)
+
+<article class="section-content">
+
+## Frequently Asked Questions
+
+### What's the best Enneagram book for beginners?
+
+_The Road Back to You_ by Ian Morgan Cron and Suzanne Stabile. It uses relatable stories instead of dense theory, making the nine types immediately recognizable. If you prefer a visual approach, _The Enneagram Made Easy_ by Baron and Wagele uses illustrations and humor. For a modern take aimed at millennials, try _Millenneagram_ by Hannah Paasch.
+
+### Are free Enneagram tests accurate?
+
+They give you a starting point, not a definitive answer. The best tests (like the RHETI from the Enneagram Institute) cost money because they're validated instruments. Free tests from Truity or Eclectic Energies are useful for narrowing down to 2-3 possible types, but you'll need to read the type descriptions carefully and self-reflect to confirm. Mistyping is common—especially confusing types like 4 vs 6, or 9 vs 2.
+
+### What's the difference between the Riso-Hudson and Narrative Enneagram approaches?
+
+Riso-Hudson (Enneagram Institute) uses levels of development—healthy, average, and unhealthy versions of each type. The Narrative Enneagram emphasizes storytelling and panel interviews where people of each type share their experiences. Neither is "better"; Riso-Hudson works well for self-study, while the Narrative approach is powerful in workshops and coaching settings.
+
+### Which Enneagram podcast should I listen to first?
+
+_Typology_ with Ian Morgan Cron if you want celebrity interviews and accessible conversations. _Enneagram 2.0_ with Beatrice Chestnut and Uranio Paes if you want deep dives into subtypes and theory (episodes are often 90+ minutes). _Enneagram and Coffee_ with Sarajane Case for a lighthearted, practical approach.
+
+### How do I know if an Enneagram teacher is credible?
+
+Look for certification from the International Enneagram Association (IEA), training in the Narrative Tradition, or credentials from the Enneagram Institute. Be cautious of influencers who learned only from social media. The best teachers can explain subtypes, instinctual variants, and growth paths—not just surface-level type descriptions. They also acknowledge the system's limitations rather than treating it as absolute truth.
+
+</article>
+
 <script>
   import instagram from '$lib/images/instagram.svg';
   import twitter from '$lib/images/twitter.svg';
@@ -494,7 +555,7 @@ This comprehensive guide represents the current landscape of Enneagram resources
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "about": {
     "@type": "Thing",
@@ -506,16 +567,6 @@ This comprehensive guide represents the current landscape of Enneagram resources
     ]
   },
   "articleSection": "Psychology",
-  "creator": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
@@ -526,7 +577,7 @@ This comprehensive guide represents the current landscape of Enneagram resources
       "https://twitter.com/djwayne3"
     ]
   },
-  "dateModified": "2025-06-26",
+  "dateModified": "2025-12-04",
   "datePublished": "2023-04-01",
   "description": "Discover the best Enneagram books, websites, podcasts, and influencers for personal growth and understanding. A comprehensive resource hub for Enneagram enthusiasts of all levels.",
   "headline": "Enneagram Books, Websites, Podcasts & Influencers: The Ultimate Resource Guide",

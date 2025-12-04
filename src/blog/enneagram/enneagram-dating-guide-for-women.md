@@ -872,7 +872,7 @@ This often happens when we're in our own stress patterns. Type 2s attract narcis
 
 <script type="application/ld+json">  
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",
@@ -908,7 +908,7 @@ This often happens when we're in our own stress patterns. Type 2s attract narcis
       "keywords": ["enneagram dating", "women dating guide", "enneagram types dating", "slow dating", "dating trends 2025", "type 1 dating", "type 2 dating", "type 3 dating", "type 4 dating", "type 5 dating", "type 6 dating", "type 7 dating", "type 8 dating", "type 9 dating", "authentic dating", "situationships", "love bombing"],
       "wordCount": 8931,
       "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-dating-guide-for-women",
+      "url": "https://9takes.com/enneagram-corner/enneagram-dating-guide-for-women"
     },
     {
       "@type": "FAQPage",

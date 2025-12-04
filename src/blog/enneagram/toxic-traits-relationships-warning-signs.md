@@ -17,11 +17,12 @@ pic: 'greek-statues-in-a-tense-moment'
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**What are the red flags for each Enneagram type in relationships?** Type 1s criticize everything you do. Type 2s help with strings attached ("after all I've done for you"). Type 3s perform instead of connect. Type 4s make their crisis your constant responsibility. Type 5s withdraw when you need them most. Type 6s test your loyalty obsessively. Type 7s disappear when things get serious. Type 8s bulldoze your boundaries. Type 9s go silent and forget your needs exist. The trait that attracted you initially often becomes the toxic pattern that destroys the relationship.
+<QuickAnswer question="What are the red flags for each Enneagram type in relationships?">
+Type 1s criticize everything you do. Type 2s help with strings attached ("after all I've done for you"). Type 3s perform instead of connect. Type 4s make their crisis your constant responsibility. Type 5s withdraw when you need them most. Type 6s test your loyalty obsessively. Type 7s disappear when things get serious. Type 8s bulldoze your boundaries. Type 9s go silent and forget your needs exist. The trait that attracted you initially often becomes the toxic pattern that destroys the relationship.
+</QuickAnswer>
 
 ## Relationship Red Flags by Type
 
@@ -483,7 +484,7 @@ Learn more about [how to communicate effectively in relationships here.](/enneag
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

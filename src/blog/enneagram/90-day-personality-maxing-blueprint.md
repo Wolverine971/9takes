@@ -858,16 +858,11 @@ Absolutely! Parallel transformation accelerates both individual and relationship
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",
       "articleBody": "This comprehensive guide presents a 90-day transformation program for personality development using the Enneagram system. Each personality type receives a customized three-phase protocol with specific daily practices, weekly milestones, and measurable outcomes. The program treats personality development like athletic training, with structured exercises designed to break unconscious patterns, build new neural pathways, and integrate higher-functioning behaviors. Includes detailed transformation plans for all 9 Enneagram types, daily protocols, accountability systems, and progress markers.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

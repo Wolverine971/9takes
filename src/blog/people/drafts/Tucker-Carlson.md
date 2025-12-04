@@ -208,7 +208,7 @@ What questions would you be asking if you learned at six years old that your own
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",

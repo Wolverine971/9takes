@@ -317,29 +317,17 @@ If you found these insights valuable, I invite you to join the 9takes community 
 
 <script type="application/ld+json">
   {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "articleBody": "This article explores how the Enneagram transcends typical personality typing to become a powerful framework for deep healing, authentic growth, and genuine transformation. It examines how understanding your Enneagram type reveals unconscious motivations, core wounds, and adaptive strategies that shape your behavior and perception. The article connects Enneagram wisdom with modern self-development approaches including somatic awareness, shadow work, mindfulness practice, and trauma-informed healing. It provides practical applications for using type awareness in decision-making, relationships, and career development while explaining advanced concepts like centers of intelligence, subtypes, and levels of development.",
-  "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
     "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
   },
-  "dateModified": {
-    "@type": "Date",
-    "@value": "2025-08-24"
-  },
-  "datePublished": {
-    "@type": "Date",
-    "@value": "2023-03-25"
-  },
+  "dateModified": "2025-08-24",
+  "datePublished": "2023-03-25",
   "description": "Master Enneagram self development with type-specific growth strategies. Learn how your personality type shapes your healing journey, shadow work, and path to authentic transformation.",
   "headline": "Enneagram Self Development: Transform Your Personality Into Your Superpower",
   "image": {

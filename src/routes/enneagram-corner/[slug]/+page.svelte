@@ -133,8 +133,6 @@
 {/if}
 
 <style lang="scss">
-	@use '../../../scss/index.scss' as *;
-
 	.article-header {
 		margin-bottom: 2rem;
 	}

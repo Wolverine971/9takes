@@ -18,11 +18,12 @@ midjourney_prompt: 'Nine ancient Greek marble statues arranged in a circle, each
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Do all Enneagram types experience anxiety?** Yes, every type has specific anxiety patterns - not just Type 6. Type 1s experience moral anxiety about mistakes, Type 3s have performance anxiety about failure, Type 7s have anticipatory anxiety about pain. Your type determines what triggers your anxiety and which coping strategies actually work. Generic advice fails because anxiety manifests differently based on your core fears.
+<QuickAnswer question="Do all Enneagram types experience anxiety?">
+Yes, every type has specific anxiety patterns - not just Type 6. Type 1s experience moral anxiety about mistakes, Type 3s have performance anxiety about failure, Type 7s have anticipatory anxiety about pain. Your type determines what triggers your anxiety and which coping strategies actually work. Generic advice fails because anxiety manifests differently based on your core fears.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Key insight**: Your anxiety pattern is predictable based on your type
 

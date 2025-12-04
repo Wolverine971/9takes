@@ -27,11 +27,12 @@ NOTES:
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Is Type 6 the only anxious Enneagram type?** No. Every type experiences anxiety differently. Type 1s have perfectionist anxiety (fear of being wrong), Type 2s have rejection anxiety (fear of not being needed), Type 3s have failure anxiety (fear of worthlessness), Type 4s have identity anxiety (fear of being ordinary), Type 5s have depletion anxiety (fear of incompetence), Type 6s have security anxiety (fear of being without support), Type 7s have constraint anxiety (fear of pain), Type 8s have vulnerability anxiety (fear of being controlled), and Type 9s have conflict anxiety (fear of disconnection).
+<QuickAnswer question="Is Type 6 the only anxious Enneagram type?">
+No. Every type experiences anxiety differently. Type 1s have perfectionist anxiety (fear of being wrong), Type 2s have rejection anxiety (fear of not being needed), Type 3s have failure anxiety (fear of worthlessness), Type 4s have identity anxiety (fear of being ordinary), Type 5s have depletion anxiety (fear of incompetence), Type 6s have security anxiety (fear of being without support), Type 7s have constraint anxiety (fear of pain), Type 8s have vulnerability anxiety (fear of being controlled), and Type 9s have conflict anxiety (fear of disconnection).
+</QuickAnswer>
 
 **Read time**: 20 minutes | **Key insight**: Your type's core fear creates your unique anxiety pattern
 
@@ -628,7 +629,7 @@ Remember: This guide is for educational purposes only. If you're struggling with
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",

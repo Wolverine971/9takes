@@ -4,7 +4,7 @@ description: 'Explore how ADHD, autism, and other neurodivergent conditions inte
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide'
-lastmod: '2025-08-25'
+lastmod: '2025-12-04'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -12,6 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-playing-with-toys'
+meta_title: "ADHD, Autism, and Your Enneagram Type: Why Generic Advice Doesn't Work for You"
 ---
 
 <!--
@@ -27,7 +28,12 @@ NOTES:
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="How do ADHD and autism interact with Enneagram types?">
+**Neurodivergence amplifies, masks, or transforms your Enneagram type's expression.** ADHD can intensify Type 7's stimulation-seeking or create internal torture for Type 1's perfectionism. Autism can make Type 4 feel even more "different" or help Type 5's systematic thinking flourish. Generic advice fails because you need strategies that honor BOTH your brain wiring AND your personality patterns—not one or the other.
+</QuickAnswer>
 
 <p class="firstLetter">Neurodivergence doesn't replace personality—it colors how personality expresses itself.</p>
 
@@ -805,11 +811,33 @@ Remember: The goal isn't to fit into neurotypical or type-based boxes. It's to u
 
 For additional support, consider exploring [therapy options that understand both neurodivergence and personality](/enneagram-corner/mental-health/enneagram-therapy-guide), learning about [medication approaches for neurodivergent individuals](/enneagram-corner/mental-health/enneagram-medication-mental-health), or understanding how [trauma intersects with neurodivergence and personality](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
 
+## Frequently Asked Questions
+
+### Can I have ADHD and still be Type 1?
+
+Yes—and it's often a particularly challenging combination. Type 1's perfectionist standards clash with ADHD's executive dysfunction, creating intense internal frustration. Type 1s with ADHD often develop rigid compensatory systems (detailed schedules, checklists everywhere) to manage symptoms. The key is recognizing that your perfectionism about ADHD management can itself become problematic. "Perfect for me" needs to replace absolute perfectionism.
+
+### Why do some Enneagram types get misdiagnosed with autism or ADHD?
+
+Type 5s are frequently misdiagnosed with autism due to their natural social withdrawal and intense special interests. Type 7s get ADHD diagnoses because of their stimulation-seeking and difficulty with monotony. Type 4s might receive various diagnoses because of their emotional intensity. The distinction: Enneagram patterns are motivation-based (why you do what you do), while neurodivergence is neurological (how your brain processes). You can be both—or just one.
+
+### How do I know if my challenges are from my Enneagram type or my neurodivergence?
+
+Ask: Is this about motivation or processing? Type 5 social withdrawal is about energy management and privacy (motivation). Autistic social challenges are about sensory overwhelm and communication processing (neurological). Type 7 distraction is about avoiding pain (motivation). ADHD distraction is about executive function (neurological). Often both are operating simultaneously—you need strategies that address both layers.
+
+### What accommodations work for neurodivergent people of specific Enneagram types?
+
+Accommodations need to honor both factors. Type 1 with ADHD: Structured flexibility, written instructions, movement breaks without shame. Type 4 with autism: Creative outlets, explicit social communication, sensory-friendly authenticity. Type 6 with ADHD: Clear procedures, extra reassurance about ADHD symptoms being normal, support groups. Generic accommodations fail because they address only one layer.
+
+### Should I tell employers about both my Enneagram type and neurodivergence?
+
+Generally, share neurodivergence for formal accommodations (it's legally protected). Keep Enneagram knowledge for your own strategic use. Use Enneagram insights to frame accommodation requests: Type 5s can ask for deep work blocks without revealing type. Type 8s can advocate for autonomy within accommodation requests. Your type helps you know HOW to ask; your diagnosis gives you the legal right to ask.
+
 <svelte:head>
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",

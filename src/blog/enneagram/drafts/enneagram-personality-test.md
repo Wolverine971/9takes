@@ -122,7 +122,7 @@ _Give your take, unlock everyone else’s._ 9takes is the metabolic gym for pers
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

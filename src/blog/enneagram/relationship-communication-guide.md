@@ -362,7 +362,7 @@ If you found these insights helpful, sign up and join 9takes below ⬇️. Of co
 
  <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
+      "@context": "https://schema.org",
       "@graph": [
         {
       "@type": "BlogPosting",

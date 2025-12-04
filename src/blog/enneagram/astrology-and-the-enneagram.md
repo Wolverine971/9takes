@@ -16,11 +16,12 @@ pic: 'looking-up-at-the-night-sky'
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**What Enneagram type matches my zodiac sign?** The Enneagram maps psychological patterns while astrology maps cosmic influences. Common correlations: Type 1 with Virgo (perfectionism), Type 3 with Leo (achievement), Type 4 with Pisces (emotional depth), Type 7 with Sagittarius (enthusiasm), Type 8 with Aries/Scorpio (intensity). Both systems offer different lenses—Enneagram reveals "why" you act, astrology suggests "when" and under what influences. They're complementary, not identical.
+<QuickAnswer question="What Enneagram type matches my zodiac sign?">
+The Enneagram maps psychological patterns while astrology maps cosmic influences. Common correlations: Type 1 with Virgo (perfectionism), Type 3 with Leo (achievement), Type 4 with Pisces (emotional depth), Type 7 with Sagittarius (enthusiasm), Type 8 with Aries/Scorpio (intensity). Both systems offer different lenses—Enneagram reveals "why" you act, astrology suggests "when" and under what influences. They're complementary, not identical.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Key insight**: Different systems, overlapping patterns
 
@@ -194,7 +195,7 @@ Whether you're a seasoned astrologer, an Enneagram enthusiast, or simply curious
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

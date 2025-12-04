@@ -253,7 +253,7 @@ Each of these types has a distinct worldview and set of behaviors, which are sha
 
 <script type="application/ld+json">
   {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "about": {
         "@type": "Thing",
@@ -271,12 +271,6 @@ Each of these types has a distinct worldview and set of behaviors, which are sha
     "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
     ]
   },
-  "creator": {
-      "@type": "Person",
-      "name": "DJ Wayne",
-      "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-      ]
-    },
   "dateModified": "2024-08-10",
   "datePublished": "2024-08-10",
   "description": "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth.",

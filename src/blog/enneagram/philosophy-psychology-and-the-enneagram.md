@@ -124,17 +124,11 @@ I guess it is up to us to make the connections and dive deeper. Ready to explore
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
   "author": {
       "@type": "Person",
       "name": "DJ Wayne",
@@ -153,14 +147,8 @@ I guess it is up to us to make the connections and dive deeper. Ready to explore
       "url": "https://plato.stanford.edu/entries/plato/"
     }
   ],
-  "dateModified": {
-    "@type": "Date",
-    "@value": "2024-06-08"
-  },
-  "datePublished": {
-    "@type": "Date",
-    "@value": "2023-07-11"
-  },
+  "dateModified": "2024-06-08",
+  "datePublished": "2023-07-11",
   "description": "Freud and Plato stumble on the Enneagram",
   "headline": "Philosophy and Psychology Gave Birth to the Enneagram",
   "image": {

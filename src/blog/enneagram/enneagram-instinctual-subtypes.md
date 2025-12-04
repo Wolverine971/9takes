@@ -17,11 +17,12 @@ pic: 'neoclassical-fortress2'
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
   import PopCard from "$lib/components/atoms/PopCard.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**What are Enneagram instinctual subtypes?** Your subtype is WHY two people of the same Enneagram type can seem completely different. There are three instincts: **Self-Preservation** (focused on safety, health, resources), **Social** (focused on belonging, status, groups), and **One-to-One/Sexual** (focused on intense connections, chemistry, attraction). Your dominant instinct flavors how your type expresses itself—creating 27 distinct subtypes instead of just 9.
+<QuickAnswer question="What are Enneagram instinctual subtypes?">
+Your subtype is WHY two people of the same Enneagram type can seem completely different. There are three instincts: **Self-Preservation** (focused on safety, health, resources), **Social** (focused on belonging, status, groups), and **One-to-One/Sexual** (focused on intense connections, chemistry, attraction). Your dominant instinct flavors how your type expresses itself—creating 27 distinct subtypes instead of just 9.
+</QuickAnswer>
 
 | Subtype                    | Focus      | You Prioritize                  | You Neglect                         |
 | -------------------------- | ---------- | ------------------------------- | ----------------------------------- |
@@ -345,7 +346,7 @@ If you enjoy personality explorations, explore our [questions](https://9takes.co
 
   <script type="application/ld+json">
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "BlogPosting",
     "about": {
       "@type": "Thing",
@@ -357,16 +358,6 @@ If you enjoy personality explorations, explore our [questions](https://9takes.co
       ]
     },
     "articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life.",
-    "creator": {
-      "@type": "Person",
-      "name": "DJ Wayne",
-      "sameAs": [
-        "https://www.instagram.com/djwayne3/",
-        "https://www.youtube.com/@djwayne3",
-        "https://www.linkedin.com/in/davidtwayne/",
-        "https://twitter.com/djwayne3"
-      ]
-    },
     "author": {
       "@type": "Person",
       "name": "DJ Wayne",
@@ -377,14 +368,8 @@ If you enjoy personality explorations, explore our [questions](https://9takes.co
         "https://twitter.com/djwayne3"
       ]
     },
-    "dateModified": {
-      "@type": "Date",
-      "@value": "2025-01-22"
-    },
-    "datePublished": {
-      "@type": "Date",
-      "@value": "2023-02-28"
-    },
+    "dateModified": "2025-01-22",
+    "datePublished": "2023-02-28",
     "description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
     "headline": "Understanding Enneagram Instinctual Subtypes",
     "image": {

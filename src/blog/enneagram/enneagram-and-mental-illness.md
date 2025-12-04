@@ -56,12 +56,13 @@ I hope these suggestions are helpful!
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
   // import EnneagramMentalIllnessPromo from "$lib/amp-stories/EnneagramMentalIllnessPromo.svelte";
 </script>
 
-## Quick Answer
-
-**Can your Enneagram type predict mental health risks?** Yes, each Enneagram type shows specific vulnerabilities to certain mental health conditions. Type 1s commonly struggle with OCD and perfectionism, Type 4s have higher rates of depression, Type 6s frequently experience anxiety disorders. These are predispositions, not certainties - your type indicates tendencies and vulnerabilities rather than diagnoses.
+<QuickAnswer question="Can your Enneagram type predict mental health risks?">
+Yes, each Enneagram type shows specific vulnerabilities to certain mental health conditions. Type 1s commonly struggle with OCD and perfectionism, Type 4s have higher rates of depression, Type 6s frequently experience anxiety disorders. These are predispositions, not certainties - your type indicates tendencies and vulnerabilities rather than diagnoses.
+</QuickAnswer>
 
 **Read time**: 18 minutes | **Important**: This is informational only - not medical advice
 
@@ -668,7 +669,7 @@ By integrating Enneagram insights with professional advice and personal reflecti
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

@@ -271,7 +271,7 @@ Want to dive deeper into how specific types work together? Check out our compreh
 
  <script type="application/ld+json">
     {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

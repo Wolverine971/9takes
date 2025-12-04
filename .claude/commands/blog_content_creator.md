@@ -750,11 +750,14 @@ The 9takes celebrity blog strategy is "Clickbait to the door, quality inside":
 
 ## File References:
 
+- **Documentation Index**: `/docs/INDEX.md` - Quick navigation to all documentation resources
 - Template structure: `/src/blog/people/person-template.md`
 - Prep prompts: `/docs/blogs-famous-people/prep-prompt-*.md`
 - Writing template: `/docs/blogs-famous-people/writing-prompt-1.md`
 - Database schema: `/docs/blogs-famous-people/mcp-blogs-famous-people.md`
 - **Published celebrities list**: `/src/lib/components/molecules/famousTypes.ts` - Contains all famous people with `link: true` indicating published blogs
+- Brand voice guide: `/docs/brand/brand-style-guide-v2.md`
+- Celebrity optimization protocol: `/docs/content-generation/celebrity-page-optimization-instructions.md`
 
 ## Environment Requirements:
 

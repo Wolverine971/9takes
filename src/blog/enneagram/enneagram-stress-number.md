@@ -732,28 +732,16 @@ _Ready to master your patterns? Explore [the Enneagram types](/enneagram-corner)
 <svelte:head>
 
 <script type="application/ld+json">{
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
     "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
   },
-  "dateModified": {
-    "@type": "Date",
-    "@value": "2025-08-15"
-  },
-  "datePublished": {
-    "@type": "Date",
-    "@value": "2023-02-17"
-  },
+  "dateModified": "2025-08-15",
+  "datePublished": "2023-02-17",
   "description": "Discover your Enneagram stress number and learn how it affects your behavior and relationships. Knowing your stress number can help you manage your stress and develop healthy coping mechanisms. Find out how each Enneagram type reacts under stress and how to interact with them more effectively.",
   "headline": "Your Dark Side Has a Number (And It's About to Ruin Your Day)",
   "image": {

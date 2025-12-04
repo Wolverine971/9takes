@@ -17,11 +17,12 @@ pic: ''
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**Why do Type 8s push everyone away?** Type 8s learned a devastating childhood lesson: vulnerability gets you hurt. They built impenetrable armor ensuring they'd never feel helpless again. Control isn't a preference—it's survival. Letting people close means risking betrayal. Showing softness invites exploitation. They push people away before they can be pushed first. The child who needed protection became the adult who trusts no one completely. Their strength is their fortress, but it's also their prison. Behind the intensity is terror that if they let the armor down, they'll be destroyed.
+<QuickAnswer question="Why do Type 8s push everyone away?">
+Type 8s learned a devastating childhood lesson: vulnerability gets you hurt. They built impenetrable armor ensuring they'd never feel helpless again. Control isn't a preference—it's survival. Letting people close means risking betrayal. Showing softness invites exploitation. They push people away before they can be pushed first. The child who needed protection became the adult who trusts no one completely. Their strength is their fortress, but it's also their prison. Behind the intensity is terror that if they let the armor down, they'll be destroyed.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Learning that vulnerability leads to harm
 
@@ -311,7 +312,7 @@ In this panel discussion moderated by Enneagram expert Beatrice Chestnut, a grou
 
 <script type="application/ld+json">
  {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",

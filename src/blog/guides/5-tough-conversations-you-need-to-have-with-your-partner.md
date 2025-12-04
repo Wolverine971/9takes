@@ -15,7 +15,7 @@ pic: 'two-greek-statues-having-a-serious-conversation'
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",
@@ -32,16 +32,6 @@ pic: 'two-greek-statues-having-a-serious-conversation'
         "width": 900
       },
       "keywords": ["relationship communication", "Gottman method", "Enneagram relationships", "couples therapy", "healthy relationships", "conflict resolution", "intimacy", "relationship advice", "communication skills"],
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

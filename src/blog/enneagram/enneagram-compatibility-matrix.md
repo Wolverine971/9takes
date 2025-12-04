@@ -659,7 +659,7 @@ Want to explore your specific type combination in more depth? Check out our deta
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",

@@ -17,11 +17,12 @@ pic: 'female-greek-statues-of-different-professions'
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**What career should I pursue based on my Enneagram type?** Type 1s thrive in quality control and ethics roles. Type 2s excel in healthcare and HR. Type 3s dominate in sales and leadership. Type 4s flourish in creative fields. Type 5s belong in research and tech. Type 6s succeed in security and risk management. Type 7s shine in marketing and entrepreneurship. Type 8s lead in executive and crisis management. Type 9s excel in mediation and counseling. The key isn't just matching skills—it's aligning your career with your core motivations.
+<QuickAnswer question="What career should I pursue based on my Enneagram type?">
+Type 1s thrive in quality control and ethics roles. Type 2s excel in healthcare and HR. Type 3s dominate in sales and leadership. Type 4s flourish in creative fields. Type 5s belong in research and tech. Type 6s succeed in security and risk management. Type 7s shine in marketing and entrepreneurship. Type 8s lead in executive and crisis management. Type 9s excel in mediation and counseling. The key isn't just matching skills—it's aligning your career with your core motivations.
+</QuickAnswer>
 
 **Read time**: 12 minutes | **Key insight**: Your job dissatisfaction isn't about the tasks—it's about whether your work feeds or starves your core motivation
 
@@ -401,7 +402,7 @@ For more check out <a style="font-weight: bold;" href="/enneagram-corner/enneagr
 
  <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "BlogPosting",
@@ -410,26 +411,14 @@ For more check out <a style="font-weight: bold;" href="/enneagram-corner/enneagr
       "wordCount": 5200,
       "articleSection": "Enneagram",
       "url": "https://9takes.com/enneagram-corner/enneagram-types-and-career-choices",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
       "author": {
           "@type": "Person",
           "name": "DJ Wayne",
           "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
             ]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-09-27"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-11-29"
-      },
+      "dateModified": "2024-09-27",
+      "datePublished": "2023-11-29",
       "description": "This blog post explores the ideal career paths for each Enneagram type, providing insights into how personality influences career choices. It covers each Enneagram type and suggests professions that align with their unique strengths and preferences.",
       "headline": "Enneagram & Careers: Discover a Path all 9 types",
       "image": {

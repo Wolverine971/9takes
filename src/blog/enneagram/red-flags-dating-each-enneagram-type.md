@@ -17,11 +17,12 @@ pic: 'greek-statues-relationship-red-flags'
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-## Quick Answer
-
-**What are the relationship red flags for each Enneagram type?** Every type has predictable warning signs rooted in their core fears. Type 1s criticize constantly, Type 2s keep score of what they give, Type 3s prioritize image over intimacy, Type 4s create emotional drama, Type 5s withdraw completely, Type 6s test your loyalty obsessively, Type 7s avoid anything serious, Type 8s dominate every decision, and Type 9s go passive-aggressive. Recognizing these patterns helps you distinguish between someone having a bad day and someone who will make your life miserable.
+<QuickAnswer question="What are the relationship red flags for each Enneagram type?">
+Every type has predictable warning signs rooted in their core fears. Type 1s criticize constantly, Type 2s keep score of what they give, Type 3s prioritize image over intimacy, Type 4s create emotional drama, Type 5s withdraw completely, Type 6s test your loyalty obsessively, Type 7s avoid anything serious, Type 8s dominate every decision, and Type 9s go passive-aggressive. Recognizing these patterns helps you distinguish between someone having a bad day and someone who will make your life miserable.
+</QuickAnswer>
 
 **Read time**: 18 minutes | **Key insight**: The most dangerous red flags look like attractive qualities—at first
 

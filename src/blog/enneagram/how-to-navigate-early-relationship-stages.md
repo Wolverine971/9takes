@@ -22,7 +22,7 @@ pic: 'young-couple-on-a-date'
 
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
+      "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "BlogPosting",

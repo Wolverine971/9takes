@@ -221,7 +221,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 
  <script type="application/ld+json">
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
   "@graph": [
   {
   "@type": "BlogPosting",
