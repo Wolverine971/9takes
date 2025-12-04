@@ -20,6 +20,7 @@ pic: 'greek-statue-adhd-scattered-thoughts'
 </script>
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +69,7 @@ pic: 'greek-statue-adhd-scattered-thoughts'
   ]
 }
 </script>
+
 </svelte:head>
 
 <div class="quick-answer">

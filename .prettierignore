@@ -16,6 +16,6 @@ yarn.lock
 
 /public
 /public/*
-/static/~partytown
+/static
 
 .vercel/

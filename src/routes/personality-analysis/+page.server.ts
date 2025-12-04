@@ -72,45 +72,5 @@ export const actions: Actions = {
 			console.log(e);
 			return null;
 		}
-	},
-	getAllBlogsFromDB: async () => {
-		const posts: any = await getAllPosts();
-		const publishedPosts = posts.filter((post) => post.published);
-
-		try {
-			const { data: famousPeople, error: famousPeopleError } = await supabase
-				.from('blogs_famous_people')
-				.insert(
-					publishedPosts.map((post) => {
-						return {
-							title: post.title,
-							description: post.description,
-							author: post.author,
-							date: post.date,
-							loc: post.loc,
-							lastmod: post.lastmod,
-							changefreq: post.changefreq,
-							priority: post.priority,
-							published: post.published,
-							enneagram: post.enneagram,
-							type: post.type,
-							person: post.person,
-							wikipedia: post.wikipedia,
-							twitter: post.twitter,
-							instagram: post.instagram,
-							tiktok: post.tiktok,
-							path: post.path,
-							slug: post.slug
-						};
-					})
-				)
-				.select();
-
-			if (famousPeopleError) {
-				console.log(famousPeopleError);
-			}
-		} catch (error) {
-			console.log(error);
-		}
 	}
 };
