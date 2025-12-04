@@ -143,30 +143,69 @@ source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peopl
   - Conclusion with engaging question
 - **Output**: Complete markdown blog with SEO optimization
 
-### 4. **Metadata Generation:**
+### 4. **Metadata Generation (Dual-Title System):**
 
-- Generate frontmatter matching the person-template.md structure:
-  ```yaml
-  ---
-  title: '[Person Name]: [Enneagram Analysis Title]'
-  description: '[SEO-optimized meta description under 155 chars]'
-  author: 'DJ Wayne'
-  date: '[YYYY-MM-DD]'
-  loc: 'https://9takes.com/personality-analysis/[Person-Name]'
-  lastmod: '[YYYY-MM-DD]'
-  changefreq: 'monthly'
-  priority: '0.6'
-  published: false
-  enneagram: '[1-9]'
-  type: ['celebrity']
-  person: '[First-Last]'
-  suggestions: []
-  wikipedia: '[URL if available]'
-  twitter: '[handle if available]'
-  instagram: '[handle if available]'
-  tiktok: '[handle if available]'
-  ---
-  ```
+**IMPORTANT: The 9takes celebrity blog system uses TWO titles:**
+
+1. **`title`** (Evergreen/Authoritative) - Displayed on the actual blog page
+   - Professional, accurate, timeless
+   - Reflects the quality and depth of analysis
+   - Should remain valuable even years from now
+   - Example: "Elon Musk: An In-Depth Enneagram Type 5 Analysis"
+
+2. **`meta_title`** (Clickbait/SEO) - Used for search results, social sharing, and browser tabs
+   - Problem-focused, curiosity-inducing
+   - Optimized for CTR in search results
+   - Can reference current events or trending angles
+   - Example: "Inside Elon Musk's Mind: Why He Can't Stop Taking Risks"
+
+**How it works technically:**
+
+- `PeopleBlogPageHead.svelte` uses: `data?.meta_title || data?.title`
+- Search results and social cards show `meta_title` (if exists)
+- The page itself displays `title` via `ArticleTitle` component
+
+**Generate frontmatter with BOTH titles:**
+
+```yaml
+---
+title: '[Person Name]: [Evergreen Enneagram Analysis Title]'
+meta_title: '[Clickbait/Problem-Focused Title for SEO]'
+description: '[SEO-optimized meta description under 155 chars - problem-focused]'
+author: 'DJ Wayne'
+date: '[YYYY-MM-DD]'
+loc: 'https://9takes.com/personality-analysis/[Person-Name]'
+lastmod: '[YYYY-MM-DD]'
+changefreq: 'monthly'
+priority: '0.6'
+published: false
+enneagram: '[1-9]'
+type: ['celebrity']
+person: '[First-Last]'
+suggestions: []
+wikipedia: '[URL if available]'
+twitter: '[handle if available]'
+instagram: '[handle if available]'
+tiktok: '[handle if available]'
+---
+```
+
+**Title Formula Examples:**
+
+| Person       | `title` (Evergreen)                                  | `meta_title` (Clickbait)                                             |
+| ------------ | ---------------------------------------------------- | -------------------------------------------------------------------- |
+| Taylor Swift | "Taylor Swift: Enneagram Type 3 Analysis"            | "Why Taylor Swift Can't Stop Reinventing Herself"                    |
+| Elon Musk    | "Elon Musk: An In-Depth Type 5w6 Analysis"           | "Inside Elon Musk's Mind: The Obsessive Pattern Behind His Chaos"    |
+| IShowSpeed   | "IShowSpeed: Enneagram Type 7 Analysis"              | "Why IShowSpeed Acts So Crazy (It's Not What You Think)"             |
+| Emma Watson  | "Emma Watson: Enneagram Type 1 Personality Analysis" | "Emma Watson's Hidden Perfectionism: The Pattern Behind Her Choices" |
+
+**Meta Title Patterns That Work (Based on GSC Data):**
+
+- "Why [Person] Can't Stop [Behavior]" - Problem framing
+- "Inside [Person]'s Mind: [Insight]" - Curiosity hook
+- "The Real Reason [Person] [Did Thing]" - Revelation angle
+- "[Person]'s Hidden [Trait]: What It Reveals" - Discovery hook
+- "What [Person]'s [Behavior] Says About Their Personality" - Analysis angle
 
 ### 5. **Draft Creation and Preview:**
 
@@ -651,6 +690,33 @@ Final paragraph with engaging question.
 - Prioritize recent interviews and biographical information
 - Cross-reference Enneagram type analysis with behavioral examples
 - Maintain analytical, unbiased tone throughout
+
+### **Balancing Virality with Evergreen Quality:**
+
+The 9takes celebrity blog strategy is "Clickbait to the door, quality inside":
+
+1. **Meta titles are clickbait** - Optimized for CTR, curiosity, problem-framing
+2. **Page titles are evergreen** - Professional, timeless, authoritative
+3. **Content is deeply researched** - Stand the test of time, be THE definitive analysis
+
+**Why this matters:**
+
+- Clickbait meta_titles drive traffic from search
+- Quality content keeps people on page, builds authority, earns backlinks
+- Evergreen analysis means the content remains valuable for years
+- Deep research differentiates 9takes from shallow personality sites
+
+**Quality indicators for celebrity blogs:**
+
+- [ ] Would this analysis be valuable 5 years from now?
+- [ ] Does it cover their entire life arc (not just recent events)?
+- [ ] Are psychological insights backed by specific behavioral examples?
+- [ ] Does it explain the "why" behind their actions through Enneagram lens?
+- [ ] Would a new reader get a complete picture of who this person is?
+- [ ] Is it the most thorough Enneagram analysis of this person online?
+
+**The formula:**
+`meta_title` (clickbait for traffic) + `title` (authority for reputation) + `content` (depth for value) = Sustainable growth
 
 ### **Content Standards:**
 

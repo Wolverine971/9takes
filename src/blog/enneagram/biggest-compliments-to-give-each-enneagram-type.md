@@ -57,6 +57,7 @@ Type 1s have a relentless inner critic constantly telling them they're not good 
 **Why it works:** You're telling them what their inner critic never does—that they ARE good, not just correct.
 
 **Avoid saying:**
+
 - "You're always right" (sounds sarcastic)
 - "You need to relax" (dismisses their values)
 - "It's good enough" (triggers their inner critic)
@@ -78,6 +79,7 @@ Type 2s give constantly because they fear that without being useful, they won't 
 **Why it works:** You're separating their worth from their usefulness. This is the validation they crave but rarely receive.
 
 **Avoid saying:**
+
 - "Thanks for helping" (too transactional)
 - "What would I do without you?" (reinforces usefulness = worth)
 - "You're so selfless" (pressure to keep giving)
@@ -99,22 +101,10 @@ Type 3s chase success because they believe they ARE their accomplishments. Deep 
 **Why it works:** You're seeing past the resume to the human. That's rare for them—and deeply meaningful.
 
 **Avoid saying:**
+
 - "You're so successful" (surface level—they hear this constantly)
 - "You're a machine!" (dehumanizing)
 - "I could never do what you do" (puts them on a pedestal)
-
-**What the kids say:**
-
-- "Your grind don't stop, and it's hella inspiring."
-- "Turning dreams to reality? That's your daily flex."
-- "Who needs clout when they've got your ambition?"
-- "Every time you hit a goal, it's a whole mood."
-- "That success glow suits you."
-- "You're the CEO of making things happen."
-- "Your playlist is probably just wins on repeat."
-- "When you walk, it's like a boss level upgrade."
-- "Your achievements are the tea everyone's sipping."
-- "Your style? Always on point, just like your game plan."
 
 [More on Type 3s](/enneagram-corner/enneagram-type-3)
 
@@ -138,24 +128,21 @@ Type 3s chase success because they believe they ARE their accomplishments. Deep 
 
 <article class="section-content">
 
-### Type 4- The Individualist
+### Type 4: The Individualist
 
-Type 4 personalities cherish their individuality. Celebrating their uniqueness and emotional richness validates their constant search for identity and meaning.
+**Core fear:** Being ordinary, having no identity or significance
 
-**Basic Compliment:** "Your depth of emotion and unique perspective are a gift to the world. You see beauty where others don't."
+Type 4s feel fundamentally different from others—like everyone else got a manual for being human that they never received. They search constantly for their authentic self.
 
-**What the kids say:**
+**Say this:** "I've never met anyone who sees the world quite like you do. Your perspective genuinely makes me think differently."
 
-- "Your vibe is like a limited edition drop everyone's after."
-- "You're the playlist I never knew I needed."
-- "That unique style? Issa look!"
-- "You're the aesthetic everyone's trying to copy."
-- "Your feels are deeper than my TikTok feed."
-- "If moods were art, you'd be the Mona Lisa."
-- "Your emotions? Louder than my AirPods on full volume."
-- "You're the original influencer of deep vibes."
-- "Your individuality is the main character energy we all need."
-- "Your style is the vibe check everyone fails next to."
+**Why it works:** You're validating their uniqueness without the dismissive "you're so unique" that they've heard a thousand times. You're saying their difference MATTERS.
+
+**Avoid saying:**
+
+- "You're so unique" (feels like a brush-off)
+- "Cheer up!" (dismisses their emotional depth)
+- "Everyone feels that way" (erases their identity)
 
 [More on Type 4s](/enneagram-corner/enneagram-type-4)
 
@@ -163,24 +150,21 @@ Type 4 personalities cherish their individuality. Celebrating their uniqueness a
 
 <article class="section-content">
 
-### Type 5- The Investigator
+### Type 5: The Investigator
 
-Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their analytical prowess and depth of understanding feeds their intrinsic need to be competent and well-prepared.
+**Core fear:** Being incompetent, overwhelmed, or depleted
 
-**Basic Compliment:** "Your wisdom and insights constantly amaze me. You have a rare ability to delve deep into complexities."
+Type 5s hoard knowledge and energy because they fear they don't have enough to meet the world's demands. They need to know their insights actually matter.
 
-**What the kids say:**
+**Say this:** "Your insight on this completely changed how I understand it. You have a way of seeing patterns others miss."
 
-- "Your brain's like the latest iPhone update, always ahead."
-- "Dropping wisdom like it's hot!"
-- "If insights were currency, you'd be <a href="/personality-analysis/Elon-Musk" >Elon Musk</a>."
-- "That big brain energy? It's the drip for real."
-- "When you speak, it's like a TED Talk everyone's tuned into."
-- "Your look today? Intellectual with a side of drip."
-- "Brainpower on fleek!"
-- "You're like the Google everyone wishes they had IRL."
-- "Your insights? Straight outta tomorrow."
-- "Every time you share knowledge, it's a whole vibe."
+**Why it works:** You're showing their knowledge had IMPACT—it wasn't just information, it was valuable. That's what they need to hear.
+
+**Avoid saying:**
+
+- "You're so smart" (too generic)
+- "You think too much" (dismisses their process)
+- "Just trust your gut" (invalidates their approach)
 
 [More on Type 5s](/enneagram-corner/enneagram-type-5)
 
@@ -192,24 +176,21 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 
 <article class="section-content">
 
-### Type 6- The Loyalist
+### Type 6: The Loyalist
 
-Type 6 personalities value security and trust. Acknowledging their dedication and reliability affirms their foundational role in any relationship or endeavor.
+**Core fear:** Being without support or guidance, unable to survive on their own
 
-**Basic Compliment:** "Your loyalty and steadfastness are the pillars on which people lean. Your commitment is unwavering."
+Type 6s question everything—including themselves. They're looking for something or someone trustworthy in an uncertain world. What they really need is to trust themselves.
 
-**What the kids say:**
+**Say this:** "I trust your judgment on this. You always think things through carefully, and that's valuable."
 
-- "Your loyalty's tighter than skinny jeans from 2010."
-- "Ride or die? Must've been coined for you."
-- "Trust levels? Over 9000!"
-- "If squads had a captain, you'd be it. No cap."
-- "Your commitment is the clout everyone wishes they had."
-- "Loyalty looks good on you. Just like that fit."
-- "You're the anchor in this sea of fleeting trends."
-- "Trustworthiness with a sprinkle of gangster? That's you."
-- "Your vibe is like a loyalty card with infinite rewards."
-- "Every crew needs a you. Period."
+**Why it works:** You're reflecting back the trustworthiness they desperately want to believe they have. You're saying they can rely on themselves.
+
+**Avoid saying:**
+
+- "Don't worry so much" (dismisses their legitimate concerns)
+- "Just relax" (invalidating)
+- "You're being paranoid" (confirms their worst fears)
 
 [More on Type 6s](/enneagram-corner/enneagram-type-6)
 
@@ -217,24 +198,21 @@ Type 6 personalities value security and trust. Acknowledging their dedication an
 
 <article class="section-content">
 
-### Type 7- The Enthusiast
+### Type 7: The Enthusiast
 
-Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and adventurous spirit aligns perfectly with their quest for pleasure and excitement.
+**Core fear:** Being trapped in pain, deprivation, or boredom
 
-**Basic Compliment:** "Your zest for life is infectious. You have an unparalleled ability to find joy in every moment."
+Type 7s chase experiences because they're running FROM something—usually painful emotions they don't want to feel. They want to be seen as more than just "the fun one."
 
-**What the kids say:**
+**Say this:** "I really appreciate how you can find the possibility in any situation. But I also see there's a lot more depth to you than people realize."
 
-- "Your energy? More viral than any TikTok dance."
-- "If life's a party, you're the DJ."
-- "You've got that 'life of the party' drip."
-- "Your enthusiasm is the trend we're all here for."
-- "With that zest, you must be life's energy drink."
-- "Every day's a glow-up with your spirit."
-- "You're the playlist that's always on repeat."
-- "That adventure-ready look? It's a whole vibe."
-- "You're the sprinkle of hype in every situation."
-- "If joy was a brand, you'd be its ambassador."
+**Why it works:** You're acknowledging their optimism while seeing beneath it. That's rare—and it means you actually see THEM.
+
+**Avoid saying:**
+
+- "You're so fun!" (reduces them to entertainment)
+- "You're always so positive" (pressure to perform)
+- "Must be nice to never worry" (dismisses their inner world)
 
 [More on Type 7s](/enneagram-corner/enneagram-type-7)
 
@@ -258,24 +236,21 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 
 <article class="section-content">
 
-### Type 8- The Challenger
+### Type 8: The Challenger
 
-Type 8 personalities are natural leaders driven by a desire to control their environment. Recognizing their strength and advocacy reinforces their role as protectors and champions.
+**Core fear:** Being controlled, harmed, or violated by others
 
-**Basic Compliment:** "Your strength and protective nature make people feel safe. You advocate fearlessly for what you believe in."
+Type 8s project strength because vulnerability once got them hurt. They protect others fiercely—but they also want to be seen as fair and just, not just powerful.
 
-**What the kids say:**
+**Say this:** "I respect how you stand up for people who can't stand up for themselves. Your sense of fairness is something I really admire."
 
-- "Strength and swag? Name a better duo. I'll wait."
-- "You're the boss level everyone aspires to reach."
-- "Your energy's like the final boss in a video game."
-- "When you advocate, even the walls listen."
-- "That 'take no prisoners' attitude? It's iconic."
-- "Your confidence? It's the glow-up we all need."
-- "Leadership looks good on you. Straight-up fire fit."
-- "You're the OG of getting things done."
-- "Your strength? It's the blueprint. Period."
-- "If power had a look, it'd be you stepping into a room."
+**Why it works:** Everyone tells 8s they're strong. Few acknowledge their justice-oriented heart. This sees past the armor.
+
+**Avoid saying:**
+
+- "You're so intimidating" (confirms their fear of being seen as a threat)
+- "You're so strong" (expected and surface-level)
+- "Calm down" (will backfire spectacularly)
 
 [More on Type 8s](/enneagram-corner/enneagram-type-8)
 
@@ -283,24 +258,21 @@ Type 8 personalities are natural leaders driven by a desire to control their env
 
 <article class="section-content">
 
-### Type 9- The Peacemaker
+### Type 9: The Peacemaker
 
-Type 9 individuals are the peacekeepers. Celebrating their mediation skills and the gift of seeing multiple perspectives affirms their nurturing and harmonizing nature.
+**Core fear:** Loss of connection, fragmentation, being shut out
 
-**Basic Compliment:** "Your ability to bring harmony and unity is unparalleled. Your calm presence is a soothing balm in any storm."
+Type 9s merge with others and minimize themselves to maintain harmony. They're often overlooked, and they've learned to be okay with that—even though it hurts.
 
-**What the kids say:**
+**Say this:** "I really want to hear what YOU think about this. Your perspective matters to me."
 
-- "Your calm is like the WiFi signal everyone's searching for."
-- "Bringing peace like it's the latest trend."
-- "Your energy? It's the chillest playlist on Spotify."
-- "If zen had a face, it'd be rocking your fit."
-- "You're the peace emoji in a world of chaos symbols."
-- "That harmonious glow? It's a whole aesthetic."
-- "You're the calming tea everyone needs after a long day."
-- "Your style? Peaceful with a side of swag."
-- "In life's soundtrack, you're the soothing interlude."
-- "You're the vibe everyone needs on their 'chill' playlist."
+**Why it works:** You're literally saying their voice matters—the thing they most doubt. You're pulling them into existence.
+
+**Avoid saying:**
+
+- "You're so easy-going" (makes them invisible)
+- "Whatever you want is fine" (forces them to disappear)
+- "Don't you have an opinion?" (accusatory)
 
 [More on Type 9s](/enneagram-corner/enneagram-type-9)
 
@@ -325,10 +297,10 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇�
             "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
                ]
             },
-         "dateModified":"2024-04-07",
+         "dateModified":"2025-12-03",
          "datePublished":"2023-08-09",
-         "description":"A captivating and informative exploration of the biggest compliments one can give to each Enneagram type, crafted to offer insights and resonating deeply with each type's essence.",
-         "headline":"The 9 Biggest Compliments to Give to Each Enneagram Type",
+         "description":"Generic compliments fall flat. Here's exactly what each Enneagram type secretly wants to hear—the words that make them feel truly seen and appreciated.",
+         "headline":"How to Compliment Each Enneagram Type (Words That Actually Land)",
          "image":{
             "@type":"ImageObject",
             "height":900,

@@ -12,10 +12,10 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "Amy-Poehler.png" -o "Amy-Poehler.webp"
-cwebp -sns 70 -f 50 -size 20000 "Amy-Poehler.webp" -o "./s-Amy-Poehler.webp"
+cwebp "greek-statue-adhd-scattered-thoughts.png" -o "greek-statue-adhd-scattered-thoughts.webp"
+cwebp -sns 70 -f 50 -size 20000 "greek-statue-adhd-scattered-thoughts.webp" -o "./s-greek-statue-adhd-scattered-thoughts.webp"
 
-/Users/annawayne/9takes/static/types/6s/Amy-Poehler.png
+/Users/annawayne/9takes/static/types/6s/greek-statue-adhd-scattered-thoughts.png
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

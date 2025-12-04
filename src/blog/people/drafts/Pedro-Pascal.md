@@ -1,6 +1,6 @@
 ---
-title: 'Pedro Pascal: The Loyal Heart Behind Hollywood's Favorite Space Dad'
-description: 'Why Pedro Pascal is an Enneagram Type 6. See how his anxiety, fierce loyalty, and warmth reveal the psychology of TV's most beloved father figure.'
+title: "Pedro Pascal: The Loyal Heart Behind Hollywood's Favorite Space Dad"
+description: "Why Pedro Pascal is an Enneagram Type 6. See how his anxiety, fierce loyalty, and warmth reveal the psychology of TV's most beloved father figure."
 author: 'DJ Wayne'
 date: '2025-12-03'
 loc: 'https://9takes.com/personality-analysis/Pedro-Pascal'
@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Pedro_Pascal'
 twitter: 'PedroPascal1'
 instagram: 'pascalispunk'
 tiktok: ''
+meta_title: "Pedro Pascal's Enneagram Type 6 Personality Explained"
 ---
 
 > "My entire heart is set on, you know, the marginalized underdog. It's not a choice. Like, how dare anyone not support the people that are deserving of support."
