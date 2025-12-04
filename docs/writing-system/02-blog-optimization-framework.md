@@ -1,3 +1,5 @@
+<!-- docs/writing-system/02-blog-optimization-framework.md -->
+
 # Blog Optimization Framework
 
 _Last Modified: 2025-08-15_

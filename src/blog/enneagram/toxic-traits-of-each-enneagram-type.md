@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-showing-cracks'
+path: src/blog/enneagram/toxic-traits-of-each-enneagram-type.md
 ---
 
 <script>

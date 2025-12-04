@@ -1,3 +1,5 @@
+<!-- src/blog/people/drafts/POLITICIAN_FACT_CHECK_REPORT.md -->
+
 # Politician Blog Fact-Check Report
 
 **Date:** December 4, 2025

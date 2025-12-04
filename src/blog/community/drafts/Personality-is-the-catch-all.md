@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-in-an-open-cage-typing-on-a-computer'
+path: src/blog/community/drafts/Personality-is-the-catch-all.md
 ---
 
 <svelte:head>

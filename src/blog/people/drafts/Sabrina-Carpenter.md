@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Sabrina_Carpenter'
 twitter: 'SabrinaAnnLynn'
 instagram: 'sabrinacarpenter'
 tiktok: 'sabrinacarpenter'
+path: src/blog/people/drafts/Sabrina-Carpenter.md
 ---
 
 > "I'm that kind of girl that will work until they physically pull me off set or out of the studio... I always want the best of what I can offer, and I think that's a blessing and a curse."

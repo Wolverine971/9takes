@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/enneagram/drafts/how-to-communicate.md
 ---
 
 <!-- Midjourney Prompt: two ancient greek statues facing each other in conversation, one statue gesturing expressively with open hands while speaking, the other statue leaning in with hand cupped to ear in active listening pose, both with engaged and understanding expressions, marble white with warm golden light, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Soft Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->

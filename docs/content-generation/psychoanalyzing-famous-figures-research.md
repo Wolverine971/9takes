@@ -1,3 +1,5 @@
+<!-- docs/content-generation/psychoanalyzing-famous-figures-research.md -->
+
 # Psychoanalyzing Famous Figures Through the Enneagram Lens: Research Compilation
 
 ## Overview

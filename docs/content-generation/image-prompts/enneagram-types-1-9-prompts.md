@@ -1,3 +1,5 @@
+<!-- docs/content-generation/image-prompts/enneagram-types-1-9-prompts.md -->
+
 # Midjourney Prompts: Enneagram Types 1-9 Individual Pages
 
 **Target Blogs:** `enneagram-type-1.md` through `enneagram-type-9.md`

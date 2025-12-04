@@ -1,3 +1,5 @@
+<!-- docs/content-generation/dark-psychology-course-outline.md -->
+
 # Dark Psychology Through the Enneagram: Course Outline
 
 ## Course Overview

@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-disagreeing'
+path: src/blog/enneagram/enneagram-criticisms.md
 ---
 
 <script>

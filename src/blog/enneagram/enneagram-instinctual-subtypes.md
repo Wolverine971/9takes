@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'neoclassical-fortress2'
+path: src/blog/enneagram/enneagram-instinctual-subtypes.md
 ---
 
 <script>

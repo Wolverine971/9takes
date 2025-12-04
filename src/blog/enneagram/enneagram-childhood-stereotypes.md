@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-babies'
+path: src/blog/enneagram/enneagram-childhood-stereotypes.md
 ---
 
 <script>

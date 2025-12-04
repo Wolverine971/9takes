@@ -12,6 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'enneagram-trauma-response'
+path: src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md
 ---
 
 <!--

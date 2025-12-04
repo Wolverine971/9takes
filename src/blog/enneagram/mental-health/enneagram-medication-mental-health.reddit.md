@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-medication-mental-health.reddit.md -->
+
 # Reddit Strategy for "The Enneagram Guide to Mental Health Medication"
 
 ## Target Subreddits

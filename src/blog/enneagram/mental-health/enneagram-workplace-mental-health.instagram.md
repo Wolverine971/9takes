@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-workplace-mental-health.instagram.md -->
+
 # Instagram Content for "Enneagram Guide to Workplace Mental Health"
 
 ## Main Feed Post: Carousel Guide

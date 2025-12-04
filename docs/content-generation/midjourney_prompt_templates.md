@@ -1,3 +1,5 @@
+<!-- docs/content-generation/midjourney_prompt_templates.md -->
+
 # Midjourney Prompt Templates for 9takes
 
 ## Overview

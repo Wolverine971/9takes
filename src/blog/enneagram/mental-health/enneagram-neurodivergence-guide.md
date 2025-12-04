@@ -13,6 +13,7 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-playing-with-toys'
 meta_title: "ADHD, Autism, and Your Enneagram Type: Why Generic Advice Doesn't Work for You"
+path: src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md
 ---
 
 <!--

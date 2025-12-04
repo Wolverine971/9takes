@@ -160,8 +160,9 @@ export const load = async (
 };
 
 export const actions: Actions = {
-	updateStage: async ({ request }) => {
+	updateStage: async ({ request, locals }) => {
 		try {
+			const supabase = locals.supabase;
 			const body = Object.fromEntries(await request.formData());
 
 			const contentType = body.content_type as string;

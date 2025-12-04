@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-science-mental-health.instagram.md -->
+
 # Instagram Content for "The Science Behind Enneagram and Mental Health"
 
 ## Main Feed Post: Carousel Guide

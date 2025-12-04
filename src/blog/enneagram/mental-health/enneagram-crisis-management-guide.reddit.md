@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-crisis-management-guide.reddit.md -->
+
 # Reddit Strategy for "Enneagram Crisis Management: Navigating Mental Health Emergencies"
 
 ## Target Subreddits

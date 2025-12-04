@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 pic: 'greek-statues-walking-past-a-pothole'
 meta_title: 'Why Your Arguments Keep Repeating (And the Exercises That Actually Fix Them)'
+path: src/blog/guides/definitive-guide-to-relationship-conflict-part-2.md
 ---
 
 <!-- conflict styles in relationships

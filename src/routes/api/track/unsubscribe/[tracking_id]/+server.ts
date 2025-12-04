@@ -1,4 +1,4 @@
-// GET /api/track/unsubscribe/[tracking_id]
+// src/routes/api/track/unsubscribe/[tracking_id]/+server.ts
 // Unsubscribe endpoint
 
 import { error } from '@sveltejs/kit';

@@ -16,6 +16,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Millie-Bobby-Brown.md
 ---
 
 <p class="firstLetter">Millie Bobby Brown—or as she now legally goes, Millie Bonnie Bongiovi—isn't just another celebrity face.</p>

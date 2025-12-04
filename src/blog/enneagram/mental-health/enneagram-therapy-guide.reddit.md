@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-therapy-guide.reddit.md -->
+
 # Reddit Strategy for "Finding the Right Therapist for Your Enneagram Type"
 
 ## Target Subreddits

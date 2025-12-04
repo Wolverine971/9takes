@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 pic: 'organized-workspace-personality-types'
+path: src/blog/guides/productivity-systems-by-enneagram-type.md
 ---
 
 <!--

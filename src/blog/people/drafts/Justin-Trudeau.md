@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Justin_Trudeau'
 twitter: 'https://twitter.com/JustinTrudeau'
 instagram: 'https://www.instagram.com/justinpjtrudeau'
 tiktok: ''
+path: src/blog/people/drafts/Justin-Trudeau.md
 ---
 
 > "Whatever the opposite of fear is. Hope, positivity, a sense of responsibility."

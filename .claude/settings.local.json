@@ -46,7 +46,8 @@
 			"Bash(perl -i -0pe:*)",
 			"Bash(cat:*)",
 			"Bash(. /Users/annawayne/9takes/.env)",
-			"Bash(pnpm build:*)"
+			"Bash(pnpm build:*)",
+			"Bash(git diff:*)"
 		],
 		"deny": [],
 		"ask": [],

@@ -1,3 +1,5 @@
+<!-- docs/content-research/red-flags-dating-outline.md -->
+
 # Outline: Red Flags You're Dating Each Enneagram Type
 
 _Ready for Writing_

@@ -1,3 +1,5 @@
+<!-- docs/security/CREDENTIAL_ROTATION_GUIDE.md -->
+
 # Credential Rotation Guide for 9takes
 
 ## Overview

@@ -12,6 +12,7 @@ type: ['workplace']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-working-in-teams'
+path: src/blog/enneagram/enneagram-workplace-team-building.md
 ---
 
 <!-- MIDJOURNEY PROMPTS

@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'cracked_mask_wall'
+path: src/blog/pop-culture/dark-triad-meets-enneagram.md
 ---
 
 <!--

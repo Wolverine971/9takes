@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 pic: 'greek-statues-on-a-date'
+path: src/blog/guides/dating-dynamics-by-enneagram-type.md
 ---
 
 <!-- enneagram dating

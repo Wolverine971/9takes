@@ -1,4 +1,4 @@
-// GET /api/track/open/[tracking_id]
+// src/routes/api/track/open/[tracking_id]/+server.ts
 // Tracking pixel endpoint - returns 1x1 transparent GIF
 
 import type { RequestHandler } from './$types';

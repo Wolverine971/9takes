@@ -1,3 +1,5 @@
+<!-- src/blog/people/drafts/Taylor-Swift-updated-sections.md -->
+
 # Updated Sections for Taylor Swift Blog
 
 ## Updated Opening Section

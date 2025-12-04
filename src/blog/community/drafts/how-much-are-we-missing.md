@@ -1,3 +1,5 @@
+<!-- src/blog/community/drafts/how-much-are-we-missing.md -->
+
 It is said that we only use 20% of our brain. That begs the question, what are we missing?
 
 What are we unaware of that lurks in our subconscious.

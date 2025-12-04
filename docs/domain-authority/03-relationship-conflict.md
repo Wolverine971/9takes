@@ -1,3 +1,5 @@
+<!-- docs/domain-authority/03-relationship-conflict.md -->
+
 # Domain Authority: Relationship Conflict & Communication
 
 _Last Modified: 2025-09-09_

@@ -1,4 +1,4 @@
-// POST /api/admin/email-dashboard/schedule
+// src/routes/api/admin/email-dashboard/schedule/+server.ts
 // Schedule emails for future delivery
 
 import { json, error } from '@sveltejs/kit';

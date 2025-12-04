@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-relationship-red-flags'
+path: src/blog/enneagram/red-flags-dating-each-enneagram-type.md
 ---
 
 <script>

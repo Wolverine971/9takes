@@ -1,3 +1,5 @@
+<!-- docs/content-generation/image-prompts/personal-growth-prompt.md -->
+
 # Midjourney Prompt: Enneagram Personal Growth
 
 **Target Blog Post:** `enneagram-personal-growth.md`

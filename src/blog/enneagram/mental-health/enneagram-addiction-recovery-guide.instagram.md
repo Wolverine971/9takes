@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.instagram.md -->
+
 # Instagram Content for "The Enneagram Guide to Addiction Recovery"
 
 ## Main Feed Post: Carousel Guide

@@ -1,3 +1,5 @@
+<!-- docs/reddit/daily-reddit-responses-2025-09-08.md -->
+
 # Reddit Value Comments - September 8, 2025
 
 ## Response Templates for Common Relationship Patterns

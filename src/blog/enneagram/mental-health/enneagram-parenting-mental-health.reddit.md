@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-parenting-mental-health.reddit.md -->
+
 # Reddit Strategy for "The Enneagram Parent's Guide to Children's Mental Health"
 
 ## Target Subreddits Research

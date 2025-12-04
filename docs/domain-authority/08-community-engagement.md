@@ -1,3 +1,5 @@
+<!-- docs/domain-authority/08-community-engagement.md -->
+
 # Domain Authority: Community & Platform Engagement
 
 _Last Modified: 2025-09-09_

@@ -1,4 +1,4 @@
-// GET /api/track/click/[tracking_id]/[encoded_url]
+// src/routes/api/track/click/[tracking_id]/[encoded_url]/+server.ts
 // Click tracking redirect
 
 import { redirect } from '@sveltejs/kit';

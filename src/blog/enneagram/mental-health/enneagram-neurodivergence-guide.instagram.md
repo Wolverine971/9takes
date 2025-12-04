@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.instagram.md -->
+
 # Instagram Content for "Understanding Neurodivergence Through the Enneagram Lens"
 
 ## Main Feed Post: Carousel Guide

@@ -12,6 +12,7 @@ type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-arguing-online'
+path: src/blog/community/what-winning-online-arguments-looks-like.md
 ---
 
 <svelte:head>

@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-of-athena-with-red'
+path: src/blog/enneagram/enneagram-mental-health-flags.md
 ---
 
 <!--  -->

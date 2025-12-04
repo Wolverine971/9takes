@@ -1,3 +1,5 @@
+<!-- docs/content-research/overthinking-enneagram-research.md -->
+
 # Research: Why You Can't Stop Overthinking (Your Enneagram Type Explains It)
 
 _Created: 2025-12-04_

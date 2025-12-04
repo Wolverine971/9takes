@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Peter-Thiel.md
 ---
 
 > "We wanted flying cars, instead we got 140 characters."

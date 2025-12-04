@@ -12,6 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-circle-of-anxiety'
+path: src/blog/enneagram/mental-health/enneagram-anxiety-complete-guide.md
 ---
 
 <!--

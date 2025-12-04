@@ -81,6 +81,7 @@ export const actions: Actions = {
 	submitLinkDrop: async ({ request, params, locals }) => {
 		try {
 			const session = locals.session;
+			const supabase = locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
@@ -179,6 +180,7 @@ export const actions: Actions = {
 	updateLinkDrop: async ({ request, locals }) => {
 		try {
 			const session = locals.session;
+			const supabase = locals.supabase;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');

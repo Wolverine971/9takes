@@ -1,3 +1,5 @@
+<!-- docs/blogs-famous-people/mcp-blogs-famous-people.md -->
+
 TODO
 
 # Supabase Blog Management Instructions for Claude Code

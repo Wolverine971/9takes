@@ -12,6 +12,7 @@ type: ['emotional-intelligence', 'self-awareness']
 blog: true
 previewHtml: "Discover why each personality type has specific emotional blind spots, how childhood shapes your emotional patterns, and the practical framework for finally understanding what you're feeling and why."
 pic: 'emotions-crash-course-kindergarten'
+path: src/blog/guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md
 ---
 
 <!--

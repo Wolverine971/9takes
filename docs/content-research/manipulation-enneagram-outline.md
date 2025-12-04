@@ -1,3 +1,5 @@
+<!-- docs/content-research/manipulation-enneagram-outline.md -->
+
 # Outline: How Each Enneagram Type Manipulates (And How to Spot It)
 
 _Based on: /docs/content-research/manipulation-enneagram-research.md_

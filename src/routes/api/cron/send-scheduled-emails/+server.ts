@@ -1,6 +1,6 @@
-// GET /api/cron/send-scheduled-emails
-// Vercel Cron job to process scheduled emails
-// Runs every minute
+// src/routes/api/cron/send-scheduled-emails/+server.ts
+// Cron job to process scheduled emails
+// Supports both GET (Vercel cron) and POST (Supabase pg_cron via pg_net)
 
 import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
@@ -8,8 +8,9 @@ import { PRIVATE_CRON_SECRET } from '$env/static/private';
 import { supabase } from '$lib/supabase';
 import { sendBatchEmails } from '$lib/email/sender';
 
-export const GET: RequestHandler = async ({ request }) => {
-	// Verify cron secret (Vercel adds this header for cron jobs)
+// Shared handler for both GET and POST
+async function processScheduledEmails(request: Request) {
+	// Verify cron secret (Vercel adds this header, pg_cron sends it via pg_net)
 	const authHeader = request.headers.get('authorization');
 
 	// In production, verify the secret
@@ -128,4 +129,14 @@ export const GET: RequestHandler = async ({ request }) => {
 		console.error('Error in cron job:', e);
 		throw error(500, 'Cron job failed');
 	}
+}
+
+// GET handler (Vercel cron)
+export const GET: RequestHandler = async ({ request }) => {
+	return processScheduledEmails(request);
+};
+
+// POST handler (Supabase pg_cron via pg_net)
+export const POST: RequestHandler = async ({ request }) => {
+	return processScheduledEmails(request);
 };

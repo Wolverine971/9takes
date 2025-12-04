@@ -1,4 +1,4 @@
-// DELETE /api/admin/email-dashboard/drafts/[id]
+// src/routes/api/admin/email-dashboard/drafts/[id]/+server.ts
 // Delete a draft
 
 import { json, error } from '@sveltejs/kit';

@@ -1,3 +1,5 @@
+<!-- docs/analytics/optimization-queue-dec-2025.md -->
+
 # Optimization Queue - December 2025
 
 _Created: 2025-12-03_

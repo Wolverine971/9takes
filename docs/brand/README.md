@@ -1,3 +1,5 @@
+<!-- docs/brand/README.md -->
+
 # Brand Resources
 
 _Last Updated: 2025-12-04_

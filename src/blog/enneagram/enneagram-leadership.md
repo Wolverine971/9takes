@@ -12,6 +12,7 @@ type: ['workplace', 'leadership']
 blog: true
 previewHtml: 'Every Enneagram type has a unique leadership superpower and fatal flaw. Discover why Type 8s burn out teams, Type 9s avoid tough decisions, and Type 3s sacrifice people for results  plus how each type can transform their leadership approach.'
 pic: 'diverse-leaders-boardroom-enneagram'
+path: src/blog/enneagram/enneagram-leadership.md
 ---
 
 <!-- Midjourney Prompt: diverse group of 9 business leaders in a modern glass boardroom, each displaying distinct leadership styles - one pointing assertively at charts, another listening intently, one mediating between others, one analyzing data on tablet, one inspiring the group with animated gestures, one organizing documents methodically, one celebrating team wins, one questioning thoughtfully, one bringing harmony to discussion, professional attire, natural lighting through floor-to-ceiling windows, city skyline background, photorealistic, corporate photography style --ar 16:9 --stylize 750 -->

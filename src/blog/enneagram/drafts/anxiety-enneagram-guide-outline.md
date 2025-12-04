@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/drafts/anxiety-enneagram-guide-outline.md -->
+
 # Outline: Crash Course in Dealing with Anxiety with the Enneagram
 
 **Based on draft notes from:** `src/blog/enneagram/drafts/anxiety-and-enneagram-types-guide.md`

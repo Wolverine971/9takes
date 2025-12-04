@@ -1,3 +1,5 @@
+<!-- docs/archives/content-analysis-oct-2025/quick-action-checklist.md -->
+
 # Enneagram Content Refresh - Quick Action Checklist
 
 ## 🚀 Immediate Actions (Today)

@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Swift'
 twitter: 'taylorswift13'
 instagram: 'taylorswift'
 tiktok: 'taylorswift'
+path: src/blog/people/drafts/Taylor-Swift.md
 ---
 
 <p class="firstLetter">What happens when the world's most driven artist finds happiness?</p>

@@ -1,3 +1,5 @@
+<!-- docs/content-generation/README.md -->
+
 # Content Generation Resources
 
 _Last Updated: 2025-12-04_

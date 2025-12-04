@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/ai-search-optimization-guide.md -->
+
 # AI Search Optimization Guide for 9takes Content
 
 **Purpose**: Optimize existing content for AI search systems (ChatGPT, Claude, Perplexity, Gemini, etc.)

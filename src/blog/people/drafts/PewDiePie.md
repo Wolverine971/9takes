@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/PewDiePie'
 twitter: 'pewdiepie'
 instagram: 'pewdiepie'
 tiktok: ''
+path: src/blog/people/drafts/PewDiePie.md
 ---
 
 > "I took a job at the hotdog stand, I was the happiest I was at that time because I was finally for the first time in many many years doing what I wanted to do."

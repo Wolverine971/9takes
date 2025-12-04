@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/drafts/how-to-psychoanalyze-outline.md -->
+
 # Outline: How to Psychoanalyze a Person (And Yourself)
 
 **Based on draft notes from:** `src/blog/guides/drafts/how-to-psychoanalyze-a-person.md`

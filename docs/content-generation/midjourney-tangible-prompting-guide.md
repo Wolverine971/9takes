@@ -1,3 +1,5 @@
+<!-- docs/content-generation/midjourney-tangible-prompting-guide.md -->
+
 # Midjourney Tangible Prompting Guide for 90-Day Transformation Blog
 
 ## Core Principle: Concrete Moments, Not Abstract Concepts

@@ -12,6 +12,7 @@ type: ['workplace']
 blog: true
 previewHtml: ''
 pic: 'female-greek-statues-of-different-professions'
+path: src/blog/enneagram/enneagram-types-and-career-choices.md
 ---
 
 <script>

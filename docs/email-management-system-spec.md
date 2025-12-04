@@ -1,3 +1,5 @@
+<!-- docs/email-management-system-spec.md -->
+
 # Email Management System - Technical Specification
 
 ## Overview
@@ -943,103 +945,115 @@ function rewriteLinks(html: string, trackingId: string): string {
 
 ## 7. Scheduled Email Processing
 
-### 7.1 Vercel Cron Configuration
+### 7.1 Overview
 
-```json
-// vercel.json
-{
-	"crons": [
-		{
-			"path": "/api/cron/send-scheduled-emails",
-			"schedule": "* * * * *"
-		}
-	]
-}
+Scheduled emails are processed using **Supabase pg_cron** which calls the SvelteKit API endpoint. This approach is more reliable than Vercel cron and doesn't require a Pro plan on Vercel.
+
+### 7.2 Architecture
+
+```
+┌─────────────────┐     HTTP POST      ┌─────────────────────────────────────┐
+│  pg_cron        │ ──────────────────▶│ /api/cron/send-scheduled-emails     │
+│  (every minute) │                    │ (SvelteKit API on Vercel)           │
+└─────────────────┘                    └─────────────────────────────────────┘
+        │                                            │
+        │ Uses pg_net extension                      │ Uses Gmail API
+        │                                            │
+        ▼                                            ▼
+┌─────────────────┐                    ┌─────────────────────────────────────┐
+│ email_cron_     │                    │ email_sends table                   │
+│ config table    │                    │ (tracking records)                  │
+└─────────────────┘                    └─────────────────────────────────────┘
 ```
 
-### 7.2 Cron Endpoint
+### 7.3 Setup Instructions
 
-```typescript
-// src/routes/api/cron/send-scheduled-emails/+server.ts
+**Step 1: Run the migration**
 
-import { supabaseAdmin } from '$lib/supabase-admin';
-import { sendEmail } from '$lib/email-sender';
+The migration `20251204_pg_cron_scheduled_emails.sql` creates:
 
-export async function GET({ request }) {
-	// Verify cron secret (Vercel adds this header)
-	const authHeader = request.headers.get('authorization');
-	if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
-		return new Response('Unauthorized', { status: 401 });
-	}
+- `email_cron_config` table for configuration
+- `process_scheduled_emails()` function
+- `email_cron_status` view for monitoring
 
-	// Get pending scheduled emails that are due
-	const { data: scheduledEmails } = await supabaseAdmin
-		.from('scheduled_emails')
-		.select('*')
-		.eq('status', 'pending')
-		.lte('scheduled_for', new Date().toISOString())
-		.limit(10); // Process 10 at a time
+**Step 2: Enable extensions in Supabase Dashboard**
 
-	if (!scheduledEmails?.length) {
-		return json({ message: 'No emails to send', processed: 0 });
-	}
+1. Go to **Database > Extensions**
+2. Enable **pg_cron** (requires Supabase Pro plan)
+3. Enable **pg_net** (for HTTP requests)
 
-	const results = [];
+**Step 3: Set the cron secret**
 
-	for (const scheduled of scheduledEmails) {
-		// Mark as processing
-		await supabaseAdmin
-			.from('scheduled_emails')
-			.update({ status: 'processing' })
-			.eq('id', scheduled.id);
+In Supabase SQL Editor, run:
 
-		try {
-			const recipients = scheduled.recipients as Recipient[];
-			let sent = 0;
-			let failed = 0;
-			const errors = [];
-
-			for (const recipient of recipients) {
-				try {
-					await sendEmailWithTracking({
-						to: recipient.email,
-						name: recipient.name,
-						subject: scheduled.subject,
-						html: scheduled.html_content,
-						source: recipient.source,
-						sourceId: recipient.source_id
-					});
-					sent++;
-				} catch (err) {
-					failed++;
-					errors.push({ email: recipient.email, error: err.message });
-				}
-			}
-
-			// Mark as completed
-			await supabaseAdmin
-				.from('scheduled_emails')
-				.update({
-					status: 'completed',
-					processed_at: new Date().toISOString(),
-					emails_sent: sent,
-					emails_failed: failed,
-					error_log: errors
-				})
-				.eq('id', scheduled.id);
-
-			results.push({ id: scheduled.id, sent, failed });
-		} catch (err) {
-			await supabaseAdmin
-				.from('scheduled_emails')
-				.update({ status: 'failed', error_log: [{ error: err.message }] })
-				.eq('id', scheduled.id);
-		}
-	}
-
-	return json({ processed: results.length, results });
-}
+```sql
+UPDATE email_cron_config
+SET cron_secret = 'your-PRIVATE_CRON_SECRET-value-here'
+WHERE id = 1;
 ```
+
+**Step 4: Schedule the cron job**
+
+In Supabase SQL Editor, run:
+
+```sql
+-- Schedule to run every minute
+SELECT cron.schedule(
+  'process-scheduled-emails',
+  '* * * * *',
+  $$SELECT process_scheduled_emails()$$
+);
+```
+
+### 7.4 Monitoring
+
+**View scheduled jobs:**
+
+```sql
+SELECT * FROM cron.job;
+```
+
+**View job run history:**
+
+```sql
+SELECT * FROM cron.job_run_details ORDER BY start_time DESC LIMIT 10;
+```
+
+**View cron status in dashboard:**
+The email dashboard shows a status indicator showing:
+
+- `healthy` - Last run within 2 minutes
+- `stale` - Last run 2-10 minutes ago
+- `unhealthy` - Last run more than 10 minutes ago
+- `never_run` - Job has never executed
+
+### 7.5 Troubleshooting
+
+**Cron not running:**
+
+1. Check extensions are enabled
+2. Verify the job is scheduled: `SELECT * FROM cron.job;`
+3. Check job history for errors: `SELECT * FROM cron.job_run_details ORDER BY start_time DESC LIMIT 10;`
+
+**Authentication errors:**
+
+1. Verify `PRIVATE_CRON_SECRET` in your `.env` matches what's in `email_cron_config`
+2. Check the API endpoint URL is correct
+
+**To unschedule:**
+
+```sql
+SELECT cron.unschedule('process-scheduled-emails');
+```
+
+### 7.6 Alternative: External Cron Service
+
+If pg_cron is not available (non-Pro Supabase plan), you can use a free external cron service:
+
+1. Go to [cron-job.org](https://cron-job.org) or [EasyCron](https://www.easycron.com)
+2. Create a job that calls: `https://9takes.com/api/cron/send-scheduled-emails`
+3. Set schedule to every 1-5 minutes
+4. Add header: `Authorization: Bearer YOUR_CRON_SECRET`
 
 ---
 

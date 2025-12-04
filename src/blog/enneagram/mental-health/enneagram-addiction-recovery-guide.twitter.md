@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.twitter.md -->
+
 # Twitter Content for "The Enneagram Guide to Addiction Recovery"
 
 ## Main Thread: Understanding Addiction recovery by Type

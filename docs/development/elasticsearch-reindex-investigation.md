@@ -9,6 +9,7 @@ tags: [research, elasticsearch, indexing, batch-processing, optimization]
 status: complete
 last_updated: 2025-09-15
 last_updated_by: Claude
+path: docs/development/elasticsearch-reindex-investigation.md
 ---
 
 # Research: Elasticsearch reindexEverything Function Investigation and Optimization

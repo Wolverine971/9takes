@@ -1,3 +1,5 @@
+<!-- src/blog/guides/drafts/psychology.md -->
+
 cognitive psychology examples
 psychology examples
 reverse psychology examples

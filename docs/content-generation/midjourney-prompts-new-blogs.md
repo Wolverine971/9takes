@@ -1,3 +1,5 @@
+<!-- docs/content-generation/midjourney-prompts-new-blogs.md -->
+
 # Midjourney Prompts for New Blog Images
 
 ## 1. Positive Self-Talk Blog

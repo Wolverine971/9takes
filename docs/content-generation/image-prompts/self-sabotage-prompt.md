@@ -1,3 +1,5 @@
+<!-- docs/content-generation/image-prompts/self-sabotage-prompt.md -->
+
 # Midjourney Prompt: Self-Sabotage Blog Post
 
 **Target Blog Post:** `how-each-enneagram-type-self-sabotages-success.md`

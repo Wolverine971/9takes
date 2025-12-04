@@ -12,6 +12,7 @@ type: ['relationships']
 blog: true
 previewHtml: ''
 pic: 'young-couple-on-a-date'
+path: src/blog/enneagram/how-to-navigate-early-relationship-stages.md
 ---
 
 <script>

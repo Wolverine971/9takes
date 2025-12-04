@@ -1,3 +1,5 @@
+<!-- docs/content-generation/blog-suggestions-dec-2025.md -->
+
 # Blog Suggestions - December 2025
 
 ## Currently Trending (December 2025) - High Priority

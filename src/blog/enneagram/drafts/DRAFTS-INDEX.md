@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/drafts/DRAFTS-INDEX.md -->
+
 # Enneagram Drafts Index
 
 _Last Modified: 2025-08-15_

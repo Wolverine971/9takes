@@ -1,3 +1,5 @@
+<!-- docs/twitter/phase-1-foundation.md -->
+
 # Phase 1: Foundation & Discoverability
 
 _Duration: August 25 - September 22, 2025 (4 weeks)_

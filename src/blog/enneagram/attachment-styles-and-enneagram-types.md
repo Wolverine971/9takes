@@ -13,6 +13,7 @@ blog: true
 pic: 'attachment_styles_enneagram_types_psychology'
 pic_alt: 'Nine figures showing different attachment patterns - secure embrace, anxious reaching, avoidant distance, and disorganized confusion'
 midjourney_prompt: 'nine elegant figures arranged in a 3x3 grid, each demonstrating different attachment styles through body language and energy - some figures embracing confidently (secure), others reaching anxiously with glowing red threads, some turning away with blue protective shields (avoidant), some switching between closeness and distance (disorganized), golden threads showing personality types, psychological depth with visible emotional patterns as colored auras, warm and cool color balance, ethereal psychology visualization, beautifully detailed expressions showing attachment dynamics, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6'
+path: src/blog/enneagram/attachment-styles-and-enneagram-types.md
 ---
 
 <script>

@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-reading-a-book'
+path: src/blog/enneagram/enneagram-connecting-lines.md
 ---
 
 <!-- Take a free, ~5 min test here -->

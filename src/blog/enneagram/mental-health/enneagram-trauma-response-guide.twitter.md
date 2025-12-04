@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-trauma-response-guide.twitter.md -->
+
 # Twitter Content for "Understanding Trauma Responses Through the Enneagram"
 
 ## Main Thread: Understanding Trauma and healing by Type

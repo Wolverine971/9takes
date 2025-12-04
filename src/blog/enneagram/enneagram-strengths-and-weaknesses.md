@@ -13,6 +13,7 @@ blog: true
 pic: 'greek-statue-holding-scales'
 previewHtml: 'Understanding your Enneagram type reveals your natural strengths and hidden weaknesses. Learn what energizes each type, what drains them, and how to leverage these insights for personal and professional growth.'
 wordCount: 4892
+path: src/blog/enneagram/enneagram-strengths-and-weaknesses.md
 ---
 
 <!-- MIDJOURNEY PROMPTS

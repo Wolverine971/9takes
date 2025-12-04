@@ -1,3 +1,5 @@
+<!-- docs/daily-progress/2025-09-14-internal-linking-plan.md -->
+
 # Internal Linking Plan for Recently Created Blogs
 
 _Generated: 2025-09-14_

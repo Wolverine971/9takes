@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'enneagram-concepts'
+path: src/blog/enneagram/enneagram-concepts.md
 ---
 
 <!-- the enneagram describes your personality in a box

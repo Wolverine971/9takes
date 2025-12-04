@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/enneagram/drafts/hijacking.md
 ---
 
 <!-- Midjourney Prompt: ancient greek statue sitting at a desk mid-conversation, suddenly stopping and looking confused, papers scattered around, pen dropped from hand, expression of being mentally derailed or losing their train of thought, marble white with gold accents, office setting with dramatic lighting, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->

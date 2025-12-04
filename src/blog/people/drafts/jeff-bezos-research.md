@@ -1,3 +1,5 @@
+<!-- src/blog/people/drafts/jeff-bezos-research.md -->
+
 # Jeff Bezos: Comprehensive Psychological Research Report
 
 **Research Date**: September 15, 2025  

@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jason_Calacanis'
 twitter: 'Jason'
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Jason-Calacanis.md
 ---
 
 > "The secret to success is to work harder than everyone else when you're young, save your money, and then take massive risks."

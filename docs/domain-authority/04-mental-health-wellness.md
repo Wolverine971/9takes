@@ -1,3 +1,5 @@
+<!-- docs/domain-authority/04-mental-health-wellness.md -->
+
 # Domain Authority: Mental Health & Wellness
 
 _Last Modified: 2025-09-09_

@@ -1,3 +1,5 @@
+<!-- docs/content-research/red-flags-dating-research.md -->
+
 # Research: Red Flags You're Dating Each Enneagram Type
 
 _Created: 2025-12-03_

@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Tucker_Carlson'
 twitter: 'TuckerCarlson'
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Tucker-Carlson.md
 ---
 
 <script>

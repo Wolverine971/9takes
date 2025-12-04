@@ -1,3 +1,5 @@
+<!-- docs/brand/brand-style-guide-v2.md -->
+
 # 9takes — Brand Voice & Style Guide (Revised)
 
 _Updated May 22 2025_

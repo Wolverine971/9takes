@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-party-vibes'
+path: src/blog/enneagram/enneagram-types-at-party.md
 ---
 
 <script>

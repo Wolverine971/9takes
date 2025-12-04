@@ -1,3 +1,5 @@
+<!-- docs/content-generation/midjourney.md -->
+
 1.  **knolling, coding, programmer, laptop, code, computers, hacker --ar 4:9** - @Wolverine971 (fast) Create, explore, and organize on [midjourney.com](https://midjourney.com/imagine?from_discord=1 'midjourney.com
 (https://midjourney.com/imagine?from_discord=1)')
 

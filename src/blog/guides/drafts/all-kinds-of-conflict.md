@@ -1,3 +1,5 @@
+<!-- src/blog/guides/drafts/all-kinds-of-conflict.md -->
+
 Relationship conflicts can arise in various settings, such as romantic relationships, friendships, family dynamics, and workplaces. These conflicts can be categorized into different types based on their root causes, the parties involved, and the context in which they occur. Here's an overview:
 
 1. Interpersonal Conflicts

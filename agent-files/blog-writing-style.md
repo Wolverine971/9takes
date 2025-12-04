@@ -1,3 +1,5 @@
+<!-- agent-files/blog-writing-style.md -->
+
 Short and concise writing is top priority in todays social media landscape.
 
 Prioritize brevity over length.

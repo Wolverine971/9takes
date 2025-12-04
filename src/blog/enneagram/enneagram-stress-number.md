@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'feeling-tension'
+path: src/blog/enneagram/enneagram-stress-number.md
 ---
 
 <!--

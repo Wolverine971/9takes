@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 pic: ''
+path: src/blog/guides/drafts/guide-to-active-listening.md
 ---
 
 <!-- todo -->

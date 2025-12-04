@@ -12,6 +12,7 @@ type: ['relationships']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-on-a-date'
+path: src/blog/enneagram/enneagram-types-in-relationships.md
 ---
 
 <!-- MIDJOURNEY PROMPTS

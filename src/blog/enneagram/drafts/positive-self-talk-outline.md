@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/drafts/positive-self-talk-outline.md -->
+
 # Positive Self-Talk by Enneagram Type: Rewire Your Inner Critic Into Your Inner Champion
 
 ## Blog Metadata

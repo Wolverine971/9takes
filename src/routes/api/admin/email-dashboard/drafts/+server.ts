@@ -1,4 +1,4 @@
-// GET/POST /api/admin/email-dashboard/drafts
+// src/routes/api/admin/email-dashboard/drafts/+server.ts
 // Manage email drafts
 
 import { json, error } from '@sveltejs/kit';

@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Call_Her_Daddy'
 twitter: 'alexandracooper'
 instagram: 'alexandracooper'
 tiktok: 'callherdaddy'
+path: src/blog/people/drafts/Alex-Cooper.md
 ---
 
 > "I always used to say, 'I'm never getting married.' I thought it would threaten my independence — no man should be able to say that I'm his. My view changed with Matt."

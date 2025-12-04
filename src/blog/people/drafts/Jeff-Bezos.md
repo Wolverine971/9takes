@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jeff_Bezos'
 twitter: '@JeffBezos'
 instagram: '@jeffbezos'
 tiktok: ''
+path: src/blog/people/drafts/Jeff-Bezos.md
 ---
 
 > "Blue Origin is the most important work I'm doing." — Jeff Bezos

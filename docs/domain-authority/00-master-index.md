@@ -1,30 +1,47 @@
+<!-- docs/domain-authority/00-master-index.md -->
+
 # Domain Authority Master Index
 
-_Last Modified: 2025-08-15_
+_Last Modified: 2025-12-04_
 
 ## Executive Summary
 
-### Current Content Inventory (COMPLETE AUDIT WITH SUPABASE):
+### Current Content Inventory (FRESH AUDIT 2025-12-04):
 
-- **Total Content Items:** 627+ (343 blog posts + 284 celebrity analyses in Supabase)
-- **Celebrity Analyses:** 284 in database (largest online!)
-- **Enneagram Core:** 67 posts (strong foundation)
-- **Community Platform:** 25 posts + anonymous Q&A platform
-- **Practical Guides:** 18 comprehensive how-to guides
-- **Mental Health Suite:** 12 comprehensive guides
-- **Draft Pipeline:** 18 posts (6 ready outlines)
+- **Total Enneagram Blog Posts:** 75 published posts (indexed in `blogIndex.ts`)
+- **Celebrity Analyses:** 284+ in database (largest online!)
+- **Mental Health Suite:** 8 main posts + 10 comprehensive guides in subdirectory
+- **New Content Since Last Audit:** manipulation tactics, self-sabotage, overthinking guides
 
-### Domain Authority Status (9 Total Domains):
+### 📊 NEW: Programmatic Blog Index
 
-1. **🟢 Pop Culture & Celebrities** - DOMINANT (284 analyses in Supabase!)
-2. **🟢 Enneagram Core** - Strong Foundation (67 posts)
-3. **🟢 Mental Health & Wellness** - Well Developed (12 guides)
-4. **🟡 Community & Platform** - Developing (25 posts + platform)
-5. **🟡 Practical Guides** - Moderate (18 guides)
-6. **🟡 Workplace & Leadership** - Growing (15 posts)
-7. **🟡 Social Dynamics** - Moderate (12 posts)
-8. **🔴 Personality Maxing** - CRITICAL GAP (8 posts only!)
-9. **🔴 Relationship Conflict** - URGENT CRISIS (6 posts only!)
+A new TypeScript blog index has been created at `src/lib/components/molecules/blogIndex.ts` providing:
+
+- Structured categorization of all 75 blog posts by domain
+- Cross-linking utilities (`getRelatedBlogs`, `getCrossLinkSuggestions`)
+- Tag-based filtering for related content
+- Domain statistics for gap analysis
+
+**See:** [Blog Index Integration Guide](./blog-index-integration.md)
+
+### Domain Authority Status (7 Content Domains):
+
+| Domain                | Posts | %   | Status        | Trend                      |
+| --------------------- | ----- | --- | ------------- | -------------------------- |
+| 1. Enneagram Core     | 21    | 28% | 🟢 Strong     | ✅ Complete foundation     |
+| 2. Relationships      | 13    | 17% | 🟢 Strong     | ↑ Recently expanded        |
+| 3. Social Dynamics    | 11    | 15% | 🟢 Strong     | ↑ New manipulation content |
+| 4. Personality Maxing | 10    | 13% | 🟡 Growing    | ↑ Self-sabotage added      |
+| 5. Mental Health      | 8     | 11% | 🟡 Moderate   | ↑ Overthinking added       |
+| 6. Workplace          | 7     | 9%  | 🟡 Developing | → Needs expansion          |
+| 7. Resources          | 6     | 8%  | 🟡 Moderate   | → Stable                   |
+
+### Recent Additions (Dec 2025):
+
+- ✅ `how-each-enneagram-type-manipulates` (Social Dynamics)
+- ✅ `how-each-enneagram-type-self-sabotages-success` (Personality Maxing)
+- ✅ `why-you-cant-stop-overthinking-enneagram` (Mental Health)
+- ✅ `attachment-styles-and-enneagram-types` updated (Relationships)
 
 ### Expansion Opportunities (Future Domains):
 
@@ -40,49 +57,55 @@ _Last Modified: 2025-08-15_
 
 ### 🎯 Primary Domains (Your Core)
 
-#### 1. [Enneagram Core Knowledge](./01-enneagram-core.md)
+#### 1. [Enneagram Core Knowledge](./01-enneagram-core.md) — 21 posts 🟢
 
-- **Status:** 🟡 Need 15-20 more pieces
-- **Strengths:** All 9 types covered, good foundation
-- **Gaps:** No wings guide, no levels of development, missing tests
-- **Priority:** Create wing guides and interactive tools
+- **Status:** 🟢 Strong Foundation
+- **Strengths:** All 9 type profiles complete, wings guide, subtypes, stress patterns
+- **Recent:** Wings complete guide, instinctual subtypes, religion perspectives
+- **Gaps:** 27 subtypes (in draft), levels of development
+- **Priority:** Complete 27 subtypes guide, add levels of development
 
-#### 2. [Personality Maxing & Self-Optimization](./02-personality-maxing.md)
+#### 2. [Personality Maxing & Self-Optimization](./02-personality-maxing.md) — 10 posts 🟡
 
-- **Status:** 🟡 Need 10-12 more pieces
-- **Strengths:** Unique "personality maxing" angle
-- **Gaps:** No transformation programs, limited actionable frameworks
-- **Priority:** Build 90-day program and habit guides
+- **Status:** 🟡 Growing (up from 8 posts!)
+- **Strengths:** Unique positioning, 90-day blueprint, shadow work complete
+- **Recent:** ✅ Self-sabotage guide added Dec 2025
+- **Gaps:** Morning routines, productivity systems, habit formation
+- **Priority:** Create morning routines and productivity guides by type
 
-#### 3. [Relationship Conflict & Communication](./03-relationship-conflict.md)
+#### 3. [Relationship Conflict & Communication](./03-relationship-conflict.md) — 13 posts 🟢
 
-- **Status:** 🟡 Need 12-15 more pieces
-- **Strengths:** Strong dating content, good communication guides
-- **Gaps:** No compatibility matrix, no family content, no scripts
-- **Priority:** Create compatibility guide and conflict scripts
+- **Status:** 🟢 Strong (up from 6 posts!)
+- **Strengths:** ✅ Compatibility matrix complete, ✅ Love languages complete, ✅ Attachment styles complete
+- **Recent:** Attachment styles updated, apology guide, toxic traits warnings
+- **Gaps:** Friendship dynamics, conflict resolution scripts, family content
+- **Priority:** Create friendship dynamics guide and conflict scripts
 
 ### 🚀 Growth Domains (High Potential)
 
-#### 4. [Mental Health & Wellness](./04-mental-health-wellness.md)
+#### 4. [Mental Health & Wellness](./04-mental-health-wellness.md) — 8 main + 10 guides 🟡
 
-- **Status:** 🟢 Near complete, need 5-8 pieces
-- **Strengths:** Most comprehensive suite online
-- **Gaps:** No depression guide, no ADHD content
-- **Priority:** Complete depression and neurodivergence content
+- **Status:** 🟡 Moderate (8 main posts + comprehensive `/mental-health/` subdirectory)
+- **Strengths:** ✅ Depression guide complete, ✅ ADHD guide complete, ✅ Anxiety guide complete
+- **Recent:** ✅ Overthinking guide added Dec 2025
+- **Gaps:** Burnout by type, sleep issues, grief processing
+- **Priority:** Create burnout guide, cross-link main posts with subdirectory guides
 
-#### 5. [Workplace & Leadership](./05-workplace-leadership.md)
+#### 5. [Workplace & Leadership](./05-workplace-leadership.md) — 7 posts 🟡
 
-- **Status:** 🟡 Need 15-20 more pieces
-- **Strengths:** Good team dynamics content
-- **Gaps:** No leadership guides, no remote work, no productivity
-- **Priority:** Create leadership suite and productivity systems
+- **Status:** 🟡 Developing (needs expansion)
+- **Strengths:** ✅ Leadership guide complete, good team dynamics coverage
+- **Recent:** Career choices updated, team dynamics enhanced
+- **Gaps:** Remote work by type, interview strategies, salary negotiation
+- **Priority:** Create remote work success guide and interview strategies
 
-#### 6. [Social Dynamics & Interpersonal](./06-social-dynamics.md)
+#### 6. [Social Dynamics & Interpersonal](./06-social-dynamics.md) — 11 posts 🟢
 
-- **Status:** 🟢 Need 10-12 pieces
-- **Strengths:** Unique first impression content
-- **Gaps:** No pop culture, no friendship focus, no networking
-- **Priority:** Add pop culture and networking guides
+- **Status:** 🟢 Strong
+- **Strengths:** Excellent first impression content, communication guides complete
+- **Recent:** ✅ Manipulation tactics guide added Dec 2025
+- **Gaps:** Networking strategies, public speaking, charisma development
+- **Priority:** Create networking strategies guide, link manipulation with toxic traits
 
 ### 🎯 Current Domains
 

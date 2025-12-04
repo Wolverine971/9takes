@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Princess-Diana.md
 ---
 
 > "I don't want expensive gifts; I don't want to be bought. I have everything I want. I just want someone to be there for me, to make me feel safe and secure."

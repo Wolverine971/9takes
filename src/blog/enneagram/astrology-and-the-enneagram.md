@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'looking-up-at-the-night-sky'
+path: src/blog/enneagram/astrology-and-the-enneagram.md
 ---
 
 <script>

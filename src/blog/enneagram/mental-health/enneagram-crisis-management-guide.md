@@ -12,6 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'crisis-management'
+path: src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md
 ---
 
 <!--

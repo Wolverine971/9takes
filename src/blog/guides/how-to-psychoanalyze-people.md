@@ -13,6 +13,7 @@ blog: true
 previewHtml: ''
 pic: 'greek_statue_reading_people'
 pic_alt: 'a greek statue examining diverse crowd of people in city square'
+path: src/blog/guides/how-to-psychoanalyze-people.md
 ---
 
 <!-- MAIN BANNER IMAGE PROMPT:

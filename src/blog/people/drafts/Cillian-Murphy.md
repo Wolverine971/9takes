@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Cillian_Murphy'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Cillian-Murphy.md
 ---
 
 > "The less the public knows about you, the more effective you can be when you go to portray someone else."

@@ -1,3 +1,5 @@
+<!-- agent-files/agent-readme.md -->
+
 Search for info on the interent update blog post.
 
 Create the concept of live pages.

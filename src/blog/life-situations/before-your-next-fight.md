@@ -1,3 +1,5 @@
+<!-- src/blog/life-situations/before-your-next-fight.md -->
+
 Before you go and have your next fight, ask yourself, how did the last fight go? Did you win, did you lose? Did it go just the way you thought it would. Or did you not get to say everything you wanted? Was
 
 what would before you go

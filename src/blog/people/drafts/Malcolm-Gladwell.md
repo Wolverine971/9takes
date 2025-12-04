@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Malcolm_Gladwell'
 twitter: 'gladwell'
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Malcolm-Gladwell.md
 ---
 
 > "For every hour I spend writing, I spend three hours thinking about writing."

@@ -1,3 +1,5 @@
+<!-- docs/AGENT-PROMPT.md -->
+
 # Agent Prompt for 9takes Content Strategy
 
 _Last Updated: 2025-12-03_

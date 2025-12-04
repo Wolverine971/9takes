@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/drafts/active-listening-guide-outline.md -->
+
 # Outline: The Ultimate Guide to Active Listening
 
 **Based on draft notes from:** `src/blog/guides/drafts/guide-to-active-listening.md`

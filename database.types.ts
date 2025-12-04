@@ -888,6 +888,36 @@ export type Database = {
           },
         ]
       }
+      email_cron_config: {
+        Row: {
+          api_endpoint: string
+          cron_secret: string | null
+          enabled: boolean | null
+          id: number
+          last_run_at: string | null
+          last_run_status: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          api_endpoint?: string
+          cron_secret?: string | null
+          enabled?: boolean | null
+          id?: number
+          last_run_at?: string | null
+          last_run_status?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          api_endpoint?: string
+          cron_secret?: string | null
+          enabled?: boolean | null
+          id?: number
+          last_run_at?: string | null
+          last_run_status?: string | null
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
       email_drafts: {
         Row: {
           created_at: string | null
@@ -2256,6 +2286,63 @@ export type Database = {
           },
         ]
       }
+      email_cron_status: {
+        Row: {
+          api_endpoint: string | null
+          enabled: boolean | null
+          health_status: string | null
+          last_run_at: string | null
+          last_run_status: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          api_endpoint?: string | null
+          enabled?: boolean | null
+          health_status?: never
+          last_run_at?: string | null
+          last_run_status?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          api_endpoint?: string | null
+          enabled?: boolean | null
+          health_status?: never
+          last_run_at?: string | null
+          last_run_status?: string | null
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
+      email_scheduled_pending: {
+        Row: {
+          created_at: string | null
+          due_status: string | null
+          id: string | null
+          recipient_count: number | null
+          scheduled_for: string | null
+          status: string | null
+          subject: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          due_status?: never
+          id?: string | null
+          recipient_count?: never
+          scheduled_for?: string | null
+          status?: string | null
+          subject?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          due_status?: never
+          id?: string | null
+          recipient_count?: never
+          scheduled_for?: string | null
+          status?: string | null
+          subject?: string | null
+        }
+        Relationships: []
+      }
     }
     Functions: {
       can_see_comments: {
@@ -2501,7 +2588,9 @@ export type Database = {
       increment_link_hit: { Args: { link_id: number }; Returns: undefined }
       insert_daily_row: { Args: never; Returns: undefined }
       install_available_extensions_and_test: { Args: never; Returns: boolean }
+      mark_emails_ready_for_processing: { Args: never; Returns: number }
       parse_json_with_escapes: { Args: { json_text: string }; Returns: Json }
+      process_scheduled_emails: { Args: never; Returns: undefined }
       question_with_comments:
         | {
             Args: { url: string }

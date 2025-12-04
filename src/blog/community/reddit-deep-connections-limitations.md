@@ -12,6 +12,7 @@ type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'reddit-late-at-night'
+path: src/blog/community/reddit-deep-connections-limitations.md
 ---
 
 <script>

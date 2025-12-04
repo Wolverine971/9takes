@@ -1,3 +1,5 @@
+<!-- docs/content-generation/image-prompts/adhd-enneagram-prompt.md -->
+
 # Midjourney Prompt: Enneagram and ADHD
 
 **Blog Post:** `src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md`

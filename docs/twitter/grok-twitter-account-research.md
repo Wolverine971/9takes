@@ -1,3 +1,5 @@
+<!-- docs/twitter/grok-twitter-account-research.md -->
+
 Your Twitter strategy document is well-structured, with clear targets and engagement tactics tailored to psychology, self-development, and Enneagram niches. However, some accounts listed may be outdated or less active in 2025, and the platform (now X) has evolved, requiring fresh accounts to maximize engagement. Below, I’ve reviewed your list, identified potentially outdated accounts, and suggested new, relevant accounts to add based on current trends, activity, and alignment with your psychology/self-development focus. I’ve also ensured these suggestions fit your tiered structure and engagement strategy.Review of Existing AccountsPotentially Outdated or Less Relevant Accounts:@ThinkGrowProsper (85k): This account has been inactive or less consistent in recent years. Its focus on motivational visuals may not align as strongly with your psychological depth and Enneagram-specific content in 2025.
 @thread_reader_app: While useful for amplifying threads, this is a bot account and not a primary engagement target. It’s better suited as a tool rather than a core account to engage with regularly.
 @PsychologyDocs

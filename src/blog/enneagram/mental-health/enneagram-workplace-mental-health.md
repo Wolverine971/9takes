@@ -13,6 +13,7 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-on-laptop-stressed'
 meta_title: "Why You're Burning Out at Work (Your Personality Type Reveals the Hidden Cause)"
+path: src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md
 ---
 
 <script>

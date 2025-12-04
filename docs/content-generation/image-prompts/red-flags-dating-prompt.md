@@ -1,3 +1,5 @@
+<!-- docs/content-generation/image-prompts/red-flags-dating-prompt.md -->
+
 # Midjourney Prompt: Red Flags Dating Each Enneagram Type
 
 **Blog Post:** `src/blog/enneagram/red-flags-dating-each-enneagram-type.md`

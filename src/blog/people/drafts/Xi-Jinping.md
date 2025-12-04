@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Xi_Jinping'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Xi-Jinping.md
 ---
 
 > "The knife is sharpened on a stone, people are strengthened in adversity."

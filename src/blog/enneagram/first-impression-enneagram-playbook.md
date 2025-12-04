@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-getting-ready-to-approach'
+path: src/blog/enneagram/first-impression-enneagram-playbook.md
 ---
 
 <script>

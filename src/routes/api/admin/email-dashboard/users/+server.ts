@@ -1,4 +1,4 @@
-// GET /api/admin/email-dashboard/users
+// src/routes/api/admin/email-dashboard/users/+server.ts
 // Fetch users from all sources (profiles, signups, coaching_waitlist)
 
 import { json, error } from '@sveltejs/kit';

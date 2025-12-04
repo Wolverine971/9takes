@@ -1,3 +1,5 @@
+<!-- docs/twitter/05-response-templates.md -->
+
 # Response Template Bank
 
 _Last Modified: 2025-08-15_

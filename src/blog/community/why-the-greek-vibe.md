@@ -13,6 +13,7 @@ blog: true
 previewHtml: ''
 pic: 'neoclassical-metropolis'
 meta_title: 'What Social Media Would Look Like If Ancient Greece Built It'
+path: src/blog/community/why-the-greek-vibe.md
 ---
 
 <script>

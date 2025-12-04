@@ -1,4 +1,4 @@
-// POST /api/admin/email-dashboard/generate
+// src/routes/api/admin/email-dashboard/generate/+server.ts
 // Generate email content using LLM
 
 import { json, error } from '@sveltejs/kit';

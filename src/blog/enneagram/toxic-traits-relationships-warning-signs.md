@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-in-a-tense-moment'
+path: src/blog/enneagram/toxic-traits-relationships-warning-signs.md
 ---
 
 <script>

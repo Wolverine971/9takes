@@ -1,3 +1,5 @@
+<!-- docs/twitter/04-visual-templates.md -->
+
 # Visual Templates for Twitter Threads
 
 _Last Modified: 2025-08-15_

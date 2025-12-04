@@ -12,6 +12,7 @@ type: ['development']
 blog: true
 pic: 'greek-statue-thinking-about-transformation'
 pic_alt: 'Nine ascending paths showing personality transformation over 90 days - from shadow to light, weakness to strength, with milestones and growth markers along each journey'
+path: src/blog/enneagram/90-day-personality-maxing-blueprint.md
 ---
 
 <script>

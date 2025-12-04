@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 type: ['overview']
 blog: true
+path: src/blog/situational/template.md
 ---
 
 ## Ideas For Blogs

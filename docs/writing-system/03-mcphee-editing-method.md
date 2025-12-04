@@ -1,3 +1,5 @@
+<!-- docs/writing-system/03-mcphee-editing-method.md -->
+
 # The McPhee Editing Method
 
 _Last Modified: 2025-08-15_

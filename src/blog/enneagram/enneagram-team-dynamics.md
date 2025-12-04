@@ -12,6 +12,7 @@ type: ['workplace']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-team-dynamics-office'
+path: src/blog/enneagram/enneagram-team-dynamics.md
 ---
 
 <!-- Midjourney Prompt: group of greek statues in a modern office conference room, some statues standing at a whiteboard drawing diagrams, others sitting around a table with laptops and documents, one statue giving a presentation, another taking notes, collaborative team meeting in progress, marble white with gold accents, modern professional lighting, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->

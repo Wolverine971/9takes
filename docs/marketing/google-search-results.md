@@ -1,3 +1,5 @@
+<!-- docs/marketing/google-search-results.md -->
+
 Top pages
 Clicks
 Impressions

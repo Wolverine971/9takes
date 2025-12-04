@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-interested-in-personality-maxing'
+path: src/blog/enneagram/personality-maxing.md
 ---
 
 <!-- How do you expect to get the most out of yourself if you aren't aware of your patterns?

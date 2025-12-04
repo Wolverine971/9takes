@@ -1,3 +1,5 @@
+<!-- docs/seo/seo-optimization-checklist.md -->
+
 # SEO Optimization Checklist for 9takes Blog Updates
 
 ## Content Optimization

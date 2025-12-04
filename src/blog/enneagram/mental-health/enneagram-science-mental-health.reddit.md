@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-science-mental-health.reddit.md -->
+
 # Reddit Strategy for "The Science Behind Enneagram and Mental Health"
 
 ## Target Subreddits

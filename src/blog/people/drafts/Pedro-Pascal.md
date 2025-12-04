@@ -17,6 +17,7 @@ twitter: 'PedroPascal1'
 instagram: 'pascalispunk'
 tiktok: ''
 meta_title: "Pedro Pascal's Enneagram Type 6 Personality Explained"
+path: src/blog/people/drafts/Pedro-Pascal.md
 ---
 
 > "My entire heart is set on, you know, the marginalized underdog. It's not a choice. Like, how dare anyone not support the people that are deserving of support."

@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/drafts/enneagram-positive-self-talk-outline.md -->
+
 # Outline: Positive Self-Talk by Enneagram Type
 
 **Based on draft notes from:** `src/blog/enneagram/drafts/positive-self-talk.md`

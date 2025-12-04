@@ -1,3 +1,5 @@
+<!-- docs/twitter/tweet-neurodiversity.md -->
+
 Proposed Thread Outline:
 Tweet 1 (Hook): "Everyone's suddenly 'discovering' they're neurodivergent and it's getting ridiculous. TikTok turned brain differences into personality accessories. Time for some brutal truth. 🧵"
 Tweet 2: "You're collecting diagnoses like Pokemon cards. 'I zone out = ADHD!' 'Social anxiety = autism!' 'I'm organized = OCD!' Stop it."

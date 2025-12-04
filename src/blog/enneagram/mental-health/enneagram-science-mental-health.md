@@ -12,6 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-researcher'
+path: src/blog/enneagram/mental-health/enneagram-science-mental-health.md
 ---
 
 <!--

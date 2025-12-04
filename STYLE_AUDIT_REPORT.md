@@ -1,3 +1,5 @@
+<!-- STYLE_AUDIT_REPORT.md -->
+
 # Style Audit Report - 9takes Codebase
 
 Generated: 2025-09-09

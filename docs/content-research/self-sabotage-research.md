@@ -1,3 +1,5 @@
+<!-- docs/content-research/self-sabotage-research.md -->
+
 # Research: How Each Enneagram Type Self-Sabotages Success
 
 _Created: 2025-12-04_

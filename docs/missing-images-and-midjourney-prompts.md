@@ -1,3 +1,5 @@
+<!-- docs/missing-images-and-midjourney-prompts.md -->
+
 # Missing Blog Images and Updated Midjourney Prompts
 
 ## Missing Images List

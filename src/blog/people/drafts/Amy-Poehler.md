@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Amy_Poehler'
 twitter: 'amypoehler'
 instagram: 'amypoehler'
 tiktok: ''
+path: src/blog/people/drafts/Amy-Poehler.md
 ---
 
 > "I don't f--king care if you like it."

@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'greek-dude-reading-book'
+path: src/blog/enneagram/enneagram-tldr.md
 ---
 
 <!-- MIDJOURNEY PROMPTS

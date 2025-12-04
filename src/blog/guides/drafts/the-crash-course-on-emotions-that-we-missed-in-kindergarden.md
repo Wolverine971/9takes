@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 pic: ''
+path: src/blog/guides/drafts/the-crash-course-on-emotions-that-we-missed-in-kindergarden.md
 ---
 
 <!-- conflict styles in relationships

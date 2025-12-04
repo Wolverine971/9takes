@@ -1,3 +1,5 @@
+<!-- docs/content-research/self-sabotage-outline.md -->
+
 # Outline: How Each Enneagram Type Self-Sabotages Success
 
 _Based on: /docs/content-research/self-sabotage-research.md_

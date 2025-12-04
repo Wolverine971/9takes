@@ -1,3 +1,5 @@
+<!-- docs/domain-authority/05-workplace-leadership.md -->
+
 # Domain Authority: Workplace & Leadership Development
 
 _Last Modified: 2025-09-09_

@@ -1,3 +1,5 @@
+<!-- docs/content-generation/celebrity-page-optimization-instructions.md -->
+
 # Celebrity Page Optimization Instructions
 
 _For AI Agent Execution_

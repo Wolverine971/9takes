@@ -1,3 +1,5 @@
+<!-- docs/domain-authority/07-pop-culture-celebrities.md -->
+
 # Domain Authority: Pop Culture & Celebrity Psychology
 
 _Last Modified: 2025-09-09_

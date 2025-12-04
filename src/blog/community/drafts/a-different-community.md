@@ -12,6 +12,7 @@ type: ['idea']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/community/drafts/a-different-community.md
 ---
 
 <!-- todo -->

@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/drafts/9takes-first-principles-outline.md -->
+
 # Outline: 9takes First Principles
 
 **Based on draft notes from:** `src/blog/community/drafts/first-principles.md`

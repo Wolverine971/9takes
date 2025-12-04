@@ -1,3 +1,4 @@
+// src/lib/email/sender.ts
 // Email Sender Service
 // Handles sending emails via Gmail API with tracking support
 

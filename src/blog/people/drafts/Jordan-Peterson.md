@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jordan_Peterson'
 twitter: 'jordanbpeterson'
 instagram: 'jordan.b.peterson'
 tiktok: ''
+path: src/blog/people/drafts/Jordan-Peterson.md
 ---
 
 > "You're morally obligated to do remarkable things. Why? Well, partly because life is so difficult and challenging that unless you give it everything you have, the chances are very high that it will embitter you. And then you'll be a force for darkness."

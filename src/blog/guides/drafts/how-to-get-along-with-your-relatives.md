@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 pic: 'greek-statue-having-a-disagreement'
+path: src/blog/guides/drafts/how-to-get-along-with-your-relatives.md
 ---
 
 <!-- todo -->

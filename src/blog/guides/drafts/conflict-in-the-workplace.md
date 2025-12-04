@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 pic: 'greek-statue-having-a-disagreement'
+path: src/blog/guides/drafts/conflict-in-the-workplace.md
 ---
 
 Answer questions

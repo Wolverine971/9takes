@@ -1,3 +1,5 @@
+<!-- docs/content-generation/ITERATIVE_REVIEW_PROCESS.md -->
+
 # Iterative Review Process for Mental Health Blog System
 
 ## Overview

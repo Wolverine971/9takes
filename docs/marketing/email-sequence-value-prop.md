@@ -1,3 +1,5 @@
+<!-- docs/marketing/email-sequence-value-prop.md -->
+
 # 9takes Waitlist Re-engagement Email Sequence
 
 **Objective:** Re-engage waitlist subscribers, demonstrate platform value, and drive active participation on 9takes.com

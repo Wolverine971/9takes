@@ -12,6 +12,7 @@ type: ['development']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-arguing'
+path: src/blog/enneagram/enneagram-communication-tips.md
 ---
 
 <script>

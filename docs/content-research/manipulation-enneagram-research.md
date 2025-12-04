@@ -1,3 +1,5 @@
+<!-- docs/content-research/manipulation-enneagram-research.md -->
+
 # Research: How Each Enneagram Type Manipulates (And How to Spot It)
 
 _Created: 2025-12-04_

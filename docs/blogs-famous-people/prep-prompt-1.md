@@ -1,3 +1,5 @@
+<!-- docs/blogs-famous-people/prep-prompt-1.md -->
+
 # Prep Prompt 1: Humanization Research
 
 ## Objective

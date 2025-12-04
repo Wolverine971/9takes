@@ -1,3 +1,4 @@
+<!-- src/blog/community/drafts/reading-people-101.md -->
 <!-- help men get better at talking to girls-- social experiment -->
 
 Using the enneagram to read people is simple. Just follow these 3 steps:

@@ -1,3 +1,5 @@
+<!-- docs/twitter/idea-bank-tangential-topics.md -->
+
 # Idea Bank: Tangential Topics (Phase 1)
 
 _Created: 2025-08-25_

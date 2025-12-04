@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 pic: 'female-greek-statue-reading-about-self-development'
+path: src/blog/guides/using-the-enneagram-for-self-development.md
 ---
 
 <!-- todo

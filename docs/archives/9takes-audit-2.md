@@ -1,3 +1,5 @@
+<!-- docs/archives/9takes-audit-2.md -->
+
 If you want your site to perform well in **sitelinks**, **AI Overviews**, **Knowledge Cards**, and **People Also Ask** (Question Box) on Google SERPs, here’s your strategic playbook based on current best practices and industry research:
 
 ---

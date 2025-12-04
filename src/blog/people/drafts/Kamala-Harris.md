@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Kamala_Harris'
 twitter: 'https://twitter.com/KamalaHarris'
 instagram: 'https://www.instagram.com/kamalaharris/'
 tiktok: ''
+path: src/blog/people/drafts/Kamala-Harris.md
 ---
 
 <p class="firstLetter">You've witnessed her charisma, heard her speeches, and seen her navigate the challenging terrain of American politics.</p>

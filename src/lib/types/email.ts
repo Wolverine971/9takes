@@ -1,3 +1,4 @@
+// src/lib/types/email.ts
 // Email Management System Types
 
 export type RecipientSource = 'profiles' | 'signups' | 'coaching_waitlist';

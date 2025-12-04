@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/drafts/OUTLINES-SUMMARY.md -->
+
 # Draft Blog Outlines Summary
 
 This document summarizes the comprehensive outlines created for draft blogs found in the 9takes repository, incorporating existing user notes and expanding them into full blog structures.

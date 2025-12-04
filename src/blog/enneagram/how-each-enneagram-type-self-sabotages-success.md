@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-self-sabotage'
+path: src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
 ---
 
 <script>

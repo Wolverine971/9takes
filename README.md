@@ -1,3 +1,5 @@
+<!-- README.md -->
+
 # 9takes
 
 > Anonymous questions and answers with a touch of personality

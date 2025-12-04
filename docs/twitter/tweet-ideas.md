@@ -1,3 +1,5 @@
+<!-- docs/twitter/tweet-ideas.md -->
+
 1/6 🧵
 Your personality is shaped by whichever emotion you never fully learned to handle: anger, fear, or shame.
 Here's how to decode anyone (including yourself) in 30 seconds. 🧠

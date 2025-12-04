@@ -1,3 +1,5 @@
+<!-- docs/archives/content-analysis-oct-2025/optimization-changes-log-oct-23.md -->
+
 # Content Optimization Changes Log
 
 **Date**: October 23, 2025

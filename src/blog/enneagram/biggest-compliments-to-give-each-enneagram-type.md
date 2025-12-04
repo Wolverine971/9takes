@@ -11,6 +11,7 @@ published: true
 type: ['situational']
 blog: true
 pic: 'greek-statue-yeah-boi'
+path: src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md
 ---
 
 <!-- // notes:  -->

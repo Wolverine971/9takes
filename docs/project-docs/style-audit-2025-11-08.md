@@ -1,3 +1,5 @@
+<!-- docs/project-docs/style-audit-2025-11-08.md -->
+
 # 9takes UI Style Audit – 2025-11-08
 
 This document captures the current state of the design system, identifies the biggest sources of styling drift, and lays out a concrete path to high-information-density defaults powered by Tailwind-first patterns.

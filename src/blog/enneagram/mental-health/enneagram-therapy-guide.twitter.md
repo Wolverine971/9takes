@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-therapy-guide.twitter.md -->
+
 # Twitter Content for "Finding the Right Therapist for Your Enneagram Type"
 
 ## Main Thread: Understanding Therapy and treatment by Type

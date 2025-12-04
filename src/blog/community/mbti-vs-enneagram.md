@@ -12,6 +12,7 @@ type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'the-MBTI-sucks'
+path: src/blog/community/mbti-vs-enneagram.md
 ---
 
 <svelte:head>

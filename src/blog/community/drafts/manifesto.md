@@ -12,6 +12,7 @@ type: ['manifesto']
 blog: true
 previewHtml: ''
 pic: 'loneliest-generation-manifesto'
+path: src/blog/community/drafts/manifesto.md
 ---
 
 > "I've felt lonely even when surrounded by people. I've scrolled through hundreds of connections while feeling completely disconnected. I've wondered if anyone else sees the world the way I do."  

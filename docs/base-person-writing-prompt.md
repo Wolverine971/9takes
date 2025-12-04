@@ -1,3 +1,5 @@
+<!-- docs/base-person-writing-prompt.md -->
+
 # Comprehensive Enneagram Article Writing Prompt
 
 **SUBJECT:** Greta Thunberg

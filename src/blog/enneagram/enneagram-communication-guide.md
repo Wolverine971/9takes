@@ -12,6 +12,7 @@ type: ['development']
 blog: true
 previewHtml: ''
 pic: 'communication-example'
+path: src/blog/enneagram/enneagram-communication-guide.md
 ---
 
 <!-- make this the hub for the other Enneagram blogs

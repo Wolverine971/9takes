@@ -12,6 +12,7 @@ type: ['development']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-who-are-stressed'
+path: src/blog/enneagram/situations-change-emotions-dont.md
 ---
 
 <script>

@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'freud-plato'
+path: src/blog/enneagram/philosophy-psychology-and-the-enneagram.md
 ---
 
 <script>

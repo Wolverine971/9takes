@@ -13,6 +13,7 @@ blog: true
 pic: 'greek_statues_giving_and_receiving_love_in_different_ways'
 pic_alt: 'Nine Greek statues demonstrating different love languages - giving gifts, embracing, serving, talking, and spending time together'
 midjourney_prompt: 'nine elegant greek statues arranged in a circle, each demonstrating a different love language - one statue offering a gift, another embracing warmly, one performing service, another speaking lovingly, one giving quality time, golden threads connecting them showing different personality types, warm romantic lighting with soft pink and gold tones, ethereal glow around each statue, classical marble texture with modern romantic energy, beautifully detailed facial expressions showing love and connection, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6'
+path: src/blog/enneagram/love-languages-and-enneagram-types.md
 ---
 
 <script>

@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 pic: 'two-greek-statues-having-a-serious-conversation'
+path: src/blog/guides/5-tough-conversations-you-need-to-have-with-your-partner.md
 ---
 
 <svelte:head>

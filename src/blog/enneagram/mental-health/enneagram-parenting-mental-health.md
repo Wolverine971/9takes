@@ -12,6 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-struggling-to-parent'
+path: src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md
 ---
 
 <script>

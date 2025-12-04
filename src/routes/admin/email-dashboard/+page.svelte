@@ -18,6 +18,7 @@
 	let drafts: EmailDraft[] = data.drafts || [];
 	let scheduledEmails: ScheduledEmail[] = data.scheduledEmails || [];
 	let analytics: EmailAnalytics = data.analytics;
+	let cronStatus = data.cronStatus;
 
 	// Selection state
 	let selectedUsers = new Set<string>();
@@ -319,6 +320,28 @@
 			<span class="stat-label">Unsubscribed</span>
 			<span class="stat-num">{analytics.total_unsubscribed}</span>
 		</div>
+		<!-- Cron Status -->
+		{#if cronStatus}
+			<div class="stat-chip cron-status">
+				<span class="stat-label">Scheduler</span>
+				<span class="cron-indicator cron-{cronStatus.health_status}"></span>
+				<span class="stat-num cron-text">{cronStatus.health_status}</span>
+				{#if cronStatus.last_run_at}
+					<span class="cron-time"
+						>{new Date(cronStatus.last_run_at).toLocaleTimeString([], {
+							hour: '2-digit',
+							minute: '2-digit'
+						})}</span
+					>
+				{/if}
+			</div>
+		{:else}
+			<div class="stat-chip cron-status">
+				<span class="stat-label">Scheduler</span>
+				<span class="cron-indicator cron-not-configured"></span>
+				<span class="stat-num cron-text">Not configured</span>
+			</div>
+		{/if}
 	</div>
 
 	<!-- Tabs -->
@@ -732,6 +755,48 @@
 		background: rgba(34, 197, 94, 0.1);
 		padding: 0.125rem 0.375rem;
 		border-radius: 4px;
+	}
+
+	/* Cron Status */
+	.cron-status {
+		margin-left: auto;
+	}
+
+	.cron-indicator {
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		display: inline-block;
+	}
+
+	.cron-healthy {
+		background: rgb(34, 197, 94);
+		box-shadow: 0 0 4px rgb(34, 197, 94);
+	}
+
+	.cron-stale {
+		background: rgb(234, 179, 8);
+		box-shadow: 0 0 4px rgb(234, 179, 8);
+	}
+
+	.cron-unhealthy,
+	.cron-not-configured {
+		background: rgb(239, 68, 68);
+		box-shadow: 0 0 4px rgb(239, 68, 68);
+	}
+
+	.cron-never_run {
+		background: rgb(156, 163, 175);
+	}
+
+	.cron-text {
+		font-size: 0.8125rem;
+		text-transform: capitalize;
+	}
+
+	.cron-time {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
 	}
 
 	/* Tabs */

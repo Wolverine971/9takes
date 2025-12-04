@@ -1,3 +1,5 @@
+<!-- docs/content-research/adhd-enneagram-research.md -->
+
 # Research: Enneagram and ADHD - Which Types Struggle Most
 
 _Created: 2025-12-03_

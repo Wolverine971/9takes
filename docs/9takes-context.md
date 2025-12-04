@@ -1,3 +1,5 @@
+<!-- docs/9takes-context.md -->
+
 # 🧠 9takes: Master Context File
 
 This document serves as the **core context engine** for 9takes - a personality-based Q&A platform. It enables LLMs to understand the platform's architecture, build features, and maintain alignment with the core mission while preserving the unique user experience.

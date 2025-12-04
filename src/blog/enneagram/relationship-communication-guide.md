@@ -12,6 +12,7 @@ type: ['relationships', 'communication', 'enneagram']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-having-an-intimate-conversation'
+path: src/blog/enneagram/relationship-communication-guide.md
 ---
 
 <script>

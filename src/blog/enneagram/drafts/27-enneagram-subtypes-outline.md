@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/drafts/27-enneagram-subtypes-outline.md -->
+
 # Outline: The 27 Enneagram Subtypes
 
 **Based on draft notes from:** `src/blog/enneagram/drafts/27-enneagram-subtypes.md`

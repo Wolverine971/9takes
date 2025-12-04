@@ -1,3 +1,5 @@
+<!-- docs/content-generation/image-prompts/overthinking-prompt.md -->
+
 # Midjourney Prompt: Overthinking Blog Post
 
 **Target Blog Post:** `why-you-cant-stop-overthinking-enneagram.md`

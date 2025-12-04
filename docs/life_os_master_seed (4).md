@@ -1,3 +1,5 @@
+<!-- docs/life_os_master_seed (4).md -->
+
 # 🌐 Life OS: Master Context File
 
 This document serves as the **core context engine** for David Wayne's Life Operating System (Life OS). It enables LLMs to help manage life, projects, goals, and personal content while maintaining alignment, organization, and congruence.

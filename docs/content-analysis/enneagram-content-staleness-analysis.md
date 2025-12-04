@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/enneagram-content-staleness-analysis.md -->
+
 # Enneagram Blog Content Staleness Analysis
 
 **Date**: October 2025

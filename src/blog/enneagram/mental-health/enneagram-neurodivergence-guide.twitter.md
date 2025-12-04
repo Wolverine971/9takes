@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.twitter.md -->
+
 # Twitter Content for "Understanding Neurodivergence Through the Enneagram Lens"
 
 ## Main Thread: Understanding Neurodivergence by Type

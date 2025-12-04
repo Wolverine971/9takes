@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 pic: 'greek-statue-having-a-disagreement'
+path: src/blog/guides/definitive-guide-to-relationship-conflict-part-1.md
 ---
 
 <!-- conflict styles in relationships

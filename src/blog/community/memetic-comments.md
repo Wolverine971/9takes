@@ -12,6 +12,7 @@ type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'greek-sculpture-on-a-laptop'
+path: src/blog/community/memetic-comments.md
 ---
 
 <!-- steal like an artist there is nothing new under the sun -->

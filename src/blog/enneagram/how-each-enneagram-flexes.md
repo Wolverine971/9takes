@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-flex'
+path: src/blog/enneagram/how-each-enneagram-flexes.md
 ---
 
 <script>

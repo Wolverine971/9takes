@@ -25,30 +25,33 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	// Fetch initial data in parallel
-	const [usersResult, draftsResult, scheduledResult, analyticsResult] = await Promise.all([
-		// Get first page of users
-		supabase.rpc('get_email_dashboard_users', {
-			p_source: 'all',
-			p_search: null,
-			p_limit: 50,
-			p_offset: 0
-		}),
-		// Get drafts
-		supabase.from('email_drafts').select('*').order('updated_at', { ascending: false }).limit(10),
-		// Get pending scheduled emails
-		supabase
-			.from('scheduled_emails')
-			.select('*')
-			.eq('status', 'pending')
-			.order('scheduled_for', { ascending: true })
-			.limit(10),
-		// Get overall analytics
-		supabase.rpc('get_email_analytics', {
-			p_campaign_id: null,
-			p_from_date: null,
-			p_to_date: null
-		})
-	]);
+	const [usersResult, draftsResult, scheduledResult, analyticsResult, cronStatusResult] =
+		await Promise.all([
+			// Get first page of users
+			supabase.rpc('get_email_dashboard_users', {
+				p_source: 'all',
+				p_search: null,
+				p_limit: 50,
+				p_offset: 0
+			}),
+			// Get drafts
+			supabase.from('email_drafts').select('*').order('updated_at', { ascending: false }).limit(10),
+			// Get pending scheduled emails
+			supabase
+				.from('scheduled_emails')
+				.select('*')
+				.eq('status', 'pending')
+				.order('scheduled_for', { ascending: true })
+				.limit(10),
+			// Get overall analytics
+			supabase.rpc('get_email_analytics', {
+				p_campaign_id: null,
+				p_from_date: null,
+				p_to_date: null
+			}),
+			// Get cron status (from view created by migration)
+			supabase.from('email_cron_status').select('*').single()
+		]);
 
 	// Get total user count
 	const { data: totalCount } = await supabase.rpc('count_email_dashboard_users', {
@@ -70,6 +73,7 @@ export const load: PageServerLoad = async (event) => {
 			total_bounced: 0,
 			open_rate: 0,
 			click_rate: 0
-		}
+		},
+		cronStatus: cronStatusResult.data || null
 	};
 };

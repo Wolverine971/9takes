@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.reddit.md -->
+
 # Reddit Strategy for "The Enneagram Guide to Addiction Recovery"
 
 ## Target Subreddits

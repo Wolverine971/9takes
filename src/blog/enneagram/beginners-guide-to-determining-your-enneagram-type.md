@@ -12,6 +12,7 @@ type: ['resources']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-two-females-on-phones'
+path: src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md
 ---
 
 <p class="firstLetter">You've taken the personality quiz. Got your four letters. Maybe even discovered your color or animal type.</p>

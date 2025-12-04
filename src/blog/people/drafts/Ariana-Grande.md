@@ -16,6 +16,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Ariana-Grande.md
 ---
 
 > "I'm going to give it my all... One last hurrah!"

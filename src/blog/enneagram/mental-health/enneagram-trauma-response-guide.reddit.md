@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-trauma-response-guide.reddit.md -->
+
 # Reddit Strategy for "Understanding Trauma Responses Through the Enneagram"
 
 ## Target Subreddits

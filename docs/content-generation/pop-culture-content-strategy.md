@@ -1,3 +1,5 @@
+<!-- docs/content-generation/pop-culture-content-strategy.md -->
+
 # Pop Culture Psychology Content Strategy
 
 ## Core Content Pillars

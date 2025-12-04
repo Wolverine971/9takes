@@ -12,6 +12,7 @@ type: ['situational', 'situational', 'practical']
 blog: false
 previewHtml: ''
 pic: 'greek-statue-taking-notes'
+path: src/blog/enneagram/first-impression-cheat-sheet.md
 ---
 
 <script>

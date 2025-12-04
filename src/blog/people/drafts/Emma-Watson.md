@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Emma_Watson'
 twitter: 'EmmaWatson'
 instagram: 'emmawatson'
 tiktok: ''
+path: src/blog/people/drafts/Emma-Watson.md
 ---
 
 <script>

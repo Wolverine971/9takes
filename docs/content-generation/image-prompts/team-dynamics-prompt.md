@@ -1,3 +1,5 @@
+<!-- docs/content-generation/image-prompts/team-dynamics-prompt.md -->
+
 # Midjourney Prompt: Enneagram Team Dynamics
 
 **Target Blog Post:** `enneagram-team-dynamics.md`

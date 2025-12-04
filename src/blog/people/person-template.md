@@ -16,6 +16,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/person-template.md
 ---
 
 <p class="firstLetter"></p>

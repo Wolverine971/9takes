@@ -9,6 +9,7 @@ tags: [research, codebase, performance, database, sql, supabase, indexes, optimi
 status: complete
 last_updated: 2025-09-16
 last_updated_by: Claude Code
+path: thoughts/shared/research/2025-09-16_09-51-05_sql-performance-optimization.md
 ---
 
 # Research: SQL Performance Optimization - Sequential Queries and Missing Indexes

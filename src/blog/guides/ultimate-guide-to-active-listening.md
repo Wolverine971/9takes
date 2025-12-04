@@ -12,6 +12,7 @@ type: ['communication']
 blog: true
 previewHtml: "Discover why each Enneagram type fails at listening in predictable ways, plus the exact techniques to overcome your type's blind spots and build deeper connections."
 pic: 'greek-statues-having-an-intense-conversation'
+path: src/blog/guides/ultimate-guide-to-active-listening.md
 ---
 
 <!--

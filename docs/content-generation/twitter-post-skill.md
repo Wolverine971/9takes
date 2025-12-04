@@ -1,3 +1,5 @@
+<!-- docs/content-generation/twitter-post-skill.md -->
+
 # Twitter/X Post Crafting Skill
 
 This document provides comprehensive guidance for an AI agent to help craft high-engagement tweets and threads on Twitter/X.

@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/blog-optimization-strategies.md -->
+
 # Blog Post Optimization Strategies
 
 ## Beyond McPhee: Holistic Engagement & Conversion Tactics

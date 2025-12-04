@@ -1,3 +1,5 @@
+<!-- docs/blogs-famous-people/writing-prompt-1.md -->
+
 # Writing Prompt 1: Celebrity Personality Blog Creation
 
 ## Article Objective

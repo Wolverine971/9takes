@@ -11,6 +11,7 @@ type: ['resources']
 blog: true
 previewHtml: ''
 pic: 'enneagram-vs-meyers-briggs'
+path: src/blog/enneagram/enneagram-vs-meyers-briggs.md
 ---
 
 <script>

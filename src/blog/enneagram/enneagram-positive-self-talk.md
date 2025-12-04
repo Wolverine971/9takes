@@ -14,6 +14,7 @@ previewHtml: ''
 pic: 'greek-statue-reading'
 pic_alt: 'Greek statue contemplating with thought bubbles showing transformation from negative to positive self-talk'
 midjourney_prompt: 'A classical Greek marble statue in deep contemplation, holding an ancient scroll with visible text, surrounded by ethereal thought bubbles - dark stormy bubbles on left transforming into golden glowing bubbles on right, representing the transformation of inner dialogue, soft morning light streaming through classical columns, photorealistic detail, depth of field, wisdom and self-reflection theme, particles of light floating around representing new neural pathways forming, museum quality photography --ar 16:9 --v 6'
+path: src/blog/enneagram/enneagram-positive-self-talk.md
 ---
 
 <script>

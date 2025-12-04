@@ -1,3 +1,5 @@
+<!-- docs/archives/content-analysis-oct-2025/WHATS-NEXT-oct-23.md -->
+
 # What's Next: Post-Optimization Action Plan
 
 **Date**: October 23, 2025

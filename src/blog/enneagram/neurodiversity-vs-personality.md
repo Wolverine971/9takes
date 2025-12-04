@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'brain-vs-heart-dichotomy'
+path: src/blog/enneagram/neurodiversity-vs-personality.md
 ---
 
 <script>

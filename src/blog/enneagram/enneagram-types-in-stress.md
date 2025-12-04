@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'feeling-stressed'
+path: src/blog/enneagram/enneagram-types-in-stress.md
 ---
 
 <script>

@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/community/drafts/how-to-crowdsource-solutions-to-conflict.md
 ---
 
 Ever tried to crowdsource your conflict online? Here’s how to effectively leverage the wisdom of the crowd to resolve your dilemmas.

@@ -1,3 +1,5 @@
+<!-- docs/archives/content-analysis-oct-2025/seo-jsonld-updates-oct-23.md -->
+
 # SEO & JSON-LD Updates Completed
 
 **Date**: October 23, 2025

@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Sam_Altman'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Sam-Altman.md
 ---
 
 > "I think the hard part about being a CEO is that there are so many different ways to screw up, and you're guaranteed to screw up in some of them." — Sam Altman

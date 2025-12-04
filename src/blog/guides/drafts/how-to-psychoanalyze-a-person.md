@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 type: ['situational']
 blog: true
+path: src/blog/guides/drafts/how-to-psychoanalyze-a-person.md
 ---
 
 <!-- This is how you do it.

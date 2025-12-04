@@ -1,3 +1,5 @@
+<!-- docs/twitter/threads/2025-08-19_W1D3_reading-people-30-seconds-main-thread.md -->
+
 # Reading People in 30 Seconds - Main Thread
 
 ## Meta Information

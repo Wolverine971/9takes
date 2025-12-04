@@ -1,3 +1,5 @@
+<!-- docs/writing-system/04-content-patterns-library.md -->
+
 # Content Patterns Library
 
 _Last Modified: 2025-08-15_

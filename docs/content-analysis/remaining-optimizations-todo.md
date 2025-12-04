@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/remaining-optimizations-todo.md -->
+
 # Remaining Content Optimizations TODO
 
 **Created**: October 23, 2025

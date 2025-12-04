@@ -1,3 +1,5 @@
+<!-- docs/domain-authority/06-social-dynamics.md -->
+
 # Domain Authority: Social Dynamics & Interpersonal Intelligence
 
 _Last Modified: 2025-09-09_

@@ -1,3 +1,5 @@
+<!-- docs/twitter/06-emergency-content-bank.md -->
+
 # Emergency Content Bank
 
 _Last Modified: 2025-08-15_

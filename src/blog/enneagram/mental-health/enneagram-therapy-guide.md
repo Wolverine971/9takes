@@ -12,6 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-in-a-progression'
+path: src/blog/enneagram/mental-health/enneagram-therapy-guide.md
 ---
 
 <!--

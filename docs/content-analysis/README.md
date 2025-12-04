@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/README.md -->
+
 # Content Analysis Resources
 
 _Last Updated: 2025-12-04_

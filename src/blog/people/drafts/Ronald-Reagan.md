@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Ronald_Reagan'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Ronald-Reagan.md
 ---
 
 > "There you go again."

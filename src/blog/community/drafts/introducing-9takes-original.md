@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-introducing-9takes'
+path: src/blog/community/drafts/introducing-9takes-original.md
 ---
 
 <svelte:head>

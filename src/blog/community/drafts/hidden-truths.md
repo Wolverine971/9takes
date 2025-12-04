@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/community/drafts/hidden-truths.md
 ---
 
 The Enneagram is the key to unlocking hidden truths

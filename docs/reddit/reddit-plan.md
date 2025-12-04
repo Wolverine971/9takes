@@ -1,3 +1,5 @@
+<!-- docs/reddit/reddit-plan.md -->
+
 Based on your 9takes brand and goals, here's a comprehensive Reddit strategy to drive awareness and conversions:
 
 ## Target Reddit Communities

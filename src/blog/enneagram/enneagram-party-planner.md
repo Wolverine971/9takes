@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-partying'
+path: src/blog/enneagram/enneagram-party-planner.md
 ---
 
 <script>

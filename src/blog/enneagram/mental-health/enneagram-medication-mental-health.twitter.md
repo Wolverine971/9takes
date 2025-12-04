@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-medication-mental-health.twitter.md -->
+
 # Twitter Content for "The Enneagram Guide to Mental Health Medication"
 
 ## Main Thread: Understanding Medication and treatment by Type

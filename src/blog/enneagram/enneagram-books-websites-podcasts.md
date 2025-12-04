@@ -13,6 +13,7 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-listening-to-a-podcast'
 meta_title: "The Only Enneagram Resource Guide You'll Ever Need (2025 Edition)"
+path: src/blog/enneagram/enneagram-books-websites-podcasts.md
 ---
 
 <script>

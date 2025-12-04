@@ -13,6 +13,7 @@ blog: true
 previewHtml: ''
 pic: 'medications_and_stress'
 meta_title: 'Why Psychiatric Medication Works Differently Based on Your Personality Type'
+path: src/blog/enneagram/mental-health/enneagram-medication-mental-health.md
 ---
 
 <!--

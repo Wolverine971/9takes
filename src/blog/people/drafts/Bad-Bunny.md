@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Bad_Bunny'
 twitter: 'sanikimusic'
 instagram: 'badbunnypr'
 tiktok: 'badbunny'
+path: src/blog/people/drafts/Bad-Bunny.md
 ---
 
 > "I try to write about what I feel and what I see happening. My music is simply a reflection of my everyday life."

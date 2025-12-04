@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-at-the-beach'
+path: src/blog/enneagram/how-each-enneagram-type-unwinds.md
 ---
 
 <script>

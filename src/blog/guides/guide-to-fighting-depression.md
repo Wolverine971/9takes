@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 pic: 'greek-statue-being-ghosted'
+path: src/blog/guides/guide-to-fighting-depression.md
 ---
 
 <svelte:head>

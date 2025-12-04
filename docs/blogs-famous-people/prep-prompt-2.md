@@ -1,3 +1,5 @@
+<!-- docs/blogs-famous-people/prep-prompt-2.md -->
+
 # Prep Prompt 2: Enneagram Personality Analysis
 
 ## Objective

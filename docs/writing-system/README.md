@@ -1,3 +1,5 @@
+<!-- docs/writing-system/README.md -->
+
 # Writing System
 
 _Last Updated: 2025-12-04_

@@ -12,6 +12,7 @@ type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'greeks-debating-human-nature'
+path: src/blog/community/consensus-on-human-nature.md
 ---
 
 <script>

@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.reddit.md -->
+
 # Reddit Strategy for "Understanding Neurodivergence Through the Enneagram Lens"
 
 ## Target Subreddits

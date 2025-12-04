@@ -1,3 +1,5 @@
+<!-- docs/content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md -->
+
 # Mental Health Blog System Design Document
 
 ## Overview

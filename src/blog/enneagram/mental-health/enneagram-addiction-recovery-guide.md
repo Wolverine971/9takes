@@ -12,6 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'enneagram-addiction-recovery'
+path: src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.md
 ---
 
 <!--

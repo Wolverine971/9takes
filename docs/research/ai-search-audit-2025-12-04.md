@@ -1,3 +1,5 @@
+<!-- docs/research/ai-search-audit-2025-12-04.md -->
+
 # AI Search Audit - December 4, 2025
 
 _Created: 2025-12-03 (Pre-launch prep)_

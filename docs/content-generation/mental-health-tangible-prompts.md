@@ -1,3 +1,5 @@
+<!-- docs/content-generation/mental-health-tangible-prompts.md -->
+
 # Mental Health Blogs - Tangible Midjourney Prompts (Greek Statue Theme)
 
 ## Following the Tangible Prompting Guide Principles + 9takes Greek Statue Theme

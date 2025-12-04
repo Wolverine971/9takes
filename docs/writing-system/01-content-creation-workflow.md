@@ -1,3 +1,5 @@
+<!-- docs/writing-system/01-content-creation-workflow.md -->
+
 # Content Creation Workflow
 
 _Last Modified: 2025-08-15_

@@ -1,3 +1,5 @@
+<!-- docs/domain-authority/02-personality-maxing.md -->
+
 # Domain Authority: Personality Maxing & Self-Optimization
 
 _Last Modified: 2025-09-09_

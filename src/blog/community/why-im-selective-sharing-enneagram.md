@@ -12,6 +12,7 @@ type: ['idea']
 blog: true
 previewHtml:
 pic: 'giving-a-speech'
+path: src/blog/community/why-im-selective-sharing-enneagram.md
 ---
 
 <script>

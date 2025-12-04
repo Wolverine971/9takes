@@ -1,3 +1,5 @@
+<!-- docs/domain-authority/01-enneagram-core.md -->
+
 # Domain Authority: Enneagram Core Knowledge
 
 _Last Modified: 2025-09-09_

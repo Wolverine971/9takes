@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-trauma-response-guide.instagram.md -->
+
 # Instagram Content for "Understanding Trauma Responses Through the Enneagram"
 
 ## Main Feed Post: Carousel Guide

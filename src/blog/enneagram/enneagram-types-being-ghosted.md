@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-being-ghosted'
+path: src/blog/enneagram/enneagram-types-being-ghosted.md
 ---
 
 <script>

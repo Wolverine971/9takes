@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 pic: 'researching-religious-texts'
 previewHtml: ''
+path: src/blog/enneagram/enneagram-and-religion.md
 ---
 
 <script>

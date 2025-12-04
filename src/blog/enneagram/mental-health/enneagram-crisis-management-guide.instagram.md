@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-crisis-management-guide.instagram.md -->
+
 # Instagram Content for "Enneagram Crisis Management: Navigating Mental Health Emergencies"
 
 ## Main Feed Post: Carousel Guide

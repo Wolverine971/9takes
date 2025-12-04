@@ -1,3 +1,5 @@
+<!-- docs/domain-authority/09-guides-resources.md -->
+
 # Domain Authority: Practical Guides & Resources
 
 _Last Modified: 2025-09-09_

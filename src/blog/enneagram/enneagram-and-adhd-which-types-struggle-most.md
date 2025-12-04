@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-adhd-scattered-thoughts'
+path: src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md
 ---
 
 <script>

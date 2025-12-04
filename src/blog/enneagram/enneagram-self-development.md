@@ -12,6 +12,7 @@ type: ['development']
 blog: true
 previewHtml: ''
 pic: 'female-greek-statue-reading-about-self-development'
+path: src/blog/enneagram/enneagram-self-development.md
 ---
 
 <script>

@@ -12,6 +12,7 @@ type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'greek-mind'
+path: src/blog/community/software-and-hardware-of-the-mind.md
 ---
 
 <script>

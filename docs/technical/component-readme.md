@@ -1,3 +1,5 @@
+<!-- docs/technical/component-readme.md -->
+
 # Nested Comments Component Requirements
 
 ## Tech Stack

@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Abraham_Lincoln'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Abraham-Lincoln.md
 ---
 
 > "A house divided against itself cannot stand."

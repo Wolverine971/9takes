@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Vladimir_Putin'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Vladimir-Putin.md
 ---
 
 > "What amazed me most of all is how one man's effort could achieve what whole armies could not. One spy could decide the fate of thousands of people."

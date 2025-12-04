@@ -11,6 +11,7 @@ published: true
 type: ['nine-types']
 blog: true
 pic: ''
+path: src/blog/enneagram/enneagram-type-7.md
 ---
 
 <script>

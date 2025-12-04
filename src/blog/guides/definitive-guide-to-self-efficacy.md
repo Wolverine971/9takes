@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 pic: 'gandalf-statue'
 meta_title: "Why You Don't Believe in Yourself (And How to Fix It in 30 Days)"
+path: src/blog/guides/definitive-guide-to-self-efficacy.md
 ---
 
 <svelte:head>

@@ -1,3 +1,5 @@
+<!-- docs/content-generation/image-prompts/manipulation-tactics-prompt.md -->
+
 # Midjourney Prompt: Manipulation Tactics by Enneagram Type
 
 **Target Blog Post:** `manipulation-tactics-by-enneagram-type.md` (Scheduled for Dec 18)

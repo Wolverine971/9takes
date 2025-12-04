@@ -1,3 +1,5 @@
+<!-- docs/twitter/threads/2025-08-17_W1D1_social-quirks-question-hook.md -->
+
 # Social Quirks Question Hook
 
 ## Meta Information

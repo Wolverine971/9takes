@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-manipulation-tactics'
+path: src/blog/enneagram/how-each-enneagram-type-manipulates.md
 ---
 
 <script>

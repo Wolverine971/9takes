@@ -12,6 +12,7 @@ type: ['relationships']
 blog: true
 previewHtml: ''
 pic: 'male-greek-statue-on-a-date'
+path: src/blog/enneagram/enneagram-dating-guide-for-men.md
 ---
 
 <script>

@@ -1,3 +1,5 @@
+<!-- docs/archives/content-analysis-oct-2025/README.md -->
+
 # Archived: Content Analysis - October 2025
 
 _Archived: 2025-12-04_

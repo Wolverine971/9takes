@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Donald_Trump'
 twitter: 'realDonaldTrump'
 instagram: 'realdonaldtrump'
 tiktok: ''
+path: src/blog/people/drafts/Donald-Trump.md
 ---
 
 > "I was saved by God to make America great again."

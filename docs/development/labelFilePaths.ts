@@ -18,7 +18,8 @@ const EXCLUDED_DIRS = [
 	'coverage',
 	'.nyc_output',
 	'tmp',
-	'temp'
+	'temp',
+	'static'
 ];
 
 const EXCLUDED_FILES = [
@@ -28,7 +29,8 @@ const EXCLUDED_FILES = [
 	'.env.example',
 	'package-lock.json',
 	'pnpm-lock.yaml',
-	'yarn.lock'
+	'yarn.lock',
+	'database.types.ts'
 ];
 
 // Comment patterns for different file types
@@ -69,13 +71,15 @@ const COMMENT_PATTERNS = {
 	yaml: (filePath: string) => `# ${filePath}`
 };
 
-// Regex patterns to detect existing path comments
-const EXISTING_COMMENT_PATTERNS = [
-	/^<!--\s*.*?\s*-->/, // HTML-style comments
-	/^\/\/\s*.*/, // Single-line comments
-	/^\/\*\s*.*?\s*\*\//, // CSS-style comments
-	/^#\s*.*/, // Hash comments
-	/^--\s*.*/ // SQL comments
+// Regex patterns to detect existing path comments (must contain path-like pattern: word/word or word.ext)
+// These are more specific to avoid matching markdown headers, frontmatter, etc.
+// Note: [\w\-./+] includes + for SvelteKit files like +page.svelte, +server.ts
+const EXISTING_PATH_COMMENT_PATTERNS = [
+	/^<!--\s*[\w\-./+]+\.(md|svelte|html|xml)\s*-->/, // HTML-style path comments
+	/^\/\/\s*[\w\-./+]+\.(ts|js|mjs|jsx|tsx|jsonc)/, // Single-line path comments
+	/^\/\*\s*[\w\-./+]+\.(css|scss|sass|less)\s*\*\//, // CSS-style path comments
+	/^#\s*[\w\-./+]+\.(py|sh|bash|yml|yaml)/, // Hash path comments (not markdown headers!)
+	/^--\s*[\w\-./+]+\.sql/ // SQL path comments
 ];
 
 function getFileExtension(filePath: string): string {
@@ -133,7 +137,44 @@ function hasExistingPathComment(content: string): boolean {
 	if (lines.length === 0) return false;
 
 	const firstLine = lines[0].trim();
-	return EXISTING_COMMENT_PATTERNS.some((pattern) => pattern.test(firstLine));
+	return EXISTING_PATH_COMMENT_PATTERNS.some((pattern) => pattern.test(firstLine));
+}
+
+/**
+ * Check if markdown content has YAML frontmatter (starts with ---)
+ */
+function hasFrontmatter(content: string): boolean {
+	return content.trimStart().startsWith('---');
+}
+
+/**
+ * Check if frontmatter already contains a path field
+ */
+function frontmatterHasPath(content: string): boolean {
+	const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
+	if (!frontmatterMatch) return false;
+	return /^path:\s*/m.test(frontmatterMatch[1]);
+}
+
+/**
+ * Add or update the path field inside frontmatter
+ */
+function addPathToFrontmatter(content: string, relativePath: string): string {
+	const frontmatterMatch = content.match(/^(---\n)([\s\S]*?)(\n---)/);
+	if (!frontmatterMatch) return content;
+
+	const [, opening, frontmatterContent, closing] = frontmatterMatch;
+	const restOfFile = content.slice(frontmatterMatch[0].length);
+
+	// Check if path already exists
+	if (/^path:\s*/m.test(frontmatterContent)) {
+		// Update existing path
+		const updatedFrontmatter = frontmatterContent.replace(/^path:\s*.*$/m, `path: ${relativePath}`);
+		return opening + updatedFrontmatter + closing + restOfFile;
+	} else {
+		// Add path at the end of frontmatter (before closing ---)
+		return opening + frontmatterContent + `\npath: ${relativePath}` + closing + restOfFile;
+	}
 }
 
 function addOrUpdatePathComment(filePath: string, rootDir: string): boolean {
@@ -147,18 +188,39 @@ function addOrUpdatePathComment(filePath: string, rootDir: string): boolean {
 		}
 
 		const relativePath = getRelativePath(filePath, rootDir);
-		const pathComment = commentFunction(relativePath);
-		const lines = content.split('\n');
-
 		let newContent: string;
 
-		if (hasExistingPathComment(content)) {
-			// Replace the first line with the new path comment
-			lines[0] = pathComment;
-			newContent = lines.join('\n');
+		// Special handling for markdown files
+		if (ext === 'md') {
+			if (hasFrontmatter(content)) {
+				// Add path inside frontmatter - never touch headers or other content
+				newContent = addPathToFrontmatter(content, relativePath);
+			} else {
+				// No frontmatter - prepend HTML comment, NEVER replace existing content
+				const pathComment = commentFunction(relativePath);
+				if (hasExistingPathComment(content)) {
+					// Already has a path comment, update it
+					const lines = content.split('\n');
+					lines[0] = pathComment;
+					newContent = lines.join('\n');
+				} else {
+					// Prepend the path comment (push existing content down)
+					newContent = pathComment + '\n' + content;
+				}
+			}
 		} else {
-			// Add the path comment at the beginning
-			newContent = pathComment + '\n' + content;
+			// Non-markdown files: use original logic
+			const pathComment = commentFunction(relativePath);
+			const lines = content.split('\n');
+
+			if (hasExistingPathComment(content)) {
+				// Replace the first line with the new path comment
+				lines[0] = pathComment;
+				newContent = lines.join('\n');
+			} else {
+				// Add the path comment at the beginning
+				newContent = pathComment + '\n' + content;
+			}
 		}
 
 		// Only write if content has changed

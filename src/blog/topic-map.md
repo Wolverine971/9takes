@@ -11,6 +11,7 @@ published: false
 type: ['overview']
 blog: true
 previewHtml: ''
+path: src/blog/topic-map.md
 ---
 
 ## Understanding the Enneagram: An Introduction

@@ -12,4 +12,5 @@ type: ['idea']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/community/drafts/learn-your-personality-over-time.md
 ---

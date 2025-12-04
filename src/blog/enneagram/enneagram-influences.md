@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: 'enneagram-inspiration-docs'
+path: src/blog/enneagram/enneagram-influences.md
 ---
 
 <script>

@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-2-sided-mask'
+path: src/blog/enneagram/drafts/positive-self-talk.md
 ---
 
 <!-- todo finish this, fix title -->

@@ -1,3 +1,5 @@
+<!-- src/emails/example.md -->
+
 # CTA
 
 "Unlock the Power of Your Personality – Join the Waitlist Today!"

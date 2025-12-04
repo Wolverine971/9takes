@@ -1,3 +1,5 @@
+<!-- docs/migrations/SOCKETIO_MIGRATION.md -->
+
 # Socket.IO to Supabase Realtime Migration Guide
 
 ## Problem

@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-overthinking-spiral'
+path: src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
 ---
 
 <script>

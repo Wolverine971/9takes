@@ -12,6 +12,7 @@ type: ['inspiration']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-introducing-9takes'
+path: src/blog/community/introducing-9takes.md
 ---
 
 <svelte:head>

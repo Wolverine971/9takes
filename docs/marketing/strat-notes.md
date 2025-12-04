@@ -1,3 +1,5 @@
+<!-- docs/marketing/strat-notes.md -->
+
 ## why is audience valuable
 
 because they are going to be dealing with people's differences for years to come

@@ -12,6 +12,7 @@ type: ['idea']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/community/drafts/where-to-go-for-questions.md
 ---
 
 <!--

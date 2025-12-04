@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/revised-analysis-traffic-ai-search.md -->
+
 # Revised Enneagram Content Analysis: Traffic Data & AI Search Optimization
 
 **Date**: October 2025

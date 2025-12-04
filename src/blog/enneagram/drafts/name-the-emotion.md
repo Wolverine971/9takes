@@ -12,6 +12,7 @@ type: ['']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/enneagram/drafts/name-the-emotion.md
 ---
 
 <!-- Midjourney Prompt: ancient greek statue sitting at a desk with a journal open, pen in hand, writing down emotions and feelings, looking thoughtful and introspective, several psychology books about emotions open nearby, expression of someone carefully identifying and naming their feelings, marble white with gold accents, warm library lighting, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->

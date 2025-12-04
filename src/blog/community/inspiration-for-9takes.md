@@ -12,6 +12,7 @@ type: ['inspiration']
 blog: true
 previewHtml: ''
 pic: 'husband-and-wife-arguing'
+path: src/blog/community/inspiration-for-9takes.md
 ---
 
 <svelte:head>

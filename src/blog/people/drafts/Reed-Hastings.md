@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Reed_Hastings'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Reed-Hastings.md
 ---
 
 > "Once you have hitchhiked across Africa with ten bucks in your pocket, starting a business doesn't seem too intimidating."

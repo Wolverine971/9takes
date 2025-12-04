@@ -1,3 +1,5 @@
+<!-- docs/archives/content-analysis-oct-2025/executive-summary-next-steps.md -->
+
 # Executive Summary: Content Optimization Strategy
 
 **Created**: October 2025

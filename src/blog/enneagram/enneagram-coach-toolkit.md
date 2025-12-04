@@ -13,6 +13,7 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-giving-a-speech'
 meta_title: "Why Your Enneagram Clients Aren't Changing (And the Homework That Actually Works)"
+path: src/blog/enneagram/enneagram-coach-toolkit.md
 ---
 
 <script>

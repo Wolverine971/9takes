@@ -20,6 +20,7 @@ tags:
 status: complete
 last_updated: 2025-09-30
 last_updated_by: Claude Code
+path: thoughts/shared/research/2025-09-30_15-45-00_codebase-bug-analysis.md
 ---
 
 # Research: Comprehensive Bug Analysis - Services, Endpoints, TypeScript, and Validation

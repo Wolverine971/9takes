@@ -1,4 +1,4 @@
-// GET /api/admin/email-dashboard/sent
+// src/routes/api/admin/email-dashboard/sent/+server.ts
 // Fetch sent emails with analytics
 
 import { json, error } from '@sveltejs/kit';

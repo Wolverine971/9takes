@@ -1,3 +1,5 @@
+<!-- docs/INDEX.md -->
+
 # 9takes Documentation Index
 
 _Last Updated: 2025-12-04_

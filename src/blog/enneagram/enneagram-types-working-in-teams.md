@@ -12,6 +12,7 @@ type: ['workplace']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-building-a-boat'
+path: src/blog/enneagram/enneagram-types-working-in-teams.md
 ---
 
 <script>

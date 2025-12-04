@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-workplace-mental-health.reddit.md -->
+
 # Reddit Strategy for "Enneagram Guide to Workplace Mental Health"
 
 ## Target Subreddits

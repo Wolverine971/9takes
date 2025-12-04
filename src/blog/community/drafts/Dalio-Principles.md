@@ -11,6 +11,7 @@ published: false
 type: ['overview']
 blog: true
 previewHtml: ''
+path: src/blog/community/drafts/Dalio-Principles.md
 ---
 
 <!-- https://www.youtube.com/watch?v=RFCkvmtYD40 -->

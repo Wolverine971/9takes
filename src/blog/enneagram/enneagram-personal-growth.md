@@ -12,6 +12,7 @@ type: ['development']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/enneagram/enneagram-personal-growth.md
 ---
 
 <!-- Midjourney Prompt: ancient greek statue climbing a mountain path, looking back at how far they've come, then looking forward toward the summit, carrying a backpack and walking stick, determined expression, sunrise lighting casting long shadows, marble white with gold accents, Unreal Engine, Cinematic, Shot on 70mm lens, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->

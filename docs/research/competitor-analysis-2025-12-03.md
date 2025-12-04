@@ -1,3 +1,5 @@
+<!-- docs/research/competitor-analysis-2025-12-03.md -->
+
 # Competitor Analysis - December 2025
 
 _Created: 2025-12-03_

@@ -1,3 +1,5 @@
+<!-- src/blog/enneagram/mental-health/enneagram-therapy-guide.instagram.md -->
+
 # Instagram Content for "Finding the Right Therapist for Your Enneagram Type"
 
 ## Main Feed Post: Carousel Guide

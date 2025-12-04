@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Hailey_Bieber'
 twitter: 'haileybieber'
 instagram: 'haileybieber'
 tiktok: 'haileybieber'
+path: src/blog/people/drafts/Hailey-Bieber.md
 ---
 
 > "I feel like I've fought so hard to try to get people to understand me, or know who I am, or see me for me. And people just don't want to sometimes."

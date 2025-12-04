@@ -1,4 +1,4 @@
-// POST /api/admin/email-dashboard/send
+// src/routes/api/admin/email-dashboard/send/+server.ts
 // Send emails to selected recipients
 
 import { json, error } from '@sveltejs/kit';

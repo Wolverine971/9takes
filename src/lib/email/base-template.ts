@@ -1,4 +1,6 @@
+// src/lib/email/base-template.ts
 // Minimal/Clean Email Template for Email Dashboard
+
 // This template prioritizes deliverability and readability
 
 interface TemplateOptions {

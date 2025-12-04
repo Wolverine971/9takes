@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 pic: ''
+path: src/blog/enneagram/drafts/psychology.md
 ---
 
 <!-- Midjourney Prompt: ancient greek statue sitting in a library surrounded by psychology textbooks, reading from an open book about the history of psychology, taking notes on a notepad, bookshelf filled with psychology classics in the background, scholarly and studious atmosphere, marble white with gold accents, warm library lighting, Unreal Engine, Cinematic, Shot on 70mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
