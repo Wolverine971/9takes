@@ -11,7 +11,7 @@ published: false
 enneagram: 3
 type: ['politician']
 person: 'Justin-Trudeau'
-suggestions: ['Barack Obama', 'Kamala Harris', 'Donald Trump']
+suggestions: ['Barack-Obama', 'Kamala-Harris', 'Donald-Trump', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Justin_Trudeau'
 twitter: 'https://twitter.com/JustinTrudeau'
 instagram: 'https://www.instagram.com/justinpjtrudeau'

@@ -11,7 +11,7 @@ published: false
 enneagram: 8
 type: ['techie']
 person: 'Reed-Hastings'
-suggestions: []
+suggestions: ['Steve-Jobs', 'Mark-Zuckerberg', 'Jeff-Bezos', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Reed_Hastings'
 twitter: ''
 instagram: ''

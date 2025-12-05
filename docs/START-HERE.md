@@ -5,7 +5,7 @@
 _Last Updated: 2025-12-04_
 _Status: **PROBLEM-FOCUSED CONTENT PIVOT** - Mental health angle is your traffic goldmine_
 
-> **AI Agents:** For quick task-based navigation, see [`/docs/INDEX.md`](./INDEX.md)
+> **AI Agents:** For quick task-based navigation, see [`/docs/README.md`](./README.md)
 
 ---
 
@@ -37,7 +37,7 @@ Your GSC data proves it:
 
 **Where these come from:** Adapted from the Viral Coach Masterclass, a professional content coaching course focused on social media growth.
 
-> **Deep dive:** [`/docs/viral-coach-framework-reference.md`](./viral-coach-framework-reference.md) — Full course notes with detailed explanations of each framework.
+> **Deep dive:** [`/docs/marketing/viral-coach-framework-reference.md`](./marketing/viral-coach-framework-reference.md) — Full course notes with detailed explanations of each framework.
 
 ### 1. Content Funnel (ToF/MoF/BoF)
 
@@ -174,9 +174,9 @@ For your top 10 pages:
 
 | Purpose                   | Location                                                                                                                                   |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Full doc index**        | [`/docs/INDEX.md`](./INDEX.md)                                                                                                             |
+| **Full doc index**        | [`/docs/README.md`](./README.md)                                                                                                           |
 | Content workflow          | [`/docs/writing-system/01-content-creation-workflow.md`](./writing-system/01-content-creation-workflow.md)                                 |
-| 🆕 **X/Twitter strategy** | [`/docs/marketing/x-twitter-growth-strategy-2025.md`](./marketing/x-twitter-growth-strategy-2025.md)                                       |
+| 🆕 **X/Twitter strategy** | [`/docs/twitter/strategy/master-strategy.md`](./twitter/strategy/master-strategy.md)                                                       |
 | AI & SEO optimization     | [`/docs/content-analysis/ai-search-optimization-guide.md`](./content-analysis/ai-search-optimization-guide.md)                             |
 | Celebrity optimization    | [`/docs/content-generation/celebrity-page-optimization-instructions.md`](./content-generation/celebrity-page-optimization-instructions.md) |
 | Domain gaps               | [`/docs/domain-authority/00-master-index.md`](./domain-authority/00-master-index.md)                                                       |
@@ -352,7 +352,7 @@ Use `TypeQuotes` to display characteristic quotes/statements from different Enne
 
 ### Navigation
 
-- **[`INDEX.md`](./INDEX.md)** - Master phone book for AI agents (task-based navigation)
+- **[`README.md`](./README.md)** - Master phone book for AI agents (task-based navigation)
 - **`START-HERE.md`** - This file (strategy overview for humans)
 
 ### Active Plans

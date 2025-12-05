@@ -159,7 +159,7 @@
 </url>
 <url>
     <loc>https://9takes.com/community/consensus-on-human-nature</loc>
-    <lastmod>2024-04-05T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -168,7 +168,7 @@
 </url>
 <url>
     <loc>https://9takes.com/community/inspiration-for-9takes</loc>
-    <lastmod>2024-04-18T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -195,7 +195,7 @@
 </url>
 <url>
     <loc>https://9takes.com/community/memetic-comments</loc>
-    <lastmod>2024-04-08T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -204,7 +204,7 @@
 </url>
 <url>
     <loc>https://9takes.com/community/reddit-deep-connections-limitations</loc>
-    <lastmod>2024-02-18T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -501,7 +501,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-concepts</loc>
-    <lastmod>2024-08-10T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -519,7 +519,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-criticisms</loc>
-    <lastmod>2024-02-26T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -555,7 +555,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-influences</loc>
-    <lastmod>2024-04-08T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -624,7 +624,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses</loc>
-    <lastmod>2025-10-23T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -642,7 +642,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-team-diversity</loc>
-    <lastmod>2024-08-11T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -768,7 +768,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-types-in-stress</loc>
-    <lastmod>2025-10-23T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -921,7 +921,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/philosophy-psychology-and-the-enneagram</loc>
-    <lastmod>2024-06-08T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2558,12 +2558,39 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Doja-Cat</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Doja-Cat.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/George-H-W-Bush</loc>
     <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/6s/George-H-W-Bush.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Gwyneth-Paltrow</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Gwyneth-Paltrow.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Matthew-McConaughey</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Matthew-McConaughey.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2576,12 +2603,39 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Pokimane</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Pokimane.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Sundar-Pichai</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Sundar-Pichai.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Sydney-Sweeney</loc>
     <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Sydney-Sweeney.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Tim-Cook</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Tim-Cook.webp</image:loc>
     </image:image>
 </url>
 <url>

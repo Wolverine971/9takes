@@ -76,36 +76,71 @@ src/
 
 ```
 docs/
-├── development/             # Development utilities and scripts
-│   ├── DevDocs.md
-│   ├── generate-mental-health-files.js
-│   ├── generateStreamlinedProjectContext2.ts
-│   └── labelFilePaths.ts
-├── security/               # Security and credential management
-│   ├── CREDENTIAL_ROTATION_GUIDE.md
-│   └── SECURITY_AND_IMPROVEMENTS_TODO.md
-├── validation/             # Data validation guides
-│   ├── VALIDATION_SUMMARY.md
-│   └── VALIDATION_UPDATE_GUIDE.md
-├── migrations/             # Database and service migrations
-│   └── SOCKETIO_MIGRATION.md
-├── content-generation/     # Content creation and management
-│   ├── ITERATIVE_REVIEW_PROCESS.md
-│   ├── MENTAL_HEALTH_BLOG_SYSTEM.md
-│   ├── enneagram-trauma-response-guide.review.md
-│   ├── midjourney.md
-│   ├── midjourney_cleaned.md
-│   ├── midjourney_prompt_templates.md
-│   └── missing_images_summary.md
-├── marketing/              # Marketing and growth strategies
-│   ├── google-search-results.md
-│   ├── questions-page-optimization-summary.md
-│   ├── twitter-wings-announcement.md
-│   └── [existing marketing docs]
-├── utilities/              # Utility files and scripts
-│   └── matching-files.txt
-└── [other existing folders]
+├── README.md                  # Master index/phonebook (START HERE)
+├── START-HERE.md              # Strategy overview and priorities
+├── 30-DAY-ACTION-PLAN-*.md    # Active action plans
+│
+├── brand/                     # Voice, tone, visual identity
+├── writing-system/            # Content creation workflows
+├── content-generation/        # Templates, prompts, image guides
+├── content-analysis/          # SEO, optimization, traffic data
+├── content-research/          # Active research for blog posts
+├── domain-authority/          # Content gaps & opportunities
+├── blogs-famous-people/       # Celebrity blog management
+│
+├── twitter/                   # Twitter/X strategy & content
+│   ├── README.md              # Twitter hub
+│   ├── strategy/              # Master strategy
+│   ├── execution/             # Posts queue, metrics
+│   ├── content-ideas/         # Topic-based content ideas
+│   ├── templates/             # Response templates, formatting
+│   └── research/              # Grok analysis, research
+│
+├── marketing/                 # Marketing frameworks
+├── development/               # Technical docs & specs
+├── project-docs/              # Platform context
+├── research/                  # Competitor analysis
+├── security/                  # Credentials, security
+├── archives/                  # Historical reference only
+└── migrations/                # Database migrations
 ```
+
+### Documentation Conventions
+
+All documentation files should follow these standards:
+
+#### Frontmatter
+
+Every doc file should include YAML frontmatter:
+
+```yaml
+---
+title: 'Document Title'
+description: 'Brief description of purpose'
+last_modified: YYYY-MM-DD
+status: active | draft | archived
+category: hub | strategy | reference | guide | research
+related:
+  - ./path/to/related-doc.md
+---
+```
+
+#### File Naming
+
+| Type         | Pattern               | Example                             |
+| ------------ | --------------------- | ----------------------------------- |
+| Hub/Index    | `README.md`           | `twitter/README.md`                 |
+| Strategy doc | `kebab-case.md`       | `master-strategy.md`                |
+| Research     | `topic-research.md`   | `red-flags-dating-research.md`      |
+| Dated doc    | `topic-YYYY-MM-DD.md` | `competitor-analysis-2025-12-04.md` |
+
+#### Organization Principles
+
+- **Use README.md** as the index for each major folder
+- **Keep flat** — Avoid deep nesting (max 2-3 levels)
+- **Archive, don't delete** — Move outdated docs to `archives/`
+- **Use relative links** — `[text](./folder/file.md)`
+- **Update links when moving files**
 
 ### Key Features Implementation
 

@@ -32,7 +32,7 @@ _Purpose: Complete workflows for creating and editing content_
 
 **Where these come from:** These are adapted from the Viral Coach Masterclass, a professional content coaching course. The full course notes with deeper explanations are available at:
 
-> **Reference:** [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md)
+> **Reference:** [`/docs/marketing/viral-coach-framework-reference.md`](../marketing/viral-coach-framework-reference.md)
 
 ### 1. Content Flywheel
 
@@ -169,14 +169,14 @@ After every blog post, create:
 
 ## Related Resources
 
-| Resource                 | Location                                                                            |
-| ------------------------ | ----------------------------------------------------------------------------------- |
-| **Strategic frameworks** | [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md) |
-| Brand voice              | `/docs/brand/brand-style-guide-v2.md`                                               |
-| Celebrity optimization   | `/docs/content-generation/celebrity-page-optimization-instructions.md`              |
-| AI search optimization   | `/docs/content-analysis/ai-search-optimization-guide.md`                            |
-| Current action plan      | `/docs/30-DAY-ACTION-PLAN-DEC-2025.md`                                              |
-| X/Twitter strategy       | `/docs/marketing/x-twitter-growth-strategy-2025.md`                                 |
+| Resource                 | Location                                                                                                |
+| ------------------------ | ------------------------------------------------------------------------------------------------------- |
+| **Strategic frameworks** | [`/docs/marketing/viral-coach-framework-reference.md`](../marketing/viral-coach-framework-reference.md) |
+| Brand voice              | `/docs/brand/brand-style-guide-v2.md`                                                                   |
+| Celebrity optimization   | `/docs/content-generation/celebrity-page-optimization-instructions.md`                                  |
+| AI search optimization   | `/docs/content-analysis/ai-search-optimization-guide.md`                                                |
+| Current action plan      | `/docs/30-DAY-ACTION-PLAN-DEC-2025.md`                                                                  |
+| X/Twitter strategy       | `/docs/twitter/strategy/master-strategy.md`                                                             |
 
 ---
 

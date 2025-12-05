@@ -4,7 +4,7 @@ description: 'Explore the different schools of thought that have influenced the 
 author: 'DJ Wayne'
 date: '2023-03-02'
 loc: 'https://9takes.com/enneagram-corner/enneagram-influences'
-lastmod: '2024-04-08'
+lastmod: '2025-12-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,13 +19,17 @@ path: src/blog/enneagram/enneagram-influences.md
 	import  Enneagram  from "$lib/components/icons/enneagram.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram's origins are mysterious and there have been many influences on the system.</p>
+<p class="firstLetter">Nobody owns the Enneagram. It has no single creator. And that's the point.</p>
 
-The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.
+The system emerged from the collision of Sufi mysticism, Greek philosophy, Armenian spiritual teachers, Chilean psychiatrists, and American psychologists — each adding layers to something none of them invented alone.
 
-## Different Schools of Thought
+**The Enneagram isn't a brand. It's an archeological discovery — unearthed piece by piece across centuries and continents.**
 
-Over the centuries, different schools of thought have contributed to the development of the Enneagram. Each school has its own unique interpretation of the Enneagram and has contributed to its evolution over time.
+Here's who found what.
+
+## The Lineage
+
+Different traditions contributed different pieces. Each school has its own interpretation — and each added something essential.
 
 ### Sufi Tradition - ~10th-14th Centuries AD
 
@@ -73,11 +77,17 @@ One of the most popular schools of thought when it comes to the Enneagram is the
 
 Another school of thought when it comes to the Enneagram is the integrative tradition. This approach combines elements from various Enneagram schools of thought, allowing individuals to explore the Enneagram in a holistic and comprehensive way. The integrative tradition emphasizes the importance of personal growth and development, using the Enneagram as a tool for self-discovery and transformation.
 
-## Wrapping Up
+## The Unfinished Story
 
-The Enneagram is an ancient tool that has evolved over time through the contributions of different schools of thought. Both ancient philosophy and early psychology have contributed to the Enneagram's evolution. Modern interpretations of the Enneagram, such as the Narrative Tradition, provide insight into the Enneagram's nine personality types and how they relate to personal growth and relationships. These different schools of thought show that people have been wrestling with these ideas for a long time and there is so much to discover.
+The Enneagram has been refined by mystics, philosophers, psychiatrists, and psychologists — each adding precision to something none of them fully understood.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we like we said, there is so much more to explore. 🚀
+**And it's not done evolving.**
+
+Modern interpretations continue to emerge. Researchers test its claims. Therapists adapt its insights. Each generation adds its layer to the discovery.
+
+The question isn't whether the Enneagram is "true" — it's whether these patterns match what you actually observe in yourself and others.
+
+**The only way to know is to test it yourself.**
 
 <svelte:head>
 

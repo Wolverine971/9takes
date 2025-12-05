@@ -11,7 +11,7 @@ published: false
 enneagram: 5
 type: ['author']
 person: 'Malcolm-Gladwell'
-suggestions: []
+suggestions: ['Bill-Gates', 'Robert-Greene', 'Elon-Musk', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Malcolm_Gladwell'
 twitter: 'gladwell'
 instagram: ''

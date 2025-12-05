@@ -11,7 +11,7 @@ published: false
 enneagram: 7
 type: ['musician']
 person: 'Bad-Bunny'
-suggestions: []
+suggestions: ['Doja-Cat', 'Daddy-Yankee', 'J-Balvin', 'Shakira']
 wikipedia: 'https://en.wikipedia.org/wiki/Bad_Bunny'
 twitter: 'sanikimusic'
 instagram: 'badbunnypr'

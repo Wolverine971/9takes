@@ -180,7 +180,3 @@ Murphy's career demonstrates that intense introversion isn't a limitation. His o
 For fellow Type 5s, Murphy offers validation. You can succeed wildly while remaining fundamentally yourself. You don't have to become an extrovert to thrive in an extroverted world.
 
 What would it feel like to watch the world that carefully? To disappear so completely into understanding another person that you briefly cease to exist yourself? That's what Cillian Murphy does every time he steps on set. And that's what makes him unforgettable.
-
-<svelte:head>
-
-</svelte:head>

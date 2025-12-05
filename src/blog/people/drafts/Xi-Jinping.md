@@ -11,7 +11,7 @@ published: false
 enneagram: 8
 type: ['politician']
 person: 'Xi-Jinping'
-suggestions: []
+suggestions: ['Vladimir-Putin', 'Donald-Trump', 'Joe-Biden', 'Kim-Jong-Un']
 wikipedia: 'https://en.wikipedia.org/wiki/Xi_Jinping'
 twitter: ''
 instagram: ''

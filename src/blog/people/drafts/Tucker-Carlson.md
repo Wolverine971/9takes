@@ -11,7 +11,7 @@ published: false
 enneagram: 6
 type: ['politician']
 person: 'Tucker-Carlson'
-suggestions: []
+suggestions: ['Donald-Trump', 'Vladimir-Putin', 'Joe-Rogan', 'Ben-Shapiro']
 wikipedia: 'https://en.wikipedia.org/wiki/Tucker_Carlson'
 twitter: 'TuckerCarlson'
 instagram: ''

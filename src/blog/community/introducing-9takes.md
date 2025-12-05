@@ -204,7 +204,7 @@ This is how you get original comments that are unbiased. It is a new habit that 
 <!-- write blog on this:
 There are many different ways to divide people and most of them turn out to not be beneficial. -->
 <li>
-There are many different ways to divide people and most of them turn out to not be helpful. However personality allows you to unlock insights across race, sex, age, and class.
+There are many different ways to divide people and most of them turn out to not be helpful. However personality allows you to unlock insights across race, sex, age, and class. Understanding <a href="/enneagram-corner/enneagram-communication-styles">how different types communicate</a> reveals patterns that transcend demographics.
 
 </li>
 </ul>
@@ -253,7 +253,7 @@ A new habit of participating is being formed and that is the key to redefining a
 
 ## Questions Start the Conversation
 
-<!-- Put your offline questions online -->
+(Curious about how 9takes came to be? Read the [personal story behind 9takes](/community/inspiration-for-9takes)—it started with a marriage counselor and a personality test.)
 
 In a world obsessed with absolutes and fact-checking, we often forget that many of the things we search for lack black-and-white answers. People are not math problems we can solve—they are universes we must explore. Nine different perspectives exist for every question, each one revealing something the others miss. Take your offline questions and post them online—you might be surprised by what you discover.
 

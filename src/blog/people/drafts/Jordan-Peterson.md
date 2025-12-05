@@ -11,7 +11,7 @@ published: false
 enneagram: 1
 type: ['psychology']
 person: 'Jordan-Peterson'
-suggestions: []
+suggestions: ['Joe-Rogan', 'Ben-Shapiro', 'Justin-Trudeau', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Jordan_Peterson'
 twitter: 'jordanbpeterson'
 instagram: 'jordan.b.peterson'
@@ -177,7 +177,7 @@ As of late 2025, Peterson is out of the ICU but still recovering, with his famil
 
 ### The Russian Media Accusation
 
-In October 2024, Canadian Prime Minister Justin Trudeau testified under oath that Peterson was funded by Russian state-owned media outlet RT. Peterson denied this vehemently and stated he was considering legal action.
+In October 2024, Canadian Prime Minister [Justin Trudeau](/personality-analysis/Justin-Trudeau) testified under oath that Peterson was funded by Russian state-owned media outlet RT. Peterson denied this vehemently and stated he was considering legal action.
 
 For a Type 1, being accused of corruption or hidden allegiances would be particularly offensive—it strikes at the core of their identity as principled actors.
 

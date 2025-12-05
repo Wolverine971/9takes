@@ -35,7 +35,7 @@ Fill this out for every piece:
 
 > **Why this matters:** Content that doesn't match where your reader is in their journey will fall flat. A new reader won't respond to expert-voice advice they haven't earned trust to receive. These frameworks help you match content to audience.
 >
-> **Deep dive:** See [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md) for full explanations of these frameworks.
+> **Deep dive:** See [`/docs/marketing/viral-coach-framework-reference.md`](../marketing/viral-coach-framework-reference.md) for full explanations of these frameworks.
 
 **1. Funnel Stage** — Where is this content in the reader's journey?
 
@@ -313,7 +313,7 @@ pic: 'image-name'
 
 **Why this matters:** High-effort content (blog posts) should generate low-effort content (tweets), which drives engagement, which generates ideas for new blog posts. This creates momentum—the more you create, the faster the wheel spins. Reposting successful content extends its value.
 
-> **Deep dive:** See [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md#4-content-flywheel) for the full Content Flywheel concept.
+> **Deep dive:** See [`/docs/marketing/viral-coach-framework-reference.md`](../marketing/viral-coach-framework-reference.md#4-content-flywheel) for the full Content Flywheel concept.
 
 Every blog post should generate these within 48 hours:
 

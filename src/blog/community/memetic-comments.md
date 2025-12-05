@@ -4,7 +4,7 @@ description: 'Discover the impact of echo chambers and mimesis in online comment
 author: 'DJ Wayne'
 date: '2023-12-21'
 loc: 'https://9takes.com/community/memetic-comments'
-lastmod: '2024-04-08'
+lastmod: '2025-12-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -93,9 +93,13 @@ path: src/blog/community/memetic-comments.md
 
 </div>
 
-<p class="firstLetter">He who is without sin cast the first stone- John 8:7<p>
+<p class="firstLetter">You've never had an original opinion in the comments section. Neither have I.</p>
 
-Online discussions are not for the faint of heart. They are little battlegrounds where ideologies duke it out. You are either 'for' or 'against' whatever the topic. This polarizing dynamic fosters mimicry or memetic behavior. We copy the people we like and look up to.
+Not really.
+
+By the time you type your response, you've already been infected by the first three comments you read. Their framing became your framing. Their tone shaped your tone. Their hot take became the lens through which you processed the whole thread.
+
+**This is mimesis in action** — and it's killing authentic discourse online.
 
 <!-- breaking the memetic hold, say something nice about someone you disagree with -->
 
@@ -127,17 +131,21 @@ The term 'memetic' comes from René Girard's memetic theory. It suggests that ou
 
 This only compounds when a person can see other people's comments. Rather than participating in the conversation, they choose who they want to imitate and who they want to be against. -->
 
-## Anti-memetic Online Conversations
+## Breaking the Mimetic Loop
 
-How can we replace these impulse reactions with genuine curiosity and open-mindedness? How can we take advantage of diverse opinions where readers are challenged to think critically?
+How do you have an original thought online when the infrastructure is designed to prevent it?
 
-**Give your opinion before you see other people's views.** Lurking wasn't always a thing. Comments should be hidden before you comment. This would encourage independent thought and curb the memetic trend in online interactions. 9takes does this.
+**1. Respond before you read.** Lurking poisons authenticity. On 9takes, comments are hidden until you submit your own take. No priming. No copying. Just you and the question.
 
-**Questions > Hot takes**. "Hot takes" or posts do not solicit feedback. Unless someone specifically asks you to write something, posting something online can feel like shouting into the void. Plus, posts or hot takes create a binary situation where you agree or disagree. Questions invite responses and open the door to learning something new. [Check out the questions asked on 9takes](/questions).
+**2. Ask questions instead of making statements.** Hot takes create binary reactions — agree or disagree. Questions invite exploration. They bypass the memetic reflex because there's no position to copy yet. [Check out the questions asked on 9takes](/questions).
 
-Refocusing on respectful engagement and diverse perspectives can rejuvenate online discourse, enhancing mutual understanding. Learning how [each personality type communicates differently](/enneagram-corner/enneagram-communication-styles) also helps break the mimetic cycle.
+**3. Understand why people think differently.** When you learn [how each personality type processes information](/enneagram-corner/enneagram-communication-styles) and [handles stress](/enneagram-corner/enneagram-types-in-stress), you stop seeing disagreement as tribal warfare and start seeing it as different operating systems running different code.
 
-The negative effects of mimetics can be stopped. And that is what 9takes is here to do.
+[Reddit's structure](/community/reddit-deep-connections-limitations) amplifies mimesis — whoever comments first sets the frame for everyone else. The algorithm rewards speed, not depth.
+
+**9takes inverts the model.** Speak first. Explore after. Think independently by design.
+
+The mimetic loop can be broken. But not on platforms built to sustain it.
 
 <style lang="scss">
 </style>

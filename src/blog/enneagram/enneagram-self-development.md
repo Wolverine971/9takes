@@ -354,7 +354,7 @@ Regular self-help gives you generic advice that may or may not fit your actual p
 
 **How long does it take to see results from Enneagram work?**
 
-The initial recognition of your patterns can happen quickly—sometimes in a single conversation or reading. But integrating that awareness into lasting change takes ongoing practice. Most people notice shifts in their reactions within weeks of consistent self-observation. The deeper transformations unfold over months and years.
+The initial recognition of your patterns can happen quickly—sometimes in a single conversation or reading. But integrating that awareness into lasting change takes ongoing practice. Most people notice shifts in their reactions within weeks of consistent self-observation. The deeper transformations unfold over months and years. (If you're working with a coach, our [Enneagram coach toolkit](/enneagram-corner/enneagram-coach-toolkit) has type-specific homework assignments that accelerate this process.)
 
 **Can your Enneagram type change?**
 

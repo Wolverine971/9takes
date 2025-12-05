@@ -12,7 +12,7 @@ published: false
 enneagram: 9
 type: ['techie']
 person: 'Sundar-Pichai'
-suggestions: []
+suggestions: ['Bill-Gates', 'Elon-Musk', 'Mark-Zuckerberg', 'Tim-Cook']
 wikipedia: 'https://en.wikipedia.org/wiki/Sundar_Pichai'
 twitter: 'sundarpichai'
 instagram: ''

@@ -28,7 +28,7 @@ A new TypeScript blog index has been created at `src/lib/components/molecules/bl
 
 **What this is:** Content falls into three funnel stages based on where the reader is in their journey. Content that doesn't match the reader's stage will underperform—even if it's good.
 
-> **Framework source:** [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md) — Full explanations of Content Funnel, Trust Onion, and EEO Continuum.
+> **Framework source:** [`/docs/marketing/viral-coach-framework-reference.md`](../marketing/viral-coach-framework-reference.md) — Full explanations of Content Funnel, Trust Onion, and EEO Continuum.
 
 **Current content distribution by funnel stage:**
 
@@ -187,7 +187,7 @@ A new TypeScript blog index has been created at `src/lib/components/molecules/bl
 
 **What this is:** The Trust Onion framework identifies three layers of blame. New readers are at the "Outer Layer" (blaming circumstances). Content must meet them there before asking for self-reflection.
 
-> **Framework source:** [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md#2-trust-onion-framework-🧅)
+> **Framework source:** [`/docs/marketing/viral-coach-framework-reference.md`](../marketing/viral-coach-framework-reference.md#2-trust-onion-framework-🧅)
 
 **The strategic gap:** Most 9takes content skips to the Inner Layer (self-responsibility). New readers blame EXTERNAL factors. Meet them there first.
 
@@ -507,7 +507,7 @@ Before publishing any content:
 
 ### Strategic Frameworks Now Integrated:
 
-> **Reference:** [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md)
+> **Reference:** [`/docs/marketing/viral-coach-framework-reference.md`](../marketing/viral-coach-framework-reference.md)
 
 1. **Content Funnel** - Tag all content as ToF/MoF/BoF (see `/docs/writing-system/README.md`)
 2. **Trust Onion** - Create content for each layer, don't skip to Inner

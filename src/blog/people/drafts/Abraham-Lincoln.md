@@ -11,7 +11,7 @@ published: false
 enneagram: 9
 type: ['historical']
 person: 'Abraham-Lincoln'
-suggestions: []
+suggestions: ['Martin-Luther-King-Jr', 'Barack-Obama', 'Ronald-Reagan', 'George-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Abraham_Lincoln'
 twitter: ''
 instagram: ''

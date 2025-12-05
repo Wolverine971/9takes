@@ -4,7 +4,7 @@ description: 'TLDR: My wife and I were fighting, and we went to a counselor whic
 author: 'DJ Wayne'
 date: '2023-06-17'
 loc: 'https://9takes.com/community/inspiration-for-9takes'
-lastmod: '2024-04-18'
+lastmod: '2025-12-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -90,13 +90,13 @@ path: src/blog/community/inspiration-for-9takes.md
     />
 </div>
 
-<p class="firstLetter">Marriage is a forcing function for developing emotional intelligence.</p>
+<p class="firstLetter">My wife and I almost destroyed our marriage before we figured out we weren't speaking the same language.</p>
 
-At least it was for me.
+Not literally — we both speak English. But we were using the same words to mean completely different things. And every attempt to "fix" our communication made it worse.
 
-When I got married, my wife and I were in marital bliss! But that quickly wore off as reality set in that we were each married to flawed people who saw the world very differently. We seemed to be fighting more than what we thought was normal. And our attempts to resolve the conflict kept failing.
+The fights got louder. The silences got longer. We started wondering if we'd made a mistake.
 
-Eventually, we turned to counseling and personality tests to help us understand each other.
+Then a marriage counselor handed us a personality test. And everything changed.
 
 ## What we learned through counseling and personality tests
 
@@ -205,19 +205,23 @@ Both responses were partially true. People are both similar and different. But i
 
 These perspectives stifle curiosity. Have the person ever met someone similar to them? Have they ever met someone different from them? These similarities and differences are personality traits. That is all it is. Personality attempts to map out the dimensions by which people are similar and different.
 
-### Finding a place to explore people’s similarities and differences
+### Finding a place to explore people's similarities and differences
 
-My next step was to find the place where people’s similarities and differences were being explored.
+I went looking for a place where these conversations were already happening.
 
-I checked out Reddit and Discord and scoured every internet community I could find. But the conversations were shallow and fragmented.
+I scoured Reddit, Discord, every online community I could find. The conversations were either too shallow ("OMG I'm such a Type 4!") or too fragmented to build real understanding.
 
-I felt like I had to build the thing I wanted.
+[Reddit's structure makes deep connection almost impossible](/community/reddit-deep-connections-limitations) — the algorithm rewards quick takes, not genuine exploration.
 
-I wanted to explore personality, specifically the <a href="/enneagram-corner/enneagram-tldr">Enneagram</a>. I wanted to create a space where people could share their fears and motivations. I wanted to help people understand each other. I wanted to help other people who were fighting, like my wife and I. I wanted to create a place where people could openly share their opinions or **takes**.
+**So I built the thing I couldn't find.**
 
-The Enneagram has nine core personality types, which inspired me to use the name 9 takes, **9takes**. For every question that is asked, you can get at least 9 takes.
+I wanted to explore personality — specifically the [Enneagram](/enneagram-corner/enneagram-tldr). I wanted a space where people could share their fears, motivations, and [how they actually communicate](/enneagram-corner/enneagram-communication-styles). I wanted to help couples like my wife and me stop talking past each other.
 
-So that was the inspiration for 9takes.
+The Enneagram has nine core types. For every question, there are at least nine perspectives worth hearing.
+
+That's where the name came from: **9takes**.
+
+One question. Nine ways to see it. And finally — a place to explore them all.
 
 <style lang="scss">
 </style>

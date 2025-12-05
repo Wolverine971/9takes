@@ -4,7 +4,7 @@ description: 'Do we sway between being rational or irrational? Or is it more com
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/community/consensus-on-human-nature'
-lastmod: '2024-04-05'
+lastmod: '2025-12-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -86,11 +86,13 @@ path: src/blog/community/consensus-on-human-nature.md
     <figcaption style="margin-left: 80%">-<cite>9takes definition</cite></figcaption>
 </figure>
 
-<p class="firstLetter">What is the a definition of human nature?</p>
+<p class="firstLetter">Everyone talks about "human nature" like it's a settled question. It isn't.</p>
 
-Philosophers and psychologists have talked about human nature a lot but did they come to a consensus? Is there a peer-reviewed study that shows what human nature is? No, not really. But there have been two main perspectives that keep coming up in different circles that we are going to examine in this blog.
+Two thousand years of philosophy and psychology, and we still can't agree on the basics: **Are humans fundamentally rational beings who occasionally slip up? Or are we emotional creatures who occasionally think clearly?**
 
-One theory of human nature is about how humans fluctuate between being logical and illogical, and our goal is to be rational. The other theory is more complicated and less explored. The philosophers Plato and Aristotle had opposing views on this, and this mirrors the opposing views of the psychologists Sigmund Freud and Steven Pinker.
+The answer determines everything — how we build societies, how we judge each other, how we understand our own behavior.
+
+Two camps keep emerging across centuries. And the debate between them reveals something profound about how we see ourselves.
 
 ## Plato is to Aristotle as Freud is to Pinker
 
@@ -191,9 +193,19 @@ Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Con
     </object>
 </div>
 
-## Wrapping it up
+## The Pattern That Won't Go Away
 
-So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something check out the <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type" >Enneagram</a>. It shares many similar concepts but it has no direct lineage to Plato or Freud. Perhaps the reoccurring 3 divisions that we keep stumbling upon form a better model for understanding "human nature." 9takes is on a quest to poke and prod at these divisions because we think there is still a lot to learn. And maybe, just maybe we can start to heal the human psyche and soul.
+Here's what's interesting: **the three-part model keeps showing up**.
+
+Plato. Freud. Modern neuroscience (reptilian brain, limbic system, neocortex). The Enneagram's three [intelligence centers](/enneagram-corner/enneagram-concepts) — head, heart, and gut.
+
+Maybe this isn't coincidence. Maybe humans really do operate on three distinct frequencies, and different thinkers keep rediscovering the same fundamental architecture.
+
+The [Enneagram maps directly onto these ancient frameworks](/enneagram-corner/philosophy-psychology-and-the-enneagram) — fear-based thinking, shame-based feeling, anger-based instinct. It's not descended from Plato or Freud, but it arrived at the same structure.
+
+**Which raises the question:** If we keep finding the same pattern across millennia, maybe human nature isn't as mysterious as we pretend.
+
+Maybe we just don't like what the pattern reveals about ourselves.
 
 <style lang="scss">
 </style>

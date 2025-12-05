@@ -485,7 +485,7 @@ Overthinking is human. But sometimes it crosses into territory that requires pro
 
 Your Enneagram type can help a therapist understand your patterns faster—but it doesn't replace professional care.
 
-For more on the connection between personality and mental health, see our guide on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness).
+For more on the connection between personality and mental health, see our guide on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness). If anxiety is your primary struggle, dive deeper into [how each type experiences anxiety differently](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
 
 ---
 

@@ -190,4 +190,6 @@ This is how you speed-run an argument towards progress. Once you open yourself t
 
 If the other side takes the time to try to understand your views, you are not having an argument anymore.
 
-I hope this help you experience what winning feels like.
+Understanding [how each personality type processes conflict differently](/enneagram-corner/enneagram-types-in-stress) gives you an even bigger advantage. A Type 1 argues from principle. A Type 8 argues from power. A Type 6 argues from anxiety. Same topic, completely different motivations.
+
+**Winning isn't about proving your point. It's about understanding theirs well enough that you both walk away smarter.**

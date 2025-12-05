@@ -4,7 +4,7 @@ description: 'Harnessing the Power of the Enneagram for Balanced and Diverse Tea
 author: 'DJ Wayne'
 date: '2024-08-11'
 loc: 'https://9takes.com/enneagram-corner/enneagram-team-diversity'
-lastmod: '2024-08-11'
+lastmod: '2025-12-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -21,13 +21,15 @@ path: src/blog/enneagram/enneagram-team-diversity.md
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">People say they want diversity but do not realize how hard it is to get it because that most teams by their nature are not diverse.</p>
+<p class="firstLetter">Your team says they want "diverse perspectives." What they actually have is six people who think identically and two who stopped speaking up.</p>
 
-Remember high school? The jocks, the nerds, the drama kids - all huddled in their cozy cliques. Fast forward to your workplace, and it's déjà vu all over again.
+Remember high school? Jocks with jocks. Nerds with nerds. Drama kids in their corner. Fast forward to your workplace — it's the exact same dynamic with business casual.
 
-Teams naturally form their own little ecosystems. People gravitate towards those who think and act like them. It's comfortable, it's familiar, but it's also a breeding ground for groupthink. This self-selection isn't inherently bad. It's human nature. But it can lead to blind spots that hinder a team's full potential.
+**Teams self-select for similarity.** It's comfortable. It's efficient. It's also why your "brainstorms" produce the same three ideas every time.
 
-There's a solution to this challenge that's both obvious and nuanced. But before we dive into that, let's explore why diverse teams matter and how the Enneagram can help us build them.
+Groupthink isn't a failure of effort. It's the default outcome when you let teams form organically. Everyone hires people they "click with" — which means people who think like them.
+
+**The Enneagram reveals what your team is actually missing.**
 
 ## The Enneagram Triads: Decoding Communication Styles
 
@@ -126,15 +128,29 @@ To dig deeper, consider using these types of questions:
 
 By consistently using these types of questions, teams can foster open communication, uncover blind spots, and leverage the full spectrum of perspectives within the group.
 
-## Putting It All Together
+## The Uncomfortable Truth
 
-Building stronger, more diverse teams is an ongoing process that requires intentional effort and continuous learning.
+Building a genuinely diverse team is uncomfortable. By design.
 
-Start by using the Enneagram to understand your team's composition. Identify potential blind spots based on your team's Enneagram mix. Then, implement open-ended questioning techniques to foster better communication. Regularly assess and adjust your approach to maintain a balance of perspectives.
+**If everyone "gets along" immediately, you probably hired the same person nine times.**
 
-Remember, the goal isn't to eliminate differences, but to leverage them. By embracing the diversity that different Enneagram types bring to the table and fostering open communication, you can transform your team from a high school clique into a powerhouse of innovation and collaboration.
+Real diversity means:
 
-What steps will you take today to start diversifying your team's thinking and communication styles? 🚀
+- Type 8s pushing back hard while Type 9s wish everyone would calm down
+- Type 5s wanting more data while Type 7s want to move faster
+- Type 1s focused on quality while Type 3s focus on speed
+
+These tensions aren't problems to solve. They're features to leverage.
+
+**Start here:**
+
+1. Map your team's current Enneagram composition
+2. Identify what's missing (usually the types that "wouldn't fit in")
+3. Hire for the discomfort you need, not the comfort you want
+
+The teams that win aren't the ones that avoid friction. They're the ones that learned how to use it.
+
+What type is your team missing?
 
 <svelte:head>
 

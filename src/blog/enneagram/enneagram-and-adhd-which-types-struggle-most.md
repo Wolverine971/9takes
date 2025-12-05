@@ -157,7 +157,7 @@ Think about it this way: the same ADHD symptom looks completely different throug
 | Hyperactivity           | Internal restlessness, self-criticism | External energy, constant motion | Restlessness masked by stillness  |
 | Emotional dysregulation | Anger at self for "failing"           | Quick mood swings, reframing     | Suppressed emotions that leak out |
 
-The Enneagram describes normal personality patterns. ADHD is a neurodevelopmental condition. You can be any Enneagram type and have ADHD—but your type shapes how you experience it.
+The Enneagram describes normal personality patterns. ADHD is a neurodevelopmental condition. You can be any Enneagram type and have ADHD—but your type shapes how you experience it. (Not sure if you have ADHD or if it's just your personality? Our guide on [neurodiversity vs. personality](/enneagram-corner/neurodiversity-vs-personality) cuts through the confusion.)
 
 Understanding both gives you a roadmap that generic ADHD advice can never provide.
 

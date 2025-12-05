@@ -11,7 +11,7 @@ published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
 person: 'Hailey-Bieber'
-suggestions: []
+suggestions: ['Justin-Bieber', 'Selena-Gomez', 'Kim-Kardashian', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Hailey_Bieber'
 twitter: 'haileybieber'
 instagram: 'haileybieber'
