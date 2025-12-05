@@ -177,7 +177,7 @@ This guide isn't about feel-good relationship advice. It's about the life-or-dea
 
 - **The Enneagram** – This personality system reveals the deeper motivational patterns that drive behavior in relationships, adding crucial nuance to communication strategies.
 
-If you're ready to build a bulletproof relationship (or rescue one that's struggling), these five conversations are non-negotiable. Let's dive in.
+If you're ready to build a bulletproof relationship (or rescue one that's struggling), these five conversations are non-negotiable.
 
 ## I. Mapping Your Emotional Landscapes
 

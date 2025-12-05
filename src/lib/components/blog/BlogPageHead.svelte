@@ -8,10 +8,15 @@
 	const formattedTitle = title ? `${title}` : '9takes';
 
 	let jsonldString = {
-		'@context': 'http://schema.org',
-		'@type': 'Blog',
+		'@context': 'https://schema.org',
+		'@type': 'Article',
+		headline: title,
 		name: title,
 		url: `https://9takes.com/${slug}`,
+		mainEntityOfPage: {
+			'@type': 'WebPage',
+			'@id': `https://9takes.com/${slug}`
+		},
 		author: {
 			'@type': 'Person',
 			name: 'DJ Wayne',
@@ -23,6 +28,11 @@
 			]
 		},
 		description: description,
+		datePublished: data.date,
+		dateModified: data.lastmod,
+		image: data?.pic
+			? `https://9takes.com/blogs/${data.pic}.webp`
+			: 'https://9takes.com/brand/aero.png',
 		publisher: {
 			'@type': 'Organization',
 			sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom'],

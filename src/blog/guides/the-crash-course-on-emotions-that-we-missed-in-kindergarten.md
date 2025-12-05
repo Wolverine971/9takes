@@ -32,7 +32,7 @@ enneagram emotions
 -->
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+	import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
 </script>
 
 <p class="firstLetter">Yeah, we somehow missed the class on emotions, but everyone pretends like they get it.</p>
@@ -55,7 +55,7 @@ _Cricket sounds._
 
 Meanwhile, the World Economic Forum lists emotional intelligence as one of the top 10 job skills for 2025. Companies are spending billions on EQ training. Divorce rates hover at 50%. And we're all walking around emotionally constipated, wondering why life feels harder than it should.
 
-**The Enneagram should count as emotional education.** It's the only system that explains not just what emotions are, but how each personality type's emotional operating system actually works.
+**The Enneagram should count as emotional education.** It's the only system that explains not just what emotions are, but how each personality type's emotional operating system actually works. (New to the Enneagram? Start with our [quick overview](/enneagram-corner/enneagram-tldr).)
 
 ## Why Each Type Can't Feel Their Feelings (And Thinks They're Fine)
 
@@ -63,23 +63,27 @@ Here's the truth bomb: Your personality type determines your emotional blind spo
 
 ### The Body Types (8, 9, 1): Anger Deniers
 
-<PopCard>
-**Type 8**: "I'm not angry, I'm just passionate."
-**Type 9**: "I never get angry." (Narrator: They're seething inside)
-**Type 1**: "I'm not angry, I'm just frustrated things aren't done correctly."
-</PopCard>
+<TypeQuotes
+quotes={[
+{ type: 8, quote: "I'm not angry, I'm just passionate." },
+{ type: 9, quote: "I never get angry.", note: "Narrator: They're seething inside" },
+{ type: 1, quote: "I'm not angry, I'm just frustrated things aren't done correctly." }
+]}
+/>
 
 Body types live in their gut but disconnect from the very emotion that lives there—anger. They either over-express it (8s), under-express it (9s), or redirect it into "justified criticism" (1s).
 
-**The childhood message they missed:** Anger is information, not a character flaw.
+**The childhood message they missed:** Anger is information, not a character flaw. (Learn more about [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress).)
 
 ### The Heart Types (2, 3, 4): Shame Shapeshifters
 
-<PopCard>
-**Type 2**: "I don't have needs, I just love helping!"
-**Type 3**: "Emotions slow me down—I'll feel them after I succeed."
-**Type 4**: "Nobody understands my emotions." (But can't explain them either)
-</PopCard>
+<TypeQuotes
+quotes={[
+{ type: 2, quote: "I don't have needs, I just love helping!" },
+{ type: 3, quote: "Emotions slow me down—I'll feel them after I succeed." },
+{ type: 4, quote: "Nobody understands my emotions.", note: "But can't explain them either" }
+]}
+/>
 
 Heart types are supposedly the "emotional ones," but they're actually the worst at processing shame. They either deny their own needs (2s), postpone feelings for productivity (3s), or get so lost in emotional intensity they miss the actual message (4s).
 
@@ -87,11 +91,13 @@ Heart types are supposedly the "emotional ones," but they're actually the worst 
 
 ### The Head Types (5, 6, 7): Fear Intellectualizers
 
-<PopCard>
-**Type 5**: "I observe emotions, I don't have them."
-**Type 6**: "I'm not anxious, I'm just prepared for everything."
-**Type 7**: "Bad feelings? Let me tell you a funny story instead!"
-</PopCard>
+<TypeQuotes
+quotes={[
+{ type: 5, quote: "I observe emotions, I don't have them." },
+{ type: 6, quote: "I'm not anxious, I'm just prepared for everything." },
+{ type: 7, quote: "Bad feelings? Let me tell you a funny story instead!" }
+]}
+/>
 
 Head types live in analysis mode but can't compute their core emotion—fear. They either retreat into their mind castle (5s), project fears onto external threats (6s), or run from fear through constant stimulation (7s).
 
@@ -198,7 +204,7 @@ Generic "take deep breaths" advice doesn't work because each type dysregulates d
 
 ## The Three Emotions That Rule Your Type (And You Don't Even Know It)
 
-Here's the wild part: Each Enneagram type is actually driven by three core emotional patterns that formed in childhood. You think you're making logical decisions, but you're really just running these ancient programs:
+Here's the wild part: Each Enneagram type is actually driven by three core emotional patterns that formed in childhood. You think you're making logical decisions, but you're really just running these ancient programs. (For a deeper dive into [childhood origins by type](/enneagram-corner/enneagram-childhood-stereotypes), see our full analysis.)
 
 ### The Childhood Wound → Emotional Pattern → Adult Behavior Chain
 
@@ -278,9 +284,14 @@ When processing difficult emotions:
 
 Type-specific example for anger:
 
-- **Type 8**: "I'm furious (name), this is my anger about injustice (claim), I'll channel it into protective action (tame)"
-- **Type 9**: "I'm angry (name), even though I wish I wasn't (claim), I'll express this calmly but firmly (tame)"
-- **Type 1**: "I'm indignant (name), this violates my standards (claim), I'll address what can be improved (tame)"
+<TypeQuotes
+title="The Emotional Sandwich for Body Types"
+quotes={[
+{ type: 8, quote: "I'm furious (name), this is my anger about injustice (claim), I'll channel it into protective action (tame)" },
+{ type: 9, quote: "I'm angry (name), even though I wish I wasn't (claim), I'll express this calmly but firmly (tame)" },
+{ type: 1, quote: "I'm indignant (name), this violates my standards (claim), I'll address what can be improved (tame)" }
+]}
+/>
 
 ### 3. Emotional Aikido
 
@@ -359,7 +370,7 @@ The Enneagram isn't just a personality system—it's the emotional education we 
 
 ## The Plot Twist: Emotions Are Your Superpower
 
-Here's what nobody tells you: Your type's "difficult" emotion is actually your hidden superpower when you learn to work with it:
+Here's what nobody tells you: Your type's "difficult" emotion is actually your hidden superpower when you learn to work with it. This is the foundation of [shadow work by Enneagram type](/enneagram-corner/shadow-work-by-enneagram-type):
 
 - **Type 1's anger** becomes fuel for justice and improvement
 - **Type 2's neediness** becomes deep empathy and connection
@@ -385,7 +396,7 @@ Because here's the truth: Emotions are like that book on your shelf you've looke
 
 **The kindergarten class we missed? It's not too late to take it.**
 
-Your emotions aren't the enemy. They're the curriculum. And understanding them through your Enneagram type isn't just self-improvement—it's the education that could transform how you experience literally everything.
+Your emotions aren't the enemy. They're the curriculum. And understanding them through your Enneagram type isn't just self-improvement—it's the education that could transform how you experience literally everything. Ready to go deeper? Explore [Enneagram self-development](/enneagram-corner/enneagram-self-development) or learn about [the connection between personality and mental health](/enneagram-corner/enneagram-and-mental-illness).
 
 _Class is now in session._
 

@@ -6,7 +6,34 @@
 	let innerWidth: number;
 
 	$: visiblePosts = posts.slice(0, innerWidth > 920 ? 10 : 6);
+
+	// Generate ItemList JSON-LD for related articles
+	$: itemListJsonLd = posts?.length
+		? JSON.stringify({
+				'@context': 'https://schema.org',
+				'@type': 'ItemList',
+				name: `More ${blogType} Articles`,
+				description: `Related ${blogType.toLowerCase()} articles and guides`,
+				numberOfItems: posts.length,
+				itemListElement: posts.slice(0, 10).map((post, index) => ({
+					'@type': 'ListItem',
+					position: index + 1,
+					item: {
+						'@type': 'Article',
+						name: post.title,
+						description: post.description,
+						url: `https://9takes.com/${slugPrefix}/${post.slug}`
+					}
+				}))
+			})
+		: '';
 </script>
+
+<svelte:head>
+	{#if itemListJsonLd}
+		{@html `<script type="application/ld+json">${itemListJsonLd}</script>`}
+	{/if}
+</svelte:head>
 
 <svelte:window bind:innerWidth />
 

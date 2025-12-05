@@ -24,6 +24,29 @@ A new TypeScript blog index has been created at `src/lib/components/molecules/bl
 
 **See:** [Blog Index Integration Guide](./blog-index-integration.md)
 
+### Content Funnel Analysis
+
+**What this is:** Content falls into three funnel stages based on where the reader is in their journey. Content that doesn't match the reader's stage will underperform—even if it's good.
+
+> **Framework source:** [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md) — Full explanations of Content Funnel, Trust Onion, and EEO Continuum.
+
+**Current content distribution by funnel stage:**
+
+| Funnel Stage         | Current % | Target % | Status  | Action Needed                     |
+| -------------------- | --------- | -------- | ------- | --------------------------------- |
+| **Top of Funnel**    | ~20%      | 50%      | 🔴 Gap  | Need more "circumstances" content |
+| **Middle of Funnel** | ~60%      | 35%      | 🟡 Over | Solid foundation                  |
+| **Bottom of Funnel** | ~20%      | 15%      | 🟢 OK   | Slightly reduce CTAs              |
+
+**Top of Funnel Content Gaps (Priority):**
+
+- Content that validates EXTERNAL struggles (Trust Onion "Outer Layer")
+- "Why dating apps/algorithms/economy affects your type"
+- Quick wins that don't require self-reflection yet
+- Observation-voice content (EEO Continuum), not Expert voice
+
+**The Fix:** Every week, create at least 2 pieces of "circumstances layer" content that meets new readers where they are.
+
 ### Domain Authority Status (7 Content Domains):
 
 | Domain                | Posts | %   | Status        | Trend                      |
@@ -158,9 +181,32 @@ A new TypeScript blog index has been created at `src/lib/components/molecules/bl
 
 ---
 
-## Content Gap Analysis Summary (UPDATED 2025-09-09)
+## Content Gap Analysis Summary (UPDATED 2025-12-04)
 
-### 🔴 Critical Gaps (Immediate Action - Based on Actual Content Audit)
+### 🔴 TOP PRIORITY: Trust Onion "Outer Layer" Content
+
+**What this is:** The Trust Onion framework identifies three layers of blame. New readers are at the "Outer Layer" (blaming circumstances). Content must meet them there before asking for self-reflection.
+
+> **Framework source:** [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md#2-trust-onion-framework-🧅)
+
+**The strategic gap:** Most 9takes content skips to the Inner Layer (self-responsibility). New readers blame EXTERNAL factors. Meet them there first.
+
+**Create these "Circumstances Layer" posts:**
+
+1. "Why dating apps are harder for certain personality types"
+2. "The algorithm is designed to exploit your type (here's how)"
+3. "5 workplace policies that secretly favor certain types"
+4. "Why modern hustle culture burns out Type 2s and 9s first"
+5. "The economy is harder on some types than others"
+6. "Social media was designed by 7s for 7s (here's why you're exhausted)"
+7. "Remote work vs office: Which types are getting screwed"
+8. "Why therapy doesn't work the same for every type"
+9. "The education system failed these 3 types worst"
+10. "Dating in 2025 vs 2015: How it changed for each type"
+
+**Why this matters:** These posts validate external struggles FIRST, then bridge to type-specific insights. This is how you build trust with new readers before asking for self-reflection.
+
+### 🔴 Critical Gaps (From Previous Audit)
 
 1. **Relationship Content Suite** - Only 6 posts (1.7% of content!)
    - Dating dynamics by type
@@ -205,21 +251,24 @@ A new TypeScript blog index has been created at `src/lib/components/molecules/bl
 
 ---
 
-## Master Priority List (UPDATED 2025-09-09)
+## Master Priority List (UPDATED 2025-12-04)
 
 ### Week 1 (Immediate - THIS WEEK)
 
-1. ⬜ **CRITICAL:** Create 5+ Relationship Content pieces (1.7% → 5% of content)
+1. ⬜ **TOP PRIORITY:** Create 3+ Trust Onion "Outer Layer" posts (Top of Funnel)
+   - "Why dating apps are harder for certain types"
+   - "The algorithm is designed to exploit your type"
+   - "Why therapy doesn't work the same for every type"
+2. ⬜ **CRITICAL:** Create 5+ Relationship Content pieces (1.7% → 5% of content)
    - Dating dynamics by type
    - Conflict resolution scripts
    - Complete Active Listening guide (outline ready)
-2. ⬜ **CRITICAL:** Create 5+ Personality Optimization pieces (2.3% → 5% of content)
+3. ⬜ **CRITICAL:** Create 5+ Personality Optimization pieces (2.3% → 5% of content)
    - Productivity systems by type
    - Morning routines by type
    - Complete Positive Self-Talk guide (outline ready)
-3. ⬜ **HIGH:** Complete 27 Subtypes Guide (outline ready in drafts)
-4. ⬜ **HIGH:** Leadership Styles by Type
-5. ⬜ **Continue:** Twitter Phase 1 execution + Reddit value comments
+4. ⬜ **HIGH:** Complete 27 Subtypes Guide (outline ready in drafts)
+5. ⬜ **Continue:** Twitter strategy execution (with Viral Coach frameworks)
 
 ### Week 2-3 (Short-term)
 
@@ -437,27 +486,41 @@ Before publishing any content:
 
 ---
 
-## Final Recommendations (DATA-DRIVEN UPDATE)
+## Final Recommendations (UPDATED 2025-12-04 - VIRAL COACH INTEGRATION)
 
 ### Immediate Actions (THIS WEEK):
 
-1. **CRITICAL:** Create 10+ posts in relationship/optimization domains (currently <4% of content combined!)
-2. **Complete:** 3 draft outlines that are ready (Active Listening, Positive Self-Talk, 27 Subtypes)
-3. **Continue:** Twitter Phase 1 Week 2 + Daily Reddit value comments
-4. **Track:** Set up daily progress summaries in /daily-progress
+1. **TOP PRIORITY:** Create 3+ "Trust Onion Outer Layer" posts (meet readers where they are)
+2. **CRITICAL:** Create 10+ posts in relationship/optimization domains (currently <4% of content combined!)
+3. **Complete:** 3 draft outlines that are ready (Active Listening, Positive Self-Talk, 27 Subtypes)
+4. **Execute:** Twitter strategy with new Viral Coach frameworks (reposting, competitor research)
 5. **Leverage:** Use celebrity content (71% of site) to drive traffic to new guides
 
-### Key Insights from Content Audit:
+### Key Insights from Content Audit + Viral Coach:
 
 - **SURPRISE:** Pop culture content dominates (71%) - use this traffic magnet wisely
 - **CRITICAL GAP:** Relationships (1.7%) and Optimization (2.3%) desperately need content
+- **STRATEGIC GAP:** Most content is Middle/Bottom funnel - need more Top of Funnel
+- **TRUST GAP:** Content jumps to self-responsibility - need "circumstances layer" first
 - **STRENGTH:** Mental health suite is solid, Enneagram core is strong
 - **OPPORTUNITY:** Parenting, education, and financial verticals completely untapped
+
+### Strategic Frameworks Now Integrated:
+
+> **Reference:** [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md)
+
+1. **Content Funnel** - Tag all content as ToF/MoF/BoF (see `/docs/writing-system/README.md`)
+2. **Trust Onion** - Create content for each layer, don't skip to Inner
+3. **EEO Continuum** - Calibrate voice (Observation → Experience → Expert)
+4. **Content Flywheel** - Every blog = 5-10 social posts + scheduled reposts
+5. **Competitor Research** - Monthly analysis of "slightly ahead" accounts
 
 ### Long-term Vision:
 
 **9takes leverages its dominant celebrity analysis database (largest online!) to become THE definitive resource for ALL personality-based life optimization, balancing viral pop culture content with deep, practical guides across relationships, career, wellness, and personal growth.**
 
+**The new approach:** Meet people where they are (circumstances/external blame), build trust through the layers, THEN offer deep self-reflection content.
+
 ---
 
-_This index has been completely revised based on actual content audit conducted 2025-09-09. Review weekly and update based on progress._
+_This index revised 2025-12-04 with Viral Coach framework integration. Review weekly and update based on progress._

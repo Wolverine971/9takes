@@ -33,9 +33,9 @@ The achiever hears failure where you meant humanity.
 
 **No wonder we're all exhausted.**
 
-Every conversation is a translation problem. Every misunderstanding is a language barrier. Every conflict? Two people speaking fluently in languages the other doesn't recognize.
+Every conversation is a translation problem. Every misunderstanding is a language barrier. Every conflict? Two people speaking fluently in languages the other doesn't recognize. (Understanding [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress) helps you recognize when these patterns intensify.)
 
-Ready to become multilingual?
+Ready to become multilingual? (For a quick introduction to the nine types, see our [Enneagram overview](/enneagram-corner/enneagram-tldr).)
 
 ## Type 1: The Perfectionist's Dictionary
 
@@ -583,6 +583,8 @@ The Enneagram reminds us that true communication isn't just about sending and re
 Remember that these descriptions represent patterns, not rigid boxes. Individual variations exist within each type, and all of us have access to healthy communication strategies from across the Enneagram spectrum.
 
 Which communication language do you speak naturally? Which ones feel like a foreign language to you? Learning to recognize and speak multiple Enneagram languages might be the most valuable communication skill you'll ever develop.
+
+For deeper relationship insights, explore [how each type loves](/enneagram-corner/enneagram-types-in-relationships) and discover [relationship communication strategies](/enneagram-corner/relationship-communication-guide) tailored to personality patterns.
 
 <svelte:head>
 

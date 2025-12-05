@@ -47,7 +47,10 @@
 			"Bash(cat:*)",
 			"Bash(. /Users/annawayne/9takes/.env)",
 			"Bash(pnpm build:*)",
-			"Bash(git diff:*)"
+			"Bash(git diff:*)",
+			"WebFetch(domain:www.skool.com)",
+			"WebFetch(domain:brenebrown.com)",
+			"WebFetch(domain:www.hubermanlab.com)"
 		],
 		"deny": [],
 		"ask": [],

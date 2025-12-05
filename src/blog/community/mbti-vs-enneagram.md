@@ -89,7 +89,7 @@ This post isn't about bashing MBTI. It's about asking a better question:
 <strong class="text-xl">What if there were a personality framework that actually helped you grow into your best self, find the right work, and transform society?</strong>
 </div>
 
-That's where the Enneagram comes in.
+That's where the Enneagram comes in. (New to it? Start with our [quick Enneagram overview](/enneagram-corner/enneagram-tldr) or [find your type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type).)
 
 <h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">🧰 Where MBTI Failed — And How Enneagram Can Do Better</h2>
 
@@ -182,6 +182,8 @@ Encourages internal transformation
 </div>
 </div>
 
+For a detailed breakdown, see our [Enneagram vs Myers-Briggs comparison](/enneagram-corner/enneagram-vs-meyers-briggs).
+
 <h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">🛠️ A Functional, Non-Dystopic Model of Enneagram Society</h2>
 
 <div class="bg-blue-50 border-l-4 border-blue-400 p-6 my-8 rounded-lg">
@@ -205,7 +207,7 @@ Encourages internal transformation
 </div>
 
 <div class="bg-purple-100 p-4 rounded-lg mt-6 border-l-4 border-purple-500">
-<strong>Example:</strong> You might be a Type 9 who thought you wanted peace and routine—but your growth toward 3 shows you actually thrive in empowered leadership when emotionally supported.
+<strong>Example:</strong> You might be a Type 9 who thought you wanted peace and routine—but your growth toward 3 shows you actually thrive in empowered leadership when emotionally supported. (Learn about [how types change under stress](/enneagram-corner/enneagram-types-in-stress).)
 </div>
 </div>
 
@@ -403,12 +405,13 @@ And maybe—one day—their whole world.
 </div>
 
 <div class="bg-yellow-50 border border-yellow-200 border-l-4 border-l-yellow-500 p-6 rounded-lg my-8">
-<p class="text-lg"><strong>Still skeptical?</strong> That's healthy.</p>
+<p class="text-lg"><strong>Still skeptical?</strong> That's healthy. Read more about [common Enneagram criticisms](/enneagram-corner/enneagram-criticisms) and how we address them.</p>
 <p class="mt-4">The Enneagram isn't perfect. But it <em>is</em> powerful—especially when wielded with curiosity, not control.</p>
 </div>
 
 <div class="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-lg text-center my-12">
 <h2 class="text-3xl font-bold mb-4">Let's use it not to sort people, but to liberate them.</h2>
+<p class="mt-4">Ready to start? Explore our [Enneagram self-development guide](/enneagram-corner/enneagram-self-development).</p>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">

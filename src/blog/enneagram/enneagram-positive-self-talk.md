@@ -19,6 +19,7 @@ path: src/blog/enneagram/enneagram-positive-self-talk.md
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
 </script>
 
 <p class="firstLetter">That voice in your head? It's not random. It's running a script written when you were five years old.</p>
@@ -37,15 +38,20 @@ Think about it: You've probably tried positive affirmations before. You stood in
 
 Before we can rewire anything, we need to decode what's actually happening in your head. Each Enneagram type runs a predictable script:
 
-- **Type 1s hear:** "You're not good enough. That mistake proves you're incompetent."
-- **Type 2s hear:** "You're selfish if you have needs. They matter more than you."
-- **Type 3s hear:** "You're worthless if you're not achieving. Keep running or you're nothing."
-- **Type 4s hear:** "You're fundamentally flawed. Everyone else has it figured out except you."
-- **Type 5s hear:** "You're incompetent. You don't know enough to engage."
-- **Type 6s hear:** "Something bad is about to happen. You can't trust yourself."
-- **Type 7s hear:** "You're missing out. This moment isn't enough."
-- **Type 8s hear:** "You're weak if you feel. Never let them see you vulnerable."
-- **Type 9s hear:** "You don't matter. It's easier to disappear."
+<TypeQuotes
+title="The Inner Critic Script"
+quotes={[
+{ type: 1, quote: "You're not good enough. That mistake proves you're incompetent." },
+{ type: 2, quote: "You're selfish if you have needs. They matter more than you." },
+{ type: 3, quote: "You're worthless if you're not achieving. Keep running or you're nothing." },
+{ type: 4, quote: "You're fundamentally flawed. Everyone else has it figured out except you." },
+{ type: 5, quote: "You're incompetent. You don't know enough to engage." },
+{ type: 6, quote: "Something bad is about to happen. You can't trust yourself." },
+{ type: 7, quote: "You're missing out. This moment isn't enough." },
+{ type: 8, quote: "You're weak if you feel. Never let them see you vulnerable." },
+{ type: 9, quote: "You don't matter. It's easier to disappear." }
+]}
+/>
 
 Sound familiar? That's because these aren't random thoughts – they're survival strategies your child-brain developed to navigate a world that felt unsafe in very specific ways.
 

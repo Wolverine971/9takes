@@ -2,13 +2,14 @@
 <script lang="ts">
 	import Pluralize from 'pluralize';
 	export let suggestions: {
-		niche: { posts: App.BlogPost[] };
+		niche: { posts: App.BlogPost[]; type?: string };
 		sameEnneagram: { posts: App.BlogPost[]; type: string };
 	};
 	let innerWidth: number;
 	$: capitalizedPluralNiche = formatNiche(suggestions.niche.type);
 
-	function formatNiche(niche: string): string {
+	function formatNiche(niche: string | undefined): string {
+		if (!niche) return 'People';
 		const plural = Pluralize(niche);
 		return (
 			plural.charAt(0).toUpperCase() +
@@ -24,7 +25,52 @@
 
 		return nunbos;
 	}
+
+	// Generate ItemList JSON-LD for related people/articles
+	$: itemListJsonLd = generateItemListJsonLd();
+
+	function generateItemListJsonLd(): string {
+		const allPosts = [
+			...suggestions.niche.posts.slice(0, 6),
+			...suggestions.sameEnneagram.posts.slice(0, 6)
+		];
+
+		if (!allPosts.length) return '';
+
+		// Remove duplicates by slug
+		const uniquePosts = allPosts.filter(
+			(post, index, self) => index === self.findIndex((p) => p.slug === post.slug)
+		);
+
+		return JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': 'ItemList',
+			name: 'Related Personality Analyses',
+			description: 'Related celebrity and famous person personality analysis articles',
+			numberOfItems: uniquePosts.length,
+			itemListElement: uniquePosts.map((post, index) => ({
+				'@type': 'ListItem',
+				position: index + 1,
+				item: {
+					'@type': 'Article',
+					name: post.title || post.slug.split('-').join(' '),
+					url: `https://9takes.com/personality-analysis/${post.slug}`,
+					image: `https://9takes.com/types/${post.enneagram}s/${post.slug}.webp`,
+					about: {
+						'@type': 'Person',
+						name: post.slug.split('-').join(' ')
+					}
+				}
+			}))
+		});
+	}
 </script>
+
+<svelte:head>
+	{#if itemListJsonLd}
+		{@html `<script type="application/ld+json">${itemListJsonLd}</script>`}
+	{/if}
+</svelte:head>
 
 <svelte:window bind:innerWidth />
 

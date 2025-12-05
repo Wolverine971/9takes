@@ -11,12 +11,6 @@
 	export let question: string = '';
 
 	/**
-	 * Optional explicit answer for structured data
-	 * If not provided, falls back to slot content
-	 */
-	export let answer: string = '';
-
-	/**
 	 * Visual style variant
 	 * - 'default': Purple gradient (matches 9takes brand)
 	 * - 'subtle': Light gray with accent

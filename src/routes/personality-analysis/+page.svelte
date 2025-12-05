@@ -215,40 +215,38 @@
 		}
 	}
 
-	/* Hero Section - Compact */
+	/* Hero Section */
 	.hero {
-		background: var(--darkest-gray);
-		padding: 0.75rem 1rem;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2rem 1.5rem 1rem;
 		text-align: center;
-		color: white;
 	}
 
 	.hero h1 {
-		font-size: 1.25rem;
-		font-weight: 600;
-		line-height: 1;
+		font-size: 1.75rem;
+		font-weight: 700;
+		line-height: 1.2;
 		margin: 0;
-		letter-spacing: -0.01em;
+		letter-spacing: -0.02em;
+		color: var(--text-primary);
 	}
 
 	/* Quick Navigation */
 	.quick-nav {
-		background: var(--card-background);
-		border-bottom: 1px solid var(--border-color);
-		padding: 1rem 1.5rem;
-		position: sticky;
-		top: 60px;
-		z-index: 30;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 1.5rem 1.5rem;
 	}
 
 	.nav-scroll {
 		display: flex;
 		gap: 0.5rem;
 		overflow-x: auto;
-		max-width: 1200px;
-		margin: 0 auto;
 		padding-bottom: 0.25rem;
 		scrollbar-width: none;
+		justify-content: center;
+		flex-wrap: wrap;
 
 		&::-webkit-scrollbar {
 			display: none;
@@ -500,16 +498,15 @@
 
 	@media (max-width: 640px) {
 		.hero {
-			padding: 0.5rem 0.75rem;
+			padding: 1.25rem 0.75rem 0.75rem;
 		}
 
 		.hero h1 {
-			font-size: 1.1rem;
+			font-size: 1.35rem;
 		}
 
 		.quick-nav {
-			padding: 0.5rem 0.75rem;
-			top: 56px;
+			padding: 0 0.75rem 1rem;
 		}
 
 		.nav-pill {
@@ -594,7 +591,7 @@
 
 	@media (max-width: 380px) {
 		.hero h1 {
-			font-size: 1rem;
+			font-size: 1.2rem;
 		}
 
 		.people-grid {

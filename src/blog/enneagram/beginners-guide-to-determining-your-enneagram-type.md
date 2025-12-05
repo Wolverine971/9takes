@@ -15,6 +15,10 @@ pic: 'greek-statues-two-females-on-phones'
 path: src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md
 ---
 
+<script>
+  import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
+</script>
+
 <p class="firstLetter">You've taken the personality quiz. Got your four letters. Maybe even discovered your color or animal type.</p>
 
 **But something's still missing.**
@@ -135,9 +139,14 @@ It's a brilliant survival strategy you developed as a kid. Not necessarily from 
 
 **The lesson you learned:**
 
-- Type 8: "I must never be vulnerable"
-- Type 9: "My needs create conflict"
-- Type 1: "I'm only good if I'm perfect"
+<TypeQuotes
+variant="subtle"
+quotes={[
+{ type: 8, quote: "I must never be vulnerable" },
+{ type: 9, quote: "My needs create conflict" },
+{ type: 1, quote: "I'm only good if I'm perfect" }
+]}
+/>
 
 ### If You're SHAME-Driven (2, 3, 4):
 
@@ -149,9 +158,14 @@ It's a brilliant survival strategy you developed as a kid. Not necessarily from 
 
 **The lesson you learned:**
 
-- Type 2: "I'm only loved when I'm helpful"
-- Type 3: "I'm only valued for what I achieve"
-- Type 4: "I'm fundamentally different (and that's why I'm alone)"
+<TypeQuotes
+variant="subtle"
+quotes={[
+{ type: 2, quote: "I'm only loved when I'm helpful" },
+{ type: 3, quote: "I'm only valued for what I achieve" },
+{ type: 4, quote: "I'm fundamentally different (and that's why I'm alone)" }
+]}
+/>
 
 ### If You're FEAR-Driven (5, 6, 7):
 
@@ -163,9 +177,14 @@ It's a brilliant survival strategy you developed as a kid. Not necessarily from 
 
 **The lesson you learned:**
 
-- Type 5: "The world takes more than it gives"
-- Type 6: "I can't trust authority to keep me safe"
-- Type 7: "Pain must be avoided at all costs"
+<TypeQuotes
+variant="subtle"
+quotes={[
+{ type: 5, quote: "The world takes more than it gives" },
+{ type: 6, quote: "I can't trust authority to keep me safe" },
+{ type: 7, quote: "Pain must be avoided at all costs" }
+]}
+/>
 
 **Stop and reflect:** Which childhood lesson still runs your adult life?
 
@@ -317,7 +336,7 @@ _"Life is full of possibilities I can't miss"_
 
 Still unsure? This is the clincher.
 
-Each type has **predictable patterns** when thriving or struggling. These "connecting lines" reveal your true type.
+Each type has **predictable patterns** when thriving or struggling. These "[connecting lines](/enneagram-corner/enneagram-types-in-stress)" reveal your true type.
 
 <div style="display: flex; text-align: center; justify-content: center; margin: 2rem 0;">
 <img loading="lazy" src="/blogs/enneagram-integration.webp" alt="Enneagram growth and stress lines" title="How each type changes under stress and growth" style="border-radius: 10px; max-width: 70%;" />
@@ -359,8 +378,8 @@ Each type has **predictable patterns** when thriving or struggling. These "conne
 
 ### Mistake #3: You're Confusing Your Wing for Your Core
 
-**The trap:** "I'm either a 3 or a 4"  
-**The truth:** You might be a 3 with a 4 wing
+**The trap:** "I'm either a 3 or a 4"
+**The truth:** You might be a 3 with a 4 wing (learn more about [Enneagram wings](/enneagram-corner/enneagram-wings-complete-guide))
 
 **The fix:** Focus on core fears first, flavoring second
 
@@ -382,7 +401,7 @@ But here's what matters more:
 
 1. **Test your hypothesis:** Watch yourself for 24 hours. Notice when your type's patterns show up.
 
-2. **Find your growth path:** Each type has specific practices for health. [Explore the types →](/enneagram-corner)
+2. **Find your growth path:** Each type has specific practices for health. [Get the quick overview →](/enneagram-corner/enneagram-tldr) or explore [self-development strategies by type](/enneagram-corner/enneagram-self-development)
 
 3. **Join the conversation:** Share your type discovery with someone close. Their reaction will confirm or challenge your self-assessment.
 
@@ -394,7 +413,7 @@ Now that you see the box you've been living in...
 
 ---
 
-_P.S. Still uncertain? That's normal. Some people take months to find their true type. The key is to keep observing your motivations, not your behaviors. The truth always reveals itself._
+_P.S. Still uncertain? That's normal. Some people take months to find their true type. The key is to keep observing your motivations, not your behaviors. The truth always reveals itself. For deeper understanding, explore [how each type communicates](/enneagram-corner/enneagram-communication-styles) or [what happens under stress](/enneagram-corner/enneagram-types-in-stress)._
 
 <svelte:head>
 

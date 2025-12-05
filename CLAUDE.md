@@ -257,6 +257,7 @@ SEO-optimized component for Featured Snippets. Use at the top of blog posts to p
 
 #### Other Callout Components
 
+- `TypeQuotes.svelte` - Display Enneagram type quotes/statements (see `/docs/START-HERE.md` for usage)
 - `InsightBox.svelte` - Highlight key insights
 - `VisualMetaphor.svelte` - Visual metaphor callouts
 - `Checklist.svelte` - Interactive checklists

@@ -20,6 +20,7 @@ path: src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md
   import PopCard from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+  import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
 </script>
 
 <QuickAnswer question="Why are you burning out at work?">
@@ -512,15 +513,20 @@ You're asleep at your own life. Here's the alarm clock:
 
 **Stop managing everyone the same way. Here's what each type actually needs:**
 
-**Type 1**: "Here's the standard. You decide how to reach it."
-**Type 2**: "Your help yesterday made this possible. Thank you."
-**Type 3**: "Success includes your wellbeing. Both matter."
-**Type 4**: "Your unique perspective is why you're here."
-**Type 5**: "Work from home. Email me updates."
-**Type 6**: "Here's the plan, the backup, and why it won't fail."
-**Type 7**: "Three projects max, but make them interesting."
-**Type 8**: "You run this. I'll back you up."
-**Type 9**: "Your opinion matters. What do you think?"
+<TypeQuotes
+title="What to Say to Each Type"
+quotes={[
+{ type: 1, quote: "Here's the standard. You decide how to reach it." },
+{ type: 2, quote: "Your help yesterday made this possible. Thank you." },
+{ type: 3, quote: "Success includes your wellbeing. Both matter." },
+{ type: 4, quote: "Your unique perspective is why you're here." },
+{ type: 5, quote: "Work from home. Email me updates." },
+{ type: 6, quote: "Here's the plan, the backup, and why it won't fail." },
+{ type: 7, quote: "Three projects max, but make them interesting." },
+{ type: 8, quote: "You run this. I'll back you up." },
+{ type: 9, quote: "Your opinion matters. What do you think?" }
+]}
+/>
 
 ### The 3-Question Diagnostic
 

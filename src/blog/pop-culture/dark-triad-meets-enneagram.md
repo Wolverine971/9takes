@@ -63,7 +63,7 @@ Before we dive into specific cases, let's define our terms:
 
 **Machiavellianism**: Strategic manipulation, cynical worldview, and moral flexibility. The belief that "the ends justify the means."
 
-These traits exist on a spectrum. We all have some degree of these characteristics—they become pathological when they dominate personality and harm others.
+These traits exist on a spectrum. We all have some degree of these characteristics—they become pathological when they dominate personality and harm others. (For a related exploration, see our guide on [toxic traits of each Enneagram type](/enneagram-corner/toxic-traits-of-each-enneagram-type).)
 
 ## Important Disclaimer
 
@@ -541,12 +541,14 @@ Regardless of Enneagram type, Dark Triad manifestations share:
 
 It's crucial to understand that:
 
-- Dark Triad traits often emerge from severe trauma
-- Mental illness can distort any personality type
+- Dark Triad traits often emerge from severe trauma (explore [Enneagram trauma responses](/enneagram-corner/mental-health/enneagram-trauma-response-guide))
+- Mental illness can distort any personality type (see [the Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness))
 - These patterns represent extremes, not inevitabilities
 - Most people with these conditions never become violent
 
 ### Warning Signs Across Types
+
+Understanding [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress) can help identify these warning signs early:
 
 - **Type 1**: Increasing rigidity and punishment
 - **Type 2**: Possessive behavior and boundary violations
@@ -582,7 +584,7 @@ Recognizing that even monsters were once human helps us:
 
 ### Personal Shadow Work
 
-Examining extreme cases helps us recognize our own shadows:
+Examining extreme cases helps us recognize our own shadows. For guidance on integrating these shadow aspects, see our [shadow work by Enneagram type](/enneagram-corner/shadow-work-by-enneagram-type) guide:
 
 - Type 1s can see their judgmental tendencies
 - Type 2s can recognize possessive impulses
@@ -628,7 +630,7 @@ These extreme cases serve as warnings and teachers. They show us what happens wh
 
 But they also remind us that understanding darkness is the first step toward choosing light. Every type has the capacity for both great harm and great healing. The question isn't what type we are, but what we do with that knowledge.
 
-In examining the worst expressions of each type, we better understand how to cultivate the best. The Dark Triad may reveal our shadows, but the Enneagram shows us the path toward integration, healing, and wholeness.
+In examining the worst expressions of each type, we better understand how to cultivate the best. The Dark Triad may reveal our shadows, but the Enneagram shows us the path toward integration, healing, and wholeness. For the constructive path forward, explore [how each type manipulates](/enneagram-corner/how-each-enneagram-type-manipulates) (and how to spot it) or begin your [Enneagram self-development](/enneagram-corner/enneagram-self-development) journey.
 
 Remember: If you recognize concerning patterns in yourself or others, seek professional help. Mental health support can prevent trajectories toward darkness and guide toward healing.
 

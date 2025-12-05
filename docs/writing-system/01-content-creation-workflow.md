@@ -2,7 +2,7 @@
 
 # Content Creation Workflow
 
-_Last Modified: 2025-08-15_
+_Last Modified: 2025-12-04_
 _Purpose: Step-by-step process for creating high-quality blog content_
 
 ## Overview
@@ -30,6 +30,54 @@ Fill this out for every piece:
 - **Proof Sources:** [Data, examples, case studies]
 - **Success Metric:** [How we measure success]
 - **Internal Links:** [3-5 related posts]
+
+#### Audience & Voice Planning
+
+> **Why this matters:** Content that doesn't match where your reader is in their journey will fall flat. A new reader won't respond to expert-voice advice they haven't earned trust to receive. These frameworks help you match content to audience.
+>
+> **Deep dive:** See [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md) for full explanations of these frameworks.
+
+**1. Funnel Stage** — Where is this content in the reader's journey?
+
+| Stage                  | Purpose             | Reader State           |
+| ---------------------- | ------------------- | ---------------------- |
+| ☐ **Top of Funnel**    | Attract new readers | Doesn't know you yet   |
+| ☐ **Middle of Funnel** | Build trust         | Interested, evaluating |
+| ☐ **Bottom of Funnel** | Convert to action   | Ready to act           |
+
+**2. Trust Onion Layer** — Where does your reader place blame right now?
+
+| Layer        | They Blame                           | Your Approach                              |
+| ------------ | ------------------------------------ | ------------------------------------------ |
+| ☐ **Outer**  | Circumstances (time, money, society) | Validate struggles first, offer quick wins |
+| ☐ **Middle** | Specific people (boss, ex, parents)  | Pattern recognition, strategic advice      |
+| ☐ **Inner**  | Themselves                           | Coaching content (only if trust is built)  |
+
+**9takes insight:** Most new readers are at the Outer layer. Content that jumps straight to "here's what YOU'RE doing wrong" loses them. Meet them where they are.
+
+**3. Voice (EEO Continuum)** — How authoritative should you sound?
+
+| Voice             | Use When          | Example                            |
+| ----------------- | ----------------- | ---------------------------------- |
+| ☐ **Observation** | New/cold audience | "Studies show Type 5s tend to..."  |
+| ☐ **Experience**  | Warming audience  | "In my experience with Type 5s..." |
+| ☐ **Expert**      | Trusted audience  | "Type 5s do this because..."       |
+
+**Mapping guideline:**
+
+| If Funnel Stage is... | Default Trust Layer | Default Voice |
+| --------------------- | ------------------- | ------------- |
+| Top of Funnel         | Outer               | Observation   |
+| Middle of Funnel      | Middle              | Experience    |
+| Bottom of Funnel      | Inner               | Expert        |
+
+**4. Social Repurposing Plan** (for Content Flywheel)
+
+Every blog post should generate social content. Plan it now:
+
+- Thread hook: ******\_\_\_\_******
+- Standalone tweet angles: ******\_\_\_\_******
+- Question/poll: ******\_\_\_\_******
 
 ### Content Type Decision Tree
 
@@ -177,6 +225,16 @@ Choose based on content type:
 4. **Front-load importance** → Key info first
 5. **Kill filler words:** very, really, basically, just, actually
 
+#### Reading Level Check
+
+**Why this matters:** Simpler content reaches more people. A huge portion of the population has a reading level below 6th grade. Complexity isn't intelligence—clarity is.
+
+1. Paste your content into [Hemingway Editor](https://hemingwayapp.com/)
+2. **Target:** Grade 6 or lower
+3. Simplify complex sentences
+4. Replace jargon with everyday words
+5. Short sentences beat long ones
+
 #### Quick Edit Checklist
 
 - [ ] Cut opening throat-clearing
@@ -185,6 +243,8 @@ Choose based on content type:
 - [ ] Eliminate redundancy
 - [ ] Check fact accuracy
 - [ ] Verify internal links
+- [ ] Reading level ≤ Grade 6
+- [ ] Voice matches funnel stage (see [Audience & Voice Planning](#audience--voice-planning))
 
 ## Phase 5: SEO & Technical Optimization
 
@@ -248,6 +308,26 @@ pic: 'image-name'
 4. Schedule email newsletter
 5. Plan Twitter thread
 6. Track initial metrics
+
+### Content Flywheel Checklist (Required)
+
+**Why this matters:** High-effort content (blog posts) should generate low-effort content (tweets), which drives engagement, which generates ideas for new blog posts. This creates momentum—the more you create, the faster the wheel spins. Reposting successful content extends its value.
+
+> **Deep dive:** See [`/docs/viral-coach-framework-reference.md`](../viral-coach-framework-reference.md#4-content-flywheel) for the full Content Flywheel concept.
+
+Every blog post should generate these within 48 hours:
+
+- [ ] **1 X Thread** - Break post into 6-10 tweets with strong hook
+- [ ] **3-5 Standalone Tweets** - Individual insights from the post
+- [ ] **1 "9 Takes" Post** - If applicable (one situation, 9 reactions)
+- [ ] **1 Question/Poll** - From FAQ or key insight
+- [ ] **Schedule Repost** - Add best performer to calendar for 4-6 weeks out
+
+**Flywheel Metrics to Track:**
+
+- Which tweets performed best? (for repost scheduling)
+- Which angles got most engagement? (for future content ideas)
+- What questions came up in replies? (for future blog posts)
 
 ## Quality Standards
 

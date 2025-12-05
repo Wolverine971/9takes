@@ -100,12 +100,14 @@
 
 	<!-- Mobile navigation overlay -->
 	{#if isMenuOpen}
+		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 		<div
 			class="mobile-nav-overlay"
 			role="dialog"
 			aria-modal="true"
 			aria-labelledby="mobile-nav-title"
 			on:click={handleBackdropClick}
+			on:keydown={handleKeydown}
 			in:fade={{ duration: 300, easing: cubicOut }}
 			out:fade={{ duration: 200, easing: cubicOut }}
 		>

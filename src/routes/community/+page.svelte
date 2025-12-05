@@ -71,19 +71,20 @@
 		}
 	}
 
-	/* Hero - Compact */
+	/* Hero Section */
 	.hero {
-		background: var(--darkest-gray);
-		padding: 0.75rem 1rem;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2rem 1.5rem 1.5rem;
 		text-align: center;
-		color: white;
 	}
 
 	.hero h1 {
-		font-size: 1.25rem;
-		font-weight: 600;
-		line-height: 1;
+		font-size: 1.75rem;
+		font-weight: 700;
+		line-height: 1.2;
 		margin: 0;
+		color: var(--text-primary);
 	}
 
 	/* Main Content */
@@ -201,11 +202,11 @@
 
 	@media (max-width: 640px) {
 		.hero {
-			padding: 0.5rem 0.75rem;
+			padding: 1.25rem 0.75rem 1rem;
 		}
 
 		.hero h1 {
-			font-size: 1.1rem;
+			font-size: 1.35rem;
 		}
 
 		.main-content {
@@ -248,7 +249,7 @@
 
 	@media (max-width: 380px) {
 		.hero h1 {
-			font-size: 1rem;
+			font-size: 1.2rem;
 		}
 
 		.blog-grid {

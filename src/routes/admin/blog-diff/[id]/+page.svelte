@@ -306,7 +306,6 @@
 								showIcon={false}
 								enneagramType={data.blog?.enneagram}
 								displayText={data.blog?.person?.split('-').join(' ') || ''}
-								lazyLoad={true}
 								subtext=""
 							/>
 						</div>

@@ -34,7 +34,7 @@ You've read the leadership books. Attended the seminars. Maybe even hired a coac
 
 Here's what Tim Ferriss discovered after interviewing 500+ world-class performers: **There isn't one right way to lead. There are nine.**
 
-The Enneagram reveals that each personality type has a completely different leadership operating system. What makes one type an inspiring leader makes another type seem fake. What motivates one type's team demoralizes another's.
+The Enneagram reveals that each personality type has a completely different leadership operating system. What makes one type an inspiring leader makes another type seem fake. What motivates one type's team demoralizes another's. (If you're new to the Enneagram, start with our [quick overview](/enneagram-corner/enneagram-tldr).)
 
 **The counterintuitive truth?** You've been trying to lead like someone you're not. And it's costing you millions. Companies that understand personality-based leadership see 415% ROI within the first year. Those that don't? They're part of that $8.9 trillion loss.
 
@@ -85,7 +85,7 @@ The Enneagram explains exactly which strengths you're overplaying and why. More 
 - **Million-Dollar Blind Spot:** Analysis paralysis costs 22% in performance
 - **The Fix:** Seneca's wisdom: "We suffer more often in imagination than in reality"
 
-Understanding your center reveals your leadership autopilot mode – and the exact cost of staying there.
+Understanding your center reveals your leadership autopilot mode – and the exact cost of staying there. (For more on [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress), see our comprehensive breakdown.)
 
 ## The 9 Leadership Archetypes
 
@@ -689,7 +689,7 @@ Think of leadership as a technology stack  you need different layers working to
 
 Remember Tim Ferriss's insight? _"A person's success in life can usually be measured by the number of uncomfortable conversations he or she is willing to have."_
 
-**Unresolved conflicts cost businesses $359 billion annually.** Here's the exact script for having the conversation your type avoids:
+**Unresolved conflicts cost businesses $359 billion annually.** Here's the exact script for having the conversation your type avoids. (For more on [how each type communicates](/enneagram-corner/enneagram-communication-styles), see our communication guide.)
 
 ### The 5-Sentence Format That Works
 
@@ -753,6 +753,8 @@ Set a reminder. Schedule it. Do it scared.
 ## Leading Different Personality Types
 
 <!-- {#leading-different-types} -->
+
+Understanding how to adapt your leadership style for different personality types is essential. For deeper insights into [team dynamics](/enneagram-corner/enneagram-team-dynamics) and [workplace team building](/enneagram-corner/enneagram-workplace-team-building), explore our dedicated guides.
 
 ### The Leadership Matrix
 
@@ -1184,7 +1186,7 @@ This isn't new information. The Enneagram has been around for centuries. Persona
 
 <!-- {#next-5-minutes} -->
 
-1. **Identify your type** (if you haven't already)
+1. **Identify your type** (if you haven't already—our [beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) can help)
 2. **Write down your biggest leadership fear**
 3. **Schedule one uncomfortable conversation for tomorrow**
 4. **Pick one thing to stop doing**

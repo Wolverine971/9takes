@@ -31,6 +31,61 @@ Your GSC data proves it:
 
 ---
 
+## STRATEGIC FRAMEWORKS (Audience-Aware Content)
+
+**What this section is:** These frameworks help you create content that matches where your reader is in their journey. Even great advice falls flat if delivered to the wrong audience at the wrong time.
+
+**Where these come from:** Adapted from the Viral Coach Masterclass, a professional content coaching course focused on social media growth.
+
+> **Deep dive:** [`/docs/viral-coach-framework-reference.md`](./viral-coach-framework-reference.md) — Full course notes with detailed explanations of each framework.
+
+### 1. Content Funnel (ToF/MoF/BoF)
+
+Every piece of content serves one of three purposes:
+
+| Stage                | Purpose             | % of Content | Example                                        |
+| -------------------- | ------------------- | ------------ | ---------------------------------------------- |
+| **Top of Funnel**    | Attract new readers | 50%          | "Why dating apps are harder for certain types" |
+| **Middle of Funnel** | Build trust         | 35%          | "How each type self-sabotages success"         |
+| **Bottom of Funnel** | Convert             | 15%          | Direct CTAs, newsletter signups                |
+
+**9takes gap:** Most content is Middle/Bottom. Need more Top of Funnel for growth.
+
+### 2. Trust Onion Framework 🧅
+
+New readers blame EXTERNAL factors. Meet them there before asking for self-reflection.
+
+| Layer      | They Blame                          | Content Strategy                          |
+| ---------- | ----------------------------------- | ----------------------------------------- |
+| **Outer**  | Circumstances (time, apps, economy) | Validate struggles, offer quick wins      |
+| **Middle** | Specific people (boss, ex, parents) | Pattern recognition, strategic advice     |
+| **Inner**  | Themselves                          | Coaching content (only after trust built) |
+
+**9takes gap:** Content often jumps to the Inner layer. Add more Outer layer content first.
+
+### 3. EEO Continuum (Voice Calibration)
+
+| Voice           | Use When          | Example                            |
+| --------------- | ----------------- | ---------------------------------- |
+| **Observation** | New/cold audience | "Studies show Type 5s tend to..."  |
+| **Experience**  | Warming audience  | "In my experience with Type 5s..." |
+| **Expert**      | Trusted audience  | "Type 5s do this because..."       |
+
+**Default:** Start with Observation/Experience, earn the Expert voice.
+
+### 4. Content Flywheel
+
+Every blog post should generate 5-10 social posts:
+
+```
+Blog Post → X Thread → Standalone Tweets → Engagement → New Blog Ideas
+    ↑__________________________________________________|
+```
+
+See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full flywheel checklist.
+
+---
+
 ## 📊 CURRENT STATE (December 2025)
 
 ### Content Inventory
@@ -121,6 +176,7 @@ For your top 10 pages:
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Full doc index**        | [`/docs/INDEX.md`](./INDEX.md)                                                                                                             |
 | Content workflow          | [`/docs/writing-system/01-content-creation-workflow.md`](./writing-system/01-content-creation-workflow.md)                                 |
+| 🆕 **X/Twitter strategy** | [`/docs/marketing/x-twitter-growth-strategy-2025.md`](./marketing/x-twitter-growth-strategy-2025.md)                                       |
 | AI & SEO optimization     | [`/docs/content-analysis/ai-search-optimization-guide.md`](./content-analysis/ai-search-optimization-guide.md)                             |
 | Celebrity optimization    | [`/docs/content-generation/celebrity-page-optimization-instructions.md`](./content-generation/celebrity-page-optimization-instructions.md) |
 | Domain gaps               | [`/docs/domain-authority/00-master-index.md`](./domain-authority/00-master-index.md)                                                       |
@@ -232,6 +288,34 @@ Celebrity blogs use TWO titles to balance virality with evergreen quality:
 ```
 
 **Note:** The `QuickAnswer` component includes Schema.org Answer markup for SEO and has distinctive purple gradient styling.
+
+### TypeQuotes Component (Enneagram Type Statements)
+
+Use `TypeQuotes` to display characteristic quotes/statements from different Enneagram types. Perfect for showing how types express themselves or react differently to situations.
+
+```svelte
+<script>
+	import TypeQuotes from '$lib/components/blog/callouts/TypeQuotes.svelte';
+</script>
+
+<TypeQuotes
+	quotes={[
+		{ type: 8, quote: "I'm not angry, I'm just passionate." },
+		{ type: 9, quote: 'I never get angry.', note: "Narrator: They're seething inside" },
+		{ type: 1, quote: "I'm not angry, I'm just frustrated things aren't done correctly." }
+	]}
+/>
+```
+
+**Props:**
+
+- `quotes` (required): Array with `type` (1-9), `quote`, and optional `note`
+- `title` (optional): Heading for the quote group
+- `variant`: `'default'` (purple), `'subtle'` (gray), or `'minimal'` (no background)
+
+**Features:** Color-coded badges per type, hover animations, dark mode support.
+
+**Important:** Do NOT use `PopCard` for text quotes. `PopCard` is for image cards with overlays only.
 
 ### Content Structure
 

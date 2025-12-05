@@ -29,6 +29,7 @@ NOTES:
   import PopCard from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+  import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
 </script>
 
 <div class="crisis-banner">
@@ -1171,15 +1172,20 @@ When a Type 9 fully breaks, they experience something closer to dissolution than
 
 **Type-specific openers:**
 
-- **Type 1**: "You're not your mistakes. Let's get through this together."
-- **Type 2**: "I love you for you—not what you do. Let me take care of you."
-- **Type 3**: "Who you are matters more than what you achieve. I see you."
-- **Type 4**: "Your pain is real. You belong here. I'm not leaving."
-- **Type 5**: "No pressure. I'm here when you're ready. You have enough."
-- **Type 6**: "I'm not going anywhere. We'll figure this out together."
-- **Type 7**: "You don't have to be okay. I can handle your pain."
-- **Type 8**: "You're still powerful. Asking for help isn't weakness."
-- **Type 9**: "You matter. What do YOU need right now?"
+<TypeQuotes
+title="What to Say to Someone in Crisis"
+quotes={[
+{ type: 1, quote: "You're not your mistakes. Let's get through this together." },
+{ type: 2, quote: "I love you for you—not what you do. Let me take care of you." },
+{ type: 3, quote: "Who you are matters more than what you achieve. I see you." },
+{ type: 4, quote: "Your pain is real. You belong here. I'm not leaving." },
+{ type: 5, quote: "No pressure. I'm here when you're ready. You have enough." },
+{ type: 6, quote: "I'm not going anywhere. We'll figure this out together." },
+{ type: 7, quote: "You don't have to be okay. I can handle your pain." },
+{ type: 8, quote: "You're still powerful. Asking for help isn't weakness." },
+{ type: 9, quote: "You matter. What do YOU need right now?" }
+]}
+/>
 
 ### Universal Do's
 

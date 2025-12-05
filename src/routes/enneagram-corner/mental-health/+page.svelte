@@ -1,11 +1,17 @@
 <!-- src/routes/enneagram-corner/mental-health/+page.svelte -->
 <script lang="ts">
-	import { page } from '$app/stores';
 	import type { PageData } from './$types';
+	import SEOHead from '$lib/components/SEOHead.svelte';
 
 	export let data: PageData;
 
 	const hubDescription = `Explore the intersection of Enneagram personality types and mental health. Our comprehensive guides help you understand how each type experiences anxiety, depression, trauma, and other mental health challenges, with tailored strategies for healing and growth.`;
+
+	const navItems = [
+		{ id: 'why', title: 'Why It Matters', icon: '💡' },
+		{ id: 'guides', title: 'Guides', icon: '📚' },
+		{ id: 'by-type', title: 'By Type', icon: '🔢' }
+	];
 
 	const categories = [
 		{
@@ -54,262 +60,834 @@
 			)
 		}
 	];
+
+	const typeData = [
+		{
+			vulnerabilities: [
+				'Anxiety disorders',
+				'Obsessive-compulsive tendencies',
+				'Perfectionism-related depression'
+			],
+			strengths: [
+				'Strong commitment to recovery',
+				'Systematic approach to healing',
+				'High integrity in treatment'
+			]
+		},
+		{
+			vulnerabilities: ['Codependency', 'Boundary issues', 'Caregiver burnout'],
+			strengths: [
+				'Natural support network building',
+				'Emotional intelligence',
+				'Helping others aids own healing'
+			]
+		},
+		{
+			vulnerabilities: [
+				'Workaholism and burnout',
+				'Identity-based depression',
+				'Stress-related health issues'
+			],
+			strengths: ['Goal-oriented recovery', 'Resilience and adaptability', 'Success-driven healing']
+		},
+		{
+			vulnerabilities: ['Major depression', 'Emotional dysregulation', 'Identity disturbances'],
+			strengths: [
+				'Deep self-awareness',
+				'Creative expression for healing',
+				'Authenticity in recovery'
+			]
+		},
+		{
+			vulnerabilities: ['Social anxiety', 'Avoidant patterns', 'Dissociation'],
+			strengths: [
+				'Research-based approach',
+				'Self-sufficiency in healing',
+				'Intellectual understanding aids recovery'
+			]
+		},
+		{
+			vulnerabilities: ['Generalized anxiety disorder', 'Phobias', 'Hypervigilance'],
+			strengths: [
+				'Loyalty to support systems',
+				'Thorough treatment planning',
+				'Community-oriented recovery'
+			]
+		},
+		{
+			vulnerabilities: ['ADHD-like symptoms', 'Addiction vulnerabilities', 'Masked depression'],
+			strengths: [
+				'Optimistic recovery outlook',
+				'Multiple healing modalities',
+				'Enthusiasm for growth'
+			]
+		},
+		{
+			vulnerabilities: [
+				'Anger management issues',
+				'Vulnerability avoidance',
+				'Stress-related illness'
+			],
+			strengths: ['Strong determination', 'Leadership in recovery', 'Protective of healing space']
+		},
+		{
+			vulnerabilities: ['Clinical depression', 'Dissociative tendencies', 'Chronic fatigue'],
+			strengths: [
+				'Holistic healing approach',
+				'Natural mediator in groups',
+				'Steady, sustainable recovery'
+			]
+		}
+	];
 </script>
 
-<svelte:head>
-	<title>Enneagram and Mental Health Hub | 9takes</title>
-	<meta name="description" content={hubDescription} />
-	<meta property="og:title" content="Enneagram and Mental Health Hub | 9takes" />
-	<meta property="og:description" content={hubDescription} />
-	<meta property="og:url" content="https://9takes.com/enneagram-corner/mental-health" />
-	<meta property="og:type" content="website" />
-	<link rel="canonical" href="https://9takes.com/enneagram-corner/mental-health" />
-</svelte:head>
+<SEOHead
+	title="Enneagram and Mental Health Hub | 9takes"
+	description={hubDescription}
+	canonical="https://9takes.com/enneagram-corner/mental-health"
+/>
 
-<div class="mx-auto max-w-7xl px-6">
-	<nav class="mb-8 text-sm text-gray-600">
-		<a href="/enneagram-corner" class="text-purple-600 no-underline hover:underline"
-			>Enneagram Corner</a
-		>
-		<span class="mx-2">/</span>
-		<span class="font-semibold text-gray-800">Mental Health</span>
-	</nav>
-
-	<header
-		class="mb-16 rounded-3xl bg-gradient-to-br from-gray-800 to-gray-900 p-12 text-center text-white"
-	>
-		<h1 class="mb-4 text-4xl font-bold text-white lg:text-5xl">Enneagram and Mental Health</h1>
-		<p class="mx-auto mb-8 max-w-3xl text-lg leading-relaxed text-white/95">{hubDescription}</p>
-
-		<div class="mx-auto max-w-2xl rounded-xl border-2 border-white/30 bg-white/10 p-6">
-			<p class="mb-2 font-semibold text-white">
-				<strong>If you're in crisis, please reach out:</strong>
-			</p>
-			<ul class="m-0 list-none p-0">
-				<li class="my-2 font-medium text-white">
-					National Suicide Prevention Lifeline: <strong>988</strong>
-				</li>
-				<li class="my-2 font-medium text-white">
-					Crisis Text Line: Text <strong>HOME</strong> to <strong>741741</strong>
-				</li>
-				<li class="my-2 font-medium text-white">Emergency Services: <strong>911</strong></li>
-			</ul>
-		</div>
+<div class="page-wrapper">
+	<!-- Hero Section -->
+	<header class="hero">
+		<h1>Enneagram & Mental Health</h1>
 	</header>
 
-	<section class="mb-16">
-		<h2 class="mb-8 text-center text-3xl font-semibold text-gray-800">
-			Why Personality Type Matters in Mental Health
-		</h2>
-		<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
-			<div
-				class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-purple-200 hover:shadow-lg"
-			>
-				<h3 class="mb-3 text-lg font-semibold text-purple-600">Personalized Understanding</h3>
-				<p class="m-0 text-sm leading-relaxed text-gray-600">
-					Each Enneagram type has unique mental health vulnerabilities and strengths, helping you
-					understand your specific patterns.
-				</p>
-			</div>
-			<div
-				class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-purple-200 hover:shadow-lg"
-			>
-				<h3 class="mb-3 text-lg font-semibold text-purple-600">Targeted Strategies</h3>
-				<p class="m-0 text-sm leading-relaxed text-gray-600">
-					What works for one type may not work for another. Find coping strategies tailored to your
-					personality.
-				</p>
-			</div>
-			<div
-				class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-purple-200 hover:shadow-lg"
-			>
-				<h3 class="mb-3 text-lg font-semibold text-purple-600">Earlier Recognition</h3>
-				<p class="m-0 text-sm leading-relaxed text-gray-600">
-					Understanding your type's warning signs helps you recognize mental health challenges
-					before they escalate.
-				</p>
-			</div>
-			<div
-				class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-purple-200 hover:shadow-lg"
-			>
-				<h3 class="mb-3 text-lg font-semibold text-purple-600">Better Treatment Outcomes</h3>
-				<p class="m-0 text-sm leading-relaxed text-gray-600">
-					Type-aware therapy approaches lead to more effective treatment and sustainable recovery.
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<section class="mb-16">
-		<h2 class="mb-8 text-center text-3xl font-semibold text-gray-800">
-			Quick Navigation by Your Type
-		</h2>
-		<div class="mx-auto grid max-w-2xl grid-cols-3 gap-6">
+	<!-- Quick Navigation -->
+	<nav class="quick-nav" aria-label="Topic Navigation">
+		<div class="nav-scroll">
+			{#each navItems as item}
+				<a href="#{item.id}" class="nav-pill">
+					<span class="nav-icon">{item.icon}</span>
+					<span class="nav-text">{item.title}</span>
+				</a>
+			{/each}
 			{#each Array(9) as _, i}
-				<a
-					href="#{i + 1}"
-					class="flex flex-col items-center rounded-xl border border-gray-200 bg-white p-6 no-underline shadow-sm transition-all duration-300 hover:-translate-y-1 hover:bg-purple-50 hover:shadow-lg"
-				>
-					<div class="mb-1 text-3xl font-bold text-purple-600">{i + 1}</div>
-					<div class="text-sm text-gray-600">Type {i + 1}</div>
+				<a href="#type-{i + 1}" class="nav-pill type-pill">
+					<span class="type-num">{i + 1}</span>
 				</a>
 			{/each}
 		</div>
-	</section>
+	</nav>
 
-	{#each categories as category}
-		<section class="mb-16">
-			<h2 class="mb-2 text-3xl font-semibold text-gray-800">{category.title}</h2>
-			<p class="mb-6 text-sm text-gray-600">{category.description}</p>
-			<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-				{#each category.blogs as blog}
-					<article
-						class="rounded-xl border border-white/10 bg-gradient-to-br from-gray-900 to-gray-800 p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:bg-gradient-to-br hover:from-gray-800 hover:to-gray-700 hover:shadow-lg"
-					>
-						<a
-							href="/enneagram-corner/mental-health/{blog.slug}"
-							class="block text-inherit no-underline"
-						>
-							<h3 class="mb-3 text-lg font-semibold leading-tight text-white">{blog.title}</h3>
-							<p class="mb-3 text-sm leading-relaxed text-white/80">{blog.description}</p>
-							<span class="text-sm font-medium text-purple-400">Read Guide →</span>
-						</a>
-					</article>
-				{/each}
+	<main class="main-content">
+		<!-- Crisis Banner -->
+		<section class="crisis-banner">
+			<strong>If you're in crisis, please reach out:</strong>
+			<div class="crisis-contacts">
+				<span>988 (Suicide Prevention)</span>
+				<span>Text HOME to 741741</span>
+				<span>911 (Emergency)</span>
 			</div>
 		</section>
-	{/each}
 
-	<section class="mb-16">
-		<h2 class="mb-4 text-center text-3xl font-semibold text-gray-800">
-			Mental Health Resources by Enneagram Type
-		</h2>
-		<p class="mb-12 text-center text-sm text-gray-600">
-			Find all mental health resources specific to your type in one place.
-		</p>
-
-		{#each Array(9) as _, i}
-			{@const typeNum = i + 1}
-			{@const typeBlogs = data.mentalHealthBlogs.filter(
-				(blog) => blog.loc && !blog.loc.includes(`type-${typeNum}`) // This would need adjustment based on how type-specific content is marked
-			)}
-			<div
-				id={typeNum.toString()}
-				class="mb-8 rounded-xl border border-gray-100 bg-white p-8 shadow-sm"
-			>
-				<h3 class="mb-6 text-xl font-semibold text-purple-600">
-					Type {typeNum} Mental Health Resources
-				</h3>
-				<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+		<!-- Why It Matters Section -->
+		<section class="content-section" id="why">
+			<div class="section-header">
+				<div class="section-title-group">
+					<span class="section-icon">💡</span>
 					<div>
-						<h4 class="mb-4 text-lg">Common Vulnerabilities</h4>
-						<ul class="m-0 list-disc pl-6">
-							{#if typeNum === 1}
-								<li class="mb-2 text-sm text-gray-600">Anxiety disorders</li>
-								<li class="mb-2 text-sm text-gray-600">Obsessive-compulsive tendencies</li>
-								<li class="mb-2 text-sm text-gray-600">Perfectionism-related depression</li>
-							{:else if typeNum === 2}
-								<li class="mb-2 text-sm text-gray-600">Codependency</li>
-								<li class="mb-2 text-sm text-gray-600">Boundary issues</li>
-								<li class="mb-2 text-sm text-gray-600">Caregiver burnout</li>
-							{:else if typeNum === 3}
-								<li class="mb-2 text-sm text-gray-600">Workaholism and burnout</li>
-								<li class="mb-2 text-sm text-gray-600">Identity-based depression</li>
-								<li class="mb-2 text-sm text-gray-600">Stress-related health issues</li>
-							{:else if typeNum === 4}
-								<li class="mb-2 text-sm text-gray-600">Major depression</li>
-								<li class="mb-2 text-sm text-gray-600">Emotional dysregulation</li>
-								<li class="mb-2 text-sm text-gray-600">Identity disturbances</li>
-							{:else if typeNum === 5}
-								<li class="mb-2 text-sm text-gray-600">Social anxiety</li>
-								<li class="mb-2 text-sm text-gray-600">Avoidant patterns</li>
-								<li class="mb-2 text-sm text-gray-600">Dissociation</li>
-							{:else if typeNum === 6}
-								<li class="mb-2 text-sm text-gray-600">Generalized anxiety disorder</li>
-								<li class="mb-2 text-sm text-gray-600">Phobias</li>
-								<li class="mb-2 text-sm text-gray-600">Hypervigilance</li>
-							{:else if typeNum === 7}
-								<li class="mb-2 text-sm text-gray-600">ADHD-like symptoms</li>
-								<li class="mb-2 text-sm text-gray-600">Addiction vulnerabilities</li>
-								<li class="mb-2 text-sm text-gray-600">Masked depression</li>
-							{:else if typeNum === 8}
-								<li class="mb-2 text-sm text-gray-600">Anger management issues</li>
-								<li class="mb-2 text-sm text-gray-600">Vulnerability avoidance</li>
-								<li class="mb-2 text-sm text-gray-600">Stress-related illness</li>
-							{:else if typeNum === 9}
-								<li class="mb-2 text-sm text-gray-600">Clinical depression</li>
-								<li class="mb-2 text-sm text-gray-600">Dissociative tendencies</li>
-								<li class="mb-2 text-sm text-gray-600">Chronic fatigue</li>
-							{/if}
-						</ul>
-					</div>
-					<div>
-						<h4 class="mb-4 text-lg">Healing Strengths</h4>
-						<ul class="m-0 list-disc pl-6">
-							{#if typeNum === 1}
-								<li class="mb-2 text-sm text-gray-600">Strong commitment to recovery</li>
-								<li class="mb-2 text-sm text-gray-600">Systematic approach to healing</li>
-								<li class="mb-2 text-sm text-gray-600">High integrity in treatment</li>
-							{:else if typeNum === 2}
-								<li class="mb-2 text-sm text-gray-600">Natural support network building</li>
-								<li class="mb-2 text-sm text-gray-600">Emotional intelligence</li>
-								<li class="mb-2 text-sm text-gray-600">Helping others aids own healing</li>
-							{:else if typeNum === 3}
-								<li class="mb-2 text-sm text-gray-600">Goal-oriented recovery</li>
-								<li class="mb-2 text-sm text-gray-600">Resilience and adaptability</li>
-								<li class="mb-2 text-sm text-gray-600">Success-driven healing</li>
-							{:else if typeNum === 4}
-								<li class="mb-2 text-sm text-gray-600">Deep self-awareness</li>
-								<li class="mb-2 text-sm text-gray-600">Creative expression for healing</li>
-								<li class="mb-2 text-sm text-gray-600">Authenticity in recovery</li>
-							{:else if typeNum === 5}
-								<li class="mb-2 text-sm text-gray-600">Research-based approach</li>
-								<li class="mb-2 text-sm text-gray-600">Self-sufficiency in healing</li>
-								<li class="mb-2 text-sm text-gray-600">Intellectual understanding aids recovery</li>
-							{:else if typeNum === 6}
-								<li class="mb-2 text-sm text-gray-600">Loyalty to support systems</li>
-								<li class="mb-2 text-sm text-gray-600">Thorough treatment planning</li>
-								<li class="mb-2 text-sm text-gray-600">Community-oriented recovery</li>
-							{:else if typeNum === 7}
-								<li class="mb-2 text-sm text-gray-600">Optimistic recovery outlook</li>
-								<li class="mb-2 text-sm text-gray-600">Multiple healing modalities</li>
-								<li class="mb-2 text-sm text-gray-600">Enthusiasm for growth</li>
-							{:else if typeNum === 8}
-								<li class="mb-2 text-sm text-gray-600">Strong determination</li>
-								<li class="mb-2 text-sm text-gray-600">Leadership in recovery</li>
-								<li class="mb-2 text-sm text-gray-600">Protective of healing space</li>
-							{:else if typeNum === 9}
-								<li class="mb-2 text-sm text-gray-600">Holistic healing approach</li>
-								<li class="mb-2 text-sm text-gray-600">Natural mediator in groups</li>
-								<li class="mb-2 text-sm text-gray-600">Steady, sustainable recovery</li>
-							{/if}
-						</ul>
+						<h2>Why Personality Type Matters</h2>
+						<p class="section-subtitle">Personalized approaches to mental wellness</p>
 					</div>
 				</div>
 			</div>
-		{/each}
-	</section>
 
-	<section
-		class="rounded-3xl bg-gradient-to-br from-gray-800 to-gray-900 p-12 text-center text-white"
-	>
-		<h2 class="mb-4 text-3xl font-semibold text-white">Start Your Mental Health Journey</h2>
-		<p class="mb-8 text-sm text-white/95">
-			Understanding your Enneagram type is the first step toward personalized mental health care.
-		</p>
-		<div class="flex flex-wrap justify-center gap-4">
-			<a
-				href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
-				class="rounded-lg bg-gradient-to-r from-purple-600 to-purple-700 px-8 py-3 font-medium text-white no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-purple-600/30"
-			>
-				Read Our Anxiety Guide
-			</a>
-			<a
-				href="/questions"
-				class="rounded-lg border-2 border-white bg-transparent px-8 py-3 font-medium text-white no-underline transition-all duration-300 hover:bg-white hover:text-gray-800"
-			>
-				Discover Your Type
-			</a>
-		</div>
-	</section>
+			<div class="benefits-grid">
+				<div class="benefit-card">
+					<h3>Personalized Understanding</h3>
+					<p>Each type has unique mental health vulnerabilities and strengths.</p>
+				</div>
+				<div class="benefit-card">
+					<h3>Targeted Strategies</h3>
+					<p>Find coping strategies tailored to your personality.</p>
+				</div>
+				<div class="benefit-card">
+					<h3>Earlier Recognition</h3>
+					<p>Recognize warning signs before they escalate.</p>
+				</div>
+				<div class="benefit-card">
+					<h3>Better Outcomes</h3>
+					<p>Type-aware therapy leads to more effective treatment.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Guide Categories -->
+		<section class="content-section" id="guides">
+			<div class="section-header">
+				<div class="section-title-group">
+					<span class="section-icon">📚</span>
+					<div>
+						<h2>Mental Health Guides</h2>
+						<p class="section-subtitle">Comprehensive resources by topic</p>
+					</div>
+				</div>
+			</div>
+
+			{#each categories.filter((c) => c.blogs.length > 0) as category}
+				<div class="category-block">
+					<h3 class="category-title">{category.title}</h3>
+					<p class="category-desc">{category.description}</p>
+					<div class="blog-grid">
+						{#each category.blogs as blog}
+							<a href="/enneagram-corner/mental-health/{blog.slug}" class="blog-card">
+								<div class="card-overlay"></div>
+								<div class="card-content">
+									<h4>{blog.title}</h4>
+									<p>{blog.description}</p>
+									<span class="read-link">Read Guide</span>
+								</div>
+							</a>
+						{/each}
+					</div>
+				</div>
+			{/each}
+		</section>
+
+		<!-- By Type Section -->
+		<section class="content-section" id="by-type">
+			<div class="section-header">
+				<div class="section-title-group">
+					<span class="section-icon">🔢</span>
+					<div>
+						<h2>Resources by Type</h2>
+						<p class="section-subtitle">Find guidance specific to your personality</p>
+					</div>
+				</div>
+			</div>
+
+			{#each Array(9) as _, i}
+				{@const typeNum = i + 1}
+				<div class="type-block" id="type-{typeNum}">
+					<div class="type-header">
+						<span class="type-badge">{typeNum}</span>
+						<h3>Type {typeNum} Mental Health</h3>
+					</div>
+					<div class="type-content">
+						<div class="type-column">
+							<h4>Common Vulnerabilities</h4>
+							<ul>
+								{#each typeData[i].vulnerabilities as item}
+									<li>{item}</li>
+								{/each}
+							</ul>
+						</div>
+						<div class="type-column">
+							<h4>Healing Strengths</h4>
+							<ul>
+								{#each typeData[i].strengths as item}
+									<li>{item}</li>
+								{/each}
+							</ul>
+						</div>
+					</div>
+				</div>
+			{/each}
+		</section>
+
+		<!-- CTA Section -->
+		<section class="cta-section">
+			<div class="cta-content">
+				<h2>Start your mental health journey</h2>
+				<p>Understanding your type is the first step toward personalized care.</p>
+				<div class="cta-buttons">
+					<a
+						href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
+						class="btn-primary">Read Anxiety Guide</a
+					>
+					<a href="/questions" class="btn-secondary">Discover Your Type</a>
+				</div>
+			</div>
+		</section>
+	</main>
 </div>
+
+<style lang="scss">
+	.page-wrapper {
+		min-height: 100vh;
+
+		a::after {
+			display: none !important;
+		}
+	}
+
+	/* Hero Section - Compact */
+	.hero {
+		background: var(--darkest-gray);
+		padding: 0.75rem 1rem;
+		text-align: center;
+		color: white;
+	}
+
+	.hero h1 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		line-height: 1;
+		margin: 0;
+		letter-spacing: -0.01em;
+	}
+
+	/* Quick Navigation */
+	.quick-nav {
+		background: var(--card-background);
+		border-bottom: 1px solid var(--border-color);
+		padding: 1rem 1.5rem;
+		position: sticky;
+		top: 60px;
+		z-index: 30;
+	}
+
+	.nav-scroll {
+		display: flex;
+		gap: 0.5rem;
+		overflow-x: auto;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding-bottom: 0.25rem;
+		scrollbar-width: none;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
+	.nav-pill {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.5rem 1rem;
+		background: var(--lightest-gray);
+		border-radius: 2rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: var(--text-primary);
+		white-space: nowrap;
+		transition: all 0.2s ease;
+		text-decoration: none;
+		border: 1px solid transparent;
+
+		&:hover {
+			background: var(--darkest-gray);
+			color: white;
+			border-color: var(--darkest-gray);
+			transform: translateY(-1px);
+		}
+	}
+
+	.type-pill {
+		padding: 0.5rem 0.75rem;
+	}
+
+	.type-num {
+		font-weight: 700;
+		font-size: 0.875rem;
+	}
+
+	.nav-icon {
+		font-size: 1rem;
+	}
+
+	/* Main Content */
+	.main-content {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2rem 1.5rem 4rem;
+	}
+
+	/* Crisis Banner */
+	.crisis-banner {
+		background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+		color: white;
+		padding: 1rem 1.5rem;
+		border-radius: 12px;
+		margin-bottom: 2rem;
+		text-align: center;
+
+		strong {
+			display: block;
+			margin-bottom: 0.5rem;
+			font-size: 0.9rem;
+		}
+	}
+
+	.crisis-contacts {
+		display: flex;
+		justify-content: center;
+		gap: 1.5rem;
+		flex-wrap: wrap;
+		font-size: 0.85rem;
+		font-weight: 600;
+	}
+
+	/* Content Sections */
+	.content-section {
+		margin-bottom: 3rem;
+		scroll-margin-top: 120px;
+	}
+
+	.section-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 1.5rem;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.section-title-group {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.75rem;
+	}
+
+	.section-icon {
+		font-size: 1.5rem;
+		margin-top: 0.25rem;
+	}
+
+	.section-title-group h2 {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: var(--text-primary);
+		margin: 0;
+		line-height: 1.3;
+	}
+
+	.section-subtitle {
+		font-size: 0.875rem;
+		color: var(--text-secondary);
+		margin: 0.25rem 0 0;
+	}
+
+	/* Benefits Grid */
+	.benefits-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+
+	.benefit-card {
+		background: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: 12px;
+		padding: 1.25rem;
+		transition: all 0.2s ease;
+
+		&:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+		}
+
+		h3 {
+			font-size: 0.95rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			margin: 0 0 0.5rem;
+		}
+
+		p {
+			font-size: 0.8rem;
+			color: var(--text-secondary);
+			margin: 0;
+			line-height: 1.5;
+		}
+	}
+
+	/* Category Blocks */
+	.category-block {
+		margin-bottom: 2rem;
+	}
+
+	.category-title {
+		font-size: 1.1rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin: 0 0 0.25rem;
+	}
+
+	.category-desc {
+		font-size: 0.8rem;
+		color: var(--text-secondary);
+		margin: 0 0 1rem;
+	}
+
+	/* Blog Grid */
+	.blog-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1rem;
+	}
+
+	.blog-card {
+		position: relative;
+		aspect-ratio: 4 / 3;
+		border-radius: 12px;
+		overflow: hidden;
+		background: linear-gradient(135deg, var(--darkest-gray) 0%, var(--black) 100%);
+		text-decoration: none;
+		transition: all 0.3s ease;
+
+		&:hover {
+			transform: translateY(-4px);
+			box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+		}
+	}
+
+	.card-overlay {
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(135deg, rgba(42, 45, 52, 0.9) 0%, rgba(24, 25, 26, 0.9) 100%);
+	}
+
+	.card-content {
+		position: relative;
+		z-index: 2;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding: 1.25rem;
+		color: white;
+
+		h4 {
+			font-size: 1rem;
+			font-weight: 600;
+			line-height: 1.4;
+			margin: 0;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		p {
+			font-size: 0.8rem;
+			line-height: 1.5;
+			opacity: 0.85;
+			margin: 0.5rem 0 0;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		.read-link {
+			font-size: 0.75rem;
+			font-weight: 600;
+			opacity: 0.8;
+			margin-top: 0.5rem;
+		}
+	}
+
+	/* Type Blocks */
+	.type-block {
+		background: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: 12px;
+		padding: 1.5rem;
+		margin-bottom: 1rem;
+		scroll-margin-top: 120px;
+	}
+
+	.type-header {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		margin-bottom: 1rem;
+
+		h3 {
+			font-size: 1.1rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			margin: 0;
+		}
+	}
+
+	.type-badge {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2rem;
+		height: 2rem;
+		background: var(--darkest-gray);
+		color: white;
+		border-radius: 8px;
+		font-weight: 700;
+		font-size: 1rem;
+	}
+
+	.type-content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+	}
+
+	.type-column {
+		h4 {
+			font-size: 0.9rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			margin: 0 0 0.75rem;
+		}
+
+		ul {
+			list-style: disc;
+			padding-left: 1.25rem;
+			margin: 0;
+		}
+
+		li {
+			font-size: 0.85rem;
+			color: var(--text-secondary);
+			margin-bottom: 0.5rem;
+			line-height: 1.4;
+		}
+	}
+
+	/* CTA Section */
+	.cta-section {
+		background: linear-gradient(135deg, var(--darkest-gray) 0%, var(--black) 100%);
+		border-radius: 20px;
+		padding: 3rem 2rem;
+		text-align: center;
+		color: white;
+	}
+
+	.cta-content {
+		max-width: 600px;
+		margin: 0 auto;
+
+		h2 {
+			font-size: 1.75rem;
+			font-weight: 700;
+			margin: 0 0 1rem;
+		}
+
+		p {
+			font-size: 1rem;
+			opacity: 0.85;
+			line-height: 1.6;
+			margin: 0 0 2rem;
+		}
+	}
+
+	.cta-buttons {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.btn-primary {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.875rem 1.5rem;
+		background: white;
+		color: var(--darkest-gray);
+		font-weight: 600;
+		font-size: 0.9rem;
+		border-radius: 2rem;
+		text-decoration: none;
+		transition: all 0.2s ease;
+
+		&:hover {
+			background: var(--lightest-gray);
+			transform: translateY(-2px);
+		}
+	}
+
+	.btn-secondary {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.875rem 1.5rem;
+		background: transparent;
+		color: white;
+		font-weight: 600;
+		font-size: 0.9rem;
+		border-radius: 2rem;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		text-decoration: none;
+		transition: all 0.2s ease;
+
+		&:hover {
+			background: rgba(255, 255, 255, 0.1);
+			border-color: rgba(255, 255, 255, 0.5);
+		}
+	}
+
+	/* Responsive */
+	@media (max-width: 900px) {
+		.benefits-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		.blog-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media (max-width: 640px) {
+		.hero {
+			padding: 0.5rem 0.75rem;
+		}
+
+		.hero h1 {
+			font-size: 1.1rem;
+		}
+
+		.quick-nav {
+			padding: 0.5rem 0.75rem;
+			top: 56px;
+		}
+
+		.nav-pill {
+			padding: 0.4rem 0.75rem;
+			font-size: 0.75rem;
+		}
+
+		.nav-icon {
+			font-size: 0.875rem;
+		}
+
+		.nav-text {
+			display: none;
+		}
+
+		.main-content {
+			padding: 1rem 0.75rem 2rem;
+		}
+
+		.crisis-banner {
+			padding: 0.75rem 1rem;
+			font-size: 0.85rem;
+		}
+
+		.crisis-contacts {
+			gap: 0.75rem;
+			font-size: 0.75rem;
+		}
+
+		.content-section {
+			margin-bottom: 2rem;
+			scroll-margin-top: 100px;
+		}
+
+		.section-header {
+			margin-bottom: 1rem;
+		}
+
+		.section-icon {
+			font-size: 1.25rem;
+		}
+
+		.section-title-group h2 {
+			font-size: 1.1rem;
+		}
+
+		.section-subtitle {
+			font-size: 0.8rem;
+		}
+
+		.benefits-grid {
+			grid-template-columns: 1fr 1fr;
+			gap: 0.5rem;
+		}
+
+		.benefit-card {
+			padding: 1rem;
+
+			h3 {
+				font-size: 0.85rem;
+			}
+
+			p {
+				font-size: 0.75rem;
+			}
+		}
+
+		.blog-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 0.5rem;
+		}
+
+		.blog-card {
+			aspect-ratio: 1;
+			border-radius: 8px;
+		}
+
+		.card-content {
+			padding: 0.75rem;
+
+			h4 {
+				font-size: 0.8rem;
+			}
+
+			p,
+			.read-link {
+				display: none;
+			}
+		}
+
+		.type-block {
+			padding: 1rem;
+		}
+
+		.type-content {
+			grid-template-columns: 1fr;
+			gap: 1rem;
+		}
+
+		.cta-section {
+			padding: 1.5rem 1rem;
+			border-radius: 12px;
+		}
+
+		.cta-content h2 {
+			font-size: 1.25rem;
+		}
+
+		.cta-content p {
+			font-size: 0.875rem;
+			margin-bottom: 1.5rem;
+		}
+
+		.cta-buttons {
+			flex-direction: column;
+			align-items: center;
+			gap: 0.75rem;
+		}
+
+		.btn-primary,
+		.btn-secondary {
+			padding: 0.75rem 1.25rem;
+			font-size: 0.85rem;
+			width: 100%;
+			justify-content: center;
+		}
+	}
+
+	@media (max-width: 380px) {
+		.hero h1 {
+			font-size: 1rem;
+		}
+
+		.benefits-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.blog-grid {
+			gap: 0.4rem;
+		}
+
+		.card-content {
+			padding: 0.5rem;
+
+			h4 {
+				font-size: 0.7rem;
+			}
+		}
+	}
+</style>

@@ -41,7 +41,7 @@ Imagine two Type 8s walking into a room. One commands attention through raw char
 
 That's the power of wings.
 
-After studying thousands of Enneagram profiles and interviewing people across all 18 wing combinations, we've discovered something crucial: **Your wing isn't just a minor detail - it's the secret sauce that explains why you don't perfectly fit your main type's description.**
+Here's the thing: **Your wing isn't just a minor detail - it's the secret sauce that explains why you don't perfectly fit your main type's description.**
 
 Most people get their wing wrong. They either:
 
@@ -806,7 +806,7 @@ Ask yourself:
 
 ### Step 4: Look at Your Stress Patterns
 
-Wings often become more visible under stress:
+Wings often become more visible under stress. (Learn more about [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress) to recognize these patterns.)
 
 - Do you withdraw and analyze (leaning toward 5)?
 - Do you become more helping and controlling (leaning toward 2)?
@@ -859,7 +859,7 @@ Try wing-specific growth practices for a month:
 
 ## Wing Dynamics in Relationships
 
-Understanding wings transforms how you navigate relationships:
+Understanding wings transforms how you navigate relationships. (For foundational insights into how types connect, see [Enneagram types in relationships](/enneagram-corner/enneagram-types-in-relationships).)
 
 ### Same Type, Different Wings
 
@@ -1010,7 +1010,7 @@ True wing preference usually emerges under stress or in authentic, unguarded mom
 
 ### Wings and Instinctual Variants
 
-Your instinctual variant (sp/sx/so) interacts with your wing:
+Your [instinctual variant](/enneagram-corner/enneagram-instinctual-subtypes) (sp/sx/so) interacts with your wing:
 
 **4w3 sx/sp:** Intense, dramatic achievement seeking
 **4w3 so/sp:** Achievement focused on group recognition
@@ -1024,7 +1024,7 @@ Many people resist their accurate wing typing because:
 
 ### The Shadow Wing Effect
 
-Your wing often contains qualities you've rejected about yourself:
+Your wing often contains qualities you've rejected about yourself - much like [shadow work](/enneagram-corner/shadow-work-by-enneagram-type) involves integrating disowned parts of your personality:
 
 **9w8 Resistance:** "I'm not aggressive or controlling"
 **Reality:** You have natural assertiveness that you've suppressed
@@ -1247,7 +1247,7 @@ Research suggests wings may correspond to:
 
 ### Wing and Trauma
 
-Growing understanding of how:
+Growing understanding of how trauma affects wing development ties into broader [Enneagram trauma response patterns](/enneagram-corner/enneagram-and-trauma-responses):
 
 - Childhood trauma can suppress wing development
 - Healing allows natural wing expression to emerge

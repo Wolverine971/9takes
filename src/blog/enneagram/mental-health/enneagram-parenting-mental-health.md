@@ -845,7 +845,7 @@ Type 9 pattern children often need help learning they exist, that they matter, t
 
 ## Creating a Home Where Every Pattern Can Thrive
 
-After working with hundreds of families, I've learned that mental health isn't about having a perfect home—it's about having a conscious one. A home where feelings are welcome, where patterns are seen, where struggles are supported.
+Here's what I've come to understand: mental health isn't about having a perfect home—it's about having a conscious one. A home where feelings are welcome, where patterns are seen, where struggles are supported.
 
 ### The Five Pillars of Emotional Safety
 

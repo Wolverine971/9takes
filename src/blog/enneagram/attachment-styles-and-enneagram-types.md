@@ -67,7 +67,7 @@ For example:
 
 - Two people can both be avoidant, but a <a href="/blog/enneagram/enneagram-type-5">Type 5 (The Investigator)</a> creates distance to preserve emotional resources, while a <a href="/blog/enneagram/enneagram-type-8">Type 8 (The Challenger)</a> does it to avoid the vulnerability that once got them hurt.
 
-This isn't theoretical—this is practical psychology that can transform your relationships. Once you understand both your attachment style AND your Enneagram type, you get a personalized roadmap for earning secure attachment.
+This isn't theoretical—this is practical psychology that can transform your relationships. Once you understand both your attachment style AND your Enneagram type, you get a personalized roadmap for earning secure attachment. For more on how types interact in relationships, explore our guide to [Enneagram types in relationships](/enneagram-corner/enneagram-types-in-relationships).
 
 ## What Are Attachment Styles Really?
 
@@ -104,7 +104,7 @@ Attachment theory, developed by John Bowlby and Mary Ainsworth, reveals four pri
 
 - Alternates between anxious and avoidant
 - Chaotic, unpredictable relationship patterns
-- Often stems from trauma or inconsistent caregiving
+- Often stems from [trauma or inconsistent caregiving](/enneagram-corner/enneagram-and-trauma-responses)
 - Struggles with emotional regulation
 
 But here's what traditional attachment theory misses: **It can't explain why people with the same attachment style behave so differently in relationships.**
@@ -771,7 +771,7 @@ Research shows **you can change your attachment style** through:
 ### Step 3: Communicate with Partners
 
 - Share this article with them
-- Discuss both your patterns
+- Discuss both your patterns using healthy [communication strategies](/enneagram-corner/enneagram-communication-styles)
 - Create safety agreements
 
 ### Step 4: Get Support
@@ -802,7 +802,7 @@ Your attachment style isn't a life sentence. Your Enneagram type isn't a prison.
 
 It doesn't matter if you're an anxiously attached Type 2 who suffocates partners with help, or an avoidantly attached Type 5 who treats intimacy like a resource drain. With the right understanding and practice, you can rewire your nervous system for secure love.
 
-The journey from wounded attachment to earned security isn't easy. But it's possible. And your Enneagram type is actually your secret weapon—because once you understand WHY you attach the way you do, you can finally change HOW you love.
+The journey from wounded attachment to earned security isn't easy. But it's possible. And your Enneagram type is actually your secret weapon—because once you understand WHY you attach the way you do, you can finally change HOW you love. Understanding your [love language by Enneagram type](/enneagram-corner/love-languages-and-enneagram-types) can further deepen this transformation.
 
 ## FAQs About Attachment Styles and Enneagram
 

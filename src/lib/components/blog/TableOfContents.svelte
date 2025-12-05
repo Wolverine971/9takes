@@ -15,9 +15,6 @@
 	export let desktopBreakpoint: number = 1200;
 	export let maxTocEntries: number = 24;
 	export let title: string = 'Table of Contents';
-	export let collapseLongSections: boolean = true;
-	export let maxH3sPerSection: number = 3;
-	export let alwaysShowFirstH3: boolean = true;
 	export let sidePosition: 'left' | 'right' | 'none' = 'left'; // New prop to control side position
 	export let renderMode: 'both' | 'sidebar-only' | 'accordion-only' = 'both'; // Control which version renders
 

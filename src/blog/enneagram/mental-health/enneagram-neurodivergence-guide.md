@@ -30,6 +30,7 @@ NOTES:
   import PopCard from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+  import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
 </script>
 
 <QuickAnswer question="How do ADHD and autism interact with Enneagram types?">
@@ -745,15 +746,20 @@ Type 8s with ADHD often have [trauma histories](/enneagram-corner/mental-health/
 
 ### Self-Advocacy by Type
 
-- **Type 1**: "I need flexibility in my perfectionism"
-- **Type 2**: "I need support to help sustainably"
-- **Type 3**: "Success looks different for me"
-- **Type 4**: "My uniqueness includes my brain"
-- **Type 5**: "I need accommodations for energy"
-- **Type 6**: "Structure helps my anxiety"
-- **Type 7**: "I need healthy stimulation"
-- **Type 8**: "My intensity includes neurodivergence"
-- **Type 9**: "My needs matter too"
+<TypeQuotes
+title="What Each Type Needs to Say"
+quotes={[
+{ type: 1, quote: "I need flexibility in my perfectionism" },
+{ type: 2, quote: "I need support to help sustainably" },
+{ type: 3, quote: "Success looks different for me" },
+{ type: 4, quote: "My uniqueness includes my brain" },
+{ type: 5, quote: "I need accommodations for energy" },
+{ type: 6, quote: "Structure helps my anxiety" },
+{ type: 7, quote: "I need healthy stimulation" },
+{ type: 8, quote: "My intensity includes neurodivergence" },
+{ type: 9, quote: "My needs matter too" }
+]}
+/>
 
 ### Strength-Based Approach
 

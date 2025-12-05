@@ -80,7 +80,7 @@ Dr. Gary Chapman identified five primary ways humans express and receive love:
 - Hugs, holding hands, closeness
 - Physical comfort and connection
 
-But here's what the traditional approach misses: **Your personality type determines not just which love language you prefer, but how you interpret and respond to ALL five.**
+But here's what the traditional approach misses: **Your personality type determines not just which love language you prefer, but how you interpret and respond to ALL five.** Your [attachment style](/enneagram-corner/attachment-styles-and-enneagram-types) adds another layer to this dynamic.
 
 Understanding this connection is crucial for dating success. Learn how [your personality type creates specific dating patterns](/how-to-guides/dating-dynamics-by-enneagram-type) and discover how to speak your partner's love language from the very first date.
 
@@ -692,7 +692,7 @@ Ask these specific questions:
 
 ### Step 1: Identify Your Combination
 
-- Take an accurate Enneagram test (not just any personality test)
+- If you're new to the Enneagram, start with our [beginner's guide to determining your type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type)
 - Observe your natural patterns of giving and receiving love
 - Consider both your primary and secondary love languages
 
@@ -705,7 +705,7 @@ Ask these specific questions:
 ### Step 3: Bridge the Gap
 
 - Learn to give love in their language, not just your own
-- Communicate your needs clearly without expecting them to mind-read
+- [Communicate your needs](/enneagram-corner/enneagram-communication-styles) clearly without expecting them to mind-read
 - Appreciate their love expressions even when they're different from yours
 
 ### Step 4: Grow Together

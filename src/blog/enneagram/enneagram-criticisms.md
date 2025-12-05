@@ -22,7 +22,7 @@ path: src/blog/enneagram/enneagram-criticisms.md
 
 Some call the Enneagram pseudoscience. Others worry it oversimplifies human complexity.
 
-Are these criticisms valid? Let's dive into the most common objections to personality theory, the Enneagram, and 9takes - and explore thoughtful responses to each.
+Are these criticisms valid? Here are the most common objections to personality theory, the Enneagram, and 9takes—and thoughtful responses to each.
 
 ## Common Criticisms of Personality Theory & The Enneagram
 

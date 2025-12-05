@@ -83,7 +83,7 @@ The Enneagram might just be your ticket off that wheel. This ancient-yet-modern 
 
 But here's the thing (and I learned this the hard way): using the Enneagram effectively is both an art and a science. Most people get it wrong, reducing it to just another personality quiz.
 
-Let's dive into how to actually use this powerful tool for genuine transformation. I promise you'll walk away with actionable insights that go way beyond "I'm a Type 4 so I'm special and moody." (Trust me, we Type 4s are WAY more than that... but I digress.)
+Here's how to actually use this powerful tool for genuine transformation. You'll walk away with actionable insights that go way beyond "I'm a Type 4 so I'm special and moody." (Trust me, we Type 4s are WAY more than that... but I digress.)
 
 ## What's Coming in This Guide
 

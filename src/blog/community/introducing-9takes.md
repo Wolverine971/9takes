@@ -4,7 +4,7 @@ description: 'A Q&A platform fostering diverse, built on anonymous perspectives 
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/community/introducing-9takes'
-lastmod: '2024-07-24'
+lastmod: '2025-12-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -255,7 +255,7 @@ A new habit of participating is being formed and that is the key to redefining a
 
 <!-- Put your offline questions online -->
 
-In a world obsessed with absolutes and fact-checking, we often forget that many of the things we search for lack black-and-white answers. People are not math problems we can solve; they are universes we must explore. A kaleidoscope of different perspectives exists for every question, each one concealing hidden truths and untold stories waiting for us to uncover them. Take your offline questions and post them online—you might be surprised by what you discover.
+In a world obsessed with absolutes and fact-checking, we often forget that many of the things we search for lack black-and-white answers. People are not math problems we can solve—they are universes we must explore. Nine different perspectives exist for every question, each one revealing something the others miss. Take your offline questions and post them online—you might be surprised by what you discover.
 
 <!-- But most of our time on the internet is spent searching for the answers to our
 However all  -->
