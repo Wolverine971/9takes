@@ -52,7 +52,7 @@ Let's decode what each Enneagram type is _really_ thinking, feeling, and looking
 
 <div class="type-intro">
     <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/type1-date.webp" alt="Type 1 on a date" />
+        <img loading="lazy" src="/blogs/greek-statues-having-an-intimate-conversation.webp" alt="Type 1 on a date" />
     </div> -->
     <div class="type-quotes">
         <blockquote>"I've researched three restaurants with excellent reviews and made reservations at all of them, just in case."</blockquote>
@@ -119,7 +119,7 @@ Beneath their composed exterior, Type 1s experience a mix of:
 
 <div class="type-intro">
     <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/type2-date.webp" alt="Type 2 on a date" />
+        <img loading="lazy" src="/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp" alt="Type 2 on a date" />
     </div> -->
     <div class="type-quotes">
         <blockquote>"I remembered you mentioned loving daisies in your profile, so I brought you one."</blockquote>
@@ -186,7 +186,7 @@ Type 2s experience a rich emotional landscape during dates:
 
 <div class="type-intro">
     <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/type3-date.webp" alt="Type 3 on a date" />
+        <img loading="lazy" src="/blogs/greek-statues-getting-ready-to-approach.webp" alt="Type 3 on a date" />
     </div> -->
     <div class="type-quotes">
         <blockquote>"I just closed a major deal at work, but enough about me—what are your goals?"</blockquote>
@@ -257,7 +257,7 @@ Beneath their confident exterior, Type 3s feel:
 
 <div class="type-intro">
     <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/type4-date.webp" alt="Type 4 on a date" />
+        <img loading="lazy" src="/blogs/two-greek-statues-having-a-serious-conversation.webp" alt="Type 4 on a date" />
     </div> -->
     <div class="type-quotes">
         <blockquote>"I discovered this hidden gem of a café—it reminds me of a place I visited during a particularly introspective time in my life."</blockquote>
@@ -324,7 +324,7 @@ Type 4s experience first dates with emotional intensity:
 
 <div class="type-intro">
     <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/type5-date.webp" alt="Type 5 on a date" />
+        <img loading="lazy" src="/blogs/greek-statue-researcher.webp" alt="Type 5 on a date" />
     </div> -->
     <div class="type-quotes">
         <blockquote>"I've been researching quantum computing lately. The implications for cryptography are fascinating."</blockquote>
@@ -470,7 +470,7 @@ Type 6s experience a pendulum of emotions during dates:
 
 <div class="type-intro">
     <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/type7-date.webp" alt="Type 7 on a date" />
+        <img loading="lazy" src="/blogs/greek-statues-at-the-beach.webp" alt="Type 7 on a date" />
     </div> -->
     <div class="type-quotes">
         <blockquote>"I thought we could start with drinks here, then check out that new food festival, and maybe end with rooftop jazz if we're still having fun!"</blockquote>
@@ -616,7 +616,7 @@ Type 8s experience dates with:
 
 <div class="type-intro">
     <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/type9-date.webp" alt="Type 9 on a date" />
+        <img loading="lazy" src="/blogs/male_and_female_greek_statues.webp" alt="Type 9 on a date" />
     </div> -->
     <div class="type-quotes">
         <blockquote>"Whatever you'd like to do is fine with me—I'm happy just spending time together."</blockquote>

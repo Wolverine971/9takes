@@ -100,10 +100,12 @@
 		<BlogPageHead data={data.frontmatter} slug={`enneagram-corner/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
 		<ArticleSubTitle metaData={data.frontmatter} />
+		<meta itemprop="description" content={data.frontmatter.description} />
 	</div>
 
 	{#if data?.frontmatter?.pic}
-		<div class="featured-image">
+		<div class="featured-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+			<meta itemprop="url" content={`https://9takes.com/blogs/${data.frontmatter.pic}.webp`} />
 			<PopCard
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
 				showIcon={false}
@@ -119,7 +121,9 @@
 
 	<TableOfContents {contentStore} pageUrl={`https://9takes.com/enneagram-corner/${data.slug}`} />
 
-	<svelte:component this={component} />
+	<div itemprop="articleBody">
+		<svelte:component this={component} />
+	</div>
 </article>
 
 <hr class="section-divider" />

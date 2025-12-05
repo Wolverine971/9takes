@@ -13,13 +13,11 @@
 	export let subtext = 'Ask questions, give your hot takes, talk to people';
 	export let scramble = true;
 	export let tint = true;
-	export let lazyLoad = true;
 
 	// Constants and state variables
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let interval: ReturnType<typeof setInterval> | null = null;
 	let showDescription = false;
-	let innerWidth = 0;
 
 	// Generate a unique ID for the text animation
 	const namePopId = Math.random().toString(36).substring(2);
@@ -88,7 +86,9 @@
 	// Start text scramble animation on component mount
 	onMount(() => {
 		if (scramble) startTextScramble();
-		return () => clearInterval(interval);
+		return () => {
+			if (interval) clearInterval(interval);
+		};
 	});
 
 	/**
@@ -99,25 +99,23 @@
 		if (!nameElement) return;
 
 		let iteration = 0;
-		clearInterval(interval);
+		if (interval) clearInterval(interval);
 
 		interval = setInterval(() => {
 			nameElement.textContent = displayText
 				.split('')
-				.map((letter, index) =>
+				.map((_, index) =>
 					index < iteration ? displayText[index] : LETTERS[Math.floor(Math.random() * 26)]
 				)
 				.join('');
 
-			if (iteration >= displayText.length) {
+			if (iteration >= displayText.length && interval) {
 				clearInterval(interval);
 			}
 			iteration += 1 / 3;
 		}, 30);
 	}
 </script>
-
-<svelte:window bind:innerWidth />
 
 <div
 	class="image-card-base {enneagramType ? 'enneagram-card' : ''}"
@@ -133,6 +131,7 @@
 >
 	<!-- Responsive image with proper loading attributes -->
 	<img
+		src={image}
 		srcset="{imageSrc} 218w, {image} 560w"
 		loading="lazy"
 		sizes="(max-width: 560px) 218px, 560px"
@@ -170,9 +169,9 @@
 		</div>
 	</div>
 
-	<!-- Enneagram overlay that fills entire card -->
-	{#if showDescription && enneagramType && enneagramType > 0 && enneagramType <= 9}
-		<div class="enneagram-overlay" in:fly={{ y: 200, duration: 2000 }}>
+	<!-- Enneagram overlay - always rendered, visibility controlled by CSS -->
+	{#if enneagramType && enneagramType > 0 && enneagramType <= 9}
+		<div class="enneagram-overlay" class:enneagram-overlay--visible={showDescription}>
 			<div class="enneagram-info">
 				<h2 class="enneagram-info__title">{enneagramTypes[enneagramType - 1].EnneagramType}</h2>
 				<p class="enneagram-info__detail">
@@ -193,116 +192,121 @@
 </div>
 
 <style lang="scss">
-	// Enneagram card specific behavior
-	.enneagram-card {
-		&:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 12px 28px rgba(0, 0, 0, 0.067);
-		}
+	// Shared glass effect mixin
+	@mixin glass($bg-opacity: 0.3, $blur: 8px, $border-opacity: 0.2) {
+		background-color: rgba(0, 0, 0, $bg-opacity);
+		backdrop-filter: blur($blur);
+		border: 1px solid rgba(255, 255, 255, $border-opacity);
 	}
 
-	// Full-card overlay for enneagram info - just blur, no dark background
+	// Override global hover effect - keep card still
+	.image-card-base:hover {
+		transform: none;
+	}
+
+	// Full-card overlay - starts invisible, fades in on hover
 	.enneagram-overlay {
 		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
+		inset: 0;
 		z-index: 10;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		backdrop-filter: blur(15px);
 		border-radius: inherit;
+		// Start hidden
+		opacity: 0;
+		backdrop-filter: blur(0);
+		transition:
+			opacity 0.3s ease,
+			backdrop-filter 0.4s ease;
+		pointer-events: none;
+
+		// Text panel starts translated down
+		.enneagram-info {
+			transform: translateY(30px);
+			opacity: 0;
+			transition:
+				transform 0.4s ease 0.15s,
+				opacity 0.4s ease 0.15s;
+		}
+
+		// Visible state on hover
+		&--visible {
+			opacity: 1;
+			backdrop-filter: blur(12px);
+			pointer-events: auto;
+
+			.enneagram-info {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
 	}
 
-	// Override content positioning for proper bottom placement
-	:global(.image-card-base) .image-card__content {
+	// Content positioning overrides
+	.image-card__content {
 		position: absolute;
-		bottom: 1rem;
-		left: 1rem;
-		right: 1rem;
+		inset: auto 1rem 1rem;
 		background: transparent;
 		border: none;
 		margin: 0;
 		padding: 0;
 	}
 
-	// Text container styling - minimal
-	:global(.image-card-base) .image-card__text {
-		background: transparent;
-		padding: 0;
+	.image-card__text {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		gap: 0.5rem;
+		background: transparent;
+		padding: 0;
 	}
 
-	// Title styling - single clean background
-	:global(.image-card-base) .image-card__title {
-		background-color: rgba(0, 0, 0, 0.3);
-		backdrop-filter: blur(8px);
-		border: 1px solid rgba(255, 255, 255, 0.2);
-		padding: 0.75rem 0.75rem;
+	// Title with glass effect
+	.image-card__title {
+		@include glass(0.3, 8px, 0.2);
+		padding: 0.75rem;
 		margin: 0;
 		border-radius: 1rem;
-		display: inline-block;
-		width: auto;
 		color: white;
 	}
 
-	// Subtitle styling - single clean background
-	:global(.image-card-base) .image-card__subtitle {
-		background-color: rgba(0, 0, 0, 0.5);
-		backdrop-filter: blur(6px);
-		border: 1px solid rgba(255, 255, 255, 0.15);
+	// Subtitle with glass effect
+	.image-card__subtitle {
+		@include glass(0.5, 6px, 0.15);
 		padding: 0.5rem 1rem;
-		border-radius: 0.75rem;
-		display: inline-block;
-		width: auto;
 		margin: 0;
+		border-radius: 0.75rem;
 	}
 
-	// Enneagram info styling within overlay
+	// Enneagram info panel - white text, high contrast
 	.enneagram-info {
+		@include glass(0.5, 10px, 0.3);
 		color: white;
-		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 		text-wrap: balance;
-		font-weight: bolder;
-		background-color: rgba(0, 0, 0, 0.3);
-		border: 1px solid rgba(255, 255, 255, 0.3);
+		font-weight: 600;
 		border-radius: 1rem;
-		padding: 2rem;
+		padding: 1.5rem;
 		margin: 1rem;
 		max-width: 90%;
 		text-align: center;
-		backdrop-filter: blur(10px);
 
 		&__title {
-			font-size: 2rem;
-			margin-bottom: 1rem;
-
-			@media (max-width: 700px) {
-				font-size: 1.7rem;
-			}
-
-			@media (max-width: 400px) {
-				font-size: 1.4rem;
-			}
+			font-size: clamp(1.4rem, 4vw, 2rem);
+			margin-bottom: 0.75rem;
+			color: white;
+			font-weight: 700;
 		}
 
 		&__detail {
-			color: white;
-			font-size: 1.6rem;
-			margin-bottom: 0.75rem;
+			font-size: clamp(1rem, 3vw, 1.4rem);
+			margin-bottom: 0.5rem;
 			line-height: 1.4;
+			color: white;
 
-			@media (max-width: 700px) {
-				font-size: 1.5rem;
-			}
-
-			@media (max-width: 400px) {
-				font-size: 1.1rem;
+			b {
+				font-weight: 700;
 			}
 		}
 	}

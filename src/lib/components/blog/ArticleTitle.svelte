@@ -19,7 +19,7 @@
 		class="heading"
 		class:large={!slug}
 		{id}
-		itemprop="name"
+		itemprop="headline"
 		style:--tag={`h-blog-${cleanedTitle}`}
 	>
 		{title}

@@ -31,22 +31,26 @@
 			href="https://twitter.com/djwayne3"
 			style="padding: 0.5rem"
 		>
-			{metaData.author}
-			<!-- <img
-				src={twitter}
-				alt="djwayne3 Twitter"
-				title="djwayne3 Twitter"
-				class="icon"
-				style="width:1.5rem"
-				width="150"
-			/> -->
+			<span itemprop="name">{metaData.author}</span>
 		</a>
 	</span>
 	{#if createdDate.toDateString() !== lastUpdated.toDateString()}
-		<span class="date">{`(Updated: ${lastUpdatedMonth}/${lastUpdatedDay}/${lastUpdatedYear})`}</span
+		<time
+			class="date"
+			itemprop="dateModified"
+			datetime={metaData.lastmod}
 		>
+			(Updated: {lastUpdatedMonth}/{lastUpdatedDay}/{lastUpdatedYear})
+		</time>
+		<meta itemprop="datePublished" content={metaData.date} />
 	{:else}
-		<span class="date">{`${month}/${day}/${year}`}</span>
+		<time
+			class="date"
+			itemprop="datePublished"
+			datetime={metaData.date}
+		>
+			{month}/{day}/{year}
+		</time>
 	{/if}
 </p>
 

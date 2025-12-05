@@ -44,7 +44,7 @@ These patterns are observable in everyday life. Once you start looking for them,
 
 <div class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
 	<PopCard
-		image="/blogs/couple-on-romantic-date-personality-types.webp"
+		image="/blogs/young-couple-on-a-date.webp"
 		showIcon={false}
 		displayText="What's your biggest dating blindspot?"
 		subtext="Take the 5-second test to reveal your pattern"
@@ -777,7 +777,7 @@ The patterns end here. The transformation starts now.
 
 <div class="blog-link" style="display: flex; justify-content: center; margin: 2rem 0;">
 	<PopCard
-		image="/blogs/couple-on-romantic-date-personality-types.webp"
+		image="/blogs/greek-statues-on-a-first-date.webp"
 		showIcon={false}
 		displayText="Ready to transform your dating life?"
 		subtext="Share your type and biggest relationship challenge below"

@@ -11,7 +11,7 @@ published: false
 type: ['manifesto']
 blog: true
 previewHtml: ''
-pic: 'loneliest-generation-manifesto'
+pic: 'greek_statues_in_a_circle_holding_hands'
 path: src/blog/community/drafts/manifesto.md
 ---
 

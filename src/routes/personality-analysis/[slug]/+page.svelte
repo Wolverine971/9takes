@@ -264,15 +264,19 @@
 		<PeopleBlogPageHead data={post} />
 		<ArticleTitle title={post.title} />
 		<ArticleSubTitle metaData={post} />
+		<meta itemprop="description" content={post.description} />
 	</div>
 
-	<div class="featured-image">
+	<div class="featured-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+		<meta itemprop="url" content={`https://9takes.com/types/${post.enneagram}s/${post.person}.webp`} />
+		<meta itemprop="width" content="900" />
+		<meta itemprop="height" content="900" />
 		<PopCard
 			image={`/types/${post.enneagram}s/${post.person}.webp`}
 			showIcon={false}
 			enneagramType={post.enneagram}
 			displayText={post.person.split('-').join(' ')}
-			
+			lazyLoad={false}
 			subtext=""
 		/>
 	</div>
@@ -283,7 +287,7 @@
 		renderMode="accordion-only"
 	/>
 
-	<div class="article-body">
+	<div class="article-body" itemprop="articleBody">
 		{@html post.content}
 	</div>
 </article>
