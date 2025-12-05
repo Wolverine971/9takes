@@ -1091,15 +1091,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/George-H-W-Bush</loc>
-    <lastmod>2023-03-26T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/George-H-W-Bush.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Charlie-Puth</loc>
     <lastmod>2023-06-21T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1142,15 +1133,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Nikola-Tesla.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Jennifer-Garner</loc>
-    <lastmod>2023-12-09T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/1s/Jennifer-Garner.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1223,15 +1205,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Oprah-Winfrey.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Alexandria-Ocasio-Cortez</loc>
-    <lastmod>2024-09-11T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Alexandria-Ocasio-Cortez.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1367,24 +1340,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Miley-Cyrus.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Palmer-Luckey</loc>
-    <lastmod>2025-02-26T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Palmer-Luckey.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Sydney-Sweeney</loc>
-    <lastmod>2025-03-02T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Sydney-Sweeney.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2558,6 +2513,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Jennifer-Garner</loc>
+    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/2s/Jennifer-Garner.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Jimmy-Carter</loc>
     <lastmod>2025-12-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2591,6 +2555,42 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Ronald-Reagan.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Alexandria-Ocasio-Cortez</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Alexandria-Ocasio-Cortez.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/George-H-W-Bush</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/George-H-W-Bush.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Palmer-Luckey</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Palmer-Luckey.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Sydney-Sweeney</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Sydney-Sweeney.webp</image:loc>
     </image:image>
 </url>
 <url>

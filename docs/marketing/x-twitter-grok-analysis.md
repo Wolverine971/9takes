@@ -1,5 +1,5 @@
 Show me the top 10 MBTI tweets from the last 7 days with 50k+ engagements. Which ones would
-   translate best to Enneagram roasts?
+translate best to Enneagram roasts?
 
 Searching on X
 
@@ -36,12 +36,12 @@ Action-oriented humor; boosted by adventure meme accounts.
 View Post
 4
 @infjdoor
- slam
+slam
 "INFJs door-slamming everyone after one wrong word: 'Peace out, my inner peace demands it' " (animated door GIF)
 17k / 2.5k / 720k
 Iconic INFJ trope; exploded in introvert Twitter.
 [View Post](https://x.com/infjdoor
- slam/status/1995889012345678901)
+slam/status/1995889012345678901)
 5
 @thinkerthots
 
@@ -137,7 +137,7 @@ Key Patterns & Why High Conversion
 MBTI
 ~50k+ (growing via Japanese/English bilingual roasts)
 15k likes / 5M+ views (peaks on group breakdowns)
-Viral "MBTI otaku" threads (e.g., NT/NF roasts hit 15k+ likes 
+Viral "MBTI otaku" threads (e.g., NT/NF roasts hit 15k+ likes
 
 @mazoNiiiiiiii
 
@@ -147,7 +147,7 @@ Viral "MBTI otaku" threads (e.g., NT/NF roasts hit 15k+ likes
 MBTI
 ~20k (niche personality bar owner)
 600 likes / 40k views (consistent on type-specific advice)
-Posts blend MBTI with Enneagram/Strengths (e.g., blogging styles by type: 649 likes 
+Posts blend MBTI with Enneagram/Strengths (e.g., blogging styles by type: 649 likes
 
 @sugoienfp
 
@@ -157,17 +157,17 @@ Posts blend MBTI with Enneagram/Strengths (e.g., blogging styles by type: 649 li
 MBTI
 150k+ (meme aggregator)
 20k likes / 1M views (roasts dominate)
-Daily INTJ/INTP memes (e.g., "chaotic wizard" at 28k likes 
+Daily INTJ/INTP memes (e.g., "chaotic wizard" at 28k likes
 
 @feebeechanchibi
 
- from earlier trends, sustained in 2025); 30% posts are therapy crossovers. Spikes: 4k reposts on "type in relationships." Converts: Meme format begs Enneagram roasts (e.g., 7's reframing); introvert-heavy audience (Types 4/5) tags for validation.
+from earlier trends, sustained in 2025); 30% posts are therapy crossovers. Spikes: 4k reposts on "type in relationships." Converts: Meme format begs Enneagram roasts (e.g., 7's reframing); introvert-heavy audience (Types 4/5) tags for validation.
 @personalitypundit
 
 MBTI
 80k (therapy-infused typings)
 18k likes / 800k views (threads lead)
-ENFP/INFJ "epiphany" threads (22k likes 
+ENFP/INFJ "epiphany" threads (22k likes
 
 @IWI_momo
 
@@ -177,7 +177,7 @@ ENFP/INFJ "epiphany" threads (22k likes
 Astrology
 200k+ (zodiac manifestor)
 1.2k likes / 70k views (manifestation lists viral)
-Rising sign threads (1.4k likes 
+Rising sign threads (1.4k likes
 
 @shawtyastrology
 
@@ -187,7 +187,7 @@ Rising sign threads (1.4k likes
 Astrology/Tarot
 50k (sign-specific messages)
 300 likes / 20k views (regret/sabotage themes)
-Earth/fire sign "ex regrets" posts (326 likes 
+Earth/fire sign "ex regrets" posts (326 likes
 
 @RisingWisdomQn
 
@@ -197,7 +197,7 @@ Earth/fire sign "ex regrets" posts (326 likes
 Astrology
 30k (glow-up forecasts)
 700 likes / 20k views (sign upgrades)
-"Next glow up" threads (728 likes 
+"Next glow up" threads (728 likes
 
 @thehotlinepink
 
@@ -207,22 +207,21 @@ Astrology
 Astrology
 40k (boundary elevations)
 600 likes / 40k views (sign evolutions)
-Elevation series (718 likes 
+Elevation series (718 likes
 
 @bigempressnergy
 
 ); 23 reposts on water/air dynamics. Spikes: Full moon ties (2x likes). Converts: Reiki/spiritual layer attracts Type 4/1 seekers; easy pivot to wings/integrations.
 
 Quick Insights on Patterns & StrategyOverall Trends: Across these, 60-70% engagement comes from relatable roasts/manifestos (e.g., "Your sign's red flag" = 10k+ views). Polls ("Which type sabotages love?") get 20% reply rates, priming users for Enneagram quizzes. Visuals (GIFs, carousels) amplify 4-5x; post 7-9 PM EST for 2x spikes.
-Conversion Edge: MBTI accounts skew analytical (Types 5/6), astrology emotional (Types 2/4/9)—bridge with "Zodiac mask, Enneagram truth" threads. These audiences convert 15-25% higher than general self-help (per 2025 web trends 
+Conversion Edge: MBTI accounts skew analytical (Types 5/6), astrology emotional (Types 2/4/9)—bridge with "Zodiac mask, Enneagram truth" threads. These audiences convert 15-25% higher than general self-help (per 2025 web trends
 
 influencers.feedspot.com
 
 ) due to "type-tagging" culture.
 Actionable: DM for collabs (e.g., @sugoienfp
- already mixes systems). Quote their top posts with 9takes roasts—expect 5-10% follow-back from curious replies.
+already mixes systems). Quote their top posts with 9takes roasts—expect 5-10% follow-back from curious replies.
 
 Start with @mazoNiiiiiiii
- and @shawtyastrology
+and @shawtyastrology
 ; their virality is Enneagram-ready. Drop a crossover thread and watch the DMs flood.
-

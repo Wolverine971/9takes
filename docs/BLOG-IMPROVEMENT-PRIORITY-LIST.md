@@ -202,12 +202,15 @@ These have good outgoing links but nobody links TO them. They need incoming link
 ### Week 3: Content Rewrite (Priority 3) ✅ COMPLETED 2025-12-04
 
 - [x] Rewrite `enneagram-communication-tips.md` with depth (3,400 words, 27 scripts, 3 tables, 15+ links)
-- [ ] Add Quick Answer boxes to priority posts
+- [x] Add Quick Answer boxes to priority posts (added to: beginners-guide, leadership, crash-course-emotions, dark-triad, mbti-vs-enneagram) ✅ 2025-12-05
 
-### Week 4: Community & Orphan Fixes (Priority 4-5)
+### Week 4: Community & Orphan Fixes (Priority 4-5) ✅ PARTIALLY COMPLETED 2025-12-05
 
-- [ ] Fix all 8 community posts
-- [ ] Add incoming links to orphaned authority posts
+- [ ] Fix all 8 community posts (appropriately minimal - these are isolated by design)
+- [x] Add incoming links to orphaned authority posts:
+  - [x] `first-impression-cheat-sheet.md` - linked from `enneagram-types-at-party.md`
+  - [x] `productivity-systems-by-enneagram-type.md` - linked from `how-each-enneagram-type-self-sabotages-success.md`
+  - [x] `enneagram-books-websites-podcasts.md` - linked from `enneagram-tldr.md`
 
 ---
 

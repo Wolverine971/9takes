@@ -1,7 +1,7 @@
 ---
 title: 'George H.W. Bush: The Loyalist Who Built Coalitions and Served His Country'
 meta_title: "Why George H.W. Bush Couldn't Stop Building Alliances (Type 6 Psychology)"
-description: 'Discover how George H.W. Bush''s Type 6 personality shaped his WWII heroism, CIA leadership, and the coalition-building that defined his presidency.'
+description: "Discover how George H.W. Bush's Type 6 personality shaped his WWII heroism, CIA leadership, and the coalition-building that defined his presidency."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/George-H-W-Bush'
@@ -98,7 +98,7 @@ They married on January 6, 1945, shortly after Bush returned from the Pacific. T
 
 After Yale, Bush made a decision that would shape his identity: he moved to Texas. His biographer Jon Meacham notes this allowed Bush to move out of "the daily shadow of his Wall Street father and Grandfather Walker," while still being able to "call on their connections if he needed to raise capital."
 
-This is classic Type 6 behavior—seeking independence while maintaining security networks. Bush started as an oil field equipment salesman, then co-founded Bush-Overbey Oil Development Company in Midland, Texas. In 1953, he co-founded Zapata Petroleum Corporation, named after the Marlon Brando film *Viva Zapata!*
+This is classic Type 6 behavior—seeking independence while maintaining security networks. Bush started as an oil field equipment salesman, then co-founded Bush-Overbey Oil Development Company in Midland, Texas. In 1953, he co-founded Zapata Petroleum Corporation, named after the Marlon Brando film _Viva Zapata!_
 
 During this period, Bush became deeply involved in civic activities—serving on committees for the Midland Exchange Club, the Community Theater, and the American Cancer Society. He served as a ruling elder at First Presbyterian Church and even managed the local American Legion baseball team. The coalition-builder was already at work.
 
@@ -245,4 +245,3 @@ Perhaps the deepest lesson of Bush's life is this: the qualities that make for g
 What does it mean to build alliances in your own life? When has loyalty to a principle conflicted with loyalty to a promise? And in a world that often rewards the loudest voice, what value do we place on those who ask "How did the team do, dear?"
 
 > **Disclaimer:** This analysis of George H.W. Bush's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
-

@@ -359,7 +359,7 @@ It's "What game are you tired of playing?"
 
 ---
 
-_Next: See [how each type shows off](/enneagram-corner/how-each-enneagram-flexes) or discover [what happens on first dates](/enneagram-corner/enneagram-types-on-a-first-date)._
+_Next: Master social reads with our [first impression cheat sheet](/enneagram-corner/first-impression-cheat-sheet), see [how each type shows off](/enneagram-corner/how-each-enneagram-flexes), or discover [what happens on first dates](/enneagram-corner/enneagram-types-on-a-first-date)._
 
 <svelte:head>
 

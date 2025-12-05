@@ -3395,6 +3395,19 @@ export type Database = {
           type: Json
         }[]
       }
+      typeahead_blog_search: {
+        Args: { result_limit?: number; search_query: string }
+        Returns: {
+          category: string
+          enneagram: number
+          headline: string
+          id: number
+          rank: number
+          slug: string
+          source: string
+          title: string
+        }[]
+      }
       visitors_last_30_days: {
         Args: never
         Returns: {

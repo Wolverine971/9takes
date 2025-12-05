@@ -218,5 +218,59 @@ export const actions: Actions = {
 		}
 
 		throw redirect(303, '/admin/consulting/clients');
+	},
+
+	// Create or get intake form and return link for sending
+	getIntakeLink: async ({ params, locals, url }) => {
+		const supabase = locals.supabase;
+
+		// Check if intake already exists
+		let { data: intake } = await supabase
+			.from('consulting_intake_forms')
+			.select('id, status')
+			.eq('client_id', params.id)
+			.single();
+
+		// Create intake form if it doesn't exist
+		if (!intake) {
+			const { data: newIntake, error: intakeError } = await supabase
+				.from('consulting_intake_forms')
+				.insert({
+					client_id: params.id,
+					status: 'pending'
+				})
+				.select('id')
+				.single();
+
+			if (intakeError || !newIntake) {
+				return fail(500, { error: 'Failed to create intake form' });
+			}
+
+			intake = { id: newIntake.id, status: 'pending' };
+		}
+
+		// Update intake status to sent and client status
+		await supabase
+			.from('consulting_intake_forms')
+			.update({
+				status: 'sent',
+				sent_at: new Date().toISOString(),
+				updated_at: new Date().toISOString()
+			})
+			.eq('id', intake.id);
+
+		await supabase
+			.from('consulting_clients')
+			.update({
+				status: 'intake_sent',
+				updated_at: new Date().toISOString()
+			})
+			.eq('id', params.id);
+
+		// Generate the intake form URL
+		const baseUrl = url.origin;
+		const intakeUrl = `${baseUrl}/intake/${intake.id}`;
+
+		return { success: true, intakeUrl };
 	}
 };

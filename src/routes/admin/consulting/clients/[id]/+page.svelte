@@ -18,6 +18,7 @@
 	let emailRecipients: EmailRecipient[] = [];
 	let emailSubject = '';
 	let emailContent = '';
+	let isGettingIntakeLink = false;
 
 	function openEmailModal() {
 		emailRecipients = [
@@ -35,6 +36,61 @@
 		emailSubject = '';
 		emailContent = `<p>Hi ${firstName},</p>\n\n<p></p>\n\n<p>Best,<br>DJ</p>`;
 		showEmailModal = true;
+	}
+
+	async function openIntakeEmailModal() {
+		isGettingIntakeLink = true;
+
+		try {
+			// Call the action to get/create intake link
+			const response = await fetch(`?/getIntakeLink`, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+			});
+
+			const result = await response.json();
+
+			if (result.type === 'success' && result.data?.intakeUrl) {
+				const intakeUrl = result.data.intakeUrl;
+				const firstName = data.client.name?.split(' ')[0] || 'there';
+
+				emailRecipients = [
+					{
+						id: data.client.id,
+						email: data.client.email,
+						name: data.client.name,
+						source: 'coaching_waitlist',
+						source_id: data.client.waitlist_id || data.client.id,
+						enneagram: data.client.enneagram_type?.toString()
+					}
+				];
+
+				emailSubject = 'Your Personality Coaching Intake Form';
+				emailContent = `<p>Hi ${firstName},</p>
+
+<p>Thank you for your interest in personality coaching! Before our first session, I'd like to learn more about you and what you're hoping to achieve.</p>
+
+<p>Please take 10-15 minutes to complete this intake form:</p>
+
+<p><a href="${intakeUrl}" style="display: inline-block; background: #6366f1; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 500;">Complete Intake Form</a></p>
+
+<p>Your responses help me prepare for a more effective first session. Everything you share is confidential.</p>
+
+<p>Looking forward to working with you!</p>
+
+<p>Best,<br>DJ</p>`;
+
+				showEmailModal = true;
+				invalidateAll();
+			} else {
+				notifications.danger('Failed to create intake form', 3000);
+			}
+		} catch (err) {
+			console.error('Failed to get intake link:', err);
+			notifications.danger('Failed to create intake form', 3000);
+		} finally {
+			isGettingIntakeLink = false;
+		}
 	}
 
 	function handleEmailSent() {
@@ -332,20 +388,9 @@
 				<div class="section-header">
 					<h2>Intake Form</h2>
 					{#if !data.client.intake?.length}
-						<form
-							method="POST"
-							action="?/createIntake"
-							use:enhance={() => {
-								return async ({ result }) => {
-									if (result.type === 'success') {
-										notifications.success('Intake form created', 3000);
-										invalidateAll();
-									}
-								};
-							}}
-						>
-							<button type="submit" class="btn btn-sm btn-primary">Create Intake</button>
-						</form>
+						<button class="btn btn-sm btn-primary" on:click={openIntakeEmailModal}>
+							{isGettingIntakeLink ? 'Creating...' : 'Send Intake'}
+						</button>
 					{/if}
 				</div>
 				{#if data.client.intake?.length}
@@ -359,6 +404,24 @@
 								<span class="intake-date">Sent: {formatDate(intake.sent_at)}</span>
 							{/if}
 						</div>
+						{#if intake.status === 'sent' || intake.status === 'pending'}
+							<div class="intake-link-section">
+								<p class="intake-link-label">Intake Form Link:</p>
+								<div class="intake-link-row">
+									<code class="intake-link">/intake/{intake.id}</code>
+									<button
+										class="btn btn-sm btn-secondary"
+										on:click={() => {
+											const url = `${window.location.origin}/intake/${intake.id}`;
+											navigator.clipboard.writeText(url);
+											notifications.success('Link copied!', 2000);
+										}}
+									>
+										Copy
+									</button>
+								</div>
+							</div>
+						{/if}
 						{#if intake.status === 'completed' || intake.status === 'reviewed'}
 							<div class="intake-responses">
 								{#if intake.current_challenges}
@@ -386,7 +449,7 @@
 									</div>
 								{/if}
 							</div>
-						{:else}
+						{:else if intake.status !== 'sent' && intake.status !== 'pending'}
 							<p class="empty-note">Intake not yet completed</p>
 						{/if}
 					</div>
@@ -500,6 +563,23 @@
 				<h3>Quick Actions</h3>
 				<div class="quick-actions">
 					<button class="action-btn email-btn" on:click={openEmailModal}> Send Email </button>
+					{#if !data.client.intake?.length || data.client.intake[0]?.status === 'pending'}
+						<button
+							class="action-btn intake-btn"
+							on:click={openIntakeEmailModal}
+							disabled={isGettingIntakeLink}
+						>
+							{isGettingIntakeLink ? 'Creating...' : 'Send Intake Form'}
+						</button>
+					{:else if data.client.intake[0]?.status === 'sent'}
+						<button
+							class="action-btn intake-btn"
+							on:click={openIntakeEmailModal}
+							disabled={isGettingIntakeLink}
+						>
+							Resend Intake Form
+						</button>
+					{/if}
 					<button class="action-btn" on:click={() => (showSessionModal = true)}>
 						Schedule Session
 					</button>
@@ -937,6 +1017,37 @@
 		color: var(--text-secondary);
 	}
 
+	.intake-link-section {
+		margin-top: 0.75rem;
+		padding: 0.75rem;
+		background: var(--hover-background);
+		border-radius: 6px;
+	}
+
+	.intake-link-label {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+		margin: 0 0 0.5rem;
+	}
+
+	.intake-link-row {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.intake-link {
+		flex: 1;
+		padding: 0.375rem 0.5rem;
+		background: var(--background);
+		border: 1px solid var(--border-color);
+		border-radius: 4px;
+		font-size: 0.75rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
 	.intake-responses {
 		display: flex;
 		flex-direction: column;
@@ -1119,6 +1230,23 @@
 
 	.action-btn.email-btn:hover {
 		opacity: 0.9;
+	}
+
+	.action-btn.intake-btn {
+		background: #10b981;
+		color: white;
+		border-color: #10b981;
+	}
+
+	.action-btn.intake-btn:hover {
+		background: #059669;
+		border-color: #059669;
+	}
+
+	.action-btn.intake-btn:disabled {
+		background: #a7f3d0;
+		border-color: #a7f3d0;
+		cursor: not-allowed;
 	}
 
 	/* Type Reference */

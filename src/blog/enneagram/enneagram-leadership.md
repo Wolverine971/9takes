@@ -19,7 +19,12 @@ path: src/blog/enneagram/enneagram-leadership.md
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="What is my Enneagram leadership style?">
+Each type leads differently: Type 1s lead through standards and integrity. Type 2s lead through relationships and support. Type 3s lead through results and inspiration. Type 4s lead through authenticity and vision. Type 5s lead through expertise and strategy. Type 6s lead through loyalty and risk management. Type 7s lead through innovation and enthusiasm. Type 8s lead through strength and protection. Type 9s lead through inclusion and mediation. Your biggest strength becomes your blind spot when overused.
+</QuickAnswer>
 
 <!-- ## The $8.9 Trillion Leadership Crisis Nobody's Talking About  -->
 <!-- {#hidden-psychology} -->

@@ -52,10 +52,7 @@
 		processed = processed.replace(/\s+/g, ' ').trim();
 
 		// Step 4: Escape HTML entities for safety
-		processed = processed
-			.replace(/&/g, '&amp;')
-			.replace(/</g, '&lt;')
-			.replace(/>/g, '&gt;');
+		processed = processed.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 		// Step 5: Convert basic markdown to HTML
 		processed = processed
@@ -193,7 +190,13 @@
 
 	<div class="search-wrapper">
 		<div class="search-box">
-			<svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+			<svg
+				class="search-icon"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2"
+			>
 				<circle cx="11" cy="11" r="8"></circle>
 				<path d="M21 21l-4.35-4.35"></path>
 			</svg>
@@ -369,13 +372,17 @@
 		background: white;
 		border: 2px solid #e5e7eb;
 		border-radius: 16px;
-		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+		box-shadow:
+			0 4px 6px -1px rgba(0, 0, 0, 0.1),
+			0 2px 4px -2px rgba(0, 0, 0, 0.1);
 		transition: all 0.2s ease;
 	}
 
 	.search-box:focus-within {
 		border-color: #6366f1;
-		box-shadow: 0 4px 6px -1px rgba(99, 102, 241, 0.2), 0 2px 4px -2px rgba(99, 102, 241, 0.2);
+		box-shadow:
+			0 4px 6px -1px rgba(99, 102, 241, 0.2),
+			0 2px 4px -2px rgba(99, 102, 241, 0.2);
 	}
 
 	.search-icon {
@@ -446,7 +453,9 @@
 		background: white;
 		border: 1px solid #e5e7eb;
 		border-radius: 12px;
-		box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+		box-shadow:
+			0 10px 25px -5px rgba(0, 0, 0, 0.1),
+			0 8px 10px -6px rgba(0, 0, 0, 0.1);
 		max-height: 480px;
 		overflow-y: auto;
 		z-index: 50;
@@ -626,8 +635,13 @@
 	}
 
 	@keyframes pulse {
-		0%, 100% { opacity: 1; }
-		50% { opacity: 0.5; }
+		0%,
+		100% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 0.5;
+		}
 	}
 
 	.no-results {

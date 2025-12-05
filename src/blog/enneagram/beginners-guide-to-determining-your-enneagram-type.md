@@ -17,7 +17,12 @@ path: src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md
 
 <script>
   import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="How do I find my Enneagram type?">
+Skip the 200-question tests. Find your type in 4 steps: (1) Identify your core emotion—anger, shame, or fear; (2) Match your childhood coping strategy to one of the 9 types; (3) Read all type descriptions and notice which one makes you uncomfortable (that's often yours); (4) Ask people who know you well what motivates your behavior. Focus on WHY you do things, not WHAT you do.
+</QuickAnswer>
 
 <p class="firstLetter">You've taken the personality quiz. Got your four letters. Maybe even discovered your color or animal type.</p>
 

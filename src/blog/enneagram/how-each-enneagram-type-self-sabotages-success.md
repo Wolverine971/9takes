@@ -475,7 +475,7 @@ Your Enneagram type can help a therapist understand your specific patterns faste
 
 Self-awareness is the first step. But sometimes we need a guide to walk us through the territory we've been avoiding.
 
-For more on the connection between personality and mental health challenges, see our guides on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness) and [toxic traits of each type](/enneagram-corner/toxic-traits-of-each-enneagram-type).
+For more on the connection between personality and mental health challenges, see our guides on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness) and [toxic traits of each type](/enneagram-corner/toxic-traits-of-each-enneagram-type). Ready to channel your energy productively? Check out [productivity systems tailored to each Enneagram type](/enneagram-corner/productivity-systems-by-enneagram-type).
 
 ---
 

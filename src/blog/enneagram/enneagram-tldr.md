@@ -144,7 +144,7 @@ Online tests measure behavior—you need to map your core emotional patterns. **
 
 **Ready for real-world application?** [Post your situation on 9takes](/questions)—get perspectives from all 9 types using our give-first platform. See the emotions behind every take.
 
-**Go deeper**: [Enneagram FAQs](/enneagram-corner/enneagram-faqs) | [Advanced type dynamics and growth paths](/enneagram-corner/)
+**Go deeper**: [Enneagram FAQs](/enneagram-corner/enneagram-faqs) | [Best Enneagram books, websites, and podcasts](/enneagram-corner/enneagram-books-websites-podcasts) | [Advanced type dynamics and growth paths](/enneagram-corner/)
 
 <svelte:head>
 

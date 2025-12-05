@@ -54,7 +54,7 @@ The evidence is everywhere in her life:
 - **Co-founding Once Upon a Farm** in 2017, an organic baby food company built on the mission of providing nutritious food to all children—not just wealthy ones
 - **Her famous "Pretend Cooking Show"** on Instagram, where she shares recipes not to build a brand, but because she genuinely wants to help people feed their families
 
-As Adam Grant observed after multiple interactions with her: *"Every single time I've had any interaction with you, you have looked for the best in everyone."*
+As Adam Grant observed after multiple interactions with her: _"Every single time I've had any interaction with you, you have looked for the best in everyone."_
 
 That's the essence of Type 2—constantly scanning for how they can be useful, how they can make others feel valued.
 
@@ -91,15 +91,15 @@ At Denison University, she initially enrolled as a chemistry major—practical, 
 
 Her early career embodied the Type 2 work ethic: during summer stock theater, she didn't just perform—she helped sell tickets, build sets, and clean venues. At the Timber Lake Playhouse in Illinois, the Barn Theatre in Michigan, and the Georgia Shakespeare Festival, she did whatever was needed.
 
-After moving to New York and then Los Angeles, Garner spent years in small TV roles—*Spin City*, *Felicity*, *Significant Others*—before landing the role that would change everything.
+After moving to New York and then Los Angeles, Garner spent years in small TV roles—_Spin City_, _Felicity_, _Significant Others_—before landing the role that would change everything.
 
 ### The Alias Breakthrough
 
-In 2001, J.J. Abrams cast Garner as Sydney Bristow in *Alias*, the role that would make her a star. But what's revealing about the *Alias* years is how Garner approached the physically demanding role: she learned Krav Maga before the show ever started, determined to do as much of her own stunt work as possible.
+In 2001, J.J. Abrams cast Garner as Sydney Bristow in _Alias_, the role that would make her a star. But what's revealing about the _Alias_ years is how Garner approached the physically demanding role: she learned Krav Maga before the show ever started, determined to do as much of her own stunt work as possible.
 
 This is classic 2w1 behavior—not just wanting to help the production, but holding herself to a standard of excellence that went beyond what was required. She wasn't content to let stunt doubles do the work she could learn to do herself.
 
-The show ran for five seasons and earned her a Golden Globe Award, a Screen Actors Guild Award, and four Emmy nominations. But even at the height of her *Alias* fame, those who worked with her noted her down-to-earth nature—she was known for being genuinely kind to crew members, remembering names, asking about their families.
+The show ran for five seasons and earned her a Golden Globe Award, a Screen Actors Guild Award, and four Emmy nominations. But even at the height of her _Alias_ fame, those who worked with her noted her down-to-earth nature—she was known for being genuinely kind to crew members, remembering names, asking about their families.
 
 ## Personality Quirks and Habits
 
@@ -167,7 +167,7 @@ Since 2009, Garner has been an artist ambassador for Save the Children. In 2014,
 
 ### The Ben Affleck Marriage
 
-Jennifer Garner and Ben Affleck began dating in 2004 after meeting on the sets of *Pearl Harbor* (2001) and *Daredevil* (2003). They married in June 2005 in a private ceremony in Turks and Caicos.
+Jennifer Garner and Ben Affleck began dating in 2004 after meeting on the sets of _Pearl Harbor_ (2001) and _Daredevil_ (2003). They married in June 2005 in a private ceremony in Turks and Caicos.
 
 They have three children together: Violet Anne Affleck (born 2005), Fin Affleck (born 2009), and Samuel Garner Affleck (born 2012).
 
@@ -227,7 +227,7 @@ The question for any Type 2 is whether their giving comes from abundance or from
 
 Jennifer Garner represents something increasingly rare in Hollywood: a celebrity whose public persona actually matches who they seem to be in private. Her Type 2w1 personality—the nurturing helper with a streak of moral perfectionism—explains both her career choices and her personal life.
 
-From the strict Methodist upbringing that taught her discipline and service, through the grueling early years of summer stock theater, to the heights of *Alias* fame and beyond, she's remained consistent in her core motivation: taking care of others.
+From the strict Methodist upbringing that taught her discipline and service, through the grueling early years of summer stock theater, to the heights of _Alias_ fame and beyond, she's remained consistent in her core motivation: taking care of others.
 
 Whether she's running miles for malnourished children, sharing her grandmother's recipes on Instagram, or supporting her ex-husband's recovery despite having every reason not to—Jennifer Garner embodies the Type 2 at her best: genuinely warm, deeply principled, and finding her purpose in making other people's lives a little easier.
 

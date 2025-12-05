@@ -31,7 +31,12 @@ Ornate Victorian mirror shattered into nine distinct sections, each fragment ref
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="How does the Dark Triad connect to Enneagram types?">
+The Dark Triad (narcissism, psychopathy, Machiavellianism) can manifest through any Enneagram type, but each type expresses these traits differently. Type 3s may become image-obsessed narcissists. Type 8s can slide into dominating psychopathy. Type 5s might develop cold, calculating Machiavellianism. Normal personality patterns become pathological when core fears and defenses are pushed to extremes—often through trauma, power, or unchecked ego.
+</QuickAnswer>
 
 <p class="firstLetter">What happens when personality becomes pathology?</p>
 

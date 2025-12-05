@@ -244,12 +244,12 @@
 									{#if session.client?.enneagram_type}
 										<span class="type-badge">T{session.client.enneagram_type}</span>
 									{/if}
-								{#if session.client?.trust_layer}
-									<span class="trust-badge trust-{session.client.trust_layer}"
-										>{session.client.trust_layer}</span
-									>
-								{/if}
-							</div>
+									{#if session.client?.trust_layer}
+										<span class="trust-badge trust-{session.client.trust_layer}"
+											>{session.client.trust_layer}</span
+										>
+									{/if}
+								</div>
 								<a
 									href={session.client?.id
 										? `/admin/consulting/clients/${session.client.id}#notes`

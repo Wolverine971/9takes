@@ -1,7 +1,5 @@
 <!-- src/routes/admin/search/+page.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
-
 	interface SearchResult {
 		id: number;
 		source: 'content' | 'famous_people';
@@ -82,14 +80,18 @@
 	let debounceTimer: ReturnType<typeof setTimeout>;
 
 	async function search() {
-		if (query.length < 2) {
+		if (query.trim().length < 2) {
 			error = 'Please enter at least 2 characters';
+			results = [];
+			totalResults = 0;
+			searchPerformed = false;
 			return;
 		}
 
 		isLoading = true;
 		error = '';
 		searchPerformed = true;
+		totalResults = 0;
 
 		try {
 			const params = new URLSearchParams({ q: query });
@@ -100,17 +102,24 @@
 			const response = await fetch(`/api/blog/search?${params.toString()}`);
 			const data: SearchResponse = await response.json();
 
+			if (!response.ok) {
+				throw new Error(data.error || 'Search failed');
+			}
+
 			if (data.error) {
 				error = data.error;
 				results = [];
+				totalResults = 0;
 			} else {
-				results = data.results;
-				totalResults = data.total;
+				const safeResults = data.results || [];
+				results = safeResults;
+				totalResults = data.total ?? safeResults.length;
 			}
 		} catch (err) {
 			console.error('Search error:', err);
 			error = 'Search failed. Please try again.';
 			results = [];
+			totalResults = 0;
 		} finally {
 			isLoading = false;
 		}
@@ -118,6 +127,13 @@
 
 	function debounceSearch() {
 		clearTimeout(debounceTimer);
+		if (query.trim().length < 2) {
+			results = [];
+			totalResults = 0;
+			error = '';
+			searchPerformed = false;
+			return;
+		}
 		debounceTimer = setTimeout(() => {
 			if (query.length >= 2) {
 				search();

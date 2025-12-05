@@ -245,7 +245,7 @@ It's healing what makes the pattern feel like home.
 
 ### Pillar 4: MBTI Bridge Roasts (15% of posts) — NEW
 
-**What it is:** Quote-tweeting viral MBTI content with savage Enneagram translations. The goal: make MBTI people feel *attacked* by something they didn't know existed.
+**What it is:** Quote-tweeting viral MBTI content with savage Enneagram translations. The goal: make MBTI people feel _attacked_ by something they didn't know existed.
 
 **Why it works:** MBTI Twitter is 50-100x larger than Enneagram Twitter. They're curious but defensive. Your roast makes them go "wait… how did you know that?" → sends them to 9takes.
 
@@ -302,12 +302,14 @@ That's not a thought experiment. That's a core wound.
 ```
 
 **How to find targets:**
+
 - Search "MBTI" on X, filter to "Top" posts from last 7 days
 - Look for 10k+ likes (those audiences are primed)
 - Prioritize posts with defensive energy ("X type is just built different")
 - Ask Grok: "Show me top MBTI tweets from the last 7 days with 50k+ engagements"
 
 **Posting strategy:**
+
 - 2-3 MBTI bridge posts per week
 - Best days: Tuesday, Thursday evenings when MBTI crowd is active
 - Always end with a line that hints at Enneagram depth ("MBTI tells you what. Enneagram tells you why.")
@@ -339,6 +341,7 @@ If this hit different, the unfiltered version is here: 9takes.com/enneagram-type
 Weekly thread: "If you sobbed at [scene from current hot show], congratulations, you just met your core fear."
 
 Current goldmines (late 2025):
+
 - The Bear (literally every character)
 - Severance (Irving = 1, Mark = 9)
 - Arcane season 2
@@ -385,31 +388,37 @@ But now you know where it came from.
 Since Grok has direct X data access, use these prompts weekly:
 
 **For MBTI targets:**
+
 ```
 Show me the top 10 MBTI tweets from the last 7 days with highest engagement. Which ones have defensive energy like "X type is just built different" that I could roast?
 ```
 
 **For timing optimization:**
+
 ```
 What are the exact posting times and days when Enneagram/personality content gets the most engagement on X right now? Give me specific hours.
 ```
 
 **For audience research:**
+
 ```
 Which accounts in the MBTI/astrology space have audiences most likely to convert to Enneagram interest? Show me their engagement patterns and what content they share most.
 ```
 
 **For content hooks:**
+
 ```
 What specific phrases or formats in tweets about personality types are getting the highest bookmark-to-like ratios right now?
 ```
 
 **For therapy-speak crossover:**
+
 ```
 Show me viral tweets about therapy, inner child, or attachment styles from the last 30 days. Which core fears/Enneagram types map to each?
 ```
 
 **For pop culture hooks:**
+
 ```
 What pop culture moments (shows, characters, scenes) are trending in personality-adjacent conversations this week?
 ```
@@ -1075,6 +1084,7 @@ These posts are categorized by Trust Onion layer. Prioritize Outer Layer for new
 **Based on Grok's Dec 2025 viral tweet analysis:**
 
 1. **Target:** INTJ "chaotic wizard planning" memes
+
 ```
 INTJs think they're master planners.
 
@@ -1086,6 +1096,7 @@ MBTI is the resume. Enneagram is the therapy session.
 ```
 
 2. **Target:** ENFP "17 epiphanies in therapy" posts
+
 ```
 ENFPs epiphany-dump in therapy like fireworks.
 
@@ -1097,6 +1108,7 @@ The epiphanies are real. Following through on them is where you ghost yourself.
 ```
 
 3. **Target:** INFJ "door slam" content
+
 ```
 INFJs door-slam like it's a mic drop.
 
@@ -1109,6 +1121,7 @@ Either way, you're running from something you haven't named yet.
 ```
 
 4. **Target:** INTP "conspiracy theorist" memes
+
 ```
 INTPs collect conspiracy theories like Pokémon.
 
@@ -1120,6 +1133,7 @@ Same algorithm. Different packaging.
 ```
 
 5. **Target:** INFP "fanfic about my barista" posts
+
 ```
 INFPs writing fanfic about their barista: "What if he's a lost prince?"
 
@@ -1131,6 +1145,7 @@ That's not creativity. That's a defense mechanism.
 ```
 
 6. **Target:** ENTJ "networking shark" content
+
 ```
 ENTJs at networking events: "This small talk is inefficient—let's cut to the merger proposal."
 
@@ -1142,6 +1157,7 @@ Your "directness" is armor, not strategy.
 ```
 
 7. **Target:** ISFJ "remembers your birthday from 1997" posts
+
 ```
 ISFJs remembering your birthday from 1997 while forgetting their own.
 
@@ -1153,6 +1169,7 @@ That's not love. That's a ledger.
 ```
 
 **Viral thread to post THIS WEEK:**
+
 ```
 MBTI is the mask you show the world.
 Enneagram is the childhood wound you're still bleeding from.

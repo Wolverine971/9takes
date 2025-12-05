@@ -33,7 +33,12 @@ enneagram emotions
 
 <script>
 	import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="Why don't I understand my emotions?">
+Nobody taught you. Education spent $847 billion teaching calculus and state capitals but skipped emotional literacy entirely. Each Enneagram type has specific emotional blind spots: Body types (8, 9, 1) deny anger, Heart types (2, 3, 4) mishandle shame, Head types (5, 6, 7) intellectualize fear. Your personality type determines which emotions you suppress and which ones hijack you—and it started in childhood.
+</QuickAnswer>
 
 <p class="firstLetter">Yeah, we somehow missed the class on emotions, but everyone pretends like they get it.</p>
 

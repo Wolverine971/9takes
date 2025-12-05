@@ -1,4 +1,5 @@
 // src/routes/api/blog/typeahead/+server.ts
+import { generateBlogUrl } from '$lib/server/blogSearchUtils';
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
@@ -17,43 +18,6 @@ interface TypeaheadResult {
 interface TypeaheadResponse {
 	results: TypeaheadResult[];
 	query: string;
-}
-
-// URL route mapping for categories
-const ROUTE_MAP: Record<string, string> = {
-	enneagram: '/enneagram-corner',
-	'mental-health': '/enneagram-corner/mental-health',
-	community: '/community',
-	guides: '/how-to-guides',
-	'pop-culture': '/pop-culture',
-	topical: '/blog/topical',
-	'life-situations': '/enneagram-corner',
-	generational: '/enneagram-corner',
-	historical: '/enneagram-corner',
-	situational: '/enneagram-corner',
-	overview: '/enneagram-corner',
-	'life-style': '/enneagram-corner'
-};
-
-function generateUrl(source: string, slug: string, category: string | null): string {
-	if (source === 'famous_people') {
-		return `/personality-analysis/${slug}`;
-	}
-
-	if (slug.includes('/')) {
-		const parts = slug.split('/');
-		const subdir = parts[0];
-		const fileName = parts[parts.length - 1];
-
-		if (ROUTE_MAP[subdir]) {
-			return `${ROUTE_MAP[subdir]}/${fileName}`;
-		}
-	}
-
-	const baseRoute = category && ROUTE_MAP[category] ? ROUTE_MAP[category] : '/enneagram-corner';
-	const finalSlug = slug.includes('/') ? slug.split('/').pop() : slug;
-
-	return `${baseRoute}/${finalSlug}`;
 }
 
 /**
@@ -79,7 +43,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 
 		// Use the RPC function for typeahead with headline generation
 		// Cast to any to bypass type checking until Supabase types are regenerated
-		const { data: results, error: rpcError } = await (supabase as any).rpc('typeahead_blog_search', {
+		const { data: results, error: rpcError } = await supabase.rpc('typeahead_blog_search', {
 			search_query: query,
 			result_limit: 10
 		});
@@ -96,7 +60,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			source: row.source,
 			title: row.title,
 			slug: row.slug,
-			url: generateUrl(row.source, row.slug, row.category),
+			url: generateBlogUrl(row.source, row.slug, row.category),
 			enneagram: row.enneagram,
 			category: row.category,
 			headline: row.headline || row.title,
@@ -106,19 +70,23 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		return json({ results: formattedResults, query });
 	} catch (error) {
 		console.error('Typeahead search error:', error);
-		return json({ results: [], query: url.searchParams.get('q') || '', error: 'Search failed' }, { status: 500 });
+		return json(
+			{ results: [], query: url.searchParams.get('q') || '', error: 'Search failed' },
+			{ status: 500 }
+		);
 	}
 };
 
 async function fallbackSearch(supabase: any, query: string): Promise<Response> {
 	const allResults: TypeaheadResult[] = [];
 
-	// Search blogs_content with ILIKE for simple matching
+	// Search blogs_content with full-text search
 	const { data: contentData } = await supabase
 		.from('blogs_content')
 		.select('id, slug, title, description, content, enneagram, category')
 		.eq('published', true)
-		.or(`title.ilike.%${query}%,description.ilike.%${query}%,content.ilike.%${query}%`)
+		.textSearch('search_vector', query, { type: 'websearch' })
+		.order('lastmod', { ascending: false, nullsLast: true })
 		.limit(5);
 
 	if (contentData) {
@@ -128,7 +96,7 @@ async function fallbackSearch(supabase: any, query: string): Promise<Response> {
 				source: 'content',
 				title: row.title,
 				slug: row.slug,
-				url: generateUrl('content', row.slug, row.category),
+				url: generateBlogUrl('content', row.slug, row.category),
 				enneagram: row.enneagram,
 				category: row.category,
 				headline: findMatchingSnippet(query, row.title, row.description, row.content),
@@ -142,7 +110,8 @@ async function fallbackSearch(supabase: any, query: string): Promise<Response> {
 		.from('blogs_famous_people')
 		.select('id, person, title, description, content, enneagram, category')
 		.eq('published', true)
-		.or(`title.ilike.%${query}%,person.ilike.%${query}%,description.ilike.%${query}%,content.ilike.%${query}%`)
+		.textSearch('search_vector', query, { type: 'websearch' })
+		.order('lastmod', { ascending: false, nullsLast: true })
 		.limit(5);
 
 	if (peopleData) {

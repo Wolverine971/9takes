@@ -71,6 +71,14 @@ path: src/blog/community/mbti-vs-enneagram.md
 
 </svelte:head>
 
+<script>
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+</script>
+
+<QuickAnswer question="Why is the Enneagram better than MBTI?">
+MBTI measures behavior and gives you a static label. The Enneagram reveals motivation—WHY you do things—and shows paths for growth. MBTI says "you're an introvert." The Enneagram explains your core fear, childhood wound, and how to become healthier. MBTI is a personality snapshot; the Enneagram is a transformation map.
+</QuickAnswer>
+
 <div class="bg-gray-100 border-l-4 border-gray-500 p-6 rounded-lg mb-8 text-lg italic">
 "You're an INTP."<br>
 "You should be a data analyst."<br>

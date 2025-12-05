@@ -215,6 +215,7 @@ When you're stressed, you:
 ```
 
 **Poll options:**
+
 - Get critical and rigid
 - Over-give, then resent it
 - Work harder to prove yourself
@@ -436,30 +437,31 @@ RT if someone needs to see their mask slip.
 
 **Week 1: Launch Week**
 
-| Day | Post # | Type | Time (EST) | Pillar |
-|-----|--------|------|------------|--------|
-| Day 1 (Tue) | Post 15 | MBTI→Enneagram Thread ⭐ | 8 PM | MBTI Bridge |
-| Day 2 (Wed) | Post 1 | 9 Takes Thread (PIN THIS) | 9 AM | Signature |
-| Day 2 (Wed) | Post 3 | Overthinking | 12 PM | Mental Health |
-| Day 3 (Thu) | Post 14 | Childhood Wounds Thread ⭐ | 8 PM | Shadow |
-| Day 4 (Fri) | Post 2 | Self-Sabotage Thread | 9 AM | Shadow |
-| Day 4 (Fri) | Post 10 | Trauma Bonding | 5 PM | Relationship |
-| Day 5 (Sat) | Post 5 | Type 2 Manipulation | 12 PM | Shadow |
+| Day         | Post #  | Type                       | Time (EST) | Pillar        |
+| ----------- | ------- | -------------------------- | ---------- | ------------- |
+| Day 1 (Tue) | Post 15 | MBTI→Enneagram Thread ⭐   | 8 PM       | MBTI Bridge   |
+| Day 2 (Wed) | Post 1  | 9 Takes Thread (PIN THIS)  | 9 AM       | Signature     |
+| Day 2 (Wed) | Post 3  | Overthinking               | 12 PM      | Mental Health |
+| Day 3 (Thu) | Post 14 | Childhood Wounds Thread ⭐ | 8 PM       | Shadow        |
+| Day 4 (Fri) | Post 2  | Self-Sabotage Thread       | 9 AM       | Shadow        |
+| Day 4 (Fri) | Post 10 | Trauma Bonding             | 5 PM       | Relationship  |
+| Day 5 (Sat) | Post 5  | Type 2 Manipulation        | 12 PM      | Shadow        |
 
 **Week 2: MBTI Hunting Week**
 
-| Day | Post # | Type | Time (EST) | Notes |
-|-----|--------|------|------------|-------|
-| Day 6 (Mon) | Post 4 | Type 6 Reassurance | 9 AM | Mental Health |
-| Day 6 (Mon) | Post 11 | INTJ Quote-Tweet | 8 PM | Find viral INTJ post first |
-| Day 7 (Tue) | Post 7 | Promotion 9 Takes | 9 AM | Signature |
-| Day 7 (Tue) | Post 12 | INFJ Quote-Tweet | 8 PM | Find viral INFJ door-slam |
-| Day 8 (Wed) | Post 6 | Type 8 Red Flag | 12 PM | Relationship |
-| Day 8 (Wed) | Post 8 | Stress Poll | 5 PM | Engagement |
-| Day 9 (Thu) | Post 9 | Type 5 Ghosting | 9 AM | Shadow |
-| Day 9 (Thu) | Post 13 | ENFP Quote-Tweet | 8 PM | Find viral ENFP post |
+| Day         | Post #  | Type               | Time (EST) | Notes                      |
+| ----------- | ------- | ------------------ | ---------- | -------------------------- |
+| Day 6 (Mon) | Post 4  | Type 6 Reassurance | 9 AM       | Mental Health              |
+| Day 6 (Mon) | Post 11 | INTJ Quote-Tweet   | 8 PM       | Find viral INTJ post first |
+| Day 7 (Tue) | Post 7  | Promotion 9 Takes  | 9 AM       | Signature                  |
+| Day 7 (Tue) | Post 12 | INFJ Quote-Tweet   | 8 PM       | Find viral INFJ door-slam  |
+| Day 8 (Wed) | Post 6  | Type 8 Red Flag    | 12 PM      | Relationship               |
+| Day 8 (Wed) | Post 8  | Stress Poll        | 5 PM       | Engagement                 |
+| Day 9 (Thu) | Post 9  | Type 5 Ghosting    | 9 AM       | Shadow                     |
+| Day 9 (Thu) | Post 13 | ENFP Quote-Tweet   | 8 PM       | Find viral ENFP post       |
 
 **Daily Actions:**
+
 - Before posting: Search "MBTI" on X, filter to Top, look for quote-tweet targets
 - First hour after posting: Reply to ALL comments
 - Evening: Engage with 5-10 psychology/personality accounts

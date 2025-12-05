@@ -1,4 +1,11 @@
 // src/routes/api/blog/search/+server.ts
+import {
+	generateBlogUrl,
+	normalizeTextArray,
+	parseEnneagramParam,
+	parseLimit,
+	parseOffset
+} from '$lib/server/blogSearchUtils';
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
@@ -46,12 +53,12 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		const supabase = locals.supabase;
 
 		// Parse query parameters
-		const query = url.searchParams.get('q')?.trim();
-		const enneagram = url.searchParams.get('enneagram');
-		const category = url.searchParams.get('category');
-		const type = url.searchParams.get('type');
-		const limit = Math.min(parseInt(url.searchParams.get('limit') || '20'), 100);
-		const offset = parseInt(url.searchParams.get('offset') || '0');
+		const query = (url.searchParams.get('q') || '').trim();
+		const enneagramParam = url.searchParams.get('enneagram');
+		const category = url.searchParams.get('category')?.trim() || null;
+		const type = url.searchParams.get('type')?.trim() || null;
+		const limit = parseLimit(url.searchParams.get('limit'));
+		const offset = parseOffset(url.searchParams.get('offset'));
 
 		// Validate query
 		if (!query || query.length < 2) {
@@ -80,24 +87,52 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			);
 		}
 
-		// Parse filters
-		const enneagramFilter = enneagram ? parseInt(enneagram) : null;
+		const enneagramFilter = parseEnneagramParam(enneagramParam);
+		if (enneagramParam && enneagramFilter === null) {
+			return json(
+				{
+					results: [],
+					query,
+					filters: { enneagram: null, category, type },
+					total: 0,
+					error: 'Invalid enneagram filter'
+				},
+				{ status: 400 }
+			);
+		}
 
 		// Try using the RPC function first (more efficient)
-		const { data: rpcResults, error: rpcError } = await supabase.rpc('search_all_blogs', {
-			search_query: query,
-			filter_enneagram: enneagramFilter,
-			filter_category: category,
-			filter_type: type,
-			result_limit: limit,
-			result_offset: offset
-		});
+		const {
+			data: rpcResults,
+			error: rpcError,
+			count: rpcCount
+		} = await supabase.rpc(
+			'search_all_blogs',
+			{
+				search_query: query,
+				filter_enneagram: enneagramFilter,
+				filter_category: category,
+				filter_type: type,
+				result_limit: limit,
+				result_offset: offset
+			},
+			{ count: 'exact' }
+		);
 
 		if (!rpcError && rpcResults) {
-			// RPC function exists and worked
 			const results: SearchResult[] = rpcResults.map((row: any) => ({
-				...row,
-				url: generateUrl(row.source, row.slug, row.category)
+				id: row.id,
+				source: row.source === 'famous_people' ? 'famous_people' : 'content',
+				slug: row.slug,
+				title: row.title,
+				description: row.description,
+				enneagram: row.enneagram ?? null,
+				type: normalizeTextArray(row.type),
+				tags: normalizeTextArray(row.tags),
+				category: row.category ?? null,
+				lastmod: row.lastmod ?? null,
+				rank: row.rank ?? 0,
+				url: generateBlogUrl(row.source, row.slug, row.category ?? null)
 			}));
 
 			return json({
@@ -108,33 +143,70 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 					category,
 					type
 				},
-				total: results.length
+				total: typeof rpcCount === 'number' ? rpcCount : results.length
 			});
 		}
 
 		// Fallback: Manual search if RPC doesn't exist
-		console.log('RPC not available, using fallback search');
+		console.warn('RPC not available, using fallback search');
 
 		const allResults: SearchResult[] = [];
+		const fallbackLimit = Math.min(limit + offset, 200);
 
-		// Search blogs_content
-		let contentQuery = supabase
+		const contentQuery = supabase
 			.from('blogs_content')
-			.select('id, slug, title, description, enneagram, type, tags, category, lastmod')
+			.select('id, slug, title, description, enneagram, type, tags, category, lastmod', {
+				count: 'exact'
+			})
 			.eq('published', true)
-			.or(`title.ilike.%${query}%,description.ilike.%${query}%,content.ilike.%${query}%`);
+			.textSearch('search_vector', query, { type: 'websearch' })
+			.order('lastmod', { ascending: false, nullsLast: true })
+			.limit(fallbackLimit);
 
 		if (enneagramFilter) {
-			contentQuery = contentQuery.eq('enneagram', enneagramFilter);
+			contentQuery.eq('enneagram', enneagramFilter);
 		}
 		if (category) {
-			contentQuery = contentQuery.eq('category', category);
+			contentQuery.eq('category', category);
 		}
 		if (type) {
-			contentQuery = contentQuery.contains('type', [type]);
+			contentQuery.contains('type', [type]);
 		}
 
-		const { data: contentData } = await contentQuery.limit(limit);
+		const peopleQuery = supabase
+			.from('blogs_famous_people')
+			.select('id, person, title, description, enneagram, type, tags, category, lastmod', {
+				count: 'exact'
+			})
+			.eq('published', true)
+			.textSearch('search_vector', query, { type: 'websearch' })
+			.order('lastmod', { ascending: false, nullsLast: true })
+			.limit(fallbackLimit);
+
+		if (enneagramFilter) {
+			peopleQuery.eq('enneagram', enneagramFilter);
+		}
+		if (category) {
+			peopleQuery.eq('category', category);
+		}
+		if (type) {
+			peopleQuery.contains('type', [type]);
+		}
+
+		const [
+			{ data: contentData, count: contentCount, error: contentError },
+			{ data: peopleData, count: peopleCount, error: peopleError }
+		] = await Promise.all([contentQuery, peopleQuery]);
+
+		if (contentError && peopleError) {
+			throw new Error('Fallback search failed for both queries');
+		}
+		if (contentError) {
+			console.error('Fallback content search error:', contentError);
+		}
+		if (peopleError) {
+			console.error('Fallback famous people search error:', peopleError);
+		}
 
 		if (contentData) {
 			contentData.forEach((row: any) => {
@@ -144,37 +216,16 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 					slug: row.slug,
 					title: row.title,
 					description: row.description,
-					enneagram: row.enneagram,
-					type: row.type || [],
-					tags: row.tags || [],
-					category: row.category,
-					lastmod: row.lastmod,
-					rank: 1, // Simple ranking in fallback mode
-					url: generateUrl('content', row.slug, row.category)
+					enneagram: row.enneagram ?? null,
+					type: normalizeTextArray(row.type),
+					tags: normalizeTextArray(row.tags),
+					category: row.category ?? null,
+					lastmod: row.lastmod ?? null,
+					rank: 0,
+					url: generateBlogUrl('content', row.slug, row.category ?? null)
 				});
 			});
 		}
-
-		// Search blogs_famous_people
-		let peopleQuery = supabase
-			.from('blogs_famous_people')
-			.select('id, person, title, description, enneagram, type, tags, category, lastmod')
-			.eq('published', true)
-			.or(
-				`title.ilike.%${query}%,description.ilike.%${query}%,person.ilike.%${query}%,content.ilike.%${query}%`
-			);
-
-		if (enneagramFilter) {
-			peopleQuery = peopleQuery.eq('enneagram', enneagramFilter);
-		}
-		if (category) {
-			peopleQuery = peopleQuery.eq('category', category);
-		}
-		if (type) {
-			peopleQuery = peopleQuery.contains('type', [type]);
-		}
-
-		const { data: peopleData } = await peopleQuery.limit(limit);
 
 		if (peopleData) {
 			peopleData.forEach((row: any) => {
@@ -184,13 +235,13 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 					slug: row.person,
 					title: row.title,
 					description: row.description,
-					enneagram: row.enneagram,
-					type: row.type || [],
-					tags: row.tags || [],
-					category: row.category,
-					lastmod: row.lastmod,
-					rank: 1,
-					url: `/personality-analysis/${row.person}`
+					enneagram: row.enneagram ?? null,
+					type: normalizeTextArray(row.type),
+					tags: normalizeTextArray(row.tags),
+					category: row.category ?? null,
+					lastmod: row.lastmod ?? null,
+					rank: 0,
+					url: generateBlogUrl('famous_people', row.person, row.category ?? null)
 				});
 			});
 		}
@@ -203,6 +254,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		});
 
 		const paginatedResults = allResults.slice(offset, offset + limit);
+		const total = (contentCount ?? 0) + (peopleCount ?? 0) || allResults.length;
 
 		return json({
 			results: paginatedResults,
@@ -212,7 +264,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 				category,
 				type
 			},
-			total: allResults.length
+			total
 		});
 	} catch (error) {
 		console.error('Blog search error:', error);
@@ -228,52 +280,6 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		);
 	}
 };
-
-// URL route mapping for all categories
-const ROUTE_MAP: Record<string, string> = {
-	// Main categories
-	enneagram: '/enneagram-corner',
-	'mental-health': '/enneagram-corner/mental-health',
-	community: '/community',
-	guides: '/how-to-guides',
-	'pop-culture': '/pop-culture',
-	topical: '/blog/topical',
-	'life-situations': '/enneagram-corner',
-	generational: '/enneagram-corner',
-	historical: '/enneagram-corner',
-	situational: '/enneagram-corner',
-	overview: '/enneagram-corner',
-	'life-style': '/enneagram-corner'
-};
-
-/**
- * Generate URL based on content source and category
- */
-function generateUrl(source: string, slug: string, category: string | null): string {
-	if (source === 'famous_people') {
-		return `/personality-analysis/${slug}`;
-	}
-
-	// Handle slugs that contain paths (like mental-health/something)
-	if (slug.includes('/')) {
-		const parts = slug.split('/');
-		const subdir = parts[0];
-		const fileName = parts[parts.length - 1];
-
-		// Check if subdir has a specific route
-		if (ROUTE_MAP[subdir]) {
-			return `${ROUTE_MAP[subdir]}/${fileName}`;
-		}
-	}
-
-	// Use the category route mapping
-	const baseRoute = category && ROUTE_MAP[category] ? ROUTE_MAP[category] : '/enneagram-corner';
-
-	// Extract just the filename if slug contains a path
-	const finalSlug = slug.includes('/') ? slug.split('/').pop() : slug;
-
-	return `${baseRoute}/${finalSlug}`;
-}
 
 /**
  * POST endpoint for form submissions
