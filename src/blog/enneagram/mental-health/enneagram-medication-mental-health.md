@@ -45,7 +45,7 @@ NOTES:
 
 Each type has unique fears, hopes, and patterns when it comes to medication. Understanding these patterns can help you communicate better with healthcare providers, make informed decisions, and manage medication more effectively if you choose that path.
 
-This guide explores how each Enneagram type typically relates to psychiatric medication, common concerns, and strategies for navigating this aspect of mental health care.
+This guide explores how each Enneagram type typically relates to psychiatric medication, common concerns, and strategies for navigating this aspect of [mental health care](/enneagram-corner/enneagram-and-mental-illness).
 
 ## Understanding Medication Through the Enneagram
 

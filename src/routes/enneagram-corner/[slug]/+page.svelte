@@ -104,7 +104,12 @@
 	</div>
 
 	{#if data?.frontmatter?.pic}
-		<div class="featured-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+		<div
+			class="featured-image"
+			itemprop="image"
+			itemscope
+			itemtype="https://schema.org/ImageObject"
+		>
 			<meta itemprop="url" content={`https://9takes.com/blogs/${data.frontmatter.pic}.webp`} />
 			<PopCard
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}

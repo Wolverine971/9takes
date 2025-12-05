@@ -1,176 +1,303 @@
 # Blog Crosslink Action Plan
 
-_Last Updated: 2025-12-04_
-_Source Analysis: [BLOG-CROSSLINK-INDEX.md](./BLOG-CROSSLINK-INDEX.md)_
+_Last Updated: 2025-12-05_
+_Source: [BLOG-CROSSLINK-INDEX.md](./BLOG-CROSSLINK-INDEX.md) (regenerate with `node scripts/generate-crosslink-report.js`)_
 
 ---
 
-## Quick Stats
+## Current State
 
-| Metric                      | Count | Target |
-| --------------------------- | ----- | ------ |
-| Posts with 0 outgoing links | 31    | 0      |
-| Posts with 0 incoming links | 48    | 0      |
-| Completely isolated (0/0)   | 13    | 0      |
-| Average outgoing links      | 2.3   | 4-5    |
-
----
-
-## Priority 1: Completely Isolated Posts (0 in, 0 out)
-
-These posts are invisible. Fix these first.
-
-| Status | Post                                          | Path                                                                    | Action Needed                                      |
-| ------ | --------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------- |
-| ✅     | The Dark Triad Meets the Enneagram            | `pop-culture/dark-triad-meets-enneagram.md`                             | ~~Add 3+ outgoing~~ 7 links added 2025-12-04       |
-| ✅     | The Crash Course on Emotions                  | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` | ~~Add 3+ outgoing~~ 6 links added 2025-12-04       |
-| ✅     | Enneagram Leadership Styles                   | `enneagram/enneagram-leadership.md`                                     | ~~Add 3+ outgoing~~ 6 links added 2025-12-04       |
-| ⬜     | Tips for Communicating with Each Type         | `enneagram/enneagram-communication-tips.md`                             | Add 3+ outgoing, link from communication-styles.md |
-| ✅     | Find Your Enneagram Type in 10 Minutes        | `enneagram/beginners-guide-to-determining-your-enneagram-type.md`       | ~~Add 3+ outgoing~~ 5 links added 2025-12-04       |
-| ⬜     | Echoes Online: Memetic Comments               | `community/memetic-comments.md`                                         | Add 2+ outgoing, link from community hub           |
-| ⬜     | Why the Greek vibe?                           | `community/why-the-greek-vibe.md`                                       | Add 2+ outgoing, link from about/community pages   |
-| ⬜     | The Consensus on Human Nature                 | `community/consensus-on-human-nature.md`                                | Add 2+ outgoing, link from philosophy post         |
-| ⬜     | Introducing 9takes                            | `community/introducing-9takes.md`                                       | Add 2+ outgoing, link from community pages         |
-| ✅     | MBTI Failed Us — Can the Enneagram Do Better? | `community/mbti-vs-enneagram.md`                                        | ~~Add 3+ outgoing~~ 7 links added 2025-12-04       |
-| ⬜     | The Enneagram Changed My Life                 | `community/why-im-selective-sharing-enneagram.md`                       | Add 2+ outgoing, link from self-development posts  |
-| ⬜     | 5 Reasons Reddit Can't...                     | `community/reddit-deep-connections-limitations.md`                      | Add 2+ outgoing, link from community pages         |
-| ⬜     | What Winning Online Arguments Looks Like      | `community/what-winning-online-arguments-looks-like.md`                 | Add 2+ outgoing, link from communication posts     |
+| Metric                      | Count | Target | Gap      |
+| --------------------------- | ----- | ------ | -------- |
+| Total published posts       | 108   | -      | -        |
+| Posts with 0 outgoing links | 16    | 0      | -16      |
+| Posts with 0 incoming links | 41    | 0      | -41      |
+| Completely isolated (0/0)   | 12    | 0      | -12      |
+| Total cross-links           | 485   | 600+   | +115     |
+| Average outgoing links      | 4.5   | 5-6    | +0.5-1.5 |
 
 ---
 
-## Priority 2: High-Traffic Posts Missing Outgoing Links
+## Strategy Overview
 
-These posts rank well but don't pass link equity. Add 3-5 links to each.
+### The Problem
 
-| Status | Post                                              | Incoming | Add Links To                                                                                 |
-| ------ | ------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
-| ✅     | Why Nobody Understands You (communication-styles) | 9        | ~~communication-tips, communication-guide, types-in-relationships~~ 4 links added 2025-12-04 |
-| ✅     | Enneagram Self Development                        | 5        | ~~90-day-blueprint, personality-maxing, self-sabotages~~ Done 2025-12-04 (11 total links)    |
-| ✅     | Enneagram Wings Complete Guide                    | 3        | ~~enneagram-tldr, instinctual-subtypes, types-in-stress~~ 5 links added 2025-12-04           |
-| ⬜     | Astrology Meets Enneagram                         | 2        | enneagram-concepts, types-in-relationships                                                   |
-| ⬜     | Enneagram Types Working in Teams                  | 2        | team-dynamics, workplace-team-building, leadership                                           |
-| ✅     | Shadow Work by Enneagram Type                     | 2        | ~~mental-illness, trauma-response, therapy-guide~~ 5 links added 2025-12-04                  |
-| ⬜     | Enneagram Concepts                                | 2        | enneagram-tldr, wings-guide, stress-number                                                   |
-| ✅     | Love Languages & Enneagram Types                  | 2        | ~~types-in-relationships, communication-guide, dating guides~~ 3 links added 2025-12-04      |
-| ✅     | Attachment Styles and Enneagram                   | 2        | ~~types-in-relationships, trauma-response, manipulation~~ 4 links added 2025-12-04           |
-| ⬜     | 9 Childhood Stereotypes                           | 2        | trauma-response, parenting-mental-health                                                     |
-| ⬜     | Best Free Enneagram Test (2025)                   | 2        | beginners-guide, enneagram-tldr, faqs                                                        |
+The **mental-health/** subdirectory is almost completely disconnected from the rest of the blog. 8 of 12 isolated posts are mental health content. This is a major SEO issue - these posts can't be discovered through internal navigation.
+
+### The Solution
+
+1. **Connect the mental health cluster** to the main hub post `enneagram-and-mental-illness.md`
+2. **Add outgoing links** to all 16 posts missing them
+3. **Get hub posts to link** to orphaned content
+4. **Build topic clusters** with bidirectional linking
 
 ---
 
-## Priority 3: Orphaned Authority Posts (Good Content, No Incoming Links)
+## Phase 1: Fix Isolated Posts (12 posts)
 
-These posts link out well but nobody can find them. Add links FROM hub posts.
+These posts have ZERO connections. Each needs:
 
-| Status | Post                                 | Outgoing | Get Links From                                            |
-| ------ | ------------------------------------ | -------- | --------------------------------------------------------- |
-| ⬜     | First Impression Cheat Sheet         | 10       | types-at-party, communication-styles, how-each-flexes     |
-| ⬜     | Productivity Systems by Type         | 9        | self-sabotages, self-development, workplace-mental-health |
-| ⬜     | Enneagram Books, Websites, Podcasts  | 6        | faqs, enneagram-tldr, beginners-guide                     |
-| ⬜     | Is Enneagram Scientifically Valid?   | 5        | faqs, enneagram-criticisms, philosophy-psychology         |
-| ⬜     | Relationship Conflict Part 2         | 4        | part-1, types-in-relationships, red-flags                 |
-| ⬜     | Neurodiversity vs Personality        | 4        | ADHD post, neurodivergence-guide                          |
-| ⬜     | Enneagram Parenting Mental Health    | 4        | childhood-stereotypes, trauma-response                    |
-| ⬜     | Relationship Conflict Part 1         | 3        | types-in-relationships, communication-guide               |
-| ⬜     | Using Enneagram for Self-Development | 3        | self-development, personality-maxing, 90-day-blueprint    |
-| ⬜     | Dating Guide for Men                 | 3        | dating-guide-women, types-in-relationships, red-flags     |
+- 3-5 outgoing links added to the post content
+- 1-2 incoming links from hub posts
 
----
+### Mental Health Cluster (8 posts) - CRITICAL
 
-## Priority 4: Individual Type Pages (All Orphaned)
+The hub post `enneagram-and-mental-illness.md` (14 incoming, 10 outgoing) should link to ALL of these:
 
-All 9 type-specific pages have 0 incoming links. These should be linked from:
+| Status | Post                                                  | Suggested Outgoing Links                                            | Get Incoming From                     |
+| ------ | ----------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------- |
+| ⬜     | `mental-health/enneagram-addiction-recovery-guide.md` | mental-illness, types-in-stress, shadow-work, self-sabotages        | mental-illness, overthinking          |
+| ⬜     | `mental-health/enneagram-neurodivergence-guide.md`    | ADHD-post, mental-illness, types-in-stress                          | mental-illness, ADHD-post             |
+| ⬜     | `mental-health/enneagram-workplace-mental-health.md`  | types-in-stress, leadership, self-sabotages                         | mental-illness, team-building         |
+| ⬜     | `mental-health/enneagram-trauma-response-guide.md`    | mental-illness, types-in-stress, shadow-work                        | mental-illness, childhood-stereotypes |
+| ⬜     | `mental-health/enneagram-science-mental-health.md`    | faqs, enneagram-criticisms, philosophy-psychology                   | faqs, enneagram-tldr                  |
+| ⬜     | `mental-health/enneagram-medication-mental-health.md` | mental-illness, therapy-guide, crisis-management                    | mental-illness                        |
+| ⬜     | `mental-health/enneagram-parenting-mental-health.md`  | childhood-stereotypes, trauma-response, types-in-stress             | mental-illness, childhood-stereotypes |
+| ⬜     | `life-situations/before-your-next-fight.md`           | relationship-communication, conflict-part-1, types-in-relationships | conflict-part-1                       |
 
-- `enneagram-tldr.md`
-- `enneagram-types-in-stress.md`
-- `enneagram-types-in-relationships.md`
-- Any post discussing that specific type
+**Action:** Update `enneagram-and-mental-illness.md` to add a "Related Mental Health Guides" section linking to all 7 mental health posts.
 
-| Status | Type Page           |
-| ------ | ------------------- |
-| ⬜     | enneagram-type-1.md |
-| ⬜     | enneagram-type-2.md |
-| ⬜     | enneagram-type-3.md |
-| ⬜     | enneagram-type-4.md |
-| ⬜     | enneagram-type-5.md |
-| ⬜     | enneagram-type-6.md |
-| ⬜     | enneagram-type-7.md |
-| ⬜     | enneagram-type-8.md |
-| ⬜     | enneagram-type-9.md |
+### Community Cluster (4 posts)
+
+| Status | Post                                                    | Suggested Outgoing Links                          | Get Incoming From  |
+| ------ | ------------------------------------------------------- | ------------------------------------------------- | ------------------ |
+| ⬜     | `community/memetic-comments.md`                         | communication-styles, what-winning-arguments      | introducing-9takes |
+| ⬜     | `community/what-winning-online-arguments-looks-like.md` | communication-styles, memetic-comments            | introducing-9takes |
+| ⬜     | `community/why-im-selective-sharing-enneagram.md`       | self-development, enneagram-tldr, beginners-guide | mbti-vs-enneagram  |
+| ⬜     | `community/why-the-greek-vibe.md`                       | inspiration-for-9takes, philosophy-psychology     | introducing-9takes |
 
 ---
 
-## Topic Clusters to Strengthen
+## Phase 2: Add Outgoing Links (4 remaining posts)
 
-When editing any post in these clusters, add links to other posts in the same cluster.
+These posts have incoming links but don't link out:
 
-### Mental Health Cluster
-
-- `enneagram/enneagram-and-mental-illness.md` ✓ (well-linked)
-- `enneagram/depression-patterns-by-enneagram-type.md` ⚠️ (needs outgoing)
-- `enneagram/shadow-work-by-enneagram-type.md` ✓ (5 links added 2025-12-04)
-- `enneagram/mental-health/enneagram-trauma-response-guide.md` ✓
-- `enneagram/enneagram-types-in-stress.md` ✓
-- `enneagram/why-you-cant-stop-overthinking-enneagram.md` ✓
-
-### Relationships Cluster
-
-- `enneagram/enneagram-types-in-relationships.md` ✓ (hub - 22 incoming)
-- `enneagram/red-flags-dating-each-enneagram-type.md` ✓
-- `enneagram/love-languages-and-enneagram-types.md` ✓ (3 links added 2025-12-04)
-- `enneagram/attachment-styles-and-enneagram-types.md` ✓ (4 links added 2025-12-04)
-- `enneagram/enneagram-dating-guide-for-men.md` ⚠️ (orphaned)
-- `enneagram/enneagram-dating-guide-for-women.md` ⚠️ (orphaned)
-- `enneagram/how-each-enneagram-type-manipulates.md` ✓
-
-### Self-Improvement Cluster
-
-- `enneagram/how-each-enneagram-type-self-sabotages-success.md` ✓
-- `enneagram/enneagram-self-development.md` ⚠️ (needs outgoing)
-- `enneagram/90-day-personality-maxing-blueprint.md` ⚠️ (needs outgoing)
-- `enneagram/personality-maxing.md` ⚠️ (orphaned)
-- `enneagram/toxic-traits-of-each-enneagram-type.md` ✓
-
-### Workplace Cluster
-
-- `enneagram/enneagram-leadership.md` ❌ (isolated)
-- `enneagram/enneagram-types-working-in-teams.md` ⚠️ (needs outgoing)
-- `enneagram/enneagram-team-dynamics.md` ⚠️ (orphaned)
-- `enneagram/enneagram-workplace-team-building.md` ⚠️ (needs outgoing)
-- `guides/productivity-systems-by-enneagram-type.md` ⚠️ (orphaned)
+| Status | Post                                                 | In  | Suggested Outgoing Links                                            |
+| ------ | ---------------------------------------------------- | --- | ------------------------------------------------------------------- |
+| ⬜     | `enneagram/enneagram-concepts.md`                    | 3   | enneagram-tldr, wings-guide, connecting-lines, instinctual-subtypes |
+| ⬜     | `enneagram/enneagram-instinctual-subtypes.md`        | 3   | enneagram-concepts, wings-guide, types-in-stress                    |
+| ⬜     | `mental-health/enneagram-crisis-management-guide.md` | 1   | mental-illness, types-in-stress, therapy-guide                      |
+| ⬜     | `mental-health/enneagram-therapy-guide.md`           | 1   | mental-illness, crisis-management, shadow-work                      |
 
 ---
 
-## Workflow for Fixing Posts
+## Phase 3: Rescue Orphaned Posts (29 non-isolated orphans)
+
+These posts link OUT but nobody links TO them. Priority by outgoing link count (posts already contributing value):
+
+### High Priority (6+ outgoing links, 0 incoming)
+
+| Status | Post                                                                    | Out | Add Incoming Links From                                           |
+| ------ | ----------------------------------------------------------------------- | --- | ----------------------------------------------------------------- |
+| ⬜     | `guides/productivity-systems-by-enneagram-type.md`                      | 10  | self-sabotages, self-development, workplace-team-building         |
+| ⬜     | `enneagram/enneagram-communication-tips.md`                             | 8   | communication-styles, communication-guide, types-in-relationships |
+| ⬜     | `enneagram/enneagram-dating-guide-for-men.md`                           | 7   | types-in-relationships, red-flags-dating, dating-guide-women      |
+| ⬜     | `community/mbti-vs-enneagram.md`                                        | 6   | enneagram-tldr, faqs, beginners-guide                             |
+| ⬜     | `enneagram/enneagram-books-websites-podcasts.md`                        | 6   | faqs, beginners-guide, enneagram-tldr                             |
+| ⬜     | `enneagram/enneagram-dating-guide-for-women.md`                         | 6   | types-in-relationships, red-flags-dating, dating-guide-men        |
+| ⬜     | `enneagram/enneagram-leadership.md`                                     | 6   | team-building, team-diversity, types-working-in-teams             |
+| ⬜     | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` | 6   | self-development, mental-illness, overthinking                    |
+| ⬜     | `pop-culture/dark-triad-meets-enneagram.md`                             | 6   | toxic-traits, manipulates, mental-illness                         |
+
+### Medium Priority (3-5 outgoing links, 0 incoming)
+
+| Status | Post                                                | Out | Add Incoming Links From                           |
+| ------ | --------------------------------------------------- | --- | ------------------------------------------------- |
+| ⬜     | `enneagram/enneagram-party-planner.md`              | 5   | types-at-party, how-each-flexes                   |
+| ⬜     | `enneagram/neurodiversity-vs-personality.md`        | 4   | ADHD-post, neurodivergence-guide                  |
+| ⬜     | `community/inspiration-for-9takes.md`               | 2   | introducing-9takes, why-the-greek-vibe            |
+| ⬜     | `community/software-and-hardware-of-the-mind.md`    | 2   | philosophy-psychology, enneagram-concepts         |
+| ⬜     | `enneagram/enneagram-coach-toolkit.md`              | 2   | self-development, faqs                            |
+| ⬜     | `mental-health/enneagram-anxiety-complete-guide.md` | 2   | anxiety-management, overthinking, types-in-stress |
+
+### Low Priority (1 outgoing link, 0 incoming)
+
+| Status | Post                                               | Out | Add Incoming Links From                       |
+| ------ | -------------------------------------------------- | --- | --------------------------------------------- |
+| ⬜     | `community/consensus-on-human-nature.md`           | 1   | philosophy-psychology                         |
+| ⬜     | `community/reddit-deep-connections-limitations.md` | 1   | introducing-9takes                            |
+| ⬜     | `enneagram/enneagram-influences.md`                | 1   | philosophy-psychology, enneagram-and-religion |
+| ⬜     | `enneagram/first-impression-cheat-sheet.md`        | 1   | first-impression-playbook, types-at-party     |
+| ⬜     | `enneagram/situations-change-emotions-dont.md`     | 1   | types-in-stress, overthinking                 |
+
+---
+
+## Phase 4: Strengthen Topic Clusters
+
+When editing any post in these clusters, ensure it links to others in the same cluster.
+
+### Mental Health Cluster (DISCONNECTED - PRIORITY)
+
+**Hub:** `enneagram-and-mental-illness.md` (14 in, 10 out)
+
+Should all cross-link:
+
+- `mental-health/enneagram-addiction-recovery-guide.md` ❌ isolated
+- `mental-health/enneagram-neurodivergence-guide.md` ❌ isolated
+- `mental-health/enneagram-workplace-mental-health.md` ❌ isolated
+- `mental-health/enneagram-trauma-response-guide.md` ❌ isolated
+- `mental-health/enneagram-science-mental-health.md` ❌ isolated
+- `mental-health/enneagram-medication-mental-health.md` ❌ isolated
+- `mental-health/enneagram-parenting-mental-health.md` ❌ isolated
+- `mental-health/enneagram-crisis-management-guide.md` (1 in, 0 out)
+- `mental-health/enneagram-therapy-guide.md` (1 in, 0 out)
+- `mental-health/enneagram-anxiety-complete-guide.md` (0 in, 2 out)
+- `enneagram/shadow-work-by-enneagram-type.md` ✅ (6 in, 5 out)
+- `enneagram/depression-patterns-by-enneagram-type.md` (1 in, 1 out)
+- `enneagram/enneagram-mental-health-flags.md` (4 in, 7 out)
+
+### Relationships Cluster (WELL CONNECTED)
+
+**Hub:** `enneagram-types-in-relationships.md` (25 in, 8 out)
+
+- `red-flags-dating-each-enneagram-type.md` ✅ (7 in, 12 out)
+- `relationship-communication-guide.md` ✅ (6 in, 6 out)
+- `love-languages-and-enneagram-types.md` ✅ (3 in, 4 out)
+- `attachment-styles-and-enneagram-types.md` ✅ (3 in, 5 out)
+- `enneagram-dating-guide-for-men.md` ❌ orphan (0 in, 7 out)
+- `enneagram-dating-guide-for-women.md` ❌ orphan (0 in, 6 out)
+- `how-each-enneagram-type-manipulates.md` ✅ (6 in, 9 out)
+- `toxic-traits-relationships-warning-signs.md` (1 in, 8 out)
+
+**Action:** Add dating guides to `types-in-relationships.md` Related Reading section.
+
+### Self-Improvement Cluster (GOOD)
+
+**Hub:** `enneagram-self-development.md` (10 in, 11 out)
+
+- `how-each-enneagram-type-self-sabotages-success.md` ✅ (9 in, 10 out)
+- `90-day-personality-maxing-blueprint.md` (3 in, 2 out)
+- `personality-maxing.md` (1 in, 3 out)
+- `toxic-traits-of-each-enneagram-type.md` ✅ (17 in, 13 out)
+- `productivity-systems-by-enneagram-type.md` ❌ orphan (0 in, 10 out)
+
+**Action:** Add productivity-systems to `self-development.md`.
+
+### Workplace Cluster (NEEDS WORK)
+
+- `enneagram-leadership.md` ❌ orphan (0 in, 6 out)
+- `enneagram-types-working-in-teams.md` (2 in, 5 out)
+- `enneagram-team-dynamics.md` (1 in, 2 out)
+- `enneagram-workplace-team-building.md` (2 in, 5 out)
+- `productivity-systems-by-enneagram-type.md` ❌ orphan (0 in, 10 out)
+- `mental-health/enneagram-workplace-mental-health.md` ❌ isolated
+
+**Action:** Have `team-building` and `team-dynamics` link to `leadership`.
+
+### Communication Cluster (HUB HEAVY)
+
+**Hub:** `enneagram-communication-styles.md` (51 in, 4 out) - receives tons but doesn't distribute
+
+- `enneagram-communication-guide.md` (3 in, 6 out)
+- `enneagram-communication-tips.md` ❌ orphan (0 in, 8 out)
+- `relationship-communication-guide.md` ✅ (6 in, 6 out)
+
+**Action:** Have `communication-styles` add links to `communication-tips` and `communication-guide`.
+
+---
+
+## Quick Wins Checklist
+
+### Week 1: Mental Health Cluster
+
+- [ ] Update `enneagram-and-mental-illness.md` with links to all 9 mental health posts
+- [ ] Add 3 outgoing links to each of the 8 isolated mental health posts
+- [ ] Link `mental-health-flags.md` to `crisis-management` and `therapy-guide`
+
+### Week 2: Communication & Relationships
+
+- [ ] Update `communication-styles.md` (51 incoming!) to link to `communication-tips` and `communication-guide`
+- [ ] Update `types-in-relationships.md` to link to both dating guides
+- [ ] Add incoming links to `communication-tips.md` from `communication-guide`
+
+### Week 3: Community & Foundational
+
+- [ ] Fix 4 isolated community posts with outgoing links
+- [ ] Update `introducing-9takes.md` to link to other community posts
+- [ ] Add links from `faqs.md` to `books-websites-podcasts` and `mbti-vs-enneagram`
+
+### Week 4: Workplace & Self-Improvement
+
+- [ ] Connect workplace cluster: leadership ↔ team posts
+- [ ] Add `productivity-systems` link to `self-development.md`
+- [ ] Link `enneagram-tldr.md` to `enneagram-concepts` and `instinctual-subtypes`
+
+---
+
+## Hub Posts That Should Distribute More Links
+
+These posts receive many incoming links but could pass more link equity:
+
+| Post                          | Incoming | Outgoing | Should Link To                                |
+| ----------------------------- | -------- | -------- | --------------------------------------------- |
+| `communication-styles.md`     | 51       | 4        | communication-tips, communication-guide       |
+| `strengths-and-weaknesses.md` | 42       | 6        | self-sabotages, toxic-traits                  |
+| `types-at-party.md`           | 39       | 6        | party-planner, first-impression-cheat-sheet   |
+| `types-being-ghosted.md`      | 35       | 5        | red-flags-dating, attachment-styles           |
+| `beginners-guide.md`          | 22       | 5        | faqs, books-websites-podcasts, enneagram-tldr |
+| `enneagram-tldr.md`           | 13       | 4        | concepts, instinctual-subtypes, wings-guide   |
+
+---
+
+## Link Format Guidelines
 
 ### Adding Outgoing Links
 
-1. Open the post
-2. Identify 3-5 related topics mentioned in the content
-3. Add contextual links where topics are discussed
-4. Prefer linking to hub posts and orphaned posts
-
-### Getting Incoming Links (for orphaned posts)
-
-1. Identify the 2-3 most relevant hub posts
-2. Find a natural place to mention the orphaned content
-3. Add a contextual link (not just a "see also" dump)
-
-### Link Format
+Contextual inline links are best:
 
 ```markdown
-For more on [topic], see our [guide to X](/blog/path-to-post).
+For more on [how each type handles stress](/enneagram-corner/enneagram-types-in-stress), see our complete guide.
+```
+
+### "Related Reading" Sections
+
+Add at end of posts:
+
+```markdown
+## Related Reading
+
+- **[Post Title](/enneagram-corner/slug)** - Brief description
+- **[Another Post](/enneagram-corner/slug)** - Brief description
+```
+
+### MarqueeHorizontal Components
+
+These already exist in many posts - great for cross-linking:
+
+```svelte
+<MarqueeHorizontal
+	displayList={[
+		{ name: 'in stress', link: '/enneagram-corner/enneagram-types-in-stress' },
+		{ name: 'at a party', link: '/enneagram-corner/enneagram-types-at-party' }
+	]}
+/>
 ```
 
 ---
 
 ## Progress Tracking
 
-| Week       | Isolated Fixed | Outgoing Added | Incoming Added | Notes                                                 |
-| ---------- | -------------- | -------------- | -------------- | ----------------------------------------------------- |
-| 2025-12-04 | 0/13           | 0/31           | 0/48           | Initial audit                                         |
-| 2025-12-04 | 5/13           | 6/31           | 0/48           | Priority 1 Quick Wins complete (~33 links)            |
-| 2025-12-04 | 5/13           | 11/31          | 0/48           | Priority 2 partial - 5 high-traffic posts (~21 links) |
+| Date       | Isolated Fixed | Outgoing Added | Incoming Added | Notes                                             |
+| ---------- | -------------- | -------------- | -------------- | ------------------------------------------------- |
+| 2025-12-05 | 0/12           | 0/16           | 0/41           | Fresh start with accurate data                    |
+| 2025-12-05 | 11/12          | 13/16          | 13/41          | Phase 1 complete! Mental health cluster connected |
+
+### Phase 1 Results
+
+- **Isolated posts reduced**: 12 → 1 (only draft file remains)
+- **Posts with 0 outgoing**: 16 → 3
+- **Posts with 0 incoming**: 41 → 28
+- Updated crosslink script to detect `/mental-health/` subdirectory paths
+
+---
+
+## Regenerating the Index
+
+Run this command to get fresh data anytime:
+
+```bash
+node scripts/generate-crosslink-report.js
+```
 
 ---
 

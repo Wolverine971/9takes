@@ -483,7 +483,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-communication-tips</loc>
-    <lastmod>2024-05-22T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1262,15 +1262,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Grimes</loc>
-    <lastmod>2024-09-29T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Grimes.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Jack-Dorsey</loc>
     <lastmod>2024-09-29T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1340,15 +1331,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/Kevin-Hart.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Mr-Beast</loc>
-    <lastmod>2025-02-25T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Mr-Beast.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2567,6 +2549,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Grimes</loc>
+    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Grimes.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Jimmy-Carter</loc>
     <lastmod>2025-12-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2582,6 +2573,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Joe-Biden.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Mr-Beast</loc>
+    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Mr-Beast.webp</image:loc>
     </image:image>
 </url>
 <url>

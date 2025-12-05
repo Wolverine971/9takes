@@ -32,7 +32,7 @@ NOTES:
 
 <p class="firstLetter">Your trauma response isn't random. It's as predictable as your Enneagram type—and that's your way out.</p>
 
-Every type developed specific survival strategies in childhood. Type 8s learned to attack first. Type 9s learned to disappear. Type 3s learned to outrun their pain through achievement.
+Every type developed specific survival strategies [in childhood](/enneagram-corner/enneagram-childhood-stereotypes). Type 8s learned to attack first. Type 9s learned to disappear. Type 3s learned to outrun their pain through achievement.
 
 These patterns saved you then. They're killing you now.
 

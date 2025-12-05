@@ -53,8 +53,8 @@ Before diving into research, let's address the elephant in the room: Is the Enne
 
 **What Sets the Enneagram Apart**:
 
-- Focus on core motivations rather than just behaviors
-- Dynamic model accounting for stress and growth
+- Focus on [core motivations](/enneagram-corner/enneagram-tldr) rather than just behaviors
+- Dynamic model accounting for [stress](/enneagram-corner/enneagram-types-in-stress) and growth
 - Clinical utility reported by practitioners
 - Growing empirical support from neuroscience
 

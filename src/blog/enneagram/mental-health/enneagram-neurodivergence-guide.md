@@ -48,13 +48,13 @@ Understanding this intersection helps neurodivergent individuals and their loved
 ### Key Principles
 
 1. **Neurodivergence is neurological**: Brain differences that affect processing
-2. **Enneagram is motivational**: Core fears, desires, and coping patterns
+2. **Enneagram is motivational**: Core fears, desires, and [coping patterns](/enneagram-corner/enneagram-types-in-stress)
 3. **Both interact**: Creating unique expressions and needs
 4. **Neither defines you**: You are more than labels
 
 ### Common Neurodivergent Conditions We'll Explore
 
-- **ADHD** (Attention Deficit Hyperactivity Disorder)
+- **[ADHD](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** (Attention Deficit Hyperactivity Disorder)
 - **Autism Spectrum Disorder**
 - **Dyslexia** (Reading differences)
 - **Dyspraxia** (Motor coordination)

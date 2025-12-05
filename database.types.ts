@@ -131,9 +131,88 @@ export type Database = {
           },
         ]
       }
+      blogs_content: {
+        Row: {
+          author: string | null
+          blog: boolean | null
+          category: string | null
+          changefreq: string | null
+          content: string | null
+          created_at: string | null
+          date: string | null
+          description: string | null
+          enneagram: number | null
+          id: number
+          lastmod: string | null
+          loc: string | null
+          path: string | null
+          pic: string | null
+          priority: string | null
+          published: boolean | null
+          search_vector: unknown
+          slug: string
+          tags: string[] | null
+          title: string
+          type: string[] | null
+          updated_at: string | null
+          url: string | null
+        }
+        Insert: {
+          author?: string | null
+          blog?: boolean | null
+          category?: string | null
+          changefreq?: string | null
+          content?: string | null
+          created_at?: string | null
+          date?: string | null
+          description?: string | null
+          enneagram?: number | null
+          id?: number
+          lastmod?: string | null
+          loc?: string | null
+          path?: string | null
+          pic?: string | null
+          priority?: string | null
+          published?: boolean | null
+          search_vector?: unknown
+          slug: string
+          tags?: string[] | null
+          title: string
+          type?: string[] | null
+          updated_at?: string | null
+          url?: string | null
+        }
+        Update: {
+          author?: string | null
+          blog?: boolean | null
+          category?: string | null
+          changefreq?: string | null
+          content?: string | null
+          created_at?: string | null
+          date?: string | null
+          description?: string | null
+          enneagram?: number | null
+          id?: number
+          lastmod?: string | null
+          loc?: string | null
+          path?: string | null
+          pic?: string | null
+          priority?: string | null
+          published?: boolean | null
+          search_vector?: unknown
+          slug?: string
+          tags?: string[] | null
+          title?: string
+          type?: string[] | null
+          updated_at?: string | null
+          url?: string | null
+        }
+        Relationships: []
+      }
       blogs_famous_people: {
         Row: {
           author: string | null
+          category: string | null
           changefreq: string | null
           content: string | null
           created_at: string
@@ -149,7 +228,9 @@ export type Database = {
           person: string | null
           priority: string | null
           published: boolean | null
+          search_vector: unknown
           suggestions: Json | null
+          tags: string[] | null
           tiktok: string | null
           title: string | null
           twitter: string | null
@@ -158,6 +239,7 @@ export type Database = {
         }
         Insert: {
           author?: string | null
+          category?: string | null
           changefreq?: string | null
           content?: string | null
           created_at?: string
@@ -173,7 +255,9 @@ export type Database = {
           person?: string | null
           priority?: string | null
           published?: boolean | null
+          search_vector?: unknown
           suggestions?: Json | null
+          tags?: string[] | null
           tiktok?: string | null
           title?: string | null
           twitter?: string | null
@@ -182,6 +266,7 @@ export type Database = {
         }
         Update: {
           author?: string | null
+          category?: string | null
           changefreq?: string | null
           content?: string | null
           created_at?: string
@@ -197,7 +282,9 @@ export type Database = {
           person?: string | null
           priority?: string | null
           published?: boolean | null
+          search_vector?: unknown
           suggestions?: Json | null
+          tags?: string[] | null
           tiktok?: string | null
           title?: string | null
           twitter?: string | null
@@ -631,6 +718,538 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
+      }
+      consulting_client_notes: {
+        Row: {
+          client_id: string | null
+          content: string
+          created_at: string | null
+          id: string
+          is_flagged: boolean | null
+          is_private: boolean | null
+          note_type: string | null
+          session_id: string | null
+          title: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          client_id?: string | null
+          content: string
+          created_at?: string | null
+          id?: string
+          is_flagged?: boolean | null
+          is_private?: boolean | null
+          note_type?: string | null
+          session_id?: string | null
+          title?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          client_id?: string | null
+          content?: string
+          created_at?: string | null
+          id?: string
+          is_flagged?: boolean | null
+          is_private?: boolean | null
+          note_type?: string | null
+          session_id?: string | null
+          title?: string | null
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "consulting_client_notes_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "consulting_client_notes_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients_overview"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "consulting_client_notes_session_id_fkey"
+            columns: ["session_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_sessions"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "consulting_client_notes_session_id_fkey"
+            columns: ["session_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_upcoming_sessions"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      consulting_clients: {
+        Row: {
+          created_at: string | null
+          email: string
+          enneagram_confirmed: boolean | null
+          enneagram_type: number | null
+          enneagram_wing: number | null
+          first_session_at: string | null
+          id: string
+          initial_goal: string | null
+          instinctual_variant: string | null
+          last_session_at: string | null
+          lifetime_value: number | null
+          name: string
+          notes: string | null
+          phone: string | null
+          referral_source: string | null
+          source: string | null
+          status: string | null
+          tritype: string | null
+          trust_layer: string | null
+          updated_at: string | null
+          waitlist_id: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          email: string
+          enneagram_confirmed?: boolean | null
+          enneagram_type?: number | null
+          enneagram_wing?: number | null
+          first_session_at?: string | null
+          id?: string
+          initial_goal?: string | null
+          instinctual_variant?: string | null
+          last_session_at?: string | null
+          lifetime_value?: number | null
+          name: string
+          notes?: string | null
+          phone?: string | null
+          referral_source?: string | null
+          source?: string | null
+          status?: string | null
+          tritype?: string | null
+          trust_layer?: string | null
+          updated_at?: string | null
+          waitlist_id?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          email?: string
+          enneagram_confirmed?: boolean | null
+          enneagram_type?: number | null
+          enneagram_wing?: number | null
+          first_session_at?: string | null
+          id?: string
+          initial_goal?: string | null
+          instinctual_variant?: string | null
+          last_session_at?: string | null
+          lifetime_value?: number | null
+          name?: string
+          notes?: string | null
+          phone?: string | null
+          referral_source?: string | null
+          source?: string | null
+          status?: string | null
+          tritype?: string | null
+          trust_layer?: string | null
+          updated_at?: string | null
+          waitlist_id?: string | null
+        }
+        Relationships: []
+      }
+      consulting_deliverables: {
+        Row: {
+          client_id: string | null
+          content: string | null
+          created_at: string | null
+          deliverable_type: string | null
+          description: string | null
+          id: string
+          sent_at: string | null
+          session_id: string | null
+          status: string | null
+          title: string
+          updated_at: string | null
+          viewed_at: string | null
+        }
+        Insert: {
+          client_id?: string | null
+          content?: string | null
+          created_at?: string | null
+          deliverable_type?: string | null
+          description?: string | null
+          id?: string
+          sent_at?: string | null
+          session_id?: string | null
+          status?: string | null
+          title: string
+          updated_at?: string | null
+          viewed_at?: string | null
+        }
+        Update: {
+          client_id?: string | null
+          content?: string | null
+          created_at?: string | null
+          deliverable_type?: string | null
+          description?: string | null
+          id?: string
+          sent_at?: string | null
+          session_id?: string | null
+          status?: string | null
+          title?: string
+          updated_at?: string | null
+          viewed_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "consulting_deliverables_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "consulting_deliverables_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients_overview"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "consulting_deliverables_session_id_fkey"
+            columns: ["session_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_sessions"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "consulting_deliverables_session_id_fkey"
+            columns: ["session_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_upcoming_sessions"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      consulting_intake_forms: {
+        Row: {
+          age_range: string | null
+          childhood_message: string | null
+          client_id: string | null
+          comfort_response: string | null
+          communication_style: string | null
+          completed_at: string | null
+          conflict_style: string | null
+          core_desire: string | null
+          core_fear: string | null
+          created_at: string | null
+          current_challenges: string | null
+          desired_outcome: string | null
+          emotion_expression: string | null
+          how_heard_about_us: string | null
+          id: string
+          living_situation: string | null
+          long_term_goals: string | null
+          occupation: string | null
+          preferred_session_time: string | null
+          previous_attempts: string | null
+          primary_emotion: string | null
+          relationship_patterns: string | null
+          relationship_status: string | null
+          reviewed_at: string | null
+          sent_at: string | null
+          short_term_goals: string | null
+          specific_scenarios: string | null
+          status: string | null
+          stress_response: string | null
+          suspected_type: number | null
+          timezone: string | null
+          updated_at: string | null
+          urgency_level: string | null
+          why_this_type: string | null
+        }
+        Insert: {
+          age_range?: string | null
+          childhood_message?: string | null
+          client_id?: string | null
+          comfort_response?: string | null
+          communication_style?: string | null
+          completed_at?: string | null
+          conflict_style?: string | null
+          core_desire?: string | null
+          core_fear?: string | null
+          created_at?: string | null
+          current_challenges?: string | null
+          desired_outcome?: string | null
+          emotion_expression?: string | null
+          how_heard_about_us?: string | null
+          id?: string
+          living_situation?: string | null
+          long_term_goals?: string | null
+          occupation?: string | null
+          preferred_session_time?: string | null
+          previous_attempts?: string | null
+          primary_emotion?: string | null
+          relationship_patterns?: string | null
+          relationship_status?: string | null
+          reviewed_at?: string | null
+          sent_at?: string | null
+          short_term_goals?: string | null
+          specific_scenarios?: string | null
+          status?: string | null
+          stress_response?: string | null
+          suspected_type?: number | null
+          timezone?: string | null
+          updated_at?: string | null
+          urgency_level?: string | null
+          why_this_type?: string | null
+        }
+        Update: {
+          age_range?: string | null
+          childhood_message?: string | null
+          client_id?: string | null
+          comfort_response?: string | null
+          communication_style?: string | null
+          completed_at?: string | null
+          conflict_style?: string | null
+          core_desire?: string | null
+          core_fear?: string | null
+          created_at?: string | null
+          current_challenges?: string | null
+          desired_outcome?: string | null
+          emotion_expression?: string | null
+          how_heard_about_us?: string | null
+          id?: string
+          living_situation?: string | null
+          long_term_goals?: string | null
+          occupation?: string | null
+          preferred_session_time?: string | null
+          previous_attempts?: string | null
+          primary_emotion?: string | null
+          relationship_patterns?: string | null
+          relationship_status?: string | null
+          reviewed_at?: string | null
+          sent_at?: string | null
+          short_term_goals?: string | null
+          specific_scenarios?: string | null
+          status?: string | null
+          stress_response?: string | null
+          suspected_type?: number | null
+          timezone?: string | null
+          updated_at?: string | null
+          urgency_level?: string | null
+          why_this_type?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "consulting_intake_forms_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "consulting_intake_forms_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients_overview"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      consulting_resources: {
+        Row: {
+          category: string
+          content: string
+          created_at: string | null
+          description: string | null
+          id: string
+          is_pinned: boolean | null
+          related_blog_slug: string | null
+          slug: string
+          sort_order: number | null
+          title: string
+          updated_at: string | null
+        }
+        Insert: {
+          category: string
+          content: string
+          created_at?: string | null
+          description?: string | null
+          id?: string
+          is_pinned?: boolean | null
+          related_blog_slug?: string | null
+          slug: string
+          sort_order?: number | null
+          title: string
+          updated_at?: string | null
+        }
+        Update: {
+          category?: string
+          content?: string
+          created_at?: string | null
+          description?: string | null
+          id?: string
+          is_pinned?: boolean | null
+          related_blog_slug?: string | null
+          slug?: string
+          sort_order?: number | null
+          title?: string
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
+      consulting_sessions: {
+        Row: {
+          action_items: string | null
+          agenda: string | null
+          client_id: string | null
+          created_at: string | null
+          duration_minutes: number | null
+          ended_at: string | null
+          follow_up_needed: boolean | null
+          follow_up_notes: string | null
+          growth_indicators: string | null
+          id: string
+          key_insights: string | null
+          meeting_link: string | null
+          next_session_focus: string | null
+          observed_patterns: string | null
+          paid: boolean | null
+          payment_date: string | null
+          pre_session_notes: string | null
+          price: number | null
+          recording_link: string | null
+          scheduled_at: string | null
+          session_notes: string | null
+          session_number: number
+          session_type: string | null
+          started_at: string | null
+          status: string | null
+          stress_indicators: string | null
+          trust_layer_end: string | null
+          trust_layer_start: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          action_items?: string | null
+          agenda?: string | null
+          client_id?: string | null
+          created_at?: string | null
+          duration_minutes?: number | null
+          ended_at?: string | null
+          follow_up_needed?: boolean | null
+          follow_up_notes?: string | null
+          growth_indicators?: string | null
+          id?: string
+          key_insights?: string | null
+          meeting_link?: string | null
+          next_session_focus?: string | null
+          observed_patterns?: string | null
+          paid?: boolean | null
+          payment_date?: string | null
+          pre_session_notes?: string | null
+          price?: number | null
+          recording_link?: string | null
+          scheduled_at?: string | null
+          session_notes?: string | null
+          session_number?: number
+          session_type?: string | null
+          started_at?: string | null
+          status?: string | null
+          stress_indicators?: string | null
+          trust_layer_end?: string | null
+          trust_layer_start?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          action_items?: string | null
+          agenda?: string | null
+          client_id?: string | null
+          created_at?: string | null
+          duration_minutes?: number | null
+          ended_at?: string | null
+          follow_up_needed?: boolean | null
+          follow_up_notes?: string | null
+          growth_indicators?: string | null
+          id?: string
+          key_insights?: string | null
+          meeting_link?: string | null
+          next_session_focus?: string | null
+          observed_patterns?: string | null
+          paid?: boolean | null
+          payment_date?: string | null
+          pre_session_notes?: string | null
+          price?: number | null
+          recording_link?: string | null
+          scheduled_at?: string | null
+          session_notes?: string | null
+          session_number?: number
+          session_type?: string | null
+          started_at?: string | null
+          status?: string | null
+          stress_indicators?: string | null
+          trust_layer_end?: string | null
+          trust_layer_start?: string | null
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "consulting_sessions_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "consulting_sessions_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients_overview"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      consulting_templates: {
+        Row: {
+          content: string
+          created_at: string | null
+          description: string | null
+          enneagram_type: number | null
+          id: string
+          is_active: boolean | null
+          name: string
+          template_type: string
+          updated_at: string | null
+          usage_count: number | null
+        }
+        Insert: {
+          content: string
+          created_at?: string | null
+          description?: string | null
+          enneagram_type?: number | null
+          id?: string
+          is_active?: boolean | null
+          name: string
+          template_type: string
+          updated_at?: string | null
+          usage_count?: number | null
+        }
+        Update: {
+          content?: string
+          created_at?: string | null
+          description?: string | null
+          enneagram_type?: number | null
+          id?: string
+          is_active?: boolean | null
+          name?: string
+          template_type?: string
+          updated_at?: string | null
+          usage_count?: number | null
+        }
+        Relationships: []
       }
       content: {
         Row: {
@@ -2244,6 +2863,89 @@ export type Database = {
         }
         Relationships: []
       }
+      consulting_clients_overview: {
+        Row: {
+          completed_sessions: number | null
+          created_at: string | null
+          email: string | null
+          enneagram_confirmed: boolean | null
+          enneagram_type: number | null
+          enneagram_wing: number | null
+          first_session_at: string | null
+          id: string | null
+          initial_goal: string | null
+          instinctual_variant: string | null
+          last_session_at: string | null
+          lifetime_value: number | null
+          name: string | null
+          next_session: string | null
+          notes: string | null
+          original_goal: string | null
+          phone: string | null
+          referral_source: string | null
+          source: string | null
+          status: string | null
+          total_sessions: number | null
+          tritype: string | null
+          trust_layer: string | null
+          updated_at: string | null
+          waitlist_id: string | null
+        }
+        Relationships: []
+      }
+      consulting_upcoming_sessions: {
+        Row: {
+          action_items: string | null
+          agenda: string | null
+          client_email: string | null
+          client_id: string | null
+          client_name: string | null
+          client_trust_layer: string | null
+          client_type: number | null
+          created_at: string | null
+          duration_minutes: number | null
+          ended_at: string | null
+          follow_up_needed: boolean | null
+          follow_up_notes: string | null
+          growth_indicators: string | null
+          id: string | null
+          key_insights: string | null
+          meeting_link: string | null
+          next_session_focus: string | null
+          observed_patterns: string | null
+          paid: boolean | null
+          payment_date: string | null
+          pre_session_notes: string | null
+          price: number | null
+          recording_link: string | null
+          scheduled_at: string | null
+          session_notes: string | null
+          session_number: number | null
+          session_type: string | null
+          started_at: string | null
+          status: string | null
+          stress_indicators: string | null
+          trust_layer_end: string | null
+          trust_layer_start: string | null
+          updated_at: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "consulting_sessions_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "consulting_sessions_client_id_fkey"
+            columns: ["client_id"]
+            isOneToOne: false
+            referencedRelation: "consulting_clients_overview"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       distinct_question_categories: {
         Row: {
           tag_id: number | null
@@ -2340,6 +3042,22 @@ export type Database = {
           scheduled_for?: string | null
           status?: string | null
           subject?: string | null
+        }
+        Relationships: []
+      }
+      v_all_blogs: {
+        Row: {
+          category: string | null
+          description: string | null
+          enneagram: number | null
+          id: number | null
+          lastmod: string | null
+          published: boolean | null
+          slug: string | null
+          source: string | null
+          tags: string[] | null
+          title: string | null
+          type: Json | null
         }
         Relationships: []
       }
@@ -2588,9 +3306,15 @@ export type Database = {
       increment_link_hit: { Args: { link_id: number }; Returns: undefined }
       insert_daily_row: { Args: never; Returns: undefined }
       install_available_extensions_and_test: { Args: never; Returns: boolean }
+      is_admin: { Args: never; Returns: boolean }
+      jsonb_array_to_text: { Args: { arr: Json }; Returns: string }
       mark_emails_ready_for_processing: { Args: never; Returns: number }
       parse_json_with_escapes: { Args: { json_text: string }; Returns: Json }
       process_scheduled_emails: { Args: never; Returns: undefined }
+      promote_waitlist_to_client: {
+        Args: { waitlist_id_input: string }
+        Returns: string
+      }
       question_with_comments:
         | {
             Args: { url: string }
@@ -2648,6 +3372,29 @@ export type Database = {
               isSetofReturn: true
             }
           }
+      search_all_blogs: {
+        Args: {
+          filter_category?: string
+          filter_enneagram?: number
+          filter_type?: string
+          result_limit?: number
+          result_offset?: number
+          search_query: string
+        }
+        Returns: {
+          category: string
+          description: string
+          enneagram: number
+          id: number
+          lastmod: string
+          rank: number
+          slug: string
+          source: string
+          tags: string[]
+          title: string
+          type: Json
+        }[]
+      }
       visitors_last_30_days: {
         Args: never
         Returns: {

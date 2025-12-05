@@ -166,7 +166,7 @@ When we push someone toward self-discovery, we're actually working against the v
 - ❌ "You really should take this test—it'll change your life!"
 - ✅ "If you're ever curious about personality stuff, I found this resource really helpful."
 
-**Tip**: Share resources like books, websites, or podcasts that helped you understand the Enneagram better, but frame them as options rather than assignments. Let people explore at their own pace and based on their own curiosity.
+**Tip**: Share resources like books, websites, or podcasts that helped you understand the Enneagram better—perhaps the [beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type)—but frame them as options rather than assignments. Let people explore at their own pace and based on their own curiosity.
 
 Inspire interest through your transformation, not your insistence.
 

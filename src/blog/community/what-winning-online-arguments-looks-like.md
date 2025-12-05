@@ -156,7 +156,7 @@ To steel man an argument is harder to do. But in doing so, you demonstrate both 
 
 ## Part 3: How To Argue Online When You Want Actual Progress
 
-First of all, you probably won't be able to have the conversation you want online. But if you have to, here is what you should do. The key to a productive argument is trying to understand before you try to be understood. And most of the productive work is done before the argument starts (you need the right framing).
+First of all, you probably won't be able to have the conversation you want online. But if you have to, here is what you should do. The key to a productive argument is trying to understand before you try to be understood—and understanding [how different personality types communicate](/enneagram-corner/enneagram-communication-styles) gives you a massive advantage. Most of the productive work is done before the argument starts (you need the right framing).
 
 Here are 4 steps to having productive arguments online:
 

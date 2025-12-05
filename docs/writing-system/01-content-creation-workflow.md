@@ -75,9 +75,9 @@ Fill this out for every piece:
 
 Every blog post should generate social content. Plan it now:
 
-- Thread hook: ******\_\_\_\_******
-- Standalone tweet angles: ******\_\_\_\_******
-- Question/poll: ******\_\_\_\_******
+- Thread hook: **\*\***\_\_\_\_**\*\***
+- Standalone tweet angles: **\*\***\_\_\_\_**\*\***
+- Question/poll: **\*\***\_\_\_\_**\*\***
 
 ### Content Type Decision Tree
 

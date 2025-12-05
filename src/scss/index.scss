@@ -374,6 +374,19 @@ article {
 	padding: 0.5rem;
 }
 
+/* Blog articles need minimal padding on mobile */
+article.blog {
+	@include mobile {
+		padding: 0.25rem;
+		margin-top: 0.25rem;
+	}
+
+	@include mobile-sm {
+		padding: 0;
+		margin-top: 0;
+	}
+}
+
 figure {
 	margin: 2rem;
 }

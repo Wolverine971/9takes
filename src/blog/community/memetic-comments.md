@@ -135,7 +135,7 @@ How can we replace these impulse reactions with genuine curiosity and open-minde
 
 **Questions > Hot takes**. "Hot takes" or posts do not solicit feedback. Unless someone specifically asks you to write something, posting something online can feel like shouting into the void. Plus, posts or hot takes create a binary situation where you agree or disagree. Questions invite responses and open the door to learning something new. [Check out the questions asked on 9takes](/questions).
 
-Refocusing on respectful engagement and diverse perspectives can rejuvenate online discourse, enhancing mutual understanding.
+Refocusing on respectful engagement and diverse perspectives can rejuvenate online discourse, enhancing mutual understanding. Learning how [each personality type communicates differently](/enneagram-corner/enneagram-communication-styles) also helps break the mimetic cycle.
 
 The negative effects of mimetics can be stopped. And that is what 9takes is here to do.
 

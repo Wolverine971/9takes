@@ -29,7 +29,7 @@ path: src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md
 
 <p class="firstLetter">Your personality type is burning out at work in a specific, predictable way. And nobody's talking about it.</p>
 
-Think I'm wrong? Check your stress symptoms against your Enneagram type below. I'll bet money they match.
+Think I'm wrong? Check your [stress symptoms](/enneagram-corner/enneagram-types-in-stress) against your Enneagram type below. I'll bet money they match.
 
 Here's the thing: workplace mental health isn't one-size-fits-all. Each type has its own burnout formula, its own recovery recipe, and its own path to thriving. I've watched hundreds of people transform their careers once they understood this. Time to join them.
 

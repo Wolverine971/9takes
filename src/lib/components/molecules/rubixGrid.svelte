@@ -166,7 +166,10 @@
 		grid-template-rows: repeat(3, 1fr);
 		gap: 10px;
 		width: 100%;
-		max-width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
+		padding: 0 0.5rem;
+		box-sizing: border-box;
 	}
 
 	.grid-item {
@@ -336,39 +339,61 @@
 		animation-timing-function: ease-in-out;
 	}
 
-	/* Responsive adjustments */
+	/* Responsive adjustments - maintain 3x3 grid at all sizes */
 	@media (max-width: 1000px) {
 		.grid {
-			gap: 5px;
+			gap: 8px;
 		}
 
 		.name-pop {
-			font-size: 1.2rem;
+			font-size: 1.1rem;
 			margin: 0.5rem;
 		}
 	}
 
-	@media (max-width: 800px) {
-		.name-pop {
-			font-size: 1rem;
-			margin: 0.5rem;
-		}
-	}
-
-	@media (max-width: 600px) {
+	@media (max-width: 768px) {
 		.grid {
-			grid-template-columns: repeat(2, 1fr);
-			grid-template-rows: repeat(5, 1fr);
-		}
-	}
-
-	@media (max-width: 400px) {
-		.grid {
-			grid-template-columns: 1fr;
+			gap: 6px;
 		}
 
 		.name-pop {
-			font-size: 1.2rem;
+			font-size: 0.9rem;
+			margin: 0.4rem;
+		}
+
+		.pop-card {
+			border-radius: 0.75rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.grid {
+			gap: 4px;
+		}
+
+		.name-pop {
+			font-size: 0.7rem;
+			margin: 0.25rem;
+			font-weight: 300;
+		}
+
+		.pop-card {
+			border-radius: 0.5rem;
+		}
+	}
+
+	@media (max-width: 360px) {
+		.grid {
+			gap: 3px;
+		}
+
+		.name-pop {
+			font-size: 0.6rem;
+			margin: 0.2rem;
+		}
+
+		.pop-card {
+			border-radius: 0.4rem;
 		}
 	}
 </style>

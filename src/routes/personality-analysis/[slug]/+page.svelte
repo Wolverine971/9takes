@@ -268,7 +268,10 @@
 	</div>
 
 	<div class="featured-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-		<meta itemprop="url" content={`https://9takes.com/types/${post.enneagram}s/${post.person}.webp`} />
+		<meta
+			itemprop="url"
+			content={`https://9takes.com/types/${post.enneagram}s/${post.person}.webp`}
+		/>
 		<meta itemprop="width" content="900" />
 		<meta itemprop="height" content="900" />
 		<PopCard

@@ -37,7 +37,7 @@ Each Enneagram type has distinct addiction vulnerabilities: Type 1s become worka
 
 <p class="firstLetter">The Type 1 attorney who bills 80 hours a week isn't "dedicated"—she's running from an inner critic that attacks every moment she slows down. The Type 7 life of the party isn't "fun-loving"—he's cycling through alcohol, cocaine, shopping, and sex to stay one step ahead of grief he's never processed. The Type 9 who can't stop eating isn't lacking discipline—she's filling a void created by decades of disappearing.</p>
 
-**Addiction is an equal opportunity destroyer, but it doesn't affect everyone equally.** The same rehab program that transforms one person's life leaves another completely untouched. The 12-step approach that saves one marriage destroys another person's sense of self. Generic recovery advice fails because addiction isn't generic—it's profoundly personal, shaped by your core fears, childhood wounds, and the specific emotional patterns that drive your personality type.
+**Addiction is an equal opportunity destroyer, but it doesn't affect everyone equally.** The same rehab program that transforms one person's life leaves another completely untouched. The 12-step approach that saves one marriage destroys another person's sense of self. Generic recovery advice fails because addiction isn't generic—it's profoundly personal, shaped by your core fears, [childhood wounds](/enneagram-corner/enneagram-childhood-stereotypes), and the specific emotional patterns that drive your personality type.
 
 This guide maps the territory between your Enneagram type and your escape patterns. Not to excuse addiction—to illuminate it. Because understanding _why_ you reach for the bottle, the screen, the shopping cart, or the relationship is the first step toward reaching for something that actually heals.
 
@@ -1021,7 +1021,7 @@ Each Enneagram type uses addiction to manage their core fear and emotional patte
 
 ### Can understanding my Enneagram type help prevent relapse?
 
-Absolutely. Each type has specific relapse triggers and warning signs. Type 1s relapse when self-criticism increases. Type 3s relapse when they feel like failures. Type 6s relapse during uncertainty or betrayal. Knowing your type's patterns allows you to recognize danger signs early and use type-specific coping strategies before reaching for your substance of choice.
+Absolutely. Each type has specific relapse triggers and warning signs. Type 1s relapse when self-criticism increases. Type 3s relapse when they feel like failures. Type 6s relapse during uncertainty or betrayal. Knowing your type's [stress patterns](/enneagram-corner/enneagram-types-in-stress) allows you to recognize danger signs early and use type-specific coping strategies before reaching for your substance of choice.
 
 ### What recovery program works best for each Enneagram type?
 

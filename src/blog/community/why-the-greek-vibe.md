@@ -118,7 +118,7 @@ The result? We're more connected than ever but understand each other less than e
 
 ## The 9takes Philosophy: Built on Greek Principles
 
-9takes draws directly from Greek philosophical principles:
+9takes draws directly from Greek philosophical principles, building on the same [philosophical traditions](/enneagram-corner/philosophy-psychology-and-the-enneagram) that shaped personality psychology:
 
 ### 1. Questions Before Answers
 

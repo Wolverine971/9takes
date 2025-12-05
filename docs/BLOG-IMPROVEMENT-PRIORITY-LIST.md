@@ -118,38 +118,30 @@ These posts have good incoming links but 0 outgoing - they're wasting SEO equity
 
 These posts have weak content that doesn't meet the 9takes quality standards.
 
-| Priority | Post                              | Grade | Issues                                                      | Fix Time     |
-| -------- | --------------------------------- | ----- | ----------------------------------------------------------- | ------------ |
-| 3.1      | `enneagram-communication-tips.md` | D     | Weak hook, thin content, generic tips, no childhood mapping | 2-3 hrs      |
-| 3.2      | Community posts (8 total)         | C-D   | Most are opinion pieces, not actionable                     | 1-2 hrs each |
+| Priority | Post                              | Grade | Issues                                              | Fix Time     | Status  |
+| -------- | --------------------------------- | ----- | --------------------------------------------------- | ------------ | ------- |
+| 3.1      | `enneagram-communication-tips.md` | D → A | ~~Weak hook, thin content, generic tips~~ REWRITTEN | 2-3 hrs      | ✅ Done |
+| 3.2      | Community posts (8 total)         | C-D   | Most are opinion pieces, not actionable             | 1-2 hrs each |         |
 
-### 3.1 enneagram-communication-tips.md - Detailed Assessment
+### 3.1 enneagram-communication-tips.md - ✅ COMPLETED 2025-12-04
 
-**Current Problems:**
+**Transformation Summary:**
 
-- Weak hook: "Want to be able to talk with anyone?" (generic)
-- Each type section is only ~5 bullet points
-- No childhood-to-adult pattern mapping
-- No psychological depth ("why" behind communication styles)
-- No scripts or practical examples
-- No tables comparing types
-- Missing Quick Answer box
-- Word count low for topic depth
+| Metric            | Before  | After                                                             |
+| ----------------- | ------- | ----------------------------------------------------------------- |
+| Title             | Generic | "What to Say to Each Enneagram Type (Scripts That Actually Work)" |
+| Hook              | Weak    | "I said exactly what I meant. Why did they get so upset?"         |
+| Word count        | ~1,200  | ~3,400                                                            |
+| Tables            | 0       | 3 (filter table, quick ref, scenarios)                            |
+| Scripts           | 0       | 27 (3 per type)                                                   |
+| Childhood mapping | None    | All 9 types                                                       |
+| Quick Answer      | Missing | Added                                                             |
+| Internal links    | 0       | 15+ (styles, stress, relationships, toxic traits, all type pages) |
+| Grade             | D       | A                                                                 |
 
-**Recommended Rewrite Approach:**
+**Differentiation achieved:** `communication-styles.md` = understanding WHY each type communicates differently. `communication-tips.md` = tactical scripts for WHAT to say in specific scenarios.
 
-1. New hook: Start with a communication disaster story
-2. Add childhood origins for each type's communication style
-3. Add actual scripts ("What to say to a Type 6 when they're anxious")
-4. Add comparison table of all types
-5. Add Quick Answer box
-6. Add 5 internal links
-7. Consider merging with or heavily linking to `enneagram-communication-styles.md` (which is excellent)
-
-**Alternative:** This may be redundant with `enneagram-communication-styles.md` (9 incoming links). Consider:
-
-- Redirect this to communication-styles
-- Or differentiate: tips = tactical scripts, styles = understanding patterns
+See full case study: [`/docs/writing-system/README.md#case-study-communication-tips-rewrite`](./writing-system/README.md#case-study-communication-tips-rewrite)
 
 ---
 
@@ -207,9 +199,9 @@ These have good outgoing links but nobody links TO them. They need incoming link
 - [x] Add outgoing links to `love-languages-and-enneagram-types.md` (3 links added)
 - [x] Add outgoing links to `attachment-styles-and-enneagram-types.md` (4 links added)
 
-### Week 3: Content Rewrite (Priority 3)
+### Week 3: Content Rewrite (Priority 3) ✅ COMPLETED 2025-12-04
 
-- [ ] Rewrite `enneagram-communication-tips.md` with depth
+- [x] Rewrite `enneagram-communication-tips.md` with depth (3,400 words, 27 scripts, 3 tables, 15+ links)
 - [ ] Add Quick Answer boxes to priority posts
 
 ### Week 4: Community & Orphan Fixes (Priority 4-5)

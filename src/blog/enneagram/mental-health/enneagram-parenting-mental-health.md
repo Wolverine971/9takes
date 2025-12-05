@@ -51,7 +51,7 @@ As you observe your child, notice:
 
 - **How they handle big feelings**: Do they explode, withdraw, or pretend everything's fine?
 - **What soothes them**: Alone time? Cuddles? Distraction? Achievement?
-- **Their go-to stress response**: Fight, flight, freeze, or fawn?
+- **Their go-to [stress response](/enneagram-corner/enneagram-types-in-stress)**: Fight, flight, freeze, or fawn?
 - **What makes them light up**: Helping others? Creating? Learning? Playing?
 - **Their deepest worries**: Being bad? Unloved? Worthless? Ordinary? Incompetent?
 

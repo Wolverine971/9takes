@@ -21,7 +21,11 @@
 		"gen:types": "node scripts/generate-types.js",
 		"gen:sitemap": "node scripts/generate-sitemap.js",
 		"gen:famous-types": "node scripts/generate-famous-types.js",
-		"gen:all": "pnpm format && pnpm gen:types && pnpm gen:famous-types && pnpm gen:sitemap"
+		"gen:crosslinks": "node scripts/generate-crosslink-report.js",
+		"gen:all": "pnpm format && pnpm gen:types && pnpm gen:famous-types && pnpm gen:sitemap && pnpm gen:crosslinks",
+		"index:blogs": "node scripts/index-blogs-to-supabase.js",
+		"index:blogs:dry": "node scripts/index-blogs-to-supabase.js --dry-run",
+		"index:blogs:force": "node scripts/index-blogs-to-supabase.js --force"
 	},
 	"devDependencies": {
 		"@babel/parser": "^7.27.4",

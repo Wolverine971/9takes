@@ -8,6 +8,7 @@
 		ScheduledEmail
 	} from '$lib/types/email';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
 
 	export let data: PageData;
 
@@ -32,20 +33,10 @@
 
 	// Compose modal state
 	let showCompose = false;
-	let composeSubject = '';
-	let composeHtml = '';
 	let composeRecipients: EmailRecipient[] = [];
-	let isSending = false;
-	let scheduledFor: string = '';
-
-	// Generate modal state
-	let showGenerate = false;
-	let generateInstructions = '';
-	let generateTone: 'professional' | 'friendly' | 'casual' = 'professional';
-	let isGenerating = false;
-
-	// Email preview state
-	let showPreview = false;
+	let initialSubject = '';
+	let initialContent = '';
+	let initialScheduledFor = '';
 
 	// Fetch users with filters
 	async function fetchUsers() {
@@ -106,156 +97,17 @@
 			notifications.warning('No valid recipients selected', 3000);
 			return;
 		}
+		initialSubject = '';
+		initialContent = '';
+		initialScheduledFor = '';
 		showCompose = true;
 	}
 
-	// Send emails
-	async function sendEmails() {
-		if (!composeSubject.trim() || !composeHtml.trim()) {
-			notifications.warning('Subject and content are required', 3000);
-			return;
-		}
-
-		isSending = true;
-		try {
-			const endpoint = scheduledFor
-				? '/api/admin/email-dashboard/schedule'
-				: '/api/admin/email-dashboard/send';
-
-			const body: any = {
-				recipients: composeRecipients.map((r) => ({
-					email: r.email,
-					name: r.name,
-					source: r.source,
-					source_id: r.source_id
-				})),
-				subject: composeSubject,
-				html_content: composeHtml
-			};
-
-			if (scheduledFor) {
-				body.scheduled_for = scheduledFor;
-			}
-
-			const response = await fetch(endpoint, {
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify(body)
-			});
-
-			const result = await response.json();
-
-			if (response.ok) {
-				if (scheduledFor) {
-					notifications.success(
-						`Scheduled ${result.recipient_count} emails for ${new Date(scheduledFor).toLocaleString()}`,
-						5000
-					);
-				} else {
-					notifications.success(`Sent ${result.sent} emails, ${result.failed} failed`, 5000);
-				}
-				closeCompose();
-				selectedUsers.clear();
-				selectedUsers = selectedUsers;
-			} else {
-				notifications.danger(result.message || 'Failed to send emails', 5000);
-			}
-		} catch (error) {
-			console.error('Error sending emails:', error);
-			notifications.danger('Failed to send emails', 3000);
-		} finally {
-			isSending = false;
-		}
-	}
-
-	// Generate email with LLM
-	async function generateEmail() {
-		if (!generateInstructions.trim()) {
-			notifications.warning('Please provide instructions', 3000);
-			return;
-		}
-
-		isGenerating = true;
-		try {
-			const response = await fetch('/api/admin/email-dashboard/generate', {
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({
-					instructions: generateInstructions,
-					context: {
-						recipient_count: composeRecipients.length,
-						audience_type: getAudienceType(),
-						tone: generateTone
-					}
-				})
-			});
-
-			const result = await response.json();
-
-			if (response.ok) {
-				composeSubject = result.subject;
-				composeHtml = result.html_content;
-				showGenerate = false;
-				notifications.success('Email generated successfully', 3000);
-			} else {
-				notifications.danger(result.message || 'Failed to generate email', 3000);
-			}
-		} catch (error) {
-			console.error('Error generating email:', error);
-			notifications.danger('Failed to generate email', 3000);
-		} finally {
-			isGenerating = false;
-		}
-	}
-
-	// Get audience type description
-	function getAudienceType(): string {
-		const sources = [...new Set(composeRecipients.map((r) => r.source))];
-		if (sources.length === 1) {
-			switch (sources[0]) {
-				case 'profiles':
-					return 'Registered users';
-				case 'signups':
-					return 'Waitlist signups';
-				case 'coaching_waitlist':
-					return 'Coaching waitlist';
-			}
-		}
-		return 'Mixed audience';
-	}
-
-	// Save draft
-	async function saveDraft() {
-		try {
-			const response = await fetch('/api/admin/email-dashboard/drafts', {
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({
-					subject: composeSubject,
-					html_content: composeHtml,
-					recipients: composeRecipients,
-					scheduled_for: scheduledFor || null
-				})
-			});
-
-			if (response.ok) {
-				notifications.success('Draft saved', 3000);
-			} else {
-				notifications.danger('Failed to save draft', 3000);
-			}
-		} catch (error) {
-			console.error('Error saving draft:', error);
-			notifications.danger('Failed to save draft', 3000);
-		}
-	}
-
-	// Close compose modal
-	function closeCompose() {
+	// Handle compose modal close
+	function handleComposeClose() {
 		showCompose = false;
-		composeSubject = '';
-		composeHtml = '';
-		composeRecipients = [];
-		scheduledFor = '';
+		selectedUsers.clear();
+		selectedUsers = selectedUsers;
 	}
 
 	// Format date
@@ -505,9 +357,10 @@
 								<button
 									class="btn btn-secondary"
 									on:click={() => {
-										composeSubject = draft.subject || '';
-										composeHtml = draft.html_content || '';
+										initialSubject = draft.subject || '';
+										initialContent = draft.html_content || '';
 										composeRecipients = draft.recipients || [];
+										initialScheduledFor = '';
 										showCompose = true;
 									}}>Edit</button
 								>
@@ -559,147 +412,17 @@
 	{/if}
 </div>
 
-<!-- Compose Modal -->
-{#if showCompose}
-	<div class="modal-overlay" on:click|self={closeCompose}>
-		<div class="compose-modal">
-			<div class="compose-header">
-				<h2>Compose Email</h2>
-				<button class="close-btn" on:click={closeCompose}>&times;</button>
-			</div>
-
-			<div class="compose-body">
-				<!-- Recipients -->
-				<div class="form-group">
-					<label>To: ({composeRecipients.length} recipients)</label>
-					<div class="recipients-preview">
-						{#each composeRecipients.slice(0, 5) as recipient}
-							<span class="recipient-chip">{recipient.email}</span>
-						{/each}
-						{#if composeRecipients.length > 5}
-							<span class="recipient-chip more">+{composeRecipients.length - 5} more</span>
-						{/if}
-					</div>
-				</div>
-
-				<!-- Subject -->
-				<div class="form-group">
-					<label for="subject">Subject</label>
-					<input
-						id="subject"
-						type="text"
-						bind:value={composeSubject}
-						placeholder="Email subject..."
-						class="form-input"
-					/>
-				</div>
-
-				<!-- Content -->
-				<div class="form-group">
-					<div class="content-header">
-						<label for="content">Content (HTML)</label>
-						<div class="content-actions">
-							<button class="btn btn-secondary btn-sm" on:click={() => (showGenerate = true)}>
-								Generate with AI
-							</button>
-							<button
-								class="btn btn-secondary btn-sm"
-								on:click={() => (showPreview = !showPreview)}
-							>
-								{showPreview ? 'Edit' : 'Preview'}
-							</button>
-						</div>
-					</div>
-
-					{#if showPreview}
-						<div class="email-preview">
-							{@html composeHtml}
-						</div>
-					{:else}
-						<textarea
-							id="content"
-							bind:value={composeHtml}
-							placeholder="<h1>Hello {{ name }}!</h1><p>Your email content here...</p>"
-							class="form-textarea"
-							rows="12"
-						></textarea>
-					{/if}
-				</div>
-
-				<!-- Schedule -->
-				<div class="form-group">
-					<label for="schedule">Schedule (optional)</label>
-					<input
-						id="schedule"
-						type="datetime-local"
-						bind:value={scheduledFor}
-						class="form-input"
-						min={new Date().toISOString().slice(0, 16)}
-					/>
-				</div>
-			</div>
-
-			<div class="compose-footer">
-				<button class="btn btn-secondary" on:click={saveDraft}>Save Draft</button>
-				<button class="btn btn-primary" on:click={sendEmails} disabled={isSending}>
-					{#if isSending}
-						Sending...
-					{:else if scheduledFor}
-						Schedule
-					{:else}
-						Send Now
-					{/if}
-				</button>
-			</div>
-		</div>
-	</div>
-{/if}
-
-<!-- Generate Modal -->
-{#if showGenerate}
-	<div class="modal-overlay" on:click|self={() => (showGenerate = false)}>
-		<div class="generate-modal">
-			<div class="compose-header">
-				<h2>Generate Email with AI</h2>
-				<button class="close-btn" on:click={() => (showGenerate = false)}>&times;</button>
-			</div>
-
-			<div class="compose-body">
-				<div class="form-group">
-					<label for="instructions">What would you like the email to say?</label>
-					<textarea
-						id="instructions"
-						bind:value={generateInstructions}
-						placeholder="Write a welcome email for new coaching waitlist signups. Mention the Enneagram personality system and encourage them to explore the platform..."
-						class="form-textarea"
-						rows="6"
-					></textarea>
-				</div>
-
-				<div class="form-group">
-					<label for="tone">Tone</label>
-					<select id="tone" bind:value={generateTone} class="form-input">
-						<option value="professional">Professional</option>
-						<option value="friendly">Friendly</option>
-						<option value="casual">Casual</option>
-					</select>
-				</div>
-
-				<div class="context-info">
-					<p><strong>Audience:</strong> {getAudienceType()}</p>
-					<p><strong>Recipients:</strong> {composeRecipients.length}</p>
-				</div>
-			</div>
-
-			<div class="compose-footer">
-				<button class="btn btn-secondary" on:click={() => (showGenerate = false)}>Cancel</button>
-				<button class="btn btn-primary" on:click={generateEmail} disabled={isGenerating}>
-					{isGenerating ? 'Generating...' : 'Generate'}
-				</button>
-			</div>
-		</div>
-	</div>
-{/if}
+<!-- Email Compose Modal -->
+<EmailComposeModal
+	bind:open={showCompose}
+	recipients={composeRecipients}
+	{initialSubject}
+	{initialContent}
+	{initialScheduledFor}
+	on:close={handleComposeClose}
+	on:send={handleComposeClose}
+	on:schedule={handleComposeClose}
+/>
 
 <style>
 	.email-dashboard {
@@ -1084,175 +807,6 @@
 		color: var(--text-tertiary);
 	}
 
-	/* Modal Overlay */
-	.modal-overlay {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: rgba(0, 0, 0, 0.5);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 1000;
-		padding: 1rem;
-	}
-
-	/* Compose Modal */
-	.compose-modal,
-	.generate-modal {
-		background: var(--card-background);
-		border-radius: var(--border-radius);
-		width: 100%;
-		max-width: 700px;
-		max-height: 90vh;
-		display: flex;
-		flex-direction: column;
-		box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-	}
-
-	.generate-modal {
-		max-width: 500px;
-	}
-
-	.compose-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 1rem 1.5rem;
-		border-bottom: 1px solid var(--border-color);
-	}
-
-	.compose-header h2 {
-		margin: 0;
-		font-size: 1.125rem;
-	}
-
-	.close-btn {
-		background: none;
-		border: none;
-		font-size: 1.5rem;
-		cursor: pointer;
-		color: var(--text-secondary);
-		line-height: 1;
-		padding: 0;
-	}
-
-	.close-btn:hover {
-		color: var(--text-primary);
-	}
-
-	.compose-body {
-		padding: 1.5rem;
-		overflow-y: auto;
-		flex: 1;
-	}
-
-	.compose-footer {
-		display: flex;
-		justify-content: flex-end;
-		gap: 0.75rem;
-		padding: 1rem 1.5rem;
-		border-top: 1px solid var(--border-color);
-	}
-
-	/* Form Elements */
-	.form-group {
-		margin-bottom: 1.25rem;
-	}
-
-	.form-group label {
-		display: block;
-		margin-bottom: 0.5rem;
-		font-weight: 500;
-		font-size: 0.875rem;
-	}
-
-	.form-input,
-	.form-textarea {
-		width: 100%;
-		padding: 0.625rem 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		font-size: 0.875rem;
-		background: var(--background);
-		font-family: inherit;
-	}
-
-	.form-textarea {
-		resize: vertical;
-		font-family: monospace;
-		font-size: 0.8125rem;
-	}
-
-	.form-input:focus,
-	.form-textarea:focus {
-		outline: none;
-		border-color: var(--primary);
-		box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
-	}
-
-	/* Recipients Preview */
-	.recipients-preview {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.375rem;
-	}
-
-	.recipient-chip {
-		background: var(--background);
-		border: 1px solid var(--border-color);
-		padding: 0.25rem 0.5rem;
-		border-radius: 4px;
-		font-size: 0.75rem;
-	}
-
-	.recipient-chip.more {
-		background: var(--primary);
-		color: white;
-		border-color: var(--primary);
-	}
-
-	/* Content Header */
-	.content-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 0.5rem;
-	}
-
-	.content-header label {
-		margin-bottom: 0;
-	}
-
-	.content-actions {
-		display: flex;
-		gap: 0.5rem;
-	}
-
-	/* Email Preview */
-	.email-preview {
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		padding: 1.5rem;
-		background: white;
-		min-height: 200px;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-	}
-
-	/* Context Info */
-	.context-info {
-		background: var(--background);
-		padding: 0.75rem 1rem;
-		border-radius: var(--border-radius);
-		font-size: 0.875rem;
-	}
-
-	.context-info p {
-		margin: 0.25rem 0;
-	}
-
 	/* Responsive */
 	@media (max-width: 640px) {
 		.toolbar {
@@ -1266,11 +820,6 @@
 
 		.search-input {
 			min-width: auto;
-		}
-
-		.compose-modal {
-			max-height: 100vh;
-			border-radius: 0;
 		}
 	}
 </style>
