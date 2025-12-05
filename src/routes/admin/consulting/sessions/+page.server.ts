@@ -19,17 +19,19 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 		)
 		.order('scheduled_at', { ascending: view === 'upcoming' });
 
+	const now = new Date();
+	const isoNow = now.toISOString();
+	const todayStart = new Date(now);
+	todayStart.setHours(0, 0, 0, 0);
+	const todayEnd = new Date(now);
+	todayEnd.setHours(23, 59, 59, 999);
+
 	// Filter by view
-	const now = new Date().toISOString();
 	if (view === 'upcoming') {
-		query = query.gte('scheduled_at', now).in('status', ['scheduled', 'confirmed']);
+		query = query.gte('scheduled_at', isoNow).in('status', ['scheduled', 'confirmed']);
 	} else if (view === 'past') {
-		query = query.lt('scheduled_at', now);
+		query = query.lt('scheduled_at', isoNow);
 	} else if (view === 'today') {
-		const todayStart = new Date();
-		todayStart.setHours(0, 0, 0, 0);
-		const todayEnd = new Date();
-		todayEnd.setHours(23, 59, 59, 999);
 		query = query
 			.gte('scheduled_at', todayStart.toISOString())
 			.lte('scheduled_at', todayEnd.toISOString());
@@ -58,13 +60,13 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 			supabase
 				.from('consulting_sessions')
 				.select('*', { count: 'exact', head: true })
-				.gte('scheduled_at', now)
+				.gte('scheduled_at', isoNow)
 				.in('status', ['scheduled', 'confirmed']),
 			supabase
 				.from('consulting_sessions')
 				.select('*', { count: 'exact', head: true })
-				.gte('scheduled_at', new Date().setHours(0, 0, 0, 0))
-				.lte('scheduled_at', new Date().setHours(23, 59, 59, 999)),
+				.gte('scheduled_at', todayStart.toISOString())
+				.lte('scheduled_at', todayEnd.toISOString()),
 			supabase
 				.from('consulting_sessions')
 				.select('*', { count: 'exact', head: true })

@@ -175,6 +175,11 @@
 </svelte:head>
 
 <div class="search-container">
+	<div class="search-tabs">
+		<a href="/admin/search" class="tab active">Full Search</a>
+		<a href="/admin/search/typeahead" class="tab">Quick Search</a>
+	</div>
+
 	<h1>Blog Content Search</h1>
 	<p class="subtitle">Search across all enneagram content and celebrity analyses</p>
 
@@ -564,6 +569,35 @@
 		font-size: 0.875rem;
 		margin-top: 0.5rem;
 		font-style: italic;
+	}
+
+	.search-tabs {
+		display: flex;
+		gap: 0.5rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.tab {
+		padding: 0.5rem 1rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		text-decoration: none;
+		color: #6b7280;
+		border: 1px solid #e5e7eb;
+		border-radius: 8px;
+		background: white;
+		transition: all 0.2s ease;
+	}
+
+	.tab:hover {
+		color: #6366f1;
+		border-color: #6366f1;
+	}
+
+	.tab.active {
+		background: #6366f1;
+		color: white;
+		border-color: #6366f1;
 	}
 
 	@media (max-width: 640px) {

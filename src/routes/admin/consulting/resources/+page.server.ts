@@ -16,20 +16,15 @@ export const load: PageServerLoad = async ({ locals }) => {
 		console.error('Error fetching resources:', error);
 	}
 
-	// Group by category
-	const groupedResources: Record<string, any[]> = {
-		playbook: [],
-		framework: [],
-		script: [],
-		reference: [],
-		exercise: []
-	};
-
-	(resources || []).forEach((resource) => {
-		if (groupedResources[resource.category]) {
-			groupedResources[resource.category].push(resource);
+	// Group by category (include any unexpected categories instead of dropping them)
+	const groupedResources = (resources || []).reduce((acc: Record<string, any[]>, resource) => {
+		const category = resource.category || 'uncategorized';
+		if (!acc[category]) {
+			acc[category] = [];
 		}
-	});
+		acc[category].push(resource);
+		return acc;
+	}, {});
 
 	return {
 		resources: resources || [],

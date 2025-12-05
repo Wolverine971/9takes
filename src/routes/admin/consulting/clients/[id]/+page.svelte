@@ -56,6 +56,9 @@
 	let sessionType = 'discovery';
 	let sessionDuration = '60';
 	let sessionLink = '';
+	let scheduledAtValue = '';
+
+	$: scheduledAtValue = sessionDate && sessionTime ? `${sessionDate}T${sessionTime}` : '';
 
 	function formatDate(dateStr: string | null): string {
 		if (!dateStr) return '-';
@@ -393,7 +396,7 @@
 			</section>
 
 			<!-- Sessions -->
-			<section class="section-card">
+			<section class="section-card" id="sessions">
 				<div class="section-header">
 					<h2>Sessions</h2>
 					<button class="btn btn-sm btn-primary" on:click={() => (showSessionModal = true)}>
@@ -431,9 +434,7 @@
 											>Join</a
 										>
 									{/if}
-									<a href="/admin/consulting/sessions/{session.id}" class="btn btn-sm btn-secondary"
-										>Prep</a
-									>
+									<a href="#notes" class="btn btn-sm btn-secondary">Notes</a>
 								</div>
 							</div>
 						{/each}
@@ -452,8 +453,7 @@
 									<span class="session-type">{session.session_type?.replace('_', ' ')}</span>
 									<span class="session-status status-{session.status}">{session.status}</span>
 								</div>
-								<a href="/admin/consulting/sessions/{session.id}" class="session-link">View Notes</a
-								>
+								<a href="#notes" class="session-link">View Notes</a>
 							</div>
 						{/each}
 					</div>
@@ -465,7 +465,7 @@
 			</section>
 
 			<!-- Notes -->
-			<section class="section-card">
+			<section class="section-card" id="notes">
 				<div class="section-header">
 					<h2>Notes</h2>
 					<button class="btn btn-sm btn-secondary" on:click={() => (showNoteModal = true)}>
@@ -648,7 +648,7 @@
 							<input type="time" id="sessionTime" bind:value={sessionTime} required />
 						</div>
 					</div>
-					<input type="hidden" name="scheduledAt" value="{sessionDate}T{sessionTime}" />
+					<input type="hidden" name="scheduledAt" value={scheduledAtValue} />
 					<div class="form-group">
 						<label for="sessionType">Session Type</label>
 						<select id="sessionType" name="sessionType" bind:value={sessionType}>

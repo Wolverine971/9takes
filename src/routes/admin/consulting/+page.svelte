@@ -244,13 +244,21 @@
 									{#if session.client?.enneagram_type}
 										<span class="type-badge">T{session.client.enneagram_type}</span>
 									{/if}
-									{#if session.client?.trust_layer}
-										<span class="trust-badge trust-{session.client.trust_layer}"
-											>{session.client.trust_layer}</span
-										>
-									{/if}
-								</div>
-								<a href="/admin/consulting/sessions/{session.id}" class="session-action"> Prep </a>
+								{#if session.client?.trust_layer}
+									<span class="trust-badge trust-{session.client.trust_layer}"
+										>{session.client.trust_layer}</span
+									>
+								{/if}
+							</div>
+								<a
+									href={session.client?.id
+										? `/admin/consulting/clients/${session.client.id}#notes`
+										: '#'}
+									class="session-action"
+									aria-disabled={!session.client?.id}
+								>
+									Notes
+								</a>
 							</div>
 						{/each}
 					</div>
@@ -703,6 +711,12 @@
 	.session-action:hover {
 		background: var(--primary);
 		color: white;
+	}
+
+	.session-action[aria-disabled='true'] {
+		opacity: 0.5;
+		pointer-events: none;
+		cursor: not-allowed;
 	}
 
 	/* Type Badge */

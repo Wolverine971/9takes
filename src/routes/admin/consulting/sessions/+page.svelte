@@ -165,8 +165,14 @@
 								Join
 							</a>
 						{/if}
-						<a href="/admin/consulting/sessions/{session.id}" class="btn btn-sm btn-secondary">
-							{session.status === 'completed' ? 'View Notes' : 'Prep'}
+						<a
+							href={session.client?.id
+								? `/admin/consulting/clients/${session.client.id}#notes`
+								: '#'}
+							class="btn btn-sm btn-secondary"
+							aria-disabled={!session.client?.id}
+						>
+							Notes
 						</a>
 					</div>
 				</div>
@@ -427,6 +433,12 @@
 		background: var(--background);
 		border: 1px solid var(--border-color);
 		color: var(--text-primary);
+	}
+
+	.btn[aria-disabled='true'] {
+		opacity: 0.6;
+		pointer-events: none;
+		cursor: not-allowed;
 	}
 
 	@media (max-width: 640px) {

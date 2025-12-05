@@ -12,12 +12,22 @@
 		exercise: 'Exercise'
 	};
 
+	const escapeHtml = (str: string): string =>
+		str
+			.replace(/&/g, '&amp;')
+			.replace(/</g, '&lt;')
+			.replace(/>/g, '&gt;')
+			.replace(/"/g, '&quot;')
+			.replace(/'/g, '&#39;');
+
 	// Simple markdown-to-HTML conversion for display
 	function parseMarkdown(md: string): string {
 		if (!md) return '';
 
+		const safeContent = escapeHtml(md);
+
 		return (
-			md
+			safeContent
 				// Headers
 				.replace(/^### (.*$)/gm, '<h3>$1</h3>')
 				.replace(/^## (.*$)/gm, '<h2>$1</h2>')
