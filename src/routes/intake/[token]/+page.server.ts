@@ -1,11 +1,11 @@
 // src/routes/intake/[token]/+page.server.ts
 // Public client-facing intake form - no auth required
 
-import { error, fail, redirect } from '@sveltejs/kit';
+import { error, fail } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
-import { adminSupabase } from '$lib/supabase';
 
-export const load: PageServerLoad = async ({ params }) => {
+export const load: PageServerLoad = async ({ params, locals }) => {
+	const supabase = locals.supabase;
 	const { token } = params;
 
 	// Validate token format (should be a UUID)
@@ -15,7 +15,7 @@ export const load: PageServerLoad = async ({ params }) => {
 	}
 
 	// Fetch the intake form and associated client
-	const { data: intake, error: intakeError } = await adminSupabase
+	const { data: intake, error: intakeError } = await supabase
 		.from('consulting_intake_forms')
 		.select(
 			`
@@ -39,10 +39,19 @@ export const load: PageServerLoad = async ({ params }) => {
 		throw error(404, 'Intake form not found or has expired');
 	}
 
+	// Extract client name for personalization
+	const clientName = (intake.client as any)?.name?.split(' ')[0] || 'there';
+	const clientType = (intake.client as any)?.enneagram_type || null;
+
 	// Check if already completed
 	if (intake.status === 'completed' || intake.status === 'reviewed') {
 		return {
-			intake,
+			intake: {
+				id: intake.id,
+				status: intake.status,
+				clientName,
+				clientType
+			},
 			completed: true
 		};
 	}
@@ -52,15 +61,16 @@ export const load: PageServerLoad = async ({ params }) => {
 		intake: {
 			id: intake.id,
 			status: intake.status,
-			clientName: (intake.client as any)?.name?.split(' ')[0] || 'there',
-			clientType: (intake.client as any)?.enneagram_type || null
+			clientName,
+			clientType
 		},
 		completed: false
 	};
 };
 
 export const actions: Actions = {
-	submit: async ({ request, params }) => {
+	submit: async ({ request, params, locals }) => {
+		const supabase = locals.supabase;
 		const { token } = params;
 		const formData = await request.formData();
 
@@ -122,7 +132,7 @@ export const actions: Actions = {
 		}
 
 		// Update the intake form
-		const { error: updateError } = await adminSupabase
+		const { error: updateError } = await supabase
 			.from('consulting_intake_forms')
 			.update(intakeData)
 			.eq('id', token);
@@ -133,7 +143,7 @@ export const actions: Actions = {
 		}
 
 		// Get the client_id to update their status
-		const { data: intake } = await adminSupabase
+		const { data: intake } = await supabase
 			.from('consulting_intake_forms')
 			.select('client_id')
 			.eq('id', token)
@@ -141,7 +151,7 @@ export const actions: Actions = {
 
 		if (intake?.client_id) {
 			// Update client status to intake_completed
-			await adminSupabase
+			await supabase
 				.from('consulting_clients')
 				.update({
 					status: 'intake_completed',

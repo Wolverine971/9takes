@@ -497,7 +497,9 @@
 											>Join</a
 										>
 									{/if}
-									<a href="#notes" class="btn btn-sm btn-secondary">Notes</a>
+									<a href="/admin/consulting/sessions/{session.id}" class="btn btn-sm btn-secondary"
+										>Prep</a
+									>
 								</div>
 							</div>
 						{/each}
@@ -516,7 +518,7 @@
 									<span class="session-type">{session.session_type?.replace('_', ' ')}</span>
 									<span class="session-status status-{session.status}">{session.status}</span>
 								</div>
-								<a href="#notes" class="session-link">View Notes</a>
+								<a href="/admin/consulting/sessions/{session.id}" class="session-link">Review</a>
 							</div>
 						{/each}
 					</div>

@@ -377,6 +377,65 @@
 
 	.article-body {
 		margin-bottom: 2rem;
+		line-height: 1.7;
+
+		/* Header styles for injected content */
+		:global(h2) {
+			font-size: 1.75rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			margin-top: 2rem;
+			margin-bottom: 1rem;
+			padding-top: 1rem;
+			line-height: 1.3;
+		}
+
+		:global(h3) {
+			font-size: 1.35rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			margin-top: 1.5rem;
+			margin-bottom: 0.75rem;
+			line-height: 1.35;
+		}
+
+		:global(h4) {
+			font-size: 1.15rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			margin-top: 1.25rem;
+			margin-bottom: 0.5rem;
+			line-height: 1.4;
+		}
+
+		:global(p) {
+			margin-bottom: 1.2rem;
+			color: var(--text-primary);
+		}
+
+		:global(ul),
+		:global(ol) {
+			margin: 1rem 0;
+			padding-left: 1.5rem;
+		}
+
+		:global(li) {
+			margin-bottom: 0.5rem;
+			line-height: 1.6;
+		}
+
+		:global(blockquote) {
+			margin: 1.5rem 0;
+			padding: 1rem 1.5rem;
+			border-left: 4px solid var(--primary);
+			background-color: var(--lightest-gray);
+			font-style: italic;
+		}
+
+		:global(strong) {
+			font-weight: 600;
+			color: var(--text-primary);
+		}
 	}
 
 	.sidebar-container {
@@ -445,6 +504,31 @@
 			margin-bottom: 1rem;
 			overflow-wrap: break-word;
 			word-wrap: break-word;
+
+			/* Mobile header sizes */
+			:global(h2) {
+				font-size: 1.4rem;
+				margin-top: 1.5rem;
+				margin-bottom: 0.75rem;
+				padding-top: 0.75rem;
+			}
+
+			:global(h3) {
+				font-size: 1.15rem;
+				margin-top: 1.25rem;
+				margin-bottom: 0.5rem;
+			}
+
+			:global(h4) {
+				font-size: 1.05rem;
+				margin-top: 1rem;
+				margin-bottom: 0.4rem;
+			}
+
+			:global(p) {
+				font-size: 0.95rem;
+				margin-bottom: 1rem;
+			}
 
 			/* Ensure all images are responsive */
 			:global(img) {

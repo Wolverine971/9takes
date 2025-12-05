@@ -162,10 +162,6 @@ Stressed Type 2s may try to become more involved in others' lives, offering unso
 
 </section>
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'career choices 💼💰📈', link: '/enneagram-corner/enneagram-types-and-career-choices'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
-</div>
-
 <section class="section-content">
 
 ## Enneagram 3 in Stress
@@ -562,7 +558,7 @@ Seek out healthy, supportive relationships where mutual respect and harmony are 
 
 Understanding how each Enneagram type responds to stress and its unique challenges can help individuals develop healthier coping mechanisms and proactively set boundaries. By recognizing the patterns of thoughts and behaviors associated with stress, we can foster self-awareness and empathy, ultimately leading to improved well-being and interpersonal relationships.
 
-For a deeper dive into how stress affects your specific type, check out your individual [type page](/enneagram-corner/enneagram-tldr). Understanding your [stress number](/enneagram-corner/enneagram-stress-number) can also provide valuable insights into how you change under pressure.
+Understanding your [stress number](/enneagram-corner/enneagram-stress-number) can provide valuable insights into how you change under pressure.
 
 If you're ready to work on personal development, explore our guides on [Enneagram personal growth](/enneagram-corner/enneagram-personal-growth) and learn to recognize [mental health warning flags](/enneagram-corner/enneagram-mental-health-flags) for each type.
 

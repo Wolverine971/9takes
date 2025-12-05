@@ -2,6 +2,7 @@
 <!-- Client-facing intake form for personality coaching -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
+	import { onMount } from 'svelte';
 	import type { PageData, ActionData } from './$types';
 
 	export let data: PageData;
@@ -13,11 +14,13 @@
 
 	const totalSections = 7;
 
-	// Timezone detection
+	// Timezone detection (client-side only)
 	let detectedTimezone = '';
-	if (typeof Intl !== 'undefined') {
-		detectedTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-	}
+	onMount(() => {
+		if (typeof Intl !== 'undefined') {
+			detectedTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+		}
+	});
 
 	function nextSection() {
 		if (currentSection < totalSections) {
@@ -342,8 +345,8 @@
 				<p class="section-intro">Understanding your emotional landscape helps us work together.</p>
 
 				<div class="form-group">
-					<label>Which emotion do you experience most often?</label>
-					<div class="radio-group">
+					<span id="emotion-label" class="field-label">Which emotion do you experience most often?</span>
+					<div class="radio-group" role="radiogroup" aria-labelledby="emotion-label">
 						{#each primaryEmotions as emotion}
 							<label class="radio-option">
 								<input type="radio" name="primary_emotion" value={emotion.value} />

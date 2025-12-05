@@ -165,14 +165,8 @@
 								Join
 							</a>
 						{/if}
-						<a
-							href={session.client?.id
-								? `/admin/consulting/clients/${session.client.id}#notes`
-								: '#'}
-							class="btn btn-sm btn-secondary"
-							aria-disabled={!session.client?.id}
-						>
-							Notes
+						<a href="/admin/consulting/sessions/{session.id}" class="btn btn-sm btn-secondary">
+							{session.status === 'completed' ? 'Review' : 'Prep'}
 						</a>
 					</div>
 				</div>
