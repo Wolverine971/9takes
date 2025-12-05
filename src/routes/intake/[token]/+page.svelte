@@ -345,7 +345,9 @@
 				<p class="section-intro">Understanding your emotional landscape helps us work together.</p>
 
 				<div class="form-group">
-					<span id="emotion-label" class="field-label">Which emotion do you experience most often?</span>
+					<span id="emotion-label" class="field-label"
+						>Which emotion do you experience most often?</span
+					>
 					<div class="radio-group" role="radiogroup" aria-labelledby="emotion-label">
 						{#each primaryEmotions as emotion}
 							<label class="radio-option">
@@ -639,7 +641,8 @@
 		margin-bottom: 1.25rem;
 	}
 
-	.form-group label {
+	.form-group label,
+	.form-group .field-label {
 		display: block;
 		font-size: 0.875rem;
 		font-weight: 500;

@@ -527,8 +527,8 @@ export const actions: Actions = {
 	// Complete session with summary
 	completeSession: async ({ request, params, locals }) => {
 		const formData = await request.formData();
-		const summary = formData.get('summary')?.toString();
-		const nextSteps = formData.get('nextSteps')?.toString();
+		const keyInsights = formData.get('summary')?.toString();
+		const actionItems = formData.get('nextSteps')?.toString();
 		const clientProgress = formData.get('clientProgress')?.toString();
 
 		const supabase = locals.supabase;
@@ -549,9 +549,9 @@ export const actions: Actions = {
 			.from('consulting_sessions')
 			.update({
 				status: 'completed',
-				completed_at: new Date().toISOString(),
-				summary,
-				next_steps: nextSteps,
+				ended_at: new Date().toISOString(),
+				key_insights: keyInsights,
+				action_items: actionItems,
 				updated_at: new Date().toISOString()
 			})
 			.eq('id', params.id);
@@ -561,12 +561,12 @@ export const actions: Actions = {
 		}
 
 		// Add summary as a note if provided
-		if (summary) {
+		if (keyInsights) {
 			await supabase.from('consulting_client_notes').insert({
 				client_id: session.client_id,
 				session_id: params.id,
 				title: 'Session Summary',
-				content: summary + (nextSteps ? `\n\n**Next Steps:**\n${nextSteps}` : ''),
+				content: keyInsights + (actionItems ? `\n\n**Action Items:**\n${actionItems}` : ''),
 				note_type: 'insight'
 			});
 		}

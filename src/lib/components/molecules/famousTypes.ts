@@ -23,11 +23,12 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Martha-Stewart', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Michael-Seibel', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Peter-Attia', link: false, hasImage: false, lastmod: '2025-06-25' },
-		{ name: 'Tim-Cook', link: false, hasImage: false, lastmod: '2025-06-25' }
+		{ name: 'Tim-Cook', link: false, hasImage: false, lastmod: '2025-12-05' }
 	],
 	2: [
 		{ name: 'Harry-Styles', link: true, hasImage: true, lastmod: '2024-10-30' },
 		{ name: 'Henry-Cavill', link: true, hasImage: true, lastmod: '2025-05-02' },
+		{ name: 'Jennifer-Garner', link: true, hasImage: true, lastmod: '2025-12-04' },
 		{ name: 'Jimmy-Carter', link: true, hasImage: true, lastmod: '2025-12-04' },
 		{ name: 'Joe-Biden', link: true, hasImage: true, lastmod: '2025-12-04' },
 		{ name: 'Kristen-Bell', link: true, hasImage: true, lastmod: '2025-03-27' },
@@ -46,7 +47,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Brené-Brown', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'J.K.-Rowling', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Jacinda-Ardern', link: false, hasImage: false, lastmod: '2025-06-25' },
-		{ name: 'Jennifer-Garner', link: true, hasImage: false, lastmod: '2025-12-04' },
 		{ name: 'Lupita-Nyongo', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Richard-Simmons', link: false, hasImage: false, lastmod: '2025-06-25' }
 	],
@@ -146,7 +146,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 	],
 	5: [
 		{ name: 'Agatha-Christie', link: true, hasImage: true, lastmod: '2025-04-10' },
-		{ name: 'Bill-Gates', link: true, hasImage: true, lastmod: '2025-01-22' },
+		{ name: 'Bill-Gates', link: true, hasImage: true, lastmod: '2025-12-05' },
 		{ name: 'Cillian-Murphy', link: true, hasImage: true, lastmod: '2025-12-03' },
 		{ name: 'David-Sacks', link: true, hasImage: true, lastmod: '2025-03-16' },
 		{ name: 'Elon-Musk', link: true, hasImage: true, lastmod: '2025-12-03' },
@@ -186,14 +186,14 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Tom-Hanks', link: true, hasImage: true, lastmod: '2025-06-25' },
 		{ name: 'Trevor-Noah', link: true, hasImage: true, lastmod: '2025-03-04' },
 		{ name: 'Tucker-Carlson', link: true, hasImage: true, lastmod: '2025-12-03' },
-		{ name: 'Zendaya', link: true, hasImage: true, lastmod: '2025-12-03' },
+		{ name: 'Zendaya', link: true, hasImage: true, lastmod: '2025-12-05' },
 		{ name: 'Ben-Shapiro', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'David-Goggins', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Jennifer-Aniston', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Jimmy-Kimmel', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'John-Krasinski', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Nikki-Glaser', link: false, hasImage: false, lastmod: '2025-06-25' },
-		{ name: 'Pokimane', link: false, hasImage: false, lastmod: '2025-06-25' },
+		{ name: 'Pokimane', link: false, hasImage: false, lastmod: '2025-12-05' },
 		{ name: 'Satya-Nadella', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Stephen-Colbert', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Volodymyr-Zelensky', link: false, hasImage: false, lastmod: '2025-06-25' }
@@ -224,7 +224,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Tom-Holland', link: true, hasImage: true, lastmod: '2025-03-24' },
 		{ name: 'Chris-Hemsworth', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Conan-OBrien', link: false, hasImage: false, lastmod: '2025-06-25' },
-		{ name: 'Doja-Cat', link: false, hasImage: false, lastmod: '2025-06-25' },
+		{ name: 'Doja-Cat', link: false, hasImage: false, lastmod: '2025-12-05' },
 		{ name: 'Eddie-Murphy', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Florence-Pugh', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Jacksepticeye', link: false, hasImage: false, lastmod: '2025-06-25' },
@@ -297,12 +297,12 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Daniel-Radcliffe', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Khaby-Lame', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Lionel-Messi', link: false, hasImage: false, lastmod: '2025-06-25' },
-		{ name: 'Matthew-McConaughey', link: false, hasImage: false, lastmod: '2025-06-25' },
+		{ name: 'Matthew-McConaughey', link: false, hasImage: false, lastmod: '2025-12-05' },
 		{ name: 'Paul-Rudd', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Post-Malone', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Robert-F-Kennedy-Jr', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Ron-DeSantis', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Shawn-Mendes', link: false, hasImage: false, lastmod: '2025-06-25' },
-		{ name: 'Sundar-Pichai', link: false, hasImage: false, lastmod: '2025-06-25' }
+		{ name: 'Sundar-Pichai', link: false, hasImage: false, lastmod: '2025-12-05' }
 	]
 };

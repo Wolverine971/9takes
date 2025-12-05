@@ -1280,15 +1280,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Bill-Gates</loc>
-    <lastmod>2025-01-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/5s/Bill-Gates.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Hillary-Clinton</loc>
     <lastmod>2025-01-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2495,15 +2486,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Zendaya</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Zendaya.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Grimes</loc>
     <lastmod>2025-12-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2567,6 +2549,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Bill-Gates</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/Bill-Gates.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/George-H-W-Bush</loc>
     <lastmod>2025-12-05T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2591,6 +2582,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Sydney-Sweeney.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Zendaya</loc>
+    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Zendaya.webp</image:loc>
     </image:image>
 </url>
 <url>

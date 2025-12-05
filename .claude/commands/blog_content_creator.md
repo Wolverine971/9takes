@@ -398,90 +398,181 @@ After adding links:
 
 When the user approves content with phrases like "push it up," "submit," "update the database," or similar:
 
-**EXECUTE IMMEDIATELY WITHOUT ASKING:**
+**EXECUTE IMMEDIATELY WITHOUT ASKING.**
 
-1. **Read the complete draft file** from `/src/blog/people/drafts/[Person-Name].md`
+---
 
-2. **Extract content and metadata**:
-   - Split markdown into frontmatter and content
-   - Content should be everything after the `---` closing tag
+#### **THE PROVEN METHOD: Python + JSON File + Curl**
 
-3. **For EXISTING entries (updates):**
+This is the reliable, tested approach that handles large markdown content with special characters, quotes, and complex formatting:
 
-   **Step 1: Update metadata first**
+**Step 1: Prepare the JSON payload using Python**
 
-   ```bash
-   source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]" \
-     -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-     -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
-     -H "Content-Type: application/json" \
-     -H "Prefer: return=minimal" \
-     -d '{"lastmod":"YYYY-MM-DD"}'
-   ```
+Run this Python script to properly escape content and create a JSON file:
 
-   **Step 2: Update content separately using Python script**
-   - Create a simple Python script to properly escape the markdown content
-   - Use curl with `@file.json` to submit large content
-   - This avoids shell escaping issues with large content
+```python
+python3 << 'EOF'
+import json
 
-   **Example Python approach:**
+# Read .env file to get credentials
+env_vars = {}
+with open('.env', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if '=' in line and not line.startswith('#'):
+            key, value = line.split('=', 1)
+            env_vars[key] = value.strip('"').strip("'")
 
-   ```python
-   import json
-   import subprocess
+supabase_url = env_vars.get('PUBLIC_SUPABASE_URL')
+service_key = env_vars.get('SUPABASE_SERVICE_KEY')
 
-   # Read credentials from .env
-   with open('.env', 'r') as f:
-       env_vars = dict(line.strip().split('=', 1) for line in f if '=' in line)
+# Read the draft file
+with open('src/blog/people/drafts/[Person-Name].md', 'r') as f:
+    full_content = f.read()
 
-   supabase_url = env_vars['PUBLIC_SUPABASE_URL']
-   service_key = env_vars['SUPABASE_SERVICE_KEY']
+# Split frontmatter from content (content is everything after second ---)
+parts = full_content.split('---', 2)
+if len(parts) >= 3:
+    content = parts[2].strip()
+else:
+    content = full_content
 
-   # Read and prepare content
-   with open('draft.md', 'r') as f:
-       content = f.read().split('---', 2)[2].strip()
+# Prepare the JSON payload with ALL fields to update
+payload = {
+    "content": content,
+    "lastmod": "YYYY-MM-DD",  # Use today's date
+    "title": "The Evergreen Page Title",
+    "meta_title": "The Clickbait SEO Title",
+    "description": "Meta description under 155 chars"
+}
 
-   with open('/tmp/update.json', 'w') as f:
-       f.write(json.dumps({"content": content}))
+# Write to temp file - json.dump handles all escaping automatically
+with open('/tmp/blog_update.json', 'w') as f:
+    json.dump(payload, f)
 
-   # Execute curl with credentials
-   subprocess.run([
-       'curl', '-X', 'PATCH',
-       f'{supabase_url}/rest/v1/blogs_famous_people?person=eq.Person-Name',
-       '-H', f'apikey: {service_key}',
-       '-H', f'Authorization: Bearer {service_key}',
-       '-H', 'Content-Type: application/json',
-       '-H', 'Prefer: return=minimal',
-       '-d', '@/tmp/update.json'
-   ])
-   ```
+print(f"✓ Payload prepared: {len(content)} characters")
+print(f"✓ Saved to /tmp/blog_update.json")
+EOF
+```
 
-4. **For NEW entries:**
-   - Prepare all fields including content, metadata, and JSON-LD
-   - Use POST request to create new entry
-   - Set `published: false` initially
-   - Read credentials from `.env` before making request
+**Step 2: Execute the PATCH request using curl with the JSON file**
 
-5. **Verify the update:**
+```bash
+source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
+  -H "Content-Type: application/json" \
+  -H "Prefer: return=minimal" \
+  -d @/tmp/blog_update.json
+```
 
-   ```bash
-   source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=lastmod,person,title" \
-     -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-     -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
-   ```
+**Step 3: Verify the update succeeded**
 
-6. **Confirm to user:**
-   - "✅ Successfully pushed to database!"
-   - Show updated lastmod date
-   - Provide database ID
-   - Note the blog is now live in database
+```bash
+source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=id,person,title,meta_title,lastmod,published" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
+```
 
-**ERROR HANDLING:**
+**Step 4: Clean up temp file**
 
-- If you encounter trigger errors, update metadata and content in separate requests
-- If content is too large for direct curl, always use the Python + file approach
-- Clean up temporary files after submission
-- Retry once if initial submission fails
+```bash
+rm -f /tmp/blog_update.json
+```
+
+---
+
+#### **Why This Method Works:**
+
+1. **`json.dump()` handles all escaping** - Quotes, newlines, special characters in markdown are properly escaped
+2. **`-d @file.json` avoids shell escaping** - No issues with bash interpreting content
+3. **Single PATCH request** - Updates all fields atomically (content, title, meta_title, description, lastmod)
+4. **Large content support** - Works with 15,000+ character blog posts
+
+---
+
+#### **For NEW entries (POST instead of PATCH):**
+
+```python
+python3 << 'EOF'
+import json
+
+# Read .env
+env_vars = {}
+with open('.env', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if '=' in line and not line.startswith('#'):
+            key, value = line.split('=', 1)
+            env_vars[key] = value.strip('"').strip("'")
+
+# Read draft
+with open('src/blog/people/drafts/[Person-Name].md', 'r') as f:
+    full_content = f.read()
+
+parts = full_content.split('---', 2)
+content = parts[2].strip() if len(parts) >= 3 else full_content
+
+# Full payload for new entry
+payload = {
+    "person": "First-Last",
+    "title": "Evergreen Title",
+    "meta_title": "Clickbait SEO Title",
+    "description": "Meta description",
+    "author": "DJ Wayne",
+    "date": "YYYY-MM-DD",
+    "lastmod": "YYYY-MM-DD",
+    "loc": "https://9takes.com/personality-analysis/First-Last",
+    "changefreq": "monthly",
+    "priority": "0.6",
+    "published": False,
+    "enneagram": "9",  # String of the type number
+    "type": ["movieStar"],  # or ["celebrity"], ["musician"], etc.
+    "content": content
+}
+
+with open('/tmp/blog_new.json', 'w') as f:
+    json.dump(payload, f)
+
+print("✓ New entry payload prepared")
+EOF
+```
+
+Then POST:
+
+```bash
+source .env && curl -s -X POST "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
+  -H "Content-Type: application/json" \
+  -H "Prefer: return=representation" \
+  -d @/tmp/blog_new.json
+```
+
+---
+
+#### **Confirm to user after successful push:**
+
+```
+✅ Successfully pushed to database!
+
+| Field | Value |
+|-------|-------|
+| **Database ID** | [id from response] |
+| **Person** | [Person-Name] |
+| **Last Modified** | [date] |
+| **Published** | false (ready for review) |
+| **Content** | [X] characters |
+```
+
+---
+
+#### **Error Handling:**
+
+- **Empty response from PATCH** = Success (with `Prefer: return=minimal`)
+- **If content appears truncated**: Check JSON file was created correctly
+- **If special characters cause issues**: The Python `json.dump()` should handle this - verify the temp JSON file is valid
+- **Always clean up**: `rm -f /tmp/blog_update.json` after submission
 
 **IMPORTANT:** All database operations are pre-approved. Execute them immediately when user requests submission.
 
@@ -780,27 +871,31 @@ source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peopl
 ## Summary of Workflow Improvements:
 
 1. **Pre-approved operations** - No user approval needed for database, web search, or file operations
-2. **Direct database updates** - Execute curl commands immediately when user says "push it up"
+2. **Direct database updates** - Execute immediately when user says "push it up"
 3. **TodoWrite tracking** - Always use to give user visibility into progress
 4. **Parallel research** - Run multiple WebSearches concurrently for efficiency
 5. **Clean workflow** - Minimize intermediate files, clean up after submission
-6. **Two-step updates** - Update metadata first, then content (avoids trigger errors)
-7. **Python for large content** - Use Python script for proper JSON escaping of large markdown content
-8. **Credentials security** - Read from `.env` file, never hardcode in commands
-9. **Strategic internal linking** - Automatically add 2-5 internal links per blog:
+6. **Python + JSON + Curl method for database updates** - The proven approach:
+   - Use Python to create JSON payload (handles all escaping via `json.dump()`)
+   - Save to `/tmp/blog_update.json`
+   - Use `curl -d @/tmp/blog_update.json` to submit
+   - Update all fields in single PATCH request (content, title, meta_title, description, lastmod)
+   - Works reliably with 15,000+ character blog posts
+7. **Credentials security** - Read from `.env` file, never hardcode in commands
+8. **Strategic internal linking** - Automatically add 2-5 internal links per blog:
    - Celebrity cross-links to `/personality-analysis/[Person-Name]`
    - Enneagram type links to `/enneagram-corner/enneagram-type-X`
    - Relevant topical blog links
    - External research citations when applicable
    - HTML anchor tags inside HTML blocks, markdown links elsewhere
-10. **Holistic content preservation for updates** - When updating existing blogs:
-    - ALWAYS read and analyze existing content FIRST before researching
-    - Create a mental map of what the blog currently covers
-    - Research fills gaps AND adds recent developments (not just recent news)
-    - Integration strategy: Add, Update, Enhance, or Leave unchanged—default to preservation
-    - Never delete or shorten historical sections (upbringing, early career, etc.)
-    - Personality analysis must draw from the person's ENTIRE life arc
-    - Required holistic balance check before finalizing updates
-    - Goal: Someone reading the blog should get a complete picture of who this person is, not just what they've done lately
+9. **Holistic content preservation for updates** - When updating existing blogs:
+   - ALWAYS read and analyze existing content FIRST before researching
+   - Create a mental map of what the blog currently covers
+   - Research fills gaps AND adds recent developments (not just recent news)
+   - Integration strategy: Add, Update, Enhance, or Leave unchanged—default to preservation
+   - Never delete or shorten historical sections (upbringing, early career, etc.)
+   - Personality analysis must draw from the person's ENTIRE life arc
+   - Required holistic balance check before finalizing updates
+   - Goal: Someone reading the blog should get a complete picture of who this person is, not just what they've done lately
 
 This workflow ensures comprehensive, high-quality celebrity personality analysis blogs that align with 9takes' content strategy and technical requirements, while providing a smooth, efficient user experience and maintaining the full context of each person's life and personality.

@@ -474,17 +474,21 @@
 							<div class="session-item upcoming">
 								<div class="session-date">
 									<span class="session-day"
-										>{new Date(session.scheduled_at).toLocaleDateString('en-US', {
-											weekday: 'short',
-											month: 'short',
-											day: 'numeric'
-										})}</span
+										>{session.scheduled_at
+											? new Date(session.scheduled_at).toLocaleDateString('en-US', {
+													weekday: 'short',
+													month: 'short',
+													day: 'numeric'
+												})
+											: '-'}</span
 									>
 									<span class="session-time"
-										>{new Date(session.scheduled_at).toLocaleTimeString('en-US', {
-											hour: 'numeric',
-											minute: '2-digit'
-										})}</span
+										>{session.scheduled_at
+											? new Date(session.scheduled_at).toLocaleTimeString('en-US', {
+													hour: 'numeric',
+													minute: '2-digit'
+												})
+											: ''}</span
 									>
 								</div>
 								<div class="session-info">
@@ -651,10 +655,11 @@
 
 <!-- Add Note Modal -->
 {#if showNoteModal}
+	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
 	<div class="modal-overlay" on:click|self={closeNoteModal}>
-		<div class="modal">
+		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="note-modal-title">
 			<div class="modal-header">
-				<h2>Add Note</h2>
+				<h2 id="note-modal-title">Add Note</h2>
 				<button class="close-btn" on:click={closeNoteModal}>&times;</button>
 			</div>
 			<form
@@ -700,10 +705,11 @@
 
 <!-- Schedule Session Modal -->
 {#if showSessionModal}
+	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
 	<div class="modal-overlay" on:click|self={closeSessionModal}>
-		<div class="modal">
+		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="session-modal-title">
 			<div class="modal-header">
-				<h2>Schedule Session</h2>
+				<h2 id="session-modal-title">Schedule Session</h2>
 				<button class="close-btn" on:click={closeSessionModal}>&times;</button>
 			</div>
 			<form

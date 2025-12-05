@@ -62,12 +62,14 @@
 	}
 
 	function isSessionToday(): boolean {
+		if (!data.session.scheduled_at) return false;
 		const sessionDate = new Date(data.session.scheduled_at);
 		const today = new Date();
 		return sessionDate.toDateString() === today.toDateString();
 	}
 
 	function isSessionPast(): boolean {
+		if (!data.session.scheduled_at) return false;
 		return new Date(data.session.scheduled_at) < new Date();
 	}
 
@@ -124,8 +126,11 @@
 					</span>
 					<span class="session-type">{data.session.session_type?.replace('_', ' ')}</span>
 					<span class="session-duration">{data.session.duration_minutes} min</span>
-					<span class="status-badge" style="--status-color: {getStatusColor(data.session.status)}">
-						{data.session.status?.replace('_', ' ')}
+					<span
+						class="status-badge"
+						style="--status-color: {getStatusColor(data.session.status || 'scheduled')}"
+					>
+						{data.session.status?.replace('_', ' ') || 'scheduled'}
 					</span>
 				</div>
 			</div>
@@ -262,13 +267,13 @@
 										>{prevSession.session_type?.replace('_', ' ')}</span
 									>
 								</div>
-								{#if prevSession.summary}
-									<p class="prev-session-summary">{prevSession.summary}</p>
+								{#if prevSession.key_insights}
+									<p class="prev-session-summary">{prevSession.key_insights}</p>
 								{/if}
-								{#if prevSession.next_steps}
+								{#if prevSession.action_items}
 									<div class="prev-session-next">
-										<strong>Next Steps:</strong>
-										{prevSession.next_steps}
+										<strong>Action Items:</strong>
+										{prevSession.action_items}
 									</div>
 								{/if}
 								{#if prevSession.notes?.length}
@@ -525,10 +530,11 @@
 
 <!-- Complete Session Modal -->
 {#if showCompleteModal}
+	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
 	<div class="modal-overlay" on:click|self={() => (showCompleteModal = false)}>
-		<div class="modal complete-modal">
+		<div class="modal complete-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
 			<div class="modal-header">
-				<h2>Complete Session</h2>
+				<h2 id="modal-title">Complete Session</h2>
 				<button class="close-btn" on:click={() => (showCompleteModal = false)}>&times;</button>
 			</div>
 			<form
