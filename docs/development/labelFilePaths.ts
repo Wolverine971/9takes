@@ -73,13 +73,13 @@ const COMMENT_PATTERNS = {
 
 // Regex patterns to detect existing path comments (must contain path-like pattern: word/word or word.ext)
 // These are more specific to avoid matching markdown headers, frontmatter, etc.
-// Note: [\w\-./+] includes + for SvelteKit files like +page.svelte, +server.ts
+// Character class includes: word chars, dash, dot, slash, plus, space, brackets (for [slug] paths)
 const EXISTING_PATH_COMMENT_PATTERNS = [
-	/^<!--\s*[\w\-./+]+\.(md|svelte|html|xml)\s*-->/, // HTML-style path comments
-	/^\/\/\s*[\w\-./+]+\.(ts|js|mjs|jsx|tsx|jsonc)/, // Single-line path comments
-	/^\/\*\s*[\w\-./+]+\.(css|scss|sass|less)\s*\*\//, // CSS-style path comments
-	/^#\s*[\w\-./+]+\.(py|sh|bash|yml|yaml)/, // Hash path comments (not markdown headers!)
-	/^--\s*[\w\-./+]+\.sql/ // SQL path comments
+	/^<!--\s*[\w\-./+ \[\]]+\.(md|svelte|html|xml)\s*-->/, // HTML-style path comments
+	/^\/\/\s*[\w\-./+ \[\]]+\.(ts|js|mjs|jsx|tsx|jsonc)/, // Single-line path comments
+	/^\/\*\s*[\w\-./+ \[\]]+\.(css|scss|sass|less)\s*\*\//, // CSS-style path comments
+	/^#\s*[\w\-./+ \[\]]+\.(py|sh|bash|yml|yaml)/, // Hash path comments (not markdown headers!)
+	/^--\s*[\w\-./+ \[\]]+\.sql/ // SQL path comments
 ];
 
 function getFileExtension(filePath: string): string {

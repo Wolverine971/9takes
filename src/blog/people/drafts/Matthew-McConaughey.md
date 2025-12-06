@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Matthew_McConaughey'
 twitter: 'McConaughey'
 instagram: 'officiallymcconaughey'
 tiktok: ''
+path: src/blog/people/drafts/Matthew-McConaughey.md
 ---
 
 > "The situation can never be greater than you are."

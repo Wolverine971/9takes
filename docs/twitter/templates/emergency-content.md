@@ -7,6 +7,7 @@ category: template
 related:
   - ../execution/posts-queue.md
   - ../voice-and-tone.md
+path: docs/twitter/templates/emergency-content.md
 ---
 
 # Emergency Content Bank

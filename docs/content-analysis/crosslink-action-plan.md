@@ -1,3 +1,4 @@
+<!-- docs/content-analysis/crosslink-action-plan.md -->
 # Blog Crosslink Action Plan
 
 _Last Updated: 2025-12-05 (Session 2)_

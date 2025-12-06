@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Grimes_(musician)'
 twitter: 'Grimezsz'
 instagram: 'grimes'
 tiktok: 'grimes'
+path: src/blog/people/drafts/Grimes.md
 ---
 
 > "Once you hit day nine, you start accessing some really crazy shit. Your subconscious starts filling in the blanks. I started to feel like I was channelling spirits. I was convinced my music was a gift from God."

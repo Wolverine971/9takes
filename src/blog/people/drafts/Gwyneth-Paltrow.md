@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Gwyneth_Paltrow'
 twitter: 'GwynethPaltrow'
 instagram: 'gwynethpaltrow'
 tiktok: ''
+path: src/blog/people/drafts/Gwyneth-Paltrow.md
 ---
 
 > "I have so little say in the projections that people have, and it's traumatic to be at the whim of these projections when it's so misaligned with who you actually are."

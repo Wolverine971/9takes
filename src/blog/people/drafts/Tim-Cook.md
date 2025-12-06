@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Tim_Cook'
 twitter: 'tim_cook'
 instagram: 'timcook'
 tiktok: ''
+path: src/blog/people/drafts/Tim-Cook.md
 ---
 
 <p class="firstLetter">He wakes up at 3:45 AM. Every single day. While most of the world sleeps, Tim Cook is already reading customer emails, planning the day ahead, holding himself to a standard most people couldn't maintain for a week.</p>

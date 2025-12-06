@@ -1,4 +1,4 @@
-<!-- docs/base-person-writing-prompt.md -->
+<!-- docs/blogs-famous-people/prompts/writing-prompt.md -->
 
 # Comprehensive Enneagram Article Writing Prompt
 

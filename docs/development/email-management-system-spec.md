@@ -1,4 +1,4 @@
-<!-- docs/email-management-system-spec.md -->
+<!-- docs/development/email-management-system-spec.md -->
 
 # Email Management System - Technical Specification
 

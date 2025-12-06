@@ -1,4 +1,4 @@
-<!-- docs/marketing/twitter-growth-strategy-9takes.md -->
+<!-- docs/archives/twitter-legacy/twitter-growth-strategy-9takes.md -->
 
 # Twitter Growth Strategy for @9takesdotcom
 

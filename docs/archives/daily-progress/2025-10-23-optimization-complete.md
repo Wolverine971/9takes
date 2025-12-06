@@ -1,4 +1,4 @@
-<!-- docs/daily-progress/2025-10-23-optimization-complete.md -->
+<!-- docs/archives/daily-progress/2025-10-23-optimization-complete.md -->
 
 # Content Optimization Complete - October 23, 2025
 

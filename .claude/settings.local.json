@@ -64,7 +64,8 @@
 			"Bash(\"Content-Type: application/json\" -d '{\"\"suggestions\"\": [\"\"Doja-Cat\"\", \"\"Daddy-Yankee\"\", \"\"J-Balvin\"\", \"\"Shakira\"\"]}')",
 			"Bash(\"Content-Type: application/json\" -d '{\"\"suggestions\"\": [\"\"Steve-Jobs\"\", \"\"Mark-Zuckerberg\"\", \"\"Jeff-Bezos\"\", \"\"Elon-Musk\"\"]}')",
 			"Bash(\"Content-Type: application/json\" -d '{\"\"suggestions\"\": [\"\"Vladimir-Putin\"\", \"\"Donald-Trump\"\", \"\"Joe-Biden\"\", \"\"Kim-Jong-Un\"\"]}')",
-			"Bash(\"Content-Type: application/json\" -d '{\"\"suggestions\"\": [\"\"Martin-Luther-King-Jr\"\", \"\"Barack-Obama\"\", \"\"Ronald-Reagan\"\", \"\"George-Washington\"\"]}')"
+			"Bash(\"Content-Type: application/json\" -d '{\"\"suggestions\"\": [\"\"Martin-Luther-King-Jr\"\", \"\"Barack-Obama\"\", \"\"Ronald-Reagan\"\", \"\"George-Washington\"\"]}')",
+			"Bash(npx markdown-link-check:*)"
 		],
 		"deny": [],
 		"ask": [],

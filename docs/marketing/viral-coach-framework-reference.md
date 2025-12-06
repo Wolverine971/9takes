@@ -1,4 +1,4 @@
-<!-- docs/viral-coach-framework-reference.md -->
+<!-- docs/marketing/viral-coach-framework-reference.md -->
 
 # Viral Coach Framework Reference
 

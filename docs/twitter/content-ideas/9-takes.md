@@ -8,6 +8,7 @@ pillar: 9 Takes (10%)
 related:
   - ../voice-and-tone.md
   - ../README.md
+path: docs/twitter/content-ideas/9-takes.md
 ---
 
 # 9 Takes Format Content

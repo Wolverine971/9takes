@@ -8,6 +8,7 @@ pillar: MBTI Bridge (20%)
 related:
   - ../voice-and-tone.md
   - ./neurodiversity.md
+path: docs/twitter/content-ideas/mbti-bridge.md
 ---
 
 # MBTI Bridge Content

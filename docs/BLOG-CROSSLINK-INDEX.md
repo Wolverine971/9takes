@@ -1,3 +1,4 @@
+<!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
 _Generated: 2025-12-05_

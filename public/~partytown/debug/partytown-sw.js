@@ -1,4 +1,6 @@
 // public/~partytown/debug/partytown-sw.js
+// public/~partytown/debug/partytown-sw.js
+// public/~partytown/debug/partytown-sw.js
 const resolves = new Map;
 
 const swMessageError = (accessReq, $error$) => ({

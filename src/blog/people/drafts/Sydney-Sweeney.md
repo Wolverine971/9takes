@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Sydney_Sweeney'
 twitter: 'https://twitter.com/sydney_sweeney'
 instagram: 'https://www.instagram.com/sydney_sweeney/'
 tiktok: 'https://www.tiktok.com/@syds_garage'
+path: src/blog/people/drafts/Sydney-Sweeney.md
 ---
 
 > "I function much better when I'm under pressure. I'm at a different level when I have tons of things to do."

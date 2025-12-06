@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Pokimane'
 twitter: 'pokaborat'
 instagram: 'pokimane'
 tiktok: 'pokimane'
+path: src/blog/people/drafts/Pokimane.md
 ---
 
 > "I'm not trying to be the richest person ever. I'm really just trying to do what I like and I really value my happiness, my sanity, my peace of mind way more than any bonus income."

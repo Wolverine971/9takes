@@ -1,3 +1,4 @@
+# update_supabase.py
 #!/usr/bin/env python3
 import urllib.request
 import json

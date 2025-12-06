@@ -8,6 +8,7 @@ pillar: Shadow Content (30%) / Mental Health (25%)
 related:
   - ../voice-and-tone.md
   - ./love-languages.md
+path: docs/twitter/content-ideas/workplace.md
 ---
 
 # Workplace Patterns Content

@@ -1,4 +1,4 @@
-<!-- docs/life_os_master_seed (4).md -->
+<!-- docs/archives/life-os-master-seed.md -->
 
 # 🌐 Life OS: Master Context File
 

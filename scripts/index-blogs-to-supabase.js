@@ -1,3 +1,4 @@
+// scripts/index-blogs-to-supabase.js
 #!/usr/bin/env node
 
 /**

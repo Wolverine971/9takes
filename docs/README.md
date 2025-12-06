@@ -4,6 +4,7 @@ description: 'Master index and phonebook for all 9takes documentation'
 last_modified: 2025-12-05
 status: active
 category: hub
+path: docs/README.md
 ---
 
 # 9takes Documentation Hub

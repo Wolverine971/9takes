@@ -4,6 +4,7 @@ description: 'Central index for all Twitter/X strategy, content, and execution d
 last_modified: 2025-12-05
 status: active
 category: hub
+path: docs/twitter/README.md
 ---
 
 # Twitter/X Hub - @9takesdotcom

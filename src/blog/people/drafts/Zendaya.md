@@ -18,6 +18,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Zendaya.md
 ---
 
 > "I'm a control freak by nature, and I feel like if I don't have any control, I get really anxious. I need to be able to have that say."

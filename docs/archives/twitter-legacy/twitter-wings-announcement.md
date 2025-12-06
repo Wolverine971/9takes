@@ -1,4 +1,4 @@
-<!-- docs/marketing/twitter-wings-announcement.md -->
+<!-- docs/archives/twitter-legacy/twitter-wings-announcement.md -->
 
 # Twitter Announcement - Wings Guide
 

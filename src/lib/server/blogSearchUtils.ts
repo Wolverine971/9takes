@@ -1,3 +1,4 @@
+// src/lib/server/blogSearchUtils.ts
 // Shared helpers for blog search endpoints
 
 export const ROUTE_MAP: Record<string, string> = {

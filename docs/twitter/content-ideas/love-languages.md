@@ -8,6 +8,7 @@ pillar: Relationships (15%)
 related:
   - ../voice-and-tone.md
   - ./neurodiversity.md
+path: docs/twitter/content-ideas/love-languages.md
 ---
 
 # Love Languages & Relationships Content

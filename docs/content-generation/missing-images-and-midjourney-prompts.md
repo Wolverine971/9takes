@@ -1,4 +1,4 @@
-<!-- docs/missing-images-and-midjourney-prompts.md -->
+<!-- docs/content-generation/missing-images-and-midjourney-prompts.md -->
 
 # Missing Blog Images and Updated Midjourney Prompts
 

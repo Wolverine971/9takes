@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Bill_Gates'
 twitter: 'https://twitter.com/BillGates'
 instagram: 'https://www.instagram.com/thisisbillgates'
 tiktok: 'https://www.tiktok.com/discover/bill-gates'
+path: src/blog/people/drafts/Bill-Gates.md
 ---
 
 > "I don't want my brain to stop working."

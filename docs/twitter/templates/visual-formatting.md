@@ -7,6 +7,7 @@ category: template
 related:
   - ../execution/post-crafting-guide.md
   - ./emergency-content.md
+path: docs/twitter/templates/visual-formatting.md
 ---
 
 # Visual Formatting Templates

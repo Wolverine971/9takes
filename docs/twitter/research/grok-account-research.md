@@ -6,6 +6,7 @@ status: active
 category: research
 related:
   - ../engagement/target-accounts.md
+path: docs/twitter/research/grok-account-research.md
 ---
 
 # Grok Account Research - December 2025

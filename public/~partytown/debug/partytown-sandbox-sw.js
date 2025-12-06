@@ -1,4 +1,6 @@
 // public/~partytown/debug/partytown-sandbox-sw.js
+// public/~partytown/debug/partytown-sandbox-sw.js
+// public/~partytown/debug/partytown-sandbox-sw.js
 (window => {
     const isPromise = v => "object" == typeof v && v && v.then;
     const noop = () => {};

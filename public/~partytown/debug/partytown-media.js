@@ -1,4 +1,6 @@
 // public/~partytown/debug/partytown-media.js
+// public/~partytown/debug/partytown-media.js
+// public/~partytown/debug/partytown-media.js
 (self => {
     const [getter, setter, callMethod, constructGlobal, definePrototypePropertyDescriptor, randomId, WinIdKey, InstanceIdKey, ApplyPathKey] = self.$bridgeToMedia$;
     delete self.$bridgeToMedia$;

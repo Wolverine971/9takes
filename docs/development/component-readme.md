@@ -1,4 +1,4 @@
-<!-- docs/technical/component-readme.md -->
+<!-- docs/development/component-readme.md -->
 
 # Nested Comments Component Requirements
 

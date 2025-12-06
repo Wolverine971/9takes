@@ -8,6 +8,7 @@ pillar: Mental Health (25%)
 related:
   - ./neurodiversity-hot-take.md
   - ../voice-and-tone.md
+path: docs/twitter/content-ideas/neurodiversity.md
 ---
 
 # Neurodiversity Content

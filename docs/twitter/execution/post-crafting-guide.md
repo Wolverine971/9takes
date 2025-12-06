@@ -10,6 +10,7 @@ related:
   - ../templates/visual-formatting.md
   - ../../content-generation/midjourney_prompt_templates.md
   - ../../content-generation/image-prompts/
+path: docs/twitter/execution/post-crafting-guide.md
 ---
 
 # Twitter/X Post Crafting Guide

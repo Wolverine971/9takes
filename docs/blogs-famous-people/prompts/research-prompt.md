@@ -1,4 +1,4 @@
-<!-- docs/base-person-research-prompt.md -->
+<!-- docs/blogs-famous-people/prompts/research-prompt.md -->
 
 # Comprehensive Enneagram Personality Research Prompt
 

@@ -1,4 +1,6 @@
 // public/~partytown/debug/partytown-ww-atomics.js
+// public/~partytown/debug/partytown-ww-atomics.js
+// public/~partytown/debug/partytown-ww-atomics.js
 (self => {
     const WinIdKey = Symbol();
     const InstanceIdKey = Symbol();

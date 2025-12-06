@@ -8,6 +8,7 @@ related:
   - ./README.md
   - ./execution/post-crafting-guide.md
   - ./execution/posts-queue.md
+path: docs/twitter/voice-and-tone.md
 ---
 
 # 9takes Twitter/X Voice & Tone Guide

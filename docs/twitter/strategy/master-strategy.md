@@ -8,6 +8,7 @@ related:
   - ../README.md
   - ../voice-and-tone.md
   - ../execution/post-crafting-guide.md
+path: docs/twitter/strategy/master-strategy.md
 ---
 
 # 9takes X/Twitter Growth Strategy 2025

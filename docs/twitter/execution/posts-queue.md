@@ -8,6 +8,7 @@ related:
   - ../voice-and-tone.md
   - ./post-crafting-guide.md
   - ./metrics-tracker.md
+path: docs/twitter/execution/posts-queue.md
 ---
 
 # Twitter Posts Queue

@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Sundar_Pichai'
 twitter: 'sundarpichai'
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Sundar-Pichai.md
 ---
 
 > "I'm good at tuning out the noise. I do watch out for signals. It's important to separate the signal from the noise."

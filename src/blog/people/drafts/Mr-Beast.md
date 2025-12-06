@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/MrBeast'
 twitter: 'MrBeast'
 instagram: 'mrbeast'
 tiktok: 'mrbeast'
+path: src/blog/people/drafts/Mr-Beast.md
 ---
 
 <p class="firstLetter">Look, we've all seen those crazy MrBeast videos pop up in our feeds - you know, the ones where he's giving away houses, spending 50 hours buried alive, or helping 2,000 people walk again. But what drives a 27-year-old from a small town in North Carolina to build the most subscribed YouTube channel in the world with over 453 million subscribers?</p>

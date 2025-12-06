@@ -7,6 +7,7 @@ category: engagement
 related:
   - ../templates/response-templates.md
   - ../research/grok-account-research.md
+path: docs/twitter/engagement/target-accounts.md
 ---
 
 # Target Accounts for Engagement

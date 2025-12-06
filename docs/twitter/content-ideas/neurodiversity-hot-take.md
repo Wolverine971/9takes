@@ -7,6 +7,7 @@ category: content-ideas
 related:
   - ./neurodiversity.md
   - ../voice-and-tone.md
+path: docs/twitter/content-ideas/neurodiversity-hot-take.md
 ---
 
 # Neurodiversity Hot Take Thread

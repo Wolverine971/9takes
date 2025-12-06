@@ -8,6 +8,7 @@ pillar: Shadow Content (30%)
 related:
   - ../voice-and-tone.md
   - ./workplace.md
+path: docs/twitter/content-ideas/social-media.md
 ---
 
 # Social Media Psychology Content

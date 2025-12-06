@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez'
 twitter: 'AOC'
 instagram: 'aoc'
 tiktok: ''
+path: src/blog/people/drafts/Alexandria-Ocasio-Cortez.md
 ---
 
 <p class="firstLetter">October 2019. Mark Zuckerberg sits before Congress, expecting the usual grandstanding. Then Alexandria Ocasio-Cortez leans into her microphone and asks if she can run Facebook ads claiming Republicans voted for the Green New Deal. His answer—"I think probably"—goes viral. Millions watch a bartender-turned-congresswoman corner the world's fifth-richest man.</p>

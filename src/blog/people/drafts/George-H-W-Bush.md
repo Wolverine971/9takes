@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/George_H._W._Bush'
 twitter: 'https://twitter.com/georgehwbush'
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/George-H-W-Bush.md
 ---
 
 > "Family is not a neutral word for me. It's a powerful word, full of emotional resonance."

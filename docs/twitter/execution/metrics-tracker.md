@@ -8,6 +8,7 @@ related:
   - ../README.md
   - ./posts-queue.md
   - /docs/marketing/x-twitter-growth-strategy-2025.md
+path: docs/twitter/execution/metrics-tracker.md
 ---
 
 # Twitter Metrics Tracker

@@ -1,4 +1,4 @@
-<!-- docs/CSS_STYLE_GUIDE.md -->
+<!-- docs/development/css-style-guide.md -->
 
 # 9takes Design System Style Guide
 

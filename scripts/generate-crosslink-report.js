@@ -1,3 +1,4 @@
+// scripts/generate-crosslink-report.js
 #!/usr/bin/env node
 
 /**

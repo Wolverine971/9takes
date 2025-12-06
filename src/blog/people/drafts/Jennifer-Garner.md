@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Garner'
 twitter: 'https://twitter.com/JenniferGarner'
 instagram: 'https://www.instagram.com/jennifer.garner'
 tiktok: ''
+path: src/blog/people/drafts/Jennifer-Garner.md
 ---
 
 > "I am the model middle child. I am patient and I like to take care of everyone. Being called nice is a compliment. It's not a boring way to describe me."

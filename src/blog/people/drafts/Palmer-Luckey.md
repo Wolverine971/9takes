@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Palmer_Luckey'
 twitter: 'PalmerLuckey'
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Palmer-Luckey.md
 ---
 
 > "I'm a propagandist. I'll twist the truth. I'll put forward only my version if I think that's going to propagandize people to what I need them to believe."

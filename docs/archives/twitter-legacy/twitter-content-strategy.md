@@ -1,4 +1,4 @@
-<!-- docs/marketing/twitter-content-strategy.md -->
+<!-- docs/archives/twitter-legacy/twitter-content-strategy.md -->
 
 # Twitter/X Content Strategy for 9takes Enneagram Blogs
 

@@ -16,6 +16,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Doja_Cat'
 twitter: 'DojaCat'
 instagram: 'dojacat'
 tiktok: 'dojacat'
+path: src/blog/people/drafts/Doja-Cat.md
 ---
 
 <!-- ['Nicki Minaj', 'Cardi B', 'Megan Thee Stallion', 'SZA', 'Lizzo'] -->

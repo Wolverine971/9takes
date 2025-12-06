@@ -1,4 +1,4 @@
-<!-- docs/prompt-flow.md -->
+<!-- docs/development/prompt-flow.md -->
 
 dont say "there is such a thing as that"
 

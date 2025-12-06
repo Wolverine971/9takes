@@ -188,7 +188,7 @@ This case study documents a full blog optimization from D-grade to A-grade using
 
 ### The Problem
 
-`enneagram-communication-tips.md` was identified in the [Blog Improvement Priority List](../BLOG-IMPROVEMENT-PRIORITY-LIST.md) as Priority 3.1:
+`enneagram-communication-tips.md` was identified in the [Blog Improvement Priority List](../content-analysis/blog-improvement-priority-list.md) as Priority 3.1:
 
 | Issue             | Before                                     |
 | ----------------- | ------------------------------------------ |

@@ -1,4 +1,4 @@
-<!-- docs/9takes-context.md -->
+<!-- docs/project-docs/9takes-context.md -->
 
 # 🧠 9takes: Master Context File
 

@@ -7,6 +7,7 @@ category: template
 related:
   - ../voice-and-tone.md
   - ../engagement/target-accounts.md
+path: docs/twitter/templates/response-templates.md
 ---
 
 # Response Templates
