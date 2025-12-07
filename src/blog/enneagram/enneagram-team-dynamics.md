@@ -42,7 +42,7 @@ Each Enneagram type brings distinct strengths and blind spots to team environmen
 
 **Body Types (8, 9, 1): The Execution Engine**
 
-- **Type 8s:** Natural leaders who drive results and make tough decisions
+- **Type 8s:** [Natural leaders](/enneagram-corner/enneagram-leadership) who drive results and make tough decisions
 - **Type 9s:** Diplomatic mediators who build consensus and maintain harmony
 - **Type 1s:** Quality controllers who ensure excellence and systematic processes
 

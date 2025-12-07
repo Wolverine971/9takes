@@ -33,7 +33,7 @@ Greek statues constructing modern architectural structure together, each statue 
 
 Sound familiar?
 
-That frustrating coworker who derails meetings with too many questions. The team member who seems to avoid conflict at all costs. The boss who focuses on tiny details when you just want the big picture.
+That frustrating coworker who derails meetings with too many questions. The team member who seems to avoid conflict at all costs. The boss who focuses on tiny details when you just want the big picture—their [leadership style](/enneagram-corner/enneagram-leadership) is just different from yours.
 
 It's not that they're trying to drive you crazy. They're speaking a different personality language.
 

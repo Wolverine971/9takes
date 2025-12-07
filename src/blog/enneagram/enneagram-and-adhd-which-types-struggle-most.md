@@ -2,9 +2,9 @@
 title: 'Enneagram and ADHD: Which Types Struggle Most (And Why)'
 description: 'Do you have ADHD or is it just your personality? Discover how ADHD affects each Enneagram type differently, plus type-specific coping strategies that actually work.'
 author: 'DJ Wayne'
-date: '2025-12-07'
+date: '2025-12-06'
 loc: 'https://9takes.com/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'
-lastmod: '2025-12-07'
+lastmod: '2025-12-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -40,8 +40,8 @@ path: src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-12-07",
-      "datePublished": "2025-12-07",
+      "dateModified": "2025-12-06",
+      "datePublished": "2025-12-06",
       "description": "Do you have ADHD or is it just your personality? Discover how ADHD affects each Enneagram type differently, plus type-specific coping strategies that actually work.",
       "headline": "Enneagram and ADHD: Which Types Struggle Most (And Why)",
       "image": {

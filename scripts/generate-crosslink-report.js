@@ -1,5 +1,5 @@
 // scripts/generate-crosslink-report.js
-#!/usr/bin/env node
+// #!/usr/bin/env node
 
 /**
  * Blog Crosslink Analysis Script

@@ -47,7 +47,7 @@ You've been ghosted.
 
 In 2024, where **78% of young adults** report experiencing this digital vanishing act, ghosting has evolved from dating anomaly to cultural epidemic.
 
-**But here's what nobody talks about:** Their Enneagram type reveals exactly why they disappeared—and your type determines how the abandonment wounds you.
+**But here's what nobody talks about:** Their Enneagram type reveals exactly why they disappeared—and your type determines how the abandonment wounds you. (The [warning signs were probably there](/enneagram-corner/red-flags-dating-each-enneagram-type) before the silence began.)
 
 Understanding **why they ghosted** (their pattern) separates from **how you heal** (your pattern).
 
@@ -191,7 +191,7 @@ _"Of course they left. Everyone does."_
 
 **But here's the truth:** Beneath the melancholy lies genuine heartbreak.
 
-You feel deeply. When someone vanishes, your abandonment wound rips wide open.
+You feel deeply. When someone vanishes, your abandonment wound rips wide open. (Your [attachment style](/enneagram-corner/attachment-styles-and-enneagram-types) likely intensifies this response.)
 
 You preemptively sabotage future connections. Better alone than left again.
 
@@ -477,7 +477,7 @@ Add the paradox of modern dating:
 - Meaningful connection feels increasingly rare
 - **45% of dating app users** report more anxiety than hope
 
-Ghosting doesn't just hurt because someone stopped talking.
+Ghosting doesn't just hurt because someone stopped talking. It's a form of [manipulation through absence](/enneagram-corner/how-each-enneagram-type-manipulates)—using silence as a weapon.
 
 It hurts because it reinforces our deepest cultural fear:
 

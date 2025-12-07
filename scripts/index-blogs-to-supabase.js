@@ -1,5 +1,5 @@
 // scripts/index-blogs-to-supabase.js
-#!/usr/bin/env node
+// #!/usr/bin/env node
 
 /**
  * Script to index ALL blog content to Supabase for full-text search

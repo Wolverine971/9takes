@@ -570,9 +570,9 @@ Now that we understand each type's unique language, how do we bridge these diffe
 
 1. **Identify your own type's communication patterns** first. Self-awareness is essential for recognizing when your default style might be creating disconnection.
 
-2. **Listen for clues to others' types** through their word choices, pace, focus, and non-verbal cues. What seems to energize or deflate them in conversation?
+2. **Listen for clues to others' types** through their word choices, pace, focus, and non-verbal cues. What seems to energize or deflate them in conversation? (Need a quick reference? Our [5-minute communication guide](/enneagram-corner/enneagram-communication-guide) breaks down each type's tells.)
 
-3. **Adapt selectively**, incorporating elements of their communication style when appropriate. You don't need to change who you are—just translate your message into terms that resonate with them.
+3. **Adapt selectively**, incorporating elements of their communication style when appropriate. You don't need to change who you are—just translate your message into terms that resonate with them. For [specific phrases and scripts that work for each type](/enneagram-corner/enneagram-communication-tips), we've compiled the exact words that land.
 
 4. **Respect the wisdom in each style**. Every type's communication approach has strengths and valuable perspectives to offer.
 

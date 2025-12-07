@@ -1,4 +1,5 @@
 <!-- docs/twitter/research/grok-analysis.md -->
+
 Show me the top 10 MBTI tweets from the last 7 days with 50k+ engagements. Which ones would
 translate best to Enneagram roasts?
 

@@ -1,4 +1,5 @@
 <!-- src/blog/guides/personality-maxing-notes.md -->
+
 # Personality Maxing Blueprint: Revision Notes
 
 _Working notes for rewriting the 90-day-personality-maxing-blueprint blog_

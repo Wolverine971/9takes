@@ -1,4 +1,5 @@
 <!-- docs/twitter/research/grok-questions.md -->
+
 1. "Show me the top 10 MBTI tweets from the last 7 days with 50k+ engagements. Which ones would
    translate best to Enneagram roasts?" - Gets you real-time targets for quote-tweets.
 2. "What are the exact posting times and days when Enneagram/personality content gets the most

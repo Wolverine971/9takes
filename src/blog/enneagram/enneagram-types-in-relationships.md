@@ -45,7 +45,7 @@ Here's what nobody tells you about relationships:
 
 And until you see it clearly, you'll keep repeating the same painful dynamics—just with different faces.
 
-Ready to understand why your relationships follow the same script? Let's decode the nine ways humans love, fight, and ultimately sabotage connection.
+Ready to understand why your relationships follow the same script? Whether you're [a man trying to decode women](/enneagram-corner/enneagram-dating-guide-for-men) or [a woman navigating modern dating](/enneagram-corner/enneagram-dating-guide-for-women), these patterns apply. Let's decode the nine ways humans love, fight, and ultimately sabotage connection.
 
 <section class="section-content">
 

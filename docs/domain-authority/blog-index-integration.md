@@ -1,4 +1,5 @@
 <!-- docs/domain-authority/blog-index-integration.md -->
+
 # Blog Index Integration & Cross-Linking Strategy
 
 _Last Updated: 2025-12-04_
