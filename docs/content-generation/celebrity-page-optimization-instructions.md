@@ -260,18 +260,18 @@ Before finishing, verify:
 
 ### TIER 2: HIGH VALUE (3,000-5,000 impressions)
 
-| Person         | Impressions | CTR   | Key Angle                    |
-| -------------- | ----------- | ----- | ---------------------------- |
-| Sydney Sweeney | 4,807       | 0.37% | Break the blonde stereotype  |
-| Dua Lipa       | 4,753       | 0.42% | Confidence and boundaries    |
-| Drake          | 4,684       | 0.45% | Emotional vulnerability      |
-| Ryan Gosling   | 4,539       | 0.55% | Silent intensity             |
-| Mr Beast       | 4,287       | 0.51% | Obsessive generosity         |
-| Justin Bieber  | 4,165       | 0.38% | Mental health journey        |
-| Johnny Depp    | 3,977       | 0.2%  | Eccentricity explained       |
-| Lana Del Rey   | 3,907       | 0.33% | Melancholy persona           |
-| Keanu Reeves   | 3,877       | 0.57% | Why is he so kind?           |
-| Bob Dylan      | 4,035       | 1.31% | Already decent - light touch |
+| Person         | Impressions | CTR   | Key Angle                    | Status      |
+| -------------- | ----------- | ----- | ---------------------------- | ----------- |
+| Sydney Sweeney | 4,807       | 0.37% | Break the blonde stereotype  | ✅ Dec 2025 |
+| Mr Beast       | 4,287       | 0.51% | Obsessive generosity         | ✅ Dec 2025 |
+| Dua Lipa       | 4,753       | 0.42% | Confidence and boundaries    | ✅ Dec 2025 |
+| Drake          | 4,684       | 0.45% | Emotional vulnerability      | ⬜ Pending  |
+| Ryan Gosling   | 4,539       | 0.55% | Silent intensity             | ⬜ Pending  |
+| Justin Bieber  | 4,165       | 0.38% | Mental health journey        | ⬜ Pending  |
+| Johnny Depp    | 3,977       | 0.2%  | Eccentricity explained       | ⬜ Pending  |
+| Lana Del Rey   | 3,907       | 0.33% | Melancholy persona           | ⬜ Pending  |
+| Keanu Reeves   | 3,877       | 0.57% | Why is he so kind?           | ⬜ Pending  |
+| Bob Dylan      | 4,035       | 1.31% | Already decent - light touch | ⬜ Pending  |
 
 ---
 

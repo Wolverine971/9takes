@@ -2,7 +2,7 @@
 
 # 9takes Content Strategy - START HERE
 
-_Last Updated: 2025-12-04_
+_Last Updated: 2025-12-07_
 _Status: **PROBLEM-FOCUSED CONTENT PIVOT** - Mental health angle is your traffic goldmine_
 
 > **AI Agents:** For quick task-based navigation, see [`/docs/README.md`](./README.md)
@@ -90,14 +90,14 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 
 ### Content Inventory
 
-| Category             | Count         | Status                      |
-| -------------------- | ------------- | --------------------------- |
-| **Total Published**  | 300+          | Strong foundation           |
-| Celebrity Analyses   | 215+          | DOMINANT (drives discovery) |
-| Enneagram Core       | 68            | Solid coverage              |
-| Mental Health Guides | 10 + variants | TOP TRAFFIC DRIVER          |
-| Relationship Content | 18+           | Improved (was 1.7%)         |
-| Drafts in Pipeline   | 100+          | Ready for development       |
+| Category             | Count         | Status                              |
+| -------------------- | ------------- | ----------------------------------- |
+| **Total Published**  | 305+          | Strong foundation                   |
+| Celebrity Analyses   | 215+          | DOMINANT (drives discovery)         |
+| Enneagram Core       | 73            | +5 problem-focused posts (Dec 2025) |
+| Mental Health Guides | 10 + variants | TOP TRAFFIC DRIVER                  |
+| Relationship Content | 18+           | Improved (was 1.7%)                 |
+| Drafts in Pipeline   | 100+          | Ready for development               |
 
 ### Top Performing Pages (GSC Data)
 
@@ -111,10 +111,12 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 
 ### Recent Optimizations Completed
 
-11 pages optimized with clickbait titles + Quick Answer boxes (Dec 3, 2025):
+**December 2025 Progress:**
 
-- ✅ Wings guide, Anxiety guide, Type 4, Strengths/Weaknesses, Stress types
-- ✅ Career choices, TLDR, Test comparison, Science/mental health, Attachment styles, Subtypes
+- ✅ **5 problem-focused posts PUBLISHED** (Dec 7):
+  - Red Flags Dating, ADHD, Self-Sabotage, Overthinking, Manipulation
+- ✅ **10 TIER 1 celebrities optimized** (Dec 3): IShowSpeed, Emma Watson, Elon Musk, Sabrina Carpenter, Mark Zuckerberg, Selena Gomez, Zendaya, Billie Eilish, Sam Altman, Jenna Ortega
+- ✅ 11 pages optimized with clickbait titles + Quick Answer boxes (Dec 3)
 - ✅ Deep rewrites: MBTI comparison, Biggest compliments (removed dated slang)
 
 ---
@@ -133,38 +135,49 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 | Featured snippets captured         | 2+     |
 | Traffic increase (optimized pages) | +50%   |
 
-### This Week's Posts to Write
+### December Posts - ALL PUBLISHED ✅
 
-1. **"Red Flags You're Dating Each Enneagram Type"** - Shadow content
-2. **"Enneagram and ADHD: Which Types Struggle Most"** - Mental health
-3. **"How Each Type Self-Sabotages Success"** - Self-awareness
-4. **"Why You Can't Stop Overthinking"** - Problem-focused
-5. **"Manipulation Tactics by Enneagram Type"** - Shadow/protection
+1. ✅ **"Red Flags You're Dating Each Enneagram Type"** - Shadow content
+2. ✅ **"Enneagram and ADHD: Which Types Struggle Most"** - Mental health
+3. ✅ **"How Each Type Self-Sabotages Success"** - Self-awareness
+4. ✅ **"Why You Can't Stop Overthinking"** - Problem-focused
+5. ✅ **"Manipulation Tactics by Enneagram Type"** - Shadow/protection
+
+**Next focus:** Internal linking + TIER 2 celebrity optimizations
 
 ---
 
 ## 🔥 IMMEDIATE PRIORITIES
 
-### Priority 1: Execute the 30-Day Plan
+### Priority 1: TIER 2 Celebrity Optimizations ← CURRENT
 
-Follow `/docs/30-DAY-ACTION-PLAN-DEC-2025.md` daily. Each day has specific tasks.
+Next batch (10 pages, 3,000-5,000 impressions each):
 
-### Priority 2: Optimize High-Impression/Low-Click Pages
+| Celebrity      | Impressions | CTR   | Key Angle                   |
+| -------------- | ----------- | ----- | --------------------------- |
+| Sydney Sweeney | 4,807       | 0.37% | Break the blonde stereotype |
+| Dua Lipa       | 4,753       | 0.42% | Confidence and boundaries   |
+| Drake          | 4,684       | 0.45% | Emotional vulnerability     |
+| Ryan Gosling   | 4,539       | 0.55% | Silent intensity            |
+| Mr Beast       | 4,287       | 0.51% | Obsessive generosity        |
+| Justin Bieber  | 4,165       | 0.38% | Mental health journey       |
+| Johnny Depp    | 3,977       | 0.20% | Eccentricity explained      |
+| Lana Del Rey   | 3,907       | 0.33% | Melancholy persona          |
+| Keanu Reeves   | 3,877       | 0.57% | Why is he so kind?          |
+| Bob Dylan      | 4,035       | 1.31% | Light touch only            |
 
-Check GSC for pages with 200+ impressions but <2% CTR. Apply:
+See `/docs/content-generation/celebrity-page-optimization-instructions.md`
 
-- Clickbait title (problem-focused)
-- Quick Answer box in first 100 words
-- Remove hedging language ("tend to" → "typically")
+### Priority 2: Week 1 Review (Dec 10)
 
-### Priority 3: AI Search Optimization
+- Check GSC for early signals on new posts
+- Document Week 1 accomplishments
 
-For your top 10 pages:
+### ✅ COMPLETED (Dec 7)
 
-- [ ] Direct answer in first 2 sentences
-- [ ] Comparison tables where applicable
-- [ ] FAQ sections with actual search queries
-- [ ] "Key Takeaways" boxes
+- [x] All 5 problem-focused posts published
+- [x] TIER 1 celebrities optimized (10 pages)
+- [x] Internal linking done - see `/docs/BLOG-CROSSLINK-INDEX.md`
 
 ---
 

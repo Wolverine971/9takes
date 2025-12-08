@@ -57,7 +57,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Ariana-Grande', link: true, hasImage: true, lastmod: '2025-12-03' },
 		{ name: 'Arnold-Schwarzenegger', link: true, hasImage: true, lastmod: '2025-04-08' },
 		{ name: 'Drake', link: true, hasImage: true, lastmod: '2025-06-25' },
-		{ name: 'Dua-Lipa', link: true, hasImage: true, lastmod: '2025-03-15' },
+		{ name: 'Dua-Lipa', link: true, hasImage: true, lastmod: '2025-12-07' },
 		{ name: 'Dwayne-Johnson', link: true, hasImage: true, lastmod: '2025-04-08' },
 		{ name: 'Hailey-Bieber', link: true, hasImage: true, lastmod: '2025-12-03' },
 		{ name: 'Jake-Paul', link: true, hasImage: true, lastmod: '2025-04-10' },

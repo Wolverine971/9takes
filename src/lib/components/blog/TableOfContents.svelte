@@ -659,7 +659,12 @@
 
 <style lang="scss">
 	.toc-sidebar {
-		@extend .card-base !optional;
+		/* Card base styles */
+		background-color: var(--card-background);
+		border-radius: var(--border-radius-lg);
+		box-shadow: var(--shadow-sm);
+		border: 1px solid var(--border-color);
+
 		position: fixed;
 		top: 50%;
 		transform: translateY(-50%);
@@ -667,12 +672,12 @@
 		font-size: var(--font-size-sm);
 		line-height: var(--line-height-tight);
 		max-width: 14rem;
-		z-index: 30; // Higher z-index to avoid conflicts with other sidebars
+		z-index: 30;
 		max-height: 70vh;
 		overflow-y: auto;
 		overflow-x: hidden;
 
-		// Custom scrollbar
+		/* Custom scrollbar */
 		&::-webkit-scrollbar {
 			width: 6px;
 		}
@@ -692,34 +697,42 @@
 
 		nav {
 			width: 100%;
-			padding: 0.5rem;
+			padding: 0.75rem;
 		}
 	}
 
 	.toc-title {
-		margin: 0 0 0.5rem 0;
-		padding: 0;
+		margin: 0 0 0.75rem 0;
+		padding: 0 0 0.5rem 0;
 		font-size: var(--font-size-base);
 		font-weight: var(--font-weight-semibold);
 		color: var(--text-primary);
+		border-bottom: 1px solid var(--border-color);
 	}
 
 	.toc-accordion {
-		@extend .card-base !optional;
+		/* Card base styles */
+		background-color: var(--card-background);
+		border-radius: var(--border-radius-lg);
+		box-shadow: var(--shadow-sm);
+		border: 1px solid var(--border-color);
+
 		margin: 1.5rem 0;
-		background-color: var(--neutral-50);
 		overflow: hidden;
 	}
 
 	.toc-summary {
 		font-weight: var(--font-weight-semibold);
 		font-size: var(--font-size-lg);
-		padding: 1rem;
+		padding: 1rem 1.25rem;
 		cursor: pointer;
-		display: block;
+		display: flex;
+		align-items: center;
 		outline: none;
 		color: var(--text-primary);
+		background-color: var(--neutral-50);
 		transition: var(--transition-base);
+		border-bottom: 1px solid var(--border-color);
 
 		&::-webkit-details-marker {
 			display: none;
@@ -728,22 +741,26 @@
 		&::before {
 			content: '▶';
 			display: inline-block;
-			margin-right: 0.5rem;
+			margin-right: 0.75rem;
 			font-size: var(--font-size-sm);
 			transition: var(--transition-base);
+			color: var(--primary);
 		}
 
 		&:hover {
 			color: var(--primary);
-		}
-
-		:global(details[open]) > &::before {
-			transform: rotate(90deg);
+			background-color: var(--accent-light);
 		}
 	}
 
+	/* Rotate arrow when open */
+	:global(details[open]) .toc-summary::before {
+		transform: rotate(90deg);
+	}
+
 	.toc-accordion-content {
-		padding: 0 1rem 1rem;
+		padding: 1rem 1.25rem;
+		background-color: var(--card-background);
 	}
 
 	/* Global styles for ToC elements */
@@ -758,12 +775,14 @@
 	}
 
 	:global(.toc-sublist) {
-		padding-left: 0.75rem;
+		padding-left: 1rem;
 		margin-top: 0.25rem;
+		border-left: 2px solid var(--border-color);
+		margin-left: 0.5rem;
 	}
 
 	:global(.toc-item) {
-		margin-bottom: 0.25rem;
+		margin-bottom: 0.35rem;
 		width: 100%;
 		max-width: 100%;
 		position: relative;
@@ -788,7 +807,7 @@
 	:global(.toc-level-h3) {
 		padding-left: 0.25rem;
 		padding-right: 4px;
-		font-size: var(--font-size-xs);
+		font-size: var(--font-size-sm);
 		opacity: 0.9;
 	}
 
@@ -817,17 +836,28 @@
 	}
 
 	:global(.toc-link) {
-		@extend .link-subtle !optional;
 		display: block !important;
 		width: 100%;
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;
+		padding: 0.35rem 0.5rem;
 		padding-right: 8px;
 		box-sizing: border-box;
 		font-size: var(--font-size-sm);
 		line-height: var(--line-height-relaxed);
+		color: var(--text-secondary);
+		text-decoration: none;
+		border-radius: var(--border-radius-sm);
+		transition: var(--transition-base);
 
+		&:hover {
+			color: var(--primary);
+			background-color: var(--accent-light);
+			text-decoration: none;
+		}
+
+		/* Hide the arrow that blog adds to links */
 		&::after {
 			content: none !important;
 			display: none !important;
@@ -837,12 +867,34 @@
 	:global(.toc-link.active) {
 		font-weight: var(--font-weight-semibold);
 		color: var(--primary-dark);
+		background-color: var(--accent-light);
 	}
 
 	/* Responsive adjustments */
 	@media (max-width: 1200px) {
 		.toc-sidebar {
 			display: none;
+		}
+	}
+
+	/* Mobile accordion improvements */
+	@media (max-width: 768px) {
+		.toc-accordion {
+			margin: 1rem 0;
+		}
+
+		.toc-summary {
+			padding: 0.875rem 1rem;
+			font-size: var(--font-size-base);
+		}
+
+		.toc-accordion-content {
+			padding: 0.875rem 1rem;
+		}
+
+		:global(.toc-link) {
+			padding: 0.5rem;
+			font-size: var(--font-size-sm);
 		}
 	}
 </style>
