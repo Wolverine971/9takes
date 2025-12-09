@@ -26,14 +26,15 @@
 		{ tag: 'BlogPurpose', component: BlogPurpose }
 	];
 
-	let post = data.post;
 	let mounted = false;
-
-	let comments = data.comments;
-	let userHasAnswered = data.flags.userHasAnswered;
 	let commentsLoaded = false;
 	let commentsVisible = false;
 	let currentPath = '';
+
+	// Use direct reactive assignments to ensure updates on navigation
+	$: post = data.post;
+	$: comments = data.comments;
+	$: userHasAnswered = data.flags.userHasAnswered;
 
 	// Table of Contents support
 	const contentStore = writable('');
@@ -115,28 +116,15 @@
 		});
 	}
 
-	// Update page data when data prop changes
-	$: if (data && mounted) {
-		updatePageData();
-	}
-
 	// Reset state when navigating to a new page
 	function resetPageState() {
 		commentsLoaded = false;
 		commentsVisible = false;
-		updatePageData();
 
 		// Re-setup page after DOM updates
 		tick().then(() => {
 			setupPage();
 		});
-	}
-
-	// Update local state from props
-	function updatePageData() {
-		post = data.post;
-		comments = data.comments;
-		userHasAnswered = data.flags.userHasAnswered;
 	}
 
 	let commentsObserver: IntersectionObserver;
@@ -303,15 +291,17 @@
 />
 <!-- Sidebar components - positioned absolutely -->
 <div class="sidebar-container">
-	{#if post.suggestions?.length}
-		<PeopleSuggestionsSideBar links={post.suggestions} />
-	{/if}
+	{#key post.slug}
+		{#if post.suggestions?.length}
+			<PeopleSuggestionsSideBar links={post.suggestions} />
+		{/if}
 
-	{#if !data?.user && EnneagramCTASidebar}
-		<!-- Uncomment when ready to use
-			<EnneagramCTASidebar />
-			-->
-	{/if}
+		{#if !data?.user && EnneagramCTASidebar}
+			<!-- Uncomment when ready to use
+				<EnneagramCTASidebar />
+				-->
+		{/if}
+	{/key}
 </div>
 
 <!-- Comments section - lazy loaded -->
@@ -345,17 +335,21 @@
 
 <!-- Related posts - lazy loaded after main content -->
 <section id="related-content">
-	<RelatedPosts
-		slug={data.slug}
-		postType={post.type?.[0] || ''}
-		enneagramType={post.enneagram?.toString() || null}
-	/>
+	{#key post.slug}
+		<RelatedPosts
+			slug={data.slug}
+			postType={post.type?.[0] || ''}
+			enneagramType={post.enneagram?.toString() || null}
+		/>
+	{/key}
 </section>
 
 <div class="join">
-	{#if !data?.user && SuggestFamousPerson}
-		<SuggestFamousPerson />
-	{/if}
+	{#key post.slug}
+		{#if !data?.user && SuggestFamousPerson}
+			<SuggestFamousPerson />
+		{/if}
+	{/key}
 </div>
 
 <style lang="scss">
@@ -438,14 +432,9 @@
 		}
 	}
 
+	/* Sidebar container - PeopleSuggestionsSideBar handles its own fixed positioning */
 	.sidebar-container {
-		@include tablet-up {
-			position: fixed;
-			top: 20%;
-			right: 20px;
-			max-width: 250px;
-			z-index: 100;
-		}
+		display: contents; /* Pass through to let component handle positioning */
 	}
 
 	.section-divider {

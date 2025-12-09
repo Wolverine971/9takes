@@ -75,6 +75,7 @@
 
 		h2 {
 			margin-top: 0;
+			margin-bottom: 1.5rem;
 		}
 	}
 
@@ -82,23 +83,28 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		gap: 0.75rem;
+		max-width: 300px;
+		margin: 0 auto;
 
 		input,
 		button {
 			width: 100%;
-			max-width: 300px;
-			margin-bottom: 10px;
-			padding: 10px;
+			padding: 0.75rem 1rem;
 			border-radius: var(--base-border-radius);
 			border: var(--classic-border);
+			font-size: 1rem;
 		}
 
 		button {
-			padding: 10px 20px;
 			cursor: pointer;
 			color: var(--primary);
-			border: 1px solid;
-			width: 155px;
+			background: transparent;
+			transition: opacity 0.2s ease;
+
+			&:hover:not(.disabled) {
+				opacity: 0.8;
+			}
 
 			&.disabled {
 				opacity: 0.5;
@@ -107,39 +113,41 @@
 		}
 	}
 
+	.error {
+		color: #dc2626;
+		margin-top: 0.5rem;
+		font-size: 0.875rem;
+	}
+
 	@media only screen and (min-width: 768px) {
 		.waitlist-form {
-			max-width: 500px;
-			margin: 0 auto;
-
-			input {
-				max-width: 400px;
-			}
+			max-width: 400px;
 		}
 	}
 
 	@media only screen and (min-width: 992px) {
-		.waitlist-section {
-			display: flex;
-			justify-content: center;
-			flex-direction: column;
-		}
-
 		.waitlist-form {
-			max-width: 600px;
-			margin: 0 auto;
 			flex-direction: row;
-			align-items: center;
+			flex-wrap: wrap;
+			justify-content: center;
+			max-width: 700px;
+			gap: 0.75rem;
 
 			input {
-				margin-right: 10px;
-				margin-bottom: 0;
+				flex: 1 1 200px;
+				max-width: 250px;
+			}
+
+			button {
+				flex: 0 0 auto;
+				width: auto;
+				padding: 0.75rem 1.5rem;
 			}
 		}
 	}
 
 	::placeholder {
 		color: var(--primary);
-		opacity: 1;
+		opacity: 0.7;
 	}
 </style>

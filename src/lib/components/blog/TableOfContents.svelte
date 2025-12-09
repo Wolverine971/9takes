@@ -11,8 +11,8 @@
 	// Configuration options with defaults
 	export let showAtScrollY: number = 1000;
 	export let hideBeforeBottom: number = 300;
-	export let sidebarWidth: number = 220; // Increased width to accommodate longer text
-	export let desktopBreakpoint: number = 1200;
+	export let sidebarWidth: number = 200; // Width for sidebar TOC
+	export let desktopBreakpoint: number = 1300; // Breakpoint needs enough space for content + sidebar
 	export let maxTocEntries: number = 24;
 	export let title: string = 'Table of Contents';
 	export let sidePosition: 'left' | 'right' | 'none' = 'left'; // New prop to control side position
@@ -63,18 +63,20 @@
 		visible && toc !== '' && windowWidth >= desktopBreakpoint && sidebarPosition !== null;
 
 	function calculateSidebarPosition(winWidth: number, contentW: number, sidebarW: number) {
-		// Main content has max-width of 56rem (896px)
+		// Main content has max-width of 56rem (896px) from Tailwind's max-w-4xl
 		const maxContentWidth = 56 * 16; // 896px
 		const actualContentWidth = Math.min(contentW, maxContentWidth);
+		const gap = 20; // Gap between content and sidebar
+		const minEdgeMargin = 12; // Minimum margin from screen edge
 
 		if (sidePosition === 'left') {
 			// Calculate the left position relative to the main content column
-			const mainContentLeft = Math.max((winWidth - actualContentWidth) / 2, 16); // Minimum 16px from edge
-			const sidebarLeft = mainContentLeft - sidebarW - 24; // 24px gap from main content
+			const mainContentLeft = Math.max((winWidth - actualContentWidth) / 2, minEdgeMargin);
+			const sidebarLeft = mainContentLeft - sidebarW - gap;
 
-			// If sidebar would be positioned less than 16px from left edge, hide it
-			if (sidebarLeft < 16) {
-				return null; // Will cause sidebar to hide
+			// If sidebar would be positioned less than minEdgeMargin from left edge, hide it
+			if (sidebarLeft < minEdgeMargin) {
+				return null;
 			}
 
 			return {
@@ -86,20 +88,20 @@
 			const mainContentLeft = (winWidth - actualContentWidth) / 2;
 			const mainContentRight = mainContentLeft + actualContentWidth;
 
-			// Position sidebar to the right of main content with 24px gap
-			const sidebarLeft = mainContentRight + 24;
+			// Position sidebar to the right of main content with gap
+			const sidebarLeft = mainContentRight + gap;
 
 			// Check if there's enough space for the sidebar on the right
-			if (sidebarLeft + sidebarW > winWidth - 16) {
-				return null; // Will cause sidebar to hide
+			if (sidebarLeft + sidebarW > winWidth - minEdgeMargin) {
+				return null;
 			}
 
-			// Calculate distance from right edge
+			// Calculate distance from right edge for CSS positioning
 			const rightPosition = winWidth - sidebarLeft - sidebarW;
 
 			return {
 				left: undefined,
-				right: `${rightPosition}px`
+				right: `${Math.max(rightPosition, minEdgeMargin)}px`
 			};
 		}
 	}
@@ -668,11 +670,11 @@
 		position: fixed;
 		top: 50%;
 		transform: translateY(-50%);
-		width: 220px;
+		width: 200px;
 		font-size: var(--font-size-sm);
 		line-height: var(--line-height-tight);
-		max-width: 14rem;
-		z-index: 30;
+		max-width: 200px;
+		z-index: 50;
 		max-height: 70vh;
 		overflow-y: auto;
 		overflow-x: hidden;
@@ -870,8 +872,8 @@
 		background-color: var(--accent-light);
 	}
 
-	/* Responsive adjustments */
-	@media (max-width: 1200px) {
+	/* Responsive adjustments - hide sidebar on screens smaller than breakpoint */
+	@media (max-width: 1299px) {
 		.toc-sidebar {
 			display: none;
 		}
