@@ -70,7 +70,8 @@
 			"Bash(/tmp/dua_lipa_content.json)",
 			"Bash(iconv:*)",
 			"Bash(cut:*)",
-			"Bash(sort:*)"
+			"Bash(sort:*)",
+			"WebFetch(domain:time.com)"
 		],
 		"deny": [],
 		"ask": [],

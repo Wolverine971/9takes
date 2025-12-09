@@ -916,7 +916,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-        <image:loc>https://9takes.com/blogs/person-oversharing-conversation.webp</image:loc>
+        <image:loc>https://9takes.com/blogs/cafe-oversharing-conversation.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1577,15 +1577,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Kristen-Bell</loc>
-    <lastmod>2025-03-27T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/2s/Kristen-Bell.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Saoirse-Ronan</loc>
     <lastmod>2025-03-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1628,15 +1619,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Bernie-Sanders.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Dave-Portnoy</loc>
-    <lastmod>2025-04-07T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Dave-Portnoy.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1799,15 +1781,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Queen-Elizabeth-II.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Scarlett-Johansson</loc>
-    <lastmod>2025-04-08T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/9s/Scarlett-Johansson.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2540,6 +2513,24 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Bobbi-Althoff</loc>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Bobbi-Althoff.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Dave-Portnoy</loc>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Dave-Portnoy.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Drake</loc>
     <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2621,6 +2612,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Kristen-Bell</loc>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/2s/Kristen-Bell.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Nikola-Tesla</loc>
     <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2636,6 +2636,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Ryan-Gosling.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Scarlett-Johansson</loc>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Scarlett-Johansson.webp</image:loc>
     </image:image>
 </url>
 <url>
