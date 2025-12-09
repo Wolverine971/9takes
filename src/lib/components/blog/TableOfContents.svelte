@@ -119,8 +119,8 @@
 		const tempDiv = document.createElement('div');
 		tempDiv.innerHTML = html;
 
-		// Find all headers H1-H6
-		const allHeaders = [...tempDiv.querySelectorAll('h1, h2, h3, h4, h5, h6')].filter(
+		// Find all headers H2-H6 (skip h1 as it's the page title above the TOC)
+		const allHeaders = [...tempDiv.querySelectorAll('h2, h3, h4, h5, h6')].filter(
 			(heading) => heading.textContent?.trim() !== title
 		);
 
@@ -697,13 +697,13 @@
 
 		nav {
 			width: 100%;
-			padding: 0.75rem;
+			padding: 0.5rem;
 		}
 	}
 
 	.toc-title {
-		margin: 0 0 0.75rem 0;
-		padding: 0 0 0.5rem 0;
+		margin: 0 0 0.5rem 0;
+		padding: 0 0 0.35rem 0;
 		font-size: var(--font-size-base);
 		font-weight: var(--font-weight-semibold);
 		color: var(--text-primary);
@@ -717,14 +717,14 @@
 		box-shadow: var(--shadow-sm);
 		border: 1px solid var(--border-color);
 
-		margin: 1.5rem 0;
+		margin: 1rem 0;
 		overflow: hidden;
 	}
 
 	.toc-summary {
 		font-weight: var(--font-weight-semibold);
-		font-size: var(--font-size-lg);
-		padding: 1rem 1.25rem;
+		font-size: var(--font-size-base);
+		padding: 0.625rem 1rem;
 		cursor: pointer;
 		display: flex;
 		align-items: center;
@@ -741,8 +741,8 @@
 		&::before {
 			content: '▶';
 			display: inline-block;
-			margin-right: 0.75rem;
-			font-size: var(--font-size-sm);
+			margin-right: 0.5rem;
+			font-size: var(--font-size-xs);
 			transition: var(--transition-base);
 			color: var(--primary);
 		}
@@ -759,7 +759,7 @@
 	}
 
 	.toc-accordion-content {
-		padding: 1rem 1.25rem;
+		padding: 0.625rem 1rem;
 		background-color: var(--card-background);
 	}
 
@@ -775,14 +775,14 @@
 	}
 
 	:global(.toc-sublist) {
-		padding-left: 1rem;
-		margin-top: 0.25rem;
+		padding-left: 0.75rem;
+		margin-top: 0.125rem;
 		border-left: 2px solid var(--border-color);
-		margin-left: 0.5rem;
+		margin-left: 0.35rem;
 	}
 
 	:global(.toc-item) {
-		margin-bottom: 0.35rem;
+		margin-bottom: 0.125rem;
 		width: 100%;
 		max-width: 100%;
 		position: relative;
@@ -790,15 +790,15 @@
 
 	:global(.toc-level-h1) {
 		padding-left: 0;
-		margin-top: 0.75rem;
+		margin-top: 0.5rem;
 		padding-right: 4px;
 		font-weight: var(--font-weight-bold);
-		font-size: var(--font-size-base);
+		font-size: var(--font-size-sm);
 	}
 
 	:global(.toc-level-h2) {
 		padding-left: 0;
-		margin-top: 0.5rem;
+		margin-top: 0.25rem;
 		padding-right: 4px;
 		font-weight: var(--font-weight-semibold);
 		font-size: var(--font-size-sm);
@@ -807,7 +807,7 @@
 	:global(.toc-level-h3) {
 		padding-left: 0.25rem;
 		padding-right: 4px;
-		font-size: var(--font-size-sm);
+		font-size: var(--font-size-xs);
 		opacity: 0.9;
 	}
 
@@ -841,11 +841,11 @@
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;
-		padding: 0.35rem 0.5rem;
+		padding: 0.2rem 0.4rem;
 		padding-right: 8px;
 		box-sizing: border-box;
 		font-size: var(--font-size-sm);
-		line-height: var(--line-height-relaxed);
+		line-height: var(--line-height-tight);
 		color: var(--text-secondary);
 		text-decoration: none;
 		border-radius: var(--border-radius-sm);
@@ -880,21 +880,21 @@
 	/* Mobile accordion improvements */
 	@media (max-width: 768px) {
 		.toc-accordion {
-			margin: 1rem 0;
+			margin: 0.75rem 0;
 		}
 
 		.toc-summary {
-			padding: 0.875rem 1rem;
-			font-size: var(--font-size-base);
+			padding: 0.5rem 0.75rem;
+			font-size: var(--font-size-sm);
 		}
 
 		.toc-accordion-content {
-			padding: 0.875rem 1rem;
+			padding: 0.5rem 0.75rem;
 		}
 
 		:global(.toc-link) {
-			padding: 0.5rem;
-			font-size: var(--font-size-sm);
+			padding: 0.2rem 0.35rem;
+			font-size: var(--font-size-xs);
 		}
 	}
 </style>

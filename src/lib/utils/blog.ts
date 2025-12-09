@@ -10,8 +10,8 @@ function processMdsvexModule(path: string, resolver: App.MdsvexResolver) {
 			...metadata,
 			slug: slugFromPath(path),
 			path,
-			rssDate: buildRFC822Date(metadata.date),
-			rssUpdateDate: buildRFC822Date(metadata.lastmod)
+			rssDate: buildRFC822Date(metadata?.date),
+			rssUpdateDate: buildRFC822Date(metadata?.lastmod)
 		};
 	});
 }
@@ -89,7 +89,7 @@ export const getBlogPosts = async (): Promise<App.BlogPost[]> => {
 	// Combine all posts
 	const allPosts = [...enneagramPosts, ...communityPosts]
 		.filter((post) => post?.published)
-		.sort((a, b) => (a.date < b.date ? 1 : -1));
+		.sort((a, b) => (a?.date < b?.date ? 1 : -1));
 
 	return allPosts;
 };

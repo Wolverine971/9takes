@@ -1247,7 +1247,7 @@ Research suggests wings may correspond to:
 
 ### Wing and Trauma
 
-Growing understanding of how trauma affects wing development ties into broader [Enneagram trauma response patterns](/enneagram-corner/enneagram-and-trauma-responses):
+Growing understanding of how trauma affects wing development ties into broader [Enneagram trauma response patterns](/enneagram-corner/mental-health/enneagram-trauma-response-guide):
 
 - Childhood trauma can suppress wing development
 - Healing allows natural wing expression to emerge

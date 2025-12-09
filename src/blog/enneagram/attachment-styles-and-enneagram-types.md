@@ -104,7 +104,7 @@ Attachment theory, developed by John Bowlby and Mary Ainsworth, reveals four pri
 
 - Alternates between anxious and avoidant
 - Chaotic, unpredictable relationship patterns
-- Often stems from [trauma or inconsistent caregiving](/enneagram-corner/enneagram-and-trauma-responses)
+- Often stems from [trauma or inconsistent caregiving](/enneagram-corner/mental-health/enneagram-trauma-response-guide)
 - Struggles with emotional regulation
 
 But here's what traditional attachment theory misses: **It can't explain why people with the same attachment style behave so differently in relationships.**

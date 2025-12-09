@@ -489,7 +489,7 @@ Manipulation often started as survival. But you're not a child anymore. You can 
 
 Everyone manipulates sometimes. That's human.
 
-**But manipulation crosses into abuse when it becomes pathological**—when it overlaps with [dark triad personality traits](/enneagram-corner/dark-triad-meets-enneagram) like narcissism, psychopathy, and Machiavellianism.
+**But manipulation crosses into abuse when it becomes pathological**—when it overlaps with [dark triad personality traits](/pop-culture/dark-triad-meets-enneagram) like narcissism, psychopathy, and Machiavellianism.
 
 **Manipulation crosses into abuse when:**
 

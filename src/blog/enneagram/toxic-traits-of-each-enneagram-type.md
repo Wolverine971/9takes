@@ -51,7 +51,7 @@ We each carry emotional baggage that shapes our behavior in ways we don't fully 
 
 Understanding these toxic tendencies isn't about pointing fingers. It's about shining a light on the parts of ourselves we'd rather keep hidden.
 
-The Enneagram offers a powerful framework for this self-examination. Each type has specific shadow aspects – predictable patterns that emerge when they're stressed, insecure, or threatened. (When these patterns become extreme and persistent, they can even overlap with [dark triad personality traits](/enneagram-corner/dark-triad-meets-enneagram).)
+The Enneagram offers a powerful framework for this self-examination. Each type has specific shadow aspects – predictable patterns that emerge when they're stressed, insecure, or threatened. (When these patterns become extreme and persistent, they can even overlap with [dark triad personality traits](/pop-culture/dark-triad-meets-enneagram).)
 
 Let's rip off the band-aid and explore what makes each type potentially unbearable.
 

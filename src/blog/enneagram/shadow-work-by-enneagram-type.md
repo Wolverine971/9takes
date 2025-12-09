@@ -67,7 +67,7 @@ But here's the crucial insight Jung discovered: **What you resist persists—and
 
 - Positive qualities you've never cultivated
 - Talents and abilities you've ignored or dismissed
-- Growth edges you avoid because they feel risky (often shaped by early [trauma responses](/enneagram-corner/enneagram-and-trauma-responses))
+- Growth edges you avoid because they feel risky (often shaped by early [trauma responses](/enneagram-corner/mental-health/enneagram-trauma-response-guide))
 
 **3. Projection Patterns**
 
