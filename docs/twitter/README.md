@@ -1,7 +1,7 @@
 ---
 title: 'Twitter Documentation Hub'
 description: 'Central index for all Twitter/X strategy, content, and execution docs'
-last_modified: 2025-12-05
+last_modified: 2025-12-09
 status: active
 category: hub
 path: docs/twitter/README.md
@@ -56,13 +56,14 @@ path: docs/twitter/README.md
 
 ## Content Pillars
 
-| Pillar             | %   | Description                                  | Example Hook                                  |
-| ------------------ | --- | -------------------------------------------- | --------------------------------------------- |
-| **Shadow Content** | 30% | Dark patterns, manipulation, self-sabotage   | "How each type ruins their own relationships" |
-| **Mental Health**  | 25% | Anxiety, depression, overthinking by type    | "Why 'just stop overthinking' doesn't work"   |
-| **MBTI Bridge**    | 20% | Quote-tweet viral MBTI with Enneagram roasts | "INTJ is a costume. Half of you are 5s..."    |
-| **Relationships**  | 15% | Dating, red flags, communication             | "Why Type 2s and 8s keep finding each other"  |
-| **9 Takes**        | 10% | Same situation, 9 reactions (SIGNATURE)      | "Your friend cancels. 9 types. 9 reactions."  |
+| Pillar               | %   | Description                                  | Example Hook                                                |
+| -------------------- | --- | -------------------------------------------- | ----------------------------------------------------------- |
+| **Shadow Content**   | 25% | Dark patterns, manipulation, self-sabotage   | "How each type ruins their own relationships"               |
+| **Mental Health**    | 20% | Anxiety, depression, overthinking by type    | "Why 'just stop overthinking' doesn't work"                 |
+| **MBTI Bridge**      | 15% | Quote-tweet viral MBTI with Enneagram roasts | "INTJ is a costume. Half of you are 5s..."                  |
+| **Childhood Wounds** | 15% | Inner child, reparenting, trauma by type     | "The sentence you heard as a child that still controls you" |
+| **Relationships**    | 15% | Dating, red flags, communication             | "Why Type 2s and 8s keep finding each other"                |
+| **9 Takes**          | 10% | Same situation, 9 reactions (SIGNATURE)      | "Your friend cancels. 9 types. 9 reactions."                |
 
 ---
 
@@ -94,13 +95,14 @@ path: docs/twitter/README.md
 
 | Doc                                                                   | Pillar                 | Topics                                          |
 | --------------------------------------------------------------------- | ---------------------- | ----------------------------------------------- |
-| [MBTI Bridge](./content-ideas/mbti-bridge.md)                         | MBTI Bridge (20%)      | Quote-tweet viral MBTI with Enneagram depth     |
+| [MBTI Bridge](./content-ideas/mbti-bridge.md)                         | MBTI Bridge (15%)      | Quote-tweet viral MBTI with Enneagram depth     |
+| [Childhood Wounds](./content-ideas/childhood-wounds.md)               | Childhood Wounds (15%) | Inner child, reparenting, trauma patterns       |
 | [9 Takes](./content-ideas/9-takes.md)                                 | 9 Takes (10%)          | Signature format: same situation, 9 reactions   |
 | [Love Languages](./content-ideas/love-languages.md)                   | Relationships (15%)    | Dating, red flags, relationship sabotage        |
 | [Workplace](./content-ideas/workplace.md)                             | Shadow + Mental Health | Procrastination, meetings, career self-sabotage |
-| [Neurodiversity](./content-ideas/neurodiversity.md)                   | Mental Health (25%)    | ADHD, autism, anxiety by type                   |
-| [Neurodiversity Hot Take](./content-ideas/neurodiversity-hot-take.md) | Shadow (30%)           | TikTok diagnosis vs depth (controversial)       |
-| [Social Media](./content-ideas/social-media.md)                       | Shadow (30%)           | Platform addiction, digital behavior            |
+| [Neurodiversity](./content-ideas/neurodiversity.md)                   | Mental Health (20%)    | ADHD, autism, anxiety by type                   |
+| [Neurodiversity Hot Take](./content-ideas/neurodiversity-hot-take.md) | Shadow (25%)           | TikTok diagnosis vs depth (controversial)       |
+| [Social Media](./content-ideas/social-media.md)                       | Shadow (25%)           | Platform addiction, digital behavior            |
 
 ### Strategy
 
@@ -191,4 +193,4 @@ The `/twitter` command helps with:
 
 ---
 
-_Last updated: December 5, 2025_
+_Last updated: December 9, 2025_

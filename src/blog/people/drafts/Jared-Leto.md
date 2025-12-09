@@ -1,22 +1,23 @@
 ---
-title: "Jared Leto: Method Acting, 30 Seconds to Mars & Type 4 Psychology of Transformation"
+title: 'Jared Leto: Method Acting, 30 Seconds to Mars & Type 4 Psychology of Transformation'
 meta_title: "Inside Jared Leto's Mind: Why He Can't Stop Transforming"
 description: "Explore how Jared Leto's Enneagram Type 4 personality drives his transformative acting, music career, and relentless pursuit of impossible challenges."
-author: "DJ Wayne"
-date: "2025-03-10"
-loc: "https://9takes.com/personality-analysis/Jared-Leto"
-lastmod: "2025-12-09"
-changefreq: "monthly"
-priority: "0.6"
+author: 'DJ Wayne'
+date: '2025-03-10'
+loc: 'https://9takes.com/personality-analysis/Jared-Leto'
+lastmod: '2025-12-09'
+changefreq: 'monthly'
+priority: '0.6'
 published: true
-enneagram: "4"
-type: ["musician"]
-person: "Jared-Leto"
-suggestions: ["Joaquin-Phoenix", "Johnny-Depp", "Lady-Gaga", "Bob-Dylan"]
-wikipedia: "https://en.wikipedia.org/wiki/Jared_Leto"
-twitter: "JaredLeto"
-instagram: "jaredleto"
-tiktok: "jaredleto"
+enneagram: '4'
+type: ['musician']
+person: 'Jared-Leto'
+suggestions: ['Joaquin-Phoenix', 'Johnny-Depp', 'Lady-Gaga', 'Bob-Dylan']
+wikipedia: 'https://en.wikipedia.org/wiki/Jared_Leto'
+twitter: 'JaredLeto'
+instagram: 'jaredleto'
+tiktok: 'jaredleto'
+path: src/blog/people/drafts/Jared-Leto.md
 ---
 
 > "I've always approached things with hunger and just enough fear. Plenty of confidence, you know, but just enough fear to work extra hard. Paralyzing fear does nothing, but the kind of fear that makes you nervous enough to really be aware and focused? I think that's good." — Jared Leto

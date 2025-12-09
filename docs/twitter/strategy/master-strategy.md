@@ -1,7 +1,7 @@
 ---
 title: 'X/Twitter Growth Strategy 2025'
 description: 'Comprehensive growth strategy and frameworks for building 9takes authority on X'
-last_modified: 2025-12-05
+last_modified: 2025-12-09
 status: active
 category: strategy
 related:
@@ -140,20 +140,23 @@ Build recognition through consistent language patterns:
 
 ## Part 2: Content Pillars
 
-**Updated Distribution (incorporating bridge strategy):**
+**Updated Distribution (incorporating bridge strategy + childhood wounds):**
 | Pillar | % of Posts | Purpose |
 |--------|------------|---------|
-| Shadow Content | 30% | Core engagement driver |
-| Mental Health + Personality | 25% | Traffic driver |
-| MBTI Bridge Roasts | 20% | **NEW** — Growth driver (brings outsiders in) |
+| Shadow Content | 25% | Core engagement driver |
+| Mental Health + Personality | 20% | Traffic driver |
+| MBTI Bridge Roasts | 15% | Growth driver (brings outsiders in) |
+| **Childhood Wounds** | **15%** | **NEW** — Therapy-speak bridge (trending topic) |
 | Relationship Reality | 15% | Shareable content |
 | "One Situation, 9 Takes" | 10% | Signature differentiator |
 
 **Bridge Content = 70% of growth.** The existing choir will find you. Your job is to attack outsiders until they feel seen.
 
+**Childhood Wounds = Trending goldmine.** Inner child content is exploding on TikTok/Instagram. The Enneagram nails this better than any system—use it.
+
 ---
 
-### Pillar 1: Shadow Content (30% of posts)
+### Pillar 1: Shadow Content (25% of posts)
 
 **What it is:** The uncomfortable truths about each type—manipulation, self-sabotage, toxic patterns, why relationships fail.
 
@@ -189,7 +192,7 @@ How each type self-sabotages success:
 Which one hit you?
 ```
 
-### Pillar 2: Mental Health + Personality (30% of posts)
+### Pillar 2: Mental Health + Personality (20% of posts)
 
 **What it is:** Connecting anxiety, depression, ADHD, overthinking to personality patterns. Your proven traffic winner.
 
@@ -222,7 +225,7 @@ But the root is different:
 Treatment that ignores the difference fails.
 ```
 
-### Pillar 3: Relationship Reality (20% of posts)
+### Pillar 3: Relationship Reality (15% of posts)
 
 **What it is:** Dating red flags, communication breakdowns, why you keep attracting the same problems.
 
@@ -259,7 +262,7 @@ The fix isn't finding a different type.
 It's healing what makes the pattern feel like home.
 ```
 
-### Pillar 4: MBTI Bridge Roasts (15% of posts) — NEW
+### Pillar 4: MBTI Bridge Roasts (15% of posts)
 
 **What it is:** Quote-tweeting viral MBTI content with savage Enneagram translations. The goal: make MBTI people feel _attacked_ by something they didn't know existed.
 
@@ -332,6 +335,84 @@ That's not a thought experiment. That's a core wound.
 
 ---
 
+### Pillar 5: Childhood Wounds (15% of posts) — NEW
+
+**What it is:** Inner child healing, reparenting, childhood trauma patterns—all through the Enneagram lens. Bridging therapy-speak trends with type-specific precision.
+
+**Why it works:** "Inner child" and "reparenting" content is exploding. TikTok hashtags like #innerchildhealing have billions of views. Dr. Nicole LePera (@theholisticpsychologist) has 12M+ followers doing this content. The Enneagram nails childhood wounds better than almost any system—this is your competitive edge.
+
+**The formula:** Generic therapy-speak + Enneagram specificity = feeling personally attacked (in a good way)
+
+**Key influencers to engage:**
+
+- @theholisticpsychologist (Dr. Nicole LePera) — 12M+ followers, inner child expert
+- @drmarielbuque — Intergenerational trauma specialist
+- @nedratawwab — Boundaries and family systems
+- @the.secure.attachment — Attachment wound content
+
+**Post examples:**
+
+```
+The sentence you heard as a child that still controls you:
+
+Type 1: "We love you, but can you do it correctly?"
+Type 2: "I don't need anything, go play."
+Type 3: "Wow, look at [sibling] go!"
+Type 4: "Why can't you just be normal?"
+Type 5: "You're so sensitive. Toughen up."
+Type 6: "You can't trust anyone but family."
+Type 7: "Stop crying. Look on the bright side."
+Type 8: "You have to be strong or they'll eat you alive."
+Type 9: "Don't make waves. Keep the peace."
+
+If one of these just punched you in the chest, I'm sorry.
+
+But now you know where it came from.
+```
+
+```
+Type 2s weren't born people-pleasers.
+
+They learned that their needs made them unlovable.
+
+So they became indispensable instead.
+
+"If I give enough, they can't leave."
+
+That's not generosity. That's a survival strategy from childhood.
+
+And it's exhausting you.
+```
+
+```
+What your inner child actually needs to hear:
+
+Type 1: "You're allowed to make mistakes."
+Type 2: "Your needs matter too."
+Type 3: "You're loved for who you are, not what you do."
+Type 4: "You're not too much. You're not too little."
+Type 5: "You have enough. You are enough."
+Type 6: "You can trust yourself."
+Type 7: "It's safe to feel this."
+Type 8: "It's safe to be soft."
+Type 9: "Your voice matters."
+
+The sentence your parents couldn't give you.
+
+Can you give it to yourself?
+```
+
+**Posting strategy:**
+
+- 2-3 childhood wounds posts per week
+- Quote-tweet viral therapy/inner child content and add Enneagram specificity
+- Best days: Tuesday, Thursday evenings, Sunday mornings (reflection time)
+- Hashtags to piggyback: #innerchild #innerchildhealing #reparenting #childhoodtrauma
+
+> **Full content bank:** See [`/docs/twitter/content-ideas/childhood-wounds.md`](../content-ideas/childhood-wounds.md)
+
+---
+
 ### Secondary Bridge Tactics (Layer onto any pillar)
 
 **Astrology Bridge:**
@@ -377,25 +458,8 @@ Which one made you uncomfortable?
 ```
 
 **Childhood Wounds Bridge:**
-Therapy-speak is everywhere on X. Enneagram nails childhood wounds better than almost any system.
 
-```
-The sentence you heard as a child that still controls you:
-
-Type 1: "We love you, but can you do it correctly?"
-Type 2: "I don't need anything, go play."
-Type 3: "Wow, look at [sibling] go!"
-Type 4: "Why can't you just be normal?"
-Type 5: "You're so sensitive. Toughen up."
-Type 6: "You can't trust anyone but family."
-Type 7: "Stop crying. Look on the bright side."
-Type 8: "You have to be strong or they'll eat you alive."
-Type 9: "Don't make waves. Keep the peace."
-
-If one of these just punched you in the chest, I'm sorry.
-
-But now you know where it came from.
-```
+> **Now a full pillar!** See [Pillar 5: Childhood Wounds](#pillar-5-childhood-wounds-15-of-posts--new) above and the [full content bank](../content-ideas/childhood-wounds.md).
 
 ---
 
@@ -441,7 +505,7 @@ What pop culture moments (shows, characters, scenes) are trending in personality
 
 ---
 
-### Pillar 5: "One Situation, 9 Takes" (10% of posts)
+### Pillar 6: "One Situation, 9 Takes" (10% of posts)
 
 **What it is:** Your unique format—same scenario, 9 different internal experiences. This is your signature differentiator.
 

@@ -3317,7 +3317,7 @@ export type Database = {
       }
       question_with_comments:
         | {
-            Args: { url: string }
+            Args: never
             Returns: {
               author_id: string | null
               comment_count: number
@@ -3345,7 +3345,7 @@ export type Database = {
             }
           }
         | {
-            Args: never
+            Args: { url: string }
             Returns: {
               author_id: string | null
               comment_count: number

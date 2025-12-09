@@ -1,7 +1,7 @@
 # Blog Cross-Link Index
 
 _Generated: 2025-12-09_
-_Total Published Posts Analyzed: 108_
+_Total Published Posts Analyzed: 109_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -10,11 +10,11 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total published posts | 108 |
+| Total published posts | 109 |
 | Posts with 0 outgoing links | 3 |
-| Posts with 0 incoming links | 22 |
+| Posts with 0 incoming links | 23 |
 | Completely isolated (0 in, 0 out) | 1 |
-| Total internal cross-links | 646 |
+| Total internal cross-links | 651 |
 | Average outgoing links per post | 6.0 |
 
 ---
@@ -41,7 +41,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (22 posts)
+## Priority 3: Posts with NO Incoming Links (23 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -60,6 +60,7 @@ These posts are "orphaned" - no other content links to them.
 | Why You Disappear in Relationships (Type 9 Conflict Avoidanc... | `enneagram/enneagram-type-9.md` | 7 |
 | MBTI Failed Us — Can the Enneagram Do Better? | `community/mbti-vs-enneagram.md` | 6 |
 | The Crash Course on Emotions We All Missed in Kindergarten (... | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` | 6 |
+| Why People Overshare: The Psychology of Shame, Boundaries, a... | `enneagram/oversharing-psychology-shame-boundaries.md` | 5 |
 | Echoes Online: The Power of Memetic Comments | `community/memetic-comments.md` | 3 |
 | The Consensus on Human Nature | `community/consensus-on-human-nature.md` | 2 |
 | What Winning Online Arguments Looks Like | `community/what-winning-online-arguments-looks-like.md` | 2 |
@@ -77,11 +78,11 @@ These posts are "orphaned" - no other content links to them.
 
 | Incoming | Outgoing | Post Title | Path |
 |----------|----------|------------|------|
-| 61 | 11 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
-| 56 | 6 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
+| 62 | 11 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
+| 57 | 6 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 40 | 6 | Your Type | `enneagram/enneagram-strengths-and-weaknesses.md` |
-| 38 | 8 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
-| 35 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
+| 39 | 8 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
+| 36 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
 | 26 | 10 | How Each Enneagram Type Loves (And Why It Goes Wrong) | `enneagram/enneagram-types-in-relationships.md` |
 | 22 | 5 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 21 | 33 | What | `enneagram/enneagram-tldr.md` |
@@ -113,7 +114,7 @@ These posts are "orphaned" - no other content links to them.
 | 13 | 18 | 9 Toxic Personality Traits: The Hidden Dark Side of Each Enn... | `enneagram/toxic-traits-of-each-enneagram-type.md` |
 | 12 | 11 | Enneagram Self Development: Transform Your Personality Into ... | `enneagram/enneagram-self-development.md` |
 | 12 | 9 | Red Flags You Are Dating Each Enneagram Type (And What to Do... | `enneagram/red-flags-dating-each-enneagram-type.md` |
-| 11 | 61 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
+| 11 | 62 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
 | 11 | 5 | Why You Can | `enneagram/why-you-cant-stop-overthinking-enneagram.md` |
 | 11 | 0 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
 | 10 | 26 | How Each Enneagram Type Loves (And Why It Goes Wrong) | `enneagram/enneagram-types-in-relationships.md` |
@@ -141,12 +142,12 @@ Sorted by total connections (incoming + outgoing).
 
 | Total | In | Out | Post Title | Path |
 |-------|----|----|------------|------|
-| 72 | 61 | 11 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
-| 62 | 56 | 6 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
+| 73 | 62 | 11 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
+| 63 | 57 | 6 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 54 | 21 | 33 | What | `enneagram/enneagram-tldr.md` |
+| 47 | 39 | 8 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 46 | 40 | 6 | Your Type | `enneagram/enneagram-strengths-and-weaknesses.md` |
-| 46 | 38 | 8 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
-| 43 | 35 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
+| 44 | 36 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
 | 36 | 26 | 10 | How Each Enneagram Type Loves (And Why It Goes Wrong) | `enneagram/enneagram-types-in-relationships.md` |
 | 35 | 16 | 19 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
 | 31 | 18 | 13 | 9 Toxic Personality Traits: The Hidden Dark Side of Each Enn... | `enneagram/toxic-traits-of-each-enneagram-type.md` |
@@ -172,7 +173,7 @@ Sorted by total connections (incoming + outgoing).
 | 13 | 7 | 6 | Relationship Communication Guide: The Enneagram Key to Under... | `enneagram/relationship-communication-guide.md` |
 | 13 | 8 | 5 | Shadow Work by Enneagram Type: The Complete Guide to Confron... | `enneagram/shadow-work-by-enneagram-type.md` |
 | 12 | 3 | 9 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |
-| 11 | 6 | 5 | 9 Childhood Stereotypes Based on the Enneagram | `enneagram/enneagram-childhood-stereotypes.md` |
+| 12 | 7 | 5 | 9 Childhood Stereotypes Based on the Enneagram | `enneagram/enneagram-childhood-stereotypes.md` |
 | 11 | 4 | 7 | Enneagram Communication Guide: Decode Any Personality Type i... | `enneagram/enneagram-communication-guide.md` |
 | 11 | 4 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
 | 11 | 4 | 7 | Why Type 6 Isn | `enneagram/mental-health/enneagram-anxiety-complete-guide.md` |
@@ -223,6 +224,7 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 3 | 2 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
 | 5 | 1 | 4 | How Each Enneagram Type Unwinds: Decode Your Perfect Stress-... | `enneagram/how-each-enneagram-type-unwinds.md` |
 | 5 | 1 | 4 | Neurodiversity vs. Personality: Stop Looking for Labels, Sta... | `enneagram/neurodiversity-vs-personality.md` |
+| 5 | 0 | 5 | Why People Overshare: The Psychology of Shame, Boundaries, a... | `enneagram/oversharing-psychology-shame-boundaries.md` |
 | 5 | 3 | 2 | The Counterintuitive Guide to Active Listening: Why Your Per... | `guides/ultimate-guide-to-active-listening.md` |
 | 4 | 1 | 3 | Introducing 9takes: A Fresh Take on Online Conversations | `community/introducing-9takes.md` |
 | 4 | 2 | 2 | 5 Reasons Reddit Can | `community/reddit-deep-connections-limitations.md` |

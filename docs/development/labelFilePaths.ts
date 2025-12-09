@@ -19,7 +19,8 @@ const EXCLUDED_DIRS = [
 	'.nyc_output',
 	'tmp',
 	'temp',
-	'static'
+	'static',
+	'public'
 ];
 
 const EXCLUDED_FILES = [

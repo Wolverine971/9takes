@@ -1,4 +1,4 @@
-<!-- docs/AGENT-PROMPT-FOR-CONTENT-STRATEGY.md -->
+<!-- docs/AGENT-PROMPT-FOR-CONTEXT-STRATEGY.md -->
 
 # Agent Prompt for 9takes Content Strategy
 
