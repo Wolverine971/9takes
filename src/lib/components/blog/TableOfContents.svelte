@@ -848,13 +848,13 @@
 		box-sizing: border-box;
 		font-size: var(--font-size-sm);
 		line-height: var(--line-height-tight);
-		color: var(--text-secondary);
+		color: var(--primary);
 		text-decoration: none;
 		border-radius: var(--border-radius-sm);
 		transition: var(--transition-base);
 
 		&:hover {
-			color: var(--primary);
+			color: var(--primary-dark);
 			background-color: var(--accent-light);
 			text-decoration: none;
 		}

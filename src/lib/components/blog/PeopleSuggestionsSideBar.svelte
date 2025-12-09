@@ -110,39 +110,70 @@
 
 <style lang="scss">
 	.sidebar {
+		/* Card base styles - match TableOfContents */
+		background-color: var(--card-background);
+		border-radius: var(--border-radius-lg);
+		box-shadow: var(--shadow-sm);
+		border: 1px solid var(--border-color);
+
 		position: fixed;
 		top: 50%;
 		transform: translateY(-50%);
 		width: 200px;
-		background-color: var(--color-background, white);
-		border-radius: 0.5rem;
-		padding: 1rem;
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-		z-index: 10;
+		font-size: var(--font-size-sm);
+		line-height: var(--line-height-tight);
+		max-width: 200px;
+		z-index: 50;
+		max-height: 70vh;
+		overflow-y: auto;
+		overflow-x: hidden;
 
 		// Ensure it doesn't overlap with other elements
 		pointer-events: auto;
 
-		// Optional: add a subtle border
-		border: 1px solid var(--color-border, rgba(0, 0, 0, 0.05));
+		/* Custom scrollbar */
+		&::-webkit-scrollbar {
+			width: 6px;
+		}
+
+		&::-webkit-scrollbar-track {
+			background: transparent;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: rgba(0, 0, 0, 0.2);
+			border-radius: 3px;
+
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.3);
+			}
+		}
+	}
+
+	.sidebar-nav {
+		width: 100%;
+		padding: 0.5rem;
 	}
 
 	.sidebar-title {
-		margin: 0 0 0.75rem 0;
-		padding: 0;
-		font-size: 1.1rem;
-		font-weight: 600;
-		color: var(--color-heading, #333);
+		margin: 0 0 0.5rem 0;
+		padding: 0 0 0.35rem 0;
+		font-size: var(--font-size-base);
+		font-weight: var(--font-weight-semibold);
+		color: var(--text-primary);
+		border-bottom: 1px solid var(--border-color);
 	}
 
 	.sidebar-list {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
+		width: 100%;
 	}
 
 	.sidebar-item {
-		margin-bottom: 0.5rem;
+		margin-bottom: 0.125rem;
+		width: 100%;
 
 		&:last-child {
 			margin-bottom: 0;
@@ -156,15 +187,23 @@
 
 	.sidebar-link {
 		display: block;
-		padding: 0.5rem 0;
-		color: var(--primary, #0066cc);
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		padding: 0.2rem 0.4rem;
+		box-sizing: border-box;
+		font-size: var(--font-size-sm);
+		line-height: var(--line-height-tight);
+		color: var(--primary);
 		text-decoration: none;
-		font-size: 0.95rem;
-		transition: color 0.2s ease;
+		border-radius: var(--border-radius-sm);
+		transition: var(--transition-base);
 
 		&:hover {
-			color: var(--primary-dark, #004499);
-			text-decoration: underline;
+			color: var(--primary-dark);
+			background-color: var(--accent-light);
+			text-decoration: none;
 		}
 
 		&::after {
