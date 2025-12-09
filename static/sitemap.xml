@@ -1208,15 +1208,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Elton-John</loc>
-    <lastmod>2024-09-29T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Elton-John.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Emily-Ratajkowski</loc>
     <lastmod>2024-09-29T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1385,15 +1376,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Anya-Taylor-Joy.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Jerad-Leto</loc>
-    <lastmod>2025-03-10T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Jerad-Leto.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2627,6 +2609,24 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Dua-Lipa.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Elton-John</loc>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Elton-John.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Jared-Leto</loc>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Jared-Leto.webp</image:loc>
     </image:image>
 </url>
 <url>
