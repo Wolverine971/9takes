@@ -25,7 +25,7 @@ path: src/blog/enneagram/enneagram-types-working-in-teams.md
 
 Have you ever been on a dysfunctional team? Have you ever worked in a team where everyone is operating on a different wavelength? It is frustrating when communication is broken. The Enneagram can clue us into where communication is broken and why people act the way they do. It can show us why some teams thrive while others are straight-up toxic.
 
-Here, we’ll explore how different Enneagram types work together in teams and give tips to help make working with them more efficient make them better.
+Here, we'll explore how different [Enneagram types](/enneagram-corner/enneagram-tldr) work together in teams and give tips to help make working with them more efficient make them better.
 
 ## How Each Enneagram Type Works in a Team
 

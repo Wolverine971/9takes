@@ -258,7 +258,7 @@
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides/dating-dynamics-by-enneagram-type</loc>
-    <lastmod>2025-09-14T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -330,7 +330,7 @@
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides/ultimate-guide-to-active-listening</loc>
-    <lastmod>2025-09-14T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -393,7 +393,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/depression-patterns-by-enneagram-type</loc>
-    <lastmod>2025-08-16T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -492,7 +492,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-compatibility-matrix</loc>
-    <lastmod>2025-08-24T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -573,7 +573,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-leadership</loc>
-    <lastmod>2025-09-14T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -651,7 +651,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-team-dynamics</loc>
-    <lastmod>2025-08-24T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -660,7 +660,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-test-comparison-2025</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -669,7 +669,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-tldr</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -894,7 +894,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/love-languages-and-enneagram-types</loc>
-    <lastmod>2025-08-25T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2108,15 +2108,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Kendrick-Lamar</loc>
-    <lastmod>2025-06-25T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Kendrick-Lamar.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Lady-Gaga</loc>
     <lastmod>2025-06-25T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2495,15 +2486,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Jimmy-Carter</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/2s/Jimmy-Carter.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Joe-Biden</loc>
     <lastmod>2025-12-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2645,6 +2627,24 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Dua-Lipa.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Jimmy-Carter</loc>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/2s/Jimmy-Carter.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Kendrick-Lamar</loc>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Kendrick-Lamar.webp</image:loc>
     </image:image>
 </url>
 <url>

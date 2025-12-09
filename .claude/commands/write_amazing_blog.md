@@ -59,10 +59,11 @@ Then wait for the user's input.
 Choose and develop 2-3 of these opening strategies:
 
 - **The Paradox Hook:** "What everyone gets wrong about [topic]"
-- **The Authority Story:** "Here's what [famous person] discovered..."
-- **The Shocking Statistic:** "[Huge number] of people fail at this"
+- **The Authority Story:** "Here's what [famous person/researcher] discovered..."
+- **The Shocking Statistic:** "[Cited statistic from real research]"
 - **The Diagnostic Challenge:** "Quick test: Can you answer these questions?"
-- **The Pattern Recognition:** "After analyzing [thousands] of [things], we found..."
+- **The Pattern Recognition:** "A pattern emerges when you look at [topic] through the Enneagram lens..."
+- **The Observation Hook:** "You've probably noticed that [relatable observation]..."
 
 ### 2.2 Design Your Content Architecture
 
@@ -111,10 +112,11 @@ Pick the structure that best serves your topic:
 **The Data-Driven Writing Principles:**
 
 - **Be prescriptive, not descriptive:** Tell them exactly what to do
-- **Use specific numbers:** Not "many" but "73%", not "a few weeks" but "21 days"
+- **Use specific numbers when citing real sources:** Reference actual research, studies, or expert data
 - **Create branded concepts:** "The 5-Second Rule", "The 4-Layer Framework"
-- **Test everything:** "We tracked 500 conversations..." "After testing with 100 people..."
+- **Cite credible sources:** "According to [researcher/study]...", "Research from [institution] shows..."
 - **Address objections directly:** "Common Objections (And Why They're Wrong)"
+- **Never fabricate data:** Only claim to have "tested" or "tracked" things you actually did
 
 **The 9takes Integration:**
 
@@ -182,13 +184,16 @@ Pick the structure that best serves your topic:
 
 ### 3.3 Power Phrases to Sprinkle Throughout
 
-**Credibility Builders:**
+**Credibility Builders (use only with actual sources):**
 
-- "After analyzing thousands of..."
-- "Research from [Authority] found..."
-- "We tested this with [specific number]..."
-- "Research reveals..."
-- "[Percentage] of people get this wrong"
+- "Research from [cited institution/researcher] found..."
+- "According to [specific study/expert]..."
+- "Enneagram theory suggests..."
+- "A pattern that emerges across types is..."
+- "In working with Enneagram concepts, I've observed..."
+- "[Statistic from cited source] shows..."
+
+**IMPORTANT:** Never claim to have analyzed, tested, or tracked data you didn't actually collect. Build credibility through cited research, Enneagram framework expertise, and honest observation—not fabricated studies.
 
 **Engagement Amplifiers:**
 
@@ -215,15 +220,17 @@ Pick the structure that best serves your topic:
 
 ## Phase 4: Enhancement & Optimization (30 minutes)
 
-### 4.1 The Data & Testing Layer
+### 4.1 The Research & Evidence Layer
 
-Add throughout the post:
+Add throughout the post (only when you have actual sources):
 
-- **Specific percentages:** "73% reported improvement"
-- **Time frames:** "After 21 days..." "In just 5 seconds..."
-- **Comparison metrics:** "3x more effective than..."
-- **Sample sizes:** "We tracked 100 people for 90 days"
-- **ROI numbers:** "Saved 10 hours per week" "$100k added to deals"
+- **Cited statistics:** Reference actual research studies with attribution
+- **Expert insights:** Quote or paraphrase credible authorities
+- **Enneagram framework connections:** Draw from established Enneagram literature
+- **Real-world examples:** Use examples from public figures, case studies, or your own genuine observations
+- **Time frames:** "Research suggests it takes 21 days..." (when citing actual research)
+
+**Rule:** Every number, percentage, or metric must come from a citable source or your actual experience. Never fabricate data to appear more credible.
 
 ### 4.2 The Interactive Elements
 
@@ -311,16 +318,18 @@ Before publishing, verify:
 - [ ] Would this be "evergreen" valuable in 6 months?
 - [ ] Is it prescriptive rather than just descriptive?
 - [ ] Does it challenge conventional wisdom?
-- [ ] Are claims backed by data or testing?
+- [ ] Are claims backed by cited research or genuine observation?
 - [ ] Would readers share this with others?
+- [ ] Is every statistic/metric from a real, citable source?
 
 ## Examples of Success
 
 **Great Opening Lines:**
 
-- "After analyzing 500+ high performers, a clear pattern emerged:"
+- "A pattern emerges when you look at high performers through the Enneagram lens:"
 - "Most people think they're good listeners. They're wrong."
 - "You matched on a dating app. The conversation flows. The first date arrives. But something feels... off."
+- "You've probably noticed that some people just drain your energy while others energize you. The Enneagram explains why."
 
 **Powerful Transitions:**
 
@@ -354,14 +363,15 @@ The final blog should:
 - **Generic advice:** Every point should be specific and actionable
 - **Weak opening:** Hook must grab immediately
 - **No personality:** Inject voice and occasional humor
-- **Missing data:** Include numbers, percentages, and testing results
+- **Unsourced claims:** Only include statistics from citable sources
+- **Fabricated data:** Never claim to have "analyzed thousands" or "tracked 500 people" unless you actually did
 - **Vague actions:** Tell them exactly what to do
 - **Ignoring objections:** Address why they might resist
 - **Forgetting ROI:** Show them what they get from applying this
 
 ## The Success Formula
 
-Great Blog = Counterintuitive Hook + Personality Insights + Tactical Solutions + Testing Data + Clear Actions + Engaging Voice
+Great Blog = Counterintuitive Hook + Personality Insights + Tactical Solutions + Cited Research + Clear Actions + Authentic Voice
 
 Remember: You're not just informing—you're transforming. Every section should move readers closer to breakthrough insights and behavior change.
 

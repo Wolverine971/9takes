@@ -53,6 +53,49 @@ import { error, redirect } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
 
 export const actions: Actions = {
+	submit: async ({ request }) => {
+		const body = Object.fromEntries(await request.formData());
+		const email = body.email?.toString()?.trim();
+
+		if (!email || !/\S+@\S+\.\S+/.test(email)) {
+			return { data: null, error: { message: 'Invalid email address' } };
+		}
+
+		// Check if email already exists
+		const { data: existing } = await supabase
+			.from('signups')
+			.select('id')
+			.eq('email', email)
+			.single();
+
+		if (existing) {
+			return { data: null, error: { message: 'Email already exists' } };
+		}
+
+		// Insert new signup
+		const { error: insertError } = await supabase.from('signups').insert([{ email }]);
+
+		if (insertError) {
+			logger.error('Failed to insert signup', insertError, { email });
+			return { data: null, error: { message: 'Failed to save signup' } };
+		}
+
+		// Send confirmation email
+		try {
+			await sendEmail({
+				to: email,
+				subject: 'Welcome to 9takes!',
+				body: signupEmail()
+			});
+		} catch (e) {
+			logger.warn('Failed to send signup confirmation email', { email, error: e });
+			// Don't fail - signup was saved
+		}
+
+		logger.info('New signup submitted', { email });
+		return { data: { success: true }, error: null };
+	},
+
 	submitFamousPerson: async ({ request }) => {
 		const body = Object.fromEntries(await request.formData());
 

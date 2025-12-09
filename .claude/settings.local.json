@@ -67,7 +67,10 @@
 			"Bash(\"Content-Type: application/json\" -d '{\"\"suggestions\"\": [\"\"Martin-Luther-King-Jr\"\", \"\"Barack-Obama\"\", \"\"Ronald-Reagan\"\", \"\"George-Washington\"\"]}')",
 			"Bash(npx markdown-link-check:*)",
 			"SlashCommand(/blog_content_creator)",
-			"Bash(/tmp/dua_lipa_content.json)"
+			"Bash(/tmp/dua_lipa_content.json)",
+			"Bash(iconv:*)",
+			"Bash(cut:*)",
+			"Bash(sort:*)"
 		],
 		"deny": [],
 		"ask": [],

@@ -4,7 +4,7 @@ description: 'Discover your natural leadership style based on your Enneagram typ
 author: 'DJ Wayne'
 date: '2025-09-14'
 loc: 'https://9takes.com/enneagram-corner/enneagram-leadership'
-lastmod: '2025-09-14'
+lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -493,7 +493,7 @@ Understanding your center reveals your leadership autopilot mode – and the exa
 
 <!-- {#diagnostic} -->
 
-**Warning:** This diagnostic is uncomfortably accurate. We tested it with 500 leaders and 94% said it revealed blind spots they'd been denying for years.
+**Warning:** This diagnostic tends to be uncomfortably accurate. It often reveals blind spots that leaders have been unconsciously avoiding.
 
 ### Quick Test: Rate Yourself (1-5 Scale)
 
@@ -567,14 +567,14 @@ Tim Ferriss discovered that world-class performers don't add more – they elimi
 
 ### The ROI of Elimination
 
-**We tracked 100 leaders who applied this for 30 days:**
+**What happens when leaders focus on elimination:**
 
-- Average time saved: 12 hours per week
-- Team engagement increase: 34%
-- Stress reduction: 61%
-- Revenue impact: 18% increase in team productivity
+- Significant time saved (often 10+ hours per week)
+- Improved team engagement
+- Reduced stress levels
+- Better team productivity
 
-**The shocking part?** They did less, not more.
+**The counterintuitive part?** Effective leaders do less, not more.
 
 ## Building Your Leadership Stack
 
@@ -1100,12 +1100,12 @@ Tim Ferriss says: _"What we fear doing most is usually what we most need to do."
 
 That's it. 48 hours. Three actions.
 
-**We tracked 100 leaders who did just this:**
+**What typically happens when leaders commit to these steps:**
 
-- 73% reported immediate team response
-- 67% saved 5+ hours that week
-- 94% had a breakthrough insight
-- 100% wished they'd done it sooner
+- Teams notice and respond immediately
+- Time savings become apparent within the first week
+- Breakthrough insights emerge from self-awareness
+- The common reaction: "I wish I'd done this sooner"
 
 ## The Brutal Truth Nobody Will Tell You
 
@@ -1234,3 +1234,52 @@ It's whether you can afford not to.
 _Your team is waiting. Your potential is waiting. Your legacy is waiting._
 
 _What are you waiting for?_
+
+<svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Enneagram Leadership Styles: The 9 Ways to Lead and Inspire Teams",
+  "description": "Discover your natural leadership style based on your Enneagram type. Learn how each personality type leads differently, their strengths, blind spots, and how to become a more effective leader.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "datePublished": "2025-09-14",
+  "dateModified": "2025-12-09",
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ]
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/enneagram-corner/enneagram-leadership"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/diverse-leaders-boardroom-enneagram.webp",
+    "width": 1200,
+    "height": 630
+  },
+  "articleBody": "Every Enneagram type has a unique leadership superpower and fatal flaw. Discover why Type 8s burn out teams, Type 9s avoid tough decisions, and Type 3s sacrifice people for results - plus how each type can transform their leadership approach.",
+  "keywords": "enneagram leadership, leadership styles, enneagram type leader, leadership development, personality leadership, team management, enneagram workplace"
+}
+</script>
+
+</svelte:head>

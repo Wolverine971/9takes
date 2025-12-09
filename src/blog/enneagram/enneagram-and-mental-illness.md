@@ -650,7 +650,7 @@ Type 9s are susceptible to:
 
 ## Wrap up
 
-Exploring the Enneagram types’ predispositions to mental health challenges is a heavy but crucial step toward self-awareness. By understanding the potential extremes of our personalities:
+Exploring the [Enneagram types'](/enneagram-corner/enneagram-tldr) predispositions to mental health challenges is a heavy but crucial step toward self-awareness. By understanding the potential extremes of our personalities:
 
 1. **We can proactively address signs of distress**—whether it’s perfectionism, codependency, addiction, or beyond.
 2. **We learn how to seek help and support**, from therapy to community resources.

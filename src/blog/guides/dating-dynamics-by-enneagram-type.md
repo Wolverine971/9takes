@@ -1,10 +1,10 @@
 ---
 title: 'The $35,000 Dating Mistake: How Your Personality Type Sabotages Love (And the Fix)'
-description: 'After tracking 1,000+ relationships, we discovered the 9 invisible patterns that predict dating success or failure. Plus: Your type-specific 30-day transformation plan.'
+description: 'Discover the 9 invisible patterns that predict dating success or failure based on your Enneagram type. Plus: Your type-specific 30-day transformation plan.'
 author: 'DJ Wayne'
 date: '2025-09-14'
 loc: 'https://9takes.com/how-to-guides/dating-dynamics-by-enneagram-type'
-lastmod: '2025-09-14'
+lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -795,7 +795,7 @@ _Based on observable patterns in how each Enneagram type approaches dating, we'v
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "The $35,000 Dating Mistake: How Your Personality Type Sabotages Love (And the Fix)",
-  "description": "After tracking 1,000+ relationships, we discovered the 9 invisible patterns that predict dating success or failure. Plus: Your type-specific 30-day transformation plan.",
+  "description": "Discover the 9 invisible patterns that predict dating success or failure based on your Enneagram type. Plus: Your type-specific 30-day transformation plan.",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
@@ -819,7 +819,7 @@ _Based on observable patterns in how each Enneagram type approaches dating, we'v
     ]
   },
   "datePublished": "2025-09-14",
-  "dateModified": "2025-09-14",
+  "dateModified": "2025-12-09",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://9takes.com/how-to-guides/dating-dynamics-by-enneagram-type"

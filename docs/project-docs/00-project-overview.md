@@ -249,7 +249,7 @@ Become THE definitive resource for personality-based life optimization, serving 
 ### Strategy Documents
 
 - [Start Here Guide](/docs/START-HERE.md)
-- [Agent Prompt](/docs/AGENT-PROMPT.md)
+- [AGENT PROMPT FOR CONTENT STRATEGY](/docs/AGENT-PROMPT-FOR-CONTENT-STRATEGY.md)
 - [Domain Authority Plans](/docs/domain-authority/)
 
 ### Technical Documentation

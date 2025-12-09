@@ -72,7 +72,7 @@ These traits exist on a spectrum. We all have some degree of these characteristi
 
 ## Important Disclaimer
 
-This analysis is speculative and educational. We cannot definitively type individuals without direct assessment, especially those with severe mental illness. Mental health conditions exist across all Enneagram types, and having a particular type does not predispose someone to violence or criminality.
+This analysis is speculative and educational. We cannot definitively type individuals without direct assessment, especially those with severe mental illness. Mental health conditions exist across all [Enneagram types](/enneagram-corner/enneagram-tldr), and having a particular type does not predispose someone to violence or criminality.
 
 The goal here is to understand patterns, not to diagnose or stigmatize.
 

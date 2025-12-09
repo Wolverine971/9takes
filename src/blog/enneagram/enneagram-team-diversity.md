@@ -101,7 +101,7 @@ enneagram/toxic-traits-of-each-enneagram-type
 
 ### Inclusive Language: Speaking Everyone's Language
 
-Different Enneagram types respond to and use language differently. To create a more inclusive environment, tailor communication styles to suit different types. For example, Competency types might appreciate clear, logical explanations, while Reactive types might respond better to emotionally resonant language.
+Different [Enneagram types](/enneagram-corner/enneagram-tldr) respond to and use language differently. To create a more inclusive environment, tailor communication styles to suit different types. For example, Competency types might appreciate clear, logical explanations, while Reactive types might respond better to emotionally resonant language.
 
 Use a mix of communication channels to ensure all team members feel comfortable expressing their ideas. This could include written reports for those who process information best in writing, verbal discussions for those who think best out loud, and one-on-one check-ins for those who prefer more intimate communication settings.
 

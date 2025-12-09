@@ -3,7 +3,7 @@ description: 'How depression manifests differently across all 9 Enneagram types.
 author: 'DJ Wayne'
 date: '2025-08-16'
 loc: 'https://9takes.com/enneagram-corner/depression-patterns-by-enneagram-type'
-lastmod: '2025-08-16'
+lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -25,7 +25,7 @@ Keyword Strategy:
 
 <p class="firstLetter">Depression isn't one-size-fits-all. Your Enneagram type determines how you experience it, what triggers it, and most importantly - how to heal from it.</p>
 
-After analyzing thousands of mental health stories across all 9 Enneagram types, we've discovered something profound: **Depression has a personality.**
+When you look at mental health through the Enneagram lens, something profound becomes clear: **Depression has a personality.**
 
 A Type 1's depression looks like perfectionist paralysis and harsh self-criticism. A Type 7's depression manifests as manic activity hiding deep emptiness. A Type 9's depression feels like complete disconnection from their own desires.
 
@@ -1103,7 +1103,7 @@ The emotions behind your depression make complete sense. The pattern can be lovi
     "name": "DJ Wayne"
   },
   "datePublished": "2025-08-16",
-  "dateModified": "2025-08-16",
+  "dateModified": "2025-12-09",
   "publisher": {
     "@type": "Organization",
     "name": "9takes",

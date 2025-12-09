@@ -4,7 +4,7 @@ description: 'Master team dynamics with Enneagram insights. Discover how differe
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/enneagram-corner/enneagram-team-dynamics'
-lastmod: '2025-08-24'
+lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -256,7 +256,7 @@ Each Enneagram type brings distinct strengths and blind spots to team environmen
 
 **Great teams aren't about having the "right" types. They're about conscious collaboration that leverages every type's gifts while managing their shadows.**
 
-The most successful teams we've studied share these characteristics:
+High-performing teams that leverage the Enneagram share these characteristics:
 
 1. **Type Awareness Without Stereotyping** - Understanding tendencies without limiting potential
 2. **Complementary Pairing** - Strategically partnering types that enhance each other
@@ -282,7 +282,7 @@ Want to dive deeper into how specific types work together? Check out our compreh
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-08-24",
+      "dateModified": "2025-12-09",
       "datePublished": "2023-04-01",
       "description": "Master team dynamics with Enneagram insights. Discover how different type combinations work together, resolve conflicts, and create unstoppable workplace synergy.",
       "headline": "Enneagram Team Dynamics: The Complete Guide to High-Performance Teams",

@@ -687,7 +687,7 @@ Understanding these simultaneous processes can help us navigate complex social s
 
 ## The Enneagram Communication Matrix: When Types Interact
 
-Communication becomes especially complex when different Enneagram types interact. Let's explore a few key dynamics:
+Communication becomes especially complex when different [Enneagram types](/enneagram-corner/enneagram-tldr) interact. Let's explore a few key dynamics:
 
 ### High-Conflict Potential
 

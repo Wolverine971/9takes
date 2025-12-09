@@ -216,7 +216,7 @@ Type 2 professionals: Your relationship skills are gold in collaborative environ
 
 Type 6 team members: Your ability to anticipate problems is invaluable. Channel this through constructive contingency planning rather than anxiety-driven worst-case scenarios. As one Type 6 client told me: "I realized I could use my hypervigilance as a superpower when I directed it properly."
 
-The latest research in organizational development shows diverse Enneagram types create stronger teams—but only when there's mutual understanding and respect for different approaches. One tech company I consulted with assigns projects based partly on Enneagram strengths, pairing visionary Type 7s with detail-oriented Type 1s for balanced execution.
+The latest research in organizational development shows diverse [Enneagram types](/enneagram-corner/enneagram-tldr) create stronger teams—but only when there's mutual understanding and respect for different approaches. One tech company I consulted with assigns projects based partly on Enneagram strengths, pairing visionary Type 7s with detail-oriented Type 1s for balanced execution.
 
 For deeper insights on maximizing team diversity, check out our [guide on Enneagram team dynamics](/enneagram-corner/enneagram-team-diversity).
 

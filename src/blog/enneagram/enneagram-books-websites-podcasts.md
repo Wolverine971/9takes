@@ -499,7 +499,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 **Emerging Trends:**
 
 - Increased focus on trauma-informed Enneagram teaching
-- Growing emphasis on Enneagram subtypes and their applications
+- Growing emphasis on [Enneagram subtypes](/enneagram-corner/enneagram-instinctual-subtypes) and their applications
 - Integration of neuroscience and evolutionary psychology with Enneagram theory
 - More diverse voices and perspectives in the Enneagram community
 - Enhanced digital resources and mobile apps for Enneagram learning

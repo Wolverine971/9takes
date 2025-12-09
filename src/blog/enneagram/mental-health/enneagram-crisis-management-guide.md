@@ -427,7 +427,7 @@ Type 3 crises are often triggered by [workplace failures or burnout](/enneagram-
 
 ## Type 4: The Individualist in Crisis
 
-**Important note**: Type 4s have the highest rates of depression and suicidal ideation among Enneagram types. This section requires particular care and attention.
+**Important note**: Type 4s have the highest rates of depression and suicidal ideation among [Enneagram types](/enneagram-corner/enneagram-tldr). This section requires particular care and attention.
 
 ### What Triggers Crisis for Type 4s
 

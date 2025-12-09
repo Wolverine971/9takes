@@ -3,10 +3,9 @@
 	import { notifications } from './notifications';
 	import Envelope from '$lib/components/icons/envelope.svelte';
 
-	export let cta: string = '';
+	export let cta: string = 'Who else needs to know about 9takes?';
 	let email: string = '';
 	let error: string = '';
-	console.log(cta);
 
 	const submit = async () => {
 		if (!/\S+@\S+\.\S+/.test(email)) {
@@ -45,10 +44,7 @@
 </script>
 
 <div class="invite-section">
-	<h3 style="margin-top: 0; text-align:center">Who else needs to know about 9takes?</h3>
-	<!-- <p>9takes will be free for the first 1000 users</p> -->
-
-	<!-- // Signup to get a sneak peak into what we are building -->
+	<h3 style="margin-top: 0; text-align:center">{cta}</h3>
 	<form class="invite-form">
 		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
 		<button

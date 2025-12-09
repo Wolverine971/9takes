@@ -4,7 +4,7 @@ description: 'Discover relationship compatibility for all 81 Enneagram pairings.
 author: 'DJ Wayne'
 date: '2025-08-24'
 loc: 'https://9takes.com/enneagram-corner/enneagram-compatibility-matrix'
-lastmod: '2025-08-24'
+lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
@@ -25,7 +25,7 @@ Keyword Strategy:
 
 <p class="firstLetter">Your perfect match isn't who you think it is. And your worst enemy might be your greatest teacher.</p>
 
-After analyzing thousands of relationships across all 81 Enneagram pairings, we've discovered something shocking: **The couples who look perfect on paper often struggle the most, while the "incompatible" pairs create the deepest transformations.**
+Enneagram theory reveals something surprising about relationship compatibility: **The couples who look perfect on paper often struggle the most, while the "incompatible" pairs create the deepest transformations.**
 
 Here's what nobody tells you about Enneagram compatibility:
 
@@ -669,7 +669,7 @@ Want to explore your specific type combination in more depth? Check out our deta
       "headline": "The Complete Enneagram Compatibility Matrix: All 81 Type Combinations Decoded",
       "description": "Discover relationship compatibility for all 81 Enneagram pairings. Understand attraction patterns, conflict triggers, and growth potential for every type combination with practical relationship advice.",
       "datePublished": "2025-08-24",
-      "dateModified": "2025-08-24",
+      "dateModified": "2025-12-09",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

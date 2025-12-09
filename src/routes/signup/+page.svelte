@@ -5,8 +5,8 @@
 	import Card from '$lib/components/atoms/card.svelte';
 	import EmailInvite from '$lib/components/molecules/Email-Invite.svelte';
 
-	let NUM_CONFETTI = 350;
-	let COLORS = [
+	const NUM_CONFETTI = 350;
+	const COLORS: [number, number, number][] = [
 		[84, 7, 217],
 		[210, 207, 215],
 		[188, 150, 253],
@@ -14,18 +14,29 @@
 		[15, 14, 15]
 	];
 
-	let PI_2 = 2 * Math.PI;
+	const PI_2 = 2 * Math.PI;
 	let w = 0;
 	let h = 0;
-	let xpos = 0.5;
 
-	let confetti = [];
-
-	function range(a, b) {
+	function range(a: number, b: number): number {
 		return (b - a) * Math.random() + a;
 	}
 
-	class Confetti {
+	class ConfettiParticle {
+		style: [number, number, number];
+		rgb: string;
+		r: number;
+		r2: number;
+		speed: number;
+		opacity: number = 0;
+		dop: number = 0;
+		x: number = 0;
+		y: number = 0;
+		xmax: number = 0;
+		ymax: number = 0;
+		vx: number = 0;
+		vy: number = 0;
+
 		constructor() {
 			this.style = COLORS[Math.floor(range(0, 5))];
 			this.rgb = `rgba(${this.style[0]},${this.style[1]},${this.style[2]}`;
@@ -44,32 +55,15 @@
 			this.ymax = h - this.r;
 			this.vx = 0;
 			this.vy = this.speed * this.r + range(-1, 1);
-			// this.vy = 0;
 		}
 
-		changeVelosity(newRange) {
+		changeVelocity(newSpeed: number) {
 			if (this.r > 0) {
-				// console.log(parseFloat(newRange) * this.r + range(-0.5, 0.5));
-				const float = parseFloat(newRange);
-				this.speed = float;
-				// const radius = float * this.r + range(-0.5, 0.5);
-				// if (radius > 0) {
-				// 	this.dop = float * range(1, 4);
-				// 	this.vy = radius;
-				// }
-				// this.vx = range(0, 2) + 8 * xpos - 5;
-				// this.vy = 0.9 * this.r + range(-0.5, 0.5);
+				this.speed = newSpeed;
 			}
 		}
-		changeVelosity2(newRange) {
-			this.vy = 0.3 * this.r + range(-0.5, 0.5);
-			// const radius = 0.3 * this.r + range(-parseFloat(newRange), parseFloat(newRange));
-			// if (radius > 0) this.vy = radius;
 
-			// console.log(newRange);
-		}
-
-		draw(context) {
+		draw(context: CanvasRenderingContext2D) {
 			this.x += this.vx;
 			this.y += this.vy;
 			this.opacity += this.dop;
@@ -93,52 +87,65 @@
 		}
 	}
 
+	let confetti: ConfettiParticle[] = [];
 	for (let i = 0; i < NUM_CONFETTI; i++) {
-		confetti.push(new Confetti());
+		confetti.push(new ConfettiParticle());
 	}
 
-	let animation;
+	let animation: number;
+	let velocityInterval: ReturnType<typeof setInterval>;
+	let fadeInterval: ReturnType<typeof setInterval>;
+	let resizeHandler: () => void;
 
-	function step(context) {
+	function step(context: CanvasRenderingContext2D) {
 		animation = requestAnimationFrame(() => step(context));
 		context.clearRect(0, 0, w, h);
 		confetti.forEach((c) => c.draw(context));
 	}
 
-	function resizeWindow(canvas) {
+	function resizeWindow(canvas: HTMLCanvasElement) {
 		w = canvas.width = window.innerWidth;
 		h = canvas.height = window.innerHeight;
 	}
 
-	function drawCircle(context, x, y, r, style) {
+	function drawCircle(
+		context: CanvasRenderingContext2D,
+		x: number,
+		y: number,
+		r: number,
+		style: string
+	) {
 		context.beginPath();
 		context.arc(x, y, r, 0, PI_2, false);
 		context.fillStyle = style;
 		context.fill();
 	}
 
-	let start = 0.7;
+	let speed = 0.7;
+
 	onMount(() => {
 		if (browser) {
-			const canvas = document.getElementById('world');
+			const canvas = document.getElementById('world') as HTMLCanvasElement | null;
+			if (!canvas) return;
+
 			const context = canvas.getContext('2d');
-			window.addEventListener('resize', () => resizeWindow(canvas), { passive: true });
+			if (!context) return;
+
+			resizeHandler = () => resizeWindow(canvas);
+			window.addEventListener('resize', resizeHandler, { passive: true });
 			resizeWindow(canvas);
 			step(context);
 
-			setInterval(() => {
-				if (start > 0) {
-					confetti.forEach((c) => {
-						c.changeVelosity(`${start}`);
-					});
+			velocityInterval = setInterval(() => {
+				if (speed > 0) {
+					confetti.forEach((c) => c.changeVelocity(speed));
 				}
-				start = start - 0.05;
+				speed = speed - 0.05;
 			}, 1000);
-			setInterval(() => {
-				if (start < 0.05 && confetti.length > 0) {
-					confetti.length = confetti.length - 10;
-					// console.log(confetti);
-					// debugger;
+
+			fadeInterval = setInterval(() => {
+				if (speed < 0.05 && confetti.length > 0) {
+					confetti.length = Math.max(0, confetti.length - 10);
 				}
 			}, 200);
 		}
@@ -146,33 +153,20 @@
 
 	onDestroy(() => {
 		if (browser) {
-			window.cancelAnimationFrame(animation);
+			cancelAnimationFrame(animation);
+			clearInterval(velocityInterval);
+			clearInterval(fadeInterval);
+			if (resizeHandler) {
+				window.removeEventListener('resize', resizeHandler);
+			}
 		}
 	});
-
-	let end = 1;
-	const slowDown = () => {
-		if (browser) {
-			confetti.forEach((c) => {
-				c.changeVelosity2(end);
-			});
-			end += 1;
-		}
-	};
 </script>
 
 <canvas id="world" class="absolute left-0 top-0 m-0 h-screen w-screen overflow-hidden p-0" />
 <div class="z-[1243434] flex min-h-[60vh] flex-col">
 	<Card>
-		<h1 class="text-center">
-			Sweet! Cannot wait to show you what we are building
-			<!-- Sweet! Cannot wait to show you what we are building -->
-		</h1>
-		<!-- <p>We just sent you a prototype of what we are building</p> -->
-
-		<!-- <hr /> -->
-
-		<EmailInvite cta={'We are making something 👷🔨 join the waitlist'} />
-		<!-- <button type="button" on:click={slowDown}> slow down</button> -->
+		<h1 class="text-center">Sweet! Cannot wait to show you what we are building</h1>
+		<EmailInvite cta="We are making something 👷🔨 join the waitlist" />
 	</Card>
 </div>

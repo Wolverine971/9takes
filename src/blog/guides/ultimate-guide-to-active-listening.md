@@ -1,10 +1,10 @@
 ---
 title: 'The Counterintuitive Guide to Active Listening: Why Your Personality Type Sabotages Conversations (And How to Fix It)'
-description: "Most people think they're good listeners. They're wrong. Here's the personality-based system that transforms how you connect, backed by neuroscience and tested across thousands of conversations."
+description: "Most people think they're good listeners. They're wrong. Here's the personality-based system that transforms how you connect, backed by neuroscience and Enneagram insights."
 author: 'DJ Wayne'
 date: '2025-09-14'
 loc: 'https://9takes.com/how-to-guides/ultimate-guide-to-active-listening'
-lastmod: '2025-09-14'
+lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -39,7 +39,7 @@ professional listening skills
 
 One of the most valuable skills in deep conversation is learning to sit with silence until someone else continues. Research shows that waiting just 5 seconds after someone stops talking often unlocks the real story they came to tell.
 
-We tested this principle across 9 different personality types and discovered something shocking: **Each Enneagram type has a specific listening kryptonite that sabotages their conversations in predictable ways.**
+When you look at listening through the Enneagram lens, a pattern emerges: **Each personality type has a specific listening kryptonite that sabotages their conversations in predictable ways.**
 
 Even more interesting? Your biggest listening weakness is probably your greatest professional strength in disguise.
 
@@ -83,7 +83,7 @@ But here's where personality makes it worse: **Each Enneagram type fills that sp
 
 ## The 9 Listening Personalities: Find Your Kryptonite
 
-After analyzing thousands of conversations through the Enneagram lens, we've identified exactly how each personality type sabotages their listening—and what to do about it.
+The Enneagram reveals exactly how each personality type sabotages their listening—and what to do about it.
 
 ### Type 1: The Corrector's Curse
 
@@ -263,12 +263,12 @@ Here's the technique that transforms conversations:
 
 **When someone stops talking, count to 5 before responding.**
 
-We tracked 500 conversations using this rule. Results:
+Here's what typically happens when you apply this rule:
 
-- 30% of speakers continued with deeper information
-- 40% revealed what they really came to discuss
-- 20% shared something they'd never said before
-- 10% stayed silent (still valuable data)
+- Many speakers continue with deeper information they would have held back
+- Some reveal what they really came to discuss
+- Others share something they'd never articulated before
+- Even silence is valuable data about their comfort level
 
 Most people can't handle 2 seconds of silence. At 5 seconds, you become memorable.
 
@@ -360,23 +360,23 @@ Repeat their last 3 words as a question. "Left the company?" They'll elaborate w
 
 "What should I have asked that I didn't?" Surfaces what they really came to discuss.
 
-## The ROI of Better Listening (Real Numbers)
+## The ROI of Better Listening
 
-We tracked 100 people who implemented these techniques for 90 days:
+When people commit to improving their listening skills, they typically experience:
 
 **Professional Impact:**
 
-- 73% reported improved work relationships
-- 45% received unexpected opportunities
-- 38% resolved long-standing conflicts
-- 67% felt more influential in meetings
+- Improved work relationships and trust
+- Unexpected opportunities (people share more with good listeners)
+- Resolution of long-standing conflicts
+- Greater influence in meetings
 
 **Personal Impact:**
 
-- 81% reported deeper friendships
-- 64% said romantic relationships improved
-- 91% felt less anxious in social situations
-- 55% discovered something important they'd been missing
+- Deeper friendships built on genuine understanding
+- Improved romantic relationships through better communication
+- Less anxiety in social situations
+- Discovery of important information they'd been missing
 
 ## Common Objections (And Why They're Wrong)
 
@@ -427,9 +427,9 @@ The conversation starts now. But more importantly—the listening does.
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "The Counterintuitive Guide to Active Listening by Personality Type",
-  "description": "Master active listening techniques customized for your Enneagram type, backed by neuroscience and personality psychology.",
+  "@type": "Article",
+  "headline": "The Counterintuitive Guide to Active Listening: Why Your Personality Type Sabotages Conversations (And How to Fix It)",
+  "description": "Most people think they're good listeners. They're wrong. Here's the personality-based system that transforms how you connect, backed by neuroscience and Enneagram insights.",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
@@ -440,6 +440,8 @@ The conversation starts now. But more importantly—the listening does.
       "https://twitter.com/djwayne3"
     ]
   },
+  "datePublished": "2025-09-14",
+  "dateModified": "2025-12-09",
   "publisher": {
     "@type": "Organization",
     "name": "9takes",
@@ -452,41 +454,18 @@ The conversation starts now. But more importantly—the listening does.
       "https://twitter.com/9takesdotcom"
     ]
   },
-  "totalTime": "PT30M",
-  "supply": [
-    "Focused attention",
-    "Open mind",
-    "Patience",
-    "Timer (optional)",
-    "Notebook (optional)"
-  ],
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Identify Your Listening Personality Type",
-      "text": "Determine which of the 9 Enneagram types matches your listening pattern and identify your specific kryptonite."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Master the 5-Second Rule",
-      "text": "When someone stops talking, wait 5 full seconds before responding to unlock deeper conversation."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Practice Your Type-Specific Fix",
-      "text": "Use the tactical fixes designed for your personality type to overcome your natural listening blocks."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Listen in 4 Layers",
-      "text": "Move beyond words to notice tone, body language, and what's not being said."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Complete the 30-Day Challenge",
-      "text": "Follow the week-by-week progression customized for personality-based listening improvement."
-    }
-  ]
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/how-to-guides/ultimate-guide-to-active-listening"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/blogs/greek-statues-having-an-intense-conversation.webp",
+    "width": 1200,
+    "height": 630
+  },
+  "articleBody": "The most successful people don't talk the most. They listen the best. When you look at listening through the Enneagram lens, a pattern emerges: Each personality type has a specific listening kryptonite that sabotages their conversations in predictable ways.",
+  "keywords": "active listening, how to listen better, conversation skills, communication techniques, empathy in conversation, listening in arguments, professional listening skills, enneagram listening"
 }
 </script>
 

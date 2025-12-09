@@ -4,7 +4,7 @@ description: 'Discover how your Enneagram type shapes your love language. Comple
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/love-languages-and-enneagram-types'
-lastmod: '2025-08-25'
+lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
@@ -32,7 +32,7 @@ Keyword Strategy:
 
 Here's what nobody tells you about love languages: **The traditional "5 love languages" quiz only scratches the surface.** Your Enneagram type reveals not just HOW you prefer to receive love, but WHY you need it that way—and how your personality unconsciously sabotages the love you're seeking.
 
-After analyzing thousands of relationships across all 45 personality + love language combinations, we've discovered something profound:
+When you combine Enneagram theory with love language patterns, a deeper truth emerges:
 
 > **Your love language is your core wound asking to be healed.**
 
@@ -805,7 +805,7 @@ The most profound relationships happen when two people understand not just how t
     "name": "DJ Wayne"
   },
   "datePublished": "2025-08-25",
-  "dateModified": "2025-08-25",
+  "dateModified": "2025-12-09",
   "publisher": {
     "@type": "Organization",
     "name": "9takes",

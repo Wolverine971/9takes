@@ -11,7 +11,7 @@ path: docs/README.md
 
 **Start Here:** [`START-HERE.md`](./START-HERE.md) — Current strategy and priorities
 
-**For AI Agents:** [`AGENT-PROMPT.md`](./AGENT-PROMPT.md) — Condensed instructions
+**For AI Agents:** [`AGENT-PROMPT-FOR-CONTENT-STRATEGY.md`](./AGENT-PROMPT-FOR-CONTENT-STRATEGY.md) — Condensed instructions
 
 **Active Plan:** [`30-DAY-ACTION-PLAN-DEC-2025.md`](./30-DAY-ACTION-PLAN-DEC-2025.md)
 
