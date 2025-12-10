@@ -12,8 +12,8 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "Hozier.png" -o "Hozier.webp"
-cwebp -sns 70 -f 50 -size 20000 "Hozier.webp" -o "./s-Hozier.webp"
-
+cwebp "Alexis-Bledel.png" -o "Alexis-Bledel.webp"
+cwebp -sns 70 -f 50 -size 20000 "Alexis-Bledel.webp" -o "./s-Alexis-Bledel.webp"
+Alexis-Bledel
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->
