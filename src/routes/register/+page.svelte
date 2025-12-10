@@ -3,11 +3,31 @@
 	import { enhance } from '$app/forms';
 	import { goto, invalidateAll } from '$app/navigation';
 	import { fade, fly } from 'svelte/transition';
+	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { PUBLIC_TURNSTILE_SITE_KEY } from '$env/static/public';
 
 	let email = '';
 	let password = '';
 	let loading = false;
+	let turnstileLoaded = false;
+
+	onMount(() => {
+		if (browser && !document.getElementById('turnstile-script')) {
+			const script = document.createElement('script');
+			script.id = 'turnstile-script';
+			script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+			script.async = true;
+			script.defer = true;
+			script.onload = () => {
+				turnstileLoaded = true;
+			};
+			document.head.appendChild(script);
+		} else if (browser) {
+			turnstileLoaded = true;
+		}
+	});
 
 	function handleSubmit() {
 		loading = true;
@@ -77,6 +97,26 @@
 				class="rounded border border-neutral-300 px-3 py-3 text-base transition-all duration-300 focus:border-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400/20"
 			/>
 		</div>
+
+		<!-- Honeypot field - hidden from real users, bots will fill it -->
+		<div class="absolute -left-[9999px] opacity-0" aria-hidden="true">
+			<label for="website">Website</label>
+			<input
+				type="text"
+				id="website"
+				name="website"
+				tabindex="-1"
+				autocomplete="off"
+			/>
+		</div>
+
+		<!-- Cloudflare Turnstile CAPTCHA -->
+		<div
+			class="cf-turnstile"
+			data-sitekey={PUBLIC_TURNSTILE_SITE_KEY}
+			data-theme="light"
+		></div>
+
 		<button
 			type="submit"
 			class="cursor-pointer rounded-lg border-none bg-primary-700 px-5 py-3 text-base text-white transition-all duration-300 hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 active:translate-y-px disabled:cursor-not-allowed disabled:opacity-70"

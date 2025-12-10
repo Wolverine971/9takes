@@ -23,6 +23,30 @@ Keyword Strategy:
 - Long-tail: how different personalities experience depression, depression patterns by type
 -->
 
+<script>
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+</script>
+
+<QuickAnswer question="How does depression manifest differently by Enneagram type?">
+Each type experiences depression through their core fear. Type 1s face perfectionist paralysis ("I'm fundamentally flawed"). Type 2s feel unloved despite giving ("No one loves me for who I am"). Type 3s experience identity collapse ("Without achievements, I'm nothing"). Type 4s sink into defectiveness ("I'm missing something essential"). Type 5s feel depleted ("I can't handle life's demands"). Type 6s lose all security ("The world is dangerous, I'm alone"). Type 7s face trapped emptiness ("I can't escape this pain"). Type 8s feel powerless ("I've been betrayed, I'm weak"). Type 9s disappear ("I don't matter").
+</QuickAnswer>
+
+**Read time**: 25 minutes | **Key insight**: Your type's core fear creates your unique depression pattern
+
+## Depression Patterns Comparison Table
+
+| Type       | Core Depression Pattern              | Primary Trigger          | Warning Sign                       | Healing Path                       |
+| ---------- | ------------------------------------ | ------------------------ | ---------------------------------- | ---------------------------------- |
+| **Type 1** | Perfectionist paralysis              | Making major mistakes    | "Nothing is ever good enough"      | Self-compassion practice           |
+| **Type 2** | Emptiness despite giving             | Feeling unappreciated    | Resentment from over-giving        | Learn to receive, set boundaries   |
+| **Type 3** | Identity collapse                    | Public failure           | Can't stop working, feel empty     | Discover authentic self            |
+| **Type 4** | Defectiveness and longing            | Feeling ordinary         | Comparing self to "complete" others| Embrace wholeness, ordinary beauty |
+| **Type 5** | Withdrawal and depletion             | Overwhelming demands     | Complete isolation from support    | Small connections, body awareness  |
+| **Type 6** | Chronic anxiety spiral               | Betrayal or instability  | Catastrophizing everything         | Build internal security            |
+| **Type 7** | Manic activity masking emptiness     | Being trapped in pain    | Frantic escape, substance use      | Stay with difficult emotions       |
+| **Type 8** | Rage masking vulnerability           | Betrayal or powerlessness| Aggressive isolation               | Practice vulnerability             |
+| **Type 9** | Numbness and self-erasure            | Forced conflict          | Complete disconnection from desires| Reclaim voice and preferences      |
+
 <p class="firstLetter">Depression isn't one-size-fits-all. Your Enneagram type determines how you experience it, what triggers it, and most importantly - how to heal from it.</p>
 
 When you look at mental health through the Enneagram lens, something profound becomes clear: **Depression has a personality.**
@@ -1092,56 +1116,104 @@ The emotions behind your depression make complete sense. The pattern can be lovi
 
 **Ready to dive deeper into type-specific healing?** Start with practical strategies in our comprehensive guide: [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression). Then explore how all 9 types navigate mental health challenges in real-time on [9takes](/questions). Because healing happens not just in therapy rooms, but in the authentic sharing of our struggles and strengths with others who truly understand.
 
+## FAQs About Depression and Enneagram Types
+
+**Which Enneagram type is most prone to depression?**
+Research suggests Type 4s (Individualists) report the highest rates of depression, followed by Type 6s (Loyalists) and Type 1s (Perfectionists). However, every type experiences depression—just differently. Type 4s are most likely to identify with and even romanticize melancholy, while Type 3s and 7s may mask depression so effectively that even they don't recognize it.
+
+**Can understanding my Enneagram type help treat depression?**
+Yes, but as a complement to professional treatment, not a replacement. Knowing your type helps you understand your specific triggers, recognize early warning signs, and choose coping strategies that work for your personality. A Type 5 might need to focus on small social connections, while a Type 2 needs to practice receiving care instead of giving it.
+
+**Why do some types hide depression better than others?**
+Types with image-conscious or positive-presentation patterns (3, 7, and sometimes 2) are particularly skilled at masking depression. Type 3s fear appearing unsuccessful, Type 7s avoid negative emotions reflexively, and Type 2s focus on others' needs to avoid their own. These types may experience "smiling depression"—looking fine while suffering internally.
+
+**How do I know if I'm depressed or just stressed in my type's typical way?**
+Duration and intensity are key. Stress patterns are temporary responses to situations—they lift when circumstances change. Depression persists regardless of external changes. If your type's typical stress behaviors (Type 1 criticism, Type 6 anxiety, Type 9 numbing) continue for weeks without relief, interfere with daily functioning, or include thoughts of hopelessness, seek professional evaluation.
+
+**Can therapy be tailored to Enneagram type?**
+Yes, and it's increasingly common. A Type 1 might benefit from self-compassion-focused CBT, while a Type 5 might prefer a more analytical approach. Type 8s often respond to direct, challenging therapeutic styles, while Type 4s may need space for emotional processing. Many therapists now incorporate Enneagram awareness into their practice.
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Depression Patterns by Enneagram Type: How Your Personality Shapes Your Mental Health",
-  "description": "How depression manifests differently across all 9 Enneagram types. Understand your unique patterns, triggers, and pathways to healing based on your personality type.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
-  },
-  "datePublished": "2025-08-16",
-  "dateModified": "2025-12-09",
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/depression-patterns-by-enneagram-type"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/faces-of-depression.webp",
-    "width": 1200,
-    "height": 630
-  },
-  "articleBody": "Depression isn't one-size-fits-all. Your Enneagram type determines how you experience it, what triggers it, and most importantly - how to heal from it. This comprehensive guide explores depression patterns across all 9 types.",
-  "wordCount": 7842,
-  "keywords": "depression by personality type, enneagram depression, mental health by type, depression patterns, personality and depression, type-specific therapy",
-  "articleSection": "Mental Health",
-  "inLanguage": "en-US",
-  "about": {
-    "@type": "Thing",
-    "name": "Depression",
-    "description": "A mood disorder characterized by persistent sadness and loss of interest"
-  },
-  "mentions": [
+  "@graph": [
     {
-      "@type": "Thing",
-      "name": "Enneagram",
-      "description": "A system of nine personality types"
+      "@type": "Article",
+      "headline": "Depression Patterns by Enneagram Type: How Your Personality Shapes Your Mental Health",
+      "description": "How depression manifests differently across all 9 Enneagram types. Understand your unique patterns, triggers, and pathways to healing based on your personality type.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
+      },
+      "datePublished": "2025-08-16",
+      "dateModified": "2025-12-09",
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/enneagram-corner/depression-patterns-by-enneagram-type"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://9takes.com/blogs/faces-of-depression.webp",
+        "width": 1200,
+        "height": 630
+      },
+      "wordCount": 8500,
+      "keywords": "depression by personality type, enneagram depression, mental health by type, depression patterns, personality and depression, type-specific therapy",
+      "articleSection": "Mental Health"
     },
     {
-      "@type": "Thing",
-      "name": "Mental Health",
-      "description": "Emotional, psychological, and social well-being"
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type is most prone to depression?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Research suggests Type 4s (Individualists) report the highest rates of depression, followed by Type 6s (Loyalists) and Type 1s (Perfectionists). However, every type experiences depression—just differently. Type 4s are most likely to identify with melancholy, while Type 3s and 7s may mask depression so effectively that even they don't recognize it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can understanding my Enneagram type help treat depression?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but as a complement to professional treatment, not a replacement. Knowing your type helps you understand your specific triggers, recognize early warning signs, and choose coping strategies that work for your personality. A Type 5 might need to focus on small social connections, while a Type 2 needs to practice receiving care instead of giving it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do some Enneagram types hide depression better than others?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Types with image-conscious or positive-presentation patterns (3, 7, and sometimes 2) are particularly skilled at masking depression. Type 3s fear appearing unsuccessful, Type 7s avoid negative emotions reflexively, and Type 2s focus on others' needs to avoid their own. These types may experience 'smiling depression'—looking fine while suffering internally."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if I'm depressed or just stressed in my type's typical way?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Duration and intensity are key. Stress patterns are temporary responses to situations—they lift when circumstances change. Depression persists regardless of external changes. If your type's typical stress behaviors continue for weeks without relief, interfere with daily functioning, or include thoughts of hopelessness, seek professional evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can therapy be tailored to Enneagram type?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and it's increasingly common. A Type 1 might benefit from self-compassion-focused CBT, while a Type 5 might prefer a more analytical approach. Type 8s often respond to direct, challenging therapeutic styles, while Type 4s may need space for emotional processing. Many therapists now incorporate Enneagram awareness into their practice."
+          }
+        }
+      ]
     }
   ]
 }

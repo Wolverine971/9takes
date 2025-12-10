@@ -23,6 +23,14 @@ Keyword Strategy:
 - Long-tail: which enneagram types are most compatible, enneagram compatibility matrix, enneagram type compatibility in relationships
 -->
 
+<script>
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+</script>
+
+<QuickAnswer question="Which Enneagram types are most compatible?">
+There's no universally "best" pairing—compatibility depends on health levels, not type combinations. That said, commonly successful pairings include: Type 2 + Type 8 (nurturing meets protection), Type 4 + Type 5 (depth meets stability), Type 1 + Type 7 (structure meets spontaneity), and Type 3 + Type 9 (ambition meets peace). Same-type pairings create either profound understanding or explosive conflict. The healthiest relationships occur when both partners are at similar developmental levels, regardless of type.
+</QuickAnswer>
+
 <p class="firstLetter">Your perfect match isn't who you think it is. And your worst enemy might be your greatest teacher.</p>
 
 Enneagram theory reveals something surprising about relationship compatibility: **The couples who look perfect on paper often struggle the most, while the "incompatible" pairs create the deepest transformations.**

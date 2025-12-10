@@ -149,35 +149,47 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 
 ## 🔥 IMMEDIATE PRIORITIES
 
-### Priority 1: TIER 2 Celebrity Optimizations ← CURRENT
+### ✅ COMPLETED (Dec 9)
 
-Next batch (10 pages, 3,000-5,000 impressions each):
-
-| Celebrity      | Impressions | CTR   | Key Angle                   |
-| -------------- | ----------- | ----- | --------------------------- |
-| Sydney Sweeney | 4,807       | 0.37% | Break the blonde stereotype |
-| Dua Lipa       | 4,753       | 0.42% | Confidence and boundaries   |
-| Drake          | 4,684       | 0.45% | Emotional vulnerability     |
-| Ryan Gosling   | 4,539       | 0.55% | Silent intensity            |
-| Mr Beast       | 4,287       | 0.51% | Obsessive generosity        |
-| Justin Bieber  | 4,165       | 0.38% | Mental health journey       |
-| Johnny Depp    | 3,977       | 0.20% | Eccentricity explained      |
-| Lana Del Rey   | 3,907       | 0.33% | Melancholy persona          |
-| Keanu Reeves   | 3,877       | 0.57% | Why is he so kind?          |
-| Bob Dylan      | 4,035       | 1.31% | Light touch only            |
-
-See `/docs/content-generation/celebrity-page-optimization-instructions.md`
-
-### Priority 2: Week 1 Review (Dec 10)
-
-- Check GSC for early signals on new posts
-- Document Week 1 accomplishments
-
-### ✅ COMPLETED (Dec 7)
-
-- [x] All 5 problem-focused posts published
+- [x] All 5 problem-focused posts published (Dec 7)
 - [x] TIER 1 celebrities optimized (10 pages)
+- [x] TIER 2 celebrities optimized (10 pages) - Dec 9
 - [x] Internal linking done - see `/docs/BLOG-CROSSLINK-INDEX.md`
+
+### ✅ FAQ Expansions COMPLETE (Dec 9)
+
+Added FAQ sections with JSON-LD schema to:
+- enneagram-anxiety-complete-guide (5 FAQs)
+- enneagram-instinctual-subtypes (5 FAQs)
+- depression-patterns-by-enneagram-type (5 FAQs + QuickAnswer + Table)
+
+*Note: Many pages already had FAQs (mental-illness, toxic-traits, stress, attachment, wings)*
+
+### ✅ Comparison Tables COMPLETE (Dec 9)
+
+Added comparison tables and QuickAnswers to:
+- enneagram-compatibility-matrix (QuickAnswer)
+- enneagram-types-in-relationships (QuickAnswer + Table)
+- enneagram-wings-complete-guide (18 wing combos table)
+- depression-patterns-by-enneagram-type (patterns table)
+
+### ✅ AI Optimization VERIFIED (Dec 9)
+
+Researched best practices. Google's guidance: "Same SEO best practices apply—no additional requirements for AI Overviews."
+
+**Top pages verified - all have:**
+- QuickAnswer boxes (direct answers for featured snippets)
+- Comparison tables (scannable, AI-parseable)
+- FAQ sections with JSON-LD schema
+- Fresh lastmod dates
+
+**Added today:**
+- Comparison table to red-flags-dating post
+- Updated lastmod dates across edited pages
+
+### Priority 1: Week 1 Review ← CURRENT (Tomorrow Dec 10)
+
+Check GSC for early signals on 5 new posts. Document accomplishments.
 
 ---
 

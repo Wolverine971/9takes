@@ -1,6 +1,7 @@
 // src/routes/book-session/+page.server.ts
 import { fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
+import { verifyTurnstile } from '$lib/utils/turnstile';
 
 // Common disposable email domains
 const DISPOSABLE_EMAIL_DOMAINS = new Set([
@@ -87,6 +88,21 @@ export const actions: Actions = {
 			console.log(`[BOT DETECTED] Honeypot triggered from IP: ${ipAddress}`);
 			// Return success to fool the bot, but don't actually save
 			return { success: true, message: 'You have been added to our waitlist!' };
+		}
+
+		// 1.5. Turnstile CAPTCHA verification
+		const turnstileToken = formData.get('cf-turnstile-response') as string;
+		const turnstileValid = await verifyTurnstile(turnstileToken, ipAddress);
+		if (!turnstileValid) {
+			console.log(`[BOT DETECTED] Turnstile verification failed from IP: ${ipAddress}`);
+			return fail(400, {
+				success: false,
+				message: 'CAPTCHA verification failed. Please try again.',
+				name,
+				email,
+				enneagramType,
+				sessionGoal
+			});
 		}
 
 		// 2. Time-based validation - bots submit too fast

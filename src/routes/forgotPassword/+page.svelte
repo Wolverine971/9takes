@@ -1,12 +1,26 @@
 <!-- src/routes/forgotPassword/+page.svelte -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
+	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
 	import type { ActionData } from './$types';
+	import { PUBLIC_TURNSTILE_SITE_KEY } from '$env/static/public';
 
 	export let form: ActionData;
 
 	let email = '';
 	let submitting = false;
+
+	onMount(() => {
+		if (browser && !document.getElementById('turnstile-script')) {
+			const script = document.createElement('script');
+			script.id = 'turnstile-script';
+			script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+			script.async = true;
+			script.defer = true;
+			document.head.appendChild(script);
+		}
+	});
 
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
 </script>
@@ -62,6 +76,25 @@
 					{form.error}
 				</div>
 			{/if}
+
+			<!-- Honeypot field - hidden from real users, bots will fill it -->
+			<div class="absolute -left-[9999px] opacity-0" aria-hidden="true">
+				<label for="company">Company</label>
+				<input
+					type="text"
+					id="company"
+					name="company"
+					tabindex="-1"
+					autocomplete="off"
+				/>
+			</div>
+
+			<!-- Cloudflare Turnstile CAPTCHA -->
+			<div
+				class="cf-turnstile"
+				data-sitekey={PUBLIC_TURNSTILE_SITE_KEY}
+				data-theme="light"
+			></div>
 
 			<button
 				type="submit"

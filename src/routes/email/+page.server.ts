@@ -115,10 +115,29 @@ export const actions: Actions = {
 		}
 
 		const { email, suggestedPerson } = validatedData;
+		const normalizedEmail = email.toLowerCase().trim();
+
+		// Server-side rate limiting: max 3 suggestions per email per 24 hours
+		const twentyFourHoursAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+		const { count, error: countError } = await supabase
+			.from('person_suggestions')
+			.select('*', { count: 'exact', head: true })
+			.eq('email', normalizedEmail)
+			.gte('created_at', twentyFourHoursAgo);
+
+		if (countError) {
+			logger.error('Failed to check rate limit', countError, { email: normalizedEmail });
+			// Continue with submission if rate limit check fails
+		} else if (count !== null && count >= 3) {
+			logger.warn('Rate limit exceeded for person suggestion', { email: normalizedEmail, count });
+			throw error(429, {
+				message: 'Too many suggestions. Please try again in 24 hours.'
+			});
+		}
 
 		const { error: insertError } = await supabase
 			.from('person_suggestions')
-			.insert([{ email: email, person_name: suggestedPerson }]);
+			.insert([{ email: normalizedEmail, person_name: suggestedPerson }]);
 
 		if (insertError) {
 			logger.error('Failed to insert person suggestion', insertError, { email, suggestedPerson });

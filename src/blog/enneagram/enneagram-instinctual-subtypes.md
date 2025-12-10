@@ -343,87 +343,125 @@ Discovering your **Enneagram Instinctual Subtype** adds an extra layer of depth 
 
 If you enjoy personality explorations, explore our [questions](https://9takes.com/questions) for a deeper dive into Enneagram-based self-awareness. Remember: self-discovery is a continuous journey—embrace the process and let your instinctual subtype guide you toward a richer understanding of who you are.
 
+## FAQs About Enneagram Instinctual Subtypes
+
+**How do I find my instinctual subtype?**
+Observe which domain consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort—often unconsciously.
+
+**Can your instinctual subtype change over time?**
+Your core instinctual stacking (sp/so/sx order) tends to remain stable, but you can develop your weaker instincts through conscious effort. Many people report their secondary instinct becoming more accessible with growth, while the "blind spot" instinct requires the most intentional work to develop.
+
+**What's the difference between the Sexual subtype and sexuality?**
+Despite the name, the Sexual (One-to-One) instinct isn't about sex—it's about intensity and deep connection. It drives the desire for chemistry, merger, and transformative relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences.
+
+**Why do two people with the same Enneagram type seem so different?**
+Instinctual subtypes are often the reason. A Social 7 focused on group fun and FOMO looks very different from a Self-Preservation 7 focused on personal pleasures and resource abundance. The same core fears and motivations express through different instinctual channels.
+
+**What is a "countertype" and how does it work?**
+Each Enneagram type has one subtype that goes against the type's typical pattern. For example, Self-Preservation 6 (counterphobic) faces fears aggressively rather than seeking security, looking more like an 8. Countertypes can be harder to identify because they mask typical type characteristics.
+
 <svelte:head>
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "about": {
-      "@type": "Thing",
-      "name": "Enneagram of Personality",
-      "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-      "SameAs": [
-        "https://www.wikidata.org/wiki/Q273047",
-        "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-      ]
-    },
-    "articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life.",
-    "author": {
-      "@type": "Person",
-      "name": "DJ Wayne",
-      "sameAs": [
-        "https://www.instagram.com/djwayne3/",
-        "https://www.youtube.com/@djwayne3",
-        "https://www.linkedin.com/in/davidtwayne/",
-        "https://twitter.com/djwayne3"
-      ]
-    },
-    "dateModified": "2025-01-22",
-    "datePublished": "2023-02-28",
-    "description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
-    "headline": "Understanding Enneagram Instinctual Subtypes",
-    "image": {
-      "@type": "ImageObject",
-      "height": 965,
-      "url": "https://9takes.com/blogs/neoclassical-fortress2.webp",
-      "width": 685
-    },
-    "mainEntityOfPage": {
-      "@id": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
-      "@type": "WebPage"
-    },
-    "keywords": [
-      "Enneagram subtypes",
-      "instinctual subtypes",
-      "self-preservation",
-      "social instinct",
-      "one-to-one instinct",
-      "sexual instinct",
-      "Enneagram instincts",
-      "subtype stacking",
-      "Enneagram variants",
-      "personality subtypes",
-      "instinctual drives",
-      "survival instincts",
-      "relationship patterns",
-      "personal growth",
-      "Enneagram theory"
-    ],
-    "wordCount": 2236,
-    "articleSection": "Enneagram",
-    "url": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
-    "mentions": {
-      "@type": "Thing",
-      "name": "Enneagram of Personality",
-      "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-      "SameAs": [
-        "https://www.wikidata.org/wiki/Q273047",
-        "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-      ]
-    },
-    "publisher": {
-      "@type": "Organization",
-      "sameAs": [
-        "https://www.instagram.com/9takesdotcom/",
-        "https://twitter.com/9takesdotcom"
-      ],
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/brand/aero.png"
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "about": {
+          "@type": "Thing",
+          "name": "Enneagram of Personality",
+          "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types.",
+          "SameAs": [
+            "https://www.wikidata.org/wiki/Q273047",
+            "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+          ]
+        },
+        "articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior.",
+        "author": {
+          "@type": "Person",
+          "name": "DJ Wayne",
+          "sameAs": [
+            "https://www.instagram.com/djwayne3/",
+            "https://www.youtube.com/@djwayne3",
+            "https://www.linkedin.com/in/davidtwayne/",
+            "https://twitter.com/djwayne3"
+          ]
+        },
+        "dateModified": "2025-12-09",
+        "datePublished": "2023-02-28",
+        "description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
+        "headline": "Understanding Enneagram Instinctual Subtypes",
+        "image": {
+          "@type": "ImageObject",
+          "height": 965,
+          "url": "https://9takes.com/blogs/neoclassical-fortress2.webp",
+          "width": 685
+        },
+        "mainEntityOfPage": {
+          "@id": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
+          "@type": "WebPage"
+        },
+        "keywords": ["Enneagram subtypes", "instinctual subtypes", "self-preservation", "social instinct", "one-to-one instinct", "sexual instinct", "subtype stacking", "countertype"],
+        "wordCount": 2500,
+        "articleSection": "Enneagram",
+        "url": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
+        "publisher": {
+          "@type": "Organization",
+          "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://9takes.com/brand/aero.png"
+          },
+          "name": "9takes"
+        }
       },
-      "name": "9takes"
-    }
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I find my instinctual subtype?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Observe which domain consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort—often unconsciously."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can your instinctual subtype change over time?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your core instinctual stacking tends to remain stable, but you can develop your weaker instincts through conscious effort. Many people report their secondary instinct becoming more accessible with growth, while the 'blind spot' instinct requires the most intentional work to develop."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the difference between the Sexual subtype and sexuality?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Despite the name, the Sexual (One-to-One) instinct isn't about sex—it's about intensity and deep connection. It drives the desire for chemistry, merger, and transformative relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why do two people with the same Enneagram type seem so different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Instinctual subtypes are often the reason. A Social 7 focused on group fun and FOMO looks very different from a Self-Preservation 7 focused on personal pleasures and resource abundance. The same core fears and motivations express through different instinctual channels."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a countertype and how does it work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Each Enneagram type has one subtype that goes against the type's typical pattern. For example, Self-Preservation 6 (counterphobic) faces fears aggressively rather than seeking security, looking more like an 8. Countertypes can be harder to identify because they mask typical type characteristics."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 

@@ -3,6 +3,7 @@ import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { AuthApiError } from '@supabase/supabase-js';
 import type { PageServerLoad } from './$types';
 import { logger } from '$lib/utils/logger';
+import { verifyTurnstile, isHoneypotTriggered } from '$lib/utils/turnstile';
 import { z } from 'zod';
 
 // Validation schema
@@ -24,10 +25,34 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	register: async ({ request, locals }) => {
+	register: async ({ request, locals, getClientAddress }) => {
 		try {
 			const formData = await request.formData();
 			const body = Object.fromEntries(formData);
+
+			// Check honeypot field first (bots will fill this)
+			const honeypot = formData.get('website') as string | null;
+			if (isHoneypotTriggered(honeypot)) {
+				logger.warn('Honeypot triggered on registration', {
+					email: body.email
+				});
+				// Return success to not alert the bot, but don't actually register
+				return { success: true };
+			}
+
+			// Verify Turnstile CAPTCHA
+			const turnstileToken = formData.get('cf-turnstile-response') as string;
+			const clientIP = getClientAddress();
+			const turnstileValid = await verifyTurnstile(turnstileToken, clientIP);
+
+			if (!turnstileValid) {
+				logger.warn('Turnstile verification failed on registration', {
+					email: body.email
+				});
+				return fail(400, {
+					error: 'CAPTCHA verification failed. Please try again.'
+				});
+			}
 
 			// Validate input
 			const validatedData = registerSchema.parse(body);

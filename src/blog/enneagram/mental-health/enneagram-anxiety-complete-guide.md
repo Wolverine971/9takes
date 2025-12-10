@@ -626,6 +626,23 @@ Understanding how your Enneagram type experiences and can manage anxiety is a ga
 
 Remember: This guide is for educational purposes only. If you're struggling with anxiety, please reach out to a [qualified mental health professional](/enneagram-corner/mental-health/enneagram-therapy-guide) who can provide personalized support.
 
+## FAQs About Enneagram and Anxiety
+
+**Which Enneagram type has the most anxiety?**
+While Type 6 is known as "The Loyalist" and experiences security-based anxiety most visibly, every type experiences significant anxiety—just in different forms. Type 1s struggle with perfectionist anxiety, Type 4s with identity anxiety, and Type 3s with failure anxiety. Research suggests Type 6s may report anxiety more often, but Types 1, 2, and 4 show comparable anxiety levels when measured physiologically.
+
+**Can your Enneagram type change when you're anxious?**
+Your core type doesn't change, but you may exhibit traits of your stress direction. Under anxiety, Type 1s can look like unhealthy 4s (dramatic, withdrawn), Type 6s like unhealthy 3s (image-focused, competitive), and Type 9s like unhealthy 6s (paranoid, reactive). Recognizing these patterns helps you understand you're not "changing"—you're showing predictable stress responses.
+
+**What's the difference between normal anxiety and an anxiety disorder?**
+Normal anxiety is temporary and proportional to a stressor. An anxiety disorder involves persistent, excessive worry that interferes with daily life. If your type-specific anxiety patterns (perfectionism for 1s, rejection fear for 2s, etc.) consume more than an hour daily, cause significant distress, or prevent you from functioning, consider professional evaluation.
+
+**How can I help someone with anxiety based on their Enneagram type?**
+For Body types (8, 9, 1): Offer physical grounding—walk together, provide safe space for anger. For Heart types (2, 3, 4): Validate emotions without fixing, remind them of their worth beyond performance. For Head types (5, 6, 7): Give information and time, don't dismiss their concerns as irrational, help them return to present reality.
+
+**Do anxiety medications work differently for different Enneagram types?**
+While medications work on neurochemistry regardless of type, how each type responds to treatment may vary. Type 5s may prefer understanding the mechanism before taking medication. Type 6s may need reassurance about side effects. Type 7s may resist anything that feels limiting. Always work with a psychiatrist who understands your concerns and personality factors.
+
 <svelte:head>
 
 <script type="application/ld+json">
@@ -645,7 +662,7 @@ Remember: This guide is for educational purposes only. If you're struggling with
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-12-03",
+      "dateModified": "2025-12-09",
       "datePublished": "2025-08-25",
       "description": "Think anxiety is just a Type 6 thing? Wrong. Every Enneagram type has a unique anxiety pattern that sabotages them differently. Discover your type's hidden anxiety triggers and the exact coping strategies that actually work for your personality.",
       "headline": "Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety Pattern)",
@@ -668,6 +685,51 @@ Remember: This guide is for educational purposes only. If you're struggling with
         }
       },
       "keywords": ["enneagram anxiety", "anxiety disorders", "personality types", "mental health", "coping strategies", "grounding exercises", "anxiety management"]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type has the most anxiety?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While Type 6 is known as 'The Loyalist' and experiences security-based anxiety most visibly, every type experiences significant anxiety—just in different forms. Type 1s struggle with perfectionist anxiety, Type 4s with identity anxiety, and Type 3s with failure anxiety. Research suggests Type 6s may report anxiety more often, but Types 1, 2, and 4 show comparable anxiety levels when measured physiologically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can your Enneagram type change when you're anxious?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your core type doesn't change, but you may exhibit traits of your stress direction. Under anxiety, Type 1s can look like unhealthy 4s (dramatic, withdrawn), Type 6s like unhealthy 3s (image-focused, competitive), and Type 9s like unhealthy 6s (paranoid, reactive). Recognizing these patterns helps you understand you're not 'changing'—you're showing predictable stress responses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between normal anxiety and an anxiety disorder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normal anxiety is temporary and proportional to a stressor. An anxiety disorder involves persistent, excessive worry that interferes with daily life. If your type-specific anxiety patterns consume more than an hour daily, cause significant distress, or prevent you from functioning, consider professional evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I help someone with anxiety based on their Enneagram type?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Body types (8, 9, 1): Offer physical grounding—walk together, provide safe space for anger. For Heart types (2, 3, 4): Validate emotions without fixing, remind them of their worth beyond performance. For Head types (5, 6, 7): Give information and time, don't dismiss their concerns as irrational, help them return to present reality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do anxiety medications work differently for different Enneagram types?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While medications work on neurochemistry regardless of type, how each type responds to treatment may vary. Type 5s may prefer understanding the mechanism before taking medication. Type 6s may need reassurance about side effects. Type 7s may resist anything that feels limiting. Always work with a psychiatrist who understands your concerns and personality factors."
+          }
+        }
+      ]
     }
   ]
 }

@@ -5,6 +5,7 @@
 	import { enhance } from '$app/forms';
 	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { PUBLIC_TURNSTILE_SITE_KEY } from '$env/static/public';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -17,6 +18,16 @@
 	let formLoadTime = 0;
 	onMount(() => {
 		formLoadTime = Date.now();
+
+		// Load Turnstile script
+		if (browser && !document.getElementById('turnstile-script')) {
+			const script = document.createElement('script');
+			script.id = 'turnstile-script';
+			script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+			script.async = true;
+			script.defer = true;
+			document.head.appendChild(script);
+		}
 	});
 
 	/* -------------------- SEO -------------------- */
@@ -289,6 +300,14 @@
 									Helps tailor your session (600 characters max).
 								</p>
 							</div>
+
+							<!-- Cloudflare Turnstile CAPTCHA -->
+							<div
+								class="cf-turnstile"
+								data-sitekey={PUBLIC_TURNSTILE_SITE_KEY}
+								data-theme="light"
+							></div>
+
 							{#if form?.message && !form?.success}
 								<div class="text-sm text-red-500">{form.message}</div>
 							{/if}
