@@ -375,7 +375,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type</loc>
-    <lastmod>2025-08-15T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -474,7 +474,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-communication-styles</loc>
-    <lastmod>2025-08-15T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -741,7 +741,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-types-at-party</loc>
-    <lastmod>2025-10-23T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -750,7 +750,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-types-being-ghosted</loc>
-    <lastmod>2025-10-23T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -759,7 +759,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-types-in-relationships</loc>
-    <lastmod>2025-08-15T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -777,7 +777,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date</loc>
-    <lastmod>2025-02-25T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -804,7 +804,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-wings-complete-guide</loc>
-    <lastmod>2025-10-23T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -939,7 +939,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/red-flags-dating-each-enneagram-type</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1232,15 +1232,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Madison-Beer.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Zayn-Malik</loc>
-    <lastmod>2024-10-30T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Zayn-Malik.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2663,6 +2654,42 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Will-Smith.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Zayn-Malik</loc>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Zayn-Malik.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Hozier</loc>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Hozier.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Jocko-Willink</loc>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Jocko-Willink.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Theo-Von</loc>
+    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Theo-Von.webp</image:loc>
     </image:image>
 </url>
 <url>

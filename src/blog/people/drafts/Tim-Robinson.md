@@ -65,13 +65,13 @@ In high school, Tim ran with skateboarders—a laid-back clique that prioritized
 
 Then he saw a Second City comedy show in Chicago with his mother during a Chrysler work trip, and something clicked. "When I came home I realized there was one in my backyard, so I started taking classes there in high school."
 
-This is how Type 4s find their calling—not through calculated career planning, but through an emotional recognition: *This is how I express what's inside me.*
+This is how Type 4s find their calling—not through calculated career planning, but through an emotional recognition: _This is how I express what's inside me._
 
 ## From Second City to Saturday Night Live: The Rise and Fall and Rise
 
 Tim began studying improv at Second City Detroit during his senior year of high school in 1999. There he met a young Sam Richardson, who became his improv student when Tim was just 21—and his lifelong best friend.
 
-Their bond was forged through late nights on Tim's porch, talking until sunrise. Richardson recalls: "Every phone call ends with 'I love you, bud.'" Tim has said their TV friendship on *Detroiters* is "not really that heightened. It might even be more heightened in real life."
+Their bond was forged through late nights on Tim's porch, talking until sunrise. Richardson recalls: "Every phone call ends with 'I love you, bud.'" Tim has said their TV friendship on _Detroiters_ is "not really that heightened. It might even be more heightened in real life."
 
 Tim climbed the Second City ladder—touring company, Detroit mainstage, then Chicago mainstage in 2010. In September 2012, he got the call every comedian dreams of: Saturday Night Live.
 
@@ -133,7 +133,7 @@ Tim's comedy validates a specific kind of suffering: the daily torture of social
 
 ## Detroiters: A Love Letter to Friendship and Home
 
-Before "I Think You Should Leave," Tim co-created *Detroiters* with Sam Richardson—a two-season Comedy Central sitcom about best friends running a local advertising agency.
+Before "I Think You Should Leave," Tim co-created _Detroiters_ with Sam Richardson—a two-season Comedy Central sitcom about best friends running a local advertising agency.
 
 The show was a deliberate anti-sitcom. When executives suggested emphasizing the leads' differences for conflict, Tim and Sam refused. "We're trying to show our real friendship, and that's not part of our real friendship," Tim explained.
 
@@ -143,7 +143,7 @@ Despite critical acclaim (100% on Rotten Tomatoes for Season 2), Comedy Central 
 
 ## Friendship (2025): First Starring Role
 
-Tim's arc continued with *Friendship*, an A24 film released in May 2025—his first movie starring role.
+Tim's arc continued with _Friendship_, an A24 film released in May 2025—his first movie starring role.
 
 He plays Craig Waterman, "a hopelessly dorky suburban dad" obsessed with befriending his neighbor Austin (Paul Rudd), a local weatherman. The film explores male loneliness, the desperation for acceptance, and the disasters that unfold when that desperation spirals out of control.
 
@@ -154,18 +154,23 @@ Reviews praised Tim's commitment to cringe. The film grossed $16.6 million and e
 ## Type 4 Personality Traits in Tim Robinson
 
 ### The Quest for Authenticity
+
 Tim's entire creative output examines the gap between performed identity and authentic self. His characters suffer not because they're bad people, but because they're trapped in lies they can't escape.
 
 ### Transforming Pain Into Art
+
 His career trajectory—SNL rejection becoming Netflix triumph—follows the Type 4 pattern of transmuting wounds into creative fuel.
 
 ### Emotional Intensity and Anxiety
+
 Tim's self-described anxiety and constant self-critique reflect Type 4's rich but sometimes overwhelming inner emotional life.
 
 ### Distinctive Creative Vision
+
 His comedy style is immediately recognizable—nobody else makes comedy quite like Tim Robinson. Type 4s need their work to emerge from an authentic, inimitable place.
 
 ### Loyalty and Deep Connection
+
 His 15+ year friendship with Sam Richardson, maintained through career ups and downs, shows Type 4's capacity for profound interpersonal bonds with those they trust.
 
 ## The Skateboarding Tim Robinson Most Fans Don't Know
@@ -193,7 +198,7 @@ The man who was quietly moved to the writers' room because he couldn't cut it as
 
 Tim married his high school sweetheart Heather in September 2006. She's an electrical engineer for Chrysler—they grew up in the same world he did. They have a son and a daughter and live in Los Angeles.
 
-He's a vegetarian who suffers from claustrophobia, believes in aliens but not ghosts, and loves *The Twilight Zone* and Detroit local news. His favorite film is Hitchcock's *Strangers on a Train*.
+He's a vegetarian who suffers from claustrophobia, believes in aliens but not ghosts, and loves _The Twilight Zone_ and Detroit local news. His favorite film is Hitchcock's _Strangers on a Train_.
 
 These specific, slightly unusual preferences—aliens over ghosts, old noir over contemporary film—reflect Type 4's cultivation of distinctive tastes that set them apart.
 

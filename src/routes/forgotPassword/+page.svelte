@@ -80,21 +80,11 @@
 			<!-- Honeypot field - hidden from real users, bots will fill it -->
 			<div class="absolute -left-[9999px] opacity-0" aria-hidden="true">
 				<label for="company">Company</label>
-				<input
-					type="text"
-					id="company"
-					name="company"
-					tabindex="-1"
-					autocomplete="off"
-				/>
+				<input type="text" id="company" name="company" tabindex="-1" autocomplete="off" />
 			</div>
 
 			<!-- Cloudflare Turnstile CAPTCHA -->
-			<div
-				class="cf-turnstile"
-				data-sitekey={PUBLIC_TURNSTILE_SITE_KEY}
-				data-theme="light"
-			></div>
+			<div class="cf-turnstile" data-sitekey={PUBLIC_TURNSTILE_SITE_KEY} data-theme="light"></div>
 
 			<button
 				type="submit"

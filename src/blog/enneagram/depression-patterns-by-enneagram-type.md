@@ -35,17 +35,17 @@ Each type experiences depression through their core fear. Type 1s face perfectio
 
 ## Depression Patterns Comparison Table
 
-| Type       | Core Depression Pattern              | Primary Trigger          | Warning Sign                       | Healing Path                       |
-| ---------- | ------------------------------------ | ------------------------ | ---------------------------------- | ---------------------------------- |
-| **Type 1** | Perfectionist paralysis              | Making major mistakes    | "Nothing is ever good enough"      | Self-compassion practice           |
-| **Type 2** | Emptiness despite giving             | Feeling unappreciated    | Resentment from over-giving        | Learn to receive, set boundaries   |
-| **Type 3** | Identity collapse                    | Public failure           | Can't stop working, feel empty     | Discover authentic self            |
-| **Type 4** | Defectiveness and longing            | Feeling ordinary         | Comparing self to "complete" others| Embrace wholeness, ordinary beauty |
-| **Type 5** | Withdrawal and depletion             | Overwhelming demands     | Complete isolation from support    | Small connections, body awareness  |
-| **Type 6** | Chronic anxiety spiral               | Betrayal or instability  | Catastrophizing everything         | Build internal security            |
-| **Type 7** | Manic activity masking emptiness     | Being trapped in pain    | Frantic escape, substance use      | Stay with difficult emotions       |
-| **Type 8** | Rage masking vulnerability           | Betrayal or powerlessness| Aggressive isolation               | Practice vulnerability             |
-| **Type 9** | Numbness and self-erasure            | Forced conflict          | Complete disconnection from desires| Reclaim voice and preferences      |
+| Type       | Core Depression Pattern          | Primary Trigger           | Warning Sign                        | Healing Path                       |
+| ---------- | -------------------------------- | ------------------------- | ----------------------------------- | ---------------------------------- |
+| **Type 1** | Perfectionist paralysis          | Making major mistakes     | "Nothing is ever good enough"       | Self-compassion practice           |
+| **Type 2** | Emptiness despite giving         | Feeling unappreciated     | Resentment from over-giving         | Learn to receive, set boundaries   |
+| **Type 3** | Identity collapse                | Public failure            | Can't stop working, feel empty      | Discover authentic self            |
+| **Type 4** | Defectiveness and longing        | Feeling ordinary          | Comparing self to "complete" others | Embrace wholeness, ordinary beauty |
+| **Type 5** | Withdrawal and depletion         | Overwhelming demands      | Complete isolation from support     | Small connections, body awareness  |
+| **Type 6** | Chronic anxiety spiral           | Betrayal or instability   | Catastrophizing everything          | Build internal security            |
+| **Type 7** | Manic activity masking emptiness | Being trapped in pain     | Frantic escape, substance use       | Stay with difficult emotions       |
+| **Type 8** | Rage masking vulnerability       | Betrayal or powerlessness | Aggressive isolation                | Practice vulnerability             |
+| **Type 9** | Numbness and self-erasure        | Forced conflict           | Complete disconnection from desires | Reclaim voice and preferences      |
 
 <p class="firstLetter">Depression isn't one-size-fits-all. Your Enneagram type determines how you experience it, what triggers it, and most importantly - how to heal from it.</p>
 

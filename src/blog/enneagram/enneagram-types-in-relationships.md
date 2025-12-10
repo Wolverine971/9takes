@@ -4,7 +4,7 @@ description: 'Discover the hidden patterns driving your relationship dynamics. F
 author: 'DJ Wayne'
 date: '2023-03-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-in-relationships'
-lastmod: '2025-08-15'
+lastmod: '2025-12-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -27,7 +27,28 @@ Nine pairs of Greek statues arranged in a heart formation, each couple showing d
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="How does each Enneagram type behave in relationships?">
+Each type brings a unique pattern to love: Type 1s perfect their partners, Type 2s give until depleted, Type 3s perform love rather than feel it, Type 4s create emotional intensity tests, Type 5s ration intimacy like a resource, Type 6s test loyalty constantly, Type 7s avoid emotional depth, Type 8s armor against vulnerability, and Type 9s disappear to keep peace. Understanding your pattern is the first step to breaking it.
+</QuickAnswer>
+
+**Read time**: 15 minutes | **Key insight**: The way you love isn't random—it's a pattern from childhood
+
+## Relationship Patterns Comparison Table
+
+| Type       | Love Pattern                 | Core Wound                  | Relationship Killer         | Growth Edge                |
+| ---------- | ---------------------------- | --------------------------- | --------------------------- | -------------------------- |
+| **Type 1** | Perfects their partner       | "Love has conditions"       | Constant criticism          | Accept imperfection        |
+| **Type 2** | Gives until resentful        | "Only loved for usefulness" | Keeping score               | Learn to receive           |
+| **Type 3** | Performs love                | "Loved for achievements"    | Emotional unavailability    | Be instead of do           |
+| **Type 4** | Creates intensity tests      | "Fundamentally defective"   | Push-pull dynamics          | Embrace ordinary love      |
+| **Type 5** | Rations intimacy             | "Relationships deplete me"  | Emotional withdrawal        | Share before ready         |
+| **Type 6** | Tests loyalty constantly     | "Can't trust anyone"        | Creating instability        | Trust without testing      |
+| **Type 7** | Avoids depth for fun         | "Commitment traps me"       | Running from heavy emotions | Sit with discomfort        |
+| **Type 8** | Armors against vulnerability | "Vulnerability is betrayal" | Dominating or pushing away  | Show your soft side        |
+| **Type 9** | Disappears to keep peace     | "My needs cause conflict"   | Self-erasure                | Voice one preference daily |
 
 <p class="firstLetter">Your partner texts "we need to talk" and your mind races in nine different directions.</p>
 
@@ -542,7 +563,7 @@ _Ready to go deeper? Discover [what happens when each type falls in love](/ennea
          },
          "dateModified":{
             "@type":"Date",
-            "@value":"2025-08-15"
+            "@value":"2025-12-10"
          },
          "datePublished":{
             "@type":"Date",

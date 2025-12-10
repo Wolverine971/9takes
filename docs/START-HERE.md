@@ -2,7 +2,7 @@
 
 # 9takes Content Strategy - START HERE
 
-_Last Updated: 2025-12-07_
+_Last Updated: 2025-12-09_
 _Status: **PROBLEM-FOCUSED CONTENT PIVOT** - Mental health angle is your traffic goldmine_
 
 > **AI Agents:** For quick task-based navigation, see [`/docs/README.md`](./README.md)
@@ -159,15 +159,17 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 ### ✅ FAQ Expansions COMPLETE (Dec 9)
 
 Added FAQ sections with JSON-LD schema to:
+
 - enneagram-anxiety-complete-guide (5 FAQs)
 - enneagram-instinctual-subtypes (5 FAQs)
 - depression-patterns-by-enneagram-type (5 FAQs + QuickAnswer + Table)
 
-*Note: Many pages already had FAQs (mental-illness, toxic-traits, stress, attachment, wings)*
+_Note: Many pages already had FAQs (mental-illness, toxic-traits, stress, attachment, wings)_
 
 ### ✅ Comparison Tables COMPLETE (Dec 9)
 
 Added comparison tables and QuickAnswers to:
+
 - enneagram-compatibility-matrix (QuickAnswer)
 - enneagram-types-in-relationships (QuickAnswer + Table)
 - enneagram-wings-complete-guide (18 wing combos table)
@@ -178,14 +180,28 @@ Added comparison tables and QuickAnswers to:
 Researched best practices. Google's guidance: "Same SEO best practices apply—no additional requirements for AI Overviews."
 
 **Top pages verified - all have:**
+
 - QuickAnswer boxes (direct answers for featured snippets)
 - Comparison tables (scannable, AI-parseable)
 - FAQ sections with JSON-LD schema
 - Fresh lastmod dates
 
 **Added today:**
+
 - Comparison table to red-flags-dating post
 - Updated lastmod dates across edited pages
+
+### ✅ Content Refresh COMPLETE (Dec 9)
+
+Refreshed 5 high-CTR posts with QuickAnswers, internal links to new content, and updated dates:
+
+| Post                                               | CTR  | Position | Updates Made            |
+| -------------------------------------------------- | ---- | -------- | ----------------------- |
+| enneagram-types-at-party                           | 7.4% | 13.3     | + Marquee links         |
+| enneagram-types-on-a-first-date                    | 5.5% | 12.0     | + QuickAnswer + Marquee |
+| enneagram-types-being-ghosted                      | 5.4% | 11.3     | + Updated Marquee       |
+| beginners-guide-to-determining-your-enneagram-type | -    | -        | + Marquee links         |
+| enneagram-communication-styles                     | -    | -        | + QuickAnswer + Marquee |
 
 ### Priority 1: Week 1 Review ← CURRENT (Tomorrow Dec 10)
 

@@ -4,7 +4,7 @@ description: "Discover the 9 hidden languages everyone speaks but nobody teaches
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/enneagram-corner/enneagram-communication-styles'
-lastmod: '2025-08-15'
+lastmod: '2025-12-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -17,7 +17,18 @@ path: src/blog/enneagram/enneagram-communication-styles.md
 
 <script>
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="Why does nobody understand what I'm saying?">
+You're speaking one of 9 hidden languages—and so is everyone else. Type 1s speak in improvements (heard as criticism). Type 2s speak in needs (heard as manipulation). Type 3s speak in achievements (heard as bragging). Type 4s speak in emotions (heard as drama). Type 5s speak in analysis (heard as coldness). Type 6s speak in scenarios (heard as anxiety). Type 7s speak in possibilities (heard as avoidance). Type 8s speak in directness (heard as aggression). Type 9s speak in harmony (heard as passivity). Learning to translate changes everything.
+</QuickAnswer>
+
+**Read time**: 12 minutes | **Key insight**: Every misunderstanding is a translation problem
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'how types manipulate 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'dating red flags 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'}, {name: 'in relationships 💕', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'} ]} />
+</div>
 
 <p class="firstLetter">"You're not listening to me!"</p>
 
@@ -600,7 +611,7 @@ For deeper relationship insights, explore [how each type loves](/enneagram-corne
         "name": "DJ Wayne",
         "sameAs": [ "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2025-08-15",
+      "dateModified": "2025-12-10",
       "datePublished": "2023-03-26",
       "description": "Explore the unique communication styles of Enneagram types 1-9. Enhance your interactions and interpersonal connections through understanding.",
       "headline": "The 9 Unique Communication Styles of Each Enneagram Type",

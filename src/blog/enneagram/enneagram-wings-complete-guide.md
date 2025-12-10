@@ -4,7 +4,7 @@ description: "Confused why you don't fit your type perfectly? Your wing explains
 author: 'DJ Wayne'
 date: '2025-08-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-wings-complete-guide'
-lastmod: '2025-10-23'
+lastmod: '2025-12-10'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -34,6 +34,20 @@ You have a wing - one of the two adjacent numbers that flavors your main type. I
 </QuickAnswer>
 
 **Read time**: 15 minutes | **Key insight**: Your wing is 40% of your personality pattern
+
+## All 18 Wing Combinations at a Glance
+
+| Type       | Wing A                                                                            | Wing B                                                                  |
+| ---------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Type 1** | **1w9** "The Idealist" - calm perfectionist, patient reformer                     | **1w2** "The Advocate" - warm critic, helpful improver                  |
+| **Type 2** | **2w1** "The Servant" - principled helper, ethical giver                          | **2w3** "The Host" - charming caretaker, image-conscious helper         |
+| **Type 3** | **3w2** "The Charmer" - warm achiever, people-focused star                        | **3w4** "The Professional" - artistic achiever, depth-seeking performer |
+| **Type 4** | **4w3** "The Aristocrat" - ambitious creative, performance-oriented individualist | **4w5** "The Bohemian" - withdrawn artist, intellectual creative        |
+| **Type 5** | **5w4** "The Iconoclast" - creative investigator, artistic analyst                | **5w6** "The Problem-Solver" - loyal expert, security-focused thinker   |
+| **Type 6** | **6w5** "The Defender" - analytical loyalist, withdrawn skeptic                   | **6w7** "The Buddy" - engaging loyalist, fun-seeking security-seeker    |
+| **Type 7** | **7w6** "The Entertainer" - loyal adventurer, engaging enthusiast                 | **7w8** "The Realist" - assertive explorer, aggressive optimist         |
+| **Type 8** | **8w7** "The Maverick" - charismatic challenger, expansive boss                   | **8w9** "The Bear" - patient powerhouse, grounded protector             |
+| **Type 9** | **9w8** "The Referee" - assertive peacemaker, stubborn mediator                   | **9w1** "The Dreamer" - principled peacemaker, idealistic harmonizer    |
 
 <p class="firstLetter">Your Enneagram type is just the beginning. Your wing is what makes you uniquely you.</p>
 
@@ -1330,7 +1344,7 @@ Because in the end, you're not just a number with an add-on. You're a unique hum
     "name": "DJ Wayne"
   },
   "datePublished": "2025-08-16",
-  "dateModified": "2025-10-23",
+  "dateModified": "2025-12-10",
   "publisher": {
     "@type": "Organization",
     "name": "9takes",

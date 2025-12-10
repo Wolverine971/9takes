@@ -4,7 +4,7 @@ description: 'Watch someone for 10 minutes at a party and know their Enneagram t
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-at-party'
-lastmod: '2025-10-23'
+lastmod: '2025-12-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -56,6 +56,10 @@ The life of the party? Different game than the one who already left.
 **Nine games. Nine strategies. Nine types.**
 
 Which one are you playing?
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'dating red flags 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'}, {name: 'how types manipulate 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'on a first date 💜', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'} ]} />
+</div>
 
  <article class="section-content">
 
@@ -378,7 +382,7 @@ _Next: Master social reads with our [first impression cheat sheet](/enneagram-co
       "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
   },
-  "dateModified": "2025-10-23",
+  "dateModified": "2025-12-10",
   "datePublished": "2023-02-17",
   "description": "Watch someone for 10 minutes at a party and know their Enneagram type. The kitchen helper, the networker, the corner philosopher—which one are you?",
   "headline": "The Party Test: What Your Social Style Reveals About Your Type",

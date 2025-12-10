@@ -4,7 +4,7 @@ description: 'They disappeared without explanation and you need to know why. Eac
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-being-ghosted'
-lastmod: '2025-10-23'
+lastmod: '2025-12-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -168,7 +168,7 @@ Your value exists even in rejection.
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being toxic ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'dating red flags 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'}, {name: 'how types manipulate 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'on a first date 💜', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'} ]} />
 </div>
 
 <section class="section-content">
@@ -518,7 +518,7 @@ Ready to explore how your personality shapes every aspect of life? Discover more
     "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
   },
-  "dateModified": "2025-10-23",
+  "dateModified": "2025-12-10",
   "datePublished": "2023-02-10",
   "image": {
     "@type": "ImageObject",

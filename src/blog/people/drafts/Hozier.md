@@ -102,7 +102,7 @@ This isn't perfectionism in the Type 1 sense — it's the Type 4's need to get t
 
 This quote reveals the 5 wing influence on Hozier's Type 4 core. The 4w5 (sometimes called "The Bohemian") combines the emotional depth of the 4 with the intellectual curiosity of the 5. They don't just feel — they analyze their feelings. They don't just create — they study the nature of creation itself.
 
-This explains Hozier's attraction to literature and poetry. When the pandemic hit, he didn't just sit with his feelings — he dove into Dante's *Inferno*, eventually structuring his entire third album around the 14th-century poem.
+This explains Hozier's attraction to literature and poetry. When the pandemic hit, he didn't just sit with his feelings — he dove into Dante's _Inferno_, eventually structuring his entire third album around the 14th-century poem.
 
 ### The Introvert Who Performs
 
@@ -128,7 +128,7 @@ Hozier's career achievements are remarkable, especially for someone so averse to
 
 - **"Take Me to Church"** reached #2 on the Billboard Hot 100 and has been certified Diamond in the US — one of the highest certifications possible
 - **"Too Sweet"** (2024) became his first #1 single in Ireland, the US, and the UK, making him the first Irish artist to top the Billboard Hot 100 since 1990
-- **Three studio albums:** *Hozier* (2014), *Wasteland, Baby!* (2019), and *Unreal Unearth* (2023)
+- **Three studio albums:** _Hozier_ (2014), _Wasteland, Baby!_ (2019), and _Unreal Unearth_ (2023)
 - **Grammy nomination** for Song of the Year (2015)
 - **TIME 100 Most Influential People** (2025) — fellow musician Noah Kahan wrote: "When an artist can create a sound so beautiful and melancholy, so full of symbolism and truth that you feel they must be from a different time, or a better world, you can't help but believe in magic."
 - **Billboard Music Awards:** Top Rock Artist and Top Rock Songs (2015)
@@ -161,7 +161,7 @@ Hozier has maintained his position: "I'm not religious myself, but my issue is w
 
 ### The Unreal Unearth Era
 
-Hozier's third album, *Unreal Unearth* (2023), represents his most ambitious artistic statement. Structured around Dante's *Inferno*, each song corresponds to a circle of Hell, transforming pandemic isolation into mythological journey.
+Hozier's third album, _Unreal Unearth_ (2023), represents his most ambitious artistic statement. Structured around Dante's _Inferno_, each song corresponds to a circle of Hell, transforming pandemic isolation into mythological journey.
 
 "I didn't want to write songs that were about a lockdown," he explained. "I didn't want to write songs that were about the pandemic."
 
@@ -182,7 +182,7 @@ Throughout his career, Hozier has used his platform for causes he believes in:
 
 ### The Ongoing Tour
 
-The *Unreal Unearth* tour has stretched across 2023-2025, with over 83 performances across 72 cities in North America alone. A deluxe version of the album, *Unreal Unearth: Unending*, was released in December 2024, including the new song "Hymn to Virgil."
+The _Unreal Unearth_ tour has stretched across 2023-2025, with over 83 performances across 72 cities in North America alone. A deluxe version of the album, _Unreal Unearth: Unending_, was released in December 2024, including the new song "Hymn to Virgil."
 
 ## The Type 4's Gift to the World
 

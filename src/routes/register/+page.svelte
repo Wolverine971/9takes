@@ -101,21 +101,11 @@
 		<!-- Honeypot field - hidden from real users, bots will fill it -->
 		<div class="absolute -left-[9999px] opacity-0" aria-hidden="true">
 			<label for="website">Website</label>
-			<input
-				type="text"
-				id="website"
-				name="website"
-				tabindex="-1"
-				autocomplete="off"
-			/>
+			<input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
 		</div>
 
 		<!-- Cloudflare Turnstile CAPTCHA -->
-		<div
-			class="cf-turnstile"
-			data-sitekey={PUBLIC_TURNSTILE_SITE_KEY}
-			data-theme="light"
-		></div>
+		<div class="cf-turnstile" data-sitekey={PUBLIC_TURNSTILE_SITE_KEY} data-theme="light"></div>
 
 		<button
 			type="submit"

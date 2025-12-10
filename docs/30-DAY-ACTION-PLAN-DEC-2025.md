@@ -3,7 +3,7 @@
 # 30-Day Action Plan: December 4, 2025 - January 3, 2026
 
 _Created: 2025-12-03_
-_Last Updated: 2025-12-07_
+_Last Updated: 2025-12-09_
 _Strategy: Problem-Focused Content Pivot + AI Search Optimization + Dual-Title System_
 _Goal: 50% traffic increase on optimized pages, 5+ new problem-focused posts, featured snippets captured_
 
@@ -29,15 +29,15 @@ _Goal: 50% traffic increase on optimized pages, 5+ new problem-focused posts, fe
 
 ### Week 1 Progress (Dec 4-10)
 
-| Day | Date   | Primary Task             | Status        | Notes                                     |
-| --- | ------ | ------------------------ | ------------- | ----------------------------------------- |
-| 1   | Dec 4  | GSC Deep Dive + Research | ✅ DONE       | GSC + competitor + AI audit all complete  |
-| 2   | Dec 5  | Optimize 3 pages         | ✅ DONE       | TIER 1 celebrities optimized              |
-| 3   | Dec 6  | Optimize 3 + Research    | ✅ DONE       | All 5 posts researched + outlined         |
-| 4   | Dec 7  | Write Red Flags post     | ✅ DONE       | ALL 5 POSTS WRITTEN + PUBLISHED!          |
-| 5   | Dec 8  | Publish + Optimize 3     | ✅ DONE EARLY | All posts published Dec 7                 |
-| 6   | Dec 9  | Internal Linking         | ✅ DONE       | Crosslink index shows all posts connected |
-| 7   | Dec 10 | Week 1 Review            | ⬜ Pending    | TIER 2 celebrities DONE                   |
+| Day | Date   | Primary Task             | Status        | Notes                                       |
+| --- | ------ | ------------------------ | ------------- | ------------------------------------------- |
+| 1   | Dec 4  | GSC Deep Dive + Research | ✅ DONE       | GSC + competitor + AI audit all complete    |
+| 2   | Dec 5  | Optimize 3 pages         | ✅ DONE       | TIER 1 celebrities optimized                |
+| 3   | Dec 6  | Optimize 3 + Research    | ✅ DONE       | All 5 posts researched + outlined           |
+| 4   | Dec 7  | Write Red Flags post     | ✅ DONE       | ALL 5 POSTS WRITTEN + PUBLISHED!            |
+| 5   | Dec 8  | Publish + Optimize 3     | ✅ DONE EARLY | All posts published Dec 7                   |
+| 6   | Dec 9  | Internal Linking         | ✅ DONE       | + FAQ expansions + Tables + AI optimization |
+| 7   | Dec 10 | Week 1 Review            | ⬜ Pending    | Check GSC for early signals                 |
 
 **🚀 SIGNIFICANTLY AHEAD OF SCHEDULE:**
 
@@ -90,6 +90,21 @@ _Goal: 50% traffic increase on optimized pages, 5+ new problem-focused posts, fe
 8. ~~Final review and publish all 5 problem-focused posts~~ ✅ DONE (Dec 7)
 9. ~~Internal linking for all 5 new posts~~ ✅ DONE (Dec 7) - see `/docs/BLOG-CROSSLINK-INDEX.md`
 10. ~~**TIER 2 celebrity optimizations** (Sydney Sweeney, Dua Lipa, Drake, etc.)~~ ✅ DONE (Dec 9)
+11. ~~**FAQ Expansions** (3 pages with JSON-LD schema)~~ ✅ DONE (Dec 9)
+12. ~~**Comparison Tables** (4 pages with scannable tables)~~ ✅ DONE (Dec 9)
+13. ~~**AI Optimization verification** (top 10 pages)~~ ✅ DONE (Dec 9)
+14. ~~**Content Refresh** (5 older high-CTR posts)~~ ✅ DONE (Dec 9)
+
+**📊 DEC 9 OPTIMIZATION SUMMARY:**
+
+| Task               | Pages Updated | Details                                                                                                 |
+| ------------------ | ------------- | ------------------------------------------------------------------------------------------------------- |
+| FAQ Expansions     | 3             | enneagram-anxiety-complete-guide, enneagram-instinctual-subtypes, depression-patterns-by-enneagram-type |
+| QuickAnswers Added | 3             | depression-patterns, enneagram-compatibility-matrix, enneagram-types-in-relationships                   |
+| Comparison Tables  | 4             | depression-patterns, relationships, wings (18 combos), red-flags-dating                                 |
+| AI Optimization    | Verified      | Top 5 pages all have QuickAnswer + Table + FAQ schema                                                   |
+| Content Refresh    | 5             | party, first-date, ghosted, beginners-guide, communication-styles                                       |
+| Lastmod Updates    | 10+           | All edited pages updated to Dec 9                                                                       |
 
 **🎉 ALL 5 PROBLEM-FOCUSED POSTS PUBLISHED (Dec 7):**
 

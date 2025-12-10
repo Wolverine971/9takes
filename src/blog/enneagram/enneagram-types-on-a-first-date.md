@@ -4,7 +4,7 @@ description: 'Discover what each Enneagram type thinks, feels, and values on a f
 author: 'DJ Wayne'
 date: '2025-02-25'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date'
-lastmod: '2025-02-25'
+lastmod: '2025-12-10'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -19,7 +19,18 @@ path: src/blog/enneagram/enneagram-types-on-a-first-date.md
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
   import DateTip from "$lib/components/atoms/DateTip.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="How does each Enneagram type act on a first date?">
+Type 1s plan meticulously and arrive early. Type 2s focus entirely on you and your comfort. Type 3s impress with accomplishments. Type 4s seek deep emotional connection. Type 5s observe carefully before opening up. Type 6s evaluate your trustworthiness. Type 7s keep things light and fun. Type 8s test your authenticity. Type 9s adapt to your energy. Understanding your date's type helps you know what they're really looking for—and avoid their red flags.
+</QuickAnswer>
+
+**Read time**: 15 minutes | **Key insight**: What they're looking for reveals their core fear
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'dating red flags 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'}, {name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in relationships 💕', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'how types manipulate 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'} ]} />
+</div>
 
 <p class="firstLetter">Sweaty palms. Racing heart. "What if they don't like me?" "What should I wear?" "What if there's awkward silence?"</p>
 
@@ -741,7 +752,7 @@ If you found this helpful, explore our deeper guides on [navigating early relati
     "name": "9takes"
   },
   "datePublished": "2025-02-25",
-  "dateModified": "2025-02-25",
+  "dateModified": "2025-12-10",
   "isAccessibleForFree": "True",
   "inLanguage": "en-US",
   "mainEntity": {

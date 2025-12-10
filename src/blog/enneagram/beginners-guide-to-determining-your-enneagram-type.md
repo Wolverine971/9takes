@@ -4,7 +4,7 @@ description: 'Skip the confusion. Discover your true Enneagram type with this pr
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type'
-lastmod: '2025-08-15'
+lastmod: '2025-12-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,11 +18,18 @@ path: src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md
 <script>
   import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+  import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <QuickAnswer question="How do I find my Enneagram type?">
 Skip the 200-question tests. Find your type in 4 steps: (1) Identify your core emotion—anger, shame, or fear; (2) Match your childhood coping strategy to one of the 9 types; (3) Read all type descriptions and notice which one makes you uncomfortable (that's often yours); (4) Ask people who know you well what motivates your behavior. Focus on WHY you do things, not WHAT you do.
 </QuickAnswer>
+
+**Read time**: 10 minutes | **Key insight**: Your type is found through motivation, not behavior
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'ADHD & personality 🧠', link: '/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'}, {name: 'overthinking patterns 💭', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'mental health risks 🏥', link: '/enneagram-corner/enneagram-and-mental-illness'} ]} />
+</div>
 
 <p class="firstLetter">You've taken the personality quiz. Got your four letters. Maybe even discovered your color or animal type.</p>
 
@@ -434,7 +441,7 @@ _P.S. Still uncertain? That's normal. Some people take months to find their true
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2025-08-15",
+      "dateModified": "2025-12-10",
       "datePublished": "2023-07-11",
       "description": "Skip the confusion. Discover your true Enneagram type with this proven 4-step method that focuses on motivations, not behaviors.",
       "headline": "Find Your Enneagram Type in 10 Minutes (4 Simple Steps)",

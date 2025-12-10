@@ -95,7 +95,8 @@
 				email = '';
 				otherPerson = '';
 			} else if (data?.type === 'error') {
-				const errorMsg = (data as { error?: { message?: string } })?.error?.message || 'Submission failed';
+				const errorMsg =
+					(data as { error?: { message?: string } })?.error?.message || 'Submission failed';
 				if (errorMsg.includes('rate limit') || errorMsg.includes('too many')) {
 					notifications.warning('Too many suggestions. Please try again later.', 4000);
 				} else {

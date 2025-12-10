@@ -1,6 +1,6 @@
 ---
 title: 'Zayn Malik: The Individualist Who Found His Voice After One Direction'
-meta_title: "Why Zayn Malik Left One Direction: The Psychology Behind His Independence"
+meta_title: 'Why Zayn Malik Left One Direction: The Psychology Behind His Independence'
 description: "Explore Zayn Malik's Type 4 personality—from Bradford bullying to Liam Payne's tribute. See how the Individualist found authenticity after fame."
 author: 'DJ Wayne'
 date: '2024-07-12'
@@ -44,7 +44,7 @@ Zayn Malik embodies the [Enneagram Type 4 personality—the Individualist](/enne
 
 Type 4s are driven by a need to understand themselves and find their unique identity. They often feel fundamentally different from others and search for meaning through authentic self-expression. For Zayn, this manifests in his constant artistic evolution, his comfort with emotional vulnerability, and his willingness to walk away from massive success to find his own voice.
 
-The Individualist's core fear is having no identity or personal significance. Their core desire is to find themselves and their significance—to create an identity. Watch any Zayn interview and you'll see someone wrestling with these very questions: *Who am I beyond the band? What do I actually want to say?*
+The Individualist's core fear is having no identity or personal significance. Their core desire is to find themselves and their significance—to create an identity. Watch any Zayn interview and you'll see someone wrestling with these very questions: _Who am I beyond the band? What do I actually want to say?_
 
 ## Zayn's Upbringing: The Making of an Individualist
 
@@ -211,6 +211,7 @@ For Zayn, who was often perceived as the most distant from his bandmates, this r
 ### Recognition and Awards
 
 His solo career has earned critical and commercial success:
+
 - **"PILLOWTALK"** debuted at number one in multiple countries
 - **"Room Under the Stairs"** reached #3 on the UK Albums Chart and #15 on the US Billboard 200
 - Collaborations with [Taylor Swift](/personality-analysis/Taylor-Swift), Sia, and others showcase his artistic credibility
@@ -230,6 +231,7 @@ Fatherhood has given this Type 4 something beyond himself to focus on, contribut
 ### What's Next
 
 Zayn's future includes:
+
 - A **Las Vegas residency** at Dolby Live at Park MGM (January 2026)
 - The **Netflix documentary** with Louis Tomlinson (expected 2026)
 - Continued evolution as an artist on his own terms

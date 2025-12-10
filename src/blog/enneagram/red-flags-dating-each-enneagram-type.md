@@ -4,7 +4,7 @@ description: "Is your partner's behavior a red flag or just their personality? D
 author: 'DJ Wayne'
 date: '2025-12-03'
 loc: 'https://9takes.com/enneagram-corner/red-flags-dating-each-enneagram-type'
-lastmod: '2025-12-03'
+lastmod: '2025-12-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -26,6 +26,20 @@ Every type has predictable warning signs rooted in their core fears. Type 1s cri
 </QuickAnswer>
 
 **Read time**: 18 minutes | **Key insight**: The most dangerous red flags look like attractive qualities—at first
+
+## Red Flags Quick Reference Table
+
+| Type       | The Attractive Bait              | The Hidden Red Flag                    | Warning Phrase                          |
+| ---------- | -------------------------------- | -------------------------------------- | --------------------------------------- |
+| **Type 1** | High standards, reliability      | Constant criticism, moral superiority  | "You'd be perfect if you just..."       |
+| **Type 2** | Caring, attentive, generous      | Guilt trips, score-keeping             | "After everything I've done for you..." |
+| **Type 3** | Confident, successful, charming  | Image over intimacy, emotional walls   | "How does this make us look?"           |
+| **Type 4** | Deep, romantic, emotionally rich | Drama creation, push-pull games        | "You don't really understand me"        |
+| **Type 5** | Intelligent, calm, independent   | Emotional withdrawal, unavailability   | "I need space" (constantly)             |
+| **Type 6** | Loyal, protective, committed     | Suspicion, loyalty tests, accusations  | "Where were you really?"                |
+| **Type 7** | Fun, adventurous, optimistic     | Commitment avoidance, emotional bypass | "Let's not make this heavy"             |
+| **Type 8** | Strong, protective, direct       | Control, intimidation, domination      | "I'm just protecting you"               |
+| **Type 9** | Easy-going, accepting, peaceful  | Passive-aggression, emotional absence  | "Whatever you want" (with resentment)   |
 
 <p class="firstLetter">That charming confidence? Might be Type 3 image management. The intense emotional connection? Could be Type 4 drama addiction. The protectiveness? Possibly Type 8 control.</p>
 
@@ -429,7 +443,7 @@ That's someone worth building a life with.
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-12-03",
+      "dateModified": "2025-12-10",
       "datePublished": "2025-12-03",
       "description": "Is your partner's behavior a red flag or just their personality? Discover the warning signs for each Enneagram type, why they happen, and what to do about them.",
       "headline": "Red Flags You Are Dating Each Enneagram Type (And What to Do)",
