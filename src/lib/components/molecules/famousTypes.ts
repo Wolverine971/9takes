@@ -131,6 +131,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Robert-Pattinson', link: true, hasImage: true, lastmod: '2025-03-24' },
 		{ name: 'Sam-Altman', link: true, hasImage: true, lastmod: '2025-12-03' },
 		{ name: 'the-Weeknd', link: false, hasImage: true, lastmod: '2025-06-25' },
+		{ name: 'Tim-Robinson', link: true, hasImage: true, lastmod: '2025-12-11' },
 		{ name: 'Zayn-Malik', link: true, hasImage: true, lastmod: '2025-12-09' },
 		{ name: 'Zoe-Kravitz', link: true, hasImage: true, lastmod: '2025-03-25' },
 		{ name: 'Adam-Driver', link: false, hasImage: false, lastmod: '2025-06-25' },
@@ -142,7 +143,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Janelle-Monae', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Jonathan-Graff', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Oscar-Isaac', link: false, hasImage: false, lastmod: '2025-06-25' },
-		{ name: 'Tim-Robinson', link: false, hasImage: false, lastmod: '2025-12-09' },
 		{ name: 'Tyler-The-Creator', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Vincent-van-Gogh', link: false, hasImage: false, lastmod: '2025-06-25' }
 	],
@@ -282,6 +282,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 	],
 	9: [
 		{ name: 'Abraham-Lincoln', link: true, hasImage: true, lastmod: '2025-12-03' },
+		{ name: 'Alexis-Bledel', link: true, hasImage: true, lastmod: '2025-12-11' },
 		{ name: 'Barack-Obama', link: true, hasImage: true, lastmod: '2025-04-06' },
 		{ name: 'Bella-Poarch', link: false, hasImage: true, lastmod: '2025-06-25' },
 		{ name: 'Bernie-Sanders', link: true, hasImage: true, lastmod: '2025-04-07' },
@@ -299,7 +300,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Selena-Gomez', link: true, hasImage: true, lastmod: '2025-12-03' },
 		{ name: 'Sundar-Pichai', link: true, hasImage: true, lastmod: '2025-12-05' },
 		{ name: 'Travis-Scott', link: true, hasImage: true, lastmod: '2025-04-07' },
-		{ name: 'Alexis-Bledel', link: false, hasImage: false, lastmod: '2025-12-09' },
 		{ name: 'Charli-D\'Amelio', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Daniel-Radcliffe', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Khaby-Lame', link: false, hasImage: false, lastmod: '2025-06-25' },

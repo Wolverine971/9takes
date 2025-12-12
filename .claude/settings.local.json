@@ -71,7 +71,15 @@
 			"Bash(iconv:*)",
 			"Bash(cut:*)",
 			"Bash(sort:*)",
-			"WebFetch(domain:time.com)"
+			"WebFetch(domain:time.com)",
+			"Bash(/tmp/blogs_to_fix.json)",
+			"WebFetch(domain:lizabanks.substack.com)",
+			"WebFetch(domain:betches.com)",
+			"WebFetch(domain:quchronicle.com)",
+			"WebFetch(domain:www.distractify.com)",
+			"WebFetch(domain:www.hercampus.com)",
+			"WebFetch(domain:fourthwall.com)",
+			"WebFetch(domain:www.famousbirthdays.com)"
 		],
 		"deny": [],
 		"ask": [],
