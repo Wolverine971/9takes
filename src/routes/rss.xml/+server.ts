@@ -8,11 +8,11 @@ export async function GET() {
 	const posts = await getPosts();
 	const body = xml(posts);
 
-	// const headers = {
-	// 	'Cache-Control': 'max-age=0, s-maxage=3600',
-	// 	'Content-Type': 'application/xml'
-	// };
-	return new Response(body);
+	const headers = {
+		'Cache-Control': 'max-age=0, s-maxage=3600',
+		'Content-Type': 'application/xml'
+	};
+	return new Response(body, { headers });
 }
 
 const xml = (posts: any) => `<?xml version="1.0" encoding="UTF-8"?>

@@ -301,7 +301,7 @@ Oversharing isn't one thing. It looks different depending on who's doing it—an
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
     <a href="/enneagram-corner/enneagram-communication-styles" class="blog-link" style="width: 100%;">
       <PopCard
-          image={`/blogs/greek-statues-having-a-conversation.webp`}
+          image={`/blogs/greek-statues-having-an-intense-conversation.webp`}
           showIcon={false}
           subtext=""
           displayText="How Each Type Communicates (And Miscommunicates)"

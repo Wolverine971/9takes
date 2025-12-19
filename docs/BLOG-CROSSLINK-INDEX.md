@@ -1,7 +1,7 @@
 # Blog Cross-Link Index
 
-_Generated: 2025-12-11_
-_Total Published Posts Analyzed: 109_
+_Generated: 2025-12-19_
+_Total Published Posts Analyzed: 110_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -10,26 +10,27 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total published posts | 109 |
-| Posts with 0 outgoing links | 3 |
-| Posts with 0 incoming links | 23 |
-| Completely isolated (0 in, 0 out) | 1 |
+| Total published posts | 110 |
+| Posts with 0 outgoing links | 4 |
+| Posts with 0 incoming links | 24 |
+| Completely isolated (0 in, 0 out) | 2 |
 | Total internal cross-links | 661 |
-| Average outgoing links per post | 6.1 |
+| Average outgoing links per post | 6.0 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (1 posts)
+## Priority 1: Completely Isolated Posts (2 posts)
 
 These posts have NO links in or out. Fix these first!
 
 | Post Title | Path | Action |
 |------------|------|--------|
+| Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` | Add 3+ outgoing links |
 | Untitled | `life-situations/before-your-next-fight.md` | Add 3+ outgoing links |
 
 ---
 
-## Priority 2: Posts with NO Outgoing Links (3 posts)
+## Priority 2: Posts with NO Outgoing Links (4 posts)
 
 These posts don't link to any other content.
 
@@ -38,10 +39,11 @@ These posts don't link to any other content.
 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` | 6 |
 | Enneagram Concepts: Your Personality, Unpacked and Decoded | `enneagram/enneagram-concepts.md` | 5 |
 | Untitled | `life-situations/before-your-next-fight.md` | 0 |
+| Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` | 0 |
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (23 posts)
+## Priority 3: Posts with NO Incoming Links (24 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -251,6 +253,7 @@ Sorted by total connections (incoming + outgoing).
 | 1 | 0 | 1 | Enneagram Influences: Exploring the Differing Traditions | `enneagram/enneagram-influences.md` |
 | 1 | 0 | 1 |  The Stress Paradox: Learn Why Situations Change, But Emotio... | `enneagram/situations-change-emotions-dont.md` |
 | 0 | 0 | 0 | Untitled | `life-situations/before-your-next-fight.md` |
+| 0 | 0 | 0 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
 
 ---
 

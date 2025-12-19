@@ -153,7 +153,7 @@
 	<link rel="preconnect" href="https://9takes.com" />
 
 	<!-- Preload critical asset -->
-	<link href="/greek_pantheon.png" as="image" />
+	<link rel="preload" href="/greek_pantheon.png" as="image" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height" />
 
