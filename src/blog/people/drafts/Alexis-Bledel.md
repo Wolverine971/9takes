@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Alexis_Bledel'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Alexis-Bledel.md
 ---
 
 <QuickAnswer question="Why did Alexis Bledel disappear from Hollywood?">

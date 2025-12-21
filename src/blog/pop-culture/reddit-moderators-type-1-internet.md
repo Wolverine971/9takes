@@ -14,6 +14,7 @@ blog: true
 previewHtml: ''
 pic: 'reddit-mod-psychology'
 mjPrompt: 'Greek marble statue seated at command center with multiple glowing monitors showing scrolling text, one hand on keyboard with determined expression, other hand holding gavel or stamp marked REMOVED, stacks of rule books beside desk, ban hammer visible on wall, soft green and orange upvote downvote lights reflecting on marble surface, dark room with only monitor glow illuminating the tireless guardian, late night dedication aesthetic, tech workspace photography style --ar 16:9 --v 6'
+path: src/blog/pop-culture/reddit-moderators-type-1-internet.md
 ---
 
 <script>

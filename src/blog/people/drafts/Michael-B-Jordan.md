@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Michael_B._Jordan'
 twitter: 'michaelb4jordan'
 instagram: 'michaelbjordan'
 tiktok: ''
+path: src/blog/people/drafts/Michael-B-Jordan.md
 ---
 
 > "I put myself in a position where I had to sink or swim. I had to run towards that—my past, my inner demons, my insecurities, my fears."

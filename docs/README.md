@@ -1,7 +1,7 @@
 ---
 title: '9takes Documentation Hub'
 description: 'Master index and phonebook for all 9takes documentation'
-last_modified: 2025-12-05
+last_modified: 2025-12-20
 status: active
 category: hub
 path: docs/README.md
@@ -24,9 +24,18 @@ path: docs/README.md
 | Task                           | Go To                                                                                                    |
 | ------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | Full content creation workflow | [`writing-system/01-content-creation-workflow.md`](./writing-system/01-content-creation-workflow.md)     |
+| **Content creation checklist** | [`templates/content-creation-checklist.md`](./templates/content-creation-checklist.md) ⭐ NEW            |
 | Blog optimization techniques   | [`writing-system/02-blog-optimization-framework.md`](./writing-system/02-blog-optimization-framework.md) |
 | Editing method (McPhee)        | [`writing-system/03-mcphee-editing-method.md`](./writing-system/03-mcphee-editing-method.md)             |
 | Content patterns & examples    | [`writing-system/04-content-patterns-library.md`](./writing-system/04-content-patterns-library.md)       |
+
+### Planning & Tracking
+
+| Task                     | Go To                                                                             |
+| ------------------------ | --------------------------------------------------------------------------------- |
+| **Weekly content audit** | [`templates/weekly-content-audit.md`](./templates/weekly-content-audit.md) ⭐ NEW |
+| **Monthly content plan** | [`templates/monthly-content-plan.md`](./templates/monthly-content-plan.md) ⭐ NEW |
+| Current 30-day plan      | [`30-DAY-ACTION-PLAN-DEC-2025.md`](./30-DAY-ACTION-PLAN-DEC-2025.md)              |
 
 ### Optimizing Existing Pages
 
@@ -81,22 +90,23 @@ path: docs/README.md
 
 ## Folder Reference
 
-| Folder                 | Purpose                         | Key Files                               |
-| ---------------------- | ------------------------------- | --------------------------------------- |
-| `brand/`               | Voice, tone, visual identity    | `brand-style-guide-v2.md`               |
-| `writing-system/`      | Content creation workflows      | `01-content-creation-workflow.md`       |
-| `content-generation/`  | Content creation resources      | Midjourney prompts, image templates     |
-| `content-analysis/`    | SEO, optimization, traffic data | `ai-search-optimization-guide.md`       |
-| `content-research/`    | Active research for blog posts  | Per-topic research files                |
-| `domain-authority/`    | Content gaps & opportunities    | `00-master-index.md`                    |
-| `blogs-famous-people/` | Celebrity blog management       | Supabase CRUD, prompts                  |
-| `twitter/`             | Twitter/X strategy & content    | `README.md`, `strategy/`, `execution/`  |
-| `marketing/`           | Marketing frameworks & plans    | `viral-coach-framework-reference.md`    |
-| `development/`         | Technical docs & specs          | CSS guide, component docs               |
-| `project-docs/`        | Platform overview & context     | `00-project-overview.md`                |
-| `research/`            | Competitor analysis, audits     | Dated research files                    |
-| `security/`            | Security & credentials          | `CREDENTIAL_ROTATION_GUIDE.md`          |
-| `archives/`            | Historical reference only       | Old audits, daily progress, legacy docs |
+| Folder                 | Purpose                         | Key Files                                     |
+| ---------------------- | ------------------------------- | --------------------------------------------- |
+| `templates/` ⭐ NEW    | Reusable workflow templates     | Weekly audit, content checklist, monthly plan |
+| `brand/`               | Voice, tone, visual identity    | `brand-style-guide-v2.md`                     |
+| `writing-system/`      | Content creation workflows      | `01-content-creation-workflow.md`             |
+| `content-generation/`  | Content creation resources      | Midjourney prompts, image templates           |
+| `content-analysis/`    | SEO, optimization, traffic data | `ai-search-optimization-guide.md`             |
+| `content-research/`    | Active research for blog posts  | Per-topic research files                      |
+| `domain-authority/`    | Content gaps & opportunities    | `00-master-index.md`                          |
+| `blogs-famous-people/` | Celebrity blog management       | Supabase CRUD, prompts                        |
+| `twitter/`             | Twitter/X strategy & content    | `README.md`, `strategy/`, `execution/`        |
+| `marketing/`           | Marketing frameworks & plans    | `viral-coach-framework-reference.md`          |
+| `development/`         | Technical docs & specs          | CSS guide, component docs                     |
+| `project-docs/`        | Platform overview & context     | `00-project-overview.md`                      |
+| `research/`            | Competitor analysis, audits     | Dated research files                          |
+| `security/`            | Security & credentials          | `CREDENTIAL_ROTATION_GUIDE.md`                |
+| `archives/`            | Historical reference only       | Old audits, daily progress, legacy docs       |
 
 ---
 
@@ -201,4 +211,4 @@ related:
 
 _This README is the master index. If a doc isn't listed here, check `archives/` or use `/docs` search._
 
-_Last updated: December 5, 2025_
+_Last updated: December 20, 2025_

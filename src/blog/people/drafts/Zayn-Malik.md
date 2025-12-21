@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Zayn_Malik'
 twitter: 'zaaborsu'
 instagram: 'zayn'
 tiktok: 'zayn'
+path: src/blog/people/drafts/Zayn-Malik.md
 ---
 
 > "I lost a brother when you left us and can't explain to you what I'd give to just give you a hug one last time and say goodbye to you properly."

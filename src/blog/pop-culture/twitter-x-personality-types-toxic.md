@@ -14,6 +14,7 @@ blog: true
 previewHtml: ''
 pic: 'twitter-toxic-psychology'
 mjPrompt: 'Greek marble arena with multiple statues engaged in heated battle, central figures pointing and shouting at each other with aggressive postures, smaller statues piling onto conflicts in background, blue bird symbols and X logos scattered on ground like fallen banners, speech bubbles carved in stone floating above containing sharp jagged shapes, harsh red and blue lighting creating divisive atmosphere, chaos and conflict frozen in marble, battle photography meets classical sculpture --ar 16:9 --v 6'
+path: src/blog/pop-culture/twitter-x-personality-types-toxic.md
 ---
 
 <script>

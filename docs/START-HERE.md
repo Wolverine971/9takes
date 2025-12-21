@@ -2,8 +2,8 @@
 
 # 9takes Content Strategy - START HERE
 
-_Last Updated: 2025-12-09_
-_Status: **PROBLEM-FOCUSED CONTENT PIVOT** - Mental health angle is your traffic goldmine_
+_Last Updated: 2025-12-20_
+_Status: **WEEK 3 COMPLETE** - Systems created, internal linking optimized, ready for Week 4_
 
 > **AI Agents:** For quick task-based navigation, see [`/docs/README.md`](./README.md)
 
@@ -118,6 +118,10 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 - ✅ **10 TIER 1 celebrities optimized** (Dec 3): IShowSpeed, Emma Watson, Elon Musk, Sabrina Carpenter, Mark Zuckerberg, Selena Gomez, Zendaya, Billie Eilish, Sam Altman, Jenna Ortega
 - ✅ 11 pages optimized with clickbait titles + Quick Answer boxes (Dec 3)
 - ✅ Deep rewrites: MBTI comparison, Biggest compliments (removed dated slang)
+- ✅ **FAQ Expansions + Comparison Tables** (Dec 9): All high-traffic pages verified
+- ✅ **Content Refresh** (Dec 9-10): 5 high-CTR posts updated with new MarqueeHorizontal links
+- ✅ **Internal Linking Audit** (Dec 20): MarqueeHorizontal updated on 3 power pages to feature Dec 2025 content
+- ✅ **System Templates Created** (Dec 20): `/docs/templates/` with 3 workflow templates
 
 ---
 
@@ -143,69 +147,49 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 4. ✅ **"Why You Can't Stop Overthinking"** - Problem-focused
 5. ✅ **"Manipulation Tactics by Enneagram Type"** - Shadow/protection
 
-**Next focus:** Internal linking + TIER 2 celebrity optimizations
+**Next focus:** Week 4 (Dec 25-31) - Measurement & January planning
 
 ---
 
-## 🔥 IMMEDIATE PRIORITIES
+## 🔥 WEEK 3 STATUS (Dec 18-24) - COMPLETE
 
-### ✅ COMPLETED (Dec 9)
+### ✅ COMPLETED (Dec 7-9)
 
 - [x] All 5 problem-focused posts published (Dec 7)
-- [x] TIER 1 celebrities optimized (10 pages)
-- [x] TIER 2 celebrities optimized (10 pages) - Dec 9
-- [x] Internal linking done - see `/docs/BLOG-CROSSLINK-INDEX.md`
+- [x] TIER 1 + TIER 2 celebrities optimized (20 pages)
+- [x] FAQ expansions on high-traffic pages
+- [x] Comparison tables added to key pages
+- [x] AI Optimization verified
 
-### ✅ FAQ Expansions COMPLETE (Dec 9)
+### ✅ Internal Linking Audit COMPLETE (Dec 20)
 
-Added FAQ sections with JSON-LD schema to:
+Updated MarqueeHorizontal on power pages to feature December 2025 content:
 
-- enneagram-anxiety-complete-guide (5 FAQs)
-- enneagram-instinctual-subtypes (5 FAQs)
-- depression-patterns-by-enneagram-type (5 FAQs + QuickAnswer + Table)
+| Page                                | Old Links                 | New Links                                                         |
+| ----------------------------------- | ------------------------- | ----------------------------------------------------------------- |
+| enneagram-and-mental-illness        | first-date, stress, toxic | **self-sabotage, ADHD, overthinking**, toxic, stress              |
+| toxic-traits-of-each-enneagram-type | party, stress, ghosted    | **red-flags, manipulates, self-sabotage**, stress, overthinking   |
+| enneagram-strengths-and-weaknesses  | party, stress, ghosted    | **self-sabotage, red-flags, manipulates**, stress, mental-illness |
 
-_Note: Many pages already had FAQs (mental-illness, toxic-traits, stress, attachment, wings)_
+_All 5 new December posts now linked from high-traffic power pages._
 
-### ✅ Comparison Tables COMPLETE (Dec 9)
+### ✅ System Templates CREATED (Dec 20)
 
-Added comparison tables and QuickAnswers to:
+Created `/docs/templates/` folder with 3 workflow templates:
 
-- enneagram-compatibility-matrix (QuickAnswer)
-- enneagram-types-in-relationships (QuickAnswer + Table)
-- enneagram-wings-complete-guide (18 wing combos table)
-- depression-patterns-by-enneagram-type (patterns table)
+| Template                        | Purpose                               |
+| ------------------------------- | ------------------------------------- |
+| `weekly-content-audit.md`       | Weekly GSC tracking, optimization log |
+| `content-creation-checklist.md` | Complete checklist for new blog posts |
+| `monthly-content-plan.md`       | Monthly planning and goal tracking    |
 
-### ✅ AI Optimization VERIFIED (Dec 9)
+### Week 4 Preview (Dec 25-31)
 
-Researched best practices. Google's guidance: "Same SEO best practices apply—no additional requirements for AI Overviews."
-
-**Top pages verified - all have:**
-
-- QuickAnswer boxes (direct answers for featured snippets)
-- Comparison tables (scannable, AI-parseable)
-- FAQ sections with JSON-LD schema
-- Fresh lastmod dates
-
-**Added today:**
-
-- Comparison table to red-flags-dating post
-- Updated lastmod dates across edited pages
-
-### ✅ Content Refresh COMPLETE (Dec 9)
-
-Refreshed 5 high-CTR posts with QuickAnswers, internal links to new content, and updated dates:
-
-| Post                                               | CTR  | Position | Updates Made            |
-| -------------------------------------------------- | ---- | -------- | ----------------------- |
-| enneagram-types-at-party                           | 7.4% | 13.3     | + Marquee links         |
-| enneagram-types-on-a-first-date                    | 5.5% | 12.0     | + QuickAnswer + Marquee |
-| enneagram-types-being-ghosted                      | 5.4% | 11.3     | + Updated Marquee       |
-| beginners-guide-to-determining-your-enneagram-type | -    | -        | + Marquee links         |
-| enneagram-communication-styles                     | -    | -        | + QuickAnswer + Marquee |
-
-### Priority 1: Week 1 Review ← CURRENT (Tomorrow Dec 10)
-
-Check GSC for early signals on 5 new posts. Document accomplishments.
+| Day       | Task                                                     |
+| --------- | -------------------------------------------------------- |
+| Dec 25-27 | Measurement - Check GSC for December content performance |
+| Dec 28-30 | Week 4 Review - Document all accomplishments             |
+| Dec 31    | 30-Day Review - Create January 2026 action plan          |
 
 ---
 
@@ -226,6 +210,14 @@ Check GSC for early signals on 5 new posts. Document accomplishments.
 | Supabase celebrity CRUD   | [`/docs/blogs-famous-people/mcp-blogs-famous-people.md`](./blogs-famous-people/mcp-blogs-famous-people.md)                                 |
 | Mental health blog system | [`/docs/content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md`](./content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md)                               |
 | Midjourney prompts        | [`/docs/content-generation/midjourney_prompt_templates.md`](./content-generation/midjourney_prompt_templates.md)                           |
+
+### 🆕 Workflow Templates (Dec 2025)
+
+| Template                   | Purpose                        | Location                                                                                     |
+| -------------------------- | ------------------------------ | -------------------------------------------------------------------------------------------- |
+| Weekly Content Audit       | GSC tracking, optimization log | [`/docs/templates/weekly-content-audit.md`](./templates/weekly-content-audit.md)             |
+| Content Creation Checklist | Full blog post checklist       | [`/docs/templates/content-creation-checklist.md`](./templates/content-creation-checklist.md) |
+| Monthly Content Plan       | Monthly planning & goals       | [`/docs/templates/monthly-content-plan.md`](./templates/monthly-content-plan.md)             |
 
 ### Content Locations
 

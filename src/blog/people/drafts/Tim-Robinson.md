@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Tim_Robinson_(comedian)'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Tim-Robinson.md
 ---
 
 > "I think every interaction I have, there's something I walk away going, 'Oh my God, I sound like a jerk.' It's constantly happening." — Tim Robinson

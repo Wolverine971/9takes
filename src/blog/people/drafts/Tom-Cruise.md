@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Tom_Cruise'
 twitter: 'TomCruise'
 instagram: 'tomcruise'
 tiktok: ''
+path: src/blog/people/drafts/Tom-Cruise.md
 ---
 
 > **Disclaimer** This analysis of Tom Cruise's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tom.

@@ -185,7 +185,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Peter-Thiel', link: true, hasImage: true, lastmod: '2025-10-08' },
 		{ name: 'Pokimane', link: true, hasImage: true, lastmod: '2025-12-05' },
 		{ name: 'Prince-Harry', link: true, hasImage: true, lastmod: '2025-04-08' },
-		{ name: 'Timothee-Chalamet', link: true, hasImage: true, lastmod: '2025-05-02' },
+		{ name: 'Timothee-Chalamet', link: true, hasImage: true, lastmod: '2025-12-20' },
 		{ name: 'Tom-Hanks', link: true, hasImage: true, lastmod: '2025-06-25' },
 		{ name: 'Trevor-Noah', link: true, hasImage: true, lastmod: '2025-03-04' },
 		{ name: 'Tucker-Carlson', link: true, hasImage: true, lastmod: '2025-12-03' },

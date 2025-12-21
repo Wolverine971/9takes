@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Shane_Gillis'
 twitter: 'shaabornsale'
 instagram: 'shanemgillis'
 tiktok: ''
+path: src/blog/people/drafts/Shane-Gillis.md
 ---
 
 > "I'm such a bad employee, I couldn't work in an office. I had to give it a shot."

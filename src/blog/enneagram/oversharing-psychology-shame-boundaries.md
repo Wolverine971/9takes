@@ -12,6 +12,7 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'cafe-oversharing-conversation'
+path: src/blog/enneagram/oversharing-psychology-shame-boundaries.md
 ---
 
 <script>

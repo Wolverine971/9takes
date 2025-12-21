@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Dave_Portnoy'
 twitter: 'stoolpresidente'
 instagram: 'stoolpresidente'
 tiktok: ''
+path: src/blog/people/drafts/Dave-Portnoy.md
 ---
 
 <p class="firstLetter">You've seen him eat pizza on a street corner. You've watched him lose $250,000 on a single bet and demand a coach's head. You've witnessed him buy back his own company for one dollar.</p>

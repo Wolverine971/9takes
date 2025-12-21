@@ -411,7 +411,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-and-mental-illness</loc>
-    <lastmod>2025-10-23T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -624,7 +624,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses</loc>
-    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -975,7 +975,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type</loc>
-    <lastmod>2025-10-23T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1919,15 +1919,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Timothee-Chalamet</loc>
-    <lastmod>2025-05-02T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Timothee-Chalamet.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Blake-Lively</loc>
     <lastmod>2025-05-13T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2708,6 +2699,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Tim-Robinson.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Timothee-Chalamet</loc>
+    <lastmod>2025-12-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Timothee-Chalamet.webp</image:loc>
     </image:image>
 </url>
 <url>

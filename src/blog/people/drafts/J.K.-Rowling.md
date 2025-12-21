@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/J._K._Rowling'
 twitter: 'jabortwit'
 instagram: 'jkrowling'
 tiktok: ''
+path: src/blog/people/drafts/J.K.-Rowling.md
 ---
 
 > "I feel real anxiety if the writing isn't going right. My life can't run smoothly unless I've got that under control. I get distracted and edgy and I need to get back to it and I need to fix it. I'm very driven to complete things. I want to smooth off the rough ends."

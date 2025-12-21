@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Drake_(musician)'
 twitter: 'Drake'
 instagram: 'champagnepapi'
 tiktok: ''
+path: src/blog/people/drafts/Drake.md
 ---
 
 > "Everybody has an addiction; mine happens to be success."

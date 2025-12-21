@@ -2,7 +2,7 @@
 
 # Writing System
 
-_Last Updated: 2025-12-04_
+_Last Updated: 2025-12-20_
 _Purpose: Complete workflows for creating and editing content_
 
 ---
@@ -10,6 +10,8 @@ _Purpose: Complete workflows for creating and editing content_
 ## Quick Start
 
 **New to writing 9takes content?** Start with [`01-content-creation-workflow.md`](./01-content-creation-workflow.md)
+
+**Need a checklist to follow?** Use the [`Content Creation Checklist`](../templates/content-creation-checklist.md) ⭐
 
 **Improving existing content?** Follow the [Case Study](#case-study-communication-tips-rewrite) below for a practical example of the full optimization process.
 
@@ -177,6 +179,14 @@ After every blog post, create:
 | AI search optimization   | `/docs/content-analysis/ai-search-optimization-guide.md`                                                |
 | Current action plan      | `/docs/30-DAY-ACTION-PLAN-DEC-2025.md`                                                                  |
 | X/Twitter strategy       | `/docs/twitter/strategy/master-strategy.md`                                                             |
+
+### Workflow Templates ⭐ NEW
+
+| Template                       | Purpose                                  | Location                                                                                      |
+| ------------------------------ | ---------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Content Creation Checklist** | Complete checklist for new blog posts    | [`/docs/templates/content-creation-checklist.md`](../templates/content-creation-checklist.md) |
+| **Weekly Content Audit**       | Track weekly performance & optimizations | [`/docs/templates/weekly-content-audit.md`](../templates/weekly-content-audit.md)             |
+| **Monthly Content Plan**       | Plan monthly content calendar & goals    | [`/docs/templates/monthly-content-plan.md`](../templates/monthly-content-plan.md)             |
 
 ---
 

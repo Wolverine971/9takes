@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Theo_Von'
 twitter: 'TheoVon'
 instagram: 'theovon'
 tiktok: 'theovon'
+path: src/blog/people/drafts/Theo-Von.md
 ---
 
 <p class="firstLetter">There's a comedian filling arenas who once couldn't speak because cocaine had stolen his voice. A man whose father was 68 years old when he was born. A kid from Louisiana who was legally emancipated at 14 and lost his dad at 16.</p>

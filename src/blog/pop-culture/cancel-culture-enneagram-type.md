@@ -14,6 +14,7 @@ blog: true
 previewHtml: ''
 pic: 'cancel-culture-psychology'
 mjPrompt: 'Greek marble statue in center of modern courtroom surrounded by crowd of smartphone-holding marble hands all pointing accusingly, central figure covering face with one hand while the other reaches out defensively, red X marks painted on pedestal, dramatic spotlight from above creating harsh shadows, scattered papers with social media symbols on marble floor, tension between classical beauty and modern judgment, documentary photography style, shot on 35mm wide angle --ar 16:9 --v 6'
+path: src/blog/pop-culture/cancel-culture-enneagram-type.md
 ---
 
 <script>

@@ -8,11 +8,12 @@ loc: 'https://9takes.com/pop-culture/trump-type-8-vs-biden-type-2'
 lastmod: '2025-12-11'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'trump-biden-contrast'
+path: src/blog/pop-culture/trump-type-8-vs-biden-type-2.md
 ---
 
 <script>

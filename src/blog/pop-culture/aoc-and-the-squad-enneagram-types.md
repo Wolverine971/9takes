@@ -14,6 +14,7 @@ blog: true
 previewHtml: ''
 pic: 'aoc-squad-congress'
 mjPrompt: 'Four greek marble statues of powerful women standing together in unified formation inside grand marble rotunda with dramatic columns, each statue displaying distinct confident posture - one pointing forward with determined expression, one with arms crossed defiantly, one holding scroll with moral conviction, one with hand extended in welcoming gesture, American flag draped in background, golden afternoon light streaming through dome skylight casting long shadows, classical meets contemporary political aesthetic, editorial photography style, shot on 85mm lens --ar 16:9 --v 6'
+path: src/blog/pop-culture/aoc-and-the-squad-enneagram-types.md
 ---
 
 <script>

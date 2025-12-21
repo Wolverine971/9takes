@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Bobbi_Althoff'
 twitter: 'boaboringalthof'
 instagram: 'bobbialthoff'
 tiktok: 'bobbialthoff'
+path: src/blog/people/drafts/Bobbi-Althoff.md
 ---
 
 > **Disclaimer** This analysis of Bobbi Althoff's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bobbi.

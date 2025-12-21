@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/James_Charles'
 twitter: 'https://twitter.com/jamescharles'
 instagram: 'https://www.instagram.com/jamescharles'
 tiktok: 'https://www.tiktok.com/@jamescharles'
+path: src/blog/people/drafts/James-Charles.md
 ---
 
 > "I'm having fun. I'm being myself. I'm doing what I love. That's all that matters."

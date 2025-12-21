@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo'
 twitter: 'Cristiano'
 instagram: 'cristiano'
 tiktok: 'cristiano'
+path: src/blog/people/drafts/Cristiano-Ronaldo.md
 ---
 
 > "I'm not a perfectionist, but I like to feel that things are done well. More important than that, I feel an endless need to learn, to improve, to evolve."

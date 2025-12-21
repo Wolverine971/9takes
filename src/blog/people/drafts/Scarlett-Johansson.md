@@ -17,6 +17,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Scarlett-Johansson.md
 ---
 
 > "I value my privacy and my personal life - and I certainly don't exploit my personal life."

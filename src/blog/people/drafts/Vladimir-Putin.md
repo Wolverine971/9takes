@@ -18,6 +18,7 @@ twitter: ''
 instagram: ''
 tiktok: ''
 pic: 'Vladimir-Putin'
+path: src/blog/people/drafts/Vladimir-Putin.md
 ---
 
 <script>

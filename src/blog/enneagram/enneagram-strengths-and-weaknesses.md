@@ -4,7 +4,7 @@ description: "Every type has a fatal flaw that sabotages success and a hidden su
 author: 'DJ Wayne'
 date: '2023-05-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses'
-lastmod: '2025-12-05'
+lastmod: '2025-12-20'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
@@ -278,7 +278,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'self-sabotage 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'dating red flags 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'}, {name: 'how types manipulate 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'mental health risks 🏥', link: '/enneagram-corner/enneagram-and-mental-illness'} ]} />
 </div>
 
 <section class="section-content">
@@ -633,7 +633,7 @@ Want to see how your personality plays out in real situations? Explore our <a hr
     "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
   },
-  "dateModified": "2025-10-23",
+  "dateModified": "2025-12-20",
   "datePublished": "2023-05-10",
   "description": "Every type has a fatal flaw that sabotages success and a hidden superpower others wish they had. Find out why Type 1s self-destruct through perfectionism, why Type 7s can't focus, and what your type's kryptonite really is.",
   "headline": "Your Type's Fatal Flaw (And Secret Superpower) Based on Enneagram",

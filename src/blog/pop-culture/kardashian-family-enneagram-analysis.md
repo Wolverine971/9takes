@@ -14,6 +14,7 @@ blog: true
 previewHtml: ''
 pic: 'kardashian-family-enneagram'
 mjPrompt: 'Six greek marble statues arranged as family portrait in opulent mansion setting with gold accents, central matriarch figure slightly forward with calculating expression, surrounding figures each displaying distinct poses - one preening, one with arms crossed critically, one reaching to help another, one peaceful and withdrawn, one dramatically unique in style, crystal chandelier above, marble floors reflecting golden hour light through tall windows, dynasty aesthetic, editorial fashion photography style --ar 16:9 --v 6'
+path: src/blog/pop-culture/kardashian-family-enneagram-analysis.md
 ---
 
 <script>

@@ -4,7 +4,7 @@ description: 'Discover the shadow aspects hiding in each personality type, why t
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type'
-lastmod: '2025-10-23'
+lastmod: '2025-12-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -208,7 +208,7 @@ This envy creates a painful paradox: they desperately want to belong while simul
 <a href="/enneagram-corner/enneagram-type-4">Explore More About Type Fours</a>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'dating red flags 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'}, {name: 'how types manipulate 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'self-sabotage 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'overthinking 💭', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'} ]} />
 </div>
 
 ## Type 5: The Cold Analyzer Who Can't Connect
@@ -443,7 +443,7 @@ So which toxic traits did you recognize in yourself? And more importantly – wh
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-03-10",
+      "dateModified": "2025-12-20",
       "datePublished": "2024-07-12",
       "keywords": ["toxic traits", "Enneagram", "personality types", "shadow work", "self-awareness", "toxic behavior", "personal growth", "relationships", "psychology", "emotional patterns"],
       "wordCount": 4500,

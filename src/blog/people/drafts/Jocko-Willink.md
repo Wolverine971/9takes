@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jocko_Willink'
 twitter: 'jockowillink'
 instagram: 'jockowillink'
 tiktok: ''
+path: src/blog/people/drafts/Jocko-Willink.md
 ---
 
 > "Discipline equals freedom."

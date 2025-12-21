@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Hozier_(musician)'
 twitter: 'Habormoshow'
 instagram: 'hozier'
 tiktok: ''
+path: src/blog/people/drafts/Hozier.md
 ---
 
 > "If you can say something beautiful in a very terrible way — I was always drawn to that."

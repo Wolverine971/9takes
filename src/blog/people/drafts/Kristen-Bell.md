@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Kristen_Bell'
 twitter: 'https://twitter.com/KristenBell'
 instagram: 'https://www.instagram.com/kristenanniebell'
 tiktok: ''
+path: src/blog/people/drafts/Kristen-Bell.md
 ---
 
 > "She doesn't want to be told how to live her life or be bullied into doing something she doesn't want to do."

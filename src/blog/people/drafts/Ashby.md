@@ -17,6 +17,7 @@ wikipedia: ''
 twitter: ''
 instagram: 'https://instagram.com/_ashbyflorence_'
 tiktok: 'https://tiktok.com/@_ashbyflorence_'
+path: src/blog/people/drafts/Ashby.md
 ---
 
 > "I think people crave authenticity, which, in my opinion, is the easiest thing you can be. I believe they liked seeing someone who has no idea what they're doing, try to do something."

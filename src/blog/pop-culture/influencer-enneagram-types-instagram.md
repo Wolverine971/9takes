@@ -14,6 +14,7 @@ blog: true
 previewHtml: ''
 pic: 'influencer-types-instagram'
 mjPrompt: 'Greek marble statue of young woman holding phone taking selfie, standing in front of professional ring light reflecting off her polished surface, multiple marble versions of same statue in background showing different poses and outfits, follower count numbers floating in soft neon pink glow around her, pristine white studio setting with subtle grid pattern on floor, perfectly curated chaos of tripods and softboxes, lifestyle photography meets classical sculpture, shot on 50mm lens --ar 16:9 --v 6'
+path: src/blog/pop-culture/influencer-enneagram-types-instagram.md
 ---
 
 <script>

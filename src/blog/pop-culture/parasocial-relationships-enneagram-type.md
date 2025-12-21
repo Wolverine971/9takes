@@ -14,6 +14,7 @@ blog: true
 previewHtml: ''
 pic: 'parasocial-relationships-psychology'
 mjPrompt: 'Greek marble statue of solitary figure sitting in dark room illuminated only by glowing television screen, statue reaching toward the light with longing expression, on the screen another marble statue appears larger than life and radiant, posters of the screen figure covering walls, empty chair beside the viewer statue suggesting isolation, blue light from screen casting dramatic shadows, the one-sided nature of parasocial connection captured in composition, cinematic photography style --ar 16:9 --v 6'
+path: src/blog/pop-culture/parasocial-relationships-enneagram-type.md
 ---
 
 <script>

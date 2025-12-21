@@ -4,7 +4,7 @@ description: "Explore each Enneagram type's mental health risks and shadow side 
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/enneagram-corner/enneagram-and-mental-illness'
-lastmod: '2025-10-23'
+lastmod: '2025-12-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -345,13 +345,13 @@ Type 4s are susceptible to:
 </article>
 
 <div style="overflow: hidden;">
-	<MarqueeHorizontal 
+	<MarqueeHorizontal
 		displayList={[
-			{name: 'on a first date ❤️', link: '/enneagram-corner/enneagram-types-on-a-first-date'},
-			{name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'},
+			{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'},
+			{name: 'ADHD & personality 🧠', link: '/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'},
+			{name: 'overthinking patterns 💭', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'},
 			{name: 'being toxic ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'},
-			{name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'},
-			{name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'}
+			{name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}
 		]}
 	/>
 </div>
@@ -707,7 +707,7 @@ Explore these comprehensive guides for specific mental health topics by Enneagra
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-10-23",
+      "dateModified": "2025-12-20",
       "datePublished": "2023-12-08",
       "description": "Each Enneagram type shows specific vulnerabilities to certain mental health conditions. Type 1s commonly struggle with OCD, Type 4s with depression, Type 6s with anxiety. Understand your type's mental health risks.",
       "headline": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
