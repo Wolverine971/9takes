@@ -29,7 +29,7 @@ path: src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
   "@graph": [
     {
       "@type": "BlogPosting",
-      "articleBody": "This guide explores how each Enneagram type sabotages their own success through predictable patterns rooted in childhood protection mechanisms. It covers Type 1's paralysis by perfectionism, Type 2's martyrdom and burnout, Type 3's workaholism, Type 4's creative blocks, Type 5's analysis paralysis, Type 6's worst-case spiraling, Type 7's shiny object syndrome, Type 8's bridge burning, and Type 9's procrastination—with specific strategies to break each pattern.",
+      "articleBody": "This guide explores how each Enneagram type sabotages their own success through predictable patterns rooted in childhood protection mechanisms. It covers Type 1's paralysis by perfectionism, Type 2's martyrdom and burnout, Type 3's workaholism, Type 4's creative blocks, Type 5's analysis paralysis, Type 6's worst-case spiraling, Type 7's shiny object syndrome, Type 8's bridge burning, and Type 9's procrastination, with specific strategies to break each pattern.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -79,7 +79,7 @@ path: src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
           "name": "Why do I keep sabotaging my own success?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Your Enneagram type has a core fear that creates a protective pattern. When that pattern gets triggered—often unconsciously—you prioritize emotional safety over success. Each type has a specific self-sabotage pattern rooted in childhood protection mechanisms. Understanding your pattern is the first step to interrupting it."
+            "text": "Your Enneagram type has a core fear that creates a protective pattern. When that pattern gets triggered, often unconsciously. You prioritize emotional safety over success. Each type has a specific self-sabotage pattern rooted in childhood protection mechanisms. Understanding your pattern is the first step to interrupting it."
           }
         },
         {
@@ -103,7 +103,7 @@ path: src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
           "name": "Is self-sabotage a sign of mental illness?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not necessarily. Self-sabotage is a normal human pattern—a protection mechanism that's outlived its usefulness. However, chronic self-sabotage can be connected to anxiety, depression, or trauma responses. If patterns persist despite awareness and genuine effort to change, professional support can help."
+            "text": "Not necessarily. Self-sabotage is a normal human pattern, a protection mechanism that's outlived its usefulness. However, chronic self-sabotage can be connected to anxiety, depression, or trauma responses. If patterns persist despite awareness and genuine effort to change, professional support can help."
           }
         },
         {
@@ -111,7 +111,7 @@ path: src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
           "name": "Why do I give up when I'm close to success?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This is often fear of success—success brings visibility, expectations, change, and potential loss. Your Enneagram type determines how this fear shows up. Type 3 might fear being 'found out' as a fraud. Type 4 fears becoming ordinary. Type 9 fears the conflict that success might bring. Understanding your specific fear helps you push through it."
+            "text": "This is often fear of success, success brings visibility, expectations, change, and potential loss. Your Enneagram type determines how this fear shows up. Type 3 might fear being 'found out' as a fraud. Type 4 fears becoming ordinary. Type 9 fears the conflict that success might bring. Understanding your specific fear helps you push through it."
           }
         }
       ]
@@ -130,7 +130,7 @@ Every Enneagram type has a predictable self-sabotage pattern rooted in childhood
 
 So why do you keep hitting the same walls?
 
-You've probably noticed the pattern: you get close to something important—a promotion, a creative breakthrough, a relationship milestone—and something derails it. Often, that something is **you**.
+You've probably noticed the pattern: you get close to something important, a promotion, a creative breakthrough, a relationship milestone. And something derails it. Often, that something is **you**.
 
 This isn't about willpower. It's not a character flaw. And telling yourself to "just stop" has never worked.
 
@@ -138,7 +138,7 @@ This isn't about willpower. It's not a character flaw. And telling yourself to "
 
 The good news? Once you see your pattern clearly, you can interrupt it.
 
-Let's break down exactly how each type gets in their own way—and what to do about it.
+Let's break down exactly how each type gets in their own way. And what to do about it.
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date 💜', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
@@ -146,7 +146,7 @@ Let's break down exactly how each type gets in their own way—and what to do ab
 
 ## The Psychology of Self-Sabotage
 
-Self-sabotage isn't weakness—it's **protection gone wrong**.
+Self-sabotage isn't weakness. It's **protection gone wrong**.
 
 Every Enneagram type developed a core defense mechanism in childhood. These defenses helped us survive emotionally. The problem? They become automatic responses that fire even when we don't need protection.
 
@@ -155,7 +155,7 @@ Every Enneagram type developed a core defense mechanism in childhood. These defe
 1. **Childhood experience** creates a core fear
 2. We develop a **defense mechanism** to manage that fear
 3. The defense becomes **automatic**
-4. As adults, the defense **backfires**—blocking success instead of protecting us
+4. As adults, the defense **backfires**, blocking success instead of protecting us
 
 For example: A Type 1 who was criticized for mistakes develops perfectionism as a defense. That perfectionism now prevents them from finishing anything that isn't "perfect."
 
@@ -163,7 +163,7 @@ For example: A Type 1 who was criticized for mistakes develops perfectionism as 
 
 Fear of failure? Fear of success? Fear of visibility? Fear of being found out?
 
-Your type determines your specific flavor of fear—and your specific way of sabotaging yourself in response.
+Your type determines your specific flavor of fear. And your specific way of sabotaging yourself in response.
 
 Here's how each type does it.
 
@@ -173,7 +173,7 @@ Here's how each type does it.
 
 **The Pattern:** "Nothing is ever good enough to ship."
 
-You have impossibly high standards. That sounds like a strength—until you realize it means nothing ever gets completed, released, or celebrated. You're still revising while others are succeeding with "B- work."
+You have impossibly high standards. That sounds like a strength, until you realize it means nothing ever gets completed, released, or celebrated. You're still revising while others are succeeding with "B- work."
 
 **How It Shows Up:**
 
@@ -184,14 +184,14 @@ You have impossibly high standards. That sounds like a strength—until you real
 
 **The Childhood Root:**
 
-You learned early that mistakes meant losing love, approval, or safety. Perfectionism became your armor. If everything is perfect, no one can criticize you—and you'll finally be "good enough."
+You learned early that mistakes meant losing love, approval, or safety. Perfectionism became your armor. If everything is perfect, no one can criticize you. And you'll finally be "good enough."
 
 **Breaking the Pattern:**
 
 - **Done is better than perfect** (make this your mantra)
 - Set "good enough" criteria before starting
 - Ship early, iterate publicly
-- Practice intentional imperfection—on purpose
+- Practice intentional imperfection, on purpose
 - Remind yourself: Your worth isn't tied to the quality of your output
 
 <a href="/enneagram-corner/enneagram-type-1">Learn more about Type 1</a>
@@ -231,7 +231,7 @@ Love was conditional on being helpful. Your needs were dismissed or shamed. You 
 
 **The Pattern:** "Work until you collapse, then wonder who you are without your achievements."
 
-Your identity is your success. Strip away the accomplishments and you don't know who you're looking at in the mirror. So you keep achieving—at the cost of health, relationships, and authentic selfhood.
+Your identity is your success. Strip away the accomplishments and you don't know who you're looking at in the mirror. So you keep achieving, at the cost of health, relationships, and authentic selfhood.
 
 **How It Shows Up:**
 
@@ -273,7 +273,7 @@ You're paralyzed by comparison. Everyone else seems to have the special ingredie
 
 **The Childhood Root:**
 
-You felt fundamentally different—missing something others had. Loss or emotional abandonment confirmed it: there's a gap in you that others don't have. Being special became compensation for feeling broken.
+You felt fundamentally different, missing something others had. Loss or emotional abandonment confirmed it: there's a gap in you that others don't have. Being special became compensation for feeling broken.
 
 **Breaking the Pattern:**
 
@@ -281,7 +281,7 @@ You felt fundamentally different—missing something others had. Loss or emotion
 - Stop comparing mid-process
 - Embrace discipline as a form of self-expression
 - Share imperfect work
-- Success doesn't make you ordinary—it makes you visible
+- Success doesn't make you ordinary. It makes you visible
 
 <a href="/enneagram-corner/enneagram-type-4">Learn more about Type 4</a>
 
@@ -341,7 +341,7 @@ Your environment felt unpredictable. Trust was dangerous. You learned to anticip
 - Set a "fear timeout" limit on decisions
 - Notice when preparation becomes avoidance
 - Trust yourself to handle problems as they arise
-- Courage isn't absence of fear—it's acting anyway
+- Courage isn't absence of fear. It's acting anyway
 
 <a href="/enneagram-corner/enneagram-type-6">Learn more about Type 6</a>
 
@@ -351,7 +351,7 @@ Your environment felt unpredictable. Trust was dangerous. You learned to anticip
 
 **The Pattern:** "Start everything, finish nothing."
 
-You're amazing at beginnings. The problem is middles. When excitement fades and work gets hard, something shinier appears. You pivot, restart, chase the next thing—and wonder why you never achieve mastery.
+You're amazing at beginnings. The problem is middles. When excitement fades and work gets hard, something shinier appears. You pivot, restart, chase the next thing. And wonder why you never achieve mastery.
 
 **How It Shows Up:**
 
@@ -379,9 +379,9 @@ Pain was unbearable or never processed. You learned to reframe negativity, seek 
 
 ## Type 8: Burning Bridges
 
-**The Pattern:** "My way or no way—and then there's no way."
+**The Pattern:** "My way or no way. And then there's no way."
 
-Your intensity builds empires but also burns them down. You alienate allies, push away collaborators, and end up succeeding alone at a fraction of your potential—or not at all.
+Your intensity builds empires but also burns them down. You alienate allies, push away collaborators, and end up succeeding alone at a fraction of your potential, or not at all.
 
 **How It Shows Up:**
 
@@ -411,7 +411,7 @@ You experienced betrayal or powerlessness. Vulnerability became dangerous. You l
 
 **The Pattern:** "Keep the peace, lose yourself."
 
-Your goals get indefinitely postponed because someone else's needs always seem more urgent—or because Netflix is right there and ambition is hard. You numb, you merge, you disappear.
+Your goals get indefinitely postponed because someone else's needs always seem more urgent, or because Netflix is right there and ambition is hard. You numb, you merge, you disappear.
 
 **How It Shows Up:**
 
@@ -483,7 +483,7 @@ For more on the connection between personality and mental health challenges, see
 
 ### Why do I keep sabotaging my own success?
 
-Your Enneagram type has a core fear that creates a protective pattern. When that pattern gets triggered—often unconsciously—you prioritize emotional safety over success.
+Your Enneagram type has a core fear that creates a protective pattern. When that pattern gets triggered, often unconsciously. You prioritize emotional safety over success.
 
 This isn't conscious self-destruction. It's automatic protection. Your brain learned early that certain situations were dangerous, and it developed responses to keep you safe. The problem is, those responses fire even when you're not actually in danger.
 
@@ -493,11 +493,11 @@ Understanding your specific pattern is how you start interrupting it.
 
 All types self-sabotage, but the patterns are more visible in some than others.
 
-Types 4, 5, 6, and 9 often show clearer patterns because their defenses involve withdrawal or avoidance—it's obvious when you're not taking action.
+Types 4, 5, 6, and 9 often show clearer patterns because their defenses involve withdrawal or avoidance. It's obvious when you're not taking action.
 
-Types 1, 3, and 8 may sabotage through overwork and rigidity—they're taking action, but it's counterproductive action.
+Types 1, 3, and 8 may sabotage through overwork and rigidity: they're taking action, but it's counterproductive action.
 
-Types 2 and 7 sabotage through over-extension and scattered focus—lots of motion, little progress.
+Types 2 and 7 sabotage through over-extension and scattered focus, lots of motion, little progress.
 
 No type is immune. The question is which flavor of self-sabotage you're dealing with.
 
@@ -521,7 +521,7 @@ Small pattern interruptions build new neural pathways. Over time, the old automa
 
 ### Is self-sabotage a sign of mental illness?
 
-Not necessarily. Self-sabotage is a normal human pattern—a protection mechanism that's outlived its usefulness.
+Not necessarily. Self-sabotage is a normal human pattern, a protection mechanism that's outlived its usefulness.
 
 However, chronic self-sabotage can be connected to anxiety, depression, or trauma responses. If patterns persist despite awareness and genuine effort to change, professional support can help untangle the deeper roots.
 
@@ -529,17 +529,17 @@ The Enneagram helps you understand the pattern. Therapy helps you address what's
 
 ### Why do I give up when I'm close to success?
 
-This is often fear of success—success brings visibility, expectations, change, and potential loss.
+This is often fear of success, success brings visibility, expectations, change, and potential loss.
 
 Your Enneagram type determines how this fear shows up:
 
 - **Type 1** might fear being scrutinized at a higher level
 - **Type 3** might fear being "found out" as a fraud
-- **Type 4** fears becoming ordinary—success means fitting in
+- **Type 4** fears becoming ordinary, success means fitting in
 - **Type 6** fears the instability that change brings
 - **Type 9** fears the conflict that success might create
 
-Understanding your specific fear helps you push through it. The fear doesn't go away—you just stop letting it drive.
+Understanding your specific fear helps you push through it. The fear doesn't go away. You just stop letting it drive.
 
 ---
 

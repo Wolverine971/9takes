@@ -24,9 +24,6 @@
 	<label>
 		Font Family:
 		<select value={style.fontFamily} on:change={(e) => updateStyle('fontFamily', e.target.value)}>
-			<option value="Arial, sans-serif">Arial</option>
-			<option value="Times New Roman, serif">Times New Roman</option>
-			<option value="Courier New, monospace">Courier New</option>
 			<option value="Noticia Text, serif">Noticia Text</option>
 		</select>
 	</label>

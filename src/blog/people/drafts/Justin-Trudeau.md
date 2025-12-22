@@ -13,8 +13,8 @@ type: ['politician']
 person: 'Justin-Trudeau'
 suggestions: ['Barack-Obama', 'Kamala-Harris', 'Donald-Trump', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Justin_Trudeau'
-twitter: 'https://twitter.com/JustinTrudeau'
-instagram: 'https://www.instagram.com/justinpjtrudeau'
+twitter: 'JustinTrudeau'
+instagram: 'justinpjtrudeau'
 tiktok: ''
 path: src/blog/people/drafts/Justin-Trudeau.md
 ---

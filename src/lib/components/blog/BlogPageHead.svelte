@@ -3,7 +3,8 @@
 	export let data: App.BlogPost;
 	export let slug: string;
 
-	let title: string = data?.title;
+	// Use meta_title for SEO/social if available, otherwise fall back to title
+	let title: string = data?.meta_title || data?.title;
 	let description: string = data?.description;
 	const formattedTitle = title ? `${title}` : '9takes';
 

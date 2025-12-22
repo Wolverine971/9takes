@@ -4,7 +4,7 @@
 	import { goto, invalidateAll } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { browser } from '$app/environment';
-	import { enhance } from '$app/forms';
+	import { enhance, deserialize } from '$app/forms';
 	import { onMount, onDestroy } from 'svelte';
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
@@ -20,6 +20,7 @@
 	// State management
 	let loading = false;
 	let loadingMore = false;
+	let isNavigating = false; // Prevents reactive URL handler from interfering during programmatic navigation
 	let selectedCategory: number | null = null;
 	let allQuestions = [...(data.questionsAndTags || [])];
 	let currentPage = data.currentPage || 1;
@@ -77,12 +78,19 @@
 				body: formData
 			});
 
-			const result = await response.json();
+			// Properly deserialize SvelteKit action response
+			const text = await response.text();
+			const result = deserialize(text);
 
-			if (result.data) {
-				allQuestions = [...allQuestions, ...(result.data.questions || [])];
-				currentPage = result.data.page;
-				hasMore = result.data.hasMore;
+			if (result.type === 'success' && result.data) {
+				const responseData = result.data as {
+					questions: typeof allQuestions;
+					page: number;
+					hasMore: boolean;
+				};
+				allQuestions = [...allQuestions, ...(responseData.questions || [])];
+				currentPage = responseData.page;
+				hasMore = responseData.hasMore;
 			}
 		} catch (error) {
 			console.error('Error loading more questions:', error);
@@ -92,7 +100,21 @@
 		}
 	}
 
-	async function filterByCategory(categoryId: number | null) {
+	// Helper to convert category name to URL slug
+	function toSlug(name: string): string {
+		return name.toLowerCase().replace(/\s+/g, '-');
+	}
+
+	// Helper to find category by slug
+	function findCategoryBySlug(slug: string) {
+		return displayedCategories.find((c) => toSlug(c.category_name) === slug.toLowerCase());
+	}
+
+	async function filterByCategory(
+		categoryId: number | null,
+		categoryName: string | null = null,
+		updateUrl = true
+	) {
 		if (selectedCategory === categoryId) return;
 
 		loading = true;
@@ -100,11 +122,32 @@
 		currentPage = 1;
 		errorMessage = '';
 
+		// Prevent reactive statement from interfering during programmatic navigation
+		if (updateUrl) {
+			isNavigating = true;
+		}
+
 		try {
 			if (categoryId === null) {
-				// Reset to all questions
-				await invalidateAll();
+				// Reset to all questions - update URL and reload data
+				if (updateUrl && browser) {
+					const url = new URL($page.url);
+					url.searchParams.delete('category');
+					await goto(url.toString(), { replaceState: true, invalidateAll: true });
+				} else {
+					await invalidateAll();
+				}
+				// Restore original data
+				allQuestions = [...(data.questionsAndTags || [])];
+				hasMore = data.hasMore;
 			} else {
+				// Update URL to reflect category selection (use slug for readable URLs)
+				if (updateUrl && browser && categoryName) {
+					const url = new URL($page.url);
+					url.searchParams.set('category', toSlug(categoryName));
+					await goto(url.toString(), { replaceState: true, noScroll: true });
+				}
+
 				// Filter by category
 				const formData = new FormData();
 				formData.append('categoryId', String(categoryId));
@@ -114,11 +157,15 @@
 					body: formData
 				});
 
-				const result = await response.json();
+				// Properly deserialize SvelteKit action response
+				const text = await response.text();
+				const result = deserialize(text);
 
-				if (result.data) {
-					allQuestions = result.data.questions || [];
+				if (result.type === 'success' && result.data) {
+					allQuestions = (result.data as { questions: typeof allQuestions }).questions || [];
 					hasMore = false; // Filtered results don't paginate
+				} else if (result.type === 'failure') {
+					throw new Error('Failed to filter questions');
 				}
 			}
 		} catch (error) {
@@ -126,6 +173,7 @@
 			errorMessage = 'Failed to filter questions. Please try again.';
 		} finally {
 			loading = false;
+			isNavigating = false;
 		}
 	}
 
@@ -164,11 +212,19 @@
 		}
 	});
 
-	// Handle URL changes
-	$: if (browser && $page.url.searchParams.get('category')) {
-		const catId = parseInt($page.url.searchParams.get('category') || '');
-		if (!isNaN(catId) && catId !== selectedCategory) {
-			filterByCategory(catId);
+	// Handle URL changes (e.g., browser back/forward) - only for external navigation
+	$: if (browser && !isNavigating) {
+		const catParam = $page.url.searchParams.get('category');
+		if (catParam) {
+			// Try to find category by slug (name-based URL)
+			const category = findCategoryBySlug(catParam);
+			if (category && category.id !== selectedCategory) {
+				filterByCategory(category.id, category.category_name, false); // Don't update URL since it's already updated
+			}
+		} else if (selectedCategory !== null && !loading) {
+			// URL has no category param but we have a selection - reset
+			// Only reset if we're not currently loading (to avoid race conditions)
+			filterByCategory(null, null, false);
 		}
 	}
 </script>
@@ -328,7 +384,7 @@
 					class:!bg-primary-700={selectedCategory === null}
 					class:!text-white={selectedCategory === null}
 					class:!border-primary-700={selectedCategory === null}
-					on:click={() => filterByCategory(null)}
+					on:click={() => filterByCategory(null, null)}
 					disabled={loading}
 				>
 					All Questions
@@ -339,7 +395,7 @@
 						class:!bg-primary-700={selectedCategory === category.id}
 						class:!text-white={selectedCategory === category.id}
 						class:!border-primary-700={selectedCategory === category.id}
-						on:click={() => filterByCategory(category.id)}
+						on:click={() => filterByCategory(category.id, category.category_name)}
 						disabled={loading}
 					>
 						{category.category_name}
@@ -378,12 +434,33 @@
 			{:else if selectedCategory}
 				<!-- Filtered view -->
 				<div class="flex flex-col gap-1.5">
-					<h3
-						class="border-b border-neutral-100 pb-1 text-sm font-semibold text-neutral-800 sm:text-base"
-					>
-						{displayedCategories.find((c) => c.id === selectedCategory)?.category_name ||
-							'Category'}
-					</h3>
+					<!-- Back button and category header -->
+					<div class="mb-2 flex items-center gap-3 border-b border-neutral-100 pb-2">
+						<button
+							on:click={() => filterByCategory(null, null)}
+							class="flex items-center gap-1.5 rounded-lg border border-neutral-300 bg-white px-3 py-1.5 text-sm font-medium text-neutral-700 transition-all hover:border-primary-500 hover:bg-primary-50 hover:text-primary-700"
+							aria-label="Back to all questions"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-4 w-4"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+								stroke-width="2"
+							>
+								<path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+							</svg>
+							All Questions
+						</button>
+						<h3 class="text-sm font-semibold text-neutral-800 sm:text-base">
+							{displayedCategories.find((c) => c.id === selectedCategory)?.category_name ||
+								'Category'}
+						</h3>
+						<span class="ml-auto text-xs text-neutral-500">
+							{filteredQuestions.length} question{filteredQuestions.length !== 1 ? 's' : ''}
+						</span>
+					</div>
 					{#if filteredQuestions.length === 0}
 						<p class="py-8 text-center text-neutral-600">No questions found in this category.</p>
 					{:else}

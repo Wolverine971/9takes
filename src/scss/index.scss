@@ -13,60 +13,113 @@
 ==============================================*/
 :root {
 	/* Primary Colors */
-	--primary: #6c5ce7; /* Main purple - vibrant */
-	--primary-dark: #4834d4; /* Darker purple for hover states */
-	--primary-light: #a29bfe; /* Light purple for backgrounds and accents */
-	--primary-700: var(--primary);
-	--primary-500: var(--accent);
+	--primary-50: #f7f7ff;
+	--primary-100: #e9e4ff;
+	--primary-200: #d1c9ff;
+	--primary-300: #b2a8ff;
+	--primary-400: #a29bfe;
+	--primary-500: #8c7ae6;
+	--primary-600: #7158e2;
+	--primary-700: #6c5ce7;
+	--primary-800: #4834d4;
+	--primary-900: #382bb3;
+
+	--primary: var(--primary-700); /* Main purple - vibrant */
+	--primary-dark: var(--primary-800); /* Darker purple for hover states */
+	--primary-light: var(--primary-400); /* Light purple for backgrounds and accents */
 
 	/* Accent Colors */
-	--accent: #8c7ae6; /* Softer purple for secondary elements */
-	--accent-dark: #7158e2; /* Slightly darker accent for contrast */
-	--accent-light: #e9e4ff; /* Very light purple for subtle highlights */
+	--accent: var(--primary-500); /* Softer purple for secondary elements */
+	--accent-dark: var(--primary-600); /* Slightly darker accent for contrast */
+	--accent-light: var(--primary-100); /* Very light purple for subtle highlights */
+	--accent-rgb: 140, 122, 230;
 
 	/* Theme Color Aliases */
-	--color-theme-purple: #000;
+	--color-theme-purple: var(--primary);
 	--color-theme-purple-dark: var(--primary-dark);
 	--color-theme-purple-light: var(--accent);
 	--color-theme-purple-lighter: var(--accent-light);
 
 	/* Neutrals */
+	--neutral-50: #f9f9ff;
+	--neutral-100: #f0f2f5;
+	--neutral-200: #e4e6eb;
+	--neutral-300: #e3e1f0;
+	--neutral-400: #c1c5d0;
+	--neutral-500: #9ca3af;
+	--neutral-600: #65676b;
+	--neutral-700: #4b5563;
+	--neutral-800: #2a2d34;
+	--neutral-900: #18191a;
+
 	--white: #ffffff;
-	--off-white: #f9f9ff; /* Slightly purplish white for backgrounds */
-	--lightest-gray: #f0f2f5; /* Very light gray for card backgrounds */
-	--light-gray: #e4e6eb; /* Light gray for borders */
-	--medium-gray: #c1c5d0; /* Medium gray for disabled states */
-	--dark-gray: #65676b; /* Dark gray for secondary text */
-	--darkest-gray: #2a2d34; /* Very dark gray for primary text */
-	--black: #18191a; /* Off-black for stronger text */
+	--off-white: var(--neutral-50); /* Slightly purplish white for backgrounds */
+	--lightest-gray: var(--neutral-100); /* Very light gray for card backgrounds */
+	--light-gray: var(--neutral-200); /* Light gray for borders */
+	--medium-gray: var(--neutral-400); /* Medium gray for disabled states */
+	--dark-gray: var(--neutral-600); /* Dark gray for secondary text */
+	--darkest-gray: var(--neutral-800); /* Very dark gray for primary text */
+	--black: var(--neutral-900); /* Off-black for stronger text */
 
 	/* Functional Colors */
 	--success: #00b894; /* Teal green for success messages */
 	--warning: #fdcb6e; /* Soft yellow for warnings */
 	--error: #e84393; /* Pink/purple for errors - matches theme */
+	--error-light: #fdf2f8;
+	--error-700: #be185d;
 	--info: #74b9ff; /* Soft blue for information */
 
 	/* Text Colors */
-	--text-primary: #2d3436; /* Main text color - almost black but softer */
-	--text-secondary: #636e72; /* Secondary text - medium gray */
-	--text-tertiary: #b2bec3; /* Tertiary text - lighter gray */
+	--text-primary: var(--neutral-800); /* Main text color - almost black but softer */
+	--text-secondary: var(--neutral-600); /* Secondary text - medium gray */
+	--text-tertiary: var(--neutral-500); /* Tertiary text - lighter gray */
 	--text-on-primary: #ffffff; /* Text on primary colored backgrounds */
+	--text-on-dark: var(--text-on-primary);
+	--text-on-secondary: var(--text-on-primary);
 
 	/* Component Specific */
-	--card-background: #ffffff;
-	--body-background: #f7f7ff; /* Very light purple tint for body */
-	--comment-hover-bg: #f0edff; /* Light purple for comment hover */
-	--border-color: #e3e1f0; /* Light purplish gray for borders */
-	--button-hover: #5a48d6; /* Slightly darker than primary for button hovers */
+	--card-background: var(--white);
+	--body-background: var(--primary-50); /* Very light purple tint for body */
+	--comment-hover-bg: var(--primary-100); /* Light purple for comment hover */
+	--border-color: var(--neutral-300); /* Light purplish gray for borders */
+	--button-hover: var(--primary-800); /* Slightly darker than primary for button hovers */
+	--hover-background: var(--neutral-100);
+	--message-background: var(--neutral-50);
+	--button-background: rgba(0, 0, 0, 0.05);
+	--background: var(--card-background);
+	--color-border: var(--border-color);
+	--color-text: var(--text-primary);
+	--color-text-secondary: var(--text-secondary);
+	--color-text-muted: var(--text-tertiary);
+	--color-primary: var(--primary);
+	--color-warning: var(--warning);
+	--color-bg-secondary: var(--neutral-50);
+	--color-bg-muted: var(--neutral-100);
+	--color-icon: var(--text-secondary);
+	--accent-color: var(--accent);
+	--text-color-secondary: var(--text-secondary);
+	--card-bg-color: var(--card-background);
+	--item-background: var(--card-background);
+	--title-background: var(--neutral-100);
+	--title-color: var(--text-primary);
+	--link-background: var(--neutral-50);
+	--link-hover-background: var(--neutral-100);
+	--link-color: var(--text-primary);
+	--secondary: var(--accent);
+	--secondary-dark: var(--accent-dark);
+	--background-light: var(--neutral-50);
+	--background-dark: var(--neutral-900);
 
 	/* Shadows */
 	--shadow-sm: 0 1px 3px rgba(108, 92, 231, 0.08);
 	--shadow-md: 0 4px 6px rgba(108, 92, 231, 0.1);
 	--shadow-lg: 0 10px 15px rgba(108, 92, 231, 0.1);
+	--shadow-xl: 0 20px 25px rgba(108, 92, 231, 0.1);
 	--shadow-color: rgba(108, 92, 231, 0.15);
 
 	/* Layout */
 	--border-radius: 0.5rem;
+	--border-radius-md: var(--border-radius);
 	--base-border-radius: 0.5rem;
 	--border-radius-lg: 0.75rem;
 	--border-radius-sm: 0.25rem;
@@ -75,10 +128,13 @@
 	--card-padding: 1.25rem;
 	--card-margin: 1rem;
 	--spacing-unit: 5px;
+	--font-size: var(--font-size-base);
+	--tag: none;
+	--num-images: 1;
 
 	/* Typography */
 	--font-family: 'Noticia Text', serif;
-	--font-mono: 'Fira Mono', monospace;
+	--font-mono: 'Noticia Text', serif;
 
 	/* Font sizes */
 	--font-size-xs: 0.75rem;
@@ -100,6 +156,7 @@
 
 	/* Transitions */
 	--transition-base: all 0.2s ease;
+	--animation-speed: 0.3s;
 
 	/* Misc */
 	--glass-color: rgba(90, 91, 95, 0.1);
@@ -128,8 +185,8 @@
 	--greek-background: var(--greek-marble); /* Marble for backgrounds */
 
 	/* Extended typography */
-	--font-greek-heading: 'Cinzel', var(--font-family);
-	--font-greek-body: 'Cardo', var(--font-family);
+	--font-greek-heading: var(--font-family);
+	--font-greek-body: var(--font-family);
 	--line-height-golden: var(--golden-ratio);
 
 	/* Greek-inspired UI elements */

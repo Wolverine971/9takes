@@ -20,7 +20,7 @@ tiktok: ''
 path: src/blog/people/drafts/Alexandria-Ocasio-Cortez.md
 ---
 
-<p class="firstLetter">October 2019. Mark Zuckerberg sits before Congress, expecting the usual grandstanding. Then Alexandria Ocasio-Cortez leans into her microphone and asks if she can run Facebook ads claiming Republicans voted for the Green New Deal. His answer—"I think probably"—goes viral. Millions watch a bartender-turned-congresswoman corner the world's fifth-richest man.</p>
+<p class="firstLetter">October 2019. Mark Zuckerberg sits before Congress, expecting the usual grandstanding. Then Alexandria Ocasio-Cortez leans into her microphone and asks if she can run Facebook ads claiming Republicans voted for the Green New Deal. His answer—"I think probably", goes viral. Millions watch a bartender-turned-congresswoman corner the world's fifth-richest man.</p>
 
 This is what AOC does. She walks into rooms full of people who could destroy her career and picks fights anyway.
 
@@ -30,7 +30,7 @@ Why?
 <summary class="accordion">TL;DR: Why AOC is an Enneagram Type 6</summary>
 <div class="panel">
 <ul>
-<li><b>Counterphobic Courage:</b> She charges into confrontations with billionaires and institutions—classic Type 6 behavior that runs toward fear rather than from it.</li>
+<li><b>Counterphobic Courage:</b> She charges into confrontations with billionaires and institutions, classic Type 6 behavior that runs toward fear rather than from it.</li>
 <li><b>Security Through Community:</b> Grassroots organizing, Twitch streams with voters, relentless focus on working-class issues. Type 6s build safety networks.</li>
 <li><b>Loyal Skeptic:</b> Questions authority (grilling Zuckerberg, challenging Schumer) while fiercely loyal to her constituents. The defining Type 6 tension.</li>
 <li><b>Vigilant Preparation:</b> Her meticulous hearing prep and detailed policy positions reveal the Type 6 need to anticipate problems before they strike.</li>
@@ -47,13 +47,13 @@ AOC is an [Enneagram Type 6](/enneagram-corner/enneagram-type-6)—"The Loyal Sk
 
 But they're also driven by a core fear: being without support when everything falls apart.
 
-This fear doesn't paralyze AOC. It propels her. Every policy she champions—Medicare for All, the Green New Deal, economic justice—aims to create the safety net her own family never had.
+This fear doesn't paralyze AOC. It propels her. Every policy she champions, Medicare for All, the Green New Deal, economic justice, aims to create the safety net her own family never had.
 
 ### The Counterphobic Six
 
 Here's where it gets interesting. Type 6s respond to fear in two ways: phobic (retreat) or counterphobic (charge forward). AOC is textbook counterphobic.
 
-Where most people see a billionaire CEO, she sees a target. Where others retreat from powerful institutions, she walks straight in and demands answers. This isn't recklessness. It's a survival strategy—neutralize threats before they neutralize you.
+Where most people see a billionaire CEO, she sees a target. Where others retreat from powerful institutions, she walks straight in and demands answers. This isn't recklessness. It's a survival strategy, neutralize threats before they neutralize you.
 
 ## The Bronx: Where It Started
 
@@ -69,7 +69,7 @@ She was sixteen when her father got the diagnosis. Rare lung cancer. Experimenta
 
 In 2008, during her sophomore year at Boston University, Sergio Ocasio-Roman died at Memorial Sloan Kettering. He left behind no life insurance. No investments. No safety net.
 
-Banks circled. Foreclosure notices arrived. Blanca took two jobs—bus driver, phone operator—to keep the family afloat. Alexandria became a bartender in the Bronx to help her mother survive.
+Banks circled. Foreclosure notices arrived. Blanca took two jobs, bus driver, phone operator, to keep the family afloat. Alexandria became a bartender in the Bronx to help her mother survive.
 
 **"My family almost lost our home in order to try and keep him alive,"** she later testified before Congress.
 
@@ -77,7 +77,7 @@ Watch her advocate for universal healthcare and you're watching someone who live
 
 There's one more detail. Near the end, when Sergio could no longer speak, he watched _Star Trek_ with his daughter. When Captain Janeway appeared on screen, he pointed at the captain, then at Alexandria. Back and forth.
 
-Ten years later, Kate Mulgrew—who played Captain Janeway—appeared at AOC's final campaign rally in the Bronx.
+Ten years later, Kate Mulgrew, who played Captain Janeway, appeared at AOC's final campaign rally in the Bronx.
 
 ## Boston University and the Ted Kennedy Connection
 
@@ -85,11 +85,11 @@ Economics and international relations. A combination that would later inform her
 
 But the pivotal experience was her internship in Senator Ted Kennedy's immigration office. She saw firsthand how policy decisions rippled through immigrant families. How bureaucracy could crush people.
 
-It was also at BU where she met Riley Roberts at a student town hall. They were both 19. After a college breakup and years apart, they reconnected. In 2022—more than a decade later—Roberts proposed in her family's hometown in Puerto Rico.
+It was also at BU where she met Riley Roberts at a student town hall. They were both 19. After a college breakup and years apart, they reconnected. In 2022, more than a decade later, Roberts proposed in her family's hometown in Puerto Rico.
 
 **"It's my resolution that perhaps we can be engaged by the end of the year,"** he'd told her during New Year's resolutions. He kept his word.
 
-Roberts worked on her early campaign website. He's remained steady and low-profile—the kind of loyal partner a Type 6 treasures.
+Roberts worked on her early campaign website. He's remained steady and low-profile: the kind of loyal partner a Type 6 treasures.
 
 ## From Bartender to Congress
 
@@ -113,15 +113,15 @@ Politicians usually sand down their edges. AOC sharpens hers.
 
 **"I'm not a superhero. I'm not a villain. I'm just a person trying to do the right thing."**
 
-This admission—self-doubt alongside moral conviction—is pure Type 6. They never quite trust their own competence, but they push forward anyway.
+This admission, self-doubt alongside moral conviction, is pure Type 6. They never quite trust their own competence, but they push forward anyway.
 
 ### Digital Native
 
 Instagram Live cooking sessions. Twitter exchanges that draw blood. But her most innovative moment came in October 2020.
 
-She launched a Twitch stream playing _Among Us_ with Rep. Ilhan Omar and streamers like Pokimane and HasanAbi. Peak viewership: 438,000—one of the highest individual streams ever. Her channel hit 700,000 followers.
+She launched a Twitch stream playing _Among Us_ with Rep. Ilhan Omar and streamers like Pokimane and HasanAbi. Peak viewership: 438,000, one of the highest individual streams ever. Her channel hit 700,000 followers.
 
-This wasn't about being trendy. She was building community—meeting young voters in their own space. During the stream, she became the **#1 traffic driver** to IWillVote.com. <a href="/personality-analysis/Bernie-Sanders">Bernie Sanders</a>, for comparison, has about 150,000 Twitch followers.
+This wasn't about being trendy. She was building community, meeting young voters in their own space. During the stream, she became the **#1 traffic driver** to IWillVote.com. <a href="/personality-analysis/Bernie-Sanders">Bernie Sanders</a>, for comparison, has about 150,000 Twitch followers.
 
 Type 6s crave connection and transparency. Twitch delivered both.
 
@@ -129,7 +129,7 @@ Type 6s crave connection and transparency. Twitch delivered both.
 
 **"I prepare and prepare and prepare, and then I get up there and just let it rip."**
 
-Congressional hearings aren't performances. They're ambushes—five minutes to make your point before time expires. AOC treats them like a trial lawyer preparing for cross-examination.
+Congressional hearings aren't performances. They're ambushes, five minutes to make your point before time expires. AOC treats them like a trial lawyer preparing for cross-examination.
 
 The results speak for themselves.
 
@@ -163,13 +163,13 @@ Counterphobic Sixes don't pick easy fights.
 
 AOC's most complex relationship in Washington isn't with Republicans. It's with <a href="/personality-analysis/Nancy-Pelosi">Nancy Pelosi</a>.
 
-Their dynamic reveals something essential about how Type 6s navigate authority—especially when that authority is nominally on their side.
+Their dynamic reveals something essential about how Type 6s navigate authority, especially when that authority is nominally on their side.
 
 ### The Sit-In
 
 November 13, 2018. AOC hadn't even been sworn in yet. She joined 150 Sunrise Movement activists occupying Pelosi's Capitol Hill office, demanding a Green New Deal instead of the Speaker's proposed climate research committee.
 
-Fifty-one protesters were arrested. AOC wasn't among them—but she'd made her statement. Before taking office, she'd already challenged the most powerful Democrat in Congress.
+Fifty-one protesters were arrested. AOC wasn't among them, but she'd made her statement. Before taking office, she'd already challenged the most powerful Democrat in Congress.
 
 A phobic Six would never. A counterphobic Six couldn't resist.
 
@@ -187,7 +187,7 @@ She told the _New York Times_ that AOC and the Squad were **"four people"** with
 
 ### AOC's Response
 
-Type 6s don't take dismissal lightly—especially from authority figures they're supposed to trust.
+Type 6s don't take dismissal lightly, especially from authority figures they're supposed to trust.
 
 AOC fired back on Twitter, quoting Pelosi's own words: **"'A glass of water could've beat a 20-yr incumbent.' 'The Green Dream or whatever.' 'Their public whatever.' Those aren't quotes from me; they're from the Speaker."**
 
@@ -213,7 +213,7 @@ When Pelosi stepped down from leadership in 2022, AOC's experience in Congress c
 
 **"Senior members talk to me. Chairs are nice to me. People want to work together,"** she told journalist Ryan Grim. With Pelosi gone, the constant surveillance lifted. The Type 6 could finally breathe.
 
-But the détente didn't last. In December 2024, when AOC ran for Oversight Committee ranking member, Pelosi was back on the phones—lobbying for her opponent Gerry Connolly. He won, 131-84.
+But the détente didn't last. In December 2024, when AOC ran for Oversight Committee ranking member, Pelosi was back on the phones, lobbying for her opponent Gerry Connolly. He won, 131-84.
 
 ### What This Reveals
 
@@ -221,7 +221,7 @@ The AOC-Pelosi dynamic isn't personal animosity. It's a clash of Enneagram world
 
 Type 3s like Pelosi see politics as achievement. Build coalitions. Win elections. Protect the brand. Newcomers who rock the boat threaten everything you've built.
 
-Type 6s like AOC see politics as protection. Question authority. Build community safety nets. Test whether the people in power actually have your back—because if they don't, you need to know now.
+Type 6s like AOC see politics as protection. Question authority. Build community safety nets. Test whether the people in power actually have your back, because if they don't, you need to know now.
 
 Pelosi saw AOC as a threat to party success. AOC saw Pelosi as an authority figure who needed testing. Neither was wrong from their own perspective.
 
@@ -239,13 +239,13 @@ In 2024, she and Bernie Sanders relaunched it with a focus on public housing. Th
 
 ### Anti-Corruption Work
 
-The Bipartisan Restoring Faith in Government Act. The High Court Gift Ban Act with Rep. Jamie Raskin—proposing to limit Supreme Court gifts to $50.
+The Bipartisan Restoring Faith in Government Act. The High Court Gift Ban Act with Rep. Jamie Raskin, proposing to limit Supreme Court gifts to $50.
 
 Type 6s distrust systems that can be corrupted. They build safeguards.
 
 ### Moving the Overton Window
 
-This might be her most significant impact. Policies once dismissed as radical—universal healthcare, a living wage, aggressive climate action—now occupy mainstream Democratic discourse.
+This might be her most significant impact. Policies once dismissed as radical, universal healthcare, a living wage, aggressive climate action, now occupy mainstream Democratic discourse.
 
 She didn't just push for change. She expanded what change was possible.
 
@@ -253,7 +253,7 @@ She didn't just push for change. She expanded what change was possible.
 
 ### The Met Gala Dress
 
-September 2021. AOC attends the Met Gala in a white gown with **"Tax the Rich"** blazoned across the back. Critics called it hypocritical—preaching economic justice at a $35,000-per-ticket event.
+September 2021. AOC attends the Met Gala in a white gown with **"Tax the Rich"** blazoned across the back. Critics called it hypocritical, preaching economic justice at a $35,000-per-ticket event.
 
 Her defense: New York officials are invited to oversee cultural institutions. She didn't pay for the ticket. She didn't keep the dress.
 
@@ -263,7 +263,7 @@ Type 6s try to work within systems while pushing their limits. Sometimes they mi
 
 ### The Oversight Committee Loss
 
-The December 2024 defeat to Gerry Connolly—with Pelosi working against her—stung. But it revealed something important: AOC was willing to challenge established power structures even when the odds were against her.
+The December 2024 defeat to Gerry Connolly, with Pelosi working against her, stung. But it revealed something important: AOC was willing to challenge established power structures even when the odds were against her.
 
 Counterphobic Sixes don't back down from fights they believe in. Even ones they might lose.
 
@@ -313,7 +313,7 @@ The movement she's building extends beyond her district. Beyond Congress. A new 
 
 ## The Pattern Behind the Politics
 
-Alexandria Ocasio-Cortez watched her family's security shatter at eighteen. She spent years rebuilding—bartending, waitressing, organizing—before taking on a ten-term incumbent and winning.
+Alexandria Ocasio-Cortez watched her family's security shatter at eighteen. She spent years rebuilding, bartending, waitressing, organizing, before taking on a ten-term incumbent and winning.
 
 Now she grills billionaires in congressional hearings. Challenges her own party leadership. Positions herself for higher office while building safety nets for communities that remind her of her own.
 

@@ -1,10 +1,11 @@
 ---
-title: 'When Success Becomes Your Prison (Type 3 Achievement Addiction)'
+title: 'Enneagram Type 3: The Achiever - Complete Guide'
+meta_title: 'When Success Becomes Your Prison (Type 3 Achievement Addiction)'
 description: "Can't stop achieving even when you're exhausted? That's Type 3. Learn why success feels like a trap, why you can't slow down, and what you're really running from."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/enneagram-corner/enneagram-type-3'
-lastmod: '2025-10-23'
+lastmod: '2025-12-21'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
@@ -103,7 +104,7 @@ But perpetual performance casts dark shadows:
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'overthinking by type 🧠', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'manipulation tactics 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'red flags in dating 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'} ]} />
 </div>
 
 <section class="section-content">
@@ -343,7 +344,7 @@ The panel emphasized how self-awareness practices, authentic relationships, and 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-10-23",
+      "dateModified": "2025-12-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 3",

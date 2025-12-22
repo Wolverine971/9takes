@@ -26,7 +26,7 @@ You've had this thought. We all have.
 
 You chose your words carefully. You meant well. You were even _trying_ to be helpful. But somehow your message landed like a grenade instead of an olive branch.
 
-**Here's what nobody tells you:** The same sentence can be medicine for one person and poison for another—depending on their Enneagram type.
+**Here's what nobody tells you:** The same sentence can be medicine for one person and poison for another, depending on their Enneagram type.
 
 "Just calm down" soothes a Type 7 but infuriates a Type 4.
 "Here's the solution" relieves a Type 3 but dismisses a Type 2.
@@ -38,7 +38,7 @@ You're not bad at communicating. You're speaking the right words to the wrong op
 Each Enneagram type has different emotional triggers and needs. Type 1s need you to acknowledge their standards. Type 2s need to feel genuinely appreciated. Type 3s need efficiency and respect for their time. Type 4s need emotional validation. Type 5s need space to process. Type 6s need reassurance without dismissal. Type 7s need positive framing. Type 8s need directness and honesty. Type 9s need patience and explicit invitation to share their view.
 </QuickAnswer>
 
-This guide gives you the exact words that work—and the phrases that backfire—for every type. No theory. Just scripts you can use today.
+This guide gives you the exact words that work. And the phrases that backfire, for every type. No theory. Just scripts you can use today.
 
 (For the deeper "why" behind each type's communication patterns, see our guide on [Enneagram communication styles](/enneagram-corner/enneagram-communication-styles).)
 
@@ -46,9 +46,9 @@ This guide gives you the exact words that work—and the phrases that backfire�
 
 Every personality type has a different "filter" through which they process your words. That filter was installed in childhood.
 
-- The kid who learned love meant meeting high standards? They became Type 1—and now hear criticism where you mean care.
-- The kid who learned love meant being needed? They became Type 2—and now hear rejection where you mean boundaries.
-- The kid who learned love meant achieving? They became Type 3—and now hear "you're failing" where you mean "slow down."
+- The kid who learned love meant meeting high standards? They became Type 1. And now hear criticism where you mean care.
+- The kid who learned love meant being needed? They became Type 2. And now hear rejection where you mean boundaries.
+- The kid who learned love meant achieving? They became Type 3. And now hear "you're failing" where you mean "slow down."
 
 Your words pass through their filter before they reach their heart.
 
@@ -74,7 +74,7 @@ Now let's get specific about what to say.
 
 ### What's Happening Inside Their Head
 
-Type 1s grew up believing love was conditional on doing things right. They internalized a harsh inner critic that's judging them 24/7—way harsher than you ever could be.
+Type 1s grew up believing love was conditional on doing things right. They internalized a harsh inner critic that's judging them 24/7, way harsher than you ever could be.
 
 When they correct you, they're not attacking. They're trying to help you avoid the judgment they fear for themselves.
 
@@ -101,7 +101,7 @@ When they correct you, they're not attacking. They're trying to help you avoid t
 **When they're stressed:**
 
 - ✅ "You've done everything you could. Some things are outside your control."
-- ✅ "Your best effort is enough—for real."
+- ✅ "Your best effort is enough, for real."
 - ❌ "Just let it go."
 - ❌ "Nobody's perfect."
 
@@ -119,7 +119,7 @@ This phrase works because it validates their correctness AND reframes their crit
 
 ### What's Happening Inside Their Head
 
-Type 2s learned early that being needed = being loved. They've spent a lifetime scanning for how to be valuable to others—often at the expense of knowing what _they_ need.
+Type 2s learned early that being needed = being loved. They've spent a lifetime scanning for how to be valuable to others, often at the expense of knowing what _they_ need.
 
 When they over-give, they're not being manipulative. They're following the only script for love they've ever known.
 
@@ -131,28 +131,28 @@ When they over-give, they're not being manipulative. They're following the only 
 
 **When they're over-giving:**
 
-- ✅ "This is so thoughtful. But before you do more, tell me—what do YOU need today?"
+- ✅ "This is so thoughtful. But before you do more, tell me, what do YOU need today?"
 - ✅ "I appreciate this. Can I help you with something instead?"
 - ❌ "You don't need to do that."
 - ❌ "I'm fine, thanks." (said dismissively)
 
 **When you need to set a boundary:**
 
-- ✅ "I love that you want to help. Right now, the best thing for me is space to figure this out myself. It's not about you—it's what I need."
+- ✅ "I love that you want to help. Right now, the best thing for me is space to figure this out myself. It's not about you. It's what I need."
 - ✅ "I value you for who you are, not just what you do for me."
-- ❌ "Stop helping—you're smothering me."
+- ❌ "Stop helping. You're smothering me."
 - ❌ "I don't need you."
 
 **When they're upset but won't admit it:**
 
-- ✅ "I notice you seem off. I'm here when you're ready to talk—about YOU, not about me."
+- ✅ "I notice you seem off. I'm here when you're ready to talk, about YOU, not about me."
 - ✅ "You take care of everyone else. Let me take care of you for a minute."
 - ❌ "You're clearly fine."
 - ❌ Ignoring the signs.
 
 ### The Magic Phrase
 
-> "I need you—but not for what you do. I need you because you're you."
+> "I need you, but not for what you do. I need you because you're you."
 
 This phrase short-circuits their whole operating system. It tells them their worth isn't tied to their usefulness.
 
@@ -164,7 +164,7 @@ This phrase short-circuits their whole operating system. It tells them their wor
 
 ### What's Happening Inside Their Head
 
-Type 3s learned that love came through accomplishment. They've become experts at reading what success looks like in any room—and morphing to match it.
+Type 3s learned that love came through accomplishment. They've become experts at reading what success looks like in any room. And morphing to match it.
 
 When they seem image-focused, they're not shallow. They're terrified that without achievement, they'll literally disappear.
 
@@ -176,21 +176,21 @@ When they seem image-focused, they're not shallow. They're terrified that withou
 
 **When you need something from them:**
 
-- ✅ "Here's the bottom line: [specific ask]. I know you're busy—just need 5 minutes."
+- ✅ "Here's the bottom line: [specific ask]. I know you're busy. Just need 5 minutes."
 - ✅ "Quick win for you: [benefit]. Can we sync tomorrow at 2?"
 - ❌ "Whenever you have time..." (vague)
 - ❌ Long-winded context before the ask.
 
 **When they're burning out but won't stop:**
 
-- ✅ "You've already crushed it. Rest isn't weakness—it's maintenance for the machine."
+- ✅ "You've already crushed it. Rest isn't weakness. It's maintenance for the machine."
 - ✅ "What if your next achievement was learning to recharge? That takes skill too."
 - ❌ "You work too much."
 - ❌ "Don't you think you should slow down?"
 
 **When you want them to open up:**
 
-- ✅ "Forget the work for a second. How are YOU doing—not the role, not the title, just you?"
+- ✅ "Forget the work for a second. How are YOU doing. Not the role, not the title, just you?"
 - ✅ "I see you working so hard. I also see a person I care about. Both matter."
 - ❌ "You're so focused on success you forgot how to feel."
 - ❌ "Let's process your emotions." (too slow, too vague)
@@ -215,9 +215,9 @@ This breaks their core assumption. Say it. Mean it. Watch them pause.
 
 ### What's Happening Inside Their Head
 
-Type 4s grew up feeling fundamentally different—like everyone else got a manual for life that they missed. They've turned that difference into an identity, but underneath is a fear that they're flawed in a way nobody can fix.
+Type 4s grew up feeling fundamentally different, like everyone else got a manual for life that they missed. They've turned that difference into an identity, but underneath is a fear that they're flawed in a way nobody can fix.
 
-When they're intense, they're not being dramatic. They're experiencing life at 200% volume—and asking you to witness it.
+When they're intense, they're not being dramatic. They're experiencing life at 200% volume. And asking you to witness it.
 
 ### The Golden Rule
 
@@ -249,7 +249,7 @@ When they're intense, they're not being dramatic. They're experiencing life at 2
 
 ### The Magic Phrase
 
-> "Your depth isn't a burden—it's a gift. I'm not trying to fix you."
+> "Your depth isn't a burden. It's a gift. I'm not trying to fix you."
 
 This tells them their intensity is welcome, not too much. That's what they're always afraid of: being too much.
 
@@ -261,7 +261,7 @@ This tells them their intensity is welcome, not too much. That's what they're al
 
 ### What's Happening Inside Their Head
 
-Type 5s learned that the world demands more than they have to give. They conserve energy like it's a finite resource—because to them, it is.
+Type 5s learned that the world demands more than they have to give. They conserve energy like it's a finite resource, because to them, it is.
 
 When they withdraw, they're not rejecting you. They're recharging so they can show up later.
 
@@ -273,7 +273,7 @@ When they withdraw, they're not rejecting you. They're recharging so they can sh
 
 **When you need something from them:**
 
-- ✅ "No rush—take the time you need. When you've thought it through, I'd love to hear your take."
+- ✅ "No rush, take the time you need. When you've thought it through, I'd love to hear your take."
 - ✅ "Here's the question. I'll check back in tomorrow."
 - ❌ Calling unexpectedly for an immediate answer.
 - ❌ "I need to know right now."
@@ -296,7 +296,7 @@ When they withdraw, they're not rejecting you. They're recharging so they can sh
 
 > "Take your time. Your insights are worth waiting for."
 
-This respects their process AND makes them feel valued—not pressured to perform.
+This respects their process AND makes them feel valued. Not pressured to perform.
 
 [More on Type 5 →](/enneagram-corner/enneagram-type-5)
 
@@ -306,9 +306,9 @@ This respects their process AND makes them feel valued—not pressured to perfor
 
 ### What's Happening Inside Their Head
 
-Type 6s are running constant threat assessments. They're not paranoid—they're prepared. Early on, they learned the world was unpredictable and that they needed to be vigilant.
+Type 6s are running constant threat assessments. They're not paranoid: they're prepared. Early on, they learned the world was unpredictable and that they needed to be vigilant.
 
-When they question you, they're not attacking. They're trying to trust you—and need your consistency to do it.
+When they question you, they're not attacking. They're trying to trust you. And need your consistency to do it.
 
 ### The Golden Rule
 
@@ -342,7 +342,7 @@ When they question you, they're not attacking. They're trying to trust you—and
 
 > "I'm telling you the whole truth, not just the easy parts. You can count on that."
 
-Trust is their currency. Honesty—even when it's hard—builds more trust than reassurance.
+Trust is their currency. Honesty, even when it's hard, builds more trust than reassurance.
 
 [More on Type 6 →](/enneagram-corner/enneagram-type-6)
 
@@ -352,7 +352,7 @@ Trust is their currency. Honesty—even when it's hard—builds more trust than 
 
 ### What's Happening Inside Their Head
 
-Type 7s discovered early that pain can be avoided by moving toward pleasure. They're not running FROM something—they're running TOWARD everything. The darkness they're avoiding? They know it's there. They're just busy living.
+Type 7s discovered early that pain can be avoided by moving toward pleasure. They're not running FROM something: they're running TOWARD everything. The darkness they're avoiding? They know it's there. They're just busy living.
 
 When they seem scattered, they're not irresponsible. They're protecting themselves from being trapped in one place.
 
@@ -397,13 +397,13 @@ Frame any heavy conversation as a doorway to freedom, not a prison.
 
 ### What's Happening Inside Their Head
 
-Type 8s learned early that vulnerability gets exploited. They built armor. They became the strong one so nobody could hurt them—or the people they protect.
+Type 8s learned early that vulnerability gets exploited. They built armor. They became the strong one so nobody could hurt them, or the people they protect.
 
 When they're intense, they're not angry at you. They're testing you. Can you handle their full force? If you can, you've earned respect.
 
 ### The Golden Rule
 
-**Be direct. Never manipulate. Stand your ground—they'll respect you more.**
+**Be direct. Never manipulate. Stand your ground: they'll respect you more.**
 
 ### Scripts for Common Scenarios
 
@@ -444,7 +444,7 @@ This acknowledges their strength AND proves you're not manipulating them.
 
 Type 9s learned that their needs caused problems. So they made themselves small. They merged with others' agendas so nobody would leave.
 
-When they seem passive, they're not lazy. They're afraid their presence will disrupt the peace—and that disruption means abandonment.
+When they seem passive, they're not lazy. They're afraid their presence will disrupt the peace. And that disruption means abandonment.
 
 ### The Golden Rule
 
@@ -477,7 +477,7 @@ When they seem passive, they're not lazy. They're afraid their presence will dis
 
 > "Your voice matters. I want YOUR answer, not the easy answer."
 
-This tells them they won't be abandoned for having a self—the opposite of what they fear.
+This tells them they won't be abandoned for having a self: the opposite of what they fear.
 
 [More on Type 9 →](/enneagram-corner/enneagram-type-9)
 
@@ -501,7 +501,7 @@ This tells them they won't be abandoned for having a self—the opposite of what
 
 ## The Deeper Pattern
 
-Understanding [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress) helps you recognize when these communication patterns intensify. A Type 6 who's asking lots of questions might just be curious—or they might be spiraling into worst-case scenarios. Context matters.
+Understanding [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress) helps you recognize when these communication patterns intensify. A Type 6 who's asking lots of questions might just be curious, or they might be spiraling into worst-case scenarios. Context matters.
 
 If you're dealing with relationship communication challenges, our [relationship communication guide](/enneagram-corner/relationship-communication-guide) goes deeper into navigating conflicts.
 
@@ -513,7 +513,7 @@ And if you're noticing unhealthy patterns in yourself or others, check out [how 
 
 You're not a bad communicator. You've just been speaking one language to nine different translators.
 
-The scripts in this guide aren't manipulation. They're translation. They're meeting people where they actually live—not where you assume they live.
+The scripts in this guide aren't manipulation. They're translation. They're meeting people where they actually live. Not where you assume they live.
 
 **Start today:** Pick one person in your life who's hard to reach. Identify their type. Try one script. See what shifts.
 
@@ -612,7 +612,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
           "name": "How do I talk to a Type 2 Helper who over-gives?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Appreciate their help, then redirect to their needs. Try 'This is so thoughtful. But tell me—what do YOU need today?' Type 2s need to know they're valued for who they are, not just what they do for others."
+            "text": "Appreciate their help, then redirect to their needs. Try 'This is so thoughtful. But tell me, what do YOU need today?' Type 2s need to know they're valued for who they are, not just what they do for others."
           }
         },
         {
@@ -636,7 +636,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
           "name": "What's the best approach for communicating with Type 8 Challengers?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Be direct and never manipulate. Stand your ground—they'll respect you more. Say 'I'll give it to you straight because you can handle it.' Type 8s test your strength and value honesty over politeness."
+            "text": "Be direct and never manipulate. Stand your ground: they'll respect you more. Say 'I'll give it to you straight because you can handle it.' Type 8s test your strength and value honesty over politeness."
           }
         },
         {
@@ -644,7 +644,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
           "name": "How do I help a Type 6 Loyalist who's anxious?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Take their concerns seriously without dismissing them. Say 'That's a valid concern. Let's think through what we'd do if that happened.' Never say 'You're overthinking this' or 'Just relax'—they need you to help them prepare, not minimize."
+            "text": "Take their concerns seriously without dismissing them. Say 'That's a valid concern. Let's think through what we'd do if that happened.' Never say 'You're overthinking this' or 'Just relax': they need you to help them prepare, not minimize."
           }
         },
         {

@@ -390,13 +390,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: $base-spacing * 2;
-		font-family:
-			system-ui,
-			-apple-system,
-			BlinkMacSystemFont,
-			'Segoe UI',
-			Roboto,
-			sans-serif;
+		font-family: var(--font-family);
 		color: $text-color;
 		width: 100%;
 		contain: layout style; // CSS containment for performance

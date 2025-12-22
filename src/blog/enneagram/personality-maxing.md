@@ -1,6 +1,6 @@
 ---
 title: 'Personality Maxing: The Complete Guide to Optimizing Who You Are'
-description: 'What is personality maxing? Learn how understanding yourself—your similarities and differences from others—leads to genuine charisma. Discover the framework that connects self-knowledge to social intelligence.'
+description: 'What is personality maxing? Learn how understanding yourself. Your similarities and differences from others, leads to genuine charisma. Discover the framework that connects self-knowledge to social intelligence.'
 author: 'DJ Wayne'
 date: '2025-05-22'
 loc: 'https://9takes.com/enneagram-corner/personality-maxing'
@@ -26,9 +26,9 @@ Keyword Strategy:
 - Long-tail: how to understand your personality, what makes someone charismatic, how to develop personality
 -->
 
-<p class="firstLetter">You've heard of "looksmaxxing"—optimizing your physical appearance. But what about optimizing who you actually are?</p>
+<p class="firstLetter">You've heard of "looksmaxxing", optimizing your physical appearance. But what about optimizing who you actually are?</p>
 
-**Personality maxing** is the deliberate development of your personality—not to become someone else, but to become the most authentic, self-aware, socially intelligent version of yourself.
+**Personality maxing** is the deliberate development of your personality. Not to become someone else, but to become the most authentic, self-aware, socially intelligent version of yourself.
 
 Here's the thing most self-improvement advice gets wrong: they tell you to _change_ who you are. Be more confident. Be less anxious. Be more outgoing.
 
@@ -50,7 +50,7 @@ Here's the simplest definition that actually matters:
 
 That's it. Not your zodiac sign. Not your Myers-Briggs letters. Not some abstract trait score.
 
-Your personality is the pattern of how you think, feel, and act—and how those patterns compare to the people around you.
+Your personality is the pattern of how you think, feel, and act. And how those patterns compare to the people around you.
 
 ### Why This Definition Changes Everything
 
@@ -70,7 +70,7 @@ This matters because it means:
 
 1. **You can only understand yourself by understanding others**
 2. **Your strengths are relative to context**
-3. **Growth isn't about changing—it's about expanding your range**
+3. **Growth isn't about changing. It's about expanding your range**
 
 ### The First Exercise: Similarity/Difference Mapping
 
@@ -92,7 +92,7 @@ Before reading further, try this:
 
 Now here's where it gets interesting.
 
-Ask someone who knows you to answer those same questions—about _themselves_ in relation to you.
+Ask someone who knows you to answer those same questions, about _themselves_ in relation to you.
 
 What you're looking for: **the gap between how you see yourself and how others see you.**
 
@@ -102,7 +102,7 @@ What you're looking for: **the gap between how you see yourself and how others s
 | "I'm not that emotional"     | "You feel things deeply, you just hide it" |
 | "I'm similar to most people" | "You're way more analytical than average"  |
 
-Psychologists call this the **Johari Window**—the difference between what you know about yourself vs. what others see. Your blind spots live in that gap.
+Psychologists call this the **Johari Window**: the difference between what you know about yourself vs. what others see. Your blind spots live in that gap.
 
 And you can't max what you can't see.
 
@@ -114,7 +114,7 @@ Now that you've started observing your patterns, let's add a framework that make
 
 The Enneagram isn't a personality quiz that tells you what you are. It's a map that helps you _see_ what you already do.
 
-> "The Enneagram doesn't put you in a box. It shows you the box you're already in—and how to get out."
+> "The Enneagram doesn't put you in a box. It shows you the box you're already in. And how to get out."
 
 If you haven't identified your type yet, our [beginner's guide to finding your Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) walks you through:
 
@@ -124,7 +124,7 @@ If you haven't identified your type yet, our [beginner's guide to finding your E
 
 ### Generic Descriptions Are Just Starting Points
 
-Here's the key insight: The Enneagram descriptions are generic. They'll resonate partly—but not completely.
+Here's the key insight: The Enneagram descriptions are generic. They'll resonate partly, but not completely.
 
 **That's intentional.**
 
@@ -162,7 +162,7 @@ The Enneagram calls this movement toward your "arrow of integration" or "securit
 
 ### What the Arrows Mean
 
-When you're at your best—relaxed, grounded, secure—you naturally access the _positive traits_ of another type:
+When you're at your best, relaxed, grounded, secure. You naturally access the _positive traits_ of another type:
 
 | Your Type | In Security, You Access | What This Looks Like                   |
 | --------- | ----------------------- | -------------------------------------- |
@@ -207,7 +207,7 @@ Psychologists and therapists have specific language for understanding how we bre
 
 **Triggers:** Events or interactions that activate your stress response. Often connected to unresolved childhood experiences.
 
-**Shame triggers:** What makes you feel fundamentally flawed or unworthy. Brené Brown's research shows shame is "the fear of disconnection"—the belief that if people knew the real you, they'd reject you.
+**Shame triggers:** What makes you feel fundamentally flawed or unworthy. Brené Brown's research shows shame is "the fear of disconnection": the belief that if people knew the real you, they'd reject you.
 
 **Anxiety triggers:** What activates your fight/flight/freeze response.
 
@@ -256,7 +256,7 @@ Your weakness isn't the movement itself. It's the _unconscious, reactive_ versio
 
 ---
 
-## Step 5: Flip the Script—Understanding Others
+## Step 5: Flip the Script, Understanding Others
 
 Here's where most self-improvement advice stops.
 
@@ -280,7 +280,7 @@ You've heard of physical exercise making you physically stronger. What's the equ
 
 **Perspective-taking.**
 
-When you genuinely try to understand how someone else sees the world—especially someone who thinks and feels differently than you—your brain has to _work_. It's mental effort. It's uncomfortable.
+When you genuinely try to understand how someone else sees the world, especially someone who thinks and feels differently than you. Your brain has to _work_. It's mental effort. It's uncomfortable.
 
 And that effort creates growth.
 
@@ -288,7 +288,7 @@ Just like lifting weights.
 
 Staying in your own head is easy. Assuming everyone thinks like you is comfortable. Judging people who are different requires zero mental energy.
 
-But genuinely asking: "What is this person feeling right now? What are they afraid of? What do they want that they're not saying?"—that's work.
+But genuinely asking: "What is this person feeling right now? What are they afraid of? What do they want that they're not saying?". That's work.
 
 It's the mental equivalent of picking up something heavy.
 
@@ -305,7 +305,7 @@ Take everything you just learned about yourself and apply it to someone in your 
 
 **You don't need to be right.** You need to be curious.
 
-This isn't about typing other people. It's about recognizing that everyone has an internal logic that makes sense to them—even when their behavior seems irrational to you.
+This isn't about typing other people. It's about recognizing that everyone has an internal logic that makes sense to them, even when their behavior seems irrational to you.
 
 ---
 
@@ -327,7 +327,7 @@ Dale Carnegie figured this out in 1936:
 
 > "You can make more friends in two months by becoming genuinely interested in other people than you can in two years by trying to get other people interested in you."
 
-Olivia Fox Cabane proved charisma is learnable—broken into presence, power, and warmth.
+Olivia Fox Cabane proved charisma is learnable, broken into presence, power, and warmth.
 
 But here's what they missed: **genuine interest requires self-knowledge first.**
 
@@ -337,13 +337,13 @@ Otherwise, you project your assumptions onto everyone else. You listen through f
 
 A charismatic person:
 
-1. **Understands themselves** — Their patterns, triggers, and superpowers
-2. **Understands others** — Not projecting, actually perceiving
-3. **Is ready for both good and bad** — Not surprised by their own reactions or others'
-4. **Is genuine** — Not performing a role
-5. **Is genuinely curious** — About other people's experiences
-6. **Asks good questions** — And listens to the answers
-7. **Knows when to assert vs. listen** — Calibrated to the moment
+1. **Understands themselves**: Their patterns, triggers, and superpowers
+2. **Understands others**: Not projecting, actually perceiving
+3. **Is ready for both good and bad**: Not surprised by their own reactions or others'
+4. **Is genuine**: Not performing a role
+5. **Is genuinely curious**: About other people's experiences
+6. **Asks good questions**: And listens to the answers
+7. **Knows when to assert vs. listen**: Calibrated to the moment
 
 This isn't charisma school. It's the natural result of self-knowledge combined with developed curiosity.
 
@@ -366,19 +366,19 @@ Every time you genuinely try to see through someone else's eyes, you're building
 
 One more framework to tie it together.
 
-Every Enneagram type has a spectrum. At one end is your highest potential—the best version of who you could become. At the other end is your lowest functioning.
+Every Enneagram type has a spectrum. At one end is your highest potential: the best version of who you could become. At the other end is your lowest functioning.
 
-| Type | Best Version                                       | Worst Version                          |
-| ---- | -------------------------------------------------- | -------------------------------------- |
-| 1    | The Wise Reformer — principled, fair               | The Critical Judge — rigid, harsh      |
-| 2    | The Selfless Giver — genuinely loving              | The Manipulative Martyr — controlling  |
-| 3    | The Authentic Achiever — inspiring, truthful       | The Deceptive Performer — hollow       |
-| 4    | The Inspired Creator — transforms pain into beauty | The Self-Absorbed Victim — envious     |
-| 5    | The Pioneering Visionary — insightful, engaged     | The Isolated Cynic — detached          |
-| 6    | The Courageous Loyalist — reliable, brave          | The Paranoid Reactor — anxious         |
-| 7    | The Focused Enthusiast — joyful, present           | The Scattered Escapist — addictive     |
-| 8    | The Magnanimous Leader — protective, just          | The Destructive Dictator — dominating  |
-| 9    | The Engaged Peacemaker — harmonizing, present      | The Stubborn Sleepwalker — checked out |
+| Type | Best Version                                      | Worst Version                         |
+| ---- | ------------------------------------------------- | ------------------------------------- |
+| 1    | The Wise Reformer: principled, fair               | The Critical Judge: rigid, harsh      |
+| 2    | The Selfless Giver: genuinely loving              | The Manipulative Martyr: controlling  |
+| 3    | The Authentic Achiever: inspiring, truthful       | The Deceptive Performer: hollow       |
+| 4    | The Inspired Creator: transforms pain into beauty | The Self-Absorbed Victim: envious     |
+| 5    | The Pioneering Visionary: insightful, engaged     | The Isolated Cynic: detached          |
+| 6    | The Courageous Loyalist: reliable, brave          | The Paranoid Reactor: anxious         |
+| 7    | The Focused Enthusiast: joyful, present           | The Scattered Escapist: addictive     |
+| 8    | The Magnanimous Leader: protective, just          | The Destructive Dictator: dominating  |
+| 9    | The Engaged Peacemaker: harmonizing, present      | The Stubborn Sleepwalker: checked out |
 
 For a deeper exploration, see [Enneagram Strengths and Weaknesses](/enneagram-corner/enneagram-strengths-and-weaknesses).
 
@@ -398,9 +398,9 @@ Personality maxing isn't about becoming someone else.
 
 It's about understanding yourself so deeply that you can genuinely understand others.
 
-It's about recognizing that everyone has an internal world as complex as yours—and becoming curious about what's happening in there.
+It's about recognizing that everyone has an internal world as complex as yours. And becoming curious about what's happening in there.
 
-It's about building the mental muscle to step outside your own perspective—the equivalent of going to the gym, but for your mind.
+It's about building the mental muscle to step outside your own perspective: the equivalent of going to the gym, but for your mind.
 
 **The person with the "maxed" personality:**
 
@@ -412,7 +412,7 @@ It's about building the mental muscle to step outside your own perspective—the
 
 That's it. That's the max.
 
-Not tricks. Not techniques. Just genuine understanding—of yourself and everyone around you.
+Not tricks. Not techniques. Just genuine understanding, of yourself and everyone around you.
 
 ---
 
@@ -443,7 +443,7 @@ The understanding builds from there.
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "Personality maxing is the deliberate development of your personality through self-knowledge and understanding others. This guide presents a framework: first define what personality actually is (how you're similar and different from others), then discover your superpowers using the Enneagram, understand your thriving state (arrow of security) and struggling state (arrow of stress), and finally flip the script to understand others—the foundation of genuine charisma. The core insight: perspective-taking is the mental equivalent of going to the gym, and genuine curiosity about others is the destination of personality maxing.",
+      "articleBody": "Personality maxing is the deliberate development of your personality through self-knowledge and understanding others. This guide presents a framework: first define what personality actually is (how you're similar and different from others), then discover your superpowers using the Enneagram, understand your thriving state (arrow of security) and struggling state (arrow of stress), and finally flip the script to understand others: the foundation of genuine charisma. The core insight: perspective-taking is the mental equivalent of going to the gym, and genuine curiosity about others is the destination of personality maxing.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -457,7 +457,7 @@ The understanding builds from there.
       "dateModified": "2025-12-04",
       "datePublished": "2025-05-22",
       "keywords": ["personality maxing", "personality development", "charisma", "self-improvement", "Enneagram", "emotional intelligence", "perspective-taking", "social skills", "self-knowledge", "arrow of integration", "arrow of stress"],
-      "description": "What is personality maxing? Learn how understanding yourself—your similarities and differences from others—leads to genuine charisma. Discover the framework that connects self-knowledge to social intelligence.",
+      "description": "What is personality maxing? Learn how understanding yourself. Your similarities and differences from others, leads to genuine charisma. Discover the framework that connects self-knowledge to social intelligence.",
       "headline": "Personality Maxing: The Complete Guide to Optimizing Who You Are",
       "image": {
         "@type": "ImageObject",
@@ -489,7 +489,7 @@ The understanding builds from there.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Personality maxing is the deliberate development of your personality—not to become someone else, but to become the most authentic, self-aware, socially intelligent version of yourself. It involves understanding how you're similar to and different from others, discovering your superpowers and triggers, and developing genuine curiosity about other people."
+            "text": "Personality maxing is the deliberate development of your personality. Not to become someone else, but to become the most authentic, self-aware, socially intelligent version of yourself. It involves understanding how you're similar to and different from others, discovering your superpowers and triggers, and developing genuine curiosity about other people."
           },
           "name": "What is personality maxing?"
         },
@@ -497,7 +497,7 @@ The understanding builds from there.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Your personality describes how you are similar to some people and different from others. It's relational—it exists in the space between you and other people. You're 'the organized one' compared to your messy roommate, or 'the emotional one' compared to your stoic father. Understanding this means growth isn't about changing who you are, but expanding your range."
+            "text": "Your personality describes how you are similar to some people and different from others. It's relational. It exists in the space between you and other people. You're 'the organized one' compared to your messy roommate, or 'the emotional one' compared to your stoic father. Understanding this means growth isn't about changing who you are, but expanding your range."
           },
           "name": "What is personality really?"
         },
@@ -513,7 +513,7 @@ The understanding builds from there.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The formula is: genuine curiosity about others built on self-knowledge. A charismatic person understands themselves (patterns, triggers, superpowers), genuinely wants to understand others' experiences, asks good questions and listens, and knows when to assert vs. listen. This isn't technique—it's the natural result of developed self-awareness and empathy."
+            "text": "The formula is: genuine curiosity about others built on self-knowledge. A charismatic person understands themselves (patterns, triggers, superpowers), genuinely wants to understand others' experiences, asks good questions and listens, and knows when to assert vs. listen. This isn't technique. It's the natural result of developed self-awareness and empathy."
           },
           "name": "What makes someone charismatic according to personality maxing?"
         },
@@ -521,7 +521,7 @@ The understanding builds from there.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Perspective-taking is the mental equivalent of going to the gym. When you genuinely try to understand how someone else sees the world—especially someone who thinks differently—your brain has to work. This effort builds capacity over time, making you less reactive, more patient, more interesting, and more trustworthy because people feel truly seen."
+            "text": "Perspective-taking is the mental equivalent of going to the gym. When you genuinely try to understand how someone else sees the world, especially someone who thinks differently. Your brain has to work. This effort builds capacity over time, making you less reactive, more patient, more interesting, and more trustworthy because people feel truly seen."
           },
           "name": "Why is perspective-taking important for personality maxing?"
         },

@@ -11,10 +11,10 @@ published: false
 enneagram: '3'
 type: ['politician']
 person: 'Kamala-Harris'
-suggestions: ['Donald Trump', 'Joe Biden', 'Barack Obama', 'Hillary Clinton']
+suggestions: ['Donald-Trump', 'Joe-Biden', 'Barack-Obama', 'Hillary-Clinton']
 wikipedia: 'https://en.wikipedia.org/wiki/Kamala_Harris'
-twitter: 'https://twitter.com/KamalaHarris'
-instagram: 'https://www.instagram.com/kamalaharris/'
+twitter: 'KamalaHarris'
+instagram: 'kamalaharris'
 tiktok: ''
 path: src/blog/people/drafts/Kamala-Harris.md
 ---
@@ -203,7 +203,7 @@ Political analyst David Axelrod has noted Harris's Type 3 tendencies, stating, *
 
 Harris's 2025 memoir "107 Days" offers an unprecedented window into how a Type 3 processes failure on the national stage. The book, co-written with Pulitzer Prize winner Geraldine Brooks, reveals both the strengths and vulnerabilities of the Achiever personality type.
 
-The title itself - focusing on the compressed timeline rather than the outcome - is quintessentially Type 3, emphasizing the heroic effort rather than the result. Throughout the book, Harris frames her campaign as a "history-defining race" requiring "resilience, leadership, and the high stakes of democracy in action."
+The title itself - focusing on the compressed timeline rather than the outcome - is classic Type 3, emphasizing the heroic effort rather than the result. Throughout the book, Harris frames her campaign as a "history-defining race" requiring "resilience, leadership, and the high stakes of democracy in action."
 
 Most revealing are her candid assessments of others' performances that affected her image. Her frustration with Tim Walz's debate performance and her criticism of Biden's decision-making process show how Type 3s struggle when team failures threaten their own reputation for excellence.
 

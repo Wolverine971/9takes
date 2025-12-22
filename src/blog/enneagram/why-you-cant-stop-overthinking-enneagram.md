@@ -29,7 +29,7 @@ path: src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
   "@graph": [
     {
       "@type": "BlogPosting",
-      "articleBody": "This guide explains why generic overthinking advice fails and how each Enneagram type has a specific thought loop based on their core fear. It covers Type 1's moral perfectionism loop, Type 2's relationship analysis, Type 3's achievement comparison, Type 4's emotional replay, Type 5's information gathering, Type 6's worst-case scenario, Type 7's FOMO, Type 8's control assessment, and Type 9's harmony monitoring—with specific interventions to break each loop.",
+      "articleBody": "This guide explains why generic overthinking advice fails and how each Enneagram type has a specific thought loop based on their core fear. It covers Type 1's moral perfectionism loop, Type 2's relationship analysis, Type 3's achievement comparison, Type 4's emotional replay, Type 5's information gathering, Type 6's worst-case scenario, Type 7's FOMO, Type 8's control assessment, and Type 9's harmony monitoring, with specific interventions to break each loop.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -79,7 +79,7 @@ path: src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
           "name": "Why can't I stop overthinking?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Your brain believes more thinking leads to better outcomes—it's a protection mechanism. The specific content of your overthinking relates to your Enneagram type's core fear. Type 1s analyze for moral perfection, Type 6s for safety, Type 4s for emotional understanding. Generic 'stop thinking' advice fails because it doesn't address WHY your particular brain does this."
+            "text": "Your brain believes more thinking leads to better outcomes. It's a protection mechanism. The specific content of your overthinking relates to your Enneagram type's core fear. Type 1s analyze for moral perfection, Type 6s for safety, Type 4s for emotional understanding. Generic 'stop thinking' advice fails because it doesn't address WHY your particular brain does this."
           }
         },
         {
@@ -87,7 +87,7 @@ path: src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
           "name": "Which Enneagram type overthinks the most?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type 6 is often considered the most chronic overthinker due to their constant threat-scanning and worst-case preparation. However, Types 1, 4, and 5 also have intense thought loops—they just focus on different content. The question isn't which type thinks most; it's what each type thinks about and what triggers the loop."
+            "text": "Type 6 is often considered the most chronic overthinker due to their constant threat-scanning and worst-case preparation. However, Types 1, 4, and 5 also have intense thought loops: they just focus on different content. The question isn't which type thinks most; it's what each type thinks about and what triggers the loop."
           }
         },
         {
@@ -111,7 +111,7 @@ path: src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
           "name": "Why do I replay conversations in my head?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Replaying is your brain's attempt to 'solve' the social interaction—find the mistake, ensure the connection, optimize the performance. Different types replay for different reasons: Type 2s for relationship reassurance, Type 3s for image management, Type 1s for moral correctness. Understanding YOUR motivation helps you release the loop."
+            "text": "Replaying is your brain's attempt to 'solve' the social interaction, find the mistake, ensure the connection, optimize the performance. Different types replay for different reasons: Type 2s for relationship reassurance, Type 3s for image management, Type 1s for moral correctness. Understanding YOUR motivation helps you release the loop."
           }
         }
       ]
@@ -128,17 +128,17 @@ Your Enneagram type creates a specific overthinking loop based on your core fear
 
 <p class="firstLetter">It's 3 AM. Your brain won't shut off.</p>
 
-The same thoughts keep circling—replaying that conversation, analyzing what could go wrong, questioning whether you did the right thing. You've tried to "just stop thinking about it."
+The same thoughts keep circling, replaying that conversation, analyzing what could go wrong, questioning whether you did the right thing. You've tried to "just stop thinking about it."
 
 That's never worked.
 
 **Here's why:** Your [Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) has a specific overthinking loop. Generic advice fails because a Type 1 replaying a moral decision needs different intervention than a Type 6 catastrophizing about the future or a Type 4 diving into emotional depths.
 
-Your brain isn't broken. It's running a protection program that was useful once—and now won't turn off.
+Your brain isn't broken. It's running a protection program that was useful once. And now won't turn off.
 
 The first step isn't forcing your brain to stop. It's understanding WHY it's doing this.
 
-Here's exactly how each type overthinks—and how to finally break the loop.
+Here's exactly how each type overthinks. And how to finally break the loop.
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date 💜', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
@@ -163,10 +163,10 @@ Your Enneagram type determines WHAT triggers your overthinking and WHAT thoughts
 
 **Two types of overthinking:**
 
-1. **Rumination** — Dwelling on the past (replaying conversations, analyzing what happened)
-2. **Worry** — Anticipating the future (worst-case scenarios, "what ifs")
+1. **Rumination**: Dwelling on the past (replaying conversations, analyzing what happened)
+2. **Worry**: Anticipating the future (worst-case scenarios, "what ifs")
 
-Different types lean toward one or the other—and sometimes both.
+Different types lean toward one or the other. And sometimes both.
 
 Here's how each type gets stuck.
 
@@ -182,7 +182,7 @@ Your internal courtroom never closes. Every decision gets prosecuted against imp
 
 - Decisions with ethical dimensions
 - Feedback (you'll find the criticism in compliments)
-- Witnessing imperfection—yours or others'
+- Witnessing imperfection. Yours or others'
 
 **Why You Can't Stop:**
 
@@ -190,7 +190,7 @@ Your inner critic believes self-criticism prevents future mistakes. Stopping the
 
 **Breaking the Loop:**
 
-- **"The decision has been made"** — say it out loud when the loop starts
+- **"The decision has been made"**: say it out loud when the loop starts
 - Time-box self-reflection (set a timer, then stop)
 - Practice self-compassion as seriously as self-criticism
 - Accept that "good enough" is actually good enough
@@ -201,9 +201,9 @@ Your inner critic believes self-criticism prevents future mistakes. Stopping the
 
 ## Type 2: The Relationship Analysis Loop
 
-**The Thought Pattern:** "Did I say the wrong thing? Do they still like me? They didn't text back—what does that mean?"
+**The Thought Pattern:** "Did I say the wrong thing? Do they still like me? They didn't text back, what does that mean?"
 
-You analyze every interaction for hidden meanings. Tone, word choice, response time—everything gets examined for signs of approval or rejection.
+You analyze every interaction for hidden meanings. Tone, word choice, response time, everything gets examined for signs of approval or rejection.
 
 **What Triggers It:**
 
@@ -219,7 +219,7 @@ Connection = survival. Analyzing ensures you don't miss a relationship threat or
 
 - Trust that you ARE loved (not for what you do)
 - No re-texting. Send once, release.
-- Recognize: mind-reading is impossible—you're making up stories
+- Recognize: mind-reading is impossible. You're making up stories
 - Sit with uncertainty instead of trying to solve it
 
 <a href="/enneagram-corner/enneagram-type-2">Learn more about Type 2</a>
@@ -258,7 +258,7 @@ Worth = achievement. If you stop analyzing, you might fall behind. And falling b
 
 **The Thought Pattern:** "Why did I feel that way? What does it mean about me? Others don't seem to struggle like this..."
 
-You dive deep into feeling states, trying to understand their meaning. Emotions become objects of analysis. The intensity feels significant—but the understanding never quite arrives.
+You dive deep into feeling states, trying to understand their meaning. Emotions become objects of analysis. The intensity feels significant, but the understanding never quite arrives.
 
 **What Triggers It:**
 
@@ -276,7 +276,7 @@ Identity = emotional experience. If you understand your feelings, you'll underst
 - Not every emotion requires interpretation
 - Action can break the rumination cycle
 - Suffering isn't more authentic than contentment
-- Schedule "feeling time" vs "doing time"—separate them
+- Schedule "feeling time" vs "doing time", separate them
 
 <a href="/enneagram-corner/enneagram-type-4">Learn more about Type 4</a>
 
@@ -286,7 +286,7 @@ Identity = emotional experience. If you understand your feelings, you'll underst
 
 **The Thought Pattern:** "I need to understand this more. There's more I don't know. I'm not ready to act yet..."
 
-You research endlessly, connecting information, building mental models—but never quite ready to act. The "one more thing" to learn always appears.
+You research endlessly, connecting information, building mental models, but never quite ready to act. The "one more thing" to learn always appears.
 
 **What Triggers It:**
 
@@ -302,7 +302,7 @@ Competence = safety. More knowledge = more protection. Acting without complete i
 **Breaking the Loop:**
 
 - Set hard research deadlines (then stop)
-- "Good enough" knowledge exists—embrace it
+- "Good enough" knowledge exists, embrace it
 - Action generates information thinking can't provide
 - Learn by doing, not just reading
 
@@ -314,7 +314,7 @@ Competence = safety. More knowledge = more protection. Acting without complete i
 
 **The Thought Pattern:** "What if this goes wrong? What if they can't be trusted? What am I not seeing?"
 
-Your brain runs threat-detection constantly. Every situation gets stress-tested for potential disasters. You prepare for the worst—and the preparation never ends.
+Your brain runs threat-detection constantly. Every situation gets stress-tested for potential disasters. You prepare for the worst. And the preparation never ends.
 
 **What Triggers It:**
 
@@ -332,7 +332,7 @@ Hypervigilance = survival. The ONE time you don't worry might be the time danger
 - Notice: has catastrophizing ever actually prevented disaster?
 - Act before feeling "ready enough"
 - Build evidence of your own capability
-- **"I can handle problems as they arise"** — repeat it
+- **"I can handle problems as they arise"**: repeat it
 
 <a href="/enneagram-corner/enneagram-type-6">Learn more about Type 6</a>
 
@@ -358,8 +358,8 @@ Freedom = safety. Being trapped = pain. Always having options means never being 
 **Breaking the Loop:**
 
 - Practice staying with the chosen option
-- Discomfort isn't danger—it's just discomfort
-- JOMO (joy of missing out)—what you chose IS valuable
+- Discomfort isn't danger. It's just discomfort
+- JOMO (joy of missing out), what you chose IS valuable
 - Depth creates more richness than breadth ever can
 
 <a href="/enneagram-corner/enneagram-type-7">Learn more about Type 7</a>
@@ -387,7 +387,7 @@ Control = safety. Letting your guard down = betrayal. Constant assessment keeps 
 
 - Not everyone is a threat to assess
 - Vulnerability can build connection, not just exposure
-- Trust can be rebuilt if broken—the risk is survivable
+- Trust can be rebuilt if broken: the risk is survivable
 - Strength includes accepting help
 
 <a href="/enneagram-corner/enneagram-type-8">Learn more about Type 8</a>
@@ -416,7 +416,7 @@ Harmony = safety. Your needs = conflict. Monitoring prevents the rupture you dre
 - Conflict can be connecting, not just rupturing
 - Your opinions matter
 - You're not responsible for everyone's emotions
-- Practice small assertions—build the muscle
+- Practice small assertions, build the muscle
 
 <a href="/enneagram-corner/enneagram-type-9">Learn more about Type 9</a>
 
@@ -444,11 +444,11 @@ Regardless of your specific pattern, these techniques help interrupt overthinkin
 
 **1. Physical Movement**
 
-Your brain can't ruminate as effectively when your body is engaged. Walk, run, stretch—change your physical state to change your mental state.
+Your brain can't ruminate as effectively when your body is engaged. Walk, run, stretch, change your physical state to change your mental state.
 
 **2. Write It Out (Then Close the Book)**
 
-Dump the thoughts onto paper. Your brain often loops because it's afraid of losing the "important" thought. Writing externalizes it. Then close the notebook—you can return if needed.
+Dump the thoughts onto paper. Your brain often loops because it's afraid of losing the "important" thought. Writing externalizes it. Then close the notebook. You can return if needed.
 
 **3. Time-Box the Thinking**
 
@@ -456,7 +456,7 @@ Set a timer: 10 minutes to think about this problem. When it ends, you're done. 
 
 **4. Name the Pattern**
 
-"I'm doing the Type 6 worst-case spiral again." Naming it creates distance. You're no longer IN the thought—you're observing it.
+"I'm doing the Type 6 worst-case spiral again." Naming it creates distance. You're no longer IN the thought. You're observing it.
 
 **5. Opposite Action**
 
@@ -483,7 +483,7 @@ Overthinking is human. But sometimes it crosses into territory that requires pro
 - **Medication** (if clinically indicated for anxiety/depression)
 - **Mindfulness-Based Cognitive Therapy (MBCT)** for rumination specifically
 
-Your Enneagram type can help a therapist understand your patterns faster—but it doesn't replace professional care.
+Your Enneagram type can help a therapist understand your patterns faster, but it doesn't replace professional care.
 
 For more on the connection between personality and mental health, see our guide on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness). If anxiety is your primary struggle, dive deeper into [how each type experiences anxiety differently](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
 
@@ -493,7 +493,7 @@ For more on the connection between personality and mental health, see our guide 
 
 ### Why can't I stop overthinking?
 
-Your brain believes more thinking leads to better outcomes—it's a protection mechanism. The specific content of your overthinking relates to your Enneagram type's core fear.
+Your brain believes more thinking leads to better outcomes. It's a protection mechanism. The specific content of your overthinking relates to your Enneagram type's core fear.
 
 Type 1s analyze for moral perfection. Type 6s for safety. Type 4s for emotional understanding.
 
@@ -501,7 +501,7 @@ Generic "stop thinking" advice fails because it doesn't address WHY your particu
 
 ### Which Enneagram type overthinks the most?
 
-Type 6 is often considered the most chronic overthinker due to their constant threat-scanning and worst-case preparation. However, Types 1, 4, and 5 also have intense thought loops—they just focus on different content.
+Type 6 is often considered the most chronic overthinker due to their constant threat-scanning and worst-case preparation. However, Types 1, 4, and 5 also have intense thought loops: they just focus on different content.
 
 The question isn't which type thinks most; it's what each type thinks about and what triggers the loop.
 
@@ -523,7 +523,7 @@ However, if overthinking significantly impairs your daily functioning, relations
 
 ### Why do I replay conversations in my head?
 
-Replaying is your brain's attempt to "solve" the social interaction—find the mistake, ensure the connection, optimize the performance.
+Replaying is your brain's attempt to "solve" the social interaction, find the mistake, ensure the connection, optimize the performance.
 
 Different types replay for different reasons: Type 2s for relationship reassurance, Type 3s for image management, Type 1s for moral correctness. Understanding YOUR motivation helps you release the loop.
 
@@ -533,11 +533,11 @@ Different types replay for different reasons: Type 2s for relationship reassuran
 
 Your brain isn't broken. It's running protection software that was installed in childhood and never updated.
 
-The thoughts that loop at 3 AM? They're trying to keep you safe from something—moral failure, rejection, uncertainty, worthlessness.
+The thoughts that loop at 3 AM? They're trying to keep you safe from something, moral failure, rejection, uncertainty, worthlessness.
 
 Understanding your specific loop is how you finally interrupt it.
 
-You don't need to think harder. You don't need to think more. You need to recognize what your brain is protecting you from—and decide whether you still need that protection.
+You don't need to think harder. You don't need to think more. You need to recognize what your brain is protecting you from. And decide whether you still need that protection.
 
 The off switch exists. You just have to know where to find it.
 

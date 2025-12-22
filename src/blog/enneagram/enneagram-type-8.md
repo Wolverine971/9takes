@@ -1,10 +1,11 @@
 ---
-title: 'Why You Push Everyone Away (Type 8 Control Issues)'
+title: 'Enneagram Type 8: The Challenger - Complete Guide'
+meta_title: 'Why You Push Everyone Away (Type 8 Control Issues)'
 description: "Can't let people close because vulnerability feels dangerous? That's Type 8. Learn why you need control, why softness feels like weakness, and what your armor is really protecting."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/enneagram-corner/enneagram-type-8'
-lastmod: '2025-10-23'
+lastmod: '2025-12-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -132,7 +133,7 @@ Under an 8's command, the team becomes family. They'll fight for resources, defe
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'overthinking by type 🧠', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'manipulation tactics 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'red flags in dating 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'} ]} />
 </div>
 
 <section class="section-content">
@@ -334,7 +335,7 @@ In this panel discussion moderated by Enneagram expert Beatrice Chestnut, a grou
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-10-23",
+      "dateModified": "2025-12-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

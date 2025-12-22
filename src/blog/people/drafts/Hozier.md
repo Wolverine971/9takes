@@ -53,7 +53,7 @@ What makes Hozier such a compelling example of this type is how completely he em
 
 **The Core Desire:** Type 4s want to find themselves and their significance, to create an identity from their inner experience. Hozier's entire artistic mission reflects this: "When I write songs, I try to remove myself a little bit. Obviously they're very personal to me, but it feels easier if I feel like I'm writing characters."
 
-This creative distance — processing deeply personal material through artistic characters — is quintessential Type 4 behavior.
+This creative distance — processing deeply personal material through artistic characters — is classic Type 4 behavior.
 
 ## Hozier's Upbringing: A Foundation of Depth
 
@@ -197,6 +197,4 @@ In a world that often encourages us to suppress difficult emotions, Hozier remin
 
 What might we discover if we, like Hozier, were willing to sit with a single feeling until we understood it completely? What songs are waiting to be written in the attic rooms of our own souls?
 
-<svelte:head>
-
-</svelte:head>
+> **Disclaimer:** This analysis of Hozier's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.

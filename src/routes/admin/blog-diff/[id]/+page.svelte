@@ -432,7 +432,7 @@
 
 		:global(pre),
 		:global(code) {
-			font-family: 'Fira Mono', monospace;
+			font-family: var(--font-mono);
 			background-color: #f0f2f5;
 			border-radius: 0.25rem;
 		}

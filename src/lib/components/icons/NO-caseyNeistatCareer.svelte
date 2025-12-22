@@ -26,7 +26,7 @@
 	</style>
 	<style>
 		#graph-div {
-			font-family: 'trebuchet ms', verdana, arial, sans-serif;
+			font-family: var(--font-family);
 			font-size: 12px;
 			fill: var(--dark-gray);
 		}
@@ -60,7 +60,7 @@
 			stroke: #0b0b0b;
 		}
 		#graph-div svg {
-			font-family: 'trebuchet ms', verdana, arial, sans-serif;
+			font-family: var(--font-family);
 			font-size: 12px;
 		}
 		#graph-div .edge {
@@ -495,7 +495,7 @@
 			filter: brightness(120%);
 		}
 		#graph-div :root {
-			--mermaid-font-family: 'trebuchet ms', verdana, arial, sans-serif;
+			--mermaid-font-family: var(--font-family);
 		}
 	</style>
 	<g />

@@ -11,7 +11,7 @@ published: false
 enneagram: 8
 type: ['celebrity']
 person: 'Amy-Poehler'
-suggestions: ['Tina-Fey', 'Aubrey-Plaza']
+suggestions: ['Tina-Fey', 'Aubrey-Plaza', 'Chelsea-Handler', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Amy_Poehler'
 twitter: 'amypoehler'
 instagram: 'amypoehler'
@@ -196,3 +196,5 @@ Amy builds empires not for ego, but for protection. She takes up space so others
 That's the gift of the Type 8: they model what it looks like to have fierce boundaries. They teach us that protecting yourself isn't selfish—it's necessary.
 
 What would your life look like if you stopped caring whether people liked it?
+
+> **Disclaimer:** This analysis of Amy Poehler's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.

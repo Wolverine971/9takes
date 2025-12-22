@@ -21,30 +21,30 @@ path: src/blog/people/drafts/Donald-Trump.md
 
 > "I was saved by God to make America great again."
 
-<p class="firstLetter">Donald Trump stood at the podium on January 20, 2025, and uttered words that would define his return to power. Not "I'm honored to serve" or "I'll do my best." No — he cast himself as divinely appointed, a messianic figure chosen to rescue the nation.</p>
+<p class="firstLetter">Donald Trump stood at the podium on January 20, 2025, and uttered words that would define his return to power. Not "I'm honored to serve" or "I'll do my best." No: he cast himself as divinely appointed, a messianic figure chosen to rescue the nation.</p>
 
 It was vintage Trump. And it was only the beginning.
 
 What followed has been the most aggressive assertion of presidential power in modern American history. Over 217 executive orders. Tariffs not seen since the 1930s. A government efficiency department that promised to slash $1 trillion. Deportation operations that militarized American cities.
 
-Love him or despise him, understanding Trump requires understanding his psychological architecture. And nothing explains him better than the Enneagram Type 8 — "The Challenger."
+Love him or despise him, understanding Trump requires understanding his psychological architecture. And nothing explains him better than the Enneagram Type 8: "The Challenger."
 
 <details>
 <summary class="accordion">TL;DR: Why Donald Trump is an Enneagram Type 8</summary>
 <div class="panel">
 <ul>
-<li><b>Record Executive Action:</b> Trump signed 217+ executive orders in his second term — 143 in his first 100 days alone, shattering FDR's record. This relentless assertion of control is quintessential Type 8 behavior: dominate the environment before it dominates you.</li>
-<li><b>Tariff Wars as Territory Defense:</b> Raising tariffs to the highest levels since the 1930s, despite economic warnings and a stock market crash, demonstrates the Type 8's instinct to protect "what's mine" at any cost — and their refusal to back down once committed.</li>
+<li><b>Record Executive Action:</b> Trump signed 217+ executive orders in his second term: 143 in his first 100 days alone, shattering FDR's record. This relentless assertion of control is classic Type 8 behavior: dominate the environment before it dominates you.</li>
+<li><b>Tariff Wars as Territory Defense:</b> Raising tariffs to the highest levels since the 1930s, despite economic warnings and a stock market crash, demonstrates the Type 8's instinct to protect "what's mine" at any cost: and their refusal to back down once committed.</li>
 <li><b>The DOGE Experiment:</b> Partnering with <a href="/personality-analysis/Elon-Musk">Elon Musk</a> to slash government bureaucracy reflects the Type 8's contempt for anything that constrains their power and their desire to reshape institutions in their image.</li>
-<li><b>Confrontational Foreign Policy:</b> Threatening military strikes on Venezuela, demanding Canada become the "51st state," and declaring the EU was "formed to screw the United States" — classic Type 8 aggression disguised as negotiation.</li>
-<li><b>Resilience Under Fire:</b> With approval ratings at 36% and legal challenges mounting, Trump hasn't moderated — he's doubled down. Type 8s view retreating under pressure as weakness, preferring to go on the offensive.</li>
+<li><b>Confrontational Foreign Policy:</b> Threatening military strikes on Venezuela, demanding Canada become the "51st state," and declaring the EU was "formed to screw the United States": classic Type 8 aggression disguised as negotiation.</li>
+<li><b>Resilience Under Fire:</b> With approval ratings at 36% and legal challenges mounting, Trump hasn't moderated: he's doubled down. Type 8s view retreating under pressure as weakness, preferring to go on the offensive.</li>
 </ul>
 </div>
 </details>
 
 ## What is Donald Trump's Enneagram Type?
 
-### Donald Trump is an Enneagram Type 8 — "The Challenger"
+### Donald Trump is an Enneagram Type 8: "The Challenger"
 
 [Type 8s](/enneagram-corner/enneagram-type-8) are the powerhouses of the Enneagram. Dominating. Self-confident. Confrontational. Protective of their territory. Absolutely unwilling to be controlled by anyone.
 
@@ -52,15 +52,15 @@ If that sounds familiar, you've been paying attention.
 
 Academic research using the Millon Inventory of Diagnostic Criteria found Trump's primary personality patterns to be **Ambitious/self-serving** (bordering on exploitative), **Dominant/controlling** (bordering on aggressive), and **Outgoing/gregarious** (bordering on impulsive).
 
-These aren't insults — they're clinical descriptions that map precisely onto the Type 8 profile.
+These aren't insults: they're clinical descriptions that map precisely onto the Type 8 profile.
 
-A 2025 Pew Research study across 24 countries found that 80% of respondents described Trump as "arrogant," while majorities in 18 countries called him a "strong leader." That paradox — simultaneously seen as overbearing and powerful — is the Type 8 experience distilled.
+A 2025 Pew Research study across 24 countries found that 80% of respondents described Trump as "arrogant," while majorities in 18 countries called him a "strong leader." That paradox: simultaneously seen as overbearing and powerful: is the Type 8 experience distilled.
 
 "I like thinking big. If you're going to be thinking anything, you might as well think big," Trump has said. For Type 8s, this isn't ambition. It's survival strategy.
 
 ## The Making of a Challenger: Trump's Formative Years
 
-Donald Trump wasn't born with a silver spoon — it was more like a golden shovel with his name emblazoned on it.
+Donald Trump wasn't born with a silver spoon: it was more like a golden shovel with his name emblazoned on it.
 
 Growing up in Queens, New York, young Donald was raised in the shadow of his father, Fred Trump, a successful real estate developer who ran his family like he ran his business: with iron-fisted expectations and zero tolerance for weakness.
 
@@ -70,7 +70,7 @@ This environment fostered Trump's core Type 8 fear: **the fear of being controll
 
 At 13, when his behavior became too disruptive for his parents, they sent him to the New York Military Academy. There, the young Trump thrived under discipline and hierarchy, eventually rising to captain of the cadet corps.
 
-His mentor, Roy Cohn — the infamous attorney who served as chief counsel to Senator Joseph McCarthy — crystallized Trump's worldview with advice he's followed for five decades: **"If someone hits you, hit back ten times harder."**
+His mentor, Roy Cohn: the infamous attorney who served as chief counsel to Senator Joseph McCarthy: crystallized Trump's worldview with advice he's followed for five decades: **"If someone hits you, hit back ten times harder."**
 
 This childhood experience of having to be self-sufficient, assertive, and always projecting strength shaped Trump permanently. It's a classic Type 8 response: if you can't be vulnerable, be powerful.
 
@@ -80,7 +80,7 @@ If Trump's first term was about learning the limits of presidential power, his s
 
 ### Record Executive Action
 
-Trump signed **143 executive orders in his first 100 days** — more than any president in history. FDR's previous record of 99? Demolished.
+Trump signed **143 executive orders in his first 100 days**: more than any president in history. FDR's previous record of 99? Demolished.
 
 On his first day alone, Trump issued 26 executive orders. By December 2025, the total exceeded 217, plus 54 memoranda and 110 proclamations.
 
@@ -98,7 +98,7 @@ Type 8s see rules as suggestions and bureaucracy as an irritation to be steamrol
 
 Perhaps nothing better illustrates Type 8 psychology than Trump's tariff strategy.
 
-From January to April 2025, the average US tariff rate rose from 2.5% to 27% — **the highest in over a century.** Trump imposed 25% tariffs on Canada and Mexico, 50% on steel and aluminum, and sparked a trade war with virtually every major economy.
+From January to April 2025, the average US tariff rate rose from 2.5% to 27%: **the highest in over a century.** Trump imposed 25% tariffs on Canada and Mexico, 50% on steel and aluminum, and sparked a trade war with virtually every major economy.
 
 The economic consequences were immediate:
 
@@ -112,7 +112,7 @@ Yet Trump doubled down. And doubled down again.
 
 This is pure Type 8 psychology. Once committed to a position, retreating feels like weakness. The Type 8's instinct is to push harder when met with resistance, not to recalibrate. They'd rather lose while fighting than win by compromising.
 
-When the Supreme Court questioned his authority to use emergency powers for tariffs, Trump didn't reconsider. He kept them in place while appealing — classic 8 behavior of **refusing to cede ground, even temporarily.**
+When the Supreme Court questioned his authority to use emergency powers for tariffs, Trump didn't reconsider. He kept them in place while appealing: classic 8 behavior of **refusing to cede ground, even temporarily.**
 
 ### DOGE: The Musk Experiment
 
@@ -122,7 +122,7 @@ Established by executive order on January 20, 2025, DOGE was supposed to moderni
 
 The reality? By late 2025, DOGE was quietly disbanded, having claimed only $214 billion in savings (disputed by auditors). Musk and his inner circle left by May.
 
-But Trump framed it as mission accomplished. The "principles remain alive," administration officials insisted — even as the organization itself disappeared.
+But Trump framed it as mission accomplished. The "principles remain alive," administration officials insisted: even as the organization itself disappeared.
 
 This is how Type 8s process setbacks: **reframe them as victories.** Acknowledge nothing that looks like failure. Declare success and move forward.
 
@@ -130,7 +130,7 @@ This is how Type 8s process setbacks: **reframe them as victories.** Acknowledge
 
 Trump's immigration crackdown exemplifies the Type 8's protective instinct gone aggressive.
 
-The administration claims to have deported over 2 million people in under 250 days. National Guard deployments to cities like New Orleans and Minneapolis. A $170.1 billion enforcement budget — making ICE the highest-funded federal law enforcement agency in history.
+The administration claims to have deported over 2 million people in under 250 days. National Guard deployments to cities like New Orleans and Minneapolis. A $170.1 billion enforcement budget: making ICE the highest-funded federal law enforcement agency in history.
 
 The rhetoric matches: "On the border, we have the best border in the history of our country."
 
@@ -140,7 +140,7 @@ But accuracy isn't the point for a Type 8. **Projection of strength is.** The me
 
 ## Communication Style: Attack First, Never Apologize
 
-Trump's communication remains quintessentially Type 8: direct, provocative, and designed to control the narrative.
+Trump's communication remains textbook Type 8: direct, provocative, and designed to control the narrative.
 
 Consider his 2025 greatest hits:
 
@@ -158,13 +158,13 @@ Type 8s don't optimize for likability. They optimize for impact.
 
 Trump's second term has generated controversy at unprecedented scale:
 
-**Signalgate:** The Atlantic's Jeffrey Goldberg revealed he was accidentally added to a Signal group chat discussing strikes on Yemen — with Vice President Vance, the CIA Director, and the Defense Secretary all present. A staggering security breach that would have ended most presidencies.
+**Signalgate:** The Atlantic's Jeffrey Goldberg revealed he was accidentally added to a Signal group chat discussing strikes on Yemen: with Vice President Vance, the CIA Director, and the Defense Secretary all present. A staggering security breach that would have ended most presidencies.
 
 **Attacks on Institutions:** Trump launched campaigns against Harvard, Columbia, and elite law firms, accusing them of promoting "anti-American" values. Executive orders revoked security clearances and terminated contracts.
 
 **Legal Challenges:** Birthright citizenship orders challenged by 22 states. Federal control of DC police challenged as unconstitutional. Multiple tariff orders blocked by courts.
 
-**Approval Ratings:** Gallup shows Trump's approval at 36% — his second-term low — during what became the longest government shutdown in history.
+**Approval Ratings:** Gallup shows Trump's approval at 36%: his second-term low: during what became the longest government shutdown in history.
 
 Type 8s in stress don't moderate. They escalate. When feeling attacked, the instinct is to attack harder, assert control more aggressively, and punish perceived disloyalty more severely.
 
@@ -178,11 +178,11 @@ Why doesn't Trump pivot when strategies aren't working? Why double down on tarif
 
 Because for Type 8s, **the appearance of weakness is more threatening than actual failure.**
 
-Academic analysis describes Trump's leadership as marked by "high self-confidence, strong belief in control, and high conceptual complexity" — but undermined by "high distrust and low task motivation."
+Academic analysis describes Trump's leadership as marked by "high self-confidence, strong belief in control, and high conceptual complexity": but undermined by "high distrust and low task motivation."
 
-Translation: Trump trusts his gut, believes he can dominate any situation, and has sophisticated political instincts — but he's suspicious of everyone and gets bored with implementation details.
+Translation: Trump trusts his gut, believes he can dominate any situation, and has sophisticated political instincts: but he's suspicious of everyone and gets bored with implementation details.
 
-His staffing choices reflect this. Competence matters less than loyalty. As he's said: "I value loyalty above everything else — more than brains, more than drive, and more than energy."
+His staffing choices reflect this. Competence matters less than loyalty. As he's said: "I value loyalty above everything else: more than brains, more than drive, and more than energy."
 
 For Type 8s, betrayal is the ultimate sin. Better to surround yourself with people who will never challenge you than risk being undermined by someone more capable.
 
@@ -190,13 +190,13 @@ For Type 8s, betrayal is the ultimate sin. Better to surround yourself with peop
 
 Behind the bombastic persona lie aspects that humanize the Type 8:
 
-- **Lifelong teetotaler:** After his brother Fred Jr.'s death from alcoholism, Trump committed to never drinking — a disciplined choice often overlooked.
+- **Lifelong teetotaler:** After his brother Fred Jr.'s death from alcoholism, Trump committed to never drinking: a disciplined choice often overlooked.
 
 - **UFC pioneer supporter:** When the UFC was struggling for legitimacy, Trump hosted events at his properties. His friendship with Dana White has endured for decades.
 
 - **Wrestling Hall of Famer:** Trump's involvement with WWE, including scripted storylines, shows a comfort with performance and spectacle that feeds the Type 8's love of attention.
 
-- **The Wollman Rink story:** When NYC failed for six years to renovate this Central Park ice rink, Trump completed it in four months under budget — a legitimately impressive project management feat.
+- **The Wollman Rink story:** When NYC failed for six years to renovate this Central Park ice rink, Trump completed it in four months under budget: a legitimately impressive project management feat.
 
 These details matter because they reveal what Type 8s look like when the cameras are off: disciplined in private commitments, loyal to longtime friends, capable of competent execution when personally invested.
 
@@ -210,7 +210,7 @@ Musk's prediction at a DOGE reunion speaks to Trump's lasting influence: a "grea
 
 Whether you view this as salvation or catastrophe depends on your politics. But understanding it requires recognizing what drives the man at the center.
 
-Type 8s are transformers. They don't accept the world as given — they bend it to their will. Trump has done exactly that to American politics, for better or worse.
+Type 8s are transformers. They don't accept the world as given: they bend it to their will. Trump has done exactly that to American politics, for better or worse.
 
 ## How Each Enneagram Type Perceives Donald Trump
 
@@ -219,15 +219,15 @@ Type 8s are transformers. They don't accept the world as given — they bend it 
 </article>
 
 <article>
-<a href="/enneagram-corner/enneagram-type-2"><b>Type 2 - The Helper:</b></a> Conflicted — some appreciate his focus on protecting Americans first, seeing it as caring for "our people." Others are disturbed by policies they view as cruel. "He says he cares about workers, but do his actions show it?"
+<a href="/enneagram-corner/enneagram-type-2"><b>Type 2 - The Helper:</b></a> Conflicted: some appreciate his focus on protecting Americans first, seeing it as caring for "our people." Others are disturbed by policies they view as cruel. "He says he cares about workers, but do his actions show it?"
 </article>
 
 <article>
-<a href="/enneagram-corner/enneagram-type-3"><b>Type 3 - The Achiever:</b></a> Respects the hustle and the brand-building, even if they don't agree with him. "He's achieved things no one thought possible — twice winning the presidency." They admire his ability to dominate the conversation and define success on his own terms.
+<a href="/enneagram-corner/enneagram-type-3"><b>Type 3 - The Achiever:</b></a> Respects the hustle and the brand-building, even if they don't agree with him. "He's achieved things no one thought possible: twice winning the presidency." They admire his ability to dominate the conversation and define success on his own terms.
 </article>
 
 <article>
-<a href="/enneagram-corner/enneagram-type-4"><b>Type 4 - The Individualist:</b></a> Often repelled by what they see as vulgarity and lack of depth. "There's no inner life there — just ego." Yet some Type 4s are fascinated by his unapologetic authenticity and refusal to conform to expectations.
+<a href="/enneagram-corner/enneagram-type-4"><b>Type 4 - The Individualist:</b></a> Often repelled by what they see as vulgarity and lack of depth. "There's no inner life there: just ego." Yet some Type 4s are fascinated by his unapologetic authenticity and refusal to conform to expectations.
 </article>
 
 <article>
@@ -243,7 +243,7 @@ Type 8s are transformers. They don't accept the world as given — they bend it 
 </article>
 
 <article>
-<a href="/enneagram-corner/enneagram-type-8"><b>Type 8 - The Challenger:</b></a> Recognizes a fellow 8 immediately. Either deeply respects his willingness to fight — "He doesn't back down, ever" — or sees him as a rival to be challenged. Type 8s tend to have strong opinions about Trump, rarely neutral.
+<a href="/enneagram-corner/enneagram-type-8"><b>Type 8 - The Challenger:</b></a> Recognizes a fellow 8 immediately. Either deeply respects his willingness to fight: "He doesn't back down, ever": or sees him as a rival to be challenged. Type 8s tend to have strong opinions about Trump, rarely neutral.
 </article>
 
 <article>
@@ -260,7 +260,7 @@ Understanding Trump through this lens doesn't require approving or condemning hi
 
 Type 8s believe the world is fundamentally hostile, and only the strong survive. They protect their territory fiercely. They'd rather be respected than liked. They never, ever back down first.
 
-Trump has governed exactly as this psychology predicts. Whether that makes him a necessary disruptor or a dangerous authoritarian depends on your values — but the pattern is consistent.
+Trump has governed exactly as this psychology predicts. Whether that makes him a necessary disruptor or a dangerous authoritarian depends on your values: but the pattern is consistent.
 
 As we watch his second administration unfold, one question lingers: **In times of perceived threat, do we collectively turn to Type 8 personalities for leadership?** From [Winston Churchill](/personality-analysis/Winston-Churchill) to Thatcher to Trump, societies in crisis often choose confrontational protectors.
 

@@ -554,7 +554,7 @@
 		background: #f3f4f6;
 		padding: 0.125rem 0.25rem;
 		border-radius: 3px;
-		font-family: ui-monospace, monospace;
+		font-family: var(--font-mono);
 		font-size: 0.8em;
 	}
 

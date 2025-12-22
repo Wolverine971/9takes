@@ -227,6 +227,6 @@
 	}
 
 	.diff-content {
-		font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+		font-family: var(--font-mono);
 	}
 </style>

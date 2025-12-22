@@ -1,10 +1,11 @@
 ---
-title: 'Why You Withdraw From Everyone (Type 5 Isolation Patterns)'
+title: 'Enneagram Type 5: The Investigator - Complete Guide'
+meta_title: 'Why You Withdraw From Everyone (Type 5 Isolation Patterns)'
 description: "Feel drained by people and crave constant alone time? That's Type 5. Learn why social interaction feels depleting, why you need to withdraw to recharge, and what you're really protecting."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/enneagram-corner/enneagram-type-5'
-lastmod: '2025-10-23'
+lastmod: '2025-12-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -114,7 +115,7 @@ Their protective patterns manifest as:
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'overthinking by type 🧠', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'manipulation tactics 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'red flags in dating 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'} ]} />
 </div>
 
 <section class="section-content">
@@ -311,7 +312,7 @@ The theoretical architecture of Type 5 comes alive through firsthand accounts. I
         ]
       },
       "description": "Feel drained by people and crave constant alone time? That's Type 5. Learn why social interaction feels depleting, why you need to withdraw to recharge, and what you're really protecting.",
-      "dateModified": "2025-10-23",
+      "dateModified": "2025-12-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 5",

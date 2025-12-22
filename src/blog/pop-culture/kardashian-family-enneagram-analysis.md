@@ -26,17 +26,17 @@ path: src/blog/pop-culture/kardashian-family-enneagram-analysis.md
 Kris Jenner is a Type 3 (Achiever) who turned trauma into empire-building. Kim is a Type 3w4 (image-conscious achiever). Kourtney is a Type 1 (Perfectionist) constantly critiquing the chaos. Khloé is a Type 2 (Helper) who protects everyone. Kendall is a Type 9 (Peacemaker) who just wants calm. Kylie is a Type 4 (Individualist) who needed to stand apart. These six personality types explain every family fight, business decision, and public drama.
 </QuickAnswer>
 
-<p class="firstLetter">A sex tape, a murder trial, and a momager who saw opportunity where others saw scandal. The Kardashian story is American capitalism distilled to its essence—but it's also a masterclass in family psychology.</p>
+<p class="firstLetter">A sex tape, a murder trial, and a momager who saw opportunity where others saw scandal. The Kardashian story is American capitalism distilled to its essence, but it's also a masterclass in family psychology.</p>
 
 How did one family turn infamy into a multi-billion dollar empire? The answer isn't just business strategy. It's personality architecture.
 
-Each Kardashian operates from a distinct Enneagram type, and understanding these types explains everything—from why Kourtney and Kim constantly clash to why Kylie needed to build something separate from her sisters to why Kris can monetize literally anything.
+Each Kardashian operates from a distinct Enneagram type, and understanding these types explains everything, from why Kourtney and Kim constantly clash to why Kylie needed to build something separate from her sisters to why Kris can monetize literally anything.
 
 ## The Matriarch: Kris Jenner (Type 3 - The Achiever)
 
 ### The Momager Psychology
 
-[Enneagram Type 3s](/enneagram-corner/enneagram-type-3) are driven by one core need: to be successful and admired for their achievements. They're the chameleons of the Enneagram—capable of becoming whatever will earn them the success they crave.
+[Enneagram Type 3s](/enneagram-corner/enneagram-type-3) are driven by one core need: to be successful and admired for their achievements. They're the chameleons of the Enneagram, capable of becoming whatever will earn them the success they crave.
 
 Kris Jenner is a Type 3 operating at full power.
 
@@ -47,19 +47,19 @@ After Robert Kardashian's prominence during the O.J. Simpson trial and her tumul
 - **Achievement through others:** She measures success by her children's success
 - **Image management:** Everything is carefully curated for maximum value
 - **Shapeshifting:** She adapts her approach for each child's personality
-- **Work as identity:** "Momager" isn't a joke—it's her core self-concept
+- **Work as identity:** "Momager" isn't a joke. It's her core self-concept
 
 ### The Genius of the 10%
 
-Kris famously takes 10% of her children's earnings as their manager. This isn't greed—it's Type 3 psychology. Her worth is tied to their success. By making their careers her career, she ensures she's always relevant, always needed, always achieving.
+Kris famously takes 10% of her children's earnings as their manager. This isn't greed. It's Type 3 psychology. Her worth is tied to their success. By making their careers her career, she ensures she's always relevant, always needed, always achieving.
 
-When Kim's sex tape leaked in 2007, most parents would have seen disaster. Kris saw distribution opportunity. This isn't heartless—it's Type 3 reframing: every setback is a setup for a comeback.
+When Kim's sex tape leaked in 2007, most parents would have seen disaster. Kris saw distribution opportunity. This isn't heartless. It's Type 3 reframing: every setback is a setup for a comeback.
 
-> "If somebody says 'no,' you're talking to the wrong person." — Kris Jenner
+> "If somebody says 'no,' you're talking to the wrong person.": Kris Jenner
 
 ### Kris Under Stress
 
-When threatened, Type 3s can become disconnected from their genuine feelings and overly focused on appearances. We've seen this in Kris during family crises—her first instinct is always "how do we spin this?" rather than "how do we feel about this?"
+When threatened, Type 3s can become disconnected from their genuine feelings and overly focused on appearances. We've seen this in Kris during family crises, her first instinct is always "how do we spin this?" rather than "how do we feel about this?"
 
 Her relationship with Caitlyn's transition revealed this pattern. Kris struggled not just with the personal betrayal but with the narrative disruption. Type 3s need to control the story.
 
@@ -67,12 +67,12 @@ Her relationship with Caitlyn's transition revealed this pattern. Kris struggled
 
 ### The Image Queen
 
-Kim shares her mother's Type 3 core but adds a Type 4 wing—making her not just achievement-focused but aesthetically particular. She doesn't just want success; she wants beautiful, distinctive success.
+Kim shares her mother's Type 3 core but adds a Type 4 wing, making her not just achievement-focused but aesthetically particular. She doesn't just want success; she wants beautiful, distinctive success.
 
 **Type 3w4 patterns in Kim:**
 
 - **Perfectionism about image:** Hours of styling, contouring, curation
-- **Brand as identity:** KKW, SKIMS, the law degree—all image extensions
+- **Brand as identity:** KKW, SKIMS, the law degree, all image extensions
 - **Emotional depth under the surface:** Her prison reform work reveals genuine feeling
 - **Competitive with siblings:** Must be the most successful AND the most distinctive
 
@@ -80,7 +80,7 @@ Kim shares her mother's Type 3 core but adds a Type 4 wing—making her not just
 
 Kim's evolution from reality star to criminal justice advocate confuses people who see her as shallow. But it makes perfect sense for a Type 3w4.
 
-Type 3s need achievement. Type 4 wings need meaning. As Kim aged, pure fame wasn't enough. She needed to matter—to be seen as substantive, not just beautiful.
+Type 3s need achievement. Type 4 wings need meaning. As Kim aged, pure fame wasn't enough. She needed to matter, to be seen as substantive, not just beautiful.
 
 The law study isn't random. It's psychological evolution. Her Type 3 needs success validation. Her Type 4 wing needs to feel special and purposeful.
 
@@ -94,7 +94,7 @@ The divorce became inevitable when Kanye's behavior started damaging Kim's caref
 
 ### The Critic in the Family
 
-[Enneagram Type 1s](/enneagram-corner/enneagram-type-1) are driven by a need to be good, right, and perfect. They have strong internal critics and hold themselves—and everyone else—to high standards.
+[Enneagram Type 1s](/enneagram-corner/enneagram-type-1) are driven by a need to be good, right, and perfect. They have strong internal critics and hold themselves. And everyone else, to high standards.
 
 Kourtney is the family's Type 1, and it explains why she's often frustrated with her siblings.
 
@@ -107,7 +107,7 @@ Kourtney is the family's Type 1, and it explains why she's often frustrated with
 
 ### The Poosh Paradox
 
-Kourtney's wellness brand Poosh is pure Type 1 expression. It's not just products—it's a philosophy of doing things the "right" way. Clean living. Conscious consumption. Improvement.
+Kourtney's wellness brand Poosh is pure Type 1 expression. It's not just products. It's a philosophy of doing things the "right" way. Clean living. Conscious consumption. Improvement.
 
 But Type 1s often struggle with the gap between their ideals and reality. Kourtney preaches wellness while participating in a show built on drama. This internal conflict fuels her recurring threats to quit the show.
 
@@ -118,7 +118,7 @@ Type 1s and Type 3s often clash because they have opposite relationships to imag
 - Kim (Type 3) asks: "How does this look?"
 - Kourtney (Type 1) asks: "Is this right?"
 
-Their physical altercation on the show wasn't random—it was years of Type 1 resentment (feeling morally superior but less successful) exploding against Type 3 achievement (feeling successful but constantly criticized).
+Their physical altercation on the show wasn't random. It was years of Type 1 resentment (feeling morally superior but less successful) exploding against Type 3 achievement (feeling successful but constantly criticized).
 
 ## Khloé Kardashian (Type 2 - The Helper)
 
@@ -126,7 +126,7 @@ Their physical altercation on the show wasn't random—it was years of Type 1 re
 
 [Enneagram Type 2s](/enneagram-corner/enneagram-type-2) are driven by a need to be loved and needed. They give to others compulsively, sometimes losing themselves in the process.
 
-Khloé has always been the family's emotional center—the one who mediates conflicts, supports siblings through crises, and puts others' needs first.
+Khloé has always been the family's emotional center: the one who mediates conflicts, supports siblings through crises, and puts others' needs first.
 
 **Type 2 patterns in Khloé:**
 
@@ -143,11 +143,11 @@ Khloé's relationship with Tristan Thompson makes painful sense through Type 2 p
 - Being needed feels like being loved
 - Leaving feels like abandoning someone who needs them
 
-Her repeated returns to Tristan after betrayals weren't stupidity. They were Type 2 compulsion—the belief that enough love could fix anything.
+Her repeated returns to Tristan after betrayals weren't stupidity. They were Type 2 compulsion: the belief that enough love could fix anything.
 
 ### Khloé's Growth Edge
 
-Type 2s grow when they learn that their worth isn't dependent on being needed. Khloé's journey toward self-prioritization—the focus on her own health, her boundaries with Tristan—represents integration toward Type 4 (finding her own identity independent of serving others).
+Type 2s grow when they learn that their worth isn't dependent on being needed. Khloé's journey toward self-prioritization: the focus on her own health, her boundaries with Tristan, represents integration toward Type 4 (finding her own identity independent of serving others).
 
 ## Kendall Jenner (Type 9 - The Peacemaker)
 
@@ -155,7 +155,7 @@ Type 2s grow when they learn that their worth isn't dependent on being needed. K
 
 [Enneagram Type 9s](/enneagram-corner/enneagram-type-9) seek peace and harmony, often by avoiding conflict and going along with others. They can seem invisible in chaotic families because they don't fight for attention.
 
-Kendall has always stood apart from the Kardashian chaos—literally. She pursued modeling, avoided most family drama, and maintains the lowest public profile.
+Kendall has always stood apart from the Kardashian chaos, literally. She pursued modeling, avoided most family drama, and maintains the lowest public profile.
 
 **Type 9 patterns in Kendall:**
 
@@ -166,9 +166,9 @@ Kendall has always stood apart from the Kardashian chaos—literally. She pursue
 
 ### Modeling as Escape
 
-Kendall's modeling career isn't just about beauty—it's about escape. Type 9s need space from overwhelming environments. Fashion week in Paris is physically and psychologically far from Calabasas drama.
+Kendall's modeling career isn't just about beauty. It's about escape. Type 9s need space from overwhelming environments. Fashion week in Paris is physically and psychologically far from Calabasas drama.
 
-Her anxiety issues, discussed publicly, also fit Type 9 patterns. When Type 9s suppress their own needs too long, it emerges as anxiety—the body's way of expressing what the conscious mind avoids.
+Her anxiety issues, discussed publicly, also fit Type 9 patterns. When Type 9s suppress their own needs too long, it emerges as anxiety: the body's way of expressing what the conscious mind avoids.
 
 ### Kendall's Relationship with Kylie
 
@@ -177,7 +177,7 @@ Kendall and Kylie, though closest in age, represent opposite responses to growin
 - Kendall (Type 9) withdrew and sought peace
 - Kylie (Type 4) amplified and sought distinction
 
-Their relationship has reportedly had distance because their psychological strategies are incompatible—one wants calm, the other creates intensity.
+Their relationship has reportedly had distance because their psychological strategies are incompatible, one wants calm, the other creates intensity.
 
 ## Kylie Jenner (Type 4 - The Individualist)
 
@@ -189,22 +189,22 @@ Kylie grew up as the youngest, watching older sisters claim all the obvious terr
 
 **Type 4 patterns in Kylie:**
 
-- **Physical transformation:** Lips, face—becoming visually distinct
+- **Physical transformation:** Lips, face, becoming visually distinct
 - **Creating her own empire:** Kylie Cosmetics was HER thing, not the family's
 - **Emotional intensity:** Her social media presence is more moody, artistic
 - **Withdrawal:** The most private about her pregnancies and relationships
 
 ### The Lip Kit Psychology
 
-Kylie's lip transformation wasn't vanity—it was identity creation. Type 4s often feel something is missing in themselves. Kylie's lips became her signature because she needed something that was uniquely hers.
+Kylie's lip transformation wasn't vanity. It was identity creation. Type 4s often feel something is missing in themselves. Kylie's lips became her signature because she needed something that was uniquely hers.
 
-The $600 million Kylie Cosmetics sale represented Type 4 achievement: she didn't just succeed in the family business—she created her own lane entirely.
+The $600 million Kylie Cosmetics sale represented Type 4 achievement: she didn't just succeed in the family business, she created her own lane entirely.
 
 ### Kylie and Jordyn: The Type 4 Betrayal Wound
 
 Type 4s feel emotions intensely and experience betrayal as confirmation of their deepest fear: that they're fundamentally flawed and unlovable.
 
-When Jordyn Woods kissed Tristan Thompson, Kylie lost not just a friendship but her sense that she was special enough to keep. The speed and totality of the friendship's end reflects Type 4 self-protection—cut off before being abandoned.
+When Jordyn Woods kissed Tristan Thompson, Kylie lost not just a friendship but her sense that she was special enough to keep. The speed and totality of the friendship's end reflects Type 4 self-protection, cut off before being abandoned.
 
 ## Family Dynamics: When Types Collide
 
@@ -227,7 +227,7 @@ Kendall (Type 9) and Kylie (Type 4) represent different survival strategies:
 - Kendall escaped through withdrawal
 - Kylie escaped through reinvention
 
-Neither is better or worse—both are attempts to find identity in an overwhelming family system.
+Neither is better or worse, both are attempts to find identity in an overwhelming family system.
 
 ## Why the Dynasty Works
 
@@ -242,7 +242,7 @@ The Kardashian empire succeeds because these personality types complement each o
 | Kendall (9)  | High fashion credibility, calm       | Prestige element   |
 | Kylie (4)    | Youth market, trendsetting           | Innovation driver  |
 
-The family fights that drive ratings aren't dysfunction—they're the natural friction of these types rubbing against each other. The drama IS the product.
+The family fights that drive ratings aren't dysfunction: they're the natural friction of these types rubbing against each other. The drama IS the product.
 
 ## Lessons from the Kardashian Enneagram
 
@@ -270,7 +270,7 @@ Kylie shows Type 4's creativity (self-creation) and wound (feeling fundamentally
 
 **Are the Kardashians actually this psychologically complex?**
 
-Yes. Every human has psychological architecture. The Kardashians' just plays out on camera. Their types emerged through childhood experiences, family dynamics, and individual temperament—same as everyone else.
+Yes. Every human has psychological architecture. The Kardashians' just plays out on camera. Their types emerged through childhood experiences, family dynamics, and individual temperament, same as everyone else.
 
 **Why is there no Type 5, 6, 7, or 8 in the immediate family?**
 
@@ -278,7 +278,7 @@ Families often cluster around certain types. The Kardashian family culture rewar
 
 **How do their romantic partners fit in?**
 
-This deserves its own analysis, but briefly: Kanye (Type 3 or 4), Travis Scott (possibly Type 9), Tristan Thompson (possibly Type 7)—partners often complement or challenge the family members' types in predictable ways.
+This deserves its own analysis, but briefly: Kanye (Type 3 or 4), Travis Scott (possibly Type 9), Tristan Thompson (possibly Type 7), partners often complement or challenge the family members' types in predictable ways.
 
 **Could the family dynamics change?**
 

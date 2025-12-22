@@ -9,8 +9,8 @@ path: docs/templates/weekly-content-audit.md
 
 # Weekly Content Audit - [WEEK OF DATE]
 
-\_Completed by: ******\_\_\_******
-\_Date: ******\_\_\_******
+\_Completed by: **\*\***\_\_\_**\*\***
+\_Date: **\*\***\_\_\_**\*\***
 
 ---
 

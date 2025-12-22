@@ -23,9 +23,9 @@ path: src/blog/enneagram/enneagram-dating-guide-for-women.md
 
 Here's what nobody tells you: **Your Enneagram type has a specific dating formula**. Type 2s can't "play hard to get." Type 8s can't fake vulnerability. Type 9s can't force assertiveness without burning out.
 
-In this guide, you'll decode your type's exact attraction patterns—what draws you to the wrong people, what signals your authentic desirability, and how to navigate dating without betraying your core nature.
+In this guide, you'll decode your type's exact attraction patterns, what draws you to the wrong people, what signals your authentic desirability, and how to navigate dating without betraying your core nature.
 
-> "She's not 'too picky'—Type 4s need emotional depth before physical attraction. Rush the connection and watch them disappear."
+> "She's not 'too picky', Type 4s need emotional depth before physical attraction. Rush the connection and watch them disappear."
 
 <section class="section-content">
 
@@ -66,12 +66,12 @@ As you prepare for your first date, you might feel the urge to present a polishe
    Why: This helps you practice flexibility and shows that you can go with the flow. It demonstrates that you're not rigid in your expectations.
 
 5. **Embrace slow dating by prioritizing quality over perfection**  
-   Why: The 2025 trend of "slow dating" aligns perfectly with your growth edge—focus on meaningful connection rather than a flawless experience.
+   Why: The 2025 trend of "slow dating" aligns perfectly with your growth edge, focus on meaningful connection rather than a flawless experience.
 
 #### Talking Points
 
 - Ask about their values and what they're passionate about improving in the world  
-  Why: This aligns with your interest in betterment and allows you to assess compatibility on a deeper level. Listen for how they articulate their passions—does their emotional intelligence match your depth?
+  Why: This aligns with your interest in betterment and allows you to assess compatibility on a deeper level. Listen for how they articulate their passions, does their emotional intelligence match your depth?
 
 - Share a recent experience where you learned from a mistake  
   Why: This shows your commitment to growth while demonstrating that you're comfortable with imperfection. It invites vulnerability and honesty in the conversation.
@@ -92,10 +92,10 @@ Congratulations on securing a second date! You might feel a mix of excitement an
    Why: This helps you embrace your own worth and shows confidence. It demonstrates that you can acknowledge your strengths without needing to be perfect.
 
 4. **Let your date lead one decision (e.g., dessert choice) to practice letting go**  
-   Why: Releasing control in small ways helps you cultivate flexibility—a quality increasingly valued in 2025's dating landscape.
+   Why: Releasing control in small ways helps you cultivate flexibility, a quality increasingly valued in 2025's dating landscape.
 
 5. **Propose a digital detox moment during your date**  
-   Why: Suggesting even 30 minutes phone-free shows your commitment to presence and authentic connection—a refreshing approach in our hyper-connected world.
+   Why: Suggesting even 30 minutes phone-free shows your commitment to presence and authentic connection, a refreshing approach in our hyper-connected world.
 
 #### Talking Points
 
@@ -155,7 +155,7 @@ As you approach your first date, you might be tempted to focus entirely on makin
 #### Talking Points
 
 - Ask about their support system and what friendship means to them  
-  Why: This gives you insight into how they value relationships and whether they have a healthy network of support beyond romantic partnerships. Listen for how they describe emotions—do they value empathy as much as you do?
+  Why: This gives you insight into how they value relationships and whether they have a healthy network of support beyond romantic partnerships. Listen for how they describe emotions, do they value empathy as much as you do?
 
 - Share a personal achievement you're proud of  
   Why: This allows you to practice talking about yourself in a positive light, shifting the focus from what you do for others to your own accomplishments.
@@ -175,7 +175,7 @@ Congratulations on securing a second date! You're likely feeling a warm glow of 
 3. **Practice receiving compliments or help without deflecting**  
    Why: This allows you to experience being cared for and shows your date that you value yourself. It sets the stage for a relationship of mutual appreciation.
 
-4. **Propose a digital detox date—no phones, just presence**  
+4. **Propose a digital detox date, no phones, just presence**  
    Why: In 2025's app-fatigued dating scene, this creates space for genuine connection and helps you stay present rather than focusing on others' needs.
 
 #### Talking Points
@@ -231,7 +231,7 @@ As you prepare for your first date, you might feel the urge to impress and showc
    Why: This allows for deeper connection and shows your date that you value the experience with them, not just what you can achieve.
 
 5. **Embrace "slow dating" by focusing on quality connection over impressive venues**  
-   Why: In 2025, this trending approach helps you showcase your authenticity rather than your achievements—a refreshing shift for your type.
+   Why: In 2025, this trending approach helps you showcase your authenticity rather than your achievements, a refreshing shift for your type.
 
 #### Talking Points
 
@@ -271,9 +271,9 @@ Securing a second date is an achievement, but remember, it's not about "winning"
    Why: This shows your capacity for self-reflection and growth. It demonstrates that you value personal development alongside professional achievement and can inspire a deep, authentic exchange.
 
 - Ask about how they handle failure or setbacks  
-   Why: This reveals their emotional intelligence and resilience—qualities increasingly valued in 2025's dating landscape and particularly important for you to understand in a potential partner.
+   Why: This reveals their emotional intelligence and resilience, qualities increasingly valued in 2025's dating landscape and particularly important for you to understand in a potential partner.
 
-Remember, Type 3, in 2025's dating landscape where "loud looking" (transparency) is trending, your willingness to show your authentic self is your greatest asset. By balancing your impressive achievements with genuine vulnerability, you'll attract partners who appreciate all dimensions of you—both your drive for success and your beautiful, complex inner world.
+Remember, Type 3, in 2025's dating landscape where "loud looking" (transparency) is trending, your willingness to show your authentic self is your greatest asset. By balancing your impressive achievements with genuine vulnerability, you'll attract partners who appreciate all dimensions of you, both your drive for success and your beautiful, complex inner world.
 
 </section>
 
@@ -320,7 +320,7 @@ As you prepare for your first date, you might feel a mix of excitement and anxie
    Why: This helps you connect with your date in the present moment and shows that you can find depth and significance in everyday experiences.
 
 5. **Embrace "slow dating" by savoring the experience rather than fantasizing about the future**  
-   Why: This 2025 dating trend aligns with your growth edge—finding meaning in the present moment rather than idealizing what could be.
+   Why: This 2025 dating trend aligns with your growth edge, finding meaning in the present moment rather than idealizing what could be.
 
 #### Talking Points
 
@@ -331,7 +331,7 @@ As you prepare for your first date, you might feel a mix of excitement and anxie
   Why: This expresses your emotional depth and desire for authentic understanding. It can lead to a meaningful discussion about identity and acceptance.
 
 - Notice if they connect feelings to their stories  
-  Why: This reveals their emotional intelligence—a quality increasingly valued in 2025's dating scene and particularly important for you as a Type 4.
+  Why: This reveals their emotional intelligence, a quality increasingly valued in 2025's dating scene and particularly important for you as a Type 4.
 
 ### Second Date Mindset: Deepening the Connection Without Idealizing
 
@@ -404,7 +404,7 @@ As you prepare for your first date, you're likely focused on interesting topics 
    Why: This helps you connect on a more personal level and shows your date that you're engaged, not just in your head. It can help you pick up on emotional nuances that enrich the interaction.
 
 5. **Bring a small personal object (like a favorite book) to share**  
-   Why: This provides an intellectual entry point while also offering a glimpse into your personal world—a gentle way to bridge the mind-heart gap.
+   Why: This provides an intellectual entry point while also offering a glimpse into your personal world, a gentle way to bridge the mind-heart gap.
 
 #### Talking Points
 
@@ -444,9 +444,9 @@ You've secured a second date, which is great! You might be tempted to analyze th
   Why: This encourages you to talk about feelings and personal experiences, helping you practice emotional vulnerability. It also gives your date insight into your emotional depth.
 
 - Explore values-based questions like "What principles guide your decisions?"  
-  Why: This trending 2025 approach to dating combines intellectual discussion with deeper values exploration—perfect for your type.
+  Why: This trending 2025 approach to dating combines intellectual discussion with deeper values exploration, perfect for your type.
 
-Remember, Type 5, in 2025's dating landscape that increasingly values emotional intelligence alongside intellectual depth, your growth edge is your greatest opportunity. By balancing your brilliant mind with emotional openness, you'll create connections that are both intellectually stimulating and emotionally fulfilling—the perfect combination for your type.
+Remember, Type 5, in 2025's dating landscape that increasingly values emotional intelligence alongside intellectual depth, your growth edge is your greatest opportunity. By balancing your brilliant mind with emotional openness, you'll create connections that are both intellectually stimulating and emotionally fulfilling: the perfect combination for your type.
 
 </section>
 <section class="section-content">
@@ -488,7 +488,7 @@ As you approach your first date, you might be feeling a mix of excitement and an
    Why: This creates a balanced exchange and shows that you're willing to be vulnerable too. It can help establish a foundation of mutual trust and openness.
 
 5. **Embrace the "slow dating" trend by focusing on one meaningful conversation**  
-   Why: This 2025 approach to dating aligns with your need for security—taking time to truly know someone before rushing ahead.
+   Why: This 2025 approach to dating aligns with your need for security, taking time to truly know someone before rushing ahead.
 
 #### Talking Points
 
@@ -499,7 +499,7 @@ As you approach your first date, you might be feeling a mix of excitement and an
   Why: This demonstrates your ability to face challenges and step out of your comfort zone. It can open up a discussion about courage and growth, while showing a more adventurous side of yourself.
 
 - Listen for confidence in how they describe reliability  
-  Why: Their tone when discussing loyalty and dependability can reveal much about their emotional intelligence and trustworthiness—crucial qualities for you.
+  Why: Their tone when discussing loyalty and dependability can reveal much about their emotional intelligence and trustworthiness, crucial qualities for you.
 
 ### Second Date Mindset: Deepening Trust Without Jumping to Conclusions
 
@@ -568,7 +568,7 @@ As you gear up for your first date, you're likely brimming with ideas and enthus
 4. **Express appreciation for the simple joys of the date**  
    Why: This demonstrates your ability to find happiness in small moments, not just big adventures. It can be reassuring to your date and shows depth to your character.
 5. **Set a mini-goal for the date (e.g., "find one thing we both love")**  
-   Why: This channels your natural energy in a focused way while creating a fun, shared experience—perfect for the 2025 "slow dating" trend that encourages meaningful connection.
+   Why: This channels your natural energy in a focused way while creating a fun, shared experience, perfect for the 2025 "slow dating" trend that encourages meaningful connection.
 
 #### Talking Points
 
@@ -610,7 +610,7 @@ Excellent job landing a second date! You're probably buzzing with ideas for maki
 - Ask about a challenge they've faced and how they overcame it  
   Why: This invites a more serious conversation, showing your ability to engage with life's difficulties. It can reveal how you both handle adversity and can be an opportunity to show empathy and support.
 
-Remember, Type 7, your enthusiasm and zest for life are incredible gifts in a relationship. By balancing your love for excitement with a willingness to embrace depth and presence, you open yourself to a love that is both thrilling and profound. In 2025's dating landscape that values authentic connection over superficial interactions, your genuine joy and ability to find possibility everywhere makes you an incredibly attractive partner. Embrace the idea that the greatest adventure might be exploring the depths of a meaningful relationship, where each day brings new discoveries about yourself and your partner—this is the true adventure that never gets boring.
+Remember, Type 7, your enthusiasm and zest for life are incredible gifts in a relationship. By balancing your love for excitement with a willingness to embrace depth and presence, you open yourself to a love that is both thrilling and profound. In 2025's dating landscape that values authentic connection over superficial interactions, your genuine joy and ability to find possibility everywhere makes you an incredibly attractive partner. Embrace the idea that the greatest adventure might be exploring the depths of a meaningful relationship, where each day brings new discoveries about yourself and your partner, this is the true adventure that never gets boring.
 
 ## Type 8: The Challenger - Strength in Vulnerability
 
@@ -690,7 +690,7 @@ Great job securing a second date! You might be feeling more invested now, perhap
 - Ask about a time they felt truly supported or protected by someone  
   Why: This invites your date to share a vulnerable experience, allowing you to understand what makes them feel safe and cared for. It can give you insights into how to use your strength to support them in ways that are meaningful to them.
 
-Remember, Type 8, your intensity and strength are powerful assets in a relationship when balanced with vulnerability and empathy. In 2025's dating landscape that increasingly values emotional intelligence alongside confidence, your willingness to show your softer side makes you stand out. Be aware that your strength might sometimes intimidate potential partners—seek those who can appreciate your fire rather than be consumed by it. Your ability to protect and empower others, combined with the courage to show your own vulnerabilities, makes you a formidable and deeply attractive partner for someone who values both strength and emotional depth.
+Remember, Type 8, your intensity and strength are powerful assets in a relationship when balanced with vulnerability and empathy. In 2025's dating landscape that increasingly values emotional intelligence alongside confidence, your willingness to show your softer side makes you stand out. Be aware that your strength might sometimes intimidate potential partners, seek those who can appreciate your fire rather than be consumed by it. Your ability to protect and empower others, combined with the courage to show your own vulnerabilities, makes you a formidable and deeply attractive partner for someone who values both strength and emotional depth.
 
 ## Type 9: The Peacemaker - Asserting Yourself in Harmony
 
@@ -728,7 +728,7 @@ As you prepare for your first date, you might be tempted to go with the flow and
 4. **Ask questions about your date's opinions and gently express agreement or disagreement**  
    Why: This creates a more balanced and engaging conversation. It shows that you're actively participating in getting to know them, not just passively agreeing, and can lead to more meaningful exchanges.
 5. **Embrace "slow dating" by choosing quality conversation over people-pleasing**  
-   Why: This 2025 trend aligns perfectly with your growth edge—finding your voice and expressing your authentic self rather than merging with others' preferences.
+   Why: This 2025 trend aligns perfectly with your growth edge, finding your voice and expressing your authentic self rather than merging with others' preferences.
 
 #### Talking Points
 
@@ -760,7 +760,7 @@ Wonderful job on getting a second date! You might be feeling more comfortable no
 5. **Suggest a digital detox component during your date**  
    Why: This 2025 trend creates space for authentic connection without technological distractions, helping you stay present rather than zoning out.
 6. **Practice saying "no" to something that doesn't appeal to you**  
-   Why: This helps you build your voice in low-stakes dating situations—a key growth area for your type and increasingly valued in 2025's transparent dating culture.
+   Why: This helps you build your voice in low-stakes dating situations, a key growth area for your type and increasingly valued in 2025's transparent dating culture.
 
 #### Talking Points
 
@@ -777,9 +777,9 @@ Remember, Type 9, your ability to create harmony and see multiple perspectives i
 Each Enneagram type has specific blind spots that attract the wrong people:
 
 **Type 1**: You're attracted to "potential" and miss present-moment red flags
-**Type 2**: You confuse neediness with need—they want your services, not your soul
+**Type 2**: You confuse neediness with need: they want your services, not your soul
 **Type 3**: You're impressed by achievement theatre but miss emotional intelligence
-**Type 4**: You mistake intensity for intimacy—drama isn't depth
+**Type 4**: You mistake intensity for intimacy, drama isn't depth
 **Type 5**: You intellectualize away gut feelings about character
 **Type 6**: You seek security in controlling people instead of choosing secure people
 **Type 7**: You avoid "boring" conversations that reveal core values
@@ -790,29 +790,29 @@ Each Enneagram type has specific blind spots that attract the wrong people:
 
 **Situationships** - Those undefined "almost relationships" that leave you wondering where you stand:
 
-- **Type 1**: Set clear timeline expectations early—your clarity is your superpower
-- **Type 2**: Avoid over-giving in situationships—equal effort is non-negotiable
-- **Type 4**: Guard against romanticizing potential over reality—what's actually happening matters more than what could be
-- **Type 6**: Trust your instincts when commitment seems elusive—your caution serves you well here
-- **Type 9**: Don't drift in ambiguity to avoid conflict—your peace requires clarity
+- **Type 1**: Set clear timeline expectations early. Your clarity is your superpower
+- **Type 2**: Avoid over-giving in situationships, equal effort is non-negotiable
+- **Type 4**: Guard against romanticizing potential over reality, what's actually happening matters more than what could be
+- **Type 6**: Trust your instincts when commitment seems elusive. Your caution serves you well here
+- **Type 9**: Don't drift in ambiguity to avoid conflict. Your peace requires clarity
 
 **Love Bombing** - The overwhelming shower of affection that feels too good to be true (because it usually is):
 
 - **Type 2**: Watch for those who mirror your giving nature without substance behind it
 - **Type 3**: Be wary of those impressed by your achievements rather than your authentic self
-- **Type 4**: Verify that intensity matches actions over time—true depth builds gradually
-- **Type 7**: Ensure excitement doesn't mask red flags—sustainable joy grows more slowly
+- **Type 4**: Verify that intensity matches actions over time, true depth builds gradually
+- **Type 7**: Ensure excitement doesn't mask red flags, sustainable joy grows more slowly
 - **Type 8**: Look for partners who match your strength consistently, not just initially
 
 **Your Enneagram Type in Self-Discovery Mode**
 
 Whether you're embracing a solo phase, casual dating, or selective searching, your type influences how you grow:
 
-- **Type 1**: Use this time to define your non-negotiables versus preferences—perfection isn't the goal
-- **Type 3**: Date yourself with the same enthusiasm you'd pursue achievement—who are you beyond goals?
-- **Type 5**: Explore emotional connections without over-analyzing—what feels good, not just what makes sense?
-- **Type 6**: Build inner trust through gradual exposure to new experiences—security starts within
-- **Type 9**: Test your voice in low-stakes scenarios—practice saying "no" and expressing preferences
+- **Type 1**: Use this time to define your non-negotiables versus preferences, perfection isn't the goal
+- **Type 3**: Date yourself with the same enthusiasm you'd pursue achievement, who are you beyond goals?
+- **Type 5**: Explore emotional connections without over-analyzing, what feels good, not just what makes sense?
+- **Type 6**: Build inner trust through gradual exposure to new experiences, security starts within
+- **Type 9**: Test your voice in low-stakes scenarios, practice saying "no" and expressing preferences
 
 ## Your Type-Specific Dating Detox Protocol
 
@@ -822,7 +822,7 @@ Track your dating choices for one week. Notice which types you're consistently a
 
 ### Week 2: Formula Implementation
 
-Try ONE dating strategy from your type's attraction formula. Notice resistance—that's your growth edge.
+Try ONE dating strategy from your type's attraction formula. Notice resistance. That's your growth edge.
 
 ### Week 3: Boundary Testing
 
@@ -848,17 +848,17 @@ Reflect on what worked. Your dating patterns will shift when you understand your
 
 Stop trying to be the "cool girl" version of your type. Type 2s don't need to play hard to get. Type 8s don't need to tone down their intensity. Type 4s don't need to be more "normal."
 
-The right person for you will be attracted to your authentic patterns, not your performance. Your Enneagram type isn't a bug to fix—it's a feature to leverage.
+The right person for you will be attracted to your authentic patterns, not your performance. Your Enneagram type isn't a bug to fix. It's a feature to leverage.
 
 **Your mission**: Date as your true type. Watch who shows up.
 
 ## FAQs About Enneagram Dating
 
 **Which Enneagram type is best at dating?**
-No type is "best"—each has natural strengths and growth edges. Type 2s excel at creating connection but struggle with boundaries. Type 8s attract through confidence but may intimidate. Success comes from understanding and leveraging your type's natural patterns.
+No type is "best", each has natural strengths and growth edges. Type 2s excel at creating connection but struggle with boundaries. Type 8s attract through confidence but may intimidate. Success comes from understanding and leveraging your type's natural patterns.
 
 **Can incompatible Enneagram types date successfully?**
-Absolutely. Type compatibility isn't about matching numbers—it's about understanding each other's core needs. A Type 1 and Type 7 can thrive if the 1 appreciates the 7's spontaneity and the 7 respects the 1's need for structure.
+Absolutely. Type compatibility isn't about matching numbers. It's about understanding each other's core needs. A Type 1 and Type 7 can thrive if the 1 appreciates the 7's spontaneity and the 7 respects the 1's need for structure.
 
 **How do I know if someone is attracted to my authentic self vs. my performance?**
 Watch how they respond when you show your type's "less attractive" traits. Do they appreciate your Type 4 intensity or try to "cheer you up"? Do they value your Type 5 need for space or take it personally? Authentic attraction includes your whole type.
@@ -867,7 +867,7 @@ Watch how they respond when you show your type's "less attractive" traits. Do th
 Only if they're genuinely interested in personal growth. The Enneagram is a tool for self-awareness, not a conversation starter. Focus on showing your authentic patterns rather than explaining them.
 
 **What if I'm attracted to unhealthy versions of my type?**
-This often happens when we're in our own stress patterns. Type 2s attract narcissists when they're over-giving. Type 6s attract controllers when they're anxious. Work on your own health first—you'll naturally attract healthier partners.
+This often happens when we're in our own stress patterns. Type 2s attract narcissists when they're over-giving. Type 6s attract controllers when they're anxious. Work on your own health first. You'll naturally attract healthier partners.
 
 <svelte:head>
 
@@ -942,7 +942,7 @@ This often happens when we're in our own stress patterns. Type 2s attract narcis
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Love bombing is an overwhelming shower of affection and attention early in dating that feels too good to be true—because it usually is. Different types are vulnerable in specific ways: Type 2s should watch for those who mirror their giving nature without substance; Type 3s should be wary of those impressed by achievements rather than authentic self; Type 4s should verify that emotional intensity matches actions over time; Type 7s need to ensure excitement doesn't mask red flags; and Type 8s should look for partners whose strength matches consistently, not just initially."
+            "text": "Love bombing is an overwhelming shower of affection and attention early in dating that feels too good to be true, because it usually is. Different types are vulnerable in specific ways: Type 2s should watch for those who mirror their giving nature without substance; Type 3s should be wary of those impressed by achievements rather than authentic self; Type 4s should verify that emotional intensity matches actions over time; Type 7s need to ensure excitement doesn't mask red flags; and Type 8s should look for partners whose strength matches consistently, not just initially."
           },
           "name": "What is love bombing and how can my Enneagram type avoid it?"
         },

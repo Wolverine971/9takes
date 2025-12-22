@@ -538,7 +538,7 @@
 
 	.form-textarea {
 		resize: vertical;
-		font-family: monospace;
+		font-family: var(--font-mono);
 		font-size: 0.8125rem;
 	}
 
@@ -595,7 +595,7 @@
 		padding: 1.5rem;
 		background: white;
 		min-height: 200px;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-family: var(--font-family);
 	}
 
 	/* Context Info */

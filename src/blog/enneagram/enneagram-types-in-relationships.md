@@ -1,10 +1,11 @@
 ---
 title: 'How Each Enneagram Type Loves (And Why It Goes Wrong)'
+meta_title: 'Why Your Relationships Keep Failing (Your Enneagram Type Explains It)'
 description: 'Discover the hidden patterns driving your relationship dynamics. From Type 1s perfecting love to Type 9s disappearing into it.'
 author: 'DJ Wayne'
 date: '2023-03-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-in-relationships'
-lastmod: '2025-12-10'
+lastmod: '2025-12-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -247,7 +248,7 @@ Beneath all that intensity is a person who just wants to be loved for exactly wh
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'red flags in dating 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'}, {name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'manipulation tactics 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'} ]} />
 </div>
 
 <section class="section-content">
@@ -563,7 +564,7 @@ _Ready to go deeper? Discover [what happens when each type falls in love](/ennea
          },
          "dateModified":{
             "@type":"Date",
-            "@value":"2025-12-10"
+            "@value":"2025-12-21"
          },
          "datePublished":{
             "@type":"Date",

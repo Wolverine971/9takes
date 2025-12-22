@@ -35,7 +35,7 @@ The answer lies in understanding Xi's psychology. And specifically, his Enneagra
 <li><b>Control as survival:</b> Type 8s fear being controlled or harmed by others. Xi has centralized power more than any leader since Mao—not from simple ambition, but from a deep psychological need to never be vulnerable again.</li>
 <li><b>Protective of "his people":</b> Healthy Type 8s become protectors. Xi frequently references his bond with rural peasants and frames himself as defending China from foreign threats and internal corruption.</li>
 <li><b>Stress pattern to Type 5:</b> Under pressure, Type 8s become secretive and withdrawn like unhealthy <a href="/enneagram-corner/enneagram-type-5">Type 5s</a>. Xi's COVID-19 response showed classic Type 8 stress behavior—isolation, information control, and doubling down on rigid policies.</li>
-<li><b>Emotional stoicism:</b> Lee Kuan Yew compared Xi to Nelson Mandela for his "enormous emotional stability." This controlled exterior over an intense interior is quintessential Type 8.</li>
+<li><b>Emotional stoicism:</b> Lee Kuan Yew compared Xi to Nelson Mandela for his "enormous emotional stability." This controlled exterior over an intense interior is classic Type 8.</li>
 </ul>
 </div>
 </details>

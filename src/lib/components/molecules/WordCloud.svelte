@@ -20,7 +20,7 @@
 			.words(words.map((d) => ({ ...d, text: d.text, size: d.value })))
 			.padding(0)
 			.rotate(() => 0) // Always return 0 to keep words horizontal
-			.font('sans-serif')
+			.font('Noticia Text')
 			.fontSize((d) => Math.sqrt(d.size) * 5)
 			.on('end', draw);
 
@@ -47,7 +47,7 @@
 
 		d3.select(svg)
 			.attr('viewBox', [0, 0, width, height])
-			.attr('font-family', 'sans-serif')
+			.attr('font-family', 'Noticia Text')
 			.attr('text-anchor', 'middle')
 			.selectAll('g')
 			.data([null])

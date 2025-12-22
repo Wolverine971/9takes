@@ -17,11 +17,11 @@ Reusable templates to systematize content creation and optimization workflows.
 
 ## Available Templates
 
-| Template | Purpose | When to Use |
-|----------|---------|-------------|
-| [`weekly-content-audit.md`](./weekly-content-audit.md) | Track weekly GSC performance, optimizations, and priorities | Every Friday/Monday |
-| [`content-creation-checklist.md`](./content-creation-checklist.md) | Complete checklist for creating a new blog post | When writing any new content |
-| [`monthly-content-plan.md`](./monthly-content-plan.md) | Plan monthly content calendar, goals, and tracking | First day of each month |
+| Template                                                           | Purpose                                                     | When to Use                  |
+| ------------------------------------------------------------------ | ----------------------------------------------------------- | ---------------------------- |
+| [`weekly-content-audit.md`](./weekly-content-audit.md)             | Track weekly GSC performance, optimizations, and priorities | Every Friday/Monday          |
+| [`content-creation-checklist.md`](./content-creation-checklist.md) | Complete checklist for creating a new blog post             | When writing any new content |
+| [`monthly-content-plan.md`](./monthly-content-plan.md)             | Plan monthly content calendar, goals, and tracking          | First day of each month      |
 
 ---
 
@@ -57,12 +57,12 @@ Reusable templates to systematize content creation and optimization workflows.
 
 ## Related Resources
 
-| Resource | Location |
-|----------|----------|
-| Writing system hub | [`/docs/writing-system/README.md`](../writing-system/README.md) |
+| Resource                  | Location                                                                                                    |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Writing system hub        | [`/docs/writing-system/README.md`](../writing-system/README.md)                                             |
 | Content creation workflow | [`/docs/writing-system/01-content-creation-workflow.md`](../writing-system/01-content-creation-workflow.md) |
-| Current action plan | [`/docs/30-DAY-ACTION-PLAN-DEC-2025.md`](../30-DAY-ACTION-PLAN-DEC-2025.md) |
-| Strategy overview | [`/docs/START-HERE.md`](../START-HERE.md) |
+| Current action plan       | [`/docs/30-DAY-ACTION-PLAN-DEC-2025.md`](../30-DAY-ACTION-PLAN-DEC-2025.md)                                 |
+| Strategy overview         | [`/docs/START-HERE.md`](../START-HERE.md)                                                                   |
 
 ---
 

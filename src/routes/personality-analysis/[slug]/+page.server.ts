@@ -229,6 +229,7 @@ async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
 import PopCard from '$lib/components/atoms/PopCard.svelte';
 import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
 import MarqueeHorizontal from '$lib/components/atoms/MarqueeHorizontal.svelte';
+import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
 import { marked } from 'marked'; // Import the marked library
 
 async function processBlogContent(content) {
@@ -244,7 +245,8 @@ async function processBlogContent(content) {
 	const componentTypes = [
 		{ tag: 'PopCard', component: PopCard },
 		{ tag: 'BlogPurpose', component: BlogPurpose },
-		{ tag: 'MarqueeHorizontal', component: MarqueeHorizontal }
+		{ tag: 'MarqueeHorizontal', component: MarqueeHorizontal },
+		{ tag: 'QuickAnswer', component: QuickAnswer }
 	];
 
 	// Replace component tags with placeholders

@@ -24,7 +24,7 @@ path: src/blog/enneagram/enneagram-types-in-stress.md
 Each Enneagram type has a predictable breakdown pattern triggered by specific stressors. Type 1s become rigidly critical, Type 2s turn manipulative and needy, Type 3s work until they burn out, Type 4s spiral into dramatic withdrawal, Type 5s isolate completely, Type 6s catastrophize everything, Type 7s scatter into frantic distraction, Type 8s become dominating and aggressive, Type 9s go numb and passive-aggressive. Understanding your stress pattern reveals when you're starting to unravel.
 </QuickAnswer>
 
-**Read time**: 15 minutes | **Key insight**: Your stress behavior is predictable—and preventable
+**Read time**: 15 minutes | **Key insight**: Your stress behavior is predictable. And preventable
 
 ## Stress Breakdown Comparison Table
 
@@ -48,9 +48,9 @@ Type 1s reorganize the kitchen at 2 AM because "someone has to maintain standard
 
 And the worst part? You don't see it happening. Everyone else does.
 
-Each [Enneagram type](/enneagram-corner/enneagram-tldr) has a predictable collapse pattern — a specific way you unravel under pressure that you've been running since childhood. The pattern feels like survival. To everyone watching, it looks like self-destruction.
+Each [Enneagram type](/enneagram-corner/enneagram-tldr) has a predictable collapse pattern: a specific way you unravel under pressure that you've been running since childhood. The pattern feels like survival. To everyone watching, it looks like self-destruction.
 
-This connects directly to your [toxic traits](/enneagram-corner/toxic-traits-of-each-enneagram-type) and [mental health vulnerabilities](/enneagram-corner/enneagram-and-mental-illness) — the same wound, different expressions.
+This connects directly to your [toxic traits](/enneagram-corner/toxic-traits-of-each-enneagram-type) and [mental health vulnerabilities](/enneagram-corner/enneagram-and-mental-illness): the same wound, different expressions.
 
 **Ready to see your breakdown pattern before it happens?**
 
@@ -82,7 +82,7 @@ Watch for these tells:
 
 ### What's Actually Happening
 
-The internal courtroom is in session 24/7. Every imperfection — theirs and yours — gets logged, cataloged, and used as evidence that the world is falling apart.
+The internal courtroom is in session 24/7. Every imperfection: theirs and yours: gets logged, cataloged, and used as evidence that the world is falling apart.
 
 **Stressors that trigger the spiral:**
 
@@ -91,7 +91,7 @@ The internal courtroom is in session 24/7. Every imperfection — theirs and you
 - Time constraints that threaten quality
 - Receiving criticism (the thing they fear most because they're already so hard on themselves)
 
-**The childhood wound:** They learned early that being imperfect meant being unworthy. So they became the judge — harsh on themselves first, then everyone else.
+**The childhood wound:** They learned early that being imperfect meant being unworthy. So they became the judge: harsh on themselves first, then everyone else.
 
 ### Breaking the Pattern
 
@@ -103,9 +103,9 @@ The internal courtroom is in session 24/7. Every imperfection — theirs and you
 
 - Accept that "good enough" exists (radical concept)
 - Delegate and _actually_ trust others to do it their way
-- Schedule breaks before the breakdown — not after
+- Schedule breaks before the breakdown: not after
 
-When you see a Type 1 in this spiral, don't tell them to "relax." Acknowledge the effort first. Say: "You clearly care about getting this right." Then help them see that perfection isn't the goal — completion is.
+When you see a Type 1 in this spiral, don't tell them to "relax." Acknowledge the effort first. Say: "You clearly care about getting this right." Then help them see that perfection isn't the goal: completion is.
 
 </section>
 
@@ -137,7 +137,7 @@ Watch for these tells:
 
 ### What's Actually Happening
 
-A Two in stress has finally realized they've been pouring from an empty cup — and instead of filling it, they're shaking it at everyone, demanding refills.
+A Two in stress has finally realized they've been pouring from an empty cup: and instead of filling it, they're shaking it at everyone, demanding refills.
 
 **Stressors that trigger the spiral:**
 
@@ -146,7 +146,7 @@ A Two in stress has finally realized they've been pouring from an empty cup — 
 - Having their "selfless" motives questioned
 - Being in situations where they _can't_ help
 
-**The childhood wound:** Love felt conditional on usefulness. They learned: "I'm only worthy if I'm needed." So they became indispensable — then resented it.
+**The childhood wound:** Love felt conditional on usefulness. They learned: "I'm only worthy if I'm needed." So they became indispensable: then resented it.
 
 ### Breaking the Pattern
 
@@ -160,7 +160,7 @@ A Two in stress has finally realized they've been pouring from an empty cup — 
 - Accept help without immediately reciprocating
 - Express a need _before_ you've reached the breaking point
 
-When you see a Type 2 in this spiral, don't dismiss their sacrifices. Say: "I see how much you give. What do _you_ need right now?" Then actually listen. The answer might take them a minute — they're not used to thinking about it.
+When you see a Type 2 in this spiral, don't dismiss their sacrifices. Say: "I see how much you give. What do _you_ need right now?" Then actually listen. The answer might take them a minute: they're not used to thinking about it.
 
 </section>
 
@@ -186,13 +186,13 @@ Watch for these tells:
 - Checking email at 2 AM "just to get ahead"
 - Measuring their worth in accomplishments that never feel like enough
 - Becoming obsessively image-conscious (everything becomes a performance)
-- Responding to "how are you?" with "busy" — every single time
+- Responding to "how are you?" with "busy": every single time
 
 **The quote that signals breakdown:** "I don't have time to feel things right now."
 
 ### What's Actually Happening
 
-A Three in stress has confused being productive with being valuable. They're running on a treadmill that speeds up the faster they go — and they can't figure out why they never arrive.
+A Three in stress has confused being productive with being valuable. They're running on a treadmill that speeds up the faster they go: and they can't figure out why they never arrive.
 
 **Stressors that trigger the spiral:**
 
@@ -235,7 +235,7 @@ They don't just feel bad. They inhabit a multi-chapter emotional saga where they
 
 Watch for these tells:
 
-- Withdrawing dramatically (not just leaving — making an exit)
+- Withdrawing dramatically (not just leaving: making an exit)
 - Creating emotional tests to see who truly understands them
 - Comparing their life to everyone else's highlight reel
 - Saying "you wouldn't understand" about increasingly normal things
@@ -245,7 +245,7 @@ Watch for these tells:
 
 ### What's Actually Happening
 
-A Four in stress has disappeared into their inner world, where emotions become amplified echoes of emotions. They're not processing — they're marinating.
+A Four in stress has disappeared into their inner world, where emotions become amplified echoes of emotions. They're not processing: they're marinating.
 
 **Stressors that trigger the spiral:**
 
@@ -254,7 +254,7 @@ A Four in stress has disappeared into their inner world, where emotions become a
 - Seeing others easily have what they desperately want
 - Relationships that feel shallow or inauthentic
 
-**The childhood wound:** They felt fundamentally different — like everyone else got a manual for life they never received. So they made "different" their identity. The problem is, that identity depends on staying separate.
+**The childhood wound:** They felt fundamentally different: like everyone else got a manual for life they never received. So they made "different" their identity. The problem is, that identity depends on staying separate.
 
 ### Breaking the Pattern
 
@@ -268,7 +268,7 @@ A Four in stress has disappeared into their inner world, where emotions become a
 - Find one beautiful thing about today (not yesterday's loss)
 - Let someone understand you without testing them first
 
-When you see a Type 4 in this spiral, don't try to cheer them up — they'll resent it. Instead, say: "I can't fully understand your experience, but I want to be here with you in it." Witness the pain without fixing it. That's what they're actually asking for.
+When you see a Type 4 in this spiral, don't try to cheer them up: they'll resent it. Instead, say: "I can't fully understand your experience, but I want to be here with you in it." Witness the pain without fixing it. That's what they're actually asking for.
 
 </section>
 
@@ -301,7 +301,7 @@ Watch for these tells:
 
 ### What's Actually Happening
 
-A Five in stress has calculated that their internal resources are critically low — and you're an expense they can't afford. They're not withdrawing from _you_. They're retreating into the only space that doesn't drain them: their own mind.
+A Five in stress has calculated that their internal resources are critically low: and you're an expense they can't afford. They're not withdrawing from _you_. They're retreating into the only space that doesn't drain them: their own mind.
 
 **Stressors that trigger the spiral:**
 
@@ -316,15 +316,15 @@ A Five in stress has calculated that their internal resources are critically low
 
 **What they're telling themselves:** "If I engage, I'll be depleted. I need to conserve."
 
-**What they need to hear:** "You have more resources than you think. And connection actually gives you energy — if you let it."
+**What they need to hear:** "You have more resources than you think. And connection actually gives you energy: if you let it."
 
 **The escape hatch:**
 
-- Small social engagement (not parties — one person, one hour)
+- Small social engagement (not parties: one person, one hour)
 - Share one thought before it's fully formed
 - Notice that emotions aren't actually emergencies
 
-When you see a Type 5 in this spiral, don't chase them — you'll make it worse. Send a simple "I'm here when you're ready" and then actually wait. When they resurface, act like they never left. Low-pressure is the only pressure that works.
+When you see a Type 5 in this spiral, don't chase them: you'll make it worse. Send a simple "I'm here when you're ready" and then actually wait. When they resurface, act like they never left. Low-pressure is the only pressure that works.
 
 </section>
 
@@ -354,7 +354,7 @@ Watch for these tells:
 
 ### What's Actually Happening
 
-A Six in stress has lost access to their own inner compass. The anxiety isn't about the thing they're worried about — it's about not knowing if they can handle whatever comes next. So they prepare for every scenario except the one where they're okay.
+A Six in stress has lost access to their own inner compass. The anxiety isn't about the thing they're worried about: it's about not knowing if they can handle whatever comes next. So they prepare for every scenario except the one where they're okay.
 
 **Stressors that trigger the spiral:**
 
@@ -363,7 +363,7 @@ A Six in stress has lost access to their own inner compass. The anxiety isn't ab
 - Discovering someone they trusted wasn't trustworthy
 - Too many unknowns stacking up at once
 
-**The childhood wound:** The world felt unpredictable and dangerous. Authority figures were unreliable. They learned to scan for threats constantly because feeling safe meant letting your guard down — and letting your guard down meant getting hurt.
+**The childhood wound:** The world felt unpredictable and dangerous. Authority figures were unreliable. They learned to scan for threats constantly because feeling safe meant letting your guard down: and letting your guard down meant getting hurt.
 
 ### Breaking the Pattern
 
@@ -391,7 +391,7 @@ When you see a Type 6 in this spiral, don't dismiss their fears or tell them to 
 
 **Stressed [Type 7s](/enneagram-corner/enneagram-type-7) will plan six vacations to avoid sitting with one emotion.**
 
-That spontaneous energy that makes them fun? Under stress, it becomes frantic. They're not seeking adventure anymore — they're fleeing something. Usually themselves.
+That spontaneous energy that makes them fun? Under stress, it becomes frantic. They're not seeking adventure anymore: they're fleeing something. Usually themselves.
 
 ### The Stress Signature
 
@@ -407,7 +407,7 @@ Watch for these tells:
 
 ### What's Actually Happening
 
-A Seven in stress is running. Not toward something — away from something. Usually pain, boredom, or any emotion that threatens to pin them down. They've convinced themselves that staying in motion means staying safe.
+A Seven in stress is running. Not toward something: away from something. Usually pain, boredom, or any emotion that threatens to pin them down. They've convinced themselves that staying in motion means staying safe.
 
 **Stressors that trigger the spiral:**
 
@@ -430,7 +430,7 @@ A Seven in stress is running. Not toward something — away from something. Usua
 - Finish one thing before starting three new things
 - Notice that boredom won't actually kill you
 
-When you see a Type 7 in this spiral, don't lecture them about responsibility — they'll leave. Instead, make depth feel like discovery. Say: "What would it be like to really feel this?" Make sitting still sound like an adventure. It's the only reframe they'll accept.
+When you see a Type 7 in this spiral, don't lecture them about responsibility: they'll leave. Instead, make depth feel like discovery. Say: "What would it be like to really feel this?" Make sitting still sound like an adventure. It's the only reframe they'll accept.
 
 </section>
 
@@ -442,9 +442,9 @@ When you see a Type 7 in this spiral, don't lecture them about responsibility �
 <img loading="lazy" src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
 </p>
 
-**Stressed [Type 8s](/enneagram-corner/enneagram-type-8) will threaten to leave the relationship at 2 AM over a text tone — then Venmo you $400 the next morning with "for therapy, love you."**
+**Stressed [Type 8s](/enneagram-corner/enneagram-type-8) will threaten to leave the relationship at 2 AM over a text tone: then Venmo you $400 the next morning with "for therapy, love you."**
 
-Under pressure, their protective intensity becomes a bulldozer. They're not trying to hurt you. They're trying to survive — and survival mode means taking control at any cost.
+Under pressure, their protective intensity becomes a bulldozer. They're not trying to hurt you. They're trying to survive: and survival mode means taking control at any cost.
 
 ### The Stress Signature
 
@@ -453,14 +453,14 @@ Watch for these tells:
 - Picking fights over things that weren't conflicts
 - Escalating intensity until everyone backs down
 - Making ultimatums ("my way or I'm out")
-- Becoming physically restless — pacing, clenching, needing to move
+- Becoming physically restless: pacing, clenching, needing to move
 - Going completely silent instead of vulnerable (the scarier option)
 
 **The quote that signals breakdown:** "I don't need anyone. I can handle this myself."
 
 ### What's Actually Happening
 
-An Eight in stress has detected a threat to their control or autonomy — and their response is to reassert dominance over the situation. But the aggression isn't about you. It's armor. Underneath that iron exterior is someone terrified of being controlled, betrayed, or exposed.
+An Eight in stress has detected a threat to their control or autonomy: and their response is to reassert dominance over the situation. But the aggression isn't about you. It's armor. Underneath that iron exterior is someone terrified of being controlled, betrayed, or exposed.
 
 **Stressors that trigger the spiral:**
 
@@ -469,13 +469,13 @@ An Eight in stress has detected a threat to their control or autonomy — and th
 - Situations where they can't protect the people they love
 - Having their authority undermined or questioned
 
-**The childhood wound:** They learned early that being vulnerable meant being exploited. Softness got you hurt. Power was the only protection. So they built walls — not to keep people out, but to make sure no one could ever hurt them again.
+**The childhood wound:** They learned early that being vulnerable meant being exploited. Softness got you hurt. Power was the only protection. So they built walls: not to keep people out, but to make sure no one could ever hurt them again.
 
 ### Breaking the Pattern
 
 **What they're telling themselves:** "If I show weakness, I'll be destroyed. I have to stay strong."
 
-**What they need to hear:** "Strength includes knowing when to let go. Vulnerability isn't weakness — it's courage."
+**What they need to hear:** "Strength includes knowing when to let go. Vulnerability isn't weakness: it's courage."
 
 **The escape hatch:**
 
@@ -483,7 +483,7 @@ An Eight in stress has detected a threat to their control or autonomy — and th
 - Let someone else lead (just this once)
 - Notice that not every situation requires combat mode
 
-When you see a Type 8 in this spiral, don't back down — but don't escalate either. Stand your ground calmly. Say: "I'm not going anywhere. What's really going on?" They're waiting for you to break. When you don't, the armor might crack enough for the real conversation.
+When you see a Type 8 in this spiral, don't back down: but don't escalate either. Stand your ground calmly. Say: "I'm not going anywhere. What's really going on?" They're waiting for you to break. When you don't, the armor might crack enough for the real conversation.
 
 </section>
 
@@ -495,7 +495,7 @@ When you see a Type 8 in this spiral, don't back down — but don't escalate eit
 <img loading="lazy" src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
 </p>
 
-**Stressed [Type 9s](/enneagram-corner/enneagram-type-9) saying "I'm fine" is the biggest lie in human history. They're not fine. They're drowning — but decided making waves would be worse.**
+**Stressed [Type 9s](/enneagram-corner/enneagram-type-9) saying "I'm fine" is the biggest lie in human history. They're not fine. They're drowning: but decided making waves would be worse.**
 
 That's not peace. That's death by accommodation.
 
@@ -506,14 +506,14 @@ Watch for these tells:
 - "Whatever you want" (they have an opinion, they're just not saying it)
 - Zoning out mid-conversation about serious topics
 - Agreeing to things they'll quietly resent for years
-- Stubbornly refusing to engage — not hostile, just... gone
+- Stubbornly refusing to engage: not hostile, just... gone
 - That passive-aggressive silence that somehow makes everything worse
 
 **The quote that signals breakdown:** "I'm fine. It's fine. Everything's fine." (Narrator: It was not fine.)
 
 ### What's Actually Happening
 
-A Nine in stress has decided that maintaining connection requires erasing themselves. They've confused peace with absence of conflict — and now they're vanishing to keep everyone else comfortable.
+A Nine in stress has decided that maintaining connection requires erasing themselves. They've confused peace with absence of conflict: and now they're vanishing to keep everyone else comfortable.
 
 **Stressors that trigger the spiral:**
 
@@ -522,7 +522,7 @@ A Nine in stress has decided that maintaining connection requires erasing themse
 - Criticism that disrupts their sense of inner calm
 - Feeling invisible despite giving up so much
 
-**The childhood wound:** They learned that their needs caused problems. Expressing preferences led to conflict. Being "easy" kept the peace. So they stopped having needs — or at least stopped acknowledging them.
+**The childhood wound:** They learned that their needs caused problems. Expressing preferences led to conflict. Being "easy" kept the peace. So they stopped having needs: or at least stopped acknowledging them.
 
 ### Breaking the Pattern
 
@@ -532,11 +532,11 @@ A Nine in stress has decided that maintaining connection requires erasing themse
 
 **The escape hatch:**
 
-- Voice one preference today — even something small
+- Voice one preference today: even something small
 - Notice that asserting a need didn't destroy anyone
 - Let someone else handle the discomfort of disagreement
 
-When you see a Type 9 in this spiral, don't accept "I'm fine." Say: "What would you want if you knew no one would be upset?" Give them explicit permission to have preferences. Then honor what they say — that's how you prove it's safe to speak.
+When you see a Type 9 in this spiral, don't accept "I'm fine." Say: "What would you want if you knew no one would be upset?" Give them explicit permission to have preferences. Then honor what they say: that's how you prove it's safe to speak.
 
 </section>
 
@@ -548,7 +548,7 @@ Every type thinks their stress response is logical. Type 1s genuinely believe mo
 
 **It's not. It never is.**
 
-Your stress pattern isn't protection — it's the thing that's breaking you. And the first step to stopping it is recognizing the moment you slip into it.
+Your stress pattern isn't protection: it's the thing that's breaking you. And the first step to stopping it is recognizing the moment you slip into it.
 
 **Which one just called you out?**
 

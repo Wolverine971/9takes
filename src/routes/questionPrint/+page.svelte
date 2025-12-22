@@ -268,7 +268,16 @@
 							<rect x="29" y="29" width="16" height="16" fill="#cc9900" />
 						</svg>
 						<svg width="120" height="30" viewBox="0 0 120 30">
-							<text x="10" y="22" font-family="Arial" font-size="24" font-weight="bold" fill="#333">9takes</text>
+							<text
+								x="10"
+								y="22"
+								font-family="Noticia Text"
+								font-size="24"
+								font-weight="bold"
+								fill="#333"
+							>
+								9takes
+							</text>
 						</svg>
 					</div>
 					

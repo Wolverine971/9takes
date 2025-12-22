@@ -14,8 +14,8 @@ type: ['movieStar']
 person: 'Kristen-Bell'
 suggestions: ['Jennifer-Garner', 'Margot-Robbie', 'Tom-Holland', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Kristen_Bell'
-twitter: 'https://twitter.com/KristenBell'
-instagram: 'https://www.instagram.com/kristenanniebell'
+twitter: 'KristenBell'
+instagram: 'kristenanniebell'
 tiktok: ''
 path: src/blog/people/drafts/Kristen-Bell.md
 ---

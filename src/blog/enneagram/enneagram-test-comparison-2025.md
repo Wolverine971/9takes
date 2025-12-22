@@ -4,7 +4,7 @@ description: "Most Enneagram tests are garbage—too short, outdated, or designe
 author: 'DJ Wayne'
 date: '2025-08-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-test-comparison-2025'
-lastmod: '2025-12-09'
+lastmod: '2025-12-21'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
@@ -25,6 +25,7 @@ Keyword Strategy:
 
 <script>
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <QuickAnswer question="What is the best free Enneagram test?">
@@ -38,6 +39,10 @@ The **Truity Enneagram Test** (free, ~10 min) is a solid free option with over 1
 | **RHETI**             | $12  | 40 min | ⭐⭐⭐⭐⭐ | Serious seekers  |
 | **Truity**            | Free | 10 min | ⭐⭐⭐⭐   | Quick & accurate |
 | **Eclectic Energies** | Free | 15 min | ⭐⭐⭐     | Second opinion   |
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'overthinking by type 🧠', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'ADHD & Enneagram 🧩', link: '/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'}, {name: 'types in relationships 💑', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'mental health guide 🧠', link: '/enneagram-corner/enneagram-and-mental-illness'} ]} />
+</div>
 
 <p class="firstLetter">You're about to spend 20-40 minutes of your life taking a personality test. It better be the right one.</p>
 
@@ -690,37 +695,94 @@ Remember: The Enneagram isn't about getting a number assigned to you. It's about
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Best Free Enneagram Test (2025): Which One Actually Works?",
-  "description": "Most Enneagram tests are garbage—too short, outdated, or designed to sell you something. Here's an honest comparison of the best free and paid tests, ranked by accuracy and value.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
-  },
-  "datePublished": "2025-08-16",
-  "dateModified": "2025-12-09",
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Free Enneagram Test (2025): Which One Actually Works?",
+      "description": "Most Enneagram tests are garbage—too short, outdated, or designed to sell you something. Here's an honest comparison of the best free and paid tests, ranked by accuracy and value.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne"
+      },
+      "datePublished": "2025-08-16",
+      "dateModified": "2025-12-21",
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-test-comparison-2025"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://9takes.com/blogs/enneagram-inspiration-docs.webp",
+        "width": 1200,
+        "height": 630
+      },
+      "articleBody": "Most Enneagram tests online are garbage—too short, outdated, or designed to sell you something. This comprehensive review analyzes the best Enneagram tests for 2025, covering what makes each test effective and who it's best suited for.",
+      "wordCount": 2847,
+      "keywords": "enneagram test, best enneagram test, free enneagram test, accurate enneagram test, enneagram test with wings, enneagram personality test",
+      "articleSection": "Personality Assessment",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I be two Enneagram types?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. You have one core type that doesn't change. However, you can have strong wings (the numbers on either side), access other types in growth/stress, relate to multiple types' behaviors, or be mistyped initially."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do I get different results on different Enneagram tests?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common reasons include: tests measure different aspects, your self-awareness is evolving, you're answering aspirationally vs. honestly, or you're between two types with similar behaviors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are free Enneagram tests accurate enough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most people, yes. A good free test like Eclectic Energies can be 85% accurate. Paid tests add more nuance, professional validation, detailed reports, and instinctual variants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my Enneagram type change?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Your core type is fixed by age 4-5. What changes: your health level within your type, your self-awareness, your behavior flexibility, and your access to other types' qualities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I relate to all the Enneagram types?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This usually means: you're a Type 9 (they see all perspectives), you're very healthy and integrated, you're reading behaviors not motivations, or you need a better test."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Enneagram scientifically valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's complicated. The Enneagram lacks peer-reviewed origin studies but has growing empirical support (especially iEQ9), shows high inter-rater reliability, demonstrates predictive validity, and is used by Stanford Business School, CIA, and Fortune 500 companies."
+          }
+        }
+      ]
     }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/enneagram-test-comparison-2025"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/enneagram-inspiration-docs.webp",
-    "width": 1200,
-    "height": 630
-  },
-  "articleBody": "Most Enneagram tests online are garbage—too short, outdated, or designed to sell you something. This comprehensive review analyzes the best Enneagram tests for 2025, covering what makes each test effective and who it's best suited for.",
-  "wordCount": 2847,
-  "keywords": "enneagram test, best enneagram test, free enneagram test, accurate enneagram test, enneagram test with wings, enneagram personality test",
-  "articleSection": "Personality Assessment",
-  "inLanguage": "en-US"
+  ]
 }
 </script>

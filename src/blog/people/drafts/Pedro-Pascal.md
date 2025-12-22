@@ -123,7 +123,7 @@ In 2021, Pedro's younger sister Lux came out as transgender in a Chilean magazin
 
 But his support started long before that public moment. Lux has said Pedro "was one of the first people to gift me the tools that started shaping my identity." When she came out to him over FaceTime, his response was simply: "Perfect, this is incredible."
 
-This protective instinct—especially toward those he perceives as vulnerable—is quintessential Type 6. Pascal didn't just accept his sister. He became one of Hollywood's most visible advocates for trans rights, using his platform to raise funds for Trans Lifeline and sign open letters supporting LGBTQ+ youth.
+This protective instinct—especially toward those he perceives as vulnerable—is classic Type 6. Pascal didn't just accept his sister. He became one of Hollywood's most visible advocates for trans rights, using his platform to raise funds for Trans Lifeline and sign open letters supporting LGBTQ+ youth.
 
 ## Major Accomplishments and Type 6 Patterns
 

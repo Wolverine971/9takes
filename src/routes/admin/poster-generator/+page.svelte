@@ -1386,22 +1386,10 @@
 	}
 
 	/* Ensure container properly handles poster dimensions */
-	:global(.font-serif) {
-		font-family: 'Georgia', serif;
-	}
-
-	:global(.font-sans) {
-		font-family:
-			system-ui,
-			-apple-system,
-			BlinkMacSystemFont,
-			'Segoe UI',
-			Roboto,
-			sans-serif;
-	}
-
+	:global(.font-serif),
+	:global(.font-sans),
 	:global(.font-mono) {
-		font-family: 'Courier New', monospace;
+		font-family: var(--font-family);
 	}
 
 	/* Improved range input styling */

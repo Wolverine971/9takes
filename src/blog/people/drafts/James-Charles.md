@@ -14,9 +14,9 @@ type: ['creator']
 person: 'James-Charles'
 suggestions: ['Kim-Kardashian', 'Kylie-Jenner', 'Taylor-Swift', 'Doja-Cat']
 wikipedia: 'https://en.wikipedia.org/wiki/James_Charles'
-twitter: 'https://twitter.com/jamescharles'
-instagram: 'https://www.instagram.com/jamescharles'
-tiktok: 'https://www.tiktok.com/@jamescharles'
+twitter: 'jamescharles'
+instagram: 'jamescharles'
+tiktok: 'jamescharles'
 path: src/blog/people/drafts/James-Charles.md
 ---
 

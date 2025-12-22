@@ -9,9 +9,9 @@ path: docs/templates/content-creation-checklist.md
 
 # Content Creation Checklist
 
-**Post Title:** ******\_\_\_******
-**Target URL:** ******\_\_\_******
-**Target Publish Date:** ******\_\_\_******
+**Post Title:** **\*\***\_\_\_**\*\***
+**Target URL:** **\*\***\_\_\_**\*\***
+**Target Publish Date:** **\*\***\_\_\_**\*\***
 **Word Count Target:** 3,500-4,500 words
 
 ---
@@ -20,8 +20,8 @@ path: docs/templates/content-creation-checklist.md
 
 ### Keyword Research
 
-- [ ] Primary keyword identified: ******\_\_\_******
-- [ ] Search volume checked: ******\_\_\_******
+- [ ] Primary keyword identified: **\*\***\_\_\_**\*\***
+- [ ] Search volume checked: **\*\***\_\_\_**\*\***
 - [ ] ## Related keywords documented (10+):
   -
   -
@@ -242,11 +242,11 @@ path: docs/templates/content-creation-checklist.md
 
 Add links TO this post from:
 
-- [ ] Power page 1: ******\_\_\_******
-- [ ] Power page 2: ******\_\_\_******
-- [ ] Related post 1: ******\_\_\_******
-- [ ] Related post 2: ******\_\_\_******
-- [ ] Related post 3: ******\_\_\_******
+- [ ] Power page 1: **\*\***\_\_\_**\*\***
+- [ ] Power page 2: **\*\***\_\_\_**\*\***
+- [ ] Related post 1: **\*\***\_\_\_**\*\***
+- [ ] Related post 2: **\*\***\_\_\_**\*\***
+- [ ] Related post 3: **\*\***\_\_\_**\*\***
 
 ### MarqueeHorizontal Updates
 

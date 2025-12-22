@@ -34,7 +34,7 @@ The answer lies in understanding the personality type that drives her every move
 <li><b>Image-Consciousness:</b> Hailey's constant awareness of public perception—from curated Instagram feeds to media training—reflects the Type 3's deep need to be seen favorably. She's admitted that "the negativity screams so loud" when she's online.</li>
 <li><b>Achievement Through Reinvention:</b> From 12 years of ballet to modeling to founding Rhode, Hailey has continuously reinvented herself through measurable accomplishments. Each pivot showcases the Type 3's adaptability and drive to succeed.</li>
 <li><b>The Worthiness Wound:</b> Her 2019 confession—"I'm insecure, I'm fragile, I'm hurting"—reveals the core Type 3 struggle: feeling that love and value must be earned through achievement rather than simply existing.</li>
-<li><b>Strategic Success:</b> Building Rhode wasn't luck. Hailey assembled an expert team, created authentic product connections, and generated 700,000 sign-ups before launch. This calculated approach to success is quintessential Type 3.</li>
+<li><b>Strategic Success:</b> Building Rhode wasn't luck. Hailey assembled an expert team, created authentic product connections, and generated 700,000 sign-ups before launch. This calculated approach to success is classic Type 3.</li>
 </ul>
 </div>
 </details>

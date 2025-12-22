@@ -287,10 +287,10 @@ Optimized Pages Performance:
 
 ## Next Month Preview
 
-**Focus:** ******\_\_\_******
-**Posts planned:** **_
-**Pages to optimize:** _**
-**Key initiative:** ******\_\_\_******
+**Focus:** **\*\***\_\_\_**\*\***
+**Posts planned:** **\_
+**Pages to optimize:** \_**
+**Key initiative:** **\*\***\_\_\_**\*\***
 
 ---
 

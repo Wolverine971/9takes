@@ -16,6 +16,12 @@
 	 * - 'subtle': Light gray with accent
 	 */
 	export let variant: 'default' | 'subtle' = 'default';
+
+	/**
+	 * Optional children content (used when dynamically mounted from Supabase content)
+	 * Falls back to slot content when not provided
+	 */
+	export let children: string = '';
 </script>
 
 <aside
@@ -47,7 +53,11 @@
 	{/if}
 
 	<div class="quick-answer__content" itemprop="text">
-		<slot />
+		{#if children}
+			{@html children}
+		{:else}
+			<slot />
+		{/if}
 	</div>
 </aside>
 

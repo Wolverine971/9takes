@@ -240,7 +240,7 @@
 		padding: 0.125rem 0.375rem;
 		border-radius: 3px;
 		font-size: 0.85em;
-		font-family: monospace;
+		font-family: var(--font-mono);
 	}
 
 	.resource-content :global(pre) {

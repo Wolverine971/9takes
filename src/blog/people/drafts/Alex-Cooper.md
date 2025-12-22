@@ -89,7 +89,7 @@ The podcast exploded almost overnight – growing from 12,000 to 2 million downl
 
 The early "Call Her Daddy" episodes were raw, raunchy, and revolutionary. Alex and Sofia flipped the script on sex talk, giving women permission to be just as bold and unapologetic as men had always been. The infamous "Gluck Gluck 9000" episode became the stuff of legend.
 
-This willingness to venture where others wouldn't dare is quintessential Type 7 behavior – pushing boundaries while making it seem effortless and fun.
+This willingness to venture where others wouldn't dare is classic Type 7 behavior – pushing boundaries while making it seem effortless and fun.
 
 When the infamous "Daddy Divorce" happened in 2020 (with Sofia departing amid contract disputes), Alex showcased another Type 7 superpower: adaptability. Rather than crumbling, she pivoted, taking full creative control and evolving the show beyond its initial formula.
 

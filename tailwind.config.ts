@@ -1,9 +1,9 @@
 // tailwind.config.ts
 import type { Config } from 'tailwindcss';
 
-const fontSans = ['"Space Grotesk"', 'Inter', 'system-ui', 'sans-serif'];
-const fontSerif = ['"Noticia Text"', 'Georgia', 'serif'];
-const fontMono = ['"Fira Mono"', 'monospace'];
+const fontSans = ['"Noticia Text"', 'serif'];
+const fontSerif = ['"Noticia Text"', 'serif'];
+const fontMono = ['"Noticia Text"', 'serif'];
 
 export default {
 	content: [

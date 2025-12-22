@@ -79,7 +79,9 @@
 			"WebFetch(domain:www.distractify.com)",
 			"WebFetch(domain:www.hercampus.com)",
 			"WebFetch(domain:fourthwall.com)",
-			"WebFetch(domain:www.famousbirthdays.com)"
+			"WebFetch(domain:www.famousbirthdays.com)",
+			"Bash(for file in people/drafts/Donald-Trump.md people/drafts/Alexandria-Ocasio-Cortez.md enneagram/enneagram-type-2.md pop-culture/kardashian-family-enneagram-analysis.md people/drafts/Zendaya.md people/drafts/Sam-Altman.md people/drafts/Matthew-McConaughey.md people/drafts/Gwyneth-Paltrow.md people/drafts/Doja-Cat.md enneagram/how-each-enneagram-type-self-sabotages-success.md)",
+			"Bash(do)"
 		],
 		"deny": [],
 		"ask": [],

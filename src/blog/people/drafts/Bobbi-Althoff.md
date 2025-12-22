@@ -24,20 +24,20 @@ path: src/blog/people/drafts/Bobbi-Althoff.md
 
 <p class="firstLetter">The woman who made <a href="/personality-analysis/Drake">Drake</a> lie awkwardly in bed while she asked him if he prefers cats or dogs has a secret most viewers never see.</p>
 
-Behind the deadpan stares, the uncomfortable silences, and the viral interview clips that launched her into the stratosphere—Bobbi Althoff is running a masterclass in transformation. She took everything she hated about herself and turned it into a multimillion-dollar brand.
+Behind the deadpan stares, the uncomfortable silences, and the viral interview clips that launched her into the stratosphere, Bobbi Althoff is running a masterclass in transformation. She took everything she hated about herself and turned it into a multimillion-dollar brand.
 
 But this isn't just a story about internet fame. It's about a girl from Perris, California who tried to end her life at 14, who "hated who she was as a person," and who found a way to make her deepest insecurities into something people can't look away from.
 
-Understanding Bobbi Althoff means understanding why her "awkward" persona isn't an act—it's alchemy.
+Understanding Bobbi Althoff means understanding why her "awkward" persona isn't an act. It's alchemy.
 
 <details>
 <summary class="accordion">TL;DR: Why Bobbi Althoff is an Enneagram Type 4</summary>
 <div class="panel">
 <ul>
-<li><b>The Core Wound:</b> "I hated who I was as a person" and "felt uncomfortable in my own skin"—classic Type 4 feelings of fundamental defectiveness that began in childhood.</li>
-<li><b>Transforming Pain into Art:</b> Her deadpan persona embodies her "biggest insecurities without shame"—taking what made her feel broken and making it her signature. This is quintessential Type 4 creative alchemy.</li>
-<li><b>Deep Emotional Intensity:</b> Depression since childhood, a suicide attempt at 14, postpartum depression—Type 4s experience emotions at profound depths.</li>
-<li><b>Feeling Fundamentally Different:</b> "I didn't fit in" and felt she'd never "find my place in this world"—the Type 4's lifelong sense of being unlike everyone else.</li>
+<li><b>The Core Wound:</b> "I hated who I was as a person" and "felt uncomfortable in my own skin", classic Type 4 feelings of fundamental defectiveness that began in childhood.</li>
+<li><b>Transforming Pain into Art:</b> Her deadpan persona embodies her "biggest insecurities without shame", taking what made her feel broken and making it her signature. This is classic Type 4 creative alchemy.</li>
+<li><b>Deep Emotional Intensity:</b> Depression since childhood, a suicide attempt at 14, postpartum depression, Type 4s experience emotions at profound depths.</li>
+<li><b>Feeling Fundamentally Different:</b> "I didn't fit in" and felt she'd never "find my place in this world": the Type 4's lifelong sense of being unlike everyone else.</li>
 <li><b>The 5 Wing:</b> Her withdrawn nature, debilitating social anxiety, dry intellectual humor, and observer-like quality in interviews point to a 4w5 "Bohemian" subtype.</li>
 </ul>
 </div>
@@ -54,19 +54,19 @@ Bobbi Althoff embodies the [Enneagram Type 4](/enneagram-corner/enneagram-type-4
 - **Core Motivation**: To find herself and her significance, to create an identity that expresses her unique inner experience
 - **Basic Fear**: Having no identity or personal significance; being fundamentally flawed
 - **Key Traits**: Emotionally intense, introspective, creative, feeling different from others
-- **Defense Mechanism**: Introjection—taking in criticism and making it part of her identity, then transforming it
+- **Defense Mechanism**: Introjection, taking in criticism and making it part of her identity, then transforming it
 
-What makes Bobbi's Type 4 expression fascinating is her **5 wing**. The 4w5 is called "The Bohemian" or "The Free Spirit"—more withdrawn, intellectual, and observational than the more emotionally expressive 4w3. This explains her dry, cerebral humor rather than dramatic flair, and her tendency to create distance in interviews rather than emotional intimacy.
+What makes Bobbi's Type 4 expression fascinating is her **5 wing**. The 4w5 is called "The Bohemian" or "The Free Spirit", more withdrawn, intellectual, and observational than the more emotionally expressive 4w3. This explains her dry, cerebral humor rather than dramatic flair, and her tendency to create distance in interviews rather than emotional intimacy.
 
 ## The Making of a Deadpan Queen: Bobbi's Turbulent Childhood
 
 ### Financial Instability and Family Chaos
 
-Bobbi Heck was born in Moreno Valley and grew up in Perris, California—not exactly Hollywood adjacent. She was the second youngest of six children, with a father who worked as a handyman and a family that struggled financially.
+Bobbi Heck was born in Moreno Valley and grew up in Perris, California. Not exactly Hollywood adjacent. She was the second youngest of six children, with a father who worked as a handyman and a family that struggled financially.
 
 Then 2008 hit.
 
-The recession devastated her family. The bank constantly threatened to take their house. Her parents, who she describes as "very toxic together," divorced during this period—but in a twist that captures the chaos of her childhood, they continued living in the same house until she was 14.
+The recession devastated her family. The bank constantly threatened to take their house. Her parents, who she describes as "very toxic together," divorced during this period, but in a twist that captures the chaos of her childhood, they continued living in the same house until she was 14.
 
 Imagine being a teenager trying to figure out who you are while your divorced parents share walls, while the threat of losing your home looms constantly, while five siblings compete for resources and attention.
 
@@ -90,13 +90,13 @@ What drove a 14-year-old to such despair?
 
 Bobbi has described feeling uncomfortable "in every room she was in." She didn't embrace herself at all. During her freshman year of high school, she became convinced she would never fit in or "find her place in this world."
 
-For Type 4s, this sense of being an outsider isn't just social awkwardness—it's an existential condition. They feel their inner experience is so different from everyone else's that true connection seems impossible.
+For Type 4s, this sense of being an outsider isn't just social awkwardness. It's an existential condition. They feel their inner experience is so different from everyone else's that true connection seems impossible.
 
 ## Rise to Fame: From Nanny to Viral Sensation
 
 ### The Pre-Fame Years
 
-After high school, Bobbi didn't pursue college. She worked as a nanny, modeling on the side, trying to figure out her path. At 21, she met Cory Althoff on Bumble—a programmer nine years her senior who worked as a senior vice president at CompTIA.
+After high school, Bobbi didn't pursue college. She worked as a nanny, modeling on the side, trying to figure out her path. At 21, she met Cory Althoff on Bumble, a programmer nine years her senior who worked as a senior vice president at CompTIA.
 
 They married in January 2020 and had two daughters: Luca and Isla.
 
@@ -104,7 +104,7 @@ But becoming a stay-at-home mom didn't heal her. As she later revealed, she was 
 
 ### The TikTok Pivot
 
-In 2021, Bobbi started posting on TikTok. Her first video—dancing with a banana during her pregnancy—hit nearly 2 million views.
+In 2021, Bobbi started posting on TikTok. Her first video, dancing with a banana during her pregnancy, hit nearly 2 million views.
 
 But here's what changed everything: her engagement video went viral because she seemed _awkward_. Then her wedding content went viral for the same reason.
 
@@ -112,7 +112,7 @@ Most people would try to course-correct. Not Bobbi.
 
 "So I was like, you know what, let me lean into this weird self that I am," she recalled on the Women On Top podcast.
 
-This is Type 4 genius at work. Instead of hiding what made her different, she amplified it. Instead of performing the polished influencer persona everyone else was doing, she did the opposite—and made that her brand.
+This is Type 4 genius at work. Instead of hiding what made her different, she amplified it. Instead of performing the polished influencer persona everyone else was doing, she did the opposite. And made that her brand.
 
 ### The Really Good Podcast
 
@@ -130,7 +130,7 @@ The truth? This wasn't imitation. It was finally having permission to be the per
 
 When <a href="/personality-analysis/Drake">Drake</a> appeared on The Really Good Podcast in July 2023, lying in bed beside Bobbi while she asked mundane questions in her trademark deadpan, the internet lost its mind.
 
-The contrast was electric. Here was one of the world's biggest rappers—charming, confident, used to controlling every narrative—reduced to nervous laughter by a relatively unknown podcaster who seemed genuinely unimpressed by his presence.
+The contrast was electric. Here was one of the world's biggest rappers, charming, confident, used to controlling every narrative, reduced to nervous laughter by a relatively unknown podcaster who seemed genuinely unimpressed by his presence.
 
 Clips went viral. Followers skyrocketed. Bobbi went from TikTok mom to cultural phenomenon overnight.
 
@@ -140,7 +140,7 @@ Then, one month after the interview garnered millions of views, it disappeared.
 
 Both Bobbi and Drake unfollowed each other. Rumors exploded. She was seen at his concert looking unimpressed. Then she was reportedly kicked out of his SXSW after-party by security because she showed up uninvited.
 
-The speculation turned dark. Because Bobbi's marriage was ending around the same time (Cory filed for divorce in February 2024, listing their separation date as July 4, 2023—just before the Drake interview aired), people assumed the worst.
+The speculation turned dark. Because Bobbi's marriage was ending around the same time (Cory filed for divorce in February 2024, listing their separation date as July 4, 2023. Just before the Drake interview aired), people assumed the worst.
 
 Affair rumors swirled despite zero evidence. Bobbi strongly denied sleeping with Drake.
 
@@ -166,11 +166,11 @@ This is where Bobbi's psychology becomes truly fascinating.
 
 In interviews, she's described her podcast persona as "an amalgamation of her biggest insecurities, just without shame."
 
-Let that sink in. She took everything she hated about herself—the awkwardness, the discomfort, the feeling of not fitting in—and created a character who _owns_ those traits. Who isn't apologetic about them. Who makes celebrities uncomfortable with the same energy that once made _her_ feel like an outsider.
+Let that sink in. She took everything she hated about herself: the awkwardness, the discomfort, the feeling of not fitting in. And created a character who _owns_ those traits. Who isn't apologetic about them. Who makes celebrities uncomfortable with the same energy that once made _her_ feel like an outsider.
 
 "Podcast Bobbi owns her discomfort," she explains. "She says what she thinks and she doesn't care about what people think about her. She leans into the things that people think are stupid about her."
 
-This is Type 4 alchemy: transforming pain into something meaningful, creating art from wounds—the same creative transformation we see in artists like [Billie Eilish](/personality-analysis/Billie-Eilish) and [Lana Del Rey](/personality-analysis/Lana-Del-Rey).
+This is Type 4 alchemy: transforming pain into something meaningful, creating art from wounds: the same creative transformation we see in artists like [Billie Eilish](/personality-analysis/Billie-Eilish) and [Lana Del Rey](/personality-analysis/Lana-Del-Rey).
 
 ### The Real Bobbi vs. The Character
 
@@ -180,7 +180,7 @@ There's a significant gap between persona and person.
 
 In real life, Bobbi describes herself as a people pleaser. She's nervous on Zoom calls before interviews. She has debilitating social anxiety. She stopped posting as much because the hate comments were "so mean."
 
-The character is everything she wished she could be—confident in her differentness—while the real Bobbi still struggles with the same insecurities that haunted her childhood.
+The character is everything she wished she could be, confident in her differentness, while the real Bobbi still struggles with the same insecurities that haunted her childhood.
 
 ## The Psychological Complexity of Type 4w5
 
@@ -192,15 +192,15 @@ Bobbi's Type 4 personality is flavored by a strong 5 wing, creating the 4w5 "Boh
 
 **Dry, Intellectual Humor**: Her comedy isn't emotionally expressive like a 4w3 might be. It's cerebral, deadpan, almost clinical. The 5 wing brings intellectual distance.
 
-**Observer Quality**: In interviews, she creates space and watches what happens. She's not trying to connect emotionally—she's studying reactions from a remove.
+**Observer Quality**: In interviews, she creates space and watches what happens. She's not trying to connect emotionally, she's studying reactions from a remove.
 
 **Reserved Emotional Expression**: Even when she's emotional (like her tearful response to hate comments), she's more contained than dramatic. The 5 wing tempers the 4's expressiveness.
 
 ### Stress and Growth Patterns
 
-**Under Stress (Goes to [Type 2](/enneagram-corner/enneagram-type-2))**: Type 4s move toward Type 2 behaviors when stressed. Bobbi admits she's a people pleaser. The hate comments affect her deeply because she wants to be liked. Her children became her reason for living—an intense attachment characteristic of the 4-to-2 movement.
+**Under Stress (Goes to [Type 2](/enneagram-corner/enneagram-type-2))**: Type 4s move toward Type 2 behaviors when stressed. Bobbi admits she's a people pleaser. The hate comments affect her deeply because she wants to be liked. Her children became her reason for living, an intense attachment characteristic of the 4-to-2 movement.
 
-**In Growth (Moves to [Type 1](/enneagram-corner/enneagram-type-1))**: When healthy, Type 4s access Type 1's discipline and principle. Bobbi's work ethic—maintaining multiple podcasts, a tour, content creation—shows this integration. Her honesty about mental health, even when it's uncomfortable, reflects Type 1's commitment to truth.
+**In Growth (Moves to [Type 1](/enneagram-corner/enneagram-type-1))**: When healthy, Type 4s access Type 1's discipline and principle. Bobbi's work ethic, maintaining multiple podcasts, a tour, content creation, shows this integration. Her honesty about mental health, even when it's uncomfortable, reflects Type 1's commitment to truth.
 
 ## The Divorce and Its Aftermath
 
@@ -212,13 +212,13 @@ She met Cory at 21 when he was 30. They married quickly. She became a mom quickl
 
 Sources told TMZ that her fame "didn't jibe with Cory's desire to live a more normal, low-key kinda life." But Bobbi offered a more nuanced explanation: she'd read that divorce has the least impact on children before age three. Their youngest was three. "If we are going to do this, it needs to be now because our kids won't know."
 
-The divorce was finalized in August 2024. Peaceful by celebrity standards—joint custody, no spousal support, their own finances.
+The divorce was finalized in August 2024. Peaceful by celebrity standards, joint custody, no spousal support, their own finances.
 
 ### The Online Backlash
 
 What wasn't peaceful was the internet's response.
 
-After Bobbi posted a video with her new boyfriend, Ty Hawkins, in late 2025, the comments section erupted. Men accused her of being "ran through"—having too many sexual partners post-divorce.
+After Bobbi posted a video with her new boyfriend, Ty Hawkins, in late 2025, the comments section erupted. Men accused her of being "ran through", having too many sexual partners post-divorce.
 
 In a tearful four-minute TikTok, Bobbi confronted the hate:
 
@@ -248,7 +248,7 @@ Her children have become her anchor.
 
 "My kids are definitely the reason why when I have those thoughts, I'm like, 'Well, you can't do that to them.'"
 
-This isn't just motherhood as motivation—it's a Type 4 finding meaning outside herself. The 4's journey toward health often involves connecting their unique gifts to something larger than their own emotional experience.
+This isn't just motherhood as motivation. It's a Type 4 finding meaning outside herself. The 4's journey toward health often involves connecting their unique gifts to something larger than their own emotional experience.
 
 "My kids are my purpose, and if I have to get a job at freakin' McDonald's after all of this, that's what I'll do. My kids need a mom to provide for them, and I will."
 
@@ -256,17 +256,17 @@ This isn't just motherhood as motivation—it's a Type 4 finding meaning outside
 
 ### The Industry Plant Accusations
 
-Because of her rapid rise and high-profile guests, Bobbi has been repeatedly accused of being an "industry plant"—someone with hidden connections who faked their grassroots success.
+Because of her rapid rise and high-profile guests, Bobbi has been repeatedly accused of being an "industry plant", someone with hidden connections who faked their grassroots success.
 
 The allegations intensified after the Drake interview. How did a relatively unknown mom podcaster get one of the world's biggest rappers in bed?
 
 Bobbi's response has been consistent: "I work hard and it didn't come easy." She secured guests on her own. She doesn't have industry parents or hidden backers.
 
-The nepo baby accusations particularly sting because they dismiss the years of struggle before fame—the nannying, the failed attempts, the isolation.
+The nepo baby accusations particularly sting because they dismiss the years of struggle before fame: the nannying, the failed attempts, the isolation.
 
 ### The Scarlett Johansson Clip
 
-In 2024, a clip of Bobbi interviewing Scarlett Johansson went viral—but not in a good way. Viewers felt Bobbi's deadpan routine crossed a line, making the interaction genuinely uncomfortable rather than comedically awkward.
+In 2024, a clip of Bobbi interviewing Scarlett Johansson went viral, but not in a good way. Viewers felt Bobbi's deadpan routine crossed a line, making the interaction genuinely uncomfortable rather than comedically awkward.
 
 The debate crystallized ongoing criticism: Is Bobbi's schtick entertaining, or just rude? Is she in on a joke, or making celebrities the butt of one?
 
@@ -274,13 +274,13 @@ The debate crystallized ongoing criticism: Is Bobbi's schtick entertaining, or j
 
 In 2024, Bobbi embarked on a live podcast tour with comedian Funny Marco called "Open Thoughts vs. Really Good Podcast." But Marco canceled the remaining dates, citing concerns about the show's format and audience engagement.
 
-Marco implied that Bobbi's anxiety was affecting the live performances. Fans noted that stage presence requires different skills than intimate podcast recordings—and Bobbi's withdrawn 4w5 energy may not translate well to large venues.
+Marco implied that Bobbi's anxiety was affecting the live performances. Fans noted that stage presence requires different skills than intimate podcast recordings. And Bobbi's withdrawn 4w5 energy may not translate well to large venues.
 
 ## The Drake Partnership Redux
 
 ### Not This Again (2025)
 
-After years of speculation about their "feud," Bobbi and Drake's reconciliation came full circle when she announced "Not This Again"—a new podcast with Drake as a recurring presence.
+After years of speculation about their "feud," Bobbi and Drake's reconciliation came full circle when she announced "Not This Again", a new podcast with Drake as a recurring presence.
 
 The first episode, released September 2025, addressed their history directly. Drake discussed everything from his fake abs rumors to his beef with Rick Ross, but the real headline was the restoration of their friendship.
 
@@ -290,11 +290,11 @@ For Bobbi, this represents growth. The version of her that lashed out at Drake, 
 
 Bobbi Althoff's life makes more sense when viewed through the Enneagram Type 4 framework:
 
-**The Origin**: A chaotic childhood with divorced parents living together, financial instability, and feeling fundamentally different from everyone around her. This crystallized at 14 in a suicide attempt—the ultimate expression of "I don't belong here."
+**The Origin**: A chaotic childhood with divorced parents living together, financial instability, and feeling fundamentally different from everyone around her. This crystallized at 14 in a suicide attempt: the ultimate expression of "I don't belong here."
 
 **The Wound**: "I hated who I was as a person." Type 4s feel something is inherently wrong with them that makes them different from everyone else.
 
-**The Transformation**: Instead of hiding her awkwardness, she amplified it. Instead of performing normalcy, she made her differentness the product. This is Type 4 alchemy—turning pain into something meaningful.
+**The Transformation**: Instead of hiding her awkwardness, she amplified it. Instead of performing normalcy, she made her differentness the product. This is Type 4 alchemy, turning pain into something meaningful.
 
 **The Ongoing Struggle**: Depression, anxiety, sensitivity to criticism, the gap between persona and person. The wound doesn't fully heal; it gets channeled differently.
 
@@ -302,12 +302,12 @@ Bobbi Althoff's life makes more sense when viewed through the Enneagram Type 4 f
 
 ## Conclusion
 
-Bobbi Althoff isn't just a podcaster who interviews celebrities awkwardly. She's a case study in human transformation—in how the things that once made us want to disappear can become the things that make us impossible to ignore.
+Bobbi Althoff isn't just a podcaster who interviews celebrities awkwardly. She's a case study in human transformation, in how the things that once made us want to disappear can become the things that make us impossible to ignore.
 
 The girl who tried to end her life at 14 because she "hated who she was" found a way to build an empire on that very self. Not by fixing what was "wrong" with her, but by reframing it entirely.
 
 That's the Type 4 gift: the belief that our wounds are not obstacles to meaning but the raw material for it.
 
-The next time you watch Bobbi sit in uncomfortable silence while a celebrity squirms, remember: you're not just seeing a bit. You're seeing someone who finally found a way to make the discomfort she's always felt into something valuable—something that, for millions of viewers, is exactly what they needed to see.
+The next time you watch Bobbi sit in uncomfortable silence while a celebrity squirms, remember: you're not just seeing a bit. You're seeing someone who finally found a way to make the discomfort she's always felt into something valuable, something that, for millions of viewers, is exactly what they needed to see.
 
 What might happen if you stopped trying to fix what makes you different?

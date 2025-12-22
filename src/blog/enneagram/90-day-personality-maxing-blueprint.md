@@ -37,13 +37,13 @@ And you don't understand your personality. Not yet.
 
 Not because you're not smart. Because nobody ever taught you _how_ to see it clearly.
 
-This guide changes that. Over 90 days, you'll build genuine self-awareness using a specific method: First understand _what_ your personality actually is. Then discover _how_ you're similar and different from others. Then—and only then—work on becoming the best version of who you already are.
+This guide changes that. Over 90 days, you'll build genuine self-awareness using a specific method: First understand _what_ your personality actually is. Then discover _how_ you're similar and different from others. Only then can you work on becoming the best version of who you already are.
 
 Think about it this way: You go to the gym to build physical strength. But what's the gym for your mind?
 
 **Perspective-taking.**
 
-When you genuinely try to understand how someone else sees the world, your brain has to work. It's mental effort. It's uncomfortable. And that effort creates growth—just like lifting weights.
+When you genuinely try to understand how someone else sees the world, your brain has to work. It's mental effort. It's uncomfortable. And that effort creates growth, just like lifting weights.
 
 This guide gives you the exercises, the framework, and the reps.
 
@@ -61,7 +61,7 @@ Here's the simplest definition that actually matters:
 
 That's it. Not your zodiac sign. Not your Myers-Briggs letters. Not some abstract trait score.
 
-Your personality is the pattern of how you think, feel, and act—and how those patterns compare to the people around you.
+Your personality is the pattern of how you think, feel, and act, and how those patterns compare to the people around you.
 
 ### Why This Definition Changes Everything
 
@@ -81,13 +81,13 @@ This matters because it means:
 
 1. **You can only understand yourself by understanding others**
 2. **Your strengths are relative to context**
-3. **Growth isn't about changing—it's about expanding your range**
+3. **Growth isn't about changing; it's about expanding your range**
 
 ---
 
 ## Part 2: The First Exercise (Do This Before Reading Further)
 
-Here's your first assignment. Seriously—stop reading and do this.
+Here's your first assignment. Seriously, stop reading and do this.
 
 ### Exercise 1: The Similarity/Difference Map
 
@@ -104,7 +104,7 @@ Don't overthink it. Write what comes to mind.
 
 **Step B: Zoom Out to Generalities**
 
-Now think about people in general—not one specific person.
+Now think about people in general. Not one specific person.
 
 1. **How am I similar to most people?** (What do you share with the majority?)
 2. **How am I different from most people?** (What sets you apart?)
@@ -119,7 +119,7 @@ Keep this recording. You'll watch it again in 30 days.
 
 ### Exercise 2: Get an Outside Perspective
 
-This is where it gets uncomfortable—and useful.
+This is where it gets uncomfortable, and useful.
 
 Ask someone who knows you to answer the same questions about _themselves_:
 
@@ -143,25 +143,25 @@ These gaps? That's where growth lives.
 
 ### The Johari Window: A Framework for Self-Discovery
 
-Psychologists Joseph Luft and Harrington Ingham created a model for this exact phenomenon. They called it the **Johari Window**—and it reveals four quadrants of self-knowledge:
+Psychologists Joseph Luft and Harrington Ingham created a model for this exact phenomenon. They called it the **Johari Window**, which reveals four quadrants of self-knowledge:
 
-|                        | **Known to You**                               | **Unknown to You**                               |
-| ---------------------- | ---------------------------------------------- | ------------------------------------------------ |
-| **Known to Others**    | **Open Self** — Traits you and others both see | **Blind Spots** — What others see that you don't |
-| **Hidden from Others** | **Hidden Self** — What you hide from others    | **Unknown** — What neither you nor others see    |
+|                        | **Known to You**                              | **Unknown to You**                              |
+| ---------------------- | --------------------------------------------- | ----------------------------------------------- |
+| **Known to Others**    | **Open Self**: Traits you and others both see | **Blind Spots**: What others see that you don't |
+| **Hidden from Others** | **Hidden Self**: What you hide from others    | **Unknown**: What neither you nor others see    |
 
 **Why this matters for personality maxing:**
 
-- Your **Open Self** is your baseline—where you start
+- Your **Open Self** is your baseline, where you start
 - Your **Blind Spots** are revealed when others describe you differently than you describe yourself
 - Your **Hidden Self** contains the parts you're afraid to show (often related to your Enneagram stress patterns)
 - Your **Unknown** contains untapped potential that emerges through new experiences
 
 **The exercise you just did?** It's designed to shrink your blind spots.
 
-The more feedback you get from trusted others, the more accurate your self-model becomes. And accuracy is the foundation of growth—you can't optimize what you can't see.
+The more feedback you get from trusted others, the more accurate your self-model becomes. Accuracy is the foundation of growth, and you can't optimize what you can't see.
 
-> **Personality maxing isn't about becoming someone else. It's about seeing yourself clearly enough to become who you already are—just more deliberately.**
+> **Personality maxing isn't about becoming someone else. It's about seeing yourself clearly enough to become who you already are, just more deliberately.**
 
 ---
 
@@ -171,7 +171,7 @@ Now that you've started observing your patterns, let's add a framework that make
 
 The Enneagram isn't a personality quiz that tells you what you are. It's a map that helps you _see_ what you already do.
 
-> **"The Enneagram doesn't put you in a box. It shows you the box you're already in—and how to get out."**
+> **"The Enneagram doesn't put you in a box. It shows you the box you're already in, and how to get out."**
 
 If you haven't identified your type yet, read our [beginner's guide to finding your Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type). That guide walks you through:
 
@@ -181,7 +181,7 @@ If you haven't identified your type yet, read our [beginner's guide to finding y
 
 ### The Key Insight
 
-The Enneagram descriptions are generic starting points. They'll resonate partly—but not completely.
+The Enneagram descriptions are generic starting points. They'll resonate partly, but not completely.
 
 **That's intentional.**
 
@@ -209,7 +209,7 @@ The Enneagram calls this movement toward your "arrow of integration" or "securit
 
 ### What the Arrows Mean
 
-When you're at your best—relaxed, grounded, secure—you naturally access the _positive traits_ of another type.
+When you're at your best (relaxed, grounded, secure), you naturally access the _positive traits_ of another type.
 
 | Your Type | In Security, You Move Toward | What This Looks Like                              |
 | --------- | ---------------------------- | ------------------------------------------------- |
@@ -242,7 +242,7 @@ This reveals the _conditions_ that unlock your superpowers.
 
 The Enneagram tells you the category of your strengths. Your experiences tell you the _specifics_.
 
-For example, a Type 5 in security moves toward Type 8 energy—becoming more confident and action-oriented. But _how_ that shows up depends on you:
+For example, a Type 5 in security moves toward Type 8 energy, becoming more confident and action-oriented. But _how_ that shows up depends on you:
 
 - One Type 5 might become a bold public speaker
 - Another might become a decisive team leader
@@ -284,7 +284,7 @@ Example for a Type 5:
 
 > "My specific version of **deep analysis** shows up as **quickly finding the root cause of complex problems** because of **years of troubleshooting systems at work**. It's most powerful when **the team is stuck and needs clarity** but can become problematic when **I analyze instead of act, or when I dismiss others' intuitive insights.**"
 
-This is YOUR superpower—not the textbook version.
+This is YOUR superpower. Not the textbook version.
 
 ---
 
@@ -302,7 +302,7 @@ Psychologists and therapists have specific language for understanding how we bre
 
 **Triggers:** Events, situations, or interactions that activate your stress response. They're often connected to unresolved childhood experiences.
 
-**Shame triggers:** What makes you feel fundamentally flawed or unworthy. Brené Brown's research shows shame is "the fear of disconnection"—the belief that if people knew the real you, they'd reject you.
+**Shame triggers:** What makes you feel fundamentally flawed or unworthy. Brené Brown's research shows shame is "the fear of disconnection": the belief that if people knew the real you, they'd reject you.
 
 **Anxiety triggers:** What activates your fight/flight/freeze response. The things that make you feel unsafe.
 
@@ -339,7 +339,7 @@ For each memory:
 
 Brené Brown's research found that people with high "shame resilience" share one key trait: **they can physically recognize when they're triggered.** They feel it in their body before it hijacks their behavior.
 
-> **"The people who feel the least shame are those who can recognize shame the fastest and talk about it openly."** — Brené Brown
+> **"The people who feel the least shame are those who can recognize shame the fastest and talk about it openly."**: Brené Brown
 
 ### The Reframe
 
@@ -355,7 +355,7 @@ Your weakness isn't the movement itself. It's the _unconscious, reactive_ versio
 
 ---
 
-## Part 6: Flip the Script—Understanding Others
+## Part 6: Flip the Script, Understanding Others
 
 Here's where most self-improvement advice stops. You understand yourself. Congratulations. Here's a journal. Good luck.
 
@@ -382,7 +382,7 @@ Take everything you just learned about yourself and apply it to someone in your 
 
 **You don't need to be right.** You need to be curious.
 
-This isn't about typing other people and putting them in boxes. It's about recognizing that everyone has an internal logic that makes sense to them—even when their behavior seems irrational to you.
+This isn't about typing other people and putting them in boxes. It's about recognizing that everyone has an internal logic that makes sense to them, even when their behavior seems irrational to you.
 
 ### Exercise: The Other Person Map
 
@@ -412,7 +412,7 @@ But here's the insight most people miss about how this happens:
 
 ### The Mental Gym
 
-You've heard of "looksmaxxing"—optimizing your physical appearance. You've probably been to an actual gym. You know that physical exercise makes you physically stronger.
+You've heard of "looksmaxxing" (optimizing your physical appearance). You've probably been to an actual gym. You know that physical exercise makes you physically stronger.
 
 **But what's the equivalent workout for your mind?**
 
@@ -420,11 +420,11 @@ The answer: **perspective-taking.**
 
 Think about it. When you go to the gym, you lift something heavy. Your muscles strain. It's uncomfortable. And that effort creates growth.
 
-Perspective-taking works the same way. When you genuinely try to understand how someone else sees the world—especially someone who thinks and feels differently than you—your brain has to _work_. It's mental effort. It's uncomfortable. And that effort creates growth.
+Perspective-taking works the same way. When you genuinely try to understand how someone else sees the world, especially someone who thinks and feels differently than you, your brain has to _work_. It's mental effort. It's uncomfortable. And that effort creates growth.
 
 > **Physical exercise makes you physically stronger. Perspective-taking makes you mentally and emotionally stronger.**
 
-This isn't metaphor. Neuroscience research shows that perspective-taking activates multiple brain regions simultaneously—the prefrontal cortex (reasoning), the temporal-parietal junction (understanding others' mental states), and the mirror neuron system (empathy). It's literally a full-brain workout.
+This isn't metaphor. Neuroscience research shows that perspective-taking activates multiple brain regions simultaneously: the prefrontal cortex (reasoning), the temporal-parietal junction (understanding others' mental states), and the mirror neuron system (empathy). It's literally a full-brain workout.
 
 ### Why This Is Hard (And Why That's the Point)
 
@@ -434,7 +434,7 @@ Here's why most people never develop this skill:
 
 Staying in your own head is easy. Assuming everyone thinks like you is comfortable. Judging people who are different requires zero mental energy.
 
-But genuinely asking: "What is this person feeling right now? What are they afraid of? What do they want that they're not saying?"—that's work.
+But genuinely asking: "What is this person feeling right now? What are they afraid of? What do they want that they're not saying?" That's work.
 
 It's the mental equivalent of picking up something heavy.
 
@@ -446,7 +446,7 @@ Here's the secret research reveals about charismatic people:
 
 They're not performing. They're **genuinely interested** in others.
 
-Neuroscience shows that when someone feels truly listened to, their brain releases dopamine—creating pleasure and trust. Mirror neurons fire when we observe someone who's genuinely engaged with us, creating a sense of connection.
+Neuroscience shows that when someone feels truly listened to, their brain releases dopamine, creating pleasure and trust. Mirror neurons fire when we observe someone who's genuinely engaged with us, creating a sense of connection.
 
 Here's what charismatic people do:
 
@@ -476,7 +476,7 @@ Not surface questions. Real ones:
 - "What was that like for you?"
 - "What's the hardest part of what you're dealing with?"
 
-Then—and this is the workout—try to see the situation from _their_ perspective. Not to fix it. Not to judge it. Just to understand it.
+Then, and this is the workout, try to see the situation from _their_ perspective. Not to fix it. Not to judge it. Just to understand it.
 
 This is what 9takes is built for. One question. Nine different personality types. Nine different ways of seeing the same situation.
 
@@ -486,41 +486,41 @@ When you read how a Type 4 experiences something versus how a Type 8 experiences
 
 If you've worked through this guide, you now have:
 
-1. **Self-awareness** — You know your patterns, triggers, and superpowers
-2. **Other-awareness** — You recognize that others have their own internal logic
-3. **Emotional vocabulary** — You can name what you're feeling and why
-4. **Curiosity** — You're genuinely interested in understanding people
-5. **A practice** — You know that perspective-taking is the workout that builds all of this
+1. **Self-awareness**: You know your patterns, triggers, and superpowers
+2. **Other-awareness**: You recognize that others have their own internal logic
+3. **Emotional vocabulary**: You can name what you're feeling and why
+4. **Curiosity**: You're genuinely interested in understanding people
+5. **A practice**: You know that perspective-taking is the workout that builds all of this
 
 This is the foundation of charisma. Not tricks. Not techniques. **Understanding built through deliberate practice.**
 
 ---
 
-## Part 8: Your Archetype—Best and Worst Versions
+## Part 8: Your Archetype, Best and Worst Versions
 
 Here's the final framework: your archetype.
 
-Every Enneagram type has a spectrum. At one end is your highest potential—the best version of who you could become. At the other end is your lowest functioning—the version you become when everything falls apart.
+Every Enneagram type has a spectrum. At one end is your highest potential: the best version of who you could become. At the other end is your lowest functioning: the version you become when everything falls apart.
 
 ### The Archetype Spectrum
 
-| Type | Best Version                                                 | Worst Version                                                    |
-| ---- | ------------------------------------------------------------ | ---------------------------------------------------------------- |
-| 1    | The Wise Reformer — principled, fair, inspiring change       | The Critical Judge — rigid, harsh, self-righteous                |
-| 2    | The Selfless Giver — genuinely loving, empowering others     | The Manipulative Martyr — controlling through "help," resentful  |
-| 3    | The Authentic Achiever — inspiring, truthful, efficient      | The Deceptive Performer — image-obsessed, hollow, exploitative   |
-| 4    | The Inspired Creator — transforming pain into beauty         | The Self-Absorbed Victim — dramatic, envious, withdrawn          |
-| 5    | The Pioneering Visionary — insightful, innovative, engaged   | The Isolated Cynic — detached, hoarding, paranoid                |
-| 6    | The Courageous Loyalist — reliable, brave, building security | The Paranoid Reactor — anxious, defensive, suspicious            |
-| 7    | The Focused Enthusiast — joyful, present, deeply satisfied   | The Scattered Escapist — addictive, impulsive, avoiding pain     |
-| 8    | The Magnanimous Leader — protective, empowering, just        | The Destructive Dictator — dominating, aggressive, vengeful      |
-| 9    | The Engaged Peacemaker — harmonizing, inclusive, present     | The Stubborn Sleepwalker — checked out, passive-aggressive, lost |
+| Type | Best Version                                                | Worst Version                                                   |
+| ---- | ----------------------------------------------------------- | --------------------------------------------------------------- |
+| 1    | The Wise Reformer: principled, fair, inspiring change       | The Critical Judge: rigid, harsh, self-righteous                |
+| 2    | The Selfless Giver: genuinely loving, empowering others     | The Manipulative Martyr: controlling through "help," resentful  |
+| 3    | The Authentic Achiever: inspiring, truthful, efficient      | The Deceptive Performer: image-obsessed, hollow, exploitative   |
+| 4    | The Inspired Creator: transforming pain into beauty         | The Self-Absorbed Victim: dramatic, envious, withdrawn          |
+| 5    | The Pioneering Visionary: insightful, innovative, engaged   | The Isolated Cynic: detached, hoarding, paranoid                |
+| 6    | The Courageous Loyalist: reliable, brave, building security | The Paranoid Reactor: anxious, defensive, suspicious            |
+| 7    | The Focused Enthusiast: joyful, present, deeply satisfied   | The Scattered Escapist: addictive, impulsive, avoiding pain     |
+| 8    | The Magnanimous Leader: protective, empowering, just        | The Destructive Dictator: dominating, aggressive, vengeful      |
+| 9    | The Engaged Peacemaker: harmonizing, inclusive, present     | The Stubborn Sleepwalker: checked out, passive-aggressive, lost |
 
 For a deeper exploration of each type's strengths and potential pitfalls, see our comprehensive guide: [Enneagram Strengths and Weaknesses](/enneagram-corner/enneagram-strengths-and-weaknesses).
 
 ### Understanding the Spectrum
 
-The archetype isn't a binary—it's a gradient with levels. Enneagram teachers often describe 9 levels of development for each type, from healthiest (Level 1) to most dysfunctional (Level 9):
+The archetype isn't a binary. It's a gradient with levels. Enneagram teachers often describe 9 levels of development for each type, from healthiest (Level 1) to most dysfunctional (Level 9):
 
 **Levels 1-3 (Healthy):** You're operating from your type's gifts. Your core fear and desire are balanced. You access your security arrow naturally.
 
@@ -542,7 +542,7 @@ Honestly assess: Where do you spend most of your time?
 
 **Signs you're operating at average or unhealthy levels:**
 
-- Your type's patterns feel compulsive—you can't NOT do them
+- Your type's patterns feel compulsive. You can't NOT do them
 - You frequently feel triggered and reactive
 - Your stress arrow behaviors are your default under pressure
 - You're defended against feedback or other perspectives
@@ -582,7 +582,7 @@ Now let's get practical. Here are specific protocols from leading researchers an
 
 ### Protocol 1: The Pennebaker Journaling Method (Andrew Huberman)
 
-Dr. Andrew Huberman highlights research from Dr. James Pennebaker showing that a specific writing protocol—validated in 200+ studies—produces lasting mental and physical health improvements.
+Dr. Andrew Huberman highlights research from Dr. James Pennebaker showing that a specific writing protocol, validated in 200+ studies, produces lasting mental and physical health improvements.
 
 **The Protocol:**
 
@@ -592,51 +592,51 @@ Dr. Andrew Huberman highlights research from Dr. James Pennebaker showing that a
 4. Write continuously without worrying about grammar
 5. Allow 5-15 minutes afterward to decompress
 
-**Why it works:** The act of putting emotional experiences into language—especially traumatic or stressful ones—creates new neural pathways. It moves experiences from the emotional brain to the rational brain, reducing their unconscious grip on your behavior.
+**Why it works:** The act of putting emotional experiences into language, especially traumatic or stressful ones, creates new neural pathways. It moves experiences from the emotional brain to the rational brain, reducing their unconscious grip on your behavior.
 
 **For this blueprint:** Use this protocol to process your stress triggers and explore your arrow of disintegration patterns.
 
 ### Protocol 2: Brené Brown's Shame Resilience Framework
 
-Dr. Brené Brown's research identified four steps to building resilience against shame—the emotion that most blocks personal growth.
+Dr. Brené Brown's research identified four steps to building resilience against shame: the emotion that most blocks personal growth.
 
 **The Four Steps:**
 
-1. **Recognize shame and its triggers** — Learn how shame shows up in your body. For some it's a dry mouth. For others, tingling skin or tunnel vision. Know your signals.
+1. **Recognize shame and its triggers**: Learn how shame shows up in your body. For some it's a dry mouth. For others, tingling skin or tunnel vision. Know your signals.
 
-2. **Practice critical awareness** — Question the expectations that fuel your shame. Are they realistic? Where did they come from? Whose voice are they in?
+2. **Practice critical awareness**: Question the expectations that fuel your shame. Are they realistic? Where did they come from? Whose voice are they in?
 
-3. **Reach out** — Share your experience with someone trustworthy. Shame thrives in secrecy and dies in connection.
+3. **Reach out**: Share your experience with someone trustworthy. Shame thrives in secrecy and dies in connection.
 
-4. **Speak shame** — Name what you're experiencing. "I'm feeling shame right now" immediately reduces its power.
+4. **Speak shame**: Name what you're experiencing. "I'm feeling shame right now" immediately reduces its power.
 
 **For this blueprint:** When you notice yourself moving toward your stress arrow, pause and run through these four steps.
 
 ### Protocol 3: Carl Jung's Shadow Integration
 
-Carl Jung's concept of the "shadow" refers to the parts of yourself you've rejected, denied, or hidden—often the very parts that hold your greatest untapped potential.
+Carl Jung's concept of the "shadow" refers to the parts of yourself you've rejected, denied, or hidden, often the very parts that hold your greatest untapped potential.
 
 **The Practice:**
 
-1. **Notice your strong reactions** — When you have an intense negative response to someone, ask: "What am I seeing in them that I don't want to see in myself?"
+1. **Notice your strong reactions**: When you have an intense negative response to someone, ask: "What am I seeing in them that I don't want to see in myself?"
 
-2. **Reclaim rejected qualities** — The traits you hate in others often point to disowned parts of yourself. The person you call "too aggressive" might represent your own suppressed assertiveness.
+2. **Reclaim rejected qualities**: The traits you hate in others often point to disowned parts of yourself. The person you call "too aggressive" might represent your own suppressed assertiveness.
 
-3. **Integrate through acceptance** — Jung said: "One does not become enlightened by imagining figures of light, but by making the darkness conscious." Accept that you contain everything—the good and the "bad."
+3. **Integrate through acceptance**: Jung said: "One does not become enlightened by imagining figures of light, but by making the darkness conscious." Accept that you contain everything: the good and the "bad."
 
 **For this blueprint:** Your stress arrow behavior often represents shadow material. Instead of fighting it, ask: "What is this part of me trying to protect or achieve?"
 
 ### Protocol 4: IFS Parts Work
 
-Internal Family Systems therapy, developed by Richard Schwartz, offers a framework for working with your internal "parts"—the different voices, impulses, and patterns inside you.
+Internal Family Systems therapy, developed by Richard Schwartz, offers a framework for working with your internal "parts": the different voices, impulses, and patterns inside you.
 
 **The Core Concept:**
 
 You have a core Self (calm, curious, compassionate) and various parts that try to protect you or hold your pain:
 
-- **Managers** — Parts that control and prevent bad things
-- **Firefighters** — Parts that react when pain breaks through
-- **Exiles** — Parts that hold old wounds and memories
+- **Managers**: Parts that control and prevent bad things
+- **Firefighters**: Parts that react when pain breaks through
+- **Exiles**: Parts that hold old wounds and memories
 
 **The Practice:**
 
@@ -646,7 +646,7 @@ You have a core Self (calm, curious, compassionate) and various parts that try t
 4. Thank the part for its intention (even if the behavior isn't helpful)
 5. Ask: "What does this part need to feel safe?"
 
-**For this blueprint:** Use this when you catch yourself in stress arrow patterns. Your "bad behavior" is usually a protective part trying to help—it just needs better strategies.
+**For this blueprint:** Use this when you catch yourself in stress arrow patterns. Your "bad behavior" is usually a protective part trying to help. It just needs better strategies.
 
 ---
 
@@ -701,7 +701,7 @@ The protocols above work for everyone. But each Enneagram type has specific patt
 **Morning Protocol:**
 
 - Before planning achievements, ask: "What do I actually want today?"
-- Practice 5 minutes of doing nothing—no productivity, no optimization
+- Practice 5 minutes of doing nothing, no productivity, no optimization
 - Journal on: "Who am I when no one is watching?"
 
 **Stress Response Protocol (When moving to unhealthy 9):**
@@ -710,7 +710,7 @@ The protocols above work for everyone. But each Enneagram type has specific patt
 - Apply Brown's shame: What failure am I avoiding feeling?
 - IFS prompt: "What is this performer part afraid people would see if I stopped achieving?"
 
-**Growth Edge:** Access your security arrow (Type 6) by building genuine trust with others—not through impressing them, but through reliability and vulnerability.
+**Growth Edge:** Access your security arrow (Type 6) by building genuine trust with others. Not through impressing them, but through reliability and vulnerability.
 
 ---
 
@@ -742,7 +742,7 @@ The protocols above work for everyone. But each Enneagram type has specific patt
 
 - Before researching, do one embodied activity (walk, stretch, cold shower)
 - Set intention: "I have enough knowledge to act today"
-- Limit preparation time—decide in advance when to stop researching and start doing
+- Limit preparation time, decide in advance when to stop researching and start doing
 
 **Stress Response Protocol (When moving to unhealthy 7):**
 
@@ -762,7 +762,7 @@ The protocols above work for everyone. But each Enneagram type has specific patt
 
 - Before checking news/messages, do a grounding exercise (5-4-3-2-1 senses)
 - Ask: "What am I grateful is stable today?"
-- Journal on worst-case scenario—then the realistic scenario
+- Journal on worst-case scenario: then the realistic scenario
 
 **Stress Response Protocol (When moving to unhealthy 3):**
 
@@ -770,7 +770,7 @@ The protocols above work for everyone. But each Enneagram type has specific patt
 - Apply Brown's shame: Whose approval am I seeking? Why does it feel life-or-death?
 - IFS prompt: "What is this vigilant part afraid would happen if I stopped scanning?"
 
-**Growth Edge:** Access your security arrow (Type 9) by practicing trust—in yourself, in others, in life. Your growth comes through relaxing vigilance, not perfecting it.
+**Growth Edge:** Access your security arrow (Type 9) by practicing trust, in yourself, in others, in life. Your growth comes through relaxing vigilance, not perfecting it.
 
 ---
 
@@ -874,7 +874,7 @@ Not a new personality. Not a fixed version of you. Not enlightenment.
 
 That's it. That's the "max."
 
-Remember the gym analogy? You don't go to the gym to become a different person. You go to become a stronger version of yourself. The muscle was always there—you just needed to develop it.
+Remember the gym analogy? You don't go to the gym to become a different person. You go to become a stronger version of yourself. The muscle was always there. You just needed to develop it.
 
 Same with personality maxing.
 
@@ -890,13 +890,13 @@ It's the person who:
 - Recognizes that others have equally valid internal worlds
 - Meets people where they are instead of where they "should" be
 - Stays curious when they could be defensive
-- Keeps doing the reps—asking questions, taking perspectives, building understanding
+- Keeps doing the reps, asking questions, taking perspectives, building understanding
 
-**You can't max out your personality by changing it. You max it out by exercising it—building the mental muscle to understand yourself and everyone else around you.**
+**You can't max out your personality by changing it. You max it out by exercising it, building the mental muscle to understand yourself and everyone else around you.**
 
 The 90 days isn't about becoming someone new.
 
-It's about finally developing the strength to be who you've been all along—and the capacity to truly see others.
+It's about finally developing the strength to be who you've been all along. And the capacity to truly see others.
 
 ---
 
@@ -924,7 +924,7 @@ The understanding builds from there.
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This comprehensive guide presents a 90-day approach to maxing your personality through perspective-taking (the mental equivalent of going to the gym), the Enneagram framework, and expert-backed protocols from Brené Brown, Andrew Huberman, and Carl Jung. Just as physical exercise builds physical strength, perspective-taking builds mental and emotional strength. This blueprint helps you understand your patterns, triggers, and superpowers—then exercise your capacity to understand others.",
+      "articleBody": "This comprehensive guide presents a 90-day approach to maxing your personality through perspective-taking (the mental equivalent of going to the gym), the Enneagram framework, and expert-backed protocols from Brené Brown, Andrew Huberman, and Carl Jung. Just as physical exercise builds physical strength, perspective-taking builds mental and emotional strength. This blueprint helps you understand your patterns, triggers, and superpowers: then exercise your capacity to understand others.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -961,7 +961,7 @@ The understanding builds from there.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Personality is how you are similar to and different from other people. It's not a fixed trait inside you—it's the pattern of how you think, feel, and act compared to those around you. Understanding your personality requires understanding your relationships and contexts, not just taking a quiz."
+            "text": "Personality is how you are similar to and different from other people. It's not a fixed trait inside you. It's the pattern of how you think, feel, and act compared to those around you. Understanding your personality requires understanding your relationships and contexts, not just taking a quiz."
           },
           "name": "What is personality really?"
         },
@@ -969,7 +969,7 @@ The understanding builds from there.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Enneagram uses 'arrows' to show predictable patterns. Your 'arrow of security' (integration) shows how you act when feeling safe and confident—you access positive traits of another type. Your 'arrow of stress' (disintegration) shows how you react under pressure—you take on negative traits of a different type. These aren't flaws; they're signals that help you understand your patterns."
+            "text": "The Enneagram uses 'arrows' to show predictable patterns. Your 'arrow of security' (integration) shows how you act when feeling safe and confident. You access positive traits of another type. Your 'arrow of stress' (disintegration) shows how you react under pressure. You take on negative traits of a different type. These aren't flaws; they're signals that help you understand your patterns."
           },
           "name": "What are Enneagram arrows of security and stress?"
         },
@@ -993,7 +993,7 @@ The understanding builds from there.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Perspective-taking is the mental exercise of genuinely trying to understand how someone else sees the world. It activates multiple brain regions simultaneously and takes real effort—like lifting weights at the gym. When you ask genuine questions and truly listen to understand someone else's viewpoint (especially someone who thinks differently than you), you're doing 'mental reps' that build your capacity for empathy, emotional intelligence, and charisma."
+            "text": "Perspective-taking is the mental exercise of genuinely trying to understand how someone else sees the world. It activates multiple brain regions simultaneously and takes real effort, like lifting weights at the gym. When you ask genuine questions and truly listen to understand someone else's viewpoint (especially someone who thinks differently than you), you're doing 'mental reps' that build your capacity for empathy, emotional intelligence, and charisma."
           },
           "name": "What is perspective-taking and why is it like going to the gym?"
         },

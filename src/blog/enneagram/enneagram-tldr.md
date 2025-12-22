@@ -28,11 +28,11 @@ Find yourself in these core fears: Type 1 fears being wrong/corrupt. Type 2 fear
 
 <p class="firstLetter">That personality test was wrong because it measured behavior, not motivation.</p>
 
-**See the emotions behind every take.** The Enneagram reveals the WHY behind people's actions—nine core emotional patterns that drive all human behavior. Master these patterns and you'll decode anyone in seconds.
+**See the emotions behind every take.** The Enneagram reveals the WHY behind people's actions, nine core emotional patterns that drive all human behavior. Master these patterns and you'll decode anyone in seconds.
 
 Your complete personality-maxing cheat sheet: each type's core drive, blind spot, and the exact words that make them light up or shut down.
 
-> "She's not 'being difficult'—Type 1s need things done right the first time. Match their precision and watch the resistance disappear."
+> "She's not 'being difficult', Type 1s need things done right the first time. Match their precision and watch the resistance disappear."
 
 **Try this tonight**: Pick someone who confuses you. Find their type below. Notice how their "difficult" behavior suddenly makes perfect emotional sense.
 
@@ -40,47 +40,47 @@ Your complete personality-maxing cheat sheet: each type's core drive, blind spot
 
 ## Narrow Down Your Type in 30 Seconds
 
-Before diving into all nine types, identify which **emotional center** dominates your inner world. The Enneagram groups types into three "intelligence centers"—each processing the world through a different core emotion.
+Before diving into all nine types, identify which **emotional center** dominates your inner world. The Enneagram groups types into three "intelligence centers", each processing the world through a different core emotion.
 
 **Which one runs your operating system?**
 
-### Gut Center (Types 8, 9, 1) — Anger
+### Gut Center (Types 8, 9, 1): Anger
 
 Your first response is physical. You feel things in your body before your mind catches up.
 
-- **Type 8**: Expresses anger outward—confronts, challenges, protects
-- **Type 9**: Suppresses anger—numbs out, avoids, merges with others
-- **Type 1**: Internalizes anger—self-criticizes, controls, corrects
+- **Type 8**: Expresses anger outward, confronts, challenges, protects
+- **Type 9**: Suppresses anger, numbs out, avoids, merges with others
+- **Type 1**: Internalizes anger, self-criticizes, controls, corrects
 
 **You're probably in the Gut Center if**: Your instinct is to act first, or you have a complicated relationship with anger (too much, too little, or too controlled).
 
-### Heart Center (Types 2, 3, 4) — Shame
+### Heart Center (Types 2, 3, 4): Shame
 
 Your identity is tied to how others see you. Self-worth feels earned, not given.
 
-- **Type 2**: Manages shame through helpfulness—"I'm valuable if I'm needed"
-- **Type 3**: Manages shame through achievement—"I'm valuable if I succeed"
-- **Type 4**: Dwells in shame through intensity—"I'm valuable if I'm unique"
+- **Type 2**: Manages shame through helpfulness: "I'm valuable if I'm needed"
+- **Type 3**: Manages shame through achievement: "I'm valuable if I succeed"
+- **Type 4**: Dwells in shame through intensity: "I'm valuable if I'm unique"
 
 **You're probably in the Heart Center if**: You're acutely aware of your image, feel like an imposter, or tie your worth to relationships or accomplishments.
 
-### Head Center (Types 5, 6, 7) — Fear
+### Head Center (Types 5, 6, 7): Fear
 
 You live in your head. Anxiety drives you to prepare, escape, or understand.
 
-- **Type 5**: Manages fear through knowledge—"If I understand it, I can handle it"
-- **Type 6**: Manages fear through vigilance—"If I prepare for danger, I'll survive"
-- **Type 7**: Manages fear through distraction—"If I stay positive, I won't have to feel it"
+- **Type 5**: Manages fear through knowledge: "If I understand it, I can handle it"
+- **Type 6**: Manages fear through vigilance: "If I prepare for danger, I'll survive"
+- **Type 7**: Manages fear through distraction: "If I stay positive, I won't have to feel it"
 
 **You're probably in the Head Center if**: You overthink decisions, create mental escape plans, or exhaust yourself with "what if" scenarios.
 
-**Not sure which center?** Your [childhood coping strategy](/enneagram-corner/enneagram-childhood-stereotypes) often reveals the pattern—how did you get safety and love as a kid?
+**Not sure which center?** Your [childhood coping strategy](/enneagram-corner/enneagram-childhood-stereotypes) often reveals the pattern, how did you get safety and love as a kid?
 
 ---
 
 ## The 9 Human Operating Systems
 
-**Decode social dynamics in any room.** Each Enneagram type operates on a specific emotional frequency. Spot these patterns and you'll never misread people again—turning confusion into understanding, conflict into connection.
+**Decode social dynamics in any room.** Each Enneagram type operates on a specific emotional frequency. Spot these patterns and you'll never misread people again, turning confusion into understanding, conflict into connection.
 
 <MarqueeHorizontal theme="types" />
 
@@ -112,7 +112,7 @@ You live in your head. Anxiety drives you to prepare, escape, or understand.
 
 **Under stress**: Type 2s become aggressive and controlling like unhealthy Type 8s. The martyr energy turns demanding. [Watch for these stress signals](/enneagram-corner/enneagram-types-in-stress).
 
-**The manipulation pattern**: Healthy 2s give freely. Unhealthy 2s keep score—and the bill always comes due. [Understand how 2s manipulate](/enneagram-corner/how-each-enneagram-type-manipulates) (often without realizing it).
+**The manipulation pattern**: Healthy 2s give freely. Unhealthy 2s keep score. And the bill always comes due. [Understand how 2s manipulate](/enneagram-corner/how-each-enneagram-type-manipulates) (often without realizing it).
 
 ---
 
@@ -144,7 +144,7 @@ You live in your head. Anxiety drives you to prepare, escape, or understand.
 
 **Under stress**: Type 4s become clingy and people-pleasing like unhealthy Type 2s. Independence vanishes into desperate connection-seeking. [Understand the 4's stress pattern](/enneagram-corner/enneagram-types-in-stress).
 
-**The depression connection**: 4s are particularly vulnerable to depression patterns—romanticizing melancholy can become dwelling in it. [Each type has unique mental health vulnerabilities](/enneagram-corner/enneagram-and-mental-illness).
+**The depression connection**: 4s are particularly vulnerable to depression patterns, romanticizing melancholy can become dwelling in it. [Each type has unique mental health vulnerabilities](/enneagram-corner/enneagram-and-mental-illness).
 
 ---
 
@@ -176,7 +176,7 @@ You live in your head. Anxiety drives you to prepare, escape, or understand.
 
 **Under stress**: Type 6s become arrogant and competitive like unhealthy Type 3s. Anxiety transforms into image management. [Learn the 6's stress triggers](/enneagram-corner/enneagram-types-in-stress).
 
-**The anxiety paradox**: 6s and anxiety have a complicated relationship—is it the personality or the mental health condition? Often, it's both. [Untangle anxiety from personality type](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
+**The anxiety paradox**: 6s and anxiety have a complicated relationship, is it the personality or the mental health condition? Often, it's both. [Untangle anxiety from personality type](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
 
 ---
 
@@ -252,13 +252,13 @@ The QuickAnswer above mentions: **"The one that makes you uncomfortable to read 
 
 Here's why this works:
 
-We recognize ourselves most in what we resist. The type description that makes you defensive, the one you want to argue with, the one that feels like an invasion of privacy—that's often the bullseye.
+We recognize ourselves most in what we resist. The type description that makes you defensive, the one you want to argue with, the one that feels like an invasion of privacy. That's often the bullseye.
 
 **Try this**: Re-read each type's "blind spot" above. Which one made you think "that's not fair" or "that's an oversimplification"? That defensiveness is data.
 
 **The descriptions you instantly identify with might be your wing** (the type next to yours that flavors your personality). The one that bothers you is probably your core.
 
-[Wings add nuance to your type](/enneagram-corner/enneagram-wings-complete-guide)—a Type 4 with a 3 wing (4w3) looks very different from a Type 4 with a 5 wing (4w5). Same core fear, different expression.
+[Wings add nuance to your type](/enneagram-corner/enneagram-wings-complete-guide), a Type 4 with a 3 wing (4w3) looks very different from a Type 4 with a 5 wing (4w5). Same core fear, different expression.
 
 ---
 
@@ -278,17 +278,17 @@ Each type has a **stress arrow** (where you go when falling apart) and a **growt
 | 8    | 5 (withdrawn, secretive)       | 2 (nurturing, open-hearted)  |
 | 9    | 6 (anxious, paranoid)          | 3 (energized, goal-directed) |
 
-**This is the real power of the Enneagram.** It's not just "here's your box"—it's a map showing where you collapse and where you can expand.
+**This is the real power of the Enneagram.** It's not just "here's your box". It's a map showing where you collapse and where you can expand.
 
 [Deep dive into stress patterns](/enneagram-corner/enneagram-types-in-stress) explains exactly how each type unravels, with specific triggers and recovery strategies.
 
-[The connecting lines](/enneagram-corner/enneagram-connecting-lines) reveal why you sometimes don't "feel like your type"—you might be accessing your stress or growth point.
+[The connecting lines](/enneagram-corner/enneagram-connecting-lines) reveal why you sometimes don't "feel like your type". You might be accessing your stress or growth point.
 
 ---
 
 ## Find Your Type: Skip the Tests, Use Pattern Recognition
 
-Online tests measure behavior—you need to map your core emotional patterns. **Focus on your automatic responses under stress**, not how you think you should act.
+Online tests measure behavior. You need to map your core emotional patterns. **Focus on your automatic responses under stress**, not how you think you should act.
 
 **Quick identification method**:
 
@@ -297,7 +297,7 @@ Online tests measure behavior—you need to map your core emotional patterns. **
 → **Identify your childhood coping**: What strategy got you safety/love as a kid?
 → **Watch your energy drains**: What social situations exhaust you most?
 
-**Pro tip**: Ask people close to you what motivates your behavior—they often see patterns you miss.
+**Pro tip**: Ask people close to you what motivates your behavior: they often see patterns you miss.
 
 **Want a structured approach?** The [complete beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) offers a proven 4-step method.
 
@@ -307,11 +307,11 @@ Online tests measure behavior—you need to map your core emotional patterns. **
 
 ## Your Next Move: From Theory to Social Advantage
 
-**Master these 9 patterns and transform every interaction.** You're not just learning personality types—you're building pattern recognition that gives you social advantages in dating, work, and conflict resolution.
+**Master these 9 patterns and transform every interaction.** You're not just learning personality types. You're building pattern recognition that gives you social advantages in dating, work, and conflict resolution.
 
 **Start tonight**: Pick one person who confuses or frustrates you. Use their type's "magic words" in your next conversation. Watch how their entire energy shifts when you speak their emotional language.
 
-**Ready for real-world application?** [Post your situation on 9takes](/questions)—get perspectives from all 9 types using our give-first platform. See the emotions behind every take.
+**Ready for real-world application?** [Post your situation on 9takes](/questions), get perspectives from all 9 types using our give-first platform. See the emotions behind every take.
 
 ---
 
@@ -319,57 +319,57 @@ Online tests measure behavior—you need to map your core emotional patterns. **
 
 ### Find Your Type
 
-- [**Complete typing guide**](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) — The 4-step method that works better than any test
-- [**Enneagram test comparison (2025)**](/enneagram-corner/enneagram-test-comparison-2025) — Which free tests actually get it right
-- [**Childhood stereotypes**](/enneagram-corner/enneagram-childhood-stereotypes) — How each type showed up as a kid reveals adult patterns
-- [**Wings explained**](/enneagram-corner/enneagram-wings-complete-guide) — Why you're not "just" your type
+- [**Complete typing guide**](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type): The 4-step method that works better than any test
+- [**Enneagram test comparison (2025)**](/enneagram-corner/enneagram-test-comparison-2025): Which free tests actually get it right
+- [**Childhood stereotypes**](/enneagram-corner/enneagram-childhood-stereotypes): How each type showed up as a kid reveals adult patterns
+- [**Wings explained**](/enneagram-corner/enneagram-wings-complete-guide): Why you're not "just" your type
 
 ### Relationships & Dating
 
-- [**How each type loves**](/enneagram-corner/enneagram-types-in-relationships) — And why it goes wrong
-- [**Red flags by type**](/enneagram-corner/red-flags-dating-each-enneagram-type) — What unhealthy versions of each type look like in dating
-- [**First date expectations**](/enneagram-corner/enneagram-types-on-a-first-date) — What each type is secretly thinking
-- [**Why they ghosted you**](/enneagram-corner/enneagram-types-being-ghosted) — The Enneagram explanation for disappearing acts
-- [**Compatibility matrix**](/enneagram-corner/enneagram-compatibility-matrix) — All 81 type combinations analyzed
-- [**Love languages by type**](/enneagram-corner/love-languages-and-enneagram-types) — Why your love language might not match your type
+- [**How each type loves**](/enneagram-corner/enneagram-types-in-relationships): And why it goes wrong
+- [**Red flags by type**](/enneagram-corner/red-flags-dating-each-enneagram-type): What unhealthy versions of each type look like in dating
+- [**First date expectations**](/enneagram-corner/enneagram-types-on-a-first-date): What each type is secretly thinking
+- [**Why they ghosted you**](/enneagram-corner/enneagram-types-being-ghosted): The Enneagram explanation for disappearing acts
+- [**Compatibility matrix**](/enneagram-corner/enneagram-compatibility-matrix): All 81 type combinations analyzed
+- [**Love languages by type**](/enneagram-corner/love-languages-and-enneagram-types): Why your love language might not match your type
 
 ### Mental Health & Growth
 
-- [**Stress breakdown patterns**](/enneagram-corner/enneagram-types-in-stress) — How each type falls apart and how to stop the spiral
-- [**Mental illness and personality**](/enneagram-corner/enneagram-and-mental-illness) — When personality becomes pathology
-- [**Anxiety by type**](/enneagram-corner/enneagram-anxiety-management-guide) — Type-specific strategies that actually work
-- [**Depression patterns**](/enneagram-corner/depression-patterns-by-enneagram-type) — How your type shapes your depression experience
-- [**Shadow work guide**](/enneagram-corner/shadow-work-by-enneagram-type) — Confronting the parts of yourself you hide
-- [**Trauma responses**](/enneagram-corner/mental-health/enneagram-trauma-response-guide) — Your type's survival patterns explained
-- [**Self-development roadmap**](/enneagram-corner/enneagram-self-development) — Transform your personality instead of fighting it
+- [**Stress breakdown patterns**](/enneagram-corner/enneagram-types-in-stress): How each type falls apart and how to stop the spiral
+- [**Mental illness and personality**](/enneagram-corner/enneagram-and-mental-illness): When personality becomes pathology
+- [**Anxiety by type**](/enneagram-corner/enneagram-anxiety-management-guide): Type-specific strategies that actually work
+- [**Depression patterns**](/enneagram-corner/depression-patterns-by-enneagram-type): How your type shapes your depression experience
+- [**Shadow work guide**](/enneagram-corner/shadow-work-by-enneagram-type): Confronting the parts of yourself you hide
+- [**Trauma responses**](/enneagram-corner/mental-health/enneagram-trauma-response-guide): Your type's survival patterns explained
+- [**Self-development roadmap**](/enneagram-corner/enneagram-self-development): Transform your personality instead of fighting it
 
 ### Work & Leadership
 
-- [**Stress at work**](/enneagram-corner/mental-health/enneagram-workplace-mental-health) — Preventing burnout by type
-- [**Leadership styles**](/enneagram-corner/enneagram-leadership) — The 9 ways to lead (and when each fails)
-- [**Team dynamics**](/enneagram-corner/enneagram-types-working-in-teams) — Why your team conflicts and how to fix it
-- [**Self-sabotage patterns**](/enneagram-corner/how-each-enneagram-type-self-sabotages-success) — The way you undermine your own success
+- [**Stress at work**](/enneagram-corner/mental-health/enneagram-workplace-mental-health): Preventing burnout by type
+- [**Leadership styles**](/enneagram-corner/enneagram-leadership): The 9 ways to lead (and when each fails)
+- [**Team dynamics**](/enneagram-corner/enneagram-types-working-in-teams): Why your team conflicts and how to fix it
+- [**Self-sabotage patterns**](/enneagram-corner/how-each-enneagram-type-self-sabotages-success): The way you undermine your own success
 
 ### Communication
 
-- [**Communication styles**](/enneagram-corner/enneagram-communication-styles) — Why nobody understands you (and how to fix it)
-- [**Scripts that work**](/enneagram-corner/enneagram-communication-tips) — Exact words to use with each type
-- [**How each type manipulates**](/enneagram-corner/how-each-enneagram-type-manipulates) — Recognize it in yourself and others
-- [**Relationship communication**](/enneagram-corner/relationship-communication-guide) — The key to understanding your partner
+- [**Communication styles**](/enneagram-corner/enneagram-communication-styles): Why nobody understands you (and how to fix it)
+- [**Scripts that work**](/enneagram-corner/enneagram-communication-tips): Exact words to use with each type
+- [**How each type manipulates**](/enneagram-corner/how-each-enneagram-type-manipulates): Recognize it in yourself and others
+- [**Relationship communication**](/enneagram-corner/relationship-communication-guide): The key to understanding your partner
 
 ### The Dark Side
 
-- [**Toxic traits by type**](/enneagram-corner/toxic-traits-of-each-enneagram-type) — Every type has a shadow
-- [**Dark triad meets Enneagram**](/pop-culture/dark-triad-meets-enneagram) — When personality turns predatory
-- [**Manipulation patterns**](/enneagram-corner/how-each-enneagram-type-manipulates) — How each type controls (often unconsciously)
+- [**Toxic traits by type**](/enneagram-corner/toxic-traits-of-each-enneagram-type): Every type has a shadow
+- [**Dark triad meets Enneagram**](/pop-culture/dark-triad-meets-enneagram): When personality turns predatory
+- [**Manipulation patterns**](/enneagram-corner/how-each-enneagram-type-manipulates): How each type controls (often unconsciously)
 
 ### Deeper Understanding
 
-- [**Enneagram FAQs**](/enneagram-corner/enneagram-faqs) — 27 questions everyone asks, finally answered
-- [**Enneagram concepts**](/enneagram-corner/enneagram-concepts) — The full system explained (wings, instincts, lines)
-- [**Instinctual subtypes**](/enneagram-corner/enneagram-instinctual-subtypes) — Why two people of the same type can look completely different
-- [**Philosophy and psychology roots**](/enneagram-corner/philosophy-psychology-and-the-enneagram) — Where this system actually comes from
-- [**Books, podcasts, resources**](/enneagram-corner/enneagram-books-websites-podcasts) — The best Enneagram content beyond 9takes
+- [**Enneagram FAQs**](/enneagram-corner/enneagram-faqs): 27 questions everyone asks, finally answered
+- [**Enneagram concepts**](/enneagram-corner/enneagram-concepts): The full system explained (wings, instincts, lines)
+- [**Instinctual subtypes**](/enneagram-corner/enneagram-instinctual-subtypes): Why two people of the same type can look completely different
+- [**Philosophy and psychology roots**](/enneagram-corner/philosophy-psychology-and-the-enneagram): Where this system actually comes from
+- [**Books, podcasts, resources**](/enneagram-corner/enneagram-books-websites-podcasts): The best Enneagram content beyond 9takes
 
 <svelte:head>
 

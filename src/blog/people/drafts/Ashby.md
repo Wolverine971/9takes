@@ -15,8 +15,8 @@ person: 'Ashby'
 suggestions: ['Emma-Chamberlain', 'David-Dobrik', 'Kai-Cenat', 'Theo-Von']
 wikipedia: ''
 twitter: ''
-instagram: 'https://instagram.com/_ashbyflorence_'
-tiktok: 'https://tiktok.com/@_ashbyflorence_'
+instagram: '_ashbyflorence_'
+tiktok: '_ashbyflorence_'
 path: src/blog/people/drafts/Ashby.md
 ---
 
@@ -190,3 +190,5 @@ Then one sick day, one Sharpie goatee, and one committed Hamilton impression lat
 The lesson isn't about going viral. It's about staying ready. About refusing to let circumstances kill the thing inside you that needs to create. About trusting that your authentic weirdness might be exactly what millions of people are waiting for.
 
 What dream have you been keeping alive in the background, waiting for its moment?
+
+> **Disclaimer:** This analysis of Ashby's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.

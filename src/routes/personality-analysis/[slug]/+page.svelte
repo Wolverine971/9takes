@@ -18,12 +18,14 @@
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 
 	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
+	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
 
 	export let data: PageData;
 
 	const componentTypes = [
 		{ tag: 'PopCard', component: PopCard },
-		{ tag: 'BlogPurpose', component: BlogPurpose }
+		{ tag: 'BlogPurpose', component: BlogPurpose },
+		{ tag: 'QuickAnswer', component: QuickAnswer }
 	];
 
 	let mounted = false;

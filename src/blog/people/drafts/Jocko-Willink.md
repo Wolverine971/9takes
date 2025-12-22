@@ -77,7 +77,7 @@ Jocko didn't overcome his anti-authoritarian streak. He **weaponized** it.
 
 "To overcome my dislike of authority, I tried to get ahead of the power curve," Jocko has explained. "Have things done before I was told to do them."
 
-This is quintessential Type 8 adaptation. Rather than submit to external control, Jocko created his own internal discipline so demanding that external authority became irrelevant. You can't tell someone what to do when they've already done it—and more.
+This is classic Type 8 adaptation. Rather than submit to external control, Jocko created his own internal discipline so demanding that external authority became irrelevant. You can't tell someone what to do when they've already done it—and more.
 
 ## Rise to Fame: From Ramadi to Bestseller
 
@@ -268,3 +268,5 @@ What would happen if you stopped making excuses and started owning everything in
 That's the challenge Jocko puts before every listener, every reader, every person who encounters his work.
 
 And that's the challenge every Type 8 puts before themselves, every single day.
+
+> **Disclaimer:** This analysis of Jocko Willink's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.

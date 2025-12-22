@@ -67,7 +67,7 @@ Pichai joined Google in 2004 working on the search toolbar—hardly a glamorous 
 
 By 2013, he'd added Android to his responsibilities. Under his oversight, the mobile operating system expanded to over 2 billion devices. Google's core products—Gmail, Maps, Drive—all fell under his domain. He became known as the executive who could unify disparate teams without creating enemies.
 
-When Larry Page appointed him CEO in 2015, insiders weren't surprised. As one former Googler noted: "He promotes really good people as opposed to the most political and opportunistic people." This is quintessential Type 9 leadership—elevating others rather than grabbing glory for yourself.
+When Larry Page appointed him CEO in 2015, insiders weren't surprised. As one former Googler noted: "He promotes really good people as opposed to the most political and opportunistic people." This is classic Type 9 leadership—elevating others rather than grabbing glory for yourself.
 
 ## Personality Quirks and Mental Patterns
 

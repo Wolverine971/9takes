@@ -1,10 +1,11 @@
 ---
-title: "Why You Can't Stop Criticizing Everything (Type 1 Perfectionism)"
+title: 'Enneagram Type 1: The Perfectionist - Complete Guide'
+meta_title: "Why You Can't Stop Criticizing Everything (Type 1 Perfectionism)"
 description: "Can't shake the feeling that nothing (including you) is ever good enough? That's Type 1. Learn why you can't stop criticizing, where the inner judge came from, and how to finally silence it."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/enneagram-corner/enneagram-type-1'
-lastmod: '2025-10-23'
+lastmod: '2025-12-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -104,7 +105,7 @@ But perpetual perfection casts dark shadows:
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'overthinking by type 🧠', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'manipulation tactics 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'red flags in dating 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'} ]} />
 </div>
 
 <section class="section-content">
@@ -319,7 +320,7 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-10-23",
+      "dateModified": "2025-12-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 1",

@@ -1,10 +1,11 @@
 ---
-title: "Why You Can't Stop Worrying (Type 6 Anxiety Patterns)"
+title: 'Enneagram Type 6: The Loyalist - Complete Guide'
+meta_title: "Why You Can't Stop Worrying (Type 6 Anxiety Patterns)"
 description: "Can't quiet the 'what if' spiral even when everything's fine? That's Type 6. Learn why your mind catastrophizes, why trust feels impossible, and how to stop worst-case thinking."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/enneagram-corner/enneagram-type-6'
-lastmod: '2025-10-23'
+lastmod: '2025-12-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -103,7 +104,7 @@ But perpetual vigilance casts dark shadows:
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'overthinking by type 🧠', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'manipulation tactics 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'}, {name: 'red flags in dating 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'} ]} />
 </div>
 
 <section class="section-content">
@@ -328,7 +329,7 @@ note="If you checked seven or more items, you likely have strong Type 6 patterns
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-10-23",
+      "dateModified": "2025-12-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 6",
