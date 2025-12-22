@@ -8,6 +8,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Greta-Thunberg', link: true, hasImage: true, lastmod: '2025-12-22' },
 		{ name: 'Gwyneth-Paltrow', link: true, hasImage: true, lastmod: '2025-12-22' },
 		{ name: 'Hillary-Clinton', link: true, hasImage: true, lastmod: '2025-01-22' },
+		{ name: 'J.K.-Rowling', link: true, hasImage: true, lastmod: '2025-12-22' },
 		{ name: 'Jeff-Bezos', link: true, hasImage: true, lastmod: '2025-12-22' },
 		{ name: 'Jordan-Peterson', link: true, hasImage: true, lastmod: '2025-12-22' },
 		{ name: 'Kourtney-Kardashian', link: true, hasImage: true, lastmod: '2025-04-08' },
@@ -45,7 +46,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Tom-Hiddleston', link: true, hasImage: true, lastmod: '2025-03-24' },
 		{ name: 'Audrey-Hepburn', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Brené-Brown', link: false, hasImage: false, lastmod: '2025-06-25' },
-		{ name: 'J.K.-Rowling', link: true, hasImage: false, lastmod: '2025-12-22' },
 		{ name: 'Jacinda-Ardern', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Lupita-Nyongo', link: false, hasImage: false, lastmod: '2025-06-25' },
 		{ name: 'Richard-Simmons', link: false, hasImage: false, lastmod: '2025-06-25' }
