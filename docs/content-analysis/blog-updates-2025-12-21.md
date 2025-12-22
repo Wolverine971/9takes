@@ -8,14 +8,15 @@ This document lists all celebrity blogs that have changes requiring Supabase upd
 
 ## Summary
 
-| Category                                  | Count |
-| ----------------------------------------- | ----- |
-| **New Blogs to Publish (INSERT)**         | 5     |
-| **Already Published (UPDATE content)**    | 10    |
-| **Major Content Updates**                 | 5     |
-| **Punctuation/Wording Changes (lastmod)** | 44    |
-| **Format/Suggestions Only (No lastmod)**  | 5     |
-| **Total Files Changed**                   | 69    |
+| Category                                 | Count |
+| ---------------------------------------- | ----- |
+| **New Blogs to Publish (INSERT)**        | 5     |
+| **Already Published (UPDATE content)**   | 10    |
+| **Major Content Updates**                | 5     |
+| **Substantial Changes (update lastmod)** | 38    |
+| **Single-Word Only (NO lastmod)**        | 6     |
+| **Format/Suggestions Only (No lastmod)** | 5     |
+| **Total Files Changed**                  | 69    |
 
 ---
 
@@ -23,13 +24,13 @@ This document lists all celebrity blogs that have changes requiring Supabase upd
 
 These are new blogs that need to be added to the database AND published. They have `link: false` in famousTypes.ts.
 
-| Person           | Type | Published | hasImage | Notes              |
-| ---------------- | ---- | --------- | -------- | ------------------ |
-| Andrew-Huberman  | 5    | **true**  | true     | Publish now        |
-| Bella-Hadid      | 4    | **true**  | true     | Publish now        |
-| George-RR-Martin | 5    | **true**  | true     | Publish now        |
-| Post-Malone      | 9    | **true**  | true     | Publish now        |
-| Tony-Robbins     | 3    | **true**  | true     | Publish now        |
+| Person           | Type | Published | hasImage | Notes       |
+| ---------------- | ---- | --------- | -------- | ----------- |
+| Andrew-Huberman  | 5    | **true**  | true     | Publish now |
+| Bella-Hadid      | 4    | **true**  | true     | Publish now |
+| George-RR-Martin | 5    | **true**  | true     | Publish now |
+| Post-Malone      | 9    | **true**  | true     | Publish now |
+| Tony-Robbins     | 3    | **true**  | true     | Publish now |
 
 **After INSERT:** Run `pnpm gen:famous-types` to update famousTypes.ts with `link: true`.
 
@@ -39,18 +40,18 @@ These are new blogs that need to be added to the database AND published. They ha
 
 These blogs are already in the database with `link: true` in famousTypes.ts. They only need content updates.
 
-| Person          | Type | Already Published | Action Needed                    |
-| --------------- | ---- | ----------------- | -------------------------------- |
-| Druski          | 8    | Yes (2025-04-02)  | UPDATE content + lastmod         |
-| Henry-Cavill    | 2    | Yes (2025-05-02)  | UPDATE content + lastmod         |
-| IShowSpeed      | 8    | Yes (2025-03-26)  | UPDATE content + lastmod         |
-| Jake-Paul       | 3    | Yes (2025-04-10)  | UPDATE content + lastmod         |
-| Jenna-Ortega    | 3    | Yes (2025-12-03)  | UPDATE content + lastmod         |
-| Johnny-Depp     | 4    | Yes (2025-04-07)  | UPDATE content + lastmod         |
-| Kai-Cenat       | 7    | Yes (2025-03-26)  | UPDATE content + lastmod         |
-| Marilyn-Monroe  | 6    | Yes (2025-03-04)  | UPDATE content + lastmod         |
-| Michelle-Obama  | 1    | Yes (2025-04-08)  | UPDATE content + lastmod         |
-| Olivia-Rodrigo  | 2    | Yes (2025-03-15)  | UPDATE content + lastmod         |
+| Person         | Type | Already Published | Action Needed            |
+| -------------- | ---- | ----------------- | ------------------------ |
+| Druski         | 8    | Yes (2025-04-02)  | UPDATE content + lastmod |
+| Henry-Cavill   | 2    | Yes (2025-05-02)  | UPDATE content + lastmod |
+| IShowSpeed     | 8    | Yes (2025-03-26)  | UPDATE content + lastmod |
+| Jake-Paul      | 3    | Yes (2025-04-10)  | UPDATE content + lastmod |
+| Jenna-Ortega   | 3    | Yes (2025-12-03)  | UPDATE content + lastmod |
+| Johnny-Depp    | 4    | Yes (2025-04-07)  | UPDATE content + lastmod |
+| Kai-Cenat      | 7    | Yes (2025-03-26)  | UPDATE content + lastmod |
+| Marilyn-Monroe | 6    | Yes (2025-03-04)  | UPDATE content + lastmod |
+| Michelle-Obama | 1    | Yes (2025-04-08)  | UPDATE content + lastmod |
+| Olivia-Rodrigo | 2    | Yes (2025-03-15)  | UPDATE content + lastmod |
 
 ---
 
@@ -121,60 +122,65 @@ These blogs have significant content rewrites and require full updates.
 
 ---
 
-## PUNCTUATION/WORDING CHANGES (Update lastmod)
+## SUBSTANTIAL CONTENT CHANGES (Update lastmod)
 
-These blogs have em-dash (—) standardization and wording changes. Primary changes:
+These blogs have em-dash (—) standardization throughout OR multiple wording changes. These warrant a lastmod update.
 
-- Em-dashes (—) → colons, commas, periods, or "and" for readability
-- "quintessential/quintessentially" → "classic/textbook/pure/core"
-- Description updates (em-dash cleanup)
+| Person                        | Update lastmod | Changes                                  |
+| ----------------------------- | -------------- | ---------------------------------------- |
+| Abraham-Lincoln               | YES            | Em-dash → commas/colons throughout       |
+| Alexandria-Ocasio-Cortez      | YES            | Em-dash → commas throughout              |
+| Alexis-Bledel                 | YES            | Em-dash → commas throughout              |
+| Ariana-Grande                 | YES            | Em-dash → commas/colons throughout       |
+| Bill-Gates                    | YES            | Wording + suggestions format + socials   |
+| Bobbi-Althoff                 | YES            | Em-dash → commas throughout (extensive)  |
+| Cillian-Murphy                | YES            | Em-dash → commas throughout              |
+| Cristiano-Ronaldo             | YES            | Em-dash → commas throughout              |
+| Dave-Portnoy                  | YES            | Em-dash throughout + word replacement    |
+| Doja-Cat                      | YES            | Em-dash → commas/colons throughout       |
+| Donald-Trump                  | YES            | Multiple word replacements               |
+| Drake                         | YES            | Em-dash → colons/periods throughout      |
+| George-H-W-Bush               | YES            | Wording + twitter format                 |
+| Greta-Thunberg                | YES            | Wording + suggestions added              |
+| Gwyneth-Paltrow               | YES            | Em-dash → commas/colons throughout       |
+| Hozier                        | YES            | Wording + removed empty svelte:head      |
+| J.K.-Rowling                  | YES            | Em-dash → commas + suggestions expanded  |
+| Jennifer-Garner               | YES            | Wording + social handles format          |
+| Jocko-Willink                 | YES            | Wording + disclaimer added               |
+| Joe-Biden                     | YES            | Em-dash → commas + suggestions added     |
+| Kamala-Harris                 | YES            | Wording + suggestions/social format      |
+| Malcolm-Gladwell              | YES            | Em-dash throughout (extensive)           |
+| Matthew-McConaughey           | YES            | "quintessentially" → "pure" (2x)         |
+| Michael-B-Jordan              | YES            | Em-dash → commas/colons throughout       |
+| Millie-Bobby-Brown            | YES            | Em-dash → commas throughout              |
+| Palmer-Luckey                 | YES            | Em-dash throughout + description update  |
+| Pokimane                      | YES            | Em-dash → commas/colons throughout       |
+| Ronald-Reagan                 | YES            | Wording + suggestions added              |
+| Sam-Altman                    | YES            | Em-dash → commas/colons throughout       |
+| Scarlett-Johansson            | YES            | Wording changes (2x)                     |
+| Shane-Gillis                  | YES            | Em-dash → commas/colons throughout       |
+| Sydney-Sweeney                | YES            | Social handles + em-dash standardization |
+| Taylor-Swift                  | YES            | Em-dash → commas/periods throughout      |
+| Taylor-Swift-updated-sections | YES            | Em-dash → commas/periods throughout      |
+| Tim-Robinson                  | YES            | Wording changes (2x)                     |
+| Tom-Cruise                    | YES            | Wording changes                          |
+| Vladimir-Putin                | YES            | Em-dash → commas throughout              |
+| Zendaya                       | YES            | Em-dash → commas/colons throughout       |
 
-| Person                       | Update lastmod | Changes                                   |
-| ---------------------------- | -------------- | ----------------------------------------- |
-| Abraham-Lincoln              | YES            | Em-dash → commas/colons throughout        |
-| Alex-Cooper                  | YES            | "quintessential" → "classic"              |
-| Alexandria-Ocasio-Cortez     | YES            | Em-dash → commas throughout               |
-| Alexis-Bledel                | YES            | Em-dash → commas throughout               |
-| Ariana-Grande                | YES            | Em-dash → commas/colons throughout        |
-| Bill-Gates                   | YES            | Wording + suggestions format + socials    |
-| Bobbi-Althoff                | YES            | "quintessential" → "classic"              |
-| Cillian-Murphy               | YES            | Em-dash → commas throughout               |
-| Cristiano-Ronaldo            | YES            | Em-dash → commas throughout               |
-| Dave-Portnoy                 | YES            | "quintessentially" → "textbook"           |
-| Doja-Cat                     | YES            | Em-dash → commas/colons throughout        |
-| Donald-Trump                 | YES            | "quintessential" → "classic/textbook"     |
-| Drake                        | YES            | Em-dash → colons/periods throughout       |
-| George-H-W-Bush              | YES            | Wording + twitter format                  |
-| Greta-Thunberg               | YES            | Wording + suggestions added               |
-| Grimes                       | YES            | "quintessentially" → "pure"               |
-| Gwyneth-Paltrow              | YES            | Em-dash → commas/colons throughout        |
-| Hailey-Bieber                | YES            | "quintessential" → "classic"              |
-| Hozier                       | YES            | Wording + removed empty svelte:head       |
-| J.K.-Rowling                 | YES            | Em-dash → commas + suggestions expanded   |
-| Jennifer-Garner              | YES            | Wording + social handles format           |
-| Jocko-Willink                | YES            | Wording + disclaimer added                |
-| Joe-Biden                    | YES            | Em-dash → commas + suggestions added      |
-| Kamala-Harris                | YES            | Wording + suggestions/social format       |
-| Malcolm-Gladwell             | YES            | "quintessential" → "classic"              |
-| Matthew-McConaughey          | YES            | "quintessentially" → "pure" (2x)          |
-| Michael-B-Jordan             | YES            | Em-dash → commas/colons throughout        |
-| Millie-Bobby-Brown           | YES            | Em-dash → commas throughout               |
-| Palmer-Luckey                | YES            | "quintessential" → "classic"              |
-| Pedro-Pascal                 | YES            | "quintessential" → "classic"              |
-| Pokimane                     | YES            | Em-dash → commas/colons throughout        |
-| Ronald-Reagan                | YES            | Wording + suggestions added               |
-| Sam-Altman                   | YES            | Em-dash → commas/colons throughout        |
-| Scarlett-Johansson           | YES            | Wording changes (2x)                      |
-| Shane-Gillis                 | YES            | Em-dash → commas/colons throughout        |
-| Sundar-Pichai                | YES            | "quintessential" → "classic"              |
-| Sydney-Sweeney               | YES            | Social handles + em-dash standardization  |
-| Taylor-Swift                 | YES            | Em-dash → commas/periods throughout       |
-| Taylor-Swift-updated-sections| YES            | Em-dash → commas/periods throughout       |
-| Tim-Robinson                 | YES            | Wording changes (2x)                      |
-| Tom-Cruise                   | YES            | Wording changes                           |
-| Vladimir-Putin               | YES            | Em-dash → commas throughout               |
-| Xi-Jinping                   | YES            | "quintessential" → "classic"              |
-| Zendaya                      | YES            | Em-dash → commas/colons throughout        |
+---
+
+## SINGLE-WORD CHANGES ONLY (NO lastmod update)
+
+These blogs have only a single word replacement ("quintessential" → "classic"). Too minor to warrant a lastmod update.
+
+| Person        | Change                       | Push to DB? |
+| ------------- | ---------------------------- | ----------- |
+| Alex-Cooper   | "quintessential" → "classic" | Yes         |
+| Grimes        | "quintessentially" → "pure"  | Yes         |
+| Hailey-Bieber | "quintessential" → "classic" | Yes         |
+| Pedro-Pascal  | "quintessential" → "classic" | Yes         |
+| Sundar-Pichai | "quintessential" → "classic" | Yes         |
+| Xi-Jinping    | "quintessential" → "classic" | Yes         |
 
 ---
 
@@ -182,13 +188,13 @@ These blogs have em-dash (—) standardization and wording changes. Primary chan
 
 These blogs only have minimal metadata changes that don't require lastmod updates.
 
-| Person         | Changes                                  | Push to DB?            |
-| -------------- | ---------------------------------------- | ---------------------- |
-| Amy-Poehler    | Suggestions expanded + disclaimer added  | YES - suggestions only |
-| Ashby          | Instagram/TikTok format + disclaimer     | YES - suggestions only |
-| James-Charles  | Social handles format only               | Optional               |
-| Justin-Trudeau | Social handles format only               | Optional               |
-| Kristen-Bell   | Social handles format only               | Optional               |
+| Person         | Changes                                 | Push to DB?            |
+| -------------- | --------------------------------------- | ---------------------- |
+| Amy-Poehler    | Suggestions expanded + disclaimer added | YES - suggestions only |
+| Ashby          | Instagram/TikTok format + disclaimer    | YES - suggestions only |
+| James-Charles  | Social handles format only              | Optional               |
+| Justin-Trudeau | Social handles format only              | Optional               |
+| Kristen-Bell   | Social handles format only              | Optional               |
 
 ---
 
@@ -234,10 +240,9 @@ Only these 2 blogs have JSON-LD that needs to be pushed to `jsonld_snippet`:
 - [ ] Tucker-Carlson (+ jsonld_snippet)
 - [ ] Jordan-Peterson
 
-### Priority 4: Content/Punctuation Changes (PATCH content + lastmod)
+### Priority 4: Substantial Changes (PATCH content + lastmod)
 
 - [ ] Abraham-Lincoln
-- [ ] Alex-Cooper
 - [ ] Alexandria-Ocasio-Cortez
 - [ ] Alexis-Bledel
 - [ ] Ariana-Grande
@@ -251,9 +256,7 @@ Only these 2 blogs have JSON-LD that needs to be pushed to `jsonld_snippet`:
 - [ ] Drake
 - [ ] George-H-W-Bush
 - [ ] Greta-Thunberg
-- [ ] Grimes
 - [ ] Gwyneth-Paltrow
-- [ ] Hailey-Bieber
 - [ ] Hozier
 - [ ] J.K.-Rowling
 - [ ] Jennifer-Garner
@@ -265,20 +268,17 @@ Only these 2 blogs have JSON-LD that needs to be pushed to `jsonld_snippet`:
 - [ ] Michael-B-Jordan
 - [ ] Millie-Bobby-Brown
 - [ ] Palmer-Luckey
-- [ ] Pedro-Pascal
 - [ ] Pokimane
 - [ ] Ronald-Reagan
 - [ ] Sam-Altman
 - [ ] Scarlett-Johansson
 - [ ] Shane-Gillis
-- [ ] Sundar-Pichai
 - [ ] Sydney-Sweeney
 - [ ] Taylor-Swift
 - [ ] Taylor-Swift-updated-sections
 - [ ] Tim-Robinson
 - [ ] Tom-Cruise
 - [ ] Vladimir-Putin
-- [ ] Xi-Jinping
 - [ ] Zendaya
 
 ### Priority 5: Suggestions/Format Only (PATCH suggestions, no lastmod)
@@ -289,6 +289,15 @@ Only these 2 blogs have JSON-LD that needs to be pushed to `jsonld_snippet`:
 - [ ] Justin-Trudeau (optional)
 - [ ] Kristen-Bell (optional)
 
+### Priority 6: Single-Word Only (Optional, no lastmod)
+
+- [ ] Alex-Cooper (optional)
+- [ ] Grimes (optional)
+- [ ] Hailey-Bieber (optional)
+- [ ] Pedro-Pascal (optional)
+- [ ] Sundar-Pichai (optional)
+- [ ] Xi-Jinping (optional)
+
 ---
 
 ## Change Summary
@@ -297,18 +306,18 @@ Only these 2 blogs have JSON-LD that needs to be pushed to `jsonld_snippet`:
 
 The majority of punctuation changes involve converting em-dashes (—) to more readable alternatives:
 
-| Original Pattern           | New Pattern                          |
-| -------------------------- | ------------------------------------ |
-| `word—explanation`         | `word, explanation` or `word: explanation` |
-| `word—and more text`       | `word. And more text.`               |
-| `word—classic behavior`    | `word, classic behavior`             |
+| Original Pattern        | New Pattern                                |
+| ----------------------- | ------------------------------------------ |
+| `word—explanation`      | `word, explanation` or `word: explanation` |
+| `word—and more text`    | `word. And more text.`                     |
+| `word—classic behavior` | `word, classic behavior`                   |
 
 ### Word Replacements
 
-| Original                   | Replacement                          |
-| -------------------------- | ------------------------------------ |
-| quintessential             | classic, textbook, pure, core        |
-| quintessentially           | purely, truly, definitively          |
+| Original         | Replacement                   |
+| ---------------- | ----------------------------- |
+| quintessential   | classic, textbook, pure, core |
+| quintessentially | purely, truly, definitively   |
 
 ---
 
