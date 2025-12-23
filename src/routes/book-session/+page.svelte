@@ -128,7 +128,7 @@
 <SEOHead
 	{title}
 	description={metaDescription}
-	canonical="{domain}/book-session"
+	canonical={`${domain}/book-session`}
 	twitterCardType="summary_large_image"
 	{ogImage}
 	twitterCreator={twitterHandle}

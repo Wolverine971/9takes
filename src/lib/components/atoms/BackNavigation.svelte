@@ -1,6 +1,5 @@
 <!-- src/lib/components/atoms/BackNavigation.svelte -->
 <script lang="ts">
-	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { browser } from '$app/environment';
 
@@ -26,21 +25,22 @@
 		return '/' + steps.slice(0, index).join('/');
 	}
 
-	function displayRoute(): void {
-		if ($page.route.id) {
-			const tempSteps = $page.route.id.split('/').filter((x) => {
-				if (!x) return false;
-				if (['users', 'unsubscribe', 'type', 'subtopic'].includes(x)) {
-					return $page.route.id?.includes('/admin');
-				}
-				return true;
-			});
+	function buildNavSteps(pathname: string): NavStep[] {
+		if (!pathname) return [];
 
-			navSteps = tempSteps.slice(0, -1).map((step, i) => ({
-				name: step === 'questions' ? 'Question List' : step.replace(/-/g, ' '),
-				url: getHref(i + 1, tempSteps)
-			}));
-		}
+		const isAdminRoute = pathname.includes('/admin');
+		const pathSegments = pathname.split('/').filter((segment) => {
+			if (!segment) return false;
+			if (['users', 'unsubscribe', 'type', 'subtopic'].includes(segment)) {
+				return isAdminRoute;
+			}
+			return true;
+		});
+
+		return pathSegments.slice(0, -1).map((segment, i) => ({
+			name: segment === 'questions' ? 'Question List' : segment.replace(/-/g, ' '),
+			url: getHref(i + 1, pathSegments)
+		}));
 	}
 
 	function goBack() {
@@ -52,7 +52,7 @@
 	// Get the previous page from navSteps
 	$: previousPage = navSteps.length > 0 ? navSteps[navSteps.length - 1] : null;
 
-	afterNavigate(displayRoute);
+	$: navSteps = $page?.url?.pathname ? buildNavSteps($page.url.pathname) : [];
 </script>
 
 <svelte:head>

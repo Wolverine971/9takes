@@ -99,7 +99,7 @@
 		</div>
 	{/if}
 
-	<TableOfContents {contentStore} pageUrl={`https://9takes.com/how-to-guides/${data.slug}`} />
+	<TableOfContents {contentStore} />
 
 	<svelte:component this={component} />
 </article>

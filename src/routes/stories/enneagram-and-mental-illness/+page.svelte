@@ -271,7 +271,7 @@
 		<!-- Schema.org structured data -->
 		<script type="application/ld+json">
 			{
-				"@context": "http://schema.org",
+				"@context": "https://schema.org",
 				"@type": "Article",
 				"mainEntityOfPage": {
 					"@type": "WebPage",

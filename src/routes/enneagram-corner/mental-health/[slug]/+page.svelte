@@ -114,7 +114,6 @@
 
 	<TableOfContents
 		{contentStore}
-		pageUrl={`https://9takes.com/enneagram-corner/mental-health/${data.slug}`}
 	/>
 
 	<svelte:component this={component} />

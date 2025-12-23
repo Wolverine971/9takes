@@ -68,16 +68,34 @@
 		return parents;
 	};
 
+	const pageTitle = '9takes | Question Categories';
+	const pageDescription =
+		'Browse questions organized by category. User generated questions with comments sorted by personality type.';
+	const canonicalUrl = 'https://9takes.com/questions/categories';
+	const shareImage = 'https://9takes.com/questions-default.webp';
+
 	// console.log('subCats', subCats);
 </script>
 
 <svelte:head>
-	<title>9takes | Question Categories</title>
-	<meta
-		name="description"
-		content="Browse questions organized by category. User generated questions with comments sorted by personality type."
-	/>
-	<link rel="canonical" href="https://9takes.com/questions/categories" />
+	<title>{pageTitle}</title>
+	<meta name="description" content={pageDescription} />
+	<link rel="canonical" href={canonicalUrl} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:site_name" content="9takes" />
+	<meta property="og:title" content={pageTitle} />
+	<meta property="og:description" content={pageDescription} />
+	<meta property="og:image" content={shareImage} />
+	<meta property="og:locale" content="en_US" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@9takesdotcom" />
+	<meta name="twitter:creator" content="@djwayne3" />
+	<meta name="twitter:title" content={pageTitle} />
+	<meta name="twitter:description" content={pageDescription} />
+	<meta name="twitter:image" content={shareImage} />
+	<meta name="twitter:image:alt" content="Question categories on 9takes" />
+	<meta name="twitter:url" content={canonicalUrl} />
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",

@@ -7,6 +7,11 @@
 	let title: string = data?.meta_title || data?.title;
 	let description: string = data?.description;
 	const formattedTitle = title ? `${title}` : '9takes';
+	const defaultShareImage = 'https://9takes.com/brand/aero.png';
+	const shareImage = data?.pic
+		? `https://9takes.com/blogs/${data.pic}.webp`
+		: defaultShareImage;
+	const shareImageAlt = data?.pic ? data.pic.split('-').join(' ') : title || '9takes';
 
 	let jsonldString = {
 		'@context': 'https://schema.org',
@@ -31,9 +36,7 @@
 		description: description,
 		datePublished: data.date,
 		dateModified: data.lastmod,
-		image: data?.pic
-			? `https://9takes.com/blogs/${data.pic}.webp`
-			: 'https://9takes.com/brand/aero.png',
+		image: shareImage,
 		publisher: {
 			'@type': 'Organization',
 			sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom'],
@@ -57,34 +60,32 @@
 	let jsonld = JSON.stringify(jsonldString);
 
 	const isHowToGuide = slug.includes('how-to');
-	const tags = isHowToGuide
+	const tags = (isHowToGuide
 		? ['How to', 'Guide']
-		: ['Personality', 'Enneagram', 'Psychology', data.person?.split('-').join(' ')];
+		: ['Personality', 'Enneagram', 'Psychology', data.person ? data.person.split('-').join(' ') : null]
+	).filter((tag): tag is string => Boolean(tag));
 </script>
 
 <svelte:head>
 	<title>{formattedTitle}</title>
 	<link rel="canonical" href={`https://9takes.com/${slug}`} />
 	<meta name="description" content={description || title} />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
 	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={data.description} />
-	<meta property="og:type" content="website" />
+	<meta property="og:type" content="article" />
 	<meta property="og:url" content={`https://9takes.com/${slug}`} />
-	<meta property="og:image" content={`https://9takes.com/blogs/${data?.pic}.webp`} />
+	<meta property="og:image" content={shareImage} />
 
 	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:description" content={description || title} />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content={title} />
-	<meta property="twitter:url" content={`https://9takes.com/${slug}`} />
-	<meta name="twitter:image" content={`https://9takes.com/blogs/${data?.pic}.webp`} />
-	{#if data?.pic}
-		<meta name="twitter:image:alt" content={data?.pic?.split('-').join(' ')} />
-	{/if}
+	<meta name="twitter:url" content={`https://9takes.com/${slug}`} />
+	<meta name="twitter:image" content={shareImage} />
+	<meta name="twitter:image:alt" content={shareImageAlt} />
 	<meta property="article:author" content="DJ Wayne" />
 
 	<meta property="article:published_time" content={data.date} />

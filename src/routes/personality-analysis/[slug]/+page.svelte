@@ -269,7 +269,6 @@
 	</div>
 	<TableOfContents
 		{contentStore}
-		pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
 		sidePosition="right"
 		renderMode="accordion-only"
 	/>
@@ -281,7 +280,6 @@
 
 <TableOfContents
 	{contentStore}
-	pageUrl={`https://9takes.com/personality-analysis/${post.slug}`}
 	sidePosition="right"
 	renderMode="sidebar-only"
 />

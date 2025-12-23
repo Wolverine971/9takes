@@ -190,7 +190,7 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content={title} />
-	<meta property="twitter:url" content={url} />
+	<meta name="twitter:url" content={url} />
 	<meta name="twitter:image" content={imgUrl} />
 	{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
 </svelte:head>

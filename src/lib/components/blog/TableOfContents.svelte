@@ -6,7 +6,6 @@
 	import { browser } from '$app/environment';
 
 	export let contentStore: Writable<string>;
-	export let pageUrl: string;
 
 	// Configuration options with defaults
 	export let showAtScrollY: number = 1000;
@@ -32,7 +31,6 @@
 	let mainElement: HTMLElement | null = null;
 	let toc: string = '';
 	let content: string = '';
-	let jsonLd: string = '';
 	let initialized = false;
 	let contentProcessed = false;
 
@@ -439,26 +437,6 @@
 		}
 	}
 
-	function generateJsonLd(tocStructure: TocItem[], url: string): string {
-		if (!tocStructure.length) return '';
-
-		const jsonLd = {
-			'@context': 'https://schema.org',
-			'@type': 'Article',
-			mainEntityOfPage: {
-				'@type': 'WebPage',
-				'@id': url
-			},
-			about: tocStructure.map((item) => ({
-				'@type': 'Thing',
-				name: item.name,
-				description: item.children ? item.children.map((child) => child.name).join(', ') : undefined
-			}))
-		};
-
-		return JSON.stringify(jsonLd, null, 2);
-	}
-
 	// Throttle scroll handler for performance
 	let scrollTicking = false;
 	function handleScroll() {
@@ -535,7 +513,6 @@
 
 			if (tocHtml) {
 				toc = tocHtml;
-				jsonLd = generateJsonLd(tocStructure, pageUrl);
 				contentProcessed = true;
 				initialized = true;
 			} else if (!initialized) {
@@ -545,7 +522,6 @@
 					if (!contentProcessed) {
 						const result = generateTableOfContents(content);
 						toc = result.tocHtml;
-						jsonLd = generateJsonLd(result.tocStructure, pageUrl);
 						contentProcessed = true;
 					}
 				}, 500);
@@ -681,12 +657,6 @@
 		</div>
 	</details>
 {/if}
-
-<svelte:head>
-	{#if jsonLd}
-		{@html `<script type="application/ld+json">${jsonLd}</script>`}
-	{/if}
-</svelte:head>
 
 <style lang="scss">
 	.toc-sidebar {

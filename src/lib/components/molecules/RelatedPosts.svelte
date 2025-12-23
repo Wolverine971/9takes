@@ -36,42 +36,6 @@
 	// Format the niche type
 	$: capitalizedPluralNiche = postType ? formatNiche(postType) : '';
 
-	// Generate ItemList JSON-LD for related posts (client-side, limited SEO value but still useful)
-	$: itemListJsonLd = generateItemListJsonLd(sameNichePosts, sameEnneagramPosts);
-
-	function generateItemListJsonLd(nichePosts: any[], enneagramPosts: any[]): string {
-		const allPosts = [...nichePosts.slice(0, 6), ...enneagramPosts.slice(0, 6)];
-
-		if (!allPosts.length) return '';
-
-		// Remove duplicates by slug
-		const uniquePosts = allPosts.filter(
-			(post, index, self) => index === self.findIndex((p) => p.slug === post.slug)
-		);
-
-		return JSON.stringify({
-			'@context': 'https://schema.org',
-			'@type': 'ItemList',
-			name: 'Related Personality Analyses',
-			description: 'Related celebrity and famous person personality analysis articles',
-			numberOfItems: uniquePosts.length,
-			itemListElement: uniquePosts.map((post, index) => ({
-				'@type': 'ListItem',
-				position: index + 1,
-				item: {
-					'@type': 'Article',
-					name: post.title || post.slug.split('-').join(' '),
-					url: `https://9takes.com/personality-analysis/${post.slug}`,
-					image: `https://9takes.com/types/${post.enneagram}s/${post.slug}.webp`,
-					about: {
-						'@type': 'Person',
-						name: post.slug.split('-').join(' ')
-					}
-				}
-			}))
-		});
-	}
-
 	onMount(async () => {
 		try {
 			// Create the form data for the request
@@ -108,12 +72,6 @@
 		}
 	});
 </script>
-
-<svelte:head>
-	{#if itemListJsonLd}
-		{@html `<script type="application/ld+json">${itemListJsonLd}</script>`}
-	{/if}
-</svelte:head>
 
 <svelte:window bind:innerWidth />
 

@@ -149,8 +149,6 @@
 </script>
 
 <svelte:head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height" />
-
 	<title>9takes | One situation, 9 ways to see it</title>
 	<meta name="title" content="9takes | One situation, 9 ways to see it" />
 	<meta

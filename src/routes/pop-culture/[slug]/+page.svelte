@@ -125,7 +125,7 @@
 		</div>
 	{/if}
 
-	<TableOfContents {contentStore} pageUrl={`https://9takes.com/pop-culture/${data.slug}`} />
+	<TableOfContents {contentStore} />
 
 	<div class="article-content">
 		<svelte:component this={component} />

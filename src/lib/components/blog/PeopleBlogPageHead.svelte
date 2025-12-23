@@ -88,7 +88,6 @@
 	<title>{formattedTitle}</title>
 	<link rel="canonical" href={data.loc} />
 	<meta name="description" content={description || title} />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
 	<!-- Preload LCP image for faster paint -->
 	<link
@@ -103,7 +102,7 @@
 	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:type" content="website" />
+	<meta property="og:type" content="article" />
 	<meta property="og:url" content={data.loc} />
 	<meta
 		property="og:image"
@@ -114,15 +113,13 @@
 	<meta name="twitter:description" content={description || title} />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@djwayne3" />
-	<meta property="twitter:title" content={title} />
-	<meta property="twitter:url" content={data.loc} />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:url" content={data.loc} />
 	<meta
-		property="twitter:image"
+		name="twitter:image"
 		content={`https://9takes.com/types/${data.enneagram}s/${data.person}.webp`}
 	/>
-	{#if data?.pic}
-		<meta name="twitter:image:alt" content={data.person.split('-').join(' ')} />
-	{/if}
+	<meta name="twitter:image:alt" content={data.person.split('-').join(' ')} />
 
 	<meta property="article:author" content="DJ Wayne" />
 	<meta property="article:published_time" content={data.date} />

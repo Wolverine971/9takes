@@ -55,27 +55,47 @@
 	function formatUrl(name: string): string {
 		return `/questions/categories/${name.split(' ').join('-')}`;
 	}
+
+	const shareImage = 'https://9takes.com/questions-default.webp';
+	$: categoryName = data?.questionTag?.category_name || '';
+	$: categorySlug = categoryName ? categoryName.split(' ').join('-') : '';
+	$: pageTitle = categoryName
+		? `9takes Question Categories | ${categoryName}`
+		: '9takes Question Categories';
+	$: pageDescription = categoryName
+		? `Browse ${categoryName} questions. User generated questions with comments sorted by personality type.`
+		: 'Browse questions organized by category. User generated questions with comments sorted by personality type.';
+	$: canonicalUrl = categorySlug
+		? `https://9takes.com/questions/categories/${categorySlug}`
+		: 'https://9takes.com/questions/categories';
 </script>
 
 <svelte:head>
-	<title>{`9takes Question Categories | ${data.questionTag?.category_name}`}</title>
-	<meta
-		name="description"
-		content={`Browse ${data.questionTag?.category_name} questions. User generated questions with comments sorted by personality type.`}
-	/>
-	<link
-		rel="canonical"
-		href={`https://9takes.com/questions/categories/${data.questionTag?.category_name
-			.split(' ')
-			.join('-')}`}
-	/>
+	<title>{pageTitle}</title>
+	<meta name="description" content={pageDescription} />
+	<link rel="canonical" href={canonicalUrl} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:site_name" content="9takes" />
+	<meta property="og:title" content={pageTitle} />
+	<meta property="og:description" content={pageDescription} />
+	<meta property="og:image" content={shareImage} />
+	<meta property="og:locale" content="en_US" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@9takesdotcom" />
+	<meta name="twitter:creator" content="@djwayne3" />
+	<meta name="twitter:title" content={pageTitle} />
+	<meta name="twitter:description" content={pageDescription} />
+	<meta name="twitter:image" content={shareImage} />
+	<meta name="twitter:image:alt" content={`Questions in ${categoryName || 'this category'}`} />
+	<meta name="twitter:url" content={canonicalUrl} />
 	{@html `<script type="application/ld+json">
 		${JSON.stringify({
 			'@context': 'https://schema.org',
 			'@type': 'CollectionPage',
-			name: `${data.questionTag?.category_name} Questions | 9takes`,
-			description: `Browse ${data.questionTag?.category_name} questions. User generated questions with comments sorted by personality type.`,
-			url: `https://9takes.com/questions/categories/${data.questionTag?.category_name?.split(' ').join('-')}`,
+			name: categoryName ? `${categoryName} Questions | 9takes` : 'Question Categories | 9takes',
+			description: pageDescription,
+			url: canonicalUrl,
 			isPartOf: {
 				'@type': 'WebSite',
 				name: '9takes',
@@ -105,8 +125,8 @@
 					{
 						'@type': 'ListItem',
 						position: 4,
-						name: data.questionTag?.category_name,
-						item: `https://9takes.com/questions/categories/${data.questionTag?.category_name?.split(' ').join('-')}`
+						name: categoryName,
+						item: canonicalUrl
 					}
 				]
 			}
