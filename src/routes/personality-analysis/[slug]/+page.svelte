@@ -70,6 +70,9 @@
 					contentObserver.disconnect();
 					contentObserver = null;
 				}
+				if (contentUpdateTimeout) {
+					clearTimeout(contentUpdateTimeout);
+				}
 			};
 		}
 	});
@@ -81,8 +84,13 @@
 		resetPageState();
 	}
 
-	// Watch for slug changes and reinitialize content observer
-	$: if (data?.post?.slug) {
+	// Track current slug to detect navigation
+	let currentSlug = '';
+
+	// Watch for slug changes and reinitialize content observer - optimized
+	$: if (data?.post?.slug && data.post.slug !== currentSlug) {
+		currentSlug = data.post.slug;
+
 		// Reset content store when slug changes
 		contentStore.set('');
 
@@ -92,30 +100,18 @@
 			contentObserver = null;
 		}
 
-		// Set up new observer after a short delay to ensure DOM is updated
+		// Set up new observer after DOM updates - use requestIdleCallback for performance
 		if (browser) {
-			setTimeout(() => {
-				setupContentObserver();
-			}, 100);
-		}
-	}
+			const initObserver = () => {
+				tick().then(setupContentObserver);
+			};
 
-	// Also update content store directly when post content changes
-	$: if (post?.content && browser) {
-		// Wait for DOM to update with new content
-		tick().then(() => {
-			// Add a small delay to ensure {@html} has rendered
-			setTimeout(() => {
-				const node = document.querySelector('.article-body');
-				if (node) {
-					const currentContent = node.innerHTML;
-					if (currentContent && currentContent.trim() !== '') {
-						// Trigger content update which will cause TableOfContents to process
-						contentStore.set(currentContent);
-					}
-				}
-			}, 100); // Increased delay to ensure DOM is fully rendered
-		});
+			if ('requestIdleCallback' in window) {
+				(window as any).requestIdleCallback(initObserver, { timeout: 200 });
+			} else {
+				setTimeout(initObserver, 50);
+			}
+		}
 	}
 
 	// Reset state when navigating to a new page
@@ -131,53 +127,50 @@
 
 	let commentsObserver: IntersectionObserver;
 
-	// Set up content observer for Table of Contents
+	// Set up content observer for Table of Contents - optimized with debouncing
+	let contentUpdateTimeout: ReturnType<typeof setTimeout> | null = null;
+
 	function setupContentObserver() {
 		if (!browser) return;
 
-		// Wait for next tick to ensure DOM is updated
-		tick().then(() => {
-			const node = document.querySelector('.article-body');
+		const node = document.querySelector('.article-body');
 
-			if (!node) {
-				// Retry if node not found
-				setTimeout(setupContentObserver, 500);
-			} else {
-				// Disconnect existing observer if any
-				if (contentObserver) {
-					contentObserver.disconnect();
-				}
+		if (!node) {
+			// Retry once if node not found
+			setTimeout(setupContentObserver, 200);
+			return;
+		}
 
-				// Set initial content immediately
-				const currentContent = node.innerHTML;
-				if (currentContent && currentContent.trim() !== '') {
-					contentStore.set(currentContent);
-				}
+		// Disconnect existing observer if any
+		if (contentObserver) {
+			contentObserver.disconnect();
+		}
 
-				// Set up observer for future changes
-				contentObserver = new MutationObserver((mutations) => {
-					// Debounce updates to avoid excessive re-renders
-					let hasRelevantChanges = false;
-					mutations.forEach((mutation) => {
-						if (mutation.type === 'childList' || mutation.type === 'characterData') {
-							hasRelevantChanges = true;
-						}
-					});
+		// Set initial content immediately
+		const currentContent = node.innerHTML;
+		if (currentContent && currentContent.trim() !== '') {
+			contentStore.set(currentContent);
+		}
 
-					if (hasRelevantChanges) {
-						const updatedContent = node.innerHTML;
-						if (updatedContent && updatedContent.trim() !== '') {
-							contentStore.set(updatedContent);
-						}
-					}
-				});
-
-				contentObserver.observe(node, {
-					childList: true,
-					subtree: true,
-					characterData: true
-				});
+		// Set up observer for future changes with debouncing
+		contentObserver = new MutationObserver(() => {
+			// Debounce updates to avoid excessive re-renders
+			if (contentUpdateTimeout) {
+				clearTimeout(contentUpdateTimeout);
 			}
+
+			contentUpdateTimeout = setTimeout(() => {
+				const updatedContent = node.innerHTML;
+				if (updatedContent && updatedContent.trim() !== '') {
+					contentStore.set(updatedContent);
+				}
+			}, 150);
+		});
+
+		contentObserver.observe(node, {
+			childList: true,
+			subtree: false, // Reduced scope - only direct children changes
+			characterData: false // Don't track text changes
 		});
 	}
 
@@ -269,7 +262,8 @@
 			showIcon={false}
 			enneagramType={post.enneagram}
 			displayText={post.person.split('-').join(' ')}
-			lazyLoad={false}
+			priority={true}
+			scramble={false}
 			subtext=""
 		/>
 	</div>

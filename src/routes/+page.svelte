@@ -381,7 +381,7 @@
 											class="relative h-48 w-48 overflow-hidden rounded-full border-4 border-primary-100"
 										>
 											<img
-												src={person.image || `/types/${i + 1}s/${person.name}.webp`}
+												src={person.image || `/types/${i + 1}s/s-${person.name}.webp`}
 												alt={person.name}
 												class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
 												loading={i < 3 ? 'eager' : 'lazy'}

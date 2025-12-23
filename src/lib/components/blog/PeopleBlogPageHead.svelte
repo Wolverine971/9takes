@@ -90,6 +90,15 @@
 	<meta name="description" content={description || title} />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
+	<!-- Preload LCP image for faster paint -->
+	<link
+		rel="preload"
+		as="image"
+		href={`/types/${data.enneagram}s/${data.person}.webp`}
+		fetchpriority="high"
+		type="image/webp"
+	/>
+
 	<!-- Existing meta tags -->
 	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content={title} />

@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
+	import { browser } from '$app/environment';
 
 	// Component props with default values
 	export let image = 'cyber-campfire.webp';
@@ -13,6 +14,9 @@
 	export let subtext = 'Ask questions, give your hot takes, talk to people';
 	export let scramble = true;
 	export let tint = true;
+	// LCP optimization props
+	export let lazyLoad = true; // Set to false for hero/LCP images
+	export let priority = false; // Set to true for LCP images to add fetchpriority="high"
 
 	// Constants and state variables
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -83,9 +87,16 @@
 		}
 	];
 
-	// Start text scramble animation on component mount
+	// Start text scramble animation on component mount - deferred for performance
 	onMount(() => {
-		if (scramble) startTextScramble();
+		if (scramble && browser) {
+			// Defer scramble animation to avoid blocking LCP
+			if ('requestIdleCallback' in window) {
+				(window as any).requestIdleCallback(() => startTextScramble(), { timeout: 500 });
+			} else {
+				setTimeout(startTextScramble, 100);
+			}
+		}
 		return () => {
 			if (interval) clearInterval(interval);
 		};
@@ -130,18 +141,37 @@
 	on:mouseleave={() => (showDescription = false)}
 >
 	<!-- Responsive image with proper loading attributes -->
-	<img
-		src={image}
-		srcset="{imageSrc} 218w, {image} 560w"
-		loading="lazy"
-		sizes="(max-width: 560px) 218px, 560px"
-		class="image-card__img"
-		class:image-card__img--home={showIcon}
-		class:image-card__img--profile={!showIcon}
-		class:image-card__img--tinted={tint && showDescription && enneagramType}
-		alt={altText || displayText}
-		in:fly={{ y: 200, duration: 2000 }}
-	/>
+	{#if priority}
+		<!-- LCP/Hero image - no transition, eager loading, high priority -->
+		<img
+			src={image}
+			srcset="{imageSrc} 218w, {image} 560w"
+			loading="eager"
+			fetchpriority="high"
+			decoding="async"
+			sizes="(max-width: 560px) 218px, 560px"
+			class="image-card__img"
+			class:image-card__img--home={showIcon}
+			class:image-card__img--profile={!showIcon}
+			class:image-card__img--tinted={tint && showDescription && enneagramType}
+			alt={altText || displayText}
+		/>
+	{:else}
+		<!-- Regular image with lazy loading and transition -->
+		<img
+			src={image}
+			srcset="{imageSrc} 218w, {image} 560w"
+			loading={lazyLoad ? 'lazy' : 'eager'}
+			decoding="async"
+			sizes="(max-width: 560px) 218px, 560px"
+			class="image-card__img"
+			class:image-card__img--home={showIcon}
+			class:image-card__img--profile={!showIcon}
+			class:image-card__img--tinted={tint && showDescription && enneagramType}
+			alt={altText || displayText}
+			in:fly={{ y: 200, duration: 2000 }}
+		/>
+	{/if}
 
 	<!-- Overlay with scanline effect -->
 	<div class="image-card__overlay" />
@@ -262,13 +292,17 @@
 		padding: 0;
 	}
 
-	// Title with glass effect
+	// Title with glass effect - min-height prevents CLS during font loading
 	.image-card__title {
 		@include glass(0.3, 8px, 0.2);
 		padding: 0.75rem;
 		margin: 0;
 		border-radius: 1rem;
 		color: white;
+		min-height: 1.5em; // Reserve space to prevent layout shift
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	// Subtitle with glass effect

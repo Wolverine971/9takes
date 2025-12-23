@@ -459,15 +459,21 @@
 		return JSON.stringify(jsonLd, null, 2);
 	}
 
+	// Throttle scroll handler for performance
+	let scrollTicking = false;
 	function handleScroll() {
-		if (!browser) return;
+		if (!browser || scrollTicking) return;
 
-		const scrollPosition = window.scrollY;
-		const pageHeight = document.documentElement.scrollHeight;
-		const windowHeight = window.innerHeight;
-		const distanceFromBottom = pageHeight - (scrollPosition + windowHeight);
+		scrollTicking = true;
+		requestAnimationFrame(() => {
+			const scrollPosition = window.scrollY;
+			const pageHeight = document.documentElement.scrollHeight;
+			const windowHeight = window.innerHeight;
+			const distanceFromBottom = pageHeight - (scrollPosition + windowHeight);
 
-		visible = scrollPosition > showAtScrollY && distanceFromBottom > hideBeforeBottom;
+			visible = scrollPosition > showAtScrollY && distanceFromBottom > hideBeforeBottom;
+			scrollTicking = false;
+		});
 	}
 
 	function handleResize() {
@@ -519,65 +525,88 @@
 	}
 
 	function processContent() {
-		if (!browser || !content) return;
+		if (!browser || !content || contentProcessed) return;
 
-		// If we have content but the TOC is empty or not processed yet
-		if (content && !contentProcessed) {
+		// Defer TOC processing to avoid blocking main thread
+		const doProcess = () => {
+			if (contentProcessed) return; // Double-check in case called multiple times
+
 			const { tocHtml, tocStructure } = generateTableOfContents(content);
 
 			if (tocHtml) {
 				toc = tocHtml;
 				jsonLd = generateJsonLd(tocStructure, pageUrl);
 				contentProcessed = true;
+				initialized = true;
 			} else if (!initialized) {
-				// If first attempt failed, try with a delay to ensure DOM is fully loaded
+				// If first attempt failed, retry once after DOM settles
+				initialized = true;
 				setTimeout(() => {
-					const { tocHtml, tocStructure } = generateTableOfContents(content);
-					toc = tocHtml;
-					jsonLd = generateJsonLd(tocStructure, pageUrl);
-					contentProcessed = true;
-				}, 1000);
+					if (!contentProcessed) {
+						const result = generateTableOfContents(content);
+						toc = result.tocHtml;
+						jsonLd = generateJsonLd(result.tocStructure, pageUrl);
+						contentProcessed = true;
+					}
+				}, 500);
 			}
+		};
 
-			initialized = true;
+		// Use requestIdleCallback to process during idle time
+		if ('requestIdleCallback' in window) {
+			(window as any).requestIdleCallback(doProcess, { timeout: 1000 });
+		} else {
+			// Fallback: defer with setTimeout
+			setTimeout(doProcess, 100);
 		}
 	}
 
-	// Add active state tracking for TOC links
+	// Add active state tracking for TOC links - throttled for performance
+	let activeLinkTicking = false;
 	function updateActiveTocLink() {
-		if (!browser || !contentAnalysis) return;
+		if (!browser || !contentAnalysis || activeLinkTicking) return;
 
-		// Get all headings using the dynamic selector and TOC links
-		const headings = Array.from(document.querySelectorAll(`${contentAnalysis.headerSelector}[id]`));
-		const tocLinks = document.querySelectorAll('.toc-link');
+		activeLinkTicking = true;
+		requestAnimationFrame(() => {
+			// Get all headings using the dynamic selector and TOC links
+			const headings = Array.from(
+				document.querySelectorAll(`${contentAnalysis!.headerSelector}[id]`)
+			);
+			const tocLinks = document.querySelectorAll('.toc-link');
 
-		if (!headings.length || !tocLinks.length) return;
-
-		// Find the heading that's currently visible
-		let activeHeading = null;
-		for (let i = 0; i < headings.length; i++) {
-			const heading = headings[i];
-			const rect = heading.getBoundingClientRect();
-
-			// Consider a heading as active if it's close to the top of the viewport
-			if (rect.top <= 100) {
-				activeHeading = heading;
-			} else {
-				break;
+			if (!headings.length || !tocLinks.length) {
+				activeLinkTicking = false;
+				return;
 			}
-		}
 
-		// Remove active class from all links
-		tocLinks.forEach((link) => link.classList.remove('active'));
+			// Find the heading that's currently visible
+			let activeHeading = null;
+			for (let i = 0; i < headings.length; i++) {
+				const heading = headings[i];
+				const rect = heading.getBoundingClientRect();
 
-		// Add active class to the matching link
-		if (activeHeading) {
-			const activeId = activeHeading.id;
-			const activeLink = document.querySelector(`.toc-link[href="#${activeId}"]`);
-			if (activeLink) {
-				activeLink.classList.add('active');
+				// Consider a heading as active if it's close to the top of the viewport
+				if (rect.top <= 100) {
+					activeHeading = heading;
+				} else {
+					break;
+				}
 			}
-		}
+
+			// Remove active class from all links
+			tocLinks.forEach((link) => link.classList.remove('active'));
+
+			// Add active class to the matching link
+			if (activeHeading) {
+				const activeId = activeHeading.id;
+				const activeLink = document.querySelector(`.toc-link[href="#${activeId}"]`);
+				if (activeLink) {
+					activeLink.classList.add('active');
+				}
+			}
+
+			activeLinkTicking = false;
+		});
 	}
 
 	// Process content whenever it changes
