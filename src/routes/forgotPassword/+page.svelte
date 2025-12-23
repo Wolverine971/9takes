@@ -28,6 +28,17 @@
 		}
 	}
 
+	function handleSubmit() {
+		submitting = true;
+		return async ({ result }: { result: { type: string } }) => {
+			submitting = false;
+			// Reset reCAPTCHA on failure so user can try again
+			if (result.type === 'failure') {
+				resetRecaptcha();
+			}
+		};
+	}
+
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
 </script>
 
@@ -56,17 +67,7 @@
 			action="?/forgotPass"
 			method="POST"
 			class="flex flex-col gap-4"
-			use:enhance={() => {
-				submitting = true;
-
-				return async ({ result }: { result: { type: string } }) => {
-					submitting = false;
-					// Reset reCAPTCHA on failure so user can try again
-					if (result.type === 'failure') {
-						resetRecaptcha();
-					}
-				};
-			}}
+			use:enhance={handleSubmit}
 		>
 			<div class="flex flex-col gap-2">
 				<label for="email" class="font-bold text-neutral-800">Email</label>
