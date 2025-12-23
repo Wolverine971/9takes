@@ -3,7 +3,7 @@ import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { AuthApiError } from '@supabase/supabase-js';
 import type { PageServerLoad } from './$types';
 import { logger } from '$lib/utils/logger';
-import { verifyTurnstile, isHoneypotTriggered } from '$lib/utils/turnstile';
+import { verifyRecaptcha, isHoneypotTriggered } from '$lib/utils/recaptcha';
 import { z } from 'zod';
 
 // Validation schema
@@ -40,13 +40,13 @@ export const actions: Actions = {
 				return { success: true };
 			}
 
-			// Verify Turnstile CAPTCHA
-			const turnstileToken = formData.get('cf-turnstile-response') as string;
+			// Verify Google reCAPTCHA
+			const recaptchaToken = formData.get('g-recaptcha-response') as string;
 			const clientIP = getClientAddress();
-			const turnstileValid = await verifyTurnstile(turnstileToken, clientIP);
+			const recaptchaValid = await verifyRecaptcha(recaptchaToken, clientIP);
 
-			if (!turnstileValid) {
-				logger.warn('Turnstile verification failed on registration', {
+			if (!recaptchaValid) {
+				logger.warn('reCAPTCHA verification failed on registration', {
 					email: body.email
 				});
 				return fail(400, {

@@ -1,7 +1,7 @@
 // src/routes/book-session/+page.server.ts
 import { fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
-import { verifyTurnstile } from '$lib/utils/turnstile';
+import { verifyRecaptcha } from '$lib/utils/recaptcha';
 
 // Common disposable email domains
 const DISPOSABLE_EMAIL_DOMAINS = new Set([
@@ -90,11 +90,11 @@ export const actions: Actions = {
 			return { success: true, message: 'You have been added to our waitlist!' };
 		}
 
-		// 1.5. Turnstile CAPTCHA verification
-		const turnstileToken = formData.get('cf-turnstile-response') as string;
-		const turnstileValid = await verifyTurnstile(turnstileToken, ipAddress);
-		if (!turnstileValid) {
-			console.log(`[BOT DETECTED] Turnstile verification failed from IP: ${ipAddress}`);
+		// 1.5. Google reCAPTCHA verification
+		const recaptchaToken = formData.get('g-recaptcha-response') as string;
+		const recaptchaValid = await verifyRecaptcha(recaptchaToken, ipAddress);
+		if (!recaptchaValid) {
+			console.log(`[BOT DETECTED] reCAPTCHA verification failed from IP: ${ipAddress}`);
 			return fail(400, {
 				success: false,
 				message: 'CAPTCHA verification failed. Please try again.',

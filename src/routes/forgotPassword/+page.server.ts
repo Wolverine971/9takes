@@ -1,7 +1,7 @@
 // src/routes/forgotPassword/+page.server.ts
 import { AuthApiError } from '@supabase/supabase-js';
 import { fail, redirect, type Actions } from '@sveltejs/kit';
-import { verifyTurnstile, isHoneypotTriggered } from '$lib/utils/turnstile';
+import { verifyRecaptcha, isHoneypotTriggered } from '$lib/utils/recaptcha';
 import { logger } from '$lib/utils/logger';
 
 import type { PageServerLoad } from './$types';
@@ -34,13 +34,13 @@ export const actions: Actions = {
 			};
 		}
 
-		// Verify Turnstile CAPTCHA
-		const turnstileToken = formData.get('cf-turnstile-response') as string;
+		// Verify Google reCAPTCHA
+		const recaptchaToken = formData.get('g-recaptcha-response') as string;
 		const clientIP = getClientAddress();
-		const turnstileValid = await verifyTurnstile(turnstileToken, clientIP);
+		const recaptchaValid = await verifyRecaptcha(recaptchaToken, clientIP);
 
-		if (!turnstileValid) {
-			logger.warn('Turnstile verification failed on forgot password', {
+		if (!recaptchaValid) {
+			logger.warn('reCAPTCHA verification failed on forgot password', {
 				email: body.email
 			});
 			return fail(400, {

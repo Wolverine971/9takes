@@ -5,7 +5,7 @@
 	import { enhance } from '$app/forms';
 	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
-	import { PUBLIC_TURNSTILE_SITE_KEY } from '$env/static/public';
+	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -19,11 +19,11 @@
 	onMount(() => {
 		formLoadTime = Date.now();
 
-		// Load Turnstile script
-		if (browser && !document.getElementById('turnstile-script')) {
+		// Load Google reCAPTCHA script
+		if (browser && !document.getElementById('recaptcha-script')) {
 			const script = document.createElement('script');
-			script.id = 'turnstile-script';
-			script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+			script.id = 'recaptcha-script';
+			script.src = 'https://www.google.com/recaptcha/api.js';
 			script.async = true;
 			script.defer = true;
 			document.head.appendChild(script);
@@ -301,10 +301,10 @@
 								</p>
 							</div>
 
-							<!-- Cloudflare Turnstile CAPTCHA -->
+							<!-- Google reCAPTCHA -->
 							<div
-								class="cf-turnstile"
-								data-sitekey={PUBLIC_TURNSTILE_SITE_KEY}
+								class="g-recaptcha"
+								data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY}
 								data-theme="light"
 							></div>
 

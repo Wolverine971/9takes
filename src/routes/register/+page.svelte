@@ -6,26 +6,26 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import { PUBLIC_TURNSTILE_SITE_KEY } from '$env/static/public';
+	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 
 	let email = '';
 	let password = '';
 	let loading = false;
-	let turnstileLoaded = false;
+	let recaptchaLoaded = false;
 
 	onMount(() => {
-		if (browser && !document.getElementById('turnstile-script')) {
+		if (browser && !document.getElementById('recaptcha-script')) {
 			const script = document.createElement('script');
-			script.id = 'turnstile-script';
-			script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+			script.id = 'recaptcha-script';
+			script.src = 'https://www.google.com/recaptcha/api.js';
 			script.async = true;
 			script.defer = true;
 			script.onload = () => {
-				turnstileLoaded = true;
+				recaptchaLoaded = true;
 			};
 			document.head.appendChild(script);
 		} else if (browser) {
-			turnstileLoaded = true;
+			recaptchaLoaded = true;
 		}
 	});
 
@@ -104,8 +104,8 @@
 			<input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
 		</div>
 
-		<!-- Cloudflare Turnstile CAPTCHA -->
-		<div class="cf-turnstile" data-sitekey={PUBLIC_TURNSTILE_SITE_KEY} data-theme="light"></div>
+		<!-- Google reCAPTCHA -->
+		<div class="g-recaptcha" data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY} data-theme="light"></div>
 
 		<button
 			type="submit"
