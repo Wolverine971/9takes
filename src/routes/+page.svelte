@@ -149,12 +149,6 @@
 </script>
 
 <svelte:head>
-	<!-- Preconnect to domains for faster loading -->
-	<link rel="preconnect" href="https://9takes.com" />
-
-	<!-- Preload critical asset -->
-	<link rel="preload" href="/greek_pantheon.png" as="image" />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height" />
 
 	<title>9takes | One situation, 9 ways to see it</title>
@@ -390,7 +384,10 @@
 												src={person.image || `/types/${i + 1}s/${person.name}.webp`}
 												alt={person.name}
 												class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-												loading={i < 6 ? 'eager' : 'lazy'}
+												loading={i < 3 ? 'eager' : 'lazy'}
+												decoding="async"
+												width="192"
+												height="192"
 											/>
 										</div>
 									</div>
@@ -478,6 +475,9 @@
 											alt={article.title}
 											class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
 											loading="lazy"
+											decoding="async"
+											width="400"
+											height="192"
 										/>
 										<div
 											class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"

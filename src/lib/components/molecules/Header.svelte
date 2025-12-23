@@ -58,7 +58,7 @@
 				class="logo-link absolute left-1/2 -translate-x-1/2 transform"
 				aria-label="Go to homepage"
 			>
-				<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
+				<img src="/brand/aero.webp" alt="9takes Logo" height="60" width="60" />
 			</a>
 
 			<!-- Notifications and Account -->
@@ -84,7 +84,7 @@
 		>
 			<!-- Logo & Brand -->
 			<a href="/" class="logo-link" aria-label="Go to homepage">
-				<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
+				<img src="/brand/aero.webp" alt="9takes Logo" height="60" width="60" />
 				<span>
 					{!isHomePage ? '9takes' : ' '}
 				</span>

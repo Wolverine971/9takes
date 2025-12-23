@@ -8,7 +8,6 @@
 
 	import { createEventDispatcher } from 'svelte';
 
-	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	const dispatch = createEventDispatcher();
 
 	export let parentType: string;
@@ -57,6 +56,8 @@
 			anonymousComment = true;
 		}
 
+		// Dynamically import FingerprintJS to avoid bundling in main chunk
+		const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
 		const fp = await FingerprintJS.load();
 		const fpval = await fp.get();
 

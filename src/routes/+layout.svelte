@@ -64,32 +64,58 @@
 		showBackButton = !isHomePage && !isCategoryPage;
 	}
 
+	// Defer analytics loading to after page is interactive
 	const initAnalytics = () => {
 		if (dev) return;
 
-		// Initialize Microsoft Clarity
-		if (document.URL.includes('9takes')) {
-			(function (c, l, a, r, i, t, y) {
-				c[a] =
-					c[a] ||
-					function () {
-						(c[a].q = c[a].q || []).push(arguments);
-					};
-				t = l.createElement(r);
-				t.async = 1;
-				t.src = 'https://www.clarity.ms/tag/' + i;
-				y = l.getElementsByTagName(r)[0];
-				y.parentNode.insertBefore(t, y);
-			})(window, document, 'clarity', 'script', 'g3hw5t1scg');
-		}
+		// Use requestIdleCallback to load analytics during idle time
+		const loadAnalytics = () => {
+			// Initialize Google Tag Manager - deferred loading
+			if (PUBLIC_GOOGLE) {
+				window.dataLayer = window.dataLayer || [];
+				window.gtag = function () {
+					window.dataLayer.push(arguments);
+				};
+				window.gtag('js', new Date());
+				window.gtag('config', PUBLIC_GOOGLE);
 
-		// Initialize Web Vitals
-		if (VERCEL_ANALYTICS_ID) {
-			webVitals({
-				path: $page.url.pathname,
-				params: $page.params,
-				analyticsId: VERCEL_ANALYTICS_ID
-			});
+				const script = document.createElement('script');
+				script.async = true;
+				script.src = `https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GOOGLE}`;
+				document.head.appendChild(script);
+			}
+
+			// Initialize Microsoft Clarity - deferred
+			if (document.URL.includes('9takes')) {
+				(function (c, l, a, r, i, t, y) {
+					c[a] =
+						c[a] ||
+						function () {
+							(c[a].q = c[a].q || []).push(arguments);
+						};
+					t = l.createElement(r);
+					t.async = 1;
+					t.src = 'https://www.clarity.ms/tag/' + i;
+					y = l.getElementsByTagName(r)[0];
+					y.parentNode.insertBefore(t, y);
+				})(window, document, 'clarity', 'script', 'g3hw5t1scg');
+			}
+
+			// Initialize Web Vitals
+			if (VERCEL_ANALYTICS_ID) {
+				webVitals({
+					path: $page.url.pathname,
+					params: $page.params,
+					analyticsId: VERCEL_ANALYTICS_ID
+				});
+			}
+		};
+
+		// Defer analytics to after main content is interactive
+		if ('requestIdleCallback' in window) {
+			(window as any).requestIdleCallback(loadAnalytics, { timeout: 3000 });
+		} else {
+			setTimeout(loadAnalytics, 1500);
 		}
 	};
 
@@ -206,18 +232,9 @@
 	<meta name="mobile-web-app-capable" content="yes" />
 
 	{#if !dev}
-		<script async src="https://www.googletagmanager.com/gtag/js?id={PUBLIC_GOOGLE}"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-			gtag('config', '{PUBLIC_GOOGLE}');
-		</script>
-		<link rel="preconnect" href="https://www.googletagmanager.com" />
-		<link rel="preconnect" href="https://www.clarity.ms" />
-		<link rel="preconnect" href="https://app.posthog.com" />
+		<!-- Use dns-prefetch instead of preconnect for lighter initial load -->
+		<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+		<link rel="dns-prefetch" href="https://www.clarity.ms" />
 	{/if}
 </svelte:head>
 

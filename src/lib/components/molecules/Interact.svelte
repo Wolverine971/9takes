@@ -3,7 +3,6 @@
 	import { createEventDispatcher, onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { slide } from 'svelte/transition';
-	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import BellIcon from '$lib/components/icons/bellIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
@@ -58,6 +57,8 @@
 		loading = true;
 
 		try {
+			// Dynamically import FingerprintJS to avoid bundling in main chunk
+			const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
 			const fp = await FingerprintJS.load();
 			const fpval = await fp.get();
 
