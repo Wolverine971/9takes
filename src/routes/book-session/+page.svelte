@@ -95,6 +95,12 @@
 		}
 	];
 
+	function resetRecaptcha() {
+		if (browser && window.grecaptcha) {
+			window.grecaptcha.reset();
+		}
+	}
+
 	/* ---------------- Reactive checks ---------------- */
 	$: if (data.alreadySignedUp && !form?.success) submitted = true;
 
@@ -104,6 +110,8 @@
 		loading = false;
 	} else if (form && !form.success) {
 		loading = false;
+		// Reset reCAPTCHA on failure so user can try again
+		resetRecaptcha();
 	}
 
 	onMount(() => {

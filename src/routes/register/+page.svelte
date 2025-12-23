@@ -29,9 +29,15 @@
 		}
 	});
 
+	function resetRecaptcha() {
+		if (browser && window.grecaptcha) {
+			window.grecaptcha.reset();
+		}
+	}
+
 	function handleSubmit() {
 		loading = true;
-		return async ({ result }) => {
+		return async ({ result }: { result: { type: string; data?: { error?: string } } }) => {
 			loading = false;
 			if (result.type === 'success') {
 				notifications.success('Registration successful! Please check your email.', 6000);
@@ -39,6 +45,8 @@
 				invalidateAll();
 			} else if (result.type === 'failure') {
 				notifications.danger(result.data?.error || 'An error occurred', 3000);
+				// Reset reCAPTCHA so user can try again
+				resetRecaptcha();
 			}
 		};
 	}

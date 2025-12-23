@@ -22,6 +22,12 @@
 		}
 	});
 
+	function resetRecaptcha() {
+		if (browser && window.grecaptcha) {
+			window.grecaptcha.reset();
+		}
+	}
+
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
 </script>
 
@@ -53,9 +59,12 @@
 			use:enhance={() => {
 				submitting = true;
 
-				return async ({ result }) => {
+				return async ({ result }: { result: { type: string } }) => {
 					submitting = false;
-					// The form is automatically updated with the result
+					// Reset reCAPTCHA on failure so user can try again
+					if (result.type === 'failure') {
+						resetRecaptcha();
+					}
 				};
 			}}
 		>

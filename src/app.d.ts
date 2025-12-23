@@ -31,6 +31,16 @@ interface SbSession extends Session {
 	user?: TakesUser;
 }
 
+// Google reCAPTCHA global
+interface Window {
+	grecaptcha: {
+		reset: (widgetId?: number) => void;
+		getResponse: (widgetId?: number) => string;
+		execute: (widgetId?: number) => void;
+		render: (container: string | HTMLElement, parameters: object) => number;
+	};
+}
+
 declare global {
 	declare namespace App {
 		// interface Error {}
