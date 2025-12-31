@@ -218,7 +218,7 @@ This **collective efficacy belief protects Type 1s** from their own perfectionis
 
 ## Legacy and Current Work: The Reformer at 22
 
-At 22, Greta Thunberg has accomplished what most activists never achieve, genuine global impact. Time Magazine's 2019 Person of the Year, Nobel Peace Prize nominee multiple times, and catalyst for the largest climate protests in human history.
+At 22, Greta Thunberg has accomplished what most activists never achieve: genuine global impact. Time Magazine's 2019 Person of the Year, Nobel Peace Prize nominee multiple times, and the spark that ignited the largest climate protests in human history.
 
 But for Type 1s, accomplishments are never enough. The world remains imperfect, and the internal critic never rests.
 

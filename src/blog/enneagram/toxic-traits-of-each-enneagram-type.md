@@ -181,7 +181,7 @@ This workaholic tendency stems from their inability to separate their worth from
 
 Type 4s don't just experience emotions – they perform them.
 
-A minor inconvenience becomes an existential crisis. A small slight transforms into soul-crushing rejection. Their suffering is always deeper, their joy more profound, their experience more intense than yours could ever be.
+A minor inconvenience becomes an existential crisis. A small slight transforms into soul-crushing rejection. Their suffering is always deeper, their joy more striking, their experience more intense than yours could ever be.
 
 This melodrama stems from their fear of being ordinary. If their emotions aren't extraordinary, what makes them special?
 
@@ -363,7 +363,7 @@ When tensions rise, Type 9s become experts in disappearing acts.
 
 Not physically (though sometimes that too), but emotionally. They check out. Their eyes glaze over. They become psychologically absent while their body remains in the room.
 
-This emotional vanishing stems from their profound discomfort with disturbance. Conflict threatens their inner peace, so they retreat to their mental sanctuary rather than engage.
+This emotional vanishing stems from their deep discomfort with disturbance. Conflict threatens their inner peace, so they retreat to their mental sanctuary rather than engage.
 
 ### The Master Procrastinator Who Lets Problems Fester
 

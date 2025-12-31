@@ -179,7 +179,7 @@ Type 3s frequently prioritize work and achievement over emotional presence. They
 
 A Type 3 might spend an entire anniversary dinner checking emails or networking with nearby diners, leaving their partner feeling invisible and unimportant.
 
-This creates a profound loneliness—the special pain of being alone while together.
+This creates a deep loneliness—the special pain of being alone while together.
 
 [More on Type 3s](/enneagram-corner/enneagram-type-3)
 
@@ -375,7 +375,7 @@ This creates an environment where partners walk on eggshells, afraid to trigger 
 
 Type 8s frequently conceal tender emotions behind impenetrable walls. They might respond to expressions of love with jokes or deflection, rejecting vulnerability even with those closest to them.
 
-This emotional unavailability creates a profound disconnection, where partners feel they can never truly reach the Type 8's heart.
+This emotional unavailability creates a deep disconnection, where partners feel they can never truly reach the Type 8's heart.
 
 [More on Type 8s](/enneagram-corner/enneagram-type-8)
 
@@ -415,7 +415,7 @@ This conflict-avoidance creates more damaging conflict than direct communication
 
 Type 9s frequently numb their emotions to maintain internal peace, creating an emotional flatline that leaves partners feeling disconnected. They might respond to both crises and joys with the same level detachment.
 
-This emotional unavailability creates a profound loneliness for partners, who feel neither positive nor negative emotions are truly shared.
+This emotional unavailability creates a deep loneliness for partners, who feel neither positive nor negative emotions are truly shared.
 
 #### The Disappearing Self
 

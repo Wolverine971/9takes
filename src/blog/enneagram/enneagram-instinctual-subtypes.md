@@ -199,7 +199,7 @@ Below, we’ll explore how each subtype can alter the expression of the nine Enn
 - May form a strong bond with one or two people, exchanging deep thoughts
 - Can be protective or territorial about those they connect with deeply
 
-**Recognize Them**: A small circle of deep relationships, often marked by philosophical or profound dialogue.
+**Recognize Them**: A small circle of deep relationships, often marked by philosophical or meaningful dialogue.
 
 ---
 

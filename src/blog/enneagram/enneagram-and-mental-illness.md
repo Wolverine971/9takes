@@ -384,7 +384,7 @@ Type 5s are susceptible to:
 
 #### Severe – Extreme Isolation and Psychotic Tendencies
 
-- Profound isolation, severe mental health decline
+- Severe isolation, severe mental health decline
 - Distorted perceptions or potential psychotic breaks
 - Suicidal ideation or tendencies
 - Complete disconnection from reality, with refusal to seek help
@@ -614,7 +614,7 @@ Type 9s are susceptible to:
 - Over-dependence on others for emotional stability
 - Emotional flatness or chronic disengagement
 
-#### Severe – Profound Dissociation and Loss of Self
+#### Severe – Severe Dissociation and Loss of Self
 
 - Chronic depression and emotional numbness
 - Severe depersonalization or dissociative episodes

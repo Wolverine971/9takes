@@ -369,7 +369,7 @@ Let's explore how shadow work looks for each of the nine types.
 
 - **Practice:** Find beauty in mundane moments and activities
 - **Technique:** Gratitude practice focused on simple, everyday pleasures
-- **Shadow gift:** Discovering that ordinary life contains its own profound beauty
+- **Shadow gift:** Discovering that ordinary life contains its own deep beauty
 
 **2. Take Responsibility for Your Emotions**
 

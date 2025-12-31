@@ -192,7 +192,7 @@ You live in your head. Anxiety drives you to prepare, escape, or understand.
 
 **Under stress**: Type 7s become critical and perfectionistic like unhealthy Type 1s. The optimist turns into a harsh judge. [Understand what breaks the 7's spirit](/enneagram-corner/enneagram-types-in-stress).
 
-**The shadow work**: 7s avoid their shadow more aggressively than any type. When they finally face it, the growth is profound. [Explore shadow work for each type](/enneagram-corner/shadow-work-by-enneagram-type).
+**The shadow work**: 7s avoid their shadow more aggressively than any type. When they finally face it, the growth is deep. [Explore shadow work for each type](/enneagram-corner/shadow-work-by-enneagram-type).
 
 ---
 

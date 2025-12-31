@@ -282,7 +282,7 @@ Type 9s merge with others and minimize themselves to maintain harmony. They're o
 
 The Enneagram is a mirror, reflecting the multifaceted nature of humanity. By understanding and appreciating each type, we bridge gaps, forge connections, and create a world rich in empathy and understanding.
 
-To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is so much more to explore. 🚀
+To explore more of the Enneagram world, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is so much more to discover. 🚀
 
 <svelte:head>
 

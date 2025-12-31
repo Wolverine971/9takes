@@ -291,7 +291,7 @@ They're less interested in small talk and more focused on revealing—and discov
 
 Type 4s experience first dates with emotional intensity:
 
-- Hope for a profound connection
+- Hope for a deep connection
 - Vulnerability about showing their true self
 - Melancholy (a familiar companion)
 - Excitement about discovering your inner world

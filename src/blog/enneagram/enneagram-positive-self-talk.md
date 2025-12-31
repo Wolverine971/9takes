@@ -478,10 +478,10 @@ _Pattern to Watch:_ You'll likely discover you create drama when things are stab
 
 **Week 2: Interruption Techniques**
 
-Finding the profound in the ordinary.
+Finding the meaningful in the ordinary.
 
 _The Ordinary Beauty Practice:_
-Find profound meaning in mundane moments:
+Find real meaning in mundane moments:
 
 - The way light hits your coffee
 - The rhythm of typing

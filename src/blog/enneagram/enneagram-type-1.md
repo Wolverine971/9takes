@@ -25,16 +25,16 @@ path: src/blog/enneagram/enneagram-type-1.md
 </script>
 
 <QuickAnswer question="Why do Type 1s constantly criticize everything?">
-Type 1s live in an internal courtroom where they prosecute themselves against impossible standards. This harsh inner critic developed from childhood experiences of criticism or premature responsibility, creating a core belief that they're fundamentally flawed. They criticize others because their internal standards leak outward—the same harsh voice judging them judges everything around them. It's not pickiness; it's moral survival.
+Type 1s live in an internal courtroom where they prosecute themselves against impossible standards. This harsh inner critic developed from childhood experiences of criticism or premature responsibility, creating a core belief that they're fundamentally flawed. They criticize others because their internal standards leak outward: the same harsh voice judging them judges everything around them. It's not pickiness; it's moral survival.
 </QuickAnswer>
 
 **Read time**: 12 minutes | **Core wound**: Believing they're fundamentally corrupt or bad
 
 <p class="firstLetter">The child makes a mistake. Small. Forgettable. But the reaction is swift and disproportionate. Disappointment clouds the parent's face. Words cut deeper than intended: "You should know better." "This isn't good enough." "What's wrong with you?"</p>
 
-In that moment, something crystallizes in the young One's mind: **I am bad. Not just my action—me. Something inside me is fundamentally flawed, corrupt, wrong.**
+In that moment, something crystallizes in the young One's mind: **I am bad. Not just my action but me. Something inside me is fundamentally flawed, corrupt, wrong.**
 
-And so begins a lifetime quest for redemption through perfection. If they can just be good enough, do things right enough, improve themselves enough, maybe—just maybe—they can prove that voice wrong. The voice that started outside but now lives within, prosecuting their every thought, word, and action against an impossible standard.
+And so begins a lifetime quest for redemption through perfection. If they can just be good enough, do things right enough, improve themselves enough, maybe (just maybe) they can prove that voice wrong. The voice that started outside but now lives within, prosecuting their every thought, word, and action against an impossible standard.
 
 This is the birth of Type 1, "The Perfectionist." Not someone who simply prefers things done well, but someone fighting for their moral survival with every correctly folded towel, every met deadline, every principled stand.
 
@@ -42,7 +42,7 @@ This is the birth of Type 1, "The Perfectionist." Not someone who simply prefers
 
 ## The Internal Courtroom
 
-Type 1s don't just have high standards—they live in a perpetual trial where they serve as defendant, prosecutor, judge, and jury.
+Type 1s don't just have high standards. They live in a perpetual trial where they serve as defendant, prosecutor, judge, and jury.
 
 Every action goes on trial. Did I respond to that email quickly enough? (Prosecutor: "You procrastinated." Defense: "I was gathering necessary information." Judge: "Guilty of inefficiency.") Did I handle that conflict correctly? Was my work good enough? Am I good enough?
 
@@ -58,7 +58,7 @@ Here's the cruel irony: Type 1's core emotion is anger, but they're often the la
 
 Anger feels wrong, dangerous, proof of the badness they're trying to disprove. So it transforms. Anger becomes "frustration." Rage becomes "disappointment." Fury becomes "concern." They've developed such sophisticated emotional alchemy that they genuinely don't recognize their anger as anger.
 
-Instead, it leaks out as criticism, rigidity, resentment—the socially acceptable faces of rage. They're angry at the world for being imperfect, at others for not trying hard enough, at themselves for feeling angry about it all.
+Instead, it leaks out as criticism, rigidity, resentment (the socially acceptable faces of rage). They're angry at the world for being imperfect, at others for not trying hard enough, at themselves for feeling angry about it all.
 
 <div class="scroll-table">
 
@@ -74,7 +74,7 @@ Instead, it leaks out as criticism, rigidity, resentment—the socially acceptab
 
 ## The Perfection Paradox
 
-For Type 1s, perfection isn't a goal—it's a baseline requirement for acceptability.
+For Type 1s, perfection isn't a goal. It's a baseline requirement for acceptability.
 
 They don't strive for excellence to impress others or achieve success. They strive because anything less than perfect feels like moral failure. The standard isn't "good enough" because good is never good enough when you're trying to prove you're not bad.
 
@@ -82,7 +82,7 @@ They don't strive for excellence to impress others or achieve success. They stri
 
 When Ones are at their best, they become:
 
-**Moral architects**. They don't just follow rules—they understand the principles behind them, creating ethical frameworks that others can rely on.
+**Moral architects**. They don't just follow rules; they understand the principles behind them, creating ethical frameworks that others can rely on.
 
 **Excellence engines**. Their commitment to quality elevates everything they touch. They literally make the world better through their refusal to accept mediocrity.
 
@@ -94,7 +94,7 @@ When Ones are at their best, they become:
 
 But perpetual perfection casts dark shadows:
 
-**The moving goalpost**. As soon as they approach their standard, it shifts higher. Perfection is like the horizon—always visible, never reachable.
+**The moving goalpost**. As soon as they approach their standard, it shifts higher. Perfection is like the horizon: always visible, never reachable.
 
 **Paralysis through analysis**. The fear of doing something wrong can prevent them from doing anything at all.
 
@@ -112,7 +112,7 @@ But perpetual perfection casts dark shadows:
 
 ## When Standards Shatter: Ones Under Stress
 
-When overwhelmed, something shocking happens to the controlled Type 1. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-4">Type 4, "The Individualist"</a>—their rational fortress crumbling into emotional chaos.
+When overwhelmed, something shocking happens to the controlled Type 1. They shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-4">Type 4, "The Individualist."</a> Their rational fortress crumbles into emotional chaos.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
@@ -130,7 +130,7 @@ The transformation is jarring. The person who lives by logic suddenly drowns in 
 6. "Nobody understands how hard I try"
 7. The prosecutor becomes the martyred defendant
 
-This isn't weakness. It's system overload. When their primary defense (perfection through control) fails, Ones experience the very corruption they've been trying to prevent. They feel fundamentally flawed, misunderstood, and emotionally overwhelmed—everything their usual system is designed to prevent.
+This isn't weakness. It's system overload. When their primary defense (perfection through control) fails, Ones experience the very corruption they've been trying to prevent. They feel fundamentally flawed, misunderstood, and emotionally overwhelmed. Everything their usual system is designed to prevent.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
@@ -146,11 +146,11 @@ Maybe they were the eldest child who had to be the example. Maybe they had a cri
 
 The child absorbed the message: "Your natural impulses are wrong. Your desires are selfish. Your mistakes are moral failures. You must be better than your nature."
 
-So they built an internal monitoring system—a voice that would catch mistakes before others could, criticize before others would, perfect before imperfection could be seen. They became their own harshest judge to prevent the devastating experience of external judgment.
+So they built an internal monitoring system: a voice that would catch mistakes before others could, criticize before others would, perfect before imperfection could be seen. They became their own harshest judge to prevent the devastating experience of external judgment.
 
 ### The Good Child Syndrome
 
-Type 1 children often become "parentified"—taking on adult responsibilities and adult standards while still developmentally children. They're praised for being "mature for their age," "responsible," "such a good helper."
+Type 1 children often become "parentified": taking on adult responsibilities and adult standards while still developmentally children. They're praised for being "mature for their age," "responsible," "such a good helper."
 
 But this praise comes at a cost. While other children learn through play and mistake, One children learn through performance and perfection. They miss the developmental stage where mistakes are just learning opportunities, not moral failures.
 
@@ -186,7 +186,7 @@ The tragic irony is that Ones often push away the very people they're trying to 
 
 ### For Partners of Ones
 
-Understand that their criticism of you is nothing compared to their criticism of themselves. They're not trying to control you—they're trying to perfect a world that feels dangerously imperfect.
+Understand that their criticism of you is nothing compared to their criticism of themselves. They're not trying to control you; they're trying to perfect a world that feels dangerously imperfect.
 
 When they offer "feedback," hear the love beneath it. They're trying to help you avoid the judgment they fear for themselves.
 
@@ -207,7 +207,7 @@ When Ones integrate, they move toward the healthy aspects of <a href="/blog/enne
 Integrated Ones learn to:
 
 - Accept "good enough" as genuinely good enough
-- Find delight in imperfection—the wobble in handmade pottery, the spontaneous laugh during a serious moment
+- Find delight in imperfection (the wobble in handmade pottery, the spontaneous laugh during a serious moment)
 - Release the need to control every outcome
 - Trust that their essential goodness doesn't depend on perfect performance
 
@@ -227,9 +227,9 @@ Engage in activities with no productive outcome. Finger paint. Dance badly. Wast
 
 ### The Ultimate Discovery
 
-The most integrated Ones discover a profound truth: they were never bad. The child who felt corrupt was just a child who made mistakes. The adult who fears their essential badness is fighting a ghost.
+The most integrated Ones discover a freeing truth: they were never bad. The child who felt corrupt was just a child who made mistakes. The adult who fears their essential badness is fighting a ghost.
 
-When Ones learn to extend to themselves the compassion they'd show a child—when they realize that perfection was never the price of acceptability—they discover what they've been seeking all along: serenity.
+When Ones learn to extend to themselves the compassion they'd show a child, when they realize that perfection was never the price of acceptability, they discover what they've been seeking all along: serenity.
 
 Not the serenity of everything being perfect, but the serenity of being at peace with imperfection. The serenity of knowing that goodness and mistakes can coexist. The serenity of finally, finally being good enough.
 
@@ -251,13 +251,13 @@ Not the serenity of everything being perfect, but the serenity of being at peace
 
 Type 1s when asked to share their inner experience often say the following:
 
-**On the inner critic**: "It's not a voice I hear occasionally—it's the soundtrack to my life. Every action has commentary. Every decision has analysis. Silence would feel like negligence."
+**On the inner critic**: "It's not a voice I hear occasionally. It's the soundtrack to my life. Every action has commentary. Every decision has analysis. Silence would feel like negligence."
 
 **On anger**: "I went to therapy for anxiety and depression. After two years, my therapist said, 'You know you're angry, right?' I had no idea. I thought I was just concerned about justice."
 
-**On perfection**: "People think I enjoy being perfect. I don't. I'm exhausted by it. But the alternative—being flawed, wrong, bad—feels unbearable."
+**On perfection**: "People think I enjoy being perfect. I don't. I'm exhausted by it. But the alternative (being flawed, wrong, bad) feels unbearable."
 
-**On growth**: "The day I could look at my messy kitchen and think 'this is fine for now' without my chest tightening—that was freedom. That was peace."
+**On growth**: "The day I could look at my messy kitchen and think 'this is fine for now' without my chest tightening: that was freedom. That was peace."
 
 ### 🤝 In Their Own Words: Enneagram Type Ones Sharing Their Experience
 
@@ -268,21 +268,21 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
 </div>
 
 <VisualMetaphor title="📝 The Inner Critic's Script">
-  <p>Type 1s often describe their internal critic as having a very specific, recurring script—playing the same themes of "not good enough" on repeat, measuring current efforts against impossibly perfect standards, pointing out exactly how each attempt falls short, and maintaining a running commentary that would feel brutally harsh if spoken aloud to another person but somehow feels "objective" when directed at themselves.</p>
+  <p>Type 1s often describe their internal critic as having a very specific, recurring script: playing the same themes of "not good enough" on repeat, measuring current efforts against impossibly perfect standards, pointing out exactly how each attempt falls short, and maintaining a running commentary that would feel brutally harsh if spoken aloud to another person but somehow feels "objective" when directed at themselves.</p>
 </VisualMetaphor>
 
 - Type 1s are often highly self-critical, with an internal "inner critic" that can be exhausting to manage. As one panelist described it: "It's like having a perfectionist roommate in your head who never sleeps and never takes a day off."
 
-- Anger and resentment are common for Type 1s, but learning to channel these constructively is an important growth area. Many Type 1s describe a simmering frustration that the world doesn't meet their standards—and guilt about feeling that frustration.
+- Anger and resentment are common for Type 1s, but learning to channel these constructively is an important growth area. Many Type 1s describe a simmering frustration that the world doesn't meet their standards, and guilt about feeling that frustration.
 
 <div class="quote-box">
-"For years, I didn't recognize what I was feeling as anger. I called it 'frustration' or 'disappointment' because proper people don't get angry. Realizing that anger was a natural response to legitimate concerns—and that I could express it respectfully—was transformative for me."
+"For years, I didn't recognize what I was feeling as anger. I called it 'frustration' or 'disappointment' because proper people don't get angry. Realizing that anger was a natural response to legitimate concerns, and that I could express it respectfully, was transformative for me."
 </div>
 
 - The high side of Type 1s involves strong discernment, attention to detail, and a drive to improve things, but this can also alienate others if not balanced. Their vision for what could be often inspires those around them, provided it's expressed with patience and understanding.
 
 <InsightBox title="The Relaxation Discovery">
-  <p>Many Type 1s describe a profound discovery in midlife or during significant growth work: that relaxation and enjoyment aren't merely permitted activities but essential components of a well-lived life. This realization often feels revolutionary—the understanding that their worth doesn't depend solely on productivity and that taking genuine pleasure in life's gifts actually makes them more effective in their contributions, not less.</p>
+  <p>Many Type 1s describe a key discovery in midlife or during significant growth work: that relaxation and enjoyment aren't merely permitted activities but essential components of a well-lived life. This realization often feels revolutionary. They understand that their worth doesn't depend solely on productivity and that taking genuine pleasure in life's gifts actually makes them more effective in their contributions, not less.</p>
 </InsightBox>
 
 </section>
@@ -362,7 +362,7 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type 1s constantly criticize because they live in an internal courtroom where they prosecute themselves against impossible standards. This harsh inner critic developed from childhood criticism, creating a core belief that they're fundamentally flawed. They criticize others because their internal standards leak outward—the same harsh voice judging them judges everything."
+            "text": "Type 1s constantly criticize because they live in an internal courtroom where they prosecute themselves against impossible standards. This harsh inner critic developed from childhood criticism, creating a core belief that they're fundamentally flawed. They criticize others because their internal standards leak outward: the same harsh voice judging them judges everything."
           },
           "name": "Why do I criticize everything and everyone?"
         },
@@ -378,7 +378,7 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type 1s are never satisfied because perfection is their baseline requirement, not a goal. They believe anything less than perfect proves they're fundamentally bad. As soon as they approach their standard, it shifts higher—perfection is like a horizon, always visible but never reachable."
+            "text": "Type 1s are never satisfied because perfection is their baseline requirement, not a goal. They believe anything less than perfect proves they're fundamentally bad. As soon as they approach their standard, it shifts higher: perfection is like a horizon, always visible but never reachable."
           },
           "name": "Why am I never satisfied with anything?"
         },

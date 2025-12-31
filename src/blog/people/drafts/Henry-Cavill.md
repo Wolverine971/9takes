@@ -28,7 +28,7 @@ Let's dive into the mind of the man behind Superman, Geralt, and countless other
 
 ## The Helper's Heart: Understanding Henry as an Enneagram Type 2
 
-In the world of personality psychology, the [Enneagram Type 2 – known as "The Helper"](/enneagram-corner/enneagram-type-2) – is characterized by profound empathy, a desire to be needed, and a tendency to prioritize others' wellbeing over their own.
+In the world of personality psychology, the [Enneagram Type 2 – known as "The Helper"](/enneagram-corner/enneagram-type-2) – is characterized by deep empathy, a desire to be needed, and a tendency to prioritize others' wellbeing over their own.
 
 These individuals are driven by love and connection. At their best, Type 2s are genuinely selfless, supportive, and nurturing. At their most stressed, they can struggle with codependency and seek validation through their service to others. Under extreme stress, Type 2s can move toward [Type 8](/enneagram-corner/enneagram-type-8) behaviors—becoming more assertive, demanding, and controlling.
 
@@ -142,7 +142,7 @@ Perhaps nothing reveals Henry's Type 2 personality more clearly than his relatio
 
 In interviews, Henry has called Kal "my best friend" and shared that "he has saved my emotional and psychological bacon plenty of times."
 
-This profound bond reveals the Helper's need for unconditional love and acceptance.
+This deep bond reveals the Helper's need for unconditional love and acceptance.
 
 Kal accompanies Henry everywhere—even on film sets. During The Witcher filming, Henry kept Kal close by:
 
@@ -180,7 +180,7 @@ For a man who once counted his dog as his closest companion, this expansion of h
 
 Recent years have brought significant professional disappointments for Henry.
 
-After announcing his return as Superman in 2022, he was subsequently removed from the role when James Gunn took over DC Studios. He also departed from The Witcher series after three seasons.
+After announcing his return as Superman in 2022, he was later removed from the role when James Gunn took over DC Studios. He also departed from The Witcher series after three seasons.
 
 How Henry handled these setbacks reveals the Type 2 under stress.
 

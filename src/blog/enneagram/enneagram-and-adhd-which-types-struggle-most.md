@@ -214,7 +214,7 @@ Both Type 4s and people with ADHD:
 
 As one ADHD coach noted: "If you're a Type 4, emotional regulation might be your biggest hurdle."
 
-The combination can be overwhelming. Type 4's natural emotional intensity gets amplified by ADHD's dysregulation. Creative projects become all-consuming hyperfocus sessions followed by burnout. The gap between the rich inner life and the inability to execute on it creates profound frustration.
+The combination can be overwhelming. Type 4's natural emotional intensity gets amplified by ADHD's dysregulation. Creative projects become all-consuming hyperfocus sessions followed by burnout. The gap between the rich inner life and the inability to execute on it creates deep frustration.
 
 ### Type 6 (The Loyalist): Anxiety-ADHD Connection
 

@@ -265,7 +265,7 @@ Threes fear being worthless, so they flex their achievements.
 
 The pattern continues for every type. We flex what we fear losing or never having.
 
-This knowledge gives us a profound tool for empathy. Behind every irritating boast is a person seeking reassurance in the only language they know how to speak.
+This knowledge gives us a real tool for empathy. Behind every irritating boast is a person seeking reassurance in the only language they know how to speak.
 
 ## Using This Knowledge to Grow
 

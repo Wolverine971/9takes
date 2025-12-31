@@ -262,7 +262,7 @@ The folklore/evermore era revealed a more introspective Swift, writing character
 
 ### The Travis Kelce Transformation: Integration in Action
 
-But perhaps the most profound evolution came in 2023-2025 with her relationship with NFL star Travis Kelce.
+But perhaps the most significant evolution came in 2023-2025 with her relationship with NFL star Travis Kelce.
 
 What started with Swift attending Chiefs games and showing unguarded affection blossomed into something deeper, a relationship that challenged the Type 3's fundamental fear: that love and success can't coexist without sacrifice.
 
@@ -296,7 +296,7 @@ But can she create meaningful art from joy?
 
 "I have this really high priority on happiness, and finding something to be happy about," Swift has stated. "My ultimate goal is to end up being happy, most of the time."
 
-This philosophy marks a profound shift from the Type 3's typical achievement-at-all-costs mindset. It suggests Swift has moved beyond using success to validate her existence, she's found internal worth that doesn't depend on applause or accolades.
+This philosophy marks a major shift from the Type 3's typical achievement-at-all-costs mindset. It suggests Swift has moved beyond using success to validate her existence. She's found internal worth that doesn't depend on applause or accolades.
 
 ### The Type 3's Ultimate Integration
 

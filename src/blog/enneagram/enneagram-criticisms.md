@@ -162,7 +162,7 @@ As with any community, what you give shapes what you receive.
   
   Specialization is a strategic choice, not a limitation.
 
-The Enneagram uniquely <a href="/enneagram-corner/philosophy-psychology-and-the-enneagram">bridges psychology and philosophy</a>, offering profound insights into human motivation. Its influence continues to grow across therapy, business, spirituality, and personal development.
+The Enneagram uniquely <a href="/enneagram-corner/philosophy-psychology-and-the-enneagram">bridges psychology and philosophy</a>, offering deep insights into human motivation. Its influence continues to grow across therapy, business, spirituality, and personal development.
 
 Rather than trying to be everything to everyone, 9takes has chosen depth over breadth. This focused approach allows for richer, more nuanced conversations than would be possible with a more generalized framework.
 

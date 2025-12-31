@@ -790,7 +790,7 @@ Ready to transform your relationships with this deeper understanding?
 3. **Have the conversation** with your partner about both of your combinations
 4. **Create your action plan** for loving each other more effectively
 
-The most profound relationships happen when two people understand not just how to love each other, but why they need to be loved the way they do.
+The most meaningful relationships happen when two people understand not just how to love each other, but why they need to be loved the way they do.
 
 **What's your Enneagram type + love language combination? Share in the comments below and let's decode your unique pattern together.**
 

@@ -397,9 +397,9 @@ _"Unique identity through depth and withdrawal"_
 
 **At Their Best:**
 
-- Profound artistic or intellectual work
+- Deep artistic or intellectual work
 - Authentic self-expression without need for approval
-- Deep insights into human nature
+- Penetrating insights into human nature
 - Creates meaningful work in solitude
 
 **Under Stress:**

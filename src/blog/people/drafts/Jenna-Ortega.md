@@ -100,7 +100,7 @@ And the numbers prove it worked. **Beetlejuice Beetlejuice** alone grossed $451 
 
 The original cast noticed too. Michael Keaton and Catherine O'Hara credited Jenna for helping director Tim Burton finally realize his long-awaited sequel, noting the actress "literally didn't exist" when the 1988 original premiered.
 
-For a Type 3, being credited as the catalyst for a $451 million success? That's the external validation that feeds the achievement drive.
+For a Type 3, being credited as the driving force behind a $451 million success? That's the external validation that feeds the achievement drive.
 
 ## Behind the Mask: Jenna's Internal Landscape
 
@@ -304,7 +304,7 @@ But the deeper question: the one that matters most for any Three, is whether she
 
 Her admission of being "an unhappy person" after Wednesday's success suggests she's already grappling with this. That awareness itself is growth.
 
-The irony for Threes like Jenna is profound: **their greatest achievement often isn't visible on a resume or IMDB page**. It's the internal shift from external validation to self-acceptance.
+The irony for Threes like Jenna runs deep: **their greatest achievement often isn't visible on a resume or IMDB page**. It's the internal shift from external validation to self-acceptance.
 
 Fans connect with Jenna not just because of her undeniable talent, but because they sense this struggle underneath. The desire to be seen. The fear of being seen too much. The quest for authentic expression in a world that rewards performance.
 

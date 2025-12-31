@@ -35,7 +35,7 @@ Let's examine the psychology behind the ponytail-wearing powerhouse who turned p
 <ul>
 <li><b>Historic Achievement Drive:</b> Ariana could become the 7th performer in Oscar history nominated twice for the same role, classic Type 3 pursuit of measurable, record-breaking success.</li>
 <li><b>Strategic Evolution:</b> Her journey from Broadway child actress to pop icon to critically acclaimed film star demonstrates the Achiever's constant reinvention and fear of stagnation.</li>
-<li><b>Crisis to Catalyst:</b> After the Manchester bombing, she organized One Love Manchester within two weeks, raising over £17 million, transforming trauma into action.</li>
+<li><b>Crisis to Action:</b> After the Manchester bombing, she organized One Love Manchester within two weeks, raising over £17 million, transforming trauma into action.</li>
 <li><b>Image Mastery:</b> From her iconic ponytail to carefully managed social media to her strategic Ethan Slater privacy, she exemplifies Type 3 brand cultivation.</li>
 <li><b>Healthy Integration:</b> Calling her 2026 tour a "last hurrah" and prioritizing quality over quantity shows mature Type 3 growth beyond achievement-at-all-costs.</li>
 <li><b>Boundary Setting:</b> Her responses to body-shaming criticism and political stands show the healthy Type 3's ability to be authentic despite image pressures.</li>
@@ -123,7 +123,7 @@ They've walked red carpets separately, booked separate hotel suites, and maintai
 
 How does Ariana repeatedly transform devastating experiences into artistic and philanthropic achievements?
 
-The 2017 Manchester Arena bombing, killing 22 fans and injuring hundreds during her concert, would have ended many careers. For Ariana, it became a catalyst.
+The 2017 Manchester Arena bombing, killing 22 fans and injuring hundreds during her concert, would have ended many careers. For Ariana, it became a turning point.
 
 She organized the "One Love Manchester" benefit concert just two weeks later, raising over £17 million for victims and their families. Her raw vulnerability during this period revealed an authenticity that deepened her connection with audiences.
 
@@ -141,7 +141,7 @@ In late 2025, Ariana announced her Eternal Sunshine Tour for 2026. And called it
 
 More significantly: "I think it might not happen again for a long, long, long, long, long time. I'm going to give it my all and it's going to be beautiful."
 
-This announcement reveals profound Type 3 growth.
+This announcement reveals significant Type 3 growth.
 
 Unhealthy Type 3s are addicted to achievement, unable to slow down because rest feels like failure. They derive identity entirely from what they accomplish.
 

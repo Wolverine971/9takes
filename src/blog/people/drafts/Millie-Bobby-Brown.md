@@ -141,7 +141,7 @@ The couple now lives on a farm in Georgia with an astonishing 62 animals. For a 
 
 In August 2025, Millie and Jake shocked fans with an Instagram announcement: they had adopted a baby girl.
 
-"This summer, we welcomed our sweet baby girl through adoption," she wrote. "We are beyond excited to embark on this beautiful next chapter of parenthood in both peace and privacy. And then there were 3."
+"This summer, we welcomed our sweet baby girl through adoption," she wrote. "We are beyond excited to begin this beautiful next chapter of parenthood in both peace and privacy. And then there were 3."
 
 The announcement included only a willow tree photo, no images of their daughter, no name revealed.
 
@@ -153,7 +153,7 @@ She'd hinted at this direction on the "SmartLess" podcast in March 2025: "I real
 
 On motherhood, she shared: "It's been a beautiful, amazing journey, she's taught us so much already. Perspective is a huge thing. The smaller things in life are so much more precious. Our days are filled with lots of cuddles and laughter and love. It's just endless joy."
 
-**The simplicity of this answer reveals something profound about Type 2s, despite their outward focus on relationships, their deepest joy often comes from moments when they can drop the performative helper role entirely and simply be present with loved ones.**
+**The simplicity of this answer reveals something telling about Type 2s: despite their outward focus on relationships, their deepest joy often comes from moments when they can drop the performative helper role entirely and simply be present with loved ones.**
 
 Noah Schnapp has been named the baby's godfather, a testament to the deep, lasting friendships Millie cultivates.
 
@@ -233,7 +233,7 @@ Millie shows us a Helper who's learning to receive as well as give. To set bound
 
 _That's a journey worth watching, on and off screen._
 
-As she said herself: "I'm allowing myself to be less reserved." For a Type 2 who's spent a lifetime anticipating others' needs, that simple statement represents profound growth.
+As she said herself: "I'm allowing myself to be less reserved." For a Type 2 who's spent a lifetime anticipating others' needs, that simple statement represents real growth.
 
 As Eleven would say: _"Friends don't lie."_ And neither does Millie. Not about who she is, not anymore.
 

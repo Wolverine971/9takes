@@ -164,7 +164,7 @@ Summer 2022 brought a breaking point. Pokimane announced burnout and took a brea
 
 "Not really having the opportunity to hang out with people a lot is pretty detrimental to one's mental health," she's reflected.
 
-When she returned, she'd recalibrated: no more fixed streaming schedules, more focus on TikTok and Instagram, and a lifestyle-first approach to content. Type 6s often need external crisis to force internal change. And she used burnout as a catalyst for reinvention.
+When she returned, she'd recalibrated: no more fixed streaming schedules, more focus on TikTok and Instagram, and a lifestyle-first approach to content. Type 6s often need external crisis to force internal change. And she used burnout as a springboard for reinvention.
 
 ### Health Challenges
 

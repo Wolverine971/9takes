@@ -166,7 +166,7 @@ Say: _"I'm not impressed by your success—I'm impressed by who you are when no 
 
 ### What Drew You In
 
-Their depth, emotional intensity, and ability to see you like no one else. They made ordinary moments feel profound. Finally, someone who understood real feelings. The connection felt rare and special.
+Their depth, emotional intensity, and ability to see you like no one else. They made ordinary moments feel meaningful. Finally, someone who understood real feelings. The connection felt rare and special.
 
 ### The Red Flags
 

@@ -341,7 +341,7 @@ Understanding these communication patterns is just the beginning. Here are some 
 
 ## Beyond the Enneagram: Integration with Other Approaches
 
-The Enneagram offers profound insights, but it's most powerful when combined with other relationship tools:
+The Enneagram offers deep insights, but it's most powerful when combined with other relationship tools:
 
 - **Gottman Method** research on the "Four Horsemen" (criticism, contempt, defensiveness, and stonewalling) complements Enneagram insights about why certain types gravitate toward specific communication pitfalls.
 

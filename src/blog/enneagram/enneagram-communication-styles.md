@@ -247,7 +247,7 @@ This reaches the exhausted human behind the performance.
 ### 🎭 The Dead Giveaway
 
 You: "How are you?"  
-Them: "I'm experiencing this profound melancholy that's somehow both devastating and beautiful..."
+Them: "I'm experiencing this deep melancholy that's somehow both devastating and beautiful..."
 
 **Translation:** "I feel everything at 200% intensity."
 

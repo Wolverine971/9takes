@@ -24,7 +24,7 @@ path: src/blog/people/drafts/Grimes.md
 
 <p class="firstLetter">Claire Elise Boucher, known to the world as Grimes, is a paradox wrapped in neon and machine code. She's a self-taught producer who lived in a Montreal crack den with no heat, a neuroscience dropout who dated the world's richest man, and a transhumanist mother fighting for custody of children named X Æ A-Xii, Exa Dark Sideræl, and Techno Mechanicus.</p>
 
-Behind the avant-garde aesthetic and cyberpunk persona lies a mind that can't stop seeking, new sounds, new ideas, new futures. Understanding Grimes through the Enneagram reveals why she's simultaneously a visionary and a chaos agent, a deeply feeling artist who runs from pain by building elaborate alternate realities.
+Behind the avant-garde aesthetic and cyberpunk persona lies a mind that can't stop seeking: new sounds, new ideas, new futures. Understanding Grimes through the Enneagram reveals why she's simultaneously a visionary and a chaos agent, a deeply feeling artist who runs from pain by building elaborate alternate realities.
 
 <details>
 <summary class="accordion">TL;DR: Why Grimes is an Enneagram Type 7</summary>
@@ -43,17 +43,17 @@ Behind the avant-garde aesthetic and cyberpunk persona lies a mind that can't st
 
 ### Grimes is an Enneagram Type 7
 
-The [Enneagram Type 7](/enneagram-corner/enneagram-type-7), known as "The Enthusiast," is characterized by a mind that moves at lightning speed, constantly generating ideas, seeking stimulation, and running from the specter of pain or limitation. Sevens are the polymaths of the Enneagram, curious about everything, expert at reframing negatives into positives, and terrified of being trapped in suffering.
+The [Enneagram Type 7](/enneagram-corner/enneagram-type-7), known as "The Enthusiast," is characterized by a mind that moves at lightning speed, constantly generating ideas, seeking stimulation, and running from the specter of pain or limitation. Sevens are the polymaths of the Enneagram: curious about everything, expert at reframing negatives into positives, and terrified of being trapped in suffering.
 
 Grimes embodies this pattern with almost textbook precision:
 
-- **Adventurous**: She doesn't just make music, she creates entire mythologies, AI clones of herself, and children's books about transhumanism
+- **Adventurous**: She doesn't just make music; she creates entire mythologies, AI clones of herself, and children's books about transhumanism
 - **Spontaneous**: Her creative process involves barricading herself in rooms for weeks without sleep until she enters trance states
 - **Optimistic**: Despite a brutal custody battle and public scrutiny, she describes herself as "pathologically optimistic" about the future
 - **Imaginative**: Every album is a complete world-build, from the ethereal Visions to the climate-goddess mythology of Miss Anthropocene
 - **Independent**: She taught herself to produce, refused record label constraints, and pioneered giving away her AI voice for others to use
 
-But the shadow of Type 7 also emerges: the impulsiveness, the difficulty staying present with pain, the tendency to scatter energy across too many projects. Grimes herself has admitted to "abandoned projects" and described WarNymph as "another failed project": the trail of half-finished visions that often follows a Seven's path.
+But the shadow of Type 7 also emerges: the impulsiveness, the difficulty staying present with pain, the tendency to scatter energy across too many projects. Grimes herself has admitted to "abandoned projects" and described WarNymph as "another failed project," the trail of half-finished visions that often follows a Seven's path.
 
 ## Grimes' Upbringing: The Making of an Outsider
 
@@ -65,7 +65,7 @@ But Claire was never a comfortable fit in conventional structures. She suffered 
 
 Her mother would later describe her as "the kid who couldn't stand high school, was never in the in crowd, didn't fit in, and thought school was hell." This outsider identity became foundational: if she couldn't belong to existing worlds, she would build her own.
 
-Her musical journey began with the Spice Girls and Backstreet Boys, transformed into adolescent worship of Marilyn Manson, and eventually expanded to encompass everything from medieval composer Hildegard von Bingen to Billy Idol. This eclectic range, refusing to be pinned to any single genre or era, is pure Seven.
+Her musical journey began with the Spice Girls and Backstreet Boys, transformed into adolescent worship of Marilyn Manson, and eventually expanded to include everything from medieval composer Hildegard von Bingen to Billy Idol. This eclectic range (refusing to be pinned to any single genre or era) is pure Seven.
 
 ## Rise to Fame: From Montreal Crack Den to Art Angels
 
@@ -73,13 +73,13 @@ In 2006, Grimes graduated from Lord Byng Secondary School and moved to Montreal 
 
 But university couldn't contain her. She learned the production program Logic for a neuroscience class and discovered she loved making music more than studying the brain. A viral Myspace page followed, then shows, then a fateful decision to leave academia in early 2011.
 
-The mythology of her early career is inseparable from suffering transformed into art. She lived in a crack den in Montreal with no heat, playing raves to survive. Her breakthrough album Visions (2012) was recorded during a legendary two-week period where she barricaded herself in her bedroom, allegedly on amphetamines, not leaving until the album was complete.
+The mythology of her early career is inseparable from suffering transformed into art. She lived in a crack den in Montreal with no heat, playing raves to survive. Her breakthrough album Visions (2012) was recorded during a legendary two-week period where she barricaded herself in her bedroom (allegedly on amphetamines), not leaving until the album was complete.
 
 "I remember meditating on a math problem for over four hours, and only snapping out of it when I had to go to the bathroom," she's said of her creative process. "It's always a good sign to realize that six hours just disappeared. To see how time dissolves can be a powerful experience."
 
 This extreme creative immersion, where external reality fades and the inner world takes over, is the Seven's escape hatch from mundane limitation. When she describes feeling like she was "channelling spirits" and that her music was "a gift from God," she's articulating the transcendent states Sevens seek through their pursuits.
 
-Visions brought critical acclaim and a record deal with 4AD. But success brought its own constraints. Art Angels (2015) saw her make "a hard left turn", a maximalist pop masterpiece that proved she could do mainstream just to prove to herself she could. The album's polish was itself a rebellion against expectations that she'd remain lo-fi and ethereal.
+Visions brought critical acclaim and a record deal with 4AD. But success brought its own constraints. Art Angels (2015) saw her make "a hard left turn," a maximalist pop masterpiece that proved she could do mainstream just to prove to herself she could. The album's polish was itself a rebellion against expectations that she'd remain lo-fi and ethereal.
 
 ## The Mind of an Enthusiast: Grimes' Personality Patterns
 
@@ -91,7 +91,7 @@ Grimes doesn't just make music, she enters altered states to access it. Her famo
 
 ### The Shy Performer
 
-Despite her bold aesthetic, Grimes describes herself as fundamentally shy, seeing herself "more as a producer and engineer" than a performer. This tension between wanting to share her visions and finding performance stressful led directly to the WarNymph project, a digital avatar that could face the public while she retreated.
+Despite her bold aesthetic, Grimes describes herself as fundamentally shy, seeing herself "more as a producer and engineer" than a performer. This tension between wanting to share her visions and finding performance stressful led directly to the WarNymph project: a digital avatar that could face the public while she retreated.
 
 "Everyone is living two lives: their digital life and their offline life," she explained. "I want to untether my two lives from each other for mental-health purposes." This splitting of self into multiple entities is a sophisticated Seven strategy for managing overwhelm.
 
@@ -187,12 +187,12 @@ This total creative control serves the Seven's need for freedom. If no one else 
 Her aesthetic transformations map the Seven's constant reinvention:
 
 - **Early era**: Goth-meets-punk, brightly colored hair, short-cropped bangs, a "rave pixie" emerging from Montreal warehouses
-- **Visions phase**: Heavy makeup, pastel colors, oversized garments: the bedroom producer becoming visible
+- **Visions phase**: Heavy makeup, pastel colors, oversized garments (the bedroom producer becoming visible)
 - **Art Angels**: Darker, more electronic, Harajuku meets visual kei, proving she could do glamour on her own terms
 - **Miss Anthropocene/WarNymph**: Full cyberpunk, digital avatars, post-human fashion, embodying the futures she sings about
-- **Current era**: Softer, more maternal imagery mixed with AI aesthetics: the contradictions of techno-mom
+- **Current era**: Softer, more maternal imagery mixed with AI aesthetics (the contradictions of techno-mom)
 
-Each phase abandons the last completely. For Grimes, aesthetic consistency would feel like a trap
+Each phase abandons the last completely. For Grimes, aesthetic consistency would feel like a trap.
 
 ## The Integration Path: What Growth Looks Like for Grimes
 
@@ -206,9 +206,9 @@ Whether Grimes will deepen into sustained focus or scatter again into new future
 
 ## Conclusion: The Enthusiast's Endless Horizon
 
-Grimes remains one of the most fascinating figures in contemporary music and culture. Not despite her contradictions, but because of them. She's a transhumanist fighting for old-fashioned custody rights, an AI evangelist making deeply human music, a shy introvert who can't stop putting herself at the center of cultural storms.
+Grimes remains one of the most fascinating figures in contemporary music and culture, not despite her contradictions but because of them. She's a transhumanist fighting for old-fashioned custody rights, an AI evangelist making deeply human music, a shy introvert who can't stop putting herself at the center of cultural storms.
 
-Through the lens of the Enneagram Type 7, her trajectory makes sense: the restless seeking, the pain transformed into art, the future focus that sometimes obscures present reality. She's the Enthusiast taken to its logical extreme, building entire alternate selves to escape the limitations of being one person in one body in one moment.
+Through the lens of the Enneagram Type 7, her trajectory makes sense: the restless seeking, the pain transformed into art, the future focus that sometimes obscures present reality. She's the Enthusiast taken to its logical extreme: building entire alternate selves to escape the limitations of being one person in one body in one moment.
 
 The question that haunts her work is whether running forward fast enough can outpace what you're running from. For Grimes, the answer keeps changing. And that's probably the point.
 

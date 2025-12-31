@@ -720,7 +720,7 @@ While stress takes you to your worst, growth takes you to your best. Each type a
 - **Type 4** → 1 (Becomes principled and objective)
 - **Type 5** → 8 (Becomes confident and decisive)
 - **Type 6** → 9 (Becomes calm and receptive)
-- **Type 7** → 5 (Becomes focused and profound)
+- **Type 7** → 5 (Becomes focused and deep)
 - **Type 8** → 2 (Becomes caring and generous)
 - **Type 9** → 3 (Becomes dynamic and goal-oriented)
 

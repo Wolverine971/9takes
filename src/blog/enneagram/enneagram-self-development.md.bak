@@ -20,8 +20,8 @@ path: src/blog/enneagram/enneagram-self-development.md
   import TypeQuotes from '$lib/components/blog/callouts/TypeQuotes.svelte';
 </script>
 
-<QuickAnswer question="What is Enneagram self development?" answer="Enneagram self development uses your personality type as a roadmap for growth by revealing your core emotional patterns, childhood wounds, and unconscious motivations: then providing specific strategies to transform limitations into strengths.">
-Enneagram self development goes beyond surface-level tips to reveal the <strong>operating system of your psyche</strong>: the childhood programming driving your decisions. Instead of fighting your personality, you learn to understand it, embrace its gifts, and gradually release its limitations.
+<QuickAnswer question="What is Enneagram self development?" answer="Enneagram self development uses your personality type as a roadmap for growth by revealing your core emotional patterns, childhood wounds, and unconscious motivations—then providing specific strategies to transform limitations into strengths.">
+Enneagram self development goes beyond surface-level tips to reveal the <strong>operating system of your psyche</strong>—the childhood programming driving your decisions. Instead of fighting your personality, you learn to understand it, embrace its gifts, and gradually release its limitations.
 </QuickAnswer>
 
 <p class="firstLetter">You've been using the wrong map for your self-development journey.</p>
@@ -38,9 +38,9 @@ The Enneagram doesn't just categorize you. It reveals the operating system of yo
 
 Let me get personal for a moment.
 
-I'm an Enneagram 8. For most of my life, I believed that success meant being tougher, stronger, and trying harder. And honestly? It worked: for a while.
+I'm an Enneagram 8. For most of my life, I believed that success meant being tougher, stronger, and trying harder. And honestly? It worked—for a while.
 
-In high school wrestling, I overtrained obsessively. Practice in the afternoon, another brutal workout before bed. I started getting in better shape than everyone else, better conditioning. But then the returns diminished. My body wasn't recovering. What started as improvement became something almost sadistic. I wasn't training to get better anymore, I was just seeing how tired I could make myself. How much pain I could endure.
+In high school wrestling, I overtrained obsessively. Practice in the afternoon, another brutal workout before bed. I started getting in better shape than everyone else, better conditioning. But then the returns diminished. My body wasn't recovering. What started as improvement became something almost sadistic—I wasn't training to get better anymore, I was just seeing how tired I could make myself. How much pain I could endure.
 
 By the time states came around my senior year, I wasn't strong. I was weak. Weak because I was prioritizing the wrong things and doubling down on the belief that "pain is weakness leaving the body."
 
@@ -54,9 +54,9 @@ Yeah. That didn't go great. I was a dummy.
 
 **My whole identity was built around challenging things and being tougher. But sometimes you need to be soft. Sometimes you need to listen. There are times to challenge and times to hear what someone is actually saying.**
 
-This was a major unlock in my self-development journey. And here's the thing. I can see this exact pattern in other 8s now. I can spot when they're doubling down on being tough when what they actually need to do is stop, listen, and maybe admit they're heading in the wrong direction.
+This was a major unlock in my self-development journey. And here's the thing—I can see this exact pattern in other 8s now. I can spot when they're doubling down on being tough when what they actually need to do is stop, listen, and maybe admit they're heading in the wrong direction.
 
-That's what [personality-maxing](/enneagram-corner/personality-maxing) actually looks like. Not becoming someone else: but recognizing when your greatest strength has become your biggest blind spot. (For a structured approach, try our [90-day personality maxing blueprint](/enneagram-corner/90-day-personality-maxing-blueprint).)
+That's what [personality-maxing](/enneagram-corner/personality-maxing) actually looks like. Not becoming someone else—but recognizing when your greatest strength has become your biggest blind spot. (For a structured approach, try our [90-day personality maxing blueprint](/enneagram-corner/90-day-personality-maxing-blueprint).)
 
 ## Why Does Traditional Self Development Fail?
 
@@ -207,13 +207,13 @@ The Enneagram helps identify these traps, allowing for more authentic developmen
 <TypeQuotes
 title="What each type says to avoid real growth work"
 quotes={[
-{ type: 1, quote: "I don't need to change. I just need everyone else to do things correctly." },
+{ type: 1, quote: "I don't need to change—I just need everyone else to do things correctly." },
 { type: 2, quote: "I'm fine. Let's talk about how I can help YOU.", note: "Deflecting from their own needs" },
 { type: 3, quote: "Self-reflection? I'll schedule that after I finish these 47 goals." },
 { type: 4, quote: "No one understands my unique situation well enough to help me." },
 { type: 5, quote: "I just need to read three more books on this before I'm ready to actually try anything." },
 { type: 6, quote: "What if this self-improvement stuff makes things worse?" },
-{ type: 7, quote: "I've already moved on from that issue: let's focus on something more exciting!" },
+{ type: 7, quote: "I've already moved on from that issue—let's focus on something more exciting!" },
 { type: 8, quote: "I don't have weaknesses. I have areas where other people are too soft." },
 { type: 9, quote: "It's not that big of a deal. I'm basically fine.", note: "Minimizing everything" }
 ]}
@@ -350,19 +350,19 @@ Mindfulness meditation powerfully complements Enneagram work:
 
 **What's the difference between Enneagram self development and regular self-help?**
 
-Regular self-help gives you generic advice that may or may not fit your actual patterns. Enneagram self development starts by identifying your specific core wound and adaptive strategy: then provides targeted growth paths for your exact psychological makeup. It's the difference between "try harder" and "here's why trying harder is actually making things worse for you specifically."
+Regular self-help gives you generic advice that may or may not fit your actual patterns. Enneagram self development starts by identifying your specific core wound and adaptive strategy—then provides targeted growth paths for your exact psychological makeup. It's the difference between "try harder" and "here's why trying harder is actually making things worse for you specifically."
 
 **How long does it take to see results from Enneagram work?**
 
-The initial recognition of your patterns can happen quickly: sometimes in a single conversation or reading. But integrating that awareness into lasting change takes ongoing practice. Most people notice shifts in their reactions within weeks of consistent self-observation. The deeper transformations unfold over months and years. (If you're working with a coach, our [Enneagram coach toolkit](/enneagram-corner/enneagram-coach-toolkit) has type-specific homework assignments that accelerate this process.)
+The initial recognition of your patterns can happen quickly—sometimes in a single conversation or reading. But integrating that awareness into lasting change takes ongoing practice. Most people notice shifts in their reactions within weeks of consistent self-observation. The deeper transformations unfold over months and years. (If you're working with a coach, our [Enneagram coach toolkit](/enneagram-corner/enneagram-coach-toolkit) has type-specific homework assignments that accelerate this process.)
 
 **Can your Enneagram type change?**
 
-Your core type doesn't change, but your relationship to it transforms dramatically through development. An unhealthy Type 8 and a healthy Type 8 look like completely different people: same core pattern, different level of integration. Growth isn't about becoming a different type; it's about accessing the gifts of your type while releasing its limitations.
+Your core type doesn't change, but your relationship to it transforms dramatically through development. An unhealthy Type 8 and a healthy Type 8 look like completely different people—same core pattern, different level of integration. Growth isn't about becoming a different type; it's about accessing the gifts of your type while releasing its limitations.
 
 **What if I'm not sure of my Enneagram type?**
 
-Start by exploring which core emotion: anger, fear, or shame: resonates most with your experience. Read about the three types in that triad and notice which descriptions make you uncomfortable (that's often a sign you're close). Consider asking trusted friends what patterns they see in you. The [beginners guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) can help.
+Start by exploring which core emotion—anger, fear, or shame—resonates most with your experience. Read about the three types in that triad and notice which descriptions make you uncomfortable (that's often a sign you're close). Consider asking trusted friends what patterns they see in you. The [beginners guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) can help.
 
 ## Your Enneagram Self Development Journey Starts Now
 
@@ -370,9 +370,9 @@ The Enneagram is not a quick fix or a simple categorization system. It's an invi
 
 True growth happens not when we abandon our type, but when we fully understand it, embrace its gifts, and gradually release its limitations. As we do this work, we move from being unconsciously controlled by our personality to consciously embodying its positive aspects while transcending its restrictions.
 
-The goal isn't to become typeless, but to hold our type lightly: with awareness, compassion, and the freedom to respond freshly in each moment.
+The goal isn't to become typeless, but to hold our type lightly—with awareness, compassion, and the freedom to respond freshly in each moment.
 
-**What's your biggest self-development blind spot?** Every type has one. If you're curious to explore what yours might be: or want to see how different types approach the same growth challenges: post a question on [9takes](/questions) and get perspectives from all 9 types. Sometimes the insight you need comes from someone who sees the world completely differently than you do.
+**What's your biggest self-development blind spot?** Every type has one. If you're curious to explore what yours might be—or want to see how different types approach the same growth challenges—post a question on [9takes](/questions) and get perspectives from all 9 types. Sometimes the insight you need comes from someone who sees the world completely differently than you do.
 
 If you found these insights valuable, join the 9takes community below ⬇️ where we continue exploring these dimensions of human experience together. 🚀
 
@@ -455,7 +455,7 @@ If you found these insights valuable, join the 9takes community below ⬇️ whe
           "name": "What's the difference between Enneagram self development and regular self-help?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Regular self-help gives you generic advice that may or may not fit your actual patterns. Enneagram self development starts by identifying your specific core wound and adaptive strategy: then provides targeted growth paths for your exact psychological makeup. It's the difference between 'try harder' and 'here's why trying harder is actually making things worse for you specifically.'"
+            "text": "Regular self-help gives you generic advice that may or may not fit your actual patterns. Enneagram self development starts by identifying your specific core wound and adaptive strategy—then provides targeted growth paths for your exact psychological makeup. It's the difference between 'try harder' and 'here's why trying harder is actually making things worse for you specifically.'"
           }
         },
         {
@@ -463,7 +463,7 @@ If you found these insights valuable, join the 9takes community below ⬇️ whe
           "name": "How long does it take to see results from Enneagram work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The initial recognition of your patterns can happen quickly: sometimes in a single conversation or reading. But integrating that awareness into lasting change takes ongoing practice. Most people notice shifts in their reactions within weeks of consistent self-observation. The deeper transformations unfold over months and years."
+            "text": "The initial recognition of your patterns can happen quickly—sometimes in a single conversation or reading. But integrating that awareness into lasting change takes ongoing practice. Most people notice shifts in their reactions within weeks of consistent self-observation. The deeper transformations unfold over months and years."
           }
         },
         {
@@ -471,7 +471,7 @@ If you found these insights valuable, join the 9takes community below ⬇️ whe
           "name": "Can your Enneagram type change?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Your core type doesn't change, but your relationship to it transforms dramatically through development. An unhealthy Type 8 and a healthy Type 8 look like completely different people: same core pattern, different level of integration. Growth isn't about becoming a different type; it's about accessing the gifts of your type while releasing its limitations."
+            "text": "Your core type doesn't change, but your relationship to it transforms dramatically through development. An unhealthy Type 8 and a healthy Type 8 look like completely different people—same core pattern, different level of integration. Growth isn't about becoming a different type; it's about accessing the gifts of your type while releasing its limitations."
           }
         },
         {
@@ -479,7 +479,7 @@ If you found these insights valuable, join the 9takes community below ⬇️ whe
           "name": "What if I'm not sure of my Enneagram type?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Start by exploring which core emotion: anger, fear, or shame: resonates most with your experience. Read about the three types in that triad and notice which descriptions make you uncomfortable (that's often a sign you're close). Consider asking trusted friends what patterns they see in you."
+            "text": "Start by exploring which core emotion—anger, fear, or shame—resonates most with your experience. Read about the three types in that triad and notice which descriptions make you uncomfortable (that's often a sign you're close). Consider asking trusted friends what patterns they see in you."
           }
         }
       ]

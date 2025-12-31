@@ -76,7 +76,7 @@ Type 2s don't just help: they transform themselves into whatever others need the
 
 With a grieving friend, they become a fountain of compassion. With a stressed colleague, they morph into efficiency itself. With a playful child, they discover reserves of energy they didn't know existed. This isn't acting; it's unconscious adaptation, as natural as breathing.
 
-This shapeshifting serves a purpose: it makes them indispensable. If they can be everything to everyone, they'll never be abandoned. But the cost is steep, after years of shape-shifting, many Twos can't remember their original shape.
+This shapeshifting serves a purpose: it makes them indispensable. If they can be everything to everyone, they'll never be abandoned. But the cost is steep. After years of shape-shifting, many Twos can't remember their original shape.
 
 ### Strengths That Serve
 
@@ -224,7 +224,7 @@ When Twos integrate, they move toward the healthy aspects of <a href="/blog/enne
 
 **Creative self-expression**. Discovering who they are beyond their helpful role, exploring their own interests and desires.
 
-**Depth over breadth**. Moving from surface helping of many to profound connection with few.
+**Depth over breadth**. Moving from surface helping of many to deep connection with few.
 
 **Beautiful boundaries**. Learning that limits aren't rejection but self-respect.
 
@@ -244,9 +244,9 @@ Practice asking for what you need directly, without hints or demonstrations. "I 
 
 ### The Ultimate Discovery
 
-The most integrated Twos discover a profound truth: love isn't earned through service. The child who learned that giving equals worth was wrong. Not bad, just mistaken. Love exists not because of what we do but because of who we are.
+The most integrated Twos discover a simple truth: love isn't earned through service. The child who learned that giving equals worth was wrong. Not bad, just mistaken. Love exists not because of what we do but because of who we are.
 
-When Twos learn to receive with the same grace they give, when they realize that allowing others to care for them is also a gift: they discover what they've been seeking all along: unconditional love.
+When Twos learn to receive with the same grace they give, when they realize that allowing others to care for them is also a gift, they discover what they've been seeking all along. Unconditional love.
 
 Not love because they're helpful. Not love because they're needed. Just love. Plain, simple, no strings attached love. The kind they've been giving others all along, finally flowing back to them.
 
@@ -313,8 +313,8 @@ This control frequently manifests in nuanced ways, through unsolicited advice, c
 "The first time someone thanked me simply for being present, without my having done anything for them, I burst into tears. It revealed how deeply I'd believed my worth came only from what I could provide, not from who I inherently was."
 </div>
 
-**The Existential Identity Question**  
-"Who am I when I'm not actively helping someone?" This profound question challenges many Type 2s at crucial developmental junctures. Panelists share the simultaneously disorienting and liberating experience of developing identities beyond their helping roles.
+**The Existential Identity Question**
+"Who am I when I'm not actively helping someone?" This deep question challenges many Type 2s at crucial developmental junctures. Panelists share the simultaneously disorienting and liberating experience of developing identities beyond their helping roles.
 
 One describes the initially terrifying but ultimately essential process of asking, "What do I genuinely enjoy? What are my authentic preferences when I'm not adapting to someone else's needs or expectations?"
 

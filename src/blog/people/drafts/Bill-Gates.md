@@ -85,7 +85,7 @@ Gates later credited those therapy sessions with an important realization: "The 
 
 His father embodied calm predictability. William Gates Sr. practiced "Love and Logic" parenting, setting clear boundaries and enforcing them without emotion. "He was never panicked," Gates recalls. "He never had to show emotion or use emotion against me, even when I was being incredibly obstreperous."
 
-Only once did his father lose control: when young Bill was being a "smart aleck" at dinner, his dad threw a glass of water in his face. The extreme reaction was so out of character that it shocked the younger Gates into reflection.
+Only once did his father lose control. When young Bill was being a "smart aleck" at dinner, his dad threw a glass of water in his face. The extreme reaction was so out of character that it shocked the younger Gates into reflection.
 
 His mother, Mary, provided the counterbalance: high expectations wrapped in passionate investment. She instilled the family philosophy from the Book of Luke: "To whom much is given, much is expected."
 
@@ -115,7 +115,7 @@ Gates' daily life reveals the Type 5 operating system in granular detail.
 
 ### The Relentless Reader
 
-Fifty books a year. Bags of books on every vacation. Hard copies only, he believes physical pages enhance comprehension better than screens.
+Fifty books a year. Bags of books on every vacation. Hard copies only; he believes physical pages enhance comprehension better than screens.
 
 "I had a lot of dreams as a kid," he's said, "and I think a great deal of that grew out of the fact that I had a chance to read a lot."
 
@@ -129,7 +129,7 @@ He would sometimes devour 12 books in a few days, scribbling notes that would la
 
 Asked about his purpose, Gates' answer is telling: "It's not my goal to be inspiring. Optimization."
 
-He refers to his own brain as a "machine." He schedules in five-minute increments. He eats the same lunch most days, burger, fries, Diet Coke. He uses yellow legal pads with tiny, precise handwriting.
+He refers to his own brain as a "machine." He schedules in five-minute increments. He eats the same lunch most days (burger, fries, Diet Coke). He uses yellow legal pads with tiny, precise handwriting.
 
 Every system is designed to minimize friction and maximize cognitive output.
 
@@ -161,7 +161,7 @@ This is Type 5 at its healthiest: committed to truth, not to being right. Compar
 
 When Microsoft faced antitrust lawsuits in the late 1990s, Gates' response was pure Type 5 under stress.
 
-He dove deep into legal intricacies, spending hours preparing for depositions and cross-examinations. He relied on logic and facts, sometimes to a fault, prioritizing intellectual superiority over emotional appeal.
+He dove deep into legal details, spending hours preparing for depositions and cross-examinations. He relied on logic and facts, sometimes to a fault, prioritizing intellectual superiority over emotional appeal.
 
 The cerebral, knowledge-driven approach that had built Microsoft struggled in a courtroom that valued narrative and impression. Under pressure, Type 5s can retreat too far into their minds, losing connection with how others perceive them.
 
@@ -185,7 +185,7 @@ After 27 years of marriage, he and Melinda divorced. Reports surfaced of his mee
 
 "I had several dinners with him, hoping that what he said about getting billions of philanthropy for global health through contacts that he had might emerge," Gates explained. "When it looked like that wasn't a real thing, that relationship ended."
 
-The Type 5's blind spot emerged: so focused on the potential knowledge and resources Epstein might unlock, Gates apparently miscalculated the social and ethical dimensions of the relationship.
+The Type 5's blind spot emerged. So focused on the potential knowledge and resources Epstein might unlock, Gates apparently miscalculated the social and ethical dimensions of the relationship.
 
 He later acknowledged his leadership approach at Microsoft: "I was tough on people I worked with. Some of it helped us be successful, but I'm sure some of it was over the top."
 
@@ -217,7 +217,7 @@ His approach has drawn both praise for intellectual honesty and criticism from c
 
 What drives Gates' philanthropy? His core belief: "All lives have equal value."
 
-For a Type 5 who has spent his life accumulating knowledge and capability, the ultimate expression is using that capacity to solve problems others can't. The foundation focuses on areas where Gates believes his particular brand of analytical rigor can move the needle: disease eradication, agricultural innovation, educational access.
+For a Type 5 who has spent his life accumulating knowledge and capability, the ultimate expression is using that capacity to solve problems others can't. The foundation focuses on areas where Gates believes his particular brand of analytical rigor can move the needle: disease eradication, agricultural innovation, and educational access.
 
 ## Legacy: What Bill Gates Teaches Us About Type 5s
 

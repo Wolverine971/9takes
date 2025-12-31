@@ -36,7 +36,7 @@ Olivia Rodrigo embodies the [Enneagram Type 2 personality: the Helper](/enneagra
 <div class="panel">
 <ul>
 <li><b>Innate Desire to Connect:</b> Olivia's genuine interactions with fans and her ability to convey universal emotions in her music reflect the Helper's focus on relationships and emotional bonds.</li>
-<li><b>Emotional Depth and Empathy:</b> Her lyrics delve into complex feelings and interpersonal dynamics, showcasing the Type 2's profound emotional intelligence and empathetic nature.</li>
+<li><b>Emotional Depth and Empathy:</b> Her lyrics explore complex feelings and interpersonal dynamics, showcasing the Type 2's deep emotional intelligence and empathetic nature.</li>
 <li><b>Supportive Nature:</b> Olivia's advocacy for causes like mental health and her collaborative spirit highlight the Helper's instinct to assist and uplift others.</li>
 <li><b>Struggle with Boundaries:</b> Navigating fame at a young age, she displays the Type 2 challenge of setting boundaries while striving to please and be appreciated.</li>
 <li><b>Personal Growth and Authenticity:</b> Her evolution from "SOUR" to "GUTS" demonstrates a Type 2's journey toward self-awareness and genuine self-expression beyond people-pleasing.</li>
@@ -58,7 +58,7 @@ In a 2023 interview with _Rolling Stone_, she revealed:
 
 **"I just feel so grateful that people resonate with the things that I'm saying. That's all I can ask for as a songwriter and as an artist, to have people feel seen by the things that you create."**
 
-This profound need to help others feel understood, even through her own vulnerability, is quintessentially Type 2.
+This deep need to help others feel understood, even through her own vulnerability, is quintessentially Type 2.
 
 ## Childhood and Upbringing: Nurturing the Helper Within
 
