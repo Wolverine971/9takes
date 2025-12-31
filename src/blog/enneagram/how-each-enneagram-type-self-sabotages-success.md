@@ -4,7 +4,7 @@ description: "You're smart. You work hard. So why do you keep hitting the same w
 author: 'DJ Wayne'
 date: '2025-12-04'
 loc: 'https://9takes.com/enneagram-corner/how-each-enneagram-type-self-sabotages-success'
-lastmod: '2025-12-04'
+lastmod: '2025-12-31'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -40,7 +40,7 @@ path: src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-12-04",
+      "dateModified": "2025-12-31",
       "datePublished": "2025-12-04",
       "description": "You're smart. You work hard. So why do you keep hitting the same walls? Discover your Enneagram type's specific self-sabotage pattern and how to break it.",
       "headline": "How Each Enneagram Type Self-Sabotages Success (And How to Stop)",
@@ -532,6 +532,26 @@ Your needs caused conflict. Or were simply overlooked. Maybe there was a louder 
 | 7    | Being trapped/in pain  | Seeking novelty        | Shiny object syndrome          | Finish before starting new    |
 | 8    | Being controlled       | Aggression/dominance   | Burning bridges                | Power _with_ others           |
 | 9    | Conflict/disconnection | Numbing/merging        | Procrastination, avoidance     | State preferences daily       |
+
+---
+
+## Which Pattern Sounds Like You?
+
+🎯 **Quick self-check:** Read through these statements. The one that makes you most defensive is probably yours.
+
+- **Type 1:** "You use perfectionism as an excuse not to finish things."
+- **Type 2:** "You give to get. Your help has strings attached."
+- **Type 3:** "Without your achievements, you don't know who you are."
+- **Type 4:** "You're waiting for permission to create. It's not coming."
+- **Type 5:** "You're hiding behind research. You'll never feel ready."
+- **Type 6:** "Your anxiety isn't protecting you. It's paralyzing you."
+- **Type 7:** "Every pivot is an escape. You've mistaken motion for progress."
+- **Type 8:** "Your strength is pushing away the people who could help you."
+- **Type 9:** "You've erased yourself to keep the peace. Now you're invisible."
+
+Notice which one hit hardest. That's where your work is.
+
+The goal isn't to eliminate your pattern. It's to see it coming, so you can choose differently.
 
 ---
 

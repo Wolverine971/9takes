@@ -1,7 +1,7 @@
 # Blog Cross-Link Index
 
 _Generated: 2025-12-31_
-_Total Published Posts Analyzed: 109_
+_Total Published Posts Analyzed: 110_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -10,11 +10,11 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total published posts | 109 |
+| Total published posts | 110 |
 | Posts with 0 outgoing links | 3 |
-| Posts with 0 incoming links | 23 |
+| Posts with 0 incoming links | 24 |
 | Completely isolated (0 in, 0 out) | 1 |
-| Total internal cross-links | 658 |
+| Total internal cross-links | 659 |
 | Average outgoing links per post | 6.0 |
 
 ---
@@ -41,7 +41,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (23 posts)
+## Priority 3: Posts with NO Incoming Links (24 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -69,6 +69,7 @@ These posts are "orphaned" - no other content links to them.
 | Why the Greek vibe? | `community/why-the-greek-vibe.md` | 1 |
 | Enneagram Influences: Exploring the Differing Traditions | `enneagram/enneagram-influences.md` | 1 |
 |  The Stress Paradox: Learn Why Situations Change, But Emotio... | `enneagram/situations-change-emotions-dont.md` | 1 |
+| Reddit Moderators: Why Type 1s Run the Internet | `pop-culture/reddit-moderators-type-1-internet.md` | 1 |
 
 ---
 
@@ -250,6 +251,7 @@ Sorted by total connections (incoming + outgoing).
 | 1 | 0 | 1 | Why the Greek vibe? | `community/why-the-greek-vibe.md` |
 | 1 | 0 | 1 | Enneagram Influences: Exploring the Differing Traditions | `enneagram/enneagram-influences.md` |
 | 1 | 0 | 1 |  The Stress Paradox: Learn Why Situations Change, But Emotio... | `enneagram/situations-change-emotions-dont.md` |
+| 1 | 0 | 1 | Reddit Moderators: Why Type 1s Run the Internet | `pop-culture/reddit-moderators-type-1-internet.md` |
 | 0 | 0 | 0 | Untitled | `life-situations/before-your-next-fight.md` |
 
 ---

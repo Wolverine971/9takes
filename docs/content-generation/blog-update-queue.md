@@ -1,3 +1,5 @@
+<!-- docs/content-generation/blog-update-queue.md -->
+
 # Blog Update Queue
 
 _Created: 2025-12-31_
@@ -36,87 +38,41 @@ Before updating any blog, review these requirements:
 
 ---
 
-## Blog #1: How Each Enneagram Type Self-Sabotages Success
+## Blog #1: How Each Enneagram Type Self-Sabotages Success ✅ COMPLETED
 
 **File**: `src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md`
-**Status**: Published
+**Status**: ✅ Updated 2025-12-31
 **Priority**: High (good SEO potential)
 
-### Current Issues
+### Completed Updates
 
-1. **Language too complex**: Uses phrases like "protection mechanism," "neural pathways," "psychological necessity"
-2. **Em dashes present**: Multiple instances throughout (e.g., "—" used for asides)
-3. **Some sections feel clinical**: Reads like a psychology textbook, not a conversation
-4. **Missing engagement devices**: No 💡 ⚠️ ❓ callouts
-5. **Could use more relatability**: Add more "you've probably done this" moments
-
-### What to Update
-
-- [ ] Simplify language while keeping SEO psychology terms (explain them naturally)
-- [ ] Remove all em dashes, rewrite those sentences
-- [ ] Add 💡 insight callouts after each type's childhood section
-- [ ] Add ⚠️ warning callouts for "when this goes too far"
-- [ ] Make the intro hook more conversational
-- [ ] Add a "Which pattern sounds like you?" self-check section
-- [ ] Ensure each type section has a relatable real-world example
-
-### Research to Make It Great
-
-**Search for and incorporate:**
-
-1. **Reddit threads**: Search r/Enneagram for "self sabotage" + each type number. Find real stories people share about their patterns.
-2. **Statistics**: Find data on procrastination rates, perfectionism prevalence, workaholism stats
-3. **Psychology research**: Look up "fear of success" studies, imposter syndrome research
-4. **Celebrity examples**: Find famous people who've talked about their self-sabotage (interviews, podcasts)
-5. **Book quotes**: Pull relevant quotes from Enneagram books (Wisdom of the Enneagram, The Road Back to You)
-
-**Questions to answer:**
-
-- What does each type's self-sabotage look like in a workplace meeting?
-- What does it look like in a romantic relationship?
-- What's the ONE thing each type could do TODAY to interrupt the pattern?
+- [x] Simplified language while keeping SEO psychology terms (explained naturally)
+- [x] Removed all em dashes, rewrote those sentences
+- [x] Added 💡 insight callouts after each type's childhood section ("The painful truth")
+- [x] Added ⚠️ warning callouts for "when this goes too far"
+- [x] Made the intro hook more conversational with relatable examples
+- [x] Added "Which pattern sounds like you?" self-check section with 🎯 callout
+- [x] Added ❓ "Sound familiar?" callouts with relatable real-world examples for each type
+- [x] Updated lastmod date to 2025-12-31
 
 ---
 
-## Blog #2: Toxic Traits of Each Enneagram Type
+## Blog #2: Toxic Traits of Each Enneagram Type ✅ COMPLETED
 
 **File**: `src/blog/enneagram/toxic-traits-of-each-enneagram-type.md`
-**Status**: Published
+**Status**: ✅ Updated 2025-12-31
 **Priority**: High (gets traffic, needs polish)
 
-### Current Issues
+### Completed Updates
 
-1. **Strong opening but uneven depth**: Some type sections are better than others
-2. **Language varies**: Some sections are simple, others get complex
-3. **Missing "what to do about it"**: Tells people the problem but not the solution
-4. **Could be more balanced**: Leans negative without redemption arc
-5. **Em dashes present**: Multiple throughout
-
-### What to Update
-
-- [ ] Even out the depth across all 9 types
-- [ ] Add "How to deal with this person" for each type
-- [ ] Add "If YOU have this trait" self-help section for each type
-- [ ] Simplify complex sentences
-- [ ] Remove em dashes
-- [ ] Add engagement devices (💡 ⚠️ ❓)
-- [ ] Add a "recovery" or "growth" angle so it's not just negative
-
-### Research to Make It Great
-
-**Search for and incorporate:**
-
-1. **Relationship forums**: How do people describe toxic behavior from partners/family?
-2. **Therapy content**: What do therapists say about these patterns?
-3. **Real examples**: Find public figures who've exhibited these traits (with care—not to attack but to illustrate)
-4. **Boundary-setting scripts**: What to actually SAY to someone displaying these traits
-5. **Self-awareness questions**: Questions each type can ask themselves to catch the behavior
-
-**Questions to answer:**
-
-- What triggers each type's toxic behavior? (stress, insecurity, feeling attacked?)
-- What's the difference between "occasional bad day" vs "chronic pattern"?
-- How can someone who HAS this trait start to change?
+- [x] Evened out depth across all 9 types
+- [x] Added "🎯 How to deal with a toxic [Type]" for each type
+- [x] Added "❓ If YOU have this trait" self-help section for each type
+- [x] Simplified complex sentences
+- [x] Removed all em dashes
+- [x] Added 💡 "The root cause" engagement devices for each type
+- [x] Added recovery/growth angle (no longer just negative)
+- [x] Updated lastmod date to 2025-12-31
 
 ---
 
@@ -256,7 +212,7 @@ Before updating any blog, review these requirements:
 - [ ] Reading level Grade 6-8 (keep SEO terms, explain them naturally)
 - [ ] Zero em dashes
 - [ ] QuickAnswer box at top
-- [ ] Table every 300-400 words
+- [ ] Table every 300-400 words or where it is natural to do so
 - [ ] 💡 ⚠️ ❓ 🎯 callouts throughout
 - [ ] 3-5 internal links
 - [ ] Clear CTA at end
@@ -270,6 +226,7 @@ Before updating any blog, review these requirements:
 ---
 
 _Reference docs:_
+
 - `/docs/writing-system/README.md`
 - `/docs/writing-system/02-blog-optimization-framework.md`
 - `/docs/brand/brand-style-guide-v2.md`

@@ -858,7 +858,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/how-each-enneagram-type-self-sabotages-success</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-31T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -975,7 +975,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type</loc>
-    <lastmod>2025-12-20T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-31T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1098,6 +1098,12 @@
     <image:image>
         <image:loc>https://9takes.com/blogs/cracked_mask_wall.webp</image:loc>
     </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/pop-culture/reddit-moderators-type-1-internet</loc>
+    <lastmod>2025-12-31T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
 </url>
 <url>
     <loc>https://9takes.com/personality-analysis/Charlie-Puth</loc>
