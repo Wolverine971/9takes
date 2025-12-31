@@ -130,7 +130,7 @@ The Eightfold Fence is presented as a tool for maintaining sanity and composure 
   "@graph": [
     {
       "@type": "BlogPosting",
-      "articleBody": "This article explores the stress paradox, explaining why our emotional responses remain consistent even as situations change. It delves into how personality shapes our stress reactions, discusses the core emotions of anger, fear, and shame, and introduces the Enneagram as a tool for understanding stress responses. The article provides practical steps for breaking free from emotional patterns and mastering stress management.",
+      "articleBody": "This article explores the stress paradox, explaining why our emotional responses remain consistent even as situations change. It examines how personality shapes our stress reactions, discusses the core emotions of anger, fear, and shame, and introduces the Enneagram as a tool for understanding stress responses. The article provides practical steps for breaking free from emotional patterns and mastering stress management.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

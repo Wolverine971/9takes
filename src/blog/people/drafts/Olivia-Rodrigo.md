@@ -23,7 +23,7 @@ path: src/blog/people/drafts/Olivia-Rodrigo.md
 
 > "I just feel so grateful that people resonate with the things that I'm saying. That's all I can ask for as a songwriter and as an artist, to have people feel seen by the things that you create."
 
-<p class="firstLetter">Ever wondered what makes Olivia Rodrigo's music hit you right in the feels? Behind the chart-topping hits, Grammy awards, and record-breaking tours lies a personality that connects with millions worldwide in a profoundly genuine way.</p>
+<p class="firstLetter">Ever wondered what makes Olivia Rodrigo's music hit you right in the feels? Behind the chart-topping hits, Grammy awards, and record-breaking tours lies a personality that connects with millions worldwide in a deeply genuine way.</p>
 
 From tearjerkers like "drivers license" to angsty anthems like "good 4 u," Olivia's music creates an emotional bridge between artist and listener that feels almost therapeutic.
 

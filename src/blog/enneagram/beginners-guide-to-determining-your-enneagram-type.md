@@ -390,8 +390,8 @@ Each type has **predictable patterns** when thriving or struggling. These "[conn
 
 ### Mistake #3: You're Confusing Your Wing for Your Core
 
-**The trap:** "I'm either a 3 or a 4"
-**The truth:** You might be a 3 with a 4 wing (learn more about [Enneagram wings](/enneagram-corner/enneagram-wings-complete-guide))
+**The trap:** "I'm either a 3 or a 4."
+**The truth:** You might be a 3 with a 4 wing. (Learn more about [Enneagram wings](/enneagram-corner/enneagram-wings-complete-guide).)
 
 **The fix:** Focus on core fears first, flavoring second
 

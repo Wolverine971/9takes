@@ -43,11 +43,11 @@ Be sure to consider your motivations for throwing a party and then think about w
 
 ### The Invite Strategy
 
-Assuming you have considered your own motivations lets think about the reasons why different personalities go to a party.
+Assuming you have considered your own motivations, let's think about the reasons why different personalities go to a party.
 
 Each Enneagram type approaches a party differently and has unique motivations and desires. For instance, if a Type 1, "The Reformer/ The Perfectionist," is invited to a party, to them, the party is likely serving some utility. The party likely has a clear purpose, and they already have expectations for how the party should go. Meanwhile, a Type 7- "Enthusiast", will likely show up for any party as long as there is the possibility of fun.
 
-Lets dive into how you would entice each Enneagram type to attend your party.
+Let's dive into how you would entice each Enneagram type to attend your party.
 
 <details>
 <summary class="accordion">Invite for Enneagram 1- The Reformer/ Perfectionist</summary>
@@ -208,7 +208,7 @@ Lets dive into how you would entice each Enneagram type to attend your party.
 
 ## The Idea Environment
 
-Now that we have the invites down, lets look what the ideal party looks like for each Enneagram type.
+Now that we have the invites down, let's look at what the ideal party looks like for each Enneagram type.
 
 ### The Party Setup for a Each Enneagram Type
 

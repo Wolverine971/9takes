@@ -582,7 +582,7 @@ Tim Ferriss discovered that world-class performers don't add more – they elimi
 
 ### The Leadership Stack Model
 
-Think of leadership as a technology stack  you need different layers working together:
+Think of leadership as a technology stack—you need different layers working together:
 
 **Layer 1: Self-Awareness (Foundation)**
 

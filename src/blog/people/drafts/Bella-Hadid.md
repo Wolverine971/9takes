@@ -53,7 +53,7 @@ This isn't just celebrity insecurity. It's the Type 4's fundamental wound: the s
 
 Type 4s don't just feel emotions: they live inside them. Bella's description of her mental health struggles reveals this intensity, similar to fellow [Type 4](/enneagram-corner/enneagram-type-4) [Billie Eilish](/personality-analysis/Billie-Eilish), who has also spoken openly about depression: "Something I've carried for many years is the weight of anxiety and depression. It can sometimes feel all-consuming, paralyzing, and invisible to the outside world, leaving you in tears before starting your day."
 
-The "invisibility" she describes is crucial. Type 4s often feel profoundly misunderstood: their rich inner world seems impossible to communicate to others who appear to navigate life more effortlessly.
+The "invisibility" she describes is crucial. Type 4s often feel deeply misunderstood. Their rich inner world seems impossible to communicate to others who appear to navigate life more effortlessly.
 
 ## Growing Up Hadid: A Type 4's Formative Years
 

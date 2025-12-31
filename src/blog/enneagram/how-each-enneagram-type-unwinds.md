@@ -158,7 +158,7 @@ Your "relaxation" is more information consumption. Seven open browser tabs about
 **Tactical shift**: Transform knowledge into embodied experience.
 
 - Learn-then-do protocol: Every hour of research = one hour of practice
-- Sensory integration: Don't just read about coffee, cup taste, smell process
+- Sensory integration: Don't just read about coffee—cup it, taste it, smell the process
 - Selective sharing: Teach one person what you learned (integration through teaching)
 
 ### Environmental Hacks

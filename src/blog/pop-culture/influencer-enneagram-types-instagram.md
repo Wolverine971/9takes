@@ -30,7 +30,7 @@ Type 3s (Achievers) are psychologically designed for Instagram success. They're 
 
 This isn't mental illness. It's Type 3 psychology meeting a platform designed for it.
 
-Instagram didn't just create influencer culture—it selected for specific personality types. Understanding which types thrive (and which don't) reveals something profound about social media's psychological effects on all of us.
+Instagram didn't just create influencer culture—it selected for specific personality types. Understanding which types thrive (and which don't) reveals something important about social media's psychological effects on all of us.
 
 ## Why Type 3s Built Influencer Culture
 

@@ -268,7 +268,7 @@ Through the prism of the Enneagram's nine unique archetypes, 9takes fosters a dy
 
 9takes takes us beyond the binary, into a realm where conversations blossom with authentic voices, unbiased by the opinions of others. Where we can see and appreciate the patterns and divergences in how different personality types approach the same question. In this beautifully intricate tapestry of human connection, every thread matters, every 'take' counts.
 
-Through 9takes, we delve into the nuanced world of human psychology, fostering mutual understanding, inviting personal growth, and cultivating a deeper sense of community. Indeed, it's more than a platform - it's a kaleidoscope of the human experience, each 'take' adding a new dimension to our collective understanding.
+Through 9takes, we explore the nuanced world of human psychology, fostering mutual understanding, inviting personal growth, and cultivating a deeper sense of community. Indeed, it's more than a platform - it's a kaleidoscope of the human experience, each 'take' adding a new dimension to our collective understanding.
 
 Join us on 9takes, where we celebrate the beauty of nuance in every conversation.
 

@@ -24,7 +24,7 @@ path: src/blog/people/drafts/Andrew-Huberman.md
 
 <p class="firstLetter">You've probably listened to Andrew Huberman explain the science of dopamine, sunlight, or sleep protocols. Maybe you've adopted his morning routine or tried his breathing techniques. But beneath the lab coat and Stanford credentials lies a story most fans don't know—a story of a rebellious skateboarder who nearly ended up dead or in jail before becoming neuroscience's most trusted voice.</p>
 
-What drives a man to obsessively collect knowledge, structure every moment of his day, and translate complex science into protocols millions can use? The answer reveals something profound about how certain minds are wired to understand the world.
+What drives a man to obsessively collect knowledge, structure every moment of his day, and translate complex science into protocols millions can use? The answer reveals something important about how certain minds are wired to understand the world.
 
 <details>
 <summary class="accordion">TL;DR: Why Andrew Huberman is an Enneagram Type 5</summary>

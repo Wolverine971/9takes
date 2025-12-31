@@ -45,7 +45,7 @@ Type 1s ghost when you don't meet their standards, Type 2s when they feel unappr
 
 You've been ghosted.
 
-In 2024, where **78% of young adults** report experiencing this digital vanishing act, ghosting has evolved from dating anomaly to cultural epidemic.
+Today, **78% of young adults** report experiencing this digital vanishing act. Ghosting has evolved from dating anomaly to cultural epidemic.
 
 **But here's what nobody talks about:** Their Enneagram type reveals exactly why they disappeared—and your type determines how the abandonment wounds you. (The [warning signs were probably there](/enneagram-corner/red-flags-dating-each-enneagram-type) before the silence began.)
 
@@ -467,7 +467,7 @@ Isolation amplifies shame. Connection heals it.
 
 ## Why Ghosting Hurts More Than Ever
 
-In 2024, where **92% of Gen Z** spends 4+ hours daily on phones, ghosting creates uniquely modern pain.
+Now, **92% of Gen Z** spends 4+ hours daily on phones, and ghosting creates uniquely modern pain.
 
 We're constantly available. Read receipts expose the truth. The absence of response is **deliberate.**
 

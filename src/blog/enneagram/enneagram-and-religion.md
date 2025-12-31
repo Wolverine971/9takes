@@ -139,7 +139,7 @@ The Enneagram's connection to Sufism, a mystical branch of Islam, is complex. Wh
 - **Symbolic Similarities**: The nine-pointed Enneagram symbol bears a striking resemblance to certain Sufi diagrams. For instance, the Sufi Naqshbandi order uses a similar nine-pointed star in their spiritual practices, representing the nine levels of consciousness.
 - **Numerical Significance**: In Sufism, numbers hold deep symbolic meaning. The number nine, central to the Enneagram, is particularly significant in Sufi thought, often representing completeness or the qualities of the divine.
 - **Spiritual Practices**: Some Enneagram teachings echo Sufi spiritual practices. For example, the Enneagram's emphasis on self-observation and the recognition of one's essential nature aligns with the Sufi concept of 'fana' (annihilation of the ego) and 'baqa' (subsistence in God).
-- **Historical Connections: Oscar Ichazo**, one of the key figures in popularizing the Enneagram in the West, claimed to have learned aspects of the system from Sufi teachers. While this claim is debated, it highlights the perceived connection between Sufism and the Enneagram.
+- **Historical Connections**: Oscar Ichazo, one of the key figures in popularizing the Enneagram in the West, claimed to have learned aspects of the system from Sufi teachers. While this claim is debated, it highlights the perceived connection between Sufism and the Enneagram.
 - **Shared Goal of Self-Understanding**: Both Sufism and the Enneagram emphasize the importance of self-knowledge as a path to spiritual growth. The Sufi saying "He who knows himself knows his Lord" resonates with the Enneagram's focus on self-discovery.
 
 While these connections are intriguing, it's important to note that they remain speculative. The Enneagram as we know it today is a modern synthesis, influenced by various traditions and contemporary psychology. For those interested in exploring these potential links further, "The Enneagram: A Christian Perspective" by Richard Rohr and Andreas Ebert offers a thoughtful examination of the Enneagram's possible Sufi roots.
@@ -334,9 +334,10 @@ The New Age adoption of the Enneagram is not without its critics:
 
 ### Comparative Studies
 
-    Some New Age scholars have undertaken comparative studies:
-    - Exploring parallels between Enneagram types and archetypal figures in various mythologies
-    - Examining how Enneagram insights might inform interpretations of ancient wisdom traditions
+Some New Age scholars have undertaken comparative studies:
+
+- Exploring parallels between Enneagram types and archetypal figures in various mythologies
+- Examining how Enneagram insights might inform interpretations of ancient wisdom traditions
 
 The Enneagram's popularity in New Age and esoteric circles has led to a rich tapestry of interpretations and applications. While this diversity has expanded the Enneagram's reach, it has also sparked debates about authenticity and effectiveness. As with many New Age practices, the integration of the Enneagram continues to evolve, reflecting the eclectic and syncretic nature of the New Age movement.
 
@@ -404,8 +405,8 @@ The Society of Jesus, commonly known as the Jesuits, is a Catholic religious ord
 
 ### Future Directions
 
-    - Ongoing research and dialogue within Jesuit circles continue to explore the potential benefits and limitations of the Enneagram in spiritual formation.
-    - There's a growing interest in developing a more rigorous theological framework for the use of the Enneagram in Catholic and Jesuit contexts.
+- Ongoing research and dialogue within Jesuit circles continue to explore the potential benefits and limitations of the Enneagram in spiritual formation.
+- There's a growing interest in developing a more rigorous theological framework for the use of the Enneagram in Catholic and Jesuit contexts.
 
 The Jesuit engagement with the Enneagram exemplifies the order's characteristic approach of engaging with diverse intellectual and spiritual traditions. While not universally accepted within the order, the Enneagram has found a place in many Jesuit spiritual and educational practices, contributing to the ongoing dialogue between psychology, spirituality, and personal development within the Catholic tradition.
 
