@@ -76,74 +76,45 @@ Before updating any blog, review these requirements:
 
 ---
 
-## Blog #3: Why They Ghosted You (Enneagram Types Being Ghosted)
+## Blog #3: Why They Ghosted You (Enneagram Types Being Ghosted) ✅ COMPLETED
 
 **File**: `src/blog/enneagram/enneagram-types-being-ghosted.md`
-**Status**: Published
+**Status**: ✅ Updated 2025-12-31
 **Priority**: Medium (good topic, needs freshening)
 
-### Current Issues
+### Completed Updates
 
-1. **Decent structure but language needs simplifying**
-2. **Some clinical phrasing**: "emotional demands exceeded capacity"
-3. **Could be more empathetic**: People reading this are hurting
-4. **Missing the "ghoster's perspective"**: Why each type ghosts others (not just how they handle being ghosted)
-5. **Em dashes present**
-
-### What to Update
-
-- [ ] Simplify language throughout
-- [ ] Add more empathy/validation at the start (people reading this are in pain)
-- [ ] Expand "why each type ghosts" section (the table is good, needs more detail)
-- [ ] Add "how to get closure when you won't get answers"
-- [ ] Remove em dashes
-- [ ] Add engagement devices
-- [ ] Make healing paths more specific and actionable
-
-### Research to Make It Great
-
-**Search for and incorporate:**
-
-1. **Ghosting statistics**: What % of people have been ghosted? How common is it by age group?
-2. **Reddit threads**: r/dating, r/relationships posts about being ghosted—real emotional language
-3. **Psychology of ghosting**: Why do people ghost instead of communicating?
-4. **Attachment theory connection**: How attachment styles relate to ghosting behavior
-5. **Closure without answers**: How do you move on when you never get an explanation?
-
-**Questions to answer:**
-
-- What makes ghosting particularly painful for each type?
-- What's each type's unhealthy coping response to being ghosted?
-- What's a healthy response for each type?
-- How long should you wait before accepting you've been ghosted?
+- [x] Simplified language throughout, removed all em dashes
+- [x] Added empathy/validation at intro (acknowledging pain, citing brain research on rejection)
+- [x] Expanded each type section with "If a Type X Ghosted You" subsections
+- [x] Added 💡 "The painful truth about Type X ghosters" insight callouts
+- [x] Added ❓ "Sound familiar?" callouts with relatable examples for each type
+- [x] Added 🎯 "Try this today" actionable healing steps for each type
+- [x] Added ⚠️ "Watch out for" warning callouts for each type
+- [x] Added "How to Find Closure When You Won't Get Answers" section with 5 practical steps
+- [x] Updated statistics with 2024 research (84% Gen Z/Millennials ghosted, 67% who've been ghosted have also ghosted, etc.)
+- [x] Converted Universal Recovery Protocol to scannable table
+- [x] Added new FAQ section with practical questions (how long to wait, should I send a final message, is ghosting ever okay, etc.)
+- [x] Added related content links at end with 4 related articles
+- [x] Updated JSON-LD schema with new FAQs
+- [x] Updated lastmod date to 2025-12-31
 
 ---
 
-## Blog #4: How Each Enneagram Type Manipulates
+## Blog #4: How Each Enneagram Type Manipulates ✅ COMPLETED
 
 **File**: `src/blog/enneagram/how-each-enneagram-type-manipulates.md`
-**Status**: Published
+**Status**: ✅ Updated 2025-12-31
 **Priority**: Medium
 
-### Current Issues
+### Completed Updates
 
-- Need to read full file to assess
-- Likely same issues: language complexity, em dashes, missing engagement devices
-
-### What to Update
-
-- [ ] Full audit needed—read the file first
-- [ ] Apply same standards as above blogs
-- [ ] Ensure balance: manipulation isn't always intentional/malicious
-- [ ] Add "how to protect yourself" for each type
-- [ ] Add "if YOU do this" self-awareness section
-
-### Research to Make It Great
-
-1. **Manipulation vs influence**: What's the line? When does persuasion become manipulation?
-2. **Unconscious manipulation**: How do people manipulate without realizing it?
-3. **Defense strategies**: How to recognize and respond to each type's manipulation
-4. **Self-check questions**: How to know if YOU'RE being manipulative
+- [x] Full audit completed (no em dashes found)
+- [x] Applied same standards as above blogs
+- [x] Added 💡 "Why they do it" section for each type (balance: manipulation as protection, not evil)
+- [x] Enhanced "🎯 How to Protect Yourself" section for each type
+- [x] Added "❓ If YOU Do This" self-awareness section for each type
+- [x] Updated lastmod date to 2025-12-31
 
 ---
 

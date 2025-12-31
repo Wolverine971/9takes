@@ -388,22 +388,3 @@ Dating app anxiety often comes from the format itself: constant judgment, unknow
 ### What's the alternative to dating apps for introverts?
 
 Introverts often thrive in environments where connections form naturally over time: hobby groups, classes, volunteer work, friend-of-friend introductions, and communities built around shared interests. These allow observation before interaction and depth before commitment.
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types"
-  },
-  "headline": "Why Dating Apps Are Harder for Certain Personality Types",
-  "image": "https://9takes.com/blogs/greek-statue-phone-dating-apps.webp",
-  "datePublished": "2025-01-06",
-  "dateModified": "2025-01-06"
-}
-</script>
-
-</svelte:head>
