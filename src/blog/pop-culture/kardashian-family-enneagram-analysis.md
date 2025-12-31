@@ -94,7 +94,7 @@ The divorce became inevitable when Kanye's behavior started damaging Kim's caref
 
 ### The Critic in the Family
 
-[Enneagram Type 1s](/enneagram-corner/enneagram-type-1) are driven by a need to be good, right, and perfect. They have strong internal critics and hold themselves. And everyone else, to high standards.
+[Enneagram Type 1s](/enneagram-corner/enneagram-type-1) are driven by a need to be good, right, and perfect. They have strong internal critics and hold themselves—and everyone else—to high standards.
 
 Kourtney is the family's Type 1, and it explains why she's often frustrated with her siblings.
 

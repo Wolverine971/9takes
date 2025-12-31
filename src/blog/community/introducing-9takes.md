@@ -1,6 +1,6 @@
 ---
 title: 'Introducing 9takes: A Fresh Take on Online Conversations'
-description: 'A Q&A platform fostering diverse, built on anonymous perspectives inspired by the Enneagram.'
+description: 'A Q&A platform fostering diverse, anonymous perspectives inspired by the Enneagram.'
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/community/introducing-9takes'
@@ -22,7 +22,7 @@ path: src/blog/community/introducing-9takes.md
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "Introducing 9takes: A Fresh Take on Online Conversations",
-  "description": "A Q&A platform fostering diverse, built on anonymous perspectives inspired by the Enneagram.",
+  "description": "A Q&A platform fostering diverse, anonymous perspectives inspired by the Enneagram.",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
@@ -101,9 +101,9 @@ path: src/blog/community/introducing-9takes.md
 
 Where can you safely get multiple authentic and unbiased perspectives?
 
-Forums like reddit and facebook threads, and even twitter over time have users cluster around different topics and echo chambers form. Even well meaning platforms cannot help but get this way and it is mostly due to users being able to read comments passively. We need to go back to the early days when conversations were unfiltered, real and where you could be happily surprised by what you stumbled upon online.
+Forums like Reddit and Facebook threads, and even Twitter, over time have users cluster around different topics, and echo chambers form. Even well meaning platforms cannot help but get this way and it is mostly due to users being able to read comments passively. We need to go back to the early days when conversations were unfiltered, real and where you could be happily surprised by what you stumbled upon online.
 
-9takes is on a mission to fix echo chamber problem.
+9takes is on a mission to fix the echo chamber problem.
 
 ## Why Social Media isn't Social Anymore
 

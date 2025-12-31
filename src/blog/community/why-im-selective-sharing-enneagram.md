@@ -92,11 +92,11 @@ path: src/blog/community/why-im-selective-sharing-enneagram.md
 
 <p class="firstLetter">I remember the moment everything shifted.</p>
 
-My brother was over at my apartment, and I could barely containing my excitement about this "life-changing personality system" I'd discovered. In my enthusiasm, I started explaining how he was clearly a [Type 9](/enneagram-corner/enneagram-type-9)—how he pacified himself when things got difficult, how he went numb to avoid conflict, how his stubbornness was really just a way of resisting change.
+My brother was over at my apartment, and I could barely contain my excitement about this "life-changing personality system" I'd discovered. In my enthusiasm, I started explaining how he was clearly a [Type 9](/enneagram-corner/enneagram-type-9)—how he pacified himself when things got difficult, how he went numb to avoid conflict, how his stubbornness was really just a way of resisting change.
 
 I watched his face as I spoke. At first, there was curiosity. Then confusion. Then something— cold, a defensive wall was sliding down behind his eyes. I could see him mentally checking out. I could practically watch him deciding that the Enneagram was complete pseudoscience garbage.
 
-"Are their peer reviewed research papers on this?" he asked. "This whole thing sounds like horoscopes."
+"Are there peer-reviewed research papers on this?" he asked. "This whole thing sounds like horoscopes."
 
 That was the end of diving into our psychology from an Enneagram perspective. He would dismiss anything I'd learned about personal growth, occasionally throwing sarcastic comments about "your personality cult" into family conversations. I thought I was being helpful—offering him the same insights that had revolutionized my self-understanding. Instead, I'd essentially told my own brother that I saw all his flaws clearly and had a system to explain them. That moment was another reminder that not everyone is getting what I am putting down. And I need to be more careful with how I say things.
 
@@ -233,6 +233,6 @@ Before your next conversation about the Enneagram, consider:
 
 The Enneagram changed my life, and maybe it could enrich others' lives too. But the key word is "could"—not "should" or "must." The most powerful thing we can do is live out our own growth and let that speak for itself.
 
-**Let your own journey be a spark curiosity, don't let it be your gospel to preach.**
+**Let your own journey spark curiosity; don't let it become your gospel to preach.**
 
 Trust that those who need what you've found will find their way to it when they're ready.

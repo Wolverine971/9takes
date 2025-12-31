@@ -150,7 +150,7 @@ When people feel attacked, they respond with flight or fight or freeze. The more
 
 The true winning in argument is when both sides learn something.
 
-Adopting a mindset geared towards understanding is hard to do when you want to win and be right. This approach involves **"steel manning"** the other side. Steel manning an argument is when you represent the other side's argument in its strongest form. This is in contrast with **"straw manning."** Straw manning an argument is when you make the opposing view seem weak and dump. Straw manning commonly done by mainstream media misrepresents a viewpoint by explaining it in a inadequate way where the viewpoint can be easily attacked and dismissed.
+Adopting a mindset geared towards understanding is hard to do when you want to win and be right. This approach involves **"steel manning"** the other side. Steel manning an argument is when you represent the other side's argument in its strongest form. This is in contrast with **"straw manning."** Straw manning an argument is when you make the opposing view seem weak and dumb. Straw manning, commonly done by mainstream media, misrepresents a viewpoint by explaining it in an inadequate way so that the viewpoint can be easily attacked and dismissed.
 
 To steel man an argument is harder to do. But in doing so, you demonstrate both a genuine understanding and respect for the opposing views and lay the ground work for meaningful dialogue.
 

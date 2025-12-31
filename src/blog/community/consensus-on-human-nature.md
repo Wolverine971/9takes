@@ -81,7 +81,7 @@ path: src/blog/community/consensus-on-human-nature.md
 
 <figure title="9takes's human nature definition">
     <blockquote>
-    "The descriptions of how people think, feel, and act. These descriptions are studied within psychology and philosophy.""
+    "The descriptions of how people think, feel, and act. These descriptions are studied within psychology and philosophy."
     </blockquote>
     <figcaption style="margin-left: 80%">-<cite>9takes definition</cite></figcaption>
 </figure>
