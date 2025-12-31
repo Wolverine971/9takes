@@ -16,7 +16,7 @@
 		});
 		const respFormatted = await deserialize(await resp.text());
 		if (respFormatted?.data?.success) {
-			notifications.info('You are unsubscribed', 3000);
+			notifications.success('You are unsubscribed', 3000);
 			goto(`/questions`, {});
 		}
 	};

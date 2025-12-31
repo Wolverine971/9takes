@@ -267,22 +267,14 @@
 			subtext=""
 		/>
 	</div>
-	<TableOfContents
-		{contentStore}
-		sidePosition="right"
-		renderMode="accordion-only"
-	/>
+	<TableOfContents {contentStore} sidePosition="right" renderMode="accordion-only" />
 
 	<div class="article-body" itemprop="articleBody">
 		{@html post.content}
 	</div>
 </article>
 
-<TableOfContents
-	{contentStore}
-	sidePosition="right"
-	renderMode="sidebar-only"
-/>
+<TableOfContents {contentStore} sidePosition="right" renderMode="sidebar-only" />
 <!-- Sidebar components - positioned absolutely -->
 <div class="sidebar-container">
 	{#key post.slug}

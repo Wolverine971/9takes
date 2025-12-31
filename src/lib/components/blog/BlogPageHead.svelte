@@ -8,9 +8,7 @@
 	let description: string = data?.description;
 	const formattedTitle = title ? `${title}` : '9takes';
 	const defaultShareImage = 'https://9takes.com/brand/aero.png';
-	const shareImage = data?.pic
-		? `https://9takes.com/blogs/${data.pic}.webp`
-		: defaultShareImage;
+	const shareImage = data?.pic ? `https://9takes.com/blogs/${data.pic}.webp` : defaultShareImage;
 	const shareImageAlt = data?.pic ? data.pic.split('-').join(' ') : title || '9takes';
 
 	let jsonldString = {
@@ -60,9 +58,15 @@
 	let jsonld = JSON.stringify(jsonldString);
 
 	const isHowToGuide = slug.includes('how-to');
-	const tags = (isHowToGuide
-		? ['How to', 'Guide']
-		: ['Personality', 'Enneagram', 'Psychology', data.person ? data.person.split('-').join(' ') : null]
+	const tags = (
+		isHowToGuide
+			? ['How to', 'Guide']
+			: [
+					'Personality',
+					'Enneagram',
+					'Psychology',
+					data.person ? data.person.split('-').join(' ') : null
+				]
 	).filter((tag): tag is string => Boolean(tag));
 </script>
 

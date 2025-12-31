@@ -56,7 +56,7 @@
 			const result = deserialize(await resp.text());
 
 			if (result?.data?.success) {
-				notifications.info('User updated successfully', 3000);
+				notifications.success('User updated successfully', 3000);
 
 				// Update local data
 				if (data.profiles) {

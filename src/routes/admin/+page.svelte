@@ -61,18 +61,18 @@
 						console.error('Failed to reindex blogs:', details.blogs.errors);
 					}
 				} else {
-					notifications.info(data.message || 'Reindexing completed', 3000);
+					notifications.success(data.message || 'Reindexing completed', 3000);
 				}
 			} else {
 				const errorData = result.error || {};
-				notifications.error(
+				notifications.danger(
 					errorData.message || 'Failed to reindex. Check server logs for details.',
 					5000
 				);
 			}
 		} catch (err) {
 			console.error('Reindexing error:', err);
-			notifications.error(
+			notifications.danger(
 				'Failed to reindex questions. Please check your Elasticsearch connection.',
 				5000
 			);

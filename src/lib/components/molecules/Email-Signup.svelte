@@ -30,7 +30,7 @@
 		const data = deserialize(await resp.text());
 
 		if (!data?.error) {
-			notifications.info('Email Submitted', 3000);
+			notifications.success('Email Submitted', 3000);
 			notifications.info('Check and confirm your email', 6000);
 
 			// goto('/signup');

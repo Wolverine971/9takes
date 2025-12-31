@@ -142,7 +142,7 @@ Phase 6: Final Review & Publish
 - Problem-focused title
 - Quick Answer box
 - 3-5 internal links
-- Grade 6 reading level (use [Hemingway Editor](https://hemingwayapp.com/))
+- Target Grade 6-8 reading level (use [Hemingway Editor](https://hemingwayapp.com/)), but keep SEO-valuable psychology terms (self-sabotage, perfectionism, imposter syndrome, etc.) and explain them naturally. Accessibility matters more than hitting a specific grade level.
 - Funnel stage identified (ToF/MoF/BoF)
 - Social repurposing plan (Content Flywheel)
 

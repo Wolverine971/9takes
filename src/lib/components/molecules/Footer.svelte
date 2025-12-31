@@ -48,7 +48,14 @@
 			<!-- Brand Section -->
 			<div class="col-span-1 md:col-span-2 lg:col-span-1">
 				<div class="mb-4 flex items-center">
-					<img src="/brand/aero.webp" alt="9takes Logo" height="48" width="48" loading="lazy" class="mr-3" />
+					<img
+						src="/brand/aero.webp"
+						alt="9takes Logo"
+						height="48"
+						width="48"
+						loading="lazy"
+						class="mr-3"
+					/>
 					<span class="text-xl font-bold text-neutral-900">9takes</span>
 				</div>
 				<p class="mb-6 text-sm leading-relaxed text-neutral-600">

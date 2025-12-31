@@ -149,7 +149,7 @@
 
 			const result: any = deserialize(await resp.text());
 
-			notifications.info(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
+			notifications.success(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
 
 			if (operation === 'add' && result?.data) {
 				likes = [result.data, ...likes];
@@ -202,7 +202,7 @@
 				throw new Error(result.error);
 			}
 
-			notifications.info('Reply Added', 3000);
+			notifications.success('Reply Added', 3000);
 
 			// Update comment count
 			_commentComment.comment_count = (_commentComment.comment_count || 0) + 1;
@@ -266,7 +266,7 @@
 			const result: any = deserialize(await resp.text());
 
 			if (result?.success) {
-				notifications.info('Comment Updated', 3000);
+				notifications.success('Comment Updated', 3000);
 				_commentComment.comment = commentEdit;
 				_commentComment.modified_at = new Date().toISOString();
 				dispatch('commentUpdated', _commentComment);

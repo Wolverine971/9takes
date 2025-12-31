@@ -15,9 +15,7 @@
 	export let author = 'DJ Wayne';
 
 	const TITLE_SUFFIX = ' - 9takes';
-	$: twitterImageAlt = title
-		? `9takes - ${title.replace(TITLE_SUFFIX, '')}`
-		: '9takes';
+	$: twitterImageAlt = title ? `9takes - ${title.replace(TITLE_SUFFIX, '')}` : '9takes';
 </script>
 
 <svelte:head>

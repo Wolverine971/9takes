@@ -34,7 +34,7 @@
 		const result: any = deserialize(await resp.text());
 
 		if (result?.data?.success) {
-			notifications.info('Question removed', 3000);
+			notifications.success('Question removed', 3000);
 			dispatch('questionRemoved');
 		} else {
 			notifications.danger('Error removing question', 3000);
@@ -60,7 +60,7 @@
 			const result: any = deserialize(await resp.text());
 
 			if (result?.success) {
-				notifications.info('Tagged question', 3000);
+				notifications.success('Tagged question', 3000);
 				editing = false;
 			} else {
 				notifications.danger('Error tagging question', 3000);
@@ -86,7 +86,7 @@
 
 			if (result?.data?.success) {
 				editing = false;
-				notifications.info('Question edited', 3000);
+				notifications.success('Question edited', 3000);
 				getModal(`edit-modal-${questionData.id}`).close();
 			} else {
 				notifications.danger('Error saving edits', 3000);

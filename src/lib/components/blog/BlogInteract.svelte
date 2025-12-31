@@ -80,7 +80,7 @@
 			notifications.danger('Error adding comment', 3000);
 			console.log(result.error);
 		} else {
-			notifications.info('Comment Added', 3000);
+			notifications.success('Comment Added', 3000);
 			dispatch('commentAdded', result?.data);
 			comment = '';
 		}

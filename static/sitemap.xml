@@ -1496,15 +1496,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Anne-Hathaway</loc>
-    <lastmod>2025-03-26T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/1s/Anne-Hathaway.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Chappell-Roan</loc>
     <lastmod>2025-03-26T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2801,6 +2792,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Anne-Hathaway</loc>
+    <lastmod>2025-12-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Anne-Hathaway.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/questions</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -2861,12 +2861,6 @@
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/think-feel-murder-charlie-kirk</loc>
-    <lastmod>2025-09-15T15:46:22.880Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
     <loc>https://9takes.com/questions/what-book-should-i-read-next</loc>
     <lastmod>2023-12-02T07:09:25.551Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -2887,6 +2881,12 @@
 <url>
     <loc>https://9takes.com/questions/technical-skills-worth-knowing-programming</loc>
     <lastmod>2024-03-31T20:01:17.095Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/think-feel-murder-charlie-kirk</loc>
+    <lastmod>2025-09-15T15:46:22.880Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -2941,12 +2941,6 @@
 <url>
     <loc>https://9takes.com/questions/what-are-the-problems-of-each-political-party</loc>
     <lastmod>2024-05-06T17:20:38.497Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/who-do-you-look-up-to-and-why</loc>
-    <lastmod>2023-10-21T04:33:19.021Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -3013,6 +3007,12 @@
 <url>
     <loc>https://9takes.com/questions/one-best-times-life</loc>
     <lastmod>2023-12-21T21:45:54.270Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/who-do-you-look-up-to-and-why</loc>
+    <lastmod>2023-10-21T04:33:19.021Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>

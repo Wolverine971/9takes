@@ -52,7 +52,7 @@
 
 		try {
 			await fetch('?/updateAccount', { method: 'POST', body });
-			notifications.info('Account updated', 3000);
+			notifications.success('Account updated', 3000);
 		} catch (error) {
 			console.error('Error updating account:', error);
 			notifications.danger('Failed to update account', 3000);

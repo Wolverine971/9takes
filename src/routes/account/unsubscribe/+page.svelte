@@ -30,7 +30,7 @@
 		const result: any = deserialize(await resp.text());
 
 		if (result?.data?.success) {
-			notifications.info('Updated cypher', 3000);
+			notifications.success('Updated cypher', 3000);
 		} else {
 			notifications.danger('Error updating cypher', 3000);
 			console.log(result.error);
@@ -49,7 +49,7 @@
 				});
 			}
 		}
-		notifications.info('Updated successful', 3000);
+		notifications.success('Updated successful', 3000);
 	};
 </script>
 

@@ -27,7 +27,7 @@
 		).json();
 
 		if (data) {
-			notifications.info('Email Submitted', 3000);
+			notifications.success('Email Submitted', 3000);
 
 			// goto('/signup');
 

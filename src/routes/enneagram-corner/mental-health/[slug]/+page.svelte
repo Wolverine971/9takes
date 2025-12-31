@@ -112,9 +112,7 @@
 		</div>
 	{/if}
 
-	<TableOfContents
-		{contentStore}
-	/>
+	<TableOfContents {contentStore} />
 
 	<svelte:component this={component} />
 </article>
