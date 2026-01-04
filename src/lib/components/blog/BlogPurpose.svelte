@@ -4,10 +4,10 @@
 </script>
 
 <div class="blog-purpose">
-	<!-- Top section: Psychology CTA -->
+	<!-- CTA Section -->
 	<div class="cta-section">
+		<div class="cta-bg-pattern"></div>
 		<div class="cta-content">
-			<!-- Icon -->
 			<div class="icon-container">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -26,18 +26,13 @@
 				</svg>
 			</div>
 
-			<!-- Text -->
 			<div class="cta-text">
 				<h3>Want to explore your own psychology?</h3>
-				<p>
-					Understanding your Enneagram type can help you break bad patterns and give you an edge in
-					the world.
-				</p>
+				<p>Understanding your Enneagram type can help you break bad patterns.</p>
 			</div>
 
-			<!-- Button -->
 			<a href="/book-session" class="cta-button">
-				<span>Talk to an Enneagram Coach</span>
+				<span>Talk to a Coach</span>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"
@@ -55,14 +50,9 @@
 		</div>
 	</div>
 
-	<!-- Bottom section: Type explorer -->
+	<!-- Explorer Section -->
 	<div class="explorer-section">
-		<h3>Explore Other Enneagram Types</h3>
-		<p>
-			Curious about how different types think and behave? Discover the unique perspectives of all
-			nine Enneagram types:
-		</p>
-
+		<h3>Explore the 9 Enneagram Types</h3>
 		<div class="diagram-container">
 			<EnneagramDiagram />
 		</div>
@@ -70,75 +60,96 @@
 </div>
 
 <style lang="scss">
-	/* Main container */
 	.blog-purpose {
 		max-width: 1200px;
-		margin: 2.5rem auto;
+		margin: 2rem auto;
 		border-radius: 16px;
 		overflow: hidden;
 		box-shadow:
-			0 4px 6px -1px rgba(0, 0, 0, 0.1),
-			0 2px 4px -2px rgba(0, 0, 0, 0.1);
+			0 8px 30px -10px rgba(91, 76, 219, 0.18),
+			0 2px 4px -2px rgba(0, 0, 0, 0.04);
+		border: 1px solid rgba(91, 76, 219, 0.1);
 
 		a::after {
 			content: none !important;
 			display: none !important;
 		}
-	}
 
-	/* CTA Section - High contrast purple with white text */
-	.cta-section {
-		background: linear-gradient(135deg, #5b4cdb 0%, #4a3cc9 100%);
-		padding: 2rem 1.5rem;
-
-		@media (min-width: 768px) {
-			padding: 2.5rem 3rem;
+		:global(.dark) & {
+			box-shadow:
+				0 8px 30px -10px rgba(0, 0, 0, 0.35),
+				0 2px 4px -2px rgba(0, 0, 0, 0.15);
+			border-color: rgba(255, 255, 255, 0.08);
 		}
 	}
 
+	.cta-section {
+		position: relative;
+		background: linear-gradient(135deg, #6b5ce7 0%, #5046c7 50%, #4338b8 100%);
+		padding: 1.25rem 1.25rem;
+		overflow: hidden;
+
+		@media (min-width: 768px) {
+			padding: 1.5rem 2rem;
+		}
+	}
+
+	.cta-bg-pattern {
+		position: absolute;
+		inset: 0;
+		background-image: radial-gradient(
+				circle at 20% 80%,
+				rgba(255, 255, 255, 0.08) 0%,
+				transparent 50%
+			),
+			radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.06) 0%, transparent 40%);
+		pointer-events: none;
+	}
+
 	.cta-content {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 1.5rem;
+		gap: 1rem;
 		max-width: 1000px;
 		margin: 0 auto;
 
 		@media (min-width: 768px) {
 			flex-direction: row;
-			gap: 2rem;
+			gap: 1.5rem;
 		}
 	}
 
-	/* Icon Container */
 	.icon-container {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 64px;
-		height: 64px;
-		background: rgba(255, 255, 255, 0.2);
-		border-radius: 16px;
+		width: 48px;
+		height: 48px;
+		background: rgba(255, 255, 255, 0.15);
+		backdrop-filter: blur(8px);
+		border-radius: 12px;
 		flex-shrink: 0;
+		border: 1px solid rgba(255, 255, 255, 0.2);
 
 		@media (min-width: 768px) {
-			width: 72px;
-			height: 72px;
+			width: 56px;
+			height: 56px;
 		}
 	}
 
 	.cta-icon {
-		width: 32px;
-		height: 32px;
+		width: 24px;
+		height: 24px;
 		color: #fff;
 
 		@media (min-width: 768px) {
-			width: 36px;
-			height: 36px;
+			width: 28px;
+			height: 28px;
 		}
 	}
 
-	/* CTA Text - High contrast white on purple */
 	.cta-text {
 		flex: 1;
 		text-align: center;
@@ -149,58 +160,52 @@
 
 		h3 {
 			color: #fff;
-			font-size: 1.375rem;
+			font-size: 1.125rem;
 			font-weight: 700;
 			line-height: 1.3;
-			margin: 0 0 0.5rem;
+			margin: 0 0 0.25rem;
 
 			@media (min-width: 768px) {
-				font-size: 1.5rem;
+				font-size: 1.25rem;
 			}
 		}
 
 		p {
-			color: rgba(255, 255, 255, 0.95);
-			font-size: 1rem;
-			line-height: 1.6;
+			color: rgba(255, 255, 255, 0.9);
+			font-size: 0.875rem;
+			line-height: 1.5;
 			margin: 0;
 
 			@media (min-width: 768px) {
-				font-size: 1.0625rem;
+				font-size: 0.9375rem;
 			}
 		}
 	}
 
-	/* CTA Button - High contrast */
 	.cta-button {
 		display: inline-flex;
 		align-items: center;
 		gap: 0.5rem;
 		background: #fff;
-		color: #4a3cc9;
-		padding: 0.875rem 1.5rem;
-		border-radius: 10px;
+		color: #5046c7;
+		padding: 0.625rem 1.25rem;
+		border-radius: 8px;
 		font-weight: 600;
-		font-size: 0.9375rem;
+		font-size: 0.875rem;
 		text-decoration: none;
 		white-space: nowrap;
 		transition: all 0.2s ease;
 		flex-shrink: 0;
 
 		&:hover {
-			background: #f5f3ff;
-			color: #3d32a8;
+			background: #f8f7ff;
 			transform: translateY(-1px);
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-		}
-
-		&:active {
-			transform: translateY(0);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 		}
 
 		.arrow-icon {
-			width: 18px;
-			height: 18px;
+			width: 16px;
+			height: 16px;
 			transition: transform 0.2s ease;
 		}
 
@@ -214,43 +219,37 @@
 		}
 	}
 
-	/* Explorer Section - High contrast dark text on light bg */
 	.explorer-section {
-		background: var(--card-background, #fff);
-		padding: 2rem 1.5rem;
+		background: var(--card-background, #fafafa);
+		padding: 1.25rem 1rem 1rem;
 
 		@media (min-width: 768px) {
-			padding: 2.5rem 3rem;
+			padding: 1.5rem 2rem 1.5rem;
+		}
+
+		:global(.dark) & {
+			background: var(--card-background, #1a1a2e);
 		}
 
 		h3 {
 			color: var(--text-primary, #1a1a1a);
-			font-size: 1.375rem;
-			font-weight: 700;
+			font-size: 1rem;
+			font-weight: 600;
 			text-align: center;
 			margin: 0 0 0.75rem;
 
 			@media (min-width: 768px) {
-				font-size: 1.5rem;
+				font-size: 1.125rem;
 			}
-		}
 
-		p {
-			color: var(--text-secondary, #4a4a4a);
-			font-size: 1rem;
-			line-height: 1.6;
-			text-align: center;
-			max-width: 700px;
-			margin: 0 auto 2rem;
-
-			@media (min-width: 768px) {
-				font-size: 1.0625rem;
+			:global(.dark) & {
+				color: var(--text-primary, #f0f0f0);
 			}
 		}
 	}
 
 	.diagram-container {
-		max-width: 900px;
+		max-width: 800px;
 		margin: 0 auto;
 	}
 </style>

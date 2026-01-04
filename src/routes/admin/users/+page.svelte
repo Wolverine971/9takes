@@ -5,6 +5,8 @@
 	import { deserialize } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { convertDateToReadable } from '../../../utils/conversions';
+	import StatCard from '$lib/components/charts/StatCard.svelte';
+	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
 
 	export let data: PageData;
 
@@ -22,23 +24,63 @@
 		})) || [];
 
 	// User editing state
-	let active = null;
+	let active: any = null;
 	let activeAdmin = false;
 
 	// Sorting state
-	let sortField = '';
-	let sortDirection = 'asc';
+	let sortField = 'last_sign_in_at';
+	let sortDirection: 'asc' | 'desc' = 'desc';
+
+	// Search/filter state
+	let searchQuery = '';
+	let filterType: 'all' | 'admins' | 'with-type' | 'no-type' = 'all';
+
+	// Compute enneagram distribution
+	$: enneagramDistribution = formattedProfiles.reduce(
+		(acc: Record<number, number>, p: any) => {
+			if (p.enneagram) {
+				acc[p.enneagram] = (acc[p.enneagram] || 0) + 1;
+			}
+			return acc;
+		},
+		{} as Record<number, number>
+	);
+
+	// Filter profiles based on search and filter
+	$: filteredProfiles = formattedProfiles.filter((p) => {
+		// Search filter
+		const matchesSearch =
+			!searchQuery ||
+			p.email?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+			p.username?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+			p.first_name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+			p.last_name?.toLowerCase().includes(searchQuery.toLowerCase());
+
+		// Type filter
+		let matchesFilter = true;
+		if (filterType === 'admins') matchesFilter = p.admin === true;
+		else if (filterType === 'with-type') matchesFilter = !!p.enneagram;
+		else if (filterType === 'no-type') matchesFilter = !p.enneagram;
+
+		return matchesSearch && matchesFilter;
+	});
 
 	// Sort profiles by field
-	function sortProfiles(field: string) {
-		sortDirection = sortField === field && sortDirection === 'asc' ? 'desc' : 'asc';
-		sortField = field;
+	$: sortedProfiles = [...filteredProfiles].sort((a, b) => {
+		const aVal = a[sortField];
+		const bVal = b[sortField];
+		if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
+		if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
+		return 0;
+	});
 
-		formattedProfiles = [...formattedProfiles].sort((a, b) => {
-			if (a[field] < b[field]) return sortDirection === 'asc' ? -1 : 1;
-			if (a[field] > b[field]) return sortDirection === 'asc' ? 1 : -1;
-			return 0;
-		});
+	function toggleSort(field: string) {
+		if (sortField === field) {
+			sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+		} else {
+			sortField = field;
+			sortDirection = 'desc';
+		}
 	}
 
 	// Save admin status changes
@@ -65,7 +107,6 @@
 						admin: p.email === active.email ? activeAdmin : p.admin
 					}));
 
-					// Update formatted profiles as well
 					formattedProfiles = formattedProfiles.map((p) => ({
 						...p,
 						admin: p.email === active.email ? activeAdmin : p.admin
@@ -82,177 +123,226 @@
 		}
 	};
 
-	// Define essential columns for better UI
-	const essentialColumns = [
-		{ field: 'last_sign_in_at', label: 'Last Sign-In' },
-		{ field: 'email', label: 'Email' },
-		{ field: 'enneagram', label: 'Enneagram' },
-		{ field: 'username', label: 'Username' },
-		{ field: 'first_name', label: 'First Name' },
-		{ field: 'last_name', label: 'Last Name' },
-		{ field: 'admin', label: 'Is Admin' },
-		{ field: 'id', label: 'ID' }
-	];
-
-	// Define additional columns that can be hidden/shown
-	const additionalColumns = [
-		{ field: 'external_id', label: 'External ID' },
-		{ field: 'phone', label: 'Phone' },
-		{ field: 'aud', label: 'Audience' },
-		{ field: 'role', label: 'Role' },
-		{ field: 'invited_at', label: 'Invited At' },
-		{ field: 'confirmation_sent_at', label: 'Confirmation Sent At' },
-		{ field: 'confirmed_at', label: 'Confirmed At' }
-	];
-
-	// State for showing additional columns
-	let showAdditionalColumns = false;
+	// Enneagram type colors
+	const typeColors: Record<number, string> = {
+		1: '#6366f1',
+		2: '#ec4899',
+		3: '#f59e0b',
+		4: '#8b5cf6',
+		5: '#3b82f6',
+		6: '#14b8a6',
+		7: '#f97316',
+		8: '#ef4444',
+		9: '#22c55e'
+	};
 </script>
 
 <div class="admin-users">
-	<h1 class="page-title">User Management</h1>
+	<header class="page-header">
+		<h1 class="page-title">User Management</h1>
+	</header>
 
-	<!-- Compact Stats Row -->
-	<div class="stats-row">
-		<div class="stat-chip">
-			<span class="stat-label">Users</span>
-			<span class="stat-num">{formattedProfiles?.length || 0}</span>
+	<!-- Stats Grid -->
+	<section class="stats-section">
+		<div class="stats-grid">
+			<StatCard icon="👥" label="Total Users" value={formattedProfiles.length} color="primary" />
+			<StatCard
+				icon="🛡️"
+				label="Admins"
+				value={formattedProfiles.filter((p) => p.admin).length}
+				color="warning"
+			/>
+			<StatCard
+				icon="✅"
+				label="With Type"
+				value={formattedProfiles.filter((p) => p.enneagram).length}
+				subValue="{((formattedProfiles.filter((p) => p.enneagram).length / formattedProfiles.length) * 100).toFixed(0)}%"
+				color="success"
+			/>
+			<StatCard icon="📧" label="Email Signups" value={formattedSignups.length} />
 		</div>
-		<div class="stat-chip">
-			<span class="stat-label">Admins</span>
-			<span class="stat-num">{formattedProfiles?.filter((p) => p.admin).length || 0}</span>
-		</div>
-		<div class="stat-chip">
-			<span class="stat-label">Signups</span>
-			<span class="stat-num">{formattedSignups?.length || 0}</span>
-		</div>
-	</div>
+	</section>
 
+	<!-- Enneagram Distribution -->
+	<section class="distribution-section">
+		<div class="distribution-card">
+			<EnneagramBarChart
+				distribution={enneagramDistribution}
+				title="User Type Distribution"
+				showPercentages={true}
+				compact={true}
+			/>
+		</div>
+	</section>
+
+	<!-- User Profiles Table -->
 	{#if formattedProfiles?.length}
-		<div class="section-card compact">
-			<div class="section-header-toolbar compact">
-				<span class="section-title">User Profiles ({formattedProfiles.length})</span>
-				<button
-					class="toggle-btn"
-					on:click={() => (showAdditionalColumns = !showAdditionalColumns)}
-				>
-					{showAdditionalColumns ? '− Less' : '+ More'}
-				</button>
-			</div>
-			<div class="table-wrapper">
-				<table class="data-table compact">
-					<thead>
-						<tr>
-							{#each essentialColumns as column}
-								<th class="sortable" on:click={() => sortProfiles(column.field)}>
-									{column.label}
-									{#if sortField === column.field}
-										<span class="sort-ind">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+		<section class="table-section">
+			<div class="table-card">
+				<div class="table-header">
+					<h3 class="table-title">
+						<span class="title-icon">👥</span>
+						User Profiles
+						<span class="count-badge">{sortedProfiles.length}</span>
+					</h3>
+					<div class="table-controls">
+						<input
+							type="text"
+							placeholder="Search users..."
+							bind:value={searchQuery}
+							class="search-input"
+						/>
+						<select bind:value={filterType} class="filter-select">
+							<option value="all">All Users</option>
+							<option value="admins">Admins Only</option>
+							<option value="with-type">Has Enneagram</option>
+							<option value="no-type">No Enneagram</option>
+						</select>
+					</div>
+				</div>
+				<div class="table-content">
+					<table class="data-table">
+						<thead>
+							<tr>
+								<th class="sortable" on:click={() => toggleSort('last_sign_in_at')}>
+									Last Active
+									{#if sortField === 'last_sign_in_at'}
+										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
 									{/if}
 								</th>
-							{/each}
-							{#if showAdditionalColumns}
-								{#each additionalColumns as column}
-									<th class="sortable" on:click={() => sortProfiles(column.field)}>
-										{column.label}
-										{#if sortField === column.field}
-											<span class="sort-ind">{sortDirection === 'asc' ? '↑' : '↓'}</span>
-										{/if}
-									</th>
-								{/each}
-							{/if}
-							<th></th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each formattedProfiles as profile}
-							<tr>
-								{#each essentialColumns as column}
+								<th class="sortable" on:click={() => toggleSort('email')}>
+									Email
+									{#if sortField === 'email'}
+										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+									{/if}
+								</th>
+								<th class="sortable" on:click={() => toggleSort('enneagram')}>
+									Type
+									{#if sortField === 'enneagram'}
+										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+									{/if}
+								</th>
+								<th>Name</th>
+								<th class="sortable" on:click={() => toggleSort('admin')}>
+									Admin
+									{#if sortField === 'admin'}
+										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+									{/if}
+								</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each sortedProfiles as profile}
+								<tr>
+									<td class="date-cell">
+										{profile.last_sign_in_at
+											? new Date(profile.last_sign_in_at).toLocaleDateString()
+											: '—'}
+									</td>
 									<td>
-										{#if column.field === 'admin'}
-											<span class="badge" class:badge-yes={profile.admin}>
-												{profile.admin ? 'Y' : 'N'}
+										<a href="mailto:{profile.email}" class="email-link">{profile.email}</a>
+									</td>
+									<td>
+										{#if profile.enneagram}
+											<span
+												class="type-badge"
+												style="background: {typeColors[profile.enneagram]}"
+											>
+												{profile.enneagram}
 											</span>
-										{:else if column.field === 'email'}
-											<a href="mailto:{profile.email}" class="table-link">{profile.email}</a>
-										{:else if column.field === 'last_sign_in_at'}
-											<span class="date-cell">
-												{profile.last_sign_in_at
-													? new Date(profile.last_sign_in_at).toLocaleDateString()
-													: '—'}
-											</span>
-										{:else if column.field === 'enneagram'}
-											{profile.enneagram ? `T${profile.enneagram}` : '—'}
 										{:else}
-											{profile[column.field] || '—'}
+											<span class="empty-badge">—</span>
 										{/if}
 									</td>
-								{/each}
-								{#if showAdditionalColumns}
-									{#each additionalColumns as column}
-										<td class="date-cell">
-											{column.field.includes('_at') && profile[column.field]
-												? new Date(profile[column.field]).toLocaleDateString()
-												: profile[column.field] || '—'}
-										</td>
-									{/each}
-								{/if}
-								<td>
-									<button
-										type="button"
-										class="btn-edit"
-										on:click={() => {
-											active = { ...profile };
-											activeAdmin = !!active.admin;
-											getModal('user-modal').open();
-										}}
-									>
-										✎
-									</button>
-								</td>
-							</tr>
-						{/each}
-					</tbody>
-				</table>
+									<td class="name-cell">
+										{profile.first_name || profile.username || '—'}
+										{profile.last_name || ''}
+									</td>
+									<td>
+										{#if profile.admin}
+											<span class="admin-badge">Admin</span>
+										{:else}
+											<span class="user-badge">User</span>
+										{/if}
+									</td>
+									<td>
+										<button
+											type="button"
+											class="edit-btn"
+											on:click={() => {
+												active = { ...profile };
+												activeAdmin = !!active.admin;
+												getModal('user-modal').open();
+											}}
+										>
+											Edit
+										</button>
+									</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
 			</div>
-		</div>
+		</section>
 	{/if}
 
+	<!-- Email Signups Table -->
 	{#if formattedSignups?.length}
-		<div class="section-card compact">
-			<div class="section-header-toolbar compact">
-				<span class="section-title">Email Signups ({formattedSignups.length})</span>
-			</div>
-			<div class="table-wrapper">
-				<table class="data-table compact">
-					<thead>
-						<tr>
-							<th>Email</th>
-							<th>Name</th>
-							<th>Created</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each formattedSignups as signup}
+		<section class="table-section">
+			<div class="table-card">
+				<div class="table-header">
+					<h3 class="table-title">
+						<span class="title-icon">📧</span>
+						Email Signups
+						<span class="count-badge">{formattedSignups.length}</span>
+					</h3>
+				</div>
+				<div class="table-content">
+					<table class="data-table">
+						<thead>
 							<tr>
-								<td><a href="mailto:{signup.email}" class="table-link">{signup.email}</a></td>
-								<td>{signup.name || '—'}</td>
-								<td class="date-cell">{signup.createdAt}</td>
+								<th>Email</th>
+								<th>Name</th>
+								<th>Created</th>
 							</tr>
-						{/each}
-					</tbody>
-				</table>
+						</thead>
+						<tbody>
+							{#each formattedSignups as signup}
+								<tr>
+									<td>
+										<a href="mailto:{signup.email}" class="email-link">{signup.email}</a>
+									</td>
+									<td class="name-cell">{signup.name || '—'}</td>
+									<td class="date-cell">{signup.createdAt}</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
 			</div>
-		</div>
+		</section>
 	{/if}
 </div>
 
 <Modal2 id="user-modal">
 	<div class="modal-content">
 		<h2 class="modal-title">Edit User</h2>
-		<div class="modal-info">
-			<p class="user-email">{active?.email}</p>
-			<p class="user-name">{active?.first_name} {active?.last_name}</p>
+		<div class="modal-user-info">
+			<div class="user-avatar">
+				{#if active?.enneagram}
+					<span class="avatar-type" style="background: {typeColors[active.enneagram]}">
+						{active.enneagram}
+					</span>
+				{:else}
+					<span class="avatar-placeholder">?</span>
+				{/if}
+			</div>
+			<div class="user-details">
+				<p class="user-email">{active?.email}</p>
+				<p class="user-name">{active?.first_name || ''} {active?.last_name || ''}</p>
+			</div>
 		</div>
 
 		<div class="form-group">
@@ -282,121 +372,151 @@
 	.admin-users {
 		max-width: 1400px;
 		margin: 0 auto;
+		padding: 0 16px;
+	}
+
+	/* Header */
+	.page-header {
+		margin-bottom: 24px;
+		padding-bottom: 16px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
 	}
 
 	.page-title {
-		font-size: 1.25rem;
-		margin: 0 0 0.75rem 0;
-		color: var(--text-primary);
-	}
-
-	/* Compact Stats Row */
-	.stats-row {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem;
-		margin-bottom: 0.75rem;
-	}
-
-	.stat-chip {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 0.5rem 0.75rem;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: 6px;
-		min-width: 70px;
-	}
-
-	.stat-label {
-		font-size: 0.65rem;
-		color: var(--text-secondary);
-		text-transform: uppercase;
-		letter-spacing: 0.5px;
-	}
-
-	.stat-num {
-		font-size: 1.125rem;
+		font-size: 1.5rem;
 		font-weight: 700;
-		color: var(--primary);
-		line-height: 1.2;
-	}
-
-	/* Section Cards - Compact */
-	.section-card {
-		background-color: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: 6px;
-		overflow: hidden;
-	}
-
-	.section-card.compact {
-		margin-bottom: 0.75rem;
-	}
-
-	.section-header-toolbar {
-		padding: 0.5rem 0.75rem;
-		background-color: var(--hover-background);
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		border-bottom: 1px solid var(--border-color);
-	}
-
-	.section-header-toolbar.compact {
-		padding: 0.375rem 0.5rem;
-	}
-
-	.section-title {
-		font-size: 0.8rem;
-		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--text-primary, #1e293b);
 		margin: 0;
 	}
 
-	.toggle-btn {
-		padding: 0.25rem 0.5rem;
-		background-color: var(--background);
-		border: 1px solid var(--border-color);
-		border-radius: 4px;
-		font-size: 0.7rem;
-		color: var(--text-primary);
+	/* Stats Section */
+	.stats-section {
+		margin-bottom: 24px;
+	}
+
+	.stats-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+		gap: 16px;
+	}
+
+	/* Distribution Section */
+	.distribution-section {
+		margin-bottom: 24px;
+	}
+
+	.distribution-card {
+		background: var(--card-background, #fff);
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	/* Table Section */
+	.table-section {
+		margin-bottom: 24px;
+	}
+
+	.table-card {
+		background: var(--card-background, #fff);
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.table-header {
+		padding: 16px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		background: var(--hover-background, #f8fafc);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+
+	.table-title {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		margin: 0;
+		font-size: 0.9rem;
+		font-weight: 600;
+		color: var(--text-primary, #1e293b);
+	}
+
+	.title-icon {
+		font-size: 1rem;
+	}
+
+	.count-badge {
+		padding: 2px 8px;
+		background: var(--primary, #3b82f6);
+		color: white;
+		border-radius: 12px;
+		font-size: 0.75rem;
+		font-weight: 600;
+	}
+
+	.table-controls {
+		display: flex;
+		gap: 8px;
+		flex-wrap: wrap;
+	}
+
+	.search-input {
+		padding: 8px 12px;
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 8px;
+		font-size: 0.8rem;
+		min-width: 200px;
+		background: var(--card-background, #fff);
+		color: var(--text-primary, #1e293b);
+	}
+
+	.search-input:focus {
+		outline: none;
+		border-color: var(--primary, #3b82f6);
+	}
+
+	.filter-select {
+		padding: 8px 12px;
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 8px;
+		font-size: 0.8rem;
+		background: var(--card-background, #fff);
+		color: var(--text-primary, #1e293b);
 		cursor: pointer;
 	}
 
-	.toggle-btn:hover {
-		background-color: var(--primary-light);
-		border-color: var(--primary);
-	}
-
-	/* Table Styles - Compact */
-	.table-wrapper {
+	.table-content {
 		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
+		max-height: 600px;
+		overflow-y: auto;
 	}
 
 	.data-table {
 		width: 100%;
 		border-collapse: collapse;
-		font-size: 0.75rem;
-	}
-
-	.data-table.compact {
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 	}
 
 	.data-table thead {
-		background-color: var(--hover-background);
+		position: sticky;
+		top: 0;
+		background: var(--card-background, #fff);
+		z-index: 1;
 	}
 
 	.data-table th {
-		padding: 0.375rem 0.5rem;
+		padding: 12px 16px;
 		text-align: left;
 		font-weight: 600;
-		color: var(--text-primary);
-		white-space: nowrap;
-		border-bottom: 1px solid var(--border-color);
+		color: var(--text-secondary, #64748b);
+		font-size: 0.7rem;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
 	}
 
 	.data-table th.sortable {
@@ -405,178 +525,262 @@
 	}
 
 	.data-table th.sortable:hover {
-		background-color: var(--primary-light);
+		color: var(--primary, #3b82f6);
 	}
 
-	.sort-ind {
-		color: var(--primary);
-		font-size: 0.65rem;
-		margin-left: 2px;
+	.sort-icon {
+		margin-left: 4px;
+		color: var(--primary, #3b82f6);
 	}
 
 	.data-table td {
-		padding: 0.375rem 0.5rem;
-		border-top: 1px solid var(--border-color);
-		color: var(--text-primary);
+		padding: 12px 16px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		color: var(--text-primary, #1e293b);
 	}
 
 	.data-table tbody tr:hover {
-		background-color: var(--hover-background);
+		background: var(--hover-background, #f8fafc);
 	}
 
 	.date-cell {
 		white-space: nowrap;
-		font-size: 0.65rem;
-		color: var(--text-secondary);
+		font-size: 0.75rem;
+		color: var(--text-secondary, #64748b);
 	}
 
-	/* Badges - Compact */
-	.badge {
-		display: inline-block;
-		padding: 0.125rem 0.375rem;
-		border-radius: 9999px;
-		font-size: 0.6rem;
-		font-weight: 500;
-		background-color: var(--error-light);
-		color: var(--error);
+	.name-cell {
+		max-width: 200px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
-	.badge-yes {
-		background-color: var(--success-light);
-		color: var(--success);
-	}
-
-	/* Links */
-	.table-link {
-		color: var(--primary);
+	.email-link {
+		color: var(--text-primary, #1e293b);
 		text-decoration: none;
+	}
+
+	.email-link:hover {
+		color: var(--primary, #3b82f6);
+	}
+
+	.type-badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 24px;
+		height: 24px;
+		border-radius: 6px;
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: white;
+	}
+
+	.empty-badge {
+		color: var(--text-secondary, #94a3b8);
+	}
+
+	.admin-badge {
+		padding: 2px 8px;
+		background: rgba(245, 158, 11, 0.1);
+		color: #d97706;
+		border-radius: 12px;
+		font-size: 0.7rem;
+		font-weight: 600;
+	}
+
+	.user-badge {
+		padding: 2px 8px;
+		background: var(--hover-background, #f1f5f9);
+		color: var(--text-secondary, #64748b);
+		border-radius: 12px;
+		font-size: 0.7rem;
 		font-weight: 500;
 	}
 
-	.table-link:hover {
-		text-decoration: underline;
-	}
-
-	/* Edit Button - Compact */
-	.btn-edit {
-		padding: 0.125rem 0.375rem;
-		background: transparent;
-		border: 1px solid var(--border-color);
-		border-radius: 3px;
-		font-size: 0.7rem;
+	.edit-btn {
+		padding: 4px 12px;
+		background: var(--card-background, #fff);
+		color: var(--primary, #3b82f6);
+		border: 1px solid var(--primary, #3b82f6);
+		border-radius: 6px;
+		font-size: 0.75rem;
+		font-weight: 500;
 		cursor: pointer;
-		color: var(--text-secondary);
+		transition: all 0.2s ease;
 	}
 
-	.btn-edit:hover {
-		background-color: var(--primary-light);
-		border-color: var(--primary);
-		color: var(--primary);
+	.edit-btn:hover {
+		background: var(--primary, #3b82f6);
+		color: white;
 	}
 
 	/* Modal Styles */
 	.modal-content {
-		padding: 1rem;
+		max-width: 400px;
 	}
 
 	.modal-title {
-		font-size: 1.125rem;
-		margin: 0 0 0.75rem 0;
-		color: var(--text-primary);
+		margin: 0 0 20px 0;
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: var(--text-primary, #1e293b);
 	}
 
-	.modal-info {
-		margin-bottom: 1rem;
-		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--border-color);
+	.modal-user-info {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		padding: 16px;
+		background: var(--hover-background, #f8fafc);
+		border-radius: 12px;
+		margin-bottom: 20px;
+	}
+
+	.user-avatar {
+		flex-shrink: 0;
+	}
+
+	.avatar-type {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 48px;
+		height: 48px;
+		border-radius: 12px;
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: white;
+	}
+
+	.avatar-placeholder {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 48px;
+		height: 48px;
+		border-radius: 12px;
+		font-size: 1.25rem;
+		font-weight: 700;
+		background: var(--border-color, #e2e8f0);
+		color: var(--text-secondary, #64748b);
+	}
+
+	.user-details {
+		min-width: 0;
 	}
 
 	.user-email {
-		font-size: 0.875rem;
+		font-size: 0.9rem;
 		font-weight: 600;
-		color: var(--primary);
-		margin: 0 0 0.125rem 0;
+		color: var(--text-primary, #1e293b);
+		margin: 0 0 4px 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.user-name {
-		color: var(--text-secondary);
-		margin: 0;
 		font-size: 0.8rem;
+		color: var(--text-secondary, #64748b);
+		margin: 0;
 	}
 
 	.form-group {
-		margin-bottom: 1rem;
+		margin-bottom: 20px;
 	}
 
 	.form-group label {
 		display: block;
-		margin-bottom: 0.375rem;
+		margin-bottom: 8px;
 		font-weight: 500;
-		color: var(--text-primary);
-		font-size: 0.8rem;
+		color: var(--text-primary, #1e293b);
+		font-size: 0.85rem;
 	}
 
 	.form-select {
 		width: 100%;
-		padding: 0.5rem;
-		border: 1px solid var(--border-color);
-		border-radius: 4px;
-		background-color: var(--background);
-		color: var(--text-primary);
+		padding: 10px 12px;
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 8px;
+		background: var(--card-background, #fff);
+		color: var(--text-primary, #1e293b);
 		font-size: 0.875rem;
+		cursor: pointer;
 	}
 
 	.form-select:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--primary, #3b82f6);
 	}
 
 	.modal-actions {
 		display: flex;
 		justify-content: flex-end;
-		gap: 0.5rem;
-		margin-top: 1rem;
+		gap: 12px;
+	}
+
+	.btn {
+		padding: 10px 20px;
+		font-size: 0.875rem;
+		font-weight: 500;
+		border-radius: 8px;
+		cursor: pointer;
+		transition: all 0.2s ease;
 	}
 
 	.btn-secondary {
-		background-color: var(--secondary);
-		color: var(--text-on-secondary);
-		padding: 0.375rem 0.75rem;
-		border: none;
-		border-radius: 4px;
-		font-size: 0.8rem;
-		font-weight: 500;
-		cursor: pointer;
+		background: var(--card-background, #fff);
+		color: var(--text-primary, #1e293b);
+		border: 1px solid var(--border-color, #e2e8f0);
 	}
 
 	.btn-secondary:hover {
-		background-color: var(--secondary-dark);
+		background: var(--hover-background, #f8fafc);
+	}
+
+	.btn-primary {
+		background: var(--primary, #3b82f6);
+		color: white;
+		border: none;
+	}
+
+	.btn-primary:hover {
+		background: #2563eb;
 	}
 
 	/* Responsive */
 	@media (max-width: 768px) {
-		.section-header-toolbar {
-			flex-direction: row;
+		.admin-users {
+			padding: 0 12px;
 		}
 
-		.data-table th:nth-child(n + 5),
-		.data-table td:nth-child(n + 5) {
-			display: none;
+		.page-title {
+			font-size: 1.25rem;
 		}
 
-		.modal-actions {
+		.stats-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		.table-header {
 			flex-direction: column;
+			align-items: flex-start;
 		}
 
-		.modal-actions button {
+		.table-controls {
 			width: 100%;
 		}
-	}
 
-	@media (max-width: 480px) {
-		.data-table th:nth-child(n + 3),
-		.data-table td:nth-child(n + 3) {
-			display: none;
+		.search-input {
+			flex: 1;
+			min-width: 0;
+		}
+
+		.data-table th,
+		.data-table td {
+			padding: 10px 12px;
 		}
 	}
 </style>

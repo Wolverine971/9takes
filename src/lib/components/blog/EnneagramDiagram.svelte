@@ -1,14 +1,15 @@
 <!-- src/lib/components/blog/EnneagramDiagram.svelte -->
 <script lang="ts">
-	import { onMount, tick } from 'svelte';
-	import { fade, scale, fly } from 'svelte/transition';
-	import { cubicOut, elasticOut } from 'svelte/easing';
+	import { onMount } from 'svelte';
+	import { fade, scale } from 'svelte/transition';
+	import { cubicOut } from 'svelte/easing';
 
 	let hoveredType: number | null = null;
 	let mounted = false;
 	let containerWidth = 0;
 	let containerElement: HTMLElement;
 	let isMobile = false;
+	let showLabels = true;
 
 	// The 9 Enneagram types
 	const enneagramTypes = [
@@ -241,6 +242,7 @@
 	function handleResize() {
 		if (typeof window !== 'undefined') {
 			isMobile = window.innerWidth < 768;
+			showLabels = window.innerWidth > 400;
 			if (containerElement) {
 				containerWidth = containerElement.clientWidth;
 			}
@@ -279,43 +281,45 @@
 	});
 </script>
 
-<div class="relative mx-auto w-full max-w-4xl" bind:this={containerElement}>
+<div class="diagram-wrapper" bind:this={containerElement}>
 	<div class="enneagram-container">
-		<svg class="h-full w-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-			<!-- Outer circle with subtle gradient -->
+		<svg class="diagram-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+			<!-- Gradients and filters -->
 			<defs>
-				<linearGradient id="circleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-					<stop offset="0%" stop-color="#f5f5f5" />
-					<stop offset="100%" stop-color="#eaeaea" />
+				<linearGradient id="circleGradientLight" x1="0%" y1="0%" x2="100%" y2="100%">
+					<stop offset="0%" stop-color="#fafafa" />
+					<stop offset="100%" stop-color="#f0f0f0" />
 				</linearGradient>
+				<linearGradient id="circleGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
+					<stop offset="0%" stop-color="#2a2a3e" />
+					<stop offset="100%" stop-color="#1f1f2e" />
+				</linearGradient>
+				<filter id="circleShadow" x="-20%" y="-20%" width="140%" height="140%">
+					<feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-opacity="0.1" />
+				</filter>
 			</defs>
 
+			<!-- Main circle -->
 			<circle
 				cx={center.x}
 				cy={center.y}
 				r={radius}
-				stroke="#333"
-				stroke-width="0.35"
-				fill="url(#circleGradient)"
-				class="transition-all duration-300"
-				style="filter: drop-shadow(0 1px 3px rgba(0,0,0,0.1));"
+				class="main-circle"
+				filter="url(#circleShadow)"
 			/>
 
-			<!-- Connection lines with hover effects -->
-			{#each connections as conn, i}
+			<!-- Connection lines -->
+			{#each connections as conn}
 				<line
 					x1={typePositions[conn.from].x}
 					y1={typePositions[conn.from].y}
 					x2={typePositions[conn.to].x}
 					y2={typePositions[conn.to].y}
-					stroke={isConnectionHighlighted(conn)
-						? hoveredType
-							? enneagramTypes[hoveredType - 1].color
-							: '#888'
-						: '#888'}
-					stroke-width={isConnectionHighlighted(conn) ? '0.6' : '0.3'}
-					stroke-opacity={isConnectionHighlighted(conn) ? '0.8' : '0.4'}
-					class="transition-all duration-300 ease-out"
+					class="connection-line"
+					class:highlighted={isConnectionHighlighted(conn)}
+					stroke={isConnectionHighlighted(conn) && hoveredType
+						? enneagramTypes[hoveredType - 1].color
+						: undefined}
 				/>
 			{/each}
 		</svg>
@@ -325,17 +329,13 @@
 			{#if mounted}
 				<a
 					href={getTypeUrl(type.id)}
-					class="node-hover-effect"
+					class="type-node"
+					class:active={hoveredType === type.id}
+					class:mobile={isMobile}
 					style="
 						left: {typePositions[index].x}%;
 						top: {typePositions[index].y}%;
-						background-color: {type.color};
-						width: {isMobile ? '2rem' : '2.5rem'};
-						height: {isMobile ? '2rem' : '2.5rem'};
-						box-shadow: {hoveredType === type.id
-						? '0 0 12px 4px rgba(0,0,0,0.15)'
-						: '0 2px 5px rgba(0,0,0,0.2)'};
-						transform: translate(-50%, -50%) {hoveredType === type.id ? 'scale(1.15)' : 'scale(1)'};
+						--node-color: {type.color};
 					"
 					on:mouseenter={() => (hoveredType = type.id)}
 					on:mouseleave={() => (hoveredType = null)}
@@ -345,75 +345,51 @@
 					tabindex="0"
 					aria-label={`Enneagram Type ${type.id}: ${type.name}`}
 				>
-					<span class="text-sm font-bold text-white md:text-base">{type.id}</span>
+					<span class="type-number">{type.id}</span>
 				</a>
 			{/if}
 		{/each}
 
-		<!-- Type labels with better visibility -->
+		<!-- Type labels -->
 		{#each enneagramTypes as type, index}
-			{#if mounted && window.innerWidth > 400}
+			{#if mounted && showLabels}
+				{@const labelPos = getLabelPosition(index)}
 				<div
-					class="enneagram-label"
+					class="type-label"
+					class:dimmed={hoveredType !== null && hoveredType !== type.id}
+					class:active={hoveredType === type.id}
 					style="
-						left: {getLabelPosition(index).left};
-						top: {getLabelPosition(index).top};
-						transform: translate({getLabelPosition(index).textAlign === 'center'
-						? '-50%'
-						: getLabelPosition(index).textAlign === 'left'
-							? '0'
-							: '-100%'}, 0);
-						text-align: {getLabelPosition(index).textAlign};
-						opacity: {hoveredType === null || hoveredType === type.id ? '1' : '0.4'};
-						max-width: {isMobile ? '90px' : '130px'};
-						color: {hoveredType === type.id ? type.color : '#333'};
-						font-weight: {hoveredType === type.id ? '700' : '600'};
+						left: {labelPos.left};
+						top: {labelPos.top};
+						text-align: {labelPos.textAlign};
+						--label-color: {type.color};
+						transform: translate({labelPos.textAlign === 'center'
+							? '-50%'
+							: labelPos.textAlign === 'left'
+								? '0'
+								: '-100%'}, 0);
 					"
 				>
-					<span class="label-text">
-						{type.name}
-					</span>
+					<span class="label-text">{type.name}</span>
 				</div>
 			{/if}
 		{/each}
 
-		<!-- Tooltip with smooth transitions -->
+		<!-- Tooltip -->
 		{#if hoveredType && mounted}
+			{@const currentType = enneagramTypes[hoveredType - 1]}
 			<div
-				class="enneagram-tooltip"
-				style={`left: ${getTooltipPosition().left}; top: ${getTooltipPosition().top};`}
-				in:scale={{ duration: 200, delay: 50, opacity: 0, start: 0.9, easing: cubicOut }}
-				out:fade={{ duration: 150 }}
+				class="tooltip"
+				style="left: 50%; top: 50%;"
+				in:scale={{ duration: 150, opacity: 0, start: 0.95, easing: cubicOut }}
+				out:fade={{ duration: 100 }}
 			>
-				<!-- Header circle with hovered type number -->
-				<div
-					class="enneagram-tooltip__header"
-					style={`background-color: ${enneagramTypes[hoveredType - 1].color}`}
-					in:scale={{ duration: 300, delay: 100, easing: elasticOut }}
-				>
+				<div class="tooltip-badge" style="background-color: {currentType.color}">
 					<span>{hoveredType}</span>
 				</div>
-
-				<!-- Type name -->
-				<h3 class="enneagram-tooltip__title">
-					{enneagramTypes[hoveredType - 1].name}
-				</h3>
-
-				<!-- Short excerpt from the description -->
-				<p class="enneagram-tooltip__description">
-					{enneagramTypes[hoveredType - 1].description.split('.')[0]}.
-				</p>
-
-				<!-- Growth & Stress quick info -->
-				<div class="enneagram-tooltip__info">
-					<div>
-						<p>In Growth:</p>
-						<p>→ Type {getGrowthType(hoveredType)}</p>
-					</div>
-					<div>
-						<p>In Stress:</p>
-						<p>→ Type {getStressType(hoveredType)}</p>
-					</div>
+				<div class="tooltip-content">
+					<h3 class="tooltip-title">{currentType.name}</h3>
+					<p class="tooltip-description">{currentType.description.split('.')[0]}.</p>
 				</div>
 			</div>
 		{/if}
@@ -421,11 +397,236 @@
 </div>
 
 <style lang="scss">
-	a {
+	/* Wrapper */
+	.diagram-wrapper {
+		position: relative;
+		width: 100%;
+		max-width: 56rem;
+		margin: 0 auto;
+	}
+
+	/* Container */
+	.enneagram-container {
+		position: relative;
+		width: 100%;
+		padding-bottom: 100%; /* 1:1 aspect ratio */
+	}
+
+	/* SVG */
+	.diagram-svg {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	/* Main circle */
+	.main-circle {
+		fill: url(#circleGradientLight);
+		stroke: #d0d0d0;
+		stroke-width: 0.3;
+		transition: all 0.3s ease;
+
+		:global(.dark) & {
+			fill: url(#circleGradientDark);
+			stroke: #3a3a4a;
+		}
+	}
+
+	/* Connection lines */
+	.connection-line {
+		stroke: #aaa;
+		stroke-width: 0.25;
+		stroke-opacity: 0.35;
+		transition: all 0.3s ease;
+
+		&.highlighted {
+			stroke-width: 0.5;
+			stroke-opacity: 0.7;
+		}
+
+		:global(.dark) & {
+			stroke: #666;
+			stroke-opacity: 0.4;
+
+			&.highlighted {
+				stroke-opacity: 0.8;
+			}
+		}
+	}
+
+	/* Type nodes */
+	.type-node {
+		position: absolute;
 		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.5rem;
+		height: 2.5rem;
+		background-color: var(--node-color);
+		border-radius: 50%;
+		text-decoration: none;
+		cursor: pointer;
+		transform: translate(-50%, -50%);
+		transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+			box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+		box-shadow:
+			0 2px 8px rgba(0, 0, 0, 0.15),
+			0 1px 3px rgba(0, 0, 0, 0.1);
+		border: 2px solid rgba(255, 255, 255, 0.25);
 
 		&::after {
 			content: none !important;
+			display: none !important;
+		}
+
+		&.mobile {
+			width: 2rem;
+			height: 2rem;
+		}
+
+		&:hover,
+		&:focus,
+		&.active {
+			transform: translate(-50%, -50%) scale(1.18);
+			box-shadow:
+				0 4px 16px rgba(0, 0, 0, 0.2),
+				0 0 0 3px rgba(255, 255, 255, 0.3);
+			z-index: 10;
+		}
+
+		&:focus {
+			outline: none;
+			box-shadow:
+				0 4px 16px rgba(0, 0, 0, 0.2),
+				0 0 0 3px rgba(91, 76, 219, 0.5);
+		}
+	}
+
+	.type-number {
+		font-size: 0.9375rem;
+		font-weight: 700;
+		color: #fff;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+		line-height: 1;
+
+		.mobile & {
+			font-size: 0.8125rem;
+		}
+	}
+
+	/* Type labels */
+	.type-label {
+		position: absolute;
+		pointer-events: none;
+		max-width: 130px;
+		transition: opacity 0.25s ease, color 0.25s ease;
+
+		&.dimmed {
+			opacity: 0.35;
+		}
+
+		&.active {
+			color: var(--label-color) !important;
+		}
+
+		@media (max-width: 767px) {
+			max-width: 90px;
+		}
+	}
+
+	.label-text {
+		font-size: 0.8125rem;
+		font-weight: 600;
+		color: var(--text-secondary, #444);
+		line-height: 1.3;
+		display: block;
+
+		.active & {
+			font-weight: 700;
+			color: var(--label-color);
+		}
+
+		:global(.dark) & {
+			color: var(--text-secondary, #b0b0b0);
+		}
+
+		@media (max-width: 767px) {
+			font-size: 0.6875rem;
+		}
+	}
+
+	/* Tooltip */
+	.tooltip {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		background: #fff;
+		border-radius: 10px;
+		padding: 0.625rem 1rem;
+		max-width: min(320px, 90%);
+		box-shadow:
+			0 8px 24px rgba(0, 0, 0, 0.12),
+			0 4px 8px rgba(0, 0, 0, 0.08);
+		z-index: 100;
+		border: 1px solid rgba(0, 0, 0, 0.06);
+
+		:global(.dark) & {
+			background: #1e1e2e;
+			border-color: rgba(255, 255, 255, 0.08);
+			box-shadow:
+				0 8px 24px rgba(0, 0, 0, 0.35),
+				0 4px 8px rgba(0, 0, 0, 0.25);
+		}
+	}
+
+	.tooltip-badge {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.25rem;
+		height: 2.25rem;
+		border-radius: 50%;
+		flex-shrink: 0;
+
+		span {
+			font-size: 1rem;
+			font-weight: 700;
+			color: #fff;
+		}
+	}
+
+	.tooltip-content {
+		flex: 1;
+		min-width: 0;
+	}
+
+	.tooltip-title {
+		font-size: 0.9375rem;
+		font-weight: 700;
+		color: var(--text-primary, #1a1a1a);
+		margin: 0;
+		line-height: 1.2;
+
+		:global(.dark) & {
+			color: var(--text-primary, #f0f0f0);
+		}
+	}
+
+	.tooltip-description {
+		font-size: 0.75rem;
+		color: var(--text-secondary, #666);
+		line-height: 1.4;
+		margin: 0.125rem 0 0;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+
+		:global(.dark) & {
+			color: var(--text-secondary, #a0a0a0);
 		}
 	}
 </style>

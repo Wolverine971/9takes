@@ -4,11 +4,13 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { convertDateToReadable } from '../../utils/conversions';
 	import LineChart from '$lib/components/charts/LineChart.svelte';
+	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
+	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
 
-	let isDemoTime: boolean = data.demoTime;
+	let isDemoTime: boolean = data.demoTime ?? false;
 
 	const changeDemoTime = async () => {
 		let body = new FormData();
@@ -86,304 +88,328 @@
 	$: visitorChartData = data.dailyVisitors
 		? data.dailyVisitors
 				.map((visitor) => {
-					// Parse the date string directly
 					const date = new Date(visitor.days);
 					return {
-						x: date.getTime(), // Use timestamp for x value
+						x: date.getTime(),
 						y: visitor.number_of_visitors,
 						label: `${date.toLocaleDateString()}: ${visitor.number_of_visitors} visitors`
 					};
 				})
 				.sort((a, b) => a.x - b.x)
-		: []; // Sort by date ascending
+		: [];
 
 	// Transform comment data for chart
 	$: commentChartData = data.dailyComments
 		? data.dailyComments
 				.map((comment) => {
-					// Parse the date string directly
 					const date = new Date(comment.days);
 					return {
-						x: date.getTime(), // Use timestamp for x value
+						x: date.getTime(),
 						y: comment.number_of_comments,
 						label: `${date.toLocaleDateString()}: ${comment.number_of_comments} comments`
 					};
 				})
 				.sort((a, b) => a.x - b.x)
-		: []; // Sort by date ascending
+		: [];
+
+	// Sparkline data (last 7 days of visitors)
+	$: visitorSparkline = visitorChartData.slice(-7).map((d) => d.y);
+	$: commentSparkline = commentChartData.slice(-7).map((d) => d.y);
+
+	// Calculate growth percentages
+	$: userGrowth = data.totalUsers > 0 ? ((data.newUsersMonth / data.totalUsers) * 100).toFixed(1) : '0';
 </script>
 
 <div class="admin-dashboard">
-	<h1 class="page-title">Admin Dashboard</h1>
-
-	<!-- Stats Grid - Compact -->
-	<div class="stats-row">
-		<div class="stat-chip">
-			<span class="stat-label">Users</span>
-			<span class="stat-num">{data.totalUsers.toLocaleString()}</span>
-			<span class="stat-sub">+{data.newUsersToday} today</span>
-		</div>
-		<div class="stat-chip">
-			<span class="stat-label">New (30d)</span>
-			<span class="stat-num">{data.newUsersMonth.toLocaleString()}</span>
-			<span class="stat-sub">{((data.newUsersMonth / data.totalUsers) * 100).toFixed(1)}%</span>
-		</div>
-		<div class="stat-chip highlight">
-			<span class="stat-label">Coaching</span>
-			<span class="stat-num">{data.coachingWaitlist.toLocaleString()}</span>
-			<span class="stat-sub">waitlist</span>
-		</div>
-		<div class="stat-chip">
-			<span class="stat-label">Active (7d)</span>
-			<span class="stat-num">{data.activeUsers.toLocaleString()}</span>
-		</div>
-		<div class="stat-chip">
-			<span class="stat-label">Visitors</span>
-			<span class="stat-num"
-				>{data.dailyVisitors
-					.reduce((sum, v) => sum + v.number_of_visitors, 0)
-					.toLocaleString()}</span
-			>
-		</div>
-		<div class="stat-chip">
-			<span class="stat-label">Questions</span>
-			<span class="stat-num">{data.totalQuestions.toLocaleString()}</span>
-			<span class="stat-sub">+{data.questionsToday}</span>
-		</div>
-		<div class="stat-chip">
-			<span class="stat-label">Comments</span>
-			<span class="stat-num">{data.totalComments.toLocaleString()}</span>
-			<span class="stat-sub">+{data.commentsToday}</span>
-		</div>
-		<div class="stat-chip" class:demo-on={isDemoTime}>
-			<span class="stat-label">Demo</span>
-			<span class="stat-num">{isDemoTime ? 'ON' : 'OFF'}</span>
-		</div>
-	</div>
-	<!-- Enneagram Distribution - Compact -->
-	<div class="enneagram-row">
-		<span class="row-label">Types:</span>
-		{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
-			<div class="enn-chip">
-				<span class="enn-type">{type}</span>
-				<span class="enn-count">{data.enneagramDistribution[type] || 0}</span>
-			</div>
-		{/each}
-	</div>
-
-	<!-- Two-column layout for tables -->
-	<div class="tables-grid">
-		<!-- Coaching Waitlist -->
-		<div class="section-card compact">
-			<details open>
-				<summary class="section-header compact">
-					<span class="section-title">🎯 Coaching Waitlist ({data.coachingWaitlist})</span>
-					<span class="chevron">▼</span>
-				</summary>
-				<div class="table-wrapper">
-					<table class="data-table compact">
-						<thead>
-							<tr>
-								<th>Email</th>
-								<th>Intent</th>
-								<th>Date</th>
-							</tr>
-						</thead>
-						<tbody>
-							{#each data.coachingWaitlistUsers as user}
-								<tr>
-									<td><a href="mailto:{user.email}" class="table-link">{user.email}</a></td>
-									<td class="intent-cell">{user.session_goal || '—'}</td>
-									<td class="date-cell">{convertDateToReadable(user.created_at)}</td>
-								</tr>
-							{/each}
-						</tbody>
-					</table>
-				</div>
-			</details>
-		</div>
-
-		<!-- Recent Signups -->
-		<div class="section-card compact">
-			<details>
-				<summary class="section-header compact">
-					<span class="section-title">🆕 Recent Signups</span>
-					<span class="chevron">▼</span>
-				</summary>
-				<div class="table-wrapper">
-					<table class="data-table compact">
-						<thead>
-							<tr>
-								<th>Email</th>
-								<th>Type</th>
-								<th>Joined</th>
-								<th>Profile</th>
-							</tr>
-						</thead>
-						<tbody>
-							{#each data.recentSignups as signup}
-								<tr>
-									<td>{signup.email || 'Anonymous'}</td>
-									<td>
-										{#if signup.enneagram}
-											<span class="type-badge">T{signup.enneagram}</span>
-										{:else}
-											<span class="type-badge pending">—</span>
-										{/if}
-									</td>
-									<td class="date-cell">{convertDateToReadable(signup.created_at)}</td>
-									<td>
-										<a href="/users/{signup.external_id}" class="table-link">View</a>
-									</td>
-								</tr>
-							{/each}
-						</tbody>
-					</table>
-				</div>
-			</details>
-		</div>
-	</div>
-
-	<!-- Charts - Side by Side -->
-	<div class="charts-grid">
-		<div class="section-card compact">
-			<details open>
-				<summary class="section-header compact">
-					<span class="section-title">📊 Visitors (30d)</span>
-					<span class="chevron">▼</span>
-				</summary>
-				<div class="chart-wrapper compact">
-					<LineChart
-						data={visitorChartData}
-						title=""
-						xLabel=""
-						yLabel=""
-						height={200}
-						color="#3b82f6"
-						showPoints={true}
-						showGrid={true}
-					/>
-				</div>
-			</details>
-		</div>
-
-		<div class="section-card compact">
-			<details>
-				<summary class="section-header compact">
-					<span class="section-title">💬 Comments (30d)</span>
-					<span class="chevron">▼</span>
-				</summary>
-				<div class="chart-wrapper compact">
-					<LineChart
-						data={commentChartData}
-						title=""
-						xLabel=""
-						yLabel=""
-						height={200}
-						color="#10b981"
-						showPoints={true}
-						showGrid={true}
-					/>
-				</div>
-			</details>
-		</div>
-	</div>
-
-	<!-- Daily Questions Stats -->
-	<div class="section-card compact">
-		<details>
-			<summary class="section-header compact">
-				<span class="section-title">❓ Daily Question Stats</span>
-				<span class="chevron">▼</span>
-			</summary>
-			<div class="table-wrapper">
-				<table class="data-table compact">
-					<thead>
-						<tr>
-							<th>Question</th>
-							<th>Created</th>
-							<th>Today</th>
-							<th>Total</th>
-							<th>User</th>
-							<th>Link</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each data.dailyQuestions as question}
-							<tr>
-								<td class="question-cell">{question.question}</td>
-								<td class="date-cell">{convertDateToReadable(question.created_at)}</td>
-								<td>{question.number_of_comments_today}</td>
-								<td>{question.number_of_comments}</td>
-								<td>
-									<a href="/users/{question.user_external_id}" class="table-link">
-										{question.user_email}
-									</a>
-								</td>
-								<td>
-									<a href="/questions/{question.url}" class="table-link">View</a>
-								</td>
-							</tr>
-						{/each}
-					</tbody>
-				</table>
-			</div>
-		</details>
-	</div>
-
-	<!-- Actions - Compact Inline -->
-	<div class="actions-row">
-		<div class="action-inline">
-			<span>Demo: <strong class:demo-active={isDemoTime}>{isDemoTime ? 'ON' : 'OFF'}</strong></span>
-			<button type="button" class="btn-sm" on:click={changeDemoTime}>Toggle</button>
-		</div>
-		<div class="action-inline">
-			<span>Search Index</span>
+	<header class="dashboard-header">
+		<h1 class="page-title">Dashboard</h1>
+		<div class="header-actions">
 			<button
 				type="button"
-				class="btn-sm"
+				class="action-btn"
+				class:active={isDemoTime}
+				on:click={changeDemoTime}
+			>
+				Demo: {isDemoTime ? 'ON' : 'OFF'}
+			</button>
+			<button
+				type="button"
+				class="action-btn secondary"
 				on:click={() => getModal('confirmReindex').open()}
 				disabled={isReindexing}
 			>
 				{isReindexing ? 'Reindexing...' : 'Reindex ES'}
 			</button>
 		</div>
-	</div>
+	</header>
+
+	<!-- Key Metrics Grid -->
+	<section class="metrics-section">
+		<div class="metrics-grid">
+			<StatCard
+				icon="👥"
+				label="Total Users"
+				value={data.totalUsers}
+				subValue="+{data.newUsersToday} today"
+				color="primary"
+			/>
+			<StatCard
+				icon="📈"
+				label="New Users (30d)"
+				value={data.newUsersMonth}
+				subValue="{userGrowth}% of total"
+				trend={Number(userGrowth) > 5 ? 'up' : 'neutral'}
+				trendValue="{userGrowth}%"
+			/>
+			<StatCard
+				icon="🎯"
+				label="Coaching Waitlist"
+				value={data.coachingWaitlist}
+				color="success"
+			/>
+			<StatCard
+				icon="⚡"
+				label="Active (7d)"
+				value={data.activeUsers}
+				subValue="unique commenters"
+			/>
+			<StatCard
+				icon="👀"
+				label="Visitors (30d)"
+				value={(data.dailyVisitors ?? []).reduce((sum, v) => sum + v.number_of_visitors, 0)}
+				sparklineData={visitorSparkline}
+			/>
+			<StatCard
+				icon="❓"
+				label="Questions"
+				value={data.totalQuestions}
+				subValue="+{data.questionsToday} today"
+			/>
+			<StatCard
+				icon="💬"
+				label="Comments"
+				value={data.totalComments}
+				subValue="+{data.commentsToday} today"
+				sparklineData={commentSparkline}
+				color="success"
+			/>
+		</div>
+	</section>
+
+	<!-- Charts Section -->
+	<section class="charts-section">
+		<div class="charts-grid">
+			<div class="chart-card">
+				<LineChart
+					data={visitorChartData}
+					title="Visitors"
+					height={280}
+					color="#3b82f6"
+					showPoints={true}
+					showGrid={true}
+					showSummary={true}
+					showTrend={true}
+				/>
+			</div>
+			<div class="chart-card">
+				<LineChart
+					data={commentChartData}
+					title="Comments"
+					height={280}
+					color="#10b981"
+					showPoints={true}
+					showGrid={true}
+					showSummary={true}
+					showTrend={true}
+				/>
+			</div>
+		</div>
+	</section>
+
+	<!-- Enneagram Distribution -->
+	<section class="distribution-section">
+		<div class="distribution-card">
+			<EnneagramBarChart
+				distribution={data.enneagramDistribution}
+				title="User Type Distribution"
+				showPercentages={true}
+				compact={false}
+			/>
+		</div>
+	</section>
+
+	<!-- Data Tables Grid -->
+	<section class="tables-section">
+		<div class="tables-grid">
+			<!-- Coaching Waitlist -->
+			<div class="table-card">
+				<div class="table-header">
+					<h3 class="table-title">
+						<span class="title-icon">🎯</span>
+						Coaching Waitlist
+						<span class="count-badge">{data.coachingWaitlist}</span>
+					</h3>
+				</div>
+				<div class="table-content">
+					<table class="data-table">
+						<thead>
+							<tr>
+								<th>Email</th>
+								<th>Goal</th>
+								<th>Date</th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each data.coachingWaitlistUsers ?? [] as user}
+								<tr>
+									<td>
+										<a href="mailto:{user.email}" class="email-link">{user.email}</a>
+									</td>
+									<td class="goal-cell">
+										{#if user.session_goal}
+											<span class="goal-text">{user.session_goal}</span>
+										{:else}
+											<span class="empty-state">—</span>
+										{/if}
+									</td>
+									<td class="date-cell">{convertDateToReadable(user.created_at ?? '')}</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<!-- Recent Signups -->
+			<div class="table-card">
+				<div class="table-header">
+					<h3 class="table-title">
+						<span class="title-icon">🆕</span>
+						Recent Signups
+					</h3>
+				</div>
+				<div class="table-content">
+					<table class="data-table">
+						<thead>
+							<tr>
+								<th>Email</th>
+								<th>Type</th>
+								<th>Joined</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each data.recentSignups ?? [] as signup}
+								<tr>
+									<td class="email-cell">{signup.email || 'Anonymous'}</td>
+									<td>
+										{#if signup.enneagram}
+											<span class="type-badge type-{signup.enneagram}">{signup.enneagram}</span>
+										{:else}
+											<span class="type-badge pending">?</span>
+										{/if}
+									</td>
+									<td class="date-cell">{convertDateToReadable(signup.created_at ?? '')}</td>
+									<td>
+										<a href="/users/{signup.external_id}" class="view-link">View</a>
+									</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Daily Questions Stats -->
+	<section class="questions-section">
+		<div class="table-card full-width">
+			<div class="table-header">
+				<h3 class="table-title">
+					<span class="title-icon">❓</span>
+					Daily Question Activity
+				</h3>
+			</div>
+			<div class="table-content">
+				<table class="data-table">
+					<thead>
+						<tr>
+							<th>Question</th>
+							<th>Created</th>
+							<th class="num-col">Today</th>
+							<th class="num-col">Total</th>
+							<th>Author</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each data.dailyQuestions ?? [] as question}
+							<tr>
+								<td class="question-cell">
+									<span class="question-text">{question.question}</span>
+								</td>
+								<td class="date-cell">{convertDateToReadable(question.created_at)}</td>
+								<td class="num-col">
+									{#if question.number_of_comments_today > 0}
+										<span class="activity-badge">{question.number_of_comments_today}</span>
+									{:else}
+										<span class="empty-state">0</span>
+									{/if}
+								</td>
+								<td class="num-col">{question.number_of_comments}</td>
+								<td>
+									<a href="/users/{question.user_external_id}" class="author-link">
+										{question.user_email}
+									</a>
+								</td>
+								<td>
+									<a href="/questions/{question.url}" class="view-link">View</a>
+								</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
 </div>
 
 <Modal2 id="confirmReindex">
-	<h2 style="margin: 0 0 1rem 0; font-size: 1.5rem;">Reindex Elasticsearch</h2>
-	<p style="margin-bottom: 1.5rem;">
-		This will completely rebuild the Elasticsearch indices for all questions and blog posts. The
-		existing indices will be deleted and recreated with fresh data from the database.
-	</p>
-	<p style="margin-bottom: 1rem;">This process will:</p>
-	<ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
-		<li>Delete the current 'question' and 'blog' indices</li>
-		<li>Recreate them with proper mappings</li>
-		<li>Re-import all questions and published blog posts from Supabase</li>
-	</ul>
-	<p style="margin-bottom: 1.5rem; color: var(--warning);">
-		<strong>Warning:</strong> This process may take several minutes depending on the amount of data.
-		Make sure Elasticsearch is running and accessible before proceeding.
-	</p>
-	<div style="display: flex; gap: 1rem; justify-content: flex-end;">
-		<button
-			type="button"
-			class="btn btn-secondary"
-			on:click={() => getModal('confirmReindex').close()}
-			disabled={isReindexing}
-		>
-			Cancel
-		</button>
-		<button
-			type="button"
-			class="btn btn-primary"
-			on:click={reindexEverything}
-			disabled={isReindexing}
-		>
-			{isReindexing ? 'Reindexing...' : 'Start Reindexing'}
-		</button>
+	<div class="modal-content">
+		<h2 class="modal-title">Reindex Elasticsearch</h2>
+		<p class="modal-text">
+			This will completely rebuild the Elasticsearch indices for all questions and blog posts.
+		</p>
+		<div class="modal-details">
+			<p>This process will:</p>
+			<ul>
+				<li>Delete the current 'question' and 'blog' indices</li>
+				<li>Recreate them with proper mappings</li>
+				<li>Re-import all questions and published blog posts</li>
+			</ul>
+		</div>
+		<p class="modal-warning">
+			<strong>Warning:</strong> This may take several minutes.
+		</p>
+		<div class="modal-actions">
+			<button
+				type="button"
+				class="btn btn-secondary"
+				on:click={() => getModal('confirmReindex').close()}
+				disabled={isReindexing}
+			>
+				Cancel
+			</button>
+			<button
+				type="button"
+				class="btn btn-primary"
+				on:click={reindexEverything}
+				disabled={isReindexing}
+			>
+				{isReindexing ? 'Reindexing...' : 'Start Reindexing'}
+			</button>
+		</div>
 	</div>
 </Modal2>
 
@@ -391,323 +417,453 @@
 	.admin-dashboard {
 		max-width: 1400px;
 		margin: 0 auto;
+		padding: 0 16px;
+	}
+
+	/* Header */
+	.dashboard-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 24px;
+		padding-bottom: 16px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
 	}
 
 	.page-title {
-		font-size: 1.25rem;
-		margin: 0 0 0.75rem 0;
-		color: var(--text-primary);
-	}
-
-	/* Compact Stats Row */
-	.stats-row {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem;
-		margin-bottom: 0.75rem;
-	}
-
-	.stat-chip {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 0.5rem 0.75rem;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: 6px;
-		min-width: 80px;
-	}
-
-	.stat-chip.highlight {
-		background: var(--primary-light);
-		border-color: var(--primary);
-	}
-
-	.stat-chip.demo-on {
-		background: var(--success-light);
-		border-color: var(--success);
-	}
-
-	.stat-label {
-		font-size: 0.65rem;
-		color: var(--text-secondary);
-		text-transform: uppercase;
-		letter-spacing: 0.5px;
-	}
-
-	.stat-num {
-		font-size: 1.125rem;
+		font-size: 1.5rem;
 		font-weight: 700;
-		color: var(--primary);
-		line-height: 1.2;
+		color: var(--text-primary, #1e293b);
+		margin: 0;
 	}
 
-	.stat-sub {
-		font-size: 0.6rem;
-		color: var(--text-secondary);
-	}
-
-	/* Compact Enneagram Row */
-	.enneagram-row {
+	.header-actions {
 		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 0.375rem;
-		margin-bottom: 0.75rem;
-		padding: 0.5rem;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: 6px;
+		gap: 8px;
 	}
 
-	.row-label {
-		font-size: 0.7rem;
-		color: var(--text-secondary);
-		font-weight: 500;
-	}
-
-	.enn-chip {
-		display: flex;
-		align-items: center;
-		gap: 0.25rem;
-		padding: 0.25rem 0.5rem;
-		background: var(--hover-background);
-		border-radius: 4px;
-	}
-
-	.enn-type {
-		font-size: 0.7rem;
-		color: var(--text-secondary);
-	}
-
-	.enn-count {
+	.action-btn {
+		padding: 8px 16px;
 		font-size: 0.8rem;
-		font-weight: 600;
-		color: var(--primary);
+		font-weight: 500;
+		background: var(--card-background, #fff);
+		color: var(--text-primary, #1e293b);
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 8px;
+		cursor: pointer;
+		transition: all 0.2s ease;
 	}
 
-	/* Tables Grid */
-	.tables-grid {
+	.action-btn:hover:not(:disabled) {
+		border-color: var(--primary, #3b82f6);
+		color: var(--primary, #3b82f6);
+	}
+
+	.action-btn.active {
+		background: rgba(16, 185, 129, 0.1);
+		border-color: #10b981;
+		color: #059669;
+	}
+
+	.action-btn.secondary {
+		background: var(--primary, #3b82f6);
+		color: white;
+		border-color: var(--primary, #3b82f6);
+	}
+
+	.action-btn.secondary:hover:not(:disabled) {
+		background: #2563eb;
+	}
+
+	.action-btn:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+	}
+
+	/* Metrics Section */
+	.metrics-section {
+		margin-bottom: 24px;
+	}
+
+	.metrics-grid {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 0.75rem;
-		margin-bottom: 0.75rem;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		gap: 16px;
+	}
+
+	/* Charts Section */
+	.charts-section {
+		margin-bottom: 24px;
 	}
 
 	.charts-grid {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 0.75rem;
-		margin-bottom: 0.75rem;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 16px;
 	}
 
-	/* Section Cards - Compact */
-	.section-card {
-		background-color: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: 6px;
+	.chart-card {
+		background: var(--card-background, #fff);
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 12px;
 		overflow: hidden;
 	}
 
-	.section-card.compact {
-		margin-bottom: 0.75rem;
+	/* Distribution Section */
+	.distribution-section {
+		margin-bottom: 24px;
 	}
 
-	details {
-		cursor: pointer;
+	.distribution-card {
+		background: var(--card-background, #fff);
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 12px;
+		overflow: hidden;
 	}
 
-	.section-header {
-		padding: 0.75rem;
-		background-color: var(--hover-background);
+	/* Tables Section */
+	.tables-section {
+		margin-bottom: 24px;
+	}
+
+	.tables-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 16px;
+	}
+
+	.table-card {
+		background: var(--card-background, #fff);
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.table-card.full-width {
+		grid-column: 1 / -1;
+	}
+
+	.table-header {
+		padding: 16px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		background: var(--hover-background, #f8fafc);
+	}
+
+	.table-title {
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		list-style: none;
-	}
-
-	.section-header.compact {
-		padding: 0.5rem 0.75rem;
-	}
-
-	.section-header:hover {
-		background-color: var(--primary-light);
-	}
-
-	.section-title {
-		font-size: 0.8rem;
+		gap: 8px;
+		margin: 0;
+		font-size: 0.9rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--text-primary, #1e293b);
 	}
 
-	.chevron {
-		font-size: 0.7rem;
-		color: var(--text-secondary);
-		transition: transform 0.2s ease;
+	.title-icon {
+		font-size: 1rem;
 	}
 
-	details[open] .chevron {
-		transform: rotate(180deg);
+	.count-badge {
+		padding: 2px 8px;
+		background: var(--primary, #3b82f6);
+		color: white;
+		border-radius: 12px;
+		font-size: 0.75rem;
+		font-weight: 600;
 	}
 
-	/* Tables - Compact */
-	.table-wrapper {
+	.table-content {
 		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
+		max-height: 400px;
+		overflow-y: auto;
 	}
 
 	.data-table {
 		width: 100%;
 		border-collapse: collapse;
-		font-size: 0.75rem;
-	}
-
-	.data-table.compact {
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 	}
 
 	.data-table thead {
-		background-color: var(--hover-background);
+		position: sticky;
+		top: 0;
+		background: var(--card-background, #fff);
+		z-index: 1;
 	}
 
 	.data-table th {
-		padding: 0.375rem 0.5rem;
+		padding: 12px 16px;
 		text-align: left;
 		font-weight: 600;
-		color: var(--text-primary);
-		white-space: nowrap;
+		color: var(--text-secondary, #64748b);
+		font-size: 0.7rem;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
 	}
 
 	.data-table td {
-		padding: 0.375rem 0.5rem;
-		border-top: 1px solid var(--border-color);
-		color: var(--text-primary);
+		padding: 12px 16px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		color: var(--text-primary, #1e293b);
 	}
 
 	.data-table tbody tr:hover {
-		background-color: var(--hover-background);
+		background: var(--hover-background, #f8fafc);
 	}
 
-	.question-cell {
+	.data-table tbody tr:last-child td {
+		border-bottom: none;
+	}
+
+	.num-col {
+		text-align: center;
+		width: 80px;
+	}
+
+	.email-link,
+	.author-link {
+		color: var(--text-primary, #1e293b);
+		text-decoration: none;
+	}
+
+	.email-link:hover,
+	.author-link:hover {
+		color: var(--primary, #3b82f6);
+	}
+
+	.email-cell {
 		max-width: 200px;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 	}
 
-	.intent-cell {
-		max-width: 320px;
-		white-space: pre-line;
-		word-break: break-word;
-		color: var(--text-secondary);
-		line-height: 1.3;
+	.goal-cell {
+		max-width: 250px;
+	}
+
+	.goal-text {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		color: var(--text-secondary, #64748b);
+		font-size: 0.75rem;
+		line-height: 1.4;
+	}
+
+	.question-cell {
+		max-width: 300px;
+	}
+
+	.question-text {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
 	}
 
 	.date-cell {
 		white-space: nowrap;
-		font-size: 0.65rem;
-		color: var(--text-secondary);
+		font-size: 0.75rem;
+		color: var(--text-secondary, #64748b);
 	}
 
-	.table-link {
-		color: var(--primary);
-		text-decoration: none;
-		font-weight: 500;
-	}
-
-	.table-link:hover {
-		text-decoration: underline;
+	.empty-state {
+		color: var(--text-secondary, #94a3b8);
 	}
 
 	.type-badge {
-		display: inline-block;
-		padding: 0.125rem 0.375rem;
-		border-radius: 9999px;
-		font-size: 0.65rem;
-		font-weight: 500;
-		background-color: var(--primary-light);
-		color: var(--primary);
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 24px;
+		height: 24px;
+		border-radius: 6px;
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: white;
 	}
 
 	.type-badge.pending {
-		background-color: var(--warning-light);
-		color: var(--warning);
+		background: var(--border-color, #cbd5e1);
+		color: var(--text-secondary, #64748b);
 	}
 
-	/* Chart Wrapper - Compact */
-	.chart-wrapper {
-		padding: 0.5rem;
-		background-color: var(--card-background);
-	}
+	.type-badge.type-1 { background: #6366f1; }
+	.type-badge.type-2 { background: #ec4899; }
+	.type-badge.type-3 { background: #f59e0b; }
+	.type-badge.type-4 { background: #8b5cf6; }
+	.type-badge.type-5 { background: #3b82f6; }
+	.type-badge.type-6 { background: #14b8a6; }
+	.type-badge.type-7 { background: #f97316; }
+	.type-badge.type-8 { background: #ef4444; }
+	.type-badge.type-9 { background: #22c55e; }
 
-	.chart-wrapper.compact {
-		padding: 0.375rem;
-	}
-
-	/* Actions Row - Compact */
-	.actions-row {
-		display: flex;
-		gap: 1rem;
-		padding: 0.5rem 0;
-	}
-
-	.action-inline {
-		display: flex;
+	.activity-badge {
+		display: inline-flex;
 		align-items: center;
-		gap: 0.5rem;
+		justify-content: center;
+		min-width: 24px;
+		padding: 2px 8px;
+		background: rgba(16, 185, 129, 0.1);
+		color: #059669;
+		border-radius: 12px;
 		font-size: 0.75rem;
-		color: var(--text-primary);
+		font-weight: 600;
 	}
 
-	.demo-active {
-		color: var(--success);
-	}
-
-	.btn-sm {
-		padding: 0.25rem 0.5rem;
-		font-size: 0.7rem;
+	.view-link {
+		color: var(--primary, #3b82f6);
+		text-decoration: none;
 		font-weight: 500;
-		background: var(--primary);
+		font-size: 0.75rem;
+	}
+
+	.view-link:hover {
+		text-decoration: underline;
+	}
+
+	/* Questions Section */
+	.questions-section {
+		margin-bottom: 24px;
+	}
+
+	/* Modal Styles */
+	.modal-content {
+		max-width: 480px;
+	}
+
+	.modal-title {
+		margin: 0 0 16px 0;
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: var(--text-primary, #1e293b);
+	}
+
+	.modal-text {
+		margin: 0 0 16px 0;
+		color: var(--text-secondary, #64748b);
+	}
+
+	.modal-details {
+		margin: 0 0 16px 0;
+		padding: 12px;
+		background: var(--hover-background, #f8fafc);
+		border-radius: 8px;
+	}
+
+	.modal-details p {
+		margin: 0 0 8px 0;
+		font-weight: 500;
+		color: var(--text-primary, #1e293b);
+	}
+
+	.modal-details ul {
+		margin: 0;
+		padding-left: 20px;
+		color: var(--text-secondary, #64748b);
+		font-size: 0.875rem;
+	}
+
+	.modal-details li {
+		margin-bottom: 4px;
+	}
+
+	.modal-warning {
+		margin: 0 0 16px 0;
+		padding: 12px;
+		background: rgba(245, 158, 11, 0.1);
+		border-radius: 8px;
+		color: #d97706;
+		font-size: 0.875rem;
+	}
+
+	.modal-actions {
+		display: flex;
+		gap: 12px;
+		justify-content: flex-end;
+	}
+
+	.btn {
+		padding: 10px 20px;
+		font-size: 0.875rem;
+		font-weight: 500;
+		border-radius: 8px;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.btn-secondary {
+		background: var(--card-background, #fff);
+		color: var(--text-primary, #1e293b);
+		border: 1px solid var(--border-color, #e2e8f0);
+	}
+
+	.btn-secondary:hover:not(:disabled) {
+		background: var(--hover-background, #f8fafc);
+	}
+
+	.btn-primary {
+		background: var(--primary, #3b82f6);
 		color: white;
 		border: none;
-		border-radius: 4px;
-		cursor: pointer;
 	}
 
-	.btn-sm:hover:not(:disabled) {
-		opacity: 0.9;
+	.btn-primary:hover:not(:disabled) {
+		background: #2563eb;
 	}
 
-	.btn-sm:disabled {
+	.btn:disabled {
 		opacity: 0.5;
 		cursor: not-allowed;
 	}
 
 	/* Responsive */
-	@media (max-width: 768px) {
-		.tables-grid,
-		.charts-grid {
+	@media (max-width: 1024px) {
+		.charts-grid,
+		.tables-grid {
 			grid-template-columns: 1fr;
 		}
+	}
 
-		.stats-row {
-			gap: 0.375rem;
+	@media (max-width: 768px) {
+		.admin-dashboard {
+			padding: 0 12px;
 		}
 
-		.stat-chip {
-			padding: 0.375rem 0.5rem;
-			min-width: 60px;
+		.dashboard-header {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 12px;
 		}
 
-		.stat-num {
-			font-size: 1rem;
+		.page-title {
+			font-size: 1.25rem;
+		}
+
+		.metrics-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		.data-table th,
+		.data-table td {
+			padding: 10px 12px;
 		}
 	}
 
 	@media (max-width: 480px) {
-		.data-table th:nth-child(n + 4),
-		.data-table td:nth-child(n + 4) {
-			display: none;
+		.metrics-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.header-actions {
+			width: 100%;
+		}
+
+		.action-btn {
+			flex: 1;
 		}
 	}
 </style>

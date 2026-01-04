@@ -7,6 +7,7 @@
 	import Spinner from '$lib/components/atoms/Spinner.svelte';
 	import Modal from '$lib/components/atoms/Modal2.svelte';
 	import { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import StatCard from '$lib/components/charts/StatCard.svelte';
 
 	export let data: PageData;
 
@@ -14,6 +15,48 @@
 	let loading = false;
 	let currentCommentId: number | null = null;
 	let actionType: 'remove' | 'unflag' | null = null;
+	let searchQuery = '';
+	let activeTab: 'flagged' | 'recent' | 'blog' = 'flagged';
+
+	// Computed stats
+	$: flaggedCount = data.flaggedComments?.length ?? 0;
+	$: recentCount = data.comments?.length ?? 0;
+	$: blogCount = data.blogComments?.length ?? 0;
+	$: totalCount = flaggedCount + recentCount + blogCount;
+
+	// Filtered comments based on search
+	$: filteredFlagged = (data.flaggedComments ?? []).filter((c) => {
+		if (!searchQuery) return true;
+		const comment = c?.comments?.comment?.toLowerCase() ?? '';
+		const reason = c?.description?.toLowerCase() ?? '';
+		const email = c?.profiles?.email?.toLowerCase() ?? '';
+		return (
+			comment.includes(searchQuery.toLowerCase()) ||
+			reason.includes(searchQuery.toLowerCase()) ||
+			email.includes(searchQuery.toLowerCase())
+		);
+	});
+
+	$: filteredRecent = (data.comments ?? []).filter((c) => {
+		if (!searchQuery) return true;
+		const comment = c?.comment?.toLowerCase() ?? '';
+		const email = c?.profiles?.email?.toLowerCase() ?? '';
+		const question = c?.parentQuestion?.question_formatted?.toLowerCase() ?? '';
+		return (
+			comment.includes(searchQuery.toLowerCase()) ||
+			email.includes(searchQuery.toLowerCase()) ||
+			question.includes(searchQuery.toLowerCase())
+		);
+	});
+
+	$: filteredBlog = (data.blogComments ?? []).filter((c) => {
+		if (!searchQuery) return true;
+		const comment = c?.comment?.toLowerCase() ?? '';
+		const blogLink = c?.blog_link?.toLowerCase() ?? '';
+		return (
+			comment.includes(searchQuery.toLowerCase()) || blogLink.includes(searchQuery.toLowerCase())
+		);
+	});
 
 	// Set up action confirmation
 	const confirmAction = (id: number, type: 'remove' | 'unflag') => {
@@ -47,7 +90,7 @@
 			} else {
 				throw new Error(result.message || 'Failed to remove comment');
 			}
-		} catch (error) {
+		} catch (error: any) {
 			console.error('Error removing comment:', error);
 			notifications.danger('Error removing comment: ' + (error.message || 'Unknown error'), 3000);
 		} finally {
@@ -82,7 +125,7 @@
 			} else {
 				throw new Error(result.message || 'Failed to unflag comment');
 			}
-		} catch (error) {
+		} catch (error: any) {
 			console.error('Error unflagging comment:', error);
 			notifications.danger('Error approving comment: ' + (error.message || 'Unknown error'), 3000);
 		} finally {
@@ -111,11 +154,6 @@
 		actionType = null;
 		getModal('confirmation-modal').close();
 	};
-
-	// Check if comment data is missing or empty
-	const isEmptyData = (data: any[]) => {
-		return !data || data.length === 0;
-	};
 </script>
 
 <div class="admin-comments">
@@ -127,276 +165,233 @@
 
 	<!-- Loading Overlay -->
 	{#if loading}
-		<div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-			<div class="flex flex-col items-center rounded-lg bg-white p-6 shadow-lg">
+		<div class="loading-overlay">
+			<div class="loading-content">
 				<Spinner size="lg" />
-				<p class="mt-4 text-neutral-700">Processing request...</p>
+				<p>Processing request...</p>
 			</div>
 		</div>
 	{/if}
 
-	<!-- Flagged Comments Section -->
-	<div class="section-card">
-		<h2 class="section-title flex items-center">
-			<span class="mr-2 inline-block h-4 w-4 rounded-full bg-warning-500"></span>
-			Flagged Comments
-		</h2>
-
-		{#if !isEmptyData(data.flaggedComments)}
-			<div class="max-h-96 space-y-4 overflow-y-auto">
-				{#each data.flaggedComments as comment}
-					<div
-						class="rounded-lg border border-warning-500 bg-warning-50 p-4 shadow-sm transition-all hover:shadow-md"
-					>
-						<div class="md:mb-3">
-							{#if comment?.comments}
-								<p class="mb-2 text-neutral-800">{comment.comments.comment}</p>
-								<div class="space-y-1 rounded-md bg-neutral-100 p-2 text-sm text-neutral-600">
-									<p>
-										<span class="font-semibold">Flag Reason:</span>
-										{comment.description || 'No description provided'}
-									</p>
-									<p>
-										<span class="font-semibold">Reported By:</span>
-										{comment?.profiles?.email || 'Anonymous'}
-									</p>
-								</div>
-							{:else}
-								<p class="text-error-600 italic">Comment data unavailable</p>
-							{/if}
-						</div>
-						<div class="flex flex-wrap items-center justify-between gap-2">
-							<div class="flex flex-wrap gap-2">
-								<button
-									class="hover:bg-success-600 flex items-center rounded bg-success-500 px-3 py-1.5 text-sm font-medium text-white shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-success-500 focus:ring-offset-2"
-									on:click={() => confirmAction(comment?.comments?.id, 'unflag')}
-									disabled={loading || !comment?.comments?.id}
-								>
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										class="mr-1 h-4 w-4"
-										fill="none"
-										viewBox="0 0 24 24"
-										stroke="currentColor"
-									>
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M5 13l4 4L19 7"
-										/>
-									</svg>
-									Approve
-								</button>
-								<button
-									class="hover:bg-error-600 flex items-center rounded bg-error-500 px-3 py-1.5 text-sm font-medium text-white shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-error-500 focus:ring-offset-2"
-									on:click={() => confirmAction(comment?.comments?.id, 'remove')}
-									disabled={loading || !comment?.comments?.id}
-								>
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										class="mr-1 h-4 w-4"
-										fill="none"
-										viewBox="0 0 24 24"
-										stroke="currentColor"
-									>
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-										/>
-									</svg>
-									Remove
-								</button>
-							</div>
-							<div class="flex items-center text-sm text-neutral-500">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									class="mr-1 h-4 w-4"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-									/>
-								</svg>
-								{convertDateToReadable(comment.created_at)}
-							</div>
-						</div>
-					</div>
-				{/each}
-			</div>
-		{:else}
-			<div class="rounded-lg border border-neutral-200 bg-neutral-50 p-4 text-center">
-				<p class="text-neutral-600">No flagged comments</p>
-			</div>
-		{/if}
+	<!-- Stats Grid -->
+	<div class="stats-grid">
+		<StatCard
+			label="Total Comments"
+			value={totalCount}
+			icon="💬"
+			color="primary"
+			subValue="Loaded on this page"
+		/>
+		<StatCard
+			label="Flagged"
+			value={flaggedCount}
+			icon="🚩"
+			color={flaggedCount > 0 ? 'warning' : 'default'}
+			subValue={flaggedCount > 0 ? 'Needs review' : 'All clear'}
+		/>
+		<StatCard label="Recent" value={recentCount} icon="🕐" subValue="Question comments" />
+		<StatCard label="Blog Comments" value={blogCount} icon="📝" color="success" subValue="On blog posts" />
 	</div>
 
-	<!-- Regular Comments Section -->
-	{#if !isEmptyData(data.comments)}
-		<div class="section-card">
-			<h2 class="section-title flex items-center">
-				<span class="mr-2 inline-block h-4 w-4 rounded-full bg-info-500"></span>
-				Recent Comments
-			</h2>
-			<div class="max-h-96 space-y-4 overflow-y-auto">
-				{#each data.comments as comment}
-					<div
-						class="rounded-lg border border-neutral-200 p-4 shadow-sm transition-all hover:shadow-md {comment.removed
-							? 'bg-error-50'
-							: 'bg-white'}"
-					>
-						<p class="mb-3 text-neutral-800 {comment.removed ? 'text-error-700' : ''}">
-							{comment?.comment || 'No comment text'}
-							{#if comment.removed}
-								<span
-									class="ml-2 rounded bg-error-100 px-2 py-0.5 text-xs font-medium text-error-700"
-									>Removed</span
-								>
-							{/if}
-						</p>
-						<div class="flex flex-wrap items-center justify-between gap-2 text-sm">
-							<div class="flex flex-wrap items-center gap-x-4 gap-y-1">
-								{#if comment?.parentQuestion}
-									<a
-										href="/questions/{comment?.parentQuestion?.url}"
-										class="flex items-center text-primary-700 transition-colors hover:text-primary-800"
-									>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											class="mr-1 h-4 w-4"
-											fill="none"
-											viewBox="0 0 24 24"
-											stroke="currentColor"
+	<!-- Search and Tabs -->
+	<div class="controls-card">
+		<div class="search-box">
+			<input
+				type="text"
+				placeholder="Search comments..."
+				bind:value={searchQuery}
+				class="search-input"
+			/>
+		</div>
+		<div class="tabs">
+			<button
+				class="tab"
+				class:active={activeTab === 'flagged'}
+				on:click={() => (activeTab = 'flagged')}
+			>
+				Flagged
+				{#if flaggedCount > 0}
+					<span class="tab-badge warning">{flaggedCount}</span>
+				{/if}
+			</button>
+			<button
+				class="tab"
+				class:active={activeTab === 'recent'}
+				on:click={() => (activeTab = 'recent')}
+			>
+				Recent
+				<span class="tab-badge">{recentCount}</span>
+			</button>
+			<button class="tab" class:active={activeTab === 'blog'} on:click={() => (activeTab = 'blog')}>
+				Blog
+				<span class="tab-badge">{blogCount}</span>
+			</button>
+		</div>
+	</div>
+
+	<!-- Flagged Comments Section -->
+	{#if activeTab === 'flagged'}
+		<div class="content-card">
+			<div class="card-header">
+				<h2>Flagged Comments</h2>
+				<span class="header-badge warning">{filteredFlagged.length} items</span>
+			</div>
+			<div class="card-content">
+				{#if filteredFlagged.length > 0}
+					<div class="comments-list">
+						{#each filteredFlagged as comment}
+							<div class="comment-item flagged">
+								<div class="comment-body">
+									{#if comment?.comments}
+										<p class="comment-text">{comment.comments.comment}</p>
+										<div class="flag-info">
+											<div class="flag-detail">
+												<span class="flag-label">Flag Reason:</span>
+												<span>{comment.description || 'No description provided'}</span>
+											</div>
+											<div class="flag-detail">
+												<span class="flag-label">Reported By:</span>
+												<span>{comment?.profiles?.email || 'Anonymous'}</span>
+											</div>
+										</div>
+									{:else}
+										<p class="comment-text error">Comment data unavailable</p>
+									{/if}
+								</div>
+								<div class="comment-footer">
+									<div class="comment-actions">
+										<button
+											class="btn btn-success"
+											on:click={() => confirmAction(comment?.comments?.id, 'unflag')}
+											disabled={loading || !comment?.comments?.id}
 										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-											/>
-										</svg>
-										{(comment?.parentQuestion?.question_formatted || '').slice(0, 30)}...
-									</a>
-								{/if}
-								<a
-									href="/users/{comment?.profiles?.external_id}"
-									class="flex items-center text-primary-700 transition-colors hover:text-primary-800"
-								>
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										class="mr-1 h-4 w-4"
-										fill="none"
-										viewBox="0 0 24 24"
-										stroke="currentColor"
-									>
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-										/>
-									</svg>
-									{comment?.profiles?.email || 'Anonymous'}
-								</a>
+											Approve
+										</button>
+										<button
+											class="btn btn-danger"
+											on:click={() => confirmAction(comment?.comments?.id, 'remove')}
+											disabled={loading || !comment?.comments?.id}
+										>
+											Remove
+										</button>
+									</div>
+									<span class="comment-date">
+										{convertDateToReadable(comment.created_at ?? '')}
+									</span>
+								</div>
 							</div>
-							<div class="flex items-center text-neutral-500">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									class="mr-1 h-4 w-4"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-									/>
-								</svg>
-								{convertDateToReadable(comment.created_at)}
-							</div>
-						</div>
+						{/each}
 					</div>
-				{/each}
+				{:else}
+					<div class="empty-state">
+						<span class="empty-icon">✓</span>
+						<p>No flagged comments{searchQuery ? ' matching your search' : ''}</p>
+					</div>
+				{/if}
+			</div>
+		</div>
+	{/if}
+
+	<!-- Recent Comments Section -->
+	{#if activeTab === 'recent'}
+		<div class="content-card">
+			<div class="card-header">
+				<h2>Recent Comments</h2>
+				<span class="header-badge">{filteredRecent.length} items</span>
+			</div>
+			<div class="card-content">
+				{#if filteredRecent.length > 0}
+					<div class="comments-list">
+						{#each filteredRecent as comment}
+							<div class="comment-item" class:removed={comment.removed}>
+								<div class="comment-body">
+									<p class="comment-text">
+										{comment?.comment || 'No comment text'}
+										{#if comment.removed}
+											<span class="status-badge removed">Removed</span>
+										{/if}
+									</p>
+								</div>
+								<div class="comment-footer">
+									<div class="comment-meta">
+										{#if comment?.parentQuestion}
+											<a
+												href="/questions/{comment?.parentQuestion?.url}"
+												class="meta-link"
+											>
+												Q: {(comment?.parentQuestion?.question_formatted || '').slice(0, 40)}...
+											</a>
+										{/if}
+										<a
+											href="/users/{comment?.profiles?.external_id}"
+											class="meta-link"
+										>
+											{comment?.profiles?.email || 'Anonymous'}
+										</a>
+									</div>
+									<span class="comment-date">
+										{convertDateToReadable(comment.created_at ?? '')}
+									</span>
+								</div>
+							</div>
+						{/each}
+					</div>
+				{:else}
+					<div class="empty-state">
+						<span class="empty-icon">💬</span>
+						<p>No comments{searchQuery ? ' matching your search' : ''}</p>
+					</div>
+				{/if}
 			</div>
 		</div>
 	{/if}
 
 	<!-- Blog Comments Section -->
-	{#if !isEmptyData(data.blogComments)}
-		<div class="section-card">
-			<h2 class="section-title flex items-center">
-				<span class="mr-2 inline-block h-4 w-4 rounded-full bg-success-500"></span>
-				Blog Comments
-			</h2>
-			<div class="max-h-96 space-y-4 overflow-y-auto">
-				{#each data.blogComments as blogComment}
-					<div
-						class="rounded-lg border border-neutral-200 bg-white p-4 shadow-sm transition-all hover:shadow-md"
-					>
-						<p class="mb-3 text-neutral-800">
-							{blogComment?.comment || 'No comment text'}
-						</p>
-						<div class="flex flex-wrap items-center justify-between gap-2 text-sm">
-							<a
-								href="/{blogComment.blog_type}/{blogComment?.blog_link}"
-								class="flex items-center text-primary-700 transition-colors hover:text-primary-800"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									class="mr-1 h-4 w-4"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
-									/>
-								</svg>
-								{blogComment?.blog_link.replace(/-/g, ' ')}
-							</a>
-							<div class="flex items-center text-neutral-500">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									class="mr-1 h-4 w-4"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-									/>
-								</svg>
-								{convertDateToReadable(blogComment.created_at)}
+	{#if activeTab === 'blog'}
+		<div class="content-card">
+			<div class="card-header">
+				<h2>Blog Comments</h2>
+				<span class="header-badge success">{filteredBlog.length} items</span>
+			</div>
+			<div class="card-content">
+				{#if filteredBlog.length > 0}
+					<div class="comments-list">
+						{#each filteredBlog as blogComment}
+							<div class="comment-item">
+								<div class="comment-body">
+									<p class="comment-text">{blogComment?.comment || 'No comment text'}</p>
+								</div>
+								<div class="comment-footer">
+									<a
+										href="/{blogComment.blog_type}/{blogComment?.blog_link}"
+										class="meta-link"
+									>
+										{blogComment?.blog_link?.replace(/-/g, ' ') ?? 'Unknown blog'}
+									</a>
+									<span class="comment-date">
+										{convertDateToReadable(blogComment.created_at ?? '')}
+									</span>
+								</div>
 							</div>
-						</div>
+						{/each}
 					</div>
-				{/each}
+				{:else}
+					<div class="empty-state">
+						<span class="empty-icon">📝</span>
+						<p>No blog comments{searchQuery ? ' matching your search' : ''}</p>
+					</div>
+				{/if}
 			</div>
 		</div>
 	{/if}
 
 	<!-- Confirmation Modal -->
 	<Modal id="confirmation-modal">
-		<div class="p-6">
-			<h3 class="mb-4 text-lg font-semibold text-neutral-900">
+		<div class="modal-content">
+			<h3 class="modal-title">
 				{actionType === 'remove' ? 'Remove Comment' : 'Approve Comment'}
 			</h3>
-			<p class="mb-6 text-neutral-700">
+			<p class="modal-text">
 				{#if actionType === 'remove'}
 					Are you sure you want to remove this comment? This action cannot be undone.
 				{:else if actionType === 'unflag'}
@@ -405,54 +400,15 @@
 					Confirm this action?
 				{/if}
 			</p>
-			<div class="flex justify-end space-x-3">
-				<button
-					class="rounded-md bg-neutral-200 px-4 py-2 text-neutral-800 transition-colors hover:bg-neutral-300"
-					on:click={cancelAction}
-				>
+			<div class="modal-actions">
+				<button class="btn btn-secondary" on:click={cancelAction}>
 					Cancel
 				</button>
 				<button
-					class="px-4 py-2 {actionType === 'remove'
-						? 'hover:bg-error-600 bg-error-500'
-						: 'hover:bg-success-600 bg-success-500'} flex items-center rounded-md text-white transition-colors"
+					class="btn {actionType === 'remove' ? 'btn-danger' : 'btn-success'}"
 					on:click={executeAction}
 				>
-					{#if actionType === 'remove'}
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="mr-1 h-4 w-4"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-							/>
-						</svg>
-						Remove
-					{:else if actionType === 'unflag'}
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="mr-1 h-4 w-4"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M5 13l4 4L19 7"
-							/>
-						</svg>
-						Approve
-					{:else}
-						Confirm
-					{/if}
+					{actionType === 'remove' ? 'Remove' : 'Approve'}
 				</button>
 			</div>
 		</div>
@@ -465,118 +421,413 @@
 		margin: 0 auto;
 	}
 
-	.section-card {
-		background-color: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		padding: 1.5rem;
-		margin-bottom: 1.5rem;
-		box-shadow: var(--shadow-sm);
+	/* Stats Grid */
+	.stats-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 16px;
+		margin-bottom: 24px;
 	}
 
-	.section-title {
-		font-size: 1.25rem;
+	@media (max-width: 1024px) {
+		.stats-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media (max-width: 640px) {
+		.stats-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	/* Controls Card */
+	.controls-card {
+		background: var(--card-background, #fff);
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 12px;
+		padding: 16px;
+		margin-bottom: 24px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 16px;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.search-box {
+		flex: 1;
+		min-width: 200px;
+	}
+
+	.search-input {
+		width: 100%;
+		padding: 10px 14px;
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 8px;
+		font-size: 0.875rem;
+		background: var(--card-background, #fff);
+		transition: border-color 0.2s, box-shadow 0.2s;
+	}
+
+	.search-input:focus {
+		outline: none;
+		border-color: var(--primary, #6366f1);
+		box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+	}
+
+	.tabs {
+		display: flex;
+		gap: 4px;
+		background: var(--hover-background, #f1f5f9);
+		padding: 4px;
+		border-radius: 8px;
+	}
+
+	.tab {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		padding: 8px 16px;
+		border: none;
+		background: transparent;
+		border-radius: 6px;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: var(--text-secondary, #64748b);
+		cursor: pointer;
+		transition: all 0.2s;
+	}
+
+	.tab:hover {
+		color: var(--text-primary, #1e293b);
+	}
+
+	.tab.active {
+		background: var(--card-background, #fff);
+		color: var(--text-primary, #1e293b);
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	}
+
+	.tab-badge {
+		font-size: 0.75rem;
+		padding: 2px 6px;
+		border-radius: 10px;
+		background: var(--border-color, #e2e8f0);
+		color: var(--text-secondary, #64748b);
+	}
+
+	.tab-badge.warning {
+		background: rgba(245, 158, 11, 0.15);
+		color: #d97706;
+	}
+
+	/* Content Card */
+	.content-card {
+		background: var(--card-background, #fff);
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.card-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 16px 20px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		background: var(--hover-background, #f8fafc);
+	}
+
+	.card-header h2 {
+		font-size: 1rem;
 		font-weight: 600;
-		color: var(--text-primary);
-		margin-bottom: 1rem;
+		color: var(--text-primary, #1e293b);
+		margin: 0;
 	}
 
-	.max-h-96 {
-		max-height: 24rem;
+	.header-badge {
+		font-size: 0.75rem;
+		padding: 4px 10px;
+		border-radius: 12px;
+		background: var(--border-color, #e2e8f0);
+		color: var(--text-secondary, #64748b);
 	}
 
-	.overflow-y-auto {
+	.header-badge.warning {
+		background: rgba(245, 158, 11, 0.15);
+		color: #d97706;
+	}
+
+	.header-badge.success {
+		background: rgba(16, 185, 129, 0.15);
+		color: #059669;
+	}
+
+	.card-content {
+		max-height: 600px;
 		overflow-y: auto;
-		padding-right: 0.5rem;
 	}
 
-	/* Comment cards */
-	.rounded-lg {
-		border-radius: var(--border-radius);
+	/* Comments List */
+	.comments-list {
+		display: flex;
+		flex-direction: column;
 	}
 
-	.border {
-		border: 1px solid var(--border-color);
+	.comment-item {
+		padding: 16px 20px;
+		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		transition: background-color 0.2s;
 	}
 
-	.shadow-sm {
-		box-shadow: var(--shadow-sm);
+	.comment-item:last-child {
+		border-bottom: none;
 	}
 
-	.hover\:shadow-md:hover {
-		box-shadow: var(--shadow-md);
+	.comment-item:hover {
+		background: var(--hover-background, #f8fafc);
 	}
 
-	/* Colors */
-	.bg-warning-50 {
-		background-color: var(--warning-light);
+	.comment-item.flagged {
+		border-left: 3px solid #f59e0b;
+		background: rgba(245, 158, 11, 0.05);
 	}
 
-	.border-warning-500 {
-		border-color: var(--warning);
+	.comment-item.removed {
+		border-left: 3px solid #ef4444;
+		background: rgba(239, 68, 68, 0.05);
 	}
 
-	.bg-error-50 {
-		background-color: var(--error-light);
+	.comment-body {
+		margin-bottom: 12px;
 	}
 
-	.text-error-700 {
-		color: var(--error);
+	.comment-text {
+		font-size: 0.9375rem;
+		color: var(--text-primary, #1e293b);
+		line-height: 1.5;
+		margin: 0;
 	}
 
-	.bg-neutral-50 {
-		background-color: var(--hover-background);
+	.comment-text.error {
+		color: #dc2626;
+		font-style: italic;
 	}
 
-	.bg-neutral-100 {
-		background-color: var(--hover-background);
+	.status-badge {
+		display: inline-block;
+		font-size: 0.75rem;
+		padding: 2px 8px;
+		border-radius: 4px;
+		margin-left: 8px;
+		font-weight: 500;
+	}
+
+	.status-badge.removed {
+		background: rgba(239, 68, 68, 0.15);
+		color: #dc2626;
+	}
+
+	.flag-info {
+		margin-top: 10px;
+		padding: 10px 12px;
+		background: var(--hover-background, #f1f5f9);
+		border-radius: 8px;
+		font-size: 0.875rem;
+	}
+
+	.flag-detail {
+		display: flex;
+		gap: 8px;
+		margin-bottom: 4px;
+	}
+
+	.flag-detail:last-child {
+		margin-bottom: 0;
+	}
+
+	.flag-label {
+		font-weight: 600;
+		color: var(--text-secondary, #64748b);
+	}
+
+	.comment-footer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+
+	.comment-actions {
+		display: flex;
+		gap: 8px;
+	}
+
+	.comment-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+
+	.meta-link {
+		font-size: 0.875rem;
+		color: var(--primary, #6366f1);
+		text-decoration: none;
+		transition: color 0.2s;
+	}
+
+	.meta-link:hover {
+		color: var(--primary-dark, #4f46e5);
+		text-decoration: underline;
+	}
+
+	.comment-date {
+		font-size: 0.8125rem;
+		color: var(--text-secondary, #64748b);
 	}
 
 	/* Buttons */
-	button:disabled {
-		opacity: 0.6;
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		padding: 8px 14px;
+		border: none;
+		border-radius: 6px;
+		font-size: 0.875rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.2s;
+	}
+
+	.btn:disabled {
+		opacity: 0.5;
 		cursor: not-allowed;
 	}
 
-	/* Status indicators */
-	.h-4.w-4 {
-		height: 1rem;
-		width: 1rem;
+	.btn-success {
+		background: #10b981;
+		color: white;
 	}
 
-	.rounded-full {
-		border-radius: 9999px;
+	.btn-success:hover:not(:disabled) {
+		background: #059669;
 	}
 
-	.bg-warning-500 {
-		background-color: var(--warning);
+	.btn-danger {
+		background: #ef4444;
+		color: white;
 	}
 
-	.bg-info-500 {
-		background-color: var(--info);
+	.btn-danger:hover:not(:disabled) {
+		background: #dc2626;
 	}
 
-	.bg-success-500 {
-		background-color: var(--success);
+	.btn-secondary {
+		background: var(--border-color, #e2e8f0);
+		color: var(--text-primary, #1e293b);
 	}
 
-	/* Links */
-	.text-primary-700 {
-		color: var(--primary);
+	.btn-secondary:hover:not(:disabled) {
+		background: var(--hover-background, #cbd5e1);
 	}
 
-	.hover\:text-primary-800:hover {
-		color: var(--primary-dark);
+	/* Empty State */
+	.empty-state {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 48px 20px;
+		text-align: center;
+	}
+
+	.empty-icon {
+		font-size: 2.5rem;
+		margin-bottom: 12px;
+		opacity: 0.6;
+	}
+
+	.empty-state p {
+		color: var(--text-secondary, #64748b);
+		margin: 0;
+	}
+
+	/* Loading Overlay */
+	.loading-overlay {
+		position: fixed;
+		inset: 0;
+		z-index: 50;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.loading-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: var(--card-background, #fff);
+		padding: 24px 32px;
+		border-radius: 12px;
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+	}
+
+	.loading-content p {
+		margin-top: 16px;
+		color: var(--text-secondary, #64748b);
+	}
+
+	/* Modal */
+	.modal-content {
+		padding: 24px;
+	}
+
+	.modal-title {
+		font-size: 1.125rem;
+		font-weight: 600;
+		color: var(--text-primary, #1e293b);
+		margin: 0 0 12px 0;
+	}
+
+	.modal-text {
+		color: var(--text-secondary, #64748b);
+		margin: 0 0 24px 0;
+		line-height: 1.5;
+	}
+
+	.modal-actions {
+		display: flex;
+		justify-content: flex-end;
+		gap: 12px;
 	}
 
 	/* Responsive */
-	@media (max-width: 768px) {
-		.section-card {
-			padding: 1rem;
+	@media (max-width: 640px) {
+		.controls-card {
+			flex-direction: column;
+			align-items: stretch;
 		}
 
-		.overflow-y-auto {
-			padding-right: 0;
+		.tabs {
+			justify-content: center;
+		}
+
+		.comment-footer {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		.comment-actions {
+			width: 100%;
+		}
+
+		.btn {
+			flex: 1;
+			justify-content: center;
 		}
 	}
 </style>
