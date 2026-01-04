@@ -83,12 +83,12 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		gap: 12px;
-		padding: 14px 16px;
+		gap: 10px;
+		padding: 12px 14px;
 		background: var(--card-background, #fff);
 		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 12px;
-		transition: all 0.2s ease;
+		border-radius: 10px;
+		transition: all 0.15s ease;
 		text-decoration: none;
 		color: inherit;
 	}
@@ -139,39 +139,45 @@
 	.stat-content {
 		display: flex;
 		flex-direction: column;
-		gap: 4px;
+		gap: 2px;
 		min-width: 0;
+		flex: 1;
 	}
 
 	.stat-header {
 		display: flex;
 		align-items: center;
-		gap: 6px;
+		gap: 5px;
 	}
 
 	.stat-icon {
-		font-size: 1rem;
+		font-size: 0.875rem;
+		line-height: 1;
 	}
 
 	.stat-label {
-		font-size: 0.7rem;
-		font-weight: 500;
+		font-size: 0.625rem;
+		font-weight: 600;
 		color: var(--text-secondary, #64748b);
 		text-transform: uppercase;
-		letter-spacing: 0.5px;
+		letter-spacing: 0.3px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 
 	.stat-body {
 		display: flex;
 		align-items: baseline;
-		gap: 8px;
+		gap: 6px;
+		flex-wrap: wrap;
 	}
 
 	.stat-value {
-		font-size: 1.5rem;
+		font-size: 1.375rem;
 		font-weight: 700;
 		color: var(--text-primary, #1e293b);
-		line-height: 1.2;
+		line-height: 1.1;
 		opacity: 0;
 		transform: translateY(4px);
 		transition: all 0.4s ease;
@@ -186,9 +192,9 @@
 		display: flex;
 		align-items: center;
 		gap: 2px;
-		font-size: 0.75rem;
+		font-size: 0.6875rem;
 		font-weight: 600;
-		padding: 2px 6px;
+		padding: 2px 5px;
 		border-radius: 4px;
 	}
 
@@ -207,13 +213,16 @@
 	}
 
 	.stat-sub {
-		font-size: 0.7rem;
+		font-size: 0.625rem;
 		color: var(--text-secondary, #64748b);
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 
 	.sparkline-container {
-		width: 60px;
-		height: 24px;
+		width: 50px;
+		height: 20px;
 		flex-shrink: 0;
 	}
 
@@ -250,19 +259,83 @@
 		stroke: #ef4444;
 	}
 
-	/* Responsive */
-	@media (max-width: 640px) {
+	/* Tablet */
+	@media (max-width: 1024px) {
 		.stat-card {
-			padding: 12px 14px;
+			padding: 10px 12px;
 		}
 
 		.stat-value {
 			font-size: 1.25rem;
 		}
+	}
+
+	/* Mobile */
+	@media (max-width: 768px) {
+		.stat-card {
+			padding: 10px;
+			gap: 8px;
+			border-radius: 8px;
+		}
+
+		.stat-icon {
+			font-size: 0.8125rem;
+		}
+
+		.stat-label {
+			font-size: 0.5625rem;
+		}
+
+		.stat-value {
+			font-size: 1.125rem;
+		}
+
+		.stat-sub {
+			font-size: 0.5625rem;
+		}
+
+		.stat-trend {
+			font-size: 0.625rem;
+			padding: 1px 4px;
+		}
 
 		.sparkline-container {
-			width: 50px;
-			height: 20px;
+			width: 40px;
+			height: 16px;
+		}
+	}
+
+	/* Extra small screens */
+	@media (max-width: 480px) {
+		.stat-card {
+			padding: 8px;
+			gap: 6px;
+		}
+
+		.stat-header {
+			gap: 4px;
+		}
+
+		.stat-icon {
+			font-size: 0.75rem;
+		}
+
+		.stat-label {
+			font-size: 0.5rem;
+			letter-spacing: 0.2px;
+		}
+
+		.stat-value {
+			font-size: 1rem;
+		}
+
+		.stat-sub {
+			font-size: 0.5rem;
+		}
+
+		.sparkline-container {
+			width: 36px;
+			height: 14px;
 		}
 	}
 </style>

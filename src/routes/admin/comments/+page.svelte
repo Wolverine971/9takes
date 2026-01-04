@@ -417,86 +417,73 @@
 
 <style>
 	.admin-comments {
-		max-width: 100%;
-		margin: 0 auto;
+		width: 100%;
 	}
 
 	/* Stats Grid */
 	.stats-grid {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 16px;
-		margin-bottom: 24px;
-	}
-
-	@media (max-width: 1024px) {
-		.stats-grid {
-			grid-template-columns: repeat(2, 1fr);
-		}
-	}
-
-	@media (max-width: 640px) {
-		.stats-grid {
-			grid-template-columns: 1fr;
-		}
+		grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+		gap: 12px;
+		margin-bottom: 20px;
 	}
 
 	/* Controls Card */
 	.controls-card {
 		background: var(--card-background, #fff);
 		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 12px;
-		padding: 16px;
-		margin-bottom: 24px;
+		border-radius: 10px;
+		padding: 12px 14px;
+		margin-bottom: 20px;
 		display: flex;
 		flex-wrap: wrap;
-		gap: 16px;
+		gap: 12px;
 		align-items: center;
 		justify-content: space-between;
 	}
 
 	.search-box {
 		flex: 1;
-		min-width: 200px;
+		min-width: 160px;
 	}
 
 	.search-input {
 		width: 100%;
-		padding: 10px 14px;
+		padding: 8px 12px;
 		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 8px;
-		font-size: 0.875rem;
+		border-radius: 6px;
+		font-size: 0.8125rem;
 		background: var(--card-background, #fff);
-		transition: border-color 0.2s, box-shadow 0.2s;
+		transition: border-color 0.15s, box-shadow 0.15s;
 	}
 
 	.search-input:focus {
 		outline: none;
 		border-color: var(--primary, #6366f1);
-		box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+		box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
 	}
 
 	.tabs {
 		display: flex;
-		gap: 4px;
+		gap: 2px;
 		background: var(--hover-background, #f1f5f9);
-		padding: 4px;
-		border-radius: 8px;
+		padding: 3px;
+		border-radius: 6px;
 	}
 
 	.tab {
 		display: flex;
 		align-items: center;
-		gap: 6px;
-		padding: 8px 16px;
+		gap: 5px;
+		padding: 6px 12px;
 		border: none;
 		background: transparent;
-		border-radius: 6px;
-		font-size: 0.875rem;
+		border-radius: 5px;
+		font-size: 0.75rem;
 		font-weight: 500;
 		color: var(--text-secondary, #64748b);
 		cursor: pointer;
-		transition: all 0.2s;
+		transition: all 0.15s;
 	}
 
 	.tab:hover {
@@ -506,13 +493,13 @@
 	.tab.active {
 		background: var(--card-background, #fff);
 		color: var(--text-primary, #1e293b);
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 	}
 
 	.tab-badge {
-		font-size: 0.75rem;
-		padding: 2px 6px;
-		border-radius: 10px;
+		font-size: 0.625rem;
+		padding: 1px 5px;
+		border-radius: 8px;
 		background: var(--border-color, #e2e8f0);
 		color: var(--text-secondary, #64748b);
 	}
@@ -526,7 +513,7 @@
 	.content-card {
 		background: var(--card-background, #fff);
 		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 12px;
+		border-radius: 10px;
 		overflow: hidden;
 	}
 
@@ -534,22 +521,22 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 16px 20px;
+		padding: 12px 16px;
 		border-bottom: 1px solid var(--border-color, #e2e8f0);
 		background: var(--hover-background, #f8fafc);
 	}
 
 	.card-header h2 {
-		font-size: 1rem;
+		font-size: 0.875rem;
 		font-weight: 600;
 		color: var(--text-primary, #1e293b);
 		margin: 0;
 	}
 
 	.header-badge {
-		font-size: 0.75rem;
-		padding: 4px 10px;
-		border-radius: 12px;
+		font-size: 0.6875rem;
+		padding: 3px 8px;
+		border-radius: 10px;
 		background: var(--border-color, #e2e8f0);
 		color: var(--text-secondary, #64748b);
 	}
@@ -565,8 +552,9 @@
 	}
 
 	.card-content {
-		max-height: 600px;
+		max-height: 500px;
 		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
 	}
 
 	/* Comments List */
@@ -576,9 +564,9 @@
 	}
 
 	.comment-item {
-		padding: 16px 20px;
+		padding: 12px 16px;
 		border-bottom: 1px solid var(--border-color, #e2e8f0);
-		transition: background-color 0.2s;
+		transition: background-color 0.15s;
 	}
 
 	.comment-item:last-child {
@@ -600,11 +588,11 @@
 	}
 
 	.comment-body {
-		margin-bottom: 12px;
+		margin-bottom: 10px;
 	}
 
 	.comment-text {
-		font-size: 0.9375rem;
+		font-size: 0.8125rem;
 		color: var(--text-primary, #1e293b);
 		line-height: 1.5;
 		margin: 0;
@@ -617,10 +605,10 @@
 
 	.status-badge {
 		display: inline-block;
-		font-size: 0.75rem;
-		padding: 2px 8px;
+		font-size: 0.625rem;
+		padding: 2px 6px;
 		border-radius: 4px;
-		margin-left: 8px;
+		margin-left: 6px;
 		font-weight: 500;
 	}
 
@@ -630,17 +618,17 @@
 	}
 
 	.flag-info {
-		margin-top: 10px;
-		padding: 10px 12px;
+		margin-top: 8px;
+		padding: 8px 10px;
 		background: var(--hover-background, #f1f5f9);
-		border-radius: 8px;
-		font-size: 0.875rem;
+		border-radius: 6px;
+		font-size: 0.75rem;
 	}
 
 	.flag-detail {
 		display: flex;
-		gap: 8px;
-		margin-bottom: 4px;
+		gap: 6px;
+		margin-bottom: 3px;
 	}
 
 	.flag-detail:last-child {
@@ -657,25 +645,25 @@
 		align-items: center;
 		justify-content: space-between;
 		flex-wrap: wrap;
-		gap: 12px;
+		gap: 10px;
 	}
 
 	.comment-actions {
 		display: flex;
-		gap: 8px;
+		gap: 6px;
 	}
 
 	.comment-meta {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 12px;
+		gap: 10px;
 	}
 
 	.meta-link {
-		font-size: 0.875rem;
+		font-size: 0.75rem;
 		color: var(--primary, #6366f1);
 		text-decoration: none;
-		transition: color 0.2s;
+		transition: color 0.15s;
 	}
 
 	.meta-link:hover {
@@ -684,7 +672,7 @@
 	}
 
 	.comment-date {
-		font-size: 0.8125rem;
+		font-size: 0.6875rem;
 		color: var(--text-secondary, #64748b);
 	}
 
@@ -692,14 +680,14 @@
 	.btn {
 		display: inline-flex;
 		align-items: center;
-		gap: 6px;
-		padding: 8px 14px;
+		gap: 5px;
+		padding: 6px 12px;
 		border: none;
-		border-radius: 6px;
-		font-size: 0.875rem;
+		border-radius: 5px;
+		font-size: 0.75rem;
 		font-weight: 500;
 		cursor: pointer;
-		transition: all 0.2s;
+		transition: all 0.15s;
 	}
 
 	.btn:disabled {
@@ -740,19 +728,20 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding: 48px 20px;
+		padding: 40px 16px;
 		text-align: center;
 	}
 
 	.empty-icon {
-		font-size: 2.5rem;
-		margin-bottom: 12px;
+		font-size: 2rem;
+		margin-bottom: 10px;
 		opacity: 0.6;
 	}
 
 	.empty-state p {
 		color: var(--text-secondary, #64748b);
 		margin: 0;
+		font-size: 0.8125rem;
 	}
 
 	/* Loading Overlay */
@@ -771,45 +760,117 @@
 		flex-direction: column;
 		align-items: center;
 		background: var(--card-background, #fff);
-		padding: 24px 32px;
-		border-radius: 12px;
+		padding: 20px 28px;
+		border-radius: 10px;
 		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 	}
 
 	.loading-content p {
-		margin-top: 16px;
+		margin-top: 12px;
 		color: var(--text-secondary, #64748b);
+		font-size: 0.8125rem;
 	}
 
 	/* Modal */
 	.modal-content {
-		padding: 24px;
+		padding: 20px;
 	}
 
 	.modal-title {
-		font-size: 1.125rem;
+		font-size: 1rem;
 		font-weight: 600;
 		color: var(--text-primary, #1e293b);
-		margin: 0 0 12px 0;
+		margin: 0 0 10px 0;
 	}
 
 	.modal-text {
 		color: var(--text-secondary, #64748b);
-		margin: 0 0 24px 0;
+		margin: 0 0 20px 0;
 		line-height: 1.5;
+		font-size: 0.8125rem;
 	}
 
 	.modal-actions {
 		display: flex;
 		justify-content: flex-end;
-		gap: 12px;
+		gap: 10px;
 	}
 
-	/* Responsive */
-	@media (max-width: 640px) {
+	/* Mobile */
+	@media (max-width: 768px) {
+		.stats-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 8px;
+			margin-bottom: 16px;
+		}
+
+		.controls-card {
+			padding: 10px 12px;
+			margin-bottom: 16px;
+			gap: 10px;
+			border-radius: 8px;
+		}
+
+		.search-input {
+			font-size: 0.75rem;
+			padding: 8px 10px;
+		}
+
+		.tabs {
+			padding: 2px;
+		}
+
+		.tab {
+			padding: 6px 10px;
+			font-size: 0.6875rem;
+		}
+
+		.tab-badge {
+			font-size: 0.5625rem;
+			padding: 1px 4px;
+		}
+
+		.content-card {
+			border-radius: 8px;
+		}
+
+		.card-header {
+			padding: 10px 12px;
+		}
+
+		.card-header h2 {
+			font-size: 0.75rem;
+		}
+
+		.comment-item {
+			padding: 10px 12px;
+		}
+
+		.comment-text {
+			font-size: 0.75rem;
+		}
+
+		.flag-info {
+			padding: 6px 8px;
+			font-size: 0.6875rem;
+		}
+
+		.btn {
+			padding: 6px 10px;
+			font-size: 0.6875rem;
+		}
+	}
+
+	/* Extra small screens */
+	@media (max-width: 480px) {
+		.stats-grid {
+			gap: 6px;
+		}
+
 		.controls-card {
 			flex-direction: column;
 			align-items: stretch;
+			padding: 8px 10px;
 		}
 
 		.tabs {
@@ -818,7 +879,8 @@
 
 		.comment-footer {
 			flex-direction: column;
-			align-items: flex-start;
+			align-items: stretch;
+			gap: 8px;
 		}
 
 		.comment-actions {
@@ -828,6 +890,10 @@
 		.btn {
 			flex: 1;
 			justify-content: center;
+		}
+
+		.card-content {
+			max-height: 400px;
 		}
 	}
 </style>
