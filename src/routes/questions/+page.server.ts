@@ -1,6 +1,7 @@
 // src/routes/questions/+page.server.ts
 import { error } from '@sveltejs/kit';
 import { deleteESQuestion, elasticClient } from '$lib/server/elasticSearch';
+import { z } from 'zod';
 
 import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
@@ -8,6 +9,27 @@ import { checkDemoTime } from '../../utils/api';
 import { mapDemoValues } from '../../utils/demo';
 
 const QUESTIONS_PER_PAGE = 20;
+
+// Validation schemas for admin actions
+const removeQuestionSchema = z.object({
+	questionId: z.string().regex(/^\d+$/, 'Invalid question ID')
+});
+
+const updateQuestionSchema = z.object({
+	questionId: z.string().regex(/^\d+$/, 'Invalid question ID'),
+	removed: z.enum(['true', 'false']),
+	flagged: z.enum(['true', 'false']),
+	question_formatted: z.string().min(1).max(500).trim(),
+	tags: z.string().transform((val) => {
+		try {
+			const parsed = JSON.parse(val);
+			if (!Array.isArray(parsed)) throw new Error('Tags must be an array');
+			return parsed as { tag_id: number }[];
+		} catch {
+			throw new Error('Invalid tags JSON');
+		}
+	})
+});
 
 export const load: PageServerLoad = async (event) => {
 	try {
@@ -212,8 +234,10 @@ export const actions: Actions = {
 				throw error(403, 'Not authorized');
 			}
 
+			// Validate input
 			const body = Object.fromEntries(await request.formData());
-			const questionId = parseInt(body.questionId as string);
+			const validatedData = removeQuestionSchema.parse(body);
+			const questionId = parseInt(validatedData.questionId);
 
 			const { error: removeQuestionError } = await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
@@ -236,7 +260,13 @@ export const actions: Actions = {
 				throw error(500, 'Error removing question');
 			}
 		} catch (e) {
-			// Error('Remove error:', e);
+			if (e instanceof z.ZodError) {
+				throw error(400, { message: 'Invalid question ID' });
+			}
+			// Re-throw HTTP errors
+			if ((e as any).status) {
+				throw e;
+			}
 			return { success: false };
 		}
 	},
@@ -262,12 +292,14 @@ export const actions: Actions = {
 				throw error(403, 'Not authorized');
 			}
 
+			// Validate input
 			const body = Object.fromEntries(await request.formData());
-			const questionId = parseInt(body.questionId as string);
-			const removed = body.removed === 'true';
-			const flagged = body.flagged === 'true';
-			const question_formatted = body.question_formatted as string;
-			const tags = JSON.parse(body.tags as string);
+			const validatedData = updateQuestionSchema.parse(body);
+			const questionId = parseInt(validatedData.questionId);
+			const removed = validatedData.removed === 'true';
+			const flagged = validatedData.flagged === 'true';
+			const question_formatted = validatedData.question_formatted;
+			const tags = validatedData.tags;
 
 			// Update question
 			const { error: updateError } = await supabase
@@ -288,7 +320,7 @@ export const actions: Actions = {
 					.eq('question_id', questionId);
 
 				// Add new tags
-				const tagInserts = tags.map((tag: any) => ({
+				const tagInserts = tags.map((tag) => ({
 					question_id: questionId,
 					tag_id: tag.tag_id
 				}));
@@ -300,7 +332,13 @@ export const actions: Actions = {
 
 			return { success: true };
 		} catch (e) {
-			// Error('Update error:', e);
+			if (e instanceof z.ZodError) {
+				throw error(400, { message: 'Invalid input data' });
+			}
+			// Re-throw HTTP errors
+			if ((e as any).status) {
+				throw e;
+			}
 			return { success: false };
 		}
 	}

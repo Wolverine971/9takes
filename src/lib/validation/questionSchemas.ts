@@ -3,14 +3,17 @@ import { z } from 'zod';
 
 // Comment validation schemas
 export const createCommentSchema = z.object({
-	comment: z.string().min(1).max(5000, 'Comment must be less than 5000 characters'),
-	parent_id: z.string(),
+	comment: z
+		.string()
+		.min(1, 'Comment cannot be empty')
+		.max(5000, 'Comment cannot exceed 5000 characters')
+		.trim(),
+	parent_id: z.string().regex(/^\d+$/, 'Invalid parent ID'),
 	parent_type: z.enum(['question', 'comment']),
-	author_id: z.string().uuid().optional(),
-	fingerprint: z.string().optional(),
-	tag_1: z.string().transform(Number).pipe(z.number().int().min(1).max(9)).optional(),
-	tag_2: z.string().transform(Number).pipe(z.number().int().min(1).max(9)).optional(),
-	es_id: z.string().optional()
+	author_id: z.string().optional(),
+	fingerprint: z.string().max(100).optional(),
+	es_id: z.string().optional(),
+	question_id: z.string().regex(/^\d+$/, 'Invalid question ID')
 });
 
 export const likeCommentSchema = z.object({
@@ -32,8 +35,9 @@ export const saveLinkClickSchema = z.object({
 });
 
 export const flagCommentSchema = z.object({
-	comment_id: z.string().uuid(),
-	description: z.string().min(10).max(500, 'Flag description must be between 10 and 500 characters')
+	comment_id: z.string().regex(/^\d+$/, 'Invalid comment ID'),
+	reason_id: z.string().regex(/^\d+$/, 'Invalid reason ID'),
+	description: z.string().max(500, 'Flag description cannot exceed 500 characters').optional()
 });
 
 export const updateQuestionImgSchema = z.object({

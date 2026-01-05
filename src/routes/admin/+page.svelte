@@ -117,19 +117,15 @@
 	$: commentSparkline = commentChartData.slice(-7).map((d) => d.y);
 
 	// Calculate growth percentages
-	$: userGrowth = data.totalUsers > 0 ? ((data.newUsersMonth / data.totalUsers) * 100).toFixed(1) : '0';
+	$: userGrowth =
+		data.totalUsers > 0 ? ((data.newUsersMonth / data.totalUsers) * 100).toFixed(1) : '0';
 </script>
 
 <div class="admin-dashboard">
 	<header class="dashboard-header">
 		<h1 class="page-title">Dashboard</h1>
 		<div class="header-actions">
-			<button
-				type="button"
-				class="action-btn"
-				class:active={isDemoTime}
-				on:click={changeDemoTime}
-			>
+			<button type="button" class="action-btn" class:active={isDemoTime} on:click={changeDemoTime}>
 				Demo: {isDemoTime ? 'ON' : 'OFF'}
 			</button>
 			<button
@@ -161,12 +157,7 @@
 				trend={Number(userGrowth) > 5 ? 'up' : 'neutral'}
 				trendValue="{userGrowth}%"
 			/>
-			<StatCard
-				icon="🎯"
-				label="Coaching Waitlist"
-				value={data.coachingWaitlist}
-				color="success"
-			/>
+			<StatCard icon="🎯" label="Coaching Waitlist" value={data.coachingWaitlist} color="success" />
 			<StatCard
 				icon="⚡"
 				label="Active (7d)"
@@ -691,15 +682,33 @@
 		color: var(--text-secondary, #64748b);
 	}
 
-	.type-badge.type-1 { background: #6366f1; }
-	.type-badge.type-2 { background: #ec4899; }
-	.type-badge.type-3 { background: #f59e0b; }
-	.type-badge.type-4 { background: #8b5cf6; }
-	.type-badge.type-5 { background: #3b82f6; }
-	.type-badge.type-6 { background: #14b8a6; }
-	.type-badge.type-7 { background: #f97316; }
-	.type-badge.type-8 { background: #ef4444; }
-	.type-badge.type-9 { background: #22c55e; }
+	.type-badge.type-1 {
+		background: #6366f1;
+	}
+	.type-badge.type-2 {
+		background: #ec4899;
+	}
+	.type-badge.type-3 {
+		background: #f59e0b;
+	}
+	.type-badge.type-4 {
+		background: #8b5cf6;
+	}
+	.type-badge.type-5 {
+		background: #3b82f6;
+	}
+	.type-badge.type-6 {
+		background: #14b8a6;
+	}
+	.type-badge.type-7 {
+		background: #f97316;
+	}
+	.type-badge.type-8 {
+		background: #ef4444;
+	}
+	.type-badge.type-9 {
+		background: #22c55e;
+	}
 
 	.activity-badge {
 		display: inline-flex;

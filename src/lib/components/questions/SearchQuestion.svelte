@@ -5,12 +5,35 @@
 	import Context from '$lib/components/molecules/Context.svelte';
 	import { createEventDispatcher, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
+	import type { User } from '$lib/types/questions';
+
+	// Type for search result item from API
+	interface SearchResultItem {
+		question: string;
+		highlighted?: string;
+		url: string;
+		id?: number;
+		comment_count?: number;
+	}
+
+	// Type for the page data prop
+	interface SearchQuestionData {
+		user: User | null;
+		canAskQuestion: boolean;
+	}
 
 	const dispatch = createEventDispatcher();
-	export let data: any;
+	export let data: SearchQuestionData;
+
+	// Option type for ComboBox
+	interface ComboBoxOption {
+		text: string;
+		displayText?: string;
+		value: string;
+	}
 
 	let question: string = '';
-	let options: { text: string; value: any }[] = [];
+	let options: ComboBoxOption[] = [];
 	let timer: ReturnType<typeof setTimeout> | null = null;
 	let isSearching = false;
 	let abortController: AbortController | null = null;
@@ -86,14 +109,14 @@
 			const searchResults = data.results || [];
 
 			options = searchResults
-				.map((item: any) => {
+				.map((item: SearchResultItem) => {
 					return {
 						text: item.question, // Use plain text for the text property
 						displayText: item.highlighted || item.question, // HTML for display
 						value: item.url // Use URL as the value for simpler handling
 					};
 				})
-				.filter((opt) => opt.text && opt.value);
+				.filter((opt: ComboBoxOption) => opt.text && opt.value);
 		} catch (error) {
 			// Only show error for real failures, not aborted requests
 			if (!(error instanceof DOMException && error.name === 'AbortError')) {
@@ -140,9 +163,9 @@
 			? 'Search...'
 			: 'Search questions...';
 
-	function getButtonText(data: any, mobile: boolean): string {
-		if (!data?.user?.id) return mobile ? 'Sign up' : 'Sign up to ask';
-		return data?.canAskQuestion
+	function getButtonText(pageData: SearchQuestionData, mobile: boolean): string {
+		if (!pageData?.user?.id) return mobile ? 'Sign up' : 'Sign up to ask';
+		return pageData?.canAskQuestion
 			? mobile
 				? 'Ask'
 				: 'Ask question'
@@ -152,7 +175,7 @@
 	}
 
 	// Handle question selection
-	async function handleQuestionSelected(detail: any) {
+	async function handleQuestionSelected(detail: string | null) {
 		question = '';
 		options = [];
 

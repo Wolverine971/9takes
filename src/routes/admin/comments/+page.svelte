@@ -190,7 +190,13 @@
 			subValue={flaggedCount > 0 ? 'Needs review' : 'All clear'}
 		/>
 		<StatCard label="Recent" value={recentCount} icon="🕐" subValue="Question comments" />
-		<StatCard label="Blog Comments" value={blogCount} icon="📝" color="success" subValue="On blog posts" />
+		<StatCard
+			label="Blog Comments"
+			value={blogCount}
+			icon="📝"
+			color="success"
+			subValue="On blog posts"
+		/>
 	</div>
 
 	<!-- Search and Tabs -->
@@ -315,17 +321,11 @@
 								<div class="comment-footer">
 									<div class="comment-meta">
 										{#if comment?.parentQuestion}
-											<a
-												href="/questions/{comment?.parentQuestion?.url}"
-												class="meta-link"
-											>
+											<a href="/questions/{comment?.parentQuestion?.url}" class="meta-link">
 												Q: {(comment?.parentQuestion?.question_formatted || '').slice(0, 40)}...
 											</a>
 										{/if}
-										<a
-											href="/users/{comment?.profiles?.external_id}"
-											class="meta-link"
-										>
+										<a href="/users/{comment?.profiles?.external_id}" class="meta-link">
 											{comment?.profiles?.email || 'Anonymous'}
 										</a>
 									</div>
@@ -362,10 +362,7 @@
 									<p class="comment-text">{blogComment?.comment || 'No comment text'}</p>
 								</div>
 								<div class="comment-footer">
-									<a
-										href="/{blogComment.blog_type}/{blogComment?.blog_link}"
-										class="meta-link"
-									>
+									<a href="/{blogComment.blog_type}/{blogComment?.blog_link}" class="meta-link">
 										{blogComment?.blog_link?.replace(/-/g, ' ') ?? 'Unknown blog'}
 									</a>
 									<span class="comment-date">
@@ -401,9 +398,7 @@
 				{/if}
 			</p>
 			<div class="modal-actions">
-				<button class="btn btn-secondary" on:click={cancelAction}>
-					Cancel
-				</button>
+				<button class="btn btn-secondary" on:click={cancelAction}> Cancel </button>
 				<button
 					class="btn {actionType === 'remove' ? 'btn-danger' : 'btn-success'}"
 					on:click={executeAction}
@@ -454,7 +449,9 @@
 		border-radius: 6px;
 		font-size: 0.8125rem;
 		background: var(--card-background, #fff);
-		transition: border-color 0.15s, box-shadow 0.15s;
+		transition:
+			border-color 0.15s,
+			box-shadow 0.15s;
 	}
 
 	.search-input:focus {

@@ -11,19 +11,25 @@
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import ArticleLinks from '$lib/components/molecules/Links.svelte';
+	import type { User, Comment as CommentType, QuestionPageData } from '$lib/types/questions';
+	import { viewportWidth } from '$lib/stores/viewport';
 
-	const dispatch = createEventDispatcher();
+	const dispatch = createEventDispatcher<{
+		commentAdded: void;
+	}>();
 
-	export let data: any;
-	export let user: any;
+	export let data: QuestionPageData;
+	export let user: User | null;
 
 	// Local state
 	let selectedTab = 'Comments';
-	let innerWidth = 0;
 	let showAiComments = true;
 
+	// Use shared viewport store
+	$: innerWidth = $viewportWidth;
+
 	// Create a deep copy of data to avoid mutation issues
-	$: _data = JSON.parse(JSON.stringify(data));
+	$: _data = JSON.parse(JSON.stringify(data)) as QuestionPageData;
 
 	// Define tabs and their associated icons
 	const tabs = ['Comments', 'Removed Comments', 'Visuals', 'Articles'];
@@ -35,9 +41,9 @@
 	};
 
 	// Sort comments handler that preserves data immutability
-	function sortComments(sortedComments: any[]) {
+	function sortComments(sortedComments: CommentType[]) {
 		// Deep copy the sorted comments to avoid mutation
-		const deepCopiedComments = JSON.parse(JSON.stringify(sortedComments));
+		const deepCopiedComments = JSON.parse(JSON.stringify(sortedComments)) as CommentType[];
 		_data.comments = deepCopiedComments;
 		_data.comment_count = deepCopiedComments.length;
 		showAiComments = false;
@@ -93,8 +99,6 @@
 		}
 	}
 </script>
-
-<svelte:window bind:innerWidth />
 
 <div class="w-full">
 	<!-- Tabs Navigation -->

@@ -156,7 +156,10 @@
 				icon="✅"
 				label="With Type"
 				value={formattedProfiles.filter((p) => p.enneagram).length}
-				subValue="{((formattedProfiles.filter((p) => p.enneagram).length / formattedProfiles.length) * 100).toFixed(0)}%"
+				subValue="{(
+					(formattedProfiles.filter((p) => p.enneagram).length / formattedProfiles.length) *
+					100
+				).toFixed(0)}%"
 				color="success"
 			/>
 			<StatCard icon="📧" label="Email Signups" value={formattedSignups.length} />
@@ -245,10 +248,7 @@
 									</td>
 									<td>
 										{#if profile.enneagram}
-											<span
-												class="type-badge"
-												style="background: {typeColors[profile.enneagram]}"
-											>
+											<span class="type-badge" style="background: {typeColors[profile.enneagram]}">
 												{profile.enneagram}
 											</span>
 										{:else}

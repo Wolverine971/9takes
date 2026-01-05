@@ -5,15 +5,17 @@
 	import { fade } from 'svelte/transition';
 	import LeftIcon from '$lib/components/icons/leftIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
+	import type { QuestionPageData } from '$lib/types/questions';
 
-	export let parentType: string = 'comment';
-	export let data: any;
+	export let parentType: 'question' | 'comment' = 'comment';
+	export let data: QuestionPageData;
 	export let showAiComments = true;
 
 	// State variables
 	let active = 0;
 	let direction: 'left' | 'right' = 'right';
 	let transitioning = false;
+	let carouselRef: HTMLElement;
 
 	// Navigation functions
 	function moveLeft() {
@@ -32,11 +34,13 @@
 		setTimeout(() => (transitioning = false), 300);
 	}
 
-	// Handle keyboard navigation
+	// Handle keyboard navigation - only when carousel is focused
 	function handleKeydown(event: KeyboardEvent) {
 		if (event.key === 'ArrowLeft') {
+			event.preventDefault();
 			moveLeft();
 		} else if (event.key === 'ArrowRight') {
+			event.preventDefault();
 			moveRight();
 		}
 	}
@@ -46,8 +50,6 @@
 	});
 </script>
 
-<svelte:window on:keydown={handleKeydown} />
-
 {#if browser && data?.ai_comments?.length && parentType === 'question' && data?.flags?.userHasAnswered && showAiComments}
 	<section class="mb-4 p-1" aria-label="Enneagram personality type perspectives">
 		<h3 class="m-2 text-center text-sm font-medium text-neutral-600">
@@ -55,9 +57,14 @@
 		</h3>
 
 		<div
-			class="relative flex items-center justify-center overflow-hidden rounded border border-neutral-300 bg-white"
+			bind:this={carouselRef}
+			class="relative flex items-center justify-center overflow-hidden rounded border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-primary-500"
 			role="region"
 			aria-live="polite"
+			aria-roledescription="carousel"
+			aria-label="Enneagram personality type perspectives carousel"
+			tabindex="0"
+			on:keydown={handleKeydown}
 		>
 			<button
 				class="z-10 ml-1 flex h-7 w-7 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-white/80 text-primary-500 transition-all duration-200 hover:bg-neutral-100 hover:text-primary-600"

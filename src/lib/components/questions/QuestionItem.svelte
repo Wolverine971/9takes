@@ -1,77 +1,35 @@
 <!-- src/lib/components/questions/QuestionItem.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import { browser } from '$app/environment';
+	import { viewportWidth } from '$lib/stores/viewport';
 
 	export let questionData: {
-		id: string;
+		id: number;
 		url: string;
-		question_formatted: string;
+		question_formatted?: string;
 		question: string;
 		comment_count: number;
 		created_at: string;
 	};
 	export let showDetails = true;
 
-	let innerWidth = 0;
-	let commentColor = '#a29bfe'; // Primary light color - will be replaced with Tailwind classes
+	let commentColor = '#a29bfe'; // Primary light color
 	let hovered = false;
 
-	// Format date using date format cache to avoid repeated calculations
-	const dateFormatCache = new Map();
-	$: formattedDate = getFormattedDate(questionData.created_at, innerWidth);
+	// Use shared viewport store
+	$: innerWidth = $viewportWidth;
 
-	function getFormattedDate(dateString: string, width: number): string {
+	// Format date - use Intl.DateTimeFormat for efficiency
+	$: formattedDate = formatDate(questionData.created_at, innerWidth > 400);
+
+	function formatDate(dateString: string, showYear: boolean): string {
 		if (!dateString) return '';
-
-		const cacheKey = `${dateString}-${width > 400 ? 'large' : 'small'}`;
-		if (dateFormatCache.has(cacheKey)) {
-			return dateFormatCache.get(cacheKey);
-		}
-
 		const date = new Date(dateString);
 		const month = date.getUTCMonth() + 1;
 		const day = date.getUTCDate();
 		const year = date.getUTCFullYear();
-		const formatted = `${month}/${day}${width > 400 ? '/' + year : ''}`;
-
-		dateFormatCache.set(cacheKey, formatted);
-		return formatted;
+		return showYear ? `${month}/${day}/${year}` : `${month}/${day}`;
 	}
-
-	onMount(() => {
-		// Initialize width immediately to prevent layout shift
-		innerWidth = window.innerWidth;
-
-		// Use ResizeObserver for better performance
-		if (browser && 'ResizeObserver' in window) {
-			const resizeObserver = new ResizeObserver((entries) => {
-				// Throttled update
-				requestAnimationFrame(() => {
-					innerWidth = window.innerWidth;
-				});
-			});
-
-			resizeObserver.observe(document.documentElement);
-			return () => resizeObserver.disconnect();
-		} else {
-			// Fallback to throttled resize event
-			let resizeTimeout: ReturnType<typeof setTimeout>;
-			const handleResize = () => {
-				if (resizeTimeout) clearTimeout(resizeTimeout);
-				resizeTimeout = setTimeout(() => {
-					innerWidth = window.innerWidth;
-				}, 100);
-			};
-
-			window.addEventListener('resize', handleResize, { passive: true });
-			return () => {
-				if (resizeTimeout) clearTimeout(resizeTimeout);
-				window.removeEventListener('resize', handleResize);
-			};
-		}
-	});
 
 	// Precomputed question text for display
 	$: displayQuestion = questionData.question_formatted || questionData.question;

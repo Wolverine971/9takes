@@ -14,6 +14,7 @@
 	import Spinner from '$lib/components/atoms/Spinner.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import type { PageData } from './$types';
+	import type { QuestionWithTag, QuestionCategory } from '$lib/types/questions';
 
 	export let data: PageData;
 
@@ -35,18 +36,22 @@
 		? allQuestions.filter((q) => q.tag_id === selectedCategory)
 		: allQuestions;
 	$: displayedCategories =
-		data.subcategoryTags?.filter((cat) => allQuestions.some((q) => q.tag_id === cat.id)) || [];
+		data.subcategoryTags?.filter((cat: QuestionCategory) =>
+			allQuestions.some((q: QuestionWithTag) => q.tag_id === cat.id)
+		) || [];
 
 	// Animation settings
 	const transitionEnabled =
 		browser && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 	const duration = transitionEnabled ? 300 : 0;
 
-	function processQuestionsAndTags(questions) {
+	function processQuestionsAndTags(
+		questions: QuestionWithTag[]
+	): Record<string, QuestionWithTag[]> {
 		if (!questions || questions.length === 0) return {};
 
-		const grouped = {};
-		const seen = new Set();
+		const grouped: Record<string, QuestionWithTag[]> = {};
+		const seen = new Set<number>();
 
 		for (const question of questions) {
 			if (!seen.has(question.id)) {
@@ -106,8 +111,10 @@
 	}
 
 	// Helper to find category by slug
-	function findCategoryBySlug(slug: string) {
-		return displayedCategories.find((c) => toSlug(c.category_name) === slug.toLowerCase());
+	function findCategoryBySlug(slug: string): QuestionCategory | undefined {
+		return displayedCategories.find(
+			(c: QuestionCategory) => toSlug(c.category_name) === slug.toLowerCase()
+		);
 	}
 
 	async function filterByCategory(
@@ -454,8 +461,9 @@
 							All Questions
 						</button>
 						<h3 class="text-sm font-semibold text-neutral-800 sm:text-base">
-							{displayedCategories.find((c) => c.id === selectedCategory)?.category_name ||
-								'Category'}
+							{displayedCategories.find(
+								(c: QuestionCategory) => c.id === selectedCategory
+							)?.category_name || 'Category'}
 						</h3>
 						<span class="ml-auto text-xs text-neutral-500">
 							{filteredQuestions.length} question{filteredQuestions.length !== 1 ? 's' : ''}

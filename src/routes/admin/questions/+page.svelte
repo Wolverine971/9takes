@@ -48,7 +48,8 @@
 
 	// Stats
 	$: totalQuestions = data.questions?.length || 0;
-	$: totalComments = data.questions?.reduce((sum: number, q: any) => sum + (q.comment_count || 0), 0) || 0;
+	$: totalComments =
+		data.questions?.reduce((sum: number, q: any) => sum + (q.comment_count || 0), 0) || 0;
 	$: flaggedCount = data.questions?.filter((q: any) => q.flagged).length || 0;
 	$: removedCount = data.questions?.filter((q: any) => q.removed).length || 0;
 
@@ -101,9 +102,7 @@
 	<header class="page-header">
 		<div class="header-content">
 			<h1 class="page-title">Questions</h1>
-			<a href="/admin/questions/hierarchy" class="hierarchy-btn">
-				View Hierarchy
-			</a>
+			<a href="/admin/questions/hierarchy" class="hierarchy-btn"> View Hierarchy </a>
 		</div>
 	</header>
 
@@ -223,7 +222,11 @@
 								<a href="/questions/{question.url}" class="action-btn view" target="_blank">
 									View
 								</a>
-								<button type="button" class="action-btn details" on:click={() => openModal(question)}>
+								<button
+									type="button"
+									class="action-btn details"
+									on:click={() => openModal(question)}
+								>
 									Details
 								</button>
 							</div>

@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import QRCode from 'qrcode';
+	import { viewportWidth } from '$lib/stores/viewport';
 
 	export let question: {
 		id: string;
@@ -11,8 +12,10 @@
 	};
 	export let addQuestionMark = false;
 
-	let innerWidth = 0;
 	let qrCodeUrl = '';
+
+	// Use shared viewport store
+	$: innerWidth = $viewportWidth;
 
 	// QR Code options
 	const QR_OPTS = {
@@ -146,7 +149,6 @@
 
 	// Generate QR code on mount
 	onMount(() => {
-		innerWidth = window.innerWidth;
 		if (question.url) {
 			QRCode.toDataURL(`https://9takes.com/questions/${question.url}`, QR_OPTS)
 				.then((url) => (qrCodeUrl = url))
@@ -154,8 +156,6 @@
 		}
 	});
 </script>
-
-<svelte:window bind:innerWidth />
 
 <div class="relative overflow-hidden rounded-xl border border-neutral-200 bg-white p-8 sm:p-6">
 	<h1

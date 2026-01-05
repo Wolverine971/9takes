@@ -14,19 +14,31 @@
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
 	import SettingsIcon from '$lib/components/icons/settingsIcon.svelte';
+	import type {
+		User,
+		Comment as CommentType,
+		CommentLike,
+		QuestionPageData
+	} from '$lib/types/questions';
+	import { viewportWidth } from '$lib/stores/viewport';
 
-	const dispatch = createEventDispatcher();
+	const dispatch = createEventDispatcher<{
+		commentAdded: CommentType;
+		commentUpdated: CommentType;
+	}>();
 
-	export let user: any;
-	export let comment: any;
-	export let parentData: any;
+	export let user: User | null;
+	export let comment: CommentType;
+	export let parentData: QuestionPageData;
 	export let questionId: number;
 
 	// State variables
-	let likes: any[] = [];
+	let likes: CommentLike[] = [];
 	let loadingComments = false;
 	let loading = false;
-	let innerWidth = 0;
+
+	// Use shared viewport store
+	$: innerWidth = $viewportWidth;
 	let newcomment = '';
 	let commenting = false;
 	let anonymousComment = false;
@@ -36,6 +48,9 @@
 	let isHovered = false;
 	let isExpanded = false;
 	let flagError = '';
+
+	// Constants
+	const COMMENT_TRUNCATE_LENGTH = 136;
 
 	// Create a deep copy of the comment to avoid mutation issues
 	$: _commentComment = comment ? structuredClone(comment) : null;
@@ -57,9 +72,10 @@
 		commentEdit = _commentComment.comment;
 	}
 
-	// Check if comment needs to be truncated
+	// Check if comment needs to be truncated (either exceeds length limit or contains newlines)
 	$: shouldTruncate =
-		_commentComment?.comment?.length > 136 || _commentComment?.comment?.includes('\n');
+		(_commentComment?.comment?.length ?? 0) > COMMENT_TRUNCATE_LENGTH ||
+		_commentComment?.comment?.includes('\n');
 
 	// Handle comment expansion
 	function toggleExpandText() {
@@ -335,25 +351,7 @@
 			loading = false;
 		}
 	}
-
-	// Initialize on mount
-	onMount(() => {
-		innerWidth = window.innerWidth;
-
-		// Add resize event listener
-		const handleResize = () => {
-			innerWidth = window.innerWidth;
-		};
-
-		window.addEventListener('resize', handleResize);
-
-		return () => {
-			window.removeEventListener('resize', handleResize);
-		};
-	});
 </script>
-
-<svelte:window bind:innerWidth />
 
 {#if _commentComment}
 	<div
@@ -425,9 +423,17 @@
 					</div>
 
 					<!-- Interaction Buttons -->
-					<div class="-ml-2 -mr-2 flex items-center gap-1">
+					<div
+						class="-ml-2 -mr-2 flex items-center gap-1"
+						role="group"
+						aria-label="Comment actions"
+					>
 						<button
 							title={likes.some((e) => e.user_id === user?.id) ? 'Unlike' : 'Like'}
+							aria-label={likes.some((e) => e.user_id === user?.id)
+								? `Unlike this comment (${likes.length} likes)`
+								: `Like this comment${likes.length > 0 ? ` (${likes.length} likes)` : ''}`}
+							aria-pressed={likes.some((e) => e.user_id === user?.id)}
 							class="flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm transition-all duration-200 {likes.some(
 								(e) => e.user_id === user?.id
 							)
@@ -446,7 +452,9 @@
 						</button>
 
 						<button
-							title="Reply"
+							title="Reply to this comment"
+							aria-label={commenting ? 'Hide reply form' : 'Reply to this comment'}
+							aria-expanded={commenting}
 							class="flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm text-neutral-600 transition-all duration-200 hover:bg-neutral-50"
 							on:click={() => (commenting = !commenting)}
 						>
@@ -627,78 +635,113 @@
 
 <!-- Flag Comment Modal -->
 <Modal2 id={`flag-comment-modal-${_commentComment?.id}`}>
-	<div class="w-full max-w-lg rounded-lg bg-white p-6 shadow-lg">
-		<h2 class="mb-5 mt-0 text-xl text-neutral-900">Flag Comment</h2>
-		<div class="mb-6">
-			{#if flagError}
-				<div class="mb-4 rounded border-l-4 border-error-500 bg-error-50 p-2 text-error-700">
-					{flagError}
-				</div>
-			{/if}
-
-			{#if parentData?.flagReasons?.length > 0}
-				<div class="mb-4">
-					<label for="flag-reason" class="mb-2 block font-medium text-neutral-900">
-						Reason <span class="text-error-500">*</span>
-					</label>
-					<select
-						id="flag-reason"
-						bind:value={flaggingReasonId}
-						class="font-inherit w-full rounded border border-neutral-400 p-3 text-sm {flagError &&
-						!flaggingReasonId
-							? 'border-error-500'
-							: ''} focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)] focus:outline-none"
-					>
-						<option value="" disabled selected>Select a reason</option>
-						{#each parentData.flagReasons as reason}
-							<option value={reason.id}>{reason.reason}</option>
-						{/each}
-					</select>
-					{#if flagError && !flaggingReasonId}
-						<div class="mt-1 text-xs text-error-500">Please select a reason</div>
-					{/if}
-				</div>
-			{:else}
-				<div class="mb-4 rounded border-l-4 border-info-500 bg-info-50 p-2 text-info-700">
-					No flag reasons available. Please contact an administrator.
-				</div>
-			{/if}
-
-			<div class="mb-4">
-				<label for="flag-description" class="mb-2 block font-medium text-neutral-900"
-					>Description</label
-				>
-				<textarea
-					id="flag-description"
-					rows="4"
-					bind:value={flaggingReasonDescription}
-					class="font-inherit min-h-[100px] w-full resize-y rounded border border-neutral-400 p-3 text-sm focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)] focus:outline-none"
-					placeholder="Please provide details about why you're flagging this comment..."
-				></textarea>
-			</div>
-		</div>
-		<div class="flex justify-end gap-3 sm:flex-col">
-			<button
-				class="cursor-pointer rounded border border-neutral-400 bg-transparent px-5 py-3 font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
-				type="button"
-				on:click={closeFlagModal}
-			>
-				Cancel
-			</button>
-			<button
-				class="flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-5 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-70"
-				type="button"
-				on:click={submitFlag}
-				disabled={loading || !flaggingReasonId || !parentData?.flagReasons?.length}
-			>
-				{#if loading}
+	<div
+		class="w-full max-w-lg rounded-lg bg-white p-6 shadow-lg"
+		role="dialog"
+		aria-labelledby={`flag-modal-title-${_commentComment?.id}`}
+	>
+		<h2 id={`flag-modal-title-${_commentComment?.id}`} class="mb-5 mt-0 text-xl text-neutral-900">
+			Flag Comment
+		</h2>
+		<form on:submit|preventDefault={submitFlag} novalidate>
+			<fieldset disabled={loading} class="m-0 border-0 p-0">
+				{#if flagError}
 					<div
-						class="h-5 w-5 animate-spin rounded-full border-2 border-primary-200 border-t-white"
-					></div>
-				{:else}
-					Submit
+						class="mb-4 rounded border-l-4 border-error-500 bg-error-50 p-2 text-error-700"
+						role="alert"
+					>
+						{flagError}
+					</div>
 				{/if}
-			</button>
-		</div>
+
+				{#if parentData?.flagReasons?.length > 0}
+					<div class="mb-4">
+						<label
+							for={`flag-reason-${_commentComment?.id}`}
+							class="mb-2 block font-medium text-neutral-900"
+						>
+							Reason <span class="text-error-500" aria-hidden="true">*</span>
+							<span class="sr-only">(required)</span>
+						</label>
+						<select
+							id={`flag-reason-${_commentComment?.id}`}
+							bind:value={flaggingReasonId}
+							required
+							aria-required="true"
+							aria-invalid={flagError && !flaggingReasonId ? 'true' : undefined}
+							aria-describedby={flagError && !flaggingReasonId
+								? `flag-reason-error-${_commentComment?.id}`
+								: undefined}
+							class="font-inherit w-full rounded border border-neutral-400 p-3 text-sm {flagError &&
+							!flaggingReasonId
+								? 'border-error-500'
+								: ''} focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)] focus:outline-none"
+						>
+							<option value="" disabled selected>Select a reason</option>
+							{#each parentData.flagReasons as reason}
+								<option value={reason.id}>{reason.reason}</option>
+							{/each}
+						</select>
+						{#if flagError && !flaggingReasonId}
+							<div
+								id={`flag-reason-error-${_commentComment?.id}`}
+								class="mt-1 text-xs text-error-500"
+								role="alert"
+							>
+								Please select a reason
+							</div>
+						{/if}
+					</div>
+				{:else}
+					<div
+						class="mb-4 rounded border-l-4 border-info-500 bg-info-50 p-2 text-info-700"
+						role="status"
+					>
+						No flag reasons available. Please contact an administrator.
+					</div>
+				{/if}
+
+				<div class="mb-4">
+					<label
+						for={`flag-description-${_commentComment?.id}`}
+						class="mb-2 block font-medium text-neutral-900"
+					>
+						Description <span class="text-sm font-normal text-neutral-500">(optional)</span>
+					</label>
+					<textarea
+						id={`flag-description-${_commentComment?.id}`}
+						rows="4"
+						bind:value={flaggingReasonDescription}
+						class="font-inherit min-h-[100px] w-full resize-y rounded border border-neutral-400 p-3 text-sm focus:border-primary-500 focus:shadow-[0_0_0_2px_rgba(140,122,230,0.1)] focus:outline-none"
+						placeholder="Please provide details about why you're flagging this comment..."
+					></textarea>
+				</div>
+			</fieldset>
+			<div class="mt-6 flex justify-end gap-3 sm:flex-col">
+				<button
+					class="cursor-pointer rounded border border-neutral-400 bg-transparent px-5 py-3 font-medium text-neutral-600 transition-all duration-200 hover:bg-neutral-100 hover:text-neutral-900"
+					type="button"
+					on:click={closeFlagModal}
+				>
+					Cancel
+				</button>
+				<button
+					class="flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-5 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-70"
+					type="submit"
+					disabled={loading || !flaggingReasonId || !parentData?.flagReasons?.length}
+					aria-busy={loading}
+				>
+					{#if loading}
+						<div
+							class="h-5 w-5 animate-spin rounded-full border-2 border-primary-200 border-t-white"
+							aria-hidden="true"
+						></div>
+						<span class="sr-only">Submitting...</span>
+					{:else}
+						Submit
+					{/if}
+				</button>
+			</div>
+		</form>
 	</div>
 </Modal2>

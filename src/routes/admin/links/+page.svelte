@@ -75,9 +75,7 @@
 					<span>Count:</span>
 					<input type="number" bind:value={numberOfQRCodes} min="1" max="50" />
 				</label>
-				<button class="btn btn-secondary" on:click={regenerateQRCodes}>
-					Regenerate
-				</button>
+				<button class="btn btn-secondary" on:click={regenerateQRCodes}> Regenerate </button>
 				<button class="btn btn-primary" on:click={() => (showPrintView = !showPrintView)}>
 					{showPrintView ? 'Grid View' : 'Print View'}
 				</button>

@@ -362,63 +362,66 @@
 					Each personality type sees different details. Learn their patterns—decode people faster.
 				</p>
 
-				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:gap-6">
+				<div class="grid grid-cols-3 gap-2 md:gap-6">
 					{#each famousByType as person, i}
 						{#if person}
 							<a href={`/personality-analysis/${person.name}`} class="group">
 								<div
-									class="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+									class="flex h-full flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-300 active:scale-95 md:rounded-xl md:hover:-translate-y-1 md:hover:shadow-md"
 								>
-									<div class="relative flex items-center justify-center overflow-hidden p-4">
+									<div class="relative flex items-center justify-center p-2 md:p-4">
+										<!-- Desktop pill - hidden on mobile -->
 										<div
-											class="absolute left-0 top-0 z-10 m-3 rounded-full bg-primary-700 px-3 py-1 text-xs font-bold text-white"
+											class="desktop-only absolute left-0 top-0 z-10 m-3 rounded-full bg-primary-700 px-3 py-1 text-xs font-bold text-white"
 										>
 											Type {i + 1}
 										</div>
-										<div
-											class="relative h-48 w-48 overflow-hidden rounded-full border-4 border-primary-100"
-										>
-											<img
-												src={person.image || `/types/${i + 1}s/s-${person.name}.webp`}
-												alt={person.name}
-												class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-												loading={i < 3 ? 'eager' : 'lazy'}
-												decoding="async"
-												width="192"
-												height="192"
-											/>
+										<div class="relative">
+											<div class="h-20 w-20 overflow-hidden rounded-full border-2 border-primary-100 md:h-48 md:w-48 md:border-4">
+												<img
+													src={person.image || `/types/${i + 1}s/s-${person.name}.webp`}
+													alt={person.name}
+													class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+													loading={i < 3 ? 'eager' : 'lazy'}
+													decoding="async"
+												/>
+											</div>
+											<!-- Mobile type badge - outside overflow-hidden -->
+											<div
+												class="mobile-only absolute bottom-0 right-0 z-10 h-5 w-5 items-center justify-center rounded-full bg-primary-700 text-[10px] font-bold text-white"
+											>
+												{i + 1}
+											</div>
 										</div>
 									</div>
-									<div class="flex flex-1 flex-col justify-between p-4 text-center">
-										<h3 class="mb-2 text-lg font-bold text-primary-800">{enneagramTypes[i + 1]}</h3>
-										<p class="text-sm text-gray-600">{person.name.split('-').join(' ')}</p>
+									<div class="px-1 pb-2 text-center md:flex-1 md:p-4">
+										<h3 class="desktop-only text-lg font-bold text-primary-800 md:mb-2">{enneagramTypes[i + 1]}</h3>
+										<p class="text-xs font-semibold leading-tight text-gray-800 md:text-sm md:font-normal md:text-gray-600">
+											{person.name.split('-').join(' ')}
+										</p>
 									</div>
 								</div>
 							</a>
 						{:else}
 							<a href={`/types/${i + 1}`} class="group">
 								<div
-									class="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+									class="flex h-full flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-300 active:scale-95 md:rounded-xl md:hover:-translate-y-1 md:hover:shadow-md"
 								>
-									<div class="relative flex items-center justify-center overflow-hidden p-4">
+									<div class="relative flex items-center justify-center p-2 md:p-4">
+										<!-- Desktop pill -->
 										<div
-											class="absolute left-0 top-0 z-10 m-3 rounded-full bg-primary-700 px-3 py-1 text-xs font-bold text-white"
+											class="desktop-only absolute left-0 top-0 z-10 m-3 rounded-full bg-primary-700 px-3 py-1 text-xs font-bold text-white"
 										>
 											Type {i + 1}
 										</div>
-										<div
-											class="relative h-48 w-48 overflow-hidden rounded-full border-4 border-primary-100 bg-gray-100"
-										>
-											<div
-												class="flex h-full w-full items-center justify-center text-4xl text-gray-400"
-											>
-												{i + 1}
-											</div>
+										<div class="relative flex h-20 w-20 items-center justify-center overflow-hidden rounded-full border-2 border-primary-100 bg-gray-100 md:h-48 md:w-48 md:border-4">
+											<span class="text-2xl font-bold text-primary-700 md:text-4xl md:text-gray-400">{i + 1}</span>
 										</div>
 									</div>
-									<div class="flex flex-1 flex-col justify-between p-4 text-center">
-										<h3 class="mb-2 text-lg font-bold text-primary-800">{enneagramTypes[i + 1]}</h3>
-										<p class="text-sm text-gray-600">Explore this lens</p>
+									<div class="px-1 pb-2 text-center md:flex-1 md:p-4">
+										<h3 class="desktop-only text-lg font-bold text-primary-800 md:mb-2">{enneagramTypes[i + 1]}</h3>
+										<p class="mobile-only text-xs font-semibold leading-tight text-gray-600">Type {i + 1}</p>
+										<p class="desktop-only text-sm text-gray-600">Explore this lens</p>
 									</div>
 								</div>
 							</a>
@@ -460,35 +463,31 @@
 					Perspective gains are earned, not scrolled. It takes effort to digest a new perspective.
 				</p>
 
-				<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+				<div class="grid grid-cols-2 gap-3 md:gap-6">
 					{#each featuredArticles as article}
 						<a href={article.url} class="group">
 							<div
-								class="h-full overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+								class="h-full overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-300 active:scale-95 md:rounded-xl md:hover:-translate-y-1 md:hover:shadow-md"
 							>
-								<div class="h-48 overflow-hidden">
-									<div class="relative h-full w-full overflow-hidden">
-										<img
-											src={article.image}
-											alt={article.title}
-											class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-											loading="lazy"
-											decoding="async"
-											width="400"
-											height="192"
-										/>
-										<div
-											class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-										></div>
-									</div>
+								<div class="relative aspect-[4/3] overflow-hidden md:aspect-auto md:h-48">
+									<img
+										src={article.image}
+										alt={article.title}
+										class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+										loading="lazy"
+										decoding="async"
+									/>
+									<div
+										class="desktop-only absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+									></div>
 								</div>
-								<div class="p-4">
+								<div class="p-2 md:p-4">
 									<h3
-										class="mb-2 text-lg font-bold transition-colors duration-300 group-hover:text-primary-700"
+										class="line-clamp-2 text-sm font-bold leading-tight text-gray-800 transition-colors duration-300 group-hover:text-primary-700 md:mb-2 md:text-lg md:leading-normal"
 									>
 										{article.title}
 									</h3>
-									<p class="line-clamp-2 text-sm text-gray-600">{article.excerpt}</p>
+									<p class="desktop-only line-clamp-2 text-sm text-gray-600">{article.excerpt}</p>
 								</div>
 							</div>
 						</a>
@@ -641,6 +640,24 @@
 		* {
 			transition-duration: 0.001ms !important;
 			animation-duration: 0.001ms !important;
+		}
+	}
+	/* Responsive visibility helpers */
+	.desktop-only {
+		display: none !important;
+	}
+	.mobile-only {
+		display: flex !important;
+	}
+	@media (min-width: 768px) {
+		.desktop-only {
+			display: block !important;
+		}
+		.desktop-only-flex {
+			display: flex !important;
+		}
+		.mobile-only {
+			display: none !important;
 		}
 	}
 </style>

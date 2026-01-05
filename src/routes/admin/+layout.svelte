@@ -42,7 +42,8 @@
 	}
 
 	// Get current page label for mobile header
-	$: currentPageLabel = navItems.find(item => isActive(item, $page.url.pathname))?.label || 'Admin';
+	$: currentPageLabel =
+		navItems.find((item) => isActive(item, $page.url.pathname))?.label || 'Admin';
 </script>
 
 {#if data.user?.admin}
@@ -83,7 +84,8 @@
 
 		<!-- Overlay for mobile menu -->
 		{#if mobileMenuOpen}
-			<button class="menu-overlay" on:click={() => mobileMenuOpen = false} aria-label="Close menu"></button>
+			<button class="menu-overlay" on:click={() => (mobileMenuOpen = false)} aria-label="Close menu"
+			></button>
 		{/if}
 
 		<!-- Main Content Area -->
@@ -165,9 +167,16 @@
 		position: absolute;
 	}
 
-	.hamburger span:nth-child(1) { top: 0; }
-	.hamburger span:nth-child(2) { top: 50%; transform: translateY(-50%); }
-	.hamburger span:nth-child(3) { bottom: 0; }
+	.hamburger span:nth-child(1) {
+		top: 0;
+	}
+	.hamburger span:nth-child(2) {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.hamburger span:nth-child(3) {
+		bottom: 0;
+	}
 
 	.hamburger.open span:nth-child(1) {
 		top: 50%;

@@ -45,7 +45,12 @@
 	};
 </script>
 
-<svelte:element this={href ? 'a' : 'div'} class="stat-card {colorClasses[color]}" class:clickable={href} {href}>
+<svelte:element
+	this={href ? 'a' : 'div'}
+	class="stat-card {colorClasses[color]}"
+	class:clickable={href}
+	{href}
+>
 	<div class="stat-content">
 		<div class="stat-header">
 			{#if icon}
@@ -54,7 +59,9 @@
 			<span class="stat-label">{label}</span>
 		</div>
 		<div class="stat-body">
-			<span class="stat-value" class:animate={mounted}>{typeof value === 'number' ? value.toLocaleString() : value}</span>
+			<span class="stat-value" class:animate={mounted}
+				>{typeof value === 'number' ? value.toLocaleString() : value}</span
+			>
 			{#if trend}
 				<span class="stat-trend" class:up={trend === 'up'} class:down={trend === 'down'}>
 					{trend === 'up' ? '↑' : trend === 'down' ? '↓' : '→'}

@@ -106,7 +106,11 @@
 			.attr('x2', '0%')
 			.attr('y2', '100%');
 
-		gradient.append('stop').attr('offset', '0%').attr('stop-color', color).attr('stop-opacity', 0.3);
+		gradient
+			.append('stop')
+			.attr('offset', '0%')
+			.attr('stop-color', color)
+			.attr('stop-opacity', 0.3);
 
 		gradient
 			.append('stop')
@@ -115,7 +119,13 @@
 			.attr('stop-opacity', 0.02);
 
 		// Add glow filter for points
-		const filter = defs.append('filter').attr('id', 'glow').attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
+		const filter = defs
+			.append('filter')
+			.attr('id', 'glow')
+			.attr('x', '-50%')
+			.attr('y', '-50%')
+			.attr('width', '200%')
+			.attr('height', '200%');
 		filter.append('feGaussianBlur').attr('stdDeviation', '2').attr('result', 'coloredBlur');
 		const feMerge = filter.append('feMerge');
 		feMerge.append('feMergeNode').attr('in', 'coloredBlur');
@@ -216,7 +226,10 @@
 
 		// Add X axis
 		const xAxis = isDateScale
-			? d3.axisBottom(xScale as d3.ScaleTime<number, number>).tickFormat((d) => d3.timeFormat('%b %d')(d as Date)).ticks(6)
+			? d3
+					.axisBottom(xScale as d3.ScaleTime<number, number>)
+					.tickFormat((d) => d3.timeFormat('%b %d')(d as Date))
+					.ticks(6)
 			: d3.axisBottom(xScale as d3.ScaleLinear<number, number>).tickFormat(d3.format('.0f'));
 
 		g.append('g')
@@ -338,7 +351,12 @@
 				const xPos = xScale(isDateScale ? new Date(d.x) : d.x);
 				const yPos = yScale(d.y);
 
-				focusLine.attr('x1', xPos).attr('x2', xPos).attr('y1', 0).attr('y2', chartHeight).style('opacity', 0.5);
+				focusLine
+					.attr('x1', xPos)
+					.attr('x2', xPos)
+					.attr('y1', 0)
+					.attr('y2', chartHeight)
+					.style('opacity', 0.5);
 
 				focusCircle.attr('cx', xPos).attr('cy', yPos).style('opacity', 1);
 
@@ -380,7 +398,11 @@
 					<h3 class="chart-title">{title}</h3>
 				{/if}
 				{#if showTrend && trend.direction !== 'flat'}
-					<div class="trend-badge" class:up={trend.direction === 'up'} class:down={trend.direction === 'down'}>
+					<div
+						class="trend-badge"
+						class:up={trend.direction === 'up'}
+						class:down={trend.direction === 'down'}
+					>
 						<span class="trend-icon">{trend.direction === 'up' ? '↑' : '↓'}</span>
 						<span class="trend-value">{trend.change}%</span>
 						<span class="trend-label">vs prev 7d</span>

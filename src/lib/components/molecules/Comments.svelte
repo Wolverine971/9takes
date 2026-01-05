@@ -7,22 +7,26 @@
 	import SkeletonLoader from '../atoms/SkeletonLoader.svelte';
 	import Spinner from '../atoms/Spinner.svelte';
 	import { debounce } from '../../utils/debounce';
+	import type { User, Comment as CommentType, QuestionPageData } from '$lib/types/questions';
 
-	const dispatch = createEventDispatcher();
+	const dispatch = createEventDispatcher<{
+		commentAdded: void;
+	}>();
 
-	export let parentType: string = 'comment';
-	export let user: any;
+	export let parentType: 'question' | 'comment' = 'comment';
+	export let user: User | null;
 	export let questionId: number;
-	export let comments: any[] = [];
+	export let comments: CommentType[] = [];
 	export let comment_count: number = 0;
-	export let parentData: any;
+	export let parentData: QuestionPageData | CommentType;
 	export let key: number = 0; // Used to force re-render
+	export let onCommentsUpdate: ((comments: CommentType[]) => void) | undefined = undefined;
 
 	// Track the date of last comment for pagination
 	$: lastDate = comments?.length ? comments[comments.length - 1]?.created_at || null : null;
 
 	// Create a reactive deep copy to avoid mutation issues
-	$: _comments = comments ? JSON.parse(JSON.stringify(comments)) : [];
+	$: _comments = comments ? (JSON.parse(JSON.stringify(comments)) as CommentType[]) : [];
 
 	let loading = false;
 	let initialLoading = false;

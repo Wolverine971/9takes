@@ -1,41 +1,35 @@
 // src/routes/questions/[slug]/+page.server.ts
 import { supabase } from '$lib/supabase';
 
-import type { Actions } from './$types';
+import type { Actions, PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/server/elasticSearch';
 import { decode } from 'base64-arraybuffer';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
-import { z } from 'zod';
+import { createCommentSchema, flagCommentSchema } from '$lib/validation/questionSchemas';
 
 import axios from 'axios';
 import { load as cheerioLoad } from 'cheerio';
 
 // =============================================================================
-// Validation Schemas
+// Constants
 // =============================================================================
-const commentSchema = z.object({
-	comment: z
-		.string()
-		.min(1, 'Comment cannot be empty')
-		.max(5000, 'Comment cannot exceed 5000 characters')
-		.trim(),
-	parent_id: z.string().regex(/^\d+$/, 'Invalid parent ID'),
-	parent_type: z.enum(['question', 'comment']),
-	author_id: z.string().optional(),
-	es_id: z.string().optional(),
-	question_id: z.string().regex(/^\d+$/, 'Invalid question ID'),
-	fingerprint: z.string().max(100).optional()
-});
-
 // Rate limit configuration: 5 comments per minute
 const RATE_LIMIT_MAX_COMMENTS = 5;
 const RATE_LIMIT_WINDOW_SECONDS = 60;
 
-/** @type {import('./$types').PageLoad} */
-export const load: PageLoad = async (event) => {
+// Pagination defaults
+const DEFAULT_COMMENTS_LIMIT = 10;
+const DEFAULT_LINKS_LIMIT = 10;
+
+// Request timeout for external fetches (ms)
+const EXTERNAL_FETCH_TIMEOUT = 5000;
+const MAX_CONTENT_LENGTH = 1024 * 1024; // 1MB
+const MAX_REDIRECTS = 3;
+
+export const load: PageServerLoad = async (event) => {
 	const { demo_time } = await event.parent();
 	const session = event.locals.session;
 	const cookie = event.cookies.get('9tfingerprint');
@@ -98,7 +92,7 @@ export const actions: Actions = {
 		const ip = getClientAddress();
 
 		// Validate input
-		const validationResult = commentSchema.safeParse(body);
+		const validationResult = createCommentSchema.safeParse(body);
 		if (!validationResult.success) {
 			const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
 			throw error(400, { message: firstError });
@@ -123,7 +117,7 @@ export const actions: Actions = {
 		const ip = getClientAddress();
 
 		// Validate input
-		const validationResult = commentSchema.safeParse(body);
+		const validationResult = createCommentSchema.safeParse(body);
 		if (!validationResult.success) {
 			const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
 			throw error(400, { message: firstError });
@@ -192,8 +186,19 @@ export const actions: Actions = {
 			throw error(401, 'Unauthorized');
 		}
 
-		const { comment_id, description } = Object.fromEntries(await request.formData());
-		await flagComment(session.user.id, comment_id as string, description as string);
+		const body = Object.fromEntries(await request.formData());
+
+		// Validate input
+		const validationResult = flagCommentSchema.safeParse(body);
+		if (!validationResult.success) {
+			const firstError = validationResult.error.errors[0]?.message || 'Invalid flag data';
+			throw error(400, { message: firstError });
+		}
+
+		const { comment_id, reason_id, description } = validationResult.data;
+		await flagComment(session.user.id, comment_id, reason_id, description || '');
+
+		return { success: true };
 	},
 
 	updateQuestionImg: async ({ request }) => {
@@ -204,7 +209,12 @@ export const actions: Actions = {
 	}
 };
 
-async function getRequestData(request: Request) {
+interface RequestData {
+	body: Record<string, FormDataEntryValue>;
+	demo_time: boolean;
+}
+
+async function getRequestData(request: Request): Promise<RequestData> {
 	const body = Object.fromEntries(await request.formData());
 	const demo_time = await checkDemoTime();
 	return { body, demo_time };
@@ -237,11 +247,33 @@ async function checkRateLimit(fingerprint: string | undefined, ip: string): Prom
 	}
 }
 
-async function createCommentData(body: any, ip: string, demo_time: boolean) {
-	const { question_id, comment, parent_id, author_id, parent_type, es_id, fingerprint } = body;
+interface CommentData {
+	comment: string;
+	parent_id: number;
+	author_id: string | null;
+	comment_count: number;
+	ip: string;
+	parent_type: string;
+	es_id: string | null;
+	fingerprint: string | null;
+}
+
+async function createCommentData(
+	body: Record<string, FormDataEntryValue>,
+	ip: string,
+	demo_time: boolean
+): Promise<CommentData> {
+	const question_id = body.question_id as string;
+	const comment = body.comment as string;
+	const parent_id = body.parent_id as string;
+	const author_id = body.author_id as string;
+	const parent_type = body.parent_type as string;
+	const es_id = body.es_id as string;
+	const fingerprint = body.fingerprint as string;
+
 	await parseUrls(comment, question_id);
 
-	let esId = null;
+	let esId: string | null = null;
 	if (!demo_time) {
 		esId = await createESComment(parent_type, es_id, author_id, comment, ip);
 	}
@@ -254,7 +286,7 @@ async function createCommentData(body: any, ip: string, demo_time: boolean) {
 		ip,
 		parent_type,
 		es_id: esId,
-		fingerprint
+		fingerprint: fingerprint || null
 	};
 }
 
@@ -264,9 +296,9 @@ async function createESComment(
 	author_id: string,
 	comment: string,
 	ip: string
-) {
+): Promise<string | null> {
 	try {
-		const resp: any = await addESComment({
+		const resp = await addESComment({
 			index: parent_type,
 			parentId: es_id,
 			enneaType: '',
@@ -274,14 +306,18 @@ async function createESComment(
 			comment,
 			ip
 		});
-		return resp._id;
+		return (resp as { _id: string })._id;
 	} catch (error) {
 		console.error('Error creating ES comment:', error);
 		return null;
 	}
 }
 
-async function handleCommentCreation(commentData: any, parent_type: string, demo_time: boolean) {
+async function handleCommentCreation(
+	commentData: CommentData,
+	parent_type: string,
+	demo_time: boolean
+): Promise<unknown> {
 	// For demo mode, use regular insert (demo tables don't have the atomic RPC)
 	if (demo_time) {
 		const { data: record, error: addCommentError } = await supabase
@@ -390,10 +426,18 @@ async function incrementLinkClicks(linkId: string) {
 	}
 }
 
-async function flagComment(userId: string, commentId: string, description: string) {
-	const { error: flagCommentError } = await supabase
-		.from('flagged_comments')
-		.insert({ flagged_by: userId, comment_id: commentId, description });
+async function flagComment(
+	userId: string,
+	commentId: string,
+	reasonId: string,
+	description: string
+) {
+	const { error: flagCommentError } = await supabase.from('flagged_comments').insert({
+		flagged_by: userId,
+		comment_id: parseInt(commentId),
+		reason_id: parseInt(reasonId),
+		description: description || null
+	});
 
 	if (flagCommentError) {
 		console.error(flagCommentError);
@@ -466,9 +510,9 @@ async function fetchOGData(url: string): Promise<OGData> {
 		}
 
 		const response = await axios.get(url, {
-			timeout: 5000,
-			maxContentLength: 1024 * 1024, // 1MB limit
-			maxRedirects: 3,
+			timeout: EXTERNAL_FETCH_TIMEOUT,
+			maxContentLength: MAX_CONTENT_LENGTH,
+			maxRedirects: MAX_REDIRECTS,
 			headers: {
 				'User-Agent': '9takes-bot/1.0'
 			}
@@ -603,7 +647,7 @@ async function getComments(questionId: number, demo_time: boolean, removed: bool
 		.eq('parent_id', questionId)
 		.eq('parent_type', 'question')
 		.eq('removed', removed)
-		.limit(10)
+		.limit(DEFAULT_COMMENTS_LIMIT)
 		.order('created_at', { ascending: false });
 
 	if (error) {
@@ -617,7 +661,7 @@ async function getQuestionLinks(questionId: number) {
 		.from('links')
 		.select(`*`, { count: 'exact' })
 		.eq('question_id', questionId)
-		.limit(10);
+		.limit(DEFAULT_LINKS_LIMIT);
 
 	if (error) {
 		console.log('No links for question', error);

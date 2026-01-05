@@ -8,26 +8,39 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import type {
+		User,
+		Comment as CommentType,
+		CommentLike,
+		Subscription,
+		QuestionPageData
+	} from '$lib/types/questions';
+	import { viewportWidth } from '$lib/stores/viewport';
 
 	// Component props
-	export let parentType: string;
-	export let data: any;
-	export let user: any;
+	export let parentType: 'question' | 'comment';
+	export let data: QuestionPageData;
+	export let user: User | null;
 	export let questionId: number;
 	export let qrCodeUrl: string;
 	export let qrCodeSize: string;
 
-	const dispatch = createEventDispatcher();
+	const dispatch = createEventDispatcher<{
+		commentAdded: CommentType;
+	}>();
 
 	// State variables
-	let likes: any[] = [];
-	let subscriptions: any[] = [];
+	let likes: CommentLike[] = [];
+	let subscriptions: Subscription[] = [];
 	let comment: string = '';
 	let commenting: boolean = false;
 	let loading: boolean = false;
+	let subscriptionLoading: boolean = false;
 	let anonymousComment = false;
-	let innerWidth: number = 0;
 	let textareaHeight = 'auto';
+
+	// Use shared viewport store
+	$: innerWidth = $viewportWidth;
 
 	// Reactive statements
 	$: {
@@ -139,6 +152,8 @@
 		const isSubscribed = subscriptions.some((e) => e.user_id === user.id);
 		const operation = isSubscribed ? 'remove' : 'add';
 
+		subscriptionLoading = true;
+
 		try {
 			const body = new FormData();
 			body.append('parent_id', data.question.id);
@@ -162,6 +177,8 @@
 		} catch (error) {
 			console.error('Error toggling subscription:', error);
 			notifications.danger('Failed to update subscription', 3000);
+		} finally {
+			subscriptionLoading = false;
 		}
 	};
 
@@ -200,16 +217,12 @@
 
 	// Initialize on mount
 	onMount(() => {
-		innerWidth = window.innerWidth;
-
 		// Parse any escaped newlines in placeholders
 		document.querySelectorAll('textarea').forEach((elem) => {
 			elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
 		});
 	});
 </script>
-
-<svelte:window bind:innerWidth />
 
 <div class="my-4 flex flex-col gap-4">
 	<div class="flex flex-wrap gap-3">
@@ -231,15 +244,25 @@
 		{#if parentType === 'question'}
 			<button
 				title={subscriptions.some((e) => e.user_id === user?.id) ? 'Unsubscribe' : 'Subscribe'}
-				class="flex items-center justify-center gap-2 rounded-lg border px-5 py-2.5 text-sm font-medium transition-all duration-200 active:scale-[0.98] {subscriptions.some(
+				class="flex items-center justify-center gap-2 rounded-lg border px-5 py-2.5 text-sm font-medium transition-all duration-200 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 {subscriptions.some(
 					(e) => e.user_id === user?.id
 				)
 					? 'border-primary-500 bg-primary-50 text-primary-700 hover:bg-primary-100'
 					: 'border-neutral-300 bg-white text-neutral-700 hover:bg-neutral-50'}"
 				on:click={toggleSubscription}
-				aria-label={subscriptions.some((e) => e.user_id === user?.id) ? 'Unsubscribe' : 'Subscribe'}
+				disabled={subscriptionLoading}
+				aria-label={subscriptions.some((e) => e.user_id === user?.id)
+					? 'Unsubscribe from this question'
+					: 'Subscribe to this question'}
+				aria-busy={subscriptionLoading}
 			>
-				<BellIcon iconStyle={'padding: 0;'} height={'1.25rem'} fill={'currentColor'} />
+				{#if subscriptionLoading}
+					<div
+						class="border-current/30 h-5 w-5 animate-spin rounded-full border-2 border-t-current"
+					/>
+				{:else}
+					<BellIcon iconStyle={'padding: 0;'} height={'1.25rem'} fill={'currentColor'} />
+				{/if}
 				<span class="whitespace-nowrap">
 					{subscriptions.some((e) => e.user_id === user?.id) ? 'Subscribed' : 'Subscribe'}
 				</span>

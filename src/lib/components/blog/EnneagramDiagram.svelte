@@ -364,10 +364,10 @@
 						text-align: {labelPos.textAlign};
 						--label-color: {type.color};
 						transform: translate({labelPos.textAlign === 'center'
-							? '-50%'
-							: labelPos.textAlign === 'left'
-								? '0'
-								: '-100%'}, 0);
+						? '-50%'
+						: labelPos.textAlign === 'left'
+							? '0'
+							: '-100%'}, 0);
 					"
 				>
 					<span class="label-text">{type.name}</span>
@@ -468,7 +468,8 @@
 		text-decoration: none;
 		cursor: pointer;
 		transform: translate(-50%, -50%);
-		transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+		transition:
+			transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
 			box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 		box-shadow:
 			0 2px 8px rgba(0, 0, 0, 0.15),
@@ -520,7 +521,9 @@
 		position: absolute;
 		pointer-events: none;
 		max-width: 130px;
-		transition: opacity 0.25s ease, color 0.25s ease;
+		transition:
+			opacity 0.25s ease,
+			color 0.25s ease;
 
 		&.dimmed {
 			opacity: 0.35;

@@ -12,12 +12,16 @@ import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
 
 // Validation schemas
+// Character limit constants - must match frontend MAX_CHAR_COUNT
+const QUESTION_MIN_LENGTH = 10;
+const QUESTION_MAX_LENGTH = 280;
+
 const getUrlSchema = z.object({
-	question: z.string().min(10).max(500).trim()
+	question: z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH).trim()
 });
 
 const createQuestionSchema = z.object({
-	question: z.string().min(10).max(500).trim(),
+	question: z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH).trim(),
 	author_id: z.string().uuid(),
 	context: z.string().max(2000).optional().default(''),
 	url: z.string().min(1).max(200),
@@ -297,7 +301,6 @@ export const actions: Actions = {
 };
 
 const getUrlString = (unalteredText: string) => {
-	console.log('fix this'); // idk what is the problem, there may not be a problem
 	const text = unalteredText.trim();
 	let url = '';
 	const leftOver = removeStopwords(text.split(' '));

@@ -97,11 +97,8 @@
 	.cta-bg-pattern {
 		position: absolute;
 		inset: 0;
-		background-image: radial-gradient(
-				circle at 20% 80%,
-				rgba(255, 255, 255, 0.08) 0%,
-				transparent 50%
-			),
+		background-image:
+			radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.08) 0%, transparent 50%),
 			radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.06) 0%, transparent 40%);
 		pointer-events: none;
 	}

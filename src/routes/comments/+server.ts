@@ -156,15 +156,6 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			}
 		}
 
-		if (questionCommentsError) {
-			logger.error('Failed to retrieve comments', questionCommentsError);
-			throw error(500, 'Unable to retrieve comments');
-		}
-
-		if (!questionComments?.length) {
-			return json([]);
-		}
-
 		return json(questionComments);
 	} catch (e) {
 		if (e instanceof z.ZodError) {

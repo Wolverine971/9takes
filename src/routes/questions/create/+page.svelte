@@ -18,9 +18,9 @@
 	let loading = false;
 	let qrImageSrc = '';
 	let imgPreview = '';
-	let html2canvas: any;
+	let html2canvasModule: ((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>) | null = null;
 	let fontLoaded = false;
-	let resizeDebounceTimer: number;
+	let resizeDebounceTimer: ReturnType<typeof setTimeout>;
 
 	$: isQuestionValid = question.trim().length > 0 && question.length <= MAX_CHAR_COUNT;
 
@@ -94,9 +94,9 @@
 
 	async function generateQuestionImage(elementId: string): Promise<string> {
 		// Dynamically import html2canvas when needed
-		if (!html2canvas) {
-			const html2canvasModule = await import('html2canvas');
-			html2canvas = html2canvasModule.default;
+		if (!html2canvasModule) {
+			const module = await import('html2canvas');
+			html2canvasModule = module.default;
 		}
 
 		const questionNode = document.getElementById(elementId);
@@ -116,7 +116,7 @@
 			await document.fonts.ready;
 		}
 
-		const canvas = await html2canvas(questionNode, {
+		const canvas = await html2canvasModule!(questionNode, {
 			useCORS: true,
 			allowTaint: true,
 			backgroundColor: computedStyle.backgroundColor || '#d4d4d4',
