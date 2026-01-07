@@ -166,6 +166,26 @@ Choose based on content type:
 
 ### Writing Guidelines
 
+#### The #1 Rule: Write Like You Talk
+
+> _"Write the first draft quickly, then edit extensively. Read aloud before publishing."_
+> — Paul Graham
+
+Most people adopt an unnecessarily formal, complex style when writing that they'd never use in speech. This creates distance and gives readers permission to tune out. The fix is simple:
+
+**The Friend Test:** After writing each sentence, ask: "Would I say this to a friend?" If not, rewrite it as you'd actually say it.
+
+**Why this matters:**
+
+- Written language is more work to read. Conversational language flows.
+- Fancy words deceive you into thinking you're saying more than you are.
+- Experts discussing hard topics use informal language—different vocabulary, but no unnecessary complexity.
+- Simple writing forces you to actually have something to say. Complexity hides weak ideas.
+
+**The Drastic Fix:** If your draft is too formal to fix sentence-by-sentence, explain your main points out loud to a friend (real or imagined), then replace the draft with what you said.
+
+**Read Aloud Test:** Before publishing, read the entire piece aloud. Revise anything that doesn't sound like natural speech, including sections that are phonetically awkward.
+
 #### Voice & Tone
 
 - **Direct and concise** - No fluff
@@ -173,6 +193,27 @@ Choose based on content type:
 - **Modern but professional** - Current references
 - **Practical over theoretical** - Action-focused
 - **Data-driven when possible** - Back up claims
+- **Conversational** - Write like you talk, not like you're writing
+
+#### The Four Components of Useful Writing
+
+> _Based on Paul Graham's framework_
+
+Your content should maximize these four qualities:
+
+| Component       | What It Means                                    | 9takes Application                                       |
+| --------------- | ------------------------------------------------ | -------------------------------------------------------- |
+| **Correctness** | Say things that are true                         | Back claims with psychology research or real examples    |
+| **Novelty**     | Say things readers don't already know            | Share insights they haven't articulated for themselves   |
+| **Importance**  | Say things that matter to people                 | Focus on problems they're actively trying to solve       |
+| **Strength**    | Say things boldly (without sacrificing accuracy) | Avoid hedging like "tend to" or "might"—commit to claims |
+
+**The "Loose, Then Tight" Method:**
+
+1. Draft quickly—get ideas out without overthinking
+2. Edit meticulously—Paul Graham rereads sentences 100+ times before publishing
+
+**Why simplicity matters:** Simple writing isn't just polite—it exposes weak ideas. If you can't explain it simply, you don't understand it well enough. Complexity often hides the absence of real substance.
 
 #### Content Requirements
 
@@ -237,6 +278,8 @@ Choose based on content type:
 
 #### Quick Edit Checklist
 
+- [ ] **Read aloud test** - Does it sound like you talking?
+- [ ] **Friend test** - Would you say each sentence to a friend?
 - [ ] Cut opening throat-clearing
 - [ ] Remove hedging language
 - [ ] Replace passive voice

@@ -462,7 +462,7 @@
 						</button>
 						<h3 class="text-sm font-semibold text-neutral-800 sm:text-base">
 							{displayedCategories.find((c) => c.id === selectedCategory)?.category_name ||
-							'Category'}
+								'Category'}
 						</h3>
 						<span class="ml-auto text-xs text-neutral-500">
 							{filteredQuestions.length} question{filteredQuestions.length !== 1 ? 's' : ''}

@@ -81,6 +81,17 @@ _Updated May 22 2025_
 
 ## 6. Linguistic Style
 
+### Write Like You Talk
+
+> _"Would I say this to a friend?"_ — If not, rewrite it.
+
+- **Conversational first** - Every sentence should sound like something you'd actually say
+- **Read aloud before publishing** - If it sounds stiff or formal, fix it
+- **No academic tone** - Experts discussing hard topics use informal language
+- **Simple = strong** - Complexity often hides weak ideas
+
+### Mechanics
+
 - **Sentence rhythm**: Hook · insight · action step.
 - **Verbs over adjectives**: decode, navigate, map, read, unlock, resolve.
 - **2nd person focus**: Speak to _you_ and your situations.

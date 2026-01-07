@@ -37,22 +37,24 @@ NOTES:
 **Neurodivergence amplifies, masks, or transforms your Enneagram type's expression.** ADHD can intensify Type 7's stimulation-seeking or create internal torture for Type 1's perfectionism. Autism can make Type 4 feel even more "different" or help Type 5's systematic thinking flourish. Generic advice fails because you need strategies that honor BOTH your brain wiring AND your personality patterns—not one or the other.
 </QuickAnswer>
 
-<p class="firstLetter">Neurodivergence doesn't replace personality—it colors how personality expresses itself.</p>
+<p class="firstLetter">Here's what nobody tells you: generic ADHD advice doesn't work for everyone with ADHD. Because ADHD shows up completely differently in a perfectionist Type 1 than it does in a stimulation-seeking Type 7.</p>
 
-When neurodivergent brain wiring meets Enneagram personality patterns, the result is a unique expression that can't be understood through either lens alone. This guide explores how conditions like ADHD, autism, dyslexia, and others interact with each Enneagram type, creating distinct challenges and strengths.
+Same brain wiring. Totally different experience.
 
-Understanding this intersection helps neurodivergent individuals and their loved ones develop strategies that honor both their neurological needs and their personality-driven motivations.
+When you're neurodivergent AND you have a personality (spoiler: everyone does), you can't just pick one framework and ignore the other. The ADHD Type 1 needs strategies that address both the executive dysfunction AND the perfectionism that makes them hate themselves for having executive dysfunction.
 
-## Understanding the Intersection
+That's what this guide is for.
 
-### Key Principles
+## Two Layers, Not One
 
-1. **Neurodivergence is neurological**: Brain differences that affect processing
-2. **Enneagram is motivational**: Core fears, desires, and [coping patterns](/enneagram-corner/enneagram-types-in-stress)
-3. **Both interact**: Creating unique expressions and needs
-4. **Neither defines you**: You are more than labels
+Here's the difference:
 
-### Common Neurodivergent Conditions We'll Explore
+- **Neurodivergence** is about how your brain processes things—it's neurological
+- **Enneagram** is about what drives you—your core fears, desires, and [coping patterns](/enneagram-corner/enneagram-types-in-stress)
+
+Both are real. Both matter. Neither is the whole picture.
+
+## What We're Covering
 
 - **[ADHD](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** (Attention Deficit Hyperactivity Disorder)
 - **Autism Spectrum Disorder**
@@ -61,14 +63,14 @@ Understanding this intersection helps neurodivergent individuals and their loved
 - **Sensory Processing Differences**
 - **Twice Exceptional** (Gifted + Neurodivergent)
 
-### How They Interact
+### What Happens When They Collide
 
-Neurodivergence can:
+Your neurodivergence doesn't just sit next to your personality—it changes how your type shows up:
 
-- **Amplify** type patterns (e.g., ADHD Type 7)
-- **Mask** type patterns (e.g., Autistic Type 2)
-- **Complicate** type patterns (e.g., Dyslexic Type 5)
-- **Transform** type patterns (e.g., ADHD Type 1)
+- **Amplifies**: ADHD + Type 7 = stimulation-seeking on overdrive
+- **Masks**: Autism + Type 2 = trying to read social cues you literally can't see
+- **Complicates**: Dyslexia + Type 5 = needing knowledge but struggling to access it through reading
+- **Transforms**: ADHD + Type 1 = perfectionism that can never be satisfied because you physically can't focus
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[
@@ -705,42 +707,27 @@ Type 8s with ADHD often have [trauma histories](/enneagram-corner/mental-health/
 - Environmental control
 - Body connection work
 
-## Creating Your Integrated Support Plan
+## Making This Work for You
 
-### Step 1: Accurate Understanding
+### First: Figure Out What's Actually Going On
 
-- Professional neurodivergent assessment
-- Enneagram self-discovery
-- Notice interaction patterns
-- Avoid stereotypes
+Get properly assessed if you can. Know your Enneagram type. Then start noticing how they interact—where does your neurodivergence make your type pattern worse? Where does it actually help?
 
-### Step 2: Integrated Strategies
+### Then: Build Strategies That Address Both
 
-- Address both needs
-- Modify type strategies
-- Honor brain wiring
-- Celebrate strengths
+Don't just grab generic ADHD tips or generic Type 4 advice. Modify them. Type 1 with ADHD doesn't need "embrace your mess"—they need "structure that has flexibility built in so you don't hate yourself when you slip."
 
-### Step 3: Environmental Design
+### Design Your Environment
 
-- Sensory considerations
-- Executive function supports
-- Social energy management
-- Communication adaptations
+Think about sensory stuff, executive function supports, how much social energy you have, how you communicate best. Your environment should work with both your brain and your personality.
 
-### Step 4: Community Building
+### Find Your People
 
-- Neurodivergent + type groups
-- Understanding friends
-- Professional support
-- Online communities
+Look for communities that get it—neurodivergent folks who also understand personality. They exist. Online is often easier than in-person for finding this niche.
 
-### Step 5: Ongoing Adjustment
+### Keep Adjusting
 
-- Regular assessment
-- Strategy refinement
-- Flexibility in approach
-- Self-compassion
+What works now might not work in a year. That's fine. Stay curious about yourself. Keep refining.
 
 ## Universal Neurodivergent + Enneagram Principles
 
@@ -802,21 +789,15 @@ Each combination has unique strengths:
 ]} />
 </div>
 
-## Conclusion: Embracing Your Full Self
+## The Point
 
-You are not "Type X with a disorder"—you are a complete person whose neurodivergent brain and Enneagram type create a unique way of being in the world. Understanding both aspects helps you:
+You're not broken. You're not "too complicated to understand." You're a person with a brain that works a certain way AND a personality that drives you in certain directions.
 
-- Develop strategies that actually work
-- Advocate for appropriate accommodations
-- Build on your strengths
-- Find your people
-- Create a life that fits
+Generic advice fails because it only addresses one of those things. The ADHD tips that work for Type 7s won't work for Type 1s. The autism accommodations that help Type 5s might overwhelm Type 2s.
 
-Your neurodivergence and your Enneagram type are both parts of who you are. Neither is a limitation—both offer insights into how you can thrive. The intersection is where you find your unique path forward.
+So use this guide to figure out what YOU actually need—not what "ADHD people" or "Type 3s" are supposed to need.
 
-Remember: The goal isn't to fit into neurotypical or type-based boxes. It's to understand yourself fully and create a life that honors all aspects of who you are.
-
-For additional support, consider exploring [therapy options that understand both neurodivergence and personality](/enneagram-corner/mental-health/enneagram-therapy-guide), learning about [medication approaches for neurodivergent individuals](/enneagram-corner/mental-health/enneagram-medication-mental-health), or understanding how [trauma intersects with neurodivergence and personality](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
+And if you need more support, check out [therapy options that understand both neurodivergence and personality](/enneagram-corner/mental-health/enneagram-therapy-guide), [medication approaches that work with your type](/enneagram-corner/mental-health/enneagram-medication-mental-health), or how [trauma might be part of your picture too](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
 
 ## Frequently Asked Questions
 

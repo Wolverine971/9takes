@@ -75,7 +75,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health</loc>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
@@ -357,7 +357,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/astrology-and-the-enneagram</loc>
-    <lastmod>2025-10-23T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -474,7 +474,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-communication-styles</loc>
-    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -491,8 +491,17 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/enneagram-corner/enneagram-compatibility-guide</loc>
+    <lastmod>2026-01-06T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/greek-statues-examining-compatibility-chart.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/enneagram-corner/enneagram-compatibility-matrix</loc>
-    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -555,7 +564,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-influences</loc>
-    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -590,8 +599,17 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/enneagram-corner/enneagram-parenting-styles</loc>
+    <lastmod>2026-01-06T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/greek-statue-parent-child.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/enneagram-corner/enneagram-party-planner</loc>
-    <lastmod>2024-07-12T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -642,7 +660,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-team-diversity</loc>
-    <lastmod>2025-12-05T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -813,7 +831,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-workplace-team-building</loc>
-    <lastmod>2025-03-10T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -912,7 +930,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/oversharing-psychology-shame-boundaries</loc>
-    <lastmod>2024-12-09T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1229,15 +1247,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Harry-Styles.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Madison-Beer</loc>
-    <lastmod>2024-10-30T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Madison-Beer.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1799,15 +1808,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Kylie-Jenner</loc>
-    <lastmod>2025-05-02T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/9s/Kylie-Jenner.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Lana-Del-Rey</loc>
     <lastmod>2025-05-02T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1958,15 +1958,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/Alex-Cooper.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Amy-Poehler</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Amy-Poehler.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2354,15 +2345,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Bobbi-Althoff.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Cillian-Murphy</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/5s/Cillian-Murphy.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2804,6 +2786,42 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/1s/Anne-Hathaway.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Amy-Poehler</loc>
+    <lastmod>2026-01-06T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Amy-Poehler.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Cillian-Murphy</loc>
+    <lastmod>2026-01-06T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/Cillian-Murphy.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Kylie-Jenner</loc>
+    <lastmod>2026-01-06T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Kylie-Jenner.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Madison-Beer</loc>
+    <lastmod>2026-01-06T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Madison-Beer.webp</image:loc>
     </image:image>
 </url>
 <url>

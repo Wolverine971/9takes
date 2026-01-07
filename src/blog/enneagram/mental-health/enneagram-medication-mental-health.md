@@ -41,17 +41,15 @@ NOTES:
   <p>This guide is for educational purposes only and does not constitute medical advice. Always consult with qualified healthcare providers about medication decisions. Never start, stop, or change medications without professional guidance.</p>
 </div>
 
-<p class="firstLetter">The decision to take psychiatric medication is deeply personal, and your Enneagram type influences how you approach this choice.</p>
+<p class="firstLetter">Here's what your psychiatrist probably doesn't know: why you're really resisting that prescription.</p>
 
-Each type has unique fears, hopes, and patterns when it comes to medication. Understanding these patterns can help you communicate better with healthcare providers, make informed decisions, and manage medication more effectively if you choose that path.
+Type 1s feel like needing meds means they've failed morally. Type 5s have already spent 40 hours researching every possible side effect. Type 8s would rather arm-wrestle their depression than admit they need help.
 
-This guide explores how each Enneagram type typically relates to psychiatric medication, common concerns, and strategies for navigating this aspect of [mental health care](/enneagram-corner/enneagram-and-mental-illness).
+Your Enneagram type shapes everything about how you approach medication—from the fears that keep you from starting to the reasons you might quit too early. Understanding these patterns helps you work WITH your personality, not against it.
 
-## Understanding Medication Through the Enneagram
+## Why Your Type Matters More Than You Think
 
-### Why Type Matters in Medication
-
-Each Enneagram type brings different:
+Every type brings different:
 
 - **Core fears** about medication
 - **Motivations** for considering it
@@ -836,21 +834,17 @@ Consider:
 ]} />
 </div>
 
-## Conclusion: Your Choice, Your Journey
+## The Bottom Line
 
-Medication is a deeply personal decision that intersects with your Enneagram type in unique ways. Understanding your type's patterns can help you:
+Look, medication is complicated. It's not a magic fix, but it's also not the scary thing your brain might be making it out to be.
 
-- Communicate effectively with providers
-- Address your specific concerns
-- Make informed decisions
-- Manage medication better if you choose it
-- Find alternatives that resonate
+Your type has specific fears about meds—and those fears make sense when you understand where they come from. Type 4s aren't being dramatic when they worry about losing their depth. Type 6s aren't being paranoid when they read every side effect. Those are real concerns rooted in real patterns.
 
-There's no "right" choice—only what's right for you at this time. Whether you choose medication, natural alternatives, or a combination, let your decision be informed by both your type's wisdom and professional guidance.
+But knowing your patterns means you can work with them. You can tell your psychiatrist what you actually need. You can catch yourself when you're about to quit for the wrong reasons.
 
-Remember: Seeking help, in whatever form, is an act of strength. Your Enneagram type shows you how to seek help in a way that honors who you are while supporting who you're becoming.
+Medication might not be your path, and that's fine. But if you're struggling and nothing else is working, it might be worth having an honest conversation—with a provider AND with yourself about why you're really resisting.
 
-Whether you choose medication or not, consider exploring [therapy approaches tailored to your type](/enneagram-corner/mental-health/enneagram-therapy-guide), understanding your [trauma patterns](/enneagram-corner/mental-health/enneagram-trauma-response-guide), or developing [crisis management skills](/enneagram-corner/mental-health/enneagram-crisis-management-guide) as part of your comprehensive mental health care.
+For more support, check out [therapy approaches for your type](/enneagram-corner/mental-health/enneagram-therapy-guide), [trauma work](/enneagram-corner/mental-health/enneagram-trauma-response-guide), or [crisis management](/enneagram-corner/mental-health/enneagram-crisis-management-guide).
 
 ## Frequently Asked Questions
 

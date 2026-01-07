@@ -40,11 +40,13 @@ Attachment style tells you WHAT your relationship pattern is (anxious, avoidant,
 | **Secure**       | Any type (healthy)     | Core fears don't control relationships |
 | **Disorganized** | Types 4, 6, 9          | Push-pull from conflicting fears       |
 
-<p class="firstLetter">You probably know your attachment style—anxious, avoidant, secure, or disorganized. But what if I told you that's only half the story?</p>
+<p class="firstLetter">You know your attachment style. Anxious, avoidant, secure, disorganized. You've read the articles. You've nodded at the descriptions. You've thought: "That's me."</p>
 
-Attachment theory explains the "what" of your relationship patterns, but it doesn't explain the "why." It tells you that you're anxiously attached, but not why you seek reassurance differently than someone else with the same attachment style. It identifies that you're avoidant, but not why your specific flavor of distance-keeping looks nothing like your avoidant ex's.
+But here's the problem: so did a million other people with completely different relationship patterns.
 
-Here's what most people don't know: **There's a personality system called the Enneagram that adds a fourth dimension to attachment styles**—revealing not just how you attach, but the deep psychological machinery driving those patterns.
+Two anxiously attached people can look nothing alike. One smothers. One tests. One gives until they collapse. One questions until they push people away. Same attachment style. Totally different behaviors.
+
+**Attachment theory tells you WHAT your pattern is. The Enneagram tells you WHY you do it that way.**
 
 Understanding this connection transforms how you approach dating. Discover how [your personality type creates specific dating dynamics](/how-to-guides/dating-dynamics-by-enneagram-type) and learn to recognize attachment patterns before they sabotage your relationships.
 
@@ -835,7 +837,7 @@ They're equally important but work on different levels. Attachment is HOW you co
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2025-08-29",
+      "dateModified": "2025-12-03",
       "datePublished": "2025-08-29",
       "description": "Discover how your Enneagram type shapes your attachment style. Complete guide to all 36 personality + attachment combinations with healing strategies that actually work.",
       "headline": "Attachment Styles & Enneagram Types: Why You Love the Way You Do",

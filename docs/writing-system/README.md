@@ -2,7 +2,7 @@
 
 # Writing System
 
-_Last Updated: 2025-12-20_
+_Last Updated: 2026-01-06_
 _Purpose: Complete workflows for creating and editing content_
 
 ---
@@ -30,7 +30,7 @@ _Purpose: Complete workflows for creating and editing content_
 
 ## Strategic Frameworks for Audience-Aware Writing
 
-**What this section is:** These frameworks help you write content that matches where your reader is in their journey. Content that doesn't match the reader's trust level or mindset will fall flat—even if the advice is good.
+**What this section is:** These frameworks help you write content that matches where your reader is in their journey. Content that doesn't match the reader's trust level or mindset will fall flat, even if the advice is good.
 
 **Where these come from:** These are adapted from the Viral Coach Masterclass, a professional content coaching course. The full course notes with deeper explanations are available at:
 
@@ -136,6 +136,8 @@ Phase 6: Final Review & Publish
 
 ### Must-Haves
 
+- **Write like you talk** - Every sentence should pass the "Would I say this to a friend?" test
+- **Read aloud before publishing** - If it doesn't sound natural, rewrite it
 - Clear value proposition
 - Actionable takeaways
 - Type-specific insights
@@ -150,6 +152,9 @@ Phase 6: Final Review & Publish
 
 - Hedging language ("tend to", "might")
 - Academic/theoretical tone
+- Formal/stiff language you wouldn't use in conversation
+- Em-dashes (—): use periods, commas, colons, or parentheses instead
+- AI-sounding words (nuanced, delve, embark, tapestry, intricate, multifaceted, ever-evolving, testament, realm, pivotal)
 - Walls of text
 - Unsubstantiated claims
 - Generic descriptions
@@ -214,7 +219,7 @@ This case study documents a full blog optimization from D-grade to A-grade using
 
 ### Phase 1: Strategy & Planning
 
-**Differentiation decision:** The related post `communication-styles.md` (A-grade, 9 incoming links) covers the "why"—understanding patterns. The rewrite should focus on the "what"—tactical scripts for specific scenarios.
+**Differentiation decision:** The related post `communication-styles.md` (A-grade, 9 incoming links) covers the "why" (understanding patterns). The rewrite should focus on the "what": tactical scripts for specific scenarios.
 
 | Element        | Decision                                                      |
 | -------------- | ------------------------------------------------------------- |

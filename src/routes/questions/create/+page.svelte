@@ -18,7 +18,9 @@
 	let loading = false;
 	let qrImageSrc = '';
 	let imgPreview = '';
-	let html2canvasModule: ((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>) | null = null;
+	let html2canvasModule:
+		| ((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>)
+		| null = null;
 	let fontLoaded = false;
 	let resizeDebounceTimer: ReturnType<typeof setTimeout>;
 

@@ -228,7 +228,7 @@ async function generateSitemap() {
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health</loc>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>

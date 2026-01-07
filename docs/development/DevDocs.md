@@ -12,8 +12,8 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "reddit-mod-psychology.png" -o "reddit-mod-psychology.webp"
-cwebp -sns 70 -f 50 -size 20000 "reddit-mod-psychology.webp" -o "./s-reddit-mod-psychology.webp"
+cwebp "greek-statues-examining-compatibility-chart.png" -o "greek-statues-examining-compatibility-chart.webp"
+cwebp -sns 70 -f 50 -size 20000 "greek-statues-examining-compatibility-chart.webp" -o "./s-greek-statues-examining-compatibility-chart.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

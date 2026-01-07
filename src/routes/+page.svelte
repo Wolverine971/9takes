@@ -377,7 +377,9 @@
 											Type {i + 1}
 										</div>
 										<div class="relative">
-											<div class="h-20 w-20 overflow-hidden rounded-full border-2 border-primary-100 md:h-48 md:w-48 md:border-4">
+											<div
+												class="h-20 w-20 overflow-hidden rounded-full border-2 border-primary-100 md:h-48 md:w-48 md:border-4"
+											>
 												<img
 													src={person.image || `/types/${i + 1}s/s-${person.name}.webp`}
 													alt={person.name}
@@ -395,8 +397,12 @@
 										</div>
 									</div>
 									<div class="px-1 pb-2 text-center md:flex-1 md:p-4">
-										<h3 class="desktop-only text-lg font-bold text-primary-800 md:mb-2">{enneagramTypes[i + 1]}</h3>
-										<p class="text-xs font-semibold leading-tight text-gray-800 md:text-sm md:font-normal md:text-gray-600">
+										<h3 class="desktop-only text-lg font-bold text-primary-800 md:mb-2">
+											{enneagramTypes[i + 1]}
+										</h3>
+										<p
+											class="text-xs font-semibold leading-tight text-gray-800 md:text-sm md:font-normal md:text-gray-600"
+										>
 											{person.name.split('-').join(' ')}
 										</p>
 									</div>
@@ -414,13 +420,21 @@
 										>
 											Type {i + 1}
 										</div>
-										<div class="relative flex h-20 w-20 items-center justify-center overflow-hidden rounded-full border-2 border-primary-100 bg-gray-100 md:h-48 md:w-48 md:border-4">
-											<span class="text-2xl font-bold text-primary-700 md:text-4xl md:text-gray-400">{i + 1}</span>
+										<div
+											class="relative flex h-20 w-20 items-center justify-center overflow-hidden rounded-full border-2 border-primary-100 bg-gray-100 md:h-48 md:w-48 md:border-4"
+										>
+											<span class="text-2xl font-bold text-primary-700 md:text-4xl md:text-gray-400"
+												>{i + 1}</span
+											>
 										</div>
 									</div>
 									<div class="px-1 pb-2 text-center md:flex-1 md:p-4">
-										<h3 class="desktop-only text-lg font-bold text-primary-800 md:mb-2">{enneagramTypes[i + 1]}</h3>
-										<p class="mobile-only text-xs font-semibold leading-tight text-gray-600">Type {i + 1}</p>
+										<h3 class="desktop-only text-lg font-bold text-primary-800 md:mb-2">
+											{enneagramTypes[i + 1]}
+										</h3>
+										<p class="mobile-only text-xs font-semibold leading-tight text-gray-600">
+											Type {i + 1}
+										</p>
 										<p class="desktop-only text-sm text-gray-600">Explore this lens</p>
 									</div>
 								</div>

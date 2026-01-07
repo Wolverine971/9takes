@@ -4,7 +4,7 @@ description: 'Explore the different schools of thought that have influenced the 
 author: 'DJ Wayne'
 date: '2023-03-02'
 loc: 'https://9takes.com/enneagram-corner/enneagram-influences'
-lastmod: '2025-12-05'
+lastmod: '2025-01-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -33,7 +33,13 @@ Different traditions contributed different pieces. Each school has its own inter
 
 ### Sufi Tradition - ~10th-14th Centuries AD
 
-The Sufi tradition is an Islamic mystical tradition that is one of the earliest recorded sources of the Enneagram. Sufi teachings emphasize the importance of self-knowledge and spiritual awakening, and many Sufi masters have used the Enneagram as a tool for self-discovery and personal growth. The Enneagram's nine-pointed symbol is believed to represent the nine qualities of God, and each Enneagram type is seen as a reflection of a specific aspect of the divine. The Sufi tradition's emphasis on the spiritual significance of the Enneagram has helped to bring a greater depth and richness to the Enneagram as a tool for personal growth and spiritual development. Today, many Enneagram practitioners continue to draw inspiration from the Sufi tradition and its teachings on the Enneagram. <a href="https://sufipathoflove.com/enneagram-in-sufism/" title="">Learn more about it here</a>
+The Sufis weren't doing personality typing. They were mapping the soul's relationship to God.
+
+The nine-pointed symbol? Each point represented a quality of the divine. Each type reflected a specific way humans mirror (and distort) that quality.
+
+This wasn't pop psychology. It was mysticism. Self-knowledge as a path to spiritual awakening.
+
+That's why the Enneagram has a depth that most personality systems lack. It started as a spiritual practice, not a corporate team-building exercise. <a href="https://sufipathoflove.com/enneagram-in-sufism/">Learn more about Sufi origins here</a>
 
 <p  style="text-align: center;">
 <Enneagram height={'10rem'} fill={'#1e2922'}/>
@@ -41,41 +47,67 @@ The Sufi tradition is an Islamic mystical tradition that is one of the earliest 
 
 ### Gurdjieff Work - Early 20th Century, 1915-1949
 
-George Gurdjieff was a Greek-Armenian spiritual teacher and philosopher who is widely credited with <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://cac.org/daily-meditations/gurdjieff-and-the-enneagram-2020-03-02/" title="Gurdjieff and the Enneagram">introducing the Enneagram symbol to the Western world</a>. Gurdjieff's teachings on the Enneagram were based on the idea that human beings are not fully conscious, and that through self-awareness and self-observation, individuals can attain a higher level of consciousness and spiritual awakening. Gurdjieff's influence on the Enneagram was significant, as he was one of the first to use the symbol as a tool for spiritual growth and self-discovery. Many contemporary Enneagram teachings and systems are based on Gurdjieff's original ideas.
+Gurdjieff brought the symbol West. But he didn't use it for personality typing either.
+
+His premise was brutal: **most humans are asleep.** We think we're conscious, but we're running on autopilot. The Enneagram was a tool for waking up.
+
+Gurdjieff taught that through self-observation, you could catch yourself in the act of being mechanical. See your patterns. Interrupt them. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://cac.org/daily-meditations/gurdjieff-and-the-enneagram-2020-03-02/">His influence was massive</a>, most contemporary Enneagram systems trace back to his ideas.
 
 ### Oscar Ichazo - Mid 20th Century, 1950s-1960s
 
-Oscar Ichazo a Bolivian-born mystic and philosopher is another key figure in the development of the Enneagram. Ichazo developed his Enneagram teachings through a combination of his studies in various spiritual traditions and his own inner experiences. His approach to the Enneagram focused on the idea that individuals are born with a specific temperament or personality type, which is influenced by their spiritual essence. He went on to create the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.arica.org/" title="">Arica Institute</a>
+Ichazo was the one who connected the nine points to specific personality patterns.
+
+He didn't invent this from scratch. He synthesized multiple spiritual traditions, added his own insights, and created a system where each point represented a distinct way humans fall asleep to their true nature.
+
+His <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.arica.org/">Arica Institute</a> formalized the teaching. And attracted the person who would bring it to mainstream psychology.
 
 ### Claudio Naranjo - Late 20th Century, 1970s
 
-Claudio Naranjo studied with Ichazo in Chile. <a class="external-link" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Oscar_Ichazo#Protoanalysis" title="Explaining Oscar Ichazo Protoanalysis">"His contribution to the Enneagram successfully joined the insight and methods of a mystical path of transformation with the intellectual power of a Western psychological model".</a> Naranjo's work helped to popularize the Enneagram in the Western world and his teachings continue to be a source of inspiration for many Enneagram enthusiasts today. His legacy includes the creation of the Enneagram of Personality, which is one of the most widely used Enneagram systems today.
+Naranjo was a psychiatrist. He studied with Ichazo, then did something radical: he married mystical insight with Western psychology.
+
+<a class="external-link" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Oscar_Ichazo#Protoanalysis">"His contribution successfully joined the insight and methods of a mystical path of transformation with the intellectual power of a Western psychological model."</a>
+
+Translation: Naranjo made the Enneagram something therapists could use. He created the "Enneagram of Personality" that most people know today. Without him, this would still be an obscure spiritual teaching instead of a widely-used psychological tool.
 
 ## Outside Influences
 
-### Ancient Philosophy - Classical Antiquity, ~428 – 347 BC
+### Ancient Philosophy - ~428–347 BC
 
-The idea of dividing the human psyche into categories or "types" can be traced back to Plato's "Republic", where he discusses the concept of tripartite souls divided into rational, spirited, and appetitive categories. The Enneagram's three centers of intelligence, which divide individuals into thinking, feeling, and instinctual types, can be seen as a modern-day interpretation of Plato's ideas. <a class="external-link" target="_blank" rel="noopener" href="https://www.sparknotes.com/philosophy/republic/themes/" title="SparkNotes on the Republic">SparkNotes</a> provides a comprehensive analysis of Plato's "Republic" where plato talks about the tripartite souls.
+The idea of categorizing the psyche isn't new. Plato did it 2,400 years ago.
 
-### Early Psychology - Late 19th to Early 20th Century, 1890s-1920s
+His "Republic" describes a tripartite soul: rational, spirited, and appetitive. Sound familiar? The Enneagram's three centers, head, heart, and gut, map almost directly onto Plato's framework.
 
-The concept of personality types also has roots in early psychology, such as <a class="external-link" target="_blank" rel="noopener" href="https://www.simplypsychology.org/psyche.html" title="Explaining Freud's theory from simplypsychology.org">Freud's theories of the id, ego, and superego</a>. Freud’s id represents the primitive and instinctual desires of an individual, which can be likened to the Enneagram’s concept of instincts. The ego, on the other hand, is the rational and decision-making aspect of the psyche, which corresponds to the Enneagram’s idea of the head. Finally, the superego represents the moral and ethical aspect of the psyche, which aligns with the Enneagram’s concept of the heart. Additionally, the Enneagram's centers of intelligence can be linked to Carl Jung's ideas of thinking, feeling, and sensing types.
+The ancients knew something modern psychology keeps rediscovering: the mind isn't one thing. It's at least three. <a class="external-link" target="_blank" rel="noopener" href="https://www.sparknotes.com/philosophy/republic/themes/">More on Plato's framework here</a>
 
-<a href="/enneagram-corner/philosophy-psychology-and-the-enneagram" title="How philosophy and psychology gave birth to the Enneagram">More about Freud and Plato here</a>
+### Early Psychology - 1890s-1920s
 
-Why did early psychology develop these ideas further? 🤷
+Freud's <a class="external-link" target="_blank" rel="noopener" href="https://www.simplypsychology.org/psyche.html">id, ego, and superego</a> echo the same pattern:
 
-## Modern Interpretations of the Enneagram
+- **Id** = instinct (gut center)
+- **Ego** = rationality (head center)
+- **Superego** = morality (heart center)
 
-Today, the Enneagram is widely used as a personality typing system that helps individuals understand themselves and others better. There are several modern interpretations of the Enneagram, each with its own set of personality types and descriptions. While there is no one "right" way to approach the Enneagram, different schools of thought have emerged over time, each with its own unique perspective on the Enneagram and how it can be used.
+Jung added thinking, feeling, and sensing types. Different language, same underlying observation: humans process the world through distinct centers.
 
-### The Narrative Tradition - Late 20th Century to Present, 1990s-Present
+<a href="/enneagram-corner/philosophy-psychology-and-the-enneagram">More about the philosophy-psychology connection here</a>
 
-One of the most popular schools of thought when it comes to the Enneagram is the narrative tradition. This approach focuses on storytelling and personal anecdotes, allowing individuals to explore their Enneagram type in a more personal and relatable way. The narrative tradition is often used in Enneagram workshops and retreats, where individuals can learn about their type in a supportive and interactive environment.
+## Modern Schools
 
-### The Integrative Tradition - Early 21st Century to Present, 2000s-Present
+The Enneagram fractured into different approaches. Here are the main ones:
 
-Another school of thought when it comes to the Enneagram is the integrative tradition. This approach combines elements from various Enneagram schools of thought, allowing individuals to explore the Enneagram in a holistic and comprehensive way. The integrative tradition emphasizes the importance of personal growth and development, using the Enneagram as a tool for self-discovery and transformation.
+### The Narrative Tradition - 1990s-Present
+
+People learn their type by hearing stories from other people of that type.
+
+No abstract theory. Just: "Here's what it's like to be a Seven. Here's what we think about, what we fear, what we do under stress." You listen until something clicks.
+
+This works because theory only gets you so far. Hearing someone describe your inner experience in their own words hits different.
+
+### The Integrative Tradition - 2000s-Present
+
+Takes the best from multiple schools. Combines spiritual depth with psychological rigor with practical application.
+
+The emphasis: growth. Not just typing yourself, but using that knowledge to actually change.
 
 ## The Unfinished Story
 

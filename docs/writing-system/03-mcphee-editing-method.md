@@ -14,6 +14,14 @@ _Purpose: Create structurally perfect content with invisible architecture_
 
 The goal: Create such natural structure that readers never notice it—they just feel compelled to keep reading.
 
+### Sound and Ideas Are Connected
+
+> _"Writing that sounds good is more likely to be right."_ — Paul Graham
+
+When you revise awkward sentences to flow better, you're forced to refine the underlying ideas. Good rhythm matches thought patterns—simple statements flow quickly, complex ideas need longer sentences. If a sentence sounds clumsy, the idea underneath is probably confused too.
+
+**The implication:** Don't separate "making it sound good" from "making it right." They're the same work.
+
 ## The Structure-First Approach
 
 ### Step 1: Find Your Through-Line
@@ -340,6 +348,12 @@ Leave them with something to ponder.
 - [ ] Is the pace varied?
 - [ ] Does it satisfy its promise?
 - [ ] Will they share it?
+
+### The Conversational Test (Paul Graham):
+
+- [ ] **Read aloud** - Does every sentence sound like something you'd say?
+- [ ] **Friend test** - Would you say this to a friend? If not, rewrite it as you'd actually say it.
+- [ ] **Formal language check** - Find and replace anything you wouldn't say in conversation
 
 ## Common McPhee Applications
 

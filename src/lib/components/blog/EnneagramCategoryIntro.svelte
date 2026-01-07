@@ -6,516 +6,561 @@
 	export let blogs: any;
 
 	const slug = `enneagram-corner/subtopic/${subsection}`;
-</script>
 
-{#if subsection === 'overview'}
-	<BlogPageHead
-		data={{
-			title: `Master the Enneagram: The Complete Psychology Framework | 9takes`,
+	// Section metadata for consistent SEO and display
+	const sectionMeta: Record<
+		string,
+		{
+			title: string;
+			seoTitle: string;
+			description: string;
+			pic: string;
+			lastmod: string;
+		}
+	> = {
+		overview: {
+			title: 'The Enneagram: Your Operating System Decoded',
+			seoTitle: 'Master the Enneagram: The Complete Psychology Framework | 9takes',
 			description:
 				'Discover why millions use the Enneagram to decode human behavior. From childhood wounds to adult patterns, master the system that transforms self-understanding.',
-			slug: slug,
-			author: 'DJ Wayne',
-			date: '2024-05-09',
-			loc: 'https://9takes.com/enneagram-corner/subtopic/overview',
-			lastmod: '2025-08-15',
-			blog: true,
-			pic: ''
-		}}
-		{slug}
-	/>
-	<header>
-		<h1>The Enneagram: Your Operating System Decoded</h1>
-	</header>
+			pic: '',
+			lastmod: '2025-08-15'
+		},
+		'nine-types': {
+			title: '9 Types of Human Nature (And How to Read Each One)',
+			seoTitle: 'The 9 Enneagram Types Explained: Core Fears, Desires & Patterns | 9takes',
+			description:
+				'Each type operates on a different emotional frequency. Learn the core fears, desires, and blind spots driving behavior—yours and everyone around you.',
+			pic: 's-greek-statues-working-in-teams',
+			lastmod: '2025-08-15'
+		},
+		development: {
+			title: 'Know Your Pattern. Break Your Pattern.',
+			seoTitle: 'Enneagram Personal Development: Growth Strategies by Type | 9takes',
+			description:
+				'Your type is running the show until you see it. Discover type-specific growth paths, blind spots to watch, and the exact practices that create lasting change.',
+			pic: 'Self-awareness-and-Self-understanding',
+			lastmod: '2025-08-15'
+		},
+		relationships: {
+			title: 'Why They Do That (A Relationship Decoder)',
+			seoTitle: 'Enneagram Relationship Guide: Communication, Conflict & Connection | 9takes',
+			description:
+				'Stop taking it personally. Their reactions are about their type, not you. Learn to read relationship dynamics and communicate in ways that actually land.',
+			pic: 'greek-statues-having-an-intimate-conversation',
+			lastmod: '2025-08-15'
+		},
+		workplace: {
+			title: 'Read the Room, Run the Room',
+			seoTitle: 'Enneagram at Work: Leadership, Teams & Communication Styles | 9takes',
+			description:
+				'Every office has patterns. Learn to spot types in meetings, decode what motivates your team, and navigate workplace dynamics like a pro.',
+			pic: 'greek-statues-disagreeing',
+			lastmod: '2025-08-15'
+		},
+		resources: {
+			title: 'Resources That Actually Work (We Tested Everything)',
+			seoTitle: 'Essential Enneagram Resources: Tools, Tests & Training | 9takes',
+			description:
+				'Cut through the noise. Access the best Enneagram tests, books, tools, and training. Curated resources for serious students of personality psychology.',
+			pic: 'greek-dude-reading-book',
+			lastmod: '2025-08-15'
+		},
+		situational: {
+			title: 'The Types in the Wild: Real Situations, Real Behaviors',
+			seoTitle: 'Real-World Type Behaviors: How Each Type Actually Shows Up | 9takes',
+			description:
+				'See the types in action. From first dates to job interviews, from parties to panic attacks—understand exactly how each type behaves in real situations.',
+			pic: 'greek-statue-flex',
+			lastmod: '2025-08-15'
+		}
+	};
 
-	<main>
-		<section id="introduction">
-			<p>
+	// Related subsections for each category
+	const relatedLinks: Record<string, { href: string; label: string; hook: string }[]> = {
+		overview: [
+			{
+				href: '/enneagram-corner/subtopic/nine-types',
+				label: 'Study All 9 Types',
+				hook: 'Learn what drives each one'
+			},
+			{
+				href: '/enneagram-corner/subtopic/development',
+				label: 'Apply to Your Growth',
+				hook: 'Break your patterns'
+			},
+			{
+				href: '/enneagram-corner/subtopic/relationships',
+				label: 'Decode Relationships',
+				hook: 'Stop taking it personally'
+			},
+			{
+				href: '/enneagram-corner/subtopic/workplace',
+				label: 'Navigate Work',
+				hook: 'Read the office dynamics'
+			}
+		],
+		'nine-types': [
+			{
+				href: '/enneagram-corner/subtopic/overview',
+				label: 'Core Theory',
+				hook: 'Understand the system'
+			},
+			{
+				href: '/enneagram-corner/subtopic/development',
+				label: 'Growth Paths',
+				hook: 'Apply it to yourself'
+			},
+			{
+				href: '/enneagram-corner/subtopic/relationships',
+				label: 'Relationship Dynamics',
+				hook: 'See type interactions'
+			},
+			{
+				href: '/enneagram-corner/subtopic/workplace',
+				label: 'Types at Work',
+				hook: 'Spot them in meetings'
+			}
+		],
+		development: [
+			{
+				href: '/enneagram-corner/subtopic/overview',
+				label: 'Foundation First',
+				hook: 'Master the basics'
+			},
+			{
+				href: '/enneagram-corner/subtopic/nine-types',
+				label: 'Know Each Type',
+				hook: 'Deepen your understanding'
+			},
+			{
+				href: '/enneagram-corner/subtopic/relationships',
+				label: 'Relationship Growth',
+				hook: 'Grow with others'
+			},
+			{
+				href: '/enneagram-corner/subtopic/workplace',
+				label: 'Professional Development',
+				hook: 'Level up at work'
+			}
+		],
+		relationships: [
+			{
+				href: '/enneagram-corner/subtopic/overview',
+				label: 'Learn the System',
+				hook: 'Build your foundation'
+			},
+			{
+				href: '/enneagram-corner/subtopic/nine-types',
+				label: 'Understand Their Type',
+				hook: 'Know what drives them'
+			},
+			{
+				href: '/enneagram-corner/subtopic/development',
+				label: 'Grow Together',
+				hook: 'Break unhealthy patterns'
+			},
+			{
+				href: '/enneagram-corner/subtopic/workplace',
+				label: 'Work Relationships',
+				hook: 'Navigate colleagues'
+			}
+		],
+		workplace: [
+			{
+				href: '/enneagram-corner/subtopic/overview',
+				label: 'Master the Basics',
+				hook: 'Start with theory'
+			},
+			{
+				href: '/enneagram-corner/subtopic/nine-types',
+				label: 'Type Your Team',
+				hook: 'Identify who you work with'
+			},
+			{
+				href: '/enneagram-corner/subtopic/development',
+				label: 'Leadership Growth',
+				hook: 'Develop yourself'
+			},
+			{
+				href: '/enneagram-corner/subtopic/relationships',
+				label: 'Office Dynamics',
+				hook: 'Navigate the politics'
+			}
+		],
+		resources: [
+			{
+				href: '/enneagram-corner/subtopic/overview',
+				label: 'Start With Theory',
+				hook: 'Build foundation first'
+			},
+			{
+				href: '/enneagram-corner/subtopic/nine-types',
+				label: 'Study All Types',
+				hook: 'Know every pattern'
+			},
+			{
+				href: '/enneagram-corner/subtopic/development',
+				label: 'Apply to Growth',
+				hook: 'Put tools to work'
+			},
+			{
+				href: '/enneagram-corner/subtopic/relationships',
+				label: 'Transform Relationships',
+				hook: 'Connect deeper'
+			},
+			{
+				href: '/enneagram-corner/subtopic/workplace',
+				label: 'Optimize Career',
+				hook: 'Level up professionally'
+			}
+		],
+		situational: [
+			{
+				href: '/enneagram-corner/subtopic/overview',
+				label: 'Learn the Psychology',
+				hook: 'Understand the why'
+			},
+			{
+				href: '/enneagram-corner/subtopic/nine-types',
+				label: 'Know All Types',
+				hook: 'Recognize each one'
+			},
+			{
+				href: '/enneagram-corner/subtopic/development',
+				label: 'Apply to Yourself',
+				hook: 'Use in your life'
+			},
+			{
+				href: '/enneagram-corner/subtopic/relationships',
+				label: 'Navigate Relationships',
+				hook: 'Handle any dynamic'
+			},
+			{
+				href: '/enneagram-corner/subtopic/workplace',
+				label: 'Excel Professionally',
+				hook: 'Read workplace situations'
+			}
+		]
+	};
+
+	$: meta = sectionMeta[subsection] || sectionMeta.overview;
+	$: links = relatedLinks[subsection] || relatedLinks.overview;
+
+	function formatBlogSlug(title: string) {
+		return title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+	}
+</script>
+
+<BlogPageHead
+	data={{
+		title: meta.seoTitle,
+		description: meta.description,
+		slug: slug,
+		author: 'DJ Wayne',
+		date: '2024-05-09',
+		loc: `https://9takes.com/enneagram-corner/subtopic/${subsection}`,
+		lastmod: meta.lastmod,
+		blog: true,
+		pic: meta.pic
+	}}
+	{slug}
+/>
+
+<header>
+	<h1>{meta.title}</h1>
+</header>
+
+<main>
+	{#if subsection === 'overview'}
+		<section id="introduction" class="intro-section">
+			<p class="hook">
 				<strong>You've been running on autopilot your entire life.</strong> Every reaction, every decision,
-				every relationship pattern — they're all driven by an invisible operating system you never chose
+				every relationship pattern—they're all driven by an invisible operating system you never chose
 				to install.
 			</p>
 			<p>
-				The Enneagram reveals this hidden code. It's not just another personality test — it's a map
-				of your psychological DNA, showing exactly why you sabotage yourself in predictable ways and
-				how to finally break free. Master this framework, and you'll understand people at levels
-				they don't even understand themselves.
+				The Enneagram reveals this hidden code. It's not just another personality test—it's a map of
+				your psychological DNA, showing exactly why you sabotage yourself in predictable ways and
+				how to finally break free.
+			</p>
+			<p class="insight-callout">
+				Master this framework, and you'll understand people at levels they don't even understand
+				themselves.
 			</p>
 		</section>
 
 		<section id="article-list">
-			<h2>All Articles</h2>
-			<div class="enneagram-blog-grid">
+			<h2>Explore the Fundamentals</h2>
+			<div class="blog-grid">
 				{#each blogs as eBlog}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
-						class="blog-card {!eBlog.pic ? 'no-image' : ''}"
-						style={eBlog.pic &&
-							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+						class="blog-card"
+						class:has-image={eBlog.pic}
+						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
+						{#if eBlog.pic}
+							<div
+								class="card-image"
+								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
+							></div>
+						{/if}
+						<div class="card-overlay"></div>
 						<div class="card-content">
-							<h3>
-								{eBlog.title}
-							</h3>
-							<p>{eBlog.description}</p>
+							<h3>{eBlog.title}</h3>
+							{#if eBlog.description}
+								<p>{eBlog.description}</p>
+							{/if}
 						</div>
 					</a>
 				{/each}
 			</div>
-
-			<!-- <ul>
-                <li><a href="#">What is the Enneagram? A Comprehensive Introduction</a></li>
-                <li><a href="#">The Nine Enneagram Types: An Overview</a></li>
-                <li><a href="#">The Three Enneagram Centers: Head, Heart, and Body</a></li>
-                <li><a href="#">Wings: Exploring the Influence of Adjacent Enneagram Types</a></li>
-                <li><a href="#">Instinctual Subtypes: The Three Enneagram Instincts</a></li>
-                <li><a href="#">Levels of Development: Healthy, Average, and Unhealthy Expressions of Each Type</a></li>
-                <li><a href="#">The Enneagram Symbol: Understanding Its Meaning and Structure</a></li>
-            </ul> -->
 		</section>
 
-		<section id="conclusion">
-			<h2>Conclusion</h2>
+		<section id="conclusion" class="action-section">
+			<h2>Your Next Move</h2>
 			<p>
-				Understanding the fundamentals of the Enneagram system is essential for anyone looking to
-				use this tool for personal growth, improving relationships, or enhancing their professional
-				life.
+				Understanding the Enneagram isn't about putting people in boxes—it's about seeing the
+				<strong>emotional logic</strong> behind their behavior. Once you see the patterns, you can't
+				unsee them.
 			</p>
 			<p>
-				We encourage you to explore the articles in this subsection to gain a solid foundation in
-				Enneagram theory and its applications.
+				<strong>Start with these articles</strong> to build your foundation. Then pick one person in
+				your life—guess their type, watch for the patterns, and notice how your understanding of them
+				shifts.
 			</p>
 		</section>
-
-		<section id="related-subsections">
-			<h2>Related Subsections</h2>
-			<ul>
-				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
-				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
-					>
-				</li>
-				<li>
-					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
-				</li>
-				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
-			</ul>
-		</section>
-
-		<!-- <section id="cta">
-			<h2>Stay Connected</h2>
-			<p>
-				Subscribe to our blog for the latest articles and insights on the Enneagram and its
-				applications.
+	{:else if subsection === 'nine-types'}
+		<section id="introduction" class="intro-section">
+			<p class="hook">
+				<strong>Nine types. Nine completely different ways of seeing the world.</strong> What looks like
+				"being difficult" to one type feels like "being thorough" to another.
 			</p>
-			<a href="#" class="cta-button">Subscribe Now</a>
-		</section> -->
-	</main>
-{/if}
-
-{#if subsection === 'nine-types'}
-	<BlogPageHead
-		data={{
-			title: `9takes- Overview of the 9 Enneagram types`,
-			description: 'Describing the 9 Enneagram types and their characteristics.',
-			slug: slug,
-			author: 'DJ Wayne',
-			date: '2024-05-09',
-			loc: 'https://9takes.com/enneagram-corner/subtopic/nine-types',
-			lastmod: '2024-05-09',
-			blog: true,
-			pic: 's-greek-statues-working-in-teams'
-		}}
-		{slug}
-	/>
-	<header>
-		<h1>The Nine Enneagram Types</h1>
-	</header>
-
-	<main>
-		<section id="introduction">
 			<p>
-				The Enneagram system is composed of nine distinct personality types, each with its own set
-				of core beliefs, desires, and fears. Understanding the characteristics of each type can help
-				you gain insights into yourself and others, leading to improved self-awareness and better
-				relationships.
+				Each type operates from a core fear and a core desire they're often unaware of. A Type 1
+				isn't "controlling"—they're driven by a deep need to be good and avoid criticism. A Type 7
+				isn't "flaky"—they're running from emotional pain they learned to escape as children.
+			</p>
+			<p class="insight-callout">
+				Know someone's type, and you know what they're optimizing for. That changes everything.
 			</p>
 		</section>
 
 		<section id="article-list">
-			<h2>All Articles</h2>
-			<div class="blog-grid-container temp-three-row">
+			<h2>Deep Dives Into Each Type</h2>
+			<div class="blog-grid nine-types-grid">
 				{#each blogs as eBlog}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
-						class="grid-item inline-it"
-						style={eBlog.pic &&
-							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+						class="blog-card"
+						class:has-image={eBlog.pic}
+						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
-						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
-							<h3>
-								{eBlog.title}
-							</h3>
-							<p class="font-adjust-p">{eBlog.description}</p>
+						{#if eBlog.pic}
+							<div
+								class="card-image"
+								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
+							></div>
+						{/if}
+						<div class="card-overlay"></div>
+						<div class="card-content">
+							<h3>{eBlog.title}</h3>
 						</div>
 					</a>
 				{/each}
 			</div>
 		</section>
 
-		<section id="conclusion">
-			<h2>Conclusion</h2>
+		<section id="conclusion" class="action-section">
+			<h2>Put This Into Practice</h2>
 			<p>
-				Gaining a deep understanding of each Enneagram type is essential for personal growth,
-				improved communication, and building stronger relationships.
+				Reading about types is step one. <strong
+					>Spotting them in the wild is the real skill.</strong
+				>
+				Next time you're frustrated with someone, pause and ask: "What type pattern am I seeing?"
 			</p>
 			<p>
-				We encourage you to explore the articles in this subsection to learn more about the unique
-				qualities, challenges, and growth opportunities for each type.
+				The goal isn't to label people—it's to understand the emotional logic driving their
+				behavior. When you see the fear underneath the behavior, frustration often transforms into
+				empathy.
 			</p>
 		</section>
-
-		<section id="related-subsections">
-			<h2>Related Subsections</h2>
-			<ul>
-				<li>
-					<a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a>
-				</li>
-				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
-					>
-				</li>
-				<li>
-					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
-				</li>
-				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
-			</ul>
-		</section>
-
-		<!-- <section id="cta">
-			<h2>Stay Connected</h2>
-			<p>
-				Subscribe to our blog for the latest articles and insights on the Enneagram and its
-				applications.
-			</p>
-			<a href="#" class="cta-button">Subscribe Now</a>
-		</section> -->
-	</main>
-{/if}
-
-{#if subsection === 'development'}
-	<BlogPageHead
-		data={{
-			title: `9takes- The Enneagram for personal development`,
-			description:
-				'Blogs on using the Enneagram for personal development, growth, and self-improvement.',
-			slug: slug,
-			author: 'DJ Wayne',
-			date: '2024-05-09',
-			loc: 'https://9takes.com/enneagram-corner/subtopic/development',
-			lastmod: '2024-05-09',
-			blog: true,
-			pic: 'Self-awareness-and-Self-understanding'
-		}}
-		{slug}
-	/>
-	<header>
-		<h1>The Enneagram for Personal Development</h1>
-	</header>
-
-	<main>
-		<section id="introduction">
-			<p>
-				The Enneagram is not only a tool for understanding yourself and others but also a powerful
-				framework for personal growth and self-improvement.
+	{:else if subsection === 'development'}
+		<section id="introduction" class="intro-section">
+			<p class="hook">
+				<strong>Your type isn't a prison. It's a starting point.</strong> The Enneagram shows you where
+				you're stuck—and exactly how to get unstuck.
 			</p>
 			<p>
-				By exploring the unique challenges and opportunities for development within each Enneagram
-				type, you can create a tailored path to reaching your full potential.
+				Every type has a predictable growth edge. Type 3s need to stop performing and feel their
+				real emotions. Type 9s need to assert what they actually want. Type 6s need to trust their
+				own judgment instead of seeking external validation.
+			</p>
+			<p class="insight-callout">
+				The patterns that protected you as a child are now holding you back. Growth means outgrowing
+				your survival strategies.
 			</p>
 		</section>
 
 		<section id="article-list">
-			<h2>All Articles</h2>
-			<div class="blog-grid-container temp-three-row">
+			<h2>Growth Strategies by Type</h2>
+			<div class="blog-grid">
 				{#each blogs as eBlog}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
-						class="grid-item inline-it"
-						style={eBlog.pic &&
-							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+						class="blog-card"
+						class:has-image={eBlog.pic}
+						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
-						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
-							<h3>
-								{eBlog.title}
-							</h3>
-							<p class="font-adjust-p">{eBlog.description}</p>
+						{#if eBlog.pic}
+							<div
+								class="card-image"
+								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
+							></div>
+						{/if}
+						<div class="card-overlay"></div>
+						<div class="card-content">
+							<h3>{eBlog.title}</h3>
+							{#if eBlog.description}
+								<p>{eBlog.description}</p>
+							{/if}
 						</div>
 					</a>
 				{/each}
 			</div>
-			<!-- <ul>
-                <li><a href="#">Enneagram Type 1: Embracing Imperfection and Self-Compassion</a></li>
-                <li><a href="#">Enneagram Type 2: Nurturing Yourself and Setting Healthy Boundaries</a></li>
-                <li><a href="#">Enneagram Type 3: Overcoming the Fear of Failure</a></li>
-                <li><a href="#">Enneagram Type 4: Cultivating Self-Acceptance and Emotional Resilience</a></li>
-                <li><a href="#">Enneagram Type 5: Engaging with the World and Expressing Emotions</a></li>
-                <li><a href="#">Enneagram Type 6: Cultivating Self-Trust and Courage</a></li>
-                <li><a href="#">Enneagram Type 7: Embracing Discomfort and Finding Inner Peace</a></li>
-                <li><a href="#">Enneagram Type 8: Developing Vulnerability and Empathy</a></li>
-                <li><a href="#">Enneagram Type 9: Asserting Yourself and Setting Boundaries</a></li>
-            </ul> -->
 		</section>
 
-		<section id="conclusion">
-			<h2>Conclusion</h2>
+		<section id="conclusion" class="action-section">
+			<h2>The Real Work Starts Now</h2>
 			<p>
-				By using the Enneagram as a tool for personal development, you can gain valuable insights
-				into your unique challenges and opportunities for growth.
+				Growth isn't about becoming a different type—it's about <strong
+					>expanding beyond your type's automatic responses.</strong
+				> You're not broken. You're just running an outdated operating system.
 			</p>
 			<p>
-				We encourage you to explore the articles in this subsection to find tailored strategies and
-				guidance for your Enneagram type, empowering you to create lasting positive change in your
-				life.
+				Pick one pattern you recognize in yourself. Notice when it shows up. That awareness alone
+				creates space for a different choice. That's where transformation begins.
 			</p>
 		</section>
-
-		<section id="related-subsections">
-			<h2>Related Subsections</h2>
-			<ul>
-				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
-				<li>
-					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
-				</li>
-				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
-			</ul>
-		</section>
-
-		<!-- <section id="cta">
-			<h2>Stay Connected</h2>
-			<p>
-				Subscribe to our blog for the latest articles and insights on the Enneagram and its
-				applications.
-			</p>
-			<a href="#" class="cta-button">Subscribe Now</a>
-		</section> -->
-	</main>
-{/if}
-
-{#if subsection === 'relationships'}
-	<BlogPageHead
-		data={{
-			title: `9takes- Using the Enneagram in Relationships`,
-			description: 'Blogs about using the Enneagram to improve your relationships.',
-			slug: slug,
-			author: 'DJ Wayne',
-			date: '2024-05-09',
-			loc: 'https://9takes.com/enneagram-corner/subtopic/relationships',
-			lastmod: '2024-05-09',
-			blog: true,
-			pic: 'greek-statues-having-an-intimate-conversation'
-		}}
-		{slug}
-	/>
-	<header>
-		<h1>The Enneagram in Relationships</h1>
-	</header>
-
-	<main>
-		<section id="introduction">
-			<p>
-				The Enneagram offers a powerful framework for understanding relationship dynamics,
-				communication styles, and compatibility between different personality types.
+	{:else if subsection === 'relationships'}
+		<section id="introduction" class="intro-section">
+			<p class="hook">
+				<strong>Most relationship fights aren't about what you think they're about.</strong> They're
+				about two different types with two different emotional needs talking past each other.
 			</p>
 			<p>
-				By exploring how each Enneagram type approaches relationships, you can gain valuable
-				insights into creating more harmonious and fulfilling connections with others.
+				Your partner isn't being "too emotional" or "too distant." They're responding from their
+				type's core needs. A Type 2 needs to feel needed. A Type 5 needs space to process. A Type 8
+				needs respect and directness. Miss these needs, and conflict escalates. Meet them, and
+				connection deepens.
+			</p>
+			<p class="insight-callout">
+				The same words mean different things to different types. Learn their language, and watch the
+				dynamic shift.
 			</p>
 		</section>
 
 		<section id="article-list">
-			<h2>All Articles</h2>
-			<div class="blog-grid-container temp-three-row">
+			<h2>Relationship Dynamics Decoded</h2>
+			<div class="blog-grid">
 				{#each blogs as eBlog}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
-						class="grid-item inline-it"
-						style={eBlog.pic &&
-							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+						class="blog-card"
+						class:has-image={eBlog.pic}
+						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
-						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
-							<h3>
-								{eBlog.title}
-							</h3>
-							<p class="font-adjust-p">{eBlog.description}</p>
+						{#if eBlog.pic}
+							<div
+								class="card-image"
+								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
+							></div>
+						{/if}
+						<div class="card-overlay"></div>
+						<div class="card-content">
+							<h3>{eBlog.title}</h3>
+							{#if eBlog.description}
+								<p>{eBlog.description}</p>
+							{/if}
 						</div>
 					</a>
 				{/each}
 			</div>
-			<!-- <ul>
-                <li><a href="#">Enneagram Type 1 and Type 7 Relationship Dynamics</a></li>
-                <li><a href="#">Enneagram Type 2 and Type 8 Relationship Dynamics</a></li>
-                <li><a href="#">Enneagram Type 3 and Type 6 Relationship Compatibility</a></li>
-                <li><a href="#">Enneagram Type 4 and Type 9 Relationship Compatibility</a></li>
-                <li><a href="#">Enneagram Type 5 and Type 1 Relationship Dynamics</a></li>
-                <li><a href="#">Navigating Conflict: Enneagram Strategies for Couples</a></li>
-                <li><a href="#">Enneagram Communication Styles in Relationships</a></li>
-                <li><a href="#">Using the Enneagram to Improve Empathy in Relationships</a></li>
-                <li><a href="#">Enneagram Insights for Building Healthy and Balanced Relationships</a></li>
-            </ul> -->
 		</section>
 
-		<section id="conclusion">
-			<h2>Conclusion</h2>
+		<section id="conclusion" class="action-section">
+			<h2>Try This Tonight</h2>
 			<p>
-				By applying the wisdom of the Enneagram to your relationships, you can cultivate deeper
-				understanding, compassion, and connection with your partner and loved ones.
+				Think of your last argument with someone close to you. <strong
+					>What did they actually need</strong
+				> in that moment? Validation? Space? Control? Reassurance?
 			</p>
 			<p>
-				We invite you to explore the articles in this subsection to discover valuable insights and
-				strategies for creating more fulfilling and harmonious relationships.
+				Now consider: did you give them what they needed, or what <em>your</em> type would have wanted?
+				That gap is where most relationship friction lives. Close it, and connection flows.
 			</p>
 		</section>
-
-		<section id="related-subsections">
-			<h2>Related Subsections</h2>
-			<ul>
-				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
-				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
-					>
-				</li>
-				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
-			</ul>
-		</section>
-
-		<!-- <section id="cta">
-			<h2>Stay Connected</h2>
-			<p>
-				Subscribe to our blog for the latest articles and insights on the Enneagram and its
-				applications.
-			</p>
-			<a href="#" class="cta-button">Subscribe Now</a>
-		</section> -->
-	</main>
-{/if}
-{#if subsection === 'workplace'}
-	<BlogPageHead
-		data={{
-			title: `9takes- Using the Enneagram in the workplace`,
-			description:
-				'Blogs about using the Enneagram in the workplace for personal growth and success.',
-			slug: slug,
-			author: 'DJ Wayne',
-			date: '2024-05-09',
-			loc: 'https://9takes.com/enneagram-corner/subtopic/workplace',
-			lastmod: '2024-05-09',
-			blog: true,
-			pic: 'greek-statues-disagreeing'
-		}}
-		{slug}
-	/>
-	<header>
-		<h1>The Enneagram in the Workplace</h1>
-	</header>
-
-	<main>
-		<section id="introduction">
-			<p>
-				The Enneagram can be used to enhance communication, teamwork, leadership, and personal
-				growth in the workplace.
+	{:else if subsection === 'workplace'}
+		<section id="introduction" class="intro-section">
+			<p class="hook">
+				<strong>Every office is a petri dish of type dynamics.</strong> The "difficult" coworker, the
+				micromanaging boss, the team that can't align—these aren't random. They're predictable patterns.
 			</p>
 			<p>
-				By understanding the unique strengths, challenges, and motivations of each Enneagram type,
-				you can create a more harmonious and productive work environment and achieve greater
-				professional success.
+				Your Type 1 manager isn't being harsh—they have a genuine fear of making mistakes and need
+				to feel things are done right. Your Type 7 colleague isn't scattered—they're energized by
+				possibilities and drained by routine. Your Type 6 teammate isn't paranoid—they're thinking
+				through all the ways things could go wrong so you don't have to.
+			</p>
+			<p class="insight-callout">
+				Read the types in your workplace, and you unlock influence. Know what drives each person,
+				and you know how to lead, collaborate, and navigate office politics.
 			</p>
 		</section>
 
 		<section id="article-list">
-			<h2>All Articles</h2>
-			<div class="blog-grid-container temp-three-row">
+			<h2>Workplace Strategies</h2>
+			<div class="blog-grid">
 				{#each blogs as eBlog}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
-						class="grid-item inline-it"
-						style={eBlog.pic &&
-							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+						class="blog-card"
+						class:has-image={eBlog.pic}
+						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
-						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
-							<h3>
-								{eBlog.title}
-							</h3>
-							<p class="font-adjust-p">{eBlog.description}</p>
+						{#if eBlog.pic}
+							<div
+								class="card-image"
+								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
+							></div>
+						{/if}
+						<div class="card-overlay"></div>
+						<div class="card-content">
+							<h3>{eBlog.title}</h3>
+							{#if eBlog.description}
+								<p>{eBlog.description}</p>
+							{/if}
 						</div>
 					</a>
 				{/each}
 			</div>
 		</section>
 
-		<section id="conclusion">
-			<h2>Conclusion</h2>
+		<section id="conclusion" class="action-section">
+			<h2>Apply This Tomorrow</h2>
 			<p>
-				By applying the Enneagram framework to your professional life, you can gain insight into
-				your own work style, communication preferences, and leadership potential, as well as those
-				of your colleagues.
+				Pick one colleague who frustrates you. <strong>Guess their type.</strong> Now reframe their behavior
+				through that lens. What fear might be driving them? What do they need to feel safe and effective?
 			</p>
 			<p>
-				We encourage you to explore the articles in this subsection to discover how the Enneagram
-				can help you achieve greater success and satisfaction in your career.
+				Adjust your approach based on that insight. A 5-minute conversation framed for their type
+				will accomplish more than an hour of talking past each other.
 			</p>
 		</section>
-
-		<section id="related-subsections">
-			<h2>Related Subsections</h2>
-			<ul>
-				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
-				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
-					>
-				</li>
-				<li>
-					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
-				</li>
-			</ul>
-		</section>
-
-		<!-- <section id="cta">
-			<h2>Stay Connected</h2>
-			<p>
-				Subscribe to our blog for the latest articles and insights on the Enneagram and its
-				applications.
-			</p>
-			<a href="#" class="cta-button">Subscribe Now</a>
-		</section> -->
-	</main>
-{/if}
-{#if subsection === 'resources'}
-	<BlogPageHead
-		data={{
-			title: `Essential Enneagram Resources: Tools, Tests & Training | 9takes`,
-			description:
-				'Cut through the noise. Access the best Enneagram tests, books, tools, and training. Curated resources for serious students of personality psychology.',
-			slug: slug,
-			author: 'DJ Wayne',
-			date: '2024-05-09',
-			loc: 'https://9takes.com/enneagram-corner/subtopic/resources',
-			lastmod: '2025-08-15',
-			blog: true,
-			pic: 'greek-dude-reading-book'
-		}}
-		{slug}
-	/>
-	<header>
-		<h1>Resources That Actually Work (We Tested Everything)</h1>
-	</header>
-
-	<main>
-		<section id="introduction">
-			<p>
+	{:else if subsection === 'resources'}
+		<section id="introduction" class="intro-section">
+			<p class="hook">
 				<strong>90% of Enneagram content is garbage.</strong> Surface-level buzzfeed quizzes, Instagram
 				infographics that oversimplify, books that contradict each other. We've sorted through it all
 				so you don't have to.
@@ -528,143 +573,91 @@
 		</section>
 
 		<section id="resource-categories">
-			<h2>All Articles</h2>
-			<div class="blog-grid-container temp-three-row">
+			<h2>Curated Resources</h2>
+			<div class="blog-grid">
 				{#each blogs as eBlog}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
-						class="grid-item inline-it"
-						style={eBlog.pic &&
-							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+						class="blog-card"
+						class:has-image={eBlog.pic}
+						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
-						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
-							<h3>
-								{eBlog.title}
-							</h3>
-							<p class="font-adjust-p">{eBlog.description}</p>
+						{#if eBlog.pic}
+							<div
+								class="card-image"
+								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
+							></div>
+						{/if}
+						<div class="card-overlay"></div>
+						<div class="card-content">
+							<h3>{eBlog.title}</h3>
+							{#if eBlog.description}
+								<p>{eBlog.description}</p>
+							{/if}
 						</div>
 					</a>
 				{/each}
 			</div>
-			<!-- <ul>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Books</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Courses and Workshops</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Podcasts</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Online Communities and Forums</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Assessment Tools</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Coaching and Therapy Resources</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Apps and Software</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Research and Academic Resources</a></li>
-            </ul> -->
 		</section>
 
-		<section id="conclusion">
+		<section id="conclusion" class="action-section">
 			<h2>Skip the Beginner Mistakes</h2>
 			<p>
-				Most people waste months on bad tests, contradictory books, and surface-level content. <strong
-					>Start with resources that actually deliver results.</strong
-				> We've done the research, tested the tools, and validated the frameworks.
+				Most people waste months on bad tests, contradictory books, and surface-level content.
+				<strong>Start with resources that actually deliver results.</strong> We've done the research,
+				tested the tools, and validated the frameworks.
 			</p>
 			<p>
 				Our curated collection includes professional-grade assessments, evidence-based books, and
 				advanced training programs. Stop wasting time on personality astrology. Get the real tools.
 			</p>
 		</section>
-
-		<section id="related-subsections">
-			<h2>Apply Your Knowledge</h2>
-			<ul>
-				<li><a href="/enneagram-corner/subtopic/overview">🎓 Start With Core Theory</a></li>
-				<li><a href="/enneagram-corner/subtopic/nine-types">🔬 Study All 9 Types</a></li>
-				<li>
-					<a href="/enneagram-corner/subtopic/development">🚀 Apply to Personal Growth</a>
-				</li>
-				<li>
-					<a href="/enneagram-corner/subtopic/relationships">💕 Transform Your Relationships</a>
-				</li>
-				<li><a href="/enneagram-corner/subtopic/workplace">💼 Optimize Your Career</a></li>
-			</ul>
-		</section>
-
-		<!-- <section id="cta">
-			<h2>Stay Connected</h2>
-			<p>
-				Subscribe to our blog for the latest articles and insights on the Enneagram and its
-				applications.
-			</p>
-			<a href="#" class="cta-button">Subscribe Now</a>
-		</section> -->
-	</main>
-{/if}
-{#if subsection === 'situational'}
-	<BlogPageHead
-		data={{
-			title: `Real-World Type Behaviors: How Each Type Actually Shows Up | 9takes`,
-			description:
-				'See the types in action. From first dates to job interviews, from parties to panic attacks — understand exactly how each type behaves in real situations.',
-			slug: slug,
-			author: 'DJ Wayne',
-			date: '2024-05-09',
-			loc: 'https://9takes.com/enneagram-corner/subtopic/situational',
-			lastmod: '2025-08-15',
-			blog: true,
-			pic: 'greek-statue-flex'
-		}}
-		{slug}
-	/>
-	<header>
-		<h1>The Types in the Wild: Real Situations, Real Behaviors</h1>
-	</header>
-
-	<main>
-		<section id="introduction">
-			<p>
+	{:else if subsection === 'situational'}
+		<section id="introduction" class="intro-section">
+			<p class="hook">
 				<strong>Theory is useless without application.</strong> You can memorize all nine types, but
 				can you spot them at a party? In a meeting? During a crisis? On a first date?
 			</p>
 			<p>
 				These guides show you exactly how each type behaves in specific, real-world situations. No
-				abstract theory — just concrete patterns you'll recognize immediately. Learn to read people
-				like a book in any scenario.
+				abstract theory—just concrete patterns you'll recognize immediately.
 			</p>
+			<p class="insight-callout">Learn to read people like a book in any scenario.</p>
 		</section>
 
 		<section id="situation-categories">
-			<h2>All Articles</h2>
-			<div class="blog-grid-container temp-three-row">
+			<h2>Types in Action</h2>
+			<div class="blog-grid">
 				{#each blogs as eBlog}
 					<a
 						href="/enneagram-corner/{eBlog.slug}"
-						class="grid-item inline-it"
-						style={eBlog.pic &&
-							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+						class="blog-card"
+						class:has-image={eBlog.pic}
+						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
-						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
-							<h3>
-								{eBlog.title}
-							</h3>
-							<p class="font-adjust-p">{eBlog.description}</p>
+						{#if eBlog.pic}
+							<div
+								class="card-image"
+								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
+							></div>
+						{/if}
+						<div class="card-overlay"></div>
+						<div class="card-content">
+							<h3>{eBlog.title}</h3>
+							{#if eBlog.description}
+								<p>{eBlog.description}</p>
+							{/if}
 						</div>
 					</a>
 				{/each}
 			</div>
-			<!-- <ul>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Types Under Stress</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Types in Conflict</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Types and Decision-Making</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Types and Problem-Solving</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Types in Leadership Roles</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Types in Romantic Relationships</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Types as Parents</a></li>
-                <li><a href="/enneagram-corner/subtopic">Enneagram Types in Times of Change and Uncertainty</a></li>
-            </ul> -->
 		</section>
 
-		<section id="conclusion">
+		<section id="conclusion" class="action-section">
 			<h2>Become a Human Behavior Expert</h2>
 			<p>
 				Imagine walking into any room and instantly understanding everyone's motivations, fears, and
-				likely behaviors. <strong>This isn't mind reading — it's pattern recognition.</strong>
+				likely behaviors. <strong>This isn't mind reading—it's pattern recognition.</strong>
 			</p>
 			<p>
 				Our situational guides train you to spot types in action, predict their responses, and adapt
@@ -672,60 +665,101 @@
 				understand people better, these are your field guides to human behavior.
 			</p>
 		</section>
+	{/if}
 
-		<section id="related-subsections">
-			<h2>Master Every Domain</h2>
-			<ul>
-				<li><a href="/enneagram-corner/subtopic/overview">🧠 Learn the Psychology</a></li>
-				<li><a href="/enneagram-corner/subtopic/nine-types">👥 Understand All Types</a></li>
-				<li>
-					<a href="/enneagram-corner/subtopic/development">🎯 Apply to Yourself</a>
-				</li>
-				<li>
-					<a href="/enneagram-corner/subtopic/relationships">❤️ Navigate Relationships</a>
-				</li>
-				<li><a href="/enneagram-corner/subtopic/workplace">💼 Excel Professionally</a></li>
-			</ul>
-		</section>
-
-		<!-- <section id="cta">
-			<h2>Stay Connected</h2>
-			<p>
-				Subscribe to our blog for the latest articles and insights on the Enneagram and its
-				applications.
-			</p>
-			<a href="#" class="cta-button">Subscribe Now</a>
-		</section> -->
-	</main>
-{/if}
+	<section id="related-subsections">
+		<h2>Where to Go Next</h2>
+		<div class="related-grid">
+			{#each links as link}
+				<a href={link.href} class="related-card">
+					<span class="related-label">{link.label}</span>
+					<span class="related-hook">{link.hook}</span>
+				</a>
+			{/each}
+		</div>
+	</section>
+</main>
 
 <style lang="scss">
-	/* Style Guide Compliant Styles */
+	/* Brand-aligned Design System */
+	:root {
+		--brand-purple: #6c5ce7;
+		--brand-purple-light: rgba(108, 92, 231, 0.1);
+		--brand-purple-dark: #5a4bcf;
+		--text-primary: #2d3436;
+		--text-secondary: #636e72;
+		--surface: white;
+		--border-subtle: rgba(0, 0, 0, 0.06);
+	}
+
+	/* Typography */
 	h1 {
-		font-size: 2.5rem;
+		font-size: clamp(2rem, 5vw, 2.75rem);
 		font-weight: 700;
-		color: #2d3436;
+		color: var(--text-primary);
 		margin-bottom: 1.5rem;
+		line-height: 1.2;
 	}
 
 	h2 {
-		font-size: 1.875rem;
+		font-size: clamp(1.5rem, 3vw, 1.875rem);
 		font-weight: 600;
-		color: #2d3436;
-		margin-bottom: 1rem;
+		color: var(--text-primary);
+		margin-bottom: 1.25rem;
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		font-weight: 600;
-		color: #2d3436;
+		color: var(--text-primary);
 	}
 
 	p {
-		font-size: 0.9rem;
-		color: #636e72;
-		line-height: 1.6;
+		font-size: 1rem;
+		color: var(--text-secondary);
+		line-height: 1.7;
 		margin-bottom: 1rem;
+	}
+
+	/* Intro Section Styling */
+	.intro-section {
+		margin-bottom: 3rem;
+		max-width: 720px;
+
+		.hook {
+			font-size: 1.125rem;
+			color: var(--text-primary);
+			line-height: 1.6;
+		}
+
+		.insight-callout {
+			margin-top: 1.5rem;
+			padding: 1.25rem 1.5rem;
+			background: linear-gradient(135deg, var(--brand-purple-light), rgba(108, 92, 231, 0.05));
+			border-left: 4px solid var(--brand-purple);
+			border-radius: 0 8px 8px 0;
+			color: var(--text-primary);
+			font-weight: 500;
+			font-style: italic;
+		}
+	}
+
+	/* Action Section (Conclusions) */
+	.action-section {
+		margin-top: 3rem;
+		padding: 2rem;
+		background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+		border-radius: 12px;
+		border: 1px solid var(--border-subtle);
+		max-width: 720px;
+
+		h2 {
+			margin-bottom: 1rem;
+		}
+
+		p:last-child {
+			margin-bottom: 0;
+		}
 	}
 
 	/* Disable default link arrows */
@@ -733,188 +767,248 @@
 		display: none !important;
 	}
 
-	/* Blog Grid - Style Guide Compliant */
-	.enneagram-blog-grid {
+	/* Blog Grid */
+	.blog-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 1.5rem;
-		margin-bottom: 4rem;
+		gap: 1rem;
 	}
 
+	.nine-types-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	/* Blog Cards */
 	.blog-card {
-		aspect-ratio: 3 / 4;
-		border-radius: 12px;
-		background: white;
-		border: 1px solid rgba(0, 0, 0, 0.06);
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-		text-decoration: none;
-		display: flex;
 		position: relative;
+		aspect-ratio: 4 / 3;
+		border-radius: 12px;
 		overflow: hidden;
-		background-size: cover;
-		background-position: center;
+		background: linear-gradient(
+			135deg,
+			var(--darkest-gray, #2d3436) 0%,
+			var(--black, #1a1a1a) 100%
+		);
+		text-decoration: none;
+		transition: all 0.3s ease;
 
 		&:hover {
 			transform: translateY(-4px);
-			box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
+			box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+
+			.card-image {
+				transform: scale(1.05);
+			}
+		}
+
+		&.has-image {
+			.card-overlay {
+				background: linear-gradient(
+					to top,
+					rgba(0, 0, 0, 0.85) 0%,
+					rgba(0, 0, 0, 0.4) 50%,
+					rgba(0, 0, 0, 0.1) 100%
+				);
+			}
+		}
+	}
+
+	.card-image {
+		position: absolute;
+		inset: 0;
+		background-size: cover;
+		background-position: center;
+		transition: transform 0.4s ease;
+	}
+
+	.card-overlay {
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(135deg, rgba(42, 45, 52, 0.9) 0%, rgba(24, 25, 26, 0.9) 100%);
+	}
+
+	.card-content {
+		position: relative;
+		z-index: 2;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding: 1.25rem;
+		color: white;
+
+		h3 {
+			font-size: 1rem;
+			font-weight: 600;
+			line-height: 1.4;
+			margin: 0;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		p {
+			font-size: 0.8rem;
+			line-height: 1.5;
+			opacity: 0.85;
+			margin: 0.5rem 0 0;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+	}
+
+	/* Related Subsections */
+	#related-subsections {
+		margin-top: 3rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--border-subtle);
+
+		h2 {
+			margin-bottom: 1.5rem;
+		}
+	}
+
+	.related-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		gap: 1rem;
+	}
+
+	.related-card {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		padding: 1.25rem;
+		background: var(--surface);
+		border: 1px solid var(--border-subtle);
+		border-radius: 10px;
+		text-decoration: none;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+		&:hover {
+			background: var(--brand-purple-light);
 			border-color: rgba(108, 92, 231, 0.2);
-		}
+			transform: translateY(-2px);
 
-		/* Dark cards for no-image items */
-		&.no-image {
-			background: linear-gradient(135deg, #1a1a2e 0%, #2d3436 100%);
-			border: 1px solid rgba(255, 255, 255, 0.08);
-
-			&:hover {
-				background: linear-gradient(135deg, #2d3436 0%, #3d4447 100%);
-			}
-
-			.card-content {
-				background: none;
-
-				h3 {
-					color: white;
-				}
-
-				p {
-					color: rgba(255, 255, 255, 0.8);
-				}
+			.related-label {
+				color: var(--brand-purple-dark);
 			}
 		}
 
-		.card-content {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			padding: 1.5rem;
-			background: linear-gradient(
-				to top,
-				rgba(0, 0, 0, 0.9) 0%,
-				rgba(0, 0, 0, 0.7) 60%,
-				rgba(0, 0, 0, 0.2) 100%
-			);
-			min-height: 60%;
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-end;
-			gap: 0.75rem;
-
-			h3 {
-				color: white;
-				font-size: 1.15rem;
-				font-weight: 600;
-				line-height: 1.35;
-				margin: 0;
-				display: -webkit-box;
-				-webkit-line-clamp: 3;
-				line-clamp: 3;
-				-webkit-box-orient: vertical;
-				overflow: hidden;
-			}
-
-			p {
-				color: rgba(255, 255, 255, 0.95);
-				font-size: 0.875rem;
-				line-height: 1.5;
-				margin: 0;
-				display: -webkit-box;
-				-webkit-line-clamp: 2;
-				line-clamp: 2;
-				-webkit-box-orient: vertical;
-				overflow: hidden;
-			}
+		.related-label {
+			font-weight: 600;
+			color: var(--brand-purple);
+			font-size: 1rem;
 		}
-	}
 
-	/* Legacy support */
-	.blog-grid-container {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 1.5rem;
-		margin-bottom: 4rem;
-	}
-
-	.temp-three-row {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 1.5rem;
+		.related-hook {
+			color: var(--text-secondary);
+			font-size: 0.875rem;
+		}
 	}
 
 	/* Section spacing */
 	section {
-		margin-bottom: 2rem;
+		margin-bottom: 2.5rem;
 	}
 
-	/* Related links styling */
-	#related-subsections {
-		ul {
-			list-style: none;
-			padding: 0;
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-			gap: 1rem;
+	/* Responsive */
+	@media (max-width: 900px) {
+		.blog-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
 
-			li a {
-				display: block;
-				padding: 1rem;
-				background: white;
-				border: 1px solid rgba(0, 0, 0, 0.08);
-				border-radius: 8px;
-				text-decoration: none;
-				color: #6c5ce7;
-				transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		.nine-types-grid {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
 
-				&:hover {
-					background: rgba(108, 92, 231, 0.05);
-					transform: translateX(4px);
-				}
+	@media (max-width: 640px) {
+		.blog-grid,
+		.nine-types-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 0.5rem;
+		}
+
+		.blog-card {
+			aspect-ratio: 1;
+			border-radius: 8px;
+		}
+
+		.card-content {
+			padding: 0.75rem;
+
+			h3 {
+				font-size: 0.8rem;
+				-webkit-line-clamp: 2;
+				line-clamp: 2;
+			}
+
+			p {
+				display: none;
+			}
+		}
+
+		.intro-section,
+		.action-section {
+			max-width: 100%;
+		}
+
+		.action-section {
+			padding: 1.5rem;
+			border-radius: 12px;
+		}
+
+		.related-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (max-width: 480px) {
+		p {
+			font-size: 0.9375rem;
+		}
+
+		.intro-section .hook {
+			font-size: 1rem;
+		}
+
+		.intro-section .insight-callout {
+			padding: 1rem 1.25rem;
+		}
+	}
+
+	@media (max-width: 380px) {
+		.blog-grid,
+		.nine-types-grid {
+			gap: 0.4rem;
+		}
+
+		.card-content {
+			padding: 0.5rem;
+
+			h3 {
+				font-size: 0.7rem;
 			}
 		}
 	}
 
-	/* Mobile responsiveness */
-	@media (max-width: 768px) {
-		.enneagram-blog-grid,
-		.blog-grid-container,
-		.temp-three-row {
-			grid-template-columns: 1fr;
-			gap: 1rem;
+	/* Dark mode support */
+	@media (prefers-color-scheme: dark) {
+		:root {
+			--text-primary: #f0f0f0;
+			--text-secondary: #a0a0a0;
+			--surface: #1a1a2e;
+			--border-subtle: rgba(255, 255, 255, 0.1);
 		}
 
-		h1 {
-			font-size: 2rem;
-		}
-
-		h2 {
-			font-size: 1.5rem;
-		}
-
-		h3 {
-			font-size: 1.25rem;
-		}
-
-		.blog-card .card-content h3 {
-			font-size: 1rem;
-			-webkit-line-clamp: 2;
-			line-clamp: 2;
-		}
-
-		.blog-card .card-content p {
-			font-size: 0.8rem;
-		}
-	}
-
-	@media (max-width: 550px) {
-		.enneagram-blog-grid,
-		.blog-grid-container,
-		.temp-three-row {
-			grid-template-columns: 1fr;
-		}
-
-		p {
-			font-size: 0.85rem;
+		.action-section {
+			background: linear-gradient(135deg, #1a1a2e 0%, #2d3436 100%);
 		}
 	}
 </style>

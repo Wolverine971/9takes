@@ -4,7 +4,7 @@ description: 'Harnessing the Power of the Enneagram for Balanced and Diverse Tea
 author: 'DJ Wayne'
 date: '2024-08-11'
 loc: 'https://9takes.com/enneagram-corner/enneagram-team-diversity'
-lastmod: '2025-12-05'
+lastmod: '2025-01-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -31,39 +31,37 @@ Groupthink isn't a failure of effort. It's the default outcome when you let team
 
 **The Enneagram reveals what your team is actually missing.**
 
-## The Enneagram Triads: Decoding Communication Styles
+## The Enneagram Triads: Three Ways Teams Break Down
 
-The Enneagram offers three key groupings that illuminate different communication styles. These triads provide insight into how team members interact, cope with challenges, and relate to others.
+The Enneagram groups types into triads. Each triad reveals a different dimension of how people operate. Understanding these explains why certain people clash (or click) instantly.
 
-### Hornevian Groups: How We Engage with the World
+### How People Take Up Space
 
-The Hornevian groups, named after psychoanalyst Karen Horney, describe how types interact with others and their environment. These groups reveal whether a person tends to move towards, away from, or against others in their interactions.
+Some people walk into a meeting and immediately start talking. Others wait to be asked. Others zone out entirely unless directly engaged.
 
-- Assertives (Types 3, 7, 8): Direct, action-oriented communicators who often take charge in conversations.
-- Compliants (Types 1, 2, 6): Collaborative communicators who seek consensus and harmony in discussions.
-- Withdrawn (Types 4, 5, 9): Reflective communicators who may need time to process before contributing.
+- **The Drivers (3, 7, 8)**: They take charge. They speak first. They push for action.
+- **The Collaborators (1, 2, 6)**: They seek buy-in. They want everyone on the same page before moving forward.
+- **The Observers (4, 5, 9)**: They process internally. They need time before contributing. If you don't explicitly invite them in, they stay quiet.
 
-Understanding these engagement styles can help teams balance leadership and collaboration effectively. By recognizing each member's natural tendencies, teams can create an environment where all voices are heard and valued.
+**The problem**: If your team is all Drivers, you get conflict and competition. All Collaborators? Nothing gets decided. All Observers? Brilliant ideas never surface.
 
-### Harmonic Groups: How We Handle Conflict
+### How People Handle Conflict
 
-Harmonic groups reflect how types cope with difficulty and conflict. These groups provide insight into a person's default response when faced with challenges or disagreements.
+When problems arise, people default to different modes:
 
-- Competency Types (1, 3, 5) approach problems logically, valuing efficiency and objectivity.
-- Reactive Types (4, 6, 8) are emotionally expressive, seeking understanding and validation.
-- Positive Outlook Types (2, 7, 9) focus on possibilities and silver linings, often trying to maintain harmony.
+- **Logic Mode (1, 3, 5)**: "Let's analyze this objectively. What are the facts?"
+- **Emotional Mode (4, 6, 8)**: "I need to be heard. I need you to understand why this matters."
+- **Positive Mode (2, 7, 9)**: "Let's focus on what's working. Let's not dwell on the negative."
 
-Recognizing these coping mechanisms can help teams navigate conflicts more smoothly and leverage different problem-solving approaches. By understanding each member's default conflict style, teams can develop strategies to address disagreements constructively.
+**The clash**: Logic Mode dismisses Emotional Mode as "too dramatic." Emotional Mode sees Logic Mode as "cold." Positive Mode frustrates both by "not taking things seriously."
 
-### Object Relations: How We Connect with Others
+### How People Connect (or Don't)
 
-Object Relations groups, rooted in psychoanalytic theory, describe core relational issues. These groups shed light on how individuals form and maintain relationships within the team.
+- **Connection Seekers (3, 6, 9)**: They need validation. They want to belong.
+- **Frustration Types (1, 4, 7)**: Something always feels missing. They're searching for the ideal.
+- **Boundary Types (2, 5, 8)**: They control access to themselves, either by pushing in or pulling away.
 
-- Attachment Types (3, 6, 9): Seek connection and validation from others.
-- Frustration Types (1, 4, 7): Often feel a sense of inner lack or missing piece.
-- Rejection Types (2, 5, 8): May struggle with closeness, either pushing away or withdrawing.
-
-Understanding these relational patterns can foster empathy and improve team bonding. By recognizing each member's attachment style, teams can create an environment that supports healthy relationships and collaboration.
+Understanding these patterns prevents you from taking things personally. That coworker isn't cold; they're a Type 5 conserving energy. That team member isn't clingy; they're a Type 6 seeking security.
 
 ## Enneagram Combinations: The Power of Diversity
 
@@ -169,7 +167,7 @@ What type is your team missing?
 "https://www.linkedin.com/in/davidtwayne/",
 "https://twitter.com/djwayne3" ]
       },
-      "dateModified": "2024-08-12",
+      "dateModified": "2025-01-06",
       "datePublished": "2024-08-12",
       "description": "Harnessing the Power of the Enneagram for Balanced and Diverse Teams",
       "headline": "Enneagram Team Diversity",

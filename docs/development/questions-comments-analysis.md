@@ -1,4 +1,5 @@
 <!-- docs/development/questions-comments-analysis.md -->
+
 # Questions Page & Comments Components Analysis
 
 **Date:** 2026-01-04
@@ -836,6 +837,7 @@ const getUrlString = (unalteredText: string) => {
 #### 2. **Character Limit Validation Mismatch**
 
 **Locations:**
+
 - Frontend: `src/routes/questions/create/+page.svelte:230` - `MAX_CHAR_COUNT = 280`
 - Backend: `src/routes/questions/create/+page.server.ts:16` - `min(10).max(500)`
 
@@ -878,9 +880,7 @@ interface QuestionWithTag {
 	// ... other properties
 }
 
-function processQuestionsAndTags(
-	questions: QuestionWithTag[]
-): Record<string, QuestionWithTag[]> {
+function processQuestionsAndTags(questions: QuestionWithTag[]): Record<string, QuestionWithTag[]> {
 	// ...
 }
 ```
@@ -938,7 +938,7 @@ remove: async ({ request, locals }) => {
 	const body = Object.fromEntries(await request.formData());
 	const questionId = parseInt(body.questionId as string); // No validation!
 	// ...
-}
+};
 ```
 
 **Recommendation:** Add Zod validation:
@@ -967,7 +967,7 @@ update: async ({ request, locals }) => {
 	const question_formatted = body.question_formatted as string;
 	const tags = JSON.parse(body.tags as string); // Unsafe JSON.parse!
 	// ...
-}
+};
 ```
 
 **Impact:** `JSON.parse` on unvalidated input could crash or be exploited.
@@ -1022,29 +1022,33 @@ The 100+ item stopwords array is defined inline.
 
 ### Fixes Implemented (2026-01-04)
 
-| Priority | Issue | Location | Status |
-|----------|-------|----------|--------|
-| Critical | Debug console.log | create/+page.server.ts:300 | ✅ FIXED |
-| Critical | Validation mismatch (280 vs 500) | create pages | ✅ FIXED |
-| Critical | Missing validation on remove action | +page.server.ts:215 | ✅ FIXED |
-| Critical | Missing validation on update action | +page.server.ts:265-270 | ✅ FIXED |
-| High | Missing types in processQuestionsAndTags | +page.svelte:45 | ✅ FIXED |
-| High | `any` type for html2canvas | create/+page.svelte:21 | ✅ FIXED |
-| High | `any` type in SearchQuestion | SearchQuestion.svelte:10 | ✅ FIXED |
-| Low | Extract stopwords to constants | create/+page.server.ts:332 | ⚪ NICE TO HAVE |
+| Priority | Issue                                    | Location                   | Status          |
+| -------- | ---------------------------------------- | -------------------------- | --------------- |
+| Critical | Debug console.log                        | create/+page.server.ts:300 | ✅ FIXED        |
+| Critical | Validation mismatch (280 vs 500)         | create pages               | ✅ FIXED        |
+| Critical | Missing validation on remove action      | +page.server.ts:215        | ✅ FIXED        |
+| Critical | Missing validation on update action      | +page.server.ts:265-270    | ✅ FIXED        |
+| High     | Missing types in processQuestionsAndTags | +page.svelte:45            | ✅ FIXED        |
+| High     | `any` type for html2canvas               | create/+page.svelte:21     | ✅ FIXED        |
+| High     | `any` type in SearchQuestion             | SearchQuestion.svelte:10   | ✅ FIXED        |
+| Low      | Extract stopwords to constants           | create/+page.server.ts:332 | ⚪ NICE TO HAVE |
 
 ---
 
 ### Fix Details
 
 #### 1. Removed Debug console.log
+
 **File:** `src/routes/questions/create/+page.server.ts:300`
+
 ```typescript
 // Removed: console.log('fix this');
 ```
 
 #### 2. Fixed Validation Mismatch
+
 **File:** `src/routes/questions/create/+page.server.ts`
+
 ```typescript
 // Added constants to match frontend MAX_CHAR_COUNT = 280
 const QUESTION_MIN_LENGTH = 10;
@@ -1056,7 +1060,9 @@ const getUrlSchema = z.object({
 ```
 
 #### 3. Added Validation Schemas for Admin Actions
+
 **File:** `src/routes/questions/+page.server.ts`
+
 ```typescript
 const removeQuestionSchema = z.object({
 	questionId: z.string().regex(/^\d+$/, 'Invalid question ID')
@@ -1080,13 +1086,13 @@ const updateQuestionSchema = z.object({
 ```
 
 #### 4. Fixed TypeScript Types in processQuestionsAndTags
+
 **File:** `src/routes/questions/+page.svelte`
+
 ```typescript
 import type { QuestionWithTag } from '$lib/types/questions';
 
-function processQuestionsAndTags(
-	questions: QuestionWithTag[]
-): Record<string, QuestionWithTag[]> {
+function processQuestionsAndTags(questions: QuestionWithTag[]): Record<string, QuestionWithTag[]> {
 	const grouped: Record<string, QuestionWithTag[]> = {};
 	const seen = new Set<number>();
 	// ...
@@ -1094,14 +1100,20 @@ function processQuestionsAndTags(
 ```
 
 #### 5. Fixed html2canvas Type
+
 **File:** `src/routes/questions/create/+page.svelte`
+
 ```typescript
 // Changed from: let html2canvas: any;
-let html2canvasModule: ((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>) | null = null;
+let html2canvasModule:
+	| ((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>)
+	| null = null;
 ```
 
 #### 6. Fixed SearchQuestion Types
+
 **File:** `src/lib/components/questions/SearchQuestion.svelte`
+
 ```typescript
 interface SearchResultItem {
 	question: string;
