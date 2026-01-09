@@ -1,6 +1,7 @@
 // src/routes/admin/content-board/+page.server.ts
 import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
+import matter from 'gray-matter';
 
 import type { Actions } from '@sveltejs/kit';
 
@@ -34,54 +35,51 @@ export const load = async (
 		throw redirect(307, '/questions');
 	}
 
-	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
+	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`, {
+		as: 'raw',
+		eager: true
+	});
 
-	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
-		resolver().then(
-			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				}) as App.BlogPost
-		)
-	);
+	const enneagramBlogPosts = Object.entries(enneagramModules).map(([path, raw]) => {
+		const { data: metadata } = matter(raw as string);
+		return {
+			...(metadata as App.BlogPost),
+			slug: slugFromPath(path)
+		};
+	});
 
-	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
-	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
-		resolver().then(
-			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				}) as App.BlogPost
-		)
-	);
+	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`, {
+		as: 'raw',
+		eager: true
+	});
+	const communityBlogPosts = Object.entries(communityModules).map(([path, raw]) => {
+		const { data: metadata } = matter(raw as string);
+		return {
+			...(metadata as App.BlogPost),
+			slug: slugFromPath(path)
+		};
+	});
 
-	const guidesModules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
-	const guidesPromises = Object.entries(guidesModules).map(([path, resolver]) =>
-		resolver().then(
-			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				}) as App.BlogPost
-		)
-	);
+	const guidesModules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`, {
+		as: 'raw',
+		eager: true
+	});
+	const guidesBlogPosts = Object.entries(guidesModules).map(([path, raw]) => {
+		const { data: metadata } = matter(raw as string);
+		return {
+			...(metadata as App.BlogPost),
+			slug: slugFromPath(path)
+		};
+	});
 
 	// Execute all promises in parallel
 	const [
-		enneagramBlogPosts,
-		communityBlogPosts,
-		guidesBlogPosts,
 		enneagramContent,
 		communityContent,
 		guidesContent,
 		peopleContent,
 		peopleBlogPosts
 	] = await Promise.all([
-		Promise.all(enneagramPromises),
-		Promise.all(communityPromises),
-		Promise.all(guidesPromises),
 		supabase.from(`content_enneagram`).select('*'),
 		supabase.from(`content_community`).select('*'),
 		supabase.from(`content_guides`).select('*'),

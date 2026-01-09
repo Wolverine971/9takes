@@ -1,305 +1,258 @@
-<!-- CLAUDE.md -->
-
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Guidance for Claude Code when working with this repository.
 
 ## Project Overview
 
-9takes is a personality-based Q&A platform built on the Enneagram personality system. The platform features anonymous questions and answers with personality context, using a unique "give-first" commenting system where users must contribute before seeing others' responses.
+9takes is a personality-based Q&A platform built on the Enneagram system. Users submit anonymous questions/answers with personality context using a "give-first" commenting system (must contribute before viewing others' responses).
 
 **Core Concept**: "See the emotions behind every take" - One situation, 9 ways to see it.
 
-## Development Commands
+### Platform Pillars
 
-### Essential Commands
+1. **Q&A Platform** (`/questions`) - Anonymous personality-based discussions with give-first mechanic
+2. **Coaching/Consultation** (`/book-session`) - Waitlist signup for 1-on-1 Enneagram coaching sessions
+3. **Blog Content** - SEO-driven content across multiple domains (see Blog Categories below)
+4. **Admin Tools** (`/admin`) - Content management, analytics, email campaigns, user management
 
-```bash
-# Development
-pnpm dev              # Start development server (port 5173)
-pnpm build            # Build for production
-pnpm preview          # Preview production build
-
-# Code Quality
-pnpm check            # Type-check TypeScript and Svelte
-pnpm lint             # Lint code (Prettier + ESLint)
-pnpm format           # Auto-format code
-
-# Testing
-pnpm test             # Run Playwright E2E tests
-pnpm test:unit        # Run unit tests (Vitest)
-
-# Utilities
-pnpm clean            # Clean build artifacts
-```
-
-### Package Management
-
-This project uses pnpm. Install dependencies with:
+## Commands
 
 ```bash
-pnpm install
+pnpm dev          # Start dev server (port 5173)
+pnpm build        # Production build
+pnpm check        # TypeScript/Svelte type-check
+pnpm lint         # Lint (Prettier + ESLint)
+pnpm format       # Auto-format code
+pnpm test         # Playwright E2E tests
+pnpm test:unit    # Vitest unit tests
 ```
 
-## Architecture Overview
+## Tech Stack
 
-### Tech Stack
-
-- **Framework**: SvelteKit 2.x with TypeScript
-- **Database**: Supabase (PostgreSQL with real-time features)
-- **Deployment**: Vercel
+- **Framework**: SvelteKit 2.x + Svelte 5 (with runes)
+- **Database**: Supabase (PostgreSQL)
 - **Styling**: TailwindCSS + SCSS
-- **Content**: MDsvex for Markdown processing
-- **Search**: Elasticsearch
-- **UI Components**: Flowbite-Svelte
+- **Content**: MDsvex for Markdown blogs
+- **Search**: Elasticsearch (questions), Supabase FTS (blogs)
+- **UI**: Flowbite-Svelte
+- **Deploy**: Vercel
 
-### Project Structure
+## Project Structure
 
 ```
 src/
-├── routes/                    # SvelteKit routes
-│   ├── questions/            # Main Q&A platform
-│   ├── personality-analysis/ # Celebrity Enneagram analyses
-│   ├── enneagram-corner/    # Educational content
-│   ├── api/                 # Server-side API endpoints
-│   └── admin/               # Admin panel
+├── routes/
+│   ├── questions/             # Q&A platform core
+│   ├── community/             # Community blog posts
+│   ├── enneagram-corner/      # Enneagram educational content
+│   ├── personality-analysis/  # Celebrity analyses (DB-driven)
+│   ├── how-to-guides/         # Practical guides
+│   ├── book-session/          # Coaching waitlist signup
+│   ├── admin/                 # Admin panel
+│   └── api/                   # Server endpoints
 ├── lib/
-│   ├── components/          # Reusable UI components
-│   ├── utils/              # Helper functions
-│   └── supabase.ts         # Database client
-├── blog/                   # Markdown blog content
-├── emails/                 # Email templates
-└── scss/                   # Global styles
+│   ├── components/
+│   │   ├── atoms/             # Basic UI (Button, Modal, etc.)
+│   │   ├── molecules/         # Complex components (Header, etc.)
+│   │   ├── blog/              # Blog-specific (callouts, layout)
+│   │   └── questions/         # Comment system components
+│   ├── server/                # Server-only utils (ES, blog processor)
+│   ├── types/                 # TypeScript types
+│   ├── validation/            # Zod schemas
+│   └── utils/                 # Shared utilities
+├── blog/                      # Markdown content files
+│   ├── enneagram/            # Enneagram educational content
+│   ├── community/            # Community posts
+│   ├── guides/               # How-to guides
+│   └── people/               # Famous people (drafts only)
+└── scss/                      # Global SCSS styles
 ```
 
-### Documentation Structure
+## Blog Categories & Loading
 
-```
-docs/
-├── README.md                  # Master index/phonebook (START HERE)
-├── START-HERE.md              # Strategy overview and priorities
-├── 30-DAY-ACTION-PLAN-*.md    # Active action plans
-│
-├── brand/                     # Voice, tone, visual identity
-├── writing-system/            # Content creation workflows
-├── content-generation/        # Templates, prompts, image guides
-├── content-analysis/          # SEO, optimization, traffic data
-├── content-research/          # Active research for blog posts
-├── domain-authority/          # Content gaps & opportunities
-├── blogs-famous-people/       # Celebrity blog management
-│
-├── twitter/                   # Twitter/X strategy & content
-│   ├── README.md              # Twitter hub
-│   ├── strategy/              # Master strategy
-│   ├── execution/             # Posts queue, metrics
-│   ├── content-ideas/         # Topic-based content ideas
-│   ├── templates/             # Response templates, formatting
-│   └── research/              # Grok analysis, research
-│
-├── marketing/                 # Marketing frameworks
-├── development/               # Technical docs & specs
-├── project-docs/              # Platform context
-├── research/                  # Competitor analysis
-├── security/                  # Credentials, security
-├── archives/                  # Historical reference only
-└── migrations/                # Database migrations
-```
+The site has 4 main blog sections (visible in header nav):
 
-### Documentation Conventions
+| Route                   | Label                | Content Source                           |
+| ----------------------- | -------------------- | ---------------------------------------- |
+| `/community`            | The Takes of 9takes  | MDsvex files from `src/blog/community/`  |
+| `/enneagram-corner`     | Enneagram Corner     | MDsvex files from `src/blog/enneagram/`  |
+| `/how-to-guides`        | How-to Guides        | MDsvex files from `src/blog/guides/`     |
+| `/personality-analysis` | Personality Analysis | **Supabase `blogs_famous_people` table** |
 
-All documentation files should follow these standards:
+**Important**: `/personality-analysis` is the **outlier** - it loads content from the database, not MDsvex files. This enables:
 
-#### Frontmatter
+- Dynamic content management via admin UI
+- Version history tracking (`blogs_famous_people_history`)
+- Database-driven metadata and publishing workflow
 
-Every doc file should include YAML frontmatter:
+All other blog routes use `import.meta.glob` to load markdown files at build time.
 
-```yaml
----
-title: 'Document Title'
-description: 'Brief description of purpose'
-last_modified: YYYY-MM-DD
-status: active | draft | archived
-category: hub | strategy | reference | guide | research
-related:
-  - ./path/to/related-doc.md
----
-```
+## Admin Panel (`/admin/*`)
 
-#### File Naming
+| Route                     | Purpose                                                 |
+| ------------------------- | ------------------------------------------------------- |
+| `/admin`                  | Dashboard - stats, charts, demo mode toggle, ES reindex |
+| `/admin/content-board`    | Famous people blog management (create, edit, publish)   |
+| `/admin/email-dashboard`  | Email campaign management (draft, schedule, send)       |
+| `/admin/marketing`        | Marketing tools and templates                           |
+| `/admin/consulting`       | Coaching management (clients, sessions, resources)      |
+| `/admin/questions`        | Question moderation and hierarchy                       |
+| `/admin/comments`         | Comment moderation                                      |
+| `/admin/users`            | User management                                         |
+| `/admin/drafts`           | Blog draft management                                   |
+| `/admin/search`           | Search index management                                 |
+| `/admin/poster-generator` | Social media image generation                           |
 
-| Type         | Pattern               | Example                             |
-| ------------ | --------------------- | ----------------------------------- |
-| Hub/Index    | `README.md`           | `twitter/README.md`                 |
-| Strategy doc | `kebab-case.md`       | `master-strategy.md`                |
-| Research     | `topic-research.md`   | `red-flags-dating-research.md`      |
-| Dated doc    | `topic-YYYY-MM-DD.md` | `competitor-analysis-2025-12-04.md` |
+## Key Database Tables
 
-#### Organization Principles
+- `questions` / `comments` - Q&A system with nested comments
+- `profiles` - User profiles with Enneagram type (1-9)
+- `blogs_content` - Published blogs with search_vector for FTS
+- `blogs_famous_people` - Celebrity analyses with full metadata
+- `blogs_famous_people_history` - Audit trail for celebrity blog changes
+- `coaching_waitlist` - Consultation signup leads
+- `admin_settings` - Feature flags and config
+- `comment_likes` / `subscriptions` - Engagement features
 
-- **Use README.md** as the index for each major folder
-- **Keep flat** — Avoid deep nesting (max 2-3 levels)
-- **Archive, don't delete** — Move outdated docs to `archives/`
-- **Use relative links** — `[text](./folder/file.md)`
-- **Update links when moving files**
+## Svelte 5 Patterns (IMPORTANT)
 
-### Key Features Implementation
-
-1. **Give-First Commenting System**
-   - Located in: `src/routes/questions/[slug]/+page.svelte`
-   - Users must submit a comment before viewing others' responses
-   - Tracks participation via fingerprinting for anonymous users
-
-2. **Personality Context**
-   - All users have an Enneagram type (1-9)
-   - Comments can be filtered by personality type
-   - Located in: `src/lib/components/questions/CommentList.svelte`
-
-3. **Content Management**
-   - Blog posts: `src/blog/` directory with MDsvex
-   - Questions stored in Supabase `questions` table
-   - Comments in nested structure supporting replies
-
-### Database Schema
-
-Key tables:
-
-- `questions`: User-submitted questions with context
-- `comments`: Nested comment system with personality types
-- `profiles`: User profiles with Enneagram types
-- `blog_posts`: SEO-focused blog content
-
-### API Patterns
-
-Server-side routes follow this pattern:
-
-```typescript
-// src/routes/api/[resource]/+server.ts
-export async function GET({ locals, url }) {
-	const supabase = locals.supabase;
-	// Implementation
-}
-```
-
-### Component Patterns
-
-Components use:
-
-- TypeScript for type safety
-- Svelte stores for state management
-- TailwindCSS for styling
-- Props validation with TypeScript interfaces
-
-Example:
+This project uses **Svelte 5 runes**. Use these patterns:
 
 ```svelte
 <script lang="ts">
-	export let enneagramType: number;
-	export let comment: Comment;
+	// Props (NOT export let)
+	let { data }: { data: PageData } = $props();
+
+	// Reactive state (NOT let x = value)
+	let count = $state(0);
+	let items = $state<Item[]>([]);
+
+	// Derived/effects (NOT $: reactive)
+	$effect(() => {
+		console.log('count changed:', count);
+	});
 </script>
 ```
 
-### Environment Variables
+**Note**: Some legacy components still use `export let` and `$:` - migrate when touching them.
 
-Required environment variables (create `.env` file):
+## API Route Patterns
 
-- `PUBLIC_SUPABASE_URL`
-- `PUBLIC_SUPABASE_ANON_KEY`
-- `SUPABASE_SERVICE_KEY`
-- `ELASTIC_NODE`
-- `ELASTIC_API_KEY`
-- `OPENAI_API_KEY`
-- `STRIPE_SECRET_KEY`
+```typescript
+// src/routes/api/[resource]/+server.ts
+import type { RequestHandler } from './$types';
+import { json, error } from '@sveltejs/kit';
 
-### Content Strategy
+export const GET: RequestHandler = async ({ locals, url }) => {
+	const supabase = locals.supabase;
 
-The platform has two main content areas:
+	// Use RPC functions for optimized queries
+	const { data, error: err } = await supabase.rpc('get_data', { param: value });
 
-1. **User-Generated Q&A** (`/questions`)
-   - Anonymous participation
-   - Personality-based filtering
-   - Give-first mechanic
+	if (err) return json({ error: err.message }, { status: 500 });
+	return json(data);
+};
+```
 
-2. **SEO Content** (`/blog`, `/personality-analysis`)
-   - Celebrity Enneagram analyses
-   - Educational content about personality types
-   - Drives organic traffic to the platform
+## Page Server Load Pattern
 
-### Testing Approach
+```typescript
+// +page.server.ts
+import type { PageServerLoad } from './$types';
 
-- E2E tests with Playwright in `/tests`
-- Unit tests with Vitest (minimal coverage currently)
-- Test database migrations in `/supabase/migrations`
+export const load: PageServerLoad = async (event) => {
+  const { supabase, safeGetSession } = event.locals;
+  const { session, user } = await safeGetSession();
 
-### Deployment
+  // Use RPC functions when combining multiple queries
+  const { data } = await supabase.rpc('get_page_data', { ... });
 
-Deployed to Vercel with:
+  return { data, user };
+};
+```
 
-- Adapter: `@sveltejs/adapter-vercel`
-- Build command: `pnpm build`
-- Output directory: `.vercel`
+## Blog Content System
 
-### Important Implementation Notes
+Blogs are MDsvex files with YAML frontmatter:
 
-1. **Authentication**: Uses Supabase Auth with SvelteKit helpers
-2. **Real-time**: Socket.io for live features
-3. **Analytics**: Custom analytics system tracking user engagement
-4. **Email**: Custom email system using Google APIs
-5. **Search**: Elasticsearch for content discovery
-6. **Markdown Processing**: MDsvex with custom configuration in `mdsvex.config.js`
+```markdown
+---
+title: 'Blog Title'
+description: 'SEO description'
+author: 'Author Name'
+date: '2024-01-15'
+published: true
+enneagram: 5
+type: ['person', 'situational']
+---
 
-### Common Development Tasks
+Content here. Can import Svelte components:
 
-When implementing new features:
-
-1. Check existing patterns in similar components
-2. Use TypeScript interfaces for data structures
-3. Follow the give-first pattern for new interactive features
-4. Ensure mobile responsiveness with Tailwind
-5. Add appropriate meta tags for SEO
-
-### Blog Callout Components
-
-Located in `src/lib/components/blog/callouts/`, these components provide styled blocks for blog content:
-
-#### QuickAnswer
-
-SEO-optimized component for Featured Snippets. Use at the top of blog posts to provide direct answers to search queries.
-
-```svelte
 <script>
-	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+  import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
 </script>
 
-<QuickAnswer question="Why do Type 1s constantly criticize everything?">
-	Type 1s live in an internal courtroom where they prosecute themselves against impossible
-	standards. This harsh inner critic developed from childhood experiences of criticism or premature
-	responsibility.
-</QuickAnswer>
+<QuickAnswer question="Why...?">Answer content</QuickAnswer>
 ```
 
-**Props:**
+**Blog indexing**: Run `node scripts/index-blogs-to-supabase.js` to sync blogs to database for search.
 
-- `question` (optional): The question being answered. If provided, displays prominently.
-- `answer` (optional): Explicit answer for structured data.
-- `variant`: `'default'` (purple gradient) or `'subtle'` (gray).
+## Brand Guidelines
 
-**Features:**
+Brand docs are in `docs/brand/`:
 
-- Schema.org Answer markup for SEO
-- Purple gradient with left accent bar (matches 9takes brand)
-- Dark mode support
-- Mobile responsive
+| File                        | Purpose                                            |
+| --------------------------- | -------------------------------------------------- |
+| `README.md`                 | Quick brand reference (taglines, voice attributes) |
+| `brand-style-guide-v2.md`   | Complete voice, tone, and style guide              |
+| `dj-communication-guide.md` | Personal communication preferences for AI          |
 
-#### Other Callout Components
+**Key Voice Attributes**:
 
-- `TypeQuotes.svelte` - Display Enneagram type quotes/statements (see `/docs/START-HERE.md` for usage)
-- `InsightBox.svelte` - Highlight key insights
-- `VisualMetaphor.svelte` - Visual metaphor callouts
-- `Checklist.svelte` - Interactive checklists
+- **Tactically Direct** - No fluff, actionable info
+- **Socially Savvy** - Connect insight to real-world wins
+- **Respectfully Provocative** - Challenge comfort zones
+- **Pattern-Recognition Focused** - Show emotional logic
+- **Results-Driven** - Focus on outcomes
 
-### Performance Considerations
+**Writing Rhythm**: Hook → Insight → Action step
 
-- Use SvelteKit's built-in preloading
-- Implement proper image optimization
-- Utilize Supabase's row-level security
-- Cache frequently accessed data
+**Key Verbs**: Decode, navigate, map, read, unlock, resolve
+
+## Environment Variables
+
+```bash
+PUBLIC_SUPABASE_URL=
+PUBLIC_SUPABASE_PUBLISHABLE_KEY=
+SUPABASE_SERVICE_KEY=
+ELASTIC_NODE=
+ELASTIC_API_KEY=
+OPENAI_API_KEY=
+STRIPE_SECRET_KEY=
+```
+
+## Utility Scripts
+
+```bash
+node scripts/generate-types.js           # Generate TS types from blog frontmatter
+node scripts/generate-famous-types.js    # Generate famous people type data
+node scripts/generate-sitemap.js         # Generate XML sitemap
+node scripts/index-blogs-to-supabase.js  # Index blogs for search
+```
+
+## Common Tasks
+
+- **Add blog post**: Create `.md` file in `src/blog/[category]/`, run index script
+- **Add celebrity analysis**: Use admin content-board UI (saves to `blogs_famous_people`)
+- **Add API endpoint**: Create `+server.ts` in `src/routes/api/[path]/`
+- **Add page**: Create `+page.svelte` and optionally `+page.server.ts`
+- **Database changes**: Update RPC functions in Supabase, regenerate types
+
+## Important Notes
+
+- Always use Supabase RPC functions for complex queries (reduces round trips)
+- Blog search uses `search_all_blogs` RPC with Supabase FTS fallback
+- Question search uses Elasticsearch
+- Rate limiting: 5 comments per 60 seconds per fingerprint
+- Auth: Access session via `event.locals.safeGetSession()`
+- Demo mode: Toggle via admin dashboard for multi-tenant testing

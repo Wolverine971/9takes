@@ -34,6 +34,7 @@
 	let isHomePage = false;
 	let isSignupPage = false;
 	let isCategoryPage = false;
+	let isAdminPage = false;
 	let shouldShowMaxWidth = true;
 	let showBackButton = false;
 
@@ -60,8 +61,9 @@
 		isHomePage = pathname === '/';
 		isSignupPage = pathname === '/signup';
 		isCategoryPage = pathname.includes('/categories');
-		shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes(pathname);
-		showBackButton = !isHomePage && !isCategoryPage;
+		isAdminPage = pathname.startsWith('/admin');
+		shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes(pathname) && !isAdminPage;
+		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage;
 	}
 
 	// Defer analytics loading to after page is interactive

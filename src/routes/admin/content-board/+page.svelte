@@ -1,27 +1,35 @@
 <!-- src/routes/admin/content-board/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
-	import { fade, slide } from 'svelte/transition';
-	import ContentCard from '$lib/components/content/contentCard.svelte';
+	import { fade } from 'svelte/transition';
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
+	import CompactCard from './CompactCard.svelte';
+	import ContentEditorModal from './ContentEditorModal.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
-	let expandedBlogTitle: string | null = null;
-	let activeSelection = 'enneagram';
-	let isDragging = false;
-	let draggedBlog: App.BlogPost | null = null;
-	let searchQuery = '';
-	let filterUnpublished = false;
-	let viewMode: 'board' | 'list' = 'board';
+	// Modal state
+	let modalOpen = $state(false);
+	let selectedBlog = $state<App.BlogPost | null>(null);
+	let selectedBlogId = $state<number | null>(null);
+	let closingModal = $state(false); // Flag to prevent reopening
+
+	let activeSelection = $state('people');
+	let isDragging = $state(false);
+	let draggedBlog = $state<App.BlogPost | null>(null);
+	let searchQuery = $state('');
+	let filterUnpublished = $state(false);
+	let viewMode = $state<'board' | 'list'>('board');
 
 	// Enhanced filtering for people
-	let selectedEnneagramType = '';
-	let selectedAuthor = '';
-	let selectedType = '';
-	let sortBy = 'lastmod';
-	let sortOrder: 'asc' | 'desc' = 'desc';
-	let showSocialMediaOnly = false;
+	let selectedEnneagramType = $state('');
+	let selectedAuthor = $state('');
+	let selectedType = $state('');
+	let sortBy = $state('lastmod');
+	let sortOrder = $state<'asc' | 'desc'>('desc');
+	let showSocialMediaOnly = $state(false);
 
 	const contentTypes = ['enneagram', 'community', 'guides', 'people'];
 	const stages = [
@@ -54,176 +62,273 @@
 		return (data as Record<string, App.BlogPost[]>)[type] || [];
 	}
 
+	// Handle URL query param for deep linking
+	$effect(() => {
+		const editId = $page.url.searchParams.get('edit');
+		if (editId && !modalOpen && !closingModal) {
+			const id = parseInt(editId);
+			if (!isNaN(id)) {
+				const blog = getContentData('people').find((b: any) => b.id === id);
+				if (blog) {
+					openModal(blog);
+				}
+			}
+		}
+		// Reset closing flag once URL is clean
+		if (!editId && closingModal) {
+			closingModal = false;
+		}
+	});
+
 	// Process each blog post and assign correct stage
-	$: {
+	$effect(() => {
 		contentTypes.forEach((type) => {
 			const contentData = getContentData(type);
 			contentData.forEach((blog: App.BlogPost) => {
 				if (!blog.published) {
-					// Unpublished content can only be "Not written" or "Prioritized"
 					if (blog.stageName === 'Prioritized') {
 						blog.stage = 1;
 					} else {
 						blog.stage = 0;
 					}
 				} else {
-					// Map stage names to indices for published content
 					const stageIndex = stages.indexOf(blog.stageName || '');
-					// Published content should be at least "Written" (stage 2)
 					blog.stage = stageIndex >= 2 ? stageIndex : 2;
 				}
 			});
 		});
-	}
+	});
 
 	// Get current content data
-	$: currentContentData = getContentData(activeSelection);
+	let currentContentData = $derived(getContentData(activeSelection));
 
 	// Get unique values for filters
-	$: uniqueEnneagramTypes =
-		activeSelection === 'people' && currentContentData.length
-			? [
-					...new Set(currentContentData.map((item: App.BlogPost) => item.enneagram).filter(Boolean))
-				].sort()
-			: [];
+	let uniqueEnneagramTypes = $derived.by(() => {
+		if (activeSelection !== 'people' || !currentContentData.length) return [];
+		return [
+			...new Set(currentContentData.map((item: App.BlogPost) => item.enneagram).filter(Boolean))
+		].sort();
+	});
 
-	$: uniqueAuthors =
-		activeSelection === 'people' && currentContentData.length
-			? [
-					...new Set(currentContentData.map((item: App.BlogPost) => item.author).filter(Boolean))
-				].sort()
-			: [];
+	let uniqueAuthors = $derived.by(() => {
+		if (activeSelection !== 'people' || !currentContentData.length) return [];
+		return [
+			...new Set(currentContentData.map((item: App.BlogPost) => item.author).filter(Boolean))
+		].sort();
+	});
 
-	$: uniqueTypes =
-		activeSelection === 'people' && currentContentData.length
-			? [
-					...new Set(
-						currentContentData
-							.map((item: App.BlogPost) => {
-								if (Array.isArray(item.type)) {
-									return item.type;
-								} else if (typeof item.type === 'string') {
-									try {
-										const parsed = JSON.parse(item.type);
-										return Array.isArray(parsed) ? parsed : [parsed];
-									} catch {
-										return [item.type];
-									}
-								}
-								return [];
-							})
-							.flat()
-							.filter(Boolean)
-					)
-				].sort()
-			: [];
-
-	// Filtered data based on search query and filters
-	$: filteredData =
-		activeSelection && currentContentData.length
-			? currentContentData
-					.filter((blog) => {
-						const matchesSearch =
-							!searchQuery ||
-							blog.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-							blog.description?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-							blog.person?.toLowerCase().includes(searchQuery.toLowerCase());
-
-						const matchesPublished = !filterUnpublished || blog.published;
-
-						let matchesEnneagramType = true;
-						let matchesAuthor = true;
-						let matchesType = true;
-						let matchesSocialMedia = true;
-
-						if (activeSelection === 'people') {
-							matchesEnneagramType =
-								!selectedEnneagramType || blog.enneagram === selectedEnneagramType;
-							matchesAuthor = !selectedAuthor || blog.author === selectedAuthor;
-							matchesSocialMedia =
-								!showSocialMediaOnly || blog.instagram || blog.twitter || blog.tiktok;
-
-							if (selectedType) {
-								if (Array.isArray(blog.type)) {
-									matchesType = blog.type.includes(selectedType);
-								} else if (typeof blog.type === 'string') {
-									try {
-										const parsed = JSON.parse(blog.type);
-										matchesType = Array.isArray(parsed)
-											? parsed.includes(selectedType)
-											: parsed === selectedType;
-									} catch {
-										matchesType = blog.type === selectedType;
-									}
-								} else {
-									matchesType = false;
-								}
+	let uniqueTypes = $derived.by(() => {
+		if (activeSelection !== 'people' || !currentContentData.length) return [];
+		return [
+			...new Set(
+				currentContentData
+					.map((item: App.BlogPost) => {
+						if (Array.isArray(item.type)) {
+							return item.type;
+						} else if (typeof item.type === 'string') {
+							try {
+								const parsed = JSON.parse(item.type);
+								return Array.isArray(parsed) ? parsed : [parsed];
+							} catch {
+								return [item.type];
 							}
 						}
-
-						return (
-							matchesSearch &&
-							matchesPublished &&
-							matchesEnneagramType &&
-							matchesAuthor &&
-							matchesType &&
-							matchesSocialMedia
-						);
+						return [];
 					})
-					.sort((a, b) => {
-						let aValue: string | Date, bValue: string | Date;
+					.flat()
+					.filter(Boolean)
+			)
+		].sort();
+	});
 
-						switch (sortBy) {
-							case 'title':
-								aValue = a.title || '';
-								bValue = b.title || '';
-								break;
-							case 'person':
-								aValue = a.person || '';
-								bValue = b.person || '';
-								break;
-							case 'enneagram':
-								aValue = a.enneagram || '';
-								bValue = b.enneagram || '';
-								break;
-							case 'author':
-								aValue = a.author || '';
-								bValue = b.author || '';
-								break;
-							case 'type':
-								const getFirstType = (item: App.BlogPost) => {
-									if (Array.isArray(item.type)) {
-										return item.type[0] || '';
-									} else if (typeof item.type === 'string') {
-										try {
-											const parsed = JSON.parse(item.type);
-											return Array.isArray(parsed) ? parsed[0] || '' : parsed || '';
-										} catch {
-											return item.type || '';
-										}
-									}
-									return '';
-								};
-								aValue = getFirstType(a);
-								bValue = getFirstType(b);
-								break;
-							case 'lastmod':
-							default:
-								aValue = new Date(a.lastmod || 0);
-								bValue = new Date(b.lastmod || 0);
-								break;
-						}
+	// Filtered data based on search query and filters
+	let filteredData = $derived.by(() => {
+		if (!activeSelection || !currentContentData.length) return [];
 
-						if (sortOrder === 'asc') {
-							return aValue < bValue ? -1 : aValue > bValue ? 1 : 0;
+		return currentContentData
+			.filter((blog) => {
+				const matchesSearch =
+					!searchQuery ||
+					blog.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+					blog.description?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+					blog.person?.toLowerCase().includes(searchQuery.toLowerCase());
+
+				const matchesPublished = !filterUnpublished || blog.published;
+
+				let matchesEnneagramType = true;
+				let matchesAuthor = true;
+				let matchesType = true;
+				let matchesSocialMedia = true;
+
+				if (activeSelection === 'people') {
+					matchesEnneagramType = !selectedEnneagramType || blog.enneagram === selectedEnneagramType;
+					matchesAuthor = !selectedAuthor || blog.author === selectedAuthor;
+					matchesSocialMedia =
+						!showSocialMediaOnly || blog.instagram || blog.twitter || blog.tiktok;
+
+					if (selectedType) {
+						if (Array.isArray(blog.type)) {
+							matchesType = blog.type.includes(selectedType);
+						} else if (typeof blog.type === 'string') {
+							try {
+								const parsed = JSON.parse(blog.type);
+								matchesType = Array.isArray(parsed)
+									? parsed.includes(selectedType)
+									: parsed === selectedType;
+							} catch {
+								matchesType = blog.type === selectedType;
+							}
 						} else {
-							return aValue > bValue ? -1 : aValue < bValue ? 1 : 0;
+							matchesType = false;
 						}
-					})
-			: [];
+					}
+				}
 
-	function expand(blog: App.BlogPost) {
-		expandedBlogTitle = expandedBlogTitle === blog.title ? null : blog.title;
+				return (
+					matchesSearch &&
+					matchesPublished &&
+					matchesEnneagramType &&
+					matchesAuthor &&
+					matchesType &&
+					matchesSocialMedia
+				);
+			})
+			.sort((a, b) => {
+				let aValue: string | Date, bValue: string | Date;
+
+				switch (sortBy) {
+					case 'title':
+						aValue = a.title || '';
+						bValue = b.title || '';
+						break;
+					case 'person':
+						aValue = a.person || '';
+						bValue = b.person || '';
+						break;
+					case 'enneagram':
+						aValue = a.enneagram || '';
+						bValue = b.enneagram || '';
+						break;
+					case 'author':
+						aValue = a.author || '';
+						bValue = b.author || '';
+						break;
+					case 'type':
+						const getFirstType = (item: App.BlogPost) => {
+							if (Array.isArray(item.type)) {
+								return item.type[0] || '';
+							} else if (typeof item.type === 'string') {
+								try {
+									const parsed = JSON.parse(item.type);
+									return Array.isArray(parsed) ? parsed[0] || '' : parsed || '';
+								} catch {
+									return item.type || '';
+								}
+							}
+							return '';
+						};
+						aValue = getFirstType(a);
+						bValue = getFirstType(b);
+						break;
+					case 'lastmod':
+					default:
+						aValue = new Date(a.lastmod || 0);
+						bValue = new Date(b.lastmod || 0);
+						break;
+				}
+
+				if (sortOrder === 'asc') {
+					return aValue < bValue ? -1 : aValue > bValue ? 1 : 0;
+				} else {
+					return aValue > bValue ? -1 : aValue < bValue ? 1 : 0;
+				}
+			});
+	});
+
+	// Count blogs in each stage for the current content type
+	let stageCounts = $derived(
+		stages.map((_, stageIndex) => {
+			return filteredData.filter((blog: App.BlogPost) => blog.stage === stageIndex).length;
+		})
+	);
+
+	// Reset filters when switching content types
+	$effect(() => {
+		if (activeSelection !== 'people') {
+			selectedEnneagramType = '';
+			selectedAuthor = '';
+			selectedType = '';
+			showSocialMediaOnly = false;
+		}
+	});
+
+	// Check if any filters are active
+	let hasActiveFilters = $derived(
+		searchQuery ||
+			selectedEnneagramType ||
+			selectedAuthor ||
+			selectedType ||
+			showSocialMediaOnly ||
+			filterUnpublished ||
+			sortBy !== 'lastmod' ||
+			sortOrder !== 'desc'
+	);
+
+	// Open modal for a blog
+	function openModal(blog: App.BlogPost) {
+		selectedBlog = blog;
+		selectedBlogId = (blog as any).id || null;
+		modalOpen = true;
+		// Update URL without navigation
+		const url = new URL(window.location.href);
+		if (selectedBlogId) {
+			url.searchParams.set('edit', selectedBlogId.toString());
+		}
+		history.replaceState({}, '', url.toString());
+	}
+
+	// Close modal
+	function closeModal() {
+		closingModal = true; // Prevent effect from reopening
+		modalOpen = false;
+		selectedBlog = null;
+		selectedBlogId = null;
+		// Remove edit param from URL using goto so $page updates
+		const url = new URL(window.location.href);
+		url.searchParams.delete('edit');
+		goto(url.pathname + url.search, { replaceState: true, noScroll: true });
+	}
+
+	// Handle saved content - update local data
+	function handleSaved(updatedData: Record<string, any>) {
+		if (activeSelection === 'people' && updatedData.id) {
+			const peopleData = getContentData('people');
+			const index = peopleData.findIndex((b: any) => b.id === updatedData.id);
+			if (index !== -1) {
+				peopleData[index] = { ...peopleData[index], ...updatedData };
+				(data as Record<string, App.BlogPost[]>)['people'] = [...peopleData];
+			}
+		}
+	}
+
+	// Handle card click from CompactCard
+	function handleCardClick(blog: App.BlogPost) {
+		openModal(blog);
+	}
+
+	// Handle drag start from CompactCard
+	function handleCardDragStart(dragData: { event: DragEvent; blog: App.BlogPost }) {
+		const { event: dragEvent, blog } = dragData;
+		isDragging = true;
+		draggedBlog = blog;
+		dragEvent.dataTransfer?.setData('text/plain', blog.title);
+		dragEvent.dataTransfer!.effectAllowed = 'move';
+	}
+
+	// Handle drag end from CompactCard
+	function handleCardDragEnd() {
+		isDragging = false;
+		draggedBlog = null;
 	}
 
 	// Validate if a stage transition is valid
@@ -231,7 +336,6 @@
 		blog: App.BlogPost,
 		targetStage: number
 	): { valid: boolean; reason: string } {
-		// Unpublished content can only be in "Not written" (0) or "Prioritized" (1)
 		if (!blog.published && targetStage > 1) {
 			return {
 				valid: false,
@@ -239,7 +343,6 @@
 			};
 		}
 
-		// Published content shouldn't go back to "Not written" or "Prioritized"
 		if (blog.published && targetStage < 2) {
 			return {
 				valid: false,
@@ -250,26 +353,9 @@
 		return { valid: true, reason: '' };
 	}
 
-	function dragStart(event: DragEvent, blog: App.BlogPost) {
-		isDragging = true;
-		draggedBlog = blog;
-		event.dataTransfer?.setData('text/plain', blog.title);
-		event.dataTransfer!.effectAllowed = 'move';
-		const element = event.currentTarget as HTMLElement;
-		element.classList.add('dragging');
-	}
-
-	function dragEnd(event: DragEvent) {
-		isDragging = false;
-		draggedBlog = null;
-		const element = event.currentTarget as HTMLElement;
-		element.classList.remove('dragging');
-	}
-
 	function dragOver(event: DragEvent, stageIndex: number) {
 		event.preventDefault();
 
-		// Check if the drop would be valid
 		if (draggedBlog) {
 			const validation = isValidTransition(draggedBlog, stageIndex);
 			event.dataTransfer!.dropEffect = validation.valid ? 'move' : 'none';
@@ -299,7 +385,6 @@
 		const blog = blogData[blogIndex];
 		const oldStage = blog.stage;
 
-		// Validate the transition
 		const validation = isValidTransition(blog, stageIndex);
 		if (!validation.valid) {
 			notifications.warning(validation.reason, 4000);
@@ -309,14 +394,12 @@
 		blog.stage = stageIndex;
 		blog.stageName = stages[stageIndex];
 
-		// Trigger reactivity by reassigning
 		(data as Record<string, App.BlogPost[]>)[blogType] = [...blogData];
 
 		try {
 			await updateStage(blog, blogType);
 			notifications.success(`Moved "${blog.title}" to ${stages[stageIndex]}`, 3000);
 		} catch (error) {
-			// Reset on error
 			blog.stage = oldStage;
 			blog.stageName = stages[oldStage];
 			(data as Record<string, App.BlogPost[]>)[blogType] = [...blogData];
@@ -346,19 +429,6 @@
 		}
 	}
 
-	// Count blogs in each stage for the current content type
-	$: stageCounts = stages.map((_, stageIndex) => {
-		return filteredData.filter((blog: App.BlogPost) => blog.stage === stageIndex).length;
-	});
-
-	// Reset filters when switching content types
-	$: if (activeSelection !== 'people') {
-		selectedEnneagramType = '';
-		selectedAuthor = '';
-		selectedType = '';
-		showSocialMediaOnly = false;
-	}
-
 	function clearFilters() {
 		searchQuery = '';
 		selectedEnneagramType = '';
@@ -369,17 +439,6 @@
 		sortBy = 'lastmod';
 		sortOrder = 'desc';
 	}
-
-	// Check if any filters are active
-	$: hasActiveFilters =
-		searchQuery ||
-		selectedEnneagramType ||
-		selectedAuthor ||
-		selectedType ||
-		showSocialMediaOnly ||
-		filterUnpublished ||
-		sortBy !== 'lastmod' ||
-		sortOrder !== 'desc';
 </script>
 
 <div class="min-h-screen bg-gray-50 p-4 md:p-6">
@@ -398,7 +457,7 @@
 					type
 						? 'bg-blue-600 text-white shadow-md'
 						: 'border border-gray-300 bg-white text-gray-700 hover:bg-gray-100'}"
-					on:click={() => (activeSelection = type)}
+					onclick={() => (activeSelection = type)}
 				>
 					{type.charAt(0).toUpperCase() + type.slice(1)}
 					<span
@@ -444,7 +503,7 @@
 				</select>
 				<button
 					class="rounded-lg border border-gray-300 px-3 py-2 text-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
-					on:click={() => (sortOrder = sortOrder === 'asc' ? 'desc' : 'asc')}
+					onclick={() => (sortOrder = sortOrder === 'asc' ? 'desc' : 'asc')}
 					title={sortOrder === 'asc' ? 'Ascending' : 'Descending'}
 				>
 					{sortOrder === 'asc' ? '↑ Asc' : '↓ Desc'}
@@ -456,7 +515,7 @@
 						class="px-3 py-2 text-sm transition-colors {viewMode === 'board'
 							? 'bg-blue-600 text-white'
 							: 'bg-white text-gray-700 hover:bg-gray-50'}"
-						on:click={() => (viewMode = 'board')}
+						onclick={() => (viewMode = 'board')}
 						title="Board view"
 					>
 						<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -472,7 +531,7 @@
 						class="px-3 py-2 text-sm transition-colors {viewMode === 'list'
 							? 'bg-blue-600 text-white'
 							: 'bg-white text-gray-700 hover:bg-gray-50'}"
-						on:click={() => (viewMode = 'list')}
+						onclick={() => (viewMode = 'list')}
 						title="List view"
 					>
 						<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -489,7 +548,7 @@
 				{#if hasActiveFilters}
 					<button
 						class="ml-2 px-3 py-2 text-sm text-blue-600 hover:text-blue-800 hover:underline"
-						on:click={clearFilters}
+						onclick={clearFilters}
 					>
 						Clear filters
 					</button>
@@ -589,9 +648,9 @@
 						]} rounded-lg border-t-4 transition-all duration-200 {isDragging
 							? 'ring-1 ring-blue-200'
 							: ''}"
-						on:dragover={(event) => dragOver(event, stageIndex)}
-						on:dragleave={dragLeave}
-						on:drop={async (event) => await drop(event, stageIndex, activeSelection)}
+						ondragover={(event) => dragOver(event, stageIndex)}
+						ondragleave={dragLeave}
+						ondrop={async (event) => await drop(event, stageIndex, activeSelection)}
 						role="region"
 						aria-labelledby={`stage-${stageIndex}-heading`}
 					>
@@ -615,102 +674,15 @@
 						<div class="kanban-cards space-y-1.5 p-2 pt-0">
 							{#each filteredData.filter((blog) => blog.stage === stageIndex) as blog, index (`${stageIndex}-${index}-${blog.loc || blog.title}`)}
 								{#if blog.title}
-									<div
-										class="content-card group rounded bg-white shadow-sm transition-all duration-150 hover:shadow {expandedBlogTitle ===
-										blog.title
-											? 'ring-1 ring-blue-400'
-											: ''}"
-										class:is-dragging={isDragging && draggedBlog?.title === blog.title}
-										draggable={expandedBlogTitle !== blog.title}
-										on:dragstart={(event) => dragStart(event, blog)}
-										on:dragend={dragEnd}
-										role="article"
-										aria-labelledby={`blog-title-${stageIndex}-${index}`}
-										transition:fade={{ duration: 100 }}
-									>
-										<!-- Card Content -->
-										<div class="flex items-start gap-1 p-2">
-											<!-- Drag Handle -->
-											<div
-												class="drag-handle flex-shrink-0 cursor-grab text-gray-300 opacity-0 group-hover:opacity-100"
-												title="Drag"
-											>
-												<svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24">
-													<circle cx="9" cy="6" r="2" />
-													<circle cx="15" cy="6" r="2" />
-													<circle cx="9" cy="12" r="2" />
-													<circle cx="15" cy="12" r="2" />
-													<circle cx="9" cy="18" r="2" />
-													<circle cx="15" cy="18" r="2" />
-												</svg>
-											</div>
-
-											<!-- Content -->
-											<div class="min-w-0 flex-1">
-												<h3
-													id={`blog-title-${stageIndex}-${index}`}
-													class="line-clamp-2 text-xs font-medium leading-tight text-gray-900"
-													title={blog.title}
-												>
-													{blog.title}
-												</h3>
-
-												<!-- Status + Date row -->
-												<div class="mt-1 flex items-center gap-1 text-[10px]">
-													<span
-														class="rounded px-1 py-0.5 font-medium {blog.published
-															? 'bg-green-100 text-green-700'
-															: 'bg-amber-100 text-amber-700'}"
-													>
-														{blog.published ? '✓' : '○'}
-													</span>
-													{#if activeSelection === 'people' && blog.enneagram}
-														<span class="text-purple-600">E{blog.enneagram}</span>
-													{/if}
-													<span class="ml-auto text-gray-400"
-														>{new Date(blog.lastmod).toLocaleDateString('en-US', {
-															month: 'short',
-															day: 'numeric'
-														})}</span
-													>
-												</div>
-											</div>
-
-											<!-- Expand Button -->
-											<button
-												type="button"
-												class="flex-shrink-0 rounded p-0.5 text-gray-400 hover:text-gray-600"
-												on:click={() => expand(blog)}
-												aria-expanded={expandedBlogTitle === blog.title}
-											>
-												<svg
-													class="h-3 w-3 transition-transform {expandedBlogTitle === blog.title
-														? 'rotate-180'
-														: ''}"
-													fill="none"
-													stroke="currentColor"
-													viewBox="0 0 24 24"
-												>
-													<path
-														stroke-linecap="round"
-														stroke-linejoin="round"
-														stroke-width="2"
-														d="M19 9l-7 7-7-7"
-													/>
-												</svg>
-											</button>
-										</div>
-
-										<!-- Expanded Content -->
-										{#if expandedBlogTitle === blog.title}
-											<div class="border-t border-gray-100" transition:slide={{ duration: 150 }}>
-												<ContentCard
-													blogContent={blog}
-													stage={stages[stageIndex]}
-													contentType={activeSelection}
-												/>
-											</div>
-										{/if}
+									<div transition:fade={{ duration: 100 }}>
+										<CompactCard
+											{blog}
+											{isDragging}
+											isBeingDragged={isDragging && draggedBlog?.title === blog.title}
+											onclick={handleCardClick}
+											ondragstart={handleCardDragStart}
+											ondragend={handleCardDragEnd}
+										/>
 									</div>
 								{/if}
 							{:else}
@@ -745,11 +717,17 @@
 				</thead>
 				<tbody class="divide-y divide-gray-100">
 					{#each filteredData as blog, index (`list-${index}-${blog.loc || blog.title}`)}
-						<tr class="hover:bg-gray-50">
+						<tr
+							class="cursor-pointer hover:bg-gray-50"
+							onclick={() => openModal(blog)}
+							onkeydown={(e) => e.key === 'Enter' && openModal(blog)}
+							tabindex="0"
+							role="button"
+						>
 							<td class="px-4 py-3">
 								<div class="line-clamp-1 font-medium text-gray-900">{blog.title}</div>
 								{#if activeSelection === 'people' && blog.person}
-									<div class="mt-0.5 text-xs text-gray-500">{blog.person}</div>
+									<div class="mt-0.5 text-xs text-gray-500">{blog.person?.replace(/-/g, ' ')}</div>
 								{/if}
 							</td>
 							<td class="hidden px-4 py-3 md:table-cell">
@@ -776,6 +754,7 @@
 									<a
 										href={blog.loc.replace('https://9takes.com', '')}
 										class="inline-flex items-center text-xs font-medium text-blue-600 hover:text-blue-800"
+										onclick={(e) => e.stopPropagation()}
 									>
 										View
 										<svg class="ml-1 h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -788,7 +767,15 @@
 										</svg>
 									</a>
 								{:else}
-									<span class="text-xs text-gray-400">—</span>
+									<button
+										class="text-xs font-medium text-blue-600 hover:text-blue-800"
+										onclick={(e) => {
+											e.stopPropagation();
+											openModal(blog);
+										}}
+									>
+										Edit
+									</button>
 								{/if}
 							</td>
 						</tr>
@@ -798,6 +785,16 @@
 		</div>
 	{/if}
 </div>
+
+<!-- Content Editor Modal -->
+<ContentEditorModal
+	bind:open={modalOpen}
+	blogId={selectedBlogId}
+	contentType={activeSelection}
+	initialData={selectedBlog}
+	onclose={closeModal}
+	onsaved={handleSaved}
+/>
 
 <style>
 	.kanban-container {
@@ -844,32 +841,6 @@
 	.kanban-cards::-webkit-scrollbar-thumb {
 		background-color: #cbd5e1;
 		border-radius: 3px;
-	}
-
-	.content-card {
-		cursor: default;
-		font-size: 0.75rem;
-	}
-
-	.content-card[draggable='true'] {
-		cursor: grab;
-	}
-
-	.content-card[draggable='true']:active {
-		cursor: grabbing;
-	}
-
-	.content-card.is-dragging {
-		opacity: 0.5;
-		transform: rotate(2deg);
-	}
-
-	.drag-handle {
-		cursor: grab;
-	}
-
-	.drag-handle:active {
-		cursor: grabbing;
 	}
 
 	/* Line clamp utility */

@@ -85,11 +85,14 @@
 			"Bash(for dir in /Users/annawayne/9takes/src/blog/*/)",
 			"WebFetch(domain:paulgraham.com)",
 			"WebFetch(domain:enneagram-personality.com)",
-			"WebFetch(domain:enneagramtest.com)"
+			"WebFetch(domain:enneagramtest.com)",
+			"Bash(source /Users/annawayne/9takes/.env:*)",
+			"Write(/tmp/**)",
+			"Bash(rm:*)",
+			"Bash(pnpm format:*)"
 		],
 		"deny": [],
 		"ask": [],
-		"defaultMode": "acceptEdits",
-		"additionalDirectories": ["C:\\mnt\\c\\Users\\djway\\Desktop\\svelte\\9takes"]
+		"defaultMode": "acceptEdits"
 	}
 }

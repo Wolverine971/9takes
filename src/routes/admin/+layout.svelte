@@ -115,7 +115,7 @@
 		display: none;
 		position: sticky;
 		top: 0;
-		z-index: 100;
+		z-index: 50;
 		background: var(--card-background, #fff);
 		border-bottom: 1px solid var(--border-color, #e2e8f0);
 		padding: 12px 16px;
@@ -197,8 +197,8 @@
 		background-color: var(--card-background, #fff);
 		border-bottom: 1px solid var(--border-color, #e2e8f0);
 		position: sticky;
-		top: 0;
-		z-index: 90;
+		top: 56px; /* Account for global header height */
+		z-index: 45; /* Above content, below global header */
 	}
 
 	.nav-container {
@@ -253,7 +253,7 @@
 		position: fixed;
 		inset: 0;
 		background: rgba(0, 0, 0, 0.4);
-		z-index: 80;
+		z-index: 9998;
 		border: none;
 		cursor: pointer;
 	}
@@ -322,6 +322,7 @@
 	@media (max-width: 768px) {
 		.mobile-header {
 			display: flex;
+			z-index: 50;
 		}
 
 		.admin-nav {
@@ -331,7 +332,7 @@
 			bottom: 0;
 			width: 280px;
 			max-width: 85vw;
-			z-index: 100;
+			z-index: 9999;
 			transform: translateX(-100%);
 			transition: transform 0.3s ease;
 			border-bottom: none;

@@ -6,7 +6,7 @@
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import type { PageData } from './$types';
-	import type { SvelteComponent } from 'svelte';
+	import type { Component } from 'svelte';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
@@ -14,7 +14,7 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
 	export let data: PageData;
-	type C = $$Generic<typeof SvelteComponent<any, any, any>>;
+	type C = Component;
 	$: component = data.component as unknown as C;
 
 	const contentStore = writable('');

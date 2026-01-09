@@ -934,3 +934,129 @@ source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peopl
    - Goal: Someone reading the blog should get a complete picture of who this person is, not just what they've done lately
 
 This workflow ensures comprehensive, high-quality celebrity personality analysis blogs that align with 9takes' content strategy and technical requirements, while providing a smooth, efficient user experience and maintaining the full context of each person's life and personality.
+
+---
+
+## Quick Reference: Database Push Commands
+
+### For NEW blogs (POST):
+
+```bash
+# Step 1: Create JSON payload with Python
+python3 << 'EOF'
+import json
+
+env_vars = {}
+with open('.env', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if '=' in line and not line.startswith('#'):
+            key, value = line.split('=', 1)
+            env_vars[key] = value.strip('"').strip("'")
+
+with open('src/blog/people/drafts/PERSON-NAME.md', 'r') as f:
+    full_content = f.read()
+
+parts = full_content.split('---', 2)
+content = parts[2].strip() if len(parts) >= 3 else full_content
+
+payload = {
+    "person": "Person-Name",
+    "title": "Evergreen Title Here",
+    "meta_title": "Clickbait SEO Title Here",
+    "description": "Meta description under 155 chars",
+    "author": "DJ Wayne",
+    "date": "YYYY-MM-DD",
+    "lastmod": "YYYY-MM-DD",
+    "loc": "https://9takes.com/personality-analysis/Person-Name",
+    "changefreq": "monthly",
+    "priority": "0.6",
+    "published": False,
+    "enneagram": "7",
+    "type": ["creator"],
+    "suggestions": ["Similar-Person-1", "Similar-Person-2", "Similar-Person-3", "Similar-Person-4"],
+    "content": content
+}
+
+with open('/tmp/blog_new.json', 'w') as f:
+    json.dump(payload, f)
+
+print(f"✓ Payload: {len(content)} chars → /tmp/blog_new.json")
+EOF
+
+# Step 2: POST to database
+source .env && curl -s -X POST "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
+  -H "Content-Type: application/json" \
+  -H "Prefer: return=representation" \
+  -d @/tmp/blog_new.json
+
+# Step 3: Cleanup
+rm -f /tmp/blog_new.json
+```
+
+### For EXISTING blogs (PATCH):
+
+```bash
+# Step 1: Create JSON payload with Python
+python3 << 'EOF'
+import json
+
+env_vars = {}
+with open('.env', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if '=' in line and not line.startswith('#'):
+            key, value = line.split('=', 1)
+            env_vars[key] = value.strip('"').strip("'")
+
+with open('src/blog/people/drafts/PERSON-NAME.md', 'r') as f:
+    full_content = f.read()
+
+parts = full_content.split('---', 2)
+content = parts[2].strip() if len(parts) >= 3 else full_content
+
+payload = {
+    "content": content,
+    "lastmod": "YYYY-MM-DD",
+    "title": "Updated Evergreen Title",
+    "meta_title": "Updated Clickbait Title",
+    "description": "Updated description",
+    "suggestions": ["Similar-Person-1", "Similar-Person-2", "Similar-Person-3", "Similar-Person-4"]  # Optional - include if updating
+}
+
+with open('/tmp/blog_update.json', 'w') as f:
+    json.dump(payload, f)
+
+print(f"✓ Payload: {len(content)} chars → /tmp/blog_update.json")
+EOF
+
+# Step 2: PATCH to database
+source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.Person-Name" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
+  -H "Content-Type: application/json" \
+  -H "Prefer: return=minimal" \
+  -d @/tmp/blog_update.json
+
+# Step 3: Verify & Cleanup
+source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.Person-Name&select=id,person,lastmod,published" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
+
+rm -f /tmp/blog_update.json
+```
+
+### Required Permissions (in .claude/settings.local.json):
+
+```json
+"Bash(python3:*)",
+"Bash(curl:*)",
+"Bash(source:*)",
+"Bash(rm:*)",
+"Write(/tmp/**)",
+"Read(//tmp/**)"
+```
+
+All these are pre-approved - no user confirmation needed.

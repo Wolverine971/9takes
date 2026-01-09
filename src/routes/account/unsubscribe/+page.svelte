@@ -62,23 +62,26 @@
 			<h2>Signups # {data.signups?.length}</h2>
 			<div class="scroll-table scrollable-div">
 				<table>
-					<tr>
-						<th>Email</th>
-						<th>Name</th>
-						<th>Created At</th>
-						<th>Unsubscribe id</th>
-						<th>Unsubscribe Date</th>
-					</tr>
-
-					{#each formattedSignups as signup}
+					<thead>
 						<tr>
-							<td>{signup.email}</td>
-							<td>{signup.name}</td>
-							<td>{signup.createdAt}</td>
-							<td>{signup.unsubscribe_id}</td>
-							<td>{signup.unsubscribed_date}</td>
+							<th>Email</th>
+							<th>Name</th>
+							<th>Created At</th>
+							<th>Unsubscribe id</th>
+							<th>Unsubscribe Date</th>
 						</tr>
-					{/each}
+					</thead>
+					<tbody>
+						{#each formattedSignups as signup}
+							<tr>
+								<td>{signup.email}</td>
+								<td>{signup.name}</td>
+								<td>{signup.createdAt}</td>
+								<td>{signup.unsubscribe_id}</td>
+								<td>{signup.unsubscribed_date}</td>
+							</tr>
+						{/each}
+					</tbody>
 				</table>
 			</div>
 		</div>
