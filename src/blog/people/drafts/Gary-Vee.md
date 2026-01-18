@@ -12,7 +12,7 @@ published: false
 enneagram: 3
 type: ['business']
 person: 'Gary-Vee'
-suggestions: ['Tony-Robbins', 'Alex-Hormozi', 'Joe-Rogan', 'Elon-Musk']
+suggestions: ['Tony-Robbins', 'Alex-Hormozi', 'Leila-Hormozi', 'Joe-Rogan', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Gary_Vaynerchuk'
 twitter: 'garyvee'
 instagram: 'garyvee'

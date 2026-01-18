@@ -12,7 +12,7 @@ published: false
 enneagram: 3
 type: ['business']
 person: 'Leila-Hormozi'
-suggestions: ['Alex-Hormozi', 'Tony-Robbins', 'Gary-Vaynerchuk']
+suggestions: ['Alex-Hormozi', 'Tony-Robbins', 'Gary-Vee']
 wikipedia: ''
 twitter: 'LeilaHormozi'
 instagram: 'leilahormozi'
@@ -97,7 +97,7 @@ But before she found business success, she applied that same systematic approach
 
 ### The 60 Dates
 
-Leila went on approximately 60 dates before meeting Alex. This wasn't casual—it was strategic. She knew what she wanted: someone who would match her ambition, challenge her to grow, and see partnership as acceleration rather than anchor.
+Leila went on approximately 60 dates before meeting [Alex Hormozi](/personality-analysis/Alex-Hormozi). This wasn't casual—it was strategic. She knew what she wanted: someone who would match her ambition, challenge her to grow, and see partnership as acceleration rather than anchor.
 
 Most people stumble into relationships. Leila treated dating like a project. She optimized. She learned. She filtered ruthlessly.
 

@@ -12,7 +12,8 @@ published: false
 enneagram: 3
 type: ['creator', 'musician']
 person: 'Addison-Rae'
-suggestions: ['Alix-Earle', 'Emma-Chamberlain', 'Sydney-Sweeney', 'Hailey-Bieber']
+suggestions:
+  ['Alix-Earle', "Charli-D'Amelio", 'Emma-Chamberlain', 'Sydney-Sweeney', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Addison_Rae'
 twitter: 'whoisaddison'
 instagram: 'addisonraee'

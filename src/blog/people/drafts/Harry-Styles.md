@@ -5,7 +5,7 @@ description: "Discover why Harry Styles' Helper personality drives everything fr
 author: 'DJ Wayne'
 date: '2024-10-30'
 loc: 'https://9takes.com/personality-analysis/Harry-Styles'
-lastmod: '2025-01-17'
+lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

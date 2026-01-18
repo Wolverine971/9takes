@@ -12,7 +12,7 @@ published: false
 enneagram: 7
 type: ['comedian']
 person: 'Andrew-Schulz'
-suggestions: ['Joe-Rogan', 'Theo-Von', 'Dave-Chappelle', 'Kevin-Hart']
+suggestions: ['Joe-Rogan', 'Theo-Von', 'Tim-Dillon', 'Shane-Gillis', 'Dave-Chappelle', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Schulz'
 twitter: 'andrewschulz'
 instagram: 'andrewschulz'

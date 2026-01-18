@@ -12,7 +12,7 @@ published: false
 enneagram: 4
 type: ['tiktoker']
 person: "Dixie-D'Amelio"
-suggestions: ['Charli-DAmelio', 'Billie-Eilish', 'Madison-Beer', 'Olivia-Rodrigo']
+suggestions: ["Charli-D'Amelio", 'Billie-Eilish', 'Madison-Beer', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Dixie_D%27Amelio'
 twitter: 'https://twitter.com/dixiedamelio'
 instagram: 'https://www.instagram.com/dixiedamelio/'
@@ -24,7 +24,7 @@ path: src/blog/people/drafts/Dixie-DAmelio.md
 
 <p class="firstLetter">That's not the kind of thing you expect from someone with 35 million TikTok followers. But Dixie D'Amelio isn't what she appears to be. Behind the sarcastic humor and deadpan delivery is someone who spent her entire rise to fame questioning whether she deserved any of it.</p>
 
-While her younger sister Charli became TikTok's golden child, Dixie carved out a different path. Not the polished performer. Not the natural star. Something messier, more complicated, and far more revealing about what fame actually does to a person.
+While her younger sister [Charli D'Amelio](/personality-analysis/Charli-D'Amelio) became TikTok's golden child, Dixie carved out a different path. Not the polished performer. Not the natural star. Something messier, more complicated, and far more revealing about what fame actually does to a person.
 
 <details>
 <summary class="accordion">TL;DR: Why Dixie D'Amelio is an Enneagram Type 4</summary>

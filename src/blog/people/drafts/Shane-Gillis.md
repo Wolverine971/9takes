@@ -12,7 +12,8 @@ published: false
 enneagram: 9
 type: ['comedian']
 person: 'Shane-Gillis'
-suggestions: ['Theo-Von', 'Tim-Dillon', 'Andrew-Schulz', 'Dave-Chappelle', 'Joe-Rogan', 'Pete-Davidson']
+suggestions:
+  ['Theo-Von', 'Tim-Dillon', 'Andrew-Schulz', 'Dave-Chappelle', 'Joe-Rogan', 'Pete-Davidson']
 wikipedia: 'https://en.wikipedia.org/wiki/Shane_Gillis'
 twitter: 'shaabornsale'
 instagram: 'shanemgillis'

@@ -1,6 +1,6 @@
 ---
 title: 'Jeff Bezos: The Challenger Who Built Tomorrow'
-meta_title: "Why Jeff Bezos Stays Silent When It Matters Most (His Personality Explained)"
+meta_title: 'Why Jeff Bezos Stays Silent When It Matters Most (His Personality Explained)'
 description: 'What drives Jeff Bezos to build 10,000-year clocks and stay silent during FBI raids? Discover how his Type 8 personality shapes his $253B empire.'
 author: 'DJ Wayne'
 date: '2025-02-25'
@@ -73,7 +73,7 @@ When Jeff was four, his mother married Cuban immigrant Miguel "Mike" Bezos, who 
 
 Mike and Jacklyn provided stability. They later invested $245,573 to help start Amazon. But the early abandonment left its mark.
 
-**Here's where it gets strange:** Ted Jorgensen ran a bicycle shop in Glendale, Arizona for 35 years. He had no idea his biological son became Jeff Bezos until 2012, when journalist Brad Stone walked into his shop researching *The Everything Store*. Jorgensen was stunned. He didn't own a computer. He'd never heard of Amazon.
+**Here's where it gets strange:** Ted Jorgensen ran a bicycle shop in Glendale, Arizona for 35 years. He had no idea his biological son became Jeff Bezos until 2012, when journalist Brad Stone walked into his shop researching _The Everything Store_. Jorgensen was stunned. He didn't own a computer. He'd never heard of Amazon.
 
 "I didn't know where he was, if he had a good job or not, or if he was alive or dead."
 
@@ -340,13 +340,13 @@ Type 8 pragmatism. Build from strength, not hope.
 
 ## Comparing Bezos to Other Tech Titans
 
-| Leader | Type | Primary Drive | Decision Style |
-|--------|------|---------------|----------------|
-| **Jeff Bezos** | 8 | Control & Legacy | Gut + Data validation |
-| **Elon Musk** | 5w6 | Understanding & Impact | First principles |
-| **[Bill Gates](/personality-analysis/Bill-Gates)** | 5 | Knowledge & Optimization | Analytical |
-| **[Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg)** | 5 | Connection & Information | Move fast, iterate |
-| **Steve Jobs** | 4w3 | Vision & Perfection | Intuitive, aesthetic |
+| Leader                                                       | Type | Primary Drive            | Decision Style        |
+| ------------------------------------------------------------ | ---- | ------------------------ | --------------------- |
+| **Jeff Bezos**                                               | 8    | Control & Legacy         | Gut + Data validation |
+| **Elon Musk**                                                | 5w6  | Understanding & Impact   | First principles      |
+| **[Bill Gates](/personality-analysis/Bill-Gates)**           | 5    | Knowledge & Optimization | Analytical            |
+| **[Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg)** | 5    | Connection & Information | Move fast, iterate    |
+| **Steve Jobs**                                               | 4w3  | Vision & Perfection      | Intuitive, aesthetic  |
 
 Bezos's Type 8 approach differs from his peers' [Type 5](/enneagram-corner/enneagram-type-5) tendency toward pure analysis. He builds systems to control outcomes rather than just understanding them.
 

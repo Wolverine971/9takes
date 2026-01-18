@@ -17,3 +17,14 @@ cwebp -sns 70 -f 50 -size 20000 "Alix-Earle.webp" -o "./s-Alix-Earle.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->
+
+act like a normal person who is reading this article and tell me what i missed or what i should expand on src/blog/enneagram/how-to-navigate-early-relationship-stages.md read this and put your comments as a comment at the bottom of the article
+
+src/blog/enneagram/shadow-work-by-enneagram-type.md
+src/blog/guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md
+
+ok so i added some comments at the bottom of the article src/blog/enneagram/how-to-navigate-early-relationship-stages.md, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better
+
+I want you to edit this blog on src/blog/enneagram/how-to-navigate-early-relationship-stages.md and use the content-editor agent.
+
+liiy

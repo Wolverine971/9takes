@@ -5,7 +5,7 @@ description: 'Why does Putin invade countries and silence dissent? His Type 8 ps
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Vladimir-Putin'
-lastmod: '2025-01-17'
+lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

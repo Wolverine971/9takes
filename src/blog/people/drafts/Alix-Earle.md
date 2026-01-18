@@ -12,7 +12,7 @@ published: false
 enneagram: 3
 type: ['influencer', 'creator']
 person: 'Alix-Earle'
-suggestions: ['Emma-Chamberlain', 'Alex-Cooper', 'Hailey-Bieber', 'Kai-Cenat']
+suggestions: ['Addison-Rae', 'Emma-Chamberlain', 'Alex-Cooper', 'Hailey-Bieber', 'Kai-Cenat']
 wikipedia: 'https://en.wikipedia.org/wiki/Alix_Earle'
 twitter: 'alaborr'
 instagram: 'alixearle'

@@ -1,7 +1,7 @@
 ---
-title: 'Madison Beer: The Enneagram Type 4 Journey From YouTube Fame to Authentic Artistry'
-meta_title: "Why Madison Beer Can't Stop Searching for Herself | The Psychology Behind Her Music"
-description: "Discover how Madison Beer's Type 4 personality drives her music, mental health journey, and relentless pursuit of authenticity in an industry that tried to silence her."
+title: 'Madison Beer: Inside the Type 4 Mind That Rebuilt a Career the Industry Tried to Kill'
+meta_title: "Madison Beer's Personality Decoded | Why She Writes Albums to Understand Herself"
+description: "Madison Beer was dropped at 16 for being 'too sexy.' Now she's Grammy-nominated and still searching. Explore the Type 4 psychology driving her music, BPD journey, and fight for authenticity."
 author: 'DJ Wayne'
 date: '2024-10-30'
 loc: 'https://9takes.com/personality-analysis/Madison-Beer'
@@ -108,7 +108,7 @@ The full weight of her abandonment emerges in her memoir. She confronted those w
 
 For any teenager, devastating. For a Type 4, existential.
 
-The professional loss was secondary. The real wound was being rejected for being herself. The industry told her she was too much. Too provocative. Too *something*. That message lands differently when your core fear is being without significance or unique identity.
+The professional loss was secondary. The real wound was being rejected for being herself. The industry told her she was too much. Too provocative. Too _something_. That message lands differently when your core fear is being without significance or unique identity.
 
 Her mother Tracie stepped in as manager. An interior designer who had founded her own firm in 1993, Tracie had moved the family to Los Angeles in 2012 to support Madison's career. Now she pivoted entirely, taking on contracts, tours, and merchandise deals. Madison would later write: "She has the biggest heart ever and is so selfless and amazing. An added bonus is that not only is she my mom, but also my best friend."
 
@@ -126,13 +126,17 @@ The devastation: abandoned, rejected for being herself. The people who promised 
 
 The liberation: for the first time, nobody was telling her what to do. No executives dictating her sound. No management shaping her image. She could figure out who she actually was.
 
-The output was steady. "Dead" dropped in May 2017, followed by "Say It to My Face" that November. She worked on her EP for three years, and in February 2018, released _As She Pleases_. Singles like "Dead" and "Home with You" performed well enough to earn gold certifications in the U.S. without major label support. Billboard would later call "Boyshit" as having "one of the best pop chorus openings of 2020."
+The output was steady. "Dead" dropped in May 2017, followed by "Say It to My Face" that November. She worked on her EP for three years, and in February 2018, released _As She Pleases_. Singles like "Dead" and "Home with You" earned gold certifications in the U.S. without major label support.
 
-In August 2018, Madison made her festival debut at Lollapalooza in Chicago. She was the only female solo artist on the Billboard Mainstream Top 40 chart without a major music label. That November, she joined forces with Riot Games and (G)I-DLE for "Pop/Stars" under the virtual K-pop group K/DA, exposing her to an entirely new gaming audience.
+Billboard would later call "Boyshit" one of "the best pop chorus openings of 2020."
+
+In August 2018, Madison made her festival debut at Lollapalooza in Chicago. She was the only female solo artist on the Billboard Mainstream Top 40 chart without a major music label.
+
+That November, she joined forces with Riot Games and (G)I-DLE for "Pop/Stars" under the virtual K-pop group K/DA, exposing her to an entirely new gaming audience.
 
 "Dear Society" (2019) directly attacked the pressures suffocating her:
 
-*"Dear society, why do I have to fit your beauty? / Tell me who decided / What's right or wrong for me and my body."*
+_"Dear society, why do I have to fit your beauty? / Tell me who decided / What's right or wrong for me and my body."_
 
 Darker work. More personal. More her. The industry wanted pop princess. She was becoming something else.
 
@@ -158,9 +162,11 @@ Madison's discography isn't a collection of singles. It's a psychological timeli
 
 ### The Sound
 
-What does Madison Beer actually sound like? Her music defies easy categorization. Critics describe it as alt-pop fused with R&B, pulling from dream pop, electropop, and soulful influences. She cites Arctic Monkeys, [Lana Del Rey](/personality-analysis/Lana-Del-Rey), Daft Punk, Melanie Martinez, Lady Gaga, and Ariana Grande as inspirations.
+What does Madison Beer actually sound like?
 
-Her voice is expressive and commanding, with smooth runs and emotionally charged phrasing that demonstrates her deep R&B roots. She taught herself piano, drums, and guitar from YouTube tutorials as a kid, and that self-made musicianship infuses her work.
+Her music defies easy categorization. Critics describe it as alt-pop fused with R&B, pulling from dream pop, electropop, and soulful influences. She cites Arctic Monkeys, [Lana Del Rey](/personality-analysis/Lana-Del-Rey), Daft Punk, Melanie Martinez, Lady Gaga, and Ariana Grande as inspirations.
+
+Her voice is expressive and commanding, with smooth runs and emotionally charged phrasing that demonstrates her deep R&B roots. She taught herself piano, drums, and guitar from YouTube tutorials as a kid. That self-made musicianship infuses her work.
 
 After her 2024 Spinnin Tour, she noticed fans commenting that her live vocals surpassed the studio recordings. For _Locket_, she wanted to push herself: "I wanted to write bridges that were more vocally impressive and push myself further in the booth."
 
@@ -170,33 +176,49 @@ Her debut album came from her darkest period. She's been candid about recording 
 
 "I couldn't do it anymore. I'm not in that dark place anymore," she later reflected.
 
-The album processed mental health struggles, toxic relationships, and the daily fight to stay alive. Madison co-wrote the entire album and co-produced most tracks. For her, creating during crisis wasn't a choice. It was survival. Type 4s channel intense suffering into art because it's the only way to externalize what's overwhelming inside.
+The album processed mental health struggles, toxic relationships, and the daily fight to stay alive. Madison co-wrote the entire album and co-produced most tracks.
 
-Then came TikTok. "Selfish" went viral on the platform and became her fastest gold-certified record. "Reckless" followed in June 2021, debuting with over 729,000 first-day Spotify streams, her biggest debut at the time. The song was praised for its lyrical vulnerability and peaked in the top forty on the Billboard Mainstream Top 40.
+For her, creating during crisis wasn't a choice. It was survival. Type 4s channel intense suffering into art because it's the only way to externalize what's overwhelming inside.
 
-The irony wasn't lost on anyone: the mainstream visibility the industry had denied her at 16 came through an algorithm, not an executive's decision. Madison had clawed her way back.
+Then came TikTok.
 
-But even with success, label tensions surfaced. She revealed that Epic Records gave her "almost zero support" for "Reckless," including having to pay for the music video herself. The people in power, once again, weren't fighting for her. So she took matters into her own hands.
+"Selfish" went viral on the platform and became her fastest gold-certified record. "Reckless" followed in June 2021, debuting with over 729,000 first-day Spotify streams—her biggest debut at the time. The song peaked in the top forty on the Billboard Mainstream Top 40.
+
+The irony wasn't lost on anyone: the mainstream visibility the industry had denied her at 16 came through an algorithm, not an executive's decision.
+
+Madison had clawed her way back.
+
+But even with success, label tensions surfaced. She revealed that Epic Records gave her "almost zero support" for "Reckless," including having to pay for the music video herself. The people in power, once again, weren't fighting for her.
+
+So she took matters into her own hands.
 
 ### Silence Between Songs (2023): The Introspective Turn
 
 Her sophomore album marked a shift inward. The title captures the Type 4's introspective journey: growth happens in the quiet.
 
-Musically, she leaned into her influences. [Lana Del Rey](/personality-analysis/Lana-Del-Rey). Tame Impala. The Beach Boys. Dream pop. Psychedelic rock. The album resists easy pop categorization.
+Musically, she leaned into her influences. [Lana Del Rey](/personality-analysis/Lana-Del-Rey). Tame Impala. The Beach Boys. Dream pop. Psychedelic rock.
+
+The album resists easy pop categorization. That's the point.
 
 "Boyshit" became an anthem. "Home to Another One" showcased her vocal range and emotional depth.
 
-_Silence Between Songs_ earned a Grammy nomination for Best Immersive Audio Album at the 66th Annual Grammy Awards. Madison attended the ceremony, celebrating the recognition. She didn't win that night (Alicia Keys took home the award), but the nomination itself was validation: the artist the industry tried to silence at 16 was now standing on the Grammy red carpet.
+_Silence Between Songs_ earned a Grammy nomination for Best Immersive Audio Album at the 66th Annual Grammy Awards. She didn't win that night (Alicia Keys took home the award), but the nomination itself was validation.
+
+The artist the industry tried to silence at 16 was now standing on the Grammy red carpet.
 
 ### Locket (2026): The Next Chapter
 
-Her third studio album released January 16, 2026, preceded by singles "Make You Mine," "Yes Baby," "Bittersweet," and "Bad Enough." She conceived the title before writing any songs. That's Type 4 process: start with the emotional concept, build the art around it.
+Her third studio album released January 16, 2026, preceded by singles "Make You Mine," "Yes Baby," "Bittersweet," and "Bad Enough."
+
+She conceived the title before writing any songs. That's Type 4 process: start with the emotional concept, build the art around it.
 
 "After writing the album, it feels like each song lives within this metaphorical locket for safekeeping," she explained. "Each album feels like an era and once the albums are out in the world, the chapter for me, usually with what I wrote about, is closed."
 
 The lead single "Make You Mine" (2024) marked a sonic shift. She wanted a "delicious EDM-pop moment" for her tours, something to keep energy high. The dance-pop track topped the US Dance/Mix Show Airplay chart and peaked at number 10 on the US Pop Airplay Chart.
 
-It also earned her a Grammy nomination for Best Dance Pop Recording at the 67th Annual Grammy Awards. Two Grammy nods in two years. Madison proving she can be joyful, not just deep.
+It also earned her a Grammy nomination for Best Dance Pop Recording at the 67th Annual Grammy Awards.
+
+Two Grammy nods in two years. Madison proving she can be joyful, not just deep.
 
 ## The Half of It: A Memoir at 24
 
@@ -213,7 +235,9 @@ What makes this distinctly Type 4 is the purpose. Not sharing the story. Underst
 
 "There are songs on the album that definitely were inspired to be written during the time of writing the book," she explained. "Getting that deeply into some really serious things that I've been through, and just facing certain facts that maybe I'd been running from prior, it made me want to write about them."
 
-The book includes journal prompts and "Dear Madison" sections. She's inviting readers into her process of self-discovery. Asking them to do the same work she's doing.
+The book includes journal prompts and "Dear Madison" sections. She's inviting readers into her process of self-discovery.
+
+Asking them to do the same work she's doing.
 
 ## The Controversies: A Type 4 Under Fire
 
@@ -245,9 +269,11 @@ The clip went viral. #MadisonBeerIsOverParty trended on Twitter. Critics accused
 
 Her initial defense made things worse. She tweeted (later deleted): "I said I romanticize it because to me it's about a taboo relationship, not about the age... I also have said I romanticize Hannibal Lector, who plays a killer in a film. He's a character in a film and that's not real. I don't romanticize KILLERS in real life."
 
-Eventually, she apologized: "I misspoke and would never condone inappropriate relationships of any kind... I clearly didn't read into the book or see it the same way and I apologize." She added that she was "too flippant" and needed to "read it through a new lens."
+Eventually, she apologized. "I misspoke and would never condone inappropriate relationships of any kind... I clearly didn't read into the book or see it the same way and I apologize." She added that she was "too flippant" and needed to "read it through a new lens."
 
-For a Type 4, being misunderstood about something intellectual and personal cuts deep. The gap between her intent (appreciating dark literature) and public perception (endorsing abuse) exemplifies the communication challenges Individualists face. She tried to explain her internal experience. The world heard something else entirely.
+For a Type 4, being misunderstood about something intellectual and personal cuts deep. The gap between her intent (appreciating dark literature) and public perception (endorsing abuse) exemplifies the communication challenges Individualists face.
+
+She tried to explain her internal experience. The world heard something else entirely.
 
 ### The Plastic Surgery Accusations
 
@@ -271,7 +297,9 @@ Type 4s often transform personal pain into public lesson. Madison turned abuse i
 
 ## Mental Health: The Type 4 Inner World
 
-Madison's openness about mental health provides a window into the Individualist experience. Like fellow Type 4 [Billie Eilish](/personality-analysis/Billie-Eilish), she's part of a generation willing to discuss these struggles publicly. But Madison's disclosures go particularly deep.
+Madison's openness about mental health provides a window into the Individualist experience. Like fellow Type 4 [Billie Eilish](/personality-analysis/Billie-Eilish), she's part of a generation willing to discuss these struggles publicly.
+
+But Madison's disclosures go particularly deep.
 
 ### The Diagnoses
 
@@ -285,45 +313,51 @@ That's Type 4 reframing. Difficulty becomes distinction. Suffering becomes insig
 
 ### Therapy as Transformation
 
-Madison attends therapy three times per week. The process has been central to her growth:
+Madison attends therapy three times per week. The process has been central to her growth.
 
 "Once I was given a diagnosis, going through therapy three times a week, I was getting more in touch with my emotions and figuring out how to be stable. I was able to write better and understand myself better."
 
-She's learned to set boundaries. This is crucial for Type 4s who can become overwhelmed by emotional intensity:
+She's learned to set boundaries. This is crucial for Type 4s who can become overwhelmed by emotional intensity.
 
 "I set a lot of boundaries with myself now. I'm very self-aware if I'm in a comment rabbit hole... That's been a thing with my therapist, going over setting boundaries in my everyday life."
 
 ### Fame's Distortion
 
-Madison has reflected on how celebrity warped her self-perception:
+Madison has reflected on how celebrity warped her self-perception.
 
 "I don't think our brains were wired for us to be famous and have a million photographers taking pictures of you at every angle, especially when you're a growing person. It's unfortunately impacted my mental health and my self-view."
 
 In a 2024 _Teen Vogue_ interview, she admitted her "natural kindness was replaced with resentment toward the industry and public scrutiny."
 
-This hardening is a common Type 4 defensive pattern. When you feel chronically misunderstood, you start protecting yourself with walls.
+This hardening is a common Type 4 defensive pattern. When you feel chronically misunderstood, you start protecting yourself with walls. You build armor. The question for any Type 4 is whether that armor eventually comes off.
 
 ## Beyond the Darkness: Madison's Lighter Side
 
-Reading about Madison's struggles, you might wonder: does she ever have fun? The answer is yes, and that balance matters.
+Reading about Madison's struggles, you might wonder: does she ever have fun?
 
-She plays video games. Fortnite. Dress to Impress on Roblox. She kept this hobby secret for years because she was "too nervous" and thought she was bad at it. "Now I'm just publicly bad," she joked. The gaming world has even influenced her music; she's mentioned wanting sounds "that maybe you haven't heard a lot in music."
+She does. And that balance matters for understanding who she is.
 
-She paints. She practices yoga and meditation. She describes herself as "an open book" with fans: "I really am an open book. Like, I'm being so for real. I tell them everything."
+She plays video games—Fortnite, Dress to Impress on Roblox. She kept this hobby secret for years because she was "too nervous" and thought she was bad at it. "Now I'm just publicly bad," she joked. The gaming world has even influenced her music. She's mentioned wanting sounds "that maybe you haven't heard a lot in music."
+
+She paints. Practices yoga and meditation. She describes herself as "an open book" with fans: "I really am an open book. Like, I'm being so for real. I tell them everything."
 
 Her self-described mission? "I try to be a joyous person that's loving life and has more empathy than judgment." She credits her mother for teaching her about empathy and generosity.
 
-She admits to being her own biggest critic: "I'm picking myself apart. Everything I say and do, I'm like, 'You're being annoying.'" But that self-awareness comes with humor.
+She admits to being her own biggest critic: "I'm picking myself apart. Everything I say and do, I'm like, 'You're being annoying.'" But that self-awareness comes with humor. She laughs at herself. She plays bad video games publicly. She engages with fans like friends.
 
 The joy isn't separate from the depth. It's earned through it.
 
 ## The Present: Still Searching
 
-Madison is dating NFL quarterback Justin Herbert. Her Spinnin Tour in 2024 sold out venues worldwide. She's building the global fanbase she was denied at 16. In early 2026, she announced the Locket Tour with 32 shows across Europe and North America.
+Madison is dating NFL quarterback Justin Herbert. Her Spinnin Tour in 2024 sold out venues worldwide. She's building the global fanbase she was denied at 16.
 
-After years of tension with Epic Records, she has since parted ways with the label and teamed up with Full Stop Management to navigate her next chapter, prioritizing creative freedom.
+In early 2026, she announced the Locket Tour with 32 shows across Europe and North America.
 
-What's notable is how she connects with fans. By sharing her struggles authentically, she creates space for mutual understanding. At meet and greets, she's described as "the sweetest," hugging every single fan. Type 4s deeply crave feeling understood. Madison creates that feeling for others.
+After years of tension with Epic Records, she parted ways with the label and teamed up with Full Stop Management. The priority? Creative freedom. The same thing she's been fighting for since 16.
+
+What's notable is how she connects with fans. By sharing her struggles authentically, she creates space for mutual understanding. At meet and greets, she's described as "the sweetest," hugging every single fan.
+
+Type 4s deeply crave feeling understood. Madison creates that feeling for others.
 
 Her fans don't just admire her music. They feel seen by her vulnerability. That's the 4w3 working at its best: using success as a platform for genuine connection.
 
@@ -386,7 +420,7 @@ If Madison's story resonates with your own search for identity, explore what mak
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article explores Madison Beer's personality through the lens of Enneagram Type 4, examining how her Individualist psychology drives her music, mental health journey, and relentless pursuit of authenticity. From her discovery at 13 to her Grammy-nominated career, we analyze the patterns that define her artistic expression.",
+      "articleBody": "Madison Beer was dropped at 16 for being 'too sexy.' This article explores how her Type 4 personality drove her to rebuild a Grammy-nominated career, examining the Individualist psychology behind her music, BPD journey, and relentless pursuit of authenticity in an industry that tried to silence her.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -399,8 +433,8 @@ If Madison's story resonates with your own search for identity, explore what mak
       },
       "dateModified": "2026-01-18",
       "datePublished": "2024-10-30",
-      "description": "Discover how Madison Beer's Type 4 personality drives her music, mental health journey, and relentless pursuit of authenticity in an industry that tried to silence her.",
-      "headline": "Madison Beer: The Enneagram Type 4 Journey From YouTube Fame to Authentic Artistry",
+      "description": "Madison Beer was dropped at 16 for being 'too sexy.' Now she's Grammy-nominated and still searching. Explore the Type 4 psychology driving her music, BPD journey, and fight for authenticity.",
+      "headline": "Madison Beer: Inside the Type 4 Mind That Rebuilt a Career the Industry Tried to Kill",
       "image": {
         "@type": "ImageObject",
         "height": 900,

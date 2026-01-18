@@ -96,5 +96,6 @@
 		"deny": [],
 		"ask": [],
 		"defaultMode": "acceptEdits"
-	}
+	},
+	"enabledMcpjsonServers": ["supabase"]
 }

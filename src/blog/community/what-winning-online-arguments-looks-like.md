@@ -1,10 +1,10 @@
 ---
 title: 'What Winning Online Arguments Looks Like'
-description: 'An exploration of techniques for productive online arguments, highlighting the importance of understanding over winning.'
+description: 'The counterintuitive tactics that turn online fights into productive conversations. Stop trying to "win" and start decoding what actually changes minds.'
 author: 'DJ Wayne'
 date: '2024-04-13'
 loc: 'https://9takes.com/community/what-winning-online-arguments-looks-like'
-lastmod: '2025-01-10'
+lastmod: '2025-01-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -23,7 +23,7 @@ path: src/blog/community/what-winning-online-arguments-looks-like.md
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "What Winning Online Arguments Looks Like",
-  "description": "An exploration of techniques for productive online arguments, highlighting the importance of understanding over winning.",
+  "description": "The counterintuitive tactics that turn online fights into productive conversations. Stop trying to win and start decoding what actually changes minds.",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
@@ -47,7 +47,7 @@ path: src/blog/community/what-winning-online-arguments-looks-like.md
     ]
   },
   "datePublished": "2024-04-13",
-  "dateModified": "2025-01-10",
+  "dateModified": "2025-01-18",
   "url": "https://9takes.com/community/what-winning-online-arguments-looks-like",
   "image": {
     "@type": "ImageObject",
@@ -57,7 +57,7 @@ path: src/blog/community/what-winning-online-arguments-looks-like.md
   },
   "articleSection": "Communication",
   "keywords": ["online arguments", "productive debates", "understanding over winning", "communication techniques", "steelmanning"],
-  "wordCount": 2156,
+  "wordCount": 1450,
   "isPartOf": {
     "@type": "Blog",
     "name": "9takes Community Blog",
@@ -134,62 +134,136 @@ Bonus step- lay out your perception of the other person's argument and ask them 
     />
 </div>
 
-<p class="firstLetter">Ever ripped into someone online?</p>
+<p class="firstLetter">You destroyed them in the comments.</p>
 
-Have you ever proven someone wrong in the comments section? It feels good to win the exchange and come out on top. You may have won the argument in your opinion, but did you change the other person's mind?
+Perfect logic. Receipts. A devastating final line that left them with nothing to say.
 
-## Part 1: No one really wins
+You won. They went silent.
 
-No one changes their mind at the end of an argument.
+And absolutely nothing changed.
 
-The sides become more dug in. You may have made some good points but most of the time you are giving the other side motivation to go prove you wrong. If you embarrassed the other side, you now have an enemy. They now look at you and people who hold your views as the mean, heartless and smug.
+Here's what actually happened: they screenshot your reply, sent it to three friends, and spent the next hour crafting a mental case for why you're an idiot. By the time they closed the app, they believed their original position _more strongly_ than before.
 
-When people feel attacked, they respond with flight or fight or freeze. The more you try to "win" the more likely you are creating an enemy.
+You didn't win. You created an enemy and reinforced their beliefs.
 
-## Part 2: Redefining Winning as Learning
+## The Uncomfortable Truth About Online Arguments
 
-The true winning in argument is when both sides learn something.
+Nobody changes their mind at the end of an argument.
 
-Adopting a mindset geared towards understanding is hard to do when you want to win and be right. This approach involves **"steel manning"** the other side. Steel manning an argument is when you represent the other side's argument in its strongest form. This is in contrast with **"straw manning."** Straw manning an argument is when you make the opposing view seem weak and dumb. Straw manning, commonly done by mainstream media, misrepresents a viewpoint by explaining it in an inadequate way so that the viewpoint can be easily attacked and dismissed.
+Not because people are stupid. Because that's not how persuasion works.
 
-To steel man an argument is harder to do. But in doing so, you demonstrate both a genuine understanding and respect for the opposing views and lay the ground work for meaningful dialogue.
+When you "win" publicly, you trigger fight-or-flight. The other person's brain stops processing your logic and starts defending their identity. Every point you score makes them dig in deeper.
 
-## Part 3: How To Argue Online When You Want Actual Progress
+If you embarrassed them? Now everyone who shares their views sees you as mean, heartless, and smug. You didn't just lose one potential convert. You lost anyone watching who leaned their direction.
 
-First of all, you probably won't be able to have the conversation you want online. But if you have to, here is what you should do. The key to a productive argument is trying to understand before you try to be understood—and understanding [how different personality types communicate](/enneagram-corner/enneagram-communication-styles) gives you a massive advantage. Most of the productive work is done before the argument starts (you need the right framing).
+## What Winning Actually Looks Like
 
-Here are 4 steps to having productive arguments online:
+Real winning? Both sides learn something. Both sides walk away thinking.
 
-### Step 1: Change Your Mindset From Combative to Seeking to Learn
+This requires a complete mindset flip. Instead of building the best case against them, you build the best case _for_ them. This is called **steel manning**.
 
-You are not here to preach, you're here to learn.
+**Steel manning** means representing the other side's argument in its strongest possible form. You steelman their position before you respond to it.
 
-Before you respond, take a moment to truly absorb what the other person is saying, considering their perspective as valid and informed. Reflect on how their experiences and knowledge might lead them to their conclusions, fostering empathy rather than opposition. This shift from a combative stance to one of learning allows for more open and effective communication, where both parties can grow.
+The opposite is **straw manning**, which is what cable news does 24/7. Take the weakest, dumbest version of the other side's argument, knock it down, and declare victory. Easy dopamine. Zero actual progress.
 
-Once you have thoughtfully considered their point of view, you are ready to start typing.
+Steel manning is harder. It requires you to actually understand why smart, reasonable people might disagree with you.
 
-### Step 2: Find Common Ground By Narrowing the Point of Contention
+But here's the tactical advantage: when you demonstrate that you _get_ their position, you earn the right to be heard. Walls come down. Defenses relax. Now you can actually have a conversation.
 
-Start with what you agree on. Find the common ground. It's easier to build a conversation when you're not coming from opposing corners. You should be upfront and clear that you disagree about something; however, you should take the time to narrow the disagreement.
+## The Tactical Playbook for Productive Online Arguments
 
-Voice or type out what you likely agree on before arguing.
+Let's be honest: you probably can't have the conversation you want online. Text strips out tone, nuance, and humanity. The medium is stacked against you.
 
-### Step 3: Be Vulnerable To Unlock Deep Levels of Understanding
+But sometimes you have to try. Here's how to give yourself the best shot.
 
-Admit that you don't have all the answers. If you are emotionally involved in your argument, express your feelings. This helps you connect human to human, making you relatable rather than just another shouting head on the internet.
+The key insight: **seek to understand before you try to be understood.**
 
-Once you have displayed the courage to be vulnerable, you give the other side permission to be vulnerable as well. This sets the stage for a productive conversation.
+Most people do this backwards. They lead with their argument, then get frustrated when the other person doesn't listen. But why would they? You haven't shown any interest in their perspective.
 
-### Step 4: Set a Learning Goal and Open With A Thoughtful Question
+Understanding [how different personality types communicate](/enneagram-corner/enneagram-communication-styles) gives you an even bigger edge. A Type 8 needs directness. A Type 2 needs to feel appreciated. A Type 5 needs space to think. Same argument, completely different approaches.
 
-After doing the above, your opening statement should lead to a specific question. Most people lead with an accusation, and the conversation is doomed from then on. Crafting an open-ended, specific, and good question is a skill, and it is one that is worth trying to get good at. It starts with being genuinely curious about why people think the way they do.
+Here are 4 steps that actually work:
 
-### Bonus Step: Ask the Other Side to Correct Your Understanding
+### Step 1: Flip Your Mindset From Combat to Curiosity
 
-This is how you speed-run an argument towards progress. Once you open yourself to correction, the walls come down. This displays not only humility but also shows the other side that you have thought deeply about their viewpoint. Plus, it forces you to do the work of trying to understand the other side.
+You're not here to preach. You're here to learn.
 
-If the other side takes the time to try to understand your views, you are not having an argument anymore.
+Before you type a single character, genuinely ask yourself: _How could a smart, reasonable person arrive at this view?_
 
-Understanding [how each personality type processes conflict differently](/enneagram-corner/enneagram-types-in-stress) gives you an even bigger advantage. A Type 1 argues from principle. A Type 8 argues from power. A Type 6 argues from anxiety. Same topic, completely different motivations.
+Not "how could an idiot think this." Not "what's wrong with their logic." But: what life experiences, values, or information would lead someone to this conclusion?
 
-**Winning isn't about proving your point. It's about understanding theirs well enough that you both walk away smarter.**
+This isn't about being soft. It's tactical. When you approach from genuine curiosity, you ask better questions, find real weak points, and avoid the emotional traps that derail conversations.
+
+Once you've genuinely considered their angle, you're ready to engage.
+
+### Step 2: Narrow the Battlefield
+
+Most arguments are 90% agreement disguised as 100% disagreement.
+
+Before attacking, map the common ground. Where do you actually agree? What values do you share? What facts are you both working from?
+
+Then isolate the real point of contention. "So we both want X outcome. We both agree Y is a problem. The question is whether Z is the right solution. Is that fair?"
+
+This does two things. First, it signals you're not trying to destroy them. Second, it focuses the conversation on the actual disagreement instead of shadow-boxing over misunderstandings.
+
+### Step 3: Show Your Cards First
+
+This feels counterintuitive, but vulnerability is a tactical advantage.
+
+Admit what you don't know. Acknowledge where your position might be weak. Share _why_ this topic matters to you emotionally.
+
+"I'll be honest, I'm not sure I have this figured out. This issue matters to me because [personal reason]. I'm genuinely trying to understand the other side better."
+
+This transforms you from "opponent" to "human." It gives the other person permission to drop their guard too. Now you're two people trying to figure something out together, not two armies clashing.
+
+Most people won't reciprocate. But the ones who do? Those are the conversations worth having.
+
+### Step 4: Lead With a Question, Not an Accusation
+
+Most people open with their argument. "Here's why you're wrong..."
+
+The conversation is dead before it starts.
+
+Instead, open with a genuine question. Not a gotcha question. Not a rhetorical trap. An actual question you want answered.
+
+"I'm trying to understand something. When you say [their position], how do you think about [specific concern]? What am I missing?"
+
+Good questions are specific, not broad. "Why do you believe that?" is lazy. "What experience led you to prioritize X over Y?" shows you've actually thought about their position.
+
+This is a skill worth developing. The quality of your questions determines the quality of your conversations.
+
+### Bonus: Invite Correction
+
+This is the accelerant.
+
+Lay out your understanding of their position and explicitly ask them to correct you: "Here's what I think you're saying... Am I getting that right? Where am I off?"
+
+This does three things:
+
+1. **It proves you've listened.** You can't summarize a position you haven't tried to understand.
+2. **It invites collaboration.** Now they're helping you understand instead of defending against attack.
+3. **It often reveals the real disagreement.** Half the time, the argument dissolves once you realize you were arguing past each other.
+
+When someone takes time to correct your understanding of their view, you're not having an argument anymore. You're having a conversation.
+
+## The Personality Factor
+
+Here's one more layer: [different personality types process conflict completely differently](/enneagram-corner/enneagram-types-in-stress).
+
+A Type 1 argues from principle. They need to feel the discussion is fair and rigorous.
+
+A Type 8 argues from power. They respect directness and despise manipulation.
+
+A Type 6 argues from anxiety. They're scanning for hidden agendas and need reassurance.
+
+Same topic. Completely different emotional needs. The approach that works with one type will backfire with another.
+
+## The Bottom Line
+
+Winning an online argument isn't about proving your point.
+
+It's about understanding the other person's position so well that you both walk away smarter. It's about being the person who brings curiosity instead of contempt. It's about recognizing that the real "win" is a conversation that changes how both of you think.
+
+That's rare online. But it's possible.
+
+And it starts with letting go of the need to be right.

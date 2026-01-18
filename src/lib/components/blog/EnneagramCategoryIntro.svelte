@@ -30,7 +30,7 @@
 			title: '9 Types of Human Nature (And How to Read Each One)',
 			seoTitle: 'The 9 Enneagram Types Explained: Core Fears, Desires & Patterns | 9takes',
 			description:
-				'Each type operates on a different emotional frequency. Learn the core fears, desires, and blind spots driving behavior—yours and everyone around you.',
+				'Each type operates on a different emotional frequency. Learn the core fears, desires, and blind spots driving behavior, yours and everyone around you.',
 			pic: 's-greek-statues-working-in-teams',
 			lastmod: '2025-08-15'
 		},
@@ -38,7 +38,7 @@
 			title: 'Know Your Pattern. Break Your Pattern.',
 			seoTitle: 'Enneagram Personal Development: Growth Strategies by Type | 9takes',
 			description:
-				'Your type is running the show until you see it. Discover type-specific growth paths, blind spots to watch, and the exact practices that create lasting change.',
+				'Your type runs the show until you see it. Discover type-specific growth paths, blind spots to watch, and the exact practices that create lasting change.',
 			pic: 'Self-awareness-and-Self-understanding',
 			lastmod: '2025-08-15'
 		},
@@ -46,7 +46,7 @@
 			title: 'Why They Do That (A Relationship Decoder)',
 			seoTitle: 'Enneagram Relationship Guide: Communication, Conflict & Connection | 9takes',
 			description:
-				'Stop taking it personally. Their reactions are about their type, not you. Learn to read relationship dynamics and communicate in ways that actually land.',
+				'Stop taking it personally. Their reactions reflect their type, not you. Learn to read relationship dynamics and communicate in ways that actually land.',
 			pic: 'greek-statues-having-an-intimate-conversation',
 			lastmod: '2025-08-15'
 		},
@@ -54,15 +54,15 @@
 			title: 'Read the Room, Run the Room',
 			seoTitle: 'Enneagram at Work: Leadership, Teams & Communication Styles | 9takes',
 			description:
-				'Every office has patterns. Learn to spot types in meetings, decode what motivates your team, and navigate workplace dynamics like a pro.',
+				'Every office runs on type dynamics. Learn to spot types in meetings, decode what motivates your team, and navigate workplace politics with precision.',
 			pic: 'greek-statues-disagreeing',
 			lastmod: '2025-08-15'
 		},
 		resources: {
-			title: 'Resources That Actually Work (We Tested Everything)',
+			title: 'Curated Enneagram Resources (We Vetted Everything)',
 			seoTitle: 'Essential Enneagram Resources: Tools, Tests & Training | 9takes',
 			description:
-				'Cut through the noise. Access the best Enneagram tests, books, tools, and training. Curated resources for serious students of personality psychology.',
+				'Skip the noise. Access vetted Enneagram tests, books, tools, and training programs. Curated for serious students of personality psychology.',
 			pic: 'greek-dude-reading-book',
 			lastmod: '2025-08-15'
 		},
@@ -70,7 +70,7 @@
 			title: 'The Types in the Wild: Real Situations, Real Behaviors',
 			seoTitle: 'Real-World Type Behaviors: How Each Type Actually Shows Up | 9takes',
 			description:
-				'See the types in action. From first dates to job interviews, from parties to panic attacks—understand exactly how each type behaves in real situations.',
+				'See the types in action. From first dates to job interviews, from parties to crises, understand exactly how each type behaves when it counts.',
 			pic: 'greek-statue-flex',
 			lastmod: '2025-08-15'
 		}
@@ -82,7 +82,7 @@
 			{
 				href: '/enneagram-corner/subtopic/nine-types',
 				label: 'Study All 9 Types',
-				hook: 'Learn what drives each one'
+				hook: 'Map what drives each one'
 			},
 			{
 				href: '/enneagram-corner/subtopic/development',
@@ -97,7 +97,7 @@
 			{
 				href: '/enneagram-corner/subtopic/workplace',
 				label: 'Navigate Work',
-				hook: 'Read the office dynamics'
+				hook: 'Read office dynamics'
 			}
 		],
 		'nine-types': [
@@ -131,17 +131,17 @@
 			{
 				href: '/enneagram-corner/subtopic/nine-types',
 				label: 'Know Each Type',
-				hook: 'Deepen your understanding'
+				hook: 'Decode all patterns'
 			},
 			{
 				href: '/enneagram-corner/subtopic/relationships',
 				label: 'Relationship Growth',
-				hook: 'Grow with others'
+				hook: 'Grow alongside others'
 			},
 			{
 				href: '/enneagram-corner/subtopic/workplace',
 				label: 'Professional Development',
-				hook: 'Level up at work'
+				hook: 'Unlock career growth'
 			}
 		],
 		relationships: [
@@ -207,12 +207,12 @@
 			{
 				href: '/enneagram-corner/subtopic/relationships',
 				label: 'Transform Relationships',
-				hook: 'Connect deeper'
+				hook: 'Connect with clarity'
 			},
 			{
 				href: '/enneagram-corner/subtopic/workplace',
 				label: 'Optimize Career',
-				hook: 'Level up professionally'
+				hook: 'Navigate professional life'
 			}
 		],
 		situational: [
@@ -229,7 +229,7 @@
 			{
 				href: '/enneagram-corner/subtopic/development',
 				label: 'Apply to Yourself',
-				hook: 'Use in your life'
+				hook: 'Use in your own life'
 			},
 			{
 				href: '/enneagram-corner/subtopic/relationships',
@@ -276,17 +276,15 @@
 		<section id="introduction" class="intro-section">
 			<p class="hook">
 				<strong>You've been running on autopilot your entire life.</strong> Every reaction, every decision,
-				every relationship pattern—they're all driven by an invisible operating system you never chose
-				to install.
+				every relationship pattern: all driven by an invisible operating system you never chose to install.
 			</p>
 			<p>
-				The Enneagram reveals this hidden code. It's not just another personality test—it's a map of
-				your psychological DNA, showing exactly why you sabotage yourself in predictable ways and
+				The Enneagram reveals this hidden code. It's not another personality quiz. It's a map of
+				your psychological wiring, showing exactly why you sabotage yourself in predictable ways and
 				how to finally break free.
 			</p>
 			<p class="insight-callout">
-				Master this framework, and you'll understand people at levels they don't even understand
-				themselves.
+				Master this framework, and you'll read people before they finish their first sentence.
 			</p>
 		</section>
 
@@ -321,13 +319,13 @@
 		<section id="conclusion" class="action-section">
 			<h2>Your Next Move</h2>
 			<p>
-				Understanding the Enneagram isn't about putting people in boxes—it's about seeing the
+				Understanding the Enneagram isn't about putting people in boxes. It's about seeing the
 				<strong>emotional logic</strong> behind their behavior. Once you see the patterns, you can't
 				unsee them.
 			</p>
 			<p>
 				<strong>Start with these articles</strong> to build your foundation. Then pick one person in
-				your life—guess their type, watch for the patterns, and notice how your understanding of them
+				your life, guess their type, watch for the patterns, and notice how your understanding of them
 				shifts.
 			</p>
 		</section>
@@ -339,11 +337,12 @@
 			</p>
 			<p>
 				Each type operates from a core fear and a core desire they're often unaware of. A Type 1
-				isn't "controlling"—they're driven by a deep need to be good and avoid criticism. A Type 7
-				isn't "flaky"—they're running from emotional pain they learned to escape as children.
+				isn't "controlling," they're driven by a deep need to be good and avoid criticism. A Type 7
+				isn't "flaky," they're running from emotional pain they learned to escape as children.
 			</p>
 			<p class="insight-callout">
-				Know someone's type, and you know what they're optimizing for. That changes everything.
+				Know someone's type, and you know what they're optimizing for. That changes every
+				interaction.
 			</p>
 		</section>
 
@@ -381,8 +380,8 @@
 				Next time you're frustrated with someone, pause and ask: "What type pattern am I seeing?"
 			</p>
 			<p>
-				The goal isn't to label people—it's to understand the emotional logic driving their
-				behavior. When you see the fear underneath the behavior, frustration often transforms into
+				The goal isn't to label people. It's to understand the emotional logic driving their
+				behavior. When you see the fear underneath the action, frustration often transforms into
 				empathy.
 			</p>
 		</section>
@@ -390,7 +389,7 @@
 		<section id="introduction" class="intro-section">
 			<p class="hook">
 				<strong>Your type isn't a prison. It's a starting point.</strong> The Enneagram shows you where
-				you're stuck—and exactly how to get unstuck.
+				you're stuck and exactly how to get unstuck.
 			</p>
 			<p>
 				Every type has a predictable growth edge. Type 3s need to stop performing and feel their
@@ -398,8 +397,8 @@
 				own judgment instead of seeking external validation.
 			</p>
 			<p class="insight-callout">
-				The patterns that protected you as a child are now holding you back. Growth means outgrowing
-				your survival strategies.
+				The patterns that protected you as a child now hold you back. Growth means outgrowing your
+				survival strategies.
 			</p>
 		</section>
 
@@ -434,9 +433,9 @@
 		<section id="conclusion" class="action-section">
 			<h2>The Real Work Starts Now</h2>
 			<p>
-				Growth isn't about becoming a different type—it's about <strong
+				Growth isn't about becoming a different type. It's about <strong
 					>expanding beyond your type's automatic responses.</strong
-				> You're not broken. You're just running an outdated operating system.
+				> You're not broken. You're running an outdated operating system.
 			</p>
 			<p>
 				Pick one pattern you recognize in yourself. Notice when it shows up. That awareness alone
@@ -447,7 +446,7 @@
 		<section id="introduction" class="intro-section">
 			<p class="hook">
 				<strong>Most relationship fights aren't about what you think they're about.</strong> They're
-				about two different types with two different emotional needs talking past each other.
+				two different types with two different emotional needs talking past each other.
 			</p>
 			<p>
 				Your partner isn't being "too emotional" or "too distant." They're responding from their
@@ -498,19 +497,19 @@
 			</p>
 			<p>
 				Now consider: did you give them what they needed, or what <em>your</em> type would have wanted?
-				That gap is where most relationship friction lives. Close it, and connection flows.
+				That gap is where most relationship friction lives. Close it, and watch connection flow.
 			</p>
 		</section>
 	{:else if subsection === 'workplace'}
 		<section id="introduction" class="intro-section">
 			<p class="hook">
-				<strong>Every office is a petri dish of type dynamics.</strong> The "difficult" coworker, the
-				micromanaging boss, the team that can't align—these aren't random. They're predictable patterns.
+				<strong>Every office runs on type dynamics.</strong> The "difficult" coworker, the micromanaging
+				boss, the team that can't align. These aren't random. They're predictable patterns.
 			</p>
 			<p>
-				Your Type 1 manager isn't being harsh—they have a genuine fear of making mistakes and need
-				to feel things are done right. Your Type 7 colleague isn't scattered—they're energized by
-				possibilities and drained by routine. Your Type 6 teammate isn't paranoid—they're thinking
+				Your Type 1 manager isn't being harsh. They have a genuine fear of making mistakes and need
+				to feel things are done right. Your Type 7 colleague isn't scattered. They're energized by
+				possibilities and drained by routine. Your Type 6 teammate isn't paranoid. They're thinking
 				through all the ways things could go wrong so you don't have to.
 			</p>
 			<p class="insight-callout">
@@ -550,25 +549,25 @@
 		<section id="conclusion" class="action-section">
 			<h2>Apply This Tomorrow</h2>
 			<p>
-				Pick one colleague who frustrates you. <strong>Guess their type.</strong> Now reframe their behavior
+				Pick one colleague who frustrates you. <strong>Guess their type.</strong> Reframe their behavior
 				through that lens. What fear might be driving them? What do they need to feel safe and effective?
 			</p>
 			<p>
 				Adjust your approach based on that insight. A 5-minute conversation framed for their type
-				will accomplish more than an hour of talking past each other.
+				accomplishes more than an hour of talking past each other.
 			</p>
 		</section>
 	{:else if subsection === 'resources'}
 		<section id="introduction" class="intro-section">
 			<p class="hook">
-				<strong>90% of Enneagram content is garbage.</strong> Surface-level buzzfeed quizzes, Instagram
-				infographics that oversimplify, books that contradict each other. We've sorted through it all
-				so you don't have to.
+				<strong>Most Enneagram content wastes your time.</strong> Surface-level quizzes that mistype
+				you. Instagram infographics that reduce complex patterns to memes. Books that contradict each
+				other on fundamentals.
 			</p>
 			<p>
-				These are the resources that pass our test: scientifically grounded, practically useful, and
-				actually accurate. No fluff, no mysticism, just tools that deliver real psychological
-				insight.
+				We've tested dozens of resources and kept only what works: assessments with validated
+				accuracy, books grounded in psychological research, and training programs that produce real
+				results. No mysticism. No astrology-level generalizations.
 			</p>
 		</section>
 
@@ -604,12 +603,11 @@
 			<h2>Skip the Beginner Mistakes</h2>
 			<p>
 				Most people waste months on bad tests, contradictory books, and surface-level content.
-				<strong>Start with resources that actually deliver results.</strong> We've done the research,
-				tested the tools, and validated the frameworks.
+				<strong>Start with resources that actually deliver results.</strong>
 			</p>
 			<p>
-				Our curated collection includes professional-grade assessments, evidence-based books, and
-				advanced training programs. Stop wasting time on personality astrology. Get the real tools.
+				These resources include professional-grade assessments, evidence-based books, and training
+				programs with track records. Use what works. Skip what doesn't.
 			</p>
 		</section>
 	{:else if subsection === 'situational'}
@@ -620,9 +618,11 @@
 			</p>
 			<p>
 				These guides show you exactly how each type behaves in specific, real-world situations. No
-				abstract theory—just concrete patterns you'll recognize immediately.
+				abstract theory. Just concrete patterns you'll recognize immediately.
 			</p>
-			<p class="insight-callout">Learn to read people like a book in any scenario.</p>
+			<p class="insight-callout">
+				Map patterns to real scenarios. Read people accurately when it matters.
+			</p>
 		</section>
 
 		<section id="situation-categories">
@@ -656,13 +656,13 @@
 		<section id="conclusion" class="action-section">
 			<h2>Become a Human Behavior Expert</h2>
 			<p>
-				Imagine walking into any room and instantly understanding everyone's motivations, fears, and
-				likely behaviors. <strong>This isn't mind reading—it's pattern recognition.</strong>
+				Picture walking into any room and immediately reading everyone's motivations, fears, and
+				likely behaviors. <strong>This isn't mind reading. It's pattern recognition.</strong>
 			</p>
 			<p>
-				Our situational guides train you to spot types in action, predict their responses, and adapt
-				your approach accordingly. Whether you're dating, managing, selling, or just trying to
-				understand people better, these are your field guides to human behavior.
+				These situational guides train you to spot types in action, predict their responses, and
+				adapt your approach accordingly. Dating, managing, selling, negotiating. These are your
+				field guides to human behavior.
 			</p>
 		</section>
 	{/if}

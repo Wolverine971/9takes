@@ -5,7 +5,7 @@ description: 'Explore how MLK embodied Type 8 traits - from childhood defiance t
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Martin-Luther-King-Jr'
-lastmod: '2025-01-17'
+lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

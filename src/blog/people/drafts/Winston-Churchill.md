@@ -4,14 +4,14 @@ description: "Inside Churchill's depression, his painting, his tears, and the fi
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Winston-Churchill'
-lastmod: '2025-01-17'
+lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['politician']
 person: 'Winston-Churchill'
-suggestions: ['Ronald Reagan', 'Barack Obama', 'George W. Bush', 'Donald Trump']
+suggestions: ['Ronald Reagan', 'Barack Obama', 'George W Bush', 'Donald Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Winston_Churchill'
 twitter: ''
 instagram: ''

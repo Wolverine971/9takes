@@ -1,7 +1,7 @@
 ---
 title: 'Post Malone: The Type 9 Peacemaker Behind the Face Tattoos'
 meta_title: "Post Malone's Enneagram Type 9: Why He's So Chill"
-description: "Post Malone often comes across as an Enneagram Type 9: warm, conflict-avoidant, genre-fluid, and quietly battling insecurity beneath the laid-back persona."
+description: 'Post Malone often comes across as an Enneagram Type 9: warm, conflict-avoidant, genre-fluid, and quietly battling insecurity beneath the laid-back persona.'
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Post-Malone'

@@ -23,18 +23,18 @@ path: src/blog/pop-culture/reddit-moderators-type-1-internet.md
 </script>
 
 <QuickAnswer question="Why do Type 1s become Reddit moderators?">
-Type 1s (Perfectionists) are psychologically compelled to correct wrongness and maintain standards. Reddit moderating—enforcing rules, removing inappropriate content, maintaining community order—is their core drive expressed through unpaid labor. They can't see rule-breaking and do nothing. The wrongness must be fixed. The same psychology drives Wikipedia's power editors, who maintain 99% of the encyclopedia despite being less than 1% of visitors.
+Type 1s (Perfectionists) are psychologically compelled to correct wrongness. They can't see rule-breaking and do nothing. The wrongness sits there, bothering them, until they fix it. Reddit moderation gives them the tools to act on that impulse. The same psychology drives Wikipedia's power editors, who maintain nearly all of the encyclopedia despite being a tiny fraction of visitors.
 </QuickAnswer>
 
-<p class="firstLetter">They spend 40+ hours a week enforcing rules in communities they don't own, for people who mostly hate them, without pay. When they make mistakes, they're publicly crucified. When they do well, no one notices.</p>
+<p class="firstLetter">They spend 40+ hours a week enforcing rules in communities they don't own, for people who mostly hate them, without pay. When they screw up, they're publicly crucified. When they do well, no one notices.</p>
 
 Why would anyone do this?
 
-The answer lies in personality psychology. Reddit moderation—and unpaid internet governance in general—attracts specific Enneagram types whose psychological needs are met by the role, even when the role is objectively thankless.
+Personality psychology has the answer. Reddit moderation attracts specific Enneagram types whose core psychological needs get met by the role, even when that role is objectively thankless.
 
-This isn't just about Reddit. The same personality patterns explain Wikipedia's tireless editors, Discord server admins, forum moderators, and anyone who voluntarily governs online spaces. A tiny percentage of users do massive amounts of unpaid work to maintain order.
+This pattern extends beyond Reddit. Wikipedia's tireless editors. Discord server admins. Forum moderators. Anywhere online spaces need governing, a tiny percentage of users volunteer massive amounts of unpaid labor to maintain order.
 
-The question isn't whether these people are "power-tripping." The question is: _what psychological need makes someone willing to do this?_
+The question isn't whether these people are "power-tripping." The question is: _what psychological need compels someone to do this work for free?_
 
 ### The Internet Governance Personality Map
 
@@ -49,7 +49,7 @@ Before we decode each type, let's acknowledge what critics get right.
 
 ## What the Critics Get Right (And Wrong)
 
-If you've ever had a post removed for a technicality, been banned without explanation, or watched a mod go on a power trip—your frustration is valid. Let's be honest about the legitimate complaints:
+If you've ever had a post removed for a technicality, been banned without explanation, or watched a mod go on a power trip, your frustration is valid. The legitimate complaints are real.
 
 **The power without accountability problem:** Reddit mods have enormous power over communities they don't own. They can ban users, remove content, and shape discourse with zero oversight. Unlike elected officials or paid employees, there's no performance review, no appeals process that works, and no consequences for abuse.
 
@@ -59,9 +59,9 @@ If you've ever had a post removed for a technicality, been banned without explan
 
 **The "touch grass" criticism:** Many power mods moderate dozens of subreddits simultaneously. The 2023 Reddit blackout revealed that a tiny number of users controlled massive portions of the site. That concentration of unpaid labor in specific personality types creates systemic vulnerability.
 
-But here's what the critics miss: **understanding mod psychology doesn't excuse abuse—it explains it.** And explanation is the first step toward better systems.
+But here's what the critics miss: **understanding mod psychology doesn't excuse abuse. It explains it.** And explanation is the first step toward better systems.
 
-The mods who do this work aren't evil. They're meeting psychological needs in ways that sometimes harm others. Recognizing the pattern helps everyone—mods included.
+The mods who do this work aren't evil. They're meeting psychological needs in ways that sometimes harm others. Recognizing the pattern helps everyone.
 
 ## The Psychology of Online Governance
 
@@ -87,7 +87,7 @@ A Type 1 can't scroll past a rule violation without feeling compelled to act. Th
 
 **What the Type 1 mod experiences:** "This clearly violates rule 3. It's wrong. I have to fix it. If I don't, the community degrades. Standards matter. Rules exist for reasons."
 
-Type 1 mods aren't cruel—they're principled. The problem is that their principles may be stricter than the community wants, and their correction impulse may override relationship concerns.
+Type 1 mods aren't cruel. They're principled. The problem is that their principles may be stricter than the community wants, and their correction impulse can override relationship concerns.
 
 ## Other Types Who Moderate
 
@@ -156,13 +156,13 @@ Type 8 mods are the enforcers. They're less interested in rules for rules' sake 
 
 ## The Wikipedia Parallel: Same Psychology, Different Platform
 
-Reddit mods aren't unique. The same personality patterns govern Wikipedia—arguably the internet's most successful governance experiment.
+Reddit mods aren't unique. The same personality patterns govern Wikipedia, arguably the internet's most successful governance experiment.
 
 ### The 1% Who Build the Encyclopedia
 
-Wikipedia has a stunning statistic: **less than 1% of visitors ever edit anything.** Of those who do edit, an even smaller fraction—the "power editors"—contribute the vast majority of content and corrections.
+Wikipedia has a stunning statistic: **less than 1% of visitors ever edit anything.**
 
-These aren't random people. They're specific personality types with specific motivations:
+Of those who do edit, an even smaller fraction, the "power editors," contribute the vast majority of content and corrections. These aren't random people. They're specific personality types with specific motivations:
 
 | Editor Type    | Enneagram | Motivation                                        | What They Do                                                                   |
 | -------------- | --------- | ------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -172,17 +172,17 @@ These aren't random people. They're specific personality types with specific mot
 
 ### Type 1 Wikipedia Editors: The Correction Compulsion
 
-Type 1 Wikipedia editors can't read an article with a typo without fixing it. They see a citation needed tag and feel genuine discomfort until they've sourced it.
+Type 1 Wikipedia editors can't read an article with a typo without fixing it. They see a "citation needed" tag and feel genuine discomfort until they've sourced it.
 
 > The Type 1 Wikipedia experience: "I just came here to look something up. Three hours later, I've corrected 47 articles and started an edit war about comma usage."
 
 Their motivation is **moral**. Wrong information is _wrong_. Leaving errors is _irresponsible_. Standards exist for _reasons_.
 
-This is identical to Type 1 Reddit mods who can't scroll past a rule violation. The platform differs; the psychology is the same.
+This is identical to Type 1 Reddit mods who can't scroll past a rule violation. Different platform, same psychology.
 
 ### Type 5 Wikipedia Editors: The Knowledge Architects
 
-Type 5s are drawn to Wikipedia for different reasons. They don't care about correcting errors—they care about **comprehensive understanding**.
+Type 5s are drawn to Wikipedia for different reasons. They don't care about correcting errors. They care about **comprehensive understanding**.
 
 A Type 5 Wikipedia editor will spend months writing the definitive article on an obscure topic. Not because it's wrong, but because it's _incomplete_. Their motivation is intellectual, not moral.
 
@@ -201,7 +201,7 @@ The Wikipedia parallel reveals something important: **the internet is governed b
 
 Wikipedia isn't maintained by "the crowd." It's maintained by a tiny number of Type 1s and Type 5s who can't stop themselves from doing the work. Reddit isn't moderated by "the community." It's moderated by Type 1s, 5s, 6s, and 8s whose psychological needs are met by the role.
 
-This isn't good or bad—it's reality. And understanding it helps explain:
+This isn't good or bad. It's reality. And understanding it helps explain:
 
 - Why certain platforms feel "strict" (Type 1 dominated)
 - Why certain communities feel "paranoid" (Type 6 dominated)
@@ -212,7 +212,7 @@ The personality of the governors becomes the personality of the governed.
 
 ## The Mod Conflict Pattern
 
-Understanding mod conflicts requires understanding type dynamics. Most mod drama isn't about the issue—it's about clashing psychological approaches.
+Understanding mod conflicts requires understanding type dynamics. Most mod drama isn't about the issue. It's about clashing psychological approaches.
 
 ### Type 1 vs Type 8: Process vs. Instinct
 
@@ -240,7 +240,7 @@ Both want the same outcome (remove bad actor) but disagree on methodology (proce
 
 **Type 5:** "Feelings aren't data."
 
-Type 6 operates on intuitive threat detection. Type 5 requires evidence. Both are valuable, but they frustrate each other.
+Type 6 operates on intuitive threat detection. Type 5 requires evidence. Both approaches have value. But they frustrate each other constantly.
 
 ### The 2023 Reddit Blackout: Type Psychology in Action
 
@@ -255,7 +255,7 @@ The 2023 API pricing protest revealed mod psychology at scale:
 
 The blackout showed how quickly mod communities organize when their psychological needs are threatened. Type 1s couldn't accept the "wrongness" of the policy. Type 6s felt their security tools under attack. Type 8s wanted direct confrontation.
 
-The mods who _didn't_ participate? Often Type 9s who avoid conflict, or burned-out mods who'd already disengaged.
+The mods who _didn't_ participate? Often Type 9s who avoid conflict. Or burned-out mods who'd already disengaged.
 
 ### When Mod Teams Implode: A Pattern
 
@@ -263,7 +263,7 @@ Most mod team collapses follow a predictable pattern:
 
 **Stage 1: Honeymoon** - Different types complement each other. Type 1 creates rules, Type 5 builds systems, Type 6 watches for threats, Type 8 enforces.
 
-**Stage 2: Friction** - Types start clashing. Type 1 thinks Type 8 is too harsh. Type 5 thinks Type 6 is paranoid. Small disagreements accumulate.
+**Stage 2: Friction** - Types start clashing. The Type 1 thinks the Type 8 is too harsh. The Type 5 thinks the Type 6 is paranoid. Small disagreements accumulate.
 
 **Stage 3: Factions** - Mods align by type. "Process people" (1s and 5s) vs. "Action people" (6s and 8s). Communication breaks down.
 
@@ -277,31 +277,23 @@ Most mod team collapses follow a predictable pattern:
 
 Reddit's structure attracts certain moderator types:
 
-**Subreddit autonomy:** Appeals to Type 1's desire to create their own ordered space
-
-**Rule customization:** Satisfies Type 1's need for clear standards
-
-**Voting system:** Provides Type 5-friendly data on community preferences
-
-**Anonymous accounts:** Allows Type 5s to participate without personal exposure
-
-**Community focus:** Satisfies Type 6's need for in-group
-
-**Confrontation tools:** Enables Type 8's direct enforcement
+- **Subreddit autonomy** appeals to Type 1's desire to create their own ordered space
+- **Rule customization** satisfies Type 1's need for clear standards
+- **Voting system** provides Type 5-friendly data on community preferences
+- **Anonymous accounts** allow Type 5s to participate without personal exposure
+- **Community focus** satisfies Type 6's need for in-group belonging
+- **Confrontation tools** enable Type 8's direct enforcement style
 
 ### The Community Ownership Illusion
 
-Reddit mods don't own their communities, but the platform creates psychological ownership:
+Reddit mods don't own their communities. But the platform creates psychological ownership through:
 
-**Time investment:** 40+ unpaid hours creates commitment
+- **Time investment:** 40+ unpaid hours creates commitment
+- **Identity merger:** "My subreddit" language becomes natural
+- **Status:** "Top mod" hierarchy creates stakes
+- **Control:** Ability to shape community culture feels like ownership
 
-**Identity merger:** "My subreddit" language
-
-**Status:** "Top mod" hierarchy
-
-**Control:** Ability to shape community culture
-
-This illusory ownership explains why mods fight so hard over control—they've psychologically invested as if it were real property.
+This illusory ownership explains why mods fight so hard over control. They've psychologically invested as if it were real property.
 
 ## The Moderator Burnout Cycle
 
@@ -344,7 +336,7 @@ Type 1s burn out fastest because their psychology creates an impossible loop:
 
 A Type 8 mod can accept some rule-breaking as inevitable. A Type 5 can detach emotionally from outcomes. A Type 6 can focus on protecting key community members.
 
-A Type 1 mod sees every violation as personal failure. And personal failure is intolerable.
+A Type 1 sees every violation as personal failure. And to a Type 1, personal failure is intolerable.
 
 ## The "Power-Tripping Mod" Phenomenon
 
@@ -362,7 +354,7 @@ A Type 1 mod sees every violation as personal failure. And personal failure is i
 
 **Type 5 mod:** "The modlog shows this user has three prior warnings. Per our enforcement matrix, removal is correct."
 
-None of these mods are "power-tripping." They're applying their type's psychology to moderation decisions. The appearance of power abuse is often just type mismatch—the mod's logic doesn't match the user's expectations.
+None of these mods are "power-tripping." They're applying their type's psychology to moderation decisions. The appearance of power abuse is often just type mismatch. The mod's logic doesn't match the user's expectations.
 
 ### When It Actually Is Power-Tripping
 
@@ -373,7 +365,7 @@ Real mod abuse typically comes from:
 - Type 6s who've become paranoid and see all users as threats
 - Any type experiencing the burnout cycle's late stages
 
-The difference: healthy mods can explain their reasoning and change when wrong. Unhealthy mods cannot.
+The difference? Healthy mods can explain their reasoning and change when wrong. Unhealthy mods cannot.
 
 ## Healthy Moderation by Type
 
@@ -414,7 +406,7 @@ Each type has specific growth edges for sustainable moderation:
 
 **Why do people become mods for free?**
 
-Psychological needs being met (Type 1's correction impulse, Type 6's protection drive, Type 8's power expression) are valuable even without money. Plus, moderation provides status, community, and sense of purpose. The same reason Wikipedia editors contribute millions of hours unpaid.
+Psychological needs being met are valuable even without money. Type 1's correction impulse, Type 6's protection drive, Type 8's power expression. Plus, moderation provides status, community, and sense of purpose. Same reason Wikipedia editors contribute millions of hours unpaid.
 
 **Are all Reddit mods Type 1s?**
 
@@ -422,7 +414,7 @@ No, but Type 1s are overrepresented because the role satisfies their core psycho
 
 **Why do mod teams have so much drama?**
 
-Different types moderate for different reasons. Type 1s want rule enforcement. Type 6s want threat protection. Type 8s want direct action. Type 5s want systematic efficiency. These priorities conflict. The drama isn't about the issue—it's about clashing psychological frameworks.
+Different types moderate for different reasons. Type 1s want rule enforcement. Type 6s want threat protection. Type 8s want direct action. Type 5s want systematic efficiency. These priorities conflict. The drama isn't about the stated issue. It's about clashing psychological frameworks.
 
 **How can communities get better moderation?**
 
@@ -434,7 +426,7 @@ Different types moderate for different reasons. Type 1s want rule enforcement. T
 
 **Why is Wikipedia so strict about citations?**
 
-Wikipedia is governed primarily by Type 1s (correction compulsion) and Type 5s (comprehensive documentation). Both types value precision and verifiability. The strictness isn't arbitrary—it reflects the psychological makeup of the people willing to do the work.
+Wikipedia is governed primarily by Type 1s (correction compulsion) and Type 5s (comprehensive documentation). Both types value precision and verifiability. The strictness isn't arbitrary. It reflects the psychological makeup of the people willing to do the work.
 
 **Should I become a moderator?**
 
@@ -451,9 +443,11 @@ Moderation is most sustainable when you understand your type's limits and build 
 
 **Can understanding type psychology make me a better community member?**
 
-Yes. When you see a mod remove your post, ask: "What type of mod is this, and what need are they meeting?" A Type 1 needs to see you acknowledge the rule. A Type 6 needs to see you're not a threat. A Type 8 needs you to not challenge their authority directly. A Type 5 needs you to follow the system they built.
+Yes. When you see a mod remove your post, ask: "What type of mod is this, and what need are they meeting?"
 
-Understanding mod psychology doesn't mean you have to accept bad moderation—but it helps you navigate it more effectively.
+A Type 1 needs to see you acknowledge the rule. A Type 6 needs to see you're not a threat. A Type 8 needs you to not challenge their authority directly. A Type 5 needs you to follow the system they built.
+
+Understanding mod psychology doesn't mean you have to accept bad moderation. But it helps you navigate it more effectively.
 
 ## The Bigger Picture: Who Governs the Internet?
 
@@ -461,17 +455,17 @@ The internet pretends to be democratic. "Anyone can contribute to Wikipedia." "A
 
 But the reality is **oligarchy by personality type.**
 
-A tiny fraction of users—those whose psychological needs are met by governance roles—control the information architecture of the internet. Type 1s enforce standards. Type 5s build systems. Type 6s protect communities. Type 8s confront wrongdoers.
+A tiny fraction of users, those whose psychological needs are met by governance roles, control the information architecture of the internet. Type 1s enforce standards. Type 5s build systems. Type 6s protect communities. Type 8s confront wrongdoers.
 
 The rest of us just... use what they create.
 
 This isn't inherently bad. These types are often well-suited to governance. But it means:
 
-- **Platform culture reflects mod psychology** - Strict platforms have Type 1 mods. Paranoid platforms have Type 6 mods.
-- **Blind spots are predictable** - Type 1 mods miss nuance. Type 5 mods miss emotional needs. Type 6 mods miss false positives. Type 8 mods miss escalation points.
-- **Burnout is structural** - The people willing to do this work are psychologically vulnerable to the work itself.
+- **Platform culture reflects mod psychology.** Strict platforms have Type 1 mods. Paranoid platforms have Type 6 mods.
+- **Blind spots are predictable.** Type 1 mods miss nuance. Type 5 mods miss emotional needs. Type 6 mods miss false positives. Type 8 mods miss escalation points.
+- **Burnout is structural.** The people willing to do this work are psychologically vulnerable to the work itself.
 
-Understanding this helps everyone—users, mods, and platform designers alike.
+Understanding this helps everyone. Users, mods, and platform designers alike.
 
 ## Your Internet Governance Personality
 
@@ -483,7 +477,7 @@ Here's the uncomfortable question: **which type are you in online spaces?**
 - Do you directly confront wrongdoers? (Type 8 energy)
 - Do you avoid conflict and go along with community consensus? (Type 9 energy)
 
-Your answer explains your relationship with the internet's invisible governors—and maybe reveals whether you're one of them.
+Your answer explains your relationship with the internet's invisible governors. And maybe reveals whether you're one of them.
 
 **Want to understand your own personality patterns?** [Take our Enneagram test](/enneagram-corner/enneagram-test) to discover which type drives your behavior online and off.
 

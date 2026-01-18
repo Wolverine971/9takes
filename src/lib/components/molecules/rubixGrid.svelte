@@ -166,7 +166,7 @@
 		grid-template-rows: repeat(3, 1fr);
 		gap: 10px;
 		width: 100%;
-		max-width: 500px;
+		// max-width: 500px;
 		margin: 0 auto;
 		padding: 0 0.5rem;
 		box-sizing: border-box;

@@ -222,7 +222,7 @@
 </url>
 <url>
     <loc>https://9takes.com/community/what-winning-online-arguments-looks-like</loc>
-    <lastmod>2025-01-10T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -456,7 +456,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-coach-toolkit</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -738,7 +738,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-type-8</loc>
-    <lastmod>2025-12-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -903,7 +903,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/how-to-navigate-early-relationship-stages</loc>
-    <lastmod>2025-08-15T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -975,7 +975,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/shadow-work-by-enneagram-type</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -984,7 +984,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/situations-change-emotions-dont</loc>
-    <lastmod>2025-01-22T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1011,7 +1011,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/why-you-cant-stop-overthinking-enneagram</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1637,15 +1637,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Brad-Pitt</loc>
-    <lastmod>2025-04-08T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/9s/Brad-Pitt.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Dwayne-Johnson</loc>
     <lastmod>2025-04-08T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1751,15 +1742,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Beyonce-Knowles.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Joe-Rogan</loc>
-    <lastmod>2025-04-10T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Joe-Rogan.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1961,15 +1943,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Alex-Cooper</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Alex-Cooper.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Bad-Bunny</loc>
     <lastmod>2025-12-03T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1985,15 +1958,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Billie-Eilish.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Elon-Musk</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/5s/Elon-Musk.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2420,15 +2384,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Gwyneth-Paltrow</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/1s/Gwyneth-Paltrow.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Henry-Cavill</loc>
     <lastmod>2025-12-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2489,15 +2444,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Jared-Leto.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Jeff-Bezos</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/1s/Jeff-Bezos.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2780,15 +2726,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Madison-Beer</loc>
-    <lastmod>2026-01-06T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Madison-Beer.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Charli-D'Amelio</loc>
     <lastmod>2026-01-07T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2921,6 +2858,69 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/xQc.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Alex-Cooper</loc>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Alex-Cooper.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Brad-Pitt</loc>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Brad-Pitt.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Elon-Musk</loc>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/Elon-Musk.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Gwyneth-Paltrow</loc>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Gwyneth-Paltrow.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Jeff-Bezos</loc>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Jeff-Bezos.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Joe-Rogan</loc>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Joe-Rogan.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Madison-Beer</loc>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Madison-Beer.webp</image:loc>
     </image:image>
 </url>
 <url>

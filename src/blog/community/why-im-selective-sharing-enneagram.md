@@ -1,6 +1,6 @@
 ---
-title: 'The Enneagram Changed My Life, But I am Careful Who I Tell'
-description: 'Discover why sharing the life-changing insights of the Enneagram requires thoughtful consideration and how to approach conversations wisely.'
+title: 'The Enneagram Changed My Life, But I Learned to Shut Up About It'
+description: 'Why enthusiasm for the Enneagram backfires, and the tactical approach to sharing without becoming that person who psychoanalyzes everyone at parties.'
 author: 'DJ Wayne'
 date: '2024-03-09'
 loc: 'https://9takes.com/community/why-im-selective-sharing-enneagram'
@@ -25,8 +25,8 @@ path: src/blog/community/why-im-selective-sharing-enneagram.md
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "The Enneagram Changed My Life, But I am Careful Who I Tell",
-  "description": "Discover why sharing the life-changing insights of the Enneagram requires thoughtful consideration and how to approach conversations wisely.",
+  "headline": "The Enneagram Changed My Life, But I Learned to Shut Up About It",
+  "description": "Why enthusiasm for the Enneagram backfires, and the tactical approach to sharing without becoming that person who psychoanalyzes everyone at parties.",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
@@ -90,149 +90,159 @@ path: src/blog/community/why-im-selective-sharing-enneagram.md
     />
 </div>
 
-<p class="firstLetter">I remember the moment everything shifted.</p>
+<p class="firstLetter">I killed my brother's interest in the Enneagram in under five minutes.</p>
 
-My brother was over at my apartment, and I could barely contain my excitement about this "life-changing personality system" I'd discovered. In my enthusiasm, I started explaining how he was clearly a [Type 9](/enneagram-corner/enneagram-type-9)—how he pacified himself when things got difficult, how he went numb to avoid conflict, how his stubbornness was really just a way of resisting change.
+He was over at my apartment, and I couldn't help myself. I'd just discovered this "life-changing personality system" and I needed to share it. So I started explaining how he was clearly a [Type 9](/enneagram-corner/enneagram-type-9). How he pacified himself when things got hard. How he went numb to avoid conflict. How his stubbornness was really just resistance to change.
 
-I watched his face as I spoke. At first, there was curiosity. Then confusion. Then something— cold, a defensive wall was sliding down behind his eyes. I could see him mentally checking out. I could practically watch him deciding that the Enneagram was complete pseudoscience garbage.
+I watched his face shift. Curiosity turned to confusion. Then something cold slid down behind his eyes. A wall going up.
 
-"Are there peer-reviewed research papers on this?" he asked. "This whole thing sounds like horoscopes."
+"Are there peer-reviewed research papers on this?" he asked. "Sounds like horoscopes."
 
-That was the end of diving into our psychology from an Enneagram perspective. He would dismiss anything I'd learned about personal growth, occasionally throwing sarcastic comments about "your personality cult" into family conversations. I thought I was being helpful—offering him the same insights that had revolutionized my self-understanding. Instead, I'd essentially told my own brother that I saw all his flaws clearly and had a system to explain them. That moment was another reminder that not everyone is getting what I am putting down. And I need to be more careful with how I say things.
+That was it. For years afterward, he'd dismiss anything I mentioned about personal growth with sarcastic comments about "your personality cult." I thought I was helping. I was offering him the same insights that had transformed my self-understanding. Instead, I'd just told my own brother: _I see all your flaws, and I have a system to explain them._
 
-If you've ever felt the urge to share the Enneagram with someone close to you—but stopped yourself because you didn't want to come off as preachy or weird—you're not alone. This post is for anyone who's discovered something transformative but learned the hard way that enthusiasm doesn't equal invitation.
+If you've discovered the Enneagram and felt the urge to share it with someone you care about, only to hold back because you didn't want to seem preachy or weird, this post is for you. Enthusiasm doesn't equal invitation. I learned that the hard way.
 
-## The Psychology of Unsolicited Analysis
+## Why Unsolicited Analysis Backfires
 
-**Not Everyone Appreciates Being Psychoanalyzed or Labeled**
+Here's what happens psychologically when you analyze someone who didn't ask for it: you bypass consent. You're asking them to be vulnerable about their inner world without warning.
 
-Psychologists call what I did with Sarah "unsolicited psychoanalysis"—which often triggers resistance or defensiveness, not because it's wrong, but because it bypasses consent. When we excitedly share how the Enneagram has altered our perception, we're essentially asking someone to be vulnerable about their inner world without warning.
+Your personality feels personal. Maybe even sacred. When someone categorizes it without permission, it doesn't feel like insight. It feels like invasion.
 
-Think about it: our personality feels deeply personal, maybe even sacred. Having someone categorize it can feel invasive, especially when they haven't asked for that level of intimacy.
+**The pattern:**
 
-**What this sounds like:**
+- You say: "You're totally a Type 2. You're always helping everyone else!"
+- They hear: "I've been watching you, and I have opinions about your psychology."
+- They feel: examined, labeled, defensive
 
-- ❌ "You're totally a Type 2—you're always helping everyone else!"
-- ✅ "Learning about my type helped me understand why I always feel responsible for everyone's emotions."
+**What works instead:**
 
-**Tip**: Begin conversations by sharing your personal experience with the Enneagram in a way that focuses on your journey rather than attempting to analyze the listener. This approach invites curiosity without making the other person feel examined under a microscope.
+- "Learning about my type helped me understand why I always feel responsible for everyone's emotions."
 
-Your lantern should illuminate your own path first.
+The difference? You're illuminating your own path, not shining a spotlight on theirs. People lean in when they see your growth. They pull back when you diagnose them.
 
 ## The Teacher Trap
 
-**Positioning Yourself as a Teacher Can Be Off-Putting**
+There's something intoxicating about understanding a system that explains so much. You see patterns everywhere. You want to share that clarity.
 
-There's something intoxicating about understanding a system that explains so much. Suddenly, you see patterns everywhere, and you want to share that clarity. But when we slip into teacher mode, we inadvertently create a power dynamic the other person never agreed to.
+But when you slip into teacher mode, you create a power dynamic the other person never signed up for.
 
-I've watched friends' eyes glaze over as I explained wings, arrows, and instinctual variants—not because the material wasn't fascinating, but because they felt like they were being lectured to rather than invited into a conversation.
+I've watched friends' eyes glaze over as I explained wings, arrows, and instinctual variants. The material was fascinating. To me. To them, it felt like a lecture they hadn't enrolled in.
 
-**What this sounds like:**
+**What creates resistance:**
 
-- ❌ "Let me explain the nine types and how they connect."
-- ✅ "I discovered something about myself that was pretty eye-opening. Want to hear about it?"
+- "Let me explain the nine types and how they connect."
 
-**Tip**: Foster a mutual exchange by asking questions and showing genuine interest in their views and experiences. Create an environment of mutual learning rather than one-way information transfer.
+**What creates curiosity:**
 
-Engage, don't lecture. True dialogue fosters exploration, not explanation.
+- "I discovered something about myself that was pretty eye-opening. Want to hear about it?"
 
-## Information Overload vs. Gentle Invitation
+The second version makes them an equal participant. The first makes them your student. Nobody likes surprise homework.
 
-**The Complexity of the Enneagram Can Be Overwhelming**
+## The Curse of Knowledge
 
-The Enneagram's depth is both its strength and its challenge. You've likely spent hours—maybe months—piecing together your understanding. Levels of health, centers of intelligence, triads, arrows... it's a rich, complex system that reveals itself gradually.
+You've spent hours, maybe months, piecing together your understanding. Levels of health. Centers of intelligence. Triads. Arrows. The system reveals itself gradually, and you've done the work.
 
-Expecting someone to grasp even a fraction of this in one conversation is like trying to explain the ocean to someone who's never seen water.
+Now you want to share it all at once.
 
-**What this sounds like:**
+This never works. You're trying to explain the ocean to someone who's never seen water. They can't absorb it, and they'll resent you for the flood.
 
-- ❌ "So there are nine types, but also wings, and each type has different levels of health, plus instinctual variants..."
-- ✅ "I learned something that explained why I always [specific personal insight]. Have you ever noticed a pattern like that in yourself?"
+**What overwhelms:**
 
-**Tip**: Share one or two specific insights that personally impacted you rather than trying to cover the entire framework. Let curiosity be your guide—if they want to know more, they'll ask.
+- "So there are nine types, but also wings, and each type has different levels of health, plus instinctual variants..."
 
-Offer a glimpse, not a grand tour.
+**What lands:**
 
-## The Autonomy of Personal Discovery
+- "I learned something that explained why I always shut down during conflict. Have you ever noticed a pattern like that in yourself?"
 
-**Self-Motivation is Key to Learning the Enneagram**
+One insight. Personal. Specific. If they want more, they'll ask. That's the invitation you're waiting for.
 
-Here's what I wish I'd understood earlier: your journey to the Enneagram was likely driven by a personal quest for understanding, not someone else's enthusiasm. That inner motivation matters enormously.
+## Why Pushing Creates Resistance
 
-When we push someone toward self-discovery, we're actually working against the very process that makes it meaningful. Real insight can't be imposed—it has to be chosen.
+Think about how you found the Enneagram. Probably not because someone cornered you at a party and insisted you take a test. You found it because something in you was searching.
 
-**What this sounds like:**
+That internal motivation matters. When you push someone toward self-discovery, you're working against the very process that makes it meaningful. Real insight can't be imposed. It has to be chosen.
 
-- ❌ "You really should take this test—it'll change your life!"
-- ✅ "If you're ever curious about personality stuff, I found this resource really helpful."
+**What pushes away:**
 
-**Tip**: Share resources like books, websites, or podcasts that helped you understand the Enneagram better—perhaps the [beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type)—but frame them as options rather than assignments. Let people explore at their own pace and based on their own curiosity.
+- "You really should take this test. It'll change your life!"
 
-Inspire interest through your transformation, not your insistence.
+**What plants a seed:**
 
-## Recognizing Your Own Lens
+- "If you're ever curious about personality stuff, I found this [beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) really helpful."
 
-**Bias Towards Your Enneagram Type**
+The difference is pressure versus invitation. One demands action. The other offers a door they can walk through when they're ready.
 
-Every explanation of the Enneagram is inevitably colored by our own experiences and type. As a Type [your type], my understanding naturally gravitates toward certain aspects while potentially overlooking others.
+## Your Type Colors Everything You Say
 
-This isn't a flaw—it's human. But acknowledging it can help us present the system more honestly and invite others to find their own perspective.
+Every explanation of the Enneagram is filtered through your own type. You can't help it. The aspects that transformed you will seem like the "most important" parts. The dynamics you experience daily will feel universal.
 
-**What this sounds like:**
+They're not.
 
-- ❌ "The most important thing about the Enneagram is [your type's core focus]."
-- ✅ "What struck me most was [personal insight], though I imagine it might resonate differently for different people."
+A Type 4 explaining the Enneagram will emphasize authenticity and emotional depth. A Type 8 will focus on power dynamics and directness. A Type 5 will get lost in the intellectual architecture. All valid. None complete.
 
-**Tip**: Acknowledge that your interpretation is influenced by your own type and experiences. Encourage others to research and learn from various sources to get a fuller picture. Emphasize that discovering their type should be a self-reflective journey, not a process guided by your observations.
+**What assumes too much:**
 
-Your view is one among many—celebrate that diversity.
+- "The most important thing about the Enneagram is understanding your core fear."
 
-## Becoming a Beacon, Not a Spotlight
+**What stays humble:**
 
-The difference between a beacon and a spotlight is intention. A spotlight seeks out and illuminates what the operator wants to see. A beacon simply glows, allowing others to find their way if they choose to look.
+- "What struck me most was recognizing my pattern around conflict. I imagine different parts might resonate for different people."
 
-When we share the Enneagram as a beacon, we:
+Acknowledging your lens doesn't weaken your message. It makes it honest.
 
-- Share our own discoveries without analyzing others
-- Invite curiosity without demanding attention
-- Offer resources without pushing agendas
-- Trust others' timing and readiness
+## Be a Beacon, Not a Spotlight
 
-## Reflection Questions
+A spotlight hunts. It searches for what the operator wants to illuminate. A beacon just glows. People find their way to it when they're ready.
 
-Before your next conversation about the Enneagram, consider:
+When you share the Enneagram like a beacon:
 
-- **Have I ever tried to share the Enneagram before someone was ready?** What happened?
-- **What specific insight about myself might inspire curiosity rather than resistance?**
-- **When has someone gently shared something that changed my life?** How did they do it?
-- **Am I sharing this because it genuinely might help them, or because I'm excited about my own discovery?**
+- You talk about your own discoveries, not their patterns
+- You invite curiosity without demanding attention
+- You offer resources without assigning homework
+- You trust their timing, not yours
 
-## What to Say Instead: A Quick Reference
+The goal isn't to convert anyone. The goal is to live your growth visibly enough that curious people ask questions.
 
-**Instead of analyzing them:**
+## Before You Share: Three Questions
 
-- "I learned something surprising about why I [specific behavior]"
+Next time you feel the urge to explain the Enneagram to someone, pause and ask:
 
-**Instead of teaching the system:**
+1. **Did they ask?** Not "did they seem interested." Did they actually ask.
+2. **Am I sharing because it might help them, or because I'm excited about my discovery?** Be honest.
+3. **What's one personal insight I could share instead of analyzing them?**
 
-- "Want to hear about something I discovered about myself?"
+If you can answer these honestly, you'll know whether to speak or wait.
 
-**Instead of overwhelming with details:**
+## The Tactical Playbook
 
-- "I found this one insight that really clicked for me"
+**When you want to analyze them:**
 
-**Instead of pushing exploration:**
+Say instead: "I learned something surprising about why I always [specific behavior]."
 
-- "If you're ever curious about this stuff, I know some good resources"
+**When you want to teach the system:**
 
-**Instead of assuming universal application:**
+Say instead: "I discovered something about myself that was eye-opening. Interested?"
 
-- "This is what resonated with me, though I imagine everyone's experience is different"
+**When you want to overwhelm them with everything you know:**
 
-## Your Gentle Invitation
+Say instead: "There's this one insight that really clicked for me."
 
-The Enneagram changed my life, and maybe it could enrich others' lives too. But the key word is "could"—not "should" or "must." The most powerful thing we can do is live out our own growth and let that speak for itself.
+**When you want to push them toward exploration:**
 
-**Let your own journey spark curiosity; don't let it become your gospel to preach.**
+Say instead: "If you're ever curious, I know some good resources."
 
-Trust that those who need what you've found will find their way to it when they're ready.
+**When you want to assume it'll work for them like it worked for you:**
+
+Say instead: "This is what resonated with me. Might be different for you."
+
+## The Real Power Move
+
+The Enneagram changed my life. It could enrich others' lives too. But "could" is the operative word. Not "should." Not "must."
+
+The most powerful thing you can do is live your growth out loud and let the results speak.
+
+People notice when you handle conflict differently. When you stop reacting the same old ways. When you understand them without trying to fix them.
+
+That's the invitation. Not your explanation. Your transformation.
+
+Those who need what you've found will find their way to it. When they're ready. On their terms. And when they ask, you'll know exactly what to say.

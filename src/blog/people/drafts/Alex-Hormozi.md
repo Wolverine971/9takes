@@ -13,7 +13,7 @@ enneagram: 3
 type: ['entrepreneur']
 person: 'Alex-Hormozi'
 persona_title: 'The $100M Machine'
-suggestions: ['Tony-Robbins', 'Elon-Musk', 'Gary-Vaynerchuk', 'Grant-Cardone']
+suggestions: ['Tony-Robbins', 'Elon-Musk', 'Gary-Vee', 'Leila-Hormozi', 'Grant-Cardone']
 wikipedia: ''
 twitter: 'AlexHormozi'
 instagram: 'hormozi'
@@ -273,7 +273,7 @@ His free content and stated mission, "making real business education accessible 
 
 ## Leila Hormozi: The Partnership That Actually Works
 
-Understanding Alex requires understanding Leila.
+Understanding Alex requires understanding [Leila Hormozi](/personality-analysis/Leila-Hormozi).
 
 She went on approximately 60 dates before finding Alex on Bumble. Their first date at a frozen yogurt shop turned into four and a half hours of conversation.
 

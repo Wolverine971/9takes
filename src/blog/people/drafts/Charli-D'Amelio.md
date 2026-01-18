@@ -12,7 +12,7 @@ published: false
 enneagram: 9
 type: ['tiktoker']
 person: "Charli-D'Amelio"
-suggestions: ['Addison-Rae', 'Dixie-DAmelio', 'Bella-Poarch', 'Khaby-Lame']
+suggestions: ['Addison-Rae', "Dixie-D'Amelio", 'Bella-Poarch', 'Khaby-Lame']
 wikipedia: 'https://en.wikipedia.org/wiki/Charli_D%27Amelio'
 twitter: 'https://twitter.com/charlidamelio'
 instagram: 'https://www.instagram.com/charlidamelio/'
@@ -57,7 +57,7 @@ The Type 9's wing can be either 8 (The Challenger) or 1 (The Perfectionist). Cha
 
 Charli Grace D'Amelio was born on May 1, 2004, in Norwalk, Connecticut. Her family background blends artistic and entrepreneurial influences: her mother Heidi was a photographer and former model, while her father Marc was a businessman who once ran for the Connecticut State Senate as a Republican.
 
-From age three, Charli was a competitive dancer. This wasn't a casual hobby—she trained over 15 hours per week at studios like The Spot and Just Dance, competing for over a decade in ballet and jazz. Her older sister Dixie was also involved in dance and performing arts, creating a household where artistic expression was valued and supported.
+From age three, Charli was a competitive dancer. This wasn't a casual hobby—she trained over 15 hours per week at studios like The Spot and Just Dance, competing for over a decade in ballet and jazz. Her older sister [Dixie D'Amelio](/personality-analysis/Dixie-D'Amelio) was also involved in dance and performing arts, creating a household where artistic expression was valued and supported.
 
 But Charli wasn't the stereotypical performance kid seeking the spotlight. By her own admission and her parents' observations, she was naturally shy and introverted.
 
