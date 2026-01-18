@@ -21,6 +21,7 @@
 	let showLabels = $state(true);
 
 	// The 9 Enneagram types with Solo Leveling themed colors
+	// Each type has a core emotion AND a stance toward that emotion
 	const enneagramTypes = [
 		{
 			id: 1,
@@ -28,35 +29,45 @@
 			description:
 				'Ethical, dedicated and reliable. Motivated by a desire to live the right way and improve the world.',
 			color: '#a8dadc',
-			coreEmotion: 'Anger'
+			coreEmotion: 'Anger',
+			emotionalStance: 'Internalizes',
+			stanceDetail: 'Anger becomes inner critic'
 		},
 		{
 			id: 2,
 			name: 'The Helper',
 			description: 'Warm, caring and giving. Motivated by a need to be loved and needed.',
 			color: '#ff6b6b',
-			coreEmotion: 'Shame'
+			coreEmotion: 'Shame',
+			emotionalStance: 'Represses',
+			stanceDetail: 'Denies shame through giving'
 		},
 		{
 			id: 3,
 			name: 'The Achiever',
 			description: 'Success-oriented and image-conscious. Motivated by a need to be successful.',
 			color: '#fbbf24',
-			coreEmotion: 'Shame'
+			coreEmotion: 'Shame',
+			emotionalStance: 'Compensates',
+			stanceDetail: 'Channels shame into performance'
 		},
 		{
 			id: 4,
 			name: 'The Individualist',
 			description: 'Creative, sensitive and expressive. Motivated by a need to be understood.',
 			color: '#c084fc',
-			coreEmotion: 'Shame'
+			coreEmotion: 'Shame',
+			emotionalStance: 'Identifies',
+			stanceDetail: 'Inhabits shame as identity'
 		},
 		{
 			id: 5,
 			name: 'The Investigator',
 			description: 'Analytical, detached and private. Motivated by a need to gain knowledge.',
 			color: '#22d3ee',
-			coreEmotion: 'Fear'
+			coreEmotion: 'Fear',
+			emotionalStance: 'Withdraws',
+			stanceDetail: 'Retreats from fear into mind'
 		},
 		{
 			id: 6,
@@ -64,7 +75,9 @@
 			description:
 				'Committed, practical and vigilant. Motivated by fear and the need for security.',
 			color: '#64748b',
-			coreEmotion: 'Fear'
+			coreEmotion: 'Fear',
+			emotionalStance: 'Engages',
+			stanceDetail: 'Faces fear through vigilance'
 		},
 		{
 			id: 7,
@@ -72,21 +85,27 @@
 			description:
 				'Fun, spontaneous and versatile. Motivated by a need to be happy and avoid pain.',
 			color: '#fb923c',
-			coreEmotion: 'Fear'
+			coreEmotion: 'Fear',
+			emotionalStance: 'Reframes',
+			stanceDetail: 'Escapes fear through possibilities'
 		},
 		{
 			id: 8,
 			name: 'The Challenger',
 			description: 'Powerful, dominating and self-confident. Motivated by a need to be strong.',
 			color: '#ef4444',
-			coreEmotion: 'Anger'
+			coreEmotion: 'Anger',
+			emotionalStance: 'Expresses',
+			stanceDetail: 'Uses anger as fuel'
 		},
 		{
 			id: 9,
 			name: 'The Peacemaker',
 			description: 'Easygoing, accommodating and peaceful. Motivated by a need to keep the peace.',
 			color: '#4ade80',
-			coreEmotion: 'Anger'
+			coreEmotion: 'Anger',
+			emotionalStance: 'Suppresses',
+			stanceDetail: 'Numbs anger for harmony'
 		}
 	];
 
@@ -321,10 +340,19 @@
 				</div>
 				<p class="tooltip-description">{currentType.description}</p>
 				<div class="tooltip-meta">
-					<span class="meta-label">Core Emotion:</span>
+					<span class="meta-label">Core:</span>
 					<span class="meta-value" style="color: {currentType.color}"
 						>{currentType.coreEmotion}</span
 					>
+				</div>
+				<div class="tooltip-meta">
+					<span class="meta-label">Stance:</span>
+					<span class="meta-value" style="color: {currentType.color}"
+						>{currentType.emotionalStance}</span
+					>
+				</div>
+				<div class="tooltip-stance-detail">
+					{currentType.stanceDetail}
 				</div>
 			</div>
 		{/if}
@@ -709,5 +737,15 @@
 
 	.meta-value {
 		font-weight: 600;
+	}
+
+	.tooltip-stance-detail {
+		margin-top: 0.5rem;
+		padding-top: 0.5rem;
+		border-top: 1px solid rgba(124, 58, 237, 0.2);
+		font-size: 0.75rem;
+		font-style: italic;
+		color: var(--text-mist);
+		text-align: center;
 	}
 </style>

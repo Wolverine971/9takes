@@ -30,60 +30,70 @@
 	$: imageSrc = `${image.split('/').slice(0, -1).join('/')}/s-${image.split('/').pop()}`;
 
 	// Data for enneagram type descriptions
+	// Each type has a core emotion AND a stance toward that emotion
 	const enneagramTypes = [
 		{
 			EnneagramType: 'Type 1 - The Perfectionist',
 			CoreMotivation: 'To be good, ethical, and correct.',
 			CoreFear: 'Being corrupt or defective.',
-			CommonStereotypes: 'Rigid, judgmental, overly critical.'
+			CoreEmotion: 'Anger',
+			EmotionalStance: 'Internalizes anger into inner critic'
 		},
 		{
 			EnneagramType: 'Type 2 - The Helper',
 			CoreMotivation: 'To be loved and appreciated.',
 			CoreFear: 'Being unloved or unwanted.',
-			CommonStereotypes: 'People-pleaser, overly emotional, manipulative.'
+			CoreEmotion: 'Shame',
+			EmotionalStance: 'Represses shame through giving'
 		},
 		{
 			EnneagramType: 'Type 3 - The Achiever',
 			CoreMotivation: 'To succeed and be admired.',
 			CoreFear: 'Being worthless or a failure.',
-			CommonStereotypes: 'Workaholic, superficial, overly competitive.'
+			CoreEmotion: 'Shame',
+			EmotionalStance: 'Compensates shame with performance'
 		},
 		{
 			EnneagramType: 'Type 4 - The Individualist',
 			CoreMotivation: 'To be unique and authentic.',
 			CoreFear: 'Having no identity or significance.',
-			CommonStereotypes: 'Melodramatic, self-absorbed, moody.'
+			CoreEmotion: 'Shame',
+			EmotionalStance: 'Identifies with shame as identity'
 		},
 		{
 			EnneagramType: 'Type 5 - The Investigator',
 			CoreMotivation: 'To be knowledgeable and competent.',
 			CoreFear: 'Being useless or incompetent.',
-			CommonStereotypes: 'Detached, secretive, overly intellectual.'
+			CoreEmotion: 'Fear',
+			EmotionalStance: 'Withdraws from fear into mind'
 		},
 		{
 			EnneagramType: 'Type 6 - The Loyalist',
 			CoreMotivation: 'To have security and support.',
 			CoreFear: 'Being without guidance or support.',
-			CommonStereotypes: 'Anxious, indecisive, overly cautious.'
+			CoreEmotion: 'Fear',
+			EmotionalStance: 'Engages fear through vigilance'
 		},
 		{
 			EnneagramType: 'Type 7 - The Enthusiast',
 			CoreMotivation: 'To be happy and satisfied.',
 			CoreFear: 'Being deprived or trapped in pain.',
-			CommonStereotypes: 'Impulsive, scattered, commitment-phobic.'
+			CoreEmotion: 'Fear',
+			EmotionalStance: 'Reframes fear into possibilities'
 		},
 		{
 			EnneagramType: 'Type 8 - The Challenger',
 			CoreMotivation: 'To be in control and self-reliant.',
 			CoreFear: 'Being controlled or manipulated.',
-			CommonStereotypes: 'Aggressive, confrontational, domineering.'
+			CoreEmotion: 'Anger',
+			EmotionalStance: 'Expresses anger as fuel'
 		},
 		{
 			EnneagramType: 'Type 9 - The Peacemaker',
 			CoreMotivation: 'To have inner and outer peace.',
 			CoreFear: 'Conflict and disconnection.',
-			CommonStereotypes: 'Complacent, indecisive, disengaged.'
+			CoreEmotion: 'Anger',
+			EmotionalStance: 'Suppresses anger for harmony'
 		}
 	];
 
@@ -212,9 +222,9 @@
 					<b>Fear:</b>
 					{enneagramTypes[enneagramType - 1].CoreFear}
 				</p>
-				<p class="enneagram-info__detail">
-					<b>Stereotypes:</b>
-					{enneagramTypes[enneagramType - 1].CommonStereotypes}
+				<p class="enneagram-info__detail enneagram-info__stance">
+					<b>Core {enneagramTypes[enneagramType - 1].CoreEmotion}:</b>
+					{enneagramTypes[enneagramType - 1].EmotionalStance}
 				</p>
 			</div>
 		</div>
@@ -342,6 +352,13 @@
 			b {
 				font-weight: 700;
 			}
+		}
+
+		&__stance {
+			margin-top: 0.75rem;
+			padding-top: 0.75rem;
+			border-top: 1px solid rgba(255, 255, 255, 0.2);
+			font-style: italic;
 		}
 	}
 </style>
