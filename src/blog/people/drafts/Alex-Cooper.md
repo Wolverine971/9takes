@@ -11,7 +11,7 @@ published: true
 enneagram: 7
 type: ['creator']
 person: 'Alex-Cooper'
-suggestions: ['Emily Ratajkowski', 'Dave Portnoy', 'Kai Cenat', 'Joe Rogan', 'Logan Paul']
+suggestions: ['Alix Earle', 'Emily Ratajkowski', 'Dave Portnoy', 'Kai Cenat', 'Joe Rogan', 'Logan Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Call_Her_Daddy'
 twitter: 'alexandracooper'
 instagram: 'alexandracooper'
@@ -93,7 +93,23 @@ This willingness to venture where others wouldn't dare is classic Type 7 behavio
 
 When the infamous "Daddy Divorce" happened in 2020 (with Sofia departing amid contract disputes), Alex showcased another Type 7 superpower: adaptability. Rather than crumbling, she pivoted, taking full creative control and evolving the show beyond its initial formula.
 
+What makes the "Daddy Divorce" complicated is that the public largely heard only one side. While Barstool's Dave Portnoy and Alex framed Sofia as "greedy and disloyal" for wanting a better deal, Sofia has since claimed she was "villainized" unfairly. "The betrayal piece was more upsetting than the financial piece," Sofia later told the *Trading Secrets* podcast. She alleged Alex negotiated behind her back and was "willing to stomp" on their friendship for a $60 million payday. Sofia chose silence initially, but reflected that many "pieces were missing" from the public narrative. Whatever the truth, the split became a masterclass in Type 7 reframing—Alex turned professional crisis into a career-defining origin story.
+
 Today's "Call Her Daddy" features intimate conversations with celebrities like <a href="/personality-analysis/Miley-Cyrus">Miley Cyrus</a>, <a href="/personality-analysis/Hailey-Bieber">Hailey Bieber</a>, and even Vice President <a href="/personality-analysis/Kamala-Harris">Kamala Harris</a>. Rolling Stone dubbed Alex "Gen-Z's Barbara Walters" – a testament to her growth from shock jock to skilled interviewer.
+
+### The Art of Getting People to Talk
+
+So how does Alex actually get celebrities to reveal so much? Her technique reflects both her Type 7 charm and lessons from her psychologist mother.
+
+**She makes it feel like a conversation, not an interview.** "I treat guests as if we are sitting in my living room and we are getting to know each other," Alex has explained. She records in sweats, even interviewing Kamala Harris in a hoodie—deliberately lowering the formality that makes guests guarded.
+
+**She listens like Oprah taught her.** Alex cites Oprah as her model: "Oprah was really the first person that was actually listening and sitting and having these in-depth conversations." Unlike hosts reading teleprompters, Alex stays present. "I have been on many shows where the host is looking five inches to the right of my head and reading a teleprompter," she's said. "It's very dehumanizing."
+
+**She prioritizes flow over scripts.** If a guest goes off-track but is passionate, Alex follows them. "Flow is much more important than following a structure," she's explained. This creates the spontaneous moments that make episodes go viral.
+
+**The proof is in the revelations.** When Miley Cyrus appeared in 2020—the first major celebrity to take a chance on the show—she opened up about losing her virginity to Liam Hemsworth, her guilt about privilege, and processing heartbreak through lists. These weren't talking points; they were genuine admissions from someone who felt safe enough to be unguarded.
+
+When Vice President Harris sat down in October 2024, the 45-minute conversation centered on women's issues and produced genuinely revealing moments—Harris pushing back on Sarah Huckabee Sanders' claim about humility, discussing her mother's tough-love parenting style, and exploring what agency means to her. Whether you found the interview too soft or refreshingly personal, it demonstrated Alex's ability to make even presidential candidates seem human.
 
 This evolution parallels the Type 7's growth journey – from seeking surface-level excitement to developing deeper substance without losing that essential spark.
 
@@ -141,9 +157,15 @@ Her most famous wellness quirk? She doesn't wash her face – preferring toners 
 
 While she broadcasts intimate details to millions, Alex maintains surprising boundaries around her personal life.
 
-Her relationship with film producer Matt Kaplan (founder of ACE Entertainment, known for "To All the Boys I've Loved Before") began with a Zoom call during the pandemic in July 2020. Fans first knew him as "Mr. Sexy Zoom Man."
+Her relationship with film producer Matt Kaplan (founder of ACE Entertainment, known for "To All the Boys I've Loved Before") began with a Zoom call during the pandemic in July 2020. After a long day of meetings with film and television companies, her last call was with Kaplan's production company. Fans would later know him only as "Mr. Sexy Zoom Man."
 
-Their April 2024 wedding in Riviera Maya, Mexico marked a new chapter – one that Cooper admits she never expected. "I always used to say, 'I'm never getting married,'" she revealed in her documentary. "I thought it would threaten my independence."
+Their April 2024 wedding in Riviera Maya, Mexico marked a new chapter – one that Cooper admits she never expected. "I always used to say, 'I'm never getting married,'" she revealed in her documentary. "I thought it would threaten my independence — no man should be able to say that I'm his."
+
+**What changed her mind?** Not just Kaplan himself, but how different he was from men she'd dated before. "A lot of men in my past were really intimidated by my success. They tried to suppress what I was doing or make me feel bad about it," she explained. "Matt has always been my biggest supporter. It's very attractive to have a man not be intimidated by a woman's extreme success."
+
+The foundation, she says, is communication: "We had a really great dynamic early on that I didn't have in previous relationships—the amount that we communicate, even over-communicate, about difficult things." When Kaplan proposed, he said simply: "You're my soulmate, the love of my life. You make me a better man."
+
+In a telling detail, Alex walked herself down the aisle. "At the beginning of wedding planning, I really rejected the concept of being walked down by a man to be handed to another man," she told *Vogue*. "My mom also walked herself down the aisle, so in a sense, I guess we are creating our own tradition for the women in our family."
 
 **Family Plans: A Window into Type 7 Psychology**
 
@@ -157,7 +179,7 @@ This candid admission perfectly illustrates the Type 7's internal tension: the d
 
 ### The Alix Earle Fallout (2025)
 
-When lifestyle influencer Alix Earle signed with The Unwell Network in August 2023, it seemed like a perfect pairing of media's fastest-rising stars.
+When lifestyle influencer [Alix Earle](/personality-analysis/Alix-Earle) signed with The Unwell Network in August 2023, it seemed like a perfect pairing of media's fastest-rising stars.
 
 But by February 2025, Variety broke the news that Earle's "Hot Mess" podcast had been dropped from the network. SiriusXM would no longer sell ads for the show, and all rights were returned to Earle.
 
@@ -195,19 +217,47 @@ This represents profound Type 7 growth. The Enthusiast's typical pattern is to e
 
 ### Creating a Movement, Not Just a Podcast
 
-The "Daddy Gang" isn't just an audience – it's a cultural phenomenon.
+The "Daddy Gang" isn't just an audience – it's a cultural phenomenon with real demographics behind it.
 
-Alex has masterfully created a community around her show, with millions of followers making "Call Her Daddy" consistently one of the top podcasts globally. In 2024, she ranked as the 7th highest-earning creator on Forbes' list.
+**Who actually listens?** Nearly 90% of listeners are women (up from 60% in the early days). 76% are under 35, with the core demographic being women ages 18-26. The audience leans Democratic (48%) compared to Republican (24%), and the show averages around 10 million listeners per episode.
+
+As Alex describes it: "The Daddy Gang is a bunch of predominantly women that are excited to engage in a roller coaster where we don't know what happens next, but we're on the ride with Alex."
+
+What keeps this audience loyal? The sheer transparency. From the beginning, Alex instituted a communication style that leaves nothing hidden—explicit details about her life, her failures, her insecurities. In a world of curated perfection, the Daddy Gang appreciates someone who admits to not washing her face and freezing her eggs while building an empire.
 
 Her Type 7 enthusiasm is contagious, drawing listeners into her world and making them feel part of something bigger. This magnetic quality explains how she's transformed casual listeners into devoted fans who follow her across platforms and ventures.
 
-### Redefining Female Empowerment
+### The Joe Rogan Comparison: Fair or Limiting?
 
-Perhaps Alex's most significant cultural impact has been normalizing women's candid conversations about sex, relationships, and ambition.
+Alex regularly battles Joe Rogan for the top podcast spot—"Call Her Daddy" ranks second only to "The Joe Rogan Experience" on Spotify's charts. But the constant comparison frustrates her.
 
-While early episodes focused on sexual empowerment (sometimes controversially), today's "Call Her Daddy" tackles everything from mental health stigmas to business strategies to trauma recovery. This evolution mirrors Alex's own growth – and has brought her audience along for the journey.
+"Does anybody say, 'Joe Rogan is the male Alex Cooper?' No," she told Jay Shetty's podcast. "We have similar numbers, we have really loyal audiences, we're both with Spotify… it's frustrating that it is a de-qualifier."
 
-By sharing her business successes transparently, Alex has inspired countless women to pursue their own entrepreneurial dreams. Her $125 million SiriusXM deal sent a powerful message about women's value in digital media.
+The numbers tell an interesting story. Rogan's audience is 80% male, 32% Republican. Cooper's is 90% female, 48% Democrat. Rogan's $450 million in Spotify deals dwarfs Cooper's $125 million SiriusXM contract, but Cooper commands the female podcast market in a way no one else does.
+
+She admits to a competitive personality but says she doesn't "feel competitive" with Rogan: "Our content is so different." And she's right—comparing them misses the point that Alex dominates a completely different space.
+
+### The Critics: Is "Call Her Daddy" Actually Feminist?
+
+Not everyone is on the Alex Cooper bandwagon. The show has faced sustained criticism from feminist corners—and it's worth understanding why.
+
+**The "choice feminism" critique.** Critics argue that "Call Her Daddy" delivers "an empty, unthreatening version of feminism" designed to "benefit the systems that uphold the power of heterosexual cisgendered men." The accusation: teaching women how to be sexually bold in ways that ultimately serve male desires isn't empowerment—it's "internalized misogyny" with better marketing.
+
+**The Barstool problem.** Until 2021, the show was owned by Barstool Sports, whose founder Dave Portnoy has faced sexual abuse allegations and made problematic statements about consent. Critics argue that signing with Barstool undermined any feminist credibility from day one.
+
+**The diversity gap.** Others point out that "most of Cooper's guests are incredibly wealthy, primarily white, cis-gender and straight." When the show discusses "women's issues," whose women does it mean?
+
+**The Kamala backlash.** In 2024, the Harris interview drew accusations of "peddling propaganda" from listeners who felt Cooper softball-questioned a political candidate. Some fans felt betrayed by what they saw as the show choosing sides.
+
+**Cooper's response?** She's been clear that "her podcast was never supposed to be feminist." While she wants to empower women, "her brand is not specifically feminist." It's a distinction that frustrates critics but may actually be more honest than claiming ideological purity.
+
+### Redefining Female Empowerment (On Her Terms)
+
+Perhaps Alex's most significant cultural impact has been normalizing women's candid conversations about sex, relationships, and ambition—even if "empowerment" means different things to different people.
+
+While early episodes focused on sexual tips that some found liberating and others found regressive, today's "Call Her Daddy" tackles mental health, business strategies, and trauma recovery. This evolution mirrors Alex's own growth—and has brought her audience along for the journey.
+
+By sharing her business successes transparently, Alex has inspired countless women to pursue entrepreneurial dreams. Her $125 million SiriusXM deal sent a powerful message about women's value in digital media.
 
 Her documentary revelations about harassment add another dimension: she's now modeling how to speak truth to power, even when it's painful.
 

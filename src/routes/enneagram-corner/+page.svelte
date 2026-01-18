@@ -492,11 +492,7 @@
 			content: '';
 			position: absolute;
 			inset: 0;
-			background: linear-gradient(
-				135deg,
-				rgba(124, 58, 237, 0.05) 0%,
-				transparent 50%
-			);
+			background: linear-gradient(135deg, rgba(124, 58, 237, 0.05) 0%, transparent 50%);
 			opacity: 0;
 			transition: opacity 0.25s ease;
 			z-index: 1;

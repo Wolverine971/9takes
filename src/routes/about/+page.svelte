@@ -115,12 +115,12 @@
 		<div class="problem-card">
 			<h2>The Problem</h2>
 			<p>
-				Social media turned conversation into performance. Reddit became tribes defending
-				territory. Everyone talks. Nobody listens.
+				Social media turned conversation into performance. Reddit became tribes defending territory.
+				Everyone talks. Nobody listens.
 			</p>
 			<p class="solution">
-				9takes flips the script: you share YOUR perspective first, then see how 8 other
-				personality types answered the same question.
+				9takes flips the script: you share YOUR perspective first, then see how 8 other personality
+				types answered the same question.
 			</p>
 		</div>
 	</section>
@@ -212,16 +212,16 @@
 				<h3>Why I Built This</h3>
 				<ul>
 					<li>
-						<strong>The problem:</strong> In the Marines, I learned to suppress emotions and
-						push forward. Great for combat. Terrible for relationships.
+						<strong>The problem:</strong> In the Marines, I learned to suppress emotions and push forward.
+						Great for combat. Terrible for relationships.
 					</li>
 					<li>
-						<strong>The discovery:</strong> The Enneagram showed me WHY people process
-						reality differently. Not better or worse. Different.
+						<strong>The discovery:</strong> The Enneagram showed me WHY people process reality differently.
+						Not better or worse. Different.
 					</li>
 					<li>
-						<strong>The mission:</strong> Build a place where you can actually learn to see
-						through other perspectives.
+						<strong>The mission:</strong> Build a place where you can actually learn to see through other
+						perspectives.
 					</li>
 					<li>
 						<strong>The goal:</strong> Replace judgment with curiosity.

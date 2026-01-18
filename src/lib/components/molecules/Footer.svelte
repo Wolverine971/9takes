@@ -48,13 +48,7 @@
 			<!-- Brand Section -->
 			<div class="brand-section">
 				<div class="brand-logo">
-					<img
-						src="/brand/aero.webp"
-						alt="9takes Logo"
-						height="48"
-						width="48"
-						loading="lazy"
-					/>
+					<img src="/brand/aero.webp" alt="9takes Logo" height="48" width="48" loading="lazy" />
 					<span class="brand-name">9takes</span>
 				</div>
 				<p class="brand-description">
@@ -72,13 +66,7 @@
 							class="social-link"
 							aria-label={`Follow us on ${label}`}
 						>
-							<img
-								src={img}
-								{alt}
-								width="20"
-								height="20"
-								loading="lazy"
-							/>
+							<img src={img} {alt} width="20" height="20" loading="lazy" />
 						</a>
 					{/each}
 				</div>
@@ -125,9 +113,7 @@
 				<!-- Connect Section -->
 				<div class="link-section connect-section">
 					<h3>Connect</h3>
-					<p>
-						Stay updated with our latest personality insights and community discussions.
-					</p>
+					<p>Stay updated with our latest personality insights and community discussions.</p>
 					<a href="mailto:usersup@9takes.com" class="contact-link">
 						Get in touch
 						<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">

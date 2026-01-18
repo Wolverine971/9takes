@@ -108,6 +108,7 @@
 				displayText=""
 				altText=""
 				subtext=""
+				aspectRatio="1/1"
 			/>
 		</div>
 	{/if}

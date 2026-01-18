@@ -243,7 +243,11 @@
 			}
 
 			.person-name {
-				background: linear-gradient(to top, rgba(124, 58, 237, 0.95) 0%, rgba(109, 40, 217, 0.8) 100%);
+				background: linear-gradient(
+					to top,
+					rgba(124, 58, 237, 0.95) 0%,
+					rgba(109, 40, 217, 0.8) 100%
+				);
 
 				h3 {
 					color: white;

@@ -121,6 +121,7 @@
 				displayText=""
 				altText={data?.frontmatter?.title || ''}
 				subtext=""
+				aspectRatio="1/1"
 			/>
 		</div>
 	{/if}

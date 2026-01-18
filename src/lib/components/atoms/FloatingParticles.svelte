@@ -60,7 +60,12 @@
 		position: absolute;
 		width: var(--size);
 		height: var(--size);
-		background: radial-gradient(circle, rgba(167, 139, 250, 1) 0%, rgba(139, 92, 246, 0.7) 40%, transparent 70%);
+		background: radial-gradient(
+			circle,
+			rgba(167, 139, 250, 1) 0%,
+			rgba(139, 92, 246, 0.7) 40%,
+			transparent 70%
+		);
 		border-radius: 50%;
 		opacity: 0;
 		left: var(--x-start);
@@ -68,7 +73,9 @@
 		animation: float-up var(--duration) ease-in-out infinite;
 		animation-delay: var(--delay);
 		filter: blur(0.5px);
-		box-shadow: 0 0 12px rgba(139, 92, 246, 0.6), 0 0 4px rgba(167, 139, 250, 0.8);
+		box-shadow:
+			0 0 12px rgba(139, 92, 246, 0.6),
+			0 0 4px rgba(167, 139, 250, 0.8);
 	}
 
 	@keyframes float-up {
@@ -125,7 +132,8 @@
 	}
 
 	@keyframes glow-pulse {
-		0%, 100% {
+		0%,
+		100% {
 			opacity: 0.4;
 			transform: scale(1);
 		}

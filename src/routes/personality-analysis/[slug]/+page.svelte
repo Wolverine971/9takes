@@ -264,6 +264,7 @@
 			displayText={post.person.split('-').join(' ')}
 			priority={true}
 			scramble={false}
+			aspectRatio="1/1"
 			subtext=""
 		/>
 	</div>
@@ -352,7 +353,13 @@
 	.featured-image {
 		display: flex;
 		justify-content: center;
-		margin: 1rem 0;
+		align-items: center;
+		margin: 1rem auto;
+		width: 100%;
+
+		:global(.image-card-base) {
+			margin: 0 auto;
+		}
 	}
 
 	.article-body {

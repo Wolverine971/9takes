@@ -779,7 +779,11 @@
 		.insight-callout {
 			margin-top: 1.5rem;
 			padding: 1.25rem 1.5rem;
-			background: linear-gradient(135deg, rgba(124, 58, 237, 0.15) 0%, rgba(124, 58, 237, 0.05) 100%);
+			background: linear-gradient(
+				135deg,
+				rgba(124, 58, 237, 0.15) 0%,
+				rgba(124, 58, 237, 0.05) 100%
+			);
 			border-left: 3px solid #7c3aed;
 			border-radius: 0 0.75rem 0.75rem 0;
 			color: #e2e8f0;

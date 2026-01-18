@@ -226,7 +226,9 @@
 							</div>
 
 							<h2 class="mb-2 text-xl font-bold text-slate-100">Lock In Early Access</h2>
-							<p class="mb-6 text-slate-400">First spots open soon—get notified before anyone else.</p>
+							<p class="mb-6 text-slate-400">
+								First spots open soon—get notified before anyone else.
+							</p>
 
 							<form
 								method="POST"
@@ -361,7 +363,9 @@
 											>{form.email}</strong
 										>{:else}Welcome to the priority list!{/if}
 								</p>
-								<a href="/" class="btn-primary inline-block rounded-lg px-6 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:shadow-md"
+								<a
+									href="/"
+									class="btn-primary inline-block rounded-lg px-6 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:shadow-md"
 									>Back to 9takes</a
 								>
 							</div>
@@ -410,7 +414,9 @@
 							</div>
 						</div>
 						<div>
-							<h3 class="mb-1 text-lg font-semibold text-slate-100">Type‑specific growth blueprint</h3>
+							<h3 class="mb-1 text-lg font-semibold text-slate-100">
+								Type‑specific growth blueprint
+							</h3>
 							<p class="text-sm text-slate-400">
 								<span class="font-semibold text-purple-400">Max out your personality</span>
 							</p>
@@ -441,8 +447,12 @@
 			</h2>
 			<div class="grid grid-cols-1 gap-6 px-4 sm:grid-cols-2 lg:grid-cols-4">
 				{#each benefits as benefit}
-					<div class="card h-full rounded-xl p-6 text-center transition duration-300 hover:-translate-y-1">
-						<div class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-purple-500/20">
+					<div
+						class="card h-full rounded-xl p-6 text-center transition duration-300 hover:-translate-y-1"
+					>
+						<div
+							class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-purple-500/20"
+						>
 							<div class="text-purple-400">{@html benefit.icon}</div>
 						</div>
 						<h3 class="mb-3 text-xl font-semibold text-purple-400">{benefit.title}</h3>
@@ -498,7 +508,9 @@
 				<div class="card rounded-lg p-6">
 					<div class="mb-2 text-2xl">⚡</div>
 					<h3 class="mb-2 font-semibold text-slate-100">Precise Moves</h3>
-					<p class="text-sm text-slate-400">Tactical scripts & timing strategies for real scenarios</p>
+					<p class="text-sm text-slate-400">
+						Tactical scripts & timing strategies for real scenarios
+					</p>
 				</div>
 			</div>
 		</section>
@@ -509,8 +521,8 @@
 				<div class="flex-1 p-8">
 					<h2 class="mb-6 text-3xl font-bold text-white">Why the Enneagram Works</h2>
 					<p class="mb-4 text-lg text-white/90">
-						Nine archetypes. Infinite context. Coaching translates theory into precise moves for your
-						real‑world challenges.
+						Nine archetypes. Infinite context. Coaching translates theory into precise moves for
+						your real‑world challenges.
 					</p>
 					<p class="mb-4 text-lg text-white/90">
 						Stop guessing why people react the way they do—start anticipating.
@@ -533,7 +545,9 @@
 
 		<!-- FAQ Section -->
 		<section class="py-16">
-			<h2 class="mb-10 text-center text-3xl font-bold text-slate-100">Frequently Asked Questions</h2>
+			<h2 class="mb-10 text-center text-3xl font-bold text-slate-100">
+				Frequently Asked Questions
+			</h2>
 			<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 				<div class="card rounded-xl p-6">
 					<h3 class="relative mb-3 pl-6 text-xl font-semibold text-purple-400">
@@ -584,7 +598,9 @@
 		<!-- Final CTA -->
 		<section class="final-cta my-16 rounded-2xl px-8 py-12 text-center">
 			<div class="mx-auto max-w-2xl">
-				<h2 class="mb-4 text-3xl font-bold text-purple-400">Go from Blind Spots to Breakthroughs</h2>
+				<h2 class="mb-4 text-3xl font-bold text-purple-400">
+					Go from Blind Spots to Breakthroughs
+				</h2>
 				<p class="mb-8 text-lg text-slate-400">Join the waitlist now—openings are limited</p>
 				<a
 					href="#top"
