@@ -23,7 +23,11 @@ export const load: PageServerLoad = async ({ locals }) => {
 			{ id: 'greek_pantheon', path: '/greek_pantheon.png', name: 'Greek Pantheon' },
 			{ id: 'philosopher', path: '/philosopher-gathering.png', name: 'Philosophers' },
 			{ id: 'acropolis', path: '/acrop.png', name: 'Acropolis' },
-			{ id: 'religious', path: '/blogs/s-researching-religious-texts.webp', name: 'Religious Texts' },
+			{
+				id: 'religious',
+				path: '/blogs/s-researching-religious-texts.webp',
+				name: 'Religious Texts'
+			},
 			{ id: 'cage', path: '/blogs/s-open-cage-color.webp', name: 'Open Cage' },
 			{ id: 'statues', path: '/blogs/s-greek-statues-arguing.webp', name: 'Greek Statues' }
 		]

@@ -20,11 +20,51 @@
 	// Format settings
 	let posterFormat = $state('instagram');
 	const posterFormats = [
-		{ id: 'instagram', name: 'Instagram Post', width: '1080px', height: '1080px', pdfWidth: 10.8, pdfHeight: 10.8, unit: 'in' },
-		{ id: 'instagram-story', name: 'Instagram Story', width: '1080px', height: '1920px', pdfWidth: 10.8, pdfHeight: 19.2, unit: 'in' },
-		{ id: 'twitter', name: 'Twitter/X Post', width: '1200px', height: '675px', pdfWidth: 12, pdfHeight: 6.75, unit: 'in' },
-		{ id: 'letter', name: 'Letter (8.5" x 11")', width: '8.5in', height: '11in', pdfWidth: 8.5, pdfHeight: 11, unit: 'in' },
-		{ id: 'square', name: 'Square (1:1)', width: '800px', height: '800px', pdfWidth: 8, pdfHeight: 8, unit: 'in' }
+		{
+			id: 'instagram',
+			name: 'Instagram Post',
+			width: '1080px',
+			height: '1080px',
+			pdfWidth: 10.8,
+			pdfHeight: 10.8,
+			unit: 'in'
+		},
+		{
+			id: 'instagram-story',
+			name: 'Instagram Story',
+			width: '1080px',
+			height: '1920px',
+			pdfWidth: 10.8,
+			pdfHeight: 19.2,
+			unit: 'in'
+		},
+		{
+			id: 'twitter',
+			name: 'Twitter/X Post',
+			width: '1200px',
+			height: '675px',
+			pdfWidth: 12,
+			pdfHeight: 6.75,
+			unit: 'in'
+		},
+		{
+			id: 'letter',
+			name: 'Letter (8.5" x 11")',
+			width: '8.5in',
+			height: '11in',
+			pdfWidth: 8.5,
+			pdfHeight: 11,
+			unit: 'in'
+		},
+		{
+			id: 'square',
+			name: 'Square (1:1)',
+			width: '800px',
+			height: '800px',
+			pdfWidth: 8,
+			pdfHeight: 8,
+			unit: 'in'
+		}
 	];
 
 	// Style settings
@@ -46,8 +86,12 @@
 	];
 
 	// Derived values
-	let currentFormat = $derived(posterFormats.find((f) => f.id === posterFormat) || posterFormats[0]);
-	let currentBackground = $derived(data.backgrounds.find((bg) => bg.id === activeBackground) || data.backgrounds[0]);
+	let currentFormat = $derived(
+		posterFormats.find((f) => f.id === posterFormat) || posterFormats[0]
+	);
+	let currentBackground = $derived(
+		data.backgrounds.find((bg) => bg.id === activeBackground) || data.backgrounds[0]
+	);
 
 	// Generate QR code on URL change
 	$effect(() => {
@@ -77,7 +121,10 @@
 
 	function createFilenameFromQuestion() {
 		const words = question.trim().split(/\s+/).slice(0, 5);
-		const cleanName = words.join('-').replace(/[^a-zA-Z0-9-]/g, '').toLowerCase();
+		const cleanName = words
+			.join('-')
+			.replace(/[^a-zA-Z0-9-]/g, '')
+			.toLowerCase();
 		return `9takes-${cleanName || 'poster'}`;
 	}
 
@@ -165,14 +212,49 @@
 		</div>
 		<div class="header-actions">
 			<button class="btn btn-secondary" onclick={copyToClipboard} disabled={exporting}>
-				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="18"
+					height="18"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					><rect width="14" height="14" x="8" y="8" rx="2" ry="2" /><path
+						d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+					/></svg
+				>
 				Copy
 			</button>
 			<button class="btn btn-primary" onclick={exportAsPNG} disabled={exporting}>
 				{#if exporting}
-					<svg class="animate-spin" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+					<svg
+						class="animate-spin"
+						xmlns="http://www.w3.org/2000/svg"
+						width="18"
+						height="18"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"><path d="M21 12a9 9 0 1 1-6.219-8.56" /></svg
+					>
 				{:else}
-					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="18"
+						height="18"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline
+							points="7 10 12 15 17 10"
+						/><line x1="12" x2="12" y1="15" y2="3" /></svg
+					>
 				{/if}
 				Download PNG
 			</button>
@@ -184,20 +266,86 @@
 		<div class="controls-panel">
 			<!-- Tabs -->
 			<div class="tabs">
-				<button class="tab" class:active={activeTab === 'content'} onclick={() => activeTab = 'content'}>
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+				<button
+					class="tab"
+					class:active={activeTab === 'content'}
+					onclick={() => (activeTab = 'content')}
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						><path
+							d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"
+						/><polyline points="14 2 14 8 20 8" /></svg
+					>
 					Content
 				</button>
-				<button class="tab" class:active={activeTab === 'style'} onclick={() => activeTab = 'style'}>
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.555C21.965 6.012 17.461 2 12 2z"/></svg>
+				<button
+					class="tab"
+					class:active={activeTab === 'style'}
+					onclick={() => (activeTab = 'style')}
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						><circle cx="13.5" cy="6.5" r=".5" /><circle cx="17.5" cy="10.5" r=".5" /><circle
+							cx="8.5"
+							cy="7.5"
+							r=".5"
+						/><circle cx="6.5" cy="12.5" r=".5" /><path
+							d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.555C21.965 6.012 17.461 2 12 2z"
+						/></svg
+					>
 					Style
 				</button>
-				<button class="tab" class:active={activeTab === 'background'} onclick={() => activeTab = 'background'}>
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+				<button
+					class="tab"
+					class:active={activeTab === 'background'}
+					onclick={() => (activeTab = 'background')}
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						><rect width="18" height="18" x="3" y="3" rx="2" ry="2" /><circle
+							cx="9"
+							cy="9"
+							r="2"
+						/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" /></svg
+					>
 					Background
 				</button>
-				<button class="tab" class:active={activeTab === 'export'} onclick={() => activeTab = 'export'}>
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+				<button
+					class="tab"
+					class:active={activeTab === 'export'}
+					onclick={() => (activeTab = 'export')}
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline
+							points="7 10 12 15 17 10"
+						/><line x1="12" x2="12" y1="15" y2="3" /></svg
+					>
 					Export
 				</button>
 			</div>
@@ -215,8 +363,19 @@
 						></textarea>
 
 						{#if data.questions && data.questions.length > 0}
-							<button class="btn btn-ghost mt-2" onclick={() => showQuestionPicker = !showQuestionPicker}>
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+							<button
+								class="btn btn-ghost mt-2"
+								onclick={() => (showQuestionPicker = !showQuestionPicker)}
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg
+								>
 								{showQuestionPicker ? 'Hide' : 'Pick from recent questions'}
 							</button>
 
@@ -268,19 +427,19 @@
 							<button
 								class="color-btn"
 								class:active={questionColor === 'text-white'}
-								onclick={() => questionColor = 'text-white'}
+								onclick={() => (questionColor = 'text-white')}
 								style="background: white; border: 1px solid #ccc;"
 							></button>
 							<button
 								class="color-btn"
 								class:active={questionColor === 'text-neutral-900'}
-								onclick={() => questionColor = 'text-neutral-900'}
+								onclick={() => (questionColor = 'text-neutral-900')}
 								style="background: #171717;"
 							></button>
 							<button
 								class="color-btn"
 								class:active={questionColor === 'text-primary-200'}
-								onclick={() => questionColor = 'text-primary-200'}
+								onclick={() => (questionColor = 'text-primary-200')}
 								style="background: #c4b5fd;"
 							></button>
 						</div>
@@ -316,7 +475,7 @@
 								<button
 									class="bg-option"
 									class:active={activeBackground === bg.id}
-									onclick={() => activeBackground = bg.id}
+									onclick={() => (activeBackground = bg.id)}
 								>
 									<img src={bg.path} alt={bg.name} />
 									<span>{bg.name}</span>
@@ -327,13 +486,7 @@
 
 					<div class="section">
 						<label class="label">Overlay Opacity: {overlayOpacity}%</label>
-						<input
-							type="range"
-							bind:value={overlayOpacity}
-							min="0"
-							max="90"
-							class="range"
-						/>
+						<input type="range" bind:value={overlayOpacity} min="0" max="90" class="range" />
 					</div>
 
 					<div class="section">
@@ -353,19 +506,54 @@
 
 					<div class="export-buttons">
 						<button class="export-btn" onclick={exportAsPNG} disabled={exporting}>
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								><rect width="18" height="18" x="3" y="3" rx="2" ry="2" /><circle
+									cx="9"
+									cy="9"
+									r="2"
+								/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" /></svg
+							>
 							<span class="export-btn-title">PNG Image</span>
 							<span class="export-btn-desc">Best for social media</span>
 						</button>
 
 						<button class="export-btn" onclick={exportAsPDF} disabled={exporting}>
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								><path
+									d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"
+								/><polyline points="14 2 14 8 20 8" /></svg
+							>
 							<span class="export-btn-title">PDF Document</span>
 							<span class="export-btn-desc">Best for printing</span>
 						</button>
 
 						<button class="export-btn" onclick={copyToClipboard} disabled={exporting}>
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								><rect width="14" height="14" x="8" y="8" rx="2" ry="2" /><path
+									d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+								/></svg
+							>
 							<span class="export-btn-title">Copy to Clipboard</span>
 							<span class="export-btn-desc">Paste directly</span>
 						</button>
@@ -397,10 +585,7 @@
 					style="width: {currentFormat.width}; height: {currentFormat.height}; max-width: 100%; max-height: 70vh;"
 				>
 					<!-- Background Image -->
-					<div
-						class="poster-bg"
-						style="background-image: url({currentBackground?.path});"
-					></div>
+					<div class="poster-bg" style="background-image: url({currentBackground?.path});"></div>
 
 					<!-- Overlay -->
 					<div
@@ -421,7 +606,7 @@
 						<!-- Question -->
 						<div class="poster-question">
 							<h2
-								class="{questionFontSize} {questionColor} font-bold text-center leading-tight"
+								class="{questionFontSize} {questionColor} text-center font-bold leading-tight"
 								class:drop-shadow-lg={textShadow}
 							>
 								{question}
@@ -626,7 +811,9 @@
 		font-size: 0.875rem;
 		color: var(--neutral-800, #e2e8f0);
 		background: var(--void-elevated, #252538);
-		transition: border-color 0.2s, box-shadow 0.2s;
+		transition:
+			border-color 0.2s,
+			box-shadow 0.2s;
 
 		&:focus {
 			outline: none;
@@ -680,7 +867,9 @@
 		border-radius: 0.375rem;
 		border: 2px solid transparent;
 		cursor: pointer;
-		transition: transform 0.15s, border-color 0.15s;
+		transition:
+			transform 0.15s,
+			border-color 0.15s;
 
 		&:hover {
 			transform: scale(1.1);
@@ -801,7 +990,9 @@
 		background: var(--void-elevated, #252538);
 		cursor: pointer;
 		text-align: left;
-		transition: border-color 0.2s, background 0.2s;
+		transition:
+			border-color 0.2s,
+			background 0.2s;
 
 		&:hover:not(:disabled) {
 			border-color: var(--shadow-monarch, #7c3aed);
@@ -900,7 +1091,9 @@
 		flex-direction: column;
 		border-radius: 0.375rem;
 		overflow: hidden;
-		box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5), 0 0 20px var(--shadow-monarch-glow, rgba(124, 58, 237, 0.2));
+		box-shadow:
+			0 10px 40px -10px rgba(0, 0, 0, 0.5),
+			0 0 20px var(--shadow-monarch-glow, rgba(124, 58, 237, 0.2));
 	}
 
 	.poster-bg {

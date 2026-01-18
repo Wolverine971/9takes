@@ -363,7 +363,9 @@
 									</div>
 
 									<div class="type-info">
-										<span class="type-title">{typeInfo.title}</span>
+										{#if person.personaTitle}
+											<span class="type-title">{person.personaTitle}</span>
+										{/if}
 										<span class="type-name">{typeInfo.name}</span>
 									</div>
 

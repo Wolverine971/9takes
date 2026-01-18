@@ -97,7 +97,7 @@ For Type 1s, needing medication feels like a verdict: you weren't disciplined en
 
 Type 1s don't just hesitate. They try everything else first: stricter routines, more meditation, better diet, harder exercise. They research exhaustively, looking for proof that they don't really need medication. When they finally start, they track every dose with spreadsheet precision and catastrophize minor side effects.
 
-The irony? Medication often supports what Type 1s want most. It can provide the [stable ground for therapy work](/enneagram-corner/mental-health/enneagram-therapy-guide) and quiet the relentless anxiety that drives their rigidity. Many Type 1s find they're actually *more* in control on medication, not less.
+The irony? Medication often supports what Type 1s want most. It can provide the [stable ground for therapy work](/enneagram-corner/mental-health/enneagram-therapy-guide) and quiet the relentless anxiety that drives their rigidity. Many Type 1s find they're actually _more_ in control on medication, not less.
 
 ### What Works for Type 1s
 
@@ -107,7 +107,7 @@ Type 1s respond to framing medication as a tool for better functioning, not a cr
 
 #### Medications That Often Address Type 1 Concerns
 
-*Note: These aren't prescriptions. They're examples of medication categories that tend to align with Type 1 priorities. Your provider determines what's appropriate based on your specific situation.*
+_Note: These aren't prescriptions. They're examples of medication categories that tend to align with Type 1 priorities. Your provider determines what's appropriate based on your specific situation._
 
 - **SSRIs**: Often a starting point for anxiety and depression with predictable, manageable side effects
 - **Buspirone**: Non-addictive anxiety relief that appeals to Type 1s' concern about dependency
@@ -864,6 +864,7 @@ These aren't prescriptions. They're starting points for conversations with your 
 Most antidepressants need 4-8 weeks to reach full effectiveness. This is biology, not patience-testing. Your brain receptors need time to adapt.
 
 Here's the timeline most people don't know:
+
 - Weeks 1-2: Side effects peak. Mood effects minimal.
 - Weeks 2-4: Side effects improve. Mood may begin to shift.
 - Weeks 4-8: Full therapeutic effects develop.

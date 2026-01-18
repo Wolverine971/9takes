@@ -25,7 +25,6 @@
 		{
 			id: 1,
 			name: 'The Perfectionist',
-			title: 'Knight of Order',
 			description:
 				'Ethical, dedicated and reliable. Motivated by a desire to live the right way and improve the world.',
 			color: '#a8dadc',
@@ -34,7 +33,6 @@
 		{
 			id: 2,
 			name: 'The Helper',
-			title: 'Heart Guardian',
 			description: 'Warm, caring and giving. Motivated by a need to be loved and needed.',
 			color: '#ff6b6b',
 			coreEmotion: 'Shame'
@@ -42,7 +40,6 @@
 		{
 			id: 3,
 			name: 'The Achiever',
-			title: 'Victory Blade',
 			description: 'Success-oriented and image-conscious. Motivated by a need to be successful.',
 			color: '#fbbf24',
 			coreEmotion: 'Shame'
@@ -50,7 +47,6 @@
 		{
 			id: 4,
 			name: 'The Individualist',
-			title: 'Soul Weaver',
 			description: 'Creative, sensitive and expressive. Motivated by a need to be understood.',
 			color: '#c084fc',
 			coreEmotion: 'Shame'
@@ -58,7 +54,6 @@
 		{
 			id: 5,
 			name: 'The Investigator',
-			title: 'Mind Phantom',
 			description: 'Analytical, detached and private. Motivated by a need to gain knowledge.',
 			color: '#22d3ee',
 			coreEmotion: 'Fear'
@@ -66,7 +61,6 @@
 		{
 			id: 6,
 			name: 'The Loyalist',
-			title: 'Iron Guard',
 			description:
 				'Committed, practical and vigilant. Motivated by fear and the need for security.',
 			color: '#64748b',
@@ -75,7 +69,6 @@
 		{
 			id: 7,
 			name: 'The Enthusiast',
-			title: 'Storm Rider',
 			description:
 				'Fun, spontaneous and versatile. Motivated by a need to be happy and avoid pain.',
 			color: '#fb923c',
@@ -84,7 +77,6 @@
 		{
 			id: 8,
 			name: 'The Challenger',
-			title: 'War Commander',
 			description: 'Powerful, dominating and self-confident. Motivated by a need to be strong.',
 			color: '#ef4444',
 			coreEmotion: 'Anger'
@@ -92,7 +84,6 @@
 		{
 			id: 9,
 			name: 'The Peacemaker',
-			title: 'Harmony Sage',
 			description: 'Easygoing, accommodating and peaceful. Motivated by a need to keep the peace.',
 			color: '#4ade80',
 			coreEmotion: 'Anger'
@@ -307,7 +298,6 @@
 							: '-100%'}, -50%);
 					"
 				>
-					<span class="label-title">{type.title}</span>
 					<span class="label-name">{type.name}</span>
 				</div>
 			{/if}
@@ -326,7 +316,6 @@
 						<span>{hoveredType}</span>
 					</div>
 					<div class="tooltip-titles">
-						<span class="tooltip-title-main">{currentType.title}</span>
 						<span class="tooltip-title-sub">{currentType.name}</span>
 					</div>
 				</div>
@@ -614,16 +603,6 @@
 		opacity: 1;
 	}
 
-	.label-title {
-		font-family: var(--font-mono);
-		font-size: 0.55rem;
-		font-weight: 600;
-		color: var(--label-color);
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
-		opacity: 0.8;
-	}
-
 	.label-name {
 		font-family: var(--font-display);
 		font-size: 0.7rem;
@@ -700,15 +679,6 @@
 	.tooltip-titles {
 		display: flex;
 		flex-direction: column;
-	}
-
-	.tooltip-title-main {
-		font-family: var(--font-mono);
-		font-size: 0.65rem;
-		font-weight: 600;
-		color: var(--shadow-ethereal);
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
 	}
 
 	.tooltip-title-sub {

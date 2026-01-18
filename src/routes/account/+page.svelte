@@ -132,7 +132,12 @@
 								{subscription.questions.question_formatted || subscription.questions.question}
 							</span>
 							<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M9 5l7 7-7 7"
+								/>
 							</svg>
 						</a>
 					{/each}

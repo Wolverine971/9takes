@@ -112,11 +112,7 @@
 
 	/* Color variants */
 	.stat-primary {
-		background: linear-gradient(
-			135deg,
-			rgba(124, 58, 237, 0.15) 0%,
-			rgba(124, 58, 237, 0.05) 100%
-		);
+		background: linear-gradient(135deg, rgba(124, 58, 237, 0.15) 0%, rgba(124, 58, 237, 0.05) 100%);
 		border-color: rgba(124, 58, 237, 0.3);
 	}
 

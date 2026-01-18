@@ -265,7 +265,7 @@
 			priority={true}
 			scramble={false}
 			aspectRatio="1/1"
-			subtext=""
+			subtext={post.persona_title || ''}
 		/>
 	</div>
 	<TableOfContents {contentStore} sidePosition="right" renderMode="accordion-only" />

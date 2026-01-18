@@ -7,6 +7,7 @@ export interface FamousPerson {
 	type: number;
 	hasImage: boolean;
 	hasLink: boolean;
+	personaTitle: string | null;
 }
 
 export interface FamousBlogPerson {
@@ -69,7 +70,8 @@ export const load: PageServerLoad = async ({ locals }) => {
 					name: person.name,
 					type: key,
 					hasImage: person.hasImage,
-					hasLink: person.link
+					hasLink: person.link,
+					personaTitle: person.personaTitle ?? null
 				});
 			} else {
 				// Fallback to anyone with an image
@@ -79,7 +81,8 @@ export const load: PageServerLoad = async ({ locals }) => {
 						name: fallback.name,
 						type: key,
 						hasImage: fallback.hasImage,
-						hasLink: fallback.link
+						hasLink: fallback.link,
+						personaTitle: fallback.personaTitle ?? null
 					});
 				}
 			}

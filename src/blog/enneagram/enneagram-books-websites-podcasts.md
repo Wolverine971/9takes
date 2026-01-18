@@ -1008,128 +1008,230 @@ Look for certification from the International Enneagram Association (IEA), train
 </svelte:head>
 
 <style lang="scss">
+	/* Solo Leveling Dark Theme */
 
-  a::after {
-    content: none
-  }
-  a:hover {
-    color: var(--primary) !important;
-  }
+	a:hover {
+		color: #c4b5fd !important;
+	}
 
-  a img:hover {
-    filter: blur(.7px);
-  }
+	/* Social media icons - make white for dark theme */
+	a img.icon {
+		filter: brightness(0) invert(1);
+		opacity: 0.85;
+	}
 
-header.enneagram-header {
-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-color: white;
-padding: 3rem 1.5rem;
-text-align: center;
-border-radius: 0.5rem;
-margin-bottom: 2rem;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+	a img.icon:hover {
+		filter: brightness(0) invert(1);
+		opacity: 1;
+	}
 
-.enneagram-header h1 {
-font-size: 2.5rem;
-margin-bottom: 1rem;
-}
+	/* Resource cards - Solo Leveling dark theme */
+	.resource-card {
+		border: 1px solid rgba(124, 58, 237, 0.2);
+		border-radius: 12px;
+		padding: 1.5rem;
+		margin-bottom: 1.5rem;
+		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
+		transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+	}
 
-.enneagram-header p {
-font-size: 1.25rem;
-max-width: 700px;
-margin: 0 auto;
-opacity: 0.9;
-}
+	.resource-card:hover {
+		transform: translateY(-3px);
+		box-shadow: 0 8px 30px rgba(124, 58, 237, 0.15);
+		border-color: rgba(124, 58, 237, 0.4);
+	}
 
-/* /_ Resource cards _/ */
-.resource-card {
-border: 1px solid #e2e8f0;
-border-radius: 0.5rem;
-padding: 1.5rem;
-margin-bottom: 1.5rem;
-transition: transform 0.2s, box-shadow 0.2s;
-}
+	.resource-card h3 {
+		color: #f1f5f9;
+		margin-top: 0;
+		border-bottom: none !important;
+	}
 
-.resource-card:hover {
-transform: translateY(-5px);
-box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
-}
+	.resource-card img {
+		max-width: 100%;
+		height: auto;
+		border-radius: 8px;
+	}
 
-.resource-card h3 {
-color: #4a5568;
-margin-top: 0;
-border-bottom: none !important;
-}
+	/* Tag styling - Solo Leveling dark theme */
+	.tag {
+		display: inline-block;
+		background: rgba(124, 58, 237, 0.15);
+		color: #a78bfa;
+		border: 1px solid rgba(124, 58, 237, 0.3);
+		border-radius: 9999px;
+		font-size: 0.875rem;
+		font-weight: 500;
+		padding: 0.25rem 0.75rem;
+		margin-right: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
 
-.resource-card img {
-max-width: 100%;
-height: auto;
-border-radius: 0.25rem;
-}
+	.tag-beginner {
+		background: rgba(34, 197, 94, 0.15);
+		color: #4ade80;
+		border-color: rgba(34, 197, 94, 0.3);
+	}
 
-/* /_ Tag styling _/ */
-.tag {
-display: inline-block;
-background-color: #ebf4ff;
-color: #3182ce;
-border-radius: 9999px;
-font-size: 0.875rem;
-font-weight: 500;
-padding: 0.25rem 0.75rem;
-margin-right: 0.5rem;
-margin-bottom: 0.5rem;
-}
+	.tag-advanced {
+		background: rgba(168, 85, 247, 0.15);
+		color: #c084fc;
+		border-color: rgba(168, 85, 247, 0.3);
+	}
 
-.tag-beginner {
-background-color: #e6fffa;
-color: #319795;
-}
+	.tag-spiritual {
+		background: rgba(249, 115, 22, 0.15);
+		color: #fb923c;
+		border-color: rgba(249, 115, 22, 0.3);
+	}
 
-.tag-advanced {
-background-color: #faf5ff;
-color: #805ad5;
-}
+	.tag-professional {
+		background: rgba(20, 184, 166, 0.15);
+		color: #2dd4bf;
+		border-color: rgba(20, 184, 166, 0.3);
+	}
 
-.tag-spiritual {
-background-color: #fffaf0;
-color: #dd6b20;
-}
+	/* Tooltip styling - Solo Leveling dark theme */
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		border-bottom: 1px dotted #64748b;
+		cursor: help;
+	}
 
-.tag-professional {
-background-color: #f0fff4;
-color: #38a169;
-}
+	.tooltip .tooltip-text {
+		visibility: hidden;
+		width: 200px;
+		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 100%);
+		color: #e2e8f0;
+		text-align: center;
+		border-radius: 8px;
+		padding: 0.75rem;
+		position: absolute;
+		z-index: 1;
+		bottom: 125%;
+		left: 50%;
+		margin-left: -100px;
+		opacity: 0;
+		transition: opacity 0.3s;
+		font-size: 0.875rem;
+		border: 1px solid rgba(124, 58, 237, 0.3);
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+	}
 
-/* /_ Tooltip styling _/ */
-.tooltip {
-position: relative;
-display: inline-block;
-border-bottom: 1px dotted #cbd5e0;
-cursor: help;
-}
+	.tooltip:hover .tooltip-text {
+		visibility: visible;
+		opacity: 1;
+	}
 
-.tooltip .tooltip-text {
-visibility: hidden;
-width: 200px;
-background-color: #4a5568;
-color: white;
-text-align: center;
-border-radius: 0.25rem;
-padding: 0.5rem;
-position: absolute;
-z-index: 1;
-bottom: 125%;
-left: 50%;
-margin-left: -100px;
-opacity: 0;
-transition: opacity 0.3s;
-font-size: 0.875rem;
-}
+	/* Influencer grid - Solo Leveling dark theme */
+	.influencer-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+		gap: 1.25rem;
+		margin: 1.5rem 0;
+	}
 
-.tooltip:hover .tooltip-text {
-visibility: visible;
-opacity: 1;
-}
+	.influencer-card {
+		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
+		border: 1px solid rgba(124, 58, 237, 0.2);
+		border-radius: 12px;
+		padding: 1.25rem;
+		transition: all 0.2s ease;
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 
+		&:hover {
+			transform: translateY(-3px);
+			border-color: rgba(124, 58, 237, 0.4);
+			box-shadow: 0 8px 30px rgba(124, 58, 237, 0.15);
+		}
+
+		h4 {
+			color: #f1f5f9;
+			margin: 0 0 0.75rem;
+			font-size: 1.1rem;
+			font-weight: 700;
+		}
+
+		p {
+			color: #cbd5e1;
+			font-size: 0.9rem;
+			line-height: 1.6;
+			margin: 0 0 0.75rem;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		a {
+			color: #a78bfa;
+
+			&:hover {
+				color: #c4b5fd !important;
+			}
+		}
+	}
+
+	/* Influencer list - Solo Leveling dark theme */
+	.influencer-list {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		margin: 1.5rem 0;
+	}
+
+	.influencer-item {
+		background: rgba(255, 255, 255, 0.03);
+		border: 1px solid rgba(100, 116, 139, 0.15);
+		border-left: 4px solid #7c3aed;
+		border-radius: 8px;
+		padding: 1rem 1.25rem;
+		transition: all 0.2s ease;
+
+		&:hover {
+			background: rgba(124, 58, 237, 0.08);
+			border-color: rgba(124, 58, 237, 0.25);
+			transform: translateX(4px);
+		}
+
+		h4 {
+			color: #f1f5f9;
+			margin: 0 0 0.5rem;
+			font-size: 1rem;
+			font-weight: 600;
+		}
+
+		p {
+			color: #cbd5e1;
+			font-size: 0.9rem;
+			line-height: 1.6;
+			margin: 0 0 0.5rem;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		a {
+			color: #a78bfa;
+
+			&:hover {
+				color: #c4b5fd !important;
+			}
+		}
+	}
+
+	/* Mobile adjustments */
+	@media (max-width: 640px) {
+		.influencer-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.influencer-card,
+		.influencer-item {
+			padding: 1rem;
+		}
+	}
 </style>

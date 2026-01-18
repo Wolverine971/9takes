@@ -91,7 +91,8 @@
 			"Bash(rm:*)",
 			"Bash(pnpm format:*)",
 			"Bash(wc:*)",
-			"WebFetch(domain:www.provokemedia.com)"
+			"WebFetch(domain:www.provokemedia.com)",
+			"mcp__supabase__execute_sql"
 		],
 		"deny": [],
 		"ask": [],

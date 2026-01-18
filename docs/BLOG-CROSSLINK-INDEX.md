@@ -50,15 +50,15 @@ These posts are "orphaned" - no other content links to them.
 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` | 11 |
 | The Dark Triad Meets the Enneagram: When Personality Turns P... | `pop-culture/dark-triad-meets-enneagram.md` | 8 |
 | Enneagram Parenting Styles: Why You Parent the Way You Do (A... | `enneagram/enneagram-parenting-styles.md` | 7 |
-| Enneagram Type 1: The Perfectionist - Complete Guide | `enneagram/enneagram-type-1.md` | 7 |
-| Enneagram Type 2: The Helper - Complete Guide | `enneagram/enneagram-type-2.md` | 7 |
-| Enneagram Type 3: The Achiever - Complete Guide | `enneagram/enneagram-type-3.md` | 7 |
-| Enneagram Type 4: The Individualist - A Guide for Those Who ... | `enneagram/enneagram-type-4.md` | 7 |
-| Enneagram Type 5: The Observer | `enneagram/enneagram-type-5.md` | 7 |
-| Enneagram Type 6: The Loyalist - Complete Guide | `enneagram/enneagram-type-6.md` | 7 |
-| Enneagram Type 7: The Enthusiast - Complete Guide | `enneagram/enneagram-type-7.md` | 7 |
-| Enneagram Type 8: The Challenger - Complete Guide | `enneagram/enneagram-type-8.md` | 7 |
-| Enneagram Type 9: The Peacemaker - Complete Guide | `enneagram/enneagram-type-9.md` | 7 |
+| Enneagram Type 1: The Perfectionist - Inside the Inner Court... | `enneagram/enneagram-type-1.md` | 7 |
+| Enneagram Type 2: The Helper - The Hidden Cost of Giving | `enneagram/enneagram-type-2.md` | 7 |
+| Enneagram Type 3: The Achiever - When Success Becomes Identi... | `enneagram/enneagram-type-3.md` | 7 |
+| Enneagram Type 4: The Individualist - The Search for the Mis... | `enneagram/enneagram-type-4.md` | 7 |
+| Enneagram Type 5: The Observer - Inside the Fortress Mind | `enneagram/enneagram-type-5.md` | 7 |
+| Enneagram Type 6: The Loyalist - The Search for Solid Ground | `enneagram/enneagram-type-6.md` | 7 |
+| Enneagram Type 7: The Enthusiast - The Possibility Engine | `enneagram/enneagram-type-7.md` | 7 |
+| Enneagram Type 8: The Challenger - Behind the Armor | `enneagram/enneagram-type-8.md` | 7 |
+| Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` | 7 |
 | MBTI Failed Us — Can the Enneagram Do Better? | `community/mbti-vs-enneagram.md` | 6 |
 | The Crash Course on Emotions We All Missed in Kindergarten | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` | 6 |
 | Why People Overshare: The Psychology of Shame, Boundaries, a... | `enneagram/oversharing-psychology-shame-boundaries.md` | 5 |
@@ -68,7 +68,7 @@ These posts are "orphaned" - no other content links to them.
 | Why You Hate Your Job (It | `enneagram/enneagram-types-and-career-choices.md` | 2 |
 | The Enneagram Changed My Life, But I Learned to Shut Up Abou... | `community/why-im-selective-sharing-enneagram.md` | 1 |
 | Why the Greek vibe? | `community/why-the-greek-vibe.md` | 1 |
-| Enneagram Influences: Exploring the Differing Traditions | `enneagram/enneagram-influences.md` | 1 |
+| Who Built the Enneagram? The Mystics, Psychiatrists, and Phi... | `enneagram/enneagram-influences.md` | 1 |
 | The Stress Paradox: Why Your Emotional Patterns Outlast Ever... | `enneagram/situations-change-emotions-dont.md` | 1 |
 | Reddit Moderators: Why Type 1s Run the Internet | `pop-culture/reddit-moderators-type-1-internet.md` | 1 |
 
@@ -198,20 +198,20 @@ Sorted by total connections (incoming + outgoing).
 | 8 | 2 | 6 | The Definitive Guide to Relationship Conflict [Part 1] | `guides/definitive-guide-to-relationship-conflict-part-1.md` |
 | 8 | 1 | 7 | Why Your Arguments Keep Repeating (And the Exercises That Ac... | `guides/definitive-guide-to-relationship-conflict-part-2.md` |
 | 8 | 0 | 8 | The Dark Triad Meets the Enneagram: When Personality Turns P... | `pop-culture/dark-triad-meets-enneagram.md` |
-| 7 | 2 | 5 | Astrology Meets Enneagram: Cosmic Personality Insights | `enneagram/astrology-and-the-enneagram.md` |
+| 7 | 2 | 5 | Astrology and Enneagram: Two Maps of the Same Territory | `enneagram/astrology-and-the-enneagram.md` |
 | 7 | 1 | 6 | Enneagram Compatibility: Why Charts Lie and What Actually Pr... | `enneagram/enneagram-compatibility-guide.md` |
 | 7 | 1 | 6 | Enneagram Dating Guide for Women: Decode Your Perfect Match ... | `enneagram/enneagram-dating-guide-for-women.md` |
 | 7 | 0 | 7 | Enneagram Parenting Styles: Why You Parent the Way You Do (A... | `enneagram/enneagram-parenting-styles.md` |
 | 7 | 1 | 6 | Enneagram Team Diversity: Unlocking Your Team | `enneagram/enneagram-team-diversity.md` |
-| 7 | 0 | 7 | Enneagram Type 1: The Perfectionist - Complete Guide | `enneagram/enneagram-type-1.md` |
-| 7 | 0 | 7 | Enneagram Type 2: The Helper - Complete Guide | `enneagram/enneagram-type-2.md` |
-| 7 | 0 | 7 | Enneagram Type 3: The Achiever - Complete Guide | `enneagram/enneagram-type-3.md` |
-| 7 | 0 | 7 | Enneagram Type 4: The Individualist - A Guide for Those Who ... | `enneagram/enneagram-type-4.md` |
-| 7 | 0 | 7 | Enneagram Type 5: The Observer | `enneagram/enneagram-type-5.md` |
-| 7 | 0 | 7 | Enneagram Type 6: The Loyalist - Complete Guide | `enneagram/enneagram-type-6.md` |
-| 7 | 0 | 7 | Enneagram Type 7: The Enthusiast - Complete Guide | `enneagram/enneagram-type-7.md` |
-| 7 | 0 | 7 | Enneagram Type 8: The Challenger - Complete Guide | `enneagram/enneagram-type-8.md` |
-| 7 | 0 | 7 | Enneagram Type 9: The Peacemaker - Complete Guide | `enneagram/enneagram-type-9.md` |
+| 7 | 0 | 7 | Enneagram Type 1: The Perfectionist - Inside the Inner Court... | `enneagram/enneagram-type-1.md` |
+| 7 | 0 | 7 | Enneagram Type 2: The Helper - The Hidden Cost of Giving | `enneagram/enneagram-type-2.md` |
+| 7 | 0 | 7 | Enneagram Type 3: The Achiever - When Success Becomes Identi... | `enneagram/enneagram-type-3.md` |
+| 7 | 0 | 7 | Enneagram Type 4: The Individualist - The Search for the Mis... | `enneagram/enneagram-type-4.md` |
+| 7 | 0 | 7 | Enneagram Type 5: The Observer - Inside the Fortress Mind | `enneagram/enneagram-type-5.md` |
+| 7 | 0 | 7 | Enneagram Type 6: The Loyalist - The Search for Solid Ground | `enneagram/enneagram-type-6.md` |
+| 7 | 0 | 7 | Enneagram Type 7: The Enthusiast - The Possibility Engine | `enneagram/enneagram-type-7.md` |
+| 7 | 0 | 7 | Enneagram Type 8: The Challenger - Behind the Armor | `enneagram/enneagram-type-8.md` |
+| 7 | 0 | 7 | Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
 | 7 | 2 | 5 | Transforming Workplace Teams Using Enneagram: A Leader | `enneagram/enneagram-workplace-team-building.md` |
 | 7 | 1 | 6 | How All 9 Enneagram Types Flex: Revealing Each Type | `enneagram/how-each-enneagram-flexes.md` |
 | 7 | 4 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
@@ -252,7 +252,7 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 1 | 1 | The Pattern-Breaking Guide to Fighting Depression | `guides/guide-to-fighting-depression.md` |
 | 1 | 0 | 1 | The Enneagram Changed My Life, But I Learned to Shut Up Abou... | `community/why-im-selective-sharing-enneagram.md` |
 | 1 | 0 | 1 | Why the Greek vibe? | `community/why-the-greek-vibe.md` |
-| 1 | 0 | 1 | Enneagram Influences: Exploring the Differing Traditions | `enneagram/enneagram-influences.md` |
+| 1 | 0 | 1 | Who Built the Enneagram? The Mystics, Psychiatrists, and Phi... | `enneagram/enneagram-influences.md` |
 | 1 | 0 | 1 | The Stress Paradox: Why Your Emotional Patterns Outlast Ever... | `enneagram/situations-change-emotions-dont.md` |
 | 1 | 0 | 1 | Reddit Moderators: Why Type 1s Run the Internet | `pop-culture/reddit-moderators-type-1-internet.md` |
 | 0 | 0 | 0 | Untitled | `life-situations/before-your-next-fight.md` |

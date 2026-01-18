@@ -79,7 +79,7 @@ path: src/blog/community/mbti-vs-enneagram.md
 MBTI measures behavior and gives you a static label. The Enneagram reveals motivation—WHY you do things—and shows paths for growth. MBTI says "you're an introvert." The Enneagram explains your core fear, childhood wound, and how to become healthier. MBTI is a personality snapshot; the Enneagram is a transformation map.
 </QuickAnswer>
 
-<div class="bg-gray-100 border-l-4 border-gray-500 p-6 rounded-lg mb-8 text-lg italic">
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16161e 100%); border-left: 4px solid #64748b; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; font-size: 1.125rem; font-style: italic; color: #cbd5e1;">
 "You're an INTP."<br>
 "You should be a data analyst."<br>
 "That's just how you are."
@@ -87,85 +87,85 @@ MBTI measures behavior and gives you a static label. The Enneagram reveals motiv
 
 If you've ever taken a Myers-Briggs (MBTI) test, you probably got a tidy four-letter personality type, maybe a job suggestion, and a brief dopamine hit of identity. But did it change your life? Did it help you grow?
 
-<div class="text-center font-bold text-2xl text-red-600 my-8">
+<div style="text-align: center; font-weight: bold; font-size: 1.5rem; color: #f87171; margin: 2rem 0;">
 For most people, it didn't.
 </div>
 
 This post isn't about bashing MBTI. It's about asking a better question:
 
-<div class="bg-blue-50 border border-blue-200 border-l-4 border-l-blue-500 p-6 rounded-lg my-8">
-<strong class="text-xl">What if there were a personality framework that actually helped you grow into your best self, find the right work, and transform society?</strong>
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%); border: 1px solid rgba(124, 58, 237, 0.3); border-left: 4px solid #7c3aed; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
+<strong style="font-size: 1.25rem; color: #f1f5f9;">What if there were a personality framework that actually helped you grow into your best self, find the right work, and transform society?</strong>
 </div>
 
 That's where the Enneagram comes in. (New to it? Start with our [quick Enneagram overview](/enneagram-corner/enneagram-tldr) or [find your type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type).)
 
-<h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">🧰 Where MBTI Failed — And How Enneagram Can Do Better</h2>
+## Where MBTI Failed — And How Enneagram Can Do Better
 
-<div class="overflow-x-auto my-8">
-<table class="w-full border-collapse bg-white rounded-lg shadow-md overflow-hidden">
+<div style="overflow-x: auto; margin: 2rem 0;">
+<table style="width: 100%; border-collapse: collapse; background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%); border-radius: 12px; overflow: hidden; border: 1px solid rgba(124, 58, 237, 0.2);">
 <thead>
-<tr class="bg-gradient-to-r from-red-500 to-red-600 text-white">
-<th class="p-4 text-left font-semibold">MBTI Legacy</th>
-<th class="p-4 text-left font-semibold">Enneagram Upgrade</th>
+<tr style="background: linear-gradient(90deg, #ef4444 0%, #dc2626 100%);">
+<th style="padding: 1rem; text-align: left; font-weight: 600; color: white;">MBTI Legacy</th>
+<th style="padding: 1rem; text-align: left; font-weight: 600; color: white;">Enneagram Upgrade</th>
 </tr>
 </thead>
 <tbody>
-<tr class="border-b border-neutral-200 hover:bg-gray-50">
-<td class="p-4">
-<div class="bg-red-50 p-3 rounded border-l-4 border-red-400">
+<tr style="border-bottom: 1px solid rgba(100, 116, 139, 0.2);">
+<td style="padding: 1rem;">
+<div style="background: rgba(239, 68, 68, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #ef4444; color: #fca5a5;">
 Static label ("You're an INTP")
 </div>
 </td>
-<td class="p-4">
-<div class="bg-green-50 p-3 rounded border-l-4 border-green-400">
+<td style="padding: 1rem;">
+<div style="background: rgba(34, 197, 94, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #22c55e; color: #86efac;">
 Dynamic system (You're a 5 under stress, growing toward 8)
 </div>
 </td>
 </tr>
-<tr class="border-b border-neutral-200 hover:bg-gray-50">
-<td class="p-4">
-<div class="bg-red-50 p-3 rounded border-l-4 border-red-400">
+<tr style="border-bottom: 1px solid rgba(100, 116, 139, 0.2);">
+<td style="padding: 1rem;">
+<div style="background: rgba(239, 68, 68, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #ef4444; color: #fca5a5;">
 Vague job matching
 </div>
 </td>
-<td class="p-4">
-<div class="bg-green-50 p-3 rounded border-l-4 border-green-400">
+<td style="padding: 1rem;">
+<div style="background: rgba(34, 197, 94, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #22c55e; color: #86efac;">
 Motivation-based fit (e.g. "You crave impact, but burn out from micromanagement")
 </div>
 </td>
 </tr>
-<tr class="border-b border-neutral-200 hover:bg-gray-50">
-<td class="p-4">
-<div class="bg-red-50 p-3 rounded border-l-4 border-red-400">
+<tr style="border-bottom: 1px solid rgba(100, 116, 139, 0.2);">
+<td style="padding: 1rem;">
+<div style="background: rgba(239, 68, 68, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #ef4444; color: #fca5a5;">
 Overused in hiring
 </div>
 </td>
-<td class="p-4">
-<div class="bg-green-50 p-3 rounded border-l-4 border-green-400">
+<td style="padding: 1rem;">
+<div style="background: rgba(34, 197, 94, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #22c55e; color: #86efac;">
 Understood as a tool for personal agency
 </div>
 </td>
 </tr>
-<tr class="border-b border-neutral-200 hover:bg-gray-50">
-<td class="p-4">
-<div class="bg-red-50 p-3 rounded border-l-4 border-red-400">
+<tr style="border-bottom: 1px solid rgba(100, 116, 139, 0.2);">
+<td style="padding: 1rem;">
+<div style="background: rgba(239, 68, 68, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #ef4444; color: #fca5a5;">
 Surface traits
 </div>
 </td>
-<td class="p-4">
-<div class="bg-green-50 p-3 rounded border-l-4 border-green-400">
+<td style="padding: 1rem;">
+<div style="background: rgba(34, 197, 94, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #22c55e; color: #86efac;">
 Core fears, desires, shadows, and integration paths
 </div>
 </td>
 </tr>
-<tr class="hover:bg-gray-50">
-<td class="p-4">
-<div class="bg-red-50 p-3 rounded border-l-4 border-red-400">
+<tr>
+<td style="padding: 1rem;">
+<div style="background: rgba(239, 68, 68, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #ef4444; color: #fca5a5;">
 Encouraged external boxes
 </div>
 </td>
-<td class="p-4">
-<div class="bg-green-50 p-3 rounded border-l-4 border-green-400">
+<td style="padding: 1rem;">
+<div style="background: rgba(34, 197, 94, 0.15); padding: 0.75rem; border-radius: 6px; border-left: 4px solid #22c55e; color: #86efac;">
 Encourages internal transformation
 </div>
 </td>
@@ -174,17 +174,17 @@ Encourages internal transformation
 </table>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
-<div class="bg-red-50 border border-red-200 p-6 rounded-lg">
-<h3 class="text-xl font-bold text-red-800 mb-4">MBTI tried to say:</h3>
-<blockquote class="text-lg italic text-red-700 border-l-4 border-red-400 pl-4">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+<div style="background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.3); padding: 1.5rem; border-radius: 12px;">
+<h3 style="font-size: 1.25rem; font-weight: bold; color: #f87171; margin-bottom: 1rem;">MBTI tried to say:</h3>
+<blockquote style="font-size: 1.125rem; font-style: italic; color: #fca5a5; border-left: 4px solid #ef4444; padding-left: 1rem; margin: 0;">
 "This is what you're like."
 </blockquote>
 </div>
 
-<div class="bg-green-50 border border-green-200 p-6 rounded-lg">
-<h3 class="text-xl font-bold text-green-800 mb-4">The Enneagram says:</h3>
-<blockquote class="text-lg italic text-green-700 border-l-4 border-green-400 pl-4">
+<div style="background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.3); padding: 1.5rem; border-radius: 12px;">
+<h3 style="font-size: 1.25rem; font-weight: bold; color: #4ade80; margin-bottom: 1rem;">The Enneagram says:</h3>
+<blockquote style="font-size: 1.125rem; font-style: italic; color: #86efac; border-left: 4px solid #22c55e; padding-left: 1rem; margin: 0;">
 "This is your story. Here's where it's headed. Want to grow?"
 </blockquote>
 </div>
@@ -192,249 +192,249 @@ Encourages internal transformation
 
 For a detailed breakdown, see our [Enneagram vs Myers-Briggs comparison](/enneagram-corner/enneagram-vs-meyers-briggs).
 
-<h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">🛠️ A Functional, Non-Dystopic Model of Enneagram Society</h2>
+## A Functional, Non-Dystopic Model of Enneagram Society
 
-<div class="bg-blue-50 border-l-4 border-blue-400 p-6 my-8 rounded-lg">
-<strong class="text-xl">What if the Enneagram wasn't just a personal tool, but a blueprint for designing better schools, workplaces, and communities?</strong>
-</div>
-
-<div class="space-y-8 my-10">
-
-<div class="bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 p-8 rounded-lg">
-<h3 class="text-2xl font-bold text-purple-800 mb-4">1. The Enneagram as a Guidance System, Not a Label</h3>
-<div class="space-y-4">
-<div class="bg-white p-4 rounded border border-purple-200">
-<strong>✓</strong> People are trained to understand their **type, wing, stress path, growth path, and instinct stack**
-</div>
-<div class="bg-white p-4 rounded border border-purple-200">
-<strong>✓</strong> Career tools suggest options—but never assign roles
-</div>
-<div class="bg-white p-4 rounded border border-purple-200">
-<strong>✓</strong> Coaching replaces "fit tests"
-</div>
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%); border-left: 4px solid #7c3aed; padding: 1.5rem; margin: 2rem 0; border-radius: 8px; border: 1px solid rgba(124, 58, 237, 0.2);">
+<strong style="font-size: 1.25rem; color: #f1f5f9;">What if the Enneagram wasn't just a personal tool, but a blueprint for designing better schools, workplaces, and communities?</strong>
 </div>
 
-<div class="bg-purple-100 p-4 rounded-lg mt-6 border-l-4 border-purple-500">
-<strong>Example:</strong> You might be a Type 9 who thought you wanted peace and routine—but your growth toward 3 shows you actually thrive in empowered leadership when emotionally supported. (Learn about [how types change under stress](/enneagram-corner/enneagram-types-in-stress).)
+<div style="display: flex; flex-direction: column; gap: 2rem; margin: 2.5rem 0;">
+
+<div style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%); border: 1px solid rgba(168, 85, 247, 0.3); padding: 2rem; border-radius: 12px;">
+<h3 style="font-size: 1.5rem; font-weight: bold; color: #c084fc; margin-bottom: 1rem;">1. The Enneagram as a Guidance System, Not a Label</h3>
+<div style="display: flex; flex-direction: column; gap: 0.75rem;">
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(168, 85, 247, 0.2); color: #e2e8f0;">
+<strong style="color: #a78bfa;">✓</strong> People are trained to understand their **type, wing, stress path, growth path, and instinct stack**
+</div>
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(168, 85, 247, 0.2); color: #e2e8f0;">
+<strong style="color: #a78bfa;">✓</strong> Career tools suggest options—but never assign roles
+</div>
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(168, 85, 247, 0.2); color: #e2e8f0;">
+<strong style="color: #a78bfa;">✓</strong> Coaching replaces "fit tests"
 </div>
 </div>
 
-<div class="bg-gradient-to-r from-green-50 to-teal-50 border border-green-200 p-8 rounded-lg">
-<h3 class="text-2xl font-bold text-green-800 mb-4">2. Jobs Become Psychological Journeys</h3>
-<p class="text-lg mb-6">Every job is a <em>mirror</em>, not just a paycheck.</p>
-
-<div class="space-y-4">
-<div class="bg-white p-4 rounded border border-green-200">
-<strong>⚡</strong> Roles are mapped to common stress triggers and motivational drives
-</div>
-<div class="bg-white p-4 rounded border border-green-200">
-<strong>⚡</strong> Management shifts from KPIs to **emotional fluency**
-</div>
-<div class="bg-white p-4 rounded border border-green-200">
-<strong>⚡</strong> Work becomes a **growth path**
+<div style="background: rgba(168, 85, 247, 0.15); padding: 1rem; border-radius: 8px; margin-top: 1.5rem; border-left: 4px solid #a855f7; color: #e2e8f0;">
+<strong style="color: #c084fc;">Example:</strong> You might be a Type 9 who thought you wanted peace and routine—but your growth toward 3 shows you actually thrive in empowered leadership when emotionally supported. (Learn about [how types change under stress](/enneagram-corner/enneagram-types-in-stress).)
 </div>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-<div class="bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
-<strong>A Type 2</strong> isn't just a nurse—they're a healer learning boundaries.
+<div style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(20, 184, 166, 0.1) 100%); border: 1px solid rgba(34, 197, 94, 0.3); padding: 2rem; border-radius: 12px;">
+<h3 style="font-size: 1.5rem; font-weight: bold; color: #4ade80; margin-bottom: 1rem;">2. Jobs Become Psychological Journeys</h3>
+<p style="font-size: 1.125rem; margin-bottom: 1.5rem; color: #cbd5e1;">Every job is a <em>mirror</em>, not just a paycheck.</p>
+
+<div style="display: flex; flex-direction: column; gap: 0.75rem;">
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(34, 197, 94, 0.2); color: #e2e8f0;">
+<strong style="color: #4ade80;">⚡</strong> Roles are mapped to common stress triggers and motivational drives
 </div>
-<div class="bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
-<strong>A Type 6</strong> isn't just in logistics—they're building trust in systems.
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(34, 197, 94, 0.2); color: #e2e8f0;">
+<strong style="color: #4ade80;">⚡</strong> Management shifts from KPIs to **emotional fluency**
 </div>
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(34, 197, 94, 0.2); color: #e2e8f0;">
+<strong style="color: #4ade80;">⚡</strong> Work becomes a **growth path**
 </div>
 </div>
 
-<div class="bg-gradient-to-r from-orange-50 to-yellow-50 border border-orange-200 p-8 rounded-lg">
-<h3 class="text-2xl font-bold text-orange-800 mb-4">3. Flexible Role-Shifting Encouraged</h3>
-<p class="text-lg mb-6">To avoid personality-based caste systems:</p>
-
-<div class="space-y-4">
-<div class="bg-white p-4 rounded border border-orange-200">
-<strong>🔄</strong> People are encouraged to **shift jobs** as they grow
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+<div style="background: rgba(34, 197, 94, 0.15); padding: 1rem; border-radius: 8px; border-left: 4px solid #22c55e; color: #e2e8f0;">
+<strong style="color: #4ade80;">A Type 2</strong> isn't just a nurse—they're a healer learning boundaries.
 </div>
-<div class="bg-white p-4 rounded border border-orange-200">
-<strong>🔄</strong> Performance reviews include questions like: <em>"Are you integrating your wing? Are you confronting your core fear?"</em>
-</div>
-<div class="bg-white p-4 rounded border border-orange-200">
-<strong>🔄</strong> Promotions value psychological integration as much as skill mastery
-</div>
-</div>
-
-<div class="bg-orange-100 p-6 rounded-lg mt-6 border-l-4 border-orange-500 text-center">
-<strong class="text-xl">"Are you becoming more fully yourself?"</strong><br>
-<span class="text-lg">becomes more important than</span><br>
-<strong class="text-xl">"Are you productive?"</strong>
-</div>
-</div>
-
-<div class="bg-gradient-to-r from-pink-50 to-purple-50 border border-pink-200 p-8 rounded-lg">
-<h3 class="text-2xl font-bold text-pink-800 mb-4">4. Social Harmony, Not Hierarchy</h3>
-<p class="text-lg mb-6">The Enneagram helps us understand each other:</p>
-
-<div class="space-y-4">
-<div class="bg-white p-4 rounded border border-pink-200">
-<strong>🤝</strong> Conflict resolution uses **type-awareness**
-</div>
-<div class="bg-white p-4 rounded border border-pink-200">
-<strong>🤝</strong> Civic systems include all nine types to balance human drives
-</div>
-<div class="bg-white p-4 rounded border border-pink-200">
-<strong>🤝</strong> Kids learn **self-regulation through type education**, not diagnoses
+<div style="background: rgba(34, 197, 94, 0.15); padding: 1rem; border-radius: 8px; border-left: 4px solid #22c55e; color: #e2e8f0;">
+<strong style="color: #4ade80;">A Type 6</strong> isn't just in logistics—they're building trust in systems.
 </div>
 </div>
 </div>
 
+<div style="background: linear-gradient(135deg, rgba(249, 115, 22, 0.1) 0%, rgba(234, 179, 8, 0.1) 100%); border: 1px solid rgba(249, 115, 22, 0.3); padding: 2rem; border-radius: 12px;">
+<h3 style="font-size: 1.5rem; font-weight: bold; color: #fb923c; margin-bottom: 1rem;">3. Flexible Role-Shifting Encouraged</h3>
+<p style="font-size: 1.125rem; margin-bottom: 1.5rem; color: #cbd5e1;">To avoid personality-based caste systems:</p>
+
+<div style="display: flex; flex-direction: column; gap: 0.75rem;">
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(249, 115, 22, 0.2); color: #e2e8f0;">
+<strong style="color: #fb923c;">🔄</strong> People are encouraged to **shift jobs** as they grow
+</div>
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(249, 115, 22, 0.2); color: #e2e8f0;">
+<strong style="color: #fb923c;">🔄</strong> Performance reviews include questions like: <em>"Are you integrating your wing? Are you confronting your core fear?"</em>
+</div>
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(249, 115, 22, 0.2); color: #e2e8f0;">
+<strong style="color: #fb923c;">🔄</strong> Promotions value psychological integration as much as skill mastery
+</div>
 </div>
 
-<h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">🧭 Design Principles to Avoid a Caste System</h2>
+<div style="background: rgba(249, 115, 22, 0.15); padding: 1.5rem; border-radius: 8px; margin-top: 1.5rem; border-left: 4px solid #f97316; text-align: center;">
+<strong style="font-size: 1.25rem; color: #f1f5f9;">"Are you becoming more fully yourself?"</strong><br>
+<span style="font-size: 1.125rem; color: #cbd5e1;">becomes more important than</span><br>
+<strong style="font-size: 1.25rem; color: #f1f5f9;">"Are you productive?"</strong>
+</div>
+</div>
 
-<div class="overflow-x-auto my-8">
-<table class="w-full border-collapse bg-white rounded-lg shadow-md overflow-hidden">
+<div style="background: linear-gradient(135deg, rgba(236, 72, 153, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%); border: 1px solid rgba(236, 72, 153, 0.3); padding: 2rem; border-radius: 12px;">
+<h3 style="font-size: 1.5rem; font-weight: bold; color: #f472b6; margin-bottom: 1rem;">4. Social Harmony, Not Hierarchy</h3>
+<p style="font-size: 1.125rem; margin-bottom: 1.5rem; color: #cbd5e1;">The Enneagram helps us understand each other:</p>
+
+<div style="display: flex; flex-direction: column; gap: 0.75rem;">
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(236, 72, 153, 0.2); color: #e2e8f0;">
+<strong style="color: #f472b6;">🤝</strong> Conflict resolution uses **type-awareness**
+</div>
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(236, 72, 153, 0.2); color: #e2e8f0;">
+<strong style="color: #f472b6;">🤝</strong> Civic systems include all nine types to balance human drives
+</div>
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border: 1px solid rgba(236, 72, 153, 0.2); color: #e2e8f0;">
+<strong style="color: #f472b6;">🤝</strong> Kids learn **self-regulation through type education**, not diagnoses
+</div>
+</div>
+</div>
+
+</div>
+
+## Design Principles to Avoid a Caste System
+
+<div style="overflow-x: auto; margin: 2rem 0;">
+<table style="width: 100%; border-collapse: collapse; background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%); border-radius: 12px; overflow: hidden; border: 1px solid rgba(124, 58, 237, 0.2);">
 <thead>
-<tr class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white">
-<th class="p-4 text-left font-semibold">Design Principle</th>
-<th class="p-4 text-left font-semibold">Function</th>
+<tr style="background: linear-gradient(90deg, #6366f1 0%, #a855f7 100%);">
+<th style="padding: 1rem; text-align: left; font-weight: 600; color: white;">Design Principle</th>
+<th style="padding: 1rem; text-align: left; font-weight: 600; color: white;">Function</th>
 </tr>
 </thead>
 <tbody>
-<tr class="border-b border-neutral-200 hover:bg-indigo-50">
-<td class="p-4 font-semibold text-indigo-800">Fluidity</td>
-<td class="p-4">No one is locked into a type. Growth is expected.</td>
+<tr style="border-bottom: 1px solid rgba(100, 116, 139, 0.2);">
+<td style="padding: 1rem; font-weight: 600; color: #818cf8;">Fluidity</td>
+<td style="padding: 1rem; color: #cbd5e1;">No one is locked into a type. Growth is expected.</td>
 </tr>
-<tr class="border-b border-neutral-200 hover:bg-purple-50">
-<td class="p-4 font-semibold text-purple-800">Self-knowledge > External typing</td>
-<td class="p-4">People type themselves via reflection, not tests.</td>
+<tr style="border-bottom: 1px solid rgba(100, 116, 139, 0.2);">
+<td style="padding: 1rem; font-weight: 600; color: #c084fc;">Self-knowledge > External typing</td>
+<td style="padding: 1rem; color: #cbd5e1;">People type themselves via reflection, not tests.</td>
 </tr>
-<tr class="border-b border-neutral-200 hover:bg-blue-50">
-<td class="p-4 font-semibold text-blue-800">Narrative empowerment</td>
-<td class="p-4">Type is a myth you grow through, not a label you wear.</td>
+<tr style="border-bottom: 1px solid rgba(100, 116, 139, 0.2);">
+<td style="padding: 1rem; font-weight: 600; color: #60a5fa;">Narrative empowerment</td>
+<td style="padding: 1rem; color: #cbd5e1;">Type is a myth you grow through, not a label you wear.</td>
 </tr>
-<tr class="border-b border-neutral-200 hover:bg-green-50">
-<td class="p-4 font-semibold text-green-800">Cross-type mentorship</td>
-<td class="p-4">8s teach 9s power. 4s teach 3s authenticity.</td>
+<tr style="border-bottom: 1px solid rgba(100, 116, 139, 0.2);">
+<td style="padding: 1rem; font-weight: 600; color: #4ade80;">Cross-type mentorship</td>
+<td style="padding: 1rem; color: #cbd5e1;">8s teach 9s power. 4s teach 3s authenticity.</td>
 </tr>
-<tr class="hover:bg-orange-50">
-<td class="p-4 font-semibold text-orange-800">Transparency of bias</td>
-<td class="p-4">Institutions are taught not to weaponize typing.</td>
+<tr>
+<td style="padding: 1rem; font-weight: 600; color: #fb923c;">Transparency of bias</td>
+<td style="padding: 1rem; color: #cbd5e1;">Institutions are taught not to weaponize typing.</td>
 </tr>
 </tbody>
 </table>
 </div>
 
-<div class="bg-gradient-to-r from-green-100 to-blue-100 p-6 rounded-lg text-center my-8">
-<p class="text-xl font-semibold text-gray-800">This system works <strong>because people are expected to evolve</strong>, not because they're sorted.</p>
+<div style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%); padding: 1.5rem; border-radius: 12px; text-align: center; margin: 2rem 0; border: 1px solid rgba(34, 197, 94, 0.2);">
+<p style="font-size: 1.25rem; font-weight: 600; color: #e2e8f0; margin: 0;">This system works <strong style="color: #4ade80;">because people are expected to evolve</strong>, not because they're sorted.</p>
 </div>
 
-<h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">🌄 What This Society Feels Like</h2>
+## What This Society Feels Like
 
-<div class="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-lg my-8">
-<p class="text-xl font-semibold text-gray-800 mb-6">Imagine a society that takes the Enneagram seriously—but doesn't get weird about it.</p>
+<div style="background: linear-gradient(135deg, rgba(234, 179, 8, 0.1) 0%, rgba(249, 115, 22, 0.1) 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; border: 1px solid rgba(234, 179, 8, 0.2);">
+<p style="font-size: 1.25rem; font-weight: 600; color: #e2e8f0; margin-bottom: 1.5rem;">Imagine a society that takes the Enneagram seriously—but doesn't get weird about it.</p>
 
-<div class="space-y-6">
-<div class="bg-white p-6 rounded-lg border border-yellow-200 shadow-sm">
-<strong class="text-lg text-yellow-800">🏫 Schools</strong> teach emotional literacy using the Enneagram alongside math and science
+<div style="display: flex; flex-direction: column; gap: 1rem;">
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1.5rem; border-radius: 8px; border: 1px solid rgba(234, 179, 8, 0.2);">
+<strong style="font-size: 1.125rem; color: #fde047;">🏫 Schools</strong> <span style="color: #cbd5e1;">teach emotional literacy using the Enneagram alongside math and science</span>
 </div>
 
-<div class="bg-white p-6 rounded-lg border border-orange-200 shadow-sm">
-<strong class="text-lg text-orange-800">🏙️ Cities</strong> include spaces designed for psychological needs—quiet for 5s, creative chaos for 7s
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1.5rem; border-radius: 8px; border: 1px solid rgba(249, 115, 22, 0.2);">
+<strong style="font-size: 1.125rem; color: #fb923c;">🏙️ Cities</strong> <span style="color: #cbd5e1;">include spaces designed for psychological needs—quiet for 5s, creative chaos for 7s</span>
 </div>
 
-<div class="bg-white p-6 rounded-lg border border-red-200 shadow-sm">
-<strong class="text-lg text-red-800">🏢 Workplaces</strong> look like healing centers, labs, and dojo mashups
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1.5rem; border-radius: 8px; border: 1px solid rgba(239, 68, 68, 0.2);">
+<strong style="font-size: 1.125rem; color: #f87171;">🏢 Workplaces</strong> <span style="color: #cbd5e1;">look like healing centers, labs, and dojo mashups</span>
 </div>
 
-<div class="bg-white p-6 rounded-lg border border-purple-200 shadow-sm">
-<strong class="text-lg text-purple-800">📋 Instead of resumes</strong>, you have an <strong>Enneagram Journey Map</strong>: What you've faced. Where you're headed.
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1.5rem; border-radius: 8px; border: 1px solid rgba(168, 85, 247, 0.2);">
+<strong style="font-size: 1.125rem; color: #c084fc;">📋 Instead of resumes</strong>, <span style="color: #cbd5e1;">you have an <strong style="color: #f1f5f9;">Enneagram Journey Map</strong>: What you've faced. Where you're headed.</span>
 </div>
 </div>
 </div>
 
-<div class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-8 rounded-lg text-center my-12">
-<p class="text-xl font-semibold mb-4">This is a world that says:</p>
-<blockquote class="text-2xl italic">
+<div style="background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); padding: 2rem; border-radius: 12px; text-align: center; margin: 3rem 0;">
+<p style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: white;">This is a world that says:</p>
+<blockquote style="font-size: 1.5rem; font-style: italic; color: white; margin: 0;">
 "We don't hire skills. We hire self-awareness.<br>
 We don't promote power. We promote wholeness."
 </blockquote>
 </div>
 
-<h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">🧬 Enneagram as Social Technology</h2>
+## Enneagram as Social Technology
 
-<div class="bg-blue-50 border-l-4 border-blue-400 p-6 my-8 rounded-lg">
-<strong class="text-lg">If you're a builder, educator, or curious skeptic, here's how you can join:</strong>
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%); border-left: 4px solid #7c3aed; padding: 1.5rem; margin: 2rem 0; border-radius: 8px; border: 1px solid rgba(124, 58, 237, 0.2);">
+<strong style="font-size: 1.125rem; color: #f1f5f9;">If you're a builder, educator, or curious skeptic, here's how you can join:</strong>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-<div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg border border-blue-200">
-<strong class="text-blue-800">💡 Create tools</strong> that help people reflect—not just type
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0;">
+<div style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.15) 100%); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(59, 130, 246, 0.3);">
+<strong style="color: #60a5fa;">💡 Create tools</strong> <span style="color: #cbd5e1;">that help people reflect—not just type</span>
 </div>
 
-<div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg border border-green-200">
-<strong class="text-green-800">🎯 Design content</strong> that speaks to Gen Z's demand for emotional authenticity
+<div style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(34, 197, 94, 0.15) 100%); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(34, 197, 94, 0.3);">
+<strong style="color: #4ade80;">🎯 Design content</strong> <span style="color: #cbd5e1;">that speaks to Gen Z's demand for emotional authenticity</span>
 </div>
 
-<div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg border border-purple-200">
-<strong class="text-purple-800">🎓 Train leaders</strong> in growth-based psychology, not control systems
+<div style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.15) 100%); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(168, 85, 247, 0.3);">
+<strong style="color: #c084fc;">🎓 Train leaders</strong> <span style="color: #cbd5e1;">in growth-based psychology, not control systems</span>
 </div>
 
-<div class="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200">
-<strong class="text-orange-800">🚫 Avoid "typing people"</strong> Focus on narrative. Invite growth.
+<div style="background: linear-gradient(135deg, rgba(249, 115, 22, 0.1) 0%, rgba(249, 115, 22, 0.15) 100%); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(249, 115, 22, 0.3);">
+<strong style="color: #fb923c;">🚫 Avoid "typing people"</strong> <span style="color: #cbd5e1;">Focus on narrative. Invite growth.</span>
 </div>
 
-<div class="bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-lg border border-pink-200 md:col-span-2">
-<strong class="text-pink-800">🏗️ Build systems</strong> that reward **inner work**, not just outer output
+<div style="background: linear-gradient(135deg, rgba(236, 72, 153, 0.1) 0%, rgba(236, 72, 153, 0.15) 100%); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(236, 72, 153, 0.3); grid-column: 1 / -1;">
+<strong style="color: #f472b6;">🏗️ Build systems</strong> <span style="color: #cbd5e1;">that reward <strong style="color: #f1f5f9;">inner work</strong>, not just outer output</span>
 </div>
 </div>
 
-<h2 class="text-3xl font-semibold text-neutral-900 mt-12 mb-6">✨ A Final Picture</h2>
+## A Final Picture
 
-<div class="bg-gradient-to-r from-purple-100 to-pink-100 p-8 rounded-lg my-8 border border-purple-200">
-<blockquote class="text-xl italic text-purple-800 mb-6">
+<div style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(236, 72, 153, 0.1) 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; border: 1px solid rgba(168, 85, 247, 0.3);">
+<blockquote style="font-size: 1.25rem; font-style: italic; color: #c084fc; margin-bottom: 1.5rem;">
 Imagine a 20-year-old who already knows how their Type 4 shaped their heartbreaks, how their growth toward 1 gave them discipline, and how their stress path to 2 makes them over-give in relationships.
 </blockquote>
 
-<div class="space-y-4 text-lg">
-<div class="bg-white p-4 rounded border-l-4 border-purple-500">
+<div style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 1.125rem;">
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border-left: 4px solid #a855f7; color: #e2e8f0;">
 They don't just need a job.
 </div>
-<div class="bg-white p-4 rounded border-l-4 border-purple-500">
-They know <strong>what kind of work heals them.</strong>
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border-left: 4px solid #a855f7; color: #e2e8f0;">
+They know <strong style="color: #f1f5f9;">what kind of work heals them.</strong>
 </div>
-<div class="bg-white p-4 rounded border-l-4 border-purple-500">
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border-left: 4px solid #a855f7; color: #e2e8f0;">
 And so do their friends.
 </div>
-<div class="bg-white p-4 rounded border-l-4 border-purple-500">
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border-left: 4px solid #a855f7; color: #e2e8f0;">
 And their community.
 </div>
-<div class="bg-white p-4 rounded border-l-4 border-purple-500">
+<div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; border-left: 4px solid #a855f7; color: #e2e8f0;">
 And maybe—one day—their whole world.
 </div>
 </div>
 </div>
 
-<div class="bg-yellow-50 border border-yellow-200 border-l-4 border-l-yellow-500 p-6 rounded-lg my-8">
-<p class="text-lg"><strong>Still skeptical?</strong> That's healthy. Read more about [common Enneagram criticisms](/enneagram-corner/enneagram-criticisms) and how we address them.</p>
-<p class="mt-4">The Enneagram isn't perfect. But it <em>is</em> powerful—especially when wielded with curiosity, not control.</p>
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%); border: 1px solid rgba(234, 179, 8, 0.3); border-left: 4px solid #eab308; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
+<p style="font-size: 1.125rem; color: #e2e8f0; margin: 0 0 1rem 0;"><strong style="color: #fde047;">Still skeptical?</strong> That's healthy. Read more about [common Enneagram criticisms](/enneagram-corner/enneagram-criticisms) and how we address them.</p>
+<p style="margin: 0; color: #cbd5e1;">The Enneagram isn't perfect. But it <em>is</em> powerful—especially when wielded with curiosity, not control.</p>
 </div>
 
-<div class="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-lg text-center my-12">
-<h2 class="text-3xl font-bold mb-4">Let's use it not to sort people, but to liberate them.</h2>
-<p class="mt-4">Ready to start? Explore our [Enneagram self-development guide](/enneagram-corner/enneagram-self-development).</p>
+<div style="background: linear-gradient(135deg, #22c55e 0%, #3b82f6 100%); padding: 2rem; border-radius: 12px; text-align: center; margin: 3rem 0;">
+<h2 style="font-size: 1.75rem; font-weight: bold; margin-bottom: 1rem; color: white;">Let's use it not to sort people, but to liberate them.</h2>
+<p style="margin-top: 1rem; color: rgba(255, 255, 255, 0.9);">Ready to start? Explore our [Enneagram self-development guide](/enneagram-corner/enneagram-self-development).</p>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-<div class="bg-blue-50 border border-blue-200 p-6 rounded-lg text-center">
-<h3 class="text-xl font-bold text-blue-800 mb-4">Explore Your Story</h3>
-<p class="mb-4">Join conversations about personality, growth, and transformation with others on the same journey.</p>
-<a href="https://9takes.com/questions" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+<div style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.15) 100%); border: 1px solid rgba(59, 130, 246, 0.3); padding: 1.5rem; border-radius: 12px; text-align: center;">
+<h3 style="font-size: 1.25rem; font-weight: bold; color: #60a5fa; margin-bottom: 1rem;">Explore Your Story</h3>
+<p style="margin-bottom: 1rem; color: #cbd5e1;">Join conversations about personality, growth, and transformation with others on the same journey.</p>
+<a href="https://9takes.com/questions" style="display: inline-block; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 600; text-decoration: none;">
 Join the Discussion →
 </a>
 </div>
 
-<div class="bg-purple-50 border border-purple-200 p-6 rounded-lg text-center">
-<h3 class="text-xl font-bold text-purple-800 mb-4">Start Your Growth Journey</h3>
-<p class="mb-4">Get personalized guidance on using the Enneagram for transformation, not limitation.</p>
-<a href="https://9takes.com/book-session" class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+<div style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.15) 100%); border: 1px solid rgba(168, 85, 247, 0.3); padding: 1.5rem; border-radius: 12px; text-align: center;">
+<h3 style="font-size: 1.25rem; font-weight: bold; color: #c084fc; margin-bottom: 1rem;">Start Your Growth Journey</h3>
+<p style="margin-bottom: 1rem; color: #cbd5e1;">Get personalized guidance on using the Enneagram for transformation, not limitation.</p>
+<a href="https://9takes.com/book-session" style="display: inline-block; background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 600; text-decoration: none;">
 Book a Session →
 </a>
 </div>

@@ -19,15 +19,15 @@ path: src/blog/enneagram/enneagram-dating-guide-for-men.md
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">You've tried everything. Read the dating books. Downloaded the apps. Practiced your "game." Yet something's still off.</p>
+<p class="firstLetter">You've read the dating books. Downloaded the apps. Practiced your "game." Yet something's still not clicking.</p>
 
-Here's what nobody's telling you:
+Here's what most advice misses:
 
 **Your dating struggles aren't random. They're predictable based on your personality type.**
 
 The Enneagram reveals why you sabotage connections in specific ways, what you're actually seeking (versus what you think you want), and how to present your authentic self without the performance.
 
-Not another "be confident" guide. But a psychological roadmap to understanding your core patterns: and leveraging them for genuine connection.
+This isn't another "be confident" guide. It's a psychological roadmap to your core patterns and how to use them for genuine connection.
 
 ## Why Your Enneagram Type Determines Your Dating Success
 
@@ -55,15 +55,13 @@ Not another "be confident" guide. But a psychological roadmap to understanding y
 - You treat dating like a game to win
 - You haven't examined your relationship patterns
 
-The truth? **Women aren't looking for perfection. They're looking for emotional intelligence.**
-
-And emotional intelligence starts with knowing yourself.
+The truth? **Women aren't looking for perfection. They're looking for emotional intelligence.** And emotional intelligence starts with knowing yourself.
 
 ## Quick Type Identifier: Find Your Dating Pattern
 
 **Don't know your type yet? Look for your pattern:**
 
-<div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0;">
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%); padding: 1.25rem 1.5rem; border-radius: 12px; margin: 1.5rem 0; border: 1px solid rgba(124, 58, 237, 0.2); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
 
 **Type 1:** You mentally grade your dates and find flaws immediately  
 **Type 2:** You offer to help with their problems before the appetizers arrive  
@@ -85,7 +83,7 @@ And emotional intelligence starts with knowing yourself.
 
 ### The Hidden Psychology of Type 1 Dating
 
-You learned early that love had conditions. Good behavior earned affection. Mistakes brought withdrawal. Now you date with a checklist, searching for someone who won't disappoint you: or trigger your fear of being "bad."
+You learned early that love had conditions. Good behavior earned affection. Mistakes brought withdrawal. Now you date with a checklist, searching for someone who won't disappoint you or trigger your fear of being "bad."
 
 **The childhood wound:** Love felt conditional on being "good enough."
 
@@ -101,11 +99,11 @@ You learned early that love had conditions. Good behavior earned affection. Mist
 
 ### Your Type 1 Dating Superpower
 
-**Principled authenticity that creates trust.**
+**Principled authenticity that builds trust.**
 
-While others play games, you show up with unwavering integrity. You follow through. You communicate clearly. You treat people with respect even when it's not convenient.
+While others play games, you show up with unwavering integrity. You follow through. You communicate clearly. You treat people with respect even when it's inconvenient.
 
-Women exhausted by mixed signals find your consistency revolutionary.
+Women exhausted by mixed signals find your consistency refreshing.
 
 ### Why Type 1s Struggle with Dating
 
@@ -121,9 +119,9 @@ _"I should have been funnier. Why did I say that?"_
 
 This creates a suffocating dynamic where neither of you can relax into authentic connection.
 
-### The Mindset Shift That Changes Everything
+### The Mindset Shift
 
-**From:** "I need to be perfect to be loved"  
+**From:** "I need to be perfect to be loved"
 **To:** "My imperfections make me human and relatable"
 
 The perfection that protected you in childhood now prevents intimacy. Real connection happens in the flaws, not despite them.
@@ -144,7 +142,7 @@ The perfection that protected you in childhood now prevents intimacy. Real conne
 - "Tell me about a belief you've completely changed your mind on"
 - "What's a mistake that actually improved your life?"
 
-**The move that melts defenses:** Share a spectacular failure and what it taught you. Watch their walls come down as yours do.
+**The move that opens doors:** Share a spectacular failure and what it taught you. Watch their walls come down as yours do.
 
 ### Second Date Evolution for Type 1s
 
@@ -184,7 +182,7 @@ You learned that love was earned through service. Being needed meant being safe.
 
 ### Your Type 2 Dating Superpower
 
-**Emotional intelligence that reads souls.**
+**Emotional intelligence that reads people.**
 
 You pick up on subtle cues others miss. You anticipate needs. You create safety through attentiveness. In a world of emotional unavailability, you're the anomaly everyone craves.
 
@@ -201,7 +199,7 @@ _"I do everything for them. Why can't they see what I need?"_
 
 Because you never told them. You were too busy earning love to risk asking for it.
 
-### The Mindset Shift That Changes Everything
+### The Mindset Shift
 
 **From:** "I need to earn love through giving"  
 **To:** "I deserve love just for existing"
@@ -224,7 +222,7 @@ Your value isn't measured in acts of service. It's inherent. The right person wi
 - "How do you like to receive care from others?"
 - "What's something you need help with?" (Then actually let them help YOU)
 
-**The move that changes the game:** When they offer anything: to pay, to help, to share: accept gracefully. Practice receiving.
+**The move that shifts everything:** When they offer anything, whether to pay, help, or share, accept gracefully. Practice receiving.
 
 ### Second Date Evolution for Type 2s
 
@@ -266,7 +264,7 @@ You learned that love was a reward for achievement. Trophies brought hugs. Succe
 
 **Magnetic competence that inspires.**
 
-You make things happen. You have vision, drive, and the ability to execute. You turn dreams into reality. In a world of talkers, you're a doer who delivers.
+You make things happen. You have vision, drive, and follow-through. You turn dreams into reality. In a world of talkers, you're someone who delivers.
 
 ### Why Type 3s Struggle with Dating
 
@@ -284,7 +282,7 @@ _"I showed her my best self. Why didn't it work?"_
 
 Because your "best self" was a performance, not a person.
 
-### The Mindset Shift That Changes Everything
+### The Mindset Shift
 
 **From:** "I am valuable for what I achieve"  
 **To:** "I am valuable in stillness and vulnerability"
@@ -335,7 +333,7 @@ Choose vulnerable activities:
 
 ### The Hidden Psychology of Type 4 Dating
 
-You learned early that being ordinary meant being invisible. Intensity brought attention. Drama created connection. Now you date seeking a soulmate who'll finally see your depths: while fearing they never will.
+You learned early that being ordinary meant being invisible. Intensity brought attention. Drama created connection. Now you date seeking a soulmate who'll finally see your depths, while fearing they never will.
 
 **The childhood wound:** "I'm too different to be truly understood."
 
@@ -359,13 +357,13 @@ You feel everything. Express authentically. Find meaning in moments others miss.
 
 **Turning life into performance art.**
 
-Every moment needs meaning. Every silence holds significance. You create drama to feel alive, mistaking intensity for intimacy.
+Every moment needs meaning. Every silence holds significance. You manufacture drama to feel alive, mistaking intensity for intimacy.
 
 _"If it's not passionate, is it even real?"_
 
 Yes. The mundane moments are where love actually lives.
 
-### The Mindset Shift That Changes Everything
+### The Mindset Shift
 
 **From:** "I need to be special to be loved"  
 **To:** "My ordinary is already extraordinary"
@@ -428,9 +426,9 @@ You learned that knowledge meant safety. Understanding meant control. Emotions w
 
 ### Your Type 5 Dating Superpower
 
-**Fascinating depth of knowledge.**
+**Fascinating depth of thought.**
 
-You bring unique perspectives. You listen without judgment. You remember details others forget. Your mind is a universe worth exploring.
+You bring unique perspectives. You listen without judgment. You remember details others forget. Your mind is a landscape worth exploring.
 
 ### Why Type 5s Struggle with Dating
 
@@ -442,7 +440,7 @@ _"I understand the concept of love..."_
 
 But understanding and experiencing are different worlds.
 
-### The Mindset Shift That Changes Everything
+### The Mindset Shift
 
 **From:** "I need to understand everything first"  
 **To:** "I can learn through experiencing"
@@ -519,7 +517,7 @@ _"Something feels off..."_
 
 Maybe. Or maybe safety feels foreign.
 
-### The Mindset Shift That Changes Everything
+### The Mindset Shift
 
 **From:** "What if everything goes wrong?"  
 **To:** "What if everything goes right?"
@@ -542,7 +540,7 @@ Trust is a choice, not a guarantee. Choose it anyway.
 - "How do you know when you can trust someone?"
 - "What makes you feel secure in relationships?"
 
-**The move that builds trust:** Admit nervousness, then proceed anyway. Courage is attractive.
+**The move that builds trust:** Admit you're nervous, then proceed anyway. Courage is attractive.
 
 ### Second Date Evolution for Type 6s
 
@@ -582,9 +580,9 @@ You learned that pain could be avoided. Sadness could be outrun. If you kept mov
 
 ### Your Type 7 Dating Superpower
 
-**Infectious enthusiasm that sparks joy.**
+**Infectious energy that sparks possibility.**
 
-You make everything an adventure. Find silver linings. Turn mundane into magical. You're the antidote to cynicism everyone needs.
+You make everything an adventure. Find silver linings. Turn mundane into memorable. You're the antidote to cynicism most people need.
 
 ### Why Type 7s Struggle with Dating
 
@@ -596,7 +594,7 @@ _"Why so serious?"_
 
 Because real life includes serious moments.
 
-### The Mindset Shift That Changes Everything
+### The Mindset Shift
 
 **From:** "I need constant stimulation"  
 **To:** "There's adventure in going deep"
@@ -673,7 +671,7 @@ _"I don't do vulnerable."_
 
 Then you don't do intimacy.
 
-### The Mindset Shift That Changes Everything
+### The Mindset Shift
 
 **From:** "I must never show weakness"  
 **To:** "Vulnerability is the ultimate strength"
@@ -696,7 +694,7 @@ Real power includes the courage to be soft.
 - "When did someone's vulnerability inspire you?"
 - "What makes you feel protected?"
 
-**The move that changes everything:** Admit something you don't know. Ask for their expertise.
+**The move that disarms:** Admit something you don't know. Ask for their expertise.
 
 ### Second Date Evolution for Type 8s
 
@@ -736,9 +734,9 @@ You learned that having needs created conflict. Opinions caused problems. It was
 
 ### Your Type 9 Dating Superpower
 
-**Calming presence that creates peace.**
+**Calming presence that creates safety.**
 
-You see all perspectives. Create safe spaces. Make others feel heard. Your presence is a sanctuary in a chaotic world.
+You see all perspectives. Create space for others. Make people feel heard. Your presence is a refuge in a chaotic world.
 
 ### Why Type 9s Struggle with Dating
 
@@ -750,7 +748,7 @@ _"I'm easygoing!"_
 
 Or you're hiding.
 
-### The Mindset Shift That Changes Everything
+### The Mindset Shift
 
 **From:** "My needs don't matter"  
 **To:** "My voice adds value"
@@ -773,7 +771,7 @@ Harmony includes your melody too.
 - "What boundary changed your life?"
 - "What do you want that you rarely ask for?"
 
-**The move that builds attraction:** Disagree about something small. Maintain warmth through difference.
+**The move that builds attraction:** Disagree about something small. Stay warm while holding your position.
 
 ### Second Date Evolution for Type 9s
 
@@ -791,9 +789,9 @@ Choose self-expression activities:
 
 </section>
 
-## The Universal Truth About Enneagram-Aware Dating
+## What Changes When You Know Your Type
 
-Here's what changes when you understand your type:
+Here's the shift:
 
 **You stop:**
 
@@ -816,21 +814,14 @@ Here's what changes when you understand your type:
 1. **Identify your type** if you haven't already
 2. **Recognize your pattern** in past relationships
 3. **Practice your growth edge** on the next date
-4. **Share this with friends** who keep repeating the same dating mistakes
 
-> **Ready to go deeper?** <a href="/questions">Join thousands exploring their personality patterns →</a>
+> **Ready to go deeper?** <a href="/questions">Join thousands exploring their personality patterns</a>
 
-Remember: **Women aren't looking for a perfect man.**
+Remember: **Women aren't looking for a perfect man.** They're looking for an aware one.
 
-They're looking for an aware one.
+Someone working on growth, not hiding flaws. Someone brave enough to be vulnerable. Someone real enough to be trusted.
 
-Someone working on growth, not hiding flaws.  
-Someone brave enough to be vulnerable.  
-Someone real enough to be trusted.
-
-The Enneagram isn't about fixing you: you're not broken.
-
-It's about understanding your patterns so deeply that you can show up authentically, connect genuinely, and love consciously.
+The Enneagram isn't about fixing you. You're not broken. It's about understanding your patterns so deeply that you can show up authentically, connect genuinely, and love consciously.
 
 **Your move:** Stop trying to be everyone's type. Master being yours.
 
@@ -915,7 +906,4 @@ It's about understanding your patterns so deeply that you can show up authentica
 </svelte:head>
 
 <style lang="scss">
-  .blog-link:after{
-    content: none;
-  }
 </style>
