@@ -1,11 +1,7 @@
 // src/routes/questions/create/+page.server.ts
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
-import {
-	PRIVATE_S3_BUCKET,
-	PRIVATE_S3_ACCESS_KEY_ID,
-	PRIVATE_S3_SECRET_ACCESS_KEY
-} from '$env/static/private';
+import { env } from '$env/dynamic/private';
 import { v4 as uuidv4 } from 'uuid';
 import S3 from 'aws-sdk/clients/s3.js';
 import { logger } from '$lib/utils/logger';
@@ -175,14 +171,14 @@ export const actions: Actions = {
 				}
 
 				const s3 = new S3({
-					accessKeyId: PRIVATE_S3_ACCESS_KEY_ID,
-					secretAccessKey: PRIVATE_S3_SECRET_ACCESS_KEY,
+					accessKeyId: env.PRIVATE_S3_ACCESS_KEY_ID,
+					secretAccessKey: env.PRIVATE_S3_SECRET_ACCESS_KEY,
 					region: 'us-east-1'
 				});
 
 				await s3
 					.putObject({
-						Bucket: PRIVATE_S3_BUCKET as string,
+						Bucket: env.PRIVATE_S3_BUCKET as string,
 						Key,
 						Body: buf,
 						ContentEncoding: 'base64',

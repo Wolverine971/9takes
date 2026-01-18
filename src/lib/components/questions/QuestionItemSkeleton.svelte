@@ -25,8 +25,8 @@
 		gap: 0.5rem;
 		padding: 0.75rem 1rem;
 		margin: 0.25rem 0;
-		background-color: white;
-		border-left: 3px solid var(--skeleton-bg, #e0e0e0);
+		background-color: #1a1a2e;
+		border-left: 3px solid #7c3aed;
 		border-radius: 0.25rem;
 		min-height: 3rem;
 	}

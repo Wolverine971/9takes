@@ -102,15 +102,15 @@
 
 <div class="w-full">
 	<!-- Tabs Navigation -->
-	<nav class="scrollbar-hide flex overflow-x-auto border-b border-neutral-200 bg-white">
+	<nav class="scrollbar-hide flex overflow-x-auto border-b border-slate-700/50 bg-[#12121a]">
 		{#each tabs as tab}
 			<button
 				role="tab"
 				aria-selected={selectedTab === tab}
 				aria-controls={tab}
-				class="relative min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 bg-transparent px-6 py-3.5 text-sm font-medium text-neutral-600 transition-all duration-200 hover:text-neutral-900 sm:px-4 sm:py-3 {selectedTab ===
+				class="relative min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 bg-transparent px-6 py-3.5 text-sm font-medium text-slate-400 transition-all duration-200 hover:text-slate-200 sm:px-4 sm:py-3 {selectedTab ===
 				tab
-					? 'border-b-2 border-primary-600 text-neutral-900'
+					? 'border-b-2 border-purple-500 text-slate-100'
 					: ''}"
 				on:click={() => {
 					selectedTab = tab;
@@ -144,7 +144,7 @@
 	</nav>
 
 	<!-- Tab Content -->
-	<div class="min-h-[400px] bg-white">
+	<div class="min-h-[400px] bg-[#1a1a2e]">
 		{#each tabs as section}
 			{#if selectedTab === section}
 				<section
@@ -158,10 +158,10 @@
 							{#if !data?.flags?.userHasAnswered}
 								<div class="flex flex-col items-center justify-center py-16">
 									<div
-										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-neutral-100"
+										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-900/30"
 									>
 										<svg
-											class="h-8 w-8 text-neutral-600"
+											class="h-8 w-8 text-purple-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -175,14 +175,14 @@
 										</svg>
 									</div>
 									<p
-										class="text-center text-xl font-medium text-neutral-900 sm:text-lg"
+										class="text-center text-xl font-medium text-slate-100 sm:text-lg"
 										in:fade={{ duration: 200 }}
 									>
 										{_data.comment_count === 0
 											? 'Be the first to share your perspective'
 											: 'Share your perspective to unlock comments'}
 									</p>
-									<p class="mt-2 text-sm text-neutral-500">
+									<p class="mt-2 text-sm text-slate-400">
 										{_data.comment_count > 0
 											? `${_data.comment_count} perspectives waiting to be revealed`
 											: 'Your unique viewpoint matters'}
@@ -224,10 +224,10 @@
 							{:else}
 								<div class="flex flex-col items-center justify-center py-16">
 									<div
-										class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-neutral-100"
+										class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-800/50"
 									>
 										<svg
-											class="h-7 w-7 text-neutral-500"
+											class="h-7 w-7 text-slate-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -240,19 +240,17 @@
 											/>
 										</svg>
 									</div>
-									<p class="text-center text-lg font-medium text-neutral-600">
-										No removed comments
-									</p>
+									<p class="text-center text-lg font-medium text-slate-400">No removed comments</p>
 								</div>
 							{/if}
 						{:else if section === 'Visuals'}
 							{#if data?.flags?.userHasAnswered}
 								<div class="flex flex-col items-center justify-center py-16">
 									<div
-										class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-neutral-100"
+										class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-800/50"
 									>
 										<svg
-											class="h-7 w-7 text-neutral-500"
+											class="h-7 w-7 text-slate-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -265,17 +263,15 @@
 											/>
 										</svg>
 									</div>
-									<p class="text-center text-lg font-medium text-neutral-600">
-										No visuals available
-									</p>
+									<p class="text-center text-lg font-medium text-slate-400">No visuals available</p>
 								</div>
 							{:else}
 								<div class="flex flex-col items-center justify-center py-16">
 									<div
-										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-neutral-100"
+										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-900/30"
 									>
 										<svg
-											class="h-8 w-8 text-neutral-600"
+											class="h-8 w-8 text-purple-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -288,7 +284,7 @@
 											/>
 										</svg>
 									</div>
-									<p class="text-center text-xl font-medium text-neutral-900 sm:text-lg">
+									<p class="text-center text-xl font-medium text-slate-100 sm:text-lg">
 										Share your perspective to unlock content
 									</p>
 								</div>

@@ -418,23 +418,50 @@
 {/if}
 
 <style lang="scss">
+	/* Solo Leveling Dark Theme Typography */
 	h1 {
 		font-size: 2.5rem;
-		color: var(--text-color);
+		color: #f1f5f9;
 		margin-bottom: 1rem;
+		font-weight: 700;
 	}
 
 	h2 {
 		font-size: 1.8rem;
-		color: var(--text-color);
-		margin-top: 1.5rem;
+		color: #f1f5f9;
+		margin-top: 2rem;
 		margin-bottom: 1rem;
+		font-weight: 600;
+	}
+
+	p {
+		color: #cbd5e1;
+		line-height: 1.75;
+		margin-bottom: 1rem;
+		font-size: 1.1rem;
+	}
+
+	ul {
+		color: #cbd5e1;
+		margin: 1rem 0;
+		padding-left: 1.5rem;
+	}
+
+	li {
+		margin-bottom: 0.75rem;
+		line-height: 1.6;
+
+		strong {
+			color: #a78bfa;
+			font-weight: 600;
+		}
 	}
 
 	.type-description {
 		font-size: 1.2rem;
 		text-align: center;
 		margin-bottom: 1.5rem;
+		color: #94a3b8;
 	}
 
 	@media (max-width: 768px) {
@@ -444,6 +471,10 @@
 
 		h2 {
 			font-size: 1.5rem;
+		}
+
+		p {
+			font-size: 1rem;
 		}
 
 		.type-description {

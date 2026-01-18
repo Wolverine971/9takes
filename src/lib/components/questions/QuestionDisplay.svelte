@@ -17,15 +17,15 @@
 	// Use shared viewport store
 	$: innerWidth = $viewportWidth;
 
-	// QR Code options
+	// QR Code options - Solo Leveling dark theme
 	const QR_OPTS = {
 		errorCorrectionLevel: 'H',
 		type: 'image/png',
 		quality: 0.7,
 		margin: 1,
 		color: {
-			dark: '#374151', // Darker for better contrast
-			light: '#ffffff' // white
+			dark: '#a78bfa', // Purple-400 for dark theme
+			light: '#12121a' // Void background
 		}
 	};
 
@@ -157,9 +157,11 @@
 	});
 </script>
 
-<div class="relative overflow-hidden rounded-xl border border-neutral-200 bg-white p-8 sm:p-6">
+<div
+	class="relative overflow-hidden rounded-xl border border-slate-700/50 bg-[#1a1a2e] p-8 shadow-[0_0_20px_rgba(124,58,237,0.1)] sm:p-6"
+>
 	<h1
-		class="relative m-0 w-full text-center font-bold leading-snug text-neutral-900"
+		class="relative m-0 w-full text-center font-bold leading-snug text-slate-100"
 		style="font-size: {fontSize};"
 		itemprop="name"
 	>
@@ -172,7 +174,7 @@
 			<img
 				src={qrCodeUrl}
 				alt="Share this question"
-				class="h-20 w-20 rounded-lg border border-neutral-200 bg-white p-2"
+				class="h-20 w-20 rounded-lg border border-slate-600 bg-[#12121a] p-2"
 			/>
 		</div>
 	{/if}

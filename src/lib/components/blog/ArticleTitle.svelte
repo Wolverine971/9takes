@@ -29,6 +29,7 @@
 <style>
 	h1 {
 		text-wrap: balance;
+		color: #f1f5f9;
 	}
 	h2 {
 		margin: 0;
@@ -38,6 +39,15 @@
 		margin: 0;
 		font-size: 1.8rem;
 		font-weight: bolder;
+		color: #f1f5f9;
+	}
+	.heading a {
+		color: #a78bfa;
+		text-decoration: none;
+		transition: color 0.2s ease;
+	}
+	.heading a:hover {
+		color: #c4b5fd;
 	}
 	.large {
 		margin-top: calc(var(--spacing-unit) * 1);

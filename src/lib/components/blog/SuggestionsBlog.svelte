@@ -1,49 +1,64 @@
 <!-- src/lib/components/blog/SuggestionsBlog.svelte -->
 <script lang="ts">
-	export let posts: App.BlogPost[];
-	export let blogType: string;
-	export let slugPrefix: string;
-	let innerWidth: number;
+	export let posts: App.BlogPost[] = [];
+	export let blogType = '';
+	export let slugPrefix = '';
+	let innerWidth = 0;
 
-	$: visiblePosts = posts.slice(0, innerWidth > 920 ? 10 : 6);
+	const normalizeSlugPrefix = (value: string | undefined): string =>
+		value ? value.replace(/^\/+|\/+$/g, '') : '';
+	const buildBlogPath = (prefix: string, slug: string): string =>
+		prefix ? `/${prefix}/${slug}` : `/${slug}`;
+	const buildBlogUrl = (prefix: string, slug: string): string =>
+		`https://9takes.com${buildBlogPath(prefix, slug)}`;
+
+	$: resolvedPosts = Array.isArray(posts) ? posts : [];
+	$: normalizedSlugPrefix = normalizeSlugPrefix(slugPrefix);
+	$: blogTypeLabel = (blogType || '').trim() || 'Blog';
+	$: blogTypeLower = blogTypeLabel.toLowerCase();
+	$: visiblePosts = resolvedPosts.slice(0, innerWidth > 920 ? 10 : 6);
+	$: itemListPosts = resolvedPosts.slice(0, 10);
 
 	// Generate ItemList JSON-LD for related articles
-	$: itemListJsonLd = posts?.length
+	$: itemListJsonLd = resolvedPosts.length
 		? JSON.stringify({
 				'@context': 'https://schema.org',
 				'@type': 'ItemList',
-				name: `More ${blogType} Articles`,
-				description: `Related ${blogType.toLowerCase()} articles and guides`,
-				numberOfItems: posts.length,
-				itemListElement: posts.slice(0, 10).map((post, index) => ({
+				name: `More ${blogTypeLabel} Articles`,
+				description: `Related ${blogTypeLower} articles and guides`,
+				numberOfItems: itemListPosts.length,
+				itemListElement: itemListPosts.map((post, index) => ({
 					'@type': 'ListItem',
 					position: index + 1,
 					item: {
 						'@type': 'Article',
 						name: post.title,
 						description: post.description,
-						url: `https://9takes.com/${slugPrefix}/${post.slug}`
+						url: buildBlogUrl(normalizedSlugPrefix, post.slug)
 					}
 				}))
 			})
 		: '';
+	$: safeItemListJsonLd = itemListJsonLd
+		? itemListJsonLd.replace(/<\/script>/gi, '<\\/script>')
+		: '';
 </script>
 
 <svelte:head>
-	{#if itemListJsonLd}
-		{@html `<script type="application/ld+json">${itemListJsonLd}</script>`}
+	{#if safeItemListJsonLd}
+		{@html `<script type="application/ld+json">${safeItemListJsonLd}</script>`}
 	{/if}
 </svelte:head>
 
 <svelte:window bind:innerWidth />
 
 <section class="blog-suggestions" aria-labelledby="suggestions-title">
-	<h2 id="suggestions-title" class="suggestions-title">More {blogType} Articles</h2>
+	<h2 id="suggestions-title" class="suggestions-title">More {blogTypeLabel} Articles</h2>
 	<ul class="blog-grid-container">
 		{#each visiblePosts as blog (blog.slug)}
 			<li class="grid-item">
 				<a
-					href="/{slugPrefix}/{blog.slug}"
+					href={buildBlogPath(normalizedSlugPrefix, blog.slug)}
 					class="blog-link"
 					style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
 					data-sveltekit-preload-data="tap"
@@ -70,7 +85,7 @@
 		text-align: center;
 		font-size: 1.5rem;
 		margin-bottom: 1rem;
-		color: var(--text-color);
+		color: #f1f5f9;
 	}
 
 	.blog-grid-container {
@@ -90,50 +105,51 @@
 		display: block;
 		height: 100%;
 		min-height: 200px;
-		background-color: var(--card-bg-color, rgba(255, 255, 255, 0.5));
+		background-color: #1a1a2e;
 		background-size: cover;
 		background-position: center;
-		border: var(--classic-border);
-		border-radius: var(--base-border-radius);
+		border: 1px solid rgba(100, 116, 139, 0.3);
+		border-radius: 12px;
 		overflow: hidden;
 		text-decoration: none;
 		transition: all 0.3s ease;
 
 		&:hover,
 		&:focus {
-			filter: sepia(100%) hue-rotate(160deg);
-			border-color: var(--primary) !important;
+			border-color: #7c3aed;
+			box-shadow: 0 0 25px rgba(124, 58, 237, 0.3);
 			outline: none;
+			transform: translateY(-3px);
 		}
 	}
 
 	.blog-content {
 		height: 100%;
 		padding: 1rem;
-		background-color: rgba(255, 255, 255, 0.8);
+		background-color: rgba(10, 10, 15, 0.85);
 		transition: background-color 0.3s ease;
 
 		&.has-image {
-			background-color: rgba(0, 0, 0, 0.6);
+			background-color: rgba(10, 10, 15, 0.75);
 		}
 	}
 
 	.blog-title {
 		font-size: 1.2rem;
 		margin-bottom: 0.5rem;
-		color: var(--text-color);
+		color: #f1f5f9;
 
 		.has-image & {
-			color: white;
+			color: #f1f5f9;
 		}
 	}
 
 	.blog-description {
 		font-size: 0.9rem;
-		color: var(--text-color);
+		color: #94a3b8;
 
 		.has-image & {
-			color: white;
+			color: #cbd5e1;
 		}
 	}
 

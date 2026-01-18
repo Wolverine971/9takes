@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['musician', 'entrepreneur', 'cultural icon']
 person: 'Taylor-Swift'
+persona_title: "Pop's Heartbreak Alchemist"
 suggestions: ['Blake Lively', 'Ariana Grande', 'Kanye', 'Lady Gaga', 'Billie Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Swift'
 twitter: 'taylorswift13'

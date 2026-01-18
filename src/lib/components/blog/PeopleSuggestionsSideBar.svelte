@@ -110,18 +110,18 @@
 
 <style lang="scss">
 	.sidebar {
-		/* Card base styles - match TableOfContents */
-		background-color: var(--card-background);
-		border-radius: var(--border-radius-lg);
-		box-shadow: var(--shadow-sm);
-		border: 1px solid var(--border-color);
+		/* Card base styles - Solo Leveling dark theme */
+		background-color: #12121a;
+		border-radius: 12px;
+		box-shadow: 0 0 20px rgba(124, 58, 237, 0.15);
+		border: 1px solid rgba(100, 116, 139, 0.3);
 
 		position: fixed;
 		top: 50%;
 		transform: translateY(-50%);
 		width: 200px;
-		font-size: var(--font-size-sm);
-		line-height: var(--line-height-tight);
+		font-size: 0.875rem;
+		line-height: 1.4;
 		max-width: 200px;
 		z-index: 50;
 		max-height: 70vh;
@@ -141,11 +141,11 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background-color: rgba(0, 0, 0, 0.2);
+			background-color: rgba(124, 58, 237, 0.3);
 			border-radius: 3px;
 
 			&:hover {
-				background-color: rgba(0, 0, 0, 0.3);
+				background-color: rgba(124, 58, 237, 0.5);
 			}
 		}
 	}
@@ -158,10 +158,10 @@
 	.sidebar-title {
 		margin: 0 0 0.5rem 0;
 		padding: 0 0 0.35rem 0;
-		font-size: var(--font-size-base);
-		font-weight: var(--font-weight-semibold);
-		color: var(--text-primary);
-		border-bottom: 1px solid var(--border-color);
+		font-size: 1rem;
+		font-weight: 600;
+		color: #f1f5f9;
+		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
 	}
 
 	.sidebar-list {
@@ -193,16 +193,17 @@
 		text-overflow: ellipsis;
 		padding: 0.2rem 0.4rem;
 		box-sizing: border-box;
-		font-size: var(--font-size-sm);
-		line-height: var(--line-height-tight);
-		color: var(--primary);
+		font-size: 0.875rem;
+		line-height: 1.4;
+		color: #a78bfa;
 		text-decoration: none;
-		border-radius: var(--border-radius-sm);
-		transition: var(--transition-base);
+		border-radius: 4px;
+		transition: all 0.2s ease;
+		text-transform: capitalize;
 
 		&:hover {
-			color: var(--primary-dark);
-			background-color: var(--accent-light);
+			color: #c4b5fd;
+			background-color: rgba(124, 58, 237, 0.15);
 			text-decoration: none;
 		}
 

@@ -1,10 +1,10 @@
 ---
-title: "Your Attachment Style Isn't the Whole Story (How Enneagram Explains the Rest)"
-description: "You know you're anxiously attached—but why do you seek reassurance differently than others? Your Enneagram type reveals the 'why' behind your attachment patterns and how to actually heal them."
+title: 'Attachment Styles and Enneagram Types: Why the Same Style Looks Different'
+description: 'Discover how Enneagram types shape attachment styles. Learn why two anxiously attached people act differently and get type-specific strategies for earning secure attachment.'
 author: 'DJ Wayne'
 date: '2025-08-29'
 loc: 'https://9takes.com/enneagram-corner/attachment-styles-and-enneagram-types'
-lastmod: '2025-12-03'
+lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
@@ -30,8 +30,10 @@ Keyword Strategy:
 -->
 
 <QuickAnswer question="How does Enneagram relate to attachment styles?">
-Attachment style tells you WHAT your relationship pattern is (anxious, avoidant, secure, disorganized). Enneagram tells you WHY. Two anxiously attached people behave completely differently: a Type 2 seeks reassurance by over-giving until you need them, while a Type 6 tests loyalty constantly. Understanding both gives you a roadmap for healing—not just awareness of the problem.
+Attachment style tells you what relationship pattern you default to (anxious, avoidant, secure, disorganized). The Enneagram tells you why you run that pattern your way. Two anxiously attached people can look nothing alike: a Type 2 seeks reassurance by over-giving until you feel needed, while a Type 6 seeks it through constant loyalty tests. Together, they point to a specific way to heal, not just a label.
 </QuickAnswer>
+
+**Read time**: 20 minutes | **Key insight**: Attachment explains the pattern, Enneagram explains the motive
 
 | Attachment Style | Common Enneagram Types | Core Pattern                           |
 | ---------------- | ---------------------- | -------------------------------------- |
@@ -40,19 +42,25 @@ Attachment style tells you WHAT your relationship pattern is (anxious, avoidant,
 | **Secure**       | Any type (healthy)     | Core fears don't control relationships |
 | **Disorganized** | Types 4, 6, 9          | Push-pull from conflicting fears       |
 
-<p class="firstLetter">You know your attachment style. Anxious, avoidant, secure, disorganized. You've read the articles. You've nodded at the descriptions. You've thought: "That's me."</p>
+<p class="firstLetter">You know your attachment style: anxious, avoidant, secure, disorganized. You've read the articles. You've nodded at the descriptions. You've thought, "That's me."</p>
 
-But here's the problem: so did a million other people with completely different relationship patterns.
+So do millions of other people with completely different relationship patterns.
 
-Two anxiously attached people can look nothing alike. One smothers. One tests. One gives until they collapse. One questions until they push people away. Same attachment style. Totally different behaviors.
+Two anxiously attached people can look nothing alike. One smothers. One tests. One gives until they collapse. One interrogates until they push people away. Same attachment style. Totally different behaviors.
 
-**Attachment theory tells you WHAT your pattern is. The Enneagram tells you WHY you do it that way.**
+**Attachment theory tells you WHAT your pattern is. The Enneagram tells you WHY you run it that way.**
 
-Understanding this connection transforms how you approach dating. Discover how [your personality type creates specific dating dynamics](/how-to-guides/dating-dynamics-by-enneagram-type) and learn to recognize attachment patterns before they sabotage your relationships.
+In this guide, you'll learn:
+
+- How each Enneagram type tends to attach (and why it's not destiny)
+- What flips your system into defense
+- A type-specific practice that moves you toward earned secure attachment
+
+If you're dating, start here: [your personality type creates specific dating dynamics](/how-to-guides/dating-dynamics-by-enneagram-type).
 
 ## The Missing Piece: What Is the Enneagram?
 
-The Enneagram is a model of nine interconnected personality types, each driven by a core fear and core desire. Unlike surface-level personality tests, it maps the unconscious motivations that shape every decision you make—including how you love.
+The Enneagram is a model of nine interconnected personality types, each driven by a core fear and core desire. Unlike surface-level personality tests, it maps the unconscious motivations that shape every decision you make, including how you love.
 
 Think of it this way:
 
@@ -61,7 +69,7 @@ Think of it this way:
 
 When you combine them, you get something powerful: a complete map of why you love the way you do.
 
-> **Your attachment style is your personality's survival strategy for managing the terror of abandonment.**
+> **Your attachment style is your personality's survival strategy for managing the fear of abandonment.**
 
 For example:
 
@@ -69,7 +77,9 @@ For example:
 
 - Two people can both be avoidant, but a <a href="/blog/enneagram/enneagram-type-5">Type 5 (The Investigator)</a> creates distance to preserve emotional resources, while a <a href="/blog/enneagram/enneagram-type-8">Type 8 (The Challenger)</a> does it to avoid the vulnerability that once got them hurt.
 
-This isn't theoretical—this is practical psychology that can transform your relationships. Once you understand both your attachment style AND your Enneagram type, you get a personalized roadmap for earning secure attachment. For more on how types interact in relationships, explore our guide to [Enneagram types in relationships](/enneagram-corner/enneagram-types-in-relationships).
+This isn't theoretical. It's practical psychology that can change how you date, fight, and repair.
+
+Once you understand both your attachment style and your Enneagram type, you get a personalized plan for earning secure attachment. For more on how types show up in relationships, explore [Enneagram types in relationships](/enneagram-corner/enneagram-types-in-relationships).
 
 ## What Are Attachment Styles Really?
 
@@ -93,7 +103,7 @@ Attachment theory, developed by John Bowlby and Mary Ainsworth, reveals four pri
 - Craves closeness but fears abandonment
 - Needs constant reassurance
 - Highly sensitive to partner's moods
-- Tends to protest behavior when triggered
+- Uses protest behaviors when triggered
 
 **3. Avoidant Attachment (15% of population)**
 
@@ -142,30 +152,30 @@ Now let's decode how each type's core psychology creates their unique attachment
 **Most Common Attachment Styles:** Anxious-Avoidant Mix (Earned Secure possible)
 **Core Attachment Wound:** "Love is conditional on being good enough"
 
-### How Type 1s Attach:
+### How Type 1s Attach
 
-Type 1s learned early that **love comes with conditions**—be good, be right, be perfect. This creates a unique attachment paradox:
+Type 1s learned early that **love comes with conditions**: be good, be right, be perfect. This creates a unique attachment paradox:
 
 - **Anxiously** seeking approval that they're "good enough" for love
 - **Avoidantly** pulling back when they feel imperfect or criticized
 - Creating rigid relationship rules to feel secure
 - Testing partners through impossible standards
 
-### Type 1 Attachment Triggers:
+### Type 1 Attachment Triggers
 
 🔴 **Criticism** sends them into anxious spirals ("I'm not good enough")
 🔴 **Their own mistakes** trigger avoidant shame ("I don't deserve love")
 🔴 **Partner's imperfections** activate their control patterns
 🔴 **Emotional chaos** makes them shut down completely
 
-### How Type 1s Heal Their Attachment:
+### How Type 1s Heal Their Attachment
 
 ✅ **Practice self-compassion:** "I am worthy of love even when imperfect"
 ✅ **Accept good-enough love:** Not every gesture needs to be perfect
 ✅ **Share shame stories:** Vulnerability about mistakes builds intimacy
 ✅ **Separate love from performance:** You're loved for who you are, not what you do
 
-### Type 1 Attachment Compatibility:
+### Type 1 Attachment Compatibility
 
 **Secure Partners Help By:**
 
@@ -183,37 +193,37 @@ Type 1s learned early that **love comes with conditions**—be good, be right, b
 **Most Common Attachment Style:** Anxious (sometimes Anxious-Disorganized)
 **Core Attachment Wound:** "I'm only loved for what I give"
 
-### How Type 2s Attach:
+### How Type 2s Attach
 
-Type 2s are the **poster children for anxious attachment**, but with a unique twist:
+Type 2s often show up as anxious attachment, but with a unique twist:
 
 - Merging with partners' needs to ensure indispensability
 - Reading micro-expressions obsessively for rejection signs
 - Over-giving to create obligation-based security
 - Protest behaviors disguised as "helping more"
 
-### Type 2 Attachment Patterns:
+### Type 2 Attachment Patterns
 
 - **Love addiction:** Can't tolerate being alone
 - **Emotional fusion:** Lose themselves in relationships
 - **Covert contracts:** "I'll give everything if you never leave"
 - **Manipulation through service:** Using help to control
 
-### Type 2 Attachment Triggers:
+### Type 2 Attachment Triggers
 
 🔴 **Independence** from partner feels like rejection
 🔴 **Not being needed** activates abandonment panic
 🔴 **Boundaries** feel like personal attacks
 🔴 **Partner self-sufficiency** threatens their identity
 
-### How Type 2s Earn Secure Attachment:
+### How Type 2s Earn Secure Attachment
 
-✅ **Develop self-worth beyond giving:** "I am valuable just existing"
+✅ **Develop self-worth beyond giving:** "I matter even when I'm not giving"
 ✅ **Practice receiving:** Let others give without immediately reciprocating
-✅ **Honor your own needs:** State what YOU want directly
+✅ **Honor your own needs:** State what you want directly
 ✅ **Tolerate relationship space:** Time apart isn't abandonment
 
-### Type 2 Attachment Compatibility:
+### Type 2 Attachment Compatibility
 
 **Secure Partners Help By:**
 
@@ -228,10 +238,10 @@ Type 2s are the **poster children for anxious attachment**, but with a unique tw
 
 ## Type 3: The Achiever's Performance-Based Attachment
 
-**Most Common Attachment Style:** Avoidant (Earned Secure through success)
+**Most Common Attachment Style:** Avoidant (earned secure possible)
 **Core Attachment Wound:** "I'm loved for my achievements, not myself"
 
-### How Type 3s Attach:
+### How Type 3s Attach
 
 Type 3s create **attachment through achievement**, leading to:
 
@@ -240,28 +250,28 @@ Type 3s create **attachment through achievement**, leading to:
 - Avoiding vulnerability by staying busy
 - Confusing admiration with genuine connection
 
-### Type 3 Attachment Patterns:
+### Type 3 Attachment Patterns
 
 - **Trophy relationships:** Partners as status symbols
 - **Emotional efficiency:** Avoiding "unproductive" feelings
 - **Success addiction:** Using achievements to avoid intimacy
 - **Shapeshifting:** Becoming who they think partners want
 
-### Type 3 Attachment Triggers:
+### Type 3 Attachment Triggers
 
 🔴 **Failure** makes them feel unlovable
 🔴 **Vulnerability** feels like weakness
 🔴 **Partner's success** triggers competitive comparison
 🔴 **Emotional needs** seem inefficient
 
-### How Type 3s Develop Secure Attachment:
+### How Type 3s Develop Secure Attachment
 
 ✅ **Share failures and fears:** Vulnerability is the ultimate achievement
 ✅ **Slow down for connection:** Success without love is empty
 ✅ **Reveal your true self:** Drop the image with trusted partners
-✅ **Value being over doing:** You're loved for who you are
+✅ **Prioritize being over doing:** You're loved for who you are
 
-### Type 3 Attachment Compatibility:
+### Type 3 Attachment Compatibility
 
 **Secure Partners Help By:**
 
@@ -272,14 +282,14 @@ Type 3s create **attachment through achievement**, leading to:
 **Triggered By:**
 
 - Anxious partners who need emotional availability
-- Other achievers (competition kills intimacy)
+- Other achievers (competition can kill intimacy)
 
 ## Type 4: The Individualist's Push-Pull Attachment
 
 **Most Common Attachment Style:** Anxious or Disorganized
 **Core Attachment Wound:** "I'm too much or not enough for love"
 
-### How Type 4s Attach:
+### How Type 4s Attach
 
 Type 4s experience **attachment as identity**, creating:
 
@@ -288,28 +298,28 @@ Type 4s experience **attachment as identity**, creating:
 - Devaluing available love
 - Creating drama to feel special
 
-### Type 4 Attachment Patterns:
+### Type 4 Attachment Patterns
 
 - **Emotional intensity addiction:** Confusing drama with love
 - **Abandonment rehearsal:** Pushing partners away to control rejection
 - **Fantasy relationships:** Preferring longing over having
 - **Identity fusion:** Losing themselves in relationships
 
-### Type 4 Attachment Triggers:
+### Type 4 Attachment Triggers
 
 🔴 **Feeling ordinary** in relationships
 🔴 **Partner happiness** when they're sad (feels like abandonment)
 🔴 **Emotional unavailability** (paradoxically attractive)
 🔴 **Too much stability** (feels like death)
 
-### How Type 4s Heal Attachment Wounds:
+### How Type 4s Heal Attachment Wounds
 
 ✅ **Choose available partners:** Stop romanticizing distance
 ✅ **Tolerate ordinary moments:** Deep love includes boring Tuesday nights
-✅ **Separate feelings from facts:** Emotions aren't always truth
-✅ **Maintain identity in connection:** You can be special AND connected
+✅ **Separate feelings from facts:** Emotions aren't always facts
+✅ **Maintain identity in connection:** You can be unique and connected
 
-### Type 4 Attachment Compatibility:
+### Type 4 Attachment Compatibility
 
 **Secure Partners Help By:**
 
@@ -327,7 +337,7 @@ Type 4s experience **attachment as identity**, creating:
 **Most Common Attachment Style:** Avoidant (sometimes Dismissive-Avoidant)
 **Core Attachment Wound:** "Relationships deplete my resources"
 
-### How Type 5s Attach:
+### How Type 5s Attach
 
 Type 5s create **attachment through compartmentalization**:
 
@@ -336,28 +346,28 @@ Type 5s create **attachment through compartmentalization**:
 - Creating elaborate boundaries
 - Observing relationships rather than participating
 
-### Type 5 Attachment Patterns:
+### Type 5 Attachment Patterns
 
 - **Emotional minimalism:** Rationing feelings like scarce resources
 - **Parallel play relationships:** Together but separate
 - **Information hoarding:** Not sharing inner world
 - **Preemptive detachment:** Leaving before being left
 
-### Type 5 Attachment Triggers:
+### Type 5 Attachment Triggers
 
 🔴 **Emotional demands** feel like invasion
 🔴 **Unexpected needs** drain reserves
 🔴 **Social obligations** create resentment
 🔴 **Intrusion** activates withdrawal
 
-### How Type 5s Build Secure Attachment:
+### How Type 5s Build Secure Attachment
 
 ✅ **Share your inner world:** Information isn't scarce
 ✅ **Schedule connection:** Planned intimacy feels safer
 ✅ **Express needs directly:** Don't expect mind-reading
 ✅ **Expand comfort zone gradually:** Small steps toward openness
 
-### Type 5 Attachment Compatibility:
+### Type 5 Attachment Compatibility
 
 **Secure Partners Help By:**
 
@@ -375,7 +385,7 @@ Type 5s create **attachment through compartmentalization**:
 **Most Common Attachment Style:** Anxious (sometimes Disorganized)
 **Core Attachment Wound:** "I can't trust love to be safe"
 
-### How Type 6s Attach:
+### How Type 6s Attach
 
 Type 6s experience **attachment as a threat assessment**:
 
@@ -384,28 +394,28 @@ Type 6s experience **attachment as a threat assessment**:
 - Seeking reassurance that becomes addictive
 - Alternating between clinging and suspicion
 
-### Type 6 Attachment Patterns:
+### Type 6 Attachment Patterns
 
 - **Loyalty testing:** Creating scenarios to prove devotion
 - **Worst-case planning:** Imagining every abandonment
 - **Authority projection:** Making partners the expert/enemy
 - **Counterphobic intimacy:** Getting close to conquer fear
 
-### Type 6 Attachment Triggers:
+### Type 6 Attachment Triggers
 
 🔴 **Inconsistency** activates alarm systems
 🔴 **Ambiguity** creates anxiety spirals
 🔴 **Changes** feel like threats
 🔴 **Too much independence** seems like abandonment
 
-### How Type 6s Develop Security:
+### How Type 6s Develop Security
 
 ✅ **Trust your own judgment:** Stop outsourcing authority
 ✅ **Challenge catastrophic thoughts:** Most fears won't happen
 ✅ **Build internal security:** Safety comes from within
 ✅ **Communicate fears directly:** Partners aren't mind readers
 
-### Type 6 Attachment Compatibility:
+### Type 6 Attachment Compatibility
 
 **Secure Partners Help By:**
 
@@ -423,7 +433,7 @@ Type 6s experience **attachment as a threat assessment**:
 **Most Common Attachment Style:** Avoidant (Anxious-Avoidant when trapped)
 **Core Attachment Wound:** "Commitment means missing out on life"
 
-### How Type 7s Attach:
+### How Type 7s Attach
 
 Type 7s use **positive excitement to avoid attachment depth**:
 
@@ -432,28 +442,28 @@ Type 7s use **positive excitement to avoid attachment depth**:
 - Reframing problems as adventures
 - Escaping when things get heavy
 
-### Type 7 Attachment Patterns:
+### Type 7 Attachment Patterns
 
 - **FOMO in relationships:** Always wondering what's better
 - **Emotional bypassing:** Skipping over difficult feelings
 - **Future focus:** Planning next adventure to avoid present
 - **Commitment phobia:** Equating commitment with limitation
 
-### Type 7 Attachment Triggers:
+### Type 7 Attachment Triggers
 
 🔴 **Emotional heaviness** feels like quicksand
 🔴 **Routine** triggers escape fantasies
 🔴 **Partner's pain** they can't fix
 🔴 **Limitation** of any kind
 
-### How Type 7s Build Depth:
+### How Type 7s Build Depth
 
 ✅ **Stay with difficult emotions:** Pain won't kill you
 ✅ **Choose depth over breadth:** One deep connection beats ten shallow ones
-✅ **Reframe commitment:** It's freedom to go deeper, not prison
-✅ **Process don't bypass:** Feel feelings fully before moving on
+✅ **Reframe commitment:** It's depth with one person, not a smaller life
+✅ **Process, don't bypass:** Feel feelings fully before moving on
 
-### Type 7 Attachment Compatibility:
+### Type 7 Attachment Compatibility
 
 **Secure Partners Help By:**
 
@@ -471,7 +481,7 @@ Type 7s use **positive excitement to avoid attachment depth**:
 **Most Common Attachment Style:** Avoidant (Disorganized if betrayed early)
 **Core Attachment Wound:** "Vulnerability is dangerous; love is power struggle"
 
-### How Type 8s Attach:
+### How Type 8s Attach
 
 Type 8s create **attachment through control and testing**:
 
@@ -480,28 +490,28 @@ Type 8s create **attachment through control and testing**:
 - All-or-nothing loyalty demands
 - Protecting others instead of connecting
 
-### Type 8 Attachment Patterns:
+### Type 8 Attachment Patterns
 
 - **Vulnerability allergies:** Tenderness feels like weakness
 - **Control through protection:** "I'll keep you safe" (but not close)
 - **Intensity addiction:** Confusing fighting with passion
 - **Trust tests:** Pushing boundaries to test loyalty
 
-### Type 8 Attachment Triggers:
+### Type 8 Attachment Triggers
 
 🔴 **Betrayal** (real or perceived) activates rage
 🔴 **Vulnerability** feels like death
 🔴 **Being controlled** triggers rebellion
 🔴 **Weakness** in self or others
 
-### How Type 8s Soften Into Love:
+### How Type 8s Soften Into Love
 
 ✅ **Show your belly:** Vulnerability is ultimate strength
 ✅ **Share power:** Love isn't a competition
 ✅ **Express tenderness:** Your soft side is beautiful
 ✅ **Trust incrementally:** Not everyone will betray you
 
-### Type 8 Attachment Compatibility:
+### Type 8 Attachment Compatibility
 
 **Secure Partners Help By:**
 
@@ -519,7 +529,7 @@ Type 8s create **attachment through control and testing**:
 **Most Common Attachment Style:** Avoidant (Anxious-Avoidant merge)
 **Core Attachment Wound:** "My needs don't matter; conflict means abandonment"
 
-### How Type 9s Attach:
+### How Type 9s Attach
 
 Type 9s create **attachment through self-erasure**:
 
@@ -528,28 +538,28 @@ Type 9s create **attachment through self-erasure**:
 - Going along to get along
 - Disappearing into relationships
 
-### Type 9 Attachment Patterns:
+### Type 9 Attachment Patterns
 
 - **Passive aggression:** Unexpressed needs leak out sideways
 - **Stubborn compliance:** Agreeing while internally resisting
 - **Emotional numbing:** Checking out to avoid conflict
 - **Identity loss:** Forgetting who they are
 
-### Type 9 Attachment Triggers:
+### Type 9 Attachment Triggers
 
 🔴 **Conflict** feels like relationship death
 🔴 **Having to choose** (might upset someone)
 🔴 **Partner anger** triggers freeze response
 🔴 **Their own anger** (deeply suppressed)
 
-### How Type 9s Claim Their Space:
+### How Type 9s Claim Their Space
 
 ✅ **State preferences:** Your needs matter too
 ✅ **Engage conflict:** Disagreement isn't abandonment
 ✅ **Feel your anger:** It shows you what matters
 ✅ **Maintain identity:** Don't lose yourself in merge
 
-### Type 9 Attachment Compatibility:
+### Type 9 Attachment Compatibility
 
 **Secure Partners Help By:**
 
@@ -596,8 +606,8 @@ Type 9s create **attachment through self-erasure**:
 
 **Type 2 Anxious Attachment:**
 
-- Stop emotional merged state
-- Develop interests outside relationship
+- Stop merging emotionally
+- Develop interests outside the relationship
 - Practice being alone without helping anyone
 - Challenge: Go 24 hours without offering help
 
@@ -611,7 +621,7 @@ Type 9s create **attachment through self-erasure**:
 **Type 6 Anxious Attachment:**
 
 - Stop catastrophizing scenarios
-- Trust your own judgment over partner's
+- Trust your own judgment over your partner's
 - Build internal sense of safety
 - Challenge: Don't seek reassurance for 24 hours
 
@@ -633,14 +643,14 @@ Type 9s create **attachment through self-erasure**:
 
 **Type 5 Avoidant Attachment:**
 
-- Share thoughts before fully formed
+- Share thoughts before they're fully formed
 - Express emotions in real-time
 - Let partner into your inner world
 - Challenge: Share three feelings daily
 
 **Type 7 Avoidant Attachment:**
 
-- Stay present with partner's pain
+- Stay present with your partner's pain
 - Choose depth over novelty
 - Complete emotional cycles
 - Challenge: Have one deep conversation daily
@@ -650,14 +660,14 @@ Type 9s create **attachment through self-erasure**:
 - Express needs without demands
 - Show emotional vulnerability
 - Let partner see your fears
-- Challenge: Ask for comfort when hurt
+- Challenge: Ask for comfort when you're hurt
 
 **Type 9 Avoidant Attachment:**
 
 - Express disagreements directly
 - Share your actual preferences
 - Stay present during conflict
-- Challenge: Disagree with something daily
+- Challenge: Disagree once a day, even on small things
 
 ## Attachment Style Compatibility Guide
 
@@ -669,11 +679,13 @@ Type 9s create **attachment through self-erasure**:
 
 **Avoidant + Avoidant:** Comfortable but disconnected
 
-**Anxious + Avoidant:** Classic toxic dance (requires work)
+**Anxious + Avoidant:** Classic anxious-avoidant dance (high-friction, workable with effort)
 
-**Disorganized + Any:** Needs individual healing first
+**Disorganized + Any:** Prioritize individual healing first
 
 ### The Enneagram Attachment Compatibility Matrix
+
+These are tendencies, not rules. Health level matters more than type.
 
 **Most Natural Matches:**
 
@@ -784,13 +796,13 @@ Research shows **you can change your attachment style** through:
 
 ## Resources for Deeper Work
 
-### Books for Attachment Healing:
+### Books for Attachment Healing
 
 - "Attached" by Amir Levine (attachment basics)
 - "Hold Me Tight" by Sue Johnson (couples work)
 - "The Body Keeps Score" by Bessel van der Kolk (trauma)
 
-### Therapeutic Approaches:
+### Therapeutic Approaches
 
 - EFT (Emotionally Focused Therapy) for couples
 - EMDR for trauma-based attachment wounds
@@ -798,18 +810,18 @@ Research shows **you can change your attachment style** through:
 
 ## The Bottom Line: Love Is Learnable
 
-Your attachment style isn't a life sentence. Your Enneagram type isn't a prison. They're simply patterns that developed to protect you—patterns that can be changed with awareness, practice, and safe relationships.
+Your attachment style isn't a verdict. Your Enneagram type isn't a box. They're protective patterns you learned early, and you can update them with awareness, practice, and safe relationships.
 
-**Every single type can earn secure attachment.**
+**Every type can earn secure attachment.**
 
-It doesn't matter if you're an anxiously attached Type 2 who suffocates partners with help, or an avoidantly attached Type 5 who treats intimacy like a resource drain. With the right understanding and practice, you can rewire your nervous system for secure love.
+Whether you're a Type 2 who over-gives to keep people close or a Type 5 who disappears when intimacy ramps up, the move is the same: name the fear, notice the trigger, practice the secure behavior.
 
-The journey from wounded attachment to earned security isn't easy. But it's possible. And your Enneagram type is actually your secret weapon—because once you understand WHY you attach the way you do, you can finally change HOW you love. Understanding your [love language by Enneagram type](/enneagram-corner/love-languages-and-enneagram-types) can further deepen this transformation.
+It won't be instant, but it's trainable. If you want a second lens on how you show love, read our guide to [love language by Enneagram type](/enneagram-corner/love-languages-and-enneagram-types).
 
 ## FAQs About Attachment Styles and Enneagram
 
 **Can my Enneagram type have different attachment styles?**
-Yes! While certain types lean toward specific attachment styles, your childhood experiences ultimately determine your attachment pattern. A Type 2 could be avoidant if caregivers punished emotional needs.
+Yes! While certain types lean toward specific attachment styles, your childhood experiences ultimately determine your attachment pattern. A Type 2 could be avoidant if caregivers punished emotional expression.
 
 **Can I have more than one attachment style?**
 Yes. You might be secure with friends but anxious in romance. You might also shift between styles (that's disorganized attachment).
@@ -821,7 +833,7 @@ Research suggests 6-24 months of consistent practice and safe relationships. The
 Any combination can work with awareness and effort. The classic anxious-avoidant dance is challenging but healable when both partners commit to growth.
 
 **Is attachment style or Enneagram more important?**
-They're equally important but work on different levels. Attachment is HOW you connect; Enneagram is WHY you connect that way. Understanding both creates fastest healing.
+They work on different levels. Attachment is how you connect; Enneagram is why you connect that way. Together, they help you target the real trigger and heal faster.
 
 <svelte:head>
 
@@ -831,16 +843,16 @@ They're equally important but work on different levels. Attachment is HOW you co
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article explores the deep connection between Enneagram personality types and attachment styles. It provides a comprehensive guide to understanding how each of the 9 Enneagram types develops specific attachment patterns (secure, anxious, avoidant, or disorganized) and offers practical strategies for healing attachment wounds based on personality type. The article covers all 36 combinations of Enneagram types and attachment styles, providing specific healing practices, compatibility insights, and a roadmap to earned secure attachment.",
+      "articleBody": "This article explores the deep connection between Enneagram personality types and attachment styles. It provides a comprehensive guide to understanding how each of the 9 Enneagram types develops specific attachment patterns (secure, anxious, avoidant, or disorganized) and offers practical strategies for healing attachment wounds based on personality type. The article covers all 36 combinations of Enneagram types and attachment styles, providing specific healing practices, compatibility insights, and a plan for earned secure attachment.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2025-12-03",
+      "dateModified": "2026-01-18",
       "datePublished": "2025-08-29",
       "description": "Discover how your Enneagram type shapes your attachment style. Complete guide to all 36 personality + attachment combinations with healing strategies that actually work.",
-      "headline": "Attachment Styles & Enneagram Types: Why You Love the Way You Do",
+      "headline": "Attachment Styles and Enneagram Types: Why the Same Style Looks Different",
       "image": {
         "@type": "ImageObject",
         "height": 900,

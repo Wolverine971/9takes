@@ -57,26 +57,26 @@
 				<div class="stat-grid">
 					{#if data.frontmatter.date}
 						<div class="stat-item">
-							<label>Created</label>
+							<span class="stat-label">Created</span>
 							<span>{formatDate(data.frontmatter.date)}</span>
 						</div>
 					{/if}
 
 					{#if data.frontmatter.lastmod}
 						<div class="stat-item">
-							<label>Last Modified</label>
+							<span class="stat-label">Last Modified</span>
 							<span>{formatDate(data.frontmatter.lastmod)}</span>
 						</div>
 					{/if}
 
 					<div class="stat-item">
-						<label>Word Count</label>
+						<span class="stat-label">Word Count</span>
 						<span>{getWordCount('')}</span>
 					</div>
 
 					{#if data.frontmatter.author}
 						<div class="stat-item">
-							<label>Author</label>
+							<span class="stat-label">Author</span>
 							<span>{data.frontmatter.author}</span>
 						</div>
 					{/if}
@@ -202,7 +202,7 @@
 					flex-direction: column;
 					gap: 0.25rem;
 
-					label {
+					.stat-label {
 						font-size: 0.875rem;
 						color: #868e96;
 						font-weight: 600;

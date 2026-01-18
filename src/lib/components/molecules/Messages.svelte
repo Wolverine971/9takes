@@ -16,7 +16,7 @@
 <svelte:window bind:innerWidth />
 
 <h1>Real Time Messaging</h1>
-<pre id="messages" style="height: 400px; overflow: scroll" />
+<pre id="messages" style="height: 400px; overflow: scroll"></pre>
 <input
 	type="text"
 	id="messageBox"

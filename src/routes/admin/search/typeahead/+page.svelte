@@ -222,6 +222,7 @@
 			{#if query.length > 0}
 				<button
 					class="clear-btn"
+					aria-label="Clear search"
 					on:click={() => {
 						query = '';
 						results = [];

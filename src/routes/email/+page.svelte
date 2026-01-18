@@ -346,7 +346,7 @@
 				</div>
 
 				<div class="space-y-2">
-					<label class="block text-sm font-medium text-neutral-700">Select Template</label>
+					<p class="block text-sm font-medium text-neutral-700">Select Template</p>
 					<div class="grid grid-cols-2 gap-3">
 						<label
 							class="flex cursor-pointer items-center space-x-2 rounded-md border p-3 hover:bg-neutral-50"

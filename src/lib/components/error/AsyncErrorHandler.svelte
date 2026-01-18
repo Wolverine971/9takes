@@ -69,8 +69,8 @@
 
 <style>
 	.error-container {
-		background-color: var(--error-light, #fee);
-		border: 1px solid var(--error, #e84393);
+		background-color: rgba(239, 68, 68, 0.1);
+		border: 1px solid rgba(239, 68, 68, 0.3);
 		border-radius: 0.5rem;
 		padding: 1rem;
 		margin: 1rem 0;
@@ -103,12 +103,12 @@
 	}
 
 	.error-icon {
-		color: var(--error);
+		color: #fca5a5;
 		flex-shrink: 0;
 	}
 
 	.error-text {
-		color: var(--error);
+		color: #fca5a5;
 		font-size: 0.875rem;
 		line-height: 1.4;
 	}
@@ -122,22 +122,23 @@
 
 	.retry-btn {
 		padding: 0.375rem 0.75rem;
-		background-color: var(--error);
+		background-color: #ef4444;
 		color: white;
 		border: none;
 		border-radius: 0.375rem;
 		font-size: 0.875rem;
 		font-weight: 600;
 		cursor: pointer;
-		transition: opacity 0.2s ease;
+		transition: all 0.2s ease;
 	}
 
 	.retry-btn:hover {
-		opacity: 0.9;
+		background-color: #dc2626;
+		box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
 	}
 
 	.retry-btn:focus-visible {
-		outline: 2px solid var(--error);
+		outline: 2px solid #fca5a5;
 		outline-offset: 2px;
 	}
 
@@ -145,27 +146,27 @@
 		padding: 0.25rem;
 		background: none;
 		border: none;
-		color: var(--error);
+		color: #fca5a5;
 		cursor: pointer;
 		border-radius: 0.25rem;
 		transition: background-color 0.2s ease;
 	}
 
 	.dismiss-btn:hover {
-		background-color: rgba(232, 67, 147, 0.1);
+		background-color: rgba(239, 68, 68, 0.2);
 	}
 
 	.dismiss-btn:focus-visible {
-		outline: 2px solid var(--error);
+		outline: 2px solid #fca5a5;
 		outline-offset: 2px;
 	}
 
 	.error-details {
 		margin-top: 0.75rem;
 		padding-top: 0.75rem;
-		border-top: 1px solid rgba(232, 67, 147, 0.2);
+		border-top: 1px solid rgba(239, 68, 68, 0.2);
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: #94a3b8;
 	}
 
 	@media (max-width: 768px) {

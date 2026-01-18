@@ -100,8 +100,9 @@
 	<!-- Filters -->
 	<div class="filters-bar">
 		<div class="filter-group">
-			<label>Client:</label>
+			<label for="client-filter">Client:</label>
 			<select
+				id="client-filter"
 				value={data.filters.clientId || 'all'}
 				on:change={(e) => setFilter('client', e.currentTarget.value)}
 			>

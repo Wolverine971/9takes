@@ -1,86 +1,107 @@
 <!-- src/lib/components/blog/EnneagramDiagram.svelte -->
+<!-- Solo Leveling themed Enneagram Diagram -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fade, scale } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 
-	let hoveredType: number | null = null;
-	let mounted = false;
-	let containerWidth = 0;
-	let containerElement: HTMLElement;
-	let isMobile = false;
-	let showLabels = true;
+	// Props
+	interface Props {
+		size?: 'sm' | 'md' | 'lg';
+		showLabels?: boolean;
+		interactive?: boolean;
+	}
 
-	// The 9 Enneagram types
+	let { size = 'md', showLabels: showLabelsProp = true, interactive = true }: Props = $props();
+
+	let hoveredType: number | null = $state(null);
+	let mounted = $state(false);
+	let containerElement: HTMLElement | null = $state(null);
+	let isMobile = $state(false);
+	let showLabels = $state(true);
+
+	// The 9 Enneagram types with Solo Leveling themed colors
 	const enneagramTypes = [
 		{
 			id: 1,
-			name: 'The Reformer',
+			name: 'The Perfectionist',
+			title: 'Knight of Order',
 			description:
-				'Ethical, dedicated and reliable, Ones are motivated by a desire to live the right way, improve the world, and avoid fault and blame. Grows to Type 7 (Enthusiast), stresses to Type 4 (Individualist).',
-			color: '#A9A9A9'
+				'Ethical, dedicated and reliable. Motivated by a desire to live the right way and improve the world.',
+			color: '#a8dadc',
+			coreEmotion: 'Anger'
 		},
 		{
 			id: 2,
 			name: 'The Helper',
-			description:
-				'Warm, caring and giving, Twos are motivated by a need to be loved and needed, and to avoid acknowledging their own needs. Grows to Type 4 (Individualist), stresses to Type 8 (Challenger).',
-			color: '#E63946'
+			title: 'Heart Guardian',
+			description: 'Warm, caring and giving. Motivated by a need to be loved and needed.',
+			color: '#ff6b6b',
+			coreEmotion: 'Shame'
 		},
 		{
 			id: 3,
 			name: 'The Achiever',
-			description:
-				'Success-oriented, image-conscious and wired for productivity, Threes are motivated by a need to be (or appear to be) successful and avoid failure. Grows to Type 6 (Loyalist), stresses to Type 9 (Peacemaker).',
-			color: '#FFD700'
+			title: 'Victory Blade',
+			description: 'Success-oriented and image-conscious. Motivated by a need to be successful.',
+			color: '#fbbf24',
+			coreEmotion: 'Shame'
 		},
 		{
 			id: 4,
 			name: 'The Individualist',
-			description:
-				'Creative, sensitive and moody, Fours are motivated by a need to be understood, experience their emotions and avoid being ordinary. Grows to Type 1 (Reformer), stresses to Type 2 (Helper).',
-			color: '#9D4EDD'
+			title: 'Soul Weaver',
+			description: 'Creative, sensitive and expressive. Motivated by a need to be understood.',
+			color: '#c084fc',
+			coreEmotion: 'Shame'
 		},
 		{
 			id: 5,
 			name: 'The Investigator',
-			description:
-				'Analytical, detached and private, Fives are motivated by a need to gain knowledge, conserve energy and avoid depending on others. Grows to Type 8 (Challenger), stresses to Type 7 (Enthusiast).',
-			color: '#457B9D'
+			title: 'Mind Phantom',
+			description: 'Analytical, detached and private. Motivated by a need to gain knowledge.',
+			color: '#22d3ee',
+			coreEmotion: 'Fear'
 		},
 		{
 			id: 6,
 			name: 'The Loyalist',
+			title: 'Iron Guard',
 			description:
-				'Committed, practical and witty, Sixes are motivated by fear and the need for security, and seek to avoid worst-case scenarios. Grows to Type 9 (Peacemaker), stresses to Type 3 (Achiever).',
-			color: '#B59410'
+				'Committed, practical and vigilant. Motivated by fear and the need for security.',
+			color: '#64748b',
+			coreEmotion: 'Fear'
 		},
 		{
 			id: 7,
 			name: 'The Enthusiast',
+			title: 'Storm Rider',
 			description:
-				'Fun, spontaneous and versatile, Sevens are motivated by a need to be happy and avoid pain and discomfort. Grows to Type 5 (Investigator), stresses to Type 1 (Reformer).',
-			color: '#76C893'
+				'Fun, spontaneous and versatile. Motivated by a need to be happy and avoid pain.',
+			color: '#fb923c',
+			coreEmotion: 'Fear'
 		},
 		{
 			id: 8,
 			name: 'The Challenger',
-			description:
-				'Powerful, dominating and self-confident, Eights are motivated by a need to be strong and avoid feeling weak or vulnerable. Grows to Type 2 (Helper), stresses to Type 5 (Investigator).',
-			color: '#1A535C'
+			title: 'War Commander',
+			description: 'Powerful, dominating and self-confident. Motivated by a need to be strong.',
+			color: '#ef4444',
+			coreEmotion: 'Anger'
 		},
 		{
 			id: 9,
 			name: 'The Peacemaker',
-			description:
-				'Easygoing, accommodating and peaceful, Nines are motivated by a need to keep the peace, merge with others and avoid conflict. Grows to Type 3 (Achiever), stresses to Type 6 (Loyalist).',
-			color: '#F8961E'
+			title: 'Harmony Sage',
+			description: 'Easygoing, accommodating and peaceful. Motivated by a need to keep the peace.',
+			color: '#4ade80',
+			coreEmotion: 'Anger'
 		}
 	];
 
 	// Center and radius for the main circle
 	const center = { x: 50, y: 50 };
-	const radius = 32; // Reduced radius to leave more space for labels
+	const radius = 34;
 
 	// Convert angle (0° = top) to x,y coordinates
 	function getPosition(angle: number) {
@@ -91,170 +112,46 @@
 		};
 	}
 
-	// Position each type so that Type 9 (index=8) is at angle=0 (top)
+	// Position each type so that Type 9 is at angle=0 (top)
 	const typePositions = enneagramTypes.map((_, index) => {
 		const angle = 40 * ((index + 1) % 9);
 		return getPosition(angle);
 	});
 
-	// Growth/Stress connections
-	const connections = [
-		{ from: 0, to: 6 }, // 1 → 7
-		{ from: 0, to: 3 }, // 1 → 4
-		{ from: 1, to: 3 }, // 2 → 4
-		{ from: 1, to: 7 }, // 2 → 8
+	// Inner triangle (3-6-9) and hexad connections
+	const triangleConnections = [
 		{ from: 2, to: 5 }, // 3 → 6
-		{ from: 2, to: 8 }, // 3 → 9
-		{ from: 3, to: 0 }, // 4 → 1
-		{ from: 3, to: 1 }, // 4 → 2
-		{ from: 4, to: 7 }, // 5 → 8
-		{ from: 4, to: 6 }, // 5 → 7
 		{ from: 5, to: 8 }, // 6 → 9
-		{ from: 5, to: 2 }, // 6 → 3
-		{ from: 6, to: 4 }, // 7 → 5
-		{ from: 6, to: 0 }, // 7 → 1
-		{ from: 7, to: 1 }, // 8 → 2
-		{ from: 7, to: 4 }, // 8 → 5
-		{ from: 8, to: 2 }, // 9 → 3
-		{ from: 8, to: 5 } // 9 → 6
+		{ from: 8, to: 2 } // 9 → 3
 	];
 
-	// Parse "Grows to Type X" from the description
-	function getGrowthType(id: number) {
-		const match = enneagramTypes[id - 1].description.match(/Grows to Type (\d+)/);
-		return match ? match[1] : '?';
-	}
+	const hexadConnections = [
+		{ from: 0, to: 3 }, // 1 → 4
+		{ from: 3, to: 1 }, // 4 → 2
+		{ from: 1, to: 7 }, // 2 → 8
+		{ from: 7, to: 4 }, // 8 → 5
+		{ from: 4, to: 6 }, // 5 → 7
+		{ from: 6, to: 0 } // 7 → 1
+	];
 
-	// Parse "stresses to Type Y" from the description
-	function getStressType(id: number) {
-		const match = enneagramTypes[id - 1].description.match(/stresses to Type (\d+)/);
-		return match ? match[1] : '?';
-	}
-
-	// Get label positioning - more optimized for readability and containment
+	// Get label positioning - adjusted to stay within container bounds
 	function getLabelPosition(index: number) {
 		const pos = typePositions[index];
 		const type = enneagramTypes[index];
 
-		// Custom positioning for each type to ensure they're contained within the component
-		switch (type.id) {
-			case 1: // The Reformer (right)
-				return {
-					left: `75%`,
-					top: `25%`,
-					textAlign: 'left'
-				};
-			case 2: // The Helper (right)
-				return {
-					left: `85%`,
-					top: `42%`,
-					textAlign: 'left'
-				};
-			case 3: // The Achiever (right bottom)
-				return {
-					left: `81%`,
-					top: `65%`,
-					textAlign: 'left'
-				};
-			case 4: // The Individualist (bottom right)
-				return {
-					left: `62%`,
-					top: `84%`,
-					textAlign: 'center'
-				};
-			case 5: // The Investigator (bottom)
-				return {
-					left: `38%`,
-					top: `84%`,
-					textAlign: 'center'
-				};
-			case 6: // The Loyalist (bottom left)
-				return {
-					left: `19%`,
-					top: `65%`,
-					textAlign: 'right'
-				};
-			case 7: // The Enthusiast (left)
-				return {
-					left: `16%`,
-					top: `42%`,
-					textAlign: 'right'
-				};
-			case 8: // The Challenger (left top)
-				return {
-					left: `25%`,
-					top: `25%`,
-					textAlign: 'right'
-				};
-			case 9: // The Peacemaker (top)
-				return {
-					left: `50%`,
-					top: `12%`,
-					textAlign: 'center'
-				};
-			default:
-				// Fallback positioning
-				let offsetX = 0;
-				let offsetY = 0;
+		const positions: Record<number, { left: string; top: string; textAlign: string }> = {
+			1: { left: '72%', top: '22%', textAlign: 'left' },
+			2: { left: '78%', top: '42%', textAlign: 'left' },
+			3: { left: '72%', top: '62%', textAlign: 'left' },
+			4: { left: '58%', top: '75%', textAlign: 'center' },
+			5: { left: '42%', top: '75%', textAlign: 'center' },
+			6: { left: '22%', top: '62%', textAlign: 'right' },
+			7: { left: '16%', top: '42%', textAlign: 'right' },
+			8: { left: '22%', top: '22%', textAlign: 'right' },
+			9: { left: '50%', top: '10%', textAlign: 'center' }
+		};
 
-				if (pos.y < 50) {
-					offsetY = -12;
-				} else {
-					offsetY = 12;
-				}
-
-				if (pos.x < 40) {
-					offsetX = -15;
-					return {
-						left: `${pos.x + offsetX}%`,
-						top: `${pos.y + offsetY}%`,
-						textAlign: 'right'
-					};
-				} else if (pos.x > 60) {
-					offsetX = 15;
-					return {
-						left: `${pos.x + offsetX}%`,
-						top: `${pos.y + offsetY}%`,
-						textAlign: 'left'
-					};
-				} else {
-					return {
-						left: `${pos.x}%`,
-						top: `${pos.y + offsetY}%`,
-						textAlign: 'center'
-					};
-				}
-		}
-	}
-
-	// Adjust tooltip position to ensure it stays within viewport
-	function getTooltipPosition() {
-		if (!containerElement) return { left: '50%', top: '50%' };
-
-		if (isMobile) {
-			return { left: '50%', top: '50%' };
-		}
-
-		return { left: '50%', top: '50%' };
-	}
-
-	// Handle window resize for responsive design
-	function handleResize() {
-		if (typeof window !== 'undefined') {
-			isMobile = window.innerWidth < 768;
-			showLabels = window.innerWidth > 400;
-			if (containerElement) {
-				containerWidth = containerElement.clientWidth;
-			}
-		}
-	}
-
-	// Highlight connections for the hovered type
-	function isConnectionHighlighted(conn) {
-		if (!hoveredType) return false;
-		return (
-			enneagramTypes[conn.from].id === hoveredType || enneagramTypes[conn.to].id === hoveredType
-		);
+		return positions[type.id] || { left: '50%', top: '50%', textAlign: 'center' };
 	}
 
 	// Get URL for each Enneagram type
@@ -263,8 +160,15 @@
 	}
 
 	function handleTypeClick(typeId: number) {
-		if (isMobile) {
+		if (interactive) {
 			window.location.href = getTypeUrl(typeId);
+		}
+	}
+
+	function handleResize() {
+		if (typeof window !== 'undefined') {
+			isMobile = window.innerWidth < 768;
+			showLabels = showLabelsProp && window.innerWidth > 480;
 		}
 	}
 
@@ -281,76 +185,109 @@
 	});
 </script>
 
-<div class="diagram-wrapper" bind:this={containerElement}>
+<div
+	class="diagram-wrapper"
+	class:size-sm={size === 'sm'}
+	class:size-lg={size === 'lg'}
+	bind:this={containerElement}
+>
 	<div class="enneagram-container">
+		<!-- Ambient glow effects -->
+		<div class="glow-layer"></div>
+
 		<svg class="diagram-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-			<!-- Gradients and filters -->
 			<defs>
-				<linearGradient id="circleGradientLight" x1="0%" y1="0%" x2="100%" y2="100%">
-					<stop offset="0%" stop-color="#fafafa" />
-					<stop offset="100%" stop-color="#f0f0f0" />
-				</linearGradient>
-				<linearGradient id="circleGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
-					<stop offset="0%" stop-color="#2a2a3e" />
-					<stop offset="100%" stop-color="#1f1f2e" />
-				</linearGradient>
-				<filter id="circleShadow" x="-20%" y="-20%" width="140%" height="140%">
-					<feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-opacity="0.1" />
+				<!-- Glow filters -->
+				<filter id="glowPurple" x="-50%" y="-50%" width="200%" height="200%">
+					<feGaussianBlur stdDeviation="1.5" result="coloredBlur" />
+					<feMerge>
+						<feMergeNode in="coloredBlur" />
+						<feMergeNode in="SourceGraphic" />
+					</feMerge>
 				</filter>
+				<filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+					<feGaussianBlur stdDeviation="1" result="coloredBlur" />
+					<feMerge>
+						<feMergeNode in="coloredBlur" />
+						<feMergeNode in="SourceGraphic" />
+					</feMerge>
+				</filter>
+
+				<!-- Gradient for main circle -->
+				<radialGradient id="voidGradient" cx="50%" cy="50%" r="50%">
+					<stop offset="0%" stop-color="rgba(124, 58, 237, 0.08)" />
+					<stop offset="100%" stop-color="rgba(10, 10, 15, 0.5)" />
+				</radialGradient>
 			</defs>
 
-			<!-- Main circle -->
-			<circle
-				cx={center.x}
-				cy={center.y}
-				r={radius}
-				class="main-circle"
-				filter="url(#circleShadow)"
-			/>
+			<!-- Main circle with void effect -->
+			<circle cx={center.x} cy={center.y} r={radius} class="main-circle" />
 
-			<!-- Connection lines -->
-			{#each connections as conn}
+			<!-- Inner glow ring -->
+			<circle cx={center.x} cy={center.y} r={radius - 0.5} class="inner-glow" />
+
+			<!-- Triangle connections (3-6-9) - more prominent -->
+			{#each triangleConnections as conn}
 				<line
 					x1={typePositions[conn.from].x}
 					y1={typePositions[conn.from].y}
 					x2={typePositions[conn.to].x}
 					y2={typePositions[conn.to].y}
-					class="connection-line"
-					class:highlighted={isConnectionHighlighted(conn)}
-					stroke={isConnectionHighlighted(conn) && hoveredType
-						? enneagramTypes[hoveredType - 1].color
-						: undefined}
+					class="connection-triangle"
+					class:highlighted={hoveredType &&
+						(enneagramTypes[conn.from].id === hoveredType ||
+							enneagramTypes[conn.to].id === hoveredType)}
+				/>
+			{/each}
+
+			<!-- Hexad connections (1-4-2-8-5-7-1) -->
+			{#each hexadConnections as conn}
+				<line
+					x1={typePositions[conn.from].x}
+					y1={typePositions[conn.from].y}
+					x2={typePositions[conn.to].x}
+					y2={typePositions[conn.to].y}
+					class="connection-hexad"
+					class:highlighted={hoveredType &&
+						(enneagramTypes[conn.from].id === hoveredType ||
+							enneagramTypes[conn.to].id === hoveredType)}
 				/>
 			{/each}
 		</svg>
 
-		<!-- Enneagram Nodes -->
+		<!-- Central icon -->
+		<div class="center-icon">
+			<div class="center-pulse"></div>
+			<span>◈</span>
+		</div>
+
+		<!-- Type Nodes -->
 		{#each enneagramTypes as type, index}
 			{#if mounted}
 				<a
-					href={getTypeUrl(type.id)}
+					href={interactive ? getTypeUrl(type.id) : undefined}
 					class="type-node"
 					class:active={hoveredType === type.id}
-					class:mobile={isMobile}
+					class:non-interactive={!interactive}
 					style="
 						left: {typePositions[index].x}%;
 						top: {typePositions[index].y}%;
 						--node-color: {type.color};
 					"
-					on:mouseenter={() => (hoveredType = type.id)}
-					on:mouseleave={() => (hoveredType = null)}
-					on:focus={() => (hoveredType = type.id)}
-					on:blur={() => (hoveredType = null)}
-					on:click={() => handleTypeClick(type.id)}
-					tabindex="0"
-					aria-label={`Enneagram Type ${type.id}: ${type.name}`}
+					onmouseenter={() => (hoveredType = type.id)}
+					onmouseleave={() => (hoveredType = null)}
+					onfocus={() => (hoveredType = type.id)}
+					onblur={() => (hoveredType = null)}
+					tabindex={interactive ? 0 : -1}
+					aria-label={`Type ${type.id}: ${type.name}`}
 				>
-					<span class="type-number">{type.id}</span>
+					<span class="node-glow"></span>
+					<span class="node-number">{type.id}</span>
 				</a>
 			{/if}
 		{/each}
 
-		<!-- Type labels -->
+		<!-- Type Labels -->
 		{#each enneagramTypes as type, index}
 			{#if mounted && showLabels}
 				{@const labelPos = getLabelPosition(index)}
@@ -367,52 +304,126 @@
 						? '-50%'
 						: labelPos.textAlign === 'left'
 							? '0'
-							: '-100%'}, 0);
+							: '-100%'}, -50%);
 					"
 				>
-					<span class="label-text">{type.name}</span>
+					<span class="label-title">{type.title}</span>
+					<span class="label-name">{type.name}</span>
 				</div>
 			{/if}
 		{/each}
 
 		<!-- Tooltip -->
-		{#if hoveredType && mounted}
+		{#if hoveredType && mounted && interactive}
 			{@const currentType = enneagramTypes[hoveredType - 1]}
 			<div
 				class="tooltip"
-				style="left: 50%; top: 50%;"
 				in:scale={{ duration: 150, opacity: 0, start: 0.95, easing: cubicOut }}
 				out:fade={{ duration: 100 }}
 			>
-				<div class="tooltip-badge" style="background-color: {currentType.color}">
-					<span>{hoveredType}</span>
+				<div class="tooltip-header">
+					<div class="tooltip-badge" style="--badge-color: {currentType.color}">
+						<span>{hoveredType}</span>
+					</div>
+					<div class="tooltip-titles">
+						<span class="tooltip-title-main">{currentType.title}</span>
+						<span class="tooltip-title-sub">{currentType.name}</span>
+					</div>
 				</div>
-				<div class="tooltip-content">
-					<h3 class="tooltip-title">{currentType.name}</h3>
-					<p class="tooltip-description">{currentType.description.split('.')[0]}.</p>
+				<p class="tooltip-description">{currentType.description}</p>
+				<div class="tooltip-meta">
+					<span class="meta-label">Core Emotion:</span>
+					<span class="meta-value" style="color: {currentType.color}"
+						>{currentType.coreEmotion}</span
+					>
 				</div>
 			</div>
 		{/if}
 	</div>
 </div>
 
-<style lang="scss">
-	/* Wrapper */
+<style>
+	/* ==========================================
+	   CSS VARIABLES
+	   ========================================== */
+	.diagram-wrapper {
+		--void-abyss: #05050a;
+		--void-shadow: #0a0a12;
+		--void-umbra: #12121c;
+		--text-pale: #e8e8f0;
+		--text-mist: #9898a8;
+		--text-faded: #585868;
+		--shadow-monarch: #7c3aed;
+		--shadow-flame: #a855f7;
+		--shadow-ethereal: #c084fc;
+		--system-interface: #3b82f6;
+		--system-hologram: #60a5fa;
+		--font-display: 'Rajdhani', system-ui, sans-serif;
+		--font-mono: 'JetBrains Mono', ui-monospace, monospace;
+	}
+
+	/* ==========================================
+	   WRAPPER SIZES
+	   ========================================== */
 	.diagram-wrapper {
 		position: relative;
 		width: 100%;
-		max-width: 56rem;
+		max-width: 24rem;
 		margin: 0 auto;
+		padding-bottom: 2rem; /* Space for labels that extend below the circle */
+		overflow: visible;
+		height: 100%;
 	}
 
-	/* Container */
+	.diagram-wrapper.size-sm {
+		max-width: 16rem;
+		padding-bottom: 1.5rem;
+	}
+
+	.diagram-wrapper.size-lg {
+		max-width: 32rem;
+		padding-bottom: 2.5rem;
+	}
+
+	/* ==========================================
+	   CONTAINER
+	   ========================================== */
 	.enneagram-container {
 		position: relative;
 		width: 100%;
-		padding-bottom: 100%; /* 1:1 aspect ratio */
+		padding-bottom: 100%; /* Square container for proper circle rendering */
+		overflow: visible;
 	}
 
-	/* SVG */
+	/* ==========================================
+	   GLOW LAYER
+	   ========================================== */
+	.glow-layer {
+		position: absolute;
+		inset: -20%;
+		background: radial-gradient(
+			circle at 50% 50%,
+			rgba(124, 58, 237, 0.15) 0%,
+			rgba(59, 130, 246, 0.08) 40%,
+			transparent 70%
+		);
+		pointer-events: none;
+		animation: glow-pulse 4s ease-in-out infinite;
+	}
+
+	@keyframes glow-pulse {
+		0%,
+		100% {
+			opacity: 0.6;
+		}
+		50% {
+			opacity: 1;
+		}
+	}
+
+	/* ==========================================
+	   SVG
+	   ========================================== */
 	.diagram-svg {
 		position: absolute;
 		inset: 0;
@@ -420,216 +431,313 @@
 		height: 100%;
 	}
 
-	/* Main circle */
+	/* ==========================================
+	   MAIN CIRCLE
+	   ========================================== */
 	.main-circle {
-		fill: url(#circleGradientLight);
-		stroke: #d0d0d0;
-		stroke-width: 0.3;
-		transition: all 0.3s ease;
-
-		:global(.dark) & {
-			fill: url(#circleGradientDark);
-			stroke: #3a3a4a;
-		}
+		fill: url(#voidGradient);
+		stroke: rgba(124, 58, 237, 0.25);
+		stroke-width: 0.4;
 	}
 
-	/* Connection lines */
-	.connection-line {
-		stroke: #aaa;
+	.inner-glow {
+		fill: none;
+		stroke: rgba(124, 58, 237, 0.15);
+		stroke-width: 0.8;
+		filter: url(#glowPurple);
+	}
+
+	/* ==========================================
+	   CONNECTION LINES
+	   ========================================== */
+	.connection-triangle {
+		stroke: var(--shadow-monarch);
+		stroke-width: 0.35;
+		stroke-opacity: 0.4;
+		transition: all 0.3s ease;
+	}
+
+	.connection-triangle.highlighted {
+		stroke-opacity: 0.8;
+		stroke-width: 0.5;
+		filter: url(#glowPurple);
+	}
+
+	.connection-hexad {
+		stroke: var(--system-interface);
 		stroke-width: 0.25;
-		stroke-opacity: 0.35;
+		stroke-opacity: 0.25;
 		transition: all 0.3s ease;
+	}
 
-		&.highlighted {
-			stroke-width: 0.5;
-			stroke-opacity: 0.7;
+	.connection-hexad.highlighted {
+		stroke-opacity: 0.6;
+		stroke-width: 0.4;
+		filter: url(#glowCyan);
+	}
+
+	/* ==========================================
+	   CENTER ICON
+	   ========================================== */
+	.center-icon {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 2.5rem;
+		height: 2.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: linear-gradient(135deg, #5b21b6 0%, var(--shadow-monarch) 100%);
+		border-radius: 50%;
+		box-shadow: 0 0 25px rgba(124, 58, 237, 0.5);
+		z-index: 5;
+	}
+
+	.center-icon span {
+		font-size: 1rem;
+		color: white;
+	}
+
+	.center-pulse {
+		position: absolute;
+		inset: -8px;
+		border: 2px solid var(--shadow-ethereal);
+		border-radius: 50%;
+		animation: center-pulse 2.5s ease-in-out infinite;
+	}
+
+	@keyframes center-pulse {
+		0%,
+		100% {
+			transform: scale(1);
+			opacity: 0.5;
 		}
-
-		:global(.dark) & {
-			stroke: #666;
-			stroke-opacity: 0.4;
-
-			&.highlighted {
-				stroke-opacity: 0.8;
-			}
+		50% {
+			transform: scale(1.25);
+			opacity: 0;
 		}
 	}
 
-	/* Type nodes */
+	/* ==========================================
+	   TYPE NODES
+	   ========================================== */
 	.type-node {
 		position: absolute;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.5rem;
-		height: 2.5rem;
-		background-color: var(--node-color);
+		width: 2.25rem;
+		height: 2.25rem;
+		background: var(--void-shadow);
+		border: 2px solid var(--node-color);
 		border-radius: 50%;
 		text-decoration: none;
 		cursor: pointer;
 		transform: translate(-50%, -50%);
-		transition:
-			transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-			box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+		transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+		z-index: 10;
+	}
+
+	.type-node.non-interactive {
+		cursor: default;
+	}
+
+	.node-glow {
+		position: absolute;
+		inset: -4px;
+		border-radius: 50%;
+		background: radial-gradient(circle, var(--node-color) 0%, transparent 70%);
+		opacity: 0.3;
+		transition: opacity 0.25s ease;
+	}
+
+	.type-node:hover .node-glow,
+	.type-node.active .node-glow {
+		opacity: 0.6;
+	}
+
+	.type-node:hover,
+	.type-node:focus,
+	.type-node.active {
+		transform: translate(-50%, -50%) scale(1.15);
+		box-shadow: 0 0 20px color-mix(in srgb, var(--node-color) 50%, transparent);
+		z-index: 20;
+	}
+
+	.type-node:focus {
+		outline: none;
 		box-shadow:
-			0 2px 8px rgba(0, 0, 0, 0.15),
-			0 1px 3px rgba(0, 0, 0, 0.1);
-		border: 2px solid rgba(255, 255, 255, 0.25);
-
-		&::after {
-			content: none !important;
-			display: none !important;
-		}
-
-		&.mobile {
-			width: 2rem;
-			height: 2rem;
-		}
-
-		&:hover,
-		&:focus,
-		&.active {
-			transform: translate(-50%, -50%) scale(1.18);
-			box-shadow:
-				0 4px 16px rgba(0, 0, 0, 0.2),
-				0 0 0 3px rgba(255, 255, 255, 0.3);
-			z-index: 10;
-		}
-
-		&:focus {
-			outline: none;
-			box-shadow:
-				0 4px 16px rgba(0, 0, 0, 0.2),
-				0 0 0 3px rgba(91, 76, 219, 0.5);
-		}
+			0 0 0 3px rgba(124, 58, 237, 0.4),
+			0 0 20px color-mix(in srgb, var(--node-color) 50%, transparent);
 	}
 
-	.type-number {
-		font-size: 0.9375rem;
+	.node-number {
+		position: relative;
+		font-family: var(--font-mono);
+		font-size: 0.875rem;
 		font-weight: 700;
-		color: #fff;
-		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-		line-height: 1;
+		color: var(--node-color);
+		text-shadow: 0 0 10px var(--node-color);
+	}
 
-		.mobile & {
-			font-size: 0.8125rem;
+	@media (min-width: 640px) {
+		.type-node {
+			width: 2.5rem;
+			height: 2.5rem;
+		}
+
+		.node-number {
+			font-size: 1rem;
 		}
 	}
 
-	/* Type labels */
+	/* ==========================================
+	   TYPE LABELS
+	   ========================================== */
 	.type-label {
 		position: absolute;
 		pointer-events: none;
-		max-width: 130px;
-		transition:
-			opacity 0.25s ease,
-			color 0.25s ease;
-
-		&.dimmed {
-			opacity: 0.35;
-		}
-
-		&.active {
-			color: var(--label-color) !important;
-		}
-
-		@media (max-width: 767px) {
-			max-width: 90px;
-		}
+		max-width: 100px;
+		transition: opacity 0.25s ease;
+		display: flex;
+		flex-direction: column;
+		gap: 0.1rem;
 	}
 
-	.label-text {
-		font-size: 0.8125rem;
+	.type-label.dimmed {
+		opacity: 0.3;
+	}
+
+	.type-label.active {
+		opacity: 1;
+	}
+
+	.label-title {
+		font-family: var(--font-mono);
+		font-size: 0.55rem;
 		font-weight: 600;
-		color: var(--text-secondary, #444);
-		line-height: 1.3;
-		display: block;
+		color: var(--label-color);
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		opacity: 0.8;
+	}
 
-		.active & {
-			font-weight: 700;
-			color: var(--label-color);
+	.label-name {
+		font-family: var(--font-display);
+		font-size: 0.7rem;
+		font-weight: 600;
+		color: var(--text-pale);
+		line-height: 1.2;
+	}
+
+	.type-label.active .label-name {
+		color: var(--label-color);
+		text-shadow: 0 0 10px color-mix(in srgb, var(--label-color) 40%, transparent);
+	}
+
+	@media (min-width: 640px) {
+		.type-label {
+			max-width: 120px;
 		}
 
-		:global(.dark) & {
-			color: var(--text-secondary, #b0b0b0);
+		.label-title {
+			font-size: 0.6rem;
 		}
 
-		@media (max-width: 767px) {
-			font-size: 0.6875rem;
+		.label-name {
+			font-size: 0.8rem;
 		}
 	}
 
-	/* Tooltip */
+	/* ==========================================
+	   TOOLTIP
+	   ========================================== */
 	.tooltip {
 		position: absolute;
+		left: 50%;
+		top: 50%;
 		transform: translate(-50%, -50%);
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(124, 58, 237, 0.3);
+		border-radius: 12px;
+		padding: 1rem;
+		max-width: min(280px, 85%);
+		box-shadow:
+			0 0 30px rgba(124, 58, 237, 0.2),
+			0 8px 24px rgba(0, 0, 0, 0.4);
+		z-index: 100;
+	}
+
+	.tooltip-header {
 		display: flex;
 		align-items: center;
 		gap: 0.75rem;
-		background: #fff;
-		border-radius: 10px;
-		padding: 0.625rem 1rem;
-		max-width: min(320px, 90%);
-		box-shadow:
-			0 8px 24px rgba(0, 0, 0, 0.12),
-			0 4px 8px rgba(0, 0, 0, 0.08);
-		z-index: 100;
-		border: 1px solid rgba(0, 0, 0, 0.06);
-
-		:global(.dark) & {
-			background: #1e1e2e;
-			border-color: rgba(255, 255, 255, 0.08);
-			box-shadow:
-				0 8px 24px rgba(0, 0, 0, 0.35),
-				0 4px 8px rgba(0, 0, 0, 0.25);
-		}
+		margin-bottom: 0.75rem;
 	}
 
 	.tooltip-badge {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.25rem;
-		height: 2.25rem;
+		width: 2rem;
+		height: 2rem;
+		background: var(--void-abyss);
+		border: 2px solid var(--badge-color);
 		border-radius: 50%;
 		flex-shrink: 0;
-
-		span {
-			font-size: 1rem;
-			font-weight: 700;
-			color: #fff;
-		}
+		box-shadow: 0 0 15px color-mix(in srgb, var(--badge-color) 40%, transparent);
 	}
 
-	.tooltip-content {
-		flex: 1;
-		min-width: 0;
-	}
-
-	.tooltip-title {
-		font-size: 0.9375rem;
+	.tooltip-badge span {
+		font-family: var(--font-mono);
+		font-size: 0.9rem;
 		font-weight: 700;
-		color: var(--text-primary, #1a1a1a);
-		margin: 0;
-		line-height: 1.2;
+		color: var(--badge-color);
+	}
 
-		:global(.dark) & {
-			color: var(--text-primary, #f0f0f0);
-		}
+	.tooltip-titles {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tooltip-title-main {
+		font-family: var(--font-mono);
+		font-size: 0.65rem;
+		font-weight: 600;
+		color: var(--shadow-ethereal);
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+
+	.tooltip-title-sub {
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 700;
+		color: var(--text-pale);
 	}
 
 	.tooltip-description {
-		font-size: 0.75rem;
-		color: var(--text-secondary, #666);
-		line-height: 1.4;
-		margin: 0.125rem 0 0;
-		display: -webkit-box;
-		-webkit-line-clamp: 2;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
+		font-size: 0.8rem;
+		color: var(--text-mist);
+		line-height: 1.5;
+		margin: 0 0 0.75rem;
+	}
 
-		:global(.dark) & {
-			color: var(--text-secondary, #a0a0a0);
-		}
+	.tooltip-meta {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+	}
+
+	.meta-label {
+		color: var(--text-faded);
+	}
+
+	.meta-value {
+		font-weight: 600;
 	}
 </style>

@@ -315,21 +315,21 @@
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
 	<div
-		class="mx-auto max-w-6xl overflow-x-hidden rounded-lg border border-neutral-200 bg-white p-2 shadow-md sm:overflow-visible sm:p-4"
+		class="mx-auto max-w-6xl overflow-x-hidden rounded-lg border border-slate-700/50 bg-[#12121a] p-2 shadow-[0_0_20px_rgba(0,0,0,0.3)] sm:overflow-visible sm:p-4"
 		in:fade={{ duration }}
 	>
 		<!-- Header Section -->
 		<header class="mb-6 px-2 text-center sm:mb-8 sm:px-4">
 			{#if data?.user?.id}
 				<h1
-					class="mb-3 break-words text-xl font-bold text-neutral-800 sm:mb-4 sm:text-2xl"
+					class="mb-3 break-words text-xl font-bold text-slate-100 sm:mb-4 sm:text-2xl"
 					in:fly={{ y: -20, duration, delay: 150 }}
 				>
 					Explore your psychology and those around you
 				</h1>
 			{:else}
 				<h1
-					class="mb-3 break-words text-xl font-bold text-neutral-800 sm:mb-4 sm:text-2xl"
+					class="mb-3 break-words text-xl font-bold text-slate-100 sm:mb-4 sm:text-2xl"
 					in:fly={{ y: -20, duration, delay: 150 }}
 				>
 					Explore your psychology and those around you
@@ -337,7 +337,7 @@
 
 				<div class="mt-4 sm:mt-6" in:fly={{ y: 20, duration, delay: 300 }}>
 					<p
-						class="mx-auto mb-4 max-w-4xl text-sm leading-relaxed text-neutral-600 sm:mb-6 sm:text-base"
+						class="mx-auto mb-4 max-w-4xl text-sm leading-relaxed text-slate-400 sm:mb-6 sm:text-base"
 					>
 						Welcome to 9takes, where you can ask personal questions anonymously and receive answers
 						from diverse perspectives. Our unique platform allows you to explore life's questions
@@ -345,16 +345,16 @@
 					</p>
 					<div class="flex justify-center gap-6 sm:gap-8 md:gap-12">
 						<div class="flex flex-col items-center gap-0.5 sm:gap-1">
-							<strong class="text-lg text-primary-700 sm:text-xl md:text-2xl"
+							<strong class="text-lg text-purple-400 sm:text-xl md:text-2xl"
 								>{data.totalQuestions || 0}</strong
 							>
-							<span class="text-xs text-neutral-600 sm:text-sm">questions asked</span>
+							<span class="text-xs text-slate-400 sm:text-sm">questions asked</span>
 						</div>
 						<div class="flex flex-col items-center gap-0.5 sm:gap-1">
-							<strong class="text-lg text-primary-700 sm:text-xl md:text-2xl"
+							<strong class="text-lg text-purple-400 sm:text-xl md:text-2xl"
 								>{data.totalAnswers || 0}</strong
 							>
-							<span class="text-xs text-neutral-600 sm:text-sm">answers shared</span>
+							<span class="text-xs text-slate-400 sm:text-sm">answers shared</span>
 						</div>
 					</div>
 				</div>
@@ -376,21 +376,22 @@
 
 		<!-- Categories Section -->
 		<section
-			class="mx-2 mb-4 rounded-xl border border-neutral-200 bg-gradient-to-b from-neutral-50 to-white p-3 shadow-sm sm:mx-0 sm:mb-6 sm:p-4"
+			class="mx-2 mb-4 rounded-xl border border-slate-700/50 bg-gradient-to-b from-[#1a1a2e] to-[#12121a] p-3 shadow-sm sm:mx-0 sm:mb-6 sm:p-4"
 			in:fly={{ y: 20, duration, delay: 600 }}
 		>
 			<div class="mb-2 flex items-center justify-between sm:mb-3">
-				<h2 class="text-sm font-semibold text-neutral-800 sm:text-base">Browse by Category</h2>
-				<span class="text-xs text-neutral-600">{displayedCategories.length} categories</span>
+				<h2 class="text-sm font-semibold text-slate-100 sm:text-base">Browse by Category</h2>
+				<span class="text-xs text-slate-400">{displayedCategories.length} categories</span>
 			</div>
 			<div
-				class="sm:max-h-30 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-neutral-400 scrollbar-thumb-rounded flex max-h-32 flex-wrap gap-1 overflow-y-auto overflow-x-hidden p-0.5 sm:gap-1.5 sm:p-1"
+				class="sm:max-h-30 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-600 scrollbar-thumb-rounded flex max-h-32 flex-wrap gap-1 overflow-y-auto overflow-x-hidden p-0.5 sm:gap-1.5 sm:p-1"
 			>
 				<button
-					class="flex-shrink-0 whitespace-nowrap rounded-full border border-neutral-300 bg-white px-2.5 py-1 text-xs font-medium text-neutral-800 transition-all duration-150 hover:border-primary-700 hover:bg-primary-50 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
-					class:!bg-primary-700={selectedCategory === null}
+					class="flex-shrink-0 whitespace-nowrap rounded-full border border-slate-600 bg-[#1a1a2e] px-2.5 py-1 text-xs font-medium text-slate-200 transition-all duration-150 hover:border-purple-500 hover:bg-purple-900/30 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
+					class:!bg-purple-600={selectedCategory === null}
 					class:!text-white={selectedCategory === null}
-					class:!border-primary-700={selectedCategory === null}
+					class:!border-purple-600={selectedCategory === null}
+					class:!shadow-[0_0_10px_rgba(124,58,237,0.3)]={selectedCategory === null}
 					on:click={() => filterByCategory(null, null)}
 					disabled={loading}
 				>
@@ -398,10 +399,11 @@
 				</button>
 				{#each displayedCategories as category (category.id)}
 					<button
-						class="flex-shrink-0 whitespace-nowrap rounded-full border border-neutral-300 bg-white px-2.5 py-1 text-xs font-medium text-neutral-800 transition-all duration-150 hover:border-primary-700 hover:bg-primary-50 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
-						class:!bg-primary-700={selectedCategory === category.id}
+						class="flex-shrink-0 whitespace-nowrap rounded-full border border-slate-600 bg-[#1a1a2e] px-2.5 py-1 text-xs font-medium text-slate-200 transition-all duration-150 hover:border-purple-500 hover:bg-purple-900/30 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
+						class:!bg-purple-600={selectedCategory === category.id}
 						class:!text-white={selectedCategory === category.id}
-						class:!border-primary-700={selectedCategory === category.id}
+						class:!border-purple-600={selectedCategory === category.id}
+						class:!shadow-[0_0_10px_rgba(124,58,237,0.3)]={selectedCategory === category.id}
 						on:click={() => filterByCategory(category.id, category.category_name)}
 						disabled={loading}
 					>
@@ -428,7 +430,7 @@
 
 		<!-- Questions List -->
 		<section
-			class="min-h-75 mx-2 rounded-lg border border-neutral-200 bg-white p-3 sm:mx-0 sm:p-5"
+			class="min-h-75 mx-2 rounded-lg border border-slate-700/50 bg-[#1a1a2e] p-3 sm:mx-0 sm:p-5"
 			in:fly={{ y: 20, duration, delay: 750 }}
 		>
 			{#if loading}
@@ -442,10 +444,10 @@
 				<!-- Filtered view -->
 				<div class="flex flex-col gap-1.5">
 					<!-- Back button and category header -->
-					<div class="mb-2 flex items-center gap-3 border-b border-neutral-100 pb-2">
+					<div class="mb-2 flex items-center gap-3 border-b border-slate-700/50 pb-2">
 						<button
 							on:click={() => filterByCategory(null, null)}
-							class="flex items-center gap-1.5 rounded-lg border border-neutral-300 bg-white px-3 py-1.5 text-sm font-medium text-neutral-700 transition-all hover:border-primary-500 hover:bg-primary-50 hover:text-primary-700"
+							class="flex items-center gap-1.5 rounded-lg border border-slate-600 bg-[#12121a] px-3 py-1.5 text-sm font-medium text-slate-300 transition-all hover:border-purple-500 hover:bg-purple-900/30 hover:text-purple-300"
 							aria-label="Back to all questions"
 						>
 							<svg
@@ -460,16 +462,16 @@
 							</svg>
 							All Questions
 						</button>
-						<h3 class="text-sm font-semibold text-neutral-800 sm:text-base">
+						<h3 class="text-sm font-semibold text-slate-100 sm:text-base">
 							{displayedCategories.find((c) => c.id === selectedCategory)?.category_name ||
 								'Category'}
 						</h3>
-						<span class="ml-auto text-xs text-neutral-500">
+						<span class="ml-auto text-xs text-slate-500">
 							{filteredQuestions.length} question{filteredQuestions.length !== 1 ? 's' : ''}
 						</span>
 					</div>
 					{#if filteredQuestions.length === 0}
-						<p class="py-8 text-center text-neutral-600">No questions found in this category.</p>
+						<p class="py-8 text-center text-slate-400">No questions found in this category.</p>
 					{:else}
 						{#each filteredQuestions as questionData (questionData.id)}
 							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
@@ -481,7 +483,7 @@
 				{#each Object.entries(categories) as [categoryName, questions]}
 					<div class="mb-6 last:mb-0">
 						<h3
-							class="scroll-mt-4 border-b border-neutral-100 pb-1 text-sm font-semibold text-neutral-800 sm:text-base"
+							class="scroll-mt-4 border-b border-slate-700/50 pb-1 text-sm font-semibold text-slate-100 sm:text-base"
 							id={categoryName.replace(/\s+/g, '-')}
 						>
 							{categoryName}
@@ -514,20 +516,20 @@
 		<!-- How It Works Section (for non-users) -->
 		{#if !data?.user?.id}
 			<section
-				class="mx-2 mt-6 rounded-lg border border-neutral-200 bg-neutral-50 p-4 sm:mx-0 sm:mt-8 sm:p-6"
+				class="mx-2 mt-6 rounded-lg border border-slate-700/50 bg-[#1a1a2e] p-4 sm:mx-0 sm:mt-8 sm:p-6"
 				in:fly={{ y: 20, duration, delay: 900 }}
 			>
-				<h2 class="mb-3 text-lg font-semibold text-neutral-800 sm:mb-4 sm:text-xl">How It Works</h2>
+				<h2 class="mb-3 text-lg font-semibold text-slate-100 sm:mb-4 sm:text-xl">How It Works</h2>
 				<ol
-					class="mb-4 ml-4 space-y-1.5 text-sm text-neutral-600 sm:mb-6 sm:ml-6 sm:space-y-2 sm:text-base"
+					class="mb-4 ml-4 space-y-1.5 text-sm text-slate-400 sm:mb-6 sm:ml-6 sm:space-y-2 sm:text-base"
 				>
 					<li>Anonymously answer questions to see other answers</li>
-					<li><strong>Sign up to ask your questions anonymously</strong></li>
+					<li><strong class="text-slate-200">Sign up to ask your questions anonymously</strong></li>
 					<li>Receive answers from diverse perspectives</li>
 					<li>Sort comments by personality type and learn yours</li>
 				</ol>
 				<button
-					class="w-full rounded-lg bg-primary-700 px-4 py-3 text-base font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 sm:px-6 sm:py-4 sm:text-lg"
+					class="w-full rounded-lg bg-purple-600 px-4 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-purple-500 hover:shadow-[0_0_25px_rgba(124,58,237,0.5)] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-[#1a1a2e] sm:px-6 sm:py-4 sm:text-lg"
 					on:click={() => goToCreateQuestionPage('')}
 					aria-label="Ask your question now"
 				>

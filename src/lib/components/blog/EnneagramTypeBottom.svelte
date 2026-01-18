@@ -679,3 +679,54 @@
 		nature of Enneagram Type 9 individuals.
 	</p>
 {/if}
+
+<style lang="scss">
+	/* Solo Leveling Dark Theme Typography */
+	h2 {
+		font-size: 1.8rem;
+		color: #f1f5f9;
+		margin-top: 2.5rem;
+		margin-bottom: 1rem;
+		font-weight: 600;
+	}
+
+	h3 {
+		font-size: 1.4rem;
+		color: #e2e8f0;
+		margin-top: 1.5rem;
+		margin-bottom: 0.75rem;
+		font-weight: 600;
+	}
+
+	p {
+		color: #cbd5e1;
+		line-height: 1.75;
+		margin-bottom: 1rem;
+		font-size: 1.05rem;
+	}
+
+	ul {
+		color: #cbd5e1;
+		margin: 1rem 0;
+		padding-left: 1.5rem;
+	}
+
+	li {
+		margin-bottom: 0.5rem;
+		line-height: 1.6;
+	}
+
+	@media (max-width: 768px) {
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		h3 {
+			font-size: 1.2rem;
+		}
+
+		p {
+			font-size: 1rem;
+		}
+	}
+</style>

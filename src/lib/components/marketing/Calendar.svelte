@@ -399,7 +399,17 @@
 							: day
 								? 'bg-white dark:bg-gray-800'
 								: 'bg-gray-50 dark:bg-gray-900'}"
+						role="button"
+						tabindex={day ? 0 : -1}
+						aria-disabled={!day}
 						on:click={() => day && openCreateModal(day)}
+						on:keydown={(event) => {
+							if (!day) return;
+							if (event.key === 'Enter' || event.key === ' ') {
+								event.preventDefault();
+								openCreateModal(day);
+							}
+						}}
 					>
 						{#if day}
 							<div
@@ -421,7 +431,15 @@
 										transition:slide={{ duration: 150 }}
 										class="group flex cursor-pointer items-center overflow-hidden rounded p-0.5 text-[10px] hover:shadow-md sm:p-1 sm:text-xs dark:text-white"
 										style="background-color: {getCampaignColor(item.campaign_id)}; color: white;"
+										role="button"
+										tabindex="0"
 										on:click|stopPropagation={(e) => openContentEditor(item, e)}
+										on:keydown={(e) => {
+											if (e.key === 'Enter' || e.key === ' ') {
+												e.preventDefault();
+												openContentEditor(item, e);
+											}
+										}}
 									>
 										<!-- Platform icon -->
 										{#if item.platform}
@@ -468,12 +486,13 @@
 									</div>
 								{/each}
 								{#if dayContent.length > 3}
-									<div
+									<button
+										type="button"
 										class="cursor-pointer py-1 text-center text-xs text-primary-600 hover:underline dark:text-primary-400"
 										on:click|stopPropagation={(e) => openAllContentModal(dayContent, e)}
 									>
 										+{dayContent.length - 3} more
-									</div>
+									</button>
 								{/if}
 							</div>
 						{/if}
@@ -520,7 +539,15 @@
 									<div
 										class="flex cursor-pointer items-center rounded-lg p-2 transition-all hover:shadow-md"
 										style="background-color: {getCampaignColor(item.campaign_id)}15;"
+										role="button"
+										tabindex="0"
 										on:click={() => openContentEditor(item)}
+										on:keydown={(e) => {
+											if (e.key === 'Enter' || e.key === ' ') {
+												e.preventDefault();
+												openContentEditor(item);
+											}
+										}}
 									>
 										<!-- Left side: time and platform -->
 										<div class="mr-3 flex flex-col items-center border-r pr-3">
@@ -649,9 +676,17 @@
 				class="flex cursor-pointer items-center rounded p-3 text-sm transition-all hover:opacity-90"
 				style="background-color: {getCampaignColor(item.campaign_id)}15;"
 				role="button"
+				tabindex="0"
 				on:click={() => {
 					openContentEditor(item);
 					showAllContentModal = false;
+				}}
+				on:keydown={(event) => {
+					if (event.key === 'Enter' || event.key === ' ') {
+						event.preventDefault();
+						openContentEditor(item);
+						showAllContentModal = false;
+					}
 				}}
 			>
 				<div class="mr-3 flex-shrink-0">

@@ -35,7 +35,7 @@
 
 <Card>
 	{#if loading}
-		<div class="loader" />
+		<div class="loader"></div>
 	{:else}
 		<a href={link.url} class="link-item" on:click={() => saveLinkClick(link.id)}>
 			{#if hasMetaData}

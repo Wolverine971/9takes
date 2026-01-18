@@ -64,18 +64,20 @@
 		transition: all 0.2s ease;
 
 		&--primary {
-			@apply bg-primary-700 text-white;
+			@apply bg-purple-600 text-white;
+			box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
 
 			&:hover:not(:disabled) {
-				@apply bg-primary-800;
+				@apply bg-purple-700;
+				box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
 			}
 		}
 
 		&--secondary {
-			@apply bg-neutral-200 text-neutral-800;
+			@apply border border-slate-600 bg-slate-800/80 text-slate-200;
 
 			&:hover:not(:disabled) {
-				@apply bg-neutral-300;
+				@apply border-purple-500 bg-purple-900/30 text-white;
 			}
 		}
 

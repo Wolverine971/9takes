@@ -1,67 +1,96 @@
 <!-- src/lib/components/atoms/Popover.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 
-	export let title: string = '';
 	export let position: 'top' | 'right' | 'bottom' | 'left' | 'top-right' | 'bottom-right' =
 		'bottom-right';
 
 	let popupVisible = false;
 	let popoverContainer: HTMLElement;
-	let popoverElement: HTMLElement;
+	let triggerButton: HTMLElement;
 
-	function handleClick(e: MouseEvent) {
+	// Fixed position coordinates
+	let popoverStyle = '';
+
+	function calculatePosition() {
+		if (!triggerButton) return;
+
+		const triggerRect = triggerButton.getBoundingClientRect();
+
+		let top: number;
+		let right: number;
+
+		// Position below the trigger, aligned to right edge
+		top = triggerRect.bottom + 4;
+		// Use right positioning instead of left - distance from right edge of viewport
+		right = window.innerWidth - triggerRect.right;
+
+		// Handle top positions
+		if (position === 'top-right' || position === 'top') {
+			// Position above - estimate height as 100px
+			top = triggerRect.top - 100 - 4;
+			if (top < 8) top = triggerRect.bottom + 4;
+		}
+
+		popoverStyle = `top: ${top}px; right: ${right}px;`;
+	}
+
+	async function handleClick(e: MouseEvent) {
 		e.stopPropagation();
 		e.preventDefault();
-		popupVisible = !popupVisible;
 
 		if (popupVisible) {
-			// Add a small delay to ensure the click event has finished
-			setTimeout(() => {
-				document.addEventListener('click', handleOutsideClick);
-				if (popoverElement) {
-					adjustPosition();
-				}
-			}, 10);
+			close();
 		} else {
-			document.removeEventListener('click', handleOutsideClick);
+			await open();
 		}
+	}
+
+	async function open() {
+		// Calculate position first based on trigger
+		calculatePosition();
+		popupVisible = true;
+
+		await tick();
+
+		document.addEventListener('click', handleOutsideClick);
+		window.addEventListener('scroll', handleScroll, true);
+		window.addEventListener('resize', handleResize);
+	}
+
+	function close() {
+		popupVisible = false;
+		popoverStyle = '';
+		removeListeners();
 	}
 
 	function handleOutsideClick(e: MouseEvent) {
 		if (popoverContainer && !popoverContainer.contains(e.target as Node)) {
-			popupVisible = false;
-			document.removeEventListener('click', handleOutsideClick);
+			close();
 		}
 	}
 
-	// Function to adjust the position of the popover to prevent it from going off-screen
-	function adjustPosition() {
-		if (!popoverElement) return;
-
-		const rect = popoverElement.getBoundingClientRect();
-		const viewportWidth = window.innerWidth;
-		const viewportHeight = window.innerHeight;
-
-		// Check if popover is going off the right edge
-		if (rect.right > viewportWidth) {
-			popoverElement.style.right = '0';
-			popoverElement.style.left = 'auto';
+	function handleScroll() {
+		if (popupVisible) {
+			calculatePosition();
 		}
+	}
 
-		// Check if popover is going off the bottom edge
-		if (rect.bottom > viewportHeight) {
-			popoverElement.style.bottom = '100%';
-			popoverElement.style.top = 'auto';
+	function handleResize() {
+		if (popupVisible) {
+			calculatePosition();
 		}
+	}
+
+	function removeListeners() {
+		document.removeEventListener('click', handleOutsideClick);
+		window.removeEventListener('scroll', handleScroll, true);
+		window.removeEventListener('resize', handleResize);
 	}
 
 	onMount(() => {
-		// Cleanup event listeners when component is destroyed
 		return () => {
-			if (popupVisible) {
-				document.removeEventListener('click', handleOutsideClick);
-			}
+			removeListeners();
 		};
 	});
 </script>
@@ -71,20 +100,18 @@
 		type="button"
 		class="border-0 bg-transparent p-0"
 		on:click={handleClick}
+		bind:this={triggerButton}
 		aria-label="Open menu"
+		aria-expanded={popupVisible}
+		aria-haspopup="menu"
 	>
 		<slot name="icon" />
 	</button>
 
 	{#if popupVisible}
 		<div
-			class="absolute z-[9999] mt-1 min-w-[180px] rounded-lg border border-neutral-200 bg-white p-2 shadow-lg {position ===
-			'bottom-right'
-				? 'right-0'
-				: position === 'top-right'
-					? 'bottom-full right-0 mb-2 mt-0'
-					: 'left-0'}"
-			bind:this={popoverElement}
+			class="fixed z-[9999] min-w-[180px] rounded-lg border border-slate-700/50 bg-[#1a1a2e] p-2 shadow-[0_0_20px_rgba(124,58,237,0.2)]"
+			style={popoverStyle}
 			on:click|stopPropagation
 			on:keydown
 			role="menu"

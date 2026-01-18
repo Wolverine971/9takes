@@ -266,6 +266,10 @@
 			color: var(--neutral-600);
 		}
 
+		:global(blockquote p) {
+			margin-bottom: 0;
+		}
+
 		:global(ul),
 		:global(ol) {
 			margin: 1.5rem 0;

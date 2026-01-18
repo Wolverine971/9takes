@@ -32,7 +32,7 @@ const config = {
 		preprocessorOptions: {
 			scss: {
 				api: 'modern',
-				additionalData: `@use '${path.resolve(__dirname, 'src/scss/index.scss').replace(/\\/g, '/')}' as *;`
+				additionalData: `@use '${path.resolve(__dirname, 'src/scss/_mixins.scss').replace(/\\/g, '/')}' as *;`
 			}
 		}
 	}

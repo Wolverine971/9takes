@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-01-09_
+_Generated: 2026-01-18_
 _Total Published Posts Analyzed: 112_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -185,7 +185,7 @@ Sorted by total connections (incoming + outgoing).
 | 10 | 3 | 7 | Enneagram Communication Guide: Decode Any Personality Type i... | `enneagram/enneagram-communication-guide.md` |
 | 10 | 1 | 9 | Is the Enneagram Real? 27 Questions Everyone Asks (Finally A... | `enneagram/enneagram-faqs.md` |
 | 10 | 3 | 7 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
-| 9 | 4 | 5 | Your Attachment Style Isn | `enneagram/attachment-styles-and-enneagram-types.md` |
+| 9 | 4 | 5 | Attachment Styles and Enneagram Types: Why the Same Style Lo... | `enneagram/attachment-styles-and-enneagram-types.md` |
 | 9 | 1 | 8 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
 | 9 | 3 | 6 | Enneagram Types Working in Teams | `enneagram/enneagram-types-working-in-teams.md` |
 | 9 | 5 | 4 | Philosophy and Psychology Gave Birth to the Enneagram | `enneagram/philosophy-psychology-and-the-enneagram.md` |
@@ -195,8 +195,8 @@ Sorted by total connections (incoming + outgoing).
 | 8 | 2 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
 | 8 | 2 | 6 | Read Anyone in 30 Seconds: The Enneagram Body Language Cheat... | `enneagram/first-impression-enneagram-playbook.md` |
 | 8 | 4 | 4 | Love Languages & Enneagram Types: The Ultimate Compatibility... | `enneagram/love-languages-and-enneagram-types.md` |
-| 8 | 2 | 6 | The Ultimate Guide to Relationship Conflict Resolution [Part... | `guides/definitive-guide-to-relationship-conflict-part-1.md` |
-| 8 | 1 | 7 | The Definitive Guide to Relationship Conflict [Part 2] | `guides/definitive-guide-to-relationship-conflict-part-2.md` |
+| 8 | 2 | 6 | The Definitive Guide to Relationship Conflict [Part 1] | `guides/definitive-guide-to-relationship-conflict-part-1.md` |
+| 8 | 1 | 7 | Why Your Arguments Keep Repeating (And the Exercises That Ac... | `guides/definitive-guide-to-relationship-conflict-part-2.md` |
 | 8 | 0 | 8 | The Dark Triad Meets the Enneagram: When Personality Turns P... | `pop-culture/dark-triad-meets-enneagram.md` |
 | 7 | 2 | 5 | Astrology Meets Enneagram: Cosmic Personality Insights | `enneagram/astrology-and-the-enneagram.md` |
 | 7 | 1 | 6 | Enneagram Dating Guide for Women: Decode Your Perfect Match ... | `enneagram/enneagram-dating-guide-for-women.md` |
@@ -214,7 +214,7 @@ Sorted by total connections (incoming + outgoing).
 | 7 | 2 | 5 | Transforming Workplace Teams Using Enneagram: A Leader | `enneagram/enneagram-workplace-team-building.md` |
 | 7 | 1 | 6 | How All 9 Enneagram Types Flex: Revealing Each Type | `enneagram/how-each-enneagram-flexes.md` |
 | 7 | 1 | 6 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |
-| 7 | 4 | 3 | The $35,000 Dating Mistake: How Your Personality Type Sabota... | `guides/dating-dynamics-by-enneagram-type.md` |
+| 7 | 4 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
 | 6 | 0 | 6 | MBTI Failed Us — Can the Enneagram Do Better? | `community/mbti-vs-enneagram.md` |
 | 6 | 1 | 5 | How to Compliment Each Enneagram Type (Words That Actually L... | `enneagram/biggest-compliments-to-give-each-enneagram-type.md` |
 | 6 | 0 | 6 | Enneagram Compatibility: Why Charts Lie and What Actually Pr... | `enneagram/enneagram-compatibility-guide.md` |
@@ -232,7 +232,7 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 1 | 4 | Neurodiversity vs. Personality: Stop Looking for Labels, Sta... | `enneagram/neurodiversity-vs-personality.md` |
 | 5 | 0 | 5 | Why People Overshare: The Psychology of Shame, Boundaries, a... | `enneagram/oversharing-psychology-shame-boundaries.md` |
 | 5 | 3 | 2 | The Counterintuitive Guide to Active Listening: Why Your Per... | `guides/ultimate-guide-to-active-listening.md` |
-| 4 | 1 | 3 | Introducing 9takes: A Fresh Take on Online Conversations | `community/introducing-9takes.md` |
+| 4 | 1 | 3 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
 | 4 | 2 | 2 | 5 Reasons Reddit Can | `community/reddit-deep-connections-limitations.md` |
 | 4 | 2 | 2 | The Enneagram Under Fire: Addressing Common Criticisms & Mis... | `enneagram/enneagram-criticisms.md` |
 | 4 | 1 | 3 | Enneagram Team Dynamics: The Complete Guide to High-Performa... | `enneagram/enneagram-team-dynamics.md` |

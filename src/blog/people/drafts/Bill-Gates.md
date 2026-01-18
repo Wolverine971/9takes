@@ -12,6 +12,7 @@ published: false
 enneagram: '5'
 type: ['techie']
 person: 'Bill-Gates'
+persona_title: 'The World-Scale Problem Solver'
 suggestions: ['Steve-Jobs', 'Mark-Zuckerberg', 'Elon-Musk', 'Jeff-Bezos']
 wikipedia: 'https://en.wikipedia.org/wiki/Bill_Gates'
 twitter: 'BillGates'

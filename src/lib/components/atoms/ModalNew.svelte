@@ -130,7 +130,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: rgba(0, 0, 0, 0.7);
 		backdrop-filter: blur(4px);
 		z-index: 1000;
 		display: flex;
@@ -147,9 +147,10 @@
 	}
 
 	.modal-container {
-		background-color: var(--card-background, #ffffff);
+		background-color: #1a1a2e;
+		border: 1px solid rgba(100, 116, 139, 0.3);
 		border-radius: 12px;
-		box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+		box-shadow: 0 0 30px rgba(124, 58, 237, 0.2);
 		width: 100%;
 		max-height: calc(100vh - 2rem);
 		overflow: hidden;
@@ -170,7 +171,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 1.5rem 1.5rem 0;
-		border-bottom: 1px solid var(--border-color, #e5e7eb);
+		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
 
 		@media (max-width: 640px) {
 			padding: 1rem 1rem 0;
@@ -180,7 +181,7 @@
 	.modal-title {
 		font-size: 1.5rem;
 		font-weight: 600;
-		color: var(--text-primary, #1f2937);
+		color: #f1f5f9;
 		margin: 0;
 		line-height: 1.2;
 
@@ -194,19 +195,19 @@
 		border: none;
 		cursor: pointer;
 		padding: 8px;
-		color: var(--text-secondary, #6b7280);
+		color: #94a3b8;
 		border-radius: 6px;
 		transition: all 0.2s ease;
 		flex-shrink: 0;
 		margin-left: 1rem;
 
 		&:hover {
-			background-color: var(--light-gray, #f3f4f6);
-			color: var(--text-primary, #1f2937);
+			background-color: rgba(124, 58, 237, 0.2);
+			color: #f1f5f9;
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--primary, #3b82f6);
+			outline: 2px solid #a78bfa;
 			outline-offset: 2px;
 		}
 	}
@@ -223,7 +224,7 @@
 
 	.modal-footer {
 		padding: 0 1.5rem 1.5rem;
-		border-top: 1px solid var(--border-color, #e5e7eb);
+		border-top: 1px solid rgba(100, 116, 139, 0.3);
 		display: flex;
 		gap: 0.75rem;
 		justify-content: flex-end;
@@ -251,11 +252,11 @@
 	}
 
 	.modal-content::-webkit-scrollbar-thumb {
-		background-color: var(--border-color, #e5e7eb);
+		background-color: #334155;
 		border-radius: 3px;
 
 		&:hover {
-			background-color: var(--text-tertiary, #9ca3af);
+			background-color: #475569;
 		}
 	}
 </style>

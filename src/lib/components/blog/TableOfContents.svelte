@@ -660,18 +660,18 @@
 
 <style lang="scss">
 	.toc-sidebar {
-		/* Card base styles */
-		background-color: var(--card-background);
-		border-radius: var(--border-radius-lg);
-		box-shadow: var(--shadow-sm);
-		border: 1px solid var(--border-color);
+		/* Card base styles - Solo Leveling dark theme */
+		background-color: #12121a;
+		border-radius: 12px;
+		box-shadow: 0 0 20px rgba(124, 58, 237, 0.15);
+		border: 1px solid rgba(100, 116, 139, 0.3);
 
 		position: fixed;
 		top: 50%;
 		transform: translateY(-50%);
 		width: 200px;
-		font-size: var(--font-size-sm);
-		line-height: var(--line-height-tight);
+		font-size: 0.875rem;
+		line-height: 1.4;
 		max-width: 200px;
 		z-index: 50;
 		max-height: 70vh;
@@ -688,11 +688,11 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background-color: rgba(0, 0, 0, 0.2);
+			background-color: rgba(124, 58, 237, 0.3);
 			border-radius: 3px;
 
 			&:hover {
-				background-color: rgba(0, 0, 0, 0.3);
+				background-color: rgba(124, 58, 237, 0.5);
 			}
 		}
 
@@ -705,35 +705,35 @@
 	.toc-title {
 		margin: 0 0 0.5rem 0;
 		padding: 0 0 0.35rem 0;
-		font-size: var(--font-size-base);
-		font-weight: var(--font-weight-semibold);
-		color: var(--text-primary);
-		border-bottom: 1px solid var(--border-color);
+		font-size: 1rem;
+		font-weight: 600;
+		color: #f1f5f9;
+		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
 	}
 
 	.toc-accordion {
-		/* Card base styles */
-		background-color: var(--card-background);
-		border-radius: var(--border-radius-lg);
-		box-shadow: var(--shadow-sm);
-		border: 1px solid var(--border-color);
+		/* Card base styles - Solo Leveling dark theme */
+		background-color: #12121a;
+		border-radius: 12px;
+		box-shadow: 0 0 15px rgba(124, 58, 237, 0.1);
+		border: 1px solid rgba(100, 116, 139, 0.3);
 
 		margin: 1rem 0;
 		overflow: hidden;
 	}
 
 	.toc-summary {
-		font-weight: var(--font-weight-semibold);
-		font-size: var(--font-size-base);
+		font-weight: 600;
+		font-size: 1rem;
 		padding: 0.625rem 1rem;
 		cursor: pointer;
 		display: flex;
 		align-items: center;
 		outline: none;
-		color: var(--text-primary);
-		background-color: var(--neutral-50);
-		transition: var(--transition-base);
-		border-bottom: 1px solid var(--border-color);
+		color: #f1f5f9;
+		background-color: #1a1a2e;
+		transition: all 0.2s ease;
+		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
 
 		&::-webkit-details-marker {
 			display: none;
@@ -743,14 +743,14 @@
 			content: '▶';
 			display: inline-block;
 			margin-right: 0.5rem;
-			font-size: var(--font-size-xs);
-			transition: var(--transition-base);
-			color: var(--primary);
+			font-size: 0.75rem;
+			transition: all 0.2s ease;
+			color: #7c3aed;
 		}
 
 		&:hover {
-			color: var(--primary);
-			background-color: var(--accent-light);
+			color: #a78bfa;
+			background-color: rgba(124, 58, 237, 0.1);
 		}
 	}
 
@@ -761,7 +761,7 @@
 
 	.toc-accordion-content {
 		padding: 0.625rem 1rem;
-		background-color: var(--card-background);
+		background-color: #12121a;
 	}
 
 	/* Global styles for ToC elements */
@@ -778,7 +778,7 @@
 	:global(.toc-sublist) {
 		padding-left: 0.75rem;
 		margin-top: 0.125rem;
-		border-left: 2px solid var(--border-color);
+		border-left: 2px solid rgba(124, 58, 237, 0.3);
 		margin-left: 0.35rem;
 	}
 
@@ -793,47 +793,47 @@
 		padding-left: 0;
 		margin-top: 0.5rem;
 		padding-right: 4px;
-		font-weight: var(--font-weight-bold);
-		font-size: var(--font-size-sm);
+		font-weight: 700;
+		font-size: 0.875rem;
 	}
 
 	:global(.toc-level-h2) {
 		padding-left: 0;
 		margin-top: 0.25rem;
 		padding-right: 4px;
-		font-weight: var(--font-weight-semibold);
-		font-size: var(--font-size-sm);
+		font-weight: 600;
+		font-size: 0.875rem;
 	}
 
 	:global(.toc-level-h3) {
 		padding-left: 0.25rem;
 		padding-right: 4px;
-		font-size: var(--font-size-xs);
+		font-size: 0.75rem;
 		opacity: 0.9;
 	}
 
 	:global(.toc-level-h4) {
 		padding-left: 0.5rem;
 		padding-right: 4px;
-		font-size: var(--font-size-xs);
+		font-size: 0.75rem;
 		opacity: 0.85;
-		font-weight: var(--font-weight-normal);
+		font-weight: 400;
 	}
 
 	:global(.toc-level-h5) {
 		padding-left: 0.75rem;
 		padding-right: 4px;
-		font-size: var(--font-size-xs);
+		font-size: 0.75rem;
 		opacity: 0.8;
-		font-weight: var(--font-weight-normal);
+		font-weight: 400;
 	}
 
 	:global(.toc-level-h6) {
 		padding-left: 1rem;
 		padding-right: 4px;
-		font-size: var(--font-size-xs);
+		font-size: 0.75rem;
 		opacity: 0.75;
-		font-weight: var(--font-weight-normal);
+		font-weight: 400;
 	}
 
 	:global(.toc-link) {
@@ -845,16 +845,16 @@
 		padding: 0.2rem 0.4rem;
 		padding-right: 8px;
 		box-sizing: border-box;
-		font-size: var(--font-size-sm);
-		line-height: var(--line-height-tight);
-		color: var(--primary);
+		font-size: 0.875rem;
+		line-height: 1.4;
+		color: #a78bfa;
 		text-decoration: none;
-		border-radius: var(--border-radius-sm);
-		transition: var(--transition-base);
+		border-radius: 4px;
+		transition: all 0.2s ease;
 
 		&:hover {
-			color: var(--primary-dark);
-			background-color: var(--accent-light);
+			color: #c4b5fd;
+			background-color: rgba(124, 58, 237, 0.15);
 			text-decoration: none;
 		}
 
@@ -866,9 +866,9 @@
 	}
 
 	:global(.toc-link.active) {
-		font-weight: var(--font-weight-semibold);
-		color: var(--primary-dark);
-		background-color: var(--accent-light);
+		font-weight: 600;
+		color: #f1f5f9;
+		background-color: rgba(124, 58, 237, 0.2);
 	}
 
 	/* Responsive adjustments - hide sidebar on screens smaller than breakpoint */

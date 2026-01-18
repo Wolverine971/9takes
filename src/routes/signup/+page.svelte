@@ -163,7 +163,7 @@
 	});
 </script>
 
-<canvas id="world" class="absolute left-0 top-0 m-0 h-screen w-screen overflow-hidden p-0" />
+<canvas id="world" class="absolute left-0 top-0 m-0 h-screen w-screen overflow-hidden p-0"></canvas>
 <div class="z-[1243434] flex min-h-[60vh] flex-col">
 	<Card>
 		<h1 class="text-center">Sweet! Cannot wait to show you what we are building</h1>

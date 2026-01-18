@@ -292,7 +292,7 @@
 					<div
 						class="platform-indicator"
 						style="background-color: {platformColors[item.platform?.toLowerCase()] || '#6B7280'}"
-					/>
+					></div>
 
 					<div class="card-content">
 						<!-- Header -->
@@ -383,7 +383,6 @@
 	bind:open={showDetailModal}
 	contentItem={selectedContent}
 	{campaigns}
-	{templates}
 	on:contentUpdated={handleContentUpdate}
 	on:close={closeDetailModal}
 />

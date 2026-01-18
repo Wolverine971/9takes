@@ -64,10 +64,10 @@
 {#if navSteps.length}
 	<div class="xs:px-1 mx-auto w-full max-w-4xl px-2">
 		<div
-			class="flex h-8 items-start border-b border-gray-800/20 transition-transform hover:-translate-x-0.5 hover:bg-black/5 active:-translate-x-1"
+			class="flex h-8 items-start border-b border-slate-700/30 transition-transform hover:-translate-x-0.5 hover:bg-purple-900/10 active:-translate-x-1"
 		>
 			<button
-				class="xs:p-0.5 xs:min-w-7 xs:min-h-7 mr-1 flex min-h-8 min-w-8 cursor-pointer items-center justify-center rounded border-0 bg-transparent p-1 text-gray-600 transition-colors duration-200"
+				class="xs:p-0.5 xs:min-w-7 xs:min-h-7 mr-1 flex min-h-8 min-w-8 cursor-pointer items-center justify-center rounded border-0 bg-transparent p-1 text-slate-400 transition-colors duration-200 hover:text-purple-400"
 				on:click={goBack}
 				aria-label="Go back"
 			>
@@ -91,7 +91,7 @@
 			{#if previousPage}
 				<a
 					href={previousPage.url}
-					class="xs:text-sm xs:p-1 max-w-[calc(100%-50px)] overflow-hidden text-ellipsis whitespace-nowrap rounded px-2 py-1 capitalize text-gray-600 no-underline transition-colors duration-200"
+					class="xs:text-sm xs:p-1 max-w-[calc(100%-50px)] overflow-hidden text-ellipsis whitespace-nowrap rounded px-2 py-1 capitalize text-slate-400 no-underline transition-colors duration-200 hover:text-purple-400"
 				>
 					{previousPage.name}
 				</a>

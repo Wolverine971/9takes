@@ -65,6 +65,13 @@
 		newClientGoal = '';
 	}
 
+	function handleOverlayKeydown(event: KeyboardEvent) {
+		if (event.key === 'Escape' || event.key === 'Enter' || event.key === ' ') {
+			event.preventDefault();
+			closeModal();
+		}
+	}
+
 	const statusLabels: Record<string, { label: string; color: string }> = {
 		prospect: { label: 'Prospect', color: '#6366f1' },
 		intake_sent: { label: 'Intake Sent', color: '#f59e0b' },
@@ -105,8 +112,9 @@
 		</div>
 
 		<div class="filter-group">
-			<label>Status:</label>
+			<label for="status-filter">Status:</label>
 			<select
+				id="status-filter"
 				value={data.filters.status}
 				on:change={(e) => setFilter('status', e.currentTarget.value)}
 			>
@@ -118,8 +126,12 @@
 		</div>
 
 		<div class="filter-group">
-			<label>Type:</label>
-			<select value={data.filters.type} on:change={(e) => setFilter('type', e.currentTarget.value)}>
+			<label for="type-filter">Type:</label>
+			<select
+				id="type-filter"
+				value={data.filters.type}
+				on:change={(e) => setFilter('type', e.currentTarget.value)}
+			>
 				<option value="all">All Types</option>
 				{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
 					<option value={type.toString()}>Type {type}</option>
@@ -221,10 +233,18 @@
 
 <!-- Create Client Modal -->
 {#if showCreateModal}
-	<div class="modal-overlay" on:click|self={closeModal}>
+	<div
+		class="modal-overlay"
+		role="dialog"
+		aria-modal="true"
+		aria-labelledby="create-client-title"
+		tabindex="-1"
+		on:click|self={closeModal}
+		on:keydown={handleOverlayKeydown}
+	>
 		<div class="modal">
 			<div class="modal-header">
-				<h2>New Client</h2>
+				<h2 id="create-client-title">New Client</h2>
 				<button class="close-btn" on:click={closeModal}>&times;</button>
 			</div>
 

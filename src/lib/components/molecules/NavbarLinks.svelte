@@ -26,11 +26,11 @@
 		<button
 			class="main-subNavBtn {!isMobile && 'big-btn'} {!isMobile && 'subNavBtn'}"
 			style="background: {isMobile && 'white'}; border: {isMobile && 'none'};"
-			>Enneagram Corner<i class="fa fa-caret-down" /></button
+			>Enneagram Corner<i class="fa fa-caret-down"></i></button
 		>
 		<div class="main-subnav-content {isMobile && 'mobile-card'}">
 			<div class="subnav">
-				<button class="subNavBtn">Overview<i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Overview<i class="fa fa-caret-down"></i></button>
 				<div class="subnav-content">
 					<!-- <a href="#enneagram">Understanding the Enneagram</a> -->
 					<a href="/enneagram-corner/philosophy-psychology-and-the-enneagram"
@@ -42,7 +42,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subNavBtn">9 Types <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">9 Types <i class="fa fa-caret-down"></i></button>
 				<div class="subnav-content">
 					<a href="/enneagram-corner/enneagram-type-1">Type 1: The Perfectionist</a>
 					<a href="/enneagram-corner/enneagram-type-2">Type 2: The Helper</a>
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subNavBtn">Personal Development <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Personal Development <i class="fa fa-caret-down"></i></button>
 				<div class="subnav-content">
 					<a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
 						>Determining your type</a
@@ -68,7 +68,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subNavBtn">Relationships <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Relationships <i class="fa fa-caret-down"></i></button>
 				<div class="subnav-content">
 					<a href="/enneagram-corner/enneagram-types-in-relationships">Types in relationships</a>
 					<a href="/enneagram-corner/enneagram-communication-tips">Communication tips</a>
@@ -76,7 +76,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subNavBtn">Workplace <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Workplace <i class="fa fa-caret-down"></i></button>
 				<div class="subnav-content">
 					<a href="/enneagram-corner/enneagram-workplace-team-building">Team building</a>
 					<a href="/enneagram-corner/enneagram-types-working-in-teams">Working in teams</a>
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subNavBtn">Resources <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Resources <i class="fa fa-caret-down"></i></button>
 				<div class="subnav-content">
 					<a href="/enneagram-corner/enneagram-faqs">FAQs</a>
 					<a href="/enneagram-corner/enneagram-books-websites-podcasts"
@@ -96,7 +96,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subNavBtn">Mental Health <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Mental Health <i class="fa fa-caret-down"></i></button>
 				<div class="subnav-content">
 					<a href="/enneagram-corner/mental-health">Mental Health Hub</a>
 					<a href="/enneagram-corner/enneagram-and-mental-illness">Mental Illness Guide</a>
@@ -110,7 +110,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subNavBtn">Situational Topics <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Situational Topics <i class="fa fa-caret-down"></i></button>
 				<div class="subnav-content">
 					<a href="/enneagram-corner/enneagram-types-at-party">Types at a party</a>
 					<a href="/enneagram-corner/enneagram-types-being-ghosted">Impact of ghosting</a>

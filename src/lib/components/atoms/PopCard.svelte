@@ -174,7 +174,7 @@
 	{/if}
 
 	<!-- Overlay with scanline effect -->
-	<div class="image-card__overlay" />
+	<div class="image-card__overlay"></div>
 
 	<!-- Content container positioned at bottom -->
 	<div class="image-card__content">

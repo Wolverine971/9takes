@@ -157,464 +157,567 @@
 	]}
 />
 
-<div class="mx-auto max-w-7xl px-4">
-	<!-- Hero -->
-	<!-- Replace your existing hero section with this clean version -->
-	<section id="top" class="py-16 md:py-20">
-		<!-- Main headline and CTA aligned horizontally -->
-		<div class="mb-16 flex flex-col gap-12 lg:flex-row lg:items-start">
-			<div class="flex-1 lg:pr-8">
-				<h1
-					class="mb-6 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-4xl font-extrabold leading-tight text-transparent md:text-5xl"
-				>
-					Know thyself, <br /> everything else will get easier.
-				</h1>
-				<p class="mb-8 text-xl font-medium text-gray-600">
-					In any given situation → 9 ways to see it.
-				</p>
+<div class="page-wrapper">
+	<div class="mx-auto max-w-7xl px-4">
+		<!-- Hero -->
+		<section id="top" class="py-16 md:py-20">
+			<!-- Main headline and CTA aligned horizontally -->
+			<div class="mb-16 flex flex-col gap-12 lg:flex-row lg:items-start">
+				<div class="flex-1 lg:pr-8">
+					<h1 class="hero-title mb-6 text-4xl font-extrabold leading-tight md:text-5xl">
+						Know thyself, <br /> everything else will get easier.
+					</h1>
+					<p class="mb-8 text-xl font-medium text-slate-400">
+						In any given situation → 9 ways to see it.
+					</p>
 
-				<!-- Clean Question Stack -->
-				<div class="mb-8 space-y-4">
-					<div class="flex items-start gap-3">
-						<div class="mt-1 flex-shrink-0">
-							<div class="flex h-6 w-6 items-center justify-center rounded-full bg-indigo-100">
-								<span class="text-sm">🎯</span>
+					<!-- Clean Question Stack -->
+					<div class="mb-8 space-y-4">
+						<div class="flex items-start gap-3">
+							<div class="mt-1 flex-shrink-0">
+								<div
+									class="flex h-6 w-6 items-center justify-center rounded-full bg-purple-500/20 text-sm"
+								>
+									<span>🎯</span>
+								</div>
 							</div>
+							<span class="text-lg font-medium text-slate-300"
+								>Want to sharpen your situational awareness?</span
+							>
 						</div>
-						<span class="text-lg font-medium text-gray-700"
-							>Want to sharpen your situational awareness?</span
-						>
-					</div>
 
-					<div class="flex items-start gap-3">
-						<div class="mt-1 flex-shrink-0">
-							<div class="flex h-6 w-6 items-center justify-center rounded-full bg-indigo-100">
-								<span class="text-sm">💭</span>
+						<div class="flex items-start gap-3">
+							<div class="mt-1 flex-shrink-0">
+								<div
+									class="flex h-6 w-6 items-center justify-center rounded-full bg-purple-500/20 text-sm"
+								>
+									<span>💭</span>
+								</div>
 							</div>
+							<span class="text-lg font-medium text-slate-300"
+								>Need perspective? <span class="font-normal italic text-slate-500"
+									>(as abstract as that sounds)</span
+								></span
+							>
 						</div>
-						<span class="text-lg font-medium text-gray-700"
-							>Need perspective? <span class="font-normal italic text-gray-500"
-								>(as abstract as that sounds)</span
-							></span
-						>
-					</div>
 
-					<div class="flex items-start gap-3">
-						<div class="mt-1 flex-shrink-0">
-							<div class="flex h-6 w-6 items-center justify-center rounded-full bg-indigo-100">
-								<span class="text-sm">🧪</span>
+						<div class="flex items-start gap-3">
+							<div class="mt-1 flex-shrink-0">
+								<div
+									class="flex h-6 w-6 items-center justify-center rounded-full bg-purple-500/20 text-sm"
+								>
+									<span>🧪</span>
+								</div>
 							</div>
+							<span class="text-lg font-medium text-slate-300">Want to stress-test your ideas?</span
+							>
 						</div>
-						<span class="text-lg font-medium text-gray-700">Want to stress-test your ideas?</span>
 					</div>
 				</div>
-			</div>
 
-			<!-- Waitlist card -->
-			<div class="w-full flex-shrink-0 lg:w-96">
-				<div class="rounded-2xl border-2 border-indigo-200 bg-white p-8 shadow-xl">
-					{#if !submitted}
-						<div class="mb-6 text-center">
-							<div class="mb-2 text-sm font-semibold uppercase tracking-wide text-indigo-600">
-								Join the Priority Waitlist
+				<!-- Waitlist card -->
+				<div class="w-full flex-shrink-0 lg:w-96">
+					<div class="waitlist-card rounded-2xl border border-purple-500/30 p-8 shadow-xl">
+						{#if !submitted}
+							<div class="mb-6 text-center">
+								<div class="mb-2 text-sm font-semibold uppercase tracking-wide text-purple-400">
+									Join the Priority Waitlist
+								</div>
 							</div>
-						</div>
 
-						<h2 class="mb-2 text-xl font-bold text-indigo-800">Lock In Early Access</h2>
-						<p class="mb-6 text-gray-600">First spots open soon—get notified before anyone else.</p>
+							<h2 class="mb-2 text-xl font-bold text-slate-100">Lock In Early Access</h2>
+							<p class="mb-6 text-slate-400">First spots open soon—get notified before anyone else.</p>
 
-						<form
-							method="POST"
-							action="?/coachSub"
-							use:enhance={({ formData }) => {
-								loading = true;
-								// Add time token for bot detection (time since page load)
-								formData.set('_timeToken', String(Date.now() - formLoadTime));
-								return async ({ result, update }) => {
-									await update();
-									loading = false;
-								};
-							}}
-							class="space-y-4"
-						>
-							<!-- Honeypot field - hidden from humans, bots will fill it -->
-							<div style="position: absolute; left: -9999px; top: -9999px;" aria-hidden="true">
-								<label for="website">Website</label>
-								<input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
-							</div>
-							<div>
-								<label for="name" class="sr-only">Your name</label>
-								<input
-									id="name"
-									name="name"
-									type="text"
-									placeholder="Your name"
-									value={form?.name || ''}
-									required
+							<form
+								method="POST"
+								action="?/coachSub"
+								use:enhance={({ formData }) => {
+									loading = true;
+									// Add time token for bot detection (time since page load)
+									formData.set('_timeToken', String(Date.now() - formLoadTime));
+									return async ({ result, update }) => {
+										await update();
+										loading = false;
+									};
+								}}
+								class="space-y-4"
+							>
+								<!-- Honeypot field - hidden from humans, bots will fill it -->
+								<div style="position: absolute; left: -9999px; top: -9999px;" aria-hidden="true">
+									<label for="website">Website</label>
+									<input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+								</div>
+								<div>
+									<label for="name" class="sr-only">Your name</label>
+									<input
+										id="name"
+										name="name"
+										type="text"
+										placeholder="Your name"
+										value={form?.name || ''}
+										required
+										disabled={loading}
+										class="form-input w-full rounded-lg border border-slate-600 bg-slate-800/50 p-3 text-slate-200 placeholder-slate-500 transition-colors focus:border-purple-500 focus:ring-2 focus:ring-purple-500/30 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+									/>
+								</div>
+								<div>
+									<label for="email" class="sr-only">Your email</label>
+									<input
+										id="email"
+										name="email"
+										type="email"
+										placeholder="you@example.com"
+										value={form?.email || ''}
+										required
+										disabled={loading}
+										class="form-input w-full rounded-lg border border-slate-600 bg-slate-800/50 p-3 text-slate-200 placeholder-slate-500 transition-colors focus:border-purple-500 focus:ring-2 focus:ring-purple-500/30 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+									/>
+								</div>
+								<div>
+									<label for="enneagramType" class="sr-only">Your Enneagram Type (optional)</label>
+									<select
+										id="enneagramType"
+										name="enneagramType"
+										value={form?.enneagramType || ''}
+										disabled={loading}
+										class="form-input w-full rounded-lg border border-slate-600 bg-slate-800/50 p-3 text-slate-200 transition-colors focus:border-purple-500 focus:ring-2 focus:ring-purple-500/30 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+									>
+										<option value="">Your Enneagram Type (optional)</option>
+										<option value="1">Type 1 – The Perfectionist</option>
+										<option value="2">Type 2 – The Helper</option>
+										<option value="3">Type 3 – The Achiever</option>
+										<option value="4">Type 4 – The Individualist</option>
+										<option value="5">Type 5 – The Investigator</option>
+										<option value="6">Type 6 – The Loyalist</option>
+										<option value="7">Type 7 – The Enthusiast</option>
+										<option value="8">Type 8 – The Challenger</option>
+										<option value="9">Type 9 – The Peacemaker</option>
+									</select>
+								</div>
+								<div>
+									<label for="sessionGoal" class="sr-only"
+										>What are you looking for in this coaching session?</label
+									>
+									<textarea
+										id="sessionGoal"
+										name="sessionGoal"
+										placeholder="What do you want to walk away with? (context, a decision, a script, etc.)"
+										maxlength="600"
+										required
+										rows="3"
+										disabled={loading}
+										class="form-input w-full rounded-lg border border-slate-600 bg-slate-800/50 p-3 text-slate-200 placeholder-slate-500 transition-colors focus:border-purple-500 focus:ring-2 focus:ring-purple-500/30 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+										>{form?.sessionGoal || ''}</textarea
+									>
+									<p class="mt-1 text-xs text-slate-500">
+										Helps tailor your session (600 characters max).
+									</p>
+								</div>
+
+								<!-- Google reCAPTCHA -->
+								<div
+									class="g-recaptcha"
+									data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY}
+									data-theme="dark"
+								></div>
+
+								{#if form?.message && !form?.success}
+									<div class="text-sm text-red-400">{form.message}</div>
+								{/if}
+								<button
+									type="submit"
+									class="btn-primary w-full rounded-lg px-6 py-4 text-lg font-semibold text-white transition-all hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0 disabled:hover:shadow-none"
 									disabled={loading}
-									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
-								/>
-							</div>
-							<div>
-								<label for="email" class="sr-only">Your email</label>
-								<input
-									id="email"
-									name="email"
-									type="email"
-									placeholder="you@example.com"
-									value={form?.email || ''}
-									required
-									disabled={loading}
-									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
-								/>
-							</div>
-							<div>
-								<label for="enneagramType" class="sr-only">Your Enneagram Type (optional)</label>
-								<select
-									id="enneagramType"
-									name="enneagramType"
-									value={form?.enneagramType || ''}
-									disabled={loading}
-									class="w-full rounded-lg border border-gray-300 bg-white p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
+									aria-busy={loading}
 								>
-									<option value="">Your Enneagram Type (optional)</option>
-									<option value="1">Type 1 – The Perfectionist</option>
-									<option value="2">Type 2 – The Helper</option>
-									<option value="3">Type 3 – The Achiever</option>
-									<option value="4">Type 4 – The Individualist</option>
-									<option value="5">Type 5 – The Investigator</option>
-									<option value="6">Type 6 – The Loyalist</option>
-									<option value="7">Type 7 – The Enthusiast</option>
-									<option value="8">Type 8 – The Challenger</option>
-									<option value="9">Type 9 – The Peacemaker</option>
-								</select>
-							</div>
-							<div>
-								<label for="sessionGoal" class="sr-only"
-									>What are you looking for in this coaching session?</label
-								>
-								<textarea
-									id="sessionGoal"
-									name="sessionGoal"
-									placeholder="What do you want to walk away with? (context, a decision, a script, etc.)"
-									maxlength="600"
-									required
-									rows="3"
-									disabled={loading}
-									class="w-full rounded-lg border border-gray-300 p-3 transition-colors focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
-									>{form?.sessionGoal || ''}</textarea
-								>
-								<p class="mt-1 text-xs text-gray-500">
-									Helps tailor your session (600 characters max).
+									{loading ? 'Processing…' : 'Join Waitlist'}
+								</button>
+								<div class="text-center text-xs text-slate-500">
+									💳 No payment until sessions launch
+								</div>
+							</form>
+						{:else}
+							<div class="py-4 text-center">
+								<div class="mb-4 flex justify-center">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="48"
+										height="48"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										class="text-green-400"
+										><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline
+											points="22 4 12 14.01 9 11.01"
+										/></svg
+									>
+								</div>
+								<h2 class="mb-4 text-2xl font-bold text-green-400">You're on the list!</h2>
+								<p class="mb-6 text-slate-400">We'll email you as soon as sessions open.</p>
+								<p class="mb-8 text-sm text-slate-500">
+									{#if form?.email}Confirmation sent to <strong class="text-slate-300"
+											>{form.email}</strong
+										>{:else}Welcome to the priority list!{/if}
 								</p>
-							</div>
-
-							<!-- Google reCAPTCHA -->
-							<div
-								class="g-recaptcha"
-								data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY}
-								data-theme="light"
-							></div>
-
-							{#if form?.message && !form?.success}
-								<div class="text-sm text-red-500">{form.message}</div>
-							{/if}
-							<button
-								type="submit"
-								class="w-full rounded-lg bg-indigo-600 px-6 py-4 text-lg font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0 disabled:hover:shadow-none"
-								disabled={loading}
-								aria-busy={loading}
-							>
-								{loading ? 'Processing…' : 'Join Waitlist'}
-							</button>
-							<div class="text-center text-xs text-gray-500">
-								💳 No payment until sessions launch
-							</div>
-						</form>
-					{:else}
-						<div class="py-4 text-center">
-							<div class="mb-4 flex justify-center">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="48"
-									height="48"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									class="text-green-500"
-									><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline
-										points="22 4 12 14.01 9 11.01"
-									/></svg
+								<a href="/" class="btn-primary inline-block rounded-lg px-6 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:shadow-md"
+									>Back to 9takes</a
 								>
 							</div>
-							<h2 class="mb-4 text-2xl font-bold text-green-600">You're on the list!</h2>
-							<p class="mb-6 text-gray-600">We'll email you as soon as sessions open.</p>
-							<p class="mb-8 text-sm text-gray-500">
-								{#if form?.email}Confirmation sent to <strong>{form.email}</strong>{:else}Welcome to
-									the priority list!{/if}
-							</p>
-							<a
-								href="/"
-								class="inline-block rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md"
-								>Back to 9takes</a
+						{/if}
+					</div>
+				</div>
+			</div>
+
+			<div class="mx-auto mb-16 max-w-4xl">
+				<!-- Value Proposition -->
+				<div class="value-prop rounded-lg border-l-4 border-purple-500 p-6">
+					<p class="text-lg leading-relaxed text-slate-300">
+						<span class="font-semibold text-slate-100">Review your life up to this point.</span><br
+						/>
+						Identify your relationship to the 3 core emotions that form your personality. Walk away understanding
+						your strengths and weaknesses, identifying your personality's blind spots and work 1‑on‑1
+						to create your own
+						<span class="font-semibold text-purple-400">personalized life strategy.</span>
+					</p>
+				</div>
+			</div>
+
+			<!-- Clean Benefits Section -->
+			<div class="mx-auto max-w-4xl">
+				<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+					<div class="benefit-card flex items-start gap-4 rounded-xl p-6">
+						<div class="flex-shrink-0">
+							<div
+								class="flex h-10 w-10 items-center justify-center rounded-full bg-purple-500 font-bold text-white"
 							>
+								✓
+							</div>
 						</div>
-					{/if}
+						<div>
+							<h3 class="mb-1 text-lg font-semibold text-slate-100">60‑minute deep‑dive</h3>
+							<p class="text-sm text-slate-400">Comprehensive personality analysis</p>
+						</div>
+					</div>
+
+					<div class="benefit-card flex items-start gap-4 rounded-xl p-6">
+						<div class="flex-shrink-0">
+							<div
+								class="flex h-10 w-10 items-center justify-center rounded-full bg-purple-600 font-bold text-white"
+							>
+								✓
+							</div>
+						</div>
+						<div>
+							<h3 class="mb-1 text-lg font-semibold text-slate-100">Type‑specific growth blueprint</h3>
+							<p class="text-sm text-slate-400">
+								<span class="font-semibold text-purple-400">Max out your personality</span>
+							</p>
+						</div>
+					</div>
+
+					<div class="benefit-card flex items-start gap-4 rounded-xl p-6">
+						<div class="flex-shrink-0">
+							<div
+								class="flex h-10 w-10 items-center justify-center rounded-full bg-green-500 font-bold text-white"
+							>
+								✓
+							</div>
+						</div>
+						<div>
+							<h3 class="mb-1 text-lg font-semibold text-slate-100">Relationship insights</h3>
+							<p class="text-sm text-slate-400">Communication tools & strategies</p>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="mx-auto mb-16 max-w-4xl">
-			<!-- Value Proposition -->
-			<div class="rounded-lg border-l-4 border-indigo-500 bg-gray-50 p-6">
-				<p class="text-lg leading-relaxed text-gray-700">
-					<span class="font-semibold text-gray-900">Review your life up to this point.</span><br />
-					Identify your relationship to the 3 core emotions that form your personality. Walk away understanding
-					your strengths and weaknesses, identifying your personality's blind spots and work 1‑on‑1 to
-					create your own
-					<span class="font-semibold text-indigo-700">personalized life strategy.</span>
-				</p>
+		<!-- Benefits -->
+		<section class="benefits-section my-16 rounded-2xl py-16">
+			<h2 class="mb-10 text-center text-3xl font-bold text-slate-100">
+				Why 9‑Lens Beats Solo Thinking/ DIY
+			</h2>
+			<div class="grid grid-cols-1 gap-6 px-4 sm:grid-cols-2 lg:grid-cols-4">
+				{#each benefits as benefit}
+					<div class="card h-full rounded-xl p-6 text-center transition duration-300 hover:-translate-y-1">
+						<div class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-purple-500/20">
+							<div class="text-purple-400">{@html benefit.icon}</div>
+						</div>
+						<h3 class="mb-3 text-xl font-semibold text-purple-400">{benefit.title}</h3>
+						<p class="text-sm text-slate-400">{benefit.description}</p>
+					</div>
+				{/each}
 			</div>
-		</div>
+		</section>
 
-		<!-- Clean Benefits Section -->
-		<div class="mx-auto max-w-4xl">
-			<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-				<div
-					class="flex items-start gap-4 rounded-xl border border-indigo-100 bg-gradient-to-br from-indigo-50 to-blue-50 p-6"
-				>
-					<div class="flex-shrink-0">
-						<div
-							class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-600 font-bold text-white"
+		<!-- Session Steps -->
+		<section class="py-16">
+			<h2 class="mb-10 text-center text-3xl font-bold text-slate-100">
+				Inside Your 60‑Minute Session
+			</h2>
+			<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+				{#each sessionSteps as step}
+					<div class="card flex rounded-xl p-6 transition duration-300 hover:-translate-y-1">
+						<div class="mr-4 text-3xl font-bold text-purple-500 opacity-80">{step.number}</div>
+						<div>
+							<h3 class="mb-2 text-xl font-semibold text-purple-400">{step.title}</h3>
+							<p class="text-sm text-slate-400">{step.description}</p>
+						</div>
+					</div>
+				{/each}
+			</div>
+		</section>
+
+		<!-- Personality-Maxing Section -->
+		<section class="personality-max-section my-16 rounded-2xl p-12 text-center">
+			<h2 class="mb-6 text-3xl font-bold text-purple-400">"Max Out" Your Personality.</h2>
+			<p class="mx-auto mb-6 max-w-3xl text-lg text-slate-300">
+				Every personality type has <strong class="text-slate-100"
+					>baseline strengths and predictable blind spots</strong
+				>. Think of it as your personality's starting stats—before you level up.
+			</p>
+			<p class="mx-auto mb-8 max-w-3xl text-lg text-slate-300">
+				Coaching doesn't just give you insights; it gives you <em>targeted drills</em> to turn your type's
+				weak points into competitive advantages.
+			</p>
+			<div class="mx-auto grid max-w-4xl grid-cols-1 gap-6 md:grid-cols-3">
+				<div class="card rounded-lg p-6">
+					<div class="mb-2 text-2xl">📊</div>
+					<h3 class="mb-2 font-semibold text-slate-100">Personality Audit</h3>
+					<p class="text-sm text-slate-400">
+						Baseline assessment of your type's patterns & blind spots
+					</p>
+				</div>
+				<div class="card rounded-lg p-6">
+					<div class="mb-2 text-2xl">🎯</div>
+					<h3 class="mb-2 font-semibold text-slate-100">Targeted Drills</h3>
+					<p class="text-sm text-slate-400">Type‑specific exercises to sharpen weak areas</p>
+				</div>
+				<div class="card rounded-lg p-6">
+					<div class="mb-2 text-2xl">⚡</div>
+					<h3 class="mb-2 font-semibold text-slate-100">Precise Moves</h3>
+					<p class="text-sm text-slate-400">Tactical scripts & timing strategies for real scenarios</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Enneagram Visual -->
+		<section class="enneagram-visual-section my-16 rounded-2xl py-16 text-white">
+			<div class="flex flex-col gap-8 md:flex-row md:items-center">
+				<div class="flex-1 p-8">
+					<h2 class="mb-6 text-3xl font-bold text-white">Why the Enneagram Works</h2>
+					<p class="mb-4 text-lg text-white/90">
+						Nine archetypes. Infinite context. Coaching translates theory into precise moves for your
+						real‑world challenges.
+					</p>
+					<p class="mb-4 text-lg text-white/90">
+						Stop guessing why people react the way they do—start anticipating.
+					</p>
+					<div class="mt-8 flex flex-col items-center gap-4 sm:flex-row">
+						<a
+							href="#top"
+							class="inline-block rounded-lg bg-white px-6 py-3.5 font-semibold text-purple-700 transition hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-purple-900"
+							>Join Waitlist</a
+						><a
+							href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
+							class="border-b border-white/30 pb-0.5 transition hover:border-white focus-visible:border-white focus-visible:outline-none"
+							>Learn the basics →</a
 						>
-							✓
-						</div>
-					</div>
-					<div>
-						<h3 class="mb-1 text-lg font-semibold text-gray-900">60‑minute deep‑dive</h3>
-						<p class="text-sm text-gray-600">Comprehensive personality analysis</p>
 					</div>
 				</div>
+				<div class="flex flex-1 items-center justify-center p-4"><EnneagramDiagram /></div>
+			</div>
+		</section>
 
-				<div
-					class="flex items-start gap-4 rounded-xl border border-purple-100 bg-gradient-to-br from-purple-50 to-indigo-50 p-6"
+		<!-- FAQ Section -->
+		<section class="py-16">
+			<h2 class="mb-10 text-center text-3xl font-bold text-slate-100">Frequently Asked Questions</h2>
+			<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+				<div class="card rounded-xl p-6">
+					<h3 class="relative mb-3 pl-6 text-xl font-semibold text-purple-400">
+						<span class="absolute left-0 text-purple-500">Q:</span>
+						How long are the coaching sessions?
+					</h3>
+					<p class="relative pl-6 text-slate-400">
+						<span class="absolute left-0 font-semibold text-purple-400">A:</span>
+						Each session is 60 minutes. Follow‑up sessions available in 30 or 60‑minute formats based
+						on your needs.
+					</p>
+				</div>
+				<div class="card rounded-xl p-6">
+					<h3 class="relative mb-3 pl-6 text-xl font-semibold text-purple-400">
+						<span class="absolute left-0 text-purple-500">Q:</span>
+						Do I need to know my Enneagram type already?
+					</h3>
+					<p class="relative pl-6 text-slate-400">
+						<span class="absolute left-0 font-semibold text-purple-400">A:</span>
+						No. Type discovery is part of the coaching process—we use behavioral patterns, not just tests.
+					</p>
+				</div>
+				<div class="card rounded-xl p-6">
+					<h3 class="relative mb-3 pl-6 text-xl font-semibold text-purple-400">
+						<span class="absolute left-0 text-purple-500">Q:</span>
+						How are sessions conducted?
+					</h3>
+					<p class="relative pl-6 text-slate-400">
+						<span class="absolute left-0 font-semibold text-purple-400">A:</span>
+						Secure video calls. Connect from anywhere—no travel, no waiting rooms, just focused strategy
+						time.
+					</p>
+				</div>
+				<div class="card rounded-xl p-6">
+					<h3 class="relative mb-3 pl-6 text-xl font-semibold text-purple-400">
+						<span class="absolute left-0 text-purple-500">Q:</span>
+						When will coaching sessions become available?
+					</h3>
+					<p class="relative pl-6 text-slate-400">
+						<span class="absolute left-0 font-semibold text-purple-400">A:</span>
+						We're currently finalizing our coaching team and platform. Waitlist members will be the first
+						to know when sessions launch and will receive priority booking.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Final CTA -->
+		<section class="final-cta my-16 rounded-2xl px-8 py-12 text-center">
+			<div class="mx-auto max-w-2xl">
+				<h2 class="mb-4 text-3xl font-bold text-purple-400">Go from Blind Spots to Breakthroughs</h2>
+				<p class="mb-8 text-lg text-slate-400">Join the waitlist now—openings are limited</p>
+				<a
+					href="#top"
+					class="btn-primary inline-block rounded-lg px-8 py-4 text-lg font-semibold text-white transition hover:-translate-y-1 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
+					>Join the Waitlist</a
 				>
-					<div class="flex-shrink-0">
-						<div
-							class="flex h-10 w-10 items-center justify-center rounded-full bg-purple-600 font-bold text-white"
-						>
-							✓
-						</div>
-					</div>
-					<div>
-						<h3 class="mb-1 text-lg font-semibold text-gray-900">Type‑specific growth blueprint</h3>
-						<p class="text-sm text-gray-600">
-							<span class="font-semibold">Max out your personality</span>
-						</p>
-					</div>
-				</div>
-
-				<div
-					class="flex items-start gap-4 rounded-xl border border-green-100 bg-gradient-to-br from-green-50 to-emerald-50 p-6"
-				>
-					<div class="flex-shrink-0">
-						<div
-							class="flex h-10 w-10 items-center justify-center rounded-full bg-green-600 font-bold text-white"
-						>
-							✓
-						</div>
-					</div>
-					<div>
-						<h3 class="mb-1 text-lg font-semibold text-gray-900">Relationship insights</h3>
-						<p class="text-sm text-gray-600">Communication tools & strategies</p>
-					</div>
-				</div>
+				<div class="mt-4 text-sm text-slate-500">⏱ First to know when sessions launch</div>
 			</div>
-		</div>
-	</section>
-
-	<!-- Benefits -->
-	<section class="my-16 rounded-2xl bg-gray-50 py-16">
-		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">
-			Why 9‑Lens Beats Solo Thinking/ DIY
-		</h2>
-		<div class="grid grid-cols-1 gap-6 px-4 sm:grid-cols-2 lg:grid-cols-4">
-			{#each benefits as benefit}
-				<div
-					class="h-full rounded-xl border border-gray-200 bg-white p-6 text-center transition duration-300 hover:-translate-y-1 hover:border-indigo-200 hover:shadow-md"
-				>
-					<div
-						class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-indigo-100"
-					>
-						<div class="text-indigo-800">{@html benefit.icon}</div>
-					</div>
-					<h3 class="mb-3 text-xl font-semibold text-indigo-800">{benefit.title}</h3>
-					<p class="text-sm text-gray-600">{benefit.description}</p>
-				</div>
-			{/each}
-		</div>
-	</section>
-
-	<!-- Session Steps -->
-	<section class="py-16">
-		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">
-			Inside Your 60‑Minute Session
-		</h2>
-		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-			{#each sessionSteps as step}
-				<div
-					class="flex rounded-xl border border-gray-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-indigo-200 hover:shadow-md"
-				>
-					<div class="mr-4 text-3xl font-bold text-indigo-600 opacity-80">{step.number}</div>
-					<div>
-						<h3 class="mb-2 text-xl font-semibold text-indigo-800">{step.title}</h3>
-						<p class="text-sm text-gray-600">{step.description}</p>
-					</div>
-				</div>
-			{/each}
-		</div>
-	</section>
-
-	<!-- Personality-Maxing Section -->
-	<section
-		class="my-16 rounded-2xl bg-gradient-to-r from-purple-50 via-white to-indigo-50 p-12 text-center shadow-md"
-	>
-		<h2 class="mb-6 text-3xl font-bold text-indigo-800">"Max Out" Your Personality.</h2>
-		<p class="mx-auto mb-6 max-w-3xl text-lg text-gray-700">
-			Every personality type has <strong>baseline strengths and predictable blind spots</strong>.
-			Think of it as your personality's starting stats—before you level up.
-		</p>
-		<p class="mx-auto mb-8 max-w-3xl text-lg text-gray-700">
-			Coaching doesn't just give you insights; it gives you <em>targeted drills</em> to turn your type's
-			weak points into competitive advantages.
-		</p>
-		<div class="mx-auto grid max-w-4xl grid-cols-1 gap-6 md:grid-cols-3">
-			<div class="rounded-lg bg-white p-6 shadow-sm">
-				<div class="mb-2 text-2xl">📊</div>
-				<h3 class="mb-2 font-semibold text-gray-800">Personality Audit</h3>
-				<p class="text-sm text-gray-600">
-					Baseline assessment of your type's patterns & blind spots
-				</p>
-			</div>
-			<div class="rounded-lg bg-white p-6 shadow-sm">
-				<div class="mb-2 text-2xl">🎯</div>
-				<h3 class="mb-2 font-semibold text-gray-800">Targeted Drills</h3>
-				<p class="text-sm text-gray-600">Type‑specific exercises to sharpen weak areas</p>
-			</div>
-			<div class="rounded-lg bg-white p-6 shadow-sm">
-				<div class="mb-2 text-2xl">⚡</div>
-				<h3 class="mb-2 font-semibold text-gray-800">Precise Moves</h3>
-				<p class="text-sm text-gray-600">Tactical scripts & timing strategies for real scenarios</p>
-			</div>
-		</div>
-	</section>
-
-	<!-- Enneagram Visual -->
-	<section class="my-16 rounded-2xl bg-gradient-to-br from-indigo-800 to-gray-800 py-16 text-white">
-		<div class="flex flex-col gap-8 md:flex-row md:items-center">
-			<div class="flex-1 p-8">
-				<h2 class="mb-6 text-3xl font-bold text-white">Why the Enneagram Works</h2>
-				<p class="mb-4 text-lg text-white/90">
-					Nine archetypes. Infinite context. Coaching translates theory into precise moves for your
-					real‑world challenges.
-				</p>
-				<p class="mb-4 text-lg text-white/90">
-					Stop guessing why people react the way they do—start anticipating.
-				</p>
-				<div class="mt-8 flex flex-col items-center gap-4 sm:flex-row">
-					<a
-						href="#top"
-						class="inline-block rounded-lg bg-white px-6 py-3.5 font-semibold text-indigo-800 transition hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-indigo-800"
-						>Join Waitlist</a
-					><a
-						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-						class="border-b border-white/30 pb-0.5 transition hover:border-white focus-visible:border-white focus-visible:outline-none"
-						>Learn the basics →</a
-					>
-				</div>
-			</div>
-			<div class="flex flex-1 items-center justify-center p-4"><EnneagramDiagram /></div>
-		</div>
-	</section>
-
-	<!-- FAQ Section -->
-	<section class="py-16">
-		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">Frequently Asked Questions</h2>
-		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-			<div class="rounded-xl border border-gray-200 bg-white p-6">
-				<h3 class="relative mb-3 pl-6 text-xl font-semibold text-indigo-800">
-					<span class="absolute left-0 text-indigo-600">Q:</span>
-					How long are the coaching sessions?
-				</h3>
-				<p class="relative pl-6 text-gray-600">
-					<span class="absolute left-0 font-semibold text-indigo-500">A:</span>
-					Each session is 60 minutes. Follow‑up sessions available in 30 or 60‑minute formats based on
-					your needs.
-				</p>
-			</div>
-			<div class="rounded-xl border border-gray-200 bg-white p-6">
-				<h3 class="relative mb-3 pl-6 text-xl font-semibold text-indigo-800">
-					<span class="absolute left-0 text-indigo-600">Q:</span>
-					Do I need to know my Enneagram type already?
-				</h3>
-				<p class="relative pl-6 text-gray-600">
-					<span class="absolute left-0 font-semibold text-indigo-500">A:</span>
-					No. Type discovery is part of the coaching process—we use behavioral patterns, not just tests.
-				</p>
-			</div>
-			<div class="rounded-xl border border-gray-200 bg-white p-6">
-				<h3 class="relative mb-3 pl-6 text-xl font-semibold text-indigo-800">
-					<span class="absolute left-0 text-indigo-600">Q:</span>
-					How are sessions conducted?
-				</h3>
-				<p class="relative pl-6 text-gray-600">
-					<span class="absolute left-0 font-semibold text-indigo-500">A:</span>
-					Secure video calls. Connect from anywhere—no travel, no waiting rooms, just focused strategy
-					time.
-				</p>
-			</div>
-			<div class="rounded-xl border border-gray-200 bg-white p-6">
-				<h3 class="relative mb-3 pl-6 text-xl font-semibold text-indigo-800">
-					<span class="absolute left-0 text-indigo-600">Q:</span>
-					When will coaching sessions become available?
-				</h3>
-				<p class="relative pl-6 text-gray-600">
-					<span class="absolute left-0 font-semibold text-indigo-500">A:</span>
-					We're currently finalizing our coaching team and platform. Waitlist members will be the first
-					to know when sessions launch and will receive priority booking.
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<!-- Final CTA -->
-	<section
-		class="my-16 rounded-2xl border-2 border-indigo-200 bg-gradient-to-r from-indigo-50 to-white px-8 py-12 text-center shadow-lg"
-	>
-		<div class="mx-auto max-w-2xl">
-			<h2 class="mb-4 text-3xl font-bold text-indigo-800">Go from Blind Spots to Breakthroughs</h2>
-			<p class="mb-8 text-lg text-gray-600">Join the waitlist now—openings are limited</p>
-			<a
-				href="#top"
-				class="inline-block rounded-lg bg-indigo-600 px-8 py-4 text-lg font-semibold text-white transition hover:-translate-y-1 hover:bg-indigo-700 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600 focus-visible:ring-offset-2"
-				>Join the Waitlist</a
-			>
-			<div class="mt-4 text-sm text-gray-500">⏱ First to know when sessions launch</div>
-		</div>
-	</section>
+		</section>
+	</div>
 </div>
 
-<style>
-	/* Smooth scroll for anchor links */
+<style lang="scss">
+	/* Solo Leveling Dark Theme - Book Session */
 	:global(html) {
 		scroll-behavior: smooth;
 	}
 
+	.page-wrapper {
+		min-height: 100vh;
+		background: linear-gradient(180deg, #0a0a0f 0%, #12121a 100%);
+	}
+
+	/* Hero Title */
+	.hero-title {
+		background: linear-gradient(135deg, #f1f5f9 0%, #a78bfa 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+	}
+
+	/* Waitlist Card */
+	.waitlist-card {
+		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
+		box-shadow:
+			0 20px 40px rgba(0, 0, 0, 0.4),
+			0 0 30px rgba(124, 58, 237, 0.1);
+	}
+
+	/* Form Inputs */
+	.form-input {
+		&::placeholder {
+			color: #64748b;
+		}
+
+		option {
+			background: #1a1a2e;
+			color: #e2e8f0;
+		}
+	}
+
+	/* Primary Button */
+	.btn-primary {
+		background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+		box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+
+		&:hover:not(:disabled) {
+			background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+			box-shadow: 0 0 30px rgba(124, 58, 237, 0.4);
+		}
+	}
+
+	/* Value Proposition */
+	.value-prop {
+		background: rgba(26, 26, 46, 0.6);
+	}
+
+	/* Benefit Cards */
+	.benefit-card {
+		background: rgba(26, 26, 46, 0.5);
+		border: 1px solid rgba(100, 116, 139, 0.15);
+		transition: all 0.25s ease;
+
+		&:hover {
+			border-color: rgba(124, 58, 237, 0.3);
+			box-shadow: 0 0 20px rgba(124, 58, 237, 0.1);
+		}
+	}
+
+	/* Benefits Section */
+	.benefits-section {
+		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
+	}
+
+	/* Generic Card */
+	.card {
+		background: #16161e;
+		border: 1px solid rgba(100, 116, 139, 0.15);
+		transition: all 0.25s ease;
+
+		&:hover {
+			border-color: rgba(124, 58, 237, 0.3);
+			box-shadow:
+				0 8px 24px rgba(0, 0, 0, 0.3),
+				0 0 20px rgba(124, 58, 237, 0.1);
+		}
+	}
+
+	/* Personality Max Section */
+	.personality-max-section {
+		background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(26, 26, 46, 0.8) 100%);
+		border: 1px solid rgba(124, 58, 237, 0.2);
+	}
+
+	/* Enneagram Visual Section */
+	.enneagram-visual-section {
+		background: linear-gradient(135deg, #7c3aed 0%, #1a1a2e 100%);
+	}
+
+	/* Final CTA */
+	.final-cta {
+		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
+		border: 2px solid rgba(124, 58, 237, 0.3);
+		box-shadow: 0 0 40px rgba(124, 58, 237, 0.1);
+		position: relative;
+		overflow: hidden;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: -50%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 400px;
+			height: 200px;
+			background: radial-gradient(ellipse, rgba(124, 58, 237, 0.15) 0%, transparent 70%);
+			pointer-events: none;
+		}
+	}
+
 	/* Focus visible improvements for accessibility */
 	:global(*:focus-visible) {
-		outline: 2px solid #4f46e5;
+		outline: 2px solid #7c3aed;
 		outline-offset: 2px;
 	}
 </style>

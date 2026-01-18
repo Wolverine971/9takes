@@ -21,7 +21,7 @@
 	 * Optional children content (used when dynamically mounted from Supabase content)
 	 * Falls back to slot content when not provided
 	 */
-	export let children: string = '';
+	export let children: string | ((...args: unknown[]) => unknown) = '';
 </script>
 
 <aside
@@ -53,7 +53,7 @@
 	{/if}
 
 	<div class="quick-answer__content" itemprop="text">
-		{#if children}
+		{#if typeof children === 'string' && children.trim() !== ''}
 			{@html children}
 		{:else}
 			<slot />

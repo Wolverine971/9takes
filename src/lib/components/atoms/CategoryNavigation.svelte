@@ -75,7 +75,7 @@
 			<div class="category-nav" class:scrollable={overflowing}>
 				{#if isMobile && categories.length > 2}
 					<!-- On mobile with many categories, show a compact version -->
-					<a href="/questions/categories" class="category-item">
+					<a href="/questions/categories" class="category-item" aria-label="All categories">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="18"
@@ -181,7 +181,7 @@
 		display: flex;
 		align-items: center;
 		height: 2.5rem;
-		border-bottom: 1px solid rgba(44, 45, 42, 0.2);
+		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
 		width: 100%;
 
 		&.scrollable {
@@ -202,7 +202,7 @@
 	.category-item {
 		display: flex;
 		align-items: center;
-		color: var(--dark-gray);
+		color: #94a3b8;
 		text-decoration: none;
 		padding: 0.25rem 0.5rem;
 		border-radius: 4px;
@@ -212,16 +212,18 @@
 		transition: all 0.2s ease;
 
 		&:hover {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: rgba(124, 58, 237, 0.1);
+			color: #a78bfa;
 		}
 
 		&.current {
 			font-weight: 500;
+			color: #f1f5f9;
 		}
 	}
 
 	.category-ellipsis {
-		color: var(--dark-gray);
+		color: #64748b;
 		opacity: 0.8;
 		padding: 0 0.25rem;
 	}
@@ -229,7 +231,7 @@
 	.separator {
 		display: flex;
 		align-items: center;
-		color: var(--dark-gray);
+		color: #64748b;
 		opacity: 0.6;
 		margin: 0 0.125rem;
 	}

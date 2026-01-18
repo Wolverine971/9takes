@@ -50,6 +50,7 @@
 			if (Array.isArray(newComments) && newComments.length) {
 				_comments = [..._comments, ...newComments];
 				comments = _comments; // Update parent array reference
+				onCommentsUpdate?.(_comments);
 			}
 		} catch (error) {
 			console.error('Error loading comments:', error);
@@ -77,6 +78,7 @@
 				_comments = newComments;
 				comments = _comments; // Update parent array reference
 				comment_count += 1;
+				onCommentsUpdate?.(_comments);
 			}
 		} catch (error) {
 			console.error('Error refreshing comments:', error);
@@ -90,6 +92,7 @@
 		_comments[index] = comment;
 		_comments = [..._comments]; // Create new array to trigger reactivity
 		comments = _comments; // Update parent
+		onCommentsUpdate?.(_comments);
 	}
 
 	// Set up infinite scroll using Intersection Observer
@@ -141,7 +144,7 @@
 			<div class="space-y-4 py-4">
 				{#each Array(3) as _, i}
 					<div
-						class="rounded-2xl bg-white/50 p-5 backdrop-blur-sm"
+						class="rounded-2xl bg-[#1a1a2e]/50 p-5 backdrop-blur-sm"
 						in:fade={{ duration: 300, delay: i * 50 }}
 					>
 						<div class="flex gap-4">
@@ -162,12 +165,12 @@
 				{#if loading && !initialLoading}
 					<div class="flex justify-center py-6">
 						<div
-							class="flex items-center gap-3 rounded-full bg-white/80 px-4 py-2 shadow-sm backdrop-blur-sm"
+							class="flex items-center gap-3 rounded-full border border-slate-700/30 bg-[#1a1a2e]/80 px-4 py-2 shadow-sm backdrop-blur-sm"
 						>
 							<div
-								class="h-4 w-4 animate-spin rounded-full border-2 border-neutral-300 border-t-neutral-600"
-							/>
-							<span class="text-sm font-medium text-neutral-600">Loading more...</span>
+								class="h-4 w-4 animate-spin rounded-full border-2 border-purple-500/30 border-t-purple-500"
+							></div>
+							<span class="text-sm font-medium text-slate-300">Loading more...</span>
 						</div>
 					</div>
 				{/if}
@@ -175,8 +178,8 @@
 		{/if}
 	{:else if parentData?.flags?.userHasAnswered && !comments.length}
 		<div class="flex flex-col items-center justify-center py-12">
-			<div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-neutral-100">
-				<svg class="h-7 w-7 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+			<div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#252538]">
+				<svg class="h-7 w-7 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 					<path
 						stroke-linecap="round"
 						stroke-linejoin="round"
@@ -185,8 +188,8 @@
 					/>
 				</svg>
 			</div>
-			<p class="text-center text-lg font-medium text-neutral-600">No comments yet</p>
-			<p class="mt-1 text-center text-sm text-neutral-500">Be the first to share your thoughts</p>
+			<p class="text-center text-lg font-medium text-slate-200">No comments yet</p>
+			<p class="mt-1 text-center text-sm text-slate-400">Be the first to share your thoughts</p>
 		</div>
 	{/if}
 {/key}

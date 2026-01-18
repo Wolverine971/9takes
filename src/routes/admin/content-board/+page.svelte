@@ -561,8 +561,11 @@
 			<div class="mt-4 border-t border-gray-100 pt-4">
 				<div class="flex flex-wrap items-center gap-3">
 					<div class="flex items-center gap-2">
-						<label class="text-xs font-medium text-gray-600">Enneagram:</label>
+						<label for="filter-enneagram" class="text-xs font-medium text-gray-600">
+							Enneagram:
+						</label>
 						<select
+							id="filter-enneagram"
 							bind:value={selectedEnneagramType}
 							class="rounded border border-gray-300 px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20"
 						>
@@ -574,8 +577,9 @@
 					</div>
 
 					<div class="flex items-center gap-2">
-						<label class="text-xs font-medium text-gray-600">Author:</label>
+						<label for="filter-author" class="text-xs font-medium text-gray-600">Author:</label>
 						<select
+							id="filter-author"
 							bind:value={selectedAuthor}
 							class="rounded border border-gray-300 px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20"
 						>
@@ -587,8 +591,11 @@
 					</div>
 
 					<div class="flex items-center gap-2">
-						<label class="text-xs font-medium text-gray-600">Category:</label>
+						<label for="filter-category" class="text-xs font-medium text-gray-600">
+							Category:
+						</label>
 						<select
+							id="filter-category"
 							bind:value={selectedType}
 							class="rounded border border-gray-300 px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20"
 						>

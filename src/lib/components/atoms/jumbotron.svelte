@@ -68,7 +68,7 @@
 		in:fly={{ y: 200, duration: 2000 }}
 		alt="9takes pantheon"
 	/>
-	<div class="jumbo-card-overlay" />
+	<div class="jumbo-card-overlay"></div>
 	<div class="jumbo-card-content" style="justify-content: {centerText}">
 		<slot />
 	</div>

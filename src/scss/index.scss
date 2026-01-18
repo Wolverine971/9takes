@@ -1,7 +1,7 @@
 /* src/scss/index.scss */
 /*
  * Main Stylesheet - Organized and Optimized
- * Theme: Purple-based with glass effects
+ * Theme: Solo Leveling Dark Aesthetic
  */
 
 @use 'mixins' as *;
@@ -9,115 +9,192 @@
 @use 'components';
 
 /*==============================================
-  VARIABLES
+  VARIABLES - SOLO LEVELING THEME
 ==============================================*/
 :root {
-	/* Primary Colors */
-	--primary-50: #f7f7ff;
-	--primary-100: #e9e4ff;
-	--primary-200: #d1c9ff;
-	--primary-300: #b2a8ff;
-	--primary-400: #a29bfe;
-	--primary-500: #8c7ae6;
-	--primary-600: #7158e2;
-	--primary-700: #6c5ce7;
-	--primary-800: #4834d4;
-	--primary-900: #382bb3;
+	/* ========================================
+	   VOID / BACKGROUND COLORS
+	   Deep dark backgrounds for the abyss feel
+	   ======================================== */
+	--void-abyss: #0a0a0f;
+	--void-deep: #12121a;
+	--void-surface: #1a1a2e;
+	--void-elevated: #252538;
+	--void-highlight: #2d2d44;
 
-	--primary: var(--primary-700); /* Main purple - vibrant */
-	--primary-dark: var(--primary-800); /* Darker purple for hover states */
-	--primary-light: var(--primary-400); /* Light purple for backgrounds and accents */
+	/* ========================================
+	   SHADOW MONARCH PURPLE (Primary)
+	   The signature purple of power
+	   ======================================== */
+	--shadow-monarch: #7c3aed;
+	--shadow-monarch-light: #8b5cf6;
+	--shadow-monarch-lighter: #a78bfa;
+	--shadow-monarch-dark: #6d28d9;
+	--shadow-monarch-darker: #5b21b6;
+	--shadow-monarch-glow: rgba(124, 58, 237, 0.5);
+	--shadow-monarch-subtle: rgba(124, 58, 237, 0.15);
+
+	/* ========================================
+	   SYSTEM INTERFACE BLUE (Secondary)
+	   The UI/system notification blue
+	   ======================================== */
+	--system-interface: #3b82f6;
+	--system-interface-light: #60a5fa;
+	--system-interface-dark: #2563eb;
+	--system-interface-glow: rgba(59, 130, 246, 0.5);
+	--system-interface-subtle: rgba(59, 130, 246, 0.15);
+
+	/* ========================================
+	   AWAKENING CYAN (Accent)
+	   For highlights and special elements
+	   ======================================== */
+	--awakening-cyan: #06b6d4;
+	--awakening-cyan-light: #22d3ee;
+	--awakening-cyan-glow: rgba(6, 182, 212, 0.5);
+	--awakening-cyan-subtle: rgba(6, 182, 212, 0.15);
+
+	/* ========================================
+	   LEGACY PRIMARY ALIASES
+	   Mapping old variables to new system
+	   ======================================== */
+	--primary-50: var(--void-elevated);
+	--primary-100: var(--void-highlight);
+	--primary-200: #3d3d5c;
+	--primary-300: #5b5b8a;
+	--primary-400: var(--shadow-monarch-lighter);
+	--primary-500: var(--shadow-monarch-light);
+	--primary-600: var(--shadow-monarch);
+	--primary-700: var(--shadow-monarch);
+	--primary-800: var(--shadow-monarch-dark);
+	--primary-900: var(--shadow-monarch-darker);
+
+	--primary: var(--shadow-monarch);
+	--primary-dark: var(--shadow-monarch-dark);
+	--primary-light: var(--shadow-monarch-light);
 
 	/* Accent Colors */
-	--accent: var(--primary-500); /* Softer purple for secondary elements */
-	--accent-dark: var(--primary-600); /* Slightly darker accent for contrast */
-	--accent-light: var(--primary-100); /* Very light purple for subtle highlights */
-	--accent-rgb: 140, 122, 230;
+	--accent: var(--shadow-monarch-light);
+	--accent-dark: var(--shadow-monarch);
+	--accent-light: var(--shadow-monarch-subtle);
+	--accent-rgb: 124, 58, 237;
 
 	/* Theme Color Aliases */
-	--color-theme-purple: var(--primary);
-	--color-theme-purple-dark: var(--primary-dark);
-	--color-theme-purple-light: var(--accent);
-	--color-theme-purple-lighter: var(--accent-light);
+	--color-theme-purple: var(--shadow-monarch);
+	--color-theme-purple-dark: var(--shadow-monarch-dark);
+	--color-theme-purple-light: var(--shadow-monarch-light);
+	--color-theme-purple-lighter: var(--shadow-monarch-lighter);
 
-	/* Neutrals */
-	--neutral-50: #f9f9ff;
-	--neutral-100: #f0f2f5;
-	--neutral-200: #e4e6eb;
-	--neutral-300: #e3e1f0;
-	--neutral-400: #c1c5d0;
-	--neutral-500: #9ca3af;
-	--neutral-600: #65676b;
-	--neutral-700: #4b5563;
-	--neutral-800: #2a2d34;
-	--neutral-900: #18191a;
+	/* ========================================
+	   NEUTRALS - DARK THEME
+	   Inverted for dark backgrounds
+	   ======================================== */
+	--neutral-50: var(--void-abyss);
+	--neutral-100: var(--void-deep);
+	--neutral-200: var(--void-surface);
+	--neutral-300: var(--void-elevated);
+	--neutral-400: #4a4a6a;
+	--neutral-500: #64748b;
+	--neutral-600: #94a3b8;
+	--neutral-700: #cbd5e1;
+	--neutral-800: #e2e8f0;
+	--neutral-900: #f8fafc;
 
 	--white: #ffffff;
-	--off-white: var(--neutral-50); /* Slightly purplish white for backgrounds */
-	--lightest-gray: var(--neutral-100); /* Very light gray for card backgrounds */
-	--light-gray: var(--neutral-200); /* Light gray for borders */
-	--medium-gray: var(--neutral-400); /* Medium gray for disabled states */
-	--dark-gray: var(--neutral-600); /* Dark gray for secondary text */
-	--darkest-gray: var(--neutral-800); /* Very dark gray for primary text */
-	--black: var(--neutral-900); /* Off-black for stronger text */
+	--off-white: #f8fafc;
+	--lightest-gray: var(--void-surface);
+	--light-gray: var(--void-elevated);
+	--medium-gray: #4a4a6a;
+	--dark-gray: #94a3b8;
+	--darkest-gray: #e2e8f0;
+	--black: var(--void-abyss);
 
-	/* Functional Colors */
-	--success: #00b894; /* Teal green for success messages */
-	--warning: #fdcb6e; /* Soft yellow for warnings */
-	--error: #e84393; /* Pink/purple for errors - matches theme */
-	--error-light: #fdf2f8;
-	--error-700: #be185d;
-	--info: #74b9ff; /* Soft blue for information */
+	/* ========================================
+	   FUNCTIONAL / STATUS COLORS
+	   Adjusted for dark backgrounds
+	   ======================================== */
+	--success: #10b981;
+	--success-light: rgba(16, 185, 129, 0.15);
+	--success-border: #10b981;
+	--success-text: #34d399;
+	--warning: #f59e0b;
+	--warning-light: rgba(245, 158, 11, 0.15);
+	--warning-border: #f59e0b;
+	--error: #ef4444;
+	--error-light: rgba(239, 68, 68, 0.15);
+	--error-700: #dc2626;
+	--info: var(--system-interface);
+	--info-light: var(--system-interface-subtle);
+	--info-border: var(--system-interface);
+	--info-text: var(--system-interface-light);
 
-	/* Text Colors */
-	--text-primary: var(--neutral-800); /* Main text color - almost black but softer */
-	--text-secondary: var(--neutral-600); /* Secondary text - medium gray */
-	--text-tertiary: var(--neutral-500); /* Tertiary text - lighter gray */
-	--text-on-primary: #ffffff; /* Text on primary colored backgrounds */
-	--text-on-dark: var(--text-on-primary);
-	--text-on-secondary: var(--text-on-primary);
+	/* ========================================
+	   TEXT COLORS - DARK THEME
+	   Light text on dark backgrounds
+	   ======================================== */
+	--text-primary: #f8fafc;
+	--text-secondary: #94a3b8;
+	--text-tertiary: #64748b;
+	--text-muted: #475569;
+	--text-on-primary: #ffffff;
+	--text-on-dark: #f8fafc;
+	--text-on-secondary: #ffffff;
 
-	/* Component Specific */
-	--card-background: var(--white);
-	--body-background: var(--primary-50); /* Very light purple tint for body */
-	--comment-hover-bg: var(--primary-100); /* Light purple for comment hover */
-	--border-color: var(--neutral-300); /* Light purplish gray for borders */
-	--button-hover: var(--primary-800); /* Slightly darker than primary for button hovers */
-	--hover-background: var(--neutral-100);
-	--message-background: var(--neutral-50);
-	--button-background: rgba(0, 0, 0, 0.05);
-	--background: var(--card-background);
-	--color-border: var(--border-color);
+	/* ========================================
+	   COMPONENT SPECIFIC
+	   ======================================== */
+	--card-background: var(--void-surface);
+	--body-background: var(--void-abyss);
+	--comment-hover-bg: var(--void-elevated);
+	--border-color: var(--void-elevated);
+	--button-hover: var(--shadow-monarch-dark);
+	--hover-background: var(--void-elevated);
+	--message-background: var(--void-deep);
+	--button-background: rgba(124, 58, 237, 0.1);
+	--background: var(--void-surface);
+	--color-border: var(--void-elevated);
 	--color-text: var(--text-primary);
 	--color-text-secondary: var(--text-secondary);
 	--color-text-muted: var(--text-tertiary);
-	--color-primary: var(--primary);
+	--color-primary: var(--shadow-monarch);
 	--color-warning: var(--warning);
-	--color-bg-secondary: var(--neutral-50);
-	--color-bg-muted: var(--neutral-100);
+	--color-bg-secondary: var(--void-deep);
+	--color-bg-muted: var(--void-surface);
 	--color-icon: var(--text-secondary);
-	--accent-color: var(--accent);
+	--accent-color: var(--shadow-monarch-light);
 	--text-color-secondary: var(--text-secondary);
-	--card-bg-color: var(--card-background);
-	--item-background: var(--card-background);
-	--title-background: var(--neutral-100);
+	--card-bg-color: var(--void-surface);
+	--item-background: var(--void-surface);
+	--title-background: var(--void-elevated);
 	--title-color: var(--text-primary);
-	--link-background: var(--neutral-50);
-	--link-hover-background: var(--neutral-100);
-	--link-color: var(--text-primary);
-	--secondary: var(--accent);
-	--secondary-dark: var(--accent-dark);
-	--background-light: var(--neutral-50);
-	--background-dark: var(--neutral-900);
+	--link-background: var(--void-deep);
+	--link-hover-background: var(--void-elevated);
+	--link-color: var(--shadow-monarch-light);
+	--secondary: var(--system-interface);
+	--secondary-dark: var(--system-interface-dark);
+	--background-light: var(--void-deep);
+	--background-dark: var(--void-abyss);
 
-	/* Shadows */
-	--shadow-sm: 0 1px 3px rgba(108, 92, 231, 0.08);
-	--shadow-md: 0 4px 6px rgba(108, 92, 231, 0.1);
-	--shadow-lg: 0 10px 15px rgba(108, 92, 231, 0.1);
-	--shadow-xl: 0 20px 25px rgba(108, 92, 231, 0.1);
-	--shadow-color: rgba(108, 92, 231, 0.15);
+	/* ========================================
+	   SHADOWS & GLOWS
+	   Purple/blue glow effects
+	   ======================================== */
+	--shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+	--shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+	--shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+	--shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.5);
+	--shadow-color: rgba(0, 0, 0, 0.5);
 
-	/* Layout */
+	/* Glow Effects */
+	--glow-sm: 0 0 10px var(--shadow-monarch-glow);
+	--glow-md: 0 0 20px var(--shadow-monarch-glow);
+	--glow-lg: 0 0 40px var(--shadow-monarch-glow);
+	--glow-blue: 0 0 20px var(--system-interface-glow);
+	--glow-cyan: 0 0 20px var(--awakening-cyan-glow);
+	--glow-purple-subtle: 0 0 30px rgba(124, 58, 237, 0.3);
+
+	/* ========================================
+	   LAYOUT
+	   ======================================== */
 	--border-radius: 0.5rem;
 	--border-radius-md: var(--border-radius);
 	--base-border-radius: 0.5rem;
@@ -132,7 +209,9 @@
 	--tag: none;
 	--num-images: 1;
 
-	/* Typography */
+	/* ========================================
+	   TYPOGRAPHY
+	   ======================================== */
 	--font-family: 'Noticia Text', serif;
 	--font-mono: 'Noticia Text', serif;
 
@@ -154,71 +233,45 @@
 	--line-height-normal: 1.5;
 	--line-height-relaxed: 1.625;
 
-	/* Transitions */
+	/* ========================================
+	   TRANSITIONS & ANIMATIONS
+	   ======================================== */
 	--transition-base: all 0.2s ease;
+	--transition-glow: all 0.3s ease;
 	--animation-speed: 0.3s;
 
-	/* Misc */
-	--glass-color: rgba(90, 91, 95, 0.1);
-	--base-white-outline: #f0f5f9;
-	--classic-border: 1px solid var(--medium-gray);
+	/* ========================================
+	   MISC
+	   ======================================== */
+	--glass-color: rgba(26, 26, 46, 0.8);
+	--glass-border: rgba(124, 58, 237, 0.2);
+	--base-white-outline: #f8fafc;
+	--classic-border: 1px solid var(--void-elevated);
 
 	--golden-ratio: 1.618;
 	--spacing-golden: calc(var(--spacing-unit) * var(--golden-ratio));
 	--spacing-golden-sm: calc(var(--spacing-unit) / var(--golden-ratio));
 	--spacing-golden-lg: calc(var(--spacing-golden) * var(--golden-ratio));
 
-	/* Greek-inspired accent colors - complementing existing purple theme */
-	--greek-marble: #f5f5f0;
-	--greek-aegean: #1a5276;
-	--greek-olive: #71723c; /* Slightly modified to complement purples */
-	--greek-terracotta: #cd5c5c;
-	--greek-parchment: #f2ebd8;
-	--greek-silver: #c0c0c0;
-	--greek-gold: #d4af37; /* Slightly muted gold to pair with purple */
+	/* ========================================
+	   TYPE-SPECIFIC COLORS (Enneagram)
+	   ======================================== */
+	--type-1-color: #3b82f6; /* Blue - Perfectionist */
+	--type-2-color: #ec4899; /* Pink - Helper */
+	--type-3-color: #f59e0b; /* Amber - Achiever */
+	--type-4-color: #8b5cf6; /* Purple - Individualist */
+	--type-5-color: #06b6d4; /* Cyan - Investigator */
+	--type-6-color: #22c55e; /* Green - Loyalist */
+	--type-7-color: #eab308; /* Yellow - Enthusiast */
+	--type-8-color: #ef4444; /* Red - Challenger */
+	--type-9-color: #10b981; /* Emerald - Peacemaker */
 
-	/* Greek color application - using existing variables where possible */
-	--greek-primary: var(--primary); /* Keep existing primary purple */
-	--greek-secondary: var(--greek-aegean); /* New secondary color */
-	--greek-accent: var(--accent); /* Keep existing accent purple */
-	--greek-highlight: var(--greek-gold); /* Gold for highlights */
-	--greek-background: var(--greek-marble); /* Marble for backgrounds */
-
-	/* Extended typography */
-	--font-greek-heading: var(--font-family);
-	--font-greek-body: var(--font-family);
-	--line-height-golden: var(--golden-ratio);
-
-	/* Greek-inspired UI elements */
-	--greek-border-pattern: repeating-linear-gradient(
-		90deg,
-		var(--greek-primary),
-		var(--greek-primary) 10px,
-		var(--greek-marble) 10px,
-		var(--greek-marble) 20px
-	);
-
-	/* Column styling */
-	--column-base-color: var(--greek-marble);
-	--column-accent-color: var(--primary-light);
-	--column-shadow: 0 2px 8px rgba(108, 92, 231, 0.12);
-
-	/* Blog-specific colors */
-	--success-light: #e8f5e9;
-	--success-border: #4caf50;
-	--success-text: #2e7d32;
-	--info-light: #e3f2fd;
-	--info-border: #2196f3;
-	--info-text: #1565c0;
-	--neutral-50: #fafafa;
-	--neutral-100: #f5f5f5;
-	--neutral-light: #fafafa;
-	--neutral-border: #e0e0e0;
-	--neutral-text: #424242;
-	--neutral-divider: #bdbdbd;
-	--muted-text: #616161;
-	--warning-light: #fff8e1;
-	--warning-border: #ffc107;
+	/* Blog-specific overrides for dark theme */
+	--neutral-light: var(--void-deep);
+	--neutral-border: var(--void-elevated);
+	--neutral-text: var(--text-secondary);
+	--neutral-divider: var(--void-elevated);
+	--muted-text: var(--text-tertiary);
 }
 
 /*==============================================
@@ -238,10 +291,12 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: var(--font-family);
-	font-size: 16px; /* Setting a default since var(--font-size) is undefined */
+	font-size: 16px;
 	line-height: 1.6;
-	background-color: var(--body-background);
+	background-color: var(--void-abyss);
 	color: var(--text-primary);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 /* Media elements */
@@ -331,17 +386,17 @@ figcaption {
   LINKS
 ==============================================*/
 a {
-	color: var(--accent);
+	color: var(--shadow-monarch-light);
 	text-decoration: none;
-	transition: color 0.3s ease;
+	transition: var(--transition-glow);
 
 	&:hover {
-		color: var(--accent-dark);
-		text-decoration: underline;
+		color: var(--awakening-cyan-light);
+		text-shadow: var(--glow-sm);
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--primary);
+		outline: 2px solid var(--shadow-monarch);
 		outline-offset: 2px;
 		border-radius: var(--border-radius-sm);
 	}
@@ -349,17 +404,18 @@ a {
 	&.disabled {
 		cursor: default;
 		text-decoration: line-through;
-		color: var(--medium-gray) !important;
+		color: var(--text-muted) !important;
 	}
 }
 
 .main a {
-	color: var(--primary-dark);
+	color: var(--shadow-monarch-light);
 }
 
 .active-link {
 	text-decoration: underline;
-	color: var(--primary) !important;
+	color: var(--awakening-cyan) !important;
+	text-shadow: var(--glow-cyan);
 }
 
 .external-link::after {
@@ -475,16 +531,24 @@ figure {
   CARDS & CONTAINERS
 ==============================================*/
 .card {
-	background-color: var(--accent);
+	background-color: var(--void-surface);
+	border: 1px solid var(--void-elevated);
 	border-radius: var(--border-radius);
 	box-shadow: var(--shadow-md);
 	padding: var(--card-padding);
 	margin: var(--card-margin);
+	transition: var(--transition-glow);
+
+	&:hover {
+		border-color: var(--shadow-monarch-glow);
+		box-shadow: var(--glow-sm);
+	}
 }
 
 .glass-card {
 	background-color: var(--glass-color);
 	backdrop-filter: blur(20px);
+	border: 1px solid var(--glass-border);
 	border-radius: var(--border-radius);
 	padding: var(--card-padding);
 	margin: var(--card-margin);
@@ -496,7 +560,8 @@ figure {
 }
 
 .panel {
-	background-color: var(--medium-gray);
+	background-color: var(--void-elevated);
+	border: 1px solid var(--void-highlight);
 	border-radius: 5px;
 	padding: 1rem;
 	overflow: hidden;
@@ -517,7 +582,7 @@ figure {
 	border-radius: var(--border-radius);
 	font-size: 16px;
 	cursor: pointer;
-	transition: all 0.3s ease;
+	transition: var(--transition-glow);
 	position: relative;
 	overflow: hidden;
 
@@ -528,7 +593,7 @@ figure {
 		height: 100%;
 		top: 0;
 		right: 0;
-		background-color: rgba(255, 255, 255, 0.2);
+		background-color: rgba(255, 255, 255, 0.1);
 		transition: all 0.3s ease;
 	}
 
@@ -538,53 +603,74 @@ figure {
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--primary);
+		outline: 2px solid var(--shadow-monarch);
 		outline-offset: 2px;
 	}
 }
 
 .btn-primary {
-	background-color: var(--primary);
+	background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
 	color: white;
-	border: var(--classic-border);
+	border: 1px solid var(--shadow-monarch);
+	box-shadow: var(--glow-sm);
 
 	&:hover {
-		background-color: var(--primary-dark);
+		background: linear-gradient(135deg, var(--shadow-monarch-light) 0%, var(--shadow-monarch) 100%);
+		box-shadow: var(--glow-md);
+		transform: translateY(-1px);
 	}
 }
 
 .btn-secondary {
-	background-color: var(--accent);
-	color: white;
+	background: transparent;
+	color: var(--shadow-monarch-light);
+	border: 1px solid var(--shadow-monarch);
 
 	&:hover {
-		background-color: var(--accent-dark);
+		background: var(--shadow-monarch-subtle);
+		box-shadow: var(--glow-sm);
 	}
 }
 
 .btn-disabled {
 	text-decoration: line-through;
-	color: rgba(128, 128, 128, 0.4) !important;
+	color: var(--text-muted) !important;
+	opacity: 0.5;
 
 	&:hover {
-		background-color: grey !important;
-		color: var(--off-white) !important;
+		background-color: var(--void-elevated) !important;
+		color: var(--text-muted) !important;
+		transform: none;
+		box-shadow: none;
 	}
 }
 
 .primary-btn {
-	border: 1px solid var(--primary) !important;
-	color: var(--primary);
+	border: 1px solid var(--shadow-monarch) !important;
+	color: var(--shadow-monarch-light);
+	background: transparent;
+
+	&:hover {
+		background: var(--shadow-monarch-subtle);
+		box-shadow: var(--glow-sm);
+	}
 }
 
 .secondary-btn {
-	border: 1px solid var(--accent) !important;
-	color: var(--accent);
+	border: 1px solid var(--system-interface) !important;
+	color: var(--system-interface-light);
+	background: transparent;
+
+	&:hover {
+		background: var(--system-interface-subtle);
+		box-shadow: var(--glow-blue);
+	}
 }
 
 .disabled {
-	background-color: lightgray;
-	color: grey;
+	background-color: var(--void-elevated);
+	color: var(--text-muted);
+	cursor: not-allowed;
 }
 
 /*==============================================
@@ -601,20 +687,23 @@ figure {
 
 textarea {
 	margin-bottom: 20px;
-	border: 1px solid hsl(212, 15%, 48%);
+	background-color: var(--void-elevated);
+	border: 1px solid var(--void-highlight);
 	border-radius: var(--base-border-radius);
 	padding: 10px 20px;
 	width: 100%;
-	color: hsl(222, 15%, 19%);
+	color: var(--text-primary);
 	font-size: 16px;
-	transition:
-		border-color 0.3s ease,
-		box-shadow 0.3s ease;
+	transition: var(--transition-glow);
+
+	&::placeholder {
+		color: var(--text-muted);
+	}
 
 	&:focus {
 		outline: none;
-		border-color: var(--primary);
-		box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
+		border-color: var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
 	}
 }
 
@@ -626,18 +715,29 @@ input[type='search'],
 input[type='url'],
 input[type='tel'],
 select {
-	border: 1px solid var(--light-gray);
+	background-color: var(--void-elevated);
+	border: 1px solid var(--void-highlight);
 	border-radius: var(--border-radius-sm);
 	padding: 8px 12px;
 	font-size: 16px;
-	transition:
-		border-color 0.3s ease,
-		box-shadow 0.3s ease;
+	color: var(--text-primary);
+	transition: var(--transition-glow);
+
+	&::placeholder {
+		color: var(--text-muted);
+	}
 
 	&:focus {
 		outline: none;
-		border-color: var(--primary);
-		box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
+		border-color: var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
+	}
+}
+
+select {
+	option {
+		background-color: var(--void-surface);
+		color: var(--text-primary);
 	}
 }
 
@@ -646,34 +746,46 @@ select {
 ==============================================*/
 
 .accordion {
-	transition: 0.4s;
+	transition: var(--transition-glow);
 	outline: none;
 	border: none;
 	cursor: pointer;
 	padding: 0.5rem;
 	text-align: left;
-	color: var(--darkest-gray);
+	color: var(--text-primary);
+	background-color: transparent;
 	font-size: 15px;
 
 	&:hover {
-		background-color: var(--color-theme-purple-light);
-		color: var(--primary);
+		background-color: var(--shadow-monarch-subtle);
+		color: var(--shadow-monarch-light);
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--primary);
+		outline: 2px solid var(--shadow-monarch);
 		outline-offset: 2px;
 		border-radius: var(--border-radius-sm);
 	}
 }
 
 details {
-	border: 2px solid transparent;
-	border-top-color: var(--color-theme-purple-light);
-	border-left-color: var(--color-theme-purple-light);
+	border: 1px solid var(--void-elevated);
+	border-radius: var(--border-radius-sm);
+	background-color: var(--void-surface);
+	padding: 0.5rem;
 
 	&:hover {
-		border-color: var(--color-theme-purple-light);
+		border-color: var(--shadow-monarch-subtle);
+	}
+
+	summary {
+		cursor: pointer;
+		color: var(--text-primary);
+		padding: 0.5rem;
+
+		&:hover {
+			color: var(--shadow-monarch-light);
+		}
 	}
 }
 
@@ -706,13 +818,27 @@ ul {
 tr,
 td,
 th {
-	border: var(--classic-border);
+	border: 1px solid var(--void-elevated);
 	text-align: center;
 	vertical-align: baseline;
+	color: var(--text-primary);
 }
 
 th {
 	padding: 0.5rem;
+	background-color: var(--void-surface);
+	color: var(--text-primary);
+	font-weight: var(--font-weight-semibold);
+}
+
+td {
+	padding: 0.5rem;
+	background-color: var(--void-deep);
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid var(--void-elevated);
 }
 
 .scrollable-div {
@@ -937,21 +1063,32 @@ th {
 body::-webkit-scrollbar,
 .scroll-table::-webkit-scrollbar,
 .scrollable-div::-webkit-scrollbar {
-	width: 1rem;
+	width: 0.5rem;
 }
 
 body::-webkit-scrollbar-track,
 .scroll-table::-webkit-scrollbar-track,
 .scrollable-div::-webkit-scrollbar-track {
+	background-color: var(--void-deep);
 	border-radius: var(--base-border-radius);
-	box-shadow: 0 0 0.2rem var(--dark-gray);
 }
 
 body::-webkit-scrollbar-thumb,
 .scroll-table::-webkit-scrollbar-thumb,
 .scrollable-div::-webkit-scrollbar-thumb {
-	background-color: var(--dark-gray);
+	background-color: var(--shadow-monarch);
 	border-radius: var(--base-border-radius);
+	border: 2px solid var(--void-deep);
+
+	&:hover {
+		background-color: var(--shadow-monarch-light);
+	}
+}
+
+/* Firefox scrollbar */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--shadow-monarch) var(--void-deep);
 }
 
 /*==============================================

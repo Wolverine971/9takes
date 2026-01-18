@@ -260,7 +260,9 @@
 		role="dialog"
 		aria-modal="true"
 		aria-labelledby="compose-title"
-		on:click={handleBackdropClick}
+		tabindex="-1"
+		on:click|self={handleBackdropClick}
+		on:keydown={handleKeydown}
 		in:fade={{ duration: 200, easing: cubicOut }}
 		out:fade={{ duration: 150, easing: cubicOut }}
 	>
@@ -268,7 +270,6 @@
 			class="compose-modal"
 			in:scale={{ duration: 200, easing: cubicOut, start: 0.95 }}
 			out:scale={{ duration: 150, easing: cubicOut, start: 0.95 }}
-			on:click|stopPropagation
 		>
 			<div class="compose-header">
 				<h2 id="compose-title">Compose Email</h2>
@@ -278,7 +279,7 @@
 			<div class="compose-body">
 				<!-- Recipients -->
 				<div class="form-group">
-					<label>To: ({recipients.length} recipients)</label>
+					<span class="form-label">To: ({recipients.length} recipients)</span>
 					<div class="recipients-preview">
 						{#each recipients.slice(0, 5) as recipient}
 							<span class="recipient-chip">{recipient.email}</span>
@@ -369,6 +370,8 @@
 			aria-modal="true"
 			aria-labelledby="generate-title"
 			on:click|self={() => (showGenerate = false)}
+			tabindex="-1"
+			on:keydown={handleKeydown}
 			in:fade={{ duration: 150, easing: cubicOut }}
 			out:fade={{ duration: 100, easing: cubicOut }}
 		>
@@ -376,7 +379,6 @@
 				class="generate-modal"
 				in:scale={{ duration: 150, easing: cubicOut, start: 0.95 }}
 				out:scale={{ duration: 100, easing: cubicOut, start: 0.95 }}
-				on:click|stopPropagation
 			>
 				<div class="compose-header">
 					<h2 id="generate-title">Generate Email with AI</h2>
@@ -516,7 +518,8 @@
 		margin-bottom: 1.25rem;
 	}
 
-	.form-group label {
+	.form-group label,
+	.form-group .form-label {
 		display: block;
 		margin-bottom: 0.5rem;
 		font-weight: 500;

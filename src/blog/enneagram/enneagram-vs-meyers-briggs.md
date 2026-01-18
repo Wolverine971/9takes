@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram vs Myers-Briggs: Which Actually Explains You Better?'
-description: "INTJ or Type 5? ENFP or Type 7? Here's the real difference between MBTI and Enneagram—and which one reveals what you actually need to know about yourself."
+description: "INTJ or Type 5? ENFP or Type 7? Here's the difference between MBTI and the Enneagram, and when each one gives you the insight you're actually looking for."
 author: 'DJ Wayne'
 date: '2023-07-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-vs-meyers-briggs'
-lastmod: '2025-12-03'
+lastmod: '2026-01-18'
 changefreq: 'monthly'
 published: true
 type: ['resources']
@@ -21,7 +21,7 @@ path: src/blog/enneagram/enneagram-vs-meyers-briggs.md
 </script>
 
 <QuickAnswer question="What's the difference between Enneagram and Myers-Briggs?">
-Myers-Briggs (MBTI) tells you HOW you think—introvert vs extrovert, sensing vs intuition. Enneagram tells you WHY you do what you do—your core fears, desires, and motivations. MBTI describes your cognitive style; Enneagram exposes your emotional operating system.
+Myers-Briggs (MBTI) maps how you process information and make decisions (introversion vs extraversion, sensing vs intuition, and so on). The Enneagram maps why you do what you do: your core fears, desires, and coping strategies. Use MBTI for communication and work style. Use the Enneagram for motivation, relationships, and growth.
 </QuickAnswer>
 
 | Aspect       | Myers-Briggs (MBTI)        | Enneagram                      |
@@ -33,28 +33,28 @@ Myers-Briggs (MBTI) tells you HOW you think—introvert vs extrovert, sensing vs
 | **Changes?** | Stays relatively stable    | Shows growth & stress patterns |
 | **Weakness** | Doesn't explain motivation | Can feel confronting           |
 
-**Bottom line**: Use both. MBTI for work compatibility. Enneagram for understanding yourself and others at a deeper level.
+**Bottom line**: Use both. MBTI helps you communicate and collaborate. The Enneagram helps you spot your patterns and change them.
 
-<p class="firstLetter">You've probably taken one of those personality tests.</p>
+<p class="firstLetter">You've probably taken a personality test and thought, "Wait, that's me."</p>
 
-Maybe you got INFJ and felt seen. Or you discovered you're an Enneagram 4 and suddenly your entire adolescence made sense.
+Maybe you got INFJ at work and felt weirdly exposed. Or you discovered you're an Enneagram 4 and your entire adolescence finally made sense.
 
-But here's what most people get wrong: **these systems aren't competitors. They're measuring completely different things.**
+But here's what most people get wrong: **these systems aren't competitors. They're answering different questions.**
 
-It's like asking whether a thermometer or a blood pressure monitor is "better." They measure different aspects of health. Same with MBTI and Enneagram—they reveal different dimensions of who you are.
+It's like asking whether a thermometer or a blood pressure monitor is "better." They track different signals. MBTI and the Enneagram do the same thing for personality.
 
-Let's break down what each actually measures, when to use which, and how they work together.
+Here's what each one actually measures, when to use which, and how they work together.
 
 ## The Core Difference (In One Sentence)
 
 **MBTI tells you HOW you process information. Enneagram tells you WHY you do what you do.**
 
-An INTJ and an Enneagram 5 might look similar on the surface—both are analytical, independent, knowledge-seeking. But they're not the same thing:
+An INTJ and an Enneagram 5 can look similar on the surface. Both are analytical, independent, and knowledge-seeking. But they're not the same thing:
 
-- The **INTJ** label tells you they prefer introversion, intuition, thinking, and judging as cognitive styles
-- The **Enneagram 5** label tells you they're driven by a fear of being overwhelmed or incompetent, so they hoard knowledge and energy as protection
+- The **INTJ** label points to a preference for introversion, intuition, thinking, and judging as a cognitive style
+- The **Enneagram 5** label points to a motivation: a fear of being overwhelmed or incompetent, so they conserve energy and collect knowledge as protection
 
-Same behavior. Completely different explanations.
+Same behavior. Different reasons.
 
 <MarqueeHorizontal displayList={[{name: 'Type 1', link: '/enneagram-corner/enneagram-type-1'}, {name: 'Type 2', link: '/enneagram-corner/enneagram-type-2'}, {name: 'Type 3', link: '/enneagram-corner/enneagram-type-3'}, {name: 'Type 4', link: '/enneagram-corner/enneagram-type-4'}, {name: 'Type 5', link: '/enneagram-corner/enneagram-type-5'}, {name: 'Type 6', link: '/enneagram-corner/enneagram-type-6'}, {name: 'Type 7', link: '/enneagram-corner/enneagram-type-7'}, {name: 'Type 8', link: '/enneagram-corner/enneagram-type-8'}, {name: 'Type 9', link: '/enneagram-corner/enneagram-type-9'}]} />
 
@@ -84,6 +84,10 @@ Combine these and you get 16 types: INTJ, ENFP, ISTP, and so on.
 - What you're really afraid of
 - How you act when stressed vs. thriving
 - The emotional patterns running your life
+
+If you're into MBTI cognitive functions (Ni, Ne, Si, Se, Ti, Te, Fi, Fe), it's a more granular vocabulary for the same focus: how you process and decide. Helpful, but it still won't tell you what you're protecting, chasing, or avoiding.
+
+That's where the Enneagram becomes useful.
 
 ## What the Enneagram Actually Measures
 
@@ -130,7 +134,7 @@ While any MBTI type can be any Enneagram type, certain combinations appear more 
 | ESFJ      | 2, 6, 1                | Helpful, community-focused       |
 | ENTP      | 7, 8, 3                | Innovative, challenge-seeking    |
 
-**Important**: These are tendencies, not rules. An INTJ can absolutely be an Enneagram 2 or 7—it's just less common.
+**Important**: These are tendencies, not rules. An INTJ can absolutely be an Enneagram 2 or 7. It's just less common.
 
 ## Which Should You Take First?
 
@@ -149,7 +153,7 @@ While any MBTI type can be any Enneagram type, certain combinations appear more 
 
 **Best approach**: Take both, then see how they inform each other.
 
-For example: "I'm an INFJ Type 4" tells you that you prefer introversion and intuition (MBTI), AND that you're driven by a fear of being ordinary and a desire to find your unique identity (Enneagram). That's a much richer picture than either alone.
+For example, "I'm an INFJ Type 4" says you prefer introversion and intuition (MBTI) and you're driven by a fear of being ordinary and a desire to find your unique identity (Enneagram). Together, that's a richer picture than either system alone.
 
 <a href="/enneagram-corner/enneagram-test-comparison-2025" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
@@ -163,11 +167,11 @@ For example: "I'm an INFJ Type 4" tells you that you prefer introversion and int
 
 ## The Dynamic vs Static Problem
 
-Here's a crucial difference most people miss:
+One difference matters if you're using these for growth:
 
-**MBTI is relatively static.** Your type doesn't really change. An INTJ at 25 is probably still an INTJ at 45.
+**MBTI aims to describe stable preferences.** Your results can still shift depending on the test and where you are in life.
 
-**Enneagram is dynamic.** Each type has:
+**The Enneagram is built around movement.** Each type has:
 
 - **Levels of health** (healthy, average, unhealthy expressions)
 - **Stress patterns** (you take on traits of another type when stressed)
@@ -175,7 +179,7 @@ Here's a crucial difference most people miss:
 - **Wings** (influence from adjacent types)
 - **Subtypes** (three variations within each type)
 
-This means the Enneagram can track how you're doing emotionally, not just who you are cognitively.
+So the Enneagram can track how you're doing emotionally, not just what you prefer cognitively.
 
 Learn more about [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress) and [instinctual subtypes](/enneagram-corner/enneagram-instinctual-subtypes).
 
@@ -187,7 +191,7 @@ Let's be honest about the science:
 
 **Enneagram**: Originally from spiritual traditions, the Enneagram has less academic research behind it than Big Five personality models. However, recent studies show correlations with established psychological constructs, and it's gaining traction in clinical settings.
 
-**Neither is "scientific" in the way the Big Five is.** But both can be useful tools for self-reflection—as long as you don't treat them as absolute truth.
+**Neither is "scientific" in the way the Big Five is.** But both can be useful tools for self-reflection, as long as you don't treat them as absolute truth.
 
 ## How to Use Both Together
 
@@ -195,10 +199,10 @@ The most powerful approach is combining insights:
 
 1. **Use MBTI** to understand your cognitive preferences and communication style
 2. **Use Enneagram** to understand your emotional patterns and growth edges
-3. **Notice where they align**—this confirms core aspects of your personality
-4. **Notice where they diverge**—this reveals nuance and complexity
+3. **Notice where they align.** This confirms core aspects of your personality
+4. **Notice where they diverge.** This reveals nuance and complexity
 
-For example, two ENFP 7s might seem identical on paper—but one could have a 6 wing (more anxious, loyal) while the other has an 8 wing (more assertive, confrontational). That changes everything about how they show up.
+For example, two ENFP 7s can look identical on paper. If one has a 6 wing (more anxious, loyal) and the other has an 8 wing (more assertive, confrontational), they show up differently in conflict, risk, and commitment.
 
 ## Bottom Line
 
@@ -211,7 +215,7 @@ Stop asking "Which is better?" Start asking "What do I want to understand?"
 - **Team communication?** → MBTI
 - **Personal growth?** → Enneagram
 
-Or better yet: use both and get the full picture.
+Use both and you get a clearer read on yourself.
 
 <svelte:head>
 
@@ -220,19 +224,19 @@ Or better yet: use both and get the full picture.
    "@graph":[
       {
          "@type": "BlogPosting",
-         "articleBody": "The article discusses the Enneagram and the Myers-Briggs Type Indicator (MBTI), two systems that aim to decode the complexity of human personality. The article dives into both systems' origins, key concepts, and principles and explores their differences and potential intersections. In addition, it provides guidance on how to choose between the two systems based on the aspects of personality one aims to explore.",
+         "articleBody": "MBTI explains how you tend to process information and make decisions. The Enneagram explains why you repeat certain emotional patterns, especially under stress. This guide shows what each system measures, what each one is best for, and how to use both without getting stuck in labels.",
          "author": {
             "@type": "Person",
             "name": "DJ Wayne",
             "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
             ]
          },
-         "dateModified": "2025-12-03",
+         "dateModified": "2026-01-18",
          "datePublished": "2023-07-16",
-         "description":"INTJ or Type 5? ENFP or Type 7? Here's the real difference between MBTI and Enneagram—and which one reveals what you actually need to know about yourself.",
+	         "description":"INTJ or Type 5? ENFP or Type 7? Here's the difference between MBTI and the Enneagram, and when each one gives you the insight you're actually looking for.",
          "headline":"Enneagram vs Myers-Briggs: Which Actually Explains You Better?",
          "keywords": ["Enneagram", "Myers-Briggs", "MBTI", "personality types", "personality systems", "psychology", "cognitive functions", "self-awareness", "personal development", "assessment tools"],
-         "wordCount": 2500,
+	         "wordCount": 1551,
          "articleSection": "Enneagram",
          "url": "https://9takes.com/enneagram-corner/enneagram-vs-meyers-briggs",
          "image":{

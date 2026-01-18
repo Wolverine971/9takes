@@ -118,17 +118,17 @@
 </div>
 
 <style lang="scss">
+	/* Solo Leveling Dark Theme */
 	a::after {
 		display: none !important;
 	}
-	.marquee-container {
-		--marquee-bg: var(--primary-light);
-		--marquee-color: var(--text-color);
-		--marquee-border-color: #fdfdfb;
 
+	.marquee-container {
 		width: 100%;
 		overflow: hidden;
-		background: var(--marquee-bg);
+		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
+		border-top: 1px solid rgba(100, 116, 139, 0.2);
+		border-bottom: 1px solid rgba(100, 116, 139, 0.2);
 		position: relative;
 	}
 
@@ -140,16 +140,17 @@
 		width: 10rem;
 		height: 100%;
 		z-index: 1;
+		pointer-events: none;
 	}
 
 	.marquee-container::before {
 		left: 0;
-		background: linear-gradient(to right, var(--marquee-bg), transparent);
+		background: linear-gradient(to right, #1a1a2e, transparent);
 	}
 
 	.marquee-container::after {
 		right: 0;
-		background: linear-gradient(to left, var(--marquee-bg), transparent);
+		background: linear-gradient(to left, #12121a, transparent);
 	}
 
 	.marquee {
@@ -182,16 +183,27 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 1rem 2rem;
-		color: var(--marquee-color);
+		color: #cbd5e1;
 		text-transform: uppercase;
 		font-size: 1.2rem;
 		font-weight: bold;
 		text-decoration: none;
 		transition: all 0.3s ease;
+		position: relative;
 
 		&:hover {
-			color: var(--marquee-border-color);
+			color: #a78bfa;
 			transform: scale(1.1);
+			text-shadow: 0 0 20px rgba(167, 139, 250, 0.5);
+		}
+
+		/* Separator between items */
+		&::after {
+			content: '•';
+			display: inline-block !important;
+			margin-left: 2rem;
+			color: #475569;
+			font-size: 0.75rem;
 		}
 	}
 

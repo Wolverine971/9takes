@@ -50,6 +50,7 @@
 	p {
 		margin: 0;
 		margin-bottom: calc(var(--spacing-unit) * 4);
+		color: #cbd5e1;
 	}
 	.author {
 		font-weight: bold;
@@ -58,8 +59,16 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.author a {
+		color: #a78bfa;
+		text-decoration: none;
+		transition: color 0.2s ease;
+	}
+	.author a:hover {
+		color: #c4b5fd;
+	}
 	.date {
-		color: var(--color-text-secondary);
+		color: #94a3b8;
 	}
 
 	@media (max-width: 500px) {

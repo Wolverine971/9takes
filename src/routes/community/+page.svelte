@@ -63,8 +63,10 @@
 </div>
 
 <style lang="scss">
+	/* Solo Leveling Dark Theme - Community */
 	.page-wrapper {
 		min-height: 100vh;
+		background: linear-gradient(180deg, #0a0a0f 0%, #12121a 100%);
 
 		a::after {
 			display: none !important;
@@ -75,23 +77,41 @@
 	.hero {
 		max-width: 1200px;
 		margin: 0 auto;
-		padding: 2rem 1.5rem 1.5rem;
+		padding: 2.5rem 1.5rem 1.5rem;
 		text-align: center;
+		position: relative;
+	}
+
+	.hero::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 350px;
+		height: 175px;
+		background: radial-gradient(ellipse, rgba(124, 58, 237, 0.12) 0%, transparent 70%);
+		pointer-events: none;
 	}
 
 	.hero h1 {
-		font-size: 1.75rem;
+		font-size: 2rem;
 		font-weight: 700;
 		line-height: 1.2;
 		margin: 0;
-		color: var(--text-primary);
+		letter-spacing: -0.02em;
+		position: relative;
+		background: linear-gradient(135deg, #f1f5f9 0%, #a78bfa 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
 	}
 
 	/* Main Content */
 	.main-content {
 		max-width: 1200px;
 		margin: 0 auto;
-		padding: 2rem 1.5rem 4rem;
+		padding: 1.5rem 1.5rem 4rem;
 	}
 
 	/* Content Sections */
@@ -101,8 +121,21 @@
 		h2 {
 			font-size: 1.25rem;
 			font-weight: 600;
-			color: var(--text-primary);
-			margin: 0 0 1rem;
+			color: #f1f5f9;
+			margin: 0 0 1.25rem;
+			padding-bottom: 0.75rem;
+			border-bottom: 1px solid rgba(100, 116, 139, 0.15);
+			display: flex;
+			align-items: center;
+			gap: 0.75rem;
+
+			&::before {
+				content: '';
+				width: 3px;
+				height: 1.25rem;
+				background: linear-gradient(180deg, #7c3aed 0%, #a78bfa 100%);
+				border-radius: 2px;
+			}
 		}
 	}
 
@@ -117,18 +150,40 @@
 	.blog-card {
 		position: relative;
 		aspect-ratio: 4 / 3;
-		border-radius: 12px;
+		border-radius: 0.75rem;
 		overflow: hidden;
-		background: linear-gradient(135deg, var(--darkest-gray) 0%, var(--black) 100%);
+		background: #16161e;
 		text-decoration: none;
-		transition: all 0.3s ease;
+		transition: all 0.25s ease;
+		border: 1px solid rgba(100, 116, 139, 0.15);
+
+		&::before {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, transparent 50%);
+			opacity: 0;
+			transition: opacity 0.25s ease;
+			z-index: 1;
+		}
 
 		&:hover {
-			transform: translateY(-4px);
-			box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+			transform: translateY(-3px);
+			border-color: rgba(124, 58, 237, 0.3);
+			box-shadow:
+				0 8px 24px rgba(0, 0, 0, 0.3),
+				0 0 0 1px rgba(124, 58, 237, 0.1);
+
+			&::before {
+				opacity: 1;
+			}
 
 			.card-image {
 				transform: scale(1.05);
+			}
+
+			.card-content h3 {
+				color: #a78bfa;
 			}
 		}
 
@@ -136,9 +191,9 @@
 			.card-overlay {
 				background: linear-gradient(
 					to top,
-					rgba(0, 0, 0, 0.85) 0%,
-					rgba(0, 0, 0, 0.4) 50%,
-					rgba(0, 0, 0, 0.1) 100%
+					rgba(10, 10, 15, 0.95) 0%,
+					rgba(10, 10, 15, 0.6) 40%,
+					rgba(10, 10, 15, 0.3) 100%
 				);
 			}
 		}
@@ -155,7 +210,7 @@
 	.card-overlay {
 		position: absolute;
 		inset: 0;
-		background: linear-gradient(135deg, rgba(42, 45, 52, 0.9) 0%, rgba(24, 25, 26, 0.9) 100%);
+		background: linear-gradient(135deg, rgba(22, 22, 30, 0.95) 0%, rgba(10, 10, 15, 0.98) 100%);
 	}
 
 	.card-content {
@@ -165,14 +220,16 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		padding: 1.25rem;
+		padding: 1rem;
 		color: white;
 
 		h3 {
-			font-size: 1rem;
+			font-size: 0.9375rem;
 			font-weight: 600;
 			line-height: 1.4;
 			margin: 0;
+			color: #e2e8f0;
+			transition: color 0.2s ease;
 			display: -webkit-box;
 			-webkit-line-clamp: 3;
 			line-clamp: 3;
@@ -181,10 +238,10 @@
 		}
 
 		p {
-			font-size: 0.8rem;
+			font-size: 0.75rem;
 			line-height: 1.5;
-			opacity: 0.85;
-			margin: 0.5rem 0 0;
+			color: #94a3b8;
+			margin: 0.375rem 0 0;
 			display: -webkit-box;
 			-webkit-line-clamp: 2;
 			line-clamp: 2;
@@ -202,41 +259,42 @@
 
 	@media (max-width: 640px) {
 		.hero {
-			padding: 1.25rem 0.75rem 1rem;
+			padding: 1.5rem 1rem 1rem;
 		}
 
 		.hero h1 {
-			font-size: 1.35rem;
+			font-size: 1.5rem;
 		}
 
 		.main-content {
-			padding: 1rem 0.75rem 2rem;
+			padding: 1rem 1rem 2.5rem;
 		}
 
 		.content-section {
-			margin-bottom: 2rem;
+			margin-bottom: 2.5rem;
 
 			h2 {
-				font-size: 1.1rem;
-				margin-bottom: 0.75rem;
+				font-size: 1.0625rem;
+				margin-bottom: 1rem;
+				padding-bottom: 0.5rem;
 			}
 		}
 
 		.blog-grid {
 			grid-template-columns: repeat(2, 1fr);
-			gap: 0.5rem;
+			gap: 0.625rem;
 		}
 
 		.blog-card {
 			aspect-ratio: 1;
-			border-radius: 8px;
+			border-radius: 0.5rem;
 		}
 
 		.card-content {
-			padding: 0.75rem;
+			padding: 0.625rem;
 
 			h3 {
-				font-size: 0.8rem;
+				font-size: 0.75rem;
 				-webkit-line-clamp: 2;
 				line-clamp: 2;
 			}
@@ -249,18 +307,22 @@
 
 	@media (max-width: 380px) {
 		.hero h1 {
-			font-size: 1.2rem;
+			font-size: 1.25rem;
+		}
+
+		.content-section h2 {
+			font-size: 0.9375rem;
 		}
 
 		.blog-grid {
-			gap: 0.4rem;
+			gap: 0.5rem;
 		}
 
 		.card-content {
 			padding: 0.5rem;
 
 			h3 {
-				font-size: 0.7rem;
+				font-size: 0.6875rem;
 			}
 		}
 	}

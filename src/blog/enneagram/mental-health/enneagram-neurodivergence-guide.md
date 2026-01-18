@@ -4,7 +4,7 @@ description: 'Explore how ADHD, autism, and other neurodivergent conditions inte
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide'
-lastmod: '2025-12-04'
+lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -34,30 +34,36 @@ NOTES:
 </script>
 
 <QuickAnswer question="How do ADHD and autism interact with Enneagram types?">
-**Neurodivergence amplifies, masks, or transforms your Enneagram type's expression.** ADHD can intensify Type 7's stimulation-seeking or create internal torture for Type 1's perfectionism. Autism can make Type 4 feel even more "different" or help Type 5's systematic thinking flourish. Generic advice fails because you need strategies that honor BOTH your brain wiring AND your personality patterns—not one or the other.
+**Neurodivergence can amplify, mask, or reshape how your Enneagram type shows up.** ADHD might crank up Type 7's stimulation seeking, while Type 1 can get stuck in a loop where executive dysfunction triggers mistakes and mistakes trigger harsh self-judgment. Autism can intensify Type 4's feeling of being different, or make Type 5's systematic thinking feel like home. Generic advice fails because you need strategies that respect both your brain wiring and your personality patterns, not one or the other.
 </QuickAnswer>
 
-<p class="firstLetter">Here's what nobody tells you: generic ADHD advice doesn't work for everyone with ADHD. Because ADHD shows up completely differently in a perfectionist Type 1 than it does in a stimulation-seeking Type 7.</p>
+<p class="firstLetter">Generic ADHD advice doesn't land the same for everyone with ADHD. A Type 1 with ADHD fights a different battle than a Type 7 with ADHD.</p>
 
-Same brain wiring. Totally different experience.
+Same diagnosis. Different friction points.
 
-When you're neurodivergent AND you have a personality (spoiler: everyone does), you can't just pick one framework and ignore the other. The ADHD Type 1 needs strategies that address both the executive dysfunction AND the perfectionism that makes them hate themselves for having executive dysfunction.
+When you're neurodivergent and you also have a personality, you can't pick one framework and ignore the other. A Type 1 with ADHD isn't only dealing with executive dysfunction. They're also dealing with an inner critic that treats every missed task like a moral failure.
 
-That's what this guide is for.
+This guide helps you build strategies that fit both.
+
+**Quick note**: The Enneagram is not a clinical tool, and this article cannot diagnose anything. Use it for pattern recognition and better self-advocacy. If you're exploring ADHD, autism, dyslexia, dyspraxia, or sensory processing differences, a formal evaluation can save you years of guessing.
+
+Language note: I'll use "RSD" as shorthand for rejection sensitivity, a term commonly used in ADHD communities (it's not a formal diagnosis).
+
+Use this guide like a menu: scan your type, take what fits your lived experience, and leave the rest.
 
 ## Two Layers, Not One
 
 Here's the difference:
 
-- **Neurodivergence** is about how your brain processes things—it's neurological
-- **Enneagram** is about what drives you—your core fears, desires, and [coping patterns](/enneagram-corner/enneagram-types-in-stress)
+- **Neurodivergence** is about how your brain processes attention, sensory input, language, movement, and social cues
+- **Enneagram** is about what drives you, your core fears, desires, and [coping patterns](/enneagram-corner/enneagram-types-in-stress)
 
 Both are real. Both matter. Neither is the whole picture.
 
 ## What We're Covering
 
 - **[ADHD](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** (Attention Deficit Hyperactivity Disorder)
-- **Autism Spectrum Disorder**
+- **Autism** (including AuDHD)
 - **Dyslexia** (Reading differences)
 - **Dyspraxia** (Motor coordination)
 - **Sensory Processing Differences**
@@ -65,12 +71,12 @@ Both are real. Both matter. Neither is the whole picture.
 
 ### What Happens When They Collide
 
-Your neurodivergence doesn't just sit next to your personality—it changes how your type shows up:
+Your neurodivergence doesn't just sit next to your personality. It changes how your type shows up:
 
-- **Amplifies**: ADHD + Type 7 = stimulation-seeking on overdrive
-- **Masks**: Autism + Type 2 = trying to read social cues you literally can't see
-- **Complicates**: Dyslexia + Type 5 = needing knowledge but struggling to access it through reading
-- **Transforms**: ADHD + Type 1 = perfectionism that can never be satisfied because you physically can't focus
+- **Amplifies**: ADHD + Type 7 can turn novelty-seeking into a full-time job
+- **Masks**: Autism + Type 2 can look like extra effort to read people while still wanting to care well
+- **Complicates**: Dyslexia + Type 5 can make "learn more" collide with a reading-heavy world
+- **Reshapes**: ADHD + Type 1 can create a loop where missed steps trigger harsher standards and more avoidance
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[
@@ -80,6 +86,20 @@ Your neurodivergence doesn't just sit next to your personality—it changes how 
   { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" }
 ]} />
 </div>
+
+## Jump to Your Type
+
+- [Type 1](#type-1)
+- [Type 2](#type-2)
+- [Type 3](#type-3)
+- [Type 4](#type-4)
+- [Type 5](#type-5)
+- [Type 6](#type-6)
+- [Type 7](#type-7)
+- [Type 8](#type-8)
+- [Type 9](#type-9)
+
+<span id="type-1"></span>
 
 ## Type 1: The Perfectionist + Neurodivergence
 
@@ -99,7 +119,7 @@ Your neurodivergence doesn't just sit next to your personality—it changes how 
 - RSD (Rejection Sensitive Dysphoria) amplified
 - Compensatory rigid structures
 
-Type 1s with ADHD often benefit from [medication management](/enneagram-corner/mental-health/enneagram-medication-mental-health) that addresses both their perfectionist resistance to taking medication and their need for executive function support.
+If medication is part of your plan, Type 1 perfectionism can turn it into a moral debate. A thoughtful [medication approach](/enneagram-corner/mental-health/enneagram-medication-mental-health) can support executive function while also working with the inner critic that resists needing help.
 
 **Strategies That Help**:
 
@@ -148,14 +168,16 @@ Type 1s with ADHD often benefit from [medication management](/enneagram-corner/m
 - Reading "imperfections" trigger shame
 - Writing doesn't match internal standards
 - Academic perfectionism harder
-- Spelling errors feel moral
+- Spelling errors trigger outsized shame
 
 **Strategies That Help**:
 
-- Assistive technology embrace
+- Use assistive tech without guilt
 - Reframe dyslexia as difference
 - Alternative demonstration methods
 - Celebrate non-written strengths
+
+<span id="type-2"></span>
 
 ## Type 2: The Helper + Neurodivergence
 
@@ -175,7 +197,7 @@ Type 1s with ADHD often benefit from [medication management](/enneagram-corner/m
 - Hyperfocus on others' needs
 - Chaotic helping patterns
 
-Type 2s with ADHD may develop [codependent addiction patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) around helping others, using people-pleasing as a way to regulate their rejection sensitivity and emotional dysregulation.
+Type 2s with ADHD can slip into codependent patterns around helping, especially when people-pleasing becomes a way to regulate rejection sensitivity and emotional swings. If that resonates, the [addiction recovery guide](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) can help you spot compulsive caretaking and rebuild boundaries.
 
 **Strategies That Help**:
 
@@ -223,7 +245,9 @@ Type 2s with ADHD may develop [codependent addiction patterns](/enneagram-corner
 - Sensory-friendly helping
 - Alternative care methods
 - Quiet helping spaces
-- Sensory tool kit
+- Sensory toolkit
+
+<span id="type-3"></span>
 
 ## Type 3: The Achiever + Neurodivergence
 
@@ -241,9 +265,9 @@ Type 2s with ADHD may develop [codependent addiction patterns](/enneagram-corner
 - Extreme compensation strategies
 - Burnout from overwork
 - Hidden struggles
-- Achievement addiction
+- Worth tied to output
 
-Type 3s often mask their neurodivergent challenges to maintain their successful image, which can lead to severe [workplace mental health issues](/enneagram-corner/mental-health/enneagram-workplace-mental-health) and burnout when their coping strategies fail.
+Many Type 3s mask neurodivergent challenges to maintain an image of competence. You might still deliver, but at the cost of constant sprinting, over-prepping, or pulling late nights. That pattern feeds burnout and [workplace mental health issues](/enneagram-corner/mental-health/enneagram-workplace-mental-health).
 
 **Strategies That Help**:
 
@@ -289,9 +313,11 @@ Type 3s often mask their neurodivergent challenges to maintain their successful 
 **Strategies That Help**:
 
 - Alternative success paths
-- Technology leverage
+- Assistive tech and systems
 - Verbal/visual strengths
 - Reframe dyslexia positively
+
+<span id="type-4"></span>
 
 ## Type 4: The Individualist + Neurodivergence
 
@@ -369,6 +395,8 @@ Type 3s often mask their neurodivergent challenges to maintain their successful 
 - Multiple identity integration
 - Strength-based approach
 
+<span id="type-5"></span>
+
 ## Type 5: The Investigator + Neurodivergence
 
 ### Type 5 + ADHD
@@ -437,6 +465,8 @@ Type 5s with ADHD may experience [crisis situations](/enneagram-corner/mental-he
 - Technology assistance
 - Verbal processing options
 
+<span id="type-6"></span>
+
 ## Type 6: The Loyalist + Neurodivergence
 
 ### Type 6 + ADHD
@@ -455,14 +485,14 @@ Type 5s with ADHD may experience [crisis situations](/enneagram-corner/mental-he
 - Authority confusion
 - Trust issues intensified
 
-Type 6s with ADHD often need careful [medication management](/enneagram-corner/mental-health/enneagram-medication-mental-health) as their anxiety about taking medication can be as problematic as the ADHD symptoms themselves.
+Type 6s with ADHD often want extra clarity and reassurance around treatment. If medication is on the table, a careful [medication plan](/enneagram-corner/mental-health/enneagram-medication-mental-health) can reduce anxiety spirals about side effects, "what ifs," and whether you're doing it "right."
 
 **Strategies That Help**:
 
 - ADHD education reduces fear
 - Structure with flexibility
-- Medication if helps anxiety
-- Support group crucial
+- Treatment plan that factors in anxiety
+- Support group that normalizes symptoms
 - Self-trust building
 
 ### Type 6 + Autism
@@ -505,6 +535,8 @@ Type 6s with ADHD often need careful [medication management](/enneagram-corner/m
 - Anxiety-sensory toolkit
 - Environmental control
 
+<span id="type-7"></span>
+
 ## Type 7: The Enthusiast + Neurodivergence
 
 ### Type 7 + ADHD
@@ -523,7 +555,7 @@ Type 6s with ADHD often need careful [medication management](/enneagram-corner/m
 - Dopamine seeking behaviors
 - Emotional dysregulation
 
-Type 7s with ADHD have the highest risk for [addiction issues](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) due to their double drive for stimulation and their tendency to use substances or behaviors to manage both ADHD symptoms and emotional pain.
+Type 7s with ADHD can be more vulnerable to compulsive coping because the drive for stimulation and the urge to outrun discomfort stack on top of each other. If you're using substances or behaviors to numb, escape, or chase dopamine, the [addiction recovery guide](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) can help you spot the loop early.
 
 **Strategies That Help**:
 
@@ -573,6 +605,8 @@ Type 7s with ADHD have the highest risk for [addiction issues](/enneagram-corner
 - Celebrate capabilities
 - Safety planning
 
+<span id="type-8"></span>
+
 ## Type 8: The Challenger + Neurodivergence
 
 ### Type 8 + ADHD
@@ -591,7 +625,7 @@ Type 7s with ADHD have the highest risk for [addiction issues](/enneagram-corner
 - Intense energy bursts
 - Control through chaos
 
-Type 8s with ADHD often have [trauma histories](/enneagram-corner/mental-health/enneagram-trauma-response-guide) that compound their challenges, as their rejection sensitivity can trigger intense anger responses that mask their underlying vulnerability.
+If trauma is part of your history, it can compound Type 8 + ADHD challenges. Rejection sensitivity plus threat detection can show up as fast anger or control moves that protect vulnerability. If that resonates, the [trauma response guide](/enneagram-corner/mental-health/enneagram-trauma-response-guide) can help you map what's protection and what needs healing.
 
 **Strategies That Help**:
 
@@ -608,7 +642,7 @@ Type 8s with ADHD often have [trauma histories](/enneagram-corner/mental-health/
 - Direct communication misunderstood
 - Sensory overwhelm hidden
 - Social dynamics confusing
-- Vulnerability impossible
+- Vulnerability feels risky
 
 **How It Manifests**:
 
@@ -640,6 +674,8 @@ Type 8s with ADHD often have [trauma histories](/enneagram-corner/mental-health/
 - Leadership opportunities
 - Justice projects
 - Intellectual peers
+
+<span id="type-9"></span>
 
 ## Type 9: The Peacemaker + Neurodivergence
 
@@ -711,11 +747,11 @@ Type 8s with ADHD often have [trauma histories](/enneagram-corner/mental-health/
 
 ### First: Figure Out What's Actually Going On
 
-Get properly assessed if you can. Know your Enneagram type. Then start noticing how they interact—where does your neurodivergence make your type pattern worse? Where does it actually help?
+If you can, get assessed. Know your Enneagram type. Then watch how they interact. Where does your neurodivergence make your type patterns harder? Where does it actually help?
 
 ### Then: Build Strategies That Address Both
 
-Don't just grab generic ADHD tips or generic Type 4 advice. Modify them. Type 1 with ADHD doesn't need "embrace your mess"—they need "structure that has flexibility built in so you don't hate yourself when you slip."
+Don't grab generic ADHD tips or generic Type 4 advice and call it a day. Modify them. A Type 1 with ADHD doesn't need "embrace your mess." They need structure with flexibility built in, so one missed step doesn't trigger a shame spiral.
 
 ### Design Your Environment
 
@@ -723,7 +759,7 @@ Think about sensory stuff, executive function supports, how much social energy y
 
 ### Find Your People
 
-Look for communities that get it—neurodivergent folks who also understand personality. They exist. Online is often easier than in-person for finding this niche.
+Look for communities that get it: neurodivergent folks who also understand personality. They exist. Online is often easier than in person for finding this niche.
 
 ### Keep Adjusting
 
@@ -791,11 +827,11 @@ Each combination has unique strengths:
 
 ## The Point
 
-You're not broken. You're not "too complicated to understand." You're a person with a brain that works a certain way AND a personality that drives you in certain directions.
+You're not broken. You're not "too complicated to understand." You're a person with a brain that works a certain way and a personality that drives you in certain directions.
 
 Generic advice fails because it only addresses one of those things. The ADHD tips that work for Type 7s won't work for Type 1s. The autism accommodations that help Type 5s might overwhelm Type 2s.
 
-So use this guide to figure out what YOU actually need—not what "ADHD people" or "Type 3s" are supposed to need.
+So use this guide to figure out what you actually need, not what "ADHD people" or "Type 3s" are supposed to need.
 
 And if you need more support, check out [therapy options that understand both neurodivergence and personality](/enneagram-corner/mental-health/enneagram-therapy-guide), [medication approaches that work with your type](/enneagram-corner/mental-health/enneagram-medication-mental-health), or how [trauma might be part of your picture too](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
 
@@ -803,23 +839,46 @@ And if you need more support, check out [therapy options that understand both ne
 
 ### Can I have ADHD and still be Type 1?
 
-Yes—and it's often a particularly challenging combination. Type 1's perfectionist standards clash with ADHD's executive dysfunction, creating intense internal frustration. Type 1s with ADHD often develop rigid compensatory systems (detailed schedules, checklists everywhere) to manage symptoms. The key is recognizing that your perfectionism about ADHD management can itself become problematic. "Perfect for me" needs to replace absolute perfectionism.
+Yes. It can be a particularly challenging combination.
+
+Type 1's perfectionist standards clash with ADHD's executive dysfunction, which can create intense internal frustration and shame.
+
+Many Type 1s respond by building rigid compensatory systems (detailed schedules, checklists everywhere). Those can help, until the system becomes another way to judge yourself.
+
+The goal is "perfect for me," not absolute perfection.
 
 ### Why do some Enneagram types get misdiagnosed with autism or ADHD?
 
-Type 5s are frequently misdiagnosed with autism due to their natural social withdrawal and intense special interests. Type 7s get ADHD diagnoses because of their stimulation-seeking and difficulty with monotony. Type 4s might receive various diagnoses because of their emotional intensity. The distinction: Enneagram patterns are motivation-based (why you do what you do), while neurodivergence is neurological (how your brain processes). You can be both—or just one.
+Some Enneagram traits can look like neurodivergent traits from the outside. A Type 5 might prefer solitude and deep interests. A Type 7 might chase novelty. A Type 4 might have intense emotions.
+
+Clinicians diagnose ADHD and autism based on development and day-to-day functioning, not on motivation. The Enneagram is motivation-based (why you do what you do). Neurodivergence is neurological (how your brain processes).
+
+You can have a type pattern without being neurodivergent, you can be neurodivergent without those type patterns, and you can be both.
 
 ### How do I know if my challenges are from my Enneagram type or my neurodivergence?
 
-Ask: Is this about motivation or processing? Type 5 social withdrawal is about energy management and privacy (motivation). Autistic social challenges are about sensory overwhelm and communication processing (neurological). Type 7 distraction is about avoiding pain (motivation). ADHD distraction is about executive function (neurological). Often both are operating simultaneously—you need strategies that address both layers.
+Ask: is this about motivation or processing?
+
+- Motivation: Type 5 withdraws to conserve energy and privacy. Type 7 distracts to avoid discomfort.
+- Processing: autism can change how you process sensory input and social communication. ADHD can make attention and executive function inconsistent.
+
+Often it's both at once. Build strategies that address both layers.
 
 ### What accommodations work for neurodivergent people of specific Enneagram types?
 
-Accommodations need to honor both factors. Type 1 with ADHD: Structured flexibility, written instructions, movement breaks without shame. Type 4 with autism: Creative outlets, explicit social communication, sensory-friendly authenticity. Type 6 with ADHD: Clear procedures, extra reassurance about ADHD symptoms being normal, support groups. Generic accommodations fail because they address only one layer.
+Accommodations work best when they honor both processing and motivation. Examples:
+
+- Type 1 + ADHD: structured flexibility, written instructions, movement breaks without shame
+- Type 4 + autism: creative outlets, explicit communication, sensory-friendly authenticity
+- Type 6 + ADHD: clear procedures, predictable feedback, reassurance that symptoms are normal
+
+Generic accommodations fail when they only address one layer.
 
 ### Should I tell employers about both my Enneagram type and neurodivergence?
 
-Generally, share neurodivergence for formal accommodations (it's legally protected). Keep Enneagram knowledge for your own strategic use. Use Enneagram insights to frame accommodation requests: Type 5s can ask for deep work blocks without revealing type. Type 8s can advocate for autonomy within accommodation requests. Your type helps you know HOW to ask; your diagnosis gives you the legal right to ask.
+In most cases, share neurodivergence only as needed for formal accommodations. Keep Enneagram knowledge for your own strategic use.
+
+Use Enneagram insights to frame accommodation requests: Type 5s can ask for deep work blocks. Type 8s can advocate for autonomy and clear decision rights. Your type helps you know how to ask.
 
 <svelte:head>
 
@@ -840,7 +899,7 @@ Generally, share neurodivergence for formal accommodations (it's legally protect
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-08-25",
+      "dateModified": "2026-01-18",
       "datePublished": "2025-08-25",
       "description": "Explore how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type. Learn accommodations and strategies for thriving.",
       "headline": "Enneagram and Neurodivergence: When Personality Meets Brain Wiring",

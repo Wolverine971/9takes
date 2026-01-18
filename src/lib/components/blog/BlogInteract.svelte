@@ -96,7 +96,7 @@
 		placeholder="What are your thoughts on {data.slug.split('-').join(' ')}?"
 		class="interact-textbox"
 		bind:value={comment}
-	/>
+	></textarea>
 </div>
 
 <div class="interaction-div-display">

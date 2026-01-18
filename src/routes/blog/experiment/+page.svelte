@@ -1876,7 +1876,7 @@
 					style="width: 100%;"
 					placeholder="emotion 1\nemotion 2\nemotion 3\n..."
 					bind:value={emotionList}
-				/>
+				></textarea>
 			{:else}
 				<div
 					on:click={() => (submitBox = false)}

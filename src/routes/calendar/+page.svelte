@@ -15,7 +15,7 @@
 				height="600"
 				frameborder="0"
 				scrolling="no"
-			/>
+			></iframe>
 		</div>
 	</div>
 {/if}

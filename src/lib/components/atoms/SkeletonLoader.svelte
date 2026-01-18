@@ -45,7 +45,7 @@
 	}
 
 	.skeleton {
-		background-color: var(--skeleton-bg, #e0e0e0);
+		background-color: var(--skeleton-bg, #252538);
 		position: relative;
 		overflow: hidden;
 
@@ -64,7 +64,7 @@
 
 		&--card {
 			border-radius: 12px;
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 0 15px rgba(124, 58, 237, 0.1);
 		}
 
 		&--pulse {
@@ -79,7 +79,7 @@
 			bottom: 0;
 			left: 0;
 			transform: translateX(-100%);
-			background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+			background: linear-gradient(90deg, transparent, rgba(124, 58, 237, 0.2), transparent);
 			animation: skeleton-wave 1.5s ease-in-out infinite;
 		}
 	}
@@ -105,7 +105,7 @@
 		}
 	}
 
-	:global(.dark) .skeleton {
-		background-color: var(--skeleton-bg-dark, #3a3a3a);
+	:global(.light) .skeleton {
+		background-color: var(--skeleton-bg-light, #e0e0e0);
 	}
 </style>

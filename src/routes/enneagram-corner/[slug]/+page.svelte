@@ -155,12 +155,13 @@
 	.article-body {
 		margin-bottom: 2rem;
 		line-height: 1.7;
+		color: #cbd5e1;
 
 		/* Header styles for injected content */
 		:global(h2) {
 			font-size: 1.75rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: #f1f5f9;
 			margin-top: 2rem;
 			margin-bottom: 1rem;
 			padding-top: 1rem;
@@ -170,7 +171,7 @@
 		:global(h3) {
 			font-size: 1.35rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: #f1f5f9;
 			margin-top: 1.5rem;
 			margin-bottom: 0.75rem;
 			line-height: 1.35;
@@ -179,7 +180,7 @@
 		:global(h4) {
 			font-size: 1.15rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: #f1f5f9;
 			margin-top: 1.25rem;
 			margin-bottom: 0.5rem;
 			line-height: 1.4;
@@ -187,13 +188,14 @@
 
 		:global(p) {
 			margin-bottom: 1.2rem;
-			color: var(--text-primary);
+			color: #cbd5e1;
 		}
 
 		:global(ul),
 		:global(ol) {
 			margin: 1rem 0;
 			padding-left: 1.5rem;
+			color: #cbd5e1;
 		}
 
 		:global(li) {
@@ -201,24 +203,63 @@
 			line-height: 1.6;
 		}
 
+		:global(a) {
+			color: #a78bfa;
+			text-decoration: none;
+			transition: color 0.2s ease;
+
+			&:hover {
+				color: #c4b5fd;
+				text-decoration: underline;
+			}
+		}
+
 		:global(blockquote) {
 			margin: 1.5rem 0;
 			padding: 1rem 1.5rem;
-			border-left: 4px solid var(--primary);
-			background-color: var(--lightest-gray);
+			border-left: 4px solid #7c3aed;
+			background-color: #1a1a2e;
 			font-style: italic;
+			color: #94a3b8;
+			border-radius: 0 8px 8px 0;
+		}
+
+		:global(blockquote p) {
+			margin-bottom: 0;
+			color: #94a3b8;
 		}
 
 		:global(strong) {
 			font-weight: 600;
-			color: var(--text-primary);
+			color: #f1f5f9;
+		}
+
+		:global(code) {
+			background-color: #252538;
+			color: #a78bfa;
+			padding: 0.2rem 0.4rem;
+			border-radius: 4px;
+			font-size: 0.9em;
+		}
+
+		:global(pre) {
+			background-color: #0a0a0f;
+			border: 1px solid rgba(100, 116, 139, 0.3);
+			border-radius: 8px;
+			padding: 1rem;
+			overflow-x: auto;
+
+			:global(code) {
+				background: none;
+				padding: 0;
+			}
 		}
 	}
 
 	.section-divider {
 		margin: 5rem 0;
 		border: 0;
-		border-top: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
+		border-top: 1px solid rgba(100, 116, 139, 0.3);
 	}
 
 	.join {

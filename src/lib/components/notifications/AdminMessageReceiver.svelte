@@ -124,7 +124,7 @@
 		{#if showNotifications}
 			<div class="notification-panel">
 				<div class="notification-header">
-					<h3>Admin Messages</h3>
+					<h3 style="padding: 0;">Admin Messages</h3>
 					<button class="close-btn" on:click={() => (showNotifications = false)}>×</button>
 				</div>
 
@@ -163,38 +163,44 @@
 {/if}
 
 <style>
+	/* Solo Leveling Dark Theme - Admin Notifications */
 	.notification-container {
 		position: relative;
-		display: inline-block;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 0.25rem;
 	}
 
 	.notification-bell {
-		background: none;
+		background: transparent;
 		border: none;
 		font-size: 1.125rem;
 		cursor: pointer;
-		padding: 0.375rem;
-		border-radius: 50%;
+		padding: 0.5rem;
+		border-radius: 0.5rem;
 		transition: all 0.2s ease;
 		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.25rem;
-		height: 2.25rem;
-		color: var(--text-primary);
+		width: 2.5rem;
+		height: 2.5rem;
+		color: #94a3b8;
 	}
 
 	.notification-bell:hover {
-		background-color: var(--hover-background);
-		border-color: var(--primary);
-		transform: translateY(-1px);
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		background-color: rgba(124, 58, 237, 0.15);
+		color: #a78bfa;
 	}
 
 	.notification-bell:focus {
-		outline: 2px solid var(--primary);
+		outline: 2px solid #a78bfa;
 		outline-offset: 2px;
+	}
+
+	.notification-bell:focus:not(:focus-visible) {
+		outline: none;
 	}
 
 	.notification-bell:active {
@@ -202,41 +208,42 @@
 	}
 
 	.notification-bell.has-messages {
+		color: #a78bfa;
 		animation: shake 0.5s ease-in-out;
 	}
 
 	.notification-badge {
 		position: absolute;
-		top: -4px;
-		right: -4px;
-		background: linear-gradient(135deg, var(--error) 0%, var(--error-700) 100%);
+		top: 0.125rem;
+		right: 0.125rem;
+		background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
 		color: white;
 		border-radius: 9999px;
-		min-width: 1.25rem;
-		height: 1.25rem;
+		min-width: 1.125rem;
+		height: 1.125rem;
 		padding: 0 0.25rem;
-		font-size: 0.6875rem;
+		font-size: 0.625rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		font-weight: 700;
-		border: 2px solid white;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+		border: 2px solid #1a1a2e;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 		z-index: 10;
 	}
 
 	.notification-panel {
 		position: absolute;
-		top: calc(100% + 0.75rem);
-		right: 0;
-		width: 360px;
-		max-height: 480px;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: 1rem;
+		top: calc(100% + 0.5rem);
+		right: -0.5rem;
+		width: 340px;
+		max-height: 450px;
+		background: #16161e;
+		border: 1px solid rgba(124, 58, 237, 0.2);
+		border-radius: 0.75rem;
 		box-shadow:
-			0 20px 25px -5px rgba(0, 0, 0, 0.1),
-			0 10px 10px -5px rgba(0, 0, 0, 0.04);
+			0 20px 25px -5px rgba(0, 0, 0, 0.5),
+			0 0 30px rgba(124, 58, 237, 0.1);
 		z-index: 1000;
 		overflow: hidden;
 		transform: translateY(-8px);
@@ -252,31 +259,31 @@
 	}
 
 	.notification-header {
-		padding: 1.25rem 1.5rem;
-		border-bottom: 1px solid var(--border-color);
+		padding: 1rem 1.25rem;
+		border-bottom: 1px solid rgba(124, 58, 237, 0.15);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background: linear-gradient(135deg, var(--primary-100) 0%, var(--neutral-100) 100%);
+		background: linear-gradient(180deg, rgba(124, 58, 237, 0.08) 0%, transparent 100%);
 	}
 
 	.notification-header h3 {
 		margin: 0;
-		font-size: 1.125rem;
+		font-size: 0.9375rem;
 		font-weight: 600;
-		color: var(--text-primary);
-		letter-spacing: -0.025em;
+		color: #f1f5f9;
+		letter-spacing: -0.01em;
 	}
 
 	.close-btn {
-		background: var(--button-background);
+		background: transparent;
 		border: none;
 		border-radius: 0.375rem;
 		font-size: 1.25rem;
 		cursor: pointer;
-		color: var(--text-secondary);
-		width: 2rem;
-		height: 2rem;
+		color: #64748b;
+		width: 1.75rem;
+		height: 1.75rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -285,9 +292,8 @@
 	}
 
 	.close-btn:hover {
-		background: var(--hover-background);
-		color: var(--text-primary);
-		transform: scale(1.05);
+		background: rgba(124, 58, 237, 0.15);
+		color: #e2e8f0;
 	}
 
 	.close-btn:active {
@@ -295,15 +301,14 @@
 	}
 
 	.notification-content {
-		max-height: 320px;
+		max-height: 300px;
 		overflow-y: auto;
 		scrollbar-width: thin;
-		padding: 0.5rem;
-		scrollbar-color: var(--medium-gray) transparent;
+		scrollbar-color: rgba(124, 58, 237, 0.3) transparent;
 	}
 
 	.notification-content::-webkit-scrollbar {
-		width: 6px;
+		width: 5px;
 	}
 
 	.notification-content::-webkit-scrollbar-track {
@@ -311,19 +316,19 @@
 	}
 
 	.notification-content::-webkit-scrollbar-thumb {
-		background-color: var(--medium-gray);
+		background-color: rgba(124, 58, 237, 0.3);
 		border-radius: 3px;
 	}
 
 	.notification-content::-webkit-scrollbar-thumb:hover {
-		background-color: var(--dark-gray);
+		background-color: rgba(124, 58, 237, 0.5);
 	}
 
 	.no-messages {
-		padding: 3rem 1.5rem;
+		padding: 2.5rem 1.25rem;
 		text-align: center;
-		color: var(--text-secondary);
-		font-size: 0.9375rem;
+		color: #64748b;
+		font-size: 0.875rem;
 		line-height: 1.5;
 	}
 
@@ -332,14 +337,13 @@
 	}
 
 	.message-item {
-		padding: 1.25rem 1.5rem;
+		padding: 0.875rem 1rem;
 		margin: 0.25rem 0;
 		border-radius: 0.5rem;
-		background: var(--message-background);
+		background: rgba(124, 58, 237, 0.05);
 		border: 1px solid transparent;
-		transition: all 0.2s ease;
+		transition: all 0.15s ease;
 		position: relative;
-		cursor: pointer;
 	}
 
 	.message-item:first-child {
@@ -351,10 +355,8 @@
 	}
 
 	.message-item:hover {
-		background-color: var(--hover-background);
-		border-color: var(--border-color);
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-		transform: translateX(2px);
+		background: rgba(124, 58, 237, 0.1);
+		border-color: rgba(124, 58, 237, 0.2);
 	}
 
 	.message-item::before {
@@ -363,12 +365,12 @@
 		left: 0;
 		top: 50%;
 		transform: translateY(-50%);
-		height: 60%;
-		width: 3px;
-		background: var(--primary);
+		height: 50%;
+		width: 2px;
+		background: #7c3aed;
 		border-radius: 0 2px 2px 0;
 		opacity: 0;
-		transition: opacity 0.2s ease;
+		transition: opacity 0.15s ease;
 	}
 
 	.message-item:hover::before {
@@ -379,74 +381,72 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin-bottom: 0.5rem;
-		gap: 1rem;
+		margin-bottom: 0.375rem;
+		gap: 0.75rem;
 	}
 
 	.message-type {
-		font-size: 0.8125rem;
+		font-size: 0.75rem;
 		font-weight: 600;
-		color: var(--primary);
+		color: #a78bfa;
 		display: flex;
 		align-items: center;
 		gap: 0.25rem;
 	}
 
 	.message-time {
-		font-size: 0.75rem;
-		color: var(--text-secondary);
+		font-size: 0.6875rem;
+		color: #64748b;
 		white-space: nowrap;
 	}
 
 	.message-content {
-		font-size: 0.9375rem;
-		color: var(--text-primary);
+		font-size: 0.8125rem;
+		color: #cbd5e1;
 		line-height: 1.5;
 		word-wrap: break-word;
 	}
 
 	.notification-actions {
-		padding: 1rem 1.5rem;
-		border-top: 1px solid var(--border-color);
+		padding: 0.75rem 1rem;
+		border-top: 1px solid rgba(124, 58, 237, 0.15);
 		display: flex;
-		gap: 0.75rem;
-		background-color: var(--background);
+		gap: 0.5rem;
+		background: rgba(0, 0, 0, 0.2);
 	}
 
 	.clear-btn,
 	.permission-btn {
 		flex: 1;
-		padding: 0.75rem 1rem;
-		min-height: 2.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: 0.5rem;
-		background: var(--card-background);
-		color: var(--text-primary);
-		font-size: 0.875rem;
+		padding: 0.5rem 0.75rem;
+		min-height: 2.25rem;
+		border: 1px solid rgba(124, 58, 237, 0.2);
+		border-radius: 0.375rem;
+		background: rgba(124, 58, 237, 0.1);
+		color: #cbd5e1;
+		font-size: 0.75rem;
 		font-weight: 500;
 		cursor: pointer;
-		transition: all 0.2s ease;
+		transition: all 0.15s ease;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 
 	.permission-btn {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
 		color: white;
-		border-color: var(--primary);
+		border-color: transparent;
 	}
 
 	.clear-btn:hover {
-		background-color: var(--hover-background);
-		border-color: var(--primary);
-		transform: translateY(-1px);
+		background: rgba(124, 58, 237, 0.2);
+		border-color: rgba(124, 58, 237, 0.3);
 	}
 
 	.permission-btn:hover {
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-900) 100%);
-		transform: translateY(-1px);
-		box-shadow: 0 4px 8px rgba(108, 92, 231, 0.3);
+		background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+		box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
 	}
 
 	@keyframes shake {
@@ -462,40 +462,46 @@
 		}
 	}
 
-	/* Mobile responsiveness */
+	/* Tablet responsiveness */
 	@media (max-width: 768px) {
 		.notification-bell {
-			width: 3rem;
-			height: 3rem;
-			padding: 0.75rem;
+			width: 2.75rem;
+			height: 2.75rem;
+			padding: 0.625rem;
 		}
 
 		.notification-panel {
-			width: 320px;
-			right: -1rem;
-			max-height: 70vh;
+			width: 300px;
+			right: -0.75rem;
+			max-height: 60vh;
 		}
 
 		.notification-header {
-			padding: 1rem 1.25rem;
+			padding: 0.875rem 1rem;
 		}
 
 		.message-item {
-			padding: 1rem 1.25rem;
+			padding: 0.75rem 0.875rem;
 		}
 
 		.notification-actions {
-			padding: 1rem 1.25rem;
+			padding: 0.625rem 0.875rem;
 		}
 
 		.clear-btn,
 		.permission-btn {
-			min-height: 3rem;
-			padding: 0.875rem 1rem;
+			min-height: 2.5rem;
+			padding: 0.625rem 0.75rem;
+			font-size: 0.8125rem;
 		}
 	}
 
+	/* Mobile responsiveness */
 	@media (max-width: 480px) {
+		.notification-container {
+			margin: 0;
+		}
+
 		.notification-panel {
 			position: fixed;
 			top: auto;
@@ -503,9 +509,41 @@
 			left: 0;
 			right: 0;
 			width: 100%;
-			max-height: 80vh;
+			max-height: 75vh;
 			border-radius: 1rem 1rem 0 0;
-			animation: slideUp 0.3s ease-out forwards;
+			border-bottom: none;
+			animation: slideUp 0.25s ease-out forwards;
+		}
+
+		.notification-header {
+			padding: 1rem 1.25rem;
+		}
+
+		.notification-header h3 {
+			font-size: 1rem;
+		}
+
+		.messages-list {
+			padding: 0.75rem;
+		}
+
+		.message-item {
+			padding: 1rem;
+		}
+
+		.message-content {
+			font-size: 0.875rem;
+		}
+
+		.notification-actions {
+			padding: 1rem;
+			gap: 0.75rem;
+		}
+
+		.clear-btn,
+		.permission-btn {
+			min-height: 2.75rem;
+			font-size: 0.875rem;
 		}
 	}
 
@@ -517,58 +555,6 @@
 		to {
 			transform: translateY(0);
 			opacity: 1;
-		}
-	}
-
-	/* Dark mode support */
-	@media (prefers-color-scheme: dark) {
-		.notification-bell {
-			color: var(--neutral-50);
-		}
-
-		.notification-bell:hover {
-			background-color: rgba(255, 255, 255, 0.1);
-		}
-
-		.notification-panel {
-			background: var(--neutral-900);
-			border-color: var(--neutral-800);
-		}
-
-		.notification-header {
-			background: linear-gradient(135deg, var(--neutral-800) 0%, var(--neutral-700) 100%);
-		}
-
-		.notification-header h3 {
-			color: var(--neutral-50);
-		}
-
-		.message-item {
-			background: var(--neutral-800);
-			border-color: var(--neutral-700);
-		}
-
-		.message-item:hover {
-			background-color: var(--neutral-800);
-		}
-
-		.message-content {
-			color: var(--neutral-50);
-		}
-
-		.clear-btn {
-			background: var(--neutral-800);
-			border-color: var(--neutral-700);
-			color: var(--neutral-50);
-		}
-
-		.notification-bell {
-			background: var(--neutral-800);
-			border-color: var(--neutral-700);
-		}
-
-		.clear-btn:hover {
-			background: var(--neutral-700);
 		}
 	}
 </style>

@@ -202,7 +202,7 @@
 	>
 		<SlidersIcon className="h-4 w-4" />
 		{#if selected.length !== typeOptions.length || sortBy !== 'newest'}
-			<span class="filter-btn__dot" in:scale={{ duration: 150, easing: cubicOut }} />
+			<span class="filter-btn__dot" in:scale={{ duration: 150, easing: cubicOut }}></span>
 		{/if}
 	</button>
 {/if}
@@ -259,7 +259,8 @@
 					>
 						<span class="type-chip__number">{typeLabels[type]}</span>
 						{#if isSelected}
-							<span class="type-chip__indicator" in:scale={{ duration: 150, easing: cubicOut }} />
+							<span class="type-chip__indicator" in:scale={{ duration: 150, easing: cubicOut }}
+							></span>
 						{/if}
 					</button>
 				{/each}
@@ -349,7 +350,7 @@
 				disabled={sortLoading || !data?.flags?.userHasAnswered}
 			>
 				{#if sortLoading}
-					<span class="action-btn__spinner" />
+					<span class="action-btn__spinner"></span>
 				{:else}
 					<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						<path

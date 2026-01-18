@@ -2,11 +2,9 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { goto } from '$app/navigation';
-	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
-	import type { ActionData, PageData } from './$types';
+	import type { ActionData } from './$types';
 
-	export let data: PageData;
 	export let form: ActionData;
 
 	let password = '';
@@ -51,11 +49,11 @@
 	<meta property="og:image:type" content="image/png" />
 </svelte:head>
 
-<div class="mx-auto mt-8 max-w-md p-4">
-	<h1 class="mb-8 text-center text-2xl text-primary-700">Reset Password</h1>
+<div class="auth-container">
+	<h1 class="auth-title">Reset Password</h1>
 
 	{#if form?.success || showSuccessMessage}
-		<div class="mb-4 rounded bg-success-100 p-4 text-center text-success-700">
+		<div class="success-message">
 			<p>{form?.message || 'Password has been reset successfully!'}</p>
 			<p>Redirecting to login page...</p>
 		</div>
@@ -63,7 +61,7 @@
 		<form
 			action="?/resetPass"
 			method="POST"
-			class="flex flex-col gap-4"
+			class="auth-form"
 			use:enhance={() => {
 				submitting = true;
 
@@ -73,8 +71,8 @@
 				};
 			}}
 		>
-			<div class="flex flex-col gap-2">
-				<label for="password" class="font-bold text-neutral-800">New Password</label>
+			<div class="form-group">
+				<label for="password" class="form-label">New Password</label>
 				<input
 					type="password"
 					id="password"
@@ -82,59 +80,179 @@
 					bind:value={password}
 					required
 					minlength="6"
-					class="rounded border border-neutral-300 p-2 transition-all duration-300 focus:border-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400/20"
+					class="form-input"
 				/>
 				{#if password && !isValidPassword}
-					<div class="mt-1 text-sm text-error-500">Password must be at least 6 characters</div>
+					<div class="error-hint">Password must be at least 6 characters</div>
 				{/if}
 			</div>
 
-			<div class="flex flex-col gap-2">
-				<label for="confirmPassword" class="font-bold text-neutral-800">Confirm Password</label>
+			<div class="form-group">
+				<label for="confirmPassword" class="form-label">Confirm Password</label>
 				<input
 					type="password"
 					id="confirmPassword"
 					bind:value={confirmPassword}
 					required
-					class="rounded border border-neutral-300 p-2 transition-all duration-300 focus:border-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400/20"
+					class="form-input"
 				/>
 				{#if confirmPassword && !passwordsMatch}
-					<div class="mt-1 text-sm text-error-500">Passwords do not match</div>
+					<div class="error-hint">Passwords do not match</div>
 				{/if}
 			</div>
 
 			{#if form?.error}
-				<div class="text-sm text-error-500">
+				<div class="error-message">
 					{form.error}
 				</div>
 			{/if}
 
-			<button
-				type="submit"
-				class="cursor-pointer rounded border-none bg-primary-700 px-4 py-2 text-base text-white transition-colors duration-200 hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70"
-				disabled={!canSubmit}
-			>
+			<button type="submit" class="submit-btn" disabled={!canSubmit}>
 				{submitting ? 'Resetting Password...' : 'Reset Password'}
 			</button>
 		</form>
 	{/if}
 
-	<div class="mt-4 text-center">
-		<a href="/login" class="text-primary-700 no-underline hover:underline">Back to Login</a>
+	<div class="back-link">
+		<a href="/login">Back to Login</a>
 	</div>
 </div>
 
-<style>
-	@media (max-width: 480px) {
-		.max-w-md {
-			padding: 1rem 0.5rem;
+<style lang="scss">
+	/* Solo Leveling Dark Theme */
+	.auth-container {
+		max-width: 400px;
+		margin: 2rem auto;
+		padding: 2rem;
+		background-color: #1a1a2e;
+		border: 1px solid rgba(100, 116, 139, 0.2);
+		border-radius: 12px;
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+	}
+
+	.auth-title {
+		text-align: center;
+		margin-bottom: 2rem;
+		font-size: 1.5rem;
+		font-weight: bold;
+		color: #a78bfa;
+	}
+
+	.auth-form {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.form-group {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.form-label {
+		font-weight: 600;
+		font-size: 0.9rem;
+		color: #cbd5e1;
+	}
+
+	.form-input {
+		padding: 0.75rem;
+		background-color: #252538;
+		border: 1px solid rgba(100, 116, 139, 0.3);
+		border-radius: 8px;
+		font-size: 1rem;
+		color: #f1f5f9;
+		transition: all 0.3s ease;
+
+		&::placeholder {
+			color: #64748b;
 		}
 
-		.text-2xl {
+		&:focus {
+			outline: none;
+			border-color: #7c3aed;
+			box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+		}
+	}
+
+	.success-message {
+		padding: 1rem;
+		margin-bottom: 1rem;
+		background-color: rgba(16, 185, 129, 0.15);
+		border: 1px solid rgba(16, 185, 129, 0.3);
+		border-radius: 8px;
+		color: #10b981;
+		text-align: center;
+
+		p {
+			margin: 0.25rem 0;
+		}
+	}
+
+	.error-message {
+		padding: 0.5rem;
+		font-size: 0.9rem;
+		color: #ef4444;
+	}
+
+	.error-hint {
+		margin-top: 0.25rem;
+		font-size: 0.85rem;
+		color: #ef4444;
+	}
+
+	.submit-btn {
+		width: 100%;
+		padding: 0.75rem 1.25rem;
+		background: linear-gradient(135deg, #7c3aed, #6d28d9);
+		border: none;
+		border-radius: 8px;
+		color: white;
+		font-size: 1rem;
+		font-weight: 600;
+		cursor: pointer;
+		transition: all 0.3s ease;
+
+		&:hover:not(:disabled) {
+			box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+			transform: translateY(-2px);
+		}
+
+		&:disabled {
+			opacity: 0.7;
+			cursor: not-allowed;
+		}
+	}
+
+	.back-link {
+		text-align: center;
+		margin-top: 1rem;
+
+		a {
+			color: #a78bfa;
+			text-decoration: none;
+			font-size: 0.9rem;
+			transition: all 0.3s ease;
+
+			&:hover {
+				color: #c4b5fd;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	@media (max-width: 480px) {
+		.auth-container {
+			margin: 1rem auto;
+			padding: 1.5rem;
+		}
+
+		.auth-title {
 			font-size: 1.2rem;
 		}
 
-		button {
+		.submit-btn {
 			width: 100%;
 		}
 	}

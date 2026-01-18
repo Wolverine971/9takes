@@ -1,10 +1,25 @@
 // src/routes/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { famousTypes } from '$lib/components/molecules/famousTypes'; // adjust path as needed
-import { error } from '@sveltejs/kit';
+import { famousTypes } from '$lib/components/molecules/famousTypes';
+
+export interface FamousPerson {
+	name: string;
+	type: number;
+	hasImage: boolean;
+	hasLink: boolean;
+}
+
+export interface FamousBlogPerson {
+	person: string;
+	enneagram: number;
+	description?: string | null;
+	lastmod?: string | null;
+}
 
 export const load: PageServerLoad = async ({ locals }) => {
-	// Fetch top questions
+	const { session } = await locals.safeGetSession();
+
+	// Get top questions for daily quest rotation
 	const { data: top9Questions, error: top9QuestionsError } = await locals.supabase
 		.from('questions')
 		.select('*')
@@ -14,65 +29,68 @@ export const load: PageServerLoad = async ({ locals }) => {
 		.limit(9);
 
 	if (top9QuestionsError) {
-		// Handle error appropriately
+		console.error('Error fetching questions:', top9QuestionsError);
 	}
 
-	// Calculate which question to display based on current date
-	// This will rotate through questions every 9 days
+	// Rotate question of the day based on date
 	const today = new Date();
 	const daysSinceEpoch = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));
-	const questionIndex = daysSinceEpoch % 9; // Rotate through 9 questions (0-8)
-
-	// Select the question of the day
+	const questionIndex = daysSinceEpoch % 9;
 	const questionOfTheDay =
 		top9Questions && top9Questions.length > 0 ? top9Questions[questionIndex] : null;
 
-	// Rest of your existing code
-	let images: Array<{ img_url: string; img_alt: string }> = [];
-
-	const { data: famousPeople, error: famousPeopleError } = await locals.supabase
+	// Get recent celebrity analyses for featured section
+	const { data: featuredPeople, error: featuredPeopleError } = await locals.supabase
 		.from('blogs_famous_people')
-		.select('*')
+		.select('person, enneagram, description, lastmod')
 		.order('lastmod', { ascending: false })
 		.eq('published', true)
+		.limit(6);
 
-		.limit(5);
-
-	if (famousPeopleError) {
-		throw error(404, {
-			message: `Error finding famous people`
-		});
+	if (featuredPeopleError) {
+		console.error('Error fetching featured people:', featuredPeopleError);
 	}
 
-	let gridSize = 9;
+	// Build images array for 9 types grid (one per type)
+	const typeRepresentatives: FamousPerson[] = [];
+	const gridSize = 9;
+
 	Object.keys(famousTypes).forEach((keyStr, i) => {
 		if (i < gridSize) {
 			const key = Number(keyStr);
-			// Only include people with images; prioritize those with published blogs
-			let group = famousTypes[key]
+			// Prioritize people with links (published profiles)
+			const group = famousTypes[key]
 				.filter((person) => person.hasImage && person.link)
 				.sort(() => Math.random() - 0.5);
-			if (group.length < 9) {
-				// Add people with images but no published blog yet
-				group.push(
-					...famousTypes[key]
-						.filter((person) => person.hasImage && !person.link)
-						.slice(0, 9 - group.length)
-				);
-			}
 
-			const slicedGroup = group.slice(0, gridSize);
-			slicedGroup.forEach((person) => {
-				let info = { ...person, type: key, url: person.link };
-				images.push(info);
-			});
+			if (group.length > 0) {
+				const person = group[0];
+				typeRepresentatives.push({
+					name: person.name,
+					type: key,
+					hasImage: person.hasImage,
+					hasLink: person.link
+				});
+			} else {
+				// Fallback to anyone with an image
+				const fallback = famousTypes[key].find((p) => p.hasImage);
+				if (fallback) {
+					typeRepresentatives.push({
+						name: fallback.name,
+						type: key,
+						hasImage: fallback.hasImage,
+						hasLink: fallback.link
+					});
+				}
+			}
 		}
 	});
 
 	return {
-		images,
-		top9Questions,
-		famousPeople,
-		questionOfTheDay // Add the question of the day to the returned data
+		user: session?.user ?? null,
+		typeRepresentatives,
+		featuredPeople: (featuredPeople ?? []) as unknown as FamousBlogPerson[],
+		questionOfTheDay,
+		top9Questions
 	};
 };

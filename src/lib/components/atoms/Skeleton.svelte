@@ -45,10 +45,10 @@
 		transform: translateX(-100%);
 		background-image: linear-gradient(
 			90deg,
-			rgba(255, 255, 255, 0) 0,
-			rgba(255, 255, 255, 0.2) 20%,
-			rgba(255, 255, 255, 0.5) 60%,
-			rgba(255, 255, 255, 0)
+			rgba(124, 58, 237, 0) 0,
+			rgba(124, 58, 237, 0.1) 20%,
+			rgba(124, 58, 237, 0.2) 60%,
+			rgba(124, 58, 237, 0)
 		);
 		animation: wave 1.5s linear infinite;
 	}
@@ -82,10 +82,10 @@
 	}
 
 	:root {
-		--skeleton-bg: #e0e0e0;
+		--skeleton-bg: #252538;
 	}
 
-	:global([data-theme='dark']) {
-		--skeleton-bg: #3a3a3a;
+	:global([data-theme='light']) {
+		--skeleton-bg: #e0e0e0;
 	}
 </style>

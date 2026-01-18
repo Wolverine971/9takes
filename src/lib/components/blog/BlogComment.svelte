@@ -99,7 +99,7 @@
 		<button type="button" class="load-more-btn" on:click={loadMore}>
 			{_commentComment.comment_count}
 			{#if loading}
-				<div class="loader" />
+				<div class="loader"></div>
 			{:else}
 				<MasterCommentIcon className="icon" type={'multiple'} />
 				<DownIcon className="icon" />

@@ -532,6 +532,10 @@ Congratulations on making it to a second date! You might be feeling more comfort
 
 Remember, Type 6, in 2025's dating landscape that increasingly values authentic security over game-playing, your careful approach to relationships is an asset when balanced with openness. Your natural ability to spot potential issues combined with growing trust in yourself and others makes you an incredibly valuable partner for someone who appreciates loyalty, depth, and genuine connection. By embracing calculated risks alongside your natural caution, you'll create space for the secure, supportive relationship you truly deserve.
 
+</section>
+
+<section class="section-content">
+
 ## Type 7: The Enthusiast - Finding Depth in the Adventure of Love
 
 ### What You Want: A Partner in Excitement and Possibility
@@ -611,6 +615,10 @@ Excellent job landing a second date! You're probably buzzing with ideas for maki
   Why: This invites a more serious conversation, showing your ability to engage with life's difficulties. It can reveal how you both handle adversity and can be an opportunity to show empathy and support.
 
 Remember, Type 7, your enthusiasm and zest for life are incredible gifts in a relationship. By balancing your love for excitement with a willingness to embrace depth and presence, you open yourself to a love that is both thrilling and real. In 2025's dating landscape that values authentic connection over superficial interactions, your genuine joy and ability to find possibility everywhere makes you an incredibly attractive partner. Embrace the idea that the greatest adventure might be exploring the depths of a meaningful relationship, where each day brings new discoveries about yourself and your partner, this is the true adventure that never gets boring.
+
+</section>
+
+<section class="section-content">
 
 ## Type 8: The Challenger - Strength in Vulnerability
 
@@ -692,6 +700,10 @@ Great job securing a second date! You might be feeling more invested now, perhap
 
 Remember, Type 8, your intensity and strength are powerful assets in a relationship when balanced with vulnerability and empathy. In 2025's dating landscape that increasingly values emotional intelligence alongside confidence, your willingness to show your softer side makes you stand out. Be aware that your strength might sometimes intimidate potential partners, seek those who can appreciate your fire rather than be consumed by it. Your ability to protect and empower others, combined with the courage to show your own vulnerabilities, makes you a formidable and deeply attractive partner for someone who values both strength and emotional depth.
 
+</section>
+
+<section class="section-content">
+
 ## Type 9: The Peacemaker - Asserting Yourself in Harmony
 
 ### What You Want: A Peaceful Connection with Depth
@@ -771,6 +783,8 @@ Wonderful job on getting a second date! You might be feeling more comfortable no
   Why: This invites a story about assertiveness, which can be inspiring for you. It also gives insight into their values and how they handle standing their ground, which can be valuable for a Type 9 to understand and learn from.
 
 Remember, Type 9, your ability to create harmony and see multiple perspectives is a beautiful gift in relationships. In 2025's dating landscape where "loud looking" (radical transparency) is trending, your growth edge is learning to clearly state your needs while maintaining your peaceful essence. Your gentle presence is a gift in our chaotic world, but your voice is equally valuable. Embrace the idea that asserting yourself can lead to even deeper harmony – it's the key to a relationship where you feel truly seen, valued, and at peace being fully yourself. Test your voice in dating scenarios before committing to ensure you find someone who appreciates both your harmonious nature and your authentic needs.
+
+</section>
 
 ## The Dating Red Flags Your Type Misses (And Why)
 

@@ -39,7 +39,6 @@
 
 	// Responsive variables
 	let innerWidth = 0;
-	$: qrCodeSize = innerWidth > 500 ? '10%' : '20%';
 	$: title = computeTitle(data.question.question_formatted || data.question.question);
 
 	// Compute SEO-friendly title
@@ -211,7 +210,6 @@
 				on:commentAdded={addComment}
 				user={data?.user}
 				{qrCodeUrl}
-				{qrCodeSize}
 			/>
 		</div>
 
@@ -222,7 +220,7 @@
 					{#each data.questionTags as tag}
 						<a
 							href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
-							class="inline-flex items-center rounded-lg bg-neutral-100 px-3 py-1.5 text-sm font-medium text-neutral-700 transition-all duration-200 hover:bg-neutral-200 hover:text-neutral-900"
+							class="inline-flex items-center rounded-lg border border-slate-700/50 bg-[#1a1a2e] px-3 py-1.5 text-sm font-medium text-slate-300 transition-all duration-200 hover:border-purple-500/50 hover:bg-purple-900/30 hover:text-purple-300"
 							rel="tag"
 						>
 							{tag.question_categories.category_name}

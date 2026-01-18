@@ -300,21 +300,21 @@
 						>
 							<ul class="space-y-2">
 								{#each onlineUsers as user}
-									<li
-										class="flex cursor-pointer items-center justify-between rounded bg-white p-2 text-sm transition-colors hover:bg-neutral-50"
-										on:click={() => (userid = user.id)}
-										on:keypress={(e) => e.key === 'Enter' && (userid = user.id)}
-										role="button"
-										tabindex="0"
-									>
-										<div>
-											<span class="font-medium text-neutral-800">{user.email}</span>
-											<span class="block text-xs text-neutral-500">ID: {user.id}</span>
-										</div>
-										<div class="flex items-center gap-2">
-											<span class="text-xs text-neutral-500">Click to select</span>
-											<span class="h-2 w-2 animate-pulse rounded-full bg-green-500"></span>
-										</div>
+									<li>
+										<button
+											type="button"
+											class="flex w-full items-center justify-between rounded bg-white p-2 text-left text-sm transition-colors hover:bg-neutral-50"
+											on:click={() => (userid = user.id)}
+										>
+											<div>
+												<span class="font-medium text-neutral-800">{user.email}</span>
+												<span class="block text-xs text-neutral-500">ID: {user.id}</span>
+											</div>
+											<div class="flex items-center gap-2">
+												<span class="text-xs text-neutral-500">Click to select</span>
+												<span class="h-2 w-2 animate-pulse rounded-full bg-green-500"></span>
+											</div>
+										</button>
 									</li>
 								{/each}
 							</ul>
@@ -338,20 +338,22 @@
 							<ul class="space-y-2">
 								{#each data?.users as u}
 									{#if u}
-										<li
-											class="cursor-pointer rounded bg-white p-2 text-sm transition-colors hover:bg-neutral-50"
-											on:click={() => (userid = u.external_id)}
-											on:keypress={(e) => e.key === 'Enter' && (userid = u.external_id)}
-											role="button"
-											tabindex="0"
-										>
-											<div class="flex items-center justify-between">
-												<div>
-													<span class="font-medium text-neutral-800">{u?.email}</span>
-													<span class="block text-xs text-neutral-500">ID: {u?.external_id}</span>
+										<li>
+											<button
+												type="button"
+												class="w-full rounded bg-white p-2 text-left text-sm transition-colors hover:bg-neutral-50"
+												on:click={() => (userid = u.external_id)}
+											>
+												<div class="flex items-center justify-between">
+													<div>
+														<span class="font-medium text-neutral-800">{u?.email}</span>
+														<span class="block text-xs text-neutral-500">
+															ID: {u?.external_id}
+														</span>
+													</div>
+													<span class="text-xs text-neutral-500">Click to select</span>
 												</div>
-												<span class="text-xs text-neutral-500">Click to select</span>
-											</div>
+											</button>
 										</li>
 									{/if}
 								{/each}

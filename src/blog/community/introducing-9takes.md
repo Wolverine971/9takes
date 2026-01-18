@@ -1,10 +1,10 @@
 ---
-title: 'Introducing 9takes: A Fresh Take on Online Conversations'
-description: 'A Q&A platform fostering diverse, anonymous perspectives inspired by the Enneagram.'
+title: 'Introducing 9takes: Answer First, Then Compare Perspectives'
+description: 'A Q&A platform where you answer before you read, built to surface diverse perspectives with an optional Enneagram lens.'
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/community/introducing-9takes'
-lastmod: '2025-12-04'
+lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -21,8 +21,8 @@ path: src/blog/community/introducing-9takes.md
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Introducing 9takes: A Fresh Take on Online Conversations",
-  "description": "A Q&A platform fostering diverse, anonymous perspectives inspired by the Enneagram.",
+  "headline": "Introducing 9takes: Answer First, Then Compare Perspectives",
+  "description": "A Q&A platform where you answer before you read, built to surface diverse perspectives with an optional Enneagram lens.",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
@@ -46,7 +46,7 @@ path: src/blog/community/introducing-9takes.md
     ]
   },
   "datePublished": "2023-04-17",
-  "dateModified": "2024-07-24",
+  "dateModified": "2026-01-18",
   "url": "https://9takes.com/community/introducing-9takes",
   "image": {
     "@type": "ImageObject",
@@ -56,7 +56,7 @@ path: src/blog/community/introducing-9takes.md
   },
   "articleSection": "Technology",
   "keywords": ["9takes platform", "online conversations", "Enneagram", "social media", "anonymous discussions", "diverse perspectives"],
-  "wordCount": 1876,
+  "wordCount": 553,
   "isPartOf": {
     "@type": "Blog",
     "name": "9takes Community Blog",
@@ -77,100 +77,87 @@ path: src/blog/community/introducing-9takes.md
 	import Rubix from "$lib/components/icons/rubix.svelte";
 </script>
 
-<!-- big long panel of people experiencing anger fear and shame -->
-
-<!-- ## Discover the Power of Nine Perspectives -->
-
 <div
 	style="display: flex;
     justify-content: center;
 	margin: 1rem 0;"
 >
- <PopCard
+	 <PopCard
 		image={`/blogs/greek-statue-introducing-9takes.webp`}
 		showIcon={false}
 		tint={false}
 		displayText=""
-		altText="A scenic view of a person working on a computer in the jungle"
+		altText="A Greek statue representing reflection and conversation"
 		subtext=""
 	/>
 
 </div>
 
-<p class="firstLetter">Where are the good conversations happening online?<p>
+<p class="firstLetter">Where do good conversations happen online?</p>
 
-Where can you safely get multiple authentic and unbiased perspectives?
+Where can you get honest, unprimed perspectives without walking into an echo chamber?
 
-Forums like Reddit and Facebook threads, and even Twitter, over time have users cluster around different topics, and echo chambers form. Even well meaning platforms cannot help but get this way and it is mostly due to users being able to read comments passively. We need to go back to the early days when conversations were unfiltered, real and where you could be happily surprised by what you stumbled upon online.
+On most platforms, the first few comments set the frame. Everyone else reacts, copies, or stays quiet.
 
-9takes is on a mission to fix the echo chamber problem.
+9takes flips that default. You write your take first, then you unlock the thread and compare how other people see the same question.
 
-## Why Social Media isn't Social Anymore
+## Why Social Media Isn't Social Anymore
 
-Over time, the internet has become increasingly fragmented. The once vibrant platforms have lost their spark and have become filled with bots and inauthentic interactions. The exciting conversations that used to define these spaces have been replaced by a dull, lifeless atmosphere. How did we get here, and what can we do to fix online discussions?
+Most feeds reward engagement, not understanding. Engagement loves conflict, so the loudest take wins and the rest of us scroll.
 
 <div>
-	<h3 style="margin: 0;">There are two social media waves.</h3>
+	<h3 style="margin: 0;">Two waves of social media.</h3>
 	<section class="wave-sections" style="border: 1px solid grey;">
 		<h4 style="margin-top: 0; padding-top: 0;">🤖 Old wave 🔄</h4>
-		<p><b>The old social media</b> was about being connected to your friends and finding cool stuff that was shareable. </p>
+		<p><b>The old social media</b> was about staying in touch and sharing cool stuff.</p>
 		<ul>
-		<li>Users post to show off.</li>
-		<li>Sharing turned into posting into the void.</li>
-		<li>Viewing free content turned into lurking and mindlessly scrolling.</li>
-		<li>Content converged, and the different viewpoints were pushed out.</li>
+		<li>Users posted to be seen.</li>
+		<li>Sharing became broadcasting.</li>
+		<li>Reading became lurking.</li>
+		<li>The algorithm rewarded sameness, and different viewpoints got filtered out.</li>
 		</ul>
-		We are now more divided than ever, and depression is on the rise.
+		<p>We look connected, and we feel divided.</p>
 	</section>
 	<section class="wave-sections" style="border: 1px solid var(--primary);">
 		<h4 style="margin-top: 0; padding-top: 0;">🎭 New wave ❓</h4>
 		<p><b>The new social media</b> is about self-expression and finding friends.</p>
 		<ul>
-		<li>Users post to share and engage.</li>
-		<li>Users talk in their community.</li>
-		<li>Online and offline blend to stay connected yet healthy.</li>
-		<li>Content diverged, and new viewpoints and ideas were spawned.</li>
+		<li>Users post to connect, not just perform.</li>
+		<li>Communities matter more than follower counts.</li>
+		<li>Online and offline blend, so the internet supports real life.</li>
+		<li>New ideas spread again, not just the safest ones.</li>
 		</ul>
-		<p>New social media is about novelty and engagement.</p>
-		<p>Users want to find their tribe and explore other tribes.</p>
+		<p>It runs on novelty and participation.</p>
+		<p>Find your tribe, then learn how other tribes think.</p>
 	</section>
-	<p>Belonging and exploring starts with asking <b>questions</b>.</p>
-	<p>Ask who am I? And who are you?</p>
+	<p>Belonging and exploring start with asking <b>questions</b>.</p>
+	<p>Who am I? Who are you? What do you see that I don't?</p>
 </div>
 
-## Why Questions Are The Key
+## Why Questions Are the Key
 
-<!-- //fix knowledge -->
-
-At the core of 9takes is an emphasis on asking questions. Questions invite responses, while posts and tweets do not.
+9takes is built around questions. Posts perform. Questions invite.
 
 A question-centered approach can:
 
-- **Spark Curiosity**: Questions have an innate ability to pique our interest and motivate us to explore new ideas and perspectives.
-- **Encourage Reflection**: Questions prompt reflection. They unearth the stories and experiences that make us who we are.
-- **Create Meaningful Interactions**: After a question is asked the conversation can start. The similarities and differences come out and seeds of connection are planted.
+- **Spark curiosity**: A good question makes you lean in.
+- **Invite reflection**: You answer with lived experience, not a headline.
+- **Create real interaction**: People can disagree without turning it into a fight.
 
-You are not shouting into the void with questions but are inviting people in.
+A question is an invitation, not a broadcast.
 
-<!-- old social media was about protecting institutions
-new social media is about tearing institutions down -->
+### Why Good Questions Get Bad Answers
 
-<!-- =-------break -->
+Asking a question online is easy. Getting good answers is the hard part.
 
-### The Problems with Answers to Questions:
+- You want original takes, not echoes of the top comment.
+- You don't want early answers to steer everyone else.
+- You want people to feel safe being honest.
+- You want context for where someone is coming from.
 
-There are a few problems with just asking a question online. You are not guaranteed to get good responses to a question for the following reasons.
+### How 9takes Gets Better Answers
 
-<!-- put link here -->
-
-- You want an original take/ answer to a question.
-- You don't want people answering to be biased by other people who have already answered.
-- You want people to be honest and feel safe to share their real opinions.
-- You want to be able to understand where people are coming from when they answer a question.
-
-### How 9takes Gets the Best Answers
-
-<!-- 9takes is leveraging <span style="color: var(--primary)">personality theory</span> to create an a different community. -->
+9takes bakes the fixes into the product:
 
 <ul class="plain-list">
 <li>
@@ -187,7 +174,7 @@ Comments are revealed after you comment, not before.</span>
 
 <ul class="plain-list-w-margin">
 <li>
-This is how you get original comments that are unbiased. It is a new habit that is being formed and it may turn out to be the most important piece to redefining social media. 
+Seeing other answers first primes you. Hiding them forces an independent take, then lets you compare.
 </li>
 </ul>
 </li>
@@ -196,15 +183,13 @@ This is how you get original comments that are unbiased. It is a new habit that 
 
 <span class="point-list" style=" flex-wrap: wrap"> 
 	<span class="center-svg">
-		<Rubix height={'1.5rem'} width={'1.5rem'} /> 
-	</span>
-	Leverage <b style="color: var(--primary); text-wrap: nowrap">personality theory</b> <span style=" text-wrap: nowrap">(the Enneagram)</span>
-	</span>
+			<Rubix height={'1.5rem'} width={'1.5rem'} /> 
+		</span>
+		Add a <b style="color: var(--primary); text-wrap: nowrap">personality lens</b> <span style=" text-wrap: nowrap">(the Enneagram)</span>
+		</span>
 <ul class="plain-list-w-margin">
-<!-- write blog on this:
-There are many different ways to divide people and most of them turn out to not be beneficial. -->
 <li>
-There are many different ways to divide people and most of them turn out to not be helpful. However personality allows you to unlock insights across race, sex, age, and class. Understanding <a href="/enneagram-corner/enneagram-communication-styles">how different types communicate</a> reveals patterns that transcend demographics.
+There are many ways to divide people and most of them get tribal fast. Personality gives context for how someone thinks. Understanding <a href="/enneagram-corner/enneagram-communication-styles">how different types communicate</a> reveals patterns that cut across demographics.
 
 </li>
 </ul>
@@ -219,12 +204,12 @@ There are many different ways to divide people and most of them turn out to not 
 		/>
 </svg>
 
-</span>You are identified only by your personality type (which is optional).
+</span>If you want, show your personality type next to your answer.
 </span>
 
 <ul class="plain-list-w-margin">
 <li>
-If you know <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">your personality type</a> you can share it. It lets others have some context to where you are coming from when you answer questions. If you don't know your personality type, the hope is that you will learn it over time.
+If you know <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">your personality type</a>, share it. It gives readers context without forcing a real name. If you don't know your type yet, skip it.
 </li>
 </ul>
 </li>
@@ -235,11 +220,11 @@ If you know <a href="/enneagram-corner/beginners-guide-to-determining-your-ennea
 <span class="center-svg">
 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M384 208A176 176 0 1 0 32 208a176 176 0 1 0 352 0zM343.3 366C307 397.2 259.7 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 51.7-18.8 99-50 135.3L507.3 484.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L343.3 366z"/></svg>
 
-</span>You can sort the comments by personality type.</span>
+</span>Filter answers by personality type.</span>
 
 <ul class="plain-list-w-margin">
 <li>
-Learn from each personality type and worldview. Find out who is similar and different from you.
+Compare how different types answer the same question. Spot patterns, common ground, and blind spots.
 </li>
 </ul>
 </li>
@@ -248,41 +233,19 @@ Learn from each personality type and worldview. Find out who is similar and diff
 
 </ul>
 
-<!-- A new habit is being formed where instead of seeking to be
-A new habit of participating is being formed and that is the key to redefining a new and different social media.  -->
+## Start With a Question
 
-## Questions Start the Conversation
+Curious how 9takes came to be? Read the [personal story behind 9takes](/community/inspiration-for-9takes). It started with a marriage counselor and a personality test.
 
-(Curious about how 9takes came to be? Read the [personal story behind 9takes](/community/inspiration-for-9takes)—it started with a marriage counselor and a personality test.)
+Most of the questions that matter do not have a single right answer. The point is not to win, it is to see what you are missing.
 
-In a world obsessed with absolutes and fact-checking, we often forget that many of the things we search for lack black-and-white answers. People are not math problems we can solve—they are universes we must explore. Nine different perspectives exist for every question, each one revealing something the others miss. Take your offline questions and post them online—you might be surprised by what you discover.
+Try it on 9takes:
 
-<!-- But most of our time on the internet is spent searching for the answers to our
-However all  -->
+1. Browse questions at [/questions](/questions) (or ask your own).
+2. Write your take first.
+3. Read the thread, then filter by personality type if you want.
 
-<!-- the first step for doing everything. Determining that the world revolved around the sun started out by questioning the status quo
-
-When we search something on google, yes we often type in phrases, but we are asking a questions and looking for answers. "Where is this, how do I that, what is the best blank..." Google tries to serve you something accurate. But that accuracy is based on inferring the underlying question and matching it to statistically relevant data it already has. There is a lot of room for error in that equation and there is so much information that Google doen -->
-<!--
-Through the prism of the Enneagram's nine unique archetypes, 9takes fosters a dynamic and diverse community that values the richness of individual perspectives. It upholds the idea that every question has not one but many answers, each uniquely tinted by the personality of the respondent.
-
-9takes takes us beyond the binary, into a realm where conversations blossom with authentic voices, unbiased by the opinions of others. Where we can see and appreciate the patterns and divergences in how different personality types approach the same question. In this beautifully intricate tapestry of human connection, every thread matters, every 'take' counts.
-
-Through 9takes, we explore the nuanced world of human psychology, fostering mutual understanding, inviting personal growth, and cultivating a deeper sense of community. Indeed, it's more than a platform - it's a kaleidoscope of the human experience, each 'take' adding a new dimension to our collective understanding.
-
-Join us on 9takes, where we celebrate the beauty of nuance in every conversation.
-
-Embracing Authenticity: Encouraging Unbiased Responses
-Setting 9takes apart is its novel approach to comment visibility. Until you add your voice to the conversation, the thoughts of others remain unseen, encouraging unbiased and authentic responses. In contrast to the echo chambers of many platforms, this innovation prompts users to actively contribute their own unique perspective before exploring the voices of others.
-
-Delving into the Enneagram: Sorting Insights by Personality Type
-The second unique facet of 9takes is drawn from the Enneagram's fascinating design - nine distinct personality archetypes. The platform lets you sift through comments filtered by these types, revealing intriguing patterns in thought and behavior. This feature enables connections with those who share similar perspectives while fostering a greater understanding of different viewpoints, reinforcing the sense of an open-minded community.
-
-Harnessing the Power of Nine: 9takes in Today’s Polarized World
-9takes takes its name from the Enneagram's nine archetypes, symbolizing the nine perspectives the platform welcomes. In a world torn between right or wrong, us or them, 9takes heralds a unique space for sincere and growth-oriented conversation. Here, no single perspective holds the monopoly of truth - only a spectrum of 'takes' on life's intriguing questions. -->
-
-<!-- people not algorithms decide -->
-<!-- would you rather ask chat gpt or poll 100 people -->
+If comment sections usually make you feel worse, this one should feel different.
 
 <style lang="scss">
 	.plain-list {

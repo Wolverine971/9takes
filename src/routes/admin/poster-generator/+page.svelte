@@ -662,7 +662,7 @@
 
 						<div class="mb-4">
 							<div class="flex items-center justify-between">
-								<label class="text-sm font-medium text-neutral-700"> Gradient Overlay </label>
+								<span class="text-sm font-medium text-neutral-700">Gradient Overlay</span>
 								<label class="flex items-center">
 									<input
 										type="checkbox"
@@ -676,25 +676,34 @@
 							{#if backgroundSettings.gradient}
 								<div class="mt-2 grid grid-cols-3 gap-2">
 									<div>
-										<label class="text-xs font-medium text-neutral-700">Top</label>
+										<label for="gradient-top" class="text-xs font-medium text-neutral-700">
+											Top
+										</label>
 										<input
 											type="color"
+											id="gradient-top"
 											bind:value={backgroundSettings.gradientColors.top}
 											class="h-8 w-full rounded-md border border-neutral-300"
 										/>
 									</div>
 									<div>
-										<label class="text-xs font-medium text-neutral-700">Middle</label>
+										<label for="gradient-middle" class="text-xs font-medium text-neutral-700">
+											Middle
+										</label>
 										<input
 											type="color"
+											id="gradient-middle"
 											bind:value={backgroundSettings.gradientColors.middle}
 											class="h-8 w-full rounded-md border border-neutral-300"
 										/>
 									</div>
 									<div>
-										<label class="text-xs font-medium text-neutral-700">Bottom</label>
+										<label for="gradient-bottom" class="text-xs font-medium text-neutral-700">
+											Bottom
+										</label>
 										<input
 											type="color"
+											id="gradient-bottom"
 											bind:value={backgroundSettings.gradientColors.bottom}
 											class="h-8 w-full rounded-md border border-neutral-300"
 										/>

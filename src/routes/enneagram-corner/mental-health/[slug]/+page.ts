@@ -3,9 +3,7 @@ import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 
-const MAX_POSTS = 6;
-
-export const load: PageLoad = async ({ params }) => {
+export const load: PageLoad = async ({ params, data }) => {
 	// Import only main mental health blog posts (excluding social media versions)
 	const modules = import.meta.glob(`/src/blog/enneagram/mental-health/*.{md,svx,svelte.md}`);
 
@@ -28,35 +26,6 @@ export const load: PageLoad = async ({ params }) => {
 
 	const post = await match?.resolver?.();
 
-	// Get other mental health posts for suggestions
-	const postPromises = Object.entries(modules)
-		.filter(([path]) => {
-			// Skip social media versions
-			return (
-				!path.includes('.instagram.') &&
-				!path.includes('.twitter.') &&
-				!path.includes('.reddit.') &&
-				!path.includes('.review.')
-			);
-		})
-		.map(([path, resolver]) =>
-			resolver().then(
-				(post) =>
-					({
-						...(post as unknown as App.MdsvexFile).metadata,
-						slug: slugFromPath(path)
-					}) as App.BlogPost
-			)
-		);
-
-	const posts = await Promise.all(postPromises);
-	const publishedPosts = posts
-		.filter((post) => post.published)
-		.filter((post) => post.blog)
-		.filter((post) => params.slug !== post.slug)
-		.sort(() => 0.5 - Math.random())
-		.slice(0, MAX_POSTS);
-
 	if (!post || !post?.metadata?.published) {
 		throw error(404, {
 			message: `Couldn't find the mental health blog post`
@@ -64,9 +33,9 @@ export const load: PageLoad = async ({ params }) => {
 	}
 
 	return {
+		...data, // Pass through server data (posts)
 		component: post.default,
 		frontmatter: post.metadata as App.BlogPost,
-		slug: params.slug,
-		posts: publishedPosts
+		slug: params.slug
 	};
 };

@@ -172,7 +172,7 @@
 		text-align: center;
 		margin-bottom: 2rem;
 		font-size: 2rem;
-		color: var(--text-color);
+		color: #f1f5f9;
 	}
 
 	.suggestions-grid {
@@ -193,7 +193,7 @@
 		padding: 0.5rem;
 		margin-bottom: 1rem;
 		font-size: 1.5rem;
-		color: var(--text-color);
+		color: #cbd5e1;
 	}
 
 	.people-grid {
@@ -207,22 +207,26 @@
 	.grid-item {
 		position: relative;
 		overflow: hidden;
-		border-radius: var(--base-border-radius);
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		border-radius: 12px;
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+		border: 1px solid rgba(100, 116, 139, 0.2);
 		transition:
 			transform 0.3s ease,
-			box-shadow 0.3s ease;
+			box-shadow 0.3s ease,
+			border-color 0.3s ease;
 
 		&:hover {
 			transform: translateY(-5px);
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 25px rgba(124, 58, 237, 0.3);
+			border-color: rgba(124, 58, 237, 0.5);
 
 			.grid-img {
-				filter: brightness(0.8);
+				filter: brightness(0.9);
 			}
 
 			.name-overlay {
 				opacity: 1;
+				background: linear-gradient(to top, rgba(124, 58, 237, 0.9), rgba(0, 0, 0, 0.7));
 			}
 		}
 	}
@@ -254,11 +258,11 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: rgba(0, 0, 0, 0.7);
-		color: white;
+		background: linear-gradient(to top, rgba(10, 10, 15, 0.9), rgba(0, 0, 0, 0.5));
+		color: #f1f5f9;
 		padding: 0.5rem;
 		opacity: 0;
-		transition: opacity 0.3s ease;
+		transition: all 0.3s ease;
 	}
 
 	.person-name {
@@ -266,22 +270,24 @@
 		font-weight: bold;
 		text-align: center;
 		display: block;
+		text-transform: capitalize;
 	}
 
 	.lazy-loading {
 		text-align: center;
 		padding: 2rem;
-		color: var(--text-color-secondary, #666);
+		color: #94a3b8;
 	}
 
 	.loading-spinner {
 		width: 30px;
 		height: 30px;
-		border: 3px solid #eee;
-		border-top: 3px solid #666;
+		border: 3px solid #252538;
+		border-top: 3px solid #7c3aed;
 		border-radius: 50%;
 		margin: 0 auto 1rem;
 		animation: spin 1s linear infinite;
+		box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
 	}
 
 	@keyframes spin {
@@ -295,7 +301,7 @@
 
 	.error {
 		padding: 1rem;
-		color: #c00;
+		color: #ef4444;
 		text-align: center;
 	}
 

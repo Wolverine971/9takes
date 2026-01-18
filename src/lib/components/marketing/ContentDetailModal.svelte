@@ -3,12 +3,11 @@
 	import { createEventDispatcher } from 'svelte';
 	import { fade, slide } from 'svelte/transition';
 	import { Button, Badge, Modal, Input, Label, Textarea, Select, Toggle } from 'flowbite-svelte';
-	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
+	import type { ContentItem, Campaign } from '$lib/types/marketing';
 
 	export let open = false;
 	export let contentItem: ContentItem | null = null;
 	export let campaigns: Campaign[] = [];
-	export let templates: Template[] = [];
 
 	const dispatch = createEventDispatcher();
 
@@ -516,6 +515,7 @@
 													<button
 														class="remove-thread-btn"
 														on:click={() => removeThreadBlock(index)}
+														aria-label="Remove thread item"
 													>
 														<svg
 															xmlns="http://www.w3.org/2000/svg"

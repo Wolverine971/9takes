@@ -51,14 +51,6 @@
 		if (closeCallback) closeCallback(retVal);
 	}
 
-	// Handle backdrop click
-	function handleBackdropClick(event: MouseEvent) {
-		// Only close if clicking the backdrop (not modal content)
-		if (event.target === topDiv) {
-			close(event);
-		}
-	}
-
 	modals[id] = { open, close };
 
 	onDestroy(() => {
@@ -70,7 +62,7 @@
 </script>
 
 <div
-	class="fixed inset-0 z-[23425343] flex items-center justify-center bg-black/50 backdrop-blur-sm transition-all duration-300 {visible
+	class="fixed inset-0 z-[23425343] flex items-center justify-center bg-black/70 backdrop-blur-sm transition-all duration-300 {visible
 		? 'opacity-100'
 		: 'invisible opacity-0'}"
 	bind:this={topDiv}
@@ -78,20 +70,21 @@
 	role="dialog"
 	aria-modal="true"
 	aria-labelledby={name}
-	on:click={handleBackdropClick}
+	tabindex="-1"
+	on:click|self={close}
+	on:keydown={keyPress}
 >
 	<!-- Modal content container -->
 	<div
-		class="relative max-h-[90vh] w-[95%] max-w-[calc(100vw-20px)] transform overflow-hidden rounded-xl bg-white shadow-2xl transition-all duration-300 sm:w-auto {visible
+		class="relative max-h-[90vh] w-[95%] max-w-[calc(100vw-20px)] transform overflow-hidden rounded-xl border border-slate-700/50 bg-[#1a1a2e] shadow-[0_0_30px_rgba(124,58,237,0.2)] transition-all duration-300 sm:w-auto {visible
 			? 'scale-100 opacity-100'
 			: 'scale-95 opacity-0'}"
-		on:click|stopPropagation={() => {}}
 	>
 		{#if !navTop}
 			<button
 				on:click={close}
 				aria-label="Close dialog"
-				class="absolute right-4 top-4 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-neutral-100 p-0 transition-all duration-200 hover:rotate-90 hover:bg-neutral-200"
+				class="absolute right-4 top-4 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-slate-800/80 p-0 transition-all duration-200 hover:rotate-90 hover:bg-purple-900/50"
 			>
 				<svg
 					width="16"
@@ -102,7 +95,7 @@
 					stroke-width="2"
 					stroke-linecap="round"
 					stroke-linejoin="round"
-					class="text-neutral-600"
+					class="text-slate-400"
 				>
 					<line x1="18" y1="6" x2="6" y2="18"></line>
 					<line x1="6" y1="6" x2="18" y2="18"></line>

@@ -226,6 +226,7 @@ export type Database = {
           loc: string | null
           meta_title: string | null
           person: string | null
+          persona_title: string | null
           priority: string | null
           published: boolean | null
           search_vector: unknown
@@ -253,6 +254,7 @@ export type Database = {
           loc?: string | null
           meta_title?: string | null
           person?: string | null
+          persona_title?: string | null
           priority?: string | null
           published?: boolean | null
           search_vector?: unknown
@@ -280,6 +282,7 @@ export type Database = {
           loc?: string | null
           meta_title?: string | null
           person?: string | null
+          persona_title?: string | null
           priority?: string | null
           published?: boolean | null
           search_vector?: unknown

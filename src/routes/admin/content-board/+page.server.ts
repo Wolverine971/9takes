@@ -36,7 +36,8 @@ export const load = async (
 	}
 
 	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`, {
-		as: 'raw',
+		query: '?raw',
+		import: 'default',
 		eager: true
 	});
 
@@ -49,7 +50,8 @@ export const load = async (
 	});
 
 	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`, {
-		as: 'raw',
+		query: '?raw',
+		import: 'default',
 		eager: true
 	});
 	const communityBlogPosts = Object.entries(communityModules).map(([path, raw]) => {
@@ -61,7 +63,8 @@ export const load = async (
 	});
 
 	const guidesModules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`, {
-		as: 'raw',
+		query: '?raw',
+		import: 'default',
 		eager: true
 	});
 	const guidesBlogPosts = Object.entries(guidesModules).map(([path, raw]) => {
@@ -73,19 +76,14 @@ export const load = async (
 	});
 
 	// Execute all promises in parallel
-	const [
-		enneagramContent,
-		communityContent,
-		guidesContent,
-		peopleContent,
-		peopleBlogPosts
-	] = await Promise.all([
-		supabase.from(`content_enneagram`).select('*'),
-		supabase.from(`content_community`).select('*'),
-		supabase.from(`content_guides`).select('*'),
-		supabase.from(`content_people`).select('*'),
-		supabase.from('blogs_famous_people').select('*')
-	]);
+	const [enneagramContent, communityContent, guidesContent, peopleContent, peopleBlogPosts] =
+		await Promise.all([
+			supabase.from(`content_enneagram`).select('*'),
+			supabase.from(`content_community`).select('*'),
+			supabase.from(`content_guides`).select('*'),
+			supabase.from(`content_people`).select('*'),
+			supabase.from('blogs_famous_people').select('*')
+		]);
 
 	// Handle errors
 	if (enneagramContent.error) console.log(enneagramContent.error);

@@ -246,37 +246,37 @@
 
 <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-0" in:fade={{ duration: 300 }}>
 	<h1
-		class="text-center text-3xl font-semibold text-primary-700 sm:text-4xl"
+		class="text-center text-3xl font-semibold text-purple-400 sm:text-4xl"
 		in:fly={{ y: -20, duration: 300, delay: 150 }}
 	>
 		Spark a Conversation
 	</h1>
 	<p
-		class="mt-2 text-center text-base text-neutral-600 sm:text-lg"
+		class="mt-2 text-center text-base text-slate-400 sm:text-lg"
 		in:fly={{ y: -20, duration: 300, delay: 200 }}
 	>
 		Your question could lead to fascinating insights. What would you like to explore today?
 	</p>
 	<div
-		class="mt-6 rounded-2xl border border-neutral-200 bg-neutral-50 p-5 shadow-md transition hover:shadow-lg sm:p-8"
+		class="mt-6 rounded-2xl border border-slate-700/30 bg-[#1a1a2e] p-5 shadow-[0_0_20px_rgba(0,0,0,0.3)] transition hover:border-purple-500/30 hover:shadow-[0_0_25px_rgba(124,58,237,0.15)] sm:p-8"
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
 		<textarea
 			rows="4"
 			name="question"
 			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
-			class="noticia-text-regular w-full rounded-2xl border-2 border-neutral-200 bg-white p-4 text-lg text-neutral-900 shadow-sm transition focus:border-primary-600 focus:outline-none focus:ring-4 focus:ring-primary-100"
+			class="noticia-text-regular w-full rounded-2xl border-2 border-slate-700/30 bg-[#252538] p-4 text-lg text-slate-200 placeholder-slate-500 shadow-sm transition focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/30"
 			bind:value={question}
 			on:input={handleInput}
 			maxlength={MAX_CHAR_COUNT}
-		/>
+		></textarea>
 		<div
-			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT ? 'text-error-500' : 'text-neutral-500'}`}
+			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT ? 'text-red-400' : 'text-slate-500'}`}
 		>
 			{questionCharCount}/{MAX_CHAR_COUNT} characters
 		</div>
 		<button
-			class="inline-flex w-full items-center justify-center rounded-full bg-primary-700 px-5 py-3 text-base font-semibold text-white transition hover:bg-primary-800 disabled:cursor-not-allowed disabled:opacity-60"
+			class="inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition hover:from-purple-500 hover:to-purple-600 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] disabled:cursor-not-allowed disabled:opacity-60"
 			disabled={!isQuestionValid}
 			on:click={getUrl}
 			type="button"
@@ -285,44 +285,34 @@
 		</button>
 	</div>
 	<p
-		class="mt-6 text-center text-base italic text-neutral-600"
+		class="mt-6 text-center text-base italic text-slate-400"
 		in:fly={{ y: 20, duration: 300, delay: 400 }}
 	>
 		Great questions lead to great conversations. Your unique perspective matters!
 	</p>
-
-	<!-- ... (Modal content remains the same) ... -->
 </div>
 
 <Modal2 id="question-create" name="create question">
 	<div
-		class="w-full max-w-2xl rounded-3xl border border-neutral-100 bg-white p-6 text-neutral-900 shadow-xl sm:p-8"
+		class="w-full max-w-2xl rounded-3xl border border-slate-700/30 bg-[#12121a] p-6 text-slate-200 shadow-[0_0_30px_rgba(0,0,0,0.5)] sm:p-8"
 		in:fade={{ duration: 300 }}
 	>
-		<h2 class="mt-0 text-2xl font-semibold text-primary-700">Create Question</h2>
+		<h2 class="mt-0 text-2xl font-semibold text-purple-400">Create Question</h2>
 
-		<div class="mt-4 rounded-2xl border border-primary-200 bg-neutral-50 p-4" id="question-pic">
-			<!-- <h3 id="question-pic" class="question-text noticia-text-regular">{question}</h3> -->
+		<div class="mt-4 rounded-2xl border border-purple-500/30 bg-[#1a1a2e] p-4" id="question-pic">
 			<QuestionDisplay question={{ id: '', url: '', question, question_formatted: '' }} />
-			<p class="mt-4 text-center text-sm text-neutral-700">
-				<strong class="text-base font-semibold text-neutral-900">
+			<p class="mt-4 text-center text-sm text-slate-400">
+				<strong class="text-base font-semibold text-slate-200">
 					https://9takes.com/questions/{url}
 				</strong>
 			</p>
 		</div>
-		<!-- 
-		Testing image preview
-		
-		<div>
-			<img src={imgPreview} alt="image" />
-			<button on:click={showImage}>Show Image</button>
-		</div> -->
 		<button
-			class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-primary-700 px-5 py-3 text-base font-semibold text-white transition hover:bg-primary-800"
+			class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition hover:from-purple-500 hover:to-purple-600 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)]"
 			on:click={createQuestion}
 		>
 			{#if loading}
-				<div class="loader" />
+				<div class="loader"></div>
 			{:else}
 				Create <RightIcon iconStyle="margin-left: .5rem;" height="1.5rem" fill="#ffffff" />
 			{/if}

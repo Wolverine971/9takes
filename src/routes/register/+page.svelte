@@ -66,43 +66,32 @@
 	<meta property="og:image:type" content="image/png" />
 </svelte:head>
 
-<div class="mx-auto mt-12 max-w-md rounded-lg bg-white p-8 shadow-md" in:fade={{ duration: 300 }}>
-	<h1 class="mb-8 text-center text-3xl font-bold" in:fly={{ y: -20, duration: 300, delay: 150 }}>
-		<a
-			href="/login"
-			class="text-neutral-600 no-underline opacity-70 transition-opacity duration-300 hover:opacity-100"
-			>Login</a
-		>
+<div class="auth-container" in:fade={{ duration: 300 }}>
+	<h1 class="auth-title" in:fly={{ y: -20, duration: 300, delay: 150 }}>
+		<a href="/login" class="inactive-link">Login</a>
 		/
-		<span class="border-b-2 border-primary-700 pb-1 text-primary-700">Register</span>
+		<span class="active-link">Register</span>
 	</h1>
 	<form
 		action="?/register"
 		method="POST"
-		class="flex flex-col gap-6"
+		class="auth-form"
 		use:enhance={handleSubmit}
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
-		<div class="flex flex-col gap-2">
-			<label for="email" class="text-sm font-bold text-neutral-800">Email</label>
-			<input
-				type="email"
-				id="email"
-				name="email"
-				bind:value={email}
-				required
-				class="rounded border border-neutral-300 px-3 py-3 text-base transition-all duration-300 focus:border-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400/20"
-			/>
+		<div class="form-group">
+			<label for="email" class="form-label">Email</label>
+			<input type="email" id="email" name="email" bind:value={email} required class="form-input" />
 		</div>
-		<div class="flex flex-col gap-2">
-			<label for="password" class="text-sm font-bold text-neutral-800">Password</label>
+		<div class="form-group">
+			<label for="password" class="form-label">Password</label>
 			<input
 				type="password"
 				id="password"
 				name="password"
 				bind:value={password}
 				required
-				class="rounded border border-neutral-300 px-3 py-3 text-base transition-all duration-300 focus:border-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-400/20"
+				class="form-input"
 			/>
 		</div>
 
@@ -113,45 +102,171 @@
 		</div>
 
 		<!-- Google reCAPTCHA -->
-		<div class="g-recaptcha" data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY} data-theme="light"></div>
+		<div class="g-recaptcha" data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY} data-theme="dark"></div>
 
-		<button
-			type="submit"
-			class="cursor-pointer rounded-lg border-none bg-primary-700 px-5 py-3 text-base text-white transition-all duration-300 hover:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2 active:translate-y-px disabled:cursor-not-allowed disabled:opacity-70"
-			disabled={loading}
-		>
+		<button type="submit" class="submit-btn" disabled={loading}>
 			{#if loading}
-				<span
-					class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-white border-b-transparent"
-				/>
+				<span class="loader"></span>
 			{:else}
 				Register
 			{/if}
 		</button>
 	</form>
-	<div class="mt-6 text-center" in:fly={{ y: 20, duration: 300, delay: 450 }}>
-		<a
-			href="/forgotPassword"
-			class="text-sm text-primary-700 no-underline transition-colors duration-300 hover:text-primary-800 hover:underline"
-			>Forgot Password?</a
-		>
+	<div class="forgot-link" in:fly={{ y: 20, duration: 300, delay: 450 }}>
+		<a href="/forgotPassword">Forgot Password?</a>
 	</div>
 </div>
 
-<style>
-	/* Custom styles can be added here if needed */
+<style lang="scss">
+	/* Solo Leveling Dark Theme */
+	.auth-container {
+		max-width: 400px;
+		margin: 3rem auto;
+		padding: 2rem;
+		background-color: #1a1a2e;
+		border: 1px solid rgba(100, 116, 139, 0.2);
+		border-radius: 12px;
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+	}
+
+	.auth-title {
+		text-align: center;
+		margin-bottom: 2rem;
+		font-size: 1.8rem;
+		font-weight: bold;
+		color: #f1f5f9;
+	}
+
+	.active-link {
+		color: #a78bfa;
+		border-bottom: 2px solid #7c3aed;
+		padding-bottom: 4px;
+	}
+
+	.inactive-link {
+		color: #94a3b8;
+		text-decoration: none;
+		opacity: 0.7;
+		transition: all 0.3s ease;
+
+		&:hover {
+			opacity: 1;
+			color: #f1f5f9;
+		}
+	}
+
+	.auth-form {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.form-group {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.form-label {
+		font-weight: 600;
+		font-size: 0.9rem;
+		color: #cbd5e1;
+	}
+
+	.form-input {
+		padding: 0.75rem;
+		background-color: #252538;
+		border: 1px solid rgba(100, 116, 139, 0.3);
+		border-radius: 8px;
+		font-size: 1rem;
+		color: #f1f5f9;
+		transition: all 0.3s ease;
+
+		&::placeholder {
+			color: #64748b;
+		}
+
+		&:focus {
+			outline: none;
+			border-color: #7c3aed;
+			box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+		}
+	}
+
+	.submit-btn {
+		width: 100%;
+		padding: 0.75rem 1.25rem;
+		background: linear-gradient(135deg, #7c3aed, #6d28d9);
+		border: none;
+		border-radius: 8px;
+		color: white;
+		font-size: 1rem;
+		font-weight: 600;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&:hover:not(:disabled) {
+			box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+			transform: translateY(-2px);
+		}
+
+		&:active:not(:disabled) {
+			transform: translateY(0);
+		}
+
+		&:disabled {
+			opacity: 0.7;
+			cursor: not-allowed;
+		}
+	}
+
+	.loader {
+		width: 20px;
+		height: 20px;
+		border: 2px solid rgba(255, 255, 255, 0.3);
+		border-top-color: #ffffff;
+		border-radius: 50%;
+		animation: spin 1s linear infinite;
+	}
+
+	@keyframes spin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	.forgot-link {
+		text-align: center;
+		margin-top: 1.5rem;
+
+		a {
+			color: #a78bfa;
+			text-decoration: none;
+			font-size: 0.9rem;
+			transition: all 0.3s ease;
+
+			&:hover {
+				color: #c4b5fd;
+				text-decoration: underline;
+			}
+		}
+	}
+
 	@media (max-width: 480px) {
-		.max-w-md {
+		.auth-container {
 			margin: 1rem auto;
 			padding: 1.5rem;
 		}
 
-		.text-3xl {
+		.auth-title {
 			font-size: 1.5rem;
 		}
 
-		input,
-		button {
+		.form-input,
+		.submit-btn {
 			font-size: 0.9rem;
 		}
 	}

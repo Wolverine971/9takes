@@ -177,7 +177,7 @@
 </url>
 <url>
     <loc>https://9takes.com/community/introducing-9takes</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -258,7 +258,7 @@
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides/dating-dynamics-by-enneagram-type</loc>
-    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -267,7 +267,7 @@
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1</loc>
-    <lastmod>2025-05-03T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -276,7 +276,7 @@
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -330,7 +330,7 @@
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides/ultimate-guide-to-active-listening</loc>
-    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -366,7 +366,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/attachment-styles-and-enneagram-types</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -813,7 +813,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-vs-meyers-briggs</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -993,7 +993,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type</loc>
-    <lastmod>2025-12-31T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1056,7 +1056,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1160,15 +1160,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Winston-Churchill</loc>
-    <lastmod>2024-06-11T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Winston-Churchill.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Amber-Heard</loc>
     <lastmod>2024-07-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1184,15 +1175,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/John-F-Kennedy.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Martin-Luther-King-Jr</loc>
-    <lastmod>2024-07-10T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Martin-Luther-King-Jr.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1247,6 +1229,33 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Harry-Styles.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Martin-Luther-King-Jr</loc>
+    <lastmod>2025-01-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Martin-Luther-King-Jr.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Vladimir-Putin</loc>
+    <lastmod>2025-01-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Vladimir-Putin.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Xi-Jinping</loc>
+    <lastmod>2025-01-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Xi-Jinping.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2087,15 +2096,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Xi-Jinping</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Xi-Jinping.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Grimes</loc>
     <lastmod>2025-12-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2555,15 +2555,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Kai-Cenat</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Kai-Cenat.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Kamala-Harris</loc>
     <lastmod>2025-12-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2762,24 +2753,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Vladimir-Putin</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Vladimir-Putin.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Zendaya</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Zendaya.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Anne-Hathaway</loc>
     <lastmod>2025-12-30T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2825,8 +2798,17 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Alex-Hormozi</loc>
+    <loc>https://9takes.com/personality-analysis/Leila-Hormozi</loc>
     <lastmod>2026-01-07T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Leila-Hormozi.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Alex-Hormozi</loc>
+    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2835,7 +2817,7 @@
 </url>
 <url>
     <loc>https://9takes.com/personality-analysis/Alix-Earle</loc>
-    <lastmod>2026-01-07T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2843,12 +2825,30 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Leila-Hormozi</loc>
-    <lastmod>2026-01-07T00:00:00.000Z</lastmod>
+    <loc>https://9takes.com/personality-analysis/Kai-Cenat</loc>
+    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-        <image:loc>https://9takes.com/types/3s/Leila-Hormozi.webp</image:loc>
+        <image:loc>https://9takes.com/types/7s/Kai-Cenat.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Winston-Churchill</loc>
+    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Winston-Churchill.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Zendaya</loc>
+    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Zendaya.webp</image:loc>
     </image:image>
 </url>
 <url>

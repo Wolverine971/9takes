@@ -89,7 +89,9 @@
 			"Bash(source /Users/annawayne/9takes/.env:*)",
 			"Write(/tmp/**)",
 			"Bash(rm:*)",
-			"Bash(pnpm format:*)"
+			"Bash(pnpm format:*)",
+			"Bash(wc:*)",
+			"WebFetch(domain:www.provokemedia.com)"
 		],
 		"deny": [],
 		"ask": [],

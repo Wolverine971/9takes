@@ -5,10 +5,9 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
 	import type { EmailRecipient } from '$lib/types/email';
-	import type { PageData, ActionData } from './$types';
+	import type { PageData } from './$types';
 
 	export let data: PageData;
-	export let form: ActionData;
 
 	// Email modal state
 	let showEmailModal = false;
@@ -337,7 +336,6 @@
 						<a
 							href="/admin/consulting/clients?status={stage.key}"
 							class="pipeline-stage"
-							role="listitem"
 							title="{stage.description}: {data.statusCounts[stage.key] || 0} clients"
 						>
 							<div class="stage-bar" style="--stage-color: {stage.color}">
@@ -596,12 +594,7 @@
 						</button>
 					</div>
 				{:else}
-					<div
-						class="waitlist-table-wrapper"
-						role="region"
-						aria-label="Waitlist entries"
-						tabindex="0"
-					>
+					<div class="waitlist-table-wrapper" role="region" aria-label="Waitlist entries">
 						<table class="waitlist-table" aria-describedby="waitlist-heading">
 							<thead>
 								<tr>
@@ -788,7 +781,6 @@
 							href="/admin/consulting/clients?type={type}"
 							class="type-cell"
 							class:has-clients={data.typeDistribution[type] > 0}
-							role="listitem"
 							title="View Type {type} clients ({data.typeDistribution[type] || 0} total)"
 						>
 							<span class="type-num">{type}</span>

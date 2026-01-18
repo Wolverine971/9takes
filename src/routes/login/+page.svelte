@@ -78,22 +78,15 @@
 </div>
 
 <style lang="scss">
-	:root {
-		--primary-dark: var(--color-theme-purple-dark);
-		--text-color: #333;
-		--background-color: #f5f5f5;
-		--input-background: #fff;
-		--input-border: #ddd;
-		--box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-	}
-
+	/* Solo Leveling Dark Theme */
 	.container {
 		max-width: 400px;
 		margin: 3rem auto;
 		padding: 2rem;
-		background-color: var(--input-background);
-		border-radius: 8px;
-		box-shadow: var(--box-shadow);
+		background-color: #1a1a2e;
+		border: 1px solid rgba(100, 116, 139, 0.2);
+		border-radius: 12px;
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 		min-height: auto;
 	}
 
@@ -102,21 +95,23 @@
 		margin-bottom: 2rem;
 		font-size: 1.8rem;
 		font-weight: bold;
+		color: #f1f5f9;
 
 		.active {
-			color: var(--primary);
-			border-bottom: 2px solid var(--primary);
+			color: #a78bfa;
+			border-bottom: 2px solid #7c3aed;
 			padding-bottom: 4px;
 		}
 
 		.inactive {
-			color: var(--text-color);
+			color: #94a3b8;
 			text-decoration: none;
 			opacity: 0.7;
-			transition: opacity 0.3s ease;
+			transition: all 0.3s ease;
 
 			&:hover {
 				opacity: 1;
+				color: #f1f5f9;
 			}
 		}
 	}
@@ -134,24 +129,28 @@
 	}
 
 	label {
-		font-weight: bold;
+		font-weight: 600;
 		font-size: 0.9rem;
-		color: var(--text-color);
+		color: #cbd5e1;
 	}
 
 	input {
 		padding: 0.75rem;
-		border: 1px solid var(--input-border);
-		border-radius: 4px;
+		background-color: #252538;
+		border: 1px solid rgba(100, 116, 139, 0.3);
+		border-radius: 8px;
 		font-size: 1rem;
-		transition:
-			border-color 0.3s ease,
-			box-shadow 0.3s ease;
+		color: #f1f5f9;
+		transition: all 0.3s ease;
+
+		&::placeholder {
+			color: #64748b;
+		}
 
 		&:focus {
 			outline: none;
-			border-color: var(--primary);
-			box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+			border-color: #7c3aed;
+			box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
 		}
 	}
 
@@ -171,8 +170,8 @@
 	.loader {
 		width: 20px;
 		height: 20px;
-		border: 2px solid #ffffff;
-		border-bottom-color: transparent;
+		border: 2px solid rgba(255, 255, 255, 0.3);
+		border-top-color: #ffffff;
 		border-radius: 50%;
 		display: inline-block;
 		box-sizing: border-box;
@@ -193,13 +192,13 @@
 		margin-top: 1.5rem;
 
 		a {
-			color: var(--primary);
+			color: #a78bfa;
 			text-decoration: none;
 			font-size: 0.9rem;
-			transition: color 0.3s ease;
+			transition: all 0.3s ease;
 
 			&:hover {
-				color: var(--primary-dark);
+				color: #c4b5fd;
 				text-decoration: underline;
 			}
 		}

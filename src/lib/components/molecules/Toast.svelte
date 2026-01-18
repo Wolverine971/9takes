@@ -20,7 +20,7 @@
 			aria-atomic="true"
 		>
 			<div class="toast__content">{notification.message}</div>
-			{#if notification.icon}<i class="toast__icon {notification.icon}" />{/if}
+			{#if notification.icon}<i class="toast__icon {notification.icon}"></i>{/if}
 		</div>
 	{/each}
 </div>

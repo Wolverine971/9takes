@@ -3,14 +3,12 @@ import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error, redirect } from '@sveltejs/kit';
 
-const MAX_POSTS = 6;
-
 const redirectMap = {
 	'enneagram-communication-overview': 'enneagram-communication-guide',
 	'enneagram-communication-in-relationships': 'relationship-communication-guide'
 };
 
-export const load: PageLoad = async ({ params }) => {
+export const load: PageLoad = async ({ params, data }) => {
 	if (redirectMap[params.slug]) {
 		// throw error(301, redirectMap[params.slug]);
 		throw redirect(302, redirectMap[params.slug]);
@@ -27,25 +25,6 @@ export const load: PageLoad = async ({ params }) => {
 
 	const post = await match?.resolver?.();
 
-	const postPromises = Object.entries(modules).map(([path, resolver]) =>
-		resolver().then(
-			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				}) as App.BlogPost
-		)
-	);
-
-	const posts = await Promise.all(postPromises);
-	const publishedPosts = posts
-		.filter((post) => post.published)
-		.filter((post) => post.blog)
-		.filter((p) => p?.type?.[0] === post?.metadata?.type?.[0])
-		.filter((post) => params.slug !== post.slug)
-		.sort(() => 0.5 - Math.random())
-		.slice(0, MAX_POSTS);
-
 	// publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
 	if (!post || !post?.metadata?.published) {
@@ -56,9 +35,9 @@ export const load: PageLoad = async ({ params }) => {
 	}
 
 	return {
+		...data, // Pass through server data (posts)
 		component: post.default,
 		frontmatter: post.metadata as App.BlogPost,
-		slug: params.slug,
-		posts: publishedPosts
+		slug: params.slug
 	};
 };

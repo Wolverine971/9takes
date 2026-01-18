@@ -101,14 +101,10 @@
 	{#if isOpen && options.length > 0}
 		<ul class="results-list">
 			{#each options as option, i}
-				<li
-					class="result-item"
-					class:active={i === activeIndex}
-					on:click={() => selectOption(option)}
-					on:keypress={(e) => e.key === 'Enter' && selectOption(option)}
-					tabindex="0"
-				>
-					{option.text}
+				<li class="result-item" class:active={i === activeIndex}>
+					<button type="button" class="result-button" on:click={() => selectOption(option)}>
+						{option.text}
+					</button>
 				</li>
 			{/each}
 		</ul>
@@ -197,13 +193,24 @@
 	}
 
 	.result-item {
+	}
+
+	.result-button {
+		display: block;
+		width: 100%;
 		padding: 0.75rem 1rem;
+		background: none;
+		border: none;
+		text-align: left;
 		cursor: pointer;
 
-		&:hover,
-		&.active {
+		&:hover {
 			background-color: #f3f4f6;
 		}
+	}
+
+	.result-item.active .result-button {
+		background-color: #f3f4f6;
 	}
 
 	.no-results {

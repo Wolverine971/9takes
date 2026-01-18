@@ -21,7 +21,7 @@ const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 
 	onwarn: (warning, handler) => {
-		if (warning.code !== 'css-unused-selector') {
+		if (warning.code !== 'css-unused-selector' && warning.code !== 'css_unused_selector') {
 			handler(warning);
 		}
 	},

@@ -277,7 +277,7 @@
 		/>
 
 		{#if loading}
-			<div class="combobox__loading-indicator" aria-hidden="true" />
+			<div class="combobox__loading-indicator" aria-hidden="true"></div>
 		{/if}
 
 		{#if isListOpen}

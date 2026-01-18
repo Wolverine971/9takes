@@ -63,7 +63,7 @@
 			class="corner-icon"
 		>
 			{#if loading}
-				<div class="loader" />
+				<div class="loader"></div>
 			{:else}
 				Sign up
 			{/if}
@@ -97,9 +97,17 @@
 <style>
 	.waitlist-section {
 		text-align: center;
-		border: var(--classic-border);
+		border: 1px solid rgba(100, 116, 139, 0.3);
 		padding: 2rem;
-		border-radius: var(--base-border-radius);
+		border-radius: 12px;
+		background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0f 100%);
+		box-shadow: 0 0 20px rgba(124, 58, 237, 0.1);
+	}
+	.waitlist-section h2 {
+		color: #f1f5f9;
+	}
+	.waitlist-section p {
+		color: #94a3b8;
 	}
 	.waitlist-form {
 		display: flex;
@@ -112,18 +120,33 @@
 		max-width: 300px;
 		margin-bottom: 10px;
 		padding: 10px;
-		border-radius: var(--base-border-radius);
-		border: var(--classic-border);
+		border-radius: 8px;
+		border: 1px solid rgba(100, 116, 139, 0.3);
+		background-color: #252538;
+		color: #f1f5f9;
+	}
+	.waitlist-form input:focus {
+		outline: none;
+		border-color: #7c3aed;
+		box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
 	}
 	.waitlist-form button {
-		/* background-color: #007bff; */
 		padding: 10px 20px;
-		border-radius: var(--base-border-radius);
+		border-radius: 8px;
 		border: none;
 		cursor: pointer;
-		color: var(--primary);
-		border: 1px solid;
+		color: white;
+		background-color: #7c3aed;
+		border: 1px solid #7c3aed;
 		width: 155px;
+		font-weight: 600;
+		transition: all 0.2s ease;
+		box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+	}
+	.waitlist-form button:hover {
+		background-color: #6d28d9;
+		box-shadow: 0 0 25px rgba(124, 58, 237, 0.4);
+		transform: translateY(-2px);
 	}
 	/* For tablets */
 	@media only screen and (min-width: 768px) {
@@ -156,17 +179,17 @@
 	}
 	::placeholder {
 		/* Chrome, Firefox, Opera, Safari 10.1+ */
-		color: var(--primary);
+		color: #94a3b8;
 		opacity: 1; /* Firefox */
 	}
 
 	:-ms-input-placeholder {
 		/* Internet Explorer 10-11 */
-		color: var(--primary);
+		color: #94a3b8;
 	}
 
 	::-ms-input-placeholder {
 		/* Microsoft Edge */
-		color: var(--primary);
+		color: #94a3b8;
 	}
 </style>

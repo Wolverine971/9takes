@@ -42,35 +42,34 @@
 	$: currentYear = new Date().getFullYear();
 </script>
 
-<footer class="mt-16 w-full border-t border-neutral-200 bg-neutral-50" aria-label="Site footer">
-	<div class="mx-auto max-w-7xl px-6 py-12 lg:px-8">
-		<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+<footer class="footer-wrapper" aria-label="Site footer">
+	<div class="footer-container">
+		<div class="footer-grid">
 			<!-- Brand Section -->
-			<div class="col-span-1 md:col-span-2 lg:col-span-1">
-				<div class="mb-4 flex items-center">
+			<div class="brand-section">
+				<div class="brand-logo">
 					<img
 						src="/brand/aero.webp"
 						alt="9takes Logo"
 						height="48"
 						width="48"
 						loading="lazy"
-						class="mr-3"
 					/>
-					<span class="text-xl font-bold text-neutral-900">9takes</span>
+					<span class="brand-name">9takes</span>
 				</div>
-				<p class="mb-6 text-sm leading-relaxed text-neutral-600">
+				<p class="brand-description">
 					Explore personality insights through engaging questions and discover what makes each
 					person unique.
 				</p>
 
 				<!-- Social Links -->
-				<div class="flex gap-4">
+				<div class="social-links">
 					{#each socialLinks as { href, img, alt, label }}
 						<a
 							{href}
 							target="_blank"
 							rel="noreferrer noopener"
-							class="flex h-10 w-10 items-center justify-center rounded-lg border border-neutral-300 bg-white transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-300 hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+							class="social-link"
 							aria-label={`Follow us on ${label}`}
 						>
 							<img
@@ -79,135 +78,412 @@
 								width="20"
 								height="20"
 								loading="lazy"
-								class="h-5 w-5 object-contain"
 							/>
 						</a>
 					{/each}
 				</div>
 			</div>
 
-			<!-- Main Navigation -->
-			<nav class="col-span-1" aria-label="Footer navigation">
-				<h3 class="mb-4 text-sm font-semibold uppercase tracking-wider text-neutral-900">
-					Navigation
-				</h3>
-				<ul class="space-y-3" role="list">
-					{#each mainLinks as { href, label }}
-						<li>
-							<a
-								href={href === '/' ? homeUrl : href}
-								class="text-sm text-neutral-600 transition-colors duration-200 hover:text-primary-700 focus:text-primary-700 focus:outline-none"
-								class:text-primary-700={isActive(href)}
-								class:font-medium={isActive(href)}
-								aria-current={isActive(href) ? 'page' : undefined}
-							>
-								{label}
-							</a>
-						</li>
-					{/each}
-				</ul>
-			</nav>
+			<!-- Links Container (Navigation + Blog + Connect) -->
+			<div class="links-container">
+				<!-- Main Navigation -->
+				<nav class="link-section" aria-label="Footer navigation">
+					<h3>Navigation</h3>
+					<ul>
+						{#each mainLinks as { href, label }}
+							<li>
+								<a
+									href={href === '/' ? homeUrl : href}
+									class:active={isActive(href)}
+									aria-current={isActive(href) ? 'page' : undefined}
+								>
+									{label}
+								</a>
+							</li>
+						{/each}
+					</ul>
+				</nav>
 
-			<!-- Blog Section -->
-			<div class="col-span-1">
-				<h3 class="mb-4 text-sm font-semibold uppercase tracking-wider text-neutral-900">Blog</h3>
-				<ul class="space-y-3">
-					{#each blogLinks as { href, label }}
-						<li>
-							<a
-								{href}
-								class="text-sm text-neutral-600 transition-colors duration-200 hover:text-primary-700 focus:text-primary-700 focus:outline-none"
-								class:text-primary-700={isActive(href)}
-								class:font-medium={isActive(href)}
-								aria-current={isActive(href) ? 'page' : undefined}
-							>
-								{label}
-							</a>
-						</li>
-					{/each}
-				</ul>
-			</div>
+				<!-- Blog Section -->
+				<div class="link-section">
+					<h3>Blog</h3>
+					<ul>
+						{#each blogLinks as { href, label }}
+							<li>
+								<a
+									{href}
+									class:active={isActive(href)}
+									aria-current={isActive(href) ? 'page' : undefined}
+								>
+									{label}
+								</a>
+							</li>
+						{/each}
+					</ul>
+				</div>
 
-			<!-- Newsletter/Contact Section -->
-			<div class="col-span-1">
-				<h3 class="mb-4 text-sm font-semibold uppercase tracking-wider text-neutral-900">
-					Connect
-				</h3>
-				<p class="mb-4 text-sm text-neutral-600">
-					Stay updated with our latest personality insights and community discussions.
-				</p>
-				<a
-					href="mailto:usersup@9takes.com"
-					class="inline-flex items-center rounded text-sm font-medium text-primary-700 transition-colors duration-200 hover:text-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
-				>
-					Get in touch
-					<svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M9 5l7 7-7 7"
-						/>
-					</svg>
-				</a>
+				<!-- Connect Section -->
+				<div class="link-section connect-section">
+					<h3>Connect</h3>
+					<p>
+						Stay updated with our latest personality insights and community discussions.
+					</p>
+					<a href="mailto:usersup@9takes.com" class="contact-link">
+						Get in touch
+						<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M9 5l7 7-7 7"
+							/>
+						</svg>
+					</a>
+				</div>
 			</div>
 		</div>
 
 		<!-- Bottom Section -->
+		<div class="footer-bottom">
+			<p>&copy; {currentYear} 9takes. All rights reserved.</p>
+		</div>
 	</div>
 </footer>
 
 <style lang="scss">
-	// Ensure consistent link styling
-	a {
-		text-decoration: none !important;
+	.footer-wrapper {
+		position: relative;
+		z-index: 10;
+		margin-top: 4rem;
+		width: 100%;
+		border-top: 1px solid rgba(100, 116, 139, 0.2);
+		background: #0a0a0f;
+	}
 
-		&:focus {
-			outline: none;
+	.footer-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 3rem 1.5rem 2rem;
+	}
+
+	.footer-grid {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		gap: 3rem;
+	}
+
+	/* Brand Section */
+	.brand-section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.brand-logo {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		margin-bottom: 1rem;
+
+		img {
+			width: 48px;
+			height: 48px;
 		}
 	}
-	ul,
-	li {
-		list-style-type: none;
+
+	.brand-name {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: #f1f5f9;
 	}
 
-	li::marker {
-		display: none;
-		content: none;
+	.brand-description {
+		font-size: 0.875rem;
+		line-height: 1.6;
+		color: #64748b;
+		margin-bottom: 1.5rem;
 	}
 
-	// Smooth animations for interactive elements
-	.transition-all {
-		transition-property: all;
-		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	.social-links {
+		display: flex;
+		gap: 0.75rem;
 	}
 
-	// Mobile optimizations
-	@media (max-width: 768px) {
-		.grid {
-			gap: 2rem;
+	.social-link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.5rem;
+		height: 2.5rem;
+		background: #1a1a2e;
+		border: 1px solid rgba(100, 116, 139, 0.3);
+		border-radius: 0.5rem;
+		transition: all 0.2s ease;
+
+		img {
+			width: 1.25rem;
+			height: 1.25rem;
+			filter: brightness(0) invert(1);
+			opacity: 0.8;
 		}
 
-		.col-span-1 {
-			text-align: center;
+		&:hover {
+			background: rgba(124, 58, 237, 0.2);
+			border-color: rgba(124, 58, 237, 0.5);
+			transform: translateY(-2px);
+			box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
 
-			&:first-child {
-				text-align: center;
+			img {
+				opacity: 1;
 			}
 		}
+	}
 
+	/* Links Container */
+	.links-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+	}
+
+	.link-section {
 		h3 {
-			text-align: center;
+			font-size: 0.75rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: #94a3b8;
+			margin-bottom: 1rem;
 		}
 
 		ul {
-			text-align: center;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			flex-direction: column;
+			gap: 0.625rem;
+		}
+
+		li {
+			list-style: none;
+
+			&::marker {
+				display: none;
+				content: none;
+			}
+		}
+
+		a {
+			font-size: 0.875rem;
+			color: #64748b;
+			text-decoration: none;
+			transition: color 0.2s ease;
+
+			&:hover,
+			&.active {
+				color: #a78bfa;
+			}
+
+			&::after {
+				display: none !important;
+			}
 		}
 	}
 
-	// Enhanced focus states for accessibility
+	.connect-section {
+		p {
+			font-size: 0.8125rem;
+			color: #64748b;
+			line-height: 1.5;
+			margin-bottom: 1rem;
+		}
+	}
+
+	.contact-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.25rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: #7c3aed;
+		text-decoration: none;
+		transition: color 0.2s ease;
+
+		svg {
+			width: 1rem;
+			height: 1rem;
+		}
+
+		&:hover {
+			color: #a78bfa;
+		}
+
+		&::after {
+			display: none !important;
+		}
+	}
+
+	/* Footer Bottom */
+	.footer-bottom {
+		margin-top: 2.5rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid rgba(100, 116, 139, 0.15);
+		text-align: center;
+
+		p {
+			font-size: 0.8125rem;
+			color: #475569;
+			margin: 0;
+		}
+	}
+
+	/* Tablet */
+	@media (max-width: 900px) {
+		.footer-grid {
+			grid-template-columns: 1fr;
+			gap: 2.5rem;
+		}
+
+		.links-container {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	/* Mobile */
+	@media (max-width: 640px) {
+		.footer-wrapper {
+			margin-top: 3rem;
+		}
+
+		.footer-container {
+			padding: 2rem 1rem 1.5rem;
+		}
+
+		.footer-grid {
+			gap: 2rem;
+		}
+
+		.brand-section {
+			align-items: center;
+			text-align: center;
+		}
+
+		.brand-logo {
+			justify-content: center;
+
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+
+		.brand-name {
+			font-size: 1.125rem;
+		}
+
+		.brand-description {
+			font-size: 0.8125rem;
+			max-width: 280px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.social-links {
+			justify-content: center;
+		}
+
+		.links-container {
+			grid-template-columns: 1fr 1fr;
+			gap: 1.5rem;
+		}
+
+		.link-section {
+			text-align: center;
+
+			h3 {
+				font-size: 0.6875rem;
+				margin-bottom: 0.75rem;
+			}
+
+			ul {
+				gap: 0.5rem;
+			}
+
+			a {
+				font-size: 0.8125rem;
+			}
+		}
+
+		.connect-section {
+			grid-column: 1 / -1;
+
+			p {
+				font-size: 0.75rem;
+				max-width: 280px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 0.75rem;
+			}
+		}
+
+		.contact-link {
+			justify-content: center;
+			font-size: 0.8125rem;
+		}
+
+		.footer-bottom {
+			margin-top: 1.5rem;
+			padding-top: 1rem;
+
+			p {
+				font-size: 0.75rem;
+			}
+		}
+	}
+
+	/* Small Mobile */
+	@media (max-width: 380px) {
+		.footer-container {
+			padding: 1.5rem 0.75rem 1rem;
+		}
+
+		.brand-logo img {
+			width: 36px;
+			height: 36px;
+		}
+
+		.brand-name {
+			font-size: 1rem;
+		}
+
+		.brand-description {
+			font-size: 0.75rem;
+		}
+
+		.link-section {
+			h3 {
+				font-size: 0.625rem;
+			}
+
+			a {
+				font-size: 0.75rem;
+			}
+		}
+
+		.social-link {
+			width: 2.25rem;
+			height: 2.25rem;
+
+			img {
+				width: 1rem;
+				height: 1rem;
+			}
+		}
+	}
+
+	/* Focus states */
 	a:focus-visible {
-		outline: 2px solid theme('colors.primary.500');
+		outline: 2px solid #a78bfa;
 		outline-offset: 2px;
 	}
 </style>

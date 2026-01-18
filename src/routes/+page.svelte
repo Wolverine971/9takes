@@ -1,98 +1,81 @@
 <!-- src/routes/+page.svelte -->
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
-	import { fly } from 'svelte/transition';
+	import { fly, fade } from 'svelte/transition';
 	import { browser } from '$app/environment';
 	import type { PageData } from './$types';
+	import type { FamousPerson } from './+page.server';
 	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
 
-	export let data: PageData;
-	let innerWidth = 0;
-	let loaded = false;
-	let observer: IntersectionObserver;
+	let { data }: { data: PageData } = $props();
+	let innerWidth = $state(0);
+	let loaded = $state(false);
+	let observer: IntersectionObserver | null = null;
+	let sectionsVisible = $state(Array(6).fill(browser ? false : true));
 
-	let sectionsVisible = Array(5).fill(browser ? false : true);
-
-	const enneagramTypes = {
-		1: 'Type 1: The Perfectionist',
-		2: 'Type 2: The Helper',
-		3: 'Type 3: The Achiever',
-		4: 'Type 4: The Individualist',
-		5: 'Type 5: The Investigator',
-		6: 'Type 6: The Loyalist',
-		7: 'Type 7: The Enthusiast',
-		8: 'Type 8: The Challenger',
-		9: 'Type 9: The Peacemaker'
+	// The 9 Shadow Types with colors
+	const shadowTypes: Record<
+		number,
+		{ name: string; title: string; color: string; coreEmotion: string }
+	> = {
+		1: {
+			name: 'The Perfectionist',
+			title: 'Knight of Order',
+			color: '#a8dadc',
+			coreEmotion: 'Anger'
+		},
+		2: { name: 'The Helper', title: 'Heart Guardian', color: '#ff6b6b', coreEmotion: 'Shame' },
+		3: { name: 'The Achiever', title: 'Victory Blade', color: '#fbbf24', coreEmotion: 'Shame' },
+		4: { name: 'The Individualist', title: 'Soul Weaver', color: '#c084fc', coreEmotion: 'Shame' },
+		5: { name: 'The Investigator', title: 'Mind Phantom', color: '#22d3ee', coreEmotion: 'Fear' },
+		6: { name: 'The Loyalist', title: 'Iron Guard', color: '#64748b', coreEmotion: 'Fear' },
+		7: { name: 'The Enthusiast', title: 'Storm Rider', color: '#fb923c', coreEmotion: 'Fear' },
+		8: { name: 'The Challenger', title: 'War Commander', color: '#ef4444', coreEmotion: 'Anger' },
+		9: { name: 'The Peacemaker', title: 'Harmony Sage', color: '#4ade80', coreEmotion: 'Anger' }
 	};
 
-	const featuredArticles = [
-		{
-			id: '1',
-			title: 'How Each Enneagram Type Flexes: Revealing Secret Needs for Recognition',
-			excerpt:
-				'Discover the unique ways each Enneagram type shows off their strengths and craves recognition in everyday interactions',
-			image: '/blogs/greek-statue-flex.webp',
-			url: '/enneagram-corner/how-each-enneagram-flexes'
-		},
-		{
-			id: '2',
-			title: 'Toxic Traits of Each Enneagram Type',
-			excerpt:
-				'Understand the shadow sides of each personality type and how to recognize when strengths turn into weaknesses',
-			image: '/blogs/greek-statue-showing-cracks.webp',
-			url: '/enneagram-corner/toxic-traits-of-each-enneagram-type'
-		},
-		{
-			id: '3',
-			title: 'Workplace Team Building with the Enneagram',
-			excerpt:
-				'How to leverage personality differences to create stronger teams and improve workplace communication',
-			image: '/blogs/greek-statues-working-in-teams.webp',
-			url: '/enneagram-corner/enneagram-workplace-team-building'
-		},
-		{
-			id: '4',
-			title: 'Enneagram First Impression Cheat Sheet',
-			excerpt:
-				'Essential approaches, power questions, and key tips for authentic first impressions.',
-			image: '/blogs/greek-statue-taking-notes.webp',
-			url: '/enneagram-corner/first-impression-cheat-sheet'
-		}
-	];
-
-	// Updated Benefits – focus on stress‑testing ideas & coaching
+	// Benefits/How it works content
 	const benefits = [
 		{
-			title: 'Stress‑Test Your Ideas',
+			icon: '?',
+			title: 'Give Your Take First',
 			description:
-				'Give your take, then unlock 9 different perspectives. Catch blind spots—before they catch you.'
+				'Answer questions before seeing others. Get your authentic perspective without groupthink bias.',
+			stat: 'INT',
+			boost: '+15'
 		},
 		{
-			title: 'Escape Your Bubble',
-			description:
-				'See how 9 personality types read the same situation. Map hidden motives and decode people fast—no more guesswork.'
+			icon: '9',
+			title: 'See 9 Perspectives',
+			description: 'Discover how each personality type approaches the same situation differently.',
+			stat: 'PER',
+			boost: '+20'
 		},
 		{
-			title: 'Personality‑Max Your Stats',
+			icon: '!',
+			title: 'Spot Your Blind Spots',
 			description:
-				"Know your type's strengths and blind spots. Turn cognitive weaknesses into competitive advantages through targeted practice."
+				'Understand your patterns, triggers, and superpowers through the Enneagram lens.',
+			stat: 'WIS',
+			boost: '+25'
 		},
 		{
-			title: 'Level‑Up with Coaching',
+			icon: '*',
+			title: 'Decode People',
 			description:
-				'Ready to go deeper? <a href="/book-session" class="text-primary-700 underline font-semibold">Book a session</a> and apply insights directly to your situation.'
+				'Learn to read others by understanding the emotional logic behind their behavior.',
+			stat: 'CHA',
+			boost: '+30'
 		}
 	];
 
-	function getTransition(index) {
-		const duration = 600;
-		const delay = 150;
-		return index % 2 === 0 ? { x: -30, duration, delay } : { x: 30, duration, delay };
+	function getTransition() {
+		return { y: 30, duration: 500, delay: 100 };
 	}
 
 	function setupIntersectionObserver() {
 		if (!browser || typeof IntersectionObserver === 'undefined') {
-			sectionsVisible = Array(5).fill(true);
+			sectionsVisible = Array(7).fill(true);
 			return;
 		}
 
@@ -103,61 +86,50 @@
 						const index = parseInt(entry.target.getAttribute('data-section-index') || '0');
 						if (!isNaN(index) && index >= 0 && index < sectionsVisible.length) {
 							sectionsVisible[index] = true;
-							sectionsVisible = [...sectionsVisible];
 						}
 					}
 				});
 			},
-			{
-				threshold: 0.1,
-				rootMargin: '100px 0px'
-			}
+			{ threshold: 0.1, rootMargin: '50px 0px' }
 		);
 
 		setTimeout(() => {
 			const sections = document.querySelectorAll('.section-observer');
-			sections.forEach((section, index) => {
-				section.setAttribute('data-section-index', index.toString());
-				observer.observe(section);
+			sections.forEach((section, idx) => {
+				section.setAttribute('data-section-index', idx.toString());
+				observer?.observe(section);
 			});
 		}, 100);
 	}
 
-	onMount(async () => {
+	onMount(() => {
 		loaded = true;
-		await tick();
-		setupIntersectionObserver();
-		window.addEventListener(
-			'resize',
-			() => {
-				innerWidth = window.innerWidth;
-			},
-			{ passive: true }
-		);
+		tick().then(() => {
+			setupIntersectionObserver();
+		});
+
+		const handleResize = () => {
+			innerWidth = window.innerWidth;
+		};
+		window.addEventListener('resize', handleResize, { passive: true });
+
 		return () => {
-			if (observer) observer.disconnect();
+			observer?.disconnect();
+			window.removeEventListener('resize', handleResize);
 		};
 	});
-
-	const famousByType = Array(9)
-		.fill(null)
-		.map((_, index) => {
-			const typeNumber = index + 1;
-			const peopleOfType = data.images.filter((person) => person.type === typeNumber);
-			return peopleOfType.length > 0 ? peopleOfType[0] : null;
-		});
 </script>
 
 <svelte:head>
-	<title>9takes | One situation, 9 ways to see it</title>
-	<meta name="title" content="9takes | One situation, 9 ways to see it" />
+	<title>9takes | See the Emotions Behind Every Take</title>
+	<meta name="title" content="9takes | See the Emotions Behind Every Take" />
 	<meta
 		name="description"
-		content="Stress‑test your ideas and personality‑max using the Enneagram. Give your take first, then unlock 9 different perspectives."
+		content="Decode social dynamics using the Enneagram. Give your take, see 9 perspectives, and build emotional intelligence. One situation, 9 ways to see it."
 	/>
 	<meta
 		name="keywords"
-		content="personality maxing, stress test ideas, enneagram, perspective taking, blind spot detection, emotional intelligence, cognitive training"
+		content="personality maxing, emotional intelligence, enneagram, perspective taking, blind spot detection, decode people, social dynamics"
 	/>
 	<meta name="robots" content="index, follow" />
 	<meta name="language" content="English" />
@@ -172,10 +144,10 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://9takes.com" />
 	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content="9takes | One situation, 9 ways to see it" />
+	<meta property="og:title" content="9takes | See the Emotions Behind Every Take" />
 	<meta
 		property="og:description"
-		content="Stress‑test your ideas and personality‑max using the Enneagram. Give your take first, then unlock 9 different perspectives."
+		content="Decode social dynamics using the Enneagram. Give your take, see 9 perspectives, and build emotional intelligence."
 	/>
 	<meta property="og:image" content="https://9takes.com/greek_pantheon.png" />
 	<meta property="og:image:width" content="1200" />
@@ -186,10 +158,10 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:creator" content="@djwayne3" />
-	<meta name="twitter:title" content="9takes | One situation, 9 ways to see it" />
+	<meta name="twitter:title" content="9takes | See the Emotions Behind Every Take" />
 	<meta
 		name="twitter:description"
-		content="Stress‑test your ideas and personality‑max using the Enneagram. Give your take first, then unlock 9 different perspectives."
+		content="Decode social dynamics using the Enneagram. Give your take, see 9 perspectives, and build emotional intelligence."
 	/>
 	<meta name="twitter:image" content="https://9takes.com/greek_pantheon.png" />
 	<meta name="twitter:image:alt" content="9takes – One situation, 9 ways to see it" />
@@ -244,434 +216,1401 @@
 		}
 	</script>
 
-	<!-- Image Structured Data for Featured Content -->
+	<!-- WebPage Schema -->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
 			"@type": "WebPage",
-			"name": "9takes - Build Emotional Intelligence with the Enneagram",
+			"name": "9takes - See the Emotions Behind Every Take",
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
 				"url": "https://9takes.com/greek_pantheon.png",
 				"width": 1200,
 				"height": 630,
 				"caption": "9takes - One situation, 9 ways to see it"
-			},
-			"image": [
-				{
-					"@type": "ImageObject",
-					"url": "https://9takes.com/blogs/greek-statue-flex.webp",
-					"width": 800,
-					"height": 600,
-					"caption": "How Each Enneagram Type Flexes"
-				},
-				{
-					"@type": "ImageObject",
-					"url": "https://9takes.com/blogs/greek-statue-showing-cracks.webp",
-					"width": 800,
-					"height": 600,
-					"caption": "Toxic Traits of Each Enneagram Type"
-				},
-				{
-					"@type": "ImageObject",
-					"url": "https://9takes.com/blogs/greek-statues-in-an-office-setting.webp",
-					"width": 800,
-					"height": 600,
-					"caption": "Workplace Team Building with the Enneagram"
-				}
-			]
+			}
 		}
 	</script>
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+		rel="stylesheet"
+	/>
 </svelte:head>
 
 <svelte:window bind:innerWidth />
 
-<!-- Main container -->
-<div class="mx-auto w-full max-w-7xl px-4">
-	<!-- Hero Section -->
-	{#if loaded}
-		<section
-			class="flex min-h-[85vh] flex-col items-center justify-center py-8 md:py-12"
-			in:fly={getTransition(0)}
-		>
-			<div class="mb-6 max-w-4xl text-center">
-				<h1
-					class="mb-4 bg-gradient-to-r from-gray-800 to-indigo-700 bg-clip-text text-4xl font-extrabold text-transparent md:text-5xl lg:text-6xl"
-				>
-					Build Emotional Intelligence with the Enneagram
-				</h1>
-				<h2 class="mb-6 text-xl font-bold text-gray-700 md:text-2xl lg:text-3xl">
-					Stress‑test your ideas • Escape your bubble <br />Max out your Personality
-				</h2>
-				<p class="mx-auto max-w-2xl text-base text-gray-600 md:text-lg">
-					Give your take, digest other perspectives, escape the hive‑mind. See how 9 personality
-					types can <b>see the same scenario differently</b>—catch blind spots before they catch
-					you.
-				</p>
-			</div>
+<div class="sl-page">
+	<!-- Background layers -->
+	<div class="bg-void"></div>
+	<div class="bg-ambient"></div>
+	<div class="bg-grid"></div>
 
-			<!-- Question of the Day -->
-			<a
-				href={`/questions/${data.questionOfTheDay.url}`}
-				class="mb-8 w-full max-w-3xl rounded-xl border-2 border-primary-200 bg-white p-6 shadow-lg transition-all duration-200 hover:shadow-xl"
-			>
-				<span
-					class="inline-block rounded-full bg-primary-100 px-3 py-1.5 text-sm font-bold text-primary-800"
-					>💡 Daily Question</span
-				>
-				<h3 class="my-4 text-center text-xl font-bold md:text-2xl">
-					{data.questionOfTheDay ? data.questionOfTheDay.question_formatted : 'Loading question...'}
-				</h3>
-				<div class="flex items-center justify-between">
-					<div class="flex items-center">
-						<div class="flex -space-x-2">
-							{#if data.questionOfTheDay}
-								{#each data.questionOfTheDay.comment_count.toString().split('') as num}
-									<div
-										class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-primary-200 text-xs font-bold text-primary-700"
-									>
-										{num}
-									</div>
-								{/each}
-							{/if}
-						</div>
-						<span class="ml-2 text-sm text-gray-500">takes given</span>
+	<!-- Floating particles -->
+	<div class="particles" aria-hidden="true">
+		{#each Array(12) as _, i}
+			<div
+				class="particle"
+				style="--delay: {i * 0.8}s; --x: {8 + Math.random() * 84}%; --size: {2 +
+					Math.random() * 2}px; --duration: {20 + Math.random() * 10}s;"
+			></div>
+		{/each}
+	</div>
+
+	<main class="content">
+		<!-- ========== HERO SECTION ========== -->
+		{#if loaded}
+			<section class="hero" in:fly={getTransition()}>
+				<div class="hero-inner">
+					<!-- Tagline badge -->
+					<div class="tagline-badge" in:fade={{ delay: 200, duration: 400 }}>
+						<span class="badge-glow"></span>
+						<span class="badge-text">One situation, 9 ways to see it</span>
 					</div>
-				</div>
-			</a>
 
-			<!-- CTA -->
-			<a
-				href="/questions"
-				class="btn-primary mb-4 transform rounded-xl bg-primary-700 px-8 py-4 text-center text-xl font-bold text-white shadow-lg transition-all duration-200 hover:-translate-y-1 hover:bg-primary-800 hover:shadow-xl md:text-2xl"
-			>
-				Ask a Question
-			</a>
-			<p class="text-center text-gray-500">Free to join • No personality test required</p>
-		</section>
-	{:else}
-		<div class="hero-placeholder h-screen"></div>
-	{/if}
+					<h1 class="hero-title">
+						<span class="title-line">See the</span>
+						<span class="title-glow">Emotions Behind</span>
+						<span class="title-line">Every Take</span>
+					</h1>
 
-	<!-- 3x3 Grid of Famous People by Personality Type -->
-	<div class="section-observer">
-		{#if sectionsVisible[0] || !browser}
-			<section class="py-12 md:py-16" in:fly={getTransition(1)}>
-				<h2 class="mb-4 text-center text-3xl font-bold md:mb-8 md:text-4xl">Master the 9 Lenses</h2>
-				<p class="mx-auto mb-12 max-w-2xl text-center text-lg text-gray-600">
-					Each personality type sees different details. Learn their patterns—decode people faster.
-				</p>
-
-				<div class="grid grid-cols-3 gap-2 md:gap-6">
-					{#each famousByType as person, i}
-						{#if person}
-							<a href={`/personality-analysis/${person.name}`} class="group">
-								<div
-									class="flex h-full flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-300 active:scale-95 md:rounded-xl md:hover:-translate-y-1 md:hover:shadow-md"
-								>
-									<div class="relative flex items-center justify-center p-2 md:p-4">
-										<!-- Desktop pill - hidden on mobile -->
-										<div
-											class="desktop-only absolute left-0 top-0 z-10 m-3 rounded-full bg-primary-700 px-3 py-1 text-xs font-bold text-white"
-										>
-											Type {i + 1}
-										</div>
-										<div class="relative">
-											<div
-												class="h-20 w-20 overflow-hidden rounded-full border-2 border-primary-100 md:h-48 md:w-48 md:border-4"
-											>
-												<img
-													src={person.image || `/types/${i + 1}s/s-${person.name}.webp`}
-													alt={person.name}
-													class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-													loading={i < 3 ? 'eager' : 'lazy'}
-													decoding="async"
-												/>
-											</div>
-											<!-- Mobile type badge - outside overflow-hidden -->
-											<div
-												class="mobile-only absolute bottom-0 right-0 z-10 h-5 w-5 items-center justify-center rounded-full bg-primary-700 text-[10px] font-bold text-white"
-											>
-												{i + 1}
-											</div>
-										</div>
-									</div>
-									<div class="px-1 pb-2 text-center md:flex-1 md:p-4">
-										<h3 class="desktop-only text-lg font-bold text-primary-800 md:mb-2">
-											{enneagramTypes[i + 1]}
-										</h3>
-										<p
-											class="text-xs font-semibold leading-tight text-gray-800 md:text-sm md:font-normal md:text-gray-600"
-										>
-											{person.name.split('-').join(' ')}
-										</p>
-									</div>
-								</div>
-							</a>
-						{:else}
-							<a href={`/types/${i + 1}`} class="group">
-								<div
-									class="flex h-full flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-300 active:scale-95 md:rounded-xl md:hover:-translate-y-1 md:hover:shadow-md"
-								>
-									<div class="relative flex items-center justify-center p-2 md:p-4">
-										<!-- Desktop pill -->
-										<div
-											class="desktop-only absolute left-0 top-0 z-10 m-3 rounded-full bg-primary-700 px-3 py-1 text-xs font-bold text-white"
-										>
-											Type {i + 1}
-										</div>
-										<div
-											class="relative flex h-20 w-20 items-center justify-center overflow-hidden rounded-full border-2 border-primary-100 bg-gray-100 md:h-48 md:w-48 md:border-4"
-										>
-											<span class="text-2xl font-bold text-primary-700 md:text-4xl md:text-gray-400"
-												>{i + 1}</span
-											>
-										</div>
-									</div>
-									<div class="px-1 pb-2 text-center md:flex-1 md:p-4">
-										<h3 class="desktop-only text-lg font-bold text-primary-800 md:mb-2">
-											{enneagramTypes[i + 1]}
-										</h3>
-										<p class="mobile-only text-xs font-semibold leading-tight text-gray-600">
-											Type {i + 1}
-										</p>
-										<p class="desktop-only text-sm text-gray-600">Explore this lens</p>
-									</div>
-								</div>
-							</a>
-						{/if}
-					{/each}
-				</div>
-
-				<div class="mt-8 text-center">
-					<a
-						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-6 py-3 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
-					>
-						Learn the System
-						<svg
-							class="ml-2 h-4 w-4"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg"
-							><path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M9 5l7 7-7 7"
-							/></svg
-						>
-					</a>
-				</div>
-			</section>
-		{/if}
-	</div>
-
-	<!-- Recent Articles Section -->
-	<div class="section-observer">
-		{#if sectionsVisible[1] || !browser}
-			<section class="py-12 md:py-16" in:fly={getTransition(2)}>
-				<h2 class="mb-4 text-center text-3xl font-bold md:mb-8 md:text-4xl">Cognitive Drills</h2>
-				<p class="mx-auto mb-12 max-w-2xl text-center text-lg text-gray-600">
-					Perspective gains are earned, not scrolled. It takes effort to digest a new perspective.
-				</p>
-
-				<div class="grid grid-cols-2 gap-3 md:gap-6">
-					{#each featuredArticles as article}
-						<a href={article.url} class="group">
-							<div
-								class="h-full overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-300 active:scale-95 md:rounded-xl md:hover:-translate-y-1 md:hover:shadow-md"
-							>
-								<div class="relative aspect-[4/3] overflow-hidden md:aspect-auto md:h-48">
-									<img
-										src={article.image}
-										alt={article.title}
-										class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-										loading="lazy"
-										decoding="async"
-									/>
-									<div
-										class="desktop-only absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-									></div>
-								</div>
-								<div class="p-2 md:p-4">
-									<h3
-										class="line-clamp-2 text-sm font-bold leading-tight text-gray-800 transition-colors duration-300 group-hover:text-primary-700 md:mb-2 md:text-lg md:leading-normal"
-									>
-										{article.title}
-									</h3>
-									<p class="desktop-only line-clamp-2 text-sm text-gray-600">{article.excerpt}</p>
-								</div>
-							</div>
-						</a>
-					{/each}
-				</div>
-
-				<div class="mt-8 text-center">
-					<a
-						href="/enneagram-corner"
-						class="inline-flex items-center rounded-lg border border-primary-300 bg-white px-6 py-3 font-semibold text-primary-700 transition-all duration-200 hover:border-primary-400 hover:bg-primary-50"
-					>
-						More about the Enneagram
-						<svg
-							class="ml-2 h-4 w-4"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg"
-							><path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M9 5l7 7-7 7"
-							/></svg
-						>
-					</a>
-				</div>
-			</section>
-		{/if}
-	</div>
-
-	<!-- Why the Enneagram Section -->
-	<div class="section-observer">
-		{#if sectionsVisible[2] || !browser}
-			<section
-				class="overflow-hidden rounded-xl bg-gradient-to-br from-primary-800 to-gray-800 p-8 text-white shadow-lg"
-				in:fly={getTransition(3)}
-			>
-				<h2 class="mb-6 text-center text-3xl font-bold md:mb-8 md:text-4xl">
-					Why the Enneagram Works
-				</h2>
-				<div class="mx-auto max-w-3xl pb-6 text-center">
-					<p class="mb-4 text-lg text-white/90 md:text-xl">
-						Your brain defaults to one lens—miss 8 others. The Enneagram maps core motivations that
-						drive how people filter reality.
+					<p class="hero-desc">
+						Decode social dynamics. Personality-max your EQ. Turn conflict into understanding.
 					</p>
-
-					<p class="mb-8 text-lg font-extrabold tracking-wide md:text-xl">
-						Digesting new angles burns mental glucose—but that's where the IQ gains live. 💪
-					</p>
-					<EnneagramDiagram />
 				</div>
-			</section>
-		{/if}
-	</div>
 
-	<!-- Benefits Section -->
-	<div class="section-observer">
-		{#if sectionsVisible[3] || !browser}
-			<section class="py-12 md:py-16" in:fly={getTransition(4)}>
-				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">How It Works</h2>
-				<div class="grid gap-6 md:grid-cols-2 md:gap-8">
-					{#each benefits as { title, description }}
-						<div
-							class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary-200 hover:shadow-md"
-						>
-							<h3 class="mb-3 text-lg font-semibold text-primary-800 md:mb-4 md:text-xl">
-								{title}
-							</h3>
-							<p class="text-gray-600">{@html description}</p>
+				<!-- Daily Quest Card -->
+				<a href={`/questions/${data.questionOfTheDay?.url}`} class="quest-card">
+					<div class="quest-header">
+						<div class="quest-badge">
+							<span class="quest-icon">!</span>
+							<span class="quest-label">TODAY'S QUESTION</span>
 						</div>
-					{/each}
-				</div>
+						<div class="quest-responses">
+							<span class="response-count">{data.questionOfTheDay?.comment_count || 0}</span>
+							<span class="response-label">responses</span>
+						</div>
+					</div>
 
-				<!-- Coaching CTA -->
-				<div class="mt-10 text-center">
-					<a
-						href="/book-session"
-						class="inline-flex items-center rounded-lg bg-primary-700 px-6 py-3 font-semibold text-white shadow-lg transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
-					>
-						Level‑Up 1‑on‑1
-						<svg
-							class="ml-3 h-5 w-5"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg"
-							><path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M9 5l7 7-7 7"
-							/></svg
-						>
-					</a>
-				</div>
-			</section>
-		{/if}
-	</div>
-
-	<!-- Final CTA Section -->
-	{#if !data?.user}
-		<div class="section-observer">
-			{#if sectionsVisible[4] || !browser}
-				<section
-					class="mb-16 rounded-xl border border-gray-200 bg-gradient-to-r from-primary-100 to-white p-8 text-center shadow-md md:mb-24"
-					in:fly={getTransition(5)}
-				>
-					<h2 class="mb-4 text-3xl font-bold text-primary-800 md:mb-6 md:text-4xl">
-						Ready to explore into 9takes?
+					<h2 class="quest-title">
+						{data.questionOfTheDay ? data.questionOfTheDay.question_formatted : 'Loading...'}
 					</h2>
-					<p class="mb-6 text-lg font-semibold text-gray-700 md:mb-8 md:text-xl">
-						Start stress‑testing your takes. Do the work of growing your perspective.
-					</p>
-					<div class="mx-auto flex flex-col justify-center gap-4 sm:flex-row">
+
+					<div class="quest-cta">
+						<span class="cta-text">Give Your Take</span>
+						<span class="cta-arrow">→</span>
+					</div>
+				</a>
+
+				<!-- Secondary actions -->
+				<div class="hero-actions">
+					<a href="/questions" class="btn-system">Browse All Questions</a>
+				</div>
+
+				<p class="hero-note">Free to join. No personality test required.</p>
+			</section>
+		{:else}
+			<div class="hero-placeholder"></div>
+		{/if}
+
+		<!-- ========== UNIFIED 9 TYPES SECTION ========== -->
+		<div class="section-observer">
+			{#if sectionsVisible[0] || !browser}
+				<section class="section types-section" in:fly={getTransition()}>
+					<header class="section-header">
+						<div class="section-badge accent">
+							<span class="badge-dot"></span>
+							<span>THE 9 PERSPECTIVES</span>
+						</div>
+						<h2 class="section-title">Master the 9 Types</h2>
+						<p class="section-desc">
+							Each personality type sees different details. Learn their patterns, decode people
+							faster.
+						</p>
+					</header>
+
+					<div class="types-grid">
+						{#each data.typeRepresentatives as person, i}
+							{@const typeNum = person.type}
+							{@const typeInfo = shadowTypes[typeNum]}
+							<a
+								href={person.hasLink
+									? `/personality-analysis/${person.name}`
+									: `/enneagram-corner/enneagram-type-${typeNum}`}
+								class="type-card"
+								style="--type-color: {typeInfo.color}"
+							>
+								<div class="card-bg"></div>
+								<div class="card-content">
+									<div class="type-number">{typeNum}</div>
+
+									<div class="avatar-wrap">
+										{#if person.hasImage}
+											<img
+												src={`/types/${typeNum}s/s-${person.name}.webp`}
+												alt={person.name.split('-').join(' ')}
+												class="avatar"
+												loading={i < 3 ? 'eager' : 'lazy'}
+											/>
+										{:else}
+											<div class="avatar-placeholder">
+												<span>{typeNum}</span>
+											</div>
+										{/if}
+									</div>
+
+									<div class="type-info">
+										<span class="type-title">{typeInfo.title}</span>
+										<span class="type-name">{typeInfo.name}</span>
+									</div>
+
+									<div class="type-meta">
+										<span class="meta-label">Core:</span>
+										<span class="meta-value">{typeInfo.coreEmotion}</span>
+									</div>
+								</div>
+							</a>
+						{/each}
+					</div>
+
+					<div class="section-ctas">
 						<a
-							href="/questions"
-							class="btn-primary rounded-lg bg-primary-700 px-8 py-4 text-center text-lg font-bold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-md"
-							>Explore and give your takes</a
+							href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
+							class="btn-system"
 						>
-						<a
-							href="/register"
-							class="rounded-lg border border-primary-300 bg-white px-8 py-4 text-center text-lg font-bold text-primary-700 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-400 hover:bg-primary-50 hover:shadow-md"
-							>Sign up to ask a question</a
-						>
+							Find Your Type →
+						</a>
+						<a href="/personality-analysis" class="btn-shadow">
+							<span>Explore All Famous Types</span>
+						</a>
 					</div>
 				</section>
 			{/if}
 		</div>
-	{/if}
+
+		<!-- ========== HOW IT WORKS ========== -->
+		<div class="section-observer">
+			{#if sectionsVisible[1] || !browser}
+				<section class="section how-section" in:fly={getTransition()}>
+					<header class="section-header">
+						<div class="section-badge">
+							<span class="badge-dot"></span>
+							<span>HOW IT WORKS</span>
+						</div>
+						<h2 class="section-title">Level Up Your EQ</h2>
+						<p class="section-desc">
+							Perspective-taking is the mental gym. Each new viewpoint is a rep.
+						</p>
+					</header>
+
+					<div class="benefits-grid">
+						{#each benefits as benefit, i}
+							<div class="benefit-card">
+								<div class="benefit-header">
+									<div class="benefit-icon">{benefit.icon}</div>
+									<div class="benefit-stat">
+										<span class="stat-label">{benefit.stat}</span>
+										<span class="stat-boost">{benefit.boost}</span>
+									</div>
+								</div>
+								<h3 class="benefit-title">{benefit.title}</h3>
+								<p class="benefit-desc">{benefit.description}</p>
+							</div>
+						{/each}
+					</div>
+				</section>
+			{/if}
+		</div>
+
+		<!-- ========== WHY ENNEAGRAM ========== -->
+		<div class="section-observer">
+			{#if sectionsVisible[2] || !browser}
+				<section class="feature-section" in:fly={getTransition()}>
+					<div class="feature-inner">
+						<h2 class="feature-title">
+							Why the <span class="text-glow">Enneagram</span>?
+						</h2>
+
+						<p class="feature-text">
+							Your brain defaults to <span class="text-system">one lens</span>, missing 8 others.
+							The Enneagram maps the core motivations that drive how people filter reality.
+						</p>
+
+						<!-- Interactive Enneagram Diagram -->
+						<div class="diagram-showcase">
+							<EnneagramDiagram size="lg" showLabels={true} interactive={true} />
+						</div>
+
+						<div class="feature-points">
+							<div class="point">
+								<span class="point-icon">▸</span>
+								<span>Not behavior. <strong>Motivation.</strong></span>
+							</div>
+							<div class="point">
+								<span class="point-icon">▸</span>
+								<span>Not stereotypes. <strong>Patterns.</strong></span>
+							</div>
+							<div class="point">
+								<span class="point-icon">▸</span>
+								<span>Not labels. <strong>Lenses.</strong></span>
+							</div>
+						</div>
+					</div>
+				</section>
+			{/if}
+		</div>
+
+		<!-- ========== COACHING SECTION ========== -->
+		<div class="section-observer">
+			{#if sectionsVisible[3] || !browser}
+				<section class="section" in:fly={getTransition()}>
+					<div class="coaching-card">
+						<div class="coaching-glow"></div>
+						<div class="coaching-content">
+							<div class="coaching-badge">
+								<span class="badge-icon">★</span>
+								<span>1-ON-1 SESSIONS</span>
+							</div>
+
+							<h2 class="coaching-title">Ready to Go Deeper?</h2>
+
+							<p class="coaching-desc">
+								Apply Enneagram insights directly to your situation. Personalized coaching for
+								relationships, career decisions, or personal growth.
+							</p>
+
+							<ul class="coaching-features">
+								<li>
+									<span class="feature-check">✓</span>
+									<span>Identify your type with precision</span>
+								</li>
+								<li>
+									<span class="feature-check">✓</span>
+									<span>Map your triggers and growth edges</span>
+								</li>
+								<li>
+									<span class="feature-check">✓</span>
+									<span>Decode specific relationships or conflicts</span>
+								</li>
+							</ul>
+
+							<a href="/book-session" class="btn-shadow lg">
+								<span>Book a Session</span>
+							</a>
+
+							<p class="coaching-note">Join the waitlist for personalized Enneagram coaching</p>
+						</div>
+					</div>
+				</section>
+			{/if}
+		</div>
+
+		<!-- ========== FINAL CTA ========== -->
+		{#if !data?.user}
+			<div class="section-observer">
+				{#if sectionsVisible[4] || !browser}
+					<section class="final-section" in:fly={getTransition()}>
+						<div class="final-glow"></div>
+						<div class="final-inner">
+							<div class="final-badge">
+								<span class="badge-pulse"></span>
+								<span>START HERE</span>
+							</div>
+
+							<h2 class="final-title">
+								Begin Your <span class="text-glow">Journey</span>
+							</h2>
+
+							<p class="final-desc">Give your take. See 9 perspectives. Build understanding.</p>
+
+							<div class="final-actions">
+								<a href="/questions" class="btn-shadow lg">
+									<span>Answer Today's Question</span>
+								</a>
+								<a href="/register" class="btn-system">Create Free Account</a>
+							</div>
+						</div>
+					</section>
+				{/if}
+			</div>
+		{/if}
+	</main>
 </div>
 
 <style>
-	@keyframes shimmer {
+	/* ==========================================
+	   CSS VARIABLES
+	   ========================================== */
+	.sl-page {
+		/* Void */
+		--void-abyss: #05050a;
+		--void-shadow: #0a0a12;
+		--void-umbra: #12121c;
+		--void-penumbra: #1a1a28;
+
+		/* Text */
+		--text-pale: #e8e8f0;
+		--text-mist: #9898a8;
+		--text-faded: #585868;
+
+		/* Shadow Power */
+		--shadow-monarch: #7c3aed;
+		--shadow-flame: #a855f7;
+		--shadow-deep: #5b21b6;
+		--shadow-ethereal: #c084fc;
+
+		/* System */
+		--system-interface: #3b82f6;
+		--system-hologram: #60a5fa;
+		--system-stream: #93c5fd;
+		--system-deep: #1d4ed8;
+
+		/* Status */
+		--status-gold: #f59e0b;
+		--status-gold-bright: #fbbf24;
+		--status-success: #14b8a6;
+
+		/* Fonts */
+		--font-display: 'Rajdhani', sans-serif;
+		--font-body: 'Space Grotesk', sans-serif;
+		--font-mono: 'JetBrains Mono', monospace;
+
+		/* Transitions */
+		--ease-out: cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	/* ==========================================
+	   BASE LAYOUT
+	   ========================================== */
+	.sl-page {
+		position: relative;
+		min-height: 100vh;
+		background: var(--void-abyss);
+		color: var(--text-pale);
+		font-family: var(--font-body);
+		overflow-x: hidden;
+	}
+
+	.content {
+		position: relative;
+		z-index: 10;
+		max-width: 1100px;
+		margin: 0 auto;
+		padding: 0 1rem;
+	}
+
+	/* ==========================================
+	   BACKGROUNDS
+	   ========================================== */
+	.bg-void {
+		position: fixed;
+		inset: 0;
+		background: var(--void-abyss);
+		z-index: 0;
+	}
+
+	.bg-ambient {
+		position: fixed;
+		inset: 0;
+		background:
+			radial-gradient(ellipse at 25% 0%, rgba(124, 58, 237, 0.1) 0%, transparent 50%),
+			radial-gradient(ellipse at 75% 100%, rgba(59, 130, 246, 0.08) 0%, transparent 50%);
+		z-index: 1;
+		pointer-events: none;
+	}
+
+	.bg-grid {
+		position: fixed;
+		inset: 0;
+		background-image:
+			linear-gradient(rgba(124, 58, 237, 0.02) 1px, transparent 1px),
+			linear-gradient(90deg, rgba(124, 58, 237, 0.02) 1px, transparent 1px);
+		background-size: 60px 60px;
+		z-index: 2;
+		pointer-events: none;
+	}
+
+	/* Particles */
+	.particles {
+		position: fixed;
+		inset: 0;
+		z-index: 3;
+		pointer-events: none;
+		overflow: hidden;
+	}
+
+	.particle {
+		position: absolute;
+		width: var(--size);
+		height: var(--size);
+		background: var(--shadow-ethereal);
+		border-radius: 50%;
+		left: var(--x);
+		bottom: -20px;
+		opacity: 0;
+		animation: particle-rise var(--duration) linear infinite;
+		animation-delay: var(--delay);
+	}
+
+	@keyframes particle-rise {
 		0% {
-			background-position: 200% 0;
+			transform: translateY(0);
+			opacity: 0;
+		}
+		5% {
+			opacity: 0.4;
+		}
+		95% {
+			opacity: 0.4;
 		}
 		100% {
-			background-position: -200% 0;
+			transform: translateY(-105vh);
+			opacity: 0;
 		}
 	}
-	.animate-shimmer {
-		animation: shimmer 1.5s infinite;
+
+	/* ==========================================
+	   TEXT UTILITIES
+	   ========================================== */
+	.text-glow {
+		color: var(--shadow-flame);
+		text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
 	}
-	@media (prefers-reduced-motion: reduce) {
-		[in\:fly] {
-			transition: none !important;
-			transform: none !important;
+
+	.text-system {
+		color: var(--system-hologram);
+		text-shadow: 0 0 15px rgba(96, 165, 250, 0.5);
+	}
+
+	/* ==========================================
+	   HERO SECTION
+	   ========================================== */
+	.hero {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 5rem 0 3rem;
+		text-align: center;
+	}
+
+	.hero-placeholder {
+		height: 100vh;
+	}
+
+	.hero-inner {
+		max-width: 700px;
+		margin-bottom: 2rem;
+	}
+
+	.tagline-badge {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		padding: 0.5rem 1rem;
+		background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
+		border: 1px solid rgba(124, 58, 237, 0.2);
+		border-radius: 6px;
+		margin-bottom: 1.5rem;
+		overflow: hidden;
+	}
+
+	.badge-glow {
+		position: absolute;
+		inset: 0;
+		background: radial-gradient(circle at 50% 50%, rgba(124, 58, 237, 0.2) 0%, transparent 70%);
+		animation: badge-pulse 3s ease-in-out infinite;
+	}
+
+	@keyframes badge-pulse {
+		0%,
+		100% {
+			opacity: 0.5;
 		}
-		* {
-			transition-duration: 0.001ms !important;
-			animation-duration: 0.001ms !important;
+		50% {
+			opacity: 1;
 		}
 	}
-	/* Responsive visibility helpers */
-	.desktop-only {
-		display: none !important;
+
+	.badge-text {
+		position: relative;
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: var(--shadow-ethereal);
+		letter-spacing: 0.05em;
 	}
-	.mobile-only {
-		display: flex !important;
+
+	.hero-title {
+		font-family: var(--font-display);
+		font-size: clamp(2.5rem, 8vw, 4.5rem);
+		font-weight: 700;
+		line-height: 1.1;
+		margin-bottom: 1rem;
 	}
+
+	.title-line {
+		display: block;
+		color: var(--text-pale);
+	}
+
+	.title-glow {
+		display: block;
+		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--system-interface) 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		filter: drop-shadow(0 0 30px rgba(124, 58, 237, 0.4));
+	}
+
+	.hero-desc {
+		font-size: clamp(1rem, 2vw, 1.125rem);
+		color: var(--text-mist);
+		max-width: 500px;
+		margin: 0 auto;
+		line-height: 1.6;
+	}
+
+	/* Quest Card */
+	.quest-card {
+		display: block;
+		width: 100%;
+		max-width: 600px;
+		padding: 1.5rem;
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(124, 58, 237, 0.2);
+		border-radius: 16px;
+		margin-bottom: 1.5rem;
+		text-decoration: none;
+		box-shadow:
+			0 0 40px rgba(124, 58, 237, 0.1),
+			inset 0 1px 0 rgba(124, 58, 237, 0.1);
+		transition: all 300ms var(--ease-out);
+	}
+
+	.quest-card:hover {
+		border-color: rgba(124, 58, 237, 0.4);
+		box-shadow:
+			0 0 60px rgba(124, 58, 237, 0.2),
+			inset 0 1px 0 rgba(124, 58, 237, 0.15);
+		transform: translateY(-4px);
+	}
+
+	.quest-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
+
+	.quest-badge {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.quest-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.5rem;
+		height: 1.5rem;
+		background: var(--shadow-deep);
+		color: var(--shadow-flame);
+		border-radius: 4px;
+		font-weight: 700;
+		font-size: 0.9rem;
+	}
+
+	.quest-label {
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 600;
+		color: var(--shadow-flame);
+		letter-spacing: 0.08em;
+	}
+
+	.quest-responses {
+		display: flex;
+		align-items: baseline;
+		gap: 0.3rem;
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		color: var(--text-mist);
+	}
+
+	.response-count {
+		color: var(--system-hologram);
+		font-weight: 600;
+	}
+
+	.quest-title {
+		font-family: var(--font-display);
+		font-size: clamp(1.125rem, 3vw, 1.5rem);
+		font-weight: 600;
+		color: var(--text-pale);
+		line-height: 1.35;
+		margin-bottom: 1rem;
+		text-align: left;
+	}
+
+	.quest-cta {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		padding: 0.75rem;
+		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--shadow-monarch) 100%);
+		border-radius: 8px;
+		font-family: var(--font-display);
+		font-size: 0.95rem;
+		font-weight: 600;
+		color: white;
+	}
+
+	.cta-arrow {
+		transition: transform 200ms ease;
+	}
+
+	.quest-card:hover .cta-arrow {
+		transform: translateX(4px);
+	}
+
+	/* Hero Actions */
+	.hero-actions {
+		margin-bottom: 1rem;
+	}
+
+	.hero-note {
+		font-size: 0.85rem;
+		color: var(--text-faded);
+	}
+
+	/* ==========================================
+	   BUTTONS
+	   ========================================== */
+	.btn-shadow {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.875rem 1.75rem;
+		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--shadow-monarch) 100%);
+		border: none;
+		border-radius: 8px;
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 600;
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+		overflow: hidden;
+		box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+		transition: all 250ms var(--ease-out);
+	}
+
+	.btn-shadow:hover {
+		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-flame) 100%);
+		box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
+		transform: translateY(-2px);
+	}
+
+	.btn-shadow.lg {
+		padding: 1rem 2rem;
+		font-size: 1.05rem;
+	}
+
+	.btn-shadow::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+		transition: left 400ms ease;
+	}
+
+	.btn-shadow:hover::after {
+		left: 100%;
+	}
+
+	.btn-system {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.875rem 1.75rem;
+		background: transparent;
+		border: 1px solid rgba(59, 130, 246, 0.35);
+		border-radius: 8px;
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--system-hologram);
+		text-decoration: none;
+		cursor: pointer;
+		transition: all 250ms var(--ease-out);
+	}
+
+	.btn-system:hover {
+		background: rgba(59, 130, 246, 0.08);
+		border-color: var(--system-hologram);
+		box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+	}
+
+	/* ==========================================
+	   SECTIONS
+	   ========================================== */
+	.section {
+		padding: 4rem 0;
+	}
+
+	.section-header {
+		text-align: center;
+		margin-bottom: 2.5rem;
+	}
+
+	.section-badge {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.35rem 0.75rem;
+		background: rgba(59, 130, 246, 0.08);
+		border: 1px solid rgba(59, 130, 246, 0.15);
+		border-radius: 4px;
+		margin-bottom: 1rem;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		letter-spacing: 0.1em;
+		color: var(--system-hologram);
+	}
+
+	.section-badge.accent {
+		background: rgba(124, 58, 237, 0.08);
+		border-color: rgba(124, 58, 237, 0.15);
+		color: var(--shadow-flame);
+	}
+
+	.section-badge.accent .badge-dot {
+		background: var(--shadow-flame);
+		box-shadow: 0 0 8px var(--shadow-monarch);
+	}
+
+	.badge-dot {
+		width: 5px;
+		height: 5px;
+		background: var(--system-hologram);
+		border-radius: 50%;
+		box-shadow: 0 0 8px var(--system-interface);
+	}
+
+	.section-title {
+		font-family: var(--font-display);
+		font-size: clamp(1.75rem, 4vw, 2.5rem);
+		font-weight: 700;
+		color: var(--text-pale);
+		margin-bottom: 0.5rem;
+	}
+
+	.section-desc {
+		font-size: 1rem;
+		color: var(--text-mist);
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+	/* ==========================================
+	   UNIFIED TYPES SECTION
+	   ========================================== */
+	.types-section {
+		background: linear-gradient(
+			180deg,
+			var(--void-umbra) 0%,
+			var(--void-shadow) 50%,
+			var(--void-umbra) 100%
+		);
+		border-radius: 24px;
+		margin: 1rem 0;
+		padding: 3rem 1rem;
+	}
+
+	@media (min-width: 640px) {
+		.types-section {
+			padding: 4rem 2rem;
+		}
+	}
+
+	/* Diagram Showcase */
+	.diagram-showcase {
+		margin: 2rem auto;
+		overflow: visible;
+	}
+
 	@media (min-width: 768px) {
-		.desktop-only {
-			display: block !important;
+		.diagram-showcase {
+			margin: 2.5rem auto;
 		}
-		.desktop-only-flex {
-			display: flex !important;
+	}
+
+	/* Section CTAs - Multiple buttons */
+	.section-ctas {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		justify-content: center;
+		align-items: center;
+		margin-top: 2.5rem;
+	}
+
+	@media (min-width: 480px) {
+		.section-ctas {
+			flex-direction: row;
+			gap: 1.25rem;
 		}
-		.mobile-only {
-			display: none !important;
+	}
+
+	/* ==========================================
+	   9 TYPES GRID
+	   ========================================== */
+	.types-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 0.75rem;
+	}
+
+	@media (min-width: 640px) {
+		.types-grid {
+			gap: 1rem;
+		}
+	}
+
+	.type-card {
+		--type-color: var(--shadow-monarch);
+		position: relative;
+		display: block;
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid color-mix(in srgb, var(--type-color) 15%, transparent);
+		border-radius: 12px;
+		padding: 1rem;
+		text-decoration: none;
+		overflow: hidden;
+		transition: all 250ms var(--ease-out);
+	}
+
+	.type-card:hover {
+		border-color: color-mix(in srgb, var(--type-color) 40%, transparent);
+		box-shadow: 0 0 30px color-mix(in srgb, var(--type-color) 20%, transparent);
+		transform: translateY(-4px);
+	}
+
+	.card-bg {
+		position: absolute;
+		inset: 0;
+		background: radial-gradient(
+			circle at 50% 0%,
+			color-mix(in srgb, var(--type-color) 10%, transparent) 0%,
+			transparent 60%
+		);
+		opacity: 0;
+		transition: opacity 250ms ease;
+	}
+
+	.type-card:hover .card-bg {
+		opacity: 1;
+	}
+
+	.card-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.type-number {
+		position: absolute;
+		top: -0.5rem;
+		left: -0.5rem;
+		width: 1.5rem;
+		height: 1.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: color-mix(in srgb, var(--type-color) 15%, var(--void-abyss));
+		border: 1px solid color-mix(in srgb, var(--type-color) 40%, transparent);
+		border-radius: 4px;
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: var(--type-color);
+	}
+
+	.avatar-wrap {
+		margin: 0.5rem 0;
+	}
+
+	.avatar {
+		width: 4rem;
+		height: 4rem;
+		object-fit: cover;
+		border-radius: 50%;
+		border: 2px solid var(--type-color);
+		box-shadow: 0 0 15px color-mix(in srgb, var(--type-color) 35%, transparent);
+	}
+
+	@media (min-width: 640px) {
+		.avatar {
+			width: 5rem;
+			height: 5rem;
+		}
+	}
+
+	.avatar-placeholder {
+		width: 4rem;
+		height: 4rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: var(--void-penumbra);
+		border-radius: 50%;
+		border: 2px solid var(--type-color);
+		font-family: var(--font-display);
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: var(--type-color);
+	}
+
+	@media (min-width: 640px) {
+		.avatar-placeholder {
+			width: 5rem;
+			height: 5rem;
+		}
+	}
+
+	.type-info {
+		margin-top: 0.5rem;
+	}
+
+	.type-title {
+		display: none;
+		font-family: var(--font-mono);
+		font-size: 0.6rem;
+		font-weight: 600;
+		color: var(--type-color);
+		letter-spacing: 0.04em;
+		margin-bottom: 0.15rem;
+	}
+
+	@media (min-width: 640px) {
+		.type-title {
+			display: block;
+		}
+	}
+
+	.type-name {
+		font-size: 0.75rem;
+		color: var(--text-pale);
+	}
+
+	@media (min-width: 640px) {
+		.type-name {
+			font-size: 0.85rem;
+		}
+	}
+
+	.type-meta {
+		display: none;
+		margin-top: 0.5rem;
+		font-family: var(--font-mono);
+		font-size: 0.6rem;
+	}
+
+	@media (min-width: 640px) {
+		.type-meta {
+			display: block;
+		}
+	}
+
+	.meta-label {
+		color: var(--text-faded);
+	}
+
+	.meta-value {
+		color: var(--type-color);
+		font-weight: 600;
+	}
+
+	/* ==========================================
+	   BENEFITS GRID
+	   ========================================== */
+	.how-section {
+		background: linear-gradient(180deg, var(--void-umbra) 0%, var(--void-abyss) 100%);
+		border-radius: 20px;
+		margin: 1rem 0;
+	}
+
+	.benefits-grid {
+		display: grid;
+		gap: 1rem;
+	}
+
+	@media (min-width: 640px) {
+		.benefits-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 1.25rem;
+		}
+	}
+
+	.benefit-card {
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(59, 130, 246, 0.1);
+		border-radius: 12px;
+		padding: 1.25rem;
+		transition: all 250ms var(--ease-out);
+	}
+
+	.benefit-card:hover {
+		border-color: rgba(59, 130, 246, 0.3);
+		box-shadow: 0 0 25px rgba(59, 130, 246, 0.1);
+	}
+
+	.benefit-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0.75rem;
+	}
+
+	.benefit-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2rem;
+		height: 2rem;
+		background: var(--system-deep);
+		border-radius: 6px;
+		font-family: var(--font-mono);
+		font-size: 1rem;
+		font-weight: 700;
+		color: var(--system-hologram);
+	}
+
+	.benefit-stat {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.stat-label {
+		padding: 0.2rem 0.4rem;
+		background: var(--void-penumbra);
+		border-radius: 3px;
+		font-family: var(--font-mono);
+		font-size: 0.6rem;
+		font-weight: 700;
+		color: var(--system-hologram);
+	}
+
+	.stat-boost {
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: var(--shadow-flame);
+	}
+
+	.benefit-title {
+		font-family: var(--font-display);
+		font-size: 1.05rem;
+		font-weight: 600;
+		color: var(--text-pale);
+		margin-bottom: 0.4rem;
+	}
+
+	.benefit-desc {
+		font-size: 0.85rem;
+		color: var(--text-mist);
+		line-height: 1.5;
+	}
+
+	/* ==========================================
+	   FEATURE SECTION (Why Enneagram)
+	   ========================================== */
+	.feature-section {
+		margin: 2rem 0;
+		border-radius: 20px;
+		background: linear-gradient(
+			135deg,
+			rgba(124, 58, 237, 0.08) 0%,
+			rgba(59, 130, 246, 0.08) 50%,
+			var(--void-umbra) 100%
+		);
+		border: 1px solid rgba(124, 58, 237, 0.15);
+		overflow: visible;
+	}
+
+	.feature-inner {
+		padding: 3rem 1.5rem;
+		text-align: center;
+		overflow: visible;
+	}
+
+	@media (min-width: 640px) {
+		.feature-inner {
+			padding: 4rem 2rem;
+		}
+	}
+
+	.feature-title {
+		font-family: var(--font-display);
+		font-size: clamp(1.75rem, 4vw, 2.5rem);
+		font-weight: 700;
+		color: var(--text-pale);
+		margin-bottom: 1rem;
+	}
+
+	.feature-text {
+		font-size: 1rem;
+		color: var(--text-mist);
+		max-width: 550px;
+		margin: 0 auto 2rem;
+		line-height: 1.6;
+	}
+
+	.feature-points {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.point {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		font-size: 0.95rem;
+		color: var(--text-mist);
+	}
+
+	.point-icon {
+		color: var(--shadow-flame);
+	}
+
+	.point strong {
+		color: var(--text-pale);
+	}
+
+	/* ==========================================
+	   COACHING SECTION
+	   ========================================== */
+	.coaching-card {
+		position: relative;
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(245, 158, 11, 0.2);
+		border-radius: 20px;
+		overflow: hidden;
+	}
+
+	.coaching-glow {
+		position: absolute;
+		top: -50%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 120%;
+		height: 100%;
+		background: radial-gradient(ellipse at center, rgba(245, 158, 11, 0.1) 0%, transparent 60%);
+		pointer-events: none;
+	}
+
+	.coaching-content {
+		position: relative;
+		padding: 2.5rem 1.5rem;
+		text-align: center;
+	}
+
+	@media (min-width: 640px) {
+		.coaching-content {
+			padding: 3.5rem 2rem;
+		}
+	}
+
+	.coaching-badge {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.35rem 0.75rem;
+		background: rgba(245, 158, 11, 0.1);
+		border: 1px solid rgba(245, 158, 11, 0.2);
+		border-radius: 4px;
+		margin-bottom: 1rem;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		letter-spacing: 0.1em;
+		color: var(--status-gold-bright);
+	}
+
+	.badge-icon {
+		font-size: 0.8rem;
+	}
+
+	.coaching-title {
+		font-family: var(--font-display);
+		font-size: clamp(1.5rem, 4vw, 2rem);
+		font-weight: 700;
+		color: var(--text-pale);
+		margin-bottom: 0.75rem;
+	}
+
+	.coaching-desc {
+		font-size: 1rem;
+		color: var(--text-mist);
+		max-width: 500px;
+		margin: 0 auto 1.5rem;
+		line-height: 1.6;
+	}
+
+	.coaching-features {
+		list-style: none;
+		padding: 0;
+		margin: 0 auto 1.5rem;
+		max-width: 350px;
+		text-align: left;
+	}
+
+	.coaching-features li {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		padding: 0.5rem 0;
+		font-size: 0.9rem;
+		color: var(--text-mist);
+	}
+
+	.feature-check {
+		color: var(--status-gold-bright);
+		font-weight: 700;
+	}
+
+	.coaching-note {
+		margin-top: 1rem;
+		font-size: 0.8rem;
+		color: var(--text-faded);
+	}
+
+	/* ==========================================
+	   FINAL CTA SECTION
+	   ========================================== */
+	.final-section {
+		position: relative;
+		margin: 2rem 0 4rem;
+		border-radius: 20px;
+		background: linear-gradient(
+			135deg,
+			rgba(124, 58, 237, 0.12) 0%,
+			rgba(59, 130, 246, 0.12) 50%,
+			var(--void-umbra) 100%
+		);
+		border: 1px solid rgba(124, 58, 237, 0.25);
+		overflow: hidden;
+	}
+
+	.final-glow {
+		position: absolute;
+		top: -40%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 140%;
+		height: 100%;
+		background: radial-gradient(ellipse at center, rgba(124, 58, 237, 0.15) 0%, transparent 60%);
+		pointer-events: none;
+	}
+
+	.final-inner {
+		position: relative;
+		padding: 3rem 1.5rem;
+		text-align: center;
+	}
+
+	@media (min-width: 640px) {
+		.final-inner {
+			padding: 4rem 2rem;
+		}
+	}
+
+	.final-badge {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.35rem 0.75rem;
+		background: rgba(124, 58, 237, 0.1);
+		border: 1px solid rgba(124, 58, 237, 0.2);
+		border-radius: 4px;
+		margin-bottom: 1rem;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		letter-spacing: 0.1em;
+		color: var(--shadow-flame);
+	}
+
+	.badge-pulse {
+		width: 6px;
+		height: 6px;
+		background: var(--shadow-flame);
+		border-radius: 50%;
+		animation: pulse-dot 1.5s ease-in-out infinite;
+	}
+
+	@keyframes pulse-dot {
+		0%,
+		100% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 0.4;
+		}
+	}
+
+	.final-title {
+		font-family: var(--font-display);
+		font-size: clamp(1.75rem, 4vw, 2.5rem);
+		font-weight: 700;
+		color: var(--text-pale);
+		margin-bottom: 0.5rem;
+	}
+
+	.final-desc {
+		font-size: 1rem;
+		color: var(--text-mist);
+		margin-bottom: 1.5rem;
+	}
+
+	.final-actions {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		justify-content: center;
+		align-items: center;
+	}
+
+	@media (min-width: 480px) {
+		.final-actions {
+			flex-direction: row;
+		}
+	}
+
+	/* ==========================================
+	   REDUCED MOTION
+	   ========================================== */
+	@media (prefers-reduced-motion: reduce) {
+		*,
+		*::before,
+		*::after {
+			animation-duration: 0.001ms !important;
+			transition-duration: 0.001ms !important;
 		}
 	}
 </style>

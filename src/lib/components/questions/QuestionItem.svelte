@@ -13,7 +13,7 @@
 	};
 	export let showDetails = true;
 
-	let commentColor = '#a29bfe'; // Primary light color
+	let commentColor = '#a78bfa'; // Purple-400 for dark theme
 	let hovered = false;
 
 	// Use shared viewport store
@@ -37,11 +37,11 @@
 	// Memoize hover/leave handlers
 	const handleMouseEnter = () => {
 		hovered = true;
-		commentColor = '#6c5ce7'; // Primary color - will be replaced with Tailwind classes
+		commentColor = '#c4b5fd'; // Purple-300 for hover
 	};
 	const handleMouseLeave = () => {
 		hovered = false;
-		commentColor = '#a29bfe'; // Primary light color - will be replaced with Tailwind classes
+		commentColor = '#a78bfa'; // Purple-400 for dark theme
 	};
 </script>
 
@@ -73,7 +73,7 @@
 			class="xs:flex-row xs:items-center xs:gap-2 flex flex-shrink-0 flex-col items-end gap-1 sm:flex-row sm:items-center"
 		>
 			<span
-				class="flex min-w-[2rem] items-center text-xs font-bold text-gray-800 sm:min-w-[2.5rem] sm:text-sm"
+				class="flex min-w-[2rem] items-center text-xs font-bold text-slate-200 sm:min-w-[2.5rem] sm:text-sm"
 			>
 				<span class="min-w-3 text-right sm:min-w-4">{questionData.comment_count || ''}</span>
 				<MasterCommentIcon
@@ -84,7 +84,7 @@
 				/>
 			</span>
 			<span
-				class="xs:min-w-14 xs:px-2 flex min-w-12 justify-center rounded border border-neutral-300 bg-white px-1.5 py-0.5 text-center text-xs sm:min-w-16 sm:text-sm"
+				class="xs:min-w-14 xs:px-2 flex min-w-12 justify-center rounded border border-slate-600 bg-[#12121a] px-1.5 py-0.5 text-center text-xs text-slate-300 sm:min-w-16 sm:text-sm"
 			>
 				{formattedDate}
 			</span>
@@ -93,16 +93,18 @@
 </a>
 
 <style>
-	/* Greek-inspired styles for question cards - converted to use Tailwind theme colors */
+	/* Solo Leveling dark theme styles for question cards */
 	:global(.greek-question-card) {
-		@apply relative overflow-hidden bg-white shadow-sm;
-		border-left: 3px solid theme('colors.primary.400');
+		@apply relative overflow-hidden shadow-sm;
+		background-color: #1a1a2e;
+		border-left: 3px solid #7c3aed;
+		color: #e2e8f0;
 	}
 
 	:global(.greek-question-card:hover) {
-		border-left: 3px solid theme('colors.primary.700');
-		background: linear-gradient(to right, rgba(247, 247, 255, 0.9), rgba(255, 255, 255, 1));
-		@apply shadow-md;
+		border-left: 3px solid #a78bfa;
+		background: linear-gradient(to right, rgba(124, 58, 237, 0.1), rgba(26, 26, 46, 1));
+		box-shadow: 0 0 15px rgba(124, 58, 237, 0.2);
 	}
 
 	.question-content {
@@ -184,10 +186,11 @@
 	}
 
 	:global(.greek-circle) {
-		@apply rounded-full border border-neutral-200 shadow-sm transition-all duration-300;
+		@apply rounded-full shadow-sm transition-all duration-300;
+		border: 1px solid #334155;
 	}
 
 	:global(.greek-question-card:hover .greek-circle) {
-		@apply bg-primary-100 !important;
+		background-color: rgba(124, 58, 237, 0.2) !important;
 	}
 </style>

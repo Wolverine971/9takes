@@ -15,6 +15,7 @@
 	import Footer from '$lib/components/molecules/Footer.svelte';
 	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
 	import CategoryNavigation from '$lib/components/atoms/CategoryNavigation.svelte';
+	import FloatingParticles from '$lib/components/atoms/FloatingParticles.svelte';
 
 	export let data: PageData;
 
@@ -229,9 +230,11 @@
 		name="viewport"
 		content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"
 	/>
-	<meta name="theme-color" content="#ffffff" />
+	<!-- Solo Leveling dark theme color -->
+	<meta name="theme-color" content="#0a0a0f" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="color-scheme" content="dark" />
 
 	{#if !dev}
 		<!-- Use dns-prefetch instead of preconnect for lighter initial load -->
@@ -246,13 +249,12 @@
 	<slot />
 {:else}
 	<div
-		class="flex min-h-screen w-full flex-col"
+		class="solo-leveling-app flex min-h-screen w-full flex-col bg-[#0a0a0f] text-[#f8fafc]"
 		on:touchstart|passive={handleTouchStart}
 		on:touchend|passive={handleTouchEnd}
 	>
-		<div
-			class="sticky top-0 z-40 -translate-y-full translate-y-0 transform transition-transform duration-300 ease-in-out"
-		>
+		<FloatingParticles />
+		<div class="sticky top-0 z-40 transform transition-transform duration-300 ease-in-out">
 			<Header {data} />
 		</div>
 		<Toast />
@@ -266,7 +268,7 @@
 		{/if}
 
 		<main
-			class="relative flex flex-1 flex-col overflow-visible p-2 md:p-4"
+			class="relative z-10 flex flex-1 flex-col overflow-visible p-2 md:p-4"
 			class:max-w-4xl={shouldShowMaxWidth}
 			class:mx-auto={shouldShowMaxWidth}
 			class:w-full={shouldShowMaxWidth}
@@ -280,11 +282,19 @@
 {/if}
 
 <style>
-	/* Global styles that might be difficult to do with just Tailwind */
+	/* Global styles - Solo Leveling Dark Theme */
 	:global(body) {
 		@apply m-0 box-border p-0;
-		-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Remove tap highlight on mobile */
-		touch-action: manipulation; /* Improves touch responsiveness */
+		background-color: #0a0a0f;
+		color: #f8fafc;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		touch-action: manipulation;
+	}
+
+	/* Solo Leveling app wrapper */
+	.solo-leveling-app {
+		min-height: 100vh;
+		background: linear-gradient(180deg, #0a0a0f 0%, #12121a 50%, #0a0a0f 100%);
 	}
 
 	/* Media query adjustments for the main content area */
