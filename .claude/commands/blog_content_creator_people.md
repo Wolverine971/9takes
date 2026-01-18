@@ -237,48 +237,50 @@ tiktok: '[handle if available]'
 ### 4.1 **Persona Title Generation Guidelines:**
 
 **Format Patterns:**
+
 - `"[Domain]'s [Adjective] [Archetype]"` - e.g., "Hollywood's Quiet Force"
 - `"The [Adjective] [Archetype]"` - e.g., "The Principled Steward"
 - `"[Domain]'s [Compound Descriptor]"` - e.g., "Pop's Heartbreak Alchemist"
 
 **Type-Specific Vocabulary (use these to allude to their Enneagram):**
 
-| Type | Core Essence | Adjectives to Use | Archetypes to Use |
-|------|--------------|-------------------|-------------------|
-| **1** | Perfectionist/Reformer | Principled, Uncompromising, Earnest, Moral | Crusader, Perfectionist, Reformer, Visionary, Conscience |
-| **2** | Helper/Giver | Devoted, Approachable, Tender, Nurturing | Helper, Servant, Caretaker, Ambassador, Confessor |
-| **3** | Achiever/Performer | Self-Made, Polished, Relentless, Calculated | Achiever, Architect, Reinventor, Machine, Star |
-| **4** | Individualist/Romantic | Melancholic, Reclusive, Tortured, Haunted | Artist, Poet, Rebel, Enigma, Outsider |
-| **5** | Investigator/Observer | Methodical, Intense, Cold, Silent | Architect, Strategist, Observer, Recluse, Mind |
-| **6** | Loyalist/Skeptic | Loyal, Anxious, Trusted, Skeptical, Steady | Guardian, Watchdog, Skeptic, Patriarch, Anchor |
-| **7** | Enthusiast/Adventurer | Restless, Manic, Boundless, Chaotic | Pioneer, Showman, Adventurer, Spark, Optimist |
-| **8** | Challenger/Protector | Fierce, Unapologetic, Uncompromising, Alpha | Titan, Force, Brawler, Warrior, Disruptor |
-| **9** | Peacemaker/Mediator | Gentle, Quiet, Easygoing, Laid-Back, Steady | Philosopher, Bridge-Builder, Anchor, Giant, Presence |
+| Type  | Core Essence           | Adjectives to Use                           | Archetypes to Use                                        |
+| ----- | ---------------------- | ------------------------------------------- | -------------------------------------------------------- |
+| **1** | Perfectionist/Reformer | Principled, Uncompromising, Earnest, Moral  | Crusader, Perfectionist, Reformer, Visionary, Conscience |
+| **2** | Helper/Giver           | Devoted, Approachable, Tender, Nurturing    | Helper, Servant, Caretaker, Ambassador, Confessor        |
+| **3** | Achiever/Performer     | Self-Made, Polished, Relentless, Calculated | Achiever, Architect, Reinventor, Machine, Star           |
+| **4** | Individualist/Romantic | Melancholic, Reclusive, Tortured, Haunted   | Artist, Poet, Rebel, Enigma, Outsider                    |
+| **5** | Investigator/Observer  | Methodical, Intense, Cold, Silent           | Architect, Strategist, Observer, Recluse, Mind           |
+| **6** | Loyalist/Skeptic       | Loyal, Anxious, Trusted, Skeptical, Steady  | Guardian, Watchdog, Skeptic, Patriarch, Anchor           |
+| **7** | Enthusiast/Adventurer  | Restless, Manic, Boundless, Chaotic         | Pioneer, Showman, Adventurer, Spark, Optimist            |
+| **8** | Challenger/Protector   | Fierce, Unapologetic, Uncompromising, Alpha | Titan, Force, Brawler, Warrior, Disruptor                |
+| **9** | Peacemaker/Mediator    | Gentle, Quiet, Easygoing, Laid-Back, Steady | Philosopher, Bridge-Builder, Anchor, Giant, Presence     |
 
 **Persona Title Examples by Type:**
 
-| Type | Person | Persona Title |
-|------|--------|---------------|
-| 1 | Steve Jobs | Tech's Uncompromising Visionary |
-| 1 | Greta Thunberg | Climate's Unrelenting Crusader |
-| 2 | Mr. Rogers | The Neighborhood Saint |
-| 2 | Oprah Winfrey | America's Confessor |
-| 3 | Taylor Swift | Pop's Heartbreak Alchemist |
-| 3 | Kim Kardashian | Fame's Self-Made Architect |
-| 4 | Billie Eilish | Gen Z's Whispered Rebellion |
-| 4 | Johnny Depp | Hollywood's Beautiful Outsider |
-| 5 | Elon Musk | Tech's Mad Scientist |
-| 5 | Bill Gates | Tech's Methodical Mogul |
-| 6 | Tom Hanks | America's Trusted Dad |
-| 6 | Eminem | Detroit's Anxious Assassin |
-| 7 | Ryan Reynolds | Hollywood's Wit Machine |
-| 7 | Kanye | Genius's Manic Prophet |
-| 8 | Beyoncé | Pop's Untouchable Queen |
-| 8 | Joe Rogan | Podcasting's Alpha Interrogator |
-| 9 | Keanu Reeves | Hollywood's Gentle Warrior |
-| 9 | Barack Obama | America's Bridge-Builder |
+| Type | Person         | Persona Title                   |
+| ---- | -------------- | ------------------------------- |
+| 1    | Steve Jobs     | Tech's Uncompromising Visionary |
+| 1    | Greta Thunberg | Climate's Unrelenting Crusader  |
+| 2    | Mr. Rogers     | The Neighborhood Saint          |
+| 2    | Oprah Winfrey  | America's Confessor             |
+| 3    | Taylor Swift   | Pop's Heartbreak Alchemist      |
+| 3    | Kim Kardashian | Fame's Self-Made Architect      |
+| 4    | Billie Eilish  | Gen Z's Whispered Rebellion     |
+| 4    | Johnny Depp    | Hollywood's Beautiful Outsider  |
+| 5    | Elon Musk      | Tech's Mad Scientist            |
+| 5    | Bill Gates     | Tech's Methodical Mogul         |
+| 6    | Tom Hanks      | America's Trusted Dad           |
+| 6    | Eminem         | Detroit's Anxious Assassin      |
+| 7    | Ryan Reynolds  | Hollywood's Wit Machine         |
+| 7    | Kanye          | Genius's Manic Prophet          |
+| 8    | Beyoncé        | Pop's Untouchable Queen         |
+| 8    | Joe Rogan      | Podcasting's Alpha Interrogator |
+| 9    | Keanu Reeves   | Hollywood's Gentle Warrior      |
+| 9    | Barack Obama   | America's Bridge-Builder        |
 
 **Key Rules for Persona Titles:**
+
 1. **Never explicitly mention Enneagram** - The type should be subtly implied through vocabulary
 2. **Keep it short** - 2-5 words maximum
 3. **Domain first** - Start with their field (Hollywood, Tech, Pop, Comedy, Politics, etc.)

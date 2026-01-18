@@ -190,7 +190,7 @@ Sorted by total connections (incoming + outgoing).
 | 7 | 2 | 5 | Astrology and Enneagram: Two Maps of the Same Territory | `enneagram/astrology-and-the-enneagram.md` |
 | 7 | 1 | 6 | Enneagram Compatibility: Why Charts Lie and What Actually Pr... | `enneagram/enneagram-compatibility-guide.md` |
 | 7 | 1 | 6 | Enneagram Dating Guide for Women: Decode Your Perfect Match ... | `enneagram/enneagram-dating-guide-for-women.md` |
-| 7 | 1 | 6 | Enneagram Team Diversity: Unlocking Your Team | `enneagram/enneagram-team-diversity.md` |
+| 7 | 1 | 6 | Why Your Team Keeps Having the Same Ideas (And How the Ennea... | `enneagram/enneagram-team-diversity.md` |
 | 7 | 0 | 7 | Enneagram Type 1: The Perfectionist - Inside the Inner Court... | `enneagram/enneagram-type-1.md` |
 | 7 | 0 | 7 | Enneagram Type 2: The Helper - The Hidden Cost of Giving | `enneagram/enneagram-type-2.md` |
 | 7 | 0 | 7 | Enneagram Type 3: The Achiever - When Success Becomes Identi... | `enneagram/enneagram-type-3.md` |
