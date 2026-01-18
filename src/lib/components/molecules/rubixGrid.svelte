@@ -207,10 +207,6 @@
 		width: 100%;
 	}
 
-	a::after {
-		display: none;
-	}
-
 	.pop-card:hover {
 		img {
 			filter: none !important;

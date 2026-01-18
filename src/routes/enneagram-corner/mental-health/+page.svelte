@@ -309,10 +309,6 @@
 <style lang="scss">
 	.page-wrapper {
 		min-height: 100vh;
-
-		a::after {
-			display: none !important;
-		}
 	}
 
 	/* Hero Section */

@@ -66,21 +66,9 @@
 		border-radius: 16px;
 		overflow: hidden;
 		box-shadow:
-			0 8px 30px -10px rgba(91, 76, 219, 0.18),
-			0 2px 4px -2px rgba(0, 0, 0, 0.04);
-		border: 1px solid rgba(91, 76, 219, 0.1);
-
-		a::after {
-			content: none !important;
-			display: none !important;
-		}
-
-		:global(.dark) & {
-			box-shadow:
-				0 8px 30px -10px rgba(0, 0, 0, 0.35),
-				0 2px 4px -2px rgba(0, 0, 0, 0.15);
-			border-color: rgba(255, 255, 255, 0.08);
-		}
+			0 8px 30px -10px rgba(0, 0, 0, 0.4),
+			0 2px 4px -2px rgba(0, 0, 0, 0.2);
+		border: 1px solid rgba(124, 58, 237, 0.2);
 	}
 
 	.cta-section {
@@ -217,19 +205,15 @@
 	}
 
 	.explorer-section {
-		background: var(--card-background, #fafafa);
+		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
 		padding: 1.25rem 1rem 1rem;
 
 		@media (min-width: 768px) {
 			padding: 1.5rem 2rem 1.5rem;
 		}
 
-		:global(.dark) & {
-			background: var(--card-background, #1a1a2e);
-		}
-
 		h3 {
-			color: var(--text-primary, #1a1a1a);
+			color: #f1f5f9;
 			font-size: 1rem;
 			font-weight: 600;
 			text-align: center;
@@ -237,10 +221,6 @@
 
 			@media (min-width: 768px) {
 				font-size: 1.125rem;
-			}
-
-			:global(.dark) & {
-				color: var(--text-primary, #f0f0f0);
 			}
 		}
 	}

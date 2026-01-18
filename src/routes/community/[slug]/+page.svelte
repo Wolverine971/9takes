@@ -34,4 +34,16 @@
 </div>
 
 <style lang="scss">
+	/* Solo Leveling Dark Theme - Community Article */
+	:global(.blog) {
+		color: #cbd5e1;
+	}
+
+	.join {
+		margin-top: 2rem;
+		padding: 2rem;
+		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
+		border-radius: 1rem;
+		border: 1px solid rgba(124, 58, 237, 0.2);
+	}
 </style>

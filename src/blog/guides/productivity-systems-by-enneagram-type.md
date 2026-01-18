@@ -467,6 +467,7 @@ Your productivity follows emotional cycles. When inspired, you're unstoppable. W
 
 ```
 Morning - Check emotional weather
+
 High Energy Days:
 - Creative deep work
 - Challenging projects

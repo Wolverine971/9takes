@@ -142,9 +142,6 @@
 	p {
 		font-size: 1rem;
 	}
-	a::after {
-		display: none !important;
-	}
 
 	.temp-three-row {
 		display: grid;

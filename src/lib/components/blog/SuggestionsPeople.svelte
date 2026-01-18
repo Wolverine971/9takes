@@ -141,10 +141,6 @@
 {/if}
 
 <style lang="scss">
-	a::after {
-		content: none;
-	}
-
 	.suggestions-container {
 		margin: 3rem 0 5rem;
 		padding: 0 1rem;

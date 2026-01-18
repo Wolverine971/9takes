@@ -1,6 +1,6 @@
 <!-- src/lib/components/blog/callouts/TypeQuotes.svelte -->
 <!--
-  Displays characteristic quotes/statements from Enneagram types
+  Solo Leveling Dark Theme - Displays characteristic quotes/statements from Enneagram types
   Perfect for showing how different types express themselves
 
   Usage:
@@ -38,17 +38,22 @@
 	 */
 	export let variant: 'default' | 'subtle' | 'minimal' = 'default';
 
-	// Enneagram type colors - distinct colors for each type
+	/**
+	 * Optional children content (used when dynamically mounted from Supabase content)
+	 */
+	export let children: string | ((...args: unknown[]) => unknown) = '';
+
+	// Solo Leveling dark theme - Enneagram type colors adjusted for dark backgrounds
 	const typeColors: Record<number, { bg: string; text: string; border: string }> = {
-		1: { bg: '#E3F2FD', text: '#1565C0', border: '#42A5F5' }, // Blue - Perfectionist
-		2: { bg: '#FCE4EC', text: '#C2185B', border: '#F06292' }, // Pink - Helper
-		3: { bg: '#FFF3E0', text: '#E65100', border: '#FF9800' }, // Orange - Achiever
-		4: { bg: '#F3E5F5', text: '#7B1FA2', border: '#BA68C8' }, // Purple - Individualist
-		5: { bg: '#E0F2F1', text: '#00695C', border: '#26A69A' }, // Teal - Investigator
-		6: { bg: '#FFF8E1', text: '#F57F17', border: '#FFCA28' }, // Amber - Loyalist
-		7: { bg: '#FFFDE7', text: '#F9A825', border: '#FFEE58' }, // Yellow - Enthusiast
-		8: { bg: '#FFEBEE', text: '#C62828', border: '#EF5350' }, // Red - Challenger
-		9: { bg: '#E8F5E9', text: '#2E7D32', border: '#66BB6A' } // Green - Peacemaker
+		1: { bg: 'rgba(59, 130, 246, 0.15)', text: '#60a5fa', border: '#3b82f6' }, // Blue - Perfectionist
+		2: { bg: 'rgba(236, 72, 153, 0.15)', text: '#f472b6', border: '#ec4899' }, // Pink - Helper
+		3: { bg: 'rgba(249, 115, 22, 0.15)', text: '#fb923c', border: '#f97316' }, // Orange - Achiever
+		4: { bg: 'rgba(168, 85, 247, 0.15)', text: '#c084fc', border: '#a855f7' }, // Purple - Individualist
+		5: { bg: 'rgba(20, 184, 166, 0.15)', text: '#2dd4bf', border: '#14b8a6' }, // Teal - Investigator
+		6: { bg: 'rgba(234, 179, 8, 0.15)', text: '#facc15', border: '#eab308' }, // Yellow - Loyalist
+		7: { bg: 'rgba(253, 224, 71, 0.15)', text: '#fde047', border: '#facc15' }, // Bright Yellow - Enthusiast
+		8: { bg: 'rgba(239, 68, 68, 0.15)', text: '#f87171', border: '#ef4444' }, // Red - Challenger
+		9: { bg: 'rgba(34, 197, 94, 0.15)', text: '#4ade80', border: '#22c55e' } // Green - Peacemaker
 	};
 
 	const typeNames: Record<number, string> = {
@@ -94,25 +99,34 @@
 			</div>
 		{/each}
 	</div>
+
+	{#if typeof children === 'string' && children.trim() !== ''}
+		<div class="type-quotes__content">
+			{@html children}
+		</div>
+	{:else}
+		<slot />
+	{/if}
 </aside>
 
 <style lang="scss">
+	/* Solo Leveling Dark Theme */
 	.type-quotes {
 		margin: 1.5rem 0;
 		padding: 1.25rem 1.5rem;
 		border-radius: 12px;
-		background: linear-gradient(135deg, #f8f7ff 0%, #f0eeff 50%, #e8e4ff 100%);
-		border: 1px solid rgba(108, 92, 231, 0.15);
+		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
+		border: 1px solid rgba(124, 58, 237, 0.2);
 		box-shadow:
-			0 2px 8px rgba(108, 92, 231, 0.08),
-			0 1px 3px rgba(0, 0, 0, 0.04);
+			0 4px 20px rgba(0, 0, 0, 0.3),
+			0 0 0 1px rgba(124, 58, 237, 0.1);
 
 		&--subtle {
-			background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
-			border-color: rgba(0, 0, 0, 0.08);
+			background: linear-gradient(135deg, #16161e 0%, #0a0a0f 100%);
+			border-color: rgba(100, 116, 139, 0.2);
 			box-shadow:
-				0 1px 4px rgba(0, 0, 0, 0.04),
-				0 1px 2px rgba(0, 0, 0, 0.02);
+				0 2px 12px rgba(0, 0, 0, 0.25),
+				0 1px 3px rgba(0, 0, 0, 0.15);
 		}
 
 		&--minimal {
@@ -126,10 +140,10 @@
 	.type-quotes__title {
 		font-size: 1rem;
 		font-weight: 700;
-		color: #1f2937;
+		color: #f1f5f9;
 		margin: 0 0 1rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid rgba(108, 92, 231, 0.15);
+		border-bottom: 1px solid rgba(124, 58, 237, 0.2);
 	}
 
 	.type-quotes__list {
@@ -144,17 +158,19 @@
 		align-items: baseline;
 		gap: 0.5rem;
 		padding: 0.75rem 1rem;
-		background: white;
+		background: rgba(255, 255, 255, 0.03);
 		border-radius: 8px;
 		border-left: 4px solid var(--type-border);
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 		transition:
 			transform 0.2s ease,
-			box-shadow 0.2s ease;
+			box-shadow 0.2s ease,
+			background 0.2s ease;
 
 		&:hover {
 			transform: translateX(4px);
-			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+			background: var(--type-bg);
 		}
 	}
 
@@ -167,6 +183,7 @@
 		font-weight: 700;
 		color: var(--type-text);
 		background: var(--type-bg);
+		border: 1px solid var(--type-border);
 		border-radius: 6px;
 		white-space: nowrap;
 		flex-shrink: 0;
@@ -175,58 +192,23 @@
 	.type-quote__text {
 		font-size: 1rem;
 		font-weight: 500;
-		color: #374151;
+		color: #e2e8f0;
 		font-style: italic;
 		line-height: 1.5;
 	}
 
 	.type-quote__note {
 		font-size: 0.875rem;
-		color: #6b7280;
+		color: #94a3b8;
 		font-style: normal;
 		margin-left: 0.25rem;
 	}
 
-	// Dark mode support
-	@media (prefers-color-scheme: dark) {
-		.type-quotes {
-			background: linear-gradient(135deg, #1e1b2e 0%, #252136 50%, #2a2442 100%);
-			border-color: rgba(162, 155, 254, 0.2);
-			box-shadow:
-				0 2px 8px rgba(0, 0, 0, 0.3),
-				0 1px 3px rgba(0, 0, 0, 0.2);
-
-			&--subtle {
-				background: linear-gradient(135deg, #1a1a1a 0%, #222 100%);
-				border-color: rgba(255, 255, 255, 0.1);
-			}
-
-			&--minimal {
-				background: transparent;
-			}
-		}
-
-		.type-quotes__title {
-			color: #f3f4f6;
-			border-bottom-color: rgba(162, 155, 254, 0.2);
-		}
-
-		.type-quote {
-			background: rgba(255, 255, 255, 0.05);
-			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-
-			&:hover {
-				box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-			}
-		}
-
-		.type-quote__text {
-			color: #e5e7eb;
-		}
-
-		.type-quote__note {
-			color: #9ca3af;
-		}
+	.type-quotes__content {
+		margin-top: 1rem;
+		font-size: 0.9rem;
+		line-height: 1.6;
+		color: #cbd5e1;
 	}
 
 	// Mobile adjustments

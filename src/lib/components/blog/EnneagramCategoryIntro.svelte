@@ -835,11 +835,6 @@
 		}
 	}
 
-	/* Disable default link arrows */
-	a::after {
-		display: none !important;
-	}
-
 	/* Blog Grid */
 	.blog-grid {
 		display: grid;

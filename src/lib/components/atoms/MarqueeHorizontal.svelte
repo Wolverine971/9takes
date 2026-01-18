@@ -119,10 +119,6 @@
 
 <style lang="scss">
 	/* Solo Leveling Dark Theme */
-	a::after {
-		display: none !important;
-	}
-
 	.marquee-container {
 		width: 100%;
 		overflow: hidden;

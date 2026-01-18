@@ -367,9 +367,6 @@
 	p {
 		font-size: 1rem;
 	}
-	a::after {
-		display: none !important;
-	}
 	// a:hover {
 	// 	text-decoration: none;
 	// 	filter: sepia(100%) hue-rotate(160deg);

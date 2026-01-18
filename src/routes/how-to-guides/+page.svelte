@@ -43,10 +43,6 @@
 	.page-wrapper {
 		min-height: 100vh;
 		background: linear-gradient(180deg, #0a0a0f 0%, #12121a 100%);
-
-		a::after {
-			display: none !important;
-		}
 	}
 
 	/* Hero Section */

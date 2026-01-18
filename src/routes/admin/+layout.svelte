@@ -4,9 +4,9 @@
 	import { browser } from '$app/environment';
 	import type { LayoutData } from './$types';
 
-	export let data: LayoutData;
+	let { data }: { data: LayoutData } = $props();
 
-	let mobileMenuOpen = false;
+	let mobileMenuOpen = $state(false);
 
 	const navItems = [
 		{ href: '/admin', label: 'Dashboard', icon: '📊', exact: true },
@@ -33,17 +33,20 @@
 	}
 
 	// Close menu on navigation
-	$: if (browser && $page.url.pathname) {
-		mobileMenuOpen = false;
-	}
+	$effect(() => {
+		if (browser && $page.url.pathname) {
+			mobileMenuOpen = false;
+		}
+	});
 
 	function toggleMenu() {
 		mobileMenuOpen = !mobileMenuOpen;
 	}
 
 	// Get current page label for mobile header
-	$: currentPageLabel =
-		navItems.find((item) => isActive(item, $page.url.pathname))?.label || 'Admin';
+	let currentPageLabel = $derived(
+		navItems.find((item) => isActive(item, $page.url.pathname))?.label || 'Admin'
+	);
 </script>
 
 {#if data.user?.admin}
@@ -53,7 +56,7 @@
 			<span class="current-page">{currentPageLabel}</span>
 			<button
 				class="menu-toggle"
-				on:click={toggleMenu}
+				onclick={toggleMenu}
 				aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
 				aria-expanded={mobileMenuOpen}
 			>
@@ -84,7 +87,7 @@
 
 		<!-- Overlay for mobile menu -->
 		{#if mobileMenuOpen}
-			<button class="menu-overlay" on:click={() => (mobileMenuOpen = false)} aria-label="Close menu"
+			<button class="menu-overlay" onclick={() => (mobileMenuOpen = false)} aria-label="Close menu"
 			></button>
 		{/if}
 
@@ -116,8 +119,8 @@
 		position: sticky;
 		top: 0;
 		z-index: 50;
-		background: var(--card-background, #fff);
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-deep);
+		border-bottom: 1px solid var(--void-elevated);
 		padding: 12px 16px;
 		align-items: center;
 		justify-content: space-between;
@@ -126,7 +129,7 @@
 	.current-page {
 		font-weight: 600;
 		font-size: 1rem;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.menu-toggle {
@@ -140,11 +143,11 @@
 		border: none;
 		cursor: pointer;
 		border-radius: 8px;
-		transition: background 0.2s;
+		transition: all 0.2s ease;
 	}
 
 	.menu-toggle:hover {
-		background: var(--hover-background, #f1f5f9);
+		background: var(--void-elevated);
 	}
 
 	.hamburger {
@@ -161,7 +164,7 @@
 		display: block;
 		width: 100%;
 		height: 2px;
-		background: var(--text-primary, #1e293b);
+		background: var(--text-primary);
 		border-radius: 1px;
 		transition: all 0.3s ease;
 		position: absolute;
@@ -194,20 +197,20 @@
 
 	/* Admin Navigation Bar */
 	.admin-nav {
-		background-color: var(--card-background, #fff);
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		background-color: var(--void-deep);
+		border-bottom: 1px solid var(--void-elevated);
 		position: sticky;
-		top: 56px; /* Account for global header height */
-		z-index: 45; /* Above content, below global header */
+		top: 56px;
+		z-index: 45;
 	}
 
 	.nav-container {
 		max-width: 1600px;
 		margin: 0 auto;
-		padding: 8px 16px;
+		padding: 10px 16px;
 		display: flex;
 		flex-wrap: wrap;
-		gap: 4px;
+		gap: 6px;
 		justify-content: center;
 	}
 
@@ -215,29 +218,33 @@
 		display: flex;
 		align-items: center;
 		gap: 6px;
-		padding: 8px 12px;
-		color: var(--text-secondary, #64748b);
+		padding: 8px 14px;
+		color: var(--text-secondary);
 		text-decoration: none;
 		font-weight: 500;
 		font-size: 0.8125rem;
-		border-radius: 6px;
-		transition: all 0.15s ease;
+		border-radius: 8px;
+		transition: all 0.2s ease;
 		white-space: nowrap;
+		border: 1px solid transparent;
 	}
 
 	.nav-icon {
-		font-size: 0.875rem;
+		font-size: 0.9375rem;
 		line-height: 1;
 	}
 
 	.nav-link:hover {
-		background-color: var(--hover-background, #f1f5f9);
-		color: var(--text-primary, #1e293b);
+		background-color: var(--void-elevated);
+		color: var(--text-primary);
+		border-color: var(--void-highlight);
 	}
 
 	.nav-link.active {
-		background-color: var(--primary, #6366f1);
+		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
 		color: white;
+		border-color: var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
 	}
 
 	/* Main Content */
@@ -252,7 +259,8 @@
 		display: none;
 		position: fixed;
 		inset: 0;
-		background: rgba(0, 0, 0, 0.4);
+		background: rgba(0, 0, 0, 0.6);
+		backdrop-filter: blur(4px);
 		z-index: 9998;
 		border: none;
 		cursor: pointer;
@@ -265,44 +273,45 @@
 		justify-content: center;
 		min-height: 100vh;
 		padding: 16px;
-		background-color: var(--background, #f8fafc);
+		background-color: var(--void-abyss);
 	}
 
 	.error-container {
 		text-align: center;
-		padding: 32px 24px;
-		background-color: var(--card-background, #fff);
-		border-radius: 12px;
-		box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+		padding: 40px 32px;
+		background-color: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 16px;
+		box-shadow: var(--shadow-xl);
 		max-width: 400px;
 		width: 100%;
 	}
 
 	.error-container h1 {
-		color: var(--error, #ef4444);
+		color: var(--error);
 		margin-bottom: 12px;
 		font-size: 1.5rem;
 	}
 
 	.error-container p {
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		margin-bottom: 24px;
 	}
 
 	/* Global page header styles for admin pages */
 	:global(.page-header) {
-		margin-bottom: 20px;
+		margin-bottom: 24px;
 	}
 
 	:global(.page-header h1) {
 		font-size: 1.5rem;
-		margin: 0 0 4px 0;
-		color: var(--text-primary, #1e293b);
+		margin: 0 0 6px 0;
+		color: var(--text-primary);
 		font-weight: 700;
 	}
 
 	:global(.page-header .subtitle) {
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		margin: 0;
 		font-size: 0.875rem;
 	}
@@ -336,8 +345,8 @@
 			transform: translateX(-100%);
 			transition: transform 0.3s ease;
 			border-bottom: none;
-			border-right: 1px solid var(--border-color, #e2e8f0);
-			box-shadow: 4px 0 24px rgba(0, 0, 0, 0.1);
+			border-right: 1px solid var(--void-elevated);
+			box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4);
 			overflow-y: auto;
 		}
 
@@ -348,14 +357,14 @@
 		.nav-container {
 			flex-direction: column;
 			padding: 16px 12px;
-			gap: 2px;
+			gap: 4px;
 			align-items: stretch;
 		}
 
 		.nav-link {
-			padding: 12px 16px;
+			padding: 14px 18px;
 			font-size: 0.9375rem;
-			border-radius: 8px;
+			border-radius: 10px;
 		}
 
 		.nav-icon {
