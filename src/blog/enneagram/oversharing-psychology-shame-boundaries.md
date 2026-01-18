@@ -4,7 +4,7 @@ description: "When someone overshares, they're processing shame out loud. When y
 author: 'DJ Wayne'
 date: '2025-12-09'
 loc: 'https://9takes.com/enneagram-corner/oversharing-psychology-shame-boundaries'
-lastmod: '2025-12-09'
+lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
@@ -25,13 +25,13 @@ path: src/blog/enneagram/oversharing-psychology-shame-boundaries.md
 People overshare because they're trying to process shame out loud. They're searching for a safe space to be fully seen and accepted, testing whether someone will still accept them after knowing the worst parts. When you label something as "oversharing," you're drawing a boundary that says: "I didn't consent to hold this." The oversharer was seeking safety. The listener is protecting themselves. Both are valid.
 </QuickAnswer>
 
-<p class="firstLetter">You're standing in the break room when your coworker starts telling you about their divorce. The custody battle. Their therapist's opinion. That thing their ex said last night that "really crossed a line."</p>
+<p class="firstLetter">You're getting coffee. That's it. That's all you came to the break room for.</p>
 
-You didn't ask. You were just getting coffee.
+Then your coworker corners you. The divorce. The custody battle. Their therapist's opinion. That thing their ex said last night that "really crossed a line."
 
-Now you're nodding, trapped, wondering how this became your Tuesday morning.
+You didn't ask. Now you're nodding, trapped, wondering how this became your Tuesday morning.
 
-Or maybe you're on the other side. Driving home after drinks with a new friend, replaying the conversation. That thing you said about your childhood. The detail about your relationship you've never told anyone. The way their face shifted—just slightly—when you went there.
+Or maybe you're on the other side. Driving home after drinks with a new friend, replaying the conversation. That thing you said about your childhood. The detail about your relationship you've never told anyone. The way their face shifted, just slightly, when you went there.
 
 Your stomach drops.
 
@@ -45,7 +45,7 @@ When someone overshares, they're rarely doing it for attention. They're doing it
 
 Brené Brown puts it bluntly: "Shame derives its power from being unspeakable." The stuff we're most ashamed of? We never say it out loud. It festers. It grows.
 
-So when someone finally says the unspeakable thing—to you, in line at Target, during what you thought was casual small talk—they're not being inappropriate on purpose. They're trying to survive.
+So when someone finally says the unspeakable thing to you, in line at Target, during what you thought was casual small talk, they're not being inappropriate on purpose. They're trying to survive.
 
 Their internal logic goes something like this:
 
@@ -63,7 +63,9 @@ The same story that's fine in therapy becomes oversharing at a networking event.
 
 It's not what you shared. It's where you tried to put it.
 
-A therapist agreed to hold heavy stuff. They trained for it. They chose it. Your Uber driver didn't.
+A therapist agreed to hold heavy stuff. They trained for it. They chose it.
+
+Your Uber driver didn't.
 
 When someone overshares, they're treating a casual acquaintance like a trusted confidant. They're pouring something heavy into a container that wasn't built for it. And wondering why it spills everywhere.
 
@@ -81,7 +83,7 @@ There's also a deeper message underneath: _"That thing you just shared? I'm not 
 
 This is the part that stings.
 
-When you identify oversharing, you're often drawing a moral or social line. You're saying: that behavior, that choice, that situation. It's not something to broadcast casually. It's something to work through privately.
+When you identify oversharing, you're often drawing a moral or social line. You're saying: that behavior, that choice, that situation is not something to broadcast casually. It's something to work through privately.
 
 The oversharer wanted validation. What they got was a boundary.
 
@@ -91,7 +93,7 @@ Something else happens when someone overshares to you: you're now holding secret
 
 Suddenly you know about their marriage, their mental health, their childhood trauma. You didn't volunteer for this.
 
-There's an uncomfortable power in that. You know something about them that feels too intimate for the relationship you actually have. It creates an imbalance—a false closeness neither of you earned.
+There's an uncomfortable power in that. You know something about them that feels too intimate for the relationship you actually have. It creates an imbalance, a false closeness neither of you earned.
 
 This is why oversharing pushes people away instead of drawing them closer. It skips trust-building and forces intimacy that feels unearned.
 
@@ -101,7 +103,7 @@ This is why oversharing pushes people away instead of drawing them closer. It sk
 
 ## Why You Thought It Was Safe (And Why It Wasn't)
 
-If you've ever overshared and felt the aftermath—that creeping dread, the 3 AM replay, the desperate wish to unsay what you said—you know the shame spiral that follows.
+If you've ever overshared and felt the aftermath, you know the shame spiral that follows. The creeping dread. The 3 AM replay. The desperate wish to unsay what you said.
 
 This is called a "vulnerability hangover." You opened up, and now you feel exposed. Naked. Wrong.
 
@@ -131,7 +133,7 @@ None of these are character flaws. They're human. But they don't create the safe
 
 ### The Childhood Connection
 
-Here's something most people don't realize: if you grew up in a home where you were **punished for not sharing**—where parents demanded to know everything, where privacy was secrecy and secrecy was betrayal—your sense of what's "too much" may be fundamentally broken.
+Here's something most people don't realize: if you grew up in a home where you were **punished for not sharing**, where parents demanded to know everything, where privacy was secrecy and secrecy was betrayal, your sense of what's "too much" may be fundamentally broken.
 
 You were trained to give everything. Holding back felt dangerous. So as an adult, you over-correct: you give too much, too fast, to people who haven't earned it.
 
@@ -225,7 +227,7 @@ Oversharing isn't one thing. It looks different depending on who's doing it—an
 
 **What they're seeking:** Connection through competence. If they can't share emotions easily, maybe sharing knowledge will bridge the gap.
 
-**How it looks:** "Well, actually, the psychology of social dynamics in workplace settings has been extensively studied. There was a 2019 meta-analysis that found. And this connects to attachment theory, which I've been reading about. And the evolutionary basis for—"
+**How it looks:** "Well, actually, the psychology of social dynamics in workplace settings has been extensively studied. There was a 2019 meta-analysis that found... And this connects to attachment theory, which I've been reading about. And the evolutionary basis for..."
 
 **The pattern:** Type 5s overshare information when emotional sharing feels too vulnerable. Data feels safer than feelings.
 
@@ -257,7 +259,7 @@ Oversharing isn't one thing. It looks different depending on who's doing it—an
 
 **What they're seeking:** To avoid sitting in one feeling for too long. Connection through energy and shared excitement.
 
-**How it looks:** ", so that reminded me of this trip I took in 2019, which was crazy because I met this guy who, oh that reminds me, I've been meaning to tell you about this thing with my ex, anyway the flight got delayed and—"
+**How it looks:** "...so that reminded me of this trip I took in 2019, which was crazy because I met this guy who, oh that reminds me, I've been meaning to tell you about this thing with my ex, anyway the flight got delayed and..."
 
 **The pattern:** Type 7s overshare by volume, filling silence with stories. The sheer quantity prevents depth, which is exactly the point.
 
@@ -273,7 +275,7 @@ Oversharing isn't one thing. It looks different depending on who's doing it—an
 
 **What they're seeking:** To test your strength. Can you handle their intensity? Are you real or are you soft?
 
-**How it looks:** "I'll be honest with you, most people in this industry are cowards. I told my last business partner exactly where he could go. And my family hasn't spoken to me in months because I called out their BS at Thanksgiving. People can't handle honesty—"
+**How it looks:** "I'll be honest with you, most people in this industry are cowards. I told my last business partner exactly where he could go. And my family hasn't spoken to me in months because I called out their BS at Thanksgiving. People can't handle honesty..."
 
 **The pattern:** Type 8s overshare their confrontations, their opinions, their power. It's a test. Are you intimidated or impressed?
 
@@ -289,7 +291,7 @@ Oversharing isn't one thing. It looks different depending on who's doing it—an
 
 **What they're seeking:** Just to be heard. To exist out loud for once.
 
-**How it looks:** "Oh, I don't know... I guess... well, actually, since you asked... it's been a hard year. My marriage has felt distant for maybe longer than I admitted. And work has been, I've never told anyone this, but sometimes I just sit in my car before going inside because—"
+**How it looks:** "Oh, I don't know... I guess... well, actually, since you asked... it's been a hard year. My marriage has felt distant for maybe longer than I admitted. And work has been... I've never told anyone this, but sometimes I just sit in my car before going inside because..."
 
 **The pattern:** Type 9s don't overshare often, but when they finally open up, years of unexpressed thoughts pour out at once. They've been waiting so long for someone to really ask.
 
@@ -316,8 +318,8 @@ Here's the cruel irony: people overshare to feel connected. But oversharing usua
 When you share something heavy with someone who isn't ready:
 
 1. **They feel burdened.** Now they're carrying weight they didn't ask for.
-2. **They feel manipulated.** Even if you didn't mean to, they sense an expectation: now they have to respond, comfort, or match your vulnerability.
-3. **They pull back.** Next time they see you, they might avoid you. Not cruelty—self-protection.
+2. **They feel manipulated.** Even if you didn't mean to, they sense an expectation. Now they have to respond, comfort, or match your vulnerability.
+3. **They pull back.** Next time they see you, they might avoid you. Not cruelty. Self-protection.
 
 This is important: **oversharing is not the same as vulnerability**.
 
@@ -325,7 +327,9 @@ Real vulnerability is appropriate, boundaried, and reciprocal. It respects the r
 
 Oversharing skips all of that. It demands intimacy that hasn't been built.
 
-Sometimes people overshare specifically to push others away—to reinforce their belief that they're too much, that no one can really handle them. The rejection proves the shame was justified all along.
+This is also why personality frameworks can backfire socially: if you feel the urge to psychoanalyze people the moment you meet them, read [The Enneagram Changed My Life, But I Learned to Shut Up About It](/community/why-im-selective-sharing-enneagram).
+
+Sometimes people overshare specifically to push others away. To reinforce their belief that they're too much, that no one can really handle them. The rejection proves the shame was justified all along.
 
 It's a self-fulfilling prophecy. "See? Even when I'm honest, people leave."
 
@@ -337,10 +341,10 @@ You just need the _right_ ones.
 
 ### Signs of a Real Safe Space
 
-- **Explicit consent.** They've agreed to hold heavy stuff. Therapists, support groups, close friends who've said "I want to hear about this."
+- **Explicit consent.** They've agreed to hold heavy stuff: therapists, support groups, close friends who've said "I want to hear about this."
 - **Reciprocal trust.** They've shared with you too. The vulnerability was built, not demanded.
 - **No stakes.** They don't have power over you. Your boss isn't your safe space. Neither is your new romantic interest.
-- **Capacity.** They have bandwidth right now. Someone in crisis can't hold your crisis.
+- **Capacity.** They have bandwidth right now. Someone in crisis can't hold your crisis too.
 
 ### Questions to Ask Before Sharing
 
@@ -374,9 +378,9 @@ Boundaries aren't cruelty. They're clarity.
 
 Whether you're the oversharer or the one being overshared to, understanding helps.
 
-If you overshare: you're not broken. You're looking for safety in a world that often feels unsafe. The work is learning to spot real safety versus fake safety—and building relationships that can actually hold what you need to share.
+**If you overshare:** You're not broken. You're looking for safety in a world that often feels unsafe. The work is learning to spot real safety versus fake safety, and building relationships that can actually hold what you need to share.
 
-If you're on the receiving end: you're allowed to protect yourself. Their pain is real, but so are your limits. Drawing a boundary isn't abandoning them. It's acknowledging you can't be what they need.
+**If you're on the receiving end:** You're allowed to protect yourself. Their pain is real, but so are your limits. Drawing a boundary isn't abandoning them. It's acknowledging you can't be what they need.
 
 Both truths exist at once.
 
@@ -405,7 +409,7 @@ Neither is wrong.
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-12-09",
+      "dateModified": "2026-01-18",
       "datePublished": "2025-12-09",
       "description": "When someone overshares, they're processing shame out loud. When you label it 'oversharing,' you're drawing a boundary. Here's what's really happening on both sides.",
       "headline": "Why People Overshare: The Psychology of Shame, Boundaries, and Safe Spaces",

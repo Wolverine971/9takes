@@ -38,6 +38,8 @@ Well, the answer is complex because the Enneagram is old.
 
 It has been both influenced by and also done the influencing in many spiritual traditions. It has found its way into many religious practices - from Christianity to Judaism, from Sufism to New Age philosophies. Yet, at its core, the Enneagram remains a psychological tool for self-understanding and personal growth.
 
+For the full lineage (Sufis → Gurdjieff → Ichazo → Naranjo), start with [who built the Enneagram](/enneagram-corner/enneagram-influences).
+
 Here, we'll examine the Enneagram's adoption by different religious groups, exploring how each tradition has interpreted and applied this system. We'll uncover the enthusiasm it has generated, the controversies it has sparked, and the unique insights it offers across various belief systems.
 
 <section class="section-content" style="padding: 1rem; margin: .5rem 0;">

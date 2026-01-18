@@ -32,7 +32,7 @@ Keyword Strategy:
 The **Truity Enneagram Test** (free, ~10 min) is a solid free option with over 100 questions. For maximum accuracy, the **RHETI** from the Enneagram Institute ($12) is widely considered the gold standard—it uses 144 forced-choice questions designed to bypass ego defenses. **Avoid**: 16Personalities (that's Myers-Briggs, not Enneagram), any test under 50 questions, and tests that only give you one type without wings.
 </QuickAnswer>
 
-**Bottom line**: Start with a reputable free test. If your result feels off, consider RHETI.
+**Bottom line**: Start with a reputable free test. If your result feels off, consider RHETI. If you’re coming from 16Personalities/MBTI, this is why the Enneagram goes deeper: [MBTI Failed Us — Can the Enneagram Do Better?](/community/mbti-vs-enneagram).
 
 | Test                  | Cost | Time   | Accuracy   | Best For         |
 | --------------------- | ---- | ------ | ---------- | ---------------- |

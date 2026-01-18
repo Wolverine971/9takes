@@ -96,7 +96,7 @@ function extractLinks(content, currentSlug) {
 
 	// Pattern 1: Markdown links to blog sections (including mental-health subdirectory)
 	const mdLinkPattern =
-		/\[([^\]]*)\]\(\/(?:enneagram-corner|how-to-guides|community|guides)(?:\/mental-health)?\/([a-z0-9-]+)\)/gi;
+		/\[([^\]]*)\]\((?:https?:\/\/(?:www\.)?9takes\.com)?\/(?:enneagram-corner|how-to-guides|community|pop-culture|life-situations|guides)(?:\/mental-health)?\/([a-z0-9-]+)(?:\/)?(?:[?#][^)]+)?\)/gi;
 	let match;
 	while ((match = mdLinkPattern.exec(content)) !== null) {
 		const slug = match[2];
@@ -107,7 +107,7 @@ function extractLinks(content, currentSlug) {
 
 	// Pattern 2: MarqueeHorizontal component links (including mental-health subdirectory)
 	const marqueePattern =
-		/link:\s*['"]\/(?:enneagram-corner|how-to-guides|community|guides)(?:\/mental-health)?\/([a-z0-9-]+)['"]/gi;
+		/link:\s*['"]\/(?:enneagram-corner|how-to-guides|community|pop-culture|life-situations|guides)(?:\/mental-health)?\/([a-z0-9-]+)['"]/gi;
 	while ((match = marqueePattern.exec(content)) !== null) {
 		const slug = match[1];
 		if (slug !== currentSlug && !isTypePage(slug)) {
@@ -117,7 +117,7 @@ function extractLinks(content, currentSlug) {
 
 	// Pattern 3: HTML anchor tags (including mental-health subdirectory)
 	const anchorPattern =
-		/<a[^>]+href=['"]\/(?:enneagram-corner|how-to-guides|community|guides)(?:\/mental-health)?\/([a-z0-9-]+)['"]/gi;
+		/<a[^>]+href=['"](?:https?:\/\/(?:www\.)?9takes\.com)?\/(?:enneagram-corner|how-to-guides|community|pop-culture|life-situations|guides)(?:\/mental-health)?\/([a-z0-9-]+)(?:\/)?(?:[#?][^'"]+)?['"]/gi;
 	while ((match = anchorPattern.exec(content)) !== null) {
 		const slug = match[1];
 		if (slug !== currentSlug && !isTypePage(slug)) {

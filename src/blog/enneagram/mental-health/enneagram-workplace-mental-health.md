@@ -33,6 +33,8 @@ Think I'm wrong? Check your [stress symptoms](/enneagram-corner/enneagram-types-
 
 Here's the thing: workplace mental health isn't one-size-fits-all. Each type has its own burnout formula, its own recovery recipe, and its own path to thriving. I've watched hundreds of people transform their careers once they understood this. Time to join them.
 
+Two common root causes of burnout are (1) being in the wrong role and (2) trying to force a work system that doesn’t match your type. If role fit is the issue, start with [career choices by Enneagram type](/enneagram-corner/enneagram-types-and-career-choices). If it’s execution, use [productivity systems by Enneagram type](/how-to-guides/productivity-systems-by-enneagram-type).
+
 ## The Burnout Blueprint: Your Type's Kryptonite
 
 Every type has a workplace kryptonite—the specific condition that breaks them. Know yours, and you can dodge it. Ignore it, and you're headed for a crash.

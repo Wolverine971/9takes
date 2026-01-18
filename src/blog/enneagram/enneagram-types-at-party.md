@@ -361,6 +361,8 @@ It's "What game are you tired of playing?"
 
 **Break your pattern. Change your party. Change your life.**
 
+If you’ve discovered the Enneagram and keep wanting to type everyone mid-conversation, read [The Enneagram Changed My Life, But I Learned to Shut Up About It](/community/why-im-selective-sharing-enneagram).
+
 ---
 
 _Next: Master social reads with our [first impression cheat sheet](/enneagram-corner/first-impression-cheat-sheet), [plan a type-aware gathering](/enneagram-corner/enneagram-party-planner), see [how each type shows off](/enneagram-corner/how-each-enneagram-flexes), or discover [what happens on first dates](/enneagram-corner/enneagram-types-on-a-first-date)._

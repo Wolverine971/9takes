@@ -141,7 +141,11 @@ How do you have an original thought online when the infrastructure is designed t
 
 **3. Understand why people think differently.** When you learn [how each personality type processes information](/enneagram-corner/enneagram-communication-styles) and [handles stress](/enneagram-corner/enneagram-types-in-stress), you stop seeing disagreement as tribal warfare and start seeing it as different operating systems running different code.
 
+If you do end up arguing anyway, here’s the only definition of “winning” that actually changes minds: [what winning online arguments looks like](/community/what-winning-online-arguments-looks-like).
+
 [Reddit's structure](/community/reddit-deep-connections-limitations) amplifies mimesis — whoever comments first sets the frame for everyone else. The algorithm rewards speed, not depth.
+
+Moderators also shape the frame by enforcing norms and removing content—see [Reddit Moderators: Why Type 1s Run the Internet](/pop-culture/reddit-moderators-type-1-internet).
 
 **9takes inverts the model.** Speak first. Explore after. Think independently by design.
 

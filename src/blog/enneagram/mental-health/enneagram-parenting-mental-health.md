@@ -35,6 +35,8 @@ Your teenager says everything is great. Perfect grades. Lots of friends. But you
 
 This guide won't tell you how to fix your child. It will help you _see_ them, to understand the particular way their personality shapes their struggles, and to recognize when normal developmental challenges have crossed into territory that needs professional support.
 
+If you want the parent-side breakdown—how your Enneagram type shapes your parenting autopilot—see [Enneagram parenting styles](/enneagram-corner/enneagram-parenting-styles).
+
 ## A Parent's Guide to Understanding Personality Patterns
 
 I remember the moment I first recognized my oldest child's patterns. She was seven, sobbing because her art project wasn't "perfect." As I held her, I realized this wasn't just about crayons and paper. It was about something deeper, a pattern I'd seen countless times before.

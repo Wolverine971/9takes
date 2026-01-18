@@ -4,7 +4,7 @@ description: 'Your zodiac sign tells you what influences you. Your Enneagram typ
 author: 'DJ Wayne'
 date: '2024-08-23'
 loc: 'https://9takes.com/enneagram-corner/astrology-and-the-enneagram'
-lastmod: '2025-01-06'
+lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -201,7 +201,7 @@ That's the only test that matters.
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-01-06",
+      "dateModified": "2026-01-18",
       "datePublished": "2024-08-23",
       "description": "Your zodiac sign tells you what influences you. Your Enneagram type tells you why you respond that way. Learn how to use both systems together for deeper self-knowledge.",
       "headline": "Astrology and Enneagram: Two Maps of the Same Territory",

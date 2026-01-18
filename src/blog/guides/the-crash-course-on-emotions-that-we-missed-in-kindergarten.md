@@ -247,6 +247,8 @@ Research from USC confirms this isn't your imagination. [Mixed emotions produce 
 
 Each Enneagram type is driven by three core emotional patterns that formed in childhood. You think you're making logical decisions, but you're really just running these ancient programs. (For a deeper dive into [childhood origins by type](/enneagram-corner/enneagram-childhood-stereotypes), see our full analysis.)
 
+This is also why parenting can feel like a time machine: your type’s emotional program runs the show. See [Enneagram parenting styles](/enneagram-corner/enneagram-parenting-styles) for how these patterns tend to show up with kids.
+
 **Important caveat:** These are common patterns, not universal truths. Your childhood might not match the description for your type, and that's okay. The Enneagram describes core fears and motivations, not identical life stories. Use these as starting points for self-reflection, not rigid prescriptions.
 
 ### The Childhood Wound → Emotional Pattern → Adult Behavior Chain

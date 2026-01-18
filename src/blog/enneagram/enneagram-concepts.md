@@ -43,7 +43,7 @@ It's not a personality quiz you take when you're bored at work. Those tell you w
 
 Think of it as a GPS for your psyche — one that shows not just where you are, but the autopilot route you keep taking without realizing it.
 
-[Curious about where this system came from? Check out the Enneagram's intriguing origins.](https://9takes.com/enneagram-corner/enneagram-influences)
+[Curious about where this system came from? Check out the Enneagram's intriguing origins.](/enneagram-corner/enneagram-influences)
 
 ## What the Enneagram Is Not
 
@@ -73,7 +73,7 @@ The Enneagram is all about:
 8. <a href="/enneagram-corner/enneagram-type-8" >The Challenger</a>: Asserting strength
 9. <a href="/enneagram-corner/enneagram-type-9" >The Peacemaker</a>: Maintaining harmony
 
-[Not sure which one you are? Start here to figure out your type.](https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type)
+[Not sure which one you are? Start here to figure out your type.](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type)
 
 ## The Three Centers: Head, Heart, and Gut
 
@@ -95,7 +95,7 @@ Each type can operate at different levels of health. It's like a video game - yo
 
 Under stress or during growth, you may take on characteristics of other types. It's like your personality has secret tunnels to other rooms.
 
-[Dive deeper into how types change under stress.](https://9takes.com/enneagram-corner/enneagram-types-in-stress)
+[Dive deeper into how types change under stress.](/enneagram-corner/enneagram-types-in-stress)
 
 ## Instinctual Subtypes: Your Survival Strategies
 
@@ -105,7 +105,7 @@ Each type has three subtypes based on basic human needs:
 2. Social: Prioritizing group dynamics
 3. Sexual (One-to-one): Emphasizing intense connections
 
-[Learn more about these subtypes and how they shape behavior.](https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes)
+[Learn more about these subtypes and how they shape behavior.](/enneagram-corner/enneagram-instinctual-subtypes)
 
 ## Advanced Concepts: For the Enneagram Nerds
 
@@ -191,7 +191,7 @@ These groups, rooted in psychoanalytic theory, describe core relational issues:
 
 Understanding these concepts can provide deeper insights into type motivations and growth paths.
 
-[Explore how these concepts relate to personal development](https://9takes.com/enneagram-corner/enneagram-self-development)
+[Explore how these concepts relate to personal development](/enneagram-corner/enneagram-self-development)
 
 <br>
 
@@ -218,31 +218,31 @@ Understanding these concepts can provide deeper insights into type motivations a
 
 Understanding your type can be like having a personal growth cheat sheet.
 
-[Discover how to use the Enneagram for self-improvement.](https://9takes.com/enneagram-corner/enneagram-personal-growth)
+[Discover how to use the Enneagram for self-improvement.](/enneagram-corner/enneagram-personal-growth)
 
 ### Relationships
 
 The Enneagram can be your translator in the sometimes confusing language of relationships.
 
-[Learn how to communicate better with different types.](https://9takes.com/enneagram-corner/relationship-communication-guide)
+[Learn how to communicate better with different types.](/enneagram-corner/relationship-communication-guide)
 
 ### Work Life
 
 Your Enneagram type might explain why you love (or hate) your job.
 
-[Explore how different types function in the workplace.](https://9takes.com/enneagram-corner/enneagram-workplace-team-building)
+[Explore how different types function in the workplace.](/enneagram-corner/enneagram-workplace-team-building)
 
 ### Spiritual Growth
 
 For some, the Enneagram is a path to deeper spiritual understanding.
 
-[See how the Enneagram intersects with religion and spirituality.](https://9takes.com/enneagram-corner/enneagram-and-religion)
+[See how the Enneagram intersects with religion and spirituality.](/enneagram-corner/enneagram-and-religion)
 
 ## The Fine Print: Criticisms and Limitations
 
 Like any system, the Enneagram has its critics. It's a tool, not a crystal ball.
 
-[Read about some common criticisms of the Enneagram.](https://9takes.com/enneagram-corner/enneagram-criticisms)
+[Read about some common criticisms of the Enneagram.](/enneagram-corner/enneagram-criticisms)
 
 ## The Point of All This
 
@@ -254,7 +254,7 @@ The patterns you run on autopilot. The fears that drive decisions you thought we
 
 The Enneagram makes the invisible visible. What you do with that awareness is up to you.
 
-Ready to dive deeper? Check out our [comprehensive Enneagram FAQ](https://9takes.com/enneagram-corner/enneagram-faqs) or explore [recommended resources](https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts).
+Ready to dive deeper? Check out our [comprehensive Enneagram FAQ](/enneagram-corner/enneagram-faqs) or explore [recommended resources](/enneagram-corner/enneagram-books-websites-podcasts).
 
 **Which type just called you out?**
 

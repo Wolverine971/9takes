@@ -45,6 +45,8 @@ It's like asking whether a thermometer or a blood pressure monitor is "better." 
 
 Here's what each one actually measures, when to use which, and how they work together.
 
+If you want the more opinionated version of this argument, read [MBTI Failed Us — Can the Enneagram Do Better?](/community/mbti-vs-enneagram).
+
 ## The Core Difference (In One Sentence)
 
 **MBTI tells you HOW you process information. Enneagram tells you WHY you do what you do.**

@@ -4,7 +4,7 @@ description: 'The counterintuitive tactics that turn online fights into producti
 author: 'DJ Wayne'
 date: '2024-04-13'
 loc: 'https://9takes.com/community/what-winning-online-arguments-looks-like'
-lastmod: '2025-01-18'
+lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -47,7 +47,7 @@ path: src/blog/community/what-winning-online-arguments-looks-like.md
     ]
   },
   "datePublished": "2024-04-13",
-  "dateModified": "2025-01-18",
+  "dateModified": "2026-01-18",
   "url": "https://9takes.com/community/what-winning-online-arguments-looks-like",
   "image": {
     "@type": "ImageObject",

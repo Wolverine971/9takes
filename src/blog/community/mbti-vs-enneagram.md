@@ -333,7 +333,7 @@ For a detailed breakdown, see our [Enneagram vs Myers-Briggs comparison](/enneag
 
 <div style="display: flex; flex-direction: column; gap: 1rem;">
 <div style="background: rgba(255, 255, 255, 0.03); padding: 1.5rem; border-radius: 8px; border: 1px solid rgba(234, 179, 8, 0.2);">
-<strong style="font-size: 1.125rem; color: #fde047;">🏫 Schools</strong> <span style="color: #cbd5e1;">teach emotional literacy using the Enneagram alongside math and science</span>
+<strong style="font-size: 1.125rem; color: #fde047;">🏫 Schools</strong> <span style="color: #cbd5e1;">teach emotional literacy using the Enneagram alongside math and science (like <a href="/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten">this crash course on emotions</a>)</span>
 </div>
 
 <div style="background: rgba(255, 255, 255, 0.03); padding: 1.5rem; border-radius: 8px; border: 1px solid rgba(249, 115, 22, 0.2);">

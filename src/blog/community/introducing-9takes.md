@@ -97,9 +97,11 @@ path: src/blog/community/introducing-9takes.md
 
 Where can you get honest, unprimed perspectives without walking into an echo chamber?
 
-On most platforms, the first few comments set the frame. Everyone else reacts, copies, or stays quiet.
+On most platforms, the first few comments set the frame. Everyone else reacts, copies, or stays quiet (here’s the psychology of that: [Echoes Online: The Power of Memetic Comments](/community/memetic-comments)).
 
 9takes flips that default. You write your take first, then you unlock the thread and compare how other people see the same question.
+
+If you’re wondering about the design choices, the [Greek vibe is intentional](/community/why-the-greek-vibe).
 
 ## Why Social Media Isn't Social Anymore
 

@@ -67,6 +67,8 @@ The traffic didn't cause your meltdown.
 
 That's it. Every breakdown, every explosion, every stress response traces back to one of these three.
 
+If you want the bigger picture of why your emotional reactions stay consistent even as your life changes, read [The Stress Paradox](/enneagram-corner/situations-change-emotions-dont).
+
 And here's what nobody tells you:
 
 > **Your personality type determines which emotion owns you.**

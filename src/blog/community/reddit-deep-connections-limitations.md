@@ -134,6 +134,12 @@ Everyone in your subreddit thinks the same way. It feels validating. It also mea
 
 Real connection requires friction. Reddit's structure removes it.
 
+Even when friction shows up, Reddit rewards performative dunking, not understanding. If you're stuck in comment wars, here’s [what winning online arguments looks like](/community/what-winning-online-arguments-looks-like).
+
+Add the memetic effect (everyone copying the first few comments) and you get sameness disguised as debate—see [Echoes Online: The Power of Memetic Comments](/community/memetic-comments).
+
+And underneath it all, subreddits are governed by unpaid moderators with their own psychology—see [why Type 1s become Reddit mods](/pop-culture/reddit-moderators-type-1-internet).
+
 **You're not in community. You're in a feedback loop.**
 
 ## 5. No Continuity, No Connection

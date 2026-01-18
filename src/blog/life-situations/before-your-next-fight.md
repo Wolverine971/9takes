@@ -1,3 +1,13 @@
+---
+title: 'Crafting Peace Before the Storm: Preparing for Your Next Relationship Fight'
+description: 'Draft outline for a post on preparing for conflict constructively.'
+author: 'DJ Wayne'
+date: '2024-12-04'
+lastmod: '2024-12-04'
+published: false
+path: src/blog/life-situations/before-your-next-fight.md
+---
+
 <!-- src/blog/life-situations/before-your-next-fight.md -->
 
 Before you go and have your next fight, ask yourself, how did the last fight go? Did you win, did you lose? Did it go just the way you thought it would. Or did you not get to say everything you wanted? Was

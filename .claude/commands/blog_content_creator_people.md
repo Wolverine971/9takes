@@ -178,9 +178,9 @@ source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peopl
   - Conclusion with engaging question
 - **Output**: Complete markdown blog with SEO optimization
 
-### 4. **Metadata Generation (Dual-Title System):**
+### 4. **Metadata Generation (Triple-Title System):**
 
-**IMPORTANT: The 9takes celebrity blog system uses TWO titles:**
+**IMPORTANT: The 9takes celebrity blog system uses THREE title fields:**
 
 1. **`title`** (Evergreen/Authoritative) - Displayed on the actual blog page
    - Professional, accurate, timeless
@@ -194,18 +194,27 @@ source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peopl
    - Can reference current events or trending angles
    - Example: "Inside Elon Musk's Mind: Why He Can't Stop Taking Risks"
 
+3. **`persona_title`** (Archetype Label) - Short archetype that encapsulates the person
+   - 2-5 words max
+   - Format: "[Domain]'s [Type-Allusive Adjective] [Archetype]" OR "The [Archetype Reference]"
+   - Must subtly allude to their Enneagram type without naming it
+   - Creates instant recognition of who this person is
+   - Example: "Tech's Mad Scientist" (Elon Musk, Type 5)
+
 **How it works technically:**
 
 - `PeopleBlogPageHead.svelte` uses: `data?.meta_title || data?.title`
 - Search results and social cards show `meta_title` (if exists)
 - The page itself displays `title` via `ArticleTitle` component
+- `persona_title` is stored in `famousTypes.ts` and displayed on listing pages
 
-**Generate frontmatter with BOTH titles:**
+**Generate frontmatter with ALL THREE title fields:**
 
 ```yaml
 ---
 title: '[Person Name]: [Evergreen Enneagram Analysis Title]'
 meta_title: '[Clickbait/Problem-Focused Title for SEO]'
+persona_title: '[Domain]'s [Type-Allusive Descriptor]'
 description: '[SEO-optimized meta description under 155 chars - problem-focused]'
 author: 'DJ Wayne'
 date: '[YYYY-MM-DD]'
@@ -224,6 +233,58 @@ instagram: '[handle if available]'
 tiktok: '[handle if available]'
 ---
 ```
+
+### 4.1 **Persona Title Generation Guidelines:**
+
+**Format Patterns:**
+- `"[Domain]'s [Adjective] [Archetype]"` - e.g., "Hollywood's Quiet Force"
+- `"The [Adjective] [Archetype]"` - e.g., "The Principled Steward"
+- `"[Domain]'s [Compound Descriptor]"` - e.g., "Pop's Heartbreak Alchemist"
+
+**Type-Specific Vocabulary (use these to allude to their Enneagram):**
+
+| Type | Core Essence | Adjectives to Use | Archetypes to Use |
+|------|--------------|-------------------|-------------------|
+| **1** | Perfectionist/Reformer | Principled, Uncompromising, Earnest, Moral | Crusader, Perfectionist, Reformer, Visionary, Conscience |
+| **2** | Helper/Giver | Devoted, Approachable, Tender, Nurturing | Helper, Servant, Caretaker, Ambassador, Confessor |
+| **3** | Achiever/Performer | Self-Made, Polished, Relentless, Calculated | Achiever, Architect, Reinventor, Machine, Star |
+| **4** | Individualist/Romantic | Melancholic, Reclusive, Tortured, Haunted | Artist, Poet, Rebel, Enigma, Outsider |
+| **5** | Investigator/Observer | Methodical, Intense, Cold, Silent | Architect, Strategist, Observer, Recluse, Mind |
+| **6** | Loyalist/Skeptic | Loyal, Anxious, Trusted, Skeptical, Steady | Guardian, Watchdog, Skeptic, Patriarch, Anchor |
+| **7** | Enthusiast/Adventurer | Restless, Manic, Boundless, Chaotic | Pioneer, Showman, Adventurer, Spark, Optimist |
+| **8** | Challenger/Protector | Fierce, Unapologetic, Uncompromising, Alpha | Titan, Force, Brawler, Warrior, Disruptor |
+| **9** | Peacemaker/Mediator | Gentle, Quiet, Easygoing, Laid-Back, Steady | Philosopher, Bridge-Builder, Anchor, Giant, Presence |
+
+**Persona Title Examples by Type:**
+
+| Type | Person | Persona Title |
+|------|--------|---------------|
+| 1 | Steve Jobs | Tech's Uncompromising Visionary |
+| 1 | Greta Thunberg | Climate's Unrelenting Crusader |
+| 2 | Mr. Rogers | The Neighborhood Saint |
+| 2 | Oprah Winfrey | America's Confessor |
+| 3 | Taylor Swift | Pop's Heartbreak Alchemist |
+| 3 | Kim Kardashian | Fame's Self-Made Architect |
+| 4 | Billie Eilish | Gen Z's Whispered Rebellion |
+| 4 | Johnny Depp | Hollywood's Beautiful Outsider |
+| 5 | Elon Musk | Tech's Mad Scientist |
+| 5 | Bill Gates | Tech's Methodical Mogul |
+| 6 | Tom Hanks | America's Trusted Dad |
+| 6 | Eminem | Detroit's Anxious Assassin |
+| 7 | Ryan Reynolds | Hollywood's Wit Machine |
+| 7 | Kanye | Genius's Manic Prophet |
+| 8 | Beyoncé | Pop's Untouchable Queen |
+| 8 | Joe Rogan | Podcasting's Alpha Interrogator |
+| 9 | Keanu Reeves | Hollywood's Gentle Warrior |
+| 9 | Barack Obama | America's Bridge-Builder |
+
+**Key Rules for Persona Titles:**
+1. **Never explicitly mention Enneagram** - The type should be subtly implied through vocabulary
+2. **Keep it short** - 2-5 words maximum
+3. **Domain first** - Start with their field (Hollywood, Tech, Pop, Comedy, Politics, etc.)
+4. **Use possessive form** - "[Domain]'s" reads better than "The [Domain]"
+5. **Make it memorable** - Should feel like a wrestling name or comic book epithet
+6. **Capture their essence** - Someone familiar with them should think "yes, that's exactly right"
 
 **Title Formula Examples:**
 
@@ -478,6 +539,7 @@ payload = {
     "lastmod": "YYYY-MM-DD",  # Use today's date
     "title": "The Evergreen Page Title",
     "meta_title": "The Clickbait SEO Title",
+    "persona_title": "Domain's Type-Allusive Archetype",  # e.g., "Hollywood's Quiet Force"
     "description": "Meta description under 155 chars"
 }
 
@@ -553,6 +615,7 @@ payload = {
     "person": "First-Last",
     "title": "Evergreen Title",
     "meta_title": "Clickbait SEO Title",
+    "persona_title": "Domain's Type-Allusive Archetype",  # e.g., "Hollywood's Quiet Force"
     "description": "Meta description",
     "author": "DJ Wayne",
     "date": "YYYY-MM-DD",
@@ -964,6 +1027,7 @@ payload = {
     "person": "Person-Name",
     "title": "Evergreen Title Here",
     "meta_title": "Clickbait SEO Title Here",
+    "persona_title": "Domain's Type-Allusive Archetype",  # e.g., "Hollywood's Quiet Force"
     "description": "Meta description under 155 chars",
     "author": "DJ Wayne",
     "date": "YYYY-MM-DD",
@@ -1022,6 +1086,7 @@ payload = {
     "lastmod": "YYYY-MM-DD",
     "title": "Updated Evergreen Title",
     "meta_title": "Updated Clickbait Title",
+    "persona_title": "Domain's Type-Allusive Archetype",  # e.g., "Hollywood's Quiet Force"
     "description": "Updated description",
     "suggestions": ["Similar-Person-1", "Similar-Person-2", "Similar-Person-3", "Similar-Person-4"]  # Optional - include if updating
 }

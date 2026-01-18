@@ -53,6 +53,8 @@ Just do it.
 
 Choosing a career path is a big task. Finding a happy medium between making money and not hating your life is hard. This is where understanding your Enneagram type can help (<a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type" >beginner's guide here</a>).
 
+If your role is fine but your day-to-day execution feels like a fight, start with [productivity systems by Enneagram type](/how-to-guides/productivity-systems-by-enneagram-type).
+
 ## Why the Enneagram Matters in Career Choice
 
 The Enneagram is more than just a personality test; it's a deep dive into what drives you, what you value, and how you interact with the world. By understanding your type, you can:

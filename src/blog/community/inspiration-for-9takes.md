@@ -221,6 +221,8 @@ The Enneagram has nine core types. For every question, there are at least nine p
 
 That's where the name came from: **9takes**.
 
+And the Greek aesthetic is a nod to question-first discourse—here’s [why the Greek vibe](/community/why-the-greek-vibe).
+
 One question. Nine ways to see it. And finally — a place to explore them all.
 
 <style lang="scss">

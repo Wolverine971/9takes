@@ -56,6 +56,8 @@ Can you answer these:
 
 If you struggled with those questions, you're not alone. A [survey of 400 corporations](https://www.inc.com/michael-schneider/the-extrovert-vs-introvert-dynamic-could-be-costing-your-organization-millions-heres-how-to-bridge-communication-gap.html) by consultant David Grossman found that poor communication costs companies with 100,000+ employees a combined $37 billion annually in mistakes, misunderstandings, and missed opportunities.
 
+If you don’t have the vocabulary to name emotions (yours or theirs), start with [The Crash Course on Emotions We All Missed in Kindergarten](/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten).
+
 Most people rate themselves above-average listeners. It's the same bias that makes most drivers think they're better than average.
 
 ## The Neuroscience of Why You Can't Listen (It's Not Your Fault)
@@ -247,6 +249,8 @@ Body language, micro-expressions, energy shifts.
 ### Layer 4: The Negative Space (25% of the message)
 
 What they avoid, deflect, or skip.
+
+Sometimes the negative space is consent—like when a conversation turns into a trauma dump you didn’t sign up for. If that’s a recurring dynamic, see [why people overshare](/enneagram-corner/oversharing-psychology-shame-boundaries).
 
 **Prompt:** "I noticed you didn't mention your manager. How did they react?"
 

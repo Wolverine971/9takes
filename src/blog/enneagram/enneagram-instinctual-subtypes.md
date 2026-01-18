@@ -35,6 +35,8 @@ Your subtype is WHY two people of the same Enneagram type can seem completely di
 The Enneagram goes beyond its nine core types by introducing three instinctual subtypes—Self-Preservation, Social, and One-to-One. Each subtype reflects how we meet our fundamental needs and shapes our priorities in relationships, work, and personal well-being. By understanding your dominant (and secondary) instinct, you can gain deeper insight into how you navigate daily life, relationships, and challenges.
 </p>
 
+New to the system? Start with the [quick Enneagram overview](/enneagram-corner/enneagram-tldr), then come back here.
+
 ## Why Instinctual Subtypes Matter
 
 Each of us has all three instincts, but we **prioritize** them differently. Your **dominant** instinct often drives your core behaviors and motivations. Your **secondary** instinct surfaces as needed, while your **blind spot** might be an area of underdevelopment or neglect.
@@ -43,11 +45,15 @@ Each of us has all three instincts, but we **prioritize** them differently. Your
 - **Social (SO)**: Emphasizes community, group dynamics, and belonging.
 - **One-to-One (SX)**: Also called “sexual” instinct; seeks intense, close bonds or experiences.
 
+Your instinctual stacking also interacts with your wing—see [the complete Enneagram wings guide](/enneagram-corner/enneagram-wings-complete-guide).
+
 ### A Note on Limitations and Disclaimers
 
 - The Enneagram, including its instinctual subtypes, is a **personal growth framework**, not a scientifically validated diagnostic tool.
 - These insights are intended for **self-reflection** and **improvement**, not to label or confine you.
 - If you have serious psychological or emotional concerns, please consult a qualified mental health professional.
+
+For the rest of the system (wings, lines, triads), see [Enneagram concepts](/enneagram-corner/enneagram-concepts).
 
 ## References and Further Reading
 
@@ -61,7 +67,7 @@ Curious to dive deeper into the theoretical background of instinctual subtypes? 
 
 ## Detailed Breakdown: Each Enneagram Type and Its Subtypes
 
-Below, we’ll explore how each subtype can alter the expression of the nine Enneagram types. If you’re not sure about your core type, consider reading the respective [Enneagram Type pages](https://9takes.com/enneagram-corner/) before diving into subtypes.
+Below, we’ll explore how each subtype can alter the expression of the nine Enneagram types. If you’re not sure about your core type, start with our [beginner's guide to determining your Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) before diving into subtypes.
 
 ### The Perfectionist ([Type 1](/enneagram-corner/enneagram-type-1))
 

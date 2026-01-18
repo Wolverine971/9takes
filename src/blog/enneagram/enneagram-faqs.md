@@ -82,6 +82,8 @@ Many people use both. They're measuring different things.
 
 <strong>Full comparison:</strong> <a href="/enneagram-corner/enneagram-vs-meyers-briggs">Enneagram vs MBTI detailed breakdown</a>
 
+<strong>More context:</strong> <a href="/community/mbti-vs-enneagram">MBTI Failed Us — Can the Enneagram Do Better?</a>
+
 </div>
 </details>
 

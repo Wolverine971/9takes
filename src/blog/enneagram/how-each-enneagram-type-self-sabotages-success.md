@@ -144,6 +144,8 @@ This isn't about willpower. It's not a character flaw. And telling yourself to "
 
 The good news? Once you see your pattern clearly, you can start to interrupt it. Not perfectly. Not overnight. But consistently.
 
+If you want a practical system to work with (instead of relying on willpower), start with [productivity systems by Enneagram type](/how-to-guides/productivity-systems-by-enneagram-type).
+
 Let's break down exactly how each type gets in their own way. Pay attention to which one makes you uncomfortable. That's probably yours.
 
 <div style="overflow: hidden;">

@@ -157,6 +157,8 @@ Those who favor measurable data are often quick to point out the shortcomings of
 
 All personality systems attempt to explain the dimensions by which we are similar and different. But one personality system does it better than the rest.
 
+If you want the deeper debate about whether humans are fundamentally rational (or driven by something messier), see [The Consensus on Human Nature](/community/consensus-on-human-nature).
+
 And that personality system is the Enneagram.
 
 Why is the Enneagram so accurate? Because it bases the personality types on emotions.

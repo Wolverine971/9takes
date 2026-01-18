@@ -100,6 +100,8 @@ The Socratic method wasn't about winning arguments. It was about:
 - **Following logic** wherever it led, even to uncomfortable conclusions
 - **Recognizing multiple valid perspectives** on complex issues
 
+If you want the deeper “what is human nature?” debate behind all of this, start with [The Consensus on Human Nature](/community/consensus-on-human-nature).
+
 Sound familiar? This is exactly what's missing from modern online discourse.
 
 ### Why Modern Social Media Fails at Discourse
