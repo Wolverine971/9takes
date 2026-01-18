@@ -3262,6 +3262,15 @@ export type Database = {
         }
         Returns: Json
       }
+      get_recent_people_by_type: {
+        Args: { people_per_type?: number }
+        Returns: {
+          enneagram: string
+          lastmod: string
+          person: string
+          persona_title: string
+        }[]
+      }
       get_user_question_comments: {
         Args: { authorid: string }
         Returns: {

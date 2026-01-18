@@ -1,6 +1,5 @@
 // src/routes/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { famousTypes } from '$lib/components/molecules/famousTypes';
 
 export interface FamousPerson {
 	name: string;
@@ -52,42 +51,46 @@ export const load: PageServerLoad = async ({ locals }) => {
 		console.error('Error fetching featured people:', featuredPeopleError);
 	}
 
-	// Build images array for 9 types grid (one per type)
+	// Get the 6 most recently modified people per type using RPC (efficient window function)
+	const { data: recentByType, error: recentByTypeError } = await locals.supabase.rpc(
+		'get_recent_people_by_type',
+		{ people_per_type: 6 }
+	);
+
+	if (recentByTypeError) {
+		console.error('Error fetching recent people by type:', recentByTypeError);
+	}
+
+	// Group by type and pick one random person from each type's recent 6
 	const typeRepresentatives: FamousPerson[] = [];
-	const gridSize = 9;
+	const peopleByType: Map<string, typeof recentByType> = new Map();
 
-	Object.keys(famousTypes).forEach((keyStr, i) => {
-		if (i < gridSize) {
-			const key = Number(keyStr);
-			// Prioritize people with links (published profiles)
-			const group = famousTypes[key]
-				.filter((person) => person.hasImage && person.link)
-				.sort(() => Math.random() - 0.5);
-
-			if (group.length > 0) {
-				const person = group[0];
-				typeRepresentatives.push({
-					name: person.name,
-					type: key,
-					hasImage: person.hasImage,
-					hasLink: person.link,
-					personaTitle: person.personaTitle ?? null
-				});
-			} else {
-				// Fallback to anyone with an image
-				const fallback = famousTypes[key].find((p) => p.hasImage);
-				if (fallback) {
-					typeRepresentatives.push({
-						name: fallback.name,
-						type: key,
-						hasImage: fallback.hasImage,
-						hasLink: fallback.link,
-						personaTitle: fallback.personaTitle ?? null
-					});
-				}
+	// Group the RPC results by enneagram type
+	if (recentByType) {
+		for (const person of recentByType) {
+			if (!peopleByType.has(person.enneagram)) {
+				peopleByType.set(person.enneagram, []);
 			}
+			peopleByType.get(person.enneagram)!.push(person);
 		}
-	});
+	}
+
+	// Pick one random person from each type's recent 6
+	for (let type = 1; type <= 9; type++) {
+		const typeKey = String(type);
+		const group = peopleByType.get(typeKey) || [];
+		if (group.length > 0) {
+			const randomIndex = Math.floor(Math.random() * group.length);
+			const person = group[randomIndex];
+			typeRepresentatives.push({
+				name: person.person,
+				type: Number(person.enneagram),
+				hasImage: true,
+				hasLink: true,
+				personaTitle: person.persona_title ?? null
+			});
+		}
+	}
 
 	return {
 		user: session?.user ?? null,

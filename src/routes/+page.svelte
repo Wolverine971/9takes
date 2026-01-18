@@ -13,25 +13,65 @@
 	let observer: IntersectionObserver | null = null;
 	let sectionsVisible = $state(Array(6).fill(browser ? false : true));
 
-	// The 9 Shadow Types with colors
+	// The 9 Shadow Types with colors and emotional stance phrases
 	const shadowTypes: Record<
 		number,
-		{ name: string; title: string; color: string; coreEmotion: string }
+		{ name: string; title: string; color: string; stancePhrase: string }
 	> = {
 		1: {
 			name: 'The Perfectionist',
 			title: 'Knight of Order',
 			color: '#a8dadc',
-			coreEmotion: 'Anger'
+			stancePhrase: 'internalizes anger'
 		},
-		2: { name: 'The Helper', title: 'Heart Guardian', color: '#ff6b6b', coreEmotion: 'Shame' },
-		3: { name: 'The Achiever', title: 'Victory Blade', color: '#fbbf24', coreEmotion: 'Shame' },
-		4: { name: 'The Individualist', title: 'Soul Weaver', color: '#c084fc', coreEmotion: 'Shame' },
-		5: { name: 'The Investigator', title: 'Mind Phantom', color: '#22d3ee', coreEmotion: 'Fear' },
-		6: { name: 'The Loyalist', title: 'Iron Guard', color: '#64748b', coreEmotion: 'Fear' },
-		7: { name: 'The Enthusiast', title: 'Storm Rider', color: '#fb923c', coreEmotion: 'Fear' },
-		8: { name: 'The Challenger', title: 'War Commander', color: '#ef4444', coreEmotion: 'Anger' },
-		9: { name: 'The Peacemaker', title: 'Harmony Sage', color: '#4ade80', coreEmotion: 'Anger' }
+		2: {
+			name: 'The Helper',
+			title: 'Heart Guardian',
+			color: '#ff6b6b',
+			stancePhrase: 'represses shame'
+		},
+		3: {
+			name: 'The Achiever',
+			title: 'Victory Blade',
+			color: '#fbbf24',
+			stancePhrase: 'compensates for shame'
+		},
+		4: {
+			name: 'The Individualist',
+			title: 'Soul Weaver',
+			color: '#c084fc',
+			stancePhrase: 'identifies with shame'
+		},
+		5: {
+			name: 'The Investigator',
+			title: 'Mind Phantom',
+			color: '#22d3ee',
+			stancePhrase: 'withdraws from fear'
+		},
+		6: {
+			name: 'The Loyalist',
+			title: 'Iron Guard',
+			color: '#64748b',
+			stancePhrase: 'engages with fear'
+		},
+		7: {
+			name: 'The Enthusiast',
+			title: 'Storm Rider',
+			color: '#fb923c',
+			stancePhrase: 'reframes fear'
+		},
+		8: {
+			name: 'The Challenger',
+			title: 'War Commander',
+			color: '#ef4444',
+			stancePhrase: 'expresses anger'
+		},
+		9: {
+			name: 'The Peacemaker',
+			title: 'Harmony Sage',
+			color: '#4ade80',
+			stancePhrase: 'suppresses anger'
+		}
 	};
 
 	// Benefits/How it works content
@@ -366,12 +406,11 @@
 										{#if person.personaTitle}
 											<span class="type-title">{person.personaTitle}</span>
 										{/if}
-										<span class="type-name">{typeInfo.name}</span>
+										<span class="type-name">{typeInfo.name} – {typeInfo.stancePhrase}</span>
 									</div>
 
 									<div class="type-meta">
-										<span class="meta-label">Core:</span>
-										<span class="meta-value">{typeInfo.coreEmotion}</span>
+										<span class="meta-value">{person.name.split('-').join(' ')}</span>
 									</div>
 								</div>
 							</a>
@@ -1214,26 +1253,28 @@
 	}
 
 	.type-name {
+		display: none;
 		font-size: 0.75rem;
 		color: var(--text-pale);
 	}
 
 	@media (min-width: 640px) {
 		.type-name {
+			display: block;
 			font-size: 0.85rem;
 		}
 	}
 
 	.type-meta {
-		display: none;
 		margin-top: 0.5rem;
 		font-family: var(--font-mono);
-		font-size: 0.6rem;
+		font-size: 0.7rem;
 	}
 
 	@media (min-width: 640px) {
 		.type-meta {
 			display: block;
+			font-size: 0.6rem;
 		}
 	}
 
