@@ -53,8 +53,11 @@
 		if (!searchQuery) return true;
 		const comment = c?.comment?.toLowerCase() ?? '';
 		const blogLink = c?.blog_link?.toLowerCase() ?? '';
+		const email = c?.profiles?.email?.toLowerCase() ?? '';
 		return (
-			comment.includes(searchQuery.toLowerCase()) || blogLink.includes(searchQuery.toLowerCase())
+			comment.includes(searchQuery.toLowerCase()) ||
+			blogLink.includes(searchQuery.toLowerCase()) ||
+			email.includes(searchQuery.toLowerCase())
 		);
 	});
 
@@ -362,9 +365,14 @@
 									<p class="comment-text">{blogComment?.comment || 'No comment text'}</p>
 								</div>
 								<div class="comment-footer">
-									<a href="/{blogComment.blog_type}/{blogComment?.blog_link}" class="meta-link">
-										{blogComment?.blog_link?.replace(/-/g, ' ') ?? 'Unknown blog'}
-									</a>
+									<div class="comment-meta">
+										<a href="/{blogComment.blog_type}/{blogComment?.blog_link}" class="meta-link">
+											{blogComment?.blog_link?.replace(/-/g, ' ') ?? 'Unknown blog'}
+										</a>
+										<a href="/users/{blogComment?.profiles?.external_id}" class="meta-link">
+											{blogComment?.profiles?.email || 'Anonymous'}
+										</a>
+									</div>
 									<span class="comment-date">
 										{convertDateToReadable(blogComment.created_at ?? '')}
 									</span>

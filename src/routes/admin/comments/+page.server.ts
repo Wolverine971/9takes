@@ -200,6 +200,7 @@ export const load: PageServerLoad = async (event) => {
 					'blog_comments',
 					page,
 					{
+						selectionFields: `*, profiles (*)`,
 						limit: PAGE_SIZE
 					},
 					locals.supabase
