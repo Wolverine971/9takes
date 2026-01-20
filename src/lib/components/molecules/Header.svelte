@@ -71,7 +71,22 @@
 						class="account-button"
 						aria-label="Go to account"
 					>
-						<img src="/brand/account-icon2.png" alt="Account" width="30" height="30" />
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="30"
+							height="30"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="account-icon"
+						>
+							<circle cx="12" cy="12" r="10" />
+							<circle cx="12" cy="10" r="3" />
+							<path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662" />
+						</svg>
 					</button>
 				{/if}
 			</div>
@@ -162,14 +177,23 @@
 			<div class="flex items-center gap-3">
 				{#if data?.user}
 					<AdminMessageReceiver user={data.user} />
-					<a href="/account" class="account-button" aria-label="Go to account">
-						<img
-							src="/brand/account-icon2.png"
-							alt="Account"
-							title="Account"
+					<a href="/account" class="account-button" aria-label="Go to account" title="Account">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
 							width="30"
 							height="30"
-						/>
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="account-icon"
+						>
+							<circle cx="12" cy="12" r="10" />
+							<circle cx="12" cy="10" r="3" />
+							<path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662" />
+						</svg>
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
 					<a href="/login" class="btn btn-primary"> Login / Register </a>

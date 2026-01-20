@@ -1575,6 +1575,16 @@
 		transform: scale(1.1);
 		border-color: var(--shadow-monarch);
 	}
+
+	svg {
+		color: var(--primary);
+		transition: transform 0.2s ease, color 0.2s ease;
+	}
+
+	&:hover svg {
+		transform: scale(1.1);
+		color: var(--shadow-monarch);
+	}
 }
 
 .dropdown-arrow {
