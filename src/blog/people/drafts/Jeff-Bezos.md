@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jeff_Bezos'
 twitter: 'JeffBezos'
 instagram: 'jeffbezos'
 tiktok: ''
+path: src/blog/people/drafts/Jeff-Bezos.md
 ---
 
 <QuickAnswer question="Is Jeff Bezos a narcissist or just incredibly driven?">

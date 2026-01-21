@@ -1,3 +1,4 @@
+-- supabase/migrations/20260118_add_persona_titles.sql
 -- Migration: Add persona_titles to famous people
 -- Created: 2026-01-18
 -- Purpose: Workshop file for persona_titles - each title should be unique and subtly enneagram-inspired

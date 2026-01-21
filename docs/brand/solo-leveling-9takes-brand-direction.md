@@ -1,3 +1,5 @@
+<!-- docs/brand/solo-leveling-9takes-brand-direction.md -->
+
 # 9takes Brand Direction: Solo Leveling Aesthetic + Personality Maxing
 
 _Working Document for Brand Iteration_

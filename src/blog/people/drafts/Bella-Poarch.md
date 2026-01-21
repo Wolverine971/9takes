@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Bella_Poarch'
 twitter: 'https://twitter.com/bellapoarch'
 instagram: 'https://www.instagram.com/bellapoarch/'
 tiktok: 'https://www.tiktok.com/@bellapoarch'
+path: src/blog/people/drafts/Bella-Poarch.md
 ---
 
 > "My parents wouldn't allow me and my brother to talk at home – to just have no voice at all. We were only allowed to say yes or no. That's how I grew up in the Philippines."

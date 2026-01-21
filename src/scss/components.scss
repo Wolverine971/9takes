@@ -1578,7 +1578,9 @@
 
 	svg {
 		color: var(--primary);
-		transition: transform 0.2s ease, color 0.2s ease;
+		transition:
+			transform 0.2s ease,
+			color 0.2s ease;
 	}
 
 	&:hover svg {

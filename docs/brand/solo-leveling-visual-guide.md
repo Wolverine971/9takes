@@ -1,3 +1,5 @@
+<!-- docs/brand/solo-leveling-visual-guide.md -->
+
 # 9takes — Solo Leveling Visual Style Guide
 
 _Updated: January 2026_

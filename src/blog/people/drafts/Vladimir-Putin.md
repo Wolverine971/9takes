@@ -18,6 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Vladimir_Putin'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Vladimir-Putin.md
 ---
 
 > "There is no such thing as a former KGB man."

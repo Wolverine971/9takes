@@ -1,3 +1,5 @@
+<!-- docs/BLOG-CROSSLINK-OPPORTUNITIES.md -->
+
 # Blog Crosslink Opportunities
 
 _Generated: 2026-01-18_

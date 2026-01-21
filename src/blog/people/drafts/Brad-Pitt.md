@@ -17,6 +17,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Brad-Pitt.md
 ---
 
 <p class="firstLetter">Something about Brad Pitt doesn't add up.</p>

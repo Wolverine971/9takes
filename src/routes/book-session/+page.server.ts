@@ -2,6 +2,8 @@
 import { fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
 import { verifyRecaptcha } from '$lib/utils/recaptcha';
+import { sendEmail } from '$lib/email/sender';
+import { PRIVATE_ADMIN_EMAIL } from '$env/static/private';
 
 // Common disposable email domains
 const DISPOSABLE_EMAIL_DOMAINS = new Set([
@@ -64,6 +66,17 @@ const MIN_FORM_TIME_MS = 3000; // 3 seconds
 // Rate limit: max submissions per IP in time window
 const RATE_LIMIT_COUNT = 3;
 const RATE_LIMIT_WINDOW_HOURS = 1;
+
+function escapeHtml(text: string): string {
+	const htmlEntities: Record<string, string> = {
+		'&': '&amp;',
+		'<': '&lt;',
+		'>': '&gt;',
+		'"': '&quot;',
+		"'": '&#39;'
+	};
+	return text.replace(/[&<>"']/g, (char) => htmlEntities[char]);
+}
 
 export const actions: Actions = {
 	/**
@@ -303,9 +316,39 @@ export const actions: Actions = {
 				secure: process.env.NODE_ENV === 'production'
 			});
 
-			// Send confirmation email
-			// This would be implemented with your email service
-			// await sendConfirmationEmail(email, name);
+			// Notify admin of new waitlist signup (do not block signup on email failure)
+			try {
+				const safeName = escapeHtml(name);
+				const safeEmail = escapeHtml(email);
+				const safeEnneagramType = enneagramType ? escapeHtml(enneagramType) : 'N/A';
+				const safeSessionGoal = escapeHtml(sessionGoal).replace(/\n/g, '<br />');
+				const safeSource = source ? escapeHtml(source) : 'N/A';
+
+				const safeUtmSource = utmSource ? escapeHtml(utmSource) : 'N/A';
+				const safeUtmMedium = utmMedium ? escapeHtml(utmMedium) : 'N/A';
+				const safeUtmCampaign = utmCampaign ? escapeHtml(utmCampaign) : 'N/A';
+				const safeUtmContent = utmContent ? escapeHtml(utmContent) : 'N/A';
+
+				const subjectName = name.replace(/[\r\n]+/g, ' ').trim();
+
+				await sendEmail({
+					to: PRIVATE_ADMIN_EMAIL,
+					subject: `New book-session signup: ${subjectName}`.slice(0, 200),
+					htmlContent: `
+<h1>New book-session waitlist signup</h1>
+<p><strong>Name:</strong> ${safeName}</p>
+<p><strong>Email:</strong> <a href="mailto:${safeEmail}">${safeEmail}</a></p>
+<p><strong>Enneagram type:</strong> ${safeEnneagramType}</p>
+<p><strong>Session goal:</strong><br />${safeSessionGoal}</p>
+<p><strong>Waitlist ID:</strong> ${escapeHtml(String(waitlistData?.id ?? 'N/A'))}</p>
+<p><strong>Source:</strong> ${safeSource}</p>
+<p><strong>UTM:</strong> source=${safeUtmSource}, medium=${safeUtmMedium}, campaign=${safeUtmCampaign}, content=${safeUtmContent}</p>
+<p><a class="button" href="https://9takes.com/admin/consulting">Open consulting dashboard</a></p>
+					`.trim()
+				});
+			} catch (e) {
+				console.error('Failed to send admin book-session signup notification email:', e);
+			}
 
 			// Return success
 			return {

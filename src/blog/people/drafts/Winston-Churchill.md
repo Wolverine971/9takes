@@ -17,6 +17,7 @@ twitter: ''
 instagram: ''
 tiktok: ''
 meta_title: 'Winston Churchill Enneagram Type 8 | The Psychology Behind the Legend'
+path: src/blog/people/drafts/Winston-Churchill.md
 ---
 
 <p class="firstLetter">"I've always been blubbery," Winston Churchill once admitted. "You have to get used to it."</p>

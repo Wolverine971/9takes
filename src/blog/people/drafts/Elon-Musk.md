@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Elon_Musk'
 twitter: 'https://twitter.com/elonmusk'
 instagram: 'https://www.instagram.com/elonmusk'
 tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
+path: src/blog/people/drafts/Elon-Musk.md
 ---
 
 <p class="firstLetter">Rockets soaring toward Mars. Electric vehicles upending century-old industries. Brain chips wiring humans to computers. A $720 billion fortune making him the richest person in history.</p>

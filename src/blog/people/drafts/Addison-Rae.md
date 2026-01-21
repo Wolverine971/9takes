@@ -18,6 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Addison_Rae'
 twitter: 'whoisaddison'
 instagram: 'addisonraee'
 tiktok: 'addisonre'
+path: src/blog/people/drafts/Addison-Rae.md
 ---
 
 <p class="firstLetter">In 2021, the internet decided Addison Rae was cringe. By 2026, she was Grammy-nominated.</p>

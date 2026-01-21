@@ -29,6 +29,9 @@ const TYPE_PAGES = [
 	'enneagram-type-9'
 ];
 
+// Include unpublished posts for these blog paths (requested: mental-health + pop-culture)
+const INCLUDE_UNPUBLISHED_PATH_PREFIXES = ['enneagram/mental-health/', 'pop-culture/'];
+
 /**
  * Recursively get all files in a directory
  */
@@ -86,6 +89,15 @@ function getSlugFromPath(filePath) {
  */
 function isTypePage(slug) {
 	return TYPE_PAGES.includes(slug);
+}
+
+function normalizeBlogPath(filePath) {
+	return filePath.replace(/\\/g, '/');
+}
+
+function shouldIncludeUnpublished(filePath) {
+	const normalized = normalizeBlogPath(filePath);
+	return INCLUDE_UNPUBLISHED_PATH_PREFIXES.some((prefix) => normalized.startsWith(prefix));
 }
 
 /**
@@ -168,7 +180,8 @@ function analyzeBlogs() {
 		const fullPath = path.join(BLOG_DIR, file);
 		const content = fs.readFileSync(fullPath, 'utf-8');
 
-		if (!isPublished(content)) {
+		const published = isPublished(content);
+		if (!published && !shouldIncludeUnpublished(file)) {
 			continue;
 		}
 
@@ -180,6 +193,7 @@ function analyzeBlogs() {
 			path: file,
 			title: title.substring(0, 60) + (title.length > 60 ? '...' : ''),
 			fullTitle: title,
+			published,
 			outgoing: outgoingLinks,
 			incoming: []
 		});
@@ -202,6 +216,8 @@ function analyzeBlogs() {
  */
 function generateReport(posts) {
 	const totalPosts = posts.size;
+	const publishedPosts = [...posts.values()].filter((p) => p.published).length;
+	const unpublishedPosts = totalPosts - publishedPosts;
 	const postsWithNoOutgoing = [...posts.values()].filter((p) => p.outgoing.length === 0);
 	const postsWithNoIncoming = [...posts.values()].filter((p) => p.incoming.length === 0);
 	const totalLinks = [...posts.values()].reduce((sum, p) => sum + p.outgoing.length, 0);
@@ -213,7 +229,7 @@ function generateReport(posts) {
 	let md = `# Blog Cross-Link Index
 
 _Generated: ${new Date().toISOString().split('T')[0]}_
-_Total Published Posts Analyzed: ${totalPosts}_
+_Total Posts Analyzed: ${totalPosts} (Published: ${publishedPosts}, Unpublished: ${unpublishedPosts})_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -222,7 +238,9 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total published posts | ${totalPosts} |
+| Total posts | ${totalPosts} |
+| Published posts | ${publishedPosts} |
+| Unpublished posts | ${unpublishedPosts} |
 | Posts with 0 outgoing links | ${postsWithNoOutgoing.length} |
 | Posts with 0 incoming links | ${postsWithNoIncoming.length} |
 | Completely isolated (0 in, 0 out) | ${isolated.length} |
@@ -356,6 +374,9 @@ fs.writeFileSync(OUTPUT_FILE, report);
 console.log(`✅ Report generated: ${OUTPUT_FILE}`);
 console.log(`\n📊 Quick Stats:`);
 console.log(`   Total posts: ${posts.size}`);
+console.log(
+	`   Published: ${[...posts.values()].filter((p) => p.published).length} | Unpublished: ${[...posts.values()].filter((p) => !p.published).length}`
+);
 console.log(
 	`   Posts with 0 outgoing: ${[...posts.values()].filter((p) => p.outgoing.length === 0).length}`
 );

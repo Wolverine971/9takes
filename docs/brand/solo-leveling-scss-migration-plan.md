@@ -1,3 +1,5 @@
+<!-- docs/brand/solo-leveling-scss-migration-plan.md -->
+
 # Solo Leveling SCSS Migration Plan
 
 This document tracks the systematic migration of 9takes from the current purple-light theme to the Solo Leveling dark aesthetic.

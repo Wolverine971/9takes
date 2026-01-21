@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Hillary_Clinton'
 twitter: 'HillaryClinton'
 instagram: 'hillaryclinton'
 tiktok: ''
+path: src/blog/people/drafts/Hillary-Clinton.md
 ---
 
 > "I suppose I could have stayed home and baked cookies and had teas, but what I decided to do was to fulfill my profession."

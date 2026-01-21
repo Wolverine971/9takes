@@ -22,7 +22,7 @@
 		"gen:sitemap": "node scripts/generate-sitemap.js",
 		"gen:famous-types": "node scripts/generate-famous-types.js",
 		"gen:crosslinks": "node scripts/generate-crosslink-report.js",
-		"gen:all": "pnpm format && pnpm gen:types && pnpm gen:famous-types && pnpm gen:sitemap && pnpm gen:crosslinks && label-paths",
+		"gen:all": "pnpm format && pnpm gen:types && pnpm gen:famous-types && pnpm gen:sitemap && pnpm gen:crosslinks && pnpm label-paths",
 		"index:blogs": "node scripts/index-blogs-to-supabase.js",
 		"index:blogs:dry": "node scripts/index-blogs-to-supabase.js --dry-run",
 		"index:blogs:force": "node scripts/index-blogs-to-supabase.js --force"

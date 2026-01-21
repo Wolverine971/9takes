@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Joe_Biden'
 twitter: 'JoeBiden'
 instagram: 'joebiden'
 tiktok: ''
+path: src/blog/people/drafts/Joe-Biden.md
 ---
 
 > "I've been knocked down a lot. And I've learned you can't stay down. You've got to get up."

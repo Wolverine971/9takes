@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
 twitter: 'https://twitter.com/paulg'
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Paul-Graham.md
 ---
 
 > "I think the way to get startup ideas is not to try to think of startup ideas. It's to look for problems, preferably problems you have yourself."

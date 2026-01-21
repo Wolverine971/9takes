@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Adin_Ross'
 twitter: 'adinross'
 instagram: 'adinross'
 tiktok: ''
+path: src/blog/people/drafts/Adin-Ross.md
 ---
 
 <p class="firstLetter">Adin Ross doesn’t just stream. He keeps score.</p>

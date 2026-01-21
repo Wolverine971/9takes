@@ -161,10 +161,9 @@
 {/if}
 
 <style lang="scss">
+	/* Solo Leveling Dark Theme - Pop Culture Article */
 	.pop-culture-article {
-		max-width: 900px;
-		margin: 0 auto;
-		padding: 2rem;
+		color: #cbd5e1;
 	}
 
 	.article-header {
@@ -172,33 +171,32 @@
 
 		&.dark-theme {
 			padding: 2rem;
-			background: linear-gradient(135deg, #1a1a2e 0%, #2d3436 100%);
+			background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
 			border-radius: 16px;
+			border: 1px solid rgba(124, 58, 237, 0.2);
 			color: white;
 
 			:global(h1) {
-				color: white !important;
+				color: #f1f5f9 !important;
 			}
 
 			:global(.article-subtitle) {
-				color: rgba(255, 255, 255, 0.8) !important;
+				color: #94a3b8 !important;
 			}
 		}
 	}
 
 	.content-warning {
-		background: rgba(232, 67, 147, 0.1);
-		border: 2px solid var(--error);
+		background: rgba(239, 68, 68, 0.15);
+		border: 2px solid #ef4444;
 		border-radius: 8px;
 		padding: 1rem;
 		margin-bottom: 1.5rem;
-		color: var(--error-700);
+		color: #f87171;
 		font-size: 0.95rem;
 
-		.dark-theme & {
-			background: rgba(232, 67, 147, 0.2);
-			color: var(--error-light);
-			border-color: var(--error);
+		strong {
+			color: #fca5a5;
 		}
 	}
 
@@ -211,23 +209,19 @@
 		.tag {
 			display: inline-block;
 			padding: 0.25rem 0.75rem;
-			background: rgba(var(--accent-rgb), 0.12);
-			color: var(--primary);
+			background: rgba(124, 58, 237, 0.15);
+			color: #a78bfa;
 			border-radius: 20px;
 			font-size: 0.85rem;
 			font-weight: 500;
-
-			.dark-theme & {
-				background: rgba(255, 255, 255, 0.1);
-				color: rgba(255, 255, 255, 0.9);
-			}
+			border: 1px solid rgba(124, 58, 237, 0.3);
 		}
 	}
 
 	.featured-image {
 		display: flex;
 		justify-content: center;
-		margin: 2rem 0;
+		margin: 1rem 0;
 
 		&.dark-image {
 			:global(img) {
@@ -237,63 +231,120 @@
 	}
 
 	.article-content {
+		margin-bottom: 2rem;
+		line-height: 1.7;
+		color: #cbd5e1;
+
 		:global(h2) {
-			margin-top: 3rem;
-			margin-bottom: 1.5rem;
-			font-size: 1.875rem;
-			font-weight: 700;
-			color: var(--neutral-800);
+			font-size: 1.75rem;
+			font-weight: 600;
+			color: #f1f5f9;
+			margin-top: 2rem;
+			margin-bottom: 1rem;
+			padding-top: 1rem;
+			line-height: 1.3;
 		}
 
 		:global(h3) {
-			margin-top: 2rem;
-			margin-bottom: 1rem;
-			font-size: 1.5rem;
+			font-size: 1.35rem;
 			font-weight: 600;
-			color: var(--neutral-800);
+			color: #f1f5f9;
+			margin-top: 1.5rem;
+			margin-bottom: 0.75rem;
+			line-height: 1.35;
+		}
+
+		:global(h4) {
+			font-size: 1.15rem;
+			font-weight: 600;
+			color: #f1f5f9;
+			margin-top: 1.25rem;
+			margin-bottom: 0.5rem;
+			line-height: 1.4;
 		}
 
 		:global(p) {
-			line-height: 1.7;
-			margin-bottom: 1.25rem;
-			color: var(--text-secondary);
-		}
-
-		:global(blockquote) {
-			border-left: 4px solid var(--primary-700);
-			padding-left: 1.5rem;
-			margin: 2rem 0;
-			font-style: italic;
-			color: var(--neutral-600);
-		}
-
-		:global(blockquote p) {
-			margin-bottom: 0;
+			margin-bottom: 1.2rem;
+			color: #cbd5e1;
 		}
 
 		:global(ul),
 		:global(ol) {
-			margin: 1.5rem 0;
-			padding-left: 2rem;
+			margin: 1rem 0;
+			padding-left: 1.5rem;
+			color: #cbd5e1;
+		}
 
-			:global(li) {
-				margin-bottom: 0.75rem;
-				line-height: 1.7;
+		:global(li) {
+			margin-bottom: 0.5rem;
+			line-height: 1.6;
+		}
+
+		:global(a) {
+			color: #a78bfa;
+			text-decoration: none;
+			transition: color 0.2s ease;
+
+			&:hover {
+				color: #c4b5fd;
+				text-decoration: underline;
+			}
+		}
+
+		:global(blockquote) {
+			margin: 1.5rem 0;
+			padding: 1rem 1.5rem;
+			border-left: 4px solid #7c3aed;
+			background-color: #1a1a2e;
+			font-style: italic;
+			color: #94a3b8;
+			border-radius: 0 8px 8px 0;
+		}
+
+		:global(blockquote p) {
+			margin-bottom: 0;
+			color: #94a3b8;
+		}
+
+		:global(strong) {
+			font-weight: 600;
+			color: #f1f5f9;
+		}
+
+		:global(code) {
+			background-color: #252538;
+			color: #a78bfa;
+			padding: 0.2rem 0.4rem;
+			border-radius: 4px;
+			font-size: 0.9em;
+		}
+
+		:global(pre) {
+			background-color: #0a0a0f;
+			border: 1px solid rgba(100, 116, 139, 0.3);
+			border-radius: 8px;
+			padding: 1rem;
+			overflow-x: auto;
+
+			:global(code) {
+				background: none;
+				padding: 0;
 			}
 		}
 
 		:global(.section-content) {
-			background: var(--neutral-50);
+			background: #1a1a2e;
 			border-radius: 12px;
 			padding: 2rem;
 			margin: 2rem 0;
+			border: 1px solid rgba(124, 58, 237, 0.2);
 		}
 	}
 
 	.related-content {
 		margin-top: 4rem;
 		padding: 3rem;
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
 		border-radius: 20px;
 		color: white;
 
@@ -345,26 +396,74 @@
 	}
 
 	.section-divider {
-		margin: 4rem 0;
+		margin: 5rem 0;
 		border: 0;
-		height: 1px;
-		background: linear-gradient(to right, transparent, var(--neutral-200), transparent);
+		border-top: 1px solid rgba(100, 116, 139, 0.3);
 	}
 
 	.join {
-		margin: 3rem 0;
+		margin-top: 2rem;
 		padding: 2rem;
-		background: var(--neutral-50);
-		border-radius: 16px;
+		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
+		border-radius: 1rem;
+		border: 1px solid rgba(124, 58, 237, 0.2);
 	}
 
+	/* Mobile-specific styles */
 	@media (max-width: 768px) {
-		.pop-culture-article {
-			padding: 1rem;
-		}
-
 		.article-header.dark-theme {
 			padding: 1.5rem;
+		}
+
+		.article-content {
+			margin-bottom: 1rem;
+			overflow-wrap: break-word;
+			word-wrap: break-word;
+
+			/* Mobile header sizes */
+			:global(h2) {
+				font-size: 1.4rem;
+				margin-top: 1.5rem;
+				margin-bottom: 0.75rem;
+				padding-top: 0.75rem;
+			}
+
+			:global(h3) {
+				font-size: 1.15rem;
+				margin-top: 1.25rem;
+				margin-bottom: 0.5rem;
+			}
+
+			:global(h4) {
+				font-size: 1.05rem;
+				margin-top: 1rem;
+				margin-bottom: 0.4rem;
+			}
+
+			:global(p) {
+				font-size: 0.95rem;
+				margin-bottom: 1rem;
+			}
+
+			/* Ensure all images are responsive */
+			:global(img) {
+				max-width: 100%;
+				height: auto;
+				display: block;
+			}
+
+			/* Make embedded content responsive */
+			:global(iframe),
+			:global(video) {
+				max-width: 100%;
+			}
+
+			/* Ensure code blocks don't overflow */
+			:global(pre),
+			:global(code) {
+				overflow-x: auto;
+				word-wrap: normal;
+			}
 		}
 
 		.related-content {

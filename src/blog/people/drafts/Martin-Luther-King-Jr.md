@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Martin-Luther-King-Jr.md
 ---
 
 > "I don't care how long I have to live with this system, I will never accept it."

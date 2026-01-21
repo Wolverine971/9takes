@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Malcolm_X'
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Malcolm-X.md
 ---
 
 > "I'm for truth, no matter who tells it. I'm for justice, no matter who it is for or against."

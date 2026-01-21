@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Oprah_Winfrey'
 twitter: 'https://twitter.com/Oprah'
 instagram: 'https://www.instagram.com/oprah/'
 tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
+path: src/blog/people/drafts/Oprah-Winfrey.md
 ---
 
 <p class="firstLetter">Oprah Winfrey built a $2.8 billion empire on one skill: making people feel seen.</p>

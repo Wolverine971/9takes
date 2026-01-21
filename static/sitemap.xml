@@ -294,7 +294,7 @@
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides/guide-to-fighting-depression</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-21T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -582,7 +582,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-leadership</loc>
-    <lastmod>2025-12-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-21T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1020,7 +1020,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-21T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1056,7 +1056,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide</loc>
-    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-21T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1083,7 +1083,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-21T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1256,6 +1256,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Xi-Jinping.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
+    <lastmod>2026-01-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Donald-Trump.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2330,15 +2339,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Donald-Trump.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Drake</loc>
     <lastmod>2025-12-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2969,12 +2969,6 @@
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/why-people-2-phones-trying-find-answer-without-assuming-bf-anything-negative-people</loc>
-    <lastmod>2024-05-06T18:31:18.244Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
     <loc>https://9takes.com/questions/whats-biggest-lesson-youve-learned-year-2024</loc>
     <lastmod>2024-06-14T22:43:44.077Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -3001,6 +2995,12 @@
 <url>
     <loc>https://9takes.com/questions/how-do-you-figure-out-who-is-right</loc>
     <lastmod>2023-09-02T05:57:30.559Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/why-people-2-phones-trying-find-answer-without-assuming-bf-anything-negative-people</loc>
+    <lastmod>2024-05-06T18:31:18.244Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>

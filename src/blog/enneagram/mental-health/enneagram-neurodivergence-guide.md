@@ -4,7 +4,7 @@ description: 'Explore how ADHD, autism, and other neurodivergent conditions inte
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide'
-lastmod: '2026-01-18'
+lastmod: '2026-01-21'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -37,19 +37,19 @@ NOTES:
 **Neurodivergence can amplify, mask, or reshape how your Enneagram type shows up.** ADHD might crank up Type 7's stimulation seeking, while Type 1 can get stuck in a loop where executive dysfunction triggers mistakes and mistakes trigger harsh self-judgment. Autism can intensify Type 4's feeling of being different, or make Type 5's systematic thinking feel like home. Generic advice fails because you need strategies that respect both your brain wiring and your personality patterns, not one or the other.
 </QuickAnswer>
 
-<p class="firstLetter">Generic ADHD advice doesn't land the same for everyone with ADHD. A Type 1 with ADHD fights a different battle than a Type 7 with ADHD.</p>
+<p class="firstLetter">Generic ADHD advice tells everyone to "embrace the chaos" or "use a planner." That works fine until you're a Type 1 who already has 47 planners and still feels like a failure every time you miss a step.</p>
 
 Same diagnosis. Different friction points.
 
-When you're neurodivergent and you also have a personality, you can't pick one framework and ignore the other. A Type 1 with ADHD isn't only dealing with executive dysfunction. They're also dealing with an inner critic that treats every missed task like a moral failure.
+A Type 1 with ADHD isn't just managing executive dysfunction. They're fighting an inner critic that turns every missed task into evidence of moral failure. A Type 7 with ADHD? Different problem entirely. The chaos might feel good until they're 15 projects deep with nothing finished.
 
-This guide helps you build strategies that fit both.
+This guide maps strategies that address both your brain wiring and your personality patterns.
 
-**Quick note**: The Enneagram is not a clinical tool, and this article cannot diagnose anything. Use it for pattern recognition and better self-advocacy. If you're exploring ADHD, autism, dyslexia, dyspraxia, or sensory processing differences, a formal evaluation can save you years of guessing.
+**Important**: The Enneagram is not clinical. This article can't diagnose you. Use it for pattern recognition and self-advocacy. If you suspect ADHD, autism, dyslexia, dyspraxia, or sensory processing differences, formal evaluation beats years of guessing.
 
-Language note: I'll use "RSD" as shorthand for rejection sensitivity, a term commonly used in ADHD communities (it's not a formal diagnosis).
+One note on language: I use "RSD" as shorthand for rejection sensitivity, a term common in ADHD communities (not a formal diagnosis).
 
-Use this guide like a menu: scan your type, take what fits your lived experience, and leave the rest.
+Use this guide like a menu. Scan your type, take what fits your lived experience, leave the rest.
 
 ## Two Layers, Not One
 
@@ -105,77 +105,70 @@ Your neurodivergence doesn't just sit next to your personality. It changes how y
 
 ### Type 1 + ADHD
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Executive dysfunction vs. perfectionist standards
-- Impulsivity conflicts with control needs
-- Time blindness vs. punctuality values
-- Hyperactivity vs. "proper" behavior
+You hold yourself to high standards. Your brain doesn't always cooperate. This creates a brutal loop: executive dysfunction leads to mistakes, mistakes trigger your inner critic, and the critic's harshness makes everything harder to start.
 
-**How It Manifests**:
+Time blindness clashes with your value of punctuality. Impulsivity conflicts with your need for control. Hyperactivity can feel like a betrayal of "proper" behavior.
 
-- Extreme frustration with ADHD symptoms
-- Hyperfocus on organizing systems
-- RSD (Rejection Sensitive Dysphoria) amplified
-- Compensatory rigid structures
+**What This Looks Like**:
+
+You might build elaborate organizing systems, then feel crushed when they fail. RSD hits harder because criticism confirms your worst fears about yourself. You compensate with rigid structures that work until they don't.
 
 If medication is part of your plan, Type 1 perfectionism can turn it into a moral debate. A thoughtful [medication approach](/enneagram-corner/mental-health/enneagram-medication-mental-health) can support executive function while also working with the inner critic that resists needing help.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Flexible perfectionism ("perfect for me")
-- Visual organization systems
-- Body doubling for tasks
-- Self-compassion practice
-- ADHD coaching with Type 1 understanding
+- "Perfect for me" instead of absolute perfection
+- Visual organization systems that forgive gaps
+- Body doubling for tasks you avoid
+- Self-compassion practice (this is the hardest one)
+- ADHD coaching from someone who understands Type 1 patterns
 
-**Accommodations**:
+**Accommodations Worth Requesting**:
 
-- Written instructions
-- Break large tasks down
-- Movement breaks
+- Written instructions you can reference
+- Large tasks broken into clear steps
+- Movement breaks without shame
 - Noise-canceling headphones
-- Flexible deadlines when possible
+- Flexible deadlines when the task quality matters more than the date
 
 ### Type 1 + Autism
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Rule rigidity intensified
-- Sensory issues with "imperfect" textures
-- Social rules confusion
-- Meltdowns from overwhelm
+Type 1s already have strong internal rules. Autism can intensify this into rigid systematizing that's hard to flex. You might feel like you finally have the structure to do things "right," but implicit social rules create constant confusion.
 
-**How It Manifests**:
+Sensory issues add another layer. An "imperfect" texture, an unexpected noise, or a messy environment can feel morally wrong, not just uncomfortable.
 
-- Extreme systematizing
-- Moral absolutism
-- Difficulty with implicit rules
-- Perfectionism about special interests
+**What This Looks Like**:
 
-**Strategies That Help**:
+You systematize everything. Special interests might become vehicles for perfectionism. Moral absolutism can strain relationships when others don't share your explicit rules. Meltdowns happen when overwhelm breaks through your structure.
 
-- Clear, explicit expectations
-- Sensory-friendly environments
-- Routine with flexibility
-- Stim-friendly spaces
-- Social scripts for ambiguous situations
+**Strategies That Fit**:
+
+- Clear, explicit expectations from others
+- Sensory-friendly environments you control
+- Routine with small, built-in flexibility
+- Stim-friendly spaces where you won't judge yourself
+- Social scripts for the ambiguous situations that drain you
 
 ### Type 1 + Dyslexia
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Reading "imperfections" trigger shame
-- Writing doesn't match internal standards
-- Academic perfectionism harder
-- Spelling errors trigger outsized shame
+Your inner critic has opinions about spelling errors. Every typo, every reading stumble, every piece of writing that doesn't match your internal standards triggers shame. Academic perfectionism becomes harder when the traditional path runs through reading and writing.
 
-**Strategies That Help**:
+**What This Looks Like**:
 
-- Use assistive tech without guilt
-- Reframe dyslexia as difference
-- Alternative demonstration methods
-- Celebrate non-written strengths
+You might avoid writing entirely to prevent imperfection. Or you overcompensate with obsessive proofreading that takes hours. The gap between what you want to produce and what dyslexia allows can feel like a personal failing rather than a processing difference.
+
+**Strategies That Fit**:
+
+- Use assistive tech without treating it as cheating
+- Reframe dyslexia as a different way of processing, not a defect
+- Find alternative ways to demonstrate competence
+- Celebrate your non-written strengths with the same weight you give to writing
 
 <span id="type-2"></span>
 
@@ -183,69 +176,54 @@ If medication is part of your plan, Type 1 perfectionism can turn it into a mora
 
 ### Type 2 + ADHD
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Emotional dysregulation + people focus
-- Impulsive helping without boundaries
-- RSD makes rejection devastating
-- Executive dysfunction affects helping
+Your attention goes to other people's needs. ADHD's emotional dysregulation amplifies every feeling in that space. Rejection sensitivity makes any perceived coldness devastating. You want to help, but executive dysfunction means your helping comes in chaotic bursts rather than sustainable patterns.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Overwhelming emotional reactions
-- Forgetting self-care completely
-- Hyperfocus on others' needs
-- Chaotic helping patterns
+You forget to eat while tracking someone else's emotional state. Impulsive helping ignores your own boundaries. When someone doesn't respond the way you hoped, RSD spirals you. You hyperfocus on others' needs while your own to-do list rots.
 
-Type 2s with ADHD can slip into codependent patterns around helping, especially when people-pleasing becomes a way to regulate rejection sensitivity and emotional swings. If that resonates, the [addiction recovery guide](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) can help you spot compulsive caretaking and rebuild boundaries.
+Type 2s with ADHD can slip into codependent patterns, using people-pleasing to regulate rejection sensitivity and emotional swings. If that resonates, the [addiction recovery guide](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) can help you spot compulsive caretaking and rebuild boundaries.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Emotional regulation skills first
-- Visual boundary reminders
-- Scheduled self-care
-- ADHD systems for helping
-- Medication if appropriate
+- Emotional regulation skills come first (you can't pour from an empty cup if you can't find the cup)
+- Visual boundary reminders in your space
+- Scheduled self-care that's as non-negotiable as helping others
+- Systems for sustainable helping instead of reactive bursts
+- Medication if it helps you regulate
 
 ### Type 2 + Autism
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Misreading social cues while trying to help
-- Masking exhaustion
-- Literal interpretation of needs
-- Sensory overwhelm in social helping
+You genuinely want to help and connect. But autism can make reading social cues harder, which means you're working twice as hard to figure out what people need. Masking exhausts you. Literal interpretation means you might miss when someone says "I'm fine" but isn't.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Scripted helping behaviors
-- Missing nonverbal rejection
-- Helping as special interest
-- Burnout from masking
+You develop scripted helping behaviors that work in most situations. You might miss nonverbal rejection signals until it's too late. Helping can become a special interest, complete with research and systems. The combination of social effort and masking leads to burnout faster than you expect.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Direct communication training
-- Energy management systems
-- Unmasking safe spaces
-- Clear helping boundaries
-- Sensory breaks
+- Ask directly instead of guessing (most people appreciate explicit communication)
+- Energy management systems that account for the extra processing load
+- Safe spaces where you can unmask and recover
+- Clear boundaries around when and how you help
+- Sensory breaks built into social situations
 
 ### Type 2 + Sensory Processing
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Overwhelm in helping environments
-- Touch sensitivity affecting physical care
-- Auditory processing in emotional situations
-- Fatigue from sensory overload
+You want to show up for people. But helping often happens in overwhelming environments: hospitals, crowded events, emotionally charged rooms. Touch sensitivity can make physical care complicated. Auditory processing issues make it hard to track emotional conversations in noisy spaces.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Sensory-friendly helping
-- Alternative care methods
-- Quiet helping spaces
-- Sensory toolkit
+- Help in sensory-friendly ways (texts, quiet coffee, one-on-one instead of group settings)
+- Build a sensory toolkit you bring to helping situations
+- Know your limits and communicate them without guilt
+- Rest is part of sustainable helping
 
 <span id="type-3"></span>
 
@@ -253,69 +231,54 @@ Type 2s with ADHD can slip into codependent patterns around helping, especially 
 
 ### Type 3 + ADHD
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Inconsistent performance
-- Hyperfocus on wrong priorities
-- Time management affecting goals
-- Imposter syndrome intensified
+Your worth feels tied to output. ADHD makes output inconsistent. Some days you're a machine; other days you can't start. Hyperfocus might land on the wrong priority while the deadline looms. Time blindness makes goals harder to reach. And imposter syndrome gets louder every time you underperform.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Extreme compensation strategies
-- Burnout from overwork
-- Hidden struggles
-- Worth tied to output
+You develop extreme compensation strategies that others don't see. Over-prepping. Late nights. Constant sprinting to maintain the image of someone who has it together. Your struggles stay hidden because admitting them feels like failure.
 
-Many Type 3s mask neurodivergent challenges to maintain an image of competence. You might still deliver, but at the cost of constant sprinting, over-prepping, or pulling late nights. That pattern feeds burnout and [workplace mental health issues](/enneagram-corner/mental-health/enneagram-workplace-mental-health).
+Many Type 3s mask neurodivergent challenges to maintain an image of competence. You might still deliver, but the cost is burnout. That pattern feeds serious [workplace mental health issues](/enneagram-corner/mental-health/enneagram-workplace-mental-health).
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Redefine success inclusively
-- ADHD-friendly productivity
-- Open about challenges
-- Celebrate ADHD strengths
-- Sustainable achievement
+- Redefine success to include sustainability, not just results
+- Build ADHD-friendly productivity systems instead of forcing neurotypical ones
+- Strategic disclosure when it serves you
+- Celebrate what ADHD gives you: energy, creativity, hyperfocus when it aligns
+- Achievement pacing that doesn't require constant sprinting
 
 ### Type 3 + Autism
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Social performance exhausting
-- Literal goal interpretation
-- Missing unwritten success rules
-- Masking for achievement
+Achievement often requires social performance. For autistic Type 3s, that performance is exhausting. You might miss unwritten success rules that neurotypical peers navigate instinctively. Masking for achievement is a double layer of performance: acting successful and acting neurotypical.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Systematic achievement approach
-- Special interest excellence
-- Social exhaustion
-- Rule-based success
+You approach achievement systematically, which can be a strength. Special interests might drive excellence in specific domains. But social exhaustion catches up. You succeed by rules, then discover the rules changed and nobody told you.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Authentic success definition
-- Unmask strategically
-- Play to autistic strengths
-- Clear success metrics
-- Recovery time built in
+- Define success on your terms, not implied social expectations
+- Unmask strategically in environments that allow it
+- Play to autistic strengths: detail, focus, pattern recognition
+- Demand clear success metrics instead of vague "visibility"
+- Build recovery time into your achievement schedule
 
 ### Type 3 + Dyslexia
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Academic achievement harder
-- Written performance issues
-- Speed reading challenges
-- Traditional success paths blocked
+Traditional achievement paths run through reading and writing. Academic success, professional credibility, thought leadership. Dyslexia can block or slow these paths, which feels like a threat to your identity as an achiever.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Alternative success paths
-- Assistive tech and systems
-- Verbal/visual strengths
-- Reframe dyslexia positively
+- Find alternative paths to achievement that don't depend on reading speed
+- Use assistive tech confidently (successful people use tools)
+- Lean into verbal and visual strengths
+- Reframe dyslexia as a different processing style, not a limitation on what you can achieve
 
 <span id="type-4"></span>
 
@@ -323,39 +286,30 @@ Many Type 3s mask neurodivergent challenges to maintain an image of competence. 
 
 ### Type 4 + ADHD
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Emotional dysregulation squared
-- Identity confusion intensified
-- Creative chaos
-- RSD amplifies abandonment fears
+You already feel things deeply. ADHD's emotional dysregulation amplifies that to overwhelming levels. Identity feels fluid, which can be interesting until it becomes destabilizing. RSD feeds directly into abandonment fears: every perceived rejection confirms you're fundamentally different in a way that makes connection impossible.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Extreme emotional swings
-- Hyperfocus on identity
-- Creative bursts and blocks
-- Impulsive self-expression
+Emotional swings that feel like weather you can't predict. Hyperfocus on identity questions (who am I, really?) that burns hours without resolution. Creative bursts that produce brilliant work, followed by blocks that feel like your essence has dried up. Impulsive self-expression you later regret.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- DBT skills essential
-- Creative routine structure
-- Emotional regulation first
-- ADHD as part of uniqueness
-- Stable identity anchors
+- DBT skills are essential (emotional regulation tools you can actually use)
+- Structure your creative time even when it feels like it kills spontaneity
+- Stable identity anchors: things about you that don't change with mood
+- Integrate ADHD into your uniqueness rather than treating it as a flaw
+- Medication can take the edge off without flattening you
 
 ### Type 4 + Autism
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Feeling different intensified
-- Social isolation
-- Emotional expression differences
-- Identity through special interests
+Type 4s already feel fundamentally different from others. Autism intensifies this. Social isolation can feel both like a wound and a relief. You might express emotions differently than neurotypical people expect, which creates misunderstanding even when you're being authentic.
 
 <a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
-  <PopCard 
+  <PopCard
       image="/blogs/greek-statue-surrounded-by-snowflakes.webp"
       displayText="Find Neurodivergent-Affirming Support"
       showIcon={false}
@@ -364,36 +318,30 @@ Many Type 3s mask neurodivergent challenges to maintain an image of competence. 
   />
 </a>
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Deep special interest identity
-- Unique stimming expressions
-- Artistic systemizing
-- Authentic but misunderstood
+Special interests become core to your identity. Your stimming might be artistic or expressive. You systematize creativity in ways that feel natural to you but confuse others. You're authentic, but authenticity doesn't guarantee being understood.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Celebrate double uniqueness
-- Autistic community connection
-- Alternative expression methods
-- Sensory-friendly creativity
-- Identity beyond neurotype
+- Celebrate double uniqueness instead of pathologizing either layer
+- Connect with autistic communities where difference is normal
+- Find expression methods that don't require neurotypical translation
+- Create in sensory-friendly environments
+- Build identity that includes but isn't limited to neurotype
 
 ### Type 4 + Twice Exceptional
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Asynchronous development
-- Perfectionism meets difficulties
-- Identity complexity
-- Misunderstood by peers
+Gifted and neurodivergent. You excel in some areas while struggling in others. This asynchronous development creates identity confusion: are you talented or broken? The answer is both, and neither. Perfectionism about your gifts can collide with processing difficulties.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Embrace complexity
-- Find your people
-- Multiple identity integration
-- Strength-based approach
+- Embrace complexity as part of your signature, not a problem to solve
+- Find people who get it (other 2e folks understand in ways others can't)
+- Integrate multiple identities instead of choosing one
+- Lean into strengths while accommodating challenges
 
 <span id="type-5"></span>
 
@@ -401,69 +349,54 @@ Many Type 3s mask neurodivergent challenges to maintain an image of competence. 
 
 ### Type 5 + ADHD
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Hyperfocus vs. scattered attention
-- Executive dysfunction vs. competence
-- Social energy drain doubled
-- Information regulation issues
+You want to feel competent. ADHD makes competence inconsistent. Hyperfocus can drive you deep into research for hours, but then you can't start the basic task on your list. Executive dysfunction threatens your sense of self-sufficiency. Social energy drains fast, and ADHD makes even solitary work harder.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Research rabbit holes
-- Forgotten basic needs
-- Intense special interests
-- Social battery drain
+Research rabbit holes that feel productive until you realize hours passed. Forgetting basic needs like food and water while deep in information. Intense special interests that ADHD makes hard to switch away from. Feeling drained by social interaction and drained by your own scattered attention.
 
-Type 5s with ADHD may experience [crisis situations](/enneagram-corner/mental-health/enneagram-crisis-management-guide) when their coping mechanisms fail and executive dysfunction overwhelms their need for competence and self-sufficiency.
+Type 5s with ADHD may hit [crisis situations](/enneagram-corner/mental-health/enneagram-crisis-management-guide) when coping mechanisms fail and executive dysfunction overwhelms the need for competence.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Hyperfocus scheduling
-- Basic needs reminders
-- Energy management crucial
-- ADHD knowledge systems
-- Minimal social demands
+- Schedule hyperfocus sessions with clear end times
+- Set basic needs reminders (eating, hydration, movement)
+- Protect energy ruthlessly since both systems drain it
+- Build ADHD-friendly knowledge systems (external brain, notes, tools)
+- Minimize unnecessary social demands
 
 ### Type 5 + Autism
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Double social challenges
-- Systematic thinking overdrive
-- Sensory + social withdrawal
-- Communication barriers
+Double introversion. Double social challenges. Your systematic thinking might feel like a superpower, but it's also overdrive that's hard to turn off. Sensory overwhelm compounds with social withdrawal. Communication barriers frustrate your desire to share what you know.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Extreme specialization
-- Minimal social contact
-- Info-dumping tendency
-- Systematic understanding
+Extreme specialization in narrow domains. Minimal social contact by choice and by exhaustion. Info-dumping when you finally share your knowledge (which can push people away). Understanding the world through systems because that's what makes sense.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Embrace double introversion
-- Alternative communication
-- Special interest careers
-- Sensory sanctuaries
-- Authentic social choices
+- Embrace double introversion instead of fighting it
+- Find communication methods that work for you (writing, diagrams, async)
+- Pursue careers that reward special interests
+- Create sensory sanctuaries where you can recover
+- Make social choices authentic to your actual capacity
 
 ### Type 5 + Dyslexia
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Reading-based knowledge harder
-- Written expression barriers
-- Traditional learning challenged
-- Competence fears amplified
+Knowledge is your currency. Traditional knowledge acquisition runs through reading. Dyslexia slows or complicates that path. Written expression doesn't match your internal understanding. Competence fears amplify when the standard methods don't work for you.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Audio/video learning
-- Alternative knowledge formats
-- Technology assistance
-- Verbal processing options
+- Audio and video learning (podcasts, documentaries, lectures)
+- Alternative knowledge formats that bypass reading barriers
+- Technology assistance without shame
+- Verbal processing to organize thoughts before writing
 
 <span id="type-6"></span>
 
@@ -471,69 +404,54 @@ Type 5s with ADHD may experience [crisis situations](/enneagram-corner/mental-he
 
 ### Type 6 + ADHD
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Executive dysfunction increases anxiety
-- Impulsivity vs. caution
-- RSD amplifies loyalty tests
-- Hypervigilance overload
+You crave security. ADHD makes everything less predictable. Executive dysfunction creates anxiety about what you might forget. Impulsivity conflicts with your cautious nature. RSD makes every relationship feel like a loyalty test you might fail. Hypervigilance plus ADHD's scattered attention is exhausting.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Anxiety about ADHD symptoms
-- Compensatory over-planning
-- Authority confusion
-- Trust issues intensified
+Anxiety about ADHD symptoms: "What if I forget something important?" Over-planning to compensate, which burns energy. Confusion about whether authorities (doctors, experts, bosses) are trustworthy. Trust issues intensified by fear of rejection.
 
-Type 6s with ADHD often want extra clarity and reassurance around treatment. If medication is on the table, a careful [medication plan](/enneagram-corner/mental-health/enneagram-medication-mental-health) can reduce anxiety spirals about side effects, "what ifs," and whether you're doing it "right."
+Type 6s with ADHD often want extra clarity around treatment. If medication is on the table, a careful [medication plan](/enneagram-corner/mental-health/enneagram-medication-mental-health) can reduce anxiety spirals about side effects, "what ifs," and whether you're doing it "right."
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- ADHD education reduces fear
-- Structure with flexibility
-- Treatment plan that factors in anxiety
-- Support group that normalizes symptoms
-- Self-trust building
+- ADHD education reduces fear (understanding your brain builds trust in yourself)
+- Structure with flexibility built in
+- Treatment plans that explicitly address anxiety
+- Support groups that normalize symptoms
+- Self-trust building through small, reliable wins
 
 ### Type 6 + Autism
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Social anxiety doubled
-- Rule confusion
-- Routine disruption anxiety
-- Authority misunderstandings
+Social anxiety doubles when autism makes social cues harder to read. Rules feel essential, but implicit rules are confusing. Routine disruption triggers anxiety. Authority figures feel both necessary and untrustworthy, especially when they don't communicate clearly.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Extreme routine need
-- Literal rule following
-- Social scripting extensive
-- Systematic anxiety management
+Extreme routine dependence. Literal rule-following that others find rigid. Extensive social scripts to navigate unpredictable situations. Systematic anxiety management that others don't see.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Clear, consistent rules
-- Predictable environments
-- Explicit communication
-- Routine respect
-- Anxiety accommodations
+- Clear, consistent rules from people you work with
+- Predictable environments whenever possible
+- Explicit communication (ask for it when it's not offered)
+- Routine respect from others
+- Anxiety accommodations that account for autism
 
 ### Type 6 + Sensory Processing
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Sensory anxiety triggers
-- Hypervigilance exhaustion
-- Environmental unpredictability
-- Physical anxiety symptoms
+Sensory overwhelm triggers anxiety. Anxiety heightens sensory sensitivity. This feedback loop exhausts you. Environmental unpredictability feels threatening. Physical anxiety symptoms blend with sensory distress until you can't tell which is which.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Sensory safe spaces
-- Predictable sensory input
-- Anxiety-sensory toolkit
-- Environmental control
+- Sensory safe spaces you can retreat to
+- Predictable sensory input whenever possible
+- A toolkit that addresses both anxiety and sensory needs
+- Environmental control (noise, lighting, temperature)
 
 <span id="type-7"></span>
 
@@ -541,69 +459,54 @@ Type 6s with ADHD often want extra clarity and reassurance around treatment. If 
 
 ### Type 7 + ADHD
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Double stimulation seeking
-- Extreme impulsivity
-- Emotional avoidance harder
-- Boredom intolerance squared
+Double stimulation seeking. Type 7 already wants novelty; ADHD amplifies that into a full-time job. Impulsivity is extreme. Boredom intolerance is squared. The urge to escape discomfort plus ADHD's emotional dysregulation makes sitting with hard feelings nearly impossible.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Hyperactivity extreme
-- Multiple unfinished projects
-- Dopamine seeking behaviors
-- Emotional dysregulation
+Extreme hyperactivity (mental and physical). Multiple unfinished projects because new ones are more exciting. Dopamine-seeking behaviors that might not serve you. Emotional dysregulation that you manage by moving, talking, or starting something else.
 
-Type 7s with ADHD can be more vulnerable to compulsive coping because the drive for stimulation and the urge to outrun discomfort stack on top of each other. If you're using substances or behaviors to numb, escape, or chase dopamine, the [addiction recovery guide](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) can help you spot the loop early.
+Type 7s with ADHD can be more vulnerable to compulsive coping because stimulation-seeking and avoiding discomfort stack on top of each other. If you're using substances or behaviors to numb, escape, or chase dopamine, the [addiction recovery guide](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide) can help you spot the loop early.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Channel double energy
-- Structured variety
-- Mindfulness crucial
-- Healthy stimulation
-- Completion rewards
+- Channel double energy into things that actually matter to you
+- Structured variety: rotation systems for projects, scheduled novelty
+- Mindfulness is crucial (and probably sounds boring, but it works)
+- Find healthy stimulation sources
+- Completion rewards that make finishing as exciting as starting
 
 ### Type 7 + Autism
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Need variety vs. routine
-- Social enthusiasm misunderstood
-- Sensory seeking/avoiding
-- Special interest jumping
+Type 7 wants variety. Autism often wants routine. This tension can be confusing. Your social enthusiasm might come across differently than you intend. Sensory seeking and avoiding can coexist in strange ways. Special interests might jump around more than typical autistic patterns.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Enthusiastic info-dumping
-- Multiple special interests
-- Unique stimming patterns
-- Social energy bursts
+Enthusiastic info-dumping about your current interest. Multiple special interests running in parallel or rapid succession. Unique stimming patterns that feel good. Social energy bursts followed by crashes.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Routine with variety
-- Special interest rotation
-- Sensory variety planning
-- Energy management
-- Social recovery time
+- Build routine that includes variety (predictable novelty)
+- Rotate special interests systematically
+- Plan for sensory variety while respecting limits
+- Energy management that accounts for both enthusiasm and recovery
+- Build in social recovery time even when you don't feel like you need it
 
 ### Type 7 + Dyspraxia
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Physical adventure limitations
-- Coordination affects activities
-- Frustration with limitations
-- Safety concerns
+Type 7 loves adventure. Dyspraxia can limit physical adventure options. Coordination challenges affect activities you want to try. The frustration of having enthusiasm blocked by motor coordination is real. Safety concerns add another layer.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Adaptive adventure
-- Alternative activities
-- Celebrate capabilities
-- Safety planning
+- Find adaptive adventures that work with your coordination
+- Discover activities where dyspraxia matters less
+- Celebrate what your body can do
+- Plan for safety without letting fear win
 
 <span id="type-8"></span>
 
@@ -611,69 +514,54 @@ Type 7s with ADHD can be more vulnerable to compulsive coping because the drive 
 
 ### Type 8 + ADHD
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Impulsivity vs. control
-- Hyperactivity vs. image
-- RSD threatens strength
-- Executive dysfunction frustration
+You want control. ADHD makes control harder. Impulsivity can undercut your authority. Hyperactivity might not match the image you want to project. RSD threatens your sense of strength because rejection feels like weakness. Executive dysfunction creates frustration you might mask with aggression.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Aggressive compensation
-- Hidden struggles
-- Intense energy bursts
-- Control through chaos
+Aggressive compensation for struggles you don't want others to see. Hidden difficulties because admitting them feels vulnerable. Intense energy bursts that can overwhelm others. Control through chaos when you can't achieve control through order.
 
-If trauma is part of your history, it can compound Type 8 + ADHD challenges. Rejection sensitivity plus threat detection can show up as fast anger or control moves that protect vulnerability. If that resonates, the [trauma response guide](/enneagram-corner/mental-health/enneagram-trauma-response-guide) can help you map what's protection and what needs healing.
+If trauma is part of your history, it compounds these challenges. Rejection sensitivity plus threat detection can show up as fast anger or control moves that protect vulnerability. The [trauma response guide](/enneagram-corner/mental-health/enneagram-trauma-response-guide) can help you map what's protection and what needs healing.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Reframe ADHD as strength
-- Channel intensity positively
-- Open about challenges
-- Physical outlets crucial
-- Strategic disclosure
+- Reframe ADHD traits as strengths: energy, quick thinking, intensity
+- Channel intensity into things that matter
+- Strategic disclosure when it serves you
+- Physical outlets are crucial (not optional)
+- Open about challenges when you choose to be, not when forced
 
 ### Type 8 + Autism
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Direct communication misunderstood
-- Sensory overwhelm hidden
-- Social dynamics confusing
-- Vulnerability feels risky
+Your direct communication style can be misunderstood. Sensory overwhelm stays hidden because showing it feels weak. Social dynamics are confusing, but admitting that confusion feels vulnerable. You want power, but the rules of power seem unclear sometimes.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Extreme directness
-- Systematic control
-- Hidden overwhelm
-- Rule-based power
+Extreme directness that others read as aggressive. Systematic approaches to control and influence. Hidden sensory overwhelm that you push through. Rule-based power acquisition because intuitive social navigation doesn't work the same way.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Directness as strength
-- Sensory power tools
-- Clear communication
-- Controlled vulnerability
-- Strength through difference
+- Use directness as a strength (many people appreciate it)
+- Sensory tools that help you stay regulated and powerful
+- Clear communication from others (demand it if necessary)
+- Controlled vulnerability on your terms
+- Recognize that difference can be a source of strength
 
 ### Type 8 + Giftedness
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Intensity squared
-- Authority challenges
-- Asynchronous power
-- Justice focus extreme
+Intensity squared. Intellectual power that outpaces emotional development sometimes. Authority challenges when you see through systems others accept. Extreme focus on justice that can alienate or inspire.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Channel intensity
-- Leadership opportunities
-- Justice projects
-- Intellectual peers
+- Channel intensity into meaningful leadership
+- Seek opportunities where your power serves others
+- Find justice projects worthy of your energy
+- Connect with intellectual peers who can match your intensity
 
 <span id="type-9"></span>
 
@@ -681,89 +569,95 @@ If trauma is part of your history, it can compound Type 8 + ADHD challenges. Rej
 
 ### Type 9 + ADHD
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Inattentive type overlooked
-- Executive dysfunction + avoidance
-- Conflict avoidance + RSD
-- Energy management harder
+Type 9s often have the inattentive presentation of ADHD, which gets overlooked because you're not disruptive. Executive dysfunction combines with avoidance patterns to create extreme procrastination. Conflict avoidance plus RSD means you absorb criticism without defending yourself. Energy is already hard to mobilize; ADHD makes it worse.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Quiet ADHD presentation
-- Extreme procrastination
-- Forgotten in groups
-- Internal hyperactivity
+Quiet ADHD that nobody notices. Extreme procrastination that you hide by going along with others' timelines. Getting forgotten in groups because you don't assert yourself. Internal hyperactivity (racing thoughts, scattered attention) that doesn't show externally.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Recognize inattentive ADHD
-- Gentle activation
-- Body doubling
-- Energy tracking
-- Assertiveness with ADHD
+- Recognize inattentive ADHD as real ADHD (you're not lazy)
+- Gentle activation instead of harsh self-criticism
+- Body doubling to start and finish tasks
+- Energy tracking to know when you're most capable
+- Assertiveness practice that accounts for RSD
 
 ### Type 9 + Autism
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Passive communication style
-- Overwhelm shutdown
-- Routine merging
-- Lost in groups
+Passive communication style means your needs go unheard. Overwhelm leads to shutdown instead of meltdown, so nobody notices when you're struggling. You might merge with others' routines instead of building your own. In groups, you disappear.
 
-**How It Manifests**:
+**What This Looks Like**:
 
-- Silent meltdowns
-- Extreme compliance
-- Special interests hidden
-- Social disappearing
+Silent meltdowns that others don't see. Extreme compliance masking internal overwhelm. Special interests you keep hidden because they feel too personal. Social disappearing when groups get too big or too demanding.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Communication tools
-- Shutdown prevention
-- Interest validation
-- Small group focus
-- Self-advocacy skills
+- Communication tools that make your needs visible (written, scheduled, structured)
+- Shutdown prevention before you hit capacity
+- Validation for your interests from people who matter
+- Focus on small groups where you can actually be present
+- Self-advocacy skills built slowly over time
 
 ### Type 9 + Sensory Processing
 
-**Unique Challenges**:
+**The Core Conflict**:
 
-- Sensory needs ignored
-- Overwhelm without expression
-- Merging with environment
-- Dissociation from body
+You ignore your own sensory needs because you don't want to make a fuss. Overwhelm happens without you expressing it. You might merge with your environment so completely that you lose track of what you actually feel. Dissociation from body signals compounds sensory challenges.
 
-**Strategies That Help**:
+**Strategies That Fit**:
 
-- Sensory awareness building
-- Regular check-ins
-- Environmental control
-- Body connection work
+- Build sensory awareness (learn to notice what your body actually experiences)
+- Regular check-ins with yourself, not just with others
+- Environmental control that you give yourself permission to exercise
+- Body connection work that reconnects you to physical sensation
 
 ## Making This Work for You
 
-### First: Figure Out What's Actually Going On
+### First: Map Your Actual Situation
 
-If you can, get assessed. Know your Enneagram type. Then watch how they interact. Where does your neurodivergence make your type patterns harder? Where does it actually help?
+Get assessed if you can. Know your Enneagram type with reasonable confidence. Then pay attention to where they interact.
 
-### Then: Build Strategies That Address Both
+Ask yourself:
 
-Don't grab generic ADHD tips or generic Type 4 advice and call it a day. Modify them. A Type 1 with ADHD doesn't need "embrace your mess." They need structure with flexibility built in, so one missed step doesn't trigger a shame spiral.
+- Where does neurodivergence make my type patterns harder? (Type 1 + ADHD: perfectionism meets executive dysfunction)
+- Where does it actually help? (Type 5 + autism: systematic thinking aligns with knowledge-seeking)
+- What challenges do I face that generic advice doesn't address?
+
+### Build Strategies That Address Both Layers
+
+Don't grab generic ADHD tips or generic Type 4 advice and call it a day. Modify them.
+
+A Type 1 with ADHD doesn't need "embrace your mess." They need structure with flexibility built in, so one missed step doesn't trigger a shame spiral.
+
+A Type 7 with autism doesn't need "stick to your routine." They need routines that build in variety, so predictability doesn't become suffocation.
 
 ### Design Your Environment
 
-Think about sensory stuff, executive function supports, how much social energy you have, how you communicate best. Your environment should work with both your brain and your personality.
+Consider these dimensions:
+
+- **Sensory**: What sensory input helps or hinders you?
+- **Executive function**: What external supports do you need? (Reminders, visual systems, body doubling)
+- **Social energy**: How much interaction can you handle before depletion?
+- **Communication**: What modes work best for you? (Written, verbal, async)
+
+Your environment should work with both your brain wiring and your personality patterns. That's a lot to optimize. Start with the biggest pain point.
 
 ### Find Your People
 
-Look for communities that get it: neurodivergent folks who also understand personality. They exist. Online is often easier than in person for finding this niche.
+Look for communities that understand both frameworks. Neurodivergent folks who also care about personality. They exist, and they'll get you in ways others can't.
+
+Online is often easier than in person for finding this niche. Reddit, Discord, and smaller forums have pockets of people navigating the same intersections.
 
 ### Keep Adjusting
 
-What works now might not work in a year. That's fine. Stay curious about yourself. Keep refining.
+What works now might not work in a year. Your nervous system changes. Your life circumstances change. Your understanding of yourself changes.
+
+Stay curious. Keep refining. Don't lock into a system just because it worked once.
 
 ## Universal Neurodivergent + Enneagram Principles
 
@@ -825,106 +719,121 @@ Each combination has unique strengths:
 ]} />
 </div>
 
-## The Point
+## The Bottom Line
 
-You're not broken. You're not "too complicated to understand." You're a person with a brain that works a certain way and a personality that drives you in certain directions.
+You're not broken. You're not "too complicated to understand."
 
-Generic advice fails because it only addresses one of those things. The ADHD tips that work for Type 7s won't work for Type 1s. The autism accommodations that help Type 5s might overwhelm Type 2s.
+You're a person with a brain that works a certain way and a personality that drives you in certain directions. Both are real. Both matter.
 
-So use this guide to figure out what you actually need, not what "ADHD people" or "Type 3s" are supposed to need.
+Generic advice fails because it only addresses one layer. The ADHD tips that work for Type 7s won't work for Type 1s. The autism accommodations that help Type 5s might overwhelm Type 2s.
 
-And if you need more support, check out [therapy options that understand both neurodivergence and personality](/enneagram-corner/mental-health/enneagram-therapy-guide), [medication approaches that work with your type](/enneagram-corner/mental-health/enneagram-medication-mental-health), or how [trauma might be part of your picture too](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
+Use this guide to figure out what you actually need. Not what "ADHD people" or "Type 3s" are supposed to need. What works for your specific combination.
+
+If you need more support: [therapy approaches that understand both frameworks](/enneagram-corner/mental-health/enneagram-therapy-guide), [medication strategies that account for your type](/enneagram-corner/mental-health/enneagram-medication-mental-health), or understanding how [trauma might be part of your picture](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
 
 ## Frequently Asked Questions
 
 ### Can I have ADHD and still be Type 1?
 
-Yes. It can be a particularly challenging combination.
+Yes. It's one of the more challenging combinations.
 
-Type 1's perfectionist standards clash with ADHD's executive dysfunction, which can create intense internal frustration and shame.
+Type 1's perfectionist standards clash directly with ADHD's executive dysfunction. The result is often intense internal frustration and shame. You know what you should do, and your brain won't cooperate.
 
-Many Type 1s respond by building rigid compensatory systems (detailed schedules, checklists everywhere). Those can help, until the system becomes another way to judge yourself.
+Many Type 1s respond by building rigid compensatory systems: detailed schedules, checklists everywhere, backup plans for backup plans. Those can help, until the system becomes another way to judge yourself when it fails.
 
 The goal is "perfect for me," not absolute perfection.
 
 ### Why do some Enneagram types get misdiagnosed with autism or ADHD?
 
-Some Enneagram traits can look like neurodivergent traits from the outside. A Type 5 might prefer solitude and deep interests. A Type 7 might chase novelty. A Type 4 might have intense emotions.
+Some Enneagram traits look like neurodivergent traits from the outside. A Type 5 prefers solitude and deep interests. A Type 7 chases novelty. A Type 4 has intense emotions. These patterns can be mistaken for autism or ADHD if the observer isn't careful.
 
-Clinicians diagnose ADHD and autism based on development and day-to-day functioning, not on motivation. The Enneagram is motivation-based (why you do what you do). Neurodivergence is neurological (how your brain processes).
+The key distinction: clinicians diagnose ADHD and autism based on development and day-to-day functioning, not motivation. The Enneagram tracks motivation (why you do what you do). Neurodivergence is neurological (how your brain processes).
 
-You can have a type pattern without being neurodivergent, you can be neurodivergent without those type patterns, and you can be both.
+You can have type patterns without being neurodivergent. You can be neurodivergent without typical type patterns. You can be both. Proper assessment sorts this out.
 
 ### How do I know if my challenges are from my Enneagram type or my neurodivergence?
 
 Ask: is this about motivation or processing?
 
-- Motivation: Type 5 withdraws to conserve energy and privacy. Type 7 distracts to avoid discomfort.
-- Processing: autism can change how you process sensory input and social communication. ADHD can make attention and executive function inconsistent.
+**Motivation examples**: Type 5 withdraws to conserve energy and protect privacy. Type 7 distracts to avoid discomfort.
 
-Often it's both at once. Build strategies that address both layers.
+**Processing examples**: Autism changes how you process sensory input and social communication. ADHD makes attention and executive function inconsistent regardless of motivation.
+
+Often it's both at once. A Type 5 might withdraw (motivation) and struggle with social cues (processing). Build strategies that address both layers.
 
 ### What accommodations work for neurodivergent people of specific Enneagram types?
 
-Accommodations work best when they honor both processing and motivation. Examples:
+Accommodations work best when they honor both processing and motivation.
 
-- Type 1 + ADHD: structured flexibility, written instructions, movement breaks without shame
-- Type 4 + autism: creative outlets, explicit communication, sensory-friendly authenticity
-- Type 6 + ADHD: clear procedures, predictable feedback, reassurance that symptoms are normal
+**Type 1 + ADHD**: Structured flexibility, written instructions, movement breaks without shame. The structure respects Type 1 values; the flexibility respects ADHD realities.
+
+**Type 4 + Autism**: Creative outlets, explicit communication, sensory-friendly spaces for authenticity. Expression matters; so does clear information about expectations.
+
+**Type 6 + ADHD**: Clear procedures, predictable feedback, reassurance that symptoms are normal. Security needs meet executive function support.
 
 Generic accommodations fail when they only address one layer.
 
 ### Should I tell employers about both my Enneagram type and neurodivergence?
 
-In most cases, share neurodivergence only as needed for formal accommodations. Keep Enneagram knowledge for your own strategic use.
+Share neurodivergence only as needed for formal accommodations. Keep Enneagram knowledge for your own strategic use.
 
-Use Enneagram insights to frame accommodation requests: Type 5s can ask for deep work blocks. Type 8s can advocate for autonomy and clear decision rights. Your type helps you know how to ask.
+Use type insights to frame accommodation requests effectively: Type 5s can ask for deep work blocks and minimal interruptions. Type 8s can advocate for autonomy and clear decision rights. Type 2s can frame requests around serving others better.
+
+Your type helps you know how to ask for what your brain needs.
 
 <svelte:head>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "Comprehensive guide exploring how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type, including unique challenges, manifestations, strategies, and accommodations for each combination.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
+	  "@graph": [
+	    {
+	      "@type": "Article",
+	      "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide#article",
+	      "articleBody": "Comprehensive guide exploring how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type, including unique challenges, manifestations, strategies, and accommodations for each combination.",
+	      "inLanguage": "en",
+	      "author": {
+	        "@type": "Person",
+	        "name": "DJ Wayne",
+	        "sameAs": [
+	          "https://www.instagram.com/djwayne3/",
           "https://www.youtube.com/@djwayne3",
           "https://www.linkedin.com/in/davidtwayne/",
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2026-01-18",
-      "datePublished": "2025-08-25",
-      "description": "Explore how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type. Learn accommodations and strategies for thriving.",
-      "headline": "Enneagram and Neurodivergence: When Personality Meets Brain Wiring",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-playing-with-toys.webp",
+	      "dateModified": "2026-01-21",
+	      "datePublished": "2025-08-25",
+	      "description": "Explore how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type. Learn accommodations and strategies for thriving.",
+	      "headline": "Enneagram and Neurodivergence: When Personality Meets Brain Wiring",
+	      "name": "Enneagram and Neurodivergence: When Personality Meets Brain Wiring",
+	      "url": "https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide",
+	      "image": {
+	        "@type": "ImageObject",
+	        "height": 900,
+	        "url": "https://9takes.com/blogs/greek-statue-playing-with-toys.webp",
         "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide",
         "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
+	      },
+	      "publisher": {
+	        "@type": "Organization",
+	        "name": "9takes",
+	        "sameAs": [
+	          "https://www.instagram.com/9takesdotcom/",
+	          "https://twitter.com/9takesdotcom"
+	        ],
+	        "logo": {
+	          "@type": "ImageObject",
+	          "url": "https://9takes.com/brand/aero.png"
+	        }
       },
       "keywords": ["enneagram neurodivergence", "ADHD enneagram", "autism enneagram", "personality types", "neurodiversity", "accommodations", "mental health"]
-    }
-  ]
-}
+	    }
+	  ]
+	}
 </script>
 
 </svelte:head>

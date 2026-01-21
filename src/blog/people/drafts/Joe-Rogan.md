@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Joe_Rogan'
 twitter: 'joerogan'
 instagram: 'joerogan'
 tiktok: ''
+path: src/blog/people/drafts/Joe-Rogan.md
 ---
 
 <p class="firstLetter">He endorsed Donald Trump for president. Then called ICE "the Gestapo" and publicly contradicted the man he helped elect. In 2025, Joe Rogan topped Spotify, Apple Podcasts, and YouTube simultaneously for the first time in history.</p>

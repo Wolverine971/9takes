@@ -17,6 +17,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Tom-Hardy.md
 ---
 
 > "I'm not a fighter, but I would fight. I'm not a dog, but I am a scrapper." — Tom Hardy

@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Harry_Styles'
 twitter: 'Harry_Styles'
 instagram: 'harrystyles'
 tiktok: ''
+path: src/blog/people/drafts/Harry-Styles.md
 ---
 
 > "Since I've been 10, it's kind of felt like—protect Mom at all costs."

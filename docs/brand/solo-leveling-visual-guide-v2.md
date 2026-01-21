@@ -1,3 +1,5 @@
+<!-- docs/brand/solo-leveling-visual-guide-v2.md -->
+
 # Solo Leveling Inspired Visual Brand
 
 > **Purpose:** A visual brand system inspired by the aesthetic of Solo Leveling (나 혼자만 레벨업). For use on a separate project.

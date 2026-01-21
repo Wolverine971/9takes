@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Greta_Thunberg'
 twitter: 'GretaThunberg'
 instagram: 'gretathunberg'
 tiktok: ''
+path: src/blog/people/drafts/Greta-Thunberg.md
 ---
 
 > "We can't save the world by playing by the rules, because the rules have to be changed. Everything needs to change, and it has to start today."

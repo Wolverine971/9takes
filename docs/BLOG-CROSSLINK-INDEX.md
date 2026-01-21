@@ -1,7 +1,7 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-01-18_
-_Total Published Posts Analyzed: 111_
+_Generated: 2026-01-21_
+_Total Posts Analyzed: 120 (Published: 111, Unpublished: 9)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -10,34 +10,46 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total published posts | 111 |
-| Posts with 0 outgoing links | 0 |
-| Posts with 0 incoming links | 9 |
-| Completely isolated (0 in, 0 out) | 0 |
-| Total internal cross-links | 718 |
-| Average outgoing links per post | 6.5 |
+| Total posts | 120 |
+| Published posts | 111 |
+| Unpublished posts | 9 |
+| Posts with 0 outgoing links | 6 |
+| Posts with 0 incoming links | 16 |
+| Completely isolated (0 in, 0 out) | 4 |
+| Total internal cross-links | 722 |
+| Average outgoing links per post | 6.0 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (0 posts)
+## Priority 1: Completely Isolated Posts (4 posts)
 
 These posts have NO links in or out. Fix these first!
 
 | Post Title | Path | Action |
 |------------|------|--------|
+| AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | Add 3+ outgoing links |
+| Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | Add 3+ outgoing links |
+| OnlyFans Creators by Enneagram: The Psychology of Digital In... | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` | Add 3+ outgoing links |
+| Parasocial Relationships: Why Each Enneagram Type Forms Them | `pop-culture/parasocial-relationships-enneagram-type.md` | Add 3+ outgoing links |
 
 ---
 
-## Priority 2: Posts with NO Outgoing Links (0 posts)
+## Priority 2: Posts with NO Outgoing Links (6 posts)
 
 These posts don't link to any other content.
 
 | Post Title | Path | Incoming Links |
 |------------|------|----------------|
+| Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` | 2 |
+| Twitter/X Personality Types: Why It | `pop-culture/twitter-x-personality-types-toxic.md` | 1 |
+| AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | 0 |
+| Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | 0 |
+| OnlyFans Creators by Enneagram: The Psychology of Digital In... | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` | 0 |
+| Parasocial Relationships: Why Each Enneagram Type Forms Them | `pop-culture/parasocial-relationships-enneagram-type.md` | 0 |
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (9 posts)
+## Priority 3: Posts with NO Incoming Links (16 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -52,6 +64,9 @@ These posts are "orphaned" - no other content links to them.
 | Enneagram Type 7: The Enthusiast - The Possibility Engine | `enneagram/enneagram-type-7.md` | 7 |
 | Enneagram Type 8: The Challenger - Behind the Armor | `enneagram/enneagram-type-8.md` | 7 |
 | Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` | 7 |
+| The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` | 2 |
+| Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` | 1 |
+| Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` | 1 |
 
 ---
 
@@ -65,9 +80,9 @@ These posts are "orphaned" - no other content links to them.
 | 43 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 28 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 28 | 9 | How Each Enneagram Type Loves (And Why It Goes Wrong) | `enneagram/enneagram-types-in-relationships.md` |
+| 27 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 27 | 6 | Your Type | `enneagram/enneagram-strengths-and-weaknesses.md` |
 | 27 | 6 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
-| 25 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 25 | 11 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
 | 23 | 12 | Red Flags You Are Dating Each Enneagram Type (And What to Do... | `enneagram/red-flags-dating-each-enneagram-type.md` |
 | 22 | 34 | What | `enneagram/enneagram-tldr.md` |
@@ -80,7 +95,7 @@ These posts are "orphaned" - no other content links to them.
 | 11 | 7 | Your Dark Side Has a Number (And It | `enneagram/enneagram-stress-number.md` |
 | 11 | 9 | Enneagram Types on a First Date: What to Expect | `enneagram/enneagram-types-on-a-first-date.md` |
 | 11 | 9 | Crisis Management by Enneagram Type: Your Emergency Mental H... | `enneagram/mental-health/enneagram-crisis-management-guide.md` |
-| 11 | 8 | The Enneagram Guide to Therapy: Which Therapeutic Approach W... | `enneagram/mental-health/enneagram-therapy-guide.md` |
+| 11 | 8 | The Enneagram Guide to Therapy: Which Approach Actually Work... | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 11 | 11 | Enneagram and Workplace Mental Health: Preventing Burnout by... | `enneagram/mental-health/enneagram-workplace-mental-health.md` |
 | 10 | 10 | Enneagram and Addiction: Understanding Each Type | `enneagram/mental-health/enneagram-addiction-recovery-guide.md` |
 | 10 | 8 | The Enneagram Guide to Medication and Mental Health | `enneagram/mental-health/enneagram-medication-mental-health.md` |
@@ -110,7 +125,7 @@ These posts are "orphaned" - no other content links to them.
 | 10 | 8 | Is the Enneagram Scientifically Valid? (What the Research Ac... | `enneagram/mental-health/enneagram-science-mental-health.md` |
 | 10 | 18 | 9 Toxic Personality Traits: The Hidden Dark Side of Each Enn... | `enneagram/toxic-traits-of-each-enneagram-type.md` |
 | 10 | 3 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
-| 9 | 25 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
+| 9 | 27 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 9 | 3 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |
 | 9 | 28 | How Each Enneagram Type Loves (And Why It Goes Wrong) | `enneagram/enneagram-types-in-relationships.md` |
 | 9 | 11 | Enneagram Types on a First Date: What to Expect | `enneagram/enneagram-types-on-a-first-date.md` |
@@ -130,9 +145,9 @@ Sorted by total connections (incoming + outgoing).
 | 51 | 43 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 40 | 28 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 37 | 28 | 9 | How Each Enneagram Type Loves (And Why It Goes Wrong) | `enneagram/enneagram-types-in-relationships.md` |
+| 36 | 27 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 36 | 25 | 11 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
 | 35 | 23 | 12 | Red Flags You Are Dating Each Enneagram Type (And What to Do... | `enneagram/red-flags-dating-each-enneagram-type.md` |
-| 34 | 25 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 34 | 18 | 16 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
 | 33 | 27 | 6 | Your Type | `enneagram/enneagram-strengths-and-weaknesses.md` |
 | 33 | 27 | 6 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
@@ -148,7 +163,7 @@ Sorted by total connections (incoming + outgoing).
 | 20 | 11 | 9 | Crisis Management by Enneagram Type: Your Emergency Mental H... | `enneagram/mental-health/enneagram-crisis-management-guide.md` |
 | 20 | 10 | 10 | The Enneagram Parent | `enneagram/mental-health/enneagram-parenting-mental-health.md` |
 | 19 | 9 | 10 | Enneagram and Neurodivergence: When Personality Meets Brain ... | `enneagram/mental-health/enneagram-neurodivergence-guide.md` |
-| 19 | 11 | 8 | The Enneagram Guide to Therapy: Which Therapeutic Approach W... | `enneagram/mental-health/enneagram-therapy-guide.md` |
+| 19 | 11 | 8 | The Enneagram Guide to Therapy: Which Approach Actually Work... | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 18 | 6 | 12 | Enneagram Concepts: Your Personality, Unpacked and Decoded | `enneagram/enneagram-concepts.md` |
 | 18 | 11 | 7 | Your Dark Side Has a Number (And It | `enneagram/enneagram-stress-number.md` |
 | 18 | 10 | 8 | The Enneagram Guide to Medication and Mental Health | `enneagram/mental-health/enneagram-medication-mental-health.md` |
@@ -179,7 +194,7 @@ Sorted by total connections (incoming + outgoing).
 | 9 | 1 | 8 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |
 | 9 | 5 | 4 | Philosophy and Psychology Gave Birth to the Enneagram | `enneagram/philosophy-psychology-and-the-enneagram.md` |
 | 9 | 1 | 8 | Red Flags You | `enneagram/toxic-traits-relationships-warning-signs.md` |
-| 8 | 2 | 6 | Enneagram Leadership Styles: The 9 Ways to Lead and Inspire ... | `enneagram/enneagram-leadership.md` |
+| 8 | 2 | 6 | Enneagram Leadership Styles: Why Your Natural Approach Keeps... | `enneagram/enneagram-leadership.md` |
 | 8 | 3 | 5 | Transforming Workplace Teams Using Enneagram: A Leader | `enneagram/enneagram-workplace-team-building.md` |
 | 8 | 2 | 6 | Read Anyone in 30 Seconds: The Enneagram Body Language Cheat... | `enneagram/first-impression-enneagram-playbook.md` |
 | 8 | 4 | 4 | Love Languages & Enneagram Types: The Ultimate Compatibility... | `enneagram/love-languages-and-enneagram-types.md` |
@@ -236,6 +251,15 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 1 | 1 | How to Apologize Like a Pro: The Enneagram Guide to Authenti... | `enneagram/how-to-apologize-like-a-pro.md` |
 | 2 | 1 | 1 | The Stress Paradox: Why Your Emotional Patterns Outlast Ever... | `enneagram/situations-change-emotions-dont.md` |
 | 2 | 1 | 1 | The Pattern-Breaking Guide to Fighting Depression | `guides/guide-to-fighting-depression.md` |
+| 2 | 2 | 0 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` |
+| 2 | 0 | 2 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` |
+| 1 | 0 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
+| 1 | 1 | 0 | Twitter/X Personality Types: Why It | `pop-culture/twitter-x-personality-types-toxic.md` |
+| 1 | 0 | 1 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` |
+| 0 | 0 | 0 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` |
+| 0 | 0 | 0 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
+| 0 | 0 | 0 | OnlyFans Creators by Enneagram: The Psychology of Digital In... | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` |
+| 0 | 0 | 0 | Parasocial Relationships: Why Each Enneagram Type Forms Them | `pop-culture/parasocial-relationships-enneagram-type.md` |
 
 ---
 

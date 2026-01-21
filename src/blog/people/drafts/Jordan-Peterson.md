@@ -17,6 +17,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jordan_Peterson'
 twitter: 'jordanbpeterson'
 instagram: 'jordan.b.peterson'
 tiktok: ''
+path: src/blog/people/drafts/Jordan-Peterson.md
 ---
 
 <QuickAnswer question="Is Jordan Peterson a good person or a dangerous ideologue?">

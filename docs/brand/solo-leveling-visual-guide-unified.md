@@ -1,3 +1,5 @@
+<!-- docs/brand/solo-leveling-visual-guide-unified.md -->
+
 # 9takes — Solo Leveling Visual Identity
 
 > **The Shadow Monarch's Journey = Your EQ Awakening**
