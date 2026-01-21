@@ -1,8 +1,14 @@
 <!-- docs/content-generation/pop-culture-content-strategy.md -->
 
-<!-- todo -->
-
 # Pop Culture Psychology Content Strategy
+
+_Last Modified: 2026-01-21_
+
+## Related Documents
+
+- **[Group Dynamics Content Ideas](./pop-culture-group-dynamics-ideas.md)** - NEW: Blog ideas for group comparison pieces (Presidents, Comedians, Tech Titans, etc.)
+- **[Domain Authority: Pop Culture](../domain-authority/07-pop-culture-celebrities.md)** - Overall domain strategy and metrics
+- **[Blog Suggestions Dec 2025](./blog-suggestions-dec-2025.md)** - Trending celebrity suggestions
 
 ## Core Content Pillars
 

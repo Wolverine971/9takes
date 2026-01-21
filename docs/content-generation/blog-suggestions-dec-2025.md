@@ -2,6 +2,8 @@
 
 # Blog Suggestions - December 2025
 
+_Related: [Group Dynamics Ideas](./pop-culture-group-dynamics-ideas.md) | [Pop Culture Strategy](./pop-culture-content-strategy.md)_
+
 ## Currently Trending (December 2025) - High Priority
 
 | Person              | Why They're Trending                                                             | Likely Type | Notes                                |

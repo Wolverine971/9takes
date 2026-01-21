@@ -2,8 +2,13 @@
 
 # Domain Authority: Pop Culture & Celebrity Psychology
 
-_Last Modified: 2025-09-09_
+_Last Modified: 2026-01-21_
 _[Return to Master Index](./00-master-index.md) | [View START-HERE](../START-HERE.md)_
+
+## Related Documents
+
+- **[Group Dynamics Content Ideas](../content-generation/pop-culture-group-dynamics-ideas.md)** - Blog ideas for group comparison pieces
+- **[Pop Culture Content Strategy](../content-generation/pop-culture-content-strategy.md)** - Full content calendar and strategy
 
 ## Current Authority Status: 🟢 DOMINANT (284 analyses in Supabase database!)
 
@@ -103,6 +108,37 @@ By analyzing well-known figures through the Enneagram lens, we:
 - Link every celebrity to practical guides (their type's dating style, work habits, etc.)
 - Create "Be Like [Celebrity]" transformation guides
 - Develop "Celebrity Type Twins" matching tool
+
+## 🆕 Group Dynamics Content Strategy (Jan 2025)
+
+**New Direction:** Pop culture blogs will focus on **group dynamics analysis** - comparing clusters of people through the Enneagram lens rather than just individual profiles.
+
+> **Full ideas list:** [Group Dynamics Content Ideas](../content-generation/pop-culture-group-dynamics-ideas.md)
+
+### In Progress
+
+| Blog | Status | Types Covered |
+|------|--------|---------------|
+| World Leaders (Trump, Putin, Xi, Modi, Macron, Merkel) | Draft | 3x Type 8, 2x Type 3, 1x Type 5 |
+
+### Priority Queue
+
+1. **US Presidents** - From JFK to Trump
+2. **Stand-up Comedians** - Current era (Chappelle, Mulaney, Burnham, etc.)
+3. **Tech Titans** - Musk, Zuckerberg, Bezos, Altman
+4. **Royal Family** - William vs Harry split, Meghan dynamics
+5. **Late Night Hosts** - Carson to Colbert evolution
+
+### Completed
+
+- ✅ Kardashian Family Analysis (published)
+
+### Why This Works
+
+- Multiple fan bases = higher viral potential
+- Comparison tables = SEO featured snippet capture
+- Cross-links to individual `/personality-analysis/` pages
+- Pattern recognition showcases 9takes' unique value
 
 ## SEO & Discovery Strategy
 
