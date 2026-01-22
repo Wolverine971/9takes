@@ -1465,7 +1465,26 @@
 		border: 1px solid var(--border-color);
 		border-radius: var(--border-radius);
 		padding: 1rem;
-		background: white;
+		background: #ffffff;
+		color: #111111;
+		color-scheme: light;
+	}
+
+	.email-preview h1,
+	.email-preview h2,
+	.email-preview h3,
+	.email-preview h4,
+	.email-preview p,
+	.email-preview li,
+	.email-preview td,
+	.email-preview th,
+	.email-preview span,
+	.email-preview div {
+		color: inherit;
+	}
+
+	.email-preview a {
+		color: #6c5ce7;
 	}
 
 	.raw-html {

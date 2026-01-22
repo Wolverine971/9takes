@@ -211,6 +211,7 @@ email_send_batches
 - Extended sent list endpoint with search/source/status filters.
 - Built Sent tab UI with filters, pagination, and detail panel.
 - Added analytics date-range controls and new stat chips (bounced/failed/unsubscribe rate).
+- Tuned sent detail email preview styling to render with a light, readable palette.
 
 ### Remaining
 
