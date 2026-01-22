@@ -117,9 +117,9 @@ By analyzing well-known figures through the Enneagram lens, we:
 
 ### In Progress
 
-| Blog | Status | Types Covered |
-|------|--------|---------------|
-| World Leaders (Trump, Putin, Xi, Modi, Macron, Merkel) | Draft | 3x Type 8, 2x Type 3, 1x Type 5 |
+| Blog                                                   | Status | Types Covered                   |
+| ------------------------------------------------------ | ------ | ------------------------------- |
+| World Leaders (Trump, Putin, Xi, Modi, Macron, Merkel) | Draft  | 3x Type 8, 2x Type 3, 1x Type 5 |
 
 ### Priority Queue
 

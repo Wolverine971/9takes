@@ -45,41 +45,16 @@ async function updateClickTracking(
 	const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
 	const userAgent = request.headers.get('user-agent') || 'unknown';
 
-	// Get the email send record
-	const { data: emailSend, error: fetchError } = await supabase
-		.from('email_sends')
-		.select('id, clicked_at, click_count')
-		.eq('tracking_id', trackingId)
-		.single();
-
-	if (fetchError || !emailSend) {
-		console.error('Email send not found for click tracking:', trackingId);
-		return;
-	}
-
-	// Update the email send record
-	const { error: updateError } = await supabase
-		.from('email_sends')
-		.update({
-			clicked_at: emailSend.clicked_at || new Date().toISOString(),
-			click_count: (emailSend.click_count || 0) + 1
-		})
-		.eq('tracking_id', trackingId);
-
-	if (updateError) {
-		console.error('Error updating email_sends for click:', updateError);
-	}
-
-	// Log the tracking event
-	const { error: eventError } = await supabase.from('email_tracking_events').insert({
-		email_send_id: emailSend.id,
-		event_type: 'click',
-		link_url: targetUrl,
-		ip_address: ip,
-		user_agent: userAgent
+	const supabaseAny = supabase as any;
+	const { error: trackingError, data: tracked } = await supabaseAny.rpc('track_email_event', {
+		p_tracking_id: trackingId,
+		p_event_type: 'click',
+		p_link_url: targetUrl,
+		p_ip_address: ip,
+		p_user_agent: userAgent
 	});
 
-	if (eventError) {
-		console.error('Error inserting click tracking event:', eventError);
+	if (trackingError || !tracked) {
+		console.error('Error tracking email click:', trackingError);
 	}
 }

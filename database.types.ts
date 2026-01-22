@@ -3407,6 +3407,24 @@ export type Database = {
           type: Json
         }[]
       }
+      track_email_event: {
+        Args: {
+          p_event_type: string
+          p_ip_address?: string
+          p_link_url?: string
+          p_tracking_id: string
+          p_user_agent?: string
+        }
+        Returns: boolean
+      }
+      track_email_unsubscribe: {
+        Args: {
+          p_ip_address?: string
+          p_tracking_id: string
+          p_user_agent?: string
+        }
+        Returns: string
+      }
       typeahead_blog_search: {
         Args: { result_limit?: number; search_query: string }
         Returns: {

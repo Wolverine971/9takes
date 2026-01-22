@@ -28,6 +28,8 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	const offset = (page - 1) * limit;
 	const campaignId = url.searchParams.get('campaign_id');
 	const status = url.searchParams.get('status');
+	const source = url.searchParams.get('source');
+	const search = url.searchParams.get('search');
 	const fromDate = url.searchParams.get('from_date');
 	const toDate = url.searchParams.get('to_date');
 
@@ -45,7 +47,22 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		}
 
 		if (status) {
-			query = query.eq('status', status);
+			if (status === 'sent') {
+				query = query.in('status', ['sent', 'delivered']);
+			} else {
+				query = query.eq('status', status);
+			}
+		}
+
+		if (source) {
+			query = query.eq('recipient_source', source);
+		}
+
+		if (search) {
+			const escaped = search.replace(/%/g, '\\%').replace(/_/g, '\\_');
+			query = query.or(
+				`recipient_email.ilike.%${escaped}%,recipient_name.ilike.%${escaped}%,subject.ilike.%${escaped}%`
+			);
 		}
 
 		if (fromDate) {
@@ -79,8 +96,11 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 				total_unsubscribed: 0,
 				total_bounced: 0,
 				total_failed: 0,
+				total_open_count: 0,
+				total_click_count: 0,
 				open_rate: 0,
-				click_rate: 0
+				click_rate: 0,
+				unsubscribe_rate: 0
 			},
 			pagination: {
 				total: count || 0,

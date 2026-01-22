@@ -1,5 +1,5 @@
 ---
-title: "Andrew Callaghan: Why He Runs Toward Chaos Instead of Away"
+title: 'Andrew Callaghan: Why He Runs Toward Chaos Instead of Away'
 meta_title: "Why Andrew Callaghan Can't Stop Chasing Chaos (The Pattern Nobody Sees)"
 persona_title: "Channel 5's Restless Truth-Seeker"
 description: "What drives Channel 5's fearless journalist into QAnon rallies and extremist events? The psychology of radical empathy and pain avoidance."

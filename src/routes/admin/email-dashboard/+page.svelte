@@ -5,6 +5,8 @@
 		EmailRecipient,
 		EmailAnalytics,
 		EmailDraft,
+		EmailSend,
+		EmailTrackingEvent,
 		ScheduledEmail
 	} from '$lib/types/email';
 	import { notifications } from '$lib/components/molecules/notifications';
@@ -18,8 +20,27 @@
 	let totalUsers = data.totalUsers || 0;
 	let drafts: EmailDraft[] = data.drafts || [];
 	let scheduledEmails: ScheduledEmail[] = data.scheduledEmails || [];
-	let analytics: EmailAnalytics = data.analytics;
+	const analyticsDefaults: EmailAnalytics = {
+		total_sent: 0,
+		total_opened: 0,
+		total_clicked: 0,
+		total_unsubscribed: 0,
+		total_bounced: 0,
+		total_failed: 0,
+		total_open_count: 0,
+		total_click_count: 0,
+		open_rate: 0,
+		click_rate: 0,
+		unsubscribe_rate: 0
+	};
+	let analytics: EmailAnalytics = { ...analyticsDefaults, ...data.analytics };
 	let cronStatus = data.cronStatus;
+
+	// Analytics filter state
+	let analyticsRange: 'all' | '7d' | '30d' | '90d' | 'custom' = 'all';
+	let analyticsFrom = '';
+	let analyticsTo = '';
+	let analyticsLoading = false;
 
 	// Selection state
 	let selectedUsers = new Set<string>();
@@ -30,6 +51,21 @@
 	let sourceFilter: 'all' | 'profiles' | 'signups' | 'coaching_waitlist' = 'all';
 	let currentPage = 1;
 	let isLoading = false;
+
+	// Sent email state
+	const sentLimit = 50;
+	let sentEmails: EmailSend[] = [];
+	let sentTotal = 0;
+	let sentPage = 1;
+	let sentIsLoading = false;
+	let sentSearch = '';
+	let sentStatusFilter: 'all' | 'sent' | 'failed' | 'bounced' = 'all';
+	let sentSourceFilter: 'all' | 'profiles' | 'signups' | 'coaching_waitlist' = 'all';
+	let sentDetailOpen = false;
+	let sentDetailLoading = false;
+	let sentDetailEmail: EmailSend | null = null;
+	let sentDetailEvents: EmailTrackingEvent[] = [];
+	let sentDetailRaw = false;
 
 	// Compose modal state
 	let showCompose = false;
@@ -59,6 +95,179 @@
 			notifications.danger('Failed to fetch users', 3000);
 		} finally {
 			isLoading = false;
+		}
+	}
+
+	function startOfDay(date: Date): Date {
+		const value = new Date(date);
+		value.setHours(0, 0, 0, 0);
+		return value;
+	}
+
+	function endOfDay(date: Date): Date {
+		const value = new Date(date);
+		value.setHours(23, 59, 59, 999);
+		return value;
+	}
+
+	function getAnalyticsRange(): { fromDate?: string; toDate?: string } {
+		if (analyticsRange === 'all') return {};
+
+		if (analyticsRange === 'custom') {
+			const from = analyticsFrom ? startOfDay(new Date(analyticsFrom)) : null;
+			const to = analyticsTo ? endOfDay(new Date(analyticsTo)) : null;
+			return {
+				fromDate: from ? from.toISOString() : undefined,
+				toDate: to ? to.toISOString() : undefined
+			};
+		}
+
+		const now = new Date();
+		const from = new Date();
+		const days = analyticsRange === '7d' ? 7 : analyticsRange === '30d' ? 30 : 90;
+		from.setDate(now.getDate() - (days - 1));
+
+		return {
+			fromDate: startOfDay(from).toISOString(),
+			toDate: now.toISOString()
+		};
+	}
+
+	async function fetchAnalytics() {
+		analyticsLoading = true;
+		try {
+			const params = new URLSearchParams();
+			const { fromDate, toDate } = getAnalyticsRange();
+			if (fromDate) params.set('from_date', fromDate);
+			if (toDate) params.set('to_date', toDate);
+
+			const response = await fetch(`/api/admin/email-dashboard/analytics?${params}`);
+			const result = await response.json();
+
+			if (response.ok) {
+				analytics = { ...analyticsDefaults, ...result.summary };
+			} else {
+				notifications.danger(result.message || 'Failed to fetch analytics', 3000);
+			}
+		} catch (error) {
+			console.error('Error fetching analytics:', error);
+			notifications.danger('Failed to fetch analytics', 3000);
+		} finally {
+			analyticsLoading = false;
+		}
+	}
+
+	async function applyAnalyticsRange() {
+		if (analyticsRange === 'custom' && (!analyticsFrom || !analyticsTo)) {
+			notifications.warning('Select a start and end date', 3000);
+			return;
+		}
+		await fetchAnalytics();
+		if (activeTab === 'sent') {
+			sentPage = 1;
+			await fetchSentEmails();
+		}
+	}
+
+	function handleAnalyticsRangeChange() {
+		if (analyticsRange !== 'custom') {
+			void applyAnalyticsRange();
+		}
+	}
+
+	async function fetchSentEmails() {
+		sentIsLoading = true;
+		try {
+			const params = new URLSearchParams({
+				page: sentPage.toString(),
+				limit: sentLimit.toString()
+			});
+
+			if (sentSearch) params.set('search', sentSearch);
+			if (sentStatusFilter !== 'all') params.set('status', sentStatusFilter);
+			if (sentSourceFilter !== 'all') params.set('source', sentSourceFilter);
+
+			const { fromDate, toDate } = getAnalyticsRange();
+			if (fromDate) params.set('from_date', fromDate);
+			if (toDate) params.set('to_date', toDate);
+
+			const response = await fetch(`/api/admin/email-dashboard/sent?${params}`);
+			const result = await response.json();
+
+			if (!response.ok) {
+				throw new Error(result.message || 'Failed to fetch sent emails');
+			}
+
+			sentEmails = result.emails || [];
+			sentTotal = result.pagination?.total || 0;
+		} catch (error) {
+			console.error('Error fetching sent emails:', error);
+			notifications.danger('Failed to fetch sent emails', 3000);
+		} finally {
+			sentIsLoading = false;
+		}
+	}
+
+	function handleSentFilterChange() {
+		sentPage = 1;
+		void fetchSentEmails();
+	}
+
+	function handleSentSearchInput() {
+		clearTimeout(sentSearchTimeout);
+		sentSearchTimeout = setTimeout(() => {
+			if (activeTab !== 'sent') return;
+			sentPage = 1;
+			void fetchSentEmails();
+		}, 300);
+	}
+
+	async function openSentDetail(email: EmailSend) {
+		sentDetailOpen = true;
+		sentDetailLoading = true;
+		sentDetailEmail = null;
+		sentDetailEvents = [];
+		sentDetailRaw = false;
+
+		try {
+			const response = await fetch(`/api/admin/email-dashboard/sent/${email.id}`);
+			const result = await response.json();
+
+			if (!response.ok) {
+				throw new Error(result.message || 'Failed to fetch email details');
+			}
+
+			sentDetailEmail = result.email;
+			sentDetailEvents = result.events || [];
+		} catch (error) {
+			console.error('Error fetching sent details:', error);
+			notifications.danger('Failed to load email details', 3000);
+			sentDetailOpen = false;
+		} finally {
+			sentDetailLoading = false;
+		}
+	}
+
+	function closeSentDetail() {
+		sentDetailOpen = false;
+		sentDetailEmail = null;
+		sentDetailEvents = [];
+	}
+
+	async function copyTrackingId(trackingId: string) {
+		try {
+			await navigator.clipboard.writeText(trackingId);
+			notifications.success('Tracking ID copied', 2000);
+		} catch (error) {
+			console.error('Error copying tracking ID:', error);
+			notifications.warning('Failed to copy tracking ID', 3000);
+		}
+	}
+
+	function setActiveTab(tab: 'users' | 'drafts' | 'sent' | 'scheduled') {
+		activeTab = tab;
+		if (tab === 'sent') {
+			void fetchSentEmails();
 		}
 	}
 
@@ -120,6 +329,17 @@
 		});
 	}
 
+	function formatDateTime(dateStr: string | null): string {
+		if (!dateStr) return '-';
+		return new Date(dateStr).toLocaleString('en-US', {
+			month: 'short',
+			day: 'numeric',
+			year: 'numeric',
+			hour: '2-digit',
+			minute: '2-digit'
+		});
+	}
+
 	// Handle search
 	function handleSearch() {
 		currentPage = 1;
@@ -136,6 +356,7 @@
 
 	// Reactive: debounced search
 	let searchTimeout: ReturnType<typeof setTimeout>;
+	let sentSearchTimeout: ReturnType<typeof setTimeout>;
 	$: {
 		clearTimeout(searchTimeout);
 		searchTimeout = setTimeout(() => {
@@ -150,6 +371,46 @@
 	<div class="page-header">
 		<h1>Email Dashboard</h1>
 		<p class="subtitle">Send emails to users across all sources</p>
+	</div>
+
+	<!-- Analytics Controls -->
+	<div class="analytics-toolbar">
+		<div class="analytics-range">
+			<label class="analytics-label" for="analytics-range">Date range</label>
+			<select
+				id="analytics-range"
+				bind:value={analyticsRange}
+				on:change={handleAnalyticsRangeChange}
+				class="filter-select"
+			>
+				<option value="all">All time</option>
+				<option value="7d">Last 7 days</option>
+				<option value="30d">Last 30 days</option>
+				<option value="90d">Last 90 days</option>
+				<option value="custom">Custom</option>
+			</select>
+		</div>
+
+		{#if analyticsRange === 'custom'}
+			<div class="analytics-custom">
+				<input
+					type="date"
+					bind:value={analyticsFrom}
+					class="filter-select"
+					aria-label="Start date"
+				/>
+				<input type="date" bind:value={analyticsTo} class="filter-select" aria-label="End date" />
+				<button class="btn btn-secondary btn-sm" on:click={applyAnalyticsRange}> Apply </button>
+			</div>
+		{/if}
+
+		<button
+			class="btn btn-secondary btn-sm"
+			on:click={applyAnalyticsRange}
+			disabled={analyticsLoading}
+		>
+			{analyticsLoading ? 'Updating...' : 'Refresh'}
+		</button>
 	</div>
 
 	<!-- Analytics Summary -->
@@ -171,6 +432,15 @@
 		<div class="stat-chip">
 			<span class="stat-label">Unsubscribed</span>
 			<span class="stat-num">{analytics.total_unsubscribed}</span>
+			<span class="stat-rate">{analytics.unsubscribe_rate}%</span>
+		</div>
+		<div class="stat-chip">
+			<span class="stat-label">Bounced</span>
+			<span class="stat-num">{analytics.total_bounced}</span>
+		</div>
+		<div class="stat-chip">
+			<span class="stat-label">Failed</span>
+			<span class="stat-num">{analytics.total_failed}</span>
 		</div>
 		<!-- Cron Status -->
 		{#if cronStatus}
@@ -198,24 +468,24 @@
 
 	<!-- Tabs -->
 	<div class="tabs">
-		<button class="tab" class:active={activeTab === 'users'} on:click={() => (activeTab = 'users')}>
+		<button class="tab" class:active={activeTab === 'users'} on:click={() => setActiveTab('users')}>
 			Users ({totalUsers})
 		</button>
 		<button
 			class="tab"
 			class:active={activeTab === 'drafts'}
-			on:click={() => (activeTab = 'drafts')}
+			on:click={() => setActiveTab('drafts')}
 		>
 			Drafts ({drafts.length})
 		</button>
 		<button
 			class="tab"
 			class:active={activeTab === 'scheduled'}
-			on:click={() => (activeTab = 'scheduled')}
+			on:click={() => setActiveTab('scheduled')}
 		>
 			Scheduled ({scheduledEmails.length})
 		</button>
-		<button class="tab" class:active={activeTab === 'sent'} on:click={() => (activeTab = 'sent')}>
+		<button class="tab" class:active={activeTab === 'sent'} on:click={() => setActiveTab('sent')}>
 			Sent
 		</button>
 	</div>
@@ -407,10 +677,238 @@
 			<div class="section-header">
 				<h2>Sent Emails</h2>
 			</div>
-			<p class="coming-soon">View sent emails with open/click tracking coming soon...</p>
+			<div class="toolbar">
+				<div class="toolbar-left">
+					<input
+						type="text"
+						bind:value={sentSearch}
+						placeholder="Search subject or recipient..."
+						class="search-input"
+						on:input={handleSentSearchInput}
+					/>
+					<select
+						bind:value={sentStatusFilter}
+						on:change={handleSentFilterChange}
+						class="filter-select"
+					>
+						<option value="all">All Statuses</option>
+						<option value="sent">Sent</option>
+						<option value="failed">Failed</option>
+						<option value="bounced">Bounced</option>
+					</select>
+					<select
+						bind:value={sentSourceFilter}
+						on:change={handleSentFilterChange}
+						class="filter-select"
+					>
+						<option value="all">All Sources</option>
+						<option value="profiles">Profiles</option>
+						<option value="signups">Signups</option>
+						<option value="coaching_waitlist">Coaching Waitlist</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="table-wrapper">
+				{#if sentIsLoading}
+					<div class="loading">Loading...</div>
+				{:else}
+					<table class="data-table sent-table">
+						<thead>
+							<tr>
+								<th>Sent</th>
+								<th>Subject</th>
+								<th>Recipient</th>
+								<th>Source</th>
+								<th>Status</th>
+								<th>Opens</th>
+								<th>Clicks</th>
+								<th>Unsubscribed</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each sentEmails as email (email.id)}
+								<tr>
+									<td class="sent-date">{formatDateTime(email.sent_at || email.created_at)}</td>
+									<td class="subject-cell">{email.subject}</td>
+									<td class="recipient-cell">
+										<div class="recipient-email">{email.recipient_email}</div>
+										{#if email.recipient_name}
+											<div class="recipient-name">{email.recipient_name}</div>
+										{/if}
+									</td>
+									<td>
+										<span class="source-badge source-{email.recipient_source}">
+											{email.recipient_source === 'coaching_waitlist'
+												? 'coaching'
+												: email.recipient_source}
+										</span>
+									</td>
+									<td>
+										<span class="status-badge status-{email.status}">{email.status}</span>
+									</td>
+									<td>{email.open_count || 0}</td>
+									<td>{email.click_count || 0}</td>
+									<td>{email.unsubscribed_at ? formatDate(email.unsubscribed_at) : '-'}</td>
+									<td class="actions-cell">
+										<button class="btn btn-secondary btn-sm" on:click={() => openSentDetail(email)}>
+											View
+										</button>
+										<button
+											class="btn btn-secondary btn-sm"
+											on:click={() => copyTrackingId(email.tracking_id)}
+										>
+											Copy ID
+										</button>
+									</td>
+								</tr>
+							{:else}
+								<tr>
+									<td colspan="9" class="empty-state">No sent emails found</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				{/if}
+			</div>
+
+			{#if sentTotal > sentLimit}
+				<div class="pagination">
+					<button
+						class="btn btn-secondary"
+						disabled={sentPage === 1}
+						on:click={() => {
+							sentPage--;
+							fetchSentEmails();
+						}}
+					>
+						Previous
+					</button>
+					<span class="page-info">
+						Page {sentPage} of {Math.ceil(sentTotal / sentLimit)}
+					</span>
+					<button
+						class="btn btn-secondary"
+						disabled={sentPage >= Math.ceil(sentTotal / sentLimit)}
+						on:click={() => {
+							sentPage++;
+							fetchSentEmails();
+						}}
+					>
+						Next
+					</button>
+				</div>
+			{/if}
 		</div>
 	{/if}
 </div>
+
+{#if sentDetailOpen}
+	<div class="sent-detail-overlay" on:click|self={closeSentDetail}>
+		<div class="sent-detail-panel">
+			<div class="sent-detail-header">
+				<h2>Sent Email</h2>
+				<button class="sent-detail-close" aria-label="Close" on:click={closeSentDetail}>
+					&times;
+				</button>
+			</div>
+			<div class="sent-detail-body">
+				{#if sentDetailLoading}
+					<div class="loading">Loading...</div>
+				{:else if sentDetailEmail}
+					<div class="sent-detail-section">
+						<h3>Overview</h3>
+						<div class="detail-grid">
+							<div class="detail-row">
+								<span class="detail-label">Subject</span>
+								<span class="detail-value">{sentDetailEmail.subject}</span>
+							</div>
+							<div class="detail-row">
+								<span class="detail-label">Recipient</span>
+								<span class="detail-value">{sentDetailEmail.recipient_email}</span>
+							</div>
+							<div class="detail-row">
+								<span class="detail-label">Campaign</span>
+								<span class="detail-value">{sentDetailEmail.campaign_id || '-'}</span>
+							</div>
+							<div class="detail-row">
+								<span class="detail-label">Sent By</span>
+								<span class="detail-value">{sentDetailEmail.sent_by || '-'}</span>
+							</div>
+							<div class="detail-row">
+								<span class="detail-label">Sent</span>
+								<span class="detail-value">
+									{formatDateTime(sentDetailEmail.sent_at || sentDetailEmail.created_at)}
+								</span>
+							</div>
+							<div class="detail-row">
+								<span class="detail-label">Status</span>
+								<span class="detail-value">
+									<span class="status-badge status-{sentDetailEmail.status}">
+										{sentDetailEmail.status}
+									</span>
+								</span>
+							</div>
+							<div class="detail-row">
+								<span class="detail-label">Tracking ID</span>
+								<span class="detail-value">{sentDetailEmail.tracking_id}</span>
+								<button
+									class="btn btn-secondary btn-sm"
+									on:click={() => copyTrackingId(sentDetailEmail.tracking_id)}
+								>
+									Copy
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="sent-detail-section">
+						<div class="detail-header">
+							<h3>Content</h3>
+							<button
+								class="btn btn-secondary btn-sm"
+								on:click={() => (sentDetailRaw = !sentDetailRaw)}
+							>
+								{sentDetailRaw ? 'Preview' : 'Raw'}
+							</button>
+						</div>
+						{#if sentDetailRaw}
+							<pre class="raw-html">{sentDetailEmail.html_content}</pre>
+						{:else}
+							<div class="email-preview">
+								{@html sentDetailEmail.html_content}
+							</div>
+						{/if}
+					</div>
+
+					<div class="sent-detail-section">
+						<h3>Events</h3>
+						{#if sentDetailEvents.length === 0}
+							<div class="empty-state">No tracking events yet</div>
+						{:else}
+							<div class="event-list">
+								{#each sentDetailEvents as event}
+									<div class="event-item">
+										<span class="event-type">{event.event_type}</span>
+										<span class="event-time">{formatDateTime(event.created_at)}</span>
+										{#if event.link_url}
+											<a class="event-link" href={event.link_url} target="_blank" rel="noreferrer">
+												{event.link_url}
+											</a>
+										{/if}
+									</div>
+								{/each}
+							</div>
+						{/if}
+					</div>
+				{:else}
+					<div class="empty-state">No email selected</div>
+				{/if}
+			</div>
+		</div>
+	</div>
+{/if}
 
 <!-- Email Compose Modal -->
 <EmailComposeModal
@@ -442,6 +940,33 @@
 	.subtitle {
 		color: var(--text-secondary);
 		margin: 0;
+	}
+
+	/* Analytics Toolbar */
+	.analytics-toolbar {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-end;
+		gap: 0.75rem;
+		margin-bottom: 1rem;
+	}
+
+	.analytics-range {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.analytics-label {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+	}
+
+	.analytics-custom {
+		display: flex;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+		align-items: center;
 	}
 
 	/* Stats Row */
@@ -692,6 +1217,22 @@
 		color: rgb(34, 197, 94);
 	}
 
+	.status-sent,
+	.status-delivered {
+		background: rgba(34, 197, 94, 0.1);
+		color: rgb(34, 197, 94);
+	}
+
+	.status-failed {
+		background: rgba(239, 68, 68, 0.1);
+		color: rgb(239, 68, 68);
+	}
+
+	.status-bounced {
+		background: rgba(234, 179, 8, 0.1);
+		color: rgb(202, 138, 4);
+	}
+
 	/* Pagination */
 	.pagination {
 		display: flex;
@@ -769,6 +1310,34 @@
 		color: var(--text-secondary);
 	}
 
+	/* Sent Table */
+	.sent-table .subject-cell {
+		max-width: 280px;
+	}
+
+	.sent-date {
+		white-space: nowrap;
+	}
+
+	.recipient-cell {
+		min-width: 180px;
+	}
+
+	.recipient-email {
+		font-family: var(--font-mono);
+		font-size: 0.8125rem;
+	}
+
+	.recipient-name {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+	}
+
+	.actions-cell {
+		display: flex;
+		gap: 0.5rem;
+	}
+
 	/* Drafts & Scheduled Lists */
 	.draft-list,
 	.scheduled-list {
@@ -807,8 +1376,157 @@
 		color: var(--text-tertiary);
 	}
 
+	/* Sent Detail */
+	.sent-detail-overlay {
+		position: fixed;
+		inset: 0;
+		background: rgba(15, 23, 42, 0.45);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1100;
+		padding: 1.5rem;
+	}
+
+	.sent-detail-panel {
+		width: min(900px, 100%);
+		max-height: 90vh;
+		background: var(--card-background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+		display: flex;
+		flex-direction: column;
+	}
+
+	.sent-detail-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem 1.5rem;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.sent-detail-body {
+		padding: 1.5rem;
+		overflow-y: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.sent-detail-close {
+		background: none;
+		border: none;
+		font-size: 1.5rem;
+		cursor: pointer;
+		color: var(--text-secondary);
+	}
+
+	.sent-detail-section h3 {
+		margin: 0 0 0.5rem;
+		font-size: 1rem;
+	}
+
+	.detail-grid {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.detail-row {
+		display: flex;
+		gap: 0.75rem;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.detail-label {
+		min-width: 100px;
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		color: var(--text-secondary);
+	}
+
+	.detail-value {
+		font-size: 0.875rem;
+		color: var(--text-primary);
+	}
+
+	.detail-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0.5rem;
+	}
+
+	.email-preview {
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 1rem;
+		background: white;
+	}
+
+	.raw-html {
+		background: var(--background);
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 1rem;
+		font-size: 0.75rem;
+		font-family: var(--font-mono);
+		white-space: pre-wrap;
+		word-break: break-word;
+		max-height: 320px;
+		overflow: auto;
+	}
+
+	.event-list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.event-item {
+		padding: 0.75rem;
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		background: var(--background);
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.event-type {
+		font-size: 0.75rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		color: var(--text-secondary);
+	}
+
+	.event-time {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+	}
+
+	.event-link {
+		font-size: 0.75rem;
+		color: var(--primary);
+		word-break: break-word;
+	}
+
 	/* Responsive */
 	@media (max-width: 640px) {
+		.analytics-toolbar {
+			align-items: stretch;
+		}
+
+		.analytics-range,
+		.analytics-custom {
+			width: 100%;
+		}
+
 		.toolbar {
 			flex-direction: column;
 			align-items: stretch;
@@ -820,6 +1538,16 @@
 
 		.search-input {
 			min-width: auto;
+		}
+
+		.actions-cell {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		.sent-detail-panel {
+			max-height: 100vh;
+			border-radius: 0;
 		}
 	}
 </style>

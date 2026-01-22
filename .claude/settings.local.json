@@ -93,7 +93,10 @@
 			"Bash(wc:*)",
 			"WebFetch(domain:www.provokemedia.com)",
 			"mcp__supabase__execute_sql",
-			"WebFetch(domain:9takes.com)"
+			"WebFetch(domain:9takes.com)",
+			"WebFetch(domain:prices.appleinsider.com)",
+			"WebFetch(domain:www.bestbuy.com)",
+			"WebFetch(domain:www.costco.com)"
 		],
 		"deny": [],
 		"ask": [],

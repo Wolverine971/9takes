@@ -59,21 +59,27 @@ export const load: PageServerLoad = async (event) => {
 		p_search: null
 	});
 
+	const analyticsDefaults = {
+		total_sent: 0,
+		total_opened: 0,
+		total_clicked: 0,
+		total_unsubscribed: 0,
+		total_bounced: 0,
+		total_failed: 0,
+		total_open_count: 0,
+		total_click_count: 0,
+		open_rate: 0,
+		click_rate: 0,
+		unsubscribe_rate: 0
+	};
+
 	return {
 		session,
 		users: usersResult.data || [],
 		totalUsers: totalCount || 0,
 		drafts: draftsResult.data || [],
 		scheduledEmails: scheduledResult.data || [],
-		analytics: analyticsResult.data || {
-			total_sent: 0,
-			total_opened: 0,
-			total_clicked: 0,
-			total_unsubscribed: 0,
-			total_bounced: 0,
-			open_rate: 0,
-			click_rate: 0
-		},
+		analytics: { ...analyticsDefaults, ...(analyticsResult.data || {}) },
 		cronStatus: cronStatusResult.data || null
 	};
 };

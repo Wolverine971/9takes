@@ -34,40 +34,16 @@ async function updateOpenTracking(trackingId: string, request: Request): Promise
 	const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
 	const userAgent = request.headers.get('user-agent') || 'unknown';
 
-	// Get the email send record
-	const { data: emailSend, error: fetchError } = await supabase
-		.from('email_sends')
-		.select('id, opened_at, open_count')
-		.eq('tracking_id', trackingId)
-		.single();
-
-	if (fetchError || !emailSend) {
-		console.error('Email send not found for tracking:', trackingId);
-		return;
-	}
-
-	// Update the email send record
-	const { error: updateError } = await supabase
-		.from('email_sends')
-		.update({
-			opened_at: emailSend.opened_at || new Date().toISOString(),
-			open_count: (emailSend.open_count || 0) + 1
-		})
-		.eq('tracking_id', trackingId);
-
-	if (updateError) {
-		console.error('Error updating email_sends:', updateError);
-	}
-
-	// Log the tracking event
-	const { error: eventError } = await supabase.from('email_tracking_events').insert({
-		email_send_id: emailSend.id,
-		event_type: 'open',
-		ip_address: ip,
-		user_agent: userAgent
+	const supabaseAny = supabase as any;
+	const { error: trackingError, data: tracked } = await supabaseAny.rpc('track_email_event', {
+		p_tracking_id: trackingId,
+		p_event_type: 'open',
+		p_link_url: null,
+		p_ip_address: ip,
+		p_user_agent: userAgent
 	});
 
-	if (eventError) {
-		console.error('Error inserting tracking event:', eventError);
+	if (trackingError || !tracked) {
+		console.error('Error tracking email open:', trackingError);
 	}
 }

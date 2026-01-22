@@ -118,8 +118,11 @@ export interface EmailAnalytics {
 	total_unsubscribed: number;
 	total_bounced: number;
 	total_failed: number;
+	total_open_count: number;
+	total_click_count: number;
 	open_rate: number;
 	click_rate: number;
+	unsubscribe_rate: number;
 }
 
 // API Request/Response types

@@ -1260,7 +1260,7 @@
 </url>
 <url>
     <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
-    <lastmod>2026-01-20T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1976,15 +1976,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/1s/Emma-Watson.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Jason-Calacanis</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Jason-Calacanis.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2930,6 +2921,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Post-Malone.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Jason-Calacanis</loc>
+    <lastmod>2026-01-21T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Jason-Calacanis.webp</image:loc>
     </image:image>
 </url>
 <url>

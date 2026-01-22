@@ -8,51 +8,27 @@ import { supabase } from '$lib/supabase';
 export const GET: RequestHandler = async ({ params, request }) => {
 	const { tracking_id } = params;
 
-	// Get the email send record
-	const { data: emailSend, error: fetchError } = await supabase
-		.from('email_sends')
-		.select('id, recipient_email, recipient_source, recipient_source_id')
-		.eq('tracking_id', tracking_id)
-		.single();
-
-	if (fetchError || !emailSend) {
-		throw error(404, 'Email not found');
-	}
-
 	const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
 	const userAgent = request.headers.get('user-agent') || 'unknown';
 
-	// Check if already unsubscribed
-	const { data: existingUnsubscribe } = await supabase
-		.from('email_unsubscribes')
-		.select('id')
-		.eq('email', emailSend.recipient_email)
-		.single();
+	const supabaseAny = supabase as any;
+	const { data: recipientEmail, error: unsubscribeError } = await supabaseAny.rpc(
+		'track_email_unsubscribe',
+		{
+			p_tracking_id: tracking_id,
+			p_ip_address: ip,
+			p_user_agent: userAgent
+		}
+	);
 
-	if (!existingUnsubscribe) {
-		// Insert unsubscribe record
-		await supabase.from('email_unsubscribes').insert({
-			email: emailSend.recipient_email,
-			source: emailSend.recipient_source,
-			source_id: emailSend.recipient_source_id
-		});
+	if (unsubscribeError) {
+		console.error('Error tracking unsubscribe:', unsubscribeError);
+		throw error(500, 'Failed to unsubscribe');
 	}
 
-	// Update email_send record
-	await supabase
-		.from('email_sends')
-		.update({
-			unsubscribed_at: new Date().toISOString()
-		})
-		.eq('tracking_id', tracking_id);
-
-	// Log the tracking event
-	await supabase.from('email_tracking_events').insert({
-		email_send_id: emailSend.id,
-		event_type: 'unsubscribe',
-		ip_address: ip,
-		user_agent: userAgent
-	});
+	if (!recipientEmail) {
+		throw error(404, 'Email not found');
+	}
 
 	// Return a simple unsubscribe confirmation page
 	const html = `<!DOCTYPE html>
@@ -94,7 +70,7 @@ export const GET: RequestHandler = async ({ params, request }) => {
 <body>
   <div class="container">
     <h1>You've been unsubscribed</h1>
-    <p>You will no longer receive emails from 9takes at <strong>${emailSend.recipient_email}</strong>.</p>
+    <p>You will no longer receive emails from 9takes at <strong>${recipientEmail}</strong>.</p>
     <p>Changed your mind? <a href="https://9takes.com">Visit 9takes</a></p>
   </div>
 </body>
