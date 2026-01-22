@@ -13,13 +13,14 @@
 		Comment as CommentType,
 		CommentLike,
 		Subscription,
-		QuestionPageData
+		QuestionPageData,
+		Question
 	} from '$lib/types/questions';
 	import { viewportWidth } from '$lib/stores/viewport';
 
 	// Component props
 	export let parentType: 'question' | 'comment';
-	export let data: QuestionPageData;
+	export let data: QuestionPageData | CommentType;
 	export let user: User | null;
 	export let questionId: number;
 	export let qrCodeUrl: string;
@@ -38,17 +39,26 @@
 	let anonymousComment = false;
 	let textareaHeight = 'auto';
 
+	// Cached fingerprint - loaded once on mount
+	let cachedFingerprint: string | null = null;
+	let fingerprintLoading = false;
+
+	// Type guard to check if data is QuestionPageData
+	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
+		return 'question' in d && d.question !== undefined;
+	};
+
 	// Use shared viewport store
 	$: innerWidth = $viewportWidth;
 
 	// Reactive statements
 	$: {
 		// Update likes and subscription state from data
-		likes = data?.comment_like || [];
-		subscriptions = data?.question?.subscriptions || [];
+		likes = isQuestionPageData(data) ? [] : data?.comment_like || [];
+		subscriptions = isQuestionPageData(data) ? data?.question?.subscriptions || [] : [];
 
 		// Auto-show comment box for first-time answerers
-		if (!data?.flags?.userHasAnswered && parentType === 'question') {
+		if (isQuestionPageData(data) && !data?.flags?.userHasAnswered && parentType === 'question') {
 			commenting = true;
 		}
 	}
@@ -56,6 +66,22 @@
 	// Handle QR code modal opening
 	const openQRModal = () => {
 		getModal('qr-modal').open();
+	};
+
+	// Preload fingerprint in background (called on mount)
+	const preloadFingerprint = async () => {
+		if (cachedFingerprint || fingerprintLoading) return;
+		fingerprintLoading = true;
+		try {
+			const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
+			const fp = await FingerprintJS.load();
+			const fpval = await fp.get();
+			cachedFingerprint = fpval?.visitorId?.toString() || null;
+		} catch (error) {
+			console.error('Fingerprint preload failed:', error);
+		} finally {
+			fingerprintLoading = false;
+		}
 	};
 
 	// Create a new comment
@@ -69,13 +95,18 @@
 		loading = true;
 
 		try {
-			// Dynamically import FingerprintJS to avoid bundling in main chunk
-			const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
-			const fp = await FingerprintJS.load();
-			const fpval = await fp.get();
+			// Use cached fingerprint if available, otherwise load it now
+			let fingerprint = cachedFingerprint;
+			if (!fingerprint && !fingerprintLoading) {
+				const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
+				const fp = await FingerprintJS.load();
+				const fpval = await fp.get();
+				fingerprint = fpval?.visitorId?.toString() || null;
+				cachedFingerprint = fingerprint;
+			}
 
 			const body = new FormData();
-			appendCommonFormData(body, fpval);
+			appendCommonFormData(body, { visitorId: fingerprint });
 
 			const result = await submitComment(body);
 			handleCommentResult(result);
@@ -89,8 +120,9 @@
 
 	// Check if user can comment
 	const canComment = () => {
-		if (!data?.flags?.userSignedIn && !user?.id) {
-			if (data?.flags?.userHasAnswered || anonymousComment) {
+		const flags = isQuestionPageData(data) ? data.flags : null;
+		if (!flags?.userSignedIn && !user?.id) {
+			if (flags?.userHasAnswered || anonymousComment) {
 				notifications.info('Must register or login to comment multiple times', 3000);
 				return false;
 			} else if (parentType === 'comment') {
@@ -106,12 +138,28 @@
 	// Prepare form data for comment submission
 	const appendCommonFormData = (body: FormData, fpval: any) => {
 		body.append('comment', comment);
-		body.append('parent_id', parentType === 'comment' ? data.id : data.question.id);
-		body.append('author_id', user?.id);
+
+		// Get parent_id and es_id based on parent type
+		let parentId: number;
+		let esId: string;
+		if (parentType === 'comment' && !isQuestionPageData(data)) {
+			parentId = data.id;
+			esId = data.es_id ?? '';
+		} else if (isQuestionPageData(data)) {
+			parentId = data.question.id;
+			esId = data.question.es_id ?? '';
+		} else {
+			// Fallback - should not happen with proper typing
+			parentId = questionId;
+			esId = '';
+		}
+
+		body.append('parent_id', parentId.toString());
+		body.append('author_id', user?.id ?? '');
 		body.append('parent_type', parentType);
-		body.append('es_id', parentType === 'comment' ? data.es_id : data.question.es_id);
+		body.append('es_id', esId);
 		body.append('question_id', questionId.toString());
-		body.append('fingerprint', fpval?.visitorId?.toString());
+		body.append('fingerprint', fpval?.visitorId?.toString() ?? '');
 	};
 
 	// Submit comment to the server
@@ -135,7 +183,7 @@
 			textareaHeight = 'auto';
 
 			// Hide comment box after submitting for non-first-time users
-			if (data?.flags?.userHasAnswered) {
+			if (isQuestionPageData(data) && data?.flags?.userHasAnswered) {
 				commenting = false;
 			}
 		}
@@ -154,10 +202,16 @@
 		subscriptionLoading = true;
 
 		try {
+			// Only allow subscriptions on questions (QuestionPageData)
+			if (!isQuestionPageData(data)) {
+				notifications.danger('Cannot subscribe to comments', 3000);
+				return;
+			}
+
 			const body = new FormData();
-			body.append('parent_id', data.question.id);
+			body.append('parent_id', data.question.id.toString());
 			body.append('user_id', user.id);
-			body.append('es_id', data.question.es_id);
+			body.append('es_id', data.question.es_id ?? '');
 			body.append('operation', operation);
 
 			const resp = await fetch('?/subscribe', {
@@ -186,7 +240,7 @@
 		if (operation === 'add') {
 			subscriptions = [newSubscription, ...subscriptions];
 		} else {
-			subscriptions = subscriptions.filter((c) => c.user_id !== user.id);
+			subscriptions = subscriptions.filter((c) => c.user_id !== user?.id);
 		}
 	};
 
@@ -220,6 +274,9 @@
 		document.querySelectorAll('textarea').forEach((elem) => {
 			elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
 		});
+
+		// Preload fingerprint in background so it's ready when user submits
+		preloadFingerprint();
 	});
 </script>
 

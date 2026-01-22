@@ -37,6 +37,10 @@
 	let loadingComments = false;
 	let loading = false;
 
+	// Cached fingerprint for replies
+	let cachedFingerprint: string | null = null;
+	let fingerprintLoading = false;
+
 	// Use shared viewport store
 	$: innerWidth = $viewportWidth;
 	let newcomment = '';
@@ -192,10 +196,20 @@
 		loading = true;
 
 		try {
-			// Dynamically import FingerprintJS to avoid bundling in main chunk
-			const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
-			const fp = await FingerprintJS.load();
-			const fpval = await fp.get();
+			// Use cached fingerprint if available, otherwise load it now
+			let fingerprint = cachedFingerprint;
+			if (!fingerprint && !fingerprintLoading) {
+				fingerprintLoading = true;
+				try {
+					const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
+					const fp = await FingerprintJS.load();
+					const fpval = await fp.get();
+					fingerprint = fpval?.visitorId?.toString() || null;
+					cachedFingerprint = fingerprint;
+				} finally {
+					fingerprintLoading = false;
+				}
+			}
 
 			const body = new FormData();
 			body.append('comment', newcomment);
@@ -204,7 +218,7 @@
 			body.append('parent_type', 'comment');
 			body.append('es_id', _commentComment.es_id);
 			body.append('question_id', questionId.toString());
-			body.append('fingerprint', fpval?.visitorId?.toString());
+			body.append('fingerprint', fingerprint || '');
 
 			const resp = await fetch('?/createCommentRando', { method: 'POST', body });
 

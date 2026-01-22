@@ -16,10 +16,10 @@
 
 	// State
 	let activeTab: 'users' | 'drafts' | 'sent' | 'scheduled' = 'users';
-	let users: EmailRecipient[] = data.users || [];
+	let users = (data.users || []) as EmailRecipient[];
 	let totalUsers = data.totalUsers || 0;
-	let drafts: EmailDraft[] = data.drafts || [];
-	let scheduledEmails: ScheduledEmail[] = data.scheduledEmails || [];
+	let drafts = (data.drafts || []) as unknown as EmailDraft[];
+	let scheduledEmails = (data.scheduledEmails || []) as unknown as ScheduledEmail[];
 	const analyticsDefaults: EmailAnalytics = {
 		total_sent: 0,
 		total_opened: 0,
@@ -320,7 +320,7 @@
 	}
 
 	// Format date
-	function formatDate(dateStr: string | null): string {
+	function formatDate(dateStr: string | null | undefined): string {
 		if (!dateStr) return '-';
 		return new Date(dateStr).toLocaleDateString('en-US', {
 			month: 'short',
@@ -805,7 +805,8 @@
 </div>
 
 {#if sentDetailOpen}
-	<div class="sent-detail-overlay" on:click|self={closeSentDetail}>
+	<!-- svelte-ignore a11y_no_static_element_interactions a11y_click_events_have_key_events -->
+	<div class="sent-detail-overlay" role="presentation" on:click|self={closeSentDetail}>
 		<div class="sent-detail-panel">
 			<div class="sent-detail-header">
 				<h2>Sent Email</h2>
@@ -855,7 +856,7 @@
 								<span class="detail-value">{sentDetailEmail.tracking_id}</span>
 								<button
 									class="btn btn-secondary btn-sm"
-									on:click={() => copyTrackingId(sentDetailEmail.tracking_id)}
+									on:click={() => sentDetailEmail && copyTrackingId(sentDetailEmail.tracking_id)}
 								>
 									Copy
 								</button>

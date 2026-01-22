@@ -6,10 +6,10 @@ export type RecipientSource = 'profiles' | 'signups' | 'coaching_waitlist';
 export interface EmailRecipient {
 	id: string;
 	email: string;
-	name?: string;
+	name?: string | null;
 	source: RecipientSource;
-	source_id: string;
-	enneagram?: string;
+	source_id?: string | null;
+	enneagram?: string | null;
 	unsubscribed?: boolean;
 	created_at?: string;
 }
@@ -76,30 +76,30 @@ export interface EmailTrackingEvent {
 
 export interface EmailDraft {
 	id: string;
-	subject?: string;
-	html_content?: string;
-	recipients: EmailRecipient[];
-	scheduled_for?: string;
-	created_by?: string;
-	created_at: string;
-	updated_at: string;
+	subject?: string | null;
+	html_content?: string | null;
+	recipients?: EmailRecipient[] | null;
+	scheduled_for?: string | null;
+	created_by?: string | null;
+	created_at?: string | null;
+	updated_at?: string | null;
 }
 
 export interface ScheduledEmail {
 	id: string;
-	draft_id?: string;
+	draft_id?: string | null;
 	subject: string;
-	html_content: string;
-	recipients: EmailRecipient[];
-	campaign_id?: string;
+	html_content?: string | null;
+	recipients?: EmailRecipient[] | null;
+	campaign_id?: string | null;
 	scheduled_for: string;
 	status: 'pending' | 'processing' | 'completed' | 'failed' | 'cancelled';
-	processed_at?: string;
-	emails_sent: number;
-	emails_failed: number;
-	error_log: Array<{ email?: string; error: string }>;
-	created_by?: string;
-	created_at: string;
+	processed_at?: string | null;
+	emails_sent?: number | null;
+	emails_failed?: number | null;
+	error_log?: Array<{ email?: string; error: string }> | null;
+	created_by?: string | null;
+	created_at?: string | null;
 }
 
 export interface EmailUnsubscribe {

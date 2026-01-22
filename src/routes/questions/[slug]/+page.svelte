@@ -47,24 +47,24 @@
 		return fullTitle.length > 60 ? fullTitle.slice(0, 57) + '...' : fullTitle;
 	}
 
-	// Handle comment addition
-	async function addComment() {
-		await new Promise((resolve) => setTimeout(resolve, 500));
-		try {
-			const response = await fetch(`/comments?type=question&parentId=${data?.question?.id}`);
-			const commentData = await response.json();
+	// Handle comment addition - uses optimistic update
+	function addComment(event: CustomEvent) {
+		const newComment = event.detail;
+		const isFirstComment = !dataForChild.flags?.userHasAnswered;
 
-			if (!commentData?.message) {
-				dataForChild = {
-					...dataForChild,
-					comments: commentData,
-					comment_count: (dataForChild.comment_count || 0) + 1,
-					flags: { ...dataForChild.flags, userHasAnswered: true }
-				};
-			}
+		// Optimistic update - immediately add comment to UI
+		if (newComment) {
+			dataForChild = {
+				...dataForChild,
+				comments: [newComment, ...(dataForChild.comments || [])],
+				comment_count: (dataForChild.comment_count || 0) + 1,
+				flags: { ...dataForChild.flags, userHasAnswered: true }
+			};
+		}
+
+		// Only invalidate for first-time commenters to refresh permissions/UI state
+		if (isFirstComment) {
 			invalidateAll();
-		} catch (error) {
-			console.error('Error fetching comment data:', error);
 		}
 	}
 
@@ -232,11 +232,7 @@
 
 		<!-- Question Content -->
 		{#if dataForChild}
-			<QuestionContent
-				data={dataForChild}
-				user={data?.user}
-				on:commentAdded={() => invalidateAll()}
-			/>
+			<QuestionContent data={dataForChild} user={data?.user} on:commentAdded={addComment} />
 		{/if}
 	</article>
 </div>

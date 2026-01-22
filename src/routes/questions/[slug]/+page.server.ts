@@ -271,11 +271,18 @@ async function createCommentData(
 	const es_id = body.es_id as string;
 	const fingerprint = body.fingerprint as string;
 
-	await parseUrls(comment, question_id);
+	// Parse URLs in background - don't block comment creation on external HTTP fetch
+	parseUrls(comment, question_id).catch((err) => {
+		console.error('Background URL parsing failed:', err);
+	});
 
+	// Create ES comment in background - don't block response
 	let esId: string | null = null;
 	if (!demo_time) {
-		esId = await createESComment(parent_type, es_id, author_id, comment, ip);
+		// Fire and forget - ES indexing happens in background
+		createESComment(parent_type, es_id, author_id, comment, ip).catch((err) => {
+			console.error('Background ES indexing failed:', err);
+		});
 	}
 
 	return {
