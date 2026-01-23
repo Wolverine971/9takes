@@ -101,27 +101,31 @@
 		flex: 1;
 		height: 100%;
 		min-height: 0;
-		background: #1e1e2e;
+		background: var(--void-deep);
 		border-radius: 8px;
 		overflow: hidden;
 		font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
 
 		&.readonly {
-			background: #f8fafc;
+			background: var(--void-elevated);
 
 			.line-numbers {
-				background: #f1f5f9;
-				color: #94a3b8;
+				background: var(--void-deep);
+				color: var(--text-muted);
 			}
 
 			.editor-textarea {
-				background: #f8fafc;
-				color: #334155;
+				background: var(--void-elevated);
+				color: var(--text-secondary);
 
 				&::placeholder {
-					color: #94a3b8;
+					color: var(--text-muted);
 				}
 			}
+		}
+
+		@media (max-width: 768px) {
+			border-radius: 0;
 		}
 	}
 
@@ -129,13 +133,17 @@
 		flex-shrink: 0;
 		width: 48px;
 		padding: 16px 8px 16px 0;
-		background: #181825;
-		color: #6c7086;
+		background: var(--void-abyss);
+		color: var(--text-muted);
 		text-align: right;
 		font-size: 13px;
 		line-height: 1.6;
 		overflow: hidden;
 		user-select: none;
+
+		@media (max-width: 768px) {
+			display: none;
+		}
 	}
 
 	.line-number {
@@ -147,8 +155,8 @@
 		width: 100%;
 		height: 100%;
 		padding: 16px;
-		background: #1e1e2e;
-		color: #cdd6f4;
+		background: var(--void-deep);
+		color: var(--text-primary);
 		border: none;
 		outline: none;
 		resize: none;
@@ -158,18 +166,24 @@
 		tab-size: 2;
 
 		&::placeholder {
-			color: #6c7086;
+			color: var(--text-muted);
 		}
 
 		&:focus {
 			outline: none;
+		}
+
+		@media (max-width: 768px) {
+			padding: 12px;
+			font-size: 16px; // Prevent iOS zoom on focus
+			line-height: 1.5;
 		}
 	}
 
 	/* Scrollbar styling */
 	.editor-textarea {
 		scrollbar-width: thin;
-		scrollbar-color: #45475a #1e1e2e;
+		scrollbar-color: var(--shadow-monarch) var(--void-deep);
 
 		&::-webkit-scrollbar {
 			width: 8px;
@@ -177,15 +191,15 @@
 		}
 
 		&::-webkit-scrollbar-track {
-			background: #1e1e2e;
+			background: var(--void-deep);
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background: #45475a;
+			background: var(--shadow-monarch);
 			border-radius: 4px;
 
 			&:hover {
-				background: #585b70;
+				background: var(--shadow-monarch-light);
 			}
 		}
 	}

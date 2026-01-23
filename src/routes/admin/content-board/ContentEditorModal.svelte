@@ -35,8 +35,8 @@
 	// State
 	let loading = $state(true);
 	let saving = $state(false);
-	let data = $state<Record<string, any>>({});
-	let originalData = $state<Record<string, any>>({});
+	let data = $state<Record<string, any>>({ content: '' });
+	let originalData = $state<Record<string, any>>({ content: '' });
 	let history = $state<HistoryItem[]>([]);
 	let stageName = $state<string | null>(null);
 	let showUnsavedWarning = $state(false);
@@ -53,28 +53,40 @@
 		return JSON.stringify(data) !== JSON.stringify(originalData);
 	});
 
-	// Track previous blogId to detect changes
+	// Track previous state to detect changes
 	let prevBlogId = $state<number | null>(null);
+	let prevInitialDataTitle = $state<string | null>(null);
+	let wasOpen = $state(false);
 
-	// Load content when modal opens or blogId changes
+	// Load content when modal opens or content changes
 	$effect(() => {
-		if (open && blogId !== null) {
-			// Reset and reload if blogId changed or modal just opened
-			if (blogId !== prevBlogId) {
+		if (open) {
+			// Determine if we need to reload
+			const currentTitle = initialData?.title || null;
+			const needsReload =
+				!wasOpen || // Modal just opened
+				(blogId !== null && blogId !== prevBlogId) || // blogId changed (people content)
+				(blogId === null && currentTitle !== prevInitialDataTitle); // initialData changed (file-based)
+
+			if (needsReload) {
 				prevBlogId = blogId;
+				prevInitialDataTitle = currentTitle;
+				wasOpen = true;
 				// Reset state before loading new content
-				data = {};
-				originalData = {};
+				data = { content: '' };
+				originalData = { content: '' };
 				history = [];
 				stageName = null;
 				loading = true;
 				loadContent();
 			}
-		} else if (!open) {
+		} else if (!open && wasOpen) {
 			// Reset when modal closes
+			wasOpen = false;
 			prevBlogId = null;
-			data = {};
-			originalData = {};
+			prevInitialDataTitle = null;
+			data = { content: '' };
+			originalData = { content: '' };
 			history = [];
 			stageName = null;
 			loading = true;
@@ -403,9 +415,9 @@
 	.modal-backdrop {
 		position: fixed;
 		inset: 0;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
 		backdrop-filter: blur(4px);
-		z-index: 1000;
+		z-index: 9990;
 	}
 
 	.modal-container {
@@ -414,10 +426,13 @@
 		left: 24px;
 		right: 24px;
 		bottom: 24px;
-		background: white;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 12px;
-		box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-		z-index: 1001;
+		box-shadow:
+			0 25px 50px -12px rgba(0, 0, 0, 0.5),
+			var(--glow-sm);
+		z-index: 9991;
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
@@ -429,6 +444,7 @@
 			right: 0;
 			bottom: 0;
 			border-radius: 0;
+			border: none;
 		}
 	}
 
@@ -437,12 +453,13 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 12px 16px;
-		border-bottom: 1px solid #e5e7eb;
-		background: #f9fafb;
+		border-bottom: 1px solid var(--void-elevated);
+		background: var(--void-deep);
 		flex-shrink: 0;
 
 		@media (max-width: 768px) {
-			padding: 12px;
+			padding: 8px 12px;
+			min-height: 56px;
 		}
 	}
 
@@ -451,6 +468,11 @@
 		align-items: center;
 		gap: 12px;
 		min-width: 0;
+		flex: 1;
+
+		@media (max-width: 768px) {
+			gap: 8px;
+		}
 	}
 
 	.close-btn {
@@ -462,48 +484,64 @@
 		border: none;
 		background: none;
 		border-radius: 8px;
-		color: #6b7280;
+		color: var(--text-secondary);
 		cursor: pointer;
 		transition: all 0.15s ease;
+		flex-shrink: 0;
 
 		&:hover {
-			background: #e5e7eb;
-			color: #1f2937;
+			background: var(--void-elevated);
+			color: var(--text-primary);
+		}
+
+		@media (max-width: 768px) {
+			width: 44px;
+			height: 44px;
 		}
 	}
 
 	.modal-title {
 		font-size: 16px;
 		font-weight: 600;
-		color: #1f2937;
+		color: var(--text-primary);
 		margin: 0;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
 
 		@media (max-width: 768px) {
-			font-size: 14px;
+			font-size: 15px;
 		}
 	}
 
 	.dirty-indicator {
-		color: #f59e0b;
+		color: var(--warning);
 		margin-left: 4px;
 	}
 
 	.readonly-badge {
 		padding: 2px 8px;
-		background: #fef3c7;
-		color: #92400e;
+		background: var(--warning-light);
+		color: var(--warning);
 		border-radius: 4px;
 		font-size: 11px;
 		font-weight: 500;
+		flex-shrink: 0;
+
+		@media (max-width: 768px) {
+			display: none;
+		}
 	}
 
 	.header-right {
 		display: flex;
 		align-items: center;
 		gap: 8px;
+		flex-shrink: 0;
+
+		@media (max-width: 768px) {
+			gap: 6px;
+		}
 	}
 
 	.btn {
@@ -524,8 +562,9 @@
 		}
 
 		@media (max-width: 768px) {
-			padding: 8px 12px;
-			font-size: 12px;
+			padding: 10px 14px;
+			font-size: 14px;
+			min-height: 44px;
 
 			svg {
 				display: none;
@@ -534,36 +573,57 @@
 	}
 
 	.btn-primary {
-		background: #3b82f6;
+		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
 		color: white;
+		border: 1px solid var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
 
 		&:hover:not(:disabled) {
-			background: #2563eb;
+			background: linear-gradient(
+				135deg,
+				var(--shadow-monarch-light) 0%,
+				var(--shadow-monarch) 100%
+			);
+			box-shadow: var(--glow-md);
 		}
 	}
 
 	.btn-secondary {
-		background: #e5e7eb;
-		color: #374151;
+		background: var(--void-elevated);
+		color: var(--text-primary);
+		border: 1px solid var(--void-highlight);
 
 		&:hover:not(:disabled) {
-			background: #d1d5db;
+			background: var(--void-highlight);
+			border-color: var(--shadow-monarch-glow);
+		}
+
+		@media (max-width: 768px) {
+			// Hide save button text on mobile, show only icon
+			span {
+				display: none;
+			}
+			svg {
+				display: block !important;
+			}
+			padding: 10px;
 		}
 	}
 
 	.btn-danger {
-		background: #fef2f2;
-		color: #dc2626;
+		background: var(--error-light);
+		color: var(--error);
+		border: 1px solid transparent;
 
 		&:hover:not(:disabled) {
-			background: #fee2e2;
+			border-color: var(--error);
 		}
 	}
 
 	.mobile-tabs {
 		display: none;
-		border-bottom: 1px solid #e5e7eb;
-		background: white;
+		border-bottom: 1px solid var(--void-elevated);
+		background: var(--void-surface);
 
 		@media (max-width: 768px) {
 			display: flex;
@@ -572,19 +632,21 @@
 
 	.mobile-tab {
 		flex: 1;
-		padding: 12px;
+		padding: 14px 12px;
 		border: none;
 		background: none;
-		font-size: 14px;
+		font-size: 15px;
 		font-weight: 500;
-		color: #6b7280;
+		color: var(--text-secondary);
 		cursor: pointer;
-		border-bottom: 2px solid transparent;
+		border-bottom: 3px solid transparent;
 		transition: all 0.15s ease;
+		min-height: 48px;
 
 		&.active {
-			color: #3b82f6;
-			border-bottom-color: #3b82f6;
+			color: var(--shadow-monarch-light);
+			border-bottom-color: var(--shadow-monarch);
+			background: var(--void-elevated);
 		}
 	}
 
@@ -594,6 +656,7 @@
 		width: 100%;
 		overflow: hidden;
 		min-height: 0;
+		background: var(--void-deep);
 
 		@media (max-width: 768px) {
 			flex-direction: column;
@@ -608,7 +671,7 @@
 		align-items: center;
 		justify-content: center;
 		gap: 12px;
-		color: #6b7280;
+		color: var(--text-secondary);
 		font-size: 14px;
 	}
 
@@ -621,6 +684,8 @@
 		overflow: hidden;
 
 		@media (max-width: 768px) {
+			flex: 1 1 100%;
+
 			&.mobile-hidden {
 				display: none;
 			}
@@ -632,6 +697,7 @@
 		width: 360px;
 		min-height: 0;
 		overflow: hidden;
+		border-left: 1px solid var(--void-elevated);
 
 		@media (max-width: 1200px) {
 			flex: 0 0 320px;
@@ -639,8 +705,10 @@
 		}
 
 		@media (max-width: 768px) {
-			flex: 1 1 0%;
-			width: auto;
+			flex: 1 1 100%;
+			width: 100%;
+			border-left: none;
+			overflow-y: auto;
 
 			&.mobile-hidden {
 				display: none;
@@ -651,32 +719,36 @@
 	.warning-overlay {
 		position: fixed;
 		inset: 0;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		z-index: 1002;
+		z-index: 9992;
+		padding: 16px;
 	}
 
 	.warning-dialog {
-		background: white;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 12px;
 		padding: 24px;
 		max-width: 400px;
-		width: calc(100% - 32px);
-		box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+		width: 100%;
+		box-shadow:
+			0 25px 50px -12px rgba(0, 0, 0, 0.5),
+			var(--glow-sm);
 	}
 
 	.warning-title {
 		font-size: 18px;
 		font-weight: 600;
-		color: #1f2937;
+		color: var(--text-primary);
 		margin: 0 0 8px;
 	}
 
 	.warning-message {
 		font-size: 14px;
-		color: #6b7280;
+		color: var(--text-secondary);
 		margin: 0 0 20px;
 	}
 

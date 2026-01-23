@@ -121,7 +121,7 @@
 					{/each}
 
 					<!-- Blog Dropdown -->
-					<div class="relative z-40">
+					<div class="relative z-20">
 						<button
 							on:click={toggleDropdown}
 							class="nav-link flex items-center gap-1"

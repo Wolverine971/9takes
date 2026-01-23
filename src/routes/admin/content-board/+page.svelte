@@ -4,8 +4,11 @@
 	import { fade } from 'svelte/transition';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
+	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
 	import CompactCard from './CompactCard.svelte';
 	import ContentEditorModal from './ContentEditorModal.svelte';
+	import ContentAnalytics from './ContentAnalytics.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 
 	let { data }: { data: PageData } = $props();
@@ -16,12 +19,28 @@
 	let selectedBlogId = $state<number | null>(null);
 	let closingModal = $state(false); // Flag to prevent reopening
 
+	// Mobile detection
+	let isMobile = $state(false);
+	let showFilters = $state(false);
+
+	onMount(() => {
+		isMobile = window.innerWidth < 768;
+		const handleResize = () => {
+			isMobile = window.innerWidth < 768;
+		};
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
+	});
+
 	let activeSelection = $state('people');
 	let isDragging = $state(false);
 	let draggedBlog = $state<App.BlogPost | null>(null);
 	let searchQuery = $state('');
 	let filterUnpublished = $state(false);
-	let viewMode = $state<'board' | 'list'>('board');
+	// Default to list view on mobile for better usability
+	let viewMode = $state<'board' | 'list' | 'analytics'>(
+		browser && window.innerWidth < 768 ? 'list' : 'board'
+	);
 
 	// Enhanced filtering for people
 	let selectedEnneagramType = $state('');
@@ -44,17 +63,17 @@
 		'Needs Work'
 	];
 
-	// Stage colors for visual distinction
+	// Stage colors for visual distinction (dark theme)
 	const stageColors: Record<number, string> = {
-		0: 'bg-gray-100 border-gray-300',
-		1: 'bg-amber-50 border-amber-300',
-		2: 'bg-blue-50 border-blue-300',
-		3: 'bg-indigo-50 border-indigo-300',
-		4: 'bg-purple-50 border-purple-300',
-		5: 'bg-pink-50 border-pink-300',
-		6: 'bg-teal-50 border-teal-300',
-		7: 'bg-green-50 border-green-300',
-		8: 'bg-red-50 border-red-300'
+		0: 'stage-not-written',
+		1: 'stage-prioritized',
+		2: 'stage-written',
+		3: 'stage-proofread',
+		4: 'stage-sent-review',
+		5: 'stage-reviewed',
+		6: 'stage-socialized',
+		7: 'stage-growing',
+		8: 'stage-needs-work'
 	};
 
 	// Helper to get data by content type
@@ -62,15 +81,26 @@
 		return (data as Record<string, App.BlogPost[]>)[type] || [];
 	}
 
-	// Handle URL query param for deep linking
+	// Helper to calculate stage for a blog post
+	function calculateStage(blog: App.BlogPost): number {
+		if (!blog.published) {
+			return blog.stageName === 'Prioritized' ? 1 : 0;
+		}
+		const stageIndex = stages.indexOf(blog.stageName || '');
+		return stageIndex >= 2 ? stageIndex : 2;
+	}
+
+	// Handle URL query param for deep linking - redirect to new route format
 	$effect(() => {
 		const editId = $page.url.searchParams.get('edit');
-		if (editId && !modalOpen && !closingModal) {
+		if (editId && browser) {
 			const id = parseInt(editId);
 			if (!isNaN(id)) {
 				const blog = getContentData('people').find((b: any) => b.id === id);
-				if (blog) {
-					openModal(blog);
+				if (blog?.person) {
+					// Redirect to the new clean URL format
+					goto(`/admin/content-board/personality-analysis/${blog.person}`, { replaceState: true });
+					return;
 				}
 			}
 		}
@@ -80,27 +110,14 @@
 		}
 	});
 
-	// Process each blog post and assign correct stage
-	$effect(() => {
-		contentTypes.forEach((type) => {
-			const contentData = getContentData(type);
-			contentData.forEach((blog: App.BlogPost) => {
-				if (!blog.published) {
-					if (blog.stageName === 'Prioritized') {
-						blog.stage = 1;
-					} else {
-						blog.stage = 0;
-					}
-				} else {
-					const stageIndex = stages.indexOf(blog.stageName || '');
-					blog.stage = stageIndex >= 2 ? stageIndex : 2;
-				}
-			});
-		});
+	// Get current content data with stage calculated inline
+	let currentContentData = $derived.by(() => {
+		const contentData = getContentData(activeSelection);
+		return contentData.map((blog) => ({
+			...blog,
+			stage: calculateStage(blog)
+		}));
 	});
-
-	// Get current content data
-	let currentContentData = $derived(getContentData(activeSelection));
 
 	// Get unique values for filters
 	let uniqueEnneagramTypes = $derived.by(() => {
@@ -274,29 +291,26 @@
 			sortOrder !== 'desc'
 	);
 
-	// Open modal for a blog
+	// Open modal for a blog (or navigate to page for people)
 	function openModal(blog: App.BlogPost) {
+		// For people content, navigate to the dedicated page
+		if (activeSelection === 'people' && blog.person) {
+			goto(`/admin/content-board/personality-analysis/${blog.person}`);
+			return;
+		}
+
+		// For other content types, use the modal
 		selectedBlog = blog;
 		selectedBlogId = (blog as any).id || null;
 		modalOpen = true;
-		// Update URL without navigation
-		const url = new URL(window.location.href);
-		if (selectedBlogId) {
-			url.searchParams.set('edit', selectedBlogId.toString());
-		}
-		history.replaceState({}, '', url.toString());
 	}
 
 	// Close modal
 	function closeModal() {
-		closingModal = true; // Prevent effect from reopening
+		closingModal = true;
 		modalOpen = false;
 		selectedBlog = null;
 		selectedBlogId = null;
-		// Remove edit param from URL using goto so $page updates
-		const url = new URL(window.location.href);
-		url.searchParams.delete('edit');
-		goto(url.pathname + url.search, { replaceState: true, noScroll: true });
 	}
 
 	// Handle saved content - update local data
@@ -441,57 +455,97 @@
 	}
 </script>
 
-<div class="min-h-screen bg-gray-50 p-4 md:p-6">
+<div class="content-board">
 	<!-- Header -->
-	<div class="mb-6">
-		<h1 class="mb-1 text-2xl font-bold text-gray-900 md:text-3xl">Content Board</h1>
-		<p class="text-sm text-gray-600 md:text-base">Manage blog posts and content workflow</p>
-	</div>
+	<header class="dashboard-header">
+		<div class="header-left">
+			<h1 class="page-title">Content Board</h1>
+			<p class="page-subtitle">Manage blog posts and content workflow</p>
+		</div>
+	</header>
 
 	<!-- Content Type Selector -->
-	<div class="mb-4">
-		<div class="flex flex-wrap gap-2">
-			{#each contentTypes as type}
-				<button
-					class="rounded-lg px-3 py-2 text-sm font-medium transition-all duration-200 md:px-4 md:text-base {activeSelection ===
-					type
-						? 'bg-blue-600 text-white shadow-md'
-						: 'border border-gray-300 bg-white text-gray-700 hover:bg-gray-100'}"
-					onclick={() => (activeSelection = type)}
-				>
-					{type.charAt(0).toUpperCase() + type.slice(1)}
-					<span
-						class="ml-1.5 rounded-full px-1.5 py-0.5 text-xs md:ml-2 md:px-2 {activeSelection ===
-						type
-							? 'bg-blue-500 text-blue-100'
-							: 'bg-gray-200 text-gray-600'}"
-					>
-						{getContentData(type).length || 0}
-					</span>
-				</button>
-			{/each}
-		</div>
+	<div class="content-type-selector">
+		{#each contentTypes as type}
+			<button
+				class="type-btn"
+				class:active={activeSelection === type}
+				onclick={() => (activeSelection = type)}
+			>
+				{type.charAt(0).toUpperCase() + type.slice(1)}
+				<span class="count-badge" class:active={activeSelection === type}>
+					{getContentData(type).length || 0}
+				</span>
+			</button>
+		{/each}
 	</div>
 
 	<!-- Controls -->
-	<div class="mb-4 rounded-lg border border-gray-200 bg-white p-4 shadow-sm md:p-6">
-		<div class="flex flex-col gap-4 md:flex-row md:flex-wrap md:items-center md:justify-between">
+	<div class="controls-panel">
+		<!-- Mobile Search Bar - Always visible on mobile -->
+		<div class="mobile-search-bar">
+			<div class="search-wrapper-mobile">
+				<svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+					/>
+				</svg>
+				<input
+					type="text"
+					bind:value={searchQuery}
+					placeholder="Search..."
+					class="search-input-mobile"
+				/>
+				{#if searchQuery}
+					<button class="clear-search" onclick={() => (searchQuery = '')}>
+						<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</button>
+				{/if}
+			</div>
+			<button
+				class="filter-toggle-btn"
+				class:active={showFilters || hasActiveFilters}
+				onclick={() => (showFilters = !showFilters)}
+			>
+				<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"
+					/>
+				</svg>
+				{#if hasActiveFilters}
+					<span class="filter-badge"></span>
+				{/if}
+			</button>
+		</div>
+
+		<!-- Desktop Controls Row -->
+		<div class="controls-row">
 			<!-- Search -->
-			<div class="w-full md:min-w-64 md:max-w-md md:flex-1">
+			<div class="search-wrapper">
 				<input
 					type="text"
 					bind:value={searchQuery}
 					placeholder="Search content..."
-					class="w-full rounded-lg border border-gray-300 px-4 py-2 text-sm focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+					class="search-input"
 				/>
 			</div>
 
 			<!-- Sort & View Controls -->
-			<div class="flex flex-wrap items-center gap-2">
-				<select
-					bind:value={sortBy}
-					class="rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
-				>
+			<div class="controls-group">
+				<select bind:value={sortBy} class="select-input">
 					<option value="lastmod">Date Modified</option>
 					<option value="title">Title</option>
 					{#if activeSelection === 'people'}
@@ -502,7 +556,7 @@
 					{/if}
 				</select>
 				<button
-					class="rounded-lg border border-gray-300 px-3 py-2 text-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+					class="sort-btn"
 					onclick={() => (sortOrder = sortOrder === 'asc' ? 'desc' : 'asc')}
 					title={sortOrder === 'asc' ? 'Ascending' : 'Descending'}
 				>
@@ -510,15 +564,14 @@
 				</button>
 
 				<!-- View Mode Toggle -->
-				<div class="ml-2 flex overflow-hidden rounded-lg border border-gray-300">
+				<div class="view-toggle">
 					<button
-						class="px-3 py-2 text-sm transition-colors {viewMode === 'board'
-							? 'bg-blue-600 text-white'
-							: 'bg-white text-gray-700 hover:bg-gray-50'}"
+						class="view-btn"
+						class:active={viewMode === 'board'}
 						onclick={() => (viewMode = 'board')}
 						title="Board view"
 					>
-						<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
@@ -528,13 +581,12 @@
 						</svg>
 					</button>
 					<button
-						class="px-3 py-2 text-sm transition-colors {viewMode === 'list'
-							? 'bg-blue-600 text-white'
-							: 'bg-white text-gray-700 hover:bg-gray-50'}"
+						class="view-btn"
+						class:active={viewMode === 'list'}
 						onclick={() => (viewMode = 'list')}
 						title="List view"
 					>
-						<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
@@ -543,32 +595,88 @@
 							/>
 						</svg>
 					</button>
+					{#if activeSelection === 'people'}
+						<button
+							class="view-btn"
+							class:active={viewMode === 'analytics'}
+							onclick={() => (viewMode = 'analytics')}
+							title="Analytics view"
+						>
+							<svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+								/>
+							</svg>
+						</button>
+					{/if}
 				</div>
 
 				{#if hasActiveFilters}
-					<button
-						class="ml-2 px-3 py-2 text-sm text-blue-600 hover:text-blue-800 hover:underline"
-						onclick={clearFilters}
-					>
-						Clear filters
-					</button>
+					<button class="clear-filters-btn" onclick={clearFilters}> Clear filters </button>
 				{/if}
 			</div>
 		</div>
 
-		<!-- People-specific Filters -->
-		{#if activeSelection === 'people'}
-			<div class="mt-4 border-t border-gray-100 pt-4">
-				<div class="flex flex-wrap items-center gap-3">
-					<div class="flex items-center gap-2">
-						<label for="filter-enneagram" class="text-xs font-medium text-gray-600">
-							Enneagram:
-						</label>
-						<select
-							id="filter-enneagram"
-							bind:value={selectedEnneagramType}
-							class="rounded border border-gray-300 px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+		<!-- Filters Section (collapsible on mobile) -->
+		<div class="filters-section" class:show={showFilters || !isMobile}>
+			<!-- Mobile View Toggle -->
+			<div class="mobile-view-toggle">
+				<span class="mobile-view-label">View:</span>
+				<div class="view-toggle">
+					<button
+						class="view-btn"
+						class:active={viewMode === 'list'}
+						onclick={() => (viewMode = 'list')}
+					>
+						List
+					</button>
+					<button
+						class="view-btn"
+						class:active={viewMode === 'board'}
+						onclick={() => (viewMode = 'board')}
+					>
+						Board
+					</button>
+					{#if activeSelection === 'people'}
+						<button
+							class="view-btn"
+							class:active={viewMode === 'analytics'}
+							onclick={() => (viewMode = 'analytics')}
 						>
+							Analytics
+						</button>
+					{/if}
+				</div>
+			</div>
+
+			<!-- Mobile Sort -->
+			<div class="mobile-sort">
+				<span class="mobile-view-label">Sort:</span>
+				<select bind:value={sortBy} class="select-input-mobile">
+					<option value="lastmod">Date</option>
+					<option value="title">Title</option>
+					{#if activeSelection === 'people'}
+						<option value="person">Name</option>
+						<option value="enneagram">Type</option>
+					{/if}
+				</select>
+				<button
+					class="sort-btn-mobile"
+					onclick={() => (sortOrder = sortOrder === 'asc' ? 'desc' : 'asc')}
+				>
+					{sortOrder === 'asc' ? '↑' : '↓'}
+				</button>
+			</div>
+
+			<!-- People-specific Filters -->
+			{#if activeSelection === 'people'}
+				<div class="filters-row">
+					<div class="filter-group">
+						<label for="filter-enneagram" class="filter-label">Enneagram:</label>
+						<select id="filter-enneagram" bind:value={selectedEnneagramType} class="filter-select">
 							<option value="">All</option>
 							{#each uniqueEnneagramTypes as type}
 								<option value={type}>Type {type}</option>
@@ -576,13 +684,9 @@
 						</select>
 					</div>
 
-					<div class="flex items-center gap-2">
-						<label for="filter-author" class="text-xs font-medium text-gray-600">Author:</label>
-						<select
-							id="filter-author"
-							bind:value={selectedAuthor}
-							class="rounded border border-gray-300 px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20"
-						>
+					<div class="filter-group">
+						<label for="filter-author" class="filter-label">Author:</label>
+						<select id="filter-author" bind:value={selectedAuthor} class="filter-select">
 							<option value="">All</option>
 							{#each uniqueAuthors as author}
 								<option value={author}>{author}</option>
@@ -590,15 +694,9 @@
 						</select>
 					</div>
 
-					<div class="flex items-center gap-2">
-						<label for="filter-category" class="text-xs font-medium text-gray-600">
-							Category:
-						</label>
-						<select
-							id="filter-category"
-							bind:value={selectedType}
-							class="rounded border border-gray-300 px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20"
-						>
+					<div class="filter-group">
+						<label for="filter-category" class="filter-label">Category:</label>
+						<select id="filter-category" bind:value={selectedType} class="filter-select">
 							<option value="">All</option>
 							{#each uniqueTypes as type}
 								<option value={type}>{type}</option>
@@ -606,79 +704,61 @@
 						</select>
 					</div>
 
-					<label class="flex cursor-pointer items-center gap-1.5 text-sm">
-						<input
-							type="checkbox"
-							bind:checked={showSocialMediaOnly}
-							class="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-						/>
-						<span class="text-gray-600">Has social</span>
+					<label class="checkbox-label">
+						<input type="checkbox" bind:checked={showSocialMediaOnly} class="checkbox-input" />
+						<span>Has social</span>
 					</label>
 
-					<label class="flex cursor-pointer items-center gap-1.5 text-sm">
-						<input
-							type="checkbox"
-							bind:checked={filterUnpublished}
-							class="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-						/>
-						<span class="text-gray-600">Published only</span>
+					<label class="checkbox-label">
+						<input type="checkbox" bind:checked={filterUnpublished} class="checkbox-input" />
+						<span>Published only</span>
 					</label>
 				</div>
-			</div>
-		{:else}
-			<div class="mt-4 border-t border-gray-100 pt-4">
-				<label class="flex cursor-pointer items-center gap-1.5 text-sm">
-					<input
-						type="checkbox"
-						bind:checked={filterUnpublished}
-						class="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-					/>
-					<span class="text-gray-600">Published only</span>
-				</label>
-			</div>
-		{/if}
+			{:else}
+				<div class="filters-row">
+					<label class="checkbox-label">
+						<input type="checkbox" bind:checked={filterUnpublished} class="checkbox-input" />
+						<span>Published only</span>
+					</label>
+				</div>
+			{/if}
+
+			{#if hasActiveFilters}
+				<button class="clear-filters-btn-mobile" onclick={clearFilters}> Clear all filters </button>
+			{/if}
+		</div>
 
 		<!-- Results Summary -->
-		<div class="mt-3 text-xs text-gray-500">
+		<div class="results-summary">
 			Showing {filteredData.length} of {currentContentData.length || 0} items
 		</div>
 	</div>
 
-	<!-- Kanban Board View -->
-	{#if viewMode === 'board'}
+	<!-- Analytics View (People only) -->
+	{#if viewMode === 'analytics' && activeSelection === 'people'}
+		<ContentAnalytics data={filteredData} onSelectBlog={handleCardClick} />
+		<!-- Kanban Board View -->
+	{:else if viewMode === 'board'}
 		<div class="kanban-container">
 			<div class="kanban-board" class:cursor-grabbing={isDragging}>
 				{#each stages as stage, stageIndex}
 					<div
-						class="kanban-column {stageColors[
-							stageIndex
-						]} rounded-lg border-t-4 transition-all duration-200 {isDragging
-							? 'ring-1 ring-blue-200'
-							: ''}"
+						class="kanban-column {stageColors[stageIndex]}"
+						class:dragging-active={isDragging}
 						ondragover={(event) => dragOver(event, stageIndex)}
 						ondragleave={dragLeave}
 						ondrop={async (event) => await drop(event, stageIndex, activeSelection)}
 						role="region"
 						aria-labelledby={`stage-${stageIndex}-heading`}
 					>
-						<div class="sticky top-0 z-10 bg-inherit px-2 py-1.5">
-							<div class="flex items-center justify-between gap-1">
-								<h2
-									id={`stage-${stageIndex}-heading`}
-									class="truncate text-[11px] font-semibold leading-tight text-gray-600"
-									title={stage}
-								>
-									{stage}
-								</h2>
-								<span
-									class="flex-shrink-0 rounded-full bg-white/80 px-1.5 py-0.5 text-[10px] font-medium text-gray-500"
-								>
-									{stageCounts[stageIndex]}
-								</span>
-							</div>
+						<div class="column-header">
+							<h2 id={`stage-${stageIndex}-heading`} class="column-title" title={stage}>
+								{stage}
+							</h2>
+							<span class="column-count">{stageCounts[stageIndex]}</span>
 						</div>
 
-						<div class="kanban-cards space-y-1.5 p-2 pt-0">
+						<div class="kanban-cards">
 							{#each filteredData.filter((blog) => blog.stage === stageIndex) as blog, index (`${stageIndex}-${index}-${blog.loc || blog.title}`)}
 								{#if blog.title}
 									<div transition:fade={{ duration: 100 }}>
@@ -693,10 +773,8 @@
 									</div>
 								{/if}
 							{:else}
-								<div
-									class="flex items-center justify-center rounded border border-dashed border-gray-200 bg-white/50 p-3 text-center"
-								>
-									<p class="text-[10px] text-gray-400">Empty</p>
+								<div class="empty-column">
+									<p>Empty</p>
 								</div>
 							{/each}
 						</div>
@@ -706,89 +784,78 @@
 		</div>
 	{:else}
 		<!-- List View -->
-		<div class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
-			<table class="w-full text-sm">
-				<thead class="border-b border-gray-200 bg-gray-50">
-					<tr>
-						<th class="px-4 py-3 text-left font-medium text-gray-600">Title</th>
-						<th class="hidden px-4 py-3 text-left font-medium text-gray-600 md:table-cell">Stage</th
-						>
-						<th class="hidden px-4 py-3 text-left font-medium text-gray-600 sm:table-cell"
-							>Status</th
-						>
-						<th class="hidden px-4 py-3 text-left font-medium text-gray-600 lg:table-cell"
-							>Modified</th
-						>
-						<th class="px-4 py-3 text-right font-medium text-gray-600">Actions</th>
-					</tr>
-				</thead>
-				<tbody class="divide-y divide-gray-100">
-					{#each filteredData as blog, index (`list-${index}-${blog.loc || blog.title}`)}
-						<tr
-							class="cursor-pointer hover:bg-gray-50"
-							onclick={() => openModal(blog)}
-							onkeydown={(e) => e.key === 'Enter' && openModal(blog)}
-							tabindex="0"
-							role="button"
-						>
-							<td class="px-4 py-3">
-								<div class="line-clamp-1 font-medium text-gray-900">{blog.title}</div>
-								{#if activeSelection === 'people' && blog.person}
-									<div class="mt-0.5 text-xs text-gray-500">{blog.person?.replace(/-/g, ' ')}</div>
-								{/if}
-							</td>
-							<td class="hidden px-4 py-3 md:table-cell">
-								<span
-									class="inline-flex items-center rounded-full bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700"
-								>
-									{stages[blog.stage]}
-								</span>
-							</td>
-							<td class="hidden px-4 py-3 sm:table-cell">
-								<span
-									class="inline-flex items-center rounded px-2 py-0.5 text-xs font-medium {blog.published
-										? 'bg-green-100 text-green-700'
-										: 'bg-amber-100 text-amber-700'}"
-								>
-									{blog.published ? 'Published' : 'Draft'}
-								</span>
-							</td>
-							<td class="hidden px-4 py-3 text-gray-500 lg:table-cell">
-								{new Date(blog.lastmod).toLocaleDateString()}
-							</td>
-							<td class="px-4 py-3 text-right">
-								{#if blog.published && blog.loc}
-									<a
-										href={blog.loc.replace('https://9takes.com', '')}
-										class="inline-flex items-center text-xs font-medium text-blue-600 hover:text-blue-800"
-										onclick={(e) => e.stopPropagation()}
-									>
-										View
-										<svg class="ml-1 h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-											/>
-										</svg>
-									</a>
-								{:else}
-									<button
-										class="text-xs font-medium text-blue-600 hover:text-blue-800"
-										onclick={(e) => {
-											e.stopPropagation();
-											openModal(blog);
-										}}
-									>
-										Edit
-									</button>
-								{/if}
-							</td>
+		<div class="table-card">
+			<div class="table-content">
+				<table class="data-table">
+					<thead>
+						<tr>
+							<th>Title</th>
+							<th class="hide-mobile">Stage</th>
+							<th class="hide-mobile-sm">Status</th>
+							<th class="hide-tablet">Modified</th>
+							<th class="actions-col">Actions</th>
 						</tr>
-					{/each}
-				</tbody>
-			</table>
+					</thead>
+					<tbody>
+						{#each filteredData as blog, index (`list-${index}-${blog.loc || blog.title}`)}
+							<tr
+								class="table-row"
+								onclick={() => openModal(blog)}
+								onkeydown={(e) => e.key === 'Enter' && openModal(blog)}
+								tabindex="0"
+								role="button"
+							>
+								<td class="title-cell">
+									<div class="title-text">{blog.title}</div>
+									{#if activeSelection === 'people' && blog.person}
+										<div class="subtitle-text">{blog.person?.replace(/-/g, ' ')}</div>
+									{/if}
+								</td>
+								<td class="hide-mobile">
+									<span class="stage-badge">{stages[blog.stage]}</span>
+								</td>
+								<td class="hide-mobile-sm">
+									<span class="status-badge" class:published={blog.published}>
+										{blog.published ? 'Published' : 'Draft'}
+									</span>
+								</td>
+								<td class="hide-tablet date-cell">
+									{new Date(blog.lastmod).toLocaleDateString()}
+								</td>
+								<td class="actions-col">
+									{#if blog.published && blog.loc}
+										<a
+											href={blog.loc.replace('https://9takes.com', '')}
+											class="view-link"
+											onclick={(e) => e.stopPropagation()}
+										>
+											View
+											<svg class="link-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+												/>
+											</svg>
+										</a>
+									{:else}
+										<button
+											class="edit-btn"
+											onclick={(e) => {
+												e.stopPropagation();
+												openModal(blog);
+											}}
+										>
+											Edit
+										</button>
+									{/if}
+								</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			</div>
 		</div>
 	{/if}
 </div>
@@ -804,17 +871,584 @@
 />
 
 <style>
+	/* Main Container */
+	.content-board {
+		width: 100%;
+	}
+
+	/* Header */
+	.dashboard-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 24px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid var(--void-elevated);
+
+		@media (max-width: 768px) {
+			margin-bottom: 16px;
+			padding-bottom: 12px;
+		}
+	}
+
+	.header-left {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+	}
+
+	.page-title {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: var(--text-primary);
+		margin: 0;
+		background: linear-gradient(135deg, var(--shadow-monarch-light), var(--awakening-cyan));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+
+		@media (max-width: 768px) {
+			font-size: 1.25rem;
+		}
+	}
+
+	.page-subtitle {
+		font-size: 0.8125rem;
+		color: var(--text-secondary);
+		margin: 0;
+
+		@media (max-width: 768px) {
+			display: none;
+		}
+	}
+
+	/* Content Type Selector */
+	.content-type-selector {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		margin-bottom: 16px;
+
+		@media (max-width: 768px) {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 6px;
+			margin-bottom: 12px;
+		}
+	}
+
+	.type-btn {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 10px 16px;
+		font-size: 0.875rem;
+		font-weight: 500;
+		background: var(--void-surface);
+		color: var(--text-secondary);
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		cursor: pointer;
+		transition: all 0.2s ease;
+
+		@media (max-width: 768px) {
+			flex-direction: column;
+			gap: 4px;
+			padding: 12px 8px;
+			font-size: 12px;
+			text-align: center;
+			justify-content: center;
+		}
+	}
+
+	.type-btn:hover {
+		border-color: var(--shadow-monarch);
+		background: var(--shadow-monarch-subtle);
+		color: var(--text-primary);
+	}
+
+	.type-btn.active {
+		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
+		color: white;
+		border-color: var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
+	}
+
+	.count-badge {
+		padding: 2px 8px;
+		font-size: 0.75rem;
+		font-weight: 600;
+		background: var(--void-elevated);
+		color: var(--text-secondary);
+		border-radius: 12px;
+
+		@media (max-width: 768px) {
+			padding: 2px 6px;
+			font-size: 11px;
+		}
+	}
+
+	.count-badge.active {
+		background: rgba(255, 255, 255, 0.2);
+		color: white;
+	}
+
+	/* Controls Panel */
+	.controls-panel {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		padding: 16px;
+		margin-bottom: 16px;
+
+		@media (max-width: 768px) {
+			padding: 12px;
+			border-radius: 8px;
+		}
+	}
+
+	/* Mobile Search Bar */
+	.mobile-search-bar {
+		display: none;
+		gap: 8px;
+		margin-bottom: 12px;
+
+		@media (max-width: 768px) {
+			display: flex;
+		}
+	}
+
+	.search-wrapper-mobile {
+		flex: 1;
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+
+	.search-icon {
+		position: absolute;
+		left: 12px;
+		width: 18px;
+		height: 18px;
+		color: var(--text-muted);
+		pointer-events: none;
+	}
+
+	.search-input-mobile {
+		width: 100%;
+		padding: 12px 40px 12px 40px;
+		font-size: 16px;
+		background: var(--void-elevated);
+		color: var(--text-primary);
+		border: 1px solid var(--void-highlight);
+		border-radius: 10px;
+		transition: all 0.2s ease;
+
+		&::placeholder {
+			color: var(--text-muted);
+		}
+
+		&:focus {
+			outline: none;
+			border-color: var(--shadow-monarch);
+			box-shadow: var(--glow-sm);
+		}
+	}
+
+	.clear-search {
+		position: absolute;
+		right: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 28px;
+		height: 28px;
+		padding: 0;
+		background: var(--void-highlight);
+		border: none;
+		border-radius: 50%;
+		color: var(--text-secondary);
+		cursor: pointer;
+	}
+
+	.filter-toggle-btn {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 48px;
+		height: 48px;
+		padding: 0;
+		background: var(--void-elevated);
+		border: 1px solid var(--void-highlight);
+		border-radius: 10px;
+		color: var(--text-secondary);
+		cursor: pointer;
+		transition: all 0.2s ease;
+
+		&.active {
+			background: var(--shadow-monarch-subtle);
+			border-color: var(--shadow-monarch);
+			color: var(--shadow-monarch-light);
+		}
+	}
+
+	.filter-badge {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		width: 8px;
+		height: 8px;
+		background: var(--shadow-monarch);
+		border-radius: 50%;
+	}
+
+	/* Filters Section */
+	.filters-section {
+		@media (max-width: 768px) {
+			display: none;
+			padding-top: 12px;
+			border-top: 1px solid var(--void-elevated);
+			margin-top: 12px;
+
+			&.show {
+				display: block;
+			}
+		}
+	}
+
+	/* Mobile View Toggle */
+	.mobile-view-toggle {
+		display: none;
+		align-items: center;
+		gap: 12px;
+		margin-bottom: 12px;
+
+		@media (max-width: 768px) {
+			display: flex;
+		}
+	}
+
+	.mobile-view-label {
+		font-size: 13px;
+		font-weight: 500;
+		color: var(--text-secondary);
+		white-space: nowrap;
+	}
+
+	/* Mobile Sort */
+	.mobile-sort {
+		display: none;
+		align-items: center;
+		gap: 8px;
+		margin-bottom: 12px;
+
+		@media (max-width: 768px) {
+			display: flex;
+		}
+	}
+
+	.select-input-mobile {
+		flex: 1;
+		padding: 10px 12px;
+		font-size: 14px;
+		background: var(--void-elevated);
+		color: var(--text-primary);
+		border: 1px solid var(--void-highlight);
+		border-radius: 8px;
+	}
+
+	.sort-btn-mobile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 44px;
+		height: 44px;
+		font-size: 18px;
+		background: var(--void-elevated);
+		color: var(--text-primary);
+		border: 1px solid var(--void-highlight);
+		border-radius: 8px;
+		cursor: pointer;
+	}
+
+	.clear-filters-btn-mobile {
+		display: none;
+		width: 100%;
+		padding: 12px;
+		margin-top: 12px;
+		font-size: 14px;
+		font-weight: 500;
+		color: var(--shadow-monarch-light);
+		background: var(--shadow-monarch-subtle);
+		border: 1px solid var(--shadow-monarch);
+		border-radius: 8px;
+		cursor: pointer;
+
+		@media (max-width: 768px) {
+			display: block;
+		}
+	}
+
+	.controls-row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 12px;
+
+		@media (max-width: 768px) {
+			display: none;
+		}
+	}
+
+	.search-wrapper {
+		flex: 1;
+		min-width: 200px;
+		max-width: 400px;
+	}
+
+	.search-input {
+		width: 100%;
+		padding: 10px 14px;
+		font-size: 0.875rem;
+		background: var(--void-elevated);
+		color: var(--text-primary);
+		border: 1px solid var(--void-highlight);
+		border-radius: 8px;
+		transition: all 0.2s ease;
+	}
+
+	.search-input::placeholder {
+		color: var(--text-muted);
+	}
+
+	.search-input:focus {
+		outline: none;
+		border-color: var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
+	}
+
+	.controls-group {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.select-input {
+		padding: 10px 14px;
+		font-size: 0.875rem;
+		background: var(--void-elevated);
+		color: var(--text-primary);
+		border: 1px solid var(--void-highlight);
+		border-radius: 8px;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.select-input:focus {
+		outline: none;
+		border-color: var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
+	}
+
+	.sort-btn {
+		padding: 10px 14px;
+		font-size: 0.875rem;
+		background: var(--void-elevated);
+		color: var(--text-primary);
+		border: 1px solid var(--void-highlight);
+		border-radius: 8px;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.sort-btn:hover {
+		border-color: var(--shadow-monarch);
+		background: var(--shadow-monarch-subtle);
+	}
+
+	.view-toggle {
+		display: flex;
+		overflow: hidden;
+		border-radius: 8px;
+		border: 1px solid var(--void-highlight);
+
+		@media (max-width: 768px) {
+			flex: 1;
+		}
+	}
+
+	.view-btn {
+		padding: 10px 12px;
+		background: var(--void-elevated);
+		color: var(--text-secondary);
+		border: none;
+		cursor: pointer;
+		transition: all 0.2s ease;
+
+		@media (max-width: 768px) {
+			flex: 1;
+			padding: 12px 16px;
+			font-size: 14px;
+		}
+	}
+
+	.view-btn:hover {
+		background: var(--void-highlight);
+		color: var(--text-primary);
+	}
+
+	.view-btn.active {
+		background: var(--shadow-monarch);
+		color: white;
+	}
+
+	.icon {
+		width: 16px;
+		height: 16px;
+	}
+
+	.clear-filters-btn {
+		padding: 10px 14px;
+		font-size: 0.875rem;
+		color: var(--shadow-monarch-light);
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.clear-filters-btn:hover {
+		color: var(--awakening-cyan);
+		text-shadow: var(--glow-sm);
+	}
+
+	/* Filters Row */
+	.filters-row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 12px;
+		margin-top: 16px;
+		padding-top: 16px;
+		border-top: 1px solid var(--void-elevated);
+
+		@media (max-width: 768px) {
+			margin-top: 12px;
+			padding-top: 12px;
+			gap: 10px;
+		}
+	}
+
+	.filter-group {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+
+		@media (max-width: 768px) {
+			flex: 1 1 calc(50% - 5px);
+			min-width: 140px;
+			flex-direction: column;
+			align-items: stretch;
+			gap: 4px;
+		}
+	}
+
+	.filter-label {
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: var(--text-secondary);
+
+		@media (max-width: 768px) {
+			font-size: 12px;
+		}
+	}
+
+	.filter-select {
+		padding: 6px 10px;
+		font-size: 0.8125rem;
+		background: var(--void-elevated);
+		color: var(--text-primary);
+		border: 1px solid var(--void-highlight);
+		border-radius: 6px;
+		cursor: pointer;
+
+		@media (max-width: 768px) {
+			padding: 12px;
+			font-size: 14px;
+			border-radius: 8px;
+		}
+	}
+
+	.filter-select:focus {
+		outline: none;
+		border-color: var(--shadow-monarch);
+	}
+
+	.checkbox-label {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		font-size: 0.8125rem;
+		color: var(--text-secondary);
+		cursor: pointer;
+
+		@media (max-width: 768px) {
+			padding: 12px;
+			background: var(--void-elevated);
+			border: 1px solid var(--void-highlight);
+			border-radius: 8px;
+			font-size: 14px;
+			gap: 10px;
+		}
+	}
+
+	.checkbox-input {
+		width: 16px;
+		height: 16px;
+		accent-color: var(--shadow-monarch);
+
+		@media (max-width: 768px) {
+			width: 20px;
+			height: 20px;
+		}
+	}
+
+	.results-summary {
+		margin-top: 12px;
+		font-size: 0.75rem;
+		color: var(--text-muted);
+
+		@media (max-width: 768px) {
+			text-align: center;
+			padding: 8px 0;
+			font-size: 13px;
+		}
+	}
+
+	/* Kanban Board */
 	.kanban-container {
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
-		padding-bottom: 0.5rem;
+		padding-bottom: 8px;
+
+		@media (max-width: 768px) {
+			margin: 0 -12px;
+			padding: 0 12px 12px;
+		}
 	}
 
 	.kanban-board {
 		display: grid;
 		grid-template-columns: repeat(9, 160px);
-		gap: 0.5rem;
+		gap: 8px;
 		min-width: max-content;
+
+		@media (max-width: 768px) {
+			grid-template-columns: repeat(9, 200px);
+			gap: 10px;
+		}
 	}
 
 	@media (min-width: 1600px) {
@@ -825,16 +1459,115 @@
 
 	.kanban-column {
 		min-height: 250px;
-		max-height: calc(100vh - 260px);
+		max-height: calc(100vh - 280px);
 		display: flex;
 		flex-direction: column;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 10px;
+		border-top-width: 3px;
+		transition: all 0.2s ease;
+
+		@media (max-width: 768px) {
+			min-height: 300px;
+			max-height: calc(100vh - 240px);
+			border-radius: 12px;
+		}
+	}
+
+	.kanban-column.dragging-active {
+		border-color: var(--shadow-monarch-glow);
+	}
+
+	/* Stage Colors */
+	.stage-not-written {
+		border-top-color: var(--text-muted);
+	}
+	.stage-prioritized {
+		border-top-color: #f59e0b;
+	}
+	.stage-written {
+		border-top-color: var(--system-interface);
+	}
+	.stage-proofread {
+		border-top-color: #6366f1;
+	}
+	.stage-sent-review {
+		border-top-color: var(--shadow-monarch);
+	}
+	.stage-reviewed {
+		border-top-color: #ec4899;
+	}
+	.stage-socialized {
+		border-top-color: var(--awakening-cyan);
+	}
+	.stage-growing {
+		border-top-color: var(--success);
+	}
+	.stage-needs-work {
+		border-top-color: var(--error);
+	}
+
+	.column-header {
+		position: sticky;
+		top: 0;
+		z-index: 10;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 4px;
+		padding: 8px 10px;
+		background: inherit;
+		border-bottom: 1px solid var(--void-elevated);
+
+		@media (max-width: 768px) {
+			padding: 12px;
+		}
+	}
+
+	.column-title {
+		font-size: 0.6875rem;
+		font-weight: 600;
+		color: var(--text-secondary);
+		margin: 0;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+
+		@media (max-width: 768px) {
+			font-size: 12px;
+		}
+	}
+
+	.column-count {
+		flex-shrink: 0;
+		padding: 2px 6px;
+		font-size: 0.625rem;
+		font-weight: 600;
+		background: var(--void-elevated);
+		color: var(--text-muted);
+		border-radius: 10px;
+
+		@media (max-width: 768px) {
+			padding: 4px 8px;
+			font-size: 11px;
+		}
 	}
 
 	.kanban-cards {
 		flex: 1;
 		overflow-y: auto;
+		padding: 8px;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
 		scrollbar-width: thin;
-		scrollbar-color: #cbd5e1 transparent;
+		scrollbar-color: var(--shadow-monarch) transparent;
+
+		@media (max-width: 768px) {
+			padding: 10px;
+			gap: 8px;
+		}
 	}
 
 	.kanban-cards::-webkit-scrollbar {
@@ -846,29 +1579,324 @@
 	}
 
 	.kanban-cards::-webkit-scrollbar-thumb {
-		background-color: #cbd5e1;
+		background-color: var(--shadow-monarch);
 		border-radius: 3px;
 	}
 
-	/* Line clamp utility */
-	.line-clamp-1 {
-		display: -webkit-box;
-		-webkit-line-clamp: 1;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
+	.empty-column {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 16px;
+		border: 1px dashed var(--void-highlight);
+		border-radius: 8px;
+		background: var(--void-elevated);
 	}
 
-	.line-clamp-2 {
-		display: -webkit-box;
-		-webkit-line-clamp: 2;
-		-webkit-box-orient: vertical;
+	.empty-column p {
+		font-size: 0.625rem;
+		color: var(--text-muted);
+		margin: 0;
+	}
+
+	/* List View Table */
+	.table-card {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		overflow: hidden;
+
+		@media (max-width: 768px) {
+			border-radius: 8px;
+		}
+	}
+
+	.table-content {
+		overflow-x: auto;
+		max-height: calc(100vh - 320px);
+		overflow-y: auto;
+
+		@media (max-width: 768px) {
+			max-height: calc(100vh - 280px);
+		}
+	}
+
+	.data-table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.8125rem;
+
+		@media (max-width: 768px) {
+			font-size: 14px;
+		}
+	}
+
+	.data-table thead {
+		position: sticky;
+		top: 0;
+		background: var(--void-deep);
+		z-index: 1;
+
+		@media (max-width: 768px) {
+			display: none;
+		}
+	}
+
+	.data-table th {
+		padding: 12px 16px;
+		text-align: left;
+		font-weight: 600;
+		color: var(--text-secondary);
+		font-size: 0.6875rem;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		border-bottom: 1px solid var(--void-elevated);
+		white-space: nowrap;
+	}
+
+	.data-table td {
+		padding: 12px 16px;
+		border-bottom: 1px solid var(--void-elevated);
+		color: var(--text-primary);
+
+		@media (max-width: 768px) {
+			padding: 14px 12px;
+		}
+	}
+
+	.table-row {
+		cursor: pointer;
+		transition: background 0.15s ease;
+
+		@media (max-width: 768px) {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			padding: 12px;
+			border-bottom: 1px solid var(--void-elevated);
+
+			td {
+				border: none;
+				padding: 0;
+			}
+
+			.title-cell {
+				flex: 1;
+				min-width: 0;
+			}
+
+			.actions-col {
+				flex-shrink: 0;
+			}
+		}
+	}
+
+	.table-row:hover {
+		background: var(--void-elevated);
+	}
+
+	.table-row:active {
+		@media (max-width: 768px) {
+			background: var(--shadow-monarch-subtle);
+		}
+	}
+
+	.title-cell {
+		max-width: 300px;
+
+		@media (max-width: 768px) {
+			max-width: none;
+		}
+	}
+
+	.title-text {
+		font-weight: 500;
+		color: var(--text-primary);
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+
+		@media (max-width: 768px) {
+			font-size: 15px;
+			white-space: normal;
+			line-height: 1.3;
+		}
+	}
+
+	.subtitle-text {
+		font-size: 0.75rem;
+		color: var(--text-muted);
+		margin-top: 2px;
+
+		@media (max-width: 768px) {
+			font-size: 13px;
+			margin-top: 4px;
+		}
+	}
+
+	.stage-badge {
+		display: inline-flex;
+		padding: 4px 10px;
+		font-size: 0.75rem;
+		font-weight: 500;
+		background: var(--void-elevated);
+		color: var(--text-secondary);
+		border-radius: 12px;
+	}
+
+	.status-badge {
+		display: inline-flex;
+		padding: 4px 10px;
+		font-size: 0.75rem;
+		font-weight: 500;
+		background: var(--warning-light);
+		color: var(--warning);
+		border-radius: 6px;
+	}
+
+	.status-badge.published {
+		background: var(--success-light);
+		color: var(--success-text);
+	}
+
+	.date-cell {
+		color: var(--text-muted);
+		font-size: 0.75rem;
+	}
+
+	.actions-col {
+		text-align: right;
+		white-space: nowrap;
+	}
+
+	.view-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: var(--shadow-monarch-light);
+		text-decoration: none;
+		transition: all 0.15s ease;
+
+		@media (max-width: 768px) {
+			padding: 10px 14px;
+			font-size: 13px;
+			background: var(--shadow-monarch-subtle);
+			border: 1px solid var(--shadow-monarch);
+			border-radius: 6px;
+		}
+	}
+
+	.view-link:hover {
+		color: var(--awakening-cyan);
+		text-shadow: var(--glow-sm);
+	}
+
+	.link-icon {
+		width: 12px;
+		height: 12px;
+
+		@media (max-width: 768px) {
+			display: none;
+		}
+	}
+
+	.edit-btn {
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: var(--shadow-monarch-light);
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		transition: all 0.15s ease;
+
+		@media (max-width: 768px) {
+			padding: 10px 14px;
+			font-size: 13px;
+			background: var(--void-elevated);
+			border: 1px solid var(--void-highlight);
+			border-radius: 6px;
+		}
+	}
+
+	.edit-btn:hover {
+		color: var(--awakening-cyan);
+		text-shadow: var(--glow-sm);
+	}
+
+	/* Hide columns responsively */
+	.hide-mobile {
+		display: table-cell;
+	}
+	.hide-mobile-sm {
+		display: table-cell;
+	}
+	.hide-tablet {
+		display: table-cell;
+	}
+
+	@media (max-width: 1024px) {
+		.hide-tablet {
+			display: none;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.hide-mobile {
+			display: none;
+		}
+
+		.dashboard-header {
+			margin-bottom: 16px;
+			padding-bottom: 16px;
+		}
+
+		.page-title {
+			font-size: 1.25rem;
+		}
+
+		.controls-panel {
+			padding: 12px;
+		}
+
+		.controls-row {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.search-wrapper {
+			max-width: none;
+		}
+
+		.controls-group {
+			justify-content: space-between;
+		}
+	}
+
+	@media (max-width: 640px) {
+		.hide-mobile-sm {
+			display: none;
+		}
+
+		.content-type-selector {
+			gap: 6px;
+		}
+
+		.type-btn {
+			padding: 8px 12px;
+			font-size: 0.8125rem;
+		}
+
+		.filters-row {
+			gap: 8px;
+		}
 	}
 
 	/* Drag over styles */
 	:global(.drag-over) {
-		background-color: #dbeafe !important;
-		box-shadow: inset 0 0 0 2px #3b82f6;
+		background-color: var(--shadow-monarch-subtle) !important;
+		box-shadow: inset 0 0 0 2px var(--shadow-monarch);
 	}
 
 	:global(.dragging) {

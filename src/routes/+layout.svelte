@@ -254,7 +254,7 @@
 		on:touchend|passive={handleTouchEnd}
 	>
 		<FloatingParticles />
-		<div class="sticky top-0 z-40 transform transition-transform duration-300 ease-in-out">
+		<div class="sticky top-0 z-20 transform transition-transform duration-300 ease-in-out">
 			<Header {data} />
 		</div>
 		<Toast />
@@ -268,7 +268,7 @@
 		{/if}
 
 		<main
-			class="relative z-10 flex flex-1 flex-col overflow-visible p-2 md:p-4"
+			class="relative flex flex-1 flex-col overflow-visible p-2 md:p-4"
 			class:max-w-4xl={shouldShowMaxWidth}
 			class:mx-auto={shouldShowMaxWidth}
 			class:w-full={shouldShowMaxWidth}

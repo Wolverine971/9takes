@@ -1,6 +1,7 @@
 <!-- src/routes/admin/content-board/MetadataSidebar.svelte -->
 <script lang="ts">
 	import { slide } from 'svelte/transition';
+	import CrossLinkAnalysis from './CrossLinkAnalysis.svelte';
 
 	interface HistoryItem {
 		id: number;
@@ -47,6 +48,7 @@
 		social: false,
 		dates: false,
 		related: false,
+		crosslinks: false,
 		history: false,
 		actions: true
 	});
@@ -267,7 +269,7 @@
 								{data.loc}
 							</a>
 						{:else}
-							<span class="text-gray-400">Not set</span>
+							<span class="text-muted">Not set</span>
 						{/if}
 					</div>
 				</div>
@@ -414,6 +416,23 @@
 		{/if}
 	</section>
 
+	<!-- Cross-Link Analysis (only for famous people blogs with an ID) -->
+	{#if data.id && data.person}
+		<section class="section">
+			<button class="section-header" onclick={() => toggleSection('crosslinks')}>
+				<span class="section-title">Cross-Link Analysis</span>
+				<svg class="chevron" class:expanded={sections.crosslinks} viewBox="0 0 24 24">
+					<path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" />
+				</svg>
+			</button>
+			{#if sections.crosslinks}
+				<div class="section-content" transition:slide={{ duration: 150 }}>
+					<CrossLinkAnalysis blogId={data.id} personSlug={data.person} />
+				</div>
+			{/if}
+		</section>
+	{/if}
+
 	<!-- Version History -->
 	{#if history.length > 0}
 		<section class="section">
@@ -492,12 +511,12 @@
 	.metadata-sidebar {
 		height: 100%;
 		overflow-y: auto;
-		background: #f9fafb;
-		border-left: 1px solid #e5e7eb;
+		background: var(--void-surface);
+		border-left: 1px solid var(--void-elevated);
 	}
 
 	.section {
-		border-bottom: 1px solid #e5e7eb;
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.section-header {
@@ -513,22 +532,31 @@
 		transition: background 0.15s ease;
 
 		&:hover {
-			background: #f3f4f6;
+			background: var(--void-elevated);
+		}
+
+		@media (max-width: 768px) {
+			padding: 16px;
+			min-height: 52px;
 		}
 	}
 
 	.section-title {
 		font-size: 12px;
 		font-weight: 600;
-		color: #374151;
+		color: var(--text-secondary);
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
+
+		@media (max-width: 768px) {
+			font-size: 13px;
+		}
 	}
 
 	.chevron {
 		width: 16px;
 		height: 16px;
-		color: #9ca3af;
+		color: var(--text-muted);
 		transition: transform 0.15s ease;
 
 		&.expanded {
@@ -554,7 +582,7 @@
 		justify-content: space-between;
 		font-size: 11px;
 		font-weight: 500;
-		color: #6b7280;
+		color: var(--text-secondary);
 		margin-bottom: 4px;
 	}
 
@@ -563,13 +591,13 @@
 		font-size: 10px;
 
 		&.good {
-			color: #16a34a;
+			color: var(--success-text);
 		}
 		&.warn {
-			color: #d97706;
+			color: var(--warning);
 		}
 		&.over {
-			color: #dc2626;
+			color: var(--error);
 		}
 	}
 
@@ -578,45 +606,56 @@
 	.field-textarea {
 		width: 100%;
 		padding: 6px 10px;
-		border: 1px solid #d1d5db;
+		border: 1px solid var(--void-highlight);
 		border-radius: 6px;
 		font-size: 13px;
-		color: #1f2937;
-		background: white;
+		color: var(--text-primary);
+		background: var(--void-elevated);
 		transition: all 0.15s ease;
 
 		&:focus {
 			outline: none;
-			border-color: #3b82f6;
-			box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+			border-color: var(--shadow-monarch);
+			box-shadow: var(--glow-sm);
 		}
 
 		&:disabled {
-			background: #f3f4f6;
-			color: #6b7280;
+			background: var(--void-deep);
+			color: var(--text-muted);
 			cursor: not-allowed;
+		}
+
+		@media (max-width: 768px) {
+			padding: 12px 14px;
+			font-size: 16px; // Prevent iOS zoom
+			border-radius: 8px;
 		}
 	}
 
 	.field-textarea {
 		resize: vertical;
 		min-height: 60px;
+
+		@media (max-width: 768px) {
+			min-height: 80px;
+		}
 	}
 
 	.field-readonly {
 		font-size: 13px;
-		color: #374151;
+		color: var(--text-primary);
 		padding: 6px 0;
 	}
 
 	.url-link {
-		color: #3b82f6;
+		color: var(--shadow-monarch-light);
 		text-decoration: none;
 		font-size: 12px;
 		word-break: break-all;
 
 		&:hover {
-			text-decoration: underline;
+			color: var(--awakening-cyan);
+			text-shadow: var(--glow-sm);
 		}
 	}
 
@@ -628,12 +667,12 @@
 			display: flex;
 			align-items: center;
 			padding: 0 8px;
-			background: #f3f4f6;
-			border: 1px solid #d1d5db;
+			background: var(--void-deep);
+			border: 1px solid var(--void-highlight);
 			border-right: none;
 			border-radius: 6px 0 0 6px;
 			font-size: 13px;
-			color: #6b7280;
+			color: var(--text-muted);
 		}
 
 		.field-input {
@@ -653,7 +692,8 @@
 			height: 0;
 
 			&:checked + .toggle-slider {
-				background: #3b82f6;
+				background: var(--shadow-monarch);
+				box-shadow: var(--glow-sm);
 			}
 
 			&:checked + .toggle-slider::before {
@@ -665,6 +705,15 @@
 				cursor: not-allowed;
 			}
 		}
+
+		@media (max-width: 768px) {
+			width: 52px;
+			height: 28px;
+
+			input:checked + .toggle-slider::before {
+				transform: translateX(24px);
+			}
+		}
 	}
 
 	.toggle-slider {
@@ -674,7 +723,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: #d1d5db;
+		background: var(--void-highlight);
 		border-radius: 22px;
 		transition: 0.2s;
 
@@ -685,9 +734,18 @@
 			width: 16px;
 			left: 3px;
 			bottom: 3px;
-			background: white;
+			background: var(--text-primary);
 			border-radius: 50%;
 			transition: 0.2s;
+		}
+
+		@media (max-width: 768px) {
+			border-radius: 28px;
+
+			&::before {
+				height: 22px;
+				width: 22px;
+			}
 		}
 	}
 
@@ -700,10 +758,10 @@
 	.suggestion-pill {
 		display: inline-flex;
 		padding: 2px 8px;
-		background: #e5e7eb;
+		background: var(--void-elevated);
 		border-radius: 12px;
 		font-size: 11px;
-		color: #4b5563;
+		color: var(--text-secondary);
 	}
 
 	.history-list {
@@ -718,28 +776,29 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 6px 8px;
-		background: white;
+		background: var(--void-elevated);
 		border-radius: 4px;
 		font-size: 11px;
 	}
 
 	.history-time {
-		color: #3b82f6;
+		color: var(--shadow-monarch-light);
 		font-weight: 500;
 	}
 
 	.history-date {
-		color: #9ca3af;
+		color: var(--text-muted);
 	}
 
 	.view-changes-link {
 		display: block;
 		font-size: 12px;
-		color: #3b82f6;
+		color: var(--shadow-monarch-light);
 		text-decoration: none;
 
 		&:hover {
-			text-decoration: underline;
+			color: var(--awakening-cyan);
+			text-shadow: var(--glow-sm);
 		}
 	}
 
@@ -747,6 +806,10 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 8px;
+
+		@media (max-width: 768px) {
+			gap: 10px;
+		}
 	}
 
 	.action-btn {
@@ -755,45 +818,69 @@
 		justify-content: center;
 		gap: 6px;
 		padding: 8px 12px;
-		background: white;
-		border: 1px solid #d1d5db;
+		background: var(--void-elevated);
+		border: 1px solid var(--void-highlight);
 		border-radius: 6px;
 		font-size: 12px;
 		font-weight: 500;
-		color: #374151;
+		color: var(--text-primary);
 		cursor: pointer;
 		transition: all 0.15s ease;
 
 		&:hover {
-			background: #f3f4f6;
-			border-color: #9ca3af;
+			background: var(--void-highlight);
+			border-color: var(--shadow-monarch-glow);
+			box-shadow: var(--glow-sm);
+		}
+
+		@media (max-width: 768px) {
+			padding: 14px 16px;
+			font-size: 14px;
+			border-radius: 8px;
+			gap: 8px;
+
+			&:active {
+				background: var(--shadow-monarch-subtle);
+				border-color: var(--shadow-monarch);
+			}
 		}
 	}
 
 	.action-icon {
 		width: 14px;
 		height: 14px;
+
+		@media (max-width: 768px) {
+			width: 18px;
+			height: 18px;
+		}
+	}
+
+	/* Utility classes */
+	.text-muted {
+		color: var(--text-muted);
+		font-size: 12px;
 	}
 
 	/* Scrollbar */
 	.metadata-sidebar {
 		scrollbar-width: thin;
-		scrollbar-color: #d1d5db #f9fafb;
+		scrollbar-color: var(--shadow-monarch) var(--void-surface);
 
 		&::-webkit-scrollbar {
 			width: 6px;
 		}
 
 		&::-webkit-scrollbar-track {
-			background: #f9fafb;
+			background: var(--void-surface);
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background: #d1d5db;
+			background: var(--shadow-monarch);
 			border-radius: 3px;
 
 			&:hover {
-				background: #9ca3af;
+				background: var(--shadow-monarch-light);
 			}
 		}
 	}

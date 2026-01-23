@@ -4,7 +4,7 @@ description: 'Each Enneagram type has a leadership superpower that becomes their
 author: 'DJ Wayne'
 date: '2025-09-14'
 loc: 'https://9takes.com/enneagram-corner/enneagram-leadership'
-lastmod: '2026-01-21'
+lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -23,23 +23,23 @@ path: src/blog/enneagram/enneagram-leadership.md
 </script>
 
 <QuickAnswer question="What is my Enneagram leadership style?">
-Each type has a natural leadership approach: Type 1s set standards. Type 2s develop people. Type 3s drive results. Type 4s bring creative vision. Type 5s provide strategic expertise. Type 6s manage risk. Type 7s spark innovation. Type 8s make bold decisions. Type 9s build consensus. The catch: your greatest strength becomes your blind spot when overused. A Type 8's decisiveness tips into bulldozing. A Type 9's harmony-seeking becomes avoidance. Knowing your pattern is the first step to leading with it instead of being run by it.
+Each type leads differently. Type 1s set standards. Type 2s develop people. Type 3s drive results. Type 4s bring creative vision. Type 5s provide strategic expertise. Type 6s manage risk. Type 7s spark innovation. Type 8s make bold decisions. Type 9s build consensus. The catch: your greatest strength becomes your blind spot when overused. A Type 8's decisiveness tips into bulldozing. A Type 9's harmony-seeking becomes avoidance. Knowing your pattern is the first step to leading with it instead of being run by it.
 </QuickAnswer>
 
 <!-- ## The $8.9 Trillion Leadership Crisis Nobody's Talking About  -->
 <!-- {#hidden-psychology} -->
 
-<p class="firstLetter">Gallup's latest State of the Global Workplace report puts a number on bad leadership: $8.9 trillion in lost productivity annually. That's 9% of global GDP.</p>
+<p class="firstLetter">Bad leadership costs $8.9 trillion annually. That's 9% of global GDP vanishing into disengagement, according to Gallup's latest State of the Global Workplace report.</p>
 
-The same report shows only 21% of employees are engaged at work. The rest? Sleepwalking or actively checked out. And the data points to one factor above all others: the quality of their direct manager.
+Only 21% of employees are engaged at work. The rest are sleepwalking or actively checked out. The data points to one factor above all others: the quality of their direct manager.
 
-You've done the leadership training. Read the books. Maybe hired a coach. Yet something still isn't clicking. Your team responds to other leaders differently than they respond to you.
+You have done the leadership training. Read the books. Maybe hired a coach. Yet something still does not click. Your team responds to other leaders differently than they respond to you.
 
-After interviewing 500+ world-class performers, Tim Ferriss noticed a pattern: top leaders don't follow the same playbook. They've each found their own way.
+After interviewing 500+ world-class performers, Tim Ferriss noticed a pattern: top leaders do not follow the same playbook. They have each found their own way.
 
 The Enneagram maps nine distinct leadership operating systems. What makes one type inspiring makes another seem fake. What motivates one type's team demoralizes another's. (New to the Enneagram? Start with our [quick overview](/enneagram-corner/enneagram-tldr).)
 
-You've likely been trying to lead like someone you admire rather than like yourself. Your greatest strength, overplayed, becomes your biggest liability.
+Here is the uncomfortable truth: you have probably been trying to lead like someone you admire rather than like yourself. And your greatest strength, overplayed, becomes your biggest liability.
 
 ## Why Your Leadership Approach Backfires
 
@@ -51,37 +51,28 @@ Tim Ferriss observed something consistent across world-class leaders: _"A person
 
 Most leaders avoid these conversations. Different types avoid different ones.
 
-Every leadership strength becomes a liability when overused:
+Every leadership strength tips into liability when overused:
 
-- **Decisiveness** tips into steamrolling
+- **Decisiveness** becomes steamrolling
 - **Empathy** slides into people-pleasing
 - **Vision** detaches from execution
 - **Analysis** stalls action
 - **Harmony** enables dysfunction
 
-The Enneagram shows which conversations you're ducking and why.
+The Enneagram reveals which conversations you are ducking and why.
 
 ### The Three Leadership Centers
 
-Leaders operate from three different centers. Each has a default mode and a blind spot.
+Leaders operate from three centers. Each has a default mode and a blind spot.
 
 **Body/Gut Center (Types 8, 9, 1)**
-
-- Lead through action and instinct
-- Default to control and autonomy
-- **Blind Spot:** Anger-driven decisions that drive people away
+Lead through action and instinct. Default to control and autonomy. The blind spot: anger-driven decisions that drive people away.
 
 **Heart/Feeling Center (Types 2, 3, 4)**
-
-- Lead through connection and influence
-- Default to managing image and relationships
-- **Blind Spot:** Performing a role instead of being real
+Lead through connection and influence. Default to managing image and relationships. The blind spot: performing a role instead of being real.
 
 **Head/Thinking Center (Types 5, 6, 7)**
-
-- Lead through strategy and planning
-- Default to security and competence
-- **Blind Spot:** Overthinking while opportunities pass
+Lead through strategy and planning. Default to security and competence. The blind spot: overthinking while opportunities pass.
 
 Understanding your center reveals your autopilot mode. (For more on [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress), see our breakdown.)
 
@@ -94,34 +85,19 @@ Understanding your center reveals your autopilot mode. (For more on [how each ty
 **Leadership Identity:** "I lead by example and uphold standards"
 
 **Natural Style:**
-
-- Sets clear expectations and high standards
-- Models integrity and work ethic
-- Creates systematic processes
-- Ensures quality and consistency
-- Takes responsibility seriously
+Sets clear expectations. Models integrity and work ethic. Creates systematic processes. Ensures quality and consistency. Takes responsibility seriously.
 
 **What Teams Love:**
-
-- Always know where they stand
-- Clear guidelines and expectations
-- Fair and consistent treatment
-- Learning from a master of their craft
-- Ethical leadership they can trust
+Knowing exactly where they stand. Clear guidelines. Fair, consistent treatment. Learning from a master of their craft. Ethical leadership they can trust.
 
 **What Teams Fear:**
-
-- Nothing is ever good enough
-- Constant criticism and correction
-- Rigidity that stifles creativity
-- Perfectionism that slows progress
-- Being judged for mistakes
+Nothing is ever good enough. Constant criticism and correction. Rigidity that stifles creativity. Perfectionism that slows progress. Being judged for honest mistakes.
 
 **Superpower:** Transforming chaos into order through systems and standards.
 
-**Kryptonite:** Perfectionism that demoralizes teams and prevents delegation.
+**Kryptonite:** Perfectionism that demoralizes teams and blocks delegation.
 
-**Reality Check:** If you've rewritten an email more than twice this week, you're spending time on polish that nobody notices. Teams under perfectionistic leaders report more burnout and less willingness to take creative risks.
+**Reality Check:** If you have rewritten an email more than twice this week, you are spending time on polish that nobody notices. Teams under perfectionistic leaders report higher burnout and less willingness to take creative risks.
 
 **The Fix:** The "70% Rule." If someone can do it 70% as well as you, delegate it. Your time is better spent on what only you can do.
 
@@ -130,70 +106,40 @@ Understanding your center reveals your autopilot mode. (For more on [how each ty
 **Leadership Identity:** "I lead by empowering and supporting others"
 
 **Natural Style:**
-
-- Develops people's potential
-- Creates warm, supportive culture
-- Anticipates team needs
-- Builds strong relationships
-- Celebrates others' successes
+Develops people's potential. Creates warm, supportive culture. Anticipates team needs before they voice them. Builds strong relationships. Celebrates others' successes publicly.
 
 **What Teams Love:**
-
-- Feeling personally valued
-- Support during challenges
-- Recognition and appreciation
-- Open-door accessibility
-- Investment in their growth
+Feeling personally valued. Support during challenges. Recognition and appreciation. Open-door accessibility. Genuine investment in their growth.
 
 **What Teams Fear:**
-
-- Emotional manipulation
-- Favoritism and inconsistency
-- Guilt trips about loyalty
-- Invasive personal interest
-- Hidden agendas in kindness
+Emotional manipulation. Favoritism and inconsistency. Guilt trips about loyalty. Invasive personal interest. Hidden agendas wrapped in kindness.
 
 **Superpower:** Creating loyalty through genuine care and development.
 
 **Kryptonite:** Burnout from overgiving and a covert need for appreciation.
 
-**Reality Check:** If you answered work emails during your last vacation, you're creating learned helplessness. Overly supportive leaders produce teams that can't function independently.
+**Reality Check:** If you answered work emails during your last vacation, you are creating learned helplessness. Overly supportive leaders produce teams that cannot function independently.
 
-**The Fix:** The "Help Budget." You get three assists per day. After that, ask questions instead of giving answers. "What do you think you should do?" builds capability faster than solving their problems.
+**The Fix:** The "Help Budget." Three assists per day. After that, ask questions instead of giving answers. "What do you think you should do?" builds capability faster than solving their problems.
 
 ### Type 3: The Achievement Catalyst
 
 **Leadership Identity:** "I lead by driving results and modeling success"
 
 **Natural Style:**
-
-- Sets ambitious goals
-- Creates competitive momentum
-- Optimizes for efficiency
-- Celebrates wins publicly
-- Adapts quickly to change
+Sets ambitious goals. Creates competitive momentum. Optimizes for efficiency. Celebrates wins publicly. Adapts quickly when conditions change.
 
 **What Teams Love:**
-
-- Clear path to success
-- Recognition for achievements
-- Fast-paced advancement
-- Learning from a winner
-- Results-oriented clarity
+Clear path to success. Recognition for achievements. Fast-paced advancement. Learning from a winner. Results-oriented clarity.
 
 **What Teams Fear:**
-
-- Being expendable resources
-- Work-life balance destruction
-- Credit-stealing behavior
-- Image over substance
-- Ruthless competition culture
+Being treated as expendable resources. Work-life balance destruction. Credit-stealing behavior. Image over substance. Ruthless competition culture.
 
 **Superpower:** Transforming average teams into high performers.
 
 **Kryptonite:** Sacrificing people and principles for results.
 
-**Reality Check:** Can you name your top performer's kid? If not, there's a gap between you and your team that they feel even if you don't. High performers leave managers who treat them like productivity units.
+**Reality Check:** Can you name your top performer's kid? If not, there is a gap between you and your team that they feel even if you do not. High performers leave managers who treat them like productivity units.
 
 **The Fix:** The "Friday Human Check." No metrics talk on Fridays. Just connection. Ask about weekends, hobbies, life outside work. It feels inefficient but builds the trust that makes everything else work.
 
@@ -202,28 +148,13 @@ Understanding your center reveals your autopilot mode. (For more on [how each ty
 **Leadership Identity:** "I lead by bringing unique vision and depth"
 
 **Natural Style:**
-
-- Champions authenticity and creativity
-- Brings emotional intelligence
-- Sees unique potential in people
-- Creates meaningful work culture
-- Values depth over surface
+Champions authenticity and creativity. Brings emotional intelligence to decisions. Sees unique potential in people others overlook. Creates meaningful work culture. Values depth over surface.
 
 **What Teams Love:**
-
-- Permission to be authentic
-- Creative freedom and expression
-- Deep, meaningful work
-- Unique team identity
-- Emotional validation
+Permission to be authentic. Creative freedom and expression. Deep, meaningful work. Unique team identity. Emotional validation.
 
 **What Teams Fear:**
-
-- Emotional volatility
-- Moodiness affecting decisions
-- Drama and intensity
-- Feeling inadequate or ordinary
-- Inconsistent availability
+Emotional volatility. Moodiness affecting decisions. Drama and intensity. Feeling inadequate or ordinary. Inconsistent availability.
 
 **Superpower:** Creating deeply meaningful and creative work environments.
 
@@ -238,28 +169,13 @@ Understanding your center reveals your autopilot mode. (For more on [how each ty
 **Leadership Identity:** "I lead through expertise and strategic thinking"
 
 **Natural Style:**
-
-- Develops innovative strategies
-- Makes data-driven decisions
-- Provides technical expertise
-- Respects autonomy and competence
-- Minimizes unnecessary interaction
+Develops innovative strategies. Makes data-driven decisions. Provides technical expertise. Respects autonomy and competence. Minimizes unnecessary interaction.
 
 **What Teams Love:**
-
-- Intellectual stimulation
-- Autonomous working style
-- Competence-based respect
-- Strategic clarity
-- No micromanagement
+Intellectual stimulation. Autonomous working style. Competence-based respect. Strategic clarity. No micromanagement.
 
 **What Teams Fear:**
-
-- Emotional disconnection
-- Isolation and minimal feedback
-- Over-complexity
-- Hoarding of information
-- Lack of team cohesion
+Emotional disconnection. Isolation and minimal feedback. Over-complexity. Hoarding information. Lack of team cohesion.
 
 **Superpower:** Solving complex problems through innovative thinking.
 
@@ -274,64 +190,34 @@ Understanding your center reveals your autopilot mode. (For more on [how each ty
 **Leadership Identity:** "I lead by ensuring security and preparedness"
 
 **Natural Style:**
-
-- Anticipates problems and risks
-- Builds loyal, cohesive teams
-- Creates backup plans
-- Questions and verifies thoroughly
-- Protects team from threats
+Anticipates problems and risks. Builds loyal, cohesive teams. Creates backup plans. Questions and verifies thoroughly. Protects team from external threats.
 
 **What Teams Love:**
-
-- Feeling protected and secure
-- Thorough preparation
-- Loyalty and reliability
-- Collaborative decision-making
-- Risk awareness
+Feeling protected and secure. Thorough preparation. Loyalty and reliability. Collaborative decision-making. Risk awareness.
 
 **What Teams Fear:**
-
-- Anxiety contagion
-- Analysis paralysis
-- Constant worst-case scenarios
-- Trust issues and suspicion
-- Indecisiveness under pressure
+Anxiety contagion. Analysis paralysis. Constant worst-case scenarios. Trust issues and suspicion. Indecisiveness under pressure.
 
 **Superpower:** Building bulletproof strategies and loyal teams.
 
 **Kryptonite:** Anxiety that creates the very instability you fear.
 
-**Reality Check:** How many "what if" scenarios did you run through today? Andy Grove's "Only the paranoid survive" built Intel, but paranoia is contagious. Your team picks up your anxiety even when you don't voice it. Worst-case thinking, unchecked, becomes self-fulfilling.
+**Reality Check:** How many "what if" scenarios did you run through today? Andy Grove's "Only the paranoid survive" built Intel, but paranoia is contagious. Your team picks up your anxiety even when you do not voice it. Worst-case thinking, unchecked, becomes self-fulfilling.
 
-**The Fix:** The "Best Case Plan." For every disaster scenario you map, force yourself to map one where everything goes right. This isn't naive optimism. It's balance. Your natural caution is an asset when paired with possibility.
+**The Fix:** The "Best Case Plan." For every disaster scenario you map, force yourself to map one where everything goes right. This is not naive optimism. It is balance. Your natural caution becomes an asset when paired with possibility.
 
 ### Type 7: The Inspirational Innovator
 
 **Leadership Identity:** "I lead by inspiring possibility and innovation"
 
 **Natural Style:**
-
-- Generates enthusiasm and energy
-- Promotes innovation and experimentation
-- Creates positive, fun culture
-- Connects diverse ideas and people
-- Maintains optimism through challenges
+Generates enthusiasm and energy. Promotes innovation and experimentation. Creates positive, fun culture. Connects diverse ideas and people. Maintains optimism through challenges.
 
 **What Teams Love:**
-
-- Exciting vision and possibilities
-- Fun, energetic environment
-- Freedom to experiment
-- Positive reframing of challenges
-- Network connections
+Exciting vision and possibilities. Fun, energetic environment. Freedom to experiment. Positive reframing of challenges. Network connections.
 
 **What Teams Fear:**
-
-- Lack of follow-through
-- Avoiding difficult conversations
-- Too many priorities
-- Glossing over problems
-- Commitment issues
+Lack of follow-through. Avoiding difficult conversations. Too many priorities. Glossing over problems. Commitment issues.
 
 **Superpower:** Transforming challenges into opportunities through optimism.
 
@@ -346,34 +232,19 @@ Understanding your center reveals your autopilot mode. (For more on [how each ty
 **Leadership Identity:** "I lead by taking charge and protecting my people"
 
 **Natural Style:**
-
-- Makes bold, quick decisions
-- Protects team fiercely
-- Challenges people to grow
-- Takes on the biggest obstacles
-- Creates powerful momentum
+Makes bold, quick decisions. Protects team fiercely. Challenges people to grow. Takes on the biggest obstacles. Creates powerful momentum.
 
 **What Teams Love:**
-
-- Decisive, strong leadership
-- Protection from politics
-- Direct, honest communication
-- Empowerment to act
-- Clear power dynamics
+Decisive, strong leadership. Protection from politics. Direct, honest communication. Empowerment to act. Clear power dynamics.
 
 **What Teams Fear:**
-
-- Aggressive confrontation
-- Bulldozing opposition
-- Vengeance and retaliation
-- Emotional insensitivity
-- Power struggles
+Aggressive confrontation. Bulldozing opposition. Vengeance and retaliation. Emotional insensitivity. Power struggles.
 
 **Superpower:** Breaking through obstacles with sheer force of will.
 
 **Kryptonite:** Intimidation that creates compliance instead of commitment.
 
-**Reality Check:** Do people agree with you quickly? Quick agreement usually means fear, not conviction. Jack Welch transformed GE but left behind burned-out executives and a culture that took decades to repair. Winning the argument doesn't mean winning the outcome.
+**Reality Check:** Do people agree with you quickly? Quick agreement usually means fear, not conviction. Jack Welch transformed GE but left behind burned-out executives and a culture that took decades to repair. Winning the argument does not mean winning the outcome.
 
 **The Fix:** The "Power With" Practice. Ask "What do you think?" before stating your opinion. Then wait. A full ten seconds of silence. Real answers take time when people are used to being overridden.
 
@@ -382,34 +253,19 @@ Understanding your center reveals your autopilot mode. (For more on [how each ty
 **Leadership Identity:** "I lead by creating harmony and inclusive decisions"
 
 **Natural Style:**
-
-- Builds consensus and buy-in
-- Creates inclusive environment
-- Mediates conflicts diplomatically
-- Sees all perspectives
-- Maintains steady calm
+Builds consensus and buy-in. Creates inclusive environment. Mediates conflicts diplomatically. Sees all perspectives. Maintains steady calm.
 
 **What Teams Love:**
-
-- Inclusive decision-making
-- Peaceful work environment
-- Being heard and valued
-- Steady, calming presence
-- Fair mediation
+Inclusive decision-making. Peaceful work environment. Being heard and valued. Steady, calming presence. Fair mediation.
 
 **What Teams Fear:**
-
-- Conflict avoidance
-- Delayed difficult decisions
-- Passive-aggressive responses
-- Lack of clear direction
-- Being too accommodating
+Conflict avoidance. Delayed difficult decisions. Passive-aggressive responses. Lack of clear direction. Being too accommodating.
 
 **Superpower:** Creating harmony and buy-in across diverse groups.
 
 **Kryptonite:** Avoiding necessary conflicts that fester into bigger problems.
 
-**Reality Check:** Are you sitting on a decision right now? One you've been sitting on for days or weeks? Satya Nadella transformed Microsoft with a consensus-building approach, but he also learned when to stop gathering input and decide. Harmony without direction is just comfortable stagnation.
+**Reality Check:** Are you sitting on a decision right now? One you have been sitting on for days or weeks? Satya Nadella transformed Microsoft with a consensus-building approach, but he also learned when to stop gathering input and decide. Harmony without direction is comfortable stagnation.
 
 **The Fix:** The "Decision Timer." Forty-eight hours max on any decision. A reversible wrong decision beats no decision. Your team would rather course-correct than wait indefinitely.
 
@@ -439,22 +295,22 @@ Understanding your center reveals your autopilot mode. (For more on [how each ty
 
 ### Type 1: The Criticism Cascade
 
-**The Pattern:** Your high standards create a culture of fear where people hide mistakes, leading to bigger problems.
-**The Fix:** Implement "learning from failure" sessions where mistakes are celebrated as growth.
+**The Pattern:** High standards create a culture of fear. People hide mistakes, which leads to bigger problems down the line.
+**The Fix:** Run "learning from failure" sessions where mistakes get analyzed without blame.
 
 ### Type 2: The Burnout Spiral
 
-**The Pattern:** You give until you're depleted, then resent your team for not appreciating you enough.
-**The Fix:** Schedule regular self-care and set clear boundaries about your availability.
+**The Pattern:** You give until depleted, then resent your team for not appreciating you enough.
+**The Fix:** Schedule non-negotiable self-care and set clear boundaries about your availability.
 
 ### Type 3: The Human Calculator
 
 **The Pattern:** You treat people as productivity units, creating turnover and disengagement.
-**The Fix:** Implement regular "human check-ins" separate from performance discussions.
+**The Fix:** Run regular "human check-ins" separate from performance discussions.
 
 ### Type 4: The Emotional Rollercoaster
 
-**The Pattern:** Your moods dictate team atmosphere, creating instability and walking-on-eggshells culture.
+**The Pattern:** Your moods dictate team atmosphere, creating instability and a walking-on-eggshells culture.
 **The Fix:** Develop emotional regulation practices and communicate your internal state clearly.
 
 ### Type 5: The Ivory Tower
@@ -464,13 +320,13 @@ Understanding your center reveals your autopilot mode. (For more on [how each ty
 
 ### Type 6: The Anxiety Amplifier
 
-**The Pattern:** Your worst-case thinking creates the very instability you're trying to prevent.
+**The Pattern:** Your worst-case thinking creates the very instability you are trying to prevent.
 **The Fix:** Practice "best-case scenario" planning to balance your natural pessimism.
 
 ### Type 7: The Shiny Object Syndrome
 
 **The Pattern:** You chase new opportunities before completing current initiatives, exhausting your team.
-**The Fix:** Implement a "one thing complete before next thing starts" rule.
+**The Fix:** Enforce a "one thing complete before next thing starts" rule.
 
 ### Type 8: The Scorched Earth Policy
 
@@ -514,9 +370,9 @@ Rate yourself honestly on a 1-5 scale.
 
 ### What Your Score Reveals
 
-**Score 20-25:** You've developed balance across centers. Keep refining.
+**Score 20-25:** You have developed balance across centers. Keep refining.
 
-**Score 15-19:** You have clear strengths but one center is underdeveloped. That's your growth edge.
+**Score 15-19:** You have clear strengths but one center is underdeveloped. That is your growth edge.
 
 **Score 10-14:** Your dominant center is overcompensating. The questions you scored lowest on point to your blind spot.
 
@@ -524,19 +380,19 @@ Rate yourself honestly on a 1-5 scale.
 
 Derek Sivers put it well: _"If more information was the answer, then we'd all be billionaires with perfect abs."_
 
-You don't need more leadership training. You need to stop doing what isn't working.
+You do not need more leadership training. You need to stop doing what is not working.
 
 ## The Elimination Approach
 
 <!-- {#elimination-method} -->
 
-Tim Ferriss noticed that top performers don't add more to their approach. They eliminate what isn't working.
+Tim Ferriss noticed that top performers do not add more to their approach. They eliminate what is not working.
 
 ### What Each Type Should Stop Doing
 
-**Type 1:** Stop perfecting things that don't matter. Apply the "Good Enough Rule" – If it's not customer-facing or legally required, 80% quality is fine.
+**Type 1:** Stop perfecting things that do not matter. Apply the "Good Enough Rule." If it is not customer-facing or legally required, 80% quality is fine.
 
-**Type 2:** Stop rescuing people. You're not helping; you're enabling. Set a "helping budget" of 3 assists per day.
+**Type 2:** Stop rescuing people. You are not helping; you are enabling. Set a "helping budget" of 3 assists per day.
 
 **Type 3:** Stop measuring everything. Pick 3 metrics that matter. Ignore the rest.
 
@@ -544,7 +400,7 @@ Tim Ferriss noticed that top performers don't add more to their approach. They e
 
 **Type 5:** Stop researching past the point of diminishing returns. Set a research timer: 2 hours max per decision.
 
-**Type 6:** Stop seeking more input. After 3 opinions, decide. More data won't reduce your anxiety.
+**Type 6:** Stop seeking more input. After 3 opinions, decide. More data will not reduce your anxiety.
 
 **Type 7:** Stop starting new things. Finish one thing completely before beginning another.
 
@@ -558,117 +414,57 @@ The counterintuitive part: effective leaders do less, not more. Each elimination
 
 <!-- {#leadership-stack} -->
 
-Think of leadership as layers that build on each other:
+Leadership builds in layers. Skip one and the whole structure becomes unstable.
 
 **Layer 1: Self-Awareness (Foundation)**
-
-- Understand your type's patterns
-- Recognize your triggers
-- Know your energy cycles
+Map your type's patterns. Recognize your triggers. Know your energy cycles.
 
 **Layer 2: Self-Management (Stability)**
-
-- Regulate your type's excesses
-- Develop missing competencies
-- Maintain sustainable practices
+Regulate your type's excesses. Develop missing competencies. Maintain sustainable practices.
 
 **Layer 3: People Skills (Connection)**
-
-- Adapt to different types
-- Communicate effectively
-- Build trust authentically
+Adapt to different types. Communicate effectively. Build trust authentically.
 
 **Layer 4: Strategic Thinking (Direction)**
-
-- Balance all three centers
-- Integrate diverse perspectives
-- Make holistic decisions
+Balance all three centers. Integrate diverse perspectives. Make holistic decisions.
 
 **Layer 5: Influence (Impact)**
-
-- Inspire through authenticity
-- Create lasting change
-- Leave legacy
+Inspire through authenticity. Create lasting change. Leave legacy.
 
 ### Developing Each Layer by Type
 
 **Type 1: The Standard Bearer's Stack**
-
-1. Awareness: Notice when perfectionism kicks in
-2. Management: Practice "good enough" decisions
-3. People: Celebrate progress over perfection
-4. Strategy: Balance quality with speed
-5. Influence: Model growth over perfection
+Awareness: Notice when perfectionism kicks in. Management: Practice "good enough" decisions. People: Celebrate progress over perfection. Strategy: Balance quality with speed. Influence: Model growth over perfection.
 
 **Type 2: The Servant Leader's Stack**
-
-1. Awareness: Recognize when giving has agenda
-2. Management: Set clear boundaries
-3. People: Empower without rescuing
-4. Strategy: Balance people and results
-5. Influence: Teach self-sufficiency
+Awareness: Recognize when giving has agenda. Management: Set clear boundaries. People: Empower without rescuing. Strategy: Balance people and results. Influence: Teach self-sufficiency.
 
 **Type 3: The Achievement Catalyst's Stack**
-
-1. Awareness: Notice when image overrides authenticity
-2. Management: Schedule relationship time
-3. People: Celebrate team over individual wins
-4. Strategy: Define success beyond metrics
-5. Influence: Model sustainable excellence
+Awareness: Notice when image overrides authenticity. Management: Schedule relationship time. People: Celebrate team over individual wins. Strategy: Define success beyond metrics. Influence: Model sustainable excellence.
 
 **Type 4: The Visionary Authentic's Stack**
-
-1. Awareness: Track emotional patterns
-2. Management: Develop emotional regulation
-3. People: Validate others' experiences
-4. Strategy: Balance vision with execution
-5. Influence: Channel intensity productively
+Awareness: Track emotional patterns. Management: Develop emotional regulation. People: Validate others' experiences. Strategy: Balance vision with execution. Influence: Channel intensity productively.
 
 **Type 5: The Strategic Architect's Stack**
-
-1. Awareness: Notice withdrawal patterns
-2. Management: Schedule people interaction
-3. People: Share thinking process
-4. Strategy: Balance analysis with action
-5. Influence: Make expertise accessible
+Awareness: Notice withdrawal patterns. Management: Schedule people interaction. People: Share thinking process. Strategy: Balance analysis with action. Influence: Make expertise accessible.
 
 **Type 6: The Protective Strategist's Stack**
-
-1. Awareness: Identify anxiety triggers
-2. Management: Practice confident decisions
-3. People: Project calm assurance
-4. Strategy: Balance caution with courage
-5. Influence: Model prepared confidence
+Awareness: Identify anxiety triggers. Management: Practice confident decisions. People: Project calm assurance. Strategy: Balance caution with courage. Influence: Model prepared confidence.
 
 **Type 7: The Inspirational Innovator's Stack**
-
-1. Awareness: Notice avoidance patterns
-2. Management: Complete before pivoting
-3. People: Address difficult issues
-4. Strategy: Depth over breadth
-5. Influence: Model sustained focus
+Awareness: Notice avoidance patterns. Management: Complete before pivoting. People: Address difficult issues. Strategy: Depth over breadth. Influence: Model sustained focus.
 
 **Type 8: The Commanding Force's Stack**
-
-1. Awareness: Recognize impact on others
-2. Management: Practice vulnerability
-3. People: Empower don't overpower
-4. Strategy: Build consensus sometimes
-5. Influence: Model controlled strength
+Awareness: Recognize impact on others. Management: Practice vulnerability. People: Empower, do not overpower. Strategy: Build consensus sometimes. Influence: Model controlled strength.
 
 **Type 9: The Consensus Builder's Stack**
-
-1. Awareness: Notice conflict avoidance
-2. Management: Take decisive stands
-3. People: Address issues directly
-4. Strategy: Priority over peace
-5. Influence: Model engaged presence
+Awareness: Notice conflict avoidance. Management: Take decisive stands. People: Address issues directly. Strategy: Priority over peace. Influence: Model engaged presence.
 
 ## The Uncomfortable Conversation Framework
 
 <!-- {#uncomfortable-conversations} -->
 
-Here's a script for the conversation your type avoids. (For more on [how each type communicates](/enneagram-corner/enneagram-communication-styles), see our communication guide.)
+Here is a script for the conversation your type avoids. (For more on [how each type communicates](/enneagram-corner/enneagram-communication-styles), see our communication guide.)
 
 ### The 5-Sentence Format That Works
 
@@ -718,85 +514,40 @@ _Your script:_ "I've noticed we keep deferring this decision to keep everyone ha
 
 ### The 72-Hour Rule
 
-If you don't have the conversation within 72 hours of recognizing the need, you probably never will. Set a reminder. Schedule it. Do it scared.
+If you do not have the conversation within 72 hours of recognizing the need, you probably never will. Set a reminder. Schedule it. Do it scared.
 
 ## Leading Different Personality Types
 
 <!-- {#leading-different-types} -->
 
-What works for one type alienates another. Here's how to adapt. (For more, see our guides on [team dynamics](/enneagram-corner/enneagram-team-dynamics) and [workplace team building](/enneagram-corner/enneagram-workplace-team-building).)
+What works for one type alienates another. Here is how to adapt. (For more, see our guides on [team dynamics](/enneagram-corner/enneagram-team-dynamics) and [workplace team building](/enneagram-corner/enneagram-workplace-team-building).)
 
 **Leading Type 1s:**
-
-- Be precise and prepared
-- Respect their standards
-- Give them quality control roles
-- Don't take criticism personally
-- Acknowledge their expertise
+Be precise and prepared. Respect their standards. Give them quality control roles. Do not take criticism personally. Acknowledge their expertise.
 
 **Leading Type 2s:**
-
-- Show personal appreciation
-- Include them in people decisions
-- Don't take their help for granted
-- Give them mentoring opportunities
-- Recognize their contributions publicly
+Show personal appreciation. Include them in people decisions. Do not take their help for granted. Give them mentoring opportunities. Recognize their contributions publicly.
 
 **Leading Type 3s:**
-
-- Set clear, ambitious goals
-- Give them visibility
-- Reward achievements quickly
-- Don't slow them down unnecessarily
-- Provide advancement paths
+Set clear, ambitious goals. Give them visibility. Reward achievements quickly. Do not slow them down unnecessarily. Provide advancement paths.
 
 **Leading Type 4s:**
-
-- Acknowledge their uniqueness
-- Give creative freedom
-- Don't dismiss emotions
-- Provide meaningful work
-- Allow authentic expression
+Acknowledge their uniqueness. Give creative freedom. Do not dismiss emotions. Provide meaningful work. Allow authentic expression.
 
 **Leading Type 5s:**
-
-- Respect their expertise
-- Give them thinking time
-- Don't demand instant answers
-- Provide intellectual challenges
-- Minimize unnecessary meetings
+Respect their expertise. Give them thinking time. Do not demand instant answers. Provide intellectual challenges. Minimize unnecessary meetings.
 
 **Leading Type 6s:**
-
-- Be consistent and reliable
-- Address their concerns seriously
-- Don't dismiss their worries
-- Provide security and backup plans
-- Build trust gradually
+Be consistent and reliable. Address their concerns seriously. Do not dismiss their worries. Provide security and backup plans. Build trust gradually.
 
 **Leading Type 7s:**
-
-- Keep things interesting
-- Give them variety
-- Don't box them in
-- Provide new challenges
-- Allow some flexibility
+Keep things interesting. Give them variety. Do not box them in. Provide new challenges. Allow some flexibility.
 
 **Leading Type 8s:**
-
-- Be direct and honest
-- Give them challenges
-- Don't micromanage
-- Respect their strength
-- Allow them to protect others
+Be direct and honest. Give them challenges. Do not micromanage. Respect their strength. Allow them to protect others.
 
 **Leading Type 9s:**
-
-- Include them in decisions
-- Give them time to process
-- Don't pressure for quick answers
-- Provide steady environment
-- Appreciate their mediation
+Include them in decisions. Give them time to process. Do not pressure for quick answers. Provide steady environment. Appreciate their mediation.
 
 ## Crisis Leadership by Type
 
@@ -847,22 +598,13 @@ Each type can develop by integrating qualities of other types:
 ### Cross-Training Exercises
 
 **For Body Types (8, 9, 1):**
-
-- Practice emotional check-ins
-- Develop strategic thinking time
-- Slow down decision-making
+Practice emotional check-ins. Develop strategic thinking time. Slow down decision-making.
 
 **For Heart Types (2, 3, 4):**
-
-- Practice data-driven decisions
-- Develop analytical frameworks
-- Separate feelings from facts
+Practice data-driven decisions. Develop analytical frameworks. Separate feelings from facts.
 
 **For Head Types (5, 6, 7):**
-
-- Practice gut instinct decisions
-- Develop body awareness
-- Take action before full analysis
+Practice gut instinct decisions. Develop body awareness. Take action before full analysis.
 
 ## Real-World Leadership Examples
 
@@ -1026,15 +768,15 @@ Tim Ferriss observed: _"What we fear doing most is usually what we most need to 
 
 Every type has a core fear that shapes their leadership blind spot:
 
-- **Type 1:** Being imperfect or wrong
-- **Type 2:** Being unloved or unneeded
-- **Type 3:** Being worthless or failing
-- **Type 4:** Being ordinary or insignificant
-- **Type 5:** Being incompetent or overwhelmed
-- **Type 6:** Being without support or guidance
-- **Type 7:** Being trapped in pain or boredom
-- **Type 8:** Being controlled or vulnerable
-- **Type 9:** Conflict and separation
+**Type 1:** Being imperfect or wrong
+**Type 2:** Being unloved or unneeded
+**Type 3:** Being worthless or failing
+**Type 4:** Being ordinary or insignificant
+**Type 5:** Being incompetent or overwhelmed
+**Type 6:** Being without support or guidance
+**Type 7:** Being trapped in pain or boredom
+**Type 8:** Being controlled or vulnerable
+**Type 9:** Conflict and separation
 
 Your fear drives your overcompensation. Name it and you can work with it instead of around it.
 
@@ -1042,65 +784,123 @@ Your fear drives your overcompensation. Name it and you can work with it instead
 
 <!-- {#next-move} -->
 
-1. **Identify your type** if you haven't (our [beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) can help)
-2. **Write down one uncomfortable conversation you've been avoiding**
+1. **Identify your type** if you have not already (our [beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) can help)
+2. **Write down one uncomfortable conversation you have been avoiding**
 3. **Pick one thing from your type's elimination list to stop doing this week**
 4. **Have the conversation within 48 hours**
 
 Tim Ferriss again: _"The superheroes you have in your mind are nearly all walking flaws who've maximized one or two strengths."_
 
-You don't need to be a perfect leader. You need to be your type of leader, aware of your patterns and willing to address them.
+You do not need to be a perfect leader. You need to be your type of leader, aware of your patterns and willing to address them.
 
-The Enneagram doesn't put you in a box. It shows you the box you're already operating from, so you can choose when to stay in it and when to step out.
+The Enneagram does not put you in a box. It shows you the box you are already operating from, so you can choose when to stay in it and when to step out.
 
 <svelte:head>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "@id": "https://9takes.com/enneagram-corner/enneagram-leadership#article",
-  "headline": "Enneagram Leadership Styles: Why Your Natural Approach Keeps Backfiring",
-  "name": "Enneagram Leadership Styles: Why Your Natural Approach Keeps Backfiring",
-  "description": "Each Enneagram type has a leadership superpower that becomes their fatal flaw when overused. Find your blind spot and the specific fix that works for your type.",
-  "inLanguage": "en",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "datePublished": "2025-09-14",
-  "dateModified": "2026-01-21",
-  "url": "https://9takes.com/enneagram-corner/enneagram-leadership",
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Enneagram Leadership Styles: Why Your Natural Approach Keeps Backfiring",
+      "description": "Each Enneagram type has a leadership superpower that becomes their fatal flaw when overused. Find your blind spot and the specific fix that works for your type.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "datePublished": "2025-09-14",
+      "dateModified": "2026-01-23",
+      "url": "https://9takes.com/enneagram-corner/enneagram-leadership",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-leadership"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://9takes.com/blogs/diverse-leaders-boardroom-enneagram.webp",
+        "width": 1200,
+        "height": 630
+      },
+      "articleSection": "Enneagram",
+      "wordCount": 4200,
+      "keywords": [
+        "enneagram leadership",
+        "leadership styles",
+        "enneagram type leader",
+        "leadership development",
+        "personality leadership",
+        "team management",
+        "enneagram workplace",
+        "leadership blind spots",
+        "management styles by personality"
+      ],
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram of Personality",
+        "description": "The Enneagram of Personality is a model of the human psyche principally understood as a typology of nine interconnected personality types.",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q273047",
+          "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      }
     },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/enneagram-leadership"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/diverse-leaders-boardroom-enneagram.webp",
-    "width": 1200,
-    "height": 630
-  },
-  "articleBody": "Each Enneagram type has a leadership superpower that becomes their fatal flaw when overused. This guide maps the blind spots for all nine types and provides specific fixes that work with your natural wiring instead of against it.",
-  "keywords": "enneagram leadership, leadership styles, enneagram type leader, leadership development, personality leadership, team management, enneagram workplace"
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is my Enneagram leadership style?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each type leads differently. Type 1s set standards. Type 2s develop people. Type 3s drive results. Type 4s bring creative vision. Type 5s provide strategic expertise. Type 6s manage risk. Type 7s spark innovation. Type 8s make bold decisions. Type 9s build consensus. The catch: your greatest strength becomes your blind spot when overused."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do natural leadership approaches backfire?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every leadership strength tips into liability when overused. Decisiveness becomes steamrolling. Empathy slides into people-pleasing. Vision detaches from execution. Analysis stalls action. Harmony enables dysfunction. The Enneagram reveals which conversations you're ducking and why."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the three leadership centers in the Enneagram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Body/Gut Center (Types 8, 9, 1) leads through action and instinct with a blind spot of anger-driven decisions. Heart/Feeling Center (Types 2, 3, 4) leads through connection and influence with a blind spot of performing instead of being real. Head/Thinking Center (Types 5, 6, 7) leads through strategy and planning with a blind spot of overthinking while opportunities pass."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is each Enneagram type's fatal leadership flaw?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 1: Perfectionism that demoralizes teams. Type 2: Burnout from overgiving. Type 3: Sacrificing people for results. Type 4: Emotional turbulence that destabilizes. Type 5: Detachment leaving teams unsupported. Type 6: Anxiety that creates instability. Type 7: Avoiding necessary negativity. Type 8: Intimidation creating compliance instead of commitment. Type 9: Avoiding conflicts that fester."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 

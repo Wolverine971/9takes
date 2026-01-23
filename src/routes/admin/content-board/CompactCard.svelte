@@ -18,17 +18,17 @@
 		ondragend
 	}: Props = $props();
 
-	// Enneagram type colors
+	// Enneagram type colors (dark theme)
 	const enneagramColors: Record<number | string, string> = {
-		1: 'bg-slate-100 text-slate-700',
-		2: 'bg-rose-100 text-rose-700',
-		3: 'bg-amber-100 text-amber-700',
-		4: 'bg-purple-100 text-purple-700',
-		5: 'bg-cyan-100 text-cyan-700',
-		6: 'bg-blue-100 text-blue-700',
-		7: 'bg-orange-100 text-orange-700',
-		8: 'bg-red-100 text-red-700',
-		9: 'bg-green-100 text-green-700'
+		1: 'type-1',
+		2: 'type-2',
+		3: 'type-3',
+		4: 'type-4',
+		5: 'type-5',
+		6: 'type-6',
+		7: 'type-7',
+		8: 'type-8',
+		9: 'type-9'
 	};
 
 	// Get display name (person name or title)
@@ -169,9 +169,7 @@
 		<!-- Row 2: Enneagram Badge + Category -->
 		<div class="row-2">
 			{#if blog.enneagram}
-				<span
-					class="enneagram-badge {enneagramColors[blog.enneagram] || 'bg-gray-100 text-gray-700'}"
-				>
+				<span class="enneagram-badge {enneagramColors[blog.enneagram] || ''}">
 					Type {blog.enneagram}
 				</span>
 			{/if}
@@ -196,21 +194,21 @@
 	.compact-card {
 		display: flex;
 		align-items: stretch;
-		background: white;
+		background: var(--void-elevated);
 		border-radius: 6px;
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-		border: 1px solid #e5e7eb;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+		border: 1px solid var(--void-highlight);
 		cursor: pointer;
 		transition: all 0.15s ease;
 		overflow: hidden;
 
 		&:hover {
-			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-			border-color: #d1d5db;
+			box-shadow: var(--glow-sm);
+			border-color: var(--shadow-monarch-glow);
 		}
 
 		&:focus-visible {
-			outline: 2px solid #3b82f6;
+			outline: 2px solid var(--shadow-monarch);
 			outline-offset: 2px;
 		}
 
@@ -222,6 +220,15 @@
 		&.cursor-grabbing {
 			cursor: grabbing;
 		}
+
+		@media (max-width: 768px) {
+			border-radius: 8px;
+
+			&:active {
+				background: var(--shadow-monarch-subtle);
+				border-color: var(--shadow-monarch);
+			}
+		}
 	}
 
 	.drag-handle {
@@ -230,8 +237,8 @@
 		justify-content: center;
 		width: 16px;
 		flex-shrink: 0;
-		background: #f9fafb;
-		color: #d1d5db;
+		background: var(--void-deep);
+		color: var(--text-muted);
 		cursor: grab;
 		opacity: 0;
 		transition: opacity 0.15s ease;
@@ -242,7 +249,11 @@
 
 		&:active {
 			cursor: grabbing;
-			color: #9ca3af;
+			color: var(--text-secondary);
+		}
+
+		@media (max-width: 768px) {
+			display: none;
 		}
 	}
 
@@ -253,6 +264,11 @@
 		display: flex;
 		flex-direction: column;
 		gap: 4px;
+
+		@media (max-width: 768px) {
+			padding: 10px 12px;
+			gap: 6px;
+		}
 	}
 
 	.row-1 {
@@ -267,10 +283,10 @@
 		height: 6px;
 		border-radius: 50%;
 		flex-shrink: 0;
-		background: #fbbf24;
+		background: var(--warning);
 
 		&.published {
-			background: #22c55e;
+			background: var(--success);
 		}
 	}
 
@@ -278,23 +294,37 @@
 		flex: 1;
 		font-size: 11px;
 		font-weight: 600;
-		color: #1f2937;
+		color: var(--text-primary);
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		line-height: 1.3;
+
+		@media (max-width: 768px) {
+			font-size: 14px;
+		}
 	}
 
 	.external-link {
 		flex-shrink: 0;
-		color: #9ca3af;
+		color: var(--text-muted);
 		padding: 2px;
 		border-radius: 3px;
 		transition: all 0.15s ease;
 
 		&:hover {
-			color: #3b82f6;
-			background: #eff6ff;
+			color: var(--shadow-monarch-light);
+			background: var(--shadow-monarch-subtle);
+		}
+
+		@media (max-width: 768px) {
+			padding: 6px;
+			margin: -4px;
+
+			svg {
+				width: 16px;
+				height: 16px;
+			}
 		}
 	}
 
@@ -303,6 +333,10 @@
 		align-items: center;
 		gap: 4px;
 		flex-wrap: wrap;
+
+		@media (max-width: 768px) {
+			gap: 6px;
+		}
 	}
 
 	.enneagram-badge {
@@ -313,6 +347,52 @@
 		font-size: 9px;
 		font-weight: 600;
 		line-height: 1.4;
+		background: var(--void-highlight);
+		color: var(--text-secondary);
+
+		@media (max-width: 768px) {
+			padding: 3px 8px;
+			font-size: 11px;
+			border-radius: 4px;
+		}
+	}
+
+	/* Type-specific colors */
+	.enneagram-badge.type-1 {
+		background: rgba(59, 130, 246, 0.2);
+		color: #60a5fa;
+	}
+	.enneagram-badge.type-2 {
+		background: rgba(236, 72, 153, 0.2);
+		color: #f472b6;
+	}
+	.enneagram-badge.type-3 {
+		background: rgba(245, 158, 11, 0.2);
+		color: #fbbf24;
+	}
+	.enneagram-badge.type-4 {
+		background: rgba(139, 92, 246, 0.2);
+		color: #a78bfa;
+	}
+	.enneagram-badge.type-5 {
+		background: rgba(6, 182, 212, 0.2);
+		color: #22d3ee;
+	}
+	.enneagram-badge.type-6 {
+		background: rgba(34, 197, 94, 0.2);
+		color: #4ade80;
+	}
+	.enneagram-badge.type-7 {
+		background: rgba(234, 179, 8, 0.2);
+		color: #facc15;
+	}
+	.enneagram-badge.type-8 {
+		background: rgba(239, 68, 68, 0.2);
+		color: #f87171;
+	}
+	.enneagram-badge.type-9 {
+		background: rgba(16, 185, 129, 0.2);
+		color: #34d399;
 	}
 
 	.category-tag {
@@ -322,9 +402,15 @@
 		border-radius: 3px;
 		font-size: 9px;
 		font-weight: 500;
-		background: #f3f4f6;
-		color: #6b7280;
+		background: var(--void-highlight);
+		color: var(--text-secondary);
 		line-height: 1.4;
+
+		@media (max-width: 768px) {
+			padding: 3px 8px;
+			font-size: 11px;
+			border-radius: 4px;
+		}
 	}
 
 	.row-3 {
@@ -332,10 +418,16 @@
 		align-items: center;
 		gap: 6px;
 		font-size: 9px;
-		color: #9ca3af;
-		border-top: 1px solid #f3f4f6;
+		color: var(--text-muted);
+		border-top: 1px solid var(--void-highlight);
 		padding-top: 4px;
 		margin-top: 2px;
+
+		@media (max-width: 768px) {
+			font-size: 12px;
+			padding-top: 6px;
+			margin-top: 4px;
+		}
 	}
 
 	.date {
@@ -345,10 +437,10 @@
 	.status-text {
 		margin-left: auto;
 		font-weight: 500;
-		color: #d97706;
+		color: var(--warning);
 
 		&.published {
-			color: #16a34a;
+			color: var(--success-text);
 		}
 	}
 </style>

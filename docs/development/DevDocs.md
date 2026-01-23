@@ -18,12 +18,19 @@ cwebp -sns 70 -f 50 -size 20000 "Alix-Earle.webp" -o "./s-Alix-Earle.webp"
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->
 
-act like a normal person who is reading this article and tell me what i missed or what i should expand on Amber-Heard read this and put your comments as a comment at the bottom of the article
+Cristiano-Ronaldo
+Andrew-Tate
+Paul-Rudd
+Jack-Black
 
-src/blog/enneagram/shadow-work-by-enneagram-type.md
-src/blog/guides/the-crash-course-odd-emotions-that-we-missed-in-kindergarten.md
+I want to know about his relationship with gweneth paltrow and what she said during filming shallow hal.
 
-ok so i added some comments at the bottom of the article relationship-communication-guide, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better
+I want to know about his relationship with kevin heart and what their dynamic was like when filming Jumanji.
 
-I want you to edit this blog on src/blog/people/drafts/Doja-Cat.md and use the content-editor agent.
-https://9takes.com/enneagram-corner/mental-health/enneagram-trauma-response-guide
+I want to know what his relationship was like with paul rudd on anaconda
+
+Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Tony-Robbins blog, read it and put your comments as a comment at the bottom of the article
+
+Ok so i added some comments at the bottom of the article Tony-Robbins, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+
+I want you to edit this blog on Alex-Hormozi and use the content-editor agent.
