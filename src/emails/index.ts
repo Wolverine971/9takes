@@ -2,6 +2,7 @@
 import { EmailHead } from './EmailHead';
 
 const from = '9takes Admins';
+const currentYear = new Date().getFullYear();
 
 export const joinEmail = () => {
 	return `<!DOCTYPE html>
@@ -87,7 +88,7 @@ export const joinEmail = () => {
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                       <td style="color: #65676b; font-size: 14px; line-height: 1.5;">
-                        <p style="margin: 0;">&copy; 2025 9takes. All rights reserved.</p>
+                        <p style="margin: 0;">&copy; ${currentYear} 9takes. All rights reserved.</p>
                         <p style="margin: 10px 0 0;">
                           Questions? Contact us at <a href="mailto:usersup@9takes.com" style="color: #6c5ce7; text-decoration: none;">usersup@9takes.com</a>
                         </p>
@@ -191,7 +192,7 @@ export const joinEmail2 = () => {
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                       <td style="color: #65676b; font-size: 14px; line-height: 1.5;">
-                        <p style="margin: 0;">&copy; 2025 9takes. All rights reserved.</p>
+                        <p style="margin: 0;">&copy; ${currentYear} 9takes. All rights reserved.</p>
                       </td>
                     </tr>
                   </table>
@@ -295,7 +296,7 @@ export const personSuggestionEmail = () => {
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                       <td style="color: #65676b; font-size: 14px; line-height: 1.5;">
-                        <p style="margin: 0;">&copy; 2025 9takes. All rights reserved.</p>
+                        <p style="margin: 0;">&copy; ${currentYear} 9takes. All rights reserved.</p>
                       </td>
                     </tr>
                   </table>
@@ -378,7 +379,7 @@ export const emailTemplate = (subject, header, body) => {
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                       <td style="color: #65676b; font-size: 14px; line-height: 1.5;">
-                        <p style="margin: 0;">&copy; 2025 9takes. All rights reserved.</p>
+                        <p style="margin: 0;">&copy; ${currentYear} 9takes. All rights reserved.</p>
                       </td>
                     </tr>
                   </table>
@@ -453,7 +454,7 @@ export const signupEmail = () => {
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                       <td style="color: #65676b; font-size: 14px; line-height: 1.5; text-align: center;">
-                        <p style="margin: 0;">&copy; 2025 9takes. All rights reserved.</p>
+                        <p style="margin: 0;">&copy; ${currentYear} 9takes. All rights reserved.</p>
                       </td>
                     </tr>
                   </table>
@@ -532,7 +533,7 @@ export const forgotPass = (link) => {
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                       <td style="color: #65676b; font-size: 14px; line-height: 1.5; text-align: center;">
-                        <p style="margin: 0;">&copy; 2025 9takes. All rights reserved.</p>
+                        <p style="margin: 0;">&copy; ${currentYear} 9takes. All rights reserved.</p>
                         <p style="margin: 10px 0 0;">
                           For security, this link will expire in 24 hours.
                         </p>

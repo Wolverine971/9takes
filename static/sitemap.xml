@@ -966,7 +966,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/relationship-communication-guide</loc>
-    <lastmod>2025-02-26T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-23T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1092,7 +1092,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-trauma-response-guide</loc>
-    <lastmod>2025-09-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-23T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1157,15 +1157,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Robert-Oppenheimer.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Amber-Heard</loc>
-    <lastmod>2024-07-10T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Amber-Heard.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1949,15 +1940,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/6s/Tom-Hanks.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Bad-Bunny</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Bad-Bunny.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2933,6 +2915,24 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Amber-Heard</loc>
+    <lastmod>2026-01-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Amber-Heard.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Bad-Bunny</loc>
+    <lastmod>2026-01-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Bad-Bunny.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/questions</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -3095,12 +3095,6 @@
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/who-are-you-voting-for-next-election</loc>
-    <lastmod>2023-09-24T01:29:38.795Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
     <loc>https://9takes.com/questions/whats-best-advice-youve-ever-received-business</loc>
     <lastmod>2024-06-14T22:38:37.282Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -3109,6 +3103,12 @@
 <url>
     <loc>https://9takes.com/questions/what-are-you-afraid-to-tell-to-your-partner</loc>
     <lastmod>2024-03-22T05:26:40.426Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/who-are-you-voting-for-next-election</loc>
+    <lastmod>2023-09-24T01:29:38.795Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>

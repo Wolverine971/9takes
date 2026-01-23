@@ -2,6 +2,7 @@
 import { EmailHead } from './EmailHead';
 
 const from = '9takes Team';
+const currentYear = new Date().getFullYear();
 export const welcomeEmail = (name: string) => {
 	return `<!DOCTYPE html>
     <html>
@@ -120,6 +121,14 @@ export const welcomeEmail = (name: string) => {
                           </td>
                         </tr>
                       </table>
+                    </div>
+
+                    <!-- Footer -->
+                    <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e9ecef; text-align: center;">
+                      <p style="font-size: 13px; color: #6c757d; margin: 0;">&copy; ${currentYear} 9takes. All rights reserved.</p>
+                      <p style="font-size: 13px; color: #6c757d; margin: 10px 0 0;">
+                        Questions? Contact us at <a href="mailto:usersup@9takes.com" style="color: #6c5ce7; text-decoration: none;">usersup@9takes.com</a>
+                      </p>
                     </div>
                   </div>
                 </div>

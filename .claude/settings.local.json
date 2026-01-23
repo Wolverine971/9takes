@@ -96,11 +96,19 @@
 			"WebFetch(domain:9takes.com)",
 			"WebFetch(domain:prices.appleinsider.com)",
 			"WebFetch(domain:www.bestbuy.com)",
-			"WebFetch(domain:www.costco.com)"
+			"WebFetch(domain:www.costco.com)",
+			"Skill(web-research)",
+			"Bash(brew list:*)",
+			"Bash(ls:*)",
+			"Bash(pnpm gen:types:*)",
+			"Bash(pnpm exec supabase:*)",
+			"Bash(pnpm run gen:types:*)",
+			"Bash(readlink:*)"
 		],
 		"deny": [],
 		"ask": [],
 		"defaultMode": "acceptEdits"
 	},
+	"enableAllProjectMcpServers": true,
 	"enabledMcpjsonServers": ["supabase"]
 }

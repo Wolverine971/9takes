@@ -15,9 +15,9 @@ async function generateTypes() {
 	console.log('🔧 Generating Supabase database types...');
 
 	try {
-		// Generate types with Supabase CLI
-		const command =
-			'npx supabase gen types typescript --project-id "nhjjzcsnmyotyhykbajc" --schema public';
+		// Generate types with Supabase CLI (use direct path for reliability with pnpm)
+		const supabaseBin = path.join(__dirname, '..', 'node_modules', 'supabase', 'bin', 'supabase');
+		const command = `"${supabaseBin}" gen types typescript --project-id "nhjjzcsnmyotyhykbajc" --schema public`;
 		const { stdout, stderr } = await execAsync(command);
 
 		if (stderr && !stderr.includes('warning')) {
@@ -68,7 +68,7 @@ async function generateTypes() {
 			error.message.includes('is not recognized')
 		) {
 			console.error('\n⚠️  Make sure Supabase CLI is installed:');
-			console.error('    npm install -g supabase');
+			console.error('    pnpm add -D supabase');
 		}
 
 		process.exit(1);
