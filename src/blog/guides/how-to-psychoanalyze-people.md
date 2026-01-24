@@ -4,7 +4,7 @@ description: 'Learn to decode what truly drives people through practical psychol
 author: 'DJ Wayne'
 date: '2025-09-08'
 loc: 'https://9takes.com/how-to-guides/how-to-psychoanalyze-people'
-lastmod: '2025-09-08'
+lastmod: '2026-01-24'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -21,8 +21,7 @@ Detective in trench coat holding oversized magnifying glass examining busy city 
 -->
 
 <script>
-  import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+	import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">My brother and I grew up in the same house, with the same parents, eating the same food. Yet we might as well have been raised on different planets.</p>
@@ -31,11 +30,11 @@ He was the rule-breaker. I was the rule-follower. He pushed every boundary. I co
 
 But here's what drove me crazy: **He never seemed to care about the consequences.** While I was paralyzed by the fear of getting in trouble, he'd look at punishment like it was the price of admission for having fun.
 
-It was like watching Thor and Loki, Cain and Abel, Esau and Jacob – these archetypal brothers playing out an ancient script. And I couldn't understand why we were so fundamentally different.
+That frustration became an obsession. Why do people do what they do? What drives someone to make choices that seem completely irrational to everyone around them?
 
-**That frustration – of not understanding someone who should have been just like me – became an obsession.** Why do people do what they do? What drives someone to make choices that seem completely irrational? How can two people see the same situation and come to opposite conclusions?
+After years of studying this question, I found an answer. This guide uses the **[Enneagram personality system](/enneagram-corner/enneagram-tldr)**, a framework that maps 9 distinct psychological patterns, to decode what truly drives people. Forget surface-level "body language tricks." We're going deeper: the core fears and desires that run someone's entire operating system.
 
-This guide isn't academic theory. It's the practical framework I developed over years of trying to understand the people around me (and honestly, trying to understand myself). It's about reading the patterns that reveal what actually drives someone – beyond what they say, beyond what they show, down to the core motivations that run their entire operating system.
+Here's what you'll get: A 4-step framework for reading anyone. Practical techniques for gathering the information you need. And what to do when you get it wrong (because you will).
 
 <article class="section-content">
 
@@ -57,7 +56,7 @@ Think about it:
 - The friend who always cancels plans isn't necessarily flaky – they might be protecting limited emotional energy
 - The partner who needs constant reassurance isn't necessarily needy – they might be fighting an inner critic you can't hear
 
-**We're all walking around in our own psychological operating systems, assuming everyone else is using the same one.** It's like a Mac user trying to right-click on a PC, then getting frustrated when it doesn't work.
+**We're all walking around in our own psychological operating systems, assuming everyone else is using the same one.** It's like an iPhone user handing their phone to an Android user and wondering why they can't figure out basic gestures.
 
 The cost of this misunderstanding is massive:
 
@@ -68,46 +67,24 @@ The cost of this misunderstanding is massive:
 
 But here's the breakthrough: **People are remarkably predictable once you understand their core programming.**
 
-</article>
+The goal here isn't manipulation. It's connection. When you understand what drives someone, you stop taking their behavior personally. You start speaking their language instead of wondering why they don't understand yours.
 
-<article class="section-content">
-
-<h2>The Difference Between Judging and Understanding</h2>
-
-Before we go any further, let's be clear about what this is and isn't.
-
-**This is NOT about:**
-
-- Putting people in boxes
-- Manipulating or controlling others
-- Feeling superior because you "figured someone out"
-- Reducing complex humans to simple categories
-
-**This IS about:**
-
-- Building genuine empathy
-- Improving communication
-- Reducing unnecessary conflict
-- Understanding yourself better
-- Creating deeper connections
-
-When you understand what drives someone, you stop taking their behavior personally. You stop expecting them to act like you would. You start speaking their language instead of wondering why they don't understand yours.
-
-It's the difference between saying "Why are you being so difficult?" and "Oh, you need certainty before you can move forward. Let me give you more information."
+It's the difference between "Why are you being so difficult?" and "Oh, you need certainty before you can move forward. Let me give you more information."
 
 </article>
+
 
 <article class="section-content">
 
 <h2>The 4-Step Framework for Reading Anyone</h2>
 
-After years of observation and pattern recognition, I've distilled the process down to four essential questions. Answer these, and you'll understand what drives virtually anyone.
+Four questions. Answer these about anyone, and you'll understand what drives them.
 
 ### Step 1: What Image Are They Trying to Project?
 
-**The Question: "What does this person want me to think and feel about them?"**
+**The Question: "What does this person want me to think about them?"**
 
-Everyone – and I mean everyone – is managing an image. We all have a story we're telling about ourselves, a character we're playing in the movie of our life.
+Everyone is managing an image. No exceptions. We all have a story we're telling about ourselves, a character we're playing in the movie of our life.
 
 **What to observe:**
 
@@ -119,7 +96,10 @@ Everyone – and I mean everyone – is managing an image. We all have a story w
 - What criticism devastates them?
 
 **Real-world example:**
-I knew someone who constantly talked about how busy they were. Every conversation started with their overwhelming schedule. At first, I thought they were complaining. Then I realized: being busy was their identity. They wanted to be seen as important, needed, indispensable. The "busy" story was really saying "I matter."
+
+I knew someone who constantly talked about how busy they were. Every conversation started with their overwhelming schedule.
+
+At first, I thought they were complaining. Then I realized: being busy was their identity. They wanted to be seen as important, needed, indispensable. The "busy" story was really saying "I matter."
 
 **Common image patterns:**
 
@@ -140,7 +120,7 @@ Art gallery wall displaying nine different theatrical masks (comedy, tragedy, ne
 
 **The Question: "What are they ultimately trying to achieve or become?"**
 
-This goes deeper than the image. This is about their core life pursuit – what they'd want even if no one was watching.
+This goes deeper than image. This is about their core life pursuit, what they'd want even if no one was watching.
 
 **What to observe:**
 
@@ -151,18 +131,8 @@ This goes deeper than the image. This is about their core life pursuit – what 
 - How do they define "a life well-lived"?
 
 **Real-world example:**
-My brother, the rule-breaker? His core pursuit was autonomy. Every rule broken was a declaration of independence. He wasn't trying to be bad – he was trying to be free. Once I understood this, his choices made perfect sense.
 
-**Common life pursuits:**
-
-- Security and stability
-- Love and connection
-- Recognition and achievement
-- Authenticity and depth
-- Understanding and competence
-- Adventure and experience
-- Justice and control
-- Peace and comfort
+My brother, the rule-breaker? His core pursuit was autonomy. Every rule broken was a declaration of independence. He wasn't trying to be bad. He was trying to be free. Once I understood this, his choices made perfect sense.
 
 When you identify someone's core pursuit, you understand what they're moving toward. This is their **north star**.
 
@@ -170,7 +140,7 @@ When you identify someone's core pursuit, you understand what they're moving tow
 
 **The Question: "What is their disaster scenario?"**
 
-Fear is the most powerful motivator. More than desire, more than logic, fear drives behavior. And everyone has a core fear that colors everything they do.
+Fear is the most powerful motivator. More than desire. More than logic. Everyone has a core fear that colors everything they do.
 
 **What to observe:**
 
@@ -181,19 +151,10 @@ Fear is the most powerful motivator. More than desire, more than logic, fear dri
 - What loss would devastate them?
 
 **Real-world example:**
-I once worked with someone who documented everything obsessively. Every email, every conversation, every decision. It seemed paranoid until I understood their core fear: being blamed unfairly. They'd been scapegoated before, and now they lived in constant defense mode.
 
-**Common core fears:**
+I once worked with someone who documented everything obsessively. Every email, every conversation, every decision. It seemed paranoid.
 
-- Being corrupt or defective
-- Being unloved or unwanted
-- Being worthless or without value
-- Being without identity or significance
-- Being incompetent or invaded
-- Being without support or guidance
-- Being deprived or trapped in pain
-- Being controlled or vulnerable
-- Being lost or separated
+Then I understood their core fear: being blamed unfairly. They'd been scapegoated before, and now they lived in constant defense mode. The behavior that seemed excessive was actually logical.
 
 When you identify someone's core fear, you understand what they're running from. This is their **shadow**.
 
@@ -212,25 +173,102 @@ Under pressure, people default to predictable patterns. These coping mechanisms 
 - When do they seem most unlike themselves?
 
 **Real-world example:**
-My partner used to disappear emotionally during conflict. I thought they didn't care. Then I realized: withdrawal was their coping mechanism. When overwhelmed, they needed space to process. Once I stopped chasing and started giving space, our conflicts transformed.
 
-**Common coping patterns:**
+My partner used to disappear emotionally during conflict. I thought they didn't care.
 
-- Perfecting and correcting (control through standards)
-- Helping and rescuing (control through indispensability)
-- Achieving and producing (control through success)
-- Withdrawing and introspecting (control through distance)
-- Analyzing and understanding (control through knowledge)
-- Worrying and preparing (control through vigilance)
-- Reframing and escaping (control through positivity)
-- Confronting and dominating (control through strength)
-- Accommodating and numbing (control through harmony)
+Wrong. Withdrawal was their coping mechanism. When overwhelmed, they needed space to process. Once I stopped chasing and started giving space, our conflicts transformed completely.
 
 When you understand someone's coping pattern, you know how to create safety for them.
 
-<!-- IMAGE PROMPT - Mirror Self-Reflection:
-Person standing at vintage bathroom mirror with multiple sticky notes around mirror frame, notes showing different observations like "talks fast when nervous", "crosses arms when defensive", "smiles when uncomfortable", morning light through frosted window, half face visible in mirror showing contemplative expression, other half turned toward camera, intimate portrait photography, soft natural lighting --ar 16:9 --v 6 --style raw
--->
+</article>
+
+<article class="section-content">
+
+<h2>How to Actually Gather This Information</h2>
+
+The framework tells you WHAT to figure out. Here's HOW.
+
+### Observable Signals (What to Watch)
+
+You've heard the stat: words account for only about 7% of communication. The rest is tone and body language.
+
+But forget the pop-psychology "crossed arms means defensive" nonsense. Context matters. Someone might cross their arms because they're cold, not closed off.
+
+Instead, watch for **patterns and changes**:
+
+**Baseline behavior:** How does this person normally act? You need a baseline before you can spot deviations.
+
+**Energy shifts:** When do they light up? When do they shut down? What topics make them lean forward vs. pull back?
+
+**Feet and orientation:** Former FBI agent Joe Navarro points out that feet reveal truth. Someone can fake a friendly face while their feet point toward the exit.
+
+**Tone changes:** Does their voice speed up when they're nervous? Get quieter when they're upset? These patterns are more reliable than any single gesture.
+
+**What they avoid:** The topics they steer away from often reveal more than what they talk about freely.
+
+### Questions That Reveal (What to Ask)
+
+You can't just ask "What's your disaster scenario?" But you can get there indirectly:
+
+**For core pursuit:** "What would you do if money wasn't an issue?" or "What's a day that would feel completely wasted to you?"
+
+**For core fear:** "What's the worst feedback you ever received?" (watch their reaction) or "What keeps you up at night?"
+
+**For coping patterns:** "What do you do when you're stressed?" or "How do you recharge?"
+
+**For image:** "How would your friends describe you?" vs. "How would your enemies describe you?"
+
+The key is asking, then **shutting up and observing.** Don't fill silence. Let them reveal themselves.
+
+### Time and Patterns (What to Track)
+
+Real reading happens over multiple interactions:
+
+- **First meeting:** Form initial hypotheses only
+- **Under pressure:** Watch how they respond to stress – this reveals coping mechanisms
+- **Repeated situations:** Notice what patterns emerge across similar contexts
+- **Contradictions:** When their words and actions don't match, pay attention to the actions
+
+Keep mental notes. You're looking for patterns, not single data points.
+
+</article>
+
+<article class="section-content">
+
+<h2>What If You're Wrong?</h2>
+
+You will misread people. Count on it. Here's how to handle it.
+
+### Why We Get It Wrong
+
+**Confirmation bias:** Once you form a theory about someone, you unconsciously filter for evidence that supports it and ignore what contradicts it.
+
+**Projection:** We see our own patterns in others. If you fear rejection, you might "see" rejection fears everywhere you look.
+
+**Cultural blindness:** Different cultures express emotions differently. Eye contact means respect in some cultures, disrespect in others.
+
+**The Fundamental Attribution Error:** We attribute others' behavior to their character ("they're rude") while attributing our own to circumstances ("I was having a bad day").
+
+### How to Check Your Assumptions
+
+**Seek disconfirming evidence:** Actively look for behaviors that contradict your theory. If you think someone is an "achiever type," look for times they chose relationships over accomplishment.
+
+**Hold theories loosely:** Think "I have a hypothesis," not "I've figured them out." Stay curious.
+
+**Ask yourself:** "What if I'm completely wrong? What would that look like?" If you can't answer this, you're too attached to your theory.
+
+**Test directly:** Sometimes you can just ask. "It seems like you value having all the information before deciding. Is that accurate?" Let them correct you.
+
+### Recovering From Misreads
+
+When you realize you've misjudged someone:
+
+- **Don't double down.** Your ego wants to protect your "insight." Resist.
+- **Get curious again.** "I thought I understood, but I was missing something."
+- **Adjust your approach.** The goal is connection, not being right.
+
+The best people-readers are wrong often. They just update faster than everyone else.
+
 <!-- looking in the mirror -->
 
 <div class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
@@ -253,13 +291,15 @@ Here's the uncomfortable truth: **We're usually the last person to understand ou
 
 We're too close to our own patterns. Our defenses are too strong. Our stories about ourselves are too rehearsed.
 
-But the same framework applies. In fact, it might be even more important to understand yourself than others. Because until you decode your own programming, you'll keep projecting it onto everyone else.
+But the same framework applies. And honestly, it might be even more important to understand yourself than others. Because until you decode your own programming, you'll keep projecting it onto everyone else.
 
 ### Step 1: Your Image Management
 
 **Ask yourself: "What do I want people to think and feel about me?"**
 
-This is hard because we want to believe we're authentic, that we don't manage our image. But everyone does. The question is whether you're conscious of it.
+This is hard because we want to believe we're authentic, that we don't manage our image. But everyone does.
+
+The only question is whether you're conscious of it.
 
 **Self-observation exercises:**
 
@@ -269,7 +309,10 @@ This is hard because we want to believe we're authentic, that we don't manage ou
 - Ask three trusted friends: "What impression do I try to give?"
 
 **My personal revelation:**
-I wanted people to see me as insightful and understanding. Every conversation was a performance of emotional intelligence. I wasn't actually listening – I was waiting for my turn to say something profound. Recognizing this changed everything.
+
+I wanted people to see me as insightful and understanding. Every conversation was a performance of emotional intelligence. I wasn't actually listening. I was waiting for my turn to say something profound.
+
+Recognizing this changed everything.
 
 ### Step 2: Your Core Pursuit
 
@@ -295,7 +338,9 @@ Strip away what you think you should want. Forget what sounds good. What actuall
 
 **Ask yourself: "What is my disaster scenario?"**
 
-This is the hardest one because we spend our lives avoiding looking at it directly. But your core fear is running the show whether you acknowledge it or not.
+This is the hardest one. We spend our lives avoiding looking at our core fear directly.
+
+But your core fear is running the show whether you acknowledge it or not.
 
 **Self-observation exercises:**
 
@@ -305,6 +350,7 @@ This is the hardest one because we spend our lives avoiding looking at it direct
 - Complete: "The worst thing that could happen to me is..."
 
 **The paradox:**
+
 Often, our behavior creates exactly what we fear:
 
 - Fear of abandonment → clingy behavior → pushing people away
@@ -326,15 +372,16 @@ Your coping mechanisms are so automatic you probably don't even notice them. But
 - Ask: "When do I feel most/least like myself?"
 
 **The breakthrough moment:**
-When you can observe your coping mechanism in real-time without judgment – "Oh, I'm withdrawing because I feel overwhelmed" – you create space for choice.
+
+When you can observe your coping mechanism in real-time without judgment, you create space for choice. "Oh, I'm withdrawing because I feel overwhelmed." That awareness is the gap between reaction and response.
 
 </article>
 
 <article class="section-content">
 
-<h2>Advanced Applications: Using Your New Superpower</h2>
+<h2>Applying What You've Learned</h2>
 
-Once you can read people (including yourself), everything changes. But with great power comes great responsibility.
+Once you can read people (including yourself), your relationships transform. Here's how to put this into practice:
 
 ### In Relationships
 
@@ -374,145 +421,86 @@ The rule-breaker isn't defying you – they're asserting independence. The peopl
 
 </article>
 
-<article class="section-content">
-
-<h2>The Ethics of Reading People</h2>
-
-This knowledge is powerful. Used wrongly, it's manipulation. Used rightly, it's compassion.
-
-### The Golden Rules
-
-1. **Use insight for connection, not control**
-   - Wrong: "I know their fear, so I can make them do what I want"
-   - Right: "I understand their fear, so I can create safety"
-
-2. **Respect the stories people tell**
-   - Wrong: "I see through your facade"
-   - Right: "I understand why this image matters to you"
-
-3. **Stay curious, not certain**
-   - Wrong: "I've figured you out completely"
-   - Right: "I have a hypothesis I'm testing"
-
-4. **Honor privacy and boundaries**
-   - Wrong: "Let me tell you about yourself"
-   - Right: "I'm here if you want to explore this"
-
-### When Reading People Goes Wrong
-
-- **The Projection Trap:** Seeing your own patterns in everyone
-- **The Oversimplification Error:** Reducing complex people to single motivations
-- **The Cultural Blindness:** Ignoring context and cultural factors
-- **The Superiority Complex:** Feeling above others because you "understand" them
-
-Remember: **Understanding someone doesn't mean you know everything about them.** People are infinitely complex. These patterns are just maps, not the territory itself.
-
-</article>
 
 <article class="section-content">
 
-<h2>Common Patterns Quick Reference</h2>
+<h2>The 9 Core Patterns (Quick Reference)</h2>
 
-Here's a cheat sheet for quick pattern recognition:
+The Enneagram identifies 9 distinct psychological patterns. Each represents a different combination of image, pursuit, fear, and coping style.
 
-**Want to make accurate reads even faster?** Master [the first impression playbook for each Enneagram type](/enneagram-corner/first-impression-enneagram-playbook) to understand someone's core motivations within minutes of meeting them.
+Use this as a cheat sheet once you've gathered observations. **Want to go deeper?** Master [the first impression playbook for each Enneagram type](/enneagram-corner/first-impression-enneagram-playbook) to identify patterns within minutes of meeting someone.
 
-### The Perfectionist Pattern
+### The Perfectionist (Type 1)
 
 - **Image:** "I'm good and right"
 - **Pursuit:** Perfection and integrity
 - **Fear:** Being corrupt or defective
-- **Coping:** Criticizing and correcting
+- **Coping:** Criticizing and correcting (themselves and others)
+- **Tells:** Strong opinions on the "right way" to do things, visible frustration with sloppiness
 
-### The Helper Pattern
+### The Helper (Type 2)
 
 - **Image:** "I'm helpful and caring"
 - **Pursuit:** Love and appreciation
 - **Fear:** Being unwanted or unneeded
-- **Coping:** Over-giving and martyrdom
+- **Coping:** Over-giving, sometimes to the point of martyrdom
+- **Tells:** Anticipating needs before being asked, difficulty accepting help themselves
 
-### The Achiever Pattern
+### The Achiever (Type 3)
 
 - **Image:** "I'm successful and valuable"
 - **Pursuit:** Achievement and recognition
 - **Fear:** Being worthless or failing
 - **Coping:** Constant productivity and image management
+- **Tells:** Resume-dropping in conversation, pivoting topics to their accomplishments
 
-### The Individualist Pattern
+### The Individualist (Type 4)
 
 - **Image:** "I'm unique and deep"
 - **Pursuit:** Identity and authenticity
 - **Fear:** Being ordinary or without significance
 - **Coping:** Emotional intensity and withdrawal
+- **Tells:** Aesthetic sensitivity, drawn to melancholy, emphasizes how they're different
 
-### The Investigator Pattern
+### The Investigator (Type 5)
 
 - **Image:** "I'm competent and insightful"
 - **Pursuit:** Understanding and competence
 - **Fear:** Being invaded or incompetent
 - **Coping:** Withdrawal and intellectualization
+- **Tells:** Needs time alone to recharge, collects information before acting, dislikes surprises
 
-### The Loyalist Pattern
+### The Loyalist (Type 6)
 
 - **Image:** "I'm responsible and loyal"
 - **Pursuit:** Security and support
 - **Fear:** Being without support or guidance
 - **Coping:** Worry and worst-case planning
+- **Tells:** Asks lots of questions, tests trustworthiness, notices what could go wrong
 
-### The Enthusiast Pattern
+### The Enthusiast (Type 7)
 
 - **Image:** "I'm fun and spontaneous"
 - **Pursuit:** Freedom and satisfaction
 - **Fear:** Being trapped or in pain
-- **Coping:** Reframing and escaping
+- **Coping:** Reframing negatives, keeping options open, escaping constraints
+- **Tells:** Multiple projects going, reframes problems as opportunities, resists commitment
 
-### The Challenger Pattern
+### The Challenger (Type 8)
 
 - **Image:** "I'm strong and in control"
 - **Pursuit:** Autonomy and justice
 - **Fear:** Being controlled or vulnerable
 - **Coping:** Confrontation and denial of weakness
+- **Tells:** Tests people's backbone, protective of the underdog, direct to the point of bluntness
 
-### The Peacemaker Pattern
+### The Peacemaker (Type 9)
 
 - **Image:** "I'm easygoing and agreeable"
 - **Pursuit:** Inner and outer peace
 - **Fear:** Loss and separation
 - **Coping:** Avoidance and numbing
-
-</article>
-
-<article class="section-content">
-
-<h2>Your Practice Plan: 30 Days to Better Understanding</h2>
-
-### Week 1: Observation Without Judgment
-
-- Pick three people to observe
-- Notice their image management
-- No analysis, just observation
-- Journal what you notice
-
-### Week 2: Pattern Recognition
-
-- Identify potential core pursuits
-- Notice fear responses
-- Track coping mechanisms
-- Start seeing patterns
-
-### Week 3: Self-Application
-
-- Apply the framework to yourself
-- Complete all self-observation exercises
-- Notice your own patterns in real-time
-- Practice self-compassion
-
-### Week 4: Integration
-
-- Practice responding to others' fears with safety
-- Speak to people's core pursuits
-- Adjust your approach based on understanding
-- Notice improvement in relationships
+- **Tells:** Goes along with others' preferences, stubborn through passive resistance, merges with partners
 
 </article>
 
@@ -524,33 +512,29 @@ Remember my rule-breaking brother from the beginning? Understanding his pattern 
 
 He wasn't trying to make life difficult. He was pursuing autonomy. Every rule was a cage, every restriction a challenge to his independence. His disaster scenario was being controlled or restricted.
 
-Once I understood this, I stopped taking his rebellion personally. I stopped trying to convince him to follow rules. Instead, I started framing things in terms of choice and freedom: "You can do X, but here's what happens. You can do Y, here's what happens. Your call."
+Once I understood this, I stopped taking his rebellion personally. I stopped trying to convince him to follow rules.
+
+Instead, I started framing things in terms of choice and freedom: "You can do X, but here's what happens. You can do Y, here's what happens. Your call."
 
 **The shift was immediate.** When he felt his autonomy was respected, he stopped needing to rebel. When I stopped expecting him to value rules like I did, I stopped being disappointed.
 
-We're still different. He's still Thor to my Loki (or maybe vice versa). But now I understand the script we're each running. And that understanding transformed frustration into fascination, confusion into compassion.
+We're still different. He's still Thor to my Loki (or maybe vice versa). But now I understand the script we're each running.
+
+That understanding transformed frustration into fascination, confusion into compassion.
 
 **Important Note:** People are more complex than just their main type. Discover how [Enneagram wings add layers of nuance](/enneagram-corner/enneagram-wings-complete-guide) to personality, explaining why two people of the same type can seem so different.
 
 </article>
 
-## The Invitation
+## Try This Now
 
-You've just learned a framework that can transform every relationship in your life. But knowledge without practice is just trivia.
+Knowledge without practice is just trivia.
 
-**Your mission, should you choose to accept it:**
+**This week:** Pick one person who confuses or frustrates you. Write down your hypothesis about their core fear. Then look for 3 pieces of evidence that support it, and 3 that contradict it.
 
-1. **Pick one person who confuses or frustrates you**
-2. **Apply the 4-step framework**
-3. **Look for the fear behind their behavior**
-4. **Respond to the fear, not the behavior**
-5. **Watch what changes**
+One person. One week. Real observation.
 
-Then do the same for yourself. Because the person we most need to understand is the one in the mirror.
-
-**Remember:** Everyone is doing their best with the programming they have. Including you. The goal isn't to fix anyone – it's to understand them. And in that understanding, find connection.
-
-Welcome to your new superpower. Use it wisely.
+Then do the same for yourself. The person we most need to understand is the one in the mirror.
 
 <div style="text-align: center; margin: 40px 0;">
 
@@ -580,7 +564,7 @@ Deep dive into all nine personality patterns
     "name": "DJ Wayne"
   },
   "datePublished": "2025-09-08",
-  "dateModified": "2025-09-08",
+  "dateModified": "2026-01-24",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://9takes.com/how-to-guides/how-to-psychoanalyze-people"
@@ -593,9 +577,9 @@ Deep dive into all nine personality patterns
       "url": "https://9takes.com/brand/aero.png"
     }
   },
-  "keywords": "reading people, understanding personality, psychological observation, motivation patterns, behavior analysis, personality types",
+  "keywords": "reading people, understanding personality, psychological observation, motivation patterns, behavior analysis, Enneagram, personality types",
   "articleSection": "Guides",
-  "wordCount": 4500
+  "wordCount": 4000
 }
 </script>
 
@@ -604,3 +588,4 @@ Deep dive into all nine personality patterns
 <style>
   /* Additional styles can be added here if needed */
 </style>
+

@@ -4,7 +4,7 @@ description: 'Unlock the power of Enneagram types in teamwork. Learn how each ty
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-working-in-teams'
-lastmod: '2025-05-26'
+lastmod: '2026-01-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,47 +19,49 @@ path: src/blog/enneagram/enneagram-types-working-in-teams.md
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<!-- here -->
+<p class="firstLetter">Some teams are crushing it. Others are slow-moving disasters where every meeting feels like a hostage situation.</p>
 
-<p class="firstLetter">Some teams are crushing it, while other teams suck.</p>
+What's the difference? It's not just skills or work ethic. It's how people think, what they fear, and what they need to feel safe enough to do their best work. The Enneagram maps these patterns. Once you see them, you can't unsee them.
 
-Have you ever been on a dysfunctional team? Have you ever worked in a team where everyone is operating on a different wavelength? It is frustrating when communication is broken. The Enneagram can clue us into where communication is broken and why people act the way they do. It can show us why some teams thrive while others are straight-up toxic.
-
-Here, we'll explore how different [Enneagram types](/enneagram-corner/enneagram-tldr) work together in teams and give tips to help make working with them more efficient make them better.
+Here's how each [Enneagram type](/enneagram-corner/enneagram-tldr) shows up in teams, what drives them crazy, and how to actually work with them instead of just tolerating them.
 
 ## How Each Enneagram Type Works in a Team
 
-Discover how each Enneagram type contributes to a team, their goals, thought processes, and behaviors in different roles. Learn how to provide effective feedback to each type, fostering a cohesive and successful team dynamic.
+Each type brings something essential. Each type has blind spots that can derail collaboration. Here's the breakdown: what they want, how they show up in different roles, what to never do with them, and how to give feedback that actually lands.
 
 <section class="section-content">
 
-### Enneagram Type 1 - The Principled Perfectionist: Upholding Standards in Teams
+### Enneagram Type 1: The Perfectionist Who Keeps Standards High
 
-The Perfectionist is a principled, responsible, and improvement-oriented individual. They have a strong sense of right and wrong and strive to maintain high standards in their work and personal life. They are often self-disciplined, reliable, and focused on doing things correctly.
+Principled, responsible, and improvement-oriented. Type 1s have a strong sense of right and wrong and strive to maintain high standards. Self-disciplined, reliable, and focused on doing things correctly.
 
-#### Goals in a team
+#### What they bring to a team
 
-The Perfectionist's primary goal within a team is to ensure that the team follows the rules and processes to achieve the best possible outcome. They believe that by adhering to established guidelines and maintaining high standards, the team can produce excellent results. They will often take on the role of quality control, making sure that the team's output meets or exceeds expectations.
+Quality control. The Perfectionist ensures the team follows processes and maintains standards. They'll catch what others miss and push for excellence when the team is tempted to cut corners.
 
-#### Thoughts when joining a team
+#### As a boss
 
-When joining a team, the Perfectionist will likely think, "What are the rules and processes in place? How can I help ensure they are followed to achieve the best outcome?" They will take time to understand the team's structure, goals, and methods, looking for ways to contribute to the team's success while maintaining their high standards.
+Detail-oriented and demanding. Provides clear instructions and expects them followed precisely. Leads by example. Struggles to delegate because they believe they can do it better. Will critique work that doesn't meet their standards. Don't take it personally. They do this to themselves too.
 
-#### What it is like with an Enneagram 1 boss
+#### As a peer
 
-As a boss, the Perfectionist will be detail-oriented and expect a high standard of work from their employees. They will provide clear instructions and may be critical if the work is not up to their standard. They will often lead by example, demonstrating the level of quality and dedication they expect from their team. They may have difficulty delegating tasks, as they believe they can do it better themselves.
+Reliable and diligent. Goes above and beyond. May critique your work if it doesn't meet their standards. This comes from wanting the best outcome, not personal attack.
 
-#### Working with an Enneagram 1
+#### As a subordinate
 
-As a peer, the Perfectionist will be reliable and diligent, ensuring they complete their work to the best of their ability. They will be committed to the team's goals and will often go above and beyond to ensure the team's success. They may be critical of others' work if it does not meet their high standards, but this criticism often comes from a place of wanting the best for the team.
+Follows processes meticulously. Expects clear direction. Gets frustrated when leadership seems inconsistent or when standards slip.
 
-#### What it is like to manage an Enneagram 1
+#### What NOT to do with a Type 1
 
-As a subordinate, the Perfectionist will follow the rules and processes to the best of their ability and expect clear direction from their superiors. They will be dedicated to their work and will strive to meet or exceed expectations. They may become frustrated if they feel that their superiors are not providing sufficient guidance or if they believe that the team's standards are not being upheld.
+- Don't dismiss their concerns about quality as "nitpicking"
+- Don't cut corners and expect them to cover for you
+- Don't make excuses. They respect accountability.
+- Don't take their criticism personally. They're harder on themselves.
+- Don't spring last-minute changes on them
 
-#### How to give both positive and negative feedback
+#### Giving feedback
 
-When giving feedback to a Perfectionist, it is essential to provide clear, objective feedback on how their work met the standards and how it could be improved. Be specific about the areas they excelled in and where they could improve. Acknowledge their hard work and dedication to the team's goals, but also be honest about any shortcomings or areas for growth. Avoid personal criticism and focus on the work itself, providing constructive suggestions for improvement.
+Be objective and specific. Focus on the work, not the person. "This section needs X" lands better than "You missed the mark." Acknowledge their dedication, then provide concrete improvement suggestions.
 
 [More on Type 1](/enneagram-corner/enneagram-type-1)
 
@@ -67,33 +69,37 @@ When giving feedback to a Perfectionist, it is essential to provide clear, objec
 
 <section class="section-content">
 
-### Enneagram Type 2 - The Supportive Giver: Nurturing Relationships in Teams
+### Enneagram Type 2: The Helper Who Keeps Teams Connected
 
-The Helper is a caring, generous, and people-pleasing individual. They have a strong desire to be loved and appreciated and often prioritize the needs of others over their own. They are empathetic, supportive, and always ready to lend a helping hand.
+Caring, generous, and people-oriented. Type 2s have a strong desire to be appreciated. Empathetic, supportive, and always ready to lend a hand. Sometimes before you even ask.
 
-#### Goals in a team
+#### What they bring to a team
 
-The Helper's primary goal within a team is to support and help others to achieve success. They believe that by focusing on the needs of their teammates and providing assistance wherever possible, they can contribute to the team's overall success. They often take on the role of the team's emotional support system, ensuring that everyone feels valued and supported.
+Relationship glue. The Helper keeps the team connected, remembers birthdays, notices when someone's struggling, and makes sure no one feels left out. They're the team's emotional barometer.
 
-#### Thoughts when joining a team
+#### As a boss
 
-When joining a team, the Helper will likely think, "How can I support and help others to achieve their goals?" They will look for ways to make themselves useful and will be quick to offer assistance to their teammates. They may prioritize building relationships with their colleagues and understanding their individual needs and preferences.
+Supportive and nurturing. Creates positive, collaborative environments. May struggle with tough decisions or critical feedback because they fear being disliked. Watch for over-investing in team morale at the expense of accountability.
 
-#### What it is like with an Enneagram 2 boss
+#### As a peer
 
-As a boss, the Helper will be supportive and nurturing, prioritizing the needs of their team over their own. They will strive to create a positive and collaborative work environment, encouraging open communication and offering guidance and support when needed. They may struggle with making tough decisions or providing critical feedback, as they fear being disliked or hurting others' feelings.
+Friendly, attuned to emotions, will take on extra work to lighten your load. Goes out of their way to make you feel valued. May put others' needs ahead of their own deadlines.
 
-#### Working with an Enneagram 2
+#### As a subordinate
 
-As a peer, the Helper will be friendly and supportive, always offering a helping hand to their colleagues. They will be attuned to the emotional needs of their teammates and will go out of their way to ensure that everyone feels included and valued. They may take on additional responsibilities to lighten the load for others, even if it means putting their own work on the back burner.
+Eager to help, quick to volunteer. Struggles with boundaries and saying no. May overcommit and burn out.
 
-#### What it is like to manage an Enneagram 2
+#### What NOT to do with a Type 2
 
-As a subordinate, the Helper will be eager to help and support their superiors and colleagues to achieve success. They will be quick to take on tasks and responsibilities, even if they are not directly asked to do so. They may struggle with setting boundaries and saying no to requests, as they fear disappointing others or being seen as uncooperative.
+- Don't take their help for granted without acknowledgment
+- Don't give them all the "people work" and none of the visible projects
+- Don't exploit their inability to say no
+- Don't be cold or transactional. They need warmth.
+- Don't assume they're fine just because they're always asking how *you* are
 
-#### How to give both positive and negative feedback
+#### Giving feedback
 
-When giving feedback to a Helper, it is important to recognize their efforts to help and support others. Acknowledge the value they bring to the team through their caring and collaborative nature. However, it is also crucial to provide constructive feedback on how they can improve their own work and set healthy boundaries. Encourage them to prioritize their own needs and goals alongside those of the team, and reassure them that it is okay to say no when necessary. Be gentle but firm in your feedback, focusing on specific behaviors and outcomes rather than personal characteristics.
+Acknowledge their contributions first. They need to feel appreciated. Then be gentle but clear about boundaries: "Your support is valuable, AND your own deliverables matter too." Reassure them that setting limits won't make them less valued.
 
 [More on Type 2](/enneagram-corner/enneagram-type-2)
 
@@ -101,33 +107,37 @@ When giving feedback to a Helper, it is important to recognize their efforts to 
 
 <section class="section-content">
 
-### Enneagram Type 3 - The Ambitious Achiever: Driving Success in Teams
+### Enneagram Type 3: The Achiever Who Drives Results
 
-The Achiever is a success-oriented, ambitious, and adaptable individual. They have a strong desire to be successful and admired by others, often focusing on goals and accomplishments. They are driven, competitive, and excel at presenting themselves and their work in the best possible light.
+Success-oriented, ambitious, and adaptable. Type 3s have a strong desire to be successful and admired. Driven, competitive, and excellent at presenting their work in the best light.
 
-#### Goals in a team
+#### What they bring to a team
 
-The Achiever's primary goal within a team is to achieve the best possible results and be recognized for their achievements. They are motivated by success and will often take on leadership roles or high-profile projects to showcase their skills and abilities. They believe that by consistently delivering excellent results, they can contribute to the team's success and advance their own career.
+Execution and momentum. The Achiever gets things done and makes the team look good. They'll push for results when energy is flagging and know how to hit targets.
 
-#### Thoughts when joining a team
+#### As a boss
 
-When joining a team, the Achiever will likely think, "How can I achieve the best possible results and be recognized for my achievements?" They will assess the team's goals and objectives, looking for opportunities to make a significant impact and demonstrate their value. They may also consider how their contributions will be perceived by others and how they can position themselves for advancement.
+Sets high expectations and a fast pace. Goal-oriented, leads by example. Has little patience for underperformance. May push the team hard and not notice when people are burning out.
 
-#### What it is like with an Enneagram 3 boss
+#### As a peer
 
-As a boss, the Achiever will set high expectations and push their team to achieve the best possible results. They will be goal-oriented and focused on delivering successful outcomes, often leading by example and setting a fast pace. They may be demanding and have little patience for underperformance, expecting their team to match their own high standards and work ethic.
+Competitive and driven. Takes on high-visibility projects. Can be collaborative when it aligns with goals, but may view peers as rivals. May not naturally share credit.
 
-#### Working with an Enneagram 3
+#### As a subordinate
 
-As a peer, the Achiever will be competitive and driven to succeed, but may prioritize their own success over the success of the team. They will likely take on high-visibility projects and strive to outperform their colleagues. While they can be collaborative when it serves their goals, they may also view their peers as potential rivals and be less inclined to share the spotlight.
+Results-focused, eager to prove worth. Seeks challenging assignments and frequent recognition. May need guidance aligning personal ambition with team goals.
 
-#### What it is like to manage an Enneagram 3
+#### What NOT to do with a Type 3
 
-As a subordinate, the Achiever will be focused on achieving the best possible results and may need direction on how to contribute to the team's success. They will be eager to take on challenging tasks and prove their worth, but may need guidance on how to align their personal goals with those of the team. They may also seek frequent feedback and recognition for their accomplishments.
+- Don't give them busywork with no visibility
+- Don't withhold recognition for good work
+- Don't publicly question their competence
+- Don't expect them to be satisfied with "participation" roles
+- Don't assume they're shallow. There's depth under the polish.
 
-#### How to give both positive and negative feedback
+#### Giving feedback
 
-When giving feedback to an Achiever, it is essential to recognize their achievements and provide clear, constructive feedback on how they can improve their work. Acknowledge their successes and the value they bring to the team, as they thrive on recognition and validation. However, also provide specific, actionable feedback on areas where they can develop further, focusing on how these improvements will contribute to their personal and professional growth. Be direct and honest in your feedback, as Achievers appreciate straightforward communication and the opportunity to learn and excel.
+Be direct and specific. They respect straight talk. Frame feedback in terms of how improvements will advance their growth and impact. Acknowledge wins first, then point to specific areas for development.
 
 [More on Type 3](/enneagram-corner/enneagram-type-3)
 
@@ -135,33 +145,37 @@ When giving feedback to an Achiever, it is essential to recognize their achievem
 
 <section class="section-content">
 
-### Enneagram Type 4 - The Individualistic Creative: Bringing Authenticity to Teams
+### Enneagram Type 4: The Individualist Who Brings Authenticity
 
-The Individualist is a sensitive, expressive, and self-aware individual. They have a deep desire to be unique and authentic, often focusing on their own emotions and personal growth. They are creative, introspective, and value the ability to express themselves in their work and relationships.
+Sensitive, expressive, and self-aware. Type 4s have a deep desire to be unique and authentic. Creative, introspective, and needs to put their personal stamp on their work.
 
-#### Goals in a team
+#### What they bring to a team
 
-The Individualist's primary goal within a team is to express their creativity and individuality while contributing to the team's success. They believe that by bringing their unique perspective and creative ideas to the table, they can help the team achieve its goals in a meaningful and innovative way. They seek opportunities to showcase their talents and leave a personal mark on the team's work.
+Originality and emotional depth. The Individualist sees what's missing, names what others won't, and brings creative solutions that break patterns. They're the team's authenticity check.
 
-#### Thoughts when joining a team
+#### As a boss
 
-When joining a team, the Individualist will likely think, "How can I express my creativity and individuality while contributing to the team's success?" They will look for ways to infuse their work with their own style and vision, while also ensuring that their efforts align with the team's objectives. They may be concerned about fitting in with the team culture and maintaining their sense of self.
+Creative and innovative. Encourages original thinking. Values self-expression. May struggle with structure and routine. Can get absorbed in ideas and emotions at the expense of logistics.
 
-#### What it is like with an Enneagram 4 boss
+#### As a peer
 
-As a boss, the Individualist will be creative and innovative, encouraging their team to think outside the box and approach problems from new angles. They will value originality and self-expression, and may create an environment that fosters creativity and individuality. However, they may struggle with maintaining structure and focus in the team's work, as they can become absorbed in their own ideas and emotions.
+Passionate about their contributions. Brings unique perspectives. May become deeply invested in their ideas and sensitive to criticism or rejection. Needs some validation that their contributions matter.
 
-#### Working with an Enneagram 4
+#### As a subordinate
 
-As a peer, the Individualist will express their unique perspective and contribute creative ideas to the team's work. They will be passionate about their contributions and may become deeply invested in seeing their ideas come to fruition. They may also be sensitive to criticism or rejection of their ideas, and may need reassurance and validation from their colleagues.
+Needs creative latitude. Struggles with overly structured or routine work. Appreciates autonomy to put their own spin on things. More vulnerable to self-doubt and may need emotional support during high-pressure periods.
 
-#### What it is like to manage an Enneagram 4
+#### What NOT to do with a Type 4
 
-As a subordinate, the Individualist will need opportunities to express their creativity and may struggle with overly structured or routine work. They will appreciate having some autonomy and the ability to put their own spin on tasks and projects. They may also need more emotional support and understanding from their superiors, as they can be more vulnerable to stress and self-doubt.
+- Don't give them generic, cookie-cutter assignments
+- Don't dismiss their emotional reactions as "drama"
+- Don't reject their ideas without explanation
+- Don't compare them unfavorably to others
+- Don't treat them as interchangeable. They need to feel their uniqueness is valued.
 
-#### How to give both positive and negative feedback
+#### Giving feedback
 
-When giving feedback to an Individualist, it is important to recognize their unique perspective and creative contributions. Acknowledge the value they bring to the team through their originality and self-expression, and encourage them to continue sharing their ideas. However, also provide guidance on how to channel their creativity in a focused and productive way, ensuring that their efforts align with the team's goals. Be sensitive to their emotional needs and provide constructive criticism in a supportive and empathetic manner, focusing on specific behaviors and outcomes rather than personal characteristics.
+Recognize their unique contributions first. Be empathetic but specific: "This approach is creative, and here's how to make it work within our constraints." Focus on behaviors and outcomes, not their identity.
 
 [More on Type 4](/enneagram-corner/enneagram-type-4)
 
@@ -169,33 +183,37 @@ When giving feedback to an Individualist, it is important to recognize their uni
 
 <section class="section-content">
 
-### Enneagram Type 5 - The Analytical Observer: Providing Insight in Teams
+### Enneagram Type 5: The Investigator Who Provides Insight
 
-The Investigator is an analytical, knowledgeable, and independent individual. They have a deep desire to understand the world around them and acquire knowledge, often focusing on developing their expertise in specific areas. They are observant, objective, and value privacy and solitude.
+Analytical, knowledgeable, and independent. Type 5s have a deep desire to understand and develop expertise. Observant, objective, and values privacy and solitude.
 
-#### Goals in a team
+#### What they bring to a team
 
-The Investigator's primary goal within a team is to share their expertise and knowledge while also learning from others. They believe that by exchanging ideas and insights with their teammates, they can contribute to the team's success and expand their own understanding. They seek opportunities to leverage their knowledge and skills to solve complex problems and make informed decisions.
+Deep expertise and clear analysis. The Investigator cuts through confusion with logic, sees patterns others miss, and provides well-researched solutions. They're the team's brain trust.
 
-#### Thoughts when joining a team
+#### As a boss
 
-When joining a team, the Investigator will likely think, "How can I share my expertise and learn from others to contribute to the team's success?" They will assess the team's needs and challenges, considering how their knowledge and skills can be applied to address them effectively. They will also be curious about their teammates' experiences and perspectives, seeing them as potential sources of new insights and learning opportunities.
+Provides deep expertise and guides with thorough understanding. Encourages critical thinking and analysis. May struggle with interpersonal communication. Can get absorbed in ideas and forget to loop people in.
 
-#### What it is like with an Enneagram 5 boss
+#### As a peer
 
-As a boss, the Investigator will provide valuable insights and expertise, guiding their team with a deep understanding of the subject matter. They will encourage their team to think critically and analyze problems from various angles, fostering a culture of learning and innovation. However, they may struggle with communicating effectively with the team, as they can become absorbed in their own thoughts and ideas, and may need to work on their interpersonal skills.
+Analytical and thoughtful. Reliable source of knowledge, willing to share expertise. Prefers task focus over small talk. Maintains some emotional distance.
 
-#### Working with an Enneagram 5
+#### As a subordinate
 
-As a peer, the Investigator will be analytical and thoughtful, offering valuable insights and solutions to problems. They will be a reliable source of knowledge and will be willing to share their expertise with their colleagues. They may be less inclined to engage in small talk or social activities, preferring to focus on the task at hand and maintain a certain level of detachment.
+Independent and capable of autonomous work. Appreciates freedom to explore solutions. May need guidance on communication and collaboration. Comfortable working alone, less so explaining their thinking to others.
 
-#### What it is like to manage an Enneagram 5
+#### What NOT to do with a Type 5
 
-As a subordinate, the Investigator will be knowledgeable and independent, capable of working autonomously and delivering high-quality results. They will appreciate having the freedom to explore ideas and find innovative solutions to problems. However, they may need guidance on how to effectively communicate and collaborate with others, as they can be more comfortable working alone and may struggle with expressing their thoughts and ideas in a clear and concise manner.
+- Don't demand instant responses. They need processing time.
+- Don't invade their privacy or push for personal sharing
+- Don't dismiss their analysis without logical counter-arguments
+- Don't overwhelm them with excessive meetings
+- Don't mistake their quietness for lack of engagement
 
-#### How to give both positive and negative feedback
+#### Giving feedback
 
-When giving feedback to an Investigator, it is essential to recognize their expertise and provide clear, objective feedback on how they can improve their communication and collaboration skills. Acknowledge the value they bring to the team through their knowledge and analytical abilities, and encourage them to continue sharing their insights and ideas. However, also provide specific, actionable feedback on how they can better engage with their teammates and communicate their thoughts more effectively. Focus on the importance of teamwork and the benefits of exchanging ideas and perspectives with others. Be direct and logical in your feedback, as Investigators appreciate clarity and objectivity.
+Be direct, logical, and objective. Skip the emotional appeals. Acknowledge their analytical value, then provide specific feedback on communication: "Your analysis is solid—now here's how to make it land with the team."
 
 [More on Type 5](/enneagram-corner/enneagram-type-5)
 
@@ -207,33 +225,37 @@ When giving feedback to an Investigator, it is essential to recognize their expe
 
 <section class="section-content">
 
-### Enneagram Type 6 - The Loyal Skeptic: Ensuring Security in Teams
+### Enneagram Type 6: The Loyalist Who Spots Risks Early
 
-The Loyalist is a responsible, committed, and security-oriented individual. They have a strong desire to feel safe and secure, often focusing on anticipating and preparing for potential challenges or threats. They are reliable, hardworking, and value loyalty and trust in their relationships.
+Responsible, committed, and security-oriented. Type 6s have a strong desire to feel safe. Anticipates challenges and prepares for threats. Reliable, hardworking, and values loyalty and trust.
 
-#### Goals in a team
+#### What they bring to a team
 
-The Loyalist's primary goal within a team is to ensure the team is secure and prepared for any challenges that may arise. They believe that by anticipating potential issues and developing contingency plans, they can help the team navigate difficulties and achieve its goals. They seek to establish a sense of stability and safety within the team, fostering a culture of trust and collaboration.
+Risk awareness and contingency planning. The Loyalist spots what could go wrong before it does. They're the team's early warning system and the ones who'll still be there when things get hard.
 
-#### Thoughts when joining a team
+#### As a boss
 
-When joining a team, the Loyalist will likely think, "How can I ensure the team is prepared and secure in the face of potential challenges?" They will assess the team's current practices and procedures, looking for areas where they can contribute to improving the team's resilience and adaptability. They may also seek to build strong relationships with their teammates, as they value the support and security that come with a cohesive team.
+Prioritizes safety and clear procedures. Diligent in planning, always weighing risks. May be cautious about bold moves, but provides solid, stable leadership. Creates clear guidelines and expectations.
 
-#### What it is like with an Enneagram 6 boss
+#### As a peer
 
-As a boss, the Loyalist will prioritize safety and security, providing clear guidelines and procedures to ensure the team is prepared for any situation. They will be diligent in their planning and decision-making, always considering the potential risks and benefits of each course of action. They may be cautious and hesitant to take risks, but their focus on security and stability can provide a solid foundation for the team's success.
+Loyal and dependable. Looks out for the team's interests. May question decisions, not to undermine, but to pressure-test them. Goes above and beyond for teammates they trust.
 
-#### Working with an Enneagram 6
+#### As a subordinate
 
-As a peer, the Loyalist will be loyal and supportive, always looking out for the team's best interests and potential challenges. They will be a reliable and dependable teammate, willing to go above and beyond to ensure the team's success. They may be cautious and skeptical at times, questioning ideas and decisions to ensure they are in the team's best interest.
+Seeks clear guidance and appreciates structure. Values feedback and direction. May be hesitant to take initiative without reassurance, but becomes a rock-solid performer once trust is established.
 
-#### What it is like to manage an Enneagram 6
+#### What NOT to do with a Type 6
 
-As a subordinate, the Loyalist will seek guidance and support from their superiors to ensure the team is prepared and secure. They will appreciate clear instructions and feedback, as they value structure and stability in their work environment. They may be hesitant to take on new responsibilities or challenge authority, but with encouragement and reassurance, they can be valuable contributors to the team.
+- Don't spring major changes without warning
+- Don't dismiss their concerns as "worrying." They're often right.
+- Don't be inconsistent or unpredictable
+- Don't pressure them to trust before they're ready
+- Don't mistake their questioning for disloyalty
 
-#### How to give both positive and negative feedback
+#### Giving feedback
 
-When giving feedback to a Loyalist, it is important to recognize their loyalty and dedication to the team. Acknowledge the value they bring through their commitment to security and preparation, and praise their efforts to ensure the team's success. However, also provide constructive feedback on how they can balance their concerns for security with flexibility and adaptability. Encourage them to be open to new ideas and approaches, and to trust in their own abilities and those of their teammates. Help them to see that taking calculated risks can lead to growth and innovation, while still maintaining a focus on the team's overall well-being. Be supportive and understanding in your feedback, as Loyalists can be sensitive to criticism and may need reassurance that their contributions are valued.
+Be supportive and consistent. Acknowledge their loyalty and preparation, then encourage calculated risk-taking: "Your caution is valuable—and here's where I need you to trust the process." Reassure them that their contributions matter.
 
 [More on Type 6](/enneagram-corner/enneagram-type-6)
 
@@ -241,33 +263,37 @@ When giving feedback to a Loyalist, it is important to recognize their loyalty a
 
 <section class="section-content">
 
-### Enneagram Type 7 - The Enthusiastic Visionary: Inspiring Innovation in Teams
+### Enneagram Type 7: The Enthusiast Who Generates Momentum
 
-The Enthusiast is an optimistic, energetic, and adventurous individual. They have a strong desire to experience life to the fullest and enjoy new ideas and possibilities. They are quick-thinking, spontaneous, and have a contagious enthusiasm that can inspire and motivate others.
+Optimistic, energetic, and adventurous. Type 7s have a strong desire to experience life fully. Quick-thinking, spontaneous, and has contagious enthusiasm that motivates others.
 
-#### Goals in a team
+#### What they bring to a team
 
-The Enthusiast's primary goal within a team is to keep the team energized and enthusiastic while exploring new opportunities and possibilities. They believe that by maintaining a positive and curious outlook, they can help the team stay motivated and open to new ideas. They seek to create an environment that fosters creativity, innovation, and a sense of adventure.
+Energy and ideas. The Enthusiast keeps morale high, sees possibilities others miss, and prevents the team from getting stuck in ruts. They're the team's momentum engine.
 
-#### Thoughts when joining a team
+#### As a boss
 
-When joining a team, the Enthusiast will likely think, "How can I keep the team energized and enthusiastic while exploring new opportunities and possibilities?" They will look for ways to bring fresh ideas and perspectives to the team, and will be eager to collaborate with their teammates on new projects and initiatives. They may also focus on building a positive and fun team culture, as they believe that enjoyment and enthusiasm are key to success.
+Enthusiastic and inspiring. Fosters creative, dynamic environments. Encourages exploration and innovation. May overlook details and struggle with follow-through. Positive energy drives the team forward.
 
-#### What it is like with an Enneagram 7 boss
+#### As a peer
 
-As a boss, the Enthusiast will be enthusiastic and inspiring, encouraging the team to explore new opportunities and possibilities. They will foster a creative and dynamic work environment, always looking for ways to innovate and improve. They may be less focused on details and more on the big picture, but their positive energy and vision can be a driving force for the team's success.
+Energetic, always suggesting new ideas. Source of inspiration and motivation. Eager to collaborate and brainstorm. Gets restless with routine and is always looking for the next thing.
 
-#### Working with an Enneagram 7
+#### As a subordinate
 
-As a peer, the Enthusiast will be energetic and creative, always suggesting new ideas and possibilities for the team's work. They will be a source of inspiration and motivation for their colleagues, and will be eager to collaborate and brainstorm. They may become bored or restless with routine tasks, and will always be looking for new challenges and opportunities to explore.
+Needs variety and exploration. Struggles with repetitive work. Appreciates freedom to bring new ideas. May need help prioritizing and finishing what they start.
 
-#### What it is like to manage an Enneagram 7
+#### What NOT to do with a Type 7
 
-As a subordinate, the Enthusiast will need opportunities to explore new possibilities and may struggle with overly structured or repetitive work. They will appreciate having the freedom to bring new ideas to the table and take on diverse projects. They may need guidance on prioritizing tasks and maintaining focus, as they can become easily distracted by new and exciting possibilities.
+- Don't give them monotonous, repetitive tasks with no variety
+- Don't trap them in excessive process or bureaucracy
+- Don't be a buzzkill. They shut down around constant negativity.
+- Don't expect them to thrive in micromanagement
+- Don't mistake their optimism for lack of depth
 
-#### How to give both positive and negative feedback
+#### Giving feedback
 
-When giving feedback to an Enthusiast, it is important to recognize their enthusiasm and creativity. Acknowledge the value they bring to the team through their positive energy and innovative ideas, and encourage them to continue exploring new possibilities. However, also provide constructive feedback on how they can maintain focus and balance their exploratory nature with productivity and results. Help them to prioritize tasks and set realistic goals, while still allowing room for creativity and experimentation. Be specific in your feedback, focusing on behaviors and outcomes rather than personal traits. Enthusiasts can be sensitive to criticism, so deliver negative feedback in a supportive and encouraging manner, emphasizing the potential for growth and improvement.
+Be positive and specific. Acknowledge their ideas and energy, then redirect toward focus: "Love the creativity. Now here's the one thing to nail this week." Frame limits as temporary constraints, not permanent restrictions.
 
 [More on Type 7](/enneagram-corner/enneagram-type-7)
 
@@ -275,33 +301,37 @@ When giving feedback to an Enthusiast, it is important to recognize their enthus
 
 <section class="section-content">
 
-### Enneagram Type 8 - The Assertive Leader: Driving Change in Teams
+### Enneagram Type 8: The Challenger Who Makes Hard Calls
 
-The Challenger is a powerful, assertive, and self-confident individual. They have a strong desire to be in control and protect themselves and others from perceived threats or injustices. They are decisive, direct, and have a commanding presence that can inspire and motivate others to take action.
+Powerful, assertive, and self-confident. Type 8s have a strong desire for control and to protect against threats or injustice. Decisive, direct, and has a commanding presence.
 
-#### Goals in a team
+#### What they bring to a team
 
-The Challenger's primary goal within a team is to lead the team and ensure they achieve their goals with strength and effectiveness. They believe that by taking charge and making tough decisions, they can help the team overcome obstacles and succeed. They seek to create an environment that values competence, accountability, and results.
+Decisiveness and momentum. The Challenger makes the hard calls, protects the team from external threats, and refuses to let obstacles stop progress. They're the team's force multiplier.
 
-#### Thoughts when joining a team
+#### As a boss
 
-When joining a team, the Challenger will likely think, "How can I lead the team to achieve our goals with strength and effectiveness?" They will assess the team's current situation and challenges, looking for opportunities to assert their leadership and make a positive impact. They may also focus on identifying potential weaknesses or threats to the team's success, and developing strategies to address them.
+Decisive and authoritative. Sets high expectations for performance and accountability. Makes tough calls without hesitation. Direct communication style that may come across as confrontational, but the goal is always results.
 
-#### What it is like with an Enneagram 8 boss
+#### As a peer
 
-As a boss, the Challenger will be decisive and strong, leading the team with confidence and authority. They will set high expectations for performance and accountability, and will not hesitate to make tough decisions when necessary. They may be direct and confrontational in their communication style, but their goal is always to drive the team towards success.
+Powerful and assertive, often leads even without the title. Strong advocate for their ideas. May challenge others' perspectives. Needs to balance assertiveness with collaboration.
 
-#### Working with an Enneagram 8
+#### As a subordinate
 
-As a peer, the Challenger will be powerful and assertive, often taking on leadership roles even when not formally assigned. They will be a strong advocate for their ideas and opinions, and may challenge others' perspectives if they believe it is in the team's best interest. However, they may need to balance their leadership with collaboration and compromise, recognizing the value of diverse viewpoints and the importance of team cohesion.
+Independent and capable of significant responsibility. Needs autonomy to make decisions. May challenge authority when they disagree, not out of disrespect, but because they believe they're right. Gets frustrated with perceived incompetence.
 
-#### What it is like to manage an Enneagram 8
+#### What NOT to do with a Type 8
 
-As a subordinate, the Challenger will be strong and independent, capable of taking on significant responsibilities and delivering results. They will appreciate having the autonomy to make decisions and take action, but may also challenge authority if they disagree with a course of action. They may need direction and support from their superiors to effectively contribute to the team's success, as they can become frustrated with perceived incompetence or lack of leadership.
+- Don't be weak or wishy-washy. They lose respect fast.
+- Don't lie or play political games. They'll find out.
+- Don't try to control them without earning their respect
+- Don't take their directness personally
+- Don't mistake their intensity for anger. It's just how they engage.
 
-#### How to give both positive and negative feedback
+#### Giving feedback
 
-When giving feedback to a Challenger, it is important to recognize their leadership and strength. Acknowledge the value they bring to the team through their decisiveness, accountability, and drive for results. However, also provide constructive feedback on how they can balance their assertiveness with collaboration and compromise. Encourage them to listen to and consider others' perspectives, and to build relationships based on trust and respect rather than power and control. Be direct and specific in your feedback, focusing on behaviors and outcomes rather than personal traits. Challengers can be resistant to criticism, so frame negative feedback as an opportunity for growth and improvement, emphasizing the benefits to both the individual and the team.
+Be direct and don't soften the message too much. They respect honesty over diplomacy. Acknowledge their leadership and results, then be specific about where collaboration would increase impact. Frame growth as becoming more effective, not less intense.
 
 [More on Type 8](/enneagram-corner/enneagram-type-8)
 
@@ -309,43 +339,79 @@ When giving feedback to a Challenger, it is important to recognize their leaders
 
 <section class="section-content">
 
-### Enneagram Type 9 - The Harmonious Mediator: Facilitating Unity in Teams
+### Enneagram Type 9: The Peacemaker Who Bridges Divides
 
-The Peacemaker is a harmonious, supportive, and accommodating individual. They have a strong desire to maintain peace and avoid conflict, often focusing on creating a sense of stability and unity within their relationships and environments. They are empathetic, patient, and have a calming presence that can diffuse tense situations and bring people together.
+Harmonious, supportive, and accommodating. Type 9s have a strong desire to maintain peace and avoid conflict. Empathetic, patient, and has a calming presence that diffuses tension.
 
-#### Goals in a team
+#### What they bring to a team
 
-The Peacemaker's primary goal within a team is to create a harmonious and peaceful environment for the team to work effectively. They believe that by fostering a sense of unity and collaboration, they can help the team achieve its goals with minimal conflict and stress. They seek to establish a culture of mutual understanding, respect, and cooperation.
+Stability and mediation. The Peacemaker sees all perspectives, bridges divides, and keeps the team functioning when tensions rise. They're the team's connective tissue.
 
-#### Thoughts when joining a team
+#### As a boss
 
-When joining a team, the Peacemaker will likely think, "How can I create a harmonious and peaceful environment for the team to work effectively?" They will observe the team's dynamics and interactions, looking for opportunities to build consensus and bridge differences. They may also focus on understanding each team member's perspectives and needs, as they believe that accommodating others is key to maintaining harmony.
+Prioritizes harmony and collaboration. Fosters inclusive environments with open communication. May struggle with tough decisions or critical feedback because they fear disrupting peace or being seen as confrontational.
 
-#### What it is like with an Enneagram 9 boss
+#### As a peer
 
-As a boss, the Peacemaker will prioritize harmony and peace, ensuring the team works together effectively and with minimal conflict. They will foster a supportive and inclusive work environment, encouraging open communication and collaboration. They may struggle with making tough decisions or providing critical feedback, as they fear disrupting the team's harmony or being seen as confrontational.
+Supportive and agreeable. Good listener and natural mediator. Helps resolve disputes and find common ground. May suppress their own opinions to maintain group consensus.
 
-#### Working with an Enneagram 9
+#### As a subordinate
 
-As a peer, the Peacemaker will be supportive and agreeable, seeking to maintain harmony and avoid conflict within the team. They will be a good listener and mediator, helping to resolve disputes and find common ground. They may be less inclined to express their own opinions or needs, preferring to go along with the group consensus to maintain peace.
+Cooperative and adaptable. Reliable and hardworking. Struggles to assert themselves or express disagreement. With encouragement, becomes more confident in contributions.
 
-#### What it is like to manage an Enneagram 9
+#### What NOT to do with a Type 9
 
-As a subordinate, the Peacemaker will be cooperative and adaptable, seeking to support the team and maintain a harmonious environment. They will be reliable and hardworking, willing to take on tasks and responsibilities that help the team succeed. They may struggle with asserting themselves or expressing disagreement, but with encouragement and reassurance, they can become more confident in their contributions.
+- Don't bulldoze their opinions or talk over them
+- Don't mistake their agreeableness for agreement
+- Don't put them in constant high-conflict situations
+- Don't ignore them because they don't demand attention
+- Don't assume their calm means they don't have strong views
 
-#### How to give both positive and negative feedback
+#### Giving feedback
 
-When giving feedback to a Peacemaker, it is important to recognize their ability to maintain harmony and cooperation within the team. Acknowledge the value they bring through their supportive and accommodating nature, and praise their efforts to foster collaboration and unity. However, also provide constructive feedback on how they can be more assertive and express their own needs and opinions while still maintaining a harmonious environment. Encourage them to find a balance between accommodating others and standing up for themselves, and to recognize that healthy conflict and disagreement can lead to growth and innovation. Be gentle and empathetic in your feedback, focusing on the benefits of personal growth and the importance of authentic self-expression. Peacemakers can be sensitive to criticism and may need reassurance that their contributions are valued, even when they assert themselves more.
+Be gentle but clear. Acknowledge their stabilizing value, then encourage assertion: "Your perspective matters. I need to hear your actual opinion, not just what you think I want to hear." Create space for them to disagree safely.
 
 [More on Type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 
-## Conclusion
+## When Types Clash (and When They Click)
 
-Recognizing each type's goals, thinking, and behaviors in different roles within the team, allows us to learn how to effectively communicate, collaborate, and give feedback to each type to help contribute to the team's success. By leveraging the strengths of each type and addressing their challenges, we can create a balanced and successful team.
+Understanding individual types is step one. Step two is seeing how they interact.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+**High-friction pairs to watch:**
+
+- **1 + 7**: The Perfectionist wants to get it right. The Enthusiast wants to move on to the next thing. One pushes for polish while the other pushes for pace.
+- **4 + 8**: The Individualist needs emotional acknowledgment. The Challenger just wants action. One feels steamrolled. The other feels slowed down.
+- **5 + 2**: The Investigator needs space to think. The Helper needs connection. One feels smothered. The other feels shut out.
+- **3 + 9**: The Achiever drives hard. The Peacemaker absorbs without pushing back. One burns out. The other gets invisible.
+
+**Natural synergies:**
+
+- **1 + 6**: Both value doing things right and being prepared. Solid foundation for reliable execution.
+- **3 + 8**: Both drive toward results. High-energy execution when aligned on goals.
+- **2 + 9**: Both prioritize harmony and support. Create a collaborative, low-conflict environment.
+- **5 + 1**: Both value competence and getting things right. Deep analysis meets principled standards.
+
+The key isn't avoiding conflict. It's understanding the pattern so you can navigate it.
+
+For the full breakdown of all 81 type combinations, see [Enneagram Compatibility Matrix](/enneagram-corner/enneagram-compatibility-matrix) and [Enneagram Team Dynamics](/enneagram-corner/enneagram-team-dynamics).
+
+## The Bottom Line
+
+Teams fail when people assume everyone thinks like they do. Teams succeed when they decode the patterns.
+
+The Type 1's criticism? About quality, not you personally. The Type 5's silence? Processing, not disengagement. The Type 8's directness? Energy, not attack.
+
+**Three things to do this week:**
+
+1. **Identify the types on your current team.** Start with yourself.
+2. **Notice your friction points.** Which types trigger you? That's where the growth is.
+3. **Adjust one conversation.** Pick one colleague, try one small shift based on their type.
+
+The Enneagram doesn't excuse behavior. It explains it. Which means you can work with it instead of against it.
+
+If you found this helpful, sign up and join 9takes below. Of course, you are free to decline, but there is much more to explore.
 
 <svelte:head>
 
@@ -353,9 +419,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   {
    "@context":"http://schema.org",
    "@type":"BlogPosting",
-   "articleBody":"Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram is a personality system that can help us understand why people act the way they do. In this article, we'll explore how different Enneagram types work together in teams. We'll give you some tips on how to communicate effectively with each type and create a more harmonious team environment. So whether you're a team leader or a team member, get ready to learn how to work better with others!",
-   "keywords": ["enneagram teamwork", "personality types in teams", "team dynamics", "workplace communication", "enneagram leadership", "team collaboration", "enneagram type 1 team", "enneagram type 2 team", "enneagram type 3 team", "enneagram type 4 team", "enneagram type 5 team", "enneagram type 6 team", "enneagram type 7 team", "enneagram type 8 team", "enneagram type 9 team", "workplace psychology"],
-   "wordCount": 6800,
+   "articleBody":"What makes some teams crush it while others feel like slow-moving disasters? It's how people think, what they fear, and what they need to feel safe enough to do their best work. The Enneagram maps these patterns. Here's how each type shows up in teams—as bosses, peers, and subordinates—what drives them crazy, what NOT to do with them, and how to give feedback that actually lands.",
+   "keywords": ["enneagram teamwork", "personality types in teams", "team dynamics", "workplace communication", "enneagram leadership", "team collaboration", "type conflicts at work", "managing different personalities", "enneagram boss types", "giving feedback by type", "workplace psychology"],
+   "wordCount": 3200,
    "articleSection": "Enneagram",
    "url": "https://9takes.com/enneagram-corner/enneagram-types-working-in-teams",
    "author": {
@@ -366,7 +432,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
    "dateModified":{
       "@type":"Date",
-      "@value":"2025-05-26"
+      "@value":"2026-01-24"
    },
    "datePublished":{
       "@type":"Date",

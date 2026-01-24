@@ -7,6 +7,12 @@ function processMdsvexModule(path: string, resolver: App.MdsvexResolver) {
 	return resolver().then((post) => {
 		const mdsvexFile = post as App.MdsvexFile;
 		const metadata = mdsvexFile.metadata as App.BlogPost;
+
+		// Guard against missing or incomplete metadata
+		if (!metadata || !metadata.date) {
+			return null;
+		}
+
 		return {
 			...metadata,
 			slug: slugFromPath(path),
@@ -21,7 +27,9 @@ export const getPosts = async (): Promise<App.BlogPost[]> => {
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		processMdsvexModule(path, resolver)
 	);
-	const enneagramPosts = (await Promise.all(enneagramPromises)).filter((post) => post.published);
+	const enneagramPosts = (await Promise.all(enneagramPromises)).filter(
+		(post): post is NonNullable<typeof post> => post !== null && post.published
+	);
 
 	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
 
@@ -29,7 +37,9 @@ export const getPosts = async (): Promise<App.BlogPost[]> => {
 		processMdsvexModule(path, resolver)
 	);
 
-	const communityPosts = (await Promise.all(communityPromises)).filter((post) => post?.published);
+	const communityPosts = (await Promise.all(communityPromises)).filter(
+		(post): post is NonNullable<typeof post> => post !== null && post.published
+	);
 
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
@@ -44,8 +54,8 @@ export const getPosts = async (): Promise<App.BlogPost[]> => {
 	});
 
 	const posts = [...enneagramPosts, ...communityPosts, ...peoplePosts]
-		// get post metadata
-		.filter((post) => post?.published)
+		// get post metadata - filter out entries with missing dates
+		.filter((post) => post?.published && post?.date)
 		// sort by date
 		.sort((a, b) => (a.date < b.date ? 1 : -1));
 
