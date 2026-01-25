@@ -95,7 +95,7 @@ Eager to help, quick to volunteer. Struggles with boundaries and saying no. May 
 - Don't give them all the "people work" and none of the visible projects
 - Don't exploit their inability to say no
 - Don't be cold or transactional. They need warmth.
-- Don't assume they're fine just because they're always asking how *you* are
+- Don't assume they're fine just because they're always asking how _you_ are
 
 #### Giving feedback
 

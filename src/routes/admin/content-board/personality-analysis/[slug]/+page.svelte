@@ -164,7 +164,7 @@
 				<h1 class="page-title">
 					{displayTitle}
 					{#if isDirty}
-						<span class="dirty-indicator" title="Unsaved changes">●</span>
+						<span class="dirty-indicator" title="Unsaved changes"></span>
 					{/if}
 				</h1>
 				<span class="breadcrumb">Content Board / Personality Analysis</span>
@@ -279,36 +279,41 @@
 
 <style lang="scss">
 	.editor-page {
+		position: fixed;
+		inset: 0;
 		display: flex;
 		flex-direction: column;
-		height: 100vh;
 		background: var(--void-deep);
+		z-index: 100;
 	}
 
 	.page-header {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 12px 20px;
+		padding: 16px 24px;
 		border-bottom: 1px solid var(--void-elevated);
 		background: var(--void-surface);
 		flex-shrink: 0;
+		position: sticky;
+		top: 0;
+		z-index: 10;
 
 		@media (max-width: 768px) {
-			padding: 8px 12px;
-			min-height: 56px;
+			padding: 12px 16px;
+			min-height: 60px;
 		}
 	}
 
 	.header-left {
 		display: flex;
 		align-items: center;
-		gap: 12px;
+		gap: 16px;
 		min-width: 0;
 		flex: 1;
 
 		@media (max-width: 768px) {
-			gap: 8px;
+			gap: 12px;
 		}
 	}
 
@@ -316,19 +321,21 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 40px;
-		height: 40px;
-		border: none;
+		width: 42px;
+		height: 42px;
+		border: 1px solid var(--void-highlight);
 		background: var(--void-elevated);
-		border-radius: 8px;
+		border-radius: 10px;
 		color: var(--text-secondary);
 		cursor: pointer;
-		transition: all 0.15s ease;
+		transition: all 0.2s ease;
 		flex-shrink: 0;
 
 		&:hover {
 			background: var(--shadow-monarch-subtle);
+			border-color: var(--shadow-monarch);
 			color: var(--shadow-monarch-light);
+			box-shadow: var(--glow-sm);
 		}
 
 		@media (max-width: 768px) {
@@ -343,67 +350,91 @@
 	}
 
 	.page-title {
-		font-size: 18px;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		font-size: 20px;
 		font-weight: 600;
 		color: var(--text-primary);
 		margin: 0;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		text-transform: capitalize;
 
 		@media (max-width: 768px) {
-			font-size: 16px;
+			font-size: 17px;
 		}
 	}
 
 	.breadcrumb {
-		display: block;
-		font-size: 12px;
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		font-size: 13px;
 		color: var(--text-muted);
-		margin-top: 2px;
+		margin-top: 4px;
 
 		@media (max-width: 768px) {
-			display: none;
+			font-size: 12px;
 		}
 	}
 
 	.dirty-indicator {
-		color: var(--warning);
-		margin-left: 4px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 8px;
+		height: 8px;
+		background: var(--warning);
+		border-radius: 50%;
+		animation: pulse 2s ease-in-out infinite;
+	}
+
+	@keyframes pulse {
+		0%,
+		100% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 0.5;
+		}
 	}
 
 	.header-right {
 		display: flex;
 		align-items: center;
-		gap: 8px;
+		gap: 10px;
 		flex-shrink: 0;
 
 		@media (max-width: 768px) {
-			gap: 6px;
+			gap: 8px;
 		}
 	}
 
 	.btn {
 		display: inline-flex;
 		align-items: center;
-		gap: 6px;
-		padding: 8px 14px;
+		justify-content: center;
+		gap: 8px;
+		padding: 10px 18px;
 		border: none;
-		border-radius: 6px;
-		font-size: 13px;
+		border-radius: 8px;
+		font-size: 14px;
 		font-weight: 500;
 		cursor: pointer;
-		transition: all 0.15s ease;
+		transition: all 0.2s ease;
 
 		&:disabled {
-			opacity: 0.5;
+			opacity: 0.4;
 			cursor: not-allowed;
 		}
 
 		@media (max-width: 768px) {
-			padding: 10px 14px;
+			padding: 12px 16px;
 			font-size: 14px;
 			min-height: 44px;
+			min-width: 44px;
 
 			.btn-text {
 				display: none;
@@ -424,6 +455,11 @@
 				var(--shadow-monarch) 100%
 			);
 			box-shadow: var(--glow-md);
+			transform: translateY(-1px);
+		}
+
+		&:active:not(:disabled) {
+			transform: translateY(0);
 		}
 	}
 
@@ -435,16 +471,18 @@
 		&:hover:not(:disabled) {
 			background: var(--void-highlight);
 			border-color: var(--shadow-monarch-glow);
+			box-shadow: var(--glow-sm);
 		}
 	}
 
 	.btn-danger {
-		background: var(--error-light);
-		color: var(--error);
-		border: 1px solid transparent;
+		background: rgba(239, 68, 68, 0.1);
+		color: #ef4444;
+		border: 1px solid rgba(239, 68, 68, 0.3);
 
 		&:hover:not(:disabled) {
-			border-color: var(--error);
+			background: rgba(239, 68, 68, 0.2);
+			border-color: #ef4444;
 		}
 	}
 
@@ -464,12 +502,17 @@
 		border: none;
 		background: none;
 		font-size: 15px;
-		font-weight: 500;
-		color: var(--text-secondary);
+		font-weight: 600;
+		color: var(--text-muted);
 		cursor: pointer;
 		border-bottom: 3px solid transparent;
-		transition: all 0.15s ease;
-		min-height: 48px;
+		transition: all 0.2s ease;
+		min-height: 50px;
+
+		&:hover {
+			color: var(--text-secondary);
+			background: var(--void-elevated);
+		}
 
 		&.active {
 			color: var(--shadow-monarch-light);
@@ -497,9 +540,12 @@
 		display: flex;
 		flex-direction: column;
 		overflow: hidden;
+		padding: 16px;
+		padding-right: 8px;
 
 		@media (max-width: 768px) {
 			flex: 1 1 100%;
+			padding: 0;
 
 			&.mobile-hidden {
 				display: none;
@@ -508,15 +554,16 @@
 	}
 
 	.metadata-panel {
-		flex: 0 0 360px;
-		width: 360px;
+		flex: 0 0 380px;
+		width: 380px;
 		min-height: 0;
 		overflow: hidden;
 		border-left: 1px solid var(--void-elevated);
+		background: var(--void-surface);
 
 		@media (max-width: 1200px) {
-			flex: 0 0 320px;
-			width: 320px;
+			flex: 0 0 340px;
+			width: 340px;
 		}
 
 		@media (max-width: 768px) {
@@ -534,46 +581,48 @@
 	.warning-overlay {
 		position: fixed;
 		inset: 0;
-		background: rgba(0, 0, 0, 0.7);
+		background: rgba(0, 0, 0, 0.75);
+		backdrop-filter: blur(4px);
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		z-index: 9999;
-		padding: 16px;
+		padding: 20px;
 	}
 
 	.warning-dialog {
 		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
-		border-radius: 12px;
-		padding: 24px;
-		max-width: 400px;
+		border: 1px solid var(--void-highlight);
+		border-radius: 16px;
+		padding: 28px;
+		max-width: 420px;
 		width: 100%;
 		box-shadow:
-			0 25px 50px -12px rgba(0, 0, 0, 0.5),
-			var(--glow-sm);
+			0 25px 50px -12px rgba(0, 0, 0, 0.6),
+			var(--glow-md);
 	}
 
 	.warning-title {
-		font-size: 18px;
+		font-size: 20px;
 		font-weight: 600;
 		color: var(--text-primary);
-		margin: 0 0 8px;
+		margin: 0 0 12px;
 	}
 
 	.warning-message {
-		font-size: 14px;
+		font-size: 15px;
 		color: var(--text-secondary);
-		margin: 0 0 20px;
+		margin: 0 0 24px;
+		line-height: 1.5;
 	}
 
 	.warning-actions {
 		display: flex;
-		gap: 8px;
+		gap: 10px;
 		justify-content: flex-end;
 
 		@media (max-width: 480px) {
-			flex-direction: column;
+			flex-direction: column-reverse;
 
 			.btn {
 				width: 100%;

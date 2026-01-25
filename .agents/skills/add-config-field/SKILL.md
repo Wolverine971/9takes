@@ -10,13 +10,13 @@ Add a new field to the `.agents.yml` config schema with proper versioning and mi
 
 ## Files Changed
 
-| File | Purpose |
-|------|---------|
+| File                                                   | Purpose                                    |
+| ------------------------------------------------------ | ------------------------------------------ |
 | `plugins/majestic-engineer/commands/workflows/init.md` | 4 YAML templates that generate .agents.yml |
-| `plugins/majestic-engineer/config-schema-version` | Schema version number |
-| `plugins/majestic-engineer/agents/config-reader.md` | Changelog + migration logic |
-| `plugins/majestic-engineer/.claude-plugin/plugin.json` | Plugin version |
-| `.claude-plugin/marketplace.json` | Marketplace version |
+| `plugins/majestic-engineer/config-schema-version`      | Schema version number                      |
+| `plugins/majestic-engineer/agents/config-reader.md`    | Changelog + migration logic                |
+| `plugins/majestic-engineer/.claude-plugin/plugin.json` | Plugin version                             |
+| `.claude-plugin/marketplace.json`                      | Marketplace version                        |
 
 ## Input
 
@@ -35,12 +35,13 @@ Add a new field to the `.agents.yml` config schema with proper versioning and mi
 Add field to ALL 4 templates (Rails, Python, Node, Generic). Find the appropriate section and add:
 
 ```yaml
-new_field: value              # Comment explaining purpose
+new_field: value # Comment explaining purpose
 ```
 
 Or for multi-line:
+
 ```yaml
-new_field:                    # Comment
+new_field: # Comment
   - item1
   - item2
 ```
@@ -56,11 +57,13 @@ Increment: `1.1` → `1.2`
 **File:** `plugins/majestic-engineer/agents/config-reader.md`
 
 **A) Add to Version Changelog table:**
+
 ```markdown
 | 1.2 | `new_field` | Description |
 ```
 
 **B) Update migration YAML block** (in "Outdated config_version" section):
+
 ```yaml
 new_field: default_value
 ```
@@ -68,6 +71,7 @@ new_field: default_value
 ### 4. Bump Plugin Versions
 
 **Files:**
+
 - `plugins/majestic-engineer/.claude-plugin/plugin.json`: `3.15.0` → `3.16.0`
 - `.claude-plugin/marketplace.json`: Update majestic-engineer entry version
 

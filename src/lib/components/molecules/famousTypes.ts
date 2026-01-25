@@ -265,7 +265,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Emily-Ratajkowski', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'The Intellectual Provocateur' },
 		{ name: 'Halsey', link: true, hasImage: true, lastmod: '2025-05-02', personaTitle: 'Pop\'s Fierce Survivor' },
 		{ name: 'Hasan-Piker', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Twitch\'s Political Firebrand' },
-		{ name: 'IShowSpeed', link: true, hasImage: true, lastmod: '2025-12-22', personaTitle: 'Streaming\'s Unhinged Speedster' },
+		{ name: 'IShowSpeed', link: true, hasImage: true, lastmod: '2026-01-24', personaTitle: 'Streaming\'s Unhinged Speedster' },
 		{ name: 'Jocko-Willink', link: true, hasImage: true, lastmod: '2025-12-22', personaTitle: 'Discipline\'s Uncompromising Voice' },
 		{ name: 'Joe-Rogan', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'Podcasting\'s Alpha Interrogator' },
 		{ name: 'Malcolm-X', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Justice\'s Uncompromising Voice' },

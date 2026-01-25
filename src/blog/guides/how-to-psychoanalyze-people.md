@@ -73,7 +73,6 @@ It's the difference between "Why are you being so difficult?" and "Oh, you need 
 
 </article>
 
-
 <article class="section-content">
 
 <h2>The 4-Step Framework for Reading Anyone</h2>
@@ -421,7 +420,6 @@ The rule-breaker isn't defying you – they're asserting independence. The peopl
 
 </article>
 
-
 <article class="section-content">
 
 <h2>The 9 Core Patterns (Quick Reference)</h2>
@@ -588,4 +586,3 @@ Deep dive into all nine personality patterns
 <style>
   /* Additional styles can be added here if needed */
 </style>
-

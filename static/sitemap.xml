@@ -303,7 +303,7 @@
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides/how-to-psychoanalyze-people</loc>
-    <lastmod>2025-09-08T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-24T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -804,7 +804,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-types-working-in-teams</loc>
-    <lastmod>2025-05-26T00:00:00.000Z</lastmod>
+    <lastmod>2026-01-24T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2312,15 +2312,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/IShowSpeed</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/IShowSpeed.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/J.K.-Rowling</loc>
     <lastmod>2025-12-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2966,6 +2957,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Xi-Jinping.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/IShowSpeed</loc>
+    <lastmod>2026-01-24T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/IShowSpeed.webp</image:loc>
     </image:image>
 </url>
 <url>

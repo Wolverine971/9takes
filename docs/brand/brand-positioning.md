@@ -1,7 +1,9 @@
+<!-- docs/brand/brand-positioning.md -->
+
 # BRAND POSITIONING: 9takes
 
-*Strategic foundation document v1.0*
-*Consolidated from existing brand materials - January 2026*
+_Strategic foundation document v1.0_
+_Consolidated from existing brand materials - January 2026_
 
 ---
 
@@ -21,25 +23,25 @@
 
 ## Brand Pillars
 
-| Pillar | One-liner | Why It Matters |
-|--------|-----------|----------------|
-| **Emotional Foundation Mapping** | Understand WHY people see things differently | Social dynamics aren't random—they're driven by core emotional patterns you can learn to read |
-| **Give-First Intelligence** | Comment first, then see everyone else's take | Prevents groupthink; reveals authentic perspective before outside influence |
-| **Personality-Maxing** | Level up your EQ through tactical self-knowledge | Modern term for ancient wisdom: knowing your patterns gives you social advantages |
-| **Open Source Conflict Resolution** | Turn conflict into crowd-sourced wisdom | Post your situation, get 9 different takes. Drama becomes solvable through different lenses |
-| **Ancient Wisdom, Modern Application** | Continuing a 2,500-year tradition | From Plato's soul theory to modern psychology—timeless insights with practical navigation |
+| Pillar                                 | One-liner                                        | Why It Matters                                                                                |
+| -------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| **Emotional Foundation Mapping**       | Understand WHY people see things differently     | Social dynamics aren't random—they're driven by core emotional patterns you can learn to read |
+| **Give-First Intelligence**            | Comment first, then see everyone else's take     | Prevents groupthink; reveals authentic perspective before outside influence                   |
+| **Personality-Maxing**                 | Level up your EQ through tactical self-knowledge | Modern term for ancient wisdom: knowing your patterns gives you social advantages             |
+| **Open Source Conflict Resolution**    | Turn conflict into crowd-sourced wisdom          | Post your situation, get 9 different takes. Drama becomes solvable through different lenses   |
+| **Ancient Wisdom, Modern Application** | Continuing a 2,500-year tradition                | From Plato's soul theory to modern psychology—timeless insights with practical navigation     |
 
 ---
 
 ## Brand Values
 
-| Value | Meaning | How It Shows Up |
-|-------|---------|-----------------|
-| **Understanding Over Judgment** | Explain behavior without shaming | Content reveals WHY someone acts a way, not that they're "wrong" |
-| **Pattern Recognition Over Guesswork** | Show the emotional logic | "She's not 'being difficult'—Type 1s need things done right the first time" |
-| **Authentic Perspective First** | Your take matters before the crowd's | Give-first mechanic: comment before seeing others' responses |
-| **Practical Application** | Theory serves action | Every insight connects to a "try this tonight" moment |
-| **Genuine Curiosity** | The destination of personality-maxing | Foster interest in others' worldviews, not just understanding your own |
+| Value                                  | Meaning                               | How It Shows Up                                                             |
+| -------------------------------------- | ------------------------------------- | --------------------------------------------------------------------------- |
+| **Understanding Over Judgment**        | Explain behavior without shaming      | Content reveals WHY someone acts a way, not that they're "wrong"            |
+| **Pattern Recognition Over Guesswork** | Show the emotional logic              | "She's not 'being difficult'—Type 1s need things done right the first time" |
+| **Authentic Perspective First**        | Your take matters before the crowd's  | Give-first mechanic: comment before seeing others' responses                |
+| **Practical Application**              | Theory serves action                  | Every insight connects to a "try this tonight" moment                       |
+| **Genuine Curiosity**                  | The destination of personality-maxing | Foster interest in others' worldviews, not just understanding your own      |
 
 ### Values in Action
 
@@ -87,24 +89,24 @@
 
 ### Traits
 
-| Trait | Description | Voice Implication |
-|-------|-------------|-------------------|
-| **Tactically Direct** | No fluff; actionable info that works | "Type 6s signal loyalty through questions—answer them, don't get defensive." |
-| **Socially Savvy** | Connect insight to real-world wins | "Read the room: Type 8s respect directness, Type 9s need gentle approach." |
-| **Respectfully Provocative** | Challenge comfort zones without shaming | "If your social circle always agrees with you, you're missing crucial intel." |
-| **Pattern-Recognition Focused** | Show emotional logic behind behavior | Frame "difficult" behavior as understandable pattern, not character flaw |
-| **Results-Driven Coach** | Encouraging but focused on outcomes | "Try this approach tonight and watch the dynamic shift." |
+| Trait                           | Description                             | Voice Implication                                                             |
+| ------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------- |
+| **Tactically Direct**           | No fluff; actionable info that works    | "Type 6s signal loyalty through questions—answer them, don't get defensive."  |
+| **Socially Savvy**              | Connect insight to real-world wins      | "Read the room: Type 8s respect directness, Type 9s need gentle approach."    |
+| **Respectfully Provocative**    | Challenge comfort zones without shaming | "If your social circle always agrees with you, you're missing crucial intel." |
+| **Pattern-Recognition Focused** | Show emotional logic behind behavior    | Frame "difficult" behavior as understandable pattern, not character flaw      |
+| **Results-Driven Coach**        | Encouraging but focused on outcomes     | "Try this approach tonight and watch the dynamic shift."                      |
 
 ### We Are / We Are Not
 
-| We Are | We Are Not |
-|--------|------------|
-| Direct and practical | Academic and theoretical |
-| Pattern-focused | Vague and mystical |
-| Respectfully challenging | Preachy or judgmental |
-| Ancient wisdom made modern | New Age pseudoscience |
-| Tactical coaches | Fluffy motivational speakers |
-| Conversational | Corporate or formal |
+| We Are                     | We Are Not                   |
+| -------------------------- | ---------------------------- |
+| Direct and practical       | Academic and theoretical     |
+| Pattern-focused            | Vague and mystical           |
+| Respectfully challenging   | Preachy or judgmental        |
+| Ancient wisdom made modern | New Age pseudoscience        |
+| Tactical coaches           | Fluffy motivational speakers |
+| Conversational             | Corporate or formal          |
 
 ### If We Were...
 
@@ -123,6 +125,7 @@
 **Category:** Enneagram-based personality platform (Q&A + content + coaching)
 
 **Alternatives:**
+
 - Other Enneagram sites (Enneagram Institute, The Narrative Enneagram)
 - Personality tests (MBTI, Big Five)
 - Relationship advice (generic blogs, therapists)
@@ -134,6 +137,7 @@
 ### Differentiation
 
 **What we do differently:**
+
 1. **Give-first mechanic** - Comment before seeing others' takes (prevents groupthink)
 2. **Tactical framing** - Enneagram as competitive advantage, not just self-discovery
 3. **Pattern + action** - Every insight connects to something you can try tonight
@@ -158,6 +162,7 @@
 "Your brain defaults to 'they're being difficult' when you don't understand their type. 9takes shows you the 9 ways people see any situation."
 
 **Tagline Options:**
+
 - "See the emotions behind every take" (primary)
 - "One situation, 9 ways to see it" (secondary)
 - "Decode social dynamics"
@@ -189,14 +194,14 @@
 
 ## Key Concepts & Preferred Terms
 
-| Concept | Use This | Avoid | Notes |
-|---------|----------|-------|-------|
-| Main tagline | See the emotions behind every take | — | Primary positioning |
-| Core mechanic | Give-first unlock / Reveal through response | comment-first, bias-proof | Emphasize authentic perspective before influence |
-| Growth approach | Personality-maxing | self-improvement, personal development | Viral entry point to deeper work |
-| Social navigation | Decode social dynamics | improve relationships | Tactical framing |
-| Conflict approach | Open source conflict resolution | crowdsourced advice | Positions conflict as solvable |
-| Content approach | Emotional foundation mapping | EQ tips, personality insights | Focus on WHY not just WHAT |
+| Concept           | Use This                                    | Avoid                                  | Notes                                            |
+| ----------------- | ------------------------------------------- | -------------------------------------- | ------------------------------------------------ |
+| Main tagline      | See the emotions behind every take          | —                                      | Primary positioning                              |
+| Core mechanic     | Give-first unlock / Reveal through response | comment-first, bias-proof              | Emphasize authentic perspective before influence |
+| Growth approach   | Personality-maxing                          | self-improvement, personal development | Viral entry point to deeper work                 |
+| Social navigation | Decode social dynamics                      | improve relationships                  | Tactical framing                                 |
+| Conflict approach | Open source conflict resolution             | crowdsourced advice                    | Positions conflict as solvable                   |
+| Content approach  | Emotional foundation mapping                | EQ tips, personality insights          | Focus on WHY not just WHAT                       |
 
 ---
 
@@ -217,6 +222,7 @@
 3. Small experiment CTA (immediate micro-action)
 
 **Example:**
+
 > Your brain defaults to "they're being difficult" when you don't understand their type.
 > → Type 1: Needs things done right
 > → Type 6: Needs security/reassurance
@@ -229,18 +235,18 @@
 
 **Aesthetic:** Solo Leveling-inspired dark void with system UI feel
 
-| Element | Value |
-|---------|-------|
-| Primary Color | #7c3aed (Purple) |
-| Secondary Color | #3b82f6 (Blue) |
-| Accent Color | #06b6d4 (Cyan) |
-| Background | #0a0a0f (Dark void) |
-| Primary Font | Noticia Text (Serif) |
+| Element         | Value                |
+| --------------- | -------------------- |
+| Primary Color   | #7c3aed (Purple)     |
+| Secondary Color | #3b82f6 (Blue)       |
+| Accent Color    | #06b6d4 (Cyan)       |
+| Background      | #0a0a0f (Dark void)  |
+| Primary Font    | Noticia Text (Serif) |
 
 **Visual Feel:** Dark, immersive backgrounds. Glowing borders and accents. System/UI interface aesthetic. Scholarly but modern.
 
-*Full visual guide: `docs/brand/solo-leveling-visual-guide-unified.md`*
-*Brand assets: `docs/brand/BRAND-KIT.md`*
+_Full visual guide: `docs/brand/solo-leveling-visual-guide-unified.md`_
+_Brand assets: `docs/brand/BRAND-KIT.md`_
 
 ---
 
@@ -260,31 +266,31 @@
 
 ## Using This Document
 
-| When Creating | Reference |
-|---------------|-----------|
-| Marketing copy | Purpose, personality, positioning statement |
-| Product decisions | Values, target audience beliefs |
-| Visual design | Personality traits, visual identity summary |
-| Voice/tone guide | Personality section, We Are/We Are Not |
-| Sales messaging | Positioning variations, differentiation |
-| Content creation | Writing style, guardrails |
+| When Creating     | Reference                                   |
+| ----------------- | ------------------------------------------- |
+| Marketing copy    | Purpose, personality, positioning statement |
+| Product decisions | Values, target audience beliefs             |
+| Visual design     | Personality traits, visual identity summary |
+| Voice/tone guide  | Personality section, We Are/We Are Not      |
+| Sales messaging   | Positioning variations, differentiation     |
+| Content creation  | Writing style, guardrails                   |
 
 ---
 
 ## Related Documents
 
-| Document | Purpose |
-|----------|---------|
-| `brand-style-guide-v2.md` | Complete voice, tone, and style guide |
-| `solo-leveling-visual-guide-unified.md` | Visual identity, colors, UI components |
+| Document                                  | Purpose                                  |
+| ----------------------------------------- | ---------------------------------------- |
+| `brand-style-guide-v2.md`                 | Complete voice, tone, and style guide    |
+| `solo-leveling-visual-guide-unified.md`   | Visual identity, colors, UI components   |
 | `solo-leveling-9takes-brand-direction.md` | Brand direction & gamification decisions |
-| `BRAND-KIT.md` | Complete asset library for design tools |
-| `dj-communication-guide.md` | Personal communication preferences |
+| `BRAND-KIT.md`                            | Complete asset library for design tools  |
+| `dj-communication-guide.md`               | Personal communication preferences       |
 
 ---
 
 ## Version History
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0 | 2026-01 | Initial consolidation from existing brand materials |
+| Version | Date    | Changes                                             |
+| ------- | ------- | --------------------------------------------------- |
+| 1.0     | 2026-01 | Initial consolidation from existing brand materials |

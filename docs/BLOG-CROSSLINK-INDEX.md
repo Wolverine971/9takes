@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-01-23_
+_Generated: 2026-01-25_
 _Total Posts Analyzed: 120 (Published: 111, Unpublished: 9)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -17,7 +17,7 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Posts with 0 outgoing links | 6 |
 | Posts with 0 incoming links | 16 |
 | Completely isolated (0 in, 0 out) | 4 |
-| Total internal cross-links | 732 |
+| Total internal cross-links | 735 |
 | Average outgoing links per post | 6.1 |
 
 ---
@@ -86,7 +86,7 @@ These posts are "orphaned" - no other content links to them.
 | 27 | 6 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
 | 25 | 11 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
 | 24 | 12 | Red Flags You Are Dating Each Enneagram Type (And What to Do... | `enneagram/red-flags-dating-each-enneagram-type.md` |
-| 22 | 34 | What | `enneagram/enneagram-tldr.md` |
+| 23 | 34 | What | `enneagram/enneagram-tldr.md` |
 | 21 | 10 | How Each Enneagram Type Manipulates (And How to Spot It) | `enneagram/how-each-enneagram-type-manipulates.md` |
 | 18 | 16 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
 | 18 | 10 | 9 Toxic Personality Traits: The Hidden Dark Side of Each Enn... | `enneagram/toxic-traits-of-each-enneagram-type.md` |
@@ -107,7 +107,7 @@ These posts are "orphaned" - no other content links to them.
 
 | Outgoing | Incoming | Post Title | Path |
 |----------|----------|------------|------|
-| 34 | 22 | What | `enneagram/enneagram-tldr.md` |
+| 34 | 23 | What | `enneagram/enneagram-tldr.md` |
 | 16 | 18 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
 | 16 | 8 | Relationship Communication Guide: The Enneagram Key to Under... | `enneagram/relationship-communication-guide.md` |
 | 13 | 9 | Enneagram and ADHD: Which Types Struggle Most (And Why) | `enneagram/enneagram-and-adhd-which-types-struggle-most.md` |
@@ -142,7 +142,7 @@ Sorted by total connections (incoming + outgoing).
 | Total | In | Out | Post Title | Path |
 |-------|----|----|------------|------|
 | 75 | 64 | 11 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
-| 56 | 22 | 34 | What | `enneagram/enneagram-tldr.md` |
+| 57 | 23 | 34 | What | `enneagram/enneagram-tldr.md` |
 | 51 | 43 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 40 | 28 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 38 | 29 | 9 | How Each Enneagram Type Loves (And Why It Goes Wrong) | `enneagram/enneagram-types-in-relationships.md` |
@@ -181,6 +181,7 @@ Sorted by total connections (incoming + outgoing).
 | 11 | 7 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 11 | 4 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
 | 11 | 3 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
+| 11 | 3 | 8 | Enneagram Types Working in Teams | `enneagram/enneagram-types-working-in-teams.md` |
 | 11 | 2 | 9 | The Enneagram and Self-Development: A Guide to Personal Grow... | `guides/using-the-enneagram-for-self-development.md` |
 | 11 | 3 | 8 | The Dark Triad Meets the Enneagram: When Personality Turns P... | `pop-culture/dark-triad-meets-enneagram.md` |
 | 10 | 3 | 7 | MBTI Failed Us — Can the Enneagram Do Better? | `community/mbti-vs-enneagram.md` |
@@ -192,7 +193,6 @@ Sorted by total connections (incoming + outgoing).
 | 9 | 2 | 7 | Enneagram Books, Websites, Podcasts & Influencers | `enneagram/enneagram-books-websites-podcasts.md` |
 | 9 | 2 | 7 | Enneagram Parenting Styles: Why You Parent the Way You Do (A... | `enneagram/enneagram-parenting-styles.md` |
 | 9 | 3 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
-| 9 | 3 | 6 | Enneagram Types Working in Teams | `enneagram/enneagram-types-working-in-teams.md` |
 | 9 | 5 | 4 | Love Languages & Enneagram Types: The Ultimate Compatibility... | `enneagram/love-languages-and-enneagram-types.md` |
 | 9 | 5 | 4 | Philosophy and Psychology Gave Birth to the Enneagram | `enneagram/philosophy-psychology-and-the-enneagram.md` |
 | 9 | 1 | 8 | Red Flags You | `enneagram/toxic-traits-relationships-warning-signs.md` |
@@ -206,6 +206,7 @@ Sorted by total connections (incoming + outgoing).
 | 7 | 2 | 5 | 5 Reasons Reddit Can | `community/reddit-deep-connections-limitations.md` |
 | 7 | 2 | 5 | Astrology and Enneagram: Two Maps of the Same Territory | `enneagram/astrology-and-the-enneagram.md` |
 | 7 | 1 | 6 | Enneagram Compatibility: Why Charts Lie and What Actually Pr... | `enneagram/enneagram-compatibility-guide.md` |
+| 7 | 5 | 2 | The Complete Enneagram Compatibility Matrix: All 81 Type Com... | `enneagram/enneagram-compatibility-matrix.md` |
 | 7 | 1 | 6 | Why Your Team Keeps Having the Same Ideas (And How the Ennea... | `enneagram/enneagram-team-diversity.md` |
 | 7 | 0 | 7 | Enneagram Type 1: The Perfectionist - Inside the Inner Court... | `enneagram/enneagram-type-1.md` |
 | 7 | 0 | 7 | Enneagram Type 2: The Helper - The Hidden Cost of Giving | `enneagram/enneagram-type-2.md` |
@@ -223,7 +224,6 @@ Sorted by total connections (incoming + outgoing).
 | 6 | 1 | 5 | What Was The Inspiration For 9takes? | `community/inspiration-for-9takes.md` |
 | 6 | 1 | 5 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
 | 6 | 1 | 5 | How to Compliment Each Enneagram Type (Words That Actually L... | `enneagram/biggest-compliments-to-give-each-enneagram-type.md` |
-| 6 | 4 | 2 | The Complete Enneagram Compatibility Matrix: All 81 Type Com... | `enneagram/enneagram-compatibility-matrix.md` |
 | 6 | 1 | 5 | How to Throw a Party Everyone Actually Wants to Attend | `enneagram/enneagram-party-planner.md` |
 | 6 | 2 | 4 | The Voice in Your Head: Master Positive Self-Talk for Your E... | `enneagram/enneagram-positive-self-talk.md` |
 | 6 | 3 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
@@ -231,19 +231,19 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 3 | 2 | Is the Enneagram Religious? (The Truth About Its Spiritual O... | `enneagram/enneagram-and-religion.md` |
 | 5 | 3 | 2 | Enneagram Connecting Lines: The Hidden Dynamics of Growth an... | `enneagram/enneagram-connecting-lines.md` |
 | 5 | 3 | 2 | The Enneagram Under Fire: Addressing Common Criticisms & Mis... | `enneagram/enneagram-criticisms.md` |
+| 5 | 2 | 3 | Enneagram Team Dynamics: The Complete Guide to High-Performa... | `enneagram/enneagram-team-dynamics.md` |
 | 5 | 2 | 3 | Why You Hate Your Job (It | `enneagram/enneagram-types-and-career-choices.md` |
 | 5 | 1 | 4 | How Each Enneagram Type Unwinds: Decode Your Perfect Stress-... | `enneagram/how-each-enneagram-type-unwinds.md` |
 | 5 | 1 | 4 | Neurodiversity vs. Personality: Stop Looking for Labels, Sta... | `enneagram/neurodiversity-vs-personality.md` |
+| 5 | 2 | 3 | How to Read People: The 4-Step Guide to Understanding Anyone... | `guides/how-to-psychoanalyze-people.md` |
 | 5 | 2 | 3 | Reddit Moderators: Why Type 1s Run the Internet | `pop-culture/reddit-moderators-type-1-internet.md` |
 | 4 | 2 | 2 | The Consensus on Human Nature | `community/consensus-on-human-nature.md` |
 | 4 | 1 | 3 | The Hardware and Software of the Mind | `community/software-and-hardware-of-the-mind.md` |
 | 4 | 2 | 2 | What Winning Online Arguments Looks Like | `community/what-winning-online-arguments-looks-like.md` |
 | 4 | 2 | 2 | Why the Greek vibe? | `community/why-the-greek-vibe.md` |
-| 4 | 1 | 3 | Enneagram Team Dynamics: The Complete Guide to High-Performa... | `enneagram/enneagram-team-dynamics.md` |
 | 4 | 1 | 3 | Personality Maxing: The Complete Guide to Optimizing Who You... | `enneagram/personality-maxing.md` |
 | 4 | 2 | 2 | 5 Conversations That Separate Thriving Couples From Everyone... | `guides/5-tough-conversations-you-need-to-have-with-your-partner.md` |
 | 4 | 1 | 3 | The Definitive Guide to Self-Efficacy | `guides/definitive-guide-to-self-efficacy.md` |
-| 4 | 2 | 2 | How to Read People: The 4-Step Guide to Understanding Anyone... | `guides/how-to-psychoanalyze-people.md` |
 | 3 | 2 | 1 | The Enneagram Changed My Life, But I Learned to Shut Up Abou... | `community/why-im-selective-sharing-enneagram.md` |
 | 3 | 2 | 1 | Depression Patterns by Enneagram Type: How Your Personality ... | `enneagram/depression-patterns-by-enneagram-type.md` |
 | 3 | 1 | 2 | Enneagram Coach Toolkit: Transform Clients with Type-Specifi... | `enneagram/enneagram-coach-toolkit.md` |
