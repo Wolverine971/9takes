@@ -59,7 +59,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Ariana-Grande', link: true, hasImage: true, lastmod: '2025-12-22', personaTitle: 'Pop\'s Vocal Technician' },
 		{ name: 'Arnold-Schwarzenegger', link: true, hasImage: true, lastmod: '2025-04-08', personaTitle: 'The Self-Made Titan' },
 		{ name: 'Cristiano-Ronaldo', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'Football\'s Relentless Perfectionist' },
-		{ name: 'Donald-Trump', link: true, hasImage: true, lastmod: '2025-01-20', personaTitle: 'America\'s Relentless Performer' },
+		{ name: 'Donald-Trump', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'America\'s Relentless Performer' },
 		{ name: 'Drake', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'The Achiever Who Made Vulnerability Win' },
 		{ name: 'Dua-Lipa', link: true, hasImage: true, lastmod: '2025-12-07', personaTitle: 'Disco\'s Polished Revival' },
 		{ name: 'Dwayne-Johnson', link: true, hasImage: true, lastmod: '2025-04-08', personaTitle: 'The Hardest Worker in Any Room' },

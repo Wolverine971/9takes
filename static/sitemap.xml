@@ -1223,15 +1223,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
-    <lastmod>2025-01-20T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Donald-Trump.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Hillary-Clinton</loc>
     <lastmod>2025-01-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1247,6 +1238,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Paul-Rudd.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
+    <lastmod>2026-01-26T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Donald-Trump.webp</image:loc>
     </image:image>
 </url>
 <url>

@@ -327,7 +327,9 @@
 						<textarea
 							id="compose-content"
 							bind:value={htmlContent}
-							placeholder="<h1>Hello {{ name }}!</h1><p>Your email content here...</p>"
+							placeholder="<h1>Hello {{ name }}!</h1><p>Your content here...</p> — Use {{
+								name
+							}} for personalization (defaults to 'there')"
 							class="form-textarea"
 							rows="12"
 						></textarea>

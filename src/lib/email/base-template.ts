@@ -29,10 +29,10 @@ export function generateEmailHtml(options: TemplateOptions): string {
 	const year = new Date().getFullYear();
 
 	// Process content to replace placeholders
+	// Always replace {{name}} - use actual name or fallback to "there"
 	let processedContent = content;
-	if (recipientName) {
-		processedContent = processedContent.replace(/\{\{name\}\}/g, recipientName);
-	}
+	const nameReplacement = recipientName?.trim() || 'there';
+	processedContent = processedContent.replace(/\{\{\s*name\s*\}\}/gi, nameReplacement);
 
 	return `<!DOCTYPE html>
 <html lang="en">
