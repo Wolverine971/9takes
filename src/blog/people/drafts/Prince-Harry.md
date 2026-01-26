@@ -1,8 +1,8 @@
 ---
 title: 'Prince Harry: The "Spare" & Type 6 Psychology of Breaking From Royal Tradition'
-meta_title: 'Why Prince Harry Can''t Stop Fighting The Tabloids (It''s Not What You Think)'
+meta_title: "Why Prince Harry Can't Stop Fighting The Tabloids (It's Not What You Think)"
 persona_title: 'The Restless Royal'
-description: 'Harry''s contradictions make perfect sense when you understand his Type 6 psychology: trust no one until they prove themselves, protect the inner circle at all costs.'
+description: "Harry's contradictions make perfect sense when you understand his Type 6 psychology: trust no one until they prove themselves, protect the inner circle at all costs."
 author: 'DJ Wayne'
 date: '2024-09-29'
 loc: 'https://9takes.com/personality-analysis/Prince-Harry'
@@ -17,13 +17,14 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Prince-Harry.md
 ---
 
 > "I was born into this position. I inherited the risk. Those who have been dating or married to members of the Royal Family are fleeing the institution."
 
 <p class="firstLetter">Prince Harry makes contradictory choices that baffle observers. He craves privacy but writes a tell-all memoir. He left the royal family for independence but still fights to keep his prince title. He criticizes the institution but married into it knowing full well what that meant.</p>
 
-Here's what most analyses miss: these aren't contradictions at all. They're the coherent logic of an [Enneagram Type 6, the "Loyal Skeptic"](/enneagram-corner/enneagram-type-6), whose entire worldview revolves around one question: *Who can I actually trust?*
+Here's what most analyses miss: these aren't contradictions at all. They're the coherent logic of an [Enneagram Type 6, the "Loyal Skeptic"](/enneagram-corner/enneagram-type-6), whose entire worldview revolves around one question: _Who can I actually trust?_
 
 ## The 12-Year-Old Who Learned the World Isn't Safe
 

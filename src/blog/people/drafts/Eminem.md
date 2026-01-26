@@ -1,8 +1,8 @@
 ---
-title: 'Eminem: The Anxious Mind Behind Hip-Hop''s Most Dangerous Lyricist'
-meta_title: 'Why Eminem Can''t Stop Fighting: The Anxious Mind Behind the Rhymes'
-persona_title: 'Detroit''s Anxious Assassin'
-description: 'From white outsider to rap GOAT: how Eminem''s paranoia, feuds with Ja Rule and MGK, and near-fatal overdose shaped hip-hop''s most technically gifted lyricist.'
+title: "Eminem: The Anxious Mind Behind Hip-Hop's Most Dangerous Lyricist"
+meta_title: "Why Eminem Can't Stop Fighting: The Anxious Mind Behind the Rhymes"
+persona_title: "Detroit's Anxious Assassin"
+description: "From white outsider to rap GOAT: how Eminem's paranoia, feuds with Ja Rule and MGK, and near-fatal overdose shaped hip-hop's most technically gifted lyricist."
 author: 'DJ Wayne'
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/Eminem'
@@ -17,6 +17,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Eminem.md
 ---
 
 <p class="firstLetter">Eminem is a walking contradiction.</p>

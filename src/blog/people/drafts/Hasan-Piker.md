@@ -18,6 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Hasan_Piker'
 twitter: 'hasanthehun'
 instagram: 'hasand_'
 tiktok: 'hasanpiker'
+path: src/blog/people/drafts/Hasan-Piker.md
 ---
 
 > "America deserved 9/11, dude. Fuck it, I'm saying it."
@@ -249,7 +250,7 @@ Will knew him "back when he was a fat, sweaty mess." He's watched Hasan's entire
 
 "Ultimately, I'm so happy with Hasan's success and I think he's a much better rounded person now," Will has said. Then, with typical best-friend honesty: "There are days that I miss the sweaty Backyardigans version of him."
 
-Pokimane has defended their friendship when rumors circulated: "This is so f***ing gross, and untrue. Every single time I hang out with someone, some of you all are so weird. Let me live my life and be friends with who I want."
+Pokimane has defended their friendship when rumors circulated: "This is so f\*\*\*ing gross, and untrue. Every single time I hang out with someone, some of you all are so weird. Let me live my life and be friends with who I want."
 
 His only publicly confirmed relationship was with Janice Griffith from 2018-2019. After their breakup, she said they remain friends. He's been notably private about relationships since.
 

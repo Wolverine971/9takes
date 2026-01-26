@@ -1,8 +1,8 @@
 ---
 title: 'Rihanna: An Enneagram Type 8 Analysis of the Unbothered Mogul'
-meta_title: 'Inside Rihanna''s Mind: The Type 8 Psychology Behind Her Empire'
-persona_title: 'Pop''s Unbothered Mogul'
-description: 'Discover how Rihanna''s Type 8 Enneagram personality shaped her journey from Barbadian singer to billionaire mogul with three kids and a $3B empire.'
+meta_title: "Inside Rihanna's Mind: The Type 8 Psychology Behind Her Empire"
+persona_title: "Pop's Unbothered Mogul"
+description: "Discover how Rihanna's Type 8 Enneagram personality shaped her journey from Barbadian singer to billionaire mogul with three kids and a $3B empire."
 author: 'DJ Wayne'
 date: '2025-03-25'
 loc: 'https://9takes.com/personality-analysis/Rihanna'
@@ -18,13 +18,14 @@ wikipedia: 'https://en.wikipedia.org/wiki/Rihanna'
 twitter: 'https://twitter.com/rihanna'
 instagram: 'https://www.instagram.com/badgalriri/'
 tiktok: 'https://www.tiktok.com/@rihanna'
+path: src/blog/people/drafts/Rihanna.md
 ---
 
 > "I'm not that sweet, but I am honest."
 
 <p class="firstLetter">Rihanna has spent two decades proving she doesn't care what you think. She's sold over 250 million records, built two billion-dollar companies, taken nine years off from music because she felt like it, and announced multiple pregnancies while doing literally anything else. Walking the Met Gala. Headlining the Super Bowl. The most fascinating thing about her isn't the empire or the accolades. It's the psychology underneath.</p>
 
-What makes someone comfortable enough to respond to a body-shaming article with a Gucci Mane meme? To tell a fan asking about her album: "You dizzy f*ck, you're not cute enough to call me by my black name"? To disappear from music at her peak and return only when she's ready?
+What makes someone comfortable enough to respond to a body-shaming article with a Gucci Mane meme? To tell a fan asking about her album: "You dizzy f\*ck, you're not cute enough to call me by my black name"? To disappear from music at her peak and return only when she's ready?
 
 That's not just confidence. That's [Enneagram Type 8](/enneagram-corner/enneagram-type-8) energy. The Challenger who refuses to be controlled, protects what matters, and genuinely doesn't need your approval to feel complete.
 
@@ -81,7 +82,7 @@ That's not ambition. It's autonomy. She'd mastered pop, R&B, dancehall, EDM, and
 
 ## Anti: The Album That Proved She Didn't Need You
 
-After years of radio-dominating hits, Rihanna went quiet. Then came *Anti* in 2016.
+After years of radio-dominating hits, Rihanna went quiet. Then came _Anti_ in 2016.
 
 The album peaked at number one but represented, in Rolling Stone's words, "a radical shift in her creative trajectory." Gone were the uptempo dance tracks designed for maximum chart impact. In their place: atmospheric production, lo-fi beats, whiskey-coated vocals. Genre experiments that pulled from trap, psychedelic soul, '50s doo-wop ("Love on the Brain"), '80s power-pop ("Kiss It Better"), and Tame Impala covers.
 
@@ -89,7 +90,7 @@ Vocal producer Kuk Harrell said Rihanna was "far more meticulous about what she 
 
 She told Vogue it was "the result of her search for music to match my growth."
 
-*Anti* has now spent over **500 weeks** on the Billboard 200. It proved she could make exactly what she wanted and still win. Then she walked away from music for nearly a decade.
+_Anti_ has now spent over **500 weeks** on the Billboard 200. It proved she could make exactly what she wanted and still win. Then she walked away from music for nearly a decade.
 
 That's the distinction. Most artists chase relevance. Rihanna dares to disappear because she knows you won't forget her.
 
@@ -105,9 +106,9 @@ The receipts:
 - When MTV tweeted about her "controversial" Coachella marijuana photos, she replied: "@MTV Yikes... @rihanna ran out of fucks to give."
 - She told Diplo his track "sounds like a Reggae song at an airport" and named an eyeliner "Because I'm black bitch!" after shutting down a racist hair comment.
 
-Most recently, in 2025, when a fan called her "forehead" while asking about her album, she responded: "Listen, Lorenzo! You dizzy f*ck, you're not cute enough to call me by my black name!"
+Most recently, in 2025, when a fan called her "forehead" while asking about her album, she responded: "Listen, Lorenzo! You dizzy f\*ck, you're not cute enough to call me by my black name!"
 
-This isn't entertainment. It's a worldview. She explained it bluntly: "I had all these eyes on me, critic after critic after critic! I'd heard so many things I was kind of numb to it. When I had my turning point, I got enough s*** where I had to make a decision. I was like, who am I trying to please? None of these motherf***ers know me!"
+This isn't entertainment. It's a worldview. She explained it bluntly: "I had all these eyes on me, critic after critic after critic! I'd heard so many things I was kind of numb to it. When I had my turning point, I got enough s**_ where I had to make a decision. I was like, who am I trying to please? None of these motherf_**ers know me!"
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/3KNFzBOtESk?si=xS6JnGNuyvFp7IsJ&amp;start=198" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -119,7 +120,7 @@ The clapbacks obscure something important: Rihanna feels things deeply.
 
 "I'm not generally a sensitive person, but I tend to be more sensitive toward others and what they're going through. I don't know if that's the healthiest thing, but it's the truth," she told Harper's Bazaar.
 
-When Chris Brown's assault left her wounded, she didn't retreat into silence. She processed it through *Rated R*. Dark, raw, unflinching. Pain transformed into art, art into power.
+When Chris Brown's assault left her wounded, she didn't retreat into silence. She processed it through _Rated R_. Dark, raw, unflinching. Pain transformed into art, art into power.
 
 As she's said: "It's tougher to be vulnerable than to actually be tough."
 
@@ -221,13 +222,13 @@ Three kids under four. A multi-billion dollar empire. Already considering anothe
 
 ## The Nine-Year Silence: What the Music Hiatus Reveals
 
-Fans have been waiting a decade for a follow-up to *Anti*. For most artists, that silence would be career suicide. For Rihanna, it's a statement.
+Fans have been waiting a decade for a follow-up to _Anti_. For most artists, that silence would be career suicide. For Rihanna, it's a statement.
 
 "I used to be in the studio, only the studio, for three months straight," she told Interview. "Now it's like a carousel. I do fashion one day, lingerie the next, beauty the next, then music the next."
 
 Under pressure, she withdraws rather than performs. The Type 8's [stress pattern](/enneagram-corner/enneagram-type-5) is retreat into privacy and analysis. Regrouping until conditions feel right.
 
-In 2025, rumors swirled about a world tour celebrating *Anti*'s 10-year anniversary. Six shows at London Stadium were reportedly scheduled. Then Rihanna pulled the plug days before the announcement, citing production and scheduling issues.
+In 2025, rumors swirled about a world tour celebrating _Anti_'s 10-year anniversary. Six shows at London Stadium were reportedly scheduled. Then Rihanna pulled the plug days before the announcement, citing production and scheduling issues.
 
 Disappointment from fans? Sure. Did she care? No evidence suggests so.
 

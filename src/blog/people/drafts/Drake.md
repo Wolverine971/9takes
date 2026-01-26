@@ -1,7 +1,7 @@
 ---
 title: "Drake's Enneagram Type: The Psychology Behind Hip-Hop's Most Vulnerable Achiever"
 meta_title: "Why Drake Can't Stop Fighting After Losing to Kendrick Lamar"
-persona_title: "The Achiever Who Made Vulnerability Win"
+persona_title: 'The Achiever Who Made Vulnerability Win'
 description: "Drake's Type 3 psychology explains everything: the outsider wound, the weaponized vulnerability, and why he cannot accept defeat against Kendrick Lamar."
 author: 'DJ Wayne'
 date: '2025-06-25'
@@ -18,6 +18,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+path: src/blog/people/drafts/Drake.md
 ---
 
 > "Everybody has an addiction; mine happens to be success."
@@ -240,4 +241,3 @@ But Type 3s don't disappear after failure. They work obsessively to prove the do
 The question isn't whether Drake will keep fighting. The question is whether he can ever stop.
 
 > **Disclaimer** This analysis of Drake's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Drake.
-
