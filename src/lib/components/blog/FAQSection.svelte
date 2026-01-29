@@ -1,3 +1,4 @@
+<!-- src/lib/components/blog/FAQSection.svelte -->
 <!-- FAQSection.svelte - Reusable FAQ component for cluster/index pages -->
 <script lang="ts">
 	import type { FAQItem } from '$lib/types/faq';

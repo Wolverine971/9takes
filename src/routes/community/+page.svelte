@@ -18,17 +18,17 @@
 		{
 			question: 'Why focus on personality types for Q&A?',
 			answer:
-				'Most platforms show you popular opinions. We show you diverse perspectives based on how people actually think. A Type 5\'s analytical response differs from a Type 2\'s empathetic take. Seeing this range expands your understanding and reduces judgment of others.'
+				"Most platforms show you popular opinions. We show you diverse perspectives based on how people actually think. A Type 5's analytical response differs from a Type 2's empathetic take. Seeing this range expands your understanding and reduces judgment of others."
 		},
 		{
 			question: 'What does "give-first" commenting mean?',
 			answer:
-				'Before viewing others\' responses, you must contribute your own perspective. This prevents groupthink and ensures authentic answers. You\'ll see the diversity of thought only after adding your voice. It\'s designed to promote genuine expression over social conformity.'
+				"Before viewing others' responses, you must contribute your own perspective. This prevents groupthink and ensures authentic answers. You'll see the diversity of thought only after adding your voice. It's designed to promote genuine expression over social conformity."
 		},
 		{
 			question: 'How is my Enneagram type used?',
 			answer:
-				'Your type adds context to your responses, helping others understand where you\'re coming from. It\'s displayed alongside your answer so readers can see patterns in how different types think. You can participate anonymously while still contributing personality-based insights.'
+				"Your type adds context to your responses, helping others understand where you're coming from. It's displayed alongside your answer so readers can see patterns in how different types think. You can participate anonymously while still contributing personality-based insights."
 		},
 		{
 			question: 'Who creates content for 9takes?',
@@ -62,8 +62,8 @@
 		<!-- Intro Section -->
 		<section class="intro-section">
 			<p class="intro-text">
-				One situation, 9 ways to see it. 9takes explores how personality shapes perspective. Discover
-				the ideas and inspirations behind our platform, and see why
+				One situation, 9 ways to see it. 9takes explores how personality shapes perspective.
+				Discover the ideas and inspirations behind our platform, and see why
 				<strong>understanding different takes leads to deeper connection</strong>.
 			</p>
 		</section>

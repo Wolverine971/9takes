@@ -23,12 +23,12 @@
 		{
 			question: 'Do I need to know my Enneagram type to use these guides?',
 			answer:
-				'Knowing your type helps you apply guides more effectively, but they work even if you\'re unsure. Many guides cover all 9 types, so you can identify which approach resonates with you. Use the guides as both practical advice and self-discovery tools.'
+				"Knowing your type helps you apply guides more effectively, but they work even if you're unsure. Many guides cover all 9 types, so you can identify which approach resonates with you. Use the guides as both practical advice and self-discovery tools."
 		},
 		{
 			question: 'How can I apply these guides to my relationships?',
 			answer:
-				'Start by understanding your type\'s communication style and blind spots. Then identify patterns in your conflicts. Our relationship guides show how different types misunderstand each other and provide scripts for bridging those gaps in specific situations.'
+				"Start by understanding your type's communication style and blind spots. Then identify patterns in your conflicts. Our relationship guides show how different types misunderstand each other and provide scripts for bridging those gaps in specific situations."
 		},
 		{
 			question: 'Are these guides based on research?',

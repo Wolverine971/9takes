@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-01-26_
+_Generated: 2026-01-29_
 _Total Posts Analyzed: 120 (Published: 111, Unpublished: 9)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -17,8 +17,8 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Posts with 0 outgoing links | 6 |
 | Posts with 0 incoming links | 16 |
 | Completely isolated (0 in, 0 out) | 4 |
-| Total internal cross-links | 735 |
-| Average outgoing links per post | 6.1 |
+| Total internal cross-links | 739 |
+| Average outgoing links per post | 6.2 |
 
 ---
 
@@ -56,6 +56,7 @@ These posts are "orphaned" - no other content links to them.
 
 | Post Title | Path | Outgoing Links |
 |------------|------|----------------|
+| Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` | 9 |
 | Enneagram Type 1: The Perfectionist - Inside the Inner Court... | `enneagram/enneagram-type-1.md` | 7 |
 | Enneagram Type 2: The Helper - The Hidden Cost of Giving | `enneagram/enneagram-type-2.md` | 7 |
 | Enneagram Type 3: The Achiever - When Success Becomes Identi... | `enneagram/enneagram-type-3.md` | 7 |
@@ -63,8 +64,7 @@ These posts are "orphaned" - no other content links to them.
 | Enneagram Type 5: The Observer - Inside the Fortress Mind | `enneagram/enneagram-type-5.md` | 7 |
 | Enneagram Type 6: The Loyalist - The Search for Solid Ground | `enneagram/enneagram-type-6.md` | 7 |
 | Enneagram Type 7: The Enthusiast - The Possibility Engine | `enneagram/enneagram-type-7.md` | 7 |
-| Enneagram Type 8: The Challenger - Behind the Armor | `enneagram/enneagram-type-8.md` | 7 |
-| Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` | 7 |
+| Enneagram Type 8: The Challenger | `enneagram/enneagram-type-8.md` | 7 |
 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` | 2 |
 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` | 1 |
 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` | 1 |
@@ -129,9 +129,9 @@ These posts are "orphaned" - no other content links to them.
 | 10 | 3 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
 | 9 | 27 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 9 | 3 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |
+| 9 | 0 | Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
 | 9 | 29 | How Each Enneagram Type Loves (And Why It Goes Wrong) | `enneagram/enneagram-types-in-relationships.md` |
 | 9 | 11 | Enneagram Types on a First Date: What to Expect | `enneagram/enneagram-types-on-a-first-date.md` |
-| 9 | 11 | Crisis Management by Enneagram Type: Your Emergency Mental H... | `enneagram/mental-health/enneagram-crisis-management-guide.md` |
 
 ---
 
@@ -177,8 +177,8 @@ Sorted by total connections (incoming + outgoing).
 | 13 | 8 | 5 | Shadow Work by Enneagram Type: Your Dark Side Has a Pattern | `enneagram/shadow-work-by-enneagram-type.md` |
 | 13 | 3 | 10 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
 | 12 | 3 | 9 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |
+| 12 | 8 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 11 | 6 | 5 | Attachment Styles and Enneagram Types: Why the Same Style Lo... | `enneagram/attachment-styles-and-enneagram-types.md` |
-| 11 | 7 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 11 | 4 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
 | 11 | 3 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
 | 11 | 3 | 8 | Enneagram Types Working in Teams | `enneagram/enneagram-types-working-in-teams.md` |
@@ -193,6 +193,7 @@ Sorted by total connections (incoming + outgoing).
 | 9 | 2 | 7 | Enneagram Books, Websites, Podcasts & Influencers | `enneagram/enneagram-books-websites-podcasts.md` |
 | 9 | 2 | 7 | Enneagram Parenting Styles: Why You Parent the Way You Do (A... | `enneagram/enneagram-parenting-styles.md` |
 | 9 | 3 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
+| 9 | 0 | 9 | Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
 | 9 | 5 | 4 | Love Languages & Enneagram Types: The Ultimate Compatibility... | `enneagram/love-languages-and-enneagram-types.md` |
 | 9 | 5 | 4 | Philosophy and Psychology Gave Birth to the Enneagram | `enneagram/philosophy-psychology-and-the-enneagram.md` |
 | 9 | 1 | 8 | Red Flags You | `enneagram/toxic-traits-relationships-warning-signs.md` |
@@ -200,11 +201,13 @@ Sorted by total connections (incoming + outgoing).
 | 8 | 2 | 6 | Enneagram Leadership Styles: Why Your Natural Approach Keeps... | `enneagram/enneagram-leadership.md` |
 | 8 | 3 | 5 | Transforming Workplace Teams Using Enneagram: A Leader | `enneagram/enneagram-workplace-team-building.md` |
 | 8 | 2 | 6 | Read Anyone in 30 Seconds: The Enneagram Body Language Cheat... | `enneagram/first-impression-enneagram-playbook.md` |
+| 8 | 1 | 7 | How All 9 Enneagram Types Flex: Revealing Each Type | `enneagram/how-each-enneagram-flexes.md` |
 | 8 | 2 | 6 | The Definitive Guide to Relationship Conflict [Part 1] | `guides/definitive-guide-to-relationship-conflict-part-1.md` |
 | 8 | 1 | 7 | Why Your Arguments Keep Repeating (And the Exercises That Ac... | `guides/definitive-guide-to-relationship-conflict-part-2.md` |
 | 7 | 2 | 5 | Echoes Online: The Power of Memetic Comments | `community/memetic-comments.md` |
 | 7 | 2 | 5 | 5 Reasons Reddit Can | `community/reddit-deep-connections-limitations.md` |
 | 7 | 2 | 5 | Astrology and Enneagram: Two Maps of the Same Territory | `enneagram/astrology-and-the-enneagram.md` |
+| 7 | 2 | 5 | How to Compliment Each Enneagram Type (Words That Actually L... | `enneagram/biggest-compliments-to-give-each-enneagram-type.md` |
 | 7 | 1 | 6 | Enneagram Compatibility: Why Charts Lie and What Actually Pr... | `enneagram/enneagram-compatibility-guide.md` |
 | 7 | 5 | 2 | The Complete Enneagram Compatibility Matrix: All 81 Type Com... | `enneagram/enneagram-compatibility-matrix.md` |
 | 7 | 1 | 6 | Why Your Team Keeps Having the Same Ideas (And How the Ennea... | `enneagram/enneagram-team-diversity.md` |
@@ -215,30 +218,27 @@ Sorted by total connections (incoming + outgoing).
 | 7 | 0 | 7 | Enneagram Type 5: The Observer - Inside the Fortress Mind | `enneagram/enneagram-type-5.md` |
 | 7 | 0 | 7 | Enneagram Type 6: The Loyalist - The Search for Solid Ground | `enneagram/enneagram-type-6.md` |
 | 7 | 0 | 7 | Enneagram Type 7: The Enthusiast - The Possibility Engine | `enneagram/enneagram-type-7.md` |
-| 7 | 0 | 7 | Enneagram Type 8: The Challenger - Behind the Armor | `enneagram/enneagram-type-8.md` |
-| 7 | 0 | 7 | Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
+| 7 | 0 | 7 | Enneagram Type 8: The Challenger | `enneagram/enneagram-type-8.md` |
 | 7 | 3 | 4 | Enneagram vs Myers-Briggs: Which Actually Explains You Bette... | `enneagram/enneagram-vs-meyers-briggs.md` |
-| 7 | 1 | 6 | How All 9 Enneagram Types Flex: Revealing Each Type | `enneagram/how-each-enneagram-flexes.md` |
 | 7 | 1 | 6 | Why People Overshare: The Psychology of Shame, Boundaries, a... | `enneagram/oversharing-psychology-shame-boundaries.md` |
 | 7 | 3 | 4 | The Counterintuitive Guide to Active Listening: Why Your Per... | `guides/ultimate-guide-to-active-listening.md` |
 | 6 | 1 | 5 | What Was The Inspiration For 9takes? | `community/inspiration-for-9takes.md` |
 | 6 | 1 | 5 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
-| 6 | 1 | 5 | How to Compliment Each Enneagram Type (Words That Actually L... | `enneagram/biggest-compliments-to-give-each-enneagram-type.md` |
 | 6 | 1 | 5 | How to Throw a Party Everyone Actually Wants to Attend | `enneagram/enneagram-party-planner.md` |
 | 6 | 2 | 4 | The Voice in Your Head: Master Positive Self-Talk for Your E... | `enneagram/enneagram-positive-self-talk.md` |
+| 6 | 3 | 3 | Why You Hate Your Job (It | `enneagram/enneagram-types-and-career-choices.md` |
 | 6 | 3 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
+| 6 | 2 | 4 | How to Read People: The 4-Step Guide to Understanding Anyone... | `guides/how-to-psychoanalyze-people.md` |
+| 5 | 2 | 3 | The Hardware and Software of the Mind | `community/software-and-hardware-of-the-mind.md` |
 | 5 | 3 | 2 | The 90-Day Personality Maxing Blueprint: Transform Your Mind... | `enneagram/90-day-personality-maxing-blueprint.md` |
 | 5 | 3 | 2 | Is the Enneagram Religious? (The Truth About Its Spiritual O... | `enneagram/enneagram-and-religion.md` |
 | 5 | 3 | 2 | Enneagram Connecting Lines: The Hidden Dynamics of Growth an... | `enneagram/enneagram-connecting-lines.md` |
 | 5 | 3 | 2 | The Enneagram Under Fire: Addressing Common Criticisms & Mis... | `enneagram/enneagram-criticisms.md` |
 | 5 | 2 | 3 | Enneagram Team Dynamics: The Complete Guide to High-Performa... | `enneagram/enneagram-team-dynamics.md` |
-| 5 | 2 | 3 | Why You Hate Your Job (It | `enneagram/enneagram-types-and-career-choices.md` |
 | 5 | 1 | 4 | How Each Enneagram Type Unwinds: Decode Your Perfect Stress-... | `enneagram/how-each-enneagram-type-unwinds.md` |
 | 5 | 1 | 4 | Neurodiversity vs. Personality: Stop Looking for Labels, Sta... | `enneagram/neurodiversity-vs-personality.md` |
-| 5 | 2 | 3 | How to Read People: The 4-Step Guide to Understanding Anyone... | `guides/how-to-psychoanalyze-people.md` |
 | 5 | 2 | 3 | Reddit Moderators: Why Type 1s Run the Internet | `pop-culture/reddit-moderators-type-1-internet.md` |
 | 4 | 2 | 2 | The Consensus on Human Nature | `community/consensus-on-human-nature.md` |
-| 4 | 1 | 3 | The Hardware and Software of the Mind | `community/software-and-hardware-of-the-mind.md` |
 | 4 | 2 | 2 | What Winning Online Arguments Looks Like | `community/what-winning-online-arguments-looks-like.md` |
 | 4 | 2 | 2 | Why the Greek vibe? | `community/why-the-greek-vibe.md` |
 | 4 | 1 | 3 | Personality Maxing: The Complete Guide to Optimizing Who You... | `enneagram/personality-maxing.md` |

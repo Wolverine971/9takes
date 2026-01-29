@@ -1,4 +1,5 @@
 <!-- docs/famous-profile-readers.md -->
+
 # Potential Readers (Published Personality Profiles)
 
 Generated from `src/lib/components/molecules/famousTypes.ts` on 2026-01-26.

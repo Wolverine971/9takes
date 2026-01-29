@@ -16,12 +16,7 @@
 </script>
 
 <p class="article-meta">
-	<span
-		class="author"
-		itemprop="author"
-		itemscope
-		itemtype="https://schema.org/Person"
-	>
+	<span class="author" itemprop="author" itemscope itemtype="https://schema.org/Person">
 		<a
 			itemprop="url"
 			class="external-link"

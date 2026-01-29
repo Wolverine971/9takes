@@ -147,7 +147,8 @@
 			"WebFetch(domain:www.yahoo.com)",
 			"WebFetch(domain:www.rogerebert.com)",
 			"WebFetch(domain:bossip.com)",
-			"WebFetch(domain:www.nme.com)"
+			"WebFetch(domain:www.nme.com)",
+			"WebFetch(domain:www.hollywoodreporter.com)"
 		],
 		"deny": [],
 		"ask": [],

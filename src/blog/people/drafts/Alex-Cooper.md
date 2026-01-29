@@ -1,18 +1,19 @@
 ---
-title: 'Alex Cooper: Call Her Daddy & The Type 7 Psychology Behind Her Media Empire'
-description: "A look into Alex Cooper's inner world. See how her zest for life, entrepreneurial spirit, and candid conversations all stem from her Enneagram Type 7 personality."
+title: 'Alex Cooper: The Type 7 Behind Call Her Daddy’s Unwell Empire'
+meta_title: "Why Alex Cooper Can't Stop Building (The Psychology Behind Her Empire)"
+persona_title: "Podcasting's Unfiltered Architect"
+description: 'A psychological read of Alex Cooper. See how Enneagram Type 7 drives her reinventions, from Call Her Daddy to The Unwell Network and beyond.'
 author: 'DJ Wayne'
 date: '2023-08-29'
 loc: 'https://9takes.com/personality-analysis/Alex-Cooper'
-lastmod: '2025-12-03'
+lastmod: '2026-01-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['creator']
 person: 'Alex-Cooper'
-suggestions:
-  ['Alix Earle', 'Emily Ratajkowski', 'Dave Portnoy', 'Kai Cenat', 'Joe Rogan', 'Logan Paul']
+suggestions: ['Emily Ratajkowski', 'Dave Portnoy', 'Kai Cenat', 'Joe Rogan', 'Logan Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Call_Her_Daddy'
 twitter: 'alexandracooper'
 instagram: 'alexandracooper'
@@ -20,57 +21,64 @@ tiktok: 'callherdaddy'
 path: src/blog/people/drafts/Alex-Cooper.md
 ---
 
-> "I always used to say, 'I'm never getting married.' I thought it would threaten my independence — no man should be able to say that I'm his. My view changed with Matt."
+> "I always used to say, 'I'm never getting married.' I thought it would threaten my independence. No man should be able to say that I'm his. My view changed with Matt."
 
 <p class="firstLetter">You've heard her voice. You've seen her Instagram. You've probably laughed along with her unfiltered takes on relationships, sex, and life.</p>
 
-Alex Cooper built "Call Her Daddy" from an apartment podcast into a $125 million empire. But 2025 cracked open something deeper: a Hulu documentary revealing decade-old trauma, candid admissions about delaying motherhood, and the kind of vulnerability that reminded everyone the "founding father" is still figuring it out.
+Alex Cooper built "Call Her Daddy" from an apartment podcast into a media franchise worth a reported nine figures. Net worth: estimated $60 million. January 2026: Golden Globes in Gucci and 110 carats of Lorraine Schwartz diamonds, nominated in the ceremony's inaugural Best Podcast category.
 
-What actually drives someone to build this? What's the psychological engine behind the relentless expansion, the willingness to discuss anything on-air, the ability to make celebrities spill secrets they've never shared?
+But her 2025 Hulu docuseries [_Call Her Alex_](https://press.hulu.com/shows/call-her-alex/) revealed something else. The show spotlights sexual harassment allegations Cooper says she endured as a Boston University soccer player. Trauma she'd buried for a decade.
 
-The Enneagram offers a map.
+So what drives someone to build relentlessly, talk about anything on-air, and get celebrities to reveal the parts they usually keep hidden?
+
+The Enneagram offers one useful map.
 
 <details>
 <summary class="accordion">TL;DR: Why Alex Cooper is an Enneagram Type 7</summary>
 <div class="panel">
 <ul>
-<li><b>The Fearless Media Maverick</b>: Alex's evolution from the raunchy beginnings of "Call Her Daddy" to "Gen-Z's Barbara Walters" to documentary subject showcases classic Type 7 versatility. Her constant reinvention—podcasts, beverages, TV production, creative agency—mirrors her personality: always exploring, never stagnant.</li>
-<li><b>The Inner World of Alex Cooper</b>: Behind the confident exterior lies a Type 7's core fear of being trapped or limited. This explains her bold exit from Barstool Sports, her $125 million SiriusXM pivot, and even her candid 2025 admission about delaying motherhood to "grind at work and be selfish a little longer."</li>
-<li><b>The "Daddy Gang" Revolution</b>: Alex transformed a simple podcast into a cultural movement and media company employing nearly 100 people. Her Type 7 enthusiasm created a community that evolved from sex talk to celebrity interviews to meaningful conversations about trauma and empowerment.</li>
-<li><b>From Controversy to Courage</b>: The 2025 "Call Her Alex" documentary revealed Alex's long-suppressed trauma from alleged sexual harassment at Boston University. Coming forward after a decade demonstrates Type 7 growth—facing painful emotions rather than escaping them.</li>
+<li><b>Freedom-First Founder</b>: Cooper keeps reinventing—from the raunchy early days of "Call Her Daddy" to A-list interviews, a beverage line, and the first-ever Golden Globes podcast nomination. Type 7s chase variety and resist getting boxed in.</li>
+<li><b>Momentum as a Strategy</b>: Behind the jokes is a core fear of limitation. You can hear it in how she talks about work, independence, and delaying motherhood so she can "grind at work and be selfish a little longer."</li>
+<li><b>The "Daddy Gang" Flywheel</b>: She didn’t just build a podcast, she built a culture. Type 7 enthusiasm scales, and her audience followed her from sex talk to celebrity interviews to harder conversations about ambition, identity, and pain.</li>
+<li><b>Not Type 3 or Type 8</b>: From the outside, she can look like an Achiever (Type 3) or Challenger (Type 8). The motive reads Type 7: freedom, options, fast pivots, and a refusal to stay in one box.</li>
+<li><b>From Escape to Exposure</b>: In <em>Call Her Alex</em> (2025), Cooper shares painful experiences from Boston University and what it looks like when a Type 7 stops outrunning the hard stuff.</li>
 </ul>
 </div>
 </details>
 
 ## What Makes Alex Cooper Tick?
 
-Watch any interview with Alex. The rapid-fire speech. The pivot from topic to topic. The refusal to let a conversation get boring.
+Watch any interview with Alex. The speed. The quick cuts. The instinct to turn tension into a joke, then ask the uncomfortable question anyway.
 
-This is [Enneagram Type 7](/enneagram-corner/enneagram-type-7) energy, pure and unfiltered.
+That's [Enneagram Type 7](/enneagram-corner/enneagram-type-7) energy: high curiosity, high momentum, low tolerance for anything that feels like a cage.
 
-Forbes ranked her the 7th highest-earning creator in 2024 at $32 million. That number didn't happen by accident. It happened because Type 7s are wired for exactly what Alex does: chase opportunities, adapt instantly, and make the whole thing look fun.
+She said it herself in a 2025 Marie Claire interview: "I want to create new conversations. I want to create new IP. I want to create new ventures. I want to expand. I want to acquire. I want to do it all."
 
-### The Type 7 Pattern
+At their best, Type 7s channel restlessness into creativity and resilience. At their worst, that same energy becomes avoidance dressed up as ambition. Cooper's career shows both, sometimes in the same season.
 
-Type 7s are experience-seekers. They chase novelty, avoid pain, and somehow make relentless ambition seem effortless.
+### Why Type 7 (and not Type 3 or Type 8)?
 
-The pattern shows up as:
+Her ambition can look like [Type 3](/enneagram-corner/enneagram-type-3) ("achieve and be admired") or [Type 8](/enneagram-corner/enneagram-type-8) ("be powerful and in control"). But the motive reads differently.
 
-- Optimism that borders on stubborn
-- Quick thinking and faster pivoting
-- Natural magnetism (people want to be around them)
-- Opportunity radar always scanning
-- Allergic to feeling trapped or limited
+Type 3s chase external validation and polish their image. Type 8s confront and dominate. Cooper tends to charm, riff, and pivot. When something stops feeling expansive, she moves.
 
-Every one of these traits shows up in how Alex runs her business, conducts interviews, and navigates controversy.
+You see it in her biggest turns: the pivot after the 2020 "Daddy Divorce," the shift into A-list interviews, the "Unwell" expansion into products, TV, and agency work.
+
+A healthy Type 7 integrates toward Type 5: slowing down, developing expertise, sitting with discomfort instead of sprinting past it. An unhealthy 7 slides toward Type 1 rigidity under stress, becoming more controlling, more convinced they need to "set the record straight." Both patterns show up in Cooper's story.
 
 ## The Making of a Media Mogul
 
 ### From Soccer Fields to Studio Microphones
 
-Born August 21, 1994, in Newtown, Pennsylvania. Father: former University of Wisconsin hockey player turned TV sports producer. Mother: psychologist.
+Alex Cooper was born August 21, 1994, in Newtown, Pennsylvania. Her father, Bryan Cooper, spent over three decades as a broadcast producer for the Philadelphia Flyers. Her mother, Laurie, is a school psychologist.
 
-That combination matters. The athletic competitiveness. The psychological instinct for making people open up.
+That pairing explains more than it seems.
+
+Bryan introduced cameras into the home early. Alex grew up filming comedy skits and impersonations in their basement, "enamored" by her father's career. She followed his path, majoring in film and television at Boston University.
+
+Laurie shaped the other half: "A lot of what I'm doing goes back to just what my mother taught me from a young age, which is making someone feel seen and heard and understood."
+
+The result? A broadcaster's instincts for content plus a psychologist's instincts for people.
 
 Alex earned a Division I soccer scholarship to Boston University, logging 49 appearances for the Terriers from 2013 to 2015. This background explains both her work ethic and her comfort with locker-room talk.
 
@@ -88,135 +96,146 @@ Then 2018 happened.
 
 Alex and Sofia Franklyn launched "Call Her Daddy" from their New York apartment.
 
-The numbers: 12,000 downloads to 2 million in two months. Barstool Sports acquired the show almost immediately.
+Downloads reportedly jumped from around 12,000 to 2 million within two months. Barstool Sports acquired the show almost immediately.
 
 The early episodes were raw, raunchy, revolutionary. Alex and Sofia flipped the script on sex talk, giving women permission to be as bold and unapologetic as men had always been. The infamous "Gluck Gluck 9000" episode became legend.
 
 This is classic Type 7 territory: pushing boundaries, making it look effortless, turning taboo into entertainment.
 
-Then came the 2020 "Daddy Divorce." Sofia departed amid contract disputes. Alex could have crumbled. Instead, she pivoted, seized full creative control, and evolved the show beyond its original formula.
+Then came the 2020 "Daddy Divorce"—the formative crisis that reveals how Cooper handles conflict.
 
-The messy truth? The public largely heard one side.
+During contract renegotiations with Barstool, Dave Portnoy offered both hosts a deal to gain ownership of the "Call Her Daddy" IP if they stayed one more year. Alex accepted. Sofia wanted more—reportedly $1 million per host plus increased merchandise revenue.
 
-Barstool's Dave Portnoy and Alex framed Sofia as "greedy and disloyal" for wanting a better deal. Sofia has since claimed she was "villainized" unfairly. "The betrayal piece was more upsetting than the financial piece," she told the _Trading Secrets_ podcast. She alleged Alex negotiated behind her back, was "willing to stomp" on their friendship for a $60 million payday. Sofia initially chose silence but later reflected that many "pieces were missing" from the public narrative.
+The public narrative, shaped by Portnoy and Alex, was clear: Sofia's greed killed the partnership.
 
-Whatever the actual truth, the split became a masterclass in Type 7 reframing. Alex turned professional crisis into an origin story.
+Sofia's version, shared years later, is different. In a 2023 Rolling Stone interview, she said: "The betrayal piece was more upsetting than the financial piece. I go to bed resting my head on my pillow knowing I'm a good person, I have not done shady s--t or f--ked up s--t or backhanded s--t to get ahead financially."
 
-Today's "Call Her Daddy" features intimate conversations with <a href="/personality-analysis/Miley-Cyrus">Miley Cyrus</a>, <a href="/personality-analysis/Hailey-Bieber">Hailey Bieber</a>, and Vice President <a href="/personality-analysis/Kamala-Harris">Kamala Harris</a>. Rolling Stone dubbed Alex "Gen-Z's Barbara Walters." From shock jock to skilled interviewer.
+The core allegation: Alex negotiated separately without telling her. "There's no way in hell I would speak to our boss without you, that would be f--king crazy, and I don't think that went both ways."
+
+Sofia also claims she discovered Alex had a relationship with Portnoy she wasn't aware of: "I found out later [Cooper and Portnoy] 1,000 percent had this relationship that I wasn't aware of and not a part of."
+
+When Alex later sold to Spotify for $60 million, Sofia called it vindication: "I think [Cooper] selling it for that amount was just a testament to what I was saying the entire time, which is what I was chastised for. I was called greedy beyond belief."
+
+In her 2025 documentary, Alex's counter-narrative is simple: "It was the classic, 'You think you see something online and people genuinely believe you're like sisters, but our relationship was so awful.'"
+
+Whatever the actual truth, the split shows the Type 7 pattern under stress: control the story, reframe the loss as liberation, keep moving. Sofia stayed silent and struggled. Alex went loud and leveled up.
+
+By 2021, "Call Her Daddy" had left Barstool for Spotify. The show shifted from sex tips to celebrity interviews: <a href="/personality-analysis/Miley-Cyrus">Miley Cyrus</a>, <a href="/personality-analysis/Hailey-Bieber">Hailey Bieber</a>, Vice President <a href="/personality-analysis/Kamala-Harris">Kamala Harris</a> (October 2024). Rolling Stone dubbed Alex "Gen-Z's Barbara Walters."
 
 ### The Art of Getting People to Talk
 
 How does Alex get celebrities to reveal things they've never shared?
 
-It's part Type 7 charm, part her psychologist mother's influence. Three techniques stand out:
+She's talked about the contrast with typical press interviews: "I have been interviewed before, and often it feels the interviewer is not listening or is trying to work their angle and agenda... the host is looking five inches to the right of my head and reading a teleprompter... It's very dehumanizing."
 
-**She kills the interview vibe.** "I treat guests as if we are sitting in my living room and we are getting to know each other." She records in sweats. She interviewed Kamala Harris in a hoodie. The informality is deliberate. It lowers defenses.
+Her counter-approach: "I treat them as if we are sitting in my living room and we are getting to know each other."
 
-**She actually listens.** Alex cites Oprah as her model: "Oprah was really the first person that was actually listening." Unlike hosts reading teleprompters, Alex stays present. "I have been on many shows where the host is looking five inches to the right of my head and reading a teleprompter. It's very dehumanizing."
+Three techniques stand out:
 
-**Flow beats structure.** If a guest goes off-track but is passionate, Alex follows. "Flow is much more important than following a structure." This creates the spontaneous moments that go viral.
+- **Flow over structure.** "Flow is much more important than following a structure I had in my head prior to sitting down for the interview." If something emotional shows up, she stays there.
+- **Room for mess.** Silence, oversharing, awkward details. She doesn't rush to clean it up.
+- **Admitted nerves.** For her first Miley Cyrus interview (2020): "I was like Alex, just get your name out and ask her at least five questions without, like, throwing up."
 
-The proof? When Miley Cyrus appeared in 2020, she opened up about losing her virginity to Liam Hemsworth, her guilt about privilege, processing heartbreak through lists. These weren't talking points. These were admissions from someone who felt safe enough to be unguarded.
+The technique works. When Alex asked Miley when she first realized she wasn't only attracted to men, Miley revealed she was attracted to women first. She hadn't shared that elsewhere.
 
-When Vice President Harris sat down in October 2024, the 45-minute conversation produced genuinely revealing moments: Harris pushing back on Sarah Huckabee Sanders' claim about humility, discussing her mother's tough-love parenting, exploring what agency means to her. Whether you found it too soft or refreshingly personal, it showed Alex can make even presidential candidates seem human.
+The <a href="/personality-analysis/Hailey-Bieber">Hailey Bieber</a> interview (2022) showed trust in action. Before addressing the Selena Gomez timeline controversy for the first and only time, Hailey reportedly told Alex: "I know I met you once, but I trust you and I really respect your platform." That episode sent "Call Her Daddy" to #1 on Spotify in nine countries.
 
-This trajectory mirrors Type 7 growth. Surface excitement evolves into deeper substance. The spark stays.
+For the <a href="/personality-analysis/Kamala-Harris">Kamala Harris</a> interview (October 2024), Alex had 40 minutes with no topics off limits. She asked: "People are so frustrated and just exhausted with politics in general. They don't feel incentivized to vote because they feel like politicians are essentially over-promising, under-delivering. Why should we trust you?"
+
+The result: a show that often feels less like an interview and more like a friend confessing on a couch.
 
 ### The Unwell Empire: 2024-2025 Expansion
 
-Alex's ambitions extend far beyond her own podcast. And 2025 has been explosive.
+By 2025, "Unwell" had evolved from a brand into a business stack: podcast network, production company, creative agency, beverage line.
 
-**The SiriusXM Era**
+The highlights: a three-year SiriusXM deal reported at up to $125 million (<a href="https://www.prnewswire.com/news-releases/siriusxm-scores-new-alex-cooper-deal-for-call-her-daddy-and-more-302227294.html">source</a>), podcast acquisitions, a creative agency with Google as launch partner, Unwell Beverages (on track for eight-figure revenue by August 2025), and "Love Overboard," a Hulu dating show from Unwell Productions. Reports put her company at close to 100 employees.
 
-August 2024: $125 million deal with SiriusXM. Three years. Exclusive advertising rights for her entire Unwell Network lineup. February 2025 brought two new channels: Unwell Music (songs that have "scored her life") and Unwell On Air (live programming).
-
-**Network Acquisitions**
-
-January 2025: The Unwell Network acquired true crime podcast "Going West" and lifestyle podcast "Cheers!" First acquisitions of existing shows.
-
-**Creative Agency + Google**
-
-October 2025: The Unwell Creative Agency launched, connecting brands with Gen Z women through sponsored content, live events, and podcasting partnerships. Launch partner? Google. A tech giant betting on Cooper's cultural pull.
-
-**Unwell Hydration**
-
-Alex expanded into beverages with Unwell Hydration, launching exclusively at Target stores nationwide in January 2025. Three flavors. Electrolytes, B-complex vitamins, green coffee extract. Direct competition with <a href="/personality-analysis/Logan-Paul">Logan Paul</a>'s PRIME.
-
-**Television**
-
-She's producing "Overboard for Love," a dating show set on a luxury yacht, for Hulu. First series for Unwell Productions.
-
-This relentless expansion into new territories is pure Type 7. Always seeking the next horizon. Building a life packed with variety and stimulation. Her company now employs nearly 100 people.
+The expansion reveals the psychology: when one lane peaks, build another. But the speed raises a question Type 7s eventually face. Is it growth, or is it running?
 
 ## Behind the Scenes: Alex Cooper's Inner World
 
 ### Chasing Fulfillment, Avoiding Pain
 
-Type 7s run on a core fear: being trapped, limited, stuck with emotional pain. The core desire? Freedom. Happiness. Exciting experiences.
+For Alex, the Type 7 core fear (being trapped with pain) shows up as relentless momentum.
 
-For Alex, this shows up as relentless pursuit. Her days likely involve podcast preparation, Unwell Network strategy, creative agency management, and planning whatever comes next.
+Day-to-day, it looks like:
 
-Even her wellness approach reflects the Type 7 flexibility. In interviews, she's shared that her health routine changes daily. Sometimes focused on fitness and hydration. Sometimes much less structured.
+- **Boredom triggers a new "next."** A new show format, a new product, a new lane.
+- **Limits feel personal.** "Anyone around me in business would say, Alex Cooper is tough to work for because she will not bend if it does not make sense for her and her brand and her audience," she told Marie Claire.
+- **Conflict gets reframed into story.** The Sofia split became an origin myth. The documentary turns trauma into content.
+- **Slowing down feels risky.** Rest can feel like stagnation.
 
-Her most famous quirk? She doesn't wash her face. Prefers toners like Paula's Choice Resist Advanced Replenishing Toner instead. This unconventional approach captures something essential: she resists rigid routines.
+Even her wellness approach reflects the pattern. She's joked that she doesn't wash her face and relies on toners instead. Small detail, but revealing: she resists rigid routines.
 
 ### The Private Alex: Beyond the Microphone
 
 She broadcasts intimate details to millions. But Alex maintains surprising boundaries around her actual personal life.
 
-Her relationship with film producer Matt Kaplan (ACE Entertainment founder, known for "To All the Boys I've Loved Before") started with a pandemic Zoom call in July 2020. After a long day of meetings with film and TV companies, her last call was with Kaplan's production company. Fans would later know him only as "Mr. Sexy Zoom Man."
+Her relationship with film producer Matt Kaplan (ACE Entertainment founder, known for "To All the Boys I've Loved Before") started with a pandemic Zoom call in July 2020. Fans would later know him only as "Mr. Sexy Zoom Man."
 
-Their April 2024 wedding in Riviera Maya, Mexico marked a chapter Alex never expected. "I always used to say, 'I'm never getting married,'" she revealed in her documentary. "I thought it would threaten my independence. No man should be able to say that I'm his."
+Their April 2024 wedding in Riviera Maya, Mexico marked a chapter Alex never expected.
 
-**What changed?** Not just Kaplan himself. How different he was.
+**What changed?** Not just Kaplan. The dynamic.
 
-"A lot of men in my past were really intimidated by my success. They tried to suppress what I was doing or make me feel bad about it. Matt has always been my biggest supporter. It's very attractive to have a man not be intimidated by a woman's extreme success."
-
-The foundation is communication: "We had a really great dynamic early on that I didn't have in previous relationships. The amount that we communicate, even over-communicate, about difficult things." When Kaplan proposed, he said: "You're my soulmate, the love of my life. You make me a better man."
+"A lot of men in my past were really intimidated by my success. They tried to suppress what I was doing or make me feel bad about it. Matt has always been my biggest supporter."
 
 A telling detail: Alex walked herself down the aisle. "I really rejected the concept of being walked down by a man to be handed to another man," she told _Vogue_. "My mom also walked herself down the aisle, so in a sense, we are creating our own tradition for the women in our family."
 
 **Family Plans: A Window into Type 7 Psychology**
 
-In a June 2025 podcast episode, Alex got vulnerable about delaying motherhood. She and Matt had planned to start trying for a baby in summer 2024. But after going off birth control (which she'd been on since age 16), she experienced physical struggles and career doubts.
+In a June 2025 podcast episode, Alex got vulnerable about delaying motherhood. She and Matt had planned to start trying in summer 2024. But after going off birth control (which she'd been on since age 16), she experienced physical struggles and career doubts.
 
 "I just felt in my body that I want to grind at work and I want to be selfish a little longer. I wanna enjoy what I've worked so f\*\*\*ing hard for."
 
-This illustrates the Type 7's internal tension perfectly: the desire for new experiences (motherhood) conflicting with the fear of losing freedom and momentum. The fact that she's examining these feelings publicly, rather than escaping into another project, is itself a sign of growth.
+The Type 7 tension in plain language: the desire for new experiences conflicting with the fear of losing freedom. Naming it out loud instead of sprinting past it is part of the growth.
 
 ## Navigating Storms: Type 7 Under Pressure
 
+When Cooper's brand feels threatened, the Type 7 stress pattern emerges: tighter control, sharper edges, less play. The 2020 "Daddy Divorce" era is the obvious example.
+
+She's admitted as much: "The minute that I step onto the stage, I don't have control and that's about to drive me insane. I had 60-plus people working on a tour, but my name is on the [venue]. So if anything fails, it's on me."
+
+She's gotten more comfortable delegating. But she still keeps "my hands on everything as much as humanly possible."
+
 ### The Alix Earle Fallout (2025)
 
-When lifestyle influencer [Alix Earle](/personality-analysis/Alix-Earle) signed with The Unwell Network in August 2023, it looked like a perfect pairing. Media's fastest-rising stars, aligned.
+When lifestyle influencer [Alix Earle](/personality-analysis/Alix-Earle) signed with The Unwell Network in September 2023, it looked like a perfect pairing. At the TIME 100 event a month later, Alex praised her publicly: "She's a beast. She has a work ethic that I've never seen and I'm so proud of her."
 
-By February 2025, Variety broke the news: Earle's "Hot Mess" podcast had been dropped from the network. SiriusXM would no longer sell ads for the show. All rights returned to Earle.
+By early 2025, the relationship had soured. Earle skipped Unwell's high-profile Super Bowl party in New Orleans while in town. Unwell's socials promoted her less. Earle's father mentioned on a podcast that he'd confronted someone about "a business situation" he "wasn't happy" about.
 
-The signs had been brewing. Earle's notable absence from Unwell's high-profile Super Bowl party in New Orleans sparked speculation. Sources cited "a lot of tension" and clashes "over business."
+In March 2024, Earle announced: "I have to put a pause on podcasting right now for the foreseeable future. Don't really want to get into the details of it all, and I kind of can't get into the details of it all right now."
 
-For Alex, this was a rare public failure in relationship management. But Type 7 adaptability means she's likely already focused on the network's other successes rather than dwelling on the loss.
+Alex's Instagram Story response: "Alix not being able to podcast has nothing to do with Unwell. Idk why she can't/what's going on. Unwell gave her everything back she owns her IP."
 
-### The "Daddy Divorce" That Could Have Ended Everything
+Earle later told WSJ the separation was "a little bit of a hot mess." When a fan asked her about Alex in August, she replied: "How much time do you have?"
 
-The 2020 split with Sofia Franklyn could have derailed Alex's career entirely. Instead, it showed her Type 7 strengths at full force.
-
-When negotiations with Barstool turned contentious, Alex didn't stay locked in conflict. She negotiated directly with founder <a href="/personality-analysis/Dave-Portnoy">Dave Portnoy</a>, secured creative control, got favorable terms.
-
-Her first solo episode, titled "The Funeral," showcased the Type 7 gift for reframing. She shared her side transparently while charting an exciting path forward. Potential disaster became a career-defining moment.
+The pattern echoes the Sofia dynamic. Type 7s can overcommit to partnerships when the energy is high, then struggle when friction appears. The instinct is to move forward rather than repair.
 
 ### "Call Her Alex": Facing the Pain (2025)
 
-The most significant development in Alex's story came in June 2025 with the premiere of "Call Her Alex" at the Tribeca Film Festival.
+In June 2025, Cooper premiered the two-part Hulu documentary <a href="https://press.hulu.com/shows/call-her-alex/">"Call Her Alex"</a> at the Tribeca Film Festival.
 
-Directed by Ry Russo-Young, the two-part Hulu documentary traces her journey from a bullied middle-schooler in Pennsylvania to a $125-million empire. But its most shocking revelation involves her time at Boston University.
+Directed by Ry Russo-Young, it traces her journey from a bullied middle-schooler in Pennsylvania to a media empire. It also centers on her time at Boston University.
 
-Alex alleged that her soccer coach, Nancy Feldman (who coached at BU from 1995-2022), subjected her to three years of escalating sexual harassment. According to Cooper: inappropriate comments about her body and sex life, threats and benchings, attempts to be alone with her outside team settings.
+Cooper alleges her soccer coach, Nancy Feldman (who coached at BU from 1995 to 2022), subjected her to years of escalating sexual harassment: inappropriate comments about her body and sex life, threats and benchings, attempts to be alone with her outside team settings. (<a href="https://www.vanityfair.com/hollywood/story/alex-cooper-call-her-alex-hulu-docuseries-sexual-harassment-boston-university">Vanity Fair</a>)
 
-Most painfully, Alex alleged that when she and her parents brought documentation to BU's athletic department in 2015, they refused to look at the evidence. Told her they wouldn't fire Feldman.
+She also alleges that when she and her parents brought documentation to BU's athletic department in 2015, the department refused to review it.
 
-"I didn't realize how much I had suppressed." She came forward after discovering "the abuse and trauma I had been subjected to at Boston University was still actively happening on that campus in 2025."
+Boston University said it takes the allegations seriously and retained outside counsel. (<a href="https://people.com/alex-cooper-accuses-boston-university-soccer-coach-of-sexual-harassment-in-call-her-alex-doc-11709346">People</a>)
 
-This represents profound Type 7 growth. The Enthusiast's typical pattern is to escape pain through new experiences and positive reframing. By sitting with her trauma, documenting it publicly, and advocating for others still suffering, Alex demonstrates movement toward what the Enneagram calls integration: developing the depth and courage to face rather than flee difficult emotions.
+In the documentary, Cooper says: "I didn't realize how much I had suppressed." She came forward after discovering "the abuse and trauma I had been subjected to at Boston University was still actively happening on that campus in 2025."
+
+The response was divided. A contingent of 99 former BU women's soccer players and coaches signed a letter supporting Feldman, saying they "categorically never felt unsafe." One other former player has publicly come forward alleging abuse.
+
+For a Type 7, the default move is to outrun pain with new experiences and positive reframing. The documentary looks like the opposite: sitting with it, documenting it publicly, aiming it outward toward accountability.
+
+But here's the harder question: is publicly sharing trauma the same as processing it? Or is it another version of the Type 7 pattern, turning pain into content, momentum as a substitute for stillness?
+
+The documentary received mixed reviews (6.3 on IMDb). Variety's Aramide Tinubu wrote that "while 'Call Her Alex' ties all the threads to Cooper's story in a neat bow, the woman and the brand she's built have already usurped this simplistic tale."
+
+Maybe both readings are true. Real growth for a Type 7 isn't choosing between depth and momentum. It's learning to hold both. The documentary might be genuine reckoning _and_ another product launch. Cooper might be processing _and_ performing.
+
+That tension is more interesting than a clean redemption arc.
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/QxWgwOwSDK8?si=-PP2zhmLnFOUB_sC&amp;start=731" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -226,73 +245,68 @@ This represents profound Type 7 growth. The Enthusiast's typical pattern is to e
 
 ### Creating a Movement, Not Just a Podcast
 
-The "Daddy Gang" isn't just an audience. It's a cultural phenomenon with real demographics behind it.
+The "Daddy Gang" isn't just an audience. It's a culture with its own language.
 
-**Who actually listens?** Nearly 90% women (up from 60% in the early days). 76% under 35. Core demographic: women ages 18-26. The audience leans Democratic (48%) versus Republican (24%). Average listenership: around 10 million per episode.
+**The terminology:** "The Fathers" (the original nickname for Alex and Sofia), "Single Father" (what Alex called herself after the split), "Gluck Gluck 9000" (the infamous technique that became a meme), "Unwell" / "We Are Unwell" (the rallying cry printed on merch).
+
+Fans describe "Call Her Daddy" as "a personality trait, a lifestyle, a RELIGION." Wearing "Unwell" merch functions as identity. During the 2020 Barstool dispute, the Daddy Gang organized the #FreeTheFathers campaign.
+
+The show has real scale. Spotify's 2024 Wrapped charts listed "Call Her Daddy" as the #2 podcast globally. (<a href="https://newsroom.spotify.com/2024-12-04/top-songs-artists-podcasts-audiobooks-albums-trends-2024/">source</a>)
 
 As Alex describes it: "The Daddy Gang is a bunch of predominantly women that are excited to engage in a roller coaster where we don't know what happens next, but we're on the ride with Alex."
 
-What keeps them loyal? The transparency. From the beginning, Alex built a communication style that leaves nothing hidden. Explicit details about her life. Her failures. Her insecurities. In a world of curated perfection, the Daddy Gang appreciates someone who admits to not washing her face while building an empire.
+What keeps them loyal? The feeling of being inside the mess, not watching it from a distance. Alex built a communication style that leaves nothing hidden: failures, insecurities, ambition. That transparency creates parasocial intimacy at scale.
 
-Her Type 7 enthusiasm is contagious. Listeners feel part of something bigger. This explains how casual listeners become devoted fans who follow her across platforms and ventures.
+### The Competitive Edge
 
-### The Joe Rogan Comparison: Fair or Limiting?
+Alex doesn't hide her ambition: "I want to be the biggest creator in the world. I'm a very competitive person."
 
-Alex regularly battles Joe Rogan for the top podcast spot. "Call Her Daddy" ranks second only to "The Joe Rogan Experience" on Spotify's charts. The constant comparison frustrates her.
+But she's vocal about the double standards. After her Spotify deal: "No one said this about Joe Rogan. No one said this about the SmartLess podcast guys." She had "a lot of therapy sessions" because of comments like "She doesn't deserve that" or "She's so greedy."
 
-"Does anybody say, 'Joe Rogan is the male Alex Cooper?' No," she told Jay Shetty's podcast. "We have similar numbers, we have really loyal audiences... it's frustrating that it is a de-qualifier."
+On the Rogan comparison: "Does anybody say, 'Joe Rogan is the male Alex Cooper?' No," she told Jay Shetty's podcast. "We have similar numbers, we have really loyal audiences... it's frustrating that it is a de-qualifier."
 
-The numbers paint an interesting picture. Rogan's audience: 80% male, 32% Republican. Cooper's: 90% female, 48% Democrat. Rogan's $450 million in Spotify deals dwarfs Cooper's $125 million SiriusXM contract. But Cooper commands the female podcast market in a way no one else does.
+On advocating for herself: "If I advocate firmly for myself, people will say 'Oh that Alex Cooper? Yeah, she's a bitch to work with' whereas [my husband] Matt could say it and they'd go, 'he's a real tough guy but he knows what he wants and that's cool.'"
 
-She admits to a competitive personality but says she doesn't "feel competitive" with Rogan: "Our content is so different." She's right. Comparing them misses the point. Alex dominates a completely different space.
+She admits she doesn't "feel competitive" with Rogan: "Our content is so different." She's right. Comparing them misses the point. Alex dominates a completely different space.
 
 ### The Critics: Is "Call Her Daddy" Actually Feminist?
 
-Not everyone is on board. The show has faced sustained criticism from feminist corners. Worth understanding why.
+Not everyone is on board. The show catches heat from feminist critics for consistent reasons:
 
-**The "choice feminism" critique.** Critics argue that "Call Her Daddy" delivers "an empty, unthreatening version of feminism" designed to "benefit the systems that uphold the power of heterosexual cisgendered men." The accusation: teaching women how to be sexually bold in ways that serve male desires isn't empowerment. It's "internalized misogyny" with better marketing.
+- **Empowerment framing.** Some argue the early brand sold sexual confidence in ways that still center male attention.
+- **Barstool baggage.** Until 2021, the show was owned by Barstool Sports.
+- **Representation.** The guest roster skews wealthy, white, and straight.
+- **Politics friction.** The 2024 Harris interview drew backlash from listeners who felt the questions were too soft or too partisan.
 
-**The Barstool problem.** Until 2021, the show was owned by Barstool Sports. Founder Dave Portnoy has faced sexual abuse allegations and made problematic statements about consent. Critics argue that signing with Barstool undermined any feminist credibility from day one.
-
-**The diversity gap.** Others point out that "most of Cooper's guests are incredibly wealthy, primarily white, cis-gender and straight." When the show discusses "women's issues," whose women does it mean?
-
-**The Kamala backlash.** The 2024 Harris interview drew accusations of "peddling propaganda" from listeners who felt Cooper soft-balled a political candidate. Some fans felt betrayed by what they saw as the show choosing sides.
-
-**Cooper's response?** She's been clear: "Her podcast was never supposed to be feminist." While she wants to empower women, "her brand is not specifically feminist." It's a distinction that frustrates critics but may actually be more honest than claiming ideological purity.
+Cooper's counterpoint: she never positioned "Call Her Daddy" as a feminist manifesto. It's entertainment that tries to feel honest and, at its best, empowering on her terms.
 
 ### Redefining Female Empowerment (On Her Terms)
 
-Alex's most significant cultural impact? Normalizing women's candid conversations about sex, relationships, and ambition. Even if "empowerment" means different things to different people.
+Alex's biggest cultural impact is normalizing women's candid conversations about sex, relationships, and ambition.
 
-Early episodes focused on sexual tips that some found liberating and others found regressive. Today's "Call Her Daddy" tackles mental health, business strategies, and trauma recovery. This evolution mirrors Alex's own growth. Her audience has grown with her.
+Early episodes focused on sexual tips that some listeners found liberating and others found regressive. Today, "Call Her Daddy" spends more time on mental health, business, and trauma. The show grew up, and so did its audience.
 
-By sharing her business successes transparently, Alex has inspired women to pursue entrepreneurial dreams. Her $125 million SiriusXM deal sent a message about women's value in digital media.
-
-Her documentary revelations about harassment add another dimension. She's now modeling how to speak truth to power, even when it's painful.
+Her deals also signaled something: women can build massive media businesses without sanding down their edges.
 
 ## What's Next for Alex Cooper?
 
-If her Type 7 pattern continues, expect:
+If the pattern continues:
 
-**More media, less audio-only.** "Overboard for Love" is in production. Her documentary succeeded. More television and streaming content seems inevitable.
+- **More screen time.** The docuseries and "Love Overboard" point toward video-first projects. The Golden Globes debut signals she's aiming for traditional media credibility.
+- **More products, more agency deals.** The empire keeps expanding.
+- **The harder question: more depth?** Type 7s mature by integrating Type 5 qualities: patience, expertise, sitting with discomfort. The motherhood delay, the documentary, the willingness to talk about what hurt suggest the shift is starting.
 
-**Product diversification.** Unwell Hydration is likely just the start. Lifestyle products aligned with her brand could follow.
+Whether the depth sticks, or gets converted into the next content cycle, is the open question.
 
-**Agency growth.** With Google as a partner, expect major brand campaigns and activations targeting Gen Z women.
+## The Type 7 Lesson
 
-**Personal evolution.** Like many Type 7s entering their 30s, Alex may continue integrating Type 5 qualities: developing deeper expertise and introspection while maintaining her signature enthusiasm. Her willingness to discuss motherhood delays and past trauma suggests this integration is already underway.
+Alex Cooper's story makes sense through a Type 7 frame: build momentum, keep options open, turn chaos into storyline.
 
-## The Method Behind the Madness
+But the most revealing detail isn't the $125 million deals or the Golden Globes nomination. It's how she handled two women she was close to, Sofia and Alix, when relationship friction appeared. In both cases: forward motion, narrative control, minimal repair.
 
-From wild beginnings to media mogul status, Alex Cooper's journey makes perfect sense through the Enneagram Type 7 lens.
+That's the Type 7 shadow at scale. The same energy that builds empires can burn bridges. The same instinct that turns pain into content can sidestep the slow work of sitting with it.
 
-The endless pursuit of new experiences. The remarkable adaptability. The ability to transform challenges into opportunities. All classic Enthusiast patterns.
-
-But 2025 revealed something more. A woman learning to sit with pain. To speak difficult truths. To grow beyond the stereotype of Type 7 avoidance.
-
-Alex isn't just living the Type 7 dream. She's showing how that dream can mature into something deeper. You can be endlessly ambitious and authentically vulnerable. Empire-building and truth-telling.
-
-What part of Alex Cooper's journey resonates with you? The relentless ambition? The willingness to reinvent? The courage to finally speak about buried pain?
+The question isn't whether Alex Cooper is successful. It's whether expansion can ever be enough, or whether the thing she's running from will eventually require her to stop.
 
 Explore our <a href="/questions">questions</a> section to better understand yourself and others through the Enneagram framework.
 

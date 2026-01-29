@@ -1,4 +1,5 @@
 <!-- docs/who-would-actually-read-these-profiles.md -->
+
 # Who Might Actually Read These Profiles (and Who Might Forward Them)
 
 Based on the _published_ people profiles in `src/blog/people/drafts/` (`published: true`) as of 2026-01-26.

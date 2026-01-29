@@ -136,7 +136,7 @@ Underlying message: "No one sees the world quite like I do."
 			image={`/blogs/greek-statue-flex-1.webp`}
 			showIcon={false}
 			displayText=""
-			altText="greek statue flexing"
+			altText="Greek statue flexing"
 			subtext=""
 		/>
 </div>
@@ -211,7 +211,7 @@ Underlying message: "My life has no bounds, and neither could yours."
 			image={`/blogs/greek-statue-flex-2.webp`}
 			showIcon={false}
 			displayText=""
-			altText="greek statue flexing again"
+			altText="Greek statue flexing again"
 			subtext=""
 		/>
 </div>
@@ -287,17 +287,17 @@ Understanding flexing patterns offers three powerful opportunities:
 
 ### What to Say When Someone Flexes (Quick Cheat Sheet)
 
-| Type | What their flex is asking for | A response that lands | Avoid |
-| --- | --- | --- | --- |
-| **1** | "See my effort + integrity" | "Good catch—thanks for caring about doing it right." | "Relax, it's fine." |
-| **2** | "Value me (not just my help)" | "I appreciate you—what do you need right now?" | Only calling when you need something |
-| **3** | "Respect me beyond results" | "Congrats—what part are you most proud of?" | Comparing them to others |
-| **4** | "Understand the real me" | "That sounds meaningful—tell me what it was like for you." | "Everyone feels that way." |
-| **5** | "Respect my competence" | "That's a helpful framework—how did you get there?" | Rushing or dismissing their thinking |
-| **6** | "Trust me / let's be safe" | "Good point—what risks should we plan for?" | "Stop worrying." |
-| **7** | "Keep options open" | "That sounds fun—what's the one thing you're committing to?" | Shaming them as flaky |
-| **8** | "Respect my strength + honesty" | "I respect your directness—what do you want to happen next?" | Power games or passive aggression |
-| **9** | "My voice matters" | "I really want your take—what do you think we should do?" | Talking over them or rushing conflict |
+| Type  | What their flex is asking for   | A response that lands                                        | Avoid                                 |
+| ----- | ------------------------------- | ------------------------------------------------------------ | ------------------------------------- |
+| **1** | "See my effort + integrity"     | "Good catch—thanks for caring about doing it right."         | "Relax, it's fine."                   |
+| **2** | "Value me (not just my help)"   | "I appreciate you—what do you need right now?"               | Only calling when you need something  |
+| **3** | "Respect me beyond results"     | "Congrats—what part are you most proud of?"                  | Comparing them to others              |
+| **4** | "Understand the real me"        | "That sounds meaningful—tell me what it was like for you."   | "Everyone feels that way."            |
+| **5** | "Respect my competence"         | "That's a helpful framework—how did you get there?"          | Rushing or dismissing their thinking  |
+| **6** | "Trust me / let's be safe"      | "Good point—what risks should we plan for?"                  | "Stop worrying."                      |
+| **7** | "Keep options open"             | "That sounds fun—what's the one thing you're committing to?" | Shaming them as flaky                 |
+| **8** | "Respect my strength + honesty" | "I respect your directness—what do you want to happen next?" | Power games or passive aggression     |
+| **9** | "My voice matters"              | "I really want your take—what do you think we should do?"    | Talking over them or rushing conflict |
 
 The most evolved individuals don't stop flexing—they flex mindfully, with an awareness of why they're doing it.
 
@@ -315,6 +315,9 @@ Next time you catch yourself or someone else in a subtle (or not-so-subtle) flex
 
 That understanding builds bridges between types and reveals our shared humanity in all its complex, recognition-seeking glory.
 
+---
+
+If you want more Enneagram insights like this, you can join 9takes below ⬇️.
 
 <svelte:head>
 
@@ -336,7 +339,7 @@ That understanding builds bridges between types and reveals our shared humanity 
             "description": "Discover the unique ways each Enneagram type shows off their strengths and craves recognition in everyday interactions",
             "headline": "How All 9 Enneagram Types Flex: Revealing Each Type's Secret Need for Recognition",
             "keywords": ["Enneagram", "personality types", "recognition", "validation", "flexing", "showing off", "strengths", "human behavior", "psychology", "self-awareness"],
-	            "wordCount": 2800,
+	            "wordCount": 2000,
             "articleSection": "Enneagram",
             "url": "https://9takes.com/enneagram-corner/how-each-enneagram-flexes",
             "image": {

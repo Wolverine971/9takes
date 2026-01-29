@@ -1,3 +1,4 @@
+// src/lib/types/faq.ts
 // FAQ types for cluster pages SEO optimization
 
 export interface FAQItem {
