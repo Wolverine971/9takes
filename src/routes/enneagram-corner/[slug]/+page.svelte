@@ -115,7 +115,7 @@
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
 				showIcon={false}
 				displayText=""
-				altText=""
+				altText={data?.frontmatter?.title || 'Enneagram article illustration'}
 				subtext=""
 				aspectRatio="1/1"
 			/>

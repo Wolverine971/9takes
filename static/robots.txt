@@ -1,4 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
+
+# Default rules for all crawlers
 User-agent: *
 Disallow: /register
 Disallow: /login
@@ -8,10 +10,30 @@ Disallow: /login/
 Disallow: /users/
 Disallow: /questions/categories/
 Disallow: /questions/categories
+Disallow: /admin
+Disallow: /admin/
+Allow: /
+
+# AI Search Crawlers - Allow for citation opportunities
+# ChatGPT Search (real-time search feature)
+User-agent: OAI-SearchBot
+Allow: /
+
+# Claude AI
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Optional: Block AI training crawlers (protects content from being used for training)
+# Uncomment below to block training while allowing search
+# User-agent: GPTBot
+# Disallow: /
+
+# Google AI (Gemini)
+User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://9takes.com/sitemap.xml
-
-
-
-

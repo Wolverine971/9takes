@@ -15,10 +15,9 @@
 	$: lastUpdatedDay = lastUpdated.getDate();
 </script>
 
-<p>
+<p class="article-meta">
 	<span
 		class="author"
-		title="he is so cool"
 		itemprop="author"
 		itemscope
 		itemtype="https://schema.org/Person"
@@ -29,32 +28,35 @@
 			target="_blank"
 			rel="noreferrer"
 			href="https://twitter.com/djwayne3"
-			style="padding: 0.5rem"
 		>
 			<span itemprop="name">{metaData.author}</span>
 		</a>
 	</span>
+	<span class="separator">|</span>
+	<time class="date" itemprop="datePublished" datetime={metaData.date}>
+		Published: {month}/{day}/{year}
+	</time>
 	{#if createdDate.toDateString() !== lastUpdated.toDateString()}
-		<time class="date" itemprop="dateModified" datetime={metaData.lastmod}>
-			(Updated: {lastUpdatedMonth}/{lastUpdatedDay}/{lastUpdatedYear})
-		</time>
-		<meta itemprop="datePublished" content={metaData.date} />
-	{:else}
-		<time class="date" itemprop="datePublished" datetime={metaData.date}>
-			{month}/{day}/{year}
+		<span class="separator">|</span>
+		<time class="date updated" itemprop="dateModified" datetime={metaData.lastmod}>
+			Updated: {lastUpdatedMonth}/{lastUpdatedDay}/{lastUpdatedYear}
 		</time>
 	{/if}
 </p>
 
 <style>
-	p {
+	.article-meta {
 		margin: 0;
 		margin-bottom: calc(var(--spacing-unit) * 4);
 		color: #cbd5e1;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.5rem;
+		font-size: 0.9375rem;
 	}
 	.author {
-		font-weight: bold;
-		margin-right: calc(var(--spacing-unit) * 1);
+		font-weight: 600;
 		display: inline-flex;
 		justify-content: center;
 		align-items: center;
@@ -67,14 +69,23 @@
 	.author a:hover {
 		color: #c4b5fd;
 	}
+	.separator {
+		color: #475569;
+	}
 	.date {
 		color: #94a3b8;
 	}
+	.date.updated {
+		color: #22c55e;
+		font-weight: 500;
+	}
 
 	@media (max-width: 500px) {
-		p {
+		.article-meta {
 			margin: calc(var(--spacing-unit));
-			margin-bottom: calc(var(--spacing-unit));
+			margin-bottom: calc(var(--spacing-unit) * 2);
+			font-size: 0.8125rem;
+			gap: 0.375rem;
 		}
 	}
 </style>

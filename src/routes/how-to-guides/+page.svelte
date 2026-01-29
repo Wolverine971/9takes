@@ -1,15 +1,56 @@
 <!-- src/routes/how-to-guides/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
+	import type { FAQItem } from '$lib/types/faq';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import FAQSection from '$lib/components/blog/FAQSection.svelte';
+	import { buildFAQSchema } from '$lib/utils/schema';
 
 	export let data: PageData;
+
+	// FAQ data for practical guides
+	const guidesFAQs: FAQItem[] = [
+		{
+			question: 'What kind of guides does 9takes offer?',
+			answer:
+				'Our guides cover practical life skills through the Enneagram lens: navigating difficult conversations, understanding relationship dynamics, handling workplace challenges, and personal growth strategies. Each guide provides actionable steps tailored to different personality types.'
+		},
+		{
+			question: 'How do these guides differ from generic advice?',
+			answer:
+				'Generic advice assumes one approach works for everyone. Our guides recognize that a Type 8 handles confrontation differently than a Type 9. We provide type-specific strategies, helping you work with your natural tendencies rather than against them.'
+		},
+		{
+			question: 'Do I need to know my Enneagram type to use these guides?',
+			answer:
+				'Knowing your type helps you apply guides more effectively, but they work even if you\'re unsure. Many guides cover all 9 types, so you can identify which approach resonates with you. Use the guides as both practical advice and self-discovery tools.'
+		},
+		{
+			question: 'How can I apply these guides to my relationships?',
+			answer:
+				'Start by understanding your type\'s communication style and blind spots. Then identify patterns in your conflicts. Our relationship guides show how different types misunderstand each other and provide scripts for bridging those gaps in specific situations.'
+		},
+		{
+			question: 'Are these guides based on research?',
+			answer:
+				'Our guides combine Enneagram wisdom with practical psychology and real-world application. We draw from relationship research, communication studies, and decades of Enneagram teaching. Every guide is designed to produce measurable improvements in specific situations.'
+		},
+		{
+			question: 'How often are new guides published?',
+			answer:
+				'We add new guides regularly based on reader questions and real-life situations people face. Topics range from everyday scenarios to major life transitions. Sign up for our newsletter to get notified when new guides launch.'
+		}
+	];
+
+	// Build FAQ schema for SEO
+	const faqSchema = buildFAQSchema(guidesFAQs);
 </script>
 
 <SEOHead
 	title="How-To Guides | Practical Life Advice | 9takes"
 	description="Practical guides to help you navigate life, relationships, and personal growth with the Enneagram."
 	canonical="https://9takes.com/how-to-guides"
+	jsonLd={faqSchema}
 />
 
 <div class="page-wrapper">
@@ -18,23 +59,39 @@
 	</header>
 
 	<main class="main-content">
-		<div class="blog-grid">
-			{#each data.posts as blog}
-				<a href={`/how-to-guides/${blog.slug}`} class="blog-card" class:has-image={blog.pic}>
-					{#if blog.pic}
-						<div
-							class="card-image"
-							style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
-						></div>
-					{/if}
-					<div class="card-overlay"></div>
-					<div class="card-content">
-						<h3>{blog.title}</h3>
-						<p>{blog.description}</p>
-					</div>
-				</a>
-			{/each}
-		</div>
+		<!-- Intro Section -->
+		<section class="intro-section">
+			<p class="intro-text">
+				Practical, personality-aware guides for real situations. Whether you're navigating a tough
+				conversation, understanding your partner, or handling workplace dynamics, these guides give
+				you <strong>actionable steps tailored to how you actually think</strong>.
+			</p>
+		</section>
+
+		<!-- Guides Grid -->
+		<section class="guides-section">
+			<h2>All Guides</h2>
+			<div class="blog-grid">
+				{#each data.posts as blog}
+					<a href={`/how-to-guides/${blog.slug}`} class="blog-card" class:has-image={blog.pic}>
+						{#if blog.pic}
+							<div
+								class="card-image"
+								style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
+							></div>
+						{/if}
+						<div class="card-overlay"></div>
+						<div class="card-content">
+							<h3>{blog.title}</h3>
+							<p>{blog.description}</p>
+						</div>
+					</a>
+				{/each}
+			</div>
+		</section>
+
+		<!-- FAQ Section -->
+		<FAQSection faqs={guidesFAQs} title="About Our Guides" />
 	</main>
 </div>
 
@@ -84,6 +141,48 @@
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 1.5rem 1.5rem 4rem;
+	}
+
+	/* Intro Section */
+	.intro-section {
+		margin-bottom: 2rem;
+		max-width: 800px;
+	}
+
+	.intro-text {
+		font-size: 1.0625rem;
+		color: #94a3b8;
+		line-height: 1.7;
+		margin: 0;
+
+		strong {
+			color: #e2e8f0;
+		}
+	}
+
+	/* Guides Section */
+	.guides-section {
+		margin-bottom: 3rem;
+
+		h2 {
+			font-size: 1.25rem;
+			font-weight: 600;
+			color: #f1f5f9;
+			margin: 0 0 1.25rem;
+			padding-bottom: 0.75rem;
+			border-bottom: 1px solid rgba(100, 116, 139, 0.15);
+			display: flex;
+			align-items: center;
+			gap: 0.75rem;
+
+			&::before {
+				content: '';
+				width: 3px;
+				height: 1.25rem;
+				background: linear-gradient(180deg, #7c3aed 0%, #a78bfa 100%);
+				border-radius: 2px;
+			}
+		}
 	}
 
 	/* Blog Grid */

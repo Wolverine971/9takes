@@ -253,6 +253,13 @@
 		on:touchstart|passive={handleTouchStart}
 		on:touchend|passive={handleTouchEnd}
 	>
+		<!-- Skip link for accessibility (WCAG 2.4.1) -->
+		<a
+			href="#main-content"
+			class="skip-link sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-[#7c3aed] focus:px-4 focus:py-2 focus:text-white focus:outline-none focus:ring-2 focus:ring-[#a78bfa]"
+		>
+			Skip to main content
+		</a>
 		<FloatingParticles />
 		<div class="sticky top-0 z-20 transform transition-transform duration-300 ease-in-out">
 			<Header {data} />
@@ -268,6 +275,7 @@
 		{/if}
 
 		<main
+			id="main-content"
 			class="relative flex flex-1 flex-col overflow-visible p-2 md:p-4"
 			class:max-w-4xl={shouldShowMaxWidth}
 			class:mx-auto={shouldShowMaxWidth}

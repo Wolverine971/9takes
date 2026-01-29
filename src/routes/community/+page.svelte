@@ -1,15 +1,56 @@
 <!-- src/routes/community/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
+	import type { FAQItem } from '$lib/types/faq';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import FAQSection from '$lib/components/blog/FAQSection.svelte';
+	import { buildFAQSchema } from '$lib/utils/schema';
 
 	export let data: PageData;
+
+	// FAQ data for community page
+	const communityFAQs: FAQItem[] = [
+		{
+			question: 'What is 9takes?',
+			answer:
+				'9takes is a personality-based Q&A platform built on the Enneagram system. We help you see how different personality types think about the same situations. Submit anonymous questions, give your perspective first, then discover how all 9 types approach the same topic differently.'
+		},
+		{
+			question: 'Why focus on personality types for Q&A?',
+			answer:
+				'Most platforms show you popular opinions. We show you diverse perspectives based on how people actually think. A Type 5\'s analytical response differs from a Type 2\'s empathetic take. Seeing this range expands your understanding and reduces judgment of others.'
+		},
+		{
+			question: 'What does "give-first" commenting mean?',
+			answer:
+				'Before viewing others\' responses, you must contribute your own perspective. This prevents groupthink and ensures authentic answers. You\'ll see the diversity of thought only after adding your voice. It\'s designed to promote genuine expression over social conformity.'
+		},
+		{
+			question: 'How is my Enneagram type used?',
+			answer:
+				'Your type adds context to your responses, helping others understand where you\'re coming from. It\'s displayed alongside your answer so readers can see patterns in how different types think. You can participate anonymously while still contributing personality-based insights.'
+		},
+		{
+			question: 'Who creates content for 9takes?',
+			answer:
+				'Our team combines Enneagram expertise with practical psychology. We create guides, type analyses, and educational content based on research and real-world application. Community members also contribute questions and perspectives that fuel discussions.'
+		},
+		{
+			question: 'How can I get involved in the community?',
+			answer:
+				'Start by answering questions on topics you care about. Explore celebrity type analyses and share your thoughts. Follow our blog for new content. If you want deeper engagement, sign up for our newsletter or book a coaching session to explore your type.'
+		}
+	];
+
+	// Build FAQ schema for SEO
+	const faqSchema = buildFAQSchema(communityFAQs);
 </script>
 
 <SEOHead
 	title="9takes Community | Ideas & Inspiration"
 	description="Discover the inspiration and ideas behind 9takes. Explore our community blog posts."
 	canonical="https://9takes.com/community"
+	jsonLd={faqSchema}
 />
 
 <div class="page-wrapper">
@@ -18,6 +59,15 @@
 	</header>
 
 	<main class="main-content">
+		<!-- Intro Section -->
+		<section class="intro-section">
+			<p class="intro-text">
+				One situation, 9 ways to see it. 9takes explores how personality shapes perspective. Discover
+				the ideas and inspirations behind our platform, and see why
+				<strong>understanding different takes leads to deeper connection</strong>.
+			</p>
+		</section>
+
 		<section class="content-section">
 			<h2>The Inspiration Behind 9takes</h2>
 			<div class="blog-grid">
@@ -59,6 +109,9 @@
 				{/each}
 			</div>
 		</section>
+
+		<!-- FAQ Section -->
+		<FAQSection faqs={communityFAQs} title="About 9takes" />
 	</main>
 </div>
 
@@ -108,6 +161,23 @@
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 1.5rem 1.5rem 4rem;
+	}
+
+	/* Intro Section */
+	.intro-section {
+		margin-bottom: 2rem;
+		max-width: 800px;
+	}
+
+	.intro-text {
+		font-size: 1.0625rem;
+		color: #94a3b8;
+		line-height: 1.7;
+		margin: 0;
+
+		strong {
+			color: #e2e8f0;
+		}
 	}
 
 	/* Content Sections */

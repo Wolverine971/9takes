@@ -1,10 +1,51 @@
 <!-- src/routes/enneagram-corner/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
+	import type { FAQItem } from '$lib/types/faq';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 
 	export let data: PageData;
+
+	// FAQ data for SEO and user engagement
+	const enneagramFAQs: FAQItem[] = [
+		{
+			question: 'What is the Enneagram personality system?',
+			answer:
+				'The Enneagram is a personality framework describing 9 interconnected types, each driven by distinct core fears, desires, and motivations. Unlike behavioral tests, it reveals WHY you act the way you do, not just what you do. Each type has predictable patterns of thinking, feeling, and responding to stress.'
+		},
+		{
+			question: 'How do I find my Enneagram type?',
+			answer:
+				'Start by reading descriptions of all 9 types and notice which core fear resonates most deeply. Focus on motivation, not behavior. Many people mistype initially because they identify with healthy traits of other types. Consider taking a validated assessment and exploring how you respond under stress.'
+		},
+		{
+			question: 'How is the Enneagram different from MBTI?',
+			answer:
+				'MBTI categorizes how you process information and make decisions (cognitive functions). The Enneagram maps your core emotional drivers and unconscious patterns. MBTI describes what you do; Enneagram explains why. Many find the Enneagram more useful for personal growth and understanding relationship dynamics.'
+		},
+		{
+			question: 'Can my Enneagram type change over time?',
+			answer:
+				'Your core type remains constant throughout life, as it forms in childhood. However, you can grow within your type, accessing healthier behaviors and integrating traits from other types. Growth means expanding beyond your automatic patterns, not becoming a different type.'
+		},
+		{
+			question: 'What are Enneagram wings?',
+			answer:
+				'Wings are the two types adjacent to your core type on the Enneagram circle. Most people lean toward one wing more than the other, which adds flavor to their personality. For example, a Type 9 might have a stronger 8 wing (9w8) or 1 wing (9w1), each creating distinct subtypes.'
+		},
+		{
+			question: 'Is the Enneagram scientifically validated?',
+			answer:
+				'Research on the Enneagram is growing but limited compared to other personality systems. Studies show reasonable reliability and validity for typing. Its value lies in practical application: understanding motivations, improving relationships, and guiding personal development rather than statistical prediction.'
+		},
+		{
+			question: 'How can the Enneagram improve my relationships?',
+			answer:
+				'The Enneagram reveals why people react differently to the same situation. Understanding your partner\'s type helps you stop taking their behavior personally and communicate in ways that actually land. It transforms "they\'re being difficult" into "they need something different than I do."'
+		}
+	];
 
 	const blogSections = [
 		{
@@ -82,76 +123,141 @@
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
-			"@type": "CollectionPage",
-			"mainEntity": {
-				"@type": "ItemList",
-				"itemListElement": [
-					{
-						"@type": "ListItem",
-						"position": 1,
-						"name": "The Nine Enneagram Types",
-						"description": "Detailed information about each of the nine Enneagram personality types",
-						"url": "https://9takes.com/enneagram-corner#nine-types"
+			"@graph": [
+				{
+					"@type": "CollectionPage",
+					"mainEntity": {
+						"@type": "ItemList",
+						"itemListElement": [
+							{
+								"@type": "ListItem",
+								"position": 1,
+								"name": "The Nine Enneagram Types",
+								"description": "Detailed information about each of the nine Enneagram personality types",
+								"url": "https://9takes.com/enneagram-corner#nine-types"
+							},
+							{
+								"@type": "ListItem",
+								"position": 2,
+								"name": "Understanding the Enneagram",
+								"description": "Explore the basics and fundamentals of the Enneagram system",
+								"url": "https://9takes.com/enneagram-corner#understanding"
+							},
+							{
+								"@type": "ListItem",
+								"position": 3,
+								"name": "Personal Development",
+								"description": "Learn how to apply Enneagram insights for personal growth",
+								"url": "https://9takes.com/enneagram-corner#personal-development"
+							},
+							{
+								"@type": "ListItem",
+								"position": 4,
+								"name": "Relationships",
+								"description": "Understand how Enneagram types interact in relationships",
+								"url": "https://9takes.com/enneagram-corner#relationships"
+							},
+							{
+								"@type": "ListItem",
+								"position": 5,
+								"name": "Mental Health",
+								"description": "Type-specific mental health resources and healing strategies",
+								"url": "https://9takes.com/enneagram-corner#mental-health"
+							},
+							{
+								"@type": "ListItem",
+								"position": 6,
+								"name": "Career & Workplace",
+								"description": "Enneagram insights for professional development",
+								"url": "https://9takes.com/enneagram-corner#workplace"
+							},
+							{
+								"@type": "ListItem",
+								"position": 7,
+								"name": "Types in Real Life",
+								"description": "How Enneagram types respond in various situations",
+								"url": "https://9takes.com/enneagram-corner#situations"
+							},
+							{
+								"@type": "ListItem",
+								"position": 8,
+								"name": "Resources",
+								"description": "Curated Enneagram books, tools, and resources",
+								"url": "https://9takes.com/enneagram-corner#resources"
+							}
+						]
 					},
-					{
-						"@type": "ListItem",
-						"position": 2,
-						"name": "Understanding the Enneagram",
-						"description": "Explore the basics and fundamentals of the Enneagram system",
-						"url": "https://9takes.com/enneagram-corner#understanding"
-					},
-					{
-						"@type": "ListItem",
-						"position": 3,
-						"name": "Personal Development",
-						"description": "Learn how to apply Enneagram insights for personal growth",
-						"url": "https://9takes.com/enneagram-corner#personal-development"
-					},
-					{
-						"@type": "ListItem",
-						"position": 4,
-						"name": "Relationships",
-						"description": "Understand how Enneagram types interact in relationships",
-						"url": "https://9takes.com/enneagram-corner#relationships"
-					},
-					{
-						"@type": "ListItem",
-						"position": 5,
-						"name": "Mental Health",
-						"description": "Type-specific mental health resources and healing strategies",
-						"url": "https://9takes.com/enneagram-corner#mental-health"
-					},
-					{
-						"@type": "ListItem",
-						"position": 6,
-						"name": "Career & Workplace",
-						"description": "Enneagram insights for professional development",
-						"url": "https://9takes.com/enneagram-corner#workplace"
-					},
-					{
-						"@type": "ListItem",
-						"position": 7,
-						"name": "Types in Real Life",
-						"description": "How Enneagram types respond in various situations",
-						"url": "https://9takes.com/enneagram-corner#situations"
-					},
-					{
-						"@type": "ListItem",
-						"position": 8,
-						"name": "Resources",
-						"description": "Curated Enneagram books, tools, and resources",
-						"url": "https://9takes.com/enneagram-corner#resources"
+					"name": "Enneagram Corner: Your Guide to Personal Growth",
+					"description": "Master the Enneagram personality system. Explore the nine types, personal development, relationships, and more.",
+					"url": "https://9takes.com/enneagram-corner",
+					"author": {
+						"@type": "Organization",
+						"name": "9takes",
+						"url": "https://9takes.com"
 					}
-				]
-			},
-			"name": "Enneagram Corner: Your Guide to Personal Growth",
-			"description": "Master the Enneagram personality system. Explore the nine types, personal development, relationships, and more.",
-			"url": "https://9takes.com/enneagram-corner",
-			"author": {
-				"@type": "Organization",
-				"name": "9takes",
-				"url": "https://9takes.com"
-			}
+				},
+				{
+					"@type": "FAQPage",
+					"mainEntity": [
+						{
+							"@type": "Question",
+							"name": "What is the Enneagram personality system?",
+							"acceptedAnswer": {
+								"@type": "Answer",
+								"text": "The Enneagram is a personality framework describing 9 interconnected types, each driven by distinct core fears, desires, and motivations. Unlike behavioral tests, it reveals WHY you act the way you do, not just what you do. Each type has predictable patterns of thinking, feeling, and responding to stress."
+							}
+						},
+						{
+							"@type": "Question",
+							"name": "How do I find my Enneagram type?",
+							"acceptedAnswer": {
+								"@type": "Answer",
+								"text": "Start by reading descriptions of all 9 types and notice which core fear resonates most deeply. Focus on motivation, not behavior. Many people mistype initially because they identify with healthy traits of other types. Consider taking a validated assessment and exploring how you respond under stress."
+							}
+						},
+						{
+							"@type": "Question",
+							"name": "How is the Enneagram different from MBTI?",
+							"acceptedAnswer": {
+								"@type": "Answer",
+								"text": "MBTI categorizes how you process information and make decisions (cognitive functions). The Enneagram maps your core emotional drivers and unconscious patterns. MBTI describes what you do; Enneagram explains why. Many find the Enneagram more useful for personal growth and understanding relationship dynamics."
+							}
+						},
+						{
+							"@type": "Question",
+							"name": "Can my Enneagram type change over time?",
+							"acceptedAnswer": {
+								"@type": "Answer",
+								"text": "Your core type remains constant throughout life, as it forms in childhood. However, you can grow within your type, accessing healthier behaviors and integrating traits from other types. Growth means expanding beyond your automatic patterns, not becoming a different type."
+							}
+						},
+						{
+							"@type": "Question",
+							"name": "What are Enneagram wings?",
+							"acceptedAnswer": {
+								"@type": "Answer",
+								"text": "Wings are the two types adjacent to your core type on the Enneagram circle. Most people lean toward one wing more than the other, which adds flavor to their personality. For example, a Type 9 might have a stronger 8 wing (9w8) or 1 wing (9w1), each creating distinct subtypes."
+							}
+						},
+						{
+							"@type": "Question",
+							"name": "Is the Enneagram scientifically validated?",
+							"acceptedAnswer": {
+								"@type": "Answer",
+								"text": "Research on the Enneagram is growing but limited compared to other personality systems. Studies show reasonable reliability and validity for typing. Its value lies in practical application: understanding motivations, improving relationships, and guiding personal development rather than statistical prediction."
+							}
+						},
+						{
+							"@type": "Question",
+							"name": "How can the Enneagram improve my relationships?",
+							"acceptedAnswer": {
+								"@type": "Answer",
+								"text": "The Enneagram reveals why people react differently to the same situation. Understanding your partner's type helps you stop taking their behavior personally and communicate in ways that actually land. It transforms 'they're being difficult' into 'they need something different than I do.'"
+							}
+						}
+					]
+				}
+			]
 		}
 	</script>
 </svelte:head>
@@ -247,6 +353,9 @@
 				</div>
 			</section>
 		{/each}
+
+		<!-- FAQ Section -->
+		<FAQSection faqs={enneagramFAQs} title="Enneagram Questions Answered" />
 
 		<!-- CTA Section -->
 		<section class="cta-section">

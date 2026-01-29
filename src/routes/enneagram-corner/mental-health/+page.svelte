@@ -1,7 +1,10 @@
 <!-- src/routes/enneagram-corner/mental-health/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
+	import type { FAQItem } from '$lib/types/faq';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import FAQSection from '$lib/components/blog/FAQSection.svelte';
+	import { buildFAQSchema } from '$lib/utils/schema';
 
 	export let data: PageData;
 
@@ -139,12 +142,50 @@
 			]
 		}
 	];
+
+	// FAQ data for mental health + Enneagram intersection
+	const mentalHealthFAQs: FAQItem[] = [
+		{
+			question: 'How does the Enneagram relate to mental health?',
+			answer:
+				'Each Enneagram type has distinct mental health vulnerabilities and coping patterns. Type 1s tend toward anxiety and perfectionism. Type 4s are more prone to depression. Type 6s often struggle with generalized anxiety. Understanding your type helps identify your specific risk factors and tailor treatment approaches.'
+		},
+		{
+			question: 'Can the Enneagram be used in therapy?',
+			answer:
+				'Many therapists integrate the Enneagram as a tool for self-understanding. It helps clients identify defense mechanisms, relationship patterns, and growth edges. However, it complements rather than replaces clinical diagnosis. Find a therapist trained in both clinical methods and Enneagram applications.'
+		},
+		{
+			question: 'Why do different types experience anxiety differently?',
+			answer:
+				'Anxiety manifests through each type\'s core fear. Type 6s fear uncertainty and seek reassurance. Type 1s fear making mistakes. Type 3s fear failure and judgment. Type 5s fear being overwhelmed. Understanding your type\'s anxiety pattern helps you address the root cause, not just symptoms.'
+		},
+		{
+			question: 'How does trauma affect Enneagram types?',
+			answer:
+				'Trauma can intensify type patterns or push people toward their stress point. Type 9s may dissociate more. Type 8s may become more controlling. Type 2s may over-give to feel safe. Trauma-informed Enneagram work helps identify how your type\'s coping mechanisms developed and when they no longer serve you.'
+		},
+		{
+			question: 'Can knowing my type prevent mental health issues?',
+			answer:
+				'Self-awareness is protective. Knowing your type\'s vulnerabilities lets you recognize early warning signs and intervene sooner. Type 7s can watch for avoidance patterns that mask depression. Type 1s can notice when self-criticism becomes destructive. Prevention comes from understanding, not from the label itself.'
+		},
+		{
+			question: 'What mental health strengths does each type have?',
+			answer:
+				'Every type brings unique healing assets. Type 2s build strong support networks. Type 3s set and achieve recovery goals. Type 5s research their conditions thoroughly. Type 9s maintain steady, sustainable progress. Leveraging your type\'s strengths accelerates healing.'
+		}
+	];
+
+	// Build FAQ schema for SEO
+	const faqSchema = buildFAQSchema(mentalHealthFAQs);
 </script>
 
 <SEOHead
 	title="Enneagram and Mental Health Hub | 9takes"
 	description={hubDescription}
 	canonical="https://9takes.com/enneagram-corner/mental-health"
+	jsonLd={faqSchema}
 />
 
 <div class="page-wrapper">
@@ -288,6 +329,9 @@
 				</div>
 			{/each}
 		</section>
+
+		<!-- FAQ Section -->
+		<FAQSection faqs={mentalHealthFAQs} title="Mental Health & Enneagram FAQs" />
 
 		<!-- CTA Section -->
 		<section class="cta-section">

@@ -40,7 +40,7 @@
 		<a href={link.url} class="link-item" on:click={() => saveLinkClick(link.id)}>
 			{#if hasMetaData}
 				{#if link.meta_image}
-					<img src={link.meta_image} alt="" class="meta-image" />
+					<img src={link.meta_image} alt={link.meta_title || 'Link preview image'} class="meta-image" />
 				{/if}
 				<div class="content meta-content">
 					<h3>{link.meta_title || 'No Title'}</h3>

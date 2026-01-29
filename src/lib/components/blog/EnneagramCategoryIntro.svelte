@@ -1,6 +1,9 @@
 <!-- src/lib/components/blog/EnneagramCategoryIntro.svelte -->
 <script lang="ts">
 	import BlogPageHead from './BlogPageHead.svelte';
+	import FAQSection from './FAQSection.svelte';
+	import type { FAQItem } from '$lib/types/faq';
+	import { buildFAQSchema } from '$lib/utils/schema';
 
 	export let subsection: string;
 	export let blogs: any;
@@ -244,13 +247,142 @@
 		]
 	};
 
+	// FAQ data per subsection
+	const sectionFAQs: Record<string, FAQItem[]> = {
+		overview: [
+			{
+				question: 'What makes the Enneagram different from other personality tests?',
+				answer:
+					"The Enneagram focuses on WHY you do things, not just what you do. It maps your core fears, desires, and unconscious motivations formed in childhood. This depth makes it more useful for personal growth than surface-level behavioral assessments."
+			},
+			{
+				question: 'How long does it take to learn the Enneagram?',
+				answer:
+					"You can grasp the basics in a few hours. Truly understanding your own type takes weeks to months of self-observation. Mastering all nine types and their interactions is a lifelong study that deepens with every relationship and experience."
+			},
+			{
+				question: 'Is the Enneagram accurate?',
+				answer:
+					"When properly typed, the Enneagram reveals patterns you may not consciously recognize. Accuracy depends on honest self-reflection. Many people mistype initially because they see themselves as they want to be, not as they are under stress."
+			}
+		],
+		'nine-types': [
+			{
+				question: 'What are the 9 Enneagram types?',
+				answer:
+					"The nine types are: Type 1 (Perfectionist), Type 2 (Helper), Type 3 (Achiever), Type 4 (Individualist), Type 5 (Investigator), Type 6 (Loyalist), Type 7 (Enthusiast), Type 8 (Challenger), and Type 9 (Peacemaker). Each has distinct fears, desires, and behavior patterns."
+			},
+			{
+				question: 'Which Enneagram type is the best?',
+				answer:
+					"No type is better than another. Each has unique strengths and challenges. Healthy Type 8s and healthy Type 2s are equally valuable. Growth means becoming a healthier version of your type, not trying to become a different type."
+			},
+			{
+				question: 'Can I be more than one Enneagram type?',
+				answer:
+					"You have one core type, but you access traits from other types through wings (adjacent types) and lines of integration/disintegration. You might relate to multiple types because of these connections, but your core motivation points to one primary type."
+			}
+		],
+		development: [
+			{
+				question: 'How do I grow using the Enneagram?',
+				answer:
+					"Start by recognizing your type's automatic patterns. Notice when you react from fear rather than choice. Practice moving toward your integration point when healthy. Work on your blind spots. Growth happens through awareness, not through trying to be someone else."
+			},
+			{
+				question: 'What are integration and disintegration lines?',
+				answer:
+					"Each type connects to two others. Under stress, you take on unhealthy traits of your disintegration type. In growth, you access healthy traits of your integration type. For example, Type 9 disintegrates to 6 (anxious) and integrates to 3 (effective)."
+			},
+			{
+				question: 'How long does Enneagram growth take?',
+				answer:
+					"Meaningful change requires consistent practice over months and years. You'll notice small shifts within weeks of awareness. Deeper pattern changes take longer. The Enneagram provides direction, but growth speed depends on your commitment to self-observation."
+			}
+		],
+		relationships: [
+			{
+				question: 'Which Enneagram types are most compatible?',
+				answer:
+					"Any two types can have a successful relationship. Compatibility depends more on health levels than type pairings. That said, certain combinations have predictable dynamics. Understanding both types helps navigate natural friction points."
+			},
+			{
+				question: 'Why do certain types clash?',
+				answer:
+					"Types clash when their core fears trigger each other. Type 8's directness threatens Type 9's peace. Type 1's criticism wounds Type 4's sensitivity. Recognizing these patterns transforms conflict from personal attacks into understandable type dynamics."
+			},
+			{
+				question: 'How do I communicate better with different types?',
+				answer:
+					"Speak to their core need. Give Type 3s recognition. Give Type 5s space. Give Type 2s appreciation. Give Type 6s reassurance. When you address what each type actually needs, communication becomes dramatically more effective."
+			}
+		],
+		workplace: [
+			{
+				question: 'How can I use the Enneagram at work?',
+				answer:
+					"Identify the types on your team and adapt your communication style. Recognize that your difficult colleague may have a different type with different needs. Use type knowledge for better delegation, conflict resolution, and meeting facilitation."
+			},
+			{
+				question: 'Which types make the best leaders?',
+				answer:
+					"All types can lead effectively in different contexts. Type 8s excel at decisive action. Type 3s drive results. Type 1s ensure quality. Type 9s build consensus. The best leaders understand their type's strengths and develop capacities from other types."
+			},
+			{
+				question: 'How do I manage employees of different types?',
+				answer:
+					"Give Type 5s autonomy and time. Give Type 7s variety and freedom. Give Type 6s clear expectations and support. Each type needs different management approaches. One-size-fits-all management guarantees you'll fail with most of your team."
+			}
+		],
+		resources: [
+			{
+				question: 'What is the most accurate Enneagram test?',
+				answer:
+					"The Riso-Hudson Enneagram Type Indicator (RHETI) and the iEQ9 are considered most reliable. However, no test replaces self-study. Use tests as starting points, then validate through reading descriptions and observing your patterns under stress."
+			},
+			{
+				question: 'What books should I read to learn the Enneagram?',
+				answer:
+					"Start with 'The Wisdom of the Enneagram' by Riso and Hudson. For relationships, read 'The Enneagram in Love and Work.' For spiritual growth, try 'The Sacred Enneagram.' Avoid oversimplified Instagram content as your primary source."
+			},
+			{
+				question: 'Are Enneagram certifications worth it?',
+				answer:
+					"Certifications provide structured learning and professional credibility. The Enneagram Institute and Integrative Enneagram Solutions offer respected programs. If you plan to use the Enneagram professionally, certification demonstrates serious study."
+			}
+		],
+		situational: [
+			{
+				question: 'How do types behave differently in conflict?',
+				answer:
+					"Type 8s confront directly. Type 9s avoid and go passive. Type 1s moralize. Type 4s dramatize. Type 5s withdraw to analyze. Knowing these patterns helps you predict responses and choose more effective approaches during disagreements."
+			},
+			{
+				question: 'How do types handle stress differently?',
+				answer:
+					"Each type has predictable stress behaviors. Type 3s become image-focused. Type 6s become paranoid. Type 7s become scattered. Type 2s become manipulative. Recognizing stress patterns in yourself and others enables early intervention."
+			},
+			{
+				question: 'How do types show love differently?',
+				answer:
+					"Type 2s help and give. Type 5s share knowledge and time. Type 8s protect and provide. Type 4s create meaningful experiences. Understanding how each type expresses love prevents misreading their intentions and feeling unloved when you are loved."
+			}
+		]
+	};
+
 	$: meta = sectionMeta[subsection] || sectionMeta.overview;
 	$: links = relatedLinks[subsection] || relatedLinks.overview;
+	$: faqs = sectionFAQs[subsection] || sectionFAQs.overview;
+	$: faqSchema = JSON.stringify(buildFAQSchema(faqs));
 
 	function formatBlogSlug(title: string) {
 		return title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
 	}
 </script>
+
+<svelte:head>
+	{@html `<script type="application/ld+json">${faqSchema}</script>`}
+</svelte:head>
 
 <BlogPageHead
 	data={{
@@ -666,6 +798,9 @@
 			</p>
 		</section>
 	{/if}
+
+	<!-- FAQ Section -->
+	<FAQSection {faqs} title="Common Questions" />
 
 	<section id="related-subsections">
 		<h2>Where to Go Next</h2>

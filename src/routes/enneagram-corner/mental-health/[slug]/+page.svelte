@@ -106,7 +106,7 @@
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
 				showIcon={false}
 				displayText=""
-				altText=""
+				altText={data?.frontmatter?.title || 'Mental health guide illustration'}
 				subtext=""
 				aspectRatio="1/1"
 			/>

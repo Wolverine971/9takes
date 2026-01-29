@@ -15,7 +15,24 @@
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import { buildHowToSchema } from '$lib/utils/schema';
 	export let data: PageData;
+
+	// Build HowTo schema if steps are defined in frontmatter
+	$: howToSchema =
+		data?.frontmatter?.howToSteps && data.frontmatter.howToSteps.length > 0
+			? JSON.stringify(
+					buildHowToSchema({
+						name: data.frontmatter.title,
+						description: data.frontmatter.description,
+						steps: data.frontmatter.howToSteps,
+						image: data.frontmatter.pic
+							? `https://9takes.com/blogs/${data.frontmatter.pic}.webp`
+							: undefined,
+						totalTime: data.frontmatter.totalTime
+					})
+				)
+			: null;
 	type C = Component;
 	$: component = data.component as unknown as C;
 
@@ -79,6 +96,13 @@
 	};
 </script>
 
+<!-- HowTo Schema for guides with steps -->
+<svelte:head>
+	{#if howToSchema}
+		{@html `<script type="application/ld+json">${howToSchema}</script>`}
+	{/if}
+</svelte:head>
+
 <article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog" id="blogA">
 	<div style="align-items: inherit;">
 		<BlogPageHead data={data.frontmatter} slug={`how-to-guides/${data.slug}`} />
@@ -93,7 +117,7 @@
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
 				showIcon={false}
 				displayText=""
-				altText=""
+				altText={data?.frontmatter?.title || 'Guide illustration'}
 				subtext=""
 				aspectRatio="1/1"
 			/>

@@ -239,7 +239,7 @@
 
 		<div class="social-links">
 			<a href="https://twitter.com/djwayne3" target="_blank" rel="noreferrer" class="social-btn">
-				<img src={twitter} alt="" />
+				<img src={twitter} alt="Twitter icon" />
 				Twitter/X
 			</a>
 			<a
