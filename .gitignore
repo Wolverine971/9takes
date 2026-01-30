@@ -11,8 +11,8 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-schema.ts
-src/schema.ts
+/schema.ts
+/src/schema.ts
 
 
 unused-css-report.json

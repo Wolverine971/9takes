@@ -5,7 +5,7 @@ description: "The psychology behind Pokimane's calculated rise. How a chemical e
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Pokimane'
-lastmod: '2025-12-05'
+lastmod: '2026-01-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
