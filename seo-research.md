@@ -1,4 +1,5 @@
 <!-- seo-research.md -->
+
 # SEO Research & Best Practices (2026)
 
 **Last Updated:** January 2026

@@ -33,8 +33,8 @@ Ariana-Grande
 Sydney-Sweeney
 Alex-Cooper
 
-Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the src/blog/people/drafts/Mr-Beast.md blog, read it and put your comments as a comment at the bottom of the article
+Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the src/blog/enneagram/drafts/why-dating-apps-are-harder-for-certain-personality-types.md blog, read it and put your comments as a comment at the bottom of the article
 
-Ok so i added some comments at the bottom of the article src/blog/people/drafts/Alex-Cooper.md , please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+Ok so i added some comments at the bottom of the article src/blog/enneagram/drafts/why-dating-apps-are-harder-for-certain-personality-types.md, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
 
-I want you to edit this blog on src/blog/people/drafts/Alex-Cooper.md and use the content-editor agent doc to guide you.
+I want you to edit this blog on src/blog/enneagram/drafts/why-dating-apps-are-harder-for-certain-personality-types.md and use the content-editor agent doc to guide you.
