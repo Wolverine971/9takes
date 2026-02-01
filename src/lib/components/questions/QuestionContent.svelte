@@ -1,8 +1,6 @@
 <!-- src/lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
 	import { fade } from 'svelte/transition';
-	import { createEventDispatcher } from 'svelte';
-	import Card from '$lib/components/atoms/card.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import CameraIcon from '$lib/components/icons/cameraIcon.svelte';
 	import PostIcon from '$lib/components/icons/postIcon.svelte';
@@ -14,43 +12,45 @@
 	import type { User, Comment as CommentType, QuestionPageData } from '$lib/types/questions';
 	import { viewportWidth } from '$lib/stores/viewport';
 
-	const dispatch = createEventDispatcher<{
-		commentAdded: void;
-	}>();
+	interface Props {
+		data: QuestionPageData;
+		user: User | null;
+		oncommentAdded?: () => void;
+	}
 
-	export let data: QuestionPageData;
-	export let user: User | null;
+	let { data, user, oncommentAdded }: Props = $props();
 
 	// Local state
-	let selectedTab = 'Comments';
-	let showAiComments = true;
+	let selectedTab = $state('Comments');
+	let showAiComments = $state(true);
 
 	// Use shared viewport store
-	$: innerWidth = $viewportWidth;
+	let innerWidth = $derived($viewportWidth);
 
 	// Create a deep copy of data to avoid mutation issues
-	$: _data = JSON.parse(JSON.stringify(data)) as QuestionPageData;
+	let _data = $derived(JSON.parse(JSON.stringify(data)) as QuestionPageData);
 
 	// Define tabs and their associated icons
 	const tabs = ['Comments', 'Removed Comments', 'Visuals', 'Articles'];
-	const iconComponents = {
+	const iconComponents: Record<string, typeof MasterCommentIcon> = {
 		Comments: MasterCommentIcon,
 		'Removed Comments': CommentXMarkIcon,
 		Visuals: CameraIcon,
 		Articles: PostIcon
 	};
 
-	// Sort comments handler that preserves data immutability
-	function sortComments(sortedComments: CommentType[]) {
-		// Deep copy the sorted comments to avoid mutation
-		const deepCopiedComments = JSON.parse(JSON.stringify(sortedComments)) as CommentType[];
-		_data.comments = deepCopiedComments;
-		_data.comment_count = deepCopiedComments.length;
-		showAiComments = false;
+	// Local sorted comments state (for when user sorts)
+	let sortedComments = $state<CommentType[] | null>(null);
 
-		// Force a refresh of all comment components by creating a new object
-		_data = { ..._data };
+	// Sort comments handler
+	function sortCommentsHandler(newSortedComments: CommentType[]) {
+		sortedComments = JSON.parse(JSON.stringify(newSortedComments)) as CommentType[];
+		showAiComments = false;
 	}
+
+	// Get the comments to display (sorted if user sorted, otherwise from data)
+	let displayComments = $derived(sortedComments || _data.comments);
+	let displayCommentCount = $derived(sortedComments?.length ?? _data.comment_count);
 
 	// Smooth scroll to section when tab is clicked
 	function scrollToSection(sectionId: string) {
@@ -67,7 +67,7 @@
 	// Handle new comment added
 	function handleCommentAdded() {
 		if (!data?.flags?.userHasAnswered) {
-			dispatch('commentAdded');
+			oncommentAdded?.();
 		}
 	}
 
@@ -76,8 +76,8 @@
 		switch (tab) {
 			case 'Comments':
 				return {
-					count: _data.comment_count || 0,
-					label: _data.comment_count === 1 ? 'Comment' : 'Comments'
+					count: displayCommentCount || 0,
+					label: displayCommentCount === 1 ? 'Comment' : 'Comments'
 				};
 			case 'Removed Comments':
 				return {
@@ -90,9 +90,10 @@
 					label: _data.links_count === 1 ? 'Article' : 'Articles'
 				};
 			case 'Visuals':
+				// Visuals feature not yet implemented
 				return {
-					count: _data.visual_count || 0,
-					label: _data.visual_count === 1 ? 'Visual' : 'Visuals'
+					count: 0,
+					label: 'Visuals'
 				};
 			default:
 				return { count: 0, label: '' };
@@ -104,6 +105,7 @@
 	<!-- Tabs Navigation -->
 	<nav class="scrollbar-hide flex overflow-x-auto border-b border-slate-700/50 bg-[#12121a]">
 		{#each tabs as tab}
+			{@const IconComponent = iconComponents[tab]}
 			<button
 				role="tab"
 				aria-selected={selectedTab === tab}
@@ -112,7 +114,7 @@
 				tab
 					? 'border-b-2 border-purple-500 text-slate-100'
 					: ''}"
-				on:click={() => {
+				onclick={() => {
 					selectedTab = tab;
 					scrollToSection(tab);
 				}}
@@ -129,11 +131,10 @@
 				{:else}
 					<!-- Show icons on mobile -->
 					<div class="flex flex-col items-center gap-1">
-						<svelte:component
-							this={iconComponents[tab]}
+						<IconComponent
 							iconStyle={''}
 							height={'1.25rem'}
-							fill={selectedTab === tab ? 'currentColor' : 'currentColor'}
+							fill={'currentColor'}
 							type={tab === 'Comments' ? 'multiple' : undefined}
 						/>
 						<span class="text-[10px]">{getContentCount(tab).count}</span>
@@ -178,13 +179,13 @@
 										class="text-center text-xl font-medium text-slate-100 sm:text-lg"
 										in:fade={{ duration: 200 }}
 									>
-										{_data.comment_count === 0
+										{displayCommentCount === 0
 											? 'Be the first to share your perspective'
 											: 'Share your perspective to unlock comments'}
 									</p>
 									<p class="mt-2 text-sm text-slate-400">
-										{_data.comment_count > 0
-											? `${_data.comment_count} perspectives waiting to be revealed`
+										{displayCommentCount > 0
+											? `${displayCommentCount} perspectives waiting to be revealed`
 											: 'Your unique viewpoint matters'}
 									</p>
 								</div>
@@ -194,27 +195,27 @@
 								<div class="mb-4 flex items-center justify-between px-4">
 									<SortComments
 										data={_data}
-										on:commentsSorted={({ detail }) => sortComments(detail)}
+										on:commentsSorted={({ detail }) => sortCommentsHandler(detail)}
 										size={'medium'}
 									/>
 								</div>
 
 								<!-- User Comments -->
 								<Comments
-									questionId={_data.id}
-									comments={_data.comments}
-									comment_count={_data.comment_count}
+									questionId={_data.question.id}
+									comments={displayComments}
+									comment_count={displayCommentCount}
 									parentType={'question'}
 									parentData={_data}
 									{user}
-									key={_data.comment_count}
+									key={displayCommentCount}
 									on:commentAdded={handleCommentAdded}
 								/>
 							{/if}
 						{:else if section === 'Removed Comments'}
 							{#if _data?.removedComments?.length > 0}
 								<Comments
-									questionId={_data.id}
+									questionId={_data.question.id}
 									parentData={_data}
 									comment_count={_data.removed_comment_count}
 									comments={_data.removedComments}
@@ -291,7 +292,7 @@
 							{/if}
 						{:else if section === 'Articles'}
 							<ArticleLinks
-								questionId={data.id}
+								questionId={data.question.id}
 								data={_data}
 								parentType={'question'}
 								{user}

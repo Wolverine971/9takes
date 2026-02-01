@@ -1,6 +1,6 @@
 <!-- src/lib/components/molecules/Interact.svelte -->
 <script lang="ts">
-	import { createEventDispatcher, onMount } from 'svelte';
+	import { onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { slide } from 'svelte/transition';
 	import { notifications } from '$lib/components/molecules/notifications';
@@ -13,35 +13,35 @@
 		Comment as CommentType,
 		CommentLike,
 		Subscription,
-		QuestionPageData,
-		Question
+		QuestionPageData
 	} from '$lib/types/questions';
 	import { viewportWidth } from '$lib/stores/viewport';
 
 	// Component props
-	export let parentType: 'question' | 'comment';
-	export let data: QuestionPageData | CommentType;
-	export let user: User | null;
-	export let questionId: number;
-	export let qrCodeUrl: string;
+	interface Props {
+		parentType: 'question' | 'comment';
+		data: QuestionPageData | CommentType;
+		user: User | null;
+		questionId: number;
+		qrCodeUrl: string;
+		oncommentAdded?: (comment: CommentType) => void;
+	}
 
-	const dispatch = createEventDispatcher<{
-		commentAdded: CommentType;
-	}>();
+	let { parentType, data, user, questionId, qrCodeUrl, oncommentAdded }: Props = $props();
 
 	// State variables
-	let likes: CommentLike[] = [];
-	let subscriptions: Subscription[] = [];
-	let comment: string = '';
-	let commenting: boolean = false;
-	let loading: boolean = false;
-	let subscriptionLoading: boolean = false;
-	let anonymousComment = false;
-	let textareaHeight = 'auto';
+	let likes = $state<CommentLike[]>([]);
+	let subscriptions = $state<Subscription[]>([]);
+	let comment = $state('');
+	let commenting = $state(false);
+	let loading = $state(false);
+	let subscriptionLoading = $state(false);
+	let anonymousComment = $state(false);
+	let textareaHeight = $state('auto');
 
 	// Cached fingerprint - loaded once on mount
-	let cachedFingerprint: string | null = null;
-	let fingerprintLoading = false;
+	let cachedFingerprint = $state<string | null>(null);
+	let fingerprintLoading = $state(false);
 
 	// Type guard to check if data is QuestionPageData
 	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
@@ -49,19 +49,23 @@
 	};
 
 	// Use shared viewport store
-	$: innerWidth = $viewportWidth;
+	let innerWidth = $derived($viewportWidth);
 
-	// Reactive statements
-	$: {
-		// Update likes and subscription state from data
-		likes = isQuestionPageData(data) ? [] : data?.comment_like || [];
+	// Derived flag for whether user has answered (only relevant for QuestionPageData)
+	let userHasAnswered = $derived(
+		isQuestionPageData(data) ? data?.flags?.userHasAnswered || false : false
+	);
+
+	// Update likes and subscription state from data
+	$effect(() => {
+		likes = isQuestionPageData(data) ? [] : (data as CommentType)?.comment_like || [];
 		subscriptions = isQuestionPageData(data) ? data?.question?.subscriptions || [] : [];
 
 		// Auto-show comment box for first-time answerers
 		if (isQuestionPageData(data) && !data?.flags?.userHasAnswered && parentType === 'question') {
 			commenting = true;
 		}
-	}
+	});
 
 	// Handle QR code modal opening
 	const openQRModal = () => {
@@ -178,12 +182,12 @@
 			console.error(result.error);
 		} else {
 			notifications.success('Comment Added', 3000);
-			dispatch('commentAdded', result?.data);
+			oncommentAdded?.(result?.data);
 			comment = '';
 			textareaHeight = 'auto';
 
 			// Hide comment box after submitting for non-first-time users
-			if (isQuestionPageData(data) && data?.flags?.userHasAnswered) {
+			if (userHasAnswered) {
 				commenting = false;
 			}
 		}
@@ -285,7 +289,7 @@
 		<button
 			title="Comment"
 			class="flex items-center justify-center gap-2 rounded-lg bg-purple-600 px-5 py-2.5 text-sm font-medium text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition-all duration-200 hover:bg-purple-700 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] active:scale-[0.98]"
-			on:click={() => (commenting = !commenting)}
+			onclick={() => (commenting = !commenting)}
 			aria-label={commenting ? 'Hide comment box' : 'Write a comment'}
 		>
 			<MasterCommentIcon
@@ -305,7 +309,7 @@
 				)
 					? 'border-purple-500 bg-purple-900/30 text-purple-300 hover:bg-purple-900/50'
 					: 'border-slate-600 bg-[#1a1a2e] text-slate-300 hover:bg-[#252538]'}"
-				on:click={toggleSubscription}
+				onclick={toggleSubscription}
 				disabled={subscriptionLoading}
 				aria-label={subscriptions.some((e) => e.user_id === user?.id)
 					? 'Unsubscribe from this question'
@@ -328,7 +332,7 @@
 				<button
 					title="Share via QR Code"
 					class="flex items-center justify-center gap-2 rounded-lg border border-slate-600 bg-[#1a1a2e] px-5 py-2.5 text-sm font-medium text-slate-300 transition-all duration-200 hover:bg-[#252538] active:scale-[0.98]"
-					on:click={openQRModal}
+					onclick={openQRModal}
 					aria-label="Share via QR Code"
 				>
 					<img
@@ -358,8 +362,8 @@
 						bind:value={comment}
 						id="comment-box"
 						rows="3"
-						on:input={handleTextareaInput}
-						on:keydown={handleKeydown}
+						oninput={handleTextareaInput}
+						onkeydown={handleKeydown}
 					></textarea>
 				</div>
 			</div>
@@ -374,11 +378,11 @@
 					{/if}
 				</span>
 				<div class="flex gap-2">
-					{#if data?.flags?.userHasAnswered}
+					{#if userHasAnswered}
 						<button
 							class="rounded-md border border-slate-600 bg-[#1a1a2e] px-4 py-1.5 text-sm font-medium text-slate-400 transition-all duration-200 hover:bg-[#252538] active:scale-[0.98]"
 							type="button"
-							on:click={() => {
+							onclick={() => {
 								commenting = false;
 								comment = '';
 							}}
@@ -389,7 +393,7 @@
 					<button
 						class="flex items-center justify-center gap-2 rounded-md bg-purple-600 px-4 py-1.5 text-sm font-medium text-white shadow-[0_0_10px_rgba(124,58,237,0.3)] transition-all duration-200 hover:bg-purple-700 hover:shadow-[0_0_15px_rgba(124,58,237,0.4)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none"
 						type="button"
-						on:click={createComment}
+						onclick={createComment}
 						disabled={!comment.trim() || loading}
 						id="comment-button"
 					>

@@ -7,25 +7,45 @@
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import type { PageData } from './$types';
+	import type { QuestionPageData, Comment } from '$lib/types/questions';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
-	// Create reactive data object for child components
-	$: dataForChild = {
-		...data.question,
+	// Local state for optimistic updates
+	let optimisticComments = $state<Comment[]>([]);
+	let optimisticUserHasAnswered = $state(false);
+
+	// Reset optimistic state when server data changes
+	$effect(() => {
+		// When data changes (e.g., after invalidateAll), reset optimistic state
+		if (data.flags?.userHasAnswered) {
+			optimisticComments = [];
+			optimisticUserHasAnswered = false;
+		}
+	});
+
+	// Create reactive data object for child components with proper QuestionPageData structure
+	let dataForChild = $derived<QuestionPageData>({
+		question: data.question,
 		removedComments: data.removedComments,
 		removed_comment_count: data.removed_comment_count,
-		comments: data.comments,
-		comment_count: data.comment_count,
+		comments: [...optimisticComments, ...(data.comments || [])],
+		comment_count: (data.comment_count || 0) + optimisticComments.length,
+		aiComments: data.aiComments,
 		ai_comments: data.aiComments,
 		links: data.links,
 		links_count: data.links_count,
-		flags: data.flags,
-		flagReasons: data.flagReasons
-	};
+		flags: {
+			userHasAnswered: data.flags?.userHasAnswered || optimisticUserHasAnswered,
+			userSignedIn: data.flags?.userSignedIn || false
+		},
+		questionTags: data.questionTags,
+		flagReasons: data.flagReasons || [],
+		user: data.user
+	});
 
 	// QR Code settings
-	let qrCodeUrl = '';
+	let qrCodeUrl = $state('');
 	const QR_OPTS = {
 		errorCorrectionLevel: 'H',
 		type: 'image/png',
@@ -38,8 +58,8 @@
 	};
 
 	// Responsive variables
-	let innerWidth = 0;
-	$: title = computeTitle(data.question.question_formatted || data.question.question);
+	let innerWidth = $state(0);
+	let title = $derived(computeTitle(data.question.question_formatted || data.question.question));
 
 	// Compute SEO-friendly title
 	function computeTitle(questionText: string): string {
@@ -48,18 +68,13 @@
 	}
 
 	// Handle comment addition - uses optimistic update
-	function addComment(event: CustomEvent) {
-		const newComment = event.detail;
-		const isFirstComment = !dataForChild.flags?.userHasAnswered;
+	function addComment(newComment?: Comment) {
+		const isFirstComment = !data.flags?.userHasAnswered && !optimisticUserHasAnswered;
 
 		// Optimistic update - immediately add comment to UI
 		if (newComment) {
-			dataForChild = {
-				...dataForChild,
-				comments: [newComment, ...(dataForChild.comments || [])],
-				comment_count: (dataForChild.comment_count || 0) + 1,
-				flags: { ...dataForChild.flags, userHasAnswered: true }
-			};
+			optimisticComments = [newComment, ...optimisticComments];
+			optimisticUserHasAnswered = true;
 		}
 
 		// Only invalidate for first-time commenters to refresh permissions/UI state
@@ -204,10 +219,10 @@
 		<!-- Interaction Area -->
 		<div class="mb-6">
 			<Interact
-				{data}
+				data={dataForChild}
 				questionId={data.question.id}
 				parentType={'question'}
-				on:commentAdded={addComment}
+				oncommentAdded={addComment}
 				user={data?.user}
 				{qrCodeUrl}
 			/>
@@ -232,7 +247,7 @@
 
 		<!-- Question Content -->
 		{#if dataForChild}
-			<QuestionContent data={dataForChild} user={data?.user} on:commentAdded={addComment} />
+			<QuestionContent data={dataForChild} user={data?.user} oncommentAdded={() => addComment()} />
 		{/if}
 	</article>
 </div>

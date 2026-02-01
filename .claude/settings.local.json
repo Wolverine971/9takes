@@ -149,7 +149,9 @@
 			"WebFetch(domain:bossip.com)",
 			"WebFetch(domain:www.nme.com)",
 			"WebFetch(domain:www.hollywoodreporter.com)",
-			"Bash(git add:*)"
+			"Bash(git add:*)",
+			"Bash(timeout 30 pnpm dev:*)",
+			"mcp__ide__getDiagnostics"
 		],
 		"deny": [],
 		"ask": [],

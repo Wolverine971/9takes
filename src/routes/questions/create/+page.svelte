@@ -11,20 +11,26 @@
 	import { fade, fly } from 'svelte/transition';
 	import type { PageData } from './$types';
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
-	export let data: PageData;
 
-	let question = '';
-	let url = '';
-	let loading = false;
-	let qrImageSrc = '';
-	let imgPreview = '';
-	let html2canvasModule:
-		| ((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>)
-		| null = null;
-	let fontLoaded = false;
+	let { data }: { data: PageData } = $props();
+
+	let question = $state('');
+	let url = $state('');
+	let loading = $state(false);
+	let qrImageSrc = $state('');
+	let imgPreview = $state('');
+	let html2canvasModule = $state<
+		((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>) | null
+	>(null);
+	let fontLoaded = $state(false);
 	let resizeDebounceTimer: ReturnType<typeof setTimeout>;
 
-	$: isQuestionValid = question.trim().length > 0 && question.length <= MAX_CHAR_COUNT;
+	const MIN_CHAR_COUNT = 10;
+	const MAX_CHAR_COUNT = 280;
+	let isQuestionValid = $derived(
+		question.trim().length >= MIN_CHAR_COUNT && question.length <= MAX_CHAR_COUNT
+	);
+	let questionCharCount = $derived(question.length);
 
 	const QR_OPTS: QRCode.QRCodeToDataURLOptions = {
 		errorCorrectionLevel: 'H' as QRCode.QRCodeErrorCorrectionLevel,
@@ -59,7 +65,10 @@
 
 	async function getUrl() {
 		if (!isQuestionValid) {
-			notifications.warning('Please enter a valid question (1-280 characters)', 3000);
+			notifications.warning(
+				`Please enter a valid question (${MIN_CHAR_COUNT}-${MAX_CHAR_COUNT} characters)`,
+				3000
+			);
 			return;
 		}
 
@@ -67,6 +76,16 @@
 			.trim()
 			.replace(/[^\w\s]|_/g, '')
 			.replace(/\s+/g, ' ');
+
+		// Check if sanitized question still meets minimum length
+		if (sanitizedQuestion.length < MIN_CHAR_COUNT) {
+			notifications.warning(
+				`Question must have at least ${MIN_CHAR_COUNT} letters/numbers after removing special characters`,
+				3000
+			);
+			return;
+		}
+
 		const body = new FormData();
 		body.append('question', sanitizedQuestion);
 
@@ -229,9 +248,6 @@
 	// 	}
 	// };
 
-	const MAX_CHAR_COUNT = 280;
-	$: questionCharCount = question.length;
-
 	function handleInput(event: Event) {
 		const target = event.target as HTMLTextAreaElement;
 
@@ -267,18 +283,21 @@
 			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
 			class="noticia-text-regular w-full rounded-2xl border-2 border-slate-700/30 bg-[#252538] p-4 text-lg text-slate-200 placeholder-slate-500 shadow-sm transition focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/30"
 			bind:value={question}
-			on:input={handleInput}
+			oninput={handleInput}
 			maxlength={MAX_CHAR_COUNT}
 		></textarea>
 		<div
-			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT ? 'text-red-400' : 'text-slate-500'}`}
+			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT || (questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT) ? 'text-red-400' : 'text-slate-500'}`}
 		>
 			{questionCharCount}/{MAX_CHAR_COUNT} characters
+			{#if questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT}
+				<span class="ml-2">(min {MIN_CHAR_COUNT})</span>
+			{/if}
 		</div>
 		<button
 			class="inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition hover:from-purple-500 hover:to-purple-600 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] disabled:cursor-not-allowed disabled:opacity-60"
 			disabled={!isQuestionValid}
-			on:click={getUrl}
+			onclick={getUrl}
 			type="button"
 		>
 			Launch Your Question
@@ -309,7 +328,7 @@
 		</div>
 		<button
 			class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition hover:from-purple-500 hover:to-purple-600 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)]"
-			on:click={createQuestion}
+			onclick={createQuestion}
 		>
 			{#if loading}
 				<div class="loader"></div>
