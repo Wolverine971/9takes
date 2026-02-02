@@ -61,7 +61,7 @@ His crucial insight: **What you resist persists. What you don't integrate, you p
 
 **1. Repressed Qualities:** The traits you learned were "bad" in childhood. Aspects that didn't fit your family's expectations. Parts you disowned to feel acceptable.
 
-**2. Undeveloped Potential:** Positive qualities you've never cultivated. Talents you've dismissed. Growth edges you avoid because they feel risky, often shaped by early [trauma responses](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
+**2. Undeveloped Potential:** Positive qualities you've never cultivated. Talents you've dismissed. Growth edges you avoid because they feel risky, often shaped by early [trauma responses](/enneagram-corner/mental-health/enneagram-trauma-response-guide) or [type-specific anxiety patterns](/enneagram-corner/anxiety-and-enneagram-types-guide).
 
 **3. Projection Patterns:** What you hate in others is often what you deny in yourself. The people who trigger your strongest reactions usually mirror something you refuse to see.
 
@@ -351,7 +351,7 @@ Loyalty. Commitment. The ability to anticipate problems before they happen. Sixe
 
 ### The Shadow Side: The Anxious Saboteur
 
-**Core Pattern:** Fear of betrayal leads to self-sabotage, often destroying the very security they seek.
+**Core Pattern:** Fear of betrayal leads to self-sabotage, often destroying the very security they seek. This [anxiety signature](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad) runs so deep that Sixes often don't realize their baseline state is chronic fear—it just feels normal.
 
 My colleague finally landed her dream job after years of anxiety about making the wrong career move. Within two months, she was already interviewing elsewhere. "Just in case." She couldn't explain why. The job was great. Her boss loved her work. But she kept testing escape routes, half-expecting to be fired despite glowing reviews.
 
@@ -785,6 +785,8 @@ What shadow pattern are you ready to face?
 ### Professional Support
 
 Find an Enneagram-aware therapist through the International Enneagram Association. For deeper work, consider a Jungian analyst who specializes in shadow integration.
+
+Not sure which therapeutic approach fits your personality? [Different types need different modalities](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)—the talking cure works beautifully for some types and systematically fails others. Understanding your processing style saves years of ineffective treatment.
 
 **This work takes courage. You already have everything you need, including your shadow.**
 

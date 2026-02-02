@@ -76,7 +76,7 @@ Types 2, 3, and 4 operate from the Heart center. Their core emotional driver is 
 
 These types are **overrepresented in therapy.** They're emotionally attuned, comfortable discussing feelings, and naturally drawn to the therapeutic space. The model was essentially built for them.
 
-**The problem:** Heart types can become "therapy lifers" — endlessly processing feelings without behavioral change. They're comfortable in the emotional space. Too comfortable. A Type 3 can perform insight beautifully without ever actually being vulnerable. A Type 2 can spend sessions discussing everyone else's problems. A Type 4 can compete for "most tragic backstory" while resisting any intervention that threatens their identity as a wounded person.
+**The problem:** Heart types can become "therapy lifers" — endlessly processing feelings without behavioral change. They're comfortable in the emotional space. Too comfortable. A Type 3 can perform insight beautifully without ever actually being vulnerable. A Type 2 can spend sessions discussing everyone else's problems. A Type 4 can compete for "most tragic backstory" while resisting any intervention that threatens their identity as a wounded person. Understanding [how depression manifests differently by type](/enneagram-corner/depression-patterns-by-enneagram-type) helps identify whether you're actually processing or just performing.
 
 ### The Head Center: Processing Through Fear
 
@@ -86,7 +86,7 @@ Types 5, 6, and 7 operate from the Head center. Their core emotional driver is *
 - **Type 6** manages fear through vigilance and worst-case planning
 - **Type 7** manages fear through positive reframing and escape
 
-These types often seek therapy for anxiety. They want relief from the constant mental noise. And talking through their fears provides temporary relief — the verbalization releases some pressure.
+These types often seek therapy for anxiety. They want relief from the constant mental noise. And talking through their fears provides temporary relief — the verbalization releases some pressure. If you're in this triad, understanding [how anxiety manifests specifically for your type](/enneagram-corner/anxiety-and-enneagram-types-guide) can help you target the right therapeutic approach.
 
 **The problem:** Talking ABOUT fear isn't the same as moving THROUGH it. Head types can intellectualize their problems perfectly while remaining stuck. A Type 5 becomes an expert on anxiety disorders without actually reducing their anxiety. A Type 6 gets reassurance that doesn't address the root cause. A Type 7 reframes everything into optimism, escaping into plans instead of processing pain.
 

@@ -332,7 +332,7 @@ Competence equals safety. More knowledge equals more protection. Acting without 
 
 **The Thought Pattern:** "What if this goes wrong? What if they can't be trusted? What am I not seeing?"
 
-Your brain runs threat-detection constantly. Every situation gets stress-tested for potential disasters. You prepare for the worst. And the preparation never ends.
+Your brain runs threat-detection constantly. Every situation gets stress-tested for potential disasters. You prepare for the worst. And the preparation never ends. This chronic vigilance is the core of [Type 6's unique anxiety signature](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad)—and research shows 6s have the highest correlation with anxiety disorders.
 
 > _Rachel (Type 6) accepted a new job offer. Before her start date, she'd already imagined getting fired in month three, planned how she'd explain the gap on her resume, researched unemployment benefits, and worried whether her boss's "looking forward to it" email was genuinely enthusiastic or just polite. The job turned out great._
 
@@ -638,7 +638,9 @@ Overthinking is human. But sometimes it crosses into territory that requires pro
 
 Your Enneagram type can help a therapist understand your patterns faster, but it doesn't replace professional care.
 
-For more on the connection between personality and mental health, see our guide on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness). If anxiety is your primary struggle, explore [how each type experiences anxiety differently](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
+For more on the connection between personality and mental health, see our guide on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness). If anxiety is your primary struggle, explore [why your anxiety is different based on your type](/enneagram-corner/anxiety-and-enneagram-types-guide)—each type has a unique anxiety signature that requires specific strategies.
+
+If you've been in therapy but nothing seems to change, consider that [therapy doesn't work the same for every personality type](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type). The modality might be wrong for how your brain processes emotions.
 
 ---
 

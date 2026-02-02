@@ -562,6 +562,8 @@ If you like diving into personality, explore our <a href="/questions" >questions
 
 ## Related Reading
 
+- **[Why Your Anxiety Is Different](/enneagram-corner/anxiety-and-enneagram-types-guide)** – How anxiety manifests for each type and what actually works for your wiring
+- **[Why Therapy Doesn't Work the Same for Everyone](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)** – Finding the therapeutic approach that matches how your brain processes emotions
 - **[Why You Can't Stop Overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)** – Your type's specific thought loop and how to finally interrupt it
 - **[How Each Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)** – The protection mechanisms that block your goals
 - **[How Each Enneagram Type Manipulates](/enneagram-corner/how-each-enneagram-type-manipulates)** – When stress drives manipulation patterns

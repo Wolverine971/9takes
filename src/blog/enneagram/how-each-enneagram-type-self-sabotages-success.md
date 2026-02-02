@@ -575,7 +575,9 @@ Self-sabotage happens to everyone. But when patterns persist despite awareness, 
 - **EMDR** for trauma-rooted patterns
 - **Coaching** for accountability and strategy
 
-Your Enneagram type can help a therapist understand your specific patterns faster.
+Your Enneagram type can help a therapist understand your specific patterns faster—but [not every therapeutic approach works the same for every type](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type). The talking cure was designed for certain processing styles, and if yours is different, you might need somatic work, EMDR, or another modality that matches how your brain actually works.
+
+If anxiety underlies your self-sabotage, understanding [how your type experiences anxiety differently](/enneagram-corner/anxiety-and-enneagram-types-guide) can help you target the root cause instead of just the symptoms.
 
 Self-awareness is the first step. But sometimes we need a guide to walk us through the territory we've been avoiding.
 

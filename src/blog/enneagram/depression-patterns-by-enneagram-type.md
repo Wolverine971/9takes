@@ -55,7 +55,7 @@ A Type 1's depression looks like perfectionist paralysis and harsh self-criticis
 
 Understanding your type's unique depression patterns isn't just academically interesting - it can be life-saving. Because when you know how YOUR mind creates suffering, you can finally address the root cause instead of just treating symptoms.
 
-**Important Note:** This article explores psychological patterns and is not a substitute for professional mental health care. If you're experiencing suicidal thoughts or severe depression, please contact a mental health professional or crisis hotline immediately. For comprehensive strategies on breaking depression patterns specific to your type, read our detailed guide: [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression).
+**Important Note:** This article explores psychological patterns and is not a substitute for professional mental health care. If you're experiencing suicidal thoughts or severe depression, please contact a mental health professional or crisis hotline immediately. For comprehensive strategies on breaking depression patterns specific to your type, read our detailed guide: [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression). If anxiety accompanies your depression—as it often does—explore [how each type experiences anxiety differently](/enneagram-corner/anxiety-and-enneagram-types-guide).
 
 ## Why Depression Varies by Enneagram Type
 
@@ -470,7 +470,7 @@ Type 5 depression often stems from early experiences of invasion, overwhelm, or 
 
 **Core Pattern:** "The world is dangerous, I can't trust my own judgment, and I'm alone in facing unpredictable threats."
 
-Type 6 depression involves chronic anxiety, self-doubt, and oscillation between seeking security and rejecting it. You feel trapped between needing support and fearing dependence.
+Type 6 depression involves chronic anxiety, self-doubt, and oscillation between seeking security and rejecting it. You feel trapped between needing support and fearing dependence. The [anxiety that underlies Type 6 depression](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad) is so constant that you may not even recognize it as anxiety—it feels like "just how life is."
 
 **Physical Symptoms:**
 
@@ -802,6 +802,8 @@ Regardless of type, depression recovery involves:
 5. **Type-aware healing:** Understanding your unique patterns and triggers
 
 ### Customizing Treatment by Type
+
+The key insight: [therapy doesn't work the same for every personality type](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type). The "talking cure" was designed for certain processing styles—if your brain works differently, you may need a different approach entirely.
 
 **Types 1, 8, 9** (Body/Gut Center):
 

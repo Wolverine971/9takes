@@ -426,6 +426,8 @@ Type 6s are susceptible to:
 - Intense anxiety attacks
 - Chronic fear and suspicion
 
+Research shows Type 6 has the highest correlation with anxiety—72% in one major study. For a deeper dive into [how anxiety manifests differently for Type 6 versus other types](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad), and practical strategies that actually work, see our anxiety guide.
+
 ### Unhealthy Behaviors – The Spectrum of Anxiety and Paranoia
 
 #### Mild – Early Signs of Anxiety and Insecurity
@@ -670,6 +672,8 @@ By integrating Enneagram insights with professional advice and personal reflecti
 
 Explore these comprehensive guides for specific mental health topics by Enneagram type:
 
+- **[Why Your Anxiety Is Different](/enneagram-corner/anxiety-and-enneagram-types-guide)** – How anxiety manifests uniquely for each type and practical strategies that actually work for your wiring
+- **[Why Therapy Doesn't Work the Same for Everyone](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)** – The talking cure was built for certain types. Find out if it matches how your brain processes emotions.
 - **[Enneagram and Addiction Recovery](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide)** – How each type develops specific addictions and type-tailored recovery strategies
 - **[Enneagram Trauma Response Guide](/enneagram-corner/mental-health/enneagram-trauma-response-guide)** – Understanding your type's fight, flight, freeze, or fawn patterns
 - **[Enneagram and Therapy](/enneagram-corner/mental-health/enneagram-therapy-guide)** – Finding the right therapeutic approach for your personality type

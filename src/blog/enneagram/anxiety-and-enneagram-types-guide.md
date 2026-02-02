@@ -86,7 +86,7 @@ The core fear driving this? Being controlled, betrayed, or exposed as weak. Your
 - Feeling restless, like you need to move or act
 - Sleep disrupted by racing "planning" thoughts
 
-**The trap:** You double down on control when anxious. More control = more exhaustion = more anxiety. The thing that feels like protection becomes the prison.
+**The trap:** You double down on control when anxious. More control = more exhaustion = more anxiety. The thing that feels like protection becomes the prison. This is the anxiety-driven [self-sabotage pattern](/enneagram-corner/how-each-enneagram-type-self-sabotages-success) that keeps you stuck.
 
 **What actually helps:**
 
@@ -464,7 +464,7 @@ Understanding your type helps—but it doesn't replace professional support when
 - **Heart types (2, 3, 4):** Psychodynamic therapy, emotionally-focused approaches
 - **Head types (5, 6, 7):** CBT for thought patterns, plus somatic work to get out of the head
 
-**Important:** The Enneagram helps you understand your patterns. It doesn't diagnose disorders. [Anxiety disorders are clinical conditions](https://fherehab.com/learning/enneagram-mental-health/) that sometimes need medication, therapy, or both. Knowing your type is a companion to professional help, not a replacement for it.
+**Important:** The Enneagram helps you understand your patterns. It doesn't diagnose disorders. [Anxiety disorders are clinical conditions](https://fherehab.com/learning/enneagram-mental-health/) that sometimes need medication, therapy, or both. Knowing your type is a companion to professional help, not a replacement for it. If you've tried therapy and it hasn't worked, consider that [therapy doesn't work the same for every personality type](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)—the modality may need to match how your brain processes emotions.
 
 ---
 
@@ -492,7 +492,7 @@ Example for Type 6: "When I'm anxious, what helps me is hearing you say 'we'll f
 
 ## Your Anxiety Makes Sense
 
-Here's the uncomfortable truth: your anxiety pattern developed for a reason. It wasn't random or broken—it was adaptive. At some point, that threat-detection system or that perfectionism or that people-pleasing kept you safe.
+Here's the uncomfortable truth: your anxiety pattern developed for a reason. It wasn't random or broken—it was adaptive. At some point, that threat-detection system or that perfectionism or that people-pleasing kept you safe. Understanding your type's [stress breakdown pattern](/enneagram-corner/enneagram-types-in-stress) reveals what happens when anxiety pushes you past your limit—and how to catch the spiral before it takes over.
 
 The problem is that strategies that worked at 8 don't work at 38. Your anxiety pattern might be outdated software running on new hardware.
 

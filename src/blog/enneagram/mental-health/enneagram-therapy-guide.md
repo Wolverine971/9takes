@@ -224,7 +224,7 @@ Need someone competent who respects boundaries and explains their methods. If th
 
 ## Type 6: The Loyalist
 
-**Your therapy sabotage:** You test your therapist like they are applying for security clearance. You doubt everything works. You scan for danger instead of healing.
+**Your therapy sabotage:** You test your therapist like they are applying for security clearance. You doubt everything works. You scan for danger instead of healing. Understanding [your type's unique anxiety signature](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad) helps you recognize when vigilance is productive versus when it's keeping you stuck.
 
 ### What Actually Works
 
@@ -454,6 +454,8 @@ Every type thinks their wounds are special. They are not. Your patterns are pred
 Growth happens when you stop defending against it.
 
 For deeper work, explore [medication options](/enneagram-corner/mental-health/enneagram-medication-mental-health) if needed. Build [crisis management skills](/enneagram-corner/mental-health/enneagram-crisis-management-guide). Understand your [trauma patterns](/enneagram-corner/mental-health/enneagram-trauma-response-guide). Check if [neurodivergence](/enneagram-corner/mental-health/enneagram-neurodivergence-guide) factors in.
+
+If you're wondering why therapy has consistently failed you despite trying hard, [this guide explains why the therapeutic model itself may not match how your brain processes emotions](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)—it's not you, it's the mismatch.
 
 ## Frequently Asked Questions
 
