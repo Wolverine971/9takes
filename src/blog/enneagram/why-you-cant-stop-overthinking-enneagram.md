@@ -625,7 +625,7 @@ Overthinking is human. But sometimes it crosses into territory that requires pro
 
 - Overthinking significantly impairs daily functioning
 - You can't sleep, eat, or work because of thought loops
-- Overthinking accompanies depression or severe anxiety
+- Overthinking accompanies [depression](/how-to-guides/guide-to-fighting-depression) or severe anxiety
 - You've tried self-help strategies and they're not working
 - Thoughts are becoming dark, hopeless, or self-harmful
 

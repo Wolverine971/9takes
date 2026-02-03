@@ -4,7 +4,7 @@ description: 'Discover what each Enneagram type thinks, feels, and values on a f
 author: 'DJ Wayne'
 date: '2025-02-25'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date'
-lastmod: '2025-12-10'
+lastmod: '2026-02-02'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -34,13 +34,19 @@ Type 1s plan meticulously and arrive early. Type 2s focus entirely on you and yo
 
 <p class="firstLetter">Sweaty palms. Racing heart. "What if they don't like me?" "What should I wear?" "What if there's awkward silence?"</p>
 
-First dates trigger a universal cocktail of excitement and anxiety. But did you know your Enneagram type significantly influences how you approach this dating milestone?
+First dates surface what we usually hide. Your Enneagram type shapes everything: how you prepare, what you notice, what you're secretly hoping for, and what sends you running.
 
-This guide reveals what's actually happening beneath the surface for each type when they're sitting across from you at that trendy coffee shop or intimate restaurant.
+I learned this the hard way. Years ago, I sat across from someone who asked question after question about me. My dreams. My struggles. My day. I felt so _seen_.
 
-**Understanding these patterns can transform your dating life.** Whether you're trying to impress a perfectionist Type 1 or connect with a creative Type 4, knowing what makes each type tick can help you navigate those crucial first impressions with confidence.
+It took three dates to realize I knew almost nothing about her.
 
-Let's decode what each Enneagram type is _really_ thinking, feeling, and looking for on a first date...
+She was a Type 2, doing what Type 2s do: giving without asking for anything back. Once I understood her pattern, I could draw her out. But I almost missed it entirely.
+
+**That's what this guide is for.** Below: what's actually happening beneath the surface for each type, how to spot them, and what to expect as things progress.
+
+(Still stuck swiping? [Dating apps are harder for certain personality types](/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types). It's not you.)
+
+Here's what each Enneagram type is _really_ thinking, feeling, and looking for on a first date.
 
 <div class="quick-nav">
     <h4>Jump to your type:</h4>
@@ -62,34 +68,21 @@ Let's decode what each Enneagram type is _really_ thinking, feeling, and looking
 ## Type 1: The Perfectionist - Planning the Perfect Date
 
 <div class="type-intro">
-    <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/greek-statues-having-an-intimate-conversation.webp" alt="Type 1 on a date" />
-    </div> -->
     <div class="type-quotes">
         <blockquote>"I've researched three restaurants with excellent reviews and made reservations at all of them, just in case."</blockquote>
         <blockquote>"I hope they appreciate that I arrived exactly seven minutes early."</blockquote>
     </div>
 </div>
 
-### What They're Thinking
+**Spot a Type 1:** They arrived before you did. Their outfit is considered but not flashy. They've already scanned the menu and have opinions about the seating.
 
-The Perfectionist approaches dating with the same meticulous attention they bring to everything else. Before you've even met, they've likely:
+If something goes wrong, slow service, a wrong order, watch their jaw tighten as they suppress the urge to "fix" it.
 
-- Researched your mutual interests
-- Planned the perfect venue (with backup options)
-- Mentally rehearsed conversation topics
-- Chosen an outfit that's impeccably appropriate
+### Inside Their Head
 
-Their internal monologue is often focused on making the right impression and ensuring everything goes according to plan.
+Before you've even met, they've researched your mutual interests, planned the venue (with backup options), and mentally rehearsed conversation topics.
 
-### What They're Feeling
-
-Beneath their composed exterior, Type 1s experience a mix of:
-
-- Excitement about meeting someone new
-- Anxiety about potential imperfections in themselves or the date
-- A genuine desire to create a meaningful connection
-- Pressure to embody their ideals
+Beneath the composed exterior: a tug-of-war. Genuine excitement about connection vs. anxiety about imperfections they might reveal.
 
 ### Green Flags They're Looking For
 
@@ -97,28 +90,32 @@ Beneath their composed exterior, Type 1s experience a mix of:
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>"I appreciate your attention to detail"</li>
-            <li>Punctuality and preparedness</li>
-            <li>Evidence of ethical principles and integrity</li>
-            <li>A clean, well-kept appearance</li>
-            <li>Thoughtfulness about improvement (personal or societal)</li>
+            <li>Punctuality (they noticed when you arrived)</li>
+            <li>Taking ownership rather than making excuses</li>
+            <li>Strong principles about something</li>
+            <li>A put-together appearance</li>
         </ul>
     </div>
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
             <li>"I usually just wing it"</li>
-            <li>Dismissing rules or standards as unimportant</li>
             <li>Chronic lateness or disorganization</li>
-            <li>Making excuses rather than taking responsibility</li>
             <li>Mocking their careful planning</li>
+            <li>Cavalier attitude toward ethics or standards</li>
         </ul>
     </div>
 </div>
 
 <DateTip>
-    Want to impress a Type 1? Show up on time, dress appropriately, and engage in meaningful conversation about values and principles. Most importantly, appreciate their efforts in planning rather than calling them "uptight."
+    Show up on time. Dress well. Engage on values. And acknowledge their planning efforts rather than calling them "uptight."
 </DateTip>
+
+**As things progress:** By date three, you'll see their standards applied to you. Not critically, but hopefully. They're imagining whether you fit into their vision of a "right" relationship.
+
+The good news: if they keep showing up, they've already decided you're worth their high standards.
+
+**Chemistry watch:** Type 1s often find unexpected sparks with Type 7s (spontaneity teaches them joy) and grounded connection with Type 9s (peace softens their intensity).
 
 [Understand Type 1 in depth →](/enneagram-corner/enneagram-type-1)
 
@@ -129,34 +126,19 @@ Beneath their composed exterior, Type 1s experience a mix of:
 ## Type 2: The Helper - Creating Connection Through Care
 
 <div class="type-intro">
-    <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp" alt="Type 2 on a date" />
-    </div> -->
     <div class="type-quotes">
         <blockquote>"I remembered you mentioned loving daisies in your profile, so I brought you one."</blockquote>
         <blockquote>"Tell me more about your day. I really want to know everything about you."</blockquote>
     </div>
 </div>
 
-### What They're Thinking
+**Spot a Type 2:** They remembered something small from your profile and brought it up. They asked three questions about you before you could ask one about them. They made sure you got the better seat, the better view. When you try to redirect to their life, they answer briefly and pivot back to you.
 
-Helpers approach first dates with genuine warmth and interest in the other person. Their thoughts center around:
+### Inside Their Head
 
-- How to make you feel comfortable and special
-- What you might need or want
-- Questions that will help them understand you better
-- Ways to show they care from the very beginning
+Helpers approach dates focused entirely outward. How to make you comfortable. What you might need. What makes you tick.
 
-They're focused outward, sometimes to the detriment of recognizing their own needs.
-
-### What They're Feeling
-
-Type 2s experience a rich emotional landscape during dates:
-
-- Excitement about forming a new connection
-- Hope that their care will be reciprocated
-- Joy in discovering what makes you tick
-- Occasional anxiety about being appreciated
+They're genuinely excited about forming a connection, but there's an undercurrent of hope that their care will be reciprocated. The problem: they often don't reveal enough about themselves for you to know how.
 
 ### Green Flags They're Looking For
 
@@ -164,28 +146,30 @@ Type 2s experience a rich emotional landscape during dates:
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>"Your thoughtfulness means a lot to me"</li>
-            <li>Reciprocated questions and interest</li>
-            <li>Appreciation for their efforts</li>
-            <li>Sharing about friends and loved ones</li>
-            <li>Noticing and acknowledging their kindness</li>
+            <li>Reciprocated questions—asking about *them*</li>
+            <li>Noticing their effort ("That was thoughtful of you")</li>
+            <li>Talking about people you care about</li>
+            <li>Warmth in how you treat the server</li>
         </ul>
     </div>
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
             <li>"I don't really care what others think"</li>
-            <li>One-sided conversations focused only on themselves</li>
-            <li>Dismissing the importance of relationships</li>
-            <li>Taking their generosity for granted</li>
-            <li>Lack of emotional reciprocity</li>
+            <li>Talking only about yourself without asking back</li>
+            <li>Taking their generosity as expected</li>
+            <li>Coldness toward service staff or strangers</li>
         </ul>
     </div>
 </div>
 
 <DateTip>
-    To win over a Type 2, show genuine appreciation for their thoughtfulness, ask about their feelings (they're used to focusing on others), and demonstrate that you value connection as much as they do.
+    Turn the spotlight back on them. They're not used to it, but they crave it. Ask about their day, their feelings, their passions. Notice when they deflect.
 </DateTip>
+
+**As things progress:** By date three, a healthy Type 2 starts revealing their own needs. Tentatively. If they don't, gently draw them out. An unhealthy Type 2 keeps giving while silently keeping score.
+
+**Chemistry watch:** Type 2s find powerful connection with Type 8s (protection meets nurturing) and depth with Type 4s (authenticity teaches them to value their own emotional world).
 
 [Understand Type 2 in depth →](/enneagram-corner/enneagram-type-2)
 
@@ -196,34 +180,21 @@ Type 2s experience a rich emotional landscape during dates:
 ## Type 3: The Achiever - Putting Their Best Self Forward
 
 <div class="type-intro">
-    <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/greek-statues-getting-ready-to-approach.webp" alt="Type 3 on a date" />
-    </div> -->
     <div class="type-quotes">
         <blockquote>"I just closed a major deal at work, but enough about me—what are your goals?"</blockquote>
         <blockquote>"I've been to this restaurant before—the chef trained in Paris and they've won three local awards."</blockquote>
     </div>
 </div>
 
-### What They're Thinking
+**Spot a Type 3:** Their accomplishments come up naturally. And frequently. They chose a venue that signals success. They're genuinely curious about your goals and ambitions, subtly assessing whether you're "going somewhere."
 
-Achievers view first dates as opportunities to showcase their best qualities. Their mind is working on:
+Watch for the pivot: "But enough about me, what about you?" followed by re-steering the conversation back to achievements.
 
-- How to present themselves in the most appealing light
-- Which accomplishments are appropriate to mention
-- How to gauge what success means to you
-- Creating an experience that impresses
+### Inside Their Head
 
-They're strategic about dating without necessarily being calculating.
+Achievers view dates as opportunities to showcase their best self. Strategic, yes. But not necessarily calculating.
 
-### What They're Feeling
-
-Beneath their confident exterior, Type 3s feel:
-
-- Excitement about making a great impression
-- Pressure to perform at their best
-- Competitive energy (even if they wouldn't admit it)
-- Genuine interest in your potential together
+They're thinking about which accomplishments to mention, how to create an impressive experience, and what success looks like to you. Beneath the confidence: real pressure to perform, and competitive energy they might not admit to.
 
 ### Green Flags They're Looking For
 
@@ -231,70 +202,59 @@ Beneath their confident exterior, Type 3s feel:
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>"Your drive is inspiring"</li>
-            <li>Recognition of their achievements</li>
-            <li>Having ambitions and goals of your own</li>
-            <li>Looking put-together and successful</li>
-            <li>Appreciation for quality and excellence</li>
+            <li>Having your own ambitions and goals</li>
+            <li>Looking put-together (effort signals respect)</li>
+            <li>Engaging with their achievements authentically</li>
+            <li>Drive and direction in your own life</li>
         </ul>
     </div>
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
             <li>"Why bother trying so hard?"</li>
-            <li>Lack of ambition or direction</li>
-            <li>Cynicism about success or achievement</li>
-            <li>Not making an effort with appearance</li>
-            <li>Dismissing their accomplishments</li>
+            <li>Cynicism about success or ambition</li>
+            <li>Appearing unkempt or disinterested</li>
+            <li>Downplaying their accomplishments</li>
         </ul>
     </div>
 </div>
 
 <DateTip>
-    To connect with a Type 3, show appreciation for their accomplishments while inviting them to relax and be themselves. They respond well to ambition but also need someone who values them beyond their achievements.
+    Engage with their achievements authentically, but also give them permission to relax. They need someone who values them beyond their resume. Ask about failures they learned from. A healthy Three will respect that.
 </DateTip>
+
+**As things progress:** By date three, you might catch glimpses of the real person beneath the polished exterior, if they feel safe enough to drop the performance.
+
+The question they're asking themselves: "Will they still want me if I'm not impressive?"
+
+**Chemistry watch:** Type 3s build stable partnerships with Type 6s (security meets ambition) and are softened by Type 9s (peace teaches them to slow down).
 
 [Understand Type 3 in depth →](/enneagram-corner/enneagram-type-3)
 
 </section>
-
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
-</div>
 
 <section id="type4" class="type-section">
 
 ## Type 4: The Individualist - Seeking Authentic Connection
 
 <div class="type-intro">
-    <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/two-greek-statues-having-a-serious-conversation.webp" alt="Type 4 on a date" />
-    </div> -->
     <div class="type-quotes">
         <blockquote>"I discovered this hidden gem of a café—it reminds me of a place I visited during a particularly introspective time in my life."</blockquote>
         <blockquote>"What's the most meaningful experience that shaped who you are today?"</blockquote>
     </div>
 </div>
 
-### What They're Thinking
+**Spot a Type 4:** They chose somewhere with atmosphere. Not the popular spot, but the one with "character." Within twenty minutes, they've steered conversation toward meaning, emotions, or formative experiences.
 
-Individualists approach first dates looking for depth and meaning. Their thoughts revolve around:
+They might mention something melancholic without prompting. Their style is distinctive rather than trendy.
 
-- Whether you'll see and appreciate their unique qualities
-- How to express their authentic self
-- Searching for emotional resonance and connection
-- Creating a memorable, meaningful experience
+### Inside Their Head
 
-They're less interested in small talk and more focused on revealing—and discovering—what makes each of you tick.
+Individualists approach dates looking for depth and meaning. Small talk feels like torture.
 
-### What They're Feeling
+They're wondering: Will you see what makes them unique? Will you appreciate it? Is there real emotional resonance here?
 
-Type 4s experience first dates with emotional intensity:
-
-- Hope for a deep connection
-- Vulnerability about showing their true self
-- Melancholy (a familiar companion)
-- Excitement about discovering your inner world
+First dates hit them with intensity. Hope for deep connection. Vulnerability. And a familiar melancholy they carry like an old friend.
 
 ### Green Flags They're Looking For
 
@@ -302,28 +262,30 @@ Type 4s experience first dates with emotional intensity:
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>"I value your unique perspective"</li>
-            <li>Willingness to discuss deeper feelings</li>
-            <li>Appreciation for art, beauty, and depth</li>
-            <li>Emotional intelligence and expressiveness</li>
-            <li>Understanding their need for authenticity</li>
+            <li>Willingness to go deep, fast</li>
+            <li>Noticing what makes them different (genuinely)</li>
+            <li>Your own relationship with art, beauty, or meaning</li>
+            <li>Comfort with emotional intensity</li>
         </ul>
     </div>
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
-            <li>"Why can't you be more like everyone else?"</li>
-            <li>Superficial conversation or small talk</li>
-            <li>Dismissing emotional experiences as dramatic</li>
-            <li>Conventional thinking and mainstream tastes</li>
-            <li>Reluctance to discuss feelings or meanings</li>
+            <li>"Why can't you just be normal?"</li>
+            <li>Keeping conversation light and surface-level</li>
+            <li>Calling their emotions "dramatic"</li>
+            <li>Generic taste, mainstream everything</li>
         </ul>
     </div>
 </div>
 
 <DateTip>
-    To connect with a Type 4, show interest in their unique qualities and be willing to go deeper than the usual first-date conversation. They're looking for someone who appreciates their complexity and isn't afraid of emotional depth.
+    Go deeper than the usual first-date script. Ask about formative experiences, what moves them, what they create. They're looking for someone unafraid of emotional depth, and who has their own inner world to share.
 </DateTip>
+
+**As things progress:** By date three, expect the emotional intensity to increase. They're testing whether you can handle their full self—including the shadow parts. If you can sit with their complexity without trying to fix or simplify them, you've passed.
+
+**Chemistry watch:** Type 4s find intellectual depth with Type 5s (stability meets creativity) and grounding structure with Type 1s (discipline balances their fluidity).
 
 [Understand Type 4 in depth →](/enneagram-corner/enneagram-type-4)
 
@@ -334,34 +296,21 @@ Type 4s experience first dates with emotional intensity:
 ## Type 5: The Investigator - Analyzing the Connection
 
 <div class="type-intro">
-    <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/greek-statue-researcher.webp" alt="Type 5 on a date" />
-    </div> -->
     <div class="type-quotes">
         <blockquote>"I've been researching quantum computing lately. The implications for cryptography are fascinating."</blockquote>
         <blockquote>"I chose this quiet corner table so we could actually hear each other think."</blockquote>
     </div>
 </div>
 
-### What They're Thinking
+**Spot a Type 5:** They chose a quiet venue. Probably with good sight lines and a corner table. They ask precise, thoughtful questions and actually listen to your answers. Silences don't seem to bother them.
 
-Investigators approach first dates with analytical curiosity. Their mind is working on:
+If you touch them unexpectedly, they might subtly pull back. When conversation hits a topic they know deeply, watch them light up.
 
-- Evaluating compatibility through observation
-- Gathering information about you without revealing too much
-- Managing their energy levels and personal space
-- Finding topics of intellectual interest to discuss
+### Inside Their Head
 
-They're observing everything, forming hypotheses about you, and testing them through conversation.
+Investigators approach dates with analytical curiosity. They're evaluating compatibility through careful observation, forming hypotheses about you, testing them through conversation.
 
-### What They're Feeling
-
-Beneath their calm exterior, Type 5s feel:
-
-- Curiosity about discovering who you are
-- Concern about draining their energy reserves
-- Excitement about intellectual connection
-- Wariness about maintaining personal boundaries
+Beneath the calm exterior: a limited energy budget. Genuinely curious about you, but wary of draining their reserves. The excitement is real. So is the wariness about revealing too much too fast.
 
 ### Green Flags They're Looking For
 
@@ -369,28 +318,32 @@ Beneath their calm exterior, Type 5s feel:
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>"I enjoy learning new things too"</li>
-            <li>Respecting their need for space</li>
-            <li>Interest in deep, thoughtful conversation</li>
-            <li>Comfort with periods of silence</li>
-            <li>Independence and self-sufficiency</li>
+            <li>Intellectual curiosity and depth</li>
+            <li>Comfort with silence (not filling every gap)</li>
+            <li>Independence—you have your own life</li>
+            <li>Respecting their pace of opening up</li>
         </ul>
     </div>
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
             <li>"I don't like reading" or "Who cares about details?"</li>
-            <li>Constant talking without listening</li>
-            <li>Prying into personal matters too quickly</li>
-            <li>Being overly emotional or dramatic</li>
-            <li>Excessive physical contact or closeness</li>
+            <li>Constant talking, no listening</li>
+            <li>Pushing for emotional intimacy too fast</li>
+            <li>Excessive physical contact early on</li>
         </ul>
     </div>
 </div>
 
 <DateTip>
-    To connect with a Type 5, engage them intellectually while respecting their boundaries. Don't take their reserved nature personally—they're observing and processing. Give them space to open up at their own pace.
+    Engage them intellectually while respecting their boundaries. Don't take their reserve personally. They're processing. Ask one good question and let them unfold the answer fully. Silence is not a problem to solve.
 </DateTip>
+
+**As things progress:** By date three, a Type 5 who's interested starts sharing more. Ideas they've been thinking about. Things they've read. Their inner world.
+
+This is intimacy for them. Don't rush it. If they invite you into their space, literal or metaphorical, that's significant.
+
+**Chemistry watch:** Type 5s find unexpected energy with Type 8s (engagement teaches them to act) and creative depth with Type 4s (intensity meets intellect).
 
 [Understand Type 5 in depth →](/enneagram-corner/enneagram-type-5)
 
@@ -422,25 +375,24 @@ Beneath their calm exterior, Type 5s feel:
     </div>
 </div>
 
-### What They're Thinking
+**Spot a Type 6:** They suggested meeting somewhere public and familiar. They mentioned their location to someone.
 
-Loyalists approach first dates with a mixture of hope and caution. Their thoughts center around:
+They might ask questions that seem like small talk but are actually probing: "So what happened with your last relationship?" "What do your friends say about you?" They're watching for consistency. Does your story hold together?
 
-- Assessing whether you're trustworthy and reliable
-- Planning for various scenarios (good and bad)
-- Searching for red flags while hoping for green ones
-- Finding common ground and shared values
+### Inside Their Head
 
-They're simultaneously preparing for the worst while hoping for the best.
+Loyalists approach dates with hope and caution in equal measure. Assessing trustworthiness. Planning for various scenarios. Searching for red flags while hoping for green ones.
 
-### What They're Feeling
+The emotional pendulum swings: "This could be great" to "What if they're not who they seem?" and back again. When something makes them feel secure, the relief is palpable.
 
-Type 6s experience a pendulum of emotions during dates:
+### How They Test You (And Yes, They're Testing)
 
-- Excitement about the possibility of connection
-- Anxiety about potential dangers or disappointments
-- Warmth when they feel secure with you
-- Relief when things go smoothly
+Type 6s test without realizing they're testing. Watch for:
+
+- **Consistency checks:** They'll mention something you said earlier to see if your story holds
+- **Worst-case questions:** "What would you do if..." scenarios that reveal your character
+- **Loyalty probes:** How you talk about exes, friends, family—do you stay loyal or trash people?
+- **Small promises:** They'll notice if you do what you said you'd do, even tiny things
 
 ### Green Flags They're Looking For
 
@@ -448,28 +400,32 @@ Type 6s experience a pendulum of emotions during dates:
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>"I believe in loyalty and consistency"</li>
-            <li>Following through on small promises</li>
-            <li>Transparency about intentions</li>
-            <li>Respecting their caution without judgment</li>
-            <li>Shared values and principles</li>
+            <li>Doing what you said you'd do</li>
+            <li>Straightforward answers (no evasion)</li>
+            <li>Speaking well of people who aren't there</li>
+            <li>Not rushing them or dismissing concerns</li>
         </ul>
     </div>
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
-            <li>"I'm a free spirit, I don't make plans"</li>
-            <li>Inconsistency in words and actions</li>
-            <li>Pressuring them to trust too quickly</li>
-            <li>Brushing off their concerns as paranoid</li>
-            <li>Vagueness about intentions or background</li>
+            <li>"I'm a free spirit—I don't make plans"</li>
+            <li>Stories that don't add up</li>
+            <li>"You're being paranoid" or similar dismissals</li>
+            <li>Vagueness about your life, job, or past</li>
         </ul>
     </div>
 </div>
 
 <DateTip>
-    To connect with a Type 6, be reliable, transparent, and patient. Build trust through consistency and understand that their questions come from a need for security, not suspicion of you personally.
+    Be reliable, transparent, and patient. If you said you'd text, text. If they ask a probing question, answer it directly. Their caution isn't about you. It's how they build real trust. Once built, that trust runs deep.
 </DateTip>
+
+**As things progress:** By date three, you're either passing or failing their trust evaluation.
+
+The good news: once a Type 6 decides you're trustworthy, their loyalty runs fierce. They shift from testing to supporting. But if you've triggered their doubt, they pull back hard.
+
+**Chemistry watch:** Type 6s find stability with Type 9s (peace calms their anxiety) and grounding with Type 3s (success provides security).
 
 [Understand Type 6 in depth →](/enneagram-corner/enneagram-type-6)
 
@@ -480,34 +436,21 @@ Type 6s experience a pendulum of emotions during dates:
 ## Type 7: The Enthusiast - Seeking Adventure and Possibility
 
 <div class="type-intro">
-    <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/greek-statues-at-the-beach.webp" alt="Type 7 on a date" />
-    </div> -->
     <div class="type-quotes">
         <blockquote>"I thought we could start with drinks here, then check out that new food festival, and maybe end with rooftop jazz if we're still having fun!"</blockquote>
         <blockquote>"Last month I tried skydiving for the first time. Have you ever done anything that exhilarating?"</blockquote>
     </div>
 </div>
 
-### What They're Thinking
+**Spot a Type 7:** They've planned multiple options or left the night open-ended. They're animated, talking fast, jumping between topics. Stories about adventures, travel, and new experiences come easily.
 
-Enthusiasts see first dates as exciting adventures full of possibility. Their mind is buzzing with:
+If the conversation hits something heavy, watch how quickly they steer back to something lighter.
 
-- Creative ideas to make the date memorable and fun
-- Ways to avoid boredom or awkward silences
-- Stories and experiences they want to share
-- Future possibilities if things go well
+### Inside Their Head
 
-They're looking for someone who can match their energy and enthusiasm for life.
+Enthusiasts see dates as adventures full of possibility. Their mind buzzes with creative ideas to make things memorable, ways to avoid boredom, stories they can't wait to share.
 
-### What They're Feeling
-
-Type 7s approach dates with:
-
-- Exhilaration about new experiences
-- Optimism about romantic possibilities
-- Aversion to any hint of negativity
-- Genuine joy in connecting with someone new
+They're looking for someone who can match their energy. But underneath the exhilaration: an aversion to anything that feels like negativity or limitation.
 
 ### Green Flags They're Looking For
 
@@ -515,28 +458,30 @@ Type 7s approach dates with:
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>"I love trying new things too!"</li>
-            <li>Flexibility and spontaneity</li>
-            <li>Positive outlook and enthusiasm</li>
-            <li>Willingness to be playful</li>
-            <li>Interest in planning future adventures</li>
+            <li>Matching their enthusiasm naturally</li>
+            <li>Flexibility—willing to change plans mid-date</li>
+            <li>Your own sense of adventure</li>
+            <li>Playfulness without cynicism</li>
         </ul>
     </div>
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
             <li>"I prefer routine and predictability"</li>
-            <li>Focusing on problems or complaints</li>
-            <li>Rigid plans without room for spontaneity</li>
-            <li>Judgment of their enthusiastic nature</li>
-            <li>Resistance to trying new experiences</li>
+            <li>Negativity, complaints, or doom-casting</li>
+            <li>Judging their enthusiasm as "too much"</li>
+            <li>Unwillingness to try something new</li>
         </ul>
     </div>
 </div>
 
 <DateTip>
-    To connect with a Type 7, embrace their enthusiasm while being your authentic self. They value positivity and adventure but also need someone who can help them slow down occasionally and appreciate the present moment.
+    Embrace their enthusiasm authentically. Don't fake it. Say yes to spontaneous ideas when you can. But here's the secret: they're also drawn to people who can help them slow down. Be present. They might not know they need it.
 </DateTip>
+
+**As things progress:** By date three, notice whether they can sit still. Literally and conversationally. A healthy Seven starts showing depth, not just breadth. An unhealthy Seven keeps the energy manic, avoiding any topic that might bring things down.
+
+**Chemistry watch:** Type 7s find grounding with Type 5s (depth teaches them to focus) and surprising stability with Type 1s (structure balances their chaos).
 
 [Understand Type 7 in depth →](/enneagram-corner/enneagram-type-7)
 
@@ -556,25 +501,15 @@ Type 7s approach dates with:
     </div>
 </div>
 
-### What They're Thinking
+**Spot a Type 8:** They cut through small talk fast. Their presence is... noticeable. They might challenge an opinion just to see how you respond.
 
-Challengers approach first dates with directness and intensity. Their thoughts center around:
+If something goes wrong on the date, watch them take charge without asking permission. They're reading your strength. Not your resume.
 
-- Whether you can hold your own and be authentic
-- Cutting through social niceties to real connection
-- Assessing your strength of character and conviction
-- Protection (both of themselves and potentially you)
+### Inside Their Head
 
-They're not interested in games or pretense—they want to know the real you.
+Challengers approach dates with directness and intensity. They want to know: Can you hold your own? Are you authentic? They cut through social niceties to find the real you.
 
-### What They're Feeling
-
-Type 8s experience dates with:
-
-- Eagerness to discover your true character
-- Protectiveness if they sense vulnerability in you
-- Impatience with inauthenticity
-- Enjoyment of spirited debate or banter
+Eagerness mixed with impatience. They enjoy spirited debate but have zero tolerance for pretense. If they sense vulnerability in you, they might become protective without meaning to.
 
 ### Green Flags They're Looking For
 
@@ -582,28 +517,32 @@ Type 8s experience dates with:
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>"I value honesty and straightforwardness too"</li>
-            <li>Standing your ground when appropriate</li>
-            <li>Authentic self-expression</li>
-            <li>Passion for your beliefs and interests</li>
-            <li>Matching their intensity without intimidation</li>
+            <li>Standing your ground when challenged</li>
+            <li>Directness without games</li>
+            <li>Passion for something—anything</li>
+            <li>Handling their intensity without flinching</li>
         </ul>
     </div>
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
+            <li>Agreeing with everything they say</li>
             <li>"I don't like confrontation"</li>
-            <li>People-pleasing or excessive agreeableness</li>
-            <li>Weakness of conviction</li>
-            <li>Inability to make decisions</li>
-            <li>Being intimidated by their strength</li>
+            <li>Indecisiveness about even small things</li>
+            <li>Visible intimidation by their energy</li>
         </ul>
     </div>
 </div>
 
 <DateTip>
-    To connect with a Type 8, be authentic and direct. Don't be intimidated by their intensity—it's their way of testing for real connection. Stand your ground when it matters to you, but be willing to show vulnerability too.
+    Be real. Don't shrink. They'll push to see what you're made of. It's not aggression, it's curiosity. Stand firm on what matters to you. And here's the paradox: once you've shown strength, show vulnerability. That's what earns their respect.
 </DateTip>
+
+**As things progress:** By date three, you'll see softer sides if they trust you. Type 8s protect their vulnerability fiercely.
+
+If they share something personal, something that makes them look weak, that's intimacy. Don't treat it lightly.
+
+**Chemistry watch:** Type 8s find unexpected softening with Type 2s (nurturing meets protection) and growth through Type 5s (observation teaches them restraint).
 
 [Understand Type 8 in depth →](/enneagram-corner/enneagram-type-8)
 
@@ -626,34 +565,29 @@ Type 8s experience dates with:
 ## Type 9: The Peacemaker - Creating Harmony
 
 <div class="type-intro">
-    <!-- <div class="type-image">
-        <img loading="lazy" src="/blogs/male_and_female_greek_statues.webp" alt="Type 9 on a date" />
-    </div> -->
     <div class="type-quotes">
         <blockquote>"Whatever you'd like to do is fine with me—I'm happy just spending time together."</blockquote>
         <blockquote>"I found this place has something for everyone on the menu, so I thought it would be perfect."</blockquote>
     </div>
 </div>
 
-### What They're Thinking
+**Spot a Type 9:** They deferred to you on the venue. "Whatever works for you" is their default setting. They're agreeable, warm, easy to talk to. Almost too easy.
 
-Peacemakers approach first dates with a desire for harmony and connection. Their thoughts revolve around:
+Ask what they want to order and watch them hesitate: "I'm torn between a few things... what are you getting?"
 
-- Creating a comfortable, peaceful atmosphere
-- Finding common ground and shared interests
-- Avoiding conflict or discord
-- Making sure you feel heard and valued
+### Inside Their Head
 
-They value comfort and ease, seeing first dates as opportunities to establish peaceful connection.
+Peacemakers approach dates wanting harmony above all else. Creating comfort. Finding common ground. Making sure you feel heard.
 
-### What They're Feeling
+The challenge: their own preferences get lost in the process. A quiet internal struggle plays out, the desire to voice what they actually want fighting against an instinct to keep the peace.
 
-Type 9s experience dates with:
+### The "I'm Fine With Anything" Trap
 
-- Warmth and openness toward you
-- Anxiety about potential conflict
-- A desire to merge with your interests
-- Internal struggle to voice their own preferences
+Here's what happens with a Type 9: You ask where they want to eat. They say, "Anywhere is fine." You pick somewhere loud and trendy. They smile and say it's great.
+
+Three hours later, they're quietly drained and disappointed. Not at you. At themselves for not speaking up.
+
+This isn't deception. It's a genuine struggle to access their own preferences in the moment. The tragedy: they often _do_ have opinions. They just bury them so fast they don't recognize them.
 
 ### Green Flags They're Looking For
 
@@ -661,46 +595,60 @@ Type 9s experience dates with:
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>"I value peace and harmony too"</li>
-            <li>Gentle encouragement to share their opinions</li>
-            <li>Patience with their thoughtful pace</li>
-            <li>Appreciation for their calming presence</li>
-            <li>Respectful, non-aggressive communication</li>
+            <li>Gently pressing: "But what do *you* want?"</li>
+            <li>Patience when they take time to answer</li>
+            <li>Low-key energy (not overwhelming)</li>
+            <li>Noticing when they go quiet</li>
         </ul>
     </div>
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
-            <li>"I enjoy a good argument"</li>
-            <li>Aggressive or confrontational style</li>
-            <li>Rushing them to make decisions</li>
-            <li>Dismissing their opinions as unimportant</li>
-            <li>Creating unnecessary drama or tension</li>
+            <li>High-intensity energy or drama</li>
+            <li>Rushing decisions ("Just pick something!")</li>
+            <li>Steamrolling conversation</li>
+            <li>Dismissing their preferences as non-existent</li>
         </ul>
     </div>
 </div>
 
 <DateTip>
-    To connect with a Type 9, create a peaceful atmosphere while gently encouraging them to share their authentic preferences. Appreciate their easygoing nature but don't mistake it for lack of depth or passion.
+    Create space for their voice without demanding it. Give them time to think. Don't fill every silence. And when they do express a preference, even a small one, acknowledge it. That's intimacy for them: being seen without being pushed.
 </DateTip>
+
+**As things progress:** By date three, a healthy Type 9 starts risking small disagreements. Expressing preferences, even if they seem trivial. That's growth.
+
+An unhealthy Nine keeps agreeing with everything, building a quiet resentment they might not recognize until much later.
+
+**Chemistry watch:** Type 9s find motivation with Type 3s (ambition wakes them up) and grounding partnership with Type 6s (loyalty meets calm).
 
 [Understand Type 9 in depth →](/enneagram-corner/enneagram-type-9)
 
 </section>
 
-## Beyond First Impressions: The Deeper Potential
+## The Compatibility Secret Nobody Tells You
 
-First dates are just the beginning. Each Enneagram type brings their own gifts, challenges, and relationship patterns that evolve as connection deepens.
+What matters more than type matching: **health levels.**
 
-Understanding these patterns doesn't just help with first impressions—it offers insight into long-term compatibility and growth opportunities. The initial dating phase reveals core motivations that will continue to influence the relationship journey.
+Research on 457 couples found no single pairing accounts for more than 20% of successful relationships. That means 80% of happy couples are "incompatible" on paper.
 
-**The real magic happens when two people see and accept each other's authentic selves.** When a Perfectionist Type 1 feels appreciated rather than judged for their standards, or when an Individualist Type 4 feels truly seen in their uniqueness—that's when meaningful connection begins.
+Two healthy "incompatible" types will always outperform two unhealthy "perfect matches."
 
-### What's Your Experience?
+Here's the uncomfortable truth: **the chemistry you feel on a first date often signals you're trying to heal a childhood wound.** That's not compatibility. It's recognition.
 
-Have you noticed these patterns in your dating life? Which type resonates most with you, and which types have you connected with? Share your experiences in the comments!
+Real compatibility emerges from:
 
-If you found this helpful, explore our deeper guides on [navigating early relationship stages](/enneagram-corner/how-to-navigate-early-relationship-stages) or [what each type truly desires in relationships](/enneagram-corner/enneagram-types-in-relationships).
+- Both people's psychological health
+- Awareness of patterns driving behavior
+- Mutual commitment to growth
+
+Read the signs. Understand the patterns. But remember: the person across from you is more than their type. They're navigating their own fears and desires, hoping, just like you, that this might be the start of something real.
+
+---
+
+**What patterns have you noticed in your dating life?** Which type resonates most with you?
+
+Explore our deeper guides on [navigating early relationship stages](/enneagram-corner/how-to-navigate-early-relationship-stages) or [what each type truly desires in relationships](/enneagram-corner/enneagram-types-in-relationships).
 
 <svelte:head>
 
@@ -1041,7 +989,7 @@ If you found this helpful, explore our deeper guides on [navigating early relati
     margin: 1.5rem 0;
     border-radius: 0 8px 8px 0;
     position: relative;
-    
+
     &:before {
       content: "💡 Tip";
       font-weight: bold;

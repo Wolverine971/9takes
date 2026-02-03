@@ -577,6 +577,7 @@ Add the paradox of modern dating:
 - More options than ever
 - Meaningful connection feels increasingly rare
 - **45% of dating app users** report more anxiety than hope
+- [Dating apps are designed to fail certain personality types](/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types)—the format systematically disadvantages depth-seekers, trust-builders, and slow-connectors
 
 Ghosting doesn't just hurt because someone stopped talking. It's a form of [manipulation through absence](/enneagram-corner/how-each-enneagram-type-manipulates). Silence as a weapon.
 

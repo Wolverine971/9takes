@@ -457,6 +457,7 @@ Understanding your type helps—but it doesn't replace professional support when
 - Using substances to manage anxiety
 - Physical symptoms (chest pain, heart racing) that don't have a medical explanation
 - Anxiety lasting weeks without improvement
+- Anxiety accompanied by depression (they often co-occur—see our [pattern-breaking guide to fighting depression](/how-to-guides/guide-to-fighting-depression))
 
 **Therapy approaches that might fit different types:**
 
