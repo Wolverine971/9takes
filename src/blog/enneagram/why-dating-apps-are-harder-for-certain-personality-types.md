@@ -269,7 +269,7 @@ Every match is a risk without your usual safety checks. Your protective instinct
 
 Type 7s love options and possibilities. Dating apps offer infinite options. Sounds like paradise. Until you realize it feeds your worst tendency: the belief that something better is always one swipe away.
 
-**The FOMO trap:** Apps are designed to exploit seeking behavior. The dopamine hit of a new match beats the slower reward of deepening a connection. You can spend years "exploring options" without ever actually connecting.
+**The FOMO trap:** Apps are designed to exploit seeking behavior. The dopamine hit of a new match beats the slower reward of deepening a connection. You can spend years "exploring options" without ever actually connecting. (The same psychology drives [parasocial relationships](/pop-culture/parasocial-relationships-enneagram-type)—seeking connection without the risk of real reciprocity.)
 
 **What actually helps:**
 

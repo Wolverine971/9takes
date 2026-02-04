@@ -27,6 +27,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Peter-Attia', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null }
 	],
 	2: [
+		{ name: 'Dolly-Parton', link: true, hasImage: true, lastmod: '2026-02-04', personaTitle: 'Country\'s Beloved Fairy Godmother' },
 		{ name: 'Harry-Styles', link: true, hasImage: true, lastmod: '2024-10-30', personaTitle: 'Pop\'s Tender Heartthrob' },
 		{ name: 'Henry-Cavill', link: true, hasImage: true, lastmod: '2025-12-22', personaTitle: 'The Devoted Fanboy' },
 		{ name: 'Jennifer-Garner', link: true, hasImage: true, lastmod: '2025-12-22', personaTitle: 'America\'s Approachable Mom' },

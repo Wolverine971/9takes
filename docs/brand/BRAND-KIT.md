@@ -393,7 +393,7 @@ For quick Canva setup, gather these files from `static/brand/`:
 
 **Personal Brand (DJ):**
 
-- [ ] `djface.png` - Founder photo
+- [ ] `djface.webp` - Founder photo
 - [ ] `dj-profile-pic.webp` - Profile photo
 - [ ] `pixelDJ.png` - Pixel art version
 

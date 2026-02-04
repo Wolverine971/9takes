@@ -516,7 +516,7 @@ Drop a comment below. What type are you, and what does anxiety actually feel lik
 You might find someone in the comments who gets it.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being direct 🎯', link: '/enneagram-corner/enneagram-types-being-direct'}, {name: 'communication styles 💬', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being direct 🎯', link: '/enneagram-corner/enneagram-communication-styles'}, {name: 'communication styles 💬', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <svelte:head>

@@ -3,9 +3,12 @@ import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error, redirect } from '@sveltejs/kit';
 
-const redirectMap = {
+const redirectMap: Record<string, string> = {
 	'enneagram-communication-overview': 'enneagram-communication-guide',
-	'enneagram-communication-in-relationships': 'relationship-communication-guide'
+	'enneagram-communication-in-relationships': 'relationship-communication-guide',
+	'enneagram-types-overview': 'enneagram-tldr',
+	'enneagram-test': 'enneagram-test-comparison-2025',
+	'enneagram-types-being-direct': 'enneagram-communication-styles'
 };
 
 export const load: PageLoad = async ({ params, data }) => {

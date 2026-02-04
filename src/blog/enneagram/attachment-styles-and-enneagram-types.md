@@ -248,7 +248,7 @@ Type 3s create **attachment through achievement**, leading to:
 - Performing love rather than feeling it
 - Image management even in intimate relationships
 - Avoiding vulnerability by staying busy
-- Confusing admiration with genuine connection
+- Confusing admiration with genuine connection (this pattern also drives [parasocial relationships](/pop-culture/parasocial-relationships-enneagram-type) with celebrities)
 
 ### Type 3 Attachment Patterns
 

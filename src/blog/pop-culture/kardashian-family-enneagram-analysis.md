@@ -474,7 +474,7 @@ The question is: **which Kardashian pattern are you living out unconsciously?**
 
 Understanding your type doesn't excuse behavior. It reveals it. And revelation is the first step toward change.
 
-**Want to decode your own personality patterns?** [Take our Enneagram test](/enneagram-corner/enneagram-test) to discover which type drives your decisions, relationships, and conflicts.
+**Want to decode your own personality patterns?** [Take our Enneagram test](/enneagram-corner/enneagram-test-comparison-2025) to discover which type drives your decisions, relationships, and conflicts.
 
 **Curious about other celebrity personality analyses?** Check out [The Psychology of Influence: How Each Enneagram Type Gains a Following](/pop-culture/influencer-enneagram-types-instagram) or explore our [full celebrity personality database](/personality-analysis).
 

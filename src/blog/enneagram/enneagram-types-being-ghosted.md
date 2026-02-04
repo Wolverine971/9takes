@@ -581,7 +581,7 @@ Add the paradox of modern dating:
 
 Ghosting doesn't just hurt because someone stopped talking. It's a form of [manipulation through absence](/enneagram-corner/how-each-enneagram-type-manipulates). Silence as a weapon.
 
-And it hurts because it reinforces our deepest cultural fear: **We're all ultimately replaceable.**
+And it hurts because it reinforces our deepest cultural fear: **We're all ultimately replaceable.** (Meanwhile, we form intense [parasocial attachments](/pop-culture/parasocial-relationships-enneagram-type) to celebrities who don't know we exist—one-sided connection is becoming the norm.)
 
 ## How to Find Closure When You Won't Get Answers
 

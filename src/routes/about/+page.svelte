@@ -70,7 +70,7 @@
 				"Perspective Taking"
 			],
 			"description": "From USMC infantry to tech entrepreneur. Meet DJ Wayne, creator of 9takes, helping people build emotional intelligence through personality psychology.",
-			"image": "https://9takes.com/brand/djface.png",
+			"image": "https://9takes.com/brand/djface.webp",
 			"url": "https://9takes.com/about",
 			"sameAs": ["https://twitter.com/djwayne3", "https://www.linkedin.com/in/djwayne3"]
 		}
@@ -231,7 +231,7 @@
 
 			<div class="founder-image">
 				<div class="image-frame">
-					<img src="/brand/djface.png" alt="DJ Wayne, Founder of 9takes" />
+					<img src="/brand/djface.webp" alt="DJ Wayne, Founder of 9takes" />
 					<span class="founder-name">DJ Wayne, Founder</span>
 				</div>
 			</div>

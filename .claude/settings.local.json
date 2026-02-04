@@ -151,7 +151,9 @@
 			"WebFetch(domain:www.hollywoodreporter.com)",
 			"Bash(git add:*)",
 			"Bash(timeout 30 pnpm dev:*)",
-			"mcp__ide__getDiagnostics"
+			"mcp__ide__getDiagnostics",
+			"WebFetch(domain:www.psychologytoday.com)",
+			"WebFetch(domain:www.timesofisrael.com)"
 		],
 		"deny": [],
 		"ask": [],

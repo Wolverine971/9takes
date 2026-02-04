@@ -322,7 +322,7 @@ But becoming someone who does.
 >
 > Are you someone who measures your worth through accomplishments? Do you struggle with the gap between external success and internal fulfillment?
 >
-> If you'd like to explore your own personality patterns, take our [free Enneagram test](/enneagram-corner/enneagram-types-overview) and discover what drives your motivations.
+> If you'd like to explore your own personality patterns, take our [free Enneagram test](/enneagram-corner/enneagram-tldr) and discover what drives your motivations.
 
 <svelte:head>
 

@@ -1137,7 +1137,7 @@
 </url>
 <url>
     <loc>https://9takes.com/pop-culture/dark-triad-meets-enneagram</loc>
-    <lastmod>2025-09-07T00:00:00.000Z</lastmod>
+    <lastmod>2026-02-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1155,7 +1155,7 @@
 </url>
 <url>
     <loc>https://9takes.com/pop-culture/reddit-moderators-type-1-internet</loc>
-    <lastmod>2025-12-31T00:00:00.000Z</lastmod>
+    <lastmod>2026-02-03T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -3047,6 +3047,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Sydney-Sweeney.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Dolly-Parton</loc>
+    <lastmod>2026-02-04T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/2s/Dolly-Parton.webp</image:loc>
     </image:image>
 </url>
 <url>

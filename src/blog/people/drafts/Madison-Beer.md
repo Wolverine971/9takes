@@ -408,7 +408,7 @@ She responded by writing three albums, a memoir, and building a Grammy-nominated
 
 That's the Type 4 move. You don't win by convincing others you're authentic. You win by actually being it, loudly, until they can't ignore you anymore.
 
-If Madison's story resonates with your own search for identity, explore what makes you uniquely you. [What personality type are you?](/enneagram-corner/enneagram-types-overview)
+If Madison's story resonates with your own search for identity, explore what makes you uniquely you. [What personality type are you?](/enneagram-corner/enneagram-tldr)
 
 > **Disclaimer:** This analysis is based on publicly available information and aims to explore Madison Beer's personality from an Enneagram perspective. It's not a definitive assessment but an invitation to reflect and engage.
 

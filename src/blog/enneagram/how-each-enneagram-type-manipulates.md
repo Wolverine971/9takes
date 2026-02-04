@@ -664,3 +664,4 @@ Now you see it. What you do next is up to you.
 - [How Each Enneagram Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)
 - [Toxic Traits of Each Enneagram Type](/enneagram-corner/toxic-traits-of-each-enneagram-type)
 - [Enneagram Types in Stress](/enneagram-corner/enneagram-types-in-stress)
+- [Parasocial Relationships by Enneagram Type](/pop-culture/parasocial-relationships-enneagram-type)

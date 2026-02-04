@@ -12,7 +12,7 @@ published: false
 enneagram: 9
 type: ['creator']
 person: 'Bella-Poarch'
-suggestions: ['Charli-DAmelio', 'Addison-Rae', 'Emma-Chamberlain', 'Kylie-Jenner', 'Selena-Gomez']
+suggestions: ["Charli-D'Amelio", 'Addison-Rae', 'Emma-Chamberlain', 'Kylie-Jenner', 'Selena-Gomez']
 wikipedia: 'https://en.wikipedia.org/wiki/Bella_Poarch'
 twitter: 'https://twitter.com/bellapoarch'
 instagram: 'https://www.instagram.com/bellapoarch/'
@@ -165,7 +165,7 @@ And here's the most Type 9 detail of all: she kept his last name. Not just for b
 
 ### Breaking TikTok Records
 
-Beyond the most-liked video, Bella became the fourth most-followed person on TikTok (behind [Charli D'Amelio](/personality-analysis/Charli-DAmelio) and others) and the most-followed creator from the Philippines. By 2025, she has over 94 million followers.
+Beyond the most-liked video, Bella became the fourth most-followed person on TikTok (behind [Charli D'Amelio](/personality-analysis/Charli-D'Amelio) and others) and the most-followed creator from the Philippines. By 2025, she has over 94 million followers.
 
 But numbers don't capture what she actually achieved: proving that you don't need to be loud, controversial, or constantly performing to capture attention. Sometimes, quiet presence is enough.
 

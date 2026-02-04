@@ -42,7 +42,7 @@ Your brain processes familiar faces the same way, whether you know the person or
 
 Celebrities exploit this accidentally. They show up consistently. They share curated intimacy. They speak directly to the camera, to _you_. Your brain does what it evolved to do: form attachment.
 
-The lonelier you are, the stronger these attachments become. Not because something is wrong with you, but because your social brain is trying to meet its needs with whatever's available.
+The lonelier you are, the stronger these attachments become. Not because something is wrong with you, but because your social brain is trying to meet its needs with whatever's available. (Your [attachment style](/enneagram-corner/attachment-styles-and-enneagram-types) shapes how intensely you form these connections.)
 
 ### The Spectrum
 
@@ -196,11 +196,11 @@ Most people stay at light-to-moderate levels. Understanding your type helps you 
 
 **New model:** Pseudo-two-way. Celebrity responds to some comments, shares "intimate" stories, speaks directly to camera. Creates an illusion of accessibility.
 
-This pseudo-accessibility makes the attachment feel more real. It also makes the eventual disappointment hit harder. When they don't respond to your comment, don't notice your support, don't acknowledge your existence despite their daily presence in your life, the gap between feeling and reality becomes painful.
+This pseudo-accessibility makes the attachment feel more real. It also makes the eventual disappointment hit harder. When they don't respond to your comment, don't notice your support, don't acknowledge your existence despite their daily presence in your life, the gap between feeling and reality becomes painful. (The same dynamic plays out in modern dating—[being ghosted](/enneagram-corner/enneagram-types-being-ghosted) hits harder because we expected reciprocation.)
 
 ### The Loneliness Factor
 
-Parasocial relationships increase when real relationships decrease. They're not causing loneliness; they're a symptom.
+Parasocial relationships increase when real relationships decrease. They're not causing loneliness; they're a symptom. ([Dating apps compound this](/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types)—designed to keep you swiping, not connecting.)
 
 Each type's patterns intensify when their real relationship needs go unmet. The celebrity fills a gap:
 
@@ -307,7 +307,7 @@ Three questions: Is it replacing real connection? Do I expect reciprocation? Doe
 
 **Do celebrities understand parasocial dynamics?**
 
-Increasingly, yes. Many consciously cultivate these connections because they drive engagement. This isn't necessarily manipulative, but understanding it helps you see the relationship more clearly.
+Increasingly, yes. Many consciously cultivate these connections because they drive engagement. This isn't necessarily [manipulative](/enneagram-corner/how-each-enneagram-type-manipulates), but understanding it helps you see the relationship more clearly.
 
 **Can parasocial relationships help with loneliness?**
 
