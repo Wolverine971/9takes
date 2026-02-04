@@ -4,6 +4,7 @@ import { supabase } from '$lib/supabase';
 import { dev } from '$app/environment';
 import { slugFromPath } from '$lib/slugFromPath';
 import type { Actions } from './$types';
+import { error } from '@sveltejs/kit';
 
 // Cache duration in seconds (5 minutes for non-dev environments)
 const CACHE_DURATION = !dev ? 300 : 0;
@@ -37,8 +38,12 @@ export const load: PageServerLoad = async (event: any) => {
 	const { data: personData } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
-		.eq('person', slug)
+		.ilike('person', slug)
 		.maybeSingle();
+
+	if (!personData) {
+		throw error(404, `Person not found: ${slug}`);
+	}
 
 	// Create cache keys
 	const userCacheKey = user?.id ? `${slug}:${user.id}` : `${slug}:${cookie}`;
