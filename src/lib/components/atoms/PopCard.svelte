@@ -203,9 +203,6 @@
 				</p>
 			{/if}
 
-			{#if subtext && !showDescription}
-				<p class="image-card__subtitle">{subtext}</p>
-			{/if}
 		</div>
 	</div>
 
@@ -213,6 +210,9 @@
 	{#if enneagramType && enneagramType > 0 && enneagramType <= 9}
 		<div class="enneagram-overlay" class:enneagram-overlay--visible={showDescription}>
 			<div class="enneagram-info">
+				{#if subtext}
+					<p class="enneagram-info__persona">{subtext}</p>
+				{/if}
 				<h2 class="enneagram-info__title">{enneagramTypes[enneagramType - 1].EnneagramType}</h2>
 				<p class="enneagram-info__detail">
 					<b>Motivation:</b>
@@ -335,6 +335,16 @@
 		margin: 1rem;
 		max-width: 90%;
 		text-align: center;
+
+		&__persona {
+			font-size: clamp(1rem, 3vw, 1.3rem);
+			margin-bottom: 0.5rem;
+			color: rgba(255, 255, 255, 0.9);
+			font-weight: 500;
+			font-style: italic;
+			padding-bottom: 0.5rem;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		}
 
 		&__title {
 			font-size: clamp(1.4rem, 4vw, 2rem);
