@@ -8,6 +8,7 @@
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import type { PageData } from './$types';
 	import type { QuestionPageData, Comment } from '$lib/types/questions';
+	import { PUBLIC_SUPABASE_URL } from '$env/static/public';
 
 	let { data }: { data: PageData } = $props();
 
@@ -95,7 +96,7 @@
 	const description = `🏛️ Give your take to the question: ${data.question?.question_formatted || data.question?.question}`;
 	const url = `https://9takes.com/questions/${data.question.url}`;
 	const imgUrl = data.question?.img_url
-		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`
+		? `${PUBLIC_SUPABASE_URL}/storage/v1/object/public/questions/${data.question.img_url}`
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
 
 	// Prepare JSON-LD for structured data

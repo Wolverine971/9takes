@@ -4,11 +4,11 @@ import { supabase } from '$lib/supabase';
 import type { Actions, PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/server/elasticSearch';
-import { decode } from 'base64-arraybuffer';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
 import { createCommentSchema, flagCommentSchema } from '$lib/validation/questionSchemas';
+import { uploadQuestionImage } from '$lib/server/questionImages';
 
 import axios from 'axios';
 import { load as cheerioLoad } from 'cheerio';
@@ -28,6 +28,7 @@ const DEFAULT_LINKS_LIMIT = 10;
 const EXTERNAL_FETCH_TIMEOUT = 5000;
 const MAX_CONTENT_LENGTH = 1024 * 1024; // 1MB
 const MAX_REDIRECTS = 3;
+const MAX_IMAGE_SIZE_BYTES = 10 * 1024 * 1024; // 10MB
 
 export const load: PageServerLoad = async (event) => {
 	const { demo_time } = await event.parent();
@@ -203,8 +204,13 @@ export const actions: Actions = {
 
 	updateQuestionImg: async ({ request }) => {
 		const { img_url, url } = Object.fromEntries(await request.formData());
-		const imgPath = await uploadImage(img_url as string, url as string);
-		await updateQuestionImageUrl(url as string, imgPath);
+		const upload = await uploadQuestionImage({
+			supabase,
+			dataUrl: img_url as string,
+			questionUrl: url as string,
+			maxBytes: MAX_IMAGE_SIZE_BYTES
+		});
+		await updateQuestionImageUrl(url as string, upload.path);
 		return true;
 	}
 };
@@ -450,22 +456,6 @@ async function flagComment(
 		console.error(flagCommentError);
 		throw error(500, { message: 'Failed to flag comment' });
 	}
-}
-
-async function uploadImage(imgUrl: string, url: string) {
-	const base64 = imgUrl.split('base64,')[1];
-	const buffer = decode(base64);
-	const imgPath = `public/${url}.png`;
-
-	const { data: imgUploadData, error: uploadError } = await supabase.storage
-		.from('questions')
-		.upload(imgPath, buffer, { upsert: true, contentType: 'image/png' });
-
-	if (uploadError) {
-		throw error(400, 'Question image upload failed');
-	}
-
-	return imgPath;
 }
 
 async function updateQuestionImageUrl(url: string, imgPath: string) {

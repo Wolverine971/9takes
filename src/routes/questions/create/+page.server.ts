@@ -1,9 +1,6 @@
 // src/routes/questions/create/+page.server.ts
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
-import { env } from '$env/dynamic/private';
-import { v4 as uuidv4 } from 'uuid';
-import S3 from 'aws-sdk/clients/s3.js';
 import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
 
@@ -45,6 +42,7 @@ import { typeaheadQuery } from '../../../utils/elasticSearch';
 import { elasticClient } from '$lib/server/elasticSearch';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
+import { uploadQuestionImage } from '$lib/server/questionImages';
 
 export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
@@ -157,61 +155,6 @@ export const actions: Actions = {
 			const validatedData = createQuestionSchema.parse(body);
 			const { question, author_id, context, url, img_url } = validatedData;
 
-			const Key = uuidv4();
-			let uploadedKey: string | null = null;
-
-			// Upload image to S3
-			const hasS3Config =
-				!!env.PRIVATE_S3_ACCESS_KEY_ID &&
-				!!env.PRIVATE_S3_SECRET_ACCESS_KEY &&
-				!!env.PRIVATE_S3_BUCKET;
-			if (!hasS3Config) {
-				logger.warn('S3 upload skipped: missing configuration', {
-					userId: session.user.id
-				});
-			} else {
-				try {
-					const base64Data = img_url.replace(/^data:image\/\w+;base64,/, '');
-					const buf = Buffer.from(base64Data, 'base64');
-
-					// Validate image size
-					if (buf.length > MAX_FORM_SIZE) {
-						throw error(413, {
-							message: 'Image file too large'
-						});
-					}
-
-					const s3 = new S3({
-						accessKeyId: env.PRIVATE_S3_ACCESS_KEY_ID,
-						secretAccessKey: env.PRIVATE_S3_SECRET_ACCESS_KEY,
-						region: 'us-east-1'
-					});
-
-					await s3
-						.putObject({
-							Bucket: env.PRIVATE_S3_BUCKET as string,
-							Key,
-							Body: buf,
-							ContentEncoding: 'base64',
-							ContentType: 'image/jpeg',
-							ACL: 'public-read'
-						})
-						.promise();
-
-					uploadedKey = Key;
-					logger.info('Image uploaded to S3', {
-						Key,
-						userId: session.user.id
-					});
-				} catch (err) {
-					logger.error('S3 upload error', err as Error, {
-						Key,
-						userId: session.user.id
-					});
-					// Continue without image if S3 fails
-				}
-			}
-
 			// Check user permissions
 			const { data: user, error: userError } = await supabase
 				.from(demo_time ? 'profiles_demo' : 'profiles')
@@ -231,17 +174,39 @@ export const actions: Actions = {
 				});
 			}
 
+			let imagePath: string | null = null;
+			if (!demo_time) {
+				try {
+					const upload = await uploadQuestionImage({
+						supabase,
+						dataUrl: img_url,
+						questionUrl: url,
+						maxBytes: MAX_FORM_SIZE
+					});
+					imagePath = upload.path;
+					logger.info('Image uploaded to Supabase', {
+						path: imagePath,
+						userId: session.user.id
+					});
+				} catch (err) {
+					logger.error('Supabase image upload error', err as Error, {
+						userId: session.user.id,
+						url
+					});
+					// Continue without image if upload fails
+				}
+			}
+
 			// Create question in ElasticSearch if not in demo mode
 			let esId = null;
 			if (!demo_time) {
 				try {
-					const imageKey = uploadedKey ?? Key;
 					const resp: any = await createESQuestion({
 						question,
 						author_id,
 						context,
 						url,
-						img_url: imageKey,
+						img_url: imagePath ?? undefined,
 						comment_count: 0,
 						flagged: false,
 						removed: false,
@@ -268,7 +233,7 @@ export const actions: Actions = {
 				author_id,
 				context,
 				url,
-				img_url: uploadedKey ?? Key
+				img_url: imagePath
 			};
 
 			const { data: insertedQuestion, error: questionInsertError } = await supabase

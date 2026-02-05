@@ -15,7 +15,6 @@ https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/
 cwebp "Jeffrey-Epstein.png" -o "Jeffrey-Epstein.webp"
 cwebp -sns 70 -f 50 -size 20000 "Jeffrey-Epstein.webp" -o "./s-Jeffrey-Epstein.webp"
 
-
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->
 
@@ -44,6 +43,5 @@ I want you to edit this blog on reddit-moderators-type-1-internet and use the co
 /how-to-navigate-early-relationship-stages
 
 static/brand/Jeffrey-Epstein.png
-
 
 Act like a normal person who is reading these articles and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the blogs, read it and put your comments as a comment at the bottom of each article, also tell me how they fit together

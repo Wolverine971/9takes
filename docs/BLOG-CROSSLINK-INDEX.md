@@ -1,8 +1,8 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-02-04_
-_Total Posts Analyzed: 124 (Published: 115, Unpublished: 9)_
+_Generated: 2026-02-05_
+_Total Posts Analyzed: 131 (Published: 120, Unpublished: 11)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -11,18 +11,18 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 124 |
-| Published posts | 115 |
-| Unpublished posts | 9 |
-| Posts with 0 outgoing links | 6 |
-| Posts with 0 incoming links | 16 |
-| Completely isolated (0 in, 0 out) | 4 |
-| Total internal cross-links | 782 |
-| Average outgoing links per post | 6.3 |
+| Total posts | 131 |
+| Published posts | 120 |
+| Unpublished posts | 11 |
+| Posts with 0 outgoing links | 11 |
+| Posts with 0 incoming links | 21 |
+| Completely isolated (0 in, 0 out) | 9 |
+| Total internal cross-links | 785 |
+| Average outgoing links per post | 6.0 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (4 posts)
+## Priority 1: Completely Isolated Posts (9 posts)
 
 These posts have NO links in or out. Fix these first!
 
@@ -32,10 +32,15 @@ These posts have NO links in or out. Fix these first!
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | Add 3+ outgoing links |
 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` | Add 3+ outgoing links |
 | OnlyFans Creators by Enneagram: The Psychology of Digital In... | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` | Add 3+ outgoing links |
+| Untitled | `pop-culture/epstien-research/breaking-points-summary.md` | Add 3+ outgoing links |
+| Untitled | `pop-culture/epstien-research/epstien-connections.md` | Add 3+ outgoing links |
+| Untitled | `pop-culture/epstien-research/epstien-pltr.md` | Add 3+ outgoing links |
+| Untitled | `pop-culture/epstien-research/epstien-politicians.md` | Add 3+ outgoing links |
+| Untitled | `pop-culture/epstien-research/epstien-uk.md` | Add 3+ outgoing links |
 
 ---
 
-## Priority 2: Posts with NO Outgoing Links (6 posts)
+## Priority 2: Posts with NO Outgoing Links (11 posts)
 
 These posts don't link to any other content.
 
@@ -46,11 +51,16 @@ These posts don't link to any other content.
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | 0 |
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | 0 |
 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` | 0 |
+| Untitled | `pop-culture/epstien-research/breaking-points-summary.md` | 0 |
+| Untitled | `pop-culture/epstien-research/epstien-connections.md` | 0 |
+| Untitled | `pop-culture/epstien-research/epstien-pltr.md` | 0 |
+| Untitled | `pop-culture/epstien-research/epstien-politicians.md` | 0 |
+| Untitled | `pop-culture/epstien-research/epstien-uk.md` | 0 |
 | OnlyFans Creators by Enneagram: The Psychology of Digital In... | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` | 0 |
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (16 posts)
+## Priority 3: Posts with NO Incoming Links (21 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -85,8 +95,8 @@ These posts are "orphaned" - no other content links to them.
 | 27 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 27 | 13 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
 | 26 | 6 | Your Type | `enneagram/enneagram-strengths-and-weaknesses.md` |
+| 24 | 34 | What | `enneagram/enneagram-tldr.md` |
 | 24 | 12 | Red Flags You Are Dating Each Enneagram Type (And What to Do... | `enneagram/red-flags-dating-each-enneagram-type.md` |
-| 23 | 34 | What | `enneagram/enneagram-tldr.md` |
 | 22 | 11 | How Each Enneagram Type Manipulates (And How to Spot It) | `enneagram/how-each-enneagram-type-manipulates.md` |
 | 20 | 18 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
 | 18 | 10 | 9 Toxic Personality Traits: The Hidden Dark Side of Each Enn... | `enneagram/toxic-traits-of-each-enneagram-type.md` |
@@ -107,7 +117,7 @@ These posts are "orphaned" - no other content links to them.
 
 | Outgoing | Incoming | Post Title | Path |
 |----------|----------|------------|------|
-| 34 | 23 | What | `enneagram/enneagram-tldr.md` |
+| 34 | 24 | What | `enneagram/enneagram-tldr.md` |
 | 18 | 20 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
 | 16 | 8 | Relationship Communication Guide: The Enneagram Key to Under... | `enneagram/relationship-communication-guide.md` |
 | 14 | 64 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
@@ -142,7 +152,7 @@ Sorted by total connections (incoming + outgoing).
 | Total | In | Out | Post Title | Path |
 |-------|----|----|------------|------|
 | 78 | 64 | 14 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
-| 57 | 23 | 34 | What | `enneagram/enneagram-tldr.md` |
+| 58 | 24 | 34 | What | `enneagram/enneagram-tldr.md` |
 | 52 | 44 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 42 | 30 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 40 | 27 | 13 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
@@ -254,8 +264,10 @@ Sorted by total connections (incoming + outgoing).
 | 3 | 1 | 2 | Enneagram Coach Toolkit: Transform Clients with Type-Specifi... | `enneagram/enneagram-coach-toolkit.md` |
 | 3 | 2 | 1 | Who Built the Enneagram? The Mystics, Psychiatrists, and Phi... | `enneagram/enneagram-influences.md` |
 | 3 | 2 | 1 | How to Apologize Like a Pro: The Enneagram Guide to Authenti... | `enneagram/how-to-apologize-like-a-pro.md` |
+| 3 | 1 | 2 | The Psychology of Luring: How Epstein Trapped the Powerful a... | `pop-culture/epstein-psychology-part-2.md` |
 | 2 | 1 | 1 | Enneagram First Impression Cheat Sheet: Instant Connection G... | `enneagram/first-impression-cheat-sheet.md` |
 | 2 | 1 | 1 | The Stress Paradox: Why Your Emotional Patterns Outlast Ever... | `enneagram/situations-change-emotions-dont.md` |
+| 2 | 1 | 1 | The Psychology of Jeffrey Epstein: Understanding the Dark He... | `pop-culture/epstein-psychology-part-1.md` |
 | 2 | 2 | 0 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` |
 | 2 | 0 | 2 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` |
 | 1 | 0 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
@@ -264,6 +276,11 @@ Sorted by total connections (incoming + outgoing).
 | 0 | 0 | 0 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` |
 | 0 | 0 | 0 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
 | 0 | 0 | 0 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` |
+| 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/breaking-points-summary.md` |
+| 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-connections.md` |
+| 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-pltr.md` |
+| 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-politicians.md` |
+| 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-uk.md` |
 | 0 | 0 | 0 | OnlyFans Creators by Enneagram: The Psychology of Digital In... | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` |
 
 ---
