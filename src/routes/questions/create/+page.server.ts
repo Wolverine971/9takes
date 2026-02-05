@@ -70,7 +70,13 @@ export const actions: Actions = {
 				return tempUrl;
 			}
 			const response = await elasticClient.search(
-				typeaheadQuery({ index: 'question', field: 'url', text: tempUrl, size: 200 })
+				typeaheadQuery({
+					index: 'question',
+					field: 'url',
+					text: tempUrl,
+					size: 200,
+					match: 'prefix'
+				})
 			);
 			if (response.hits.hits.length) {
 				return `${tempUrl}-${response.hits.hits.length}`;
@@ -92,10 +98,7 @@ export const actions: Actions = {
 				logger.warn('Invalid URL generation data', {
 					errors: e.errors
 				});
-				throw error(400, {
-					message: 'Invalid question format',
-					details: e.errors
-				});
+				throw error(400, 'Invalid question format');
 			}
 			logger.error('Error generating URL', e as Error);
 			throw error(500, 'Failed to generate URL');
@@ -103,7 +106,7 @@ export const actions: Actions = {
 	},
 	createQuestion: async (event) => {
 		const MAX_FORM_SIZE = 10 * 1024 * 1024; // 10MB limit
-		let formData;
+		let formData: FormData;
 
 		try {
 			const { request, locals } = event;
@@ -111,7 +114,7 @@ export const actions: Actions = {
 
 			// Add timeout for formData parsing
 			const formDataPromise = request.formData();
-			const timeoutPromise = new Promise((_, reject) => {
+			const timeoutPromise = new Promise<never>((_, reject) => {
 				setTimeout(() => reject(new Error('FormData parsing timeout')), 30000); // 30 second timeout
 			});
 
@@ -119,9 +122,7 @@ export const actions: Actions = {
 				formData = await Promise.race([formDataPromise, timeoutPromise]);
 			} catch (e) {
 				logger.error('FormData parsing error', e as Error);
-				throw error(400, {
-					message: 'Failed to parse form data - request may be too large or malformed'
-				});
+				throw error(400, 'Failed to parse form data - request may be too large or malformed');
 			}
 
 			// Check content length
@@ -157,46 +158,58 @@ export const actions: Actions = {
 			const { question, author_id, context, url, img_url } = validatedData;
 
 			const Key = uuidv4();
+			let uploadedKey: string | null = null;
 
 			// Upload image to S3
-			try {
-				const base64Data = img_url.replace(/^data:image\/\w+;base64,/, '');
-				const buf = Buffer.from(base64Data, 'base64');
+			const hasS3Config =
+				!!env.PRIVATE_S3_ACCESS_KEY_ID &&
+				!!env.PRIVATE_S3_SECRET_ACCESS_KEY &&
+				!!env.PRIVATE_S3_BUCKET;
+			if (!hasS3Config) {
+				logger.warn('S3 upload skipped: missing configuration', {
+					userId: session.user.id
+				});
+			} else {
+				try {
+					const base64Data = img_url.replace(/^data:image\/\w+;base64,/, '');
+					const buf = Buffer.from(base64Data, 'base64');
 
-				// Validate image size
-				if (buf.length > MAX_FORM_SIZE) {
-					throw error(413, {
-						message: 'Image file too large'
+					// Validate image size
+					if (buf.length > MAX_FORM_SIZE) {
+						throw error(413, {
+							message: 'Image file too large'
+						});
+					}
+
+					const s3 = new S3({
+						accessKeyId: env.PRIVATE_S3_ACCESS_KEY_ID,
+						secretAccessKey: env.PRIVATE_S3_SECRET_ACCESS_KEY,
+						region: 'us-east-1'
 					});
-				}
 
-				const s3 = new S3({
-					accessKeyId: env.PRIVATE_S3_ACCESS_KEY_ID,
-					secretAccessKey: env.PRIVATE_S3_SECRET_ACCESS_KEY,
-					region: 'us-east-1'
-				});
+					await s3
+						.putObject({
+							Bucket: env.PRIVATE_S3_BUCKET as string,
+							Key,
+							Body: buf,
+							ContentEncoding: 'base64',
+							ContentType: 'image/jpeg',
+							ACL: 'public-read'
+						})
+						.promise();
 
-				await s3
-					.putObject({
-						Bucket: env.PRIVATE_S3_BUCKET as string,
+					uploadedKey = Key;
+					logger.info('Image uploaded to S3', {
 						Key,
-						Body: buf,
-						ContentEncoding: 'base64',
-						ContentType: 'image/jpeg',
-						ACL: 'public-read'
-					})
-					.promise();
-
-				logger.info('Image uploaded to S3', {
-					Key,
-					userId: session.user.id
-				});
-			} catch (err) {
-				logger.error('S3 upload error', err as Error, {
-					Key,
-					userId: session.user.id
-				});
-				// Continue without image if S3 fails
+						userId: session.user.id
+					});
+				} catch (err) {
+					logger.error('S3 upload error', err as Error, {
+						Key,
+						userId: session.user.id
+					});
+					// Continue without image if S3 fails
+				}
 			}
 
 			// Check user permissions
@@ -222,13 +235,18 @@ export const actions: Actions = {
 			let esId = null;
 			if (!demo_time) {
 				try {
+					const imageKey = uploadedKey ?? Key;
 					const resp: any = await createESQuestion({
-						...body,
+						question,
+						author_id,
+						context,
+						url,
+						img_url: imageKey,
 						comment_count: 0,
 						flagged: false,
 						removed: false,
 						question_formatted: question,
-						enneagram: user.enneagram,
+						enneagram: user.enneagram ?? undefined,
 						author_name: user.username || `${user.first_name || ''} ${user.last_name || ''}`.trim()
 					});
 					if (resp?._id) {
@@ -250,7 +268,7 @@ export const actions: Actions = {
 				author_id,
 				context,
 				url,
-				img_url: Key
+				img_url: uploadedKey ?? Key
 			};
 
 			const { data: insertedQuestion, error: questionInsertError } = await supabase
@@ -280,18 +298,13 @@ export const actions: Actions = {
 				logger.warn('Invalid question data', {
 					errors: e.errors
 				});
-				throw error(400, {
-					message: 'Invalid question data',
-					details: e.errors
-				});
+				throw error(400, 'Invalid question data');
 			}
 			if ((e as any).status) {
 				throw e; // Re-throw HTTP errors
 			}
 			logger.error('Create question error', e as Error);
-			throw error(500, {
-				message: 'Failed to create question'
-			});
+			throw error(500, 'Failed to create question');
 		}
 	}
 };

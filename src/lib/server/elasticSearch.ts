@@ -31,7 +31,7 @@ export const createESQuestion = async (body: {
 	author_id: string;
 	context: string;
 	url: string;
-	img_url?: string;
+	img_url?: string | null;
 	comment_count?: number;
 	flagged?: boolean;
 	removed?: boolean;
@@ -44,7 +44,9 @@ export const createESQuestion = async (body: {
 		const author_id = body.author_id as string;
 		const context = body.context as string;
 		const url = body.url as string;
-		const img_url = body.img_url as string;
+		const raw_img_url = body.img_url as string | null | undefined;
+		const img_url =
+			raw_img_url && raw_img_url.startsWith('data:') ? null : (raw_img_url as string | null);
 
 		const date = new Date();
 		const resp = await elasticClient.index({

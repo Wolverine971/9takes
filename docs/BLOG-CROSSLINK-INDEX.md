@@ -182,7 +182,7 @@ Sorted by total connections (incoming + outgoing).
 | 12 | 3 | 9 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |
 | 12 | 8 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 12 | 4 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
-| 12 | 3 | 9 | The Dark Triad Meets the Enneagram: When Personality Turns P... | `pop-culture/dark-triad-meets-enneagram.md` |
+| 12 | 3 | 9 | Dark Triad Meets Enneagram: How Each Type Goes Wrong | `pop-culture/dark-triad-meets-enneagram.md` |
 | 11 | 4 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
 | 11 | 3 | 8 | Enneagram Types Working in Teams | `enneagram/enneagram-types-working-in-teams.md` |
 | 11 | 2 | 9 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |

@@ -202,7 +202,6 @@
 					{displayText}
 				</p>
 			{/if}
-
 		</div>
 	</div>
 

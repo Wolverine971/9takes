@@ -1,7 +1,7 @@
 ---
 title: "Jeffrey Epstein's Web of Manipulation: How He Lured the Powerful and the Vulnerable"
-meta_title: "How Jeffrey Epstein Manipulated Power and Vulnerability (Psychology of the Web)"
-description: "A psychological analysis of how Jeffrey Epstein lured elites and vulnerable teens, the two playbooks he used, the escalation trap, and the shame dynamics that kept the web intact."
+meta_title: 'How Jeffrey Epstein Manipulated Power and Vulnerability (Psychology of the Web)'
+description: 'A psychological analysis of how Jeffrey Epstein lured elites and vulnerable teens, the two playbooks he used, the escalation trap, and the shame dynamics that kept the web intact.'
 author: 'DJ Wayne'
 date: '2026-02-03'
 loc: 'https://9takes.com/pop-culture/epstein-web-of-manipulation'

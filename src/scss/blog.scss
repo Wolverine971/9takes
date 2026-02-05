@@ -196,6 +196,30 @@ blockquote {
 	color: #cbd5e1;
 }
 
+/* Disclaimer/warning box */
+.disclaimer {
+	margin: 1.5rem 0;
+	padding: 1rem 1.25rem;
+	background-color: rgba(251, 191, 36, 0.08);
+	border-left: 4px solid #fbbf24;
+	border-radius: 0 8px 8px 0;
+	font-size: 0.9rem;
+	color: #cbd5e1;
+
+	p {
+		margin: 0 0 0.5rem 0;
+		line-height: 1.5;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	strong {
+		color: #fbbf24;
+	}
+}
+
 /* MDSvex specific optimizations - Solo Leveling theme */
 .blog {
 	/* Better typography for markdown content */
