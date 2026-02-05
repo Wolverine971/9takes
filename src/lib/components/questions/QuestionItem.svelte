@@ -84,7 +84,7 @@
 				/>
 			</span>
 			<span
-				class="xs:min-w-14 xs:px-2 flex min-w-12 justify-center rounded border border-slate-600 bg-[#12121a] px-1.5 py-0.5 text-center text-xs text-slate-300 sm:min-w-16 sm:text-sm"
+				class="xs:min-w-14 xs:px-2 flex min-w-12 justify-center rounded border border-purple-500/15 bg-[#12121a]/60 px-1.5 py-0.5 text-center text-xs text-slate-300 sm:min-w-16 sm:text-sm"
 			>
 				{formattedDate}
 			</span>
@@ -95,15 +95,17 @@
 <style>
 	/* Solo Leveling dark theme styles for question cards */
 	:global(.greek-question-card) {
-		@apply relative overflow-hidden shadow-sm;
-		background-color: #1a1a2e;
-		border-left: 3px solid #7c3aed;
+		@apply relative overflow-hidden;
+		background-color: rgba(26, 26, 46, 0.6);
+		backdrop-filter: blur(4px);
+		border-left: 3px solid rgba(124, 58, 237, 0.6);
+		border-radius: 0.375rem;
 		color: #e2e8f0;
 	}
 
 	:global(.greek-question-card:hover) {
 		border-left: 3px solid #a78bfa;
-		background: linear-gradient(to right, rgba(124, 58, 237, 0.1), rgba(26, 26, 46, 1));
+		background: linear-gradient(to right, rgba(124, 58, 237, 0.1), rgba(26, 26, 46, 0.7));
 		box-shadow: 0 0 15px rgba(124, 58, 237, 0.2);
 	}
 

@@ -355,7 +355,7 @@
 		background-color: #7c3aed;
 		color: white;
 		border: none;
-		border-radius: 0.5rem;
+		border-radius: 0.75rem;
 		font-weight: 600;
 		font-size: 1rem;
 		white-space: nowrap;
@@ -415,20 +415,21 @@
 		transform: translateX(2px);
 	}
 
-	/* Custom input styling - Solo Leveling dark theme */
+	/* Custom input styling - Ethereal dark theme */
 	:global(.search-container input) {
 		padding-right: 3rem !important; // Space for spinner
 		font-size: 1rem !important;
 		height: 2.75rem !important;
-		border-radius: 0.5rem !important;
-		border: 1px solid #334155 !important;
-		background-color: #1a1a2e !important;
+		border-radius: 0.75rem !important;
+		border: 1px solid rgba(124, 58, 237, 0.15) !important;
+		background-color: rgba(26, 26, 46, 0.7) !important;
+		backdrop-filter: blur(8px);
 		color: #f1f5f9 !important;
 		transition: all $transition-fast !important;
 
 		&:focus {
-			border-color: #7c3aed !important;
-			box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2) !important;
+			border-color: rgba(124, 58, 237, 0.4) !important;
+			box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15) !important;
 		}
 
 		&::placeholder {
@@ -446,25 +447,26 @@
 		border-radius: 2px;
 	}
 
-	/* Dropdown styling - Solo Leveling dark theme */
+	/* Dropdown styling - Ethereal dark theme */
 	:global(.search-container .combobox__list) {
 		margin-top: 0.5rem !important;
-		border-radius: 0.5rem !important;
+		border-radius: 0.75rem !important;
 		box-shadow:
 			0 4px 24px rgba(0, 0, 0, 0.4),
-			0 0 15px rgba(124, 58, 237, 0.15) !important;
-		border: 1px solid #334155 !important;
+			0 0 20px rgba(124, 58, 237, 0.12) !important;
+		border: 1px solid rgba(124, 58, 237, 0.15) !important;
 		max-height: 320px !important;
 		overflow-y: auto !important;
 		z-index: 1000 !important;
-		background-color: #1a1a2e !important;
+		background-color: rgba(26, 26, 46, 0.85) !important;
+		backdrop-filter: blur(12px);
 	}
 
 	:global(.search-container .combobox__list li) {
 		padding: 0.75rem 1rem !important;
 		transition: background-color $transition-fast !important;
 		cursor: pointer;
-		border-bottom: 1px solid #252538;
+		border-bottom: 1px solid rgba(124, 58, 237, 0.08);
 		color: #e2e8f0 !important;
 
 		&:last-child {

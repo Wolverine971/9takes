@@ -315,7 +315,7 @@
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
 	<div
-		class="mx-auto max-w-6xl overflow-x-hidden rounded-lg border border-slate-700/50 bg-[#12121a] p-2 shadow-[0_0_20px_rgba(0,0,0,0.3)] sm:overflow-visible sm:p-4"
+		class="questions-page-container mx-auto max-w-6xl overflow-x-hidden rounded-2xl border border-purple-500/15 bg-[#12121a]/70 p-2 shadow-[0_0_30px_rgba(124,58,237,0.08)] backdrop-blur-md sm:overflow-visible sm:p-4"
 		in:fade={{ duration }}
 	>
 		<!-- Header Section -->
@@ -376,7 +376,7 @@
 
 		<!-- Categories Section -->
 		<section
-			class="mx-2 mb-4 rounded-xl border border-slate-700/50 bg-gradient-to-b from-[#1a1a2e] to-[#12121a] p-3 shadow-sm sm:mx-0 sm:mb-6 sm:p-4"
+			class="mx-2 mb-4 rounded-xl border border-purple-500/15 bg-gradient-to-b from-[#1a1a2e]/70 to-[#12121a]/60 p-3 shadow-[0_0_20px_rgba(124,58,237,0.05)] backdrop-blur-sm sm:mx-0 sm:mb-6 sm:p-4"
 			in:fly={{ y: 20, duration, delay: 600 }}
 		>
 			<div class="mb-2 flex items-center justify-between sm:mb-3">
@@ -387,7 +387,7 @@
 				class="sm:max-h-30 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-600 scrollbar-thumb-rounded flex max-h-32 flex-wrap gap-1 overflow-y-auto overflow-x-hidden p-0.5 sm:gap-1.5 sm:p-1"
 			>
 				<button
-					class="flex-shrink-0 whitespace-nowrap rounded-full border border-slate-600 bg-[#1a1a2e] px-2.5 py-1 text-xs font-medium text-slate-200 transition-all duration-150 hover:border-purple-500 hover:bg-purple-900/30 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
+					class="flex-shrink-0 whitespace-nowrap rounded-full border border-purple-500/20 bg-[#1a1a2e]/60 px-2.5 py-1 text-xs font-medium text-slate-200 backdrop-blur-sm transition-all duration-150 hover:border-purple-500/50 hover:bg-purple-900/30 hover:shadow-[0_0_8px_rgba(124,58,237,0.2)] disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
 					class:!bg-purple-600={selectedCategory === null}
 					class:!text-white={selectedCategory === null}
 					class:!border-purple-600={selectedCategory === null}
@@ -399,7 +399,7 @@
 				</button>
 				{#each displayedCategories as category (category.id)}
 					<button
-						class="flex-shrink-0 whitespace-nowrap rounded-full border border-slate-600 bg-[#1a1a2e] px-2.5 py-1 text-xs font-medium text-slate-200 transition-all duration-150 hover:border-purple-500 hover:bg-purple-900/30 hover:shadow-sm disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
+						class="flex-shrink-0 whitespace-nowrap rounded-full border border-purple-500/20 bg-[#1a1a2e]/60 px-2.5 py-1 text-xs font-medium text-slate-200 backdrop-blur-sm transition-all duration-150 hover:border-purple-500/50 hover:bg-purple-900/30 hover:shadow-[0_0_8px_rgba(124,58,237,0.2)] disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
 						class:!bg-purple-600={selectedCategory === category.id}
 						class:!text-white={selectedCategory === category.id}
 						class:!border-purple-600={selectedCategory === category.id}
@@ -430,7 +430,7 @@
 
 		<!-- Questions List -->
 		<section
-			class="min-h-75 mx-2 rounded-lg border border-slate-700/50 bg-[#1a1a2e] p-3 sm:mx-0 sm:p-5"
+			class="min-h-75 mx-2 rounded-xl border border-purple-500/15 bg-[#1a1a2e]/60 p-3 backdrop-blur-sm sm:mx-0 sm:p-5"
 			in:fly={{ y: 20, duration, delay: 750 }}
 		>
 			{#if loading}
@@ -444,10 +444,10 @@
 				<!-- Filtered view -->
 				<div class="flex flex-col gap-1.5">
 					<!-- Back button and category header -->
-					<div class="mb-2 flex items-center gap-3 border-b border-slate-700/50 pb-2">
+					<div class="mb-2 flex items-center gap-3 border-b border-purple-500/15 pb-2">
 						<button
 							on:click={() => filterByCategory(null, null)}
-							class="flex items-center gap-1.5 rounded-lg border border-slate-600 bg-[#12121a] px-3 py-1.5 text-sm font-medium text-slate-300 transition-all hover:border-purple-500 hover:bg-purple-900/30 hover:text-purple-300"
+							class="flex items-center gap-1.5 rounded-lg border border-purple-500/20 bg-[#12121a]/60 px-3 py-1.5 text-sm font-medium text-slate-300 backdrop-blur-sm transition-all hover:border-purple-500/50 hover:bg-purple-900/30 hover:text-purple-300"
 							aria-label="Back to all questions"
 						>
 							<svg
@@ -483,7 +483,7 @@
 				{#each Object.entries(categories) as [categoryName, questions]}
 					<div class="mb-6 last:mb-0">
 						<h3
-							class="scroll-mt-4 border-b border-slate-700/50 pb-1 text-sm font-semibold text-slate-100 sm:text-base"
+							class="scroll-mt-4 border-b border-purple-500/15 pb-1 text-sm font-semibold text-slate-100 sm:text-base"
 							id={categoryName.replace(/\s+/g, '-')}
 						>
 							{categoryName}
@@ -516,7 +516,7 @@
 		<!-- How It Works Section (for non-users) -->
 		{#if !data?.user?.id}
 			<section
-				class="mx-2 mt-6 rounded-lg border border-slate-700/50 bg-[#1a1a2e] p-4 sm:mx-0 sm:mt-8 sm:p-6"
+				class="mx-2 mt-6 rounded-xl border border-purple-500/15 bg-[#1a1a2e]/60 p-4 shadow-[0_0_20px_rgba(124,58,237,0.05)] backdrop-blur-sm sm:mx-0 sm:mt-8 sm:p-6"
 				in:fly={{ y: 20, duration, delay: 900 }}
 			>
 				<h2 class="mb-3 text-lg font-semibold text-slate-100 sm:mb-4 sm:text-xl">How It Works</h2>
@@ -529,7 +529,7 @@
 					<li>Sort comments by personality type and learn yours</li>
 				</ol>
 				<button
-					class="w-full rounded-lg bg-purple-600 px-4 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-purple-500 hover:shadow-[0_0_25px_rgba(124,58,237,0.5)] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-[#1a1a2e] sm:px-6 sm:py-4 sm:text-lg"
+					class="w-full rounded-lg bg-purple-600 px-4 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-purple-500 hover:shadow-[0_0_25px_rgba(124,58,237,0.5)] focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-transparent sm:px-6 sm:py-4 sm:text-lg"
 					on:click={() => goToCreateQuestionPage('')}
 					aria-label="Ask your question now"
 				>
@@ -539,3 +539,30 @@
 		{/if}
 	</div>
 </ErrorBoundary>
+
+<style>
+	.questions-page-container {
+		position: relative;
+	}
+
+	/* Gradient transition zone: ethereal particle space fades into content */
+	.questions-page-container::before {
+		content: '';
+		position: absolute;
+		top: -4rem;
+		left: -2rem;
+		right: -2rem;
+		height: 12rem;
+		background: linear-gradient(
+			180deg,
+			transparent 0%,
+			rgba(124, 58, 237, 0.03) 30%,
+			rgba(26, 26, 46, 0.15) 70%,
+			transparent 100%
+		);
+		pointer-events: none;
+		z-index: 0;
+		filter: blur(20px);
+		border-radius: inherit;
+	}
+</style>

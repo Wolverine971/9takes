@@ -2,7 +2,7 @@
 # Blog Cross-Link Index
 
 _Generated: 2026-02-05_
-_Total Posts Analyzed: 131 (Published: 120, Unpublished: 11)_
+_Total Posts Analyzed: 131 (Published: 122, Unpublished: 9)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -12,8 +12,8 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Metric | Count |
 |--------|-------|
 | Total posts | 131 |
-| Published posts | 120 |
-| Unpublished posts | 11 |
+| Published posts | 122 |
+| Unpublished posts | 9 |
 | Posts with 0 outgoing links | 11 |
 | Posts with 0 incoming links | 21 |
 | Completely isolated (0 in, 0 out) | 9 |
@@ -264,7 +264,7 @@ Sorted by total connections (incoming + outgoing).
 | 3 | 1 | 2 | Enneagram Coach Toolkit: Transform Clients with Type-Specifi... | `enneagram/enneagram-coach-toolkit.md` |
 | 3 | 2 | 1 | Who Built the Enneagram? The Mystics, Psychiatrists, and Phi... | `enneagram/enneagram-influences.md` |
 | 3 | 2 | 1 | How to Apologize Like a Pro: The Enneagram Guide to Authenti... | `enneagram/how-to-apologize-like-a-pro.md` |
-| 3 | 1 | 2 | The Psychology of Luring: How Epstein Trapped the Powerful a... | `pop-culture/epstein-psychology-part-2.md` |
+| 3 | 1 | 2 | How Epstein Trapped the Powerful and the Vulnerable (Part 2) | `pop-culture/epstein-psychology-part-2.md` |
 | 2 | 1 | 1 | Enneagram First Impression Cheat Sheet: Instant Connection G... | `enneagram/first-impression-cheat-sheet.md` |
 | 2 | 1 | 1 | The Stress Paradox: Why Your Emotional Patterns Outlast Ever... | `enneagram/situations-change-emotions-dont.md` |
 | 2 | 1 | 1 | The Psychology of Jeffrey Epstein: Understanding the Dark He... | `pop-culture/epstein-psychology-part-1.md` |

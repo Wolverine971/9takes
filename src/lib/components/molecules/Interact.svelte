@@ -308,7 +308,7 @@
 					(e) => e.user_id === user?.id
 				)
 					? 'border-purple-500 bg-purple-900/30 text-purple-300 hover:bg-purple-900/50'
-					: 'border-slate-600 bg-[#1a1a2e] text-slate-300 hover:bg-[#252538]'}"
+					: 'border-slate-600/40 bg-[#1a1a2e]/60 text-slate-300 backdrop-blur-sm hover:bg-[#252538]/80'}"
 				onclick={toggleSubscription}
 				disabled={subscriptionLoading}
 				aria-label={subscriptions.some((e) => e.user_id === user?.id)
@@ -331,7 +331,7 @@
 			{#if qrCodeUrl && innerWidth > 576}
 				<button
 					title="Share via QR Code"
-					class="flex items-center justify-center gap-2 rounded-lg border border-slate-600 bg-[#1a1a2e] px-5 py-2.5 text-sm font-medium text-slate-300 transition-all duration-200 hover:bg-[#252538] active:scale-[0.98]"
+					class="flex items-center justify-center gap-2 rounded-lg border border-slate-600/40 bg-[#1a1a2e]/60 px-5 py-2.5 text-sm font-medium text-slate-300 backdrop-blur-sm transition-all duration-200 hover:bg-[#252538]/80 active:scale-[0.98]"
 					onclick={openQRModal}
 					aria-label="Share via QR Code"
 				>
@@ -347,7 +347,10 @@
 	</div>
 
 	{#if commenting}
-		<div class="rounded-lg border border-slate-700/50 bg-[#1a1a2e]" in:slide={{ duration: 300 }}>
+		<div
+			class="rounded-xl border border-purple-500/15 bg-[#1a1a2e]/60 backdrop-blur-sm"
+			in:slide={{ duration: 300 }}
+		>
 			<div class="p-4">
 				<div
 					class="textarea-container"
@@ -358,7 +361,7 @@
 						placeholder={parentType === 'question'
 							? "What's your perspective on this question? Share your thoughts..."
 							: 'Write your reply...'}
-						class="w-full resize-none overflow-y-auto rounded-md border border-slate-600 bg-[#12121a] px-3 py-2 text-sm leading-relaxed text-slate-100 placeholder:text-slate-500 focus:border-purple-500 focus:outline-none focus:ring-1 focus:ring-purple-500"
+						class="w-full resize-none overflow-y-auto rounded-md border border-slate-600/40 bg-[#12121a]/80 px-3 py-2 text-sm leading-relaxed text-slate-100 placeholder:text-slate-500 focus:border-purple-500 focus:outline-none focus:ring-1 focus:ring-purple-500"
 						bind:value={comment}
 						id="comment-box"
 						rows="3"
@@ -368,7 +371,7 @@
 				</div>
 			</div>
 			<div
-				class="flex items-center justify-between border-t border-slate-700/50 bg-[#12121a] px-4 py-3"
+				class="flex items-center justify-between rounded-b-xl border-t border-purple-500/10 bg-[#12121a]/80 px-4 py-3"
 			>
 				<span class="text-xs text-slate-500">
 					{#if comment.length > 0}
@@ -380,7 +383,7 @@
 				<div class="flex gap-2">
 					{#if userHasAnswered}
 						<button
-							class="rounded-md border border-slate-600 bg-[#1a1a2e] px-4 py-1.5 text-sm font-medium text-slate-400 transition-all duration-200 hover:bg-[#252538] active:scale-[0.98]"
+							class="rounded-md border border-slate-600/40 bg-[#1a1a2e]/60 px-4 py-1.5 text-sm font-medium text-slate-400 transition-all duration-200 hover:bg-[#252538]/80 active:scale-[0.98]"
 							type="button"
 							onclick={() => {
 								commenting = false;

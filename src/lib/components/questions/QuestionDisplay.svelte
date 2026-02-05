@@ -157,10 +157,10 @@
 </script>
 
 <div
-	class="relative overflow-hidden rounded-xl border border-slate-700/50 bg-[#1a1a2e] p-8 shadow-[0_0_20px_rgba(124,58,237,0.1)] sm:p-6"
+	class="question-display-card relative overflow-hidden rounded-2xl border border-purple-500/15 bg-[#1a1a2e]/70 p-8 shadow-[0_0_30px_rgba(124,58,237,0.15)] backdrop-blur-md sm:p-6"
 >
 	<h1
-		class="relative m-0 w-full text-center font-bold leading-snug text-slate-100"
+		class="relative m-0 w-full text-center font-bold leading-snug text-slate-100 drop-shadow-[0_0_12px_rgba(124,58,237,0.15)]"
 		style="font-size: {fontSize};"
 		itemprop="name"
 	>
@@ -178,3 +178,14 @@
 		</div>
 	{/if}
 </div>
+
+<style>
+	.question-display-card::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		border-radius: inherit;
+		background: radial-gradient(ellipse at 50% 0%, rgba(124, 58, 237, 0.08) 0%, transparent 60%);
+		pointer-events: none;
+	}
+</style>

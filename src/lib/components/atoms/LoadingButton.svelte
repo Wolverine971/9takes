@@ -1,40 +1,60 @@
 <!-- src/lib/components/atoms/LoadingButton.svelte -->
 <script lang="ts">
 	import Spinner from './Spinner.svelte';
+	import type { Snippet } from 'svelte';
 
-	// Props
-	export let loading = false;
-	export let disabled = false;
-	export let type: 'button' | 'submit' | 'reset' = 'button';
-	export let variant: 'primary' | 'secondary' | 'danger' | 'success' = 'primary';
-	export let size: 'sm' | 'md' | 'lg' = 'md';
-	export let fullWidth = false;
-	export let className = '';
-	export let loadingText = '';
-	export let ariaLabel: string | undefined = undefined;
+	interface Props {
+		loading?: boolean;
+		disabled?: boolean;
+		type?: 'button' | 'submit' | 'reset';
+		variant?: 'primary' | 'secondary' | 'danger' | 'success';
+		size?: 'sm' | 'md' | 'lg';
+		fullWidth?: boolean;
+		className?: string;
+		loadingText?: string;
+		ariaLabel?: string;
+		onclick?: (event: MouseEvent) => void;
+		children?: Snippet;
+	}
 
-	// Handle click events
-	async function handleClick(event: MouseEvent) {
+	let {
+		loading = false,
+		disabled = false,
+		type = 'button',
+		variant = 'primary',
+		size = 'md',
+		fullWidth = false,
+		className = '',
+		loadingText = '',
+		ariaLabel = undefined,
+		onclick,
+		children
+	}: Props = $props();
+
+	function handleClick(event: MouseEvent) {
 		if (loading || disabled) {
 			event.preventDefault();
 			return;
 		}
+		onclick?.(event);
 	}
 
-	$: buttonClasses = [
-		'loading-button',
-		`loading-button--${variant}`,
-		`loading-button--${size}`,
-		fullWidth && 'loading-button--full-width',
-		loading && 'loading-button--loading',
-		disabled && 'loading-button--disabled',
-		className
-	]
-		.filter(Boolean)
-		.join(' ');
+	const buttonClasses = $derived(
+		[
+			'loading-button',
+			`loading-button--${variant}`,
+			`loading-button--${size}`,
+			fullWidth && 'loading-button--full-width',
+			loading && 'loading-button--loading',
+			disabled && 'loading-button--disabled',
+			className
+		]
+			.filter(Boolean)
+			.join(' ')
+	);
 
-	$: isDisabled = disabled || loading;
-	$: buttonAriaLabel = loading ? loadingText || 'Loading...' : ariaLabel;
+	const isDisabled = $derived(disabled || loading);
+	const buttonAriaLabel = $derived(loading ? loadingText || 'Loading...' : ariaLabel);
 </script>
 
 <button
@@ -43,8 +63,7 @@
 	disabled={isDisabled}
 	aria-label={buttonAriaLabel}
 	aria-busy={loading}
-	on:click={handleClick}
-	on:click
+	onclick={handleClick}
 >
 	{#if loading}
 		<span class="loading-button__spinner">
@@ -53,8 +72,8 @@
 		{#if loadingText}
 			<span class="loading-button__text">{loadingText}</span>
 		{/if}
-	{:else}
-		<slot />
+	{:else if children}
+		{@render children()}
 	{/if}
 </button>
 

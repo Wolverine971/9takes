@@ -110,9 +110,18 @@
 				</div>
 			{/if}
 
-			<button type="submit" class="submit-btn" disabled={!canSubmit}>
-				{submitting ? 'Resetting Password...' : 'Reset Password'}
-			</button>
+			<LoadingButton
+				type="submit"
+				variant="primary"
+				size="lg"
+				fullWidth
+				{loading}
+				disabled={!canSubmit}
+				loadingText="Resetting Password..."
+				className="mt-2"
+			>
+				Reset Password
+			</LoadingButton>
 		</form>
 	{/if}
 
@@ -205,29 +214,6 @@
 		color: #ef4444;
 	}
 
-	.submit-btn {
-		width: 100%;
-		padding: 0.75rem 1.25rem;
-		background: linear-gradient(135deg, #7c3aed, #6d28d9);
-		border: none;
-		border-radius: 8px;
-		color: white;
-		font-size: 1rem;
-		font-weight: 600;
-		cursor: pointer;
-		transition: all 0.3s ease;
-
-		&:hover:not(:disabled) {
-			box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
-			transform: translateY(-2px);
-		}
-
-		&:disabled {
-			opacity: 0.7;
-			cursor: not-allowed;
-		}
-	}
-
 	.back-link {
 		text-align: center;
 		margin-top: 1rem;
@@ -253,10 +239,6 @@
 
 		.auth-title {
 			font-size: 1.2rem;
-		}
-
-		.submit-btn {
-			width: 100%;
 		}
 	}
 </style>

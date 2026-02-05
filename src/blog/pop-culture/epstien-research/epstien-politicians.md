@@ -1,3 +1,5 @@
+<!-- src/blog/pop-culture/epstien-research/epstien-politicians.md -->
+
 # PROOF: Politicians Caught LYING About Epstein Relationship
 
 **Source:** https://www.youtube.com/watch?v=7FzxpTn5ifg
@@ -13,6 +15,7 @@
 Described being so "revolted" by Epstein's massage table setup in 2005 that he and wife left immediately and never spoke to him again. Called it "a gift" that gave him "a voice."
 
 **The 2012 Email:**
+
 > "Might you be able to give [BLANK] a few more details regarding lunch this Sunday? Do you know if it will just be Howard [Lutnick] and his wife? Any kids coming along? Will they arrive J's Island via their boat and around what time is good for them?"
 
 **When Reporter Called:**
@@ -31,6 +34,7 @@ Appears on Epstein guest list for **St. Barts Christmas 2010**.
 **Hours of Interview Footage** with Epstein in the files.
 
 **The "Devil" Exchange:**
+
 - Bannon: "Do you think you're the devil himself?"
 - Epstein: "No, but I do have a good mirror."
 - Bannon: "It's a serious question. Do you think you're the devil himself?"
@@ -38,12 +42,14 @@ Appears on Epstein guest list for **St. Barts Christmas 2010**.
 - Bannon: "Because you have all the attributes. You're incredibly smart... the devil's brilliant."
 
 **Policy Exchanges (December 2018):**
+
 - Epstein: "You can explain to your boys that the lynch pin in the Middle East is Qatar. Blockade lifted. They can help on many fronts. Many."
 - Bannon: "I'm heading to AD tomorrow."
 - Epstein: "I think I'm getting Bolton on board. At least he's an adult."
 - Bannon: "Bolton only doing what Sheldon Adelson tells him to do. I got John the job, but he will not cross Sheldon."
 
 **The Tel Aviv Text:**
+
 - Bannon: "All roads lead to Beijing"
 - Epstein: **"or Tel Aviv. Winky face."**
 
@@ -54,6 +60,7 @@ Appears on Epstein guest list for **St. Barts Christmas 2010**.
 ### 4. RFK JR.
 
 **Maxwell Email to Epstein:**
+
 > "Didn't we go fossil hunting with him and Bobby Kennedy in North Dakota?"
 
 RFK Jr. has acknowledged spending time with Epstein.
@@ -78,6 +85,7 @@ Photo in files with "girl of indeterminate age" at Epstein event. Now directing 
 ### 7. VIRGIN ISLANDS GOVERNOR ALBERT BRYAN
 
 DOJ documents show informant claimed:
+
 - Epstein used dark money group to wire **$380,000** to Bryan's 2018 campaign
 - Bryan later **fired the attorney general** leading Epstein-related investigations
 
@@ -88,6 +96,7 @@ DOJ documents show informant claimed:
 ### 8. CHUCK SCHUMER
 
 Epstein email to Jes Staley:
+
 > "I have dinner with Schumer tonight."
 
 ---
@@ -100,6 +109,7 @@ Epstein email to Jes Staley:
 - Trump says DOJ should "move on"
 
 **Breaking Points:**
+
 > "Of everybody who's implicated, he is at another level in terms of the level of connectivity that he had directly to Epstein and Maxwell and this whole disgusting, depraved world."
 
 ---
@@ -107,11 +117,13 @@ Epstein email to Jes Staley:
 ## KEY PSYCHOLOGICAL INSIGHT: "THEY KNEW"
 
 **Breaking Points Analysis:**
+
 > "They knew what he was doing whether they were directly participating or not. They knew what was going on. I mean it comes out in Trump's quote. He loves women maybe even more than me and maybe even younger, right? The whole club knew what was going on here."
 
 ### The Pattern of Lying
 
 Every politician follows same playbook when caught:
+
 1. Claim minimal/no contact
 2. Express disgust
 3. Files reveal ongoing contact
@@ -123,6 +135,7 @@ Every politician follows same playbook when caught:
 ## THE "EPSTEIN CLASS" CONCEPT
 
 **Congressman Ro Khana coined the term.** Breaking Points:
+
 > "The Epstein story is not just about the rape of underage girls from working-class families. The Epstein story is about a group of rich and powerful people who have corrupted and rigged a system to enrich themselves at the expense of ordinary Americans, at the expense of the working class."
 
 ---
@@ -130,12 +143,15 @@ Every politician follows same playbook when caught:
 ## QUOTABLE FOR ARTICLES
 
 **On Knowing:**
+
 > "They knew what he was doing whether they were directly participating or not. They knew what was going on." — Breaking Points
 
 **On Trump's Level:**
+
 > "Of everybody who's implicated, he is at another level in terms of the level of connectivity that he had directly to Epstein and Maxwell." — Breaking Points
 
 **On the Pattern:**
+
 > "The idea this was some sort of genius... he's literally an imbecile... he was just good at one thing and that one thing was appearing to be very socially connected." — Breaking Points
 
 ---

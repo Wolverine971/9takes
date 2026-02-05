@@ -101,9 +101,11 @@
 	}
 </script>
 
-<div class="w-full">
+<div class="w-full shadow-[0_0_40px_rgba(124,58,237,0.06)]">
 	<!-- Tabs Navigation -->
-	<nav class="scrollbar-hide flex overflow-x-auto border-b border-slate-700/50 bg-[#12121a]">
+	<nav
+		class="scrollbar-hide flex overflow-x-auto rounded-t-xl border-b border-purple-500/15 bg-[#12121a]/90 backdrop-blur-sm"
+	>
 		{#each tabs as tab}
 			{@const IconComponent = iconComponents[tab]}
 			<button
@@ -112,7 +114,7 @@
 				aria-controls={tab}
 				class="relative min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 bg-transparent px-6 py-3.5 text-sm font-medium text-slate-400 transition-all duration-200 hover:text-slate-200 sm:px-4 sm:py-3 {selectedTab ===
 				tab
-					? 'border-b-2 border-purple-500 text-slate-100'
+					? 'border-b-2 border-purple-500 text-slate-100 shadow-[0_2px_8px_rgba(124,58,237,0.3)]'
 					: ''}"
 				onclick={() => {
 					selectedTab = tab;
@@ -145,7 +147,7 @@
 	</nav>
 
 	<!-- Tab Content -->
-	<div class="min-h-[400px] bg-[#1a1a2e]">
+	<div class="min-h-[400px] rounded-b-xl bg-[#1a1a2e]/60 backdrop-blur-sm">
 		{#each tabs as section}
 			{#if selectedTab === section}
 				<section

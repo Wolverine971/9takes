@@ -219,7 +219,7 @@
 	{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
 </svelte:head>
 
-<div class="mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6 lg:px-8">
+<div class="question-page-container mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6 lg:px-8">
 	<article itemscope itemtype="https://schema.org/QAPage">
 		<!-- Question Display -->
 		<div class="mb-6">
@@ -245,7 +245,7 @@
 					{#each data.questionTags as tag}
 						<a
 							href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
-							class="inline-flex items-center rounded-lg border border-slate-700/50 bg-[#1a1a2e] px-3 py-1.5 text-sm font-medium text-slate-300 transition-all duration-200 hover:border-purple-500/50 hover:bg-purple-900/30 hover:text-purple-300"
+							class="inline-flex items-center rounded-lg border border-purple-500/20 bg-[#1a1a2e]/60 px-3 py-1.5 text-sm font-medium text-slate-300 backdrop-blur-sm transition-all duration-200 hover:border-purple-500/40 hover:bg-purple-900/40 hover:text-purple-300 hover:shadow-[0_0_8px_rgba(124,58,237,0.2)]"
 							rel="tag"
 						>
 							{tag.question_categories.category_name}
@@ -261,3 +261,29 @@
 		{/if}
 	</article>
 </div>
+
+<style>
+	.question-page-container {
+		position: relative;
+	}
+
+	/* Gradient transition zone: ethereal particle space fades into content area */
+	.question-page-container::before {
+		content: '';
+		position: absolute;
+		top: -4rem;
+		left: -2rem;
+		right: -2rem;
+		height: 12rem;
+		background: linear-gradient(
+			180deg,
+			transparent 0%,
+			rgba(124, 58, 237, 0.03) 30%,
+			rgba(26, 26, 46, 0.15) 70%,
+			transparent 100%
+		);
+		pointer-events: none;
+		z-index: 0;
+		filter: blur(20px);
+	}
+</style>
