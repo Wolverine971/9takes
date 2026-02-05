@@ -1,7 +1,7 @@
 ---
 title: "The Psychology of Epstein's Web: How a Predator Ensnared the Elite"
-meta_title: "Why Smart People Fell for Jeffrey Epstein (The Psychology Explains Everything)"
-description: "A deep psychological analysis of how Jeffrey Epstein trapped billionaires, scientists, and politicians. The shame dynamics, type vulnerabilities, and escalation traps that made his network possible."
+meta_title: 'Why Smart People Fell for Jeffrey Epstein (The Psychology Explains Everything)'
+description: 'A deep psychological analysis of how Jeffrey Epstein trapped billionaires, scientists, and politicians. The shame dynamics, type vulnerabilities, and escalation traps that made his network possible.'
 author: 'DJ Wayne'
 date: '2026-02-02'
 loc: 'https://9takes.com/personality-analysis/Jeffrey-Epstein-Psychology-Of-The-Web'

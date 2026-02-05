@@ -7,6 +7,7 @@
 	import { browser } from '$app/environment';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
+	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
 
 	let email = '';
 	let password = '';
@@ -38,12 +39,14 @@
 	function handleSubmit() {
 		loading = true;
 		return async ({ result }: { result: { type: string; data?: { error?: string } } }) => {
-			loading = false;
 			if (result.type === 'success') {
 				notifications.success('Registration successful! Please check your email.', 6000);
-				goto('/login');
-				invalidateAll();
+				// Keep loading=true during navigation
+				await goto('/login');
+				await invalidateAll();
+				// loading stays true since we're navigating away
 			} else if (result.type === 'failure') {
+				loading = false;
 				notifications.danger(result.data?.error || 'An error occurred', 3000);
 				// Reset reCAPTCHA so user can try again
 				resetRecaptcha();
@@ -104,13 +107,17 @@
 		<!-- Google reCAPTCHA -->
 		<div class="g-recaptcha" data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY} data-theme="dark"></div>
 
-		<button type="submit" class="submit-btn" disabled={loading}>
-			{#if loading}
-				<span class="loader"></span>
-			{:else}
-				Register
-			{/if}
-		</button>
+		<LoadingButton
+			type="submit"
+			variant="primary"
+			size="lg"
+			fullWidth
+			{loading}
+			loadingText="Creating account..."
+			className="mt-2"
+		>
+			Register
+		</LoadingButton>
 	</form>
 	<div class="forgot-link" in:fly={{ y: 20, duration: 300, delay: 450 }}>
 		<a href="/forgotPassword">Forgot Password?</a>
@@ -193,51 +200,6 @@
 		}
 	}
 
-	.submit-btn {
-		width: 100%;
-		padding: 0.75rem 1.25rem;
-		background: linear-gradient(135deg, #7c3aed, #6d28d9);
-		border: none;
-		border-radius: 8px;
-		color: white;
-		font-size: 1rem;
-		font-weight: 600;
-		cursor: pointer;
-		transition: all 0.3s ease;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-		&:hover:not(:disabled) {
-			box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
-			transform: translateY(-2px);
-		}
-
-		&:active:not(:disabled) {
-			transform: translateY(0);
-		}
-
-		&:disabled {
-			opacity: 0.7;
-			cursor: not-allowed;
-		}
-	}
-
-	.loader {
-		width: 20px;
-		height: 20px;
-		border: 2px solid rgba(255, 255, 255, 0.3);
-		border-top-color: #ffffff;
-		border-radius: 50%;
-		animation: spin 1s linear infinite;
-	}
-
-	@keyframes spin {
-		to {
-			transform: rotate(360deg);
-		}
-	}
-
 	.forgot-link {
 		text-align: center;
 		margin-top: 1.5rem;
@@ -265,8 +227,7 @@
 			font-size: 1.5rem;
 		}
 
-		.form-input,
-		.submit-btn {
+		.form-input {
 			font-size: 0.9rem;
 		}
 	}

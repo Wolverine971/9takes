@@ -123,21 +123,23 @@
 
 {#key key}
 	{#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
-		{#each _comments as comment, index (comment.id)}
-			<div
-				class="transform p-1 transition-all duration-500 ease-out"
-				in:fade={{ duration: 400, delay: Math.min(index * 30, 150) }}
-			>
-				<Comment
-					{questionId}
-					{comment}
-					{user}
-					{parentData}
-					on:commentAdded={refreshComments}
-					on:commentUpdated={(e) => handleCommentUpdate(e.detail, index)}
-				/>
-			</div>
-		{/each}
+		<div class={parentType === 'comment' ? 'space-y-2' : 'space-y-3'}>
+			{#each _comments as comment, index (comment.id)}
+				<div
+					class={parentType === 'comment' ? '' : 'p-1'}
+					in:fade={{ duration: 300, delay: Math.min(index * 20, 100) }}
+				>
+					<Comment
+						{questionId}
+						{comment}
+						{user}
+						{parentData}
+						on:commentAdded={refreshComments}
+						on:commentUpdated={(e) => handleCommentUpdate(e.detail, index)}
+					/>
+				</div>
+			{/each}
+		</div>
 
 		<!-- Initial loading state -->
 		{#if initialLoading && _comments.length === 0}

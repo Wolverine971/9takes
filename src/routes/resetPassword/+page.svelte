@@ -4,12 +4,13 @@
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import type { ActionData } from './$types';
+	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
 
 	export let form: ActionData;
 
 	let password = '';
 	let confirmPassword = '';
-	let submitting = false;
+	let loading = false;
 	let passwordsMatch = true;
 	let showSuccessMessage = false;
 
@@ -18,7 +19,7 @@
 	// Handle password validation
 	$: passwordsMatch = !confirmPassword || password === confirmPassword;
 	$: isValidPassword = password.length >= 6;
-	$: canSubmit = password && confirmPassword && passwordsMatch && isValidPassword && !submitting;
+	$: canSubmit = password && confirmPassword && passwordsMatch && isValidPassword && !loading;
 
 	// Handle redirecting to login after successful password reset
 	$: if (form?.success && !showSuccessMessage) {
@@ -63,11 +64,13 @@
 			method="POST"
 			class="auth-form"
 			use:enhance={() => {
-				submitting = true;
+				loading = true;
 
 				return async ({ result }) => {
-					submitting = false;
-					// Form state is automatically updated
+					if (result.type === 'failure') {
+						loading = false;
+					}
+					// On success, keep loading while redirecting to login
 				};
 			}}
 		>

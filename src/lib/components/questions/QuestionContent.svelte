@@ -195,7 +195,7 @@
 								<div class="mb-4 flex items-center justify-between px-4">
 									<SortComments
 										data={_data}
-										on:commentsSorted={({ detail }) => sortCommentsHandler(detail)}
+										oncommentsSorted={sortCommentsHandler}
 										size={'medium'}
 									/>
 								</div>
@@ -213,22 +213,47 @@
 								/>
 							{/if}
 						{:else if section === 'Removed Comments'}
-							{#if _data?.removedComments?.length > 0}
-								<Comments
-									questionId={_data.question.id}
-									parentData={_data}
-									comment_count={_data.removed_comment_count}
-									comments={_data.removedComments}
-									parentType={'question'}
-									{user}
-								/>
+							{#if data?.flags?.userHasAnswered}
+								{#if _data?.removedComments?.length > 0}
+									<Comments
+										questionId={_data.question.id}
+										parentData={_data}
+										comment_count={_data.removed_comment_count}
+										comments={_data.removedComments}
+										parentType={'question'}
+										{user}
+									/>
+								{:else}
+									<div class="flex flex-col items-center justify-center py-16">
+										<div
+											class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-800/50"
+										>
+											<svg
+												class="h-7 w-7 text-slate-400"
+												fill="none"
+												stroke="currentColor"
+												viewBox="0 0 24 24"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+												/>
+											</svg>
+										</div>
+										<p class="text-center text-lg font-medium text-slate-400">
+											No removed comments
+										</p>
+									</div>
+								{/if}
 							{:else}
 								<div class="flex flex-col items-center justify-center py-16">
 									<div
-										class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-800/50"
+										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-900/30"
 									>
 										<svg
-											class="h-7 w-7 text-slate-400"
+											class="h-8 w-8 text-purple-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -237,11 +262,13 @@
 												stroke-linecap="round"
 												stroke-linejoin="round"
 												stroke-width="2"
-												d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+												d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
 											/>
 										</svg>
 									</div>
-									<p class="text-center text-lg font-medium text-slate-400">No removed comments</p>
+									<p class="text-center text-xl font-medium text-slate-100 sm:text-lg">
+										Share your perspective to unlock content
+									</p>
 								</div>
 							{/if}
 						{:else if section === 'Visuals'}
@@ -295,8 +322,7 @@
 								questionId={data.question.id}
 								data={_data}
 								parentType={'question'}
-								{user}
-								on:commentAdded={handleCommentAdded}
+								oncommentAdded={handleCommentAdded}
 							/>
 						{/if}
 					</div>

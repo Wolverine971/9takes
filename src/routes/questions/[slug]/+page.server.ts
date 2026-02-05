@@ -176,6 +176,34 @@ export const actions: Actions = {
 		}
 	},
 
+	sortComments: async ({ request, locals, cookies }) => {
+		const { body, demo_time } = await getRequestData(request);
+
+		const questionId = Number(body.questionId);
+		if (!Number.isFinite(questionId)) {
+			throw error(400, { message: 'Invalid questionId' });
+		}
+
+		const cookie = cookies.get('9tfingerprint');
+		const userHasAnswered = await checkUserAnswered(cookie, questionId, locals.session?.user?.id);
+		if (!userHasAnswered) {
+			throw error(403, { message: 'You must answer the question before sorting comments.' });
+		}
+
+		const sortByRaw = (body.sortBy as string) || 'newest';
+		const sortBy: 'newest' | 'oldest' | 'likes' =
+			sortByRaw === 'oldest' || sortByRaw === 'likes' ? sortByRaw : 'newest';
+
+		const enneagramTypesRaw = (body.enneagramTypes as string) || '';
+		const selectedTypes = parseEnneagramTypes(enneagramTypesRaw);
+
+		const comments = await getSortableComments(questionId, demo_time);
+		const filtered = filterCommentsByEnneagram(comments, selectedTypes);
+		const sorted = sortCommentsBy(filtered, sortBy);
+
+		return sorted;
+	},
+
 	saveLinkClick: async ({ request }) => {
 		const { linkId } = Object.fromEntries(await request.formData());
 		await incrementLinkClicks(linkId as string);
@@ -665,6 +693,90 @@ async function getComments(questionId: number, demo_time: boolean, removed: bool
 	return { data, count };
 }
 
+const DEFAULT_ENNEAGRAM_TYPES = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'unknown', 'rando'];
+
+function parseEnneagramTypes(raw: string): string[] {
+	const normalized = raw
+		.split(',')
+		.map((value) => value.trim())
+		.filter(Boolean);
+
+	if (!normalized.length) {
+		return [...DEFAULT_ENNEAGRAM_TYPES];
+	}
+
+	const allowed = new Set(DEFAULT_ENNEAGRAM_TYPES);
+	const filtered = normalized.filter((value) => allowed.has(value));
+	return filtered.length ? filtered : [...DEFAULT_ENNEAGRAM_TYPES];
+}
+
+async function getSortableComments(questionId: number, demo_time: boolean) {
+	const table = demo_time ? 'comments_demo' : 'comments';
+	const profiles = demo_time ? 'profiles_demo' : 'profiles';
+	const commentLike = demo_time ? 'comment_like_demo' : 'comment_like';
+
+	const { data, error: commentsError } = await supabase
+		.from(table)
+		.select(`*, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`)
+		.eq('parent_id', questionId)
+		.eq('parent_type', 'question')
+		.eq('removed', false);
+
+	if (commentsError) {
+		console.error('Failed to fetch comments for sorting', commentsError);
+		throw error(500, { message: 'Failed to load comments for sorting' });
+	}
+
+	const comments = data ?? [];
+	return demo_time ? comments.map(mapDemoComment) : comments;
+}
+
+function getCommentTypeKey(comment: any): string {
+	if (!comment?.author_id) {
+		return 'rando';
+	}
+
+	const enneagram = comment?.profiles?.enneagram?.toString();
+	if (!enneagram) {
+		return 'unknown';
+	}
+
+	return enneagram;
+}
+
+function filterCommentsByEnneagram(comments: any[], selectedTypes: string[]) {
+	if (!selectedTypes.length) {
+		return comments;
+	}
+
+	const selected = new Set(selectedTypes);
+	return comments.filter((comment) => selected.has(getCommentTypeKey(comment)));
+}
+
+function sortCommentsBy(comments: any[], sortBy: 'newest' | 'oldest' | 'likes') {
+	const getTime = (comment: any) =>
+		comment?.created_at ? new Date(comment.created_at).getTime() : 0;
+	const getLikes = (comment: any) => comment?.like_count ?? 0;
+
+	const sorted = [...comments];
+
+	if (sortBy === 'oldest') {
+		sorted.sort((a, b) => getTime(a) - getTime(b));
+		return sorted;
+	}
+
+	if (sortBy === 'likes') {
+		sorted.sort((a, b) => {
+			const likeDiff = getLikes(b) - getLikes(a);
+			return likeDiff !== 0 ? likeDiff : getTime(b) - getTime(a);
+		});
+		return sorted;
+	}
+
+	sorted.sort((a, b) => getTime(b) - getTime(a));
+	return sorted;
+}
+
 async function getQuestionLinks(questionId: number) {
 	const { data, count, error } = await supabase
 		.from('links')
@@ -770,7 +882,6 @@ function createFullResponse(
 	return {
 		...baseResponse,
 		removedComments: removedComments?.map(mapDemoComment),
-		ai_comments: aiComments,
 		links,
 		links_count: linksCount
 	};

@@ -1,35 +1,27 @@
 <!-- src/lib/components/molecules/Links.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
-	import { createEventDispatcher, onMount } from 'svelte';
 	import Link from './Link.svelte';
 
-	const dispatch = createEventDispatcher();
-
-	export let parentType: 'comment' | 'question' = 'comment';
-	export let data: any;
-	export let user: any;
-	export let questionId: number;
-
-	let loading = false;
-	let links: any[] = [];
-	let linksCount = 0;
-
-	$: if (data) {
-		updateLinksData();
+	interface Props {
+		parentType?: 'comment' | 'question';
+		data: any;
+		questionId: number;
+		oncommentAdded?: () => void;
 	}
 
-	onMount(() => {
-		updateLinksData();
+	let { parentType = 'comment', data, questionId, oncommentAdded }: Props = $props();
+
+	let loading = $state(false);
+	let links = $state<any[]>([]);
+	let linksCount = $state(0);
+
+	$effect(() => {
+		if (data) {
+			links = data.links?.length ? [...data.links] : [];
+			linksCount = data.links_count || 0;
+		}
 	});
-
-	function updateLinksData() {
-		links = data.links?.length ? [...data.links] : [];
-		linksCount = data.links_count || 0;
-	}
-
-	// Reactive to update when data.comments changes
-	$: lastDate = data.comments?.length ? data.comments[data.comments.length - 1]?.created_at : null;
 
 	async function loadMore() {
 		if (loading) return;
@@ -37,18 +29,16 @@
 
 		try {
 			const response = await fetch(
-				`/comments?type=${parentType}&parentId=${getParentId()}&lastDate=${lastDate}&range=${
-					links.length
-				}`
+				`/links?type=${parentType}&parentId=${getParentId()}&range=${links.length}`
 			);
-			const commentData = await response.json();
+			const linkData = await response.json();
 
-			if (!commentData?.message) {
-				links = [...links, ...commentData];
-				linksCount += commentData.length;
+			if (!linkData?.message) {
+				links = [...links, ...linkData];
+				linksCount += linkData.length;
 			}
 		} catch (error) {
-			console.error('Error loading more comments:', error);
+			console.error('Error loading more links:', error);
 		} finally {
 			loading = false;
 		}
@@ -57,18 +47,16 @@
 	async function refreshLinks() {
 		if (parentType !== 'question') return;
 
-		dispatch('commentAdded');
+		oncommentAdded?.();
 		loading = true;
 
 		try {
-			const response = await fetch(
-				`/comments?type=${parentType}&parentId=${getParentId()}&lastDate=${lastDate}`
-			);
-			const commentData = await response.json();
+			const response = await fetch(`/links?type=${parentType}&parentId=${getParentId()}&range=0`);
+			const linkData = await response.json();
 
-			if (!commentData?.message) {
-				links = commentData;
-				linksCount = commentData.length;
+			if (!linkData?.message) {
+				links = linkData;
+				linksCount = linkData.length;
 			}
 		} catch (error) {
 			console.error('Error refreshing links:', error);
@@ -86,7 +74,7 @@
 	<div class="flex flex-col gap-2">
 		{#each links as link (link.id)}
 			{#if link}
-				<Link {questionId} {link} {user} {data} on:commentAdded={refreshLinks} />
+				<Link {link} />
 			{/if}
 		{/each}
 	</div>
@@ -94,7 +82,7 @@
 	{#if links.length < linksCount}
 		<button
 			class="mt-4 flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-5 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-60"
-			on:click={loadMore}
+			onclick={loadMore}
 			disabled={loading}
 		>
 			{#if loading}

@@ -13,15 +13,17 @@
 	function handleSubmit() {
 		loading = true;
 		return async ({ result }) => {
-			loading = false;
 			if (result.type === 'failure') {
+				loading = false;
 				notifications.danger(result.data?.error || 'An error occurred', 3000);
 			} else if (result.type === 'success') {
-				// rerun all `load` functions, following the successful update
+				// Keep loading=true during navigation - rerun all `load` functions
 				await invalidateAll();
 			}
 
-			applyAction(result);
+			await applyAction(result);
+			// Only reset loading if we're still on this page (e.g., no redirect happened)
+			loading = false;
 		};
 	}
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
@@ -151,39 +153,6 @@
 			outline: none;
 			border-color: #7c3aed;
 			box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
-		}
-	}
-
-	.btn {
-		&.btn-primary {
-			&:active {
-				transform: translateY(1px);
-			}
-
-			&:disabled {
-				opacity: 0.7;
-				cursor: not-allowed;
-			}
-		}
-	}
-
-	.loader {
-		width: 20px;
-		height: 20px;
-		border: 2px solid rgba(255, 255, 255, 0.3);
-		border-top-color: #ffffff;
-		border-radius: 50%;
-		display: inline-block;
-		box-sizing: border-box;
-		animation: rotation 1s linear infinite;
-	}
-
-	@keyframes rotation {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
 		}
 	}
 

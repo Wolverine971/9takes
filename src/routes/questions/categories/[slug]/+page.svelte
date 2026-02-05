@@ -144,18 +144,18 @@
 
 	<div class="max-w-2xl p-2">
 		<h1
-			class="m-1 w-full rounded-lg text-left text-xl font-semibold text-neutral-900"
+			class="m-1 w-full rounded-lg text-left text-xl font-semibold text-slate-100"
 			id="question-box"
 			itemprop="name"
 		>
 			{data?.questionTag?.category_name}
 		</h1>
 		{#each hierarchicalData as category (category.id)}
-			<div class="mb-1 rounded-lg border border-gray-200 p-2 shadow-sm">
-				<h2 class="!my-1 flex items-center !py-0 text-lg font-medium text-gray-900">
+			<div class="mb-1 rounded-lg border border-slate-700 bg-[#1a1a2e] p-2 shadow-sm">
+				<h2 class="!my-1 flex items-center !py-0 text-lg font-medium text-slate-100">
 					<A
 						href={formatUrl(category.category_name)}
-						class="flex items-center text-gray-900 hover:text-primary-600"
+						class="flex items-center text-slate-100 hover:text-purple-400"
 					>
 						<!-- {category.children.length ? <ChevronDownOutline class="mr-2 h-4 w-4" /> : <ChevronRightOutline class="mr-2 h-4 w-4" />} -->
 						{category.category_name}
@@ -164,10 +164,10 @@
 				{#if category.children.length}
 					<div class="ml-4 grid gap-2 sm:grid-cols-2 md:grid-cols-3">
 						{#each category.children as subCategory (subCategory.id)}
-							<div class="rounded-md bg-gray-50 p-2">
+							<div class="rounded-md bg-[#252538] p-2">
 								<A
 									href={formatUrl(subCategory.category_name)}
-									class="font-medium text-gray-700 hover:text-primary-600"
+									class="font-medium text-slate-200 hover:text-purple-400"
 								>
 									{subCategory.category_name}
 								</A>
@@ -177,7 +177,7 @@
 											<li>
 												<A
 													href={formatUrl(subSubCategory.category_name)}
-													class="text-gray-600 hover:text-primary-600"
+													class="text-slate-400 hover:text-purple-400"
 												>
 													{subSubCategory.category_name}
 												</A>

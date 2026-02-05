@@ -33,7 +33,6 @@
 		comments: [...optimisticComments, ...(data.comments || [])],
 		comment_count: (data.comment_count || 0) + optimisticComments.length,
 		aiComments: data.aiComments,
-		ai_comments: data.aiComments,
 		links: data.links,
 		links_count: data.links_count ?? 0,
 		flags: {
@@ -50,7 +49,6 @@
 	const QR_OPTS = {
 		errorCorrectionLevel: 'H' as const,
 		type: 'image/png' as const,
-		quality: 0.7,
 		margin: 1,
 		color: {
 			dark: '',

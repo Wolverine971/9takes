@@ -19,18 +19,18 @@
 
 	// Navigation functions
 	function moveLeft() {
-		if (transitioning || !data?.ai_comments?.length) return;
+		if (transitioning || !data?.aiComments?.length) return;
 		direction = 'left';
 		transitioning = true;
-		active = active === 0 ? data.ai_comments.length - 1 : active - 1;
+		active = active === 0 ? data.aiComments.length - 1 : active - 1;
 		setTimeout(() => (transitioning = false), 300);
 	}
 
 	function moveRight() {
-		if (transitioning || !data?.ai_comments?.length) return;
+		if (transitioning || !data?.aiComments?.length) return;
 		direction = 'right';
 		transitioning = true;
-		active = (active + 1) % data.ai_comments.length;
+		active = (active + 1) % data.aiComments.length;
 		setTimeout(() => (transitioning = false), 300);
 	}
 
@@ -39,7 +39,7 @@
 	});
 </script>
 
-{#if browser && data?.ai_comments?.length && parentType === 'question' && data?.flags?.userHasAnswered && showAiComments}
+{#if browser && data?.aiComments?.length && parentType === 'question' && data?.flags?.userHasAnswered && showAiComments}
 	<section class="mb-4 p-1" aria-label="Enneagram personality type perspectives">
 		<h3 class="m-2 text-center text-sm font-medium text-slate-400">
 			Enneagram Takes (stereotypes)
@@ -67,7 +67,7 @@
 					class="flex transition-transform duration-300 ease-out"
 					style="transform: translateX(-{active * 100}%)"
 				>
-					{#each data.ai_comments as comment, index}
+					{#each data.aiComments as comment, index}
 						<div
 							class="box-border w-full flex-none px-2 py-2 transition-opacity duration-300 {index ===
 							active
@@ -109,7 +109,7 @@
 		</div>
 
 		<div class="mt-1.5 flex justify-center gap-1.5" role="tablist">
-			{#each data.ai_comments as comment, index}
+			{#each data.aiComments as comment, index}
 				<button
 					class="h-1.5 w-1.5 cursor-pointer rounded-full border-none p-0 transition-all duration-200 {active ===
 					index

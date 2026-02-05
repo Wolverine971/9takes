@@ -5,25 +5,19 @@
 	import { deserialize } from '$app/forms';
 	import SlidersIcon from '$lib/components/icons/slidersIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import { createEventDispatcher } from 'svelte';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import type { Comment as CommentType, QuestionPageData } from '$lib/types/questions';
 
-	const dispatch = createEventDispatcher<{
-		commentsSorted: CommentType[];
-	}>();
+	interface Props {
+		data: QuestionPageData;
+		size?: 'large' | 'medium' | 'small';
+		oncommentsSorted?: (comments: CommentType[]) => void;
+	}
 
-	// Component props
-	export let data: QuestionPageData;
-	export let size: 'large' | 'medium' | 'small' = 'large';
-
-	import { viewportWidth } from '$lib/stores/viewport';
+	let { data, size = 'large', oncommentsSorted }: Props = $props();
 
 	// State variables
-	let sortLoading: boolean = false;
-
-	// Use shared viewport store
-	$: innerWidth = $viewportWidth;
+	let sortLoading = $state(false);
 
 	type EnneagramTypeOption =
 		| '1'
@@ -95,8 +89,11 @@
 		'unknown',
 		'rando'
 	];
-	let selected: EnneagramTypeOption[] = [...typeOptions];
-	let sortBy: SortOrder = 'newest';
+	let selected = $state<EnneagramTypeOption[]>([...typeOptions]);
+	let sortBy = $state<SortOrder>('newest');
+
+	// Derived state for filter status
+	let hasActiveFilters = $derived(selected.length !== typeOptions.length || sortBy !== 'newest');
 
 	// Apply sorting and filtering
 	const applyFilters = async () => {
@@ -107,10 +104,10 @@
 		try {
 			const body = new FormData();
 			body.append('enneagramTypes', selected.join(','));
-			body.append('questionId', data.id);
+			body.append('questionId', data.question.id.toString());
 			body.append('sortBy', sortBy);
 
-			const resp = await fetch('/questions?/sortComments', {
+			const resp = await fetch('?/sortComments', {
 				method: 'POST',
 				body
 			});
@@ -121,7 +118,7 @@
 				console.error('Error applying filters:', result.error);
 				notifications.danger('Error applying filters', 3000);
 			} else if (result.data) {
-				dispatch('commentsSorted', result?.data);
+				oncommentsSorted?.(result?.data);
 				getModal('sorter').close();
 				notifications.info('Comments filtered and sorted', 2000);
 			}
@@ -152,7 +149,7 @@
 	}
 
 	// Toggle a single type
-	function toggleType(type: string) {
+	function toggleType(type: EnneagramTypeOption) {
 		if (selected.includes(type)) {
 			selected = selected.filter((t) => t !== type);
 		} else {
@@ -166,7 +163,7 @@
 	<button
 		type="button"
 		class="filter-btn filter-btn--large group"
-		on:click={() => getModal('sorter').open()}
+		onclick={() => getModal('sorter').open()}
 		in:fade={{ duration: 200 }}
 		aria-label="Filter and sort comments"
 		title="Filter and sort comments"
@@ -175,7 +172,7 @@
 			<SlidersIcon className="h-4 w-4" />
 		</span>
 		<span class="filter-btn__text">Filter</span>
-		{#if selected.length !== typeOptions.length || sortBy !== 'newest'}
+		{#if hasActiveFilters}
 			<span class="filter-btn__badge" in:scale={{ duration: 150, easing: cubicOut }}>
 				{#if selected.length !== typeOptions.length}
 					{selected.length}
@@ -196,12 +193,13 @@
 	<button
 		type="button"
 		class="filter-btn filter-btn--compact"
-		on:click={() => getModal('sorter').open()}
+		onclick={() => getModal('sorter').open()}
 		aria-label="Filter and sort comments"
 		title="Filter and sort comments"
 	>
 		<SlidersIcon className="h-4 w-4" />
-		{#if selected.length !== typeOptions.length || sortBy !== 'newest'}
+		<span class="filter-btn__label">Filter</span>
+		{#if hasActiveFilters}
 			<span class="filter-btn__dot" in:scale={{ duration: 150, easing: cubicOut }}></span>
 		{/if}
 	</button>
@@ -221,7 +219,7 @@
 			<button
 				type="button"
 				class="filter-modal__close"
-				on:click={() => getModal('sorter').close()}
+				onclick={() => getModal('sorter').close()}
 				aria-label="Close"
 			>
 				<svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -240,9 +238,9 @@
 			<div class="filter-section__header">
 				<h3 class="filter-section__title">Personality Types</h3>
 				<div class="filter-section__actions">
-					<button type="button" class="text-btn" on:click={selectAll}>All</button>
-					<span class="text-neutral-300">|</span>
-					<button type="button" class="text-btn" on:click={clearAll}>None</button>
+					<button type="button" class="text-btn" onclick={selectAll}>All</button>
+					<span class="divider">|</span>
+					<button type="button" class="text-btn" onclick={clearAll}>None</button>
 				</div>
 			</div>
 
@@ -254,13 +252,21 @@
 						class="type-chip"
 						class:type-chip--selected={isSelected}
 						style="--type-color: {typeColors[type]}"
-						on:click={() => toggleType(type)}
+						onclick={() => toggleType(type)}
 						title={typeNames[type]}
 					>
 						<span class="type-chip__number">{typeLabels[type]}</span>
 						{#if isSelected}
-							<span class="type-chip__indicator" in:scale={{ duration: 150, easing: cubicOut }}
-							></span>
+							<span class="type-chip__check">
+								<svg class="h-2.5 w-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="3"
+										d="M5 13l4 4L19 7"
+									/>
+								</svg>
+							</span>
 						{/if}
 					</button>
 				{/each}
@@ -281,7 +287,7 @@
 					type="button"
 					class="sort-option"
 					class:sort-option--selected={sortBy === 'newest'}
-					on:click={() => (sortBy = 'newest')}
+					onclick={() => (sortBy = 'newest')}
 				>
 					<span class="sort-option__icon">
 						<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -299,7 +305,7 @@
 					type="button"
 					class="sort-option"
 					class:sort-option--selected={sortBy === 'oldest'}
-					on:click={() => (sortBy = 'oldest')}
+					onclick={() => (sortBy = 'oldest')}
 				>
 					<span class="sort-option__icon">
 						<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -317,7 +323,7 @@
 					type="button"
 					class="sort-option"
 					class:sort-option--selected={sortBy === 'likes'}
-					on:click={() => (sortBy = 'likes')}
+					onclick={() => (sortBy = 'likes')}
 				>
 					<span class="sort-option__icon">
 						<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -339,14 +345,14 @@
 			<button
 				type="button"
 				class="action-btn action-btn--secondary"
-				on:click={() => getModal('sorter').close()}
+				onclick={() => getModal('sorter').close()}
 			>
 				Cancel
 			</button>
 			<button
 				type="button"
 				class="action-btn action-btn--primary"
-				on:click={applyFilters}
+				onclick={applyFilters}
 				disabled={sortLoading || !data?.flags?.userHasAnswered}
 			>
 				{#if sortLoading}
@@ -372,84 +378,92 @@
 </Modal2>
 
 <style lang="scss">
-	/* Filter Button Styles */
+	/* Filter Button Styles - Dark Purple Theme */
 	.filter-btn {
 		display: inline-flex;
 		align-items: center;
 		gap: 0.5rem;
 		cursor: pointer;
-		border: 1px solid #e5e7eb;
-		background: white;
-		border-radius: 0.5rem;
+		border: 1px solid rgba(139, 92, 246, 0.3);
+		background: rgba(139, 92, 246, 0.1);
+		border-radius: 0.625rem;
 		font-weight: 500;
 		transition: all 0.2s ease;
 		position: relative;
+		color: #c4b5fd;
 
 		&:hover {
-			border-color: #d1d5db;
-			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+			background: rgba(139, 92, 246, 0.2);
+			border-color: rgba(139, 92, 246, 0.5);
+			box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--primary-500, #6366f1);
+			outline: 2px solid #a78bfa;
 			outline-offset: 2px;
 		}
 	}
 
 	.filter-btn--large {
-		padding: 0.5rem 1rem;
+		padding: 0.625rem 1.125rem;
 		font-size: 0.875rem;
 	}
 
 	.filter-btn--compact {
-		padding: 0.5rem;
-		position: relative;
+		padding: 0.5rem 0.875rem;
+		font-size: 0.8125rem;
+		gap: 0.375rem;
 	}
 
 	.filter-btn__icon {
 		display: flex;
-		color: var(--primary-500, #6366f1);
+		color: #a78bfa;
 	}
 
-	.filter-btn__text {
-		color: #374151;
+	.filter-btn__text,
+	.filter-btn__label {
+		color: #e9d5ff;
+		font-weight: 500;
 	}
 
 	.filter-btn__badge {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		min-width: 1.25rem;
-		height: 1.25rem;
+		min-width: 1.375rem;
+		height: 1.375rem;
 		padding: 0 0.375rem;
-		background: var(--primary-500, #6366f1);
+		background: linear-gradient(135deg, #a78bfa, #7c3aed);
 		color: white;
 		font-size: 0.75rem;
 		font-weight: 600;
 		border-radius: 9999px;
+		box-shadow: 0 2px 8px rgba(167, 139, 250, 0.4);
 	}
 
 	.filter-btn__dot {
 		position: absolute;
-		top: 0.25rem;
-		right: 0.25rem;
-		width: 0.5rem;
-		height: 0.5rem;
-		background: var(--primary-500, #6366f1);
+		top: -0.125rem;
+		right: -0.125rem;
+		width: 0.625rem;
+		height: 0.625rem;
+		background: linear-gradient(135deg, #a78bfa, #7c3aed);
 		border-radius: 9999px;
-		border: 2px solid white;
+		border: 2px solid #1a1a2e;
+		box-shadow: 0 0 8px rgba(167, 139, 250, 0.5);
 	}
 
-	/* Modal Styles */
+	/* Modal Styles - Dark Purple Theme */
 	.filter-modal {
 		width: 100%;
 		min-width: min(360px, 90vw);
 		max-width: 420px;
-		background: white;
+		background: #12121a;
 		border-radius: 1rem;
+		border: 1px solid rgba(139, 92, 246, 0.2);
 		box-shadow:
-			0 20px 25px -5px rgba(0, 0, 0, 0.1),
-			0 8px 10px -6px rgba(0, 0, 0, 0.1);
+			0 25px 50px -12px rgba(0, 0, 0, 0.5),
+			0 0 40px rgba(139, 92, 246, 0.1);
 		overflow: hidden;
 	}
 
@@ -457,51 +471,53 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 1rem 1.25rem;
-		border-bottom: 1px solid #f3f4f6;
-		background: linear-gradient(to bottom, #fafafa, white);
+		padding: 1.125rem 1.25rem;
+		border-bottom: 1px solid rgba(139, 92, 246, 0.15);
+		background: linear-gradient(to bottom, #1a1a2e, #12121a);
 	}
 
 	.filter-modal__title-group {
 		display: flex;
 		align-items: center;
-		gap: 0.625rem;
+		gap: 0.75rem;
 	}
 
 	.filter-modal__icon {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2rem;
-		height: 2rem;
-		background: linear-gradient(135deg, var(--primary-500, #6366f1), var(--primary-600, #4f46e5));
+		width: 2.25rem;
+		height: 2.25rem;
+		background: linear-gradient(135deg, #7c3aed, #6d28d9);
 		color: white;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
+		box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
 	}
 
 	.filter-modal__title {
 		margin: 0;
 		font-size: 1.125rem;
 		font-weight: 600;
-		color: #111827;
+		color: #f5f3ff;
+		letter-spacing: -0.01em;
 	}
 
 	.filter-modal__close {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2rem;
-		height: 2rem;
+		width: 2.25rem;
+		height: 2.25rem;
 		background: transparent;
 		border: none;
 		border-radius: 0.5rem;
-		color: #9ca3af;
+		color: #6b7280;
 		cursor: pointer;
 		transition: all 0.15s ease;
 
 		&:hover {
-			background: #f3f4f6;
-			color: #6b7280;
+			background: rgba(139, 92, 246, 0.15);
+			color: #a78bfa;
 		}
 	}
 
@@ -510,7 +526,7 @@
 		padding: 1.25rem;
 
 		& + & {
-			padding-top: 0;
+			padding-top: 0.5rem;
 		}
 	}
 
@@ -518,16 +534,16 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		margin-bottom: 0.875rem;
+		margin-bottom: 1rem;
 	}
 
 	.filter-section__title {
 		margin: 0;
-		font-size: 0.8125rem;
+		font-size: 0.75rem;
 		font-weight: 600;
-		color: #6b7280;
+		color: #a78bfa;
 		text-transform: uppercase;
-		letter-spacing: 0.025em;
+		letter-spacing: 0.05em;
 	}
 
 	.filter-section__actions {
@@ -536,19 +552,24 @@
 		gap: 0.5rem;
 	}
 
+	.divider {
+		color: #4b5563;
+	}
+
 	.text-btn {
 		background: none;
 		border: none;
-		padding: 0.25rem 0.5rem;
+		padding: 0.25rem 0.625rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--primary-500, #6366f1);
+		color: #c4b5fd;
 		cursor: pointer;
-		border-radius: 0.25rem;
-		transition: background 0.15s ease;
+		border-radius: 0.375rem;
+		transition: all 0.15s ease;
 
 		&:hover {
-			background: #f3f4f6;
+			background: rgba(139, 92, 246, 0.15);
+			color: #e9d5ff;
 		}
 	}
 
@@ -556,10 +577,15 @@
 	.type-grid {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
-		gap: 0.5rem;
+		gap: 0.625rem;
 
-		@media (max-width: 400px) {
+		@media (max-width: 420px) {
 			grid-template-columns: repeat(4, 1fr);
+			gap: 0.5rem;
+		}
+
+		@media (max-width: 320px) {
+			grid-template-columns: repeat(3, 1fr);
 		}
 	}
 
@@ -569,15 +595,16 @@
 		align-items: center;
 		justify-content: center;
 		aspect-ratio: 1;
-		background: #f9fafb;
-		border: 2px solid #e5e7eb;
-		border-radius: 0.625rem;
+		background: #1a1a2e;
+		border: 2px solid #2d2d44;
+		border-radius: 0.75rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 
 		&:hover {
 			border-color: var(--type-color);
-			background: color-mix(in srgb, var(--type-color) 8%, white);
+			background: color-mix(in srgb, var(--type-color) 12%, #1a1a2e);
+			transform: scale(1.05);
 		}
 
 		&:focus-visible {
@@ -589,28 +616,35 @@
 	.type-chip--selected {
 		background: var(--type-color);
 		border-color: var(--type-color);
-		box-shadow: 0 2px 8px color-mix(in srgb, var(--type-color) 40%, transparent);
+		box-shadow:
+			0 4px 12px color-mix(in srgb, var(--type-color) 50%, transparent),
+			inset 0 1px 0 rgba(255, 255, 255, 0.2);
 
 		.type-chip__number {
 			color: white;
-			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 		}
 	}
 
 	.type-chip__number {
-		font-size: 1rem;
+		font-size: 1.125rem;
 		font-weight: 700;
-		color: #374151;
+		color: #9ca3af;
 		transition: color 0.2s ease;
 	}
 
-	.type-chip__indicator {
+	.type-chip__check {
 		position: absolute;
-		inset: 0;
-		border-radius: 0.5rem;
-		border: 2px solid white;
-		opacity: 0.5;
-		pointer-events: none;
+		top: 0.125rem;
+		right: 0.125rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 1rem;
+		height: 1rem;
+		background: rgba(255, 255, 255, 0.25);
+		border-radius: 50%;
+		color: white;
 	}
 
 	/* Type Count */
@@ -618,23 +652,27 @@
 		display: flex;
 		align-items: center;
 		gap: 0.375rem;
-		margin-top: 0.75rem;
+		margin-top: 1rem;
 		font-size: 0.8125rem;
 	}
 
 	.type-count__number {
-		font-weight: 600;
-		color: var(--primary-500, #6366f1);
+		font-weight: 700;
+		color: #a78bfa;
 	}
 
 	.type-count__text {
-		color: #9ca3af;
+		color: #6b7280;
 	}
 
 	/* Sort Options */
 	.sort-options {
 		display: flex;
-		gap: 0.5rem;
+		gap: 0.625rem;
+
+		@media (max-width: 380px) {
+			flex-direction: column;
+		}
 	}
 
 	.sort-option {
@@ -642,45 +680,56 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 0.375rem;
-		padding: 0.75rem 0.5rem;
-		background: #f9fafb;
-		border: 2px solid #e5e7eb;
-		border-radius: 0.625rem;
+		gap: 0.5rem;
+		padding: 0.875rem 0.625rem;
+		background: #1a1a2e;
+		border: 2px solid #2d2d44;
+		border-radius: 0.75rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 
+		@media (max-width: 380px) {
+			flex-direction: row;
+			justify-content: center;
+			padding: 0.75rem 1rem;
+		}
+
 		&:hover {
-			border-color: #d1d5db;
-			background: #f3f4f6;
+			border-color: rgba(139, 92, 246, 0.4);
+			background: rgba(139, 92, 246, 0.08);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--primary-500, #6366f1);
+			outline: 2px solid #a78bfa;
 			outline-offset: 2px;
 		}
 	}
 
 	.sort-option--selected {
-		background: linear-gradient(135deg, var(--primary-500, #6366f1), var(--primary-600, #4f46e5));
-		border-color: var(--primary-500, #6366f1);
-		box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+		background: linear-gradient(135deg, rgba(124, 58, 237, 0.25), rgba(109, 40, 217, 0.2));
+		border-color: #7c3aed;
+		box-shadow:
+			0 0 20px rgba(124, 58, 237, 0.2),
+			inset 0 1px 0 rgba(255, 255, 255, 0.05);
 
-		.sort-option__icon,
+		.sort-option__icon {
+			color: #a78bfa;
+		}
+
 		.sort-option__label {
-			color: white;
+			color: #e9d5ff;
 		}
 	}
 
 	.sort-option__icon {
-		color: #9ca3af;
+		color: #6b7280;
 		transition: color 0.2s ease;
 	}
 
 	.sort-option__label {
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: #374151;
+		color: #9ca3af;
 		transition: color 0.2s ease;
 	}
 
@@ -689,8 +738,8 @@
 		display: flex;
 		gap: 0.75rem;
 		padding: 1rem 1.25rem;
-		border-top: 1px solid #f3f4f6;
-		background: #fafafa;
+		border-top: 1px solid rgba(139, 92, 246, 0.15);
+		background: rgba(26, 26, 46, 0.8);
 	}
 
 	.action-btn {
@@ -699,39 +748,44 @@
 		align-items: center;
 		justify-content: center;
 		gap: 0.5rem;
-		padding: 0.75rem 1rem;
+		padding: 0.875rem 1rem;
 		font-size: 0.875rem;
 		font-weight: 600;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 
 		&:disabled {
-			opacity: 0.5;
+			opacity: 0.4;
 			cursor: not-allowed;
 		}
 	}
 
 	.action-btn--secondary {
-		background: white;
-		border: 1px solid #d1d5db;
-		color: #4b5563;
+		background: transparent;
+		border: 1px solid #3d3d5c;
+		color: #9ca3af;
 
 		&:hover:not(:disabled) {
-			background: #f9fafb;
-			border-color: #9ca3af;
+			background: rgba(139, 92, 246, 0.08);
+			border-color: rgba(139, 92, 246, 0.3);
+			color: #c4b5fd;
 		}
 	}
 
 	.action-btn--primary {
-		background: linear-gradient(135deg, var(--primary-500, #6366f1), var(--primary-600, #4f46e5));
+		background: linear-gradient(135deg, #7c3aed, #6d28d9);
 		border: none;
 		color: white;
-		box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+		box-shadow:
+			0 4px 14px rgba(124, 58, 237, 0.4),
+			inset 0 1px 0 rgba(255, 255, 255, 0.15);
 
 		&:hover:not(:disabled) {
-			transform: translateY(-1px);
-			box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+			transform: translateY(-2px);
+			box-shadow:
+				0 6px 20px rgba(124, 58, 237, 0.5),
+				inset 0 1px 0 rgba(255, 255, 255, 0.15);
 		}
 
 		&:active:not(:disabled) {
@@ -757,107 +811,11 @@
 	/* Hint */
 	.filter-modal__hint {
 		margin: 0;
-		padding: 0.75rem 1.25rem;
-		background: #fef3c7;
-		color: #92400e;
+		padding: 0.875rem 1.25rem;
+		background: rgba(251, 191, 36, 0.1);
+		border-top: 1px solid rgba(251, 191, 36, 0.2);
+		color: #fbbf24;
 		font-size: 0.8125rem;
 		text-align: center;
-	}
-
-	/* Dark mode support */
-	:global(.dark) {
-		.filter-btn {
-			background: #1f2937;
-			border-color: #374151;
-			color: #e5e7eb;
-
-			&:hover {
-				border-color: #4b5563;
-			}
-		}
-
-		.filter-btn__text {
-			color: #e5e7eb;
-		}
-
-		.filter-btn__dot {
-			border-color: #1f2937;
-		}
-
-		.filter-modal {
-			background: #1f2937;
-		}
-
-		.filter-modal__header {
-			border-color: #374151;
-			background: linear-gradient(to bottom, #111827, #1f2937);
-		}
-
-		.filter-modal__title {
-			color: #f3f4f6;
-		}
-
-		.filter-modal__close {
-			color: #6b7280;
-
-			&:hover {
-				background: #374151;
-				color: #9ca3af;
-			}
-		}
-
-		.filter-section__title {
-			color: #9ca3af;
-		}
-
-		.type-chip {
-			background: #374151;
-			border-color: #4b5563;
-
-			&:hover {
-				background: color-mix(in srgb, var(--type-color) 15%, #374151);
-			}
-		}
-
-		.type-chip__number {
-			color: #e5e7eb;
-		}
-
-		.type-count__text {
-			color: #6b7280;
-		}
-
-		.sort-option {
-			background: #374151;
-			border-color: #4b5563;
-
-			&:hover {
-				background: #4b5563;
-			}
-		}
-
-		.sort-option__label {
-			color: #e5e7eb;
-		}
-
-		.filter-modal__footer {
-			border-color: #374151;
-			background: #111827;
-		}
-
-		.action-btn--secondary {
-			background: #374151;
-			border-color: #4b5563;
-			color: #e5e7eb;
-
-			&:hover:not(:disabled) {
-				background: #4b5563;
-			}
-		}
-
-		.filter-modal__hint {
-			background: #78350f;
-			color: #fef3c7;
-		}
 	}
 </style>

@@ -21,7 +21,6 @@
 	const QR_OPTS = {
 		errorCorrectionLevel: 'H',
 		type: 'image/png',
-		quality: 0.7,
 		margin: 1,
 		color: {
 			dark: '#a78bfa', // Purple-400 for dark theme

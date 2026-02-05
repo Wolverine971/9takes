@@ -52,6 +52,7 @@
 	let isHovered = false;
 	let isExpanded = false;
 	let flagError = '';
+	let showReplies = false;
 
 	// Constants
 	const COMMENT_TRUNCATE_LENGTH = 136;
@@ -136,11 +137,25 @@
 			// Update the parent comment data to keep in sync
 			comment.comments = _commentComment.comments;
 			comment.comment_count = _commentComment.comment_count;
+
+			// Show replies after loading
+			showReplies = true;
 		} catch (error) {
 			console.error('Error loading comments:', error);
 			notifications.danger('Error loading comments', 3000);
 		} finally {
 			loadingComments = false;
+		}
+	}
+
+	// Toggle replies visibility
+	function toggleReplies() {
+		if (_commentComment?.comments?.length) {
+			// Already loaded, just toggle visibility
+			showReplies = !showReplies;
+		} else if (_commentComment.comment_count > 0) {
+			// Need to load first
+			loadNestedComments();
 		}
 	}
 
@@ -156,7 +171,7 @@
 
 		try {
 			const body = new FormData();
-			body.append('parent_id', _commentComment.id);
+			body.append('parent_id', _commentComment.id.toString());
 			body.append('user_id', user.id);
 			body.append('es_id', _commentComment.es_id);
 			body.append('operation', operation);
@@ -213,7 +228,7 @@
 
 			const body = new FormData();
 			body.append('comment', newcomment);
-			body.append('parent_id', _commentComment.id);
+			body.append('parent_id', _commentComment.id.toString());
 			body.append('author_id', user?.id);
 			body.append('parent_type', 'comment');
 			body.append('es_id', _commentComment.es_id);
@@ -251,6 +266,7 @@
 			dispatch('commentUpdated', _commentComment);
 			newcomment = '';
 			commenting = false;
+			showReplies = true; // Show replies so user can see their new reply
 		} catch (error) {
 			console.error('Error adding reply:', error);
 			notifications.danger('Error adding reply', 3000);
@@ -560,79 +576,117 @@
 			</div>
 		{/if}
 
-		<!-- Nested comments -->
-		{#if _commentComment?.comments?.length}
-			<div class="ml-8 border-l-2 border-purple-500/30 pb-2 pl-6 sm:ml-4 sm:pl-3">
-				<Comments
-					{questionId}
-					comments={_commentComment.comments}
-					comment_count={_commentComment.comment_count}
-					parentData={_commentComment}
-					parentType={'comment'}
-					{user}
-					onCommentsUpdate={(updatedComments) => {
-						_commentComment.comments = updatedComments;
-						comment.comments = updatedComments;
-					}}
-				/>
-			</div>
-		{/if}
+		<!-- Replies toggle and nested comments -->
+		{#if _commentComment.comment_count > 0}
+			<div class="border-t border-slate-700/20">
+				<!-- Reply thread toggle -->
+				<button
+					type="button"
+					class="group/toggle flex w-full items-center gap-2 px-3 py-2 text-left transition-colors duration-200 hover:bg-[#252538]/50"
+					on:click={toggleReplies}
+					disabled={loadingComments}
+					aria-expanded={showReplies}
+					aria-label={showReplies ? 'Hide replies' : 'Show replies'}
+				>
+					<!-- Thread line indicator -->
+					<div class="flex h-5 w-5 items-center justify-center">
+						{#if loadingComments}
+							<div
+								class="h-3.5 w-3.5 animate-spin rounded-full border-2 border-purple-500/30 border-t-purple-500"
+							></div>
+						{:else}
+							<svg
+								class="h-4 w-4 text-slate-500 transition-transform duration-200 group-hover/toggle:text-purple-400 {showReplies
+									? 'rotate-90'
+									: ''}"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M9 5l7 7-7 7"
+								/>
+							</svg>
+						{/if}
+					</div>
 
-		<!-- Load more comments button -->
-		{#if _commentComment.comment_count > 0 && !_commentComment?.comments?.length}
-			<button
-				type="button"
-				class="flex w-full items-center justify-center gap-2 border-t border-slate-700/30 bg-[#12121a] px-4 py-3 text-sm font-medium text-slate-400 transition-colors duration-200 hover:bg-[#252538] hover:text-slate-200 disabled:cursor-not-allowed disabled:opacity-50"
-				on:click={loadNestedComments}
-				disabled={loadingComments}
-			>
-				{#if loadingComments}
-					<div
-						class="h-4 w-4 animate-spin rounded-full border-2 border-purple-500/30 border-t-purple-500"
-					></div>
-				{:else}
+					<!-- Reply count -->
 					<span
-						>View {_commentComment.comment_count}
-						{_commentComment.comment_count === 1 ? 'reply' : 'replies'}</span
+						class="text-sm font-medium text-slate-400 transition-colors duration-200 group-hover/toggle:text-slate-200"
 					>
-					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M19 9l-7 7-7-7"
+						{_commentComment.comment_count}
+						{_commentComment.comment_count === 1 ? 'reply' : 'replies'}
+					</span>
+
+					<!-- Visual indicator of nested content -->
+					{#if !showReplies && _commentComment?.comments?.length}
+						<span class="text-xs text-slate-500">(loaded)</span>
+					{/if}
+				</button>
+
+				<!-- Nested comments container -->
+				{#if showReplies && _commentComment?.comments?.length}
+					<div
+						class="relative ml-3 border-l-2 border-purple-500/20 pl-4 pt-1 sm:ml-2 sm:pl-3"
+						transition:slide={{ duration: 200 }}
+					>
+						<!-- Thread connector dot -->
+						<div class="absolute -left-[5px] top-0 h-2 w-2 rounded-full bg-purple-500/40"></div>
+
+						<Comments
+							{questionId}
+							comments={_commentComment.comments}
+							comment_count={_commentComment.comment_count}
+							parentData={_commentComment}
+							parentType={'comment'}
+							{user}
+							onCommentsUpdate={(updatedComments) => {
+								_commentComment.comments = updatedComments;
+								comment.comments = updatedComments;
+							}}
 						/>
-					</svg>
+					</div>
 				{/if}
-			</button>
+			</div>
 		{/if}
 	</div>
 {/if}
 
 <!-- Edit Comment Modal -->
 <Modal2 id={`edit-modal-${_commentComment?.id}`}>
-	<div
-		class="w-full max-w-lg rounded-lg border border-slate-700/30 bg-[#12121a] p-6 shadow-[0_0_30px_rgba(0,0,0,0.5)]"
-	>
-		<h2 class="mb-5 mt-0 text-xl text-slate-100">Edit Comment</h2>
-		<div class="mb-6">
+	<div class="w-full min-w-[min(480px,90vw)]">
+		<h2 class="mb-2 mt-0 text-2xl font-semibold text-slate-100">Edit Comment</h2>
+		<p class="mb-6 text-sm text-slate-400">Make changes to your comment below.</p>
+
+		<div class="mb-8">
+			<label
+				for="edit-comment-{_commentComment?.id}"
+				class="mb-2 block text-sm font-medium text-slate-300"
+			>
+				Your comment
+			</label>
 			<textarea
-				rows="5"
+				id="edit-comment-{_commentComment?.id}"
+				rows="6"
 				bind:value={commentEdit}
-				class="font-inherit min-h-[100px] w-full resize-y rounded-lg border border-slate-700/30 bg-[#252538] p-3 text-sm text-slate-200 placeholder-slate-500 focus:border-purple-500/50 focus:shadow-[0_0_10px_rgba(124,58,237,0.3)] focus:outline-none"
+				class="w-full resize-y rounded-xl border border-slate-600/50 bg-[#252538] p-4 text-base leading-relaxed text-slate-200 placeholder-slate-500 transition-all duration-200 focus:border-purple-500/50 focus:outline-none focus:ring-2 focus:ring-purple-500/20"
 				placeholder="Edit your comment..."
 			></textarea>
 		</div>
-		<div class="flex justify-end gap-3 sm:flex-col">
+
+		<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
 			<button
-				class="cursor-pointer rounded-lg border border-slate-700/30 bg-transparent px-5 py-3 font-medium text-slate-400 transition-all duration-200 hover:bg-[#252538] hover:text-slate-200"
+				class="w-full cursor-pointer rounded-xl border border-slate-600/50 bg-transparent px-6 py-3 text-base font-medium text-slate-300 transition-all duration-200 hover:bg-[#252538] hover:text-slate-100 sm:w-auto"
 				type="button"
 				on:click={() => getModal(`edit-modal-${_commentComment?.id}`).close()}
 			>
 				Cancel
 			</button>
 			<button
-				class="flex cursor-pointer items-center justify-center gap-2 rounded-lg border-none bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] disabled:cursor-not-allowed disabled:opacity-70"
+				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl border-none bg-gradient-to-r from-purple-600 to-purple-700 px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 				type="button"
 				on:click={saveEdit}
 				disabled={loading || !commentEdit.trim()}
@@ -652,31 +706,53 @@
 <!-- Flag Comment Modal -->
 <Modal2 id={`flag-comment-modal-${_commentComment?.id}`}>
 	<div
-		class="w-full max-w-lg rounded-lg border border-slate-700/30 bg-[#12121a] p-6 shadow-[0_0_30px_rgba(0,0,0,0.5)]"
+		class="w-full min-w-[min(480px,90vw)]"
 		role="dialog"
 		aria-labelledby={`flag-modal-title-${_commentComment?.id}`}
 	>
-		<h2 id={`flag-modal-title-${_commentComment?.id}`} class="mb-5 mt-0 text-xl text-slate-100">
-			Flag Comment
-		</h2>
+		<div class="mb-6">
+			<h2
+				id={`flag-modal-title-${_commentComment?.id}`}
+				class="mb-2 mt-0 text-2xl font-semibold text-slate-100"
+			>
+				Flag Comment
+			</h2>
+			<p class="text-sm text-slate-400">
+				Help us keep the community safe by reporting inappropriate content.
+			</p>
+		</div>
+
 		<form on:submit|preventDefault={submitFlag} novalidate>
 			<fieldset disabled={loading} class="m-0 border-0 p-0">
 				{#if flagError}
 					<div
-						class="mb-4 rounded-lg border-l-4 border-red-500 bg-red-500/10 p-2 text-red-400"
+						class="mb-6 flex items-center gap-3 rounded-xl border border-red-500/30 bg-red-500/10 p-4 text-red-400"
 						role="alert"
 					>
-						{flagError}
+						<svg
+							class="h-5 w-5 flex-shrink-0"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+							/>
+						</svg>
+						<span>{flagError}</span>
 					</div>
 				{/if}
 
 				{#if parentData?.flagReasons?.length > 0}
-					<div class="mb-4">
+					<div class="mb-6">
 						<label
 							for={`flag-reason-${_commentComment?.id}`}
-							class="mb-2 block font-medium text-slate-200"
+							class="mb-3 block text-sm font-medium text-slate-300"
 						>
-							Reason <span class="text-red-400" aria-hidden="true">*</span>
+							Reason for flagging <span class="text-red-400" aria-hidden="true">*</span>
 							<span class="sr-only">(required)</span>
 						</label>
 						<select
@@ -688,12 +764,12 @@
 							aria-describedby={flagError && !flaggingReasonId
 								? `flag-reason-error-${_commentComment?.id}`
 								: undefined}
-							class="font-inherit w-full rounded-lg border border-slate-700/30 bg-[#252538] p-3 text-sm text-slate-200 {flagError &&
+							class="w-full cursor-pointer rounded-xl border bg-[#252538] p-4 text-base text-slate-200 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-purple-500/20 {flagError &&
 							!flaggingReasonId
 								? 'border-red-500'
-								: ''} focus:border-purple-500/50 focus:shadow-[0_0_10px_rgba(124,58,237,0.3)] focus:outline-none"
+								: 'border-slate-600/50 focus:border-purple-500/50'}"
 						>
-							<option value="" disabled selected>Select a reason</option>
+							<option value="" disabled selected>Select a reason...</option>
 							{#each parentData.flagReasons as reason}
 								<option value={reason.id}>{reason.reason}</option>
 							{/each}
@@ -701,7 +777,7 @@
 						{#if flagError && !flaggingReasonId}
 							<div
 								id={`flag-reason-error-${_commentComment?.id}`}
-								class="mt-1 text-xs text-red-400"
+								class="mt-2 text-sm text-red-400"
 								role="alert"
 							>
 								Please select a reason
@@ -710,51 +786,65 @@
 					</div>
 				{:else}
 					<div
-						class="mb-4 rounded-lg border-l-4 border-blue-500 bg-blue-500/10 p-2 text-blue-400"
+						class="mb-6 flex items-center gap-3 rounded-xl border border-blue-500/30 bg-blue-500/10 p-4 text-blue-400"
 						role="status"
 					>
-						No flag reasons available. Please contact an administrator.
+						<svg
+							class="h-5 w-5 flex-shrink-0"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+							/>
+						</svg>
+						<span>No flag reasons available. Please contact an administrator.</span>
 					</div>
 				{/if}
 
-				<div class="mb-4">
+				<div class="mb-8">
 					<label
 						for={`flag-description-${_commentComment?.id}`}
-						class="mb-2 block font-medium text-slate-200"
+						class="mb-3 block text-sm font-medium text-slate-300"
 					>
-						Description <span class="text-sm font-normal text-slate-500">(optional)</span>
+						Additional details <span class="font-normal text-slate-500">(optional)</span>
 					</label>
 					<textarea
 						id={`flag-description-${_commentComment?.id}`}
 						rows="4"
 						bind:value={flaggingReasonDescription}
-						class="font-inherit min-h-[100px] w-full resize-y rounded-lg border border-slate-700/30 bg-[#252538] p-3 text-sm text-slate-200 placeholder-slate-500 focus:border-purple-500/50 focus:shadow-[0_0_10px_rgba(124,58,237,0.3)] focus:outline-none"
-						placeholder="Please provide details about why you're flagging this comment..."
+						class="w-full resize-y rounded-xl border border-slate-600/50 bg-[#252538] p-4 text-base leading-relaxed text-slate-200 placeholder-slate-500 transition-all duration-200 focus:border-purple-500/50 focus:outline-none focus:ring-2 focus:ring-purple-500/20"
+						placeholder="Provide any additional context that might help us review this comment..."
 					></textarea>
 				</div>
 			</fieldset>
-			<div class="mt-6 flex justify-end gap-3 sm:flex-col">
+
+			<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
 				<button
-					class="cursor-pointer rounded-lg border border-slate-700/30 bg-transparent px-5 py-3 font-medium text-slate-400 transition-all duration-200 hover:bg-[#252538] hover:text-slate-200"
+					class="w-full cursor-pointer rounded-xl border border-slate-600/50 bg-transparent px-6 py-3 text-base font-medium text-slate-300 transition-all duration-200 hover:bg-[#252538] hover:text-slate-100 sm:w-auto"
 					type="button"
 					on:click={closeFlagModal}
 				>
 					Cancel
 				</button>
 				<button
-					class="flex cursor-pointer items-center justify-center gap-2 rounded-lg border-none bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] disabled:cursor-not-allowed disabled:opacity-70"
+					class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl border-none bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[0_0_20px_rgba(239,68,68,0.4)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 					type="submit"
 					disabled={loading || !flaggingReasonId || !parentData?.flagReasons?.length}
 					aria-busy={loading}
 				>
 					{#if loading}
 						<div
-							class="h-5 w-5 animate-spin rounded-full border-2 border-purple-300/30 border-t-white"
+							class="h-5 w-5 animate-spin rounded-full border-2 border-red-300/30 border-t-white"
 							aria-hidden="true"
 						></div>
 						<span class="sr-only">Submitting...</span>
 					{:else}
-						Submit
+						Submit Report
 					{/if}
 				</button>
 			</div>

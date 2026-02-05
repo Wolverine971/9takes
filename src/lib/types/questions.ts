@@ -131,7 +131,6 @@ export interface QuestionPageData {
 	user: User | null;
 	flags: QuestionFlags;
 	aiComments: AIComment[] | null;
-	ai_comments?: AIComment[] | null;
 	links: Link[] | null;
 	links_count: number;
 	flagReasons: FlagReason[];
