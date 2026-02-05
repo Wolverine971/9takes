@@ -1,27 +1,20 @@
 <!-- src/routes/login/+layout.svelte -->
 <script lang="ts">
-	import { invalidateAll } from '$app/navigation';
+	import { goto, invalidateAll } from '$app/navigation';
 	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
 		const {
 			data: { subscription }
-		} = supabase.auth.onAuthStateChange((event, state, session) => {
-			if (session) {
-				if (state == 'SIGNED_IN') {
-					session.user.set(session.user);
-				} else {
-					session.user.set(false);
-				}
-			}
-			// invalidateAll();
+		} = supabase.auth.onAuthStateChange((event, session) => {
 			if (event === 'PASSWORD_RECOVERY') {
-				// redirect user to the page where it creates a new password
-				return {
-					status: 302,
-					redirect: '/resetPassword'
-				};
+				goto('/resetPassword');
+				return;
+			}
+
+			if (event === 'SIGNED_IN' || event === 'SIGNED_OUT' || event === 'TOKEN_REFRESHED') {
+				invalidateAll();
 			}
 		});
 		return () => {

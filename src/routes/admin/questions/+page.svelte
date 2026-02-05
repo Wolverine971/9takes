@@ -83,7 +83,9 @@
 	// Open question details modal
 	const openModal = (questionData: any) => {
 		selectedQuestion = questionData;
-		getModal('question-details-modal').open();
+		getModal('question-details-modal').open(() => {
+			selectedQuestion = null;
+		});
 	};
 
 	// Initialize on mount

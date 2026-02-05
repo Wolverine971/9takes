@@ -22,7 +22,11 @@
 	let loading = false;
 	let loadingMore = false;
 	let isNavigating = false; // Prevents reactive URL handler from interfering during programmatic navigation
-	let selectedCategory: number | null = null;
+	let selectedCategory: number | null = (() => {
+		if (data.selectedCategory === null || data.selectedCategory === undefined) return null;
+		const parsed = Number(data.selectedCategory);
+		return Number.isFinite(parsed) ? parsed : null;
+	})();
 	let allQuestions = [...(data.questionsAndTags || [])];
 	let currentPage = data.currentPage || 1;
 	let hasMore = data.hasMore;
@@ -223,10 +227,17 @@
 	$: if (browser && !isNavigating) {
 		const catParam = $page.url.searchParams.get('category');
 		if (catParam) {
-			// Try to find category by slug (name-based URL)
-			const category = findCategoryBySlug(catParam);
-			if (category && category.id !== selectedCategory) {
-				filterByCategory(category.id, category.category_name, false); // Don't update URL since it's already updated
+			const numeric = Number(catParam);
+			if (Number.isFinite(numeric)) {
+				if (numeric !== selectedCategory) {
+					filterByCategory(numeric, null, false);
+				}
+			} else {
+				// Try to find category by slug (name-based URL)
+				const category = findCategoryBySlug(catParam);
+				if (category && category.id !== selectedCategory) {
+					filterByCategory(category.id, category.category_name, false); // Don't update URL since it's already updated
+				}
 			}
 		} else if (selectedCategory !== null && !loading) {
 			// URL has no category param but we have a selection - reset

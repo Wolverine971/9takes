@@ -34,6 +34,10 @@
 	let currentPath = '';
 
 	// Use direct reactive assignments to ensure updates on navigation
+	let post: PageData['post'] = data.post;
+	let comments: PageData['comments'] = data.comments;
+	let userHasAnswered: PageData['flags']['userHasAnswered'] = data.flags.userHasAnswered;
+
 	$: post = data.post;
 	$: comments = data.comments;
 	$: userHasAnswered = data.flags.userHasAnswered;

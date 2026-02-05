@@ -63,7 +63,25 @@ export const load: PageServerLoad = async (event) => {
 		const session = event.locals.session;
 		const supabase = event.locals.supabase;
 		const page = Number(event.url.searchParams.get('page')) || 1;
-		const categoryId = event.url.searchParams.get('category');
+		const categoryParam = event.url.searchParams.get('category');
+		let categoryId: number | undefined;
+
+		if (categoryParam) {
+			const parsed = Number(categoryParam);
+			if (Number.isFinite(parsed)) {
+				categoryId = parsed;
+			} else {
+				const categoryName = categoryParam.split('-').join(' ');
+				const { data: category } = await supabase
+					.from('question_categories')
+					.select('id')
+					.ilike('category_name', categoryName)
+					.maybeSingle();
+				if (category?.id) {
+					categoryId = category.id;
+				}
+			}
+		}
 
 		// Use optimized RPC function that combines all queries
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -73,7 +91,7 @@ export const load: PageServerLoad = async (event) => {
 				p_user_id: session?.user?.id ?? undefined,
 				p_limit: QUESTIONS_PER_PAGE,
 				p_offset: (page - 1) * QUESTIONS_PER_PAGE,
-				p_category_id: categoryId ? parseInt(categoryId) : undefined
+				p_category_id: categoryId
 			}
 		);
 
@@ -98,7 +116,7 @@ export const load: PageServerLoad = async (event) => {
 			totalAnswers: pageData?.totalAnswers || 0,
 			currentPage: page,
 			hasMore: (pageData?.questions || []).length === QUESTIONS_PER_PAGE,
-			selectedCategory: categoryId
+			selectedCategory: categoryId ?? null
 		};
 
 		return processedData;
@@ -229,6 +247,9 @@ export const actions: Actions = {
 			const demo_time = await checkDemoTime(supabase);
 			const body = Object.fromEntries(await request.formData());
 			const categoryId = parseInt(body.categoryId as string);
+			if (!Number.isFinite(categoryId)) {
+				return { questions: [], category: null };
+			}
 
 			const { data: questions, error: filterError } = await supabase.rpc(
 				'get_questions_by_category',

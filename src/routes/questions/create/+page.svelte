@@ -195,14 +195,6 @@
 				return;
 			}
 
-			const png = await generateQuestionImage('question-pic');
-
-			// Check image size (rough estimate: base64 is ~1.37x larger than binary)
-			const estimatedSize = png.length * 0.75;
-			if (estimatedSize > 10 * 1024 * 1024) {
-				throw new Error('Generated image is too large. Please try a shorter question.');
-			}
-
 			const body = new FormData();
 			body.append(
 				'question',
@@ -214,14 +206,47 @@
 			body.append('author_id', data.session.user.id.toString());
 			body.append('context', '');
 			body.append('url', url);
-			body.append('img_url', png);
 
 			const resp = await fetch('?/createQuestion', { method: 'POST', body });
 			const result = deserialize(await resp.text());
 
-			if (result && typeof result === 'object' && 'error' in result) {
-				const error = (result as any).error;
-				throw new Error(error?.message || 'Failed to create question');
+			if (result && typeof result === 'object') {
+				if ('error' in result) {
+					const error = (result as any).error;
+					throw new Error(error?.message || 'Failed to create question');
+				}
+				if ('type' in result && (result as any).type === 'failure') {
+					throw new Error((result as any).data?.error || 'Failed to create question');
+				}
+			}
+
+			const responseData = (result as any)?.data;
+			const questionId = Array.isArray(responseData)
+				? responseData?.[0]?.id
+				: responseData?.id;
+
+			if (questionId) {
+				try {
+					const png = await generateQuestionImage('question-pic');
+					// Check image size (rough estimate: base64 is ~1.37x larger than binary)
+					const estimatedSize = png.length * 0.75;
+					if (estimatedSize > 10 * 1024 * 1024) {
+						throw new Error('Generated image is too large. Please try a shorter question.');
+					}
+
+					const uploadBody = new FormData();
+					uploadBody.append('questionId', questionId.toString());
+					uploadBody.append('url', url);
+					uploadBody.append('img_url', png);
+
+					void fetch('/api/questions/upload-image', { method: 'POST', body: uploadBody }).catch(
+						(error) => {
+							console.error('Image upload failed:', error);
+						}
+					);
+				} catch (error) {
+					console.error('Error generating image:', error);
+				}
 			}
 
 			getModal('question-create').close();

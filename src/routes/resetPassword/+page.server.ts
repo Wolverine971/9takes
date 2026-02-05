@@ -1,7 +1,6 @@
 // src/routes/resetPassword/+page.server.ts
-import { Actions, fail, redirect, type } from '@sveltejs/kit';
-
-import type { PageServerLoad } from './$types';
+import { fail } from '@sveltejs/kit';
+import type { Actions, PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
 	// Get the hash fragment from the URL (where the token is stored)
@@ -19,7 +18,7 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	resetPass: async ({ request, locals, url }) => {
+	resetPass: async ({ request, locals }) => {
 		const body = Object.fromEntries(await request.formData());
 
 		if (!body.password) {

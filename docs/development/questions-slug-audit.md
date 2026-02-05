@@ -1,4 +1,5 @@
 <!-- docs/development/questions-slug-audit.md -->
+
 # UI/UX & Code Quality Audit: `/questions/[slug]` Page
 
 **Audit Date:** 2026-02-05

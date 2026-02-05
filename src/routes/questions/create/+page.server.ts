@@ -18,9 +18,12 @@ const createQuestionSchema = z.object({
 	author_id: z.string().uuid(),
 	context: z.string().max(2000).optional().default(''),
 	url: z.string().min(1).max(200),
-	img_url: z.string().refine((val) => val.startsWith('data:image/'), {
-		message: 'Invalid image format'
-	})
+	img_url: z
+		.string()
+		.optional()
+		.refine((val) => !val || val.startsWith('data:image/'), {
+			message: 'Invalid image format'
+		})
 });
 
 export const load: PageServerLoad = async (event) => {
@@ -174,66 +177,13 @@ export const actions: Actions = {
 				});
 			}
 
-			let imagePath: string | null = null;
-			if (!demo_time) {
-				try {
-					const upload = await uploadQuestionImage({
-						supabase,
-						dataUrl: img_url,
-						questionUrl: url,
-						maxBytes: MAX_FORM_SIZE
-					});
-					imagePath = upload.path;
-					logger.info('Image uploaded to Supabase', {
-						path: imagePath,
-						userId: session.user.id
-					});
-				} catch (err) {
-					logger.error('Supabase image upload error', err as Error, {
-						userId: session.user.id,
-						url
-					});
-					// Continue without image if upload fails
-				}
-			}
-
-			// Create question in ElasticSearch if not in demo mode
-			let esId = null;
-			if (!demo_time) {
-				try {
-					const resp: any = await createESQuestion({
-						question,
-						author_id,
-						context,
-						url,
-						img_url: imagePath ?? undefined,
-						comment_count: 0,
-						flagged: false,
-						removed: false,
-						question_formatted: question,
-						enneagram: user.enneagram ?? undefined,
-						author_name: user.username || `${user.first_name || ''} ${user.last_name || ''}`.trim()
-					});
-					if (resp?._id) {
-						esId = resp._id;
-					}
-				} catch (err) {
-					logger.error('ElasticSearch error', err as Error, {
-						question,
-						url
-					});
-					// Continue without ES if it fails
-				}
-			}
-
 			// Insert question into database
 			const qData = {
-				es_id: esId,
 				question,
 				author_id,
 				context,
 				url,
-				img_url: imagePath
+				img_url: null
 			};
 
 			const { data: insertedQuestion, error: questionInsertError } = await supabase
@@ -248,9 +198,84 @@ export const actions: Actions = {
 			}
 
 			if (insertedQuestion?.length) {
-				await tagQuestion(supabase, question, insertedQuestion[0].id);
+				const inserted = insertedQuestion[0];
+				const questionId = inserted.id;
+				const questionTable = demo_time ? 'questions_demo' : 'questions';
+
+				const postProcess = async () => {
+					let imagePath: string | null = null;
+					let esId: string | null = null;
+
+					if (!demo_time && img_url) {
+						try {
+							const upload = await uploadQuestionImage({
+								supabase,
+								dataUrl: img_url,
+								questionUrl: url,
+								maxBytes: MAX_FORM_SIZE
+							});
+							imagePath = upload.path;
+							logger.info('Image uploaded to Supabase', {
+								path: imagePath,
+								userId: session.user.id
+							});
+						} catch (err) {
+							logger.error('Supabase image upload error', err as Error, {
+								userId: session.user.id,
+								url
+							});
+						}
+					}
+
+					if (!demo_time) {
+						try {
+							const resp: any = await createESQuestion({
+								question,
+								author_id,
+								context,
+								url,
+								img_url: imagePath ?? undefined,
+								comment_count: 0,
+								flagged: false,
+								removed: false,
+								question_formatted: question,
+								enneagram: user.enneagram ?? undefined,
+								author_name: user.username || `${user.first_name || ''} ${user.last_name || ''}`.trim()
+							});
+							if (resp?._id) {
+								esId = resp._id;
+							}
+						} catch (err) {
+							logger.error('ElasticSearch error', err as Error, {
+								question,
+								url
+							});
+						}
+					}
+
+					if (imagePath || esId) {
+						const updates: Record<string, string | null> = {};
+						if (imagePath) updates.img_url = imagePath;
+						if (esId) updates.es_id = esId;
+
+						await supabase.from(questionTable).update(updates).eq('id', questionId);
+					}
+
+					if (!demo_time) {
+						await tagQuestion(supabase, question, questionId);
+					}
+				};
+
+				const waitUntil =
+					(event as any)?.platform?.context?.waitUntil ?? (event as any)?.platform?.waitUntil;
+				if (typeof waitUntil === 'function') {
+					waitUntil(postProcess());
+				} else {
+					void postProcess();
+				}
+
 				logger.info('Question created successfully', {
-					questionId: insertedQuestion[0].id,
+					questionId,
 					url,
 					userId: session.user.id
 				});

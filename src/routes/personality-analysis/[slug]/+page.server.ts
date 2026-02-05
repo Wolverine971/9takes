@@ -2,18 +2,8 @@
 import type { PageServerLoad } from './$types';
 import { supabase } from '$lib/supabase';
 import { dev } from '$app/environment';
-import { slugFromPath } from '$lib/slugFromPath';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
-
-// Cache duration in seconds (5 minutes for non-dev environments)
-const CACHE_DURATION = !dev ? 300 : 0;
-
-const MAX_AGE = 60 * 5;
-
-// In-memory cache for user status
-const userStatusCache = new Map();
-const commentsCache = new Map();
 
 export const load: PageServerLoad = async (event: any) => {
 	const setHeaders = event.setHeaders;
@@ -24,9 +14,8 @@ export const load: PageServerLoad = async (event: any) => {
 
 	if (!dev) {
 		setHeaders({
-			'Cache-Control': `public, max-age=${MAX_AGE}`
-			// optional: you could also add `s-maxage` or `stale-while-revalidate`
-			// 'Cache-Control': `public, s-maxage=${MAX_AGE}, stale-while-revalidate=300`
+			// Personalized response (user/session/fingerprint) - do not cache publicly.
+			'Cache-Control': 'private, no-store'
 		});
 	} else {
 		// In dev mode, disable caching so changes appear instantly
@@ -45,68 +34,35 @@ export const load: PageServerLoad = async (event: any) => {
 		throw error(404, `Person not found: ${slug}`);
 	}
 
-	// Create cache keys
-	const userCacheKey = user?.id ? `${slug}:${user.id}` : `${slug}:${cookie}`;
+	const queryPromise = user?.id
+		? supabase
+				.from('blog_comments')
+				.select('id')
+				.eq('blog_link', slug)
+				.eq('author_id', user?.id)
+				.maybeSingle()
+		: supabase
+				.from('blog_comments')
+				.select('id')
+				.eq('blog_link', slug)
+				.eq('fingerprint', cookie)
+				.maybeSingle();
 
-	// Check if we have cached results for user's answer status
-	let userHasAnswered = userStatusCache.get(userCacheKey);
+	const { data: hasCommented } = await queryPromise;
+	const userHasAnswered = !!hasCommented;
+
 	let comments = [];
 
-	// Only perform DB query if not in cache
-	if (userHasAnswered === undefined) {
-		const queryPromise = user?.id
-			? supabase
-					.from('blog_comments')
-					.select('id')
-					.eq('blog_link', slug)
-					.eq('author_id', user?.id)
-					.maybeSingle()
-			: supabase
-					.from('blog_comments')
-					.select('id')
-					.eq('blog_link', slug)
-					.eq('fingerprint', cookie)
-					.maybeSingle();
-
-		const { data: hasCommented } = await queryPromise;
-		userHasAnswered = !!hasCommented;
-
-		// Store in cache
-		if (CACHE_DURATION > 0) {
-			userStatusCache.set(userCacheKey, userHasAnswered);
-			// Set cache expiration
-			setTimeout(() => {
-				userStatusCache.delete(userCacheKey);
-			}, CACHE_DURATION * 1000);
-		}
-	}
-
-	// Only fetch comments if user has answered - and use caching
+	// Only fetch comments if user has answered
 	if (userHasAnswered) {
-		const commentsCacheKey = `comments:${slug}`;
-		const cachedComments = commentsCache.get(commentsCacheKey);
+		const { data: blogComments } = await supabase
+			.from('blog_comments')
+			.select('*')
+			.eq('blog_link', slug)
+			.order('created_at', { ascending: false })
+			.limit(100);
 
-		if (cachedComments) {
-			comments = cachedComments;
-		} else {
-			const { data: blogComments } = await supabase
-				.from('blog_comments')
-				.select('*')
-				.eq('blog_link', slug)
-				.order('created_at', { ascending: false })
-				.limit(100);
-
-			comments = blogComments || [];
-
-			// Store in cache
-			if (CACHE_DURATION > 0) {
-				commentsCache.set(commentsCacheKey, comments);
-				// Set cache expiration
-				setTimeout(() => {
-					commentsCache.delete(commentsCacheKey);
-				}, CACHE_DURATION * 1000);
-			}
-		}
+		comments = blogComments || [];
 	}
 
 	let { content, placeholders } = await processBlogContent(personData.content);
@@ -167,15 +123,8 @@ export const actions: Actions = {
 			sameEnneagramPosts
 		};
 
-		// Cache the result
-		if (CACHE_DURATION > 0) {
-			relatedPostsCache.set(cacheKey, result);
-
-			// Set cache expiration
-			setTimeout(() => {
-				relatedPostsCache.delete(cacheKey);
-			}, CACHE_DURATION * 1000);
-		}
+		// Cache the result for the process lifetime (small and non-personalized)
+		relatedPostsCache.set(cacheKey, result);
 
 		return {
 			success: true,

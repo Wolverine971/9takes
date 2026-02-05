@@ -71,6 +71,12 @@
 	const searchES = async (searchString: string) => {
 		searchError = '';
 
+		if (!data?.user?.id) {
+			options = [];
+			isSearching = false;
+			return;
+		}
+
 		if (!searchString.trim() || searchString.length < 2) {
 			options = [];
 			isSearching = false;
