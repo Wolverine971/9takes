@@ -103,7 +103,7 @@ She typically streams 3-4 days per week (often Tuesdays, Thursdays, Sundays), st
 
 - **The No-Makeup Stream (2018)**: Streamed putting on makeup from a bare face, sparking massive internet controversy. Her 2022 clap-back to critics: "This face makes more money than you'll ever see in your life."
 
-- **The $5 Donation Cap (2020)**: Worked with Streamlabs to cap donations, telling fans: "Thank you for supporting me to the point where I consider anything more than that unnecessary. To anyone that was more generous: please support growing channels, charities, and treat yourselves." ([Kotaku](https://kotaku.com/pokimane-s-new-5-donation-cap-sends-ripples-through-th-1845562331))
+- **The $5 Donation Cap (2020)**: Worked with Streamlabs to cap donations, telling fans: "Thank you for supporting me to the point where I consider anything more than that unnecessary. To anyone that was more generous: please support growing channels, charities, and treat yourselves." (via <a href="https://kotaku.com/pokimane-s-new-5-donation-cap-sends-ripples-through-th-1845562331">Kotaku</a>)
 
 - **The Boyfriend Application**: Around Christmas 2020, opened a fan letter containing a 4-page "boyfriend application" with a QR code to a dating profile. Read the entire "gaming resume" to her audience and jokingly rejected him for having zero Fall Guys wins.
 
@@ -125,7 +125,7 @@ Her strategic thinking showed in every major decision:
 
 - **2018**: Selected as one of 15 Twitch ambassadors for TwitchCon
 - **2020**: Signed a multi-year Twitch exclusivity deal
-- **2020**: Co-organized the viral [AOC Among Us stream](https://happymag.tv/aoc-among-us/) with Hasan Piker, featuring Alexandria Ocasio-Cortez and Ilhan Omar. Peaked at over 400,000 viewers, one of Twitch's most-watched broadcasts ever
+- **2020**: Co-organized the viral <a href="https://happymag.tv/aoc-among-us/">AOC Among Us stream</a> with Hasan Piker, featuring Alexandria Ocasio-Cortez and Ilhan Omar. Peaked at over 400,000 viewers, one of Twitch's most-watched broadcasts ever
 - **2021**: Named to Forbes 30 Under 30 in Games
 - **2021**: Co-founded RTS, a talent management firm, as Chief Creative Officer
 - **2022**: Received The Streamer Awards Legacy Award
@@ -141,7 +141,7 @@ When she capped stream donations at $5, it wasn't just generosity. It was risk m
 
 She explained her reasoning: "Even when sometimes people donate like $20 to me, I feel guilty. When people donate even more, I feel like they have a certain expectation."
 
-She's openly discussed her struggles with perfectionism during her [May 2020 interview with Dr. K on HealthyGamer](https://open.spotify.com/episode/0Y1jcHN2FtKNfW2mYvCW7Q). Four minutes in, she started crying when Dr. K suggested she had "gotten away from her real identity." She admitted she hadn't spent enough time building an identity independent of the online persona she created during her formative years.
+She's openly discussed her struggles with perfectionism during her <a href="https://www.youtube.com/watch?v=fh518OdBpbI">May 2020 interview with Dr. K on HealthyGamer</a>. Four minutes in, she started crying when Dr. K suggested she had "gotten away from her real identity." She admitted she hadn't spent enough time building an identity independent of the online persona she created during her formative years.
 
 "I've been playing every large, trending game and haven't felt as passionate or excited about participating in the rat race that is streaming," she said.
 
@@ -167,11 +167,11 @@ She's bluntly addressed obsessive fans who "psychoanalyze" and "micro-manage" he
 
 She saw creators getting exploited by bad deals and built the support system she wished existed. RTS now manages major streamers like Disguised Toast and Nikita Nihachu, and [co-owns the Evolution Championship Series (Evo) with Sony](https://www.pcgamer.com/twitch-streamer-pokimane-sorta-co-owns-the-biggest-fighting-game-tournament-in-the-world-now/).
 
-**Myna Snacks (2023)**: Partnering with a former Kellogg's executive, she launched a healthy snack company inspired by her post-pandemic health journey. When critics complained about pricing, she fired back. Perhaps too bluntly. That's the controversial edge that comes with counterphobic Sixes. (Note: As of late 2024, the company has reportedly [gone quiet](https://www.dexerto.com/entertainment/pokimanes-snack-company-goes-quiet-after-two-years-3298282/).)
+**Myna Snacks (2023)**: Partnering with a former Kellogg's executive, she launched a healthy snack company inspired by her post-pandemic health journey. When critics complained about pricing, she fired back. Perhaps too bluntly. That's the controversial edge that comes with counterphobic Sixes. (Note: As of late 2024, the company has reportedly <a href="https://www.dexerto.com/entertainment/pokimanes-snack-company-goes-quiet-after-two-years-3298282/">gone quiet</a>.)
 
 **Cloak (2020)**: She joined Markiplier and Jacksepticeye's fashion brand as creative director. Another layer of diversification. Another trusted partnership.
 
-**[Don't Tell Anyone](https://donttellanyone.com/) Podcast (2023)**: Launched December 2023, covering internet culture, relationships, money, wellness, and her "hottest takes and most embarrassing secrets."
+**[Don't Tell Anyone](https://open.spotify.com/show/2k3DUGbvap0I40B2L7X122) Podcast (2023)**: Launched December 2023, covering internet culture, relationships, money, wellness, and her "hottest takes and most embarrassing secrets."
 
 ### Recognition and Milestones
 
@@ -186,7 +186,7 @@ She saw creators getting exploited by bad deals and built the support system she
 
 ### The JiDion Hate Raid
 
-In [January 2022](https://www.thegamer.com/pokimane-jidion-hate-raid-depression/), Pokimane became the target of coordinated hate raids incited by streamer JiDion. His fans spammed her chat with derogatory messages. She was forced to end stream early.
+In <a href="https://www.thegamer.com/pokimane-jidion-hate-raid-depression/">January 2022</a>, Pokimane became the target of coordinated hate raids incited by streamer JiDion. His fans spammed her chat with derogatory messages. She was forced to end stream early.
 
 "When all the JiDion online hate stuff happened, bruh. I low-key fell into a depression," she later admitted. "I can laugh about it now but for the last two months, I've been counting my steps, but the way my steps perfectly represent my mental health is [wild]."
 
@@ -216,23 +216,23 @@ She used burnout as a springboard for reinvention.
 
 ### Health Challenges
 
-In [May 2024](https://www.dexerto.com/twitch/pokimane-reveals-pcos-diagnosis-urges-viewers-to-get-checked-2749667/), Pokimane revealed on the "Just Trish" podcast that she'd been diagnosed with Polycystic Ovary Syndrome (PCOS). She'd had irregular periods her whole life but wasn't diagnosed until her mid-20s. She initially felt "ashamed" and worried about being judged.
+In <a href="https://www.dexerto.com/twitch/pokimane-reveals-pcos-diagnosis-urges-viewers-to-get-checked-2749667/">May 2024</a>, Pokimane revealed on the "Just Trish" podcast that she'd been diagnosed with Polycystic Ovary Syndrome (PCOS). She'd had irregular periods her whole life but wasn't diagnosed until her mid-20s. She initially felt "ashamed" and worried about being judged.
 
-In [November 2024](https://www.dexerto.com/twitch/pokimane-tearfully-reveals-overwhelming-health-scare-after-lump-regrows-2971809/), she shared a more serious scare: a lump previously removed from her chest had regrown, requiring MRIs and biopsies. The results came back benign. On her mother's birthday.
+In <a href="https://www.dexerto.com/twitch/pokimane-tearfully-reveals-overwhelming-health-scare-after-lump-regrows-2971809/">November 2024</a>, she shared a more serious scare: a lump previously removed from her chest had regrown, requiring MRIs and biopsies. The results came back benign. On her mother's birthday.
 
 "The reality of it is, what I experienced wasn't just a health scare. It's actually kind of a routine part of taking care of yourself and screening for things as early as possible."
 
 ## Pokimane's Legacy and Current Work
 
-In [January 2024](https://www.pcgamer.com/pokimane-leaving-twitch-podcast/), Pokimane announced she was stepping back from Twitch exclusivity. She criticized the platform's "messy behavior" and the "manosphere, red pill bullshit" that had "flourished within the male-dominated livestreaming sphere."
+In <a href="https://www.pcgamer.com/pokimane-leaving-twitch-podcast/">January 2024</a>, Pokimane announced she was stepping back from Twitch exclusivity. She criticized the platform's "messy behavior" and the "manosphere, red pill bullshit" that had "flourished within the male-dominated livestreaming sphere."
 
 Today, she operates more like a CEO than a traditional streamer. Her content spans platforms. Her podcast covers internet culture and wellness. Her businesses create value beyond her personal brand.
 
 She's spoken about being "really into celibacy" and the value of pacing oneself: "In a world that's become only more hypersexual, it kind of feels like pacing oneself is the new counterculture."
 
-The [February 2025 Grammy appearance](https://www.dexerto.com/twitch/pokimane-responds-to-grammys-hate-over-her-red-carpet-invitation-3053974/) alongside <a href="/personality-analysis/Kai-Cenat">Kai Cenat</a> (where Kai became the first content creator to livestream from the red carpet) proved she's still a major force. Her self-aware response to backlash: "They invited a buncha creators & I agree I SHOULDNT BE HERE lmao but I am honored to beeee nonetheless."
+The <a href="https://www.dexerto.com/twitch/pokimane-responds-to-grammys-hate-over-her-red-carpet-invitation-3053974/">February 2025 Grammy appearance</a> alongside <a href="/personality-analysis/Kai-Cenat">Kai Cenat</a> (where Kai became the first content creator to livestream from the red carpet) proved she's still a major force. Her self-aware response to backlash: "They invited a buncha creators & I agree I SHOULDNT BE HERE lmao but I am honored to beeee nonetheless."
 
-In October 2024, she [co-hosted a livestream](https://www.rollingstone.com/politics/politics-news/bernie-sanders-kamala-harris-campaign-twitch-event-1235144399/) with Valkyrae featuring Bernie Sanders for the Kamala Harris campaign, alongside Mark Cuban, Hank Green, and Mark Hamill.
+In October 2024, she <a href="https://www.washingtonpost.com/entertainment/video-games/2024/10/22/bernie-sanders-pokimane-valkyrae-stream/">co-hosted a livestream</a> with Valkyrae featuring Bernie Sanders for the Kamala Harris campaign, alongside Mark Cuban, Hank Green, and Mark Hamill.
 
 The difference now: she's playing a game she designed, with rules she controls.
 

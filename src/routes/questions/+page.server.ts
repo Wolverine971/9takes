@@ -10,6 +10,32 @@ import { mapDemoValues } from '../../utils/demo';
 
 const QUESTIONS_PER_PAGE = 20;
 
+// Type for the RPC response
+interface QuestionsPageData {
+	canAskQuestion: boolean;
+	categories: Array<{ id: number; category_name: string }>;
+	questions: Array<{
+		id: number;
+		url: string;
+		question: string;
+		question_formatted?: string;
+		comment_count: number;
+		created_at: string;
+		tag_id?: number;
+		tag_name?: string;
+	}>;
+	totalQuestions: number;
+	totalAnswers: number;
+}
+
+// Type for Elasticsearch hit source
+interface ESQuestionSource {
+	question: string;
+	url: string;
+	id: number;
+	comment_count: number;
+}
+
 // Validation schemas for admin actions
 const removeQuestionSchema = z.object({
 	questionId: z.string().regex(/^\d+$/, 'Invalid question ID')
@@ -40,12 +66,16 @@ export const load: PageServerLoad = async (event) => {
 		const categoryId = event.url.searchParams.get('category');
 
 		// Use optimized RPC function that combines all queries
-		const { data: pageData, error: pageDataError } = await supabase.rpc('get_questions_page_data', {
-			p_user_id: session?.user?.id || null,
-			p_limit: QUESTIONS_PER_PAGE,
-			p_offset: (page - 1) * QUESTIONS_PER_PAGE,
-			p_category_id: categoryId ? parseInt(categoryId) : null
-		});
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		const { data: rawPageData, error: pageDataError } = await (supabase.rpc as any)(
+			'get_questions_page_data',
+			{
+				p_user_id: session?.user?.id ?? undefined,
+				p_limit: QUESTIONS_PER_PAGE,
+				p_offset: (page - 1) * QUESTIONS_PER_PAGE,
+				p_category_id: categoryId ? parseInt(categoryId) : undefined
+			}
+		);
 
 		if (pageDataError) {
 			// Error('Error fetching page data:', pageDataError);
@@ -53,6 +83,8 @@ export const load: PageServerLoad = async (event) => {
 				message: 'Error loading questions'
 			});
 		}
+
+		const pageData = rawPageData as QuestionsPageData | null;
 
 		// Process the data
 		const processedData = {
@@ -132,15 +164,18 @@ export const actions: Actions = {
 			});
 
 			// Simplify the response structure to avoid complex serialization
-			const results = hits.map((hit) => ({
-				_source: {
-					question: hit._source.question,
-					url: hit._source.url,
-					id: hit._source.id,
-					comment_count: hit._source.comment_count,
-					highlighted: hit.highlight?.question?.[0] || hit._source.question
-				}
-			}));
+			const results = hits.map((hit) => {
+				const source = hit._source as ESQuestionSource;
+				return {
+					_source: {
+						question: source.question,
+						url: source.url,
+						id: source.id,
+						comment_count: source.comment_count,
+						highlighted: hit.highlight?.question?.[0] || source.question
+					}
+				};
+			});
 
 			return results;
 		} catch (e) {
@@ -158,17 +193,23 @@ export const actions: Actions = {
 			const page = parseInt(body.page as string) || 2;
 			const categoryId = body.categoryId ? parseInt(body.categoryId as string) : null;
 
-			const { data: pageData, error: loadError } = await supabase.rpc('get_questions_page_data', {
-				p_user_id: locals.session?.user?.id || null,
-				p_limit: QUESTIONS_PER_PAGE,
-				p_offset: (page - 1) * QUESTIONS_PER_PAGE,
-				p_category_id: categoryId
-			});
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
+			const { data: rawPageData, error: loadError } = await (supabase.rpc as any)(
+				'get_questions_page_data',
+				{
+					p_user_id: locals.session?.user?.id ?? undefined,
+					p_limit: QUESTIONS_PER_PAGE,
+					p_offset: (page - 1) * QUESTIONS_PER_PAGE,
+					p_category_id: categoryId ?? undefined
+				}
+			);
 
 			if (loadError) {
 				// Error('Load more error:', loadError);
 				return { questions: [], hasMore: false };
 			}
+
+			const pageData = rawPageData as QuestionsPageData | null;
 
 			return {
 				questions: demo_time ? mapDemoValues(pageData?.questions || []) : pageData?.questions || [],

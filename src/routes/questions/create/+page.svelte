@@ -35,7 +35,6 @@
 	const QR_OPTS: QRCode.QRCodeToDataURLOptions = {
 		errorCorrectionLevel: 'H' as QRCode.QRCodeErrorCorrectionLevel,
 		type: 'image/png' as 'image/png',
-		quality: 0.3,
 		margin: 1,
 		color: { dark: '#5407d9', light: '#ffffff' }
 	};
@@ -256,7 +255,7 @@
 		resizeDebounceTimer = setTimeout(() => {
 			target.style.height = 'auto';
 			target.style.height = target.scrollHeight + 'px';
-		}, 10) as unknown as number;
+		}, 10);
 	}
 </script>
 

@@ -28,9 +28,8 @@
 		linksCount = data.links_count || 0;
 	}
 
-	const lastDate = data.comments?.length
-		? data.comments[data.comments.length - 1]?.created_at
-		: null;
+	// Reactive to update when data.comments changes
+	$: lastDate = data.comments?.length ? data.comments[data.comments.length - 1]?.created_at : null;
 
 	async function loadMore() {
 		if (loading) return;

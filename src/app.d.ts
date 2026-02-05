@@ -58,7 +58,7 @@ declare global {
 		// interface Platform {}
 		interface MdsvexFile {
 			default: import('svelte').Component;
-			metadata: Record<string, string> | BlogPost;
+			metadata: BlogPost;
 		}
 
 		type MdsvexResolver = () => Promise<MdsvexFile>;
@@ -77,6 +77,7 @@ declare global {
 			published: boolean;
 			enneagram?: number;
 			type?: string[];
+			tags?: string[];
 			suggestions?: string[];
 			person?: string;
 			wikipedia?: string;

@@ -1,5 +1,5 @@
 ---
-title: 'The Psychology of Epstein's Web: How a Predator Ensnared the Elite'
+title: "The Psychology of Epstein's Web: How a Predator Ensnared the Elite"
 meta_title: "Why Smart People Fell for Jeffrey Epstein (The Psychology Explains Everything)"
 description: "A deep psychological analysis of how Jeffrey Epstein trapped billionaires, scientists, and politicians. The shame dynamics, type vulnerabilities, and escalation traps that made his network possible."
 author: 'DJ Wayne'

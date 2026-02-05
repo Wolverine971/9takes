@@ -32,10 +32,11 @@ const MAX_IMAGE_SIZE_BYTES = 10 * 1024 * 1024; // 10MB
 
 export const load: PageServerLoad = async (event) => {
 	const { demo_time } = await event.parent();
+	const isDemoTime = demo_time ?? false;
 	const session = event.locals.session;
 	const cookie = event.cookies.get('9tfingerprint');
 
-	const question = await getQuestion(event.params.slug, demo_time);
+	const question = await getQuestion(event.params.slug, isDemoTime);
 	if (!question) {
 		throw error(400, { message: 'No question found' });
 	}
@@ -46,12 +47,12 @@ export const load: PageServerLoad = async (event) => {
 	]);
 
 	if (!userHasAnswered) {
-		const commentCount = await getCommentCount(question.id, demo_time);
-		const aiComments = demo_time ? null : await getAIComments(question.id);
+		const commentCount = await getCommentCount(question.id, isDemoTime);
+		const aiComments = isDemoTime ? null : await getAIComments(question.id);
 		return createBaseResponse(
 			question,
 			[],
-			commentCount,
+			commentCount ?? 0,
 			0,
 			questionTags,
 			session,
@@ -62,27 +63,27 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const [comments, removedComments, links, aiComments, flagReasons] = await Promise.all([
-		getComments(question.id, demo_time, false),
-		getComments(question.id, demo_time, true),
+		getComments(question.id, isDemoTime, false),
+		getComments(question.id, isDemoTime, true),
 		getQuestionLinks(question.id),
-		demo_time ? null : getAIComments(question.id),
+		isDemoTime ? null : getAIComments(question.id),
 		getFlagReasons()
 	]);
 
 	return createFullResponse(
 		question,
-		comments.data,
-		comments.count,
-		removedComments.data,
-		removedComments.count,
+		comments.data ?? [],
+		comments.count ?? 0,
+		removedComments.data ?? [],
+		removedComments.count ?? 0,
 		links.data,
-		links.count,
+		links.count ?? 0,
 		questionTags,
 		session,
 		userHasAnswered,
 		event,
 		aiComments,
-		demo_time,
+		isDemoTime,
 		flagReasons?.data || []
 	);
 };
@@ -136,7 +137,7 @@ export const actions: Actions = {
 
 		const commentData = await createCommentData(body, ip, demo_time);
 		const record = await handleCommentCreation(commentData, body.parent_type as string, demo_time);
-		return mapDemoValues(record);
+		return mapDemoValues(record as Record<string, unknown> | null);
 	},
 
 	likeComment: async ({ request, locals }) => {
@@ -232,7 +233,8 @@ async function getRequestData(request: Request): Promise<RequestData> {
  */
 async function checkRateLimit(fingerprint: string | undefined, ip: string): Promise<boolean> {
 	try {
-		const { data, error: rpcError } = await supabase.rpc('check_comment_rate_limit', {
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		const { data, error: rpcError } = await (supabase.rpc as any)('check_comment_rate_limit', {
 			p_fingerprint: fingerprint || null,
 			p_ip: ip,
 			p_max_comments: RATE_LIMIT_MAX_COMMENTS,
@@ -319,9 +321,9 @@ async function createESComment(
 			comment,
 			ip
 		});
-		return (resp as { _id: string })._id;
-	} catch (error) {
-		console.error('Error creating ES comment:', error);
+		return (resp as { _id: string } | null)?._id ?? null;
+	} catch (err) {
+		console.error('Error creating ES comment:', err);
 		return null;
 	}
 }
@@ -333,8 +335,8 @@ async function handleCommentCreation(
 ): Promise<unknown> {
 	// For demo mode, use regular insert (demo tables don't have the atomic RPC)
 	if (demo_time) {
-		const { data: record, error: addCommentError } = await supabase
-			.from('comments_demo')
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		const { data: record, error: addCommentError } = await (supabase.from('comments_demo') as any)
 			.insert(commentData)
 			.select()
 			.single();
@@ -348,7 +350,8 @@ async function handleCommentCreation(
 	}
 
 	// For production, use atomic RPC that handles insert + count increment in one transaction
-	const { data: record, error: rpcError } = await supabase.rpc('create_comment_atomic', {
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const { data: record, error: rpcError } = await (supabase.rpc as any)('create_comment_atomic', {
 		p_comment: commentData.comment,
 		p_parent_id: commentData.parent_id,
 		p_author_id: commentData.author_id || null,
@@ -367,8 +370,8 @@ async function handleCommentCreation(
 }
 
 async function addLike(parent_id: string, user_id: string) {
-	const { data: record, error: addLikeError } = await supabase
-		.from('comment_like')
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const { data: record, error: addLikeError } = await (supabase.from('comment_like') as any)
 		.insert({ comment_id: parseInt(parent_id), user_id })
 		.select()
 		.single();
@@ -378,7 +381,8 @@ async function addLike(parent_id: string, user_id: string) {
 		throw error(500, { message: 'Failed to add like' });
 	}
 
-	await supabase.rpc('increment_like_count', { comment_id: parent_id });
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	await (supabase.rpc as any)('increment_like_count', { comment_id: parent_id });
 	return record;
 }
 
@@ -394,13 +398,16 @@ async function removeLike(parent_id: string, user_id: string, demo_time: boolean
 		throw error(500, { message: 'Failed to remove like' });
 	}
 
-	await supabase.rpc('decrement_like_count', { comment_id: parent_id });
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	await (supabase.rpc as any)('decrement_like_count', { comment_id: parent_id });
 	return null;
 }
 
 async function addSubscription(parent_id: string, user_id: string, demo_time: boolean) {
-	const { data: subscriptionRecord, error: addSubscriptionError } = await supabase
-		.from(demo_time ? 'subscriptions_demo' : 'subscriptions')
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const { data: subscriptionRecord, error: addSubscriptionError } = await (
+		supabase.from(demo_time ? 'subscriptions_demo' : 'subscriptions') as any
+	)
 		.insert({ question_id: parseInt(parent_id), user_id })
 		.select()
 		.single();
@@ -429,7 +436,8 @@ async function removeSubscription(parent_id: string, user_id: string, demo_time:
 }
 
 async function incrementLinkClicks(linkId: string) {
-	const { error: incrementError } = await supabase.rpc('increment_clicks', {
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const { error: incrementError } = await (supabase.rpc as any)('increment_clicks', {
 		link_id: parseInt(linkId)
 	});
 
@@ -445,7 +453,8 @@ async function flagComment(
 	reasonId: string,
 	description: string
 ) {
-	const { error: flagCommentError } = await supabase.from('flagged_comments').insert({
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const { error: flagCommentError } = await (supabase.from('flagged_comments') as any).insert({
 		flagged_by: userId,
 		comment_id: parseInt(commentId),
 		reason_id: parseInt(reasonId),
@@ -459,8 +468,8 @@ async function flagComment(
 }
 
 async function updateQuestionImageUrl(url: string, imgPath: string) {
-	const { error: updateError } = await supabase
-		.from('questions')
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const { error: updateError } = await (supabase.from('questions') as any)
 		.update({ img_url: imgPath })
 		.eq('url', url);
 
@@ -526,34 +535,35 @@ async function fetchOGData(url: string): Promise<OGData> {
 		});
 
 		return ogData;
-	} catch (error) {
-		console.error(`Error fetching OG data: ${error.message}`);
+	} catch (err) {
+		const message = err instanceof Error ? err.message : String(err);
+		console.error(`Error fetching OG data: ${message}`);
 		return {};
 	}
 }
 
 async function parseUrls(comment: string, questionId: string): Promise<void> {
 	const { url, domain } = extractFirstURL(comment);
-	if (!domain) return;
+	if (!domain || !url) return;
 
 	try {
 		const ogData = await fetchOGData(url);
 		const domainId = await upsertDomain(domain);
 		await upsertLink(url, domainId, questionId, ogData);
-	} catch (error) {
-		console.error('Error parsing URLs:', error);
+	} catch (err) {
+		console.error('Error parsing URLs:', err);
 		// Consider how you want to handle errors here
 	}
 }
 
 async function upsertDomain(domain: string): Promise<number> {
-	const { data, error } = await supabase
-		.from('link_domains')
-		.upsert({ domain, updated_at: new Date() })
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const { data, error: upsertError } = await (supabase.from('link_domains') as any)
+		.upsert({ domain, updated_at: new Date().toISOString() })
 		.select('id')
 		.single();
 
-	if (error) throw new Error(`Failed to upsert domain: ${error.message}`);
+	if (upsertError) throw new Error(`Failed to upsert domain: ${upsertError.message}`);
 	if (!data) throw new Error('No data returned from domain upsert');
 
 	return data.id;
@@ -565,30 +575,31 @@ async function upsertLink(
 	questionId: string,
 	ogData: OGData
 ): Promise<void> {
-	const { error } = await supabase.from('links').upsert({
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const { error: upsertError } = await (supabase.from('links') as any).upsert({
 		url,
 		domain_id: domainId,
-		updated_at: new Date(),
+		updated_at: new Date().toISOString(),
 		question_id: questionId,
 		meta_title: ogData.title,
 		meta_description: ogData.description,
 		meta_image: ogData.image
 	});
 
-	if (error) throw new Error(`Failed to upsert link: ${error.message}`);
+	if (upsertError) throw new Error(`Failed to upsert link: ${upsertError.message}`);
 }
 
 async function getQuestion(slug: string, demo_time: boolean) {
 	const table = demo_time ? 'questions_demo' : 'questions';
 	const subscriptions = demo_time ? 'subscriptions_demo' : 'subscriptions';
-	const query = supabase
-		.from(table)
-		.select(`*, ${subscriptions} (id, question_id, user_id)`)
-		.single();
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const query = (supabase.from(table) as any).select(
+		`*, ${subscriptions} (id, question_id, user_id)`
+	);
 
 	const { data, error: findQuestionError } = await (Number.isInteger(parseInt(slug))
-		? query.eq('id', slug)
-		: query.eq('url', slug));
+		? query.eq('id', slug).single()
+		: query.eq('url', slug).single());
 
 	if (!data || findQuestionError) {
 		return null;
@@ -601,7 +612,8 @@ async function checkUserAnswered(
 	questionId: number,
 	userId: string | undefined
 ) {
-	const { data } = await supabase.rpc('can_see_comments_3', {
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const { data } = await (supabase.rpc as any)('can_see_comments_3', {
 		userfingerprint: cookie,
 		questionid: questionId,
 		userid: userId || null

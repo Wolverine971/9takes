@@ -23,7 +23,7 @@ path: src/blog/people/drafts/Sydney-Sweeney.md
 
 > "I function much better when I'm under pressure. I'm at a different level when I have tons of things to do."
 >
-> Sydney Sweeney ([Israel Hayom](https://www.israelhayom.com/2024/05/12/sydney-sweeney-talks-about-her-new-horror-film-immaculate/))
+> Sydney Sweeney (via <a href="https://www.israelhayom.com/2025/12/03/sydney-sweeney-interview-fighter-spirit-hollywood-backlash/">Israel Hayom</a>)
 
 <p class="firstLetter">Sydney Sweeney gained 30 pounds, trained for three and a half months, and turned her grandmother's shed into a Rocky-style gym. All for one role. That's Type 3 psychology. And it explains everything about Sydney Sweeney.</p>
 

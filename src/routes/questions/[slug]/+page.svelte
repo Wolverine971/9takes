@@ -35,7 +35,7 @@
 		aiComments: data.aiComments,
 		ai_comments: data.aiComments,
 		links: data.links,
-		links_count: data.links_count,
+		links_count: data.links_count ?? 0,
 		flags: {
 			userHasAnswered: data.flags?.userHasAnswered || optimisticUserHasAnswered,
 			userSignedIn: data.flags?.userSignedIn || false
@@ -48,8 +48,8 @@
 	// QR Code settings
 	let qrCodeUrl = $state('');
 	const QR_OPTS = {
-		errorCorrectionLevel: 'H',
-		type: 'image/png',
+		errorCorrectionLevel: 'H' as const,
+		type: 'image/png' as const,
 		quality: 0.7,
 		margin: 1,
 		color: {
@@ -92,100 +92,111 @@
 			.catch((err) => console.error('QR Code generation failed:', err));
 	});
 
-	// SEO metadata
-	const description = `🏛️ Give your take to the question: ${data.question?.question_formatted || data.question?.question}`;
-	const url = `https://9takes.com/questions/${data.question.url}`;
-	const imgUrl = data.question?.img_url
-		? `${PUBLIC_SUPABASE_URL}/storage/v1/object/public/questions/${data.question.img_url}`
-		: `https://9takes.com/blogs/looking-at-questions.webp`;
+	// SEO metadata (derived to stay reactive with data changes)
+	let description = $derived(
+		`🏛️ Give your take to the question: ${data.question?.question_formatted || data.question?.question}`
+	);
+	let url = $derived(`https://9takes.com/questions/${data.question.url}`);
+	let imgUrl = $derived(
+		data.question?.img_url
+			? `${PUBLIC_SUPABASE_URL}/storage/v1/object/public/questions/${data.question.img_url}`
+			: `https://9takes.com/blogs/looking-at-questions.webp`
+	);
 
-	// Prepare JSON-LD for structured data
-	const formattedAIComments = data?.aiComments?.map((comment: any) => {
-		return {
-			'@type': 'Answer',
-			text: comment.comment,
-			dateCreated: comment.created_at,
-			upvoteCount: 0,
-			author: {
-				'@type': 'Person',
-				name: `Enneagram Type ${comment.enneagram}`,
-				identifier: `enneagram-type-${comment.enneagram}`
-			}
-		};
-	});
+	// Prepare JSON-LD for structured data (derived for reactivity)
+	let formattedAIComments = $derived(
+		data?.aiComments?.map((comment: any) => {
+			return {
+				'@type': 'Answer',
+				text: comment.comment,
+				dateCreated: comment.created_at,
+				upvoteCount: 0,
+				author: {
+					'@type': 'Person',
+					name: `Enneagram Type ${comment.enneagram}`,
+					identifier: `enneagram-type-${comment.enneagram}`
+				}
+			};
+		})
+	);
 
 	// Format regular user comments as answers (fallback when no AI comments)
-	const formattedUserComments = data?.comments?.slice(0, 5).map((comment: any) => {
-		return {
-			'@type': 'Answer',
-			text: comment.comment,
-			dateCreated: comment.created_at,
-			upvoteCount: comment.likes || 0,
-			author: {
-				'@type': 'Person',
-				name: comment.enneagram ? `Enneagram Type ${comment.enneagram}` : 'Anonymous',
-				identifier: comment.author_id || 'anonymous'
-			}
-		};
-	});
+	let formattedUserComments = $derived(
+		data?.comments?.slice(0, 5).map((comment: any) => {
+			return {
+				'@type': 'Answer',
+				text: comment.comment,
+				dateCreated: comment.created_at,
+				upvoteCount: comment.likes || 0,
+				author: {
+					'@type': 'Person',
+					name: comment.enneagram ? `Enneagram Type ${comment.enneagram}` : 'Anonymous',
+					identifier: comment.author_id || 'anonymous'
+				}
+			};
+		})
+	);
 
 	// Use AI comments first, then user comments as fallback
-	const suggestedAnswers =
+	let suggestedAnswers = $derived(
 		formattedAIComments?.length > 0
 			? formattedAIComments
 			: formattedUserComments?.length > 0
 				? formattedUserComments
-				: undefined;
+				: undefined
+	);
 
-	const questionJsonLd = JSON.stringify({
-		'@context': 'https://schema.org',
-		'@type': 'QAPage',
-		url: url,
-		name: title,
-		description: description,
-		isPartOf: {
-			'@type': 'WebSite',
-			name: '9takes',
-			url: 'https://9takes.com'
-		},
-		breadcrumb: {
-			'@type': 'BreadcrumbList',
-			itemListElement: [
-				{
-					'@type': 'ListItem',
-					position: 1,
-					name: 'Home',
-					item: 'https://9takes.com'
-				},
-				{
-					'@type': 'ListItem',
-					position: 2,
-					name: 'Questions',
-					item: 'https://9takes.com/questions'
-				},
-				{
-					'@type': 'ListItem',
-					position: 3,
-					name: data.question.question_formatted || data.question.question,
-					item: url
-				}
-			]
-		},
-		mainEntity: {
-			'@type': 'Question',
-			name: data.question.question_formatted || data.question.question,
-			text: data.question.context || data.question.question_formatted || data.question.question,
-			answerCount: data.question.comment_count || 0,
-			dateCreated: data.question.created_at,
-			author: data.question.author_id
-				? {
-						'@type': 'Person',
-						identifier: data.question.author_id
+	let questionJsonLd = $derived(
+		JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': 'QAPage',
+			url: url,
+			name: title,
+			description: description,
+			isPartOf: {
+				'@type': 'WebSite',
+				name: '9takes',
+				url: 'https://9takes.com'
+			},
+			breadcrumb: {
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{
+						'@type': 'ListItem',
+						position: 1,
+						name: 'Home',
+						item: 'https://9takes.com'
+					},
+					{
+						'@type': 'ListItem',
+						position: 2,
+						name: 'Questions',
+						item: 'https://9takes.com/questions'
+					},
+					{
+						'@type': 'ListItem',
+						position: 3,
+						name: data.question.question_formatted || data.question.question,
+						item: url
 					}
-				: undefined,
-			...(suggestedAnswers && { suggestedAnswer: suggestedAnswers })
-		}
-	});
+				]
+			},
+			mainEntity: {
+				'@type': 'Question',
+				name: data.question.question_formatted || data.question.question,
+				text: data.question.context || data.question.question_formatted || data.question.question,
+				answerCount: data.question.comment_count || 0,
+				dateCreated: data.question.created_at,
+				author: data.question.author_id
+					? {
+							'@type': 'Person',
+							identifier: data.question.author_id
+						}
+					: undefined,
+				...(suggestedAnswers && { suggestedAnswer: suggestedAnswers })
+			}
+		})
+	);
 </script>
 
 <svelte:window bind:innerWidth />
