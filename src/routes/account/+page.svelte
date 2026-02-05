@@ -25,21 +25,23 @@
 
 	let { data }: { data: AccountData } = $props();
 
-	// Initialize form state - intentionally captures initial values for editing
-	let firstName = $state(data?.user?.first_name ?? '');
-	let lastName = $state(data?.user?.last_name ?? '');
-	let enneagram = $state(data?.user?.enneagram ?? '');
+	// Form state initialized empty, populated by $effect
+	let firstName = $state('');
+	let lastName = $state('');
+	let enneagram = $state('');
+	let saving = $state(false);
+	let loggingOut = $state(false);
+	let initialized = $state(false);
 
-	// Reset form when data changes (e.g., navigation)
+	// Initialize and sync form when data changes
 	$effect(() => {
-		if (data?.user) {
+		if (data?.user && !initialized) {
 			firstName = data.user.first_name ?? '';
 			lastName = data.user.last_name ?? '';
 			enneagram = data.user.enneagram ?? '';
+			initialized = true;
 		}
 	});
-	let saving = $state(false);
-	let loggingOut = $state(false);
 
 	const formChanged = $derived(
 		firstName !== data.user.first_name ||
@@ -165,23 +167,25 @@
 				</div>
 			</div>
 
-			<div class="form-field enneagram-field">
-				<label>Enneagram Type</label>
+			<fieldset class="form-field enneagram-field">
+				<legend>Enneagram Type</legend>
 				<p class="field-hint">Select your personality type</p>
-				<div class="type-grid">
+				<div class="type-grid" role="radiogroup" aria-label="Enneagram Type">
 					{#each enneagramTypes as type}
 						<button
 							class="type-btn"
 							class:selected={enneagram === String(type.num)}
 							onclick={() => selectType(type.num)}
 							type="button"
+							role="radio"
+							aria-checked={enneagram === String(type.num)}
 						>
 							<span class="type-num">{type.num}</span>
 							<span class="type-name">{type.name}</span>
 						</button>
 					{/each}
 				</div>
-			</div>
+			</fieldset>
 
 			<div class="form-actions">
 				<LoadingButton
@@ -461,6 +465,15 @@
 
 	.enneagram-field {
 		margin-bottom: 1.25rem;
+		border: none;
+		padding: 0;
+
+		legend {
+			font-size: 0.8125rem;
+			font-weight: 500;
+			color: #cbd5e1;
+			margin-bottom: 0.375rem;
+		}
 	}
 
 	.type-grid {
