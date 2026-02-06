@@ -3,36 +3,31 @@
 	import { browser } from '$app/environment';
 	import BlogComment from '$lib/components/blog/BlogComment.svelte';
 
-	export let slug: string;
-	export let comments: any[];
-	export let parentType: string;
-	export let userHasAnswered: boolean;
-	export let user: any;
+	let {
+		slug,
+		comments,
+		parentType,
+		userHasAnswered,
+		user
+	}: {
+		slug: string;
+		comments: any[];
+		parentType: string;
+		userHasAnswered: boolean;
+		user: any;
+	} = $props();
 
-	$: comment_count = comments.length;
-	let loading = false;
-
-	const refreshComments = async (data: any) => {
-		// Implement refresh logic here if needed
-	};
+	let commentCount = $derived(comments?.length ?? 0);
 </script>
 
 <div class="blog-comments">
-	{#if comment_count > 0 && !userHasAnswered}
+	{#if commentCount > 0 && !userHasAnswered}
 		<p class="comment-info">Must answer question first</p>
-	{:else if loading}
-		<div class="comment-info">Loading comments...</div>
 	{:else if !browser || (comments?.length && userHasAnswered) || (comments?.length && parentType === 'comment')}
 		{#if comments?.length}
 			<div class="comment-list">
 				{#each comments as comment (comment.id)}
-					<BlogComment
-						{comment}
-						{slug}
-						{user}
-						{userHasAnswered}
-						on:commentAdded={({ detail }) => refreshComments(detail)}
-					/>
+					<BlogComment {comment} {slug} {user} {userHasAnswered} />
 				{/each}
 			</div>
 		{:else}
@@ -42,21 +37,20 @@
 </div>
 
 <style lang="scss">
-	@import '../molecules/comment.scss';
-
 	.blog-comments {
-		margin-top: var(--comment-margin);
+		margin-top: 0.5rem;
 	}
 
 	.comment-info {
-		padding: var(--comment-padding);
-		color: var(--color-text);
+		padding: 0.75rem 1rem;
+		color: #94a3b8;
 		font-style: italic;
+		font-size: 0.9rem;
 	}
 
 	.comment-list {
 		display: flex;
 		flex-direction: column;
-		gap: var(--comment-margin);
+		gap: 0.5rem;
 	}
 </style>
