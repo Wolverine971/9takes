@@ -12,36 +12,16 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "Jeffrey-Epstein.png" -o "Jeffrey-Epstein.webp"
-cwebp -sns 70 -f 50 -size 20000 "Jeffrey-Epstein.webp" -o "./s-Jeffrey-Epstein.webp"
+cwebp "parasocial-relationships-psychology.png" -o "parasocial-relationships-psychology.webp"
+cwebp -sns 70 -f 50 -size 20000 "parasocial-relationships-psychology.webp" -o "./s-parasocial-relationships-psychology.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->
 
-Cristiano-Ronaldo
-Andrew-Tate
-Paul-Rudd
-Jack-Black
+Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the incel-blackpill-radicalization-enneagram blog, read it and put your comments as a comment at the bottom of the article
 
-I want to know about his relationship with gweneth paltrow and what she said during filming shallow hal.
+Ok so i added some comments at the bottom of the article incel-blackpill-radicalization-enneagram, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
 
-I want to know about his relationship with kevin heart and what their dynamic was like when filming Jumanji.
-
-I want to know what his relationship was like with paul rudd on anaconda
-
-enneagram-types-in-stress
-how-to-navigate-early-relationship-stages
-parasocial-relationships-enneagram-type
-enneagram-types-on-a-first-date
-
-Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Sabrina-Carpenter blog, read it and put your comments as a comment at the bottom of the article
-
-Ok so i added some comments at the bottom of the article Sabrina-Carpenter, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
-
-I want you to edit this blog on Sabrina-Carpenter and use the content-editor agent doc to guide you.
-
-/how-to-navigate-early-relationship-stages
-
-static/brand/Jeffrey-Epstein.png
+I want you to edit this blog on incel-blackpill-radicalization-enneagram and use the content-editor agent doc to guide you.
 
 Act like a normal person who is reading these articles and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the blogs, read it and put your comments as a comment at the bottom of each article, also tell me how they fit together

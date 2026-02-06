@@ -1,4 +1,56 @@
 <!-- src/routes/about/+page.svelte -->
+
+<!--
+=== ABOUT PAGE REVIEW (2026-02-06) ===
+
+PRIORITY 1: Explain the Enneagram somewhere on this page.
+You mention it repeatedly but never define it. A first-time visitor may think
+it's astrology or have never heard of it. Even one sentence would fix this:
+"The Enneagram is a personality framework that maps 9 core emotional motivations."
+Without this, the whole page rests on something readers might not trust or understand.
+
+PRIORITY 2: Add one concrete example.
+Show an actual question with 2-3 different type responses side by side.
+Right now the value prop is entirely abstract. One real example would make
+the concept click instantly and be worth more than several sections of copy.
+
+PRIORITY 3: Cut or rethink the Roadmap section.
+"Now / Next / Eventually / End Game" reads as internal company planning,
+not something a first-time visitor cares about. Replace with social proof
+(testimonials, user count, a live example) - anything that builds trust
+rather than describing your corporate vision.
+
+PRIORITY 4: Make "Why This Matters" specific.
+Relationships / Work / Self-Awareness / Decisions are generic benefits
+that every self-help product claims. Compare these to the founder story,
+which is vivid and personal. This section needs that same energy - real
+examples of how seeing through another type's lens changed something.
+
+PRIORITY 5: Deprioritize the coaching CTA.
+"Book a Session" and "Get Personal Help / Work through your blindspots"
+feels like a sales funnel and is a huge ask for someone who just learned
+what the site is. Lead with the product (Browse Questions). If coaching
+stays, reframe it - "Go Deeper" or "Personalized Guidance" instead of
+"Get Personal Help" which implies the visitor has a problem.
+
+SMALL FIXES:
+- The closing quote ("See through other people's eyes without losing your
+  own vision") is strong enough to be the page tagline - consider promoting it.
+- "Reach out. I read everything." is a nice human touch. Keep it.
+- on:click (line 332) is Svelte 4 syntax - migrate to onclick for Svelte 5.
+- Two support emails (dj@ and userSup@) may confuse visitors. One is enough
+  for a small operation.
+- "8 other personality types" is confusing without explaining why there are
+  exactly 9 types or why grouping people this way is meaningful.
+
+WHAT WORKS WELL (keep these):
+- Hero hook "You're Only Seeing 1/9th of Reality" is immediately compelling.
+- The 500M stat grounds the hook in something real.
+- Problem/solution framing is clear and relatable.
+- Reddit comparison ("500 comments saying the same thing" vs "9 perspectives") lands.
+- Founder story is authentic and earns trust - the Marines vulnerability is strong.
+- "Reach out. I read everything." is warm and human.
+-->
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import twitter from '$lib/images/twitter.svg';

@@ -50,9 +50,7 @@
 <div class="page-wrapper">
 	<header class="hero">
 		<h1>All Blogs</h1>
-		<p class="hero-subtitle">
-			Personality insights, Enneagram deep dives, and real-world analysis
-		</p>
+		<p class="hero-subtitle">Personality insights, Enneagram deep dives, and real-world analysis</p>
 	</header>
 
 	<!-- Quick Navigation -->
@@ -74,9 +72,7 @@
 						<h2>{section.title}</h2>
 						<p class="section-subtitle">{section.subtitle}</p>
 					</div>
-					<a href={section.href} class="view-all-link">
-						View all &rarr;
-					</a>
+					<a href={section.href} class="view-all-link"> View all &rarr; </a>
 				</div>
 
 				<div class="blog-grid">

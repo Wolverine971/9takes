@@ -26,8 +26,8 @@
 			create order from chaos
 		</li>
 		<li>
-			<strong>Recognized by</strong>: Meticulous attention to detail, correcting small errors
-			others miss, a visible tension between wanting to speak up and wanting to keep the peace
+			<strong>Recognized by</strong>: Meticulous attention to detail, correcting small errors others
+			miss, a visible tension between wanting to speak up and wanting to keep the peace
 		</li>
 	</ul>
 
@@ -63,12 +63,12 @@
 		<li><strong>Stereotypes</strong>: People-pleasers, overly accommodating, emotionally needy</li>
 		<li><strong>Archetypes</strong>: The Caregiver, The Nurturer, The Servant, The Confidant</li>
 		<li>
-			<strong>Struggles</strong>: Difficulty setting boundaries, neglecting their own needs,
-			seeking validation through helping others
+			<strong>Struggles</strong>: Difficulty setting boundaries, neglecting their own needs, seeking
+			validation through helping others
 		</li>
 		<li>
-			<strong>Gifts</strong>: Highly attuned to others' emotions, natural empathy, ability to
-			make people feel genuinely seen and loved
+			<strong>Gifts</strong>: Highly attuned to others' emotions, natural empathy, ability to make
+			people feel genuinely seen and loved
 		</li>
 		<li>
 			<strong>Recognized by</strong>: Warm and approachable demeanor, always the first to offer
@@ -98,31 +98,29 @@
 {#if type === '3'}
 	<h2>What Drives a Type 3</h2>
 	<p>
-		In any meeting, the Type 3 already knows who the decision-maker is and has positioned
-		themselves accordingly. They're wired for achievement — reading the room, adapting their
-		approach, and executing with a polish that makes it look effortless. What you see is someone
-		who just "gets it." What you don't see is how carefully they've calibrated every move.
+		In any meeting, the Type 3 already knows who the decision-maker is and has positioned themselves
+		accordingly. They're wired for achievement — reading the room, adapting their approach, and
+		executing with a polish that makes it look effortless. What you see is someone who just "gets
+		it." What you don't see is how carefully they've calibrated every move.
 	</p>
 	<ul>
 		<li>
-			<strong>Stereotypes</strong>: Status-seeking, overly competitive, image-conscious
-			workaholics
+			<strong>Stereotypes</strong>: Status-seeking, overly competitive, image-conscious workaholics
 		</li>
 		<li>
-			<strong>Archetypes</strong>: The Performer, The Entrepreneur, The Politician, The Role
-			Model
+			<strong>Archetypes</strong>: The Performer, The Entrepreneur, The Politician, The Role Model
 		</li>
 		<li>
-			<strong>Struggles</strong>: Difficulty being authentic, tying self-worth to achievements,
-			deep fear of failure and rejection
+			<strong>Struggles</strong>: Difficulty being authentic, tying self-worth to achievements, deep
+			fear of failure and rejection
 		</li>
 		<li>
-			<strong>Gifts</strong>: Goal-oriented mindset, ability to inspire and motivate others,
-			highly adaptable to changing circumstances
+			<strong>Gifts</strong>: Goal-oriented mindset, ability to inspire and motivate others, highly
+			adaptable to changing circumstances
 		</li>
 		<li>
-			<strong>Recognized by</strong>: Polished appearance, confident energy, steering
-			conversations toward accomplishments and next steps
+			<strong>Recognized by</strong>: Polished appearance, confident energy, steering conversations
+			toward accomplishments and next steps
 		</li>
 	</ul>
 
@@ -141,17 +139,17 @@
 	</ul>
 
 	<p>
-		Read a Type 3 by watching what they do when nobody's clapping. That's where you'll see the
-		real person behind the performance.
+		Read a Type 3 by watching what they do when nobody's clapping. That's where you'll see the real
+		person behind the performance.
 	</p>
 {/if}
 {#if type === '4'}
 	<h2>What Drives a Type 4</h2>
 	<p>
-		While everyone else is having a good time at the party, a Type 4 is wondering why the good
-		time feels slightly hollow. They experience emotions at a depth most people don't access — and
-		that intensity is both their superpower and their curse. They're not being dramatic. They
-		genuinely feel things differently.
+		While everyone else is having a good time at the party, a Type 4 is wondering why the good time
+		feels slightly hollow. They experience emotions at a depth most people don't access — and that
+		intensity is both their superpower and their curse. They're not being dramatic. They genuinely
+		feel things differently.
 	</p>
 	<ul>
 		<li>
@@ -189,8 +187,8 @@
 	</ul>
 
 	<p>
-		Decode a Type 4 by taking their emotions seriously. Don't try to "fix" their mood. Sit with
-		them in it — that's how you earn their trust.
+		Decode a Type 4 by taking their emotions seriously. Don't try to "fix" their mood. Sit with them
+		in it — that's how you earn their trust.
 	</p>
 {/if}
 {#if type === '5'}
@@ -213,12 +211,12 @@
 			overwhelmed, fear of being incompetent or unprepared
 		</li>
 		<li>
-			<strong>Gifts</strong>: Highly analytical and objective, ability to think deeply and
-			innovate, remarkably self-sufficient and resourceful
+			<strong>Gifts</strong>: Highly analytical and objective, ability to think deeply and innovate,
+			remarkably self-sufficient and resourceful
 		</li>
 		<li>
-			<strong>Recognized by</strong>: Intellectual curiosity about niche topics, needing alone
-			time after social events, giving precise and carefully worded answers
+			<strong>Recognized by</strong>: Intellectual curiosity about niche topics, needing alone time
+			after social events, giving precise and carefully worded answers
 		</li>
 	</ul>
 
@@ -237,8 +235,8 @@
 	</ul>
 
 	<p>
-		Navigate a Type 5 by respecting their space and leading with substance. Skip the small talk.
-		Ask them what they've been researching — then actually listen. That's their love language.
+		Navigate a Type 5 by respecting their space and leading with substance. Skip the small talk. Ask
+		them what they've been researching — then actually listen. That's their love language.
 	</p>
 {/if}
 {#if type === '6'}
@@ -257,16 +255,16 @@
 			<strong>Archetypes</strong>: The Skeptic, The Guardian, The Trooper, The Devil's Advocate
 		</li>
 		<li>
-			<strong>Struggles</strong>: Prone to anxiety and self-doubt, difficulty trusting people
-			until they've been thoroughly tested, worst-case scenario thinking
+			<strong>Struggles</strong>: Prone to anxiety and self-doubt, difficulty trusting people until
+			they've been thoroughly tested, worst-case scenario thinking
 		</li>
 		<li>
 			<strong>Gifts</strong>: Highly attuned to potential risks, ability to create stability and
 			security for their community, fiercely loyal and supportive
 		</li>
 		<li>
-			<strong>Recognized by</strong>: Asking lots of questions, having backup plans for their
-			backup plans, fierce loyalty once you've earned their trust
+			<strong>Recognized by</strong>: Asking lots of questions, having backup plans for their backup
+			plans, fierce loyalty once you've earned their trust
 		</li>
 	</ul>
 
@@ -296,8 +294,8 @@
 	<p>
 		A Type 7 has three tabs open, two plans for tonight, and just had an idea for a side project —
 		all before lunch. Their mind moves fast because standing still means feeling whatever they've
-		been outrunning. Behind the enthusiasm is a simple equation: if life stays exciting, the
-		painful stuff can't catch up.
+		been outrunning. Behind the enthusiasm is a simple equation: if life stays exciting, the painful
+		stuff can't catch up.
 	</p>
 	<ul>
 		<li>
@@ -305,16 +303,16 @@
 			unfocused
 		</li>
 		<li>
-			<strong>Archetypes</strong>: The Adventurer, The Entertainer, The Visionary, The
-			Renaissance Person
+			<strong>Archetypes</strong>: The Adventurer, The Entertainer, The Visionary, The Renaissance
+			Person
 		</li>
 		<li>
-			<strong>Struggles</strong>: Difficulty sitting with painful emotions, prone to
-			overcommitting, chronic fear of missing out
+			<strong>Struggles</strong>: Difficulty sitting with painful emotions, prone to overcommitting,
+			chronic fear of missing out
 		</li>
 		<li>
-			<strong>Gifts</strong>: Ability to find joy in any situation, highly adaptable and
-			resilient, natural storytellers who make everything more fun
+			<strong>Gifts</strong>: Ability to find joy in any situation, highly adaptable and resilient,
+			natural storytellers who make everything more fun
 		</li>
 		<li>
 			<strong>Recognized by</strong>: Rapid topic-switching in conversation, infectious energy,
@@ -337,9 +335,9 @@
 	</ul>
 
 	<p>
-		Read a Type 7 by watching when they change the subject. That's usually the moment a
-		conversation got too real. Don't chase them — just note where the exit door is. That tells you
-		what they're avoiding.
+		Read a Type 7 by watching when they change the subject. That's usually the moment a conversation
+		got too real. Don't chase them — just note where the exit door is. That tells you what they're
+		avoiding.
 	</p>
 {/if}
 {#if type === '8'}
@@ -366,8 +364,8 @@
 			ability to take decisive action when everyone else hesitates
 		</li>
 		<li>
-			<strong>Recognized by</strong>: Commanding presence, direct communication, being the first
-			to take charge in a crisis
+			<strong>Recognized by</strong>: Commanding presence, direct communication, being the first to
+			take charge in a crisis
 		</li>
 	</ul>
 
@@ -386,8 +384,8 @@
 	</ul>
 
 	<p>
-		Decode a Type 8 by how they test you. They'll push to see if you fold. Stand your ground
-		without matching their aggression and you'll earn something rare — their genuine respect.
+		Decode a Type 8 by how they test you. They'll push to see if you fold. Stand your ground without
+		matching their aggression and you'll earn something rare — their genuine respect.
 	</p>
 {/if}
 {#if type === '9'}
@@ -396,8 +394,8 @@
 	<p>
 		The Type 9 is the person everyone feels comfortable around but nobody fully knows. They have a
 		gift for making you feel heard, validating your perspective, and smoothing over tension — often
-		at the cost of their own opinions disappearing entirely. They're not passive. They're
-		absorbing everything and choosing peace over the exhausting alternative.
+		at the cost of their own opinions disappearing entirely. They're not passive. They're absorbing
+		everything and choosing peace over the exhausting alternative.
 	</p>
 	<ul>
 		<li>
@@ -421,8 +419,8 @@
 	<h2>The Peacemaker's Worldview</h2>
 
 	<p>
-		What happens when someone's greatest fear is disconnection? You get a Type 9 — someone who
-		maps the world by where the harmony is and where it's breaking down:
+		What happens when someone's greatest fear is disconnection? You get a Type 9 — someone who maps
+		the world by where the harmony is and where it's breaking down:
 	</p>
 	<ul>
 		<li>Every person and perspective has inherent value worth acknowledging</li>
@@ -433,9 +431,9 @@
 	</ul>
 
 	<p>
-		Unlock a Type 9 by asking what <em>they</em> want — then waiting. The pause isn't
-		indecision. They're checking whether it's actually safe to have a preference. Give them that
-		space and you'll hear things they don't tell anyone.
+		Unlock a Type 9 by asking what <em>they</em> want — then waiting. The pause isn't indecision. They're
+		checking whether it's actually safe to have a preference. Give them that space and you'll hear things
+		they don't tell anyone.
 	</p>
 {/if}
 

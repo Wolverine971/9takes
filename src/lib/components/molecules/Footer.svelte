@@ -16,7 +16,8 @@
 		{ href: '/community', label: 'The Takes of 9takes' },
 		{ href: '/enneagram-corner', label: 'Enneagram Corner' },
 		{ href: '/personality-analysis', label: 'Personality Analysis' },
-		{ href: '/how-to-guides', label: 'How-to Guides' }
+		{ href: '/how-to-guides', label: 'How-to Guides' },
+		{ href: '/pop-culture', label: 'Pop Culture' }
 	];
 
 	// Social media links

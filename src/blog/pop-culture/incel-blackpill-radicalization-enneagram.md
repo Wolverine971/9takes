@@ -288,13 +288,13 @@ The research offers one hopeful note: because incels follow typical radicalizati
 
 One man on r/IncelExit described his exit in a post titled ["How I learnt to see women as human beings."](https://www.reddit.com/r/IncelExit/comments/1jjf971/how_i_learnt_to_see_women_as_human_beings/) His story illustrates something the academic research can't capture: how the ideology unravels from the inside.
 
-He entered the pipeline at 14, Googling "how to get a girlfriend." Shy, isolated, no friends. He found PUA content and felt like he'd discovered secret knowledge. He went deep—articles, tactics, glossaries. He literally learned the English word "target" from Neil Strauss's *The Game*. The framework felt scientific. Follow the steps, get the results.
+He entered the pipeline at 14, Googling "how to get a girlfriend." Shy, isolated, no friends. He found PUA content and felt like he'd discovered secret knowledge. He went deep—articles, tactics, glossaries. He literally learned the English word "target" from Neil Strauss's _The Game_. The framework felt scientific. Follow the steps, get the results.
 
-And it *worked*—partially. He made friends. Got a girlfriend. Eventually had sex. But every milestone felt the same: not joy, not connection. **Relief.** Relief that he wasn't falling behind. Relief that the pressure in his chest could stop for a moment. He describes kissing his first girlfriend and feeling nothing except "I did it in time."
+And it _worked_—partially. He made friends. Got a girlfriend. Eventually had sex. But every milestone felt the same: not joy, not connection. **Relief.** Relief that he wasn't falling behind. Relief that the pressure in his chest could stop for a moment. He describes kissing his first girlfriend and feeling nothing except "I did it in time."
 
 The framework had turned relationships into a scoreboard. Giving his partners pleasure wasn't about them—it was about proving superiority over other men. Even his kindness had strings attached. "It was always about achieving something, never just connecting." He only noticed women he was attracted to. He didn't see equals. And in the manosphere, other men offered no brotherhood either—just competition, comparison, and blame when things didn't work.
 
-The break came after he ended a year-and-a-half situationship with a woman he'd hurt deeply. A few days later, he started involuntarily reviewing every interaction with women since he was 14. And the realization hit: "I had never really seen women as people. I didn't want to hurt them. I didn't hate them. But I didn't really *see* them, either. They were all variations of the same idea to me. Same category. Same color, just different shades."
+The break came after he ended a year-and-a-half situationship with a woman he'd hurt deeply. A few days later, he started involuntarily reviewing every interaction with women since he was 14. And the realization hit: "I had never really seen women as people. I didn't want to hurt them. I didn't hate them. But I didn't really _see_ them, either. They were all variations of the same idea to me. Same category. Same color, just different shades."
 
 He remembered one moment at 19—getting ready for a date with someone he actually had feelings for and almost crying because "For once, I feel human." That moment stood out because it was so rare.
 
@@ -340,7 +340,6 @@ But mapping the problem is only half the work. There are questions this piece ra
 [Part 2](/pop-culture/masculinity-strength-and-the-enneagram) takes these on. For a practical starting point, see our [Enneagram dating guide for men](/enneagram-corner/enneagram-dating-guide-for-men).
 
 One last thing. If any of this landed close to home: [988 Suicide & Crisis Lifeline](https://988lifeline.org/). Real people. No ideology. No algorithm.
-
 
 <svelte:head>
 

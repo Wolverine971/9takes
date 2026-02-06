@@ -1,3 +1,4 @@
+<!-- src/blog/pop-culture/incel-exit-post.md -->
 # Incel Exit Post — Source Material & Analysis
 
 Source: [r/IncelExit (Reddit)](https://www.reddit.com/r/IncelExit/comments/1jjf971/how_i_learnt_to_see_women_as_human_beings/), ~1 year old post titled "How I learnt to see women as human beings" by u/Jatioceh. Archived, 127 upvotes.
@@ -18,15 +19,15 @@ My first goal was to get a girlfriend. I did, that same year. And when I kissed 
 
 But when I entered college, I was still a virgin. Some nights I couldn't sleep, lying there thinking, "What if I die without having sex?" or "What if I'm still a virgin at 20?" That fear consumed me. So when I turned 19, I started doing everything—street pickup, night pickup, dating apps. Eventually I had sex. And again, the main emotion wasn't joy or connection. It was relief. The pressure in my chest disappeared instantly. Like a curse had been lifted.
 
-But it wasn't enough. Now I had to become *good* at it. I had to be the best lover possible. I wanted to last as long as I wanted, give orgasms, make them remember me. And I did get good, technically. But it wasn't about sharing a moment with someone. It was about performance. About control. About proving something. Giving orgasms wasn't about making her feel good—it was a way to reassure myself, to feel superior to other men, to feel like I had value. Even the nice things I said or did often had an instrumental purpose. It was always about achieving something, never just connecting.
+But it wasn't enough. Now I had to become _good_ at it. I had to be the best lover possible. I wanted to last as long as I wanted, give orgasms, make them remember me. And I did get good, technically. But it wasn't about sharing a moment with someone. It was about performance. About control. About proving something. Giving orgasms wasn't about making her feel good—it was a way to reassure myself, to feel superior to other men, to feel like I had value. Even the nice things I said or did often had an instrumental purpose. It was always about achieving something, never just connecting.
 
-Then, two years ago, a situationship ended. It had lasted about a year and a half. She was a lonely girl with very low self-esteem, and I ended it, but I hurt her deeply. A few days after the breakup, something started to shift. I started thinking back to all my experiences with girls since I was 14. And I was hit with this horrifying realization: **I had never really seen women as people.** I didn't want to hurt them. I didn't hate them. But I didn't really *see* them, either. They were all variations of the same idea to me. Same category. Same color, just different shades. I could make exceptions for a few—especially those who were more "masculine" in mindset—but I considered them "exceptions," which proves the point.
+Then, two years ago, a situationship ended. It had lasted about a year and a half. She was a lonely girl with very low self-esteem, and I ended it, but I hurt her deeply. A few days after the breakup, something started to shift. I started thinking back to all my experiences with girls since I was 14. And I was hit with this horrifying realization: **I had never really seen women as people.** I didn't want to hurt them. I didn't hate them. But I didn't really _see_ them, either. They were all variations of the same idea to me. Same category. Same color, just different shades. I could make exceptions for a few—especially those who were more "masculine" in mindset—but I considered them "exceptions," which proves the point.
 
-Most of the time, when I approached a girl, I wasn't interested in *her*. I just approached because I felt like I had to. I remember a moment at 19, preparing for a date with someone I actually had feelings for. I almost cried while getting ready, because I thought, "For once, I feel human." That moment stands out because it was so rare.
+Most of the time, when I approached a girl, I wasn't interested in _her_. I just approached because I felt like I had to. I remember a moment at 19, preparing for a date with someone I actually had feelings for. I almost cried while getting ready, because I thought, "For once, I feel human." That moment stands out because it was so rare.
 
 Some girls stopped seeing me because I was mean to them. And I think they were right. I wasn't actively trying to be cruel, but I acted cold, dominant, detached—because that's what I thought was attractive. I didn't feel like I had the power to hurt anyone, because I felt so small and worthless inside. I had this deeply ingrained belief that women had all the options, all the power, all the freedom. So how could someone like me possibly harm them?
 
-The irony is that I'd known about feminism for years. But when it came to dating, I tuned it out. It didn't feel like it applied to *me*.
+The irony is that I'd known about feminism for years. But when it came to dating, I tuned it out. It didn't feel like it applied to _me_.
 
 I thought back to some of the girls I really liked and got rejected by. I wondered what would've happened if I had just been honest. If I had said, "I don't know what I'm doing, but I'd like to get to know you." If I hadn't played a role. If I hadn't walked away the second I learned she had a boyfriend. But I never gave myself that chance. It became a self-fulfilling prophecy. I approached, I got rejected, and every time it felt like confirmation that I was failing.
 
@@ -50,7 +51,7 @@ As soon as I was able to open my mouth to talk to someone, it was all for nothin
 
 **OP on why men don't see women as human** (in response to a commenter expressing sadness): "We're taught that women are a reward and/or a resource, not equals as humanity. Of course, nobody literally says it this way, but this is the message we send/receive as a society."
 
-**OP on PUA terminology**: "As a non-native English speaker, I literally learnt the word 'target' with PUA. It's one of the many words in the glossary of *The Game* from Neil Strauss. You also have the Last Minute Resistance and the Shit Test concepts."
+**OP on PUA terminology**: "As a non-native English speaker, I literally learnt the word 'target' with PUA. It's one of the many words in the glossary of _The Game_ from Neil Strauss. You also have the Last Minute Resistance and the Shit Test concepts."
 
 ---
 
@@ -81,6 +82,7 @@ Key detail: He recalls one moment at 19, preparing for a date with someone he ha
 ### The Self-Fulfilling Prophecy (Strongest Thread for Blog)
 
 The PUA/manosphere framework created the exact outcomes it claimed to solve:
+
 - Taught him to approach robotically → got rejected → took it as confirmation → approached harder with more "technique" → repeated
 - Taught him women are a category → couldn't connect with individuals → confirmed that connection was impossible
 - Taught him self-worth = sexual success → every rejection destroyed self-esteem → needed more success to compensate
