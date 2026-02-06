@@ -221,9 +221,7 @@
 			}
 
 			const responseData = (result as any)?.data;
-			const questionId = Array.isArray(responseData)
-				? responseData?.[0]?.id
-				: responseData?.id;
+			const questionId = Array.isArray(responseData) ? responseData?.[0]?.id : responseData?.id;
 
 			if (questionId) {
 				try {

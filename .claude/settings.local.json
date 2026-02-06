@@ -171,7 +171,11 @@
 			"WebFetch(domain:mindpsychiatrist.com)",
 			"Bash(pnpm list:*)",
 			"Bash(pnpm add:*)",
-			"Bash(npx svelte-check:*)"
+			"Bash(npx svelte-check:*)",
+			"WebFetch(domain:variety.com)",
+			"WebFetch(domain:edition.cnn.com)",
+			"WebFetch(domain:comedyslaps.wordpress.com)",
+			"WebFetch(domain:www.capitalfm.com)"
 		],
 		"deny": [],
 		"ask": [],

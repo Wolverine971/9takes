@@ -143,8 +143,7 @@
 				</p>
 				<label
 					for="formatted-question"
-					class="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300"
-					>Formatted:</label
+					class="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300">Formatted:</label
 				>
 				<textarea
 					id="formatted-question"
@@ -219,12 +218,8 @@
 		</div>
 
 		<div class="mb-4 flex flex-wrap gap-2">
-			<Badge color={questionData.flagged ? 'red' : 'gray'}
-				>Flagged: {questionData.flagged}</Badge
-			>
-			<Badge color={questionData.removed ? 'red' : 'gray'}
-				>Removed: {questionData.removed}</Badge
-			>
+			<Badge color={questionData.flagged ? 'red' : 'gray'}>Flagged: {questionData.flagged}</Badge>
+			<Badge color={questionData.removed ? 'red' : 'gray'}>Removed: {questionData.removed}</Badge>
 			<Badge color="blue">{formattedDate}</Badge>
 			<Badge color="purple">
 				{questionData.comment_count || '0'}
@@ -264,7 +259,9 @@
 		</div>
 
 		{#if confirmingTag}
-			<div class="mb-4 flex items-center gap-3 rounded-md border border-blue-200 bg-blue-50 p-3 dark:border-blue-800 dark:bg-blue-900/30">
+			<div
+				class="mb-4 flex items-center gap-3 rounded-md border border-blue-200 bg-blue-50 p-3 dark:border-blue-800 dark:bg-blue-900/30"
+			>
 				<p class="flex-1 text-sm font-medium">Run AI tagging on this question?</p>
 				<Button size="xs" disabled={taggingLoading} on:click={tagQuestion}>
 					{taggingLoading ? 'Tagging...' : 'Yes, Tag'}

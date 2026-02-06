@@ -1,3 +1,5 @@
+<!-- research-black-pill.md -->
+
 https://arxiv.org/pdf/2602.03089
 
 "Why I Took the Blackpill": A Thematic Analysis of the
@@ -76,7 +78,7 @@ anonymous, no additional reliable demographic information is available.
 3.1 Sample
 To focus on the radicalization process on incels.is, we searched for posts that
 contained the following phrases: "how i became an incel," "why i took the blackpill,"
-"how i became blackpilled," "why i took the black pill," "how i took the black pill," and 
+"how i became blackpilled," "why i took the black pill," "how i took the black pill," and
 3
 "became blackpilled." While this approach focused on explicit radicalization narratives
 rather than broader linguistic patterns, it captured users' most reflective accounts of
@@ -117,7 +119,7 @@ three themes, represents the pre-radicalization phase where these posters discus
 difficult conditions that existed in their lives before they began the radicalization
 process. The second chronological category, with Theme 4, represents searching for
 something or someone to blame for the difficulties of their lives in the pre-radicalization
-phase. The third chronological category, with Theme 5, describes the process of 
+phase. The third chronological category, with Theme 5, describes the process of
 becoming radicalized, and the fourth, with Theme 6, describes feelings in the postradicalization state.
 Figure 1. Thematic map with the six themes organized in a chronological framework
 4.1 Pre-Radicalization – Themes 1-3
@@ -134,7 +136,7 @@ discovering incel content. These are feelings they describe having before discov
 blackpill-related content—they believed their appearance was part of their problem and
 that inspired their search for a reason why.
 One poster wrote: "I mean I always knew I was fucked up, ever since age 10-11 I
-knew my life will be fucked. But I wasn't 'blackpilled' back then, I didn't know about 
+knew my life will be fucked. But I wasn't 'blackpilled' back then, I didn't know about
 5
 the blackpill space or lingo... I knew it was to do with me being ugly and me being an
 autist." Another wrote, "Growing up ugly, I understood the significance of looks at age
@@ -176,7 +178,7 @@ me being ugly and me being an autist." This blame-seeking creates cognitive open
 that prime individuals for radicalization.
 4.3 Radicalization (Theme 5)
 Theme 5 captures the actual radicalization process. Up to this point, incels describe
-isolation, social rejection, difficulty coping, and struggles based on their appearance. 
+isolation, social rejection, difficulty coping, and struggles based on their appearance.
 They look for forces to blame, then explain the moments in which they were radicalized
 or "took the blackpill".
 For many, their radicalization was catalyzed on YouTube through channels like
@@ -218,7 +220,7 @@ process where incels "take the blackpill", and in Theme 6 where they find relief
 part of the blackpilled ideology.
 Our results also echo research which found that the internet provides a space for
 effective and inexpensive communication of radical ideas, paired with anonymity, that
-lets those seeking information to be recruited and become radicalized. Most of our 
+lets those seeking information to be recruited and become radicalized. Most of our
 7
 posters, when discussing where they discovered the "blackpill" mention social media
 broadly and YouTube specifically as a source of information.
@@ -260,7 +262,7 @@ blame. Radicalization occurs when they "discover" the blackpill, an ideology tha
 prescribes that only hyper-masculine men who meet a certain attractiveness standard
 can find romantic relationships with women. They usually discover this ideology
 through social media, particularly on YouTube. After "taking the blackpill" and
-radicalizing, they describe feelings of peace, clarity, and community membership 
+radicalizing, they describe feelings of peace, clarity, and community membership
 within blackpill forums, though these are often accompanied by angry posts and violent
 fantasies.
 Our results align with many existing studies on radicalization in other communities.
@@ -279,30 +281,31 @@ research incorporating network analysis and multi-platform approaches will furth
 enhance our understanding of how radicalization spreads through online communities
 and identify optimal intervention points.
 References
+
 1. Green, R., Fowler, K., & Palombi, A. (2023). The Black pill pipeline: A process-tracing
-analysis of the Incel's continuum of violent radicalization. Crime, Media, Culture.
+   analysis of the Incel's continuum of violent radicalization. Crime, Media, Culture.
 2. Von Behr, I., Reding, A., Edwards, C., & Gribbon, L. (2013). Radicalisation in the digital
-era: The use of the internet in 15 cases of terrorism and extremism. RAND Corporation.
+   era: The use of the internet in 15 cases of terrorism and extremism. RAND Corporation.
 3. Ging, D. (2019). Alphas, Betas, and Incels: Theorizing the masculinities of the manosphere.
-Men and Masculinities, 22(4), 638-657.
+   Men and Masculinities, 22(4), 638-657.
 4. Moghaddam, F. M. (2005). The staircase to terrorism: A psychological exploration.
-American Psychologist, 60(2), 161-169.
+   American Psychologist, 60(2), 161-169.
 5. Doosje, B., Moghaddam, F. M., Kruglanski, A. W., De Wolf, A., Mann, L., & Feddes, A.
-R. (2016). Terrorism, radicalization and de-radicalization. Current Opinion in Psychology,
-11, 79-84.
+   R. (2016). Terrorism, radicalization and de-radicalization. Current Opinion in Psychology,
+   11, 79-84.
 6. Golbeck, J. (2024). A dataset for the study of online radicalization through incel forum
-archives. Journal of Quantitative Description: Digital Media, 4. no. 2 (2006): 77-101.
+   archives. Journal of Quantitative Description: Digital Media, 4. no. 2 (2006): 77-101.
 7. Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative research
-in psychology, 3(2), 77-101.
+   in psychology, 3(2), 77-101.
 8. Chen, C., Beland, S., Burghardt, I., Byczek, J., Conway, W. J., Cotugno, E., ... & Golbeck,
-J. (2025). Cross-Platform Violence Detection on Social Media: A Dataset and Analysis.
-Proceedings of ACM Conference on Web Science.
+   J. (2025). Cross-Platform Violence Detection on Social Media: A Dataset and Analysis.
+   Proceedings of ACM Conference on Web Science.
 9. Klein, E., & Golbeck, J. (2024). An incel lexicon for the study of online radicalization and
-deradicalization. Proceedings of the ACM Conference on Web Science.
+   deradicalization. Proceedings of the ACM Conference on Web Science.
 10. Hug, E. C. (2013). The role of isolation in radicalization: how important is it? (Doctoral
-dissertation, Monterey, California: Naval Postgraduate School).
+    dissertation, Monterey, California: Naval Postgraduate School).
 11. Bolland, J. M., McCallum, D. M., Lian, B., Bailey, C. J., & Rowan, P. (2001). Hopelessness
-and violence among inner-city youths. Maternal and child health journal, 5, 237-244.
+    and violence among inner-city youths. Maternal and child health journal, 5, 237-244.
 
 ---
 
@@ -327,6 +330,7 @@ and violence among inner-city youths. Maternal and child health journal, 5, 237-
 These are the "groundwork" conditions that exist BEFORE encountering incel ideology.
 
 **Theme 1: Appearance**
+
 - Core belief: only men meeting specific high standards of physical attractiveness can succeed romantically
 - Posters describe feeling insecure about appearance from ages 10-11
 - Quote: "Growing up ugly, I understood the significance of looks at age 11"
@@ -334,6 +338,7 @@ These are the "groundwork" conditions that exist BEFORE encountering incel ideol
 - Non-white men see their race as disqualifying from the start
 
 **Theme 2: Social Isolation**
+
 - Bullying and social rejection from young ages
 - Quote: "I was bullied in over 5 schools throughout my life so I knew I was a cursed soul"
 - Quote: "When I was 11, I realised that foids [women] would only reject me and they would laugh at me"
@@ -341,6 +346,7 @@ These are the "groundwork" conditions that exist BEFORE encountering incel ideol
 - Social isolation is a well-established factor in all forms of radicalization
 
 **Theme 3: Psychological Issues**
+
 - **Lack of coping skills** - extreme emotional reactions to normal social awkwardness
 - **Hopelessness**
 - **High reactivity and aggression** to perceived slights
@@ -353,6 +359,7 @@ These are the "groundwork" conditions that exist BEFORE encountering incel ideol
 After feeling rejected and hopeless, they actively seek external blame targets.
 
 **Blame targets include:**
+
 - Society at large
 - Women specifically
 - Genetics
@@ -372,6 +379,7 @@ The actual moment of "taking the blackpill."
 **Primary catalyst: YouTube**
 
 Specific channels mentioned:
+
 - **Wheat Waffles** (WAW - "What Attracts Women" videos)
 - **FACEandLMS**
 - **HeedandSucceed**
@@ -380,6 +388,7 @@ Specific channels mentioned:
 **Quote**: "I just watched the WAW Videos and i did not know whether i should cry or laugh... The WAW videos were like a blackpill-nuclear-bomb dropped on me."
 
 **"Eureka moments"** - breakthrough realizations where everything suddenly "makes sense":
+
 - Quote: "One time a foid [female] coworker... gave it to me with a nasty face. Then my coworker arrived and she was blushing... That was my eureka moment. Suddenly it made sense why women... would act mean towards me."
 
 ---
@@ -395,6 +404,7 @@ Feelings after accepting the blackpill:
 **Critical insight**: The blackpill is essentially **"radicalization into hopelessness"**
 
 **Dangerous outcomes:**
+
 - Suicide is "an extremely common topic of discussion on incel forums"
 - Hopelessness linked to violence in many contexts
 - Communities celebrate mass shootings (even by non-incels)
@@ -405,11 +415,11 @@ Feelings after accepting the blackpill:
 
 The findings match **Doosje et al.'s 3-stage terrorist radicalization model**:
 
-| Doosje Model | Incel Equivalent |
-|--------------|------------------|
+| Doosje Model                                                           | Incel Equivalent                                           |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------- |
 | **Sensitivity** (search for significance from humiliation/status loss) | Themes 1-3: Appearance, isolation, psychological struggles |
-| **Group Membership** (adopting group ideology) | Themes 5-6: Taking blackpill, finding community |
-| **Action** | Potential violence |
+| **Group Membership** (adopting group ideology)                         | Themes 5-6: Taking blackpill, finding community            |
+| **Action**                                                             | Potential violence                                         |
 
 Also aligns with **Moghaddam's "staircase to terrorism"** - progressive steps beginning with perceived injustices.
 
@@ -420,6 +430,7 @@ Also aligns with **Moghaddam's "staircase to terrorism"** - progressive steps be
 Referenced from Green et al. (2023):
 
 Incels use **increasingly radical "pills"** to move new members along an escalating pipeline:
+
 - Red pill → Black pill → Increasingly extreme content
 - YouTube's recommendation algorithm plays a key role in this progression
 - Users progress from mainstream to increasingly extreme content
@@ -449,6 +460,7 @@ Incels use **increasingly radical "pills"** to move new members along an escalat
 ## What the "Blackpill" Actually Is
 
 The blackpill is the belief that:
+
 1. Romantic success is determined SOLELY by physical attractiveness
 2. Physical attributes are genetic and cannot be meaningfully changed (even by working out)
 3. Personality, interests, success, or self-improvement CANNOT overcome appearance

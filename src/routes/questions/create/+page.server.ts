@@ -240,7 +240,8 @@ export const actions: Actions = {
 								removed: false,
 								question_formatted: question,
 								enneagram: user.enneagram ?? undefined,
-								author_name: user.username || `${user.first_name || ''} ${user.last_name || ''}`.trim()
+								author_name:
+									user.username || `${user.first_name || ''} ${user.last_name || ''}`.trim()
 							});
 							if (resp?._id) {
 								esId = resp._id;

@@ -80,7 +80,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Michael-B-Jordan', link: true, hasImage: true, lastmod: '2025-12-22', personaTitle: 'The Leading Man Reborn' },
 		{ name: 'Nancy-Pelosi', link: true, hasImage: true, lastmod: '2024-08-30', personaTitle: 'The Power Broker' },
 		{ name: 'Paris-Hilton', link: true, hasImage: true, lastmod: '2025-04-08', personaTitle: 'The Original Influencer' },
-		{ name: 'Sabrina-Carpenter', link: true, hasImage: true, lastmod: '2025-12-03', personaTitle: 'Pop\'s Petite Powerhouse' },
+		{ name: 'Sabrina-Carpenter', link: true, hasImage: true, lastmod: '2026-02-06', personaTitle: 'Pop\'s Petite Powerhouse' },
 		{ name: 'Steven-Bartlett', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'Podcasting\'s Restless Architect' },
 		{ name: 'Sydney-Sweeney', link: true, hasImage: true, lastmod: '2026-01-29', personaTitle: 'Hollywood\'s Golden Ingenue' },
 		{ name: 'Taylor-Swift', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'Pop\'s Heartbreak Alchemist' },

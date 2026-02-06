@@ -97,7 +97,10 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		return json({ success: true, path: upload.path });
 	} catch (err) {
 		if (err instanceof z.ZodError) {
-			return json({ success: false, error: err.errors[0]?.message || 'Invalid request' }, { status: 400 });
+			return json(
+				{ success: false, error: err.errors[0]?.message || 'Invalid request' },
+				{ status: 400 }
+			);
 		}
 		if ((err as any)?.status) {
 			throw err;

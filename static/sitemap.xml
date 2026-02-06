@@ -2000,15 +2000,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Sabrina-Carpenter</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Sabrina-Carpenter.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Selena-Gomez</loc>
     <lastmod>2025-12-03T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3068,6 +3059,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Dolly-Parton.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Sabrina-Carpenter</loc>
+    <lastmod>2026-02-06T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Sabrina-Carpenter.webp</image:loc>
     </image:image>
 </url>
 <url>

@@ -24,9 +24,7 @@
 	let allComments = $derived([...(comment?.comments || []), ...extraComments]);
 
 	let lastDate = $derived(
-		allComments.length
-			? allComments[allComments.length - 1]?.created_at || null
-			: null
+		allComments.length ? allComments[allComments.length - 1]?.created_at || null : null
 	);
 
 	const loadMore = async () => {
@@ -88,13 +86,7 @@
 
 	{#if allComments.length}
 		<div class="nested-comments">
-			<BlogComments
-				{slug}
-				comments={allComments}
-				{user}
-				parentType={'comment'}
-				{userHasAnswered}
-			/>
+			<BlogComments {slug} comments={allComments} {user} parentType={'comment'} {userHasAnswered} />
 		</div>
 	{/if}
 	{#if comment.comment_count && !allComments.length}
