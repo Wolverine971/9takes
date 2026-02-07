@@ -1,61 +1,9 @@
 <!-- src/routes/about/+page.svelte -->
 
-<!--
-=== ABOUT PAGE REVIEW (2026-02-06) ===
-
-PRIORITY 1: Explain the Enneagram somewhere on this page.
-You mention it repeatedly but never define it. A first-time visitor may think
-it's astrology or have never heard of it. Even one sentence would fix this:
-"The Enneagram is a personality framework that maps 9 core emotional motivations."
-Without this, the whole page rests on something readers might not trust or understand.
-
-PRIORITY 2: Add one concrete example.
-Show an actual question with 2-3 different type responses side by side.
-Right now the value prop is entirely abstract. One real example would make
-the concept click instantly and be worth more than several sections of copy.
-
-PRIORITY 3: Cut or rethink the Roadmap section.
-"Now / Next / Eventually / End Game" reads as internal company planning,
-not something a first-time visitor cares about. Replace with social proof
-(testimonials, user count, a live example) - anything that builds trust
-rather than describing your corporate vision.
-
-PRIORITY 4: Make "Why This Matters" specific.
-Relationships / Work / Self-Awareness / Decisions are generic benefits
-that every self-help product claims. Compare these to the founder story,
-which is vivid and personal. This section needs that same energy - real
-examples of how seeing through another type's lens changed something.
-
-PRIORITY 5: Deprioritize the coaching CTA.
-"Book a Session" and "Get Personal Help / Work through your blindspots"
-feels like a sales funnel and is a huge ask for someone who just learned
-what the site is. Lead with the product (Browse Questions). If coaching
-stays, reframe it - "Go Deeper" or "Personalized Guidance" instead of
-"Get Personal Help" which implies the visitor has a problem.
-
-SMALL FIXES:
-- The closing quote ("See through other people's eyes without losing your
-  own vision") is strong enough to be the page tagline - consider promoting it.
-- "Reach out. I read everything." is a nice human touch. Keep it.
-- on:click (line 332) is Svelte 4 syntax - migrate to onclick for Svelte 5.
-- Two support emails (dj@ and userSup@) may confuse visitors. One is enough
-  for a small operation.
-- "8 other personality types" is confusing without explaining why there are
-  exactly 9 types or why grouping people this way is meaningful.
-
-WHAT WORKS WELL (keep these):
-- Hero hook "You're Only Seeing 1/9th of Reality" is immediately compelling.
-- The 500M stat grounds the hook in something real.
-- Problem/solution framing is clear and relatable.
-- Reddit comparison ("500 comments saying the same thing" vs "9 perspectives") lands.
-- Founder story is authentic and earns trust - the Marines vulnerability is strong.
-- "Reach out. I read everything." is warm and human.
--->
 <script lang="ts">
-	import { browser } from '$app/environment';
 	import twitter from '$lib/images/twitter.svg';
 
-	let showEmail = false;
+	let showEmail = $state(false);
 </script>
 
 <svelte:head>
@@ -154,7 +102,7 @@ WHAT WORKS WELL (keep these):
 <div class="about-page">
 	<!-- Hero Section -->
 	<section class="hero">
-		<div class="hero-glow" />
+		<div class="hero-glow"></div>
 		<h1>You're Only Seeing <span class="gradient-text">1/9th</span> of Reality</h1>
 		<p class="hero-subtitle">
 			500 million people share opinions online every day.<br />
@@ -171,10 +119,48 @@ WHAT WORKS WELL (keep these):
 				Everyone talks. Nobody listens.
 			</p>
 			<p class="solution">
-				9takes flips the script: you share YOUR perspective first, then see how 8 other personality
+				9takes flips the script: you share YOUR perspective first, then see how the other personality
 				types answered the same question.
 			</p>
 		</div>
+	</section>
+
+	<!-- What Is the Enneagram -->
+	<section class="enneagram-explainer">
+		<h2 class="section-title">What's the Enneagram?</h2>
+		<p class="explainer-intro">
+			The Enneagram is a personality system rooted in three core emotions: <strong>anger</strong>,
+			<strong>fear</strong>, and <strong>shame</strong>. Everyone experiences all three, but one
+			dominates how you process the world. From that core emotion, people develop coping skills that
+			map to three intelligence centers:
+		</p>
+
+		<div class="centers-grid">
+			<div class="center-card">
+				<div class="center-icon">&#9679;</div>
+				<h3>Body Center</h3>
+				<span class="center-types">Types 8, 9, 1</span>
+				<p>Process through <strong>anger</strong> and instinct. Act first, think later.</p>
+			</div>
+			<div class="center-card">
+				<div class="center-icon">&#9650;</div>
+				<h3>Head Center</h3>
+				<span class="center-types">Types 5, 6, 7</span>
+				<p>Process through <strong>fear</strong> and analysis. Think first, act later.</p>
+			</div>
+			<div class="center-card">
+				<div class="center-icon">&#9829;</div>
+				<h3>Heart Center</h3>
+				<span class="center-types">Types 2, 3, 4</span>
+				<p>Process through <strong>shame</strong> and image. Feel first, act later.</p>
+			</div>
+		</div>
+
+		<p class="explainer-link">
+			9 types. 3 centers. One framework for understanding why people see the same situation completely
+			differently.
+			<a href="/enneagram-corner/enneagram-concepts">Learn the full system &rarr;</a>
+		</p>
 	</section>
 
 	<!-- How It Works -->
@@ -226,27 +212,81 @@ WHAT WORKS WELL (keep these):
 		</div>
 	</section>
 
+	<!-- See It In Action -->
+	<section class="example-section">
+		<h2 class="section-title">See It In Action</h2>
+		<p class="example-intro">
+			Here's what it looks like when one question gets 3 different takes:
+		</p>
+
+		<div class="example-question">
+			<div class="example-q-header">
+				<span class="example-q-label">Question</span>
+			</div>
+			<p class="example-q-text">How do you handle conflict at work?</p>
+		</div>
+
+		<div class="example-responses">
+			<div class="example-response">
+				<div class="example-response-header">
+					<span class="type-badge body-type">Type 8</span>
+					<span class="center-label">Body / Instinct</span>
+				</div>
+				<p>
+					I address it head-on. If something's wrong, I'd rather have an uncomfortable 5-minute
+					conversation than let it fester for weeks. Most people avoid conflict because they're
+					scared of it. I'm not.
+				</p>
+			</div>
+			<div class="example-response">
+				<div class="example-response-header">
+					<span class="type-badge head-type">Type 5</span>
+					<span class="center-label">Head / Analysis</span>
+				</div>
+				<p>
+					I step back and observe the pattern first. Who's actually upset, and about what? Usually
+					the stated problem isn't the real problem. I wait until I've mapped out what's actually
+					going on before I say anything.
+				</p>
+			</div>
+			<div class="example-response">
+				<div class="example-response-header">
+					<span class="type-badge heart-type">Type 2</span>
+					<span class="center-label">Heart / Feeling</span>
+				</div>
+				<p>
+					I check in with both sides privately first. People can't hear solutions when they feel
+					unheard. Once everyone feels seen, the actual resolution usually comes together fast.
+				</p>
+			</div>
+		</div>
+
+		<p class="example-footer">
+			Same question. Three completely different approaches. All valid.
+			<a href="/questions" class="example-cta">See real responses &rarr;</a>
+		</p>
+	</section>
+
 	<!-- Why This Matters -->
 	<section class="why-matters">
 		<h2 class="section-title">Why This Matters</h2>
 
-		<div class="benefits-grid">
-			<div class="benefit-card" style="--accent: #3b82f6;">
-				<h3>Relationships</h3>
-				<p>Most fights are perspective clashes, not value differences</p>
-			</div>
-			<div class="benefit-card" style="--accent: #8b5cf6;">
-				<h3>Work</h3>
-				<p>The best teams combine multiple thinking styles</p>
-			</div>
-			<div class="benefit-card" style="--accent: #10b981;">
-				<h3>Self-Awareness</h3>
-				<p>You can't see your own blindspots without other lenses</p>
-			</div>
-			<div class="benefit-card" style="--accent: #f59e0b;">
-				<h3>Decisions</h3>
-				<p>Better choices come from considering more angles</p>
-			</div>
+		<div class="why-content">
+			<p>
+				We're past polarization. We've moved into <strong>isolation</strong>. People don't talk to
+				each other anymore — not really. We scroll past each other. We sort into tribes that already
+				agree with us. Curiosity about how someone else sees the world? Gone.
+			</p>
+			<p>
+				There's nowhere online to get <strong>unbiased takes</strong>. Every forum has groupthink,
+				every platform has algorithms pushing you toward what you already believe. The takes you see
+				are the takes that got the most upvotes — not the most honest ones.
+			</p>
+			<p>
+				9takes exists because people deserve a place to <strong>give their real take</strong> and
+				discover how others genuinely see the same situation. Not to argue. Not to perform.
+				To actually <strong>connect</strong> through honest perspective.
+			</p>
 		</div>
 
 		<div class="cta-banner">
@@ -310,48 +350,12 @@ WHAT WORKS WELL (keep these):
 		</div>
 	</section>
 
-	<!-- Roadmap -->
-	<section class="roadmap">
-		<h2 class="section-title">Where This Is Going</h2>
-
-		<div class="timeline">
-			<div class="timeline-item">
-				<div class="timeline-marker">1</div>
-				<div class="timeline-content">
-					<h3>Now</h3>
-					<p>Help individuals see what they've been missing</p>
-				</div>
-			</div>
-			<div class="timeline-item">
-				<div class="timeline-marker">2</div>
-				<div class="timeline-content">
-					<h3>Next</h3>
-					<p>Change how teams and couples resolve conflict</p>
-				</div>
-			</div>
-			<div class="timeline-item">
-				<div class="timeline-marker">3</div>
-				<div class="timeline-content">
-					<h3>Eventually</h3>
-					<p>Make perspective-taking a skill everyone practices</p>
-				</div>
-			</div>
-			<div class="timeline-item highlight">
-				<div class="timeline-marker glow">*</div>
-				<div class="timeline-content">
-					<h3>The End Game</h3>
-					<p>Normalize looking through multiple lenses before deciding</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<!-- Start Here CTA -->
 	<section class="start-here">
 		<h2 class="section-title">Start Here</h2>
 
-		<div class="cta-grid">
-			<div class="cta-card">
+		<div class="cta-grid two-col">
+			<div class="cta-card primary">
 				<h3>See the 9 Perspectives</h3>
 				<p>Watch how different types answer real questions</p>
 				<a href="/questions" class="cta-button">Browse Questions</a>
@@ -359,14 +363,12 @@ WHAT WORKS WELL (keep these):
 			<div class="cta-card">
 				<h3>Learn the Patterns</h3>
 				<p>Understand why people think the way they do</p>
-				<a href="/enneagram-corner" class="cta-button">Read the Guides</a>
-			</div>
-			<div class="cta-card">
-				<h3>Get Personal Help</h3>
-				<p>1-on-1 coaching to work through your blindspots</p>
-				<a href="/book-session" class="cta-button">Book a Session</a>
+				<a href="/enneagram-corner" class="cta-button secondary">Read the Guides</a>
 			</div>
 		</div>
+		<p class="coaching-hint">
+			Want to go deeper? <a href="/book-session">Explore 1-on-1 guidance</a>
+		</p>
 	</section>
 
 	<!-- Final Quote -->
@@ -381,18 +383,13 @@ WHAT WORKS WELL (keep these):
 		<p>Reach out. I read everything.</p>
 
 		{#if !showEmail}
-			<button type="button" class="contact-btn" on:click={() => (showEmail = true)}>
+			<button type="button" class="contact-btn" onclick={() => (showEmail = true)}>
 				Get in Touch
 			</button>
 		{:else}
 			<div class="email-info">
 				<p>
-					<strong>Questions & Coaching:</strong>
 					<a href="mailto:dj@9takes.com">dj@9takes.com</a>
-				</p>
-				<p>
-					<strong>Support:</strong>
-					<a href="mailto:userSup@9takes.com">userSup@9takes.com</a>
 				</p>
 			</div>
 		{/if}
@@ -609,35 +606,224 @@ WHAT WORKS WELL (keep these):
 		}
 	}
 
+	/* Enneagram Explainer */
+	.enneagram-explainer {
+		margin-bottom: 4rem;
+	}
+
+	.explainer-intro {
+		font-size: 1.0625rem;
+		color: #cbd5e1;
+		line-height: 1.7;
+		text-align: center;
+		max-width: 700px;
+		margin: 0 auto 2rem;
+
+		strong {
+			color: #a78bfa;
+		}
+	}
+
+	.centers-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.center-card {
+		background: #16161e;
+		border: 1px solid rgba(100, 116, 139, 0.2);
+		border-radius: 12px;
+		padding: 1.5rem;
+		text-align: center;
+
+		h3 {
+			font-size: 1rem;
+			font-weight: 700;
+			color: #f1f5f9;
+			margin-bottom: 0.25rem;
+		}
+
+		p {
+			font-size: 0.875rem;
+			color: #94a3b8;
+			margin: 0;
+
+			strong {
+				color: #a78bfa;
+			}
+		}
+	}
+
+	.center-icon {
+		font-size: 1.5rem;
+		color: #a78bfa;
+		margin-bottom: 0.5rem;
+	}
+
+	.center-types {
+		display: inline-block;
+		font-size: 0.75rem;
+		color: #64748b;
+		margin-bottom: 0.75rem;
+	}
+
+	.explainer-link {
+		text-align: center;
+		font-size: 0.9375rem;
+		color: #94a3b8;
+
+		a {
+			color: #a78bfa;
+			text-decoration: none;
+			font-weight: 600;
+
+			&:hover {
+				color: #c4b5fd;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	/* Example Section */
+	.example-section {
+		margin-bottom: 4rem;
+	}
+
+	.example-intro {
+		text-align: center;
+		font-size: 1.0625rem;
+		color: #94a3b8;
+		margin-bottom: 1.5rem;
+	}
+
+	.example-question {
+		background: #0f0f14;
+		border: 1px solid rgba(124, 58, 237, 0.3);
+		border-radius: 12px 12px 0 0;
+		padding: 1.25rem 1.5rem;
+	}
+
+	.example-q-header {
+		margin-bottom: 0.5rem;
+	}
+
+	.example-q-label {
+		font-size: 0.75rem;
+		font-weight: 600;
+		color: #a78bfa;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+
+	.example-q-text {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: #f1f5f9;
+		margin: 0;
+	}
+
+	.example-responses {
+		display: flex;
+		flex-direction: column;
+		gap: 1px;
+		background: rgba(100, 116, 139, 0.1);
+	}
+
+	.example-response {
+		background: #16161e;
+		padding: 1.25rem 1.5rem;
+
+		&:last-child {
+			border-radius: 0 0 12px 12px;
+		}
+
+		p {
+			font-size: 0.9375rem;
+			color: #cbd5e1;
+			line-height: 1.6;
+			margin: 0;
+		}
+	}
+
+	.example-response-header {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.type-badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.25rem 0.75rem;
+		border-radius: 6px;
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: white;
+
+		&.body-type {
+			background: #dc2626;
+		}
+
+		&.head-type {
+			background: #2563eb;
+		}
+
+		&.heart-type {
+			background: #059669;
+		}
+	}
+
+	.center-label {
+		font-size: 0.75rem;
+		color: #64748b;
+	}
+
+	.example-footer {
+		text-align: center;
+		font-size: 1rem;
+		color: #94a3b8;
+		margin-top: 1.5rem;
+	}
+
+	.example-cta {
+		display: inline-block;
+		margin-left: 0.5rem;
+		color: #a78bfa;
+		font-weight: 600;
+		text-decoration: none;
+
+		&:hover {
+			color: #c4b5fd;
+			text-decoration: underline;
+		}
+	}
+
 	/* Why Matters */
 	.why-matters {
 		margin-bottom: 4rem;
 	}
 
-	.benefits-grid {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 1rem;
-		margin-bottom: 2rem;
-	}
-
-	.benefit-card {
-		background: rgba(var(--accent-rgb, 139, 92, 246), 0.1);
-		border-left: 4px solid var(--accent);
-		border-radius: 0 8px 8px 0;
-		padding: 1.25rem;
-
-		h3 {
-			font-size: 1rem;
-			font-weight: 700;
-			color: var(--accent);
-			margin-bottom: 0.5rem;
-		}
+	.why-content {
+		max-width: 700px;
+		margin: 0 auto 2rem;
 
 		p {
-			font-size: 0.9375rem;
-			color: #94a3b8;
-			margin: 0;
+			font-size: 1.0625rem;
+			color: #cbd5e1;
+			line-height: 1.7;
+			margin-bottom: 1.25rem;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			strong {
+				color: #f1f5f9;
+			}
 		}
 	}
 
@@ -776,61 +962,6 @@ WHAT WORKS WELL (keep these):
 		}
 	}
 
-	/* Roadmap */
-	.roadmap {
-		margin-bottom: 4rem;
-	}
-
-	.timeline {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-		max-width: 500px;
-		margin: 0 auto;
-	}
-
-	.timeline-item {
-		display: flex;
-		align-items: flex-start;
-		gap: 1rem;
-	}
-
-	.timeline-marker {
-		width: 40px;
-		height: 40px;
-		flex-shrink: 0;
-		background: rgba(124, 58, 237, 0.2);
-		border-radius: 50%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-weight: 700;
-		color: #a78bfa;
-
-		&.glow {
-			background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
-			color: white;
-			box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
-		}
-	}
-
-	.timeline-content {
-		padding-top: 0.25rem;
-
-		h3 {
-			font-size: 1rem;
-			font-weight: 700;
-			color: #f1f5f9;
-			margin-bottom: 0.25rem;
-		}
-
-		p {
-			font-size: 0.9375rem;
-			color: #94a3b8;
-			margin: 0;
-		}
-	}
-
 	/* Start Here */
 	.start-here {
 		background: linear-gradient(135deg, rgba(88, 28, 135, 0.2) 0%, #16161e 100%);
@@ -842,8 +973,12 @@ WHAT WORKS WELL (keep these):
 
 	.cta-grid {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		gap: 1.5rem;
+
+		&.two-col {
+			grid-template-columns: repeat(2, 1fr);
+		}
 	}
 
 	.cta-card {
@@ -853,6 +988,10 @@ WHAT WORKS WELL (keep these):
 		padding: 1.5rem;
 		text-align: center;
 		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+		&.primary {
+			border-color: rgba(124, 58, 237, 0.3);
+		}
 
 		h3 {
 			font-size: 1.125rem;
@@ -879,9 +1018,37 @@ WHAT WORKS WELL (keep these):
 		box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
 		transition: all 0.2s ease;
 
+		&.secondary {
+			background: transparent;
+			border: 2px solid #7c3aed;
+			box-shadow: none;
+
+			&:hover {
+				background: rgba(124, 58, 237, 0.15);
+				box-shadow: 0 0 20px rgba(124, 58, 237, 0.2);
+			}
+		}
+
 		&:hover {
 			transform: translateY(-2px);
 			box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
+		}
+	}
+
+	.coaching-hint {
+		text-align: center;
+		font-size: 0.9375rem;
+		color: #64748b;
+		margin-top: 1.25rem;
+
+		a {
+			color: #a78bfa;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+				color: #c4b5fd;
+			}
 		}
 	}
 
@@ -953,20 +1120,11 @@ WHAT WORKS WELL (keep these):
 		p {
 			font-size: 1.125rem;
 			color: #e2e8f0;
-			margin-bottom: 0.75rem;
-
-			&:last-child {
-				margin-bottom: 0;
-			}
-
-			strong {
-				color: #f1f5f9;
-			}
+			margin-bottom: 0;
 
 			a {
 				color: #a78bfa;
 				text-decoration: underline;
-				margin-left: 0.5rem;
 
 				&:hover {
 					color: #c4b5fd;
@@ -993,15 +1151,15 @@ WHAT WORKS WELL (keep these):
 			font-size: 1.5rem;
 		}
 
+		.centers-grid {
+			grid-template-columns: 1fr;
+		}
+
 		.steps-grid {
 			grid-template-columns: 1fr;
 		}
 
 		.comparison {
-			grid-template-columns: 1fr;
-		}
-
-		.benefits-grid {
 			grid-template-columns: 1fr;
 		}
 
@@ -1014,7 +1172,8 @@ WHAT WORKS WELL (keep these):
 			order: -1;
 		}
 
-		.cta-grid {
+		.cta-grid,
+		.cta-grid.two-col {
 			grid-template-columns: 1fr;
 		}
 
@@ -1061,6 +1220,10 @@ WHAT WORKS WELL (keep these):
 
 		.step-card {
 			padding: 1.25rem;
+		}
+
+		.example-q-text {
+			font-size: 1.0625rem;
 		}
 
 		.image-frame img {
