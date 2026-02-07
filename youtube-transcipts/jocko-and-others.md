@@ -1,30 +1,220 @@
-https://www.youtube.com/watch?v=a7Qz4xVI04E
-How I Like To Treat Other People.
+<!-- youtube-transcipts/jocko-and-others.md -->
+# Analysis: "How I Like To Treat Other People" — Jocko Underground #118
 
-Jocko Podcast
-1.98M subscribers
+**Source**: https://www.youtube.com/watch?v=a7Qz4xVI04E
+**Speakers**: Jocko Willink, Echo Charles
+**Format**: ~15 min excerpt from the subscriber-only Jocko Underground podcast
 
-Subscribe
+---
 
-1.1K
+## Video Overview
 
+Primary topic: how to treat people in service industry roles — waiters, bouncers, flight attendants, gate agents. Uses Echo's 7 years as a bouncer at The Bitter End in San Diego as the lens for exploring social dynamics, respect, and the psychology behind small gestures like using someone's name.
 
-Share
+## Key Revelations About Jocko
 
-Ask
+- **Hyper-sensitive to social manipulation** — feels uncomfortable when someone uses his name repeatedly, reads it as "a pitch" or attempt to gain leverage. Admits: "I think I might be overly sensitive."
+- **Calibrated radar for authenticity vs. performance** — categorizes people quickly into "genuine" and "working an angle"
+- **Strong principle about respecting service workers** — gets genuinely bothered watching people mistreat flight attendants, gate agents, waitstaff
+- **Served as an Admiral's aide** — booked flights and secured upgrades for an Admiral, giving him firsthand experience on the service side of power dynamics
+- **Values platform independence** — built Jocko Underground specifically to avoid external platform control: "We are not subject to their control"
 
-Save
+## Notable Quotes
 
-32,314 views  Jul 23, 2024  Jocko UNDERGROUND
-Join Jocko Underground: https://www.jockounderground.com/subs...
-From Jocko Underground 118.
+> "I think I might be a little bit hyper sensitive about the name thing. I think I might be overly sensitive."
 
-How do you treat people?
-Mental preparation.
-Important advice for time management.
-Emotional control in high stress situations.
-Methods to get out of debt.
-Navigation problems within groups.
+> "When I hear it I'm not sure why they're doing that... I can't quite figure out why they're doing it."
 
+> "I see people getting treated like bad... the service people bro I'm not look can people be jerks yes they can but it's also their job."
 
-this is the Joo underground podcast number 118 sitting here with Echo Charles and you are the a good person to discuss this subject with that is how to treat other people sure but I'm going to get it very a little bit more specific than just other people in general yeah but how to treat people that let's say I guess a good way to describe this would be in the service industry and the reason I say this is because you were a bouncer for many many years sure and I'm sure that you have experienced how many years were you a bouncer for seven seven years yeah so that's a lot of Friday nights that's a lot of Saturday nights what other nights was big down at The Bitter End back in the day Friday Saturday just it Thursday Friday Saturday okay that's a lot of nights you did that for seven years think about that it's a lot of experience interacting with other people yeah so you got treated well right you got treated unwell yeah got treated poorly yeah yeah maybe even mhm you were disrespected at sometimes sure no doubt about it give me an example of someone mhm that would come in that you'd be like I'm take care of this person what how do they how' they treat you nicely mhm and were they over the top did they have to slip you a hundo or anything like that they don't have to necessarily but there are many ways to treat me nicely as a bouncer treat a bouncer or the doorman whatever you want to call nicely um bribery yes works for sure but can bvery cover up being an uh it can mitigate it but there's always it it it makes it kind of weird for sure but if they have a this weird expectation that it will then no but if it's like if they're being a dick or whatever whatever and then they later on say hey I was a dick and then they give you money yes it helps a lot okay even compared to if they just say say I'm sorry even though that helps a lot but if they say I'm sorry and they give you money oh you're flipped you're what if they're rolling up to the door and they're like hey I got four friends you need to let them in yeah and they and they hand you a yeah like and that that has happened too to to answer your question no no that does not help so the kind yeah when they come in trying to like essentially love so what do you call it so when you Sub sub whatever when they they basically position theirself as like Superior to you okay and like right off the bat and real aggressively and then they throw out money kind of like here's your money kind of thing of course you're going to let me do whatever I say I want to do kind of thing yes that is the the a step in the wrong direction and you say I'm sorry sir that doesn't work here yes sir that that's exactly what happened now so so that's the the nice example or the good example of someone that you're going to take care of kind of meaning you're going to be cool to them if something happens you kind of be on their side a little bit right there something goes down so how are they treating you what are they doing to you yeah they're being nice I would say treating you like a person and not just some Spiel um yeah I think that's kind of what it is treat you like a person like trying to kind of like what do you call level with you I guess well if they can do a genuine good job with that that'll work for sure how do you uh distinguish between you ever had someone there's two things I've been talking about I was talking to someone about the other day looking someone in the eyes yeah right but also saying your name yeah I for me if someone says my name repeatedly M it it seems weird yeah it's one of those things Eko where when I hear it I'm not sure why they're doing that it's I can't quite figure out why they're doing it does that ever happen to you Eko yeah so you see what I just did I did it twice well yeah people do that oh yeah fully and so yes it's a little awkward I very familiar with this phenomenon and I did some thinking so it might it might be spoton it feels like it's spot on but I don't know you tell me so when someone's trying to like when someone's it depends on their personality first off cuz some people that's how they talk like you get an official talker like maybe some news dude and you talk to them in real life like that's how they talk a lot of the time did you ever see Wolf of Wall Street yeah so in Wolf of Wall Street one of the phone scenes where he's selling Leonardo DiCaprio selling something some penny stock he says the name I think it's a little bit too much he's like John let me tell you we haven't had seen a stock like this in at least six months John I'm telling you John this is he says it like that and I thought to myself I get it I see what you're doing and maybe on the phone maybe it's a little bit different maybe a little bit different I think you're right but it still is awkward to throw someone's name at the end of each sentence it just to me doesn't seem right I mean is it the same to you EO it is the same but to throw it in there like one time or like maybe maximum two time depends but like to for example to throw it in one time does help I think but at the same time it there so there's pre and then there's post right so like if then this is just a real General way of putting it where if I'm talking to you let's say there's this thing where maybe I'm trying to get something from you or convince you of something or whatever and then you throw in the name I I think oh I can feel that but if they don't throw in the name and then afterwards whether you gave it whether they got from uh they got from you what they wanted or they convinced you of whatever and then they throw it in once then it works it makes you feel better okay let me get a little bit more specific yeah we're at a bar or sorry a restaurant sure there's a waitress waitress comes over hi I'm Beth I'm here to be server tonight okay cool then she walks by and you go Beth yeah you call her by her name yeah I would say excuse me mess you know what I mean yeah it seems like when someone gives you their name and they're working as a waitress or a waiter it seems a little strange to me to be like hey David seems weird to me I don't know you know what now that I'm even thinking about it because yeah there are all these examples that that it kind of like wait that wouldn't work given certain circumstances but that would work actually really well under other circumstances same scenario so if it's almost like this weird wave that you got to go with like perfectly and when you can land it bro you are rolling MH but if you do it if you're off step like even like a little bit mhm it'll just work against you I think I think so too like if someone's so give me example of where it's going to work you know like say if it's a waiter right or waitress right instead of excuse me as you say Beth you don't just Bust It Out necessarily like oh I saw the name tag so I'm just going to start calling you Beth or whatever um let's say you had some genuine questions about the menu or I don't know something like this and then it was it sort of came up naturally like oh you know this B thing and you know you and Beth kind of have a relationship now above and beyond just like hey here take your order blah blah blah because if she's just saying the normal stuff she'd say to every single customer and then you start going above and beyond what the normal customer does then you're out of Step a little bit just a little bit so it kind of throws you off but if you're like hey is there a gluten-free thing oh what about this oh you know like and you're genuinely concerned about the menu now your relationship gets a little deeper see what I'm saying once that depth start starts to develop a little bit then you can throw out oh what's your name by the way okay Beth okay okay I'm just saying because you have a little bit more of a relationship that would warrant you calling her something a little bit more personal that's what it feels like I think I might be a little bit hyper sensitive about the name thing I think I might be overly sensitive I think I might be overly sensitive cuz to me like I wouldn't be surprised if people said no it's very I wouldn't be surprised if a waitress told me no we like it when you like I wouldn't be surprised if that was the consensus and I just didn't know it yeah it seems a little bit too personal though so I liked it as a bouncer you brought this up when cuz I noticed that too when you when they're saying your name you're like did you wear a name tag yeah that said echo on it yeah oh yeah it seems a little little bit much hold on a second Echo you know what I mean seems a little weird yeah beforehand so like if someone if if if the person didn't need anything from me or if they were leaving or something and then they said like it felt good dude for it for real it felt good kind of like okay see I was wrong I am wrong but on the way in though if they're like hey what's up Echo and I'm like okay I see what you're doing there he's trying this is a pitch it's some kind of a pitch like on the on the Wolf Wall Street or whatever like he's going heavy on the pitch so it's not as genuine but if they're saying it and they don't need anything from you you're kind of like well he's just being cool now at this point that's what I felt you know who did that to me Mario Lopez you know who that is San Diego gu oh yeah yeah the actor guy he's an actor SL he's a Jiu-Jitsu guy right Jiu-Jitsu guy that's how I know him I don't know him from acting I know him from the Jiu-Jitsu W I know from everything AC Slater days back in the day AC Slater AC Slater was his um he's on a kid show right yeah Saved by the Bell H yeah so I was at we're at The Bitter End Mario Lopez roll in I was like oh hell yeah it was on an off night too it was like a Wednesday or something like this he came in he had two guys with him I checked their ID of course I don't check Mario Lopez ID even though he had his ID already that's how you know someone's cool he's not like hey you should know already you know and you know who I am yeah and do you know who I am and bro that's real too by the way did you ever that have that happen yeah oh yeah plenty of time by by anyone that's recognizable to normal no so there's people that were like do you know who I am I'm famous at San Diego yeah like guys who like everyone knows me here you know like that oh God but um so he rolled in or whatever two friends friends showed the idea whatever super nice or whatever and he's San Diego guy so you you know you'd expect him to be like hey you know I am nope didn't right everyone knew I like save weatherbell they played the this this was kind of a big deal at the time it was like a little prank they played on me so anyway what's the premise of save by the B what's it about just teenage years the struggle High School the strugg yeah High School the struggle what's his is he the main guy he's kind of the second guy who's the main guy Zack Morris who is Mark Paul gosler so he was like the popular main dude and then there's AC Slater who's kind of his rival but Slater was an athlete who could dance he had every he brother this guy could do anything go could dance he could dance good he was an athlete he played all these wrestler like badass dude he had big muscles and stuff yeah yeah he's man anyway so he goes in the bartender um Casey Jones is his name bartender and then one of the waitresses Maggie they conspire they tell Mario Lopez they're like hey that guy echo outside he's like the massive fan of sa by the Bell and you and all this stuff and that's for real yeah oh yeah this was like back init when did you watch sa like in you know high school stuff like that no no no like college time what what's it about it's like it's actually pretty good it's funny now that you if you watch it now it's like kind of whatever but like in in in its day it's freaking good wait who would watch it was it meant for I thought say by the Bell was for like 12 year olds a maybe I don't know I watched it as a grown-up straight up it's freaking fun anyway it was awesome show in my opinion still is by the way so they tell him this hey that guy's a big fan of say by the Bell like his name is oh he's you know whatever he's a big F fan just so you know that's what's going on so he was like cool I didn't know any of this I was just working so he was leaving and he kind of had this smile on his face or whatever and he goes he goes hey Eko thanks man and I was like man this guy is the coolest guy probably in the world at this point cuz he's like this massive star or whatever and he's being cool and he said my name see what I'm saying so it helps it does help on the way out he didn't say no way in the time for it exactly right so being nice to people that are in service roles is going to Garner you a lot better treatment in that situation this is the main point that I'm trying to make you know I was going to the airport the other day and I see people getting treated like bad yeah uh the service people bro I'm not look can people be jerks yes they can but it's also their job they got to do the thing they got to can you move your foot out of the aisle yeah I'm sorry about that you know what I mean people get so hostile like a flight attendant towards a flight attendant towards a PSA agent towards a a waiter towards a waitress towards uh you know the guy behind the counter at the store like just be if you're nicer here's what I know so I used to have to make flights for myself and the Admiral when I was the Admiral's Aid mhm and then I'd have to try and get seats on the planes like try and get the Admiral a good seat right try and get an upgrade on Delta that is a little excerp of what we are doing on the Joo underground podcast so if you want to continue to listen go to Joo underground.com And subscribe and we're doing this to mitigate our Reliance on external platforms so we are not subject to their control and we're doing it so we can give you more control more interaction more direct connections better Communications with us strengthen this Legion of Troopers that are in the game with us so thank you it's Joo under .c it costs $818 a month and if you can't afford to support us we can still support you just email assistance atjo underground.com and we'll get you taken care of until then we will see you mobilized Underground
+> "We're doing this to mitigate our Reliance on external platforms so we are not subject to their control."
+
+> "So you see what I just did I did it twice." (demonstrating the name-use phenomenon on Echo mid-conversation)
+
+## Enneagram Type 8 Evidence
+
+- **Need for Control**: Controls conversation flow entirely; built his own platform to avoid dependence on external systems
+- **Protective Nature**: Takes a clear protective stance toward service workers being mistreated — the 8's instinct to protect the vulnerable
+- **Fear of Vulnerability / Suspicion of Manipulation**: Discomfort with name usage = fear of someone creating false intimacy/leverage. Constantly scanning for who's trying to gain power over him.
+- **Desire for Autonomy**: The entire Jocko Underground model is about autonomy — "not subject to their control"
+- **Justice Orientation**: Core argument is about fairness — treat service workers like human beings. Money used to apologize (humility) vs. money used to dominate ("here's your money, let me in") maps onto the 8's sensitivity to unjust power.
+
+## Surprising Details
+
+- **He admits he might be wrong** — repeatedly says he may be "overly sensitive" and "hyper sensitive." Entertains that his instinct could be incorrect. Rare from someone known for absolute certainty.
+- **He's a careful reader of interpersonal subtlety** — the depth of his analysis of micro-social interactions (timing of name usage, social calculus of bribery) reveals far more social attunement than his "discipline equals freedom" brand suggests
+- **The Wolf of Wall Street reference** — uses a specific movie scene to illustrate manipulative name-usage. Shows engagement with pop culture as a tool for understanding behavior.
+- **He charges $8.18/month but offers free access** to anyone who can't afford it — protective, inclusive instinct consistent with healthy Type 8
+- **Genuine curiosity rather than prescription** — unlike typical Jocko content where he delivers firm directives, this episode shows him genuinely exploring a question he doesn't have a definitive answer to
+
+---
+
+# Raw Transcript
+
+## How I Like To Treat Other People — Jocko Underground #118
+
+JOCKO: This is the Jocko Underground podcast number 118, sitting here with Echo Charles. And you are a good person to discuss this subject with — that is, how to treat other people. But I'm going to get a little bit more specific than just other people in general. How to treat people that, let's say — I guess a good way to describe this would be — in the service industry. And the reason I say this is because you were a bouncer for many, many years. And I'm sure that you have experienced — how many years were you a bouncer for?
+
+ECHO: Seven.
+
+JOCKO: Seven years. So that's a lot of Friday nights, that's a lot of Saturday nights. What other nights was big down at The Bitter End back in the day?
+
+ECHO: Friday, Saturday — just Thursday, Friday, Saturday.
+
+JOCKO: Okay, that's a lot of nights. You did that for seven years. Think about that — it's a lot of experience interacting with other people. So you got treated well, right? You got treated unwell. Got treated poorly. Maybe even — you were disrespected sometimes.
+
+ECHO: Sure. No doubt about it.
+
+JOCKO: Give me an example of someone that would come in that you'd be like, "I'm gonna take care of this person." How did they treat you?
+
+ECHO: Nicely.
+
+JOCKO: And were they over the top? Did they have to slip you a hundo or anything like that?
+
+ECHO: They don't have to necessarily, but there are many ways to treat me nicely as a bouncer — treat a bouncer or the doorman, whatever you want to call it, nicely. Bribery — yes, works for sure. But can bribery cover up being an asshole? It can mitigate it, but it makes it kind of weird for sure. If they have this weird expectation that it will, then no. But if they're being a dick or whatever, and then they later on say, "Hey, I was a dick," and then they give you money — yes, it helps a lot.
+
+JOCKO: Okay, even compared to if they just say, "I'm sorry"?
+
+ECHO: Even though that helps a lot, if they say "I'm sorry" and they give you money — oh, you're flipped.
+
+JOCKO: What if they're rolling up to the door and they're like, "Hey, I got four friends, you need to let them in," and they hand you money?
+
+ECHO: Yeah, that has happened too. To answer your question — no, that does not help.
+
+JOCKO: So what do you call it — when they basically position themselves as superior to you, right off the bat, real aggressively, and then they throw out money, kind of like "here's your money," kind of thing? "Of course you're going to let me do whatever I say I want to do" kind of thing?
+
+ECHO: Yes, that is a step in the wrong direction. And you say, "I'm sorry sir, that doesn't work here."
+
+JOCKO: Yes, sir. That's exactly what happened. Now, so the good example of someone that you're going to take care of — kind of meaning you're going to be cool to them, if something happens you're kind of on their side a little bit — how are they treating you? What are they doing?
+
+ECHO: They're being nice. I would say treating you like a person and not just some spiel. Yeah, I think that's kind of what it is — treat you like a person, trying to kind of level with you, I guess. Well, if they can do a genuine good job with that, that'll work for sure.
+
+JOCKO: How do you distinguish — have you ever had someone — there's two things I've been talking about. I was talking to someone about the other day. Looking someone in the eyes. But also saying your name. For me, if someone says my name repeatedly, it seems weird. It's one of those things, Echo, where when I hear it I'm not sure why they're doing that. I can't quite figure out why they're doing it. Does that ever happen to you, Echo?
+
+So you see what I just did — I did it twice.
+
+ECHO: Well yeah, people do that. Oh yeah, fully. And so yes, it's a little awkward. I'm very familiar with this phenomenon, and I did some thinking.
+
+So it might be spot on — it feels like it's spot on, but I don't know, you tell me. When someone's trying to — it depends on their personality first off, because some people, that's how they talk. Like you get an official talker, like maybe some news dude, and you talk to them in real life — that's how they talk a lot of the time.
+
+JOCKO: Did you ever see Wolf of Wall Street?
+
+ECHO: Yeah.
+
+JOCKO: So in Wolf of Wall Street, one of the phone scenes where he's selling — Leonardo DiCaprio selling some penny stock — he says the name, I think it's a little bit too much. He's like, "John, let me tell you, we haven't seen a stock like this in at least six months. John, I'm telling you, John, this is —" He says it like that. And I thought to myself, I get it, I see what you're doing. And maybe on the phone, maybe it's a little bit different.
+
+ECHO: Maybe a little bit different. I think you're right, but it still is awkward to throw someone's name at the end of each sentence. It just, to me, doesn't seem right.
+
+JOCKO: I mean, is it the same to you, Echo?
+
+ECHO: It is the same. But to throw it in there like one time, or like maybe maximum two times — depends. But to throw it in one time does help, I think. But at the same time, there's pre and then there's post, right?
+
+So like, if I'm talking to you, let's say there's this thing where maybe I'm trying to get something from you or convince you of something, and then you throw in the name — I think, "Oh, I can feel that." But if they don't throw in the name, and then afterwards — whether they got from you what they wanted or they convinced you of whatever — and then they throw it in once, then it works. It makes you feel better.
+
+JOCKO: Okay, let me get a little bit more specific. We're at a restaurant. There's a waitress. Waitress comes over — "Hi, I'm Beth, I'm here to be your server tonight." Okay, cool. Then she walks by and you go, "Beth" — you call her by her name.
+
+ECHO: Yeah, I would say, "Excuse me, miss," you know what I mean?
+
+JOCKO: It seems like when someone gives you their name and they're working as a waitress or a waiter, it seems a little strange to me to be like, "Hey, David." Seems weird to me.
+
+ECHO: I don't know. Now that I'm even thinking about it — because yeah, there are all these examples that it kind of like, wait, that wouldn't work given certain circumstances, but that would work actually really well under other circumstances. Same scenario.
+
+So it's almost like this weird wave that you got to go with perfectly, and when you can land it, bro, you are rolling. But if you do it — if you're off step, even like a little bit — it'll just work against you.
+
+JOCKO: I think so too. Like, give me an example of where it's going to work.
+
+ECHO: You know, like say if it's a waiter or waitress, right? Instead of "excuse me," as you say "Beth" — you don't just bust it out necessarily, like, "Oh, I saw the name tag, so I'm just going to start calling you Beth."
+
+Let's say you had some genuine questions about the menu or something like this, and then it sort of came up naturally. Like, "Oh, you know, this Beth thing," and you and Beth kind of have a relationship now above and beyond just, "Hey, here, take your order, blah blah blah."
+
+Because if she's just saying the normal stuff she'd say to every single customer and then you start going above and beyond what the normal customer does, then you're out of step a little bit — just a little bit. So it kind of throws you off.
+
+But if you're like, "Hey, is there a gluten-free thing? Oh, what about this?" And you're genuinely concerned about the menu — now your relationship gets a little deeper, see what I'm saying? Once that depth starts to develop a little bit, then you can throw out, "Oh, what's your name, by the way? Okay, Beth. Okay." Because you have a little bit more of a relationship that would warrant you calling her something a little bit more personal. That's what it feels like.
+
+JOCKO: I think I might be a little bit hyper sensitive about the name thing. I think I might be overly sensitive. I think I might be overly sensitive, because to me — like, I wouldn't be surprised if people said, "No, it's very —" I wouldn't be surprised if a waitress told me, "No, we like it when you —" I wouldn't be surprised if that was the consensus and I just didn't know it.
+
+ECHO: Yeah, it seems a little bit too personal though.
+
+JOCKO: So I liked it as a bouncer. You brought this up — when they're saying your name, you're like — did you wear a name tag?
+
+ECHO: Yeah, that said "Echo" on it. Yeah, oh yeah.
+
+JOCKO: It seems a little bit much. Hold on a second, "Echo," you know what I mean? Seems a little weird.
+
+ECHO: Yeah, beforehand. So like, if the person didn't need anything from me, or if they were leaving or something, and then they said it — like, it felt good, dude. For real, it felt good. Kind of like, "Okay, see, I was wrong. I am wrong."
+
+But on the way in though, if they're like, "Hey, what's up Echo" — and I'm like, "Okay, I see what you're doing there." He's trying — this is a pitch. It's some kind of a pitch, like on the Wolf of Wall Street or whatever. Like he's going heavy on the pitch, so it's not as genuine.
+
+But if they're saying it and they don't need anything from you, you're kind of like, "Well, he's just being cool now." At this point, that's what I felt.
+
+JOCKO: You know who did that to me? Mario Lopez. You know who that is?
+
+ECHO: San Diego guy. Oh yeah, yeah — the actor guy.
+
+JOCKO: He's an actor, slash he's a Jiu-Jitsu guy, right?
+
+ECHO: Jiu-Jitsu guy. That's how I know him. I don't know him from acting. I know him from the Jiu-Jitsu world.
+
+JOCKO: I know from everything. AC Slater days, back in the day. AC Slater was his — he's on a kid show, right?
+
+ECHO: Yeah, Saved by the Bell.
+
+JOCKO: Yeah. So I was at — we're at The Bitter End. Mario Lopez rolls in. I was like, "Oh, hell yeah." It was on an off night too, it was like a Wednesday or something like this. He came in, he had two guys with him. I checked their IDs. Of course, I don't check Mario Lopez's ID — even though he had his ID already. That's how you know someone's cool. He's not like, "Hey, you should know already," you know? "Do you know who I am?"
+
+ECHO: And bro, that's real too, by the way. Did you ever have that happen?
+
+JOCKO: Yeah, oh yeah, plenty of times.
+
+ECHO: By anyone that's recognizable to normal people?
+
+JOCKO: No. So there's people that were like, "Do you know who I am? I'm famous in San Diego." Yeah, like guys who — "Everyone knows me here," you know? Like that. Oh, God.
+
+But so he rolled in, whatever — two friends, friends showed the IDs, whatever, super nice. And he's a San Diego guy, so you'd expect him to be like, "Hey, you know who I am." Nope, didn't. Everyone knew — like, Saved by the Bell — they played this little prank on me. This was kind of a big deal at the time.
+
+So anyway, what's the premise of Saved by the Bell? What's it about?
+
+ECHO: Just teenage years. The struggle. High school. The struggle.
+
+JOCKO: What's his — is he the main guy?
+
+ECHO: He's kind of the second guy.
+
+JOCKO: Who's the main guy?
+
+ECHO: Zack Morris, who is Mark-Paul Gosselaar.
+
+JOCKO: So he was like the popular main dude, and then there's AC Slater who's kind of his rival. But Slater was an athlete who could dance. He had every — brother, this guy could do anything.
+
+ECHO: He could dance good? He was an athlete? He played — like, wrestler? Like, badass dude. He had big muscles and stuff.
+
+JOCKO: Yeah, man. Anyway, so he goes in. The bartender, Casey Jones is his name — bartender — and then one of the waitresses, Maggie, they conspire. They tell Mario Lopez, "Hey, that guy Echo outside — he's like a massive fan of Saved by the Bell, and you, and all this stuff."
+
+ECHO: And that's for real, yeah. Oh yeah, this was like back in the day.
+
+JOCKO: When did you watch Saved by the Bell? Like in, you know, high school, stuff like that?
+
+ECHO: No, no, no. Like college time.
+
+JOCKO: What's it about? It's like — it's actually pretty good. It's funny now. If you watch it now, it's kind of whatever, but like in its day, it's freaking good.
+
+ECHO: Wait, who would watch it? Was it meant for — I thought Saved by the Bell was for like 12-year-olds.
+
+JOCKO: Maybe. I don't know. I watched it as a grown-up. Straight up, it's freaking fun. Anyway, it was an awesome show, in my opinion. Still is, by the way.
+
+So they tell him this — "Hey, that guy's a big fan of Saved by the Bell. Like, his name is — oh, he's a big fan, just so you know." That's what's going on. So he was like, "Cool." I didn't know any of this. I was just working.
+
+So he was leaving and he kind of had this smile on his face or whatever, and he goes, "Hey, Echo. Thanks, man." And I was like, "Man, this guy is the coolest guy probably in the world at this point," because he's like this massive star or whatever and he's being cool, and he said my name. See what I'm saying? So it helps.
+
+ECHO: It does help — on the way out. He didn't say it on the way in.
+
+JOCKO: The time for it. Exactly right.
+
+So being nice to people that are in service roles is going to garner you a lot better treatment in that situation. This is the main point that I'm trying to make.
+
+You know, I was going to the airport the other day and I see people getting treated bad — the service people, bro. I'm not — look, can people be jerks? Yes, they can. But it's also their job. They got to do the thing. "Can you move your foot out of the aisle?" "Yeah, I'm sorry about that." You know what I mean?
+
+People get so hostile — like, towards a flight attendant, towards a gate agent, towards a waiter, towards a waitress, towards the guy behind the counter at the store. Just be — if you're nicer — here's what I know: I used to have to make flights for myself and the Admiral when I was the Admiral's aide, and then I'd have to try and get seats on the planes, like try and get the Admiral a good seat, right? Try and get an upgrade on Delta.
+
+That is a little excerpt of what we are doing on the Jocko Underground podcast. So if you want to continue to listen, go to jockounderground.com and subscribe. And we're doing this to mitigate our reliance on external platforms so we are not subject to their control. And we're doing it so we can give you more control, more interaction, more direct connections, better communications with us — strengthen this legion of troopers that are in the game with us.
+
+So thank you. It's jockounderground.com. It costs $8.18 a month. And if you can't afford to support us, we can still support you — just email assistance@jockounderground.com and we'll get you taken care of. Until then, we will see you mobilized underground.

@@ -13,9 +13,9 @@
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 	type C = Component;
-	$: component = data.component as unknown as C;
+	let Article = $derived(data.component as unknown as C);
 
 	const contentStore = writable('');
 
@@ -25,7 +25,6 @@
 		findObserver();
 
 		return () => {
-			// Cleanup observer on unmount
 			if (observer) {
 				observer.disconnect();
 				observer = null;
@@ -34,21 +33,20 @@
 	});
 
 	// Watch for slug changes and reinitialize observer
-	$: if (data?.slug) {
-		// Reset content store when slug changes
-		contentStore.set('');
+	$effect(() => {
+		if (data?.slug) {
+			contentStore.set('');
 
-		// Clean up existing observer
-		if (observer) {
-			observer.disconnect();
-			observer = null;
+			if (observer) {
+				observer.disconnect();
+				observer = null;
+			}
+
+			setTimeout(() => {
+				findObserver();
+			}, 100);
 		}
-
-		// Set up new observer after a short delay to ensure DOM is updated
-		setTimeout(() => {
-			findObserver();
-		}, 100);
-	}
+	});
 
 	const findObserver = () => {
 		if (!browser) return;
@@ -57,7 +55,6 @@
 		if (!node) {
 			setTimeout(findObserver, 500);
 		} else {
-			// Disconnect existing observer if any
 			if (observer) {
 				observer.disconnect();
 			}
@@ -71,18 +68,16 @@
 			});
 
 			observer.observe(node, { childList: true, subtree: true });
-
-			// Also set initial content
 			contentStore.set(node.innerHTML);
 		}
 	};
 
-	// Determine if this is a dark/crime-related post
-	$: isDarkContent =
+	let isDarkContent = $derived(
 		data?.slug?.includes('dark-triad') ||
-		data?.slug?.includes('serial-killer') ||
-		data?.slug?.includes('criminal') ||
-		data?.frontmatter?.tags?.includes('dark-psychology');
+			data?.slug?.includes('serial-killer') ||
+			data?.slug?.includes('criminal') ||
+			data?.frontmatter?.tags?.includes('dark-psychology')
+	);
 </script>
 
 <article
@@ -129,7 +124,7 @@
 	<TableOfContents {contentStore} />
 
 	<div class="article-content">
-		<svelte:component this={component} />
+		<Article />
 	</div>
 
 	<!-- Related Content Section -->

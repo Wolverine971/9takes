@@ -4,40 +4,7 @@
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 
-	export let data: PageData;
-
-	const blogCategories = [
-		{
-			id: 'dark-psychology',
-			title: 'Dark Psychology',
-			subtitle: 'Shadow personality & criminal minds',
-			icon: '🎭'
-		},
-		{
-			id: 'celebrity-analysis',
-			title: 'Celebrities',
-			subtitle: 'Psychological profiles',
-			icon: '⭐'
-		},
-		{
-			id: 'cultural-phenomena',
-			title: 'Culture',
-			subtitle: 'Trends & movements',
-			icon: '🌍'
-		},
-		{
-			id: 'power-politics',
-			title: 'Power',
-			subtitle: 'Politics & leadership',
-			icon: '⚡'
-		},
-		{
-			id: 'creative-genius',
-			title: 'Creativity',
-			subtitle: 'Genius & madness',
-			icon: '🎨'
-		}
-	];
+	let { data }: { data: PageData } = $props();
 
 	function formatBlogSlug(title: string) {
 		return title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
@@ -49,46 +16,6 @@
 		{
 			"@context": "https://schema.org",
 			"@type": "CollectionPage",
-			"mainEntity": {
-				"@type": "ItemList",
-				"itemListElement": [
-					{
-						"@type": "ListItem",
-						"position": 1,
-						"name": "Dark Psychology & Criminal Minds",
-						"description": "Explore the Dark Triad traits through famous criminal cases and psychological profiles",
-						"url": "https://9takes.com/pop-culture#dark-psychology"
-					},
-					{
-						"@type": "ListItem",
-						"position": 2,
-						"name": "Celebrity Personality Analysis",
-						"description": "In-depth Enneagram analysis of celebrities, public figures, and their behaviors",
-						"url": "https://9takes.com/pop-culture#celebrity-analysis"
-					},
-					{
-						"@type": "ListItem",
-						"position": 3,
-						"name": "Cultural Phenomena Through Personality",
-						"description": "Understanding viral trends, movements, and collective behavior patterns",
-						"url": "https://9takes.com/pop-culture#cultural-phenomena"
-					},
-					{
-						"@type": "ListItem",
-						"position": 4,
-						"name": "Power and Politics Psychology",
-						"description": "Analyzing political figures, scandals, and the psychology of leadership",
-						"url": "https://9takes.com/pop-culture#power-politics"
-					},
-					{
-						"@type": "ListItem",
-						"position": 5,
-						"name": "Creative Genius and Mental Health",
-						"description": "Exploring the link between creativity, personality types, and psychological struggles",
-						"url": "https://9takes.com/pop-culture#creative-genius"
-					}
-				]
-			},
 			"name": "Pop Culture Psychology: Enneagram Analysis of Famous Figures & Cultural Phenomena",
 			"description": "Deep psychological analysis of celebrities, criminals, and cultural movements through the Enneagram personality system. Explore the Dark Triad, famous scandals, and the psychology behind pop culture.",
 			"url": "https://9takes.com/pop-culture",
@@ -142,18 +69,6 @@
 	<header class="hero">
 		<h1>Pop Culture Psychology</h1>
 	</header>
-
-	<!-- Quick Navigation -->
-	<nav class="quick-nav" aria-label="Topic Navigation">
-		<div class="nav-scroll">
-			{#each blogCategories as category}
-				<a href="#{category.id}" class="nav-pill">
-					<span class="nav-icon">{category.icon}</span>
-					<span class="nav-text">{category.title}</span>
-				</a>
-			{/each}
-		</div>
-	</nav>
 
 	<main class="main-content">
 		<!-- Featured Section -->
@@ -302,67 +217,6 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
-	}
-
-	/* Quick Navigation */
-	.quick-nav {
-		background: linear-gradient(180deg, rgba(10, 10, 15, 0.98) 0%, rgba(10, 10, 15, 0.95) 100%);
-		backdrop-filter: blur(12px);
-		border-bottom: 1px solid rgba(124, 58, 237, 0.15);
-		padding: 0.75rem 0;
-		margin-bottom: 1rem;
-	}
-
-	.nav-scroll {
-		max-width: 1200px;
-		margin: 0 auto;
-		display: flex;
-		gap: 0.5rem;
-		overflow-x: auto;
-		padding: 0.5rem 1.5rem;
-		scrollbar-width: none;
-		justify-content: center;
-		flex-wrap: wrap;
-
-		&::-webkit-scrollbar {
-			display: none;
-		}
-	}
-
-	.nav-pill {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		padding: 0.5rem 1rem;
-		background: rgba(26, 26, 46, 0.6);
-		border-radius: 0.5rem;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		color: #94a3b8;
-		white-space: nowrap;
-		transition: all 0.2s ease;
-		text-decoration: none;
-		border: 1px solid rgba(100, 116, 139, 0.2);
-
-		&:hover {
-			background: rgba(124, 58, 237, 0.15);
-			color: #a78bfa;
-			border-color: rgba(124, 58, 237, 0.4);
-			transform: translateY(-1px);
-		}
-
-		&:active {
-			transform: scale(0.98);
-		}
-	}
-
-	.nav-icon {
-		font-size: 0.9375rem;
-		line-height: 1;
-	}
-
-	.nav-text {
-		letter-spacing: -0.01em;
 	}
 
 	/* Main Content */
@@ -763,25 +617,6 @@
 			font-size: 1.5rem;
 		}
 
-		.quick-nav {
-			padding: 0.5rem 0;
-		}
-
-		.nav-scroll {
-			padding: 0.375rem 1rem;
-			gap: 0.375rem;
-		}
-
-		.nav-pill {
-			padding: 0.4rem 0.75rem;
-			font-size: 0.75rem;
-			border-radius: 0.375rem;
-		}
-
-		.nav-icon {
-			font-size: 0.875rem;
-		}
-
 		.main-content {
 			padding: 1rem 1rem 2.5rem;
 		}
@@ -887,23 +722,6 @@
 	@media (max-width: 380px) {
 		.hero h1 {
 			font-size: 1.25rem;
-		}
-
-		.nav-scroll {
-			padding: 0.25rem 0.75rem;
-		}
-
-		.nav-pill {
-			padding: 0.35rem 0.625rem;
-			gap: 0.375rem;
-		}
-
-		.nav-text {
-			display: none;
-		}
-
-		.nav-icon {
-			font-size: 1rem;
 		}
 
 		.blog-grid {

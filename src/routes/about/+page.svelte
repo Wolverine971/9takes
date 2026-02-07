@@ -119,8 +119,8 @@
 				Everyone talks. Nobody listens.
 			</p>
 			<p class="solution">
-				9takes flips the script: you share YOUR perspective first, then see how the other personality
-				types answered the same question.
+				9takes flips the script: you share YOUR perspective first, then see how the other
+				personality types answered the same question.
 			</p>
 		</div>
 	</section>
@@ -157,8 +157,8 @@
 		</div>
 
 		<p class="explainer-link">
-			9 types. 3 centers. One framework for understanding why people see the same situation completely
-			differently.
+			9 types. 3 centers. One framework for understanding why people see the same situation
+			completely differently.
 			<a href="/enneagram-corner/enneagram-concepts">Learn the full system &rarr;</a>
 		</p>
 	</section>
@@ -215,9 +215,7 @@
 	<!-- See It In Action -->
 	<section class="example-section">
 		<h2 class="section-title">See It In Action</h2>
-		<p class="example-intro">
-			Here's what it looks like when one question gets 3 different takes:
-		</p>
+		<p class="example-intro">Here's what it looks like when one question gets 3 different takes:</p>
 
 		<div class="example-question">
 			<div class="example-q-header">
@@ -284,8 +282,8 @@
 			</p>
 			<p>
 				9takes exists because people deserve a place to <strong>give their real take</strong> and
-				discover how others genuinely see the same situation. Not to argue. Not to perform.
-				To actually <strong>connect</strong> through honest perspective.
+				discover how others genuinely see the same situation. Not to argue. Not to perform. To
+				actually <strong>connect</strong> through honest perspective.
 			</p>
 		</div>
 
