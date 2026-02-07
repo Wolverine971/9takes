@@ -2,7 +2,7 @@
 title: "Shawn Ryan: The Type 8 Psychology Behind America's Most Fearless Podcaster"
 meta_title: "Why Shawn Ryan Can't Stop Running Toward Danger (It's Not Bravery)"
 persona_title: "Podcasting's Warrior-Confessor"
-description: "From Navy SEAL to CIA to drug trafficker to podcasting titan. Inside the Type 8 mind that makes Shawn Ryan impossible to control."
+description: 'From Navy SEAL to CIA to drug trafficker to podcasting titan. Inside the Type 8 mind that makes Shawn Ryan impossible to control.'
 author: 'DJ Wayne'
 date: '2026-02-06'
 loc: 'https://9takes.com/personality-analysis/Shawn-Ryan'
@@ -18,6 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Shawn_Ryan_(United_States_Navy)'
 twitter: 'ShawnRyan762'
 instagram: 'shawnryan762'
 tiktok: 'shawnryan762'
+path: src/blog/people/drafts/Shawn-Ryan.md
 ---
 
 <p class="firstLetter">He completed 20 deployments across 14 conflict zones as a Navy SEAL and CIA contractor. Then he ran a drug trafficking ring in Colombia. Then he overdosed. Then he found God. Then he built the #2 podcast on Spotify. All of it makes perfect sense when you understand one thing about Shawn Ryan's personality.</p>
@@ -80,13 +81,13 @@ For a Type 8, this was the perfect environment. Clear enemies. Physical danger. 
 
 After leaving the Navy in 2006, Shawn briefly attempted real estate. It lasted about five minutes before he went back to what he knew: controlled violence in service of something bigger.
 
-He joined the CIA's Global Response Staff as a contractor — the same type of paramilitary unit depicted in *13 Hours* about the Benghazi attack. Operating under the Counterterrorism Mission Center through organizations like Blackwater, he spent nearly a decade in the world's most dangerous places.
+He joined the CIA's Global Response Staff as a contractor — the same type of paramilitary unit depicted in _13 Hours_ about the Benghazi attack. Operating under the Counterterrorism Mission Center through organizations like Blackwater, he spent nearly a decade in the world's most dangerous places.
 
 Type 8s don't just tolerate danger. They need it. The stakes have to be real, the consequences lethal, or the whole thing feels like pretend.
 
 ### Vigilance Elite and the Podcast
 
-In December 2015, Shawn founded Vigilance Elite — a tactical training and apparel company. He trained <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a>'s friend Keanu Reeves in close-quarters combat for *John Wick: Chapter 3*. He consulted on *Call of Duty: Modern Warfare*, even lending his likeness and voice for the character "Ronin."
+In December 2015, Shawn founded Vigilance Elite — a tactical training and apparel company. He trained <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a>'s friend Keanu Reeves in close-quarters combat for _John Wick: Chapter 3_. He consulted on _Call of Duty: Modern Warfare_, even lending his likeness and voice for the character "Ronin."
 
 But the real empire came from a simple idea: give people a place to tell their story.
 

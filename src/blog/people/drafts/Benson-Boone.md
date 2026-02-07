@@ -1,5 +1,5 @@
 ---
-title: "Benson Boone: An Enneagram Type 7 Personality Analysis"
+title: 'Benson Boone: An Enneagram Type 7 Personality Analysis'
 meta_title: "Why Benson Boone Can't Stop Moving (The Psychology Behind the Backflips)"
 persona_title: "Pop's Restless Daredevil"
 description: "What drives Benson Boone's backflips, sobriety, and relentless energy? An Enneagram Type 7 analysis of the Beautiful Things singer."
@@ -18,6 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Benson_Boone'
 twitter: 'BensonBoone'
 instagram: 'bensonboone'
 tiktok: 'bensonboone'
+path: src/blog/people/drafts/Benson-Boone.md
 ---
 
 > "If my younger self could see me now, they wouldn't believe it."
@@ -77,7 +78,7 @@ What happened next was better. Dan Reynolds of Imagine Dragons discovered Boone'
 
 His debut single "Ghost Town" — written in that three-day mentorship period — has amassed over 350 million Spotify streams. "In The Stars" hit Platinum. Then came "Beautiful Things" in January 2024, which peaked at #2 on the Billboard Hot 100, hit #1 in 19 countries, and won the IFPI Global Single Award with 2.11 billion streams — the biggest-selling global single of the year.
 
-His debut album *Fireworks & Rollerblades* debuted at #6 on the Billboard 200. His sophomore album *American Heart*, released in June 2025, debuted at #2. His first all-arena world tour spans 50 shows across North America and Europe.
+His debut album _Fireworks & Rollerblades_ debuted at #6 on the Billboard 200. His sophomore album _American Heart_, released in June 2025, debuted at #2. His first all-arena world tour spans 50 shows across North America and Europe.
 
 All of this happened in roughly four years. For a Type 7, there is no speed limit.
 
@@ -131,7 +132,7 @@ But here's what matters: Boone fully committed. Type 7s don't do things halfway.
 
 ### The Authenticity Question
 
-The most persistent criticism of Benson Boone is that he's inauthentic — a "manufactured" pop star doing impressions of <a href="/personality-analysis/Harry-Styles">Harry Styles</a> and Freddie Mercury without a unique artistic identity. Pitchfork gave his *American Heart* album a 3.7/10, with critic Jeremy D. Larson writing that "Benson Boone's flair can't make up for the fact that his songs aren't very good and that he lacks a unique point of view."
+The most persistent criticism of Benson Boone is that he's inauthentic — a "manufactured" pop star doing impressions of <a href="/personality-analysis/Harry-Styles">Harry Styles</a> and Freddie Mercury without a unique artistic identity. Pitchfork gave his _American Heart_ album a 3.7/10, with critic Jeremy D. Larson writing that "Benson Boone's flair can't make up for the fact that his songs aren't very good and that he lacks a unique point of view."
 
 The online backlash has been compared to what Nickelback experienced — sudden inescapability meeting baffled cultural derision. TikTok and X have been especially brutal, with one attempted fan campaign ("Mystical Magical" for Coachella) backfiring into a wave of "I hate Benson Boone" posts.
 
@@ -143,7 +144,7 @@ Type 7s reframe. It's their superpower and their blind spot. The strength is res
 
 ## Benson Boone's Legacy and Current Work
 
-At 23, Boone sits in a fascinating cultural position. His *American Heart* album draws on Bruce Springsteen and Americana, suggesting he's searching for a more grounded artistic identity. His first all-arena world tour (August 2025 through March 2026) proves his commercial power is real. He's single following his September 2025 breakup with actress Maggie Thurmon.
+At 23, Boone sits in a fascinating cultural position. His _American Heart_ album draws on Bruce Springsteen and Americana, suggesting he's searching for a more grounded artistic identity. His first all-arena world tour (August 2025 through March 2026) proves his commercial power is real. He's single following his September 2025 breakup with actress Maggie Thurmon.
 
 The question hanging over Benson Boone isn't whether he's talented — his voice, his energy, and his songwriting instincts are obvious. It's whether he'll slow down long enough to find the depth that the critics say is missing. Type 7s grow when they stop running and let the uncomfortable feelings catch up. Boone has shown glimpses of this — "Beautiful Things" is a song about sitting in fear, not escaping it. His body image honesty, his ego checks, his sobriety — these are not the behaviors of someone who's purely avoiding pain.
 

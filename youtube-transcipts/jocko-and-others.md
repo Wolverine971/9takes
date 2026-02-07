@@ -1,4 +1,5 @@
 <!-- youtube-transcipts/jocko-and-others.md -->
+
 # Analysis: "How I Like To Treat Other People" — Jocko Underground #118
 
 **Source**: https://www.youtube.com/watch?v=a7Qz4xVI04E

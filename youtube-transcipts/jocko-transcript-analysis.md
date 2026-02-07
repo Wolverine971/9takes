@@ -1,4 +1,5 @@
 <!-- youtube-transcipts/jocko-transcript-analysis.md -->
+
 # Jocko Willink — YouTube Transcript Analysis (Consolidated)
 
 Analyzed 4 transcripts for personality insights to support the Enneagram Type 8 blog post.

@@ -4,7 +4,7 @@ description: "It's 3 AM and your brain won't stop. Generic advice doesn't work b
 author: 'DJ Wayne'
 date: '2025-12-04'
 loc: 'https://9takes.com/enneagram-corner/why-you-cant-stop-overthinking-enneagram'
-lastmod: '2026-01-18'
+lastmod: '2026-02-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -23,6 +23,8 @@ path: src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
 
 <svelte:head>
 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,7 +42,7 @@ path: src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2026-01-18",
+      "dateModified": "2026-02-07",
       "datePublished": "2025-12-04",
       "description": "It's 3 AM and your brain won't stop. Generic advice doesn't work because different types overthink differently. Discover your specific thought loop and how to interrupt it.",
       "headline": "Why You Can't Stop Overthinking (Your Enneagram Type Explains It)",
@@ -226,6 +228,10 @@ You analyze every interaction for hidden meanings. Tone, word choice, response t
 **Why You Can't Stop:**
 
 Connection equals survival for you. Analyzing ensures you don't miss a relationship threat or an opportunity to help. If you stop monitoring, something might slip through.
+
+<div style="display: flex; justify-content: center; margin: 1rem 0;">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In my 25+ years as a psychologist, I&#39;ve learned:<br><br>People-pleasing is the compulsive need to prioritize others&#39; comfort over your own needs. <br><br>It&#39;s not kindness—it&#39;s a survival response developed in childhood when your authentic expression was unsafe. <a href="https://t.co/placeholder">pic.twitter.com/placeholder</a></p>&mdash; Dr. Bob Beare (@DrBobBeare) <a href="https://twitter.com/DrBobBeare/status/2017254019396260342?ref_src=twsrc%5Etfw">February 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 **Breaking the Loop:**
 

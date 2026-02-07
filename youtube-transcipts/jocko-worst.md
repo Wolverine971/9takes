@@ -1,4 +1,5 @@
 <!-- youtube-transcipts/jocko-worst.md -->
+
 # Analysis: "THE WORST CONVERSATION I'VE EVER HAD IN MY LIFE"
 
 **Source**: https://www.youtube.com/watch?v=zBs-wv50sZo

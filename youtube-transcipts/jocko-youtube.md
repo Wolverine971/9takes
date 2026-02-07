@@ -1,4 +1,5 @@
 <!-- youtube-transcipts/jocko-youtube.md -->
+
 # Jocko Willink YouTube Videos — Organized for Blog Research
 
 Purpose: Identify transcripts that reveal who Jocko is as a person for the Enneagram Type 8 personality analysis blog.

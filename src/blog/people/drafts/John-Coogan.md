@@ -2,7 +2,7 @@
 title: "John Coogan: An Enneagram Type 5 Analysis of Tech's Quiet Documentarian"
 meta_title: "Why John Coogan Can't Stop Researching Everything (The Pattern Behind TBPN)"
 persona_title: "Tech Media's Methodical Architect"
-description: "Why does John Coogan research obsessively before speaking? Explore how his Type 5 personality built Soylent, Lucy, and TBPN from pure intellectual curiosity."
+description: 'Why does John Coogan research obsessively before speaking? Explore how his Type 5 personality built Soylent, Lucy, and TBPN from pure intellectual curiosity.'
 author: 'DJ Wayne'
 date: '2026-02-06'
 loc: 'https://9takes.com/personality-analysis/John-Coogan'
@@ -18,6 +18,7 @@ wikipedia: ''
 twitter: 'https://twitter.com/johncoogan'
 instagram: 'https://instagram.com/johncoogan'
 tiktok: ''
+path: src/blog/people/drafts/John-Coogan.md
 ---
 
 > "I've been an entrepreneur my entire career. I've never held a full-time job at a company I didn't start myself."
@@ -194,4 +195,3 @@ Ever wonder how different personality types perceive the same person? Here's how
 </article>
 
 > **Disclaimer:** This analysis of John Coogan's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
-
