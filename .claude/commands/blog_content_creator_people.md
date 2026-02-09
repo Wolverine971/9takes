@@ -38,11 +38,13 @@ Every blog must follow this tone philosophy. This is what differentiates 9takes 
 ### The Core Principle: Authoritative About the System, Humble About the Person
 
 **DO NOT** write like this (overt, declarative):
+
 - "This is so Enneagram 2 of them."
 - "As a classic Type 3, she naturally..."
 - "His Type 5 personality makes him..."
 
 **DO** write like this (system-first, then evidence-based connection):
+
 - "Many Enneagram Twos experience a deep need to be needed. They often channel this into acts of service, sometimes at the expense of their own needs. We can see evidence of this pattern in [Person]'s consistent advocacy work and the way they describe feeling most alive when helping others."
 - "Type Threes often carry an internal pressure to prove their worth through achievement. This can drive relentless reinvention. Looking at [Person]'s career trajectory, there's a striking parallel -- they likely felt that same pull to keep evolving, to never let the world see them standing still."
 
@@ -56,6 +58,7 @@ Every blog must follow this tone philosophy. This is what differentiates 9takes 
 ### Invite Reflection, Don't Dictate
 
 The reader should feel like they're being guided through an analysis, not told what to believe. Use questions and invitations:
+
 - "Does this remind you of someone in your life who..."
 - "Consider how this pattern might explain..."
 - "What's interesting is how this connects to..."
@@ -70,12 +73,14 @@ The strongest personality analysis reads like a compelling profile that _happens
 **The distribution rule**: Explicit Enneagram framing (naming the type, referencing Enneagram theory, using phrases like "Type X typically...") should appear in **at most 3-4 sections** of the blog. The remaining sections should tell the person's story and let the reader connect the dots.
 
 **Sections that should lean toward pure narrative (minimal or no Enneagram framing):**
+
 - **Upbringing** — tell the story, don't diagnose the childhood
 - **Rise to fame** — focus on the journey
 - **Individual personality quirks** — describe the behavior vividly, let it speak for itself
 - **Accomplishments** — show what they did, not what type they are
 
 **Sections where explicit Enneagram analysis fits naturally:**
+
 - **"What is [Person]'s personality type?"** — the one section dedicated to direct analysis
 - **Conclusion** — tie themes together through the lens
 - **One or two moments** in the personality or challenges sections where naming the type genuinely deepens understanding
@@ -85,17 +90,20 @@ The strongest personality analysis reads like a compelling profile that _happens
 ### Show, Don't Label
 
 Instead of writing "This is classic Type 8 behavior" or "Type 8s characteristically do this," prefer:
+
 - Describing the behavior vividly and letting it resonate on its own
 - Using the Enneagram insight _implicitly_ through your analytical lens without naming the type
 - Saving the explicit "this connects to Type X" for **2-3 key moments** where it genuinely adds something
 
 **Phrases to avoid (or use very sparingly — maximum 2 times per entire blog):**
+
 - "This is classic/textbook Type X"
 - "Type Xs characteristically..."
 - "This is very Type X"
 - "consistent with Type X patterns/behavior"
 
 **Instead, let the behavior carry the weight:**
+
 - "She set the terms. She always sets the terms. And if you get too close without permission, you'll know."
 - "The anger didn't paralyze her. It became a song. Every time."
 
@@ -131,18 +139,20 @@ Blogs have multiple structural layers (intro, TL;DR, evidence list, main section
 
 ## What Makes a Great Analysis (CRITICAL)
 
-The tone section above covers *how* to write about the Enneagram. This section covers what separates a genuinely compelling personality analysis from a competent but forgettable one.
+The tone section above covers _how_ to write about the Enneagram. This section covers what separates a genuinely compelling personality analysis from a competent but forgettable one.
 
 ### Find the Core Tension
 
 Every fascinating person has a central contradiction — the thing that doesn't quite add up, the paradox that makes them interesting. **Finding and naming this tension is the single most important step in writing a great blog.**
 
 Examples:
+
 - **Chappell Roan**: fortress vs. vulnerability — a woman who creates force fields of unapproachability, yet admits to throwing away her personality to keep someone from leaving
 - **Jocko Willink**: strength vs. tenderness — the same intensity that made his men beg to stay on the battlefield made his children beg to leave the jiu-jitsu mat
 - **Chris Williamson**: achievement vs. authenticity — built a massive podcast empire while publicly questioning whether the person behind the microphone is real
 
 **The core tension should:**
+
 - Be identified during the research phase (Steps 2-3) before writing begins
 - Appear in the intro — named or strongly implied within the first 5 paragraphs
 - Echo throughout the blog — different sections should illuminate different facets of the same tension
@@ -155,14 +165,16 @@ Examples:
 The most powerful evidence in a personality analysis is never the headline accomplishment. It's the tiny, specific, seemingly minor detail that cracks open who someone really is.
 
 **Great examples from existing blogs:**
+
 - A comment overheard in a lunch line ("she's pretty but not hot") → the anthem "Hot to Go" years later
 - Jocko calling his toddler daughter "dense" as a compliment → her eating disorder in college
 - Shawn Ryan mentioning his suicide attempt mid-sentence then pivoting to veteran statistics
 - Chappell writing a handwritten 5-track EP for a partner, burning it on a CD → "They didn't love it as much as I thought they would." She never gave a gift like that again.
 
-**The pattern:** Small moment → years of silent impact → revealing consequence. This is what makes readers feel like they're seeing the *real* person, not a Wikipedia summary.
+**The pattern:** Small moment → years of silent impact → revealing consequence. This is what makes readers feel like they're seeing the _real_ person, not a Wikipedia summary.
 
 **During research, actively hunt for these moments.** They're usually found in:
+
 - Long-form podcast interviews (unscripted, candid)
 - Childhood anecdotes told in passing
 - Offhand comments about habits, fears, or relationships
@@ -175,7 +187,7 @@ Every blog should have **at least 3-5 of these small, specific, devastating deta
 One of the richest veins in personality analysis is the gap between who someone is on stage (or on camera, or in public) and who they are when the performance stops. Exploring this gap:
 
 - Creates empathy — readers see the person as human, not as a brand
-- Reveals the Enneagram pattern naturally — the gap between public and private is often *where the type lives*
+- Reveals the Enneagram pattern naturally — the gap between public and private is often _where the type lives_
 - Makes readers feel seen — everyone has a version of this gap in their own life
 
 **Look for:** What do they do when no one's watching? What do their close friends say about them vs. their public reputation? What surprises people who meet them in person? What do they admit in long-form interviews that contradicts their image?
@@ -192,9 +204,10 @@ The most psychologically satisfying analyses connect early experiences to presen
 
 ### The "Aha Moment"
 
-Every blog should contain at least one moment where the Enneagram framework makes something *click* that wouldn't click otherwise. This is the payoff for the reader — the reason they came to a personality analysis site instead of Wikipedia.
+Every blog should contain at least one moment where the Enneagram framework makes something _click_ that wouldn't click otherwise. This is the payoff for the reader — the reason they came to a personality analysis site instead of Wikipedia.
 
 **What makes a good aha moment:**
+
 - It explains behavior that seemed random, extreme, or contradictory
 - It connects two seemingly unrelated things in the person's life
 - It makes the reader go "that makes so much sense" — about the person AND potentially about themselves or someone they know
@@ -202,9 +215,10 @@ Every blog should contain at least one moment where the Enneagram framework make
 
 ### Prose That Hits
 
-The best blogs don't just analyze well — they're *written* well. Personality analysis should read like a compelling magazine profile, not a psychology textbook.
+The best blogs don't just analyze well — they're _written_ well. Personality analysis should read like a compelling magazine profile, not a psychology textbook.
 
 **Techniques that work:**
+
 - **Short sentences after long ones for impact.** "She set the terms. She always sets the terms. And if you get too close without permission, you'll know."
 - **The understated line that carries the most weight.** "She never gave a gift like that again." (More devastating than any paragraph of analysis.)
 - **Show first, then explain (or don't explain at all).** Describe the behavior vividly. Let the reader feel it before you name the pattern.
@@ -275,6 +289,7 @@ Final paragraph with engaging question.
 ### Opening Quote Guidance
 
 The opening quote sets the tone for the entire analysis. Choose a quote that:
+
 - **Reveals personality** — shows how they think/feel, not just what they've achieved
 - **Comes from the person directly** (preferred) or from someone who knows them well
 - **Has emotional texture** — vulnerability, conviction, or humor work best
@@ -288,16 +303,19 @@ The opening quote sets the tone for the entire analysis. Choose a quote that:
 The 9takes celebrity blog system uses THREE title fields. Strategy: "Clickbait to the door, quality inside."
 
 ### 1. `title` (Evergreen/Authoritative)
+
 - Displayed on the actual blog page
 - Professional, accurate, timeless — should remain valuable years from now
 - Example: "Elon Musk: An In-Depth Enneagram Type 5 Analysis"
 
 ### 2. `meta_title` (Clickbait/SEO)
+
 - Used for search results, social sharing, and browser tabs
 - Problem-focused, curiosity-inducing, optimized for CTR
 - Example: "Inside Elon Musk's Mind: Why He Can't Stop Taking Risks"
 
 ### 3. `persona_title` (Archetype Label)
+
 - 2-5 words max, displayed on listing pages
 - Format: "[Domain]'s [Type-Allusive Adjective] [Archetype]" or "The [Archetype Reference]"
 - Must subtly allude to their Enneagram type without naming it
@@ -305,11 +323,13 @@ The 9takes celebrity blog system uses THREE title fields. Strategy: "Clickbait t
 - Example: "Tech's Mad Scientist" (Elon Musk, Type 5)
 
 **How it works technically:**
+
 - `PeopleBlogPageHead.svelte` uses: `data?.meta_title || data?.title`
 - The page displays `title` via `ArticleTitle` component
 - `persona_title` is stored in the database and displayed on listing pages via `famousTypes.ts`
 
 ### Meta Title Patterns That Work (Based on GSC Data):
+
 - "Why [Person] Can't Stop [Behavior]" — Problem framing
 - "Inside [Person]'s Mind: [Insight]" — Curiosity hook
 - "The Real Reason [Person] [Did Thing]" — Revelation angle
@@ -318,26 +338,26 @@ The 9takes celebrity blog system uses THREE title fields. Strategy: "Clickbait t
 
 ### Title Examples:
 
-| Person | `title` (Evergreen) | `meta_title` (Clickbait) | `persona_title` |
-|--------|---------------------|--------------------------|-----------------|
-| Taylor Swift | "Taylor Swift: Enneagram Type 3 Analysis" | "Why Taylor Swift Can't Stop Reinventing Herself" | Pop's Heartbreak Alchemist |
-| Elon Musk | "Elon Musk: An In-Depth Type 5w6 Analysis" | "Inside Elon Musk's Mind: The Obsessive Pattern Behind His Chaos" | Tech's Mad Scientist |
-| IShowSpeed | "IShowSpeed: Enneagram Type 7 Analysis" | "Why IShowSpeed Acts So Crazy (It's Not What You Think)" | — |
-| Emma Watson | "Emma Watson: Enneagram Type 1 Analysis" | "Emma Watson's Hidden Perfectionism: The Pattern Behind Her Choices" | Hogwarts' Real-World Prefect |
+| Person       | `title` (Evergreen)                        | `meta_title` (Clickbait)                                             | `persona_title`              |
+| ------------ | ------------------------------------------ | -------------------------------------------------------------------- | ---------------------------- |
+| Taylor Swift | "Taylor Swift: Enneagram Type 3 Analysis"  | "Why Taylor Swift Can't Stop Reinventing Herself"                    | Pop's Heartbreak Alchemist   |
+| Elon Musk    | "Elon Musk: An In-Depth Type 5w6 Analysis" | "Inside Elon Musk's Mind: The Obsessive Pattern Behind His Chaos"    | Tech's Mad Scientist         |
+| IShowSpeed   | "IShowSpeed: Enneagram Type 7 Analysis"    | "Why IShowSpeed Acts So Crazy (It's Not What You Think)"             | —                            |
+| Emma Watson  | "Emma Watson: Enneagram Type 1 Analysis"   | "Emma Watson's Hidden Perfectionism: The Pattern Behind Her Choices" | Hogwarts' Real-World Prefect |
 
 ### Persona Title Vocabulary by Type:
 
-| Type | Core Essence | Adjectives | Archetypes |
-|------|-------------|------------|------------|
-| **1** | Perfectionist/Reformer | Principled, Uncompromising, Earnest, Moral | Crusader, Perfectionist, Reformer, Visionary, Conscience |
-| **2** | Helper/Giver | Devoted, Approachable, Tender, Nurturing | Helper, Servant, Caretaker, Ambassador, Confessor |
-| **3** | Achiever/Performer | Self-Made, Polished, Relentless, Calculated | Achiever, Architect, Reinventor, Machine, Star |
-| **4** | Individualist/Romantic | Melancholic, Reclusive, Tortured, Haunted | Artist, Poet, Rebel, Enigma, Outsider |
-| **5** | Investigator/Observer | Methodical, Intense, Cold, Silent | Architect, Strategist, Observer, Recluse, Mind |
-| **6** | Loyalist/Skeptic | Loyal, Anxious, Trusted, Skeptical, Steady | Guardian, Watchdog, Skeptic, Patriarch, Anchor |
-| **7** | Enthusiast/Adventurer | Restless, Manic, Boundless, Chaotic | Pioneer, Showman, Adventurer, Spark, Optimist |
-| **8** | Challenger/Protector | Fierce, Unapologetic, Uncompromising, Alpha | Titan, Force, Brawler, Warrior, Disruptor |
-| **9** | Peacemaker/Mediator | Gentle, Quiet, Easygoing, Laid-Back, Steady | Philosopher, Bridge-Builder, Anchor, Giant, Presence |
+| Type  | Core Essence           | Adjectives                                  | Archetypes                                               |
+| ----- | ---------------------- | ------------------------------------------- | -------------------------------------------------------- |
+| **1** | Perfectionist/Reformer | Principled, Uncompromising, Earnest, Moral  | Crusader, Perfectionist, Reformer, Visionary, Conscience |
+| **2** | Helper/Giver           | Devoted, Approachable, Tender, Nurturing    | Helper, Servant, Caretaker, Ambassador, Confessor        |
+| **3** | Achiever/Performer     | Self-Made, Polished, Relentless, Calculated | Achiever, Architect, Reinventor, Machine, Star           |
+| **4** | Individualist/Romantic | Melancholic, Reclusive, Tortured, Haunted   | Artist, Poet, Rebel, Enigma, Outsider                    |
+| **5** | Investigator/Observer  | Methodical, Intense, Cold, Silent           | Architect, Strategist, Observer, Recluse, Mind           |
+| **6** | Loyalist/Skeptic       | Loyal, Anxious, Trusted, Skeptical, Steady  | Guardian, Watchdog, Skeptic, Patriarch, Anchor           |
+| **7** | Enthusiast/Adventurer  | Restless, Manic, Boundless, Chaotic         | Pioneer, Showman, Adventurer, Spark, Optimist            |
+| **8** | Challenger/Protector   | Fierce, Unapologetic, Uncompromising, Alpha | Titan, Force, Brawler, Warrior, Disruptor                |
+| **9** | Peacemaker/Mediator    | Gentle, Quiet, Easygoing, Laid-Back, Steady | Philosopher, Bridge-Builder, Anchor, Giant, Presence     |
 
 ---
 
@@ -346,16 +366,19 @@ The 9takes celebrity blog system uses THREE title fields. Strategy: "Clickbait t
 Add 2-5 strategic internal links per blog. Perform this automatically after drafting, before presenting options to the user.
 
 ### Link Types (priority order):
+
 1. **Celebrity Cross-Links** — If another celebrity is mentioned and we have a published blog, link to `/personality-analysis/[Person-Name]`
 2. **Enneagram Type Links** — Link mentions of other types to `/enneagram-corner/enneagram-type-X` (don't link the subject's own type)
 3. **Topical Blog Links** — Link to relevant published posts in `/src/blog/enneagram/`
 4. **External Research Citations** — Descriptive anchor text, not "click here"
 
 ### Finding Valid Link Targets:
+
 - **Celebrity blogs**: Read `src/lib/components/molecules/famousTypes.ts`. Entries with `link: true` are published and linkable at `/personality-analysis/[name]`. Do NOT use Supabase API calls for this — the file is the source of truth.
 - **Topical blogs**: Search `/src/blog/enneagram/` for files with `published: true` in frontmatter. Link as `/enneagram-corner/[slug]`.
 
 ### Linking Rules:
+
 1. Only 2-5 links total — be strategic
 2. Natural placement — links should fit naturally in the text
 3. First mention only — only link the first occurrence
@@ -363,20 +386,27 @@ Add 2-5 strategic internal links per blog. Perform this automatically after draf
 5. Context matters — only link substantive mentions, not passing ones
 
 ### HTML vs. Markdown Links (CRITICAL):
+
 - **Inside HTML tags** (`<p>`, `<div>`, `<details>`, `<li>`, etc.): Use `<a href="/path">text</a>`
 - **In plain markdown**: Use `[text](/path)`
 
 Example:
+
 ```html
 <!-- Inside HTML block -->
-<p class="firstLetter">Her attention to detail rivals that of <a href="/personality-analysis/Beyonce">Beyonce</a>.</p>
+<p class="firstLetter">
+	Her attention to detail rivals that of <a href="/personality-analysis/Beyonce">Beyonce</a>.
+</p>
 ```
+
 ```markdown
 <!-- In markdown -->
+
 When under stress, Type 3s can exhibit behaviors similar to unhealthy [Type 9](/enneagram-corner/enneagram-type-9) patterns...
 ```
 
 ### Common Topical Link Targets:
+
 - Stress patterns → `/enneagram-corner/enneagram-types-in-stress`
 - Communication styles → `/enneagram-corner/enneagram-communication-styles`
 - Relationships → `/enneagram-corner/enneagram-relationship-guide`
@@ -384,6 +414,7 @@ When under stress, Type 3s can exhibit behaviors similar to unhealthy [Type 9](/
 - Strengths/weaknesses → `/enneagram-corner/enneagram-strengths-and-weaknesses`
 
 After adding links, report what was added:
+
 ```
 Internal links added (X total):
 - [Person Name] → /personality-analysis/Person-Name
@@ -396,30 +427,31 @@ Internal links added (X total):
 
 ### `type` Field (category for the person):
 
-| Value | Use For |
-|-------|---------|
-| `celebrity` | General celebrities, reality TV |
-| `musician` | Musicians, singers, bands |
-| `movieStar` | Established film actors |
-| `newMovieStar` | Younger/rising film actors |
-| `comedian` | Stand-up comics, comedy creators |
-| `creator` | YouTubers, podcasters, content creators |
-| `techie` | Tech industry leaders |
-| `politician` | Politicians, government leaders |
-| `entrepreneur` | Business founders, moguls |
-| `author` | Writers, journalists |
-| `activist` | Social/political activists |
-| `historical` | Historical figures |
-| `tiktoker` | TikTok-primary creators |
-| `influencer` | Social media influencers |
-| `lifestyleInfluencer` | Lifestyle/fashion influencers |
-| `other` | Doesn't fit other categories |
+| Value                 | Use For                                 |
+| --------------------- | --------------------------------------- |
+| `celebrity`           | General celebrities, reality TV         |
+| `musician`            | Musicians, singers, bands               |
+| `movieStar`           | Established film actors                 |
+| `newMovieStar`        | Younger/rising film actors              |
+| `comedian`            | Stand-up comics, comedy creators        |
+| `creator`             | YouTubers, podcasters, content creators |
+| `techie`              | Tech industry leaders                   |
+| `politician`          | Politicians, government leaders         |
+| `entrepreneur`        | Business founders, moguls               |
+| `author`              | Writers, journalists                    |
+| `activist`            | Social/political activists              |
+| `historical`          | Historical figures                      |
+| `tiktoker`            | TikTok-primary creators                 |
+| `influencer`          | Social media influencers                |
+| `lifestyleInfluencer` | Lifestyle/fashion influencers           |
+| `other`               | Doesn't fit other categories            |
 
 Multiple values allowed: `type: ['musician', 'creator']`
 
 ### `suggestions` Field:
 
 4 related people who readers might also be interested in. Choose based on:
+
 - **Same domain** (other musicians, other tech leaders)
 - **Same Enneagram type** (interesting comparison)
 - **Connected relationship** (collaborators, rivals, couples)
@@ -440,6 +472,7 @@ Use this method for all database operations. Python's `json.dump()` handles all 
 ### For EXISTING blogs (PATCH):
 
 **Step 1: Create JSON payload**
+
 ```python
 python3 << 'EOF'
 import json
@@ -476,6 +509,7 @@ EOF
 ```
 
 **Step 2: PATCH**
+
 ```bash
 source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]" \
   -H "apikey: ${SUPABASE_SERVICE_KEY}" \
@@ -486,6 +520,7 @@ source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peo
 ```
 
 **Step 3: Verify and clean up**
+
 ```bash
 source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=id,person,title,meta_title,lastmod,published" \
   -H "apikey: ${SUPABASE_SERVICE_KEY}" \
@@ -496,6 +531,7 @@ rm -f /tmp/blog_update.json
 ### For NEW blogs (POST):
 
 **Step 1: Create JSON payload**
+
 ```python
 python3 << 'EOF'
 import json
@@ -541,6 +577,7 @@ EOF
 ```
 
 **Step 2: POST**
+
 ```bash
 source .env && curl -s -X POST "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people" \
   -H "apikey: ${SUPABASE_SERVICE_KEY}" \
@@ -551,11 +588,13 @@ source .env && curl -s -X POST "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_peop
 ```
 
 **Step 3: Verify and clean up**
+
 ```bash
 rm -f /tmp/blog_new.json
 ```
 
 ### After successful push, confirm:
+
 ```
 Successfully pushed to database!
 
@@ -568,6 +607,7 @@ Successfully pushed to database!
 ```
 
 ### Error handling:
+
 - **Empty response from PATCH** = Success (with `Prefer: return=minimal`)
 - **If content appears truncated**: Check JSON file was created correctly
 - **Always clean up**: `rm -f /tmp/blog_update.json` after submission
@@ -575,6 +615,7 @@ Successfully pushed to database!
 ### Environment Variables
 
 Read from `.env` file at runtime:
+
 - `PUBLIC_SUPABASE_URL` — Supabase project URL
 - `SUPABASE_SERVICE_KEY` — Service role key for database operations
 
@@ -593,6 +634,7 @@ When this command is invoked:
 Read `src/lib/components/molecules/famousTypes.ts` and identify **published blogs** (where `link: true`) that haven't been updated recently. Sort by `lastmod` date (oldest first) and show the top 5-10 candidates.
 
 **Stale blog criteria:**
+
 - `link: true` (published)
 - `lastmod` older than 6 months from today's date
 - Prioritize well-known celebrities who likely have recent news
@@ -635,6 +677,7 @@ If person exists, switch to the **Update Workflow** below.
 Use WebSearch to gather comprehensive information. Follow `/docs/blogs-famous-people/prep-prompt-1.md` for the research framework.
 
 **Research focus areas:**
+
 - 5 strong positive contributions/accomplishments
 - 5 lesser-known facts about the person
 - Personal stressors and challenges
@@ -646,6 +689,7 @@ Use WebSearch to gather comprehensive information. Follow `/docs/blogs-famous-pe
 **DEPTH RESEARCH (see "What Makes a Great Analysis" in Part 1):**
 
 Beyond the standard research, actively hunt for:
+
 - **The core tension** — What's the central contradiction in this person? What doesn't add up about them? What do they preach vs. what they struggle with? (This should be identified by the end of Step 2 or 3.)
 - **3-5 small, specific moments** — Not headline accomplishments, but tiny details that reveal who someone really is. A comment overheard, a habit no one notices, a gift that didn't land, a throwaway line in a podcast that reveals everything.
 - **The public/private gap** — What surprises people who meet them in person? What do close friends say about them that contradicts their public image?
@@ -671,6 +715,7 @@ Based on Step 2 research, determine the person's likely Enneagram type first. Th
 **If research is ambiguous about the type**, present the top 2-3 candidates with evidence to the user and wait for a decision before proceeding.
 
 Analyze across dimensions:
+
 - **Thoughts**: How they process information and make decisions
 - **Feelings**: Emotional patterns and responses
 - **Actions**: Behavioral patterns and habits
@@ -707,6 +752,7 @@ Grab transcripts from 2-4 of these and share them with me.
 **If the user has already provided transcripts** (e.g., files in `youtube-transcripts/`), read and analyze those before writing.
 
 **Wait for user input.** The user may:
+
 1. Provide transcripts to analyze first (preferred)
 2. Say to proceed without transcripts
 
@@ -716,7 +762,7 @@ Use `/docs/blogs-famous-people/writing-prompt-1.md` as a starting framework, not
 
 **CRITICAL: Follow the Enneagram Analysis Tone & Approach and Page Template Context rules from Part 1.**
 
-**THE GOAL IS A QUALITY PROFILE, NOT A FORMULAIC POST.** Every person has a different story. The blog structure should be tailored to what makes *this specific person* interesting, not forced into the same cookie-cutter layout every time. The research from Steps 2-4 should drive the structure — lead with what's most compelling about this person, not with a generic section order.
+**THE GOAL IS A QUALITY PROFILE, NOT A FORMULAIC POST.** Every person has a different story. The blog structure should be tailored to what makes _this specific person_ interesting, not forced into the same cookie-cutter layout every time. The research from Steps 2-4 should drive the structure — lead with what's most compelling about this person, not with a generic section order.
 
 **Required elements** (every blog must cover these, but the ORDER, EMPHASIS, and SECTION NAMES should vary based on who the person is):
 
@@ -781,6 +827,7 @@ Save draft to `/src/blog/people/drafts/[Person-Name].md`.
 Then add internal links following the **Internal Linking Rules** in Part 1.
 
 Present to user:
+
 ```
 Draft created successfully!
 
@@ -820,6 +867,7 @@ This auto-generates `src/lib/components/molecules/famousTypes.ts` from the datab
 The blog system uses images at `static/types/[X]s/[Person-Name].webp` (full) and `static/types/[X]s/s-[Person-Name].webp` (small), where `[X]` is the Enneagram type number.
 
 After database submission, ask the user:
+
 ```
 The blog needs an image. Images go in:
 - static/types/[X]s/[Person-Name].webp (full size)
@@ -835,6 +883,7 @@ Do you have an image to add, or should we skip this for now?
 ### Step 1: Display current metadata
 
 Show title, enneagram type, published status, last modified. Offer options:
+
 ```
 Found existing blog for [Person Name]. Choose an option:
 1. Update with fresh web research
@@ -902,11 +951,13 @@ Found existing blog for [Person Name]. Choose an option:
 8. **When user says "push it up":** Execute database submission immediately, then run `node scripts/generate-famous-types.js`.
 
 ### Manual Content Editing (Option 2)
+
 - Display current content in manageable sections
 - Allow targeted edits to specific sections
 - Preserve markdown formatting and SEO structure
 
 ### Specific Section Updates (Option 3)
+
 - List available sections (upbringing, accomplishments, controversies, etc.)
 - Allow user to select sections for targeted updates
 - Research and regenerate only selected sections
@@ -918,16 +969,18 @@ Found existing blog for [Person Name]. Choose an option:
 Before finalizing any blog (new or updated):
 
 ### Depth & Uniqueness
+
 - [ ] **Core tension identified?** Can you state the person's central contradiction in one phrase ("[X] vs. [Y]")? Is it threaded through the intro, body, and conclusion?
 - [ ] **At least 3 small, specific moments** that reveal big patterns? (Not just headline accomplishments — tiny details that crack open who they are.)
 - [ ] **At least 1 "aha moment"** where the Enneagram makes something click that wouldn't click otherwise?
 - [ ] **Public/private gap explored?** Does the blog show who this person is when the performance stops?
 - [ ] **Childhood → adult thread?** Is there a visible line from formative experiences to present behavior?
 - [ ] **Intro names the tension and creates a question?** Does the reader know what psychological question the blog is answering within the first 5 paragraphs?
-- [ ] **Conclusion turns the mirror?** Does the ending make the reader think about *themselves*, not just the celebrity?
+- [ ] **Conclusion turns the mirror?** Does the ending make the reader think about _themselves_, not just the celebrity?
 - [ ] **The swap test:** If you replaced this person's name with another celebrity's, would the blog still make sense? If yes, it's too generic.
 
 ### Tone & Structure
+
 - [ ] Would this analysis be valuable 5 years from now?
 - [ ] Does it cover their entire life arc?
 - [ ] Are psychological insights backed by specific behavioral examples?
@@ -938,6 +991,7 @@ Before finalizing any blog (new or updated):
 - [ ] Would a reader who doesn't care about the Enneagram still find this a compelling profile?
 
 ### Technical
+
 - [ ] Are there 2-5 internal links, properly formatted (HTML in HTML blocks, markdown elsewhere)?
 - [ ] Does the frontmatter have all three titles, valid `type`, and 4 `suggestions`?
 

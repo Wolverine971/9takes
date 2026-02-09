@@ -146,7 +146,6 @@
 						{@const label = getRecencyLabel(blog.lastmod || blog.date)}
 
 						<a href={`/community/${blog.slug}`} class="recent-card" class:has-image={blog.pic}>
-
 							{#if blog.pic}
 								<div
 									class="card-image"

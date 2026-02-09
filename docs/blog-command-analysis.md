@@ -1,3 +1,4 @@
+<!-- docs/blog-command-analysis.md -->
 # Analysis: `blog_content_creator_people.md`
 
 **Date:** 2026-02-09
@@ -20,64 +21,64 @@ The file tries to be two things at once — a **sequential workflow** and a **re
 
 The Python+JSON+curl approach is fully written out with code blocks in three places:
 
-| Location | Lines | What It Contains |
-|----------|-------|------------------|
-| Section 7 "Database Submission" | 647-821 | Full PATCH + POST with Python, curl, verification, error handling |
-| Quick Reference section | 1182-1293 | Nearly identical PATCH + POST code blocks |
-| Summary item 6 | 1139-1144 | Prose description of the same method |
+| Location                        | Lines     | What It Contains                                                  |
+| ------------------------------- | --------- | ----------------------------------------------------------------- |
+| Section 7 "Database Submission" | 647-821   | Full PATCH + POST with Python, curl, verification, error handling |
+| Quick Reference section         | 1182-1293 | Nearly identical PATCH + POST code blocks                         |
+| Summary item 6                  | 1139-1144 | Prose description of the same method                              |
 
 **Recommendation:** Keep Section 7 as the authoritative version. Delete the Quick Reference section entirely — the AI reads the whole file linearly and doesn't need a "quick ref." Delete the Summary item.
 
 ### 1.2 "Pre-Approved Operations" (5x)
 
-| Location | Lines |
-|----------|-------|
-| Explicit list at top | 5-16 |
-| "All database operations are pre-approved" | 206 |
-| "All database operations are pre-approved" | 821 |
-| "All these are pre-approved" | 1131 |
-| Summary item 1 | 1134 |
+| Location                                   | Lines |
+| ------------------------------------------ | ----- |
+| Explicit list at top                       | 5-16  |
+| "All database operations are pre-approved" | 206   |
+| "All database operations are pre-approved" | 821   |
+| "All these are pre-approved"               | 1131  |
+| Summary item 1                             | 1134  |
 
 **Recommendation:** Keep lines 5-16. Remove the other four instances. The AI processes the whole file; repeating this doesn't make it more "pre-approved."
 
 ### 1.3 Enneagram Tone Principles (3x)
 
-| Location | Lines | Form |
-|----------|-------|------|
-| "Enneagram Analysis Tone & Approach" section | 87-157 | Detailed creative guide (excellent) |
-| Holistic balance check items | 901-904 | Checklist items restating the same rules |
-| Summary items 10-12 | 1162-1177 | Prose restating the same rules |
+| Location                                     | Lines     | Form                                     |
+| -------------------------------------------- | --------- | ---------------------------------------- |
+| "Enneagram Analysis Tone & Approach" section | 87-157    | Detailed creative guide (excellent)      |
+| Holistic balance check items                 | 901-904   | Checklist items restating the same rules |
+| Summary items 10-12                          | 1162-1177 | Prose restating the same rules           |
 
 **Recommendation:** The core section (87-157) is the best part of this file — keep it as-is. The checklist items (901-904) are useful as a pre-flight check and worth keeping. Delete Summary items 10-12.
 
 ### 1.4 Research Source Priorities (4x)
 
-| Location | Lines |
-|----------|-------|
-| Step 3.1 "PRIMARY SOURCE PRIORITY" | 253-262 |
-| "Research Quality" section | 1036-1040 |
-| Summary item 12 | 1171-1176 |
+| Location                                 | Lines                        |
+| ---------------------------------------- | ---------------------------- |
+| Step 3.1 "PRIMARY SOURCE PRIORITY"       | 253-262                      |
+| "Research Quality" section               | 1036-1040                    |
+| Summary item 12                          | 1171-1176                    |
 | prep-prompt-1.md "Sources to Prioritize" | (external file, lines 69-74) |
 
 **Recommendation:** Keep Step 3.1 as the authoritative version. Trim the Research Quality mention to a one-line reference back. Delete Summary item 12. Update prep-prompt-1.md to match (see Contradictions).
 
 ### 1.5 YouTube Transcript Recommendations (4x)
 
-| Location | Lines |
-|----------|-------|
-| Step 3.4 (full section) | 277-306 |
-| Update workflow step 3 | 854 |
-| Research Quality section | 1040 |
-| Summary item 12 | 1173-1176 |
+| Location                 | Lines     |
+| ------------------------ | --------- |
+| Step 3.4 (full section)  | 277-306   |
+| Update workflow step 3   | 854       |
+| Research Quality section | 1040      |
+| Summary item 12          | 1173-1176 |
 
 **Recommendation:** Step 3.4 is the authoritative version. The update workflow mention (854) is fine — it's in a different context (updates vs. new blogs). Delete the other two.
 
 ### 1.6 Environment Variable Instructions (2x)
 
-| Location | Lines |
-|----------|-------|
-| Section 1 "Database Check and Setup" | 192-206 |
-| "Environment Requirements" section | 1116-1131 |
+| Location                             | Lines     |
+| ------------------------------------ | --------- |
+| Section 1 "Database Check and Setup" | 192-206   |
+| "Environment Requirements" section   | 1116-1131 |
 
 **Recommendation:** Keep the one in Section 1 (it's in the workflow where it's needed). Delete the standalone section.
 
@@ -85,32 +86,32 @@ The Python+JSON+curl approach is fully written out with code blocks in three pla
 
 All 12 items are restating things covered in detail earlier in the file. This is ~50 lines of pure redundancy. Every single item maps to an existing section:
 
-| Summary Item | Already Covered In |
-|-------------|-------------------|
-| 1. Pre-approved operations | Lines 5-16 |
-| 2. Direct database updates | Section 7 |
-| 3. TodoWrite tracking | Lines 19-38 |
-| 4. Parallel research | Lines 253-262 |
-| 5. Clean workflow | Lines 1096-1101 |
-| 6. Python+JSON+Curl method | Section 7 (full code) |
-| 7. Credentials security | Lines 192-206 |
-| 8. Strategic internal linking | Section 5.5 (160 lines!) |
+| Summary Item                     | Already Covered In        |
+| -------------------------------- | ------------------------- |
+| 1. Pre-approved operations       | Lines 5-16                |
+| 2. Direct database updates       | Section 7                 |
+| 3. TodoWrite tracking            | Lines 19-38               |
+| 4. Parallel research             | Lines 253-262             |
+| 5. Clean workflow                | Lines 1096-1101           |
+| 6. Python+JSON+Curl method       | Section 7 (full code)     |
+| 7. Credentials security          | Lines 192-206             |
+| 8. Strategic internal linking    | Section 5.5 (160 lines!)  |
 | 9. Holistic content preservation | Section 8 (full workflow) |
-| 10. Enneagram analysis tone | Lines 87-157 |
-| 11. Anti-repetition/anti-fatigue | Lines 159-183 |
-| 12. Primary source emphasis | Lines 253-262 |
+| 10. Enneagram analysis tone      | Lines 87-157              |
+| 11. Anti-repetition/anti-fatigue | Lines 159-183             |
+| 12. Primary source emphasis      | Lines 253-262             |
 
 **Recommendation:** Delete the entire Summary section.
 
 ### Total Duplication Impact
 
-| Section to Remove | Lines Saved |
-|-------------------|-------------|
-| Quick Reference (1182-1307) | ~125 |
-| Summary section (1132-1177) | ~45 |
-| Environment Requirements (1116-1131) | ~15 |
-| Redundant "pre-approved" reminders | ~10 |
-| **Total** | **~195 lines** |
+| Section to Remove                    | Lines Saved    |
+| ------------------------------------ | -------------- |
+| Quick Reference (1182-1307)          | ~125           |
+| Summary section (1132-1177)          | ~45            |
+| Environment Requirements (1116-1131) | ~15            |
+| Redundant "pre-approved" reminders   | ~10            |
+| **Total**                            | **~195 lines** |
 
 ---
 
@@ -119,11 +120,13 @@ All 12 items are restating things covered in detail earlier in the file. This is
 ### 2.1 Source Priority Conflict (Command File vs. prep-prompt-1.md)
 
 **Command file** (line 257):
+
 > 1. **Podcast appearances** — Search for "[Person] podcast interview"...
 
 **prep-prompt-1.md** (line 70):
+
 > 1. **Recent interviews** (last 2-3 years)
-> 5. **Long-form podcast appearances**
+> 2. **Long-form podcast appearances**
 
 The command file clearly supersedes prep-prompt-1 (the "PRIMARY SOURCE PRIORITY" block was added later), but prep-prompt-1 was never updated. If the agent reads that file as instructed ("Follow the prep-prompt-1 template"), it gets conflicting guidance.
 
@@ -132,9 +135,11 @@ The command file clearly supersedes prep-prompt-1 (the "PRIMARY SOURCE PRIORITY"
 ### 2.2 "Execute Immediately" vs. "Confirm Before Irreversible"
 
 **Multiple locations** (lines 5-16, 639, 821):
+
 > Execute immediately without asking / No additional approval needed
 
 **User Experience section** (line 1093):
+
 > Confirm actions before irreversible operations
 
 These directly contradict each other. The "confirm" line reads like a default principle that was never cleaned up after you added the explicit "push immediately" instructions.
@@ -144,12 +149,14 @@ These directly contradict each other. The "confirm" line reads like a default pr
 ### 2.3 Step 3.2 Type Determination Chicken-and-Egg
 
 **Command file** (Step 3.2):
+
 > Determine the person's likely Enneagram type based on research
 
 **prep-prompt-2.md** (line 7):
+
 > Conduct a comprehensive Enneagram analysis of {PERSON} as a Type {ENNEAGRAMTYPE}
 
-The command says "determine the type" (output). The template says "analyze them *as* this type" (input). In practice the agent probably figures it out during 3.1 research and confirms in 3.2, but the mismatch could cause confusion — especially if the agent reads the prep-prompt-2 template literally.
+The command says "determine the type" (output). The template says "analyze them _as_ this type" (input). In practice the agent probably figures it out during 3.1 research and confirms in 3.2, but the mismatch could cause confusion — especially if the agent reads the prep-prompt-2 template literally.
 
 **Recommendation:** Add a brief note in Step 3.2: "Based on Step 3.1 research, determine the likely Enneagram type first. Then use that type as the input for the prep-prompt-2 analysis framework."
 
@@ -167,15 +174,16 @@ The file references "TodoWrite" throughout (lines 20, 227, 830, 1100) but the cu
 
 This section (lines 474-631) is the most thorough part of the file but also the most verbose. The breakdown:
 
-| Sub-section | Lines | Content |
-|-------------|-------|---------|
-| 5.5.1 Gather link targets | 486-518 | How to read famousTypes.ts |
-| 5.5.2 Rules + link types | 520-558 | Core rules (valuable) |
+| Sub-section               | Lines   | Content                                   |
+| ------------------------- | ------- | ----------------------------------------- |
+| 5.5.1 Gather link targets | 486-518 | How to read famousTypes.ts                |
+| 5.5.2 Rules + link types  | 520-558 | Core rules (valuable)                     |
 | 5.5.3 HTML block handling | 560-598 | HTML vs. markdown (important but verbose) |
-| 5.5.4 Example output | 599-616 | Before/after example |
-| 5.5.5 Verify and report | 617-631 | Output format |
+| 5.5.4 Example output      | 599-616 | Before/after example                      |
+| 5.5.5 Verify and report   | 617-631 | Output format                             |
 
 **What could be condensed:**
+
 - 5.5.1 could be trimmed — the TypeScript example and "do NOT make Supabase API calls" note are useful, but the prose around them is excessive
 - 5.5.3 is important (HTML inside tags = anchor tags, markdown outside = markdown links) but takes 38 lines for a 3-sentence rule
 - 5.5.4 example is helpful but could be shorter
@@ -186,6 +194,7 @@ This section (lines 474-631) is the most thorough part of the file but also the 
 ### 3.2 Persona Title Section (4.1) — 60 Lines
 
 The vocabulary table (lines 389-401) and examples table (lines 403-424) are both valuable. But then:
+
 - 6 "Key Rules" (lines 426-433) — mostly obvious from the examples
 - "Title Formula Examples" table (lines 437-443) — overlaps with the examples table above
 
@@ -193,7 +202,7 @@ The vocabulary table (lines 389-401) and examples table (lines 403-424) are both
 
 ### 3.3 Database Push Error Handling / Why This Works
 
-Lines 729-734 ("Why This Method Works") and 814-819 ("Error Handling") feel like notes-to-self that were added after debugging. The error handling is useful; the "why this works" explanation is unnecessary — the AI doesn't need to know *why* json.dump works, just to use it.
+Lines 729-734 ("Why This Method Works") and 814-819 ("Error Handling") feel like notes-to-self that were added after debugging. The error handling is useful; the "why this works" explanation is unnecessary — the AI doesn't need to know _why_ json.dump works, just to use it.
 
 **Estimated savings:** ~10 lines
 
@@ -204,6 +213,7 @@ Lines 729-734 ("Why This Method Works") and 814-819 ("Error Handling") feel like
 ### 4.1 `famousTypes.ts` Never Gets Updated (HIGH)
 
 The workflow creates database content and saves draft files, but **never mentions updating `famousTypes.ts`** — which is the file that controls:
+
 - Whether a blog appears on listing pages (`link: true`)
 - Image availability (`hasImage: true`)
 - The person's Enneagram type grouping
@@ -215,6 +225,7 @@ For a new person, they need to be added to this file. For an existing person who
 ### 4.2 Image Handling Is Absent (HIGH)
 
 Git status shows image files like `static/types/3s/Chris-Williamson.webp` and `static/types/3s/s-Chris-Williamson.webp` (small version). The blog system clearly uses these, but the workflow has zero guidance on:
+
 - Where images come from (generated? sourced? user-provided?)
 - Naming convention (`static/types/Xs/Person-Name.webp` + `s-Person-Name.webp`)
 - When in the workflow images should be handled
@@ -225,11 +236,13 @@ Git status shows image files like `static/types/3s/Chris-Williamson.webp` and `s
 ### 4.3 `suggestions` Field Never Explained (MEDIUM)
 
 The field appears in:
+
 - Frontmatter (line 373): `suggestions: []`
 - POST payload (line 1220): `["Similar-Person-1", "Similar-Person-2"]`
 - PATCH payload (line 1270): with a comment "Optional - include if updating"
 
 But nowhere does it explain:
+
 - What suggestions are for (related personality analyses?)
 - How to choose them (same type? same domain? same fame level?)
 - How many to include
@@ -240,6 +253,7 @@ But nowhere does it explain:
 ### 4.4 Valid `type` Field Values (MEDIUM)
 
 The `type` array appears with different values across the file:
+
 - Frontmatter example: `type: ['celebrity']`
 - POST payload: `type: ["movieStar"]`
 - Quick Reference: `type: ["creator"]`
@@ -251,6 +265,7 @@ What are the valid options? When should each be used? Without this, the agent gu
 ### 4.5 Publishing Workflow (MEDIUM)
 
 Everything sets `published: false`. The workflow ends with content in the database unpublished. What's the next step?
+
 - Is there an admin toggle?
 - Is it a separate command?
 - Should the workflow ask "ready to publish?" as a final step?
@@ -260,6 +275,7 @@ Everything sets `published: false`. The workflow ends with content in the databa
 ### 4.6 Opening Quote Guidance (LOW)
 
 "Compelling quote" is mentioned in multiple places but there's no guidance on what makes a quote good for this format:
+
 - Should it be from the person or about them?
 - Should it reveal personality or be provocative?
 - How long should it be?
@@ -282,9 +298,11 @@ What if Step 3.1 research suggests a different type than expected? What if there
 The file interleaves two concerns:
 
 **Workflow steps** (procedural, linear):
+
 1. Check stale blogs → 2. Ask for input → 3. Research → 4. Metadata → 5. Draft → 5.5. Links → 6. Review → 7. Push → 8. Update workflow → 9. Error handling → 10. Cleanup
 
 **Reference material** (static, lookup-based):
+
 - Enneagram tone guide (lines 87-183)
 - Persona title vocabulary and examples (lines 381-443)
 - Internal linking rules (lines 474-631)
@@ -295,6 +313,7 @@ The file interleaves two concerns:
 These are interspersed. The tone guide sits between setup and research. The 160-line linking section interrupts the flow between drafting and review. The "Page Template Context — CRITICAL" section is buried at the very end under Implementation Notes.
 
 **Recommendation:** Restructure into two main sections:
+
 1. **Reference Guide** — Tone, titles, linking rules, template context, DB recipes
 2. **Workflow** — Clean numbered steps that reference the guide sections
 
@@ -316,13 +335,13 @@ Steps go 3.1, 3.2, then jump to 3.4. Step 3.3 was removed but numbering was neve
 
 ## 6. OUTDATED ELEMENTS
 
-| Element | Issue | Fix |
-|---------|-------|-----|
-| "TodoWrite" (lines 20, 227, 830, 1100) | Tool is now `TaskCreate`/`TaskUpdate` | Update references |
-| Person template (`src/blog/people/person-template.md`) | Contains "booboo" and "tiptype" placeholder text | Either develop it into a real template or stop referencing it |
-| Step 3.3 gap | Step was removed, numbering not fixed | Renumber |
-| "Confirm actions before irreversible operations" (line 1093) | Contradicted by explicit "execute immediately" | Remove or rewrite |
-| prep-prompt-1.md source priorities | Doesn't match command file's podcast-first hierarchy | Update to match |
+| Element                                                      | Issue                                                | Fix                                                           |
+| ------------------------------------------------------------ | ---------------------------------------------------- | ------------------------------------------------------------- |
+| "TodoWrite" (lines 20, 227, 830, 1100)                       | Tool is now `TaskCreate`/`TaskUpdate`                | Update references                                             |
+| Person template (`src/blog/people/person-template.md`)       | Contains "booboo" and "tiptype" placeholder text     | Either develop it into a real template or stop referencing it |
+| Step 3.3 gap                                                 | Step was removed, numbering not fixed                | Renumber                                                      |
+| "Confirm actions before irreversible operations" (line 1093) | Contradicted by explicit "execute immediately"       | Remove or rewrite                                             |
+| prep-prompt-1.md source priorities                           | Doesn't match command file's podcast-first hierarchy | Update to match                                               |
 
 ---
 
@@ -337,6 +356,7 @@ This is well-articulated and specific. The language guidance ("likely," "suggest
 ### 7.2 "Clickbait to the Door, Quality Inside"
 
 The triple-title system (title/meta_title/persona_title) embodies this tension deliberately. The meta_title is unapologetically clickbait; the page title is authoritative; the content is deep. The formula on line 1071 captures it well:
+
 > `meta_title` (clickbait for traffic) + `title` (authority for reputation) + `content` (depth for value) = Sustainable growth
 
 **Keep as-is.**
@@ -344,6 +364,7 @@ The triple-title system (title/meta_title/persona_title) embodies this tension d
 ### 7.3 "Story First, but the Enneagram Is the Lens"
 
 The distribution rule (explicit Enneagram framing in at most 3-4 sections, rest is narrative) and the litmus test (line 136) are excellent operational guidelines:
+
 > "If you removed every sentence that explicitly mentions 'Type X' or 'Enneagram,' would the blog still be a compelling, insightful profile?"
 
 **Keep as-is.**
@@ -416,21 +437,21 @@ These are changes that reduce bloat without restructuring:
 
 ## 10. PRIORITY MATRIX
 
-| Priority | Type | Item |
-|----------|------|------|
-| **P0** | Duplication | Delete Quick Reference, Summary, duplicate Environment sections |
-| **P0** | Gap | Add famousTypes.ts update step |
-| **P0** | Misplacement | Move/reference Page Template Context near writing step |
-| **P1** | Contradiction | Update prep-prompt-1.md source priorities |
-| **P1** | Contradiction | Fix "confirm before irreversible" vs. "execute immediately" |
-| **P1** | Outdated | Update TodoWrite → TaskCreate/TaskUpdate |
-| **P1** | Gap | Add image handling guidance |
-| **P1** | Gap | Document valid `type` field values |
-| **P2** | Condensing | Trim internal linking section |
-| **P2** | Gap | Add suggestions field guidance |
-| **P2** | Gap | Add publishing workflow note |
-| **P2** | Contradiction | Clarify Step 3.2 type determination flow |
-| **P3** | Structure | Full restructure into Reference + Workflow sections |
-| **P3** | Outdated | Rebuild or retire person-template.md |
-| **P3** | Gap | Opening quote guidance |
-| **P3** | Gap | Type disagreement handling |
+| Priority | Type          | Item                                                            |
+| -------- | ------------- | --------------------------------------------------------------- |
+| **P0**   | Duplication   | Delete Quick Reference, Summary, duplicate Environment sections |
+| **P0**   | Gap           | Add famousTypes.ts update step                                  |
+| **P0**   | Misplacement  | Move/reference Page Template Context near writing step          |
+| **P1**   | Contradiction | Update prep-prompt-1.md source priorities                       |
+| **P1**   | Contradiction | Fix "confirm before irreversible" vs. "execute immediately"     |
+| **P1**   | Outdated      | Update TodoWrite → TaskCreate/TaskUpdate                        |
+| **P1**   | Gap           | Add image handling guidance                                     |
+| **P1**   | Gap           | Document valid `type` field values                              |
+| **P2**   | Condensing    | Trim internal linking section                                   |
+| **P2**   | Gap           | Add suggestions field guidance                                  |
+| **P2**   | Gap           | Add publishing workflow note                                    |
+| **P2**   | Contradiction | Clarify Step 3.2 type determination flow                        |
+| **P3**   | Structure     | Full restructure into Reference + Workflow sections             |
+| **P3**   | Outdated      | Rebuild or retire person-template.md                            |
+| **P3**   | Gap           | Opening quote guidance                                          |
+| **P3**   | Gap           | Type disagreement handling                                      |

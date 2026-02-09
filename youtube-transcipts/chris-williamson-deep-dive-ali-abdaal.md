@@ -1,4 +1,5 @@
 <!-- youtube-transcipts/chris-williamson-deep-dive-ali-abdaal.md -->
+
 # Chris Williamson on Deep Dive with Ali Abdaal
 
 ## Video Details

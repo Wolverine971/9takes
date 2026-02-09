@@ -1,4 +1,5 @@
 <!-- youtube-transcipts/chris-williamson-diary-of-a-ceo-habits.md -->
+
 # Chris Williamson: Fix This One Habit And 2026 Will Be Your Best Year!
 
 ## Video Details

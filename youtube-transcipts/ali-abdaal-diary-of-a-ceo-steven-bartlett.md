@@ -1,4 +1,5 @@
 <!-- youtube-transcipts/ali-abdaal-diary-of-a-ceo-steven-bartlett.md -->
+
 # Ali Abdaal on The Diary of a CEO — How To Finally Stay Productive
 
 ## Video Details

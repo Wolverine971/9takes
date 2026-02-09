@@ -1,4 +1,5 @@
 <!-- youtube-transcipts/chris-williamson-joe-rogan.md -->
+
 # Joe Rogan Experience #2293 - Chris Williamson
 
 ## Video Details

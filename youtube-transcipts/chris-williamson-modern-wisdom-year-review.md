@@ -1,4 +1,5 @@
 <!-- youtube-transcipts/chris-williamson-modern-wisdom-year-review.md -->
+
 # 23 Lessons from 2025 - Chris Williamson Year-End Review
 
 ## Video Details
