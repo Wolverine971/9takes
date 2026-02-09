@@ -37,11 +37,18 @@ export const load: PageServerLoad = async () => {
 		const objectsWithType = publishedPosts.filter((obj) => obj?.type?.[0] === type);
 
 		// Sort objects by date_created
-		objectsWithType.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod));
+		objectsWithType.sort((a, b) => new Date(b.lastmod).getTime() - new Date(a.lastmod).getTime());
 
 		// Push first 3 objects to uniqueObjects
 		uniqueObjects.push(...objectsWithType.slice(0, 5));
 	});
 
-	return { enneagramBlogs: uniqueObjects };
+	const sortedByLastmod = [...publishedPosts].sort(
+		(a, b) => new Date(b.lastmod || b.date).getTime() - new Date(a.lastmod || a.date).getTime()
+	);
+	const featured = sortedByLastmod.slice(0, 2);
+	const featuredSlugs = new Set(featured.map((p) => p.slug));
+	const recentlyUpdated = sortedByLastmod.filter((p) => !featuredSlugs.has(p.slug)).slice(0, 4);
+
+	return { enneagramBlogs: uniqueObjects, featured, recentlyUpdated };
 };

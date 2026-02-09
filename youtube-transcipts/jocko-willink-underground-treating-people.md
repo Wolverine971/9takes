@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/jocko-and-others.md -->
+<!-- youtube-transcipts/jocko-willink-underground-treating-people.md -->
 
 # Analysis: "How I Like To Treat Other People" — Jocko Underground #118
 

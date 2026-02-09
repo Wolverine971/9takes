@@ -22,5 +22,12 @@ export const load: PageServerLoad = async ({ url }) => {
 
 	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
-	return { posts: publishedPosts };
+	const sortedByLastmod = [...publishedPosts].sort(
+		(a, b) => new Date(b.lastmod || b.date).getTime() - new Date(a.lastmod || a.date).getTime()
+	);
+	const featured = sortedByLastmod.slice(0, 1);
+	const featuredSlugs = new Set(featured.map((p) => p.slug));
+	const recentlyUpdated = sortedByLastmod.filter((p) => !featuredSlugs.has(p.slug)).slice(0, 3);
+
+	return { posts: publishedPosts, featured, recentlyUpdated };
 };

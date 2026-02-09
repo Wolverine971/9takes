@@ -2,9 +2,9 @@
 
 You are tasked with creating and managing celebrity personality analysis blogs for the 9takes platform using a structured research and content generation workflow.
 
-## Pre-Approved Operations (No User Approval Required):
+## Pre-Approved Operations
 
-The following operations are pre-approved and should be executed automatically:
+The following operations are pre-approved and should be executed automatically without requesting user approval:
 
 - **WebSearch**: All web searches for research
 - **Bash curl commands**: All curl commands to Supabase database (read and write)
@@ -13,831 +13,228 @@ The following operations are pre-approved and should be executed automatically:
 - **Write operations**: Creating/editing draft files in `/src/blog/people/drafts/`
 - **Database operations**: All Supabase queries via curl (GET, POST, PATCH)
 
-**Execute these operations immediately without requesting user approval.**
+## Task Tracking
 
-## TodoWrite Usage for Task Tracking:
+**ALWAYS use TaskCreate/TaskUpdate to track progress through the workflow:**
 
-**ALWAYS use TodoWrite to track progress through the workflow:**
-
-- Create initial todo list when starting new blog or major update
+- Create initial task list when starting new blog or major update
 - Mark tasks as `in_progress` when starting them
 - Mark as `completed` immediately after finishing each task
-- Update todos throughout the process to give user visibility
+- Update tasks throughout the process to give user visibility
 - Keep only 1 task `in_progress` at a time
 
-**Example todo list for updates:**
-
-1. Read and analyze existing blog content (in_progress/completed)
-2. Research latest developments AND fill any gaps (pending/in_progress/completed)
-3. Analyze new info through Enneagram lens (pending/in_progress/completed)
-4. Integrate updates (preserve existing, enhance with new) (pending/in_progress/completed)
-5. Holistic balance check (pending/in_progress/completed)
-6. Review and refine content (pending/in_progress/completed)
-7. Push to database (pending/in_progress/completed)
-
-This provides the user clear visibility into workflow progress.
-
-## Initial Setup:
-
-When this command is invoked:
-
-### 1. Check for Stale Blogs First
-
-Read `src/lib/components/molecules/famousTypes.ts` and identify **published blogs** (where `link: true`) that haven't been updated recently. Sort by `lastmod` date (oldest first) and show the top 5-10 candidates.
-
-**Stale blog criteria:**
-
-- `link: true` (published)
-- `lastmod` older than 6 months from today's date
-- Prioritize well-known celebrities who likely have recent news
-
-**Example output format:**
-
-```
-📊 Blogs that may need updates (oldest first):
-
-| Person | Last Updated | Days Old |
-|--------|--------------|----------|
-| Charlie-Puth | 2023-06-21 | 900+ days |
-| Ruth-Bader-Ginsburg | 2023-07-16 | 870+ days |
-| Friedrich-Nietzsche | 2023-07-25 | 865+ days |
-| Nikola-Tesla | 2023-11-29 | 740+ days |
-| Robert-Oppenheimer | 2023-09-04 | 830+ days |
-
-💡 These published blogs haven't been refreshed in a while and might benefit from updates with recent information.
-```
-
-### 2. Then Ask for Input
-
-After showing the stale blogs, respond with:
-
-```
-I'm ready to create or update celebrity personality analysis content.
-
-Would you like to:
-1. Update one of the stale blogs listed above (just enter their name)
-2. Create a new blog (enter any person's name)
-3. Update a different existing blog (enter their name)
-
-Enter the person's name:
-```
-
-Then wait for the user's input.
-
-## Steps to follow after receiving the person's name:
-
-### 1. **Database Check and Setup:**
-
-- Check the `blogs_famous_people` table in Supabase for existing content about this person
-- Use the person's name in "First-Last" format for database queries
-
-**Environment Variables:**
-
-- Database URL: Read `PUBLIC_SUPABASE_URL` from `.env` file
-- Service Key: Read `SUPABASE_SERVICE_KEY` from `.env` file
-- Both are already configured and pre-approved for use
-
-**Initial Database Query (read credentials from .env):**
-
-```bash
-source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.First-Last&select=*" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
-```
-
-**Note:** All database operations are pre-approved - execute immediately without asking.
-
-### 2. **Branch Logic - Existing vs New Content:**
-
-#### **If person EXISTS in database:**
-
-- Display current blog metadata (title, enneagram type, published status, last modified)
-- Offer update options:
-  ```
-  Found existing blog for [Person Name]. Choose an option:
-  1. Update with fresh web research
-  2. Manual content editing
-  3. Update specific sections
-  4. Review current content
-  5. Cancel
-  ```
-- Wait for user selection and proceed accordingly
-
-#### **If person is NEW:**
-
-- Confirm creation and proceed to full blog generation workflow
-- Create TodoWrite tasks for the complete process:
-  1.  Execute prep-prompt-1 research
-  2.  Execute prep-prompt-2 Enneagram analysis
-  3.  Execute writing-prompt-1 blog generation
-  4.  Generate proper metadata and frontmatter
-  5.  Add strategic internal links (2-5 links)
-  6.  Review and refinement cycle
-  7.  Database submission
-
-### 3. **Research Phase (New Blog Creation):**
-
-#### **Step 3.1: Execute Prep-Prompt-1**
-
-- Use WebSearch to gather current information about the person
-- Follow the prep-prompt-1 template from `/docs/blogs-famous-people/prep-prompt-1.md`
-- Research focus areas:
-  - 5 strong positive contributions/accomplishments
-  - 5 lesser-known facts about the person
-  - Personal stressors and challenges
-  - Things they're proud of
-  - Topics they enjoy discussing
-  - Internal thought patterns
-  - Notable habits and behaviors
-- **Output**: Comprehensive research summary
-
-#### **Step 3.2: Execute Prep-Prompt-2**
-
-- Determine the person's likely Enneagram type based on research
-- Follow prep-prompt-2 template from `/docs/blogs-famous-people/prep-prompt-2.md`
-- Analyze across dimensions:
-  - **Thoughts**: How they process information and make decisions
-  - **Feelings**: Emotional patterns and responses
-  - **Actions**: Behavioral patterns and habits
-- Examine stress (disintegration) and comfort (integration) states
-- **Output**: Detailed Enneagram personality analysis
-
-#### **Step 3.3: Execute Writing-Prompt-1**
-
-- Use writing-prompt-1 template from `/docs/blogs-famous-people/writing-prompt-1.md`
-- Generate full blog content with structure:
-  - Opening quote and engaging intro
-  - H2: "What is [Person]'s personality type?"
-  - H3: "[Person] is an Enneagram Type X"
-  - H2: "[Person]'s upbringing"
-  - H2: "Rise to fame"
-  - H2: "Personality quirks/habits/mindset" (with H3 subsections)
-  - H2: "Major accomplishments"
-  - H2: "Drama/controversies/criticisms"
-  - H2: "[Person]'s legacy and current work"
-  - Conclusion with engaging question
-- **Output**: Complete markdown blog with SEO optimization
-
-### 4. **Metadata Generation (Triple-Title System):**
-
-**IMPORTANT: The 9takes celebrity blog system uses THREE title fields:**
-
-1. **`title`** (Evergreen/Authoritative) - Displayed on the actual blog page
-   - Professional, accurate, timeless
-   - Reflects the quality and depth of analysis
-   - Should remain valuable even years from now
-   - Example: "Elon Musk: An In-Depth Enneagram Type 5 Analysis"
-
-2. **`meta_title`** (Clickbait/SEO) - Used for search results, social sharing, and browser tabs
-   - Problem-focused, curiosity-inducing
-   - Optimized for CTR in search results
-   - Can reference current events or trending angles
-   - Example: "Inside Elon Musk's Mind: Why He Can't Stop Taking Risks"
-
-3. **`persona_title`** (Archetype Label) - Short archetype that encapsulates the person
-   - 2-5 words max
-   - Format: "[Domain]'s [Type-Allusive Adjective] [Archetype]" OR "The [Archetype Reference]"
-   - Must subtly allude to their Enneagram type without naming it
-   - Creates instant recognition of who this person is
-   - Example: "Tech's Mad Scientist" (Elon Musk, Type 5)
-
-**How it works technically:**
-
-- `PeopleBlogPageHead.svelte` uses: `data?.meta_title || data?.title`
-- Search results and social cards show `meta_title` (if exists)
-- The page itself displays `title` via `ArticleTitle` component
-- `persona_title` is stored in `famousTypes.ts` and displayed on listing pages
-
-**Generate frontmatter with ALL THREE title fields:**
-
-```yaml
 ---
-title: '[Person Name]: [Evergreen Enneagram Analysis Title]'
-meta_title: '[Clickbait/Problem-Focused Title for SEO]'
-persona_title: '[Domain]'s [Type-Allusive Descriptor]'
-description: '[SEO-optimized meta description under 155 chars - problem-focused]'
-author: 'DJ Wayne'
-date: '[YYYY-MM-DD]'
-loc: 'https://9takes.com/personality-analysis/[Person-Name]'
-lastmod: '[YYYY-MM-DD]'
-changefreq: 'monthly'
-priority: '0.6'
-published: false
-enneagram: '[1-9]'
-type: ['celebrity']
-person: '[First-Last]'
-suggestions: []
-wikipedia: '[URL if available]'
-twitter: '[handle if available]'
-instagram: '[handle if available]'
-tiktok: '[handle if available]'
----
-```
 
-### 4.1 **Persona Title Generation Guidelines:**
+# Part 1: Reference Guide
 
-**Format Patterns:**
-
-- `"[Domain]'s [Adjective] [Archetype]"` - e.g., "Hollywood's Quiet Force"
-- `"The [Adjective] [Archetype]"` - e.g., "The Principled Steward"
-- `"[Domain]'s [Compound Descriptor]"` - e.g., "Pop's Heartbreak Alchemist"
-
-**Type-Specific Vocabulary (use these to allude to their Enneagram):**
-
-| Type  | Core Essence           | Adjectives to Use                           | Archetypes to Use                                        |
-| ----- | ---------------------- | ------------------------------------------- | -------------------------------------------------------- |
-| **1** | Perfectionist/Reformer | Principled, Uncompromising, Earnest, Moral  | Crusader, Perfectionist, Reformer, Visionary, Conscience |
-| **2** | Helper/Giver           | Devoted, Approachable, Tender, Nurturing    | Helper, Servant, Caretaker, Ambassador, Confessor        |
-| **3** | Achiever/Performer     | Self-Made, Polished, Relentless, Calculated | Achiever, Architect, Reinventor, Machine, Star           |
-| **4** | Individualist/Romantic | Melancholic, Reclusive, Tortured, Haunted   | Artist, Poet, Rebel, Enigma, Outsider                    |
-| **5** | Investigator/Observer  | Methodical, Intense, Cold, Silent           | Architect, Strategist, Observer, Recluse, Mind           |
-| **6** | Loyalist/Skeptic       | Loyal, Anxious, Trusted, Skeptical, Steady  | Guardian, Watchdog, Skeptic, Patriarch, Anchor           |
-| **7** | Enthusiast/Adventurer  | Restless, Manic, Boundless, Chaotic         | Pioneer, Showman, Adventurer, Spark, Optimist            |
-| **8** | Challenger/Protector   | Fierce, Unapologetic, Uncompromising, Alpha | Titan, Force, Brawler, Warrior, Disruptor                |
-| **9** | Peacemaker/Mediator    | Gentle, Quiet, Easygoing, Laid-Back, Steady | Philosopher, Bridge-Builder, Anchor, Giant, Presence     |
-
-**Persona Title Examples by Type:**
-
-| Type | Person         | Persona Title                   |
-| ---- | -------------- | ------------------------------- |
-| 1    | Steve Jobs     | Tech's Uncompromising Visionary |
-| 1    | Greta Thunberg | Climate's Unrelenting Crusader  |
-| 2    | Mr. Rogers     | The Neighborhood Saint          |
-| 2    | Oprah Winfrey  | America's Confessor             |
-| 3    | Taylor Swift   | Pop's Heartbreak Alchemist      |
-| 3    | Kim Kardashian | Fame's Self-Made Architect      |
-| 4    | Billie Eilish  | Gen Z's Whispered Rebellion     |
-| 4    | Johnny Depp    | Hollywood's Beautiful Outsider  |
-| 5    | Elon Musk      | Tech's Mad Scientist            |
-| 5    | Bill Gates     | Tech's Methodical Mogul         |
-| 6    | Tom Hanks      | America's Trusted Dad           |
-| 6    | Eminem         | Detroit's Anxious Assassin      |
-| 7    | Ryan Reynolds  | Hollywood's Wit Machine         |
-| 7    | Kanye          | Genius's Manic Prophet          |
-| 8    | Beyoncé        | Pop's Untouchable Queen         |
-| 8    | Joe Rogan      | Podcasting's Alpha Interrogator |
-| 9    | Keanu Reeves   | Hollywood's Gentle Warrior      |
-| 9    | Barack Obama   | America's Bridge-Builder        |
-
-**Key Rules for Persona Titles:**
-
-1. **Never explicitly mention Enneagram** - The type should be subtly implied through vocabulary
-2. **Keep it short** - 2-5 words maximum
-3. **Domain first** - Start with their field (Hollywood, Tech, Pop, Comedy, Politics, etc.)
-4. **Use possessive form** - "[Domain]'s" reads better than "The [Domain]"
-5. **Make it memorable** - Should feel like a wrestling name or comic book epithet
-6. **Capture their essence** - Someone familiar with them should think "yes, that's exactly right"
-
-**Title Formula Examples:**
-
-| Person       | `title` (Evergreen)                                  | `meta_title` (Clickbait)                                             |
-| ------------ | ---------------------------------------------------- | -------------------------------------------------------------------- |
-| Taylor Swift | "Taylor Swift: Enneagram Type 3 Analysis"            | "Why Taylor Swift Can't Stop Reinventing Herself"                    |
-| Elon Musk    | "Elon Musk: An In-Depth Type 5w6 Analysis"           | "Inside Elon Musk's Mind: The Obsessive Pattern Behind His Chaos"    |
-| IShowSpeed   | "IShowSpeed: Enneagram Type 7 Analysis"              | "Why IShowSpeed Acts So Crazy (It's Not What You Think)"             |
-| Emma Watson  | "Emma Watson: Enneagram Type 1 Personality Analysis" | "Emma Watson's Hidden Perfectionism: The Pattern Behind Her Choices" |
-
-**Meta Title Patterns That Work (Based on GSC Data):**
-
-- "Why [Person] Can't Stop [Behavior]" - Problem framing
-- "Inside [Person]'s Mind: [Insight]" - Curiosity hook
-- "The Real Reason [Person] [Did Thing]" - Revelation angle
-- "[Person]'s Hidden [Trait]: What It Reveals" - Discovery hook
-- "What [Person]'s [Behavior] Says About Their Personality" - Analysis angle
-
-### 5. **Draft Creation and Preview:**
-
-- Create the complete blog content in proper markdown format following `/src/blog/people/person-template.md` structure
-- Save the draft to `/src/blog/people/drafts/[Person-Name].md` for preview
-- **IMPORTANT**: Use the person's name as the filename (e.g., "Taylor-Swift.md")
-- Inform user that draft has been created and provide preview instructions:
-
-  ```
-  Draft created successfully!
-
-  📁 Location: /src/blog/people/drafts/[Person-Name].md
-  🔍 Preview: Visit /admin/drafts to browse all drafts
-  👀 View: Visit /admin/drafts/[Person-Name] to review this specific draft
-
-  Options:
-  1. Make specific edits (tell me what to change)
-  2. Regenerate specific sections
-  3. Update research with newer information
-  4. Approve and submit to database
-  5. Continue editing later
-  ```
-
-### 5.5. **Strategic Internal Linking (REQUIRED STEP):**
-
-After creating the draft, add 2-5 strategic internal links to improve SEO and site navigation. This step should be performed automatically before presenting options to the user.
-
-#### **Link Types to Add (in priority order):**
-
-1. **Celebrity Cross-Links** (highest priority)
-2. **Enneagram Type Links**
-3. **Relevant Topical Blog Links**
-4. **External Research Citations** (if applicable)
-
-#### **Step 5.5.1: Gather Available Link Targets**
-
-**Get published celebrity blogs from famousTypes.ts:**
-
-Read the file `src/lib/components/molecules/famousTypes.ts` to find all published celebrity blogs. This file contains an object mapping Enneagram types (1-9) to arrays of famous people with their publication status.
-
-**Key fields:**
-
-- `name`: The person's name in "First-Last" format (e.g., "Taylor-Swift")
-- `link`: If `true`, the blog is published and can be linked to
-- `hasImage`: Whether the person has an image (not needed for linking)
-
-**How to use:**
-
-1. Read the `famousTypes.ts` file
-2. Iterate through all Enneagram types (1-9)
-3. Collect all entries where `link === true`
-4. These are the valid link targets at `/personality-analysis/[name]`
-
-**Example - extracting linkable celebrities:**
-
-```typescript
-// Entries with link: true are published:
-{ name: 'Taylor-Swift', link: true, hasImage: true }  // ✅ Can link to /personality-analysis/Taylor-Swift
-{ name: 'Greta-Thunberg', link: false, hasImage: false }  // ❌ Not published, do not link
-```
-
-**Do NOT make Supabase API calls to find celebrity blogs.** The `famousTypes.ts` file is the source of truth for published content.
-
-**Scan published topical blogs:**
-
-- Search `/src/blog/enneagram/` for files with `published: true` in frontmatter
-- Note the slug (filename without .md) for each published blog
-- These will be linked as `/enneagram-corner/[slug]`
-
-#### **Step 5.5.2: Scan Content and Add Links**
-
-**Rules for adding links:**
-
-1. **Only 2-5 links total per blog** - Be strategic, don't over-link
-2. **Natural placement** - Links should fit naturally in the text
-3. **First mention only** - Only link the first occurrence of each entity
-4. **Avoid linking in headings** - Keep headings clean
-5. **Context matters** - Only link when the mention is substantive, not passing
-
-**Celebrity Links:**
-
-- Scan the blog content for mentions of other celebrities
-- If we have a published blog about them, link to `/personality-analysis/[Person-Name]`
-- Format: `[Celebrity Name](/personality-analysis/Celebrity-Name)`
-- Example: If "Elon Musk" is mentioned and we have his blog → `[Elon Musk](/personality-analysis/Elon-Musk)`
-
-**Enneagram Type Links:**
-
-- Scan for mentions of Enneagram types (e.g., "Type 5", "Enneagram 3", "type 8")
-- Link to the corresponding type page: `/enneagram-corner/enneagram-type-X`
-- Format: `[Enneagram Type X](/enneagram-corner/enneagram-type-X)` or `[Type X](/enneagram-corner/enneagram-type-X)`
-- Only link types other than the subject's own type (that's already covered in the main analysis)
-
-**Topical Blog Links:**
-
-- If the content discusses topics covered in published `/src/blog/enneagram/` posts, add relevant links
-- Common linkable topics:
-  - Stress patterns → `/enneagram-corner/enneagram-types-in-stress`
-  - Communication styles → `/enneagram-corner/enneagram-communication-styles`
-  - Relationships → `/enneagram-corner/enneagram-relationship-guide`
-  - Wings → `/enneagram-corner/enneagram-wings-complete-guide`
-  - Strengths/weaknesses → `/enneagram-corner/enneagram-strengths-and-weaknesses`
-
-**External Research Links:**
-
-- If citing recent research, studies, or news articles, add external links
-- Use descriptive anchor text, not "click here"
-- Format: `[descriptive text](https://example.com/source)`
-
-#### **Step 5.5.3: HTML Block Handling**
-
-**CRITICAL: When adding links inside HTML blocks, use anchor tags instead of markdown:**
-
-Inside HTML blocks (like `<p>`, `<div>`, `<details>`, `<li>`, etc.):
-
-```html
-<!-- CORRECT - use anchor tags inside HTML -->
-<p class="firstLetter">
-	The intense drive reminds us of <a href="/personality-analysis/Elon-Musk">Elon Musk</a>, another
-	visionary...
-</p>
-
-<li>
-	<b>Strategic thinking:</b> Similar to
-	<a href="/enneagram-corner/enneagram-type-5">Type 5</a> analysis patterns
-</li>
-```
-
-In regular markdown text:
-
-```markdown
-<!-- CORRECT - use markdown links outside HTML -->
-
-This reminds us of [Elon Musk](/personality-analysis/Elon-Musk), another visionary...
-
-Similar to [Type 5](/enneagram-corner/enneagram-type-5) analysis patterns.
-```
-
-**Detection rule:** If the text being linked is:
-
-- Inside any HTML tag (`<p>`, `<div>`, `<span>`, `<li>`, `<td>`, `<details>`, etc.)
-- Use `<a href="/path">text</a>` format
-
-If the text is:
-
-- In plain markdown paragraphs
-- Use `[text](/path)` format
-
-#### **Step 5.5.4: Example Linking Output**
-
-Before linking:
-
-```markdown
-<p class="firstLetter">Taylor Swift's perfectionism is legendary in the music industry. Her attention to detail rivals that of Beyoncé, and her strategic mind often draws comparisons to other Type 3 personalities.</p>
-
-When under stress, Type 3s can exhibit behaviors similar to unhealthy Type 9 patterns...
-```
-
-After linking:
-
-```markdown
-<p class="firstLetter">Taylor Swift's perfectionism is legendary in the music industry. Her attention to detail rivals that of <a href="/personality-analysis/Beyonce">Beyoncé</a>, and her strategic mind often draws comparisons to other Type 3 personalities.</p>
-
-When under stress, Type 3s can exhibit behaviors similar to unhealthy [Type 9](/enneagram-corner/enneagram-type-9) patterns...
-```
-
-#### **Step 5.5.5: Verify and Report**
-
-After adding links:
-
-1. Count total links added (should be 2-5)
-2. List links added in the format:
-   ```
-   Internal links added (X total):
-   - [Person Name] → /personality-analysis/Person-Name
-   - [Type X] → /enneagram-corner/enneagram-type-X
-   - [Topic] → /enneagram-corner/topic-slug
-   ```
-3. Update the draft file with the linked content
-4. Proceed to Review and Refinement
-
-### 6. **Review and Refinement Cycle:**
-
-- User can preview the draft using the admin interface at `/admin/drafts/[Person-Name]`
-- Allow for iterative editing based on user feedback
-- Update the draft file with any changes
-- **Continue iterating** until user says "submit this update" or equivalent approval
-
-### 7. **Database Submission (When User Says "Push it up" or "Submit"):**
-
-When the user approves content with phrases like "push it up," "submit," "update the database," or similar:
-
-**EXECUTE IMMEDIATELY WITHOUT ASKING.**
+These sections define the rules and standards. The workflow steps in Part 2 reference them.
 
 ---
 
-#### **THE PROVEN METHOD: Python + JSON File + Curl**
+## Enneagram Analysis Tone & Approach (CRITICAL)
 
-This is the reliable, tested approach that handles large markdown content with special characters, quotes, and complex formatting:
+Every blog must follow this tone philosophy. This is what differentiates 9takes from shallow personality sites.
 
-**Step 1: Prepare the JSON payload using Python**
+### The Core Principle: Authoritative About the System, Humble About the Person
 
-Run this Python script to properly escape content and create a JSON file:
+**DO NOT** write like this (overt, declarative):
+- "This is so Enneagram 2 of them."
+- "As a classic Type 3, she naturally..."
+- "His Type 5 personality makes him..."
 
-```python
-python3 << 'EOF'
-import json
+**DO** write like this (system-first, then evidence-based connection):
+- "Many Enneagram Twos experience a deep need to be needed. They often channel this into acts of service, sometimes at the expense of their own needs. We can see evidence of this pattern in [Person]'s consistent advocacy work and the way they describe feeling most alive when helping others."
+- "Type Threes often carry an internal pressure to prove their worth through achievement. This can drive relentless reinvention. Looking at [Person]'s career trajectory, there's a striking parallel -- they likely felt that same pull to keep evolving, to never let the world see them standing still."
 
-# Read .env file to get credentials
-env_vars = {}
-with open('.env', 'r') as f:
-    for line in f:
-        line = line.strip()
-        if '=' in line and not line.startswith('#'):
-            key, value = line.split('=', 1)
-            env_vars[key] = value.strip('"').strip("'")
+### The Pattern: Lead With the Type, Then Bridge to the Person
 
-supabase_url = env_vars.get('PUBLIC_SUPABASE_URL')
-service_key = env_vars.get('SUPABASE_SERVICE_KEY')
+1. **State the Enneagram pattern authoritatively**: "Enneagram Fives tend to..." / "Many Type Eights share a pattern of..." / "A core fear for Type Fours is..."
+2. **Describe the inner experience**: What people of this type typically feel, think, and are motivated by
+3. **Bridge to the person with evidence**: "We can see evidence of this in [Person]'s..." / "[Person]'s behavior here echoes this pattern..."
+4. **Stay humble in the assessment**: Use language like "likely," "suggests," "we can see parallels," "this echoes," "there's evidence that" -- not "this proves" or "this is because they're a Type X"
 
-# Read the draft file
-with open('src/blog/people/drafts/[Person-Name].md', 'r') as f:
-    full_content = f.read()
+### Invite Reflection, Don't Dictate
 
-# Split frontmatter from content (content is everything after second ---)
-parts = full_content.split('---', 2)
-if len(parts) >= 3:
-    content = parts[2].strip()
-else:
-    content = full_content
+The reader should feel like they're being guided through an analysis, not told what to believe. Use questions and invitations:
+- "Does this remind you of someone in your life who..."
+- "Consider how this pattern might explain..."
+- "What's interesting is how this connects to..."
+- "If you look at [Person]'s response through this lens..."
 
-# Prepare the JSON payload with ALL fields to update
-payload = {
-    "content": content,
-    "lastmod": "YYYY-MM-DD",  # Use today's date
-    "title": "The Evergreen Page Title",
-    "meta_title": "The Clickbait SEO Title",
-    "persona_title": "Domain's Type-Allusive Archetype",  # e.g., "Hollywood's Quiet Force"
-    "description": "Meta description under 155 chars"
-}
+The goal: readers finish the blog thinking "that makes so much sense" rather than feeling lectured.
 
-# Write to temp file - json.dump handles all escaping automatically
-with open('/tmp/blog_update.json', 'w') as f:
-    json.dump(payload, f)
+### Story First, Analysis Second (Anti-Fatigue Rule)
 
-print(f"✓ Payload prepared: {len(content)} characters")
-print(f"✓ Saved to /tmp/blog_update.json")
-EOF
-```
+The strongest personality analysis reads like a compelling profile that _happens_ to illuminate psychological patterns — NOT like an Enneagram textbook that uses a celebrity as an example.
 
-**Step 2: Execute the PATCH request using curl with the JSON file**
+**The distribution rule**: Explicit Enneagram framing (naming the type, referencing Enneagram theory, using phrases like "Type X typically...") should appear in **at most 3-4 sections** of the blog. The remaining sections should tell the person's story and let the reader connect the dots.
 
-```bash
-source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
-  -H "Content-Type: application/json" \
-  -H "Prefer: return=minimal" \
-  -d @/tmp/blog_update.json
-```
+**Sections that should lean toward pure narrative (minimal or no Enneagram framing):**
+- **Upbringing** — tell the story, don't diagnose the childhood
+- **Rise to fame** — focus on the journey
+- **Individual personality quirks** — describe the behavior vividly, let it speak for itself
+- **Accomplishments** — show what they did, not what type they are
 
-**Step 3: Verify the update succeeded**
+**Sections where explicit Enneagram analysis fits naturally:**
+- **"What is [Person]'s personality type?"** — the one section dedicated to direct analysis
+- **Conclusion** — tie themes together through the lens
+- **One or two moments** in the personality or challenges sections where naming the type genuinely deepens understanding
 
-```bash
-source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=id,person,title,meta_title,lastmod,published" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
-```
+**The litmus test**: If you removed every sentence that explicitly mentions "Type X" or "Enneagram," would the blog still be a compelling, insightful profile? If yes, the Enneagram is being used well. If no, you're using the person to explain the Enneagram instead of using the Enneagram to illuminate the person.
 
-**Step 4: Clean up temp file**
+### Show, Don't Label
 
-```bash
-rm -f /tmp/blog_update.json
-```
+Instead of writing "This is classic Type 8 behavior" or "Type 8s characteristically do this," prefer:
+- Describing the behavior vividly and letting it resonate on its own
+- Using the Enneagram insight _implicitly_ through your analytical lens without naming the type
+- Saving the explicit "this connects to Type X" for **2-3 key moments** where it genuinely adds something
 
----
+**Phrases to avoid (or use very sparingly — maximum 2 times per entire blog):**
+- "This is classic/textbook Type X"
+- "Type Xs characteristically..."
+- "This is very Type X"
+- "consistent with Type X patterns/behavior"
 
-#### **Why This Method Works:**
+**Instead, let the behavior carry the weight:**
+- "She set the terms. She always sets the terms. And if you get too close without permission, you'll know."
+- "The anger didn't paralyze her. It became a song. Every time."
 
-1. **`json.dump()` handles all escaping** - Quotes, newlines, special characters in markdown are properly escaped
-2. **`-d @file.json` avoids shell escaping** - No issues with bash interpreting content
-3. **Single PATCH request** - Updates all fields atomically (content, title, meta_title, description, lastmod)
-4. **Large content support** - Works with 15,000+ character blog posts
+The Enneagram should feel like a quiet lens shaping the analysis, not a label stamped on every paragraph.
 
----
+### Repetition Prevention (CRITICAL)
 
-#### **For NEW entries (POST instead of PATCH):**
+**The golden rule: Every major quote, concept, or anecdote should appear ONCE in its strongest context.**
 
-```python
-python3 << 'EOF'
-import json
+Blogs have multiple structural layers (intro, TL;DR, evidence list, main sections, conclusion) and it's easy for the same material to appear in 2-3 of them. This destroys reader engagement — the reader feels like they keep re-reading the same article.
 
-# Read .env
-env_vars = {}
-with open('.env', 'r') as f:
-    for line in f:
-        line = line.strip()
-        if '=' in line and not line.startswith('#'):
-            key, value = line.split('=', 1)
-            env_vars[key] = value.strip('"').strip("'")
+**Rules:**
 
-# Read draft
-with open('src/blog/people/drafts/[Person-Name].md', 'r') as f:
-    full_content = f.read()
+1. **Quotes**: Use each direct quote **exactly once**. If a quote is your opening epigraph, do NOT repeat it in the evidence list or body sections. You can reference it briefly ("the Grammy speech we opened with") without re-quoting.
 
-parts = full_content.split('---', 2)
-content = parts[2].strip() if len(parts) >= 3 else full_content
+2. **Key concepts/anecdotes**: Each belongs to **ONE section**. If "throwing away her personality in relationships" is a major insight, it lives in the Relationship section — not also in the TL;DR, the evidence list, AND the relationship section. A brief forward-reference ("we'll see this pattern play out in her relationships") is fine; repeating the full concept is not.
 
-# Full payload for new entry
-payload = {
-    "person": "First-Last",
-    "title": "Evergreen Title",
-    "meta_title": "Clickbait SEO Title",
-    "persona_title": "Domain's Type-Allusive Archetype",  # e.g., "Hollywood's Quiet Force"
-    "description": "Meta description",
-    "author": "DJ Wayne",
-    "date": "YYYY-MM-DD",
-    "lastmod": "YYYY-MM-DD",
-    "loc": "https://9takes.com/personality-analysis/First-Last",
-    "changefreq": "monthly",
-    "priority": "0.6",
-    "published": False,
-    "enneagram": "9",  # String of the type number
-    "type": ["movieStar"],  # or ["celebrity"], ["musician"], etc.
-    "content": content
-}
+3. **TL;DR strategy**: The TL;DR should be a **TEASER**, not a comprehensive summary. It should:
+   - State the core typing (self-identified or assessed) in one line
+   - Sketch 3-4 broad personality patterns in **one sentence each** without full anecdotes
+   - Create curiosity to keep reading — do NOT include the blog's best stories or most surprising details
+   - **Bad TL;DR**: Summarizes every section (reader has no reason to keep scrolling)
+   - **Good TL;DR**: Names the type, gestures at patterns, and leaves the stories for the body
 
-with open('/tmp/blog_new.json', 'w') as f:
-    json.dump(payload, f)
+4. **Evidence list** (in "What is their personality type?"): Keep bullets to brief pattern-level observations. Do NOT include full anecdotes that will be told in later sections. Think of it as a thematic table of contents, not a preview of every section.
 
-print("✓ New entry payload prepared")
-EOF
-```
-
-Then POST:
-
-```bash
-source .env && curl -s -X POST "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
-  -H "Content-Type: application/json" \
-  -H "Prefer: return=representation" \
-  -d @/tmp/blog_new.json
-```
+5. **Deduplication review**: Before finalizing any draft, scan the entire piece and ask:
+   - Is any quote used more than once? → Keep the best placement, cut the rest
+   - Is any anecdote told in more than one section? → Keep the section where it has the most context
+   - Is any concept explained more than once? → Keep the deepest treatment, trim others to a brief reference
 
 ---
 
-#### **Confirm to user after successful push:**
+## What Makes a Great Analysis (CRITICAL)
 
-```
-✅ Successfully pushed to database!
+The tone section above covers *how* to write about the Enneagram. This section covers what separates a genuinely compelling personality analysis from a competent but forgettable one.
 
-| Field | Value |
-|-------|-------|
-| **Database ID** | [id from response] |
-| **Person** | [Person-Name] |
-| **Last Modified** | [date] |
-| **Published** | false (ready for review) |
-| **Content** | [X] characters |
-```
+### Find the Core Tension
+
+Every fascinating person has a central contradiction — the thing that doesn't quite add up, the paradox that makes them interesting. **Finding and naming this tension is the single most important step in writing a great blog.**
+
+Examples:
+- **Chappell Roan**: fortress vs. vulnerability — a woman who creates force fields of unapproachability, yet admits to throwing away her personality to keep someone from leaving
+- **Jocko Willink**: strength vs. tenderness — the same intensity that made his men beg to stay on the battlefield made his children beg to leave the jiu-jitsu mat
+- **Chris Williamson**: achievement vs. authenticity — built a massive podcast empire while publicly questioning whether the person behind the microphone is real
+
+**The core tension should:**
+- Be identified during the research phase (Steps 2-3) before writing begins
+- Appear in the intro — named or strongly implied within the first 5 paragraphs
+- Echo throughout the blog — different sections should illuminate different facets of the same tension
+- Inform the conclusion — the closing should revisit the tension without pretending it's resolved
+
+**If you can't find a core tension, dig deeper.** Every person has one. Sometimes it's obvious (public persona vs. private self). Sometimes it's buried (what they preach vs. what they struggle with). If the research doesn't reveal one, the research isn't deep enough.
+
+### Small Moments That Reveal Big Patterns
+
+The most powerful evidence in a personality analysis is never the headline accomplishment. It's the tiny, specific, seemingly minor detail that cracks open who someone really is.
+
+**Great examples from existing blogs:**
+- A comment overheard in a lunch line ("she's pretty but not hot") → the anthem "Hot to Go" years later
+- Jocko calling his toddler daughter "dense" as a compliment → her eating disorder in college
+- Shawn Ryan mentioning his suicide attempt mid-sentence then pivoting to veteran statistics
+- Chappell writing a handwritten 5-track EP for a partner, burning it on a CD → "They didn't love it as much as I thought they would." She never gave a gift like that again.
+
+**The pattern:** Small moment → years of silent impact → revealing consequence. This is what makes readers feel like they're seeing the *real* person, not a Wikipedia summary.
+
+**During research, actively hunt for these moments.** They're usually found in:
+- Long-form podcast interviews (unscripted, candid)
+- Childhood anecdotes told in passing
+- Offhand comments about habits, fears, or relationships
+- Stories told by people who know them well
+
+Every blog should have **at least 3-5 of these small, specific, devastating details**. If you only have big, public accomplishments, the blog will read like a press kit.
+
+### The Public Self vs. Private Self
+
+One of the richest veins in personality analysis is the gap between who someone is on stage (or on camera, or in public) and who they are when the performance stops. Exploring this gap:
+
+- Creates empathy — readers see the person as human, not as a brand
+- Reveals the Enneagram pattern naturally — the gap between public and private is often *where the type lives*
+- Makes readers feel seen — everyone has a version of this gap in their own life
+
+**Look for:** What do they do when no one's watching? What do their close friends say about them vs. their public reputation? What surprises people who meet them in person? What do they admit in long-form interviews that contradicts their image?
+
+### Childhood Wounds → Adult Patterns
+
+The most psychologically satisfying analyses connect early experiences to present behavior. Not in a diagnostic way ("his childhood trauma caused...") but in a narrative way that lets the reader connect the dots:
+
+- Chappell: suffocating in a conservative Christian household → building force fields of autonomy as an adult
+- Jocko: rebellious kid who hated authority → transformed rebellion into proactive discipline
+- Benson Boone: only boy among four sisters, eavesdropping on piano lessons → self-taught multi-instrumentalist who can't stop learning
+
+**The key is not to diagnose but to illuminate.** The reader should think "oh, THAT'S why they do that" — that's the aha moment that makes them feel like they understand someone at a deeper level than before.
+
+### The "Aha Moment"
+
+Every blog should contain at least one moment where the Enneagram framework makes something *click* that wouldn't click otherwise. This is the payoff for the reader — the reason they came to a personality analysis site instead of Wikipedia.
+
+**What makes a good aha moment:**
+- It explains behavior that seemed random, extreme, or contradictory
+- It connects two seemingly unrelated things in the person's life
+- It makes the reader go "that makes so much sense" — about the person AND potentially about themselves or someone they know
+- It's specific, not generic. "Type 8s are intense" is not an aha moment. "The same protective instinct that made wounded soldiers beg to stay under his command is what made his children beg to leave the jiu-jitsu mat" IS.
+
+### Prose That Hits
+
+The best blogs don't just analyze well — they're *written* well. Personality analysis should read like a compelling magazine profile, not a psychology textbook.
+
+**Techniques that work:**
+- **Short sentences after long ones for impact.** "She set the terms. She always sets the terms. And if you get too close without permission, you'll know."
+- **The understated line that carries the most weight.** "She never gave a gift like that again." (More devastating than any paragraph of analysis.)
+- **Show first, then explain (or don't explain at all).** Describe the behavior vividly. Let the reader feel it before you name the pattern.
+- **End sections with punch, not summary.** "Every wound becomes ammunition. Every betrayal becomes a track." Not: "This shows that she processes pain through her music."
+- **Vary the rhythm.** Long narrative passage → short punchy line → medium analytical paragraph → devastating one-liner. Monotonous rhythm puts readers to sleep regardless of content quality.
+
+**The test for prose quality:** Read a paragraph out loud. If it sounds like a textbook, rewrite it. If it sounds like a story being told by someone who genuinely finds this person fascinating, keep it.
 
 ---
 
-#### **Error Handling:**
+## Page Template Context (CRITICAL — What NOT to Include)
 
-- **Empty response from PATCH** = Success (with `Prefer: return=minimal`)
-- **If content appears truncated**: Check JSON file was created correctly
-- **If special characters cause issues**: The Python `json.dump()` should handle this - verify the temp JSON file is valid
-- **Always clean up**: `rm -f /tmp/blog_update.json` after submission
+The blog renders in `/personality-analysis/[slug]/+page.svelte` which **ALREADY INCLUDES** certain elements programmatically. Generated markdown content must **NOT** include:
 
-**IMPORTANT:** All database operations are pre-approved. Execute them immediately when user requests submission.
-
-### 8. **Update Workflows (Existing Content):**
-
-#### **Fresh Web Research Update (Holistic Workflow):**
-
-**CRITICAL PRINCIPLE: Updates must enhance, not narrow.** The goal is to maintain a complete picture of who this person is—their formative experiences, core personality patterns, full career arc, relationships, and growth over time. Recent events are important but should be integrated into the existing narrative, not replace it.
-
-When user requests updates based on latest developments:
-
-1. **Create TodoWrite task list** for the update workflow
-
-2. **FIRST: Read and analyze the existing blog content:**
-   - Read the current blog from database or draft file
-   - **Create a mental map** of what the blog currently covers:
-     - Upbringing and formative experiences
-     - Core personality traits and Enneagram patterns
-     - Career milestones and evolution
-     - Key relationships and influences
-     - Psychological insights and growth patterns
-     - Previous controversies/challenges and how they handled them
-   - **Identify the blog's thesis**: What is the central narrative about this person's personality?
-   - **Note any gaps**: Are there important life areas not yet covered?
-
-3. **Perform comprehensive WebSearch** in parallel:
-   - **Recent developments** (past 6-12 months):
-     - Latest news, interviews, releases, or major life events
-     - Changes in public perception or lifestyle
-     - New accomplishments or controversies
-   - **Fill existing gaps** (if any identified in step 2):
-     - Missing childhood/family context
-     - Underexplored relationships or influences
-     - Career phases not well documented
-   - **Deepen psychological understanding**:
-     - Interviews where they discuss motivations, fears, values
-     - Long-form profiles or biographies
-     - Patterns across their entire life, not just recent events
-
-4. **Analyze through Enneagram lens (holistic view):**
-   - How do recent developments reflect their core Type X patterns?
-   - Do new events reinforce or add nuance to the existing personality analysis?
-   - Signs of growth, integration, or stress across their life arc?
-   - How do recent behaviors connect to formative experiences?
-   - **Consistency check**: Does the new information align with the established personality portrait?
-
-5. **Integration strategy (NOT replacement):**
-   Before making any edits, determine for each piece of new information:
-   - **Add**: New content that fills gaps or adds depth
-   - **Update**: Existing content that needs factual corrections or current context
-   - **Enhance**: Sections that can be strengthened with additional examples
-   - **Leave unchanged**: Strong existing content that doesn't need modification
-
-   **Default to preservation**: If existing content is accurate and well-written, keep it. Only modify what genuinely needs updating.
-
-6. **Update draft file directly** at `/src/blog/people/drafts/[Person-Name].md`:
-   - **Opening section**: Add current context but preserve the hook and thesis
-   - **Historical sections** (upbringing, early career): Only update if you found new information about these periods—never delete or shorten
-   - **Personality analysis sections**: Add new examples, don't replace existing insights
-   - **Accomplishments**: Add recent ones to the existing list, maintain chronological or thematic order
-   - **Controversies/challenges**: Add new ones if significant, preserve how they handled past ones
-   - **Legacy section**: Update to reflect current status while honoring their full journey
-   - **TL;DR**: Only update if there are genuinely significant new developments that change the core summary
-   - **Metadata**: Update lastmod date
-
-7. **Holistic balance check (REQUIRED before finalizing):**
-   Review the updated draft and verify:
-   - [ ] The blog still covers their entire life arc, not just recent events
-   - [ ] Formative experiences and upbringing remain well-documented
-   - [ ] Core personality patterns are still clearly explained with examples from multiple life phases
-   - [ ] The Enneagram analysis draws from their whole life, not just current behavior
-   - [ ] Historical accomplishments aren't overshadowed by recent ones
-   - [ ] The blog would still be valuable if read 5 years from now
-   - [ ] Someone unfamiliar with this person would get a complete picture of who they are
-
-   **If any check fails, revise before proceeding.**
-
-8. **Review and update internal links (Step 5.5):**
-   - Check if any newly mentioned celebrities have published blogs → add links
-   - Verify existing internal links are still valid
-   - Add links to any new relevant topical content
-   - Ensure total links remain between 2-5
-   - Follow HTML vs markdown rules from Step 5.5.3
-
-9. **When user says "push it up":**
-   - Execute database submission workflow immediately
-   - No additional approval needed
-
-#### **Manual Content Editing:**
-
-- Display current content in manageable sections
-- Allow targeted edits to specific sections
-- Preserve markdown formatting and SEO structure
-
-#### **Specific Section Updates:**
-
-- List available sections (upbringing, accomplishments, controversies, etc.)
-- Allow user to select sections for targeted updates
-- Research and regenerate only selected sections
-
-### 9. **Error Handling and Validation:**
-
-- Validate Supabase connection before starting
-- Check for required environment variables
-- Validate person name format for database consistency
-- Handle API rate limits for web research
-- Confirm database schema compatibility
-
-### 10. **Final Verification and Cleanup:**
-
-- Verify all markdown formatting is correct
-- Ensure SEO elements are properly formatted
-- Validate all required database fields are populated
-- Update `lastmod` field to current date
-- Present final confirmation to user
-
-## Important Implementation Notes:
-
-### **Page Template Context - CRITICAL:**
-
-When generating blog content, understand that the blog will be rendered in `/personality-analysis/[slug]/+page.svelte` which **ALREADY INCLUDES** certain elements programmatically. The generated markdown content should **NOT** include these elements:
-
-**DO NOT INCLUDE in generated blog content:**
-
-1. **`<script>` import tags** - The page component handles component imports. Never include:
-
-   ```svelte
-   <script>
-   	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
-   	import PopCard from '$lib/components/atoms/PopCard.svelte';
-   </script>
-   ```
-
-2. **Featured image PopCard at the top** - The page template (`+page.svelte:269-278`) already renders a PopCard with the person's image at the top of every blog. Never include:
-
-   ```svelte
-   <div style="display: flex; justify-content: center; margin: 1rem 0;">
-   	<PopCard image={`/types/1s/${person}.webp`} enneagramType={1} ... />
-   </div>
-   ```
-
-3. **BlogPurpose component** - The server (`+page.server.ts:274-298`) automatically inserts a BlogPurpose component before the last h2 tag. Do not manually add `<BlogPurpose />` tags.
-
-4. **`<svelte:head>` with JSON-LD** - Schema metadata is stored in the database and handled separately. Never include:
-
-   ```svelte
-   <svelte:head>
-   	<script type="application/ld+json">
-   ...
-   	</script>
-   </svelte:head>
-   ```
-
-5. **Empty `<style>` tags** - Never include `<style lang="scss"></style>` blocks.
+1. **`<script>` import tags** — The page component handles component imports
+2. **Featured image PopCard at the top** — The page template already renders the person's image
+3. **BlogPurpose component** — The server automatically inserts this before the last h2 tag
+4. **`<svelte:head>` with JSON-LD** — Schema metadata is handled separately
+5. **Empty `<style>` tags** — Never include `<style lang="scss"></style>` blocks
 
 **WHAT TO INCLUDE in generated blog content:**
 
-- Frontmatter with all metadata (title, description, date, enneagram type, etc.)
+- Frontmatter with all metadata
 - Opening quote (blockquote)
 - `<p class="firstLetter">` for the intro paragraph
 - TL;DR section in `<details>` tag
 - All H2 and H3 sections with content
-- Inline content only - no wrapper components
+- Inline content only — no wrapper components
 
-**Example of CORRECT blog structure:**
+**Correct blog structure example:**
 
 ```markdown
 ---
@@ -875,197 +272,175 @@ Content continues here...
 Final paragraph with engaging question.
 ```
 
-### **Research Quality:**
+### Opening Quote Guidance
 
-- Use multiple sources for fact-checking
-- Prioritize recent interviews and biographical information
-- Cross-reference Enneagram type analysis with behavioral examples
-- Maintain analytical, unbiased tone throughout
-
-### **Balancing Virality with Evergreen Quality:**
-
-The 9takes celebrity blog strategy is "Clickbait to the door, quality inside":
-
-1. **Meta titles are clickbait** - Optimized for CTR, curiosity, problem-framing
-2. **Page titles are evergreen** - Professional, timeless, authoritative
-3. **Content is deeply researched** - Stand the test of time, be THE definitive analysis
-
-**Why this matters:**
-
-- Clickbait meta_titles drive traffic from search
-- Quality content keeps people on page, builds authority, earns backlinks
-- Evergreen analysis means the content remains valuable for years
-- Deep research differentiates 9takes from shallow personality sites
-
-**Quality indicators for celebrity blogs:**
-
-- [ ] Would this analysis be valuable 5 years from now?
-- [ ] Does it cover their entire life arc (not just recent events)?
-- [ ] Are psychological insights backed by specific behavioral examples?
-- [ ] Does it explain the "why" behind their actions through Enneagram lens?
-- [ ] Would a new reader get a complete picture of who this person is?
-- [ ] Is it the most thorough Enneagram analysis of this person online?
-
-**The formula:**
-`meta_title` (clickbait for traffic) + `title` (authority for reputation) + `content` (depth for value) = Sustainable growth
-
-### **Content Standards:**
-
-- Follow 9takes voice and style guidelines
-- Ensure mobile-friendly formatting
-- Optimize for SEO without keyword stuffing
-- Include proper citations and quote attributions
-
-### **Database Integration:**
-
-- Always use environment variables for credentials
-- Include proper error handling for database operations
-- Validate data types match schema requirements
-- Maintain data consistency across updates
-
-### **User Experience:**
-
-- Provide clear status updates during long operations
-- Offer meaningful choices at decision points
-- Allow easy iteration and refinement
-- Confirm actions before irreversible operations
-
-### **Workflow Efficiency:**
-
-- **Minimize intermediate files**: Use direct operations when possible
-- **Parallel operations**: Run multiple WebSearches concurrently
-- **Clean up**: Remove temporary files after database submission
-- **Direct database updates**: Use curl directly rather than creating unnecessary helper scripts
-- **TodoWrite always**: Use throughout workflow for user visibility
-- **When user says "push it up"**: Execute immediately without additional confirmation
-
-## File References:
-
-- **Documentation Index**: `/docs/INDEX.md` - Quick navigation to all documentation resources
-- Template structure: `/src/blog/people/person-template.md`
-- Prep prompts: `/docs/blogs-famous-people/prep-prompt-*.md`
-- Writing template: `/docs/blogs-famous-people/writing-prompt-1.md`
-- Database schema: `/docs/blogs-famous-people/mcp-blogs-famous-people.md`
-- **Published celebrities list**: `/src/lib/components/molecules/famousTypes.ts` - Contains all famous people with `link: true` indicating published blogs
-- Brand voice guide: `/docs/brand/brand-style-guide-v2.md`
-- Celebrity optimization protocol: `/docs/content-generation/celebrity-page-optimization-instructions.md`
-
-## Environment Requirements:
-
-The following credentials are stored in `.env` and should be read at runtime:
-
-- `PUBLIC_SUPABASE_URL` - Supabase project URL
-- `SUPABASE_SERVICE_KEY` - Service role key for database operations
-
-**Read credentials from `.env` file using:**
-
-```bash
-# Source .env to load environment variables, then use them in curl
-source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.Person-Name&select=*" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
-```
-
-**All database operations using these credentials are pre-approved.**
-
-## Summary of Workflow Improvements:
-
-1. **Pre-approved operations** - No user approval needed for database, web search, or file operations
-2. **Direct database updates** - Execute immediately when user says "push it up"
-3. **TodoWrite tracking** - Always use to give user visibility into progress
-4. **Parallel research** - Run multiple WebSearches concurrently for efficiency
-5. **Clean workflow** - Minimize intermediate files, clean up after submission
-6. **Python + JSON + Curl method for database updates** - The proven approach:
-   - Use Python to create JSON payload (handles all escaping via `json.dump()`)
-   - Save to `/tmp/blog_update.json`
-   - Use `curl -d @/tmp/blog_update.json` to submit
-   - Update all fields in single PATCH request (content, title, meta_title, description, lastmod)
-   - Works reliably with 15,000+ character blog posts
-7. **Credentials security** - Read from `.env` file, never hardcode in commands
-8. **Strategic internal linking** - Automatically add 2-5 internal links per blog:
-   - Celebrity cross-links to `/personality-analysis/[Person-Name]`
-   - Enneagram type links to `/enneagram-corner/enneagram-type-X`
-   - Relevant topical blog links
-   - External research citations when applicable
-   - HTML anchor tags inside HTML blocks, markdown links elsewhere
-9. **Holistic content preservation for updates** - When updating existing blogs:
-   - ALWAYS read and analyze existing content FIRST before researching
-   - Create a mental map of what the blog currently covers
-   - Research fills gaps AND adds recent developments (not just recent news)
-   - Integration strategy: Add, Update, Enhance, or Leave unchanged—default to preservation
-   - Never delete or shorten historical sections (upbringing, early career, etc.)
-   - Personality analysis must draw from the person's ENTIRE life arc
-   - Required holistic balance check before finalizing updates
-   - Goal: Someone reading the blog should get a complete picture of who this person is, not just what they've done lately
-
-This workflow ensures comprehensive, high-quality celebrity personality analysis blogs that align with 9takes' content strategy and technical requirements, while providing a smooth, efficient user experience and maintaining the full context of each person's life and personality.
+The opening quote sets the tone for the entire analysis. Choose a quote that:
+- **Reveals personality** — shows how they think/feel, not just what they've achieved
+- **Comes from the person directly** (preferred) or from someone who knows them well
+- **Has emotional texture** — vulnerability, conviction, or humor work best
+- **Connects to the core Enneagram pattern** without naming it
+- **Is specific, not generic** — avoid inspirational poster quotes
 
 ---
 
-## Quick Reference: Database Push Commands
+## Triple-Title System
 
-### For NEW blogs (POST):
+The 9takes celebrity blog system uses THREE title fields. Strategy: "Clickbait to the door, quality inside."
 
-```bash
-# Step 1: Create JSON payload with Python
-python3 << 'EOF'
-import json
+### 1. `title` (Evergreen/Authoritative)
+- Displayed on the actual blog page
+- Professional, accurate, timeless — should remain valuable years from now
+- Example: "Elon Musk: An In-Depth Enneagram Type 5 Analysis"
 
-env_vars = {}
-with open('.env', 'r') as f:
-    for line in f:
-        line = line.strip()
-        if '=' in line and not line.startswith('#'):
-            key, value = line.split('=', 1)
-            env_vars[key] = value.strip('"').strip("'")
+### 2. `meta_title` (Clickbait/SEO)
+- Used for search results, social sharing, and browser tabs
+- Problem-focused, curiosity-inducing, optimized for CTR
+- Example: "Inside Elon Musk's Mind: Why He Can't Stop Taking Risks"
 
-with open('src/blog/people/drafts/PERSON-NAME.md', 'r') as f:
-    full_content = f.read()
+### 3. `persona_title` (Archetype Label)
+- 2-5 words max, displayed on listing pages
+- Format: "[Domain]'s [Type-Allusive Adjective] [Archetype]" or "The [Archetype Reference]"
+- Must subtly allude to their Enneagram type without naming it
+- Should feel like a wrestling name or comic book epithet
+- Example: "Tech's Mad Scientist" (Elon Musk, Type 5)
 
-parts = full_content.split('---', 2)
-content = parts[2].strip() if len(parts) >= 3 else full_content
+**How it works technically:**
+- `PeopleBlogPageHead.svelte` uses: `data?.meta_title || data?.title`
+- The page displays `title` via `ArticleTitle` component
+- `persona_title` is stored in the database and displayed on listing pages via `famousTypes.ts`
 
-payload = {
-    "person": "Person-Name",
-    "title": "Evergreen Title Here",
-    "meta_title": "Clickbait SEO Title Here",
-    "persona_title": "Domain's Type-Allusive Archetype",  # e.g., "Hollywood's Quiet Force"
-    "description": "Meta description under 155 chars",
-    "author": "DJ Wayne",
-    "date": "YYYY-MM-DD",
-    "lastmod": "YYYY-MM-DD",
-    "loc": "https://9takes.com/personality-analysis/Person-Name",
-    "changefreq": "monthly",
-    "priority": "0.6",
-    "published": False,
-    "enneagram": "7",
-    "type": ["creator"],
-    "suggestions": ["Similar-Person-1", "Similar-Person-2", "Similar-Person-3", "Similar-Person-4"],
-    "content": content
-}
+### Meta Title Patterns That Work (Based on GSC Data):
+- "Why [Person] Can't Stop [Behavior]" — Problem framing
+- "Inside [Person]'s Mind: [Insight]" — Curiosity hook
+- "The Real Reason [Person] [Did Thing]" — Revelation angle
+- "[Person]'s Hidden [Trait]: What It Reveals" — Discovery hook
+- "What [Person]'s [Behavior] Says About Their Personality" — Analysis angle
 
-with open('/tmp/blog_new.json', 'w') as f:
-    json.dump(payload, f)
+### Title Examples:
 
-print(f"✓ Payload: {len(content)} chars → /tmp/blog_new.json")
-EOF
+| Person | `title` (Evergreen) | `meta_title` (Clickbait) | `persona_title` |
+|--------|---------------------|--------------------------|-----------------|
+| Taylor Swift | "Taylor Swift: Enneagram Type 3 Analysis" | "Why Taylor Swift Can't Stop Reinventing Herself" | Pop's Heartbreak Alchemist |
+| Elon Musk | "Elon Musk: An In-Depth Type 5w6 Analysis" | "Inside Elon Musk's Mind: The Obsessive Pattern Behind His Chaos" | Tech's Mad Scientist |
+| IShowSpeed | "IShowSpeed: Enneagram Type 7 Analysis" | "Why IShowSpeed Acts So Crazy (It's Not What You Think)" | — |
+| Emma Watson | "Emma Watson: Enneagram Type 1 Analysis" | "Emma Watson's Hidden Perfectionism: The Pattern Behind Her Choices" | Hogwarts' Real-World Prefect |
 
-# Step 2: POST to database
-source .env && curl -s -X POST "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
-  -H "Content-Type: application/json" \
-  -H "Prefer: return=representation" \
-  -d @/tmp/blog_new.json
+### Persona Title Vocabulary by Type:
 
-# Step 3: Cleanup
-rm -f /tmp/blog_new.json
+| Type | Core Essence | Adjectives | Archetypes |
+|------|-------------|------------|------------|
+| **1** | Perfectionist/Reformer | Principled, Uncompromising, Earnest, Moral | Crusader, Perfectionist, Reformer, Visionary, Conscience |
+| **2** | Helper/Giver | Devoted, Approachable, Tender, Nurturing | Helper, Servant, Caretaker, Ambassador, Confessor |
+| **3** | Achiever/Performer | Self-Made, Polished, Relentless, Calculated | Achiever, Architect, Reinventor, Machine, Star |
+| **4** | Individualist/Romantic | Melancholic, Reclusive, Tortured, Haunted | Artist, Poet, Rebel, Enigma, Outsider |
+| **5** | Investigator/Observer | Methodical, Intense, Cold, Silent | Architect, Strategist, Observer, Recluse, Mind |
+| **6** | Loyalist/Skeptic | Loyal, Anxious, Trusted, Skeptical, Steady | Guardian, Watchdog, Skeptic, Patriarch, Anchor |
+| **7** | Enthusiast/Adventurer | Restless, Manic, Boundless, Chaotic | Pioneer, Showman, Adventurer, Spark, Optimist |
+| **8** | Challenger/Protector | Fierce, Unapologetic, Uncompromising, Alpha | Titan, Force, Brawler, Warrior, Disruptor |
+| **9** | Peacemaker/Mediator | Gentle, Quiet, Easygoing, Laid-Back, Steady | Philosopher, Bridge-Builder, Anchor, Giant, Presence |
+
+---
+
+## Internal Linking Rules
+
+Add 2-5 strategic internal links per blog. Perform this automatically after drafting, before presenting options to the user.
+
+### Link Types (priority order):
+1. **Celebrity Cross-Links** — If another celebrity is mentioned and we have a published blog, link to `/personality-analysis/[Person-Name]`
+2. **Enneagram Type Links** — Link mentions of other types to `/enneagram-corner/enneagram-type-X` (don't link the subject's own type)
+3. **Topical Blog Links** — Link to relevant published posts in `/src/blog/enneagram/`
+4. **External Research Citations** — Descriptive anchor text, not "click here"
+
+### Finding Valid Link Targets:
+- **Celebrity blogs**: Read `src/lib/components/molecules/famousTypes.ts`. Entries with `link: true` are published and linkable at `/personality-analysis/[name]`. Do NOT use Supabase API calls for this — the file is the source of truth.
+- **Topical blogs**: Search `/src/blog/enneagram/` for files with `published: true` in frontmatter. Link as `/enneagram-corner/[slug]`.
+
+### Linking Rules:
+1. Only 2-5 links total — be strategic
+2. Natural placement — links should fit naturally in the text
+3. First mention only — only link the first occurrence
+4. Avoid linking in headings
+5. Context matters — only link substantive mentions, not passing ones
+
+### HTML vs. Markdown Links (CRITICAL):
+- **Inside HTML tags** (`<p>`, `<div>`, `<details>`, `<li>`, etc.): Use `<a href="/path">text</a>`
+- **In plain markdown**: Use `[text](/path)`
+
+Example:
+```html
+<!-- Inside HTML block -->
+<p class="firstLetter">Her attention to detail rivals that of <a href="/personality-analysis/Beyonce">Beyonce</a>.</p>
 ```
+```markdown
+<!-- In markdown -->
+When under stress, Type 3s can exhibit behaviors similar to unhealthy [Type 9](/enneagram-corner/enneagram-type-9) patterns...
+```
+
+### Common Topical Link Targets:
+- Stress patterns → `/enneagram-corner/enneagram-types-in-stress`
+- Communication styles → `/enneagram-corner/enneagram-communication-styles`
+- Relationships → `/enneagram-corner/enneagram-relationship-guide`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide`
+- Strengths/weaknesses → `/enneagram-corner/enneagram-strengths-and-weaknesses`
+
+After adding links, report what was added:
+```
+Internal links added (X total):
+- [Person Name] → /personality-analysis/Person-Name
+- [Type X] → /enneagram-corner/enneagram-type-X
+```
+
+---
+
+## Valid Field Values Reference
+
+### `type` Field (category for the person):
+
+| Value | Use For |
+|-------|---------|
+| `celebrity` | General celebrities, reality TV |
+| `musician` | Musicians, singers, bands |
+| `movieStar` | Established film actors |
+| `newMovieStar` | Younger/rising film actors |
+| `comedian` | Stand-up comics, comedy creators |
+| `creator` | YouTubers, podcasters, content creators |
+| `techie` | Tech industry leaders |
+| `politician` | Politicians, government leaders |
+| `entrepreneur` | Business founders, moguls |
+| `author` | Writers, journalists |
+| `activist` | Social/political activists |
+| `historical` | Historical figures |
+| `tiktoker` | TikTok-primary creators |
+| `influencer` | Social media influencers |
+| `lifestyleInfluencer` | Lifestyle/fashion influencers |
+| `other` | Doesn't fit other categories |
+
+Multiple values allowed: `type: ['musician', 'creator']`
+
+### `suggestions` Field:
+
+4 related people who readers might also be interested in. Choose based on:
+- **Same domain** (other musicians, other tech leaders)
+- **Same Enneagram type** (interesting comparison)
+- **Connected relationship** (collaborators, rivals, couples)
+- **Similar public perception** (comparable fame level)
+
+Must use `First-Last` format matching the `person` field: `suggestions: ['Taylor-Swift', 'Beyonce', 'Ariana-Grande', 'Doja-Cat']`
+
+### `published` Field:
+
+Always set to `false` when creating or updating. Publishing is done manually via the admin UI after review.
+
+---
+
+## Database Push Method (Python + JSON + Curl)
+
+Use this method for all database operations. Python's `json.dump()` handles all escaping automatically, and `curl -d @file.json` avoids shell escaping issues.
 
 ### For EXISTING blogs (PATCH):
 
-```bash
-# Step 1: Create JSON payload with Python
+**Step 1: Create JSON payload**
+```python
 python3 << 'EOF'
 import json
 
@@ -1077,7 +452,7 @@ with open('.env', 'r') as f:
             key, value = line.split('=', 1)
             env_vars[key] = value.strip('"').strip("'")
 
-with open('src/blog/people/drafts/PERSON-NAME.md', 'r') as f:
+with open('src/blog/people/drafts/[Person-Name].md', 'r') as f:
     full_content = f.read()
 
 parts = full_content.split('---', 2)
@@ -1086,44 +461,494 @@ content = parts[2].strip() if len(parts) >= 3 else full_content
 payload = {
     "content": content,
     "lastmod": "YYYY-MM-DD",
-    "title": "Updated Evergreen Title",
-    "meta_title": "Updated Clickbait Title",
-    "persona_title": "Domain's Type-Allusive Archetype",  # e.g., "Hollywood's Quiet Force"
-    "description": "Updated description",
-    "suggestions": ["Similar-Person-1", "Similar-Person-2", "Similar-Person-3", "Similar-Person-4"]  # Optional - include if updating
+    "title": "The Evergreen Page Title",
+    "meta_title": "The Clickbait SEO Title",
+    "persona_title": "Domain's Type-Allusive Archetype",
+    "description": "Meta description under 155 chars",
+    "suggestions": ["Person-1", "Person-2", "Person-3", "Person-4"]
 }
 
 with open('/tmp/blog_update.json', 'w') as f:
     json.dump(payload, f)
 
-print(f"✓ Payload: {len(content)} chars → /tmp/blog_update.json")
+print(f"Payload prepared: {len(content)} characters")
 EOF
+```
 
-# Step 2: PATCH to database
-source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.Person-Name" \
+**Step 2: PATCH**
+```bash
+source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]" \
   -H "apikey: ${SUPABASE_SERVICE_KEY}" \
   -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
   -H "Content-Type: application/json" \
   -H "Prefer: return=minimal" \
   -d @/tmp/blog_update.json
+```
 
-# Step 3: Verify & Cleanup
-source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.Person-Name&select=id,person,lastmod,published" \
+**Step 3: Verify and clean up**
+```bash
+source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=id,person,title,meta_title,lastmod,published" \
   -H "apikey: ${SUPABASE_SERVICE_KEY}" \
   -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
-
 rm -f /tmp/blog_update.json
 ```
 
-### Required Permissions (in .claude/settings.local.json):
+### For NEW blogs (POST):
 
-```json
-"Bash(python3:*)",
-"Bash(curl:*)",
-"Bash(source:*)",
-"Bash(rm:*)",
-"Write(/tmp/**)",
-"Read(//tmp/**)"
+**Step 1: Create JSON payload**
+```python
+python3 << 'EOF'
+import json
+
+env_vars = {}
+with open('.env', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if '=' in line and not line.startswith('#'):
+            key, value = line.split('=', 1)
+            env_vars[key] = value.strip('"').strip("'")
+
+with open('src/blog/people/drafts/[Person-Name].md', 'r') as f:
+    full_content = f.read()
+
+parts = full_content.split('---', 2)
+content = parts[2].strip() if len(parts) >= 3 else full_content
+
+payload = {
+    "person": "First-Last",
+    "title": "Evergreen Title",
+    "meta_title": "Clickbait SEO Title",
+    "persona_title": "Domain's Type-Allusive Archetype",
+    "description": "Meta description",
+    "author": "DJ Wayne",
+    "date": "YYYY-MM-DD",
+    "lastmod": "YYYY-MM-DD",
+    "loc": "https://9takes.com/personality-analysis/First-Last",
+    "changefreq": "monthly",
+    "priority": "0.6",
+    "published": False,
+    "enneagram": "9",
+    "type": ["creator"],
+    "suggestions": ["Person-1", "Person-2", "Person-3", "Person-4"],
+    "content": content
+}
+
+with open('/tmp/blog_new.json', 'w') as f:
+    json.dump(payload, f)
+
+print(f"Payload prepared: {len(content)} characters")
+EOF
 ```
 
-All these are pre-approved - no user confirmation needed.
+**Step 2: POST**
+```bash
+source .env && curl -s -X POST "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
+  -H "Content-Type: application/json" \
+  -H "Prefer: return=representation" \
+  -d @/tmp/blog_new.json
+```
+
+**Step 3: Verify and clean up**
+```bash
+rm -f /tmp/blog_new.json
+```
+
+### After successful push, confirm:
+```
+Successfully pushed to database!
+
+| Field | Value |
+|-------|-------|
+| **Person** | [Person-Name] |
+| **Last Modified** | [date] |
+| **Published** | false (ready for review) |
+| **Content** | [X] characters |
+```
+
+### Error handling:
+- **Empty response from PATCH** = Success (with `Prefer: return=minimal`)
+- **If content appears truncated**: Check JSON file was created correctly
+- **Always clean up**: `rm -f /tmp/blog_update.json` after submission
+
+### Environment Variables
+
+Read from `.env` file at runtime:
+- `PUBLIC_SUPABASE_URL` — Supabase project URL
+- `SUPABASE_SERVICE_KEY` — Service role key for database operations
+
+---
+
+# Part 2: Workflows
+
+---
+
+## Initial Setup
+
+When this command is invoked:
+
+### Step 1: Check for Stale Blogs
+
+Read `src/lib/components/molecules/famousTypes.ts` and identify **published blogs** (where `link: true`) that haven't been updated recently. Sort by `lastmod` date (oldest first) and show the top 5-10 candidates.
+
+**Stale blog criteria:**
+- `link: true` (published)
+- `lastmod` older than 6 months from today's date
+- Prioritize well-known celebrities who likely have recent news
+
+### Step 2: Ask for Input
+
+After showing the stale blogs:
+
+```
+I'm ready to create or update celebrity personality analysis content.
+
+Would you like to:
+1. Update one of the stale blogs listed above (just enter their name)
+2. Create a new blog (enter any person's name)
+3. Update a different existing blog (enter their name)
+
+Enter the person's name:
+```
+
+Then wait for the user's input.
+
+---
+
+## Workflow: New Blog Creation
+
+### Step 1: Database Check
+
+Check `blogs_famous_people` for existing content using the person's name in "First-Last" format:
+
+```bash
+source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.First-Last&select=*" \
+  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
+  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
+```
+
+If person exists, switch to the **Update Workflow** below.
+
+### Step 2: Research (Prep-Prompt-1)
+
+Use WebSearch to gather comprehensive information. Follow `/docs/blogs-famous-people/prep-prompt-1.md` for the research framework.
+
+**Research focus areas:**
+- 5 strong positive contributions/accomplishments
+- 5 lesser-known facts about the person
+- Personal stressors and challenges
+- Things they're proud of
+- Topics they enjoy discussing
+- Internal thought patterns
+- Notable habits and behaviors
+
+**DEPTH RESEARCH (see "What Makes a Great Analysis" in Part 1):**
+
+Beyond the standard research, actively hunt for:
+- **The core tension** — What's the central contradiction in this person? What doesn't add up about them? What do they preach vs. what they struggle with? (This should be identified by the end of Step 2 or 3.)
+- **3-5 small, specific moments** — Not headline accomplishments, but tiny details that reveal who someone really is. A comment overheard, a habit no one notices, a gift that didn't land, a throwaway line in a podcast that reveals everything.
+- **The public/private gap** — What surprises people who meet them in person? What do close friends say about them that contradicts their public image?
+- **Childhood wounds → adult patterns** — What early experience shaped the behavior the world sees now? Look for the thread from childhood to present.
+
+**PRIMARY SOURCE PRIORITY — Podcasts, Books, and YouTube:**
+
+The strongest material for personality analysis comes from long-form, unscripted moments. Prioritize:
+
+1. **Podcast appearances** — Search for "[Person] podcast interview" and "[Person] long form interview." Major shows (Joe Rogan, Lex Fridman, Diary of a CEO, Tim Ferriss, etc.) plus niche podcasts in their field.
+2. **Books they've written** — Memoirs, essays, any written works. Direct window into thinking patterns.
+3. **YouTube interviews** — Search for "[Person] interview YouTube," "[Person] talks about [childhood/struggles/motivation]." Long-form (30+ min) is most valuable.
+4. **Direct quotes** — Pull specific quotes and attribute clearly (e.g., "In a 2023 appearance on [Podcast], [Person] said: '...'").
+
+During research, compile a list of the most promising YouTube videos and podcast episodes for deeper transcript analysis.
+
+**Output**: Comprehensive research summary with source URLs, including a preliminary identification of the **core tension** and **best small moments** found so far.
+
+### Step 3: Enneagram Analysis (Prep-Prompt-2)
+
+Based on Step 2 research, determine the person's likely Enneagram type first. Then use that type as the input for the prep-prompt-2 analysis framework at `/docs/blogs-famous-people/prep-prompt-2.md`.
+
+**If research is ambiguous about the type**, present the top 2-3 candidates with evidence to the user and wait for a decision before proceeding.
+
+Analyze across dimensions:
+- **Thoughts**: How they process information and make decisions
+- **Feelings**: Emotional patterns and responses
+- **Actions**: Behavioral patterns and habits
+- Examine stress (disintegration) and comfort (integration) states
+
+**Core Tension Synthesis (REQUIRED):**
+
+By the end of Step 3, you should be able to articulate:
+
+1. **The core tension** in one phrase: "[X] vs. [Y]" — the central contradiction that makes this person psychologically interesting
+2. **The psychological question** their life is answering: "What happens when someone [does X] but [also does Y]?" or "How do you [need A] when you also [need B]?"
+3. **3-5 small moments** from the research that crack this tension open — tiny details, not headline accomplishments
+
+Present these to the user alongside the Enneagram analysis. These will drive the blog's narrative arc.
+
+**Output**: Detailed Enneagram personality analysis + core tension + psychological question + key small moments.
+
+### Step 4: YouTube Transcript Recommendations
+
+Present a list of recommended YouTube videos/podcasts for transcript gathering:
+
+```
+Recommended YouTube Videos / Podcasts for Transcript Analysis:
+
+| # | Title | Why It's Valuable | URL |
+|---|-------|-------------------|-----|
+| 1 | "[Person] on Joe Rogan Experience" | Discusses childhood and what drives them | [URL] |
+| 2 | "[Person] - Oxford Union Talk" | Unscripted Q&A reveals core values | [URL] |
+| 3 | "[Person] on Diary of a CEO" | Opens up about failures and insecurities | [URL] |
+
+Grab transcripts from 2-4 of these and share them with me.
+```
+
+**If the user has already provided transcripts** (e.g., files in `youtube-transcripts/`), read and analyze those before writing.
+
+**Wait for user input.** The user may:
+1. Provide transcripts to analyze first (preferred)
+2. Say to proceed without transcripts
+
+### Step 5: Write the Blog
+
+Use `/docs/blogs-famous-people/writing-prompt-1.md` as a starting framework, not a rigid template.
+
+**CRITICAL: Follow the Enneagram Analysis Tone & Approach and Page Template Context rules from Part 1.**
+
+**THE GOAL IS A QUALITY PROFILE, NOT A FORMULAIC POST.** Every person has a different story. The blog structure should be tailored to what makes *this specific person* interesting, not forced into the same cookie-cutter layout every time. The research from Steps 2-4 should drive the structure — lead with what's most compelling about this person, not with a generic section order.
+
+**Required elements** (every blog must cover these, but the ORDER, EMPHASIS, and SECTION NAMES should vary based on who the person is):
+
+- Opening quote and engaging intro (see Opening Quote Guidance in Part 1)
+- Their Enneagram typing with evidence (must include H2: "What is [Person]'s personality type?" and H3: "[Person] is an Enneagram Type X" for SEO)
+- Upbringing and formative experiences
+- Personality quirks, habits, and mindset
+- Major accomplishments
+- Challenges, controversies, or traumas
+- Legacy and current work
+- Conclusion with engaging question
+
+**How to tailor the structure:**
+
+- **Lead with what defines them.** If someone's defining feature is overcoming trauma, open with that — don't bury it in a generic "controversies" section at the end. If someone's personality quirks are what made them famous, lead with those.
+- **Name sections after the person, not the category.** Instead of "Major Accomplishments," write "How [Person] Built [Thing]" or "The [Specific Achievement] That Changed Everything." Instead of "Personality Quirks," write "[Person]'s Obsession With [Specific Thing]." Make headings that could only belong to this person's blog.
+- **Combine or split sections based on the story.** If their upbringing and rise to fame are deeply intertwined, tell them together. If they have 3 distinct career chapters, give each its own section. If their controversies reveal the most about their personality, give that section more weight than accomplishments.
+- **Let the research dictate the narrative arc.** After completing Steps 2-4, you should have a clear sense of what the most interesting "through line" is for this person. Build the blog around that through line, not around a generic template.
+
+**The test:** If you swapped out the person's name and the sections still made sense for any celebrity, the structure is too generic. Restructure until the blog could only be about this person.
+
+**The intro's job:**
+The first 3-5 paragraphs must accomplish three things: (1) hook with a specific, vivid detail or quote, (2) name or strongly imply the core tension, and (3) create a psychological question the reader needs answered. By the end of the intro, the reader should feel "I need to understand this person." Compare: Chappell Roan's intro names the tension (fortress vs. vulnerability) and ends with "That tension... is what makes Chappell Roan one of the most psychologically interesting artists of her generation." The reader has a question now. Avoid intros that ask rhetorical questions and immediately answer them — that kills the tension.
+
+**The conclusion's job:**
+Don't summarize. Turn the mirror on the reader. The best conclusions restate the core tension without resolving it, then ask a question that makes the reader think about their own life. "What would it look like to set real boundaries while staying open?" "What would YOUR version of extreme ownership look like?" The reader should leave thinking about themselves, not just about the celebrity.
+
+### Step 6: Generate Metadata
+
+Generate frontmatter following the Triple-Title System (see Part 1):
+
+```yaml
+---
+title: '[Person Name]: [Evergreen Enneagram Analysis Title]'
+meta_title: '[Clickbait/Problem-Focused Title for SEO]'
+persona_title: '[Domain]s [Type-Allusive Descriptor]'
+description: '[SEO-optimized meta description under 155 chars]'
+author: 'DJ Wayne'
+date: '[YYYY-MM-DD]'
+loc: 'https://9takes.com/personality-analysis/[Person-Name]'
+lastmod: '[YYYY-MM-DD]'
+changefreq: 'monthly'
+priority: '0.6'
+published: false
+enneagram: '[1-9]'
+type: ['category']
+person: '[First-Last]'
+suggestions: ['Person-1', 'Person-2', 'Person-3', 'Person-4']
+wikipedia: '[URL if available]'
+twitter: '[handle if available]'
+instagram: '[handle if available]'
+tiktok: '[handle if available]'
+---
+```
+
+See **Valid Field Values Reference** in Part 1 for `type` and `suggestions` guidance.
+
+### Step 7: Save Draft and Add Links
+
+Save draft to `/src/blog/people/drafts/[Person-Name].md`.
+
+Then add internal links following the **Internal Linking Rules** in Part 1.
+
+Present to user:
+```
+Draft created successfully!
+
+Location: /src/blog/people/drafts/[Person-Name].md
+Preview: Visit /admin/drafts/[Person-Name] to review
+
+Internal links added (X total):
+- [links list]
+
+Options:
+1. Make specific edits (tell me what to change)
+2. Regenerate specific sections
+3. Approve and submit to database
+4. Continue editing later
+```
+
+### Step 8: Review and Refinement
+
+Allow iterative editing based on user feedback. Continue iterating until user says "submit" or "push it up."
+
+### Step 9: Database Submission
+
+When the user approves (says "push it up," "submit," etc.), execute the **Database Push Method** from Part 1 immediately.
+
+### Step 10: Regenerate famousTypes.ts
+
+After successful database push, run the generation script to update the published celebrities list:
+
+```bash
+node scripts/generate-famous-types.js
+```
+
+This auto-generates `src/lib/components/molecules/famousTypes.ts` from the database, updating the listing pages with the new entry's `persona_title`, `lastmod`, and publication status.
+
+### Step 11: Image Handling
+
+The blog system uses images at `static/types/[X]s/[Person-Name].webp` (full) and `static/types/[X]s/s-[Person-Name].webp` (small), where `[X]` is the Enneagram type number.
+
+After database submission, ask the user:
+```
+The blog needs an image. Images go in:
+- static/types/[X]s/[Person-Name].webp (full size)
+- static/types/[X]s/s-[Person-Name].webp (small/thumbnail)
+
+Do you have an image to add, or should we skip this for now?
+```
+
+---
+
+## Workflow: Update Existing Blog
+
+### Step 1: Display current metadata
+
+Show title, enneagram type, published status, last modified. Offer options:
+```
+Found existing blog for [Person Name]. Choose an option:
+1. Update with fresh web research
+2. Manual content editing
+3. Update specific sections
+4. Review current content
+5. Cancel
+```
+
+### Fresh Web Research Update (Option 1)
+
+**CRITICAL PRINCIPLE: Updates must enhance, not narrow.** Maintain the complete picture — formative experiences, core personality patterns, full career arc, relationships, and growth. Recent events integrate into the existing narrative, not replace it.
+
+1. **Read and analyze existing content first:**
+   - Read the current blog from database or draft file
+   - Create a mental map of what the blog currently covers (upbringing, personality traits, career milestones, relationships, controversies, growth patterns)
+   - Identify the blog's thesis and any gaps
+
+2. **Perform comprehensive WebSearch:**
+   - **Recent developments** (past 6-12 months): news, interviews, releases, life events
+   - **Podcasts and YouTube** (HIGH PRIORITY): recent appearances, long-form interviews. Compile 3-5 recommendations for transcript analysis and present to user
+   - **Fill existing gaps**: missing childhood context, underexplored relationships, undocumented career phases
+   - **Direct quotes**: Pull specific quotes from their own words, attribute clearly
+
+3. **Analyze through Enneagram lens:**
+   - How do recent developments reflect core type patterns?
+   - Signs of growth, integration, or stress across their life arc?
+   - Consistency check: does new info align with established portrait?
+   - Tone check: ensure analysis follows the tone guidelines in Part 1
+
+4. **Integration strategy (NOT replacement):**
+   For each piece of new information, determine:
+   - **Add**: Fills gaps or adds depth
+   - **Update**: Needs factual corrections or current context
+   - **Enhance**: Strengthens with additional examples
+   - **Leave unchanged**: Already strong
+
+   **Default to preservation.** Only modify what genuinely needs updating.
+
+5. **Update the draft file** at `/src/blog/people/drafts/[Person-Name].md`:
+   - Historical sections (upbringing, early career): only update with new information — never delete or shorten
+   - Personality sections: add new examples, don't replace existing insights
+   - Accomplishments: add recent ones, maintain order
+   - TL;DR: only update if developments genuinely change the core summary
+   - Update `lastmod` date
+
+6. **Holistic balance check (REQUIRED):**
+   - [ ] Blog covers entire life arc, not just recent events
+   - [ ] Formative experiences and upbringing remain well-documented
+   - [ ] Core personality patterns draw from multiple life phases
+   - [ ] Historical accomplishments aren't overshadowed by recent ones
+   - [ ] Blog would still be valuable if read 5 years from now
+   - [ ] No quote or anecdote appears more than once
+   - [ ] TL;DR teases rather than spoils
+   - [ ] Explicit Enneagram framing in at most 3-4 sections
+   - [ ] At least 2-3 sections read as compelling narrative without type labeling
+   - [ ] Core tension is still identifiable and threaded through the piece
+   - [ ] At least 3 small, specific moments that reveal big patterns
+   - [ ] Conclusion turns the mirror on the reader
+
+   **If any check fails, revise before proceeding.**
+
+7. **Update internal links** per the Internal Linking Rules in Part 1.
+
+8. **When user says "push it up":** Execute database submission immediately, then run `node scripts/generate-famous-types.js`.
+
+### Manual Content Editing (Option 2)
+- Display current content in manageable sections
+- Allow targeted edits to specific sections
+- Preserve markdown formatting and SEO structure
+
+### Specific Section Updates (Option 3)
+- List available sections (upbringing, accomplishments, controversies, etc.)
+- Allow user to select sections for targeted updates
+- Research and regenerate only selected sections
+
+---
+
+## Quality Checklist (Final Review)
+
+Before finalizing any blog (new or updated):
+
+### Depth & Uniqueness
+- [ ] **Core tension identified?** Can you state the person's central contradiction in one phrase ("[X] vs. [Y]")? Is it threaded through the intro, body, and conclusion?
+- [ ] **At least 3 small, specific moments** that reveal big patterns? (Not just headline accomplishments — tiny details that crack open who they are.)
+- [ ] **At least 1 "aha moment"** where the Enneagram makes something click that wouldn't click otherwise?
+- [ ] **Public/private gap explored?** Does the blog show who this person is when the performance stops?
+- [ ] **Childhood → adult thread?** Is there a visible line from formative experiences to present behavior?
+- [ ] **Intro names the tension and creates a question?** Does the reader know what psychological question the blog is answering within the first 5 paragraphs?
+- [ ] **Conclusion turns the mirror?** Does the ending make the reader think about *themselves*, not just the celebrity?
+- [ ] **The swap test:** If you replaced this person's name with another celebrity's, would the blog still make sense? If yes, it's too generic.
+
+### Tone & Structure
+- [ ] Would this analysis be valuable 5 years from now?
+- [ ] Does it cover their entire life arc?
+- [ ] Are psychological insights backed by specific behavioral examples?
+- [ ] Would a new reader get a complete picture of who this person is?
+- [ ] Is every major quote/anecdote used only once?
+- [ ] Does the TL;DR tease patterns without spoiling the best stories?
+- [ ] Do at least half the sections work as pure narrative without explicit Enneagram labeling?
+- [ ] Would a reader who doesn't care about the Enneagram still find this a compelling profile?
+
+### Technical
+- [ ] Are there 2-5 internal links, properly formatted (HTML in HTML blocks, markdown elsewhere)?
+- [ ] Does the frontmatter have all three titles, valid `type`, and 4 `suggestions`?
+
+---
+
+## File References
+
+- Prep prompts: `/docs/blogs-famous-people/prep-prompt-*.md`
+- Writing template: `/docs/blogs-famous-people/writing-prompt-1.md`
+- Database schema: `/docs/blogs-famous-people/mcp-blogs-famous-people.md`
+- Published celebrities: `/src/lib/components/molecules/famousTypes.ts`
+- Brand voice guide: `/docs/brand/brand-style-guide-v2.md`
+- Celebrity optimization: `/docs/content-generation/celebrity-page-optimization-instructions.md`
+- Documentation index: `/docs/INDEX.md`

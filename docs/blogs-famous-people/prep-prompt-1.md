@@ -67,11 +67,12 @@ Provide **5 things** most people probably don't know about **{PERSON}**:
 
 ### Sources to Prioritize
 
-1. **Recent interviews** (last 2-3 years)
-2. **Biographical content** and documentaries
-3. **Social media** activity and posts
-4. **Collaborator testimonials** from people who've worked with them
-5. **Long-form podcast appearances**
+1. **Podcast appearances** — Long-form, unscripted conversations reveal authentic personality (Joe Rogan, Lex Fridman, Diary of a CEO, Tim Ferriss, etc.)
+2. **Books they've written** — Memoirs, essays, any written works are a direct window into thinking patterns
+3. **YouTube interviews and appearances** — Long-form (30+ min) content where they speak candidly
+4. **Biographical content** and documentaries
+5. **Collaborator testimonials** from people who've worked with them
+6. **Social media** activity and posts
 
 ### Research Quality Standards
 

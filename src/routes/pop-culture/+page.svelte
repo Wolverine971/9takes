@@ -9,6 +9,20 @@
 	function formatBlogSlug(title: string) {
 		return title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
 	}
+
+	function getRecencyLabel(lastmod: string): string | null {
+		const days = Math.floor((Date.now() - new Date(lastmod).getTime()) / 86400000);
+		if (days <= 3) return 'New';
+		if (days <= 7) return 'This week';
+		if (days <= 30) return 'This month';
+		return null;
+	}
+
+	const excludedSlugs = new Set([
+		...data.featured.map((p) => p.slug),
+		...data.recentlyUpdated.map((p) => p.slug)
+	]);
+	const remainingBlogs = data.popCultureBlogs.filter((b) => !excludedSlugs.has(b.slug));
 </script>
 
 <svelte:head>
@@ -72,22 +86,21 @@
 
 	<main class="main-content">
 		<!-- Featured Section -->
-		{#if data.popCultureBlogs.some((blog) => blog.slug.includes('dark-triad'))}
+		{#if data.featured.length > 0}
 			<section class="content-section" id="featured">
 				<div class="section-header">
 					<div class="section-title-group">
 						<span class="section-icon">🔥</span>
 						<div>
-							<h2>Featured</h2>
-							<p class="section-subtitle">The dark side of personality</p>
+							<h2>Latest</h2>
+							<p class="section-subtitle">Most recently updated analysis</p>
 						</div>
 					</div>
 				</div>
 
 				<div class="featured-grid">
-					{#each data.popCultureBlogs
-						.filter((blog) => blog.slug.includes('dark-triad'))
-						.slice(0, 1) as blog}
+					{#each data.featured as blog}
+						{@const label = getRecencyLabel(blog.lastmod || blog.date)}
 						<a href="/pop-culture/{blog.slug}" class="featured-card">
 							{#if blog.pic}
 								<div
@@ -97,7 +110,9 @@
 							{/if}
 							<div class="featured-overlay"></div>
 							<div class="featured-content">
-								<span class="featured-badge">Deep Dive</span>
+								<span class="featured-badge" class:new={label === 'New'}>
+									{label || 'Latest'}
+								</span>
 								<h3>{blog.title}</h3>
 								<p>{blog.description}</p>
 								<span class="read-more">
@@ -115,50 +130,91 @@
 			</section>
 		{/if}
 
-		<!-- All Blog Posts -->
-		<section class="content-section" id="all-posts">
-			<div class="section-header">
-				<div class="section-title-group">
-					<span class="section-icon">📚</span>
-					<div>
-						<h2>All Analyses</h2>
-						<p class="section-subtitle">Deep dives into pop culture psychology</p>
+		<!-- Recently Updated -->
+		{#if data.recentlyUpdated.length > 0}
+			<section class="content-section" id="recent">
+				<div class="section-header">
+					<div class="section-title-group">
+						<span class="section-icon">⚡</span>
+						<div>
+							<h2>Recently Updated</h2>
+							<p class="section-subtitle">Fresh analyses and new content</p>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="blog-grid">
-				{#each data.popCultureBlogs as blog}
-					<a
-						href="/pop-culture/{blog.slug}"
-						class="blog-card"
-						class:has-image={blog.pic}
-						data-tag={`h-blog-${formatBlogSlug(blog.title)}`}
-					>
-						{#if blog.pic}
-							<div
-								class="card-image"
-								style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
-							></div>
-						{/if}
-						<div class="card-overlay"></div>
-						<div class="card-content">
-							<h3>{blog.title}</h3>
-							{#if blog.description}
-								<p>{blog.description}</p>
+				<div class="recent-grid">
+					{#each data.recentlyUpdated as blog}
+						{@const label = getRecencyLabel(blog.lastmod || blog.date)}
+						<a href="/pop-culture/{blog.slug}" class="recent-card" class:has-image={blog.pic}>
+							{#if blog.pic}
+								<div
+									class="card-image"
+									style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
+								></div>
 							{/if}
-							<time datetime={blog.date}>
-								{new Date(blog.date).toLocaleDateString('en-US', {
-									month: 'short',
-									day: 'numeric',
-									year: 'numeric'
-								})}
-							</time>
+							<div class="card-overlay"></div>
+							<div class="card-content">
+								{#if label}
+									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
+								{/if}
+								<h3>{blog.title}</h3>
+								{#if blog.description}
+									<p>{blog.description}</p>
+								{/if}
+							</div>
+						</a>
+					{/each}
+				</div>
+			</section>
+		{/if}
+
+		<!-- All Blog Posts -->
+		{#if remainingBlogs.length > 0}
+			<section class="content-section" id="all-posts">
+				<div class="section-header">
+					<div class="section-title-group">
+						<span class="section-icon">📚</span>
+						<div>
+							<h2>All Analyses</h2>
+							<p class="section-subtitle">Deep dives into pop culture psychology</p>
 						</div>
-					</a>
-				{/each}
-			</div>
-		</section>
+					</div>
+				</div>
+
+				<div class="blog-grid">
+					{#each remainingBlogs as blog}
+						<a
+							href="/pop-culture/{blog.slug}"
+							class="blog-card"
+							class:has-image={blog.pic}
+							data-tag={`h-blog-${formatBlogSlug(blog.title)}`}
+						>
+							{#if blog.pic}
+								<div
+									class="card-image"
+									style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
+								></div>
+							{/if}
+							<div class="card-overlay"></div>
+							<div class="card-content">
+								<h3>{blog.title}</h3>
+								{#if blog.description}
+									<p>{blog.description}</p>
+								{/if}
+								<time datetime={blog.date}>
+									{new Date(blog.date).toLocaleDateString('en-US', {
+										month: 'short',
+										day: 'numeric',
+										year: 'numeric'
+									})}
+								</time>
+							</div>
+						</a>
+					{/each}
+				</div>
+			</section>
+		{/if}
 
 		<!-- CTA Section -->
 		<section class="cta-section">
@@ -378,6 +434,31 @@
 		margin-bottom: 1rem;
 		width: fit-content;
 		color: #a78bfa;
+
+		&.new {
+			background: rgba(124, 58, 237, 0.3);
+			color: #c4b5fd;
+			box-shadow: 0 0 8px rgba(124, 58, 237, 0.2);
+		}
+	}
+
+	.recency-badge {
+		display: inline-block;
+		padding: 0.2rem 0.5rem;
+		font-size: 0.6875rem;
+		font-weight: 600;
+		border-radius: 1rem;
+		background: rgba(124, 58, 237, 0.2);
+		color: #a78bfa;
+		border: 1px solid rgba(124, 58, 237, 0.3);
+		margin-bottom: 0.375rem;
+		width: fit-content;
+
+		&.new {
+			background: rgba(124, 58, 237, 0.3);
+			color: #c4b5fd;
+			box-shadow: 0 0 8px rgba(124, 58, 237, 0.2);
+		}
 	}
 
 	.read-more {
@@ -390,6 +471,71 @@
 
 		&:hover {
 			color: #c4b5fd;
+		}
+	}
+
+	/* Recent Grid */
+	.recent-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1rem;
+	}
+
+	.recent-card {
+		position: relative;
+		aspect-ratio: 3 / 2;
+		border-radius: 0.75rem;
+		overflow: hidden;
+		background: #16161e;
+		text-decoration: none;
+		transition: all 0.25s ease;
+		border: 1px solid rgba(124, 58, 237, 0.15);
+
+		&::before {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(135deg, rgba(124, 58, 237, 0.05) 0%, transparent 50%);
+			opacity: 0;
+			transition: opacity 0.25s ease;
+			z-index: 1;
+		}
+
+		&:hover {
+			transform: translateY(-3px);
+			border-color: rgba(124, 58, 237, 0.35);
+			box-shadow:
+				0 8px 24px rgba(0, 0, 0, 0.3),
+				0 0 0 1px rgba(124, 58, 237, 0.1);
+
+			&::before {
+				opacity: 1;
+			}
+
+			.card-image {
+				transform: scale(1.05);
+			}
+
+			.card-content h3 {
+				color: #a78bfa;
+			}
+		}
+
+		&.has-image {
+			.card-overlay {
+				background: linear-gradient(
+					to top,
+					rgba(10, 10, 15, 0.95) 0%,
+					rgba(10, 10, 15, 0.6) 40%,
+					rgba(10, 10, 15, 0.3) 100%
+				);
+			}
+		}
+
+		.card-content h3 {
+			font-size: 1rem;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
 		}
 	}
 
@@ -603,6 +749,7 @@
 
 	/* Responsive */
 	@media (max-width: 900px) {
+		.recent-grid,
 		.blog-grid {
 			grid-template-columns: repeat(2, 1fr);
 		}
@@ -658,6 +805,24 @@
 
 			p {
 				font-size: 0.875rem;
+			}
+		}
+
+		.recent-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 0.625rem;
+		}
+
+		.recent-card {
+			aspect-ratio: 4 / 3;
+			border-radius: 0.5rem;
+
+			.card-content h3 {
+				font-size: 0.8125rem;
+			}
+
+			.card-content p {
+				display: none;
 			}
 		}
 

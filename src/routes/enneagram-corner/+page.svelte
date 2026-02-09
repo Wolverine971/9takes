@@ -6,7 +6,15 @@
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
+
+	function getRecencyLabel(lastmod: string): string | null {
+		const days = Math.floor((Date.now() - new Date(lastmod).getTime()) / 86400000);
+		if (days <= 3) return 'New';
+		if (days <= 7) return 'This week';
+		if (days <= 30) return 'This month';
+		return null;
+	}
 
 	// FAQ data for SEO and user engagement
 	const enneagramFAQs: FAQItem[] = [
@@ -297,8 +305,91 @@
 	</nav>
 
 	<main class="main-content">
+		<!-- Featured Section -->
+		{#if data.featured.length > 0}
+			<section class="featured-section">
+				<div class="section-header">
+					<div class="section-title-group">
+						<span class="section-icon">🔥</span>
+						<div>
+							<h2>Featured</h2>
+							<p class="section-subtitle">Most recently updated</p>
+						</div>
+					</div>
+				</div>
+				<div class="featured-grid">
+					{#each data.featured as post (post.slug)}
+						{@const label = getRecencyLabel(post.lastmod || post.date)}
+						<a
+							href="/enneagram-corner/{post.slug}"
+							class="featured-card"
+							class:has-image={post.pic}
+						>
+							{#if post.pic}
+								<div
+									class="card-image"
+									style={`background-image: url(/blogs/${post.pic}.webp);`}
+								></div>
+							{/if}
+							<div class="card-overlay"></div>
+							<div class="card-content">
+								<div class="featured-badge">Featured</div>
+
+								{#if label}
+									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
+								{/if}
+								<h3>{post.title}</h3>
+								{#if post.description}
+									<p>{post.description}</p>
+								{/if}
+							</div>
+						</a>
+					{/each}
+				</div>
+			</section>
+		{/if}
+
+		<!-- Recently Updated Section -->
+		{#if data.recentlyUpdated.length > 0}
+			<section class="recent-section">
+				<div class="section-header">
+					<div class="section-title-group">
+						<span class="section-icon">⚡</span>
+						<div>
+							<h2>Recently Updated</h2>
+							<p class="section-subtitle">Fresh insights and revisions</p>
+						</div>
+					</div>
+				</div>
+				<div class="recent-grid">
+					{#each data.recentlyUpdated as post (post.slug)}
+						{@const label = getRecencyLabel(post.lastmod || post.date)}
+
+						<a href="/enneagram-corner/{post.slug}" class="recent-card" class:has-image={post.pic}>
+							{#if post.pic}
+								<div
+									class="card-image"
+									style={`background-image: url(/blogs/s-${post.pic}.webp);`}
+								></div>
+							{/if}
+							<div class="card-overlay"></div>
+							<div class="card-content">
+								{#if label}
+									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
+								{/if}
+								<h3>{post.title}</h3>
+								{#if post.description}
+									<p>{post.description}</p>
+								{/if}
+							</div>
+						</a>
+					{/each}
+				</div>
+			</section>
+		{/if}
+
 		<!-- Blog Sections -->
-		{#each blogSections as section, sectionIndex}
+		{#each blogSections as section}
 			<section class="content-section" id={section.id}>
 				<div class="section-header">
 					<div class="section-title-group">
@@ -690,6 +781,188 @@
 		}
 	}
 
+	/* Featured Section */
+	.featured-section {
+		margin-bottom: 3rem;
+	}
+
+	.featured-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1.25rem;
+	}
+
+	.featured-card {
+		position: relative;
+		min-height: 280px;
+		border-radius: 0.75rem;
+		overflow: hidden;
+		background: #16161e;
+		text-decoration: none;
+		transition: all 0.25s ease;
+		border: 1px solid rgba(124, 58, 237, 0.25);
+
+		&::before {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, transparent 50%);
+			opacity: 0;
+			transition: opacity 0.25s ease;
+			z-index: 1;
+		}
+
+		&:hover {
+			transform: translateY(-4px);
+			border-color: rgba(124, 58, 237, 0.5);
+			box-shadow:
+				0 12px 32px rgba(0, 0, 0, 0.4),
+				0 0 0 1px rgba(124, 58, 237, 0.15);
+
+			&::before {
+				opacity: 1;
+			}
+
+			.card-image {
+				transform: scale(1.05);
+			}
+
+			.card-content h3 {
+				color: #a78bfa;
+			}
+		}
+
+		&.has-image .card-overlay {
+			background: linear-gradient(
+				to top,
+				rgba(10, 10, 15, 0.95) 0%,
+				rgba(10, 10, 15, 0.5) 50%,
+				rgba(10, 10, 15, 0.2) 100%
+			);
+		}
+
+		.card-content {
+			padding: 1.5rem;
+
+			h3 {
+				font-size: 1.375rem;
+				-webkit-line-clamp: 3;
+				line-clamp: 3;
+			}
+
+			p {
+				font-size: 0.875rem;
+				margin-top: 0.5rem;
+				-webkit-line-clamp: 2;
+				line-clamp: 2;
+			}
+		}
+	}
+
+	.featured-badge {
+		display: inline-block;
+		padding: 0.25rem 0.625rem;
+		background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+		color: white;
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		border-radius: 0.25rem;
+		margin-bottom: 0.75rem;
+	}
+
+	/* Recently Updated Section */
+	.recent-section {
+		margin-bottom: 3rem;
+	}
+
+	.recent-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+
+	.recent-card {
+		position: relative;
+		aspect-ratio: 3 / 2;
+		border-radius: 0.75rem;
+		overflow: hidden;
+		background: #16161e;
+		text-decoration: none;
+		transition: all 0.25s ease;
+		border: 1px solid rgba(100, 116, 139, 0.2);
+
+		&::before {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(135deg, rgba(124, 58, 237, 0.05) 0%, transparent 50%);
+			opacity: 0;
+			transition: opacity 0.25s ease;
+			z-index: 1;
+		}
+
+		&:hover {
+			transform: translateY(-3px);
+			border-color: rgba(124, 58, 237, 0.3);
+			box-shadow:
+				0 8px 24px rgba(0, 0, 0, 0.3),
+				0 0 0 1px rgba(124, 58, 237, 0.1);
+
+			&::before {
+				opacity: 1;
+			}
+
+			.card-image {
+				transform: scale(1.05);
+			}
+
+			.card-content h3 {
+				color: #a78bfa;
+			}
+		}
+
+		&.has-image .card-overlay {
+			background: linear-gradient(
+				to top,
+				rgba(10, 10, 15, 0.95) 0%,
+				rgba(10, 10, 15, 0.6) 40%,
+				rgba(10, 10, 15, 0.3) 100%
+			);
+		}
+
+		.card-content {
+			h3 {
+				font-size: 0.9375rem;
+			}
+
+			p {
+				font-size: 0.75rem;
+				-webkit-line-clamp: 2;
+				line-clamp: 2;
+			}
+		}
+	}
+
+	.recency-badge {
+		display: inline-block;
+		padding: 0.125rem 0.5rem;
+		background: rgba(100, 116, 139, 0.2);
+		color: #94a3b8;
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		border-radius: 0.25rem;
+		margin-bottom: 0.5rem;
+
+		&.new {
+			background: rgba(124, 58, 237, 0.2);
+			color: #a78bfa;
+		}
+	}
+
 	/* CTA Section - Refined */
 	.cta-section {
 		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
@@ -783,6 +1056,14 @@
 
 	/* Responsive */
 	@media (max-width: 900px) {
+		.featured-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.recent-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
 		.blog-grid {
 			grid-template-columns: repeat(2, 1fr);
 		}
@@ -793,6 +1074,40 @@
 	}
 
 	@media (max-width: 640px) {
+		.featured-card {
+			min-height: 220px;
+
+			.card-content {
+				padding: 1.25rem;
+
+				h3 {
+					font-size: 1.125rem;
+				}
+			}
+		}
+
+		.recent-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 0.625rem;
+		}
+
+		.recent-card {
+			border-radius: 0.5rem;
+
+			.card-content h3 {
+				font-size: 0.8125rem;
+			}
+
+			.card-content p {
+				display: none;
+			}
+		}
+
+		.featured-section,
+		.recent-section {
+			margin-bottom: 2rem;
+		}
+
 		.hero {
 			padding: 1.5rem 1rem 1rem;
 		}

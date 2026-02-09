@@ -8,7 +8,7 @@ export const ROUTE_MAP: Record<string, string> = {
 	community: '/community',
 	guides: '/how-to-guides',
 	'pop-culture': '/pop-culture',
-	topical: '/blog/topical',
+	topical: '/enneagram-corner',
 	'life-situations': '/enneagram-corner',
 	generational: '/enneagram-corner',
 	historical: '/enneagram-corner',

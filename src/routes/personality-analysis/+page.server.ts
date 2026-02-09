@@ -37,7 +37,14 @@ export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogP
 		uniqueObjects.push(...objectsWithType.slice(0, 5));
 	});
 
-	return { people: uniqueObjects };
+	const sortedByLastmod = [...posts].sort(
+		(a, b) => new Date(b.lastmod || b.date).getTime() - new Date(a.lastmod || a.date).getTime()
+	);
+	const featured = sortedByLastmod.slice(0, 2);
+	const featuredSlugs = new Set(featured.map((p) => p.slug));
+	const recentlyUpdated = sortedByLastmod.filter((p) => !featuredSlugs.has(p.slug)).slice(0, 4);
+
+	return { people: uniqueObjects, featured, recentlyUpdated };
 };
 
 export const actions: Actions = {

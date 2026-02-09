@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/jocko-transcript-analysis.md -->
+<!-- youtube-transcipts/jocko-willink-consolidated-analysis.md -->
 
 # Jocko Willink — YouTube Transcript Analysis (Consolidated)
 
@@ -8,12 +8,12 @@ Analyzed 4 transcripts for personality insights to support the Enneagram Type 8 
 
 ## Summary of Sources
 
-| File                    | Video Title                                                                | Length     | Key Value                                               |
-| ----------------------- | -------------------------------------------------------------------------- | ---------- | ------------------------------------------------------- |
-| jocko-as-a-father.md    | Ep 461: A Reflection On Growing Up With Jocko as A Father. w/ Rana Willink | ~3 hours   | Family life, parenting mistakes, daughter's perspective |
-| jocko-choose-to-live.md | Ep 500: We Choose To Live (Live in Chicago)                                | ~1.5 hours | War grief, emotional vulnerability, life philosophy     |
-| jocko-worst.md          | THE WORST CONVERSATION I'VE EVER HAD IN MY LIFE                            | ~15 min    | Interpersonal dynamics, protectiveness, humor           |
-| jocko-and-others.md     | How I Like To Treat Other People (Underground #118)                        | ~15 min    | Social dynamics, sensitivity to manipulation, respect   |
+| File                                          | Video Title                                                                | Length     | Key Value                                               |
+| --------------------------------------------- | -------------------------------------------------------------------------- | ---------- | ------------------------------------------------------- |
+| jocko-willink-podcast-ep461-father.md         | Ep 461: A Reflection On Growing Up With Jocko as A Father. w/ Rana Willink | ~3 hours   | Family life, parenting mistakes, daughter's perspective |
+| jocko-willink-podcast-ep500-choose-to-live.md | Ep 500: We Choose To Live (Live in Chicago)                                | ~1.5 hours | War grief, emotional vulnerability, life philosophy     |
+| jocko-willink-podcast-worst-conversation.md   | THE WORST CONVERSATION I'VE EVER HAD IN MY LIFE                            | ~15 min    | Interpersonal dynamics, protectiveness, humor           |
+| jocko-willink-underground-treating-people.md  | How I Like To Treat Other People (Underground #118)                        | ~15 min    | Social dynamics, sensitivity to manipulation, respect   |
 
 ---
 

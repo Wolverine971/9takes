@@ -5,7 +5,15 @@
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
+
+	function getRecencyLabel(lastmod: string): string | null {
+		const days = Math.floor((Date.now() - new Date(lastmod).getTime()) / 86400000);
+		if (days <= 3) return 'New';
+		if (days <= 7) return 'This week';
+		if (days <= 30) return 'This month';
+		return null;
+	}
 
 	const typeNames: Record<number, { name: string; tagline: string }> = {
 		1: { name: 'The Perfectionist', tagline: 'Principled, purposeful, self-controlled' },
@@ -138,6 +146,97 @@
 	</nav>
 
 	<main class="main-content">
+		<!-- Featured Section -->
+		{#if data.featured.length > 0}
+			<section class="featured-section">
+				<div class="section-header featured-header">
+					<div class="type-badge featured-badge-icon">
+						<span class="type-num">🔥</span>
+					</div>
+					<div class="section-info">
+						<h2>Featured</h2>
+						<p class="type-tagline">Most recently updated analyses</p>
+					</div>
+				</div>
+				<div class="featured-grid">
+					{#each data.featured as person (person.slug)}
+						{@const label = getRecencyLabel(person.lastmod || person.date)}
+						<a
+							href="/personality-analysis/{person.slug}"
+							class="featured-person-card"
+							aria-label="Read analysis of {formatName(person.slug)}"
+						>
+							<div class="featured-person-image">
+								<img
+									src={`/types/${person.enneagram}s/${person.slug}.webp`}
+									alt={formatName(person.slug)}
+									loading="eager"
+									width="400"
+									height="533"
+								/>
+							</div>
+							<div class="featured-person-overlay"></div>
+							<div class="featured-person-info">
+								<span class="featured-label">Featured</span>
+								{#if label}
+									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
+								{/if}
+								<span class="featured-person-name">{formatName(person.slug)}</span>
+								<span class="featured-person-type">
+									Type {person.enneagram}: {typeNames[parseInt(person.enneagram)]?.name || ''}
+								</span>
+							</div>
+						</a>
+					{/each}
+				</div>
+			</section>
+		{/if}
+
+		<!-- Recently Updated Section -->
+		{#if data.recentlyUpdated.length > 0}
+			<section class="recent-section">
+				<div class="section-header recent-header">
+					<div class="type-badge recent-badge-icon">
+						<span class="type-num">⚡</span>
+					</div>
+					<div class="section-info">
+						<h2>Recently Updated</h2>
+						<p class="type-tagline">Fresh insights and revisions</p>
+					</div>
+				</div>
+				<div class="recent-people-grid">
+					{#each data.recentlyUpdated as person (person.slug)}
+						{@const label = getRecencyLabel(person.lastmod || person.date)}
+						<a
+							href="/personality-analysis/{person.slug}"
+							class="recent-person-card"
+							aria-label="Read analysis of {formatName(person.slug)}"
+						>
+							<div class="recent-person-image">
+								<img
+									src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+									alt={formatName(person.slug)}
+									loading="lazy"
+									width="200"
+									height="200"
+								/>
+							</div>
+							<div class="recent-person-overlay"></div>
+							<div class="recent-person-info">
+								{#if label}
+									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
+								{/if}
+								<span class="recent-person-name">{formatName(person.slug)}</span>
+								<span class="recent-person-type">
+									Type {person.enneagram}
+								</span>
+							</div>
+						</a>
+					{/each}
+				</div>
+			</section>
+		{/if}
+
 		<!-- Type Sections -->
 		{#each Array.from({ length: 9 }, (_, i) => i + 1) as typeNum}
 			{@const typePeople = data.people.filter((p) => parseInt(p.enneagram) === typeNum)}
@@ -567,6 +666,233 @@
 		letter-spacing: -0.01em;
 	}
 
+	/* Featured Section */
+	.featured-section {
+		margin-bottom: 3rem;
+	}
+
+	.featured-header,
+	.recent-header {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.featured-badge-icon,
+	.recent-badge-icon {
+		background: linear-gradient(135deg, rgba(124, 58, 237, 0.2) 0%, rgba(109, 40, 217, 0.1) 100%);
+		box-shadow: none;
+
+		.type-num {
+			font-size: 1.25rem;
+			text-shadow: none;
+		}
+	}
+
+	.featured-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1.25rem;
+	}
+
+	.featured-person-card {
+		position: relative;
+		aspect-ratio: 3 / 4;
+		border-radius: 0.75rem;
+		overflow: hidden;
+		background: #16161e;
+		text-decoration: none;
+		transition: all 0.25s ease;
+		border: 1px solid rgba(124, 58, 237, 0.25);
+
+		&:hover {
+			transform: translateY(-4px);
+			border-color: rgba(124, 58, 237, 0.5);
+			box-shadow:
+				0 12px 32px rgba(0, 0, 0, 0.4),
+				0 0 0 1px rgba(124, 58, 237, 0.15);
+
+			.featured-person-image img {
+				transform: scale(1.05);
+			}
+
+			.featured-person-name {
+				color: #a78bfa;
+			}
+		}
+	}
+
+	.featured-person-image {
+		position: absolute;
+		inset: 0;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 0.4s ease;
+		}
+	}
+
+	.featured-person-overlay {
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(
+			to top,
+			rgba(10, 10, 15, 0.95) 0%,
+			rgba(10, 10, 15, 0.4) 50%,
+			rgba(10, 10, 15, 0.1) 100%
+		);
+	}
+
+	.featured-person-info {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 1.5rem;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.featured-label {
+		display: inline-block;
+		width: fit-content;
+		padding: 0.2rem 0.5rem;
+		background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+		color: white;
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		border-radius: 0.25rem;
+		margin-bottom: 0.25rem;
+	}
+
+	.featured-person-name {
+		font-size: 1.375rem;
+		font-weight: 700;
+		color: #f1f5f9;
+		text-transform: capitalize;
+		transition: color 0.2s ease;
+		line-height: 1.3;
+	}
+
+	.featured-person-type {
+		font-size: 0.8125rem;
+		color: #a78bfa;
+		font-weight: 500;
+	}
+
+	.recency-badge {
+		display: inline-block;
+		width: fit-content;
+		padding: 0.125rem 0.5rem;
+		background: rgba(100, 116, 139, 0.2);
+		color: #94a3b8;
+		font-size: 0.625rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		border-radius: 0.25rem;
+
+		&.new {
+			background: rgba(124, 58, 237, 0.2);
+			color: #a78bfa;
+		}
+	}
+
+	/* Recently Updated Section */
+	.recent-section {
+		margin-bottom: 3rem;
+	}
+
+	.recent-people-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+
+	.recent-person-card {
+		position: relative;
+		aspect-ratio: 3 / 4;
+		border-radius: 0.75rem;
+		overflow: hidden;
+		background: #16161e;
+		text-decoration: none;
+		transition: all 0.25s ease;
+		border: 1px solid rgba(100, 116, 139, 0.2);
+
+		&:hover {
+			transform: translateY(-3px);
+			border-color: rgba(124, 58, 237, 0.35);
+			box-shadow:
+				0 8px 24px rgba(0, 0, 0, 0.3),
+				0 0 0 1px rgba(124, 58, 237, 0.1);
+
+			.recent-person-image img {
+				transform: scale(1.05);
+			}
+
+			.recent-person-name {
+				color: #a78bfa;
+			}
+		}
+	}
+
+	.recent-person-image {
+		position: absolute;
+		inset: 0;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 0.4s ease;
+		}
+	}
+
+	.recent-person-overlay {
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(
+			to top,
+			rgba(10, 10, 15, 0.95) 0%,
+			rgba(10, 10, 15, 0.5) 50%,
+			rgba(10, 10, 15, 0.15) 100%
+		);
+	}
+
+	.recent-person-info {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 0.75rem;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		gap: 0.125rem;
+	}
+
+	.recent-person-name {
+		font-size: 0.9375rem;
+		font-weight: 600;
+		color: #e2e8f0;
+		text-transform: capitalize;
+		transition: color 0.2s ease;
+		line-height: 1.3;
+	}
+
+	.recent-person-type {
+		font-size: 0.6875rem;
+		color: #a78bfa;
+		font-weight: 500;
+	}
+
 	/* Signup Section */
 	.signup-section {
 		margin-top: 3rem;
@@ -595,9 +921,21 @@
 		.people-grid {
 			grid-template-columns: repeat(4, 1fr);
 		}
+
+		.recent-people-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
 	}
 
 	@media (max-width: 768px) {
+		.featured-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.featured-person-card {
+			aspect-ratio: 4 / 3;
+		}
+
 		.people-grid {
 			grid-template-columns: repeat(3, 1fr);
 		}
@@ -607,12 +945,48 @@
 			align-items: flex-start;
 		}
 
+		.featured-header,
+		.recent-header {
+			flex-direction: row;
+			align-items: center;
+		}
+
 		.view-all-link {
 			margin-top: 0.25rem;
 		}
 	}
 
 	@media (max-width: 640px) {
+		.featured-section,
+		.recent-section {
+			margin-bottom: 2rem;
+		}
+
+		.featured-person-info {
+			padding: 1rem;
+		}
+
+		.featured-person-name {
+			font-size: 1.125rem;
+		}
+
+		.recent-people-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 0.625rem;
+		}
+
+		.recent-person-card {
+			border-radius: 0.5rem;
+		}
+
+		.recent-person-name {
+			font-size: 0.75rem;
+		}
+
+		.recent-person-info {
+			padding: 0.5rem;
+		}
+
 		.hero {
 			padding: 1.5rem 1rem 1rem;
 		}

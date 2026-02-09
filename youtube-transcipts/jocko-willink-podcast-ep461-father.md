@@ -6,7 +6,7 @@
 **Speakers**: Jocko Willink, Rana Willink (daughter), Echo Charles
 **Format**: ~3 hour conversational podcast — chronological walk through Rana's life
 
-path: youtube-transcipts/jocko-as-a-father.md
+path: youtube-transcipts/jocko-willink-podcast-ep461-father.md
 ---
 
 ## Key Revelations About Jocko

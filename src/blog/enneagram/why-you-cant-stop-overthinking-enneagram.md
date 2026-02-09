@@ -31,7 +31,7 @@ path: src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
   "@graph": [
     {
       "@type": "BlogPosting",
-      "articleBody": "This guide explains why generic overthinking advice fails and how each Enneagram type has a specific thought loop based on their core fear. It covers each type's unique overthinking pattern with concrete examples, physical symptoms to watch for, why overthinking worsens at night, how stress arrows change your pattern, how wings flavor your loops, and specific exercises and journaling prompts to break the cycle.",
+      "articleBody": "This guide explains why generic overthinking advice fails and how each Enneagram type has a specific thought loop based on their core fear. It covers each type's unique overthinking pattern with concrete examples, including how Type 2s' people-pleasing drives compulsive relationship analysis, with clinical insight from Dr. Bob Beare on the distinction between authentic kindness and survival-based people-pleasing. Also covers physical symptoms to watch for, why overthinking worsens at night, how stress arrows change your pattern, how wings flavor your loops, and specific exercises and journaling prompts to break the cycle.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -68,10 +68,32 @@ path: src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
           "https://twitter.com/9takesdotcom"
         ]
       },
-      "keywords": ["overthinking", "enneagram overthinking", "anxiety loops", "rumination", "mental loops", "stop overthinking", "thought patterns", "enneagram anxiety", "nighttime rumination", "stress arrows"],
-      "wordCount": 5800,
+      "keywords": ["overthinking", "enneagram overthinking", "anxiety loops", "rumination", "mental loops", "stop overthinking", "thought patterns", "enneagram anxiety", "nighttime rumination", "stress arrows", "people-pleasing", "codependency"],
+      "wordCount": 6000,
       "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/why-you-cant-stop-overthinking-enneagram"
+      "url": "https://9takes.com/enneagram-corner/why-you-cant-stop-overthinking-enneagram",
+      "citation": {
+        "@type": "Book",
+        "name": "Stop Doing Sh*t You Don't Want to Do: A Straightforward Guide to Letting Go of Unresolved Trauma",
+        "author": {
+          "@type": "Person",
+          "name": "Dr. Bob Beare",
+          "jobTitle": "Licensed Professional Counselor",
+          "description": "Jungian-oriented psychologist with over 25 years of clinical experience specializing in trauma recovery, codependency, and addiction.",
+          "sameAs": [
+            "https://twitter.com/DrBobBeare",
+            "https://www.instagram.com/drbobbeare/",
+            "https://www.linkedin.com/in/bobbeare/",
+            "https://drbobbeare.com"
+          ]
+        },
+        "datePublished": "2023-08-01",
+        "isbn": "979-8857532423",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Independent"
+        }
+      }
     },
     {
       "@type": "FAQPage",
@@ -229,9 +251,13 @@ You analyze every interaction for hidden meanings. Tone, word choice, response t
 
 Connection equals survival for you. Analyzing ensures you don't miss a relationship threat or an opportunity to help. If you stop monitoring, something might slip through.
 
+Dr. Bob Beare, a Jungian-oriented psychologist with over 25 years of clinical experience specializing in trauma recovery and codependency, puts the pattern bluntly. His book _Stop Doing Sh\*t You Don't Want to Do_ is built around this exact cycle: unresolved childhood trauma driving compulsive people-pleasing that masquerades as kindness.
+
 <div style="display: flex; justify-content: center; margin: 1rem 0;">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In my 25+ years as a psychologist, I&#39;ve learned:<br><br>People-pleasing is the compulsive need to prioritize others&#39; comfort over your own needs. <br><br>It&#39;s not kindness—it&#39;s a survival response developed in childhood when your authentic expression was unsafe. <a href="https://t.co/placeholder">pic.twitter.com/placeholder</a></p>&mdash; Dr. Bob Beare (@DrBobBeare) <a href="https://twitter.com/DrBobBeare/status/2017254019396260342?ref_src=twsrc%5Etfw">February 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
+
+That distinction between authentic kindness and people-pleasing is the key. Saying no when you're at your limit is kindness. Saying yes and drowning in resentment later is the survival pattern. Type 2s know this intellectually. The overthinking loop exists because the body hasn't caught up yet.
 
 **Breaking the Loop:**
 

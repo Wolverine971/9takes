@@ -6,7 +6,7 @@
 **Speaker**: Jocko Willink (solo keynote, with Echo Charles in pre-roll)
 **Format**: ~1.5 hour live keynote — milestone Episode 500, deeply personal and reflective
 
-path: youtube-transcipts/jocko-choose-to-live.md
+path: youtube-transcipts/jocko-willink-podcast-ep500-choose-to-live.md
 ---
 
 ## Video Overview

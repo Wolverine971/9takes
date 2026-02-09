@@ -7,50 +7,99 @@
 
 	const sections = [
 		{
-			id: 'community',
-			title: 'Community',
-			subtitle: 'Ideas & inspiration behind 9takes',
-			key: 'community' as const,
-			href: '/community',
-			linkPrefix: '/community'
-		},
-		{
-			id: 'guides',
-			title: 'How-to Guides',
-			subtitle: 'Practical personality guides',
-			key: 'guides' as const,
-			href: '/how-to-guides',
-			linkPrefix: '/how-to-guides'
-		},
-		{
-			id: 'enneagram',
-			title: 'Enneagram Corner',
-			subtitle: 'Deep dives into the 9 types',
-			key: 'enneagram' as const,
-			href: '/enneagram-corner',
-			linkPrefix: '/enneagram-corner'
+			id: 'pop-culture',
+			title: 'Pop Culture',
+			subtitle: 'The psychology behind the headlines',
+			description:
+				'Cultural phenomena, criminal psychology, and social dynamics decoded through personality patterns.',
+			key: 'popCulture' as const,
+			href: '/pop-culture',
+			linkPrefix: '/pop-culture',
+			isPerson: false
 		},
 		{
 			id: 'people',
 			title: 'Personality Analysis',
 			subtitle: 'Famous people through the Enneagram lens',
+			description:
+				'Deep dives into the personality types of celebrities, leaders, and public figures.',
 			key: 'people' as const,
 			href: '/personality-analysis',
-			linkPrefix: '/personality-analysis'
+			linkPrefix: '/personality-analysis',
+			isPerson: true
+		},
+		{
+			id: 'enneagram',
+			title: 'Enneagram Corner',
+			subtitle: 'Deep dives into the 9 types',
+			description:
+				'Core education on the Enneagram system — from basics to advanced type dynamics.',
+			key: 'enneagram' as const,
+			href: '/enneagram-corner',
+			linkPrefix: '/enneagram-corner',
+			isPerson: false
+		},
+		{
+			id: 'guides',
+			title: 'How-to Guides',
+			subtitle: 'Practical personality guides',
+			description:
+				'Actionable frameworks for using personality insights in relationships, work, and daily life.',
+			key: 'guides' as const,
+			href: '/how-to-guides',
+			linkPrefix: '/how-to-guides',
+			isPerson: false
+		},
+		{
+			id: 'community',
+			title: 'Community',
+			subtitle: 'Ideas & inspiration behind 9takes',
+			description: 'The philosophy, stories, and ideas driving the 9takes platform.',
+			key: 'community' as const,
+			href: '/community',
+			linkPrefix: '/community',
+			isPerson: false
 		}
 	];
+
+	const jsonLd = {
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: 'Personality & Enneagram Blog',
+		description:
+			'Explore personality through pop culture psychology, famous people analysis, Enneagram deep dives, and practical guides.',
+		url: 'https://9takes.com/blog',
+		publisher: {
+			'@type': 'Organization',
+			name: '9takes',
+			url: 'https://9takes.com'
+		},
+		mainEntity: {
+			'@type': 'ItemList',
+			itemListElement: sections.map((section, index) => ({
+				'@type': 'ListItem',
+				position: index + 1,
+				name: section.title,
+				url: `https://9takes.com${section.href}`
+			}))
+		}
+	};
 </script>
 
 <SEOHead
-	title="All Blogs | 9takes"
-	description="Explore all 9takes blogs: Enneagram deep dives, personality analyses of famous people, practical guides, and community insights."
+	title="Personality & Enneagram Blog | 9takes"
+	description="Explore personality through pop culture psychology, famous people analysis, Enneagram deep dives, and practical guides. One system, many lenses."
 	canonical="https://9takes.com/blog"
+	{jsonLd}
 />
 
 <div class="page-wrapper">
 	<header class="hero">
-		<h1>All Blogs</h1>
-		<p class="hero-subtitle">Personality insights, Enneagram deep dives, and real-world analysis</p>
+		<h1>One System. Many Lenses.</h1>
+		<p class="hero-subtitle">
+			Decode personality patterns across pop culture, famous figures, and everyday life through the
+			Enneagram.
+		</p>
 	</header>
 
 	<!-- Quick Navigation -->
@@ -71,33 +120,32 @@
 					<div>
 						<h2>{section.title}</h2>
 						<p class="section-subtitle">{section.subtitle}</p>
+						<p class="section-description">{section.description}</p>
 					</div>
 					<a href={section.href} class="view-all-link"> View all &rarr; </a>
 				</div>
 
 				<div class="blog-grid">
 					{#each data[section.key] as blog}
-						{@const isPerson = section.key === 'people'}
+						{@const isPerson = section.isPerson}
+						{@const pic = 'pic' in blog ? blog.pic : null}
 						<a
 							href="{section.linkPrefix}/{blog.slug}"
 							class="blog-card"
-							class:has-image={blog.pic || isPerson}
+							class:has-image={pic || isPerson}
 						>
 							{#if isPerson && blog.enneagram}
 								<div
 									class="card-image"
 									style="background-image: url(/types/{blog.enneagram}s/s-{blog.slug}.webp);"
 								></div>
-							{:else if blog.pic}
-								<div
-									class="card-image"
-									style="background-image: url(/blogs/s-{blog.pic}.webp);"
-								></div>
+							{:else if pic}
+								<div class="card-image" style="background-image: url(/blogs/s-{pic}.webp);"></div>
 							{/if}
 							<div class="card-overlay"></div>
 							<div class="card-content">
 								<h3>
-									{#if isPerson}
+									{#if isPerson && blog.slug}
 										{blog.slug.split('-').join(' ')}
 									{:else}
 										{blog.title}
@@ -157,9 +205,11 @@
 
 	.hero-subtitle {
 		font-size: 1rem;
-		color: #64748b;
-		margin: 0.5rem 0 0;
+		color: #94a3b8;
+		margin: 0.75rem auto 0;
 		position: relative;
+		max-width: 540px;
+		line-height: 1.6;
 	}
 
 	/* Quick Navigation */
@@ -225,7 +275,7 @@
 	.section-header {
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
 		margin-bottom: 1.25rem;
 		padding-bottom: 0.75rem;
 		border-bottom: 1px solid rgba(100, 116, 139, 0.15);
@@ -257,6 +307,14 @@
 		margin: 0.25rem 0 0;
 	}
 
+	.section-description {
+		font-size: 0.8125rem;
+		color: #94a3b8;
+		margin: 0.375rem 0 0;
+		max-width: 600px;
+		line-height: 1.5;
+	}
+
 	.view-all-link {
 		font-size: 0.8125rem;
 		font-weight: 500;
@@ -267,6 +325,7 @@
 		border-radius: 0.375rem;
 		border: 1px solid transparent;
 		white-space: nowrap;
+		margin-top: 0.25rem;
 
 		&:hover {
 			color: #a78bfa;
@@ -437,6 +496,10 @@
 
 		.section-subtitle {
 			font-size: 0.75rem;
+		}
+
+		.section-description {
+			display: none;
 		}
 
 		.view-all-link {

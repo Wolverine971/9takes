@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/jocko-youtube.md -->
+<!-- youtube-transcipts/jocko-willink-youtube-research-index.md -->
 
 # Jocko Willink YouTube Videos — Organized for Blog Research
 
