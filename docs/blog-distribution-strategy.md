@@ -20,10 +20,11 @@
    - [Twitter/X](#twitterx-playbook)
    - [Email Outreach](#email-outreach-playbook)
    - [Forums & Fan Communities](#forums--fan-communities-playbook)
-5. [Content Repurposing System](#content-repurposing-system)
-6. [Launch Sequence Template](#launch-sequence-template)
-7. [Email Outreach Templates](#email-outreach-templates)
-8. [Principles](#principles)
+5. [Instagram Playbook](#instagram-playbook)
+6. [Content Repurposing System](#content-repurposing-system)
+7. [Launch Sequence Template](#launch-sequence-template)
+8. [Email Outreach Templates](#email-outreach-templates)
+9. [Principles](#principles)
 
 ---
 
@@ -360,6 +361,227 @@ These work for ALL personality analysis posts:
 - Facebook groups (search "[Person] fans")
 - Personality Database comment sections
 - Dedicated forums (Popjustice, AR15.com, RallyPoint, etc.)
+
+---
+
+## Instagram Playbook
+
+### Tone: Respectful and Reverent
+
+Every person you analyze has a real story. The tone across all Instagram content should feel like you're honoring their journey, not dissecting them. You're not a gossip page. You're someone who sees people deeply and wants others to see them that way too.
+
+**Voice guidelines:**
+- Speak about them like you admire the complexity of who they are
+- Use phrases like "what drives him," "the weight he carries," "the lens he sees the world through" -- not "here's his type" like a label
+- Never reduce someone to a number. The Enneagram type is a doorway into their story, not a box
+- Acknowledge what you don't know. "This is my read" not "this is who he is"
+- Let the person's own words and actions do the heavy lifting
+
+---
+
+### Carousel Format (2-4 Slides)
+
+**Slide 1 -- The Hook (Image of the Person)**
+- High-quality photo of the person
+- Text overlay: A short, curiosity-driven line that makes people stop scrolling
+- Keep it simple. One line. Let the face do the work.
+
+Examples:
+- "The fire behind Benson Boone's music runs deeper than you think."
+- "Chris Williamson built an empire. Here's what's actually driving him."
+- "John Coogan sees patterns most people miss. Here's why."
+- "Shawn Ryan's calm is earned. Here's what shaped it."
+
+**Slide 2 -- The Insight (Canva-designed)**
+- The core Enneagram insight, framed through a specific moment or pattern in their life
+- Keep text to 40-60 words max per slide
+- Use their own quotes or real moments as evidence
+- Visual: Clean, readable. Brand colors. No clutter.
+
+Example structure:
+> "[Person] consistently [pattern you noticed]."
+>
+> "In the Enneagram, this maps to [type description in human terms -- not jargon]."
+>
+> "It's the same thing that drives [specific behavior people recognize]."
+
+**Slide 3 -- The Depth (Canva-designed, optional)**
+- Go one layer deeper: the tension, the cost, or the growth edge of their type
+- This is where you honor the struggle, not just the strength
+- This slide should make someone pause and think "damn, I never saw it that way"
+
+Example structure:
+> "The same drive that [positive thing about them] is also what makes [vulnerable/hard thing]."
+>
+> "That's not a flaw. That's the deal they made with themselves."
+
+**Slide 4 -- The CTA (Canva-designed)**
+- Drive to the full analysis
+- Keep it warm, not salesy
+
+Examples:
+- "I wrote the full breakdown on 9takes.com. Link in bio."
+- "There's more to the story. Full analysis at the link in bio."
+- "If this shifted how you see [Person], the full piece goes way deeper. Link in bio."
+
+---
+
+### Caption Templates
+
+#### Template A: Story-Led (Best for Benson Boone, Shawn Ryan)
+
+```
+There's a moment in [Person]'s story that most people skip past.
+
+[Describe a specific moment, interview clip, or pattern -- 2-3 sentences max]
+
+When you look at it through the Enneagram, it clicks.
+
+[1-2 sentences connecting the moment to the type pattern -- no jargon, just human language]
+
+This isn't about putting someone in a box. It's about seeing what's
+actually going on underneath.
+
+Full analysis on 9takes.com -- link in bio.
+
+What's your read on [Person]? Drop it below.
+```
+
+#### Template B: Pattern-Led (Best for Chris Williamson, John Coogan)
+
+```
+I've been studying [Person]'s interviews for a while now, and there's
+a pattern most people don't catch.
+
+[Describe the pattern in 2-3 sentences -- what they consistently do,
+say, or gravitate toward]
+
+In the Enneagram, this points to [brief human-language description of
+the type's core motivation -- no numbers in the hook].
+
+It explains a lot -- [1 sentence connecting to something people
+already know about them].
+
+Wrote the full thing up. Link in bio.
+
+Curious what you all think -- does this land?
+```
+
+#### Template C: Question-Led (Works for anyone)
+
+```
+Why does [Person] [specific behavior that fans notice]?
+
+I think I found the answer.
+
+[2-3 sentences laying out your thesis in plain language]
+
+The Enneagram framework maps it out in a way that's hard to unsee
+once you see it.
+
+Full deep dive on 9takes.com (link in bio).
+
+Do you see it too? Let me know.
+```
+
+---
+
+### Hashtag Strategy
+
+**Per post, use 15-20 hashtags. Structure them in tiers:**
+
+**Tier 1 -- Person-specific (3-5):**
+
+| Person | Hashtags |
+|--------|----------|
+| Benson Boone | #BensonBoone #FireworksAndRollerblades #AmericanHeart #BensonBooneMusic |
+| Chris Williamson | #ChrisWilliamson #ModernWisdom #ModernWisdomPodcast #3MinuteMonday |
+| John Coogan | #JohnCoogan #TBPN #TechYouTube #SiliconValley |
+| Shawn Ryan | #ShawnRyan #ShawnRyanShow #VigilanceElite #NavySEAL |
+
+**Tier 2 -- Enneagram/personality (5-7):**
+#Enneagram #EnneagramType[X] #Enneagram[TypeName] #PersonalityType #KnowYourself #SelfAwareness #EnneagramCommunity
+
+**Tier 3 -- Niche discovery (5-8):**
+
+| Person | Niche hashtags |
+|--------|----------------|
+| Benson Boone | #PopMusic #MusicAnalysis #SingerSongwriter #MusicPsychology #NewMusic |
+| Chris Williamson | #SelfImprovement #PodcastLife #PersonalGrowth #Masculinity #MindsetShift |
+| John Coogan | #Startups #FounderLife #TechCulture #Entrepreneurship #StartupMindset |
+| Shawn Ryan | #Veterans #MilitaryLife #SpecialOperations #Leadership #MilitaryPodcast |
+
+---
+
+### Accounts to Tag
+
+**Tag the person directly + 1-2 relevant accounts. Don't over-tag.**
+
+| Person | Tag | Also consider |
+|--------|-----|---------------|
+| Benson Boone | @bensonboone | @switchedonpop |
+| Chris Williamson | @chriswillx | @modernwisdompodcast |
+| John Coogan | @johncoogan | @tbpn |
+| Shawn Ryan | @shawnryan762 | @vigilanceelite |
+
+---
+
+### Posting Cadence & Timing
+
+- **Best times for Instagram carousels:** Tuesday-Thursday, 11 AM - 1 PM EST or 7-9 PM EST
+- **Post the carousel 1-2 days after the blog goes live** (gives you time to seed Twitter first)
+- **Stories the same day:** Share the carousel to your story with a "swipe up" / "link in bio" sticker. Add a poll: "Have you heard of [Person]?" or "Does this resonate?"
+- **Follow-up story 24 hours later:** Share a single insight from the analysis as a text story. "One thing about [Person] that stuck with me..." -- drives people back to the carousel
+
+---
+
+### Reels Option (Bonus)
+
+If you want to go further, create a 30-60 second Reel:
+
+- **Hook (first 2 seconds):** "[Person]'s personality makes so much sense once you see this."
+- **Body (20-40 seconds):** Walk through 1-2 key insights. Use the person's own footage/clips as visual reference if available (fair use: commentary/criticism context).
+- **Close:** "Full breakdown on 9takes. Link in bio."
+- **Audio:** Trending audio or something that fits the person's vibe (Benson Boone's own music for his post, for example)
+
+---
+
+### Engagement Strategy (Pre and Post)
+
+**Before posting:**
+- Spend 15-20 minutes engaging with posts in the person's hashtag. Leave genuine comments on fan posts. This puts your account in front of the right eyes before your carousel drops.
+- Engage with 3-5 Enneagram content creators' posts. Like, comment, share to stories.
+
+**After posting:**
+- Reply to every comment within the first hour (algorithm boost)
+- If someone debates your typing, engage respectfully: "That's a fair point -- here's what led me to this read..."
+- DM fan accounts a brief note: "Hey, I put together a personality analysis of [Person] that I think your followers might find interesting. No pressure, just thought you'd want to see it." Attach the carousel link.
+
+---
+
+### Person-Specific Instagram Notes
+
+**Benson Boone:**
+- His audience skews young. Keep language accessible. Avoid heavy Enneagram jargon.
+- He's polarizing -- some people love him, some find him "too much." Your analysis can bridge that gap: help people see the WHY behind what they react to.
+- Lean into his music. Quote lyrics (sparingly, 1 line max) as evidence for your read.
+- Tone: warm, appreciative. "There's something real happening here."
+
+**Chris Williamson:**
+- His audience is into self-improvement and thinks analytically. You can go deeper on the framework.
+- The tension to name: he's built a massive platform around growth, but what's driving the builder himself?
+- Tone: respectful intellectual curiosity. "Here's what I noticed when I looked closer."
+
+**John Coogan:**
+- Smallest general awareness of the four. Focus on what makes him interesting to people who DON'T already follow him.
+- The hook is the pattern recognition: "This guy sees what others miss." Then flip it: "Here's what drives that."
+- Tone: sharp, observational. Match his documentary energy.
+
+**Shawn Ryan:**
+- His audience is deeply loyal and protective. Do NOT be flippant or reductive.
+- Honor the weight of what he's been through. The analysis should feel like it comes from respect for his service and what he's built since.
+- Lean into the calm-under-pressure angle. The Enneagram explains not just what he does but what it costs.
+- Tone: reverent, steady. "There's a reason people trust this man."
 
 ---
 
