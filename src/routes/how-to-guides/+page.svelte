@@ -142,6 +142,7 @@
 
 				<div class="recent-grid">
 					{#each data.recentlyUpdated as blog}
+						{@const label = getRecencyLabel(blog.lastmod || blog.date)}
 						<a href={`/how-to-guides/${blog.slug}`} class="recent-card" class:has-image={blog.pic}>
 							{#if blog.pic}
 								<div
@@ -151,7 +152,6 @@
 							{/if}
 							<div class="card-overlay"></div>
 							<div class="card-content">
-								{@const label = getRecencyLabel(blog.lastmod || blog.date)}
 								{#if label}
 									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
 								{/if}

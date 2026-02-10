@@ -22,6 +22,13 @@
 		...data.recentlyUpdated.map((p) => p.slug)
 	]);
 
+	const inspirationPosts = data.posts.filter(
+		(b) => b?.type?.[0] === 'inspiration' && !excludedSlugs.has(b.slug)
+	);
+	const ideaPosts = data.posts.filter(
+		(b) => b?.type?.[0] === 'idea' && !excludedSlugs.has(b.slug)
+	);
+
 	// FAQ data for community page
 	const communityFAQs: FAQItem[] = [
 		{
@@ -169,9 +176,6 @@
 		{/if}
 
 		<!-- Inspiration Section -->
-		{@const inspirationPosts = data.posts.filter(
-			(b) => b?.type?.[0] === 'inspiration' && !excludedSlugs.has(b.slug)
-		)}
 		{#if inspirationPosts.length > 0}
 			<section class="content-section">
 				<div class="section-header">
@@ -203,9 +207,6 @@
 		{/if}
 
 		<!-- Ideas Section -->
-		{@const ideaPosts = data.posts.filter(
-			(b) => b?.type?.[0] === 'idea' && !excludedSlugs.has(b.slug)
-		)}
 		{#if ideaPosts.length > 0}
 			<section class="content-section">
 				<div class="section-header">
