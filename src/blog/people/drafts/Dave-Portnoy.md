@@ -1,18 +1,19 @@
 ---
-title: "Dave Portnoy: The Type 8 Personality Behind Barstool's Empire"
-meta_title: "Why Dave Portnoy Can't Stop Fighting (And Why That's His Superpower)"
-description: "From pizza reviews to billion-dollar deals, discover how Dave Portnoy's Enneagram Type 8 personality drives his empire, feuds, and fierce loyalty."
+title: "Dave Portnoy: The Enneagram Type 8 Behind Barstool's Empire"
+meta_title: "Inside Dave Portnoy's Mind: The Man Who Can't Stop Fighting for Control"
+persona_title: "Media's Unapologetic Brawler"
+description: "Explore how Dave Portnoy's Enneagram Type 8 personality drives his empire, feuds, fierce loyalty, and the contradictions that define him."
 author: 'DJ Wayne'
 date: '2023-08-21'
 loc: 'https://9takes.com/personality-analysis/Dave-Portnoy'
-lastmod: '2025-12-09'
+lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: 8
 type: ['creator']
 person: 'Dave-Portnoy'
-suggestions: ['Joe-Rogan', 'Alex-Cooper', 'Logan-Paul', 'Jake-Paul', 'Mr-Beast']
+suggestions: ['Joe-Rogan', 'Alex-Cooper', 'Logan-Paul', 'Jake-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Dave_Portnoy'
 twitter: 'stoolpresidente'
 instagram: 'stoolpresidente'
@@ -20,21 +21,23 @@ tiktok: ''
 path: src/blog/people/drafts/Dave-Portnoy.md
 ---
 
-<p class="firstLetter">You've seen him eat pizza on a street corner. You've watched him lose $250,000 on a single bet and demand a coach's head. You've witnessed him buy back his own company for one dollar.</p>
+> "The thing about me is when I see something and I get an opinion and it bubbles up, if I don't get it out, I just combust."
 
-But have you ever wondered what makes Dave Portnoy tick? What psychological engine drives a man who fights antisemitism one day, raises millions for dog rescues the next, and feuds with ESPN executives in between?
+<p class="firstLetter">Dave Portnoy keeps champagne bottles in his office labeled with the names of his enemies. When one of them falls, he pops the cork on camera, grins, and moves on to the next war.</p>
 
-Today, we're peeling back the layers of "El Presidente" to understand his Enneagram personality type: Type 8, the Challenger. And once you see it, you'll never watch a pizza review the same way again.
+That same man once called a third-generation clothing store owner in Jasper, Indiana, to tell him help was coming. The old man's father had just died. Dave's voice cracked. He kept calling. He called hundreds of struggling business owners during COVID, personally, on camera, and raised over $39 million he didn't have to raise.
+
+Champagne bottles for enemies. A breaking voice for strangers. Most people see the first Dave and miss the second one entirely.
+
+So what happens when a man who has built his entire identity on needing no one is defined by loyalty to the people who were there from the beginning?
 
 <details>
 <summary class="accordion">TL;DR: Why Dave Portnoy is an Enneagram Type 8</summary>
 <div class="panel">
 <ul>
-<li><b>The Challenger Entrepreneur:</b> From selling Barstool for $450 million to buying it back for $1, Portnoy's decisive, high-stakes business moves are textbook Type 8. He values control and fears being controlled by others.</li>
-<li><b>Protector of the Vulnerable:</b> His $1 million+ raised for dog rescues through Miss Peaches and $41 million for small businesses through the Barstool Fund reveal the Type 8's hidden heart, using power to defend the innocent.</li>
-<li><b>Fighter Against Injustice:</b> When antisemitic incidents target him or his community, Portnoy doesn't hide. He holds emergency press conferences, tracks down perpetrators, and turns offense into education. Classic Type 8 response to threats.</li>
-<li><b>Unapologetic Disruptor:</b> Whether on Fox's Big Noon Kickoff or Twitter, Portnoy challenges every institution he touches. Type 8s don't just join systems: they shake them.</li>
-<li><b>Core Motivation:</b> Everything traces back to autonomy and control. "I'd rather be dead than employed by someone else" isn't just a quote. It's his operating system.</li>
+<li><b>The paradox:</b> A man who projects total self-sufficiency but keeps his ex-wife on all his bank accounts, can't stop calling strangers to tell them he'll save their businesses, and admits his breakups are "probably a me issue."</li>
+<li><b>The pattern:</b> Every major move, the $1 buyback, the champagne ritual, the emergency press conferences, traces back to one question: who's in control?</li>
+<li><b>The surprise:</b> What he does when no one's watching contradicts almost everything you think you know about him.</li>
 </ul>
 </div>
 </details>
@@ -43,240 +46,268 @@ Today, we're peeling back the layers of "El Presidente" to understand his Enneag
 
 ### Dave Portnoy is an Enneagram Type 8
 
-The Enneagram [Type 8](/enneagram-corner/enneagram-type-8) is described as self-confident, decisive, and willful. They're natural leaders unafraid to stand alone, driven by a core fear of being controlled or harmed by others. They protect their inner circle fiercely while challenging any authority that threatens their autonomy.
+Enneagram [Type 8s](/enneagram-corner/enneagram-type-8) are driven by a core need for autonomy and a deep fear of being controlled or vulnerable. They're decisive, confrontational, and protective of the people they love, often to a degree that surprises anyone who only sees the armor.
 
-Sound familiar? That's Dave Portnoy in a nutshell.
+Plenty of public figures are aggressive. What makes Portnoy a fascinating case is the invulnerability he broadcasts versus the devotion he can't quite hide. That tension explains almost everything, from the business moves to the feuds to the quietly loyal private life that doesn't match the public persona.
 
-But to truly understand how this personality crystallized, we need to go back to where it all started.
+## A $20 Bill and a Horse Named Sunday Silence
 
-## Dave Portnoy's Upbringing: The Making of El Presidente
+David Scott Portnoy was born on March 22, 1977, in Salem, Massachusetts, and raised in nearby Swampscott, a middle-class suburb north of Boston. His father Michael was a lawyer, his mother Linda a math teacher at Swampscott High School.
 
-David Scott Portnoy was born on March 22, 1977, in Salem, Massachusetts, and raised in nearby Swampscott, a middle-class suburb north of Boston.
+When Dave was ten, Michael took him to Rockingham Park, a horse-racing track in New Hampshire. The following year, his dad won a Kentucky Derby bet on a horse named Sunday Silence. He cashed the ticket, stuffed the bills in a drawer at home, and told Dave and his sister they could each pick one.
 
-### A Foundation of Independence
+Dave grabbed a twenty. "Huge cash for a 12-year-old."
 
-His parents, Michael, a lawyer, and Linda, a math teacher at Swampscott High School, raised Dave in a Jewish household that encouraged him to pursue his own interests. This early autonomy would prove formative. Type 8s often develop their fierce independence in childhood, either by being given freedom or by fighting for it.
+A tiny detail, but it's the seed of everything. The thrill of risk. The bonding with his father over a bet. The moment where being alive meant having skin in the game. Decades later, Dave would place a $50,000 wager on the Patriots to win the Super Bowl at 35-to-1 odds. He'd day-trade on livestream and lose $2 million in front of an audience. He'd build a gambling newspaper, sell it for $450 million, and buy it back for a dollar. The emotional engine was always the same: the drawer, the bills, the gamble.
 
-Dave wasn't the most academic student, he's said so himself, but he had a natural gift for humor and an entrepreneurial instinct that teachers couldn't grade. More importantly, he had competitive fire.
+At Swampscott High, he played baseball and won the league batting triple crown as a junior. For a man who would later brand himself "El Presidente," Dave was elected _vice president_ of his high school class.
 
-### Early Signs of the Challenger
+He went to the University of Michigan, couldn't pass the undergraduate Spanish requirement despite multiple attempts, and bounced between schools until he graduated in 1999 with a degree he never intended to use. The pattern was already there: he didn't adapt to systems. He routed around them.
 
-At Swampscott High School, Portnoy played baseball and won the league batting triple crown as a junior. That's not just talent. That's the relentless drive to dominate that defines Type 8s.
+## Handing Out Newspapers at the T-Stop
 
-Here's an ironic detail: for a man who would later brand himself "El Presidente," Dave was elected _vice president_ of his high school class. Perhaps he was learning to play within systems before he'd eventually blow them up entirely.
+After Michigan, Dave moved to Boston and took an IT sales job he found soul-crushing. In 2003, he started Barstool Sports, a print gambling newspaper he distributed by hand around the city.
 
-One of his childhood friends was ESPN's Todd McShay, born in the same hospital on the same day. Two boys from Swampscott, destined to become major figures in sports media through completely different paths.
+He stood at subway stops handing out copies. People thought he was homeless.
 
-### The Father-Son Dynamic
+What set Barstool apart wasn't polished journalism. It was voice. Raw, irreverent, and completely unwilling to sand itself down for mainstream approval. Portnoy wrote like he talked, and he talked like the funniest, most ruthless person in the room.
 
-Dave's relationship with his father Michael reveals the softer side of Type 8s. Michael Portnoy now has nearly 80,000 followers on X, where he lists himself as "El Pres' dad" and co-hosts a radio show on Sirius. He's made countless media appearances alongside his son.
+"If I could have squeezed out 60 grand a year, waking up happy, working for myself, that would have been a win," he told [NPR in 2025](https://www.youtube.com/watch?v=Seh1vt3c-hM). No grand vision. No plan to build an empire. Just a man who needed to wake up and not answer to anyone.
 
-This isn't just family loyalty. It's a Type 8 pattern. Despite their tough exteriors, 8s are fiercely protective of family and often maintain deep bonds with parents who supported their independence.
+The cost of that freedom was physical. "I didn't take a vacation day for 10 years," he told the [All-In podcast](https://www.youtube.com/watch?v=37Tz3TpELxc). "Literally I had a hump in my neck because I was like at my computer all day." He wasn't romanticizing the grind. He was describing the price of having no fallback, no safety net, no one else signing the checks.
 
-## Rise to Fame: From Newspaper to Media Empire
-
-After graduating from the University of Michigan, Portnoy moved to Boston and worked in IT sales, a job he found soul-crushing. In 2003, he took a leap that would define his life.
-
-### The Birth of Barstool Sports
-
-Barstool Sports started as a print publication, a gambling newspaper distributed around Boston. Portnoy would hand out copies himself, hustling on street corners to build an audience.
-
-What set Barstool apart wasn't polished journalism. It was voice. Raw, irreverent, unapologetic. Portnoy wrote like he talked, and he talked like a guy at a bar who happened to be funnier and more ruthless than everyone else.
-
-The transition from print to digital, then to video, then to podcasts, each pivot showed Portnoy's adaptability. But through every evolution, one thing remained constant: Dave's refusal to sanitize himself for mainstream approval.
+Print to digital, then video, then podcasts. Each pivot showed adaptability. One thing never changed: the refusal to ask permission.
 
 **"If you want to hate us, go ahead, but we're not going to change who we are."**
 
-That's not just a tagline. It's a Type 8 manifesto.
+## The Gatekeepers
 
-### The $450 Million Gamble
+Before Dave Portnoy feuded with Business Insider, he was at war with every gatekeeper in sports media. The pattern was always the same: an institution tries to limit or dismiss him, he escalates on every available front, and he doesn't stop until someone blinks.
 
-In January 2020, Portnoy made headlines by selling a majority stake in Barstool Sports to Penn National Gaming for a reported $450 million. Many founders would have cashed out and disappeared.
+In 2017, ESPN approached Barstool about building a TV show around _Part of My Take_, the number one sports podcast in the country. The show, _Barstool Van Talk_, was a year in the making. It aired one episode.
+
+The next day, ESPN host Sam Ponder resurfaced comments Dave had made about her three years earlier. A few women at ESPN revolted. The show was canceled by press release, without anyone telling Barstool directly. ESPN's CEO later offered what Dave still calls "the dumbest quote in the history of mankind": he didn't realize _Barstool Van Talk_ would be associated with Barstool Sports.
+
+"I always say, know what you're getting in bed with," Dave told [Tucker Carlson](https://www.youtube.com/watch?v=wiDWudjAIBs). "I stand by my moral fiber. But people are going to say stuff about us. Know it's coming before you get involved."
+
+That cancellation reinforced a mentality already forming inside Barstool: us versus the world.
+
+The NFL fights showed the same instinct. When the league suspended Tom Brady during Deflategate, Dave and three employees handcuffed themselves together outside NFL headquarters, demanding to speak to Commissioner Roger Goodell. He spent a night in jail. He was later dragged from a Super Bowl in handcuffs, with legitimate tickets, because Barstool was banned from every NFL event. After the Patriots won anyway, he went to the victory party. NFL security tried to kick him out. The Kraft family intervened and let him stay.
+
+He once bid $250,000 at a charity auction to watch a game with Goodell. Goodell rejected the bid and returned the money.
+
+"If he just shook my hand, it'd be done," Dave said. He meant it. The feud persists because Goodell won't acknowledge it, and Dave can't stop until someone either fights back or concedes.
+
+## The $450 Million Gamble
+
+In January 2020, Portnoy sold a majority stake in Barstool to Penn National Gaming for a reported $450 million. Many founders would have cashed out and disappeared.
 
 Not Dave.
 
-He stayed on, running operations, doing pizza reviews, building the brand. When Penn's partnership with ESPN failed spectacularly, losing hundreds of millions and eventually writing off $850 million on the Barstool acquisition, Portnoy saw his opening.
+He stayed on, running operations, doing pizza reviews, building the brand. But the Penn era chafed. "We underestimated just how tough it is for myself and Barstool to operate in a regulated world," he told Variety. "Every time we did something, it was one step forward, two steps back."
+
+When Penn's partnership with ESPN collapsed, losing hundreds of millions and eventually writing off $850 million on the Barstool acquisition, Portnoy saw his opening.
 
 In August 2023, he bought Barstool back for $1.
 
-One. Dollar.
+One dollar.
 
-The deal included non-compete clauses in gambling and a 50% cut if Barstool ever sold again. But symbolically? It was a power move that would make any Type 8 proud. He reclaimed what was his on his own terms.
+"For the first time in forever, we don't have to watch what we say, how we talk, what we do. It's back to the pirate ship. By the way, I'm never going to sell Barstool Sports. Ever."
 
-When the ESPN-Penn partnership officially ended in November 2025, Portnoy called it "a good day for Penn," noting that "the tea leaves were there" and the partnership "just didn't work at all." Classic Type 8: tracking outcomes, remembering who doubted him, enjoying vindication without gloating excessively.
+The deal included non-compete clauses in gambling and a 50% cut if Barstool ever sold again. But what mattered to Dave wasn't the terms. It was the feeling. He had his thing back. No one could tell him what to do with it.
 
-## Personality Quirks and Habits: Inside Dave's Mind
+## One Bite, Everyone Knows the Rules
 
-### The Pizza Reviews: More Than Meets the Eye
+The single thing most casual people know about Dave Portnoy, more than Barstool, more than the feuds, is the pizza reviews.
 
-With a net worth well over $100 million, Portnoy could delegate pizza reviews to anyone. Instead, he does them almost daily. Why?
+It started simply: Dave standing on a New York sidewalk, holding a slice, giving it a score out of ten. "One bite, everyone knows the rules." No production crew. No lighting rig. Just a guy and a slice.
 
-Because Type 8s lead from the front. They don't ask employees to do what they won't do themselves. Every pizza review keeps Dave connected to his audience, his brand, and his identity as a man of the people.
+He's reviewed over 1,000 pizzerias. He still does them at a net worth exceeding $100 million, not because the content drives serious revenue, but because it's the purest expression of how he operates. React. Judge. Say the number. Move on. In a life defined by high-stakes conflicts that stretch for years, a pizza review takes four minutes and resolves cleanly.
 
-### The Champagne Ritual: A Fixation on Justice
+When he tried to scale that credibility into a frozen pizza line, the launch was the biggest Walmart had ever seen. Then sales cratered. "It basically disappeared," he told the [All-In podcast](https://www.youtube.com/watch?v=37Tz3TpELxc), "because it wasn't very good." He said it on air. No spin. The pizza was bad.
 
-One of Portnoy's most fascinating habits: he keeps a collection of champagne bottles dedicated to his enemies. When someone who wronged him faces a downfall, he pops one open on camera.
+A man who refuses to apologize for almost anything will freely admit when his own product fails. Integrity, for Dave, isn't about being right. It's about not pretending.
 
-This isn't petty. It's Type 8 psychology. Eights have a fixation on revenge, but not in a malicious sense. It's about _justice_. They keep internal scorecards. They remember who doubted them. And when vindication arrives? They celebrate.
+## Davey Day Trader and the Barstool Fund
 
-Dave followed [Taylor Swift's](/personality-analysis/Taylor-Swift) drama with Kanye West closely, watching as Kim Kardashian released edited recordings to make Taylor look like a liar. When the truth emerged that the recordings were manipulated, you can bet Dave had a bottle ready. He knows what it feels like to be publicly slandered.
+In March 2020, when COVID shut down live sports, Dave Portnoy did what he always does when the game stops: he found a new one.
 
-### The BFFs Podcast: Defying Expectations
+He started day-trading stocks on livestream. Called it "Davey Day Trader Global." Wore a suit. Rang a bell at market open. Broadcast every gain and every loss in real time.
 
-Portnoy's podcast with Josh Richards and Bri Chickenfry makes zero sense on paper. A 48-year-old media mogul chatting with Gen Z TikTokers about dating drama?
+He lost millions on camera. He made millions on camera. The swings were, in his word, "bananas."
 
-But that's the point. Type 8s don't follow conventions. They do what interests them. Dave genuinely enjoys the chaos of intergenerational friendship, and he refuses to be boxed into age-appropriate content.
+The defining moment: he went all-in on airline stocks, Spirit at $7, Delta battered, Norwegian cratered. Minutes after his buy call, Warren Buffett announced he was dumping all airline positions. Dave taunted him on camera: "I'm the captain now." Airlines rallied. The Wall Street Journal named him one of the most influential voices in the stock market.
 
-He's friends with [Logan Paul](/personality-analysis/Logan-Paul) and [Jake Paul](/personality-analysis/Jake-Paul). He's an unapologetic Taylor Swift stan. He hangs with Robert Kraft one day and college students the next. This isn't calculated brand diversification. It's authentic Type 8 boundary-breaking.
+But the psychologically revealing part wasn't the money. It was what he was doing simultaneously.
 
-## Growth and Stress: Dave's Journey to Type 2 and Type 5
+During those same months, in December 2020, Portnoy launched the Barstool Fund with $500,000 of his own money and started making phone calls. Not through assistants. Personally. On camera. He insisted on calling every business owner himself. Jim Seibert, the clothing store owner from Jasper whose father had recently died, broke down on the phone: "I'm going to start crying, Dave." That video got 4.4 million views.
 
-### Growth to Type 2: The Protector Emerges
-
-When Type 8s move toward their growth point (Type 2), they become more caring, generous, and community-oriented. We've seen this side of Portnoy in two major ways:
-
-#### The Barstool Fund
-
-In December 2020, as COVID-19 devastated small businesses, Portnoy launched the Barstool Fund. He started with $500,000 of his own money and rallied his followers. The result: **over $41 million raised** for more than 400 small businesses.
-
-In emotional videos, Portnoy personally called business owners to tell them help was coming. His voice cracked. He showed vulnerability. This wasn't performative. It was a Type 8 using his power to protect the vulnerable.
+The fund raised over $39 million for more than 348 small businesses. Tom Brady pledged support after watching the calls.
 
 "These people aren't going out of business because they're not successful," Portnoy said. "They've been dealt a hand that nobody could play."
 
-#### Miss Peaches and Dog Rescue Advocacy
+Two screens, two versions of the same man: the gambler bleeding money for entertainment, and the protector saving strangers' livelihoods. Both real. Both on camera. Both happening at the same time.
 
-In February 2024, Portnoy adopted Miss Peaches, a 6-year-old pit bull rescued from a hoarding situation in Georgia. What started as a personal adoption became a movement.
+"The stock market is the world's biggest casino," he told [Tucker Carlson](https://www.youtube.com/watch?v=wiDWudjAIBs). "It's designed to keep the rich rich." A man who'd made a fortune in that casino, calling it what it is.
 
-Through merchandise sales and his platform, Portnoy has raised **over $1 million** for animal shelters. He later rescued a beagle named Pete. He donated a $150,000 transport bus to bring rescue dogs from Florida to adoption centers.
+What galled him about the fund was the speed comparison: "It took me 24 hours to come up with this concept and put it in motion." One person with a platform and 24 hours had done what Congress couldn't manage in months.
 
-On May 20, 2024, the Mayor of Miami declared "Miss Peaches Day" in honor of the dog's impact on animal rescue awareness.
+Plenty of wealthy people give money (look at [Mr. Beast's](/personality-analysis/Mr-Beast) entire brand). What's different is that Portnoy chose to sit in the emotional wreckage of other people's pain, on camera, repeatedly. A man who built a brand on being untouchable kept putting himself in rooms where he could be touched.
 
-In 2025, Miss Peaches became the face of Lucky One Lemonade, Dave's vodka-based beverage brand, with proceeds going to rescue organizations.
+## The Combustion Engine
 
-This is Type 8 growth personified: channeling power and influence to protect those who can't protect themselves.
+In a 2025 NPR interview, Dave described his inner experience more honestly than he usually allows:
 
-### Stress to Type 5: The Withdrawn Strategist
+"The thing about me is when I see something and I get an opinion and it bubbles up, if I don't get it out, I just combust. I just, like, I may just explode."
 
-When Type 8s face overwhelming stress, they can move toward Type 5, becoming withdrawn, analytical, and information-gathering.
+He doesn't choose to be loud. He doesn't strategize his outbursts. The emotion builds, and if he doesn't externalize it, it destroys him from the inside.
 
-#### The Sexual Misconduct Allegations (2021)
+That same engine is why he told [Tucker Carlson](https://www.youtube.com/watch?v=wiDWudjAIBs), "In my nature I cannot apologize just to move on. I can't do it. It makes me sick." And why, in a November 2025 CBS interview, he said "I don't like a fight," then barely a breath later: "But if you are going to pick a fight with me, I will do anything I can to ruin you."
 
-When Business Insider published allegations of sexual misconduct against Portnoy in November 2021, he didn't respond with his typical combative energy. Instead, he retreated.
+Both sentences were true. The force that built a media empire is the same force that guarantees he will never walk away from a fight.
 
-Days later, he emerged with a 12-minute video meticulously breaking down each allegation point by point. Subdued. Detailed. Methodical.
+Tucker asked whether his refusal to apologize was the reason he's successful. Dave's answer: "100%. It's our greatest blessing and our greatest curse."
 
-"I've never done anything weird with a girl, ever. Never anything remotely nonconsensual," Portnoy said in a video that felt nothing like his usual content.
+"I feel like I have a good moral compass," he told CBS. "So, I don't care what people say. I never have."
 
-This withdrawal into analysis, gathering facts, building a systematic defense, is classic Type 5 behavior under pressure.
+He believes it. And it's mostly true. The problem is that a good compass doesn't prevent storms. It just tells you which direction you're facing when one hits.
 
-## Fighting Antisemitism: Type 8 as Defender
+He keeps internal scorecards. He remembers who doubted him, who betrayed him, who tried to bury him. When vindication arrives, a rival CEO stepping down, a failed partnership imploding, he doesn't let it pass quietly. The universe should keep its books balanced. If it won't, he will.
 
-Perhaps no recent development illustrates Portnoy's Type 8 nature better than his response to antisemitic incidents.
+## "I'm a Loyalty Guy"
 
-### The Philadelphia Bar Incident (May 2025)
+In a 2025 appearance on Club Shay Shay, Shannon Sharpe asked Dave about his ex-wife Renee's access to his bank accounts. Portnoy's response: "I'm a loyalty guy. I know it surprises people."
 
-At a Barstool-owned bar in Philadelphia, patrons displayed a sign reading "F\*\*k the Jews" while ordering bottle service. When Portnoy found out, he launched an immediate investigation.
+Dave and Renee married in 2009 and separated in 2017. They are still legally married. A Massachusetts judge denied their divorce because the settlement wasn't equitable. Renee was entitled to half and refused to take it.
 
-His response wasn't measured PR speak. He held an emergency press conference on X:
+"She was there when we were living at the in-laws' house, she was there when we couldn't afford a hamburger, she was there through the grind," Dave said on The Sage Steele Show. "She's still my best friend."
+
+She has full access to approximately $150 million of his money. He trusts her completely.
+
+The man who fights everyone trusts his ex-wife with everything. He demands control over his business, his brand, his public image, and gave someone else the keys to his entire financial life without ever asking for them back.
+
+### "It's Probably a Me Issue"
+
+When Dave broke up with Silvana Mojica after three years in November 2023, he didn't blame her. He blamed himself.
+
+"I just didn't think I could give Silvana kind of what she deserves," he said on the [BFFs podcast](https://www.youtube.com/watch?v=oQrMPvIduvk). "She's so beautiful. She's funny, she's smart, she's all these things. It's probably a me issue or whatever."
+
+That admission, from a man who projects total self-assurance, is extraordinary. He was saying plainly that the problem wasn't the person he was with. It was his capacity to be fully present with anyone.
+
+Then he went further. On the same [BFFs episode](https://www.youtube.com/watch?v=oQrMPvIduvk), he said something that landed like a confession: "I think I have a personality flaw and like I love being alone. I love my own space, I love my own time alone. I don't like humans that much." Then, half-joking but mostly not: "I'm probably going to just be like that old guy with a zillion dogs."
+
+Three months later, he adopted Miss Peaches, a rescue pit bull. Then a beagle named Pete. Then he donated a transport bus for rescue dogs and raised over $1 million for animal shelters.
+
+After the breakup, he let Silvana use his Montauk house. When she posted about crying spells and panic attacks, he expressed genuine concern. "I lost my best friend as well," he said.
+
+## His People
+
+The loyalty isn't just talk. Dave Portnoy goes to war for his employees in ways that reveal how the Type 8 protective instinct works in practice.
+
+His talent philosophy, as he explained on the [All-In podcast](https://www.youtube.com/watch?v=37Tz3TpELxc), is deliberately unconventional: "We were hiring people that no one else would ever hire or give a chance." He calls the internet "a voting machine." Hire unusual people, give them reps, let the audience decide who stays. But the deal isn't transactional. When the audience turns on one of his people, he doesn't pivot with them. He digs in.
+
+When Penn Entertainment forced Barstool to fire Ben Mintz, a beloved on-air personality who accidentally read a racial slur while reciting rap lyrics on a live stream, Dave was furious. He said the decision made his "skin crawl" and called it "everything I've stood against for 20 years." He couldn't override Penn's decision while they owned Barstool.
+
+So he hired Mintz personally. Made him the first employee of his watch company, Brick. Called him up and said: "You're not the smartest guy I've ever had. That's for sure, but you have a great heart and you're a man of the people." When Dave bought Barstool back three months later, Mintz was the first person he brought home.
+
+The flip side of that protectiveness: in December 2024, when longtime collaborator Kirk Minihane insulted another Barstool personality on a podcast, Dave texted Minihane "several expletives and no context," then called and fired him.
+
+Four minutes later, they talked again. Both calmer. Minihane was un-fired.
+
+"I fired Kirk Minihane for four minutes two days ago," Dave said publicly. The speed of the firing reveals the impulse: someone he protects was hurt. The speed of the reversal reveals the loyalty: Minihane had been with him for years, and that counted too.
+
+## The Hit Piece
+
+There's an elephant in the room that any honest analysis of Dave Portnoy has to address.
+
+In November 2021, Business Insider published an expose in which multiple women alleged that sexual encounters with Portnoy "turned violent and humiliating." A second article followed in February 2022, with additional women claiming he filmed them without consent.
+
+Dave's response was the most Type 8 thing he's ever done.
+
+Within hours, he posted a video denying the allegations, calling the article "character assassination" and saying the accusers' version of events was "100 percent not true." A week later, he held an hourlong "emergency press conference," staged behind a water cooler with a Barstool mug as a microphone, displaying text messages he said contradicted the claims.
+
+Then he went after Business Insider's CEO, Henry Blodget. He dug up Blodget's 2003 SEC fraud settlement, called him a "grade A scumbag," and declared him his "new arch enemy." He crashed a Business Insider union protest. He confronted Blodget directly on a live Twitter Spaces event hosted by the New York Times.
+
+He sued for defamation. When asked why: "It's not money at all. This is about my name. It's about my honor, pride, integrity, and I know they are lying." His lawyers told him to let it go. He told Fox News: "I'm not going to let it go. I've never been attacked like this."
+
+But he also admitted something that cracked the armor: "It's actually f\*\*king scary. Because people can basically say whatever they want and this is going to be the new narrative."
+
+The lawsuit was dismissed in November 2022. He appealed, then quietly dropped the appeal in February 2023.
+
+Then, in November 2023, when Henry Blodget stepped down as Business Insider's CEO, Dave popped a bottle of Dom Perignon with Blodget's name on it. "Game's over," he said on camera, cigar in hand. "Karma's a bitch."
+
+You don't have to take sides on the underlying allegations to see the psychological pattern. When attacked, Dave Portnoy doesn't retreat, doesn't hire a crisis PR firm, doesn't go quiet. He escalates on every front simultaneously. He makes the fight the story. And he keeps score until someone falls.
+
+## When He's Actually Wrong
+
+The more revealing question is what happens when Dave Portnoy can't frame the situation as a battle.
+
+In early 2025, Barstool employees amplified a false rumor that a 19-year-old Ole Miss freshman named Mary Kate Cornett was sleeping with her boyfriend's father. The rumor went viral. Cornett's life, by all accounts, was "practically ruined."
+
+Dave's initial response was to deny Barstool's involvement in a statement to Rolling Stone. He later admitted that statement was "inaccurate."
+
+Then came a full apology unlike anything he'd ever said publicly:
+
+"Morally, we were wrong."
+
+"I thought we were better than that."
+
+He said he wanted to "throw up" when he discovered the comments Barstool employees had made. He said he hoped to meet with Cornett's family, though he wasn't sure "how you put the toothpaste back in the tube."
+
+When there's an adversary, Dave reframes and counterattacks. When the "opponent" is a 19-year-old whose life was ruined and there's no one to fight, the empathy surfaces unchecked.
+
+## "I've Been Shaking"
+
+For someone who says he doesn't like a fight, Dave Portnoy has become a fierce defender of his Jewish community.
+
+In May 2025, at a Barstool-owned bar in Philadelphia, patrons displayed a sign reading "F\*\*k the Jews" while ordering bottle service. When Portnoy found out, he held an emergency press conference on X:
 
 **"I've been shaking. I've been so f\*cking mad for the last two hours."**
 
-He tracked down the perpetrators, Temple University students. And offered them a choice: face public destruction or go to Auschwitz for education. They chose education. Portnoy worked with Patriots owner Robert Kraft's anti-hate foundation to coordinate the trip.
+He tracked down the perpetrators, Temple University students, and offered them a choice: face public destruction or go to Auschwitz for education. They chose education. Portnoy worked with Patriots owner Robert Kraft's anti-hate foundation to coordinate the trip.
 
-### The Mississippi State Incident (November 2025)
+Six months later, while filming a pizza review in Starkville, Mississippi, a 20-year-old student hurled antisemitic slurs and threw coins at him, invoking an ancient anti-Jewish trope. The student was arrested and withdrew from the university.
 
-While filming a pizza review in Starkville, Mississippi, a 20-year-old student hurled antisemitic slurs and threw coins at Portnoy, invoking an ancient anti-Jewish trope about greed.
+"There's been a definitive shift," he told CBS. "People are coming up with real hate... It's every day now."
 
-The student was arrested. He withdrew from the university. A crowdfunding campaign raised $30,000 for his defense, which only deepened Portnoy's resolve.
+He's installed round-the-clock security at his home. "It only takes one," he said.
 
-### A Daily Reality
+On [NPR](https://www.youtube.com/watch?v=Seh1vt3c-hM), he was more candid about the toll: "Since the conflict in the Middle East, the amount of anti-semitism I deal with daily is astounding and growing." He paused, then added: "I don't know if it did any good. But I've had plenty of Jewish people come up to me and just thank me. They're like, 'Thank you for saying something.'"
 
-In a CBS Sunday Morning interview, Portnoy described the current climate:
+He didn't choose this role. It chose him. He responded the only way he knows how: by standing in front of the people behind him.
 
-"There's been a definitive shift. People are coming up with real hate... It's every day now."
+## What Dave Does When No One's Watching
 
-He's installed round-the-clock security at his home. He's become an unlikely spokesman against antisemitism. And he's not sure his efforts are working:
+The man who has spent 20 years making himself the most visible person at his company doesn't want to be seen in his private life.
 
-"I don't know if it did any good," he told NPR. "But I've had plenty of Jewish people come up to me and just thank me. They're like, 'Thank you for saying something.'"
+"I don't want to be pictured, I don't want to be on TV, I don't want any of it," he's said about his world off-camera.
 
-X CEO Linda Yaccarino praised him: "Everyone needs to call out antisemitism when they see it. Thank you @stoolpresidente for doing the real work."
+His daily routine is remarkably monotonous. He orders from one of three places every single night, either a grilled chicken sandwich or from a spot called Mighty Bowl. He watches college basketball with bets going. He's on social media around the clock. His office door is almost always open. Anyone can walk in. No pretense, no secretary stopping you.
 
-This is Type 8 at its most essential: standing in front of your tribe, absorbing attacks, fighting back even when you're not sure you can win.
+His relationship with his father Michael reveals a warmth he reserves for a select few. Michael Portnoy now has nearly 80,000 followers on X, lists himself as "El Pres' dad," and co-hosts a radio show on Sirius. Their biggest conflict? Politics. Michael is an outspoken Trump critic. "Davey, I know Trump more than you," his father told him. "He's a bad guy." Dave voted for Trump. They've agreed to avoid the subject.
 
-## Big Noon Kickoff: The Disruptor Goes Mainstream
+The moment that captures their dynamic best: Dave once FaceTimed his father from the White House while interviewing the president. Despite the political divide, the arguments, the agreed-upon silence on the topic, the conversation was courteous. Criticize the position, never sever the bond. That's how Portnoy handles disagreement with people he loves.
 
-In July 2025, Fox Sports announced a partnership with Barstool that would put Portnoy on **Big Noon Kickoff**, college football's second-biggest pregame show.
+His girlfriend Camryn D'Aloia, a Massachusetts native he's been dating since 2024, is deliberately shielded from the spotlight. No influencer content. No red carpet appearances. They watch the Celtics together. When she was accidentally caught on camera at a game, her social media was flooded, and she made her accounts private. Dave's response? "People are nuts."
 
-### Why Fox Hired Him
+He performs for millions but protects the people closest to him by keeping them out of the frame.
 
-Media analyst Dan Le Batard said it plainly: Fox didn't bring Portnoy in for football expertise. "They brought him in to be a disruptor."
+## How the Puzzle Fits
 
-The hire was widely seen as Fox's response to ESPN's Pat McAfee, another digital-first personality who brought younger viewers to traditional sports media. Portnoy joined Urban Meyer, Mark Ingram, Matt Leinart, and Brady Quinn on the desk.
+The Enneagram framework for [Type 8](/enneagram-corner/enneagram-type-8) illuminates the thread connecting all of this: beneath the armor is someone who experienced vulnerability early and decided, consciously or not, that he would never be at someone else's mercy again. (For more on how different types handle [stress and growth](/enneagram-corner/enneagram-types-in-stress), the pattern is striking.)
 
-### The Friction
-
-Predictably, Portnoy didn't just blend in. He feuded with co-hosts. He was barred from Ohio State's stadium for a marquee game. The Big Ten Conference allegedly pressured Fox to keep him off-site.
-
-By December 2025, Portnoy announced he wouldn't appear at the Big Ten Championship, one of the season's biggest games.
-
-The Fox-Barstool experiment showed both the upside and limits of putting a Type 8 disruptor on mainstream TV. Attention was gained. Conversations were sparked. But institutional friction was inevitable.
-
-Type 8s don't assimilate into systems. They challenge them. Sometimes that means getting barred from the stadium.
-
-## Relationships: The Struggle Between Control and Connection
-
-### Professional Relationships
-
-Portnoy's leadership style is textbook Type 8: direct, confrontational, high-expectation. But beneath the tough exterior lies fierce loyalty.
-
-**Long-term bonds:** His relationships with Barstool originals like Big Cat and KFC have survived public disagreements and company upheavals.
-
-**Tough love mentorship:** With talents like [Alex Cooper](/personality-analysis/Alex-Cooper) of "Call Her Daddy," Portnoy pushed hard while giving unprecedented freedom. Cooper once said, "Dave saw something in us that we didn't even see in ourselves."
-
-**Decisive action:** When Francis Ellis wrote an insensitive blog post, Portnoy fired him immediately. But later, he admitted regret: "I like Francis. I think he's talented... It sucked."
-
-### Romantic Relationships
-
-Type 8s often struggle with vulnerability in romantic contexts. Portnoy's dating history reflects this pattern.
-
-**Silvana Mojica (2021-2023):** His most public recent relationship lasted three years before ending in November 2023. Portnoy explained: "I just didn't think I could give Silvana kind of what she deserves."
-
-After the breakup, he still let her use his Montauk house. When she posted about crying spells and panic attacks, he expressed genuine concern. "I lost my best friend as well," he said.
-
-**Camryn D'Aloia (2024-present):** Portnoy's current girlfriend is a 26-year-old Massachusetts native, a 22-year age gap that's drawn public commentary. They were first spotted at a Boston Celtics game in April 2024 and Portnoy confirmed the relationship in April 2025.
-
-Unlike previous girlfriends, D'Aloia maintains a low profile. No influencer presence. No publicity seeking. She and Portnoy share a mutual obsession with the Boston Celtics and have been seen together in Robert Kraft's suite at Patriots games.
-
-The pattern is classic Type 8: seeking partners who respect their autonomy while sharing genuine interests.
-
-## Recent Controversies: The Price of Being Unfiltered
-
-### The Pete Carroll Incident (December 2025)
-
-After losing $250,000 on a Raiders bet due to a controversial officiating sequence, Portnoy said on social media that coach Pete Carroll should be "murdered."
-
-The backlash was immediate. Portnoy clarified he meant "metaphorical murder", but the incident highlighted the Type 8's impulsive anger. When 8s feel wronged, they express it forcefully and immediately. Measured responses aren't their strength.
-
-### AI and Privacy
-
-In late 2025, Grok, X's AI chatbot, disclosed Portnoy's home address when asked. The incident raised concerns about AI safeguards and prompted Portnoy to increase his personal security further.
-
-## The Man Behind the Millions
-
-Dave Portnoy is a man of contradictions that make perfect sense through the Type 8 lens.
-
-He's worth over $100 million but does pizza reviews on sidewalks. He runs a media empire but chats with 20-year-olds about dating drama. He projects invulnerability but cries when calling struggling business owners. He seems to thrive on conflict but maintains decades-long friendships and family bonds.
-
-The Enneagram Type 8 framework explains the paradox: beneath every Challenger is someone who experienced vulnerability early and decided never to be powerless again. Their aggression is protective. Their intensity is caring misdirected through control. Their loyalty, once earned, is unshakeable.
+The aggression is protective. The loyalty is absolute but selective. The combustion is the cost of keeping that much energy contained.
 
 **"I'd rather be dead than employed by someone else."**
 
-That quote isn't bravado. It's the organizing principle of Dave Portnoy's entire existence. Every pizza review, every champagne bottle, every million raised for dogs and small businesses, every fight against antisemitism. It all traces back to one Type 8 imperative:
+That's not bravado. It's the organizing principle of his existence.
 
-**Control your own destiny, protect your own people, and never let anyone tell you who to be.**
+Near the end of his [NPR interview](https://www.youtube.com/watch?v=Seh1vt3c-hM), Dave said something that caught the host off guard: "We are far more alike than we are not alike. But it seems like the differences are what has carried the day for a long time."
 
-So what can we learn from El Presidente? Maybe that the loudest personalities often have the softest hearts. That the people who seem to love fighting often just hate injustice. And that sometimes, the key to understanding someone is asking not what they do, but what they're afraid of losing.
+A strange thing to hear from a man who keeps champagne bottles labeled with his enemies' names. But maybe the truest thing he said all interview.
 
-What part of Dave Portnoy's personality resonates with you? And what does that reveal about your own inner world?
+The moment that sticks: Dave Portnoy, sitting in his office, calling a stranger whose father just died, telling him help is coming. His voice breaking. Then hanging up and doing it again. And again. Hundreds of times.
+
+He kept calling.
 
 > **Disclaimer:** This analysis of Dave Portnoy's Enneagram type is speculative, based on publicly available information, and may not reflect Dave's actual personality type.

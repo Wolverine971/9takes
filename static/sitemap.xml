@@ -1373,15 +1373,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Pete-Davidson</loc>
-    <lastmod>2025-03-09T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/9s/Pete-Davidson.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Anya-Taylor-Joy</loc>
     <lastmod>2025-03-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2156,15 +2147,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Theo-Von</loc>
-    <lastmod>2025-12-10T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Theo-Von.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Timothee-Chalamet</loc>
     <lastmod>2025-12-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2234,15 +2216,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Bobbi-Althoff.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Dave-Portnoy</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Dave-Portnoy.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2714,15 +2687,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Joe-Rogan</loc>
-    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Joe-Rogan.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Madison-Beer</loc>
     <lastmod>2026-01-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2993,15 +2957,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Alex-Cooper</loc>
-    <lastmod>2026-01-29T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Alex-Cooper.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Ariana-Grande</loc>
     <lastmod>2026-01-29T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3119,12 +3074,57 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Alex-Cooper</loc>
+    <lastmod>2026-02-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Alex-Cooper.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Dave-Portnoy</loc>
+    <lastmod>2026-02-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Dave-Portnoy.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Joe-Rogan</loc>
+    <lastmod>2026-02-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Joe-Rogan.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Pete-Davidson</loc>
+    <lastmod>2026-02-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Pete-Davidson.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Shawn-Ryan</loc>
-    <lastmod>2026-02-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-02-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/5s/Shawn-Ryan.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Theo-Von</loc>
+    <lastmod>2026-02-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Theo-Von.webp</image:loc>
     </image:image>
 </url>
 <url>
