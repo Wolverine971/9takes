@@ -1,4 +1,5 @@
 <!-- docs/blog-command-analysis.md -->
+
 # Analysis: `blog_content_creator_people.md`
 
 **Date:** 2026-02-09

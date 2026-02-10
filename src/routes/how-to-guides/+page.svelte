@@ -17,11 +17,10 @@
 		return null;
 	}
 
-	const excludedSlugs = new Set([
-		...data.featured.map((p) => p.slug),
-		...data.recentlyUpdated.map((p) => p.slug)
-	]);
-	const remainingPosts = data.posts.filter((b) => !excludedSlugs.has(b.slug));
+	const excludedSlugs = $derived(
+		new Set([...data.featured.map((p) => p.slug), ...data.recentlyUpdated.map((p) => p.slug)])
+	);
+	const remainingPosts = $derived(data.posts.filter((b) => !excludedSlugs.has(b.slug)));
 
 	// FAQ data for practical guides
 	const guidesFAQs: FAQItem[] = [

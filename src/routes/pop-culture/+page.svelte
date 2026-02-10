@@ -18,11 +18,10 @@
 		return null;
 	}
 
-	const excludedSlugs = new Set([
-		...data.featured.map((p) => p.slug),
-		...data.recentlyUpdated.map((p) => p.slug)
-	]);
-	const remainingBlogs = data.popCultureBlogs.filter((b) => !excludedSlugs.has(b.slug));
+	const excludedSlugs = $derived(
+		new Set([...data.featured.map((p) => p.slug), ...data.recentlyUpdated.map((p) => p.slug)])
+	);
+	const remainingBlogs = $derived(data.popCultureBlogs.filter((b) => !excludedSlugs.has(b.slug)));
 </script>
 
 <svelte:head>

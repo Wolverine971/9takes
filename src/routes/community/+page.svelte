@@ -17,16 +17,15 @@
 		return null;
 	}
 
-	const excludedSlugs = new Set([
-		...data.featured.map((p) => p.slug),
-		...data.recentlyUpdated.map((p) => p.slug)
-	]);
-
-	const inspirationPosts = data.posts.filter(
-		(b) => b?.type?.[0] === 'inspiration' && !excludedSlugs.has(b.slug)
+	const excludedSlugs = $derived(
+		new Set([...data.featured.map((p) => p.slug), ...data.recentlyUpdated.map((p) => p.slug)])
 	);
-	const ideaPosts = data.posts.filter(
-		(b) => b?.type?.[0] === 'idea' && !excludedSlugs.has(b.slug)
+
+	const inspirationPosts = $derived(
+		data.posts.filter((b) => b?.type?.[0] === 'inspiration' && !excludedSlugs.has(b.slug))
+	);
+	const ideaPosts = $derived(
+		data.posts.filter((b) => b?.type?.[0] === 'idea' && !excludedSlugs.has(b.slug))
 	);
 
 	// FAQ data for community page

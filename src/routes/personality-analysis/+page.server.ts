@@ -6,7 +6,7 @@ import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 
-export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogPost[] }> => {
+export const load: PageServerLoad = async ({ url }) => {
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
