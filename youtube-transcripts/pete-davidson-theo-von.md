@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/pete-davidson-theo-von.md -->
+<!-- youtube-transcripts/pete-davidson-theo-von.md -->
 
 # Pete Davidson | This Past Weekend w/ Theo Von #612
 

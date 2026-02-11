@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/shawn-ryan-consolidated-analysis.md -->
+<!-- youtube-transcripts/shawn-ryan-consolidated-analysis.md -->
 
 # Shawn Ryan — YouTube Transcript Analysis (Consolidated)
 

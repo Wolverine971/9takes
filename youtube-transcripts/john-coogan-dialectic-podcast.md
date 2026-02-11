@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/john-coogan-dialectic-podcast.md -->
+<!-- youtube-transcripts/john-coogan-dialectic-podcast.md -->
 
 # Inside Tech's Water Cooler: Breaking Down the Magic Behind TBPN with John Coogan & Jordi Hays
 

@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/dave-portnoy-all-in.raw.md -->
+<!-- youtube-transcripts/_raw/dave-portnoy-all-in.raw.md -->
 
 https://www.youtube.com/watch?v=37Tz3TpELxc
 

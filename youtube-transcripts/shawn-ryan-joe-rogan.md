@@ -6,7 +6,7 @@
 **Speakers**: Joe Rogan (host), Shawn Ryan (guest)
 **Format**: Approximately 3+ hours, long-form conversational podcast. Wide-ranging discussion covering politics, media censorship, border security, Afghanistan withdrawal, UFOs/UAPs, psychedelics (ibogaine), AI, manufacturing, podcasting origins, and personal struggles with addiction and PTSD.
 
-path: youtube-transcipts/shawn-ryan-joe-rogan.md
+path: youtube-transcripts/shawn-ryan-joe-rogan.md
 ---
 
 ## Key Revelations About Shawn Ryan

@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/pete-davidson-jon-bernthal.md -->
+<!-- youtube-transcripts/pete-davidson-jon-bernthal.md -->
 
 # Pete Davidson on Trauma, Hollywood, and Finding Happiness | Real Ones with Jon Bernthal
 

@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/dave-portnoy-npr.md -->
+<!-- youtube-transcripts/dave-portnoy-npr.md -->
 
 # Dave Portnoy on Trump, the Manosphere, and Barstool Conservatism | Morning Edition | NPR
 
@@ -105,7 +105,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcipts/_raw/`.
+> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
 > Minimal edits: spelling normalization, whitespace cleanup, and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved where present.
 

@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/alex-cooper-jay-shetty.raw.md -->
+<!-- youtube-transcripts/_raw/alex-cooper-jay-shetty.raw.md -->
 
 https://www.youtube.com/watch?v=Skh8ZYxrLhg
 

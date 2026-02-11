@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/chris-williamson-diary-of-a-ceo-masculinity.md -->
+<!-- youtube-transcripts/chris-williamson-diary-of-a-ceo-masculinity.md -->
 
 # Chris Williamson: New Research On Why Men And Women Are No Longer Compatible | The Diary Of A CEO
 

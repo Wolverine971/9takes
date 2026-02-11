@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/john-coogan-relentless-podcast.md -->
+<!-- youtube-transcripts/john-coogan-relentless-podcast.md -->
 
 # #3 - John Coogan, TBPN | Relentless Podcast
 

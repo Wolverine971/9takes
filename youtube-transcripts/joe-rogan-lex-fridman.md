@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/joe-rogan-lex-fridman.md -->
+<!-- youtube-transcripts/joe-rogan-lex-fridman.md -->
 
 # Joe Rogan: Comedy, Controversy, Aliens, UFOs, Putin, CIA, and Freedom | Lex Fridman Podcast #300
 
@@ -30,7 +30,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcipts/_raw/joe-rogan-lex-fridman.raw.md`.
+> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/joe-rogan-lex-fridman.raw.md`.
 > Minimal edits: whitespace cleanup; converted the transcript's `-` separators into paragraph breaks; kept ASR artifacts.
 
 The following is a conversation with Joe Rogan, his second time on this podcast. He has inspired me

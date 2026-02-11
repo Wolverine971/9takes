@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/joe-rogan-lex-fridman.raw.md -->
+<!-- youtube-transcripts/_raw/joe-rogan-lex-fridman.raw.md -->
 
 https://www.youtube.com/watch?v=gk4tEO4jDUM
 

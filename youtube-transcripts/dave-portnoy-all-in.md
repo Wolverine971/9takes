@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/dave-portnoy-all-in.md -->
+<!-- youtube-transcripts/dave-portnoy-all-in.md -->
 
 # Dave Portnoy: How He Bought Back Barstool for $1 | The All-In Interview
 
@@ -118,7 +118,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcipts/_raw/`.
+> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
 > Minimal edits: spelling normalization, whitespace cleanup, and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved where present.
 

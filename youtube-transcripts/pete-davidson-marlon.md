@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/pete-davidson-marlon.md -->
+<!-- youtube-transcripts/pete-davidson-marlon.md -->
 
 # WTF with Marc Maron Podcast Ep849 - Pete Davidson
 

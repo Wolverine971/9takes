@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/theo-von-joe-rogan.raw.md -->
+<!-- youtube-transcripts/_raw/theo-von-joe-rogan.raw.md -->
 
 https://www.youtube.com/watch?v=9YbCvAFWzGs
 

@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/jocko-willink-consolidated-analysis.md -->
+<!-- youtube-transcripts/jocko-willink-consolidated-analysis.md -->
 
 # Jocko Willink — YouTube Transcript Analysis (Consolidated)
 

@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/theo-von-therapy.raw.md -->
+<!-- youtube-transcripts/_raw/theo-von-therapy.raw.md -->
 
 https://www.youtube.com/watch?v=K60u6ObDsrI
 

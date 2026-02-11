@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/alex-cooper-friends-arnt-therapists.raw.md -->
+<!-- youtube-transcripts/_raw/alex-cooper-friends-arnt-therapists.raw.md -->
 
 https://www.youtube.com/watch?v=zpQeu0uhLL0
 

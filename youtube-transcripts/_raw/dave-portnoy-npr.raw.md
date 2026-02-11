@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/dave-portnoy-npr.raw.md -->
+<!-- youtube-transcripts/_raw/dave-portnoy-npr.raw.md -->
 
 https://www.youtube.com/watch?v=Seh1vt3c-hM
 

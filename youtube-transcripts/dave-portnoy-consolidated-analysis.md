@@ -1,13 +1,13 @@
-<!-- youtube-transcipts/dave-portnoy-consolidated-analysis.md -->
+<!-- youtube-transcripts/dave-portnoy-consolidated-analysis.md -->
 
 # Consolidated Analysis: Dave Portnoy Across 4 Interviews
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcipts/dave-portnoy-all-in.md` (All-In Podcast, Sep 17, 2024)
-- `youtube-transcipts/dave-portnoy-bffs.md` (BFFs, Nov 29, 2023)
-- `youtube-transcipts/dave-portnoy-npr.md` (NPR Morning Edition, Jun 9, 2025)
-- `youtube-transcipts/dave-portnoy-tucker-carlson.md` (Tucker Carlson Today interview period ~May 2021)
+- `youtube-transcripts/dave-portnoy-all-in.md` (All-In Podcast, Sep 17, 2024)
+- `youtube-transcripts/dave-portnoy-bffs.md` (BFFs, Nov 29, 2023)
+- `youtube-transcripts/dave-portnoy-npr.md` (NPR Morning Edition, Jun 9, 2025)
+- `youtube-transcripts/dave-portnoy-tucker-carlson.md` (Tucker Carlson Today interview period ~May 2021)
 
 ---
 
@@ -231,4 +231,4 @@ That suggests his comparative advantage is narrative + incentive analysis, not g
 
 If you want, I can also produce:
 
-- `youtube-transcipts/dave-portnoy-quote-bank.md` with only the best quotes, organized by theme (work ethic, politics, media, deals, creator model).
+- `youtube-transcripts/dave-portnoy-quote-bank.md` with only the best quotes, organized by theme (work ethic, politics, media, deals, creator model).

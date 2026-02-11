@@ -6,7 +6,7 @@
 **Speakers**: Megyn Kelly (host), Shawn Ryan (guest)
 **Format**: ~2 hours, long-form sit-down interview, Memorial Day special (premiered May 27, 2024)
 
-path: youtube-transcipts/shawn-ryan-megyn-kelly.md
+path: youtube-transcripts/shawn-ryan-megyn-kelly.md
 ---
 
 ## Key Revelations About Shawn Ryan

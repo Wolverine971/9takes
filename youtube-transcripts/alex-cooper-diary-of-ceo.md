@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/alex-cooper-diary-of-ceo.md -->
+<!-- youtube-transcripts/alex-cooper-diary-of-ceo.md -->
 
 # Alex Cooper: The Truth I Never Planned to Share... (The Diary Of A CEO)
 
@@ -91,7 +91,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcipts/_raw/`.
+> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
 > Minimal edits: whitespace cleanup, light spelling normalization, and line wrapping for readability.
 > The source contains occasional ASR artifacts and `[ __ ]` redactions; those are preserved where present.
 

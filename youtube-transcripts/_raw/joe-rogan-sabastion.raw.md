@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/joe-rogan-sabastion.raw.md -->
+<!-- youtube-transcripts/_raw/joe-rogan-sabastion.raw.md -->
 
 https://www.youtube.com/watch?v=LmRrJUHvk-M
 

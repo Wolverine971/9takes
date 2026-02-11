@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/alex-cooper-dax.raw.md -->
+<!-- youtube-transcripts/_raw/alex-cooper-dax.raw.md -->
 
 https://www.youtube.com/watch?v=0L3RGgxzsJo
 

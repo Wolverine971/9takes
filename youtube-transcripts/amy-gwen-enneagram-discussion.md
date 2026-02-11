@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/amy-gwen-enneagram-discussion.md -->
+<!-- youtube-transcripts/amy-gwen-enneagram-discussion.md -->
 
 # Amy & Gwen — Enneagram Type Discussion
 

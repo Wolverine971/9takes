@@ -6,7 +6,7 @@
 **Speakers**: Gary Brecka (host, human biologist), Shawn Ryan (guest, former Navy SEAL / CIA contractor, podcast host)
 **Format**: ~2 hours, long-form conversational interview covering military career, PTSD, addiction, psychedelic therapy, geopolitics, daily life
 
-path: youtube-transcipts/shawn-ryan-gary-brecka.md
+path: youtube-transcripts/shawn-ryan-gary-brecka.md
 ---
 
 ## Key Revelations About Shawn Ryan

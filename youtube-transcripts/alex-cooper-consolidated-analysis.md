@@ -1,13 +1,13 @@
-<!-- youtube-transcipts/alex-cooper-consolidated-analysis.md -->
+<!-- youtube-transcripts/alex-cooper-consolidated-analysis.md -->
 
 # Consolidated Analysis: Alex Cooper Across 4 Episodes
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcipts/alex-cooper-friends-arnt-therapists.md` (Call Her Daddy, Dec 7, 2025)
-- `youtube-transcipts/alex-cooper-dax.md` (Armchair Expert, Jun 16, 2025)
-- `youtube-transcipts/alex-cooper-diary-of-ceo.md` (The Diary Of A CEO, Mar 30, 2023)
-- `youtube-transcipts/alex-cooper-jay-shetty.md` (Jay Shetty / On Purpose, Oct 3, 2022)
+- `youtube-transcripts/alex-cooper-friends-arnt-therapists.md` (Call Her Daddy, Dec 7, 2025)
+- `youtube-transcripts/alex-cooper-dax.md` (Armchair Expert, Jun 16, 2025)
+- `youtube-transcripts/alex-cooper-diary-of-ceo.md` (The Diary Of A CEO, Mar 30, 2023)
+- `youtube-transcripts/alex-cooper-jay-shetty.md` (Jay Shetty / On Purpose, Oct 3, 2022)
 
 ---
 
@@ -105,7 +105,7 @@ The way she resolves it is boundary engineering: separating the parts of her lif
 
 ## 9) Missing Episodes
 
-Your IDE tabs mentioned `alex-cooper-er.md` and `alex-cooper-dte.md`, but they are not present in `youtube-transcipts/` right now.
+Your IDE tabs mentioned `alex-cooper-er.md` and `alex-cooper-dte.md`, but they are not present in `youtube-transcripts/` right now.
 
 When those are added, this consolidated analysis should be updated to include:
 

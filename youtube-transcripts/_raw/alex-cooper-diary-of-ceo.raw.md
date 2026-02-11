@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/alex-cooper-diary-of-ceo.raw.md -->
+<!-- youtube-transcripts/_raw/alex-cooper-diary-of-ceo.raw.md -->
 
 https://www.youtube.com/watch?v=knPqBc2qJ8E
 

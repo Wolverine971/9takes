@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/theo-von-consolidated-analysis.md -->
+<!-- youtube-transcripts/theo-von-consolidated-analysis.md -->
 
 # Theo Von — YouTube Transcript Analysis (Consolidated)
 
@@ -10,10 +10,10 @@ Analyzed 4 Theo Von-related transcripts for recurring themes, interviewing style
 
 | File                                           | Video Title                                                      | Date (as captured)               | Format                        | Key Value                                                                                        |
 | ---------------------------------------------- | ---------------------------------------------------------------- | -------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------ |
-| `youtube-transcipts/theo-von-therapy.md`       | Trauma Expert Tim Fletcher \| This Past Weekend w/ Theo Von #495 | Apr 16, 2024                     | Theo interviews Tim Fletcher  | Clear conceptual frameworks: complex trauma, shame, gaslighting, re-parenting, forgiveness       |
-| `youtube-transcipts/theo-von-dax.md`           | Dax Shepard \| This Past Weekend w/ Theo Von #487                | Mar 12, 2024                     | Theo interviews Dax Shepard   | "Late-night sabotage" + shame mechanics; recovery talk without moralizing                        |
-| `youtube-transcipts/theo-von-joe-rogan.md`     | Joe Rogan Experience #1847 - Theo Von                            | Jun 27, 2024                     | Theo as guest on JRE          | Theo's story style under Joe's systems/incentives framing; freedom/homophobia section stands out |
-| `youtube-transcipts/pete-davidson-theo-von.md` | Pete Davidson \| This Past Weekend w/ Theo Von #612              | (From episode context: Sep 2025) | Theo interviews Pete Davidson | Deepest emotional vulnerability; grief, abandonment, fear of happiness, addiction/recovery       |
+| `youtube-transcripts/theo-von-therapy.md`       | Trauma Expert Tim Fletcher \| This Past Weekend w/ Theo Von #495 | Apr 16, 2024                     | Theo interviews Tim Fletcher  | Clear conceptual frameworks: complex trauma, shame, gaslighting, re-parenting, forgiveness       |
+| `youtube-transcripts/theo-von-dax.md`           | Dax Shepard \| This Past Weekend w/ Theo Von #487                | Mar 12, 2024                     | Theo interviews Dax Shepard   | "Late-night sabotage" + shame mechanics; recovery talk without moralizing                        |
+| `youtube-transcripts/theo-von-joe-rogan.md`     | Joe Rogan Experience #1847 - Theo Von                            | Jun 27, 2024                     | Theo as guest on JRE          | Theo's story style under Joe's systems/incentives framing; freedom/homophobia section stands out |
+| `youtube-transcripts/pete-davidson-theo-von.md` | Pete Davidson \| This Past Weekend w/ Theo Von #612              | (From episode context: Sep 2025) | Theo interviews Pete Davidson | Deepest emotional vulnerability; grief, abandonment, fear of happiness, addiction/recovery       |
 
 ---
 
@@ -63,16 +63,16 @@ When the conversation hits identity or vulnerability (especially homophobia), th
 
 | #   | Quote                                                                                                                         | Source                                         | Why It Matters                                                               |
 | --- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------- |
-| 1   | "I don't want this to be um like a thing where we're just creating victims..."                                                | `youtube-transcipts/theo-von-therapy.md`       | Signals Theo's core editorial stance: explanation without identity-as-excuse |
-| 2   | "The abuse trauma something happens to you neglect trauma something didn't happened to you that should have happened to you." | `youtube-transcipts/theo-von-therapy.md`       | A crisp distinction that makes "invisible trauma" legible                    |
-| 3   | "It would be everything you're poor your body's gross you're you're ugly you're stupid... it was like a machine gun."         | `youtube-transcipts/theo-von-therapy.md`       | The inner-critic/shame loop described with visceral specificity              |
-| 4   | "sometimes if I'm up too late then I'll do something to damage myself..."                                                     | `youtube-transcipts/theo-von-dax.md`           | A modern dysregulation pattern named without abstraction                     |
-| 5   | "guilt is I did something bad shame is I am something bad"                                                                    | `youtube-transcipts/theo-von-dax.md`           | The framework that explains why spirals become identity collapses            |
-| 6   | "expectations are resentments under construction"                                                                             | `youtube-transcipts/theo-von-dax.md`           | Recovery culture's most useful one-liner applied to real life                |
-| 7   | "I smoked probably 33 34 New Ports in a row"                                                                                  | `youtube-transcipts/theo-von-joe-rogan.md`     | Theo's blunt self-medication confession; pain -> numbing -> excess           |
-| 8   | "homophobia that it robs people of Freedom robs people of their life to just be who they are"                                 | `youtube-transcipts/theo-von-joe-rogan.md`     | The moral center: freedom and compassion over tribal posturing               |
-| 9   | "I don't even know who I'd be if I was happy... That are like best friends."                                                  | `youtube-transcipts/pete-davidson-theo-von.md` | Theo names the loyalty-to-pain problem directly                              |
-| 10  | "I wanted to die to be with my dad really, very badly."                                                                       | `youtube-transcipts/pete-davidson-theo-von.md` | The level of emotional truth Theo can hold space for                         |
+| 1   | "I don't want this to be um like a thing where we're just creating victims..."                                                | `youtube-transcripts/theo-von-therapy.md`       | Signals Theo's core editorial stance: explanation without identity-as-excuse |
+| 2   | "The abuse trauma something happens to you neglect trauma something didn't happened to you that should have happened to you." | `youtube-transcripts/theo-von-therapy.md`       | A crisp distinction that makes "invisible trauma" legible                    |
+| 3   | "It would be everything you're poor your body's gross you're you're ugly you're stupid... it was like a machine gun."         | `youtube-transcripts/theo-von-therapy.md`       | The inner-critic/shame loop described with visceral specificity              |
+| 4   | "sometimes if I'm up too late then I'll do something to damage myself..."                                                     | `youtube-transcripts/theo-von-dax.md`           | A modern dysregulation pattern named without abstraction                     |
+| 5   | "guilt is I did something bad shame is I am something bad"                                                                    | `youtube-transcripts/theo-von-dax.md`           | The framework that explains why spirals become identity collapses            |
+| 6   | "expectations are resentments under construction"                                                                             | `youtube-transcripts/theo-von-dax.md`           | Recovery culture's most useful one-liner applied to real life                |
+| 7   | "I smoked probably 33 34 New Ports in a row"                                                                                  | `youtube-transcripts/theo-von-joe-rogan.md`     | Theo's blunt self-medication confession; pain -> numbing -> excess           |
+| 8   | "homophobia that it robs people of Freedom robs people of their life to just be who they are"                                 | `youtube-transcripts/theo-von-joe-rogan.md`     | The moral center: freedom and compassion over tribal posturing               |
+| 9   | "I don't even know who I'd be if I was happy... That are like best friends."                                                  | `youtube-transcripts/pete-davidson-theo-von.md` | Theo names the loyalty-to-pain problem directly                              |
+| 10  | "I wanted to die to be with my dad really, very badly."                                                                       | `youtube-transcripts/pete-davidson-theo-von.md` | The level of emotional truth Theo can hold space for                         |
 
 ---
 

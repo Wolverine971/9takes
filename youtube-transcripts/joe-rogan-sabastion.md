@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/joe-rogan-sabastion.md -->
+<!-- youtube-transcripts/joe-rogan-sabastion.md -->
 
 # Joe Rogan Experience #2172 - Sebastian Junger
 
@@ -18,7 +18,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcipts/_raw/joe-rogan-sabastion.raw.md`.
+> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/joe-rogan-sabastion.raw.md`.
 > Minimal edits: whitespace cleanup + line wrapping for readability.
 > This transcript dump does not include consistent speaker labels; attribution is only added in the analysis where the
 > speaker is unambiguous.

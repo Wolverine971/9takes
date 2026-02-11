@@ -1,14 +1,14 @@
-<!-- youtube-transcipts/joe-rogan-consolidated-analysis.md -->
+<!-- youtube-transcripts/joe-rogan-consolidated-analysis.md -->
 
 # Consolidated Analysis: Joe Rogan Across 5 Transcript Dumps
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcipts/joe-rogan-lex-fridman.md` (Lex Fridman Podcast #300, published July 4, 2022)
-- `youtube-transcipts/joe-rogan-sabastion.md` (JRE #2172 - Sebastian Junger, published July 2, 2024)
-- `youtube-transcipts/theo-von-joe-rogan.md` (JRE #1847 - Theo Von, published June 27, 2024)
-- `youtube-transcipts/chris-williamson-joe-rogan.md` (JRE #2293 - Chris Williamson)
-- `youtube-transcipts/shawn-ryan-joe-rogan.md` (JRE #2207 - Shawn Ryan; guest-focused analysis file)
+- `youtube-transcripts/joe-rogan-lex-fridman.md` (Lex Fridman Podcast #300, published July 4, 2022)
+- `youtube-transcripts/joe-rogan-sabastion.md` (JRE #2172 - Sebastian Junger, published July 2, 2024)
+- `youtube-transcripts/theo-von-joe-rogan.md` (JRE #1847 - Theo Von, published June 27, 2024)
+- `youtube-transcripts/chris-williamson-joe-rogan.md` (JRE #2293 - Chris Williamson)
+- `youtube-transcripts/shawn-ryan-joe-rogan.md` (JRE #2207 - Shawn Ryan; guest-focused analysis file)
 
 ---
 
@@ -104,6 +104,6 @@ These themes show up across multiple transcripts even when the guest and the imm
 
 If you want to make future blog writing faster, I can generate:
 
-- `youtube-transcipts/joe-rogan-quote-bank.md` with the best quotes across these five files, grouped by theme
+- `youtube-transcripts/joe-rogan-quote-bank.md` with the best quotes across these five files, grouped by theme
   (discipline, attention/phones, media, institutions, death/afterlife, war/aggression, relationships, policy/incentives,
   comedy/craft, freedom/identity).

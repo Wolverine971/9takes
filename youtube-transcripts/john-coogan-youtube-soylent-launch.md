@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/john-coogan-youtube-soylent-launch.md -->
+<!-- youtube-transcripts/john-coogan-youtube-soylent-launch.md -->
 
 # How I Launched My Startup - John Coogan
 

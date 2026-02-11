@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/jocko-willink-podcast-worst-conversation.md -->
+<!-- youtube-transcripts/jocko-willink-podcast-worst-conversation.md -->
 
 # Analysis: "THE WORST CONVERSATION I'VE EVER HAD IN MY LIFE"
 

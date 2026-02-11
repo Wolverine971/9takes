@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/dave-portnoy-bffs.md -->
+<!-- youtube-transcripts/dave-portnoy-bffs.md -->
 
 # DAVE PORTNOY TALKS ABOUT IT - BFFs EP. 155
 
@@ -102,7 +102,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcipts/_raw/`.
+> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
 > Minimal edits: spelling normalization, whitespace cleanup, and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved where present.
 

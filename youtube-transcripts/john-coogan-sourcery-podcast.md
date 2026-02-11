@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/john-coogan-sourcery-podcast.md -->
+<!-- youtube-transcripts/john-coogan-sourcery-podcast.md -->
 
 # John Coogan on Sourcery - EIR at Founders Fund, Soylent, Lucy & Nicotine Industry
 

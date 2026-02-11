@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/theo-von-therapy.md -->
+<!-- youtube-transcripts/theo-von-therapy.md -->
 
 # Trauma Expert Tim Fletcher | This Past Weekend w/ Theo Von #495
 
@@ -30,7 +30,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: Derived from the downloaded YouTube transcript dump in `youtube-transcipts/_raw/`.
+> Notes: Derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
 > Minimal edits: whitespace cleanup and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved.
 

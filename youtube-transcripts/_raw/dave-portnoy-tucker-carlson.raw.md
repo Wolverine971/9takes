@@ -1,4 +1,4 @@
-<!-- youtube-transcipts/_raw/dave-portnoy-tucker-carlson.raw.md -->
+<!-- youtube-transcripts/_raw/dave-portnoy-tucker-carlson.raw.md -->
 
 https://www.youtube.com/watch?v=wiDWudjAIBs
 
