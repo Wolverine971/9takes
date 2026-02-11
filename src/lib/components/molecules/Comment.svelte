@@ -58,29 +58,26 @@
 	const COMMENT_TRUNCATE_LENGTH = 136;
 
 	// Create a deep copy of the comment to avoid mutation issues
-	$: _commentComment = comment ? structuredClone(comment) : null;
+	let _commentComment: CommentType = structuredClone(comment);
+	$: _commentComment = structuredClone(comment);
 
 	// Reactive variables
-	$: lastDate = _commentComment?.comments?.length
+	$: lastDate = _commentComment.comments?.length
 		? _commentComment.comments[_commentComment.comments.length - 1]?.created_at || null
 		: null;
 
-	$: createdOrModifiedAt = _commentComment
-		? new Date(_commentComment.modified_at || _commentComment.created_at).toLocaleDateString(
-				'en-US'
-			)
-		: '';
+	$: createdOrModifiedAt = new Date(
+		_commentComment.modified_at || _commentComment.created_at
+	).toLocaleDateString('en-US');
 
 	// Update local state when comment changes
-	$: if (_commentComment) {
-		likes = _commentComment?.comment_like || [];
-		commentEdit = _commentComment.comment;
-	}
+	$: likes = _commentComment.comment_like || [];
+	$: commentEdit = _commentComment.comment;
 
 	// Check if comment needs to be truncated (either exceeds length limit or contains newlines)
 	$: shouldTruncate =
-		(_commentComment?.comment?.length ?? 0) > COMMENT_TRUNCATE_LENGTH ||
-		_commentComment?.comment?.includes('\n');
+		(_commentComment.comment?.length ?? 0) > COMMENT_TRUNCATE_LENGTH ||
+		_commentComment.comment?.includes('\n');
 
 	// Handle comment expansion
 	function toggleExpandText() {
@@ -150,7 +147,7 @@
 
 	// Toggle replies visibility
 	function toggleReplies() {
-		if (_commentComment?.comments?.length) {
+		if (_commentComment.comments?.length) {
 			// Already loaded, just toggle visibility
 			showReplies = !showReplies;
 		} else if (_commentComment.comment_count > 0) {
@@ -173,7 +170,7 @@
 			const body = new FormData();
 			body.append('parent_id', _commentComment.id.toString());
 			body.append('user_id', user.id);
-			body.append('es_id', _commentComment.es_id);
+			body.append('es_id', _commentComment.es_id ?? '');
 			body.append('operation', operation);
 
 			const resp = await fetch('?/likeComment', { method: 'POST', body });
@@ -203,6 +200,10 @@
 	// Add reply to comment
 	async function createReply() {
 		if (!canComment()) return;
+		if (!user?.id) {
+			notifications.info('Must register or login to reply', 3000);
+			return;
+		}
 		if (!newcomment.trim()) {
 			notifications.info('Comment cannot be empty', 3000);
 			return;
@@ -229,9 +230,9 @@
 			const body = new FormData();
 			body.append('comment', newcomment);
 			body.append('parent_id', _commentComment.id.toString());
-			body.append('author_id', user?.id);
+			body.append('author_id', user.id);
 			body.append('parent_type', 'comment');
-			body.append('es_id', _commentComment.es_id);
+			body.append('es_id', _commentComment.es_id ?? '');
 			body.append('question_id', questionId.toString());
 			body.append('fingerprint', fingerprint || '');
 
@@ -301,7 +302,7 @@
 		try {
 			const body = new FormData();
 			body.append('comment', commentEdit);
-			body.append('comment_id', _commentComment.id);
+			body.append('comment_id', _commentComment.id.toString());
 
 			const resp = await fetch('/comments', { method: 'POST', body });
 
@@ -345,7 +346,7 @@
 		try {
 			const body = new FormData();
 			body.append('description', flaggingReasonDescription);
-			body.append('comment_id', _commentComment.id);
+			body.append('comment_id', _commentComment.id.toString());
 			body.append('reason_id', flaggingReasonId);
 
 			// Add user information if logged in

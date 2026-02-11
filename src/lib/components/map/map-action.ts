@@ -2,50 +2,80 @@
 import { load } from '$lib/components/map/asset-loader';
 import { bindEvents } from '$lib/components/map/event-binding';
 
-export default function action(node, options = {}) {
-	let map;
+type MapLike = {
+	getCenter: () => unknown;
+	getZoom: () => number;
+	on: (handler: string, callback: (ev: unknown) => void) => void;
+	off: (handler: string, callback: (ev: unknown) => void) => void;
+	remove?: () => void;
+};
 
-	const resources = [
+type MapboxLike = {
+	accessToken: string;
+	Map: new (options: Record<string, unknown>) => MapLike;
+};
+
+type MapActionOptions = {
+	version?: string;
+	customStylesheetUrl?: string | false;
+	accessToken?: string;
+	[key: string]: unknown;
+};
+
+type InitResult = {
+	map: MapLike;
+	unbind: () => void;
+};
+
+export default function action(node: HTMLElement, options: MapActionOptions = {}) {
+	let map: MapLike | null = null;
+	const version = options.version ?? 'v2.12.0';
+
+	const resources: Array<{ type: 'script' | 'link'; value: string; id: string }> = [
 		{
 			type: 'script',
-			attr: 'src',
-			value: `//api.mapbox.com/mapbox-gl-js/${options.version}/mapbox-gl.js`,
+			value: `//api.mapbox.com/mapbox-gl-js/${version}/mapbox-gl.js`,
 			id: 'byk-gl-js'
 		},
 		{
 			type: 'link',
-			attr: 'href',
-			value: `//api.mapbox.com/mapbox-gl-js/${options.version}/mapbox-gl.css`,
+			value: `//api.mapbox.com/mapbox-gl-js/${version}/mapbox-gl.css`,
 			id: 'byk-gl-css'
 		}
 	];
 
 	const customStylesheetUrl = options.customStylesheetUrl;
 	if (customStylesheetUrl) {
-		resources.push({ type: 'link', attr: 'href', value: customStylesheetUrl, id: 'byk-mcsu-css' });
+		resources.push({ type: 'link', value: customStylesheetUrl, id: 'byk-mcsu-css' });
 	}
 
 	let unbind = () => {};
 	load(resources, () => {
-		unbind = init({ ...options, container: node }, node);
+		const initialized = init({ ...options, container: node }, node);
+		map = initialized.map;
+		unbind = initialized.unbind;
 	});
 
 	return {
 		destroy() {
 			unbind();
-			map && map.remove && map.remove();
+			map?.remove?.();
 		}
 	};
 }
 
-function init(options, node) {
-	window.mapboxgl.accessToken = options.accessToken;
-	const el = new window.mapboxgl.Map(options);
+function init(options: Record<string, unknown>, node: HTMLElement): InitResult {
+	const mapbox = (window as Window & { mapboxgl: MapboxLike }).mapboxgl;
+	mapbox.accessToken = String(options.accessToken ?? '');
+	const el = new mapbox.Map(options) as MapLike;
 
-	return bindEvents(el, handlers, window.mapboxgl, node);
+	return {
+		map: el,
+		unbind: bindEvents(el, handlers, mapbox, node)
+	};
 }
 
-const handlers = {
+const handlers: Record<string, (el: MapLike, ev: unknown, mapbox: unknown) => [string, unknown]> = {
 	dragend: (el) => {
 		return ['dragend', { center: el.getCenter() }];
 	},
@@ -55,7 +85,11 @@ const handlers = {
 	moveend: (el) => {
 		return ['recentre', { center: el.getCenter() }];
 	},
-	click: (el, { lngLat }) => {
+	click: (_el, ev) => {
+		const { lngLat } = (ev as { lngLat?: { lng: number; lat: number } }) ?? {};
+		if (!lngLat) {
+			return ['click', { lng: 0, lat: 0 }];
+		}
 		return ['click', { lng: lngLat.lng, lat: lngLat.lat }];
 	},
 	zoomstart: (el) => {
@@ -67,7 +101,7 @@ const handlers = {
 	zoomend: (el) => {
 		return ['zoomend', { zoom: el.getZoom() }];
 	},
-	load: (el, ev, mapbox) => {
+	load: (el, _ev, mapbox) => {
 		return ['ready', { map: el, mapbox }];
 	}
 };

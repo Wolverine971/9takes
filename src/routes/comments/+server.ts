@@ -125,9 +125,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 				}
 
 				if (commentError) {
-					throw error(400, {
-						message: `encountered error`
-					});
+					throw error(400, 'encountered error');
 				}
 
 				const commentMap: ICommentMap = {};
@@ -162,15 +160,10 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			logger.warn('Invalid request parameters', {
 				errors: e.errors
 			});
-			throw error(400, {
-				message: 'Invalid request parameters',
-				details: e.errors
-			});
+			throw error(400, 'Invalid request parameters');
 		}
 		logger.error('Error in GET /comments', e as Error);
-		throw error(500, {
-			message: 'Internal server error'
-		});
+		throw error(500, 'Internal server error');
 	}
 });
 
@@ -202,7 +195,7 @@ export const POST = withApiLogging(async ({ locals, request }) => {
 		if (commentAuthorized) {
 			const { data: commentUpdated } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
-				.update({ comment, modified_at: new Date() })
+				.update({ comment, modified_at: new Date().toISOString() })
 				.eq('author_id', session?.user?.id)
 				.eq('id', comment_id)
 				.single();
@@ -224,17 +217,12 @@ export const POST = withApiLogging(async ({ locals, request }) => {
 			logger.warn('Invalid comment data', {
 				errors: e.errors
 			});
-			throw error(400, {
-				message: 'Invalid comment data',
-				details: e.errors
-			});
+			throw error(400, 'Invalid comment data');
 		}
 		if ((e as any).status) {
 			throw e; // Re-throw HTTP errors
 		}
 		logger.error('Error in POST /comments', e as Error);
-		throw error(500, {
-			message: 'Internal server error'
-		});
+		throw error(500, 'Internal server error');
 	}
 });

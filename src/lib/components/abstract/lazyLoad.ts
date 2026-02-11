@@ -1,11 +1,11 @@
 // src/lib/components/abstract/lazyLoad.ts
-let options = {
+const options: IntersectionObserverInit = {
 	root: null,
 	rootMargin: '0px',
 	threshold: 0
 };
 
-export const lazyLoad = (image, src) => {
+export const lazyLoad = (image: HTMLImageElement, src: string) => {
 	const loaded = () => {
 		//image.classList.add('visible')                          // doesn't work in REPL
 		image.style.opacity = '1'; // REPL hack to apply loading animation

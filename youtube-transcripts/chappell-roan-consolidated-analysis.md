@@ -40,7 +40,7 @@ have old relational adaptations (people-pleasing, abandoning values) that fire u
 ## 3) Moral Anxiety as the Hidden Driver
 
 One of the most revealing moments in the Call Her Daddy file is that her deepest fear is not failure, irrelevance, or
-being controlled, but *being a bad person*. She explicitly connects that to Catholic guilt.
+being controlled, but _being a bad person_. She explicitly connects that to Catholic guilt.
 
 That moral framing explains:
 
@@ -91,7 +91,6 @@ The system-level insight is that “fame” is not one thing:
 ## 7) Bottom Line
 
 Chappell Roan reads as someone with high intensity and a strong need for autonomy who is trying to do something rare:
-interrupt the standard female-celebrity cycle *midstream* by naming entitlement and enforcing boundaries without
+interrupt the standard female-celebrity cycle _midstream_ by naming entitlement and enforcing boundaries without
 fully withdrawing. The external commentary helps explain why that attempt is culturally disruptive: it violates the
 unspoken contract that rising female celebrities are supposed to accept unlimited access as the “price of the job.”
-

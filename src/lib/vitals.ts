@@ -1,41 +1,39 @@
 // src/lib/vitals.ts
 import { getCLS, getFCP, getFID, getLCP, getTTFB } from 'web-vitals';
+import type { Metric } from 'web-vitals';
 
 const vitalsUrl = 'https://vitals.vercel-analytics.com/v1/vitals';
 
-function getConnectionSpeed() {
-	return 'connection' in navigator &&
-		navigator['connection'] &&
-		'effectiveType' in navigator['connection']
-		? // @ts-ignore
-			navigator['connection']['effectiveType']
-		: '';
+interface AnalyticsOptions {
+	params: Record<string, string>;
+	path: string;
+	analyticsId: string;
+	debug: boolean;
 }
 
-/**
- * @param {import("web-vitals").Metric} metric
- * @param {{ params: { [s: string]: any; } | ArrayLike<any>; path: string; analyticsId: string; debug: boolean; }} options
- */
-function sendToAnalytics(
-	metric: { id: any; name: any; value: { toString: () => any } },
-	options: {
-		params: { [s: string]: unknown } | ArrayLike<unknown>;
-		path: any;
-		analyticsId: any;
-		debug: any;
-	}
-) {
+interface NavigatorWithConnection extends Navigator {
+	connection?: {
+		effectiveType?: string;
+	};
+}
+
+function getConnectionSpeed(): string {
+	const connection = (navigator as NavigatorWithConnection).connection;
+	return connection?.effectiveType ?? '';
+}
+
+function sendToAnalytics(metric: Metric, options: AnalyticsOptions) {
 	const page = Object.entries(options.params).reduce(
 		(acc, [key, value]) => acc.replace(value, `[${key}]`),
 		options.path
 	);
 
-	const body = {
-		dsn: options.analyticsId,
-		id: metric.id,
+	const body: Record<string, string> = {
+		dsn: String(options.analyticsId),
+		id: String(metric.id),
 		page,
 		href: location.href,
-		event_name: metric.name,
+		event_name: String(metric.name),
 		value: metric.value.toString(),
 		speed: getConnectionSpeed()
 	};
@@ -50,25 +48,23 @@ function sendToAnalytics(
 	});
 	if (navigator.sendBeacon) {
 		navigator.sendBeacon(vitalsUrl, blob);
-	} else
+	} else {
 		fetch(vitalsUrl, {
 			body: blob,
 			method: 'POST',
 			credentials: 'omit',
 			keepalive: true
 		});
+	}
 }
 
-/**
- * @param {any} options
- */
-export function webVitals(options: any) {
+export function webVitals(options: AnalyticsOptions) {
 	try {
-		getFID((metric: any) => sendToAnalytics(metric, options));
-		getTTFB((metric: any) => sendToAnalytics(metric, options));
-		getLCP((metric: any) => sendToAnalytics(metric, options));
-		getCLS((metric: any) => sendToAnalytics(metric, options));
-		getFCP((metric: any) => sendToAnalytics(metric, options));
+		getFID((metric) => sendToAnalytics(metric, options));
+		getTTFB((metric) => sendToAnalytics(metric, options));
+		getLCP((metric) => sendToAnalytics(metric, options));
+		getCLS((metric) => sendToAnalytics(metric, options));
+		getFCP((metric) => sendToAnalytics(metric, options));
 	} catch (err) {
 		// Analytics error
 	}

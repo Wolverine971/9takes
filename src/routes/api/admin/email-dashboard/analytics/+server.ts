@@ -28,9 +28,9 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 
 	try {
 		const { data: analytics, error: analyticsError } = await supabase.rpc('get_email_analytics', {
-			p_campaign_id: campaignId || null,
-			p_from_date: fromDate || null,
-			p_to_date: toDate || null
+			p_campaign_id: campaignId || undefined,
+			p_from_date: fromDate || undefined,
+			p_to_date: toDate || undefined
 		});
 
 		if (analyticsError) {

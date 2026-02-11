@@ -30,7 +30,7 @@ export const load: PageServerLoad = async (event) => {
 			// Get first page of users
 			supabase.rpc('get_email_dashboard_users', {
 				p_source: 'all',
-				p_search: null,
+				p_search: undefined,
 				p_limit: 50,
 				p_offset: 0
 			}),
@@ -45,9 +45,9 @@ export const load: PageServerLoad = async (event) => {
 				.limit(10),
 			// Get overall analytics
 			supabase.rpc('get_email_analytics', {
-				p_campaign_id: null,
-				p_from_date: null,
-				p_to_date: null
+				p_campaign_id: undefined,
+				p_from_date: undefined,
+				p_to_date: undefined
 			}),
 			// Get cron status (from view created by migration)
 			supabase.from('email_cron_status').select('*').single()
@@ -56,7 +56,7 @@ export const load: PageServerLoad = async (event) => {
 	// Get total user count
 	const { data: totalCount } = await supabase.rpc('count_email_dashboard_users', {
 		p_source: 'all',
-		p_search: null
+		p_search: undefined
 	});
 
 	const analyticsDefaults = {
@@ -72,6 +72,10 @@ export const load: PageServerLoad = async (event) => {
 		click_rate: 0,
 		unsubscribe_rate: 0
 	};
+	const analyticsData =
+		analyticsResult.data && typeof analyticsResult.data === 'object' && !Array.isArray(analyticsResult.data)
+			? analyticsResult.data
+			: {};
 
 	return {
 		session,
@@ -79,7 +83,7 @@ export const load: PageServerLoad = async (event) => {
 		totalUsers: totalCount || 0,
 		drafts: draftsResult.data || [],
 		scheduledEmails: scheduledResult.data || [],
-		analytics: { ...analyticsDefaults, ...(analyticsResult.data || {}) },
+		analytics: { ...analyticsDefaults, ...analyticsData },
 		cronStatus: cronStatusResult.data || null
 	};
 };

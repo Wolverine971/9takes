@@ -1,5 +1,5 @@
 // src/routes/stripe/webhook.ts
-import type { RequestEvent, RequestHandler } from '@sveltejs/kit';
+import { json, type RequestHandler } from '@sveltejs/kit';
 import stripe from './_stripe';
 
 // todo: orefalo - properly gatekeep this variable
@@ -14,15 +14,13 @@ function toBuffer(ab: ArrayBuffer): Buffer {
 	return buf;
 }
 
-export const post: RequestHandler = async (event: RequestEvent) => {
-	// export async function post(req: Request<any, { data: any; type: any }>): Promise<Response> {
-	const req = event.request;
+export const POST: RequestHandler = async ({ request }) => {
 	// let data;
 	let eventType: string;
 	if (WEBHOOK_SECRET) {
 		// let event;
 
-		const _rawBody = await req.arrayBuffer();
+		const _rawBody = await request.arrayBuffer();
 		const payload = toBuffer(_rawBody);
 
 		// SvelteKit may sometimes modify the incoming request body
@@ -30,23 +28,19 @@ export const post: RequestHandler = async (event: RequestEvent) => {
 		// To avoid unintended SvelteKit modifications, we can use this workaround:
 		// const payload = Buffer.from(req.rawBody);
 
-		const signature = req.headers.get('stripe-signature');
+		const signature = request.headers.get('stripe-signature');
+		if (!signature) {
+			return json({ error: 'Missing Stripe signature' }, { status: 400 });
+		}
 		try {
 			const event = stripe.webhooks.constructEvent(payload, signature, WEBHOOK_SECRET);
-			const data = event.data;
 			eventType = event.type;
 		} catch (err) {
-			return {
-				status: 500,
-				headers: {},
-				body: JSON.stringify({
-					error: err
-				})
-			};
+			return json({ error: err }, { status: 500 });
 		}
 	} else {
 		// data = req.body.data;
-		eventType = (await req.formData()).get('type').toString();
+		eventType = String((await request.formData()).get('type') ?? '');
 	}
 
 	switch (eventType) {
@@ -71,11 +65,5 @@ export const post: RequestHandler = async (event: RequestEvent) => {
 		// Unhandled event type
 	}
 
-	return {
-		status: 200,
-		headers: {},
-		body: JSON.stringify({
-			message: 'Success'
-		})
-	};
+	return json({ message: 'Success' });
 };

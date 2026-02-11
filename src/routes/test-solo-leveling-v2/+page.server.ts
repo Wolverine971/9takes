@@ -23,7 +23,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	const questionOfTheDay =
 		top9Questions && top9Questions.length > 0 ? top9Questions[questionIndex] : null;
 
-	let images: Array<{ img_url: string; img_alt: string }> = [];
+	let images: any[] = [];
 
 	const { data: famousPeople, error: famousPeopleError } = await locals.supabase
 		.from('blogs_famous_people')
@@ -52,7 +52,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 			}
 			const slicedGroup = group.slice(0, gridSize);
 			slicedGroup.forEach((person) => {
-				let info = { ...person, type: key, url: person.link };
+				let info = { ...person, type: key, url: person.link ? person.name : undefined };
 				images.push(info);
 			});
 		}

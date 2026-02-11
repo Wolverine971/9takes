@@ -4,37 +4,51 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
-	let PUBLIC_GOOGLE = import.meta.env.PUBLIC_GOOGLE;
+	type AnalyticsWindow = Window & {
+		dataLayer?: unknown[];
+		gtag?: (...args: unknown[]) => void;
+		clarity?: (...args: unknown[]) => void;
+		[key: string]: unknown;
+	};
+
+	const PUBLIC_GOOGLE = String(import.meta.env.PUBLIC_GOOGLE ?? '');
 
 	function loadAnalytics() {
 		if (typeof window !== 'undefined' && !dev) {
+			const win = window as unknown as AnalyticsWindow;
+
 			// Load Google Analytics
 			const gaScript = document.createElement('script');
 			gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GOOGLE}`;
 			gaScript.defer = true;
 			document.head.appendChild(gaScript);
 
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
+			win.dataLayer = win.dataLayer || [];
+			const gtag = (...args: unknown[]) => {
+				win.dataLayer?.push(args);
+			};
+			win.gtag = gtag;
+
 			gtag('js', new Date());
 			gtag('config', PUBLIC_GOOGLE);
 
 			// Load Microsoft Clarity
 			if (document.URL.includes('9takes')) {
-				(function (c, l, a, r, i, t, y) {
-					c[a] =
-						c[a] ||
-						function () {
-							(c[a].q = c[a].q || []).push(arguments);
+				(function (c: AnalyticsWindow, l: Document, a: string, r: string, i: string) {
+					if (typeof c[a] !== 'function') {
+						const queue: unknown[][] = [];
+						c[a] = (...args: unknown[]) => {
+							queue.push(args);
 						};
-					t = l.createElement(r);
-					t.async = 1;
+						(c[a] as ((...args: unknown[]) => void) & { q?: unknown[][] }).q = queue;
+					}
+
+					const t = l.createElement(r) as HTMLScriptElement;
+					t.async = true;
 					t.src = 'https://www.clarity.ms/tag/' + i;
-					y = l.getElementsByTagName(r)[0];
-					y.parentNode.insertBefore(t, y);
-				})(window, document, 'clarity', 'script', 'g3hw5t1scg');
+					const y = l.getElementsByTagName(r)[0];
+					y.parentNode?.insertBefore(t, y);
+				})(window as unknown as AnalyticsWindow, document, 'clarity', 'script', 'g3hw5t1scg');
 			}
 		}
 	}
@@ -45,7 +59,8 @@
 	});
 
 	$: {
-		if (typeof gtag !== 'undefined') {
+		const gtag = (window as unknown as AnalyticsWindow | undefined)?.gtag;
+		if (typeof gtag === 'function') {
 			gtag('config', 'MEASUREMENT_ID', {
 				page_title: document.title,
 				page_path: $page.url.pathname

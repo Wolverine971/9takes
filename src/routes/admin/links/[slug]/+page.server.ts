@@ -33,6 +33,9 @@ export const load: PageServerLoad = async (event) => {
 
 	if (!user?.admin) {
 		if (linkDrop) {
+			if (!linkDrop.question_id) {
+				throw redirect(307, '/questions');
+			}
 			const { data: question, error: questionError } = await supabase
 				.from('questions')
 				.select('*')
@@ -58,6 +61,13 @@ export const load: PageServerLoad = async (event) => {
 				linkDrop
 			};
 		} else {
+			if (!linkDrop.question_id) {
+				return {
+					linkDrop,
+					question: null,
+					linkError: null
+				};
+			}
 			const { data: question, error: questionError } = await supabase
 				.from('questions')
 				.select('*')
@@ -100,9 +110,9 @@ export const actions: Actions = {
 			}
 
 			const body = Object.fromEntries(await request.formData());
-			const lat = body.lat;
-			const lng = body.lng;
-			const selectedQuestionURL = body.selectedQuestionURL;
+			const lat = String(body.lat ?? '');
+			const lng = String(body.lng ?? '');
+			const selectedQuestionURL = String(body.selectedQuestionURL ?? '');
 
 			const resp = await fetch(
 				`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${PRIVATE_GOOGLE_MAPS_API_KEY}`
@@ -111,7 +121,7 @@ export const actions: Actions = {
 			const jsonResp = await resp.json();
 
 			const extraInfo = jsonResp.results[0].address_components;
-			const { data: address, error: addressError } = await supabase
+			const { data: address, error: addressError } = await (supabase as any)
 				.from('addresses')
 				.upsert(
 					{
@@ -136,8 +146,8 @@ export const actions: Actions = {
 						country: jsonResp.results[0].address_components.filter((item: any) =>
 							item.types.includes('country')
 						)[0].short_name,
-						latitude: body.lat,
-						longitude: body.lng,
+						latitude: lat,
+						longitude: lng,
 						name: jsonResp.results[0].formatted_address,
 						extra_details: extraInfo
 					},
@@ -199,8 +209,8 @@ export const actions: Actions = {
 			}
 
 			const body = Object.fromEntries(await request.formData());
-			const selectedQuestionURL = body.selectedQuestionURL;
-			const linkDropExternalId = body.linkDropExternalId;
+			const selectedQuestionURL = String(body.selectedQuestionURL ?? '');
+			const linkDropExternalId = String(body.linkDropExternalId ?? '');
 
 			const { data: question, error: questionError } = await supabase
 				.from('questions')

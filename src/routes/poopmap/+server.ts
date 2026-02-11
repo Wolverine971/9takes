@@ -3,6 +3,8 @@ import { error } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 
 // const SITE_URL = '9takes.com';
+const db = supabase as any;
+
 const getAllPosts = async () => {
 	// const imports = import.meta.glob('/posts/**/*.md'); // make sure you get files from the right place
 	const community = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
@@ -55,20 +57,20 @@ const getAllPosts = async () => {
 };
 
 const getQuestions = async () => {
-	const { data: questions } = await supabase
+	const { data: questions } = await db
 		.from('questions')
 		.select('url, created_at')
 		.eq('flagged', false)
 		.eq('removed', false)
 		.eq('tagged', true);
 
-	return questions;
+	return (questions ?? []) as Array<{ url: string; created_at: string }>;
 };
 
 export async function GET() {
 	// return new Response();
 
-	const { data: personData, error: personDataError } = await supabase
+	const { data: personData, error: personDataError } = await db
 		.from('blogs_famous_people')
 		.select('*')
 		.eq('published', true)
@@ -79,7 +81,7 @@ export async function GET() {
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const peoplePosts: any = personData.map((e) => {
+	const peoplePosts: any = (personData ?? []).map((e: any) => {
 		return { ...e, slug: e.person };
 	});
 

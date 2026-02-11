@@ -1,21 +1,23 @@
 <!-- src/lib/components/map/Map.svelte -->
-<script>
+<script lang="ts">
 	import { setContext, onDestroy, createEventDispatcher } from 'svelte';
 	import { contextKey } from '$lib/components/map/mapbox';
 	import action from '$lib/components/map/map-action';
 	import { EventQueue } from '$lib/components/map/queue';
 
-	export let map = null;
+	type MapReadyDetail = { map: unknown; mapbox: unknown };
+
+	export let map: Record<string, (...args: unknown[]) => unknown> | null = null;
 	export let version = 'v2.12.0';
 	// 40.911552736237624, -73.9934208
 
-	export let center = [40.911552736237624, -73.9934208];
+	export let center: [number, number] = [40.911552736237624, -73.9934208];
 	export let zoom = 9;
 	export let zoomRate = 1;
 	export let wheelZoomRate = 1;
-	export let options = {};
-	export let accessToken;
-	export let customStylesheetUrl = false;
+	export let options: Record<string, unknown> = {};
+	export let accessToken = '';
+	export let customStylesheetUrl: string | false = false;
 	export let style = 'mapbox://styles/mapbox/dark-v10';
 
 	const dispatch = createEventDispatcher();
@@ -25,8 +27,8 @@
 		getMapbox: () => mapbox
 	});
 
-	let container;
-	let mapbox;
+	let container: HTMLElement | undefined;
+	let mapbox: unknown = null;
 
 	const optionsWithDefaults = Object.assign(
 		{
@@ -46,23 +48,24 @@
 
 	const queue = new EventQueue();
 
-	function init({ detail }) {
-		map = detail.map;
-		mapbox = detail.mapbox;
+	function init({ detail }: CustomEvent<unknown>) {
+		const readyDetail = detail as MapReadyDetail;
+		map = readyDetail.map as Record<string, (...args: unknown[]) => unknown>;
+		mapbox = readyDetail.mapbox;
 		queue.start(map);
 		dispatch('ready');
 	}
 
 	onDestroy(() => {
 		queue.stop();
-		map = undefined;
+		map = null;
 	});
 
-	export function fitBounds(bbox, data = {}) {
+	export function fitBounds(bbox: unknown, data: Record<string, unknown> = {}) {
 		queue.send('fitBounds', [bbox, data]);
 	}
 
-	export function flyTo(destination, data = {}) {
+	export function flyTo(destination: unknown, data: Record<string, unknown> = {}) {
 		queue.send('flyTo', [destination, data]);
 	}
 
@@ -70,15 +73,15 @@
 		queue.send('resize');
 	}
 
-	export function setCenter(coords, data = {}) {
+	export function setCenter(coords: unknown, data: Record<string, unknown> = {}) {
 		queue.send('setCenter', [coords, data]);
 	}
 
-	export function setZoom(value, data = {}) {
+	export function setZoom(value: number, data: Record<string, unknown> = {}) {
 		queue.send('setZoom', [value, data]);
 	}
 
-	export function addControl(control, position = 'top-right') {
+	export function addControl(control: unknown, position = 'top-right') {
 		queue.send('addControl', [control, position]);
 	}
 

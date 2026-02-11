@@ -8,10 +8,11 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
+	const client = data.client;
 
 	// Edit mode
 	let isEditing = false;
-	let editData = { ...data.client };
+	let editData = { ...client };
 
 	// Email modal state
 	let showEmailModal = false;
@@ -23,16 +24,16 @@
 	function openEmailModal() {
 		emailRecipients = [
 			{
-				id: data.client.id,
-				email: data.client.email,
-				name: data.client.name,
+				id: client.id,
+				email: client.email,
+				name: client.name,
 				source: 'coaching_waitlist',
-				source_id: data.client.waitlist_id || data.client.id,
-				enneagram: data.client.enneagram_type?.toString()
+				source_id: client.waitlist_id || client.id,
+				enneagram: client.enneagram_type?.toString()
 			}
 		];
 		// Pre-fill with personalized greeting
-		const firstName = data.client.name?.split(' ')[0] || 'there';
+		const firstName = client.name?.split(' ')[0] || 'there';
 		emailSubject = '';
 		emailContent = `<p>Hi ${firstName},</p>\n\n<p></p>\n\n<p>Best,<br>DJ</p>`;
 		showEmailModal = true;
@@ -52,16 +53,16 @@
 
 			if (result.type === 'success' && result.data?.intakeUrl) {
 				const intakeUrl = result.data.intakeUrl;
-				const firstName = data.client.name?.split(' ')[0] || 'there';
+				const firstName = client.name?.split(' ')[0] || 'there';
 
 				emailRecipients = [
 					{
-						id: data.client.id,
-						email: data.client.email,
-						name: data.client.name,
+						id: client.id,
+						email: client.email,
+						name: client.name,
 						source: 'coaching_waitlist',
-						source_id: data.client.waitlist_id || data.client.id,
-						enneagram: data.client.enneagram_type?.toString()
+						source_id: client.waitlist_id || client.id,
+						enneagram: client.enneagram_type?.toString()
 					}
 				];
 
@@ -135,6 +136,10 @@
 		});
 	}
 
+	function getTimestamp(dateStr: string | null): number {
+		return dateStr ? new Date(dateStr).getTime() : 0;
+	}
+
 	function closeNoteModal() {
 		showNoteModal = false;
 		noteTitle = '';
@@ -178,14 +183,14 @@
 	];
 
 	// Get upcoming sessions
-	$: upcomingSessions = (data.client.sessions || [])
+	$: upcomingSessions = (client.sessions || [])
 		.filter((s: any) => new Date(s.scheduled_at) >= new Date() && s.status !== 'cancelled')
 		.sort(
 			(a: any, b: any) => new Date(a.scheduled_at).getTime() - new Date(b.scheduled_at).getTime()
 		);
 
 	// Get past sessions
-	$: pastSessions = (data.client.sessions || [])
+	$: pastSessions = (client.sessions || [])
 		.filter((s: any) => new Date(s.scheduled_at) < new Date() || s.status === 'completed')
 		.sort(
 			(a: any, b: any) => new Date(b.scheduled_at).getTime() - new Date(a.scheduled_at).getTime()
@@ -197,8 +202,8 @@
 	<div class="page-header">
 		<div class="header-left">
 			<a href="/admin/consulting/clients" class="back-link"> &larr; All Clients </a>
-			<h1>{data.client.name}</h1>
-			<p class="client-email">{data.client.email}</p>
+			<h1>{client.name}</h1>
+			<p class="client-email">{client.email}</p>
 		</div>
 		<div class="header-actions">
 			{#if !isEditing}
@@ -220,7 +225,7 @@
 								class="btn btn-sm btn-secondary"
 								on:click={() => {
 									isEditing = false;
-									editData = { ...data.client };
+									editData = { ...client };
 								}}
 							>
 								Cancel
@@ -325,17 +330,16 @@
 					<div class="info-grid">
 						<div class="info-item">
 							<span class="info-label">Status</span>
-							<span class="status-badge status-{data.client.status}">
-								{statusOptions.find((s) => s.value === data.client.status)?.label ||
-									data.client.status}
+							<span class="status-badge status-{client.status}">
+								{statusOptions.find((s) => s.value === client.status)?.label || client.status}
 							</span>
 						</div>
 						<div class="info-item">
 							<span class="info-label">Trust Layer</span>
-							{#if data.client.trust_layer}
-								<span class="trust-badge trust-{data.client.trust_layer}">
-									{trustOptions.find((t) => t.value === data.client.trust_layer)?.label ||
-										data.client.trust_layer}
+							{#if client.trust_layer}
+								<span class="trust-badge trust-{client.trust_layer}">
+									{trustOptions.find((t) => t.value === client.trust_layer)?.label ||
+										client.trust_layer}
 								</span>
 							{:else}
 								<span class="unknown">Not assessed</span>
@@ -343,11 +347,11 @@
 						</div>
 						<div class="info-item">
 							<span class="info-label">Type</span>
-							{#if data.client.enneagram_type}
+							{#if client.enneagram_type}
 								<span class="type-badge">
-									Type {data.client.enneagram_type}
-									{#if data.client.enneagram_wing}w{data.client.enneagram_wing}{/if}
-									{#if data.client.enneagram_confirmed}
+									Type {client.enneagram_type}
+									{#if client.enneagram_wing}w{client.enneagram_wing}{/if}
+									{#if client.enneagram_confirmed}
 										<span class="confirmed-badge">Confirmed</span>
 									{/if}
 								</span>
@@ -357,26 +361,26 @@
 						</div>
 						<div class="info-item">
 							<span class="info-label">Phone</span>
-							<span>{data.client.phone || '-'}</span>
+							<span>{client.phone || '-'}</span>
 						</div>
 						<div class="info-item">
 							<span class="info-label">Source</span>
-							<span>{data.client.source || '-'}</span>
+							<span>{client.source || '-'}</span>
 						</div>
 						<div class="info-item">
 							<span class="info-label">Client Since</span>
-							<span>{formatDate(data.client.created_at)}</span>
+							<span>{formatDate(client.created_at)}</span>
 						</div>
-						{#if data.client.initial_goal}
+						{#if client.initial_goal}
 							<div class="info-item full-width">
 								<span class="info-label">Initial Goal</span>
-								<p class="goal-text">{data.client.initial_goal}</p>
+								<p class="goal-text">{client.initial_goal}</p>
 							</div>
 						{/if}
-						{#if data.client.notes}
+						{#if client.notes}
 							<div class="info-item full-width">
 								<span class="info-label">Notes</span>
-								<p class="notes-text">{data.client.notes}</p>
+								<p class="notes-text">{client.notes}</p>
 							</div>
 						{/if}
 					</div>
@@ -387,14 +391,14 @@
 			<section class="section-card">
 				<div class="section-header">
 					<h2>Intake Form</h2>
-					{#if !data.client.intake?.length}
+					{#if !client.intake?.length}
 						<button class="btn btn-sm btn-primary" on:click={openIntakeEmailModal}>
 							{isGettingIntakeLink ? 'Creating...' : 'Send Intake'}
 						</button>
 					{/if}
 				</div>
-				{#if data.client.intake?.length}
-					{@const intake = data.client.intake[0]}
+				{#if client.intake?.length}
+					{@const intake = client.intake[0]}
 					<div class="intake-summary">
 						<div class="intake-status-row">
 							<span class="intake-status intake-{intake.status}">{intake.status}</span>
@@ -541,9 +545,9 @@
 						+ Add Note
 					</button>
 				</div>
-				{#if data.client.notes?.length}
+				{#if client.notes?.length}
 					<div class="notes-list">
-						{#each data.client.notes.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime()) as note}
+						{#each client.notes.sort((a, b) => getTimestamp(b.created_at) - getTimestamp(a.created_at)) as note}
 							<div class="note-item note-{note.note_type}">
 								<div class="note-header">
 									<span class="note-type">{note.note_type}</span>
@@ -569,7 +573,7 @@
 				<h3>Quick Actions</h3>
 				<div class="quick-actions">
 					<button class="action-btn email-btn" on:click={openEmailModal}> Send Email </button>
-					{#if !data.client.intake?.length || data.client.intake[0]?.status === 'pending'}
+					{#if !client.intake?.length || client.intake[0]?.status === 'pending'}
 						<button
 							class="action-btn intake-btn"
 							on:click={openIntakeEmailModal}
@@ -577,7 +581,7 @@
 						>
 							{isGettingIntakeLink ? 'Creating...' : 'Send Intake Form'}
 						</button>
-					{:else if data.client.intake[0]?.status === 'sent'}
+					{:else if client.intake[0]?.status === 'sent'}
 						<button
 							class="action-btn intake-btn"
 							on:click={openIntakeEmailModal}
@@ -594,15 +598,15 @@
 			</section>
 
 			<!-- Type Quick Reference -->
-			{#if data.client.enneagram_type}
+			{#if client.enneagram_type}
 				<section class="section-card compact">
-					<h3>Type {data.client.enneagram_type} Reference</h3>
+					<h3>Type {client.enneagram_type} Reference</h3>
 					<div class="type-reference">
 						<a href="/admin/consulting/resources/type-specific-questions" class="ref-link">
 							Type Questions
 						</a>
 						<a
-							href="/enneagram-corner/enneagram-type-{data.client.enneagram_type}"
+							href="/enneagram-corner/enneagram-type-{client.enneagram_type}"
 							target="_blank"
 							class="ref-link"
 						>

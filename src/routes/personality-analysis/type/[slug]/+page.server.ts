@@ -1,15 +1,18 @@
 // src/routes/personality-analysis/type/[slug]/+page.server.ts
-import { supabase } from '$lib/supabase';
 import type { Actions } from './$types';
 
 import type { PageServerLoad } from './$types';
-import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
+import type { Database } from '../../../../../database.types';
+
+type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
+type PersonPost = FamousPersonRow & { slug: string };
 
 export const load: PageServerLoad = async ({
-	url,
-	params
+	params,
+	locals
 }): Promise<{ people: App.BlogPost[]; slug: string }> => {
+	const supabase = locals.supabase;
 	const slug = params.slug;
 
 	const { data: personData, error: personDataError } = await supabase
@@ -23,29 +26,33 @@ export const load: PageServerLoad = async ({
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const posts: any = personData;
+	const posts: FamousPersonRow[] = personData ?? [];
 
 	// const posts: any = await getAllPosts(slug);
-	const publishedPosts = posts.map((e) => {
-		return { ...e, slug: e.person };
+	const publishedPosts: PersonPost[] = posts.map((e) => {
+		return { ...e, slug: e.person ?? '' };
 	});
 
-	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
+	publishedPosts.sort((a, b) =>
+		new Date(a.date ?? a.lastmod ?? 0) > new Date(b.date ?? b.lastmod ?? 0) ? -1 : 1
+	);
 
-	return { people: publishedPosts, slug };
+	return { people: publishedPosts as unknown as App.BlogPost[], slug };
 };
 
 export const actions: Actions = {
-	createComment: async ({ request, getClientAddress }) => {
+	createComment: async ({ request, getClientAddress, locals }) => {
 		try {
+			const supabase = locals.supabase as any;
 			const body = Object.fromEntries(await request.formData());
 
-			const comment = body.comment as string;
-			const author_id = body.author_id === 'undefined' ? null : body.author_id;
-			const blog_link = body.blog_link;
+			const comment = String(body.comment ?? '');
+			const rawAuthorId = String(body.author_id ?? '');
+			const author_id = rawAuthorId && rawAuthorId !== 'undefined' ? rawAuthorId : null;
+			const blog_link = String(body.blog_link ?? '');
 			const blog_type = 'personality-analysis';
 			const ip = getClientAddress();
-			const fingerprint = body.fingerprint as string;
+			const fingerprint = String(body.fingerprint ?? '');
 
 			const { data: insertedComment, error: insertedCommentError } = await supabase
 				.from('blog_comments')

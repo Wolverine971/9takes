@@ -12,7 +12,7 @@
 
 ## 1) The Through-Line: Status -> Systems -> Teaching
 
-Across all three conversations, Ali is extremely consistent about the *function* his work serves:
+Across all three conversations, Ali is extremely consistent about the _function_ his work serves:
 
 - He wants to **teach** (first: students; later: the internet; ultimately: “teaching at scale”).
 - He uses **systems** as the delivery vehicle (frameworks, checklists, “make it easy,” repeatable routines).
@@ -26,7 +26,7 @@ steer the wheel.
 ## 2) Prestige Is the Hidden Variable (And He Knows It)
 
 The most revealing material is in the 2021 Pathless Path interview, where he openly ranks career moves by perceived
-legitimacy and admits the *doctor identity* pull is about status rather than saving lives.
+legitimacy and admits the _doctor identity_ pull is about status rather than saving lives.
 
 The pattern is:
 
@@ -52,7 +52,7 @@ Ali’s default is to turn almost any domain into a system:
 This creates real leverage, but it also creates a predictable failure mode:
 
 - He can keep “planning the fun” without fully inhabiting it.
-- He can substitute *consumption + ideation* for rest (breaks become “not work-work”).
+- He can substitute _consumption + ideation_ for rest (breaks become “not work-work”).
 
 The 2024 Not Overthinking episode makes that failure mode obvious: even honeymoon activities get evaluated on
 “skill-building” vs “passive nature,” and “certainty-seeking” shows up in how he frames marriage.
@@ -66,8 +66,8 @@ One of the most consistent “tells” is that Ali’s motivation is tightly cou
 - In Pathless Path, he says if he had to hit **delete** instead of **publish**, he wouldn’t make videos.
 - He would still write, but only if it could be published (even under a pseudonym).
 
-This is important because it clarifies what “teaching” means for him: it’s not only self-expression, it’s a *relational
-act* that requires a receiver.
+This is important because it clarifies what “teaching” means for him: it’s not only self-expression, it’s a _relational
+act_ that requires a receiver.
 
 This also explains why he’s unusually thoughtful about identity labels (“doctor,” “YouTuber,” “junior doctor”):
 labels are proxies for how others will treat him, and his nervous system is paying attention to that.
@@ -77,7 +77,7 @@ labels are proxies for how others will treat him, and his nervous system is payi
 ## 5) Practical Creator Takeaways (From These Three Files)
 
 1. **If you want consistency, make the work fun** (not noble, not disciplined, not “should”).
-2. **Build in a prestige audit**: list the options you *want*, then list the options you think “count.” That gap is the
+2. **Build in a prestige audit**: list the options you _want_, then list the options you think “count.” That gap is the
    real decision problem.
 3. **Treat “I can’t stop thinking about work” as a design issue**: your “rest” might need stronger guardrails than your
    “work.”
@@ -92,4 +92,3 @@ Ali Abdaal is a systems-minded teacher with unusually explicit self-awareness ab
 choices. His best content comes from the tension between “optimize the system” and “live the life,” and these three
 transcripts show that his long-term growth is about converting status-driven energy into values-driven work without
 losing the playfulness that makes the work sustainable.
-

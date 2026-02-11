@@ -2,7 +2,7 @@
 // https://supabase.com/blog/supabase-auth-helpers-with-sveltekit-support
 declare namespace App {
 	interface Supabase {
-		Database: import('./src/schema').Database;
+		Database: import('./database.types').Database;
 		SchemaName: 'public';
 	}
 

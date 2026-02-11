@@ -1,5 +1,9 @@
 // src/utils/conversions.ts
 import { supabase } from '$lib/supabase';
+import type { Database } from '../../database.types';
+
+type QuestionRow = Database['public']['Tables']['questions']['Row'];
+type ParentCommentRow = Database['public']['Tables']['comments']['Row'];
 
 export const convertDateToReadable = (date: string): string => {
 	const dateObj = new Date(date);
@@ -14,53 +18,61 @@ interface Comment {
 	id: number;
 	parent_id: number | null;
 	parent_type: string;
-	parentQuestion?: any;
-	parentComment?: any;
+	parentQuestion?: QuestionRow;
+	parentComment?: ParentCommentRow;
 }
 
 export const getCommentParents = async (comments: Comment[]): Promise<Comment[]> => {
 	const commentsOnQuestions = comments.filter(
-		(comment) => comment.parent_id !== null && comment.parent_type === 'question'
+		(comment): comment is Comment & { parent_id: number } =>
+			comment.parent_id !== null && comment.parent_type === 'question'
 	);
 	const commentsOnComments = comments.filter(
-		(comment) => comment.parent_id !== null && comment.parent_type !== 'question'
+		(comment): comment is Comment & { parent_id: number } =>
+			comment.parent_id !== null && comment.parent_type !== 'question'
 	);
 
-	const { data: questions, error: questionsError } = await supabase
-		.from('questions')
-		.select(`*`)
-		.in(
-			'id',
-			commentsOnQuestions.map((comment) => comment.parent_id)
-		);
+	const questionMap: Record<number, QuestionRow> = {};
+	const questionParentIds = commentsOnQuestions.map((comment) => comment.parent_id);
+	if (questionParentIds.length) {
+		const { data: questionsData, error: questionsError } = await supabase
+			.from('questions')
+			.select('*')
+			.in('id', questionParentIds);
 
-	if (questionsError) {
-		throw new Error(`Failed to get parent questions ${JSON.stringify(questionsError)}`);
+		if (questionsError) {
+			throw new Error(`Failed to get parent questions ${JSON.stringify(questionsError)}`);
+		}
+
+		const questions = (questionsData ?? []) as QuestionRow[];
+		for (const question of questions) {
+			questionMap[question.id] = question;
+		}
 	}
 
-	const questionMap: { [key: number]: any } = {};
-	questions.forEach((question) => {
-		questionMap[question.id] = question;
-	});
+	const commentMap: Record<number, ParentCommentRow> = {};
+	const commentParentIds = commentsOnComments.map((comment) => comment.parent_id);
+	if (commentParentIds.length) {
+		const { data: parentCommentsData, error: parentCommentsError } = await supabase
+			.from('comments')
+			.select('*')
+			.in('id', commentParentIds);
 
-	const { data: cOnComments, error: cOnCommentsError } = await supabase
-		.from('questions')
-		.select(`*`)
-		.in(
-			'id',
-			commentsOnComments.map((comment) => comment.parent_id)
-		);
+		if (parentCommentsError) {
+			throw new Error(`Failed to get parent comments ${JSON.stringify(parentCommentsError)}`);
+		}
 
-	if (cOnCommentsError) {
-		throw new Error(`Failed to get parent comments ${JSON.stringify(cOnCommentsError)}`);
+		const parentComments = (parentCommentsData ?? []) as ParentCommentRow[];
+		for (const parentComment of parentComments) {
+			commentMap[parentComment.id] = parentComment;
+		}
 	}
-
-	const commentMap: { [key: number]: any } = {};
-	cOnComments.forEach((comment) => {
-		commentMap[comment.id] = comment;
-	});
 
 	comments.forEach((comment) => {
+		if (comment.parent_id === null) {
+			return;
+		}
+
 		if (comment.parent_type === 'question') {
 			comment.parentQuestion = questionMap[comment.parent_id];
 		} else {

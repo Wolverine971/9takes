@@ -22,8 +22,8 @@ export const load: PageLoad = async ({ params }) => {
 		resolver().then(
 			(post) =>
 				({
-					slug: slugFromPath(path),
-					...(post as unknown as App.MdsvexFile).metadata
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
 				}) as App.BlogPost
 		)
 	);
@@ -34,8 +34,8 @@ export const load: PageLoad = async ({ params }) => {
 		.filter(
 			(p) =>
 				(post?.metadata.enneagram &&
-					p?.enneagram === parseInt(post?.metadata.enneagram as string)) ||
-				(post?.metadata?.type[0] && p.type?.includes(post?.metadata.type[0]))
+					p?.enneagram === Number(post?.metadata.enneagram)) ||
+				(post?.metadata?.type?.[0] && p.type?.includes(post.metadata.type[0]))
 		)
 		.filter((p) => params.slug !== p.slug)
 		.slice(0, MAX_POSTS);

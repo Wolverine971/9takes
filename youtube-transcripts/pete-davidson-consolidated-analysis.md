@@ -106,4 +106,3 @@ Pete Davidson’s story across these transcripts is not “celebrity chaos.” I
 trauma can wire abandonment expectations, how comedy can both protect and trap, and how recovery is less about willpower
 and more about building a support system and skill set (DBT, sobriety communities, routines) that can hold a nervous
 system calibrated for loss.
-

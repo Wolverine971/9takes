@@ -4,7 +4,10 @@ import type { RequestHandler } from './$types';
 
 // GET - Fetch full content including markdown and history
 export const GET: RequestHandler = async ({ params, locals }) => {
-	const { id } = params;
+	const contentId = Number(params.id);
+	if (!Number.isFinite(contentId)) {
+		throw error(400, 'Invalid content ID');
+	}
 	const supabase = locals.supabase;
 	const session = locals.session;
 
@@ -28,7 +31,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	const { data, error: fetchError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
-		.eq('id', id)
+		.eq('id', contentId)
 		.single();
 
 	if (fetchError) {
@@ -40,16 +43,14 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	const { data: history } = await supabase
 		.from('blogs_famous_people_history')
 		.select('id, changed_at, old_content, new_content')
-		.eq('famous_people_id', id)
+		.eq('famous_people_id', contentId)
 		.order('changed_at', { ascending: false })
 		.limit(5);
 
 	// Fetch stage from content_people
-	const { data: stageData } = await supabase
-		.from('content_people')
-		.select('stageName')
-		.eq('loc', data.loc)
-		.single();
+	const { data: stageData } = data.loc
+		? await supabase.from('content_people').select('stageName').eq('loc', data.loc).single()
+		: { data: null };
 
 	return json({
 		...data,
@@ -60,7 +61,10 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 
 // PUT - Update content
 export const PUT: RequestHandler = async ({ params, request, locals }) => {
-	const { id } = params;
+	const contentId = Number(params.id);
+	if (!Number.isFinite(contentId)) {
+		throw error(400, 'Invalid content ID');
+	}
 	const supabase = locals.supabase;
 	const session = locals.session;
 
@@ -116,7 +120,7 @@ export const PUT: RequestHandler = async ({ params, request, locals }) => {
 	const { data, error: updateError } = await supabase
 		.from('blogs_famous_people')
 		.update(safeUpdates)
-		.eq('id', id)
+		.eq('id', contentId)
 		.select()
 		.single();
 

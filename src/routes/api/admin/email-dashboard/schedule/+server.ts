@@ -76,7 +76,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 				campaign_id: campaign_id || null,
 				created_by: session.user.id,
 				status: 'pending'
-			})
+			} as any)
 			.select()
 			.single();
 

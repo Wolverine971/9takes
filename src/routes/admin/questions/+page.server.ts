@@ -4,18 +4,27 @@ import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../../utils/api';
 import { tagQuestion } from '../../../utils/server/openai';
 import { mapDemoValues } from '../../../utils/demo';
+import type { Database } from '../../../../database.types';
 
 // Helper functions to reduce repetition
-async function validateAdmin(session, demoTime, supabase) {
+type AdminProfile = Pick<Database['public']['Tables']['profiles']['Row'], 'id' | 'admin' | 'external_id'>;
+type QuestionKeywordRow = Database['public']['Tables']['question_keywords']['Row'];
+
+async function validateAdmin(
+	session: App.Locals['session'],
+	demoTime: boolean | null | undefined,
+	supabase: App.Locals['supabase']
+): Promise<AdminProfile> {
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
 
-	const { data: user, error: findUserError } = await supabase
+	const db = supabase as any;
+	const { data: user, error: findUserError } = (await db
 		.from(demoTime ? 'profiles_demo' : 'profiles')
 		.select('id, admin, external_id')
 		.eq('id', session.user.id)
-		.single();
+		.single()) as { data: AdminProfile | null; error: unknown };
 
 	if (findUserError) {
 		console.error('Error finding user:', findUserError);
@@ -35,12 +44,13 @@ export const load: PageServerLoad = async (event) => {
 		const session = event.locals.session;
 		const supabase = event.locals.supabase;
 		const { demo_time } = await event.parent();
+		const db = supabase as any;
 
 		// Validate user is an admin
 		const user = await validateAdmin(session, demo_time, supabase);
 
 		// Get questions with related data
-		const { data: questions, error: questionsError } = await supabase
+		const { data: questions, error: questionsError } = await db
 			.from(demo_time ? 'questions_demo' : 'questions')
 			.select(
 				`*, question_tag(*), ${demo_time ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)`
@@ -72,16 +82,22 @@ export const load: PageServerLoad = async (event) => {
 		}
 
 		// Map keywords to questions
-		const questionKeywordsMap = questionKeywords.reduce((map, content) => {
-			map[content.question_id] = content;
-			return map;
-		}, {});
+		const questionKeywordsMap = (questionKeywords ?? []).reduce(
+			(map: Record<number, QuestionKeywordRow>, content) => {
+				if (content.question_id !== null) {
+					map[content.question_id] = content;
+				}
+				return map;
+			},
+			{}
+		);
 
-		const questionsWithKeywords = questions.map((question) => {
-			if (questionKeywordsMap[question.id]) {
+		const questionsWithKeywords = (questions ?? []).map((question: any) => {
+			const keywordRow = questionKeywordsMap[question.id];
+			if (keywordRow) {
 				return {
 					...question,
-					keywords: questionKeywordsMap[question.id].keywords.split(',')
+					keywords: (keywordRow.keywords ?? '').split(',').filter(Boolean)
 				};
 			}
 			return question;
@@ -95,7 +111,7 @@ export const load: PageServerLoad = async (event) => {
 		};
 	} catch (err) {
 		// Pass through redirects and errors
-		if (err.status) throw err;
+		if (err && typeof err === 'object' && 'status' in err) throw err;
 
 		console.error('Unexpected error in load function:', err);
 		throw error(500, { message: 'An unexpected error occurred' });
@@ -115,11 +131,11 @@ export const actions: Actions = {
 
 			// Get question data from form
 			const body = Object.fromEntries(await request.formData());
-			const questionId = body.questionId as string;
-			const questionText = body.questionText as string;
+			const questionId = Number.parseInt(String(body.questionId ?? '0'), 10);
+			const questionText = String(body.questionText ?? '');
 
 			// Process question tagging
-			await tagQuestion(supabase, questionText, parseInt(questionId));
+			await tagQuestion(supabase, questionText, questionId);
 
 			return { success: true };
 		} catch (e) {
@@ -140,11 +156,11 @@ export const actions: Actions = {
 
 			// Get question data from form
 			const body = Object.fromEntries(await request.formData());
-			const questionId = body.questionId as string;
-			const questionText = body.questionText as string;
+			const questionId = Number.parseInt(String(body.questionId ?? '0'), 10);
+			const questionText = String(body.questionText ?? '');
 
 			// Process question tagging
-			await tagQuestion(supabase, questionText, parseInt(questionId));
+			await tagQuestion(supabase, questionText, questionId);
 
 			return { success: true };
 		} catch (e) {
@@ -157,22 +173,24 @@ export const actions: Actions = {
 	updateUserAccount: async ({ request, locals }) => {
 		try {
 			const session = locals?.session;
-			const demo_time = await checkDemoTime();
+			const supabase = locals.supabase;
+			const demo_time = await checkDemoTime(supabase);
+			const db = supabase as any;
 
 			// Validate user is an admin
-			await validateAdmin(session, demo_time);
+			await validateAdmin(session, demo_time, supabase);
 
 			// Get user data from form
 			const body = Object.fromEntries(await request.formData());
 			const userData = {
-				first_name: body.firstName as string,
-				last_name: body.lastName as string,
-				enneagram: body.enneagram as string
+				first_name: String(body.firstName ?? ''),
+				last_name: String(body.lastName ?? ''),
+				enneagram: String(body.enneagram ?? '')
 			};
-			const email = body.email as string;
+			const email = String(body.email ?? '');
 
 			// Update user in database
-			const { error: updateUserError } = await supabase
+			const { error: updateUserError } = await db
 				.from(demo_time ? 'profiles_demo' : 'profiles')
 				.update(userData)
 				.eq('email', email);
@@ -188,7 +206,7 @@ export const actions: Actions = {
 		} catch (e) {
 			console.error('Failed to update user:', e);
 			throw error(400, {
-				message: `Failed to update user: ${e.message || 'Unknown error'}`
+				message: `Failed to update user: ${e instanceof Error ? e.message : 'Unknown error'}`
 			});
 		}
 	}

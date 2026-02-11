@@ -1,10 +1,10 @@
 ---
-title: "Kim Kardashian | Angie Martinez IRL Podcast"
-channel: "Angie Martinez"
-channel_url: "https://www.youtube.com/@AngieMartinez"
-video_url: "https://www.youtube.com/watch?v=Y5pBkYb0jSw"
-upload_date: "2022-12-26"
-duration: "58:09"
+title: 'Kim Kardashian | Angie Martinez IRL Podcast'
+channel: 'Angie Martinez'
+channel_url: 'https://www.youtube.com/@AngieMartinez'
+video_url: 'https://www.youtube.com/watch?v=Y5pBkYb0jSw'
+upload_date: '2022-12-26'
+duration: '58:09'
 description: |
   This week on Angie Martinez IRL Podcast, Angie is coming to you live from one of the most zen places on earth... Kim Kardashian's office. Kim has a "big life" full of tons of opinions but has somehow mastered remaining calm mentally and emotionally despite it all. She admits she doesn't look at comments, is open to self-correction, and believes in the room for redemption but reveals that the robbery in Paris is what really shifted her values in a major way.
 
@@ -25,41 +25,42 @@ tags:
   - Balenciaga
   - fashion
 timestamps:
-  - time: "0:00"
-    label: "Intro"
-  - time: "1:14"
-    label: "Kim has a color palette all employees follow"
-  - time: "3:58"
-    label: "How Kim manages stress"
-  - time: "6:24"
-    label: "Kim on the burden of fame"
-  - time: "8:55"
-    label: "How Kim protects her kids from negative press about Kanye"
-  - time: "10:31"
-    label: "Kim gets emotional about coparenting challenges"
-  - time: "12:44"
+  - time: '0:00'
+    label: 'Intro'
+  - time: '1:14'
+    label: 'Kim has a color palette all employees follow'
+  - time: '3:58'
+    label: 'How Kim manages stress'
+  - time: '6:24'
+    label: 'Kim on the burden of fame'
+  - time: '8:55'
+    label: 'How Kim protects her kids from negative press about Kanye'
+  - time: '10:31'
+    label: 'Kim gets emotional about coparenting challenges'
+  - time: '12:44'
     label: "Kim and North's TikTok"
-  - time: "13:05"
+  - time: '13:05'
     label: "North West's hidden talent"
-  - time: "15:35"
-    label: "The kids will thank Kim for not bashing their dad"
-  - time: "16:18"
-    label: "Balenciaga"
-  - time: "20:36"
-    label: "Kim is open to criticism and self correction"
-  - time: "25:34"
-    label: "Kris Jenner feels guilty about pushing her family to fame"
-  - time: "28:55"
-    label: "Criminal cases Kim is currently working on"
-  - time: "33:18"
+  - time: '15:35'
+    label: 'The kids will thank Kim for not bashing their dad'
+  - time: '16:18'
+    label: 'Balenciaga'
+  - time: '20:36'
+    label: 'Kim is open to criticism and self correction'
+  - time: '25:34'
+    label: 'Kris Jenner feels guilty about pushing her family to fame'
+  - time: '28:55'
+    label: 'Criminal cases Kim is currently working on'
+  - time: '33:18'
     label: "Why Kim doesn't believe in cancelling people"
-  - time: "34:04"
-    label: "Kim on causing fashion trends and not being materialistic"
-  - time: "43:18"
-    label: "Dating life"
-  - time: "46:00"
-    label: "Kim feels at peace in life"
-transcribed_date: "2026-02-10"
+  - time: '34:04'
+    label: 'Kim on causing fashion trends and not being materialistic'
+  - time: '43:18'
+    label: 'Dating life'
+  - time: '46:00'
+    label: 'Kim feels at peace in life'
+transcribed_date: '2026-02-10'
+path: youtube-transcripts/kim-kardashian-angie-martinez.md
 ---
 
 # Kim Kardashian | Angie Martinez IRL Podcast

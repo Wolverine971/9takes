@@ -76,7 +76,7 @@ export const actions: Actions = {
 			const { privateKey } = JSON.parse(PRIVATE_gmail_private_key);
 			const authClient = new google.auth.JWT(
 				'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
-				null,
+				undefined,
 				privateKey,
 				['https://www.googleapis.com/auth/calendar'],
 				'usersup@9takes.com'
@@ -201,7 +201,7 @@ const sendEmail = async ({ to, subject, body }: { to: string; subject: string; b
 		const { privateKey } = JSON.parse(PRIVATE_gmail_private_key);
 		const authClient = new google.auth.JWT(
 			'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
-			null,
+			undefined,
 			privateKey,
 			['https://www.googleapis.com/auth/gmail.send'],
 			'usersup@9takes.com'

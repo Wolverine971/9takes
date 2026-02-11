@@ -89,7 +89,7 @@ This fits her broader operating model: reduce variance, reduce risk, keep the sy
 ## 6) Practical Takeaways (Non-Clinical)
 
 1. If you want calm, start with environment and schedule design before mindset.
-2. In high-stakes conflict, optimize for the *future audience* (kids, team, reputation in five years), not current
+2. In high-stakes conflict, optimize for the _future audience_ (kids, team, reputation in five years), not current
    commenters.
 3. When controversy hits, decide the action first, then speak. Statements without decisions invite endless follow-ups.
 
@@ -101,4 +101,3 @@ The consolidated portrait is not “celebrity as chaos.” It’s “celebrity a
 across very different hosts and contexts is that she treats composure, privacy, and stability as engineered outcomes.
 Her central narrative is converting exposure into infrastructure and using that infrastructure to protect her kids,
 protect her inner world, and pursue purpose-driven work that outlasts internet cycles.
-

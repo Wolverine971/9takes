@@ -1,26 +1,27 @@
 // src/routes/admin/questions/hierarchy/+page.server.ts
-import { supabase } from '$lib/supabase';
 import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import { mapDemoValues } from '../../../../utils/demo';
+
+type DistinctTagRow = { tag_id: number };
+type QuestionTagRow = { removed?: boolean | null; [key: string]: unknown };
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	try {
 		const { demo_time } = await event.parent();
-		const session = event.locals.session;
+		const supabase = event.locals.supabase;
+		const db = supabase as any;
 
-		const { data: uniquetags, error: tagsError } = await supabase
+		const { data: uniquetags, error: tagsError } = (await db
 			.from(demo_time === true ? 'distinct_question_tags_demo' : 'distinct_question_tags')
-			.select();
+			.select()) as { data: DistinctTagRow[] | null; error: unknown };
 
 		if (tagsError) {
 			console.log(tagsError);
 		}
 
-		const tags = uniquetags?.map((t) => {
-			return t.tag_id;
-		});
+		const tags = uniquetags?.map((t) => t.tag_id);
 		if (!tags) {
 			return {
 				questionSubcategories: [],
@@ -28,10 +29,9 @@ export const load: PageServerLoad = async (event) => {
 			};
 		}
 
-		const { data: questionsAndTags, error: findQuestionsError } = await supabase.rpc(
-			'get_10_question_tags',
-			{}
-		);
+		const { data: questionsAndTags, error: findQuestionsError } = (await db.rpc(
+			'get_10_question_tags'
+		)) as { data: QuestionTagRow[] | null; error: unknown };
 
 		if (findQuestionsError) {
 			console.log(findQuestionsError);
@@ -48,16 +48,11 @@ export const load: PageServerLoad = async (event) => {
 		if (demo_time === true) {
 			return {
 				questionSubcategories,
-				questionsAndTags: mapDemoValues(questionsAndTags).filter((q) => {
-					return !q.removed;
-				})
+				questionsAndTags: (mapDemoValues(questionsAndTags) ?? []).filter((q) => !q.removed)
 			};
 		}
 
-		const { data: categories, error: categoriesError } = await supabase.rpc(
-			'get_category_hierarchy',
-			{}
-		);
+		const { data: categories, error: categoriesError } = await db.rpc('get_category_hierarchy');
 		if (categoriesError) console.error('Error fetching categories:', categoriesError);
 
 		return {

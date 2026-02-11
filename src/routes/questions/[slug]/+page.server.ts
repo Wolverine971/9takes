@@ -251,7 +251,7 @@ interface RequestData {
 
 async function getRequestData(request: Request): Promise<RequestData> {
 	const body = Object.fromEntries(await request.formData());
-	const demo_time = await checkDemoTime();
+	const demo_time = (await checkDemoTime()) === true;
 	return { body, demo_time };
 }
 

@@ -79,7 +79,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			// Update existing draft
 			const { data, error: updateError } = await supabase
 				.from('email_drafts')
-				.update(draftData)
+				.update(draftData as any)
 				.eq('id', id)
 				.select()
 				.single();
@@ -96,7 +96,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 				.insert({
 					...draftData,
 					created_by: session.user.id
-				})
+				} as any)
 				.select()
 				.single();
 

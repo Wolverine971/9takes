@@ -1,23 +1,20 @@
 // src/routes/stripe/checkout-session.ts
-import type { RequestEvent, RequestHandler } from '@sveltejs/kit';
+import { json, type RequestHandler } from '@sveltejs/kit';
 import stripe from './_stripe';
 
-export const post: RequestHandler = async (event: RequestEvent) => {
-	const req = event.request;
-
-	const formData = await req.json();
+export const POST: RequestHandler = async ({ request, url }) => {
+	const formData = await request.json();
 	const priceId = formData.priceId;
 
 	if (typeof priceId !== 'string') {
-		return {
-			status: 400,
-			headers: {},
-			body: JSON.stringify({
+		return json(
+			{
 				error: {
 					message: 'priceId is required'
 				}
-			})
-		};
+			},
+			{ status: 400 }
+		);
 	}
 
 	try {
@@ -30,23 +27,16 @@ export const post: RequestHandler = async (event: RequestEvent) => {
 					quantity: 1
 				}
 			],
-			success_url: `http://${event.url.host}/counter?sessionId={CHECKOUT_SESSION_ID}`,
-			cancel_url: `http://${event.url.host}/`
+			success_url: `http://${url.host}/counter?sessionId={CHECKOUT_SESSION_ID}`,
+			cancel_url: `http://${url.host}/`
 		});
-		return {
-			status: 200,
-			headers: {},
-			body: JSON.stringify({
-				sessionId: session.id
-			})
-		};
+		return json({ sessionId: session.id });
 	} catch (err) {
-		return {
-			status: 500,
-			headers: {},
-			body: JSON.stringify({
+		return json(
+			{
 				error: err
-			})
-		};
+			},
+			{ status: 500 }
+		);
 	}
 };

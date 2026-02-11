@@ -1,10 +1,12 @@
 <!-- src/lib/components/map/geocoder/Geocoder.svelte -->
-<script>
+<script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import action from '$lib/components/map/geocoder/geocoder-action';
 
-	export let accessToken;
-	export let options = {};
+	type GeocoderReadyDetail = { geocoder: unknown };
+
+	export let accessToken = '';
+	export let options: Record<string, unknown> = {};
 	export let version = 'v4.5.1';
 	export let types = [
 		'country',
@@ -17,9 +19,9 @@
 		'address'
 	];
 	export let placeholder = 'Search';
-	export let value = null;
-	export let customStylesheetUrl = false;
-	export let geocoder;
+	export let value: string | null = null;
+	export let customStylesheetUrl: string | false = false;
+	export let geocoder: unknown = null;
 
 	const dispatch = createEventDispatcher();
 	const fieldId = 'bsm-' + Math.random().toString(36).substring(6);
@@ -36,8 +38,8 @@
 		options
 	);
 
-	function init({ detail }) {
-		geocoder = detail.geocoder;
+	function init({ detail }: CustomEvent<unknown>) {
+		geocoder = (detail as GeocoderReadyDetail).geocoder;
 		dispatch('ready');
 	}
 </script>
@@ -52,7 +54,7 @@
 	on:error
 	on:clear
 	on:load
-/>
+></div>
 
 <style>
 	div {

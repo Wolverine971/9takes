@@ -240,6 +240,527 @@ For every personality analysis blog, follow this repeatable process:
 
 ---
 
+### Ali Abdaal
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/productivity | Core topic overlap -- Ali is frequently discussed here |
+| r/getdisciplined | Self-improvement audience |
+| r/Enneagram | Celebrity typing case study (typed as 3w2) |
+| r/mbti | Personality debate (ENTJ vs ESTP) |
+| r/medicalschool | His origin story as a Cambridge-trained doctor |
+| r/NewTubers | Aspiring creators who study his approach |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Ali Abdaal (official) | @AliAbdaal |
+| Taimur Abdaal (brother, co-host) | @TaimurAbdaal |
+| Jay Clouse (Creator Science) | @JayClouse |
+| Steven Bartlett (DOAC) | @StevenBartlett |
+
+**Hashtags:** #AliAbdaal, #FeelGoodProductivity, #Enneagram, #CreatorEconomy, #ProductivityTips
+
+**Fan Communities:**
+
+- The Friendzone Discord (~10,000+ members)
+- Productivity Lab on Circle (paid community)
+- Part-Time YouTuber Academy community (~4,000 members)
+- Personality Database profile (active MBTI/Enneagram debate)
+- Tattle Life thread (58+ pages analyzing his personality and career shift)
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| Jay Clouse (Creator Science) | Interviewed Ali at least twice (episodes #37, #192) | creatorscience.com |
+| Dan Shipper (Superorganizers) | Profiled Ali on Substack | superorganizers.substack.com |
+| Nathan Barry (Kit/ConvertKit) | Published Ali case study ($5M revenue) | nathanbarry.com |
+| Ryan Holiday (Daily Stoic) | Two-part interview with Ali | dailystoic.com |
+| Ali Abdaal directly | 670K+ newsletter subscribers | aliabdaal.com/newsletter |
+
+**Blogs/guest post targets:**
+
+- Kit.com Creator Stories (already has Ali coverage)
+- Ness Labs (Anne-Laure Le Cunff) -- neuroscience/productivity
+- Adobe Blog (already covered Ali)
+- Medium publications: Start It Up, Mind Cafe
+
+**Instagram:** @aliabdaal (~1M followers)
+
+- **Hashtags:** #AliAbdaal #FeelGoodProductivity #Enneagram #Enneagram3 #ProductivityTips #CreatorEconomy #DoctorToCreator #ContentCreator #YouTuber #PersonalityType
+- **Tone:** Respectful intellectual curiosity. His audience thinks analytically -- you can go deeper on the Enneagram framework. Honor the journey from medicine to creative entrepreneurship.
+
+---
+
+### Chappell Roan
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/chappellroan | Dedicated fan community -- highest-value target |
+| r/popheads | Largest pop music discussion sub; very active Chappell discourse |
+| r/Enneagram | Personality typing case study |
+| r/popculturechat | Celebrity analysis performs well here |
+| r/actuallesbians | She's a queer icon; frame around authenticity |
+| r/indieheads | Her Midwest indie roots before mainstream breakout |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Chappell Roan (official) | @ChappellRoan |
+| Fan update account | @ChappellUpdate |
+
+**Hashtags:** #ChappellRoan, #GoodLuckBabe, #HotToGo, #MidwestPrincess, #PinkPonyClub, #Enneagram, #QueerPop
+
+**Fan Communities:**
+
+- Tumblr (massive following -- arguably her strongest fan platform; loves long-form personality analysis)
+- Discord fan servers (search Disboard for "Chappell Roan")
+- Popheads Discord
+- TikTok #ChappellRoan community (billions of views)
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| Larisha Paul (Rolling Stone) | Wrote multiple Chappell Roan features | Via Rolling Stone |
+| Cat Zhang (Pitchfork) | Covered her rise extensively | Via Pitchfork |
+| Switched on Pop podcast | Music analysis format match | booking@switchedonpop.com |
+| Popcast (NYT) | Jon Caramanica covered the Chappell phenomenon | Via NYT |
+| Las Culturistas podcast | Matt Rogers & Bowen Yang -- pop culture + queer lens | Via podcast contact |
+
+**Blogs/publications:**
+
+- Pitchfork, Rolling Stone, NME, Stereogum (music)
+- them., Autostraddle, Out Magazine (LGBTQ+ publications)
+- Vulture / The Cut (pop culture analysis)
+- The Ringer (culture + personality-driven writing)
+
+**Instagram:** @chappellroan (millions of followers)
+
+- **Hashtags:** #ChappellRoan #MidwestPrincess #GoodLuckBabe #HotToGo #PinkPonyClub #Enneagram #PersonalityAnalysis #QueerPop #LGBTQMusic #PopMusicAnalysis
+- **Tone:** Her audience skews young and fiercely protective. Honor her boundary-setting as strength, not spectacle. The analysis should feel like it SEES her, not exposes her. Lean into the tension between her massive talent and her honest struggle with fame.
+
+---
+
+### Pete Davidson
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/PeteDavidson | Dedicated sub |
+| r/SNL / r/LiveFromNewYork | 8 seasons as cast member |
+| r/StandUpComedy | Comedy specials discussion |
+| r/BPD | One of the most visible public figures with BPD -- high-value, respectful angle |
+| r/mentalhealth | His openness about therapy |
+| r/Enneagram | Personality typing case study |
+| r/Netflix | His new Netflix podcast launched Jan 2026 -- timely |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Pete Davidson | @petedavidson (largely dormant -- mental health reasons) |
+| Fan accounts | @davidsonupdate, @davidsonpics, @davidsonfiles |
+| NBC SNL | @nbcsnl |
+| Netflix Is A Joke | @NetflixIsAJoke |
+
+**Hashtags:** #PeteDavidson, #TurboFonzarelli, #ThePeteDavidsonShow, #BPD, #MentalHealthAwareness, #SNL, #Enneagram
+
+**Fan Communities:**
+
+- Tumblr fan blogs (petedavidsonfan.tumblr.com, loveforpete.tumblr.com)
+- YouTube comment sections on his specials/interviews
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| Mollie Adler (Back From the Borderline podcast) | Already did a Pete Davidson BPD analysis episode | backfromtheborderline.com |
+| Jon Bernthal (Real Ones podcast) | Pete did a deeply personal PTSD/BPD interview | Via podcast |
+| Hosts of "Waiting for Davidson" podcast | Entire podcast themed around Pete | Via Apple Podcasts |
+| Emotions Matter (BPD nonprofit) | 501(c)(3) for BPD advocacy | emotionsmatterbpd.org |
+| Rosie Cappuccino (Talking About BPD) | Author, 19.8K Twitter followers | talkingaboutbpd.co.uk |
+
+**Blogs/publications:**
+
+- FHE Health, CBT California (clinical analyses of his mental health)
+- Variety, Vulture, The Hollywood Reporter (entertainment)
+- Choosing Therapy, Psychology Today (mental health angle)
+- BPD/mental health Instagram influencers: @bpdrelatable (114.7K), @tierralorain (126K)
+
+**Instagram:** @petedavidson.93 (goes on/off platform)
+
+- **Hashtags:** #PeteDavidson #Enneagram #PersonalityAnalysis #BPD #MentalHealthAwareness #MentalHealthMatters #StandUpComedy #SNL #TurboFonzarelli #Psychology
+- **Tone:** This one demands the most care. Pete has been through real pain -- loss, addiction, public scrutiny of his mental health. The analysis should feel like someone finally seeing the whole person, not reducing him to his diagnoses or his dating life. Honor the courage it takes to be that open.
+- **Timing note:** His Netflix podcast "The Pete Davidson Show" launched Jan 30, 2026 -- elevated search interest right now.
+
+---
+
+### Dax Shepard
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/ArmchairExpert | Dedicated podcast subreddit -- best target |
+| r/Enneagram | Personality typing case study |
+| r/stopdrinking | 900K+ members; his relapse/recovery story resonates deeply |
+| r/recovery | Addiction recovery community |
+| r/podcasts | Major podcaster discussion |
+| r/selfimprovement | His growth narrative fits this audience |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Dax Shepard (official) | @daxshepard |
+| Armchair Expert podcast | @ArmchairExpPod |
+| Kristen Bell | @imkristenbell |
+| Monica Padman (co-host) | (check handle) |
+| Fan account | @DaxShepardFanz |
+
+**Hashtags:** #ArmchairExpert, #DaxShepard, #Enneagram, #SoberLife, #Recovery, #PodcastLife
+
+**Fan Communities:**
+
+- Facebook Groups: search "Armchair Expert" and "Armchair Expert Fans"
+- armchairexpertpod.com community features
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| The Sober Curator | Published curated list of 33 sober Armchair Expert guests | thesobercurator.com |
+| James Cridland (Podnews) | Podcast industry newsletter, 32,900+ readers | editor@podnews.net |
+| Holly Whitaker (Recovering newsletter) | Author of "Quit Like a Woman," writes about recovery | newsletter.hollywhitaker.com |
+| Tim Ferriss | Dax appeared on his show (Episode #480) | tim.blog |
+| Dan Shipper (Superorganizers) | Covers personality + productivity | Via Substack |
+
+**Blogs/publications:**
+
+- Recovery treatment center blogs (Sunrise Recovery, FHE Health, etc.) -- all have published Dax content
+- Personality typing sites: Boo World, So Syncd, Personality Database (all have Dax profiles)
+- The New Yorker, Vanity Fair, Vulture (have all profiled him)
+
+**Instagram:** @daxshepard (4M followers), @armchairexppod (893K), @kristenanniebell
+
+- **Hashtags:** #DaxShepard #ArmchairExpert #Enneagram #SoberLife #RecoveryIsPossible #RecoveryCommunity #PodcastLife #VulnerabilityIsStrength #PersonalGrowth #PersonalityType
+- **Tone:** Dax has been radically honest about his addiction, his relapses, and his marriage. Honor that honesty. The analysis should feel like it explains WHY he's wired to be that transparent -- not just that he is. Respect the recovery journey above all.
+
+---
+
+### Dolly Parton
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/DollyParton | Dedicated fan sub |
+| r/countrymusic | Country music fans |
+| r/ClassicCountry | Older country music |
+| r/Dollywood | Theme park enthusiasts |
+| r/UpliftingNews | Dolly is a frequent subject |
+| r/philanthropy | Imagination Library angle |
+| r/Enneagram | Personality typing case study |
+| r/Tennessee / r/Appalachia | Regional pride and cultural significance |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Dolly Parton (official) | @DollyParton (5M+ followers, actively engages) |
+| Dollywood | @Dollywood |
+| Imagination Library | @ImagLibrary |
+| Grand Ole Opry | @opry |
+
+**Hashtags:** #DollyParton, #Dolly, #WWDD, #CountryMusic, #ImaginationLibrary, #Dollywood, #Enneagram, #Nashville
+
+**Fan Communities:**
+
+- Facebook (MASSIVE -- 5M+ on her official page, multiple large fan groups)
+- Dollywood Insiders groups
+- Classic Country Music fan groups
+- Imagination Library parent groups
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| Tyler Mahan Coe (Cocaine & Rhinestones podcast) | Deep-dive country music history, massive audience | Via podcast |
+| Jad Abumrad (Dolly Parton's America podcast) | Literally made a Peabody-winning podcast about Dolly | Via WNYC |
+| Marissa R. Moss | Prominent country music journalist, author of "Her Country" | Via social/publication |
+| Jewly Hight (NPR Music) | Nashville-based, covers country deeply | Via NPR |
+| Ian Morgan Cron (Typology podcast) | Enneagram podcast, would love Dolly content | Via podcast |
+
+**Blogs/publications:**
+
+- Wide Open Country, The Boot, Sounds Like Nashville (country music)
+- Garden & Gun, Southern Living (Southern culture)
+- Upworthy, Good News Network (feel-good/philanthropy -- Dolly stories perform extremely well)
+- Psychology Today (accepts contributor posts)
+- Chronicle of Philanthropy, Inside Philanthropy (serious giving coverage)
+
+**Instagram:** @dollyparton (6M+ followers, very active)
+
+- **Hashtags:** #DollyParton #Dolly #WhatWouldDollyDo #WWDD #CountryMusic #ImaginationLibrary #Dollywood #Enneagram #PersonalityAnalysis #NationalTreasure #WomenOfCountry #Nashville #Tennessee
+- **Tone:** Dolly is beloved. Universally. The analysis should feel like a love letter that also reveals something new. Show WHY she gives so generously -- what's the engine underneath that endless warmth? Don't just praise her; illuminate her.
+
+---
+
+### Alex Cooper
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/CallHerDaddy | Main fan subreddit |
+| r/CallHerDaddySnark | Snark/critique community -- loves deep analysis |
+| r/Deuxmoi | Celebrity gossip and analysis; Alex is frequently discussed |
+| r/popculturechat | Pop culture discussion |
+| r/podcasts | Major podcaster discussion |
+| r/Enneagram | Personality typing case study |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Alex Cooper (official) | @alexandracooper |
+| Call Her Daddy podcast | @callherdaddy |
+| SiriusXM | @SiriusXM |
+| Unwell Network (her media company) | @Unwell |
+
+**Hashtags:** #CallHerDaddy, #AlexCooper, #DaddyGang, #Enneagram, #PodcastCulture, #UnwellNetwork
+
+**Fan Communities:**
+
+- Facebook Groups: "Call Her Daddy" and "Daddy Gang" groups (thousands of members)
+- TikTok: #CallHerDaddy (billions of views)
+- YouTube comment sections on her video podcast episodes
+- Discord fan servers (search for "Call Her Daddy" or "Daddy Gang")
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| Ashley Carman (Bloomberg) | Covers podcast industry extensively; covered SiriusXM deal | Via Bloomberg |
+| Nick Quah (The Verge / Hot Pod) | Definitive podcast industry newsletter | Via The Verge |
+| Sarah Fischer (Axios Media Trends) | Covers media deals | Via Axios |
+| James Cridland (Podnews) | Daily podcast newsletter | tips@podnews.net |
+| Betches editors | Strong audience overlap with CHD listeners | betches.com |
+
+**Blogs/publications:**
+
+- BuzzFeed, E! News, People, Us Weekly (entertainment/pop culture)
+- The Cut, Cosmopolitan, Bustle, Refinery29 (women's media)
+- The Verge / Hot Pod, Podnews, Sounds Profitable (podcast industry)
+
+**Instagram:** @alexandracooper (millions of followers), @callherdaddy
+
+- **Hashtags:** #AlexCooper #CallHerDaddy #DaddyGang #Enneagram #PersonalityAnalysis #PodcastLife #WomenInMedia #WomenInPodcasting #PopCulture #SelfAwareness
+- **Tone:** Respect the business mind. She's not just a personality -- she built a $125M media company. The analysis should honor the strategic intelligence underneath the conversational style. Show what drives her ambition without being reductive about the brand she built.
+
+---
+
+### Theo Von
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/TheoVon | Dedicated fan subreddit -- highest-value target |
+| r/StandUpComedy / r/Standup | Comedy discussion |
+| r/Enneagram | Personality typing case study |
+| r/JoeRogan | Theo is a frequent guest; posts about him appear regularly |
+| r/recovery | His openness about addiction |
+| r/podcasts | Podcast discussion |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Theo Von (official) | @TheoVon |
+| Bert Kreischer (close friend) | @BertKreischer |
+| Joe Rogan | @joerogan |
+| Tom Segura | @TomSegura |
+
+**Hashtags:** #TheoVon, #ThisPastWeekend, #GangGang, #RatKing, #StandUpComedy, #Enneagram
+
+**Fan Communities:**
+
+- Discord fan servers (search Disboard for "Theo Von" or "This Past Weekend")
+- YouTube comment sections (active and engaged)
+- TikTok: @theovon and Theo Von clip accounts (very popular)
+- Facebook Groups: "Theo Von fans" and "This Past Weekend" groups
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| Jesse David Fox (Vulture) | Comedy editor, hosts "Good One" podcast | Via Vulture |
+| Jason Zinoman (NYT) | Comedy critic, author of "Letterman" | Via NYT |
+| Seth Simons (Humorism newsletter) | Independent comedy journalist | Via Substack |
+| Ian Morgan Cron (Typology podcast) | Enneagram podcast | Via podcast |
+| The Fix (thefix.com) | Addiction/recovery publication covering celebrity recovery | Via editorial contact |
+
+**Blogs/publications:**
+
+- Vulture, The Laugh Button, Paste Comedy (comedy coverage)
+- The Ringer, AV Club, Complex, BroBible (culture/entertainment)
+- Psychology Today (contributor posts -- personality analysis angle)
+- The Fix, After Party Magazine (recovery publications)
+
+**Instagram:** @theovon
+
+- **Hashtags:** #TheoVon #ThisPastWeekend #GangGang #RatKing #StandUpComedy #ComedyPodcast #Enneagram #PersonalityAnalysis #RecoveryJourney #VulnerabilityIsStrength #EmotionalIntelligence
+- **Tone:** Theo's comedy comes from somewhere real -- a hard childhood, addiction, a Southern sensibility that most people underestimate. The analysis should feel like it finally explains the magic of his storytelling voice. Why does he see the world the way he does? What's underneath the humor? Reverence for the journey.
+
+---
+
+### Dave Portnoy
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/barstoolsports | Main fan subreddit (~92K members; check quarantine status) |
+| r/Entrepreneur | His founder psychology / risk-taking personality |
+| r/wallstreetbets | He became a figure here during the retail trading boom |
+| r/pizza | "One Bite" reviews are iconic |
+| r/Enneagram | Personality typing case study |
+| r/CollegeFootball | Fox's Big Noon Kickoff panel (2025) |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Dave Portnoy (official) | @stoolpresidente (~3.7M followers) |
+| Barstool Sports | @barstoolsports |
+| Pardon My Take | @PardonMyTake |
+| Big Cat (Dan Katz) | @BarstoolBigCat |
+
+**Hashtags:** #DavePortnoy, #BarstoolSports, #OneBite, #DDTG, #StoolPresidente, #Enneagram, #CancelMeIfYouCan (his upcoming book -- June 2026)
+
+**Fan Communities:**
+
+- Stoolies (fan base) on Twitter, Reddit, barstoolsports.com comment sections
+- Pardon My Take community (r/PardonMyTake)
+- $STOOLIE meme coin community (daveportnoy.meme) -- trading/crypto crossover
+- Facebook Barstool fan groups
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| Ryan Glasspiegel (Front Office Sports) | Broke the Barstool-Fox partnership story | Via Front Office Sports |
+| Brandon Contes (Awful Announcing) | Covers sports media commentary | Via awfulannouncing.com |
+| Awful Announcing editors | Dedicated Barstool Sports archive | awfulannouncing.com |
+| Barrett Media staff | Covered his FS1 viewership and book announcement | barrettmedia.com |
+
+**Blogs/publications:**
+
+- Front Office Sports, Awful Announcing, Barrett Media (sports media)
+- Entrepreneur.com, Inc., Fast Company (business/founder angle)
+- The Ringer, Defector (sports + culture)
+- Personality Database, Boo World (already have Portnoy profiles)
+
+**Instagram:** @stoolpresidente (5M+ followers), @barstoolsports (17M followers), @onebiteapp
+
+- **Hashtags:** #DavePortnoy #StoolPresidente #BarstoolSports #OneBite #Enneagram #EnneagramType8 #PersonalityAnalysis #SportsMedia #MediaEntrepreneur #CancelMeIfYouCan #BarstoolFund
+- **Tone:** Portnoy is polarizing. The analysis shouldn't take a side. Show what drives the confrontational exterior -- the loyalty, the fight instinct, the "nobody tells me what to do" energy. Honor the Barstool Fund (his charitable work during COVID) alongside the controversy. Let people see the whole picture.
+- **Timing note:** His book "Cancel Me If You Can" drops June 2026. Time distribution for late May/June to ride the media wave.
+
+---
+
+### Joe Rogan
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/JoeRogan | Main subreddit -- massive, active, mix of fans and critics |
+| r/MMA | One of the largest combat sports communities; he's a major UFC figure |
+| r/ufc | More casual, meme-friendly, good engagement |
+| r/StandUpComedy | Polarizing but highly discussed |
+| r/podcasts | General podcast discussion |
+| r/Enneagram | Personality typing case study |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Joe Rogan (official) | @joerogan (tens of millions of followers) |
+| JRE Clips | @JREClips |
+| Lex Fridman | @lexfridman |
+| Tim Dillon | @TimDillon |
+| Andrew Schulz | @andrewschulz |
+
+**Hashtags:** #JoeRogan, #JRE, #JoeRoganExperience, #UFC, #MMA, #Enneagram, #Podcasting
+
+**Fan Communities:**
+
+- Discord fan servers (search for "Joe Rogan" or "JRE")
+- Sherdog Forums (sherdog.com/forums) -- one of the oldest MMA forums
+- The Underground (mixedmartialarts.com) -- classic MMA forum
+- Facebook Groups: "Joe Rogan Experience" groups (100K+ members)
+- YouTube PowerfulJRE comment sections (massive engagement)
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| Nick Quah (The Verge / Hot Pod) | Definitive podcast industry coverage | Via The Verge |
+| Ashley Carman (Bloomberg) | Podcast industry reporter | Via Bloomberg |
+| Ariel Helwani | Most prominent MMA journalist | Via social/MMA Hour |
+| Luke Thomas (Morning Kombat) | MMA analyst and media personality | Via YouTube/social |
+| Jesse David Fox (Vulture) | Comedy/podcast coverage | Via Vulture |
+
+**Blogs/publications:**
+
+- The Ringer, Vulture, Digiday (media/culture)
+- MMA Fighting, MMA Junkie, Sherdog, Bloody Elbow (MMA/sports)
+- Esquire, GQ, MEL Magazine (men's culture)
+- Psychology Today (contributor posts -- personality analysis angle)
+- Podnews (podnews.net) -- daily podcast industry news
+
+**Instagram:** @joerogan (~17-18M followers)
+
+- **Hashtags:** #JoeRogan #JRE #JoeRoganExperience #UFC #MMA #Enneagram #PersonalityAnalysis #PersonalityType #Podcasting #StandUpComedy #SelfAwareness #KnowYourself
+- **Tone:** Rogan is the most discussed podcaster on earth. Everyone has a take. Your analysis should offer a take nobody has had -- the Enneagram lens that explains the curiosity, the platform-building, the willingness to talk to anyone. Don't take sides on his controversies. Just illuminate the pattern.
+
+---
+
+### Sabrina Carpenter
+
+**Reddit:**
+| Subreddit | Approach |
+|-----------|----------|
+| r/SabrinaCarpenter | Dedicated fan sub (~30K+) |
+| r/popheads | Main pop music discussion hub; she's frequently discussed |
+| r/Enneagram | Personality typing case study |
+| r/popculturechat | Celebrity analysis performs well |
+| r/entertainment | Pop culture coverage |
+
+**Twitter/X:**
+| Target | Handle |
+|--------|--------|
+| Sabrina Carpenter (official) | @SabrinaAnnLynn |
+| PopCrave | @PopCrave (~3M followers) |
+| Pop Base | @PopBase |
+| Chart Data | @chartdata |
+
+**Hashtags:** #SabrinaCarpenter, #ShortNSweet, #Espresso, #PleasePleasePlease, #Enneagram
+
+**Fan Communities:**
+
+- Discord fan servers (search Disboard for "Sabrina Carpenter")
+- Popheads Discord
+- Tumblr: active fandom, especially crossover from Disney-era fans
+- TikTok: #sabrinacarpenter (massive -- her core audience lives here)
+
+**Email Outreach Targets:**
+| Target | Why | Contact |
+|--------|-----|---------|
+| Larisha Paul (Rolling Stone) | Covered Sabrina's rise | Via Rolling Stone |
+| Ilana Kaplan (Elle, Billboard) | Interviews and profiles | Via publication |
+| Jason Lipshutz (Billboard) | Executive editorial, pop coverage | Via Billboard |
+| Cat Zhang (Pitchfork) | Pop music reviews/features | Via Pitchfork |
+| Evan Ross Katz | Pop culture personality-driven angles | Via social |
+
+**Blogs/publications:**
+
+- Pitchfork, Rolling Stone, Billboard, NME (music)
+- Vulture, The Cut, Nylon, Paper Magazine (culture/style)
+- Vogue, Teen Vogue, Harper's Bazaar (fashion -- she's a major fashion figure)
+- BuzzFeed, Bustle, Elite Daily (Gen-Z entertainment)
+
+**Instagram:** @sabrinacarpenter (~40M+ followers)
+
+- **Hashtags:** #SabrinaCarpenter #ShortNSweet #Espresso #PleasePleasePlease #PopMusic #Enneagram #PersonalityAnalysis #MusicPersonality #PopCulture #CelebrityPersonality
+- **Tone:** Sabrina's persona is witty, flirty, and confident -- but there's craft underneath the charm. The analysis should honor the intelligence behind the image. Show what drives the precision in her performances and the intentionality in her public persona. She's not accidental. None of it is.
+
+---
+
 ## Cross-Cutting Enneagram Communities
 
 These work for ALL personality analysis posts:
@@ -371,6 +892,7 @@ These work for ALL personality analysis posts:
 Every person you analyze has a real story. The tone across all Instagram content should feel like you're honoring their journey, not dissecting them. You're not a gossip page. You're someone who sees people deeply and wants others to see them that way too.
 
 **Voice guidelines:**
+
 - Speak about them like you admire the complexity of who they are
 - Use phrases like "what drives him," "the weight he carries," "the lens he sees the world through" -- not "here's his type" like a label
 - Never reduce someone to a number. The Enneagram type is a doorway into their story, not a box
@@ -382,23 +904,27 @@ Every person you analyze has a real story. The tone across all Instagram content
 ### Carousel Format (2-4 Slides)
 
 **Slide 1 -- The Hook (Image of the Person)**
+
 - High-quality photo of the person
 - Text overlay: A short, curiosity-driven line that makes people stop scrolling
 - Keep it simple. One line. Let the face do the work.
 
 Examples:
+
 - "The fire behind Benson Boone's music runs deeper than you think."
 - "Chris Williamson built an empire. Here's what's actually driving him."
 - "John Coogan sees patterns most people miss. Here's why."
 - "Shawn Ryan's calm is earned. Here's what shaped it."
 
 **Slide 2 -- The Insight (Canva-designed)**
+
 - The core Enneagram insight, framed through a specific moment or pattern in their life
 - Keep text to 40-60 words max per slide
 - Use their own quotes or real moments as evidence
 - Visual: Clean, readable. Brand colors. No clutter.
 
 Example structure:
+
 > "[Person] consistently [pattern you noticed]."
 >
 > "In the Enneagram, this maps to [type description in human terms -- not jargon]."
@@ -406,20 +932,24 @@ Example structure:
 > "It's the same thing that drives [specific behavior people recognize]."
 
 **Slide 3 -- The Depth (Canva-designed, optional)**
+
 - Go one layer deeper: the tension, the cost, or the growth edge of their type
 - This is where you honor the struggle, not just the strength
 - This slide should make someone pause and think "damn, I never saw it that way"
 
 Example structure:
+
 > "The same drive that [positive thing about them] is also what makes [vulnerable/hard thing]."
 >
 > "That's not a flaw. That's the deal they made with themselves."
 
 **Slide 4 -- The CTA (Canva-designed)**
+
 - Drive to the full analysis
 - Keep it warm, not salesy
 
 Examples:
+
 - "I wrote the full breakdown on 9takes.com. Link in bio."
 - "There's more to the story. Full analysis at the link in bio."
 - "If this shifted how you see [Person], the full piece goes way deeper. Link in bio."
@@ -492,24 +1022,24 @@ Do you see it too? Let me know.
 
 **Tier 1 -- Person-specific (3-5):**
 
-| Person | Hashtags |
-|--------|----------|
-| Benson Boone | #BensonBoone #FireworksAndRollerblades #AmericanHeart #BensonBooneMusic |
-| Chris Williamson | #ChrisWilliamson #ModernWisdom #ModernWisdomPodcast #3MinuteMonday |
-| John Coogan | #JohnCoogan #TBPN #TechYouTube #SiliconValley |
-| Shawn Ryan | #ShawnRyan #ShawnRyanShow #VigilanceElite #NavySEAL |
+| Person           | Hashtags                                                                |
+| ---------------- | ----------------------------------------------------------------------- |
+| Benson Boone     | #BensonBoone #FireworksAndRollerblades #AmericanHeart #BensonBooneMusic |
+| Chris Williamson | #ChrisWilliamson #ModernWisdom #ModernWisdomPodcast #3MinuteMonday      |
+| John Coogan      | #JohnCoogan #TBPN #TechYouTube #SiliconValley                           |
+| Shawn Ryan       | #ShawnRyan #ShawnRyanShow #VigilanceElite #NavySEAL                     |
 
 **Tier 2 -- Enneagram/personality (5-7):**
 #Enneagram #EnneagramType[X] #Enneagram[TypeName] #PersonalityType #KnowYourself #SelfAwareness #EnneagramCommunity
 
 **Tier 3 -- Niche discovery (5-8):**
 
-| Person | Niche hashtags |
-|--------|----------------|
-| Benson Boone | #PopMusic #MusicAnalysis #SingerSongwriter #MusicPsychology #NewMusic |
+| Person           | Niche hashtags                                                           |
+| ---------------- | ------------------------------------------------------------------------ |
+| Benson Boone     | #PopMusic #MusicAnalysis #SingerSongwriter #MusicPsychology #NewMusic    |
 | Chris Williamson | #SelfImprovement #PodcastLife #PersonalGrowth #Masculinity #MindsetShift |
-| John Coogan | #Startups #FounderLife #TechCulture #Entrepreneurship #StartupMindset |
-| Shawn Ryan | #Veterans #MilitaryLife #SpecialOperations #Leadership #MilitaryPodcast |
+| John Coogan      | #Startups #FounderLife #TechCulture #Entrepreneurship #StartupMindset    |
+| Shawn Ryan       | #Veterans #MilitaryLife #SpecialOperations #Leadership #MilitaryPodcast  |
 
 ---
 
@@ -517,12 +1047,12 @@ Do you see it too? Let me know.
 
 **Tag the person directly + 1-2 relevant accounts. Don't over-tag.**
 
-| Person | Tag | Also consider |
-|--------|-----|---------------|
-| Benson Boone | @bensonboone | @switchedonpop |
-| Chris Williamson | @chriswillx | @modernwisdompodcast |
-| John Coogan | @johncoogan | @tbpn |
-| Shawn Ryan | @shawnryan762 | @vigilanceelite |
+| Person           | Tag           | Also consider        |
+| ---------------- | ------------- | -------------------- |
+| Benson Boone     | @bensonboone  | @switchedonpop       |
+| Chris Williamson | @chriswillx   | @modernwisdompodcast |
+| John Coogan      | @johncoogan   | @tbpn                |
+| Shawn Ryan       | @shawnryan762 | @vigilanceelite      |
 
 ---
 
@@ -549,10 +1079,12 @@ If you want to go further, create a 30-60 second Reel:
 ### Engagement Strategy (Pre and Post)
 
 **Before posting:**
+
 - Spend 15-20 minutes engaging with posts in the person's hashtag. Leave genuine comments on fan posts. This puts your account in front of the right eyes before your carousel drops.
 - Engage with 3-5 Enneagram content creators' posts. Like, comment, share to stories.
 
 **After posting:**
+
 - Reply to every comment within the first hour (algorithm boost)
 - If someone debates your typing, engage respectfully: "That's a fair point -- here's what led me to this read..."
 - DM fan accounts a brief note: "Hey, I put together a personality analysis of [Person] that I think your followers might find interesting. No pressure, just thought you'd want to see it." Attach the carousel link.
@@ -562,26 +1094,101 @@ If you want to go further, create a 30-60 second Reel:
 ### Person-Specific Instagram Notes
 
 **Benson Boone:**
+
 - His audience skews young. Keep language accessible. Avoid heavy Enneagram jargon.
 - He's polarizing -- some people love him, some find him "too much." Your analysis can bridge that gap: help people see the WHY behind what they react to.
 - Lean into his music. Quote lyrics (sparingly, 1 line max) as evidence for your read.
 - Tone: warm, appreciative. "There's something real happening here."
 
 **Chris Williamson:**
+
 - His audience is into self-improvement and thinks analytically. You can go deeper on the framework.
 - The tension to name: he's built a massive platform around growth, but what's driving the builder himself?
 - Tone: respectful intellectual curiosity. "Here's what I noticed when I looked closer."
 
 **John Coogan:**
+
 - Smallest general awareness of the four. Focus on what makes him interesting to people who DON'T already follow him.
 - The hook is the pattern recognition: "This guy sees what others miss." Then flip it: "Here's what drives that."
 - Tone: sharp, observational. Match his documentary energy.
 
 **Shawn Ryan:**
+
 - His audience is deeply loyal and protective. Do NOT be flippant or reductive.
 - Honor the weight of what he's been through. The analysis should feel like it comes from respect for his service and what he's built since.
 - Lean into the calm-under-pressure angle. The Enneagram explains not just what he does but what it costs.
 - Tone: reverent, steady. "There's a reason people trust this man."
+
+**Ali Abdaal:**
+
+- His audience thinks in systems and frameworks. You can go deeper on the Enneagram mechanics.
+- The tension: he optimizes everything publicly, but what's the internal drive behind the optimization?
+- Lean into the doctor-to-creator pivot as evidence for the type pattern.
+- Tone: respectful intellectual curiosity. "Here's the engine underneath the productivity."
+
+**Chappell Roan:**
+
+- Her audience is fiercely protective and skews young/queer. Respect her boundaries discourse -- it IS the story.
+- The analysis should feel like it SEES her, not exposes her. Honor the tension between massive talent and honest struggle with fame.
+- Her aesthetic is bold -- let your Canva slides match that energy (rich colors, dramatic).
+- Tone: admiring but not fawning. "Here's what most people miss about what she's carrying."
+
+**Pete Davidson:**
+
+- This one demands the most care. Real pain, real diagnoses, real public scrutiny.
+- Do NOT reduce him to his dating life or his BPD. The analysis should see the whole person.
+- Honor the courage it takes to be that open about mental health on a public stage.
+- His Netflix podcast just launched (Jan 2026) -- timely hook.
+- Tone: gentle, honest. "There's a reason people root for him."
+
+**Dax Shepard:**
+
+- His audience values radical honesty. Match that energy in the analysis.
+- The recovery angle is sacred ground. Treat relapses with the same respect he does.
+- Lean into what the Enneagram reveals about WHY he's wired for transparency.
+- Tone: warm, direct. "The same thing that drives his honesty also drives his struggle."
+
+**Dolly Parton:**
+
+- She is universally beloved. The analysis should feel like a love letter that also reveals something new.
+- Show WHY she gives so generously -- what's the engine underneath the warmth?
+- Her audience skews older and Southern -- keep language warm and accessible.
+- Tone: reverent, joyful. "She's been telling us who she is for 60 years. Here's what she's been saying."
+
+**Alex Cooper:**
+
+- Respect the business mind. She's not just a personality -- she built a $125M media company.
+- The analysis should honor the strategic intelligence underneath the conversational style.
+- Her audience is young women who are smarter than people give them credit for. Write to that.
+- Tone: sharp, respectful. "There's a reason she's the one who came out on top."
+
+**Theo Von:**
+
+- His comedy comes from somewhere real. The analysis should explain the magic of his storytelling voice.
+- Honor the hard childhood and the addiction journey without making it tragic.
+- Southern sensibility that most people underestimate -- the Enneagram can illuminate that.
+- Tone: warm, knowing. "The funniest people in the room usually have the best reason to be."
+
+**Dave Portnoy:**
+
+- He's polarizing. The analysis shouldn't take a side.
+- Show what drives the confrontational exterior alongside the loyalty (Barstool Fund).
+- His book "Cancel Me If You Can" drops June 2026 -- time distribution for maximum overlap.
+- Tone: even-handed, illuminating. "Love him or hate him, here's what's actually going on."
+
+**Joe Rogan:**
+
+- Everyone has a take on Rogan. Yours should be the one nobody's had yet.
+- Don't take sides on his controversies. Just illuminate the pattern underneath.
+- The Enneagram lens explains the curiosity, the platform-building, the willingness to talk to anyone.
+- Tone: observational, neutral. "Here's what drives the most listened-to voice on the planet."
+
+**Sabrina Carpenter:**
+
+- Her persona is witty and confident, but there's craft underneath the charm.
+- Honor the intelligence behind the image. She's not accidental -- none of it is.
+- Her audience is fashion-forward and pop culture savvy. Make the carousel visually polished.
+- Tone: sharp, appreciative. "The precision is the point."
 
 ---
 

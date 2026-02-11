@@ -43,7 +43,7 @@ truth: demonstrations are hard to ignore and create opinionated attention.
 
 Across the Relentless and Sourcery interviews, the brand logic is consistent:
 
-1. start by speaking *ridiculously well* to a small niche,
+1. start by speaking _ridiculously well_ to a small niche,
 2. broaden while preserving differentiation.
 
 He uses consistent examples (Soylent, Liquid Death, Red Bull, Celsius) and treats “niche-first” as the only practical
@@ -61,7 +61,7 @@ The other major brand/business lever is more structural than creative:
 
 Dialectic shows the TBPN playbook:
 
-- build a *show*, not a “media company” (avoid Vice-style sprawl),
+- build a _show_, not a “media company” (avoid Vice-style sprawl),
 - treat the daily cadence as compounding advantage (the “baker” analogy),
 - prefer advertising over subscriptions (price discrimination across audiences),
 - borrow references from outside tech (F1, SportsCenter, Hollywood set design) to avoid circular inspiration.
@@ -87,4 +87,3 @@ Patterns that show up repeatedly:
 John Coogan is a builder whose competitive advantage is turning complex business and tech realities into simple,
 high-signal stories, then using the distribution and feedback loop of content to compound career leverage. The founder
 and the media operator are the same person: a systems thinker optimizing for truth, iteration speed, and durable moats.
-

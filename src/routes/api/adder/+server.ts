@@ -29,7 +29,7 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 
 		const { data: addedVisitor, error: addedVisitorsError } = await supabase
 			.from('visitors')
-			.upsert({ fingerprint, updated_at: new Date() }, { onConflict: 'fingerprint' })
+			.upsert({ fingerprint, updated_at: new Date().toISOString() }, { onConflict: 'fingerprint' })
 			.select();
 
 		if (addedVisitorsError) {
@@ -46,17 +46,12 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 			logger.warn('Invalid visitor data', {
 				errors: e.errors
 			});
-			throw error(400, {
-				message: 'Invalid visitor data',
-				details: e.errors
-			});
+			throw error(400, 'Invalid visitor data');
 		}
 		if ((e as any).status) {
 			throw e; // Re-throw HTTP errors
 		}
 		logger.error('Error in POST /api/adder', e as Error);
-		throw error(500, {
-			message: 'Internal server error'
-		});
+		throw error(500, 'Internal server error');
 	}
 });

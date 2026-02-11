@@ -71,14 +71,9 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			logger.warn('Invalid request parameters', {
 				errors: e.errors
 			});
-			throw error(400, {
-				message: 'Invalid request parameters',
-				details: e.errors
-			});
+			throw error(400, 'Invalid request parameters');
 		}
 		logger.error('Error in GET /links', e as Error);
-		throw error(500, {
-			message: 'Internal server error'
-		});
+		throw error(500, 'Internal server error');
 	}
 });

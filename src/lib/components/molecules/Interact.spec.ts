@@ -9,30 +9,35 @@ describe('Interact', () => {
 		const { getByText, getByTestId } = render(Interact, {
 			parentType: 'question',
 			questionId: 85,
-			user: undefined,
+			qrCodeUrl: '',
+			user: null,
 			data: {
-				session: null,
 				question: {
 					id: 85,
 					question: 'what are you thinking about these days',
 					created_at: '2023-09-22T05:23:03.858015+00:00',
-					updated_at: '2023-09-22T05:23:03.858015+00:00',
-					data: null,
-					name: null,
-					author_id: 'f7d2f32a-86f2-4c17-a5bb-6d04c45ba4a3',
-					context: '',
 					url: 'what-are-you-thinking-about-these-days',
 					img_url: '',
 					es_id: '48FXu4oBxTGqyww5ba_8',
 					comment_count: 10,
-					tagged: false,
+					removed: false,
+					flagged: false,
 					subscriptions: []
 				},
 				comments: [],
+				removedComments: [],
 				comment_count: 11,
+				removed_comment_count: 0,
+				questionTags: [],
+				user: null,
 				flags: {
-					userHasAnswered: false
-				}
+					userHasAnswered: false,
+					userSignedIn: false
+				},
+				aiComments: null,
+				links: null,
+				links_count: 0,
+				flagReasons: []
 			}
 		});
 

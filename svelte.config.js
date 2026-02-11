@@ -29,7 +29,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		csrf: {
-			checkOrigin: true
+			trustedOrigins: []
 		}
 	}
 };

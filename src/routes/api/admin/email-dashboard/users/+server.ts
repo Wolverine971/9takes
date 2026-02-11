@@ -27,7 +27,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 
 	// Parse query parameters
 	const source = url.searchParams.get('source') || 'all';
-	const search = url.searchParams.get('search') || null;
+	const search = url.searchParams.get('search') || undefined;
 	const page = parseInt(url.searchParams.get('page') || '1');
 	const limit = Math.min(parseInt(url.searchParams.get('limit') || '50'), 100);
 	const offset = (page - 1) * limit;

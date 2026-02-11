@@ -8,7 +8,7 @@
 
 	const formattedSignups: any[] = data?.signups?.length
 		? data?.signups?.map((s) => {
-				const newdate = convertDateToReadable(s.created_at);
+				const newdate = convertDateToReadable(s.created_at ?? '');
 				return { ...s, createdAt: newdate };
 			})
 		: [];

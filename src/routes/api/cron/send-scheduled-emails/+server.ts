@@ -8,6 +8,29 @@ import { PRIVATE_CRON_SECRET } from '$env/static/private';
 import { supabase } from '$lib/supabase';
 import { sendBatchEmails } from '$lib/email/sender';
 
+type ScheduledRecipient = {
+	email: string;
+	name?: string | null;
+	source: 'profiles' | 'signups' | 'coaching_waitlist';
+	source_id: string;
+};
+
+type ScheduledEmailRow = {
+	id: string;
+	recipients: ScheduledRecipient[] | null;
+	subject: string;
+	html_content: string | null;
+	campaign_id: string | null;
+	created_by: string | null;
+};
+
+const scheduledEmailsTable = () =>
+	(
+		supabase as unknown as {
+			from: (table: 'scheduled_emails') => any;
+		}
+	).from('scheduled_emails');
+
 // Shared handler for both GET and POST
 async function processScheduledEmails(request: Request) {
 	// Verify cron secret (Vercel adds this header, pg_cron sends it via pg_net)
@@ -20,13 +43,13 @@ async function processScheduledEmails(request: Request) {
 
 	try {
 		// Get pending scheduled emails that are due
-		const { data: scheduledEmails, error: fetchError } = await supabase
-			.from('scheduled_emails')
+		const { data: scheduledEmailsData, error: fetchError } = await scheduledEmailsTable()
 			.select('*')
 			.eq('status', 'pending')
 			.lte('scheduled_for', new Date().toISOString())
 			.order('scheduled_for', { ascending: true })
 			.limit(5); // Process 5 at a time to avoid timeout
+		const scheduledEmails = (scheduledEmailsData ?? []) as ScheduledEmailRow[];
 
 		if (fetchError) {
 			console.error('Error fetching scheduled emails:', fetchError);
@@ -46,18 +69,10 @@ async function processScheduledEmails(request: Request) {
 
 		for (const scheduled of scheduledEmails) {
 			// Mark as processing
-			await supabase
-				.from('scheduled_emails')
-				.update({ status: 'processing' })
-				.eq('id', scheduled.id);
+			await scheduledEmailsTable().update({ status: 'processing' }).eq('id', scheduled.id);
 
 			try {
-				const recipients = scheduled.recipients as Array<{
-					email: string;
-					name?: string;
-					source: string;
-					source_id: string;
-				}>;
+				const recipients = Array.isArray(scheduled.recipients) ? scheduled.recipients : [];
 
 				// Send emails
 				const result = await sendBatchEmails(supabase, {
@@ -65,13 +80,13 @@ async function processScheduledEmails(request: Request) {
 						id: r.source_id,
 						email: r.email,
 						name: r.name,
-						source: r.source as 'profiles' | 'signups' | 'coaching_waitlist',
+						source: r.source,
 						source_id: r.source_id
 					})),
 					subject: scheduled.subject,
-					htmlContent: scheduled.html_content,
-					campaignId: scheduled.campaign_id,
-					sentBy: scheduled.created_by,
+					htmlContent: scheduled.html_content ?? '',
+					campaignId: scheduled.campaign_id ?? undefined,
+					sentBy: scheduled.created_by ?? 'system-cron',
 					delayMs: 100
 				});
 
@@ -81,8 +96,7 @@ async function processScheduledEmails(request: Request) {
 					.map((r) => ({ email: r.email, error: r.error || 'Unknown error' }));
 
 				// Mark as completed
-				await supabase
-					.from('scheduled_emails')
+				await scheduledEmailsTable()
 					.update({
 						status: 'completed',
 						processed_at: new Date().toISOString(),
@@ -102,8 +116,7 @@ async function processScheduledEmails(request: Request) {
 				console.error('Error processing scheduled email:', scheduled.id, err);
 
 				// Mark as failed
-				await supabase
-					.from('scheduled_emails')
+				await scheduledEmailsTable()
 					.update({
 						status: 'failed',
 						processed_at: new Date().toISOString(),

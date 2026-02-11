@@ -1,6 +1,9 @@
 // src/routes/admin/consulting/clients/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
 import { fail } from '@sveltejs/kit';
+import type { Database } from '../../../../../database.types';
+
+type ClientStatus = Pick<Database['public']['Tables']['consulting_clients']['Row'], 'status'>;
 
 export const load: PageServerLoad = async ({ locals, url }) => {
 	const supabase = locals.supabase;
@@ -46,13 +49,11 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 		.from('consulting_clients')
 		.select('status, enneagram_type');
 
-	const statusCounts = (allClients || []).reduce(
-		(acc: Record<string, number>, c: { status: string }) => {
-			acc[c.status] = (acc[c.status] || 0) + 1;
-			return acc;
-		},
-		{}
-	);
+	const statusCounts = (allClients || []).reduce((acc: Record<string, number>, c: ClientStatus) => {
+		const status = c.status ?? 'unknown';
+		acc[status] = (acc[status] || 0) + 1;
+		return acc;
+	}, {});
 
 	return {
 		clients: clients || [],

@@ -1,38 +1,38 @@
 // src/utils/demo.ts
 type DemoValue = Record<string, unknown>;
 
-export const mapDemoValues = (
-	values: DemoValue[] | DemoValue | null
-): DemoValue[] | DemoValue | null => {
+export function mapDemoValues<T extends DemoValue | DemoValue[] | null>(values: T): T {
 	if (!values) {
-		return null;
+		return values;
 	}
+
 	if (Array.isArray(values)) {
-		if (!values?.length) {
-			return [];
+		if (!values.length) {
+			return values;
 		}
+
 		return values.map((value) => {
-			const newValue: DemoValue = {};
-			Object.keys(value).forEach((key) => {
+			const original = value as DemoValue;
+			const mapped: DemoValue = {};
+			for (const key of Object.keys(original)) {
 				if (key.includes('_demo')) {
-					const newKey = key.replace('_demo', '');
-					newValue[newKey] = value[key];
+					mapped[key.replace('_demo', '')] = original[key];
 				} else {
-					newValue[key] = value[key];
+					mapped[key] = original[key];
 				}
-			});
-			return newValue;
-		});
-	} else {
-		const newValue: DemoValue = {};
-		Object.keys(values).forEach((key) => {
-			if (key.includes('_demo')) {
-				const newKey = key.replace('_demo', '');
-				newValue[newKey] = values[key];
-			} else {
-				newValue[key] = values[key];
 			}
-		});
-		return newValue;
+			return mapped;
+		}) as T;
 	}
-};
+
+	const original = values as DemoValue;
+	const mapped: DemoValue = {};
+	for (const key of Object.keys(original)) {
+		if (key.includes('_demo')) {
+			mapped[key.replace('_demo', '')] = original[key];
+		} else {
+			mapped[key] = original[key];
+		}
+	}
+	return mapped as T;
+}

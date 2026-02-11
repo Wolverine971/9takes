@@ -6,10 +6,11 @@ const ClickOutsideManager = {
 	boundFunction: undefined as ((event: MouseEvent) => void) | undefined,
 
 	handleOnClick(event: MouseEvent): void {
-		if (!(event.target instanceof Node)) return;
+		const target = event.target;
+		if (!(target instanceof Node)) return;
 
 		this.registeredListeners.forEach(([func, el]) => {
-			if (el && !el.contains(event.target) && !event.defaultPrevented) {
+			if (el && !el.contains(target) && !event.defaultPrevented) {
 				func();
 			}
 		});

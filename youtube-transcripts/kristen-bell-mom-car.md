@@ -1,0 +1,1651 @@
+<!-- youtube-transcripts/kristen-bell-mom-car.md -->
+
+# Mom's Car: Kristen Bell
+
+## Video Details
+
+- **Speaker(s)**: Dax Shepard, Kristen Bell, Aaron Weakley
+- **Source**: https://www.youtube.com/watch?v=N6gcREx-CnQ
+- **Channel**: Armchair Expert with Dax Shepard
+- **Show**: Mom's Car with Dax & BFAW
+- **YouTube Upload Date**: Aug 26, 2025
+- **Views**: 242,025
+- **Primary Topics**: lifestyle preferences, friendship origin stories, empty nest transition, relationship values, moral dilemma framing
+
+---
+
+## Core Themes
+
+1. **She optimizes for practicality over performance.**
+   Her car preferences are about tactile control, simplicity, and low stress.
+
+2. **Loyalty and emotional memory drive identity.**
+   The friendship stories emphasize deep attachment and long-term continuity.
+
+3. **Transitions are managed through reframing and pre-commitment.**
+   Empty-nest anxiety gets translated into phase-acceptance and habit planning.
+
+4. **Relational ethics are impact-based.**
+   She evaluates betrayal by its effect on partnership behavior, not just by rule violation.
+
+## Parsed Conversation Flow
+
+- Bolt love + bus-width debate + "backup car" anxiety.
+- Dax/Aaron backstory and social belonging narratives.
+- Listener question on empty nest and identity after intensive parenting.
+- Midlife nostalgia vs introvert recovery needs.
+- Haidt moral scenario and discussion of fidelity, guilt, jealousy, and self-knowledge.
+
+## Analysis & Key Insights
+
+### What Stands Out
+
+1. **Her heuristics are visual and concrete.**
+   "How many bags do I want to carry?" converts emotion into choice architecture.
+
+2. **She is unusually explicit about introversion costs.**
+   Social events are evaluated by recovery debt, not just enjoyment.
+
+3. **Her partnership framing privileges behavioral consequences.**
+   Attention drift, guilt, and reduced presence are treated as the real threat vector.
+
+### Key Stories & Revelations
+
+- She wanted multiple Chevy Bolt backups when she heard the model might be discontinued.
+- She reframes empty-nesting as phase transition with prebuilt commitments and care outlets.
+- She describes how earlier jealousy softened into a more systems-based trust model.
+
+### Practical Takeaways (Non-Clinical)
+
+- For major transitions, pre-fill the vacuum before it appears.
+- Distinguish rule-breaking from relationship-impact when evaluating harm.
+- Preserve systems that reduce cognitive load rather than upgrading for status.
+
+### Notable Quotes
+
+> "I don't want to drive the Starship Enterprise"
+
+> "my issue with an affair would not be that you had sex with somebody"
+
+> "I'm too much percentage introvert"
+
+> "how many bags do I want to carry around in life?"
+
+---
+
+## Transcript (Lightly Cleaned)
+
+> Notes: Minimal cleanup and line wrapping for readability. The `>>` interruptions are preserved.
+
+Hello and welcome to Mom's Car. Not my mom's car, but my children's mom's car. Today we have very
+fittingly as she was the first guest ever on Armchair Expert, my beloved wife, the queen of all
+Queens, Kristen Bell. I mean, I don't really need to say it, but uh Frozen and Nobody Wants This and
+Die Hard and Legends of the Fall and Jaws. Please enjoy Kristen Bell. Some people just know they
+could save hundreds on car insurance by checking All State First. Like, you know, to check your
+phones in your pocket before leaving the house. Checking first is smart. So, check All State First
+for a quote that could save you hundreds. You're in good hands with All State. Savings vary. Subject
+to terms, conditions, and availability. All State North America Insurance Co. and affiliates
+Northbrook, Illinois. [Music] I want people to know how much you love this car. You could drive any
+kind of car you wanted and and obviously as a car lover, I would always want to buy you a very nice
+car. But tell me about your car a little bit. Anyone who sees you in this little hot rod knows
+
+> > they're horny
+
+> > that I that everybody likes it. Well, I'll tell you why I like it. She's small enough for me to
+> > park anywhere I want
+
+> > on your lawn if I so desire.
+
+> > Yeah.
+
+> > I feel good about zipping around town. I don't feel like tight or invasive or if I drive an SUV,
+> > I'm always a little scared I'm going to kiss the curbs. Mainly cuz I kiss I'll kiss the curbs.
+
+> > Sure. Sure. Um, she wasn't born a beauty queen. Okay,
+
+> > the vault.
+
+> > No.
+
+> > Okay,
+
+> > I don't mind scratching her up. Look at the ceiling. Lincoln once tried to clean it and then
+> > never wiped the cleaner off the ceiling. So, there's It's almost looks like white splatter paint.
+
+> > It looks like she used wax to try to clean it.
+
+> > Yeah,
+
+> > as two previous car detailers that looks like someone definitely put
+
+> > There's also sprayed wax on. There's a huge scratch back here, which I don't know if one of our
+> > daughters owns a some sort of a blade.
+
+> > She's bringing a blade to school.
+
+> > You You would never know how compact the car actually is by sitting in it. It's It's roomiest.
+> > And then you look at it outside and it's a little
+
+> > It might be part of the Sim.
+
+> > Cute baby.
+
+> > Have you seen This is a really good Sim. GIF. GIF.
+
+> > GIF.
+
+> > Jeff Gif.
+
+> > A city bus is the same width as a car. They're in the same lane. Maybe it's 6 in wider. Why is
+> > there two seats, a hallway, and two seats on the lap when we're touching shoulders?
+
+> > Oh my god.
+
+> > I don't think it's the the same. I mean, I I see your point, but I don't think it's the same
+> > width.
+
+> > But it's only
+
+> > Yeah, you'd agree. We're taking up 80% of the width of this lane,
+
+> > and then a bus is maybe taking up
+
+> > No, cuz look at the car in front of us. That car is taking up 65%. 60%.
+
+> > Okay. Well, I do know the width of a bus
+
+> > off hand
+
+> > cuz we have one. Yeah. Uh I think it's 102 in.
+
+> > We should measure this car and see the difference.
+
+> > Why don't you We got We could chat it.
+
+> > So, this is the same size as your bus.
+
+> > Well, it's like a foot.
+
+> > Yeah.
+
+> > And that's fine. I'll give it a foot, honey. But where's the extra 3 ft inside? If we run a bus,
+> > there'd be two other people over there with my glasses on.
+
+> > In between a bus is like this much barely for your hips. No, it's not three feet.
+
+> > Well, h there's two seats. There's a hallway. Then there's two seats across the hallway.
+
+> > Yeah.
+
+> > And look at Aaron and I.
+
+> > Imagine there's a hallway next to him and then Aaron and I are over there.
+
+> > Yeah. I just don't think bus seats are that roomy.
+
+> > They're not as roomy as this. But just imagine getting two more people in a hallway within an
+> > extra foot of this space.
+
+> > I understand the concept. I just
+
+> > Well, you do reject it wholeheartedly.
+
+> > I don't think it's proof of this sim. No,
+
+> > it's not the least bit confusing to you.
+
+> > I'm googling the width of a Chevy
+
+> > Bolt.
+
+> > Bolt. I have a bolt, not a Volt.
+
+> > Do you have chat on your phone?
+
+> > Yeah. 69 Yeah..5.
+
+> > Okay. 69.5
+
+> > 70 in. And now um
+
+> > Well, hold on. If we're going to be accurate, you can't start saying 70. I said 69.5.
+
+> > Okay.
+
+> > What is the width of a city bus?
+
+> > 70 in
+
+> > 62.
+
+> > 8t 4 in.
+
+> > Okay. So 80 96.
+
+> > What is 8t.4 in? 96.4
+
+> > in
+
+> > 100
+
+> > 100.
+
+> > It's 100. Oops. Oh, that was embarrassing. I was caught on camera doing the math wrong.
+
+> > I don't know. 100us 69.5.
+
+> > Hold on though. Was 8 ft. Yeah.
+
+> > Yeah. 8t.4
+
+> > or 8'4 in 8t 4.
+
+> > Okay. 96 + 4. I see it. So 100. So it's 300US 69.5
+
+> > 30.5 in.
+
+> > Yeah. Which is
+
+> > which is less than 3 ft. It's 2 and 1/2 ft. Exactly.
+
+> > Look at the car in front of us. There is easily 2 and 1/2 ft if you combine both sides.
+
+> > Well, hold on one second though, my love.
+
+> > Okay.
+
+> > 30 in is 2 and 1/2 ft.
+
+> > Yeah.
+
+> > Yeah. So if you added 2 and 1/2 ft in here,
+
+> > that would get you maybe the hallway. I see you're asking me to picture the inside of the bus.
+
+> > Yes.
+
+> > You know what our problem is and why we can't eat and why Larry Mantel would poke a Swiss cheese
+> > size hole in this story.
+
+> > Yeah.
+
+> > When's the last time you were on a city bus?
+
+> > Hour and a half ago.
+
+> > No. And you need to be you need to be on a city bus to really see if it's as spacious as we
+> > think.
+
+> > Well, all I do know for certain, and I know you know you would agree, it's two seats, a hallway,
+> > two seats. We were on those buses in Sweden. Yeah,
+
+> > remember or um in um Norway.
+
+> > We drove all around those mountain roads
+
+> > and we're in two captain's chairs and there's a hallway and then two captain's chairs. So, I'm
+> > just curious how you put two more captain's chairs in a hallway in 2 and 1/2 ft.
+
+> > Understood. The airport shuttle. I was just thinking um the airport shuttle from LAX to the Uber
+> > lot is like people on both sides. Um and luggage everywhere and a really wide hallway.
+
+> > A hallway you can bring your your rolling a bag on.
+
+> > But are you thinking of a school bus? Because often times or sometimes I believe the buses the
+> > seats face horizontally, not vertically. They face each other.
+
+> > You've been on a bus where they're facing each other?
+
+> > Yeah, on the airport shuttle. You're right.
+
+> > Oh, airport shuttle.
+
+> > Yes.
+
+> > Yes, I've been in both. And I think they often have both things.
+
+> > Do you take the airport shuttle a lot?
+
+> > Uh, yeah. To work
+
+> > every morning. DW. Have you been on a city bus as of however recently?
+
+> > No, I haven't.
+
+> > Right. Like a metro line. Okay. Back to how much you love this car though cuz I think one of the
+> > cutest things you've ever done, honey, is that we were on a hike and you had heard terrible news
+> > that they were discontinuing the Bolt. And you were a you were panicked. And what did you ask me
+> > on the hike?
+
+> > I said, "Should we get another one?"
+
+> > Oh, wait. How many? before
+
+> > I I remember it is should we get a couple backups?
+
+> > Should we get maybe I said one or two backups. It's not like I need but I just got nervous that
+> > if they don't make it anymore and I don't want the I don't want a new fancy one. I don't want to
+> > drive the Starship Enterprise. I have no interest in that. I want a car that's tactile, that has
+> > buttons that I can push
+
+> > and that does what I want it to do with muscle memory. And I said, should we grab a backup
+
+> > or two?
+
+> > Two before
+
+> > should we have three bullets in the driveway?
+
+> > Do you remember when I said to you?
+
+> > No. You said no.
+
+> > You're stupid. Why did I marry you? Stop talking on this hike. Um, well, I had pointed out and
+> > here we are now a year and a half after that conversation and this car I'm looking at the
+> > odometer has 21,500 miles on it.
+
+> > And at the time of the conversation, the car had about 15,000 m on it and it was 3 years old. And
+> > I said, "Well, love, I think you're going to be driving that same Bolt for another 15 to 20 years
+> > at the rate of mileage you're putting on it. It's definitely going to go 150,000 miles." And that
+> > made me feel a lot safer. But I just thought, I don't know what if somebody steals it.
+
+> > Yeah. You were thinking of it like as a great pair of shoes or any kind of fashion item that
+
+> > a pair of jeans. If you find the perfect pair of jeans, you get them in another color.
+
+> > Get some backups. Get
+
+> > You ever done that?
+
+> > Duplicate. Yeah.
+
+> > You have?
+
+> > I have.
+
+> > Do you remember with what?
+
+> > Um, yeah. A pair of kangaroos and I used paper out money. They were
+
+> > Oh, you had double pairs of kangaroos.
+
+> > Yeah.
+
+> > The kind with a zipper on the side.
+
+> > Yeah. Yeah. Yeah.
+
+> > Yeah. And um they said they were going out of business and I um they were like eight bucks. Oh my
+> > god. At some store in Milford. So yeah, when I was a kid I did, but I hear about this all the
+> > time. Um I know Ruthie will do that.
+
+> > Mhm.
+
+> > I don't think I love anything enough to get to of right now.
+
+> > I'm going to tell you what I love enough. I I love my cute wife so much. Oh, you are too?
+
+> > Because I'm going to tell you, I'm going to be transparent. I said, "Hey, today when we're doing
+> > our interview, um would you ask Aaron a lot of questions cuz I feel like he is sometimes left
+> > out."
+
+> > And it just hit me how absolutely sweet and cute it is that you're doing it, honey. Look at me.
+
+> > I love you. I love you. Did you ever do that? That was so sweet.
+
+> > There she goes.
+
+> > Thanks, Mom.
+
+> > Look, I'm no Larry Mantel, but I'll give it a shot.
+
+> > There's no way Larry Mantel's collecting Chevy Bolts.
+
+> > He need a step stool to kiss your ass.
+
+> > Before you met Aaron and you had only heard stories Yeah. that I told you early in our
+> > relationship.
+
+> > What was your like what had you pictured versus what
+
+> > I thought they'd definitely have hooked up.
+
+> > That's not
+
+> > for sure.
+
+> > It's not uncommon to think that.
+
+> > Yeah. Um
+
+> > you actually I'd be worried about if you didn't think I as you know my mom certainly thought she
+> > even said at one point I think I told you, right?
+
+> > Yeah. That she was okay with it.
+
+> > Well, like since she had come in and we were snuggling in my room as we would do. Mhm.
+
+> > And she was like, "Yeah, I guess my assumption was sure he was trying that we were up there." But
+> > I don't know why that I thought that was so crazy she thought that we were snuggling.
+
+> > I think my assumption What actually there weren't assumptions. What I what I digested from the
+> > stories you told me about Aaron. And again, I didn't know Aaron yet, so I couldn't come to many
+> > conclusions about him. But what it read to me was that you are a fiercely loyal person and
+> > actually have way more of an open heart than you let on
+
+> > than I advertise
+
+> > than you advertise because you had found another person who you know the way you talked about you
+> > guys and all the mistakes you've made and the rockus you've produced around town that you just
+> > loved this other person as a soulmate and I there's something really really beautiful about
+> > loving someone kind of that deep and not being flippant in your friendship connections like oh
+> > Aaron's my ride or die whether I talk to him every day or once a year.
+
+> > Yeah.
+
+> > So I just thought it was beautiful. I thought it was really sweet.
+
+> > I could imagine where you might have had a much different picture of who he was cuz of course I'm
+> > telling you the craziest stories about us every time I'm talking. Like I'm wondering if when you
+> > met him, did you go like, "Oh, wow. He's so much sweeter than I was expecting." I think that's a
+> > kind of common reaction to Aaron if I've told a bunch of stories.
+
+> > Yeah,
+
+> > maybe. But no, but you he was always so well-rounded in how he spoke about you cuz he always was
+> > like, "Oh, Aaron was the cutest. The cutest. All the girls liked him and he was just the cutest
+> > boy and he was the nicest boy."
+
+> > You know what's gets left out a lot is the heart. the size of this guy's heart and the love he
+> > showed like I amazingly I know he talks about me so much but I can put it in perspective like
+> > this is how I felt in seventh grade the first time he came to my house and I think you were
+> > giving me something to take to camp
+
+> > a duffel bag
+
+> > a duffel bag
+
+> > I felt like one of those dogs that were like like why is someone about to be nice to me and I'm
+> > like like shaky
+
+> > like and I'm like, "Oh, he's nice. He's being nice. He's nice. He's not judging me or doing
+> > anything but being nice."
+
+> > Well, I asked Aaron, we had a class together. We had
+
+> > We had Mr. Nelson's class. That's where we really fell in love.
+
+> > Yeah.
+
+> > Drawing pictures back and forth. And then I asked him, "Uh, are you going to go to the seventh
+> > grade camp trip?" thinking, "Of course, he's going to go and this is going to be a great time for
+> > us to really develop our friendship." And then he said he wasn't going. And this is so I think
+> > this was so vulnerable of you and probably the start of the whole vulnerability thing. I don't
+> > know how you found the confidence to tell me you didn't want to go cuz you only had trash bags.
+
+> > Do you remember that was the reason you didn't want to go?
+
+> > Embarrassing. See, that's where how beautiful the relationship was. That's you immediately. I was
+> > that comfortable with you.
+
+> > You also told me all the like heartfelt stories about Aaron and his upbringing and the kittens
+> > and the
+
+> > Oh my god. Should we tell talk about the kittens?
+
+> > It's too dark. I think it might. It's among the darkest things I've ever seen. And Erin, to to to
+> > to witness that and not be completely scarred by any adult you ever run into for the rest of your
+> > life is beyond me.
+
+> > I think I can maybe um do a a really safe version to just say there were a bunch of cats born
+> > kittens who all had leukemia. and a very very very very drunk
+
+> > mean
+
+> > caretaker male um decided to handle this situation with his bare hands in one fell swoop in front
+> > of us.
+
+> > Sure.
+
+> > I'm so glad you guys laugh about that. Also,
+
+> > I I one time stepped on a slug when I was 16 on accident
+
+> > and I I cried for about 30 minutes and I buried it in a matchbox in my backyard.
+
+> > So, if I had seen kittens
+
+> > so cute
+
+> > taken out in front of Delta doing that,
+
+> > I'd never I could I couldn't go back to school again.
+
+> > You might be paralyzed.
+
+> > I would be it'd be so much grief that I wasn't ready to handle. But Aaron, what did you think of
+> > Dax when you first met him? What was your read on him? Cuz he talks about himself in middle
+> > school, which is where you guys met. Yeah.
+
+> > Yeah. Sixth grade was
+
+> > as his peak that he was really
+
+> > Oh, yeah. All downhill from it.
+
+> > Yeah. Middle school felt like it was 20 years long.
+
+> > Was he a stud? Was he as much of a stud as he says he was?
+
+> > Yeah.
+
+> > Yeah.
+
+> > Oh, absolutely.
+
+> > Yeah. He was so cool and um and um exerted a a lot of confidence on the outside.
+
+> > No,
+
+> > but I felt him that maybe that
+
+> > confidence wasn't as confident as he made it out to be
+
+> > and I just wanted to embrace him. But when we first our very first conversation was in the
+> > bathroom in the sixth grade hallway.
+
+> > The bathroom was in the hallway.
+
+> > That's the There's a sixth grade hallway and then it has its own bathroom.
+
+> > Keep all those perverted eighth grader boys out of there.
+
+> > Yeah. Dax came in and said, and of course when I say it, I mean, we're 11, but he's like, "Are
+> > you Aaron Weekly?" No, he's like, "Are you Aaron Weekly?" And I was like, "Fuck." Um, I was just
+> > like, all I can remember is being in a moment like I just need to be left alone. Like I
+
+> > And I was a new kid, huh? I had just transferred into, you know, like he looked cool, cool
+> > haircut. And I just thought, why would What's going on? Just leave me the [ __ ] alone.
+
+> > But we had a friend, Kevin Gwyn.
+
+> > Yeah.
+
+> > And Kevin said to look me up.
+
+> > Yeah. Well, Kevin was my best friend in sixth grade at the old sixth grade at Highland Junior
+> > High and he said, "Oh, when you get to Mure, you got to meet my friend Aaron. He's the coolest
+> > dude." He was explaining how cool he was. And Kevin was super cool. He had a crazy haircut and
+> > skateboarded. So, I'm kind of like keep my eyes out for like the coolest dude in the school. And
+> > then I
+
+> > I was like
+
+> > then I asked around and then I figured out who it was and then I somehow found him in the
+> > bathroom and Yeah. Yeah. And there was a little bit nervous I think. Uh
+
+> > did you shake hands or anything or were you just like I'm Dax?
+
+> > It wasn't [Laughter] just like I'm
+
+> > trying to be on my team.
+
+> > I'm friends with Kevin. Um, Kevin told me to say hi to you and then maybe Aaron just thought that
+> > that mission accomplished like I said hi or Aaron thought I said hi on Kevin's behalf and that
+> > was going to be the end of it. And then as luck would have it then the first class I had of
+> > seventh grade was this Mr. Nelson's history was it history class? Social studies.
+
+> > Yeah. Yeah. Yeah.
+
+> > And we were seated right next to each other. I'm not not sure how the ball sack cowboy pitchers
+> > started, but they started right away.
+
+> > Real fast.
+
+> > Right away. That's an interesting thing for us to do right out of the gate.
+
+> > Right. Oh, you created that together.
+
+> > Yes. And we started passing notes.
+
+> > Yeah.
+
+> > Written or just drawings? Well, a lot of them were there were drawings with situations, I guess,
+> > like um
+
+> > with the little bubble of someone was saying something on it, but not notes like I love you. Hi,
+
+> > I'm in love with you.
+
+> > I love that you're my friend. And then, so I brought that duffel bag over. That was the first
+> > time I went over to Aaron's house. Then he came to seventh grade camp and you could be in two
+> > different bunk houses and I was like, "Okay, Aaron's going to be in mine with Jack, right, who
+> > ultimately the three of us were all best friends who was crazy and wild and and um Aaron stayed
+> > in our bunk, but Aaron went to sleep every night pretty early before we went out and we probably
+> > didn't party yet. But mom, I have to tell you, to be away from my house for a day in a few days,
+> > it was nice to get rest.
+
+> > Yeah.
+
+> > Without having any worries of falling asleep.
+
+> > Yeah.
+
+> > So, it's as sad as that sounds.
+
+> > Yeah. You do you really find the fun in it ultimately though, right? Cuz we would
+
+> > Yeah. This one time in particular as one of my favorite memories we have is Butch was the man's
+> > name. He was annihilated at like 400 pm on a Thursday and we were in Aaron's trailer and he
+> > always claimed to have been an incredible pitcher when he was a kid and he struck out Kirk Gibson
+> > who who's a Detroit hero and this you know he's a legend in his own mind and he wanted to play
+> > catch with Aaron and I with a wet washcloth or was cuz that's the kind of
+
+> > this was and this was an attempt at a fatherson catch
+
+> > that get you guys closer.
+
+> > Yeah, that's that's how I felt. I guess this is going to be like father-son bonding.
+
+> > Well, his intentions were much different than ours. He was tossing it to us and we were throwing
+> > it as hard as we could at his face and he was so hammered. It was hitting him in the face every
+> > single time we threw it at him.
+
+> > His face was all melted up.
+
+> > I just We played this game of catch for like 40 minutes and we were just chucking it as hard as
+> > we could. a wet wash to a wet wash.
+
+> > You keep wetting it down.
+
+> > You were We were like throwing our shoulders out. We were throwing it so hard
+
+> > and laughing as they're going like he was having a great time.
+
+> > It's the most fun I ever had with him.
+
+> > And you were a really good ball player, right?
+
+> > Well, yeah. That's why he always wanted to bond. Not always wanted to bond, but um
+
+> > intermittently. That's uh where the bond was gonna come from if it was gonna happen over B
+> > baseball with washcloth. But yeah,
+
+> > you didn't have a ball.
+
+> > Oh no, I wish we would have had a killed by throwing a baseball at his face over and over and
+> > over again.
+
+> > Maybe he kind of knew that.
+
+> > You ever eat at Playita?
+
+> > No.
+
+> > But there are some cute restaurants and shops here. We're going to New York in a um a couple
+> > weeks, Aaron, and we're so excited. Are you so excited? I'm so excited.
+
+> > I know. Mom loves New York.
+
+> > We don't get many trips, and this is going to be a full four or five days. Wednesday to Saturday.
+
+> > We fly in Wednesday, which day. It's a working trip.
+
+> > It's working.
+
+> > Do you know mom is one of times 100 most influential people?
+
+> > No.
+
+> > Do you feel my influence?
+
+> > Crazy.
+
+> > I've felt it since day one.
+
+> > I I have been heavily influenced. Yeah.
+
+> > Oh, that's a fun question. Do you do you think this is self-indulgent, but here we go. Can you
+> > feel Kristen's effects on me over the years?
+
+> > Yes. And I'm not kidding. I have felt her effects on me. Yeah.
+
+> > Yeah. Yeah. Yeah. She's very infectious.
+
+> > Yeah. She's turned me into a better person.
+
+> > You're a really great example on
+
+> > Yeah. Truly. I was looking at my Instagram, right? And the the last two posts, one is of me
+> > looking cool on a motorcycle
+
+> > and one is of me crying
+
+> > and one has 4 million views and one has 400,000. And I think I would have never had the
+> > confidence to embrace that side of myself publicly uh if you didn't enter the picture.
+
+> > Cuz I cry all the time and I make it seem so normal. Well, this is a fun time to say that you and
+> > I have done a complete reversal, which is when we met, you cried every 45 minutes.
+
+> > Yeah.
+
+> > Oh, except
+
+> > Oh, finally.
+
+> > Look at that.
+
+> > Where are we at? 700 ft away from something.
+
+> > Hey, I wonder if it's the same rice and barbecue that we went to yesterday.
+
+> > When I saw his post, your post the other day, I I told him I cried while I was scrolling and I
+> > cried. I didn't even have the volume. I didn't even know what he was crying about. about a
+> > motorcycle I wanted. I started crying immediately when I saw him welted up.
+
+> > I did too. And that means you have mirror neurons. But I also wonder if there's some because it's
+> > one thing I think they're separated issues, right? Like one thing is do things make you cry or do
+> > you have a bunch of guards up that allow you to not be emotionally invested? And then the second
+> > thing is your system of mirror neurons, which is when you see someone else cry, your mirror
+> > neurons, I don't want to say should cuz I don't know if they should, but if they're strong, they
+> > turn on. Like I've watched that video of you two or three times now and I well up every single
+> > time.
+
+> > And I wonder if because you guys didn't have the adults that maybe you wanted to emulate that
+> > were safe around you, you like almost like dulled your mirror neurons cuz you're like, I can't
+> > mirror these people. Well, look, I have a story and the story is I had this older brother and I
+> > just did not want to be a baby. I did not want to be a baby all the time. I want to be older. You
+> > see it with Delta. Now, imagine it's a 5-year gap. And just crying was a baby's activity and I
+> > just decided at nine. We're not doing that cuz that's very babyish in front of David.
+
+> > Um, but Aaron was a good crier always.
+
+> > I Well, I cried up until a year and a half ago. I I was Yeah, I've always cried.
+
+> > We would get sent to Bart Monty's office, the vice principal,
+
+> > and we would sit in there and he would yell at us and I would be stonefaced staring at him and
+> > then Aaron would start crying and then I'd get really protective over Aaron and be defending
+> > Aaron and it was a whole scene. I can only imagine what he thought when he came home from work.
+> > He never let us know, but he had to have thought that was cute. crying.
+
+> > Two little boys in his two little bad boys in his office and one's crying and one's trying to
+> > protect them.
+
+> > Yeah. Trying to stop me from crying.
+
+> > I'm going to go get this food.
+
+> > Get this food. Get this money. Let's go make some money.
+
+> > Hi.
+
+> > Hi. I love you.
+
+> > I love you.
+
+> > Thanks for doing that.
+
+> > Yeah.
+
+> > You're so good. You're asking so many questions.
+
+> > Is he wearing a glass? You're blowing up my spot.
+
+> > Stay tuned for more mom's car. Some people just know they could save hundreds on car insurance by
+> > checking All State First. You know, it reminds me of all those times when checking first really
+> > pays off. Like that time I didn't check the weather before planning a backyard barbecue. Rookie
+> > mistake. Or how about when you're about to head out on a road trip and you know to check your
+> > tire pressure first. It's those little check first moments that save us from bigger headaches
+> > later. I mean, think about it. You always check if you have your wallet before sitting down at a
+> > restaurant, right? Or make sure you've got your keys before closing the front door. These are
+> > just smart moves we all make. Checking first is smart, so check All State first for a quote that
+> > could save you hundreds. You're in good hands with All State. Savings vary subject to terms,
+> > conditions, and availability. All State North American Insurance Co. and affiliates Northbrook
+> > Illinois. Hey parents, it's that time of year again. back to school madness. But before you start
+> > hyperventilating into a paper bag, let me tell you about a little lifesaver called Uber Eats.
+> > Right now, they're offering up to 40% off back to school essentials. You heard that right, 40%.
+> > We're talking notebooks, colored pencils, calculators, glue sticks, all that stuff your kids need
+> > to become the next Einstein or at least pass the sixth grade. But wait, there's more. Uber Eats
+> > has your lunchbox game covered, too. Get discounts on string cheese, juice boxes, fresh fruit,
+> > lunchables, all the fuel your little geniuses need to power through the day. And hey, if some of
+> > those snacks accidentally fall into your mouth, I won't tell anyone. The best part, it's all just
+> > a tap away on the Uber Eats app. No more running around like a headless chicken trying to get
+> > everything done. So make your life easier and order now on Uber Eats. Remember, get up to 40% off
+> > back to school essentials. Offer ends 9:16. Terms apply. See app for details.
+
+> > Hello.
+
+> > Oh my god. What if this place?
+
+> > Oh, I hope so. I hope there's another I hope they're getting
+
+> > Wait, are you have to go directly to this person or are you allowed to pick up another piece of
+> > food?
+
+> > If if something rang, we could, but um you see how
+
+> > Yeah, that's between us.
+
+> > That's happened to us once. Oh, this is the directions to the person who ordered barbecue and
+> > rice.
+
+> > That's right.
+
+> > It's only 3 minutes away.
+
+> > Yep.
+
+> > This person's only 3 minutes away. Just picked it up.
+
+> > It has alleviated a lot of my guilt. Like the the the most obnoxious and indulgent thing I do is
+> > order Five Guys when we're at the Hansen's.
+
+> > Oh yeah,
+
+> > it's across the street. I I almost have felt like when the guy I get the food from the guy, he's
+> > got to be pissed at me. Like, come on, you lazy [ __ ] You walked almost as far to pick the food
+> > up at the end of the driveway.
+
+> > But this is very common. Like most of our deliveries are within a few hundred feet. Yes.
+
+> > We're working from home.
+
+> > You're not the only one.
+
+> > See, that's exactly the kind of attitude you have. That's infectious.
+
+> > Do you hear what she said?
+
+> > Working from home. I never It never It's a lazy bum. It's a [ __ ] bum whose parents are giving
+> > them money and they're sitting on their ass at home ordering food from 100 ft away and you go
+> > they're working from home. That's the exact influence I need in my life.
+
+> > Me too.
+
+> > What do you think of this person?
+
+> > So embarrassed. It never occurred to me. Someone's working from home.
+
+> > Even if we were just waiting at home.
+
+> > I think they're terrible.
+
+> > So lazy.
+
+> > Oh wow. And I assume everyone we deliver food to is a terrible person just like me.
+
+> > When you order food though, it's because we've both just gotten off work. We need to feed the
+> > kids. We haven't had time to do anything. Why wouldn't everyone else be in the same position we
+> > in?
+
+> > Well, but I but but but this is the benefit of being a good person. So, you're a good person and
+> > then you assume everyone else is a good person. But Aaron and I identify a little bit with being
+> > lazy pieces of [ __ ]
+
+> > And despite a lot of evidence otherwise, that's still kind of just my route. Like again, if I see
+> > someone cut me off, I'm like, "Yeah, they're intitled and they want to get there faster than I'm
+> > going to get there cuz I drive like that." That's the penalty if you're a piece of [ __ ] is you
+> > assume everyone else is a piece of [ __ ]
+
+> > I guess. But I do think as I've liked myself more, I do I do give a lot more benefit of the doubt
+> > and think better thoughts about people. But like when you see someone cut you, you would never
+> > fly around someone on the ride and try to make up a minute.
+
+> > Yeah.
+
+> > You wouldn't do that.
+
+> > No, cuz they could have a pregnant woman in the car and if they're driving too slow, they could
+> > have a cake in the back for kids that they don't want to smash.
+
+> > Birthday cake for a senior for someone's birthday.
+
+> > Someone's final birthday.
+
+> > Final birthday. Oh my god,
+
+> > they got this precarious three- tiered cake in the back seat. They're trying to [ __ ] footing
+> > around the city.
+
+> > God, I hope I think of something like that next time I'm in that position.
+
+> > Yeah, like someone's going 15 miles an hour in a 35 and I know,
+
+> > you know, cake home safe.
+
+> > Birthday cake or not, [ __ ]
+
+> > Put your foot on the gas.
+
+> > Just tell them I got [ __ ] up on the ride cuz the traffic was a beatdown. Oh man.
+
+> > Yeah. The fact that you've been able to share a life with me and I'm moving around like that is
+> > God bless you.
+
+> > But honey, I give you the benefit of the doubt and often times I'm right. You have the story
+> > about yourself that you have all these bad intentions all the time. You're a big boy and it's
+> > just
+
+> > You think that's not the
+
+> > Yeah, I do.
+
+> > Oh, is this the food? He's coming out to you.
+
+> > Oh [ __ ] This never happens.
+
+> > Are you Andrew? Wonderful.
+
+> > Look like he's working.
+
+> > Of course. Of course he's not.
+
+> > Oh, Jennifer.
+
+> > But you know what? Maybe he's kneede in work. That's why he's not.
+
+> > You want to meet Kristen Bell?
+
+> > Home.
+
+> > I did see it said Dax.
+
+> > I'm sure. Let's do a selfie.
+
+> > We're making a podcast where we deliver food.
+
+> > Okay.
+
+> > Hi.
+
+> > Hi.
+
+> > You're Andrew?
+
+> > I am.
+
+> > Dax. You want to take a picture? Hold on. I can get out.
+
+> > Yeah. Let's get out and get a photo.
+
+> > Okay. Hold on.
+
+> > I'm all I got to put my mic in my pocket.
+
+> > All right. Now I have to leave. Now I have to leave a good tip.
+
+> > No, you don't. You leave zero tip. My wife is very wealthy.
+
+> > Take care, brother.
+
+> > Have a good one.
+
+> > You, too.
+
+> > And finally it.
+
+> > Of course, cuz you're here. You [ __ ] [ __ ] Cube, did I tell you this funny thing, Aaron, about
+> > the hotel reservation?
+
+> > Hold on. 17. No. Oh. Oh, sorry. I accepted so fast.
+
+> > No, no, no. That's another We got another It's on now.
+
+> > Oh. Oh,
+
+> > it's like this sometimes when it rains it pours.
+
+> > What happened?
+
+> > Oh, you have it.
+
+> > No, no, no. You still have to put
+
+> > Okay.
+
+> > Yeah. So, I tell you about the hotel cuz I'm taking the girls to Hawaii on Saturday.
+
+> > Oh, yeah. You told me the story. just the three of us. I think that girl got fired.
+
+> > So, I got an email from the hotel saying, "We're delighted to offer you a complimentary upgrade
+> > to a suite." Um, and also, if you're traveling with Miss Belle, uh, let us know if we can arrange
+> > any services for her. And so I wrote back like, "Oh, I'd love an upgrade if I could get a rollway
+> > so that there's enough beds." And they were like, "No problem." And they said, "And any surfaces
+> > for Miss Bell?" And I said, "No, she won't be joining us on this trip." And they wrote, "We're so
+> > sad that she won't be joining." And I was like, "They fully regret giving me this upgrade." Cuz
+> > they thought they were giving you an upgrade.
+
+> > That is not true. No, more likely they probably because no one in their right mind can believe
+> > that a dad would watch his kids by himself without the mom there.
+
+> > That's much more likely.
+
+> > And they might be right. Let's see. Let's see how it goes.
+
+> > What's this?
+
+> > Oh, first vegan breakfast burrito.
+
+> > This is a big one, guys. This is 23 minutes. Let's do a question.
+
+> > Okay, Mom.
+
+> > Are you ready, Mom? Yep.
+
+> > I'm a single mom to an incredible 17-year-old daughter, Riley. I got sober a few years ago, and
+> > it's the best thing I've ever done for myself and for her. But now, I'm facing something I never
+> > really prepared for. Riley leaving home in 2 years. As proud as I am of her, the thought of an
+> > empty house after 18 years of being mom every single day is terrifying. I know I have to keep
+> > putting my sobriety first, but I'm scared of the loneliness, of not having her as my anchor, and
+> > of what my identity looks like when she's out in the world chasing her dreams. I've built a life
+> > that I love, but sometimes I feel the pull of old coping mechanisms when I think about the quiet
+> > that's coming. I have lost a lot of time with her because of my addiction. How do I prepare for
+> > the transition in a healthy way? What helped you both when facing major life shifts? And how do I
+> > keep showing up for myself so I don't fall into a place where I risk everything I've worked for?
+
+> > Well, Aaron, you're you're the first of us in this exact situation cuz Wade is going away to
+> > college
+
+> > in 6 months, right?
+
+> > Yeah. First of all, I I relate with the um getting sober and feeling like you lost a lot of years
+
+> > Yeah. with your kids. Um, and you have all this making up to do and um, it sounds like she has
+> > done that successfully and hopefully has realized that it's okay and you just have to accept it.
+
+> > Yeah, you have to forgive yourself, I'd imagine.
+
+> > And it's the it's seems very impossible and I can't remember how long it took me before I did
+> > accept it, but
+
+> > yeah. Well, I can in other arenas I've witnessed you now at five years have the three years of
+> > feeling very guilty and then saying, you know what, I feel bad, but here we are and I really
+> > can't live feeling bad now for the rest of my life. It's not what I've been working so hard to
+> > feel like. Right.
+
+> > Yeah. It's It takes such a toll.
+
+> > Yeah.
+
+> > on you. And then I also Wade is going away, but um and I have two girls still that are not yet.
+> > But I am so excited for him to live his life. I'm so excited for him to get to do anything at all
+> > that resembles I just think of you and I at that age.
+
+> > Oh my god.
+
+> > You know, although this is we didn't go away to college,
+
+> > right? We didn't go on spring break with our mom.
+
+> > We sure
+
+> > Things have changed. Do you know that everyone goes on spring break with their mom now?
+
+> > Yeah, I do. You know that my sister went on My sister went on spring break with Lucy and Ben.
+
+> > What is your thoughts on that?
+
+> > The moms are sick of freaking staying at home and doing nothing. They want to be involved, too.
+> > It's not It's not like the moms are going to parties with them. They like, at least with my
+> > sister, she separates from them. But like, she'd like a beach vacation, and she's paying for it,
+> > so I think why not?
+
+> > Well, I love mom taking a beach vacation. I just don't know why it's got to be with the
+> > 18-year-old on spring break. Seems stressful.
+
+> > I just don't know how the kid has the fun they're supposed to have. It's supposed to be like a
+> > rum springer.
+
+> > For you?
+
+> > Yeah.
+
+> > Well, it was for me, too, I guess.
+
+> > Oh, yeah. Don't sell yourself short.
+
+> > It was. I remember. And I took a
+
+> > Where did you go?
+
+> > South Padre Island, of course.
+
+> > TJ South. And then I And then we
+
+> > Did you hook up? Were you
+
+> > Oh, yeah.
+
+> > You did. You You went single. You You managed that correctly, by the way.
+
+> > Yeah. And I went with
+
+> > literally we could have been there at the same time,
+
+> > right?
+
+> > I went with all the I went with like the group of smart girls from my school and we got blasted
+> > and then I and and then like my rolls of disposable cameras that I put in like
+
+> > my, you know, photo album book and hid at the bottom of my closet my uh proof of my room. Yeah.
+> > my mom brought into like the mom's club at the high school the year I left for college and showed
+> > everybody
+
+> > as a warning of what happens on these
+
+> > warning. Maybe she thought it was funny. Maybe she just was going through my I don't know. I just
+> > went through my
+
+> > but you you were single on that trip.
+
+> > Yeah. Well,
+
+> > I don't know if I was.
+
+> > Oh, I mean
+
+> > I don't think I was.
+
+> > Nice.
+
+> > It's regretful, but I don't think it was. You know what I want? Here's what here's the way my
+> > brain works. I'm such an optimist. I wanted to answer yes.
+
+> > Yeah.
+
+> > Because that's the right answer.
+
+> > But if I really think about it, I don't think I was.
+
+> > Yeah. Yeah. Well, I This is what I like about you. Everyone's got a little duality. And yours is
+> > particularly interesting cuz yours you're on the surface such a goody goody.
+
+> > Yeah.
+
+> > Again, we're we're really opposites. I'm like presenting one way, but I'm balling.
+
+> > You're perfect, but my might have been
+
+> > You know, I can't handle alcohol. So, like I had a little bit of alcohol and nothing else
+> > mattered.
+
+> > Escape tomorrow when you have a little alcoh alcohol in you.
+
+> > Um, I have a lot of thoughts on Mallalerie's situation.
+
+> > Yeah, tell me. I thought you would.
+
+> > Well, I think about this a lot and first of all, I can fully acknowledge that I don't I I don't
+> > suffer from the certainly not the same demons as worrying about the loneliness. But I find it
+> > helpful for the way my mind works to picture like the visual like how many bags do I want to
+> > carry around in life? Like I feel like the invisible bags of baggage of things I'm going to carry
+> > things worrying you know.
+
+> > Uhhuh.
+
+> > And when my kids go to college I just don't I don't want to carry around this the bags full of
+> > this empty feeling. So I'm like okay well how do I set them down? And I think preparing yourself
+> > by way of looking at life as a cycle has really helped me. Like a flower, a flower starts as a
+> > sprout and then it grows into a beautiful flower and then it kind of withers and then it
+> > fertilizes the other plants. Like I think about that a lot when I look at the girls and I'm like,
+> > "Oh yeah, bikini season's over for me." And that's okay.
+
+> > Well, hold on.
+
+> > I had a lot of bikinis.
+
+> > You're in a lot of bikinis.
+
+> > I know. But you you understand what I'm saying, right? Like for me being the onenu, that's done.
+> > I'm a mom. They think I'm gross. They call my boobs sloppy joe's. You know what I mean? Like
+> > that's the phase I'm in where I'm getting I'm getting ried by my
+
+> > Maybe Riz is flirting. I'm getting um [ __ ] on it by my kids. And that's that's also a phase
+> > that can be beautiful, but it's so hard for humans to be okay with going into a different phase.
+
+> > Yeah.
+
+> > And that's the hump. It's not what am I going to do? Just be accepting of the the next phase of
+> > your life is happening. And now you're going to have to still be her rock at home when she calls
+> > home, but you are going to have to find other things to nurture if you are particularly filled up
+> > by nurturing. So volunteer somewhere, get a dog, get a cat, get a goldfish,
+
+> > create a hobby. So that that's
+
+> > get a male chimp,
+
+> > get a male, get a tonka. That space is filled is kind of all you can do. Fill the space with
+> > things you've always wanted to do. Beyond that, really work to understand that everything has a
+> > cycle. Even this Chevy Bolt, she'll have a she'll die one day and I'll be so sad.
+
+> > That might not comparison,
+
+> > but do you know what I mean? Like everything has to have a cycle. Without it, the Earth couldn't
+> > function and it's just really hard for humans to step out of one phase into another phase. But I
+> > think when you when you zoom out and look at it as a macro view like that,
+
+> > it becomes easier.
+
+> > The biggest chunk of my identity is now the father of Lincoln and Delta. Like it's 80% of what
+> > what I think I am. So yeah, it's going to be really wild to not have a daily responsibility or
+> > commitment to them. And I do think there's going to be an enormous hole there.
+
+> > And I think I'm going to be very sad that I don't hear them in the house. I think it's going to
+> > be rough.
+
+> > Oh, for sure.
+
+> > But I'm also very I'm a romantic. So I also have a fantasy of your and I's life completely free
+> > to go to New York for a week if we want and to go to Europe with the Richardsons and just do what
+> > we want to do. Like I have a very healthy fantasy of our life without kids too.
+
+> > Um which is a luxury of being married. But I do wonder if you this is where you and I are a
+> > little different. Like you're not prone to that same fantasy I have, right?
+
+> > Well, no. I I I am to a degree. I think I'm more realistic about habits and practices become
+> > yearnings if you've been doing them for long enough. We will have been nurturing for 18 years.
+> > And if it's like quitting drink, that's like quitting drinking. That's what Mallalerie's feeling.
+> > She's going to have to quit drinking again because that is you're fulfilling something for
+> > someone else. You're practicing this primary purpose. primary. Exactly. And if that just
+> > evaporates instantly, of course, there are going to be aftershocks. So, you have to fill it with
+> > something else that allows you to scratch that itch.
+
+> > Well, yeah. When I read this, the only thing I thought of as my suggestion, and she's further
+> > along than us, so I, you know, I I don't feel like I'm really in a position to make a suggestion
+> > other than I think she has to develop some hobbies or, as you're saying, some volunteering,
+> > something. She has to develop some things to fill that big hole. But my main suggestion is to not
+> > wait until your daughter's left. you're feeling sad and terrible and now I'm asking you to go to
+> > have an interest in something,
+
+> > right? Be ahead of it.
+
+> > Yes. I think like as a commitment to help is like really commit to signing up for some things
+> > before she leaves. So, you're just already in a habit of doing it. That's what my first thought
+> > was reading it too was like she did such a good job already and I just want to hug her and say
+> > please don't worry like you you have done the hardest part
+
+> > and you did get a a few of those good years
+
+> > back that a lot of people don't get. I think that self-esteem can be built when you thread the
+> > line of so you've manufactured this. You've earned this gift that you gave to your daughter. That
+> > means the gift is yours to give again. And if and you know, you don't have to you I'm not saying
+> > adopt a toddler and be up all night, but I'm saying a a dog.
+
+> > Yeah. And one other thing I'd add to mom that she should feel good about is I don't think you can
+> > underestimate the power of modeling a comeback. M
+
+> > and I was very lucky in that I didn't have the kind of shame maybe most people do with addiction
+> > cuz my dad was already an addict and had already gotten sober. Like I never felt terribly judged
+> > by my family for having this thing
+
+> > and that was that's a huge blessing. And he had shown me the road map for when I finally needed
+> > to address it. I was quite familiar with it all. You know,
+
+> > I don't know if it's just me, but like the tough love steps in and talks very harshly to me. And
+> > this is what I did when I was pregnant. When I was like worried about being pregnant about all
+> > the things I was like,
+
+> > "Hey, you know what, Kristen? You're not the first person on the planet to ever have a baby.
+
+> > You're just not." Lots of people have done this before you
+
+> > and yes, it's going to be hard, but someone else has gone through it before you, which means it's
+> > possible. And that gives me hope. Wow, look at these cool old houses. These Victorian
+
+> > Oh, man. Are these like sority?
+
+> > This is our first billionaire we're delivering to,
+
+> > right?
+
+> > Or Yeah, maybe they're sority houses on
+
+> > campus. What if we're delivering to a a party and we get invited in?
+
+> > Well,
+
+> > well, probably not.
+
+> > We're not in that phase. I don't think they want us there.
+
+> > Okay, they'd want you.
+
+> > They're probably watching. Nobody wants us.
+
+> > I'm an old woman. I don't think they want me.
+
+> > Oh, right. You're the hottest sex symbol on Netflix.
+
+> > Yeah.
+
+> > I think it's the next block.
+
+> > Yep.
+
+> > I hope it's not a nude co-ed.
+
+> > It's in here. It's in here.
+
+> > It's in here. She's right there. She's right there. Hope I don't get put in that situation.
+
+> > I got to say I would love to, but my wife is in the car.
+
+> > There wasn't co-ed, but it's a man laying out right there. Jacking.
+
+> > No, he's chatting with a girl. Hang out her window.
+
+> > Oh,
+
+> > what a time to be alive.
+
+> > College.
+
+> > Yeah.
+
+> > I miss it.
+
+> > Look at him. He's calling now. He's calling your name.
+
+> > How you doing?
+
+> > Good. How are you?
+
+> > Really good.
+
+> > Well, out of context, delivering food. It's very confusing, right?
+
+> > And Kristen Bell's in the back seat. Are you [ __ ] kidding?
+
+> > Are you [ __ ] kidding me?
+
+> > Bye.
+
+> > Get that son.
+
+> > I'm starting to feel that old thing where I'm like, "Fuck."
+
+> > Wait, what version?
+
+> > Just
+
+> > that I want to I want to be in.
+
+> > Oh, yeah. Yeah. Yeah. That it's over. That it's all over.
+
+> > It's not over. You're just in a different part of your life.
+
+> > I love the part of my life.
+
+> > Yeah. But I also would love to take weekl long vacations as 27.
+
+> > Yeah.
+
+> > Would you or not at all?
+
+> > There was too much pressure to party and have fun.
+
+> > And I'm too much percentage introvert to really crave or enjoy that. Like I I wish that I was
+> > going on spring break with you guys. I really do cuz I would love to be with you. But I am also
+> > beyond excited to come home to a quiet house and talk to nobody for the whole week after work.
+
+> > Yeah, we were watching White Lotus and there's that scene where they all go out in that town and
+> > they're doing ecstasy and getting drunk and then they're on the boat and I lit the whole that
+> > must have been a 15minute sequence
+
+> > and the entire time I'm going no I'm going to do that again before I die. I'm gonna This is
+> > literally all I'm thinking about. I was like, "No, I'm gonna do I am not leaving planet Earth
+> > without another trip like that to Thailand or whatever." And as I'm in the middle of thinking all
+> > this, Kristen goes, "Gh, this looks torturous. I want to be I want to be reading a book back at
+> > the
+
+> > clearheaded."
+
+> > Proud of every decision I make. Yeah, we were just it's it was so indicative of us. Like I was
+> > just off to the races of how bad I want to be walking down that street all confused and laughing
+> > and being loud.
+
+> > You know, it's too much stimulus for me.
+
+> > I was feeling that same way watching it.
+
+> > Were you?
+
+> > Oh my god. Yeah.
+
+> > I Yeah. I kept telling Rosie I wanted I'm like
+
+> > I need a weekend.
+
+> > I'm like [ __ ] I love this.
+
+> > I know. I know. And I was like, and he's I think I even mentioned like he's like my age.
+
+> > You can, you know, I'll believe anything like it's really happening. The movie, you know, the
+> > movie, you know, he's acting, but I'm like, he's doing it. He's my age. Okay. You ready for a
+> > moral dumbfounding lab?
+
+> > Yeah.
+
+> > The Secret Affair. This is a Jonathan Height.
+
+> > A Jonathan Height moral dilemma.
+
+> > Yeah. His moral dumbfounding questions. Like a brother and sister who have sex. Yeah. The secret
+> > affair. A happily married person has a one night stand while on a trip. They use protection,
+> > never tell their spouse, and the affair never affects their relationship in any way. The marriage
+> > remains strong and loving. Is this morally wrong?
+
+> > Well, this whole thing was a a trap trying to get you to come in on camera and say there's no
+> > problem.
+
+> > I want to hear you first. Why? Why don't you be brave?
+
+> > No, I want to hear you first cuz I already know what I think.
+
+> > Yeah. Um Yeah, I'm fine with it. I don't I don't care if I don't ever know and it has no impact.
+> > I've said it a million times. Like my issue with an affair would not be that you had sex with
+> > somebody. My potential issue with an affair would be you'd be distracted. You'd be overcome with
+> > guilt. It would impact how you treated me. you would not be doing all the things as my partner
+> > that I've come to love that you do. That would be my fear, not the thought that you had sex with
+> > somebody.
+
+> > I think the guilt would take over hard on me.
+
+> > Yeah. Um
+
+> > Yeah. Well, that's reality though.
+
+> > Burst the question. But I agree.
+
+> > I understand. But you're knowing that what you did.
+
+> > I love the idea of doing it
+
+> > and and and it not affecting anything.
+
+> > Yeah.
+
+> > Except uh
+
+> > it would
+
+> > listen I don't get stumped by many of these. I I would eat a person. I would do all these crazy.
+
+> > Yeah. But um [Laughter]
+
+> > yeah, you know yourself and you know that th this is impossible. You'd be carrying the guilt and
+> > then when you feel guilty and shamed then you act a certain way and it would just ripple out.
+> > There's no way it could be done. That I accept.
+
+> > I mean I feel I should preface this with I didn't always feel this way,
+
+> > right? Because when I met you, I was a very jealous person and I was bending to the subconscious
+> > rules society had given me of television shows of like, "My boyfriend cheated on me. Girl, get
+> > him out of the house." No [ __ ] way. Uh-huh.
+
+> > You asked me the question of kind of a would you rather um if I slept with someone versus if I
+> > drove our kids drunk.
+
+> > And that put everything in perspective. I was like, if you had an affair,
+
+> > I feel like we could get through that,
+
+> > right?
+
+> > If you drove my kids drunk,
+
+> > yeah,
+
+> > you're packing up.
+
+> > There's no circumstance in which I would allow you around the kids until I knew you were
+> > completely sober and clear-headed. What was really interesting is we were in a big group of
+> > people and we asked a bunch of couples that question.
+
+> > Would you prefer your partner cheat on you or drive the kids drunk and we were both kind of
+> > shocked that most of the people would prefer that they their partner drove the kids drunk?
+
+> > I don't agree with that. There's something wrong there.
+
+> > I have the exact same answer as you do. The sort of splitting that would be involved of like
+> > although wait what did that one say? It's a one night stand. It never happened.
+
+> > Protection never happened again. has no impact on the relationship.
+
+> > I mean, kind of. Who cares?
+
+> > Yeah.
+
+> > To be honest, because I have the same thoughts you do. I also know we're monkeys. We're both
+> > attracted to other people. We're married. We're not dead,
+
+> > right? I'm mostly dead, but yeah, there's just about 15% still.
+
+> > But I don't know that everyone has the privilege of this much confidence in their relationship.
+
+> > I agree. Well, even go beyond that. I think like we got to own the fact that for the most part
+> > I've not been left in my life,
+
+> > by partners,
+
+> > right? Either it was amicable or I broke up with somebody. And I think that's really relevant if
+> > you have someone that's been like cheated on and then dumped and cheated on and dumped.
+
+> > Um,
+
+> > yeah,
+
+> > how on earth could you have this LZ fair opinion? But
+
+> > I've been cheated on but not dumped. I've had well a I had an open relationship. So I I I
+
+> > I had two and after the first one I was like yeah she loves me as much as she's ever loved me and
+> > she's had sex with other dudes. Like just the notion that
+
+> > somehow that would make her not love me or something. I just got to experience it had had no
+> > impact. It didn't have any impact on either relationship. Now, I'm against an open relationship
+> > for different reasons, which are well, a I'm an addict, so it's I can't manage that. I can't [ __
+> > > > ] once, and I can't. Whereas, your guilt would eat you up. Um, there'd be there'd be more right
+> > away. It just be like, if I had a drink tomorrow, I'm going to have a thousand drinks over the
+> > next few weeks.
+
+> > That's just how I'm built. But I think if you have an open relationship, unless you guys are so
+> > committed to working on your own sexual relationship,
+
+> > if you have other options, it's already hard to maintain your own sexual relationship. And if you
+> > have options, you just won't do it. That was definitely the poor outcome of my open relationships
+> > is our own intimacy suffered greatly from it.
+
+> > Interesting. But did you think I was going to dis what?
+
+> > Oh, no. You guys gonna disagree?
+
+> > No. I just thought um
+
+> > you were like that one's going to be hard.
+
+> > Well, no. I just mean this is unique to ask a married couple this question in front of each
+> > other.
+
+> > Like you might be in a podcast somewhere else and get asked this and you would just whatever. But
+> > you're being asked to answer this in front of your husband.
+
+> > In front of my husband. Yeah.
+
+> > Does that surprise you that I said that?
+
+> > No. No. I've come to think that's how you think about it.
+
+> > Yeah.
+
+> > How would you feel, Aaron, if Ruthie cheated? Give him higher circumstances than that. Give more
+> > specific circumstances than that. It was a one night stand.
+
+> > She's in a gang bang with big dude.
+
+> > Well, that's a one night stand.
+
+> > I want to watch.
+
+> > She's she's at a work thing and there's been alcohol consumed, but it wasn't it wasn't uh the
+> > flirtation didn't start before the alcohol. Alcohol loosened everybody up. She sleeps with
+> > someone. She wakes up and is like, "I can't believe I did that cuz I do love Aaron." She comes
+> > home. How do you want her to handle it?
+
+> > Ooh. First of all, this is the only time in my life, the only relationship in my life that I
+> > don't play that scenario out um ever.
+
+> > Like I am.
+
+> > And we're doing it to you. That's great.
+
+> > Oh, no. That's great. I I am so comfortable in my relationship. I It doesn't even ever cross my
+> > mind. Same. Um I know. isn't. But can you remember like every other I remember that not being the
+> > case for every other one.
+
+> > Yeah.
+
+> > Um I remember the
+
+> > the feelings of jealousy and this and that. I mean honestly, how how do I want her to play that
+> > out? Of course, keep quiet about it and I don't want to ever know about it.
+
+> > Right.
+
+> > Um like that says, but I um but I think she could tell me and I would understand too. Do you
+> > think that has to do with who Ruthie is or do you think that has to do with who you've become?
+
+> > I think it's to who have become and well hold on I think it could be a combo. I guess a combo
+> > yeah is the easy answer but um because I just believe as I've said in the past I'm not liable to
+> > be jealous of a hot dude. I'm more liable to be jealous of Mike, sure, because he has morals and
+> > ethics that I know are in lock step with yours, and I can't compete with that, you know. But with
+> > that said, I so thoroughly believe and have witnessed that you love me for life. I believe that
+> > in my heart. There's no I don't see any scenario where at any point in your life, you don't love
+> > me and vice versa. I don't think anything could prevent that.
+
+> > You're right.
+
+> > Nothing. Nothing.
+
+> > So, I think if you feel that, everything else is a little less threatening.
+
+> > Mhm.
+
+> > Well, honey, you're the most delightful guest we've had. Oh, by far. I love you so much.
+
+> > I love you, too.
+
+> > Thank you.
+
+> > Love you, Aaron.
+
+> > I love you, baby.
+
+> > Okay, I'll give it to Aaron.
+
+> > A little smoochy smooch. Yeah.
+
+> > Oh jeez. [Music]
+
+[Applause]

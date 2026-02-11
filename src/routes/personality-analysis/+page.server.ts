@@ -1,12 +1,14 @@
 // src/routes/personality-analysis/+page.server.ts
-import { supabase } from '$lib/supabase';
-
 import type { Actions } from './$types';
-
 import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
+import type { Database } from '../../../database.types';
 
-export const load: PageServerLoad = async ({ url }) => {
+type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
+type PersonPost = FamousPersonRow & { slug: string };
+
+export const load: PageServerLoad = async ({ locals }) => {
+	const supabase = locals.supabase;
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
@@ -16,29 +18,35 @@ export const load: PageServerLoad = async ({ url }) => {
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const posts: any = personData.map((e) => {
-		return { ...e, slug: e.person };
-	});
+	const posts: PersonPost[] = (personData ?? []).map((e) => ({
+		...e,
+		slug: e.person ?? ''
+	}));
 
-	const uniqueTypes = Array.from(new Set(posts.map((obj) => obj?.enneagram)));
+	const uniqueTypes = Array.from(new Set(posts.map((obj) => obj.enneagram)));
 
 	// Store objects of unique types
-	const uniqueObjects: any[] = [];
+	const uniqueObjects: PersonPost[] = [];
 
 	// Iterate through unique types
 	uniqueTypes.forEach((enneagram) => {
 		// Find objects with current type
-		const objectsWithType = posts.filter((obj) => obj?.enneagram === enneagram);
+		const objectsWithType = posts.filter((obj) => obj.enneagram === enneagram);
 
 		// Sort objects by date_created
-		objectsWithType.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod));
+		objectsWithType.sort(
+			(a, b) =>
+				new Date(b.lastmod ?? b.date ?? 0).getTime() - new Date(a.lastmod ?? a.date ?? 0).getTime()
+		);
 
 		// Push first 3 objects to uniqueObjects
 		uniqueObjects.push(...objectsWithType.slice(0, 5));
 	});
 
 	const sortedByLastmod = [...posts].sort(
-		(a, b) => new Date(b.lastmod || b.date).getTime() - new Date(a.lastmod || a.date).getTime()
+		(a, b) =>
+			new Date(b.lastmod ?? b.date ?? 0).getTime() -
+			new Date(a.lastmod ?? a.date ?? 0).getTime()
 	);
 	const featured = sortedByLastmod.slice(0, 2);
 	const featuredSlugs = new Set(featured.map((p) => p.slug));
@@ -48,16 +56,18 @@ export const load: PageServerLoad = async ({ url }) => {
 };
 
 export const actions: Actions = {
-	createComment: async ({ request, getClientAddress }) => {
+	createComment: async ({ request, getClientAddress, locals }) => {
 		try {
+			const supabase = locals.supabase as any;
 			const body = Object.fromEntries(await request.formData());
 
-			const comment = body.comment as string;
-			const author_id = body.author_id === 'undefined' ? null : body.author_id;
-			const blog_link = body.blog_link;
+			const comment = String(body.comment ?? '');
+			const rawAuthorId = String(body.author_id ?? '');
+			const author_id = rawAuthorId && rawAuthorId !== 'undefined' ? rawAuthorId : null;
+			const blog_link = String(body.blog_link ?? '');
 			const blog_type = 'personality-analysis';
 			const ip = getClientAddress();
-			const fingerprint = body.fingerprint as string;
+			const fingerprint = String(body.fingerprint ?? '');
 
 			const { data: insertedComment, error: insertedCommentError } = await supabase
 				.from('blog_comments')

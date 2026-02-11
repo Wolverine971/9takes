@@ -1,35 +1,26 @@
 // src/routes/questions/categories/+page.server.ts
 import { error } from '@sveltejs/kit';
-import { supabase } from '$lib/supabase';
 
 import type { PageServerLoad } from './$types';
 import { mapDemoValues } from '../../../utils/demo';
 
-export const load: PageServerLoad = async (
-	event
-): Promise<{
-	session: any;
-	subcategoryTags: any;
-	// questionsAndTags: any;
-	rootCategories: [];
+type DistinctTagRow = { tag_id: number };
 
-	categories: any;
-}> => {
+export const load: PageServerLoad = async (event) => {
 	try {
+		const supabase = event.locals.supabase;
+		const db = supabase as any;
 		const { demo_time } = await event.parent();
-		const session = event.locals.session;
 
-		const { data: uniquetags, error: tagsError } = await supabase
+		const { data: uniquetags, error: tagsError } = (await db
 			.from(demo_time === true ? 'distinct_question_tags_demo' : 'distinct_question_tags')
-			.select();
+			.select()) as { data: DistinctTagRow[] | null; error: unknown };
 
 		if (tagsError) {
 			console.log(tagsError);
 		}
 
-		const tags = uniquetags?.map((t) => {
-			return t.tag_id;
-		});
+		const tags = uniquetags?.map((t) => t.tag_id);
 		if (!tags) {
 			return {
 				subcategoryTags: [],
@@ -78,14 +69,14 @@ export const load: PageServerLoad = async (
 			return {
 				subcategoryTags,
 				categories,
-				rootCategories: mapDemoValues(rootCategories)
+				rootCategories: mapDemoValues(rootCategories) ?? []
 				// questionsAndTags: mapDemoValues(questionsAndTags)
 			};
 		}
 		return {
 			subcategoryTags,
 			categories,
-			rootCategories: mapDemoValues(rootCategories)
+			rootCategories: mapDemoValues(rootCategories) ?? []
 			// questionsAndTags: (questionsAndTags || []).filter((q) => {
 			// 	return !q.questions.removed;
 			// })

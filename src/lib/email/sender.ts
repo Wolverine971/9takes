@@ -203,7 +203,7 @@ export async function sendEmailWithTracking(
 		to: recipient.email,
 		subject,
 		htmlContent,
-		recipientName: recipient.name,
+		recipientName: recipient.name ?? undefined,
 		trackingId: emailSend.tracking_id
 	});
 

@@ -112,7 +112,10 @@ function hasDuplicatesInSuggestions(suggestions: unknown): boolean {
 }
 
 export const GET: RequestHandler = async ({ params, locals }) => {
-	const { id } = params;
+	const blogId = Number(params.id);
+	if (!Number.isFinite(blogId)) {
+		throw error(400, 'Invalid blog ID');
+	}
 	const supabase = locals.supabase;
 	const session = locals.session;
 
@@ -136,7 +139,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	const { data: currentBlog, error: fetchError } = await supabase
 		.from('blogs_famous_people')
 		.select('person, title, suggestions')
-		.eq('id', id)
+		.eq('id', blogId)
 		.single();
 
 	if (fetchError || !currentBlog?.person) {
@@ -166,10 +169,10 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 
 	// 3. Process blogs to find incoming suggestions
 	const incomingSuggestions: CrossLinkItem[] = blogs
-		.filter((blog) => suggestionsContains(blog.suggestions, personSlug))
+		.filter((blog) => Boolean(blog.person) && suggestionsContains(blog.suggestions, personSlug))
 		.map((blog) => ({
 			id: blog.id,
-			person: blog.person,
+			person: blog.person ?? '',
 			title: blog.title,
 			enneagram: blog.enneagram,
 			category: blog.category
@@ -179,7 +182,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	const contentMentions: CrossLinkMention[] = [];
 
 	for (const blog of blogs) {
-		if (!blog.content) continue;
+		if (!blog.content || !blog.person) continue;
 
 		// Count mentions of display name and slug
 		const nameCount = countOccurrences(blog.content, displayName);

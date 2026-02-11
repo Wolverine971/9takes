@@ -33,6 +33,9 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 			console.error('Error fetching current blog:', currentError);
 			return json({ error: 'Blog not found' }, { status: 404 });
 		}
+		if (!currentBlog?.person) {
+			return json({ error: 'Invalid blog data' }, { status: 400 });
+		}
 
 		if (historyError) {
 			console.error('Error fetching blog history:', historyError);
@@ -42,6 +45,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 		// Check for draft file
 		let draftContent: string | null = null;
 		let draftModified: Date | null = null;
+		const historyRows = history ?? [];
 
 		// Sanitize person name to prevent path traversal
 		const sanitizedPerson = currentBlog.person.replace(/[^a-zA-Z0-9-_]/g, '');
@@ -80,7 +84,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 		const versions = [];
 
 		// Add current version as the most recent (unless draft is newer)
-		const currentVersionNumber = history.length + (draftContent ? 2 : 1);
+		const currentVersionNumber = historyRows.length + (draftContent ? 2 : 1);
 		versions.push({
 			id: 'current',
 			content: currentBlog.content,
@@ -105,13 +109,13 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 		}
 
 		// Add historical versions
-		history.forEach((historyItem, index) => {
+		historyRows.forEach((historyItem, index) => {
 			versions.push({
 				id: historyItem.id,
 				content: historyItem.new_content,
 				changed_at: historyItem.changed_at,
 				changed_by: historyItem.changed_by,
-				version_number: history.length - index,
+				version_number: historyRows.length - index,
 				is_current: false,
 				source: 'history'
 			});

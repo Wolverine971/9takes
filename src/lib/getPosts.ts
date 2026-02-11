@@ -1,12 +1,18 @@
 // src/lib/getPosts.ts
 import { slugFromPath } from './slugFromPath';
 import { supabase } from './supabase';
+import type { Database } from '../../database.types';
+
+type MdsvexModuleResolver = () => Promise<App.MdsvexFile>;
+type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 
 // Helper to safely process Mdsvex modules
-function processMdsvexModule(path: string, resolver: App.MdsvexResolver) {
+function processMdsvexModule(
+	path: string,
+	resolver: MdsvexModuleResolver
+): Promise<App.BlogPost | null> {
 	return resolver().then((post) => {
-		const mdsvexFile = post as App.MdsvexFile;
-		const metadata = mdsvexFile.metadata as App.BlogPost;
+		const metadata = post.metadata;
 
 		// Guard against missing or incomplete metadata
 		if (!metadata || !metadata.date) {
@@ -23,7 +29,9 @@ function processMdsvexModule(path: string, resolver: App.MdsvexResolver) {
 }
 
 export const getPosts = async (): Promise<App.BlogPost[]> => {
-	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
+	const enneagramModules = import.meta.glob<App.MdsvexFile>(
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`
+	);
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		processMdsvexModule(path, resolver)
 	);
@@ -31,7 +39,9 @@ export const getPosts = async (): Promise<App.BlogPost[]> => {
 		(post): post is NonNullable<typeof post> => post !== null && post.published
 	);
 
-	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
+	const communityModules = import.meta.glob<App.MdsvexFile>(
+		`/src/blog/community/*.{md,svx,svelte.md}`
+	);
 
 	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
 		processMdsvexModule(path, resolver)
@@ -49,8 +59,24 @@ export const getPosts = async (): Promise<App.BlogPost[]> => {
 		console.error('Failed to fetch blogs_famous_people:', personDataError);
 		throw new Error(`Error getting posts: ${personDataError.message}`);
 	}
-	const peoplePosts: App.BlogPost[] = personData.map((e) => {
-		return { ...e, slug: e.person } as App.BlogPost;
+
+	const peopleRows = (personData ?? []) as FamousPersonRow[];
+	const peoplePosts: App.BlogPost[] = peopleRows.map((row) => {
+		const fallbackSlugSource = row.loc ?? row.title ?? `person-${row.id}.md`;
+		return {
+			...(row as unknown as App.BlogPost),
+			slug: row.person ?? slugFromPath(fallbackSlugSource),
+			title: row.title ?? '',
+			author: row.author ?? '',
+			description: row.description ?? '',
+			date: row.date ?? row.created_at,
+			loc: row.loc ?? '',
+			lastmod: row.lastmod ?? row.created_at,
+			changefreq: row.changefreq ?? 'weekly',
+			priority: row.priority ?? '0.6',
+			published: row.published ?? false,
+			jsonld: ''
+		};
 	});
 
 	const posts = [...enneagramPosts, ...communityPosts, ...peoplePosts]

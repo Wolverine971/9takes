@@ -44,7 +44,8 @@ export class RealtimeMessaging {
 
 		// If channel doesn't exist, create and subscribe to it first
 		if (!channel) {
-			channel = this.supabase.channel(channelName);
+			const newChannel = this.supabase.channel(channelName);
+			channel = newChannel;
 
 			// Wait for subscription to complete before sending
 			await new Promise<void>((resolve, reject) => {
@@ -52,10 +53,10 @@ export class RealtimeMessaging {
 					reject(new Error('Channel subscription timeout'));
 				}, 5000);
 
-				channel.subscribe((status) => {
+				newChannel.subscribe((status) => {
 					if (status === 'SUBSCRIBED') {
 						clearTimeout(timeout);
-						this.channels.set(channelName, channel);
+						this.channels.set(channelName, newChannel);
 						resolve();
 					} else if (status === 'CLOSED' || status === 'CHANNEL_ERROR') {
 						clearTimeout(timeout);
@@ -63,6 +64,10 @@ export class RealtimeMessaging {
 					}
 				});
 			});
+		}
+
+		if (!channel) {
+			throw new Error(`Unable to initialize realtime channel: ${channelName}`);
 		}
 
 		const payload: Message = {

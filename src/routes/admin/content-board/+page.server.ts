@@ -3,11 +3,16 @@ import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
 import matter from 'gray-matter';
 
-import type { Actions } from '@sveltejs/kit';
+import type { Actions, PageServerLoad } from './$types';
 
-export const load = async (
-	event
-): Promise<{
+type ContentEntry = {
+	loc: string | null;
+	stageName: string | null;
+};
+type ContentType = 'enneagram' | 'community' | 'guides' | 'people';
+type ContentTable = 'content_enneagram' | 'content_community' | 'content_guides' | 'content_people';
+
+export const load: PageServerLoad = async (event): Promise<{
 	people: App.BlogPost[];
 	enneagram: App.BlogPost[];
 	community: App.BlogPost[];
@@ -93,32 +98,52 @@ export const load = async (
 	if (peopleBlogPosts.error) console.log(peopleBlogPosts.error);
 
 	// Create maps using reduce for better performance
-	const enneagramMap = (enneagramContent.data || []).reduce((acc, content) => {
-		acc[content.loc] = content;
-		return acc;
-	}, {});
+	const enneagramMap = ((enneagramContent.data || []) as ContentEntry[]).reduce(
+		(acc: Record<string, ContentEntry>, content) => {
+			if (content.loc) {
+				acc[content.loc] = content;
+			}
+			return acc;
+		},
+		{}
+	);
 
-	const communityMap = (communityContent.data || []).reduce((acc, content) => {
-		acc[content.loc] = content;
-		return acc;
-	}, {});
+	const communityMap = ((communityContent.data || []) as ContentEntry[]).reduce(
+		(acc: Record<string, ContentEntry>, content) => {
+			if (content.loc) {
+				acc[content.loc] = content;
+			}
+			return acc;
+		},
+		{}
+	);
 
-	const guidesMap = (guidesContent.data || []).reduce((acc, content) => {
-		acc[content.loc] = content;
-		return acc;
-	}, {});
+	const guidesMap = ((guidesContent.data || []) as ContentEntry[]).reduce(
+		(acc: Record<string, ContentEntry>, content) => {
+			if (content.loc) {
+				acc[content.loc] = content;
+			}
+			return acc;
+		},
+		{}
+	);
 
-	const peopleMap = (peopleContent.data || []).reduce((acc, content) => {
-		acc[content.loc] = content;
-		return acc;
-	}, {});
+	const peopleMap = ((peopleContent.data || []) as ContentEntry[]).reduce(
+		(acc: Record<string, ContentEntry>, content) => {
+			if (content.loc) {
+				acc[content.loc] = content;
+			}
+			return acc;
+		},
+		{}
+	);
 
 	// Map posts with stage names
 	const enneagramPosts = enneagramBlogPosts.map((post) => {
 		const content = enneagramMap[post.loc];
 		return {
 			...post,
-			stageName: content?.stageName
+			stageName: content?.stageName ?? undefined
 		};
 	});
 
@@ -126,7 +151,7 @@ export const load = async (
 		const content = communityMap[post.loc];
 		return {
 			...post,
-			stageName: content?.stageName
+			stageName: content?.stageName ?? undefined
 		};
 	});
 
@@ -134,21 +159,21 @@ export const load = async (
 		const content = guidesMap[post.loc];
 		return {
 			...post,
-			stageName: content?.stageName
+			stageName: content?.stageName ?? undefined
 		};
 	});
 
 	const peoplePosts = (peopleBlogPosts.data || []).map((post) => {
-		const content = peopleMap[post.loc];
+		const content = post.loc ? peopleMap[post.loc] : undefined;
 		return {
 			...post,
 			slug: post.person, // Add slug field like in personality-analysis
-			stageName: content?.stageName
+			stageName: content?.stageName ?? undefined
 		};
 	});
 
 	return {
-		people: peoplePosts,
+		people: peoplePosts as unknown as App.BlogPost[],
 		enneagram: enneagramPosts,
 		community: communityPosts,
 		guides: guidesPosts
@@ -161,20 +186,24 @@ export const actions: Actions = {
 			const supabase = locals.supabase;
 			const body = Object.fromEntries(await request.formData());
 
-			const contentType = body.content_type as string;
+			const contentType = String(body.content_type ?? '') as ContentType;
+			if (!['enneagram', 'community', 'guides', 'people'].includes(contentType)) {
+				throw error(400, 'Invalid content type');
+			}
+			const contentTable = `content_${contentType}` as ContentTable;
+			const contentClient = (supabase as any).from(contentTable);
 
 			const title = body.title as string;
 			const description = body.description as string;
 			const author = body.author as string;
-			const date = body.date;
+			const date = body.date ? String(body.date) : null;
 			const loc = body.loc as string;
 			const lastmod = body.lastmod as string;
-			const published = body.published as string;
+			const published = String(body.published ?? 'false') === 'true';
 			const type = body.type as string;
 			const stageName = body.stageName as string;
 
-			const { data: existingRecord, error: existingRecordError } = await supabase
-				.from(`content_${contentType}`)
+			const { data: existingRecord, error: existingRecordError } = await contentClient
 				.select('*')
 				.eq('loc', loc);
 
@@ -183,8 +212,7 @@ export const actions: Actions = {
 			}
 
 			if (existingRecord?.length) {
-				const { data: record, error: recordError } = await supabase
-					.from(`content_${contentType}`)
+				const { data: record, error: recordError } = await contentClient
 					.update({
 						title,
 						description,
@@ -204,8 +232,7 @@ export const actions: Actions = {
 
 				return record;
 			} else {
-				const { data: record, error: recordError } = await supabase
-					.from(`content_${contentType}`)
+				const { data: record, error: recordError } = await contentClient
 					.insert({
 						title,
 						description,

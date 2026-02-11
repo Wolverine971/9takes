@@ -8,7 +8,7 @@ import type { Database } from '../../database.types';
  * Pass a server-side client (event.locals.supabase) from route handlers to keep session/auth.
  */
 export const checkDemoTime = async (client?: SupabaseClient<Database>) => {
-	const sb = client ?? supabase;
+	const sb = client ?? (supabase as unknown as SupabaseClient<Database>);
 	const { data: demoTime } = await sb
 		.from('admin_settings')
 		.select('value')

@@ -14,13 +14,16 @@ export const load: PageServerLoad = async (event) => {
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
+	if (!session.user.email) {
+		throw error(400, 'No account email found for current session');
+	}
 
 	const { demo_time } = await event.parent();
 
 	const { data: user, error: findUserError } = await event.locals.supabase
 		.from(demo_time === true ? 'profiles_demo' : 'profiles')
 		.select('*')
-		.eq('email', session?.user?.email)
+		.eq('email', session.user.email)
 		.single();
 
 	if (findUserError || !user) {
@@ -55,7 +58,7 @@ export const actions: Actions = {
 				throw error(400, 'unauthorized');
 			}
 
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(locals.supabase);
 
 			const body = Object.fromEntries(await request.formData());
 

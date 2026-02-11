@@ -3,14 +3,22 @@ import { error, redirect } from '@sveltejs/kit';
 import type { Actions } from './$types';
 import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
+import type { SupabaseClient } from '@supabase/supabase-js';
+import type { Database } from '../../../../database.types';
 
 import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 import { getCommentParents } from '../../../utils/conversions';
 
+type CommentRow = Database['public']['Tables']['comments']['Row'];
+type CommentDemoRow = Database['public']['Tables']['comments_demo']['Row'];
+type AppSupabase = SupabaseClient<Database>;
+type CommentParentData = Pick<CommentRow | CommentDemoRow, 'parent_type' | 'parent_id'>;
+type CommentsQueryTable = 'comments' | 'comments_demo' | 'flagged_comments' | 'blog_comments';
+
 // Validation schemas
 const commentActionSchema = z.object({
-	commentId: z.string().uuid('Invalid comment ID format')
+	commentId: z.coerce.number().int().positive('Invalid comment ID format')
 });
 
 /**
@@ -22,7 +30,11 @@ const MAX_COMMENTS = 1000;
 /**
  * Validates if a user is an admin and returns the user data
  */
-async function validateAdmin(session, demoTime, supabase) {
+async function validateAdmin(
+	session: App.Locals['session'],
+	demoTime: boolean,
+	supabase: AppSupabase
+) {
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
@@ -54,7 +66,11 @@ async function validateAdmin(session, demoTime, supabase) {
 /**
  * Updates comment counts for parent content after a comment is removed or restored
  */
-async function updateCommentCounts(commentData, demoTime, supabase) {
+async function updateCommentCounts(
+	commentData: CommentParentData | null,
+	demoTime: boolean,
+	supabase: AppSupabase
+) {
 	try {
 		if (!commentData?.parent_type || !commentData?.parent_id) {
 			console.warn('Missing parent data for comment count update');
@@ -106,15 +122,27 @@ async function updateCommentCounts(commentData, demoTime, supabase) {
 /**
  * Get paginated comments with optional filters
  */
-async function getPaginatedComments(table, page = 0, options = {}, supabase) {
+interface PaginationOptions {
+	selectionFields?: string;
+	limit?: number;
+	orderField?: string;
+	orderDirection?: { ascending: boolean };
+	filters?: Record<string, unknown>;
+}
+
+async function getPaginatedComments(
+	table: CommentsQueryTable,
+	page = 0,
+	options: PaginationOptions = {},
+	supabase: AppSupabase
+) {
 	try {
 		const {
 			selectionFields = '*',
 			limit = PAGE_SIZE,
 			orderField = 'created_at',
 			orderDirection = { ascending: false },
-			filters = {},
-			relationField = null
+			filters = {}
 		} = options;
 
 		let query = supabase
@@ -129,8 +157,10 @@ async function getPaginatedComments(table, page = 0, options = {}, supabase) {
 				query = query.is(key, null);
 			} else if (Array.isArray(value)) {
 				query = query.in(key, value);
-			} else {
+			} else if (value !== undefined) {
 				query = query.eq(key, value);
+			} else {
+				return;
 			}
 		});
 
@@ -155,16 +185,16 @@ export const load: PageServerLoad = async (event) => {
 		const session = event.locals.session;
 		const locals = event.locals;
 		const { demo_time } = await event.parent();
-		const page = event.url.searchParams.get('page')
-			? parseInt(event.url.searchParams.get('page'))
-			: 0;
+		const isDemo = demo_time === true;
+		const pageParam = event.url.searchParams.get('page');
+		const page = pageParam ? Number.parseInt(pageParam, 10) || 0 : 0;
 
 		// Validate user is an admin
-		const user = await validateAdmin(session, demo_time, locals.supabase);
+		const user = await validateAdmin(session, isDemo, locals.supabase);
 
 		// Table name based on demo mode
-		const commentsTable = demo_time ? 'comments_demo' : 'comments';
-		const profilesTable = demo_time ? 'profiles_demo' : 'profiles';
+		const commentsTable: CommentsQueryTable = isDemo ? 'comments_demo' : 'comments';
+		const profilesTable = isDemo ? 'profiles_demo' : 'profiles';
 
 		// Parallelize all comment loading for better performance
 		const [{ data: comments }, { data: flaggedComments }, { data: blogComments }] =
@@ -208,14 +238,22 @@ export const load: PageServerLoad = async (event) => {
 			]);
 
 		// Process comments to include parent questions
-		const processedComments = comments ? await getCommentParents(comments) : [];
+		const processedComments = comments
+			? await getCommentParents(
+					comments as unknown as Array<{
+						id: number;
+						parent_id: number | null;
+						parent_type: string;
+					}>
+				)
+			: [];
 
 		return {
 			user,
 			comments: processedComments,
 			flaggedComments,
 			blogComments,
-			demoTime: demo_time,
+			demoTime: isDemo,
 			currentPage: page,
 			hasMore:
 				comments?.length === PAGE_SIZE ||
@@ -224,7 +262,9 @@ export const load: PageServerLoad = async (event) => {
 		};
 	} catch (err) {
 		// Pass through redirects and errors
-		if (err.status) throw err;
+		if (err instanceof Response || (typeof err === 'object' && err && 'status' in err)) {
+			throw err;
+		}
 
 		console.error('Unexpected error in load function:', err);
 		throw error(500, { message: 'An unexpected error occurred' });
@@ -235,21 +275,18 @@ export const actions: Actions = {
 	removeComment: async ({ request, locals }) => {
 		try {
 			const session = locals.session;
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(locals.supabase);
+			const isDemo = demo_time === true;
 
 			// Validate user is an admin
-			await validateAdmin(session, demo_time, locals.supabase);
+			await validateAdmin(session, isDemo, locals.supabase);
 
 			// Get comment ID from form data
 			const body = Object.fromEntries(await request.formData());
-			const commentId = body.commentId as string;
+			const { commentId } = commentActionSchema.parse(body);
 
-			if (!commentId) {
-				throw error(400, { message: 'Comment ID is required' });
-			}
-
-			const removedAt = new Date();
-			const commentsTable = demo_time ? 'comments_demo' : 'comments';
+			const removedAt = new Date().toISOString();
+			const commentsTable: CommentsQueryTable = isDemo ? 'comments_demo' : 'comments';
 
 			// Start a transaction
 			const transaction = async () => {
@@ -288,7 +325,7 @@ export const actions: Actions = {
 				}
 
 				// 4. Update comment counts for parent content
-				await updateCommentCounts(comment, demo_time, locals.supabase);
+				await updateCommentCounts(comment, isDemo, locals.supabase);
 
 				return comment;
 			};
@@ -299,8 +336,9 @@ export const actions: Actions = {
 			return { success: true };
 		} catch (e) {
 			console.error('Error in removeComment action:', e);
+			const message = e instanceof Error ? e.message : 'Failed to remove comment';
 			throw error(400, {
-				message: e.message || 'Failed to remove comment'
+				message
 			});
 		}
 	},
@@ -308,21 +346,18 @@ export const actions: Actions = {
 	unflagComment: async ({ request, locals }) => {
 		try {
 			const session = locals.session;
-			const demo_time = await checkDemoTime();
+			const demo_time = await checkDemoTime(locals.supabase);
+			const isDemo = demo_time === true;
 
 			// Validate user is an admin
-			await validateAdmin(session, demo_time, locals.supabase);
+			await validateAdmin(session, isDemo, locals.supabase);
 
 			// Get comment ID from form data
 			const body = Object.fromEntries(await request.formData());
-			const commentId = body.commentId as string;
+			const { commentId } = commentActionSchema.parse(body);
 
-			if (!commentId) {
-				throw error(400, { message: 'Comment ID is required' });
-			}
-
-			const clearedAt = new Date();
-			const commentsTable = demo_time ? 'comments_demo' : 'comments';
+			const clearedAt = new Date().toISOString();
+			const commentsTable: CommentsQueryTable = isDemo ? 'comments_demo' : 'comments';
 
 			// Start a transaction
 			const transaction = async () => {
@@ -361,7 +396,7 @@ export const actions: Actions = {
 				}
 
 				// 4. Update comment counts for parent content
-				await updateCommentCounts(comment, demo_time, locals.supabase);
+				await updateCommentCounts(comment, isDemo, locals.supabase);
 
 				return comment;
 			};
@@ -372,8 +407,9 @@ export const actions: Actions = {
 			return { success: true };
 		} catch (e: any) {
 			console.error('Error in unflagComment action:', e);
+			const message = e instanceof Error ? e.message : 'Failed to unflag comment';
 			throw error(400, {
-				message: e.message || 'Failed to unflag comment'
+				message
 			});
 		}
 	}

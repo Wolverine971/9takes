@@ -163,10 +163,7 @@ export const actions: Actions = {
 			} catch (e) {
 				if (e instanceof z.ZodError) {
 					logger.warn('Admin user update validation failed', { errors: e.errors });
-					throw error(400, {
-						message: 'Invalid input data',
-						details: e.errors
-					});
+					throw error(400, 'Invalid input data');
 				}
 				throw e;
 			}
@@ -178,7 +175,7 @@ export const actions: Actions = {
 				.update({
 					first_name: firstName,
 					last_name: lastName,
-					enneagram
+					enneagram: String(enneagram)
 				})
 				.eq('email', email);
 
@@ -233,10 +230,7 @@ export const actions: Actions = {
 			} catch (e) {
 				if (e instanceof z.ZodError) {
 					logger.warn('Admin status update validation failed', { errors: e.errors });
-					throw error(400, {
-						message: 'Invalid input data',
-						details: e.errors
-					});
+					throw error(400, 'Invalid input data');
 				}
 				throw e;
 			}

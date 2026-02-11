@@ -6,6 +6,8 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
+	const session = data.session;
+	const sessionNotes = data.sessionNotes;
 
 	// Note form state
 	let noteContent = '';
@@ -62,15 +64,15 @@
 	}
 
 	function isSessionToday(): boolean {
-		if (!data.session.scheduled_at) return false;
-		const sessionDate = new Date(data.session.scheduled_at);
+		if (!session.scheduled_at) return false;
+		const sessionDate = new Date(session.scheduled_at);
 		const today = new Date();
 		return sessionDate.toDateString() === today.toDateString();
 	}
 
 	function isSessionPast(): boolean {
-		if (!data.session.scheduled_at) return false;
-		return new Date(data.session.scheduled_at) < new Date();
+		if (!session.scheduled_at) return false;
+		return new Date(session.scheduled_at) < new Date();
 	}
 
 	function getStatusColor(status: string): string {
@@ -104,8 +106,8 @@
 	<div class="page-header">
 		<div class="header-nav">
 			<a href="/admin/consulting/sessions" class="back-link">&larr; All Sessions</a>
-			{#if data.session.client}
-				<a href="/admin/consulting/clients/{data.session.client.id}" class="client-link">
+			{#if session.client}
+				<a href="/admin/consulting/clients/{session.client.id}" class="client-link">
 					View Client Profile &rarr;
 				</a>
 			{/if}
@@ -114,35 +116,33 @@
 		<div class="header-main">
 			<div class="header-info">
 				<h1>
-					{#if data.session.client}
-						{data.session.client.name}
+					{#if session.client}
+						{session.client.name}
 					{:else}
-						Session #{data.session.session_number}
+						Session #{session.session_number}
 					{/if}
 				</h1>
 				<div class="session-meta">
 					<span class="session-datetime">
-						{formatDate(data.session.scheduled_at)} at {formatTime(data.session.scheduled_at)}
+						{formatDate(session.scheduled_at)} at {formatTime(session.scheduled_at)}
 					</span>
-					<span class="session-type">{data.session.session_type?.replace('_', ' ')}</span>
-					<span class="session-duration">{data.session.duration_minutes} min</span>
+					<span class="session-type">{session.session_type?.replace('_', ' ')}</span>
+					<span class="session-duration">{session.duration_minutes} min</span>
 					<span
 						class="status-badge"
-						style="--status-color: {getStatusColor(data.session.status || 'scheduled')}"
+						style="--status-color: {getStatusColor(session.status || 'scheduled')}"
 					>
-						{data.session.status?.replace('_', ' ') || 'scheduled'}
+						{session.status?.replace('_', ' ') || 'scheduled'}
 					</span>
 				</div>
 			</div>
 
 			<div class="header-actions">
-				{#if data.session.meeting_link}
-					<a href={data.session.meeting_link} target="_blank" class="btn btn-primary">
-						Join Meeting
-					</a>
+				{#if session.meeting_link}
+					<a href={session.meeting_link} target="_blank" class="btn btn-primary"> Join Meeting </a>
 				{/if}
 
-				{#if data.session.status === 'scheduled' || data.session.status === 'confirmed'}
+				{#if session.status === 'scheduled' || session.status === 'confirmed'}
 					<form
 						method="POST"
 						action="?/updateStatus"
@@ -160,7 +160,7 @@
 					</form>
 				{/if}
 
-				{#if data.session.status === 'in_progress'}
+				{#if session.status === 'in_progress'}
 					<button class="btn btn-primary" on:click={() => (showCompleteModal = true)}>
 						Complete Session
 					</button>
@@ -173,7 +173,7 @@
 		<!-- Main Column -->
 		<div class="main-column">
 			<!-- Pre-Session Prep Checklist -->
-			{#if data.session.status !== 'completed'}
+			{#if session.status !== 'completed'}
 				<section class="section-card prep-section">
 					<div class="section-header">
 						<h2>Pre-Session Prep</h2>
@@ -206,7 +206,7 @@
 			{/if}
 
 			<!-- Client Info & Goals -->
-			{#if data.session.client}
+			{#if session.client}
 				<section class="section-card">
 					<div class="section-header">
 						<h2>Client Context</h2>
@@ -216,11 +216,11 @@
 						<div class="context-grid">
 							<div class="context-item">
 								<span class="context-label">Initial Goal</span>
-								<p class="context-value">{data.session.client.initial_goal || 'Not specified'}</p>
+								<p class="context-value">{session.client.initial_goal || 'Not specified'}</p>
 							</div>
 
-							{#if data.session.client.intake?.[0]}
-								{@const intake = data.session.client.intake[0]}
+							{#if session.client.intake?.[0]}
+								{@const intake = session.client.intake[0]}
 								{#if intake.current_challenges}
 									<div class="context-item">
 										<span class="context-label">Current Challenges</span>
@@ -296,7 +296,7 @@
 			<section class="section-card notes-section">
 				<div class="section-header">
 					<h2>Session Notes</h2>
-					<span class="note-count">{data.sessionNotes.length} notes</span>
+					<span class="note-count">{sessionNotes.length} notes</span>
 				</div>
 
 				<!-- Quick Note Form -->
@@ -348,9 +348,9 @@
 				</form>
 
 				<!-- Existing Notes -->
-				{#if data.sessionNotes.length > 0}
+				{#if sessionNotes.length > 0}
 					<div class="notes-list">
-						{#each data.sessionNotes as note}
+						{#each sessionNotes as note}
 							<div class="note-item note-{note.note_type}">
 								<div class="note-header">
 									<span class="note-type-badge">{note.note_type?.replace('_', ' ')}</span>
@@ -372,10 +372,10 @@
 		<!-- Sidebar -->
 		<div class="side-column">
 			<!-- Type Reference Card -->
-			{#if data.typeInfo && data.session.client?.enneagram_type}
+			{#if data.typeInfo && session.client?.enneagram_type}
 				<section class="section-card type-reference">
 					<div class="section-header">
-						<h2>Type {data.session.client.enneagram_type}</h2>
+						<h2>Type {session.client.enneagram_type}</h2>
 						<span class="type-name">{data.typeInfo.name}</span>
 					</div>
 
@@ -458,9 +458,9 @@
 						<h2>Type Reference</h2>
 					</div>
 					<p class="empty-type">
-						{#if data.session.client}
+						{#if session.client}
 							Client's Enneagram type not yet determined.
-							<a href="/admin/consulting/clients/{data.session.client.id}">Update client profile</a>
+							<a href="/admin/consulting/clients/{session.client.id}">Update client profile</a>
 						{:else}
 							No client linked to this session.
 						{/if}
@@ -469,26 +469,26 @@
 			{/if}
 
 			<!-- Trust Layer -->
-			{#if data.session.client?.trust_layer}
+			{#if session.client?.trust_layer}
 				<section class="section-card compact trust-card">
 					<div class="section-header">
 						<h2>Trust Layer</h2>
-						<span class="trust-badge trust-{data.session.client.trust_layer}">
-							{data.session.client.trust_layer}
+						<span class="trust-badge trust-{session.client.trust_layer}">
+							{session.client.trust_layer}
 						</span>
 					</div>
 					<div class="trust-guidance">
-						{#if data.session.client.trust_layer === 'outer'}
+						{#if session.client.trust_layer === 'outer'}
 							<p>
 								Client is at the <strong>outer layer</strong> - blaming circumstances. Use
 								<strong>Observation Voice</strong>: "I notice...", "It seems like..."
 							</p>
-						{:else if data.session.client.trust_layer === 'middle'}
+						{:else if session.client.trust_layer === 'middle'}
 							<p>
 								Client is at the <strong>middle layer</strong> - acknowledging patterns with others.
 								Use <strong>Experience Voice</strong>: "In my experience...", "I've seen..."
 							</p>
-						{:else if data.session.client.trust_layer === 'inner'}
+						{:else if session.client.trust_layer === 'inner'}
 							<p>
 								Client is at the <strong>inner layer</strong> - taking self-responsibility. Use
 								<strong>Expert Voice</strong>: "What's happening is...", "The pattern here is..."
@@ -513,13 +513,13 @@
 					<a href="/admin/consulting/resources/type-quick-reference" class="quick-link"
 						>All Types Reference</a
 					>
-					{#if data.session.client?.enneagram_type}
+					{#if session.client?.enneagram_type}
 						<a
-							href="/enneagram-corner/enneagram-type-{data.session.client.enneagram_type}"
+							href="/enneagram-corner/enneagram-type-{session.client.enneagram_type}"
 							target="_blank"
 							class="quick-link"
 						>
-							Type {data.session.client.enneagram_type} Blog Post
+							Type {session.client.enneagram_type} Blog Post
 						</a>
 					{/if}
 				</div>

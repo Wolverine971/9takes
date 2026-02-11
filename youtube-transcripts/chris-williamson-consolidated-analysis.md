@@ -24,7 +24,7 @@ Across all six files, the origin story repeats with minor variations:
 5. Podcasting + self-work becomes the new identity: curiosity, frameworks, meaning, and long-form honesty.
 
 This explains why he’s effective in the “men’s development” lane without reading like a generic hustle influencer: his
-core emotional material is not “alpha dominance,” it’s *worthiness* and *connection*.
+core emotional material is not “alpha dominance,” it’s _worthiness_ and _connection_.
 
 ---
 
@@ -39,7 +39,7 @@ These concepts show up across multiple episodes and function like his internal t
 - **Evidence beats self-belief**: “stack of undeniable proof,” show up even without confidence.
 - **Identity lags reality**: you still see yourself as the person you used to be.
 
-The thread tying these together is: *design a life you can actually inhabit*, not an identity you can win.
+The thread tying these together is: _design a life you can actually inhabit_, not an identity you can win.
 
 ---
 
@@ -56,7 +56,7 @@ His core move is systems analysis:
 - cultural messaging (acceptable male role models),
 - and downstream effects (family formation and meaning).
 
-Even if you disagree with some claims, the *structure* is clear: he’s attempting to diagnose coordination failures and
+Even if you disagree with some claims, the _structure_ is clear: he’s attempting to diagnose coordination failures and
 then propose interventions that reduce hostility rather than amplify it.
 
 ---
@@ -89,7 +89,7 @@ The JRE conversation adds a different dimension:
 This matters because it reveals his meta-position:
 
 - he’s building a worldview about attention, algorithms, and the modern incentive landscape,
-- and he treats creators as both victims *and* participants in that landscape.
+- and he treats creators as both victims _and_ participants in that landscape.
 
 ---
 
@@ -108,4 +108,3 @@ Chris Williamson is best understood as a former status-game specialist who now t
 without losing agency. The content is compelling because it mixes data with autobiographical credibility: he describes
 the insecurity engine from the inside, and he’s explicit that the “fix” is not more domination, it’s better design,
 better relationships, and a life that doesn’t require permanent performance.
-

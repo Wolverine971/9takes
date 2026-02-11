@@ -1,0 +1,362 @@
+<!-- youtube-transcripts/kristen-bell-mom-pod.md -->
+
+# Kristen Bell and Jackie Tohn on Music, Friendship, and How to "Sneak Teach" Your Kids
+
+## Video Details
+
+- **Speaker(s)**: Kristen Bell, Jackie Tohn
+- **Source**: https://www.youtube.com/watch?v=vAzpkHIYumo
+- **Channel**: Motherly
+- **Show**: The Motherly Podcast
+- **YouTube Upload Date**: Sep 16, 2021
+- **Views**: 1,386
+- **Primary Topics**: music education access, regulation through rhythm, friendship/village design, parenting tools, Do Re & Mi
+
+---
+
+## Core Themes
+
+1. **Music is regulation, not background noise.**
+   She frames rhythm and participation as nervous-system interventions.
+
+2. **"Sneak teaching" is pedagogy by engagement.**
+   Children learn faster when instruction is embedded in play.
+
+3. **Village structure is survival infrastructure.**
+   Pandemic pods force explicit clarity about who supports your family system.
+
+4. **Parenting is a tools practice.**
+   She operationalizes calming strategies with concrete language kids can use.
+
+## Parsed Conversation Flow
+
+- Origin of Do Re & Mi and motivation from arts-budget cuts.
+- Music + neuroplasticity + emotional regulation discussion.
+- Friendship as family infrastructure during and after lockdown.
+- Toolbox parenting: naming tools and choosing one in the moment.
+- Practical heuristics: one-finger rule, saying yes more, tolerating safe risk.
+
+## Analysis & Key Insights
+
+### What Stands Out
+
+1. **She translates theory into home procedures.**
+   Abstract regulation ideas become scripts and objects kids can interact with.
+
+2. **She treats parent advice as data, not identity threat.**
+   This creates a high-learning parenting posture.
+
+3. **She separates roles in child development.**
+   Different adults provide different functions (boundary, chaos, wisdom).
+
+### Key Stories & Revelations
+
+- She describes a tantrum de-escalation tactic built on voluntary exchange and attention redirection.
+- She describes creating a literal regulation toolbox with written tool options.
+- She argues that music exposure is an equity issue, not just an enrichment bonus.
+
+### Practical Takeaways (Non-Clinical)
+
+- Create a visible family toolbox of calming options.
+- Use "one finger" constraints instead of only binary yes/no.
+- Replace reflexive "careful" language with bounded exploration rules.
+
+### Notable Quotes
+
+> "we're sneak teaching"
+
+> "survival is not an option without a village"
+
+> "the one finger rule"
+
+> "say yes as often as you possibly can"
+
+---
+
+## Transcript (Lightly Cleaned)
+
+> Notes: Minimal cleanup and line wrapping for readability. ASR artifacts like `[ __ ]` are preserved.
+
+my kid is having a tantrum i will literally hand her an object and say can i have it while she's
+crying and then take it back hand it to her can i have that back and then all of a sudden we're
+passing this back and forth the activity becomes the focus and she calms down and music has the
+ability to do the same thing it's this voluntary action [Music] kristen bell and jackie tone welcome
+to the motherly podcast we love you literally and welcome back to you kristin we actually recorded
+the first episode this is your second time on the motherly podcast so we recorded the first episode
+i went back and checked february 21st 2020 right before yeah we had no idea we didn't know it was in
+was i feel like was that in new york it was in new york city and we just didn't know what was about
+to happen so i want to talk about maybe a bit about what we have learned since we talked last what
+we've gone through and certainly what we've learned about our communities through all of that and
+jackie thank you also for being here so i know that you two are real life best friends which is so
+cool um and you're working on this new show together so tell our listeners where did the idea of
+this new show do remy come from i read jackie that it was your idea can you talk a little bit about
+its inception and came to life so um one of my close friends mike scharf came to me in like 2014 and
+i was already a songwriter and making music for other artists and stuff and he was like i we need to
+make a show that sort of focuses on music education i want you to write the songs and i was like
+okay let's talk about it so he and i just then created del rey and me which basically the impetus
+from the very beginning was we were noticing that our nieces and nephews the music and arts
+education budgets in their schools were being completely cut and you know this sounds sound bitey
+but i wouldn't forget i wouldn't be the person i am today without music i want to be a human without
+music it's just been my entire life my dad's a musician and kids aren't being able to learn music in
+school and a lot of them obviously didn't have access to it at home and so it was basically our
+mission from the very beginning to put music and sneak music education into kids lives hands brains
+all of it and there's and jackie and mike came over to my house one day having wanting me to be no
+part of it that wasn't the intention they wanted to test it on my kids and they were like can we
+talk to your kids for a second and they were like do you guys respond to these images do you guys
+like these songs and i was like well what's what's what's this stuff and they were like we have this
+idea but we're not i don't know we don't really know what to do with it and i'm like i know what to
+do with it i i i know who to call and we hooked up with this amazing production company galmont who
+has been just such a great shepherd of this project took it to amazon and the taking it to amazon
+was one of the best things we ever did because as jackie said the goal is to get music education in
+front of kids obviously with the trickiness of pretending like it's an entertainment show which of
+course it's an entertainment show but you know i have two little girls i i like jackie again not a
+sound bite would not have discovered acting had i not discovered music first like i discovered i was
+singing opera and then discovered musical theater and then regular theater and then started
+auditioning i would not have this career if i hadn't felt fallen in love with music at such a young
+age my girls are very musical they do musicals at our local theater it's really important and
+there's so much science and data to support that it helps kids their brains grow with math with
+social skills it literally can change your neuroplasticity like you can put music of their favorite
+genre or time frame on in an alzheimer's ward and they will come back online for a couple minutes i
+mean it's crazy it can change our mood it is something that we all have access to but we don't
+utilize and going with amazon and developing the show in in such a broad umbrella is not just
+creating a great show that kids will watch but these like toys that i literally i mean my kid almost
+did not let me put this in the shot because she opened the box before i did these aren't even out
+yet but there's apps that you're gonna feel good if you have to hand your tablet or your phone to
+your child it's like that feeling where when i find like a puzzle game where i know they're having
+to spell but they're playing a game on my phone i'm like i nailed mommy but this is going to be the
+same thing you know music can bind a lot of families together it combine friendships together and
+you know jackie plays music with her dad all the time and they send me videos when she's home and it
+just i love it so much and you can the kids will be able to use the apps and make music with
+themselves with their friends their brains will be growing and it's just a show that you can feel
+really good about we want to get it in front of as many kids as possible because i don't like the
+fact that some kids won't have exposure to music their brains deserve to grow just as much as
+everyone else's yeah we're sneak teaching we we um we coined a term i think i may have just made it
+up just now and i'm writing it down yeah teaching i love it teaching so what wow what are lyrics so
+you know jackie you brought up something that actually i was going to ask exactly about which is the
+fact that somehow music makes us feel more human i actually had an experience about that this
+morning um not even thinking about this every day well of course and i took my i took my daughter
+out to breakfast this morning and i was feeling nervous and i was feeling tense in part i was
+interviewing some big hollywood ladies today you are and i have a busy week at work and i felt that
+tension rising so i'm sitting with my daughter and i just did a little 30-second meditation so i
+could be present and enjoy the moment with her and then a song came on the radio and i i started
+singing it and swaying and my daughter said mommy i thought you were meditating what are you doing
+now because i literally was like kind of moving with the music and i told her you know i was
+meditating but then a song came on and i started dancing to it because it helps me to feel centered
+to sometimes sing along with the music and it struck me that there is something about participating
+in rhythms and singing and dancing and swaying that is human and i want to teach that to our
+children too i have so many things to say about this how much time do we have as much as you want
+there's this amazing i love psychology books like anything on brain development and there's an
+amazing book called the body keeps the score where the doctor that wrote it treats a lot of ptsd
+patients he was like the one that got ptsd in the dsm it to be recognized and one of the things he
+finds mandatory is not only um treating people with talk therapy who have ptsd problems he also
+mandates that they join some sort of physical voluntary group activity so sometimes that's a yoga a
+class sometimes that's a drum circle sometimes that's a chorus sometimes i mean it's a dance class
+it can be anything but there is um and also oprah just wrote a book about this regulating there are
+ways to regulate our bodies that we don't ever tap into and and i've like after reading what
+happened to you understanding that um you can regulate your body by like literally you're put you're
+you're voluntarily giving something and receiving something well that's music right but also you can
+do with a kickball if my kid is having a tantrum i will literally hand her an object and say can i
+have it while she's crying and then take it back hand it to her can i have that back and then all of
+a sudden we're passing this back and forth the activity becomes the focus and she calms down and
+music has the ability to do the same thing it's this voluntary action and i think americans listen
+to it just when they're in the car but there's so many other cultures that have this voluntary um
+communication like in other countries you do capoeira or you do tai chi and there's like community
+activities and i think music is something we're kind of resting like on we're really passing it by
+it has the ability to do so much good i yes and i kind of just knew that intuitively today and felt
+better by doing it well that's the thing liz that started interrupting you but it's like that's the
+thing about it being intuitive right because it it i mean again soundbite city and i get insecure
+about that but it's like it is universal right you don't even have a choice like the other day
+someone told me at some classical song i was listening oh you know what it was i was i i was in my
+first uber since the pandemic yes okay scared but the guy was listening to classical music and i was
+like what am i i have been sleeping on classical music of course i've been listening to it my whole
+life but in the last few years i haven't so i put it on completely changed my brain chemistry i was
+like walking differently around the house i wasn't as stressed when i was like going to get
+something to eat i found myself more calmly being able to decide what to eat and it was like oh my i
+talk about sneak teach i was being like sneak taught to calm down by listening to classical music
+involuntarily i don't know if that made any sense out loud no we got it we got it and yet and i
+think so many of us know that these things are true because we've experienced them but i feel the
+science and the science and there is more and more science that is proving what we've known to be
+true um but in some ways some of these things have been forgotten and often our culture doesn't
+value them like we know jackie i believe you mentioned it that music education is one of the first
+programs that gets cut with budgets um so why do you think that it's so important to really generate
+this love of music and what it what it teaches us and how it helps us you gotta have people
+screaming it from the rooftops if they know there's a solution and by the way i'll listen to any
+solution that is screamed from any rooftop you know if it's worked for someone i want to know about
+it it's kind of how i accomplish parenting i'm like i want every i don't get insecure if women are
+like don't you know don't give me advice i'm like i want every piece of advice all of it i want to
+know how you sleep taught your kid i want to know how you get them to eat vegetables i want to know
+i want to know all of it because something might work for me music has this way of yes like jackie
+you said being universal it kind of does work for everyone and there's so many different types of
+music and that was one thing that was really important with the show was to represent that like kids
+seem to love music because they innately know what makes them feel differently and there are so many
+different types of music that especially when you're creating i mean we've got some young creators
+on our hands these kids that might not get the opportunity to do it because they don't have the
+education but there are 52 different songs in this show that represent reggae and pop and country
+and blues and jazz and you know like 80s olivia newton-john my personal fave and it's just important
+for kids to know the value of how each of those makes you feel and can make you feel we're in like a
+deregulated state in the world right now and we all need to learn how to regulate a little more in
+fact i just did that yesterday with my kids one of my we always talk about your toolbox and what you
+can do to help yourself and like my kids are panicking i'm like what tool do you want to use look in
+your toolbox and it's always been a metaphor and the other day my six-year-old was like wouldn't it
+be great if we had a real tool box and then we could just go inside it so obviously immediately
+ordered too many tool boxes but i ordered but i the buy-in was um that i ordered a bunch of stickers
+that they could decorate it so i'm like this is your toolbox and then i wrote out a hundred
+different regulation tools one of which like it was like take a deep breath take a five minute walk
+find an adult and ask for help one of them was find a song you love and sing out loud and they've
+used it like it's helpful can did you get an extra toolbox i can get you a toolbox okay okay this
+feels right because every single thing you said i was like i need i need to help with my own
+regulating and i need to be reminded to take a deep breath and that's what's so exciting about this
+show just to sort of circle back not only are the lessons we're teaching for everyone but every
+episode has a musical genre a musical lesson and an emotional lesson yes and so there really is so
+much to learn and i mean we we tried to make a show where the music is for ever it's not just for
+preschoolers if you have kids of any age they'll love this music and and the hope of course is that
+so will grown-ups and this is a show that will make parents want to put their tablet in the
+microwave correct correct thank you another big theme within the show of course is friendship and i
+mean how many times in history have two really best friends also starred in a show like this is a
+really unique moment um to to explore together and i think especially now right i think we've lived
+through a pandemic where our people were torn away from us you know to protect one another um
+kristen i guess i'm wondering what your village has meant to you in motherhood and what have you
+learned about it and your village through this experience the last year and a half i mean well first
+of all survival is not an option without a village we pretended like it was for so many years
+because we have our phones and we hop and bop all around the city and we all have different jobs and
+then you get together with your friends and you get you know infused with that energy and that that
+fills your cup up for the next couple weeks if you don't see them but the reality of everything
+shutting down i mean we you know with kids we had to have a pod and thankfully we're also able to
+see jackie and it's like you you had to pick and choose the highest people on your priority list and
+by doing that you had to educate yourself on what your friends mean to you and do for you and what
+you do for them so you had to actually analyze the value of the friendship from a very like
+evolutionary like herd animal standpoint right like we are hurt animals we're not sloths for lack of
+a better example we don't live solitarily we live in groups and it's for a reason we need to rely on
+each other and over the pandemic having your herd or your pod was i think an education emotionally
+for all of us and and it's funny because we make a whole bunch of jokes now of like i don't need to
+see anybody else other than these you know people who we've gotten through the pandemic with like
+they they make the whole world go round for me and like sure i'll have jobs and stuff but like the
+investment in people people i'll rely on is going to be this group jackie do you have anything to
+add i know do i ever i mean it's like you can't here's the thing about interviews you can't ask
+kristin first because then what am i going to even say it's just i always go like yeah yeah and then
+i just point and then hope that her her zoom box is the right direction of where i'm pointing you
+know she nails it and it's it's exactly right i think you know we do it's been a really weirdly
+sadly solitary time for a lot of us and if we don't have our communities in these in these senses i
+mean normally ever if you don't have your community ever in your life it's awful but then especially
+now and for this show to be happening right now when i think kids have been alone a lot and they're
+going to get to see i've children they're going to get to see these three bird buddies on their
+journey together and how much friendship means and not to you know sort of tout the apps and the
+musical instruments and the toys right now but to be able to have this show that you're watching be
+in your living room and teaching you about togetherness and friendship and all these emotional
+lessons as well as musical lessons and to be able to do that at home and hopefully with hopefully
+soon with friends right i mean kids are going back to school right now and it's wild i know dude so
+i think you know um just a big lesson on the show which has never been more important in the world i
+mean it is every day but is togetherness and we're shining such a light on the world just being how
+it is right now in and of itself is shining a light on the importance of togetherness right like you
+don't realize it any more deeply than when you don't have it and you can't have it and we also have
+recognized how interdependent we are on one another for individual health and safety right i mean
+it's such a metaphor for all of that i know i have i actually moved during the pandemic and i feel
+like i have to start over with building those friendships so i can't wait till where you changed
+it's i um i moved an hour away so now that's a hype bud yeah i mean i just moved yeah i moved close
+but still it's weird it is i i guess in part because i'm going through a season of knowing that i
+need to reinvest in building and cultivating those friendships myself as a mom of four kristin as a
+busy working mom have you ever gone through seasons when you didn't prioritize your friendships and
+what did that teach you if you've if you've been there oh yeah oh well it taught me what feeling
+permanently tapped out would feel like that's the reality like like i have a tendency to overwork
+myself because i get really excited about a lot of different projects and as an actor or a producer
+with you know the reality is you're an independent contractor so you're working for a lot of
+different places and it just it's a lot of busy work it's a lot of organizational work beyond just
+like acting and when i am not prioritizing taking the time to vent with my girlfriends or even have
+like a date night with my husband like my inner world crumbles and i'm like why am i so depressed oh
+yeah because i haven't let myself be a human like i haven't lifted that pressure and your your
+friends have the ability to do that and then once you do invest in that then you have this lifeline
+of like when i'm prioritizing my friends there's the sort of emotional capital that i can call
+anyone and be like i have to run out for 30 minutes can someone come over or can you take my kids or
+hey i have the whole day off can i take your kids do you need to get something done like there's the
+village aspect that really fills in all the blanks and you can't you you just can't quantify how
+important it is i know and it also it lasts right so like the other day uh me and some girlfriends
+just went to like sit at a restaurant at 8 45 at night and it was like novel i hadn't left my
+driveway when the sun was down in as long as i could remember and we were laughing and just having
+such a great night and i woke up the next morning i had no anxiety i just like felt so good for the
+days following because when you get filled up in that way it lasts it's not just a momentary thing
+and i think i mean not to circle it back to the show too hard but i think it's it's similar with the
+show i think you know it's it really makes you feel good and sneak teaches but it makes you feel
+good and we're hoping that you know that those feelings that you get while watching it they that
+they they carry you through a little bit these gnarly times um well to both of you i know you've
+been friends for 15 years um you're i'm sure friendship has evolved your you've gone through all
+types of life i mean jackie you've watched kristin become a mom as well i i guess i'm wondering what
+have you learned by being a witness and a friend to all of this um how is it how has it shaped who
+you are today kind of maybe crying the potential i'm doing what's your angle bro um look it's oprah
+vibes if you want to cry you can cry i don't want to but i might um i cry a lot when i talk about
+kristen uh she changed my life so much you know even before we started working together i mean this
+is just really one of the truest and deepest and longest friendships i've ever had um in my life and
+i will say watching her she always tells me on these interviews i'm so glad i'm having this
+opportunity um watching her it's otherworldly right because it's not average or normal or even
+something you can wrap your brain around to know a person that is not only capable of so many actual
+talents and skills but also emotionally being available to the people in her life to her children to
+her business partners to her various jobs and then you want to attack on top of that how is there
+even a breath of room for philanthropy but somehow when there's not enough hours in the day you're
+shooting 15 hours a day and you have two kids and a husband and your mom's in town somehow charity
+somehow there's water there's clean water that's that you're helping with and it's it's really
+amazing certainly on a day where i'm like how am i gonna do it all you just channel the homie and
+you're like oh well if if she can do it all i can do like 60 40 20 of it i mean it's really um
+inspiring and her relationship too right like i mean i think she's public about it not being perfect
+and there's this and the beauty in that and the beauty and like how to have a husband and children
+and a career i mean it's not a lot of people can can do it i mean it's interesting to to be very
+close be inspired by a person who everybody's inspired by there's a little piece of you that's like
+well she's kind of like she's like kind of mine a little you know what i mean there's something
+really fascinating about like yeah she inspires you too but like you know i don't know it's
+beautiful and i'm really grateful for her beautifully said i know you're also almost like an aunt to
+her kids what is they're my very close friends yes so what is that what is that like this sort of
+when we talk about the like becoming a mother but is there a kind of falling in love that has
+happened you know becoming an aunt that you've experienced well i have my own niece and nephews and
+absolutely but they're really far away you know and i will be honest too like in the pandemic i
+haven't seen i haven't seen um katie and her kids as much as i would have loved to um part of that
+is um you know i was in a relationship with someone who was very very concerned about cope as was i
+but i knew that they were getting tested we were all getting tested but you know in in those really
+hard times we have to honor everybody's comfort level um so it's been hard it's been it's been hard
+to be so separated from people but obviously there is and i want kids of my own one day and
+hopefully soon um defrost those eggs i have in a freezer and encino we'll talk about it later but um
+yeah i think there is something really special to loving your friends kids and loving your own niece
+and nephews and having that relationship also you know it's obviously it's cheating right because
+they just love you you don't have to you don't have to ever come in and be like don't eat that you
+can sneak them they're not supposed to have none of your business kristen so it's like you know
+those things make you i love to make music with them and be funny and silly and run around and you
+know like that's my vibe but i definitely i i act like a kid so it it helps with my kid friendships
+that's for sure it's actually very much in line with what my sister taught me she had kids before i
+did and she said hey i have this theory that i think the parents should be the um disciplinarians
+and i think that the aunt and uncle should be the ones that get you crazy and out of your box and i
+think the grandparents should be the wisdom givers so my sister when she had kids asked me she said
+i want you to go against what i say i want you to sneak them candy i want you to take them on a
+motorcycle ride around the yard i want you to do all those things because i think that's the purpose
+of you in this structure and i was like that's brilliant because you want you don't want every adult
+that is around your kid to be the same they will build zero character so like you like if my kids
+don't like a teacher they have or don't like someone they're interacting with i go wow let's talk
+about that because you are gonna meet people on earth that you don't like or that have a different
+style of communication than you and this is a chance to practice and it is such a great example of
+what that village needs to look like because there will be parents but that community around can
+fill in so many gaps and sneak the candy sneak the teaching i love sneak teaching i'm going to use
+that now i love all of that okay i have one and a half quick more questions so we're we're doing a
+new segment for tick tock so kristin quick question what's the best parenting advice you ever got
+whoa i mean how would i even pick do you have do you have one that comes back that you remind
+yourself or even in this season of parenting yeah give me a second sorry um well i'll relate it to
+one piece of advice i got when they were toddlers was the one finger rule toddlers want to touch
+everything and that is sort of a metaphor about how they're sponging up the world and you can't
+really you can't let them touch grandma's expensive face right you can't let them get their hands on
+it but if you're with them and present you can let them at least experience it so we'd say i want to
+touch that or reach out for it and i'd say oh me too let's do it with one finger just one finger and
+we'd both reach out and touch the vase like that and that was an epic piece of advice that is
+transferred to them growing older of how can i say yes more often and that's actually another piece
+of advice when i was doing bad moms i asked jada pinkett smith what she had older kids i said my
+kids are little but what have you learned what can i glean from you and she said say yes as often as
+you possibly can that is really good advice because it's so easy to say no and they want to touch i
+have a toddler who wants to touch all the things i love that thank you she does say yes as often as
+possible and she actually had to tell me when i was going over there um what not to do because i
+come from a neurotic jewish family and their kids jumping off the stairs and like falling and then
+like crying for a second and then getting back up and getting our little hot wheels and my instinct
+is to be like careful careful careful can't and it just comes out of me like my mother i don't mean
+for it to and kp's like hey buddy don't you don't have to keep shouting careful with them and i'm
+like got it well we also had a rule that my husband made up that if it won't require a trip to the
+hospital you're allowed to do it so our child at one and a half was balance beaming on the back of
+the couch because it wouldn't require a hospital visit she would fall two feet and it would be fine
+and there's carpet underneath and onto the couch exactly or even on the back side how else is she
+going to learn about gravity and about risk assessment like how else is she going to learn about
+that unless she's able to do it so i'm just over there holding my breath all the time don't say
+careful don't say careful i love it um very wise words kristen bell and jackie tone thank you so
+much for joining us again on the motherly podcast thank you for having us thank you both thank you
+thank you best of luck this was so great thank you

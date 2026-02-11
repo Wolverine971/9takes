@@ -1,9 +1,10 @@
 // src/routes/questions/categories/[slug]/+page.server.ts
-import { supabase } from '$lib/supabase';
 import { error } from '@sveltejs/kit';
+import type { PageServerLoad } from './$types';
 
 /** @type {import('./$types').PageLoad} */
-export async function load(event) {
+export const load: PageServerLoad = async (event) => {
+	const supabase = event.locals.supabase as any;
 	const slug = event.params.slug ? event.params.slug.split('-').join(' ') : '';
 	const { demo_time } = await event.parent();
 	const session = event.locals.session;
@@ -68,7 +69,7 @@ export async function load(event) {
 		questionCategories,
 		canAskQuestion
 	};
-}
+};
 
 // // category tree balancing
 

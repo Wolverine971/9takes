@@ -310,7 +310,7 @@ export const personSuggestionEmail = () => {
   </html>`;
 };
 
-export const emailTemplate = (subject, header, body) => {
+export const emailTemplate = (subject: string, header: string, body: string) => {
 	return `<!DOCTYPE html>
   <html>
     ${EmailHead(subject)}
@@ -468,7 +468,7 @@ export const signupEmail = () => {
   </html>`;
 };
 // <p><a href="{{ .ConfirmationURL }}" > <b style="" > Confirm your mail < /b></a > </p>
-export const forgotPass = (link) => {
+export const forgotPass = (link: string) => {
 	return `<!DOCTYPE html>
   <html>
     ${EmailHead('Reset Your Password')}

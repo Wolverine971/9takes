@@ -14,6 +14,7 @@ import { logger } from '$lib/utils/logger';
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
+	const supabase = event.locals.supabase as any;
 
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
@@ -51,6 +52,7 @@ import {
 } from '../../emails';
 import { error, redirect } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
+const db = supabase as any;
 
 export const actions: Actions = {
 	submit: async ({ request }) => {
@@ -62,7 +64,7 @@ export const actions: Actions = {
 		}
 
 		// Check if email already exists
-		const { data: existing } = await supabase
+		const { data: existing } = await db
 			.from('signups')
 			.select('id')
 			.eq('email', email)
@@ -73,7 +75,7 @@ export const actions: Actions = {
 		}
 
 		// Insert new signup
-		const { error: insertError } = await supabase.from('signups').insert([{ email }]);
+		const { error: insertError } = await db.from('signups').insert([{ email }]);
 
 		if (insertError) {
 			logger.error('Failed to insert signup', insertError, { email });
@@ -106,10 +108,7 @@ export const actions: Actions = {
 		} catch (e) {
 			if (e instanceof z.ZodError) {
 				logger.warn('Person suggestion validation failed', { errors: e.errors });
-				throw error(400, {
-					message: 'Invalid input data',
-					details: e.errors
-				});
+				throw error(400, 'Invalid input data');
 			}
 			throw e;
 		}
@@ -119,7 +118,7 @@ export const actions: Actions = {
 
 		// Server-side rate limiting: max 3 suggestions per email per 24 hours
 		const twentyFourHoursAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
-		const { count, error: countError } = await supabase
+		const { count, error: countError } = await db
 			.from('person_suggestions')
 			.select('*', { count: 'exact', head: true })
 			.eq('email', normalizedEmail)
@@ -130,12 +129,10 @@ export const actions: Actions = {
 			// Continue with submission if rate limit check fails
 		} else if (count !== null && count >= 3) {
 			logger.warn('Rate limit exceeded for person suggestion', { email: normalizedEmail, count });
-			throw error(429, {
-				message: 'Too many suggestions. Please try again in 24 hours.'
-			});
+			throw error(429, 'Too many suggestions. Please try again in 24 hours.');
 		}
 
-		const { error: insertError } = await supabase
+		const { error: insertError } = await db
 			.from('person_suggestions')
 			.insert([{ email: normalizedEmail, person_name: suggestedPerson }]);
 
@@ -152,7 +149,7 @@ export const actions: Actions = {
 			});
 
 			if (!sent) {
-				logger.error('Failed to send confirmation email', { email });
+				logger.warn('Failed to send confirmation email', { email });
 				// Don't fail the request if email fails - suggestion was saved
 			}
 
@@ -170,9 +167,10 @@ export const actions: Actions = {
 			throw error(400, 'unauthorized');
 		}
 
-		const demo_time = await checkDemoTime();
+		const demo_time = await checkDemoTime(locals.supabase);
+		const dbLocal = locals.supabase as any;
 
-		const { data: user, error: findUserError } = await supabase
+		const { data: user, error: findUserError } = await dbLocal
 			.from(demo_time === true ? 'profiles_demo' : 'profiles')
 			.select('id, admin, external_id')
 			.eq('id', locals?.session?.user?.id)
@@ -197,10 +195,7 @@ export const actions: Actions = {
 		} catch (e) {
 			if (e instanceof z.ZodError) {
 				logger.warn('Email template validation failed', { errors: e.errors });
-				throw error(400, {
-					message: 'Invalid input data',
-					details: e.errors
-				});
+				throw error(400, 'Invalid input data');
 			}
 			throw e;
 		}
@@ -238,7 +233,7 @@ export const actions: Actions = {
 			});
 
 			if (!sent) {
-				logger.error('Failed to send test email', { email, emailType });
+				logger.warn('Failed to send test email', { email, emailType });
 				throw error(500, 'Failed to send test email');
 			}
 
@@ -254,9 +249,10 @@ export const actions: Actions = {
 			throw error(400, 'unauthorized');
 		}
 
-		const demo_time = await checkDemoTime();
+		const demo_time = await checkDemoTime(locals.supabase);
+		const dbLocal = locals.supabase as any;
 
-		const { data: user, error: findUserError } = await supabase
+		const { data: user, error: findUserError } = await dbLocal
 			.from(demo_time === true ? 'profiles_demo' : 'profiles')
 			.select('id, admin, external_id')
 			.eq('id', locals?.session?.user?.id)
@@ -304,9 +300,10 @@ export const actions: Actions = {
 			throw error(400, 'unauthorized');
 		}
 
-		const demo_time = await checkDemoTime();
+		const demo_time = await checkDemoTime(locals.supabase);
+		const dbLocal = locals.supabase as any;
 
-		const { data: user, error: findUserError } = await supabase
+		const { data: user, error: findUserError } = await dbLocal
 			.from(demo_time === true ? 'profiles_demo' : 'profiles')
 			.select('id, admin, external_id')
 			.eq('id', locals?.session?.user?.id)
@@ -329,7 +326,7 @@ export const actions: Actions = {
 			});
 		}
 
-		const { data: signups, error: signupsError } = await supabase.from('signups').select('*');
+		const { data: signups, error: signupsError } = await dbLocal.from('signups').select('*');
 
 		if (signupsError) {
 			throw error(404, {

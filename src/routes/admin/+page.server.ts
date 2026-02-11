@@ -12,6 +12,9 @@ import {
 	getBlogIndexMapping
 } from '$lib/server/elasticSearch';
 import { mapDemoValues } from '../../utils/demo';
+import type { Database } from '../../../database.types';
+
+type QuestionRow = Database['public']['Tables']['questions']['Row'];
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -44,9 +47,9 @@ export const load: PageServerLoad = async (event) => {
 		{ data: dailyComments, error: dailyCommentsErrors },
 		{ data: dailyQuestions, error: dailyQuestionsErrors }
 	] = await Promise.all([
-		supabase.rpc('visitors_last_30_days', {}),
-		supabase.rpc('comments_last_30_days', {}),
-		supabase.rpc('daily_questions_stats', {})
+		supabase.rpc('visitors_last_30_days'),
+		supabase.rpc('comments_last_30_days'),
+		supabase.rpc('daily_questions_stats')
 	]);
 
 	// Handle errors after parallel execution
@@ -279,10 +282,22 @@ export const actions: Actions = {
 				}
 
 				// Prepare questions for indexing (using existing data)
-				const enrichedQuestions = questionBatch.map((q) => ({
-					...q,
-					author_enneagram: '', // Will be enriched in future update
-					author_name: '' // Will be enriched in future update
+				const enrichedQuestions = (questionBatch as QuestionRow[]).map((q) => ({
+					id: q.id,
+					es_id: q.es_id ?? undefined,
+					question: q.question ?? '',
+					question_formatted: q.question_formatted ?? undefined,
+					author_id: q.author_id ?? '',
+					author_enneagram: '',
+					author_name: '',
+					context: q.context ?? '',
+					url: q.url ?? '',
+					img_url: q.img_url ?? null,
+					comment_count: q.comment_count ?? 0,
+					flagged: q.flagged ?? false,
+					removed: q.removed ?? false,
+					created_at: q.created_at,
+					updated_at: q.updated_at ?? undefined
 				}));
 
 				// Use bulk indexing with retry
@@ -298,7 +313,10 @@ export const actions: Actions = {
 
 				// Update Supabase with ES IDs for successfully indexed questions
 				const successfulQuestions = enrichedQuestions.filter(
-					(_, i) => !indexResult.errors.find((e) => e.questionId === enrichedQuestions[i].id)
+					(_, i) =>
+						!indexResult.errors.find(
+							(e: { questionId?: number }) => e.questionId === enrichedQuestions[i].id
+						)
 				);
 
 				if (successfulQuestions.length > 0) {

@@ -30,7 +30,7 @@
 - 32:05 Parenting challenges is a lifetime commitment for every parent
 - 36:32 Kids can ask difficult questions and this is how you can be more open to them
 - 38:56 The journey of personal growth through helping other people
-- 40:54 Kim explains that we all make mistakes and the second chance we get makes a huge  difference
+- 40:54 Kim explains that we all make mistakes and the second chance we get makes a huge difference
 - 44:12 “I’ve never been hard on myself, but I am competitive with myself.”
 - 47:03 How can positive peer pressure help you?
 - 52:08 The warm welcoming presence always makes people comfortable and welcome

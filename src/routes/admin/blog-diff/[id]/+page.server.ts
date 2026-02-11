@@ -1,11 +1,29 @@
 // src/routes/admin/blog-diff/[id]/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { supabase } from '$lib/supabase';
 import { error } from '@sveltejs/kit';
 import { readFileSync, existsSync, statSync } from 'fs';
 import { join } from 'path';
+import type { Database } from '../../../../../database.types';
 
-export const load: PageServerLoad = async ({ params }) => {
+type BlogRow = Pick<
+	Database['public']['Tables']['blogs_famous_people']['Row'],
+	'id' | 'person' | 'title' | 'content' | 'lastmod' | 'enneagram' | 'description'
+>;
+type BlogHistoryRow = Pick<
+	Database['public']['Tables']['blogs_famous_people_history']['Row'],
+	'id' | 'new_content' | 'changed_at' | 'changed_by'
+>;
+type VersionEntry = {
+	id: number | string;
+	content: string;
+	changed_at: string;
+	changed_by: string | null;
+	version_number: number;
+	is_current: boolean;
+	source: 'database' | 'draft' | 'history';
+};
+
+export const load: PageServerLoad = async ({ params, locals }) => {
 	const blogId = parseInt(params.id as string);
 
 	if (isNaN(blogId)) {
@@ -14,23 +32,26 @@ export const load: PageServerLoad = async ({ params }) => {
 
 	try {
 		// Get the current blog post
-		const { data: currentBlog, error: currentError } = await supabase
+		const { data: currentBlog, error: currentError } = (await locals.supabase
 			.from('blogs_famous_people')
 			.select('id, person, title, content, lastmod, enneagram, description')
 			.eq('id', blogId)
-			.single();
+			.single()) as { data: BlogRow | null; error: unknown };
 
-		if (currentError) {
+		if (currentError || !currentBlog) {
 			console.error('Error fetching current blog:', currentError);
 			throw error(404, 'Blog not found');
 		}
 
 		// Get the version history
-		const { data: history, error: historyError } = await supabase
+		const { data: history, error: historyError } = (await locals.supabase
 			.from('blogs_famous_people_history')
 			.select('id, old_content, new_content, changed_at, changed_by')
 			.eq('famous_people_id', blogId)
-			.order('changed_at', { ascending: false });
+			.order('changed_at', { ascending: false })) as {
+			data: BlogHistoryRow[] | null;
+			error: unknown;
+		};
 
 		if (historyError) {
 			console.error('Error fetching blog history:', historyError);
@@ -47,7 +68,7 @@ export const load: PageServerLoad = async ({ params }) => {
 			'blog',
 			'people',
 			'drafts',
-			`${currentBlog.person}.md`
+			`${currentBlog.person ?? currentBlog.id}.md`
 		);
 
 		if (existsSync(draftPath)) {
@@ -68,14 +89,15 @@ export const load: PageServerLoad = async ({ params }) => {
 		}
 
 		// Build versions array with current version, draft, and history
-		const versions = [];
+		const versions: VersionEntry[] = [];
+		const historyRows = history ?? [];
 
 		// Add current version as the most recent (unless draft is newer)
-		const currentVersionNumber = history.length + (draftContent ? 2 : 1);
+		const currentVersionNumber = historyRows.length + (draftContent ? 2 : 1);
 		versions.push({
 			id: 'current',
-			content: currentBlog.content,
-			changed_at: currentBlog.lastmod,
+			content: currentBlog.content ?? '',
+			changed_at: currentBlog.lastmod ?? new Date().toISOString(),
 			changed_by: null,
 			version_number: draftContent ? currentVersionNumber - 1 : currentVersionNumber,
 			is_current: !draftContent,
@@ -96,13 +118,13 @@ export const load: PageServerLoad = async ({ params }) => {
 		}
 
 		// Add historical versions
-		history.forEach((historyItem, index) => {
+		historyRows.forEach((historyItem, index) => {
 			versions.push({
 				id: historyItem.id,
-				content: historyItem.new_content,
-				changed_at: historyItem.changed_at,
+				content: historyItem.new_content ?? '',
+				changed_at: historyItem.changed_at ?? new Date().toISOString(),
 				changed_by: historyItem.changed_by,
-				version_number: history.length - index,
+				version_number: historyRows.length - index,
 				is_current: false,
 				source: 'history'
 			});
@@ -111,10 +133,10 @@ export const load: PageServerLoad = async ({ params }) => {
 		return {
 			blog: {
 				id: currentBlog.id,
-				person: currentBlog.person,
-				title: currentBlog.title,
-				enneagram: currentBlog.enneagram,
-				description: currentBlog.description
+				person: currentBlog.person ?? '',
+				title: currentBlog.title ?? '',
+				enneagram: currentBlog.enneagram ?? '',
+				description: currentBlog.description ?? ''
 			},
 			versions,
 			hasDraft: !!draftContent

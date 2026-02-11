@@ -2,18 +2,41 @@
 import { load } from '$lib/components/map/asset-loader';
 import { bindEvents } from '$lib/components/map/event-binding';
 
-export default function action(node, options = {}) {
-	let map;
+type GeocoderLike = {
+	addTo: (selector: string) => void;
+	setInput: (value: string) => void;
+	on: (handler: string, callback: (ev: unknown) => void) => void;
+	off: (handler: string, callback: (ev: unknown) => void) => void;
+	remove?: () => void;
+};
 
-	const resources = [
+type GeocoderCtor = new (options: Record<string, unknown>) => GeocoderLike;
+
+type GeocoderOptions = {
+	version?: string;
+	customStylesheetUrl?: string | false;
+	value?: string | null;
+	[key: string]: unknown;
+};
+
+type InitResult = {
+	geocoder: GeocoderLike;
+	unbind: () => void;
+};
+
+export default function action(node: HTMLElement, options: GeocoderOptions = {}) {
+	let geocoder: GeocoderLike | null = null;
+	const version = options.version ?? 'v5.0.0';
+
+	const resources: Array<{ type: 'script' | 'link'; value: string; id: string }> = [
 		{
 			type: 'script',
-			value: `//api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/${options.version}/mapbox-gl-geocoder.min.js`,
+			value: `//api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/${version}/mapbox-gl-geocoder.min.js`,
 			id: 'byk-gc-js'
 		},
 		{
 			type: 'link',
-			value: `//api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/${options.version}/mapbox-gl-geocoder.css`,
+			value: `//api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/${version}/mapbox-gl-geocoder.css`,
 			id: 'byk-gc-css'
 		}
 	];
@@ -25,41 +48,50 @@ export default function action(node, options = {}) {
 
 	let unbind = () => {};
 	load(resources, () => {
-		unbind = init(options, node);
+		const initialized = init(options, node);
+		geocoder = initialized.geocoder;
+		unbind = initialized.unbind;
 	});
 
 	return {
 		destroy() {
 			unbind();
-			map && map.remove && map.remove();
+			geocoder?.remove?.();
 		}
 	};
 }
 
-function init(options, node) {
-	const geocoder = new window.MapboxGeocoder(options);
+function init(options: Record<string, unknown>, node: HTMLElement): InitResult {
+	const Geocoder = (window as Window & { MapboxGeocoder: GeocoderCtor }).MapboxGeocoder;
+	const geocoder = new Geocoder(options);
 	geocoder.addTo(`#${node.id}`);
 	if (options.value) {
-		geocoder.setInput(options.value);
+		geocoder.setInput(String(options.value));
 	}
 
-	return bindEvents(geocoder, handlers, false, node);
+	return {
+		geocoder,
+		unbind: bindEvents(geocoder, handlers, false, node)
+	};
 }
 
-const handlers = {
-	results: (el, ev) => {
+const handlers: Record<
+	string,
+	(el: GeocoderLike, ev: unknown, mapbox: unknown) => [string, unknown]
+> = {
+	results: (_el, ev) => {
 		return ['results', ev];
 	},
-	result: (el, ev) => {
+	result: (_el, ev) => {
 		return ['result', ev];
 	},
-	loading: (el, ev) => {
+	loading: (_el, ev) => {
 		return ['loading', ev];
 	},
-	error: (el, ev) => {
+	error: (_el, ev) => {
 		return ['error', ev];
 	},
-	clear: (el, ev) => {
+	clear: (_el, ev) => {
 		return ['clear', ev];
 	},
 	load: (el) => {

@@ -1,5 +1,11 @@
 // src/lib/components/map/asset-loader.ts
-function load(assets, cb) {
+type Asset = {
+	type: 'script' | 'link';
+	value: string;
+	id: string;
+};
+
+function load(assets: Asset[], cb: () => void): void {
 	for (const { type, value, id } of assets) {
 		const existing = document.getElementById(id);
 
@@ -13,13 +19,15 @@ function load(assets, cb) {
 		const tag = document.createElement(type);
 		tag.id = id;
 		if (type === 'script') {
-			tag.async = true;
-			tag.defer = true;
-			tag.src = value;
-			tag.onload = () => cb();
+			const scriptTag = tag as HTMLScriptElement;
+			scriptTag.async = true;
+			scriptTag.defer = true;
+			scriptTag.src = value;
+			scriptTag.onload = () => cb();
 		} else {
-			tag.rel = 'stylesheet';
-			tag.href = value;
+			const linkTag = tag as HTMLLinkElement;
+			linkTag.rel = 'stylesheet';
+			linkTag.href = value;
 		}
 		document.body.appendChild(tag);
 	}

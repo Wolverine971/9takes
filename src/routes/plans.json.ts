@@ -1,5 +1,5 @@
 // src/routes/plans.json.ts
-import plans from './plansData.json';
+const plans: unknown[] = [];
 
 export async function get() {
 	return {

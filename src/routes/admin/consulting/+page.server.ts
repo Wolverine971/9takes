@@ -1,6 +1,15 @@
 // src/routes/admin/consulting/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
 import { fail } from '@sveltejs/kit';
+import type { Database } from '../../../../database.types';
+
+type ClientIdentity = Pick<
+	Database['public']['Tables']['consulting_clients']['Row'],
+	'email' | 'id' | 'waitlist_id'
+>;
+type StatusRow = Pick<Database['public']['Tables']['consulting_clients']['Row'], 'status'>;
+type TypeRow = Pick<Database['public']['Tables']['consulting_clients']['Row'], 'enneagram_type'>;
+type WaitlistRow = Database['public']['Tables']['coaching_waitlist']['Row'];
 
 export const load: PageServerLoad = async ({ locals }) => {
 	const supabase = locals.supabase;
@@ -61,8 +70,9 @@ export const load: PageServerLoad = async ({ locals }) => {
 
 	// Process status counts
 	const statusCounts = (clientsByStatus || []).reduce(
-		(acc: Record<string, number>, client: { status: string }) => {
-			acc[client.status] = (acc[client.status] || 0) + 1;
+		(acc: Record<string, number>, client: StatusRow) => {
+			const status = client.status ?? 'unknown';
+			acc[status] = (acc[status] || 0) + 1;
 			return acc;
 		},
 		{}
@@ -70,7 +80,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 
 	// Process type distribution
 	const typeDistribution = (clientsByType || []).reduce(
-		(acc: Record<number, number>, client: { enneagram_type: number | null }) => {
+		(acc: Record<number, number>, client: TypeRow) => {
 			if (client.enneagram_type) {
 				acc[client.enneagram_type] = (acc[client.enneagram_type] || 0) + 1;
 			}
@@ -81,18 +91,17 @@ export const load: PageServerLoad = async ({ locals }) => {
 
 	// Create lookup maps for converted clients
 	const clientsByEmail = new Map(
-		(existingClients || []).map((c: { email: string; id: string }) => [c.email, c.id])
+		((existingClients || []) as ClientIdentity[]).map((c) => [c.email, c.id])
 	);
 	const clientsByWaitlistId = new Map(
-		(existingClients || [])
-			.filter((c: { waitlist_id: string | null }) => c.waitlist_id)
-			.map((c: { waitlist_id: string; id: string }) => [c.waitlist_id, c.id])
+		((existingClients || []) as ClientIdentity[])
+			.filter((c) => Boolean(c.waitlist_id))
+			.map((c) => [c.waitlist_id as string, c.id])
 	);
 
 	// Enrich waitlist entries with conversion status
-	const enrichedWaitlist = (recentWaitlist || []).map((entry: { id: number; email: string }) => {
-		const clientId =
-			clientsByWaitlistId.get(String(entry.id)) || clientsByEmail.get(entry.email) || null;
+	const enrichedWaitlist = ((recentWaitlist || []) as WaitlistRow[]).map((entry) => {
+		const clientId = clientsByWaitlistId.get(entry.id) || clientsByEmail.get(entry.email) || null;
 		return {
 			...entry,
 			isConverted: !!clientId,

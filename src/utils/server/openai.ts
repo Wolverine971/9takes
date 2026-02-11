@@ -20,7 +20,8 @@ type TaggedQuestion = {
 	seo_keywords?: string[];
 };
 
-type SupabaseQuestion = { id: number; question: string };
+type SupabaseQuestion = { id: number; question: string | null };
+type ClassifiableQuestion = { id: number; question: string };
 
 const normalizeTaggedResponse = (payload: unknown): TaggedQuestion[] => {
 	if (Array.isArray(payload)) {
@@ -38,14 +39,7 @@ const normalizeTaggedResponse = (payload: unknown): TaggedQuestion[] => {
 				tags: Array.isArray(data.tags)
 					? data.tags.filter((tag): tag is string => typeof tag === 'string')
 					: [],
-				answers:
-					data.answers && typeof data.answers === 'object'
-						? Object.fromEntries(
-								Object.entries(data.answers as Record<string, unknown>).filter(
-									([, value]) => typeof value === 'string'
-								)
-							)
-						: undefined,
+				answers: normalizeAnswers(data.answers) ?? undefined,
 				seo_keywords: Array.isArray(data.seo_keywords)
 					? data.seo_keywords.filter((tag): tag is string => typeof tag === 'string')
 					: undefined
@@ -71,12 +65,17 @@ const resolveQuestionId = (
 	if (!candidate) return undefined;
 
 	const normalized = candidate.trim().toLowerCase();
-	const match = questions.find(
-		(q) =>
-			q.question.trim().toLowerCase() === normalized ||
-			normalized.includes(q.question.trim().toLowerCase()) ||
-			q.question.trim().toLowerCase().includes(normalized)
-	);
+	const match = questions.find((q) => {
+		const questionText = q.question?.trim().toLowerCase();
+		if (!questionText) {
+			return false;
+		}
+		return (
+			questionText === normalized ||
+			normalized.includes(questionText) ||
+			questionText.includes(normalized)
+		);
+	});
 
 	return match?.id;
 };
@@ -89,18 +88,25 @@ const getLLMTags = (tag: TaggedQuestion): string[] =>
 const normalizeAnswers = (answers: unknown): Record<string, string> | null => {
 	if (!answers || typeof answers !== 'object') return null;
 	const filtered = Object.entries(answers as Record<string, unknown>).filter(
-		([type, value]) => typeof type === 'string' && typeof value === 'string'
+		(entry): entry is [string, string] =>
+			typeof entry[0] === 'string' && typeof entry[1] === 'string'
 	);
 	return filtered.length ? (Object.fromEntries(filtered) as Record<string, string>) : null;
 };
 
-const getTheQuestionsToClassify = (questionsToClassify: SupabaseQuestion[]) => {
+const getTheQuestionsToClassify = (
+	questionsToClassify: SupabaseQuestion[]
+): ClassifiableQuestion[] => {
 	let stringLengthLimit = 2000;
-	const questionsToSend: SupabaseQuestion[] = [];
+	const questionsToSend: ClassifiableQuestion[] = [];
 	for (const question of questionsToClassify) {
+		if (!question.question) {
+			continue;
+		}
+
 		stringLengthLimit -= question.question.length;
 		if (stringLengthLimit > 0) {
-			questionsToSend.push(question);
+			questionsToSend.push({ id: question.id, question: question.question });
 		} else {
 			break;
 		}
@@ -112,17 +118,18 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 	try {
 		const demo_time = await checkDemoTime(supabase);
 
-		const { data: ableToRefreshQuestions, error: settingsDataError } = await supabase
+		const { data: refreshSetting, error: settingsDataError } = await supabase
 			.from('admin_settings')
 			.select('value')
-			.eq('type', 'refresh_questions');
+			.eq('type', 'refresh_questions')
+			.maybeSingle();
 
 		if (settingsDataError) {
 			logger.warn('Failed to read admin_settings for refresh flag', settingsDataError);
 			return;
 		}
 
-		if (ableToRefreshQuestions) {
+		if (refreshSetting?.value !== true) {
 			return;
 		}
 
@@ -151,10 +158,11 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 			return;
 		}
 
-		const prompt = getMultiQuestionsPrompt(tags.map((e) => e.category_name).join(', '));
-		const questionsToClassify = getTheQuestionsToClassify(
-			questions.map((question) => ({ id: question.id, question: question.question }))
-		);
+		const categoryNames = tags
+			.map((tag) => tag.category_name)
+			.filter((name): name is string => Boolean(name));
+		const prompt = getMultiQuestionsPrompt(categoryNames.join(', '));
+		const questionsToClassify = getTheQuestionsToClassify(questions);
 
 		if (!questionsToClassify.length) {
 			logger.info('No untagged questions ready for classification');
@@ -178,7 +186,9 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 
 		for await (const tag of cleanedTags) {
 			const llmTags = getLLMTags(tag);
-			const matchedTags = tags.filter((existing) => llmTags.includes(existing.category_name));
+			const matchedTags = tags.filter(
+				(existing) => existing.category_name && llmTags.includes(existing.category_name)
+			);
 			const questionId = resolveQuestionId(tag, questions);
 			const formattedQuestion =
 				tag.question_formatted ||
@@ -193,7 +203,7 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 			if (!matchedTags.length) {
 				await supabase
 					.from(demo_time === true ? 'questions_demo' : 'questions')
-					.update({ flagged: true, updated_at: new Date() })
+					.update({ flagged: true, updated_at: new Date().toISOString() })
 					.eq('id', questionId);
 				continue;
 			}
@@ -210,8 +220,8 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.update({
 					tagged: true,
-					updated_at: new Date(),
-					question_formatted: formattedQuestion
+					updated_at: new Date().toISOString(),
+					question_formatted: formattedQuestion ?? null
 				})
 				.eq('id', questionId);
 		}
@@ -247,7 +257,9 @@ export const tagQuestion = async (
 		}
 
 		const llmResponse = await llmService.getJSONResponse<TaggedQuestion[] | TaggedQuestion>({
-			systemPrompt: getPrompt(tags.map((e) => e.category_name)),
+			systemPrompt: getPrompt(
+				tags.map((tag) => tag.category_name).filter((name): name is string => Boolean(name))
+			),
 			userPrompt: JSON.stringify({ id: questionId, question: questionText }),
 			profile: 'balanced',
 			temperature: 0.2,
@@ -263,7 +275,9 @@ export const tagQuestion = async (
 			return;
 		}
 
-		const matchedTags = tags.filter((tag) => getLLMTags(chatResp).includes(tag.category_name));
+		const matchedTags = tags.filter(
+			(tag) => tag.category_name && getLLMTags(chatResp).includes(tag.category_name)
+		);
 		const questionTable = demo_time === true ? 'questions_demo' : 'questions';
 		const formattedQuestion = chatResp.question_formatted || chatResp.question || questionText;
 
@@ -271,15 +285,15 @@ export const tagQuestion = async (
 			.from(questionTable)
 			.update({
 				tagged: true,
-				updated_at: new Date(),
-				question_formatted: formattedQuestion
+				updated_at: new Date().toISOString(),
+				question_formatted: formattedQuestion ?? null
 			})
 			.eq('id', questionId);
 
 		if (!matchedTags.length) {
 			await supabase
 				.from(questionTable)
-				.update({ flagged: true, updated_at: new Date() })
+				.update({ flagged: true, updated_at: new Date().toISOString() })
 				.eq('id', questionId);
 		} else {
 			await Promise.all(
@@ -301,7 +315,7 @@ export const tagQuestion = async (
 		if (chatResp.seo_keywords?.length) {
 			await supabase
 				.from('question_keywords')
-				.insert({ keywords: chatResp.seo_keywords, question_id: questionId });
+				.insert({ keywords: chatResp.seo_keywords.join(', '), question_id: questionId });
 		}
 	} catch (e) {
 		logger.error('Tag question failed', e as Error, { questionId });

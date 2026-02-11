@@ -1,10 +1,10 @@
 ---
-title: "Dax Shepard on the Craft of Podcasting, Favorite Books, and Dancing With Your Demons"
-channel: "Tim Ferriss"
-channel_url: "https://www.youtube.com/@timferriss"
-video_url: "https://www.youtube.com/watch?v=GKToWy0usQk"
-upload_date: "2020-11-18"
-duration: "1:40:15"
+title: 'Dax Shepard on the Craft of Podcasting, Favorite Books, and Dancing With Your Demons'
+channel: 'Tim Ferriss'
+channel_url: 'https://www.youtube.com/@timferriss'
+video_url: 'https://www.youtube.com/watch?v=GKToWy0usQk'
+upload_date: '2020-11-18'
+duration: '1:40:15'
 description: |
   Brought to you by ButcherBox premium meats delivered to your door (http://butcherbox.com/Tim), Oura smart ring wearable for personalized sleep and health insights (https://ouraring.com/), and Vuori comfortable and durable performance apparel (http://vuoriclothing.com/Tim).
 
@@ -14,59 +14,60 @@ description: |
 
   Please enjoy!
 timestamps:
-  - time: "00:00"
-    label: "Start"
-  - time: "00:14"
-    label: "How Dax and I connected"
-  - time: "02:26"
-    label: "Upping my game"
-  - time: "03:40"
+  - time: '00:00'
+    label: 'Start'
+  - time: '00:14'
+    label: 'How Dax and I connected'
+  - time: '02:26'
+    label: 'Upping my game'
+  - time: '03:40'
     label: "A powerful interview with Dax's mom"
-  - time: "12:32"
-    label: "Substance abuse"
-  - time: "16:46"
-    label: "Levers that make Dax happy"
-  - time: "18:42"
-    label: "Going public with his relapse"
-  - time: "29:04"
-    label: "How did the relapse happen?"
-  - time: "31:33"
-    label: "Who is Armchair Expert cohost Monica Padman?"
-  - time: "34:18"
-    label: "What did the planning stages of Armchair Expert look like?"
-  - time: "37:14"
-    label: "Splitting podcast responsibilities"
-  - time: "39:34"
+  - time: '12:32'
+    label: 'Substance abuse'
+  - time: '16:46'
+    label: 'Levers that make Dax happy'
+  - time: '18:42'
+    label: 'Going public with his relapse'
+  - time: '29:04'
+    label: 'How did the relapse happen?'
+  - time: '31:33'
+    label: 'Who is Armchair Expert cohost Monica Padman?'
+  - time: '34:18'
+    label: 'What did the planning stages of Armchair Expert look like?'
+  - time: '37:14'
+    label: 'Splitting podcast responsibilities'
+  - time: '39:34'
     label: "Vulnerability: the key to Armchair Expert's success"
-  - time: "45:38"
-    label: "Dyslexia"
-  - time: "48:01"
-    label: "Improving as an interviewer"
-  - time: "53:03"
-    label: "The confusion of runaway success"
-  - time: "55:27"
-    label: "Becoming less outcome-dependent as an actor and person"
-  - time: "57:53"
-    label: "Has success changed what Dax will say yes or no to?"
-  - time: "1:00:28"
-    label: "How to keep things fresh without losing the core audience"
-  - time: "1:03:32"
-    label: "Expanding too early"
-  - time: "1:05:26"
-    label: "Howard Stern"
-  - time: "1:12:45"
-    label: "Dream guests"
-  - time: "1:14:26"
+  - time: '45:38'
+    label: 'Dyslexia'
+  - time: '48:01'
+    label: 'Improving as an interviewer'
+  - time: '53:03'
+    label: 'The confusion of runaway success'
+  - time: '55:27'
+    label: 'Becoming less outcome-dependent as an actor and person'
+  - time: '57:53'
+    label: 'Has success changed what Dax will say yes or no to?'
+  - time: '1:00:28'
+    label: 'How to keep things fresh without losing the core audience'
+  - time: '1:03:32'
+    label: 'Expanding too early'
+  - time: '1:05:26'
+    label: 'Howard Stern'
+  - time: '1:12:45'
+    label: 'Dream guests'
+  - time: '1:14:26'
     label: "Dax's advice for starting a podcast now"
-  - time: "1:19:29"
-    label: "Books Dax gifts most"
-  - time: "1:30:05"
-    label: "The payoff of a heartbreaking failure"
-  - time: "1:36:00"
+  - time: '1:19:29'
+    label: 'Books Dax gifts most'
+  - time: '1:30:05'
+    label: 'The payoff of a heartbreaking failure'
+  - time: '1:36:00'
     label: "What would Dax's billboard say?"
-  - time: "1:37:14"
-    label: "Parting thoughts"
-transcribed_date: "2026-02-10"
+  - time: '1:37:14'
+    label: 'Parting thoughts'
+transcribed_date: '2026-02-10'
+path: youtube-transcripts/dax-shepard-craft-of-podcasting-favorite-books-dancing-with-demons.md
 ---
 
 # Dax Shepard on the Craft of Podcasting, Favorite Books, and Dancing With Your Demons
@@ -140,7 +141,7 @@ transcribed_date: "2026-02-10"
 ### Practical Takeaways (For Creators)
 
 - Pick 2-3 “spine questions” you can ask most guests; use them to build longitudinal insight across episodes.
-- Write down the *personal problem* your show helps you metabolize; it often becomes your best question engine.
+- Write down the _personal problem_ your show helps you metabolize; it often becomes your best question engine.
 - Pre-commit to a vulnerability policy (e.g., “you can cut anything”) if your goal is truth over gotchas.
 - When something works, expand slowly; protect the quality of the core before adding new formats or shows.
 

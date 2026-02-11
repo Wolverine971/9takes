@@ -20,14 +20,15 @@ export const load: PageServerLoad = async (event) => {
 export const actions: Actions = {
 	resetPass: async ({ request, locals }) => {
 		const body = Object.fromEntries(await request.formData());
+		const password = String(body.password ?? '');
 
-		if (!body.password) {
+		if (!password) {
 			return fail(400, {
 				error: 'Password is required'
 			});
 		}
 
-		if (body.password.length < 6) {
+		if (password.length < 6) {
 			return fail(400, {
 				error: 'Password must be at least 6 characters long'
 			});
@@ -37,7 +38,7 @@ export const actions: Actions = {
 			// The auth token is handled automatically by Supabase client
 			// when the user lands on this page from the reset email
 			const { data, error } = await locals.supabase.auth.updateUser({
-				password: body.password as string
+				password
 			});
 
 			if (error) {

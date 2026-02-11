@@ -1,6 +1,25 @@
 // src/routes/admin/consulting/sessions/[id]/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
 import { error, fail } from '@sveltejs/kit';
+import type { Database } from '../../../../../../database.types';
+
+type ConsultingClient = Database['public']['Tables']['consulting_clients']['Row'];
+type ConsultingSession = Database['public']['Tables']['consulting_sessions']['Row'];
+type ConsultingNote = Database['public']['Tables']['consulting_client_notes']['Row'];
+type ConsultingIntakeForm = Database['public']['Tables']['consulting_intake_forms']['Row'];
+
+type SessionWithClient = ConsultingSession & {
+	client:
+		| (ConsultingClient & {
+				intake: ConsultingIntakeForm[] | null;
+				notes: ConsultingNote[] | null;
+		  })
+		| null;
+};
+
+type SessionWithNotes = ConsultingSession & {
+	notes: ConsultingNote[] | null;
+};
 
 // Type-specific coaching data for session prep
 const typeData: Record<
@@ -397,7 +416,7 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 	const sessionId = params.id;
 
 	// Fetch session with client and related data
-	const { data: session, error: sessionError } = await supabase
+	const { data: sessionData, error: sessionError } = await supabase
 		.from('consulting_sessions')
 		.select(
 			`
@@ -411,31 +430,37 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		)
 		.eq('id', sessionId)
 		.single();
+	const session = sessionData as SessionWithClient | null;
 
 	if (sessionError || !session) {
 		throw error(404, 'Session not found');
 	}
 
 	// Get previous sessions for this client
-	const { data: previousSessions } = await supabase
-		.from('consulting_sessions')
-		.select(
+	let previousSessions: SessionWithNotes[] = [];
+	if (session.scheduled_at && session.client_id) {
+		const { data: previousSessionsData } = await supabase
+			.from('consulting_sessions')
+			.select(
+				`
+				*,
+				notes:consulting_client_notes(*)
 			`
-			*,
-			notes:consulting_client_notes(*)
-		`
-		)
-		.eq('client_id', session.client_id)
-		.lt('scheduled_at', session.scheduled_at)
-		.order('scheduled_at', { ascending: false })
-		.limit(5);
+			)
+			.eq('client_id', session.client_id)
+			.lt('scheduled_at', session.scheduled_at)
+			.order('scheduled_at', { ascending: false })
+			.limit(5);
+		previousSessions = (previousSessionsData ?? []) as SessionWithNotes[];
+	}
 
 	// Get session notes
-	const { data: sessionNotes } = await supabase
+	const { data: sessionNotesData } = await supabase
 		.from('consulting_client_notes')
 		.select('*')
 		.eq('session_id', sessionId)
 		.order('created_at', { ascending: false });
+	const sessionNotes = (sessionNotesData ?? []) as ConsultingNote[];
 
 	// Get type data for this client
 	const clientType = session.client?.enneagram_type;
@@ -443,8 +468,8 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 
 	return {
 		session,
-		previousSessions: previousSessions || [],
-		sessionNotes: sessionNotes || [],
+		previousSessions,
+		sessionNotes,
 		typeInfo,
 		allTypeData: typeData
 	};

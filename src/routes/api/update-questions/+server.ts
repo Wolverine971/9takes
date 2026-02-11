@@ -40,9 +40,7 @@ export const GET = withApiLogging(async ({ request, locals }) => {
 			throw e; // Re-throw HTTP errors
 		}
 		logger.error('Error in GET /api/update-questions', e as Error);
-		throw error(500, {
-			message: 'Internal server error'
-		});
+		throw error(500, 'Internal server error');
 	}
 });
 
@@ -92,17 +90,12 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 			logger.warn('Invalid question update data', {
 				errors: e.errors
 			});
-			throw error(400, {
-				message: 'Invalid question data',
-				details: e.errors
-			});
+			throw error(400, 'Invalid question data');
 		}
 		if ((e as any).status) {
 			throw e; // Re-throw HTTP errors
 		}
 		logger.error('Error in POST /api/update-questions', e as Error);
-		throw error(500, {
-			message: 'Internal server error'
-		});
+		throw error(500, 'Internal server error');
 	}
 });

@@ -1,13 +1,32 @@
 // src/routes/admin/consulting/clients/[id]/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
 import { error, fail, redirect } from '@sveltejs/kit';
+import type { Database } from '../../../../../../database.types';
+
+type ConsultingClient = Database['public']['Tables']['consulting_clients']['Row'];
+type ConsultingSession = Database['public']['Tables']['consulting_sessions']['Row'];
+type ConsultingNote = Database['public']['Tables']['consulting_client_notes']['Row'];
+type ConsultingIntakeForm = Database['public']['Tables']['consulting_intake_forms']['Row'];
+type ConsultingDeliverable = Database['public']['Tables']['consulting_deliverables']['Row'];
+type ConsultingTemplate = Database['public']['Tables']['consulting_templates']['Row'];
+type CoachingWaitlist = Database['public']['Tables']['coaching_waitlist']['Row'];
+type CoachingWaitlistMetadata = {
+	source?: string | null;
+};
+
+type ConsultingClientWithRelations = ConsultingClient & {
+	intake: ConsultingIntakeForm[] | null;
+	sessions: (ConsultingSession & { notes: ConsultingNote[] | null })[] | null;
+	notes: ConsultingNote[] | null;
+	deliverables: ConsultingDeliverable[] | null;
+};
 
 export const load: PageServerLoad = async ({ params, locals }) => {
 	const supabase = locals.supabase;
 	const clientId = params.id;
 
 	// Fetch client with related data
-	const { data: client, error: clientError } = await supabase
+	const { data: clientData, error: clientError } = await supabase
 		.from('consulting_clients')
 		.select(
 			`
@@ -21,19 +40,23 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		.eq('id', clientId)
 		.single();
 
+	const client = clientData as ConsultingClientWithRelations | null;
+
 	if (clientError || !client) {
 		throw error(404, 'Client not found');
 	}
 
 	// Get waitlist data if linked (waitlist_id is stored as TEXT)
-	let waitlistData = null;
+	let waitlistData: (CoachingWaitlist & { metadata: CoachingWaitlistMetadata[] | null }) | null =
+		null;
 	if (client.waitlist_id) {
 		const { data } = await supabase
 			.from('coaching_waitlist')
 			.select('*, metadata:coaching_waitlist_metadata(*)')
 			.eq('id', client.waitlist_id)
 			.single();
-		waitlistData = data;
+		waitlistData =
+			(data as (CoachingWaitlist & { metadata: CoachingWaitlistMetadata[] | null }) | null) ?? null;
 	}
 
 	// Get available templates for deliverables
@@ -42,11 +65,12 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		.select('*')
 		.eq('is_active', true)
 		.or(`enneagram_type.is.null,enneagram_type.eq.${client.enneagram_type || 0}`);
+	const typedTemplates = (templates ?? []) as ConsultingTemplate[];
 
 	return {
 		client,
 		waitlistData,
-		templates: templates || []
+		templates: typedTemplates
 	};
 };
 

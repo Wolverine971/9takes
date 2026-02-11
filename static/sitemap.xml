@@ -3065,15 +3065,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/John-Coogan</loc>
-    <lastmod>2026-02-09T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/John-Coogan.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Alex-Cooper</loc>
     <lastmod>2026-02-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3098,6 +3089,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Joe-Rogan.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/John-Coogan</loc>
+    <lastmod>2026-02-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/John-Coogan.webp</image:loc>
     </image:image>
 </url>
 <url>

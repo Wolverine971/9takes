@@ -26,7 +26,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 				}
 			}
 		}
-	);
+	) as unknown as App.Locals['supabase'];
 
 	/**
 	 * Unlike `supabase.auth.getSession()`, which returns the session _without_

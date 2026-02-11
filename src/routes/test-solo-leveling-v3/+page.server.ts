@@ -5,7 +5,6 @@ import { error } from '@sveltejs/kit';
 
 export interface FamousPerson {
 	name: string;
-	image?: string;
 	type: number;
 	url?: string;
 	hasImage?: boolean;
@@ -63,11 +62,10 @@ export const load: PageServerLoad = async ({ locals }) => {
 			slicedGroup.forEach((person) => {
 				const info: FamousPerson = {
 					name: person.name,
-					image: person.image,
 					type: key,
-					url: person.link,
+					url: person.link ? person.name : undefined,
 					hasImage: person.hasImage,
-					link: person.link
+					link: person.link ? person.name : undefined
 				};
 				images.push(info);
 			});

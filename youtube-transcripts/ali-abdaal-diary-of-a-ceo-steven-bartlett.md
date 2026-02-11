@@ -254,8 +254,7 @@ like 51 subscribers 52 you know refreshing the youtube app every day to be like 
 another view um and it sort of morphed from there was there a tipping point where you thought [ __ ]
 this is gonna be bigger than the the thing that i intended this to support yeah that tipping point
 was my first video that went viral uh and it was a video about how to study for exams um this was
-one of those weird weird things that i look back on where when i started youtube it was in june of
-2017. i knew that i wanted to make this video this sort of how to study for exams evidence-based
+one of those weird weird things that i look back on where when i started youtube it was in june of 2017. i knew that i wanted to make this video this sort of how to study for exams evidence-based
 tips at some point further down the line it was a topic that i'd researched extensively i like
 people would come to me asking for help on how to study for their exams there's actually a whole
 body of like psychological research on this that we just don't get taught in school around what are

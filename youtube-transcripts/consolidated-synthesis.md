@@ -64,7 +64,7 @@ incentives/constraints:
 - dating markets and tech sedatives shape outcomes (Chris),
 - environment design + scheduling creates calm (Kim).
 
-A useful synthesis: people differ less in what they *believe* than in what system they assume they’re operating inside.
+A useful synthesis: people differ less in what they _believe_ than in what system they assume they’re operating inside.
 
 ### 3) Discipline Has Two Flavors: Chosen Hardship vs Fear Fuel
 
@@ -129,4 +129,3 @@ Despite wildly different guests and genres, the folder’s center of gravity is 
 stable internal lives inside unstable external systems (algorithms, fame, incentives, polarization). The most reusable
 insight across the entire set is that outcomes change fastest when you stop moralizing behavior and start redesigning
 the system that makes the behavior likely.
-

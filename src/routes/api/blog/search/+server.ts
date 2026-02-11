@@ -110,9 +110,9 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			'search_all_blogs',
 			{
 				search_query: query,
-				filter_enneagram: enneagramFilter,
-				filter_category: category,
-				filter_type: type,
+				filter_enneagram: enneagramFilter ?? undefined,
+				filter_category: category ?? undefined,
+				filter_type: type ?? undefined,
 				result_limit: limit,
 				result_offset: offset
 			},
@@ -160,7 +160,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			})
 			.eq('published', true)
 			.textSearch('search_vector', query, { type: 'websearch' })
-			.order('lastmod', { ascending: false, nullsLast: true })
+			.order('lastmod', { ascending: false, nullsFirst: false })
 			.limit(fallbackLimit);
 
 		if (enneagramFilter) {
@@ -180,11 +180,11 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			})
 			.eq('published', true)
 			.textSearch('search_vector', query, { type: 'websearch' })
-			.order('lastmod', { ascending: false, nullsLast: true })
+			.order('lastmod', { ascending: false, nullsFirst: false })
 			.limit(fallbackLimit);
 
 		if (enneagramFilter) {
-			peopleQuery.eq('enneagram', enneagramFilter);
+			peopleQuery.eq('enneagram', String(enneagramFilter));
 		}
 		if (category) {
 			peopleQuery.eq('category', category);

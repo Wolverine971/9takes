@@ -1,11 +1,12 @@
 // src/lib/utils/blog.ts
 import { slugFromPath } from '../slugFromPath';
 
+type MdsvexModuleResolver = () => Promise<App.MdsvexFile>;
+
 // Helper to safely process Mdsvex modules
-function processMdsvexModule(path: string, resolver: App.MdsvexResolver) {
+function processMdsvexModule(path: string, resolver: MdsvexModuleResolver): Promise<App.BlogPost> {
 	return resolver().then((post) => {
-		const mdsvexFile = post as App.MdsvexFile;
-		const metadata = mdsvexFile.metadata as App.BlogPost;
+		const metadata = post.metadata;
 		return {
 			...metadata,
 			slug: slugFromPath(path),
@@ -73,14 +74,18 @@ function buildRFC822Date(dateString: string | undefined): string {
 
 export const getBlogPosts = async (): Promise<App.BlogPost[]> => {
 	// Get all enneagram blog posts including subdirectories
-	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
+	const enneagramModules = import.meta.glob<App.MdsvexFile>(
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`
+	);
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		processMdsvexModule(path, resolver)
 	);
 	const enneagramPosts = (await Promise.all(enneagramPromises)).filter((post) => post.published);
 
 	// Get community posts
-	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
+	const communityModules = import.meta.glob<App.MdsvexFile>(
+		`/src/blog/community/*.{md,svx,svelte.md}`
+	);
 	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
 		processMdsvexModule(path, resolver)
 	);

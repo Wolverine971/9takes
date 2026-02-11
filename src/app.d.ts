@@ -12,10 +12,10 @@ import type { Session, SupabaseClient, User } from '@supabase/supabase-js';
 import type { Database } from '../database.types';
 
 interface TakesUser extends User {
-	first_name: string;
-	last_name: string;
-	email: string;
-	id: number;
+	first_name?: string;
+	last_name?: string;
+	email?: string;
+	id: string;
 	username?: string;
 
 	external_id?: string;
@@ -31,17 +31,53 @@ interface SbSession extends Session {
 	user?: TakesUser;
 }
 
-// Google reCAPTCHA global
-interface Window {
-	grecaptcha: {
-		reset: (widgetId?: number) => void;
-		getResponse: (widgetId?: number) => string;
-		execute: (widgetId?: number) => void;
-		render: (container: string | HTMLElement, parameters: object) => number;
-	};
-}
-
 declare global {
+	interface Window {
+		grecaptcha?: {
+			reset: (widgetId?: number) => void;
+			getResponse: (widgetId?: number) => string;
+			execute: (widgetId?: number) => void;
+			render: (container: string | HTMLElement, parameters: object) => number;
+		};
+		mapboxgl?: {
+			accessToken: string;
+			Map: new (options: Record<string, unknown>) => unknown;
+		};
+		MapboxGeocoder?: new (options: Record<string, unknown>) => {
+			addTo: (selector: string) => void;
+			setInput: (value: string) => void;
+			on: (handler: string, callback: (ev: unknown) => void) => void;
+			off: (handler: string, callback: (ev: unknown) => void) => void;
+			remove?: () => void;
+		};
+		dataLayer?: unknown[];
+	}
+
+	namespace svelteHTML {
+		interface HTMLAttributes<T> {
+			'custom-element'?: string;
+			'on:ready'?: (event: CustomEvent<unknown>) => void;
+			'on:recentre'?: (event: CustomEvent<unknown>) => void;
+			'on:dragend'?: (event: CustomEvent<unknown>) => void;
+			'on:drag'?: (event: CustomEvent<unknown>) => void;
+			'on:click'?: (event: CustomEvent<unknown>) => void;
+			'on:zoomstart'?: (event: CustomEvent<unknown>) => void;
+			'on:zoom'?: (event: CustomEvent<unknown>) => void;
+			'on:zoomend'?: (event: CustomEvent<unknown>) => void;
+			'on:results'?: (event: CustomEvent<unknown>) => void;
+			'on:result'?: (event: CustomEvent<unknown>) => void;
+			'on:loading'?: (event: CustomEvent<unknown>) => void;
+			'on:error'?: (event: CustomEvent<unknown>) => void;
+			'on:clear'?: (event: CustomEvent<unknown>) => void;
+			'on:load'?: (event: CustomEvent<unknown>) => void;
+			'on:geolocate'?: (event: CustomEvent<unknown>) => void;
+			'on:outofmaxbounds'?: (event: CustomEvent<unknown>) => void;
+			'on:trackuserlocationend'?: (event: CustomEvent<unknown>) => void;
+			'on:trackuserlocationstart'?: (event: CustomEvent<unknown>) => void;
+			'on:popupClicked'?: (event: CustomEvent<unknown>) => void;
+		}
+	}
+
 	declare namespace App {
 		// interface Error {}
 		interface Locals {

@@ -1,8 +1,7 @@
 // src/routes/account/unsubscribe/[slug]/+page.server.ts
 import { error, redirect } from '@sveltejs/kit';
 
-import type { Actions } from '@sveltejs/kit';
-import type { PageServerLoad } from '../../$types';
+import type { Actions, PageServerLoad } from './$types';
 import { decrypt } from '../../../../utils/crypto';
 
 /** @type {import('./$types').PageLoad} */
@@ -18,6 +17,9 @@ export const load: PageServerLoad = async (event) => {
 
 	if (userSignupfError) {
 		console.log(userSignupfError);
+		throw redirect(302, '/questions');
+	}
+	if (!userSignup?.unsubscribe_iv) {
 		throw redirect(302, '/questions');
 	}
 
@@ -41,11 +43,11 @@ export const actions: Actions = {
 			const slug = params.slug;
 
 			const body = Object.fromEntries(await request.formData());
-			const email = body.email as string;
+			const email = String(body.email ?? '');
 
 			const { error: updateUserError } = await supabase
 				.from('signups')
-				.update({ unsubscribed_date: new Date() })
+				.update({ unsubscribed_date: new Date().toISOString() })
 				.eq('email', email)
 				.eq('unsubscribe_id', slug);
 			if (!updateUserError) {

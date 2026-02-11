@@ -4,8 +4,12 @@ import { supabase } from '$lib/supabase';
 import { dev } from '$app/environment';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
+import type { Database } from '../../../../database.types';
 
-export const load: PageServerLoad = async (event: any) => {
+type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
+type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
+
+export const load: PageServerLoad = async (event) => {
 	const setHeaders = event.setHeaders;
 	const session = event.locals.session;
 	const user = session?.user;
@@ -24,11 +28,12 @@ export const load: PageServerLoad = async (event: any) => {
 		});
 	}
 
-	const { data: personData } = await supabase
+	const { data: personDataRaw } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
 		.ilike('person', slug)
 		.maybeSingle();
+	const personData = personDataRaw as FamousPersonRow | null;
 
 	if (!personData) {
 		throw error(404, `Person not found: ${slug}`);
@@ -45,13 +50,13 @@ export const load: PageServerLoad = async (event: any) => {
 				.from('blog_comments')
 				.select('id')
 				.eq('blog_link', slug)
-				.eq('fingerprint', cookie)
+				.eq('fingerprint', cookie ?? '')
 				.maybeSingle();
 
 	const { data: hasCommented } = await queryPromise;
 	const userHasAnswered = !!hasCommented;
 
-	let comments = [];
+	let comments: BlogCommentRow[] = [];
 
 	// Only fetch comments if user has answered
 	if (userHasAnswered) {
@@ -65,7 +70,7 @@ export const load: PageServerLoad = async (event: any) => {
 		comments = blogComments || [];
 	}
 
-	let { content, placeholders } = await processBlogContent(personData.content);
+	const { content, placeholders } = await processBlogContent(personData.content ?? '');
 
 	return {
 		user: session?.user ? { id: session?.user?.id, email: session?.user?.email } : null, // Pass user info to components
@@ -73,7 +78,7 @@ export const load: PageServerLoad = async (event: any) => {
 			userHasAnswered,
 			userSignedIn: !!event?.locals?.session?.user?.aud
 		},
-		post: { ...personData, slug, content },
+		post: { ...(personData as FamousPersonRow), slug, content },
 		slug,
 		placeholders,
 		comments
@@ -135,10 +140,11 @@ export const actions: Actions = {
 
 // Functions to get related posts by niche
 async function getNichePosts(currentSlug: string, postType: string) {
-	const { data: personData, error: personDataError } = await supabase
+	const { data: personDataRaw, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
 		.filter('type', 'cs', `["${postType}"]`);
+	const personData = (personDataRaw ?? []) as FamousPersonRow[];
 
 	if (personDataError) {
 		console.log(personDataError);
@@ -146,25 +152,22 @@ async function getNichePosts(currentSlug: string, postType: string) {
 
 	// Return at most 3 posts, randomly sorted
 	return personData
-		.filter((p) => p.published && p.person !== currentSlug)
+		.filter((p) => p.published === true && p.person !== currentSlug)
 		.sort(() => 0.5 - Math.random())
 		.slice(0, 4)
 		.map((e) => {
-			return { ...e, slug: e.person };
+			return { ...e, slug: e.person ?? currentSlug };
 		});
 }
 
 // Function to get posts by enneagram number
 async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
-	let allPosts: any[] = [];
-
-	// We need to check each category separately to find posts with matching enneagram
-
 	// Check celebrities
-	const { data: personData, error: personDataError } = await supabase
+	const { data: personDataRaw, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
 		.eq('enneagram', enneagramNum);
+	const personData = (personDataRaw ?? []) as FamousPersonRow[];
 
 	if (personDataError) {
 		console.log(personDataError);
@@ -172,11 +175,11 @@ async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
 
 	// Return at most 3 posts, randomly sorted
 	return personData
-		.filter((p) => p.published && p.person !== currentSlug)
+		.filter((p) => p.published === true && p.person !== currentSlug)
 		.sort(() => 0.5 - Math.random())
 		.slice(0, 4)
 		.map((e) => {
-			return { ...e, slug: e.person };
+			return { ...e, slug: e.person ?? currentSlug };
 		});
 }
 

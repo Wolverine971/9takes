@@ -96,4 +96,3 @@ Dax Shepard’s most consistent insight is that recovery is a truth practice. Th
 vulnerability reduces shame, shame reduction reduces secrecy, and reduced secrecy creates enough relational safety to keep
 the system stable. The public-facing version (podcasting) is basically the same engine as the private one (AA): confess,
 connect, repair, repeat.
-

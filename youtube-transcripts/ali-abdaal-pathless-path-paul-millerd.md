@@ -328,8 +328,7 @@ path they're on um how have you like how do you think about that like especially
 money um like you've kind of solved some of the financial problems probably in your head right and
 then now you now you have to grapple with these damn hard human problems of meaning identity who you
 are yeah that's literally what's been going through my mind for the last nine months since i've been
-on the sabbatical that this whole basically for the sin since i've read the four i work with 17 or
-18. i've been chasing this dream of financial independence and being able to take that box okay cool
+on the sabbatical that this whole basically for the sin since i've read the four i work with 17 or 18. i've been chasing this dream of financial independence and being able to take that box okay cool
 now i've got the money thing sorted and before it was always a case of you know i just need to sort
 the money thing out and then i'll and then i'll worry about everything else kind of a bit later as
 long as you know i can sort the money thing and then it's fun along the way and it was fun along the
