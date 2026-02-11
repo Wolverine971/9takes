@@ -331,7 +331,14 @@
 			"WebFetch(domain:www.nbcchicago.com)",
 			"WebFetch(domain:toofab.com)",
 			"WebFetch(domain:glasp.co)",
-			"WebFetch(domain:www.gamereactor.eu)"
+			"WebFetch(domain:www.gamereactor.eu)",
+			"WebFetch(domain:www.theartofgrowth.org)",
+			"WebFetch(domain:www.personalitypath.com)",
+			"WebFetch(domain:www.crystalknows.com)",
+			"WebFetch(domain:www.amazon.com)",
+			"WebFetch(domain:ieaegyptconference.com)",
+			"WebFetch(domain:www.enneagramapproach.com)",
+			"WebFetch(domain:enneagramschoolofawakening.org)"
 		],
 		"deny": [],
 		"ask": [],

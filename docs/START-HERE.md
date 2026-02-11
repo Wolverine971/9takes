@@ -2,8 +2,8 @@
 
 # 9takes Content Strategy - START HERE
 
-_Last Updated: 2025-12-31_
-_Status: **30-DAY PLAN COMPLETE** - Ready for January 2026 execution_
+_Last Updated: 2026-02-10_
+_Status: **Active** - Content creation + distribution in parallel_
 
 > **AI Agents:** For quick task-based navigation, see [`/docs/README.md`](./README.md)
 
@@ -75,14 +75,19 @@ New readers blame EXTERNAL factors. Meet them there before asking for self-refle
 
 ### 4. Content Flywheel
 
-Every blog post should generate 5-10 social posts:
+Every blog post should generate 5-10 social posts AND trigger the distribution workflow:
 
 ```
 Blog Post → X Thread → Standalone Tweets → Engagement → New Blog Ideas
-    ↑__________________________________________________|
+    │                                                          ↑
+    ├→ Instagram Carousel (2-4 slides)                         │
+    ├→ Reddit Discussion Post (r/Enneagram + person-specific)  │
+    ├→ Email Outreach (3-5 personalized pitches)               │
+    └→ Fan Community Engagement ───────────────────────────────┘
 ```
 
 See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full flywheel checklist.
+See [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md) for the full distribution playbook.
 
 ---
 
@@ -181,21 +186,22 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 
 ### Strategy Documents
 
-| Purpose                     | Location                                                                                                                                   |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Full doc index**          | [`/docs/README.md`](./README.md)                                                                                                           |
-| 🆕 **2026 Annual Strategy** | [`/docs/planning/2026-annual-strategy.md`](./planning/2026-annual-strategy.md)                                                             |
-| 🆕 **Q1 2026 Pipeline**     | [`/docs/planning/q1-2026-content-pipeline.md`](./planning/q1-2026-content-pipeline.md)                                                     |
-| Content workflow            | [`/docs/writing-system/01-content-creation-workflow.md`](./writing-system/01-content-creation-workflow.md)                                 |
-| X/Twitter strategy          | [`/docs/twitter/strategy/master-strategy.md`](./twitter/strategy/master-strategy.md)                                                       |
-| AI & SEO optimization       | [`/docs/content-analysis/ai-search-optimization-guide.md`](./content-analysis/ai-search-optimization-guide.md)                             |
-| Celebrity optimization      | [`/docs/content-generation/celebrity-page-optimization-instructions.md`](./content-generation/celebrity-page-optimization-instructions.md) |
-| Domain gaps                 | [`/docs/domain-authority/00-master-index.md`](./domain-authority/00-master-index.md)                                                       |
-| Brand voice                 | [`/docs/brand/brand-style-guide-v2.md`](./brand/brand-style-guide-v2.md)                                                                   |
-| DJ communication style      | [`/docs/brand/dj-communication-guide.md`](./brand/dj-communication-guide.md)                                                               |
-| Supabase celebrity CRUD     | [`/docs/blogs-famous-people/mcp-blogs-famous-people.md`](./blogs-famous-people/mcp-blogs-famous-people.md)                                 |
-| Mental health blog system   | [`/docs/content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md`](./content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md)                               |
-| Midjourney prompts          | [`/docs/content-generation/midjourney_prompt_templates.md`](./content-generation/midjourney_prompt_templates.md)                           |
+| Purpose                      | Location                                                                                                                                   |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Full doc index**           | [`/docs/README.md`](./README.md)                                                                                                           |
+| 🆕 **Distribution Playbook** | [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md)                                                                   |
+| 🆕 **2026 Annual Strategy**  | [`/docs/planning/2026-annual-strategy.md`](./planning/2026-annual-strategy.md)                                                             |
+| 🆕 **Q1 2026 Pipeline**      | [`/docs/planning/q1-2026-content-pipeline.md`](./planning/q1-2026-content-pipeline.md)                                                     |
+| Content workflow             | [`/docs/writing-system/01-content-creation-workflow.md`](./writing-system/01-content-creation-workflow.md)                                 |
+| X/Twitter strategy           | [`/docs/twitter/strategy/master-strategy.md`](./twitter/strategy/master-strategy.md)                                                       |
+| AI & SEO optimization        | [`/docs/content-analysis/ai-search-optimization-guide.md`](./content-analysis/ai-search-optimization-guide.md)                             |
+| Celebrity optimization       | [`/docs/content-generation/celebrity-page-optimization-instructions.md`](./content-generation/celebrity-page-optimization-instructions.md) |
+| Domain gaps                  | [`/docs/domain-authority/00-master-index.md`](./domain-authority/00-master-index.md)                                                       |
+| Brand voice                  | [`/docs/brand/brand-style-guide-v2.md`](./brand/brand-style-guide-v2.md)                                                                   |
+| DJ communication style       | [`/docs/brand/dj-communication-guide.md`](./brand/dj-communication-guide.md)                                                               |
+| Supabase celebrity CRUD      | [`/docs/blogs-famous-people/mcp-blogs-famous-people.md`](./blogs-famous-people/mcp-blogs-famous-people.md)                                 |
+| Mental health blog system    | [`/docs/content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md`](./content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md)                               |
+| Midjourney prompts           | [`/docs/content-generation/midjourney_prompt_templates.md`](./content-generation/midjourney_prompt_templates.md)                           |
 
 ### 🆕 Workflow Templates (Dec 2025)
 
@@ -218,11 +224,93 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 
 ---
 
+## 🚀 DISTRIBUTION PROCESS (Post-Publish)
+
+**Every personality analysis blog you publish should be distributed, not just indexed.**
+
+SEO alone is passive. Distribution creates buzz, backlinks, and brand awareness for 9takes. The distribution strategy doc has the full playbook -- this section is the quick-reference checklist.
+
+> **Full playbook:** [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md) -- Person-specific channels, email templates, Instagram carousel system, Reddit/Twitter playbooks
+
+### Post-Publish Checklist (Per Blog)
+
+**Day 1 (Publish Day):**
+
+- [ ] Publish blog on 9takes.com
+- [ ] Post Twitter/X thread (8-10 AM EST) -- tag the person, use 2-3 hashtags
+- [ ] Create Instagram carousel in Canva (2-4 slides) -- see carousel format in distribution doc
+
+**Days 2-3:**
+
+- [ ] Post to r/Enneagram as a discussion (not a link drop)
+- [ ] Post to person-specific subreddit (separate day from r/Enneagram)
+- [ ] Share carousel to Instagram stories with poll sticker
+
+**Days 4-7:**
+
+- [ ] Send 3-5 personalized email outreach pitches (see templates in distribution doc)
+- [ ] Share in one Enneagram Facebook group
+- [ ] Engage in Personality Database comments for the person
+
+**Days 8-14:**
+
+- [ ] Repost Twitter thread with a different hook
+- [ ] Post in secondary forum or Discord community
+- [ ] Share in fan community where you have credibility
+
+**Ongoing:**
+
+- [ ] When the person is in the news, create reactive tweets connecting to your analysis
+- [ ] Update the blog if new events validate your analysis, then redistribute
+
+### Tone: Respectful and Reverent
+
+Every person you analyze has a real story. The tone across all distribution should feel like you're honoring their journey, not dissecting them.
+
+- Speak about them like you admire the complexity of who they are
+- Never reduce someone to a number -- the Enneagram type is a doorway, not a box
+- Acknowledge what you don't know: "This is my read" not "this is who he is"
+- Let the person's own words and actions do the heavy lifting
+
+### Instagram Carousel Quick Reference
+
+| Slide | Content                                               | Notes                    |
+| ----- | ----------------------------------------------------- | ------------------------ |
+| 1     | Photo of person + one curiosity-driven hook line      | Let the face do the work |
+| 2     | Core Enneagram insight tied to a specific moment      | 40-60 words max          |
+| 3     | The tension/cost/growth edge of their type (optional) | Honor the struggle       |
+| 4     | CTA: "Full breakdown on 9takes.com. Link in bio."     | Warm, not salesy         |
+
+**Hashtags:** 15-20 per post. Person-specific (3-5) + Enneagram (5-7) + Niche discovery (5-8).
+
+### Currently Active Distribution Targets (Feb 2026)
+
+These people have full distribution channel research in the playbook:
+
+| Person            | Type | Key Distribution Angle                                                  |
+| ----------------- | ---- | ----------------------------------------------------------------------- |
+| Benson Boone      | 7    | Music fan communities, Switched on Pop                                  |
+| Chris Williamson  | 3    | r/DecodingTheGurus, self-improvement subs, Locals.com                   |
+| John Coogan       | 3    | Startup subs, TBPN live chat, tech newsletters                          |
+| Shawn Ryan        | 5    | r/ShawnRyanShow, military/veteran publications                          |
+| Ali Abdaal        | 3    | r/productivity, Creator Science, The Friendzone Discord                 |
+| Chappell Roan     | 8    | Tumblr (her strongest platform), LGBTQ+ publications                    |
+| Pete Davidson     | 9    | r/BPD (respectful angle), mental health nonprofits, Netflix timing      |
+| Dax Shepard       | -    | r/ArmchairExpert, r/stopdrinking, The Sober Curator                     |
+| Dolly Parton      | -    | Facebook (massive), Dolly Parton's America podcast, country music sites |
+| Alex Cooper       | 7    | r/CallHerDaddy, podcast industry writers, TikTok                        |
+| Theo Von          | 7    | r/TheoVon, comedy journalists (Vulture), recovery publications          |
+| Dave Portnoy      | 8    | r/barstoolsports, sports media sites, book launch timing (June 2026)    |
+| Joe Rogan         | 8    | r/JoeRogan, MMA forums, podcast industry newsletters                    |
+| Sabrina Carpenter | 3    | r/popheads, PopCrave, Tumblr, fashion publications                      |
+
+---
+
 ## 🚫 STOP DOING
 
 1. **Writing type descriptions** - They don't convert
 2. **Academic/theoretical content** - No search volume
-3. **New celebrity content** - Already 70% of site (overdeveloped)
+3. **Publishing without distributing** - A blog nobody sees is a blog that doesn't exist
 4. **Hedging language** - Weakens authority for AI search
 5. **Planning without executing** - Strategy is complete, execute it
 
@@ -232,9 +320,10 @@ See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full 
 
 1. **Mental health angles** - Your proven traffic winner
 2. **Problem-focused titles** - "Why you can't stop X" beats "What Type X is like"
-3. **Shadow/toxic content** - People want to understand dark patterns
-4. **Cross-system comparisons** - Astrology, MBTI, attachment styles work
+3. **Distributing every blog you publish** - Twitter thread + Instagram carousel + Reddit + email outreach
+4. **Celebrity analyses of trending people** - Celebrity content drives discovery; distribution amplifies it
 5. **Optimizing existing pages** - Better ROI than new content
+6. **Building presence in Enneagram communities** - r/Enneagram, PersonalityCafe, Personality Database, Facebook groups
 
 ---
 
@@ -356,13 +445,20 @@ Use `TypeQuotes` to display characteristic quotes/statements from different Enne
 
 ### During Work
 
-1. Write problem-focused content
+1. Write problem-focused content OR personality analysis blog
 2. Apply Quick Answer boxes to existing pages
 3. Update titles on low-CTR pages
 
+### Distribution Block (20-30 min)
+
+1. Check: did anything publish in the last 1-7 days that needs distribution?
+2. Follow the post-publish checklist above for that day's step
+3. Engage genuinely in 2-3 communities (comment, reply, add value -- no links)
+4. If a person you've analyzed is trending, post a reactive tweet connecting to your analysis
+
 ### Evening (15 min)
 
-1. Track what you published/optimized
+1. Track what you published/optimized/distributed
 2. Note tomorrow's single priority
 
 ---
@@ -415,8 +511,9 @@ Use `TypeQuotes` to display characteristic quotes/statements from different Enne
 2. Create more shadow/problem content (what people actually search)
 3. Optimize existing high-impression pages (quick wins)
 4. Let celebrity content drive discovery → practical content converts
+5. **Distribute every analysis you publish** → SEO is passive, distribution is active
 
-**You're not competing on descriptions. You're competing on solutions.**
+**You're not competing on descriptions. You're competing on solutions. And you're not waiting for Google to find you -- you're putting the work in front of the people who care.**
 
 ---
 

@@ -447,7 +447,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-02-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2246,15 +2246,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Jake-Paul</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Jake-Paul.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/James-Charles</loc>
     <lastmod>2025-12-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3053,6 +3044,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Dave-Portnoy.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Jake-Paul</loc>
+    <lastmod>2026-02-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Jake-Paul.webp</image:loc>
     </image:image>
 </url>
 <url>
