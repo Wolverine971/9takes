@@ -10,7 +10,7 @@
 - **Series**: Actors on Actors
 - **YouTube Upload Date**: Nov 13, 2019
 - **Views**: 4,747,354
-- **Primary Topics**: character empathy, gendered perspective in directing, actor process, indie vs franchise choices, producing *Hustlers*, Batman decision
+- **Primary Topics**: character empathy, gendered perspective in directing, actor process, indie vs franchise choices, producing _Hustlers_, Batman decision
 
 ---
 
@@ -35,12 +35,12 @@
 
 ## Parsed Conversation Flow
 
-- Opening on *Hustlers* reception and whether male/female direction changes film tone.
+- Opening on _Hustlers_ reception and whether male/female direction changes film tone.
 - Acting ethics: portraying characters who do harmful things.
-- Pattinson on *The Lighthouse* as high-risk, high-originality role choice.
+- Pattinson on _The Lighthouse_ as high-risk, high-originality role choice.
 - Shared conversation on method acting limits and "action/cut" boundaries.
-- Lopez on producing *Hustlers* and the packaging/financing process.
-- Pattinson on post-*Twilight* career choices and audience calibration.
+- Lopez on producing _Hustlers_ and the packaging/financing process.
+- Pattinson on post-_Twilight_ career choices and audience calibration.
 - Why Batman appealed to him and the challenge of inheriting a culturally loaded role.
 - Closing with Lopez on Super Bowl preparation and representation.
 
@@ -98,9 +98,9 @@ The exchange works because they mirror each other across different career archit
 
 ## Transcript (Parsed and Lightly Cleaned)
 
-### Opening: *Hustlers* and Directorial Lens
+### Opening: _Hustlers_ and Directorial Lens
 
-**Robert Pattinson:** I really liked *Hustlers* and loved seeing it with a packed theater.
+**Robert Pattinson:** I really liked _Hustlers_ and loved seeing it with a packed theater.
 
 **Jennifer Lopez:** If the film had been directed by a man, it would have been very different. Men and women frame strip-club dynamics differently, and women protagonists could have been judged more harshly.
 
@@ -118,9 +118,9 @@ The exchange works because they mirror each other across different career archit
 
 **Jennifer Lopez:** Yes, partially. You project from your own emotional memory to make choices playable.
 
-### On *The Lighthouse* and Choosing Risk
+### On _The Lighthouse_ and Choosing Risk
 
-**Jennifer Lopez:** Why choose a black-and-white, strange, two-hander like *The Lighthouse*?
+**Jennifer Lopez:** Why choose a black-and-white, strange, two-hander like _The Lighthouse_?
 
 **Robert Pattinson:** Because it was original and difficult. I like projects where I do not already know how to do them. If I only chose "relatable" roles, I would just play insecure losers repeatedly.
 
@@ -134,7 +134,7 @@ The exchange works because they mirror each other across different career archit
 
 **Robert Pattinson:** You mostly hear about method extremes when people are playing difficult personalities. You rarely hear: "I stayed in character all day being lovely."
 
-### Lopez on Producing *Hustlers*
+### Lopez on Producing _Hustlers_
 
 **Jennifer Lopez:** Producing meant packaging, moving studios, and fighting through the process to preserve the movie's intention. It was an uphill path, not a simple cast-and-shoot.
 
@@ -142,9 +142,9 @@ The exchange works because they mirror each other across different career archit
 
 **Jennifer Lopez:** They are used to romantic versions of me; when I play harder characters, it feels fresh and people like seeing that edge.
 
-### Pattinson on Post-*Twilight* Choices
+### Pattinson on Post-_Twilight_ Choices
 
-**Jennifer Lopez:** After *Twilight*, did you intentionally move toward smaller films?
+**Jennifer Lopez:** After _Twilight_, did you intentionally move toward smaller films?
 
 **Robert Pattinson:** Not consciously. I just kept pursuing what I wanted from the beginning. I do not trust my ability to predict mass audience taste, so I choose projects I would want to watch.
 

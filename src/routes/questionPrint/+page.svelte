@@ -22,10 +22,9 @@
 	let uuid = '';
 
 	// QR Code options
-	const QR_OPTS = {
+	const QR_OPTS: QRCode.QRCodeToDataURLOptions = {
 		errorCorrectionLevel: 'H',
 		type: 'image/png',
-		quality: 0.7,
 		margin: 1,
 		color: {
 			dark: '#333333',

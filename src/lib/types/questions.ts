@@ -166,7 +166,7 @@ export interface QuestionWithTag {
 export interface CommentProps {
 	user: User | null;
 	comment: Comment;
-	parentData: QuestionPageData;
+	parentData: QuestionPageData | Comment;
 	questionId: number;
 }
 

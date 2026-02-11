@@ -45,8 +45,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 
 	const sortedByLastmod = [...posts].sort(
 		(a, b) =>
-			new Date(b.lastmod ?? b.date ?? 0).getTime() -
-			new Date(a.lastmod ?? a.date ?? 0).getTime()
+			new Date(b.lastmod ?? b.date ?? 0).getTime() - new Date(a.lastmod ?? a.date ?? 0).getTime()
 	);
 	const featured = sortedByLastmod.slice(0, 2);
 	const featuredSlugs = new Set(featured.map((p) => p.slug));

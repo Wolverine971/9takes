@@ -4,13 +4,14 @@
 	import { fade, fly } from 'svelte/transition';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { invalidateAll } from '$app/navigation';
+	import type { SubmitFunction } from '@sveltejs/kit';
 	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
 
 	let loading = false;
 	let email = '';
 	let password = '';
 
-	function handleSubmit() {
+	const handleSubmit: SubmitFunction = () => {
 		loading = true;
 		return async ({ result }) => {
 			if (result.type === 'failure') {
@@ -25,7 +26,7 @@
 			// Only reset loading if we're still on this page (e.g., no redirect happened)
 			loading = false;
 		};
-	}
+	};
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
 </script>
 

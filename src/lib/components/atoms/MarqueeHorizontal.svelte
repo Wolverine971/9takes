@@ -2,18 +2,22 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	export let displayList: {
+	type DisplayItem = {
 		name: string;
 		link: string;
-	}[] = [];
+	};
+
+	type Theme = 'types' | 'relationships' | 'workplace' | 'growth' | 'custom';
+
+	export let displayList: DisplayItem[] = [];
 	export let noMove: boolean = false;
 	export let speed: number = 30; // seconds for one full rotation
-	export let theme: 'types' | 'relationships' | 'workplace' | 'growth' | 'custom' = 'custom';
+	export let theme: Theme = 'custom';
 
 	let marqueeWidth: number;
 
 	// Predefined theme lists for smart cross-linking
-	const themeDisplayLists = {
+	const themeDisplayLists: Record<Exclude<Theme, 'custom'>, DisplayItem[]> = {
 		types: [
 			{ name: 'Type 1 Perfectionist', link: '/enneagram-corner/enneagram-type-1' },
 			{ name: 'Type 2 Helper', link: '/enneagram-corner/enneagram-type-2' },
@@ -68,7 +72,8 @@
 	};
 
 	// Use theme-based display list if no custom list provided
-	$: finalDisplayList = displayList.length > 0 ? displayList : themeDisplayLists[theme] || [];
+	$: finalDisplayList =
+		displayList.length > 0 ? displayList : theme === 'custom' ? [] : themeDisplayLists[theme];
 
 	onMount(() => {
 		marqueeWidth = finalDisplayList.length * 250; // Adjust based on your content
@@ -84,7 +89,7 @@
 		name: '9takes Enneagram Types Marquee',
 		description: 'A scrolling marquee displaying Enneagram personality types and related content',
 		cssSelector: '.marquee-container',
-		hasPart: finalDisplayList.map((item, index) => {
+		hasPart: finalDisplayList.map((item: DisplayItem) => {
 			return {
 				'@type': 'WebPageElement',
 				name: item.name,

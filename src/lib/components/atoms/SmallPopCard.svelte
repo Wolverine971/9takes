@@ -15,7 +15,7 @@
 	export let link = '';
 
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-	let interval: ReturnType<typeof setInterval> | null = null;
+	let interval: ReturnType<typeof setInterval> | undefined;
 	let showDescription = false;
 	let innerWidth = 0;
 

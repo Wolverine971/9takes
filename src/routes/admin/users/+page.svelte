@@ -10,17 +10,21 @@
 
 	export let data: PageData;
 
+	type Signup = NonNullable<PageData['signups']>[number] & { createdAt: string };
+	type Profile = NonNullable<PageData['profiles']>[number] & { createdAt: string };
+	type SortField = 'last_sign_in_at' | 'email' | 'enneagram' | 'admin';
+
 	// Format data with readable dates
-	const formattedSignups =
+	const formattedSignups: Signup[] =
 		data?.signups?.map((s) => ({
 			...s,
-			createdAt: convertDateToReadable(s.created_at)
+			createdAt: s.created_at ? convertDateToReadable(s.created_at) : ''
 		})) || [];
 
-	let formattedProfiles =
+	let formattedProfiles: Profile[] =
 		data?.profiles?.map((p) => ({
 			...p,
-			createdAt: convertDateToReadable(p.created_at)
+			createdAt: p.created_at ? convertDateToReadable(p.created_at) : ''
 		})) || [];
 
 	// User editing state
@@ -28,7 +32,7 @@
 	let activeAdmin = false;
 
 	// Sorting state
-	let sortField = 'last_sign_in_at';
+	let sortField: SortField = 'last_sign_in_at';
 	let sortDirection: 'asc' | 'desc' = 'desc';
 
 	// Search/filter state
@@ -67,14 +71,14 @@
 
 	// Sort profiles by field
 	$: sortedProfiles = [...filteredProfiles].sort((a, b) => {
-		const aVal = a[sortField];
-		const bVal = b[sortField];
+		const aVal = (a[sortField] ?? '') as string | number | boolean;
+		const bVal = (b[sortField] ?? '') as string | number | boolean;
 		if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
 		if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
 		return 0;
 	});
 
-	function toggleSort(field: string) {
+	function toggleSort(field: SortField) {
 		if (sortField === field) {
 			sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
 		} else {
@@ -97,7 +101,10 @@
 
 			const result = deserialize(await resp.text());
 
-			if (result?.data?.success) {
+			if (
+				result.type === 'success' &&
+				(result.data as { success?: boolean } | undefined)?.success
+			) {
 				notifications.success('User updated successfully', 3000);
 
 				// Update local data
@@ -110,7 +117,7 @@
 					formattedProfiles = formattedProfiles.map((p) => ({
 						...p,
 						admin: p.email === active.email ? activeAdmin : p.admin
-					}));
+					})) as Profile[];
 				}
 			} else {
 				notifications.danger('Error updating user', 3000);
@@ -248,7 +255,11 @@
 									</td>
 									<td>
 										{#if profile.enneagram}
-											<span class="type-badge" style="background: {typeColors[profile.enneagram]}">
+											{@const profileType = Number(profile.enneagram)}
+											<span
+												class="type-badge"
+												style="background: {typeColors[profileType] || '#64748b'}"
+											>
 												{profile.enneagram}
 											</span>
 										{:else}
@@ -332,7 +343,10 @@
 		<div class="modal-user-info">
 			<div class="user-avatar">
 				{#if active?.enneagram}
-					<span class="avatar-type" style="background: {typeColors[active.enneagram]}">
+					<span
+						class="avatar-type"
+						style="background: {typeColors[Number(active.enneagram)] || '#64748b'}"
+					>
 						{active.enneagram}
 					</span>
 				{:else}

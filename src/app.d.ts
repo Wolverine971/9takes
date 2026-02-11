@@ -32,6 +32,19 @@ interface SbSession extends Session {
 }
 
 declare global {
+	interface MediumEditorInstance {
+		subscribe: (event: string, callback: () => void) => void;
+		serialize: () => Record<string, { value: string }>;
+		destroy?: () => void;
+	}
+
+	var MediumEditor:
+		| (new (
+				elements: Element | Element[] | NodeListOf<Element>,
+				options?: Record<string, unknown>
+		  ) => MediumEditorInstance)
+		| undefined;
+
 	interface Window {
 		grecaptcha?: {
 			reset: (widgetId?: number) => void;
@@ -58,18 +71,13 @@ declare global {
 			'custom-element'?: string;
 			'on:ready'?: (event: CustomEvent<unknown>) => void;
 			'on:recentre'?: (event: CustomEvent<unknown>) => void;
-			'on:dragend'?: (event: CustomEvent<unknown>) => void;
-			'on:drag'?: (event: CustomEvent<unknown>) => void;
-			'on:click'?: (event: CustomEvent<unknown>) => void;
 			'on:zoomstart'?: (event: CustomEvent<unknown>) => void;
 			'on:zoom'?: (event: CustomEvent<unknown>) => void;
 			'on:zoomend'?: (event: CustomEvent<unknown>) => void;
 			'on:results'?: (event: CustomEvent<unknown>) => void;
 			'on:result'?: (event: CustomEvent<unknown>) => void;
 			'on:loading'?: (event: CustomEvent<unknown>) => void;
-			'on:error'?: (event: CustomEvent<unknown>) => void;
 			'on:clear'?: (event: CustomEvent<unknown>) => void;
-			'on:load'?: (event: CustomEvent<unknown>) => void;
 			'on:geolocate'?: (event: CustomEvent<unknown>) => void;
 			'on:outofmaxbounds'?: (event: CustomEvent<unknown>) => void;
 			'on:trackuserlocationend'?: (event: CustomEvent<unknown>) => void;
@@ -121,8 +129,10 @@ declare global {
 			instagram?: string;
 			tiktok?: string;
 			blog?: boolean;
-			jsonld: string;
-			jsonld_snippet?: any;
+			jsonld?: string | null;
+			jsonld_snippet?: unknown;
+			howToSteps?: Array<{ name?: string; text?: string } | string>;
+			totalTime?: string;
 			pic?: string;
 		}
 	}

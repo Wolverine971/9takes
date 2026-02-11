@@ -131,7 +131,7 @@ Kim describes her early relationship with [Kanye](/personality-analysis/Kanye) t
 
 > "He was like larger than life and so smart and just always talked about new ideas and things that I wasn't really familiar with. I was always learning with him."
 
-The word *learning* is the tell. Kim runs everything in her life. With Kanye, she positioned herself as the student. It was exciting at first, someone who expanded her frame, who made the world bigger. But the power imbalance that felt like growth eventually became something else.
+The word _learning_ is the tell. Kim runs everything in her life. With Kanye, she positioned herself as the student. It was exciting at first, someone who expanded her frame, who made the world bigger. But the power imbalance that felt like growth eventually became something else.
 
 > "Just not feeling safe. Not even physically, just like maybe emotionally or even financially. I never felt like I knew what you're going to get when you wake up. And that's a really unsettling feeling."
 
@@ -173,7 +173,7 @@ And then:
 
 > "I beg them to go hang out."
 
-That word, *beg*, from someone who controls every other aspect of her life. She is not withholding the children. She is pushing them toward their father and being publicly accused of the opposite.
+That word, _beg_, from someone who controls every other aspect of her life. She is not withholding the children. She is pushing them toward their father and being publicly accused of the opposite.
 
 And then the Angie Martinez interview. The moment the composure broke entirely. Kim was talking about protecting her children from things they shouldn't have to see, and she couldn't finish the sentence.
 
@@ -213,7 +213,7 @@ The criminal justice work that followed changed her in ways that go deeper than 
 
 > "My heart has opened up so much. Taking the time to listen to people more than maybe speaking and making it about yourself, my compassion has just grown on another level."
 
-*More than maybe speaking and making it about yourself.* She names her own pattern without flinching. The prison reform work forced her into a posture that is the opposite of her public persona: listening, not performing. Sitting with someone else's pain without being able to fix it or brand it.
+_More than maybe speaking and making it about yourself._ She names her own pattern without flinching. The prison reform work forced her into a posture that is the opposite of her public persona: listening, not performing. Sitting with someone else's pain without being able to fix it or brand it.
 
 > "I might have been way more judgmental. I had no compassion. I was just really judgmental."
 

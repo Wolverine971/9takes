@@ -73,7 +73,9 @@ export const load: PageServerLoad = async (event) => {
 		unsubscribe_rate: 0
 	};
 	const analyticsData =
-		analyticsResult.data && typeof analyticsResult.data === 'object' && !Array.isArray(analyticsResult.data)
+		analyticsResult.data &&
+		typeof analyticsResult.data === 'object' &&
+		!Array.isArray(analyticsResult.data)
 			? analyticsResult.data
 			: {};
 

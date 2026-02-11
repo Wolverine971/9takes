@@ -64,11 +64,7 @@ export const actions: Actions = {
 		}
 
 		// Check if email already exists
-		const { data: existing } = await db
-			.from('signups')
-			.select('id')
-			.eq('email', email)
-			.single();
+		const { data: existing } = await db.from('signups').select('id').eq('email', email).single();
 
 		if (existing) {
 			return { data: null, error: { message: 'Email already exists' } };

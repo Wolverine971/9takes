@@ -36,7 +36,7 @@
 
 - Calibration + early jokes about nervousness, sweat, and "Big Tub" rap history.
 - Robert round: jealousy prompts, awards questions, actor-friend comparisons, Gen Z jokes, role-process oddities.
-- Switch to Jennifer round: self-image, old interviews, *Twilight* audition, friendship hierarchy, texting habits.
+- Switch to Jennifer round: self-image, old interviews, _Twilight_ audition, friendship hierarchy, texting habits.
 - Personal/public image cleanup attempts (falls at Oscars, quote corrections, clumsiness narratives).
 - Career and role-selection prompts (Nolan, pickiness, crime/joke logic, interview honesty).
 - Ends on intentionally absurd prompts and tonal release.
@@ -118,7 +118,7 @@ Because participants are aware of audience and machine, each answer serves two a
 
 **Lou:** Deceptive.
 
-**Jennifer Lawrence:** Would you do a new *Twilight* if Safdies directed?
+**Jennifer Lawrence:** Would you do a new _Twilight_ if Safdies directed?
 
 **Robert Pattinson:** Yes, definitely.
 
@@ -132,7 +132,7 @@ Because participants are aware of audience and machine, each answer serves two a
 
 **Robert Pattinson:** I do, but I pretend to be my own assistant.
 
-**Jennifer Lawrence:** During *The Lighthouse*, did you vomit for headspace?
+**Jennifer Lawrence:** During _The Lighthouse_, did you vomit for headspace?
 
 **Robert Pattinson:** Yes. I can make myself vomit by thinking about it.
 
@@ -152,11 +152,11 @@ Because participants are aware of audience and machine, each answer serves two a
 
 **Lou:** Truthful.
 
-**Robert Pattinson:** You auditioned for *Twilight*. Wish you got it?
+**Robert Pattinson:** You auditioned for _Twilight_. Wish you got it?
 
 **Jennifer Lawrence:** No.
 
-**Robert Pattinson:** Is *Hunger Games* cooler than *Twilight*?
+**Robert Pattinson:** Is _Hunger Games_ cooler than _Twilight_?
 
 **Jennifer Lawrence:** No.
 

@@ -11,7 +11,7 @@
 		? data?.signups?.map((s) => {
 				return {
 					...s,
-					createdAt: convertDateToReadable(s.created_at),
+					createdAt: s.created_at ? convertDateToReadable(s.created_at) : '',
 					unsubscribed_date: s.unsubscribed_date ? convertDateToReadable(s.unsubscribed_date) : null
 				};
 			})
@@ -29,7 +29,7 @@
 
 		const result: any = deserialize(await resp.text());
 
-		if (result?.data?.success) {
+		if (result.type === 'success' && (result.data as { success?: boolean } | undefined)?.success) {
 			notifications.success('Updated cypher', 3000);
 		} else {
 			notifications.danger('Error updating cypher', 3000);

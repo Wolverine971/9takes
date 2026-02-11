@@ -1,6 +1,5 @@
 <!-- src/routes/test-solo-leveling-v3/+page.svelte -->
 <script lang="ts">
-	// @ts-nocheck
 	import { onMount, tick } from 'svelte';
 	import { fly, fade } from 'svelte/transition';
 	import { browser } from '$app/environment';

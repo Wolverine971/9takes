@@ -1545,10 +1545,11 @@ car. But tell me about your car a little bit. Anyone who sees you in this little
 
 > > somehow that would make her not love me or something. I just got to experience it had had no
 > > impact. It didn't have any impact on either relationship. Now, I'm against an open relationship
-> > for different reasons, which are well, a I'm an addict, so it's I can't manage that. I can't [ __
+> > for different reasons, which are well, a I'm an addict, so it's I can't manage that. I can't [ \_\_
+> >
 > > > > ] once, and I can't. Whereas, your guilt would eat you up. Um, there'd be there'd be more right
-> > away. It just be like, if I had a drink tomorrow, I'm going to have a thousand drinks over the
-> > next few weeks.
+> > > > away. It just be like, if I had a drink tomorrow, I'm going to have a thousand drinks over the
+> > > > next few weeks.
 
 > > That's just how I'm built. But I think if you have an open relationship, unless you guys are so
 > > committed to working on your own sexual relationship,

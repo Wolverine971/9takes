@@ -24,6 +24,10 @@
 
 	// Track the date of last comment for pagination
 	$: lastDate = comments?.length ? comments[comments.length - 1]?.created_at || null : null;
+	$: questionParentData = parentType === 'question' ? (parentData as QuestionPageData) : null;
+	$: parentId = parentType === 'question' ? questionId : (parentData as CommentType).id;
+	$: userHasAnswered =
+		parentType === 'comment' ? true : !!questionParentData?.flags?.userHasAnswered;
 
 	// Create a reactive deep copy to avoid mutation issues
 	$: _comments = comments ? (JSON.parse(JSON.stringify(comments)) as CommentType[]) : [];
@@ -40,9 +44,9 @@
 
 		try {
 			const response = await fetch(
-				`/comments?type=${parentType}&parentId=${
-					parentType === 'question' ? questionId : parentData.id
-				}&lastDate=${lastDate}&range=${_comments.length || 0}`
+				`/comments?type=${parentType}&parentId=${parentId}&lastDate=${lastDate}&range=${
+					_comments.length || 0
+				}`
 			);
 
 			const newComments = await response.json();
@@ -122,7 +126,7 @@
 </script>
 
 {#key key}
-	{#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
+	{#if browser && comments.length && userHasAnswered}
 		<div class={parentType === 'comment' ? 'space-y-2' : 'space-y-3'}>
 			{#each _comments as comment, index (comment.id)}
 				<div
@@ -162,7 +166,7 @@
 		{/if}
 
 		<!-- Infinite scroll sentinel -->
-		{#if _comments.length < comment_count && parentData?.flags?.userHasAnswered}
+		{#if _comments.length < comment_count && userHasAnswered}
 			<div bind:this={bottomSentinel} class="my-6">
 				{#if loading && !initialLoading}
 					<div class="flex justify-center py-6">
@@ -178,7 +182,7 @@
 				{/if}
 			</div>
 		{/if}
-	{:else if parentData?.flags?.userHasAnswered && !comments.length}
+	{:else if userHasAnswered && !comments.length}
 		<div class="flex flex-col items-center justify-center py-12">
 			<div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#252538]">
 				<svg class="h-7 w-7 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

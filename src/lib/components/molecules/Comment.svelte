@@ -29,7 +29,7 @@
 
 	export let user: User | null;
 	export let comment: CommentType;
-	export let parentData: QuestionPageData;
+	export let parentData: QuestionPageData | CommentType;
 	export let questionId: number;
 
 	// State variables
@@ -62,6 +62,10 @@
 	$: _commentComment = structuredClone(comment);
 
 	// Reactive variables
+	$: questionPageData =
+		parentData && 'flags' in parentData ? (parentData as QuestionPageData) : null;
+	$: flagReasons = questionPageData?.flagReasons ?? [];
+
 	$: lastDate = _commentComment.comments?.length
 		? _commentComment.comments[_commentComment.comments.length - 1]?.created_at || null
 		: null;
@@ -278,8 +282,8 @@
 
 	// Check if user can comment
 	function canComment() {
-		if (!parentData?.flags?.userSignedIn && !user?.id) {
-			if (parentData?.flags?.userHasAnswered || anonymousComment) {
+		if (!questionPageData?.flags?.userSignedIn && !user?.id) {
+			if (questionPageData?.flags?.userHasAnswered || anonymousComment) {
 				notifications.info('Must register or login to comment multiple times', 3000);
 				return false;
 			} else {
@@ -747,7 +751,7 @@
 					</div>
 				{/if}
 
-				{#if parentData?.flagReasons?.length > 0}
+				{#if flagReasons.length > 0}
 					<div class="mb-6">
 						<label
 							for={`flag-reason-${_commentComment?.id}`}
@@ -771,7 +775,7 @@
 								: 'border-slate-600/50 focus:border-purple-500/50'}"
 						>
 							<option value="" disabled selected>Select a reason...</option>
-							{#each parentData.flagReasons as reason}
+							{#each flagReasons as reason}
 								<option value={reason.id}>{reason.reason}</option>
 							{/each}
 						</select>
@@ -835,7 +839,7 @@
 				<button
 					class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl border-none bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[0_0_20px_rgba(239,68,68,0.4)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 					type="submit"
-					disabled={loading || !flaggingReasonId || !parentData?.flagReasons?.length}
+					disabled={loading || !flaggingReasonId || !flagReasons.length}
 					aria-busy={loading}
 				>
 					{#if loading}

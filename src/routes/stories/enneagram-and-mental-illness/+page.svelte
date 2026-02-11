@@ -1,13 +1,13 @@
 <!-- src/routes/stories/enneagram-and-mental-illness/+page.svelte -->
 <!DOCTYPE html>
-<html amp lang="en">
+<html data-amp lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
 		<title>The Enneagram and Mental Illness: Each Type's Predispositions</title>
 		<link rel="canonical" href="https://9takes.com/enneagram-corner/enneagram-and-mental-illness" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 			rel="stylesheet"

@@ -16,16 +16,16 @@
 ## Timestamps
 
 - 00:00 - Intro
-- 00:12 - *Harry Potter and the Goblet of Fire*
-- 02:14 - *Twilight*
-- 05:15 - *The Batman*
-- 10:40 - *Good Time*
-- 13:00 - *The Lighthouse*
-- 17:32 - *Tenet*
-- 18:53 - *Cosmopolis*
-- 20:05 - *High Life*
+- 00:12 - _Harry Potter and the Goblet of Fire_
+- 02:14 - _Twilight_
+- 05:15 - _The Batman_
+- 10:40 - _Good Time_
+- 13:00 - _The Lighthouse_
+- 17:32 - _Tenet_
+- 18:53 - _Cosmopolis_
+- 20:05 - _High Life_
 - 21:51 - GQ Hot Dog Film
-- 22:49 - *The Rover*
+- 22:49 - _The Rover_
 
 ---
 
@@ -50,14 +50,14 @@
 
 ## Parsed Conversation Flow
 
-- Early-career anxiety in *Harry Potter* and his immature idea of "method acting."
-- *Twilight* audition panic, accidental detachment in audition, and overnight fame impact.
-- *The Batman* as grief tragedy, voice/suit technical demands, and studying prior interpretations.
-- Safdie collaboration and instinctive accent work in *Good Time*.
-- *The Lighthouse* as maximal strangeness, period dialect work, and intense Dafoe collaboration.
-- *Tenet* as large-scale concept-action engineering.
-- *Cosmopolis* and *High Life* as formal experiments with highly specific directors.
-- Small absurd promo work (Hot Dog film) and reflections on trust-based directing in *The Rover*.
+- Early-career anxiety in _Harry Potter_ and his immature idea of "method acting."
+- _Twilight_ audition panic, accidental detachment in audition, and overnight fame impact.
+- _The Batman_ as grief tragedy, voice/suit technical demands, and studying prior interpretations.
+- Safdie collaboration and instinctive accent work in _Good Time_.
+- _The Lighthouse_ as maximal strangeness, period dialect work, and intense Dafoe collaboration.
+- _Tenet_ as large-scale concept-action engineering.
+- _Cosmopolis_ and _High Life_ as formal experiments with highly specific directors.
+- Small absurd promo work (Hot Dog film) and reflections on trust-based directing in _The Rover_.
 
 ---
 
@@ -65,7 +65,7 @@
 
 ### 1) Career Strategy: "Reputation Diversification"
 
-Pattinson describes a deliberate balance between globally recognizable IP (*Twilight*, *Batman*) and formal, high-risk auteur films (*Good Time*, *The Lighthouse*, *Cosmopolis*, *High Life*). The pattern is not random. He uses high-visibility projects to preserve optionality, then uses low-predictability projects to prevent type lock.
+Pattinson describes a deliberate balance between globally recognizable IP (_Twilight_, _Batman_) and formal, high-risk auteur films (_Good Time_, _The Lighthouse_, _Cosmopolis_, _High Life_). The pattern is not random. He uses high-visibility projects to preserve optionality, then uses low-predictability projects to prevent type lock.
 
 ### 2) Psychological Pattern: Fear Before Performance
 
@@ -77,7 +77,7 @@ He explicitly resists prestige language around process while still describing ex
 
 ### 4) Batman Interpretation: Grief as Engine
 
-His framing of *The Batman* centers unresolved grief in Year Two rather than heroic clarity. That choice explains tone, posture, vocal register, and relational difficulty. He also treats the character as iterative history: he studied prior Batman performances to find an unexplored lane instead of pretending those versions did not exist.
+His framing of _The Batman_ centers unresolved grief in Year Two rather than heroic clarity. That choice explains tone, posture, vocal register, and relational difficulty. He also treats the character as iterative history: he studied prior Batman performances to find an unexplored lane instead of pretending those versions did not exist.
 
 ### 5) Accent and Voice: Intuition Over Academics
 
@@ -117,13 +117,13 @@ He intentionally undercuts his own mystique. Instead of presenting a controlled 
 
 **Robert Pattinson:** I'm going to talk through some of my iconic performances.
 
-### 00:12 *Harry Potter and the Goblet of Fire*
+### 00:12 _Harry Potter and the Goblet of Fire_
 
 He says Cedric Diggory was his first major-scale set experience and that he felt intimidated by effects-heavy shooting in the maze sequence. He jokes that his "claim to fame" is being the first major death in the franchise. He also says he had a very immature early understanding of acting prep: screaming, physically psyching himself up, and even damaging prosthetics by over-amping.
 
-He also recalls feeling awkward with the wand and trying to hold it "like a gun," as if he were in an action movie. After *Harry Potter*, he says he lived off that money for a while, moved to Soho in London, and briefly believed he could pivot to music before running out of momentum and money.
+He also recalls feeling awkward with the wand and trying to hold it "like a gun," as if he were in an action movie. After _Harry Potter_, he says he lived off that money for a while, moved to Soho in London, and briefly believed he could pivot to music before running out of momentum and money.
 
-### 02:14 *Twilight*
+### 02:14 _Twilight_
 
 He describes audition panic as a recurring issue and says his agent told him to take Valium before the audition. He remembers becoming unusually detached and spacey, which he thinks accidentally fit Edward's tone. He frames the first film as more sincere and emotionally committed than people later gave it credit for.
 
@@ -131,7 +131,7 @@ He also describes conflict between his instinct (play darker, moodier, more "emo
 
 He says online backlash to his casting felt abstract at first; the real life change came right before and after release, when fame accelerated almost overnight.
 
-### 05:15 *The Batman*
+### 05:15 _The Batman_
 
 He says accepting Batman was immediate and that he saw the character as another "freak," not a straightforward hero. His framing: this version is tragic and grief-driven, set in Year Two where Bruce has not metabolized his parents' death. He describes the role as emotionally heavier than expected.
 
@@ -139,27 +139,27 @@ Against advice to ignore prior versions, he re-watched earlier Batman films to i
 
 He also details physical constraints of the suit, including a hot, restrictive audition in an older suit model. He says the suit changes movement and behavior immediately, and that practical design directly affects character expression.
 
-### 10:40 *Good Time*
+### 10:40 _Good Time_
 
 He describes this collaboration as fast, intuitive, and deeply alive. He says the Safdies delivered an early script quickly and that the run-and-gun environment shaped performance choices. He did not attempt a textbook accent; he followed what felt sonically and behaviorally right in the moment.
 
 He calls out specific favorite lines and admires how the script can pivot from emotional intensity to absurd undercut in the same beat.
 
-### 13:00 *The Lighthouse*
+### 13:00 _The Lighthouse_
 
 He says he pursued Eggers because he wanted a project that was maximally strange and unlike anything else. He jokes about trying to position the film as a comedy while acknowledging its darkness. He notes audience laughter surprised him less than people's enthusiasm for the sea shanty texture.
 
 He discusses dialect criticism and says the accent drew from a very specific regional blend. He describes the set as immersive and rehearsals with Willem Dafoe as high-energy and relentless. He highlights the "what?" scene as uniquely memorable script material.
 
-### 17:32 *Tenet*
+### 17:32 _Tenet_
 
-He calls *Tenet* an apocalyptic spy movie with huge conceptual demands. He says audiences can either deeply parse mechanics or experience it as large-scale action. He describes reverse-driving stunt logistics in Estonia as one of the most thrilling and technically unusual experiences of his career.
+He calls _Tenet_ an apocalyptic spy movie with huge conceptual demands. He says audiences can either deeply parse mechanics or experience it as large-scale action. He describes reverse-driving stunt logistics in Estonia as one of the most thrilling and technically unusual experiences of his career.
 
-### 18:53 *Cosmopolis*
+### 18:53 _Cosmopolis_
 
 He frames the film as abstract and destabilizing by design, about a young finance figure unraveling after a threat. He says much of the production happened in a limo environment that felt like a vocal booth. He wanted the film to feel like late-night TV disorientation where viewers are unsure whether they are half-asleep.
 
-### 20:05 *High Life*
+### 20:05 _High Life_
 
 He describes Claire Denis as one of his favorite directors and says her process opened new possibilities for approaching acting and filmmaking. He shares a practical story from production: when originally cast infants would not tolerate him, his friend's daughter was brought in and ended up working well in the role.
 
@@ -167,7 +167,7 @@ He describes Claire Denis as one of his favorite directors and says her process 
 
 He describes the short promo as a fast, absurd concept completed in roughly one to two hours. He presents it as intentional nonsense made for fun rather than as a repeatable format.
 
-### 22:49 *The Rover*
+### 22:49 _The Rover_
 
 He says David Michod's trust was key: when a director sees capacity in you that you do not yet see yourself, it enables real risk. He describes the outback environment as especially immersive and says he could remain in character all day because the production felt physically isolated and tonally coherent.
 

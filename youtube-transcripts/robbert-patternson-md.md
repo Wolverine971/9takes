@@ -10,7 +10,7 @@
 - **YouTube Upload Date**: Nov 21, 2017
 - **Views**: 143,275
 - **Recording Note**: Shot in Los Angeles, November 2017
-- **Primary Topics (expected)**: *Good Time* process, Safdie collaboration, career direction post-*Twilight*, independent film strategy
+- **Primary Topics (expected)**: _Good Time_ process, Safdie collaboration, career direction post-_Twilight_, independent film strategy
 
 ---
 
@@ -27,7 +27,7 @@
 ### What Can Be Analyzed Reliably
 
 1. **Timing context**
-   The interview sits in the immediate *Good Time* release window, which is a pivotal phase in Pattinson's repositioning toward auteur-led independent cinema.
+   The interview sits in the immediate _Good Time_ release window, which is a pivotal phase in Pattinson's repositioning toward auteur-led independent cinema.
 
 2. **Probable interview emphasis**
    DP/30 interviews in this era typically focus on craft choices, role prep, career strategy, and director-actor collaboration rather than short-form press soundbites.

@@ -113,9 +113,9 @@
 		}
 	}
 
-	function selectQuestion(q: { id: number; question: string; url: string }) {
-		question = q.question;
-		questionUrl = `https://9takes.com/questions/${q.url}`;
+	function selectQuestion(q: { id: number; question: string | null; url: string | null }) {
+		question = q.question ?? question;
+		questionUrl = q.url ? `https://9takes.com/questions/${q.url}` : 'https://9takes.com/questions';
 		showQuestionPicker = false;
 	}
 

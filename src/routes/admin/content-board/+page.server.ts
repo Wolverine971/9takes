@@ -12,7 +12,9 @@ type ContentEntry = {
 type ContentType = 'enneagram' | 'community' | 'guides' | 'people';
 type ContentTable = 'content_enneagram' | 'content_community' | 'content_guides' | 'content_people';
 
-export const load: PageServerLoad = async (event): Promise<{
+export const load: PageServerLoad = async (
+	event
+): Promise<{
 	people: App.BlogPost[];
 	enneagram: App.BlogPost[];
 	community: App.BlogPost[];

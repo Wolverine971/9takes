@@ -33,8 +33,7 @@ export const load: PageLoad = async ({ params }) => {
 		.filter((p) => p.published)
 		.filter(
 			(p) =>
-				(post?.metadata.enneagram &&
-					p?.enneagram === Number(post?.metadata.enneagram)) ||
+				(post?.metadata.enneagram && p?.enneagram === Number(post?.metadata.enneagram)) ||
 				(post?.metadata?.type?.[0] && p.type?.includes(post.metadata.type[0]))
 		)
 		.filter((p) => params.slug !== p.slug)

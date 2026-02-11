@@ -7,7 +7,10 @@ import { mapDemoValues } from '../../../utils/demo';
 import type { Database } from '../../../../database.types';
 
 // Helper functions to reduce repetition
-type AdminProfile = Pick<Database['public']['Tables']['profiles']['Row'], 'id' | 'admin' | 'external_id'>;
+type AdminProfile = Pick<
+	Database['public']['Tables']['profiles']['Row'],
+	'id' | 'admin' | 'external_id'
+>;
 type QuestionKeywordRow = Database['public']['Tables']['question_keywords']['Row'];
 
 async function validateAdmin(

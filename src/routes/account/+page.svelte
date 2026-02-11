@@ -8,11 +8,11 @@
 
 	interface AccountData extends PageData {
 		user: {
-			first_name: string;
-			last_name: string;
-			enneagram: string;
+			first_name: string | null;
+			last_name: string | null;
+			enneagram: string | null;
 			email: string;
-			admin: boolean;
+			admin: boolean | null;
 		};
 		subscriptions: Array<{
 			questions: {
