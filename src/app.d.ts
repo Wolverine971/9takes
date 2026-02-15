@@ -63,7 +63,9 @@ declare global {
 			off: (handler: string, callback: (ev: unknown) => void) => void;
 			remove?: () => void;
 		};
+		gtag: (...args: unknown[]) => void;
 		dataLayer?: unknown[];
+		clarity: (...args: unknown[]) => void;
 	}
 
 	namespace svelteHTML {

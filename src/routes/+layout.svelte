@@ -43,13 +43,11 @@
 	let touchStartX = 0;
 	let touchEndX = 0;
 
-	// Types
-	declare global {
-		interface Window {
-			gtag: (...args: any[]) => void;
-			dataLayer: any[];
-			clarity: (...args: any[]) => void;
-		}
+	// Type for category structure passed to CategoryNavigation
+	interface CategoryStep {
+		id: number;
+		category_name: string;
+		level: number;
 	}
 
 	preparePageTransition();
@@ -76,8 +74,8 @@
 			// Initialize Google Tag Manager - deferred loading
 			if (PUBLIC_GOOGLE) {
 				window.dataLayer = window.dataLayer || [];
-				window.gtag = function () {
-					window.dataLayer.push(arguments);
+				window.gtag = function (...args: unknown[]) {
+					window.dataLayer!.push(args);
 				};
 				window.gtag('js', new Date());
 				window.gtag('config', PUBLIC_GOOGLE);
@@ -90,18 +88,17 @@
 
 			// Initialize Microsoft Clarity - deferred
 			if (document.URL.includes('9takes')) {
-				(function (c, l, a, r, i, t, y) {
-					c[a] =
-						c[a] ||
-						function () {
-							(c[a].q = c[a].q || []).push(arguments);
-						};
-					t = l.createElement(r);
-					t.async = 1;
-					t.src = 'https://www.clarity.ms/tag/' + i;
-					y = l.getElementsByTagName(r)[0];
-					y.parentNode.insertBefore(t, y);
-				})(window, document, 'clarity', 'script', 'g3hw5t1scg');
+				window.clarity =
+					window.clarity ||
+					function (...args: unknown[]) {
+						((window.clarity as unknown as { q: unknown[][] }).q =
+							(window.clarity as unknown as { q: unknown[][] }).q || []).push(args);
+					};
+				const clarityScript = document.createElement('script');
+				clarityScript.async = true;
+				clarityScript.src = 'https://www.clarity.ms/tag/g3hw5t1scg';
+				const firstScript = document.getElementsByTagName('script')[0];
+				firstScript?.parentNode?.insertBefore(clarityScript, firstScript);
 			}
 
 			// Initialize Web Vitals
@@ -145,11 +142,11 @@
 	};
 
 	// Handle swipe gestures for navigation with passive event options
-	const handleTouchStart = (e) => {
+	const handleTouchStart = (e: TouchEvent) => {
 		touchStartX = e.changedTouches[0].screenX;
 	};
 
-	const handleTouchEnd = (e) => {
+	const handleTouchEnd = (e: TouchEvent) => {
 		touchEndX = e.changedTouches[0].screenX;
 		handleSwipe();
 	};
@@ -221,7 +218,7 @@
 		updatePageDerivedValues();
 	}
 
-	$: parents = data?.parents ? [...data.parents].slice(0, -1) : [];
+	$: parents = data?.parents ? ([...data.parents].slice(0, -1) as CategoryStep[]) : [];
 </script>
 
 <svelte:head>

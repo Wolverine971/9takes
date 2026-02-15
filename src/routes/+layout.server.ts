@@ -2,7 +2,7 @@
 import type { LayoutServerLoad } from './$types';
 import { logger } from '$lib/utils/logger';
 
-type ParentCategory = { name: string; slug: string };
+type ParentCategory = { id: number; category_name: string; level: number };
 
 export const load: LayoutServerLoad = async (event) => {
 	const { data: adminSettings, error: adminSettingsError } = await event.locals.supabase

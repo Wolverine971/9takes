@@ -8,7 +8,7 @@ interface AnalyticsOptions {
 	params: Record<string, string>;
 	path: string;
 	analyticsId: string;
-	debug: boolean;
+	debug?: boolean;
 }
 
 interface NavigatorWithConnection extends Navigator {
