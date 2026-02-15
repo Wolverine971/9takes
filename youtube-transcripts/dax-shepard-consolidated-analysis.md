@@ -4,9 +4,9 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/dax-sheppard-relapse.md` (Armchair Expert, recorded Sep 21, 2020; uploaded Sep 1, 2024)
-- `youtube-transcripts/dax-shepard-craft-of-podcasting-favorite-books-dancing-with-demons.md` (Tim Ferriss, Nov 18, 2020)
-- `youtube-transcripts/theo-von-dax.md` (This Past Weekend with Theo Von #487, Mar 12, 2024)
+- [dax-shepard-relapse.md](./dax-shepard-relapse.md) (Armchair Expert, recorded Sep 21, 2020; uploaded Sep 1, 2024)
+- [dax-shepard-craft-of-podcasting-favorite-books-dancing-with-demons.md](./dax-shepard-craft-of-podcasting-favorite-books-dancing-with-demons.md) (Tim Ferriss, Nov 18, 2020)
+- [theo-von-dax.md](./theo-von-dax.md) (This Past Weekend with Theo Von #487, Mar 12, 2024)
 
 ---
 

@@ -11,6 +11,11 @@
 - **Views**: 926,845
 - **Topics**: Complex trauma vs. simple trauma, neglect vs. abuse, shame and the inner critic, gaslighting and codependency, trauma and addiction, emotional regulation, inner child / re-parenting, self-compassion and "compassionate inquiry," forgiveness (as a process, not a demand)
 
+## Related
+
+- Raw transcript: [theo-von-therapy.raw.md](./_raw/theo-von-therapy.raw.md)
+- Consolidated analysis: [theo-von-consolidated-analysis.md](./theo-von-consolidated-analysis.md)
+
 ---
 
 ## Outline (Approx.)
@@ -30,7 +35,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: Derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/theo-von-therapy.raw.md).
 > Minimal edits: whitespace cleanup and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved.
 

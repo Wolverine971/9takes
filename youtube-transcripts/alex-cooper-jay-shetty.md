@@ -12,6 +12,11 @@
 - **Format**: Long-form interview (~1 hour 40 minutes)
 - **Primary Topics**: Confidence and insecurity; bullying; content creation; therapy; self-respect; social media boundaries; relationship privacy; purpose and women's rights; values (loyalty, passion, intentionality)
 
+## Related
+
+- Raw transcript: [alex-cooper-jay-shetty.raw.md](./_raw/alex-cooper-jay-shetty.raw.md)
+- Consolidated analysis: [alex-cooper-consolidated-analysis.md](./alex-cooper-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -82,7 +87,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/alex-cooper-jay-shetty.raw.md).
 > Minimal edits: whitespace cleanup, light spelling normalization, and line wrapping for readability.
 > The source contains occasional ASR artifacts and `[ __ ]` redactions; those are preserved where present.
 

@@ -12,6 +12,10 @@
 - **Views**: ~1,294,909
 - **Topics**: Fame and boundary-setting, identity (Chappell vs. Kaye), sexuality and coming out, high school bullying and origin stories behind songs (HOT TO GO, Pink Pony Club, The Giver, My Kink Is Karma), situationship dynamics and relationship patterns, Midwest upbringing, Enneagram self-typing (Type 8), inner child healing, career pressures and the "second puberty" of fame, stalking and security, dating while famous, Catholic guilt and moral identity
 
+## Related
+
+- Consolidated analysis: [chappell-roan-consolidated-analysis.md](./chappell-roan-consolidated-analysis.md)
+
 ---
 
 ## Analysis

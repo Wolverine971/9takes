@@ -9,6 +9,10 @@
 path: youtube-transcripts/shawn-ryan-megyn-kelly.md
 ---
 
+## Related
+
+- Consolidated analysis: [shawn-ryan-consolidated-analysis.md](./shawn-ryan-consolidated-analysis.md)
+
 ## Key Revelations About Shawn Ryan
 
 - **Compartmentalization as survival** — Shawn describes how he and other operators used pills, booze, and sleeping aids to "numb it out" and compartmentalize trauma. He names specific drugs: "Valium, Xanax, Lorazepam, Ambien, Hydrocodone, Oxy, Tramadol... whatever you can just wash down to shut the brain down and get some rest."

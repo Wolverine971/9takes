@@ -9,6 +9,10 @@
 path: youtube-transcripts/jocko-willink-podcast-ep461-father.md
 ---
 
+## Related
+
+- Consolidated analysis: [jocko-willink-consolidated-analysis.md](./jocko-willink-consolidated-analysis.md)
+
 ## Key Revelations About Jocko
 
 - **Intensely competitive about everything** — turned every family gathering into organized "evolutions": buddy carries, sprints, surf drills, ice-chest head-dunking contests, pull-up bar hangs, talent shows, the "river rock" competition

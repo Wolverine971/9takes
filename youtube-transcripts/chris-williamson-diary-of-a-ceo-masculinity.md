@@ -11,6 +11,10 @@
 - **Views**: 4,167,341 views at time of transcript
 - **Topics**: Masculinity crisis, loneliness epidemic, dating apps, hypergamy, the tall girl problem, male sedation hypothesis, confidence building, imposter syndrome, discipline vs. motivation, regret, vulnerability, status games, self-improvement, modern mating dynamics, me too movement consequences, motherhood, involuntary childlessness
 
+## Related
+
+- Consolidated analysis: [chris-williamson-consolidated-analysis.md](./chris-williamson-consolidated-analysis.md)
+
 ---
 
 ## Formatted Transcript

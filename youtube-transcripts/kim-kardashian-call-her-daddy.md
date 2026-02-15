@@ -13,6 +13,10 @@
 - **Primary Topics**: public scrutiny and internet moments, family dynamics, brand-building and operations, co-parenting
   and post-divorce life, dating and boundaries, time management
 
+## Related
+
+- Consolidated analysis: [kim-kardashian-consolidated-analysis.md](./kim-kardashian-consolidated-analysis.md)
+
 ---
 
 ## Core Themes

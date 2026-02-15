@@ -13,6 +13,10 @@
 - **Topics**: Chappell Roan's meteoric rise to fame, parasocial relationships, fan entitlement vs. artist boundaries, the "womaning" cycle of female celebrity, TikTok's impact on the music industry, niche vs. mainstream fame, micro-celebrity psychology, the Britney Spears comparison, celebrity dehumanization, industry plants myth, queer fandom dynamics
 - **Note**: This is third-party commentary about Chappell Roan, not a direct interview with her.
 
+## Related
+
+- Consolidated analysis: [chappell-roan-consolidated-analysis.md](./chappell-roan-consolidated-analysis.md)
+
 ---
 
 ## Analysis

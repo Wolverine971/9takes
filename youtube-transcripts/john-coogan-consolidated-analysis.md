@@ -4,10 +4,10 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/john-coogan-youtube-soylent-launch.md` (YouTube, Mar 4, 2021)
-- `youtube-transcripts/john-coogan-relentless-podcast.md` (Relentless Podcast, Feb 21, 2024)
-- `youtube-transcripts/john-coogan-sourcery-podcast.md` (Sourcery, Jul 24, 2024)
-- `youtube-transcripts/john-coogan-dialectic-podcast.md` (Dialectic Podcast, Nov 17, 2025)
+- [john-coogan-youtube-soylent-launch.md](./john-coogan-youtube-soylent-launch.md) (YouTube, Mar 4, 2021)
+- [john-coogan-relentless-podcast.md](./john-coogan-relentless-podcast.md) (Relentless Podcast, Feb 21, 2024)
+- [john-coogan-sourcery-podcast.md](./john-coogan-sourcery-podcast.md) (Sourcery, Jul 24, 2024)
+- [john-coogan-dialectic-podcast.md](./john-coogan-dialectic-podcast.md) (Dialectic Podcast, Nov 17, 2025)
 
 ---
 

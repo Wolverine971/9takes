@@ -11,6 +11,12 @@
 - **Views**: 1,637,411
 - **Topics**: Michigan truck stops, stepdads and childhood instability, late-night self-sabotage (vaping/porn), cheating and shame, addiction and recovery, "endless shrimp" incentives, acting vs. podcasting identity, Nashville and post-LA life
 
+## Related
+
+- Raw transcript: [theo-von-dax.raw.md](./_raw/theo-von-dax.raw.md)
+- Consolidated analysis: [theo-von-consolidated-analysis.md](./theo-von-consolidated-analysis.md)
+- Consolidated analysis: [dax-shepard-consolidated-analysis.md](./dax-shepard-consolidated-analysis.md)
+
 ---
 
 ## Outline (Approx.)
@@ -31,7 +37,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: Derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/theo-von-dax.raw.md).
 > Minimal edits: whitespace cleanup and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved.
 

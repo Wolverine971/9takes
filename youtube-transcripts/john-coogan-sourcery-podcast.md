@@ -8,6 +8,10 @@
 **Views**: 1,342
 **Format**: Interview podcast
 
+## Related
+
+- Consolidated analysis: [john-coogan-consolidated-analysis.md](./john-coogan-consolidated-analysis.md)
+
 ---
 
 ## Analysis

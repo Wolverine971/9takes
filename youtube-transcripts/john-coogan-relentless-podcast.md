@@ -11,6 +11,10 @@
 | Views  | 248                                                    |
 | Format | Long-form interview (~1 hour)                          |
 
+## Related
+
+- Consolidated analysis: [john-coogan-consolidated-analysis.md](./john-coogan-consolidated-analysis.md)
+
 > This is my conversation with John Coogan -- the founder of Soylent and Lucy. John is also the creator of an incredible YouTube channel where he creates mini-documentaries on startups, founders, and world leaders.
 
 ---

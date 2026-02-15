@@ -8,6 +8,10 @@
 **Views**: 16,196
 **Format**: Solo video essay / mini-documentary
 
+## Related
+
+- Consolidated analysis: [john-coogan-consolidated-analysis.md](./john-coogan-consolidated-analysis.md)
+
 ---
 
 ## Analysis

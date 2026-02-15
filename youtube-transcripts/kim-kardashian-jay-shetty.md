@@ -13,6 +13,10 @@
 - **Primary Topics**: mental health routines and alone time, people-pleasing vs self-trust, compassion and prison reform,
   parenting and presence, letting go of materialism, forgiveness and second chances
 
+## Related
+
+- Consolidated analysis: [kim-kardashian-consolidated-analysis.md](./kim-kardashian-consolidated-analysis.md)
+
 ---
 
 ## Timestamps (As Captured)

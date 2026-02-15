@@ -26,6 +26,10 @@
 - 1:36:24 Be yourself vs choose yourself
 - 1:41:44 Rapid-fire questions
 
+## Related
+
+- Consolidated analysis: [chris-williamson-consolidated-analysis.md](./chris-williamson-consolidated-analysis.md)
+
 ---
 
 ## Analysis

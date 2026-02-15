@@ -4,10 +4,10 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/alex-cooper-friends-arnt-therapists.md` (Call Her Daddy, Dec 7, 2025)
-- `youtube-transcripts/alex-cooper-dax.md` (Armchair Expert, Jun 16, 2025)
-- `youtube-transcripts/alex-cooper-diary-of-ceo.md` (The Diary Of A CEO, Mar 30, 2023)
-- `youtube-transcripts/alex-cooper-jay-shetty.md` (Jay Shetty / On Purpose, Oct 3, 2022)
+- [alex-cooper-friends-arnt-therapists.md](./alex-cooper-friends-arnt-therapists.md) (Call Her Daddy, Dec 7, 2025)
+- [alex-cooper-dax.md](./alex-cooper-dax.md) (Armchair Expert, Jun 16, 2025)
+- [alex-cooper-diary-of-ceo.md](./alex-cooper-diary-of-ceo.md) (The Diary Of A CEO, Mar 30, 2023)
+- [alex-cooper-jay-shetty.md](./alex-cooper-jay-shetty.md) (Jay Shetty / On Purpose, Oct 3, 2022)
 
 ---
 
@@ -27,9 +27,9 @@ That isn't a criticism; it's an explanatory model. The same traits that make her
 
 Therapy shows up in all four episodes, but not as a wellness accessory.
 
-- In `alex-cooper-dax.md`, therapy is discussed as an object of fascination and a craft-learning loop (watching _Couples Therapy_ to study how great facilitators work).
-- In `alex-cooper-diary-of-ceo.md`, therapy is the place she is still processing bullying and people-pleasing, even as she narrates those themes publicly.
-- In `alex-cooper-friends-arnt-therapists.md`, therapy becomes the boundary line: friends are not paid clinicians.
+- In [alex-cooper-dax.md](./alex-cooper-dax.md), therapy is discussed as an object of fascination and a craft-learning loop (watching _Couples Therapy_ to study how great facilitators work).
+- In [alex-cooper-diary-of-ceo.md](./alex-cooper-diary-of-ceo.md), therapy is the place she is still processing bullying and people-pleasing, even as she narrates those themes publicly.
+- In [alex-cooper-friends-arnt-therapists.md](./alex-cooper-friends-arnt-therapists.md), therapy becomes the boundary line: friends are not paid clinicians.
 
 The pattern: **therapy is the language she uses to make life legible, and the container she uses to prevent relationships from becoming purely extractive.**
 
@@ -58,7 +58,7 @@ These transcripts show a different center of gravity:
 - She is consciously adding structure (reading, frameworks, therapist language, explicit boundaries).
 - She keeps the humor and bluntness as the delivery vehicle.
 
-`alex-cooper-friends-arnt-therapists.md` is the clearest example: NYT article + _The Courage to Be Disliked_ become Sunday session content, but the cadence and vocabulary stay CHD.
+[alex-cooper-friends-arnt-therapists.md](./alex-cooper-friends-arnt-therapists.md) is the clearest example: NYT article + _The Courage to Be Disliked_ become Sunday session content, but the cadence and vocabulary stay CHD.
 
 ---
 
@@ -76,8 +76,8 @@ Core positions repeated across episodes:
 
 The business lens in these conversations is consistent:
 
-- In `alex-cooper-diary-of-ceo.md` she explicitly ties growth and deals to IP ownership and hard learning.
-- In `alex-cooper-dax.md` she describes managing celebrity adjacency so she is perceived as professional, not opportunistic.
+- In [alex-cooper-diary-of-ceo.md](./alex-cooper-diary-of-ceo.md) she explicitly ties growth and deals to IP ownership and hard learning.
+- In [alex-cooper-dax.md](./alex-cooper-dax.md) she describes managing celebrity adjacency so she is perceived as professional, not opportunistic.
 
 Her model is: **control the assets (IP), control the access (boundaries), and control the narrative (long-form context).**
 

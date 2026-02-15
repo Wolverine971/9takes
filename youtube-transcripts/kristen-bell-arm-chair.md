@@ -11,6 +11,11 @@
 - **Views**: 26,574
 - **Primary Topics**: conflict-and-repair dynamics, insecurity and control, empathy framing, personality differences in marriage, live fact-check culture
 
+## Related
+
+- Raw transcript: [kristen-bell-arm-chair.raw.md](./_raw/kristen-bell-arm-chair.raw.md)
+- Consolidated analysis: [kristen-bell-consolidated-analysis.md](./kristen-bell-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -75,7 +80,7 @@
 
 ## Transcript (Lightly Cleaned)
 
-> Notes: Minimal cleanup and line wrapping for readability. ASR artifacts like `[ __ ]` are preserved.
+> Notes: Derived from [raw transcript](./_raw/kristen-bell-arm-chair.raw.md). Minimal cleanup and line wrapping for readability. ASR artifacts like `[ __ ]` are preserved.
 
 hello and welcome to armchair expert I am Dak Shepard and today my guest is the lovely Kristen Bell
 she was Ronica Mars Sarah Marshall Princess Anna and she's currently Elanor shellstrop in the good

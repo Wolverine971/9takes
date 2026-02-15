@@ -12,6 +12,11 @@
 - **Format**: Podcast interview (~1.5 hours) + fact check
 - **Primary Topics**: Therapy culture; boundaries; podcasting as craft; Spotify-era overlap; bullying and self-image; professional distance from celebrity; college soccer harassment; systemic failure; Call Her Alex docuseries
 
+## Related
+
+- Raw transcript: [alex-cooper-dax.raw.md](./_raw/alex-cooper-dax.raw.md)
+- Consolidated analysis: [alex-cooper-consolidated-analysis.md](./alex-cooper-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -82,7 +87,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/alex-cooper-dax.raw.md).
 > Minimal edits: whitespace cleanup, light spelling normalization, and line wrapping for readability.
 > The source contains occasional ASR artifacts and `[ __ ]` redactions; those are preserved where present.
 

@@ -4,9 +4,9 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/pete-davidson-marlon.md` (WTF with Marc Maron, 2017 context)
-- `youtube-transcripts/pete-davidson-jon-bernthal.md` (Real Ones with Jon Bernthal, 2023 context)
-- `youtube-transcripts/pete-davidson-theo-von.md` (This Past Weekend with Theo Von, Sep 2025 context)
+- [pete-davidson-marlon.md](./pete-davidson-marlon.md) (WTF with Marc Maron, 2017 context)
+- [pete-davidson-jon-bernthal.md](./pete-davidson-jon-bernthal.md) (Real Ones with Jon Bernthal, 2023 context)
+- [pete-davidson-theo-von.md](./pete-davidson-theo-von.md) (This Past Weekend with Theo Von, Sep 2025 context)
 
 ---
 

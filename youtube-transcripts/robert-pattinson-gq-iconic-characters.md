@@ -1,4 +1,4 @@
-<!-- youtube-transcripts/robert-patterson.md -->
+<!-- youtube-transcripts/robert-pattinson-gq-iconic-characters.md -->
 
 # Robert Pattinson Breaks Down His Most Iconic Characters
 

@@ -6,6 +6,10 @@
 **Speakers**: Jocko Willink, Echo Charles
 **Format**: ~15 min excerpt from the subscriber-only Jocko Underground podcast
 
+## Related
+
+- Consolidated analysis: [jocko-willink-consolidated-analysis.md](./jocko-willink-consolidated-analysis.md)
+
 ---
 
 ## Video Overview

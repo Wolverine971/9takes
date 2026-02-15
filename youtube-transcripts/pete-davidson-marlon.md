@@ -9,6 +9,10 @@
 - **Date**: November 28, 2017
 - **Topics**: Pete Davidson's childhood on Staten Island, losing his father on 9/11, grief and trauma at age 7, bullying and social isolation, America's Camp for 9/11 children, discovery of comedy, Eddie Murphy and Dane Cook influences, Crohn's disease, open mics and early stand-up career, getting on SNL through Bill Hader, meeting Lorne Michaels, borderline personality disorder diagnosis, fear of abandonment, DBT therapy and treatment, relationships, mental health and self-awareness
 
+## Related
+
+- Consolidated analysis: [pete-davidson-consolidated-analysis.md](./pete-davidson-consolidated-analysis.md)
+
 ---
 
 ## Formatted Transcript

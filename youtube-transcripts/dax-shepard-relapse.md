@@ -1,4 +1,4 @@
-<!-- youtube-transcripts/dax-sheppard-relapse.md -->
+<!-- youtube-transcripts/dax-shepard-relapse.md -->
 
 # Day 7 | Armchair Expert with Dax Shepard (Relapse Update)
 
@@ -11,6 +11,10 @@
 - **Recorded Date**: September 21, 2020
 - **Views**: 14,596
 - **Primary Topics**: relapse disclosure, opioid escalation, secrecy and shame, humility and AA, repairing trust
+
+## Related
+
+- Consolidated analysis: [dax-shepard-consolidated-analysis.md](./dax-shepard-consolidated-analysis.md)
 
 ---
 

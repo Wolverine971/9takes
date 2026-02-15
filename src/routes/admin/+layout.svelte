@@ -118,7 +118,7 @@
 		display: none;
 		position: sticky;
 		top: 0;
-		z-index: 50;
+		z-index: 40;
 		background: var(--void-deep);
 		border-bottom: 1px solid var(--void-elevated);
 		padding: 12px 16px;
@@ -201,7 +201,7 @@
 		border-bottom: 1px solid var(--void-elevated);
 		position: sticky;
 		top: 56px;
-		z-index: 45;
+		z-index: 30;
 	}
 
 	.nav-container {
@@ -331,7 +331,7 @@
 	@media (max-width: 768px) {
 		.mobile-header {
 			display: flex;
-			z-index: 50;
+			z-index: 40;
 		}
 
 		.admin-nav {

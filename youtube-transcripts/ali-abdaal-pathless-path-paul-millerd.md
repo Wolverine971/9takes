@@ -27,6 +27,10 @@
   - 51:00 Fame and success
   - 56:45 YouTube Houses & Pomegranate Peelers
 
+## Related
+
+- Consolidated analysis: [ali-abdaal-consolidated-analysis.md](./ali-abdaal-consolidated-analysis.md)
+
 ---
 
 ## Personality Analysis

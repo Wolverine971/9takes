@@ -11,6 +11,11 @@
 - **Format**: Pop-culture podcast episode with personal opener and headline segments
 - **Primary Topics**: Portnoy breakup statement, rumor denial, parasocial pressure, tabloid cycle, creator headlines, platform dynamics
 
+## Related
+
+- Raw transcript: [dave-portnoy-bffs.raw.md](./_raw/dave-portnoy-bffs.raw.md)
+- Consolidated analysis: [dave-portnoy-consolidated-analysis.md](./dave-portnoy-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -102,7 +107,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/dave-portnoy-bffs.raw.md).
 > Minimal edits: spelling normalization, whitespace cleanup, and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved where present.
 

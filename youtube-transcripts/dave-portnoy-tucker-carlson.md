@@ -11,6 +11,11 @@
 - **Format**: Long-form interview
 - **Primary Topics**: Barstool origin story, anti-establishment media strategy, ESPN fallout, cancel culture conflicts, COVID lockdown response, Barstool Fund, gambling expansion, day trading persona, Wall Street critique, Roger Goodell feud
 
+## Related
+
+- Raw transcript: [dave-portnoy-tucker-carlson.raw.md](./_raw/dave-portnoy-tucker-carlson.raw.md)
+- Consolidated analysis: [dave-portnoy-consolidated-analysis.md](./dave-portnoy-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -106,7 +111,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/dave-portnoy-tucker-carlson.raw.md).
 > Minimal edits: spelling normalization, whitespace cleanup, and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved where present.
 

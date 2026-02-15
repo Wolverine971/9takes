@@ -12,6 +12,11 @@
 - **Format**: Long-form interview (~1.5 hours)
 - **Primary Topics**: Childhood influences; bullying and suicidal ideation; content creation as coping; therapy; Call Her Daddy co-host era; people-pleasing; business leverage and IP; Spotify deal; boundaries; fear and cost of public life
 
+## Related
+
+- Raw transcript: [alex-cooper-diary-of-ceo.raw.md](./_raw/alex-cooper-diary-of-ceo.raw.md)
+- Consolidated analysis: [alex-cooper-consolidated-analysis.md](./alex-cooper-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -91,7 +96,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/alex-cooper-diary-of-ceo.raw.md).
 > Minimal edits: whitespace cleanup, light spelling normalization, and line wrapping for readability.
 > The source contains occasional ASR artifacts and `[ __ ]` redactions; those are preserved where present.
 

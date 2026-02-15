@@ -4,11 +4,11 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/joe-rogan-lex-fridman.md` (Lex Fridman Podcast #300, published July 4, 2022)
-- `youtube-transcripts/joe-rogan-sabastion.md` (JRE #2172 - Sebastian Junger, published July 2, 2024)
-- `youtube-transcripts/theo-von-joe-rogan.md` (JRE #1847 - Theo Von, published June 27, 2024)
-- `youtube-transcripts/chris-williamson-joe-rogan.md` (JRE #2293 - Chris Williamson)
-- `youtube-transcripts/shawn-ryan-joe-rogan.md` (JRE #2207 - Shawn Ryan; guest-focused analysis file)
+- [joe-rogan-lex-fridman.md](./joe-rogan-lex-fridman.md) (Lex Fridman Podcast #300, published July 4, 2022)
+- [joe-rogan-sebastian-junger.md](./joe-rogan-sebastian-junger.md) (JRE #2172 - Sebastian Junger, published July 2, 2024)
+- [theo-von-joe-rogan.md](./theo-von-joe-rogan.md) (JRE #1847 - Theo Von, published June 27, 2024)
+- [chris-williamson-joe-rogan.md](./chris-williamson-joe-rogan.md) (JRE #2293 - Chris Williamson)
+- [shawn-ryan-joe-rogan.md](./shawn-ryan-joe-rogan.md) (JRE #2207 - Shawn Ryan; guest-focused analysis file)
 
 ---
 

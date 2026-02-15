@@ -8,6 +8,10 @@
 - **Source**: https://www.youtube.com/watch?v=NxI92Mxpb1s
 - **Topics**: Trauma and PTSD, loss of Pete's father on 9/11, borderline personality disorder, self-harm and recovery, SNL and being the butt of jokes, celebrity dating and public scrutiny, finding happiness, Stallone and movie obsession, Pete's grandfather the bootlegger, Joe Pesci and the new Peacock show, self-deprecating comedy, fear of abandonment, DBT therapy, trust issues, friendship and chosen family, Adam Sandler, The Sopranos
 
+## Related
+
+- Consolidated analysis: [pete-davidson-consolidated-analysis.md](./pete-davidson-consolidated-analysis.md)
+
 ---
 
 ## Formatted Transcript

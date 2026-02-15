@@ -11,6 +11,11 @@
 - **Format**: Long-form political/cultural interview
 - **Primary Topics**: political identity, Trump evaluation, tariffs and market volatility, meme coins, immigration and due process, masculinity and Democratic messaging, free speech vs consequences, media trust, Barstool's audience model
 
+## Related
+
+- Raw transcript: [dave-portnoy-npr.raw.md](./_raw/dave-portnoy-npr.raw.md)
+- Consolidated analysis: [dave-portnoy-consolidated-analysis.md](./dave-portnoy-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -105,7 +110,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/dave-portnoy-npr.raw.md).
 > Minimal edits: spelling normalization, whitespace cleanup, and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved where present.
 

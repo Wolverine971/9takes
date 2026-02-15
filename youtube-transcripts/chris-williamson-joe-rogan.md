@@ -8,6 +8,11 @@
 - **Source**: https://www.youtube.com/watch?v=MjhXtJB_ZbU
 - **Topics**: Flat Earth expedition to Antarctica, pyramids/underground structures at Giza, extremism and performative morality, media landscape and independent vs. legacy media, Elon Musk/DOGE/US Aid, healthcare and medical debt, Ozempic and body positivity, men's issues and education gap, corporate life and type A/B personalities, martial arts and personal growth, AI algorithms and phone addiction, the lonely chapter of self-improvement
 
+## Related
+
+- Consolidated analysis: [chris-williamson-consolidated-analysis.md](./chris-williamson-consolidated-analysis.md)
+- Consolidated analysis: [joe-rogan-consolidated-analysis.md](./joe-rogan-consolidated-analysis.md)
+
 ---
 
 ## Formatted Transcript

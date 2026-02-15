@@ -1661,15 +1661,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Paris-Hilton</loc>
-    <lastmod>2025-04-08T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Paris-Hilton.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Queen-Elizabeth-II</loc>
     <lastmod>2025-04-08T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1712,15 +1703,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Beyonce-Knowles.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Logan-Paul</loc>
-    <lastmod>2025-04-10T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Logan-Paul.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1784,24 +1766,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/5s/Lex-Fridman.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Blake-Lively</loc>
-    <lastmod>2025-05-13T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/1s/Blake-Lively.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Aubrey-Plaza</loc>
-    <lastmod>2025-05-21T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Aubrey-Plaza.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2327,15 +2291,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Malcolm-Gladwell</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/5s/Malcolm-Gladwell.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Marilyn-Monroe</loc>
     <lastmod>2025-12-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2486,15 +2441,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/5s/Cillian-Murphy.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Kylie-Jenner</loc>
-    <lastmod>2026-01-06T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/9s/Kylie-Jenner.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -3128,104 +3074,53 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Aubrey-Plaza</loc>
+    <lastmod>2026-02-11T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Aubrey-Plaza.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Blake-Lively</loc>
+    <lastmod>2026-02-11T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Blake-Lively.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Kylie-Jenner</loc>
+    <lastmod>2026-02-12T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Kylie-Jenner.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Logan-Paul</loc>
+    <lastmod>2026-02-12T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Logan-Paul.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Paris-Hilton</loc>
+    <lastmod>2026-02-12T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Paris-Hilton.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/questions</loc>
     <lastmod>2024-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/how-do-you-hope-people-describe</loc>
-    <lastmod>2023-12-03T03:55:19.005Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/tell-parents-knew-wouldnt-angry-upset</loc>
-    <lastmod>2024-03-07T03:36:23.130Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/what-are-you-doing-for-the-holidays</loc>
-    <lastmod>2023-12-23T18:54:39.734Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/what-were-you-like-as-a-kid-in-3-words</loc>
-    <lastmod>2023-10-21T16:34:54.472Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/i-need-date-ideas</loc>
-    <lastmod>2023-10-12T03:40:26.069Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/what-book-should-i-read-next</loc>
-    <lastmod>2023-12-02T07:09:25.551Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/how-do-you-figure-out-who-is-right</loc>
-    <lastmod>2023-09-02T05:57:30.559Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/why-people-2-phones-trying-find-answer-without-assuming-bf-anything-negative-people</loc>
-    <lastmod>2024-05-06T18:31:18.244Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/technical-skills-worth-knowing-programming</loc>
-    <lastmod>2024-03-31T20:01:17.095Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/where-do-you-get-off</loc>
-    <lastmod>2024-05-05T01:28:19.588Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/if-you-had-to-be-trapped-somewhere-where-would-you-choose</loc>
-    <lastmod>2023-10-21T16:38:34.605Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/whats-your-biggest-fear</loc>
-    <lastmod>2023-12-03T02:55:25.796Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/something-going-change-yourself</loc>
-    <lastmod>2023-12-19T21:25:24.669Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/traits-good-company-embody</loc>
-    <lastmod>2023-11-03T18:07:00.118Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/what-would-it-take-for-you-to-change-your-mind-politically</loc>
-    <lastmod>2024-07-17T20:08:48.094Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/what-is-the-best-part-about-being-out-of-highschool</loc>
-    <lastmod>2023-10-21T16:04:33.539Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -3236,20 +3131,140 @@
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/what-was-your-dream-job-as-a-child</loc>
-    <lastmod>2023-12-03T02:48:49.195Z</lastmod>
+    <loc>https://9takes.com/questions/what-is-the-best-part-about-being-out-of-highschool</loc>
+    <lastmod>2023-10-21T16:04:33.539Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/whats-best-advice-youve-ever-received-business</loc>
-    <lastmod>2024-06-14T22:38:37.282Z</lastmod>
+    <loc>https://9takes.com/questions/what-are-you-doing-for-the-holidays</loc>
+    <lastmod>2023-12-23T18:54:39.734Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/what-is-something-you-would-change-about-yourself</loc>
-    <lastmod>2023-12-03T07:27:55.742Z</lastmod>
+    <loc>https://9takes.com/questions/what-would-it-take-for-you-to-change-your-mind-politically</loc>
+    <lastmod>2024-07-17T20:08:48.094Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/i-need-date-ideas</loc>
+    <lastmod>2023-10-12T03:40:26.069Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/why-people-2-phones-trying-find-answer-without-assuming-bf-anything-negative-people</loc>
+    <lastmod>2024-05-06T18:31:18.244Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/where-do-you-get-off</loc>
+    <lastmod>2024-05-05T01:28:19.588Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/technical-skills-worth-knowing-programming</loc>
+    <lastmod>2024-03-31T20:01:17.095Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/how-do-you-figure-out-who-is-right</loc>
+    <lastmod>2023-09-02T05:57:30.559Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/something-going-change-yourself</loc>
+    <lastmod>2023-12-19T21:25:24.669Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/how-do-you-hope-people-describe</loc>
+    <lastmod>2023-12-03T03:55:19.005Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/whats-your-biggest-fear</loc>
+    <lastmod>2023-12-03T02:55:25.796Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/tell-parents-knew-wouldnt-angry-upset</loc>
+    <lastmod>2024-03-07T03:36:23.130Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/what-book-should-i-read-next</loc>
+    <lastmod>2023-12-02T07:09:25.551Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/traits-good-company-embody</loc>
+    <lastmod>2023-11-03T18:07:00.118Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/if-you-had-to-be-trapped-somewhere-where-would-you-choose</loc>
+    <lastmod>2023-10-21T16:38:34.605Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/what-were-you-like-as-a-kid-in-3-words</loc>
+    <lastmod>2023-10-21T16:34:54.472Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/what-are-the-problems-with-social-media</loc>
+    <lastmod>2023-12-03T02:30:02.475Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/what-are-you-afraid-to-tell-to-your-partner</loc>
+    <lastmod>2024-03-22T05:26:40.426Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/longest-stayed-awake-working-project-passionate-9</loc>
+    <lastmod>2023-12-02T05:54:17.573Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/one-best-times-life</loc>
+    <lastmod>2023-12-21T21:45:54.270Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/main-fear-trump-getting-elected</loc>
+    <lastmod>2024-09-06T04:43:10.762Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/who-do-you-look-up-to-and-why</loc>
+    <lastmod>2023-10-21T04:33:19.021Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/will-kamala-harris-good-president</loc>
+    <lastmod>2024-07-24T05:06:09.801Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -3260,8 +3275,8 @@
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/main-fear-trump-getting-elected</loc>
-    <lastmod>2024-09-06T04:43:10.762Z</lastmod>
+    <loc>https://9takes.com/questions/whats-best-advice-youve-ever-received-business</loc>
+    <lastmod>2024-06-14T22:38:37.282Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -3278,20 +3293,38 @@
     <priority>0.7</priority>
 </url>
 <url>
+    <loc>https://9takes.com/questions/typically-handle-disagreements-close-friends-family</loc>
+    <lastmod>2024-09-15T04:02:42.353Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/change-something-yourself-change</loc>
+    <lastmod>2024-05-13T06:02:04.673Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/what-is-something-you-would-change-about-yourself</loc>
+    <lastmod>2023-12-03T07:27:55.742Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/what-was-your-dream-job-as-a-child</loc>
+    <lastmod>2023-12-03T02:48:49.195Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
     <loc>https://9takes.com/questions/what-are-the-problems-of-each-political-party</loc>
     <lastmod>2024-05-06T17:20:38.497Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/what-are-you-afraid-to-tell-to-your-partner</loc>
-    <lastmod>2024-03-22T05:26:40.426Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/typically-handle-disagreements-close-friends-family</loc>
-    <lastmod>2024-09-15T04:02:42.353Z</lastmod>
+    <loc>https://9takes.com/questions/valueable-when-searching-community</loc>
+    <lastmod>2024-05-05T01:17:40.571Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -3308,56 +3341,8 @@
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/one-best-times-life</loc>
-    <lastmod>2023-12-21T21:45:54.270Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/who-do-you-look-up-to-and-why</loc>
-    <lastmod>2023-10-21T04:33:19.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/valueable-when-searching-community</loc>
-    <lastmod>2024-05-05T01:17:40.571Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
     <loc>https://9takes.com/questions/what-are-you-thinking-about-these-days</loc>
     <lastmod>2023-09-22T05:23:03.858Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/will-kamala-harris-good-president</loc>
-    <lastmod>2024-07-24T05:06:09.801Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/change-something-yourself-change</loc>
-    <lastmod>2024-05-13T06:02:04.673Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/what-are-the-problems-with-social-media</loc>
-    <lastmod>2023-12-03T02:30:02.475Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/longest-stayed-awake-working-project-passionate-9</loc>
-    <lastmod>2023-12-02T05:54:17.573Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/questions/whats-biggest-lesson-youve-learned-year-2024</loc>
-    <lastmod>2024-06-14T22:43:44.077Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -3376,6 +3361,12 @@
 <url>
     <loc>https://9takes.com/questions/single-people-not-understand-married-people</loc>
     <lastmod>2024-09-09T16:47:18.219Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/whats-biggest-lesson-youve-learned-year-2024</loc>
+    <lastmod>2024-06-14T22:43:44.077Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>

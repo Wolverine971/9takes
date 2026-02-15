@@ -1,4 +1,4 @@
-<!-- youtube-transcripts/joe-rogan-sabastion.md -->
+<!-- youtube-transcripts/joe-rogan-sebastian-junger.md -->
 
 # Joe Rogan Experience #2172 - Sebastian Junger
 
@@ -14,11 +14,16 @@
   experience (aneurysm/internal bleeding), afterlife/NDE evidence vs neuroscience, religion and meaning, aggression and
   evolutionary psychology
 
+## Related
+
+- Raw transcript: [joe-rogan-sebastian-junger.raw.md](./_raw/joe-rogan-sebastian-junger.raw.md)
+- Consolidated analysis: [joe-rogan-consolidated-analysis.md](./joe-rogan-consolidated-analysis.md)
+
 ---
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/joe-rogan-sabastion.raw.md`.
+> Notes: Derived from [raw transcript](./_raw/joe-rogan-sebastian-junger.raw.md).
 > Minimal edits: whitespace cleanup + line wrapping for readability.
 > This transcript dump does not include consistent speaker labels; attribution is only added in the analysis where the
 > speaker is unambiguous.

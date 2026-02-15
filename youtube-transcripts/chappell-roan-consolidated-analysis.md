@@ -4,8 +4,8 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/chappell-roan-call-her-daddy.md` (Call Her Daddy interview, Mar 25, 2025)
-- `youtube-transcripts/chappell-roan-a-bit-fruity-matt-bernstein.md` (A Bit Fruity commentary episode, Sep 12, 2024)
+- [chappell-roan-call-her-daddy.md](./chappell-roan-call-her-daddy.md) (Call Her Daddy interview, Mar 25, 2025)
+- [chappell-roan-a-bit-fruity-matt-bernstein.md](./chappell-roan-a-bit-fruity-matt-bernstein.md) (A Bit Fruity commentary episode, Sep 12, 2024)
 
 ---
 

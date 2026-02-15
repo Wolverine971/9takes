@@ -673,7 +673,7 @@
 		font-size: 0.875rem;
 		line-height: 1.4;
 		max-width: 200px;
-		z-index: 50;
+		z-index: 40;
 		max-height: 70vh;
 		overflow-y: auto;
 		overflow-x: hidden;

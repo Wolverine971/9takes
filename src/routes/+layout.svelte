@@ -261,7 +261,7 @@
 			Skip to main content
 		</a>
 		<FloatingParticles />
-		<div class="sticky top-0 z-20 transform transition-transform duration-300 ease-in-out">
+		<div class="sticky top-0 z-50 transform transition-transform duration-300 ease-in-out">
 			<Header {data} />
 		</div>
 		<Toast />

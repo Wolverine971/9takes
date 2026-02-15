@@ -9,6 +9,10 @@
 path: youtube-transcripts/jocko-willink-podcast-ep500-choose-to-live.md
 ---
 
+## Related
+
+- Consolidated analysis: [jocko-willink-consolidated-analysis.md](./jocko-willink-consolidated-analysis.md)
+
 ## Video Overview
 
 Episode 500, recorded live in Chicago. Jocko hints this may mark a format shift: "I'm not sure what we're going to do next. Maybe there'll be some more podcasting. Maybe some different forms of it." This is not a book review or guest interview — it's Jocko laying bare his emotional world, war experiences, and philosophy of life. Seth Stone's mother Debbie is in the balcony.

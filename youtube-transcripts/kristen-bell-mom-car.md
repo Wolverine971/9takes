@@ -12,6 +12,11 @@
 - **Views**: 242,025
 - **Primary Topics**: lifestyle preferences, friendship origin stories, empty nest transition, relationship values, moral dilemma framing
 
+## Related
+
+- Raw transcript: [kristen-bell-mom-car.raw.md](./_raw/kristen-bell-mom-car.raw.md)
+- Consolidated analysis: [kristen-bell-consolidated-analysis.md](./kristen-bell-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -75,7 +80,7 @@
 
 ## Transcript (Lightly Cleaned)
 
-> Notes: Minimal cleanup and line wrapping for readability. The `>>` interruptions are preserved.
+> Notes: Derived from [raw transcript](./_raw/kristen-bell-mom-car.raw.md). Minimal cleanup and line wrapping for readability. The `>>` interruptions are preserved.
 
 Hello and welcome to Mom's Car. Not my mom's car, but my children's mom's car. Today we have very
 fittingly as she was the first guest ever on Armchair Expert, my beloved wife, the queen of all

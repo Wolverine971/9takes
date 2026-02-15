@@ -4,9 +4,9 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/kim-kardashian-angie-martinez.md` (Angie Martinez IRL, Dec 26, 2022)
-- `youtube-transcripts/kim-kardashian-jay-shetty.md` (On Purpose with Jay Shetty, May 22, 2023)
-- `youtube-transcripts/kim-kardashian-call-her-daddy.md` (Call Her Daddy, Oct 15, 2025)
+- [kim-kardashian-angie-martinez.md](./kim-kardashian-angie-martinez.md) (Angie Martinez IRL, Dec 26, 2022)
+- [kim-kardashian-jay-shetty.md](./kim-kardashian-jay-shetty.md) (On Purpose with Jay Shetty, May 22, 2023)
+- [kim-kardashian-call-her-daddy.md](./kim-kardashian-call-her-daddy.md) (Call Her Daddy, Oct 15, 2025)
 
 ---
 

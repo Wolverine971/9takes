@@ -1,4 +1,4 @@
-<!-- youtube-transcripts/_raw/joe-rogan-sabastion.raw.md -->
+<!-- youtube-transcripts/_raw/joe-rogan-sebastian-junger.raw.md -->
 
 https://www.youtube.com/watch?v=LmRrJUHvk-M
 

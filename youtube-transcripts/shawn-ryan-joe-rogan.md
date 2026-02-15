@@ -9,6 +9,11 @@
 path: youtube-transcripts/shawn-ryan-joe-rogan.md
 ---
 
+## Related
+
+- Consolidated analysis: [shawn-ryan-consolidated-analysis.md](./shawn-ryan-consolidated-analysis.md)
+- Consolidated analysis: [joe-rogan-consolidated-analysis.md](./joe-rogan-consolidated-analysis.md)
+
 ## Key Revelations About Shawn Ryan
 
 - **Relentless Research and Investigation** -- Shawn describes going down to the border with Ed Calderone, traveling to Vienna to meet Afghan resistance leader Ahmad Massoud, and spending years investigating government corruption. He does not casually approach any topic; he systematically researches it before forming opinions. "I just keep going down the rabbit hole."

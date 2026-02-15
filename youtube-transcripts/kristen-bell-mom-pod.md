@@ -12,6 +12,11 @@
 - **Views**: 1,386
 - **Primary Topics**: music education access, regulation through rhythm, friendship/village design, parenting tools, Do Re & Mi
 
+## Related
+
+- Raw transcript: [kristen-bell-mom-pod.raw.md](./_raw/kristen-bell-mom-pod.raw.md)
+- Consolidated analysis: [kristen-bell-consolidated-analysis.md](./kristen-bell-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -75,7 +80,7 @@
 
 ## Transcript (Lightly Cleaned)
 
-> Notes: Minimal cleanup and line wrapping for readability. ASR artifacts like `[ __ ]` are preserved.
+> Notes: Derived from [raw transcript](./_raw/kristen-bell-mom-pod.raw.md). Minimal cleanup and line wrapping for readability. ASR artifacts like `[ __ ]` are preserved.
 
 my kid is having a tantrum i will literally hand her an object and say can i have it while she's
 crying and then take it back hand it to her can i have that back and then all of a sudden we're

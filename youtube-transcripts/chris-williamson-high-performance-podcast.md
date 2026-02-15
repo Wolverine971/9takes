@@ -11,6 +11,10 @@
 - **Views**: 62,831
 - **Topics**: High performance, masculinity crisis, self-validation, Love Island, Modern Wisdom podcast origins, intentionalism vs. agency, male mental health, body dysmorphia, Neutonic drink, mastery and quality obsession, leadership, finding play in work
 
+## Related
+
+- Consolidated analysis: [chris-williamson-consolidated-analysis.md](./chris-williamson-consolidated-analysis.md)
+
 ---
 
 ## Formatted Transcript

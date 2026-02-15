@@ -1,4 +1,4 @@
-<!-- youtube-transcripts/robbert-patternson-md.md -->
+<!-- youtube-transcripts/robert-pattinson-dp30-good-time.md -->
 
 # DP/30: Good Time, Rob Pattinson
 

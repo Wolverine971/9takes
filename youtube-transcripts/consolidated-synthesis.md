@@ -11,19 +11,20 @@ This document is the cross-folder synthesis: what repeats, what rhymes, and what
 
 If you want “one per cluster,” these are the highest-leverage consolidated files in this folder:
 
-- `youtube-transcripts/theo-von-consolidated-analysis.md` (shame, trauma, interviewing style, “sad-clown precision”)
-- `youtube-transcripts/dax-shepard-consolidated-analysis.md` (recovery, truth vs secrecy, podcasting as craft)
-- `youtube-transcripts/pete-davidson-consolidated-analysis.md` (grief, BPD loops, sobriety and fatherhood)
-- `youtube-transcripts/chris-williamson-consolidated-analysis.md` (high performance, masculinity/dating systems, meaning)
-- `youtube-transcripts/jocko-willink-consolidated-analysis.md` (discipline, leadership, accountability)
-- `youtube-transcripts/shawn-ryan-consolidated-analysis.md` (Type 5 knowledge-drive, trauma/addiction, moral reckoning)
-- `youtube-transcripts/joe-rogan-consolidated-analysis.md` (body-first mental health, incentives skepticism, long-form method)
-- `youtube-transcripts/dave-portnoy-consolidated-analysis.md` (incentives/distribution, conflict as brand engine)
-- `youtube-transcripts/john-coogan-consolidated-analysis.md` (consumer/moats, content as compounding loop)
-- `youtube-transcripts/kim-kardashian-consolidated-analysis.md` (composure as operations, peace engineering, co-parenting)
-- `youtube-transcripts/alex-cooper-consolidated-analysis.md` (therapy/boundaries/control, producer identity)
-- `youtube-transcripts/ali-abdaal-consolidated-analysis.md` (prestige tension, optimization mind, teaching identity)
-- `youtube-transcripts/chappell-roan-consolidated-analysis.md` (parasocial boundaries, moral anxiety, fame system)
+- [theo-von-consolidated-analysis.md](./theo-von-consolidated-analysis.md) (shame, trauma, interviewing style, “sad-clown precision”)
+- [dax-shepard-consolidated-analysis.md](./dax-shepard-consolidated-analysis.md) (recovery, truth vs secrecy, podcasting as craft)
+- [pete-davidson-consolidated-analysis.md](./pete-davidson-consolidated-analysis.md) (grief, BPD loops, sobriety and fatherhood)
+- [chris-williamson-consolidated-analysis.md](./chris-williamson-consolidated-analysis.md) (high performance, masculinity/dating systems, meaning)
+- [jocko-willink-consolidated-analysis.md](./jocko-willink-consolidated-analysis.md) (discipline, leadership, accountability)
+- [shawn-ryan-consolidated-analysis.md](./shawn-ryan-consolidated-analysis.md) (Type 5 knowledge-drive, trauma/addiction, moral reckoning)
+- [joe-rogan-consolidated-analysis.md](./joe-rogan-consolidated-analysis.md) (body-first mental health, incentives skepticism, long-form method)
+- [dave-portnoy-consolidated-analysis.md](./dave-portnoy-consolidated-analysis.md) (incentives/distribution, conflict as brand engine)
+- [john-coogan-consolidated-analysis.md](./john-coogan-consolidated-analysis.md) (consumer/moats, content as compounding loop)
+- [kim-kardashian-consolidated-analysis.md](./kim-kardashian-consolidated-analysis.md) (composure as operations, peace engineering, co-parenting)
+- [jacob-elordi-consolidated-analysis.md](./jacob-elordi-consolidated-analysis.md) (director apprenticeship, craft method, pacing under fame)
+- [alex-cooper-consolidated-analysis.md](./alex-cooper-consolidated-analysis.md) (therapy/boundaries/control, producer identity)
+- [ali-abdaal-consolidated-analysis.md](./ali-abdaal-consolidated-analysis.md) (prestige tension, optimization mind, teaching identity)
+- [chappell-roan-consolidated-analysis.md](./chappell-roan-consolidated-analysis.md) (parasocial boundaries, moral anxiety, fame system)
 
 ---
 

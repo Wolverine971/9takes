@@ -4,12 +4,12 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/kristen-bell-rob-1.md` (The RobCast #226, Nov 23, 2019)
-- `youtube-transcripts/kristen-bell-rob-2.md` (The RobCast #227, Nov 24, 2019)
-- `youtube-transcripts/kristen-bell-jay-shetty.md` (On Purpose Podcast, Oct 5, 2020)
-- `youtube-transcripts/kristen-bell-mom-pod.md` (The Motherly Podcast, Sep 16, 2021)
-- `youtube-transcripts/kristen-bell-arm-chair.md` (Armchair Expert, uploaded Sep 1, 2024)
-- `youtube-transcripts/kristen-bell-mom-car.md` (Mom's Car with Dax & BFAW, Aug 26, 2025)
+- [kristen-bell-rob-1.md](./kristen-bell-rob-1.md) (The RobCast #226, Nov 23, 2019)
+- [kristen-bell-rob-2.md](./kristen-bell-rob-2.md) (The RobCast #227, Nov 24, 2019)
+- [kristen-bell-jay-shetty.md](./kristen-bell-jay-shetty.md) (On Purpose Podcast, Oct 5, 2020)
+- [kristen-bell-mom-pod.md](./kristen-bell-mom-pod.md) (The Motherly Podcast, Sep 16, 2021)
+- [kristen-bell-arm-chair.md](./kristen-bell-arm-chair.md) (Armchair Expert, uploaded Sep 1, 2024)
+- [kristen-bell-mom-car.md](./kristen-bell-mom-car.md) (Mom's Car with Dax & BFAW, Aug 26, 2025)
 
 ---
 

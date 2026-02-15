@@ -11,6 +11,11 @@
 - **Views**: 4,692
 - **Primary Topics**: anxiety framing, sensitive temperament, panic/shame loops, sympathetic vs parasympathetic states, body-based regulation tools
 
+## Related
+
+- Raw transcript: [kristen-bell-rob-1.raw.md](./_raw/kristen-bell-rob-1.raw.md)
+- Consolidated analysis: [kristen-bell-consolidated-analysis.md](./kristen-bell-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -75,7 +80,7 @@
 
 ## Transcript (Lightly Cleaned)
 
-> Notes: Minimal cleanup and line wrapping for readability. ASR artifacts like `[ __ ]` are preserved.
+> Notes: Derived from [raw transcript](./_raw/kristen-bell-rob-1.raw.md). Minimal cleanup and line wrapping for readability. ASR artifacts like `[ __ ]` are preserved.
 
 hello my friends and welcome to another rob cast this one I'm telling you Kristen Bell is in the
 house in my house oh yeah Kristen Bell is in her house so we are set up at the kitchen table and oh

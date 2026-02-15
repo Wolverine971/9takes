@@ -6,6 +6,10 @@
 **Speakers**: Jocko Willink, Echo Charles, Carrie ("K Dog")
 **Format**: ~15 min comedic argument segment from the Jocko Podcast
 
+## Related
+
+- Consolidated analysis: [jocko-willink-consolidated-analysis.md](./jocko-willink-consolidated-analysis.md)
+
 ---
 
 ## Video Overview

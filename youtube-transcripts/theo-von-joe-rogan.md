@@ -13,6 +13,12 @@
   incentives, guns/red dots and mass-shooting discourse, psychedelics and creativity, comedy craft and writing new material,
   homophobia and freedom, Austin/Nashville vs. Hollywood
 
+## Related
+
+- Raw transcript: [theo-von-joe-rogan.raw.md](./_raw/theo-von-joe-rogan.raw.md)
+- Consolidated analysis: [theo-von-consolidated-analysis.md](./theo-von-consolidated-analysis.md)
+- Consolidated analysis: [joe-rogan-consolidated-analysis.md](./joe-rogan-consolidated-analysis.md)
+
 ---
 
 ## Outline (Approx.)
@@ -33,7 +39,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: Derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/theo-von-joe-rogan.raw.md).
 > Minimal edits: whitespace cleanup and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved.
 

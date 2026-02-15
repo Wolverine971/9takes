@@ -11,6 +11,10 @@
 | **Views**  | 3,064                                                                      |
 | **Format** | 3-person interview podcast (Jackson interviewing John and Jordi)           |
 
+## Related
+
+- Consolidated analysis: [john-coogan-consolidated-analysis.md](./john-coogan-consolidated-analysis.md)
+
 ---
 
 ## Analysis

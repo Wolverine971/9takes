@@ -8,12 +8,12 @@ Analyzed 4 transcripts for personality insights to support the Enneagram Type 5 
 
 ## Summary of Sources
 
-| File                          | Video Title                                                                           | Length     | Key Value                                                                                         |
-| ----------------------------- | ------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------- |
-| shawn-ryan-gary-brecka.md     | Beating Addiction, Military Industrial Complex, Trump Presidency (TUH #113)           | ~2 hours   | Addiction arc, identity crisis, psychedelic healing, forensic self-analysis                       |
-| shawn-ryan-joe-rogan.md       | JRE #2207 - Shawn Ryan                                                                | ~3+ hours  | Deepest addiction details, moral reckoning, podcast origin, investigative journalism              |
-| shawn-ryan-megyn-kelly.md     | Physical and Emotional Toll of War, Military-Industrial Complex, and Real Life Angels | ~2 hours   | Chronological life narrative, Colombia deep-dive, therapy-to-interviewing pipeline, faith journey |
-| shawn-ryan-warrior-for-God.md | The Guardian Angel Who Guided Me to Become a Warrior for God (SRS #63)                | ~1.5 hours | Most psychologically raw, emotional collapse, spiritual awakening, faith conversion               |
+| File                                                             | Video Title                                                                           | Length     | Key Value                                                                                         |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------- |
+| [shawn-ryan-gary-brecka.md](./shawn-ryan-gary-brecka.md)         | Beating Addiction, Military Industrial Complex, Trump Presidency (TUH #113)           | ~2 hours   | Addiction arc, identity crisis, psychedelic healing, forensic self-analysis                       |
+| [shawn-ryan-joe-rogan.md](./shawn-ryan-joe-rogan.md)             | JRE #2207 - Shawn Ryan                                                                | ~3+ hours  | Deepest addiction details, moral reckoning, podcast origin, investigative journalism              |
+| [shawn-ryan-megyn-kelly.md](./shawn-ryan-megyn-kelly.md)         | Physical and Emotional Toll of War, Military-Industrial Complex, and Real Life Angels | ~2 hours   | Chronological life narrative, Colombia deep-dive, therapy-to-interviewing pipeline, faith journey |
+| [shawn-ryan-warrior-for-god.md](./shawn-ryan-warrior-for-god.md) | The Guardian Angel Who Guided Me to Become a Warrior for God (SRS #63)                | ~1.5 hours | Most psychologically raw, emotional collapse, spiritual awakening, faith conversion               |
 
 ---
 

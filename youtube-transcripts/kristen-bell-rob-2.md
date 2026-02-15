@@ -11,6 +11,11 @@
 - **Views**: 4,239
 - **Primary Topics**: anxiety map step 2, remedy box design, meditation and neuroplasticity, return practices, expressive writing as intervention
 
+## Related
+
+- Raw transcript: [kristen-bell-rob-2.raw.md](./_raw/kristen-bell-rob-2.raw.md)
+- Consolidated analysis: [kristen-bell-consolidated-analysis.md](./kristen-bell-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -80,7 +85,7 @@
 
 ## Transcript (Lightly Cleaned)
 
-> Notes: Minimal cleanup and line wrapping for readability. ASR artifacts like `[ __ ]` are preserved.
+> Notes: Derived from [raw transcript](./_raw/kristen-bell-rob-2.raw.md). Minimal cleanup and line wrapping for readability. ASR artifacts like `[ __ ]` are preserved.
 
 hello my friends and welcome to another episode of the rob cast and this one is part two with
 Kristen Bell Kristen Bell is in the house at the table it it is her house so that's not that's

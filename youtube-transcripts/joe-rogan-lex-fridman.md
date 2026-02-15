@@ -12,6 +12,11 @@
 - **Primary Topics**: Discipline, controversy/cancel culture, UFOs and aliens, intelligence agencies, trust, comedy craft,
   childhood, advice for young people, relationships, Putin/Ukraine/Russia
 
+## Related
+
+- Raw transcript: [joe-rogan-lex-fridman.raw.md](./_raw/joe-rogan-lex-fridman.raw.md)
+- Consolidated analysis: [joe-rogan-consolidated-analysis.md](./joe-rogan-consolidated-analysis.md)
+
 ## Episode Outline (From Video Description)
 
 - 0:00 - Introduction
@@ -30,7 +35,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/joe-rogan-lex-fridman.raw.md`.
+> Notes: Derived from [raw transcript](./_raw/joe-rogan-lex-fridman.raw.md).
 > Minimal edits: whitespace cleanup; converted the transcript's `-` separators into paragraph breaks; kept ASR artifacts.
 
 The following is a conversation with Joe Rogan, his second time on this podcast. He has inspired me

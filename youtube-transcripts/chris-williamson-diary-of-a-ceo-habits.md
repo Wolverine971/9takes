@@ -10,6 +10,10 @@
 - **Views**: 2,404,798 (as of Dec 29, 2025)
 - **Topics**: New Year's resolutions, goal setting, procrastination, productivity, habits, alcohol, dating, masculinity, loneliness, mental health, UK vs US culture, population decline, finding purpose, mold illness recovery
 
+## Related
+
+- Consolidated analysis: [chris-williamson-consolidated-analysis.md](./chris-williamson-consolidated-analysis.md)
+
 ---
 
 ## Chapter Timestamps

@@ -22,6 +22,10 @@
   - 47:07 Updates on VoicePal and SaaS Entrepreneurship
   - 53:28 Book Recommendation: 'The Two Cultures' by C.P. Snow
 
+## Related
+
+- Consolidated analysis: [ali-abdaal-consolidated-analysis.md](./ali-abdaal-consolidated-analysis.md)
+
 ---
 
 ## Personality Analysis

@@ -12,6 +12,10 @@
 - **Views**: 50,876
 - **Primary Topics**: role-pivot fatigue, parenting under quarantine, codependency and boundaries, anti-polarization values, purpose-driven business design
 
+## Related
+
+- Consolidated analysis: [kristen-bell-consolidated-analysis.md](./kristen-bell-consolidated-analysis.md)
+
 ---
 
 ## Timestamps (As Captured)

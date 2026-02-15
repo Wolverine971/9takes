@@ -4,10 +4,10 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/dave-portnoy-all-in.md` (All-In Podcast, Sep 17, 2024)
-- `youtube-transcripts/dave-portnoy-bffs.md` (BFFs, Nov 29, 2023)
-- `youtube-transcripts/dave-portnoy-npr.md` (NPR Morning Edition, Jun 9, 2025)
-- `youtube-transcripts/dave-portnoy-tucker-carlson.md` (Tucker Carlson Today interview period ~May 2021)
+- [dave-portnoy-all-in.md](./dave-portnoy-all-in.md) (All-In Podcast, Sep 17, 2024)
+- [dave-portnoy-bffs.md](./dave-portnoy-bffs.md) (BFFs, Nov 29, 2023)
+- [dave-portnoy-npr.md](./dave-portnoy-npr.md) (NPR Morning Edition, Jun 9, 2025)
+- [dave-portnoy-tucker-carlson.md](./dave-portnoy-tucker-carlson.md) (Tucker Carlson Today interview period ~May 2021)
 
 ---
 

@@ -753,7 +753,7 @@
 	.loading-overlay {
 		position: fixed;
 		inset: 0;
-		z-index: 50;
+		z-index: 100;
 		display: flex;
 		align-items: center;
 		justify-content: center;

@@ -9,6 +9,10 @@
 path: youtube-transcripts/shawn-ryan-gary-brecka.md
 ---
 
+## Related
+
+- Consolidated analysis: [shawn-ryan-consolidated-analysis.md](./shawn-ryan-consolidated-analysis.md)
+
 ## Key Revelations About Shawn Ryan
 
 - **Knowledge as survival instinct** — Shawn identified that his CIA compound in Afghanistan was "time and place predictable" before anyone else did. He warned leadership, was ignored, and the compound was attacked by 100+ Taliban fighters the next morning. His analytical pattern-recognition kept him alive.

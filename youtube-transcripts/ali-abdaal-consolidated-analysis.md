@@ -4,9 +4,9 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/ali-abdaal-pathless-path-paul-millerd.md` (The Pathless Path, May 3, 2021)
-- `youtube-transcripts/ali-abdaal-diary-of-a-ceo-steven-bartlett.md` (The Diary Of A CEO, Aug 16, 2021)
-- `youtube-transcripts/ali-abdaal-not-overthinking-marriage-burning-man.md` (Not Overthinking, Sep 10, 2024)
+- [ali-abdaal-pathless-path-paul-millerd.md](./ali-abdaal-pathless-path-paul-millerd.md) (The Pathless Path, May 3, 2021)
+- [ali-abdaal-diary-of-a-ceo-steven-bartlett.md](./ali-abdaal-diary-of-a-ceo-steven-bartlett.md) (The Diary Of A CEO, Aug 16, 2021)
+- [ali-abdaal-not-overthinking-marriage-burning-man.md](./ali-abdaal-not-overthinking-marriage-burning-man.md) (Not Overthinking, Sep 10, 2024)
 
 ---
 

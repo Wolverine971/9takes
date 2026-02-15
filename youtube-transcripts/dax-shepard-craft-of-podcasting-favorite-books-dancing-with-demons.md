@@ -79,6 +79,10 @@ path: youtube-transcripts/dax-shepard-craft-of-podcasting-favorite-books-dancing
 - **Duration**: 1:40:15
 - **Upload Date**: 2020-11-18
 
+## Related
+
+- Consolidated analysis: [dax-shepard-consolidated-analysis.md](./dax-shepard-consolidated-analysis.md)
+
 ## Timestamps
 
 - 00:00 - Start

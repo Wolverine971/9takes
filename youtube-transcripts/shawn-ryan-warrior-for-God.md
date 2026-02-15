@@ -6,8 +6,12 @@
 **Speakers**: Shawn Ryan (host), Katie Ryan (wife)
 **Format**: ~1 hour 50 minutes, intimate studio conversation between husband and wife; faith testimony episode
 
-path: youtube-transcripts/shawn-ryan-warrior-for-God.md
+path: youtube-transcripts/shawn-ryan-warrior-for-god.md
 ---
+
+## Related
+
+- Consolidated analysis: [shawn-ryan-consolidated-analysis.md](./shawn-ryan-consolidated-analysis.md)
 
 ## Key Revelations About Shawn Ryan
 

@@ -73,6 +73,10 @@ path: youtube-transcripts/kim-kardashian-angie-martinez.md
 - **Duration**: 58:09
 - **Upload Date**: 2022-12-26
 
+## Related
+
+- Consolidated analysis: [kim-kardashian-consolidated-analysis.md](./kim-kardashian-consolidated-analysis.md)
+
 ## Timestamps
 
 - 0:00 - Intro

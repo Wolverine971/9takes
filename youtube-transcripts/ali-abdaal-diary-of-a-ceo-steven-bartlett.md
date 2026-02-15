@@ -28,6 +28,10 @@
   - 01:17:40 The key mental models that have had the biggest impact on your life
   - 01:21:12 What do young people need to know about mindset to live a fulfilled life
 
+## Related
+
+- Consolidated analysis: [ali-abdaal-consolidated-analysis.md](./ali-abdaal-consolidated-analysis.md)
+
 ---
 
 ## Personality Analysis

@@ -8,6 +8,11 @@
 - **Source**: https://www.youtube.com/watch?v=EmxcNhJSvzM
 - **Topics**: Pete Davidson's first international tour, losing his father on 9/11, childhood grief and suicidal ideation, BPD and fear of abandonment, sobriety and recovery, addiction and meetings, tabloid culture and celebrity scrutiny, becoming a father, his mother Amy, the movie Frequency, comedy mentorship, self-sabotage and people-pleasing, Pedro Pascal and the celebrity cycle, Simon Rex (Crispy), work addiction, the Amish kid, relationships and commitment
 
+## Related
+
+- Consolidated analysis: [pete-davidson-consolidated-analysis.md](./pete-davidson-consolidated-analysis.md)
+- Consolidated analysis: [theo-von-consolidated-analysis.md](./theo-von-consolidated-analysis.md)
+
 ---
 
 ## Formatted Transcript

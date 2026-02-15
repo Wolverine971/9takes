@@ -11,6 +11,11 @@
 - **Format**: Long-form interview (~1 hour)
 - **Primary Topics**: Chernin/Penn/ESPN deal sequence, buying Barstool back for $1, creator talent model, founder mode, sports betting, Caitlin Clark and media narratives, cancel culture, Barstool's long-term direction
 
+## Related
+
+- Raw transcript: [dave-portnoy-all-in.raw.md](./_raw/dave-portnoy-all-in.raw.md)
+- Consolidated analysis: [dave-portnoy-consolidated-analysis.md](./dave-portnoy-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -118,7 +123,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/dave-portnoy-all-in.raw.md).
 > Minimal edits: spelling normalization, whitespace cleanup, and line wrapping for readability.
 > The source contains occasional `[ __ ]` redactions and ASR artifacts; those are preserved where present.
 

@@ -12,6 +12,11 @@
 - **Format**: Solo Sunday Session monologue + listener Q&A + sponsor reads
 - **Primary Topics**: Medium friends; superficial friendships; horizontal vs vertical relationships; boundaries and emotional labor; friendship-as-therapy; cheating disclosure; strip-club boundaries; relocation and mom guilt
 
+## Related
+
+- Raw transcript: [alex-cooper-friends-arnt-therapists.raw.md](./_raw/alex-cooper-friends-arnt-therapists.raw.md)
+- Consolidated analysis: [alex-cooper-consolidated-analysis.md](./alex-cooper-consolidated-analysis.md)
+
 ---
 
 ## Core Themes
@@ -92,7 +97,7 @@
 
 ## Formatted Transcript (Full, Cleaned)
 
-> Notes: This is derived from the downloaded YouTube transcript dump in `youtube-transcripts/_raw/`.
+> Notes: Derived from [raw transcript](./_raw/alex-cooper-friends-arnt-therapists.raw.md).
 > Minimal edits: whitespace cleanup, light spelling normalization, and line wrapping for readability.
 > The source contains occasional ASR artifacts and `[ __ ]` redactions; those are preserved where present.
 

@@ -4,12 +4,12 @@
 
 **Sources (local transcript dumps):**
 
-- `youtube-transcripts/chris-williamson-deep-dive-ali-abdaal.md` (Deep Dive with Ali Abdaal, Nov 22, 2021)
-- `youtube-transcripts/chris-williamson-diary-of-a-ceo-masculinity.md` (The Diary Of A CEO, Apr 10, 2023)
-- `youtube-transcripts/chris-williamson-high-performance-podcast.md` (High Performance Podcast, May 5, 2024)
-- `youtube-transcripts/chris-williamson-joe-rogan.md` (JRE #2293, Mar 2025 context)
-- `youtube-transcripts/chris-williamson-diary-of-a-ceo-habits.md` (The Diary Of A CEO, Dec 29, 2025 context)
-- `youtube-transcripts/chris-williamson-modern-wisdom-year-review.md` (Modern Wisdom, Dec 18, 2025)
+- [chris-williamson-deep-dive-ali-abdaal.md](./chris-williamson-deep-dive-ali-abdaal.md) (Deep Dive with Ali Abdaal, Nov 22, 2021)
+- [chris-williamson-diary-of-a-ceo-masculinity.md](./chris-williamson-diary-of-a-ceo-masculinity.md) (The Diary Of A CEO, Apr 10, 2023)
+- [chris-williamson-high-performance-podcast.md](./chris-williamson-high-performance-podcast.md) (High Performance Podcast, May 5, 2024)
+- [chris-williamson-joe-rogan.md](./chris-williamson-joe-rogan.md) (JRE #2293, Mar 2025 context)
+- [chris-williamson-diary-of-a-ceo-habits.md](./chris-williamson-diary-of-a-ceo-habits.md) (The Diary Of A CEO, Dec 29, 2025 context)
+- [chris-williamson-modern-wisdom-year-review.md](./chris-williamson-modern-wisdom-year-review.md) (Modern Wisdom, Dec 18, 2025)
 
 ---
 
