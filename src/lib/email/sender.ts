@@ -21,6 +21,7 @@ interface SendEmailOptions {
 	htmlContent: string;
 	recipientName?: string;
 	trackingId?: string;
+	includeFooter?: boolean;
 }
 
 interface SendEmailResult {
@@ -76,7 +77,7 @@ function makeBody({
  * Send a single email via Gmail API
  */
 export async function sendEmail(options: SendEmailOptions): Promise<SendEmailResult> {
-	const { to, subject, htmlContent, recipientName, trackingId } = options;
+	const { to, subject, htmlContent, recipientName, trackingId, includeFooter = true } = options;
 
 	try {
 		// Validate that the private key environment variable is set
@@ -129,7 +130,8 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 			content: finalHtmlContent,
 			recipientName,
 			trackingPixelUrl,
-			unsubscribeUrl
+			unsubscribeUrl,
+			includeFooter
 		});
 
 		const response = await gmail.users.messages.send({
@@ -169,9 +171,10 @@ export async function sendEmailWithTracking(
 		htmlContent: string;
 		campaignId?: string;
 		sentBy: string;
+		includeFooter?: boolean;
 	}
 ): Promise<{ success: boolean; emailSend?: EmailSend; error?: string }> {
-	const { recipient, subject, htmlContent, campaignId, sentBy } = options;
+	const { recipient, subject, htmlContent, campaignId, sentBy, includeFooter = true } = options;
 
 	// Create email_send record first to get tracking_id
 	const { data: emailSend, error: insertError } = await supabase
@@ -204,7 +207,8 @@ export async function sendEmailWithTracking(
 		subject,
 		htmlContent,
 		recipientName: recipient.name ?? undefined,
-		trackingId: emailSend.tracking_id
+		trackingId: emailSend.tracking_id,
+		includeFooter
 	});
 
 	// Update email_send record with result
@@ -233,13 +237,22 @@ export async function sendBatchEmails(
 		campaignId?: string;
 		sentBy: string;
 		delayMs?: number; // Delay between sends to avoid rate limiting
+		includeFooter?: boolean;
 	}
 ): Promise<{
 	sent: number;
 	failed: number;
 	results: Array<{ email: string; success: boolean; error?: string; tracking_id?: string }>;
 }> {
-	const { recipients, subject, htmlContent, campaignId, sentBy, delayMs = 100 } = options;
+	const {
+		recipients,
+		subject,
+		htmlContent,
+		campaignId,
+		sentBy,
+		delayMs = 100,
+		includeFooter = true
+	} = options;
 
 	const results: Array<{ email: string; success: boolean; error?: string; tracking_id?: string }> =
 		[];
@@ -252,7 +265,8 @@ export async function sendBatchEmails(
 			subject,
 			htmlContent,
 			campaignId,
-			sentBy
+			sentBy,
+			includeFooter
 		});
 
 		if (result.success) {

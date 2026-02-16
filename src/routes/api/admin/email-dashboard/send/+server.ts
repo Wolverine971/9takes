@@ -66,7 +66,8 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			htmlContent: html_content,
 			campaignId: campaign_id,
 			sentBy: session.user.id,
-			delayMs: 100 // 100ms delay between sends
+			delayMs: 100, // 100ms delay between sends
+			includeFooter: false
 		});
 
 		const response: SendEmailResponse = {

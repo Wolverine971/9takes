@@ -56,6 +56,9 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 		});
 	} catch (e) {
 		console.error('Error in sent detail GET:', e);
+		if (e instanceof Error && 'status' in e) {
+			throw e;
+		}
 		throw error(500, 'Internal server error');
 	}
 };

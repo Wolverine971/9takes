@@ -26,10 +26,21 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	}
 
 	// Parse query parameters
-	const source = url.searchParams.get('source') || 'all';
-	const search = url.searchParams.get('search') || undefined;
-	const page = parseInt(url.searchParams.get('page') || '1');
-	const limit = Math.min(parseInt(url.searchParams.get('limit') || '50'), 100);
+	const sourceParam = url.searchParams.get('source') || 'all';
+	const source =
+		sourceParam === 'profiles' || sourceParam === 'signups' || sourceParam === 'coaching_waitlist'
+			? sourceParam
+			: 'all';
+
+	const searchQuery = url.searchParams.get('search')?.trim();
+	const search = searchQuery ? searchQuery.slice(0, 200) : undefined;
+
+	const pageParam = Number.parseInt(url.searchParams.get('page') || '1', 10);
+	const page = Number.isFinite(pageParam) && pageParam > 0 ? pageParam : 1;
+
+	const limitParam = Number.parseInt(url.searchParams.get('limit') || '50', 10);
+	const limit = Number.isFinite(limitParam) && limitParam > 0 ? Math.min(limitParam, 100) : 50;
+
 	const offset = (page - 1) * limit;
 
 	try {
@@ -95,6 +106,9 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		return json(response);
 	} catch (e) {
 		console.error('Error in email-dashboard/users:', e);
+		if (e instanceof Error && 'status' in e) {
+			throw e;
+		}
 		throw error(500, 'Internal server error');
 	}
 };

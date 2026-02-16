@@ -87,7 +87,8 @@ async function processScheduledEmails(request: Request) {
 					htmlContent: scheduled.html_content ?? '',
 					campaignId: scheduled.campaign_id ?? undefined,
 					sentBy: scheduled.created_by ?? 'system-cron',
-					delayMs: 100
+					delayMs: 100,
+					includeFooter: false
 				});
 
 				// Collect errors

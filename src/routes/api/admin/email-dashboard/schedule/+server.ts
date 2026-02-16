@@ -45,9 +45,15 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		}
 
 		const scheduledDate = new Date(scheduled_for);
+		if (Number.isNaN(scheduledDate.getTime())) {
+			throw error(400, 'Invalid scheduled time');
+		}
+
 		if (scheduledDate <= new Date()) {
 			throw error(400, 'Scheduled time must be in the future');
 		}
+
+		const scheduledForIso = scheduledDate.toISOString();
 
 		// Check for unsubscribed emails
 		const { data: unsubscribes } = await supabase
@@ -72,7 +78,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 				subject: subject.trim(),
 				html_content,
 				recipients: validRecipients,
-				scheduled_for,
+				scheduled_for: scheduledForIso,
 				campaign_id: campaign_id || null,
 				created_by: session.user.id,
 				status: 'pending'
@@ -141,6 +147,9 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		return json({ scheduled_emails: scheduledEmails || [] });
 	} catch (e) {
 		console.error('Error in schedule GET:', e);
+		if (e instanceof Error && 'status' in e) {
+			throw e;
+		}
 		throw error(500, 'Internal server error');
 	}
 };

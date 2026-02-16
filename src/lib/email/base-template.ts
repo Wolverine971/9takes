@@ -10,6 +10,7 @@ interface TemplateOptions {
 	recipientName?: string;
 	trackingPixelUrl?: string;
 	unsubscribeUrl?: string;
+	includeFooter?: boolean;
 }
 
 /**
@@ -23,7 +24,8 @@ export function generateEmailHtml(options: TemplateOptions): string {
 		preheader = '',
 		recipientName,
 		trackingPixelUrl,
-		unsubscribeUrl
+		unsubscribeUrl,
+		includeFooter = true
 	} = options;
 
 	const year = new Date().getFullYear();
@@ -114,7 +116,9 @@ export function generateEmailHtml(options: TemplateOptions): string {
             </td>
           </tr>
 
-          <!-- Footer -->
+          ${
+						includeFooter
+							? `<!-- Footer -->
           <tr>
             <td class="email-footer" style="padding: 30px 40px; text-align: center;">
               <p style="margin: 0 0 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; color: #888888;">
@@ -131,7 +135,9 @@ export function generateEmailHtml(options: TemplateOptions): string {
                 &copy; ${year} 9takes. All rights reserved.
               </p>
             </td>
-          </tr>
+          </tr>`
+							: ''
+					}
 
         </table>
       </td>

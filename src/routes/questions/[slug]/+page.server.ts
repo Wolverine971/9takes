@@ -40,30 +40,28 @@ const updateQuestionCategoriesSchema = z.object({
 		.string()
 		.regex(/^\d+$/, 'Invalid question id')
 		.transform((value) => Number.parseInt(value, 10)),
-	tagIds: z
-		.string()
-		.transform((value, ctx) => {
-			try {
-				const parsed = JSON.parse(value);
-				if (!Array.isArray(parsed)) {
-					ctx.addIssue({
-						code: z.ZodIssueCode.custom,
-						message: 'tagIds must be an array'
-					});
-					return z.NEVER;
-				}
-				const numericIds = parsed
-					.map((item) => Number.parseInt(String(item), 10))
-					.filter((id) => Number.isFinite(id));
-				return Array.from(new Set(numericIds));
-			} catch {
+	tagIds: z.string().transform((value, ctx) => {
+		try {
+			const parsed = JSON.parse(value);
+			if (!Array.isArray(parsed)) {
 				ctx.addIssue({
 					code: z.ZodIssueCode.custom,
-					message: 'Invalid tagIds payload'
+					message: 'tagIds must be an array'
 				});
 				return z.NEVER;
 			}
-		})
+			const numericIds = parsed
+				.map((item) => Number.parseInt(String(item), 10))
+				.filter((id) => Number.isFinite(id));
+			return Array.from(new Set(numericIds));
+		} catch {
+			ctx.addIssue({
+				code: z.ZodIssueCode.custom,
+				message: 'Invalid tagIds payload'
+			});
+			return z.NEVER;
+		}
+	})
 });
 
 const createLeafCategorySchema = z.object({
@@ -361,6 +359,26 @@ export const actions: Actions = {
 			throw error(500, 'Failed to save categories');
 		}
 
+		await syncLegacyTagMappings(db, tagIds);
+
+		const { error: removeLegacyQuestionTagsError } = await db
+			.from('question_tags')
+			.delete()
+			.eq('question_id', questionId);
+		if (removeLegacyQuestionTagsError) {
+			throw error(500, 'Failed to clear legacy tags');
+		}
+
+		const { error: insertLegacyQuestionTagsError } = await db.from('question_tags').insert(
+			tagIds.map((tagId) => ({
+				question_id: questionId,
+				tag_id: tagId
+			}))
+		);
+		if (insertLegacyQuestionTagsError) {
+			throw error(500, 'Failed to update legacy tags');
+		}
+
 		const { error: updateQuestionError } = await db
 			.from('questions')
 			.update({
@@ -433,6 +451,7 @@ export const actions: Actions = {
 		}
 
 		const category = await createLeafCategoryWithRetry(db, parentId, categoryName);
+		await syncLegacyTagMappings(db, [category.id]);
 		return { success: true, category, created: true };
 	}
 };
@@ -1146,7 +1165,9 @@ async function validateLeafCategories(db: any, tagIds: number[]) {
 		throw error(400, 'One or more selected categories are invalid');
 	}
 
-	const invalidLevels = categories.filter((category: any) => category.level !== TAGGABLE_LEAF_LEVEL);
+	const invalidLevels = categories.filter(
+		(category: any) => category.level !== TAGGABLE_LEAF_LEVEL
+	);
 	if (invalidLevels.length) {
 		throw error(400, 'Only leaf categories can be selected');
 	}
@@ -1186,4 +1207,31 @@ async function createLeafCategoryWithRetry(db: any, parentId: number, categoryNa
 	}
 
 	throw error(500, 'Failed to create category, please try again');
+}
+
+async function syncLegacyTagMappings(db: any, tagIds: number[]) {
+	const uniqueTagIds = Array.from(new Set(tagIds));
+	if (!uniqueTagIds.length) {
+		return;
+	}
+
+	const { data: categories, error: categoriesError } = await db
+		.from('question_categories')
+		.select('id, category_name')
+		.in('id', uniqueTagIds);
+	if (categoriesError || !categories?.length) {
+		throw error(500, 'Failed to resolve categories for legacy mapping');
+	}
+
+	const { error: legacyUpsertError } = await db.from('question_tag').upsert(
+		categories.map((category: any) => ({
+			tag_id: category.id,
+			tag_name: category.category_name,
+			subcategory_id: null
+		})),
+		{ onConflict: 'tag_id' }
+	);
+	if (legacyUpsertError) {
+		throw error(500, 'Failed to sync legacy category metadata');
+	}
 }

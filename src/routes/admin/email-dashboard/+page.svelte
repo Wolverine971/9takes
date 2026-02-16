@@ -1,5 +1,6 @@
 <!-- src/routes/admin/email-dashboard/+page.svelte -->
 <script lang="ts">
+	import { onDestroy } from 'svelte';
 	import type { PageData } from './$types';
 	import type {
 		EmailRecipient,
@@ -73,6 +74,9 @@
 	let initialSubject = '';
 	let initialContent = '';
 	let initialScheduledFor = '';
+	let initialDraftId: string | undefined = undefined;
+
+	const usersPerPage = 50;
 
 	// Fetch users with filters
 	async function fetchUsers() {
@@ -81,20 +85,57 @@
 			const params = new URLSearchParams({
 				source: sourceFilter,
 				page: currentPage.toString(),
-				limit: '50'
+				limit: usersPerPage.toString()
 			});
 			if (searchQuery) params.set('search', searchQuery);
 
 			const response = await fetch(`/api/admin/email-dashboard/users?${params}`);
 			const result = await response.json();
 
-			users = result.users;
-			totalUsers = result.pagination.total;
+			if (!response.ok) {
+				throw new Error(result.message || 'Failed to fetch users');
+			}
+
+			users = result.users || [];
+			totalUsers = result.pagination?.total || 0;
+			resetSelection();
 		} catch (error) {
 			console.error('Error fetching users:', error);
 			notifications.danger('Failed to fetch users', 3000);
 		} finally {
 			isLoading = false;
+		}
+	}
+
+	async function fetchDrafts() {
+		try {
+			const response = await fetch('/api/admin/email-dashboard/drafts');
+			const result = await response.json();
+
+			if (!response.ok) {
+				throw new Error(result.message || 'Failed to fetch drafts');
+			}
+
+			drafts = result.drafts || [];
+		} catch (error) {
+			console.error('Error fetching drafts:', error);
+			notifications.danger('Failed to fetch drafts', 3000);
+		}
+	}
+
+	async function fetchScheduledEmails() {
+		try {
+			const response = await fetch('/api/admin/email-dashboard/schedule?status=pending');
+			const result = await response.json();
+
+			if (!response.ok) {
+				throw new Error(result.message || 'Failed to fetch scheduled emails');
+			}
+
+			scheduledEmails = result.scheduled_emails || [];
+		} catch (error) {
+			console.error('Error fetching scheduled emails:', error);
+			notifications.danger('Failed to fetch scheduled emails', 3000);
 		}
 	}
 
@@ -110,12 +151,40 @@
 		return value;
 	}
 
+	function parseDateInput(value: string): Date | null {
+		const [year, month, day] = value.split('-').map((part) => Number(part));
+
+		if (!year || !month || !day) {
+			return null;
+		}
+
+		const parsed = new Date(year, month - 1, day);
+		return Number.isNaN(parsed.getTime()) ? null : parsed;
+	}
+
+	function toLocalDateTimeValue(dateStr: string | null | undefined): string {
+		if (!dateStr) return '';
+
+		const date = new Date(dateStr);
+		if (Number.isNaN(date.getTime())) return '';
+
+		const year = date.getFullYear();
+		const month = String(date.getMonth() + 1).padStart(2, '0');
+		const day = String(date.getDate()).padStart(2, '0');
+		const hours = String(date.getHours()).padStart(2, '0');
+		const minutes = String(date.getMinutes()).padStart(2, '0');
+
+		return `${year}-${month}-${day}T${hours}:${minutes}`;
+	}
+
 	function getAnalyticsRange(): { fromDate?: string; toDate?: string } {
 		if (analyticsRange === 'all') return {};
 
 		if (analyticsRange === 'custom') {
-			const from = analyticsFrom ? startOfDay(new Date(analyticsFrom)) : null;
-			const to = analyticsTo ? endOfDay(new Date(analyticsTo)) : null;
+			const fromBase = analyticsFrom ? parseDateInput(analyticsFrom) : null;
+			const toBase = analyticsTo ? parseDateInput(analyticsTo) : null;
+			const from = fromBase ? startOfDay(fromBase) : null;
+			const to = toBase ? endOfDay(toBase) : null;
 			return {
 				fromDate: from ? from.toISOString() : undefined,
 				toDate: to ? to.toISOString() : undefined
@@ -161,6 +230,20 @@
 		if (analyticsRange === 'custom' && (!analyticsFrom || !analyticsTo)) {
 			notifications.warning('Select a start and end date', 3000);
 			return;
+		}
+		if (analyticsRange === 'custom') {
+			const from = parseDateInput(analyticsFrom);
+			const to = parseDateInput(analyticsTo);
+
+			if (!from || !to) {
+				notifications.warning('Invalid custom date range', 3000);
+				return;
+			}
+
+			if (from > to) {
+				notifications.warning('Start date must be before end date', 3000);
+				return;
+			}
 		}
 		await fetchAnalytics();
 		if (activeTab === 'sent') {
@@ -269,6 +352,18 @@
 		if (tab === 'sent') {
 			void fetchSentEmails();
 		}
+		if (tab === 'drafts') {
+			void fetchDrafts();
+		}
+		if (tab === 'scheduled') {
+			void fetchScheduledEmails();
+		}
+	}
+
+	function resetSelection() {
+		selectedUsers.clear();
+		selectedUsers = selectedUsers;
+		selectAll = false;
 	}
 
 	// Toggle user selection
@@ -280,21 +375,27 @@
 			selectedUsers.add(key);
 		}
 		selectedUsers = selectedUsers;
+
+		const selectableUsers = users.filter((u) => !u.unsubscribed);
+		selectAll =
+			selectableUsers.length > 0 &&
+			selectableUsers.every((u) => selectedUsers.has(`${u.source}-${u.id}`));
 	}
 
 	// Toggle select all
 	function toggleSelectAll() {
-		if (selectAll) {
-			selectedUsers.clear();
+		const selectableUsers = users.filter((u) => !u.unsubscribed);
+		const nextSelectAll = !selectAll;
+
+		if (!nextSelectAll) {
+			resetSelection();
 		} else {
-			users.forEach((user) => {
-				if (!user.unsubscribed) {
-					selectedUsers.add(`${user.source}-${user.id}`);
-				}
+			selectableUsers.forEach((user) => {
+				selectedUsers.add(`${user.source}-${user.id}`);
 			});
+			selectedUsers = selectedUsers;
+			selectAll = selectableUsers.length > 0;
 		}
-		selectedUsers = selectedUsers;
-		selectAll = !selectAll;
 	}
 
 	// Open compose with selected users
@@ -306,6 +407,7 @@
 			notifications.warning('No valid recipients selected', 3000);
 			return;
 		}
+		initialDraftId = undefined;
 		initialSubject = '';
 		initialContent = '';
 		initialScheduledFor = '';
@@ -315,8 +417,24 @@
 	// Handle compose modal close
 	function handleComposeClose() {
 		showCompose = false;
-		selectedUsers.clear();
-		selectedUsers = selectedUsers;
+		initialDraftId = undefined;
+		resetSelection();
+	}
+
+	async function handleComposeSend() {
+		await fetchAnalytics();
+		if (activeTab === 'sent') {
+			sentPage = 1;
+			await fetchSentEmails();
+		}
+	}
+
+	async function handleComposeSchedule() {
+		await fetchScheduledEmails();
+	}
+
+	async function handleComposeSaveDraft() {
+		await fetchDrafts();
 	}
 
 	// Format date
@@ -341,30 +459,28 @@
 	}
 
 	// Handle search
-	function handleSearch() {
-		currentPage = 1;
-		fetchUsers();
+	function handleSearchInput() {
+		clearTimeout(searchTimeout);
+		searchTimeout = setTimeout(() => {
+			currentPage = 1;
+			void fetchUsers();
+		}, 300);
 	}
 
 	// Handle filter change
 	function handleFilterChange() {
 		currentPage = 1;
-		selectedUsers.clear();
-		selectAll = false;
+		resetSelection();
 		fetchUsers();
 	}
 
-	// Reactive: debounced search
-	let searchTimeout: ReturnType<typeof setTimeout>;
-	let sentSearchTimeout: ReturnType<typeof setTimeout>;
-	$: {
-		clearTimeout(searchTimeout);
-		searchTimeout = setTimeout(() => {
-			if (searchQuery !== undefined) {
-				handleSearch();
-			}
-		}, 300);
-	}
+	let searchTimeout: ReturnType<typeof setTimeout> | undefined;
+	let sentSearchTimeout: ReturnType<typeof setTimeout> | undefined;
+
+	onDestroy(() => {
+		if (searchTimeout) clearTimeout(searchTimeout);
+		if (sentSearchTimeout) clearTimeout(sentSearchTimeout);
+	});
 </script>
 
 <div class="email-dashboard">
@@ -507,6 +623,7 @@
 						bind:value={searchQuery}
 						placeholder="Search by email or name..."
 						class="search-input"
+						on:input={handleSearchInput}
 					/>
 				</div>
 				<div class="toolbar-right">
@@ -576,7 +693,7 @@
 			</div>
 
 			<!-- Pagination -->
-			{#if totalUsers > 50}
+			{#if totalUsers > usersPerPage}
 				<div class="pagination">
 					<button
 						class="btn btn-secondary"
@@ -589,11 +706,11 @@
 						Previous
 					</button>
 					<span class="page-info">
-						Page {currentPage} of {Math.ceil(totalUsers / 50)}
+						Page {currentPage} of {Math.ceil(totalUsers / usersPerPage)}
 					</span>
 					<button
 						class="btn btn-secondary"
-						disabled={currentPage >= Math.ceil(totalUsers / 50)}
+						disabled={currentPage >= Math.ceil(totalUsers / usersPerPage)}
 						on:click={() => {
 							currentPage++;
 							fetchUsers();
@@ -627,10 +744,11 @@
 								<button
 									class="btn btn-secondary"
 									on:click={() => {
+										initialDraftId = draft.id || undefined;
 										initialSubject = draft.subject || '';
 										initialContent = draft.html_content || '';
-										composeRecipients = draft.recipients || [];
-										initialScheduledFor = '';
+										composeRecipients = (draft.recipients || []) as EmailRecipient[];
+										initialScheduledFor = toLocalDateTimeValue(draft.scheduled_for);
 										showCompose = true;
 									}}>Edit</button
 								>
@@ -918,9 +1036,11 @@
 	{initialSubject}
 	{initialContent}
 	{initialScheduledFor}
+	{initialDraftId}
 	on:close={handleComposeClose}
-	on:send={handleComposeClose}
-	on:schedule={handleComposeClose}
+	on:send={handleComposeSend}
+	on:schedule={handleComposeSchedule}
+	on:saveDraft={handleComposeSaveDraft}
 />
 
 <style>

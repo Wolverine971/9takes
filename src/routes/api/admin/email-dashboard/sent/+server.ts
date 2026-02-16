@@ -23,15 +23,51 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	}
 
 	// Parse query parameters
-	const page = parseInt(url.searchParams.get('page') || '1');
-	const limit = Math.min(parseInt(url.searchParams.get('limit') || '50'), 100);
+	const pageParam = Number.parseInt(url.searchParams.get('page') || '1', 10);
+	const page = Number.isFinite(pageParam) && pageParam > 0 ? pageParam : 1;
+
+	const limitParam = Number.parseInt(url.searchParams.get('limit') || '50', 10);
+	const limit = Number.isFinite(limitParam) && limitParam > 0 ? Math.min(limitParam, 100) : 50;
+
 	const offset = (page - 1) * limit;
 	const campaignId = url.searchParams.get('campaign_id');
-	const status = url.searchParams.get('status');
-	const source = url.searchParams.get('source');
-	const search = url.searchParams.get('search');
-	const fromDate = url.searchParams.get('from_date');
-	const toDate = url.searchParams.get('to_date');
+	const statusParam = url.searchParams.get('status');
+	const status =
+		statusParam === 'sent' ||
+		statusParam === 'delivered' ||
+		statusParam === 'failed' ||
+		statusParam === 'bounced'
+			? statusParam
+			: null;
+
+	const sourceParam = url.searchParams.get('source');
+	const source =
+		sourceParam === 'profiles' || sourceParam === 'signups' || sourceParam === 'coaching_waitlist'
+			? sourceParam
+			: null;
+
+	const searchQuery = url.searchParams.get('search')?.trim();
+	const search = searchQuery ? searchQuery.slice(0, 200) : null;
+
+	const fromDateParam = url.searchParams.get('from_date');
+	const toDateParam = url.searchParams.get('to_date');
+
+	const fromDate = fromDateParam ? new Date(fromDateParam) : null;
+	if (fromDateParam && (!fromDate || Number.isNaN(fromDate.getTime()))) {
+		throw error(400, 'Invalid from_date');
+	}
+
+	const toDate = toDateParam ? new Date(toDateParam) : null;
+	if (toDateParam && (!toDate || Number.isNaN(toDate.getTime()))) {
+		throw error(400, 'Invalid to_date');
+	}
+
+	if (fromDate && toDate && fromDate > toDate) {
+		throw error(400, 'from_date must be before to_date');
+	}
+
+	const fromDateIso = fromDate?.toISOString();
+	const toDateIso = toDate?.toISOString();
 
 	try {
 		// Build query for emails
@@ -59,18 +95,18 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		}
 
 		if (search) {
-			const escaped = search.replace(/%/g, '\\%').replace(/_/g, '\\_');
+			const escaped = search.replace(/%/g, '\\%').replace(/_/g, '\\_').replace(/[(),]/g, ' ');
 			query = query.or(
 				`recipient_email.ilike.%${escaped}%,recipient_name.ilike.%${escaped}%,subject.ilike.%${escaped}%`
 			);
 		}
 
-		if (fromDate) {
-			query = query.gte('sent_at', fromDate);
+		if (fromDateIso) {
+			query = query.gte('sent_at', fromDateIso);
 		}
 
-		if (toDate) {
-			query = query.lte('sent_at', toDate);
+		if (toDateIso) {
+			query = query.lte('sent_at', toDateIso);
 		}
 
 		const { data: emails, error: emailsError, count } = await query;
@@ -83,8 +119,8 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		// Get analytics summary
 		const { data: analytics } = await supabase.rpc('get_email_analytics', {
 			p_campaign_id: campaignId || undefined,
-			p_from_date: fromDate || undefined,
-			p_to_date: toDate || undefined
+			p_from_date: fromDateIso || undefined,
+			p_to_date: toDateIso || undefined
 		});
 
 		return json({
@@ -111,6 +147,9 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		});
 	} catch (e) {
 		console.error('Error in sent emails GET:', e);
+		if (e instanceof Error && 'status' in e) {
+			throw e;
+		}
 		throw error(500, 'Internal server error');
 	}
 };

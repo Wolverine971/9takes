@@ -12,19 +12,22 @@
 	export let initialSubject = '';
 	export let initialContent = '';
 	export let initialScheduledFor = '';
+	export let initialDraftId: string | undefined = undefined;
 
 	// Event dispatcher
 	const dispatch = createEventDispatcher<{
 		close: void;
 		send: { sent: number; failed: number };
 		schedule: { recipient_count: number; scheduled_for: string };
-		saveDraft: void;
+		saveDraft: { id?: string };
 	}>();
 
 	// Compose state
 	let subject = initialSubject;
 	let htmlContent = initialContent;
 	let scheduledFor = initialScheduledFor;
+	let draftId = initialDraftId;
+	let minScheduleDateTime = '';
 	let isSending = false;
 	let showPreview = false;
 
@@ -37,11 +40,30 @@
 	// Body scroll management
 	let previousBodyOverflow = '';
 
+	function toLocalDateTimeValue(date: Date): string {
+		const year = date.getFullYear();
+		const month = String(date.getMonth() + 1).padStart(2, '0');
+		const day = String(date.getDate()).padStart(2, '0');
+		const hours = String(date.getHours()).padStart(2, '0');
+		const minutes = String(date.getMinutes()).padStart(2, '0');
+		return `${year}-${month}-${day}T${hours}:${minutes}`;
+	}
+
+	function toISOFromLocalDateTime(value: string): string | null {
+		const parsed = new Date(value);
+		if (Number.isNaN(parsed.getTime())) {
+			return null;
+		}
+		return parsed.toISOString();
+	}
+
 	// Reset form when opened with new data
 	$: if (open) {
 		subject = initialSubject;
 		htmlContent = initialContent;
 		scheduledFor = initialScheduledFor;
+		draftId = initialDraftId;
+		minScheduleDateTime = toLocalDateTimeValue(new Date());
 		showPreview = false;
 		showGenerate = false;
 
@@ -70,6 +92,7 @@
 		subject = '';
 		htmlContent = '';
 		scheduledFor = '';
+		draftId = undefined;
 		showPreview = false;
 		showGenerate = false;
 		dispatch('close');
@@ -126,7 +149,13 @@
 
 		isSending = true;
 		try {
-			const endpoint = scheduledFor
+			const scheduledForIso = scheduledFor ? toISOFromLocalDateTime(scheduledFor) : null;
+			if (scheduledFor && !scheduledForIso) {
+				notifications.warning('Invalid scheduled date/time', 3000);
+				return;
+			}
+
+			const endpoint = scheduledForIso
 				? '/api/admin/email-dashboard/schedule'
 				: '/api/admin/email-dashboard/send';
 
@@ -141,8 +170,8 @@
 				html_content: htmlContent
 			};
 
-			if (scheduledFor) {
-				body.scheduled_for = scheduledFor;
+			if (scheduledForIso) {
+				body.scheduled_for = scheduledForIso;
 			}
 
 			const response = await fetch(endpoint, {
@@ -154,14 +183,20 @@
 			const result = await response.json();
 
 			if (response.ok) {
-				if (scheduledFor) {
+				if (scheduledForIso) {
 					notifications.success(
-						`Scheduled ${result.recipient_count} emails for ${new Date(scheduledFor).toLocaleString()}`,
+						`Scheduled ${result.recipient_count} emails for ${new Date(scheduledForIso).toLocaleString()}`,
 						5000
 					);
+					if (result.excluded_count) {
+						notifications.warning(
+							`Excluded ${result.excluded_count} unsubscribed recipient(s)`,
+							5000
+						);
+					}
 					dispatch('schedule', {
 						recipient_count: result.recipient_count,
-						scheduled_for: scheduledFor
+						scheduled_for: scheduledForIso
 					});
 				} else {
 					notifications.success(`Sent ${result.sent} emails, ${result.failed} failed`, 5000);
@@ -227,22 +262,34 @@
 	 */
 	async function saveDraft() {
 		try {
+			const scheduledForIso = scheduledFor ? toISOFromLocalDateTime(scheduledFor) : null;
+			if (scheduledFor && !scheduledForIso) {
+				notifications.warning('Invalid scheduled date/time', 3000);
+				return;
+			}
+
 			const response = await fetch('/api/admin/email-dashboard/drafts', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({
+					id: draftId,
 					subject,
 					html_content: htmlContent,
 					recipients,
-					scheduled_for: scheduledFor || null
+					scheduled_for: scheduledForIso
 				})
 			});
 
+			const result = await response.json();
+
 			if (response.ok) {
+				if (result?.draft?.id) {
+					draftId = result.draft.id;
+				}
 				notifications.success('Draft saved', 3000);
-				dispatch('saveDraft');
+				dispatch('saveDraft', { id: draftId });
 			} else {
-				notifications.danger('Failed to save draft', 3000);
+				notifications.danger(result.message || 'Failed to save draft', 3000);
 			}
 		} catch (error) {
 			console.error('Error saving draft:', error);
@@ -344,7 +391,7 @@
 						type="datetime-local"
 						bind:value={scheduledFor}
 						class="form-input"
-						min={new Date().toISOString().slice(0, 16)}
+						min={minScheduleDateTime}
 					/>
 				</div>
 			</div>
