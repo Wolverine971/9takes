@@ -16,13 +16,23 @@
 	let optimisticComments = $state<Comment[]>([]);
 	let optimisticUserHasAnswered = $state(false);
 
-	// Reset optimistic state when server data changes
-	$effect(() => {
-		// When data changes (e.g., after invalidateAll), reset optimistic state
+	// Reset optimistic state BEFORE DOM updates when server confirms user has answered
+	$effect.pre(() => {
 		if (data.flags?.userHasAnswered) {
 			optimisticComments = [];
 			optimisticUserHasAnswered = false;
 		}
+	});
+
+	// Merge optimistic and server comments, deduplicating by ID
+	let mergedComments = $derived.by(() => {
+		const serverComments = data.comments || [];
+		if (optimisticComments.length === 0) return serverComments;
+
+		// If server already has the data, prefer server version (has profile info etc.)
+		const serverIds = new Set(serverComments.map((c: Comment) => c.id));
+		const uniqueOptimistic = optimisticComments.filter((c) => c.id && !serverIds.has(c.id));
+		return [...uniqueOptimistic, ...serverComments];
 	});
 
 	// Create reactive data object for child components with proper QuestionPageData structure
@@ -30,8 +40,8 @@
 		question: data.question,
 		removedComments: data.removedComments,
 		removed_comment_count: data.removed_comment_count,
-		comments: [...optimisticComments, ...(data.comments || [])],
-		comment_count: (data.comment_count || 0) + optimisticComments.length,
+		comments: mergedComments,
+		comment_count: Math.max((data.comment_count || 0), mergedComments.length),
 		aiComments: data.aiComments,
 		links: data.links,
 		links_count: data.links_count ?? 0,
@@ -71,12 +81,15 @@
 		const isFirstComment = !data.flags?.userHasAnswered && !optimisticUserHasAnswered;
 
 		// Optimistic update - immediately add comment to UI
-		if (newComment) {
+		if (newComment && typeof newComment === 'object' && 'id' in newComment) {
 			optimisticComments = [newComment, ...optimisticComments];
+		}
+		// Always mark as answered so the gate opens immediately
+		if (isFirstComment) {
 			optimisticUserHasAnswered = true;
 		}
 
-		// Only invalidate for first-time commenters to refresh permissions/UI state
+		// Invalidate for first-time commenters to refresh permissions and load all comments
 		if (isFirstComment) {
 			invalidateAll();
 		}

@@ -9,6 +9,7 @@ import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
 import { createCommentSchema, flagCommentSchema } from '$lib/validation/questionSchemas';
 import { uploadQuestionImage } from '$lib/server/questionImages';
+import { z } from 'zod';
 
 import axios from 'axios';
 import { load as cheerioLoad } from 'cheerio';
@@ -29,6 +30,58 @@ const EXTERNAL_FETCH_TIMEOUT = 5000;
 const MAX_CONTENT_LENGTH = 1024 * 1024; // 1MB
 const MAX_REDIRECTS = 3;
 const MAX_IMAGE_SIZE_BYTES = 10 * 1024 * 1024; // 10MB
+const TAGGABLE_LEAF_LEVEL = 3;
+const MAX_CATEGORIES_PER_QUESTION = 3;
+const NEW_CATEGORY_MIN_LENGTH = 2;
+const NEW_CATEGORY_MAX_LENGTH = 60;
+
+const updateQuestionCategoriesSchema = z.object({
+	questionId: z
+		.string()
+		.regex(/^\d+$/, 'Invalid question id')
+		.transform((value) => Number.parseInt(value, 10)),
+	tagIds: z
+		.string()
+		.transform((value, ctx) => {
+			try {
+				const parsed = JSON.parse(value);
+				if (!Array.isArray(parsed)) {
+					ctx.addIssue({
+						code: z.ZodIssueCode.custom,
+						message: 'tagIds must be an array'
+					});
+					return z.NEVER;
+				}
+				const numericIds = parsed
+					.map((item) => Number.parseInt(String(item), 10))
+					.filter((id) => Number.isFinite(id));
+				return Array.from(new Set(numericIds));
+			} catch {
+				ctx.addIssue({
+					code: z.ZodIssueCode.custom,
+					message: 'Invalid tagIds payload'
+				});
+				return z.NEVER;
+			}
+		})
+});
+
+const createLeafCategorySchema = z.object({
+	questionId: z
+		.string()
+		.regex(/^\d+$/, 'Invalid question id')
+		.transform((value) => Number.parseInt(value, 10)),
+	parentId: z
+		.string()
+		.regex(/^\d+$/, 'Invalid parent id')
+		.transform((value) => Number.parseInt(value, 10)),
+	categoryName: z
+		.string()
+		.trim()
+		.min(NEW_CATEGORY_MIN_LENGTH)
+		.max(NEW_CATEGORY_MAX_LENGTH)
+		.transform((value) => value.replace(/\s+/g, ' '))
+});
 
 export const load: PageServerLoad = async (event) => {
 	const { demo_time } = await event.parent();
@@ -45,6 +98,9 @@ export const load: PageServerLoad = async (event) => {
 		checkUserAnswered(cookie, question.id, session?.user?.id),
 		getQuestionTags(question.id)
 	]);
+	const canEditTags =
+		!isDemoTime && Boolean(session?.user?.id && question.author_id === session?.user?.id);
+	const categoryEditor = canEditTags ? await getCategoryEditorData() : null;
 
 	if (!userHasAnswered) {
 		const commentCount = await getCommentCount(question.id, isDemoTime);
@@ -58,7 +114,10 @@ export const load: PageServerLoad = async (event) => {
 			session,
 			userHasAnswered,
 			event,
-			aiComments
+			aiComments,
+			undefined,
+			canEditTags,
+			categoryEditor
 		);
 	}
 
@@ -84,7 +143,9 @@ export const load: PageServerLoad = async (event) => {
 		event,
 		aiComments,
 		isDemoTime,
-		flagReasons?.data || []
+		flagReasons?.data || [],
+		canEditTags,
+		categoryEditor
 	);
 };
 
@@ -241,6 +302,138 @@ export const actions: Actions = {
 		});
 		await updateQuestionImageUrl(url as string, upload.path);
 		return true;
+	},
+
+	updateCategories: async ({ request, locals, params }) => {
+		const session = locals.session;
+		if (!session?.user?.id) {
+			throw error(401, 'Unauthorized');
+		}
+
+		const db = locals.supabase as any;
+		const demoTime = (await checkDemoTime(db)) === true;
+		if (demoTime) {
+			throw error(403, 'Tag editing is unavailable in demo mode');
+		}
+
+		const formData = Object.fromEntries(await request.formData());
+		const parsed = updateQuestionCategoriesSchema.safeParse(formData);
+		if (!parsed.success) {
+			throw error(400, parsed.error.errors[0]?.message || 'Invalid category update payload');
+		}
+
+		const { questionId, tagIds } = parsed.data;
+		if (!tagIds.length) {
+			throw error(400, 'Select at least one category');
+		}
+		if (tagIds.length > MAX_CATEGORIES_PER_QUESTION) {
+			throw error(
+				400,
+				`You can select up to ${MAX_CATEGORIES_PER_QUESTION} categories per question`
+			);
+		}
+
+		const question = await getQuestionForMutation(db, params.slug, demoTime);
+		if (!question || question.id !== questionId) {
+			throw error(404, 'Question not found');
+		}
+		if (question.author_id !== session.user.id) {
+			throw error(403, 'Only the question owner can edit categories');
+		}
+
+		await validateLeafCategories(db, tagIds);
+
+		const { error: deleteTagError } = await db
+			.from('question_category_tags')
+			.delete()
+			.eq('question_id', questionId);
+		if (deleteTagError) {
+			throw error(500, 'Failed to clear existing categories');
+		}
+
+		const { error: insertTagError } = await db.from('question_category_tags').insert(
+			tagIds.map((tagId) => ({
+				question_id: questionId,
+				tag_id: tagId
+			}))
+		);
+		if (insertTagError) {
+			throw error(500, 'Failed to save categories');
+		}
+
+		const { error: updateQuestionError } = await db
+			.from('questions')
+			.update({
+				tagged: true,
+				flagged: false,
+				updated_at: new Date().toISOString()
+			})
+			.eq('id', questionId);
+		if (updateQuestionError) {
+			throw error(500, 'Failed to update question metadata');
+		}
+
+		return {
+			success: true,
+			tagIds
+		};
+	},
+
+	createLeafCategory: async ({ request, locals, params }) => {
+		const session = locals.session;
+		if (!session?.user?.id) {
+			throw error(401, 'Unauthorized');
+		}
+
+		const db = locals.supabase as any;
+		const demoTime = (await checkDemoTime(db)) === true;
+		if (demoTime) {
+			throw error(403, 'Category creation is unavailable in demo mode');
+		}
+
+		const formData = Object.fromEntries(await request.formData());
+		const parsed = createLeafCategorySchema.safeParse(formData);
+		if (!parsed.success) {
+			throw error(400, parsed.error.errors[0]?.message || 'Invalid category create payload');
+		}
+
+		const { questionId, parentId, categoryName } = parsed.data;
+
+		const question = await getQuestionForMutation(db, params.slug, demoTime);
+		if (!question || question.id !== questionId) {
+			throw error(404, 'Question not found');
+		}
+		if (question.author_id !== session.user.id) {
+			throw error(403, 'Only the question owner can create categories here');
+		}
+
+		const { data: parentCategory, error: parentError } = await db
+			.from('question_categories')
+			.select('id, level')
+			.eq('id', parentId)
+			.maybeSingle();
+		if (parentError || !parentCategory) {
+			throw error(400, 'Parent category not found');
+		}
+		if (parentCategory.level !== TAGGABLE_LEAF_LEVEL - 1) {
+			throw error(400, 'New categories must be created under a level 2 parent');
+		}
+
+		const { data: existingCategory, error: existingCategoryError } = await db
+			.from('question_categories')
+			.select('id, category_name, parent_id, level')
+			.eq('parent_id', parentId)
+			.ilike('category_name', categoryName)
+			.maybeSingle();
+		if (existingCategoryError) {
+			throw error(500, 'Failed to validate category uniqueness');
+		}
+		if (existingCategory) {
+			return { success: true, category: existingCategory, created: false };
+		}
+
+		const category = await createLeafCategoryWithRetry(db, parentId, categoryName);
+		return { success: true, category, created: true };
 	}
 };
 
@@ -820,7 +1013,9 @@ function createBaseResponse(
 	userHasAnswered: boolean,
 	event: any,
 	aiComments: any,
-	flagReasons?: any[]
+	flagReasons?: any[],
+	canEditTags?: boolean,
+	categoryEditor?: { maxTagsPerQuestion: number; categories: any[] } | null
 ) {
 	return {
 		question,
@@ -835,7 +1030,9 @@ function createBaseResponse(
 			userSignedIn: event?.locals?.session?.user?.aud
 		},
 		aiComments,
-		flagReasons
+		flagReasons,
+		canEditTags: Boolean(canEditTags),
+		categoryEditor: categoryEditor ?? null
 	};
 }
 
@@ -853,7 +1050,9 @@ function createFullResponse(
 	event: any,
 	aiComments: any,
 	demo_time: boolean,
-	flagReasons: any[]
+	flagReasons: any[],
+	canEditTags?: boolean,
+	categoryEditor?: { maxTagsPerQuestion: number; categories: any[] } | null
 ) {
 	const baseResponse = createBaseResponse(
 		question,
@@ -865,7 +1064,9 @@ function createFullResponse(
 		userHasAnswered,
 		event,
 		aiComments,
-		flagReasons
+		flagReasons,
+		canEditTags,
+		categoryEditor
 	);
 
 	if (demo_time) {
@@ -893,4 +1094,96 @@ function mapDemoComment(comment: any) {
 		profiles: comment.profiles_demo,
 		comment_like: comment.comment_like_demo
 	};
+}
+
+async function getCategoryEditorData() {
+	const { data, error: categoryError } = await supabase
+		.from('question_categories')
+		.select('id, category_name, parent_id, level')
+		.in('level', [1, 2, TAGGABLE_LEAF_LEVEL])
+		.order('category_name', { ascending: true });
+
+	if (categoryError) {
+		console.error('Failed to load categories for editor', categoryError);
+		return {
+			maxTagsPerQuestion: MAX_CATEGORIES_PER_QUESTION,
+			categories: []
+		};
+	}
+
+	return {
+		maxTagsPerQuestion: MAX_CATEGORIES_PER_QUESTION,
+		categories: data ?? []
+	};
+}
+
+async function getQuestionForMutation(db: any, slug: string, demoTime: boolean) {
+	const questionTable = demoTime ? 'questions_demo' : 'questions';
+	const idAsNumber = Number.parseInt(slug, 10);
+	const query = db.from(questionTable).select('id, author_id');
+	const { data, error: findQuestionError } = await (Number.isInteger(idAsNumber)
+		? query.eq('id', idAsNumber).maybeSingle()
+		: query.eq('url', slug).maybeSingle());
+
+	if (findQuestionError) {
+		console.error('Failed to resolve question for mutation', findQuestionError);
+		return null;
+	}
+
+	return data;
+}
+
+async function validateLeafCategories(db: any, tagIds: number[]) {
+	const { data: categories, error: categoryError } = await db
+		.from('question_categories')
+		.select('id, level')
+		.in('id', tagIds);
+
+	if (categoryError) {
+		throw error(500, 'Failed to validate categories');
+	}
+	if (!categories || categories.length !== tagIds.length) {
+		throw error(400, 'One or more selected categories are invalid');
+	}
+
+	const invalidLevels = categories.filter((category: any) => category.level !== TAGGABLE_LEAF_LEVEL);
+	if (invalidLevels.length) {
+		throw error(400, 'Only leaf categories can be selected');
+	}
+}
+
+async function createLeafCategoryWithRetry(db: any, parentId: number, categoryName: string) {
+	for (let attempt = 0; attempt < 3; attempt += 1) {
+		const { data: highestCategory, error: highestCategoryError } = await db
+			.from('question_categories')
+			.select('id')
+			.order('id', { ascending: false })
+			.limit(1)
+			.maybeSingle();
+		if (highestCategoryError) {
+			throw error(500, 'Failed to generate category id');
+		}
+
+		const nextCategoryId = (highestCategory?.id ?? 0) + 1;
+		const { data: insertedCategory, error: insertCategoryError } = await db
+			.from('question_categories')
+			.insert({
+				id: nextCategoryId,
+				category_name: categoryName,
+				parent_id: parentId,
+				level: TAGGABLE_LEAF_LEVEL
+			})
+			.select('id, category_name, parent_id, level')
+			.maybeSingle();
+
+		if (!insertCategoryError && insertedCategory) {
+			return insertedCategory;
+		}
+
+		if (insertCategoryError?.code !== '23505') {
+			throw error(500, 'Failed to create category');
+		}
+	}
+
+	throw error(500, 'Failed to create category, please try again');
 }

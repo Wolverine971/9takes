@@ -63,7 +63,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 				if (canSeeCommentsError) {
 					logger.error('Error checking comment permissions', canSeeCommentsError);
 				}
-				return json({});
+				return json([]);
 			}
 		}
 

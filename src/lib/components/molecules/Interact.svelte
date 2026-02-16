@@ -88,6 +88,42 @@
 		}
 	};
 
+	// Ensure fingerprint is available, waiting for preload if in progress
+	const ensureFingerprint = async (): Promise<string | null> => {
+		if (cachedFingerprint) return cachedFingerprint;
+
+		// If preload is in progress, wait for it to complete
+		if (fingerprintLoading) {
+			await new Promise<void>((resolve) => {
+				const checkInterval = setInterval(() => {
+					if (!fingerprintLoading) {
+						clearInterval(checkInterval);
+						resolve();
+					}
+				}, 50);
+				// Timeout after 3 seconds
+				setTimeout(() => {
+					clearInterval(checkInterval);
+					resolve();
+				}, 3000);
+			});
+			if (cachedFingerprint) return cachedFingerprint;
+		}
+
+		// Fallback: load fingerprint inline
+		try {
+			const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
+			const fp = await FingerprintJS.load();
+			const fpval = await fp.get();
+			const fingerprint = fpval?.visitorId?.toString() || null;
+			cachedFingerprint = fingerprint;
+			return fingerprint;
+		} catch (error) {
+			console.error('Fingerprint load failed:', error);
+			return null;
+		}
+	};
+
 	// Create a new comment
 	const createComment = async () => {
 		if (!canComment()) return;
@@ -99,15 +135,7 @@
 		loading = true;
 
 		try {
-			// Use cached fingerprint if available, otherwise load it now
-			let fingerprint = cachedFingerprint;
-			if (!fingerprint && !fingerprintLoading) {
-				const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
-				const fp = await FingerprintJS.load();
-				const fpval = await fp.get();
-				fingerprint = fpval?.visitorId?.toString() || null;
-				cachedFingerprint = fingerprint;
-			}
+			const fingerprint = await ensureFingerprint();
 
 			const body = new FormData();
 			appendCommonFormData(body, { visitorId: fingerprint });
@@ -177,12 +205,17 @@
 
 	// Handle comment submission result
 	const handleCommentResult = (result: any) => {
-		if (result.error) {
+		if (result.error || result.type === 'error' || result.type === 'failure') {
 			notifications.danger('Error adding comment', 3000);
-			console.error(result.error);
+			console.error(result.error || result.data);
 		} else {
 			notifications.success('Comment Added', 3000);
-			oncommentAdded?.(result?.data);
+			// Normalize result: RPC might return array, single object, or null
+			let commentData = result?.data;
+			if (Array.isArray(commentData)) {
+				commentData = commentData[0] ?? null;
+			}
+			oncommentAdded?.(commentData);
 			comment = '';
 			textareaHeight = 'auto';
 
