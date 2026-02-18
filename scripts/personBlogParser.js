@@ -3,8 +3,11 @@
 // Usage:
 //   node scripts/personBlogParser.js                    # Process all people
 //   node scripts/personBlogParser.js Malcolm-Gladwell   # Process single person
+//   node scripts/personBlogParser.js --changed          # Process changed drafts only
+//   node scripts/personBlogParser.js --changed Malcolm-Gladwell
 //
 import { promises as fs } from 'fs';
+import { execSync } from 'child_process';
 import path from 'path';
 import matter from 'gray-matter';
 import dotenv from 'dotenv';
@@ -132,6 +135,15 @@ async function parseMarkdownFile(filePath) {
  */
 async function processBlogEntries(rootDir) {
 	const markdownFiles = await findMarkdownFiles(rootDir);
+	return processBlogFiles(markdownFiles);
+}
+
+/**
+ * Process a specific list of markdown files
+ * @param {Array<string>} markdownFiles - Markdown file paths
+ * @returns {Promise<Array>} - Array of parsed blog entries
+ */
+async function processBlogFiles(markdownFiles) {
 	const blogEntries = [];
 
 	for (const filePath of markdownFiles) {
@@ -145,6 +157,30 @@ async function processBlogEntries(rootDir) {
 	}
 
 	return blogEntries;
+}
+
+/**
+ * Get changed draft markdown files from git status
+ * @returns {Array<string>} - Changed draft markdown files
+ */
+function getChangedDraftMarkdownFiles() {
+	let output = '';
+	try {
+		output = execSync('git status --short src/blog/people/drafts', {
+			encoding: 'utf8'
+		});
+	} catch (error) {
+		console.error('Error reading changed draft files from git:', error);
+		return [];
+	}
+
+	return output
+		.split('\n')
+		.map((line) => line.match(/^..\s+(.+)$/)?.[1]?.trim())
+		.filter(Boolean)
+		.map((entry) => (entry.includes(' -> ') ? entry.split(' -> ').at(-1) : entry))
+		.filter((filePath) => filePath.endsWith('.md') || filePath.endsWith('.mdx'))
+		.filter((filePath) => !filePath.endsWith('person-template.md'));
 }
 
 /**
@@ -192,38 +228,54 @@ async function insertIntoSupabase(entries) {
 
 	for (const entry of entries) {
 		try {
+			if (!entry.person) {
+				console.error(`Skipping entry with missing person slug: ${entry.title || 'Untitled'}`);
+				continue;
+			}
+
 			const record = {};
 			for (const key of Object.keys(fields)) {
 				record[key] = entry[key] !== undefined ? entry[key] : fields[key];
 			}
 
 			// Check if record exists by person slug
-			const { data: existing } = await supabase
+			const { data: existing, error: existingError } = await supabase
 				.from('blogs_famous_people')
-				.select('id')
+				.select('id,published')
 				.eq('person', entry.person)
-				.single();
+				.maybeSingle();
+
+			if (existingError) {
+				console.error(`Error checking existing row for ${entry.person}:`, existingError);
+				continue;
+			}
 
 			if (existing) {
-				// Update existing record
+				// Preserve DB publish state for existing rows.
+				const updateRecord = { ...record };
+				delete updateRecord.published;
+
 				const { error } = await supabase
 					.from('blogs_famous_people')
-					.update(record)
+					.update(updateRecord)
 					.eq('id', existing.id);
 
 				if (error) {
 					console.error(`Error updating ${entry.person}:`, error);
 				} else {
-					console.log(`Updated: ${entry.title} (${entry.person}, id=${existing.id})`);
+					console.log(
+						`Updated: ${entry.title} (${entry.person}, id=${existing.id}, published preserved=${existing.published})`
+					);
 				}
 			} else {
-				// Insert new record
-				const { error } = await supabase.from('blogs_famous_people').insert(record);
+				// Force net-new rows to remain unpublished for manual release.
+				const insertRecord = { ...record, published: false };
+				const { error } = await supabase.from('blogs_famous_people').insert(insertRecord);
 
 				if (error) {
 					console.error(`Error inserting ${entry.person}:`, error);
 				} else {
-					console.log(`Inserted: ${entry.title} (${entry.person})`);
+					console.log(`Inserted: ${entry.title} (${entry.person}, published=false)`);
 				}
 			}
 		} catch (error) {
@@ -236,9 +288,23 @@ async function insertIntoSupabase(entries) {
 
 async function main() {
 	try {
-		const personFilter = process.argv[2]; // Optional: e.g. "Malcolm-Gladwell"
-		const rootDir = 'src/blog/people';
-		let blogEntries = await processBlogEntries(rootDir);
+		const args = process.argv.slice(2);
+		const changedOnly = args.includes('--changed');
+		const personFilter = args.find((arg) => !arg.startsWith('--')); // Optional: e.g. "Malcolm-Gladwell"
+		let blogEntries = [];
+
+		if (changedOnly) {
+			const changedDraftFiles = getChangedDraftMarkdownFiles();
+			if (changedDraftFiles.length === 0) {
+				console.log('No changed draft markdown files found in src/blog/people/drafts');
+				return;
+			}
+			console.log(`Found ${changedDraftFiles.length} changed draft files`);
+			blogEntries = await processBlogFiles(changedDraftFiles);
+		} else {
+			const rootDir = 'src/blog/people';
+			blogEntries = await processBlogEntries(rootDir);
+		}
 
 		if (personFilter) {
 			blogEntries = blogEntries.filter((e) => e.person === personFilter);

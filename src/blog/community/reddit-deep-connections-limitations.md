@@ -162,6 +162,8 @@ But if you're craving actual connection — not just engagement, not just acknow
 
 That requires a different structure. One that prioritizes the person behind the opinion. One that shows you [how different personality types communicate](/enneagram-corner/enneagram-communication-styles) so you can actually understand _why_ someone sees things differently.
 
+<!-- INTERNAL LINK TODO (add when published): In this closing section, add links to /community/how-minds-change-on-9takes (full framework) and /community/the-9takes-bridge-protocol (conversation tactics). -->
+
 <a href="/community/introducing-9takes">Check out what we're building</a> — or keep scrolling. But now you know why the scroll never satisfies.
 
 <!-- ## Comparing Platforms: 9takes vs. Reddit

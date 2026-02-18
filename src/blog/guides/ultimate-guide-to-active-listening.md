@@ -43,6 +43,8 @@ Through the Enneagram lens, listening gets even clearer. Each type has a predict
 
 This guide breaks down the neuroscience, the nine listening patterns, and the tactical fixes that actually work.
 
+<!-- INTERNAL LINK TODO (add when published): Near this intro, add links to /community/how-minds-change-on-9takes (model context) and /community/the-9takes-bridge-protocol (hard-conversation script). -->
+
 ## The $37 Billion Problem Nobody Talks About
 
 Quick diagnostic. Think about your last important conversation.

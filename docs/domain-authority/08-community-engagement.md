@@ -2,7 +2,7 @@
 
 # Domain Authority: Community & Platform Engagement
 
-_Last Modified: 2025-09-09_
+_Last Modified: 2026-02-17_
 _[Return to Master Index](./00-master-index.md) | [View START-HERE](../START-HERE.md)_
 
 ## Current Authority Status: 🟡 Developing (25 posts in /community + platform features)
@@ -25,6 +25,18 @@ The community platform demonstrates:
 - **Emotional Understanding:** Comments reveal the "why" behind opinions
 - **Safe Exploration:** Anonymity allows authentic sharing
 - **Give-First Philosophy:** Contributing before consuming builds quality discourse
+
+## New Strategic Positioning Opportunity
+
+Community content can be framed as a clear belief-change system, not only philosophy posts.
+
+### 3-Layer Model (Now Explicit)
+
+1. **Self (Rethinking):** Teach users to update their own views
+2. **Social (Identity Safety):** Teach users to disagree without dehumanizing
+3. **System (Design):** Show why 9takes mechanics reduce mimicry and performative conflict
+
+This turns `/community` into a differentiated lane: **depolarization by design**.
 
 ## Platform Features & Content
 
@@ -94,6 +106,14 @@ The community platform demonstrates:
 2. **Type Spotlights:** Weekly deep-dives on each type
 3. **Question of the Week:** Curated discussions
 4. **User Highlights:** Best answers and insights
+
+### Belief-Change Content Cluster (Priority)
+
+1. **Flagship:** `How Minds Change on 9takes: Self, Social, System`
+2. **Playbook:** `The 9takes Bridge Protocol`
+3. **Mechanics:** `Why 9takes Hides Comments Until You Answer`
+4. **Framework:** `Identity Threat Is the Real Argument`
+5. **Series:** `Belief Shift Stories` (ongoing social proof)
 
 ### Bridge Content
 
@@ -180,10 +200,10 @@ Platform features should link to:
 
 ### Immediate Priorities
 
-1. **Create Platform Onboarding Suite** - 5 guides
-2. **Develop Question Templates** - 50 starter questions
-3. **Build Email Nurture Sequence** - Platform activation
-4. **Design Social Proof System** - Badges, streaks, recognition
+1. **Publish mind-change flagship + playbook** - establish the new positioning spine
+2. **Create belief-shift question bank** - seed `/questions` with depolarization prompts
+3. **Retro-link existing community posts** - unify into one discoverable cluster
+4. **Build social proof loop** - recurring belief-shift stories from community threads
 
 ### Long-term Vision
 

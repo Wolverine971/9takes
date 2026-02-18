@@ -20,11 +20,17 @@
 	export let navTop = false;
 	export let name = 'modal';
 	export let id = '';
+	export let disableClose = false;
 
 	let onTop: HTMLDivElement | null = null;
 
 	function keyPress(ev: KeyboardEvent) {
-		if (ev.key === 'Escape' && onTop === topDiv) close(ev);
+		if (ev.key === 'Escape' && onTop === topDiv && !disableClose) close(ev);
+	}
+
+	function closeIfAllowed(retVal: any) {
+		if (disableClose) return;
+		close(retVal);
 	}
 
 	function open(callback?: (arg: any) => void) {
@@ -71,7 +77,7 @@
 	aria-modal="true"
 	aria-labelledby={name}
 	tabindex="-1"
-	on:click|self={close}
+	on:click|self={closeIfAllowed}
 	on:keydown={keyPress}
 >
 	<!-- Modal content container -->
@@ -82,7 +88,7 @@
 	>
 		{#if !navTop}
 			<button
-				on:click={close}
+				on:click={closeIfAllowed}
 				aria-label="Close dialog"
 				class="absolute right-4 top-4 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-slate-800/80 p-0 transition-all duration-200 hover:rotate-90 hover:bg-purple-900/50"
 			>

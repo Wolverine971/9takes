@@ -2,7 +2,7 @@
 
 # Domain Authority Master Index
 
-_Last Modified: 2025-12-04_
+_Last Modified: 2026-02-17_
 
 ## Executive Summary
 
@@ -143,7 +143,8 @@ A new TypeScript blog index has been created at `src/lib/components/molecules/bl
 
 - **Status:** 🟡 Developing - 25 posts + Q&A platform
 - **Unique:** Give-first commenting system with personality context
-- **Priority:** Activate platform features for differentiation
+- **New Lane:** Depolarization-by-design content cluster (self + social + system mind-change model)
+- **Priority:** Activate platform features and publish flagship mind-change framework content
 - **Potential:** Network effects and user-generated content
 
 #### 9. [Practical Guides](./09-guides-resources.md)

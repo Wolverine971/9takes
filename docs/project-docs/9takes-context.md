@@ -16,12 +16,21 @@ This document serves as the **core context engine** for 9takes - a personality-b
 
 Social media has become inauthentic, filled with echo chambers and performative behavior. 9takes aims to restore serendipity, playfulness, and realness by creating structure for productive online conversations.
 
+### 🧭 Strategic Framing: Depolarization by Design
+
+9takes is not only a personality content site. It is a conversation system designed to reduce polarization through structure.
+
+- **Mind-change layer 1 (Self):** Encourage rethinking and intellectual humility
+- **Mind-change layer 2 (Social):** Lower identity threat through emotionally aware dialogue
+- **Mind-change layer 3 (System):** Use give-first mechanics to reduce mimicry and reactive pile-ons
+
 ### 🧩 Unique Value Propositions
 
 1. **Give-First Mechanic**: Comments are revealed after you comment, not before. This ensures original, unbiased responses
 2. **Personality-Based Context**: Users are anonymous except for their Enneagram type, providing meaningful context without divisive demographics
 3. **Question-Centric Design**: Questions invite responses and create meaningful interactions, unlike posts that don't encourage dialogue
 4. **Open Source Conflict Resolution**: Transform personal dilemmas into crowd-sourced wisdom through diverse personality perspectives
+5. **Mind-Change Architecture**: Combine rethinking habits, identity-safe conversation patterns, and platform design that rewards curiosity over certainty
 
 ---
 
@@ -178,6 +187,8 @@ Hierarchical categorization system for questions across topics like relationship
 - **Give-First Intelligence**: "Comment first, then see everyone else's take"
 - **Personality-Maxing**: "Level up your EQ through tactical self-knowledge"
 - **Open Source Conflict Resolution**: "Turn conflict into understanding through crowd-sourced wisdom"
+- **Curiosity Over Certainty**: "You don't need to agree to understand; understanding is how minds start to move"
+- **Depolarization by Design**: "9takes lowers social pressure and identity threat so people can think before they perform"
 
 ---
 
@@ -300,6 +311,7 @@ CREATE TABLE comment_like (
 
 4. **Community Insights** (`/community/[slug]`)
    - Platform philosophy and behind-the-scenes content
+   - Mind-change and depolarization playbooks
    - Brand building and user education
    - Convert readers into engaged community members
 
@@ -326,7 +338,12 @@ CREATE TABLE comment_like (
    - Cross-link between content types to increase time on site
    - Convert content consumers into active community participants
 
-4. **Maintain Brand Voice**: Use tactical, socially-savvy language
+4. **Depolarization-by-Design Lens**: Build toward identity-safe disagreement
+   - Favor prompts and structures that reduce defensiveness
+   - Emphasize question-led exploration over adversarial framing
+   - Preserve user autonomy (invite, do not force belief change)
+
+5. **Maintain Brand Voice**: Use tactical, socially-savvy language
    - Focus on practical applications over abstract theory
    - Emphasize pattern recognition and emotional intelligence
    - Keep tone respectfully provocative and results-driven

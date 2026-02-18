@@ -4,117 +4,112 @@
 
 ## Objective
 
-Conduct a comprehensive Enneagram analysis of **{PERSON}** as a Type **{ENNEAGRAMTYPE}**, examining how their personality type manifests across their life story, behavior patterns, and psychological responses.
+Analyze **{PERSON}** as an Enneagram Type **{ENNEAGRAMTYPE}**, producing insights that are ready to drive a compelling narrative — not a clinical personality assessment.
 
-## Analysis Framework
+The goal is not to prove the typing is correct. The goal is to use the Enneagram framework to illuminate something about this person that wouldn't be visible otherwise.
 
-### Core Hypothesis
+## The Three Things This Analysis Must Produce
 
-**{PERSON}** demonstrates characteristics consistent with Enneagram Type **{ENNEAGRAMTYPE}**. This analysis will examine the evidence supporting this typing through biographical details and observable personality patterns.
+### 1. The Thesis: How the Type Resolves the Public Contradiction
 
-## Required Analysis Dimensions
+This is the single most important output of this step.
 
-### 1. Biographical Evidence
+Every great personality analysis uses the Enneagram to explain something that doesn't otherwise add up. The typing should resolve a misread, illuminate a paradox, or make a confusing behavior pattern click.
 
-**How does {PERSON}'s life story reflect Type {ENNEAGRAMTYPE} patterns?**
+**Frame it as:** "Most people see [public perception]. But if you understand Type {ENNEAGRAMTYPE}, the real driver is [deeper truth]."
 
-#### **Childhood and Formative Years**
+**Gold-standard examples:**
 
-- What childhood experiences align with Type **{ENNEAGRAMTYPE}** core wounds?
-- How did early life shape their personality development?
-- What patterns from childhood persist in their adult personality?
+- **Peter Thiel (Type 6):** "People see a power-hungry tech oligarch. But a man motivated by power buys influence. A man motivated by fear buys a parachute." The entire analysis flows from reframing the motivation from power to fear.
+- **Paris Hilton (Type 3):** "The woman packaged as a sex symbol was coping with sexual trauma. The performance that made her famous was originally a coping mechanism." The Type 3 achievement-as-identity pattern explains why the mask couldn't come off.
+- **Blake Lively (Type 1):** "She genuinely believes she operates from an internal compass unaffected by the external world, even as she spends enormous energy controlling what the external world sees." The Type 1 inner critic illuminates the control pattern.
 
-#### **Career and Life Choices**
+**Produce:** One clear thesis statement that resolves the central contradiction from the research phase.
 
-- How do their professional decisions reflect Type **{ENNEAGRAMTYPE}** motivations?
-- What attracts them to their chosen field/roles?
-- How do they approach challenges and opportunities?
+### 2. The Crystallizing Sentence
 
-#### **Relationship Patterns**
+Write the single best sentence you can that captures how this type manifests in this specific person. This sentence should be the "aha moment" — the line a reader would underline.
 
-- How do they interact with family, friends, and colleagues?
-- What relationship dynamics are consistent with Type **{ENNEAGRAMTYPE}**?
-- How do they handle conflict and intimacy?
+**Gold-standard examples:**
 
-### 2. Personality Manifestations
+- "Empathy arrived for Vance not as instinct but as intellectual achievement." (JD Vance, Type 3)
+- "The same protective instinct that made wounded soldiers beg to stay under his command is what made his children beg to leave the jiu-jitsu mat." (Jocko Willink, Type 8)
+- "The quest for security, taken far enough, becomes the thing that makes everyone else less safe." (Peter Thiel, Type 6)
 
-Analyze **{PERSON}** across these three dimensions:
+**Produce:** 2-3 candidate crystallizing sentences. The best one will likely end up in the blog's final paragraphs.
 
-#### **Thoughts** (Mental Patterns)
+### 3. The Surprise: What Would a Fan Not Expect?
 
-- **Core beliefs and worldview** - What assumptions do they make about life?
-- **Decision-making process** - How do they analyze situations and make choices?
-- **Internal dialogue** - What mental patterns show up in interviews/writing?
-- **Learning style** - How do they process and retain information?
-- **Problem-solving approach** - What mental strategies do they use?
+What does the Enneagram framework reveal about this person that a casual fan or even a dedicated follower wouldn't see?
 
-#### **Feelings** (Emotional Patterns)
+- What behavior seems random or extreme but makes perfect sense through this type's lens?
+- What connects two seemingly unrelated things in their life?
+- Where does their type expression diverge from the textbook version in a way that's revealing?
 
-- **Primary emotions** - What feelings dominate their experience?
-- **Emotional triggers** - What situations provoke strong reactions?
-- **Emotional expression** - How do they show or hide feelings?
-- **Emotional regulation** - How do they manage difficult emotions?
-- **Empathy patterns** - How do they connect with others emotionally?
+## Biographical Evidence Through the Type Lens
 
-#### **Actions** (Behavioral Patterns)
+### Childhood and the Core Wound
 
-- **Behavioral habits** - What do they consistently do/avoid?
-- **Communication style** - How do they interact with others?
-- **Work approach** - How do they tackle projects and responsibilities?
-- **Social behavior** - How do they navigate groups and relationships?
-- **Coping mechanisms** - What do they do when stressed or challenged?
+Type **{ENNEAGRAMTYPE}**'s core wound typically forms around [describe core wound for this type]. How does **{PERSON}**'s early life echo this pattern?
 
-### 3. Stress and Security Responses
+- What childhood experiences align with this type's formation?
+- What did love, safety, or approval feel like in their household?
+- What lesson did they learn early about how to get their needs met?
 
-#### **Stress Response (Disintegration to Type X)**
+**Don't diagnose the childhood. Illuminate the thread.** The reader should think "oh, THAT'S why they do that" — not "this proves they were traumatized."
 
-**When {PERSON} is under pressure, stressed, or overwhelmed:**
+### The Pattern Across Arenas
 
-- **Thoughts**: How does their thinking change when stressed?
-- **Feelings**: What emotions emerge under pressure?
-- **Actions**: What behaviors appear when they're struggling?
-- **Examples**: Specific instances where these patterns were visible
+How does the same core pattern show up across different domains of their life?
 
-#### **Security Response (Integration to Type X)**
+- **Career choices and work style** — What draws them to their field? How do they approach their craft?
+- **Relationships and loyalty** — How do they connect with people? What patterns repeat?
+- **Public persona vs. private self** — Where's the gap? How does the type explain the gap?
+- **Crisis response** — When things fall apart, what do they do? How does this match or contradict the type pattern?
 
-**When {PERSON} feels secure, confident, and healthy:**
+**The goal is coherence, not exhaustiveness.** Show how the same engine drives different behaviors across different contexts. If the analysis reveals a single through-line connecting childhood, career, relationships, and crisis response, it's working.
 
-- **Thoughts**: How does their mindset shift when feeling secure?
-- **Feelings**: What positive emotions become more prominent?
-- **Actions**: What healthy behaviors and growth patterns emerge?
-- **Examples**: Times when they demonstrated their best qualities
+### Stress and Security
 
-## Evidence Requirements
+#### Under Stress (Disintegration to Type X)
 
-### Primary Sources
+When **{PERSON}** is overwhelmed, threatened, or failing:
 
-1. **Direct quotes** from interviews, books, or speeches
-2. **Behavioral observations** from public appearances
-3. **Testimonials** from colleagues, friends, or family
-4. **Biographical details** from credible sources
-5. **Pattern consistency** across different life periods
+- What behaviors emerge that seem out of character?
+- What specific moments in their life show the stress pattern?
+- How does this match the Type **{ENNEAGRAMTYPE}** disintegration arrow?
 
-### Analysis Standards
+#### In Security (Integration to Type X)
 
-- **Support claims with evidence** - Each assertion should have examples
-- **Address contradictions** - Acknowledge behaviors that don't fit the type
-- **Show development over time** - How has their type expression evolved?
-- **Consider context** - How do circumstances affect their behavior?
-- **Maintain objectivity** - Balance positive and challenging aspects
+When **{PERSON}** is at their best, most relaxed, or most authentic:
+
+- What qualities emerge that their public image doesn't capture?
+- What specific moments show the growth pattern?
+- How does this match the Type **{ENNEAGRAMTYPE}** integration arrow?
+
+### Wings
+
+Which wing is dominant, and what evidence supports this?
+
+- How does the wing shade their expression of the core type?
+- Where does the wing explain something the core type alone doesn't?
+
+## Evidence Standards
+
+- **Every claim needs a specific example.** Not "they tend to be controlling" but "she presented a 17-point list of non-negotiable demands and told Sony to accept without revision or she'd walk."
+- **Address contradictions.** If some behavior doesn't fit the type, name it and explain it (wing, stress pattern, growth, or genuine anomaly).
+- **Show development over time.** How has their type expression evolved? Are they healthier, less healthy, or cycling?
+- **Use their own words.** The strongest evidence is the subject saying something that perfectly illustrates the pattern without knowing they're doing it.
 
 ## Output Requirements
 
-### Structure Your Analysis
+Present as a structured analysis with:
 
-1. **Type {ENNEAGRAMTYPE} Overview** - Brief description of the type's core patterns
-2. **Biographical Alignment** - How their life story supports this typing
-3. **Dimensional Analysis** - Thoughts, feelings, and actions breakdown
-4. **Stress/Security Patterns** - Integration and disintegration examples
-5. **Supporting Evidence** - Quotes and specific examples throughout
-
-### Quality Markers
-
-- **Specific examples** over general statements
-- **Balanced perspective** including growth and challenges
-- **Clear connections** between type theory and observable behavior
-- **Nuanced understanding** of how they're a unique expression of their type
+1. **The thesis** — One sentence: "Most people see [X]. But if you understand Type {ENNEAGRAMTYPE}, the real driver is [Y]."
+2. **The crystallizing sentence(s)** — 2-3 candidates for the "aha moment"
+3. **The surprise** — What a fan wouldn't expect
+4. **Biographical evidence** — Childhood → adult thread, career patterns, relationship patterns, crisis response
+5. **Stress/security analysis** — With specific examples
+6. **Wing analysis** — With evidence
+7. **Key quotes** — 5-10 quotes from the subject that illustrate the type pattern without them knowing it
+8. **The unresolved question** — What tension does this person carry that the Enneagram illuminates but doesn't resolve? (This often becomes the ending of the blog.)

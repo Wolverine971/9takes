@@ -53,18 +53,9 @@ Every blog must follow this tone philosophy. This is what differentiates 9takes 
 1. **State the Enneagram pattern authoritatively**: "Enneagram Fives tend to..." / "Many Type Eights share a pattern of..." / "A core fear for Type Fours is..."
 2. **Describe the inner experience**: What people of this type typically feel, think, and are motivated by
 3. **Bridge to the person with evidence**: "We can see evidence of this in [Person]'s..." / "[Person]'s behavior here echoes this pattern..."
-4. **Stay humble in the assessment**: Use language like "likely," "suggests," "we can see parallels," "this echoes," "there's evidence that" -- not "this proves" or "this is because they're a Type X"
+4. **Analyze with conviction, not excessive hedging**: The body of the blog should state patterns confidently and then show the evidence. The disclaimer at the bottom handles the speculation caveat. Don't undermine every insight with "likely," "suggests," "appears to be." The best blogs (Peter Thiel, Paris Hilton) analyze with authority: "[Person] is a Type X" followed by overwhelming evidence. The weaker blogs hedge so much they never land a punch. Reserve hedging language for genuinely ambiguous cases — not as a default tone.
 
-### Invite Reflection, Don't Dictate
-
-The reader should feel like they're being guided through an analysis, not told what to believe. Use questions and invitations:
-
-- "Does this remind you of someone in your life who..."
-- "Consider how this pattern might explain..."
-- "What's interesting is how this connects to..."
-- "If you look at [Person]'s response through this lens..."
-
-The goal: readers finish the blog thinking "that makes so much sense" rather than feeling lectured.
+**The confidence calibration:** Analyze the person as if the typing is correct and show why through evidence. The reader should feel the conviction of the analysis. A blog that says "Logan looks like a Type 3" is weaker than one that says "Logan Paul is a Type 3" and then proves it. The disclaimer exists for a reason — use it, and let the body of the blog be confident.
 
 ### Story First, Analysis Second (Anti-Fatigue Rule)
 
@@ -82,7 +73,7 @@ The strongest personality analysis reads like a compelling profile that _happens
 **Sections where explicit Enneagram analysis fits naturally:**
 
 - **"What is [Person]'s personality type?"** — the one section dedicated to direct analysis
-- **Conclusion** — tie themes together through the lens
+- **Final section** — the last analytical insight should land with force, then the blog ends abruptly
 - **One or two moments** in the personality or challenges sections where naming the type genuinely deepens understanding
 
 **The litmus test**: If you removed every sentence that explicitly mentions "Type X" or "Enneagram," would the blog still be a compelling, insightful profile? If yes, the Enneagram is being used well. If no, you're using the person to explain the Enneagram instead of using the Enneagram to illuminate the person.
@@ -156,7 +147,7 @@ Examples:
 - Be identified during the research phase (Steps 2-3) before writing begins
 - Appear in the intro — named or strongly implied within the first 5 paragraphs
 - Echo throughout the blog — different sections should illuminate different facets of the same tension
-- Inform the conclusion — the closing should revisit the tension without pretending it's resolved
+- Inform the ending — the final lines should leave the core tension unresolved and reverberating
 
 **If you can't find a core tension, dig deeper.** Every person has one. Sometimes it's obvious (public persona vs. private self). Sometimes it's buried (what they preach vs. what they struggle with). If the research doesn't reveal one, the research isn't deep enough.
 
@@ -213,6 +204,20 @@ Every blog should contain at least one moment where the Enneagram framework make
 - It makes the reader go "that makes so much sense" — about the person AND potentially about themselves or someone they know
 - It's specific, not generic. "Type 8s are intense" is not an aha moment. "The same protective instinct that made wounded soldiers beg to stay under his command is what made his children beg to leave the jiu-jitsu mat" IS.
 
+### Quote Density: Let the Subject Speak
+
+The strongest personality analyses are built from the subject's own words. Direct quotes should be the structural material of the blog — not decoration added to paraphrased summaries.
+
+**Targets:**
+
+- **High-impact sections** (trauma, relationships, self-reflection): 70-80% direct quotes with brief analytical bridges between them
+- **Narrative sections** (career, accomplishments): 40-60% quotes from the subject and people around them
+- **Analytical sections** (Enneagram typing): More authorial analysis, but still anchored by 2-3 key quotes
+
+**Why this matters:** The Paris Hilton blog (rated 9.0) is 90%+ Paris's own words. The Hasan Piker blog (rated 8.8) is dense with specific sourced quotes. The weaker blogs (Margot Robbie at 7.0, Tom Cruise at 7.2) paraphrase more than they quote, and it shows — they read like Wikipedia summaries rather than revealing profiles.
+
+**Also critical: Testimony from people around the subject.** Co-workers, collaborators, family, friends, and even intelligent critics. If the thesis is "she makes everyone better," other people need to say that. The Margot Robbie blog's biggest gap was zero co-star/director quotes.
+
 ### Prose That Hits
 
 The best blogs don't just analyze well — they're _written_ well. Personality analysis should read like a compelling magazine profile, not a psychology textbook.
@@ -226,6 +231,48 @@ The best blogs don't just analyze well — they're _written_ well. Personality a
 - **Vary the rhythm.** Long narrative passage → short punchy line → medium analytical paragraph → devastating one-liner. Monotonous rhythm puts readers to sleep regardless of content quality.
 
 **The test for prose quality:** Read a paragraph out loud. If it sounds like a textbook, rewrite it. If it sounds like a story being told by someone who genuinely finds this person fascinating, keep it.
+
+---
+
+## Gold-Standard Excerpts (Reference Material)
+
+These excerpts from the highest-rated blogs in the system show what the quality bar looks like in practice. Use them to calibrate your output.
+
+### Opening That Hooks and Names the Tension (Peter Thiel, rated 9.5)
+
+> After 9/11, Peter Thiel bought a parachute and kept it in his office on the 42nd floor of 555 California Street in San Francisco.
+>
+> Not a metaphor. An actual parachute, the kind you strap to your body and jump. [Source details.] While most of America processed the attacks through grief or patriotism or cable news, Thiel assessed the threat and acquired equipment for the worst case.
+>
+> That single detail tells you more about Peter Thiel than any op-ed about his political influence. It tells you he is not the power-hungry tech oligarch of popular imagination. A man motivated by power buys influence. A man motivated by fear buys a parachute.
+
+**Why it works:** Concrete detail (not a rhetorical question), immediate contradiction of public perception, core tension named in the first five paragraphs.
+
+### Quote-Dense Section That Lets the Subject Carry the Analysis (Paris Hilton, rated 9.0)
+
+> "I had no idea who these people were — just these two big men coming into my room in the middle of the night and literally grabbing me and carrying me from my bed. I thought I was being kidnapped."
+>
+> Her parents had hired a company to transport her to "emotional growth schools." She was sent to at least four of them, including Provo Canyon School in Utah, where she spent 11 months.
+>
+> "They would come in and target certain girls and bring us in a room and literally hold you down and have male and female staff — who are not even real doctors — just doing literal cervical exams on us."
+>
+> "In order to survive, I had to just think about who I wanted to be and what I wanted to become when I got out of there. 'I'm going to work so hard, become so successful, make so much money, that no one will ever control me or tell me what to do ever again.'"
+
+**Why it works:** The subject's own words ARE the analysis. Minimal authorial text between quotes. The reader draws their own conclusions.
+
+### Ending That Cuts to Black (Peter Thiel, rated 9.5)
+
+> Not a villain. Not a hero. A Six, doing what Sixes do. Watching. Preparing. Building. Fearing the worst. And hoping, against all the evidence his own mind generates, that the narrow path still exists.
+
+**Why it works:** No summary. No CTA. No "what does this mean for you?" Just the sharpest line, then silence. The reader is left with the image reverberating.
+
+### The Enneagram Resolving a Contradiction (Blake Lively, rated 8.8)
+
+> She genuinely believes she operates from an internal compass unaffected by the external world, even as she spends enormous energy controlling what the external world sees.
+>
+> That gap drives everything. The exquisite Met Gala appearances and the Kjersti Flaa incident. The three-year recipe development and the "Ryle You Wait" cocktail. The principled harassment complaint and the "rabid pig" texts.
+
+**Why it works:** The Enneagram framework (Type 1's self-image vs. reality) resolves a contradiction that would otherwise just look like hypocrisy. It makes the reader go "that makes so much sense."
 
 ---
 
@@ -773,7 +820,7 @@ Use `/docs/blogs-famous-people/writing-prompt-1.md` as a starting framework, not
 - Major accomplishments
 - Challenges, controversies, or traumas
 - Legacy and current work
-- Conclusion with engaging question
+- Strong ending that cuts to black at peak insight (NO summary, NO CTA)
 
 **How to tailor the structure:**
 
@@ -787,10 +834,28 @@ Use `/docs/blogs-famous-people/writing-prompt-1.md` as a starting framework, not
 **The intro's job:**
 The first 3-5 paragraphs must accomplish three things: (1) hook with a specific, vivid detail or quote, (2) name or strongly imply the core tension, and (3) create a psychological question the reader needs answered. By the end of the intro, the reader should feel "I need to understand this person." Compare: Chappell Roan's intro names the tension (fortress vs. vulnerability) and ends with "That tension... is what makes Chappell Roan one of the most psychologically interesting artists of her generation." The reader has a question now. Avoid intros that ask rhetorical questions and immediately answer them — that kills the tension.
 
-**The conclusion's job:**
-Don't summarize. Turn the mirror on the reader. The best conclusions restate the core tension without resolving it, then ask a question that makes the reader think about their own life. "What would it look like to set real boundaries while staying open?" "What would YOUR version of extreme ownership look like?" The reader should leave thinking about themselves, not just about the celebrity.
+**The ending (NO traditional conclusion):**
+Do NOT write a conclusion section. No summary, no CTA, no "what does this mean for you?", no mirror-on-reader question. The blog should end on its sharpest analytical insight and then stop. Cut to black. The reader should be left with a reverberating thought about the person — an unresolved tension, a haunting image, a question that lingers. If the analysis is good enough, the reader is already clicking the next person. Closure kills curiosity. End abruptly at the peak of insight, like a great movie that cuts to black at exactly the right second. Example: "He has been doing this for 44 films and he is getting faster. At some point you have to wonder: is he running toward something, or has the running itself become the point?" Then nothing.
 
-### Step 6: Generate Metadata
+### Step 6: Self-Review (MANDATORY)
+
+Before generating metadata or saving, review the draft against the Quality Checklist (at the end of this document). This step catches the problems that iteration and reader notes catch in the best blogs.
+
+**Run through every check. If any check fails, revise before proceeding.**
+
+Pay special attention to:
+
+- **Core tension**: Can you state it in one phrase? Is it in the intro and threaded through the piece?
+- **Swap test**: If you replaced the person's name, would the sections still work for any celebrity? If yes, restructure.
+- **Quote density**: Is the subject's voice the dominant material? Are there sections that are mostly paraphrase? Strengthen with direct quotes.
+- **Repetition**: Is any quote, anecdote, or concept used more than once? Keep the best placement, cut the rest.
+- **Ending**: Does it cut to black at peak insight? Or does it summarize, moralize, or ask the reader a question?
+- **Enneagram distribution**: Is explicit framing in at most 3-4 sections? Do the remaining sections work as pure narrative?
+- **Hedging**: Is the analysis confident? Or is it undermined by excessive "likely," "suggests," "appears to be"?
+
+**Add reviewer notes as HTML comments** (`<!-- -->`) for anything you'd flag for improvement but chose not to fix now. These notes are valuable for future iterations.
+
+### Step 7: Generate Metadata
 
 Generate frontmatter following the Triple-Title System (see Part 1):
 
@@ -820,7 +885,7 @@ tiktok: '[handle if available]'
 
 See **Valid Field Values Reference** in Part 1 for `type` and `suggestions` guidance.
 
-### Step 7: Save Draft and Add Links
+### Step 8: Save Draft and Add Links
 
 Save draft to `/src/blog/people/drafts/[Person-Name].md`.
 
@@ -844,15 +909,15 @@ Options:
 4. Continue editing later
 ```
 
-### Step 8: Review and Refinement
+### Step 9: Review and Refinement
 
 Allow iterative editing based on user feedback. Continue iterating until user says "submit" or "push it up."
 
-### Step 9: Database Submission
+### Step 10: Database Submission
 
 When the user approves (says "push it up," "submit," etc.), execute the **Database Push Method** from Part 1 immediately.
 
-### Step 10: Regenerate famousTypes.ts
+### Step 11: Regenerate famousTypes.ts
 
 After successful database push, run the generation script to update the published celebrities list:
 
@@ -862,7 +927,7 @@ node scripts/generate-famous-types.js
 
 This auto-generates `src/lib/components/molecules/famousTypes.ts` from the database, updating the listing pages with the new entry's `persona_title`, `lastmod`, and publication status.
 
-### Step 11: Image Handling
+### Step 12: Image Handling
 
 The blog system uses images at `static/types/[X]s/[Person-Name].webp` (full) and `static/types/[X]s/s-[Person-Name].webp` (small), where `[X]` is the Enneagram type number.
 
@@ -942,7 +1007,10 @@ Found existing blog for [Person Name]. Choose an option:
    - [ ] At least 2-3 sections read as compelling narrative without type labeling
    - [ ] Core tension is still identifiable and threaded through the piece
    - [ ] At least 3 small, specific moments that reveal big patterns
-   - [ ] Conclusion turns the mirror on the reader
+   - [ ] Ending cuts to black at peak insight — no summary, no CTA, no mirror-on-reader
+   - [ ] Subject's own words (direct quotes) are the dominant material, not paraphrase
+   - [ ] Analysis is confident — not undermined by excessive hedging ("likely," "suggests," "appears to be")
+   - [ ] Testimony from people around the subject is included (collaborators, friends, critics)
 
    **If any check fails, revise before proceeding.**
 
@@ -976,7 +1044,7 @@ Before finalizing any blog (new or updated):
 - [ ] **Public/private gap explored?** Does the blog show who this person is when the performance stops?
 - [ ] **Childhood → adult thread?** Is there a visible line from formative experiences to present behavior?
 - [ ] **Intro names the tension and creates a question?** Does the reader know what psychological question the blog is answering within the first 5 paragraphs?
-- [ ] **Conclusion turns the mirror?** Does the ending make the reader think about _themselves_, not just the celebrity?
+- [ ] **Ending cuts to black?** Does the blog end abruptly on its sharpest insight — no summary, no CTA, no wrap-up? Does it leave the reader wanting more?
 - [ ] **The swap test:** If you replaced this person's name with another celebrity's, would the blog still make sense? If yes, it's too generic.
 
 ### Tone & Structure
@@ -989,6 +1057,13 @@ Before finalizing any blog (new or updated):
 - [ ] Does the TL;DR tease patterns without spoiling the best stories?
 - [ ] Do at least half the sections work as pure narrative without explicit Enneagram labeling?
 - [ ] Would a reader who doesn't care about the Enneagram still find this a compelling profile?
+
+### Voice & Evidence
+
+- [ ] **Quote density**: Is the subject's voice (direct quotes) the dominant material? Or is most content paraphrased?
+- [ ] **Confidence**: Is the analysis confident? Or undermined by excessive "likely," "suggests," "appears to be"?
+- [ ] **Testimony**: Are there quotes from people around the subject (collaborators, friends, critics)?
+- [ ] **Section headings**: Are they person-specific ("The Tolkien Billionaire") or generic ("Personality Quirks")?
 
 ### Technical
 

@@ -4,351 +4,173 @@
 
 ## Article Objective
 
-Create an engaging, analytical blog post about **{PERSON}**'s Enneagram Type **{ENNEAGRAMTYPE}** personality that sparks curiosity about psychology and the Enneagram system.
+Create a compelling, psychologically revealing profile of **{PERSON}** that uses Enneagram Type **{ENNEAGRAMTYPE}** as a quiet analytical lens. The blog should read like the best long-form magazine profile you've ever read — one that happens to illuminate personality patterns.
 
 ## Target Audience
 
-- **Existing fans** of **{PERSON}** who want deeper psychological insights
+- **Existing fans** of **{PERSON}** who want to understand them at a deeper level
 - **Psychology enthusiasts** interested in personality analysis
 - **Enneagram newcomers** curious about the system
-- **General readers** seeking engaging celebrity content
+- **General readers** seeking genuinely insightful celebrity content
 
-## Content Goals
+## The Quality Bar
 
-1. **Humanize {PERSON}** - Show the authentic person behind the public image
-2. **Spark curiosity** about personality psychology and the Enneagram
-3. **Provide insights** that fans haven't considered before
-4. **Create engagement** that encourages further exploration
+Before writing, internalize this: the best personality analyses share five traits. Your blog must have all five.
 
-## Writing Voice and Style
+1. **One driving thesis that resolves a public contradiction.** Not "they're a driven Type 3" but "fear, not power, drives everything" (Peter Thiel) or "the performance that made her famous was a coping mechanism for trauma" (Paris Hilton). If you can't state the thesis in one phrase that would surprise a casual fan, dig deeper.
 
-### **Tone Requirements**
+2. **The Enneagram explains something non-obvious.** The framework should resolve a contradiction or make something click that wouldn't click otherwise. If you removed every Enneagram reference and the blog still made the same points, the Enneagram isn't doing enough work.
 
-- **Analytical yet accessible** - No academic jargon
-- **Unbiased and respectful** - Balanced perspective
-- **Conversational** - Write to one person, not a crowd
-- **Simple language** - Clear, not clever, write at a 7th to 8th-grade reading level
-- **Humanizing approach** - Make **{PERSON}** relatable
+3. **The subject's own words carry the analysis.** Direct quotes should be the structural material of the blog, not decoration. The best blogs are 60-80% the person's own words with attribution. Paraphrasing is the fallback, not the default.
 
-### **Enneagram Integration**
+4. **At least one "signature detail"** — a small, specific, seemingly minor moment that cracks open who someone really is. Not a headline accomplishment. A parachute in an office. Nightmares stopping after a documentary. A Wikipedia page corrected from "Spanish descent" to "Basque." This detail should be the most memorable thing in the piece.
 
-- **Don't over-explain** the Enneagram system
-- **Create wonder** about personality types
-- **Generate FOMO** to learn more about the Enneagram system
-- **Show practical application** through **{PERSON}**'s examples
+5. **Prose that hits.** Varied rhythm. Short sentences after long ones for impact. Understated lines that carry the most weight. If it sounds like a textbook, rewrite it. If it sounds like a story told by someone who finds this person genuinely fascinating, keep it.
 
-## Content Elements to Incorporate
+## Writing Voice
 
-### **Inner World Exploration**
+- **Analytical but never academic** — No jargon. Write at a 7th-8th grade reading level.
+- **Confident, not hedgy** — Analyze with conviction in the body. The disclaimer at the bottom handles the speculation caveat. Don't undermine every insight with "likely," "suggests," "appears to be." State the pattern, then show the evidence.
+- **Conversational** — Write to one person, not a crowd.
+- **Story-driven** — Lead with narrative, not declarations. Show the behavior, then name the pattern (or let the reader name it).
 
-Reveal **{PERSON}**'s unique expression of Type **{ENNEAGRAMTYPE}** through:
+## Structure Philosophy
 
-#### **Formative Experiences**
+**Every person has a different story. The structure should be tailored to what makes THIS person interesting, not forced into a cookie-cutter layout.**
 
-- **Childhood influences** and how they grew up
-- **Key challenges** they had to overcome
-- **Pivotal moments** that shaped their personality
-- **Life transitions** and their psychological impact
+### Required elements (but the order, emphasis, and section names must vary):
 
-#### **Psychological Landscape**
+- Opening quote and engaging intro that names the core tension
+- Their Enneagram typing with evidence (must include H2: "What is [Person]'s personality type?" and H3: "[Person] is an Enneagram Type X" for SEO)
+- Upbringing and formative experiences
+- Personality quirks, habits, and mindset
+- Major accomplishments
+- Challenges, controversies, or traumas
+- Legacy and current work
+- Strong ending that cuts to black at peak insight
 
-- **Inner dialogue** patterns and mental frameworks
-- **Core motivations** and what drives them
-- **Hidden insecurities** and vulnerabilities
-- **Personal growth** journey and evolution
+### How to tailor the structure:
 
-#### **Emotional Patterns**
+- **Lead with what defines them.** If the defining feature is overcoming trauma, open with that. If it's an obsessive work pattern, start there. Don't bury the most interesting thing in a generic section.
+- **Name sections after the person, not the category.** Not "Major Accomplishments" but "How She Built a $4 Billion Fragrance Empire While Playing Dumb." Not "Personality Quirks" but "The Tolkien Billionaire." Headings should only work for this person's blog.
+- **Combine or split sections based on the story.** If upbringing and rise to fame are intertwined, tell them together. If there are three distinct career chapters, give each its own section.
+- **Let the core tension dictate the arc.** The blog should feel like it's building toward a deeper understanding of the central contradiction, not just moving through career milestones chronologically.
 
-- **Stress triggers** and how they respond
-- **Sources of joy** and fulfillment
-- **Pride points** and personal accomplishments
-- **Shame or regret** areas (handled sensitively)
+### The swap test:
 
-#### **Behavioral Insights**
+If you replaced this person's name with another celebrity and the sections still made sense, the structure is too generic. Restructure until the blog could only be about this person.
 
-- **Daily habits** and routines
-- **Relationship choices** - who they surround themselves with and why
-- **Decision-making patterns** in various life areas
-- **Communication style** and interpersonal approach
+## The Opening (First 3-5 Paragraphs)
 
-## Writing Techniques and Structure
+The intro must accomplish three things:
 
-### **Evidence and Support**
+1. **Hook with a specific, vivid detail or quote.** Not a rhetorical question. Not a generic career summary. One concrete, surprising moment that pulls the reader in. (Peter Thiel: a parachute in his office after 9/11. Blake Lively: Taylor Swift's "mass corporate email" text. Paris Hilton: "I'm not [a dumb blonde] — but I'm just very good at pretending to be one.")
 
-- **Direct quotes** from **{PERSON}** with proper attribution
-- **Testimonials** from colleagues, friends, and collaborators
-- **Behavioral examples** from interviews, documentaries, and public appearances
-- **Specific anecdotes** that illustrate personality patterns
+2. **Name or strongly imply the core tension.** By the end of the intro, the reader should feel the contradiction: "Wait, that doesn't add up." (Thiel: "A man motivated by power buys influence. A man motivated by fear buys a parachute." Paris: "Why did she need a character at all?" Blake: "She built a flawless image for nearly two decades... and she's disappearing behind the curation.")
 
-### **Narrative Flow (1-3-1 Format)**
+3. **Create a psychological question the reader needs answered.** The intro should make the reader feel "I need to understand this person." Don't ask a rhetorical question and immediately answer it — that kills the tension.
 
-**Structure each section with:**
+## Quote Usage
 
-1. **One punchy opening** - Strong statement or provocative question
-2. **Three supporting details** - Examples, anecdotes, and context
-3. **One concluding insight** - Wrap-up that bridges to the next section
+The subject's own words are your most powerful material. Use them generously.
 
-### **Writing Style Elements**
+### Quote density targets:
 
-- **Conversational tone** - Like telling a friend about **{PERSON}**
-- **Anecdotal approach** - Story-driven rather than list-driven
-- **Varied sentence length** - Mix short punchy sentences with longer descriptive ones
-- **Authentic voice** - Let personality come through while staying professional
-- **Balance emotions** - Humor, vulnerability, and wisdom
+- **High-impact sections** (trauma, relationships, self-reflection): 70-80% direct quotes with brief analytical bridges
+- **Narrative sections** (career, accomplishments): 40-60% quotes from the subject and people around them
+- **Analytical sections** (Enneagram typing): More authorial analysis, but still anchored by 2-3 key quotes
 
-### **Content Organization**
+### Quote sourcing:
 
-- **Focus on 3-5 key insights** rather than surface-level coverage
-- **Jump between specific details** about **{PERSON}** and broader Type **{ENNEAGRAMTYPE}** patterns
-- **All subheadings** should focus on different aspects of **{PERSON}**
-- **Paragraph limits** - Keep under 700 characters for readability
+- **Always attribute clearly**: "In a 2023 appearance on [Podcast], [Person] said..."
+- **Prioritize unscripted moments**: Podcasts, long-form interviews, documentaries
+- **Include testimony from people around them**: Co-workers, collaborators, family, friends. If the thesis is "she makes everyone better," other people need to say that.
+- **Use the strongest quote in its strongest context**: Each quote appears exactly once.
 
-## SEO and Formatting Requirements
+## Enneagram Integration
 
-### **Markdown Structure**
+The Enneagram should feel like a quiet lens shaping the entire analysis, not a label stamped on each section.
 
-- Use proper **header hierarchy** (H2, H3, H4)
-- **Bold** key terms and **{PERSON}**'s name
-- **Bullet points** for easy scanning
-- **Short paragraphs** for mobile readability
+### Distribution rule:
 
-### **SEO Optimization**
+- Explicit Enneagram framing (naming the type, referencing theory) in **at most 3-4 sections**
+- Remaining sections tell the person's story and let the reader connect the dots
+- The litmus test: if you removed every sentence that explicitly mentions "Type X" or "Enneagram," would the blog still be a compelling, insightful profile?
 
-- **Include {PERSON}'s name** in headers and subheaders
-- **Creative, descriptive headings** that are skimmable
-- **Logical flow** between sections
-- **Target keywords** related to **{PERSON}** + personality/psychology
-- **Meta-friendly** content structure
+### Show, don't label:
 
-### **Paragraph Construction**
+- Describe behavior vividly and let it resonate
+- Save the explicit "this connects to Type X" for 2-3 moments where it genuinely deepens understanding
+- Maximum 2 uses per entire blog of phrases like "classic Type X" or "consistent with Type X patterns"
 
-- **Interdependent sentences** - Each sentence should build on the previous
-- **Coherent flow** - Removing any sentence should break the paragraph's logic
-- **Topic consistency** - Each paragraph focuses on one main idea
+## The Ending (NO Traditional Conclusion)
 
-### **Opening Requirements**
+Do NOT write a conclusion section. No summary, no CTA, no "what does this mean for you?", no mirror-on-reader question. The blog should end on its sharpest analytical insight and then stop. Cut to black.
 
-- **Start with a compelling quote** that reveals **{PERSON}**'s personality
-- **Quote sources**: Either from **{PERSON}** directly or from someone close to them
-- **Fan-directed intro** that creates FOMO for the analysis
-- **Hook the reader** with insights they haven't considered
+**What the ending should do:**
 
-## Required Blog Structure
+- End at the peak of insight — the most potent observation, image, or contradiction
+- Leave the thought reverberating — an unresolved tension, a haunting image, a question about the person
+- Create wanting, not closure — "I need to think about this more" beats "that was a nice read"
 
-### **Opening Section**
+**Gold-standard endings:**
 
-1. **Compelling quote** about/from **{PERSON}**
-2. **Fan-targeted intro** (2-3 sentences) creating curiosity
+> "Not a villain. Not a hero. A Six, doing what Sixes do. Watching. Preparing. Building. Fearing the worst. And hoping, against all the evidence his own mind generates, that the narrow path still exists."
 
-### **Personality Type Section**
+> "That version might be the most compelling one of all. But seeing it would require the one thing Blake Lively has spent her entire life avoiding: letting someone else hold the camera."
 
-1. **H2**: "What is {PERSON}'s personality type?" (SEO-optimized)
-2. **H3**: "{PERSON} is an Enneagram Type {ENNEAGRAMTYPE}" (Direct answer)
-3. **Type explanation**: Core characteristics, motivations, and typical patterns of Type **{ENNEAGRAMTYPE}**
+Then nothing. No summary. No reader question. No CTA. Just silence after the sharpest line.
 
-### **Main Content Focus**
+**The test:** Does the ending feel like a mic drop or like a flight attendant thanking you for flying? If it's the latter, cut everything after your strongest line.
 
-**Humanize {PERSON}** by exploring their inner world:
+## Prose Techniques
 
-- **Thought patterns** and mental frameworks
-- **Emotional responses** and feeling patterns
-- **Behavioral choices** and action tendencies
-- **Personal psychology** behind public persona
+- **Short sentences after long ones for impact.** "She set the terms. She always sets the terms."
+- **The understated line that carries the most weight.** "She never gave a gift like that again." (More devastating than a paragraph of analysis.)
+- **Show first, then explain (or don't explain at all).** Describe the behavior. Let the reader feel it before you name the pattern.
+- **End sections with punch, not summary.** "Every wound becomes ammunition. Every betrayal becomes a track." Not: "This shows that she processes pain through her music."
+- **Vary the rhythm.** Long narrative passage, short punchy line, medium analytical paragraph, devastating one-liner. Monotonous rhythm puts readers to sleep.
 
-### **Content Customization**
+## SEO and Formatting
 
-- **Tailor all sections** to **{PERSON}**'s specific life and experiences
-- **Make it personal** rather than generic type description
-- **Show unique expression** of Type **{ENNEAGRAMTYPE}** traits
+### Markdown Structure
 
-## Detailed Section Templates
+- Proper header hierarchy (H2, H3)
+- **Bold** key terms and the person's name
+- Short paragraphs for mobile readability (under 700 characters)
+- Bullet points for scanning where appropriate
 
-### **1. Opening**
+### SEO Requirements
 
-```markdown
-> "[Compelling quote from or about {PERSON}]"
+- Include the person's name in headers
+- Creative, descriptive headings that are skimmable
+- Meta description under 155 characters
+- Target keywords: [Person] + personality/psychology/Enneagram
 
-[2-3 sentence intro targeting fans, sparking curiosity about personality analysis]
-```
+## Prohibited Language
 
-### **2. Personality Type Identification**
-
-```markdown
-## What is {PERSON}'s Personality Type?
-
-### {PERSON} is an Enneagram Type {ENNEAGRAMTYPE}
-
-[Explain Type {ENNEAGRAMTYPE} characteristics, core motivations, typical patterns, and childhood wound. Break into digestible chunks with good flow.]
-```
-
-### **3. Formative Background**
-
-```markdown
-## {PERSON}'s Upbringing and Early Influences
-
-[Parents and significant childhood events]
-[How childhood shaped their personality]
-[Include quotes from family/friends with sources]
-```
-
-### **4. Career Development**
-
-```markdown
-## {PERSON}'s Rise to Fame
-
-[Their breakthrough moment with relevant quotes]
-[Collaborators' insights into their personality and talents]
-[How Type {ENNEAGRAMTYPE} traits contributed to their success]
-```
-
-### **5. Personality Deep Dive**
-
-```markdown
-## {PERSON}'s Personality Quirks and Mental Patterns
-
-[1-2 sentence section introduction]
-
-### [Specific Personality Quirk]
-
-[300-360 character description with quotes/examples]
-
-### [Notable Habit or Practice]
-
-[280-350 character description linking to Type {ENNEAGRAMTYPE}]
-
-### [Mindset or Thought Process]
-
-[270-330 character analysis with interview quotes]
-```
-
-### **6. Major Accomplishments**
-
-```markdown
-## {PERSON}'s Defining Achievements
-
-[Purpose: Highlight positive Type {ENNEAGRAMTYPE} qualities through 1-2 key accomplishments]
-
-### [Specific Accomplishment 1]
-
-[1-2 sentence introduction]
-[Work involved, collaborators mentioned, personality insights]
-
-### [Specific Accomplishment 2]
-
-[Process description, team dynamics, Type {ENNEAGRAMTYPE} patterns]
-```
-
-### **7. Challenges and Growth**
-
-```markdown
-## {PERSON}'s Public Struggles and Personal Growth
-
-[Specific controversies/criticisms with public perception]
-[How {PERSON} handled challenges - specific actions and quotes]
-[Likely internal experience - thoughts and feelings during difficulty]
-[Type {ENNEAGRAMTYPE} patterns in crisis response]
-[Long-term effects and personal growth]
-[Comparison to typical Type {ENNEAGRAMTYPE} responses]
-
-[Use H3 subheadings as needed for complex situations]
-```
-
-### **8. Current Focus and Future Direction**
-
-```markdown
-## {PERSON}'s Legacy and Current Projects
-
-[Recent activities and current work]
-[Future goals and aspirations]
-[How Type {ENNEAGRAMTYPE} motivations drive their current choices]
-```
-
-### **9. Conclusion Requirements**
-
-```markdown
-## [Engaging Conclusion Header]
-
-[Strong conclusion under 150 words that accomplishes:]
-
-1. **Transition signal** - Let readers know the analysis is concluding
-2. **Summary** - Key insights about {PERSON} and Type {ENNEAGRAMTYPE}
-3. **Curiosity hook** - End with specific question that sparks further interest
-```
-
-## Advanced Formatting Notes
-
-### **1-3-1 Section Structure**
-
-For each major section:
-
-1. **Punchy opening** - Provocative statement or question
-2. **3-5 supporting sentences** - Examples, anecdotes, context
-3. **Concluding insight** - Wrap-up thought
-4. **Transition bridge** - Connect to next section
-
-### **Readability Standards**
-
-- **Skimmable headers** - Reader should understand section focus immediately
-- **Logical progression** - Clear flow from one idea to the next
-- **Varied structure** - Don't make every section identical
-- **Mobile-friendly** - Short paragraphs, clear breaks
-
-## Writing Guidelines and Restrictions
-
-### **Prohibited Language**
-
-❌ **Avoid these overused words:**
+Avoid these overused words entirely:
 
 - Enigmatic, enigma
 - Delve, delving
 - Unravel, unraveling
 - Quintessential
 - Unveiling
-
-### **Narrative Techniques**
-
-✅ **Required approaches:**
-
-- **"Show, don't tell"** - Use examples and evidence rather than declarations
-- **Bursty sentence structure** - Mix short and long sentences
-- **Conversational tone** - Natural, engaging voice
-- **Concrete examples** over abstract concepts
-
-## SEO and Metadata Requirements
-
-### **H1 Title Format**
-
-```
-{PERSON}: [Personality Analysis Description]
-```
-
-- **Character limit**: 60 characters maximum
-- **Include person's name** and analysis focus
-- **Unique and compelling** for the individual
-
-### **Meta Description**
-
-- **Length**: Under 155 characters
-- **Include {PERSON}'s name** and "Enneagram Type {ENNEAGRAMTYPE}"
-- **SEO keywords**: personality, psychology, analysis
-- **Call to action** or curiosity hook
-
-### **Meta Title**
-
-- **Optimized for clicks** rather than just search
-- **Emotional appeal** and curiosity
-- **Different from H1** but complementary
-- **Include power words** that drive engagement
-
----
+- Tapestry
+- Multifaceted
+- Journey (as a metaphor)
 
 ## Final Quality Check
 
-Before completion, ensure the blog:
+Before completion, verify:
 
-- ✅ Humanizes **{PERSON}** effectively
-- ✅ Creates curiosity about Type **{ENNEAGRAMTYPE}**
-- ✅ Uses specific examples and quotes
-- ✅ Maintains conversational, analytical tone
-- ✅ Follows SEO best practices
-- ✅ Provides unique insights for fans
+- [ ] Can you state the core tension in one phrase ("[X] vs. [Y]")?
+- [ ] Is it threaded through intro, body, and ending?
+- [ ] Are there at least 3 small, specific moments that reveal big patterns?
+- [ ] Is there at least 1 "aha moment" where the Enneagram makes something click?
+- [ ] Is the subject's voice (direct quotes) the dominant material?
+- [ ] Does the ending cut to black at peak insight?
+- [ ] Would the swap test fail? (Could this blog only be about this person?)
+- [ ] Does it read like a compelling profile, not a personality assessment?
+- [ ] Is every quote used exactly once?
+- [ ] Do at least half the sections work as pure narrative without explicit Enneagram labeling?

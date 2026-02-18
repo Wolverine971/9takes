@@ -101,6 +101,8 @@ On most platforms, the first few comments set the frame. Everyone else reacts, c
 
 9takes flips that default. You write your take first, then you unlock the thread and compare how other people see the same question.
 
+<!-- INTERNAL LINK TODO (add when published): After this paragraph, link to /community/how-minds-change-on-9takes (anchor idea: "how minds change on 9takes") and /community/the-9takes-bridge-protocol (anchor idea: "a tactical protocol for hard conversations"). -->
+
 If you’re wondering about the design choices, the [Greek vibe is intentional](/community/why-the-greek-vibe).
 
 ## Why Social Media Isn't Social Anymore

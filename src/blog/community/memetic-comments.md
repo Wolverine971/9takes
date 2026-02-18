@@ -149,6 +149,8 @@ Moderators also shape the frame by enforcing norms and removing content—see [R
 
 **9takes inverts the model.** Speak first. Explore after. Think independently by design.
 
+<!-- INTERNAL LINK TODO (add when published): In this closing section, add links to /community/how-minds-change-on-9takes (for the full self/social/system framework) and /community/the-9takes-bridge-protocol (for tactical scripts). -->
+
 The mimetic loop can be broken. But not on platforms built to sustain it.
 
 <style lang="scss">

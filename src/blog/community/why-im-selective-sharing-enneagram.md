@@ -213,6 +213,8 @@ Next time you feel the urge to explain the Enneagram to someone, pause and ask:
 
 If you can answer these honestly, you'll know whether to speak or wait.
 
+<!-- INTERNAL LINK TODO (add when published): Before the tactical playbook, add links to /community/how-minds-change-on-9takes (identity-safety framework) and /community/the-9takes-bridge-protocol (scripts for difficult conversations). -->
+
 ## The Tactical Playbook
 
 **When you want to analyze them:**

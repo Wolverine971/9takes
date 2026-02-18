@@ -6,7 +6,7 @@ description: "What drives Channel 5's fearless journalist into QAnon rallies and
 author: 'DJ Wayne'
 date: '2026-01-20'
 loc: 'https://9takes.com/personality-analysis/Andrew-Callaghan'
-lastmod: '2026-01-20'
+lastmod: '2026-02-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -80,7 +80,7 @@ His teacher Calvin Shaw recognized something the system couldn't contain. Shaw m
 
 What did he write about? Interviewing people connected to the Silk Road darknet market. Embedding with Occupy Seattle protesters. Spending time with Juggalos. At 16, he was already doing the work that would define his career.
 
-This is pure Type 7 psychology. Give a Seven structure without constraint and they produce brilliance. Try to contain them and they resist.
+Give someone like Andrew structure without constraint and they produce brilliance. Try to contain them and they resist.
 
 His mother saw what the school system couldn't. Without telling Andrew, she submitted his work on Seattle graffiti culture to a congressional award program. He won a bronze Congressional Award during the Obama administration. That scholarship got him to Loyola University in New Orleans.
 
@@ -90,7 +90,7 @@ As a teenager, Andrew watched Seattle police shoot John T. Williams, a 55-year-o
 
 "I grew up to realize how incompatible that anarchistic worldview is with reality and with American society," he later reflected. "It can only exist in a small, little chamber."
 
-Type 7s flirt with extreme ideologies because anything promising a more interesting reality attracts them. Healthy 7s eventually recognize when a belief system becomes a cage rather than a key.
+Enthusiasts flirt with extreme ideologies because anything promising a more interesting reality attracts them. The healthy ones eventually recognize when a belief system becomes a cage rather than a key.
 
 At Loyola, Andrew worked as a doorman on Bourbon Street. He witnessed what he called "hellish scenes."
 
@@ -112,7 +112,7 @@ Then it fell apart.
 
 In 2021, Andrew discovered his contract with Doing Things Media was a trap. He'd signed away intellectual property rights for a $45,000 salary. Patreon revenue split 60% to the company, 20% to Andrew, 20% to crew.
 
-The core Type 7 nightmare: trapped.
+Trapped. The one thing he can't tolerate.
 
 Instead of spiraling, he pivoted. He left with two friends: Nic Mosher (a videographer he'd met in college) and Evan Gilbert-Katz (a videographer he'd known since age 13).
 
@@ -134,7 +134,7 @@ One scene reveals how intertwined filmmaker and subject had become. During the 2
 
 At $5.55 per rental through DearKellyFilm.com, Andrew bypassed traditional gatekeepers entirely.
 
-From Bourbon Street doorman to one of the most influential journalists of his generation. Not luck. Type 7 relentlessness.
+From Bourbon Street doorman to one of the most influential independent journalists of his generation — built on the same restless energy that made him hitchhike across America at 19.
 
 ## Andrew Callaghan's Personality: The Patterns Behind the Microphone
 
@@ -142,17 +142,19 @@ From Bourbon Street doorman to one of the most influential journalists of his ge
 
 "Interview like a toddler."
 
-That's Andrew's technique. Ask simple questions. Don't lead. Just listen. Let silence work.
+That's Andrew's technique. Ask simple questions. Don't lead. Just listen. Let silence work. He calls the key move "toddler nodding": "You give people just enough of a nod and affirmation to keep going down their tangent, but not so much as to agree with them completely."
 
-Sounds basic. Watch it in action and you'll see why it's not.
+Sounds basic. In practice, it unlocks things no other technique can.
 
-Andrew combines what he calls "radical listening" with subtle nonverbal cues, "toddler nodding," to encourage elaboration without judgment. No agenda. No gotcha waiting.
+During the Minneapolis protests after George Floyd's murder, a collaborator handed Andrew a microphone and told him to go talk to a man who'd just burned down a Kmart. His only question: "What's on your mind?" That single opener, the simplest possible, generated raw testimony that cable news crews standing nearby couldn't get.
 
-People say things to Andrew they'd never say to a traditional journalist. QAnon believers explain their entire worldview. White supremacists reveal their fears. Politicians drop their guard.
+In _This Place Rules_, the technique produces something darker. Andrew spent hours interviewing Dave Todeschini, a QAnon believer who ranted about pedophiles and the Clintons. Andrew nodded. Let him talk. Then, at a Culver's restaurant, he pulled out legal paperwork: "On May 19, 1999, you were convicted of sexual abuse in the first degree and sodomy in the second degree of an eight-year-old boy in New Jersey. So, according to this paper, you are a registered sex offender and a convicted pedophile." Todeschini insisted it was a "false conviction." He had a gun on his waist. Andrew later admitted he feared for his life.
+
+The patience makes the confrontation devastating. Traditional journalists would have led with the records. Andrew let the subject build his own scaffold first.
 
 "Everyone wants to be covered, everyone wants to be talked to, and everyone loves attention," Andrew has observed. "If you're a journalist, you basically get a free pass into any walk of life."
 
-This isn't manipulation. It's genuine Type 7 curiosity applied to journalism. 7s want to understand everyone because connection is how they stay engaged with life.
+This isn't manipulation. It's genuine curiosity weaponized as journalism.
 
 ### The Exploitation Question
 
@@ -188,17 +190,17 @@ Despite success, Andrew shops at Walmart. His take on sunglasses: "If you spend 
 
 He still has his RV, though it's become "more of a leisure item than an actual method of journalism." He rents in LA as an "editing center of operations" but remains fundamentally nomadic.
 
-This frugality isn't poverty cosplay. It's Type 7 fear of being trapped by possessions. The less you own, the easier you move. The easier you move, the less pain catches you.
+This frugality isn't poverty cosplay. It's freedom insurance. The less you own, the faster you can leave.
 
-## The 2023 Allegations: A Type 7 in Crisis
+## The 2023 Allegations: Spiral and Rebuild
 
 In January 2023, multiple women accused Andrew of sexual coercion. The timing was brutal: two days after _This Place Rules_ premiered on HBO.
 
 A woman named Caroline Elise posted a TikTok alleging Andrew had stayed at her house and "wore her down" with requests for sex until she agreed.
 
-Days later, another woman named Dana came forward: "I told him to stop. I told him to get off of me multiple times."
+Days later, another woman named Dana made a public allegation: "I told him to stop. I told him to get off of me multiple times."
 
-In February 2023, _The Stranger_ published a story with two more women accusing Andrew of rape and sexual assault at Loyola University in 2017.
+In February 2023, _The Stranger_ published a story with two additional women alleging rape and sexual assault at Loyola University in 2017.
 
 What followed was a public breakdown.
 
@@ -206,15 +208,15 @@ Within 48 hours, his closest collaborators denounced him. His name appeared in 4
 
 Tim Heidecker, who produced _This Place Rules_, addressed the allegations on his podcast: "We have no professional relationship with Andrew at this time and have no plans going forward to have any relationship with him. We believe these women that came forward and, of course, totally condemn the type of behavior that Andrew's being accused of."
 
-"I just kind of spiraled into a mental health crisis," Andrew admitted in a YouTube apology video. He ended up in a psychiatric facility with panic attacks. He described his actions as "sex pest behavior" that he believes has been normalized among young men.
+"I just kind of spiraled into a mental health crisis," Andrew admitted in a YouTube apology video. He ended up in a psychiatric facility with panic attacks. He characterized his own behavior as "sex pest behavior" that he believes has been normalized among young men.
 
-This is textbook Type 7 stress response.
+This is the Enthusiast's stress response, textbook.
 
-Under extreme pressure, 7s disintegrate toward Type 1. They become harshly self-critical. Binary in their thinking. Desperate to "fix" what's broken.
+Under extreme pressure, Sevens disintegrate toward [Type 1](/enneagram-corner/enneagram-type-1). They become harshly self-critical. Binary in their thinking. Desperate to "fix" what's broken.
 
 "Up until this point, I didn't really realize that I had this pattern that had affected multiple people," Andrew said. "Before treatment, I had a pretty binary view of how things unfolded. It was either you're the good guy or you're the bad guy."
 
-His recovery path was characteristically Type 7: therapy, a 12-step program, and a reframe. "What I learned is there's actually a middle ground between fucking up and getting fucked over."
+His recovery path was characteristically Enthusiast: therapy, a 12-step program, and a reframe. "What I learned is there's actually a middle ground between fucking up and getting fucked over."
 
 He acknowledged using substances to "feel something" or "feel anything." He now has a girlfriend who's "dead sober," which he credits as part of maintaining his sobriety.
 
@@ -222,42 +224,58 @@ Nine months later, he returned to YouTube. "I take my job a lot more seriously n
 
 The controversy hasn't disappeared. No legal consequences have been publicly reported. But the professional fallout was real: collaborators gone, HBO relationship ended, reputation permanently complicated.
 
-Whether that's sufficient accountability is a separate question. As psychology, it's consistent with how Type 7s handle crisis. They don't sit in wreckage. They build something new from it.
+Whether that's sufficient accountability is a separate question. Psychologically, the pattern is recognizable: don't sit in wreckage. Build something new from it.
 
 ## Andrew Callaghan's Legacy and Current Work
 
-Andrew proved something: man-on-the-street interviews can capture America's political unconscious better than cable news. Empathy toward people with abhorrent views yields more insight than confrontation. Independent creators can compete with HBO.
+### Why He Resonates
 
-His work on January 6, QAnon, and fringe political movements will be studied for years.
+Andrew proved something the industry didn't want to admit: man-on-the-street interviews can capture America's political unconscious better than cable news.
 
-At 28 in 2026, he's positioned for decades more work.
+"I provide a gateway to engagement with reporting for people who don't watch the news," he told the Nieman Journalism Lab in 2022. "People who don't watch the news watch me."
 
-In May 2025, Channel 5 reacquired All Gas No Brakes. The brand that started it all was back under Andrew's control.
+That's the cultural itch he scratches. As trust in mainstream media collapsed through the 2020s, viewers flocked to creators who felt unmediated and authentic. The Michigan Daily described his work as capturing "the American condition in a twenty-minute vignette — a condition of confusion, contradiction, absurdity, animosity and hilarity." He doesn't explain fringe subcultures from a studio. He stands inside them and lets viewers draw their own conclusions.
 
-In July 2025, he released a three-hour interview with Hunter Biden that generated immediate controversy. Biden discussed substance use, called George Clooney's op-ed questioning Joe Biden's 2024 candidacy bullshit ("Fuck him," he said), and claimed Melania Trump met Donald Trump through Jeffrey Epstein. Melania's lawyers demanded a retraction. Biden declined to apologize.
+His work on January 6, QAnon, and fringe political movements will be studied for years. At 28 in 2026, he's positioned for decades more.
 
-Recent Channel 5 episodes have tackled San Francisco's drug crisis, homeless populations in Las Vegas underground tunnels, and carjacking teenagers in Connecticut known as the Kia Boyz. He launched a podcast, 5CAST, featuring interviews with figures like Pete Buttigieg.
+### The New Operation
 
-Channel 5 remains one of YouTube's most important independent journalism outlets. The question nobody's answered: who's filming now that Nic and Evan are gone?
+After Nic and Evan's departure, Channel 5 rebuilt. _Dear Kelly_ was co-directed by Jarrod Nicoson and Elliot Liedgren, signaling the new core team. The production has scaled beyond the original three-man RV model — though Andrew's on-camera presence and interview style remain the throughline.
+
+The content itself has shifted. The early All Gas No Brakes videos were short, comedic man-on-the-street edits. Now Channel 5 produces long-form documentaries, a podcast (5CAST) with sit-down interviews featuring figures like Pete Buttigieg, and recent episodes tackling San Francisco's drug crisis, Las Vegas underground tunnel communities, and carjacking teenagers in Connecticut known as the Kia Boyz.
+
+"I'm trying to get out of troll territory," Andrew has said. "I care about politics."
+
+### 2025: The Comeback Year
+
+In May 2025, Channel 5 reacquired All Gas No Brakes. Andrew used _Dear Kelly_ proceeds to buy back the brand, announcing it on Patreon: "WE BOUGHT ALL GAS NO BRAKES BACK!!" The name that started it all was his again.
+
+In July 2025, he released a three-hour interview with Hunter Biden on 5CAST that generated immediate controversy. Biden discussed substance use, called George Clooney's op-ed questioning his father's 2024 candidacy bullshit ("Fuck him," he said), and sat for what became one of Channel 5's most-viewed episodes.
+
+The bigger explosion came in August, when a follow-up segment aired Biden claiming that Jeffrey Epstein introduced Melania to Donald Trump. Within 24 hours, Melania's attorney sent a letter demanding a "full and fair retraction" and threatening a billion-dollar lawsuit. Biden refused: "Fuck that, that's not going to happen."
+
+The fallout spread. Andrew had written an op-ed for the New York Times about the pitfalls of new media — a "survival guide" for young journalists. The Times pulled it 24 hours before publication, telling him "We have to pick our battles here." He published the full redacted text on Patreon.
+
+"New media's rise threatens press legitimacy," Andrew warned in subsequent interviews. Podcasters and social media influencers "are run by pundits, not journalists, who rely on the news broken by traditional outlets" and have "a parasitic relationship with the very industry they're trying to replace."
+
+In early 2026, Channel 5 launched Canal Cinco — Spanish-language reporting from Latin America with professional dubbing of classic Channel 5 episodes. He's also touring nationally with the "All Gas No Brakes x Channel 5 Carnival," a live show featuring musicians, rap battles, and forbidden video screenings, hitting venues from Brooklyn Paramount to San Francisco's Palace of Fine Arts.
+
+3.38 million subscribers. A reacquired brand. A Spanish-language expansion. A national tour. Whatever you think of Andrew Callaghan, he's not slowing down.
 
 ## Understanding the Restless Reporter
 
 What does Andrew Callaghan's psychology reveal?
 
-Type 7 energy, channeled constructively, creates remarkable work. Genuine curiosity outperforms gotcha journalism every time. Pain avoidance, while potentially destructive, can fuel creative output that matters.
+Restless energy, channeled constructively, creates remarkable work. Genuine curiosity outperforms gotcha journalism every time. Pain avoidance, while potentially destructive, can fuel creative output that matters.
 
-Andrew runs toward chaos because chaos keeps him alive. He talks to conspiracy theorists because talking to everyone means never being alone with his own thoughts. He built an empire from an RV because stability felt like a trap.
-
-Healthy? Not entirely. But it produced journalism that reshaped how America sees its fringes.
+Andrew runs toward chaos because chaos keeps him engaged. He talks to conspiracy theorists because talking to everyone means never sitting alone with his own thoughts. He built an empire from an RV because the alternative — settling down, slowing down — felt suffocating.
 
 What happens when someone who's always running finally stops?
 
-Andrew Callaghan is still answering that question. He's 28 with a sober girlfriend, a reacquired brand, a controversial documentary career, and lingering questions about who he is when the camera stops rolling.
+At 28, Andrew is still answering that question. Sober girlfriend. Reacquired brand. A controversial documentary career. Lingering questions about who he is when the camera stops rolling.
 
-His childhood friends no longer film with him. His HBO relationship is over. And yet the work continues. Bigger. More serious. More consequential.
+His childhood friends no longer film with him. His HBO relationship is over. And yet the work continues — bigger, more serious, more consequential.
 
 The man who hated every classroom now educates millions. The kid who joined black bloc protests now facilitates conversations between political enemies. The doorman who witnessed "hellish scenes" now documents America's shadow self with empathy that makes people uncomfortable.
 
-That's not contradiction. That's Type 7 adaptation at work.
-
-Whatever comes next will be worth watching.
+That's not contradiction. That's adaptation.

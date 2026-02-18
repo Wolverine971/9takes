@@ -17,6 +17,13 @@
 	let question = $state('');
 	let url = $state('');
 	let loading = $state(false);
+	type CreateProgressStage = 'saving' | 'generatingImage' | 'redirecting';
+	let createProgressStage = $state<CreateProgressStage>('saving');
+	let createProgressMessage = $derived.by(() => {
+		if (createProgressStage === 'saving') return 'Saving your question...';
+		if (createProgressStage === 'generatingImage') return 'Preparing your question card...';
+		return 'Question created. Taking you there now...';
+	});
 	let qrImageSrc = $state('');
 	let imgPreview = $state('');
 	let html2canvasModule = $state<
@@ -98,6 +105,8 @@
 
 			const data = await response.json();
 			url = JSON.parse(data?.data)?.[0];
+			createProgressStage = 'saving';
+			loading = false;
 
 			if (!url) {
 				throw new Error('No URL generated');
@@ -187,7 +196,9 @@
 
 	async function createQuestion() {
 		try {
+			if (loading) return;
 			loading = true;
+			createProgressStage = 'saving';
 
 			if (!data?.session?.user?.id) {
 				notifications.info('Please login to create a question', 3000);
@@ -225,6 +236,7 @@
 
 			if (questionId) {
 				try {
+					createProgressStage = 'generatingImage';
 					const png = await generateQuestionImage('question-pic');
 					// Check image size (rough estimate: base64 is ~1.37x larger than binary)
 					const estimatedSize = png.length * 0.75;
@@ -247,14 +259,14 @@
 				}
 			}
 
-			getModal('question-create').close();
+			createProgressStage = 'redirecting';
 			notifications.success('Question created successfully!', 3000);
-			goto(`/questions/${url}`);
+			await goto(`/questions/${url}`);
 		} catch (error) {
 			console.error('Error creating question:', error);
 			const message = error instanceof Error ? error.message : 'Failed to create question';
 			notifications.danger(message, 5000);
-			getModal('question-create').close();
+			createProgressStage = 'saving';
 		} finally {
 			loading = false;
 		}
@@ -333,30 +345,44 @@
 	</p>
 </div>
 
-<Modal2 id="question-create" name="create question">
+<Modal2 id="question-create" name="create question" navTop={loading} disableClose={loading}>
 	<div
-		class="w-full max-w-2xl rounded-3xl border border-slate-700/30 bg-[#12121a] p-6 text-slate-200 shadow-[0_0_30px_rgba(0,0,0,0.5)] sm:p-8"
+		class="relative w-full max-w-2xl rounded-3xl border border-slate-700/30 bg-[#12121a] p-6 text-slate-200 shadow-[0_0_30px_rgba(0,0,0,0.5)] sm:p-8"
 		in:fade={{ duration: 300 }}
+		aria-busy={loading}
 	>
-		<h2 class="mt-0 text-2xl font-semibold text-purple-400">Create Question</h2>
-
-		<div class="mt-4 rounded-2xl border border-purple-500/30 bg-[#1a1a2e] p-4" id="question-pic">
-			<QuestionDisplay question={{ id: '', url: '', question, question_formatted: '' }} />
-			<p class="mt-4 text-center text-sm text-slate-400">
-				<strong class="text-base font-semibold text-slate-200">
-					https://9takes.com/questions/{url}
-				</strong>
-			</p>
-		</div>
-		<button
-			class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition hover:from-purple-500 hover:to-purple-600 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)]"
-			onclick={createQuestion}
-		>
-			{#if loading}
+		{#if loading}
+			<div
+				class="absolute inset-0 z-20 flex flex-col items-center justify-center rounded-3xl bg-[#12121a]/95 px-6 text-center"
+				in:fade={{ duration: 150 }}
+			>
 				<div class="loader"></div>
-			{:else}
-				Create <RightIcon iconStyle="margin-left: .5rem;" height="1.5rem" fill="#ffffff" />
-			{/if}
-		</button>
+				<h3 class="mt-5 text-xl font-semibold text-purple-300">
+					{createProgressStage === 'redirecting' ? 'Question Created' : 'Creating Question'}
+				</h3>
+				<p class="mt-2 max-w-sm text-sm text-slate-300">{createProgressMessage}</p>
+			</div>
+		{/if}
+
+		<div class={loading ? 'pointer-events-none select-none opacity-40' : ''}>
+			<h2 class="mt-0 text-2xl font-semibold text-purple-400">Create Question</h2>
+
+			<div class="mt-4 rounded-2xl border border-purple-500/30 bg-[#1a1a2e] p-4" id="question-pic">
+				<QuestionDisplay question={{ id: '', url: '', question, question_formatted: '' }} />
+				<p class="mt-4 text-center text-sm text-slate-400">
+					<strong class="text-base font-semibold text-slate-200">
+						https://9takes.com/questions/{url}
+					</strong>
+				</p>
+			</div>
+			<button
+				class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition hover:from-purple-500 hover:to-purple-600 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] disabled:cursor-not-allowed disabled:opacity-70"
+				onclick={createQuestion}
+				disabled={loading}
+			>
+				Yes, create question
+				<RightIcon iconStyle="margin-left: .5rem;" height="1.5rem" fill="#ffffff" />
+			</button>
+		</div>
 	</div>
 </Modal2>
