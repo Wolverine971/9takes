@@ -19,7 +19,28 @@ twitter: ''
 instagram: 'leonardodicaprio'
 tiktok: ''
 path: src/blog/people/drafts/Leonardo-DiCaprio.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-19'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-19):
+- The Bosch painting hook is one of the best in the collection. A triptych of paradise, excess, and ruin hung above an infant's crib — and the man grows up to alternate between Hollywood excess and climate activism while processing a childhood on a drug-dealer corner. The metaphor drives the entire piece and the ending returns to it: "Every garden has a third panel."
+- The Type 7 analysis is deeply structural: franchise refusals as freedom-protection, OCD as the stress arrow to Type 1, growth toward Type 5 through the Scorsese "cinema education." The piece explains something genuinely non-obvious: why the most expressive actor alive says "I don't have emotions about a lot of things." The Seven's operating system — excitement as the acceptable channel — cracks open the paradox.
+- Evidence is exceptional: Rolling Stone, Esquire, Wired, Interview Magazine, Newsweek, USA Weekend. Collaborator testimony from Cameron, Scorsese, Winslet, Robbie, Hallström, Iñárritu, De Niro, P.T. Anderson. Specific details: raw bison liver, crushed glass standing ovation, shark in diving cage, both parachutes failing, "Lenny Williams" headshot torn up.
+- Prose is some of the best in the collection. "He was five years old when a man in a trenchcoat, carrying needles and crack, cornered him on the street." "The name stayed Leonardo DiCaprio." "A Seven doesn't stop because the danger got real. He stops when the experience gets boring."
+- The dating pattern section handles sensitive material with analytical precision rather than gossip — mapping it cleanly to Type 7 fear of limitation without moralizing.
+- TO REACH A+: (1) The counter-typing could be slightly more explicit — a brief "isn't he a 3?" paragraph would strengthen the typing defense, since mega-successful actors are often assumed to be Threes. (2) The "Prince of the City" nightclub section is interesting but could be tighter — it's the one section that drifts slightly from the psychological thesis.
+-->
 
 > "I've always been wild... I can't say it any more simply than that. But acting is the only time when I truly maintain the spontaneity that I want to be present at all times."
 

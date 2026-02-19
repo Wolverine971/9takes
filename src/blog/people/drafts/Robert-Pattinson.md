@@ -19,7 +19,28 @@ twitter: ''
 instagram: 'robertpattinsonofficial'
 tiktok: ''
 path: src/blog/people/drafts/Robert-Pattinson.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-19'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-19):
+- SIGNATURE DETAIL: "Headphones over the bat ears" — making beats in full Batman costume that nobody will ever hear. This one image captures the entire Type 4 analysis and gives the piece its emotional center.
+- BEST SECTION: "The Liar Who Can't Stop Telling the Truth" — "He can't be genuine in a fake environment, so he becomes honestly fake instead" is the genuine aha moment. This is Type 4 psychology doing WORK without being labeled as such.
+- STRUCTURAL ARC: The Claudia childhood detail threading to "Maybe it ends at a playground" gives the piece a complete identity-search arc. The fatherhood anchor resolves the central thesis (man who doesn't feel real finds something real) without being sentimental.
+- NEEDS WORK: No explicit counter-typing — a brief passage addressing why he's not a Type 5 (intellectual hermit, withdrawn) or Type 9 (disappearing, conflict-avoidant) would strengthen the Enneagram section. The evidence is so thorough it's implicitly handled, but the best blogs address it directly.
+- NEEDS WORK: "The Career They Said Was Over" and "Becoming Unrecognizable" list directors somewhat sequentially (Cronenberg → Safdies → Denis → Eggers), which gets catalog-like. The individual moments are strong (Dunkin' Donuts in character, rock in shoe) but the structure could be more thematic than chronological.
+- TO REACH A+: (1) Add 2-3 sentences of explicit counter-typing. (2) Go deeper on shame as core emotion — the lie detector moments are good but an immersive scene showing what that shame FEELS like (not just what he said about it) would elevate. (3) Tighten "What Comes Next" — the project list is informational; fold the best details into the preceding sections and let the piece end sooner at the philosophy quote.
+-->
 
 > "I don't really know how to act. I kind of wanted to somehow make it real."
 

@@ -18,7 +18,28 @@ twitter: 'KristenBell'
 instagram: 'kristenanniebell'
 tiktok: ''
 path: src/blog/people/drafts/Kristen-Bell.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 8
+  writing: 8
+  originality: 8
+  overall: 8.0
+  letter: B
+  graded_at: '2026-02-19'
 ---
+
+<!-- QUALITY GRADE: B (8.0)
+Hook: 8 | Enneagram: 8 | Evidence: 8 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-19):
+- Strong hook: "The question that I repeated over and over in my head is: what is wrong with me?" immediately creates tension. The juxtaposition with SAG Awards host and Golden Globe nominee works well. Clean thesis setup.
+- The Enneagram integration is well-done — "systems thinker for feelings" is fresh language that avoids Helper clichés. The codependency awakening with Dax ("that's not a compliment") is specific and revealing. Integration to Type 4 (authenticity over approval) is explicitly named through the anniversary post section.
+- "She was a banana. And that was enough." is a memorable line. The remedy box as physical object is a signature detail. Bell's infidelity answer on Mom's Car podcast is genuinely surprising.
+- NEEDS WORK: The piece is uniformly solid but lacks the one devastating emotional moment that elevates to B+ or A level. The strongest sections (codependency awakening, anniversary post) are good but told rather than shown — we hear about the growth more than we feel it. The Dax marriage section could go deeper into a specific fight or repair moment rather than describing their system.
+- The career map section (Veronica Mars, Eleanor, Anna, Joanne) feels like a list of observations rather than analysis — each show maps to Helper traits but the insight doesn't go beyond "she plays helpers." The piece needs one scene where we're IN the room with Bell at her most vulnerable.
+- TO REACH B+: (1) Add one emotionally immersive scene — the parking lot audition story is close but told quickly. Expand it, or find another moment where Bell's control breaks and we see the full weight of the Helper wound. (2) In the marriage section, give us one specific fight-and-repair instead of describing the system abstractly. (3) The career map section should be cut by half — keep Joanne and Eleanor, cut or reduce the others. (4) Explore disintegration to Type 8 more explicitly — when Bell snaps or pushes back, that's the arrow to Eight. The anniversary post IS this, but naming the Enneagram mechanic would add depth.
+-->
 
 > "The question that I repeated over and over in my head is: what is wrong with me?"
 

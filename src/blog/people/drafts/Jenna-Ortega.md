@@ -1,351 +1,205 @@
 ---
-title: "Jenna Ortega: The Achiever Behind Wednesday's Mask"
-meta_title: "Jenna Ortega's Personality Type: The Real Girl Behind Wednesday"
-description: 'What is Jenna Ortega really like? We analyze the psychology behind her Disney-to-horror transformation, private personality, and Wednesday success, her Type 3 personality explains everything.'
+title: "Jenna Ortega: The Achiever Who Can't Stop Running"
+meta_title: "Why Jenna Ortega Was Miserable After Wednesday's Massive Success"
+persona_title: "Hollywood's Restless Machine"
+description: "Inside Jenna Ortega's psychology: the OCD rituals, the existential childhood, and why achieving everything left her empty. A Type 3 analysis."
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Jenna-Ortega'
-lastmod: '2025-12-21'
+lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['newMovieStar']
 person: 'Jenna-Ortega'
-suggestions: ['Sydney-Sweeney', 'Zendaya', 'Margot-Robbie', 'Timothee-Chalamet']
+suggestions: ['Sydney-Sweeney', 'Zendaya', 'Timothee-Chalamet', 'Anya-Taylor-Joy']
 wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Jenna-Ortega.md
 content_quality:
-  hook: 5
-  enneagram: 6
-  evidence: 5
-  writing: 5
-  originality: 5
-  overall: 5.2
-  letter: F
-  graded_at: '2026-02-18'
+  hook: 9
+  enneagram: 8
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 8.8
+  letter: B+
+  graded_at: '2026-02-19'
 ---
 
-<!-- QUALITY GRADE: F (5.2)
-Hook: 5 | Enneagram: 6 | Evidence: 5 | Writing: 5 | Originality: 5
+<!-- QUALITY GRADE: B+ (8.8)
+Hook: 9 | Enneagram: 8 | Evidence: 9 | Writing: 9 | Originality: 9
 
-FEEDBACK (2026-02-18):
-- DECENT: The "Achiever's Crisis" section is the piece's best moment — "I was an unhappy person" after Wednesday's mega-success directly illustrates the Type 3's core struggle. The writers controversy → executive producer evolution is a good arc.
-- DECENT: The "white man confidence" cello teacher anecdote is a genuinely interesting detail and the strongest character moment in the piece.
-- NEEDS WORK: The hook is generic — "You know her as Wednesday Addams" is stock celebrity-profile opening. No specific scene. Lead with the cello teacher moment, or the night she chewed through her Invisalign from anxiety grinding, or the moment she realized she was "an unhappy person" despite every metric being off the charts.
-- NEEDS WORK: Evidence is thinly sourced throughout — "Jenna has shared," "she's mentioned," "she admitted" with zero dates or outlets. Every quote needs a specific source. The $700M box office figure needs attribution.
-- NEEDS WORK: Writing is formulaic — dramatic one-line paragraphs ("To act."), standalone italicized rhetorical questions, bold formatting. The ending is a CTA section with a link to take a personality test — the weakest possible close. "_Probably._" as a standalone paragraph is gimmicky.
-- NEEDS WORK: "Rising young actress is Type 3" isn't novel. Fails the swap test — replace "Jenna Ortega" with any ambitious young actress and most paragraphs still work. No signature detail that makes this analysis uniquely about her.
-- TO REACH D: (1) REWRITE THE HOOK: Open with the "unhappy person" confession or the Invisalign anxiety detail — that's the real story. (2) Source every quote with date and outlet. (3) Cut the ending CTA section entirely — end on the Wednesday paradox (playing a character who refuses to seek approval is therapeutic for someone whose type does exactly that). (4) Find one genuinely surprising detail about Ortega that isn't common knowledge. (5) Remove standalone one-word/one-line paragraphs and reduce bold/italic emphasis by 80%.
+FEEDBACK (2026-02-19):
+- STRONG HOOK: The Venice moment → OCD reveal pivot is structurally excellent — shows the composed surface, then pulls the curtain. The "four words" framing is cinematic.
+- SIGNATURE DETAIL: The OCD stair-walking ritual bookending the piece is the kind of specific, small moment that makes the whole analysis click. The dead lizard autopsies are a wonderful lesser-known detail.
+- EXCEPTIONAL SOURCING: 10+ specifically dated and attributed sources across podcasts, magazines, newspapers, and collaborator testimony. Jenna's voice is genuinely heard throughout.
+- NEEDS WORK: Enneagram integration is missing stress/growth arrows (Type 3 → 6 in stress, → 9 in growth — both are visible in her behavior), wings (3w2 vs 3w4 — the Winona protectiveness suggests w2), and counter-typing ("isn't she really a Type 6 given the anxiety?"). These omissions keep a strong analysis from being exceptional.
+- TO REACH A: (1) Add a paragraph on stress arrow to 6 — her OCD rituals, the hypervigilance, the teeth-grinding all map to 6-in-stress. This would deepen the piece significantly. (2) Address counter-typing directly: "The anxiety looks like Type 6, but the engine underneath is shame, not fear." (3) Name the wing — the Venice protectiveness of Ryder, the way she advocates for others, suggests 3w2. (4) Consider adding instinctual variant — the career obsession + public image management reads as social/self-pres.
 -->
 
-<p class="firstLetter">You know her as Wednesday Addams.</p>
+> "Sometimes my nights consist of just being really exhausted and going up and down the stairs six times because that's what I think I need to do to make sure no one breaks into my home."
 
-Or maybe as Tara Carpenter from _Scream_. But behind those characters is Jenna Ortega, a young actress whose meteoric rise hasn't come without cost.
+<p class="firstLetter">At the 2024 Venice Film Festival, photographers shouted at Winona Ryder to remove her sunglasses. The older actress hesitated. Jenna Ortega, standing beside her, leaned in and said four words: "No, you don't have to."</p>
 
-At just 22, she's already navigated the entertainment industry for over a decade. Her face is everywhere. Her talent, undeniable. Her box office total now exceeds **$700 million**.
+The clip went viral. The internet saw poise, protectiveness, quiet authority from a 21-year-old shielding a Hollywood legend.
 
-But who is she, really?
+What the internet didn't see: the woman who just set a boundary for a legend can't always set one for her own brain. Her OCD keeps her up at night with rituals and repetitive counting. She ground her teeth through her Invisalign in her sleep. She was, by her own admission to Harper's Bazaar in 2025, "an unhappy person" — this after starring in the most-watched English-language Netflix show in history.
 
-To understand Jenna more deeply, we need to look at her through the lens of the Enneagram, specifically, [Type 3: The Achiever](/enneagram-corner/enneagram-type-3). Type 3s are driven, adaptable, and image-conscious. They measure their worth through accomplishments and recognition.
-
-Sound familiar?
-
-Yet Jenna isn't your textbook Type 3. She's a fascinating contradiction, a celebrity who calls the concept of celebrities "absolutely ridiculous," a performer who craves privacy, an achiever who questions the very nature of achievement.
-
-Let's dive into the real Jenna Ortega.
+That gap — between the composed surface and the anxious interior — is the real story of Jenna Ortega.
 
 <details>
 <summary class="accordion">TL;DR: Why Jenna Ortega is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>Relentless Early Drive:</b> At just 6 years old, Jenna knew she wanted to act. And begged her mother for three years until she relented. This unwavering determination to pursue recognition is classic Type 3 behavior emerging young.</li>
-<li><b>Chameleon-Like Adaptability:</b> She seamlessly transitioned from Disney Channel to horror icon, from family-friendly to "scream queen." Type 3s shape-shift to succeed in different environments. And Jenna's career evolution proves it.</li>
-<li><b>Achievement-Driven Success:</b> With over $700 million at the global box office and an Executive Producer credit at 22, Jenna embodies the Type 3's need to prove themselves through tangible accomplishments.</li>
-<li><b>Image Management:</b> She keeps her romantic life private, compartmentalizes personal and professional spheres, and carefully controls her public narrative, all hallmarks of the Type 3's image-consciousness.</li>
-<li><b>The Achiever's Crisis:</b> After Wednesday's mega-success, Jenna admitted she "was an unhappy person", revealing the Type 3's core struggle: external success doesn't automatically create internal fulfillment.</li>
-<li><b>Evolution Beyond Performance:</b> Her directing ambitions, executive producer role, and desire to work "entirely behind the scenes" show a maturing Type 3 moving beyond pure image-focus toward authentic creative expression.</li>
+<li><b>The transformation:</b> Went from the loudest kid in a quiet family to someone who describes herself as "quite introverted" — a decade in Hollywood reshaped the personality entirely.</li>
+<li><b>The engine:</b> Begged her mother to let her act from age 6 to 9, then never stopped — executive producer at 22, a directing debut in the works, and a schedule that reads like a manifesto.</li>
+<li><b>The crisis:</b> Achieved everything a young actress could want and discovered it made her miserable — the core paradox of someone who measures worth through accomplishment.</li>
+<li><b>The evolution:</b> Moving from covert line-changing to executive producer credits, from pure performance to behind-the-camera ambitions — slowly building something that isn't about being seen.</li>
 </ul>
 </div>
 </details>
 
-## The Seeds of Achievement: Jenna's Early Drive
+## The Loud Kid and the Dead Lizards
 
-At just six years old, Jenna Ortega already knew what she wanted.
+Jenna Ortega grew up in Coachella Valley, fourth of six siblings in a Mexican and Puerto Rican household where, by her account, everyone was shy.
 
-To act.
+Everyone except her.
 
-Her mother wasn't convinced. But little Jenna, fourth of six siblings in a busy Mexican and Puerto Rican household in Coachella Valley, wouldn't take no for an answer.
+"I was always very existential as a kid," she told Harper's Bazaar in 2025. "The world was always ending. I was worrying about things way earlier than I needed to."
 
-For _three years_ she begged. Pleaded. Persisted.
+Her parents called her the child with "the most expression." While her family members kept quiet, Jenna was loud, outspoken, and — in one particular habit — already a little Wednesday Addams. She performed autopsies on dead lizards she found in the backyard. Not killing them. Just examining the ones already gone, trying to understand what was inside. She mentioned it casually in a 2022 Wired interview, like it was the most natural thing in the world.
 
-This is classic Type 3 behavior emerging early. That unwavering determination, that need to pursue something that will bring recognition. But Jenna's mother tried to redirect her energy elsewhere. Soccer. School. Anything but the uncertain world of child acting.
+An anxious child who couldn't stop worrying about the end of the world, picking apart small dead things to see how they worked. Control through examination. Understanding through dissection.
 
-"I wanted to act from the age of six and begged my mother to let me pursue a career for three years," Jenna has shared.
+She also stayed awake during her wisdom teeth extraction at 17, refusing anesthesia, putting her headphones on, and watching the whole procedure. "I'm weird," she said with a shrug.
 
-There's a deeper layer here too. Jenna has revealed that she was "very existential" as a child—"The world was always ending. I was worrying about things way earlier than I needed to." Acting, she later admitted, "served as an escape from the pressure she placed on herself."
+## A Monologue from Barnes & Noble
 
-This is fascinating Type 3 psychology: achievement as escape. Even at a young age, Jenna's drive wasn't just about wanting spotlight. It was about channeling intense internal anxiety into something productive, something that could bring external validation to quiet the inner critic.
+The acting obsession started at six. For three years, Jenna begged her mother to let her pursue it. Her mother, raising six children in the desert, tried to redirect the energy — soccer, school, anything more practical than the uncertain world of child acting.
 
-Her mother finally relented when Jenna was nine, posting a video of her performing a monologue online. A casting director saw it and signed her to an agency.
+Eventually her mother went to Barnes & Noble and bought a monologue book called _Cool Characters for Kids!_ She handed it to Jenna expecting the phase to pass.
 
-The rest is history.
+Jenna memorized a monologue and performed it for her mother. Then she burst into tears. Her mother was confused — was something wrong? Jenna had to explain: she was acting. The tears were part of the performance.
 
-But history came with sacrifice. Her mother began driving her to Los Angeles as often as five days per week for auditions, a six-hour round trip from Coachella Valley. Jenna struggled initially because "few parts existed for Latinas" and she "didn't look [a certain] way."
+As she recounted on _Armchair Expert_ with Dax Shepard in March 2023, her mother recorded the monologue and posted it on Facebook on June 29, 2010, captioning it "My little drama queen" — a joke for family friends. Someone her mother knew from high school saw the video and connected them to a casting director. Within months, nine-year-old Jenna had representation.
 
-This early experience of not fitting the mold likely intensified her Type 3 drive: the need to prove she belonged, to work harder than everyone else, to make herself undeniable.
+What followed was years of her mother driving her to Los Angeles for auditions — six hours round trip from Coachella Valley, as often as five days a week. And Jenna struggled. Few parts existed for Latinas. She didn't look the way the industry expected her to look.
 
-## The Achiever's Evolving Image: From Disney to Darkness
+The six-year-old who cried on command in her living room was now learning what it meant to walk into rooms that weren't built for her and make them pay attention anyway.
 
-One trait that sets Type 3s apart? _Adaptability_.
+## What is Jenna Ortega's personality type?
 
-Jenna's career showcases this beautifully. She seamlessly transitioned from Disney Channel's wholesome "Stuck in the Middle" to Netflix's macabre "Wednesday." From family-friendly "Yes Day" to slasher films like "X" and "Scream."
+### Jenna Ortega is an Enneagram Type 3
 
-Most actors get typecast. Jenna shape-shifts.
+To understand why Jenna Ortega does what she does — the relentless output, the shape-shifting between genres, the composed public image masking genuine anxiety — you have to understand what sits at the center of [Enneagram Type 3](/enneagram-corner/enneagram-type-3): shame.
 
-This chameleonic ability is pure Type 3 energy. Threes often unconsciously adapt their identities to succeed in different environments. They read the room and become what it needs.
+Type 3 belongs to the heart triad. The core emotion isn't ambition. It's shame — the quiet fear that without achievement, without the performance, without proof of value, there is nothing underneath worth loving.
 
-When Ti West was casting for the horror film "X," he noted Jenna was "fearless in her commitment." She took on the role because she found the script "the most outrageous thing I've ever read."
+Most people look at Jenna's career and see drive. What the Enneagram reveals is something more specific: the loud, existential child who worried the world was ending found a way to make the world pay attention to her instead. Achievement became the architecture built over anxiety. Every role, every award nomination, every box office milestone — not just accomplishments, but load-bearing walls.
 
-For a Type 3, this adaptability is both strength and struggle.
+This explains the otherwise inexplicable shift from extrovert to introvert. Young Jenna was the loudest kid in a quiet family. Adult Jenna describes herself as "quite introverted" and keeps her private life sealed. That transformation isn't random. It's the result of a decade in an industry that taught her the precise cost of being seen. The openness became controlled. The expression became strategic. The personality became the performance.
 
-_Am I adapting because I genuinely connect with these diverse roles? Or am I just proving my versatility?_
+It also explains why she was drawn to Wednesday Addams — a character who is the psychological mirror opposite. Wednesday doesn't care what anyone thinks. She refuses to perform. She is aggressively, immovably herself. For someone whose professional life involves reading rooms and adapting to them, playing a character who does neither is either torture or therapy.
 
-This might be the question lurking in Jenna's mind during career transitions. Because for Threes, the line between authentic growth and achievement-chasing can blur.
+Tim Burton saw something in Jenna immediately. "She's very direct, very no-nonsense," he told The Hollywood Reporter in 2025. "I find that very refreshing and beautiful and artistic." He compared her to "a silent movie actress — she's able to convey things without words." What he was describing, without using the language, was all the expressiveness of the heart triad channeled through absolute control.
 
-Her evolution from Disney darling to 2022's "scream queen" wasn't just a career strategy. It was her Type 3 superpower of reinvention at work. (Her fellow young horror star [Sydney Sweeney](/personality-analysis/Sydney-Sweeney) has made a similar genre transition, though with different personality drivers.)
+<div class="contrast-panel">
+<div class="contrast-left">
+<h4>The Public Jenna</h4>
+<p>"She showed up and just immediately knew what the tone was and just slipped in, like she does that every day." — Michael Keaton, on the set of <em>Beetlejuice Beetlejuice</em></p>
+</div>
+<div class="contrast-right">
+<h4>The Private Jenna</h4>
+<p>"My work felt like the safe place. When I wasn't on set, I had a really, really hard time." — Jenna Ortega, Harper's Bazaar, 2025</p>
+</div>
+</div>
 
-And the numbers prove it worked. **Beetlejuice Beetlejuice** alone grossed $451 million worldwide, pushing Jenna's career box office total past $700 million at just 22 years old. Publications credited her specifically for attracting younger audiences, Generation Z flocking to see a Tim Burton sequel because of her.
+---
 
-The original cast noticed too. Michael Keaton and Catherine O'Hara credited Jenna for helping director Tim Burton finally realize his long-awaited sequel, noting the actress "literally didn't exist" when the 1988 original premiered.
+## Stage Blood, Glycerin Sweat, and Tim Burton's Laugh
 
-For a Type 3, being credited as the driving force behind a $451 million success? That's the external validation that feeds the achievement drive.
+When Jenna auditioned for Wednesday, she was still on set filming Ti West's horror film _X_, where her character dies a spectacularly violent death. She'd been awake over 24 hours. She had stage blood matted in her hair, glycerin sweat on her face, and a massive prosthetic wound.
 
-## Behind the Mask: Jenna's Internal Landscape
+She Zoomed into the audition looking like she'd survived something.
 
-What goes on behind Jenna's composed exterior?
+Tim Burton laughed. She laughed. And that, apparently, was enough. "Nobody else on this planet" was better suited, he later said.
 
-Type 3s are fascinating because they're part of the "heart triad" in Enneagram theory, emotion-driven types, yet they often disconnect from their feelings to achieve.
+The irony: Jenna got the role that would define her generation's pop culture by showing up as someone else's corpse. She didn't have time to perform. She didn't have time to manage the image. She just showed up — exhausted, blood-soaked, real — and it was the most Wednesday Addams thing she could have done.
 
-Jenna has described wanting to be a "private person," stating that she doesn't discuss her romantic life publicly because it distracts from her work.
+Then came the dance.
 
-This is revealing.
+The Wednesday dance scene, which became one of the most viral moments of 2022, was supposed to be a flash mob. The script had Wednesday starting to dance and everyone joining in. Jenna vetoed it. "Why would she be OK with that?" she asked on _Armchair Expert_. "I said, 'Either cut it or have Wednesday knock someone out, and then it's done.'"
 
-For Type 3s, emotions can feel like distractions from achievement. They compartmentalize feelings that might slow them down.
+She choreographed the replacement herself, pulling from goth and punk references, and got the song about a week before filming. What nobody knew at the time: she filmed the entire scene on her first day testing positive for COVID-19. "I felt like I'd been hit by a car," she told NME in December 2022, "and that a little goblin had been let loose in my throat and was scratching the walls of my esophagus." Production gave her medicine between takes. She wanted to redo it. There wasn't time.
 
-"My family gives me a sense of safety that helps me deal with the more challenging parts of my career," Jenna has shared, adding they "keep her feet on the ground."
+The dance became the most-watched clip from the most-watched English-language show in Netflix history. She'd done it sick, with a week's preparation, after vetoing the original concept.
 
-**Family becomes the safe space where the mask can come off.**
+## 252 Million Views and an Unhappy Person
 
-This is crucial for Threes, who often struggle with the question: _Who am I when I'm not achieving?_
+Wednesday Season 1 drew 252.1 million views. Emmy and Golden Globe nominations followed. _Beetlejuice Beetlejuice_ grossed $451 million worldwide, pushing Jenna's career box office total past $700 million at 22. Publications credited her specifically for drawing Gen Z audiences to a Tim Burton sequel about a movie released before she was born.
 
-### The Achiever's Crisis: Success Without Happiness
+By every metric that matters in Hollywood, Jenna Ortega had arrived.
 
-Perhaps the most revealing moment in understanding Jenna's Type 3 psychology came in a 2025 interview where she admitted something startling:
+"To be quite frank, after the show and trying to figure everything out, I was an unhappy person," she told Harper's Bazaar's Carina Chocano in the magazine's 2025 Summer Discovery Issue. "After the pressure, the attention — as somebody who's quite introverted, that was so intense and so scary."
 
-"To be quite frank, after the show and trying to figure everything out, I was an unhappy person. After the pressure, the attention, as somebody who's quite introverted, that was so intense and so scary."
+There was also the dissonance of playing a schoolgirl while trying to be taken seriously as an adult woman. "There's just something about it that's very patronizing," she told the same interviewer. "I'm doing a show I'm going to be doing for years where I play a schoolgirl. But I'm also a young woman."
 
-This is the Type 3's core existential crisis laid bare.
+And then there was the internet itself. After Wednesday's success, Jenna was flooded with AI-generated explicit images of herself — images manipulated from when she was a minor. She deleted Twitter entirely. "I did not like being 14, making a Twitter account because I was supposed to, and seeing dirty edited content of myself as a child," she told The New York Times' Lulu Garcia-Navarro in August 2024. "It's terrifying. It's corrupt. It's wrong."
 
-Wednesday was a massive success. Emmy nominations. Golden Globe nominations. Global fame. Every metric of achievement was off the charts.
+The achievement engine had delivered everything it promised. Fame, recognition, critical validation, financial security. And inside the engine, the person running it was grinding her teeth to dust.
 
-And she was miserable.
+This is the crisis the Enneagram maps with uncomfortable precision: the moment the gap between external metrics and internal experience becomes impossible to ignore. The load-bearing walls of achievement are still standing. But the person living inside the building is exhausted, and the existential child underneath — the one who always believed the world was ending — turns out to have been right about at least one thing: something was coming. She just didn't know it would be success.
 
-This is what happens when a Three achieves everything they thought they wanted and discovers it doesn't fill the void. The external validation they've been chasing since childhood doesn't automatically create internal peace.
+---
 
-Jenna describing herself as "quite introverted" is also significant. Many people assume Type 3s are natural extroverts because of their charm and public success. But Jenna reveals a different picture, someone who performs extroversion professionally while actually needing solitude to recharge.
+## "Everything I Said Felt So Magnified"
 
-The pressure was so intense that she developed physical symptoms. She's mentioned struggling with anxiety severe enough that she chewed through her Invisalign from grinding her teeth at night.
+In March 2023, Jenna appeared on _Armchair Expert_ and said something honest about the Wednesday scripts. "I don't think I've ever had to put my foot down more on a set," she said. "There were times on that set where I almost became unprofessional in a sense where I just started changing lines."
 
-_This is what it costs to be the machine._
+Writers took to social media. They called her "toxic" and "beyond entitled." During the WGA strike that summer, some carried protest signs with her name. The backlash was swift, public, and — for someone whose inner psychology orbits around how she's perceived — devastating.
 
-Few moments reveal this struggle more than her comments about Wednesday Addams, a character defined by her refusal to conform or seek approval.
+"Everything that I said felt so magnified," she told Vanity Fair in August 2024. "It felt almost dystopian to me. I felt like a caricature of myself." She added, with a self-awareness that cuts: "Even I got sick of myself last year. My face was everywhere."
 
-Is playing a non-people-pleaser therapeutic for someone whose personality type tends toward image-consciousness?
+By 2024, she'd recalibrated. "I probably could have used my words better in describing all of that," she told The Hollywood Reporter. "In no way did I mean to come across that way." She felt terrible about how the writers may have felt disrespected.
 
-_Probably._
+Around the same time, she told Vanity Fair: "Everybody wants to be politically correct, but I feel like, in doing that, we lose a lot of our humanity and integrity, because it lacks honesty. I wish that we had a better sense of conversation."
 
-## Wednesday's Challenge: Finding Her Voice
+The response was predictable. Polarized coverage. Context stripped from quotes. The internet doing what the internet does.
 
-When Jenna stepped into Wednesday Addams' platform shoes, something clicked.
+Here was the pattern: Jenna says something candid. The world magnifies it. She retreats, recalibrates, files away the lesson that honesty has a price. The loud kid from Coachella Valley — the one with "the most expression" — was learning to measure every word.
 
-The role earned her Golden Globe, Emmy, and Screen Actors Guild Award nominations. For a Type 3, that external validation matters, _a lot_.
+Her solution to the writers controversy was structural, not verbal. For Wednesday Season 2, she returned not just as star but as executive producer, attending morning script meetings with Tim Burton, holding authority over casting, prosthetics, and dialogue. Rather than changing lines covertly, she had legitimate creative power. Rather than fighting the system, she leveled up within it.
 
-But there's something deeper in her connection to Wednesday.
+Season 2 earned 87% on Rotten Tomatoes. Season 3 was renewed by Netflix in July 2025 before Season 2 even finished airing. They weren't betting on Jenna Ortega the actress anymore. They were betting on Jenna Ortega the creative force.
 
-Wednesday Addams doesn't care what people think. She's brutally authentic. The polar opposite of a people-pleasing Three.
+The Weeknd, who directed her in _Hurry Up Tomorrow_ and interviewed her for V Magazine in April 2025, saw the shift clearly: "She's an incredible actress, but what I discovered on set, and what I love, love, love telling people, is how incredible your instincts are as a storyteller and a filmmaker."
 
-Yet playing her required Jenna to tap into something real within herself. As she worked on the character, she had to find those parts of herself that resonated with Wednesday's darkness and intensity.
+## "You Don't Have To"
 
-"I would have to do things I've never done before," she's mentioned about the role's physical and emotional demands.
+When Winona Ryder and Jenna Ortega met on the _Beetlejuice Beetlejuice_ set, something clicked that went deeper than professional chemistry.
 
-For Type 3s, who often struggle with authenticity, playing someone authentically different can be strangely liberating.
+"I don't think I've ever bonded with someone like I did with Jenna," Ryder said in a 2024 ScreenRant interview. "It felt a lot like I was talking to a younger version of myself, but she's just like a thousand times cooler. Because we both have the same almost religious reverence for film."
 
-It creates a safe distance to explore aspects of yourself you normally suppress.
+Ryder understood what child stardom does to a person — the way it hollows out the private self while inflating the public one. She'd lived it thirty years earlier.
 
-### The Writers Controversy: A Type 3 Learning Moment
+"It was just so nice to speak to someone who actually understood me," Jenna told The Hollywood Reporter, "because you can turn to your family who loves and supports you, but they don't know." Ryder "definitely helped me feel less alone."
 
-But Wednesday also brought controversy.
+That's the context for the Venice moment. When photographers pressured Ryder to remove her sunglasses and the older actress hesitated, Jenna didn't think. She leaned in: "No, you don't have to." It was the same instinct that had vetoed the flash mob, changed the dialogue, and choreographed the dance. But this time it wasn't about her own image. It was about protecting someone else.
 
-In 2023, Jenna revealed on a podcast that she had changed dialogue on set without consulting the show's writers, claiming the scripts "made no sense" from a character perspective. Writers took to social media calling her "toxic" and "beyond entitled." The backlash was swift and harsh.
+Now Jenna is building toward something that would have seemed contradictory five years ago. She's been writing a script for "almost 10 years," she told V Magazine in April 2025 — since she was roughly twelve years old. She wants to direct it herself. "I really want to direct," she said. "That's probably the main thing that I want to do."
 
-For a Type 3, whose identity is partially built on how they're perceived, public criticism cuts deep.
+The revealing part: "I don't want to be in the things that I create in the future." She plans to use her acting fame as "a stepping stone" — leverage to get behind the camera, where she can create without being the face of the creation.
 
-In 2024, she reflected: "I probably could have used my words better in describing all of that."
+Her cello teacher on Wednesday gave her advice she says changed her life. "She told me that I just needed to approach everything I do in life with the confidence of the average white man," Jenna told Vanity Fair in August 2024. "And that changed my life." She applies it everywhere now. Before that same Vanity Fair video interview, she was nervous. "Then I just remembered: 'How would an average white man do this?' And he probably would've shown up with mismatched socks."
 
-By 2025, she was more direct: "I used my words really poorly. All I had to do was say 'improvised.' You live and you learn."
+For a Latina actress who spent years walking into audition rooms that weren't built for her, who learned through trial that speaking honestly gets punished, who carries the weight of being the most-watched face on the planet's biggest streaming platform — this reframe is both practical and profound. Not performing confidence to impress, but believing she belongs even when every signal says otherwise.
 
-This evolution shows a Type 3 developing self-awareness about image management. Not just how to project success, but how to handle missteps authentically.
+Her slate through 2026 includes _The Gallerist_ (which premiered at Sundance in January alongside [Natalie Portman](/personality-analysis/Natalie-Portman)), _Klara and the Sun_ with Taika Waititi, _Ghostwriter_ with J.J. Abrams, and Wednesday Season 3 — already renewed. She is 22 and has not stopped running since she was nine.
 
-### From Star to Producer: The Type 3 Evolution
+At some point you have to wonder whether the script she's been carrying for a decade — the one she won't put herself in — is her attempt to finally create something that isn't about being seen. Or whether the running itself has become the architecture, and dismantling it would mean confronting the existential child underneath who always believed the world was ending.
 
-The resolution to the writers controversy is telling.
-
-For Wednesday Season 2, Jenna didn't just return as star, she became an **Executive Producer**.
-
-This is a massive shift. Rather than changing lines covertly, she now has official creative input. Rather than being perceived as overstepping, she has legitimate authority.
-
-She described it as a "natural progression" due to the first season's collaborative nature.
-
-This move is classic Type 3 growth: transforming a weakness (perceived entitlement) into a strength (official creative partnership). Instead of fighting the system, she leveled up within it.
-
-Netflix's investment in her is significant too, Season 3 was renewed in July 2025 before Season 2 even premiered. They're betting big on Jenna Ortega, the producer and creative force, not just Jenna Ortega the actress.
-
-## Beyond the Spotlight: Jenna's Values and Vision
-
-Not all Type 3s are the same. What makes Jenna's expression of this type unique is where she directs her achievement energy.
-
-Many Threes chase conventional success markers, money, status, recognition.
-
-Jenna seems drawn to something different.
-
-She uses her platform for advocacy work, speaking out on mental health awareness, immigration issues, and representation in Hollywood. Her Mexican and Puerto Rican heritage matters to her. She embraces being Latina in an industry that hasn't always made space for diversity.
-
-"I routinely partner with charitable organizations," Jenna has noted, mentioning work with the National Bullying Prevention Center and other causes.
-
-She's also spoken candidly about representation: "I feel like the Latinx community, first of all, they're not often shown on camera in general. But they're also oftentimes not shown in a positive light. I never want to play a maid and I never want to play a cartel leader's daughter. I would much rather play a person of power."
-
-This reveals a Three in the process of _integration_, moving beyond pure achievement toward meaningful contribution.
-
-For Threes, this evolution is huge. It's the shift from "What can I accomplish?" to "What can I contribute?"
-
-### Directing Ambitions: Behind the Camera
-
-Perhaps the most fascinating glimpse of Jenna's evolution is her desire to move behind the camera entirely.
-
-In 2025, she revealed she's been writing a script for "almost 10 years" and feels now is the right time to bring it to life. She wants to direct.
-
-But here's the key insight:
-
-"I don't want to be in the things that I create in the future, but starting out, because I've created more leverage for myself with a name as an actor, I may as well use that as a stepping stone."
-
-This is sophisticated Type 3 self-awareness. She recognizes her fame as a tool, leverage, but doesn't want to be defined by it. She's using achievement to move _beyond_ achievement-based identity.
-
-For a type that's typically obsessed with being seen, wanting to work "entirely behind the scenes" is remarkable growth. It suggests Jenna is moving toward what Enneagram teachers call "integration", accessing the positive qualities of [Type 6](/enneagram-corner/enneagram-type-6) (collaboration, loyalty, depth) rather than staying stuck in image-management.
-
-## The Achiever's Toolkit: Coping and Strengths
-
-How does Jenna handle the pressure that comes with being both a Type 3 and a rising star?
-
-First, **immersion in work**. Threes often cope with stress by doubling down on achievement. For Jenna, this means taking on challenging roles that demand total focus.
-
-Her 2025 alone included:
-
-- **Death of a Unicorn** (A24 horror-comedy with Paul Rudd)
-- **Hurry Up Tomorrow** (The Weeknd's film)
-- **Wednesday Season 2** as both star and executive producer
-
-Upcoming, she has The Gallerist with <a href="/personality-analysis/Natalie-Portman">Natalie Portman</a>, Ghostwriter with J.J. Abrams, Klara and the Sun with Taika Waititi, a Single White Female remake, and a David O. Russell project with Robert De Niro.
-
-That's not a schedule. That's a statement of purpose.
-
-Second, **compartmentalization**. She creates clear boundaries between her public and private selves. When she says she wants to keep her romantic life private, that's not just a preference. It's a survival strategy for a Three whose identity is so tied to her professional image.
-
-Third, **family grounding**. She consistently mentions her family as her anchor. For Threes who can get lost in external validation, having people who love you regardless of achievement is essential.
-
-What causes stress for Jenna? Likely the things that threaten a Three's core needs:
-
-- Feeling incompetent or unprepared
-- Criticism of her performance (the writers controversy hit hard)
-- Situations where her image isn't within her control
-- The pressure to maintain success
-
-And what brings her joy?
-
-- Mastering new skills (like the cello for "Wednesday")
-- Recognition from peers she respects
-- Successfully shapeshifting into challenging characters
-- Using her platform for meaningful causes
-
-These patterns reveal Type 3s find genuine fulfillment when their achievements align with authentic values, when doing well and doing good coincide.
-
-### The "White Man Confidence" Philosophy
-
-One quote captures Jenna's evolved approach to the pressures she faces.
-
-Her cello teacher on Wednesday gave her life-changing advice: as long as she looked confident in her movements and fully embodied the character, it would work. "She told me that I just needed to approach everything I do in life with the confidence of the average white man. That changed my life."
-
-This is classic Type 3 wisdom, but with a twist. Rather than performing confidence to impress others, Jenna learned to use it as internal armor. It's about believing you belong, even when the world sends signals that you don't.
-
-For a Latina actress who struggled early in her career because she "didn't look [a certain] way," this reframe is powerful. It transforms the Type 3's natural chameleon ability from people-pleasing into self-assertion.
-
-## Controversies and Growth
-
-Jenna hasn't avoided controversy entirely.
-
-Beyond the writers situation, she sparked backlash in 2024 for comments on political correctness. "The business that we work in is so touchy-feely. Everybody wants to be politically correct, but I feel like, in doing that, we lose a lot of our humanity and integrity, because it lacks honesty."
-
-This comment came during a charged cultural moment, and reactions were mixed.
-
-There was also **Miller's Girl** (2024), an erotic thriller pairing her with Martin Freeman that drew criticism for depicting a controversial teacher-student dynamic. The film received poor reviews (30% on Rotten Tomatoes) but demonstrated Jenna's willingness to take risks, even ones that don't pay off.
-
-And then the dating rumors, particularly the bizarre gossip linking her to <a href="/personality-analysis/Johnny-Depp">Johnny Depp</a>, nearly 40 years her senior. She called the rumor "insane" and moved on.
-
-How does a Type 3 handle controversy?
-
-By learning, adapting, and redirecting energy toward the next achievement. The writers controversy led to producer credits. The political correctness backlash didn't stop her momentum. The Miller's Girl criticism faded as bigger successes arrived.
-
-For Threes, setbacks are data points, not destinations.
-
-## Conclusion: The Real Achievement – Becoming Herself
-
-Jenna Ortega at 22 is still evolving.
-
-Her journey as a Type 3 is just beginning. The most interesting chapters likely lie ahead.
-
-Will she continue to find roles that challenge her? Almost certainly, her slate through 2026 includes some of cinema's most exciting directors.
-
-Will she use her platform for causes she believes in? The evidence suggests yes.
-
-Will she actually direct that script she's been writing for ten years? That would be the ultimate test of her evolution beyond pure performance.
-
-But the deeper question: the one that matters most for any Three, is whether she'll increasingly measure her worth by _who she is_ rather than _what she accomplishes_.
-
-Her admission of being "an unhappy person" after Wednesday's success suggests she's already grappling with this. That awareness itself is growth.
-
-The irony for Threes like Jenna runs deep: **their greatest achievement often isn't visible on a resume or IMDB page**. It's the internal shift from external validation to self-acceptance.
-
-Fans connect with Jenna not just because of her undeniable talent, but because they sense this struggle underneath. The desire to be seen. The fear of being seen too much. The quest for authentic expression in a world that rewards performance.
-
-In some ways, her journey mirrors our own. Aren't we all trying to balance achievement with authenticity? Success with soul?
-
-Watching Jenna navigate these waters in the harsh spotlight of fame offers a masterclass in the Type 3 challenge: to transform from _The Achiever_ into something more complex and complete—
-
-A person who achieves, yes. But also one who simply, fully _is_.
-
-And that's the real Wednesday challenge. Not just playing a character who knows exactly who she is.
-
-But becoming someone who does.
-
-> **How do you relate to Jenna's journey?**
->
-> Are you someone who measures your worth through accomplishments? Do you struggle with the gap between external success and internal fulfillment?
->
-> If you'd like to explore your own personality patterns, take our [free Enneagram test](/enneagram-corner/enneagram-tldr) and discover what drives your motivations.
-
-<svelte:head>
-
-</svelte:head>
+The girl who performed autopsies on dead lizards grew up to become the most famous dead-eyed character on television. She built an empire of composure on top of a foundation of anxiety. And every night, she walks up and down the stairs six times, because that's what she thinks she needs to do to keep the world from breaking in.

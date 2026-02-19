@@ -10,12 +10,33 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['celebrity']
+person: 'Kim-Kardashian'
 wikipedia: 'https://en.wikipedia.org/wiki/Kim_Kardashian'
 twitter: 'https://twitter.com/KimKardashian'
 instagram: 'https://www.instagram.com/kimkardashian'
 tiktok: 'https://www.tiktok.com/@kimkardashian'
 path: src/blog/people/drafts/Kim-Kardashian.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 9
+  writing: 8
+  originality: 8
+  overall: 8.2
+  letter: B
+  graded_at: '2026-02-19'
 ---
+
+<!-- QUALITY GRADE: B (8.2)
+Hook: 8 | Enneagram: 8 | Evidence: 9 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-19):
+- Strong hook: the Roosevelt Room scene is specific, surprising, and immediately reveals the central thesis (the gap between what she shows and what she feels). "That gap is the whole story" is a clean thesis statement.
+- Evidence is exceptional — nearly every section anchored in Kim's own words from Jay Shetty, Call Her Daddy, Angie Martinez. North's two quotes ("Mom, chill. We get it. You don't have to keep pretending" and "Mom, I think you go upstairs and cry at night") are devastating signature details. The fire evacuation progression (shoes→designer stuff→leave everything→just me and my babies) is brilliant sourcing.
+- "The minimalism isn't taste. It's scar tissue." and "That's not a car story. It's an agency story." show distinctive prose. "She cannot describe growth without making it sound like winning" is a genuinely insightful observation.
+- NEEDS WORK: The Enneagram integration is strong but doesn't quite reach exceptional because the core emotion (shame) is demonstrated but never named directly as such. The Three's shame center is the ENGINE of this piece — the Roosevelt Room embarrassment, the sex tape, the fear of being seen as a failure — but it's left implicit. Naming it would crack things open further. Counter-typing is absent (isn't she a Nine? — the calm, the monochrome aesthetic).
+- TO REACH B+: (1) Add 3-4 sentences explicitly connecting Kim's pattern to the shame center — she converts shame into achievement (Roosevelt Room → law career), which is THE signature Three move. (2) Address counter-typing briefly: the calm reads as Nine but it's engineered calm, not natural peace. (3) The piece could end even harder — the final paragraph is good but "might be the most unmanaged thing she's ever done" slightly over-explains. Cut the last sentence.
+-->
 
 > "I was so embarrassed. I didn't act like it. No one would ever know. I handled that like they would have thought I knew exactly what I was talking about, but I didn't. And I was embarrassed inside."
 

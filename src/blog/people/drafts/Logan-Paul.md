@@ -19,7 +19,28 @@ twitter: 'LoganPaul'
 instagram: 'loganpaul'
 tiktok: 'loganpaul'
 path: src/blog/people/drafts/Logan-Paul.md
+content_quality:
+  hook: 7
+  enneagram: 8
+  evidence: 8
+  writing: 7
+  originality: 8
+  overall: 7.6
+  letter: C
+  graded_at: '2026-02-19'
 ---
+
+<!-- QUALITY GRADE: C (7.6)
+Hook: 7 | Enneagram: 8 | Evidence: 8 | Writing: 7 | Originality: 8
+
+FEEDBACK (2026-02-19):
+- The Enneagram integration is the piece's biggest strength. "A Type 7 avoids suffering. Logan volunteers for it." — that single distinction does more analytical work than most entire blogs. The counter-typing against 7 and 8 is sharp and specific. The "scoreboard" language is fresh and person-specific.
+- Evidence is solid: MMA Hour, Graham Bensinger documentary, Paul American HBO docuseries, Impaulsive episodes. Collaborator testimony from Randy Orton, Seth Rollins, Triple H, Cody Rhodes. Specific sourced details: $1.2B Prime sales (Bloomberg), Crown Jewel knee injuries, 40% sales decline.
+- The Janko vs. Majlak friendship contrast is a genuine structural insight — "The people who stay are the ones willing to orbit" reveals the Type 3 loyalty dynamic better than any label could.
+- WEAK HOOK: "Logan Paul has built a career on a strange contradiction: he wants to be taken seriously in a world that pays you for being impossible to ignore." This is a good THESIS but not a good HOOK. It's conceptual, not scenic. Open with a specific moment instead — the Crown Jewel frog splash where he tore his MCL and finished the match while filming on his phone, or the Graham Bensinger breakdown in Denmark over CryptoZoo.
+- NEEDS WORK: Some sections drift into report territory (the Prime/Lunchly paragraph reads like a business summary). The ending is decent but conventional — "The question is whether he can let a quiet day exist without needing it to become a comeback" is fine but doesn't cut to black.
+- TO REACH B: (1) Rewrite hook — lead with a specific scene that embodies the contradiction (Crown Jewel is the best candidate). (2) Cut or compress the Prime business decline paragraph to 2 sentences. (3) Sharpen the ending — consider ending on the daughter section ("I would die for these women. I haven't been able to say that about anyone.") or the depression disclosure rather than the abstract question.
+-->
 
 > "How do you leave actual, meaningful impact? That's the golden question. Cos it's not through just video content. I don't know what it is yet but I will figure it out."
 

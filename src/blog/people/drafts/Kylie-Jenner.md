@@ -18,7 +18,29 @@ twitter: 'KylieJenner'
 instagram: 'kyliejenner'
 tiktok: 'kyliejenner'
 path: src/blog/people/drafts/Kylie-Jenner.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-19'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-19):
+- Exceptional hook: the Golden Globes side-entrance scene is specific, visual, and immediately establishes the central paradox — the most-followed woman on Instagram hiding from cameras. "The most visible invisible woman in America" is a thesis that drives every section.
+- The Type 9 analysis is the ENGINE of the piece, not paint. The counter-typing section ("Why Type 9 and Not Type 3 or Type 4?") is one of the best in the collection — concrete behavioral comparisons instead of theory. The 9w8 wing is threaded throughout (Snapchat crash, breast implant disclosure, "original baddie") rather than listed as a sidebar. The merging pattern (Travis → chaos, Chalamet → calm) gives the piece narrative arc.
+- Evidence is outstanding: Life of Kylie therapy session, GQ, Dazed, multiple Kardashians seasons, ABC News, Forbes, People, Time, Reuters — all linked. Kris Jenner, Kim, Kendall quoted as witnesses. Specific numbers ($1.3B Snapchat crash, $600M Coty deal, seven-week silence, three consecutive Golden Globes).
+- "She was 15 when a boy said her lips were too small to kiss. She's 28 now. The comment changed her face, launched an empire, defined beauty standards for a generation. And it still makes her cry." — one of the most devastating passages in any blog.
+- "The minimalism isn't taste. It's scar tissue" energy pervades this piece — every surface detail decoded as psychology.
+- MINOR ISSUES: The reader-question CTA after the ending weakens the cut-to-black. The business section, while tied to thesis (consistency over reinvention), could lose 2-3 sentences. The structured data JSON is fine for SEO but irrelevant to grading.
+- TO REACH A+: (1) Cut the CTA question after the ending — "Underneath the empire built on disappearing is a woman still figuring out if it's safe to show up" IS the ending. (2) One more emotionally immersive scene — the "I've never cried about this before" moment is powerful but told in summary. Expand by 2-3 sentences to put us IN the room.
+-->
 
 > "I think I lost a lot of parts of myself."
 

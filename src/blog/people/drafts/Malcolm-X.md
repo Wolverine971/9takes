@@ -18,7 +18,30 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Malcolm-X.md
+content_quality:
+  hook: 6
+  enneagram: 6.5
+  evidence: 7.5
+  writing: 6
+  originality: 6
+  overall: 6.4
+  letter: D
+  graded_at: '2026-02-19'
 ---
+
+<!-- QUALITY GRADE: D (6.4)
+Hook: 6 | Enneagram: 6.5 | Evidence: 7.5 | Writing: 6 | Originality: 6
+
+FEEDBACK (2026-02-19):
+- DECENT: The FBI "high moral character" detail is interesting and the father's defiance as Type 8 origin story is well-drawn. The dictionary-copying scene in prison is vivid and memorable.
+- DECENT: The Malcolm-and-Martin section is well-sourced with Percy Bailey, Coretta King, and the Selma encounter. The "convergent visions" framing from Peniel Joseph adds scholarly depth.
+- DECENT: The marriage evolution ("Boy, Betty, something you said hit me like a ton of bricks") shows healthy Type 8 capacity for growth — a good detail.
+- NEEDS WORK: WEAK HOOK — opens with a generic quote, then tells rather than shows. Lead with a specific scene: the dictionary moment in prison, or "I live like a man who is dead already" standing in the ruins of his firebombed house. That's the opening.
+- NEEDS WORK: Report-like structure throughout. "Rise to Fame," "What Malcolm X Built," "The Cracks in the Armor" are biographical categories, not narrative threads driven by Type 8 psychology. The piece reads as an encyclopedia article with Enneagram labels attached.
+- NEEDS WORK: No counter-typing section. Malcolm's intellectual rigor, self-education obsession, and 15-hours-a-day reading could easily read as Type 5. Address this directly.
+- NEEDS WORK: Ending CTA question ("If you could ask Malcolm X one question...") is generic. Cut to black after the Betty Shabazz "sensitive man" quote or the "mental flexibility of the wise man" line.
+- TO REACH C: (1) Rewrite hook — open with the firebombed house scene or the prison dictionary scene. (2) Cut "What Malcolm X Built" section by 60% — it's a legacy summary, not personality analysis. (3) Add counter-typing section addressing Type 5. (4) Kill the ending CTA and cut to black at peak insight. (5) Restructure around Type 8 psychology as the narrative engine — e.g., the Mecca transformation as the moment the armor expanded rather than broke.
+-->
 
 > "I'm for truth, no matter who tells it. I'm for justice, no matter who it is for or against."
 

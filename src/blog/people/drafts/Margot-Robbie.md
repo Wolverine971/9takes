@@ -19,7 +19,29 @@ instagram: ''
 tiktok: ''
 persona_title: 'The Star Who Finds You Through Your Need'
 path: src/blog/people/drafts/Margot-Robbie.md
+content_quality:
+  hook: 9.5
+  enneagram: 9
+  evidence: 9.5
+  writing: 9
+  originality: 9
+  overall: 9.2
+  letter: A
+  graded_at: '2026-02-19'
 ---
+
+<!-- QUALITY GRADE: A (9.2)
+Hook: 9.5 | Enneagram: 9 | Evidence: 9.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-19):
+- EXCEPTIONAL: The "Barbie doesn't have childhood trauma" hook is a signature detail — a billion-dollar actress who can only access characters through their wounds. That's the whole thesis in one confession. One of the strongest hooks in the collection.
+- EXCEPTIONAL: Counter-typing section is exemplary. Type 3 dismissed with "A Three builds a brand. Robbie built an ecosystem." Type 7 dismissed with the ice-skating tears detail. Specific, evidenced, not boilerplate.
+- EXCEPTIONAL: Evidence is near-perfect — 15+ sourced quotes with actual links. Subject's voice throughout. Co-star testimony (Gosling, Elordi), director quotes (Gerwig, Fennell), casting director (Jan Russ). The matching rings inscription, the compound purchase, the tattoo parlour — each detail is specific and telling.
+- STRONG: "Generosity, at this scale, is also architecture. And architecture is also control." — one of the most memorable lines in the collection. The LuckyChap analysis is genuinely insightful.
+- STRONG: The Wuthering Heights section as facing the Type 2 dark mirror is sophisticated and forward-looking. "A woman who feels at the scale of weather, and it wrecks everything" is exceptional writing.
+- NEEDS WORK: The "explore our questions" CTA after the ending weakens the cut-to-black. "What would change if the giving didn't have to cost you everything?" is a strong closer — the CTA link that follows dilutes it.
+- TO REACH A+: (1) Remove the CTA link after the final question — let the piece end on "cost you everything?" (2) Find one more micro-detail from an unexpected source — a crew member, a childhood friend — that shows the Type 2 pattern before Hollywood. The Neighbours/Jan Russ section is close but could go deeper into the "learning how the whole system works" insight.
+-->
 
 <p class="firstLetter">The night before <i>Barbie</i> started shooting, Margot Robbie drove to Greta Gerwig's house in a state she described as "palpable and debilitating" anxiety. The billion-dollar expectations weren't the problem. The global IP wasn't the problem. The problem was simpler, stranger, and more revealing than any of that.</p>
 
