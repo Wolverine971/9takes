@@ -51,7 +51,7 @@
 		4: { bg: 'rgba(168, 85, 247, 0.15)', text: '#c084fc', border: '#a855f7' }, // Purple - Individualist
 		5: { bg: 'rgba(20, 184, 166, 0.15)', text: '#2dd4bf', border: '#14b8a6' }, // Teal - Investigator
 		6: { bg: 'rgba(234, 179, 8, 0.15)', text: '#facc15', border: '#eab308' }, // Yellow - Loyalist
-		7: { bg: 'rgba(253, 224, 71, 0.15)', text: '#fde047', border: '#facc15' }, // Bright Yellow - Enthusiast
+		7: { bg: 'rgba(163, 230, 53, 0.15)', text: '#bef264', border: '#a3e635' }, // Lime - Enthusiast
 		8: { bg: 'rgba(239, 68, 68, 0.15)', text: '#f87171', border: '#ef4444' }, // Red - Challenger
 		9: { bg: 'rgba(34, 197, 94, 0.15)', text: '#4ade80', border: '#22c55e' } // Green - Peacemaker
 	};

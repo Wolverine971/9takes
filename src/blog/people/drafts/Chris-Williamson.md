@@ -19,7 +19,33 @@ twitter: 'https://twitter.com/ChrisWillx'
 instagram: 'https://www.instagram.com/chriswillx/'
 tiktok: 'https://www.tiktok.com/@chriswillx'
 path: src/blog/people/drafts/Chris-Williamson.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9
+  originality: 9.5
+  overall: 9.3
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.3)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9 | Originality: 9.5
+
+FEEDBACK (2026-02-18):
+- The childhood detail about obsessing over "which shoulder other kids carried their bags on" is the piece's most original insight — a lonely child running forensic analysis on popularity is the Type 3 origin story distilled to a single image.
+- The rat experiment metaphor (cheese from front + cat smell from behind = pull harder) is brilliant and reusable. "You're not running toward what you want. You're running from what you fear. And the fear and the desire are the same engine."
+- "We want the world to love us for who we are, not for what we do. However, we love ourselves for what we do, not who we are. So we're asking the world to do something that we don't do ourselves." — one of the best Type 3 observations in the entire collection.
+- Love Island as "fatal dose of contrast" is an extraordinary framing. The Coriolis effect moment (intellectual curiosity surfacing, then being swallowed by fear) is psychologically perfect.
+- The 3w4 wing analysis is well-supported: "I think I'm lonely" in a phone journal, the mushroom experience seeing his younger self, the open discussions of depression and shame.
+- The health crisis section is devastating: forgetting how to tie shoes, forgetting words, "swimming in melancholy." Then finding that what remained was "somebody who's genuinely kind and sensitive." For a Type 3, being stripped of capability is the ultimate test.
+- The "boring victories" concept and "holding my happiness hostage" insight show genuine psychological growth.
+- The fatherhood ending is earned: "the kind of quiet ambition that can't be measured, which is exactly why, for a Type 3, it might be the bravest thing he's ever done."
+- The sobriety section is a nice structural detail: quitting alcohol as "a filter that separated the people who needed him from the people who knew him."
+- MINOR: The "Masculinity Question" section is thorough but feels slightly like it belongs in a different piece — more cultural commentary than personality analysis. Could be trimmed.
+- TO REACH A+: Tighten the masculinity section. The piece is very strong throughout.
+-->
 
 > "I'm constantly trying to strip away the persona of a competent, regular podcaster and allowing myself to sit with questions rather than trying to broadcast a version of myself."
 

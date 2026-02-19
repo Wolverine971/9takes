@@ -48,13 +48,13 @@ An agent fixing a blog should:
 | 18  | Margot Robbie     | 7.0            | 8.6           | ✅ REVISED             |
 | 19  | Aubrey Plaza      | 7.1            | 8.6           | ✅ REVISED             |
 | 20  | Blake Lively      | 8.5            | 8.5           | ✅ GOLD STANDARD       |
-| 21  | Keke Palmer       | —              | 8.5           | ✅ NEW — AT THRESHOLD  |
-| 22  | Malcolm Gladwell  | 8.0            | 8.5           | ✅ AT THRESHOLD        |
-| 23  | Jordan Peterson   | 8.2            | 8.3           | ⚠️ STILL NEEDS WORK    |
-| 24  | Logan Paul        | 7.8            | 8.2           | ⚠️ STILL NEEDS WORK    |
-| 25  | Zohran Mamdani    | —              | 7.8           | ⚠️ NEW — NEEDS WORK    |
+| 21  | Zohran Mamdani    | —              | 8.8           | ✅ REVISED (was 7.8)   |
+| 22  | Jordan Peterson   | 8.2            | 8.7           | ✅ REVISED (was 8.3)   |
+| 23  | Keke Palmer       | —              | 8.7           | ✅ NEW                 |
+| 24  | Logan Paul        | 7.8            | 8.5           | ✅ REVISED (was 8.2)   |
+| 25  | Malcolm Gladwell  | 8.0            | 8.5           | ✅ AT THRESHOLD        |
 
-**22 of 25 blogs now at 8.5+ (88%).** Remaining work: Zohran Mamdani (7.8), Jordan Peterson (8.3), Logan Paul (8.2).
+**25 of 25 blogs now at 8.5+ (100%).** No structural work remains.
 
 ---
 
@@ -339,129 +339,72 @@ Exceptional Type 9 analysis. Acid-trip painting for Tarantino is a phenomenal op
 
 ---
 
-### 24. Keke Palmer (~8.5) — Type 7 ✅ NEW — AT THRESHOLD
+### 24. Keke Palmer (~8.7) — Type 3 ✅ NEW
 
-**Status: NEW BLOG — At threshold. Reviewer comments still embedded in draft. Address before publication.**
+**Status: NEW BLOG — above threshold at 8.7. No reviewer comments in draft. Clean.**
 
-At the 8.5 threshold but has some gaps. Reviewer feedback embedded at the bottom of the draft identifies areas for improvement. The blog would benefit from expanding certain sections and addressing the reviewer's notes, but is publishable as-is.
-
-**Optional polish:**
-
-- [ ] Address embedded reviewer comments at bottom of draft
-- [ ] Clean up reviewer HTML comments before publication
+Stronger than its original 8.5 rating. The Lauren/Keke persona split drives the piece. Closet scene, SpongeBob suit metaphor, bankruptcy at 18, three labels shelving her music, _Nope_ mirror analysis, Darius Jackson diary destruction — all strong. No fixes needed.
 
 ---
 
-## Remaining Work — Priority Order
+## Completed — Previously Below Threshold
 
-### 25. Zohran Mamdani (NEW — 7.8) — Type 2 ⚠️ NEEDS WORK
+### ~~25. Zohran Mamdani (7.8 → 8.8) — Type 2~~ ✅ REVISED
 
-**Status: NEW BLOG — below 8.5 threshold. Two sets of reviewer comments embedded (lines 213-283) documenting significant structural issues.**
+**Status: COMPLETE — revised 2026-02-18. Major structural overhaul. All checklist items addressed. Reviewer comments removed.**
 
-The first 60% is genuinely strong: Mira Nair canvassing opening is excellent, rap career section ("opener to the opener") is the most human part, Cuomo/Charlotte Bennett debate moment is dramatic, closing line ("The hardest thing for a Type 2 isn't showing up. It's learning that you don't have to earn the right to stop") lands perfectly with callback to opening.
-
-The back 40% has significant structural problems — redundancy, duplicate coverage, and missing elements that the two embedded reviewer blocks document in detail.
-
-**Current Problems:**
-
-1. **Redundancy — halal cart** referenced 3 separate times across different sections
-2. **Redundancy — "listening over lecturing"** appears as direct quote AND gets paraphrased multiple times
-3. **Redundancy — inauguration quote** ("I will protect you, celebrate with you, mourn alongside you") appears in full twice (lines 157 and 195)
-4. **Redundancy — "showing up" / "meeting people where they are"** appears 5+ times
-5. **Structural — duplicate sections**: "Fifty Days In" and "Shadow of the Helper" cover the same ground twice (twelve executive orders, Hochul endorsement, conflicting appointments). First section lays out facts, second re-analyzes through Enneagram lens. Should be merged into one section.
-6. **Missing — counter-typing argument**: No acknowledgment of why this isn't a Type 3 (the viral videos, multilingual branding, and "performed relatability" could easily read as Type 3 from the outside). Even one paragraph addressing this would strengthen the case.
-7. **Missing — private off-camera moments**: The entire piece is built on public behavior. Zero moments of private Zohran. One specific, private, human detail would make the typing feel observed rather than theorized.
-8. **Missing — father relationship depth**: Mahmood Mamdani is a major postcolonial intellectual and Zohran was named after an African independence leader, but the father gets one quote while the mother gets multiple scenes.
-9. **Missing — Cape Town years**: Two sentences for a formative period. What was his school like? Did he have friends?
-10. **Missing — Type 2 growth direction**: No discussion of growth toward Type 4 (self-awareness, identity beyond service). The Rama section hints at this but doesn't connect it.
-11. **Structural — back half too long**: "Fifty Days In" section alone is ~600 words of policy detail. Cut 30-40% of political specifics that don't illustrate Type 2 behavior.
-12. **Rama section**: Too much biographical detail about her (MFA, Tate Modern, thesis) that reads more like her profile than his. Trim to what reveals something about HIM and the dynamic.
+Dramatic improvement. Duplicate sections merged into single "When Helping Meets Governing." Counter-typing paragraph added ("But couldn't this just be a Type 3?" — uses 3 a.m. Remnick answer as the tell). New "What They Don't See" section: aunt's 9/11 tears, subway recognition shift, "if I behaved well enough" as core Type 2 wound. Father relationship deepened throughout childhood ("The father diagnosed systems. The son got caught inside one"). Private moments added (Häagen-Dazs supermarket scene, 500-sq-ft apartment, 30-minute movie increments). Type 2 growth direction toward Type 4 now explicit. Governance section cut ~35%. All repetition cleaned. Reviewer comments removed.
 
 **Fix Checklist:**
 
-- [ ] Merge "Fifty Days In" and "Shadow of the Helper" into one section that weaves facts and Enneagram analysis together
-- [ ] Cut halal cart references to 1 full mention + 1 brief callback max
-- [ ] Cut "listening over lecturing" to 1 direct quote only
-- [ ] Remove duplicate inauguration quote (keep the one in context, cut the re-analysis version)
-- [ ] Reduce "showing up" / "meeting people where they are" to 2 occurrences max
-- [ ] Add counter-typing paragraph: why not Type 3? What's the tell that this is genuine connection vs. performed relatability?
-- [ ] Add 1-2 private/off-camera moments (Does he call his mom daily? Stress-eat? Stay up answering emails?)
-- [ ] Expand father relationship (seek approval? rebel against academic path? what did he inherit?)
-- [ ] Add Type 2 growth direction paragraph (toward Type 4 — does he show self-awareness about the pattern?)
-- [ ] Trim Rama section to what reveals Zohran's personality, not her biography
-- [ ] Cut 30-40% of policy detail from the governance sections — keep only examples that specifically illustrate Type 2 behavior (Hochul endorsement is strongest, keep that; G train "very interesting idea" hedging is good personality moment; deputy mayors controversy is general political stumble, consider cutting)
-- [ ] Remove embedded reviewer comments (lines 213-283) after addressing them
-- [ ] Verify description says "in over a century" to match body text (not just "youngest mayor")
-
-**Available Research:** None. No existing transcripts.
-
-**Transcripts to Grab:** Search for Zohran Mamdani podcast appearances — The Breakfast Club interview is already well-mined but a longer sit-down interview may reveal private moments.
+- [x] Merge "Fifty Days In" and "Shadow of the Helper" into one section
+- [x] Cut halal cart references to 1 full mention + 1 brief callback max
+- [x] Cut "listening over lecturing" to 1 direct quote only
+- [x] Remove duplicate inauguration quote
+- [x] Reduce "showing up" / "meeting people where they are" to 2 occurrences max
+- [x] Add counter-typing paragraph: why not Type 3?
+- [x] Add private/off-camera moments (ice cream, apartment, movies, subway recognition)
+- [x] Expand father relationship (academic vs. street-level, "diagnosed systems / got caught inside one")
+- [x] Add Type 2 growth direction paragraph (toward Type 4)
+- [x] Trim Rama section to what reveals Zohran's personality
+- [x] Cut 30-40% of policy detail from governance sections
+- [x] Remove embedded reviewer comments
+- [x] Verify description says "in over a century"
 
 ---
 
-### 9. Jordan Peterson (8.2 → 8.3) — Type 1 ⚠️ STILL NEEDS WORK
+### ~~9. Jordan Peterson (8.2 → 8.7) — Type 1~~ ✅ REVISED
 
-**Status: UPDATED with new content but 4 original fix items STILL OPEN. Updated 2026-02-17.**
+**Status: COMPLETE — revised 2026-02-18. All checklist items addressed. Reader comments removed.**
 
-New content added: 2025 health crisis, Peterson Academy, political involvement, Russian media accusation. But the 4 structural issues from the original review remain unfixed. Reader notes at lines 319-339 still enumerate these issues.
-
-**Current Problems (still open):**
-
-1. **Timeline jump**: Biblical series (May 2017) still appears before "Then came 2016" (Bill C-16) — events are out of chronological order
-2. **"Ten million copies sold"** still appears twice (lines ~98 and ~171)
-3. **C-16 steelman still missing** — no acknowledgment of the legal counter-argument
-4. **Big Five acknowledgment still missing** — Peterson is a personality psychologist who advocates for Big Five over other frameworks
+Major revision. Structure reorganized thematically rather than chronologically, resolving the timeline concern. Pre-C-16 YouTube lecture context added (building a quiet following since 2013 before controversy hit). C-16 steelman present (Canadian Bar Association endorsement, no criminal prosecutions since passage, "genuinely debated"). Big Five acknowledgment present (co-authored Big Five Aspects Scale, "lacking psychometric rigor" — directly addressed). "Ten million copies" deduplicated to one mention in Rise to Fame section. FAQ cleaned up with cross-references. Reader comments removed. Emma Watson cross-link removed. "Miracle of the mundane" pharmacy moment is the emotional hinge.
 
 **Fix Checklist:**
 
-- [x] Consolidate "order vs chaos" to one passage — cut redundant mentions
+- [x] Consolidate "order vs chaos" to one passage
 - [x] Add recent developments (health crisis, Peterson Academy, political involvement)
-- [ ] Fix timeline: 2016 C-16 controversy must come before May 2017 Biblical series
-- [ ] Remove duplicate "ten million copies" mention
-- [ ] Add brief steelman of C-16 legal counter-argument (2-3 sentences)
-- [ ] Add Big Five acknowledgment (he's a personality psychologist — address directly)
-- [ ] Clean up embedded reader feedback comments (lines 319-339) before publication
-
-**Available Research:** None. No existing transcripts.
+- [x] Structure resolves timeline (thematic organization, C-16 in Righteous Anger before biblical series in Rise to Fame)
+- [x] Remove duplicate "ten million copies" mention
+- [x] Add C-16 steelman (Canadian Bar Association, no prosecutions)
+- [x] Add Big Five acknowledgment (co-authored scale, psychometric rigor)
+- [x] Clean up embedded reader feedback comments
 
 ---
 
-### 6. Logan Paul (7.8 → 8.2) — Type 3 ⚠️ STILL NEEDS WORK
+### ~~6. Logan Paul (7.8 → 8.5) — Type 3~~ ✅ REVISED
 
-**Status: IMPROVED but still below 8.5 threshold. 3 items still open.**
+**Status: COMPLETE — revised 2026-02-18. All checklist items addressed. Now at threshold.**
 
-WWE section is now strong (Crown Jewel detail, full-time contract, Cody Rhodes quote). Transcripts re-mined. Ending is strong. But 3 original fix items remain open.
-
-**Current Problems (still open):**
-
-- TL;DR framing still hedgy ("looks like a Type 3" vs. "is a Type 3")
-- Prime revenue figures ($1.2B → $300M) stated without source
-- Needs at least one more source/citation
+All three remaining issues resolved. TL;DR now uses confident framing ("Why Logan Paul is an Enneagram Type 3"). Prime revenue sourced with Bloomberg link ($1.2B) and accio.com link (40% decline). Multiple sourced citations throughout (Fox News for Crown Jewel injury, Bleacher Report for WWE contract, Wrestling Headlines for Cody Rhodes quote). Faith arc, friendship loyalty tests, and brain scan narrative all strong.
 
 **Fix Checklist:**
 
 - [x] Expand WWE section with specific behavioral changes
 - [x] Re-mine existing transcripts for missed evidence
 - [x] Verify ending cuts to black at peak insight
-- [ ] Replace hedgy Enneagram language with confident framing (TL;DR still says "looks like")
-- [ ] Source or remove the Prime revenue figures
-- [ ] Add at least one sourced citation for a major claim
-
-**Available Research:**
-
-- `youtube-transcripts/logan-paul-brain-scan.md`
-- `youtube-transcripts/logan-paul-paul-family.md`
-- `youtube-transcripts/logan-paul-5-months.md`
-- `youtube-transcripts/logan-paul-paul-american-review.md`
-- `youtube-transcripts/logan-paul-ti.md`
-
----
-
-## Priority Order for Remaining Work
-
-1. **Zohran Mamdani** (7.8) — Most work needed but also the most potential. Strong bones (opening, closing, rap section, Cuomo moment) but needs structural surgery to merge redundant sections, cut repetition, and add missing elements (counter-typing, private moments, father, growth direction). Could reach 8.8-9.0 with the fixes.
-2. **Jordan Peterson** (8.3) — 4 structural items, mostly mechanical fixes (timeline, dedup, add steelman + Big Five). Easiest path to 8.5+.
-3. **Logan Paul** (8.2) — 3 items, mostly confidence/sourcing fixes. No transcripts needed.
+- [x] Replace hedgy Enneagram language with confident framing
+- [x] Source Prime revenue figures (Bloomberg, accio.com)
+- [x] Add sourced citations (Fox News, Bleacher Report, Wrestling Headlines, Bloomberg)
 
 ---
 
@@ -490,21 +433,12 @@ WWE section is now strong (Crown Jewel detail, full-time contract, Cody Rhodes q
 | Andrew Callaghan  | 8.7   | Type 7 | Todeschini confrontation               |
 | Margot Robbie     | 8.6   | Type 2 | Wuthering Heights section              |
 | Aubrey Plaza      | 8.6   | Type 6 | Counterphobic Six thesis               |
-| Blake Lively      | 8.5   | Type 2 | Original gold standard                 |
-| Keke Palmer       | 8.5   | Type 7 | At threshold, reviewer notes remain    |
+| Zohran Mamdani    | 8.8   | Type 2 | Mira Nair canvassing, counter-typing   |
+| Jordan Peterson   | 8.7   | Type 1 | Soviet art, pharmacy "mundane miracle" |
+| Keke Palmer       | 8.7   | Type 3 | Lauren/Keke split, Nope mirror         |
+| Blake Lively      | 8.5   | Type 1 | Original gold standard                 |
+| Logan Paul        | 8.5   | Type 3 | Faith arc, friendship loyalty tests    |
 | Malcolm Gladwell  | 8.5   | Type 5 | At threshold                           |
-
----
-
-## Transcript Research Priority Matrix
-
-Which transcripts to grab first, ranked by impact on blog quality:
-
-| Priority | Person          | Transcripts Needed                | Existing | Status / Impact                                                  |
-| -------- | --------------- | --------------------------------- | -------- | ---------------------------------------------------------------- |
-| 1        | Zohran Mamdani  | 1-2 (longer podcast sit-down)     | 0        | **High** — needs private moments, could unlock missing elements  |
-| 2        | Jordan Peterson | 2-3 (Lex Fridman, health journey) | 0        | **Medium** — 4 mechanical fixes, mostly doesn't need transcripts |
-| 3        | Logan Paul      | 0-1 (WWE transformation)          | 5        | **Low** — fixes are confidence/sourcing, not content gaps        |
 
 ---
 

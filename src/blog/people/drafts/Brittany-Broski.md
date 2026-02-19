@@ -19,7 +19,33 @@ twitter: 'brittany_broski'
 instagram: 'brittany_broski'
 tiktok: 'brittanybroski'
 path: src/blog/people/drafts/Brittany-Broski.md
+content_quality:
+  hook: 8
+  enneagram: 9
+  evidence: 9.5
+  writing: 8.5
+  originality: 8.5
+  overall: 8.7
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.7)
+Hook: 8 | Enneagram: 9 | Evidence: 9.5 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- The military brat childhood as Type 7 training ground is the most original insight: "Military brats learn to adapt fast... For a naturally enthusiastic Type 7, this constant change becomes training ground for the very skills that would later make Brittany a natural entertainer."
+- The "Self-Promotion Paradox" section is the piece's best psychological moment: when she self-promotes, "it's me" — if someone criticizes the project, "they didn't like me." This reveals the Type 7's hidden vulnerability beneath the confident exterior.
+- Evidence is exceptional — Hollywood Reporter "Person of Interest" feature, Bustle September 2025 interview, Theo Von podcast (Episode 490), TIME100 Creators list, specific collaborator credits (Luke Niccoli, Zhone, Annika Bennett). The career timeline with dates is comprehensive.
+- The Sarah Schauer chapter adds valuable dimension — the abrupt ending and Brittany's unusual silence about it is correctly identified as "a rare instance of a boundary in an otherwise open life."
+- The 7w6 wing analysis is well-supported: parasocial reciprocity ("I am as parasocially attached to them as they are to me"), anxiety discussions, fierce loyalty to "Broski Nation."
+- The PCOS/health journey as Type 7 stress toward Type 1 is a smart reading: "The Type 7 who naturally avoids pain was forced to confront physical symptoms that couldn't be escaped through distraction."
+- Social media critique as growth toward Type 5 integration is insightful.
+- NEEDS WORK: The kombucha opening is the most obvious possible hook for a Brittany Broski piece. Everyone knows this story. Consider leading with the bank firing or the military childhood instead.
+- NEEDS WORK: At 362 lines, the piece is long. The "What Makes Brittany Actually Funny" section, while well-written, could be trimmed — the impressions list and tangent description overlap with the content process section later.
+- NEEDS WORK: The music section is thorough but feels slightly disconnected from the personality analysis. Weave the Type 7 "deeper creative expression" insight earlier rather than tagging it at the end.
+- TO REACH A: Stronger, less obvious hook. Trim the comedy analysis section. Tighten the music section's connection to personality.
+-->
 
 > "Sacrifice the need to be liked for a more fulfilling life... Don't be afraid to be freaky."
 

@@ -15,6 +15,17 @@ pic: ''
 path: src/blog/enneagram/enneagram-type-3.md
 ---
 
+<!--
+Midjourney prompt:
+achievement identity conflict greek statue running past laurel crowns and masks, polished smile with hidden strain, grand marble stage with mirrored reflections, Unreal Engine, Cinematic, high-contrast monochrome with metallic gold highlights, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Spotlight Cinematic Lighting and Backlight, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+
+Image intent:
+Capture Type 3's tension between high performance, shifting image, and the search for an authentic self.
+
+Suggested pic slug:
+type-3-mask-and-laurel
+-->
+
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

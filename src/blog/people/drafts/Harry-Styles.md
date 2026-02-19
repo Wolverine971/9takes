@@ -18,7 +18,29 @@ twitter: 'Harry_Styles'
 instagram: 'harrystyles'
 tiktok: ''
 path: src/blog/people/drafts/Harry-Styles.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9.5
+  originality: 9
+  overall: 9.3
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.3)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9.5 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- Outstanding piece. "Since I've been 10—protect Mom at all costs" is a perfect hook that explains everything after
+- Type 2 integration is the engine, not the paint: One Direction as "finding a family to hold together," Love On Tour as "church at scale," hiatus as "when the Helper finally stops"
+- Therapy breakthrough is the signature detail: "The biggest moments of One Direction's success, Harry experienced as relief that he hadn't let people down. Not joy. Not pride. Just absence of failure." Genuinely revelatory
+- Love On Tour coming-out moments (McKenzie Grace, Wembley Italian fan) are vivid and specific
+- Liam Payne grief section handles loss through Type 2 lens beautifully: "You can't protect everyone. Type 2s often learn this the hardest way."
+- Ending nails it: "Treat People With Kindness. The mature version adds an essential word: yourself."
+- TO REACH A+: Could benefit from slightly deeper exploration of the Larry Stylinson section — the Type 2 paralysis angle is great but underdeveloped
+-->
 
 > "Since I've been 10, it's kind of felt like—protect Mom at all costs."
 

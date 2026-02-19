@@ -18,7 +18,33 @@ twitter: 'GRRMspeaking'
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/George-RR-Martin.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 8.5
+  writing: 9
+  originality: 9
+  overall: 8.9
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.9)
+Hook: 9 | Enneagram: 9 | Evidence: 8.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- Turtle-death-as-first-epic-fantasy origin is brilliant and something most analyses miss
+- "If I understand everything about this world, I control it" — perfect Type 5 thesis
+- WordStar 4.0 as deliberate isolation rather than eccentricity is insightful
+- Jean Cocteau Cinema as "controlled environment" / real-world castle is clever
+- "Fame shattered the conditions that made his work possible" is the key insight
+- Disintegration toward Type 7 (scattered projects, Jets blog posts) is well-explained
+- HBO section through Type 5 lens of control is well-done — "watching others control your creation"
+- "Trapped in a world of his own making" closing is strong
+- NEEDS WORK: Some sections could use more specific quotes and sourced details
+- NEEDS WORK: The comparison to Elon Musk as fellow Type 5 feels forced
+- TO REACH A: Add more specific sourced quotes, deepen the HBO section with more detail, remove the strained Musk comparison
+-->
 
 > "I don't write when I travel. I don't write in hotel rooms. I don't write on airplanes."
 

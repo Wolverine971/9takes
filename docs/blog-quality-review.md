@@ -4,7 +4,7 @@
 
 Quality assessment across all personality analysis blog drafts. Rated on a 10-point scale across: **Hook**, **Enneagram Integration**, **Evidence/Sourcing**, **Writing Quality**, **Originality**, and an **Overall** score.
 
-**Last updated: 2026-02-18 — 25 blogs reviewed, 22 at 8.5+ threshold**
+**Last updated: 2026-02-18 — 25 blogs reviewed, 25 at 8.5+ threshold**
 
 See `docs/blog-fix-plan.md` for detailed fix checklists and agent instructions.
 
@@ -82,14 +82,17 @@ The acid-trip painting for Tarantino is a phenomenal opening hook — a painfull
 | Blog                  | Hook | Enneagram | Evidence | Writing | Originality | **Overall** |
 | --------------------- | ---- | --------- | -------- | ------- | ----------- | ----------- |
 | **Hasan Piker**       | 9    | 9         | 9        | 9       | 8.5         | **8.8**     |
+| **Zohran Mamdani**    | 9.5  | 9         | 8.5      | 8.5     | 9           | **8.8**     |
 | **Michael B. Jordan** | 9    | 9         | 8.5      | 9       | 8.5         | **8.8**     |
 | **Tom Cruise**        | 8.5  | 8.5       | 9        | 9       | 8.5         | **8.7**     |
+| **Jordan Peterson**   | 8.5  | 9         | 9        | 8.5     | 8.5         | **8.7**     |
 | **Jacob Elordi**      | 9    | 9         | 8.5      | 8.5     | 8.5         | **8.7**     |
+| **Keke Palmer**       | 9    | 8.5       | 8.5      | 9       | 8.5         | **8.7**     |
 | **Andrew Callaghan**  | 8    | 8.5       | 9        | 8.5     | 8.5         | **8.7**     |
 | **Margot Robbie**     | 8.5  | 8.5       | 8.5      | 8.5     | 8.5         | **8.6**     |
 | **Aubrey Plaza**      | 8.5  | 8.5       | 8.5      | 8.5     | 8.5         | **8.6**     |
 | **Blake Lively**      | 9.5  | 9         | 8.5      | 9       | 8.5         | **8.5**     |
-| **Keke Palmer**       | 8.5  | 8.5       | 8        | 8.5     | 8.5         | **8.5**     |
+| **Logan Paul**        | 8.5  | 8.5       | 8.5      | 8.5     | 8.5         | **8.5**     |
 | **Malcolm Gladwell**  | 8    | 8.5       | 8.5      | 8.5     | 8           | **8.5**     |
 
 ### Hasan Piker (8.8) — Type 8
@@ -124,37 +127,25 @@ Rewritten with the counterphobic Six thesis as the engine throughout. Every sect
 
 The most explosive opening in the set — Taylor Swift's "mass corporate email" text surfacing from court documents. The "It Ends With Us" analysis is balanced and well-sourced: acknowledging both the harassment evidence (Baldoni's PR team texts) and the tonal miscalculation (the "Ryle You Wait" cocktail). The Type 1 "control" thesis is consistent from childhood through Gossip Girl through the press tour. The marriage section (Boone Hall Plantation, the 8-year delayed apology) is sharp.
 
-### Keke Palmer (8.5) — Type 7 ✨ NEW
+### Jordan Peterson (8.7) — Type 1 ⬆️ was 8.3
 
-At the threshold. Reviewer comments still embedded in draft identifying areas for improvement. Address before publication.
+Comprehensive and well-researched. The Type 1 vs Type 5 vs Type 8 counter-typing section is one of the strongest in the collection — the 99th percentile orderliness argument is diagnostic and original. The Soviet propaganda art section (250 pieces covering every wall, ceiling, and bathroom) is a standout. The "miracle of the mundane" pharmacy moment — a man who spent his career preaching heroic confrontation of chaos discovering that standing in an aisle without pain is itself a form of grace — is the emotional hinge and possibly the best single moment in the piece. Marriage Big Five comparison (he's the agreeable one) is counterintuitive and well-developed. Health crises thorough. "Why Young Men?" section analytically strong. Pre-C-16 YouTube lecture context added. FAQ cleaned up with cross-references instead of repeating content. Big Five acknowledgment present. C-16 steelman present. Reader comments removed.
+
+### Keke Palmer (8.7) — Type 3 ✨ NEW
+
+Stronger than its original 8.5 rating. The Lauren/Keke persona split is the driving engine — "I was showcasing the side of me I damn near forgot about myself because I was doing everything that I could to be Keke Palmer." The closet scene (hiding from a producer who wouldn't take no) juxtaposed against the BLM protest (telling the National Guard to march beside her) captures the full range. SpongeBob suit metaphor works perfectly. Bankruptcy at 18 after being the family's financial engine since childhood is devastating. Three major labels signing and shelving her music is the most specifically wounding version of the achievement-without-recognition pattern. "Sorry to this man" section transitions from humor to strategic analysis of comedy as camouflage. _Nope_ mirror analysis (Emerald Haywood as meta-autobiography) is the intellectual peak. Darius Jackson section handled with gravity; diary destruction as attack on the survival mechanism itself. Strong ending.
+
+### Zohran Mamdani (8.8) — Type 2 ⬆️ was 7.8
+
+Major structural revision elevated this from below threshold to one of the stronger pieces. The Mira Nair canvassing opening remains one of the best hooks in the collection — she earns the conversation before revealing she's his mother. Counter-typing paragraph (why not Type 3?) uses the 3 a.m. Remnick answer perfectly: not _Can I achieve this?_ but _What if I let them down?_ New "What They Don't See" section adds real emotional depth — the aunt's 9/11 tears and "if I behaved well enough" as Type 2 core wound spoken aloud. Father relationship deepened throughout: "The father diagnosed systems. The son got caught inside one." Private moments now present (Häagen-Dazs supermarket scene, 500-square-foot apartment, 30-minute movie increments). Type 2 growth direction toward Type 4 now explicit. Governance section cut to essentials. Repetition cleaned. Reviewer comments removed. Closing line lands with perfect callback to opening.
 
 ### Malcolm Gladwell (8.5) — Type 5 ⬆️ was 8.0
 
 Significantly expanded. David and Goliath section added. Talking to Strangers coverage. Pushkin Industries layoffs integrated. Pinker "Igon Value Problem" debate included. Personal life updates. The "translation" framing (making research portable) is apt. The 10,000-hour debate is handled with unusual fairness. The _Blink_ problem section (celebrating snap judgment in one chapter, warning against it in another) shows real analytical rigor. At the 8.5 threshold — publishable quality. Could still benefit from one more punchy anecdote.
 
----
+### Logan Paul (8.5) — Type 3 ⬆️ was 8.2
 
-## Tier 3: Below Threshold — Needs Work (< 8.5)
-
-| Blog                | Hook | Enneagram | Evidence | Writing | Originality | **Overall** |
-| ------------------- | ---- | --------- | -------- | ------- | ----------- | ----------- |
-| **Jordan Peterson** | 8    | 8.5       | 8.5      | 8       | 8           | **8.3**     |
-| **Logan Paul**      | 7.5  | 7.5       | 8        | 8.5     | 8           | **8.2**     |
-| **Zohran Mamdani**  | 9.5  | 7.5       | 8        | 7.5     | 8.5         | **7.8**     |
-
-### Jordan Peterson (8.3) — Type 1
-
-Comprehensive and well-researched. The Soviet propaganda art section (250 pieces covering every wall, ceiling, and bathroom) is a standout. The health sections are thorough. The "Why Young Men?" section is analytically strong. New content added: 2025 health crisis, Peterson Academy, political involvement. But 4 structural issues remain: timeline jump (May 2017 Biblical series before "Then came 2016" C-16), "ten million copies sold" appears twice, C-16 steelman still missing, Big Five acknowledgment still missing.
-
-### Logan Paul (8.2) — Type 3
-
-The "respect vs. attention" thesis is genuinely insightful. The faith arc section (mocking Christianity → attributing misfortune to God → sincere theological questioning) is a great find. WWE section now strong (Crown Jewel detail, Cody Rhodes quote). But 3 items remain: TL;DR framing still hedgy ("looks like a Type 3"), Prime revenue figures unsourced, needs at least one more citation.
-
-### Zohran Mamdani (7.8) — Type 2 ✨ NEW
-
-Strong bones but significant structural problems documented in two embedded reviewer comment blocks. The first 60% is genuinely strong: Mira Nair canvassing opening is excellent ("she earns the conversation first" → mirrors the "earn the right" theme), rap career section ("opener to the opener to the opener") is the most human part, Cuomo/Charlotte Bennett debate moment is dramatic Type 2→8 stress behavior, closing line ("The hardest thing for a Type 2 isn't showing up. It's learning that you don't have to earn the right to stop") lands perfectly with callback to opening.
-
-**Key problems:** Halal cart referenced 3 times. "Listening over lecturing" repeated. Inauguration quote appears in full twice. "Showing up" / "meeting people where they are" 5+ times. "Fifty Days In" and "Shadow of the Helper" cover the same ground (twelve executive orders, Hochul, appointments) — needs merging. Missing: counter-typing argument (why not Type 3?), private off-camera moments, father relationship depth, Cape Town years, Type 2 growth direction. Political detail in back half outweighs personality analysis. With structural surgery (merge redundant sections, cut repetition, add missing elements), could reach 8.8-9.0.
+Now at threshold. The "attention into legitimacy" thesis drives the entire piece. The faith arc (mocking Christianity → attributing misfortune to God → sincere theological questioning over 450 podcast episodes) is a genuinely original find. WWE section strong with specific detail (Crown Jewel frog splash through announce table while filming on his phone, torn MCL/meniscus/ACL, finished the match). Randy Orton and Cody Rhodes quotes carry weight. Prime revenue now sourced (Bloomberg, accio.com). Friendship section (Janko vs Majlak as loyalty tests) is insightful — "He's still the co-host" after the Majlak litany is understated and devastating. Brain scan as "narrative relief" works well. "A Type 3 doesn't just lose interest. They graduate" — sharp. Confident Enneagram framing throughout; hedgy language removed. Strong ending.
 
 ---
 
@@ -216,9 +207,9 @@ The best blogs go beyond public behavior. Nadella reads Urdu poetry alone at nig
 | Metric               | Count | Percentage |
 | -------------------- | ----- | ---------- |
 | Total blogs reviewed | 25    | —          |
-| At 8.5+ threshold    | 22    | 88%        |
+| At 8.5+ threshold    | 25    | 100%       |
 | Gold Standard (9.0+) | 12    | 48%        |
-| Strong (8.5-8.9)     | 10    | 40%        |
-| Below threshold      | 3     | 12%        |
+| Strong (8.5-8.9)     | 13    | 52%        |
+| Below threshold      | 0     | 0%         |
 
-**Remaining work:** Zohran Mamdani (7.8 — structural surgery needed), Jordan Peterson (8.3 — 4 mechanical fixes), Logan Paul (8.2 — 3 confidence/sourcing fixes). See `docs/blog-fix-plan.md` for detailed fix checklists.
+**All 25 blogs are now at or above the 8.5 publication threshold.** No structural work remains. Optional polish items for individual blogs are noted in their entries above.

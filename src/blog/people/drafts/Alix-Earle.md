@@ -18,7 +18,31 @@ twitter: 'alaborr'
 instagram: 'alixearle'
 tiktok: 'alixearle'
 path: src/blog/people/drafts/Alix-Earle.md
+content_quality:
+  hook: 9
+  enneagram: 8.5
+  evidence: 8.5
+  writing: 8.5
+  originality: 8
+  overall: 8.5
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.5)
+Hook: 9 | Enneagram: 8.5 | Evidence: 8.5 | Writing: 8.5 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- "She was crying five minutes ago. Now she's doing her makeup for millions." — one of the best openers in the collection. Punchy, immediate, sets up the paradox perfectly.
+- Counter-typing section is excellent: "Type 7s move away from pain. Alix sits in her bathroom, mascara running, and talks through it." Specific behavioral evidence, not generic type descriptions.
+- The Spitzer scandal → media literacy pipeline is the piece's most original insight: "She learned early that narratives can be controlled" at age seven → builds narrative-control empire as an adult.
+- The "Alix Earle effect" is well-documented with specific data (Rare Beauty sell-out in hours, not days).
+- DWTS Dedication Night with half-sister Izabel: "The complicated family history transformed into something beautiful on national television." Smart emotional beat.
+- NEEDS WORK: The ending ("What would it feel like to let people see your real struggles?") is generic inspiration. The strongest line is "Her real advantage? Not strategy. Not luck." — build the close around that.
+- NEEDS WORK: The core thesis ("she's real and relatable") is what every profile says about her. The Enneagram lens elevates it but could push further — what does Type 3 specifically explain that "authentic influencer" doesn't?
+- NEEDS WORK: The Tom Brady section is thin — "whether this becomes anything or remains a New Year's Eve moment is beside the point" acknowledges its own irrelevance. Cut or shorten.
+- TO REACH A: Sharper ending (no rhetorical questions), deepen the Type 3 thesis beyond "authentic achiever," trim Tom Brady section.
+-->
 
 <p class="firstLetter">She was crying five minutes ago. Now she's doing her makeup for millions.</p>
 

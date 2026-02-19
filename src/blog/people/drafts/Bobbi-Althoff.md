@@ -18,7 +18,32 @@ twitter: 'boaboringalthof'
 instagram: 'bobbialthoff'
 tiktok: 'bobbialthoff'
 path: src/blog/people/drafts/Bobbi-Althoff.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9
+  originality: 9
+  overall: 9.2
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.2)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- The "alchemy" thesis is the piece's defining insight and it carries everything: "She took everything she hated about herself and turned it into a multimillion-dollar brand." This is not a standard personality analysis — it's a genuine psychological argument.
+- The Drake section is masterfully handled. The timeline (interview → deletion → rumors → reconciliation) is well-sourced, and the Type 4 stress analysis ("projecting their internal chaos onto others") reframes celebrity gossip as personality psychology.
+- The 4w5 "Bohemian" subtype analysis is thorough: withdrawn energy, dry intellectual humor, observer quality, reserved emotional expression — each mapped to specific Bobbi behaviors with evidence.
+- "An amalgamation of her biggest insecurities, just without shame" is perfectly analyzed as Type 4 creative transformation, and the comparison to Billie Eilish and Lana Del Rey grounds it in a broader pattern.
+- Sourcing is exceptional: Rainn Wilson Soul Boom podcast (with link), Vox analysis by Alex Abad-Santos, Women On Top podcast, TMZ for divorce details, specific quotes throughout.
+- The suicide attempt at 14 is handled with appropriate gravity — not sensationalized, properly contextualized within the Type 4 core wound.
+- The Scarlett Johansson clip and tour cancellation with Funny Marco are good "real criticism" sections that avoid the "no controversies" trap.
+- The conclusion lands: "You're seeing someone who finally found a way to make the discomfort she's always felt into something valuable."
+- MINOR: The disclaimer appears at the top rather than the bottom, breaking the standard format. Move to bottom.
+- TO REACH A+: The piece is strong throughout. To elevate further, the "Persona as Transformation" section could go even deeper — what does it mean psychologically when the character you create is braver than you are? This is where the piece hints at something profound but doesn't fully develop it.
+-->
 
 > **Disclaimer** This analysis of Bobbi Althoff's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bobbi.
 

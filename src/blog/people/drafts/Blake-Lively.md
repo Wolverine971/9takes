@@ -19,7 +19,26 @@ twitter: ''
 instagram: 'blakelively'
 tiktok: ''
 path: src/blog/people/drafts/Blake-Lively.md
+content_quality:
+  hook: 10
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 10
+  overall: 9.4
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.4)
+Hook: 10 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 10
+
+FEEDBACK (2026-02-18):
+- EXCEPTIONAL HOOK: The Taylor Swift court text — "I just kinda miss my funny, dark, normal-speaking friend" — is one of the best openers in the collection. It reveals the thesis (disappearing behind curation) through the voice of someone who actually loves her, which makes it devastating rather than mean.
+- EXCEPTIONAL ORIGINALITY: The "Ryle You Wait" cocktail name is the signature detail that makes the entire Type 1 analysis click — a woman promoting a domestic violence film literally names a drink after the abuser. The Chace Crawford Instagram follow detail (only original cast member who follows her) is subtle and damning. The mother's attempted murder revelation at TIME 100 recontextualizes everything.
+- EXCEPTIONAL BALANCE: "Both stories can be true at the same time" is the most intellectually honest sentence in any blog about a controversial figure. The piece never becomes a hit piece or a defense — it holds the tension.
+- TO REACH A+: (1) The Gossip Girl section, while well-sourced, is the longest section and could be tightened by 30% — the Penn Badgley/Leighton Meester details are interesting but not essential to the Type 1 thesis. (2) The marriage section is good but the Boone Hall Plantation detail, while important, slightly breaks the Type 1 framing — consider integrating it into the "curation prevents real-time course correction" thread more tightly. (3) A signature "aha" moment connecting childhood to the current crisis more explicitly would elevate further — the "brought from hospital to film set" detail is there but could be drawn into sharper focus as the origin of the control pattern.
+-->
 
 > "Probably because I have control issues and a big ego — that's probably the honest answer."
 > — Blake Lively, on why she doesn't use a stylist

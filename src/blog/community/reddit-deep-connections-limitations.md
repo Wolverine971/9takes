@@ -160,9 +160,7 @@ Reddit isn't broken. It's doing exactly what it was designed to do: surface cont
 
 But if you're craving actual connection — not just engagement, not just acknowledgment, but the kind of understanding that comes from knowing _why_ someone thinks what they think...
 
-That requires a different structure. One that prioritizes the person behind the opinion. One that shows you [how different personality types communicate](/enneagram-corner/enneagram-communication-styles) so you can actually understand _why_ someone sees things differently.
-
-<!-- INTERNAL LINK TODO (add when published): In this closing section, add links to /community/how-minds-change-on-9takes (full framework) and /community/the-9takes-bridge-protocol (conversation tactics). -->
+That requires a different structure. One that prioritizes the person behind the opinion. One that shows you [how different personality types communicate](/enneagram-corner/enneagram-communication-styles) so you can actually understand _why_ someone sees things differently. The research on [how minds actually change](/community/how-minds-change-on-9takes) confirms it: people update their beliefs when they feel safe, not when they feel attacked.
 
 <a href="/community/introducing-9takes">Check out what we're building</a> — or keep scrolling. But now you know why the scroll never satisfies.
 

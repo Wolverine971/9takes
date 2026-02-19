@@ -19,7 +19,31 @@ twitter: 'https://twitter.com/emrata'
 instagram: 'https://www.instagram.com/emrata'
 tiktok: 'https://www.tiktok.com/@emrata'
 path: src/blog/people/drafts/Emily-Ratajkowski.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 8.5
+  overall: 8.8
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.8)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- Opening quote about being "unpleasant around men" is immediately arresting; "The confrontational stance isn't just attitude. It's architecture" is excellent
+- Numéro quote reframed as "reconnaissance" rather than introspection is insightful Type 8 analysis
+- Richard Prince → NFT reclamation story is the most original moment — perfect encapsulation of her approach
+- Bear-McClard section through Type 8 lens of betrayal/control is well-done
+- Inamorata as autonomy play rather than just business is well-framed
+- Blue Origin criticism ("end-time shit") as Type 8 seeing through performance is perfect
+- NEEDS WORK: Dating period list (Pete Davidson, Eric Andre, Harry Styles) reads as gossip rather than psychology
+- NEEDS WORK: Some achievement sections could be more psychologically grounded
+- TO REACH A: Deepen psychological analysis in the relationship/dating section, tighten the achievements to focus on the Type 8 pattern rather than listing
+-->
 
 > "I have a really complicated relationship with powerful men. I certainly didn't want someone who needed me to feel small. I'm quite unpleasant around men who need that."
 

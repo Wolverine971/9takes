@@ -17,7 +17,32 @@ twitter: 'amypoehler'
 instagram: 'amypoehler'
 tiktok: ''
 path: src/blog/people/drafts/Amy-Poehler.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9 | Writing: 8.5 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- "I don't f--king care if you like it." — perfect opener. The Tina Fey SNL story is iconic and immediately establishes Type 8 energy. Fey's commentary ("cosmic shift") adds credibility.
+- Self-identification from TWO separate sources (Seth Meyers + Good Hang podcast) makes this one of the most grounded typings in the collection. The 8w9 specificity ("So I'm not a monster, right? 'Cause I got a little peacemaker in me") is gold.
+- Counter-typing is excellent: "Type 3s would never say 'I don't care if you like it.' They need to be liked. Amy needs to be respected." Specific, behavioral, not generic.
+- UCB as Type 8 institution-building is the piece's most original frame: "Some Type 8s build empires that glorify themselves. Amy built one that creates opportunities for others."
+- The Tina Fey partnership as Type 3 + Type 8 complementary dynamic is insightful: "Tina controls the room through craft; Amy controls it through presence."
+- The James Cameron joke fallout ("a decade later, she hasn't dignified it with a response") is a perfect Type 8 illustration and a strong near-ending.
+- The Ana Gasteyer plane confrontation ("My Boston came out") adds a contemporary protective-instinct example.
+- NEEDS WORK: The piece could be tighter — some sections restate the "protective leader" thesis without adding new evidence.
+- NEEDS WORK: The fan review comments at the file's end (~140 lines) are useful reference material but should be moved to a separate notes file or trimmed.
+- TO REACH A+: Tighten by 10-15%, move fan comments to separate file, add one more surprising personal detail that reveals Type 8 vulnerability (the postpartum section does this but could go deeper).
+-->
 
 > "I don't f--king care if you like it."
 

@@ -15,6 +15,17 @@ pic: ''
 path: src/blog/enneagram/enneagram-type-7.md
 ---
 
+<!--
+Midjourney prompt:
+restless possibility-seeking greek statue at a crossroads of many glowing archways, excited but unsettled expression, expansive marble plaza with half-finished maps, Unreal Engine, Cinematic, sunrise gold with electric cyan accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting and Volumetric Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+
+Image intent:
+Express Type 7's pull toward endless options and the deeper freedom found in choosing one path fully.
+
+Suggested pic slug:
+type-7-possibility-crossroads
+-->
+
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

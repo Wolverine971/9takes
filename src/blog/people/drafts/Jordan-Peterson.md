@@ -18,7 +18,28 @@ twitter: 'jordanbpeterson'
 instagram: 'jordan.b.peterson'
 tiktok: ''
 path: src/blog/people/drafts/Jordan-Peterson.md
+content_quality:
+  hook: 9
+  enneagram: 10
+  evidence: 9
+  writing: 9
+  originality: 10
+  overall: 9.4
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.4)
+Hook: 9 | Enneagram: 10 | Evidence: 9 | Writing: 9 | Originality: 10
+
+FEEDBACK (2026-02-18):
+- EXCEPTIONAL: "Why Type 1 and Not Type 5 or Type 8" is the best counter-typing section in the entire blog collection. Three distinct arguments (moral framing, relationship with vulnerability, 99th percentile orderliness) directly engage the dominant alternative typings.
+- EXCEPTIONAL: "I better" as the inner critic in three syllables is a signature detail that makes the entire Type 1 analysis click. The tears-on-camera section — a man failing to meet his own impossible standards in real-time — is genuinely brilliant.
+- EXCEPTIONAL: The pharmacy ending ("I'm not on fire. I could just stand here") is haunting. "The Reformer, for a moment, at rest" — five words that land like a closing chord. This is how you end a personality analysis.
+- STRONG: The piece handles the most polarizing intellectual figure with genuine fairness. The Elliot Page tweets are presented with both readings. The algorithm/Daily Wire drift is framed as an open question. Peterson's own acknowledgment of the bias is woven in naturally.
+- NEEDS WORK: The piece is long. The FAQ section, while better than most, could be trimmed — several answers just redirect to sections above.
+- TO REACH A+: (1) Tighten the FAQ section or cut it entirely — the piece doesn't need it. (2) The controversies section (Elliot Page, enforced monogamy, climate) could be 20% shorter — each point is made well but collectively they slow the narrative momentum before the ending. (3) One more moment of genuine uncertainty would push it over: the piece is fair but still confident in its reading.
+-->
 
 <QuickAnswer question="Is Jordan Peterson a good person or a dangerous ideologue?">
 Neither framing captures him. Peterson is an Enneagram Type 1, driven by an internal moral compass that demands perfection from himself and everyone else. His intensity comes from genuine conviction that we're all obligated to fight chaos with order. Type 1s don't compromise on what they believe is right, which explains both the devoted followers and the fierce critics.

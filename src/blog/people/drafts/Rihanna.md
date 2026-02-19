@@ -19,7 +19,33 @@ twitter: 'https://twitter.com/rihanna'
 instagram: 'https://www.instagram.com/badgalriri/'
 tiktok: 'https://www.tiktok.com/@rihanna'
 path: src/blog/people/drafts/Rihanna.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 8.5
+  writing: 8
+  originality: 7.5
+  overall: 8.0
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.0)
+Hook: 8 | Enneagram: 8 | Evidence: 8.5 | Writing: 8 | Originality: 7.5
+
+FEEDBACK (2026-02-18):
+- Opening creates energy with the body-shaming meme and "dizzy f*ck" quote, but it's a highlights reel rather than a single scene-based hook.
+- Type 8 framing is solid — the "genuine detachment vs performing detachment" distinction works. Sensitivity section provides good counterbalance.
+- BUG: The stress pattern link points to "/enneagram-corner/enneagram-type-5" — should be Type 8's stress direction.
+- NEEDS WORK: Counter-typing is absent. Why not Type 7 (fun-loving) or Type 3 (image-driven)? This would strengthen the typing.
+- NEEDS WORK: Wings and arrows are barely explored. What does 8w7 vs 8w9 look like for her? Growth toward Type 2 (Clara Lionel Foundation as evidence)?
+- NEEDS WORK: The "Clapback Queen" section reads as a greatest-hits list rather than narrative. Pick 1-2 best examples and tell them in detail.
+- NEEDS WORK: The Met Gala section is a year-by-year rundown without psychological insight. What does fashion mean to an Eight?
+- NEEDS WORK: Ending is a numbered list ("What Rihanna Actually Teaches"). Cut it entirely and end on the paragraph before — or find a sharper cut-to-black.
+- Originality is limited — clapbacks, Fenty Beauty, and the Super Bowl pregnancy are hyper-documented. Need one surprising private detail.
+- STRONGEST SECTIONS: The Super Bowl power move, the sensitivity behind the armor, and the Anti analysis.
+- TO REACH B+: Fix the Type 5 link bug, add counter-typing, convert ending from list to cut-to-black, find one signature detail.
+-->
 
 > "I'm not that sweet, but I am honest."
 

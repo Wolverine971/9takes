@@ -18,7 +18,30 @@ twitter: 'jockowillink'
 instagram: 'jockowillink'
 tiktok: ''
 path: src/blog/people/drafts/Jocko-Willink.md
+content_quality:
+  hook: 7
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 8.6
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.6)
+Hook: 7 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- EXCEPTIONAL: The Rana eating disorder thread is the signature detail that makes this analysis extraordinary. "Dense" meant as a compliment → six years of hidden eating disorder → "Who is this?" when she called crying → "That's how stupid I am." The thread traces the exact moment Type 8 protection becomes Type 8 damage, and it's specific enough that replacing "Jocko" with any other military leader breaks the analysis completely.
+- EXCEPTIONAL: "I would never impose things on my platoon... but I did it with my kids" is the piece's thesis distilled to one sentence. The contradiction between decentralized combat command and seven-day-a-week jiu-jitsu for crying children is structurally brilliant.
+- EXCEPTIONAL: The episode 500 confession — "Is there something wrong with me?" asked five times — reveals the cost of Type 8 armor: "When you build your identity around being unbreakable, you don't have a framework for the moments when you break." This line could be published in a psychology journal.
+- EXCEPTIONAL: The combat evidence (Cowboy begging to stay, Ryan Job asking to come back blind, Seth Stone's "Pray for my men") proves the leadership thesis through testimony, not assertion. Three wounded men begging to stay in their commander's unit is the most powerful evidence of healthy Type 8 protection in the collection.
+- STRONG: The camping trip scenes (fart-joke roast songs, card game ejection mechanics, regifted computer, 42-degree river swims) show a Jocko nobody expects and add essential texture.
+- STRONG: The 8→2 integration (turning toward developing others) and anger-first-then-grief pattern are precisely observed. "Four verbs in sequence — thought, realized, chose, decided. The reframe wasn't automatic. It was an act of will."
+- NEEDS WORK: The hook is the weakest element. "Every morning, somewhere around 4:30 AM, a bulky Ironman watch lights up in the darkness" is the most expected possible opening for a Jocko piece. Open instead with Rana's phone call from college, or episode 500's "Is there something wrong with me?", or Cowboy begging to stay while bleeding out.
+- PUBLICATION READY: This is publication-quality work. The hook is the only thing keeping it from A territory. The Enneagram integration, evidence, writing, and originality are all exceptional.
+-->
 
 > "Discipline equals freedom."
 

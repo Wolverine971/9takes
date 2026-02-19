@@ -19,7 +19,26 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Jacob-Elordi.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 10
+  originality: 10
+  overall: 9.4
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.4)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 10 | Originality: 10
+
+FEEDBACK (2026-02-18):
+- EXCEPTIONAL WRITING: "He doesn't want to be seen. He wants to see." "Some feelings don't resolve. They just become fuel." "He's stopped pretending he'll ever arrive." This is magazine-quality prose. The role analysis (Felix, Elvis, Frankenstein's creature, Dorrigo Evans) reads as pure narrative, never as encyclopedia entry. The ending — three generations answering the same question — is a perfect cut-to-black.
+- EXCEPTIONAL ORIGINALITY: The Wikipedia correction from "Spanish descent" to "Basque" IS the signature detail. It encapsulates the entire Type 4 thesis in a single anecdote — a man who insists on being identified correctly, on his own terms. The three-generation thread (grandfather fleeing Franco → father building quiet life → Jacob reading Waiting for Godot) is genuinely novel. The candle-lit script reading, the "bags of treasure" collection, the "Saltburn lived two different lives" observation — each is specific and revealing.
+- EXCEPTIONAL ENNEAGRAM: The 4w5 wing drives the analysis at every level — obsessive research, private ritual, intellectual accumulation. The Kissing Booth/Superman contrast as different expressions of the same Four wound (inauthenticity is existentially threatening) is the "aha" moment. Every role is read through the Four's gap between world's projection and inner reality.
+- TO REACH A+: (1) The hook is strong but could be sharper — consider opening with the Frankenstein candle-lit reading scene (lights off, candles lit, reading in the dark to feel a spark) for maximum sensory impact. (2) The "Flash Points" section (Venice handler snap, paparazzi in Paris) is the weakest section — it's brief and could be woven into other sections rather than standing alone. (3) The only missing piece is explicit stress/growth arrows — where does a stressed Four go (toward unhealthy Two) and what would that look like for Elordi?
+-->
 
 > "You feel like an impostor. You're met with this public idea of who you are, and it's never going to reflect who you actually are."
 

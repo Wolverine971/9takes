@@ -17,7 +17,29 @@ twitter: 'haileybieber'
 instagram: 'haileybieber'
 tiktok: 'haileybieber'
 path: src/blog/people/drafts/Hailey-Bieber.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 8.5
+  overall: 8.7
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.7)
+Hook: 8.5 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- Strong opening: Vogue 2025 "fought so hard" quote immediately establishes Type 3 worthiness wound
+- Excellent evidence: $212M revenue, $1B e.l.f. acquisition, 700,000 pre-launch sign-ups, Alex Cooper podcast, Emily Chang interview
+- "Otrovert" paradox reframed through Type 3 energy expenditure is original
+- PFO health crisis as Type 3 confronting mortality — "can't perform your way out of a blood clot" — great line
+- Selena Gomez section is well-handled (denying feud, showing Type 3 nightmare of uncontrollable narrative)
+- NEEDS WORK: Writing is clean but lacks a truly memorable "cut to black" ending — the closing rhetorical question is conventional
+- TO REACH A: Sharpen the ending — cut the final reflective question and end on the "taking it a day at a time" quote, which captures the Type 3 growth arc more powerfully
+-->
 
 > "I feel like I've fought so hard to try to get people to understand me, or know who I am, or see me for me. And people just don't want to sometimes."
 

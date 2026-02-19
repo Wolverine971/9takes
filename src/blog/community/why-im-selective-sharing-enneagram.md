@@ -211,9 +211,7 @@ Next time you feel the urge to explain the Enneagram to someone, pause and ask:
 2. **Am I sharing because it might help them, or because I'm excited about my discovery?** Be honest.
 3. **What's one personal insight I could share instead of analyzing them?**
 
-If you can answer these honestly, you'll know whether to speak or wait.
-
-<!-- INTERNAL LINK TODO (add when published): Before the tactical playbook, add links to /community/how-minds-change-on-9takes (identity-safety framework) and /community/the-9takes-bridge-protocol (scripts for difficult conversations). -->
+If you can answer these honestly, you'll know whether to speak or wait. The deeper reason this matters — why unsolicited analysis triggers defensiveness instead of curiosity — comes down to [identity threat and how minds actually change](/community/how-minds-change-on-9takes).
 
 ## The Tactical Playbook
 

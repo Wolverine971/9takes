@@ -15,6 +15,17 @@ pic: ''
 path: src/blog/enneagram/enneagram-type-1.md
 ---
 
+<!--
+Midjourney prompt:
+inner courtroom tension greek statue holding scales and standing between judge and child shadows, stern yet conflicted expression, marble tribunal chamber with geometric order lines, Unreal Engine, Cinematic, black white and grey with subtle gold accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Dramatic Halfrear Lighting and Moody Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+
+Image intent:
+Visualize the Type 1 inner courtroom where moral rigor and self-judgment dominate until compassion enters.
+
+Suggested pic slug:
+type-1-inner-courtroom
+-->
+
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

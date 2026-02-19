@@ -19,7 +19,31 @@ twitter: 'https://twitter.com/AliAbdaal'
 instagram: 'https://instagram.com/aliabdaal'
 tiktok: 'https://tiktok.com/@aliabdaal'
 path: src/blog/people/drafts/Ali-Abdaal.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9
+  originality: 9
+  overall: 9.2
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.2)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- Ali's own admission ("a good reason and the real reason") as opener is disarming and immediately establishes the Type 3 tension. "That six-year-old is still running the show. He just has better vocabulary now." — sharp.
+- "The Prestige Calculator" is the piece's most original concept: "'just a YouTuber' — The word 'just' is doing enormous psychological work in that sentence. The Three's core fear compressed into four letters."
+- The "Validation Engine" section is devastating: "If you said to me do everything you're currently doing but hit delete instead of hit publish on the videos, I wouldn't do them." This is the most honest Type 3 quote in the collection.
+- The "Emotional Disconnect" section reveals the Three's operating system through specific behaviors nobody else has highlighted: marriage as "nice to have gotten it out of the way," choosing tennis over snorkeling on honeymoon, finding the question "how do you feel?" about a purchase "baffling."
+- The 2-wing analysis (teacher's heart) is nuanced: "A pure Three might hoard their methods as competitive advantages. Ali's instinct is to systematize them and hand them out."
+- The brother dynamic as a check/balance perspective is underexplored territory that adds genuine depth.
+- The Burning Man "crack in the armor" section is beautifully written: "For someone who has measured time by output for his entire adult life, that sentence is quietly radical."
+- Mission statement struggle ("four hours trying to articulate what they do" → "I want status and prestige" but "you can't put that in a mission statement") is a perfect Three detail.
+- TO REACH A+: The piece is already excellent. Consider ending on "Can you believe you're enough before the world confirms it?" rather than the slightly softer "Do you recognize Ali's pattern in yourself?" paragraph that follows.
+-->
 
 > "A man always has two reasons for doing something — a good reason and the real reason. Whenever people ask me why I do YouTube, it's always that. Do I want to say it's because I enjoy helping people, or the real reason — social status, prestige, money. I like being recognized in the streets. It's kind of cool. I think it's a bit of both."
 

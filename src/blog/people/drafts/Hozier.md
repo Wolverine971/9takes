@@ -18,7 +18,30 @@ twitter: 'Habormoshow'
 instagram: 'hozier'
 tiktok: ''
 path: src/blog/people/drafts/Hozier.md
+content_quality:
+  hook: 8.5
+  enneagram: 8.5
+  evidence: 8.5
+  writing: 8
+  originality: 8
+  overall: 8.3
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.3)
+Hook: 8.5 | Enneagram: 8.5 | Evidence: 8.5 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- Good hook: "If you can say something beautiful in a very terrible way" captures Type 4 essence. Three-question setup creates tension
+- 4w5 "Bohemian" distinction is well-handled: intellectual curiosity (Dante's Inferno) layered on emotional depth
+- Year-long songwriting process as "getting the emotion exactly right" vs. Type 1 perfectionism is a smart distinction
+- Father's spinal surgery as formative experience is a strong detail that shapes the "beauty and devastating pain" foundation
+- Love-as-death quote analysis is the strongest moment: "Where some might describe falling in love as 'exciting,' a Type 4 processes it as ego death and spiritual transformation"
+- NEEDS WORK: Enneagram analysis stays descriptive ("Type 4s often feel different") rather than explanatory. Missing the "aha" moment where the type cracks something open
+- NEEDS WORK: Ending with two reflective questions is conventional. Cut to the "songs waiting to be written in the attic rooms of our own souls" — that's the ending
+- TO REACH B+: (1) Find one non-obvious thing the Type 4 lens explains about Hozier that biography alone can't. (2) Go deeper on the onstage "gangly introvert" paradox — WHY does he transform? What's the Type 4 mechanism? (3) Sharpen the ending
+-->
 
 > "If you can say something beautiful in a very terrible way — I was always drawn to that."
 

@@ -19,7 +19,26 @@ twitter: 'allaboratory'
 instagram: 'channel5'
 tiktok: ''
 path: src/blog/people/drafts/Andrew-Callaghan.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 9
+  writing: 8
+  originality: 8
+  overall: 8.2
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.2)
+Hook: 8 | Enneagram: 8 | Evidence: 9 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- STRONG: The Calvin Shaw deal ("skip school, write about what you do") is a perfect origin-story detail that makes the Type 7 wiring tangible. The Todeschini confrontation scene — letting the subject build his own scaffold before producing sex offender records — is riveting journalism writing.
+- STRONG: Evidence is exceptional. Direct quotes throughout, specific revenue ($100K/month Patreon, $5.55/rental), the Kelly voicemail arriving while Andrew was researching suicide methods. The person's voice is genuinely heard.
+- NEEDS WORK: The ending wraps up conventionally with a tidy "That's not contradiction. That's adaptation." Cut the final 3 paragraphs and end on the voicemail detail or the NYT redaction — peak tension, not resolution.
+- TO REACH B+: (1) Sharpen the hook — the 16→19→22 progression is good momentum but open with a single surprising moment instead (the Todeschini gun-on-waist scene, or the Kelly voicemail). (2) Cut the "Understanding the Restless Reporter" section entirely — it summarizes what the piece already showed. End on "3.38 million subscribers... he's not slowing down" or the NYT pulling his op-ed. (3) The Enneagram explains the pattern well but needs one deeper "aha" — explore the 7w6 contradiction more (walks into white supremacist rallies but spirals during personal crisis). That's the signature insight waiting to be developed.
+-->
 
 <p class="firstLetter">A 16-year-old kid interviews drug dealers on the darknet. At 19, he hitchhikes across America for 70 days. By 22, he's living in an RV, chasing QAnon believers and Flat Earthers across the country with a microphone and genuine curiosity.</p>
 

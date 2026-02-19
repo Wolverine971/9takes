@@ -18,7 +18,29 @@ twitter: 'HillaryClinton'
 instagram: 'hillaryclinton'
 tiktok: ''
 path: src/blog/people/drafts/Hillary-Clinton.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9
+  originality: 9
+  overall: 9.2
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.2)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- Excellent hook: concession speech morning-after framing. "Not because she wanted to. Because she believed it was the right thing to do." Instantly establishes Type 1 character
+- Enneagram is the engine: Goldwater Girl → Democrat as "principles stayed constant, party labels became irrelevant," email controversy as Type 1 wrestling with admitting imperfection (not evasion), "deplorables" as stress → Type 4, Huma Abedin's testimony as security → Type 7
+- Outstanding evidence: Hugh Rodham's toothpaste-in-the-snow punishment, Ted Kennedy's CHIP credit, 8 million children insured, Beijing 1995 as 35th most significant speech, WikiLeaks never-delivered draft speech, seven-minute standing ovation, Lisa Caputo/Melanne Verveer quotes
+- Signature detail: The WikiLeaks draft speech she never gave — "I can't do it all again... That's the explanation, but it's no excuse" — reveals Type 1 inner critic vs. public admission tension perfectly
+- "For Type 1s, success isn't measured in speeches. It's measured in statutes." Memorable line
+- Current events section (2025-2026 Epstein subpoena) keeps it fresh
+- TO REACH A+: The piece is long at 344 lines — could tighten the Party Politics section. The January 6th section, while good, reads as slightly tangential to the core psychological portrait
+-->
 
 > "I suppose I could have stayed home and baked cookies and had teas, but what I decided to do was to fulfill my profession."
 

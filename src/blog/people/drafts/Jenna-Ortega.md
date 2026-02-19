@@ -18,7 +18,29 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Jenna-Ortega.md
+content_quality:
+  hook: 5
+  enneagram: 6
+  evidence: 5
+  writing: 5
+  originality: 5
+  overall: 5.2
+  letter: F
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: F (5.2)
+Hook: 5 | Enneagram: 6 | Evidence: 5 | Writing: 5 | Originality: 5
+
+FEEDBACK (2026-02-18):
+- DECENT: The "Achiever's Crisis" section is the piece's best moment — "I was an unhappy person" after Wednesday's mega-success directly illustrates the Type 3's core struggle. The writers controversy → executive producer evolution is a good arc.
+- DECENT: The "white man confidence" cello teacher anecdote is a genuinely interesting detail and the strongest character moment in the piece.
+- NEEDS WORK: The hook is generic — "You know her as Wednesday Addams" is stock celebrity-profile opening. No specific scene. Lead with the cello teacher moment, or the night she chewed through her Invisalign from anxiety grinding, or the moment she realized she was "an unhappy person" despite every metric being off the charts.
+- NEEDS WORK: Evidence is thinly sourced throughout — "Jenna has shared," "she's mentioned," "she admitted" with zero dates or outlets. Every quote needs a specific source. The $700M box office figure needs attribution.
+- NEEDS WORK: Writing is formulaic — dramatic one-line paragraphs ("To act."), standalone italicized rhetorical questions, bold formatting. The ending is a CTA section with a link to take a personality test — the weakest possible close. "_Probably._" as a standalone paragraph is gimmicky.
+- NEEDS WORK: "Rising young actress is Type 3" isn't novel. Fails the swap test — replace "Jenna Ortega" with any ambitious young actress and most paragraphs still work. No signature detail that makes this analysis uniquely about her.
+- TO REACH D: (1) REWRITE THE HOOK: Open with the "unhappy person" confession or the Invisalign anxiety detail — that's the real story. (2) Source every quote with date and outlet. (3) Cut the ending CTA section entirely — end on the Wednesday paradox (playing a character who refuses to seek approval is therapeutic for someone whose type does exactly that). (4) Find one genuinely surprising detail about Ortega that isn't common knowledge. (5) Remove standalone one-word/one-line paragraphs and reduce bold/italic emphasis by 80%.
+-->
 
 <p class="firstLetter">You know her as Wednesday Addams.</p>
 

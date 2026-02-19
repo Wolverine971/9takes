@@ -15,6 +15,17 @@ pic: ''
 path: src/blog/enneagram/enneagram-type-8.md
 ---
 
+<!--
+Midjourney prompt:
+armored strength learning vulnerability greek statue warrior with cracked cuirass and open hand, fierce protective expression, monumental neoclassical colonnade after storm, Unreal Engine, Cinematic, charcoal stone with bronze and deep red accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Dramatic Side Lighting and Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+
+Image intent:
+Depict Type 8 strength evolving from armored control into intentional protection and selective vulnerability.
+
+Suggested pic slug:
+type-8-cracked-armor
+-->
+
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

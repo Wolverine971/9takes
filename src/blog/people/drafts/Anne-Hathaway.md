@@ -18,7 +18,33 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Anne-Hathaway.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 8.5
+  overall: 8.7
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.7)
+Hook: 8.5 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- Opening creates strong before/after tension: career threat at 35, internet destruction at 30, "too toxic" identity, now 42 with five films. Direct and compelling.
+- "Perfectionism is a form of self-harm" is the piece's most devastating insight, perfectly deployed through the motherhood context.
+- The family leaving Catholicism when brother came out is pure Type 1 psychology: "when the moral system you've trusted proves itself flawed, you don't compromise—you find a better system."
+- The Hathahate section is excellent Enneagram work: "For a Type 1, being called fake while trying so hard to be good is perhaps the most painful criticism possible." This reframe through Type 1 lens is the piece's strongest original contribution.
+- Sobriety as "Type 1 absolutism but Type 1 health" is a smart distinction: "No moderation. No 'cutting back.' A complete cessation based on a single violation of her own standards."
+- Les Mis transformation section handles the shadow of perfectionism well: "even achievement doesn't satisfy the inner critic."
+- Christopher Nolan as savior figure is well-sourced from Women's Wear Daily. "For a Type 1 who felt rejected by the world, being repeatedly chosen by one of cinema's most acclaimed directors isn't just a career milestone—it's validation."
+- NEEDS WORK: The "Philosophy of a Reformed Perfectionist" section is a quotes collection — integrate these into the narrative rather than listing them.
+- NEEDS WORK: The 2026 film slate is a bullet list with minimal psychological framing.
+- NEEDS WORK: The ending restates the thesis rather than landing on a single devastating line. Consider ending on "peace with imperfection" without the preceding summary.
+- TO REACH A: Cut quotes list, weave film slate into narrative, sharper ending (one line, not a paragraph).
+-->
 
 <p class="firstLetter">They told Anne Hathaway her career would end at 35. The internet tried to destroy her at 30. She lost roles after winning an Oscar because, as she put it, her identity had become "too toxic" online.</p>
 

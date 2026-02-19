@@ -224,38 +224,3 @@ Mamdani hasn't named the pattern yet. But he's started to feel it.
 Mira Nair still has her Sunday canvassing shift. She still doesn't tell voters she's his mother until after they've committed. She earns the conversation first.
 
 Her son runs the largest city in the country now. Eight million people. Some will claim him and some won't. The pattern that built him — give first, prove yourself, don't stop — is the same pattern that will be tested most severely in the years ahead. Because the hardest thing for a Type 2 isn't showing up. It's learning that you don't have to earn the right to stop.
-
-<!-- REVIEWER ASSESSMENT — 2026-02-18
-Previous score: 7.8 → Estimated post-revision: 8.7-9.0
-
-STRENGTHS (unchanged):
-- Opening hook (Mira Nair canvassing) is a 9.5
-- Closing line lands perfectly with callback to opening
-- Rap section / "opener to the opener" is the signature detail
-- Counter-typing paragraph (why not Type 3?) is solid
-- Cuomo/Charlotte Bennett moment is strong Type 2→8 stress illustration
-
-EDITS MADE THIS PASS:
-1. NEW SECTION "What They Don't See": aunt's 9/11 tears (from NBC/Fortune/ABC coverage), subway recognition shift, uncles "what's next" family pressure (from I've Had It podcast)
-2. EXPANDED Rama section: Häagen-Dazs supermarket scene, ice cream detail, 500-sq-ft apartment texture (from I've Had It podcast raw transcript)
-3. DEEPENED childhood: "coveted their time" mother detail (from Hollywood Reporter interview), only-child absence→presence theme
-4. DEEPENED father relationship: Mahmood's academic method vs. Zohran's street-level approach, "father diagnosed systems / son got caught inside one," NYT parents disagree quote moved up and expanded, "wrote about power / knocked on its door"
-5. NEW SECTION "The Growth He Hasn't Named Yet": Type 2→4 growth direction using 3 a.m. Remnick quote (callback), uncles resistance, Mahmood's Democracy Now "learn from your kids" line
-6. CUT ~35% of governance section: removed Simon Western analysis, John Liu scene, detailed policy list; kept Hochul endorsement + G-train hedging (strongest Type 2 moments)
-7. REPETITION FIXES: 3 a.m. quote now appears once with callback; "showing up" reduced to meta_title + closing; inauguration quote verified once; "listening/lecturing" cleaned from TL;DR; Scholars in the Marketplace deduped; halal at 2 occurrences
-8. STRUCTURAL: removed duplicate parent quotes from The Pattern closing (moved to childhood section)
-
-SOURCES USED:
-- I've Had It podcast transcript (ice cream, uncles, subway recognition)
-- Hollywood Reporter interview (Mira on Zohran's only-child attachment)
-- Democracy Now (Mahmood's "learn from your kids" interview)
-- NBC/Fortune/ABC News (aunt's 9/11 tears, "bit my tongue" full quote)
-- New York Times (parents' disagreement on inherited politics)
-- Chronicle of Higher Education (Mahmood's "let's not talk about the mayor thing")
-- Chalkbeat / Marc Kagan (95-percent parent-teacher conference)
-- THE CITY subway interview (bodega/sweatpants anonymity quote)
-
-REMAINING CONSTRAINT: Available personal material now exhausted across all transcripts and web sources.
--->
-
--->

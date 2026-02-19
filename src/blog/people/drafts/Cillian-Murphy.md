@@ -17,7 +17,34 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Cillian-Murphy.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 8
+  writing: 7.5
+  originality: 7.5
+  overall: 7.8
+  letter: C
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: C (7.8)
+Hook: 8 | Enneagram: 8 | Evidence: 8 | Writing: 7.5 | Originality: 7.5
+
+FEEDBACK (2026-02-18):
+- The Matt Damon detail ("his brain was just too full" for cast dinners) is a good opening anchor — it immediately makes the case for Type 5 through a specific, surprising detail.
+- The "Remember, I'm an actor" text to Steven Knight is the piece's best anecdote: "quiet confidence, not aggressive self-promotion, just a statement of capability" — that IS Type 5.
+- The musician-to-actor transition as Type 5 pattern (both allow observation and interpretation without the vulnerability of being known) is a smart structural insight.
+- The Catholic guilt section adds dimension: "Actors are overpaid... the Catholic guilt kicks in immediately, and I'm like, 'It's all going to go wrong. You don't deserve this.' And I don't." The combination of Type 5 imposter feelings with Irish-Catholic upbringing is worth developing.
+- The Eileen Walsh quote ("it can only be joy. But it sometimes takes a lot of pain to get to that joy") is well-placed.
+- NEEDS WORK: "Sound familiar?" is a cliché rhetorical device. Cut it.
+- NEEDS WORK: The disclaimer appears at the top (line 28) rather than the bottom, breaking the standard format. Move to end.
+- NEEDS WORK: The FAQ/schema section (lines 186-291) adds 100+ lines of technical markup without editorial value. This inflates the piece without adding insight.
+- NEEDS WORK: The analysis stays mostly at the identification level ("this is Type 5 behavior") without reaching the insight level ("this is what Type 5 behavior reveals"). The piece tells us Murphy is private and prepares intensely — but what does that MEAN psychologically? The hints are there (the Catholic guilt, the "inhabit lives without living them" observation) but aren't developed.
+- NEEDS WORK: The "How Cillian Murphy Shows Us the Type 5 Path" conclusion section reads as generic Type 5 validation rather than a Murphy-specific insight. It could be about any Type 5 celebrity.
+- NEEDS WORK: Fewer direct Murphy quotes than the best pieces. The sourcing relies more on journalist descriptions than his own words.
+- TO REACH B: Develop the Catholic guilt/imposter section. Add counter-typing (moments where Murphy ISN'T Type 5). Cut the generic conclusion. Reduce reliance on "this is Type 5 behavior" labeling. Remove "Sound familiar?" Move disclaimer to bottom.
+-->
 
 > "The less the public knows about you, the more effective you can be when you go to portray someone else."
 

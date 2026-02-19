@@ -4,7 +4,7 @@ description: 'A Q&A platform where you answer before you read, built to surface 
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/community/introducing-9takes'
-lastmod: '2026-01-18'
+lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -46,7 +46,7 @@ path: src/blog/community/introducing-9takes.md
     ]
   },
   "datePublished": "2023-04-17",
-  "dateModified": "2026-01-18",
+  "dateModified": "2026-02-18",
   "url": "https://9takes.com/community/introducing-9takes",
   "image": {
     "@type": "ImageObject",
@@ -56,7 +56,7 @@ path: src/blog/community/introducing-9takes.md
   },
   "articleSection": "Technology",
   "keywords": ["9takes platform", "online conversations", "Enneagram", "social media", "anonymous discussions", "diverse perspectives"],
-  "wordCount": 553,
+  "wordCount": 720,
   "isPartOf": {
     "@type": "Blog",
     "name": "9takes Community Blog",
@@ -97,13 +97,9 @@ path: src/blog/community/introducing-9takes.md
 
 Where can you get honest, unprimed perspectives without walking into an echo chamber?
 
-On most platforms, the first few comments set the frame. Everyone else reacts, copies, or stays quiet (here’s the psychology of that: [Echoes Online: The Power of Memetic Comments](/community/memetic-comments)).
+On most platforms, the first few comments set the frame. Everyone else reacts, copies, or stays quiet. Research shows a single fake upvote shifts a comment’s final score by 25%. The conversation was over before it started.
 
 9takes flips that default. You write your take first, then you unlock the thread and compare how other people see the same question.
-
-<!-- INTERNAL LINK TODO (add when published): After this paragraph, link to /community/how-minds-change-on-9takes (anchor idea: "how minds change on 9takes") and /community/the-9takes-bridge-protocol (anchor idea: "a tactical protocol for hard conversations"). -->
-
-If you’re wondering about the design choices, the [Greek vibe is intentional](/community/why-the-greek-vibe).
 
 ## Why Social Media Isn't Social Anymore
 
@@ -124,142 +120,86 @@ Most feeds reward engagement, not understanding. Engagement loves conflict, so t
 	</section>
 	<section class="wave-sections wave-new">
 		<h4 style="margin-top: 0; padding-top: 0;">🎭 New wave ❓</h4>
-		<p><b style="color: #f1f5f9;">The new social media</b> is about self-expression and finding friends.</p>
+		<p><b style="color: #f1f5f9;">The new social media</b> is already here — it just doesn't look like a feed.</p>
 		<ul>
-		<li>Users post to connect, not just perform.</li>
-		<li>Communities matter more than follower counts.</li>
-		<li>Online and offline blend, so the internet supports real life.</li>
-		<li>New ideas spread again, not just the safest ones.</li>
+		<li>Discord servers where strangers become friends over shared interests.</li>
+		<li>BeReal pushing authenticity over performance.</li>
+		<li>Substack Notes and niche communities built around conversation, not content.</li>
+		<li>People choosing smaller, honest spaces over massive audiences.</li>
 		</ul>
-		<p style="color: #a78bfa;">It runs on novelty and participation.</p>
-		<p style="color: #c4b5fd;">Find your tribe, then learn how other tribes think.</p>
+		<p style="color: #a78bfa;">The pattern: participation over performance, depth over reach.</p>
 	</section>
-	<p style="color: #e2e8f0;">Belonging and exploring start with asking <b style="color: #a78bfa;">questions</b>.</p>
-	<p style="color: #cbd5e1;">Who am I? Who are you? What do you see that I don't?</p>
+	<p style="color: #e2e8f0;">9takes bets on the same shift — starting with <b style="color: #a78bfa;">questions</b>.</p>
 </div>
 
 ## Why Questions Are the Key
 
-9takes is built around questions. Posts perform. Questions invite.
+Posts perform. Questions invite.
 
-A question-centered approach can:
+If you've ever scrolled past a Twitter thread thinking "I have a take on this but what's the point" — or lurked on Reddit because the top comment already said the safe thing — 9takes is built for you.
 
-- **Spark curiosity**: A good question makes you lean in.
-- **Invite reflection**: You answer with lived experience, not a headline.
-- **Create real interaction**: People can disagree without turning it into a fight.
+A question-centered approach:
 
-A question is an invitation, not a broadcast.
+- **Sparks curiosity**: A good question makes you lean in.
+- **Invites reflection**: You answer with lived experience, not a headline.
+- **Creates real interaction**: People disagree without it turning into a fight.
 
-### Why Good Questions Get Bad Answers
+But asking questions online is easy. Getting _good_ answers is the hard part. You want original takes, not echoes. You don't want early answers steering everyone else. You want context for where someone is coming from.
 
-Asking a question online is easy. Getting good answers is the hard part.
+## How 9takes Gets Better Answers
 
-- You want original takes, not echoes of the top comment.
-- You don't want early answers to steer everyone else.
-- You want people to feel safe being honest.
-- You want context for where someone is coming from.
+Here's what it actually looks like:
 
-### How 9takes Gets Better Answers
+> Someone asks: _"What's the hardest thing about being honest?"_
+>
+> You think about it. You write your take. You hit submit.
+>
+> Now the thread opens. You see 30 other answers — and a Type 8 wrote something that catches you off guard. A Type 4 went somewhere deeply personal. A Type 5 reframed the whole question.
+>
+> You start to notice patterns in how different people approached the same prompt.
 
-9takes bakes the fixes into the product:
+Three mechanics make this work:
 
-<ul class="plain-list">
-<li>
-
-<span class="point-list">
-
+<span class="point-list" style="margin-top: 1rem;">
 <span class="center-svg">
-<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" fill="#a78bfa"><path
-								d="M255.6 385.2C231.4 416.6 201.5 432 172 432s-59.4-15.4-83.6-46.8c-9.1-11.9-17.1-25.7-23.5-41.2c9.2 5.1 19.8 8 31.1 8c35.3 0 64-28.7 64-64s-28.7-64-64-64c-19 0-36.1 8.3-47.8 21.4c2-47.8 17.7-89.3 40.2-118.6C112.6 95.4 142.5 80 172 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2zM320 141.8C290 76.1 235 32 172 32C77 32 0 132.3 0 256S77 480 172 480c63 0 118-44.1 148-109.8C350 435.9 405 480 468 480c95 0 172-100.3 172-224s-77-224-172-224c-63 0-118 44.1-148 109.8zm42.8 206.6c6.6 2.3 13.7 3.6 21.2 3.6c35.3 0 64-28.7 64-64s-28.7-64-64-64c-14.8 0-28.5 5-39.3 13.5c3.3-44.4 18.5-83 39.8-110.6C408.6 95.4 438.5 80 468 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2C527.4 416.6 497.5 432 468 432s-59.4-15.4-83.6-46.8c-8.2-10.7-15.5-23.1-21.6-36.7z"
-							/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" fill="#a78bfa"><path d="M255.6 385.2C231.4 416.6 201.5 432 172 432s-59.4-15.4-83.6-46.8c-9.1-11.9-17.1-25.7-23.5-41.2c9.2 5.1 19.8 8 31.1 8c35.3 0 64-28.7 64-64s-28.7-64-64-64c-19 0-36.1 8.3-47.8 21.4c2-47.8 17.7-89.3 40.2-118.6C112.6 95.4 142.5 80 172 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2zM320 141.8C290 76.1 235 32 172 32C77 32 0 132.3 0 256S77 480 172 480c63 0 118-44.1 148-109.8C350 435.9 405 480 468 480c95 0 172-100.3 172-224s-77-224-172-224c-63 0-118 44.1-148 109.8zm42.8 206.6c6.6 2.3 13.7 3.6 21.2 3.6c35.3 0 64-28.7 64-64s-28.7-64-64-64c-14.8 0-28.5 5-39.3 13.5c3.3-44.4 18.5-83 39.8-110.6C408.6 95.4 438.5 80 468 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2C527.4 416.6 497.5 432 468 432s-59.4-15.4-83.6-46.8c-8.2-10.7-15.5-23.1-21.6-36.7z"/></svg>
 </span>
-Comments are revealed after you comment, not before.</span>
-
-<ul class="plain-list-w-margin">
-<li>
-Seeing other answers first primes you. Hiding them forces an independent take, then lets you compare.
-</li>
-</ul>
-</li>
-
-<li>
-
-<span class="point-list" style=" flex-wrap: wrap">
-	<span class="center-svg">
-			<Rubix height={'1.5rem'} width={'1.5rem'} />
-		</span>
-		Add a <b style="color: #a78bfa; text-wrap: nowrap">personality lens</b> <span style=" text-wrap: nowrap; color: #cbd5e1">(the Enneagram)</span>
-		</span>
-<ul class="plain-list-w-margin">
-<li>
-There are many ways to divide people and most of them get tribal fast. Personality gives context for how someone thinks. Understanding <a href="/enneagram-corner/enneagram-communication-styles">how different types communicate</a> reveals patterns that cut across demographics.
-
-</li>
-</ul>
-
-<ul class="plain-list-w-margin">
-<li>
-
-<span class="point-list">
-<span class="center-svg">
-<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#a78bfa"><path
-			d="M48 256C48 141.1 141.1 48 256 48c63.1 0 119.6 28.1 157.8 72.5l15.6 18.2 36.4-31.3L450.2 89.2C403.3 34.6 333.7 0 256 0C114.6 0 0 114.6 0 256v40 24H48V296 256zm458.5-52.9l-4.9-23.5-47 9.9 4.9 23.5c2.9 13.9 4.5 28.3 4.5 43.1v40 24h48V296 256c0-18.1-1.9-35.8-5.5-52.9zM256 80c-34.2 0-66 9.7-93 26.6l31.7 37c18.2-9.9 39.1-15.6 61.3-15.6c70.7 0 128 57.3 128 128v24.9c0 34.6-2.8 69.1-8.4 103.1h48.6c5.2-34 7.8-68.5 7.8-103.1V256c0-97.2-78.8-176-176-176zM126.1 137.3C97.5 168.6 80 210.3 80 256v24.9c0 35-5.5 69.8-16.2 103.1h50.1c9.3-33.5 14.1-68.2 14.1-103.1V256c0-31.1 11.1-59.7 29.6-81.9l-31.6-36.8zM256 160c-53 0-96 43-96 96v24.9c0 46-7.6 91.6-22.5 135.1h46.3c13.4-43.7 20.3-89.2 20.3-135.1V256c0-28.7 23.3-52 52-52s52 23.3 52 52v24.9c0 45.6-5.5 91-16.4 135.1h45.2c10.1-44.2 15.2-89.5 15.2-135.1V256c0-53-43-96-96-96zm24 96H232v24.9c0 59.9-11 119.3-32.5 175.2l-5.9 15.3-3.3 8.6h51.4l2.6-6.7C267.9 411.9 280 346.7 280 280.9V256z"
-		/>
-</svg>
-
-</span>If you want, show your personality type next to your answer.
+<b style="color: #e2e8f0;">Comments are hidden until you comment.</b>
 </span>
 
-<ul class="plain-list-w-margin">
-<li>
-If you know <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">your personality type</a>, share it. It gives readers context without forcing a real name. If you don't know your type yet, skip it.
-</li>
-</ul>
-</li>
+Seeing other answers first [primes your thinking](/community/memetic-comments). Hiding them forces an independent take, then lets you compare. The psychology behind why this works — and [why most conversations fail before the first fact lands](/community/how-minds-change-on-9takes) — runs deeper than you'd expect.
 
-<li>
+<span class="point-list" style="margin-top: 1rem;">
+<span class="center-svg">
+<Rubix height={'1.5rem'} width={'1.5rem'} />
+</span>
+<b style="color: #e2e8f0;">A personality lens (the Enneagram).</b>
+</span>
 
-<span class="point-list">
+The Enneagram maps nine personality types based on core motivations — what drives you, what you fear, how you process the world. It's not astrology. It's a framework for understanding [why different people communicate the way they do](/enneagram-corner/enneagram-communication-styles). On 9takes, you can optionally tag your answer with your type. It gives readers context without forcing a real name. If you don't know your type yet, [start here](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) or skip it entirely.
+
+<span class="point-list" style="margin-top: 1rem;">
 <span class="center-svg">
 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#a78bfa"><path d="M384 208A176 176 0 1 0 32 208a176 176 0 1 0 352 0zM343.3 366C307 397.2 259.7 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 51.7-18.8 99-50 135.3L507.3 484.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L343.3 366z"/></svg>
+</span>
+<b style="color: #e2e8f0;">Filter answers by personality type.</b>
+</span>
 
-</span>Filter answers by personality type.</span>
+Compare how different types answer the same question. Spot patterns, common ground, and blind spots across all nine perspectives.
 
-<ul class="plain-list-w-margin">
-<li>
-Compare how different types answer the same question. Spot patterns, common ground, and blind spots.
-</li>
-</ul>
-</li>
+## Go Answer Something
 
-</ul></li>
-
-</ul>
-
-## Start With a Question
-
-Curious how 9takes came to be? Read the [personal story behind 9takes](/community/inspiration-for-9takes). It started with a marriage counselor and a personality test.
-
-Most of the questions that matter do not have a single right answer. The point is not to win, it is to see what you are missing.
-
-Try it on 9takes:
+Most questions that matter don't have a single right answer. The point is not to win — it's to see what you're missing.
 
 1. Browse questions at [/questions](/questions) (or ask your own).
 2. Write your take first.
 3. Read the thread, then filter by personality type if you want.
 
-If comment sections usually make you feel worse, this one should feel different.
+Pick a question that makes you pause. Write what you actually think, not what sounds right. That's where it starts.
+
+Curious how 9takes came to be? It started with a marriage counselor and a personality test. [Read the origin story](/community/inspiration-for-9takes). And if you're wondering about the design choices, the [Greek vibe is intentional](/community/why-the-greek-vibe).
 
 <style lang="scss">
-	.plain-list {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
-	.plain-list-w-margin {
-		list-style: none;
-	}
 	.point-list {
 		font-size: 1.2rem;
 		display: flex;
@@ -299,29 +239,7 @@ If comment sections usually make you feel worse, this one should feel different.
 		margin: 0.5rem 0;
 	}
 
-	.center-align {
-		text-align: center;
-	}
-
 	@media (max-width: 480px) {
-		.small-h4 {
-			font-size: 1.5rem;
-			line-height: 1.5rem;
-		}
-		.bento {
-			width: 33%;
-			height: auto;
-			margin: 0.25rem;
-		}
-
-		.main-description {
-			min-width: auto;
-		}
-
-		.big-points {
-			min-width: 300px;
-		}
-
 		.wave-sections {
 			margin: 0.75rem 0;
 			padding: 1rem;
@@ -329,8 +247,8 @@ If comment sections usually make you feel worse, this one should feel different.
 	}
 	.center-svg {
 		width: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 </style>

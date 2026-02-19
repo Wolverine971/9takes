@@ -19,7 +19,30 @@ twitter: 'daborgs'
 instagram: 'daborgs'
 tiktok: ''
 path: src/blog/people/drafts/Dax-Shepard.md
+content_quality:
+  hook: 9.5
+  enneagram: 9.5
+  evidence: 10
+  writing: 9.5
+  originality: 9.5
+  overall: 9.6
+  letter: A+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A+ (9.6)
+Hook: 9.5 | Enneagram: 9.5 | Evidence: 10 | Writing: 9.5 | Originality: 9.5
+
+FEEDBACK (2026-02-18):
+- "Truth-teller who lies to himself" framing is extraordinary — holds entire piece together
+- Father's deathbed Percocet scene ("two addicts who had never used together, sitting stoned in a living room, staring at the water") is one of the most powerful moments in the collection
+- Adam Grant's "video village" insight perfectly illustrates Type 7 integration (narrowing down to what genuinely sustains)
+- Journal as leading indicator of relapse is the most original structural insight — "the conversation Dax was having with himself went silent"
+- Evidence is exceptional: Tim Ferriss, Theo Von, Monica Padman, Adam Grant quotes all deeply specific
+- The Alone survivalist metaphor ("your brain working all day to construct a justification you can live with") is brilliant universal insight
+- 7w8 wing analysis with "been in a trillion fights" is well-evidenced and specific
+- Publication-ready as-is — among the top 5 pieces in the entire collection
+-->
 
 > "If I had a singular enemy number one, it would be shame. It's something I've felt a great deal of my life, and I think it's cancerous."
 

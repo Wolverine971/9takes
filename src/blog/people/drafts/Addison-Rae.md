@@ -19,7 +19,32 @@ twitter: 'whoisaddison'
 instagram: 'addisonraee'
 tiktok: 'addisonre'
 path: src/blog/people/drafts/Addison-Rae.md
+content_quality:
+  hook: 9
+  enneagram: 8.5
+  evidence: 8.5
+  writing: 8.5
+  originality: 8
+  overall: 8.5
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.5)
+Hook: 9 | Enneagram: 8.5 | Evidence: 8.5 | Writing: 8.5 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- "In 2021, the internet decided Addison Rae was cringe. By 2026, she was Grammy-nominated." — One of the best opening lines in the collection. Punchy, specific, immediately establishes the transformation arc.
+- Counter-typing section (not Type 7 or 2) is well-executed: "When 'Obsessed' flopped, she didn't retreat into her support system (Type 2 response) or distract herself with new adventures (Type 7 response). She analyzed what went wrong." Clean differentiation using a concrete example.
+- The Charli XCX mentorship as credibility transfer is well-observed: "When one of pop's most credible artists treats you as a peer, the narrative changes."
+- "Failure is information, not identity" is a strong insight that earns its place as the piece's thesis.
+- Kourtney Kardashian friendship adds unexpected texture — framing it as "access to a different level" of image management.
+- The 93,000-likes babysitting moment captures the Type 3 feedback loop perfectly.
+- Schema markup at the bottom adds SEO value.
+- NEEDS WORK: "The Pattern Behind the Success" ending is a bullet-pointed list of lessons — dilutes narrative momentum. The strongest ending line is "she proved she was strategic." Cut everything after.
+- NEEDS WORK: Missing private life personality details — what is Addison like off-camera? What do collaborators say about her in the studio?
+- TO REACH A: Sharper ending (cut lesson bullets), add 2-3 off-camera personality details, consider deepening the Omer Fedi/music world section with how the hyperpop identity shift felt psychologically.
+-->
 
 <p class="firstLetter">In 2021, the internet decided Addison Rae was cringe. By 2026, she was Grammy-nominated.</p>
 

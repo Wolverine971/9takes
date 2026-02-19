@@ -12,9 +12,20 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: 'Every famous Type 7 chased the next thing. None of them found fulfillment until they stopped. After studying 17 Enthusiasts from Kevin Hart to Palmer Luckey to Bad Bunny, here are the 7 patterns that actually unlocked what they were searching for.'
-pic: ''
+pic: 'alone-with-thoughts'
 path: src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md
 ---
+
+<!--
+Midjourney prompt:
+restless Greek traveler statue surrounded by multiple unfinished marble roads and open doorways, kneeling to drink from a single deep spring while abandoned masks and tickets scatter behind, twilight to dawn gradient, neoclassical landscape, cinematic depth, emotionally reflective editorial composition, detailed stone textures --ar 16:9 --stylize 700
+
+Image intent:
+Visualize the Type 7 shift from chasing novelty to finding fulfillment through depth, stillness, and commitment.
+
+Suggested pic slug:
+type-7-depth-not-novelty
+-->
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";

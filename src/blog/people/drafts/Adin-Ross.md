@@ -19,7 +19,33 @@ twitter: 'adinross'
 instagram: 'adinross'
 tiktok: ''
 path: src/blog/people/drafts/Adin-Ross.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 8.5
+  overall: 8.7
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.7)
+Hook: 8.5 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- "Adin Ross doesn't just stream. He keeps score." — Clean, specific, immediately establishes Type 3 thesis in six words.
+- Doechii feud analysis is the piece's strongest insight: "When someone else's achievement threatens your sense of worth, you try to delegitimize it." This is genuine Type 3 shadow analysis, not surface-level.
+- Counter-typing (not Type 7 or 8) uses the Doechii incident to demonstrate the distinction — elegant proof through behavior rather than abstract description.
+- Mental health section is handled with real care: "$1 million on lean," Quatty's death, choosing YouTube over TikTok for the confession because "the audience will receive it best." That last detail is brilliant — vulnerability as calculated platform strategy.
+- Trump relationship framed as "proximity to power as proof of winning" is sharp political-psychological analysis.
+- Financial sourcing is specific and credible: $4.5-5.5M Kick earnings, 580K concurrent Trump viewers, $50K wildfire donation.
+- Deleting the "Adin Loyals" community as accountability — "For someone who built his brand on chaos, voluntarily cutting off part of his audience represents genuine growth." Good growth observation.
+- Father's financial volatility ("wealthy and broke maybe five times") as psychological context for achievement drive is well-drawn.
+- NEEDS WORK: The piece handles many controversies but risks becoming a controversy catalog. Consider consolidating the N-word section and Puka Nacua section into a single "Pattern Recognition" analysis.
+- NEEDS WORK: Ending runs slightly long with two closing sections. "The goal isn't just success. It's becoming someone you actually respect when the cameras are off" is the strongest ending line — cut the paragraph after.
+- TO REACH A: Consolidate controversy sections, sharper ending, add one or two off-stream personality details from collaborators.
+-->
 
 <p class="firstLetter">Adin Ross doesn't just stream. He keeps score.</p>
 

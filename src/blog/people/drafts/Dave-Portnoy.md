@@ -19,7 +19,33 @@ twitter: 'stoolpresidente'
 instagram: 'stoolpresidente'
 tiktok: ''
 path: src/blog/people/drafts/Dave-Portnoy.md
+content_quality:
+  hook: 10
+  enneagram: 9.5
+  evidence: 10
+  writing: 9.5
+  originality: 9.5
+  overall: 9.7
+  letter: A+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A+ (9.7)
+Hook: 10 | Enneagram: 9.5 | Evidence: 10 | Writing: 9.5 | Originality: 9.5
+
+FEEDBACK (2026-02-18):
+- This is the highest-graded piece in the entire collection. The opening — champagne bottles labeled with enemy names, then immediately pivoting to his voice cracking on the phone with a stranger whose father died — is the single best hook across all 100+ blogs. "Champagne bottles for enemies. A breaking voice for strangers. Most people see the first Dave and miss the second one entirely."
+- The Type 8 analysis goes far beyond "he's aggressive." The Renee detail (ex-wife with full access to ~$150 million, still his best friend, never asked for the keys back) is the most surprising psychological detail in the entire collection. "The man who fights everyone trusts his ex-wife with everything."
+- "It's probably a me issue" — from a man who projects total self-assurance — is extraordinary. "He was saying plainly that the problem wasn't the person he was with. It was his capacity to be fully present with anyone." Then adopting rescue dogs. Then raising $1 million for animal shelters.
+- The Barstool Fund section intercut with day trading is structurally brilliant: "Two screens, two versions of the same man: the gambler bleeding money for entertainment, and the protector saving strangers' livelihoods. Both real. Both on camera. Both happening at the same time."
+- Evidence is outstanding across many sources: NPR 2025, All-In podcast, Tucker Carlson, Club Shay Shay, BFFs podcast, CBS, Rolling Stone, Variety. Specific dollar amounts throughout. The Business Insider saga with every beat documented.
+- The Mary Kate Cornett section is the most psychologically revealing moment: "When there's an adversary, Dave reframes and counterattacks. When the 'opponent' is a 19-year-old whose life was ruined and there's no one to fight, the empathy surfaces unchecked." That's genuine insight.
+- The Ben Mintz protection story (hired him personally when Penn forced firing, brought him back first when he bought Barstool back) vs. the Kirk Minihane four-minute firing — both reveal the same loyalty instinct from opposite angles.
+- "In a life defined by high-stakes conflicts that stretch for years, a pizza review takes four minutes and resolves cleanly" — perfect.
+- The ending returning to "He kept calling" mirrors the opening's dual nature beautifully.
+- The antisemitism section is handled with appropriate weight without overbalancing the piece.
+- This piece is publication-ready as-is. No significant improvements needed.
+-->
 
 > "The thing about me is when I see something and I get an opinion and it bubbles up, if I don't get it out, I just combust."
 

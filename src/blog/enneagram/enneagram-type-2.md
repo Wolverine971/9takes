@@ -15,6 +15,17 @@ pic: ''
 path: src/blog/enneagram/enneagram-type-2.md
 ---
 
+<!--
+Midjourney prompt:
+over-giving and self-neglect greek statue pouring water into many cups while their own cup cracks, tender exhausted expression, neoclassical courtyard with reaching hands, Unreal Engine, Cinematic, warm amber and teal palette, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Soft Lighting and Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+
+Image intent:
+Show Type 2's pattern of over-giving and the turning point of including their own needs.
+
+Suggested pic slug:
+type-2-empty-amphora
+-->
+
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

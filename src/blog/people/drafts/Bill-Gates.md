@@ -19,7 +19,33 @@ twitter: 'BillGates'
 instagram: 'thisisbillgates'
 tiktok: ''
 path: src/blog/people/drafts/Bill-Gates.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 8.5
+  overall: 8.7
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.7)
+Hook: 8.5 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- The "I don't want my brain to stop working" fear as organizing principle is excellent — it immediately grounds the entire Type 5 analysis in one visceral detail.
+- The childhood therapy section is a highlight: "I'm at war with my parents" at age 11, the therapist's advice to stop fighting him, the father's observation "you don't cross him on those things because it's a waste of time" — all textbook Type 5 boundary-setting with strong sourcing.
+- "Type 5 at its healthiest: committed to truth, not to being right" is a great line, and the Steve Jobs comparison (Type 1 less likely to reverse course) adds dimension.
+- The emotional Gates section (Guggenheim's discovery, first in family to cry at movies) is an effective counter to the "cold machine" narrative. "For Type 5s, emotion isn't absent. It's managed." — perfect.
+- The Epstein analysis through Type 5 lens ("So focused on the potential knowledge and resources Epstein might unlock, Gates apparently miscalculated the social and ethical dimensions") is insightful and doesn't shy from the difficult material.
+- The integration to Type 8 in the philanthropy section is well-drawn: from hoarding knowledge to deploying it for impact.
+- NEEDS WORK: The "Conclusion" section restates the introduction and adds a generic self-help question. Cut or integrate into the legacy section.
+- NEEDS WORK: The mother's quote at the end of the Legacy section is powerful but gets buried before a weaker conclusion. Make it the actual ending.
+- NEEDS WORK: The antitrust section is thin — only one paragraph. Either develop it with specific deposition details or fold it into a broader "stress" section.
+- NEEDS WORK: "Sound like anyone?" is a cliché rhetorical device. Cut it.
+- TO REACH A: Cut the conclusion section, end with the mother's quote or the integration insight. Develop the antitrust section. Remove rhetorical filler questions.
+-->
 
 > "I don't want my brain to stop working."
 

@@ -18,7 +18,35 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Brad-Pitt.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  overall: 8.8
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.8)
+Hook: 8.5 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- "Something about Brad Pitt doesn't add up" is a clean paradox opening that creates immediate curiosity. Good setup for the Type 9 reveal.
+- Chameleon-with-partners pattern is the piece's signature evidence: matching Gwyneth's haircut, Aniston's social circle, Jolie's humanitarian work. Each relationship demonstrates Nine merging differently.
+- Children estrangement section is handled with remarkable emotional care — Pax's Instagram post, Shiloh hiring a lawyer to drop "Pitt," Knox as "a glimmer of hope." This is the piece's most devastating section and it earns every word.
+- "Eating on screen as Nine self-soothing" is a genuinely novel observation — no other analysis connects this pattern to personality type. Smart, original.
+- Make It Right Foundation as "Nine optimism underestimating practical obstacles" is well-drawn and adds dimension beyond the Hollywood narrative.
+- Fight Club Tyler Durden as "the rage Nines typically suppress" — good film-to-psychology connection.
+- Sculpture as "radical inventory of the self" after divorce — strong growth evidence with Brad's own words.
+- Pitt siblings section adds family context showing the humanitarian pattern is familial, not just performative.
+- F1 box office success ($631M) as "late-career renaissance" provides a positive current chapter.
+- NEEDS WORK: The Pitt siblings section (Doug and Julie, ~100 words) feels slightly tangential — it supports the humanitarian thesis but could be tightened to 2-3 sentences.
+- NEEDS WORK: The ending section ("What Brad Pitt Fans Can Learn") reads like a listicle — five bullet-pointed lessons dilute the narrative momentum. The best ending line is earlier: "some of the most powerful forces move quietly beneath the surface."
+- NEEDS WORK: Missing stress/growth arrow analysis — how does Brad in Type 6 stress or Type 3 growth manifest?
+- TO REACH A: Cut the "What Fans Can Learn" bullet list, sharpen ending to "quiet unfolding" quote, tighten siblings section, add stress/growth arrow discussion.
+-->
 
 <p class="firstLetter">Something about Brad Pitt doesn't add up.</p>
 

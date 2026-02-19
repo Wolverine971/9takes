@@ -41,9 +41,7 @@ Hold five seconds of silence after someone finishes, and people often deliver th
 
 Through the Enneagram lens, listening gets even clearer. Each type has a predictable listening kryptonite that sabotages conversations. The same tendency that powers your professional strengths often trips you up here.
 
-This guide breaks down the neuroscience, the nine listening patterns, and the tactical fixes that actually work.
-
-<!-- INTERNAL LINK TODO (add when published): Near this intro, add links to /community/how-minds-change-on-9takes (model context) and /community/the-9takes-bridge-protocol (hard-conversation script). -->
+This guide breaks down the neuroscience, the nine listening patterns, and the tactical fixes that actually work. If you want the broader model for why listening is the engine of persuasion, start with [how minds actually change](/community/how-minds-change-on-9takes).
 
 ## The $37 Billion Problem Nobody Talks About
 

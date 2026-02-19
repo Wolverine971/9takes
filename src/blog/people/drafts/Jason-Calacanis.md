@@ -19,7 +19,29 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Jason-Calacanis.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 9
+  writing: 8
+  originality: 8
+  overall: 8.2
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.2)
+Hook: 8 | Enneagram: 8 | Evidence: 9 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- STRONG: The Mahalo section is the piece's best analysis. "Achievers don't process failure the way other types do. They reframe it, minimize it, or transform it into wisdom that makes the failure seem strategic in hindsight. Jason couldn't admit Mahalo was a failure outright. He had to call it a 'double.'" This is the Enneagram earning its keep — explaining behavior that's otherwise just spin.
+- STRONG: Evidence is exceptional. The hit rate analysis (8/300 = 2.7% vs YC's 4.5%) is the kind of critical thinking most celebrity profiles skip. Sam Altman's YC ban quote is devastating and specific. Aisha Chottani's founder testimonial is sourced with link. The Musk text messages ("I'd jump on a grenade for you") are perfectly deployed.
+- STRONG: The poker section reveals Type 3 psychology through leisure: "Jason can't just play casual home games. He has to compete against world champions. He can't just enjoy poker privately. He has to appear on television." The $204,400 loss to Doyle Brunson is a signature detail.
+- STRONG: The family privacy section asks a genuine psychological question: "Is this compartmentalization healthy self-preservation or evidence of someone who can't integrate their public and private identities?"
+- NEEDS WORK: No wings or stress/growth arrows discussed. Adding 3w2 vs 3w4 analysis would deepen the framework. The "charm offensive" TL;DR bullet hints at a 2 wing but never develops it.
+- NEEDS WORK: The political sections (Trump-Musk feud, ICE, Zuckerberg) are thorough but start to feel like a news roundup rather than psychological analysis. Each could be tighter — cut 30% and sharpen the Type 3 lens.
+- TO REACH B+: (1) Add wing analysis — the "ride or die" texts to Musk and the networking advice ("stop networking, be generous") suggest a strong 2 wing worth exploring. (2) Trim the political sections by 30% — keep the Type 3 analysis, cut the pure news recap. (3) The hook is good but not a specific scene. Opening with the YC ban moment or the $204,400 poker loss would be more vivid. (4) The ending question ("If your sense of worth is tied to achievement, what happens when you can't achieve anymore?") is strong but could be sharper — cut the "What can we learn" section above it and end on the question alone.
+-->
 
 > "The secret to success is to work harder than everyone else when you're young, save your money, and then take massive risks."
 

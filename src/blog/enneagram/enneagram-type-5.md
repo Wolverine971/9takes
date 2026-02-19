@@ -15,6 +15,17 @@ pic: ''
 path: src/blog/enneagram/enneagram-type-5.md
 ---
 
+<!--
+Midjourney prompt:
+fortress mind and cautious connection greek statue scholar guarding a library tower drawbridge, observant reserved expression, marble archive filled with scrolls and star charts, Unreal Engine, Cinematic, cool slate blue and ivory with warm doorway glow, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting and Accent Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+
+Image intent:
+Show the Type 5 fortress mind that protects scarce energy while hinting at engaged connection beyond isolation.
+
+Suggested pic slug:
+type-5-fortress-mind
+-->
+
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

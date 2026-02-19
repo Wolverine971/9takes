@@ -18,7 +18,31 @@ twitter: 'https://twitter.com/dixiedamelio'
 instagram: 'https://www.instagram.com/dixiedamelio/'
 tiktok: 'https://www.tiktok.com/@dixiedamelio'
 path: src/blog/people/drafts/Dixie-DAmelio.md
+content_quality:
+  hook: 8.5
+  enneagram: 8.5
+  evidence: 8.5
+  writing: 7.5
+  originality: 7.5
+  overall: 8.1
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.1)
+Hook: 8.5 | Enneagram: 8.5 | Evidence: 8.5 | Writing: 7.5 | Originality: 7.5
+
+FEEDBACK (2026-02-18):
+- Opening quote ("I just feel guilty for being alive sometimes") is strong and unexpected from a TikTok star
+- Sibling shadow framing is the best structural element — "what happens when someone close to you becomes the main character"
+- Psychogenic seizures section is the strongest psychological insight; PMDD diagnosis as Type 4 framework is good
+- Dinner controversy analysis ("focusing on the emotional truth behind the action") is the most insightful single moment
+- NEEDS WORK: Relationship sections (Griffin, Noah) read as timeline/Wikipedia rather than psychological analysis — cut or deeply integrate Type 4 patterns
+- NEEDS WORK: "Sound like anyone you know?" is cliché — cut it
+- NEEDS WORK: Piece is long (295 lines) for the depth it achieves; the controversy sections feel obligatory
+- NEEDS WORK: Conclusion tries to be inspiring but feels generic ("Is she happy? Probably not consistently")
+- TO REACH B+: Cut relationship timeline to half, deepen the sibling shadow analysis with more specific Type 4 moments, tighten the controversy sections to focus on psychological patterns rather than public events
+-->
 
 > "I just feel guilty for being alive sometimes, for something I can't control."
 

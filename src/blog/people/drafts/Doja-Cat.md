@@ -19,7 +19,32 @@ twitter: 'DojaCat'
 instagram: 'dojacat'
 tiktok: 'dojacat'
 path: src/blog/people/drafts/Doja-Cat.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9
+  originality: 9.5
+  overall: 9.3
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.3)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9 | Originality: 9.5
+
+FEEDBACK (2026-02-18):
+- 250K unfollow opening immediately establishes her contrarian nature — "Most artists would panic. Apologize. Doja celebrated"
+- 7w8 analysis is deeply integrated and specific throughout — the confrontational edge distinguishing her from playful 7s
+- Paraguay meltdown as Type 7 disintegration toward Type 1 ("harsh self-criticism when escape routes close") is textbook and well-explained
+- Vie era as integration toward Type 5 depth is insightful — "instead of constantly seeking new external stimulation, she's diving deeper"
+- Parasocial analysis ("I'm not real to them... they take ownership") as Type 7's deepest fear is brilliant
+- Visual artist section is something most analyses miss entirely — nominated for Director of the Year
+- Engineer Rian Lewis quotes add exceptional insider credibility
+- Dr. Luke section's "avoidance transformed into action" (zero credits on Scarlet) is clever framing
+- NEEDS WORK: At 369 lines, could lose 30-40 without losing anything — biracial identity section slightly interrupts flow
+- TO REACH A+: Tighten the middle sections, make the biracial identity section flow more naturally into the Type 7 analysis
+-->
 
 <!-- ['Nicki Minaj', 'Cardi B', 'Megan Thee Stallion', 'SZA', 'Lizzo'] -->
 

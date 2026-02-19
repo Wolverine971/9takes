@@ -15,6 +15,17 @@ pic: ''
 path: src/blog/enneagram/enneagram-type-6.md
 ---
 
+<!--
+Midjourney prompt:
+vigilance under uncertainty greek statue sentinel mapping multiple paths with lantern and shield, alert worried expression, windy cliffside above distant city lights, Unreal Engine, Cinematic, stormy blue-gray with protective warm lantern tones, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Dramatic Backlight and Moody Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+
+Image intent:
+Convey Type 6 vigilance, uncertainty, and the movement from fear-driven scanning to grounded trust.
+
+Suggested pic slug:
+type-6-search-for-solid-ground
+-->
+
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

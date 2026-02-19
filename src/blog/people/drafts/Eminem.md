@@ -18,7 +18,32 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Eminem.md
+content_quality:
+  hook: 8
+  enneagram: 9.5
+  evidence: 10
+  writing: 9
+  originality: 9
+  overall: 9.1
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.1)
+Hook: 8 | Enneagram: 9.5 | Evidence: 10 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- "He turned anxiety into obsession" is an excellent thesis sentence for the entire piece
+- Slim Shady analysis as "hilarious" (not just shocking) is a perspective most analyses miss entirely — Village Voice quote backs it up
+- Proof's death as Type 6 anchor loss → disintegration is the key structural insight
+- Evidence is exceptional: Musixmatch 8,818 unique words study, Guinness records (10.65 syllables/sec), "Stay Wide Awake" 14 rhyming lines analysis, 60 Valium/30 Vicodin per day, methadone overdose details
+- 8 Mile battle strategy as "weaponizing vulnerability" is insightful — Roger Ebert quote perfect
+- "Killing Slim Shady" album as confronting a psychological crutch is well-framed
+- The dictionary-reading as hypervigilant mind seeking control is a great Type 6 connection
+- Hailie "Grandpa" jersey moment is a perfect emotional landing
+- NEEDS WORK: Opening "walking contradiction" is generic — needs a more devastating specific detail to hook the reader
+- TO REACH A+: Rewrite the opening 2-3 paragraphs with a specific scene or quote that grabs immediately (the 60 Minutes "orange" rhyme demonstration or the Proof freestyle moment would work)
+-->
 
 <p class="firstLetter">Eminem is a walking contradiction.</p>
 

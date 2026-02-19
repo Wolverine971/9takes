@@ -19,7 +19,33 @@ twitter: 'BensonBoone'
 instagram: 'bensonboone'
 tiktok: 'bensonboone'
 path: src/blog/people/drafts/Benson-Boone.md
+content_quality:
+  hook: 8.5
+  enneagram: 8.5
+  evidence: 8.5
+  writing: 8.5
+  originality: 8.5
+  overall: 8.5
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.5)
+Hook: 8.5 | Enneagram: 8.5 | Evidence: 8.5 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- Grammy backflips → "what is going on inside this guy's head?" is an effective opening that creates immediate visual energy.
+- The sobriety paradox is the piece's best Type 7 moment: "I have an addictive personality." "How do you know?" "Dude, candy." Genuinely original and self-aware.
+- Body image section is the emotional peak — honest, specific, and unusual from a male pop star: "My arms could be bigger. My shoulders could be bigger. It's never-ending." Connected to Type 7 stress pattern toward Type 1 perfectionism.
+- The American Idol quit as Type 7 refusing a cage is well-deployed: "Walking away from a sure thing because it felt like a cage."
+- Church departure section adds psychological depth: "He left because the container felt too rigid for what he was actually experiencing." Applies the same instinct across Idol, church, and college.
+- Dan Reynolds mentorship is well-told: moved to Vegas the next day, first song became "Ghost Town" with 350M streams.
+- "Beautiful Things" creation story (grandmother's piano, 2 AM, two time signatures) gives the songwriting process specificity.
+- The criticism section handles Pitchfork 3.7/10 and TikTok backlash with genuine nuance. "Mr. Electric Blue" video as self-deprecation response is well-deployed.
+- "They belong to someone learning that the most thrilling experience of all might be standing still" — strong ending.
+- Ego check system (biweekly with manager) is a mature detail.
+- TO REACH A: The piece is solid across all dimensions. Deepening one section — perhaps the church departure or the body image — into a more revealing psychological exploration would push it higher. The opening "Dude, candy" moment is so strong it could be closer to the top of the piece.
+-->
 
 > "If my younger self could see me now, they wouldn't believe it."
 

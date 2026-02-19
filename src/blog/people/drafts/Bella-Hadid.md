@@ -18,7 +18,32 @@ twitter: 'bellahadid'
 instagram: 'bellahadid'
 tiktok: 'bellahadid'
 path: src/blog/people/drafts/Bella-Hadid.md
+content_quality:
+  hook: 8.5
+  enneagram: 8.5
+  evidence: 8.5
+  writing: 8
+  originality: 8
+  overall: 8.3
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.3)
+Hook: 8.5 | Enneagram: 8.5 | Evidence: 8.5 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- Opening self-quote is devastating and establishes the Type 4 paradox perfectly: "incredible insecurities, anxiety, depression... what was I doing getting into this business? But over the years I became a good actress."
+- The nose job regret as "surgically altering a piece of authentic self before she even knew who that self was" is the piece's most original insight. Connects heritage, identity, and Type 4 psychology.
+- The cowboy relationship detail ("I never knew who you were") is emotionally powerful — being seen as a stranger is the greatest gift for someone defined by fame.
+- The Weeknd breakup framed as "identity loss" for a Type 4 is psychologically sharp: "Who am I without this person who finally seemed to understand me?"
+- Palestinian advocacy section effectively frames political engagement as Type 4 authentic self-expression: "Suppressing it would feel like another form of the identity erasure she's fought against her whole life."
+- NCHA Rookie of the Year and return to equestrian is a surprising and satisfying detail — the Olympic dream returning through a different door.
+- NEEDS WORK: Rise to Fame section is more fact-heavy than psychologically analytical. What does the Type 4 lens specifically reveal about her modeling career?
+- NEEDS WORK: The ending question is generic. The strongest ending line is "learned to make that difference her power" — build the close around that.
+- NEEDS WORK: Counter-typing section is missing entirely. Why Type 4 and not Type 3 (image-conscious model) or Type 6 (anxiety, loyalty)?
+- TO REACH B+: Add counter-typing, deepen Enneagram analysis in career sections, sharper ending.
+-->
 
 > "I always ask myself, how did a girl with incredible insecurities, anxiety, depression, body-image issues, eating issues, who hates to be touched, who has intense social anxiety, what was I doing getting into this business? But over the years I became a good actress. I put on a very smiley face, or a very strong face.": Bella Hadid
 

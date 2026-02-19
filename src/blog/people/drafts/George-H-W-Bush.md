@@ -18,7 +18,34 @@ twitter: 'georgehwbush'
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/George-H-W-Bush.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 8
+  overall: 8.6
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.6)
+Hook: 8.5 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- "Read My Lips" as Type 6's core conflict (loyalty to promise vs. pragmatic security) is the strongest analytical moment
+- "Wimp factor" reframed through Type 6 as virtue-becoming-liability is insightful
+- Dorothy Bush anti-boasting ("How did the team do, dear?") as Type 6 programming is specific and memorable
+- Gulf War restraint vs. son's later invasion is a powerful historical contrast through the Type 6 lens
+- Robin's leukemia story with Barbara's "I crumbled completely, and he took care of me" is emotionally effective
+- Horseshoe anecdotes (Queen Elizabeth silver set, Redskins tournament, winning ringer) humanize beautifully
+- Texas oil move as "independence while maintaining security networks" is clever Type 6 framing
+- George W.'s eulogy excerpt is powerful and well-placed
+- NEEDS WORK: Iran-Contra section is necessary but psychologically thin — needs deeper Type 6 analysis
+- NEEDS WORK: Some sections read more as presidential biography than personality analysis
+- NEEDS WORK: Opening paragraph is comprehensive but reads as a summary rather than a grabbing hook
+- TO REACH A: Find a more narrative opening scene, deepen the Iran-Contra analysis through Type 6 lens, tighten biographical sections
+-->
 
 > "Family is not a neutral word for me. It's a powerful word, full of emotional resonance."
 

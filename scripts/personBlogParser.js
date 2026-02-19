@@ -5,6 +5,8 @@
 //   node scripts/personBlogParser.js Malcolm-Gladwell   # Process single person
 //   node scripts/personBlogParser.js --changed          # Process changed drafts only
 //   node scripts/personBlogParser.js --changed Malcolm-Gladwell
+//   node scripts/personBlogParser.js --grades-only --changed
+//   node scripts/personBlogParser.js --grades-only Malcolm-Gladwell
 //
 import { promises as fs } from 'fs';
 import { execSync } from 'child_process';
@@ -21,6 +23,69 @@ const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
 	console.error('Error: Missing SUPABASE_URL or SUPABASE_SERVICE_KEY environment variables');
 	process.exit(1);
+}
+
+function getLetterGrade(overall) {
+	if (overall >= 9.5) return 'A+';
+	if (overall >= 9.0) return 'A';
+	if (overall >= 8.5) return 'B+';
+	if (overall >= 8.0) return 'B';
+	if (overall >= 7.0) return 'C';
+	if (overall >= 6.0) return 'D';
+	return 'F';
+}
+
+function normalizeScore(value) {
+	if (value === null || value === undefined || value === '') return null;
+	const n = Number(value);
+	return Number.isFinite(n) ? n : null;
+}
+
+function normalizeContentQuality(raw) {
+	if (raw === null) return null;
+	if (raw === undefined) return undefined;
+
+	// Allow shorthand numeric grade via content_grade: 8.7
+	if (typeof raw === 'number' || (typeof raw === 'string' && raw.trim() !== '')) {
+		const overall = normalizeScore(raw);
+		if (overall === null) return undefined;
+		return {
+			overall,
+			letter: getLetterGrade(overall),
+			graded_at: new Date().toISOString().slice(0, 10)
+		};
+	}
+
+	if (typeof raw !== 'object' || Array.isArray(raw)) {
+		return undefined;
+	}
+
+	const hook = normalizeScore(raw.hook);
+	const enneagram = normalizeScore(raw.enneagram);
+	const evidence = normalizeScore(raw.evidence);
+	const writing = normalizeScore(raw.writing);
+	const originality = normalizeScore(raw.originality);
+	const overall = normalizeScore(raw.overall);
+	const letter =
+		typeof raw.letter === 'string' && raw.letter.trim() !== ''
+			? raw.letter.trim().toUpperCase()
+			: overall !== null
+				? getLetterGrade(overall)
+				: null;
+	const gradedAt =
+		typeof raw.graded_at === 'string' && raw.graded_at.trim() !== '' ? raw.graded_at.trim() : null;
+
+	const normalized = {};
+	if (hook !== null) normalized.hook = hook;
+	if (enneagram !== null) normalized.enneagram = enneagram;
+	if (evidence !== null) normalized.evidence = evidence;
+	if (writing !== null) normalized.writing = writing;
+	if (originality !== null) normalized.originality = originality;
+	if (overall !== null) normalized.overall = overall;
+	if (letter !== null) normalized.letter = letter;
+	if (gradedAt !== null) normalized.graded_at = gradedAt;
+
+	return Object.keys(normalized).length > 0 ? normalized : undefined;
 }
 
 /**
@@ -95,6 +160,15 @@ function cleanupContent(content) {
 async function parseMarkdownFile(filePath) {
 	const fileContent = await fs.readFile(filePath, 'utf8');
 	const { data, content } = matter(fileContent);
+	const hasContentQualityField =
+		Object.prototype.hasOwnProperty.call(data, 'content_quality') ||
+		Object.prototype.hasOwnProperty.call(data, 'content_grade');
+	const contentQualityRaw = Object.prototype.hasOwnProperty.call(data, 'content_quality')
+		? data.content_quality
+		: data.content_grade;
+	const normalizedContentQuality = normalizeContentQuality(contentQualityRaw);
+	const hasValidContentQuality =
+		contentQualityRaw === null || normalizedContentQuality !== undefined;
 
 	// Extract JSON-LD
 	const jsonld_snippet = extractJsonLd(content);
@@ -124,7 +198,10 @@ async function parseMarkdownFile(filePath) {
 		instagram: data.instagram || '',
 		tiktok: data.tiktok || '',
 		content: cleanedContent,
-		jsonld_snippet: jsonld_snippet || ''
+		jsonld_snippet: jsonld_snippet || '',
+		content_quality: normalizedContentQuality,
+		_has_content_quality: hasContentQualityField,
+		_has_valid_content_quality: hasValidContentQuality
 	};
 }
 
@@ -197,8 +274,9 @@ async function saveBlogEntriesToJson(entries, outputPath) {
  * Upsert blog entries into Supabase blogs_famous_people table
  * @param {Array} entries - Blog entries to insert
  */
-async function insertIntoSupabase(entries) {
+async function insertIntoSupabase(entries, options = {}) {
 	const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
+	const gradesOnly = options.gradesOnly === true;
 
 	console.log(`Processing ${entries.length} blog entries...`);
 
@@ -223,7 +301,8 @@ async function insertIntoSupabase(entries) {
 		instagram: '',
 		tiktok: '',
 		content: '',
-		jsonld_snippet: ''
+		jsonld_snippet: '',
+		content_quality: null
 	};
 
 	for (const entry of entries) {
@@ -236,6 +315,60 @@ async function insertIntoSupabase(entries) {
 			const record = {};
 			for (const key of Object.keys(fields)) {
 				record[key] = entry[key] !== undefined ? entry[key] : fields[key];
+			}
+
+			// Only update content_quality when explicitly present in frontmatter.
+			if (!entry._has_content_quality || !entry._has_valid_content_quality) {
+				delete record.content_quality;
+			}
+			if (entry._has_content_quality && !entry._has_valid_content_quality) {
+				console.warn(`Invalid content_quality for ${entry.person}; preserving DB value`);
+			}
+
+			if (gradesOnly) {
+				if (!entry._has_content_quality) {
+					console.log(`Skipped (no content_quality): ${entry.person}`);
+					continue;
+				}
+				if (!entry._has_valid_content_quality) {
+					console.log(`Skipped (invalid content_quality): ${entry.person}`);
+					continue;
+				}
+
+				const { data: existing, error: existingError } = await supabase
+					.from('blogs_famous_people')
+					.select('id')
+					.eq('person', entry.person)
+					.maybeSingle();
+
+				if (existingError) {
+					console.error(`Error checking existing row for ${entry.person}:`, existingError);
+					continue;
+				}
+
+				if (!existing) {
+					console.error(
+						`Error updating ${entry.person}: row not found (grades-only mode does not insert new rows)`
+					);
+					continue;
+				}
+
+				const gradePayload =
+					record.content_quality === undefined
+						? { content_quality: null }
+						: { content_quality: record.content_quality };
+				const { error } = await supabase
+					.from('blogs_famous_people')
+					.update(gradePayload)
+					.eq('id', existing.id);
+
+				if (error) {
+					console.error(`Error updating grade for ${entry.person}:`, error);
+				} else {
+					const gradePreview = gradePayload.content_quality?.overall ?? 'null';
+					console.log(`Updated grade: ${entry.person} (overall=${gradePreview})`);
+				}
+				continue;
 			}
 
 			// Check if record exists by person slug
@@ -290,6 +423,7 @@ async function main() {
 	try {
 		const args = process.argv.slice(2);
 		const changedOnly = args.includes('--changed');
+		const gradesOnly = args.includes('--grades-only');
 		const personFilter = args.find((arg) => !arg.startsWith('--')); // Optional: e.g. "Malcolm-Gladwell"
 		let blogEntries = [];
 
@@ -316,7 +450,7 @@ async function main() {
 		}
 
 		console.log(`Found ${blogEntries.length} entries to process`);
-		await insertIntoSupabase(blogEntries);
+		await insertIntoSupabase(blogEntries, { gradesOnly });
 
 		console.log('Processing complete!');
 	} catch (error) {

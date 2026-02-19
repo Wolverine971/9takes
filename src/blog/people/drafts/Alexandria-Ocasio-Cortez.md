@@ -18,7 +18,32 @@ twitter: 'AOC'
 instagram: 'aoc'
 tiktok: ''
 path: src/blog/people/drafts/Alexandria-Ocasio-Cortez.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9 | Writing: 8.5 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- Zuckerberg confrontation opening is vivid and specific — "Then Alexandria Ocasio-Cortez leans into her microphone" immediately demonstrates counterphobic Type 6 in action.
+- The Pelosi dynamic section is the piece's intellectual peak and arguably one of the best Enneagram-informed relationship analyses in the entire collection. "Type 3 sees politics as achievement. Type 6 sees politics as protection." That contrast illuminates both women.
+- Counterphobic vs. phobic distinction is clearly explained and consistently applied throughout: sit-in before sworn in, Musk exchange, Zuckerberg grilling.
+- Father's death as Type 6 origin is devastating and specific: "He left behind no life insurance. No investments. No safety net." Then the Star Trek / Captain Janeway detail — father pointing at the captain, then at Alexandria. Emotionally powerful.
+- 2024 election section adds genuine surprise: "22% Trump in 2020. 33% in 2024. Yet voters still backed her personally." And the voter quote: "I voted Trump, but I like you and Bernie. I don't trust either party's establishment politicians." Brilliant Type 6 detail.
+- Twitch Among Us stream (438K viewers, #1 traffic to IWillVote.com) as community-building evidence is well-deployed.
+- The "Criticism from the Left" section adds needed balance — not hagiography.
+- NEEDS WORK: The ending wraps up formulaically with "What drives you?" — the piece's natural ending is "Not just for herself. For everyone without a safety net." Cut the rhetorical question.
+- NEEDS WORK: The Met Gala section feels obligatory and doesn't add much psychological insight. Could be trimmed to 2-3 sentences.
+- TO REACH A+: Sharper ending (cut "What drives you?"), trim Met Gala section, consider adding one or two private life details about Riley Roberts and what the relationship reveals about Type 6 attachment.
+-->
 
 <p class="firstLetter">October 2019. Mark Zuckerberg sits before Congress, expecting the usual grandstanding. Then Alexandria Ocasio-Cortez leans into her microphone and asks if she can run Facebook ads claiming Republicans voted for the Green New Deal. His answer—"I think probably", goes viral. Millions watch a bartender-turned-congresswoman corner the world's fifth-richest man.</p>
 

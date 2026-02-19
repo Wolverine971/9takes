@@ -15,6 +15,17 @@ pic: ''
 path: src/blog/enneagram/enneagram-type-4.md
 ---
 
+<!--
+Midjourney prompt:
+longing for the missing piece greek statue holding a single mosaic fragment near heart, melancholic and searching expression, romantic neoclassical ruins beside reflective water, Unreal Engine, Cinematic, indigo blue and muted rose with warm amber accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting and Contre-Jour, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+
+Image intent:
+Represent Type 4's longing for the missing piece and the shift from chronic absence toward grounded presence.
+
+Suggested pic slug:
+type-4-missing-piece
+-->
+
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

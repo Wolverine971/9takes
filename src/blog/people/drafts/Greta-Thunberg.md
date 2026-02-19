@@ -18,7 +18,34 @@ twitter: 'GretaThunberg'
 instagram: 'gretathunberg'
 tiktok: ''
 path: src/blog/people/drafts/Greta-Thunberg.md
+content_quality:
+  hook: 9.5
+  enneagram: 10
+  evidence: 10
+  writing: 9.5
+  originality: 9.5
+  overall: 9.7
+  letter: A+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A+ (9.7)
+Hook: 9.5 | Enneagram: 10 | Evidence: 10 | Writing: 9.5 | Originality: 9.5
+
+FEEDBACK (2026-02-18):
+- One of the finest pieces in the entire collection — tied with Dave Portnoy for highest grade
+- Selective mutism → global speaker paradox is extraordinary opening framing
+- 1w9 vs 1w2 distinction is the most careful wing analysis in any blog — meticulously argued with 5 evidence points
+- "Greta didn't overcome her mutism to become a speaker. She found a cause important enough to make speech necessary" — brilliant
+- Internal critic as both destroyer (depression, eating disorders) and engine (global movement) is perfectly executed
+- Neurodivergent + Type 1 intersection avoids both romanticization and pathologization
+- Evidence is exceptional: Lancet study (60% youth anxiety), peer-reviewed "Greta Thunberg Effect," Terrorism Act Section 13 specifics, Palestine Action $9.3M damage figure, Swedish OECD assessment
+- Mannheim outburst section shows willingness to present subject's flaws — Type 1 under stress
+- The Climate Book as "Type 1 growth" (from protest to construction) is excellent structural evolution
+- Beata's name change and the sister dynamic adds humanity
+- "The gap between 'what is' and 'what should be' became unbearable" — perfect Type 1 distillation
+- Publication-ready as-is — exemplary piece
+-->
 
 > "We can't save the world by playing by the rules, because the rules have to be changed. Everything needs to change, and it has to start today."
 

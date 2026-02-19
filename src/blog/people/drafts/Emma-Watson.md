@@ -18,7 +18,33 @@ twitter: 'EmmaWatson'
 instagram: 'emmawatson'
 tiktok: ''
 path: src/blog/people/drafts/Emma-Watson.md
+content_quality:
+  hook: 8.5
+  enneagram: 9.5
+  evidence: 9
+  writing: 8.5
+  originality: 8.5
+  overall: 8.8
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.8)
+Hook: 8.5 | Enneagram: 9.5 | Evidence: 9 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- JK Rowling rift as Type 1's ultimate test (loyalty vs. moral integrity) is the strongest section
+- "The ability to hold two truths simultaneously" as "the perfectionist's deepest wisdom" is the most insightful line
+- Coxswain detail ("still in control, but now enabling others") is a great metaphorical observation
+- Renais gin as "the perfectionist learning that good things can also be enjoyable things" is clever Type 1 integration
+- "The bottom fell out" sabbatical is well-documented with Jay Shetty quotes
+- Rowling's actual response quoted ("she's ignorant of how ignorant she is") adds real tension
+- "This wasn't failure—it was intention. Type 1s don't drift. They decide." — clean and effective
+- NEEDS WORK: FAQ section adds SEO value but not editorial value — consider moving to schema
+- NEEDS WORK: HeForShe and Our Shared Shelf sections cover well-known territory without enough new psychological insight
+- NEEDS WORK: QuickAnswer component at top is functional but disrupts narrative flow
+- TO REACH A: Trim FAQ, deepen the psychological analysis in the activism sections, consider leading with a more narrative hook before the QuickAnswer
+-->
 
 <script>
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";

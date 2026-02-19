@@ -19,7 +19,33 @@ twitter: 'https://twitter.com/ChappellRoan'
 instagram: 'https://www.instagram.com/chappellroan/'
 tiktok: 'https://www.tiktok.com/@chappellroan'
 path: src/blog/people/drafts/Chappell-Roan.md
+content_quality:
+  hook: 9.5
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9.5
+  originality: 9.5
+  overall: 9.5
+  letter: A+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A+ (9.5)
+Hook: 9.5 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9.5 | Originality: 9.5
+
+FEEDBACK (2026-02-18):
+- This is one of the strongest pieces in the entire collection. The Grammy speech quote as opener immediately establishes Chappell as someone who uses power for something, not just someone who has it.
+- Self-identification ("I'm an eight, the challenger" on Call Her Daddy) with embedded YouTube video at timestamp is as strong as Enneagram evidence gets. No speculation needed.
+- The psychological centerpiece — fierce public boundaries versus "I throw away my personality because I don't want to be lonely" in relationships — is devastating and perfectly analyzed as Type 8 stress toward Type 2. This single contradiction carries more insight than most entire blog posts.
+- "My deepest fear is feeling like a bad person... But that's some Christian guilt there, dude" adds a dimension to Type 8 analysis that goes beyond the standard "fear of being controlled" framing. The Catholic conscience as moral engine beneath the challenger exterior is original.
+- The music section is unusually detailed and earns its length. You understand what Chappell Roan actually sounds like, and each song is tied to a specific psychological moment: lunch-line comment → "Hot to Go," gay club self-consciousness → "Pink Pony Club," one-sided sex → "The Giver." "Every wound becomes ammunition" is perfect.
+- The "promise trap" analysis (Eliza McLamb's insight that early warmth created unsustainable parasocial expectations) is the most original structural observation. Comparing Chappell's trajectory to the "womaning" cycle (Britney, Hathaway, Lawrence) provides excellent cultural context.
+- The Dan Nigro partnership section adds real creative dimension — their push-pull dynamic mirrors the Type 8's relationship with collaboration.
+- "I weaponized gay" is allowed to land without over-analysis. Good editorial instinct.
+- The Midwest Princess Project ($400K raised) and Grammy speech ($25K donated, Noah Kahan matched) show the piece tracking actions, not just words.
+- The conclusion earns its emotional weight: "She's doing it in public, with glitter on, and that's more than most of us ever attempt."
+- This piece is publication-ready as-is. No significant improvements needed.
+-->
 
 > "I didn't bend at the knee. I did not kiss the ring. I did not jump through the hoops that I was told I had to to get a Grammy... You either like me as I am or don't invite me."
 

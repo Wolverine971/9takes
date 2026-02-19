@@ -18,7 +18,35 @@ twitter: 'GwynethPaltrow'
 instagram: 'gwynethpaltrow'
 tiktok: ''
 path: src/blog/people/drafts/Gwyneth-Paltrow.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9
+  originality: 9
+  overall: 9.2
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.2)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- Self-identified Type 1 with direct Hollywood Reporter quote is the strongest possible foundation
+- "Evil shadow" therapeutic framework (suppressed rage, "there's a freedom there") is the strongest insight
+- "She doesn't hear 'your facts are wrong.' She hears 'you're not good'" — the best single line in the piece
+- Apple's "anxious about making mistakes" landing differently knowing her mother is Type 1 is a devastating observation
+- Jack Black "out-salted me" and RDJ roast details show hidden playfulness most analyses miss
+- Goop as grief response (father's cancer death → wellness mission) is the deepest structural insight
+- Conscious uncoupling as "Type 1 applied to divorce" is clever and well-executed
+- "The transformation of pleasure into duty" about exercise is brilliant
+- Business numbers are specific (10% revenue, 34% beauty, 42% fashion, 60% kitchen)
+- Brad Pitt breakup told from both perspectives (biographer vs. Gwyneth's self-blame) is nuanced
+- Ski trial as Type 1→4 disintegration under stress is textbook
+- NEEDS WORK: At 341 lines, could trim some of the controversy section
+- TO REACH A+: Slightly tighten the middle sections, could add one more surprising human detail
+-->
 
 > "I have so little say in the projections that people have, and it's traumatic to be at the whim of these projections when it's so misaligned with who you actually are."
 

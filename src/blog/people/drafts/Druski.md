@@ -18,7 +18,33 @@ twitter: 'drulogang'
 instagram: 'druski'
 tiktok: 'druski'
 path: src/blog/people/drafts/Druski.md
+content_quality:
+  hook: 8.5
+  enneagram: 8.5
+  evidence: 9
+  writing: 8
+  originality: 8
+  overall: 8.4
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.4)
+Hook: 8.5 | Enneagram: 8.5 | Evidence: 9 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- Jack Harlow's "controlled vulnerability" insight is the strongest psychological moment — "by controlling the joke about himself, he prevents others from having power over him"
+- Netflix rejection to self-funded empire arc is well-told and perfectly maps Type 8 pattern
+- Kai Cenat section showing conscience beneath the armor is nuanced — "simply saying 'I'm sorry' is enormous for a Type 8"
+- Evidence is strong: Billboard cover story, Forbes rankings (3 years tracked), AfroTech, phone records for Diddy lawsuit defense
+- Coulda Been viewership numbers (58M, 80M) concretely demonstrate the empire
+- Mother as grounding influence ("His discipline is his key, and his resilience") adds warmth
+- NEEDS WORK: At 351 lines, some sections feel padded — "Nawfside" and "Surprising Sports Dream" could be tighter
+- NEEDS WORK: "That's the ultimate Challenger move" and similar sentences are generic — show don't tell
+- NEEDS WORK: Diddy lawsuit section reads more like timeline than psychology
+- NEEDS WORK: The piece follows a somewhat predictable success-story arc
+- TO REACH B+: Tighten the middle sections, cut generic Type 8 commentary, deepen the psychological analysis in the controversy sections
+-->
 
 > "I live with no boundaries... I don't like being boxed in."
 

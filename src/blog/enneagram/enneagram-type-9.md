@@ -15,6 +15,17 @@ pic: ''
 path: src/blog/enneagram/enneagram-type-9.md
 ---
 
+<!--
+Midjourney prompt:
+peacekeeping without self-erasure greek statue standing between two arguing figures with hand on chest, calm awakening expression, serene marble courtyard with roots and soft dawn haze, Unreal Engine, Cinematic, ivory marble with sage green and warm sunrise tones, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Soft Lighting and Natural Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+
+Image intent:
+Illustrate Type 9 moving from self-erasure toward peace that includes their own voice and agency.
+
+Suggested pic slug:
+type-9-finding-your-voice
+-->
+
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

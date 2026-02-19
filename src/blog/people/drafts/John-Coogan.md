@@ -19,7 +19,27 @@ twitter: 'https://twitter.com/johncoogan'
 instagram: 'https://instagram.com/johncoogan'
 tiktok: ''
 path: src/blog/people/drafts/John-Coogan.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- STRONG: The shame/pride axis is explicitly explored and drives the analysis — "a deep, often unconscious fear that you're only as valuable as your last accomplishment" is the thesis that makes the Type 3 framework feel necessary, not decorative.
+- EXCEPTIONAL: The humor-as-armor pattern (cannibalism joke → fake yacht ads → Temu Succession) is a genuinely novel observation about how driven people hedge against failure by starting in comedy.
+- STRONG: "The emotion gets one sentence. The recovery gets ten" crystallizes the Type 3 processing pattern perfectly. The "lifestyle business made money but nobody cared" insight — succeeding without being SEEN succeeding — is the "aha" moment.
+- NEEDS WORK: Wings and stress/growth arrows are barely present. Adding 8→2 stress or 3→6 security would deepen the Enneagram analysis.
+- TO REACH A+: (1) Add one more "I genuinely don't know" moment to match the intellectual honesty of the legacy section. (2) Weave in wing analysis (3w2 warmth vs 3w4 introspection). (3) The Soylent section is excellent but the "carefully managed retelling" observation — while sharp — could be softened slightly to maintain the invitational tone.
+-->
 
 > "I've been an entrepreneur my entire career. I've never held a full-time job at a company I didn't start myself."
 

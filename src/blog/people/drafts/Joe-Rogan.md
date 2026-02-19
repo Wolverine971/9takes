@@ -19,7 +19,31 @@ twitter: 'joerogan'
 instagram: 'joerogan'
 tiktok: ''
 path: src/blog/people/drafts/Joe-Rogan.md
+content_quality:
+  hook: 10
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 10
+  overall: 9.4
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.4)
+Hook: 10 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 10
+
+FEEDBACK (2026-02-18):
+- EXCEPTIONAL: The Phil Hartman opening is one of the best hooks in the entire collection. "I tried to persuade him to divorce his wife five times." — then the murder, the canceled gigs, and the thesis: "He saw a threat. He confronted it directly. He refused to soften the message because softening might cost someone their life. And when it did, the loss cut him open." A Google-landing reader is staying.
+- EXCEPTIONAL: "He keeps a dead man's words in his pocket." The Bourdain phone detail — carrying an old phone because the last text messages are on it — is the kind of signature moment that makes the entire analysis click. This one sentence could justify the whole piece.
+- EXCEPTIONAL: The Spotify deal analysis is structurally perfect: "He traded guaranteed exclusivity money for freedom across every platform. That's not a business decision. That's a Type 8 decision." The Enneagram framework isn't paint — it's the engine explaining why a $250 million renegotiation prioritized independence over money.
+- EXCEPTIONAL: The Trump paradox section illustrates Type 8 "loyalty to truth over tribe" with devastating specificity — endorsed Trump, then "ICE is the Gestapo," "stupid" on Canada, "no evidence" on 2020 fraud. Each criticism is specifically quoted. The piece doesn't editorialized — it just presents the pattern and lets the framework explain it.
+- EXCEPTIONAL: The standup critique is the kind of honest assessment nobody else makes: "Joe's comedy works because of who he is, not because of the writing. The persona carries the material. That's a legitimate form of comedy. It's also a form that critics will never reward." Rotten Tomatoes 0% critics, 41% audience — presented without spin.
+- STRONG: The three-day rule with daughters as inversion of his absent father is genuine psychological insight. "The boy who lost his father at 7 becoming a fiercely present father himself. The strength his daughters need most is the kind you can't build in a gym."
+- STRONG: The Theo Von moment — Rogan tearing up when telling Von "you can't be alone, man" — is perfectly placed near the end.
+- MINOR: No wing analysis. Is Rogan an 8w7 (the Maverick) or 8w9 (the Bear)? The martial arts background, competitive nature, and energy level suggest 8w7, but the hunting retreats and sensory deprivation tanks suggest 8w9 elements. Worth exploring.
+- PUBLICATION READY: One of the top 5 pieces in the entire collection alongside JD Vance, Blake Lively, Jacob Elordi, and Jeffrey Epstein.
+-->
 
 > "I tried to persuade him to divorce his wife five times."
 

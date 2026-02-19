@@ -19,7 +19,32 @@ twitter: 'JDVance'
 instagram: 'jd_vance'
 tiktok: ''
 path: src/blog/people/drafts/JD-Vance.md
+content_quality:
+  hook: 10
+  enneagram: 9
+  evidence: 9
+  writing: 10
+  originality: 10
+  overall: 9.6
+  letter: A+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A+ (9.6)
+Hook: 10 | Enneagram: 9 | Evidence: 9 | Writing: 10 | Originality: 10
+
+FEEDBACK (2026-02-18):
+- EXCEPTIONAL: The hook is the best in the entire blog collection. "A boy in Middletown, Ohio watches his mother cycle through men, through pills, through personalities. He learns something most children never have to: that who you are depends on who's in the room." This is cinematic writing that immediately establishes the thesis and creates a question the reader needs answered.
+- EXCEPTIONAL: "Empathy arrived for Vance not as instinct but as intellectual achievement — something he had to decide to feel. That's the Three's journey in a single sentence." This is the kind of line that could be published in The Atlantic. It cracks open the Type 3 framework in a way that reveals something genuinely non-obvious about both Vance and the Enneagram.
+- EXCEPTIONAL: The "cultural heroin" parallel is devastating and original. His mother struggled with actual heroin. He compared Trump to cultural heroin. Then he joined Trump's administration. The irony is layered, specific, and nobody else has framed it this way.
+- EXCEPTIONAL: The Yale dinner scene is precisely identified as a Three's panic — "A Type 8 would bluff through the dinner. A Type 1 would have studied the etiquette in advance. Only a Three excuses himself in a cold panic because the performance might fail." This is counter-typing at its best.
+- EXCEPTIONAL: The Usha section reframes the marriage as a psychological choice — a Three who chose someone who sees through the performance rather than mirrors it back. The Ford's Theatre steps scene is the emotional center of the piece.
+- EXCEPTIONAL: The ending cuts to black at peak insight. No summary. No CTA. "A boy on the steps of Ford's Theatre, having screamed and run, waiting for someone to find him and show him there's another way to be." Haunting.
+- STRONG: The 3w4 wing is discussed with evidence (thin-skinnedness, Tim Ryan quote). Integration toward Type 6 is mentioned. The dual-audience analysis (Fuentes publicly vs. privately) is structurally brilliant.
+- STRONG: The VC section is brutally honest: "Six years at three firms. No notable deals. But the persona was built." Most political profiles wouldn't dare.
+- MINOR: The Signalgate section could be cut by 20% — the psychological insight ("deflect through performance") is strong but the surrounding political detail is extensive. The governing record section (tie-breaking votes, Munich speech) is thorough but occasionally reads as news recap rather than analysis.
+- PUBLICATION READY: This is among the top 3 pieces in the collection alongside Blake Lively and Jacob Elordi.
+-->
 
 > "To understand me, you must understand that I am a Scots-Irish hillbilly at heart."
 

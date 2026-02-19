@@ -18,7 +18,33 @@ twitter: 'https://twitter.com/bellapoarch'
 instagram: 'https://www.instagram.com/bellapoarch/'
 tiktok: 'https://www.tiktok.com/@bellapoarch'
 path: src/blog/people/drafts/Bella-Poarch.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  overall: 8.9
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.9)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- "She created the most-liked video in TikTok history without speaking a single word" → "For most of her life, silence has always been her superpower. For most of her life, it was her only option." — one of the best paradoxes in the entire collection.
+- "A girl who was never allowed to speak created the most popular video on the internet without saying a word" — this throughline gives the piece structural power most others lack.
+- The secret marriage as "the most Type 9 detail of all" is psychologically brilliant: "No wedding photos online. No couples content. No ring visible in videos. Complete privacy in the age of oversharing."
+- "Hiding. That word. Of course her talent was hiding. She'd spent her entire life learning to hide." — emotionally devastating moment that elevates the Warner Records signing section.
+- The kept-his-last-name-after-divorce analysis is genuinely insightful: "Separate from the man, separate from the marriage, but also separate from the family that abused her."
+- Tattoo controversy response as healthy Type 9: passive about personal slights, protective of others. "Y'all can attack me. I'm ok with that. But when y'all attack Philippines..."
+- The military-as-Type-9-under-stress-toward-Type-6 is smart Enneagram work.
+- Anime-sneaking as reclaimed childhood — "These aren't just content strategies. They're reclaiming the childhood she never had."
+- NEEDS WORK: Major Accomplishments is a bullet list. Some Legacy sections are list-heavy.
+- NEEDS WORK: The ending question ("What part of Bella Poarch's story resonates...") is slightly generic. The piece's best ending line is "A complete statement from someone who spent most of her life making none."
+- TO REACH A: Cut accomplishments list, tighten Legacy section, end on the album as "complete statement" line.
+-->
 
 > "My parents wouldn't allow me and my brother to talk at home – to just have no voice at all. We were only allowed to say yes or no. That's how I grew up in the Philippines."
 

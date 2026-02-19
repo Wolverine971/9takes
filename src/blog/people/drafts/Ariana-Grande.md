@@ -19,7 +19,32 @@ twitter: 'arianagrande'
 instagram: 'arianagrande'
 tiktok: 'arianagrande'
 path: src/blog/people/drafts/Ariana-Grande.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 8
+  overall: 8.6
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.6)
+Hook: 8.5 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- Oscar snub opening is strong real-time narrative hook that immediately demonstrates Type 3 "scoreboard" psychology in action.
+- Counter-typing section (Why Not Type 2 or Type 4?) is one of the best in the collection — uses Dolly Parton and Billie Eilish as concrete comparison points.
+- "Scoreboard" metaphor is used consistently throughout and gives the piece a unifying conceptual thread.
+- One Love Manchester section is compelling with specific logistics (55,000 people, 20-minute sellout, one rehearsal, 50+ countries broadcast). Shows the Type 3 "crisis to action" pattern with evidence.
+- Fragrance and r.e.m. beauty data ($1B+ sales, $88.7M revenue, $500M valuation) are strong commercial evidence of brand-building psychology.
+- "Choosing Pace Over More" section is the piece's growth insight — six million crashing Ticketmaster but choosing 41 shows instead of 100.
+- NEEDS WORK: The "Try this" ending feels like a self-help book rather than cutting to black. The strongest ending line is "what am I willing to trade for another win, and what am I not?" — cut everything after that.
+- NEEDS WORK: Missing private life details — what is Ariana like off-camera? What do collaborators say about her personality in the studio?
+- NEEDS WORK: The Wicked audition section is strong but could be tighter — Jon M. Chu's skepticism and her four-five auditions are great details buried in slightly long paragraphs.
+- TO REACH A: Sharper ending (cut "Try this" paragraph), add 2-3 off-camera personality details from collaborators, tighten the Wicked audition narrative.
+-->
 
 > "If I could, I would not do anything else. I'd just be in the studio for my whole life."
 >

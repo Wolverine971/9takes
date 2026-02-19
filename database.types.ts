@@ -215,6 +215,7 @@ export type Database = {
           category: string | null
           changefreq: string | null
           content: string | null
+          content_quality: Json | null
           created_at: string
           date: string | null
           description: string | null
@@ -243,6 +244,7 @@ export type Database = {
           category?: string | null
           changefreq?: string | null
           content?: string | null
+          content_quality?: Json | null
           created_at?: string
           date?: string | null
           description?: string | null
@@ -271,6 +273,7 @@ export type Database = {
           category?: string | null
           changefreq?: string | null
           content?: string | null
+          content_quality?: Json | null
           created_at?: string
           date?: string | null
           description?: string | null

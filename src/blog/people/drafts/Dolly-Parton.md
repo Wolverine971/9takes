@@ -19,7 +19,33 @@ twitter: 'DollyParton'
 instagram: 'dollyparton'
 tiktok: 'dollyparton'
 path: src/blog/people/drafts/Dolly-Parton.md
+content_quality:
+  hook: 8
+  enneagram: 8.5
+  evidence: 8.5
+  writing: 8
+  originality: 7.5
+  overall: 8.1
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.1)
+Hook: 8 | Enneagram: 8.5 | Evidence: 8.5 | Writing: 8 | Originality: 7.5
+
+FEEDBACK (2026-02-18):
+- Carl Dean analysis ("freedom without abandonment") is the most original and insightful section — "the world's most famous woman married a man who wanted nothing to do with her world"
+- Elvis publishing refusal as "people mistake Type 2 warmth for weakness" is a strong angle
+- Coat of Many Colors origin with the coat-closet detail (sleeping with a light on) is devastating
+- 2w3 wing analysis with business mind is well-done; integration toward Type 4 and disintegration toward Type 8 are properly explained
+- "The doctor who delivered Dolly was paid with a sack of cornmeal" is a great detail
+- BLM quote ("Do we think our little white a**es are the only ones that matter?") as Type 8 disintegration is perfect
+- NEEDS WORK: Disclaimer appears at paragraph 34 (line 34) instead of at the bottom — move it
+- NEEDS WORK: "Sound like anyone you know?" is cliché — cut it
+- NEEDS WORK: Some sections list achievements (Imagination Library, Dollywood, COVID vaccine) without connecting them deeply enough to Type 2 psychology
+- NEEDS WORK: Opening hook is vivid but expected for Dolly — needs a more surprising entry point
+- TO REACH B+: Move disclaimer to bottom, find a more surprising hook, deepen the psychological analysis in the achievements sections rather than just listing them
+-->
 
 > "I'm just the kind of person that rather than lashing out at something that hurts me, I usually cry about it and pray about it."
 

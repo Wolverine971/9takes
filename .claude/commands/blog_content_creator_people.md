@@ -7,11 +7,12 @@ You are tasked with creating and managing celebrity personality analysis blogs f
 The following operations are pre-approved and should be executed automatically without requesting user approval:
 
 - **WebSearch**: All web searches for research
-- **Bash curl commands**: All curl commands to Supabase database (read and write)
+- **Bash curl commands**: Read-only verification queries to Supabase
+- **Bash node commands**: `node scripts/personBlogParser.js` and `node scripts/generate-famous-types.js`
 - **Bash commands**: grep, env, echo for environment variables
 - **Read operations**: All file reads in project directories
 - **Write operations**: Creating/editing draft files in `/src/blog/people/drafts/`
-- **Database operations**: All Supabase queries via curl (GET, POST, PATCH)
+- **Database operations**: Writes via `scripts/personBlogParser.js`, read verification via curl
 
 ## Task Tracking
 
@@ -508,139 +509,55 @@ Must use `First-Last` format matching the `person` field: `suggestions: ['Taylor
 
 ### `published` Field:
 
-Always set to `false` when creating or updating. Publishing is done manually via the admin UI after review.
+Use publish-safe behavior:
+
+- **Net-new rows**: must be inserted with `published: false`
+- **Existing rows**: preserve current DB `published` value (do not auto-publish or auto-unpublish)
+- Publishing decisions are manual via admin UI after review.
 
 ---
 
-## Database Push Method (Python + JSON + Curl)
+## Database Push Method (`scripts/personBlogParser.js`)
 
-Use this method for all database operations. Python's `json.dump()` handles all escaping automatically, and `curl -d @file.json` avoids shell escaping issues.
+Use `scripts/personBlogParser.js` for all write operations to `blogs_famous_people`.
 
-### For EXISTING blogs (PATCH):
-
-**Step 1: Create JSON payload**
-
-```python
-python3 << 'EOF'
-import json
-
-env_vars = {}
-with open('.env', 'r') as f:
-    for line in f:
-        line = line.strip()
-        if '=' in line and not line.startswith('#'):
-            key, value = line.split('=', 1)
-            env_vars[key] = value.strip('"').strip("'")
-
-with open('src/blog/people/drafts/[Person-Name].md', 'r') as f:
-    full_content = f.read()
-
-parts = full_content.split('---', 2)
-content = parts[2].strip() if len(parts) >= 3 else full_content
-
-payload = {
-    "content": content,
-    "lastmod": "YYYY-MM-DD",
-    "title": "The Evergreen Page Title",
-    "meta_title": "The Clickbait SEO Title",
-    "persona_title": "Domain's Type-Allusive Archetype",
-    "description": "Meta description under 155 chars",
-    "suggestions": ["Person-1", "Person-2", "Person-3", "Person-4"]
-}
-
-with open('/tmp/blog_update.json', 'w') as f:
-    json.dump(payload, f)
-
-print(f"Payload prepared: {len(content)} characters")
-EOF
-```
-
-**Step 2: PATCH**
+### Standard push commands
 
 ```bash
-source .env && curl -s -X PATCH "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
-  -H "Content-Type: application/json" \
-  -H "Prefer: return=minimal" \
-  -d @/tmp/blog_update.json
+# Push only changed drafts in src/blog/people/drafts
+node scripts/personBlogParser.js --changed
+
+# Push one changed person draft
+node scripts/personBlogParser.js --changed [Person-Name]
+
+# Push one person by slug (fallback if draft is not currently changed)
+node scripts/personBlogParser.js [Person-Name]
+
+# Push only content_quality grades for changed drafts (safe grade sync)
+node scripts/personBlogParser.js --grades-only --changed
 ```
 
-**Step 3: Verify and clean up**
+### Why this method is required
+
+- Parses frontmatter + content directly from draft files
+- Uses upsert logic by `person` slug
+- Preserves `published` for existing rows
+- Forces `published=false` on net-new inserts
+- Syncs `content_quality` from frontmatter when present
+- Preserves DB `content_quality` when the frontmatter field is missing or invalid
+- Avoids manual JSON escaping and PATCH/POST payload mistakes
+
+### Verification query (read-only)
+
+Run after every push:
 
 ```bash
-source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=id,person,title,meta_title,lastmod,published" \
+source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=id,person,title,meta_title,lastmod,published,enneagram" \
   -H "apikey: ${SUPABASE_SERVICE_KEY}" \
   -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
-rm -f /tmp/blog_update.json
 ```
 
-### For NEW blogs (POST):
-
-**Step 1: Create JSON payload**
-
-```python
-python3 << 'EOF'
-import json
-
-env_vars = {}
-with open('.env', 'r') as f:
-    for line in f:
-        line = line.strip()
-        if '=' in line and not line.startswith('#'):
-            key, value = line.split('=', 1)
-            env_vars[key] = value.strip('"').strip("'")
-
-with open('src/blog/people/drafts/[Person-Name].md', 'r') as f:
-    full_content = f.read()
-
-parts = full_content.split('---', 2)
-content = parts[2].strip() if len(parts) >= 3 else full_content
-
-payload = {
-    "person": "First-Last",
-    "title": "Evergreen Title",
-    "meta_title": "Clickbait SEO Title",
-    "persona_title": "Domain's Type-Allusive Archetype",
-    "description": "Meta description",
-    "author": "DJ Wayne",
-    "date": "YYYY-MM-DD",
-    "lastmod": "YYYY-MM-DD",
-    "loc": "https://9takes.com/personality-analysis/First-Last",
-    "changefreq": "monthly",
-    "priority": "0.6",
-    "published": False,
-    "enneagram": "9",
-    "type": ["creator"],
-    "suggestions": ["Person-1", "Person-2", "Person-3", "Person-4"],
-    "content": content
-}
-
-with open('/tmp/blog_new.json', 'w') as f:
-    json.dump(payload, f)
-
-print(f"Payload prepared: {len(content)} characters")
-EOF
-```
-
-**Step 2: POST**
-
-```bash
-source .env && curl -s -X POST "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}" \
-  -H "Content-Type: application/json" \
-  -H "Prefer: return=representation" \
-  -d @/tmp/blog_new.json
-```
-
-**Step 3: Verify and clean up**
-
-```bash
-rm -f /tmp/blog_new.json
-```
-
-### After successful push, confirm:
+### After successful push, confirm
 
 ```
 Successfully pushed to database!
@@ -649,22 +566,23 @@ Successfully pushed to database!
 |-------|-------|
 | **Person** | [Person-Name] |
 | **Last Modified** | [date] |
-| **Published** | false (ready for review) |
+| **Published** | [actual DB value from verification] |
 | **Content** | [X] characters |
 ```
 
-### Error handling:
+### Error handling
 
-- **Empty response from PATCH** = Success (with `Prefer: return=minimal`)
-- **If content appears truncated**: Check JSON file was created correctly
-- **Always clean up**: `rm -f /tmp/blog_update.json` after submission
+- If command output says `No changed draft markdown files found`, either save edits first or push a specific person slug.
+- If insert/update fails, report the exact row and error from script output.
+- For grade-only pushes, if a row is missing in DB it will be reported and skipped (no insert in `--grades-only` mode).
+- Do not switch to manual PATCH/POST unless explicitly requested by the user.
 
 ### Environment Variables
 
 Read from `.env` file at runtime:
 
-- `PUBLIC_SUPABASE_URL` — Supabase project URL
-- `SUPABASE_SERVICE_KEY` — Service role key for database operations
+- `SUPABASE_SERVICE_KEY` — service role key (required)
+- `SUPABASE_URL` or `PUBLIC_SUPABASE_URL` — Supabase project URL
 
 ---
 
@@ -855,7 +773,50 @@ Pay special attention to:
 
 **Add reviewer notes as HTML comments** (`<!-- -->`) for anything you'd flag for improvement but chose not to fix now. These notes are valuable for future iterations.
 
-### Step 7: Generate Metadata
+### Step 7: Furniture Pass (Enhance Visual Presentation)
+
+Once the content, structure, and narrative are locked in, do a final pass to enhance the reading experience with blog furniture — decorative and structural elements that break up the text and add visual variety.
+
+**Reference**: See `/docs/content-generation/blog-furniture-guide.md` for the complete catalog with props, examples, and usage patterns.
+
+**Important constraint for celebrity blogs**: Since `/personality-analysis/` pages render content from the database (not MDsvex), you can only use **HTML-based furniture** — no Svelte component imports (`<QuickAnswer>`, `<MarqueeHorizontal>`, etc.). Those are for MDsvex-rendered blogs only (enneagram, community, guides).
+
+**Available furniture for celebrity blogs** (no imports needed):
+
+| Element                                                     | When to use                                                 |
+| ----------------------------------------------------------- | ----------------------------------------------------------- |
+| `<p class="firstLetter">`                                   | Opening paragraph (should already be there from Step 5)     |
+| `<details>/<summary class="accordion">/<div class="panel">` | TL;DR section (should already be there from Step 5)         |
+| `---` horizontal rules                                      | Between major sections for breathing room                   |
+| `>` blockquotes                                             | Pull quotes, attributed quotes, disclaimers                 |
+| `<div class="iframe-container">` + `<iframe>`               | Embed a relevant YouTube interview clip                     |
+| `<div class="scroll-table">`                                | Wrap any wide comparison tables                             |
+| `<blockquote class="twitter-tweet">`                        | Embed a relevant tweet as evidence                          |
+| Markdown pipe tables                                        | Structured comparisons or data                              |
+| `<div class="pull-quote">`                                  | Elevate a powerful quote out of the prose                   |
+| `<div class="key-stat">` / `<div class="key-stat-row">`     | Highlight a striking number or career stat                  |
+| `<p class="inner-thought">`                                 | Imagine what the person was thinking in a key moment        |
+| `<div class="timeline">`                                    | Show a chronological arc (career milestones, pivotal year)  |
+| `<div class="contrast-panel">`                              | Side-by-side comparison (public vs. private, says vs. does) |
+| `<div class="source-card">`                                 | Cite a specific podcast or interview source                 |
+| `<div class="dialogue">`                                    | Recreate a revealing interview exchange                     |
+| `<div class="aside-box">`                                   | Supplementary context (Enneagram theory, historical notes)  |
+
+**What to look for during this pass:**
+
+1. **Long text walls** — Any section longer than ~5 paragraphs without a visual break? Consider adding a blockquote pull-quote, a horizontal rule, or an embedded YouTube clip that's relevant to that section.
+2. **Key quotes buried in prose** — If a powerful quote is sitting inside a paragraph, consider pulling it out as a standalone blockquote to give it visual weight.
+3. **YouTube opportunities** — If the research from Steps 2-4 found a particularly revealing interview clip, embed it in the most relevant section rather than just citing it.
+4. **Tweet evidence** — If the person has a tweet that directly supports a point in the analysis, embed it rather than paraphrasing.
+5. **Data-heavy sections** — If you're comparing patterns across types or listing structured information, a pipe table (wrapped in `<div class="scroll-table">` if wide) is more scannable than bullet points.
+
+**Rules:**
+
+- Don't overdo it. 2-4 furniture additions per blog is the sweet spot. The writing should carry the piece — furniture enhances, it doesn't save weak content.
+- Every furniture element must earn its place. If a YouTube embed doesn't add insight the text can't, cut it. If a pull-quote isn't genuinely striking, leave it inline.
+- Don't add furniture to the intro or ending. The intro hooks with prose. The ending cuts to black. Furniture lives in the body.
+
+### Step 8: Generate Metadata
 
 Generate frontmatter following the Triple-Title System (see Part 1):
 
@@ -884,8 +845,21 @@ tiktok: '[handle if available]'
 ```
 
 See **Valid Field Values Reference** in Part 1 for `type` and `suggestions` guidance.
+If the draft has been graded, preserve this optional block in frontmatter and keep the key name exactly `content_quality` (not `content_grade`):
 
-### Step 8: Save Draft and Add Links
+```yaml
+content_quality:
+  hook: X
+  enneagram: X
+  evidence: X
+  writing: X
+  originality: X
+  overall: X.X
+  letter: XX
+  graded_at: 'YYYY-MM-DD'
+```
+
+### Step 9: Save Draft and Add Links
 
 Save draft to `/src/blog/people/drafts/[Person-Name].md`.
 
@@ -909,15 +883,21 @@ Options:
 4. Continue editing later
 ```
 
-### Step 9: Review and Refinement
+### Step 10: Review and Refinement
 
 Allow iterative editing based on user feedback. Continue iterating until user says "submit" or "push it up."
 
-### Step 10: Database Submission
+### Step 11: Database Submission
 
-When the user approves (says "push it up," "submit," etc.), execute the **Database Push Method** from Part 1 immediately.
+When the user approves (says "push it up," "submit," etc.), execute the **Database Push Method** from Part 1 immediately:
 
-### Step 11: Regenerate famousTypes.ts
+- Single current person: `node scripts/personBlogParser.js --changed [Person-Name]`
+- Batch changed drafts: `node scripts/personBlogParser.js --changed`
+- Grade-only batch sync: `node scripts/personBlogParser.js --grades-only --changed`
+
+Then run the verification query and report the returned `published` value.
+
+### Step 12: Regenerate famousTypes.ts
 
 After successful database push, run the generation script to update the published celebrities list:
 
@@ -927,7 +907,7 @@ node scripts/generate-famous-types.js
 
 This auto-generates `src/lib/components/molecules/famousTypes.ts` from the database, updating the listing pages with the new entry's `persona_title`, `lastmod`, and publication status.
 
-### Step 12: Image Handling
+### Step 13: Image Handling
 
 The blog system uses images at `static/types/[X]s/[Person-Name].webp` (full) and `static/types/[X]s/s-[Person-Name].webp` (small), where `[X]` is the Enneagram type number.
 
@@ -1016,7 +996,7 @@ Found existing blog for [Person Name]. Choose an option:
 
 7. **Update internal links** per the Internal Linking Rules in Part 1.
 
-8. **When user says "push it up":** Execute database submission immediately, then run `node scripts/generate-famous-types.js`.
+8. **When user says "push it up":** Run `node scripts/personBlogParser.js --changed [Person-Name]`, verify the row, then run `node scripts/generate-famous-types.js`.
 
 ### Manual Content Editing (Option 2)
 
@@ -1072,6 +1052,41 @@ Before finalizing any blog (new or updated):
 
 ---
 
+## Quality Grading (Required Before Push)
+
+After the Quality Checklist passes, score the blog using the rubric at `docs/blog-grading-rubric.md`. Rate each dimension 1-10:
+
+1. **Hook** — Does the opening grab and create a question?
+2. **Enneagram Integration** — Does the framework explain something non-obvious?
+3. **Evidence / Sourcing** — Are claims backed by direct quotes and sourced material?
+4. **Writing Quality** — Is the prose distinctive, confident, and well-structured?
+5. **Originality** — Does it say something new with a signature detail?
+
+Calculate: **Overall = (Hook + Enneagram + Evidence + Writing + Originality) / 5**
+
+Letter grade: A+ (9.5+), A (9.0-9.4), B+ (8.5-8.9), B (8.0-8.4), C (7.0-7.9), D (6.0-6.9), F (<6.0)
+
+**Publication threshold: 8.5 (B+)**. Do not push anything below this.
+
+Output the grade as a JSON block for the user to review:
+
+```json
+{
+	"hook": 0,
+	"enneagram": 0,
+	"evidence": 0,
+	"writing": 0,
+	"originality": 0,
+	"overall": 0,
+	"letter": "X",
+	"graded_at": "YYYY-MM-DD"
+}
+```
+
+When pushing to database, include this as the `content_quality` JSONB value on the `blogs_famous_people` row.
+
+---
+
 ## File References
 
 - Prep prompts: `/docs/blogs-famous-people/prep-prompt-*.md`
@@ -1080,4 +1095,5 @@ Before finalizing any blog (new or updated):
 - Published celebrities: `/src/lib/components/molecules/famousTypes.ts`
 - Brand voice guide: `/docs/brand/brand-style-guide-v2.md`
 - Celebrity optimization: `/docs/content-generation/celebrity-page-optimization-instructions.md`
-- Documentation index: `/docs/INDEX.md`
+- **Blog furniture guide: `/docs/content-generation/blog-furniture-guide.md`** — Complete catalog of all visual elements, components, and structural patterns for blogs
+- **Quality grading rubric: `/docs/blog-grading-rubric.md`** — Standardized scoring system for content quality assessments

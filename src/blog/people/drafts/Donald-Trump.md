@@ -19,7 +19,31 @@ twitter: 'realDonaldTrump'
 instagram: 'realdonaldtrump'
 tiktok: ''
 path: src/blog/people/drafts/Donald-Trump.md
+content_quality:
+  hook: 8.5
+  enneagram: 9.5
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  overall: 8.9
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.9)
+Hook: 8.5 | Enneagram: 9.5 | Evidence: 9 | Writing: 8.5 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- The Type 3 vs Type 8 counter-typing section is one of the strongest in the entire collection. Thorough, well-argued, specific.
+- The McAdams "narrative vacuum" insight is genuinely revelatory — "a truly authentic fake" who is "incapable of describing an inner psychological life." This alone justifies the piece.
+- The USFL deep dive is rarely covered and perfectly illustrates Type 3 psychology (destroyed a league for personal status).
+- The "inside a Type 3 mind" section is one of the most vivid experiential descriptions in the collection. "Barbed-wire thinking" at 3AM is outstanding.
+- "Moments the Mask Slipped" section is fresh — Fred Jr.'s death (the one place his persona failed), signing blank papers at Walter Reed, and the 2020 election night golf course moment.
+- NEEDS WORK: The "How Each Enneagram Type Perceives" section (9 type-by-type entries) takes up 35 lines and feels formulaic. Consider cutting or compressing to 2-3 strongest observations.
+- NEEDS WORK: Ending wraps up conventionally ("Understanding the psychology doesn't excuse the behavior. But it does explain it."). Needs a sharper cut-to-black.
+- NEEDS WORK: Opening is conceptual rather than scene-based. Could open with a specific moment (e.g., the Oval Office desk with Fred's picture, or the golf course on November 7).
+- TO REACH A: Cut the type-by-type section, find a devastating ending line, and anchor the opening in a specific scene.
+-->
 
 > "If I get my name in the paper, if people pay attention, that's what matters."
 

@@ -19,7 +19,32 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Amber-Heard.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 9.5
+  writing: 8.5
+  originality: 9
+  overall: 8.9
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.9)
+Hook: 8.5 | Enneagram: 9 | Evidence: 9.5 | Writing: 8.5 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- "The Image on Trial" persona title is the piece's master stroke — a Type 3 whose identity is image management, on trial for fabricating an image. This frame elevates everything.
+- The Type 3/Type 4 dynamic with Depp is one of the best inter-type analyses in the collection: "Type 3s prioritize how things look. Type 4s prioritize how things feel." Sharp and specific.
+- The donation controversy as image-vs-reality for a Type 3 is psychologically devastating and well-sourced (exact dollar amounts, who paid what).
+- The coming-out section's "Authenticity or Image-Crafting?" dual reading is exactly the kind of nuance personality analysis should offer. "Both genuine and strategic. Not mutually exclusive."
+- Motherhood analysis is razor-sharp: "Even motherhood is described in terms of goals accomplished" when she says "the family I've strived to build."
+- TikTok hashtag data (400:1 ratio, specific viewership numbers) gives the trial section concrete weight.
+- The "Struggle Years 2004-2008" section provides career granularity most profiles skip — shows the Type 3 grind.
+- NEEDS WORK: Major Accomplishments section is a bullet list with minimal psychological framing. Weave into narrative or cut.
+- NEEDS WORK: Some sections (Financial Aftermath, Aquaman 2) read more like journalism than personality analysis. Tighten the Enneagram thread through these sections.
+- TO REACH A: Cut accomplishments list, strengthen Enneagram thread through financial/Aquaman sections, tighten ending (the closing question about "what do you see" is good but the three options feel like a quiz).
+-->
 
 > "I'm strong. I'm smart. I'm not a victim, to my detriment."
 

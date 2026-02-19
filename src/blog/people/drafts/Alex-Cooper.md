@@ -19,7 +19,30 @@ twitter: 'alexandracooper'
 instagram: 'alexandracooper'
 tiktok: 'callherdaddy'
 path: src/blog/people/drafts/Alex-Cooper.md
+content_quality:
+  hook: 9.5
+  enneagram: 9
+  evidence: 9.5
+  writing: 9
+  originality: 9
+  overall: 9.2
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.2)
+Hook: 9.5 | Enneagram: 9 | Evidence: 9.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- "She was five. She was already learning to control the frame." — one of the best openers in the entire collection. The control-room-to-empire throughline is masterful structural work.
+- The bullying section (head slammed, "skeleton," dyed red hair blonde) creates real psychological stakes. "Content creation wasn't a career ambition. It was a survival mechanism."
+- The Sofia/Alix Earle parallel is the piece's best structural insight: "In 2020, Cooper was the talent fighting for fair treatment under someone else's deal. By 2025, she was the boss whose talent felt constrained." Both sides sourced with direct quotes.
+- "For a woman who spent her childhood desperate to belong and unable to, building the world's largest sleepover is either poetic justice or the ultimate coping mechanism. Probably both." — great line.
+- The therapy/Matt section earns its emotional weight: "She almost destroyed the best relationship of her life with the same instinct that built her career. She caught it. She stayed."
+- The "Unwell" brand name analysis ("packaging the thing you fear most so attractively that it stops feeling like a threat") is psychologically sharp Type 7 work.
+- The BU coach section handles serious allegations with appropriate sourcing and nuance. The "bind" observation (trauma film that still feels controlled) is astute.
+- TO REACH A+: The piece is already excellent. Minor notes: the Kamala Harris section, while factually important, slightly interrupts the psychological throughline. The ending question ("what would happen if you stopped?") is strong but the "Most of us can't answer it either" follow-up slightly dilutes it.
+-->
 
 > "I was determined to find a way where no one could ever silence me again."
 

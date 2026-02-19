@@ -19,7 +19,34 @@ twitter: 'cristiano'
 instagram: 'cristiano'
 tiktok: 'cristiano'
 path: src/blog/people/drafts/Cristiano-Ronaldo.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 8.5
+  overall: 8.7
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.7)
+Hook: 8.5 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- Opening immediately establishes the "never enough" drive: 960 goals, chasing 1,000 at age 40. Good Type 3 thesis statement.
+- Father's alcoholism origin story is the piece's emotional foundation — well-told with the detail that José died in London "in the care of the son who had escaped Madeira but couldn't escape the pain." Strong writing.
+- "Perhaps great enough that his father, somehow, might finally see" is the piece's best line — captures the Type 3 wound perfectly.
+- Euro 2024 tears section is the intellectual peak: Type 3 public failure + vulnerability breakthrough + "if you hide this stuff, you're not being true to yourself." This is where the piece earns its grade.
+- Coca-Cola/Agua moment analysis as Type 3 self-demonstration ("I am not like other players") is a clever micro-observation.
+- SIUUU celebration as "self-reinforcement that the whole stadium echoes back" is a good insight connecting brand to psychology.
+- Messi rivalry section is honest: "Humility feels like concession. Acknowledging equals feels like admitting inadequacy." Good Type 3 truth.
+- Al-Nassr chapter as "expanding the definition of success beyond personal performance" frames healthy Type 3 evolution well.
+- NEEDS WORK: The "Major Accomplishments" section is a stats dump — 170 words of bullet-pointed numbers without psychological framing. Either cut it or weave the numbers into narrative.
+- NEEDS WORK: Las Vegas allegation section is handled carefully but sits awkwardly — it's neither deep analysis nor brief mention. Either commit to analyzing the Type 3 compartmentalization psychology or reduce to one paragraph.
+- NEEDS WORK: The ending runs too long (3 paragraphs after the natural close). "She loved him before any of it" is the strongest ending line — cut everything after.
+- TO REACH A: Cut stats dump, tighten ending to the mother line, add private personality details (what is Ronaldo like off-pitch?), sharper opening that starts with a scene rather than numbers.
+-->
 
 > "I'm not a perfectionist, but I like to feel that things are done well. More important than that, I feel an endless need to learn, to improve, to evolve."
 

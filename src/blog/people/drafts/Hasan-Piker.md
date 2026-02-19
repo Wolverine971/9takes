@@ -19,7 +19,26 @@ twitter: 'hasanthehun'
 instagram: 'hasand_'
 tiktok: 'hasanpiker'
 path: src/blog/people/drafts/Hasan-Piker.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 9
+  writing: 8
+  originality: 7
+  overall: 8.0
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.0)
+Hook: 8 | Enneagram: 8 | Evidence: 9 | Writing: 8 | Originality: 7
+
+FEEDBACK (2026-02-18):
+- STRONG: Evidence is excellent throughout — direct quotes from NPR, CNN, GQ, Variety, plus specific metrics ($1.3M earthquake fundraising, 227K concurrent viewers, $2.74M house). The Will Neff restaurant origin story and the Communist Party of Australia critique are standout sourcing finds.
+- STRONG: The "Himbo Gateway Drug" section is well-structured and the de-radicalization testimonials provide concrete evidence for his cultural impact. The mom walking in during Valorant matches is a humanizing detail that works.
+- NEEDS WORK: Originality is the weakest dimension. The 9/11 quote, house controversy, and Klein feud are widely covered territory. The blog compiles known information competently through an 8 lens but doesn't offer a genuinely novel insight — "angry political streamer is a Type 8" doesn't crack anything open.
+- TO REACH B+: (1) Find the signature detail — the Will Neff restaurant moment hints at it but it's a friendship detail, not a Type 8 insight. Explore the contradiction between "persuade, not scold" and his actual confrontational style — that's the real tension. (2) The conclusion wraps up conventionally. Cut "Whether that's admirable or destructive depends on which eight-hour stream you catch him on" — end on the burnout admission or the mom bringing snacks to 40,000 viewers. (3) Tighten the Controversies section — the Hamas/synagogue section is thorough but reads like a news summary. What does the Type 8 framework explain about WHY he can't back down even when it would be strategically smart?
+-->
 
 > "America deserved 9/11, dude. Fuck it, I'm saying it."
 

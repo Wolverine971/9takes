@@ -18,7 +18,30 @@ twitter: 'JoeBiden'
 instagram: 'joebiden'
 tiktok: ''
 path: src/blog/people/drafts/Joe-Biden.md
+content_quality:
+  hook: 7
+  enneagram: 7
+  evidence: 7
+  writing: 6
+  originality: 5
+  overall: 6.4
+  letter: D
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: D (6.4)
+Hook: 7 | Enneagram: 7 | Evidence: 7 | Writing: 6 | Originality: 5
+
+FEEDBACK (2026-02-18):
+- DECENT: The hook — "Joe Biden was sworn into the Senate at his sons' hospital bedside" — is concrete and immediately establishes the thesis. The one-line setup is effective.
+- DECENT: The Type 2 shadow section is well-developed. Ted Kaufman's observation ("Sometimes he'll bend too far to find common ground") captures both the gift and the challenge of Type 2 in politics. The farewell pardons analyzed through Type 2 protective instinct is the most original angle in the piece.
+- DECENT: The post-presidency cancer section adds current, specific detail — radiation therapy, bell-ringing, Mohs surgery. The LGBTQ+ Leaders Conference speech to youth ("just be you") is touching and well-placed.
+- NEEDS WORK: "Joe Biden is empathetic" is not a novel thesis. The piece needs to crack open something non-obvious about Biden through the Type 2 lens. The most interesting thread — the man who pardoned his own family as his last act, the Helper who crossed a line every previous president held — is barely developed.
+- NEEDS WORK: No wings discussed. Is Biden a 2w1 (the servant, principled helper) or 2w3 (the host, politically charming)? The stutter section and Catholic upbringing suggest 2w1 but it's never explored. No stress/growth arrows either.
+- NEEDS WORK: Writing is report-like throughout. The policy sections (American Rescue Plan, Infrastructure Law) read as Wikipedia summaries with Type 2 labels. The "Conclusion" header is formulaic. No memorable lines beyond Biden's own quotes.
+- NEEDS WORK: Many quotes lack specific attribution — "Biden has said," "as he once reflected." Every quote needs date and outlet.
+- TO REACH C: (1) Add wing analysis — the 2w1 case (Catholic moral framework, stutter as self-discipline, VAWA as principled protection) is strong and would deepen the piece significantly. (2) Develop the pardons thread as the piece's thesis: the Helper who crossed every norm to protect his family. That's the specific, non-obvious story. (3) Cut the policy recap sections by 50% — keep the Type 2 analysis, remove the legislative summaries. (4) Source every quote with date and outlet. (5) Remove the "Conclusion" header and end on a specific moment instead.
+-->
 
 > "I've been knocked down a lot. And I've learned you can't stay down. You've got to get up."
 

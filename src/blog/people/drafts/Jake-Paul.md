@@ -19,7 +19,27 @@ twitter: 'jakepaul'
 instagram: 'jakepaul'
 tiktok: 'jakepaul'
 path: src/blog/people/drafts/Jake-Paul.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- EXCEPTIONAL HOOK: The Men's Health forearm detail — Jake Paul, trash-talker with a 12-2 record, sitting nervously clutching his own forearm — immediately creates the central question the piece will answer. The father wound quote ("lurking energy of needing approval") sets the thesis within two paragraphs.
+- EXCEPTIONAL ORIGINALITY: The Fousey hospitalization story is a genuine discovery — a man who films everything doing the most meaningful thing in silence. The Lamborghini/cliff plan is specific and devastating. The Tana proposal vs. Jutta proposal as a measure of personal distance traveled is structurally brilliant. The strategic boxing record read through the Type 3 achievement lens is the analysis's "aha" moment.
+- EXCEPTIONAL EVIDENCE: Direct quotes from Men's Health, Netflix documentary, Aubrey Marcus podcast, Shane Dawson, Rolling Stone, Logan's Impaulsive. Olympic record time (1:12.31). Joshua fight specifics (round 6, 1:31, two titanium plates). Fousey's direct quote. NYT corroboration of allegations. Every major claim is attributed and dated.
+- STRONG WRITING: "A man who built his career on shamelessness, too ashamed to reach out during the worst moment of his life" is devastating. "Even his reason for surviving was competitive." The Olympic tears ending is a perfect close — no summary, no CTA.
+- TO REACH A+: (1) The "Parts That Don't Fit the Redemption Arc" section is necessary and well-handled, but the Justine Paradise allegations could use slightly more development — the contrast between the Fousey generosity and the assault allegations IS the complexity, and the piece should sit in that tension longer. (2) The Greg Paul denial/admission sequence ("I did pick you up and throw you on a couch a couple of times") is powerful but could be the opening scene instead of the Men's Health forearm — the father's self-contradicting denial IS the wound in miniature.
+-->
 
 > "I have this lurking energy of needing approval because my dad didn't give me much."
 

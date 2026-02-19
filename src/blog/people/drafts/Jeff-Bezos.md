@@ -18,7 +18,30 @@ twitter: 'JeffBezos'
 instagram: 'jeffbezos'
 tiktok: ''
 path: src/blog/people/drafts/Jeff-Bezos.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 8
+  writing: 8
+  originality: 8
+  overall: 8.0
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.0)
+Hook: 8 | Enneagram: 8 | Evidence: 8 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-18):
+- STRONG: The Ted Jorgensen bicycle shop story carries genuine emotional weight. "He didn't own a computer. He'd never heard of Amazon." A father who ran a bicycle shop for 35 years dying without reconnecting with the world's richest man — this is the signature detail that makes the piece work.
+- STRONG: The WashPost silence analyzed through Type 8→Type 5 stress is the piece's best Enneagram insight. "Type 8s under stress move toward Type 5: withdrawn, calculating, self-protective." This explains behavior that otherwise looks like hypocrisy (the man who published his blackmail attempt now stays quiet).
+- STRONG: The MacKenzie Scott contrast section is structurally clever — "Same fortune, radically different philosophies" illuminates Type 8 control-focus by showing its absence. The specific giving figures ($26.3B, 36% of net worth) make the comparison concrete.
+- STRONG: The laugh section is entertaining and reveals character. Neil Gaiman's quote, siblings refusing to see movies with him, the "complete comfort occupying space" analysis — this is the kind of detail that makes a personality profile feel alive.
+- NEEDS WORK: The QuickAnswer component at the top front-loads the thesis before the hook has a chance to work. The hook itself ("What drives someone to fund a 10,000-year clock?") is strong but buried after the component.
+- NEEDS WORK: No wings discussed. Is Bezos an 8w7 (the Maverick) or 8w9 (the Bear)? The "disagree and commit" approach and sleep prioritization suggest 8w9, but this is never explored.
+- NEEDS WORK: Some sections (stock sales, daily rituals, Gen Z advice) read as report-like lists rather than psychological analysis. The comparison table with other tech titans is useful but clinical.
+- TO REACH B+: (1) Add wing analysis — the 8w9 case (methodical patience, sleep priority, "gradatim ferociter") vs. the 8w7 case (the laugh, physical transformation, confrontational instincts) would deepen the framework. (2) Move or remove the QuickAnswer component — let the 10,000-year clock hook land first. (3) Cut the Gen Z advice section — it doesn't advance the psychological analysis. (4) Develop the Saudi hack → WashPost silence → Melania documentary thread more explicitly as a single psychological arc: the moment the Challenger learned to retreat.
+-->
 
 <QuickAnswer question="Is Jeff Bezos a narcissist or just incredibly driven?">
 Jeff Bezos displays strong Enneagram Type 8 (The Challenger) traits, not classic narcissism. His intensity comes from a deep need to build lasting systems and maintain control over his environment—a pattern that started when he dismantled his crib with a screwdriver as a toddler. Type 8s channel their energy into protecting what they care about, which explains his obsession with customer experience and century-spanning projects.

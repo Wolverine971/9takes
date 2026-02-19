@@ -19,7 +19,31 @@ twitter: 'Cobratate'
 instagram: 'cobratate'
 tiktok: ''
 path: src/blog/people/drafts/Andrew-Tate.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.1
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.1)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- "This wasn't Andrew Tate's quote. It was his father's." — the attribution twist immediately establishes the psychological core. The father who died mid-game at a chess tournament is the piece's gravitational center and it holds everything together.
+- The Islam conversion analysis is brilliant: "The Type 8 converted to a faith of submission and somehow made it about dominance. That's the pattern: everything gets absorbed into the existing power framework."
+- The mother/father contrast is the piece's most original structural observation. The man who built an empire on masculine dominance was "raised primarily by a single mother who scrubbed dishes." Eileen's quiet refusal of media and disapproval of his rhetoric adds devastating pathos.
+- The therapy session near-miss is psychologically revelatory: "If Andrew had allowed himself to stay in that moment for another few minutes, he might have broken into tears." Then: "The walls went back up immediately." This is the piece's emotional peak.
+- "Type 8s wear armor until the armor becomes the skin" — the piece's master insight.
+- The "Void He Fills" section contextualizes without excusing, handling the Tate phenomenon's cultural context (absent fathers, economic displacement) with precision.
+- "He teaches them to become dangerous when they need to learn to become whole." — one of the best lines in the collection.
+- Handles the webcam business/trafficking allegations with appropriate factual detail and does not sanitize them.
+- TO REACH A+: The "Major Accomplishments" section is a slightly awkward interruption between the deeper psychological sections. Consider weaving achievements into the narrative. The ending question ("Calculated strategy... or defense mechanism?") is good but could land harder as a statement rather than a question.
+-->
 
 > "My unmatched perspicacity, coupled with my sheer indefatigability, combine to make me a feared opponent in any realm of human endeavor."
 

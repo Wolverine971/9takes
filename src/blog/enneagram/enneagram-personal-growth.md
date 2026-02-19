@@ -11,17 +11,21 @@ published: true
 type: ['development']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'stairs-of-self-improvement'
 path: src/blog/enneagram/enneagram-personal-growth.md
 ---
 
-<!-- Midjourney Prompt: ancient greek statue climbing a mountain path, looking back at how far they've come, then looking forward toward the summit, carrying a backpack and walking stick, determined expression, sunrise lighting casting long shadows, marble white with gold accents, Unreal Engine, Cinematic, Shot on 70mm lens, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
+<!--
+Midjourney prompt:
 
-<!-- 3 step plan for personal growth
-fix this
+nine classical Greek statues ascending a spiral marble staircase carved with enneagram geometry, each figure transforming from rigid pose to open empowered stance, subtle color accents per type, dawn light breaking through clouds, cinematic neoclassical architecture, dramatic chiaroscuro, ultra-detailed stone texture, editorial composition, hopeful momentum --ar 16:9 --stylize 700
+
+Image intent:
+Show growth as a structured climb where every type evolves differently but moves toward the same upward integration.
+
+Suggested pic slug:
+enneagram-growth-spiral-ascent
 -->
-
-<!-- A Fresh Approach: Enneagram and Personal Growth -->
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

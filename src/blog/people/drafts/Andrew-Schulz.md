@@ -18,7 +18,32 @@ twitter: 'andrewschulz'
 instagram: 'andrewschulz'
 tiktok: 'andrewschulz'
 path: src/blog/people/drafts/Andrew-Schulz.md
+content_quality:
+  hook: 8.5
+  enneagram: 8
+  evidence: 8
+  writing: 8
+  originality: 7.5
+  overall: 8.0
+  letter: B
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B (8.0)
+Hook: 8.5 | Enneagram: 8 | Evidence: 8 | Writing: 8 | Originality: 7.5
+
+FEEDBACK (2026-02-18):
+- The "Infamous" special buyback story is a strong, concrete opening that reveals personality through action. Financial details ($500K day one, $1M week one, 3x Amazon's offer) give it weight.
+- "His Unusual Relationship with Insecurity" is the piece's best Enneagram section: "You need insecurity. I'm grateful for it." This genuinely shows Type 7 growth toward Type 5 integration.
+- The marriage section (rule about clearing premises with Emma, proposal story, IVF openness) effectively shows Type 7 negotiating with commitment.
+- The psychology degree observation is a smart detail: "He didn't just stumble into understanding human behavior. He studied it formally."
+- NEEDS WORK: The Rise to Fame section is heavy on career chronology and light on psychological analysis. What does the Enneagram reveal about Schulz that his own podcast doesn't?
+- NEEDS WORK: Counter-typing (why not Type 3 or Type 8) is mentioned in the TL;DR but not developed in the body. Needs a full section.
+- NEEDS WORK: The ending ("What would you build if you refused to let anyone tell you no?") is generic. The strongest line is "making sure no one can tell Andrew Schulz what he's allowed to say or who he's allowed to be" — build the ending around that.
+- NEEDS WORK: Sourcing is lighter than the best pieces — more paraphrasing, fewer direct quotes with specific attributions.
+- NEEDS WORK: The "What Andrew Schulz's Success Reveals" section is a numbered list of observations that reads like a summary, not an insight. Weave into the narrative or cut.
+- TO REACH B+: Add counter-typing section, strengthen Enneagram thread through career sections, sharper ending, cut numbered-list conclusion.
+-->
 
 <!-- // notes:  -->
 

@@ -20,7 +20,33 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Zendaya.md
+content_quality:
+  hook: 9
+  enneagram: 9.5
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9 | Writing: 8.5 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- Opening paradox is excellent: "one of the most controlled, strategic presences in Hollywood" yet "anxiety just arriving at the interview." Immediately hooks and establishes the Type 6 thesis.
+- "Weaponized worrier" persona title is one of the best in the collection — captures the paradox in two words.
+- Enneagram integration is near-flawless: Type 6 thread runs through career strategy, music pivot, fashion, relationships, racial identity, producing, and personal growth. Every section earns its connection.
+- Music pivot as "strategic withdrawal" (not failure) is a genuinely original reframe that demonstrates deep Type 6 understanding.
+- Method dressing section is inventive — "fashion as Type 6 armor" is a framework no other analysis uses.
+- The breadwinner weight section adds unexpected emotional depth: "The breadwinner doesn't get to fail casually."
+- "Hollywood's acceptable version of a Black girl" section adds sociocultural dimension rarely seen in Enneagram analyses — elevates the piece beyond personality typing.
+- Challengers/Tashi analysis is the intellectual peak: "A tragedy trying to game her way into a triumph."
+- NEEDS WORK: At 371 lines, the piece is long. The Tom Holland section, while good, could lose 20% without sacrificing insight.
+- NEEDS WORK: The ending wraps up too neatly with "That's not overcoming Type 6 tendencies. That's perfecting them." — a stronger ending might cut to the Challengers insight or the kindergarten repeat callback.
+- TO REACH A+: Tighter ending (cut the summary paragraph), trim Tom Holland section slightly, consider a callback to the opening anxiety admission for structural closure.
+-->
 
 > "I'm a control freak by nature, and I feel like if I don't have any control, I get really anxious. I need to be able to have that say."
 

@@ -18,7 +18,31 @@ twitter: 'hubermanlab'
 instagram: 'hubermanlab'
 tiktok: ''
 path: src/blog/people/drafts/Andrew-Huberman.md
+content_quality:
+  hook: 8
+  enneagram: 9
+  evidence: 9
+  writing: 8
+  originality: 8.5
+  overall: 8.5
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.5)
+Hook: 8 | Enneagram: 9 | Evidence: 9 | Writing: 8 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- The "grunting tic controlled only by learning something new and talking about it" is the piece's most revelatory detail — connects childhood neurology to adult career in a way that's genuinely illuminating.
+- Type 5 disintegration toward Type 7 applied to the scandal (scattered, seeking stimulation, compartmentalizing) is the strongest Enneagram connection. "The compartmentalization of multiple relationships reflects the tendency to keep different areas of life separated — taken to an unhealthy extreme."
+- Costello the dog section is an unexpected emotional beat that humanizes the analysis. "For someone whose public persona is built on mechanisms and protocols, this grief became a gateway."
+- Father-son podcast reconciliation framed as integration ("the observer becomes participant") is well-observed.
+- The psychedelics section as "how does a systematic mind engage with substances that dissolve control?" is a smart frame for a Type 5.
+- NEEDS WORK: Opening paragraph is dense — too many ideas crammed into one sentence (skateboarder, jail, science, protocols). Open with a single surprising scene instead.
+- NEEDS WORK: The piece feels episodic — each section is good on its own but the throughline connecting childhood → academia → scandal → reconciliation could be stronger.
+- NEEDS WORK: Ending question ("What would it mean to apply the same rigor...") is generic. The strongest line is "Investigators often understand things intellectually long before integrating them emotionally. The question is whether the integration eventually catches up." — end there.
+- TO REACH A: Sharper opening (one scene, not a paragraph), strengthen the throughline between sections, end on the "integration" line, trim Major Accomplishments to weave into narrative.
+-->
 
 > "I was probably depressed, pretty heartbroken over my home life, which at that time was empty, but I had the benefit of working with this incredibly talented therapist who started teaching me about introspection and self-care."
 

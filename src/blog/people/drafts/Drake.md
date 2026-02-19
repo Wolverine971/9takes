@@ -19,7 +19,31 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Drake.md
+content_quality:
+  hook: 8.5
+  enneagram: 9
+  evidence: 8.5
+  writing: 8.5
+  originality: 8.5
+  overall: 8.6
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.6)
+Hook: 8.5 | Enneagram: 9 | Evidence: 8.5 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-02-18):
+- "Vulnerability as strategy" is a genuinely original driving thesis that resolves the apparent paradox of a Type 3 who shows weakness. This is the piece's engine.
+- Childhood sections are compelling narrative storytelling — the basement apartment, Jewish school exclusion, and Degrassi lawyer detail are all specific and revealing.
+- The Kendrick analysis through Type 3 psychology is the intellectual peak — explains why the loss cuts so deep and why Drake can't stop fighting.
+- "Adonis Crisis" reframing ("I wasn't hiding my kid from the world, I was hiding the world from my kid") is well-analyzed as Type 3 spin.
+- The "Songs That Reveal His Psychology" section uses lyrics as evidence effectively.
+- NEEDS WORK: The FAQ section at the end (30+ lines) adds practical value but dilutes narrative momentum. Integrate the best answers into the body text.
+- NEEDS WORK: The ending wraps up ("The question isn't whether Drake will keep fighting") rather than cutting to black. The strongest ending line is actually two paragraphs earlier: "For Type 3s, public failure doesn't just hurt pride. It confirms their deepest fear."
+- NEEDS WORK: Missing collaborator/peer testimony. What do 40, J Prince, or other artists say about Drake's personality off-mic?
+- TO REACH A: Cut FAQ, sharper ending, add 2-3 private life details (what is Drake like when cameras are off?).
+-->
 
 > "Everybody has an addiction; mine happens to be success."
 

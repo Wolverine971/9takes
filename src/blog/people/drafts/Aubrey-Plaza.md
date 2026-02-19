@@ -19,7 +19,26 @@ twitter: 'None'
 instagram: 'None'
 tiktok: 'None'
 path: src/blog/people/drafts/Aubrey-Plaza.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- EXCEPTIONAL: The stroke section is a genuine "aha" moment — the thing every Six fears (total loss of control) actually happened to her at 20, and it rewired everything. This is the Enneagram as engine, not paint.
+- EXCEPTIONAL: The role-mapping is brilliant. Legion (shape-shifting mind parasite = Six nightmare of unstable reality), White Lotus (Harper running a "trust audit"), Black Bear (gaslighting = can't trust perception). Each role illuminates the type without feeling forced.
+- EXCEPTIONAL: The gorge metaphor for grief is devastating and perfectly deployed. The ending circles back to the ugly stepsister/Cinderella thread established in the childhood section — "She made the ugly stepsister funnier than Cinderella ever could have been" is a perfect close.
+- TO REACH A+: (1) The opening Qualley quote is warm but could be sharper — consider opening with the stroke scene itself (mid-sentence about a Hillary Duff concert, her arm stops being hers) for maximum hook impact. (2) The "Weaponized Awkwardness" section is strong but the MTV Movie Awards anecdote could be trimmed — it's the least revealing moment in a blog full of deeply revealing ones. (3) Wings and instinctual variants aren't discussed — even a brief mention of counterphobic 6 subtype vs. phobic would deepen the framework.
+-->
 
 <p class="firstLetter">Margaret Qualley called Aubrey Plaza "the most unanimously loved person ever."</p>
 

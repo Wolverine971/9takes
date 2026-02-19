@@ -19,7 +19,35 @@ twitter: 'AlexHormozi'
 instagram: 'hormozi'
 tiktok: 'hormozi'
 path: src/blog/people/drafts/Alex-Hormozi.md
+content_quality:
+  hook: 8
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 8.5
+  originality: 9
+  overall: 8.9
+  letter: B+
+  graded_at: '2026-02-18'
 ---
+
+<!-- QUALITY GRADE: B+ (8.9)
+Hook: 8 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 8.5 | Originality: 9
+
+FEEDBACK (2026-02-18):
+- Opening establishes the relentless pattern (3M copies, 4am, same meals) but reads slightly list-like. A single vivid scene would be stronger.
+- The Tony Robbins "duty vs. devotion" section is the intellectual peak of the entire piece and one of the best Type 3 shadow explorations in the collection. "Willpower only goes so far. Motivation is where there's something out there that you want to serve more than yourself." This section alone justifies the blog.
+- Counter-typing (not Type 8 or 1) is exceptionally well-done: "Type 8s want dominance. Alex wants to win the value game. Different scoreboard." And "Alex gets curious. What can I learn?" as the Type 3 tell. Clean, behavioral proof.
+- Iranian father's escape as Type 3 origin: "Success isn't optional. It's obligation. Your parents sacrificed everything." This connects cultural context to psychological formation beautifully.
+- "Free content as the highest form of Type 3 achievement" is a genuinely original reframe: "influence, for a Type 3, is a higher form of success than cash."
+- Frugality paradox is well-observed: "the man who built an empire on '$100M' branding doesn't live like he has $100M."
+- Controversies section is honest: trauma comments analyzed as "when you've built an identity on overcoming obstacles through mindset and action, other people's psychological pain can look like a choice." Sharp.
+- Specific financial sourcing is exceptional: $46.2M sale, 2.9M book copies, $82M launch day revenue.
+- "Passion is suffering, not happiness" etymology is a strong supporting detail.
+- NEEDS WORK: At 405 lines, the piece is long. The Skool section (~60 lines) could be compressed without losing the key insight about platform-building as legacy evolution.
+- NEEDS WORK: The ending cycles through several closing paragraphs. "The drive that makes you build empires is the same drive that makes 'enough' feel impossible" is the strongest ending line — cut the quote after.
+- NEEDS WORK: Opening hook could start with a scene (the Tony Robbins conversation, the 4am routine, the book launch day) instead of a stats list.
+- TO REACH A: Tighter opening (scene instead of stats), compress Skool section, sharper ending (cut after "enough" line).
+-->
 
 <p class="firstLetter">Alex Hormozi sold nearly 3 million copies of a book in a single day. He wakes at 4am, eats the same meals every day, and wears the same black t-shirt in every video. Most people would slow down after hitting $100 million. Hormozi, at 37, keeps accelerating.</p>
 
