@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/chappell-roan-review.md -->
+
 # Chappell-Roan Fact-Check Targets (Factual Claims Only)
 
 ## Scope

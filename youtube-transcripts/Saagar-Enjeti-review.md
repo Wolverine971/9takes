@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/Saagar-Enjeti-review.md -->
+
 # Saagar Enjeti Blog Fact Check
 
 ## High-confidence accurate (or easily supportable) claims

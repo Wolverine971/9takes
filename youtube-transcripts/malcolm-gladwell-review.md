@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/malcolm-gladwell-review.md -->
+
 # Malcolm-Gladwell Fact-Check Targets (Factual Claims Only)
 
 ## Scope

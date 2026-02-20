@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/dave-portnoy-review.md -->
+
 # Dave-Portnoy Fact-Check Targets (Factual Claims Only)
 
 ## Scope

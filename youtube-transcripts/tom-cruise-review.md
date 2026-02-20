@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/tom-cruise-review.md -->
+
 # Tom-Cruise Fact-Check Targets (Factual Claims Only)
 
 ## Scope

@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/jordan-peterson-review.md -->
+
 # Jordan-Peterson Fact-Check Targets (Factual Claims Only)
 
 ## Scope

@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/transcript-coverage-index.md -->
+
 # Transcript Coverage Index (Direct-Match Scope)
 
 ## Scope Rules

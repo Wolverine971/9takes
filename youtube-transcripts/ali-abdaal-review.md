@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/ali-abdaal-review.md -->
+
 # Ali-Abdaal Fact-Check Targets (Factual Claims Only)
 
 ## Scope

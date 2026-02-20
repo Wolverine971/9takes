@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/logan-paul-review.md -->
+
 # Logan-Paul Fact-Check Targets (Factual Claims Only)
 
 ## Scope

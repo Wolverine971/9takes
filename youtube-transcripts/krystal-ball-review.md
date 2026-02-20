@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/krystal-ball-review.md -->
+
 # Krystal-Ball Fact-Check Targets (Factual Claims Only)
 
 ## Scope

@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/keke-palmer-review.md -->
+
 # Keke-Palmer Fact-Check Targets (Factual Claims Only)
 
 ## Scope

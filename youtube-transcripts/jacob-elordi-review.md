@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/jacob-elordi-review.md -->
+
 # Jacob-Elordi Fact-Check Targets (Factual Claims Only)
 
 ## Scope

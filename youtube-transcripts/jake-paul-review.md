@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/jake-paul-review.md -->
+
 # Jake-Paul Fact-Check Targets (Factual Claims Only)
 
 ## Scope

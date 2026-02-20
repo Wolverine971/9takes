@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/jocko-willink-review.md -->
+
 # Jocko-Willink Fact-Check Targets (Factual Claims Only)
 
 ## Scope

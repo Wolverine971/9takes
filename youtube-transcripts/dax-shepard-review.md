@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/dax-shepard-review.md -->
+
 # Dax-Shepard Fact-Check Targets (Factual Claims Only)
 
 ## Scope

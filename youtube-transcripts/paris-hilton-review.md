@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/paris-hilton-review.md -->
+
 # Paris-Hilton Fact-Check Targets (Factual Claims Only)
 
 ## Scope

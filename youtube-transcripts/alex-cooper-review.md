@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/alex-cooper-review.md -->
+
 # Alex-Cooper Fact-Check Targets (Factual Claims Only)
 
 ## Scope

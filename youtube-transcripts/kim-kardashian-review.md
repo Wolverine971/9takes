@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/kim-kardashian-review.md -->
+
 # Kim-Kardashian Fact-Check Targets (Factual Claims Only)
 
 ## Scope

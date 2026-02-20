@@ -1,4 +1,5 @@
 <!-- youtube-transcripts/john-coogan-review.md -->
+
 # John-Coogan Fact-Check Targets (Factual Claims Only)
 
 ## Scope

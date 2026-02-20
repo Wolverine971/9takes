@@ -19,7 +19,29 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Pete-Davidson.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-20):
+- EXCELLENT HOOK: The tattoo removal opening ($200K, 30% done, another decade) is the signature detail — the contradiction (disappearing yet always showing up) crystallizes within 4 paragraphs.
+- CORE EMOTION EXPLORED: The gut-triad anger section recontextualizes Pete's entire history of self-destruction as buried fury. "None of it looks like anger. All of it is." The Volcano Room callback deepens both sections simultaneously.
+- STRESS/GROWTH ARROWS WOVEN NATURALLY: Nine → Six (relationship paranoia, scanning for betrayal) and Nine → Three (Pesci show, building his own world) both follow the Chappell model — contradiction first, mechanism second.
+- EXCEPTIONAL SOURCING: 5+ distinct long-form interviews. Pete's voice carries every section. Collaborator testimony from Burr and Coolidge serves as structural evidence.
+- CUT-TO-BLACK ENDING: "The man in the chair isn't erasing anymore. He's uncovering." Echoes the opening tattoo removal image and reverses it.
+- FRESH LANGUAGE: "The Furnace Beneath the Floorboards," "The daily anesthetic," "Allergic to calm," "The stranger in his own photos" replace stock Enneagram vocabulary.
+- TO REACH A+: (1) Add explicit counter-typing — why might someone argue Pete is a Type 4 or Type 6? Defend the Nine typing against the strongest alternative. (2) Deepen the instinctual variant analysis — Pete reads as social-blind (sx/sp), which explains both the relationship intensity and the withdrawal from public life. (3) Find one more signature detail at the level of the CB radios or the Volcano Room.
+-->
 
 > "I used to be a drug addict and I was a sad person, and I felt ugly and that I needed to be covered up."
 
@@ -131,16 +153,26 @@ For Nines, the path to peace often leads through paradox. They avoid conflict so
 
 The evidence for Pete as a Type 9 runs deep:
 
-- **Merging with partners**: Pete doesn't just date people; he becomes them. With Grande, he tattooed her brand onto his body. With [Kim Kardashian](/personality-analysis/Kim-Kardashian), he showed up in Skims underwear and bleached blonde hair. Jennifer Coolidge called him "one of the most unpredictable people I've ever met," adding, "You can't really get a take on him because he's like this chameleon."
-- **Self-forgetting**: "I don't belong here." "I'm garbage." "I don't want to be this f---ing loser who just dates people." And to [Theo Von](https://www.youtube.com/watch?v=EmxcNhJSvzM): "Everybody's always like, 'Oh, that guy just has an I don't give a f--- attitude.' I'm like, no, I'm miserable. I want to be that dude too. I don't even know that guy. I look at pictures and I'm like, 'Who is this guy that everybody's talking about?' It's not me."
+- **Becoming whoever he's with**: Pete doesn't just date people; he becomes them. With Grande, he tattooed her brand onto his body. With [Kim Kardashian](/personality-analysis/Kim-Kardashian), he showed up in Skims underwear and bleached blonde hair. Jennifer Coolidge called him "one of the most unpredictable people I've ever met," adding, "You can't really get a take on him because he's like this chameleon."
+- **The stranger in his own photos**: "I don't belong here." "I'm garbage." "I don't want to be this f---ing loser who just dates people." And to [Theo Von](https://www.youtube.com/watch?v=EmxcNhJSvzM): "Everybody's always like, 'Oh, that guy just has an I don't give a f--- attitude.' I'm like, no, I'm miserable. I want to be that dude too. I don't even know that guy. I look at pictures and I'm like, 'Who is this guy that everybody's talking about?' It's not me."
 - **People-pleasing as survival**: "It was like 25 years of people-pleasing and that's why I live," he told [Theo Von](https://www.youtube.com/watch?v=EmxcNhJSvzM). "We're people pleasers. 'Laugh at me, please.' Watch my movie. When I go outside, take a picture."
-- **Numbing**: Daily marijuana use from age 16 to 23 that eventually caused psychosis. Ketamine every day for four years. "Why would you not do it every day?" he told [Maron](https://www.youtube.com/watch?v=-M34WZSZA_M). "Why not?"
-- **Fear of happiness**: "I'm so afraid to be happy. Because it's uncomfortable," Pete told [Theo Von](https://www.youtube.com/watch?v=EmxcNhJSvzM). And to [Bernthal](https://www.youtube.com/watch?v=NxI92Mxpb1s): "It's weird being happy. I was at home the other day, and I was talking to my girl and my friends, and I was like, 'I feel weird. Like something's wrong.' And they're like, 'What?' I'm like, 'Nothing's wrong.'" He described crying on the floor of his new apartment because he couldn't get the TV to work: "I have everything and nothing. I have everything and nothing. And that's what it's like."
+- **The daily anesthetic**: Daily marijuana use from age 16 to 23 that eventually caused psychosis. Ketamine every day for four years. "Why would you not do it every day?" he told [Maron](https://www.youtube.com/watch?v=-M34WZSZA_M). "Why not?"
+- **Allergic to calm**: "I'm so afraid to be happy. Because it's uncomfortable," Pete told [Theo Von](https://www.youtube.com/watch?v=EmxcNhJSvzM). And to [Bernthal](https://www.youtube.com/watch?v=NxI92Mxpb1s): "It's weird being happy. I was at home the other day, and I was talking to my girl and my friends, and I was like, 'I feel weird. Like something's wrong.' And they're like, 'What?' I'm like, 'Nothing's wrong.'" He described crying on the floor of his new apartment because he couldn't get the TV to work: "I have everything and nothing. I have everything and nothing. And that's what it's like."
 - **The desire for peace**: His text to [Kanye](/personality-analysis/Kanye) during the Kardashian drama: "I want everything to be smooth." His decision to step back from Hollywood entirely: "I'm happy where I am right now, mentally."
 
-### The 9w8: When the Peacemaker Snaps
+But the peacekeeping misses something.
 
-Pete is specifically a Nine with an Eight wing, the subtype sometimes called "The Referee." This wing gives him an edge that pure Nines don't always have. It explains why his comedy can turn sharp, why Bill Burr considered him "a peer" rather than a pushover, and why the Kanye West conflict became the most revealing public episode of Pete's personality.
+Nines sit in the Enneagram's gut triad — the same triad as Eights and Ones. Their shared currency is anger. Eights weaponize it. Ones channel it into moral standards. Nines fall asleep to it.
+
+The anger doesn't disappear. It loses its address.
+
+Look at Pete's history through this lens. The pool at eight. The hair-pulling until he was bald. The cutting that continued for two decades. The head-banging against walls. None of it looks like anger. All of it is. When a seven-year-old can't direct fury at God or al-Qaeda or the universe that swallowed his father, the fury turns inward and wears the costume of self-destruction.
+
+Remember the Volcano Room at America's Camp? A room full of punching bags, "sold out till Thursday." Two hundred grieving children, and the most popular activity was breaking things. Anger was the main event. It just needed permission to come out.
+
+### The 9w8: The Furnace Beneath the Floorboards
+
+Pete is specifically a Nine with an Eight wing. That wing gives him an edge that pure Nines don't always have — it explains why his comedy can turn sharp, why Bill Burr considered him "a peer" rather than a pushover, and why the Kanye West conflict became the most revealing public episode of Pete's personality.
 
 Before Kanye, the Eight wing had already surfaced in private. Pete told [Maron in 2017](https://www.youtube.com/watch?v=-M34WZSZA_M) about the blind rages that led to his BPD diagnosis, episodes where he would "freak out. Like, rage. Rage. Like stuff. And then not remember what happened after." His girlfriend at the time told him, "Something, you snapped." He described coming to after these episodes the way someone describes waking from a blackout, piecing things together from broken objects and fog.
 
@@ -177,6 +209,8 @@ Pete could name the psychology behind it with clinical precision. He told [Theo 
 He described calling bluffs, pushing people away to test whether they'd leave. "Anybody that's ever loved me or cared about me has gotten the worst wrath from me."
 
 On [_WTF_](https://www.youtube.com/watch?v=-M34WZSZA_M), he described the manipulative conversational loops: engineering conversations to get specific reassurances, then disbelieving those reassurances, creating exhausting cycles for partners. "You don't love me." "Of course I do." "No, I know something's up." And when they finally broke down: "Okay, I see. I knew it."
+
+The Enneagram maps this spiral. When Nines lose their footing, they swing toward the anxiety and suspicion of Type Six. The man whose default is "OK, cool" becomes the person who can't stop scanning for betrayal. Pete described it himself: engineer a reassurance, disbelieve it, treat the breakdown as proof. It's the opposite of the Nine's natural state — instead of falling asleep to the threat, he couldn't stop seeing threats everywhere.
 
 Then came the cultural moment he never wanted. In 2018, a comment from Grande about Pete's anatomy went viral as "Big Dick Energy," a meme that consumed the internet and reduced him to a punchline. "No one talked about any work I was doing," he said. "That hurt so much."
 
@@ -290,20 +324,20 @@ Pesci read the material, agreed to a meeting, and signed on. Pete told [Bernthal
 
 It's the first project Pete has been proud of. "I've never said this about anything I've ever been in," he told Bernthal, "but this one, it's the first time I've ever been like, 'Yo, you see that?'" He described the set as egoless, "best joke wins, best take wins, whoever's idea is best wins," staffed entirely with friends. A man who spent his career calling himself garbage finally made something he doesn't want to apologize for.
 
+There's a version of Pete Davidson that never gets here. The version that keeps drifting, keeps absorbing other people's gravity, keeps asking to be fired from his own life. What changed wasn't just sobriety or therapy — it was direction. He co-wrote the show. He fought for Pesci. He built a set where the best idea wins. For the first time, Pete wasn't orbiting someone else's world. He was building his own and standing behind it.
+
+In Enneagram terms, this is what happens when a Nine wakes up — they move toward the focused, purposeful energy of a healthy Three. Not the shapeshifter chasing validation, but the person who discovers what they actually want and goes after it. Pete probably wouldn't use that language. He'd just say he finally got tired of being sick of himself.
+
 He's off social media entirely. "We live in a doom scrolling world where we're all trying to be what we think people want us to be," he told Variety, "and that's not a healthy way to live." He moved to a quieter life outside New York. He told W Magazine: "I just want to be known for doing good work. I want to be out there only when it's movie, stand-up, charity, or business ventures. That's when I want to be seen."
 
 On The Breakfast Club in 2025, Pete said he hopes that in 20 years, people will view his journey like Robert Downey Jr.'s, someone remembered for turning their life around. He admitted there were moments when the "expected headline" would have been his overdose.
 
 Instead, he surprised everyone. Including himself.
 
-## What Pete Davidson Teaches Us About Inner Peace
-
-Pete Davidson started getting tattoos to cover scars from cutting. Now he's spending a decade removing them. That journey, from hiding pain under ink to choosing the slow, expensive, painful process of uncovering what's underneath, is the most literal metaphor for psychological growth you'll find.
-
-He stopped merging with whoever he was dating. He stopped numbing himself into someone easier to be. He stopped letting the loudest voice in the room, whether Kanye West or the internet or the voice in his own head, define who he was.
+Pete Davidson is still removing his tattoos. Thirty percent done. Another decade to go.
 
 "There's no way to win the thing where everybody likes you," he told [Theo Von](https://www.youtube.com/watch?v=EmxcNhJSvzM). "It's all a trap. And they can smell it on you."
 
-Remember that goal he told Marc Maron in 2017? To be okay? He's closer than he's ever been.
+The man in the chair isn't erasing anymore. He's uncovering.
 
 > **Disclaimer** This analysis of Pete Davidson's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Pete.
