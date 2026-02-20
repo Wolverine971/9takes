@@ -17,7 +17,28 @@ twitter: 'SabrinaAnnLynn'
 instagram: 'sabrinacarpenter'
 tiktok: 'sabrinacarpenter'
 path: src/blog/people/drafts/Sabrina-Carpenter.md
+content_quality:
+  hook: 7.5
+  enneagram: 8
+  evidence: 8.5
+  writing: 8
+  originality: 8
+  overall: 8.0
+  letter: B
+  graded_at: '2026-02-19'
 ---
+
+<!-- QUALITY GRADE: B (8.0)
+Hook: 7.5 | Enneagram: 8 | Evidence: 8.5 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-19):
+- STRENGTH: The "Humor as the Control Room" section is the best in the piece — "the joke sets the terms" is a genuinely original lens on Type 3 psychology, and the Antonoff quote ("says something incredibly profound and then chucks it away with a joke") makes it land. The tour "arrest" routine as "manufactured intimacy" is fresh framing.
+- STRENGTH: Evidence is robust — three collaborator voices (Jones, Bunetta, Antonoff), multi-source subject quotes, specific financials, and the White House TikTok controversy adds rare recent-event depth.
+- STRENGTH: Several lines punch above their weight: "Creativity wasn't encouraged. It was assumed." / "Don't defend. Produce. Let the work answer for you." / "The public gets the art. The person behind it stays hers."
+- NEEDS WORK: The hook opens with an achievement cascade, not a scene. The Beatles stat is impressive but doesn't create a *question* the reader needs answered. Lead with a specific moment — the ghost-town creperie where she wrote "Espresso" on champagne during a 10-day break, or the Madison Square Garden pause ("Should we talk about how I got the mayor indicted?"). Those are hooks.
+- NEEDS WORK: Core emotion of shame (heart triad) is barely touched. Type 3s are driven by shame — the fear of being worthless without achievement. The "really, really low point" quote gestures at it but never sits inside the feeling. What does it feel like to be Sabrina Carpenter on a Tuesday when the charts aren't moving? That's the emotional scene this blog is missing.
+- TO REACH B+: (1) Rewrite hook — open with a specific scene (ghost town creperie or MSG mayor quip), not stats. (2) Add one emotionally immersive paragraph exploring the shame underneath the achievement engine — use the 2022 low point as the anchor. (3) Address stress/growth arrows explicitly: Type 3 disintegrates toward 9 (numbing out, losing drive) and integrates toward 6 (loyalty, collaboration over competition). The Taylor Swift mentorship and charity work could illustrate the 6 arrow. (4) Invent fresh vocabulary for her Type 3 pattern — "the comedy machine," "the wink economy," something person-specific instead of "classic Type 3" and "pure Type 3 wiring." (5) Cut the disclaimer at the end — it undercuts the strong final line.
+-->
 
 > "I'm that kind of girl that will work until they physically pull me off set or out of the studio... I always want the best of what I can offer, and I think that's a blessing and a curse."
 

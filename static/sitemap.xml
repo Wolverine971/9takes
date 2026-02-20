@@ -1733,15 +1733,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Lex-Fridman</loc>
-    <lastmod>2025-05-02T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/5s/Lex-Fridman.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Rooney-Mara</loc>
     <lastmod>2025-05-25T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1838,15 +1829,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/6s/Tom-Hanks.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Billie-Eilish</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Billie-Eilish.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2156,15 +2138,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Sam-Altman</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Sam-Altman.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Shane-Gillis</loc>
     <lastmod>2025-12-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2444,24 +2417,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Tim-Ferriss</loc>
-    <lastmod>2026-01-23T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/5s/Tim-Ferriss.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Vladimir-Putin</loc>
-    <lastmod>2026-01-23T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Vladimir-Putin.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Xi-Jinping</loc>
     <lastmod>2026-01-23T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2552,30 +2507,12 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Mr-Beast</loc>
-    <lastmod>2026-01-29T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Mr-Beast.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Scarlett-Johansson</loc>
     <lastmod>2026-01-29T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Scarlett-Johansson.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Sydney-Sweeney</loc>
-    <lastmod>2026-01-29T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Sydney-Sweeney.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2957,15 +2894,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Paris-Hilton</loc>
-    <lastmod>2026-02-18T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Paris-Hilton.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Taylor-Swift</loc>
     <lastmod>2026-02-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2990,6 +2918,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Alex-Hormozi.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Billie-Eilish</loc>
+    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Billie-Eilish.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -3101,6 +3038,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Lex-Fridman</loc>
+    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/Lex-Fridman.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Madison-Beer</loc>
     <lastmod>2026-02-19T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3137,6 +3083,24 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Mr-Beast</loc>
+    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Mr-Beast.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Paris-Hilton</loc>
+    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Paris-Hilton.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Pokimane</loc>
     <lastmod>2026-02-19T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3146,12 +3110,48 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Sam-Altman</loc>
+    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Sam-Altman.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Sydney-Sweeney</loc>
+    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Sydney-Sweeney.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Tim-Ferriss</loc>
+    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/Tim-Ferriss.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Tony-Robbins</loc>
     <lastmod>2026-02-19T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Tony-Robbins.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Vladimir-Putin</loc>
+    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Vladimir-Putin.webp</image:loc>
     </image:image>
 </url>
 <url>

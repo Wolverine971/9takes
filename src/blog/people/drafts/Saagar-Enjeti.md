@@ -32,7 +32,7 @@ path: src/blog/people/drafts/Saagar-Enjeti.md
 
 > "9/11 changed my entire life. Reckoning with those changes even 20 years on is difficult."
 
-<p class="firstLetter">Saagar Enjeti brought a two-volume Hitler biography as a gift to a podcast interview. Not a bottle of wine. Not a signed book from his own collection. A 2,000-page historical analysis of fascism by Ian Kershaw — handed to <a href="/personality-analysis/Lex-Fridman">Lex Fridman</a> with the energy of someone who just discovered buried treasure and physically cannot keep it to himself.</p>
+<p class="firstLetter">Saagar Enjeti brought the second volume of Ian Kershaw's two-volume Hitler biography as a gift to a podcast interview. Not a bottle of wine. Not a signed book from his own collection. A doorstop historical analysis of fascism — handed to <a href="/personality-analysis/Lex-Fridman">Lex Fridman</a> with the energy of someone who just discovered buried treasure and physically cannot keep it to himself.</p>
 
 That gesture tells you more about Saagar Enjeti than a thousand policy monologues. A man who guards his knowledge brings nothing. A man who can't contain his excitement about what he's found brings the heaviest book he owns.
 
@@ -58,7 +58,7 @@ They're wrong. What they're actually watching is a man who cannot stop consuming
 
 Saagar was born in 1992 in College Station, Texas — home of Texas A&M, deep in George W. Bush country. His parents, Dr. Prasad Enjeti and Dr. Radhika Viruru, are Telugu immigrants from India, both professors at the university. An academic household where books weren't entertainment. They were the infrastructure of daily life.
 
-He attended the American School of Doha in Qatar before returning to the States — early exposure to a world outside American borders. Then came the morning that rewired everything.
+He has said he spent his last year of high school at the American School of Doha in Qatar — early exposure to a world outside American borders. Then came the morning that rewired everything.
 
 September 11, 2001. He was nine.
 
@@ -94,9 +94,9 @@ The pattern isn't depth. It's velocity. Each subject consumed completely, shared
 "Every vacation I was able to take in 2020 I went West and tried to spend as much of it outside as possible."
 </div>
 
-And here's the detail that cracks it open: he doesn't just read about explorers. He goes to the landscapes. He and his now-wife Jill McGrath got engaged while exploring historical sites together — the Parthenon Replica, Moab, Utah. "When all four of your grandparents are still alive, you bring the wedding to them no matter where they are," he wrote about their ceremony in India. They married in July 2023, with celebrations on two continents.
+And here's the detail that cracks it open: he doesn't just read about explorers. He goes to the landscapes. He has written about traveling through places like Moab, and he and Jill McGrath married in July 2023, with ceremonies in India and Rhode Island.
 
-A man who reads for safety stays in the chair. A man who reads because he's hungry goes to Moab.
+A man who reads for safety stays in the chair. A man who reads because he's hungry goes to the landscape itself.
 
 ---
 
@@ -108,16 +108,16 @@ The core of a [Type 7](/enneagram-corner/enneagram-type-7) is the fear of being 
 
 Saagar's childhood wound maps this precisely. The world showed him it was dangerous before he turned ten. His temple needed guards. His government lied. People on his street went to die for those lies. The Seven's response to that kind of fear isn't to hide. It's to outrun it. To know more than anyone else. To experience more than anyone else. To see through every lie before it lands.
 
-"I'm fascinated by human beings who seek power and how power changes them," he told Lex Fridman. The word is _fascinated_ — not "concerned about" or "monitoring." Fascination is the Seven's emotional signature. Engagement dressed as analysis.
+Lex Fridman framed him this way: someone fascinated by how power works and what it does to people. Fascination — not detachment — is the through-line.
 
-**The [6 wing](/enneagram-corner/enneagram-type-6)** adds the threat detector. The counter-terrorism certificate from Israel. The Security Studies degree from Georgetown. The pattern of investigating dangers — not just understanding them, but _crusading_ against them. The 6 wing is why Saagar's enthusiasm always carries an edge of vigilance. He's not just excited about the next idea. He's scanning for what's wrong with the current system.
+**The [6 wing](/enneagram-corner/enneagram-type-6)** adds the threat detector. The security-policy graduate degree from Georgetown. The think tank and national-security reporting track. The pattern of investigating dangers — not just understanding them, but _crusading_ against them. The 6 wing is why Saagar's enthusiasm always carries an edge of vigilance. He's not just excited about the next idea. He's scanning for what's wrong with the current system.
 
 This 7w6 combination creates someone who is simultaneously drawn to every new domain and deeply suspicious of every institution. The enthusiasm and the skepticism aren't contradictions. They're the same engine — a mind that runs hot in both directions because sitting still feels like surrender.
 
 <div class="aside-box">
 <div class="aside-box__title">Why Everyone Thinks He's a Five</div>
 <p>People mistype Saagar because they confuse the behavior with the motivation. Yes, he reads voraciously. Yes, he has deep expertise. But look at <i>how</i> he reads: broadly, serially, obsessively — across dozens of domains — and then <b>shares it all publicly</b>. He gives books away at podcasts. He publishes reading lists for his audience. He can't wait to tell you about what he just found.</p>
-<p>Type 5s conserve energy. Saagar burns it — multiple shows, constant content, forty countries by his mid-twenties. Type 5s narrow their focus. Saagar broadens his every quarter. Type 5s detach from emotional engagement. Saagar rages on camera about sports betting.</p>
+<p>Type 5s conserve energy. Saagar burns it — multiple shows, constant content, and a pace that keeps expanding. Type 5s narrow their focus. Saagar broadens his every quarter. Type 5s detach from emotional engagement. Saagar rages on camera about sports betting.</p>
 <p>The deep-research mode people see is actually his <b>growth arrow</b>. When healthy, Sevens access Five's capacity for focused depth. The careful policy breakdowns, the four-hour Lex Fridman conversations, the patient historical analysis — that's a Seven at his best. The core Saagar is the one who can't sit still.</p>
 </div>
 
@@ -164,7 +164,7 @@ So he left. Then The Hill's Rising had corporate ownership. So he and Krystal Ba
 
 "There are a lot of people out there who can see through the BS too," he explained, "and they were really hungry for somebody quote unquote on the inside to tell them that the system is bullshit."
 
-The result: #1 political podcast within one week. One million YouTube subscribers by 2023. The 28th-most popular podcast on YouTube by July 2025.
+The result: Breaking Points quickly became one of the most prominent independent political podcasts and crossed one million YouTube subscribers by 2023.
 
 "I just cover whatever I want."
 
@@ -176,13 +176,13 @@ Seven words that explain an entire career.
 
 Here's where the Five mistype collapses entirely. A Five observes systems from a safe distance. Saagar goes to war with them.
 
-The sports betting crusade: he argued that legalized mobile gambling is the next opioid crisis. That sportsbooks prey on problem gamblers who make up 3% of users but generate nearly 50% of revenue. That household bankruptcies spiked up to 30% in states with legalized mobile betting. That domestic violence surged after lost bets.
+The sports betting crusade: he argues that legalized mobile gambling is the next opioid crisis. Connecticut's state impact study found that problem gamblers (about 1.8% of residents) accounted for roughly half of sportsbook revenue. Separate U.S. research has linked online sports betting legalization with higher debt distress and bankruptcy filings, and another working paper found larger spikes in intimate partner violence after upset NFL losses in states with legal online sportsbooks.
 
-"It enrages me. It _actually_ enrages me."
+On institutional cover-ups more broadly, he put it plainly: "It enrages me. It _actually_ enrages me."
 
 He filmed a 3,000-word monologue. One take. Then tweeted: "After I take on sports betting I'll come for..." — the ellipsis promising another front, another fight, the next crusade already loading.
 
-Then came marijuana. "High-potency marijuana is lobotomizing the American people." He called cannabis companies worse than Big Tobacco. One publication called his anti-cannabis stance "slightly absurd." It didn't slow him down.
+Then came marijuana. "High-potency marijuana is lobotomizing the American people." He called cannabis companies worse than Big Tobacco. Critics called his anti-cannabis stance "slightly absurd." It didn't slow him down.
 
 Then Epstein. Then the CIA cover-up. Then whatever's next. The man has more active crusades than most media operations have shows.
 
