@@ -2,12 +2,22 @@
 <script lang="ts">
 	import '../app.scss';
 	import { browser, dev } from '$app/environment';
+	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
-	import { onMount } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
 	import type { PageData } from './$types';
+	import {
+		ANALYTICS_ACTIVITY_WINDOW_MS,
+		ANALYTICS_MAX_DELTA_MS,
+		ANALYTICS_PING_INTERVAL_MS,
+		ANALYTICS_SESSION_TIMEOUT_MS,
+		classifyPath,
+		normalizePath,
+		shouldTrackPath
+	} from '$lib/analytics/pageAnalytics';
 	import { webVitals } from '$lib/vitals';
 	import { preparePageTransition } from '$lib/page-transition';
-	import { setCookie } from '../utils/cookies';
+	import { getCookie, setCookie } from '../utils/cookies';
 
 	// Components
 	import Header from '$lib/components/molecules/Header.svelte';
@@ -23,6 +33,9 @@
 	const VERCEL_ANALYTICS_ID = import.meta.env.VERCEL_ANALYTICS_ID;
 	const PUBLIC_GOOGLE = import.meta.env.PUBLIC_GOOGLE;
 	const MAX_WIDTH_PAGES = ['/', '/content-board'];
+	const ANALYTICS_SESSION_STORAGE_KEY = '9t_analytics_session_key';
+	const ANALYTICS_SESSION_LAST_SEEN_STORAGE_KEY = '9t_analytics_session_last_seen';
+	const ANALYTICS_FALLBACK_FINGERPRINT_STORAGE_KEY = '9t_analytics_fallback_fingerprint';
 
 	let innerWidth = 0;
 	let isMobile = false;
@@ -43,6 +56,16 @@
 	let touchStartX = 0;
 	let touchEndX = 0;
 
+	// In-house page analytics state
+	let analyticsInitialized = false;
+	let analyticsSessionKey: string | null = null;
+	let analyticsVisitKey: string | null = null;
+	let analyticsVisitEnded = false;
+	let analyticsMaxScrollPct = 0;
+	let analyticsLastActivityAt = 0;
+	let analyticsLastFlushAt = 0;
+	let analyticsPingTimer: ReturnType<typeof setInterval> | null = null;
+
 	// Type for category structure passed to CategoryNavigation
 	interface CategoryStep {
 		id: number;
@@ -51,6 +74,267 @@
 	}
 
 	preparePageTransition();
+
+	function createUuid(): string {
+		if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+			return crypto.randomUUID();
+		}
+		return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+	}
+
+	function setAnalyticsSessionLastSeen(now: number) {
+		try {
+			sessionStorage.setItem(ANALYTICS_SESSION_LAST_SEEN_STORAGE_KEY, String(now));
+		} catch {
+			// Ignore sessionStorage errors
+		}
+	}
+
+	function getOrCreateAnalyticsSessionKey(): string {
+		const now = Date.now();
+		try {
+			const existingKey = sessionStorage.getItem(ANALYTICS_SESSION_STORAGE_KEY);
+			const lastSeenRaw = sessionStorage.getItem(ANALYTICS_SESSION_LAST_SEEN_STORAGE_KEY);
+			const lastSeen = lastSeenRaw ? Number(lastSeenRaw) : 0;
+			const expired =
+				!lastSeen || Number.isNaN(lastSeen) || now - lastSeen > ANALYTICS_SESSION_TIMEOUT_MS;
+
+			const sessionKey = !existingKey || expired ? createUuid() : existingKey;
+			sessionStorage.setItem(ANALYTICS_SESSION_STORAGE_KEY, sessionKey);
+			setAnalyticsSessionLastSeen(now);
+			return sessionKey;
+		} catch {
+			// Fallback for environments where sessionStorage fails
+			return createUuid();
+		}
+	}
+
+	function getAnalyticsFingerprint(): string {
+		const existingFingerprint = getCookie('9tfingerprint');
+		if (existingFingerprint) {
+			return existingFingerprint;
+		}
+
+		try {
+			const fallback = localStorage.getItem(ANALYTICS_FALLBACK_FINGERPRINT_STORAGE_KEY);
+			if (fallback) {
+				return fallback;
+			}
+		} catch {
+			// Ignore localStorage errors
+		}
+
+		const generatedFallback = `anon-${createUuid()}`;
+		try {
+			localStorage.setItem(ANALYTICS_FALLBACK_FINGERPRINT_STORAGE_KEY, generatedFallback);
+		} catch {
+			// Ignore localStorage errors
+		}
+		return generatedFallback;
+	}
+
+	function markAnalyticsActivity() {
+		analyticsLastActivityAt = Date.now();
+	}
+
+	function updateAnalyticsScrollProgress() {
+		if (!browser) return;
+		const doc = document.documentElement;
+		const scrollTop = window.scrollY || doc.scrollTop || 0;
+		const scrollHeight = Math.max(doc.scrollHeight, document.body?.scrollHeight ?? 0);
+		const maxScrollable = Math.max(scrollHeight - window.innerHeight, 1);
+		const pct = Math.max(0, Math.min(100, Math.round((scrollTop / maxScrollable) * 100)));
+		analyticsMaxScrollPct = Math.max(analyticsMaxScrollPct, pct);
+		markAnalyticsActivity();
+	}
+
+	function getReferrerHost(): string | null {
+		if (!browser || !document.referrer) return null;
+		try {
+			return new URL(document.referrer).host;
+		} catch {
+			return null;
+		}
+	}
+
+	function getEngagedDelta(now: number, allowHidden = false): number {
+		if (!analyticsLastFlushAt) {
+			analyticsLastFlushAt = now;
+			return 0;
+		}
+
+		const elapsed = Math.max(0, now - analyticsLastFlushAt);
+		analyticsLastFlushAt = now;
+
+		if (elapsed <= 0) return 0;
+
+		const recentlyActive = now - analyticsLastActivityAt <= ANALYTICS_ACTIVITY_WINDOW_MS;
+		const visible = allowHidden ? true : !document.hidden;
+		if (!visible || !recentlyActive) return 0;
+
+		return Math.min(elapsed, ANALYTICS_MAX_DELTA_MS);
+	}
+
+	async function sendAnalyticsEvent(
+		endpoint: string,
+		payload: Record<string, unknown>,
+		useBeacon = false
+	): Promise<boolean> {
+		if (!browser) return false;
+
+		if (useBeacon && navigator.sendBeacon) {
+			try {
+				const body = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+				return navigator.sendBeacon(endpoint, body);
+			} catch {
+				// Fall through to fetch
+			}
+		}
+
+		try {
+			await fetch(endpoint, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify(payload),
+				keepalive: useBeacon
+			});
+			return true;
+		} catch {
+			return false;
+		}
+	}
+
+	async function startAnalyticsVisit(pathname: string, routeId: string | null) {
+		if (!browser || dev) return;
+
+		const normalizedPath = normalizePath(pathname);
+		if (!shouldTrackPath(normalizedPath)) {
+			analyticsVisitKey = null;
+			analyticsVisitEnded = true;
+			return;
+		}
+
+		analyticsSessionKey = getOrCreateAnalyticsSessionKey();
+		analyticsVisitKey = createUuid();
+		analyticsVisitEnded = false;
+		analyticsMaxScrollPct = 0;
+		analyticsLastActivityAt = Date.now();
+		analyticsLastFlushAt = analyticsLastActivityAt;
+
+		const classified = classifyPath(normalizedPath, routeId);
+		const payload = {
+			visit_key: analyticsVisitKey,
+			session_key: analyticsSessionKey,
+			fingerprint: getAnalyticsFingerprint(),
+			path: classified.path,
+			route_id: classified.routeId,
+			path_group: classified.pathGroup,
+			content_type: classified.contentType,
+			content_slug: classified.contentSlug,
+			referrer_host: getReferrerHost()
+		};
+
+		await sendAnalyticsEvent('/api/analytics/page-view', payload);
+	}
+
+	async function flushAnalyticsPing() {
+		if (!analyticsVisitKey || analyticsVisitEnded) return;
+
+		const now = Date.now();
+		const engagedDelta = getEngagedDelta(now, false);
+		if (engagedDelta <= 0 && analyticsMaxScrollPct <= 0) return;
+
+		setAnalyticsSessionLastSeen(now);
+		await sendAnalyticsEvent('/api/analytics/page-ping', {
+			visit_key: analyticsVisitKey,
+			engaged_ms_delta: engagedDelta,
+			max_scroll_pct: analyticsMaxScrollPct
+		});
+	}
+
+	async function endAnalyticsVisit(isExit: boolean, useBeacon: boolean) {
+		if (!analyticsVisitKey || analyticsVisitEnded) return;
+
+		const visitKey = analyticsVisitKey;
+		analyticsVisitEnded = true;
+		const now = Date.now();
+		const engagedDelta = getEngagedDelta(now, true);
+		setAnalyticsSessionLastSeen(now);
+
+		const payload = {
+			visit_key: visitKey,
+			engaged_ms_delta: engagedDelta,
+			max_scroll_pct: analyticsMaxScrollPct,
+			ended_at: new Date().toISOString(),
+			is_exit: isExit
+		};
+
+		await sendAnalyticsEvent('/api/analytics/page-exit', payload, useBeacon);
+
+		if (!isExit) {
+			analyticsVisitKey = null;
+		}
+	}
+
+	function initializePageAnalytics() {
+		if (!browser || dev || analyticsInitialized) return;
+		analyticsInitialized = true;
+
+		window.addEventListener('pointerdown', markAnalyticsActivity, { passive: true });
+		window.addEventListener('keydown', markAnalyticsActivity);
+		window.addEventListener('scroll', updateAnalyticsScrollProgress, { passive: true });
+		document.addEventListener('visibilitychange', handleVisibilityChange);
+		window.addEventListener('pagehide', handlePageHide);
+		window.addEventListener('beforeunload', handleBeforeUnload);
+
+		analyticsPingTimer = setInterval(() => {
+			void flushAnalyticsPing();
+		}, ANALYTICS_PING_INTERVAL_MS);
+
+		afterNavigate((navigation) => {
+			const nextPath = navigation.to?.url?.pathname ?? $page.url.pathname;
+			const nextRouteId = navigation.to?.route?.id ?? null;
+			void (async () => {
+				if (analyticsVisitKey && !analyticsVisitEnded) {
+					await endAnalyticsVisit(false, false);
+				}
+				await startAnalyticsVisit(nextPath, nextRouteId);
+			})();
+		});
+	}
+
+	function destroyPageAnalytics() {
+		if (!browser || !analyticsInitialized) return;
+
+		window.removeEventListener('pointerdown', markAnalyticsActivity);
+		window.removeEventListener('keydown', markAnalyticsActivity);
+		window.removeEventListener('scroll', updateAnalyticsScrollProgress);
+		document.removeEventListener('visibilitychange', handleVisibilityChange);
+		window.removeEventListener('pagehide', handlePageHide);
+		window.removeEventListener('beforeunload', handleBeforeUnload);
+
+		if (analyticsPingTimer) {
+			clearInterval(analyticsPingTimer);
+			analyticsPingTimer = null;
+		}
+	}
+
+	function handleVisibilityChange() {
+		if (document.hidden) {
+			void flushAnalyticsPing();
+			return;
+		}
+		markAnalyticsActivity();
+		analyticsLastFlushAt = Date.now();
+	}
+
+	function handlePageHide() {
+		void endAnalyticsVisit(true, true);
+	}
+
+	function handleBeforeUnload() {
+		void endAnalyticsVisit(true, true);
+	}
 
 	// Function to update all page-dependent values
 	function updatePageDerivedValues() {
@@ -190,8 +474,14 @@
 
 		// Update mobile status based on window width
 		updateMobileStatus();
+		initializePageAnalytics();
 
 		// 9takes initialized
+	});
+
+	onDestroy(() => {
+		destroyPageAnalytics();
+		void endAnalyticsVisit(true, false);
 	});
 
 	// Update mobile status when window resizes

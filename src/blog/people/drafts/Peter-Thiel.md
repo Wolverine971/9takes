@@ -19,7 +19,28 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Peter-Thiel.md
+content_quality:
+  hook: 10
+  enneagram: 10
+  evidence: 9
+  writing: 9.5
+  originality: 10
+  overall: 9.7
+  letter: A+
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: A+ (9.7)
+Hook: 10 | Enneagram: 10 | Evidence: 9 | Writing: 9.5 | Originality: 10
+
+FEEDBACK (2026-02-20):
+- PERFECT HOOK: The parachute after 9/11 — sourced to Joe Lonsdale on My First Million — is the single best opening detail in the entire collection. "A man motivated by power buys influence. A man motivated by fear buys a parachute." One image, one thesis, complete.
+- GOLD STANDARD ENNEAGRAM ENGINE: The self-fulfilling prophecy thesis (Sixes "bring about what they fear" → Palantir) is the most sophisticated Enneagram analysis in any blog. Backed by three authoritative sources (Riso/Hudson, Chestnut, Naranjo). Counter-phobic behavior is addressed (RNC gay declaration, Trump backing). The Antichrist lectures reframed as fear processing rather than power play is genuinely brilliant. Every section is DRIVEN by the type — you cannot remove the Six framework without the analysis collapsing.
+- EXCEPTIONAL ORIGINALITY: The Tolkien naming thread (Palantir, Valar, Mithril, Rivendell One, "The Shire," "The Precious") compiled together reveals a pattern no one else has mapped. The Demis Hassabis chess pitch detail. The Monopoly spite-move story. The Supreme Court clerkship rejection as liberation. "Death happens to all animals" from the father, framing the entire life. Each of these is a signature detail; the piece has half a dozen.
+- MASTERFUL WRITING: "Nine years of silence. Ten million dollars." The Gawker section is perfectly paced. The ending — "Not a villain. Not a hero. A Six, doing what Sixes do." — cuts to black at peak insight with no summary, no CTA. Visual rhythm is excellent throughout. Bold/italics guide the eye naturally. The Palantir paradox section builds intellectual tension like a thriller.
+- MINOR: The evidence score is 9 rather than 10 because some quotes are attributed to secondary sources (biographer Chafkin, Ryan Holiday) rather than Thiel directly. More of Thiel's own voice could be present — he's heard through actions and through others' observations more than through his own words, which fits his secretive nature but means the "person's voice is HEARD" criterion isn't fully met.
+- ESSENTIALLY PUBLICATION-READY: This blog needs no structural changes. It is the calibration anchor for A+ quality.
+-->
 
 > "Man, I feel I am an extreme opposite of a nihilist. I believe in ideas. Maybe I believe in ideas too much."
 

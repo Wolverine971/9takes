@@ -18,7 +18,32 @@ twitter: 'https://twitter.com/Oprah'
 instagram: 'https://www.instagram.com/oprah/'
 tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 path: src/blog/people/drafts/Oprah-Winfrey.md
+content_quality:
+  hook: 7
+  enneagram: 7
+  evidence: 7
+  writing: 7
+  originality: 7
+  overall: 7.0
+  letter: C
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: C (7.0)
+Hook: 7 | Enneagram: 7 | Evidence: 7 | Writing: 7 | Originality: 7
+
+FEEDBACK (2026-02-20):
+- GOOD THESIS: The "disease to please" rooted in childhood beatings is a strong organizing principle that drives much of the analysis. The connection between the wound and the empire is clear from paragraph 2.
+- STRONG JAMES FREY SECTION: The confrontation is well-paced and genuinely explained through Type 2 psychology — betrayal of audience trust triggering fierce action from a confrontation-averse person. This is the blog's best section.
+- INSIGHTFUL GLP-1 BREAKTHROUGH: Reframing the weight revelation as a Type 2 self-compassion breakthrough is genuinely original — "Twos hold themselves to impossible standards of self-sacrifice, then feel deep shame when they cannot meet them."
+- GOOD STEDMAN/CHILDREN ANALYSIS: "I wanted to be asked. I wanted to know he felt I was worthy of being his missus, but I didn't want the sacrifices" — this quote connected to Type 2 psychology is one of the best insights in the piece. The childlessness analysis through Type 2 self-knowledge is also strong.
+- KINGMAKER SHADOW: The Dr. Phil/Dr. Oz/Jenny McCarthy/John of God section is well-compiled and the Type 2 trust-vulnerability connection ("the tendency to trust people who seem to be helping others") is insightful.
+- NEEDS WORK — CORE EMOTION: Shame (heart triad) is touched in the weight section but never deeply named and explored. What does Oprah's shame feel like? The "disease to please" IS shame-driven but the piece doesn't sit inside it — it describes it from the outside.
+- NEEDS WORK — ENDING: "The question she might ask you: What happened to you?" is conventional and summary-like. Cut to black at peak insight instead. The Maui section or the DNC speech could provide a stronger ending point.
+- NEEDS WORK — SOME SECTIONS READ LIKE ENCYCLOPEDIA: The Dr. Phil/Dr. Oz listings, the OWN crisis financial details, and the career chronology sections feel more like Wikipedia than narrative. Tighten these into thematic insights rather than comprehensive accounts.
+- TO REACH B (8.0): (1) Deepen core shame exploration — sit inside the emotion, don't just describe it. (2) Rewrite ending to cut to black at peak insight. (3) Tighten the kingmaker section from chronological listing to thematic analysis. (4) Add one emotionally immersive scene (the childhood beating, the James Frey confrontation aftermath, the OWN nervous breakdown could all work).
+- TO REACH B+ (8.5): All of the above PLUS: (1) Find a true signature detail — something small and specific that makes the whole analysis click. (2) Add counter-typing section. (3) Explore stress/growth arrows with specific evidence. (4) Fresh language — replace "Type 2" shorthand with person-specific vocabulary.
+-->
 
 <p class="firstLetter">Oprah Winfrey built a $2.8 billion empire on one skill: making people feel seen.</p>
 

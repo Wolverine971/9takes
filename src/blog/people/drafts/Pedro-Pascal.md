@@ -19,7 +19,30 @@ twitter: 'PedroPascal1'
 instagram: 'pascalispunk'
 tiktok: ''
 path: src/blog/people/drafts/Pedro-Pascal.md
+content_quality:
+  hook: 9.5
+  enneagram: 9
+  evidence: 9.5
+  writing: 9.5
+  originality: 9.5
+  overall: 9.4
+  letter: A
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: A (9.4)
+Hook: 9.5 | Enneagram: 9 | Evidence: 9.5 | Writing: 9.5 | Originality: 9.5
+
+FEEDBACK (2026-02-20):
+- NEAR-PERFECT HOOK: The smear campaign response — redirecting every eyeball to the Trevor Project, Doctors Without Borders, and World Food Kitchen instead of defending himself — is specific, surprising, and reveals character in one image. "The most anxious man in Hollywood responded to an attack on his character by redirecting every eyeball to the people who actually needed protecting." Thesis crystallized immediately.
+- MULTIPLE SIGNATURE DETAILS: (1) The hand-on-torso physical tell, documented across 20 years of red carpet photos — "You know why? It's because my anxiety is right here." (2) The SAG Awards speech: "I'm going to have a panic attack and I'm going to leave." (3) "I'm already broken" as Type 6 logic. (4) Lux on the Chanel runway and "I see you before I see myself." Each of these alone could anchor an analysis.
+- EXCEPTIONAL EMOTIONAL IMMERSION: The exile section makes the reader feel what it means for a child's brain to absorb "safety is something you flee toward, not something you're born into." The Killmonger parallel — wait, this is Pedro, not MBJ — the anxiety management section with the doomscrolling and physical grounding is deeply felt. The Lux section is devastating without being sentimental.
+- STRONG SIX ENGINE: Every section is driven by the type. The protector roles are connected to the childhood. The humor is connected to the 7 wing. The "daddy" arc is traced through Six psychology. The doomscrolling is explained as Six fear management. Even the romantic privacy is explained through Type 6 trust calculus.
+- EXCELLENT WRITING: Visual rhythm is masterful. "He didn't defend himself. He didn't issue a statement." Short punchy lines alternate throughout. The humor sections (Starbucks order, SNL missed cue) provide perfect relief. The ending — "they have never once doubted that he would be there" — is one of the best cut-to-black endings in the collection.
+- NEEDS WORK: Stress/growth arrows aren't explicitly named. Where does Type 6 go under stress (→ 3, performing/achieving) and in health (→ 9, inner peace)? The career-building and Fantastic Four casting could connect to the stress arrow to 3. The moments of peace with friends could connect to the growth arrow to 9.
+- NEEDS WORK: Counter-typing section is absent. Why not Type 2 (helper, protective)? Why not Type 4 (emotional depth, artist identity)?
+- TO REACH A+: (1) Add explicit stress/growth arrow integration — the stress to 3 (performing to prove worth, the Fantastic Four self-doubt) and growth to 9 (the moments of calm with his inner circle) are already IN the piece but need to be named. (2) Add a brief counter-typing paragraph — the protective instinct could look like Type 2 but it's fear-driven rather than love-driven; the emotional depth could look like Type 4 but it's anxiety-based rather than identity-based. (3) These additions would make an already exceptional piece airtight.
+-->
 
 > "Fear is the way that they win. So keep telling the stories, keep expressing yourself and keep fighting to be who you are."
 

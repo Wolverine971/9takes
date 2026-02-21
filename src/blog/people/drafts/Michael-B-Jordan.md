@@ -18,7 +18,29 @@ twitter: 'michaelb4jordan'
 instagram: 'michaelbjordan'
 tiktok: ''
 path: src/blog/people/drafts/Michael-B-Jordan.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-20):
+- EXCEPTIONAL HOOK: "A man's highest praise for his own performance is that his mother couldn't find him in it." This reframes the Sinners detail into an immediate, revealing question about identity.
+- SIGNATURE DETAIL: The shoes — "I wore a half-size too-small shoe for Stack because I wanted him to feel a bit uneasy. And Smoke wore a half-size too big, because I wanted him to feel a bit planted and grounded." A man who literally changes his physical foundation to become someone else. This is the detail that makes the whole Type 3 analysis click.
+- STRONG ENNEAGRAM ENGINE: The name-as-wound ("I wanted to feel like I had my own identity" — achievement as the vehicle for selfhood) is the kind of insight that resolves a contradiction through the type. The stress arrow to Type 9 through the Killmonger section is expertly deployed: "I shut out love" is devastating and perfectly illustrates disintegration.
+- EMOTIONALLY IMMERSIVE: The Coogler Starbucks scene, the Killmonger breakdown, and the loneliness admission on Jay Shetty's podcast all make the reader feel, not just understand. The Boseman thread (replacing him on All My Children → losing him → carrying him through Sinners) adds genuine poignancy.
+- EXCELLENT ENDING: "Bakari means noble promise. He hasn't changed his name. He's still figuring out what it means." Cuts to black perfectly, circles back to the opening name tension.
+- MINOR: The "Where's Wallace?" section is slightly chronological/catalog-like. The career beats are necessary context but the section could be tighter — lead with the most revealing detail rather than proceeding show-by-show.
+- TO REACH A+: (1) Explore the core shame more explicitly — the heart triad emotion is present but could be named and sat inside more deeply, especially in the loneliness section. (2) Tighten the career chronology into more narrative-driven storytelling. (3) The Fantastic Four section is solid but doesn't add as much depth as other sections — could be sharper or folded into the name-wound thread.
+-->
 
 > "It's always been about proving things to myself more than anything. What are my limits? Where's my ceiling at?"
 

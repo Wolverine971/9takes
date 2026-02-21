@@ -19,7 +19,29 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Mikey-Madison.md
+content_quality:
+  hook: 9.5
+  enneagram: 8.5
+  evidence: 9
+  writing: 9.5
+  originality: 9.5
+  overall: 9.2
+  letter: A
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: A (9.2)
+Hook: 9.5 | Enneagram: 8.5 | Evidence: 9 | Writing: 9.5 | Originality: 9.5
+
+FEEDBACK (2026-02-20):
+- NEAR-PERFECT HOOK: The Tarantino acid-trip painting — hair sewn into the canvas, seeing it hanging in his office — is among the most memorable openings in the collection. The immediate juxtaposition with "painfully shy" and "couldn't raise my hand in class" creates an irresistible tension. "She doesn't. A different version of herself does." crystallizes the thesis in one sentence.
+- SIGNATURE DETAIL (multiple): The voicemail scene is devastating — "Very emotional. Very personal. Very embarrassing." — and the insight that follows ("The most powerful moment in her Oscar-winning performance required her to stop pretending to be someone else and become, briefly and painfully, herself") is one of the best lines in any blog. The twin brother's arc from denying her → Oscar companion is beautifully deployed. The mother's Oscar morning response ("Also, you need to take your dog to obedience training") is perfect grounding detail.
+- EXCEPTIONAL WRITING: Visual rhythm is masterful throughout. "She walked away." as its own paragraph. Short sections alternate with longer analysis. The humor section (chihuahua sounds, SNL horse joke) provides relief without breaking tone. The ending quote — "I think shyness should be considered a form of poetry" — cuts to black and reframes the entire piece.
+- STRONG NINE ANALYSIS: The horse-to-acting pipeline as merging (animals → characters) is original. Growth line to Type 3 is naturally woven through the Anora preparation. The Star Wars walkaway reframed through Nine psychology ("showing up... is the thing that feels most like disappearing") is insightful.
+- NEEDS WORK: Core emotion for Type 9 (anger from the body/gut triad) is never explored. Where is Madison's suppressed anger? The equestrian background, the physical fight scenes, the "all-or-nothing" admission could connect to anger that only surfaces through characters. The rubric specifically calls out: "Find the specific way this person goes numb, the particular thing they merge with, the unique cost of their disappearing act." The merging and disappearing are explored, but the cost (anger suppression) isn't.
+- NEEDS WORK: Stress arrow to Type 6 (anxiety, seeking security) isn't mentioned. The "painfully shy" childhood could connect to the Six's fear orientation.
+- TO REACH A+: (1) Add core emotion exploration — where does Madison's anger live? The fight scenes in Anora, the acid-trip painting's aggression, the "all-or-nothing" personality could all connect to suppressed anger that only flows through characters. (2) Weave in stress arrow to Type 6 — the social anxiety and shyness could be explored as the Nine under stress moving toward Six's hypervigilance. (3) Add counter-typing section — why not Type 4 (artist, emotional depth) or Type 5 (withdrawn, private)?
+-->
 
 > "I was a big daydreamer as a kid. I would daydream about being different versions of myself, versions where I wasn't shy, or I had lots of friends, or I did interesting, crazy things, and felt big emotions."
 

@@ -2068,6 +2068,122 @@ export type Database = {
         }
         Relationships: []
       }
+      page_analytics_sessions: {
+        Row: {
+          created_at: string
+          ended_at: string | null
+          entry_path: string | null
+          exit_path: string | null
+          fingerprint: string
+          id: string
+          last_seen_at: string
+          page_count: number
+          session_key: string
+          started_at: string
+          updated_at: string
+          user_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          ended_at?: string | null
+          entry_path?: string | null
+          exit_path?: string | null
+          fingerprint: string
+          id?: string
+          last_seen_at?: string
+          page_count?: number
+          session_key: string
+          started_at?: string
+          updated_at?: string
+          user_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          ended_at?: string | null
+          entry_path?: string | null
+          exit_path?: string | null
+          fingerprint?: string
+          id?: string
+          last_seen_at?: string
+          page_count?: number
+          session_key?: string
+          started_at?: string
+          updated_at?: string
+          user_id?: string | null
+        }
+        Relationships: []
+      }
+      page_analytics_visits: {
+        Row: {
+          content_slug: string | null
+          content_type: string | null
+          created_at: string
+          ended_at: string | null
+          engaged_ms: number
+          fingerprint: string
+          id: number
+          is_exit: boolean
+          max_scroll_pct: number
+          path: string
+          path_group: string
+          referrer_host: string | null
+          route_id: string | null
+          session_id: string
+          started_at: string
+          updated_at: string
+          user_id: string | null
+          visit_key: string
+        }
+        Insert: {
+          content_slug?: string | null
+          content_type?: string | null
+          created_at?: string
+          ended_at?: string | null
+          engaged_ms?: number
+          fingerprint: string
+          id?: number
+          is_exit?: boolean
+          max_scroll_pct?: number
+          path: string
+          path_group: string
+          referrer_host?: string | null
+          route_id?: string | null
+          session_id: string
+          started_at?: string
+          updated_at?: string
+          user_id?: string | null
+          visit_key: string
+        }
+        Update: {
+          content_slug?: string | null
+          content_type?: string | null
+          created_at?: string
+          ended_at?: string | null
+          engaged_ms?: number
+          fingerprint?: string
+          id?: number
+          is_exit?: boolean
+          max_scroll_pct?: number
+          path?: string
+          path_group?: string
+          referrer_host?: string | null
+          route_id?: string | null
+          session_id?: string
+          started_at?: string
+          updated_at?: string
+          user_id?: string | null
+          visit_key?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "page_analytics_visits_session_id_fkey"
+            columns: ["session_id"]
+            isOneToOne: false
+            referencedRelation: "page_analytics_sessions"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       permissions: {
         Row: {
           can_ask_question: boolean | null
@@ -3069,6 +3185,10 @@ export type Database = {
       }
     }
     Functions: {
+      analytics_scope_match: {
+        Args: { p_content_type: string; p_path: string; p_scope: string }
+        Returns: boolean
+      }
       can_see_comments: {
         Args: { questionid: number; userid: string; userip: string }
         Returns: boolean
@@ -3242,6 +3362,44 @@ export type Database = {
           unsubscribed: boolean
         }[]
       }
+      get_page_analytics_overview: {
+        Args: { p_from_date?: string; p_scope?: string; p_to_date?: string }
+        Returns: Json
+      }
+      get_page_analytics_pages: {
+        Args: {
+          p_from_date?: string
+          p_limit?: number
+          p_offset?: number
+          p_scope?: string
+          p_search?: string
+          p_to_date?: string
+        }
+        Returns: {
+          anonymous_visits: number
+          authenticated_visits: number
+          avg_time_on_page_ms: number
+          bounce_rate: number
+          content_type: string
+          median_time_on_page_ms: number
+          path: string
+          path_group: string
+          total_rows: number
+          unique_visitors: number
+          visits: number
+        }[]
+      }
+      get_page_analytics_timeseries: {
+        Args: { p_from_date?: string; p_scope?: string; p_to_date?: string }
+        Returns: {
+          anonymous_visits: number
+          authenticated_visits: number
+          avg_time_on_page_ms: number
+          day: string
+          unique_visitors: number
+          visits: number
+        }[]
+      }
       get_questions_by_category: {
         Args: { p_category_id: number; p_limit?: number; p_offset?: number }
         Returns: {
@@ -3322,6 +3480,7 @@ export type Database = {
       insert_daily_row: { Args: never; Returns: undefined }
       install_available_extensions_and_test: { Args: never; Returns: boolean }
       is_admin: { Args: never; Returns: boolean }
+      is_analytics_utility_path: { Args: { p_path: string }; Returns: boolean }
       jsonb_array_to_text: { Args: { arr: Json }; Returns: string }
       mark_emails_ready_for_processing: { Args: never; Returns: number }
       parse_json_with_escapes: { Args: { json_text: string }; Returns: Json }
@@ -3387,6 +3546,16 @@ export type Database = {
               isSetofReturn: true
             }
           }
+      record_page_analytics_ping: {
+        Args: {
+          p_ended_at?: string
+          p_engaged_ms_delta?: number
+          p_is_exit?: boolean
+          p_max_scroll_pct?: number
+          p_visit_key: string
+        }
+        Returns: boolean
+      }
       search_all_blogs: {
         Args: {
           filter_category?: string
@@ -3439,6 +3608,24 @@ export type Database = {
           slug: string
           source: string
           title: string
+        }[]
+      }
+      upsert_page_analytics_visit: {
+        Args: {
+          p_content_slug?: string
+          p_content_type?: string
+          p_fingerprint: string
+          p_path?: string
+          p_path_group?: string
+          p_referrer_host?: string
+          p_route_id?: string
+          p_session_key: string
+          p_user_id?: string
+          p_visit_key: string
+        }
+        Returns: {
+          session_id: string
+          visit_id: number
         }[]
       }
       visitors_last_30_days: {

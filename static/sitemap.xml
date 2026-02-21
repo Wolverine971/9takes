@@ -1274,15 +1274,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Oprah-Winfrey</loc>
-    <lastmod>2024-08-30T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/2s/Oprah-Winfrey.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Jack-Dorsey</loc>
     <lastmod>2024-09-29T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1706,15 +1697,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Dave-Chappelle</loc>
-    <lastmod>2025-06-25T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/9s/Dave-Chappelle.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Demi-Lovato</loc>
     <lastmod>2025-06-25T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2040,29 +2022,11 @@
 </url>
 <url>
     <loc>https://9takes.com/personality-analysis/Michelle-Obama</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
+    <lastmod>2025-12-21T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/1s/Michelle-Obama.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Millie-Bobby-Brown</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/2s/Millie-Bobby-Brown.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Olivia-Rodrigo</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/2s/Olivia-Rodrigo.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2162,6 +2126,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Malcolm-X.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Oprah-Winfrey</loc>
+    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/2s/Oprah-Winfrey.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2867,15 +2840,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
-    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Donald-Trump.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/IShowSpeed</loc>
     <lastmod>2026-02-19T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3083,6 +3047,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Dave-Chappelle</loc>
+    <lastmod>2026-02-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Dave-Chappelle.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/David-Sacks</loc>
     <lastmod>2026-02-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3092,12 +3065,39 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Donald-Trump</loc>
+    <lastmod>2026-02-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Donald-Trump.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Jennifer-Lawrence</loc>
     <lastmod>2026-02-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/6s/Jennifer-Lawrence.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Millie-Bobby-Brown</loc>
+    <lastmod>2026-02-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/2s/Millie-Bobby-Brown.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Olivia-Rodrigo</loc>
+    <lastmod>2026-02-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/2s/Olivia-Rodrigo.webp</image:loc>
     </image:image>
 </url>
 <url>

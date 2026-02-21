@@ -18,7 +18,30 @@ twitter: 'MichelleObama'
 instagram: 'michelleobama'
 tiktok: ''
 path: src/blog/people/drafts/Michelle-Obama.md
+content_quality:
+  hook: 5
+  enneagram: 6
+  evidence: 6
+  writing: 5
+  originality: 5
+  overall: 5.4
+  letter: F
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: F (5.4)
+Hook: 5 | Enneagram: 6 | Evidence: 6 | Writing: 5 | Originality: 5
+
+FEEDBACK (2026-02-20):
+- DECENT FAMILY HISTORY: The Robinson family section has good detail — Fraser's MS, the one-bedroom apartment, Marian's influence. These details humanize the subject.
+- GOOD INDIVIDUAL QUOTES: Jake's "She gives so much" and Sasha described as "like a cat" are revealing. Barack's "big deficit" comment adds a real moment. The divorce rumor response ("they couldn't fathom that I was making a choice for myself") shows character.
+- WEAK HOOK: "The world sees a polished First Lady who seemed to glide through the White House" is generic — could be about any accomplished public figure. No specific scene or moment anchors the reader. REWRITE: Open with a specific moment that reveals the Type 1 tension — perhaps the Tuskegee speech moment when she saw the afro cartoon, or the alter ego admission, or the moment she decided to skip Trump's inauguration.
+- NEEDS WORK — ENNEAGRAM IS SURFACE-LEVEL: The Type 1 analysis labels behaviors but never explains anything non-obvious. Core emotion (ANGER — Type 1 is in the body/gut triad) is completely absent. Where is Michelle's anger? The "when they go low" mantra could be reframed as anger channeled through moral discipline. The Let's Move! campaign could be driven by righteous anger at systemic failure. Without the core emotion, the analysis is just "she's a perfectionist," which isn't insight.
+- NEEDS WORK — ENCYCLOPEDIC STRUCTURE: The biography reads like a Wikipedia article — childhood → education → career → White House → current. This should be reorganized around thematic threads that the Enneagram drives (e.g., the inner critic, the anger, the integration to joy). The bullet-point summary section ("Michelle Obama's life makes sense when viewed through the Type 1 framework") should be cut entirely.
+- NEEDS WORK — NO ORIGINALITY: The blog compiles publicly available information without a single surprising insight. No signature detail. No "aha moment." No private/public gap explored beyond Becoming excerpts. Fails the swap test — replace "Type 1" with "driven perfectionist" and the analysis reads the same.
+- TO REACH D (6.0): (1) Rewrite the hook with a specific, surprising moment. (2) Add core emotion exploration — where does Michelle's anger live? (3) Cut the bullet-point summary and conventional ending. (4) Add counter-typing — why isn't she a Type 3 (Achiever) or Type 6 (loyal, anxious)?
+- TO REACH C (7.0): All of the above PLUS: (1) Find a signature detail — something specific and small that makes the whole analysis click. (2) Explore stress/growth arrows with evidence. (3) Add at least one emotionally immersive scene. (4) Reorganize from chronological to thematic structure driven by the Enneagram.
+-->
 
 > "When they go low, we go high.": Michelle Obama
 

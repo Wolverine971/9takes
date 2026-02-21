@@ -19,7 +19,32 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Paul-Rudd.md
+content_quality:
+  hook: 6
+  enneagram: 7
+  evidence: 7
+  writing: 6
+  originality: 6
+  overall: 6.4
+  letter: D
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: D (6.4)
+Hook: 6 | Enneagram: 7 | Evidence: 7 | Writing: 6 | Originality: 6
+
+FEEDBACK (2026-02-20):
+- GOOD MAC AND ME ANALYSIS: The Mac and Me prank reframed as Type 9 avoidance of self-promotion is the blog's best insight — "I never felt comfortable promoting my own films" turned into comedy gold across 20+ years. The O'Brien deathbed fantasy detail is a great addition.
+- DECENT NINE MAPPING: The childhood displacement (7 moves) as Type 9 formation, the "yes, and" improv style, the I Love You Man character as Nine psychology, and the agelessness-as-stress-avoidance connection are all competent observations.
+- ANACONDA ROLE-SWAP DETAIL: "Given space to be the chaotic one, he apparently excelled — suggesting that his usual 'straight man' positioning isn't limitation but choice" is an interesting observation.
+- GOOD SOURCING: Multiple specific, attributed quotes from People, NYT, various profiles. Sexiest Man Alive quotes are well-deployed. Co-star/director testimonies from Keener, Newton, Gormican.
+- WEAK HOOK: "Five Marvel movies. Countless comedy hits" → gives the answer (Type 9) in paragraph 2 before creating any tension. No specific scene or surprising moment. REWRITE: Open with the Mac and Me prank (specific, surprising, reveals character) or with his son's response to Ant-Man casting ("I can't wait to see how stupid that'll be") — either creates a question about who this man is.
+- NEEDS WORK — CORE EMOTION ABSENT: Type 9 is in the anger/body triad. Where is Rudd's suppressed anger? His father was known as "The Angry Lenexan" — this is a HUGE detail that's mentioned but never explored. The blog says "Paul channeled that same conviction differently" but never asks: where did the anger go? This should be the central question of the piece.
+- NEEDS WORK — STRUCTURE IS CHRONOLOGICAL PROFILE: Career → comedy style → quirks → family → accomplishments → legacy. The Major Accomplishments section is literally a bulleted list. The "Wrapping Up" section is a conventional summary with a rhetorical question ending. Reorganize around thematic threads driven by Type 9 psychology.
+- NEEDS WORK — NO SIGNATURE DETAIL: The Mac and Me prank is close but it's widely known. No small, specific moment that makes the whole analysis click. No private/public gap explored beyond "he's private."
+- TO REACH C (7.0): (1) Rewrite hook with a specific moment. (2) Explore the father's anger vs. Paul's peacemaking as the central thread. (3) Cut the bulleted accomplishments list and the "Wrapping Up" summary. (4) Add counter-typing — why not Type 7 (comedy, fun-seeking) or Type 2 (the charity work, the candy store)?
+- TO REACH B (8.0): All of the above PLUS: (1) Find where the anger lives — does it come out in improv? In the Mac and Me prank? In the role choices? (2) Add emotionally immersive scene. (3) Explore stress/growth arrows with evidence. (4) Replace stock language with person-specific vocabulary.
+-->
 
 > "I identify myself as a parent and a husband way more than somebody who rides around on the back of an ant."
 
