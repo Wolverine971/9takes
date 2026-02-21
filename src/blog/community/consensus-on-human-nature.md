@@ -88,25 +88,29 @@ path: src/blog/community/consensus-on-human-nature.md
 
 <p class="firstLetter">Everyone talks about "human nature" like it's a settled question. It isn't.</p>
 
-Two thousand years of philosophy and psychology, and we still can't agree on the basics: **Are humans fundamentally rational beings who occasionally slip up? Or are we emotional creatures who occasionally think clearly?**
+Two thousand years of philosophy and psychology, and we still can't agree on the basics: **Are humans fundamentally rational beings who occasionally slip up? Or is something deeper going on?**
 
-The answer determines everything — how we build societies, how we judge each other, how we understand our own behavior.
+Here's the argument: across centuries and disciplines, thinkers keep arriving at the same conclusion — human nature isn't one thing. It has **three dimensions** — thinking, feeling, and instinct — and the thinkers who reduce us to "rational vs. irrational" are only seeing one-third of the picture.
 
-Two camps keep emerging across centuries. And the debate between them reveals something profound about how we see ourselves.
+From Plato to Freud to modern neuroscience to the Enneagram, the three-part model keeps showing up. That pattern is worth paying attention to.
 
 ## Plato is to Aristotle as Freud is to Pinker
 
-**Plato** had a complicated view of human nature. He thought of human nature as having three distinct parts, calling it the "Tripartite Soul." These parts were the rational soul that governed the logical intellect. Then, the spirited soul was the source of emotions and courage. And lastly, there was the appetitive soul, which was associated with desires and bodily needs.
+There's a recurring split in how great thinkers approach human nature. Some look at people and see layered complexity. Others look at people and see one defining trait — rationality — with everything else as noise.
 
-**Aristotle**, however, thought that the defining feature of humans was our capacity to be rational. He talked about how humans were social and that morals were important, but our rationality set us apart.
+**Plato** saw a layered picture. His "Tripartite Soul" described three forces constantly interacting: reason, spirit (emotion and courage), and appetite (instinct and desire). For Plato, being human meant navigating the tension between all three. No single part was the whole story.
 
-Similarly **Freud** had a complicated view of human nature that mirrored Plato's view, where there was an interplay between three elements: the id, ego, and superego that pull at the human psyche.
+**Aristotle**, his student, simplified things. He acknowledged that humans were social and that morals mattered, but for Aristotle, rationality was *the* defining feature. It's what separated us from animals. Everything else was secondary to our capacity for logical thought.
 
-However, again, like Aristotle, the modern psychologist **Steven Pinker** focuses on rationality. He calls on humans to be rational to mitigate potential chaos.
+This same split shows up again two thousand years later.
 
-<!-- ## What was Plato's view?
+**Freud** mirrored Plato's layered view. His model of the psyche — the id, ego, and superego — described three forces pulling at every human being. The conscious, rational mind was just the tip of the iceberg. Underneath it were drives, emotions, and moral pressures that most people never examine.
 
-Plato talked about the human soul and about how it was divided into three parts: **reason**, **spirit**, and **appetite** which formed something called the "tripartite soul." Reason, associated with the rational part of the soul, represents wisdom, intellect, and the capacity for logical thinking 🧠. Spirit, associated with the spirited or emotional part of the soul, represents courage, honor, and the pursuit of noble ideals ❤️. Appetite, associated with the bodily or sensual part of the soul, represents the desires, passions, and basic physical needs 💪. -->
+**Steven Pinker**, the modern cognitive scientist, mirrors Aristotle. In his book *Rationality*, Pinker makes a compelling case that humans have extraordinary reasoning abilities — we built science, medicine, democracy. His argument is genuine and backed by evidence. Pinker isn't wrong that rationality is powerful. The question is whether it's *the whole picture*.
+
+Aristotle and Pinker both offer something reassuring: a clean framework. Be rational. Think clearly. The path forward is knowable. There's an intellectual security in that — if the answer to every human problem is "think harder and more logically," then the world is navigable.
+
+But Plato and Freud saw something that pure rationality can't explain. Why do smart people make terrible decisions? Why do we sabotage ourselves? Why do entire societies act against their own interests? If rationality were the whole story, none of that would happen.
 
 <div
     style="display: flex;
@@ -123,9 +127,9 @@ margin: 2rem 0;"
     />
 </div>
 
-## Plato and Freud's concepts unified
+## Plato and Freud's concepts side by side
 
-Freud's theory of the mind like Plato describes three components: the id, the ego, and the superego. The id can be seen as analogous to Plato's appetite, representing the instinctual and primitive drives 💪. The ego, like Plato's reason, represents the rational and conscious aspect of the mind, mediating between the id's demands and the external reality 🧠. The superego, similar to Plato's spirit, represents internalized societal values and moral standards ❤️.
+The parallels between Plato and Freud aren't vague. They map directly onto each other:
 
 <div
     style="display: flex;
@@ -140,26 +144,28 @@ Freud's theory of the mind like Plato describes three components: the id, the eg
 | **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪    | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
 
 </div>
-So who has built upon these theories? Where are we today?
 
-## Pinker calling for Rationality
+Two frameworks separated by millennia, arriving at the same architecture. That should get our attention.
 
-<div class="iframe-container">
-<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&amp;clipt=EOjvARjzygM" title="Pinker's call for rationality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+But most modern discourse doesn’t start here. It starts with rationality.
+
+## The Appeal of “Just Be Rational”
+
+Steven Pinker represents the best version of this argument. In his book *Rationality*, he traces how human reasoning abilities have produced extraordinary results — the scientific method, democratic institutions, declining violence over centuries. Here he is making the case:
+
+<div class=”iframe-container”>
+<iframe width=”100%” height=”315” loading=”lazy” src=”https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&amp;clipt=EOjvARjzygM” title=”Pinker’s call for rationality” frameborder=”0” allow=”accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” allowfullscreen></iframe>
 </div>
 
-If only we could purge all the misinformation and fake news. If only we could establish a ministry of truth. If only people were smarter and more rational.
+*In this clip, Pinker argues that the world is sliding toward chaos and that rationality is the cure — that human progress (science, medicine, democracy) happened because we learned to reason, and the path forward requires more of the same.*
 
-It's easy to boil things down to being rational and irrational, it makes everything black and white. Who doesn’t want to live in a simple world?
+Pinker’s argument is persuasive because it’s partly true. Rationality *is* powerful. The problem isn’t with valuing rational thinking — the problem is with treating it as the *only* dimension of human nature that matters.
 
-- “I am right and you are wrong”,
-- “I am rational, you are irrational”
-- “I was once wrong but now I have learned and am right again, I was irrational but now I am back to being rational”
-- “We are not making progress because we are irrational and we need to be more rational”
+When rationality becomes the whole framework, every human problem gets reduced to a knowledge gap. People disagree with you? They must be misinformed. Society isn’t progressing? People need to think more clearly. Someone made a bad decision? They were being irrational.
 
-What if everything wasn't that simple? What if we are oversimplifying the problem by boiling human nature down to the pursuit of being rational?
+But this framing misses something Plato and Freud both understood: **the rational mind isn’t operating alone.** It never was. There are forces underneath it — emotional drives, moral instincts, unconscious patterns — that shape our behavior in ways pure logic can’t access.
 
-## Explaining the repeated calls for rationality
+## Why We Default to Rationality
 
 Freud talked in great depth about his theory of the conscious and unconscious mind. He suggested that a significant portion of our mental processes occurs outside of our conscious awareness. Freud thought that the unconscious mind contains repressed thoughts, memories, desires, and unresolved conflicts that influence our thoughts, emotions, and behaviors.
 
@@ -174,38 +180,62 @@ By <a class="external-link" target="_blank" rel="noreferrer" href="//commons.wik
 
 </div>
 
-<!-- todo transition here -->
+This isn't just ancient philosophy. Modern neuroscience is saying the same thing.
 
-### Andrew Huberman on the model of the mind
+### The Iceberg in Modern Neuroscience
 
-Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Conti, M.D., who trained at Stanford School of Medicine talking about this iceberg model of the mind.
+[Andrew Huberman](https://www.youtube.com/@hubermanlab) and psychiatrist Dr. Paul Conti, M.D. (who trained at Stanford School of Medicine) discuss this exact iceberg model on the Huberman Lab podcast. Their key point: what we're consciously aware of — our rational thoughts — sits on top of a vast unconscious structure that drives most of our behavior. The conscious mind doesn't run the show nearly as much as we think it does.
 
 <div class="iframe-container" >
 <iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/tLRCS48Ens4?si=Jt2NsKputVcqcHfy&amp;start=1221" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-#### Huberman Lab Iceberg Model
-
-<div class="iframe-container" >
-<!-- <img src="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf" alt="Andrew Huberman Iceberg Model of the mind" title="Andrew Huberman Iceberg Model" /> -->
-<object data="/blogs/The-Iceberg-Model.pdf" type="application/pdf" width="100%" height="500px" aria-label="Andrew Huberman Iceberg Model">
-      <p>Unable to display PDF file. <a class="external-link" target="_blank" rel="" href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">Download</a> instead.</p>
-    </object>
-</div>
+Huberman and Conti developed their own version of the iceberg model (<a class="external-link" target="_blank" rel="noreferrer" href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">view the full PDF here</a>) that breaks down the layers of consciousness in clinical terms. The takeaway is the same one Plato and Freud arrived at: rational thought is real and valuable, but it's only the visible tip of a much larger structure.
 
 ## The Pattern That Won't Go Away
 
-Here's what's interesting: **the three-part model keeps showing up**.
+Here's the thing that should stop us in our tracks: **the three-part model keeps showing up.** Not once or twice — across completely independent traditions, separated by centuries.
 
-Plato. Freud. Modern neuroscience (reptilian brain, limbic system, neocortex). The Enneagram's three [intelligence centers](/enneagram-corner/enneagram-concepts) — head, heart, and gut.
+Plato described it in ancient Greece. Freud rediscovered it in turn-of-the-century Vienna. Neuroscientist Paul MacLean formalized it in the 1960s with his triune brain model. And the Enneagram — which developed through an entirely separate lineage — arrived at the same structure through its three [intelligence centers](/enneagram-corner/enneagram-concepts).
 
-Maybe this isn't coincidence. Maybe humans really do operate on three distinct frequencies, and different thinkers keep rediscovering the same fundamental architecture.
+These aren't people building on each other's work. They're different observers, looking at the same species, and independently finding three layers.
 
-The [Enneagram maps directly onto these ancient frameworks](/enneagram-corner/philosophy-psychology-and-the-enneagram) — fear-based thinking, shame-based feeling, anger-based instinct. It's not descended from Plato or Freud, but it arrived at the same structure.
+<div
+    style="display: flex;
+    justify-content: center;
+    margin: 2rem 0;"
+>
 
-**Which raises the question:** If we keep finding the same pattern across millennia, maybe human nature isn't as mysterious as we pretend.
+| Dimension | Plato | Freud | Neuroscience | Enneagram |
+| --- | --- | --- | --- | --- |
+| **Thinking** 🧠 | Reason | Ego | Neocortex | Head center (fear) |
+| **Feeling** ❤️ | Spirit | Superego | Limbic system | Heart center (shame) |
+| **Instinct** 💪 | Appetite | Id | Reptilian brain | Gut center (anger) |
 
-Maybe we just don't like what the pattern reveals about ourselves.
+</div>
+
+Four frameworks. Four different eras. Same three dimensions.
+
+And it's not like nobody tried other numbers. Descartes split human nature into two — mind and body. The Big Five personality model uses five traits. The Myers-Briggs uses four dichotomies. Other thinkers have proposed their own divisions. But the three-part model is the one that keeps independently re-emerging from scratch. When observers start from first principles — whether in ancient Athens, a Viennese clinic, or a neuroscience lab — they keep landing on three.
+
+The [Enneagram maps directly onto these ancient frameworks](/enneagram-corner/philosophy-psychology-and-the-enneagram) — and it goes further. It doesn't just say "there are three dimensions." It describes nine distinct patterns of how people prioritize these dimensions differently. Some people lead with thinking and manage fear. Some lead with feeling and manage shame. Some lead with instinct and manage anger. That's what creates the variation in personality — not whether someone is "rational" or "irrational," but *which dimension dominates their inner life*.
+
+This reframes the whole debate. The Aristotle/Pinker view — that rationality is the defining human trait — isn't wrong. It's incomplete. Rationality is one-third of the picture. The people who fixate on it are usually the people for whom thinking comes most naturally. They're seeing their own strongest dimension and assuming it's universal.
+
+## What This Actually Means
+
+If human nature really does operate on three dimensions, the implications are practical.
+
+**It means "just think rationally" is bad advice for two-thirds of human problems.** A relationship falling apart because of unprocessed shame isn't going to be fixed by logic. A gut-level resistance to change isn't going to be reasoned away. The right tool depends on which dimension the problem lives in.
+
+**It means we're talking past each other constantly.** When someone who leads with thinking argues with someone who leads with feeling, they're not just disagreeing about the topic — they're processing reality through different channels. Neither is wrong. They're accessing different parts of the same architecture.
+
+**It means self-knowledge requires more than intellectual analysis.** You also need to understand your emotional patterns and your instinctive drives — the parts of the iceberg that sit below the waterline. That's uncomfortable territory. It's easier to stay in the rational mind where things feel controllable.
+
+Which might be exactly why the Aristotle/Pinker view keeps winning the popularity contest. It's not that rationality isn't valuable — it is. It's that the other two dimensions are harder to examine, harder to talk about, and harder to admit you're governed by.
+
+The three-part model keeps showing up because it's true. The question isn't whether human nature has these three dimensions. The question is whether you're willing to look at all three in yourself — or just the one that feels safest.
+
 
 <style lang="scss">
 </style>
