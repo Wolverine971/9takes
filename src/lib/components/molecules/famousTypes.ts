@@ -289,7 +289,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Reed-Hastings', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Entertainment\'s Unapologetic Disruptor', contentGrade: 8.6 },
 		{ name: 'Rihanna', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Pop\'s Unbothered Mogul', contentGrade: 8 },
 		{ name: 'Shia-LaBeouf', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Hollywood\'s Confessing Arsonist', contentGrade: 8.8 },
-		{ name: 'Tom-Hardy', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: null, contentGrade: null },
+		{ name: 'Tom-Hardy', link: true, hasImage: true, lastmod: '2024-07-12', personaTitle: null, contentGrade: null },
 		{ name: 'Vladimir-Putin', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Cornered Rat Who Became Czar', contentGrade: 9 },
 		{ name: 'Winston-Churchill', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Britain\'s Bulldog', contentGrade: null },
 		{ name: 'Xi-Jinping', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'China\'s Iron Hand', contentGrade: null },

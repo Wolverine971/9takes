@@ -1,4 +1,4 @@
-<!-- docs/brand/solo-leveling-scss-migration-plan.md -->
+<!-- docs/design/solo-leveling-scss-migration-plan.md -->
 
 # Solo Leveling SCSS Migration Plan
 

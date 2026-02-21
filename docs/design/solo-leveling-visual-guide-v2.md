@@ -1,4 +1,4 @@
-<!-- docs/brand/solo-leveling-visual-guide-v2.md -->
+<!-- docs/design/solo-leveling-visual-guide-v2.md -->
 
 # Solo Leveling Inspired Visual Brand
 

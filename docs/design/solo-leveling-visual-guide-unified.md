@@ -1,4 +1,4 @@
-<!-- docs/brand/solo-leveling-visual-guide-unified.md -->
+<!-- docs/design/solo-leveling-visual-guide-unified.md -->
 
 # 9takes — Solo Leveling Visual Identity
 

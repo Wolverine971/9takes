@@ -1028,7 +1028,14 @@
 			"WebFetch(domain:www.gsb.stanford.edu)",
 			"WebFetch(domain:news.stanford.edu)",
 			"WebFetch(domain:fs.blog)",
-			"Bash(git:*)"
+			"Bash(git:*)",
+			"WebFetch(domain:www.theoi.com)",
+			"WebFetch(domain:personalitypath.com)",
+			"WebFetch(domain:nerdynav.com)",
+			"WebFetch(domain:www.allaboutai.com)",
+			"WebFetch(domain:www.feedough.com)",
+			"Bash(pnpm remove:*)",
+			"WebFetch(domain:www.bestcolleges.com)"
 		],
 		"deny": [],
 		"ask": [],

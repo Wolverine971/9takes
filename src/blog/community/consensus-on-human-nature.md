@@ -4,7 +4,7 @@ description: 'Do we sway between being rational or irrational? Or is it more com
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/community/consensus-on-human-nature'
-lastmod: '2025-12-05'
+lastmod: '2026-02-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -100,13 +100,13 @@ There's a recurring split in how great thinkers approach human nature. Some look
 
 **Plato** saw a layered picture. His "Tripartite Soul" described three forces constantly interacting: reason, spirit (emotion and courage), and appetite (instinct and desire). For Plato, being human meant navigating the tension between all three. No single part was the whole story.
 
-**Aristotle**, his student, simplified things. He acknowledged that humans were social and that morals mattered, but for Aristotle, rationality was *the* defining feature. It's what separated us from animals. Everything else was secondary to our capacity for logical thought.
+**Aristotle**, his student, simplified things. He acknowledged that humans were social and that morals mattered, but for Aristotle, rationality was _the_ defining feature. It's what separated us from animals. Everything else was secondary to our capacity for logical thought.
 
 This same split shows up again two thousand years later.
 
 **Freud** mirrored Plato's layered view. His model of the psyche — the id, ego, and superego — described three forces pulling at every human being. The conscious, rational mind was just the tip of the iceberg. Underneath it were drives, emotions, and moral pressures that most people never examine.
 
-**Steven Pinker**, the modern cognitive scientist, mirrors Aristotle. In his book *Rationality*, Pinker makes a compelling case that humans have extraordinary reasoning abilities — we built science, medicine, democracy. His argument is genuine and backed by evidence. Pinker isn't wrong that rationality is powerful. The question is whether it's *the whole picture*.
+**Steven Pinker**, the modern cognitive scientist, mirrors Aristotle. In his book _Rationality_, Pinker makes a compelling case that humans have extraordinary reasoning abilities — we built science, medicine, democracy. His argument is genuine and backed by evidence. Pinker isn't wrong that rationality is powerful. The question is whether it's _the whole picture_.
 
 Aristotle and Pinker both offer something reassuring: a clean framework. Be rational. Think clearly. The path forward is knowable. There's an intellectual security in that — if the answer to every human problem is "think harder and more logically," then the world is navigable.
 
@@ -151,15 +151,15 @@ But most modern discourse doesn’t start here. It starts with rationality.
 
 ## The Appeal of “Just Be Rational”
 
-Steven Pinker represents the best version of this argument. In his book *Rationality*, he traces how human reasoning abilities have produced extraordinary results — the scientific method, democratic institutions, declining violence over centuries. Here he is making the case:
+Steven Pinker represents the best version of this argument. In his book _Rationality_, he traces how human reasoning abilities have produced extraordinary results — the scientific method, democratic institutions, declining violence over centuries. Here he is making the case:
 
 <div class=”iframe-container”>
 <iframe width=”100%” height=”315” loading=”lazy” src=”https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&amp;clipt=EOjvARjzygM” title=”Pinker’s call for rationality” frameborder=”0” allow=”accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” allowfullscreen></iframe>
 </div>
 
-*In this clip, Pinker argues that the world is sliding toward chaos and that rationality is the cure — that human progress (science, medicine, democracy) happened because we learned to reason, and the path forward requires more of the same.*
+_In this clip, Pinker argues that the world is sliding toward chaos and that rationality is the cure — that human progress (science, medicine, democracy) happened because we learned to reason, and the path forward requires more of the same._
 
-Pinker’s argument is persuasive because it’s partly true. Rationality *is* powerful. The problem isn’t with valuing rational thinking — the problem is with treating it as the *only* dimension of human nature that matters.
+Pinker’s argument is persuasive because it’s partly true. Rationality _is_ powerful. The problem isn’t with valuing rational thinking — the problem is with treating it as the _only_ dimension of human nature that matters.
 
 When rationality becomes the whole framework, every human problem gets reduced to a knowledge gap. People disagree with you? They must be misinformed. Society isn’t progressing? People need to think more clearly. Someone made a bad decision? They were being irrational.
 
@@ -206,11 +206,11 @@ These aren't people building on each other's work. They're different observers, 
     margin: 2rem 0;"
 >
 
-| Dimension | Plato | Freud | Neuroscience | Enneagram |
-| --- | --- | --- | --- | --- |
-| **Thinking** 🧠 | Reason | Ego | Neocortex | Head center (fear) |
-| **Feeling** ❤️ | Spirit | Superego | Limbic system | Heart center (shame) |
-| **Instinct** 💪 | Appetite | Id | Reptilian brain | Gut center (anger) |
+| Dimension       | Plato    | Freud    | Neuroscience    | Enneagram            |
+| --------------- | -------- | -------- | --------------- | -------------------- |
+| **Thinking** 🧠 | Reason   | Ego      | Neocortex       | Head center (fear)   |
+| **Feeling** ❤️  | Spirit   | Superego | Limbic system   | Heart center (shame) |
+| **Instinct** 💪 | Appetite | Id       | Reptilian brain | Gut center (anger)   |
 
 </div>
 
@@ -218,7 +218,7 @@ Four frameworks. Four different eras. Same three dimensions.
 
 And it's not like nobody tried other numbers. Descartes split human nature into two — mind and body. The Big Five personality model uses five traits. The Myers-Briggs uses four dichotomies. Other thinkers have proposed their own divisions. But the three-part model is the one that keeps independently re-emerging from scratch. When observers start from first principles — whether in ancient Athens, a Viennese clinic, or a neuroscience lab — they keep landing on three.
 
-The [Enneagram maps directly onto these ancient frameworks](/enneagram-corner/philosophy-psychology-and-the-enneagram) — and it goes further. It doesn't just say "there are three dimensions." It describes nine distinct patterns of how people prioritize these dimensions differently. Some people lead with thinking and manage fear. Some lead with feeling and manage shame. Some lead with instinct and manage anger. That's what creates the variation in personality — not whether someone is "rational" or "irrational," but *which dimension dominates their inner life*.
+The [Enneagram maps directly onto these ancient frameworks](/enneagram-corner/philosophy-psychology-and-the-enneagram) — and it goes further. It doesn't just say "there are three dimensions." It describes nine distinct patterns of how people prioritize these dimensions differently. Some people lead with thinking and manage fear. Some lead with feeling and manage shame. Some lead with instinct and manage anger. That's what creates the variation in personality — not whether someone is "rational" or "irrational," but _which dimension dominates their inner life_.
 
 This reframes the whole debate. The Aristotle/Pinker view — that rationality is the defining human trait — isn't wrong. It's incomplete. Rationality is one-third of the picture. The people who fixate on it are usually the people for whom thinking comes most naturally. They're seeing their own strongest dimension and assuming it's universal.
 
@@ -236,6 +236,42 @@ Which might be exactly why the Aristotle/Pinker view keeps winning the popularit
 
 The three-part model keeps showing up because it's true. The question isn't whether human nature has these three dimensions. The question is whether you're willing to look at all three in yourself — or just the one that feels safest.
 
+<!--
+
+## Reader Feedback (DJ - review and delete this section)
+
+### What's missing / could be expanded:
+
+1. **The triune brain model gets one sentence but it's doing heavy lifting in your argument.** You drop MacLean's name in the comparison table section and move on. But this is your neuroscience evidence — the thing that bridges ancient philosophy to modern science. Give it a real paragraph. What did MacLean actually observe? Why did he land on three layers independently?
+
+2. **The Enneagram connection feels rushed for a 9takes article.** It shows up late, gets a couple paragraphs, and then you move on to the conclusion. This is YOUR framework — the thing that ties it all together and makes 9takes different. A concrete example would help here: pick a real scenario (a workplace disagreement, a relationship conflict) and show how a head-center person vs. a heart-center person vs. a gut-center person would each process it differently. That would make the abstract argument click.
+
+3. **No counter-arguments addressed.** A skeptical reader is going to think: "Okay, but lots of things come in threes — that could just be a human pattern-matching bias." You should name that objection and respond to it. Also, the triune brain model has actually been criticized pretty heavily by modern neuroscientists (the brain doesn't really have three cleanly separated layers). If a reader Googles that, it could undermine your whole piece. Better to acknowledge the criticism and explain why the *pattern* still holds even if MacLean's specific anatomy was oversimplified.
+
+4. **No concrete real-world examples.** The "What This Actually Means" section makes three big claims but doesn't illustrate any of them. "A relationship falling apart because of unprocessed shame" — give me a specific scenario so I can feel it. Right now those bullet points read like thesis statements without the supporting paragraphs.
+
+### What's overdone / could be trimmed:
+
+1. **The Plato-Freud parallel is stated three times.** You explain it in prose, show it in a comparison table, and then reference it again later ("Two frameworks separated by millennia, arriving at the same architecture"). The table is great — it makes the point visually. You could trim the surrounding prose and trust the table to do its job.
+
+2. **"The three-part model keeps showing up" is repeated in slightly different words at least 4 times** (intro, end of Plato/Freud section, "The Pattern That Won't Go Away" header, and the conclusion). Once you make this point clearly, you don't need to keep re-landing it. It starts feeling like you don't trust the reader to get it.
+
+3. **Pinker is introduced twice with similar framing.** He gets described in the Aristotle comparison AND gets his own section with another description of his argument. These could be consolidated — introduce him once, thoroughly, and then reference back.
+
+### Structural notes:
+
+1. **The Huberman/Conti section feels like a detour.** It supports the iceberg metaphor but doesn't directly advance your three-part model argument. The iceberg model is about conscious vs. unconscious — which is a two-part split, not a three-part one. Consider either tying it more explicitly to the three dimensions or trimming it down.
+
+2. **The transition from "Why We Default to Rationality" into the Huberman section is abrupt.** You're explaining why people focus on rationality (because it's accessible), and then suddenly you're summarizing a podcast. A bridge sentence connecting Freud's iceberg idea to its modern validation would smooth this out.
+
+3. **The conclusion is strong but could hit harder with a callback.** You end with a good challenge to the reader, but it could be even better if you circled back to a specific example from earlier in the piece. Right now the ending is slightly abstract.
+
+### Minor:
+
+- The emoji column in the first table (🧠❤️💪) is a nice touch but having it in both tables feels like a design choice that slightly cheapens the second, more important table.
+- The Huberman Lab PDF link may break over time — worth checking periodically or summarizing the key points so the argument doesn't depend on it.
+
+-->
 
 <style lang="scss">
 </style>

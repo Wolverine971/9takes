@@ -1,4 +1,4 @@
-<!-- docs/brand/solo-leveling-visual-guide.md -->
+<!-- docs/design/solo-leveling-visual-guide.md -->
 
 # 9takes — Solo Leveling Visual Style Guide
 

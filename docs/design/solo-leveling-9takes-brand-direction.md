@@ -1,4 +1,4 @@
-<!-- docs/brand/solo-leveling-9takes-brand-direction.md -->
+<!-- docs/design/solo-leveling-9takes-brand-direction.md -->
 
 # 9takes Brand Direction: Solo Leveling Aesthetic + Personality Maxing
 
