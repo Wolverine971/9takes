@@ -154,7 +154,7 @@ But most modern discourse doesn’t start here. It starts with rationality.
 Steven Pinker represents the best version of this argument. In his book _Rationality_, he traces how human reasoning abilities have produced extraordinary results — the scientific method, democratic institutions, declining violence over centuries. Here he is making the case:
 
 <div class=”iframe-container”>
-<iframe width=”100%” height=”315” loading=”lazy” src=”https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&clipt=EOjvARjzygM” title=”Pinker’s call for rationality” frameborder=”0” allow=”accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” allowfullscreen></iframe>
+<iframe width=”100%” height=”315” loading=”lazy” src={“https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&clipt=EOjvARjzygM”} title=”Pinker’s call for rationality” frameborder=”0” allow=”accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” allowfullscreen></iframe>
 </div>
 
 _In this clip, Pinker argues that the world is sliding toward chaos and that rationality is the cure — that human progress (science, medicine, democracy) happened because we learned to reason, and the path forward requires more of the same._
@@ -187,7 +187,7 @@ This isn't just ancient philosophy. Modern neuroscience is saying the same thing
 [Andrew Huberman](https://www.youtube.com/@hubermanlab) and psychiatrist Dr. Paul Conti, M.D. (who trained at Stanford School of Medicine) discuss this exact iceberg model on the Huberman Lab podcast. Their key point: what we're consciously aware of — our rational thoughts — sits on top of a vast unconscious structure that drives most of our behavior. The conscious mind doesn't run the show nearly as much as we think it does.
 
 <div class="iframe-container" >
-<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/tLRCS48Ens4?si=Jt2NsKputVcqcHfy&start=1221" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src={"https://www.youtube.com/embed/tLRCS48Ens4?si=Jt2NsKputVcqcHfy&start=1221"} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Huberman and Conti developed their own version of the iceberg model (<a class="external-link" target="_blank" rel="noreferrer" href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">view the full PDF here</a>) that breaks down the layers of consciousness in clinical terms. The takeaway is the same one Plato and Freud arrived at: rational thought is real and valuable, but it's only the visible tip of a much larger structure.
