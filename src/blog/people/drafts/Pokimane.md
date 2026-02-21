@@ -1,7 +1,7 @@
 ---
 title: "Why Pokimane Can't Stop Building Safety Nets"
 meta_title: "Why Pokimane Can't Stop Building Safety Nets (The Pattern Behind Her Empire)"
-description: "The psychology behind Pokimane's calculated rise. How a chemical engineering student became streaming royalty by turning Type 6 caution into an empire-building strategy."
+description: "She punched a kid at four and cried on a livestream at twenty-four. Inside Pokimane's personality: she doesn't fear enemies — she fears allies who turn."
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Pokimane'

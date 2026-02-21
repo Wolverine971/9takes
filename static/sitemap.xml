@@ -1265,15 +1265,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Tom-Hardy</loc>
-    <lastmod>2024-07-12T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Tom-Hardy.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Nancy-Pelosi</loc>
     <lastmod>2024-08-30T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1805,15 +1796,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Reed-Hastings</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Reed-Hastings.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Selena-Gomez</loc>
     <lastmod>2025-12-03T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2144,6 +2126,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/Tim-Dillon.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Tom-Hardy</loc>
+    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Tom-Hardy.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -3134,6 +3125,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Post-Malone.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Reed-Hastings</loc>
+    <lastmod>2026-02-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Reed-Hastings.webp</image:loc>
     </image:image>
 </url>
 <url>

@@ -2,7 +2,7 @@
 title: 'Jason Calacanis: The All-In Achiever Who Turned Hustle Into an Empire'
 meta_title: 'Jason Calacanis Enneagram Type 3 | Inside His Achiever Mind'
 persona_title: "Silicon Valley's Hype Man"
-description: 'Explore how Jason Calacanis embodies Enneagram Type 3. From Brooklyn bar kid to White House AI summit host, discover the psychology behind the grind.'
+description: "Jason Calacanis called his biggest failure 'a double.' From Brooklyn bar kid to billionaire poker tables, he can't stop performing success."
 author: 'DJ Wayne'
 date: '2023-07-30'
 loc: 'https://9takes.com/personality-analysis/Jason-Calacanis'

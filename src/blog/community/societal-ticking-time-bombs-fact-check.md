@@ -1,4 +1,5 @@
 <!-- src/blog/community/societal-ticking-time-bombs-fact-check.md -->
+
 ## High-confidence accurate (keep, maybe add context)
 
 ### SSRIs / psychiatry section

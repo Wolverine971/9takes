@@ -1,7 +1,7 @@
 ---
 title: "Zendaya: The Mind Behind Hollywood's Most Strategic Rise"
 meta_title: "Why Zendaya Can't Stop Preparing for Everything (Type 6 Explained)"
-description: "The psychology behind Zendaya's anxiety, calculated career moves, and refusal to play the celebrity game. Her Type 6 personality explains everything."
+description: 'Zendaya admits anxiety nearly broke her as a child. Now that same hypervigilance fuels the most calculated career in Hollywood.'
 author: 'DJ Wayne'
 date: '2025-03-04'
 loc: 'https://9takes.com/personality-analysis/Zendaya'

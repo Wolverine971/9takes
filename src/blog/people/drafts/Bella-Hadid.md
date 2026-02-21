@@ -1,7 +1,7 @@
 ---
 title: "Bella Hadid: The Supermodel's Battle for Identity, Health & Authenticity"
 meta_title: "Why Bella Hadid Can't Stop Searching for Her True Self"
-description: "Explore how Bella Hadid's Enneagram Type 4 personality drives her struggles with identity, health battles, and quest for authenticity beyond modeling."
+description: "She got a nose job at 14 and lost the face of her ancestors before knowing who she was. Bella Hadid's search for identity started with erasure."
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Bella-Hadid'

@@ -2,7 +2,7 @@
 title: 'Millie Bobby Brown: The Girl Who Was Always Too Much of What She Is'
 meta_title: "Why Millie Bobby Brown Can't Stop Giving (Even When It Costs Her Everything)"
 persona_title: "Hollywood's Youngest Rescuer"
-description: "How Millie Bobby Brown's Type 2 personality explains her adoption at 21, her 62-animal farm, and the fight that finally made her stop apologizing."
+description: "At ten, too mature. At twenty-one, aging too fast. Millie Bobby Brown is always too much of what she naturally is — and she can't stop giving anyway."
 author: 'DJ Wayne'
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/Millie-Bobby-Brown'

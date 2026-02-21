@@ -1,7 +1,7 @@
 ---
 title: 'Emma Watson: Hermione to HeForShe - The Type 1 Psychology of Her Principled Activism'
 meta_title: 'Why Is Emma Watson So Private? Her Type 1 Personality Explained'
-description: "Why is Emma Watson so private and selective about her roles? We analyze the psychology behind her perfectionism, JK Rowling rift, and 'construction work' sabbatical—her Type 1 personality reveals everything."
+description: "She broke with the woman who made her famous, vanished from Hollywood, and enrolled in a PhD at Oxford. Emma Watson's inner critic runs everything."
 author: 'DJ Wayne'
 date: '2025-10-08'
 loc: 'https://9takes.com/personality-analysis/Emma-Watson'

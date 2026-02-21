@@ -2,7 +2,7 @@
 title: 'Lex Fridman: The Holy Fool Who Chose to Listen'
 meta_title: 'Why Lex Fridman Sits Outside 7-Eleven at 2am Feeling Lonely'
 persona_title: "Podcasting's Holy Fool"
-description: 'Inside the psychology of Lex Fridman — the man who talks to everyone but sits alone at 2am. An Enneagram Type 5 analysis.'
+description: "Five million subscribers and he's outside a 7-Eleven at 2am, feeling lonely. Lex Fridman built the world's biggest listening booth to find himself."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Lex-Fridman'

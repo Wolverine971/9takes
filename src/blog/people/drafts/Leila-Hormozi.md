@@ -1,7 +1,7 @@
 ---
 title: "Leila Hormozi: The Debt She's Still Paying Has Nothing to Do With Money"
 meta_title: "Inside Leila Hormozi's Mind: The Dark Past Behind Her $100M Empire"
-description: 'From 6 arrests to $100M CEO - discover how Leila Hormozi transformed chaos into success through her Type 3 Achiever personality'
+description: "Leila Hormozi said 'I'd sleep with you under a bridge' and 'we're assets to each other.' The personality behind both: shame is the engine."
 author: 'DJ Wayne'
 date: '2025-01-06'
 loc: 'https://9takes.com/personality-analysis/Leila-Hormozi'

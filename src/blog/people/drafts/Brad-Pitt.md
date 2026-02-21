@@ -1,7 +1,7 @@
 ---
 title: "Brad Pitt: Hollywood's Most Peaceful A-List Powerhouse"
 meta_title: "Brad Pitt's Hidden Personality: What His Enneagram Reveals"
-description: "Discover how Brad Pitt's Type 9 Enneagram explains his acting choices, relationships, and evolution from heartthrob to Oscar-winning producer and humanitarian."
+description: "He matched Gwyneth's haircut, Aniston's world, Jolie's mission. Brad Pitt disappeared into every relationship — until his kids noticed."
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Brad-Pitt'

@@ -1,7 +1,7 @@
 ---
 title: 'Oprah Winfrey: The Type 2 Psychology Behind Her Empire of Connection & Empathy'
 meta_title: "Inside Oprah's 'Disease to Please': The Childhood Wound Driving Her Empire"
-description: "Discover how Oprah Winfrey's Enneagram Type 2 personality shaped her journey from a traumatic childhood to becoming an empathetic media icon."
+description: "Childhood beatings taught Oprah Winfrey one rule: give people what they want or get punished. That 'disease to please' psychology built a $2.8B empire."
 author: 'DJ Wayne'
 date: '2024-08-30'
 loc: 'https://9takes.com/personality-analysis/Oprah-Winfrey'

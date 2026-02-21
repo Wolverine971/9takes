@@ -1,7 +1,7 @@
 ---
 title: 'George R.R. Martin: The Enneagram Type 5 Who Built Westeros From a Toy Turtle Castle'
 meta_title: "Why George R.R. Martin Can't Finish The Winds of Winter (The Psychology Explained)"
-description: 'Discover why GRRM struggles with deadlines and what his perfectionism reveals about his Enneagram Type 5 personality.'
+description: "George R.R. Martin turned pet turtle deaths into epic fantasy. Now he's trapped in a world so detailed even its creator can't escape."
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/George-RR-Martin'

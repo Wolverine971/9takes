@@ -2,7 +2,7 @@
 title: 'Chris Williamson: The Self-Improvement Host Still Searching for the Self'
 meta_title: "Why Chris Williamson Can't Stop Optimizing His Life (The Pattern Behind It)"
 persona_title: "Podcasting's Relentless Optimizer"
-description: 'Why does Chris Williamson push so hard? Explore how his Enneagram Type 3 personality drives his podcast empire and constant reinvention.'
+description: 'As a kid, Chris Williamson studied which shoulder classmates carried their bags on. That same psychology now runs 800 podcast interviews — and himself.'
 author: 'DJ Wayne'
 date: '2026-02-08'
 loc: 'https://9takes.com/personality-analysis/Chris-Williamson'

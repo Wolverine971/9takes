@@ -1,7 +1,7 @@
 ---
 title: 'Tim Robinson: The Mind That Turns Every Awkward Moment Into Art'
 meta_title: "Why Tim Robinson Can't Stop Making Us Cringe (The Psychology Explained)"
-description: "Explore why Tim Robinson's comedy of social discomfort resonates so deeply. His Type 4 personality transforms anxiety into comedic gold."
+description: "Fired from SNL, Tim Robinson turned social anxiety into Emmy-winning art. His comedy exposes why we'd rather spiral than admit a mistake."
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Tim-Robinson'

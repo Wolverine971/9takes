@@ -2,7 +2,7 @@
 title: 'Hasan Piker: The Enneagram Type 8 Who Streams His Rage'
 meta_title: 'Why Hasan Piker Never Apologizes: The Type 8 Psychology Explained'
 persona_title: "Twitch's Political Firebrand"
-description: "Explore Hasan Piker's Type 8 personality through his rise as Twitch's most controversial political streamer and the psychology behind his confrontational style."
+description: "Hasan Piker got banned for the 9/11 quote and refused to take it back. Inside the psychology of Twitch's most confrontational streamer."
 author: 'DJ Wayne'
 date: '2026-01-07'
 loc: 'https://9takes.com/personality-analysis/Hasan-Piker'

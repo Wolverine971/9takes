@@ -2,7 +2,7 @@
 title: 'Doja Cat: The Chaotic Genius Behind the Memes, Meltdowns & Musical Mastery'
 meta_title: "Inside Doja Cat's Mind: Why She Can't Stop Burning It All Down"
 persona_title: "Pop's Unpredictable Shapeshifter"
-description: "Explore Doja Cat's psychology: how a SoundCloud bedroom producer became pop's most unpredictable force through her Enneagram Type 7 personality."
+description: "She lost 250,000 fans and celebrated. Doja Cat turned chaos, head-shaving, and fan rebellion into pop's most unpredictable career — on purpose."
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Doja-Cat'

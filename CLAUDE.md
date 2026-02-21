@@ -63,10 +63,18 @@ src/
 │   ├── validation/            # Zod schemas
 │   └── utils/                 # Shared utilities
 ├── blog/                      # Markdown content files
-│   ├── enneagram/            # Enneagram educational content
 │   ├── community/            # Community posts
+│   ├── enneagram/            # Enneagram educational content
+│   ├── generational/         # Generational personality content
 │   ├── guides/               # How-to guides
-│   └── people/               # Famous people (drafts only)
+│   ├── historical/           # Historical figures content
+│   ├── life-situations/      # Life situation perspectives
+│   ├── life-style/           # Lifestyle content
+│   ├── overview/             # Enneagram overview content
+│   ├── people/               # Famous people (drafts only)
+│   ├── pop-culture/          # Pop culture analysis
+│   ├── situational/          # Situational content
+│   └── topical/              # Topical content
 └── scss/                      # Global SCSS styles
 ```
 
@@ -104,6 +112,10 @@ All other blog routes use `import.meta.glob` to load markdown files at build tim
 | `/admin/drafts`           | Blog draft management                                   |
 | `/admin/search`           | Search index management                                 |
 | `/admin/poster-generator` | Social media image generation                           |
+| `/admin/analytics`        | Site analytics and metrics                              |
+| `/admin/blog-diff`        | Blog content diff viewer                                |
+| `/admin/links`            | Link management                                         |
+| `/admin/messages`         | Message management                                      |
 
 ## Key Database Tables
 

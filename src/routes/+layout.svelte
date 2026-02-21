@@ -32,6 +32,8 @@
 	// Constants
 	const VERCEL_ANALYTICS_ID = import.meta.env.VERCEL_ANALYTICS_ID;
 	const PUBLIC_GOOGLE = import.meta.env.PUBLIC_GOOGLE;
+	const PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS =
+		String(import.meta.env.PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS || '').toLowerCase() === 'true';
 	const MAX_WIDTH_PAGES = ['/', '/content-board'];
 	const ANALYTICS_SESSION_STORAGE_KEY = '9t_analytics_session_key';
 	const ANALYTICS_SESSION_LAST_SEEN_STORAGE_KEY = '9t_analytics_session_last_seen';
@@ -205,7 +207,7 @@
 	}
 
 	async function startAnalyticsVisit(pathname: string, routeId: string | null) {
-		if (!browser || dev) return;
+		if (!browser || (dev && !PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS)) return;
 
 		const normalizedPath = normalizePath(pathname);
 		if (!shouldTrackPath(normalizedPath)) {
@@ -277,7 +279,7 @@
 	}
 
 	function initializePageAnalytics() {
-		if (!browser || dev || analyticsInitialized) return;
+		if (!browser || (dev && !PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS) || analyticsInitialized) return;
 		analyticsInitialized = true;
 
 		window.addEventListener('pointerdown', markAnalyticsActivity, { passive: true });

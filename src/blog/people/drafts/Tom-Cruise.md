@@ -1,7 +1,7 @@
 ---
 title: 'Tom Cruise: The Man Who Became the Character'
 meta_title: "Tom Cruise Didn't Just Build a Career — He Replaced Himself"
-description: 'Thomas Cruise Mapother IV became Tom Cruise and never went back. Inside the Type 3 psychology of a man who has been performing himself for forty years.'
+description: "Thomas Mapother IV attended 15 schools in 14 years, then erased himself completely. 'Tom Cruise' is the longest-running performance in Hollywood."
 author: 'DJ Wayne'
 date: '2024-07-09'
 loc: 'https://9takes.com/personality-analysis/Tom-Cruise'

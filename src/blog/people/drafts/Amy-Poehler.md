@@ -1,6 +1,6 @@
 ---
 title: "Amy Poehler: The Fierce Protector Behind Comedy's Warmest Smile"
-description: "Explore how Amy Poehler's Type 8 personality drives her leadership, fierce loyalty, and mission to empower others through comedy."
+description: "'I don't care if you like it.' Amy Poehler said it to Fallon's face at SNL — then built three organizations so other women could say it too."
 author: 'DJ Wayne'
 date: '2025-12-03'
 loc: 'https://9takes.com/personality-analysis/Amy-Poehler'

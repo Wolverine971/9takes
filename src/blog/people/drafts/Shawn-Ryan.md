@@ -19,7 +19,37 @@ twitter: 'ShawnRyan762'
 instagram: 'shawnryan762'
 tiktok: 'shawnryan762'
 path: src/blog/people/drafts/Shawn-Ryan.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9.5
+  overall: 9.1
+  letter: A
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: A (9.1)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9.5
+
+FEEDBACK (2026-02-20):
+- The hook is precise and devastating — mentioning his suicide attempt mid-sentence then pivoting to veteran statistics. "No pause. No lingering. Just data." Three sentences that capture the entire Type 5 psychology.
+- Multiple signature details that each independently make the analysis click:
+  (1) Reconstructing his own suicide attempt from physical evidence like an operational incident report
+  (2) "Even in ego death, the observer wanted to watch" — choosing no eye mask during 5-MeO-DMT
+  (3) "He describes his father's emotion. Not his own." — the observer who can't stop observing at rock bottom
+  (4) Colombia drug mapping as intelligence operation — the analytical mind doesn't switch off even in self-destruction
+  (5) Amy the liberal South Florida therapist who taught him interviewing
+- The counter-typing section ("What Doesn't Fit the Type 5 Reading") shows rare intellectual integrity — acknowledging the combat hunger, restaurant meltdown, and passionate advocacy that break the mold.
+- The father-son thread (military pharmacist → BUD/S motivation → Colombia mother's voice → father over the bed → now a father himself) is beautifully sustained across the entire piece.
+- The ibogaine section is remarkable writing: "concentrate on not trying to concentrate" captures the Type 5's ultimate challenge — surrendering mental control.
+
+- NEEDS WORK: The "Where Shawn Ryan Goes From Here" section slightly drifts into summary/recap territory, though the advocacy for psychedelic therapy redeems it.
+- MINOR: Growth arrow (Type 5 → Type 8 in health) isn't explicitly named, though the confrontational episodes serve this function implicitly.
+
+- TO REACH A+: (1) Name the growth arrow explicitly — his political confrontations (Crenshaw, Trump) and moral reckoning show Type 8 integration. (2) Tighten the final section — cut the podcast stats recap (already covered) and end closer to "the man who lost access to his emotions is trying to raise kids who never have to." That's the real ending. (3) Consider whether the "When Data Overrides Loyalty" section could be restructured for even more impact — the Trump reckoning is the strongest beat there.
+-->
 
 <p class="firstLetter">On Joe Rogan's podcast, Shawn Ryan mentions his suicide attempt mid-sentence. "I was, I mean I tried to kill myself." Then he pivots to veteran statistics. No pause. No lingering. Just data.</p>
 

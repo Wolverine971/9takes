@@ -1,7 +1,7 @@
 ---
 title: 'Gwyneth Paltrow: The Perfectionist Who Built an Empire on Doing Things Right'
 meta_title: "Inside Gwyneth Paltrow's Relentless Drive to Fix Everything (Including You)"
-description: "Explore Gwyneth Paltrow's Type 1 psychology, her perfectionism, wellness obsession, and why criticism cuts so deep."
+description: "She calls her suppressed rage the 'evil shadow.' Gwyneth Paltrow built Goop, conscious uncoupling, and a wellness empire from one compulsion: be good, or be nothing."
 author: 'DJ Wayne'
 date: '2025-12-04'
 loc: 'https://9takes.com/personality-analysis/Gwyneth-Paltrow'

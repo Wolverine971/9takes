@@ -1,7 +1,7 @@
 ---
 title: 'Bad Bunny: The Psychology Behind the Conejo Malo'
 meta_title: "Inside Bad Bunny's Mind: Why He Can't Stop Reinventing Himself"
-description: "Explore Bad Bunny's Type 7 personality through his fearless reinvention, Puerto Rican pride, and relentless pursuit of creative freedom."
+description: 'Bad Bunny went from supermarket bagger to billionaire, never making the same album twice — until his latest forced him to stand still.'
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Bad-Bunny'

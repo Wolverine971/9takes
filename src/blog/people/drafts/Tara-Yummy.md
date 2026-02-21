@@ -2,7 +2,7 @@
 title: "Tara Yummy: The Coolest Girl on the Internet Can't Stop Caring"
 meta_title: "The Real Tara Yummy: Why the Internet's Coolest Girl Can't Stop Caring"
 persona_title: "The Internet's Warm-Hearted Party Girl"
-description: "Inside Tara Yummy's Type 2 personality — how the girl who doesn't care actually cares about everyone."
+description: 'Tara Yummy was called fake in high school for being too nice. Inside the personality that walked into LA parties alone and built a career out of warmth.'
 author: 'DJ Wayne'
 date: '2026-02-17'
 loc: 'https://9takes.com/personality-analysis/Tara-Yummy'

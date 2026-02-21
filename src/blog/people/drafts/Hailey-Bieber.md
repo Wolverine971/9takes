@@ -1,6 +1,6 @@
 ---
 title: 'Hailey Bieber: The Billion-Dollar Brand Behind the Balanced Exterior'
-description: 'Explore how Hailey Bieber built Rhode into a billion-dollar empire while battling anxiety, trolls, and the relentless need to prove her worth.'
+description: 'Hailey Bieber built Rhode into a billion-dollar brand in three years. The personality behind the polish? A belief that love must be earned, never given.'
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Hailey-Bieber'

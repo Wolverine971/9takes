@@ -1,6 +1,6 @@
 ---
 title: "Princess Diana: The Helper Who Became the People's Princess"
-description: "Explore how Princess Diana's Enneagram Type 2 personality drove her from royal rejection to becoming the world's most beloved humanitarian."
+description: 'Princess Diana waited on a doorstep at five for a mother who never came back. Her entire personality — the giving, the rebellion — was an answer to that moment.'
 author: 'DJ Wayne'
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/Princess-Diana'

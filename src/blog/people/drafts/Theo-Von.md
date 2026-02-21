@@ -19,7 +19,42 @@ twitter: 'TheoVon'
 instagram: 'theovon'
 tiktok: 'theovon'
 path: src/blog/people/drafts/Theo-Von.md
+content_quality:
+  hook: 10
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9.5
+  originality: 10
+  overall: 9.7
+  letter: A+
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: A+ (9.7)
+Hook: 10 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9.5 | Originality: 10
+
+FEEDBACK (2026-02-20):
+- This is calibration-anchor quality. The hook is the best in the entire draft collection: Netflix taping, 20 years off antidepressants, bombed, one-third walked out, suicidal comment, then "I'll eat failure for breakfast." Six sentences that crystallize the entire thesis.
+- The Type 7 framework as engine is exceptional:
+  - "Make them laugh and they'll let you sleep on their couch" — the giving as survival
+  - "Fuse monkey" — fake intimacy as Type 7 avoidance of depth
+  - "Even his faith has an exit door" — Bible study described as "tomorrow we're watching a movie"
+  - The Beacon Theatre as the night a Type 7 deliberately tried to feel instead of reframe
+- Signature details that individually justify the analysis:
+  (1) Father born ~1910 in Nicaragua, 70 when Theo was born — the generational impossibility
+  (2) "You can't break up with me, you're my mother" — blurted out without understanding
+  (3) Darryl Strawberry / cocaine night — childhood hero as mirror
+  (4) DHS deportation video vs. father's framed immigration papers — political wound meeting personal wound
+  (5) Pete Davidson conversation: "I don't want to desert them" — pain as oldest relationship
+- "What Theo Von Actually Sounds Like" section is something personality analyses almost never do, and it's brilliantly executed. "Bees are Satan's little German Shepherds" doesn't just describe his comedy — it demonstrates the specific intelligence.
+- The ending is devastating: "The pain isn't the enemy. The pain is the oldest relationship he has."
+- Evidence is extraordinary — Tim Fletcher, Dax Shepard, Joe Rogan, Howard Stern, Call Her Daddy, Pete Davidson conversations all deployed precisely.
+
+- MINOR: Wings not discussed. Type 7's relationship to Type 1 (growth) and Type 5 (stress) not explicitly named, though the substance abuse patterns show stress dynamics implicitly.
+- MINOR: The Charlie Kirk assassination paragraph could be tightened — it's important context but slightly disrupts the psychological flow.
+
+- Publish immediately. This is among the best in the collection alongside Peter Thiel and Greta Thunberg.
+-->
 
 > "I wanted to have a little more emotion during it. I just wanted to have some more feelings."
 

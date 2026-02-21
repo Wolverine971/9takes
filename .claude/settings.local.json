@@ -1023,7 +1023,12 @@
 			"WebFetch(domain:www.texasmonthly.com)",
 			"WebFetch(domain:www.mensjournal.com)",
 			"WebFetch(domain:tasteofcountry.com)",
-			"WebFetch(domain:peacecorpsworldwide.org)"
+			"WebFetch(domain:peacecorpsworldwide.org)",
+			"WebFetch(domain:www.educationnext.org)",
+			"WebFetch(domain:www.gsb.stanford.edu)",
+			"WebFetch(domain:news.stanford.edu)",
+			"WebFetch(domain:fs.blog)",
+			"Bash(git:*)"
 		],
 		"deny": [],
 		"ask": [],

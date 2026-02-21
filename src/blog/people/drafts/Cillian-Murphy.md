@@ -1,6 +1,6 @@
 ---
 title: 'Cillian Murphy: The Invisible Man Behind Intense Eyes'
-description: "Why Cillian Murphy embodies the Enneagram Type 5 personality. Explore his psychology, intensity, and how he became Hollywood's most private star."
+description: 'No internet at home. No social media. No smartphone. Cillian Murphy built the most extreme privacy fortress in Hollywood — then empties himself completely on screen.'
 author: 'DJ Wayne'
 date: '2024-12-03'
 loc: 'https://9takes.com/personality-analysis/Cillian-Murphy'

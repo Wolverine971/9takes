@@ -2,7 +2,7 @@
 title: 'Zohran Mamdani: Three Continents, No Home, and a Need to Belong'
 meta_title: "Why Zohran Mamdani Can't Stop Showing Up for Everyone"
 persona_title: "New York's Devoted Outsider"
-description: "How NYC's youngest mayor in over a century built his career on a need to belong through service — and what the Enneagram reveals about the pattern."
+description: "Three continents by age seven. A failed rapper named Young Cardamom. Then Zohran Mamdani became NYC's youngest mayor — driven by the psychology of belonging."
 author: 'DJ Wayne'
 date: '2026-02-18'
 loc: 'https://9takes.com/personality-analysis/Zohran-Mamdani'

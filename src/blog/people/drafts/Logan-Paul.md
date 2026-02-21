@@ -2,7 +2,7 @@
 title: 'Logan Paul: The Achiever Who Turned Attention Into an Empire'
 meta_title: "Why Logan Paul Can't Stop Reinventing Himself (Prime, WWE, and the Need to Win)"
 persona_title: 'The Redemption Entrepreneur'
-description: 'Logan Paul is an Enneagram Type 3: relentless reinvention, image repair, and the drive to turn attention into legitimacy.'
+description: 'Logan Paul went from isolated kid to state wrestler to viral star to WWE fighter. The personality behind every pivot: turning attention into respect.'
 author: 'DJ Wayne'
 date: '2026-02-18'
 loc: 'https://9takes.com/personality-analysis/Logan-Paul'

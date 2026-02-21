@@ -1,7 +1,7 @@
 ---
 title: "Tim Cook: The Quiet Perfectionist Running the World's Most Valuable Company"
 meta_title: "Why Tim Cook's Moral Compass Made Him Steve Jobs' Successor"
-description: "How Tim Cook's perfectionism, values-driven leadership, and inner discipline shaped Apple. Explore his Enneagram Type 1 personality."
+description: "Tim Cook calls inventory 'fundamentally evil' and wakes at 3:45 AM. The personality forged by a childhood cross burning in Alabama."
 author: 'DJ Wayne'
 date: '2025-12-05'
 loc: 'https://9takes.com/personality-analysis/Tim-Cook'

@@ -2,7 +2,7 @@
 title: "Aubrey Plaza's Type 6 Mind: Beyond the Deadpan Facade"
 meta_title: "Inside Aubrey Plaza's Anxious Mind: The Hidden Security-Seeker Behind the Deadpan Queen"
 persona_title: "Comedy's Deadpan Skeptic"
-description: "Explore how Aubrey Plaza's Enneagram Type 6 traits shape her anxiety, acting choices, and deadpan humor from Parks and Recreation to White Lotus and Legion."
+description: 'She had a stroke at 20 and her friends thought it was a bit. Aubrey Plaza turned lifelong anxiety into deadpan armor — then picked roles that weaponize the fear.'
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Aubrey-Plaza'

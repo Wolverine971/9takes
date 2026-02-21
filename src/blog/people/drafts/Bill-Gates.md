@@ -1,7 +1,7 @@
 ---
 title: 'Bill Gates: The Enneagram Type 5 Mind Behind Microsoft and Global Philanthropy'
 meta_title: "Bill Gates' Greatest Fear Will Surprise You (It Explains Everything)"
-description: "Discover how Bill Gates' Type 5 personality, from childhood therapy to his fear of his brain stopping, shaped Microsoft's rise and his $200B philanthropy pledge."
+description: "Bill Gates's greatest fear isn't losing his fortune. It's his brain going dark. That terror built Microsoft and a $200B giving pledge."
 author: 'DJ Wayne'
 date: '2024-07-09'
 loc: 'https://9takes.com/personality-analysis/Bill-Gates'

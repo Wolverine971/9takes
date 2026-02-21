@@ -1,7 +1,7 @@
 ---
 title: "Andrew Huberman: Inside the Mind of Neuroscience's Most Influential Voice"
 meta_title: "Why Andrew Huberman Can't Stop Optimizing Everything | The Pattern Behind the Protocols"
-description: "Explore Andrew Huberman's Type 5 psychology - from feral skateboarder to Stanford professor and how his obsessive research drive shapes his wellness empire."
+description: 'Andrew Huberman had a childhood tic he could only control by learning. That same psychology now runs a wellness empire — and nearly destroyed his personal life.'
 author: 'DJ Wayne'
 date: '2025-12-21'
 loc: 'https://9takes.com/personality-analysis/Andrew-Huberman'

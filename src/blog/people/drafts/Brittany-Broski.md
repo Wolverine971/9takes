@@ -2,7 +2,7 @@
 title: "Brittany Broski: The Chaos That's Never Out of Control"
 meta_title: "Why Brittany Broski Can't Stop Chasing the Next Obsession"
 persona_title: "The Internet's Enthusiastic Chaos Agent"
-description: "Explore Brittany Broski's Type 7 personality - how military childhood, viral fame, and ADHD energy shaped the internet's most authentic creator."
+description: "A military brat who learned to make every new situation entertaining. Brittany Broski's chaos is a system — and the mask slips more than she admits."
 author: 'DJ Wayne'
 date: '2026-01-07'
 loc: 'https://9takes.com/personality-analysis/Brittany-Broski'

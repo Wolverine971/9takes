@@ -2,7 +2,7 @@
 title: "Dolly Parton: Inside the Heart of Country's Generous Icon"
 meta_title: 'Why Dolly Parton Gives So Much (The Psychology Behind Her Generosity)'
 persona_title: "Country's Beloved Fairy Godmother"
-description: "Discover how Dolly Parton's Enneagram Type 2 personality drives her legendary generosity, from the Imagination Library to Dollywood."
+description: "The doctor who delivered Dolly Parton was paid in cornmeal. Now she's worth $650M — the personality behind the velvet glove hides an iron fist."
 author: 'DJ Wayne'
 date: '2026-02-04'
 loc: 'https://9takes.com/personality-analysis/Dolly-Parton'

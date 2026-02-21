@@ -2,7 +2,7 @@
 title: 'Rihanna: Nine Years of Silence and Not a Single Apology'
 meta_title: "Inside Rihanna's Mind: The Type 8 Psychology Behind Her Empire"
 persona_title: "Pop's Unbothered Mogul"
-description: "Discover how Rihanna's Type 8 Enneagram personality shaped her journey from Barbadian singer to billionaire mogul with three kids and a $3B empire."
+description: "Nine years away from music at her peak, and not a single apology. Rihanna's detachment isn't a pose — it's her actual operating system."
 author: 'DJ Wayne'
 date: '2025-03-25'
 loc: 'https://9takes.com/personality-analysis/Rihanna'

@@ -1,7 +1,7 @@
 ---
 title: "Jared Leto: The Man Who Can't Stop Disappearing"
 meta_title: "Inside Jared Leto's Mind: The Boy Who Lost His Father and Never Stopped Becoming Someone Else"
-description: 'Jared Leto lost his father at 8, then spent a lifetime trying on other identities. His Type 4 personality explains why the Oscar-winning method actor can become anyone — except himself.'
+description: "Jared Leto lost his father at 8 and never stopped trying on new identities. Oscar roles, platinum records, tech bets — the personality he can't play is his own."
 author: 'DJ Wayne'
 date: '2025-03-10'
 loc: 'https://9takes.com/personality-analysis/Jared-Leto'

@@ -30,6 +30,22 @@ content_quality:
 path: src/blog/people/drafts/Meghan-Markle.md
 ---
 
+<!-- QUALITY GRADE: B+ (8.9)
+Hook: 9 | Enneagram: 9 | Evidence: 8.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-02-20):
+- The calligraphy hook is the best in the entire draft collection — "freelance calligrapher" to "most polarizing woman in the English-speaking world" is a perfect setup that nobody leads with. Robin Thicke's wedding invitations is the kind of specificity that makes it land.
+- The Type 3 vs Type 2 contrast panel ("What a Type 3 Would Say" vs "What Meghan Actually Said") is the strongest counter-typing I've seen in any blog. It's visual, concrete, and immediately convincing.
+- The Diana comparison is genuinely novel: same Type 2, different defenses. "Diana asked: What did I do wrong? Meghan asked: What did they do wrong?" crystallizes the distinction perfectly.
+- The census form thread — blank form at age 12, erasing her box when she shut down The Tig, the question that keeps returning — gives the piece structural unity.
+- Staff turnover section framed through Type 2 lens (staff as facilitators not recipients) is a genuine "aha moment."
+
+- NEEDS WORK: The "Brand That Is Also a Kitchen" section gets catalog-like with launch details (podcast, Netflix show, Paris Fashion Week, TIME100 Summit, brand relaunch). Trim 30% — keep only what serves the psychological analysis.
+- NEEDS WORK: Some sourcing could be more precise — "critics called it," unnamed PR agency quotes, and some staff criticism from unnamed sources.
+
+- TO REACH A: (1) Tighten the brand section — cut the Netflix show ratings and deal details down to one sentence. (2) Find one more specific attributed quote for the staff criticism (named source). (3) The "Fault Line" section about the UK return tension is excellent — consider whether it could be the ending instead of the current final section. The current ending is strong but the Montecito paragraph might be even stronger as the closer.
+-->
+
 > "I never thought that this would have easy, but I thought it would be fair. And that's the part that's really hard to reconcile."
 
 <p class="firstLetter">Before she was a duchess, before she was a tabloid target, before she was the most polarizing woman in the English-speaking world, Meghan Markle was a freelance calligrapher.</p>

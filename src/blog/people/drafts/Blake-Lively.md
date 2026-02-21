@@ -2,7 +2,7 @@
 title: 'Blake Lively: Inside the Most Curated Life in Hollywood'
 meta_title: "Inside Blake Lively's Mind: The Control Pattern That Explains Everything"
 persona_title: 'The Immaculately Curated'
-description: "What drives Blake Lively's need for total control? An Enneagram Type 1 analysis, from styling herself to the It Ends With Us fallout."
+description: "Even Taylor Swift couldn't reach her through the performance. Blake Lively's 20-year curation habit finally cracked in public."
 author: 'DJ Wayne'
 date: '2025-03-05'
 loc: 'https://9takes.com/personality-analysis/Blake-Lively'

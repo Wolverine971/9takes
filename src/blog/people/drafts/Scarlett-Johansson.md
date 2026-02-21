@@ -1,7 +1,7 @@
 ---
 title: 'Scarlett Johansson: The Peaceful Core of a Hollywood Force'
 meta_title: "Inside Scarlett Johansson's Mind: Why Hollywood's Most Bankable Star Craves Quiet | Enneagram Type 9"
-description: "Discover why Scarlett Johansson, the highest-grossing actor ever, is actually a peace-seeking Type 9 who built boundaries to survive Hollywood's chaos."
+description: "Scarlett Johansson grew up on food stamps and got passed over for her brother at seven. Her personality turned quiet rejection into Hollywood's steadiest force."
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Scarlett-Johansson'
@@ -18,7 +18,32 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Scarlett-Johansson.md
+content_quality:
+  hook: 7
+  enneagram: 7
+  evidence: 7
+  writing: 6
+  originality: 6
+  overall: 6.6
+  letter: D
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: D (6.6)
+Hook: 7 | Enneagram: 7 | Evidence: 7 | Writing: 6 | Originality: 6
+
+FEEDBACK (2026-02-20):
+- The Chris Evans "older sister" detail from the TIME100 tribute is the best opening beat — he's three years older but describes himself as the younger sibling. That's a concrete illustration of Type 9 grounding presence.
+- The OpenAI confrontation is well-framed as Type 9 integration — said no twice (maintaining peace), then went public when boundary was crossed (Type 8 energy). This is the strongest Enneagram-as-engine section.
+- The Finding Your Roots / Yad Vashem moment connecting to Eleanor the Great directorial debut is a genuine thread — hidden family history planted a seed that took three decades to bear fruit.
+- The Disney lawsuit section correctly identifies the Type 9 shadow — held firm, won, but "wished others had spoken up." The wound of watching peers stay silent while she fought alone is specific to Type 9.
+
+- NEEDS WORK: The career catalog is bloated — Jurassic World, Phoenician Scheme, Exorcist, Just Cause, Featherwood listed with no psychological insight. Cut the "What's Next" bullet list entirely. These upcoming projects don't serve the analysis.
+- NEEDS WORK: No counter-typing. No wings. No core anger explored (Type 9 body triad). The talent agent rejecting her for her brother is a potentially devastating wound — "Type 9s already struggle with feeling overlooked" — but it's touched once and abandoned.
+
+- TO REACH C (7.0): (1) Cut the career catalog by 60% — keep only OpenAI, Disney lawsuit, and Eleanor the Great. (2) Add counter-typing — why not Type 6 (privacy-seeking, anxiety-driven)? Her no-social-media stance could be either. (3) Develop the brother rejection scene — how did that shape her Type 9 formation?
+- TO REACH B+: Major rewrite needed. Open with the brother rejection at the talent agent — the foundational wound of a Type 9 who felt invisible. Make the OpenAI confrontation the climactic reveal of what happens when a Peacemaker finally fights. Cut the "What Type 9s Can Learn" ending. Explore core anger (where does it show up beyond the lawsuits?). Find one more signature detail from her personal life.
+-->
 
 > "I value my privacy and my personal life - and I certainly don't exploit my personal life."
 

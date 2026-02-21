@@ -1,7 +1,7 @@
 ---
 title: 'Ronald Reagan: The Type 9 Peacemaker Who United America Through Optimism'
 meta_title: "Inside Ronald Reagan's Mind: The Calm Psychology Behind The Great Communicator"
-description: "Discover how Reagan's Type 9 personality shaped his presidency - from his legendary calm under pressure to his ability to connect across political divides."
+description: "He joked with surgeons while a bullet sat near his heart. Inside Ronald Reagan's personality: an unshakable calm even his own children couldn't reach."
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Ronald-Reagan'

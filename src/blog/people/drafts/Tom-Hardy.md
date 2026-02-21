@@ -1,7 +1,7 @@
 ---
 title: 'Tom Hardy: From Bane to Venom - The Type 8 Psychology of His Intense Transformations'
 meta_title: 'Tom Hardy Enneagram Type 8 | Inside His Powerful Personality'
-description: "Discover how Tom Hardy's Enneagram Type 8 personality fuels his intense performances, physical transformations, and protective nature in Hollywood's toughest roles."
+description: "'Everything I play is what scared me.' Tom Hardy has been building armor around a frightened boy since he was 25 and nearly died."
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/personality-analysis/Tom-Hardy'

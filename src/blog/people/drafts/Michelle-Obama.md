@@ -1,7 +1,7 @@
 ---
 title: "Michelle Obama: The Type 1 Mind Behind America's Most Influential First Lady"
 meta_title: "Why Michelle Obama Can't Stop Fighting for What's Right"
-description: "Explore how Michelle Obama's Type 1 perfectionism shaped her from Chicago's South Side to the White House. And why she still won't run for president."
+description: "'When they go low, we go high' isn't a slogan — it's how Michelle Obama's inner critic turned rage into moral discipline."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/personality-analysis/Michelle-Obama'
