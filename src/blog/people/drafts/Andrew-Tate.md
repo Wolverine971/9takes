@@ -1,5 +1,5 @@
 ---
-title: 'Andrew Tate: Inside the Mind of an Enneagram Type 8'
+title: 'Andrew Tate: The Armor That Became the Skin'
 meta_title: "Why Andrew Tate Can't Back Down: The Psychology Behind His Dominance"
 persona_title: "Masculinity's Unapologetic Warlord"
 description: 'Explore Andrew Tate psychology through the Enneagram Type 8 lens. Discover the childhood wounds, father influence, and fear of weakness driving his persona.'

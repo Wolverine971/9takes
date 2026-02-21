@@ -1,5 +1,5 @@
 ---
-title: 'Keke Palmer: An Enneagram Type 3 Analysis'
+title: 'Keke Palmer: Lauren Built Keke to Survive'
 meta_title: "Inside Keke Palmer's Mind: The Woman Behind the Performance"
 persona_title: "Entertainment's Self-Made Architect"
 description: 'How Keke Palmer built an unstoppable persona to survive Hollywood — and then spent years trying to find the person underneath it.'

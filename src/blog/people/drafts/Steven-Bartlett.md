@@ -19,7 +19,28 @@ twitter: 'StevenBartlett'
 instagram: 'steven'
 tiktok: 'steven'
 path: src/blog/people/drafts/Steven-Bartlett.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 8
+  writing: 8
+  originality: 8
+  overall: 8.0
+  letter: B
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: B (8.0)
+Hook: 8 | Enneagram: 8 | Evidence: 8 | Writing: 8 | Originality: 8
+
+FEEDBACK (2026-02-20):
+- STRONG: The chicken shop 13 pounds story is the blog's signature detail — "The day that I became a multi-multimillionaire versus the day that I found 13 pounds" distills the Type 3 paradox into a single vivid image. Smart placement as the first full section.
+- STRONG: The McGregor co-founder section is genuinely original — exploring how a Type 3's "sheer force of visibility" overshadows partners adds a dimension most profiles miss. McGregor's quotes ("drinking two bottles of wine a night") provide powerful contrast.
+- STRONG: The interview technique section ("silence creates space for guests to reveal themselves") is an insightful Type 3 contradiction that goes beyond typical personality labeling.
+- NEEDS WORK: No stress/growth arrows anywhere. Where does Bartlett go under stress (3→6: anxiety, doubt, seeking security)? Where does he go in health (3→6: loyalty, commitment — the Melanie arc IS this but it's never named)? The Melanie relationship IS the integration arrow in action — name it.
+- NEEDS WORK: Ending is conventional. "He's said he wants to be a 'good human'" wraps up neatly instead of cutting to black. The "How to Decode People" section is a standard CTA. The Melanie proposal or the mother reconciliation would make a sharper exit point.
+- TO REACH B+: (1) Add stress/growth arrows — the Melanie story IS the 3→6 integration arrow, name it explicitly. (2) Cut "How to Decode People" closing section — end on "Perhaps that's the point" or, better, rewrite the ending to cut to black on the engagement or the mother's kitchen. (3) Deepen the shame immersion — put the reader INSIDE 14-year-old Bartlett scrolling eBay, feeling the gap between his life and his friends'. (4) Add wing analysis — is he a 3w2 (people-pleasing, connection-seeking: the interview empathy) or 3w4 (image-conscious, emotionally intense: the confessional vulnerability)?
+-->
 
 > "What I came to learn over the years was that my ambitions were fake. They weren't ambition, they were insecurity, and there's a big distinction."
 

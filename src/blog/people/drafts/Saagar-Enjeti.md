@@ -1,5 +1,5 @@
 ---
-title: 'Saagar Enjeti: An Enneagram Type 7 Analysis'
+title: 'Saagar Enjeti: The Nine-Year-Old Who Started Running and Never Stopped'
 meta_title: "Why Saagar Enjeti Can't Stop Consuming (Books, Countries, Crusades — All of It)"
 persona_title: "Media's Restless Crusader"
 description: "Saagar Enjeti isn't a bookworm intellectual. He's a Type 7 who turns fear into forward motion across books, crusades, and careers."

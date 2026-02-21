@@ -1,5 +1,5 @@
 ---
-title: 'Jacob Elordi: An Enneagram Type 4 Personality Analysis'
+title: 'Jacob Elordi: The Identity Crisis That Turned Down Superman'
 meta_title: 'Why Jacob Elordi Keeps Choosing Roles That Mirror His Own Crisis'
 persona_title: "Cinema's Restless Apprentice"
 description: "Inside Jacob Elordi's psychology: how an unsettled kid from Brisbane became Hollywood's most reluctant heartthrob. An Enneagram Type 4 analysis."

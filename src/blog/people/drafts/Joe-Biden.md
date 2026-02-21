@@ -1,5 +1,5 @@
 ---
-title: 'Joe Biden: An Enneagram Type 2 Analysis'
+title: 'Joe Biden: Every Wound Became an Offering — Until the Last One'
 meta_title: "Joe Biden's Final Act: Why a Father Broke Every Rule for Family"
 persona_title: 'The Bridge-Builder Who Built a Wall'
 description: "Biden promised he'd never pardon Hunter. Then he did — and pardoned his siblings in his final twenty minutes as president. The Enneagram Type 2 psychology behind a lifetime of turning wounds into offerings, and the moment a father's boundaries dissolved."

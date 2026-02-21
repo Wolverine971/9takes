@@ -1,5 +1,5 @@
 ---
-title: 'Ali Abdaal: An Enneagram Type 3 Personality Analysis'
+title: "Ali Abdaal: The Helper Who Wouldn't Help If Nobody Was Watching"
 meta_title: "Why Ali Abdaal Can't Stop Optimizing (The Real Psychology Behind It)"
 persona_title: "Productivity's Polished Polymath"
 description: 'What really drives Ali Abdaal? An Enneagram Type 3 analysis of the man behind the productivity empire, from Cambridge grades to YouTube millions.'

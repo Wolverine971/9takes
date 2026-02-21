@@ -1,5 +1,5 @@
 ---
-title: 'Shia LaBeouf: An Enneagram Type 8 Personality Analysis'
+title: "Shia LaBeouf: The Clown's Son Who Never Took Off the Makeup"
 meta_title: "Why Shia LaBeouf's Apologies Are Always Louder Than His Crimes"
 persona_title: "Hollywood's Confessing Arsonist"
 description: 'How a boy in clown makeup selling hot dogs at age 3 became the most sincere — and destructive — force in Hollywood.'

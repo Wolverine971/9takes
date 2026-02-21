@@ -1,5 +1,5 @@
 ---
-title: "Tim Robinson: Enneagram Type 4 Analysis of Comedy's Awkward Genius"
+title: 'Tim Robinson: The Mind That Turns Every Awkward Moment Into Art'
 meta_title: "Why Tim Robinson Can't Stop Making Us Cringe (The Psychology Explained)"
 description: "Explore why Tim Robinson's comedy of social discomfort resonates so deeply. His Type 4 personality transforms anxiety into comedic gold."
 author: 'DJ Wayne'

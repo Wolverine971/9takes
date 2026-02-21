@@ -1,5 +1,5 @@
 ---
-title: 'Shaan Puri: An Enneagram Type 7 Analysis'
+title: 'Shaan Puri: Brilliant at Starting Chapters, Never Finishing the Book'
 meta_title: "The Real Reason Shaan Puri Can't Sit Still"
 persona_title: 'The Restless Showman'
 description: "Inside Shaan Puri's 90-second suffering budget, serial reinventions, and the psychology of never standing still."

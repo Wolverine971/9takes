@@ -1,5 +1,5 @@
 ---
-title: 'Rihanna: An Enneagram Type 8 Analysis of the Unbothered Mogul'
+title: 'Rihanna: Nine Years of Silence and Not a Single Apology'
 meta_title: "Inside Rihanna's Mind: The Type 8 Psychology Behind Her Empire"
 persona_title: "Pop's Unbothered Mogul"
 description: "Discover how Rihanna's Type 8 Enneagram personality shaped her journey from Barbadian singer to billionaire mogul with three kids and a $3B empire."

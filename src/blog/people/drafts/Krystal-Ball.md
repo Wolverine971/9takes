@@ -1,5 +1,5 @@
 ---
-title: 'Krystal Ball: An Enneagram Type 1 Analysis'
+title: "Krystal Ball: The Moral Compass That Won't Let Her Stay Comfortable"
 meta_title: "Why Krystal Ball Keeps Burning Down Her Own Career (And Can't Stop)"
 persona_title: "Media's Principled Arsonist"
 description: "How Krystal Ball's moral compass drives her to torch every comfortable position she builds — and why she can't stop."

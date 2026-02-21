@@ -1,5 +1,5 @@
 ---
-title: 'Tara Yummy: An Enneagram Type 2 Personality Analysis'
+title: "Tara Yummy: The Coolest Girl on the Internet Can't Stop Caring"
 meta_title: "The Real Tara Yummy: Why the Internet's Coolest Girl Can't Stop Caring"
 persona_title: "The Internet's Warm-Hearted Party Girl"
 description: "Inside Tara Yummy's Type 2 personality — how the girl who doesn't care actually cares about everyone."

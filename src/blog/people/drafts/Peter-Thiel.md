@@ -1,5 +1,5 @@
 ---
-title: 'Peter Thiel: An Enneagram Type 6 Personality Analysis'
+title: 'Peter Thiel: The Mind That Feared Its Way to Power'
 meta_title: "Peter Thiel Isn't Driven by Power — He's Driven by Fear"
 persona_title: "Silicon Valley's Vigilant Contrarian"
 description: 'Peter Thiel bought a parachute after 9/11, lectures on the Antichrist, and built Palantir. His Enneagram Type 6 personality explains why fear — not power — drives everything.'

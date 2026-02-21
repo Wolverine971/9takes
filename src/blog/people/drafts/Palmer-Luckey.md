@@ -1,5 +1,5 @@
 ---
-title: 'Palmer Luckey: An In-Depth Enneagram Type 7 Analysis'
+title: "Palmer Luckey: The Mind That Can't Tell a Toy From a Weapon"
 meta_title: "Inside Palmer Luckey's Mind: Why He Builds Weapons Like Toys"
 persona_title: "Middle Earth's Arms Dealer"
 description: "What drives Palmer Luckey from VR to weapons to nuclear silos? An Enneagram Type 7 analysis of defense tech's most fascinating mind."

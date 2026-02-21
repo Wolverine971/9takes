@@ -1,4 +1,5 @@
 <!-- youtube-transcript-research/raw-words.md -->
+
 from this blog src/blog/community/societal-ticking-time-bombs.md
 
 ---

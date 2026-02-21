@@ -1,5 +1,5 @@
 ---
-title: "John Coogan: An Enneagram Type 3 Analysis of Tech's Serial Builder"
+title: 'John Coogan: The Achiever Whose Scoreboard Never Shuts Off'
 meta_title: 'Why John Coogan Keeps Reinventing Himself (The Drive Behind TBPN, Soylent, and Lucy)'
 persona_title: "Silicon Valley's Relentless Reinventor"
 description: "What drives John Coogan to keep building? Explore how his Type 3 achiever personality fueled Soylent, Lucy, and TBPN's meteoric rise."

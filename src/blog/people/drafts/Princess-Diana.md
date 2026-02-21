@@ -17,7 +17,32 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Princess-Diana.md
+content_quality:
+  hook: 6
+  enneagram: 6
+  evidence: 7
+  writing: 6
+  originality: 6
+  overall: 6.2
+  letter: D
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: D (6.2)
+Hook: 6 | Enneagram: 6 | Evidence: 7 | Writing: 6 | Originality: 6
+
+FEEDBACK (2026-02-20):
+- The doorstep scene (5-year-old Diana waiting for her mother who never came) is the strongest detail in the piece — should be the OPENING, not buried in the childhood section
+- The waist measurement detail (29 inches → 23.5 inches) is specific and visceral
+- Good range of testimony — Charles Spencer, Tony Blair, Nelson Mandela, Patrick Jephson. Multiple perspectives on the same person.
+- The stress arrow to Type 8 (pushing stepmother, fighting back via media) is correctly identified and well-used
+
+- NEEDS WORK: WEAK HOOK — "That quote tells you everything about Princess Diana" is telling, not showing. Opens with a general quote about wanting to feel safe, then summarizes her story instead of dropping us into a scene. The doorstep scene is the real opening.
+- NEEDS WORK: Enneagram doesn't reveal anything non-obvious. "She wanted love because she was abandoned" is the surface reading — where's the deeper mechanism? No wings, no growth arrow (only stress arrow to 8), no instinctual variants. Why Type 2 and not Type 4 (identity crisis, dramatic emotional expression)?
+
+- TO REACH C (7.0): (1) Open with the doorstep scene — "The five-year-old stood on the doorstep. Her mother had promised to come back." That's your hook. (2) Add counter-typing — Diana shows strong Type 4 traits (dramatic self-expression, identity through uniqueness, feeling fundamentally different). Explain why she's 2 not 4. (3) Cut the "Sound like Diana's story?" rhetorical question and similar hedges.
+- TO REACH B+: Complete rewrite needed. Find the driving contradiction (she needed love but sabotaged it / she wanted privacy but weaponized publicity). Make every section serve that thread. Add Diana's own voice more prominently — her Panorama interview quotes are underused. Explore the growth arrow to Type 4 and what healthy integration looked like in her final years.
+-->
 
 > "I don't want expensive gifts; I don't want to be bought. I have everything I want. I just want someone to be there for me, to make me feel safe and secure."
 

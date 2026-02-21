@@ -1,5 +1,5 @@
 ---
-title: 'Dave Chappelle: An Enneagram Type 9 Personality Analysis'
+title: 'Dave Chappelle: The Peacekeeper Who Keeps Starting Wars'
 meta_title: 'The Real Reason Dave Chappelle Walked Away From Everything'
 persona_title: "Comedy's Reluctant Lion"
 description: 'Why Dave Chappelle keeps building sanctuaries and then setting them on fire. A Type 9 personality analysis.'

@@ -18,7 +18,32 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Ronald-Reagan.md
+content_quality:
+  hook: 7
+  enneagram: 7
+  evidence: 8
+  writing: 7
+  originality: 6
+  overall: 7.0
+  letter: C
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: C (7.0)
+Hook: 7 | Enneagram: 7 | Evidence: 8 | Writing: 7 | Originality: 6
+
+FEEDBACK (2026-02-20):
+- Strong evidence throughout — direct quotes from Reagan, Michael Deaver, James Baker, George Shultz, Ron Reagan Jr., Gorbachev, Edmund Morris, Jacques Tourneur. Multiple named sources with attributed testimony.
+- The Tip O'Neill friendship section is the best in the piece — "friends after 6 PM," the 23rd Psalm at the hospital bedside, the retirement tribute. This is where the analysis sings.
+- The PATCO strike section effectively shows "steel beneath the velvet" — Type 9 firmness without drama. Good counterpoint to the peacemaker stereotype.
+- The assassination humor is well-deployed — "I hope you're all Republicans" and "Honey, I forgot to duck" reveal the Type 9 core under genuine crisis.
+
+- NEEDS WORK: HAGIOGRAPHIC TONE — the piece reads like a eulogy rather than an analysis. Every section reinforces the same point (Reagan was calm and unifying) without exploring tension or shadow. The Iran-Contra mention is one sentence. The "curious paradox" of being warm yet unknowable is mentioned but not developed.
+- NEEDS WORK: No counter-typing. No wings. No stress/growth arrows explicitly named. No core anger explored (Type 9 sits in the body triad — where is Reagan's suppressed anger?). The alcoholic father is mentioned once and never connected to the Type 9 formation.
+
+- TO REACH B (8.0): (1) Develop the shadow — the alcoholic father, the emotional distance from his own children, the Iran-Contra abdication. These aren't footnotes; they're the Type 9 shadow in action. (2) Cut the "Conclusion" section — it summarizes what we've already read. End at the Alzheimer's letter or the Edmund Morris "most mysterious man" observation. (3) Add counter-typing — why not Type 3 (performer, image-conscious, achievement-driven)?
+- TO REACH B+: (1) Find the driving contradiction — Reagan was everyone's friend but no one truly knew him. That's the thesis. Edmund Morris's frustration and Ron Jr.'s "core nobody could reach" should drive the piece, not just appear as supporting details. (2) Explore the alcoholic father → Type 9 formation. (3) Cut 25% — the piece is too long and repetitive. Multiple sections say the same thing about calm and unity.
+-->
 
 > "There you go again."
 

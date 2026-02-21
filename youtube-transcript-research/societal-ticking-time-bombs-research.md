@@ -1,4 +1,5 @@
 <!-- youtube-transcript-research/societal-ticking-time-bombs-research.md -->
+
 # Societal Ticking Time Bombs -- Blog Research Document
 
 **Blog target**: `/community` blog on 9takes

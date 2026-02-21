@@ -18,7 +18,32 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Prince-Harry.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 9
+  writing: 7
+  originality: 7
+  overall: 7.8
+  letter: C
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: C (7.8)
+Hook: 8 | Enneagram: 8 | Evidence: 9 | Writing: 7 | Originality: 7
+
+FEEDBACK (2026-02-20):
+- Excellent evidence — specific dates, sourced events (Jan 2026 High Court, Sep 2025 reunion, May 2025 BBC interview), YouGov polling numbers, Archewell Foundation financials. Person's voice is heard throughout.
+- The William comparison ("Same trauma. Different personality responses. Two completely different life trajectories.") is the strongest structural insight — same inputs, different wiring, divergent outcomes.
+- The critics section is admirably balanced — citing specific numbers and legitimate criticisms alongside Type 6 shadow analysis. This is rare and valuable.
+- The "trust calculation" framework coherently explains otherwise contradictory behaviors — tell-all memoir + privacy craving both serve the same Type 6 function.
+
+- NEEDS WORK: The ending drifts into prediction/speculation ("What Comes Next" with bullet points) rather than cutting to black at peak insight. The strongest ending candidate is already in the piece — the O'Neill 23rd Psalm moment or the "build institutions where vulnerability is permitted" line.
+- NEEDS WORK: Writing is clean but not distinctive. Some sections (Fatherhood, Megxit) read report-like. Prose needs more memorable lines and less summary-of-events.
+
+- TO REACH B (8.0): (1) Cut or radically shorten the "What Comes Next" section — end at the Charles reconciliation tension or the "building safety since age 12" line. (2) Add one more contrast panel or pull quote that crystallizes the analysis. (3) Tighten the Fatherhood section — it's important but meanders.
+- TO REACH B+: (1) Find the signature detail — a single small moment that makes the whole Type 6 analysis click. The 23rd Psalm with O'Neill is close but belongs to Reagan's story. Needs Harry's equivalent. (2) Explore counter-typing — why not Type 4 (dramatic, identity-focused)? (3) Push the prose — fewer summaries, more narrative scenes.
+-->
 
 > "I was born into this position. I inherited the risk. Those who have been dating or married to members of the Royal Family are fleeing the institution."
 

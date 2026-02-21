@@ -1017,7 +1017,13 @@
 			"WebFetch(domain:www.seattletimes.com)",
 			"WebFetch(domain:fromthegreennotebook.com)",
 			"WebFetch(domain:mezha.net)",
-			"WebFetch(domain:docs-books.com)"
+			"WebFetch(domain:docs-books.com)",
+			"WebFetch(domain:www.hellomagazine.com)",
+			"WebFetch(domain:www.nbcdfw.com)",
+			"WebFetch(domain:www.texasmonthly.com)",
+			"WebFetch(domain:www.mensjournal.com)",
+			"WebFetch(domain:tasteofcountry.com)",
+			"WebFetch(domain:peacecorpsworldwide.org)"
 		],
 		"deny": [],
 		"ask": [],

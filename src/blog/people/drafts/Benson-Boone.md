@@ -1,5 +1,5 @@
 ---
-title: 'Benson Boone: An Enneagram Type 7 Personality Analysis'
+title: 'Benson Boone: The Addictive Mind That Chose Sobriety Before It Had a Reason'
 meta_title: "Why Benson Boone Can't Stop Moving (The Psychology Behind the Backflips)"
 persona_title: "Pop's Restless Daredevil"
 description: "What drives Benson Boone's backflips, sobriety, and relentless energy? An Enneagram Type 7 analysis of the Beautiful Things singer."

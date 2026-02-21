@@ -1,5 +1,5 @@
 ---
-title: 'Pedro Pascal: An Enneagram Type 6 Personality Analysis'
+title: 'Pedro Pascal: The Most Anxious Man in Every Room He Protects'
 meta_title: "Why Pedro Pascal Can't Stop Protecting Everyone (Even When He's Terrified)"
 persona_title: "Hollywood's Anxious Guardian"
 description: "How Pedro Pascal's lifelong anxiety, fierce loyalty, and protective instinct reveal the psychology behind everyone's favorite father figure."

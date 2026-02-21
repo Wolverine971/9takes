@@ -1,5 +1,5 @@
 ---
-title: 'Chris Williamson: Enneagram Type 3 Personality Analysis'
+title: 'Chris Williamson: The Self-Improvement Host Still Searching for the Self'
 meta_title: "Why Chris Williamson Can't Stop Optimizing His Life (The Pattern Behind It)"
 persona_title: "Podcasting's Relentless Optimizer"
 description: 'Why does Chris Williamson push so hard? Explore how his Enneagram Type 3 personality drives his podcast empire and constant reinvention.'

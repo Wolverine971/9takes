@@ -1,5 +1,5 @@
 ---
-title: 'Matthew McConaughey: An Enneagram Type 9 Personality Analysis'
+title: 'Matthew McConaughey: The Man Who Disappeared to Learn How to Want Something'
 meta_title: 'Why Matthew McConaughey Turned Down $14.5 Million to Find Himself'
 description: "How McConaughey's laid-back image, walkabouts, and career reinvention reveal the Type 9's hardest lesson: learning to want something."
 author: 'DJ Wayne'

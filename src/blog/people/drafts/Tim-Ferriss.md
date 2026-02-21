@@ -1,5 +1,5 @@
 ---
-title: 'Tim Ferriss: Inside the Mind of an Enneagram Type 5'
+title: 'Tim Ferriss: The Most Productive Armor Ever Built'
 meta_title: 'Tim Ferriss Built the Most Productive Armor in Self-Help History'
 persona_title: 'The Castle Builder'
 description: "Tim Ferriss's Enneagram Type 5 analysis: how a premature baby who nearly didn't survive built a career from the fear of depletion — and what happened when the armor cracked."

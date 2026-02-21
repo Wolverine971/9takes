@@ -1,5 +1,5 @@
 ---
-title: 'Zohran Mamdani: An Enneagram Type 2 Analysis'
+title: 'Zohran Mamdani: Three Continents, No Home, and a Need to Belong'
 meta_title: "Why Zohran Mamdani Can't Stop Showing Up for Everyone"
 persona_title: "New York's Devoted Outsider"
 description: "How NYC's youngest mayor in over a century built his career on a need to belong through service — and what the Enneagram reveals about the pattern."

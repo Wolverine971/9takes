@@ -1,5 +1,5 @@
 ---
-title: 'Leila Hormozi: An Enneagram Type 3 Analysis of the Acquisition.com CEO'
+title: "Leila Hormozi: The Debt She's Still Paying Has Nothing to Do With Money"
 meta_title: "Inside Leila Hormozi's Mind: The Dark Past Behind Her $100M Empire"
 description: 'From 6 arrests to $100M CEO - discover how Leila Hormozi transformed chaos into success through her Type 3 Achiever personality'
 author: 'DJ Wayne'

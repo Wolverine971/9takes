@@ -1,5 +1,5 @@
 ---
-title: 'Sam Parr: An Enneagram Type 8 Personality Analysis'
+title: 'Sam Parr: The Scared Kid Running the Whole Show'
 meta_title: "Inside Sam Parr's Mind: The Scared Kid Running the Whole Show"
 persona_title: "Media's Brute-Force Builder"
 description: 'Why Sam Parr built empires from hot dog carts and cold emails. The vulnerability behind the boldest voice in business media.'

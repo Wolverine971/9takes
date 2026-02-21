@@ -1,5 +1,5 @@
 ---
-title: 'Satya Nadella: An Enneagram Type 5 Personality Analysis'
+title: 'Satya Nadella: The Fortress That Learned to Feel'
 meta_title: "Inside Satya Nadella's Mind: The Obsession Behind Microsoft's $3 Trillion Revival"
 persona_title: "Microsoft's Silent Architect"
 description: "How Satya Nadella's quiet intellect and hard-won empathy transformed Microsoft from a stagnant giant into the world's most valuable company."

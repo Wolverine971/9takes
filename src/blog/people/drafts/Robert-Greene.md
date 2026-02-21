@@ -1,5 +1,5 @@
 ---
-title: 'Robert Greene: An Enneagram Type 5 Analysis'
+title: 'Robert Greene: The Man Who Read Everyone Except His Father'
 meta_title: "Inside Robert Greene's Mind: The Fear That Wrote the 48 Laws of Power"
 persona_title: "Power's Cold Cartographer"
 description: "The world's most famous strategist was driven by helplessness, not power. Inside Robert Greene's Type 5 psychology."

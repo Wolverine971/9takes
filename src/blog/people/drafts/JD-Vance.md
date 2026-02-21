@@ -1,5 +1,5 @@
 ---
-title: 'JD Vance: An Enneagram Type 3 Analysis'
+title: 'JD Vance: The Boy Who Learned to Become Every Room He Entered'
 meta_title: "JD Vance's Identity Crisis: The Performance That Became a Vice Presidency"
 persona_title: "Appalachia's Self-Made Shapeshifter"
 description: 'JD Vance learned to perform before he could choose to. From Middletown chaos to the Vice Presidency, the Enneagram Type 3 psychology behind his reinventions.'

@@ -17,7 +17,32 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Reed-Hastings.md
+content_quality:
+  hook: 7
+  enneagram: 7
+  evidence: 7
+  writing: 6
+  originality: 6
+  overall: 6.6
+  letter: D
+  graded_at: '2026-02-20'
 ---
+
+<!-- QUALITY GRADE: D (6.6)
+Hook: 7 | Enneagram: 7 | Evidence: 7 | Writing: 6 | Originality: 6
+
+FEEDBACK (2026-02-20):
+- "Control through freedom" is the best insight — the anti-bureaucracy obsession as a Type 8 control mechanism, not its opposite. This should be the thesis driving the whole piece.
+- The Pure Software → Netflix arc as personal Type 8 growth story is well-structured — losing control, analyzing failure, rebuilding with new rules
+- The marriage counselor as "best CEO coach" detail is a genuine surprise — humanizes the analysis
+- Stress arrow to Type 5 correctly identified in the Qwikster disaster (isolated, overly cerebral, ignoring input)
+
+- NEEDS WORK: Report-like structure — personality type overview, upbringing, rise to fame, quirks, accomplishments, controversies, legacy. Reads like a business magazine profile with Enneagram labels. The ending asks "what would you challenge him on?" — generic CTA.
+- NEEDS WORK: No counter-typing. No wings. No growth arrow discussed. The "protective philanthropy" framing is interesting but underdeveloped — how does Type 8 protectiveness differ from, say, Type 2 giving?
+
+- TO REACH C (7.0): (1) Cut the generic ending — end at the "control through freedom" paradox or the marriage counselor revelation. (2) Add counter-typing — why not Type 3 (achievement-driven, image-conscious)? Hastings's "I take pride in making as few decisions as possible" directly contradicts Type 3. (3) Reduce the accomplishments catalog — the streaming revolution and culture revolution sections are too listy.
+- TO REACH B+: Major rewrite needed. Open with the Blockbuster meeting — the moment they laughed at him. Make "control through freedom" the thesis that drives every section. Find a signature detail — the vacuum cleaner door-to-door selling, the Marine Corps dropout → Peace Corps pivot, or the hot tub Qwikster decision. One of these needs to be the thread. Cut 30% of the content — it's padded.
+-->
 
 > "Once you have hitchhiked across Africa with ten bucks in your pocket, starting a business doesn't seem too intimidating."
 
