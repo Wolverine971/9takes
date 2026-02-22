@@ -56,10 +56,10 @@ Two Charlis. One watched by 156 million people. The other disappearing.
 <summary class="accordion">TL;DR: Why Charli D'Amelio is an Enneagram Type 9</summary>
 <div class="panel">
 <ul>
-<li><b>Identity Dissolution:</b> She describes having two selves — "Charli D'Amelio" the brand and the Charli her friends know. During panic attacks, she loses touch with both: "I'm not even Charli anymore." That fragile sense of self under pressure is the core wound of Type 9.</li>
+<li><b>Identity Dissolution:</b> She describes having two selves, "Charli D'Amelio" the brand and the Charli her friends know. During panic attacks, she loses touch with both: "I'm not even Charli anymore." That fragile sense of self under pressure is the core wound of Type 9.</li>
 <li><b>The Merge:</b> Her career is inseparable from her family. Parents manage the business, sister Dixie collaborates on everything, the reality show centers family dynamics. She even describes her romantic relationships through other people's dynamics.</li>
-<li><b>Conflict Avoidance Under Fire:</b> When the Renegade credit controversy erupted, she didn't defend herself — she stepped aside and gave credit. When she lost a million followers overnight, she apologized and withdrew. Her instinct is always to restore harmony.</li>
-<li><b>The Scared Dancer Who Returns:</b> She self-identifies as someone who "always quits when I get nervous" then comes back because "it's in my soul." Retreat and return — the Type 9 cycle of withdrawal and reconnection.</li>
+<li><b>Conflict Avoidance Under Fire:</b> When the Renegade credit controversy erupted, she didn't defend herself. She stepped aside and gave credit. When she lost a million followers overnight, she apologized and withdrew. Her instinct is always to restore harmony.</li>
+<li><b>The Scared Dancer Who Returns:</b> She self-identifies as someone who "always quits when I get nervous" then comes back because "it's in my soul." Retreat and return, the Type 9 cycle of withdrawal and reconnection.</li>
 </ul>
 </div>
 </details>
@@ -68,11 +68,11 @@ Two Charlis. One watched by 156 million people. The other disappearing.
 
 ### Charli D'Amelio is an Enneagram Type 9
 
-[Enneagram Type 9s](/enneagram-corner/enneagram-type-9) fear loss and separation. That fear manifests as a deep need to keep things peaceful — both inside and out. They minimize their own importance. They merge with the identities and agendas of people around them. Under extreme stress, they dissociate. They literally lose themselves.
+[Enneagram Type 9s](/enneagram-corner/enneagram-type-9) fear loss and separation. That fear manifests as a deep need to keep things peaceful, both inside and out. They minimize their own importance. They merge with the identities and agendas of people around them. Under extreme stress, they dissociate. They literally lose themselves.
 
 Most Nines navigate this quietly. Put that psychology inside the most-followed teenager on earth, and the quiet becomes a crisis.
 
-Charli shows clear signs of a 9w1 — the One wing adding perfectionistic self-judgment to the Nine's already fragile sense of self. Her sensitivity to criticism, her desire to do the right thing, the internal voice that tells her she's never good enough. That wing explains why she doesn't just absorb negativity — she amplifies it internally.
+Charli shows clear signs of a 9w1, the One wing adding perfectionistic self-judgment to the Nine's already fragile sense of self. Her sensitivity to criticism, her desire to do the right thing, the internal voice that tells her she's never good enough. That wing explains why she doesn't just absorb negativity; she amplifies it internally.
 
 "I consider myself a normal teenager that a lot of people watch, for some reason," she's said. "It doesn't make sense in my head, but I'm working on understanding it."
 
@@ -80,9 +80,9 @@ That "for some reason" is diagnostic. She's been so busy going with the flow tha
 
 ## The Wound Before the Fame
 
-Charli Grace D'Amelio was born May 1, 2004, in Norwalk, Connecticut. Her mother Heidi was a photographer and former model; her father Marc was a businessman who once ran for the Connecticut State Senate. From age three, Charli trained as a competitive dancer — over fifteen hours per week in ballet, hip-hop, and jazz at studios like The Spot and Just Dance.
+Charli Grace D'Amelio was born May 1, 2004, in Norwalk, Connecticut. Her mother Heidi was a photographer and former model; her father Marc was a businessman who once ran for the Connecticut State Senate. From age three, Charli trained as a competitive dancer, over fifteen hours per week in ballet, hip-hop, and jazz at studios like The Spot and Just Dance.
 
-But she wasn't the stereotypical performance kid seeking the spotlight. A shy kid spending hours in dance studios — that's the Nine paradox. She could nail a routine with tremendous skill and presence. Put her in an unscripted social situation? Deeply uncomfortable.
+But she wasn't the stereotypical performance kid seeking the spotlight. A shy kid spending hours in dance studios. That's the Nine paradox. She could nail a routine with tremendous skill and presence. Put her in an unscripted social situation? Deeply uncomfortable.
 
 Dance gave her a way to express herself without having to assert her personality. She could disappear into the movement.
 
@@ -98,15 +98,15 @@ In May 2019, Charli posted a lip-syncing video with a friend. Nothing calculated
 
 "There was no way to understand what was happening at the time because it had never happened the way it did on TikTok," she said. "It was just a very weird time."
 
-The explosion accelerated in October 2019 when her dance videos went viral. Her decade of competitive training showed — she could execute trending choreography with a precision that set her apart. But she wasn't creating these dances. She was interpreting them. She excelled at polishing what was already popular rather than pushing original content.
+The explosion accelerated in October 2019 when her dance videos went viral. Her decade of competitive training showed: she could execute trending choreography with a precision that set her apart. But she wasn't creating these dances. She was interpreting them. She excelled at polishing what was already popular rather than pushing original content.
 
 As one dance teacher observed, "It's common for people to do technical things with the energy held inside the body." Charli learned early to push that energy out, connecting with the camera in a way that felt personal. "You gotta be uncomfortable to be comfortable and look good," she explained.
 
-When she and Dixie joined the Hype House content collective in late 2019, Charli's approach was characteristic: collaborate when it made sense, don't fight for the spotlight. But the Hype House was also where she dated co-founder Chase Hudson — her first public relationship, which ended in April 2020 when it surfaced that he'd kissed another creator. The breakup turned into a public spectacle: diss tracks, fan sides, the full internet circus.
+When she and Dixie joined the Hype House content collective in late 2019, Charli's approach was characteristic: collaborate when it made sense, don't fight for the spotlight. But the Hype House was also where she dated co-founder Chase Hudson, her first public relationship, which ended in April 2020 when it surfaced that he'd kissed another creator. The breakup turned into a public spectacle: diss tracks, fan sides, the full internet circus.
 
-The D'Amelios left in May 2020, one month after the breakup. The official line was that the collective had become "more of a business." But the timing tells a different story — staying meant navigating daily proximity to an ex while millions watched. Charli's instinct was the Nine's instinct: leave quietly rather than fight publicly. No callout posts. No drama. She later said she and Chase "really learned from" the experience and grew "together as people, which is why we're so close now." Even the way she processed the breakup — reframing conflict as mutual growth — is textbook Nine.
+The D'Amelios left in May 2020, one month after the breakup. The official line was that the collective had become "more of a business." But the timing tells a different story: staying meant navigating daily proximity to an ex while millions watched. Charli's instinct was the Nine's instinct: leave quietly rather than fight publicly. No callout posts. No drama. She later said she and Chase "really learned from" the experience and grew "together as people, which is why we're so close now." Even the way she processed the breakup, reframing conflict as mutual growth, is textbook Nine.
 
-By the end of 2020, she became the first creator to surpass 100 million TikTok followers. The milestones came fast — Super Bowl commercial, Tonight Show appearance, a Dunkin' Donuts signature drink. But her response to all of it was bewilderment: "I think every day it was kind of waking up and being a little bit confused and wondering, 'But when's it all going to stop?'"
+By the end of 2020, she became the first creator to surpass 100 million TikTok followers. The milestones came fast: Super Bowl commercial, Tonight Show appearance, a Dunkin' Donuts signature drink. But her response to all of it was bewilderment: "I think every day it was kind of waking up and being a little bit confused and wondering, 'But when's it all going to stop?'"
 
 ## The Disappearing Self
 
@@ -114,15 +114,15 @@ The most psychologically revealing thing about Charli isn't her shyness or her c
 
 "I'm just this emotional person that doesn't function properly," she's said. "And I get into these, like, really, really bad places, and it's scary for me. I'm not myself, and I don't know what takes over, but it's just so much built up that I'm trying to get out all at once."
 
-She's had panic attacks since third grade — long before fame. But the attention turned a manageable vulnerability into a full-scale crisis. At her worst, fifteen panic attacks a day.
+She's had panic attacks since third grade, long before fame. But the attention turned a manageable vulnerability into a full-scale crisis. At her worst, fifteen panic attacks a day.
 
 "No matter how many people you have, how many followers, how many friends... I've never felt as alone as I do," she told Avani Gregg. "It's scary, but I need to talk about it."
 
 The isolation makes psychological sense. Nines merge with others to feel whole, but you can't merge with an audience. You can only perform for them. And when the performance becomes your identity, there's nothing left underneath.
 
-She has Pure O — purely obsessional OCD — diagnosed around age eighteen alongside ADHD and trichotillomania. "There are these unanswered questions in your mind that can never be answered," she explained to NOCD. "Some people have 'weird' thoughts like, 'Oh that was weird. I just had a thought about jumping into traffic' and think, 'That's just a symptom of my brain.' People like me become obsessed with the meaning of these thoughts and why they enter our brain when really they don't mean anything. I wouldn't wish it on anybody in the entire world."
+She has Pure O (purely obsessional OCD) diagnosed around age eighteen alongside ADHD and trichotillomania. "There are these unanswered questions in your mind that can never be answered," she explained to NOCD. "Some people have 'weird' thoughts like, 'Oh that was weird. I just had a thought about jumping into traffic' and think, 'That's just a symptom of my brain.' People like me become obsessed with the meaning of these thoughts and why they enter our brain when really they don't mean anything. I wouldn't wish it on anybody in the entire world."
 
-The OCD is "very internal" — intrusive thoughts, not visible compulsions. For a Nine already prone to losing herself in others' expectations, a disorder that hijacks your inner monologue with questions you can't answer is uniquely cruel.
+The OCD is "very internal," intrusive thoughts, not visible compulsions. For a Nine already prone to losing herself in others' expectations, a disorder that hijacks your inner monologue with questions you can't answer is uniquely cruel.
 
 ### The Therapist's Daughter
 
@@ -132,7 +132,7 @@ Charli's therapist told her that his daughter was "a big fan."
 
 Her response: "I appreciate your daughter, but she's not going to help a chemical imbalance in my brain. I think it's weird to bring up that I shouldn't be upset and I'm not allowed to be upset because your daughter's a fan and she should make me happy."
 
-Even in the one space specifically designed for vulnerability — the therapist's office — she couldn't escape being the brand. The person hired to help her see past the persona couldn't see past it himself.
+Even in the one space specifically designed for vulnerability, the therapist's office, she couldn't escape being the brand. The person hired to help her see past the persona couldn't see past it himself.
 
 She eventually found therapy that worked, but only because she stopped "holding back" and started "saying everything she's been wanting to say since she was seven."
 
@@ -144,13 +144,13 @@ When Perez Hilton commented "Is this appropriate?" on a video of fifteen-year-ol
 
 A fifteen-year-old directly telling an adult gossip blogger to back off. Not the shrinking violet narrative at all.
 
-Then there's the "chemical imbalance" line to her therapist — pointed, direct, and uninterested in keeping the peace.
+Then there's the "chemical imbalance" line to her therapist: pointed, direct, and uninterested in keeping the peace.
 
 The pattern that ties it together is one she identified herself: "I'm a very scared dancer and I always quit when I get nervous and I've hated that I do that because I always come back 'cause I love it and it's in my soul."
 
-She retreats from dance, then returns. She retreats from social media, then returns. She retreats from public life, then returns. This isn't the flat "peacemaker" caricature. This is a Nine whose withdrawal is a coping mechanism, not a permanent state — and whose returns reveal what actually matters to her.
+She retreats from dance, then returns. She retreats from social media, then returns. She retreats from public life, then returns. This isn't the flat "peacemaker" caricature. This is a Nine whose withdrawal is a coping mechanism, not a permanent state, and whose returns reveal what actually matters to her.
 
-The anxiety pen confession fits the same pattern. In 2020, sixteen-year-old Charli was filmed appearing to blow vapor. Fans rushed to defend her, inventing the "anxiety pen" story — a nicotine-free device for calming nerves. Charli never corrected them. For five years, the convenient lie stood.
+The anxiety pen confession fits the same pattern. In 2020, sixteen-year-old Charli was filmed appearing to blow vapor. Fans rushed to defend her, inventing the "anxiety pen" story, a nicotine-free device for calming nerves. Charli never corrected them. For five years, the convenient lie stood.
 
 Then in January 2025, TikTok faced a potential permanent ban in the US. Creators thought the app was disappearing, so they started confessing secrets they figured would vanish with it. Charli posted to her secondary account admitting it was a vape, that she "had no idea where that rumor came from." The ban lasted fourteen hours. TikTok came back. Her confession didn't go anywhere.
 
@@ -176,11 +176,11 @@ Before the dance: "I got to my breaking point with social media. This is kind of
 
 After: "I just finally feel back in control of my life."
 
-She didn't just perform anxiety — she externalized it. Gave it a body. Then choreographed its defeat. For a Nine who struggles to articulate her own inner experience, that routine said what words couldn't.
+She didn't just perform anxiety. She externalized it. Gave it a body. Then choreographed its defeat. For a Nine who struggles to articulate her own inner experience, that routine said what words couldn't.
 
 ### Broadway
 
-In October 2024, Charli made her Broadway debut in "& Juliet," a jukebox musical reimagining Romeo & Juliet. She plays Charmion, a dance-heavy ensemble role at the Stephen Sondheim Theatre. Eight shows a week. No algorithms, no comments section, no follower count — just a live audience that either connects with you or doesn't.
+In October 2024, Charli made her Broadway debut in "& Juliet," a jukebox musical reimagining Romeo & Juliet. She plays Charmion, a dance-heavy ensemble role at the Stephen Sondheim Theatre. Eight shows a week. No algorithms, no comments section, no follower count. Just a live audience that either connects with you or doesn't.
 
 When her agents called with the news, they said: "I think you're gonna want to turn your camera on." She "immediately burst into tears" while home alone, "pacing around her house." A childhood dream, realized through the medium that had always been her refuge.
 
@@ -192,7 +192,7 @@ In February 2025, a piece of descending set equipment hit Charli on the head dur
 
 The scared dancer who always comes back.
 
-Her run was extended twice — through September 2025. Jennifer Lopez wrote her TIME100 tribute: "She's a kindred spirit, maybe because I started out as a dancer too... When Charli dances, she connects." And Charli herself captured the arc: "I was so young when I started doing this, and there were so many paths I could've taken. I'm really happy with how it's turned out. Who would've thought posting on TikTok could help get me on Broadway?"
+Her run was extended twice, through September 2025. Jennifer Lopez wrote her TIME100 tribute: "She's a kindred spirit, maybe because I started out as a dancer too... When Charli dances, she connects." And Charli herself captured the arc: "I was so young when I started doing this, and there were so many paths I could've taken. I'm really happy with how it's turned out. Who would've thought posting on TikTok could help get me on Broadway?"
 
 ## The Controversies That Shaped Her
 
@@ -202,7 +202,7 @@ The dance that propelled Charli to fame was choreographed by fourteen-year-old J
 
 The situation became a flashpoint for how Black creators' work went viral without attribution. When the NBA invited Charli but not Jalaiah to All-Star Weekend, the backlash forced a correction.
 
-Charli's response was characteristic: she didn't get defensive. She posted a video with Jalaiah, credited her publicly, and stepped back. Was it late? Critics argued yes, only after public pressure. But the response itself — non-confrontational, focused on making things right rather than defending herself — reveals the Nine's instinct to restore harmony even at personal cost.
+Charli's response was characteristic: she didn't get defensive. She posted a video with Jalaiah, credited her publicly, and stepped back. Was it late? Critics argued yes, only after public pressure. But the response itself, non-confrontational, focused on making things right rather than defending herself, reveals the Nine's instinct to restore harmony even at personal cost.
 
 ### The Dinner That Cost a Million Followers
 
@@ -230,29 +230,29 @@ The most surprising detail: "I've run into the people that like made me feel so 
 
 The private Charli reveals someone actively building a life the public Charli can retreat into.
 
-She finds therapy in cleaning and organizing her space — a way to impose control on a life with "absolutely zero structure." She keeps a dance room in her garage for personal expression that isn't content. She adopted dogs and values the routine of caring for them.
+She finds therapy in cleaning and organizing her space, a way to impose control on a life with "absolutely zero structure." She keeps a dance room in her garage for personal expression that isn't content. She adopted dogs and values the routine of caring for them.
 
 "I feel like I know myself as the person that I see when I wake up in the morning," she told Flaunt, "not the person that's glammed on red carpets."
 
 ### The Mother Problem
 
-For a Nine who merges with the people closest to her, the D'Amelio family structure creates an interesting bind. Charli's parents aren't just her parents — they're effectively her business partners. Marc and Heidi managed the family brand, starred alongside her in The D'Amelio Show, and made decisions that affected both her career and her childhood.
+For a Nine who merges with the people closest to her, the D'Amelio family structure creates an interesting bind. Charli's parents aren't just her parents; they're effectively her business partners. Marc and Heidi managed the family brand, starred alongside her in The D'Amelio Show, and made decisions that affected both her career and her childhood.
 
-Heidi has explicitly rejected the "momager" comparison: "We're never going to be their managers, bosses or anything. We're a family — we're the parents and they will always be our kids." And they maintained normal parental expectations — "We don't care how many followers you have. You still have to do the dishes and take out the garbage."
+Heidi has explicitly rejected the "momager" comparison: "We're never going to be their managers, bosses or anything. We're a family — we're the parents and they will always be our kids." And they maintained normal parental expectations: "We don't care how many followers you have. You still have to do the dishes and take out the garbage."
 
 But the boundary between parent and business partner is hard to maintain when your family is the product. Season 3 of The D'Amelio Show exposed the strain: Charli called herself Dixie's "human punching bag," arguments between Marc and Heidi intensified during their joint DWTS appearance, and the cameras captured family tensions that most families process in private.
 
-Charli describes her parents as "definitely my rocks throughout all of this." She means it. But a Nine's "rock" is also the person they're most likely to merge with — to absorb their agenda, their anxiety, their definition of what's right. When your mom is also your manager, the Nine's question of "what do _I_ want?" gets even harder to answer.
+Charli describes her parents as "definitely my rocks throughout all of this." She means it. But a Nine's "rock" is also the person they're most likely to merge with, to absorb their agenda, their anxiety, their definition of what's right. When your mom is also your manager, the Nine's question of "what do _I_ want?" gets even harder to answer.
 
 ### Merging in Love
 
-Her relationship with Landon Barker — Travis Barker's son — followed a pattern that makes sense through the Nine lens. They went public in July 2022 after Dixie played matchmaker. They quickly became enmeshed: adopting a dog together, spending time with each other's families. One of their first dates included Landon's dad, his sisters, the whole extended Barker clan.
+Her relationship with Landon Barker (Travis Barker's son) followed a pattern that makes sense through the Nine lens. They went public in July 2022 after Dixie played matchmaker. They quickly became enmeshed: adopting a dog together, spending time with each other's families. One of their first dates included Landon's dad, his sisters, the whole extended Barker clan.
 
 They broke up briefly in May 2023 after "a huge argument," reconciled weeks later, then split for good in February 2024. The telling detail: Landon announced both breakups publicly. Charli said nothing. He posted on Instagram Stories: "We broke up to focus on ourselves. We are still friends and have so much love for each other." She let his words speak for both of them.
 
-That's the Nine in relationships — merge deeply, withdraw when it gets painful, let the other person narrate the ending. "I don't have to post about my relationships with anyone to prove that they are still in my life."
+That's the Nine in relationships: merge deeply, withdraw when it gets painful, let the other person narrate the ending. "I don't have to post about my relationships with anyone to prove that they are still in my life."
 
-Her family remains the anchor — her sister [Dixie](/personality-analysis/Dixie-D'Amelio), once so distant they "didn't talk at all really" for weeks, is now her best friend and fiercest defender.
+Her family remains the anchor. Her sister [Dixie](/personality-analysis/Dixie-D'Amelio), once so distant they "didn't talk at all really" for weeks, is now her best friend and fiercest defender.
 
 ### Where She Is Now
 
@@ -260,13 +260,13 @@ The most significant shift in Charli's life isn't Broadway or her follower count
 
 "I just kind of lost the passion for it," she said on the 2 Chix podcast. "It's extremely difficult to continue posting on a platform where the people that are watching your videos don't actually want to see you and a lot of the feedback is negative."
 
-Her coping strategy is blunt: she stopped reading comments. "I don't really look at that stuff anymore." She's described the change as making things "definitely less extreme" — still hard days, but not the fifteen-panic-attacks-a-day crisis of 2020.
+Her coping strategy is blunt: she stopped reading comments. "I don't really look at that stuff anymore." She's described the change as making things "definitely less extreme," still hard days, but not the fifteen-panic-attacks-a-day crisis of 2020.
 
-On Instagram, she's shifted to vlogs showing "what a Broadway schedule is like" — content about process rather than performance, the day-to-day rather than the highlight reel. It's a quieter mode. Less viral, more sustainable. More like the private Charli she's been trying to protect all along.
+On Instagram, she's shifted to vlogs showing "what a Broadway schedule is like," content about process rather than performance, the day-to-day rather than the highlight reel. It's a quieter mode. Less viral, more sustainable. More like the private Charli she's been trying to protect all along.
 
 ## How It All Comes Together
 
-The story isn't "shy girl becomes famous and struggles." That's true but obvious. The deeper pattern is this: a Nine's core challenge is forming a stable sense of self. They merge with others — with family, with partners, with audiences. They struggle to know what they want independent of what everyone around them wants.
+The story isn't "shy girl becomes famous and struggles." That's true but obvious. The deeper pattern is this: a Nine's core challenge is forming a stable sense of self. They merge with others: with family, with partners, with audiences. They struggle to know what they want independent of what everyone around them wants.
 
 Now give that Nine a hundred million followers at fifteen, before she's had a chance to answer the basic adolescent question of _who am I?_ The fame didn't just make her uncomfortable. It occupied the space where her identity should have been developing.
 

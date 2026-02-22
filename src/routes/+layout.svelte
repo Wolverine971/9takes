@@ -292,17 +292,6 @@
 		analyticsPingTimer = setInterval(() => {
 			void flushAnalyticsPing();
 		}, ANALYTICS_PING_INTERVAL_MS);
-
-		afterNavigate((navigation) => {
-			const nextPath = navigation.to?.url?.pathname ?? $page.url.pathname;
-			const nextRouteId = navigation.to?.route?.id ?? null;
-			void (async () => {
-				if (analyticsVisitKey && !analyticsVisitEnded) {
-					await endAnalyticsVisit(false, false);
-				}
-				await startAnalyticsVisit(nextPath, nextRouteId);
-			})();
-		});
 	}
 
 	function destroyPageAnalytics() {
@@ -337,6 +326,17 @@
 	function handleBeforeUnload() {
 		void endAnalyticsVisit(true, true);
 	}
+
+	afterNavigate((navigation) => {
+		const nextPath = navigation.to?.url?.pathname ?? $page.url.pathname;
+		const nextRouteId = navigation.to?.route?.id ?? null;
+		void (async () => {
+			if (analyticsVisitKey && !analyticsVisitEnded) {
+				await endAnalyticsVisit(false, false);
+			}
+			await startAnalyticsVisit(nextPath, nextRouteId);
+		})();
+	});
 
 	// Function to update all page-dependent values
 	function updatePageDerivedValues() {

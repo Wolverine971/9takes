@@ -25,7 +25,8 @@
 		"gen:all": "pnpm format && pnpm gen:types && pnpm gen:famous-types && pnpm gen:sitemap && pnpm gen:crosslinks && pnpm label-paths",
 		"index:blogs": "node scripts/index-blogs-to-supabase.js",
 		"index:blogs:dry": "node scripts/index-blogs-to-supabase.js --dry-run",
-		"index:blogs:force": "node scripts/index-blogs-to-supabase.js --force"
+		"index:blogs:force": "node scripts/index-blogs-to-supabase.js --force",
+		"push:people": "node scripts/personBlogParser.js"
 	},
 	"devDependencies": {
 		"@babel/parser": "^7.27.4",

@@ -51,13 +51,13 @@ Senator Dianne Feinstein takes the podium and calls for the death penalty. The c
 
 Harris sits in the front row. She does not move.
 
-She has already made her decision. She will not seek the death penalty. She campaigned on opposing it. She will not bend — not for Feinstein, not for the police officers' association, not for the political establishment that could end her career before it starts. The blowback is immediate and severe. The police union refuses to endorse her for years.
+She has already made her decision. She will not seek the death penalty. She campaigned on opposing it. She will not bend: not for Feinstein, not for the police officers' association, not for the political establishment that could end her career before it starts. The blowback is immediate and severe. The police union refuses to endorse her for years.
 
 This is the woman who would spend the next two decades being called a shapeshifter. A chameleon. A politician who adapts to every room she enters.
 
 And yet the most consequential decision of her early career was a flat refusal to adapt.
 
-That contradiction — the prosecutor who wouldn't bend and the politician who couldn't stop bending — runs through Kamala Harris's entire life. Understanding it requires understanding what drives her at a level deeper than ambition, deeper than politics, deeper than the "calculating" label her critics reach for every time she reads a room and adjusts.
+That contradiction, the prosecutor who wouldn't bend and the politician who couldn't stop bending, runs through Kamala Harris's entire life. Understanding it requires understanding what drives her at a level deeper than ambition, deeper than politics, deeper than the "calculating" label her critics reach for every time she reads a room and adjusts.
 
 ---
 
@@ -65,9 +65,9 @@ That contradiction — the prosecutor who wouldn't bend and the politician who c
 <summary class="accordion">TL;DR: Why Kamala Harris is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>The Translator's Curse:</b> A woman of genuine multicultural complexity whose fluency in every room gets mistaken for calculation — because she translates herself so seamlessly that no one believes she has a native tongue.</li>
-<li><b>Shame as Fuel:</b> The drive to prove herself — from being bused as a child to running for president — carries the weight of needing to be seen as worthy, not just successful.</li>
-<li><b>The Private Sharpness:</b> People who know her describe someone more blunt and more incisive off camera — the translator's reflex may be suppressing her best self.</li>
+<li><b>The Translator's Curse:</b> A woman of genuine multicultural complexity whose fluency in every room gets mistaken for calculation, because she translates herself so seamlessly that no one believes she has a native tongue.</li>
+<li><b>Shame as Fuel:</b> The drive to prove herself, from being bused as a child to running for president, carries the weight of needing to be seen as worthy, not just successful.</li>
+<li><b>The Private Sharpness:</b> People who know her describe someone more blunt and more incisive off camera. The translator's reflex may be suppressing her best self.</li>
 <li><b>Reading Every Room:</b> She learned early to adapt across cultures, languages, and worlds. The fluency that once kept her alive became the very thing that made voters distrust her.</li>
 </ul>
 </div>
@@ -77,15 +77,15 @@ That contradiction — the prosecutor who wouldn't bend and the politician who c
 
 ### Kamala Harris is an Enneagram Type 3
 
-Enneagram Threes carry a core wound around worthiness. Not "Am I loved?" — that's a Two. Not "Am I safe?" — that's a Six. The Three's question is: **"Am I valuable?"**
+Enneagram Threes carry a core wound around worthiness. Not "Am I loved?" (that's a Two). Not "Am I safe?" (that's a Six). The Three's question is: **"Am I valuable?"**
 
-This sits in the heart center of the Enneagram, where the dominant emotion is shame. Not the shame of doing something wrong — the shame of _being_ something insufficient. Threes cope by becoming whatever the room needs them to be. They read the environment, identify what's valued, and become that. They do it so automatically, so skillfully, that they often lose track of where the performance ends and the real person begins.
+This sits in the heart center of the Enneagram, where the dominant emotion is shame. Not the shame of doing something wrong, but the shame of _being_ something insufficient. Threes cope by becoming whatever the room needs them to be. They read the environment, identify what's valued, and become that. They do it so automatically, so skillfully, that they often lose track of where the performance ends and the real person begins.
 
-Harris fits this pattern — but not in the shallow "ambitious politician" way critics suggest.
+Harris fits this pattern, but not in the shallow "ambitious politician" way critics suggest.
 
-A former aide told _The Washington Post_ in December 2021: **"With Kamala you have to put up with a constant amount of soul-destroying criticism and also her own lack of confidence."** The woman who projects supreme competence is, according to people who've worked closest with her, driven by deep insecurity. Chris Whipple's book _The Fight of His Life_ went further — a staffer attributed her management style to **"deep, deep insecurity"** and described **"really unnecessary gamesmanship"** with underlings.
+A former aide told _The Washington Post_ in December 2021: **"With Kamala you have to put up with a constant amount of soul-destroying criticism and also her own lack of confidence."** The woman who projects supreme competence is, according to people who've worked closest with her, driven by deep insecurity. Chris Whipple's book _The Fight of His Life_ went further; a staffer attributed her management style to **"deep, deep insecurity"** and described **"really unnecessary gamesmanship"** with underlings.
 
-That gap between the projected image and the inner experience is where the Enneagram earns its insight. For Harris, the constant translation of herself — into whatever each room requires — isn't vanity. It's fluency. The same fluency that got a brown girl through desegregated schools in 1970s Berkeley, a Californian teenager through Francophone Montreal, an immigrant's daughter through the corridors of American power.
+That gap between the projected image and the inner experience is where the Enneagram earns its insight. For Harris, the constant translation of herself, into whatever each room requires, isn't vanity. It's fluency. The same fluency that got a brown girl through desegregated schools in 1970s Berkeley, a Californian teenager through Francophone Montreal, an immigrant's daughter through the corridors of American power.
 
 The cost is that the translator never goes off duty. Even when the untranslated Kamala is more compelling than any of her adaptations.
 
@@ -101,15 +101,15 @@ Her parenting philosophy could be distilled to three sentences.
 
 **"Never do anything half-assed."**
 
-**"Well, what are you going to do about it?"** — her standard response when her daughters complained about anything.
+**"Well, what are you going to do about it?"** Her standard response when her daughters complained about anything.
 
 And the one Kamala has repeated in nearly every major speech of her career: **"You may be the first to do many things, but make sure you're not the last."**
 
 That instruction matters. It fused personal ambition with public obligation so early that even Harris may not be able to separate the two.
 
-At the park, young Kamala's parents modeled a split that would echo through her life. Shyamala said: **"Stay close."** Donald said: **"Run, Kamala, run. Don't be afraid. Don't let anything stop you."** Caution and boldness. Control and freedom. Two instructions that don't quite fit together — from two parents who wouldn't stay together either.
+At the park, young Kamala's parents modeled a split that would echo through her life. Shyamala said: **"Stay close."** Donald said: **"Run, Kamala, run. Don't be afraid. Don't let anything stop you."** Caution and boldness. Control and freedom. Two instructions that don't quite fit together, from two parents who wouldn't stay together either.
 
-Harris was bused to Thousand Oaks Elementary as part of Berkeley's desegregation program — the second class to integrate the public schools. She grew up in a world where **"all my friends were Black and we got together and cooked Indian food and painted henna on our hands, and I never felt uncomfortable with my cultural background."**
+Harris was bused to Thousand Oaks Elementary as part of Berkeley's desegregation program, the second class to integrate the public schools. She grew up in a world where **"all my friends were Black and we got together and cooked Indian food and painted henna on our hands, and I never felt uncomfortable with my cultural background."**
 
 Then, at twelve, her mother uprooted everything.
 
@@ -132,23 +132,23 @@ By the time she arrived at Howard University in 1982, she was already performing
 </div>
 <div class="timeline__item">
 <span class="timeline__year">1970s</span>
-<span class="timeline__event">Bused to Thousand Oaks Elementary — second class to integrate Berkeley's schools</span>
+<span class="timeline__event">Bused to Thousand Oaks Elementary, second class to integrate Berkeley's schools</span>
 </div>
 <div class="timeline__item timeline__item--key">
 <span class="timeline__year">1976</span>
-<span class="timeline__event">Uprooted to Montreal at 12 — arrives in winter, hides in a closet</span>
+<span class="timeline__event">Uprooted to Montreal at 12; arrives in winter, hides in a closet</span>
 </div>
 <div class="timeline__item">
 <span class="timeline__year">~1981</span>
-<span class="timeline__event">Takes in best friend Wanda Kagan fleeing abuse — discovers her calling</span>
+<span class="timeline__event">Takes in best friend Wanda Kagan fleeing abuse; discovers her calling</span>
 </div>
 <div class="timeline__item">
 <span class="timeline__year">1986</span>
-<span class="timeline__event">Graduates Howard University, pledges Alpha Kappa Alpha — carries a briefcase</span>
+<span class="timeline__event">Graduates Howard University, pledges Alpha Kappa Alpha (carries a briefcase)</span>
 </div>
 <div class="timeline__item">
 <span class="timeline__year">2004</span>
-<span class="timeline__event">Elected San Francisco DA — refuses death penalty within months</span>
+<span class="timeline__event">Elected San Francisco DA; refuses death penalty within months</span>
 </div>
 </div>
 
@@ -158,19 +158,19 @@ By the time she arrived at Howard University in 1982, she was already performing
 
 The Espinoza decision wasn't an anomaly. It was a pattern.
 
-As San Francisco DA, Harris launched Back on Track — a reentry program for nonviolent drug offenders that prioritized rehabilitation over incarceration. She refused to seek the death penalty in every case, even under enormous political pressure. She created one of the first programs of its kind in the country.
+As San Francisco DA, Harris launched Back on Track, a reentry program for nonviolent drug offenders that prioritized rehabilitation over incarceration. She refused to seek the death penalty in every case, even under enormous political pressure. She created one of the first programs of its kind in the country.
 
-But as California Attorney General, the same rigid principled streak produced darker results. She supported a state law that allowed misdemeanor charges against parents of chronically truant children. A single mother in Orange County was arrested, handcuffed in front of her children, lost her job. Her family was shunned. Harris later called it an **"unintended consequence"** — but the damage was done.
+But as California Attorney General, the same rigid principled streak produced darker results. She supported a state law that allowed misdemeanor charges against parents of chronically truant children. A single mother in Orange County was arrested, handcuffed in front of her children, lost her job. Her family was shunned. Harris later called it an **"unintended consequence,"** but the damage was done.
 
-She also initially opposed DNA testing for Kevin Cooper on death row. She reversed her position in 2018 after a New York Times exposé. The reversal came years too late.
+She also initially opposed DNA testing for Kevin Cooper on death row. She reversed her position in 2018 after a New York Times expose. The reversal came years too late.
 
-This is not the behavior of a shapeshifter. A shapeshifter would have read the room and pivoted sooner. Harris held positions long past the point where they were politically useful — and when she finally shifted, the shift itself became evidence of inauthenticity.
+This is not the behavior of a shapeshifter. A shapeshifter would have read the room and pivoted sooner. Harris held positions long past the point where they were politically useful, and when she finally shifted, the shift itself became evidence of inauthenticity.
 
 The pattern reveals something that gets missed in the "chameleon" analysis. She doesn't just adapt to please. She adapts to _win_. And sometimes winning means refusing to bend, absorbing the cost, and trusting that the long game will vindicate the short-term pain. She bet her career on the Espinoza decision. She won.
 
-The problem came later, when the stakes changed and the rigidity no longer served her — but the translator had locked into a language of conviction and couldn't switch dialects fast enough.
+The problem came later, when the stakes changed and the rigidity no longer served her, but the translator had locked into a language of conviction and couldn't switch dialects fast enough.
 
-The sharpness didn't disappear. It went underground. When she cross-examined Brett Kavanaugh in September 2018 — **"Can you think of any laws that give government the power to make decisions about the male body?"** — the room went silent. When she cornered Attorney General William Barr in 2019, forcing him to stumble over whether Trump had ever "suggested" he open an investigation, the non-answer spoke for itself. The prosecutor was still in there. She just couldn't let her out in every room.
+The sharpness didn't disappear. It went underground. When she cross-examined Brett Kavanaugh in September 2018, **"Can you think of any laws that give government the power to make decisions about the male body?"** the room went silent. When she cornered Attorney General William Barr in 2019, forcing him to stumble over whether Trump had ever "suggested" he open an investigation, the non-answer spoke for itself. The prosecutor was still in there. She just couldn't let her out in every room.
 
 ---
 
@@ -178,15 +178,15 @@ The sharpness didn't disappear. It went underground. When she cross-examined Bre
 
 Here is the thing about Kamala Harris that her critics get half-right and entirely wrong.
 
-She does read rooms. She does adapt. She code-switches between audiences with a fluency that UC Berkeley linguist Nicole Holliday has actually studied in a peer-reviewed 2024 _American Speech_ paper — documenting how Harris selectively employs African American Language features to construct **"a highly specific sociolinguistic identity that comports with her unique positions politically, socially, and racially."** But this isn't calculation — it's biography. She grew up Indian and Jamaican and Black and American. She moved to French-speaking Montreal at twelve. She performed with a dance troupe called "Midnight Magic" to Prince music at community centers. She pledged at a historically Black sorority and carried a briefcase to class. She is genuinely multiple things.
+She does read rooms. She does adapt. She code-switches between audiences with a fluency that UC Berkeley linguist Nicole Holliday has actually studied in a peer-reviewed 2024 _American Speech_ paper, documenting how Harris selectively employs African American Language features to construct **"a highly specific sociolinguistic identity that comports with her unique positions politically, socially, and racially."** But this isn't calculation. It's biography. She grew up Indian and Jamaican and Black and American. She moved to French-speaking Montreal at twelve. She performed with a dance troupe called "Midnight Magic" to Prince music at community centers. She pledged at a historically Black sorority and carried a briefcase to class. She is genuinely multiple things.
 
 The problem is that in American politics, being multiple things reads as being no thing. And Harris, who learned early that adapting is how you survive, couldn't stop adapting even when it cost her.
 
-The most revealing example: June 2019. The first Democratic primary debate. Harris confronted <a href="/personality-analysis/Joe-Biden">Joe Biden</a> on his opposition to busing — the very policy that had shaped her own childhood. **"There was a little girl in California who was part of the second class to integrate her public schools, and she was bused to school every day. And that little girl was me."**
+The most revealing example: June 2019. The first Democratic primary debate. Harris confronted <a href="/personality-analysis/Joe-Biden">Joe Biden</a> on his opposition to busing, the very policy that had shaped her own childhood. **"There was a little girl in California who was part of the second class to integrate her public schools, and she was bused to school every day. And that little girl was me."**
 
 The moment was devastating. Biden was stunned. The clip went viral.
 
-By the next morning, her campaign was selling T-shirts with the line and a childhood photo of Harris. Priced at $29.99. The speed of the merchandising operation — emotion to product in under twelve hours — ensured that one of the most genuine moments of her political life would be read as one of the most calculated.
+By the next morning, her campaign was selling T-shirts with the line and a childhood photo of Harris. Priced at $29.99. The speed of the merchandising operation (emotion to product in under twelve hours) ensured that one of the most genuine moments of her political life would be read as one of the most calculated.
 
 This is the translator's dilemma. She cannot not optimize. The instinct to capitalize on every moment of connection, to turn sentiment into strategy, is so deeply wired that it undermines the very connection it's meant to serve.
 
@@ -197,11 +197,11 @@ This is the translator's dilemma. She cannot not optimize. The instinct to capit
 </div>
 <div class="contrast-panel__side contrast-panel__side--right">
 <div class="contrast-panel__label">What the Enneagram Reveals</div>
-<p>A woman whose genuine complexity — Indian, Jamaican, Black, American, Canadian — has always required translation for each audience. The adaptation isn't calculation. It's fluency. But when you translate yourself seamlessly into every room's language, the world starts to wonder if you have a mother tongue at all.</p>
+<p>A woman whose genuine complexity (Indian, Jamaican, Black, American, Canadian) has always required translation for each audience. The adaptation isn't calculation. It's fluency. But when you translate yourself seamlessly into every room's language, the world starts to wonder if you have a mother tongue at all.</p>
 </div>
 </div>
 
-When Charli XCX tweeted **"kamala IS brat"** after Harris's 2024 campaign announcement, her team leaned into it within hours — neon green aesthetic, TikTok content, the @KamalaHQ account rebranded in chartreuse. It was a masterclass in moment-capture. Harris herself never publicly acknowledged the meme. The campaign apparatus translated the cultural moment into political energy while she maintained deniability over the less "presidential" elements. The translator and the translation operating on separate tracks.
+When Charli XCX tweeted **"kamala IS brat"** after Harris's 2024 campaign announcement, her team leaned into it within hours: neon green aesthetic, TikTok content, the @KamalaHQ account rebranded in chartreuse. It was a masterclass in moment-capture. Harris herself never publicly acknowledged the meme. The campaign apparatus translated the cultural moment into political energy while she maintained deniability over the less "presidential" elements. The translator and the translation operating on separate tracks.
 
 Rachel Maddow, reflecting on her September 2025 MSNBC interview with Harris, told Jaime Harrison's _At Our Table_ podcast in December 2025 something striking: the private Kamala is **"sharper and more blunt, and honestly more cutting, and more incisive, than she is when she knows the cameras are rolling."**
 
@@ -215,7 +215,7 @@ The fluency that saved her as a brown girl navigating white institutions became 
 
 Harris's most honest moments happen when she stops performing.
 
-The laugh is the most obvious example. It has been mocked relentlessly — "word salad and cackle" became a Republican talking point. But Harris has refused to suppress it. In a career built on reading rooms and adjusting accordingly, the laugh is the one element she will not calibrate.
+The laugh is the most obvious example. It has been mocked relentlessly. "Word salad and cackle" became a Republican talking point. But Harris has refused to suppress it. In a career built on reading rooms and adjusting accordingly, the laugh is the one element she will not calibrate.
 
 **"I have my mother's laugh,"** she told Drew Barrymore. **"And I grew up around a bunch of women in particular who laugh from the belly."** The women in her family **"would sit around the kitchen, drinking their coffee, telling big stories with big laughs."**
 
@@ -225,15 +225,15 @@ She has put it more directly: **"Don't be confined to other people's perception 
 
 It's the crack in the performance where the real person leaks through.
 
-The kitchen is another crack. **"During difficult times I have always turned to cooking,"** she posted on social media in November 2020. But notice what she cooks: a Thanksgiving turkey with a 24-to-48-hour brine, bay leaves and orange slices, butter placed under the skin, basted with "a nice big bottle of cheap white wine." Cornbread dressing with spicy sausage. She taught Senator Mark Warner how to make a proper tuna melt on Instagram Live in 2020 after his first attempt horrified the internet. When she cooked masala dosa with Mindy Kaling in 2019, she was visibly the better cook — gently correcting Kaling's technique while complimenting every step. The Kaling video went so viral that at the 2024 DNC, Kaling joked she had "outed Kamala Harris as Indian." Even the unguarded moments get optimized into campaign assets — not by Harris, but by the apparatus around her. She just cooks. The translation happens downstream.
+The kitchen is another crack. **"During difficult times I have always turned to cooking,"** she posted on social media in November 2020. But notice what she cooks: a Thanksgiving turkey with a 24-to-48-hour brine, bay leaves and orange slices, butter placed under the skin, basted with "a nice big bottle of cheap white wine." Cornbread dressing with spicy sausage. She taught Senator Mark Warner how to make a proper tuna melt on Instagram Live in 2020 after his first attempt horrified the internet. When she cooked masala dosa with Mindy Kaling in 2019, she was visibly the better cook, gently correcting Kaling's technique while complimenting every step. The Kaling video went so viral that at the 2024 DNC, Kaling joked she had "outed Kamala Harris as Indian." Even the unguarded moments get optimized into campaign assets (not by Harris, but by the apparatus around her). She just cooks. The translation happens downstream.
 
-Her Converse collection reveals the same duality. **"I have a whole collection of Chuck Taylors: a black leather pair, a white pair, I have the kind that don't lace, the kind that do lace, the kind I wear in the hot weather, the kind I wear in the cold weather, and the platform kind for when I'm wearing a pantsuit."** Casual shoes paired with pearl necklaces tracing back to Alpha Kappa Alpha — whose founding members are called "The Twenty Pearls." Even her informality is curated. Even the curation is authentic. That's the translator's paradox: every register she speaks in is real. But fluency in all of them reads as mastery of none.
+Her Converse collection reveals the same duality. **"I have a whole collection of Chuck Taylors: a black leather pair, a white pair, I have the kind that don't lace, the kind that do lace, the kind I wear in the hot weather, the kind I wear in the cold weather, and the platform kind for when I'm wearing a pantsuit."** Casual shoes paired with pearl necklaces tracing back to Alpha Kappa Alpha, whose founding members are called "The Twenty Pearls." Even her informality is curated. Even the curation is authentic. That's the translator's paradox: every register she speaks in is real. But fluency in all of them reads as mastery of none.
 
 And then there's the voicemail. Emhoff's first message after their blind date was, by his own admission, "ridiculous." He'd texted from a Lakers game: "Hey, it's Doug. Awkward. I'm texting you." She saved the voicemail. Every anniversary, she makes him listen to it.
 
 Emhoff told _Marie Claire_ in October 2020 something that says more about their dynamic than any political analysis: **"I'm not overly political. I'm overly her husband."**
 
-But even the marriage revealed the strain of a life under constant performance pressure. Weeks before the 2024 election, they had a blow-up. He'd re-gifted an anniversary necklace for her birthday — the backing engraved with their wedding date, not her birthdate. The breaking point: she was in the bath, towels out of reach, called out for help, got no answer. Emhoff stopped the argument by saying: **"We can't turn on each other."**
+But even the marriage revealed the strain of a life under constant performance pressure. Weeks before the 2024 election, they had a blow-up. He'd re-gifted an anniversary necklace for her birthday (the backing engraved with their wedding date, not her birthdate). The breaking point: she was in the bath, towels out of reach, called out for help, got no answer. Emhoff stopped the argument by saying: **"We can't turn on each other."**
 
 Her videographer Azza Cohen, in a viral _Slate_ essay published on Inauguration Day 2025, described a habit that Harris probably doesn't realize is her most telling. She never tells a little girl she's cute or comments on her outfit. Instead, she says: **"You look like the smartest person in your class."** Then she tells them: **"Let me hear you say, 'I am a leader.'"**
 
@@ -249,11 +249,11 @@ When Threes fail, they don't just feel disappointed. They feel exposed. The achi
 
 Harris lost the 2024 presidential election after a 107-day sprint that began with <a href="/personality-analysis/Joe-Biden">Biden</a>'s withdrawal in July. Her memoir, co-written with Pulitzer Prize winner Geraldine Brooks, opens with a Kendrick Lamar lyric: **"I got loyalty, got royalty inside my DNA."**
 
-The title itself — _107 Days_ — focuses on the heroic effort rather than the result. Frame the loss as an almost-victory. Redefine the failure as evidence of resilience. This is the move.
+The title itself, _107 Days_, focuses on the heroic effort rather than the result. Frame the loss as an almost-victory. Redefine the failure as evidence of resilience. This is the move.
 
 But the book is more honest than that framing suggests.
 
-Election night. Harris's watch party at Howard University — her alma mater — is waiting. The crowd that gathered to celebrate the first Black woman president is instead watching returns tilt red. Somewhere backstage, an aide is peeling **"Madame President"** off celebratory cupcakes before serving them to crushed staffers. Harris is not there. She will not appear. Campaign manager Jen O'Malley Dillon makes the call.
+Election night. Harris's watch party at Howard University, her alma mater, is waiting. The crowd that gathered to celebrate the first Black woman president is instead watching returns tilt red. Somewhere backstage, an aide is peeling **"Madame President"** off celebratory cupcakes before serving them to crushed staffers. Harris is not there. She will not appear. Campaign manager Jen O'Malley Dillon makes the call.
 
 **"I'm sorry, ma'am. I don't think you're going to get there."**
 
@@ -267,7 +267,7 @@ And then the line that cracks open the entire psychology: **"I was ashamed to re
 
 Not ashamed of losing. Ashamed of _grieving wrong_. Ashamed of being caught in the messy, uncontrolled emotional process that grief demands. For someone who has spent her life translating herself into whatever each moment requires, the inability to translate grief into something manageable was the deeper wound.
 
-The depth of that wound surfaced in one detail: **"It says a lot about how traumatized we both were by what happened that night that Doug and I never discussed it with each other until I sat down to write this book."** Two people in the same marriage, carrying the same loss, unable to speak about it — because speaking about it would make it real, and making it real would mean the translator had failed at the one translation that mattered most.
+The depth of that wound surfaced in one detail: **"It says a lot about how traumatized we both were by what happened that night that Doug and I never discussed it with each other until I sat down to write this book."** Two people in the same marriage, carrying the same loss, unable to speak about it, because speaking about it would make it real, and making it real would mean the translator had failed at the one translation that mattered most.
 
 The book also turns its lens on Biden with uncharacteristic bluntness. On Biden calling her right before her debate with <a href="/personality-analysis/Donald-Trump">Trump</a>: **"I was yes, I was angry! And deeply disappointed. I just couldn't understand why he would call me, right now, and make it all about himself."**
 
@@ -275,11 +275,11 @@ On Biden's inner circle: **"Their thinking was zero-sum: If she's shining, he's 
 
 Her husband saw the dysfunction more clearly than she could articulate. At a July 4th celebration, after Jill Biden questioned their loyalty, Emhoff erupted: **"They hide you away for four years, give you impossible, shit jobs, don't correct the record when those tasks are mischaracterized, never fight back when you're attacked, never praise your accomplishments, and now, finally, they want you out there on that balcony, standing right beside them."**
 
-The mixed reception to the book — praised for candor, criticized as finger-pointing — illustrates the bind she can never escape. When she performs, she's called inauthentic. When she drops the performance and says what she actually thinks, she's called bitter.
+The mixed reception to the book (praised for candor, criticized as finger-pointing) illustrates the bind she can never escape. When she performs, she's called inauthentic. When she drops the performance and says what she actually thinks, she's called bitter.
 
-Under stress, Threes disintegrate toward the unhealthy patterns of [Type 9](/enneagram-corner/enneagram-type-9) — disengagement, numbing, the refusal to confront what went wrong. Harris's admission that her mind "simply would not allow" her to accept the loss reads like that arrow in real time. Not laziness. The translator going silent — because there is no language for a failure that threatens to define you.
+Under stress, Threes disintegrate toward the unhealthy patterns of [Type 9](/enneagram-corner/enneagram-type-9): disengagement, numbing, the refusal to confront what went wrong. Harris's admission that her mind "simply would not allow" her to accept the loss reads like that arrow in real time. Not laziness. The translator going silent — because there is no language for a failure that threatens to define you.
 
-In growth, Threes move toward [Type 6](/enneagram-corner/enneagram-type-6) — loyalty, courage, commitment to something larger than personal success. The Espinoza decision was that. The Wanda Kagan moment was that. The concession speech was that: **"When we lose an election, we accept the results. That is a fundamental principle of American democracy."**
+In growth, Threes move toward [Type 6](/enneagram-corner/enneagram-type-6): loyalty, courage, commitment to something larger than personal success. The Espinoza decision was that. The Wanda Kagan moment was that. The concession speech was that: **"When we lose an election, we accept the results. That is a fundamental principle of American democracy."**
 
 ---
 
@@ -287,7 +287,7 @@ In growth, Threes move toward [Type 6](/enneagram-corner/enneagram-type-6) — l
 
 Shyamala Gopalan taught her daughter to tell the world who she is. Harris internalized that instruction so completely that she cannot separate her ambition from her obligation. Every room she walks into, she is simultaneously translating herself for the audience in front of her and for the brown girls who might see themselves in her. The weight of representation and the weight of personal achievement fused into a single drive so early that even she may not be able to tell them apart.
 
-Her videographer watched her tell little girls they were leaders — never commenting on their appearance, always naming their intelligence. It's a small habit. It reveals everything. She is still passing along Shyamala's instruction decades later: _You tell them who you are._
+Her videographer watched her tell little girls they were leaders, never commenting on their appearance, always naming their intelligence. It's a small habit. It reveals everything. She is still passing along Shyamala's instruction decades later: _You tell them who you are._
 
 The woman who gives this advice to every little girl she meets has never quite been able to follow it herself. The translation keeps getting in the way. And the translation keeps getting in the way because it once kept her alive.
 

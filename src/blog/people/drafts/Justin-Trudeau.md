@@ -44,7 +44,7 @@ FEEDBACK (2026-02-19):
 
 > "I remember the bad times as a succession of painful emotional snapshots: Me walking into the library at 24 Sussex, seeing my mother in tears and hearing her talk about leaving while my father stood facing her, stern and ashen."
 
-<p class="firstLetter">Justin Trudeau was five years old when he walked into the library at 24 Sussex and saw his mother crying. His father, Prime Minister Pierre Trudeau, stood facing her — "stern and ashen," Justin would later write in his 2014 memoir <em>Common Ground</em>.</p>
+<p class="firstLetter">Justin Trudeau was five years old when he walked into the library at 24 Sussex and saw his mother crying. His father, Prime Minister Pierre Trudeau, stood facing her, "stern and ashen," Justin would later write in his 2014 memoir <em>Common Ground</em>.</p>
 
 A kid doesn't have words for optics or branding. But he can feel the rule of the room: whatever happens in here, the world can't see it. You keep the face on. You keep moving. Journalist Paul Wells, who covered Trudeau closer than almost anyone, would eventually describe the adult version of that boy as **"an introvert who has become skilled at pretending the contrary."**
 
@@ -58,10 +58,10 @@ So is the curse: when the public stops believing the face, the person underneath
 <summary class="accordion">TL;DR: Why Justin Trudeau is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>The Hope Brand:</b> Trudeau didn't campaign on policies — he campaigned on a <i>feeling</i>. His power peaked when the country believed he embodied modern Canada.</li>
+<li><b>The Hope Brand:</b> Trudeau didn't campaign on policies; he campaigned on a <i>feeling</i>. His power peaked when the country believed he embodied modern Canada.</li>
 <li><b>The Legacy Pressure:</b> As Pierre Trudeau's son, he had to earn success on camera, in a way no one could dismiss as inheritance.</li>
 <li><b>The Narrative Artist:</b> From choosing the "right story to tell" in a boxing ring to the "Because it's 2015" one-liner, he instinctively turns political moments into symbolic theater.</li>
-<li><b>The Fear Underneath:</b> His closest ally eventually named it — the same qualities that powered the rise became the liabilities that accelerated the fall.</li>
+<li><b>The Fear Underneath:</b> His closest ally eventually named it: the same qualities that powered the rise became the liabilities that accelerated the fall.</li>
 </ul>
 </div>
 </details>
@@ -70,7 +70,7 @@ So is the curse: when the public stops believing the face, the person underneath
 
 ### Justin Trudeau is an Enneagram Type 3 (likely 3w2)
 
-Enneagram [Type 3s](/enneagram-corner/enneagram-type-3) are driven by a core fear of failure and a core desire to be valuable. They learn that worth can be earned — through achievement, reputation, and being impressive in the eyes of others.
+Enneagram [Type 3s](/enneagram-corner/enneagram-type-3) are driven by a core fear of failure and a core desire to be valuable. They learn that worth can be earned through achievement, reputation, and being impressive in the eyes of others.
 
 The engine underneath that ambition is often **shame**: the quiet, persistent feeling that if the image slips, the love disappears.
 
@@ -80,35 +80,35 @@ When asked what drives him, Trudeau didn't name ideology. He described a role he
 
 That's not a policy platform. It's an identity statement.
 
-A 2021 personality study from the Unit for the Study of Personality in Politics at St. John's University, conducted by researchers Khoury and Immelman using the Millon Inventory of Diagnostic Criteria, found Trudeau's primary personality pattern to be "outgoing/gregarious" paired with "ambitious/confident." His highest score was on the Outgoing scale — 18 out of a possible range, compared to [Donald Trump's](/personality-analysis/Donald-Trump) 20 and [Barack Obama's](/personality-analysis/Barack-Obama) 3. The researchers classified him as the **"energetic extravert"** subtype: "optimistic, cheerful, and radiating charm and vigor." They predicted a charismatic leadership style with "a flair for the dramatic."
+A 2021 personality study from the Unit for the Study of Personality in Politics at St. John's University, conducted by researchers Khoury and Immelman using the Millon Inventory of Diagnostic Criteria, found Trudeau's primary personality pattern to be "outgoing/gregarious" paired with "ambitious/confident." His highest score was on the Outgoing scale, 18 out of a possible range, compared to [Donald Trump's](/personality-analysis/Donald-Trump) 20 and [Barack Obama's](/personality-analysis/Barack-Obama) 3. The researchers classified him as the **"energetic extravert"** subtype: "optimistic, cheerful, and radiating charm and vigor." They predicted a charismatic leadership style with "a flair for the dramatic."
 
 Translate that into Enneagram terms and you get a textbook Three: image-conscious, confident in their ability to charm, and fundamentally wired to read a room and become what it needs.
 
 **Evidence that points to Type 3:**
 
 - A talent for turning leadership into **symbolic moments** that travel globally
-- A public identity built around being **the embodiment of an era** — "modern," "progressive," "hopeful"
-- Physical discipline as part of the job — boxing, workouts, stage presence
+- A public identity built around being **the embodiment of an era**: "modern," "progressive," "hopeful"
+- Physical discipline as part of the job: boxing, workouts, stage presence
 - Strategic vulnerability that strengthens trust: admitting imperfection without losing control of the narrative
-- A defensive posture when image and accountability collide — protect the story, even when it costs credibility
+- A defensive posture when image and accountability collide, protecting the story, even when it costs credibility
 
-### Why 3w2 — the achiever who needs to be loved, not just admired
+### Why 3w2: the achiever who needs to be loved, not just admired
 
 The Two wing is what separates Trudeau from his own father.
 
-Pierre Trudeau was intellectual, emotionally guarded, a statesman who governed from a distance. Justin has always been the opposite — physically warm, emotionally available, energized by one-on-one connection. When asked about the difference on the Adam Grant podcast _ReThinking_ in 2024, Trudeau named it himself: **"I'm actually good at the things my dad wasn't great at — the campaigning, the handshaking, everything."** He traced the instinct to his maternal grandfather: **"Jimmy Sinclair was a great retail politician. He loved it."**
+Pierre Trudeau was intellectual, emotionally guarded, a statesman who governed from a distance. Justin has always been the opposite: physically warm, emotionally available, energized by one-on-one connection. When asked about the difference on the Adam Grant podcast _ReThinking_ in 2024, Trudeau named it himself: **"I'm actually good at the things my dad wasn't great at — the campaigning, the handshaking, everything."** He traced the instinct to his maternal grandfather: **"Jimmy Sinclair was a great retail politician. He loved it."**
 
 And then the self-definition that clinches it:
 
 > "I am a teacher. It's how I define myself. A good teacher isn't someone who gives the answers out to their kids but is understanding of needs and challenges and gives tools to help other people succeed."
 
-A 3w4 defines themselves through unique accomplishment or creative legacy. A 3w2 defines themselves through a helping role — understanding needs, giving tools, empowering people. That quote is the Two wing talking.
+A 3w4 defines themselves through unique accomplishment or creative legacy. A 3w2 defines themselves through a helping role: understanding needs, giving tools, empowering people. That quote is the Two wing talking.
 
-The evidence was everywhere. At his 2015 cabinet swearing-in at Rideau Hall, Trudeau shared 22 hugs and 32 kisses with his ministers. Maclean's created a literal "hug-o-meter." The longest hug — 9 seconds, with Science Minister Kirsty Duncan. During the ceremony, he told Chrystia Freeland: **"I'm a good hugger."**
+The evidence was everywhere. At his 2015 cabinet swearing-in at Rideau Hall, Trudeau shared 22 hugs and 32 kisses with his ministers. Maclean's created a literal "hug-o-meter." The longest hug, 9 seconds, was with Science Minister Kirsty Duncan. During the ceremony, he told Chrystia Freeland: **"I'm a good hugger."**
 
-The morning after his election victory, instead of holding a press conference, Trudeau went to the Jarry metro station in his Papineau riding and stood by the escalators shaking hands with surprised commuters. He did the exact same thing after his 2019 re-election — same station, same routine. The selfie wasn't vanity. It was need.
+The morning after his election victory, instead of holding a press conference, Trudeau went to the Jarry metro station in his Papineau riding and stood by the escalators shaking hands with surprised commuters. He did the exact same thing after his 2019 re-election. Same station, same routine. The selfie wasn't vanity. It was need.
 
-The Khoury and Immelman personality study confirmed this pattern clinically. Beyond his primary "outgoing/gregarious" and "ambitious/confident" traits, they found a subsidiary **"accommodating/cooperative"** pattern — the helper instinct, validated by peer-reviewed assessment. They predicted a "collegial problem-solving approach with a focus on reconciling differences diplomatically."
+The Khoury and Immelman personality study confirmed this pattern clinically. Beyond his primary "outgoing/gregarious" and "ambitious/confident" traits, they found a subsidiary **"accommodating/cooperative"** pattern: the helper instinct, validated by peer-reviewed assessment. They predicted a "collegial problem-solving approach with a focus on reconciling differences diplomatically."
 
 A 3w4 crafts an image from a distance. A 3w2 walks into the crowd and makes sure every person in it feels personally seen. Trudeau identified with his mother's warmth, not his father's reserve: **"My mom has always been so generous and so sensitive and so vulnerable and yet exudes so much strength,"** he told Rolling Stone. Of Pierre: **"An incredibly tough, brilliant, strong figure... but also with the weaknesses that come with being a sometimes emotionally distant person."**
 
@@ -122,11 +122,11 @@ But Type 2s earn worth through being personally needed. Trudeau's obsession has 
 
 He can also resemble a [Type 7](/enneagram-corner/enneagram-type-7): upbeat, future-focused, relentlessly positive.
 
-But Type 7 optimism is usually about staying ahead of pain — escaping it with stimulation and novelty. Trudeau's optimism has been more like responsibility: the insistence that he can carry the country emotionally, that he can keep the story bright even when the plot turns dark.
+But Type 7 optimism is usually about staying ahead of pain, escaping it with stimulation and novelty. Trudeau's optimism has been more like responsibility: the insistence that he can carry the country emotionally, that he can keep the story bright even when the plot turns dark.
 
 ### Stress, growth, and the Trudeau arc (3 → 9, 3 → 6)
 
-Under sustained pressure, Type 3s can slide toward [Type 9](/enneagram-corner/enneagram-type-9): more scripted, more rigid, more numbed-out. The energy that once felt magnetic starts to feel rehearsed — like the person is still moving, but not fully present.
+Under sustained pressure, Type 3s can slide toward [Type 9](/enneagram-corner/enneagram-type-9): more scripted, more rigid, more numbed-out. The energy that once felt magnetic starts to feel rehearsed, like the person is still moving, but not fully present.
 
 In security, Type 3s move toward [Type 6](/enneagram-corner/enneagram-type-6): more grounded, more team-oriented, more willing to share power and take hard truth without collapsing.
 
@@ -154,13 +154,13 @@ On November 13, 1998, an avalanche swept Justin's younger brother Michel and a f
 
 Michel was 23, still wearing his skis and pack when he broke through the ice.
 
-RCMP divers reached the lake four days later. At 1,900 meters altitude, ice was already so thick that their inflatable boat had to be towed across it by helicopter to reach open water. Each diver was limited to less than ten minutes in the ice-cold lake. On November 18 — five days after the avalanche — the search was abandoned. They recovered Michel's dog, a Labrador-shepherd cross named Makwa.
+RCMP divers reached the lake four days later. At 1,900 meters altitude, ice was already so thick that their inflatable boat had to be towed across it by helicopter to reach open water. Each diver was limited to less than ten minutes in the ice-cold lake. On November 18, five days after the avalanche, the search was abandoned. They recovered Michel's dog, a Labrador-shepherd cross named Makwa.
 
 They never recovered Michel.
 
 A few years before his death, Michel had been watching a documentary about burial rites in Asia when he said, matter-of-factly: **"When it's my turn, just leave me down at the mountain where I lie."**
 
-Justin described a **"spasm of guilt"** — he had been in Vancouver, teaching, while his brother drowned in a glacial lake a few hundred kilometers away. His mother, Margaret, later described her own devastation: **"I didn't want to breathe. I had to remind myself to breathe. I felt I had to go with Michel."** She pushed herself into psychosis. The family eventually staged an intervention.
+Justin described a **"spasm of guilt"**: he had been in Vancouver, teaching, while his brother drowned in a glacial lake a few hundred kilometers away. His mother, Margaret, later described her own devastation: **"I didn't want to breathe. I had to remind myself to breathe. I felt I had to go with Michel."** She pushed herself into psychosis. The family eventually staged an intervention.
 
 At the memorial service at St. Viateur Church in Outremont, Pierre Trudeau read from 1st Corinthians. Justin remembered Michel on the church steps **"with a smile on his face and a dangerous, mischievous glint in his eye that meant anything could happen, and probably would."**
 
@@ -182,7 +182,7 @@ A Type 3 doesn't sit with grief. A Type 3 builds something with it. Two years of
 
 ## The Narrative Artist
 
-Before politics, Trudeau drifted through different attempts at adulthood — engineering, environmental work, odd jobs.
+Before politics, Trudeau drifted through different attempts at adulthood: engineering, environmental work, odd jobs.
 
 Teaching was the first role that fit. At West Point Grey Academy in Vancouver, he taught French, math, and drama from 1999 to 2001. Former student Emilie Clarke, later a radio host, remembered him vividly: **"He was super engaging. If we knew Mr. Trudeau was subbing in, we were so excited... You just couldn't not look at him."** His boss, Stephen Anthony, called him "highly valued, spirited and enthusiastic — liked by both staff and students."
 
@@ -192,7 +192,7 @@ Then came the 2012 charity boxing match against Conservative Senator Patrick Bra
 
 Brazeau was the one with martial arts training. Trudeau was the "pretty boy." The expected headline was humiliation.
 
-Instead, Trudeau trained seriously and won by TKO in the third round. He walked into the ring wearing a temporary Katimavik tattoo drawn on with markers — a reference to a youth volunteer program the Conservatives had just cut.
+Instead, Trudeau trained seriously and won by TKO in the third round. He walked into the ring wearing a temporary Katimavik tattoo drawn on with markers, a reference to a youth volunteer program the Conservatives had just cut.
 
 In a later Rolling Stone interview, Trudeau admitted the matchup was strategic: **"I wanted someone who would be a good foil, and we stumbled upon the scrappy tough-guy senator from an Indigenous community. He fit the bill and it was a very nice counterpoint."** Then the quiet part: **"I saw it as the right kind of narrative, the right story to tell."**
 
@@ -206,7 +206,7 @@ More importantly, he could write the headline.
 
 When Trudeau led the Liberals to a majority in 2015, the win felt like a mood shift.
 
-His campaign wasn't only about policy. It was about the promise that Canada could be different — kinder, more open, more modern, less exhausted.
+His campaign wasn't only about policy. It was about the promise that Canada could be different: kinder, more open, more modern, less exhausted.
 
 He made that promise visible immediately: a gender-balanced cabinet, a new tone, a kind of optimism that traveled internationally as "sunny ways" politics.
 
@@ -216,13 +216,13 @@ Asked why gender parity mattered, he delivered what became one of the most quote
 
 In three words, he made progress feel inevitable.
 
-Policy wins followed — the Canada Child Benefit, cannabis legalization, signing the Paris Agreement. But the deeper achievement was reputational: Trudeau became the global progressive leader people projected their hopes onto.
+Policy wins followed: the Canada Child Benefit, cannabis legalization, signing the Paris Agreement. But the deeper achievement was reputational: Trudeau became the global progressive leader people projected their hopes onto.
 
 And then, three months into office, the image became a scene.
 
 On a December night in 2015, Trudeau went to Toronto Pearson Airport to personally greet 163 Syrian refugees arriving on a military transport plane. It was close to midnight. He helped families into winter coats. He handed Canadian flags to parents and teddy bears to children. He looked one family in the eye and said: **"You're safe at home now."**
 
-A year later, he met one of those refugees again — Vanig Garabedian, who had been among the original arrivals. At a roundtable, Garabedian told the room that when he first boarded the plane in Beirut, a Canadian had shaken his hand and said, _"Go and make Canada a better place."_ Trudeau, wiping tears from his eyes, responded:
+A year later, he met one of those refugees again, Vanig Garabedian, who had been among the original arrivals. At a roundtable, Garabedian told the room that when he first boarded the plane in Beirut, a Canadian had shaken his hand and said, _"Go and make Canada a better place."_ Trudeau, wiping tears from his eyes, responded:
 
 > "Watching you and your girls walk through this airport toward me was a moment in which I understood just the kinds of things that we can do as a country and that I get to help this country do."
 
@@ -234,11 +234,11 @@ The brighter the image, the more painful every shadow looked.
 
 ## A Three's Worst Nightmare: The Tarmac in Halifax
 
-On September 18, 2019 — Day 8 of the federal election campaign — Time magazine published a photograph of Trudeau wearing brownface and a turban at an "Arabian Nights" gala at West Point Grey Academy in 2001. Within hours, a second photo surfaced from the school newsletter. Then a video from the early 1990s showing him in blackface.
+On September 18, 2019, Day 8 of the federal election campaign, Time magazine published a photograph of Trudeau wearing brownface and a turban at an "Arabian Nights" gala at West Point Grey Academy in 2001. Within hours, a second photo surfaced from the school newsletter. Then a video from the early 1990s showing him in blackface.
 
 What happened next is the closest thing to a controlled psychological experiment on what shame looks like in a Type 3 under maximum exposure.
 
-That evening, Trudeau held an emergency press conference aboard the Liberal campaign plane on the tarmac in Halifax. He stood in front of reporters — every single one of whom, journalist Manisha Krishnan of Vice later noted, was white — and tried to hold the performance together.
+That evening, Trudeau held an emergency press conference aboard the Liberal campaign plane on the tarmac in Halifax. He stood in front of reporters (every single one of whom, journalist Manisha Krishnan of Vice later noted, was white) and tried to hold the performance together.
 
 His tone was controlled. His smiles were tight. His body language read as defensive. And when a reporter asked how many times he had worn blackface, the answer cracked the surface:
 
@@ -246,7 +246,7 @@ His tone was controlled. His smiles were tight. His body language read as defens
 
 He couldn't remember how many times he'd done it.
 
-For a man whose superpower was controlling the narrative, this was the sentence that broke the frame. A Three can apologize — strategically, even elegantly. A Three can rewrite the story. But a Three cannot say _I did this so many times I lost count_ and keep the image intact.
+For a man whose superpower was controlling the narrative, this was the sentence that broke the frame. A Three can apologize, strategically, even elegantly. A Three can rewrite the story. But a Three cannot say _I did this so many times I lost count_ and keep the image intact.
 
 He also said: **"I'm pissed off at myself. I'm disappointed in myself."** Pissed off. Disappointed. The vocabulary of someone who just failed at their own performance review.
 
@@ -276,7 +276,7 @@ When your self-worth is welded to being successful, apology can feel like annihi
 
 Marc Garneau, the former astronaut and foreign affairs minister who served in Trudeau's own cabinet, later wrote in his autobiography that Trudeau was **"an ill-prepared leader who prioritizes politics and makes big pronouncements without any follow-through."** He added that he was "never sure" if anything conveyed to Trudeau's office "ever got to the prime minister's ears."
 
-The same instinct showed up later. When the 2022 trucker convoy protests blockaded Ottawa for weeks, Trudeau invoked the Emergencies Act — a move supporters saw as necessary and critics saw as overreach. A federal court later ruled the invocation unconstitutional.
+The same instinct showed up later. When the 2022 trucker convoy protests blockaded Ottawa for weeks, Trudeau invoked the Emergencies Act, a move supporters saw as necessary and critics saw as overreach. A federal court later ruled the invocation unconstitutional.
 
 Erin O'Toole, the Conservative leader who ran against him in 2021, framed Trudeau's entire psychology in a single campaign line: **"Every Canadian has met a Justin Trudeau in their lives — privileged, entitled and always looking out for number one."**
 
@@ -292,7 +292,7 @@ In _Common Ground_, Trudeau wrote:
 
 > "Our marriage isn't perfect, and we have had difficult ups and downs, yet Sophie remains my best friend, my partner, my love."
 
-It's a surprisingly candid line for a politician — and also a strategically wise one. Admitting a crack can make the whole facade feel more believable.
+It's a surprisingly candid line for a politician, and also a strategically wise one. Admitting a crack can make the whole facade feel more believable.
 
 When they announced their separation in August 2023, Sophie reflected on how language turns marriage into a scoreboard. On the _Next Question with Katie Couric_ podcast in May 2024, she said:
 
@@ -308,15 +308,15 @@ Now the same metric had arrived in his private life.
 
 ## The Curtain Call
 
-On Friday, December 13, 2024, Trudeau called Chrystia Freeland on Zoom and told her he no longer wanted her to serve as Finance Minister. He offered her a different portfolio — managing Canada's fraught relations with the incoming Trump administration — but without a department.
+On Friday, December 13, 2024, Trudeau called Chrystia Freeland on Zoom and told her he no longer wanted her to serve as Finance Minister. He offered her a different portfolio, managing Canada's fraught relations with the incoming Trump administration, but without a department.
 
 Freeland spent the weekend deliberating.
 
-On Monday morning, December 16, she called Trudeau and told him she was resigning from cabinet entirely. Then, at 9:07 AM — hours before she was scheduled to deliver the fall economic statement — she posted her resignation letter on X.
+On Monday morning, December 16, she called Trudeau and told him she was resigning from cabinet entirely. Then, at 9:07 AM, hours before she was scheduled to deliver the fall economic statement, she posted her resignation letter on X.
 
 > "To be effective, a minister must speak on behalf of the Prime Minister and with his full confidence. In making your decision, you made clear that I no longer credibly enjoy that confidence."
 
-The letter referenced "costly political gimmicks" — an unambiguous shot at Trudeau's GST tax holiday. Multiple outlets described the tone as scathing.
+The letter referenced "costly political gimmicks," an unambiguous shot at Trudeau's GST tax holiday. Multiple outlets described the tone as scathing.
 
 That afternoon, a hastily arranged Liberal caucus meeting convened. About fifteen MPs took to the microphone. According to CBC, most of them said the same thing: he had to step down.
 

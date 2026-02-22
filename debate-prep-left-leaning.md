@@ -1,4 +1,5 @@
 <!-- debate-prep-left-leaning.md -->
+
 # Left-Leaning Debate Preparation Document
 
 _Comprehensive preparation for a political debate against a right-wing opponent_

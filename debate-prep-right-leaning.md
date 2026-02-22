@@ -1,4 +1,5 @@
 <!-- debate-prep-right-leaning.md -->
+
 # Right-Leaning Debate Preparation Guide
 
 _Prepared: February 21, 2026_
