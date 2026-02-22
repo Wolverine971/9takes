@@ -22,7 +22,7 @@ path: src/blog/enneagram/mental-health/enneagram-anxiety-complete-guide.md
 </script>
 
 <QuickAnswer question="Why does anxiety feel different for everyone?">
-Because anxiety follows the shape of what you care about most. Your Enneagram type's core fear creates a specific anxiety signature — not just "worry" but a particular flavor of dread wired to your deepest vulnerabilities. A perfectionist's anxiety (Type 1) feels nothing like an achiever's anxiety (Type 3), even though both might keep you up at night. Understanding your type's pattern turns a vague, overwhelming feeling into something you can actually name and work with.
+Because anxiety follows the shape of what you care about most. Your Enneagram type's core fear creates a specific anxiety signature, not just "worry" but a particular flavor of dread wired to your deepest vulnerabilities. A perfectionist's anxiety (Type 1) feels nothing like an achiever's anxiety (Type 3), even though both might keep you up at night. Understanding your type's pattern turns a vague, overwhelming feeling into something you can actually name and work with.
 </QuickAnswer>
 
 **Read time**: 18 minutes | **Key insight**: Your type's core fear creates your unique anxiety pattern
@@ -31,7 +31,7 @@ Because anxiety follows the shape of what you care about most. Your Enneagram ty
 
 Sure, Sixes get called "The Loyalist" and worry is their signature move. But here's what nobody talks about: every Enneagram type has anxiety. It just wears a different mask.
 
-Type 1s are anxious about being wrong. Type 3s are anxious about failing in public. Type 7s? They're anxious about being trapped in pain — so anxious they've built an entire personality around never sitting still long enough to feel it.
+Type 1s are anxious about being wrong. Type 3s are anxious about failing in public. Type 7s? They're anxious about being trapped in pain, so anxious they've built an entire personality around never sitting still long enough to feel it.
 
 Your anxiety has a personality. And once you understand how YOUR type experiences it, you can stop fighting a faceless enemy.
 
@@ -57,11 +57,11 @@ Your anxiety has a personality. And once you understand how YOUR type experience
 
 Before diving into individual types, notice which center yours falls in. This shapes how anxiety shows up in your body before your mind even registers it.
 
-**Body/Gut Center (Types 8, 9, 1)** — Anxiety manifests as physical tension, anger, or a heavy inertia you can't explain. Try box breathing first: 4 counts in, 4 hold, 4 out, 4 hold.
+**Body/Gut Center (Types 8, 9, 1)**: Anxiety manifests as physical tension, anger, or a heavy inertia you can't explain. Try box breathing first: 4 counts in, 4 hold, 4 out, 4 hold.
 
-**Heart Center (Types 2, 3, 4)** — Anxiety wraps around shame, image, and emotional flooding. Try heart coherence breathing: 5 counts in, 5 counts out, focusing on the center of your chest.
+**Heart Center (Types 2, 3, 4)**: Anxiety wraps around shame, image, and emotional flooding. Try heart coherence breathing: 5 counts in, 5 counts out, focusing on the center of your chest.
 
-**Head Center (Types 5, 6, 7)** — Anxiety spins as mental loops, catastrophizing, and fear-based thinking. Try 4-7-8 breathing: inhale 4, hold 7, exhale 8.
+**Head Center (Types 5, 6, 7)**: Anxiety spins as mental loops, catastrophizing, and fear-based thinking. Try 4-7-8 breathing: inhale 4, hold 7, exhale 8.
 
 These are your baselines. The type-specific strategies below build on them.
 
@@ -79,21 +79,21 @@ speed={30}
 
 ## Type 1: The Perfectionist's Anxiety {#type-1}
 
-It's 11pm and you've rewritten the same email four times. Not because it's wrong — the first draft was fine. But "fine" isn't good enough. You can feel the tension in your jaw, that familiar tightness across your shoulders. You know you should go to sleep. Instead, you read it one more time.
+It's 11pm and you've rewritten the same email four times. Not because it's wrong. The first draft was fine. But "fine" isn't good enough. You can feel the tension in your jaw, that familiar tightness across your shoulders. You know you should go to sleep. Instead, you read it one more time.
 
 That's Type 1 anxiety. Not panic. Not catastrophizing. A relentless internal pressure that says _you haven't gotten it right yet_.
 
 ### What's Happening Under the Hood
 
-Ones carry a running inner critic that monitors everything for mistakes, moral lapses, and inefficiency. Anxiety fires up when there's ambiguity (no clear "right" answer), when they're criticized, or when they have to make decisions without perfect information. The body takes the hit — tension headaches, clenched jaw, digestive issues. The mind loops on self-criticism and analysis paralysis.
+Ones carry a running inner critic that monitors everything for mistakes, moral lapses, and inefficiency. Anxiety fires up when there's ambiguity (no clear "right" answer), when they're criticized, or when they have to make decisions without perfect information. The body takes the hit: tension headaches, clenched jaw, digestive issues. The mind loops on self-criticism and analysis paralysis.
 
-This one has real research behind it. Meta-analyses encompassing hundreds of studies and over 100,000 participants consistently find that perfectionistic concerns — fear of mistakes, doubts about actions — are significantly associated with anxiety symptoms (Limburg et al., 2017; Shafran et al., 2023). Perfectionism functions as a transdiagnostic risk factor across anxiety, depression, and OCD.
+This one has real research behind it. Meta-analyses encompassing hundreds of studies and over 100,000 participants consistently find that perfectionistic concerns (fear of mistakes, doubts about actions) are significantly associated with anxiety symptoms (Limburg et al., 2017; Shafran et al., 2023). Perfectionism functions as a transdiagnostic risk factor across anxiety, depression, and OCD.
 
 ### What Actually Helps
 
-**The "Perfect Imperfection" Practice** — Set a timer for 5 minutes. Do something intentionally imperfect: draw a crooked line, send an email with a minor typo (to yourself if needed), write with your non-dominant hand. Breathe through the discomfort. Notice you survived. This isn't about lowering your standards — it's about loosening the grip your standards have on your nervous system.
+**The "Perfect Imperfection" Practice**: Set a timer for 5 minutes. Do something intentionally imperfect: draw a crooked line, send an email with a minor typo (to yourself if needed), write with your non-dominant hand. Breathe through the discomfort. Notice you survived. This isn't about lowering your standards. It's about loosening the grip your standards have on your nervous system.
 
-Beyond the exercise: Acceptance and Commitment Therapy (ACT) approaches work particularly well for Ones because they don't ask you to abandon your values — they help you hold them without being strangled by them. Challenge all-or-nothing thinking. Practice the phrase "good enough." Try progressive muscle relaxation for the physical tension you're probably holding right now.
+Beyond the exercise: Acceptance and Commitment Therapy (ACT) approaches work particularly well for Ones because they don't ask you to abandon your values. They help you hold them without being strangled by them. Challenge all-or-nothing thinking. Practice the phrase "good enough." Try progressive muscle relaxation for the physical tension you're probably holding right now.
 
 ---
 
@@ -105,33 +105,33 @@ Then the resentment creeps in. Then the heart races. Then you're lying awake won
 
 ### The Pattern
 
-Twos experience rejection anxiety — a deep fear of being unneeded or unwanted. This connects to anxious attachment, which research has well-documented. Individuals with anxious attachment chronically intensify emotions like fear and anxiety, hyperactivating their attachment system in response to perceived relational threats (Mikulincer & Shaver, 2007). Meta-analyses confirm a significant association between insecure attachment and social anxiety (Zhang et al., 2025).
+Twos experience rejection anxiety, a deep fear of being unneeded or unwanted. This connects to anxious attachment, which research has well-documented. Individuals with anxious attachment chronically intensify emotions like fear and anxiety, hyperactivating their attachment system in response to perceived relational threats (Mikulincer & Shaver, 2007). Meta-analyses confirm a significant association between insecure attachment and social anxiety (Zhang et al., 2025).
 
 The triggers are relational: conflict, being seen as selfish, others becoming independent. The body speaks through heart palpitations, shortness of breath, and fatigue from overgiving. The mind ruminates on relationships, catastrophizing about rejection.
 
 ### What Actually Helps
 
-**The "Fill Your Cup First" Practice** — Hand on heart. Three deep breaths, directed toward yourself. List 3 of your own needs — not what others need from you. Choose one. Meet it before helping anyone else today.
+**The "Fill Your Cup First" Practice**: Hand on heart. Three deep breaths, directed toward yourself. List 3 of your own needs, not what others need from you. Choose one. Meet it before helping anyone else today.
 
-This exercise is small but radical for a Two. Other strategies: practice saying "no" once daily (start with low-stakes requests). Schedule self-care that isn't negotiable — put it in the calendar like an appointment with someone you love. Because it is. Try loving-kindness meditation directed at yourself, not others. Journal about what _you_ need, not what others need from you.
+This exercise is small but radical for a Two. Other strategies: practice saying "no" once daily (start with low-stakes requests). Schedule self-care that isn't negotiable. Put it in the calendar like an appointment with someone you love. Because it is. Try loving-kindness meditation directed at yourself, not others. Journal about what _you_ need, not what others need from you.
 
 ---
 
 ## Type 3: The Achiever's Anxiety {#type-3}
 
-2am. Presentation is tomorrow. You've rehearsed it five times and it's solid — you know it's solid. But you run through it again anyway, because anything less than a standing ovation feels like exposure. Not failure exactly. Something worse: people seeing that you're ordinary.
+2am. Presentation is tomorrow. You've rehearsed it five times and it's solid — you know it's solid. But you run through it again anyway, because anything less than a standing ovation feels like exposure. Not failure, exactly. Something worse: people seeing that you're ordinary.
 
 Type 3 anxiety lives in the gap between who you are and who you're performing. It shows up as imposter syndrome, workaholism, and a nervous energy that won't let you rest even when you've earned it.
 
-A systematic review of 62 studies found that imposter syndrome — the persistent fear of being exposed as a fraud despite evident success — is frequently comorbid with anxiety and depression (Bravata et al., 2020). Meta-analytic research links achievement-driven workaholism to burnout, chronic stress, and diminished mental health (Clark et al., 2016). Threes are living this research.
+A systematic review of 62 studies found that imposter syndrome (the persistent fear of being exposed as a fraud despite evident success) is frequently comorbid with anxiety and depression (Bravata et al., 2020). Meta-analytic research links achievement-driven workaholism to burnout, chronic stress, and diminished mental health (Clark et al., 2016). Threes are living this research.
 
 ### What Actually Helps
 
 Start here: **name three qualities you possess that have nothing to do with achievement.** Not "hard-working." Not "successful." Things like "loyal," "funny," "observant." Hard, right? That difficulty IS the anxiety talking.
 
-**The "Worthy Without Winning" Practice** — Sit quietly for 2 minutes. No phone, no to-do list. Repeat: "I am valuable for who I am, not what I do." Notice the resistance. Don't fight it. Just watch it. End by naming one thing you appreciate about yourself that isn't an accomplishment.
+**The "Worthy Without Winning" Practice**: Sit quietly for 2 minutes. No phone, no to-do list. Repeat: "I am valuable for who I am, not what I do." Notice the resistance. Don't fight it. Just watch it. End by naming one thing you appreciate about yourself that isn't an accomplishment.
 
-Other strategies: practice present-moment awareness during tasks instead of mentally fast-forwarding to the outcome. Separate your identity from your résumé. Do something you're bad at — and let someone see you doing it. Mindful celebration of what you've done (not what's next) can interrupt the treadmill.
+Other strategies: practice present-moment awareness during tasks instead of mentally fast-forwarding to the outcome. Separate your identity from your résumé. Do something you're bad at, and let someone see you doing it. Mindful celebration of what you've done (not what's next) can interrupt the treadmill.
 
 <a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
@@ -147,21 +147,21 @@ Other strategies: practice present-moment awareness during tasks instead of ment
 
 Try this right now: **Name what you're feeling. Just the emotion. No story, no explanation, no poetry.** "Sad." "Anxious." "Restless." That's it.
 
-If that felt reductive — if you immediately wanted to add context, history, meaning — you just felt Four anxiety in action. Fours experience existential and identity anxiety: a fear of being ordinary, a terror of emotional numbness, an uncertainty about who they authentically are underneath all the layers.
+If that felt reductive, if you immediately wanted to add context, history, meaning, you just felt Four anxiety in action. Fours experience existential and identity anxiety: a fear of being ordinary, a terror of emotional numbness, an uncertainty about who they authentically are underneath all the layers.
 
-Research on emotion regulation is relevant here. A meta-analysis of 114 studies found that rumination — replaying emotional experiences and searching for meaning in them — has the strongest association with anxiety across multiple disorder categories (Aldao et al., 2010). Neuroimaging research confirms that individuals with generalized anxiety show exaggerated amygdala reactivity and impaired prefrontal regulation of emotional responses (Fitzgerald et al., 2017). Fours aren't broken for feeling intensely. But the intensity, unchecked, becomes its own anxiety generator.
+Research on emotion regulation is relevant here. A meta-analysis of 114 studies found that rumination (replaying emotional experiences and searching for meaning in them) has the strongest association with anxiety across multiple disorder categories (Aldao et al., 2010). Neuroimaging research confirms that individuals with generalized anxiety show exaggerated amygdala reactivity and impaired prefrontal regulation of emotional responses (Fitzgerald et al., 2017). Fours aren't broken for feeling intensely. But the intensity, unchecked, becomes its own anxiety generator.
 
 ### The "Emotional Weather Report" Practice
 
 This exercise is tailored to Fours because it uses your strength (emotional attunement) without letting it spiral:
 
-1. Name current emotion without narrative — just the weather report, not the forecast
+1. Name current emotion without narrative. Just the weather report, not the forecast
 2. Locate it in your body
 3. Give it a color, texture, or shape
 4. Breathe into that space
 5. Watch it shift without forcing change
 
-The key for Fours: **presence without production.** You don't need to make meaning from every feeling. Sometimes sadness is just weather, not identity. Other strategies that help: consistent self-care routines (structure combats the identity flux), values exploration that anchors you in what matters regardless of mood, and creative expression as regulation — not as escape.
+The key for Fours: **presence without production.** You don't need to make meaning from every feeling. Sometimes sadness is just weather, not identity. Other strategies that help: consistent self-care routines (structure combats the identity flux), values exploration that anchors you in what matters regardless of mood, and creative expression as regulation, not as escape.
 
 ---
 
@@ -169,23 +169,23 @@ The key for Fours: **presence without production.** You don't need to make meani
 
 You got invited to a dinner party. Six people you barely know, unstructured conversation, no escape plan. Your first thought isn't "that sounds fun" — it's mental math. How much energy will this cost? How long before you can leave? What if they ask personal questions?
 
-Five anxiety is resource anxiety. Not money (though maybe that too) — time, energy, mental bandwidth. Fives fear depletion, intrusion, and being caught unprepared. The anxiety lives in the head, which is ironic because Fives already live there. The body barely gets consulted.
+Five anxiety is resource anxiety. Not money (though maybe that too), but time, energy, mental bandwidth. Fives fear depletion, intrusion, and being caught unprepared. The anxiety lives in the head, which is ironic because Fives already live there. The body barely gets consulted.
 
-Research on sensory processing sensitivity — a trait affecting roughly 20% of the population — shows that highly sensitive individuals experience greater physiological reactivity to environmental stimuli and social demands, contributing to anxiety particularly in overstimulating environments (Aron & Aron, 1997; Aron et al., 2012). Fives often display this sensitivity and manage it through withdrawal and information hoarding.
+Research on sensory processing sensitivity, a trait affecting roughly 20% of the population, shows that highly sensitive individuals experience greater physiological reactivity to environmental stimuli and social demands, contributing to anxiety particularly in overstimulating environments (Aron & Aron, 1997; Aron et al., 2012). Fives often display this sensitivity and manage it through withdrawal and information hoarding.
 
 ### What Actually Helps
 
 The generic grounding exercise won't cut it here. Fives need something that leverages their observational strength while pulling them out of their heads and into their bodies.
 
-**The "Field Researcher" Practice** — Treat your body like a research subject for 2 minutes:
+**The "Field Researcher" Practice**: Treat your body like a research subject for 2 minutes.
 
 1. Stand up. Notice your weight distribution (data point 1)
-2. Take 3 breaths and measure — are they shallow or deep? (data point 2)
+2. Take 3 breaths and measure. Are they shallow or deep? (data point 2)
 3. Scan from head to feet: where is tension being held? (data point 3)
 4. Move that body part. Stretch it. Roll it. (intervention)
 5. Re-measure. What changed? (results)
 
-This works for Fives because it frames embodiment as investigation rather than vulnerability. Other strategies: set "information diets" (cap research time on anxious topics), structure your thinking time so it has boundaries, and practice gentle movement — even a short walk can break the head-loop. The key insight for Fives: retreating into your head to solve anxiety is like drinking salt water for thirst. The solution is in the body, not the mind.
+This works for Fives because it frames embodiment as investigation rather than vulnerability. Other strategies: set "information diets" (cap research time on anxious topics), structure your thinking time so it has boundaries, and practice gentle movement. Even a short walk can break the head-loop. The key insight for Fives: retreating into your head to solve anxiety is like drinking salt water for thirst. The solution is in the body, not the mind.
 
 ---
 
@@ -193,25 +193,25 @@ This works for Fives because it frames embodiment as investigation rather than v
 
 Yes, Type 6 does have a special relationship with anxiety. Let's be honest about that.
 
-But it's not that Sixes are more broken than other types. It's that Six anxiety is the most _visible_ — the most recognizable as what culture calls "anxiety." The scanning for danger. The worst-case scenarios. The doubt spirals. The "but what if..." thinking that can turn a Tuesday afternoon into a mental thriller.
+But it's not that Sixes are more broken than other types. It's that Six anxiety is the most _visible_, the most recognizable as what culture calls "anxiety." The scanning for danger. The worst-case scenarios. The doubt spirals. The "but what if..." thinking that can turn a Tuesday afternoon into a mental thriller.
 
 This is where the research is strongest. Intolerance of uncertainty is one of the most robust psychological predictors of generalized anxiety, with meta-analytic research finding a strong correlation (r = .57) between IU and GAD symptoms across dozens of studies (Gentes & Ruscio, 2011). That maps directly onto the Six pattern: not fear of a specific thing, but fear of _not knowing what to fear._
 
 ### What's Different About Six Anxiety
 
-Where other types have anxiety about something specific (mistakes for 1, rejection for 2, failure for 3), Sixes have anxiety about _uncertainty itself._ This makes it feel bottomless. Solving one worry just reveals the next one. The reassurance-seeking is real — you check with trusted people not because you can't think, but because your own thinking feels unreliable.
+Where other types have anxiety about something specific (mistakes for 1, rejection for 2, failure for 3), Sixes have anxiety about _uncertainty itself._ This makes it feel bottomless. Solving one worry just reveals the next one. The reassurance-seeking is real. You check with trusted people not because you can't think, but because your own thinking feels unreliable.
 
 Triggers: ambiguity, authority conflicts, decisions without clear right answers, trust violations, safety threats. The body responds with muscle tension, hypervigilance (scanning rooms, exits, faces), and digestive distress.
 
 ### The "Safety Anchor" Practice
 
-1. Identify one thing that is certain right now — not probably, not likely, _certain_
+1. Identify one thing that is certain right now. Not probably, not likely, _certain_
 2. Feel your feet on the ground
 3. Name 3 things you can control in the next hour
 4. Take 6 slow breaths
 5. Say: "In this moment, I am safe"
 
-Beyond the exercise: graduated exposure to ambiguity builds tolerance over time. Practice making "good enough" decisions on low-stakes things (what to eat, which route to take) without researching. Build self-trust by tracking when your instincts were right — Sixes often don't give themselves credit for accurate reads.
+Beyond the exercise: graduated exposure to ambiguity builds tolerance over time. Practice making "good enough" decisions on low-stakes things (what to eat, which route to take) without researching. Build self-trust by tracking when your instincts were right. Sixes often don't give themselves credit for accurate reads.
 
 <MarqueeHorizontal
   theme="growth"
@@ -222,9 +222,9 @@ Beyond the exercise: graduated exposure to ambiguity builds tolerance over time.
 
 Here's the paradox: Sevens look like the least anxious type. Always moving, always planning the next adventure, always reframing negatives into positives. Optimism personified.
 
-But that relentless motion IS the anxiety. Sevens are running — from boredom, from pain, from grief, from any emotion that can't be solved with a new plan.
+But that relentless motion IS the anxiety. Sevens are running from boredom, from pain, from grief, from any emotion that can't be solved with a new plan.
 
-Research on experiential avoidance — the tendency to escape uncomfortable internal experiences — identifies it as a core vulnerability factor for anxiety (Kashdan et al., 2006). Experiential avoidance mediates the relationship between maladaptive coping and anxiety-related distress. Seven energy is experiential avoidance wearing a party hat.
+Research on experiential avoidance (the tendency to escape uncomfortable internal experiences) identifies it as a core vulnerability factor for anxiety (Kashdan et al., 2006). Experiential avoidance mediates the relationship between maladaptive coping and anxiety-related distress. Seven energy is experiential avoidance wearing a party hat.
 
 The triggers tell the story: boredom, routine, emotional pain, grief, limitations, restrictions, serious conversations, long-term commitments. The body goes restless, hyperactive, scattered. The mind races with plans, escape routes, and relentless positive reframing that prevents genuine processing.
 
@@ -236,7 +236,7 @@ The triggers tell the story: boredom, routine, emotional pain, grief, limitation
 4. Notice without adding to it or planning around it
 5. Let this moment be enough
 
-This works for Sevens because it doesn't ask you to suffer — it asks you to stop moving long enough to actually enjoy something fully. Other strategies: single-task instead of multi-task (depth over breadth). Finish things before starting new ones. When a dark emotion arrives, set a timer for 5 minutes and just be with it. You'll discover something Sevens rarely learn: difficult feelings pass. Avoiding them makes them stick.
+This works for Sevens because it doesn't ask you to suffer. It asks you to stop moving long enough to actually enjoy something fully. Other strategies: single-task instead of multi-task (depth over breadth). Finish things before starting new ones. When a dark emotion arrives, set a timer for 5 minutes and just be with it. You'll discover something Sevens rarely learn: difficult feelings pass. Avoiding them makes them stick.
 
 ---
 
@@ -244,41 +244,41 @@ This works for Sevens because it doesn't ask you to suffer — it asks you to st
 
 You're in a meeting and someone makes a decision without consulting you. Not a big decision. Not even one that affects you directly. But your chest tightens, your jaw sets, and something in you shifts from neutral to combat-ready in about half a second.
 
-That's Eight anxiety. It doesn't call itself anxiety — it calls itself anger, or vigilance, or "not putting up with BS." But underneath the armor is a deep fear of vulnerability, betrayal, and powerlessness.
+That's Eight anxiety. It doesn't call itself anxiety. It calls itself anger, or vigilance, or "not putting up with BS." But underneath the armor is a deep fear of vulnerability, betrayal, and powerlessness.
 
-A meta-analysis of 51 studies found a strong negative association between perceived control and anxiety — the less control people perceive, the more vulnerable they are to anxiety disorders (Gallagher et al., 2014). For Eights, whose identity is organized around maintaining control and avoiding vulnerability, situations that strip away agency can trigger intense physiological responses: muscle tension, elevated blood pressure, aggressive energy that has nowhere constructive to go.
+A meta-analysis of 51 studies found a strong negative association between perceived control and anxiety. The less control people perceive, the more vulnerable they are to anxiety disorders (Gallagher et al., 2014). For Eights, whose identity is organized around maintaining control and avoiding vulnerability, situations that strip away agency can trigger intense physiological responses: muscle tension, elevated blood pressure, aggressive energy that has nowhere constructive to go.
 
 ### The "Soft Power" Practice
 
 This one uses the body, which is where Eights live:
 
-1. Clench every muscle — fists, jaw, shoulders, legs. Hard.
+1. Clench every muscle: fists, jaw, shoulders, legs. Hard.
 2. Hold for 5 seconds
 3. Release everything with a long exhale
-4. Notice the power in the letting go. That's not weakness — it's controlled release.
+4. Notice the power in the letting go. That's not weakness. It's controlled release.
 5. Rest in relaxed strength for 30 seconds
 
-For Eights: redefine strength. Vulnerability isn't the opposite of power — it's a more sophisticated form of it. Practice graduated emotional exposure: share one feeling with someone you trust. Try collaborative problem-solving instead of unilateral decisions. Notice when "anger" is actually a bodyguard for anxiety — and let it step aside.
+For Eights: redefine strength. Vulnerability isn't the opposite of power; it's a more sophisticated form of it. Practice graduated emotional exposure: share one feeling with someone you trust. Try collaborative problem-solving instead of unilateral decisions. Notice when "anger" is actually a bodyguard for anxiety, and let it step aside.
 
 ---
 
 ## Type 9: The Peacemaker's Anxiety {#type-9}
 
-Your partner asks "What do you want for dinner?" and somehow this simple question sends a ripple of something uncomfortable through your chest. Not because you don't have a preference — but because stating one feels dangerous. What if they disagree? What if it causes friction? Easier to say "whatever you want."
+Your partner asks "What do you want for dinner?" and somehow this simple question sends a ripple of something uncomfortable through your chest. Not because you don't have a preference, but because stating one feels dangerous. What if they disagree? What if it causes friction? Easier to say "whatever you want."
 
 Multiply that by every decision, every day, and you've got Nine anxiety: a slow-building pressure from suppressing your own needs, opinions, and preferences to maintain peace. Clinical research consistently links passive communication patterns and assertiveness deficits with increased anxiety and depression. The Nine tendency to suppress personal needs mirrors avoidance patterns that anxiety research identifies as both a symptom and a maintenance factor of anxiety disorders.
 
-The cruel irony: Nines avoid conflict to reduce anxiety, but the avoidance creates more anxiety. Unexpressed needs don't disappear — they go underground, emerging as passive-aggression, stubborn inaction, dissociation, or a vague numbness that makes you feel like you're watching your own life from behind glass.
+The cruel irony: Nines avoid conflict to reduce anxiety, but the avoidance creates more anxiety. Unexpressed needs don't disappear. They go underground, emerging as passive-aggression, stubborn inaction, dissociation, or a vague numbness that makes you feel like you're watching your own life from behind glass.
 
 ### The "My Voice Matters" Practice
 
 1. Place hand on your throat
-2. Hum or tone for 30 seconds — feel the vibration
+2. Hum or tone for 30 seconds. Feel the vibration
 3. State one personal preference out loud. Start small: "I'd rather have Thai food." "I'd like to sit here."
 4. Notice that you still exist after asserting yourself. The world didn't end.
 5. Acknowledge what you just did. That took guts.
 
-Other strategies: practice "I" statements daily. Track your energy — Nines often don't realize how much energy suppression costs until they stop doing it. Engage in healthy conflict on purpose (disagree with a friend about a movie). Take decisive action on one small thing each day. The goal isn't to become confrontational — it's to discover that your presence doesn't destroy the peace. It enriches it.
+Other strategies: practice "I" statements daily. Track your energy. Nines often don't realize how much energy suppression costs until they stop doing it. Engage in healthy conflict on purpose (disagree with a friend about a movie). Take decisive action on one small thing each day. The goal isn't to become confrontational. It's to discover that your presence doesn't destroy the peace. It enriches it.
 
 <a href="/enneagram-corner/mental-health/enneagram-crisis-management-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
@@ -292,7 +292,7 @@ Other strategies: practice "I" statements daily. Track your energy — Nines oft
 
 ## When Anxiety Becomes More Than a Pattern
 
-Everything in this article describes personality-level anxiety patterns — the kind most people live with and manage. But there's a line between "my type's anxiety pattern" and an anxiety disorder, and it matters.
+Everything in this article describes personality-level anxiety patterns, the kind most people live with and manage. But there's a line between "my type's anxiety pattern" and an anxiety disorder, and it matters.
 
 **Signs you've crossed that line:**
 
@@ -314,26 +314,26 @@ If this describes you, the type-specific strategies above are supplements, not r
 
 Knowing your anxiety pattern won't make it disappear. But it does something more useful: it makes your anxiety less mysterious.
 
-When you understand that your Type 3 anxiety is about failure and image — not some random brokenness — you can work with it. You're not fighting a faceless enemy anymore.
+When you understand that your Type 3 anxiety is about failure and image, not some random brokenness, you can work with it. You're not fighting a faceless enemy anymore.
 
 Pick one strategy from your type's section. Try it for a week. See what shifts. And remember: roughly one in five adults experiences an anxiety disorder in any given year (NIMH). You're not unusual for struggling with this. You might just be unusual in understanding why it shows up the way it does.
 
 ## FAQs About Enneagram and Anxiety
 
 **Which Enneagram type has the most anxiety?**
-Type 6 is most associated with anxiety because their pattern — intolerance of uncertainty, worst-case thinking, reassurance-seeking — maps closely onto what clinicians diagnose as generalized anxiety disorder. But "most anxiety" is misleading. Type 1s, 2s, and 4s show comparable anxiety levels when measured by different criteria. Every type has a high-anxiety version. Sixes are just the ones whose anxiety looks most like what we culturally label "anxiety."
+Type 6 is most associated with anxiety because their pattern (intolerance of uncertainty, worst-case thinking, reassurance-seeking) maps closely onto what clinicians diagnose as generalized anxiety disorder. But "most anxiety" is misleading. Type 1s, 2s, and 4s show comparable anxiety levels when measured by different criteria. Every type has a high-anxiety version. Sixes are just the ones whose anxiety looks most like what we culturally label "anxiety."
 
 **Can your Enneagram type change when you're anxious?**
-Your core type doesn't change, but you may show traits of your stress direction. Under anxiety, Type 1s can look like unhealthy 4s (dramatic, withdrawn), Type 6s like unhealthy 3s (image-focused, competitive), and Type 9s like unhealthy 6s (paranoid, reactive). These aren't type changes — they're predictable stress responses. Recognizing them can help you realize what's happening before you spiral.
+Your core type doesn't change, but you may show traits of your stress direction. Under anxiety, Type 1s can look like unhealthy 4s (dramatic, withdrawn), Type 6s like unhealthy 3s (image-focused, competitive), and Type 9s like unhealthy 6s (paranoid, reactive). These aren't type changes; they're predictable stress responses. Recognizing them can help you realize what's happening before you spiral.
 
 **What's the difference between normal anxiety and an anxiety disorder?**
-Normal anxiety is temporary and proportional to a stressor — nervousness before a speech, worry about a deadline. An anxiety disorder involves persistent, excessive worry that interferes with daily life. The one-hour rule is a rough guide: if your type-specific patterns (perfectionism for 1s, rejection fear for 2s, etc.) consume more than an hour daily, cause significant distress, or prevent you from functioning, it's worth a professional evaluation.
+Normal anxiety is temporary and proportional to a stressor: nervousness before a speech, worry about a deadline. An anxiety disorder involves persistent, excessive worry that interferes with daily life. The one-hour rule is a rough guide: if your type-specific patterns (perfectionism for 1s, rejection fear for 2s, etc.) consume more than an hour daily, cause significant distress, or prevent you from functioning, it's worth a professional evaluation.
 
 **How can I help someone with anxiety based on their Enneagram type?**
-Match your approach to their center. For Body types (8, 9, 1): offer physical grounding — walk together, provide space for anger, don't rush them. For Heart types (2, 3, 4): validate their emotions without trying to fix anything, remind them of their worth beyond performance or relationships. For Head types (5, 6, 7): give them information and time, don't dismiss their concerns as irrational, and help them return to present-moment reality.
+Match your approach to their center. For Body types (8, 9, 1): offer physical grounding. Walk together, provide space for anger, don't rush them. For Heart types (2, 3, 4): validate their emotions without trying to fix anything, remind them of their worth beyond performance or relationships. For Head types (5, 6, 7): give them information and time, don't dismiss their concerns as irrational, and help them return to present-moment reality.
 
 **Should I consider medication for anxiety? Does Enneagram type matter?**
-Anxiety medications work on neurochemistry, not personality type — there's no evidence that medication effectiveness varies by Enneagram type. However, your type may shape the concerns and questions you bring to that conversation. Fives may want to understand the mechanism before starting. Sixes may need extra reassurance about side effects. Sevens may resist anything that feels limiting. These are legitimate concerns to bring to a psychiatrist — not reasons to avoid treatment. The Enneagram is a self-awareness tool, not a clinical framework, so let your doctor guide medical decisions.
+Anxiety medications work on neurochemistry, not personality type. There's no evidence that medication effectiveness varies by Enneagram type. However, your type may shape the concerns and questions you bring to that conversation. Fives may want to understand the mechanism before starting. Sixes may need extra reassurance about side effects. Sevens may resist anything that feels limiting. These are legitimate concerns to bring to a psychiatrist, not reasons to avoid treatment. The Enneagram is a self-awareness tool, not a clinical framework, so let your doctor guide medical decisions.
 
 <svelte:head>
 

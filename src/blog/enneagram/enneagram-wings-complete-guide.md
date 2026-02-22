@@ -252,7 +252,7 @@ Non-profit work, teaching, nursing, ministry, counseling, social services
 
 **Red Flags You're This Type:**
 
-- You have an unconscious mental ledger of who you've helped lately — and who hasn't reciprocated
+- You have an unconscious mental ledger of who you've helped lately, and who hasn't reciprocated
 - You feel genuinely confused when someone doesn't want your help
 - The idea of accepting help from others makes you deeply uncomfortable
 
@@ -339,7 +339,7 @@ Sales, management, consulting, coaching, politics, entertainment
 **Red Flags You're This Type:**
 
 - Your LinkedIn bio emphasizes how you helped your team achieve things, not just your own wins
-- You've stayed late to help someone — and made sure the right people knew
+- You've stayed late to help someone and made sure the right people knew
 - Being genuinely disliked feels almost as painful as failing
 
 ---
@@ -380,7 +380,7 @@ Creative fields, entrepreneurship, consulting, design, writing, therapy
 
 **Red Flags You're This Type:**
 
-- You've turned down an opportunity because it didn't feel "authentic" — even when it was a good one
+- You've turned down an opportunity because it didn't feel "authentic," even when it was a good one
 - You've finished a project and immediately questioned whether it meant anything
 - Your bio says something like "creating work that matters" or "building something real"
 
@@ -426,7 +426,7 @@ Arts, entertainment, fashion, design, marketing, entrepreneurship
 
 - You've mentally rehearsed how to share a vulnerable moment before actually sharing it
 - Being uniquely broken and being uniquely brilliant feel like two sides of the same coin
-- You care whether your niche thing is impressive — not just whether it's authentically yours
+- You care whether your niche thing is impressive, not just whether it's authentically yours
 
 ---
 
@@ -467,7 +467,7 @@ Writing, research, academia, therapy, art, philosophy, technology
 **Red Flags You're This Type:**
 
 - You've spent three days internally processing a minor social interaction
-- Your most important insights feel too private to share — and honestly, that's fine with you
+- Your most important insights feel too private to share, and honestly, that's fine with you
 - You'd rather read about an emotion than be asked to talk about yours
 
 ---
@@ -553,7 +553,7 @@ Science, engineering, IT, consulting, analysis, technical writing
 **Red Flags You're This Type:**
 
 - You've read multiple books on a topic before asking anyone for help with it
-- You have a mental model of who you trust and why — and you update it regularly
+- You have a mental model of who you trust and why, and you update it regularly
 - Your calendar has buffer time built in between every commitment
 
 ---
@@ -596,7 +596,7 @@ Research, analysis, IT, security, academia, consulting, law
 
 **Red Flags You're This Type:**
 
-- You've already rehearsed the difficult conversation before it happens — sometimes multiple versions
+- You've already rehearsed the difficult conversation before it happens. Sometimes multiple versions.
 - You trust people who can explain their reasoning, not just assert their conclusions
 - You've researched a restaurant for twenty minutes before agreeing to go there
 
@@ -639,7 +639,7 @@ Sales, marketing, event planning, hospitality, training, team management
 **Red Flags You're This Type:**
 
 - You've organized a group activity specifically to manage your own anxiety about being left out
-- You make jokes when you're nervous — which is fairly often
+- You make jokes when you're nervous, which is fairly often
 - You can simultaneously generate 10 things that could go wrong AND 10 ways to have fun anyway
 
 ---
@@ -683,7 +683,7 @@ Entertainment, hospitality, sales, marketing, training, team leadership
 **Red Flags You're This Type:**
 
 - You've canceled plans and immediately felt guilty about letting someone down
-- You're enthusiastic and you really mean it — but you also really meant it last time
+- You're enthusiastic and you really mean it, but you also really meant it last time
 - You plan adventures with just enough structure to feel safe
 
 ---
@@ -768,7 +768,7 @@ Entrepreneurship, sales, entertainment, politics, business leadership
 
 **Red Flags You're This Type:**
 
-- You've walked into a room and immediately started making things happen — without checking if anyone wanted that
+- You've walked into a room and immediately started making things happen without checking if anyone wanted that
 - You've said "I'm just being direct" after something landed harder than you intended
 - You genuinely don't understand why some decisions require three days of processing
 
@@ -856,7 +856,7 @@ Mediation, counseling, management, HR, social work, law enforcement
 
 - You've mediated a conflict between two friends while privately taking one side
 - People are sometimes surprised to discover how firm you are once you've decided something
-- You've let a situation go on too long — and then surprised everyone with the force of your response
+- You've let a situation go on too long, and then surprised everyone with the force of your response
 
 ---
 
@@ -898,7 +898,7 @@ Teaching, counseling, non-profit work, research, healthcare, ministry
 
 - You have strong opinions about the right way to do things but rarely volunteer them unprompted
 - You've given feedback so gently that the other person didn't realize it was feedback
-- You judge people who don't share your values — but you'd never say so directly
+- You judge people who don't share your values, but you'd never say so directly
 
 ---
 
@@ -1145,9 +1145,9 @@ Understanding this interaction provides even deeper insight into your personalit
 
 Wings work alongside your [integration and disintegration arrows](/enneagram-corner/enneagram-stress-number) — they shape _how_ you experience those movements, not _where_ you go.
 
-**Example:** Both 6w5 and 6w7 move toward Type 3 under disintegration — but they do it differently. A 6w5 becomes calculating and quietly status-conscious, using analysis to manage image. A 6w7 becomes flashier and trend-chasing, using optimism to paper over the hollowness.
+**Example:** Both 6w5 and 6w7 move toward Type 3 under disintegration, but they do it differently. A 6w5 becomes calculating and quietly status-conscious, using analysis to manage image. A 6w7 becomes flashier and trend-chasing, using optimism to paper over the hollowness.
 
-Same arrow, different flavor. Your wing doesn't change the direction — it changes the texture of the journey.
+Same arrow, different flavor. Your wing doesn't change the direction; it changes the texture of the journey.
 
 ## The Wing Paradox: Why You Might Resist Your True Wing
 
@@ -1337,10 +1337,10 @@ Michael's company culture transformed. Team members felt both protected and empo
 Not all Enneagram teachers treat wings the same way:
 
 - **Some downplay wings entirely** in favor of instinctual variants or tritype, arguing those explain more behavioral variation
-- **Some say balanced wings are real** — that you can have roughly equal pull from both adjacent types
+- **Some say balanced wings are real**, that you can have roughly equal pull from both adjacent types
 - **Most agree** that one wing is usually dominant and becomes clearest under stress or in authentic, unguarded moments
 
-The honest position: wings are a conceptual framework, not a measurable neurological reality. What makes them valuable isn't precision — it's the accuracy of recognition. When the description clicks, it clicks hard.
+The honest position: wings are a conceptual framework, not a measurable neurological reality. What makes them valuable isn't precision but the accuracy of recognition. When the description clicks, it clicks hard.
 
 ### Wing and Trauma
 

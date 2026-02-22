@@ -42,7 +42,7 @@ Here's the problem: **your personality type determines exactly why you can't fin
 
 Some types over-apologize until "sorry" loses all meaning. Others treat apologies as surrender. And some get so tangled in being right that they can't see the wreckage behind them.
 
-The Enneagram maps these patterns with uncomfortable accuracy. Once you see your type's specific apology block, you can work around it — and actually mean what you say.
+The Enneagram maps these patterns with uncomfortable accuracy. Once you see your type's specific apology block, you can work around it and actually mean what you say.
 
 ## The Psychology of Apologies
 
@@ -68,7 +68,7 @@ The harder you try to protect your ego during an apology, the less effective it 
 - Types 2, 6, and 7 protect their **security**
 - Types 4, 5, and 9 protect their **identity**
 
-Understanding your protection mechanism is the key to breaking through apology resistance. You'll see these patterns play out in each type's struggle below — and in the cross-type dynamics that make apologizing to certain people especially tricky.
+Understanding your protection mechanism is the key to breaking through apology resistance. You'll see these patterns play out in each type's struggle below, and in the cross-type dynamics that make apologizing to certain people especially tricky.
 
 But before you can deliver an effective apology, you need to truly understand what the other person is feeling. Master [active listening techniques for your personality type](/how-to-guides/ultimate-guide-to-active-listening) to ensure you're addressing the real hurt, not just what you think went wrong.
 
@@ -94,11 +94,11 @@ _"I should have known better. I'm supposed to be the responsible one. If I admit
 
 ### Type 2: The Helper's Hidden Agenda
 
-**The Core Struggle:** Your identity is built on being needed and appreciated. As a security protector, your emotional safety depends on being seen as selfless — so an apology that reveals self-interest feels existentially threatening.
+**The Core Struggle:** Your identity is built on being needed and appreciated. As a security protector, your emotional safety depends on being seen as selfless, so an apology that reveals self-interest feels existentially threatening.
 
 **What Goes Wrong:**
 
-- Apologizing to regain favor rather than genuine remorse ("I feel so terrible — please comfort me")
+- Apologizing to regain favor rather than genuine remorse ("I feel so terrible, please comfort me")
 - Making the apology about your feelings of guilt
 - Expecting immediate forgiveness and restoration
 - Using apologies as emotional manipulation
@@ -110,7 +110,7 @@ _"I was just trying to help! Why can't they see my good intentions? I feel terri
 
 ### Type 3: The Achiever's Image Management
 
-**The Core Struggle:** Apologies feel like public failures. As a competence protector, your value feels tied to outcomes — and an apology is an outcome you can't spin. You'd rather "prove yourself" through future actions than sit with a past mistake.
+**The Core Struggle:** Apologies feel like public failures. As a competence protector, your value feels tied to outcomes, and an apology is an outcome you can't spin. You'd rather "prove yourself" through future actions than sit with a past mistake.
 
 **What Goes Wrong:**
 
@@ -128,7 +128,7 @@ _"This is slowing everything down. Can't we just move forward? I'll show them th
 
 You said something cutting to a friend, and now the guilt is a physical weight in your chest. You draft an apology text — delete it. Draft another — delete it. The words aren't capturing the depth of what you feel. Maybe a poem would express it better. Maybe you should write them a letter. By the time you've found the "authentic" way to say sorry, three days have passed and your friend thinks you don't care.
 
-That's the Type 4 trap. You feel remorse more intensely than almost any other type, but the intensity itself becomes the obstacle. You either disappear under the weight of shame or make the apology about your emotional experience — "I feel so terrible about this" — when the other person needs to hear about _their_ experience.
+That's the Type 4 trap. You feel remorse more intensely than almost any other type, but the intensity itself becomes the obstacle. You either disappear under the weight of shame or make the apology about your emotional experience ("I feel so terrible about this") when the other person needs to hear about _their_ experience.
 
 **The Inner Monologue:**
 _"They'll never understand how I really feel. My pain is probably worse than theirs. Maybe I should just disappear."_
@@ -139,16 +139,16 @@ As an identity protector, your ego defense says that if you can't apologize with
 
 A Type 5 once described their approach to a fight with their partner: "I put together a timeline of events to demonstrate that my response was proportional to the provocation." They genuinely couldn't understand why this made things worse.
 
-That's the Type 5 struggle in miniature. When emotions run high, you retreat to analysis — not because you don't care, but because logic feels safe and feelings don't. You'll write a comprehensive email explaining your reasoning. You'll delay the apology because you need to "think about it more." You'll use phrases like "objectively speaking" in a conversation about hurt feelings.
+That's the Type 5 struggle in miniature. When emotions run high, you retreat to analysis. Not because you don't care, but because logic feels safe and feelings don't. You'll write a comprehensive email explaining your reasoning. You'll delay the apology because you need to "think about it more." You'll use phrases like "objectively speaking" in a conversation about hurt feelings.
 
 **The Inner Monologue:**
 _"Technically, I wasn't wrong. If they understood the full context, they'd see this differently. Emotions are clouding the real issue."_
 
-As an identity protector, your ego shields you from the vulnerability of emotional exposure. The breakthrough isn't analyzing your way to an apology — it's stepping outside the fortress of logic and connecting human-to-human.
+As an identity protector, your ego shields you from the vulnerability of emotional exposure. The breakthrough isn't analyzing your way to an apology. It's stepping outside the fortress of logic and connecting human-to-human.
 
 ### Type 6: The Loyalist's Anxiety Spiral
 
-**The Core Struggle:** Apologies trigger your worst-case scenario thinking. As a security protector, your emotional safety depends on predictability — and not knowing whether forgiveness is coming triggers every alarm you have. You oscillate between over-apologizing and defensive justification.
+**The Core Struggle:** Apologies trigger your worst-case scenario thinking. As a security protector, your emotional safety depends on predictability, and not knowing whether forgiveness is coming triggers every alarm you have. You oscillate between over-apologizing and defensive justification.
 
 **What Goes Wrong:**
 
@@ -164,7 +164,7 @@ _"What if they never forgive me? What if this ruins everything? But wait, maybe 
 
 ### Type 7: The Enthusiast's Avoidance Dance
 
-**The Core Struggle:** Apologies force you to sit with negative emotions — exactly what you've structured your entire life to avoid. As a security protector, you maintain emotional safety by staying in the positive. Guilt and discomfort threaten the entire system.
+**The Core Struggle:** Apologies force you to sit with negative emotions, exactly what you've structured your entire life to avoid. As a security protector, you maintain emotional safety by staying in the positive. Guilt and discomfort threaten the entire system.
 
 **What Goes Wrong:**
 
@@ -182,16 +182,16 @@ _"This is such a downer. Can't we focus on the positive? I'm sure they're over i
 
 You're at dinner with your partner. They tell you — carefully, because they know what's coming — that you hurt their feelings yesterday. Your first instinct isn't guilt. It's a counter-argument. You weren't trying to hurt anyone; you were being honest. They're being too sensitive. And now they want you to _apologize_? That feels like losing.
 
-That's the Type 8 dilemma. As a competence protector, your entire worldview equates vulnerability with weakness. You might offer aggressive honesty ("Look, I shouldn't have said it like that, but you needed to hear it") or strategic concessions ("Fine, I'm sorry — can we move on?"), but genuine contrition requires a gear you've trained yourself not to use.
+That's the Type 8 dilemma. As a competence protector, your entire worldview equates vulnerability with weakness. You might offer aggressive honesty ("Look, I shouldn't have said it like that, but you needed to hear it") or strategic concessions ("Fine, I'm sorry, can we move on?"), but genuine contrition requires a gear you've trained yourself not to use.
 
 **The Inner Monologue:**
 _"I did what needed to be done. They're being too sensitive. Fine, I'll say sorry, but we're moving on immediately."_
 
-The real strength play? Vulnerability is the hardest thing you can do — which means it takes more courage than any fight you've ever won.
+The real strength play? Vulnerability is the hardest thing you can do, which means it takes more courage than any fight you've ever won.
 
 ### Type 9: The Peacemaker's Conflict Avoidance
 
-**The Core Struggle:** You'll do anything to restore harmony, but addressing the conflict directly feels impossible. As an identity protector, you preserve your sense of self by avoiding disruption — and a real apology disrupts the artificial harmony you've built. You hope it will just blow over.
+**The Core Struggle:** You'll do anything to restore harmony, but addressing the conflict directly feels impossible. As an identity protector, you preserve your sense of self by avoiding disruption, and a real apology disrupts the artificial harmony you've built. You hope it will just blow over.
 
 **What Goes Wrong:**
 
@@ -380,31 +380,31 @@ When someone apologizes to you, here's what helps you receive it:
 
 <!-- {#cross-type-dynamics} -->
 
-Generic apology advice ignores a critical variable: who you're apologizing _to_. Your type shapes how you deliver apologies; their type shapes what they need to hear. Here are four dynamics that commonly go sideways — and how to fix them.
+Generic apology advice ignores a critical variable: who you're apologizing _to_. Your type shapes how you deliver apologies; their type shapes what they need to hear. Here are four dynamics that commonly go sideways, and how to fix them.
 
 ### Type 8 Apologizing to Type 4
 
-**What goes wrong:** The 8 wants to say sorry and move on. The 4 needs the emotional weight of the moment acknowledged. The 8's instinct to "fix it and move on" lands as dismissal — confirming the 4's fear that their feelings don't matter.
+**What goes wrong:** The 8 wants to say sorry and move on. The 4 needs the emotional weight of the moment acknowledged. The 8's instinct to "fix it and move on" lands as dismissal, confirming the 4's fear that their feelings don't matter.
 
-**The fix:** 8s, slow down by half. Then slow down again. Ask the 4 what they felt, and sit with the answer without trying to solve it. Your strength here isn't action — it's stillness.
+**The fix:** 8s, slow down by half. Then slow down again. Ask the 4 what they felt, and sit with the answer without trying to solve it. Your strength here isn't action; it's stillness.
 
 ### Type 2 Apologizing to Type 5
 
-**What goes wrong:** The 2 pursues closeness and wants immediate emotional reconciliation. The 5 needs space to process. The harder the 2 pushes for forgiveness, the further the 5 retreats — which makes the 2 push harder.
+**What goes wrong:** The 2 pursues closeness and wants immediate emotional reconciliation. The 5 needs space to process. The harder the 2 pushes for forgiveness, the further the 5 retreats, which makes the 2 push harder.
 
 **The fix:** 2s, deliver a clean apology and then give genuine space. Say "Take whatever time you need" and actually mean it. Don't text the next day to check in. Let the 5 come back to you.
 
 ### Type 1 Apologizing to Type 9
 
-**What goes wrong:** The 1 wants to be thorough — naming exactly what went wrong, why, and how it'll change. The 9 experiences this thoroughness as extended conflict. The 9 says "it's fine" to end the discomfort, and the 1 senses the insincerity but doesn't know what to do with it.
+**What goes wrong:** The 1 wants to be thorough: naming exactly what went wrong, why, and how it'll change. The 9 experiences this thoroughness as extended conflict. The 9 says "it's fine" to end the discomfort, and the 1 senses the insincerity but doesn't know what to do with it.
 
-**The fix:** 1s, be brief. One clear statement of what you did wrong, one sentence of commitment to change. Then stop. Let the 9 process at their own pace. And 9s — if it's not actually fine, say so. A 1 can handle direct honesty better than most types.
+**The fix:** 1s, be brief. One clear statement of what you did wrong, one sentence of commitment to change. Then stop. Let the 9 process at their own pace. And 9s, if it's not actually fine, say so. A 1 can handle direct honesty better than most types.
 
 ### Type 7 Apologizing to Type 6
 
-**What goes wrong:** The 7 apologizes and immediately wants to lighten the mood. The 6 needs reassurance that this won't happen again — repeated, concrete reassurance, not breezy optimism. The 7's "it'll all work out!" reads to the 6 as "I don't take this seriously."
+**What goes wrong:** The 7 apologizes and immediately wants to lighten the mood. The 6 needs reassurance that this won't happen again. Repeated, concrete reassurance, not breezy optimism. The 7's "it'll all work out!" reads to the 6 as "I don't take this seriously."
 
-**The fix:** 7s, stay in the discomfort and offer specifics. "Here's exactly what I'll do differently" matters more to a 6 than any amount of warmth or charm. Follow up a week later unprompted — that's what rebuilds trust for this type.
+**The fix:** 7s, stay in the discomfort and offer specifics. "Here's exactly what I'll do differently" matters more to a 6 than any amount of warmth or charm. Follow up a week later unprompted. That's what rebuilds trust for this type.
 
 ## Advanced Apology Strategies
 
@@ -431,7 +431,7 @@ Sometimes what feels like an apology need isn't:
 
 ### The Recurring Apology Problem
 
-If you're apologizing for the same thing repeatedly, the apology isn't the issue — the behavior is:
+If you're apologizing for the same thing repeatedly, the apology isn't the issue. The behavior is:
 
 1. Your apologies lack behavioral change
 2. You're not addressing the root cause
@@ -459,7 +459,7 @@ A: Text apologies lack tone and presence. Use only for minor issues or initial c
 
 ## The Real Test
 
-Mastering apologies for your type isn't about memorizing scripts — it's about recognizing the moment your defense mechanism kicks in and choosing vulnerability instead. That tightening in your chest, that reflex to justify or deflect or disappear — that's your type's protection mechanism doing its job. Your job is to notice it and act anyway.
+Mastering apologies for your type isn't about memorizing scripts — it's about recognizing the moment your defense mechanism kicks in and choosing vulnerability instead. That tightening in your chest, that reflex to justify or deflect or disappear? That's your type's protection mechanism doing its job. Your job is to notice it and act anyway.
 
 The paradox is that the better you get at admitting mistakes, the fewer you make. When apologizing stops feeling like a threat, you become more conscious about how you treat people in the first place.
 
