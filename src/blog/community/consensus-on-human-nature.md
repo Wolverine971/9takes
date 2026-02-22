@@ -151,12 +151,12 @@ Two frameworks separated by millennia, arriving at the same architecture. That s
 
 But most modern discourse doesn’t start here. It starts with rationality.
 
-## The Appeal of “Just Be Rational”
+## The Appeal of “Just Be Rational"
 
 Steven Pinker represents the best version of this argument. In his book _Rationality_, he traces how human reasoning abilities have produced extraordinary results — the scientific method, democratic institutions, declining violence over centuries. Here he is making the case:
 
-<div class=”iframe-container”>
-<iframe width=”100%” height=”315” loading=”lazy” src={pinkerVideoUrl} title=”Pinker’s call for rationality” frameborder=”0” allow=”accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” allowfullscreen></iframe>
+<div class="iframe-container">
+<iframe width="100%" height="315" loading="lazy" src={pinkerVideoUrl} title="Pinker’s call for rationality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 _In this clip, Pinker argues that the world is sliding toward chaos and that rationality is the cure — that human progress (science, medicine, democracy) happened because we learned to reason, and the path forward requires more of the same._
