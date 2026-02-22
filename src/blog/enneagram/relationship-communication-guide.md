@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-having-an-intimate-conversation'
 path: src/blog/enneagram/relationship-communication-guide.md
+quality_grade: 'B+'
+quality_score: 8.8
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.8) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.4); evidence quality (9.4).
+Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Differentiate from overlapping posts with a clearer unique angle and non-redundant sections.
+Tags: template-fatigue, overlap-duplication
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

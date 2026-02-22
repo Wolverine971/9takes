@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-in-a-tense-moment'
 path: src/blog/enneagram/toxic-traits-relationships-warning-signs.md
+quality_grade: 'B+'
+quality_score: 8.7
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.7) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (8.2).
+Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
+Tags: template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";

@@ -14,7 +14,19 @@ pic: 'two_greek_statues_with_wings'
 pic_alt: 'Two greek statues representing enneagram type and wing influence'
 midjourney_prompt: 'two greek statues standing side by side representing primary type and wing influence, one statue solid and centered showing core personality, the second statue flowing and dynamic showing wing traits, connected by subtle flowing marble ribbons, museum setting with dramatic lighting, cyberpunk, cyberpunk style, neon purple accents, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lense, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections, Screen Space Reflections, Diffraction Grading, Chromatic Aberration, GB Displacement, Scan Lines, Ray Traced, Ray Tracing Ambient Occlusion, Anti-Aliasing, FKAA, TXAA, RTX, SSAO, Shaders, OpenGL-Shaders, GLSL-Shaders, Post Processing, Post-Production, Cel Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hypermaximalist, elegant, hyper realistic, super detailed'
 path: src/blog/enneagram/enneagram-wings-complete-guide.md
+quality_grade: 'C'
+quality_score: 7.9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'major'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: C (7.9) | Priority: major | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (9.6).
+Improve next: Add higher-quality sources and anchor key claims with specific evidence. Reduce repeated section scaffolding and make type sections more differentiated.
+Tags: unsupported-claims, template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!--
 Keyword Strategy:

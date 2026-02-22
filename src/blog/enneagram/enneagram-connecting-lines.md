@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-reading-a-book'
 path: src/blog/enneagram/enneagram-connecting-lines.md
+quality_grade: 'B'
+quality_score: 8.1
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'light'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B (8.1) | Priority: light | Safety: n/a
+Strengths: Enneagram depth (9.7); evidence quality (8.2).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
+Tags: weak-hook, low-utility, style-friction, template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!-- Take a free, ~5 min test here -->
 <script>

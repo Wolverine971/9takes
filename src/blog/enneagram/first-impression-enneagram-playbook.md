@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-getting-ready-to-approach'
 path: src/blog/enneagram/first-impression-enneagram-playbook.md
+quality_grade: 'A'
+quality_score: 9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A (9) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.6); practical utility (9.5).
+Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+Tags: none
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

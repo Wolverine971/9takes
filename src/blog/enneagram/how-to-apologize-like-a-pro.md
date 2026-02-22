@@ -13,7 +13,19 @@ blog: true
 previewHtml: 'Discover why apologizing feels impossible for your personality type and learn the exact words and actions that make your apologies land. From perfectionists who over-apologize to challengers who never apologize, this guide reveals the psychology behind saying sorry.'
 pic: 'greek-statue-apology-reconciliation'
 path: src/blog/enneagram/how-to-apologize-like-a-pro.md
+quality_grade: 'C'
+quality_score: 7.8
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'major'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: C (7.8) | Priority: major | Safety: n/a
+Strengths: practical utility (9.2); Enneagram depth (9.0).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add higher-quality sources and anchor key claims with specific evidence.
+Tags: weak-hook, unsupported-claims, style-friction, template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!-- Midjourney Prompt: two ancient greek statues, one kneeling with head bowed in humble apologetic gesture, hands extended forward, the other standing with a compassionate expression and hands reaching down to help the kneeling figure up, showing forgiveness and reconciliation, marble white with warm golden light, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Soft Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
 

@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'people-from-diverse-backgrounds'
 path: src/blog/enneagram/enneagram-team-diversity.md
+quality_grade: 'B+'
+quality_score: 8.5
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.5) | Priority: none | Safety: n/a
+Strengths: evidence quality (8.2); Enneagram depth (7.7).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+Tags: weak-hook, style-friction
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!-- Discover how to create high-performing teams by harnessing the Enneagram's insights into personality types and triads. Learn strategies for achieving balance, embracing diversity, and optimizing team dynamics for success. -->
 

@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-researcher'
 path: src/blog/enneagram/mental-health/enneagram-science-mental-health.md
+quality_grade: 'A+'
+quality_score: 9.5
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'pass'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A+ (9.5) | Priority: none | Safety: pass
+Strengths: practical utility (9.9); Enneagram depth (9.7).
+Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+Tags: none
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!--
 NOTES:

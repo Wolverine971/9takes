@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'brain-vs-heart-dichotomy'
 path: src/blog/enneagram/neurodiversity-vs-personality.md
+quality_grade: 'C'
+quality_score: 7.8
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'major'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: C (7.8) | Priority: major | Safety: n/a
+Strengths: evidence quality (8.5); Enneagram depth (8.4).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
+Tags: weak-hook, low-utility, style-friction
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";

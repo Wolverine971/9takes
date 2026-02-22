@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-circle-of-anxiety'
 path: src/blog/enneagram/mental-health/enneagram-anxiety-complete-guide.md
+quality_grade: 'D'
+quality_score: 6.9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'rebuild'
+quality_safety_gate: 'fail'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: D (6.9) | Priority: rebuild | Safety: fail
+Strengths: Enneagram depth (9.7); practical utility (9.6).
+Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+Tags: template-fatigue, safety-boundary-risk
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!--
 NOTES:

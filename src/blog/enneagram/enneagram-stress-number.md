@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'feeling-tension'
 path: src/blog/enneagram/enneagram-stress-number.md
+quality_grade: 'B+'
+quality_score: 8.7
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.7) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (9.5).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
+Tags: weak-hook, template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!--
 todo update

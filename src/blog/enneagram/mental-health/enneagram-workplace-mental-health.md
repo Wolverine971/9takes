@@ -14,7 +14,19 @@ previewHtml: ''
 pic: 'greek-statue-on-laptop-stressed'
 meta_title: "Why You're Burning Out at Work (Your Personality Type Reveals the Hidden Cause)"
 path: src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md
+quality_grade: 'D'
+quality_score: 6.9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'rebuild'
+quality_safety_gate: 'fail'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: D (6.9) | Priority: rebuild | Safety: fail
+Strengths: practical utility (9.9); Enneagram depth (9.1).
+Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+Tags: safety-boundary-risk
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";

@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-building-a-boat'
 path: src/blog/enneagram/enneagram-types-working-in-teams.md
+quality_grade: 'B+'
+quality_score: 8.7
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.7) | Priority: none | Safety: n/a
+Strengths: practical utility (9.3); Enneagram depth (8.7).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+Tags: weak-hook, style-friction
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

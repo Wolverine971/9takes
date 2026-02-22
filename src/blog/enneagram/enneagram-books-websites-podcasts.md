@@ -14,7 +14,19 @@ previewHtml: ''
 pic: 'greek-statue-listening-to-a-podcast'
 meta_title: "The Only Enneagram Resource Guide You'll Ever Need (2026 Edition)"
 path: src/blog/enneagram/enneagram-books-websites-podcasts.md
+quality_grade: 'A'
+quality_score: 9.3
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A (9.3) | Priority: none | Safety: n/a
+Strengths: practical utility (9.9); evidence quality (9.6).
+Improve next: Push for more distinctive insight and less generic phrasing. Improve structural flow and readability across sections.
+Tags: none
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";

@@ -14,7 +14,19 @@ pic: 'greek-statues-examining-compatibility-chart'
 pic_alt: 'Two Greek statues looking skeptically at a floating compatibility chart while genuinely connected by golden threads'
 midjourney_prompt: 'two Greek marble statues in romantic pose examining floating translucent compatibility chart between them with skeptical raised eyebrows, one statue dismissively gesturing at percentage numbers on chart while other statue shakes head, crumbling numbers and percentages falling like ash from the chart, despite their skepticism golden glowing threads connect their hearts showing genuine connection transcends charts, ancient Roman library setting with marble columns and scattered scrolls, dramatic side lighting casting long shadows, warm golden hour tones with cool blue chart glow creating contrast, marble white statues with subtle rose gold veins, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6'
 path: src/blog/enneagram/enneagram-compatibility-guide.md
+quality_grade: 'B+'
+quality_score: 8.8
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.8) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (8.6).
+Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Differentiate from overlapping posts with a clearer unique angle and non-redundant sections.
+Tags: template-fatigue, overlap-duplication
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!--
 Keyword Strategy:

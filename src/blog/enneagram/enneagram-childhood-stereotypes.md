@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-babies'
 path: src/blog/enneagram/enneagram-childhood-stereotypes.md
+quality_grade: 'B'
+quality_score: 8.2
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'light'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B (8.2) | Priority: light | Safety: n/a
+Strengths: Enneagram depth (8.2); framing (7.9).
+Improve next: Add concrete steps, checklists, and "what to do next" guidance. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+Tags: low-utility, style-friction
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

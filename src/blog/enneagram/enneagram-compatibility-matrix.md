@@ -14,7 +14,19 @@ pic: 'greek_statues_in_a_circle_holding_hands'
 pic_alt: 'Circular arrangement of nine greek statues with connecting threads showing compatibility patterns'
 midjourney_prompt: 'nine greek statues arranged in a perfect circle with golden and silver threads connecting them in intricate patterns representing compatibility, some threads glowing bright showing strong connections, others dimmer showing challenges, central mandala pattern of interweaving connections, romantic and platonic energy, warm golden hour lighting with ethereal glow, cyberpunk romantic aesthetic with soft pink and blue neon accents, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lense, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections, Screen Space Reflections, Diffraction Grading, Chromatic Aberration, GB Displacement, Scan Lines, Ray Traced, Ray Tracing Ambient Occlusion, Anti-Aliasing, FKAA, TXAA, RTX, SSAO, Shaders, OpenGL-Shaders, GLSL-Shaders, Post Processing, Post-Production, Cel Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hypermaximalist, elegant, hyper realistic, super detailed'
 path: src/blog/enneagram/enneagram-compatibility-matrix.md
+quality_grade: 'B+'
+quality_score: 8.6
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.6) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.4); practical utility (8.5).
+Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Differentiate from overlapping posts with a clearer unique angle and non-redundant sections.
+Tags: template-fatigue, overlap-duplication
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!--
 Keyword Strategy:

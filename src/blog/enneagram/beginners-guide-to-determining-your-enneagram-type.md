@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-two-females-on-phones'
 path: src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md
+quality_grade: 'A'
+quality_score: 9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A (9) | Priority: none | Safety: n/a
+Strengths: practical utility (9.9); Enneagram depth (9.5).
+Improve next: Push for more distinctive insight and less generic phrasing. Support key assertions with more explicit, high-quality sourcing.
+Tags: none
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
   import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";

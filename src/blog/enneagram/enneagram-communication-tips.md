@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-arguing'
 path: src/blog/enneagram/enneagram-communication-tips.md
+quality_grade: 'A'
+quality_score: 9.2
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A (9.2) | Priority: none | Safety: n/a
+Strengths: practical utility (9.5); Enneagram depth (9.0).
+Improve next: Push for more distinctive insight and less generic phrasing. Support key assertions with more explicit, high-quality sourcing.
+Tags: none
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';

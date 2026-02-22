@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'looking-up-at-the-night-sky'
 path: src/blog/enneagram/astrology-and-the-enneagram.md
+quality_grade: 'B+'
+quality_score: 8.8
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.8) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.7); framing (8.2).
+Improve next: Tighten flow and readability by trimming dense blocks and sharpening transitions.
+Tags: style-friction
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

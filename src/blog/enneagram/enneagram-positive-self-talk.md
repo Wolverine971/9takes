@@ -15,7 +15,19 @@ pic: 'greek-statue-reading'
 pic_alt: 'Greek statue contemplating with thought bubbles showing transformation from negative to positive self-talk'
 midjourney_prompt: 'A classical Greek marble statue in deep contemplation, holding an ancient scroll with visible text, surrounded by ethereal thought bubbles - dark stormy bubbles on left transforming into golden glowing bubbles on right, representing the transformation of inner dialogue, soft morning light streaming through classical columns, photorealistic detail, depth of field, wisdom and self-reflection theme, particles of light floating around representing new neural pathways forming, museum quality photography --ar 16:9 --v 6'
 path: src/blog/enneagram/enneagram-positive-self-talk.md
+quality_grade: 'B'
+quality_score: 8.1
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'light'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B (8.1) | Priority: light | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (9.2).
+Improve next: Add higher-quality sources and anchor key claims with specific evidence. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+Tags: unsupported-claims, style-friction, template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

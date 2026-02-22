@@ -14,7 +14,19 @@ previewHtml: ''
 pic: 'greek-statue-phone-dating-apps'
 path: src/blog/enneagram/why-dating-apps-are-harder-for-certain-personality-types.md
 midjourney: 'greek marble statue sitting alone looking at phone with exhausted frustrated expression, swipe fatigue, surrounded by floating translucent profile photos fading away, modern cafe setting, the statue face showing disappointment and weariness, black white and grey with subtle blue phone glow, Unreal Engine, Cinematic, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Beautiful Lighting, Accent Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9'
+quality_grade: 'B'
+quality_score: 8.4
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'light'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B (8.4) | Priority: light | Safety: n/a
+Strengths: Enneagram depth (8.3); practical utility (8.3).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
+Tags: weak-hook, template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

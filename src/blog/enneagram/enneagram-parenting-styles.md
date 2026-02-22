@@ -15,7 +15,19 @@ pic: 'greek-statue-parent-child'
 pic_alt: 'Greek marble statues of parent and child as mirror reflections, representing how parenting patterns pass between generations'
 midjourney_prompt: 'Two Greek marble statues, adult parent and small child, positioned as mirror reflections of each other, the childs pose subtly echoing the parents stance, marble pedestals at different heights, soft ethereal lighting creating shadows that connect both figures, museum setting, ancient wisdom meeting new generation, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Depth of Field, hyper-detailed, insane details, beautifully color graded, 32k, dramatic side lighting, Global Illumination, Ray Tracing Global Illumination, elegant, hyper realistic --ar 16:9 --v 6'
 path: src/blog/enneagram/enneagram-parenting-styles.md
+quality_grade: 'B+'
+quality_score: 8.9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.9) | Priority: none | Safety: n/a
+Strengths: practical utility (9.9); Enneagram depth (9.7).
+Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+Tags: none
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";

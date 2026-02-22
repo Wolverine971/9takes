@@ -13,7 +13,19 @@ blog: true
 previewHtml: "First dates are nerve-wracking for everyone. Learn how each Enneagram type approaches dating, their unique preparations, and what they're really looking for."
 pic: 'greek-statues-on-a-first-date'
 path: src/blog/enneagram/enneagram-types-on-a-first-date.md
+quality_grade: 'B+'
+quality_score: 8.9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.9) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (8.5).
+Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+Tags: none
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";

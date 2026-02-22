@@ -14,7 +14,19 @@ pic: 'attachment_styles_enneagram_types_psychology'
 pic_alt: 'Nine figures showing different attachment patterns - secure embrace, anxious reaching, avoidant distance, and disorganized confusion'
 midjourney_prompt: 'nine elegant figures arranged in a 3x3 grid, each demonstrating different attachment styles through body language and energy - some figures embracing confidently (secure), others reaching anxiously with glowing red threads, some turning away with blue protective shields (avoidant), some switching between closeness and distance (disorganized), golden threads showing personality types, psychological depth with visible emotional patterns as colored auras, warm and cool color balance, ethereal psychology visualization, beautifully detailed expressions showing attachment dynamics, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6'
 path: src/blog/enneagram/attachment-styles-and-enneagram-types.md
+quality_grade: 'A'
+quality_score: 9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A (9) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (9.6).
+Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Differentiate from overlapping posts with a clearer unique angle and non-redundant sections.
+Tags: template-fatigue, overlap-duplication
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
     import PopCard from "$lib/components/atoms/PopCard.svelte";

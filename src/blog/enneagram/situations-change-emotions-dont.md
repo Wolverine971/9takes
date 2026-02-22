@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-who-are-stressed'
 path: src/blog/enneagram/situations-change-emotions-dont.md
+quality_grade: 'B+'
+quality_score: 8.5
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.5) | Priority: none | Safety: n/a
+Strengths: framing (7.9); Enneagram depth (7.9).
+Improve next: Tighten flow and readability by trimming dense blocks and sharpening transitions.
+Tags: style-friction
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 </script>

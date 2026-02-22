@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-party-vibes'
 path: src/blog/enneagram/enneagram-types-at-party.md
+quality_grade: 'B'
+quality_score: 8
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'light'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B (8) | Priority: light | Safety: n/a
+Strengths: Enneagram depth (9.6); practical utility (8.5).
+Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
+Tags: template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";

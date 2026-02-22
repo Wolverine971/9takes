@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-being-ghosted'
 path: src/blog/enneagram/enneagram-types-being-ghosted.md
+quality_grade: 'A'
+quality_score: 9.3
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A (9.3) | Priority: none | Safety: n/a
+Strengths: practical utility (9.8); Enneagram depth (9.7).
+Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+Tags: none
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";

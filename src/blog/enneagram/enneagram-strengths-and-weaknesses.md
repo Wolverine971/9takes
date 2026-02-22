@@ -14,7 +14,19 @@ pic: 'greek-statue-holding-scales'
 previewHtml: 'Understanding your Enneagram type reveals your natural strengths and hidden weaknesses. Learn what energizes each type, what drains them, and how to leverage these insights for personal and professional growth.'
 wordCount: 4892
 path: src/blog/enneagram/enneagram-strengths-and-weaknesses.md
+quality_grade: 'B+'
+quality_score: 8.8
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.8) | Priority: none | Safety: n/a
+Strengths: practical utility (9.9); Enneagram depth (9.7).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
+Tags: weak-hook, template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!-- MIDJOURNEY PROMPTS
 

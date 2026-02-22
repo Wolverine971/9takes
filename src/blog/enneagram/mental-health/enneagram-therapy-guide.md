@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-in-a-progression'
 path: src/blog/enneagram/mental-health/enneagram-therapy-guide.md
+quality_grade: 'D'
+quality_score: 6.9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'rebuild'
+quality_safety_gate: 'fail'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: D (6.9) | Priority: rebuild | Safety: fail
+Strengths: practical utility (9.4); Enneagram depth (9.2).
+Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+Tags: safety-boundary-risk
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";

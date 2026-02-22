@@ -14,7 +14,19 @@ blog: true
 previewHtml: 'Every famous Type 7 chased the next thing. None of them found fulfillment until they stopped. After studying 17 Enthusiasts from Kevin Hart to Palmer Luckey to Bad Bunny, here are the 7 patterns that actually unlocked what they were searching for.'
 pic: 'alone-with-thoughts'
 path: src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md
+quality_grade: 'B'
+quality_score: 8.2
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'light'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B (8.2) | Priority: light | Safety: n/a
+Strengths: Enneagram depth (9.1); framing (7.9).
+Improve next: Add higher-quality sources and anchor key claims with specific evidence. Add concrete steps, checklists, and "what to do next" guidance.
+Tags: unsupported-claims, low-utility
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!--
 Midjourney prompt:

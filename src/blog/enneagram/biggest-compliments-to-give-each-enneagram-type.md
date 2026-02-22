@@ -12,7 +12,19 @@ type: ['situational']
 blog: true
 pic: 'greek-statue-yeah-boi'
 path: src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md
+quality_grade: 'B'
+quality_score: 8.1
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'light'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B (8.1) | Priority: light | Safety: n/a
+Strengths: Enneagram depth (8.9); framing (7.8).
+Improve next: Tighten flow and readability by trimming dense blocks and sharpening transitions. Reduce repeated section scaffolding and make type sections more differentiated.
+Tags: style-friction, template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!-- // notes:  -->
 

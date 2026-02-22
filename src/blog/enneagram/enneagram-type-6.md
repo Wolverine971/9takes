@@ -13,7 +13,19 @@ type: ['nine-types']
 blog: true
 pic: ''
 path: src/blog/enneagram/enneagram-type-6.md
+quality_grade: 'A'
+quality_score: 9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A (9) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.4); practical utility (9.3).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+Tags: weak-hook
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!--
 Midjourney prompt:

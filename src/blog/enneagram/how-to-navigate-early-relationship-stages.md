@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'young-couple-on-a-date'
 path: src/blog/enneagram/how-to-navigate-early-relationship-stages.md
+quality_grade: 'B+'
+quality_score: 8.8
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.8) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (9.5).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+Tags: weak-hook
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

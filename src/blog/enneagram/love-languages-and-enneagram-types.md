@@ -14,7 +14,19 @@ pic: 'greek_statues_giving_and_receiving_love_in_different_ways'
 pic_alt: 'Nine Greek statues demonstrating different love languages - giving gifts, embracing, serving, talking, and spending time together'
 midjourney_prompt: 'nine elegant greek statues arranged in a circle, each demonstrating a different love language - one statue offering a gift, another embracing warmly, one performing service, another speaking lovingly, one giving quality time, golden threads connecting them showing different personality types, warm romantic lighting with soft pink and gold tones, ethereal glow around each statue, classical marble texture with modern romantic energy, beautifully detailed facial expressions showing love and connection, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6'
 path: src/blog/enneagram/love-languages-and-enneagram-types.md
+quality_grade: 'B'
+quality_score: 8.4
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'light'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B (8.4) | Priority: light | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (9.2).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add higher-quality sources and anchor key claims with specific evidence.
+Tags: weak-hook, unsupported-claims, template-fatigue, overlap-duplication
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
     import PopCard from "$lib/components/atoms/PopCard.svelte";

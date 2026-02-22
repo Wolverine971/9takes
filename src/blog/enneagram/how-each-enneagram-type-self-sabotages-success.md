@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-self-sabotage'
 path: src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
+quality_grade: 'A'
+quality_score: 9.1
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A (9.1) | Priority: none | Safety: n/a
+Strengths: practical utility (9.9); Enneagram depth (9.7).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+Tags: weak-hook
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";

@@ -12,7 +12,19 @@ blog: true
 previewHtml: ''
 pic: 'enneagram-vs-meyers-briggs'
 path: src/blog/enneagram/enneagram-vs-meyers-briggs.md
+quality_grade: 'B'
+quality_score: 8.3
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'light'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B (8.3) | Priority: light | Safety: n/a
+Strengths: Enneagram depth (9.4); framing (8.3).
+Improve next: Tighten flow and readability by trimming dense blocks and sharpening transitions.
+Tags: style-friction
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

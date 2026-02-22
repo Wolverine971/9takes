@@ -13,7 +13,19 @@ blog: true
 pic: 'greek-statue-thinking-about-transformation'
 pic_alt: 'Greek statue contemplating transformation with ascending paths representing personal growth'
 path: src/blog/enneagram/90-day-personality-maxing-blueprint.md
+quality_grade: 'B+'
+quality_score: 8.5
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.5) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.7); practical utility (9.2).
+Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
+Tags: template-fatigue
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
     import PopCard from "$lib/components/atoms/PopCard.svelte";

@@ -14,7 +14,19 @@ previewHtml: ''
 pic: 'greek-statue-therapy-couch'
 # midjourney: White marble Greek statue lying stiffly on burgundy leather Freudian therapy couch, statue positioned awkwardly as if the couch wasn't made for marble bodies, carved face showing polite but hollow expression, real therapy office with bookshelves of psychology texts behind, small clock showing 50-minute session, notepad on therapist's empty chair with "How does that make you feel?" written in script, statue's marble hand resting near but not touching the tissue box, warm afternoon light through venetian blinds casting linear shadows across marble, the contrast between ancient stone and modern therapeutic setting, lifestyle photography, cinematic composition --ar 16:9 --v 6
 path: src/blog/enneagram/why-therapy-doesnt-work-the-same-for-every-type.md
+quality_grade: 'D'
+quality_score: 6.9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'rebuild'
+quality_safety_gate: 'fail'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: D (6.9) | Priority: rebuild | Safety: fail
+Strengths: Enneagram depth (9.7); practical utility (9.5).
+Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+Tags: safety-boundary-risk
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

@@ -13,7 +13,19 @@ blog: true
 pic: 'researching-religious-texts'
 previewHtml: ''
 path: src/blog/enneagram/enneagram-and-religion.md
+quality_grade: 'A'
+quality_score: 9.2
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: A (9.2) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.6); practical utility (9.6).
+Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+Tags: none
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";

@@ -13,7 +13,19 @@ blog: true
 previewHtml: ''
 pic: 'greek-statues-team-dynamics-office'
 path: src/blog/enneagram/enneagram-team-dynamics.md
+quality_grade: 'B+'
+quality_score: 8.8
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.8) | Priority: none | Safety: n/a
+Strengths: Enneagram depth (9.4); evidence quality (8.1).
+Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+Tags: weak-hook, style-friction
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <!-- Midjourney Prompt: group of greek statues in a modern office conference room, some statues standing at a whiteboard drawing diagrams, others sitting around a table with laptops and documents, one statue giving a presentation, another taking notes, collaborative team meeting in progress, marble white with gold accents, modern professional lighting, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
 

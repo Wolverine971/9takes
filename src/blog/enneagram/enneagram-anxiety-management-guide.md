@@ -15,7 +15,19 @@ pic: 'greek-statues-who-are-stressed'
 pic_alt: 'Nine Greek statues showing different anxiety patterns and coping mechanisms'
 midjourney_prompt: 'Nine ancient Greek marble statues arranged in a circle, each displaying different anxiety manifestations - one statue holding its head in worry, another with clenched fists showing control, one withdrawn and isolated, another pacing restlessly, one frozen in indecision, one hypervigilant looking in all directions, one escaping upward, one armored and defensive, one dissolving into background, soft dramatic lighting with shadows representing inner turmoil, mist and atmospheric effects, some statues beginning to glow from within showing transformation and healing, photorealistic detail, museum quality, depth of field, volumetric lighting --ar 16:9 --v 6'
 path: src/blog/enneagram/enneagram-anxiety-management-guide.md
+quality_grade: 'B+'
+quality_score: 8.7
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.7) | Priority: none | Safety: n/a
+Strengths: practical utility (9.9); Enneagram depth (9.7).
+Improve next: Add higher-quality sources and anchor key claims with specific evidence.
+Tags: unsupported-claims
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

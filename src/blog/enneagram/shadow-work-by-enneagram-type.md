@@ -14,7 +14,19 @@ pic: 'nine_greek_statues_facing_their_shadows_on_the_wall'
 pic_alt: 'Nine Greek statues standing before a wall where their shadows reveal their hidden dark traits and fears'
 midjourney_prompt: 'nine elegant greek marble statues arranged in a semicircle facing a large stone wall, each statue casting a distinctive shadow that reveals hidden aspects - one shadow shows perfectionist criticism, another shows manipulative helping, shadows showing different dark patterns while the statues themselves appear noble and bright, dramatic lighting with strong contrast between light and shadow, psychological and introspective mood, warm golden hour lighting creating long dramatic shadows, classical architecture with modern psychological symbolism, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6'
 path: src/blog/enneagram/shadow-work-by-enneagram-type.md
+quality_grade: 'B+'
+quality_score: 8.9
+quality_graded_at: '2026-02-22'
+quality_rewrite_priority: 'none'
+quality_safety_gate: 'n/a'
 ---
+<!-- QUALITY_FEEDBACK_START
+Grade: B+ (8.9) | Priority: none | Safety: n/a
+Strengths: practical utility (9.9); Enneagram depth (9.7).
+Improve next: Add higher-quality sources and anchor key claims with specific evidence.
+Tags: unsupported-claims
+Graded: 2026-02-22
+QUALITY_FEEDBACK_END -->
 
 <script>
     import PopCard from "$lib/components/atoms/PopCard.svelte";
