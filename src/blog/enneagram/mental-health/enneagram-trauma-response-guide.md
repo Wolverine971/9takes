@@ -19,6 +19,7 @@ quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'rebuild'
 quality_safety_gate: 'fail'
 ---
+
 <!-- QUALITY_FEEDBACK_START
 Grade: D (6.9) | Priority: rebuild | Safety: fail
 Strengths: Enneagram depth (9.7); practical utility (9.5).

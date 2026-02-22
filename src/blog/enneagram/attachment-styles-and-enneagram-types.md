@@ -20,6 +20,7 @@ quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
+
 <!-- QUALITY_FEEDBACK_START
 Grade: A (9) | Priority: none | Safety: n/a
 Strengths: Enneagram depth (9.7); practical utility (9.6).

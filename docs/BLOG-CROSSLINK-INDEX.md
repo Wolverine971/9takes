@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-02-21_
+_Generated: 2026-02-22_
 _Total Posts Analyzed: 145 (Published: 131, Unpublished: 14)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 

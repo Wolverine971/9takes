@@ -19,6 +19,7 @@ quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'major'
 quality_safety_gate: 'n/a'
 ---
+
 <!-- QUALITY_FEEDBACK_START
 Grade: C (7.8) | Priority: major | Safety: n/a
 Strengths: evidence quality (8.5); Enneagram depth (8.4).

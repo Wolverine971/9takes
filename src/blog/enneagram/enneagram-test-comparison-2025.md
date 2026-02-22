@@ -20,6 +20,7 @@ quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'major'
 quality_safety_gate: 'n/a'
 ---
+
 <!-- QUALITY_FEEDBACK_START
 Grade: C (7.9) | Priority: major | Safety: n/a
 Strengths: practical utility (9.6); Enneagram depth (8.4).

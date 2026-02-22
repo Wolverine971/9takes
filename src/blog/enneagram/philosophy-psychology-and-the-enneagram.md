@@ -19,6 +19,7 @@ quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'light'
 quality_safety_gate: 'n/a'
 ---
+
 <!-- QUALITY_FEEDBACK_START
 Grade: B (8.2) | Priority: light | Safety: n/a
 Strengths: evidence quality (9.1); originality (7.5).

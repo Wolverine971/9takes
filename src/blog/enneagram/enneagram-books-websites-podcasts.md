@@ -20,6 +20,7 @@ quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
+
 <!-- QUALITY_FEEDBACK_START
 Grade: A (9.3) | Priority: none | Safety: n/a
 Strengths: practical utility (9.9); evidence quality (9.6).
