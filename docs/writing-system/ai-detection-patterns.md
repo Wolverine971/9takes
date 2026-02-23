@@ -1,6 +1,8 @@
+<!-- docs/writing-system/ai-detection-patterns.md -->
+
 # AI Detection Patterns: What Checkers Look For (and How to Avoid Them)
 
-*Reference guide for keeping 9takes blog content organic and human-sounding.*
+_Reference guide for keeping 9takes blog content organic and human-sounding._
 
 ---
 
@@ -19,19 +21,21 @@ Detectors run your text through their own language model and ask: would an AI ha
 
 "The solution works like my dad's truck — stubborn until it warms up" → high perplexity. No model generates that.
 
-**Fix:** Use precise, unexpected words. Not random — just the *right* word that happens to be less statistically common than the safe alternative.
+**Fix:** Use precise, unexpected words. Not random — just the _right_ word that happens to be less statistically common than the safe alternative.
 
 ### Burstiness: The Variation Score
 
-This measures how much your sentence complexity varies throughout the piece. Not any single sentence — the *rhythm* across the whole document.
+This measures how much your sentence complexity varies throughout the piece. Not any single sentence — the _rhythm_ across the whole document.
 
 Human writing is bursty:
+
 - Short punchy sentence.
 - Then a longer one that works through a thought and adds a clause or two before landing.
 - Fragment. Like this.
 - Back to normal flow.
 
 AI writing is flat:
+
 - Every sentence runs 15-25 words.
 - Every paragraph has similar sentence count.
 - The complexity stays consistent throughout.
@@ -63,6 +67,7 @@ These words are statistically overrepresented in AI-generated text. A 2025 Max P
 ### Tier 1: Never Use These (The Clearest AI Signals)
 
 **Academic formality cluster:**
+
 - delve / delves / delving
 - robust (as in "a robust solution")
 - pivotal
@@ -75,6 +80,7 @@ These words are statistically overrepresented in AI-generated text. A 2025 Max P
 - nevertheless / nonetheless
 
 **Landscape / realm cluster:**
+
 - landscape (as in "the digital landscape")
 - realm (as in "in the realm of")
 - tapestry (as in "rich tapestry of")
@@ -82,6 +88,7 @@ These words are statistically overrepresented in AI-generated text. A 2025 Max P
 - domain / sphere
 
 **Over-emphasis cluster:**
+
 - crucial
 - vital
 - essential
@@ -91,6 +98,7 @@ These words are statistically overrepresented in AI-generated text. A 2025 Max P
 - significant (as filler)
 
 **Tech-hype cluster:**
+
 - cutting-edge
 - groundbreaking
 - revolutionary / revolutionize
@@ -106,6 +114,7 @@ These words are statistically overrepresented in AI-generated text. A 2025 Max P
 - harness (as in "harness the power of")
 
 **Corporate jargon cluster:**
+
 - best practices
 - pain points
 - synergy
@@ -180,6 +189,7 @@ Real blog posts don't always announce their structure. A human might open in the
 ### List Overuse
 
 AI converts prose into bullets constantly. Signs:
+
 - 3-5 bullet points in every section
 - Lists where items are parallel in structure but not meaning
 - Lists used to appear comprehensive rather than to actually help the reader
@@ -204,7 +214,7 @@ AI headers are uniform in length, parallel in structure, and evenly spaced. Huma
 
 ## Semantic Patterns: The Deeper Problem
 
-This is where detection goes beyond word choice. Semantic analysis looks at *what the text says*, not just *how it says it*.
+This is where detection goes beyond word choice. Semantic analysis looks at _what the text says_, not just _how it says it_.
 
 ### Generic Statements That Are True of Everything
 
@@ -278,7 +288,7 @@ AI doesn't reliably generate these because they violate the patterns it's optimi
 
 ### Uncomfortable Specificity
 
-University College Cork's 2025 study put it clearly: AI can't fully write like a human because humans write with *uncomfortable specificity* — details that are too personal, too idiosyncratic, or too local to have been averaged out of a training corpus.
+University College Cork's 2025 study put it clearly: AI can't fully write like a human because humans write with _uncomfortable specificity_ — details that are too personal, too idiosyncratic, or too local to have been averaged out of a training corpus.
 
 If a claim is only true of one person, one moment, or one very specific situation, it's almost certainly human.
 
@@ -289,12 +299,14 @@ If a claim is only true of one person, one moment, or one very specific situatio
 Use this as a final pass. A "yes" on any of these is a flag.
 
 **Vocabulary:**
+
 - [ ] Does the post contain any Tier 1 AI words (delve, robust, pivotal, tapestry, etc.)?
 - [ ] Does every section transition with "furthermore," "moreover," or similar?
 - [ ] Does any sentence use "it is worth noting that" or "it is important to note"?
 - [ ] Is there an "in conclusion" or "to summarize" section?
 
 **Structure:**
+
 - [ ] Does the opening paragraph preview what the post will cover?
 - [ ] Does the conclusion restate the introduction?
 - [ ] Are all paragraphs roughly the same length (3-5 sentences)?
@@ -302,6 +314,7 @@ Use this as a final pass. A "yes" on any of these is a flag.
 - [ ] Does every section contain a bullet list?
 
 **Semantic:**
+
 - [ ] Does the post make any claims that are true of all situations rather than this specific one?
 - [ ] Does any section over-explain something the target reader already knows?
 - [ ] Does the hedging say "results may vary" rather than naming specific conditions?
@@ -309,6 +322,7 @@ Use this as a final pass. A "yes" on any of these is a flag.
 - [ ] Does the post end with "both perspectives have merit" or a false balance?
 
 **Voice:**
+
 - [ ] Is there no point where the writer expresses an opinion that could be wrong?
 - [ ] Does the post read the same way at the beginning and the end (no cognitive progression)?
 - [ ] Are there no fragments, intentional rule breaks, or voice-building asides?
@@ -324,6 +338,7 @@ The marks of someone actually working through a thought — the slightly awkward
 AI text is uniformly polished because it has no cognitive load to manage. Human writing carries the texture of a mind at work.
 
 The strongest organic content on 9takes will have:
+
 - Opinions that could be unpopular
 - Details that are only true of specific people or moments
 - Sentence rhythms that vary dramatically
@@ -332,4 +347,4 @@ The strongest organic content on 9takes will have:
 
 ---
 
-*Sources: GPTZero methodology docs, Hastewire linguistic analysis, ArXiv 2505.01800 (May 2025 psycholinguistic study), University College Cork AI study (December 2025), UNESCO linguistic flattening analysis, PMC detection studies, Max Planck Institute vocabulary research.*
+_Sources: GPTZero methodology docs, Hastewire linguistic analysis, ArXiv 2505.01800 (May 2025 psycholinguistic study), University College Cork AI study (December 2025), UNESCO linguistic flattening analysis, PMC detection studies, Max Planck Institute vocabulary research._

@@ -1,6 +1,6 @@
 ---
 title: "Charli D'Amelio: The Girl Who Disappeared Into Her Own Fame"
-meta_title: "Inside Charli D'Amelio's Psychology — Why Fame Made Her Lose Herself"
+meta_title: "Inside Charli D'Amelio's Psychology: Why Fame Made Her Lose Herself"
 description: "At 100 million followers, Charli D'Amelio was having 15 panic attacks a day. The psychology behind TikTok's most watched identity crisis."
 author: 'DJ Wayne'
 date: '2025-03-24'
@@ -33,11 +33,11 @@ content_quality:
 Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 9
 
 FEEDBACK (2026-02-18):
-- EXCEPTIONAL: The therapist's daughter moment is a genuine signature detail — "she shouldn't be upset because your daughter's a fan" captures the impossible bind of fame-as-identity better than any other anecdote in the piece
-- STRONG: "Bleeding feet, no complaints. That's not resilience. That's a Nine who doesn't know how to ask for what she needs" — this is the kind of Enneagram reframing that makes the type the engine, not the paint
-- STRONG: The anxiety pen confession section is masterfully paced — the setup (TikTok ban), the confession, the reversal (TikTok returns), and the Nine insight ("owning the truth was easier than maintaining the lie") all land perfectly
-- NEEDS WORK: The ending dilutes the impact. "The scared dancer who always returns" is the perfect closing line — the "How It All Comes Together" section partially summarizes, and the final question ("If Charli could go back...") is a CTA that undercuts the cut-to-black
-- TO REACH A: (1) End on "The scared dancer who always returns" — cut or radically tighten the synthesis section and remove the closing question entirely. (2) Consider naming stress/growth arrows explicitly (Nine to Six under stress = the anxiety, Nine to Three in growth = Broadway performer) to deepen the Enneagram layer
+- EXCEPTIONAL: The therapist's daughter moment is a genuine signature detail. "She shouldn't be upset because your daughter's a fan" captures the impossible bind of fame-as-identity better than any other anecdote in the piece
+- STRONG: "Bleeding feet, no complaints. That's not resilience. That's a Nine who doesn't know how to ask for what she needs." This is the kind of Enneagram reframing that makes the type the engine, not the paint
+- STRONG: The anxiety pen confession section is masterfully paced. The setup (TikTok ban), the confession, the reversal (TikTok returns), and the Nine insight ("owning the truth was easier than maintaining the lie") all land perfectly
+- NEEDS WORK: The ending dilutes the impact. "The scared dancer who always returns" is the perfect closing line, but the "How It All Comes Together" section partially summarizes, and the final question ("If Charli could go back...") is a CTA that undercuts the cut-to-black
+- TO REACH A: (1) End on "The scared dancer who always returns." Cut or radically tighten the synthesis section and remove the closing question entirely. (2) Consider naming stress/growth arrows explicitly (Nine to Six under stress = the anxiety, Nine to Three in growth = Broadway performer) to deepen the Enneagram layer
 -->
 
 > "I'm not even Charli anymore."
@@ -154,7 +154,7 @@ The anxiety pen confession fits the same pattern. In 2020, sixteen-year-old Char
 
 Then in January 2025, TikTok faced a potential permanent ban in the US. Creators thought the app was disappearing, so they started confessing secrets they figured would vanish with it. Charli posted to her secondary account admitting it was a vape, that she "had no idea where that rumor came from." The ban lasted fourteen hours. TikTok came back. Her confession didn't go anywhere.
 
-Her follow-up video, captioned "Well this is awkward," got sixty-eight million views. She'd accidentally committed to honesty because she thought the platform was dying. But the interesting thing is she didn't delete it when TikTok returned. The Nine who'd let others construct a comfortable fiction for five years found — almost by accident — that owning the truth was easier than maintaining the lie.
+Her follow-up video, captioned "Well this is awkward," got sixty-eight million views. She'd accidentally committed to honesty because she thought the platform was dying. But the interesting thing is she didn't delete it when TikTok returned. The Nine who'd let others construct a comfortable fiction for five years found, almost by accident, that owning the truth was easier than maintaining the lie.
 
 ## Dancing Through It
 
@@ -210,7 +210,7 @@ In November 2020, Charli made faces at a meal prepared by chef Aaron May and ask
 
 The chef himself said it was blown out of proportion: "It was my idea. We're in the content business." But the punishment was already delivered.
 
-For a Nine, public rejection triggers their deepest fear — loss and separation — measured in real time by a follower count. Charli's response was to apologize and withdraw, absorbing blame she didn't entirely deserve. She went on Instagram Live crying, calling it "one huge misunderstanding."
+For a Nine, public rejection triggers their deepest fear: loss and separation, measured in real time by a follower count. Charli's response was to apologize and withdraw, absorbing blame she didn't entirely deserve. She went on Instagram Live crying, calling it "one huge misunderstanding."
 
 A sixteen-year-old asked for chicken nuggets and a million people decided she was ungrateful. The episode demonstrated how the public felt entitled to punish her for not performing gratitude correctly.
 
@@ -238,7 +238,7 @@ She finds therapy in cleaning and organizing her space, a way to impose control 
 
 For a Nine who merges with the people closest to her, the D'Amelio family structure creates an interesting bind. Charli's parents aren't just her parents; they're effectively her business partners. Marc and Heidi managed the family brand, starred alongside her in The D'Amelio Show, and made decisions that affected both her career and her childhood.
 
-Heidi has explicitly rejected the "momager" comparison: "We're never going to be their managers, bosses or anything. We're a family — we're the parents and they will always be our kids." And they maintained normal parental expectations: "We don't care how many followers you have. You still have to do the dishes and take out the garbage."
+Heidi has explicitly rejected the "momager" comparison: "We're never going to be their managers, bosses or anything. We're a family; we're the parents and they will always be our kids." And they maintained normal parental expectations: "We don't care how many followers you have. You still have to do the dishes and take out the garbage."
 
 But the boundary between parent and business partner is hard to maintain when your family is the product. Season 3 of The D'Amelio Show exposed the strain: Charli called herself Dixie's "human punching bag," arguments between Marc and Heidi intensified during their joint DWTS appearance, and the cameras captured family tensions that most families process in private.
 

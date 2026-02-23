@@ -106,7 +106,7 @@ He identified what triggers it: **"It's that paradoxical combination of depth of
 
 Multiple factors converge. His 96th percentile compassion means he feels others' pain acutely. His chronic inflammatory condition (CIRS, present since 2017) and the neurological aftermath of his benzodiazepine crisis and medically-induced coma have affected emotional regulation. Joe Rogan defended it simply: **"That's because he really feels that way. If you look at him crying in the context of the conversation, it's because he really feels that."**
 
-But there's a deeper dynamic at work. A man who preaches responsibility and self-improvement, weeping because he can't control his own emotional responses? The inner critic says: _hold it together_. The body says: _I can't_. The tears represent a man failing to meet his own impossible standards — in real time, on camera, in front of millions.
+But there's a deeper dynamic at work. A man who preaches responsibility and self-improvement, weeping because he can't control his own emotional responses? The inner critic says: _hold it together_. The body says: _I can't_. The tears represent a man failing to meet his own impossible standards: in real time, on camera, in front of millions.
 
 ### The Inner Critic Made External
 
@@ -280,7 +280,7 @@ Peterson fought it to the Supreme Court of Canada. They declined to hear his app
 
 Peterson's most revealing public moments aren't the media ambushes. They're the debates with genuine intellectual peers.
 
-The Sam Harris debates (2017-2018, plus a live tour with moderator Bret Weinstein) exposed Peterson's deepest commitment: he repeatedly refused to separate truth from moral consequence. Harris insisted on objective, verifiable truth. Peterson kept folding truth back into a framework of values. It frustrated Harris's audience but revealed the operating system: for Peterson, truth divorced from ethics isn't just incomplete — it's dangerous.
+The Sam Harris debates (2017-2018, plus a live tour with moderator Bret Weinstein) exposed Peterson's deepest commitment: he repeatedly refused to separate truth from moral consequence. Harris insisted on objective, verifiable truth. Peterson kept folding truth back into a framework of values. It frustrated Harris's audience but revealed the operating system: for Peterson, truth divorced from ethics isn't just incomplete. It's dangerous.
 
 The Slavoj Žižek debate (April 2019, titled "Happiness: Capitalism vs. Marxism") was less adversarial than anticipated. Peterson came prepared to demolish Marxism; Žižek doesn't defend orthodox Marxism. What emerged was two thinkers with overlapping concerns about ideology and surprisingly little genuine disagreement. Critics noted Peterson's preparation on the Marxist side seemed thin. He'd read the Communist Manifesto but not much of the broader tradition. For a man who spent decades warning about Marxist ideology, the gap was conspicuous.
 

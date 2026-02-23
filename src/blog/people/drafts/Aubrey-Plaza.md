@@ -42,7 +42,7 @@ FEEDBACK (2026-02-18):
 
 <p class="firstLetter">Margaret Qualley called Aubrey Plaza "the most unanimously loved person ever."</p>
 
-And when Qualley asked if Plaza related to being "an introverted artist in an extroverted business," Plaza didn't flinch: "Definitely. It's the classic case of a look at me, don't look at me." That tension, wanting to perform and wanting to disappear, isn't a phase. It's the operating system of a counterphobic [Enneagram Type 6](/enneagram-corner/enneagram-type-6): someone whose anxiety is constant, whose loyalty runs deep, and whose solution to fear isn't avoidance — it's charging straight at it.
+And when Qualley asked if Plaza related to being "an introverted artist in an extroverted business," Plaza didn't flinch: "Definitely. It's the classic case of a look at me, don't look at me." That tension, wanting to perform and wanting to disappear, isn't a phase. It's the operating system of a counterphobic [Enneagram Type 6](/enneagram-corner/enneagram-type-6): someone whose anxiety is constant, whose loyalty runs deep, and whose solution to fear isn't avoidance but charging straight at it.
 
 ## The Shy Girl from Delaware Who Watched Her Parents Build from Nothing
 
@@ -94,7 +94,7 @@ After the stroke, the panic attacks started. "Anytime I felt weird, I immediatel
 
 Before the stroke, during NYU, and obsessively after it, Plaza lived at the Upright Citizens Brigade Theatre. She'd started taking classes after watching Amy Poehler perform, years before they'd meet on a swingset shooting _Parks and Rec_ promos.
 
-"It was the best time of my life, looking back on it," she said. "It just truly felt like: 'We are in an underground — literally, underground — theatre doing an art form that is so hard, and just so fun when you get it right.' It was intoxicating, and I was intoxicated."
+"It was the best time of my life, looking back on it," she said. "It just truly felt like: 'We are in an underground (literally, underground) theatre doing an art form that is so hard, and just so fun when you get it right.' It was intoxicating, and I was intoxicated."
 
 She performed on Harold teams (first Twelve Thousand Dollars, then Whorenado) alongside people like Aziz Ansari, Donald Glover, and Ellie Kemper. She brought a warm-up ritual called "Che Che Coolay" from her indie group Bombardo that the team did before every show. She left Whorenado after three months when Judd Apatow cast her in _Funny People_. But those years underground gave her something essential: a space where losing control was the whole point.
 
@@ -128,7 +128,7 @@ April Ludgate's secret, as Plaza saw it, was simple: "It's a game of not showing
 
 The April-Andy love story happened almost by accident. The writers put Plaza and Chris Pratt together in the office bullpen for an episode, and the chemistry was instant. "We had a whole day where we were just playing," Plaza said. "I have an image of us sitting under the table. I don't even know what we were doing down there."
 
-But it was Plaza who went to Mike Schur's office to lobby for the pairing. "I was like, listen — April loves Andy. April thinks Andy is cool because he's so not cool that he's cool. Do you understand?" Schur told her to get out. She told him he'd better listen.
+But it was Plaza who went to Mike Schur's office to lobby for the pairing. "I was like, listen, April loves Andy. April thinks Andy is cool because he's so not cool that he's cool. Do you understand?" Schur told her to get out. She told him he'd better listen.
 
 When the writers eventually had April and Andy get married, Poehler cried all day on set. "You cried in the kitchen and then you were crying off camera," Plaza recalled. "I was like, stop. We're not even near the camera. We're in my trailer. Why are you doing this?" Poehler's explanation: "I was crying because you were crying so hard." Plaza: "I don't think so. I think you thought it was real."
 
@@ -150,7 +150,7 @@ Fame is hard for someone whose brain is wired this way. On _Armchair Expert_, Pl
 
 But look past the chaotic public appearances and Plaza's career reveals someone building, deliberately, the things nobody was going to hand her. Through Evil Hag Productions, co-founded with writer Dan Murphy, she produced _Ingrid Goes West_, _Black Bear_, _Emily the Criminal_, the animated series _Little Demon_ with Danny DeVito, and has a Heidi Fleiss biopic and an _Emily the Criminal_ TV adaptation in development.
 
-"We're going to make the rules ourselves," she said of her approach to _Emily the Criminal_. "We're just going to do this." She fought for the budget she believed the film needed. "You really do have to fight, and we fought to the bitter end — there were many times when the movie could have been shut down."
+"We're going to make the rules ourselves," she said of her approach to _Emily the Criminal_. "We're just going to do this." She fought for the budget she believed the film needed. "You really do have to fight, and we fought to the bitter end. There were many times when the movie could have been shut down."
 
 Her relationship with social media tells a similar story. "I don't really like to do it, but sometimes it's a way to connect with people," she said. "But sometimes it makes me hate myself." She starred in _Ingrid Goes West_, a film about social media obsession, and brought her own wariness to the role. She left Twitter after the 2016 election. After Jeff Baena's death in January 2025, she deactivated Instagram entirely. "I don't really want people to know everything about me."
 
@@ -168,13 +168,13 @@ Harper Spiller in _The White Lotus_ Season 2 is arguably the most revealing. Har
 
 In _Black Bear_, she played an actress being emotionally manipulated by a director to extract a "better" performance. Plaza described being "a shell of a person" after filming. The role required her to be gaslit on camera for hours, the Six's worst fear (you can't trust your own perception) turned into a character study. And she leaned into it completely.
 
-Then came Rio Vidal in _Agatha All Along_, where Plaza discovered something unexpected about playing a witch. "Cackling — there's something about cackling that is really therapeutic," she told Poehler. "It must be some old-timey way that women were working out their rage. I'm not very tapped into my rage. But when I really let loose and am able to cackle, it feels good." The scene where she's perched on a rooftop, flying down on a wire, cackling at Kathryn Hahn — "I went really crazy with it. And it felt good."
+Then came Rio Vidal in _Agatha All Along_, where Plaza discovered something unexpected about playing a witch. "Cackling... there's something about cackling that is really therapeutic," she told Poehler. "It must be some old-timey way that women were working out their rage. I'm not very tapped into my rage. But when I really let loose and am able to cackle, it feels good." The scene where she's perched on a rooftop, flying down on a wire, cackling at Kathryn Hahn. "I went really crazy with it. And it felt good."
 
 "It's a lifelong pickle that I've found myself in," Plaza says of being frequently misunderstood. "I've had so many moments where I'll say something very sincerely and people will completely think that I'm taking the piss out of them."
 
 ## "It's Like a Daily Struggle": The Anchor, the Loss, and What Remains
 
-For a Six, the anchor person is everything. Not just a partner — the person who makes the unpredictable world predictable. The one whose presence turns the background hum of anxiety into something manageable. Losing that person isn't heartbreak in the normal sense. It's structural collapse. The floor disappears.
+For a Six, the anchor person is everything. Not just a partner, but the person who makes the unpredictable world predictable. The one whose presence turns the background hum of anxiety into something manageable. Losing that person isn't heartbreak in the normal sense. It's structural collapse. The floor disappears.
 
 She and writer-director Jeff Baena were together for over a decade, collaborating on five films: _Life After Beth_, _The Little Hours_, _Joshy_, _Spin Me Round_, and the series _Cinema Toast_. Their partnership was both creative and deeply private, the kind of intertwined life that a Six builds slowly, testing trust at every stage, until the other person becomes load-bearing.
 
@@ -186,7 +186,7 @@ Months later, on _Good Hang_, she described her grief through a movie analogy, b
 
 "I think I'm okay. But it's like a daily struggle."
 
-What keeps her above water, she says, are the people who've known her longest. Her improv group turned into a coven of sorts; they call themselves "Bombardo." Text chains, Zoom calls, trips. "Those girls make me laugh really, really hard," she said. "My oldest friends — that's the best thing that makes me laugh. Just funny. All my funny friends."
+What keeps her above water, she says, are the people who've known her longest. Her improv group turned into a coven of sorts; they call themselves "Bombardo." Text chains, Zoom calls, trips. "Those girls make me laugh really, really hard," she said. "My oldest friends, that's the best thing that makes me laugh. Just funny. All my funny friends."
 
 ## The Woman Who Keeps Running Toward It
 

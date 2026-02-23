@@ -57,7 +57,7 @@ Compliment what they secretly fear they lack. Type 1s want to hear they're good 
 
 These compliments fall flat. They're generic, forgettable, and don't make anyone feel truly seen.
 
-The secret to meaningful compliments? **Acknowledge what they secretly fear they lack.** Each Enneagram type has a core fear—and when you affirm the opposite of that fear, you touch something deep.
+The secret to meaningful compliments? **Acknowledge what they secretly fear they lack.** Each Enneagram type has a core fear, and when you affirm the opposite of that fear, you touch something deep.
 
 <article class="section-content">
 
@@ -69,7 +69,7 @@ Type 1s have a relentless inner critic constantly telling them they're not good 
 
 **Say this:** "Your integrity inspires me. I've noticed how you always try to do the right thing, even when it's hard."
 
-**Why it works:** You're telling them what their inner critic never does—that they ARE good, not just correct.
+**Why it works:** You're telling them what their inner critic never does: that they ARE good, not just correct.
 
 **Avoid saying:**
 
@@ -113,11 +113,11 @@ Type 3s chase success because they believe they ARE their accomplishments. Deep 
 
 **Say this:** "I admire who you are, not just what you've achieved. The person behind all that success is someone I genuinely respect."
 
-**Why it works:** You're seeing past the resume to the human. That's rare for them—and deeply meaningful.
+**Why it works:** You're seeing past the resume to the human. That's rare for them, and deeply meaningful.
 
 **Avoid saying:**
 
-- "You're so successful" (surface level—they hear this constantly)
+- "You're so successful" (surface level; they hear this constantly)
 - "You're a machine!" (dehumanizing)
 - "I could never do what you do" (puts them on a pedestal)
 
@@ -147,7 +147,7 @@ Type 3s chase success because they believe they ARE their accomplishments. Deep 
 
 **Core fear:** Being ordinary, having no identity or significance
 
-Type 4s feel fundamentally different from others—like everyone else got a manual for being human that they never received. They search constantly for their authentic self.
+Type 4s feel fundamentally different from others, like everyone else got a manual for being human that they never received. They search constantly for their authentic self.
 
 **Say this:** "I've never met anyone who sees the world quite like you do. Your perspective genuinely makes me think differently."
 
@@ -173,7 +173,7 @@ Type 5s hoard knowledge and energy because they fear they don't have enough to m
 
 **Say this:** "Your insight on this completely changed how I understand it. You have a way of seeing patterns others miss."
 
-**Why it works:** You're showing their knowledge had IMPACT—it wasn't just information, it was valuable. That's what they need to hear.
+**Why it works:** You're showing their knowledge had IMPACT. It wasn't just information; it was valuable. That's what they need to hear.
 
 **Avoid saying:**
 
@@ -195,7 +195,7 @@ Type 5s hoard knowledge and energy because they fear they don't have enough to m
 
 **Core fear:** Being without support or guidance, unable to survive on their own
 
-Type 6s question everything—including themselves. They're looking for something or someone trustworthy in an uncertain world. What they really need is to trust themselves.
+Type 6s question everything, including themselves. They're looking for something or someone trustworthy in an uncertain world. What they really need is to trust themselves.
 
 **Say this:** "I trust your judgment on this. You always think things through carefully, and that's valuable."
 
@@ -217,11 +217,11 @@ Type 6s question everything—including themselves. They're looking for somethin
 
 **Core fear:** Being trapped in pain, deprivation, or boredom
 
-Type 7s chase experiences because they're running FROM something—usually painful emotions they don't want to feel. They want to be seen as more than just "the fun one."
+Type 7s chase experiences because they're running FROM something, usually painful emotions they don't want to feel. They want to be seen as more than just "the fun one."
 
 **Say this:** "I really appreciate how you can find the possibility in any situation. But I also see there's a lot more depth to you than people realize."
 
-**Why it works:** You're acknowledging their optimism while seeing beneath it. That's rare—and it means you actually see THEM.
+**Why it works:** You're acknowledging their optimism while seeing beneath it. That's rare, and it means you actually see THEM.
 
 **Avoid saying:**
 
@@ -255,7 +255,7 @@ Type 7s chase experiences because they're running FROM something—usually painf
 
 **Core fear:** Being controlled, harmed, or violated by others
 
-Type 8s project strength because vulnerability once got them hurt. They protect others fiercely—but they also want to be seen as fair and just, not just powerful.
+Type 8s project strength because vulnerability once got them hurt. They protect others fiercely, but they also want to be seen as fair and just, not just powerful.
 
 **Say this:** "I respect how you stand up for people who can't stand up for themselves. Your sense of fairness is something I really admire."
 
@@ -277,7 +277,7 @@ Type 8s project strength because vulnerability once got them hurt. They protect 
 
 **Core fear:** Loss of connection, fragmentation, being shut out
 
-Type 9s merge with others and minimize themselves to maintain harmony. They're often overlooked, and they've learned to be okay with that—even though it hurts.
+Type 9s merge with others and minimize themselves to maintain harmony. They're often overlooked, and they've learned to be okay with that, even though it hurts.
 
 **Say this:** "I really want to hear what YOU think about this. Your perspective matters to me."
 

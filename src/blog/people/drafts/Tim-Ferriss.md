@@ -53,7 +53,7 @@ His mother called. He lied. A friend at Rutgers needed the book.
 
 "If it had been two or three years later, I wouldn't be here," he told the Shawn Ryan Show in 2026. "After the fact, that's what scared me the most: the element of chance."
 
-The man who taught millions to "hack" their lives spent years just trying to survive his own mind. What follows is the story of the most productive armor ever built — and what it cost him to keep it on.
+The man who taught millions to "hack" their lives spent years just trying to survive his own mind. What follows is the story of the most productive armor ever built, and what it cost him to keep it on.
 
 <details>
 <summary class="accordion">TL;DR: Why Tim Ferriss is an Enneagram Type 5</summary>
@@ -208,7 +208,7 @@ The connection to the premature birth is direct. His body was not an ally from t
 
 In 2014, Ferriss contracted Lyme disease on Eastern Long Island, "ground zero" on the CDC heat map. For nine months, he operated at roughly 10% capacity. Swollen knees. Slurred speech. Forgetting common words. Forgetting friends' names.
 
-**The Five's deepest fear — depletion — made manifest in the body.** The man who'd built an empire on managing resources ran out of the most basic one. And he couldn't think his way out.
+**The Five's deepest fear, depletion, made manifest in the body.** The man who'd built an empire on managing resources ran out of the most basic one. And he couldn't think his way out.
 
 > "Prior to Lyme, I'd worked out and eaten well, but when push came to shove, 'health #1' was negotiable. Now, it's literally #1."
 

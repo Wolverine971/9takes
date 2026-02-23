@@ -37,14 +37,14 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="What's the best way to learn the Enneagram?">
-**It depends on your learning style and the depth you want.** For beginners, start with *The Road Back to You* (accessible storytelling) or *The Enneagram Made Easy* (visual learners). For depth, *The Wisdom of the Enneagram* is the gold standard. Podcast listeners should try *Typology* or *Enneagram 2.0*. Video learners should check out Dr. Tom LaHue or Frank James on YouTube. For free online learning, The Enneagram Institute has the most comprehensive type descriptions. This guide organizes 60+ vetted resources by format and experience level—books, podcasts, YouTube channels, apps, certification programs, and online communities.
+**It depends on your learning style and the depth you want.** For beginners, start with *The Road Back to You* (accessible storytelling) or *The Enneagram Made Easy* (visual learners). For depth, *The Wisdom of the Enneagram* is the gold standard. Podcast listeners should try *Typology* or *Enneagram 2.0*. Video learners should check out Dr. Tom LaHue or Frank James on YouTube. For free online learning, The Enneagram Institute has the most comprehensive type descriptions. This guide organizes 60+ vetted resources by format and experience level: books, podcasts, YouTube channels, apps, certification programs, and online communities.
 </QuickAnswer>
 
 <p class="firstLetter">You've taken the test. You think you know your type. Now what?</p>
 
 The internet is drowning in Enneagram content—some brilliant, some dangerously oversimplified. Bad resources turn the Enneagram into horoscopes. Good resources transform how you see yourself and everyone around you.
 
-This guide separates signal from noise. We've vetted books, websites, podcasts, YouTube channels, apps, certification programs, and teachers across every experience level—from "just curious" to "ready for deep [shadow work](/enneagram-corner/shadow-work-by-enneagram-type)." Whether you want a 20-minute podcast commute, a 10-minute YouTube deep dive, or a 500-page scholarly read, you'll find your next resource here.
+This guide separates signal from noise. We've vetted books, websites, podcasts, YouTube channels, apps, certification programs, and teachers across every experience level, from "just curious" to "ready for deep [shadow work](/enneagram-corner/shadow-work-by-enneagram-type)." Whether you want a 20-minute podcast commute, a 10-minute YouTube deep dive, or a 500-page scholarly read, you'll find your next resource here.
 
 **Not sure where to start?** Skip to our [quick-pick recommendations](#quick-picks) based on your learning style.
 
@@ -88,7 +88,7 @@ If you're looking to dive deeper into the world of the Enneagram, these books of
 
 - <a  target="_blank" rel="noopener " href="https://amzn.to/3HZJCyj">Millenneagram: The Enneagram Guide for Discovering Your Truest, Baddest Self</a> by Hannah Paasch: With irreverent humor and empowering affirmations, this book puts a modern millennial spin on the classic nine types, complete with fresh names like "The Machine" (Type 1) and "The Dragon" (Type 8).
 
-- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Story-You-Enneagram-Journey-Becoming/dp/006282581X">The Story of You: An Enneagram Journey to Becoming Your True Self</a> by Ian Morgan Cron: The follow-up to _The Road Back to You_ goes deeper—revealing how each type inhabits a broken story that runs counter to who they were created to be. Combines psychotherapy training with Enneagram wisdom to help you rewrite self-sabotaging patterns. Also has a companion workbook.
+- <a  target="_blank" rel="noopener " href="https://www.amazon.com/Story-You-Enneagram-Journey-Becoming/dp/006282581X">The Story of You: An Enneagram Journey to Becoming Your True Self</a> by Ian Morgan Cron: The follow-up to _The Road Back to You_ goes deeper, revealing how each type inhabits a broken story that runs counter to who they were created to be. Combines psychotherapy training with Enneagram wisdom to help you rewrite self-sabotaging patterns. Also has a companion workbook.
 
 - <a  target="_blank" rel="noopener " href="https://amzn.to/46bg9LF">The Honest Enneagram: Know Your Type, Own Your Challenges, Live Your Life</a> by Sarajane Case: Praised for its smooth, comprehensive writing style and beautiful illustrations, this book approaches the Enneagram with empathy through the lens of everyday, modern life.
 
@@ -102,7 +102,7 @@ If you're looking to dive deeper into the world of the Enneagram, these books of
 
 - <a  target="_blank" rel="noopener" href="https://www.amazon.com/Types-Leadership-Mastering-Enneagram-Type/dp/1612834337">The 9 Types of Leadership: Mastering the Art of People in the 21st Century Workplace</a> by Beatrice Chestnut: Explores how each Enneagram type shows up in leadership, with strategies for growth. Essential reading for managers and executives.
 
-- <a  target="_blank" rel="noopener" href="https://www.amazon.com/Speaking-Numbers-Enneagram-Teachers-Communicators/dp/0830841660">Speaking by the Numbers</a> by Sean Palmer: Enneagram wisdom for teachers, pastors, and communicators—shows how understanding type transforms how you connect with audiences.
+- <a  target="_blank" rel="noopener" href="https://www.amazon.com/Speaking-Numbers-Enneagram-Teachers-Communicators/dp/0830841660">Speaking by the Numbers</a> by Sean Palmer: Enneagram wisdom for teachers, pastors, and communicators. It shows how understanding type transforms how you connect with audiences.
 
 ### Recent Additions (2020-2025)
 
@@ -138,7 +138,7 @@ If you prefer online resources, these websites offer valuable information, inter
 
 - <a  target="_blank" rel="noopener" href="https://www.narrativeenneagram.org/">The Narrative Enneagram</a> (narrativeenneagram.org): Home of the oldest Enneagram certification school in the world. Features articles, workshops, and training programs focused on the panel-interview approach to typing.
 
-- <a  target="_blank" rel="noopener" href="https://theenneagraminbusiness.com/">The Enneagram in Business</a> (theenneagraminbusiness.com): Founded by Ginger Lapid-Bogda, PhD—author of nine Enneagram business books. The definitive resource for workplace applications, leadership development, and organizational consulting with the Enneagram.
+- <a  target="_blank" rel="noopener" href="https://theenneagraminbusiness.com/">The Enneagram in Business</a> (theenneagraminbusiness.com): Founded by Ginger Lapid-Bogda, PhD, author of nine Enneagram business books. The definitive resource for workplace applications, leadership development, and organizational consulting with the Enneagram.
 
 - <a  target="_blank" rel="noopener" href="https://enneagramuserguide.com/">Enneagram User Guide</a> (enneagramuserguide.com): User-friendly with concise type descriptions, FAQs, and an interactive test.
 
@@ -148,11 +148,11 @@ Not sure of your type? See our [full comparison of Enneagram tests](/enneagram-c
 
 - <a  target="_blank" rel="noopener" href="https://www.truity.com/test/enneagram-personality-test">Truity</a>: One of the most popular free Enneagram tests (100+ questions, ~10 min). Good for narrowing down to 2-3 possible types.
 
-- <a  target="_blank" rel="noopener" href="https://www.eclecticenergies.com/enneagram/test">Eclectic Energies</a>: Offers two free tests—a classic questionnaire and a type-sorting approach. Useful for cross-referencing your results.
+- <a  target="_blank" rel="noopener" href="https://www.eclecticenergies.com/enneagram/test">Eclectic Energies</a>: Offers two free tests: a classic questionnaire and a type-sorting approach. Useful for cross-referencing your results.
 
 - <a  target="_blank" rel="noopener" href="https://www.enneagramtest.net/">EnneagramTest.net</a>: Provides a dynamic test with personalized reports and wing analysis.
 
-- <a  target="_blank" rel="noopener" href="https://enneagram-personality.com/">Enneagram-Personality.com</a>: Free test with wing results—over 3.5 million people have taken it.
+- <a  target="_blank" rel="noopener" href="https://enneagram-personality.com/">Enneagram-Personality.com</a>: Free test with wing results. Over 3.5 million people have taken it.
 
 - <a  target="_blank" rel="noopener" href="https://www.yourenneagramcoach.com/">Your Enneagram Coach</a>: Beth McCord's site with a free test plus paid courses and coaching resources.
 
@@ -174,7 +174,7 @@ Not sure of your type? See our [full comparison of Enneagram tests](/enneagram-c
 
 ## 🎬 Enneagram YouTube Channels 📺
 
-Video learners, this section is for you. YouTube has become one of the best ways to learn the Enneagram—you can see facial expressions, body language, and real-time examples that text can't capture. These channels range from entertaining sketches to scholarly deep dives.
+Video learners, this section is for you. YouTube has become one of the best ways to learn the Enneagram because you can see facial expressions, body language, and real-time examples that text can't capture. These channels range from entertaining sketches to scholarly deep dives.
 
 ### Top Channels for Learning
 
@@ -232,7 +232,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/enneagram-in-real-life/id1515412569">Enneagram In Real Life with Steph Barron Hall</a>: Goes beyond theory to dive into practical understanding, featuring guests of different types sharing the ins and outs of living life as their type.
 
-- <a  target="_blank"  href="https://www.theartofgrowth.org/blog/enneagrampodcasts">Enneagram Panels (The Art of Growth)</a>: Features real panel interviews with people of each type—one of the best ways to hear each type describe their own inner world in their own words.
+- <a  target="_blank"  href="https://www.theartofgrowth.org/blog/enneagrampodcasts">Enneagram Panels (The Art of Growth)</a>: Features real panel interviews with people of each type. One of the best ways to hear each type describe their own inner world in their own words.
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/dr-tom-lahue-enneagram/id1606020695">Dr. Tom LaHue Enneagram Podcast</a>: Clinical psychologist Dr. LaHue brings the same depth from his YouTube channel into long-form audio, covering levels of health, [stress patterns](/enneagram-corner/enneagram-types-in-stress), and growth paths.
 
@@ -240,7 +240,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 - <a  target="_blank"  href="https://www.enneagramforidiots.com/">Enneagram for Idiots by Tara and Marissa</a>: A banter podcast that approaches the Enneagram with humor and accessibility, making complex concepts entertaining and relatable. They learn alongside their audience rather than lecturing.
 
-- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/fit-enneagram/id1515178985">Fit Enneagram with Hallie Ringhand</a>: Developed to help you understand how your health and fitness behaviors are influenced by your Enneagram number—covering stress eating patterns, exercise habits, and sleep by type.
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/fit-enneagram/id1515178985">Fit Enneagram with Hallie Ringhand</a>: Developed to help you understand how your health and fitness behaviors are influenced by your Enneagram number, covering stress eating patterns, exercise habits, and sleep by type.
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/fathoms-an-enneagram-podcast/id1508239925">Fathoms</a>: An Enneagram podcast about serious work for unserious humans, diving deep into topics that make us human. Season 5 explores the history and evolution of the Enneagram across different schools.
 
@@ -577,9 +577,9 @@ The Enneagram has gone digital. These tools bring type insights to your phone an
 
 ### Best Enneagram Apps
 
-- <a  target="_blank" rel="noopener" href="https://enneaapp.com/">EnneaApp</a>: The most comprehensive Enneagram reference app. Detailed type descriptions, instinctual variant information, and growth tips—all offline-accessible. Think of it as the Enneagram Institute in your pocket.
+- <a  target="_blank" rel="noopener" href="https://enneaapp.com/">EnneaApp</a>: The most comprehensive Enneagram reference app. Detailed type descriptions, instinctual variant information, and growth tips, all offline-accessible. Think of it as the Enneagram Institute in your pocket.
 
-- <a  target="_blank" rel="noopener" href="https://cloverleaf.me/">Cloverleaf</a>: Goes beyond typing—integrates the Enneagram with other frameworks (DISC, StrengthsFinder, 16 Types) and delivers daily coaching tips. Popular with teams and organizations.
+- <a  target="_blank" rel="noopener" href="https://cloverleaf.me/">Cloverleaf</a>: Goes beyond typing: it integrates the Enneagram with other frameworks (DISC, StrengthsFinder, 16 Types) and delivers daily coaching tips. Popular with teams and organizations.
 
 - <a  target="_blank" rel="noopener" href="https://www.crystalknows.com/">Crystal</a>: Uses personality data (including Enneagram) to help you communicate better with colleagues. Shows you how to email, chat, and present to different types.
 
@@ -601,7 +601,7 @@ The <a  target="_blank" rel="noopener" href="https://www.internationalenneagram.
 
 - <a  target="_blank" rel="noopener" href="https://enneagramspectrum.com/trainings/">Enneagram Spectrum</a>: Founded by Jerome Wagner, PhD. Offers basic and advanced training with a 2026 Winter program available. Integrates the Enneagram with other psychological frameworks.
 
-- <a  target="_blank" rel="noopener" href="https://enneagramschoolofawakening.org/certification-program-level-1">Enneagram School of Awakening</a>: Focuses on the embodiment tradition—learning the Enneagram through somatic awareness, not just cognitive understanding.
+- <a  target="_blank" rel="noopener" href="https://enneagramschoolofawakening.org/certification-program-level-1">Enneagram School of Awakening</a>: Focuses on the embodiment tradition, learning the Enneagram through somatic awareness, not just cognitive understanding.
 
 - <a  target="_blank" rel="noopener" href="https://theenneagraminbusiness.com/">The Enneagram in Business</a>: Ginger Lapid-Bogda's program specifically for organizational consultants, coaches, and leaders who want to use the Enneagram in professional settings.
 
@@ -650,17 +650,17 @@ Several active Enneagram Facebook groups exist for specific interests:
 
 **Emerging Trends:**
 
-- **Trauma-informed Enneagram teaching** is now the norm, not the exception—more teachers are integrating attachment theory and somatic awareness with type work
+- **Trauma-informed Enneagram teaching** is now the norm, not the exception. More teachers are integrating attachment theory and somatic awareness with type work
 - **[Subtypes](/enneagram-corner/enneagram-instinctual-subtypes) going mainstream**: Once a deep-cut topic, instinctual variants are now covered in beginner resources, not just advanced trainings
-- **Growing research base**: A <a  target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/33332604/">2021 systematic review</a> published in the _Journal of Clinical Psychology_ analyzed 104 independent samples and found growing (though mixed) evidence for the Enneagram's reliability and validity—the most comprehensive academic review to date
+- **Growing research base**: A <a  target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/33332604/">2021 systematic review</a> published in the _Journal of Clinical Psychology_ analyzed 104 independent samples and found growing (though mixed) evidence for the Enneagram's reliability and validity. It remains the most comprehensive academic review to date
 - **More diverse voices**: The Enneagram community continues to broaden beyond its historically white, faith-based audience
 - **Digital tools expanding**: More apps and online platforms are integrating the Enneagram alongside frameworks like DISC, StrengthsFinder, and the Big Five
 
 **2026 Events to Watch:**
 
-- <a  target="_blank" rel="noopener" href="https://ieaegyptconference.com/">IEA Egypt 2026 Regional Conference</a> (Feb 6-8, Cairo) — Theme: "Align. Embrace. Reconcile." The IEA's 4th regional conference in Egypt brought the Enneagram to new global audiences.
-- <a  target="_blank" rel="noopener" href="https://www.narrativeenneagram.org/professional-certification/">Narrative Enneagram 2026 Certification Program</a> — Module 1 begins May 2026 for new cohorts.
-- Various workshops and retreats by leading teachers throughout the year—check the <a  target="_blank" rel="noopener" href="https://www.internationalenneagram.org/">IEA events calendar</a> for the latest.
+- <a  target="_blank" rel="noopener" href="https://ieaegyptconference.com/">IEA Egypt 2026 Regional Conference</a> (Feb 6-8, Cairo) - Theme: "Align. Embrace. Reconcile." The IEA's 4th regional conference in Egypt brought the Enneagram to new global audiences.
+- <a  target="_blank" rel="noopener" href="https://www.narrativeenneagram.org/professional-certification/">Narrative Enneagram 2026 Certification Program</a> - Module 1 begins May 2026 for new cohorts.
+- Various workshops and retreats by leading teachers throughout the year. Check the <a  target="_blank" rel="noopener" href="https://www.internationalenneagram.org/">IEA events calendar</a> for the latest.
 
 </article>
 
@@ -686,11 +686,11 @@ _The Road Back to You_ by Ian Morgan Cron and Suzanne Stabile. It uses relatable
 
 ### Are free Enneagram tests accurate?
 
-They give you a starting point, not a definitive answer. The best tests (like the RHETI from the Enneagram Institute) cost money because they're validated instruments. Free tests from Truity or Eclectic Energies are useful for narrowing down to 2-3 possible types, but you'll need to read the type descriptions carefully and self-reflect to confirm. Mistyping is common—especially confusing types like 4 vs 6, or 9 vs 2.
+They give you a starting point, not a definitive answer. The best tests (like the RHETI from the Enneagram Institute) cost money because they're validated instruments. Free tests from Truity or Eclectic Energies are useful for narrowing down to 2-3 possible types, but you'll need to read the type descriptions carefully and self-reflect to confirm. Mistyping is common, especially confusing types like 4 vs 6, or 9 vs 2.
 
 ### What's the difference between the Riso-Hudson and Narrative Enneagram approaches?
 
-Riso-Hudson (Enneagram Institute) uses levels of development—healthy, average, and unhealthy versions of each type. The Narrative Enneagram emphasizes storytelling and panel interviews where people of each type share their experiences. Neither is "better"; Riso-Hudson works well for self-study, while the Narrative approach is powerful in workshops and coaching settings.
+Riso-Hudson (Enneagram Institute) uses levels of development: healthy, average, and unhealthy versions of each type. The Narrative Enneagram emphasizes storytelling and panel interviews where people of each type share their experiences. Neither is "better"; Riso-Hudson works well for self-study, while the Narrative approach is powerful in workshops and coaching settings.
 
 ### Which Enneagram podcast should I listen to first?
 
@@ -698,11 +698,11 @@ _Typology_ with Ian Morgan Cron if you want celebrity interviews and accessible 
 
 ### How do I know if an Enneagram teacher is credible?
 
-Look for certification from the International Enneagram Association (IEA), training in the Narrative Tradition, or credentials from the Enneagram Institute. Be cautious of influencers who learned only from social media. The best teachers can explain [subtypes](/enneagram-corner/enneagram-instinctual-subtypes), instinctual variants, and growth paths—not just surface-level type descriptions. They also acknowledge the system's limitations rather than treating it as absolute truth.
+Look for certification from the International Enneagram Association (IEA), training in the Narrative Tradition, or credentials from the Enneagram Institute. Be cautious of influencers who learned only from social media. The best teachers can explain [subtypes](/enneagram-corner/enneagram-instinctual-subtypes), instinctual variants, and growth paths, not just surface-level type descriptions. They also acknowledge the system's limitations rather than treating it as absolute truth.
 
 ### Is the Enneagram scientifically validated?
 
-The honest answer: it's promising but not settled science. A <a  target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/33332604/">2021 systematic review</a> in the _Journal of Clinical Psychology_ (Hook et al.) analyzed 104 independent samples and found mixed but growing evidence of reliability and validity. The majority of published studies are doctoral dissertations and specialty journal articles—relatively few have appeared in mainstream psychology journals yet. The Enneagram lacks the extensive validation of the Big Five, but practitioners and a growing number of researchers argue it captures dimensions of personality (especially around motivation and defense mechanisms) that other models miss. Read more in our guide to [Enneagram science and mental health](/enneagram-corner/mental-health/enneagram-science-mental-health).
+The honest answer: it's promising but not settled science. A <a  target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/33332604/">2021 systematic review</a> in the _Journal of Clinical Psychology_ (Hook et al.) analyzed 104 independent samples and found mixed but growing evidence of reliability and validity. The majority of published studies are doctoral dissertations and specialty journal articles; relatively few have appeared in mainstream psychology journals yet. The Enneagram lacks the extensive validation of the Big Five, but practitioners and a growing number of researchers argue it captures dimensions of personality (especially around motivation and defense mechanisms) that other models miss. Read more in our guide to [Enneagram science and mental health](/enneagram-corner/mental-health/enneagram-science-mental-health).
 
 ### How is the Enneagram different from Myers-Briggs?
 

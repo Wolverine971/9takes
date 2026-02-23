@@ -12,6 +12,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Zayn-Malik'
+persona_title: "Pop's Mysterious Recluse"
 suggestions: ['Harry-Styles', 'Taylor-Swift', 'Billie-Eilish', 'Justin-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Zayn_Malik'
 twitter: 'zaaborsu'

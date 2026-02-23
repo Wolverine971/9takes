@@ -31,7 +31,7 @@ Mira Nair, Oscar-nominated filmmaker, director of _Monsoon Wedding_ and _The Nam
 
 Her son learned that from somewhere.
 
-**Zohran Kwame Mamdani** became the 111th mayor of New York City on January 1, 2026, the youngest in over a century, the first Muslim, the first South Asian. He won by talking about the price of chicken over rice. But the real story isn't the viral videos or the upset over Andrew Cuomo. It's the pattern underneath — and the question of what happens when a personality built on giving meets a job where you can't give everyone what they want.
+**Zohran Kwame Mamdani** became the 111th mayor of New York City on January 1, 2026, the youngest in over a century, the first Muslim, the first South Asian. He won by talking about the price of chicken over rice. But the real story isn't the viral videos or the upset over Andrew Cuomo. It's the pattern underneath: what happens when a personality built on giving meets a job where you can't give everyone what they want.
 
 <details>
 <summary class="accordion">TL;DR: Why Zohran Mamdani is an Enneagram Type 2</summary>

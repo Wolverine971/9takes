@@ -178,7 +178,7 @@ One significant aspect of Huberman’s content rarely discussed in personality a
 
 He’s dedicated entire episodes to psilocybin, MDMA, and microdosing, interviewing leading researchers like Dr. Matthew Johnson of Johns Hopkins and Dr. Robin Carhart-Harris, a pioneer in psychedelic therapy research. His psilocybin episode covers dosage categories, the typical duration and phases of a journey, and emerging clinical trial evidence for treating depression and addiction.
 
-For someone obsessed with understanding and controlling brain function, this is fascinating territory. Psychedelics represent the opposite of systematic optimization. They dissolve boundaries, shatter routines, and produce insights that can’t be predicted or replicated. Dr. Carhart-Harris noted on the podcast that “the evidence doesn’t currently support any benefits of microdosing—just macrodosing under clinical supervision."
+For someone obsessed with understanding and controlling brain function, this is fascinating territory. Psychedelics represent the opposite of systematic optimization. They dissolve boundaries, shatter routines, and produce insights that can’t be predicted or replicated. Dr. Carhart-Harris noted on the podcast that “the evidence doesn’t currently support any benefits of microdosing, just macrodosing under clinical supervision."
 
 How does someone who builds protocols around everything engage with substances that dissolve control? Huberman approaches it the only way he can: through rigorous research and expert interviews, making the unpredictable as predictable as possible.
 
@@ -212,7 +212,7 @@ The Pattern Under Stress
 
 What does this reveal psychologically?
 
-When stressed, Type 5s disintegrate toward Type 7—becoming scattered, seeking stimulation over depth, and losing the groundedness that makes them effective. The compartmentalization of multiple relationships reflects the tendency to keep different areas of life separated, taken to an unhealthy extreme.
+When stressed, Type 5s disintegrate toward Type 7: becoming scattered, seeking stimulation over depth, and losing the groundedness that makes them effective. The compartmentalization of multiple relationships reflects the tendency to keep different areas of life separated, taken to an unhealthy extreme.
 
 The month of silence after the scandal is also characteristic. Withdraw when overwhelmed. Process privately. Then respond in a controlled environment where information flow can be managed.
 
@@ -267,7 +267,7 @@ From the third-grader making encyclopedia reports to the Stanford professor tran
 
 His story illuminates both gifts and shadows. The same detachment that enables objective analysis can enable emotional compartmentalization. The same systematic thinking that produces valuable protocols can create a life so optimized it loses spontaneity.
 
-As Huberman explains: “Dopamine is not about reward but rather about motivation and drive, and a willingness to persist in a given mode of action and thoughts." Perhaps this is both his greatest insight and his blind spot—understanding motivation as a mechanism while sometimes missing the relational heart beneath it.
+As Huberman explains: “Dopamine is not about reward but rather about motivation and drive, and a willingness to persist in a given mode of action and thoughts." Perhaps this is both his greatest insight and his blind spot: understanding motivation as a mechanism while sometimes missing the relational heart beneath it.
 
 The most important lesson from Huberman’s journey may not be in any of his protocols. It’s in the question his life forces us to ask: What would it mean to apply the same rigor we use for optimizing sleep, light exposure, and cold plunges to the messy, unsystematizable realm of our relationships?
 

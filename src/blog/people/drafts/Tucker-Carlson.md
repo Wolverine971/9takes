@@ -5,13 +5,14 @@ description: "What makes Tucker Carlson question everything? Childhood abandonme
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Tucker-Carlson'
-lastmod: '2025-12-21'
+lastmod: '2025-12-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['politician']
 person: 'Tucker-Carlson'
+persona_title: "Media's Contrarian Watchdog"
 suggestions: ['Donald-Trump', 'Joe-Rogan', 'Ben-Shapiro', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/Tucker_Carlson'
 twitter: 'TuckerCarlson'

@@ -5,7 +5,6 @@
 	import { page } from '$app/stores';
 	import MobileNav from './MobileNavNew.svelte';
 	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
-	import AdminMessageReceiver from '$lib/components/notifications/AdminMessageReceiver.svelte';
 
 	export let data: any;
 
@@ -43,6 +42,16 @@
 	const goToAccount = () => goto('/account');
 	const toggleDropdown = () => (isDropdownOpen = !isDropdownOpen);
 	const closeDropdown = () => (isDropdownOpen = false);
+
+	let adminMessageReceiverModule: Promise<
+		typeof import('$lib/components/notifications/AdminMessageReceiver.svelte')
+	> | null = null;
+
+	$: if (data?.user && !adminMessageReceiverModule) {
+		adminMessageReceiverModule = import(
+			'$lib/components/notifications/AdminMessageReceiver.svelte'
+		);
+	}
 </script>
 
 <svelte:window bind:innerWidth />
@@ -65,7 +74,11 @@
 			<!-- Notifications and Account -->
 			<div class="flex items-center gap-2">
 				{#if data?.user}
-					<AdminMessageReceiver user={data.user} />
+					{#if adminMessageReceiverModule}
+						{#await adminMessageReceiverModule then module}
+							<svelte:component this={module.default} user={data.user} />
+						{/await}
+					{/if}
 					<button
 						type="button"
 						on:click={goToAccount}
@@ -177,7 +190,11 @@
 			<!-- Account / Login Area -->
 			<div class="flex items-center gap-3">
 				{#if data?.user}
-					<AdminMessageReceiver user={data.user} />
+					{#if adminMessageReceiverModule}
+						{#await adminMessageReceiverModule then module}
+							<svelte:component this={module.default} user={data.user} />
+						{/await}
+					{/if}
 					<a href="/account" class="account-button" aria-label="Go to account" title="Account">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"

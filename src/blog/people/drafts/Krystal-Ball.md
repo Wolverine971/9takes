@@ -6,7 +6,7 @@ description: "How Krystal Ball's moral compass drives her to torch every comfort
 author: 'DJ Wayne'
 date: '2025-01-20'
 loc: 'https://9takes.com/personality-analysis/Krystal-Ball'
-lastmod: '2026-02-19'
+lastmod: '2026-02-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

@@ -277,7 +277,7 @@ Her husband saw the dysfunction more clearly than she could articulate. At a Jul
 
 The mixed reception to the book (praised for candor, criticized as finger-pointing) illustrates the bind she can never escape. When she performs, she's called inauthentic. When she drops the performance and says what she actually thinks, she's called bitter.
 
-Under stress, Threes disintegrate toward the unhealthy patterns of [Type 9](/enneagram-corner/enneagram-type-9): disengagement, numbing, the refusal to confront what went wrong. Harris's admission that her mind "simply would not allow" her to accept the loss reads like that arrow in real time. Not laziness. The translator going silent — because there is no language for a failure that threatens to define you.
+Under stress, Threes disintegrate toward the unhealthy patterns of [Type 9](/enneagram-corner/enneagram-type-9): disengagement, numbing, the refusal to confront what went wrong. Harris's admission that her mind "simply would not allow" her to accept the loss reads like that arrow in real time. Not laziness. The translator going silent, because there is no language for a failure that threatens to define you.
 
 In growth, Threes move toward [Type 6](/enneagram-corner/enneagram-type-6): loyalty, courage, commitment to something larger than personal success. The Espinoza decision was that. The Wanda Kagan moment was that. The concession speech was that: **"When we lose an election, we accept the results. That is a fundamental principle of American democracy."**
 

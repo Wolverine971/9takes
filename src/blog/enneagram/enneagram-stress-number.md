@@ -48,7 +48,7 @@ And here's the terrifying truth: **It will happen again.**
 
 Unless you understand the pattern.
 
-Every personality type has a predictable breakdown pattern—a specific way they transform under pressure. The perfectionist becomes melodramatic. The helper turns aggressive. The achiever checks out completely.
+Every personality type has a predictable breakdown pattern: a specific way they transform under pressure. The perfectionist becomes melodramatic. The helper turns aggressive. The achiever checks out completely.
 
 These aren't random meltdowns. They're **mathematically predictable collapses** based on your Enneagram type.
 
@@ -88,13 +88,13 @@ And here's what nobody tells you:
 
 ## Your Stress Number: The Monster in the Mirror
 
-The Enneagram doesn't just describe who you are—it predicts **who you become when everything falls apart**.
+The Enneagram doesn't just describe who you are. It predicts **who you become when everything falls apart**.
 
 This isn't your "bad day" personality. This is your psychological emergency exit. When your primary coping strategy fails, your psyche hijacks someone else's worst traits as a desperate backup plan.
 
 **The scariest part?**
 
-You won't see it coming. One moment you're yourself, the next you're acting like someone you don't recognize—but everyone else saw the signs:
+You won't see it coming. One moment you're yourself, the next you're acting like someone you don't recognize. But everyone else saw the signs:
 
 - The perfectionist suddenly drowning in self-pity
 - The helper becoming a tyrant
@@ -128,7 +128,7 @@ In exploring the darker sides of -->
 
 **Warning:** You're about to see yourself at your worst.
 
-Not your everyday stressed. Not your irritable Tuesday. Your full psychological breakdown pattern—the one you've been running since childhood without knowing it.
+Not your everyday stressed. Not your irritable Tuesday. Your full psychological breakdown pattern, the one you've been running since childhood without knowing it.
 
 Let's decode your collapse.
 
@@ -179,7 +179,7 @@ Week 4: _Listening to Adele on repeat while journaling about their pain_
 _"I tried so hard to be perfect, but I'm the most flawed person alive. Everyone else seems to manage life while I'm falling apart. Maybe I'm just fundamentally defective."_
 
 **What's Actually Happening:**  
-Your inner critic got so loud it broke your system. Now you're swinging to the opposite extreme—from rigid control to emotional chaos.
+Your inner critic got so loud it broke your system. Now you're swinging to the opposite extreme, from rigid control to emotional chaos.
 
 #### 💊 **Emergency Recovery Plan for Type 1s**
 
@@ -248,7 +248,7 @@ Years of suppressed needs erupting all at once. Every swallowed boundary, every 
 **Before You Explode:**
 
 1. Count to 10 (or 100)
-2. Write the angry text—don't send it
+2. Write the angry text. Don't send it.
 3. Ask yourself: "What do I actually need right now?"
 4. Say it out loud to yourself first
 
@@ -300,7 +300,7 @@ Thursday: "Maybe I'll just... disappear"
 #### **Inside the Achiever's Void**
 
 **The Collapse Thought:**  
-_"None of it matters. All that climbing, all that striving—for what? I'm tired of performing. I just want to disappear."_
+_"None of it matters. All that climbing, all that striving... for what? I'm tired of performing. I just want to disappear."_
 
 **The Hidden Terror:**  
 Without achievement, who are you? The answer feels like: nobody.
@@ -493,7 +493,7 @@ Thursday: _Lying about achievements_
 _"If I can't trust the world, I'll become someone the world trusts. Even if it's not really me."_
 
 **The Betrayal:**  
-You've become everything you feared—false, untrustworthy, alone.
+You've become everything you feared: false, untrustworthy, alone.
 
 #### 🎭 **Reality Check Protocol**
 
@@ -555,7 +555,7 @@ Day 4: _Creating spreadsheets for fun activities_
 _"Nothing is as good as I thought it would be. Maybe if I control everything, I can finally be satisfied."_
 
 **The Lost Magic:**  
-You've become everything that kills joy—including your own.
+You've become everything that kills joy, including your own.
 
 #### 🎈 **Joy Recovery Mission**
 
@@ -578,7 +578,7 @@ You've become everything that kills joy—including your own.
 - Weekly adventure without plans
 - Keep one messy area in your life
 
-> **Truth:** Your joy was never in perfection—it was in possibility.
+> **Truth:** Your joy was never in perfection. It was in possibility.
 
 [Why Enthusiasts become critics →](/enneagram-corner/enneagram-type-7)
 
@@ -617,7 +617,7 @@ Week 4: "Feelings are for weak people"
 _"If I can't dominate, I'll disappear. If I can't control, I'll vanish. Better to leave than to lose."_
 
 **The Hidden Wound:**  
-You're not protecting yourself—you're abandoning yourself.
+You're not protecting yourself. You're abandoning yourself.
 
 #### 💪 **Re-engagement Protocol**
 
@@ -702,7 +702,7 @@ Your superpower was calm. Now you're the storm.
 - Weekly reality check with trusted friend
 - Limit "what if" thinking to 5 minutes
 
-> **Remember:** Your peace was never naive—it was powerful.
+> **Remember:** Your peace was never naive. It was powerful.
 
 [Why Peacemakers panic →](/enneagram-corner/enneagram-type-9)
 
@@ -727,7 +727,7 @@ Your stress number isn't your enemy—it's your alarm system. It's showing you e
 
 ### The Master Key: Integration
 
-While stress takes you to your worst, growth takes you to your best. Each type also has an **integration number**—who you become when you're thriving:
+While stress takes you to your worst, growth takes you to your best. Each type also has an **integration number**, who you become when you're thriving:
 
 - **Type 1** → 7 (Becomes spontaneous and joyful)
 - **Type 2** → 4 (Becomes authentic and self-aware)

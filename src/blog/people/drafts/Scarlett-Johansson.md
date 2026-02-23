@@ -1,11 +1,11 @@
 ---
-title: 'Scarlett Johansson: The Peaceful Core of a Hollywood Force'
-meta_title: "Inside Scarlett Johansson's Mind: Why Hollywood's Most Bankable Star Craves Quiet | Enneagram Type 9"
-description: "Scarlett Johansson grew up on food stamps and got passed over for her brother at seven. Her personality turned quiet rejection into Hollywood's steadiest force."
+title: 'Scarlett Johansson: The Dark Cold Shell Behind $14 Billion'
+meta_title: "Inside Scarlett Johansson's Mind: Why Hollywood's Biggest Star Crawled Into a Shell | Enneagram Type 9"
+description: "A talent agent chose her brother instead. Scarlett Johansson crawled into a dark cold shell, became the highest-grossing actor alive, and still won't join Instagram. The Type 9 psychology behind all of it."
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Scarlett-Johansson'
-lastmod: '2026-01-29'
+lastmod: '2026-02-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,274 +19,310 @@ instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Scarlett-Johansson.md
 content_quality:
-  hook: 7
-  enneagram: 7
-  evidence: 7
-  writing: 6
-  originality: 6
-  overall: 6.6
-  letter: D
-  graded_at: '2026-02-20'
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-02-23'
 ---
 
-<!-- QUALITY GRADE: D (6.6)
-Hook: 7 | Enneagram: 7 | Evidence: 7 | Writing: 6 | Originality: 6
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
 
-FEEDBACK (2026-02-20):
-- The Chris Evans "older sister" detail from the TIME100 tribute is the best opening beat — he's three years older but describes himself as the younger sibling. That's a concrete illustration of Type 9 grounding presence.
-- The OpenAI confrontation is well-framed as Type 9 integration — said no twice (maintaining peace), then went public when boundary was crossed (Type 8 energy). This is the strongest Enneagram-as-engine section.
-- The Finding Your Roots / Yad Vashem moment connecting to Eleanor the Great directorial debut is a genuine thread — hidden family history planted a seed that took three decades to bear fruit.
-- The Disney lawsuit section correctly identifies the Type 9 shadow — held firm, won, but "wished others had spoken up." The wound of watching peers stay silent while she fought alone is specific to Type 9.
-
-- NEEDS WORK: The career catalog is bloated — Jurassic World, Phoenician Scheme, Exorcist, Just Cause, Featherwood listed with no psychological insight. Cut the "What's Next" bullet list entirely. These upcoming projects don't serve the analysis.
-- NEEDS WORK: No counter-typing. No wings. No core anger explored (Type 9 body triad). The talent agent rejecting her for her brother is a potentially devastating wound — "Type 9s already struggle with feeling overlooked" — but it's touched once and abandoned.
-
-- TO REACH C (7.0): (1) Cut the career catalog by 60% — keep only OpenAI, Disney lawsuit, and Eleanor the Great. (2) Add counter-typing — why not Type 6 (privacy-seeking, anxiety-driven)? Her no-social-media stance could be either. (3) Develop the brother rejection scene — how did that shape her Type 9 formation?
-- TO REACH B+: Major rewrite needed. Open with the brother rejection at the talent agent — the foundational wound of a Type 9 who felt invisible. Make the OpenAI confrontation the climactic reveal of what happens when a Peacemaker finally fights. Cut the "What Type 9s Can Learn" ending. Explore core anger (where does it show up beyond the lawsuits?). Find one more signature detail from her personal life.
+FEEDBACK (2026-02-23):
+- EXCELLENT: The talent agent rejection scene is a perfect origin story — specific, cinematic, and it establishes the Type 9 fear of invisibility without naming it. The "hyperaware of human behavior and able to mimic it" thesis ties everything together.
+- EXCELLENT: The Disney vs. OpenAI anger distinction is the genuine "aha" moment — institutional betrayal (forgiven, "poor judgment") vs. personal violation (still carrying edge, "good Marvel villain"). This reveals how Nine anger operates differently based on what boundary was crossed.
+- EXCELLENT: The 9:36 PM first date detail is the signature moment — genuine connection throwing a Nine into flight mode. Worth more than a hundred quotes about finding the right person.
+- MINOR: A few quotes lack specific source attribution (which interview, what publication). The $40M settlement is qualified as "reportedly."
+- TO STAY AT A / REACH A+: (1) Sharpen source attribution on 2-3 key quotes. (2) Consider whether the counter-typing section (vs 6, vs 4) could flow more narratively — it's the one section that reads slightly more analytical than the rest. (3) A completely paradigm-shifting thesis about Johansson (not just deeply insightful confirmation) would push into A+ territory.
 -->
 
-> "I value my privacy and my personal life - and I certainly don't exploit my personal life."
+> "Puberty hit and I crawled into a dark, cold shell and never left."
 
-<p class="firstLetter">Scarlett Johansson is the highest-grossing actor on the planet. Her films have pulled in over $14.3 billion worldwide. She plays fearless, commanding, explosive characters. Yet the woman behind Black Widow grew up on food stamps in Manhattan, still avoids social media, and recently told an interviewer her main goal for 2026 is "to engage in the things that bring me joy."</p>
+<p class="firstLetter">When Scarlett Johansson was seven, her mother brought all the Johansson kids to meet a talent agent in Greenwich Village. The agent looked them over. He signed her brother. Not Scarlett.</p>
 
-That gap between public persona and private reality? It maps perfectly to <a href="/enneagram-corner/enneagram-type-9">Enneagram Type 9: The Peacemaker</a>.
+That's the origin story. Not a dramatic breakdown. Not a vow of revenge. A seven-year-old girl stood on a New York sidewalk while her mother asked if she still wanted to do this. She said yes.
 
-In April 2025, when TIME named Johansson one of their 100 Most Influential People, Marvel co-star Chris Evans wrote the tribute. His words reveal something telling:
+Then she went home and started practicing. She'd stare into the bathroom mirror until she made herself cry, channeling Judy Garland in _Meet Me in St. Louis_. A child teaching herself to access emotions she wasn't old enough to name.
 
-> "I consider Scarlett my older sister. Even at 17, she had wisdom, talent, and grit beyond her years."
+"I learned early on how to manipulate my emotions," she told a reporter years later. "As far back as I can remember, I've been hyperaware of human behavior and able to mimic it somehow."
 
-Evans is three years older than Johansson. Yet he feels like the younger sibling. That old-soul quality, that grounded stability others instinctively lean on, is pure Type 9.
+That sentence — _hyperaware of human behavior and able to mimic it_ — is the key to everything that followed. The $14.3 billion box office. The no social media. The Disney lawsuit. The OpenAI fight. The thirty-year wait to direct a movie. All of it traces back to a kid who got passed over for her brother and decided the safest way to process pain was to channel it through someone else's character.
+
+This is the psychology of <a href="/enneagram-corner/enneagram-type-9">Enneagram Type 9: The Peacemaker</a>.
 
 <details>
 <summary class="accordion">TL;DR: Why Scarlett Johansson is an Enneagram Type 9</summary>
 <div class="panel">
 <ul>
-<li><b>Firm Boundaries:</b> No social media. Private life stays private. Classic Type 9 protection of inner harmony.</li>
-<li><b>Quiet Strength:</b> Refused OpenAI twice, then went public when they seemingly copied her voice anyway. Peace-seeking until core values get violated.</li>
-<li><b>Old Soul Since Childhood:</b> Grew up on food stamps with four siblings. Got passed over by a talent agent at seven. Turned rejection into fuel without losing her grounded center.</li>
-<li><b>Collaborative Leadership:</b> Her skincare company The Outset and directorial debut Eleanor the Great both reflect Type 9 harmony-driven, inclusive leadership.</li>
-<li><b>Adaptable Yet Grounded:</b> Evans: "seamlessly transitioning between independent and mainstream films, refusing to be boxed in." Type 9s merge with environments while maintaining stable core.</li>
-<li><b>Heritage Connection:</b> Directing a film about Holocaust memory connects to her Type 9 desire to bridge divides and preserve stories.</li>
+<li><b>The Foundational Wound:</b> Passed over for her brother by a talent agent at seven. For a Type 9 — the type that already struggles with feeling invisible — this confirmed the fear. She responded not with anger but with quiet, internal resolve.</li>
+<li><b>The Shell:</b> "Puberty hit and I crawled into a dark, cold shell and never left." Describes herself as "too fragile" for social media. Tried Instagram for three days, got sucked into comparing herself to strangers, deleted it.</li>
+<li><b>The 9w8 Core:</b> Natalie Portman: "She's very direct." Chris Evans calls himself the "younger sibling" despite being three years older. When boundaries get crossed, the stubbornness surfaces: Disney lawsuit, OpenAI confrontation, SodaStream/Oxfam break.</li>
+<li><b>The Anger Pattern:</b> Holds out hope, avoids confrontation as long as possible, then moves with quiet force when pushed past the threshold. Said no to OpenAI twice. When they used her voice anyway, she went public.</li>
+<li><b>The 30-Year Dream:</b> Wanted to direct since watching Robert Redford at age 12. Didn't do it until she was 40. Type 9s don't rush their deepest goals.</li>
 </ul>
 </div>
 </details>
 
-## Roots of a Peacemaker
+## "That Was Me. That Kid."
 
-### Food Stamps and Five Siblings
+Scarlett Ingrid Johansson was born November 22, 1984, in Manhattan. Her father Karsten, a Danish-born architect. Her mother Melanie, a New York producer from an Ashkenazi Jewish family whose ancestors fled Poland and Russia. Five children. Government assistance.
 
-Scarlett Ingrid Johansson was born November 22, 1984, in New York City. Her father Karsten is a Danish architect. Her mother Melanie is a New York-born producer from an Ashkenazi Jewish family whose ancestors fled Poland and Russia.
-
-The Johansson family relied on food stamps. Five children shared the household: Scarlett, twin brother Hunter, older siblings Vanessa and Adrian, plus half-brother Christian from her father's first marriage.
+"We were living on welfare; we were on food stamps," Johansson has said plainly. She relied on the free school lunch program. The family lived in a middle-income housing development in the West Village.
 
 > "I've described my childhood as very ordinary."
 
-Classic Type 9 minimizing. Smoothing over difficulty. Finding the peaceful center even when circumstances were tight.
+Classic Type 9 minimizing. Five siblings, food stamps, a marriage falling apart — _ordinary_.
 
-### The Rejection That Shaped Her
+The talent agent rejection cut deeper than she lets on. This wasn't a failed audition with strangers. It was a family comparison. A professional looked at the Johansson kids and chose her brother over her. For a personality type whose core fear is being overlooked — being _less than_ — the message landed hard: you're not the one.
 
-At seven, a family friend suggested the Johansson kids would be perfect for commercials. Melanie took them all on casting rounds.
+But the response is what makes it Type 9. She didn't make a scene. She didn't get angry. She stood on the sidewalk, said she still wanted to act, went home, and stared at herself in the mirror until she could produce tears on command. Quiet absorption. Internal processing. Wound into craft.
 
-Scarlett found it overwhelming: "It was like being in a beauty pageant. The other moms were really scary, and it was awful."
+"I needed a lot of attention," she recalled of her childhood self. "'Look at me. What about look at me now.' That was a big driving force. I was kind of a ham and I just loved imaginary things." A kid with jazz hands. The one who wanted everyone to look.
 
-Then the blow landed. A talent agent signed one of her brothers instead of her.
+And then adolescence hit.
 
-For a Type 9 child, this rejection cuts deep. Type 9s already struggle with feeling overlooked, invisible, like they matter less than others. Being passed over for a sibling confirms that fear.
+"Puberty hit and I crawled into a dark, cold shell and never left."
 
-But Johansson did something with that wound. She started practicing acting by staring into the mirror until she made herself cry, channeling Judy Garland in _Meet Me in St. Louis_. Rejection became fuel.
+Her parents split when she was thirteen. For a Type 9 teenager — a type whose core motivation is harmony — watching the family fracture threatens everything. Scarlett and her twin brother Hunter chose to stay in New York with their father rather than move to California with their mother. She chose stability, continuity, the familiar environment. The ground that wasn't shifting.
 
-### Divorce and Her Grandmother
+### The Grandmother
 
-When Scarlett was thirteen, her parents split. For a Type 9 teenager, parental conflict hits hard. Their core motivation is harmony, inner and outer. Watching the family fracture threatens that foundation.
+During the fracture, Johansson anchored to her maternal grandmother, Dorothy Sloan. Kindergarten teacher, bookkeeper, tenant activist — the kind of vivid, independent woman who took advantage of every free art program New York offered.
 
-During this period, Johansson grew close to her maternal grandmother Dorothy Sloan, a bookkeeper and schoolteacher. She called Dorothy her "best friend." Type 9s often seek one stable, peaceful presence to anchor them.
+Dorothy once told an interviewer: "People would ask Scarlett, 'Who's your best friend?' And she would say, 'Grandma!'"
 
-### Hidden Family History
+The friendship deepened as Johansson grew up. "We talked about everything — boyfriends, bodies, aging experiences, and politics." One trusted person. One stable, peaceful presence. Type 9s don't build wide social networks. They build deep bonds with the few people who feel safe.
+
+She named her daughter Rose **Dorothy**. And decades later, she directed a film inspired by that relationship.
+
+### Hidden History
 
 Johansson's mother comes from a Jewish family originally named Schlamberg. Scarlett grew up celebrating Shabbat, Hanukkah, and Passover. Her grandmother spoke Yiddish.
 
 > "I'm a New York Jew who talks with her hands."
 
-Then came _Finding Your Roots_ in 2017.
-
-On the PBS show, Johansson learned her maternal great-grandfather Saul Schlamberg had fled Poland for New York's Lower East Side in 1910, selling bananas at a market while living in poverty. His brother Moshe stayed behind.
-
-Moshe and his daughters, Zlata (15) and Mandlit (17), died in the Warsaw Ghetto.
+On _Finding Your Roots_ in 2017, she learned her great-grandfather Saul Schlamberg had fled Poland for New York's Lower East Side in 1910, selling bananas while living in poverty. His brother Moshe stayed behind. Moshe and his daughters — Zlata, 15, and Mandlit, 17 — died in the Warsaw Ghetto.
 
 Reading the testimony preserved at Yad Vashem, Johansson broke down: "I promised myself I wouldn't cry, but it's hard not to."
 
-That discovery planted a seed. It would grow into her directorial debut three decades later.
+That discovery planted a seed. Nearly three decades later, it became her directorial debut.
 
-## The Rise: Acting as Emotional Outlet
+## The Peaceful Aura
 
-Johansson started as a child actor in _North_ and _The Horse Whisperer_. For a Type 9, acting offers something paradoxical: permission to explore conflict, rage, intensity through characters while staying personally protected.
+At nine years old, Scarlett's deep, husky voice was already a problem for commercial work. "I sounded like a whiskey-drinking, chain-smoking fool," she said. "Wasn't going to sell Jell-O with that voice."
 
-During _The Horse Whisperer_, twelve-year-old Johansson watched Robert Redford direct. "I saw the specific way he worked, the way he understood his actors," she recalled. "I had a clear thought: I want to do that someday."
+The voice pushed her toward film. Her early roles — _North_, _Manny & Lo_, _The Horse Whisperer_ — revealed something critics kept circling back to.
 
-That quiet aspiration took nearly three decades to realize. Type 9s don't rush their major goals.
+Mick LaSalle of the _San Francisco Chronicle_, reviewing eleven-year-old Johansson in _Manny & Lo_, wrote: **"If she can get through puberty with that aura undisturbed, she could become an important actress."**
 
-[Natalie Portman](/personality-analysis/Natalie-Portman) noticed something about working with Johansson:
+_If she can get through puberty with that aura undisturbed._ He saw it. The peaceful center. The thing that makes people lean in without knowing why.
+
+Robert Redford cast her in _The Horse Whisperer_ when she was twelve. For the audition, she lied — told Redford she could ride horses. She'd only ever ridden a plastic toy. He cast her anyway. Later, he described her as "13 going on 30" and noted her "tough New Yorker independence and self-confidence that gave her a combative strength."
+
+Something happened on that set. "Bob Redford would take the time to sit with me and walk me through all of the beats that led my character up until that particular point," she recalled. "I saw the specific way he worked, the way he understood his actors. I had a clear thought: I want to do that someday."
+
+That aspiration took nearly three decades to realize. Type 9s don't rush their major goals.
+
+Sofia Coppola cast her in _Lost in Translation_ without an audition. "She makes you feel like she has been around the world. She has a coolness and a subtlety that you would not expect." Then the line that captures the Type 9 gift: **"She's able to convey a lot without saying anything."**
+
+For a Type 9, acting offers something paradoxical. Permission to explore conflict, rage, intensity, sexuality — through characters — while staying personally protected. The real Scarlett stays in the shell. The characters do the living.
+
+[Natalie Portman](/personality-analysis/Natalie-Portman) noticed the split:
 
 > "A lot of women, and I am among them, will be very careful. I might be like, 'this might sound stupid but is this what they would do in the scene?' She's not like that at all. She's very direct."
 
-Johansson learned to channel assertiveness through her work. The personal life stays protected.
+Direct in the work. Invisible in her personal life. That gap is the whole story.
 
-### Fame and Boundaries
+## What Is Scarlett Johansson's Personality Type?
 
-Most personality types feed off public attention. Type 9s find it draining. Johansson's solution: firm boundaries.
+### Why Type 9 — and Not Type 6
 
-> "I don't have a Facebook or a Twitter account."
+Someone who avoids social media, describes herself as "too fragile," and seeks stable relationships could look like a <a href="/enneagram-corner/enneagram-type-6">Type 6 (The Loyalist)</a>. Both types value security. Both can appear guarded.
 
-This isn't celebrity aloofness. Social media means potential conflict, criticism, chaos. Everything a Type 9 avoids.
+But the core motivation is different. Type 6s avoid out of _fear_ — the mind running worst-case scenarios. Type 9s avoid out of _desire for peace_ — they don't want the sharp edges.
 
-## Inside Her Psychology
+Watch how Johansson responds to threat. When Disney publicly attacked her during the Black Widow lawsuit, calling her "callous," she didn't build coalitions, rally allies, or go on a media blitz. She held firm, settled, then expressed quiet disappointment that her peers hadn't spoken up. Silence, boundary, slow processing. That's 9, not 6.
 
-> "The more you do your homework, the more you're free to be intuitive."
+A Six under fire gets _more_ vigilant, more reactive. Johansson gets quieter.
 
-This captures Type 9s perfectly. Create structure and safety first. Then let creativity flow within those boundaries.
+The stress arrow confirms it. Under pressure, Type 9s temporarily move toward 6 behaviors — anxiety spikes, vulnerability surfaces. Johansson's three-day Instagram experiment is the tell: she felt the comparison anxiety, recognized the trigger, removed it, returned to calm. A Six would more likely stay on the platform, anxiously monitoring it. Johansson just deleted the app.
 
-### Her 2026 Intention
+### Why Type 9 — and Not Type 4
 
-At a recent Outset Skincare event, someone asked Johansson her clear intention for 2026:
+Her artistic depth, distinctive voice, and creative range could suggest <a href="/enneagram-corner/enneagram-type-4">Type 4 (The Individualist)</a>. But the evidence runs the other way.
 
-> "My clear intention, I think, is to engage in the things that bring me joy."
+"I've described my childhood as very ordinary." A Four would never say that. Fours experience themselves as fundamentally different from others. Johansson actively minimizes. Five siblings, food stamps, divorce — _ordinary_.
 
-Not achievement. Not status. Not conquest. Just peace. Presence. Harmony between demanding career and whatever nourishes her.
+Her directorial debut, _Eleanor the Great_, is about intergenerational friendship, preserving stories, bridging divides. Type 9 themes. A Four's directorial debut would more likely explore alienation, longing, the unique pain of being misunderstood.
 
-### The Colin Jost Partnership
+And her career: she moves between Marvel blockbusters, Wes Anderson films, indie dramas, and horror without cultivating a deliberately distinctive filmography. Chris Evans praised her for "seamlessly transitioning between independent and mainstream films, refusing to be boxed in." That's the Nine's ability to merge with any environment. A Four curates. A Nine adapts.
 
-Johansson met _Saturday Night Live_ writer Colin Jost during a hosting appearance. They started dating in 2017, got engaged in 2019, married in October 2020.
+### The 9w8 Wing
 
-On the _Goop_ podcast, she explained why it works:
+Type 9 has two possible wings. A 9w1 (wing One) is more principled, orderly, guilt-prone about anger. A 9w8 (wing Eight) is more direct, stubborn, assertive when pushed.
 
-> "I never realized, 'Oh, it's really important for me, I need to be with a compassionate person. That's a fundamental characteristic that has to be there.'"
+Johansson reads as 9w8.
 
-Jost told _The New York Times_: "I think part of the reason I fell in love with her is she's a great mum. I've known Rose, my stepdaughter, since she was 2. It's weird. You get to actually preview someone as a mum."
+Portman's observation — "She's very direct" — is Eight-wing energy. So is the SodaStream stance. When Oxfam objected to her ambassadorship for SodaStream (whose factory sat in a West Bank settlement), she didn't agonize. She left Oxfam after eight years and dismissed the criticism as "noise." A 9w1 would have wrestled with the moral tension. Johansson made a gut-level call and held it.
 
-They now have two children: daughter Rose Dorothy (11, from Johansson's previous marriage to Romain Dauriac) and son Cosmo (4, with Jost). On balancing careers and parenting:
+Taika Waititi experienced the Eight wing on the _Jojo Rabbit_ set. He was ready to rush past a difficult scene due to schedule pressure. Johansson stopped him:
 
-> "Really, truly couldn't do it without help. It's hard to balance between two busy schedules, but we do as much as we can."
+> "You're not coming back to this set ever again. This is the only chance we have to do it... let's not rush it because we're worried about a schedule thing. If we're trying to get it right, then let's get it right. What's another 10 minutes?"
 
-Jost also revealed: "Games are serious business. She's really upset when I beat her at backgammon, which I do all the time."
+Waititi's reflection: "It was cool to have an ally."
 
-That playful competitiveness inside a stable relationship shows healthy Type 9 behavior. Channel the stubborn streak into games, not destructive conflict.
+The person in the room who rarely pushes — but when she does, you listen.
 
-## Business Ventures: Type 9 Values in Action
+### The Body Triad: Where Anger Lives
 
-### The Outset
+Type 9 sits in the Enneagram's gut/anger triad alongside <a href="/enneagram-corner/enneagram-type-8">Types 8</a> and <a href="/enneagram-corner/enneagram-type-1">1</a>. All three have a complicated relationship with anger. Eights externalize it. Ones repress it into rigidity. Nines deny it entirely — they "fall asleep" to their own anger because expressing it might rupture the peace.
 
-Johansson co-founded skincare line The Outset with Kate Foster Lengyel in 2022. The brand language reveals her Type 9 values: "clean, hydrating," "radically gentle."
+The anger doesn't disappear. It accumulates. When it finally surfaces, the eruption shocks everyone because nothing in the Nine's calm exterior suggested the pressure building underneath.
 
-> "The Outset is the collection of essentials I wish I had 10 years ago. I struggled with sensitized skin for years before creating this clean, hydrating routine that I now use daily."
+Johansson's anger surfaces in a specific pattern: hold out hope, avoid confrontation as long as possible, absorb the pressure — then, past a threshold she may not have known existed, move with quiet force.
 
-"Sensitized" skin needing gentle care. That mirrors the Type 9's own sensitivity to harshness.
+The Rub & Tug controversy in 2018 shows all three phases. **Phase one: defensiveness.** When criticized for being cast as a transgender man, her representative's statement was sarcastic and combative — "Tell them that they can be directed to Jeffrey Tambor, Jared Leto, and Felicity Huffman's reps for comment." **Phase two: withdrawal.** She exited the project quietly. **Phase three** — over a year later — **genuine reflection:** "In hindsight, I mishandled that situation. I was not sensitive, my initial reaction to it... I wasn't aware of that conversation — I was uneducated."
 
-By 2025, The Outset expanded to Nordstrom stores nationwide, launched in the UK through Cult Beauty, and hit over 1 million social media followers. All products use sustainable packaging. The brand donates 1% of annual sales to environmental nonprofits through 1 Percent for the Planet.
+Stubbornness, withdrawal, slow integration. The body triad processing anger on its own timeline.
 
-Her co-founder noted: "The idea that the best idea rises to the top. It's a collaborative process. And I love that collaborative process and being one voice in a group."
+She's admitted to this pattern in her career too. Losing _The Parent Trap_ to Lindsay Lohan: "I started to get bitter at that point." Missing out on _Iron Man 2_ and _Gravity_ left her "really frustrated and hopeless," asking herself, "Am I doing the right job?" The frustration accumulates in private. The public face stays calm.
 
-According to Lengyel, Johansson is deeply involved: "She mothers the office."
+## The Disney Lawsuit
 
-Type 9 leadership in action. Harmony through inclusion, not domination.
+July 2021. Johansson sued Disney while quarantining in her Upper East Side apartment, days away from giving birth. Disney had released _Black Widow_ simultaneously on Disney+, allegedly breaching her contract guarantee of exclusive theatrical release.
 
-## When a Peacemaker Fights: The OpenAI Confrontation
+The revealing detail is how long she waited.
 
-This event reveals healthy Type 9 psychology better than anything else.
+> "I was incredibly disappointed, especially because I was holding out hope until, finally, my team was like, 'You have to act.'"
 
-The timeline: OpenAI CEO [Sam Altman](/personality-analysis/Sam-Altman) approached Johansson in September 2023 to voice ChatGPT. She declined for "personal reasons." Altman contacted her again. She declined again.
+_Holding out hope._ The Nine's default: maybe if I wait, this resolves itself. Maybe the conflict will dissipate without me having to cause it.
 
-Then, in May 2024, OpenAI unveiled a voice assistant that sounded remarkably like her iconic role in the 2013 film _Her_. Altman himself invited the comparison, posting just the word "her" on social media after the announcement.
+Disney's response was brutal — calling the suit "sad and distressing in its callous disregard for the horrific and prolonged global effects of the COVID-19 pandemic." A public shaming aimed at someone whose core personality avoids public conflict at almost any cost.
 
-Johansson went public.
+She held firm. The lawsuit reportedly settled for $40 million-plus.
 
-> "I felt I did not want to be at the forefront of that. I just felt it went against my core values."
+Four years later:
 
-Her legal team demanded answers about the voice they called "Sky." OpenAI paused it, insisting it was based on a different actress. The damage was done.
+> "I don't hold a grudge. I think it was just poor judgment and poor leadership at that time. It just felt very unprofessional to me, the entire ordeal."
 
-This is Type 9 integration. 9s avoid confrontation. But when their fundamental sense of self gets violated, they become remarkably stubborn and assertive. Johansson said no twice, hoping to maintain peace. When that boundary was crossed, she moved toward [Type 8](/enneagram-corner/enneagram-type-8) energy: direct, decisive, willing to use her power.
+No grudge. Goes to Disney World ten times a year. Classic Type 9: move past the conflict once it's resolved.
 
-The controversy exposed gaps in legal protections around AI and voice likeness. Johansson became an unexpected advocate for artists' rights.
+But the silence from peers during the fight? That landed differently.
 
-## The Disney Lawsuit: Holding Firm
+> "It would be great to have more support from the community and my peers — vocally, publicly — on certain issues that affect the entire industry."
 
-Another example of Type 9 integration.
+For a personality type that struggles to advocate for itself, watching everyone else stay quiet while she stood alone confirmed something the seven-year-old on the sidewalk already knew.
 
-Disney released _Black Widow_ simultaneously in theaters and on Disney+ during the pandemic, violating Johansson's contract guarantee of exclusive theatrical release tied to box office bonuses. She sued.
+## When a Peacemaker Fights
 
-Disney's response was brutal. They accused her of "callous disregard for the horrific and prolonged global effects of the COVID-19 pandemic."
+Then came OpenAI. And the anger was different this time.
 
-For a Type 9, public attack like this is deeply painful. Johansson held firm. The lawsuit settled for a reported $40 million-plus.
+September 2023. Sam Altman approached Johansson to voice ChatGPT. He told her she "could bridge the gap between tech companies and creatives" and that her voice "would be comforting to people." She declined for personal reasons. Altman contacted her again. She declined again.
 
-Four years later, she reflected:
+Two days before the May 2024 demo, Altman's team reached out a third time. "Before we could connect, the system was out there."
 
-> "It would be great to have more support from the community and my peers, vocally, publicly, on certain issues that affect the entire industry."
+OpenAI unveiled a voice called "Sky." It sounded remarkably like Johansson's iconic role in the 2013 film _Her_. Altman posted one word on social media: _"her."_
 
-She holds no "grudge" against Disney. Classic Type 9 ability to move past conflict once resolved. But she clearly wished others had spoken up. For a personality type that struggles to advocate for themselves, watching peers stay silent was its own wound.
+> "When I heard the released demo, I was shocked, angered and in disbelief that Mr. Altman would pursue a voice that sounded so eerily similar to mine that my closest friends and news outlets could not tell the difference."
 
-## Evolution: Director, Producer, Highest-Grossing Actor
+Shocked, angered, disbelief. Not the calm processing of a person at peace. Raw anger. The kind Type 9s rarely let anyone see.
 
-Her company These Pictures has multiple projects in development. But the real milestone was behind the camera.
+> "I had actively avoided being a part of the conversation, which was what made it so disturbing. I was like, 'How did I get wrapped up in this?' It was crazy. I was so angry."
 
-### Eleanor the Great
+She said no twice. Maintained peace. Avoided the fight. And the fight came to her anyway. When a Nine's fundamental sense of self gets violated — not their image, not their career, but their _self_ — the Eight wing fires.
 
-In 2025, Johansson realized that dream from _The Horse Whisperer_. Nearly three decades later.
+She hired lawyers. OpenAI paused the voice, insisting it was based on a different actress. The controversy exposed gaps in legal protections around AI and voice likeness. Johansson became an unexpected advocate for artists' rights in an industry she'd been trying to avoid.
 
-Her directorial debut **Eleanor the Great** premiered at Cannes in May 2025. Five-minute standing ovation. Released in the US on September 26, 2025, through Sony Pictures Classics.
+The difference between Disney and OpenAI is instructive. Disney was institutional. She forgave it. "Poor judgment and poor leadership." OpenAI was personal. She joked that Altman would make "a good Marvel villain, maybe with a robotic arm." The edge was still there months later.
 
-The story: Eleanor (95-year-old June Squibb) gets mistaken for a Holocaust survivor and goes along with it while trying to make new friends after moving to New York City. Tender, humorous, about intergenerational friendship and preserving stories.
+This is Type 9 integration toward <a href="/enneagram-corner/enneagram-type-8">Type 8</a>. A Peacemaker who fights not from aggression but from a violated boundary. The anger isn't hot. It's immovable.
+
+## Too Fragile
+
+> "I honestly am too fragile of a person to have social media. My ego is too fragile. My brain is too fragile, I'm like a delicate flower."
+
+She tried Instagram. Three days. "I started realizing that I'd spent 20 minutes looking at somebody's Instagram page who worked for a friend of mine. I now know you have a pit bull and two daughters and you live in, like, Burbank." She deleted the app.
+
+When Universal emailed asking her to join Instagram for the _Jurassic World: Rebirth_ press tour, she considered it: "Is there a way where I could do this and stay true to who I am?" She concluded: "It didn't feel like I could. The work that I put out there is all based in truth. That's the key ingredient."
+
+This isn't celebrity aloofness. It's a Nine protecting the shell. Social media means comparison, conflict, criticism — everything a Nine avoids. But notice the language: _too fragile._ Not "I don't have time." Not "it's beneath me." She names the vulnerability directly. Rare self-knowledge from someone who spends most of her public life minimizing.
+
+"I don't think that if you are in the public eye, your life is public," she's said. "The less people know about an actor personally, the more chance she has of disappearing into a character."
+
+Disappearing into a character. The seven-year-old staring into the mirror. The same impulse, refined over thirty-five years.
+
+## The Merging Pattern
+
+Type 9s in relationships tend to merge — absorbing the emotions, habits, and priorities of their partner until they lose track of their own. Three marriages might suggest restlessness. For a Nine, it more likely means serial merging. Finding a person, dissolving into them, then realizing somewhere along the way that she's lost her own outline.
+
+With Ryan Reynolds, she reflected later: "I was not fully aware of the peaks and the valleys. I wasn't prepared to hunker down and do the work." Not blaming the partner. Acknowledging her own drift.
+
+With Colin Jost, something shifted.
+
+They met during one of her SNL hosting appearances while Jost was a writer. He later described his first impression: "beautiful, smart, sweet and intimidatingly sophisticated." Didn't date until 2017. Their first date: an Italian restaurant in the East Village. She panicked. Left at 9:36 PM, told the babysitter she felt "so flustered." Jost thought it was over: "I totally thought that was it. You were acting so weird."
+
+She told him later: "I panicked. I don't know."
+
+The flush of genuine connection — not performed, not channeled through a character — throwing a Type 9 into flight mode. That detail is worth more than a hundred quotes about "finding the right person."
+
+What she realized with Jost:
+
+> "I never realized, 'Oh, it's really important for me — like, I need to be with a compassionate person. That's a fundamental characteristic that has to be there.'"
+
+_I never realized._ A Type 9 discovering her own desires as if they belong to someone else. The preferences were always there. Buried under decades of accommodation.
+
+Jost on what drew him: "I think part of the reason I fell in love with her is she's a great mum. I've known Rose, my stepdaughter, since she was 2. It's weird. You get to actually preview someone as a mum."
+
+He also revealed: "Games are serious business. She's really upset when I beat her at backgammon, which I do all the time."
+
+Playful competitiveness inside a safe relationship. The stubborn streak channeled into board games instead of conflict. Healthy 9w8 behavior.
+
+## The Thirty-Year Dream
+
+Robert Redford's set. 1997. Twelve-year-old Scarlett watching the director work with actors. "I had a clear thought: I want to do that someday."
+
+Twenty-eight years.
+
+_Eleanor the Great_ premiered at Cannes in May 2025. Five-minute standing ovation. Released in the US that September through Sony Pictures Classics. The film stars 95-year-old June Squibb as Eleanor, a woman who gets mistaken for a Holocaust survivor and goes along with it while trying to make friends after moving to New York City.
+
+> "I don't think that I could have done it 10 years ago — I wouldn't have had the confidence."
+
+> "It was also about being comfortable taking the time to do it and not feel like you're taking a completely different career path, or you're missing some opportunity and being okay with missing that opportunity."
+
+Being okay with missing an opportunity to pursue the thing you actually want. That sentence is a map of the entire Nine journey — the decades of deferring your own desires because asserting them felt like too much friction.
+
+The film is a direct reflection of her relationship with Dorothy Sloan. Intergenerational friendship. Jewish heritage. New York. Preserving stories before they disappear. She cast real Holocaust survivors as support group members.
 
 > "I don't know if I would have felt comfortable telling this story if I weren't Jewish."
 
-Johansson cast real Holocaust survivors as support group members. The film bridges generational divides, finds connection in unexpected places, creates harmony between different worlds. Pure Type 9 storytelling.
+On what directing taught her: "You sort of understand or observe what different actors need to get them to the place where they are at their best and where they feel safe. I tried to approach it that way."
 
-> "The film celebrates heritage and the importance of preserving the Jewish people's stories. That is something I can absolutely relate to because I lost many relatives in the Holocaust."
+_Where they feel safe._ The Peacemaker's instinct, applied to craft.
 
-### Jurassic World Rebirth
+She also described the surprise loneliness of directing: "It's kind of a weird, lonely gig sometimes. I never realized that. As an actor, it always seemed like the director was surrounded. But the reality is, everyone is having fun doing fun stuff and getting together, and you're not doing any of it at all."
 
-**Jurassic World Rebirth** opened July 2, 2025. Johansson achieved a childhood dream and a record.
+The person creating harmony for everyone else is, by definition, standing apart from it. That's directing. That's also Type 9.
 
-> "It was a childhood dream of mine to be in this movie. I've been trying to get in the 'Jurassic' universe for three decades."
+When TIME named Johansson one of their 100 Most Influential People in 2025, Chris Evans wrote the tribute:
 
-She plays Zora Bennett, a covert operations expert extracting dinosaur samples from an island facility. To get the role, Johansson arranged a meeting with Steven Spielberg himself. Rare assertiveness for a Type 9.
+> "Despite her being three years younger than me, I've always considered Scarlett Johansson my older sister. Even at 17, she had wisdom, talent, and grit beyond her years. I quickly revered her as any younger sibling would, with equal parts admiration and intimidation."
 
-The film grossed over $869 million worldwide, pushing Johansson past [Tom Cruise](/personality-analysis/Tom-Cruise) to become the highest-grossing actor on the planet.
+He ended: "Unafraid to be vulnerable. Unafraid to take risks. Unafraid to be herself."
 
-One detail: she faced her "greatest phobia" during filming. Cockroaches. The set was infested. For someone whose core drive is peace and comfort, voluntarily confronting that shows commitment.
+Three years older. Feels like the younger sibling. That old-soul quality — the grounded stability others instinctively lean on — is the same peaceful aura that Mick LaSalle saw when she was eleven.
 
-### The Phoenician Scheme
+## The Mirror
 
-Johansson reunited with Wes Anderson for **The Phoenician Scheme**, premiering at Cannes on May 18, 2025. She plays Cousin Hilda Sussman-Korda alongside Benicio del Toro, [Tom Hanks](/personality-analysis/Tom-Hanks), and an ensemble cast. 77% positive reviews on Rotten Tomatoes.
+At a skincare event in early 2026, someone asked Johansson her clear intention for the year.
 
-### What's Next
+> "My clear intention, I think, is to engage in the things that bring me joy."
 
-Her slate shows range:
+Not achievement. Not status. Not more billions at the box office. Just engagement. Presence. The fact that a woman this successful frames _engaging with joy_ as something requiring deliberate intention tells you everything about how Type 9s relate to their own desires. The wanting is there. The access to the wanting is what takes work.
 
-- **The Exorcist: Martyrs**: Mike Flanagan's reimagining of the horror classic. Johansson plays a small-town "rookie detective" investigating "inconceivable darkness." Flanagan: "Scarlett is a brilliant actress whose captivating performances always feel grounded and real." 2027 release.
-
-- **Just Cause**: Her first television lead. Amazon Prime Video limited series based on the 1992 John Katzenbach novel. In the 1995 film adaptation, child Johansson played Sean Connery's daughter. Now she plays reporter Madison "Madi" Cowart covering a death row inmate who claims innocence.
-
-- **Featherwood**: True-crime thriller where she plays an FBI informant. Also producing.
-
-## What Type 9s Can Learn From Johansson
-
-Johansson proves Type 9s don't have to be passive or invisible to maintain peace. Create firm boundaries. Channel empathy into work. Know when to stand firm.
-
-Fellow Type 9 [Keanu Reeves](/personality-analysis/Keanu-Reeves) shares this quality. The gentle warrior who stays calm in chaos.
-
-Chris Evans in his TIME100 tribute:
-
-> "I learn from her, I lean on her, and I look up to her. There's absolutely nothing she can't do."
-
-He's three years older but describes himself as the younger sibling. That's the grounding presence healthy Type 9s embody.
-
-The lesson: Type 9 growth isn't about becoming more aggressive. It's about learning when harmony requires action rather than avoidance.
-
-## The Peaceful Core
-
-From food stamps in Manhattan to highest-grossing actor on the planet. That arc shows something about Type 9s. Peace isn't just avoiding conflict. It's creating harmony in whatever circumstances arrive.
-
-Johansson's career offers a map: Build boundaries early. Channel intensity through your work. Know when peace requires fighting for it. And find those stable relationships that anchor everything else.
-
-The woman who craves quiet became Hollywood's biggest star. Not despite her peaceful core. Because of it.
+She was seven when she stood on a sidewalk in Greenwich Village after a talent agent chose her brother. She went home and stared into a mirror until she could cry on command. More than three decades later, she's the highest-grossing actor on the planet, still working on the same project: feeling something real and not being afraid of it.
 
 > **Disclaimer:** This analysis is speculative based on publicly available information and may not reflect Scarlett Johansson's actual personality type.

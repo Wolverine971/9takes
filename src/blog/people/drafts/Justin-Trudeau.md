@@ -170,7 +170,7 @@ In _Common Ground_, Justin wrote:
 
 And then the quieter line: **"The lights began to dim in my father's soul when Michel died."** He added: **"From the time we buried Michel until his own passing two years later, my father was never the same man."**
 
-Pierre Trudeau died on September 28, 2000. Justin was 28. At the state funeral at Notre-Dame Basilica in Montreal, he delivered the eulogy that would introduce him to the country — not as Pierre's son, but as someone who could hold a room with his own voice. He told a story about his father teaching him respect, described the family's love, and then closed:
+Pierre Trudeau died on September 28, 2000. Justin was 28. At the state funeral at Notre-Dame Basilica in Montreal, he delivered the eulogy that would introduce him to the country, not as Pierre's son, but as someone who could hold a room with his own voice. He told a story about his father teaching him respect, described the family's love, and then closed:
 
 > "But he won't be coming back anymore. It's all up to us, all of us, now."
 
@@ -184,7 +184,7 @@ A Type 3 doesn't sit with grief. A Type 3 builds something with it. Two years of
 
 Before politics, Trudeau drifted through different attempts at adulthood: engineering, environmental work, odd jobs.
 
-Teaching was the first role that fit. At West Point Grey Academy in Vancouver, he taught French, math, and drama from 1999 to 2001. Former student Emilie Clarke, later a radio host, remembered him vividly: **"He was super engaging. If we knew Mr. Trudeau was subbing in, we were so excited... You just couldn't not look at him."** His boss, Stephen Anthony, called him "highly valued, spirited and enthusiastic — liked by both staff and students."
+Teaching was the first role that fit. At West Point Grey Academy in Vancouver, he taught French, math, and drama from 1999 to 2001. Former student Emilie Clarke, later a radio host, remembered him vividly: **"He was super engaging. If we knew Mr. Trudeau was subbing in, we were so excited... You just couldn't not look at him."** His boss, Stephen Anthony, called him "highly valued, spirited and enthusiastic, liked by both staff and students."
 
 He also trained students to produce the school yearbook. Teaching drama and yearbook design to teenagers isn't a footnote — it's a rehearsal. Reading a room. Controlling a voice. Holding an audience. Staying steady when you're being watched.
 

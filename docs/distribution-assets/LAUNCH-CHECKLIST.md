@@ -93,7 +93,8 @@ Week 5+: Secondary distribution for all (forums, Discord, guest posts)
 - Jay Clouse: creatorscience.com (use contact form)
 - Aporia Magazine: aporiamagazine.com (Substack reply)
 - Courtney Kocak: podcastbestie.substack.com
-- Chris directly: chriswillx.com/contact
+- Podcast Notes: podcastnotes.org (use contact form)
+- Chris directly: chriswillx.com/contact or @ChrisWillx DM on X
 
 ### John Coogan Targets
 

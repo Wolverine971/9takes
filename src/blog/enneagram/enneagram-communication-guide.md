@@ -74,16 +74,16 @@ Each Enneagram type operates on a specific "communication frequency." Type 1s ne
 
 **That argument happened because you spoke the wrong emotional language for their personality type.**
 
-Here's what nobody tells you: Each Enneagram type has a specific communication frequency. Speak on their frequency and they hear you perfectly. Speak on yours and they hear static—or worse, threat.
+Here's what nobody tells you: Each Enneagram type has a specific communication frequency. Speak on their frequency and they hear you perfectly. Speak on yours and they hear static, or worse, threat.
 
 - Type 8s shut down when you're indirect. They need you to say it straight.
 - Type 4s disconnect when you're too logical. They need you to honor their feelings first.
 - Type 6s build walls when you dismiss their concerns. They need you to take their fears seriously.
 - Type 9s disappear when you create pressure. They need you to make space for their voice.
 
-In this guide, you'll decode each type's exact communication patterns—what makes them listen versus tune out, how they process conflict, and the precise words that create instant rapport.
+In this guide, you'll decode each type's exact communication patterns: what makes them listen versus tune out, how they process conflict, and the precise words that create instant rapport.
 
-**Small experiment**: Think of someone you struggle to communicate with. Once you identify their type, you'll understand why your approach isn't working—and exactly how to fix it.
+**Small experiment**: Think of someone you struggle to communicate with. Once you identify their type, you'll understand why your approach isn't working, and exactly how to fix it.
 
 ## The Communication Decoder: How Each Type Actually Works
 
@@ -111,14 +111,14 @@ Each type has hidden communication rules. Learn these patterns and you'll never 
 
 **Their communication frequency**: Accuracy and improvement
 
-**What they're really thinking**: "Is this the most precise way to say this?" Type 1s have an internal quality control system that filters every word. They're not being picky—they're preventing problems.
+**What they're really thinking**: "Is this the most precise way to say this?" Type 1s have an internal quality control system that filters every word. They're not being picky; they're preventing problems.
 
 **How to decode them**: When they give detailed feedback, they're showing they care. When they pause before speaking, they're choosing the "right" words. When they seem critical, they're trying to help.
 
 **Instant rapport formula**: Acknowledge their standards before suggesting changes. "You clearly put thought into this. What if we also considered..."
 
 **Inside the Mind of a One:**
-When a Type 1 enters a conversation, they're navigating an internal landscape dominated by a powerful inner critic. This critical voice constantly evaluates not just what they're saying, but how they're saying it—seeking perfect clarity, fairness, and moral correctness.
+When a Type 1 enters a conversation, they're navigating an internal landscape dominated by a powerful inner critic. This critical voice constantly evaluates not just what they're saying, but how they're saying it, seeking perfect clarity, fairness, and moral correctness.
 
 During discussions, Type 1s are often silently asking themselves:
 
@@ -145,7 +145,7 @@ The perfectionism that defines Type 1s creates specific communication hurdles:
 
 For Ones seeking to communicate more effectively:
 
-1. **Acknowledge your inner critic without surrendering to it**: Notice when perfectionism is preventing you from speaking up. Try setting a mental timer—if you haven't found the "perfect" wording within 30 seconds, share your current best version.
+1. **Acknowledge your inner critic without surrendering to it**: Notice when perfectionism is preventing you from speaking up. Try setting a mental timer: if you haven't found the "perfect" wording within 30 seconds, share your current best version.
 
 2. **Signal your intentions**: Begin important points with phrases like "I'm trying to be precise here" or "I want to be fair in how I describe this" to help others understand your thoughtful approach isn't criticism.
 
@@ -153,7 +153,7 @@ For Ones seeking to communicate more effectively:
 
 When communicating with a Type 1:
 
-1. **Appreciate their precision**: Acknowledge the care they put into their words—"I appreciate how thoughtfully you've considered this."
+1. **Appreciate their precision**: Acknowledge the care they put into their words: "I appreciate how thoughtfully you've considered this."
 
 2. **Ask for their perspective on improvement**: "What would make this better?" allows them to channel their critical thinking constructively.
 
@@ -240,7 +240,7 @@ As we transition from the heart-centered approach of Type 2 to the achievement-o
 
 **Their communication frequency**: Results and recognition
 
-**What they're really thinking**: "How do I look right now and is this moving us forward?" Type 3s communicate with purpose—everything serves the goal of success and positive image.
+**What they're really thinking**: "How do I look right now and is this moving us forward?" Type 3s communicate with purpose; everything serves the goal of success and positive image.
 
 **How to decode them**: When they seem focused on results, they're trying to win. When they share achievements, they need recognition. When they avoid emotional topics, they see them as inefficient.
 
@@ -265,7 +265,7 @@ Type 3s encounter specific communication barriers related to their focus on succ
 
 2. **Impatience with process**: Their results orientation can make them rush through important discussions that require deeper exploration.
 
-3. **Emotional avoidance**: Viewing emotions as potential obstacles to success, Threes often sidestep discussions of feelings—both others' and their own.
+3. **Emotional avoidance**: Viewing emotions as potential obstacles to success, Threes often sidestep discussions of feelings, both others' and their own.
 
 4. **Image management**: Carefully curating how they present themselves can create a sense of performance rather than genuine connection.
 
@@ -407,13 +407,13 @@ For Fives seeking to communicate more effectively:
 
 1. **Start with your conclusion**: Rather than building up to your main point through comprehensive context, begin with your key insight and then elaborate as needed.
 
-2. **Set engagement parameters**: Communicate your boundaries directly—"I have 30 minutes for this discussion" or "I need to process this before responding"—to manage energy without creating confusion.
+2. **Set engagement parameters**: Communicate your boundaries directly ("I have 30 minutes for this discussion" or "I need to process this before responding") to manage energy without creating confusion.
 
 3. **Bridge concepts and experiences**: Practice connecting abstract ideas to concrete examples or personal experiences to make your insights more accessible.
 
 When communicating with a Type 5:
 
-1. **Respect their resources**: Recognize that social interaction requires energy for Fives—be direct, avoid unnecessary interruptions, and honor their need for space.
+1. **Respect their resources**: Recognize that social interaction requires energy for Fives. Be direct, avoid unnecessary interruptions, and honor their need for space.
 
 2. **Acknowledge their expertise**: "Your analysis adds important depth to this discussion" validates their knowledge without demanding performance.
 
@@ -564,7 +564,7 @@ As we shift from the high-energy, possibility-filled world of Type 7 to the powe
 
 **Their communication frequency**: Directness and strength
 
-**What they're really thinking**: "Cut to the chase—what are we really talking about here and can I respect this person?" Type 8s communicate to get results and test authenticity.
+**What they're really thinking**: "Cut to the chase. What are we really talking about here, and can I respect this person?" Type 8s communicate to get results and test authenticity.
 
 **How to decode them**: When they're direct, they're being efficient. When they challenge you, they're testing your strength. When they protect others, they're showing their values.
 
@@ -605,7 +605,7 @@ For Eights seeking to communicate more effectively:
 
 When communicating with a Type 8:
 
-1. **Meet their directness**: Eights respect straightforward communication—"I disagree with your approach because..." earns more respect than hesitant or apologetic disagreement.
+1. **Meet their directness**: Eights respect straightforward communication: "I disagree with your approach because..." earns more respect than hesitant or apologetic disagreement.
 
 2. **Stand your ground respectfully**: Maintaining your position without backing down or becoming aggressive demonstrates the authenticity Eights value.
 
@@ -778,9 +778,9 @@ Reflect on what worked. Your relationships will shift when you stop expecting pe
 
 Stop trying to be "a good communicator" in general. Start being a good communicator for EACH TYPE specifically.
 
-Type 3s don't need more empathy—they need more efficiency.
-Type 4s don't need more logic—they need more depth.
-Type 9s don't need more pressure—they need more patience.
+Type 3s don't need more empathy; they need more efficiency.
+Type 4s don't need more logic; they need more depth.
+Type 9s don't need more pressure; they need more patience.
 
 **Your mission**: Identify the types in your life. Speak their language. Watch everything change.
 

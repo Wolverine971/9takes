@@ -6,7 +6,7 @@ description: "Saagar Enjeti isn't a bookworm intellectual. He's a Type 7 who tur
 author: 'DJ Wayne'
 date: '2025-01-20'
 loc: 'https://9takes.com/personality-analysis/Saagar-Enjeti'
-lastmod: '2026-02-19'
+lastmod: '2026-02-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

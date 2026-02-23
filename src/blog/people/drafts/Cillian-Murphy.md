@@ -112,7 +112,7 @@ Kiernan cast him in Enda Walsh's _Disco Pigs_, playing a volatile Cork teenager 
 
 The play, originally intended to run three weeks in Cork, toured Europe, Canada, and Australia for two years. Murphy left university. He left his band. His future wife came on tour with them.
 
-"That time was kind of the most important period of my life. The people I met there remain my closest friends. And it was around the same time I met my wife. She came on tour with us. It was so exciting — we were all just kids, trying to find our way."
+"That time was kind of the most important period of my life. The people I met there remain my closest friends. And it was around the same time I met my wife. She came on tour with us. It was so exciting. We were all just kids, trying to find our way."
 
 He was, by his own admission, "unbelievably cocky and had nothing to lose." That cockiness, the confidence of youth or the ignorance of it, sits strangely against the man he'd become. But it makes sense through the Enneagram: a young Five who hasn't yet learned to be afraid of exposure. The fortress hadn't been built yet. The world hadn't demanded it.
 
@@ -122,7 +122,7 @@ Boyle trusted him. And after seeing the finished film, he said: "I remember thin
 
 ## "Remember, I'm an Actor"
 
-Christopher Nolan first noticed Murphy in a promotional image for _28 Days Later_, recalling "your shaved head and your crazy eyes — no offense." When they met, Nolan knew Murphy wasn't Batman. But there was something he couldn't let go of.
+Christopher Nolan first noticed Murphy in a promotional image for _28 Days Later_, recalling "your shaved head and your crazy eyes, no offense." When they met, Nolan knew Murphy wasn't Batman. But there was something he couldn't let go of.
 
 Nolan deliberately arranged a Batman screen test, not to cast Murphy as Batman, but to convince studio executives to let him cast Murphy as Scarecrow. It worked. Every previous Batman villain had been played by a massive star: Nicholson, Schwarzenegger, Carrey. Casting a 28-year-old Irish theater actor was, as Nolan put it, "a big leap."
 
@@ -180,7 +180,7 @@ The man who controls everything — releasing control.
 
 The cost of Murphy's method is paid by the people closest to him.
 
-Matt Damon called him "the worst dinner companion imaginable." During Oppenheimer, Murphy never joined the cast for dinner. Not once. "His brain was just too full," Damon explained. Murphy didn't disagree: "I've always been like that. But it's because you have the time on set, which is short — you have 10 hours, maybe. And then you're keeping your lines fresh. And then the other big thing for me is sleeping. I love sleeping and I need sleep."
+Matt Damon called him "the worst dinner companion imaginable." During Oppenheimer, Murphy never joined the cast for dinner. Not once. "His brain was just too full," Damon explained. Murphy didn't disagree: "I've always been like that. But it's because you have the time on set, which is short, you have 10 hours, maybe. And then you're keeping your lines fresh. And then the other big thing for me is sleeping. I love sleeping and I need sleep."
 
 Downey called it "the greatest sacrifice by a lead actor in my career."
 
@@ -198,7 +198,7 @@ During COVID-era filming of Peaky Blinders Season 6, the isolation was total: "T
 
 For his 2025 film _Steve_, Murphy described being in "a jangled state of anxiety for two months," playing a character that was, by his own admission, written partially from his own psychology. "One of the most exposing and terrifying characters I've ever played."
 
-**Terrifying**. He keeps using that word. Publicity is terrifying. Fame is terrifying. The roles he's drawn to are terrifying. For a head-centered type driven by fear, Murphy doesn't avoid what frightens him. He walks straight into it — then walks home to a house with no internet and closes the door.
+**Terrifying**. He keeps using that word. Publicity is terrifying. Fame is terrifying. The roles he's drawn to are terrifying. For a head-centered type driven by fear, Murphy doesn't avoid what frightens him. He walks straight into it, then walks home to a house with no internet and closes the door.
 
 ## "It's All Going to Go Wrong"
 
@@ -222,7 +222,7 @@ Read that again. _And I don't._ Not "and I sometimes feel that way." Not "and I 
 
 A Five's core fear (being insufficient, incapable) amplified by a Catholic childhood where guilt was the air you breathed. The result is a man who has won an Oscar, transformed himself into the most commanding screen presence of his generation, and _still_ believes, at some fundamental level, that the floor is about to drop.
 
-"I don't like watching myself — it's like, 'Oh, fucking hell,'" he's said. "You become competitive with yourself a little bit, which is not healthy."
+"I don't like watching myself. It's like, 'Oh, fucking hell,'" he's said. "You become competitive with yourself a little bit, which is not healthy."
 
 When asked after the Oscar whether the unprecedented success of Oppenheimer changed his plans: "The types of films that I want to make and the types of stories that I want to tell haven't been changed by that." He went straight back to work. "That was my way of dealing with it."
 
@@ -260,7 +260,7 @@ Murphy was riding a Dublin train, reading Claire Keegan's novella _Foster_, a qu
 
 A really big hood. So no one would see.
 
-The man who has spent thirty years training himself to disappear — overcome by a story about a child who needed someone to notice her. Hiding his tears on a commuter train because the feeling was real and the exposure would have been unbearable.
+The man who has spent thirty years training himself to disappear, overcome by a story about a child who needed someone to notice her. Hiding his tears on a commuter train because the feeling was real and the exposure would have been unbearable.
 
 That book led him to Keegan's other work, which led to _Small Things Like These_, which led to his first producing credit, which led to confronting Ireland's darkest institutional secret on an international stage. The tears on the train weren't weakness. They were the catalyst. A Five's inner world, vast, detailed, carefully protected, breaking through the walls he built and demanding to be used.
 
@@ -272,7 +272,7 @@ The man who cries under his hood, then channels those tears into the work that m
 
 Murphy's Dublin life looks like this: He walks his black Labrador Scout along the coast. He takes the DART train. He reads scripts in a house with no internet, no notifications, no intrusions. He cooks with his family. He makes music that is, in his words, "never, ever for public consumption."
 
-His test for whether a script is worth doing: "If I feel compelled to do something while I'm supposed to be reading it — like make a cup of coffee or cut the grass — I'm out."
+His test for whether a script is worth doing: "If I feel compelled to do something while I'm supposed to be reading it, like make a cup of coffee or cut the grass, I'm out."
 
 He believes it takes thirty years to make an actor: "It's not just technique and experience. It's maturing as a human being and trying to grapple with life and figure it out, so that by the time you've been doing it for 30 years, you have all of that banked." He was 48 when he won the Oscar. Almost exactly thirty years since _Disco Pigs_.
 
@@ -372,7 +372,7 @@ And eventually, she'll see it reverse: the character departing, the man returnin
           "name": "Why is Cillian Murphy so private?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Murphy has no social media, no internet at home, and a phone with all notifications turned off. He lives in Dublin rather than Hollywood. His acting philosophy — 'you have to withhold more than you add' — applies to his life as well. He believes 'the less people know about me, the more effective I can be when I go to portray someone else.'"
+            "text": "Murphy has no social media, no internet at home, and a phone with all notifications turned off. He lives in Dublin rather than Hollywood. His acting philosophy, 'you have to withhold more than you add,' applies to his life as well. He believes 'the less people know about me, the more effective I can be when I go to portray someone else.'"
           }
         },
         {
@@ -380,7 +380,7 @@ And eventually, she'll see it reverse: the character departing, the man returnin
           "name": "What did Cillian Murphy win the Oscar for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In March 2024, Murphy won the Academy Award for Best Actor for Oppenheimer — his first nomination and first win. He became the first Irish-born actor to win Best Actor. Robert Downey Jr. called it 'the greatest sacrifice by a lead actor in my career,' citing Murphy's extreme physical transformation and total immersion in the role."
+            "text": "In March 2024, Murphy won the Academy Award for Best Actor for Oppenheimer, his first nomination and first win. He became the first Irish-born actor to win Best Actor. Robert Downey Jr. called it 'the greatest sacrifice by a lead actor in my career,' citing Murphy's extreme physical transformation and total immersion in the role."
           }
         }
       ]

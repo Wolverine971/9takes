@@ -1271,15 +1271,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Tom-Hardy</loc>
-    <lastmod>2024-07-12T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Tom-Hardy.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Nancy-Pelosi</loc>
     <lastmod>2024-08-30T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2117,15 +2108,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Malcolm-X</loc>
-    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Malcolm-X.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Oprah-Winfrey</loc>
     <lastmod>2026-01-17T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -2135,12 +2117,12 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Tim-Dillon</loc>
+    <loc>https://9takes.com/personality-analysis/Tom-Hardy</loc>
     <lastmod>2026-01-17T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-        <image:loc>https://9takes.com/types/7s/Tim-Dillon.webp</image:loc>
+        <image:loc>https://9takes.com/types/8s/Tom-Hardy.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2159,15 +2141,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/6s/Zendaya.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/xQc</loc>
-    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/xQc.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2393,15 +2366,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/Grimes.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Scarlett-Johansson</loc>
-    <lastmod>2026-01-29T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/9s/Scarlett-Johansson.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -3269,12 +3233,48 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Malcolm-X</loc>
+    <lastmod>2026-02-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Malcolm-X.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Saagar-Enjeti</loc>
     <lastmod>2026-02-23T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/Saagar-Enjeti.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Scarlett-Johansson</loc>
+    <lastmod>2026-02-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Scarlett-Johansson.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Tim-Dillon</loc>
+    <lastmod>2026-02-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Tim-Dillon.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/xQc</loc>
+    <lastmod>2026-02-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/xQc.webp</image:loc>
     </image:image>
 </url>
 <url>

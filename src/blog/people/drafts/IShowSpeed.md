@@ -147,7 +147,7 @@ He argued with the app like it was a sentient being defying him. He returned in 
 
 A grown man fighting a cartoon dog because it told him no.
 
-Absurd — unless you understand that for this wiring, every "no" echoes the same thing: _someone else has power over me_.
+Absurd, unless you understand that for this wiring, every "no" echoes the same thing: _someone else has power over me_.
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/9bnh7XOH3wg?si=3fTTXsKCfHfLpqM2" title="iShowSpeed Breaks Controller Playing Super Smash Bros" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -255,7 +255,7 @@ His father refused. He wanted to stay near his community. He said he didn't need
 
 **The man whose son fills stadiums in 80 countries said no to a mansion because he already had enough.**
 
-Speed's entire career is built on _more_. More volume, more countries, more followers, more arenas. His father — the one person whose approval he doesn't have to earn — models the opposite: contentment. Rootedness. The thing Speed might actually be looking for.
+Speed's entire career is built on _more_. More volume, more countries, more followers, more arenas. His father, the one person whose approval he doesn't have to earn, models the opposite: contentment. Rootedness. The thing Speed might actually be looking for.
 
 The contrast between the parents tells the whole story. With his mother, the authority figure who doubted him, Speed protects, provides, and keeps his distance. He almost never shows her on stream. With his father, the one who believed, he's raw, emotional, unguarded. His vulnerability only flows toward people who've proven they won't use it against him.
 

@@ -181,7 +181,7 @@ Then came the line that cracked the composure:
 
 She started crying at the intervention. Not from anger. From grief. "Mourning for all the years of friendships I lost because of him."
 
-Sit with that for a moment. The person she trusted most — the one she'd confided in about wanting to be closer to everyone else in the house — had been using those confessions as intelligence. Every vulnerability she shared became a tool for isolation. **The Six's worst nightmare isn't an enemy. It's an ally running a long con.**
+Sit with that for a moment. The person she trusted most, the one she'd confided in about wanting to be closer to everyone else in the house, had been using those confessions as intelligence. Every vulnerability she shared became a tool for isolation. **The Six's worst nightmare isn't an enemy. It's an ally running a long con.**
 
 OfflineTV's founder Scarra later revealed he'd held a three-hour intervention with Fed, and seven other women, six of whom had their own allegations.
 
@@ -367,7 +367,7 @@ Her 2025 looked nothing like her 2020. No fixed streaming schedules. A lifestyle
 
 <a href="https://time.com/collections/time100-creators-2025/7299131/pokimane/">TIME100 Creators 2025</a> described her blueprint as "diversifying revenue streams, protecting health, embracing flexible content loops, and cultivating just enough mystery to stay trending without burning out."
 
-The Six's growth isn't eliminating fear. It's learning to hold the fear without letting it architect every decision. It's the difference between building safety nets because the world is dangerous and building a life because you've decided you're worth protecting — not just your career, not just your reputation, but the person underneath both.
+The Six's growth isn't eliminating fear. It's learning to hold the fear without letting it architect every decision. It's the difference between building safety nets because the world is dangerous and building a life because you've decided you're worth protecting: not just your career, not just your reputation, but the person underneath both.
 
 ---
 
@@ -387,7 +387,7 @@ She tested the institution. It failed. She walked.
 
 The question she keeps answering, over and over, in every decision: _Does this deserve my loyalty?_
 
-And the question underneath that one — the one Dr. K got to in four minutes, the one that made a woman who hits back at four years old break down crying at twenty-four: _If I strip away every safety net I've built, is there someone underneath worth protecting?_
+And the question underneath that one, the one Dr. K got to in four minutes, the one that made a woman who hits back at four years old break down crying at twenty-four: _If I strip away every safety net I've built, is there someone underneath worth protecting?_
 
 A four-year-old in Quebec already knew the answer. She's still learning to trust it.
 

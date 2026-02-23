@@ -304,6 +304,8 @@ Everything in this article describes personality-level anxiety patterns, the kin
 
 If this describes you, the type-specific strategies above are supplements, not replacements, for professional help. A therapist who understands personality dynamics can work with your patterns instead of against them. [Here's how to find one](/enneagram-corner/mental-health/enneagram-therapy-guide).
 
+It's also worth knowing that anxiety and depression frequently travel together. If your anxiety pattern has started pulling you into sustained low mood, withdrawal, or hopelessness, read our guide on [how depression shows up differently by type](/enneagram-corner/depression-patterns-by-enneagram-type) — the overlap is real and understanding both patterns gives you a fuller picture.
+
 ### Crisis Resources
 
 - **988 Suicide & Crisis Lifeline**: Call or text 988
@@ -324,7 +326,19 @@ Pick one strategy from your type's section. Try it for a week. See what shifts. 
 Type 6 is most associated with anxiety because their pattern (intolerance of uncertainty, worst-case thinking, reassurance-seeking) maps closely onto what clinicians diagnose as generalized anxiety disorder. But "most anxiety" is misleading. Type 1s, 2s, and 4s show comparable anxiety levels when measured by different criteria. Every type has a high-anxiety version. Sixes are just the ones whose anxiety looks most like what we culturally label "anxiety."
 
 **Can your Enneagram type change when you're anxious?**
-Your core type doesn't change, but you may show traits of your stress direction. Under anxiety, Type 1s can look like unhealthy 4s (dramatic, withdrawn), Type 6s like unhealthy 3s (image-focused, competitive), and Type 9s like unhealthy 6s (paranoid, reactive). These aren't type changes; they're predictable stress responses. Recognizing them can help you realize what's happening before you spiral.
+Your core type doesn't change, but you may show traits of your stress direction — a predictable shift that happens under sustained anxiety. Here's every type's stress arrow:
+
+- **Type 1 → 4**: The inner critic turns inward. You become moody, withdrawn, and dramatic instead of controlled and principled.
+- **Type 2 → 8**: The helper gets aggressive. You become demanding and controlling about getting your needs met after suppressing them too long.
+- **Type 3 → 9**: The achiever shuts down. You disengage, numb out, and lose motivation instead of pushing harder.
+- **Type 4 → 2**: The individualist becomes clingy. You over-attach to others and people-please to avoid abandonment.
+- **Type 5 → 7**: The investigator scatters. You leap from topic to topic, overstimulate yourself, and avoid going deep on anything.
+- **Type 6 → 3**: The loyalist performs. You become image-focused, competitive, and mask your fear with false confidence.
+- **Type 7 → 1**: The enthusiast gets rigid. You become critical, perfectionistic, and frustrated when things don't go right.
+- **Type 8 → 5**: The challenger withdraws. You isolate, hoard resources, and retreat into your head instead of engaging.
+- **Type 9 → 6**: The peacemaker panics. You become reactive, paranoid, and hyper-anxious — the opposite of your usual calm.
+
+These aren't type changes; they're stress responses. Recognizing yours can help you catch what's happening before you spiral.
 
 **What's the difference between normal anxiety and an anxiety disorder?**
 Normal anxiety is temporary and proportional to a stressor: nervousness before a speech, worry about a deadline. An anxiety disorder involves persistent, excessive worry that interferes with daily life. The one-hour rule is a rough guide: if your type-specific patterns (perfectionism for 1s, rejection fear for 2s, etc.) consume more than an hour daily, cause significant distress, or prevent you from functioning, it's worth a professional evaluation.

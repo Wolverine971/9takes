@@ -6,7 +6,7 @@ description: "Charli XCX wrote a 50-page brand bible before Brat. Inside the Typ
 author: 'DJ Wayne'
 date: '2026-02-18'
 loc: 'https://9takes.com/personality-analysis/Charli-xcx'
-lastmod: '2026-02-18'
+lastmod: '2026-02-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

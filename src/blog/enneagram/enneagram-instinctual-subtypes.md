@@ -35,7 +35,7 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="What are Enneagram instinctual subtypes?">
-Your subtype is WHY two people of the same Enneagram type can seem completely different. There are three instincts: **Self-Preservation** (focused on safety, health, resources), **Social** (focused on belonging, status, groups), and **One-to-One/Sexual** (focused on intense connections, chemistry, attraction). Your dominant instinct flavors how your type expresses itself—creating 27 distinct subtypes instead of just 9.
+Your subtype is WHY two people of the same Enneagram type can seem completely different. There are three instincts: **Self-Preservation** (focused on safety, health, resources), **Social** (focused on belonging, status, groups), and **One-to-One/Sexual** (focused on intense connections, chemistry, attraction). Your dominant instinct flavors how your type expresses itself, creating 27 distinct subtypes instead of just 9.
 </QuickAnswer>
 
 | Subtype                    | Focus      | You Prioritize                  | You Neglect                         |
@@ -45,7 +45,7 @@ Your subtype is WHY two people of the same Enneagram type can seem completely di
 | **One-to-One (SX)**        | Connection | Chemistry, passion, depth       | Practical concerns, social standing |
 
 <p class="firstLetter">
-The Enneagram goes beyond its nine core types by introducing three instinctual subtypes—Self-Preservation, Social, and One-to-One. Each subtype reflects how we meet our fundamental needs and shapes our priorities in relationships, work, and personal well-being. By understanding your dominant (and secondary) instinct, you can gain deeper insight into how you navigate daily life, relationships, and challenges.
+The Enneagram goes beyond its nine core types by introducing three instinctual subtypes: Self-Preservation, Social, and One-to-One. Each subtype reflects how we meet our fundamental needs and shapes our priorities in relationships, work, and personal well-being. By understanding your dominant (and secondary) instinct, you can gain deeper insight into how you navigate daily life, relationships, and challenges.
 </p>
 
 New to the system? Start with the [quick Enneagram overview](/enneagram-corner/enneagram-tldr), then come back here.
@@ -58,7 +58,7 @@ Each of us has all three instincts, but we **prioritize** them differently. Your
 - **Social (SO)**: Emphasizes community, group dynamics, and belonging.
 - **One-to-One (SX)**: Also called “sexual” instinct; seeks intense, close bonds or experiences.
 
-Your instinctual stacking also interacts with your wing—see [the complete Enneagram wings guide](/enneagram-corner/enneagram-wings-complete-guide).
+Your instinctual stacking also interacts with your wing. See [the complete Enneagram wings guide](/enneagram-corner/enneagram-wings-complete-guide) for more.
 
 ### A Note on Limitations and Disclaimers
 
@@ -354,24 +354,24 @@ Beyond these dominant instincts, each person has a **stacking** that orders the 
 
 ## Wrap up
 
-Discovering your **Enneagram Instinctual Subtype** adds an extra layer of depth to your Enneagram journey. You’re more than just a **Type 2** or a **Type 7**—your instinctual focus reveals _why_ you approach life the way you do.
+Discovering your **Enneagram Instinctual Subtype** adds an extra layer of depth to your Enneagram journey. You’re more than just a **Type 2** or a **Type 7**. Your instinctual focus reveals _why_ you approach life the way you do.
 
 - **Encourage Self-Exploration**: Which instinct resonates most with you? Notice how it shapes your daily choices and relationships.
-- **Promote Dialogue**: Share your thoughts or experiences with others. Start a conversation in your community or in the comments—how does your subtype affect your relationships, work, or personal goals?
+- **Promote Dialogue**: Share your thoughts or experiences with others. Start a conversation in your community or in the comments: how does your subtype affect your relationships, work, or personal goals?
 - **Keep Learning**: Check out our dedicated [Enneagram Type pages](https://9takes.com/enneagram-corner/) for insights on how each type interacts with these instincts.
 
-If you enjoy personality explorations, explore our [questions](https://9takes.com/questions) for a deeper dive into Enneagram-based self-awareness. Remember: self-discovery is a continuous journey—embrace the process and let your instinctual subtype guide you toward a richer understanding of who you are.
+If you enjoy personality explorations, explore our [questions](https://9takes.com/questions) for a deeper dive into Enneagram-based self-awareness. Remember: self-discovery is a continuous journey. Embrace the process and let your instinctual subtype guide you toward a richer understanding of who you are.
 
 ## FAQs About Enneagram Instinctual Subtypes
 
 **How do I find my instinctual subtype?**
-Observe which domain consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort—often unconsciously.
+Observe which domain consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort, often unconsciously.
 
 **Can your instinctual subtype change over time?**
 Your core instinctual stacking (sp/so/sx order) tends to remain stable, but you can develop your weaker instincts through conscious effort. Many people report their secondary instinct becoming more accessible with growth, while the "blind spot" instinct requires the most intentional work to develop.
 
 **What's the difference between the Sexual subtype and sexuality?**
-Despite the name, the Sexual (One-to-One) instinct isn't about sex—it's about intensity and deep connection. It drives the desire for chemistry, merger, and transformative relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences.
+Despite the name, the Sexual (One-to-One) instinct isn't about sex; it's about intensity and deep connection. It drives the desire for chemistry, merger, and transformative relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences.
 
 **Why do two people with the same Enneagram type seem so different?**
 Instinctual subtypes are often the reason. A Social 7 focused on group fun and FOMO looks very different from a Self-Preservation 7 focused on personal pleasures and resource abundance. The same core fears and motivations express through different instinctual channels.
@@ -443,7 +443,7 @@ Each Enneagram type has one subtype that goes against the type's typical pattern
             "name": "How do I find my instinctual subtype?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Observe which domain consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort—often unconsciously."
+              "text": "Observe which domain consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort, often unconsciously."
             }
           },
           {
@@ -459,7 +459,7 @@ Each Enneagram type has one subtype that goes against the type's typical pattern
             "name": "What's the difference between the Sexual subtype and sexuality?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Despite the name, the Sexual (One-to-One) instinct isn't about sex—it's about intensity and deep connection. It drives the desire for chemistry, merger, and transformative relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences."
+              "text": "Despite the name, the Sexual (One-to-One) instinct isn't about sex; it's about intensity and deep connection. It drives the desire for chemistry, merger, and transformative relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences."
             }
           },
           {

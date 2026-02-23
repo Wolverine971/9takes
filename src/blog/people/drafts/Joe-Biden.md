@@ -132,7 +132,7 @@ Biden doesn't just exhibit these traits. He organized his entire political caree
 
 Campaign staffers spent decades trying to keep him on schedule. He'd linger with voters long past the cutoff, listening to their stories, offering his phone number, calling them weeks later to check in. Former <a href="/personality-analysis/Barack-Obama">Obama</a> advisor David Axelrod put it simply: **"His superpower is empathy. That's not something you can fake."**
 
-A former aide described his memory: **"He remembers everyone's story. Not just their name, but what they're going through, what matters to them. It's like he keeps a mental rolodex of people he cares about — and that's basically everyone he's ever met."**
+A former aide described his memory: **"He remembers everyone's story. Not just their name, but what they're going through, what matters to them. It's like he keeps a mental rolodex of people he cares about, and that's basically everyone he's ever met."**
 
 That's not a political talent. That's a cognitive orientation. A mind wired to prioritize relational data over every other kind.
 
@@ -178,7 +178,7 @@ The public Biden is avuncular, empathetic, sometimes bumbling. The private Biden
 
 **The nightly call.** Every single night, without exception, Biden ends his day with a phone call to Hunter. Every night. Through the addiction, the scandals, the trial, the pardon. The call happens.
 
-That detail — the nightly call — is the one you need if you want to understand the pardons.
+That detail, the nightly call, is the one you need if you want to understand the pardons.
 
 ## "No One F\*\*ks With a Biden"
 
@@ -246,7 +246,7 @@ Biden had requested the format (muted mics, no audience) believing it would neut
 
 The _New York Times_ editorial board published their verdict the next day: **"To Serve His Country, President Biden Should Leave the Race."**
 
-NBC News reported what happened behind the scenes. Biden was **"humiliated, devoid of confidence and painfully aware that the physical images of him at the debate — eyes staring into the distance, mouth agape — will live beyond his presidency."** The question facing him, NBC reported, was whether he could **"get to a place inside himself where he moved past the humiliation of the debate to have the confidence to get back in the ring."**
+NBC News reported what happened behind the scenes. Biden was **"humiliated, devoid of confidence and painfully aware that the physical images of him at the debate (eyes staring into the distance, mouth agape) will live beyond his presidency."** The question facing him, NBC reported, was whether he could **"get to a place inside himself where he moved past the humiliation of the debate to have the confidence to get back in the ring."**
 
 For the boy who was mocked as stupid by a nun. For the man Franklin Foer described as carrying **"an array of insecurities, status anxieties"**, the debate was the stutter happening on national television all over again.
 
@@ -338,7 +338,7 @@ But the pardons don't fit the pattern. The pardons aren't a bridge to anyone. Th
 
 He chose Dad.
 
-Every night, the phone rings. Hunter picks up. The call happens. It has always happened — through the crack pipes and the courtrooms and the pardons and the political wreckage. He touches the rosary in his pocket and does the only thing he has ever known how to do.
+Every night, the phone rings. Hunter picks up. The call happens. It has always happened: through the crack pipes and the courtrooms and the pardons and the political wreckage. He touches the rosary in his pocket and does the only thing he has ever known how to do.
 
 He shows up.
 

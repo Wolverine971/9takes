@@ -50,7 +50,7 @@ For twenty months after that, his phone didn't ring. His agent would call with t
 
 This is not how Hollywood reinvention stories usually go. A-listers don't disappear for two years. They don't turn down eight figures to sit in silence. They don't genuinely consider becoming orchestra conductors.
 
-But McConaughey didn't do what ambitious people do. He didn't hustle his way into dramatic roles or campaign for prestige projects. He just stopped. He withdrew from the game entirely and waited for the world to forget what it thought it knew about him. And that choice — the withdrawal, the patience, the willingness to vanish rather than fight — reveals more about who Matthew McConaughey actually is than any Oscar speech ever could.
+But McConaughey didn't do what ambitious people do. He didn't hustle his way into dramatic roles or campaign for prestige projects. He just stopped. He withdrew from the game entirely and waited for the world to forget what it thought it knew about him. And that choice (the withdrawal, the patience, the willingness to vanish rather than fight) reveals more about who Matthew McConaughey actually is than any Oscar speech ever could.
 
 <details>
 <summary class="accordion">TL;DR: Why Matthew McConaughey is an Enneagram Type 9</summary>
@@ -268,7 +268,7 @@ But standing at the White House podium with a dead child's shoes in his hands �
 
 ---
 
-Today, McConaughey lives in Austin with Camila and their three children. He teaches "Script to Screen" at UT Austin, where he has a perfect 5.0 on Rate My Professors and a student who described his classroom style as "he just drops those wisdom bombs all the time — that's just how he talks normally." He returned to film in 2025 with _The Lost Bus_, playing a school bus driver who saves children during a California wildfire, his first live-action role in six years, another emergence from another long silence.
+Today, McConaughey lives in Austin with Camila and their three children. He teaches "Script to Screen" at UT Austin, where he has a perfect 5.0 on Rate My Professors and a student who described his classroom style as "he just drops those wisdom bombs all the time. That's just how he talks normally." He returned to film in 2025 with _The Lost Bus_, playing a school bus driver who saves children during a California wildfire, his first live-action role in six years, another emergence from another long silence.
 
 His friend Woody Harrelson, who may literally be his half-brother, once described the boundary between them: "Where I start and where he ends, and where he starts and I end, has always been like a murky line."
 

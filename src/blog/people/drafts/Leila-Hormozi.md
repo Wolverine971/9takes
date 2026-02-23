@@ -213,7 +213,7 @@ In May 2025, Leila recorded a podcast episode called ["How Shame Is Hindering Yo
 
 Her thesis: _"Beating yourself up is not only unproductive, it's self-indulgent."_
 
-Listen to what she just did. She took shame — the core emotion of the heart triad, the feeling that drives every Three — and reframed it as a performance problem. Not a feeling to process. A bug in the software. A drag on output.
+Listen to what she just did. She took shame (the core emotion of the heart triad, the feeling that drives every Three) and reframed it as a performance problem. Not a feeling to process. A bug in the software. A drag on output.
 
 That's the Three's relationship with shame in one sentence. They don't deny it. They don't wallow in it. They engineer around it.
 
@@ -223,7 +223,7 @@ _"I was so concerned with being better all the time that it made me generally wo
 
 The source, for Leila, is specific: _"I was scared of being anything like my mother growing up,"_ she posted on [TikTok](https://www.tiktok.com/@leilahormozi/video/7284649237227326766).
 
-There it is. The fear isn't generic failure. It's becoming _her_. Becoming someone who checks out, who spirals, who destroys. Every morning Leila wakes at 4 AM, every gym session, every 14-hour workday — it's not just building an empire. It's running from a ghost.
+There it is. The fear isn't generic failure. It's becoming _her_. Becoming someone who checks out, who spirals, who destroys. Every morning Leila wakes at 4 AM, every gym session, every 14-hour workday, it's not just building an empire. It's running from a ghost.
 
 And she knows it.
 
@@ -277,7 +277,7 @@ She's learning to sit with it anyway. _"Protecting cognitive bandwidth is no lon
 
 A Three reframing rest as a performance strategy. Even her surrender has a business case.
 
-Leila Hormozi is still in the middle of this story. She's still converting pain into proof, still performing composure over chaos, still running the equation that says her life has to be worth the suffering. She hasn't resolved it. She's building inside it — one 5-minute emotion at a time, one 4 AM morning at a time, one system at a time.
+Leila Hormozi is still in the middle of this story. She's still converting pain into proof, still performing composure over chaos, still running the equation that says her life has to be worth the suffering. She hasn't resolved it. She's building inside it: one 5-minute emotion at a time, one 4 AM morning at a time, one system at a time.
 
 The question her story leaves you with isn't whether the math will work out. It's what happens to a person who can only rest by calling it strategy.
 
@@ -357,7 +357,7 @@ The question her story leaves you with isn't whether the math will work out. It'
           "name": "What is Leila Hormozi's Enneagram type?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Leila Hormozi is an Enneagram Type 3. As a heart triad type, her core emotion is shame — a persistent sense that she is not enough as she is. Her transformation from 6 arrests to $100M net worth by 28 exemplifies the Three's drive to prove worth through achievement. She openly discusses the gap between her composed exterior and turbulent inner world."
+            "text": "Leila Hormozi is an Enneagram Type 3. As a heart triad type, her core emotion is shame, a persistent sense that she is not enough as she is. Her transformation from 6 arrests to $100M net worth by 28 exemplifies the Three's drive to prove worth through achievement. She openly discusses the gap between her composed exterior and turbulent inner world."
           }
         },
         {
@@ -365,7 +365,7 @@ The question her story leaves you with isn't whether the math will work out. It'
           "name": "How does Leila Hormozi's Type 3 personality show in her work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Leila's Three manifests as what she calls 'the performance of composure' — being nervous, scared, and anxious while acting like she's not. She built a structured emotional processing system (the 5-minute rule) from behavioral psychology, wakes at 4 AM for pure output, and rejects wellness rituals in favor of action. Her Fortune interview revealed she hires for emotional intelligence over technical skills — building in others the emotional architecture she had to build herself."
+            "text": "Leila's Three manifests as what she calls 'the performance of composure': being nervous, scared, and anxious while acting like she's not. She built a structured emotional processing system (the 5-minute rule) from behavioral psychology, wakes at 4 AM for pure output, and rejects wellness rituals in favor of action. Her Fortune interview revealed she hires for emotional intelligence over technical skills, building in others the emotional architecture she had to build herself."
           }
         },
         {
@@ -373,7 +373,7 @@ The question her story leaves you with isn't whether the math will work out. It'
           "name": "What drives Leila Hormozi's success?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Leila's success is driven by what she calls 'worth-through-pain' — a deep need to make her suffering meaningful. After witnessing her mother's suicide attempt at 15 and going emotionally flat for four years, she channels the Three's shame into relentless achievement. She told Goss Magazine: 'I have to make all of this worth something. My life has to be worth this pain.'"
+            "text": "Leila's success is driven by what she calls 'worth-through-pain,' a deep need to make her suffering meaningful. After witnessing her mother's suicide attempt at 15 and going emotionally flat for four years, she channels the Three's shame into relentless achievement. She told Goss Magazine: 'I have to make all of this worth something. My life has to be worth this pain.'"
           }
         },
         {
@@ -381,7 +381,7 @@ The question her story leaves you with isn't whether the math will work out. It'
           "name": "How is Leila Hormozi different from other Type 3s?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Leila names the gap most Threes hide. She openly admits her 'internal world' doesn't match her composed exterior and recorded an entire podcast episode on how shame hinders performance. She also shows clear integration toward Type 6 — choosing loyalty over self-preservation when Alex lost everything, telling him 'I'd sleep with you under a bridge if it came to that.'"
+            "text": "Leila names the gap most Threes hide. She openly admits her 'internal world' doesn't match her composed exterior and recorded an entire podcast episode on how shame hinders performance. She also shows clear integration toward Type 6, choosing loyalty over self-preservation when Alex lost everything, telling him 'I'd sleep with you under a bridge if it came to that.'"
           }
         }
       ]

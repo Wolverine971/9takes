@@ -189,7 +189,7 @@ Then came the one that turned "big streamer" into cultural infrastructure.
 
 But the signature moment wasn't a celebrity cameo. It was a promise kept.
 
-After growing his locs since he was a teenager, Kai had pledged: hit one million subscribers and they come off. On September 30, 2025, **LeBron James cut them, one loc at a time**, in front of over a million viewers — and Kai's mother snipped the first one.
+After growing his locs since he was a teenager, Kai had pledged: hit one million subscribers and they come off. On September 30, 2025, **LeBron James cut them, one loc at a time**, in front of over a million viewers, and Kai's mother snipped the first one.
 
 Then LeBron turned to the camera and delivered the kind of message that lands differently when you grew up without a fully present father:
 
@@ -360,7 +360,7 @@ The surface story of Kai Cenat is records and spectacle. But his psychological s
 
 He learned early that laughter can protect you. He built an empire on that discovery.
 
-And now — in an Italian factory, in a therapist's office, in the quiet of a birthday video where he admits he's scared — he's learning that laughter can't protect you forever.
+And now, in an Italian factory, in a therapist's office, in the quiet of a birthday video where he admits he's scared, he's learning that laughter can't protect you forever.
 
 _Vivet_ means "he will live forever." But the hardest thing Kai Cenat has ever done isn't streaming for 30 days straight or breaking a million subscribers.
 

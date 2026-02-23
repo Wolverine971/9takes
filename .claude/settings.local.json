@@ -1068,7 +1068,17 @@
 			"WebFetch(domain:hastewire.com)",
 			"WebFetch(domain:walterwrites.ai)",
 			"WebFetch(domain:blog.frohrer.com)",
-			"WebFetch(domain:detector-checker.ai)"
+			"WebFetch(domain:detector-checker.ai)",
+			"WebFetch(domain:www.enneagramanytime.com)",
+			"WebFetch(domain:www.jrepodcast.com)",
+			"WebFetch(domain:www.speakrj.com)",
+			"WebFetch(domain:www.idcrawl.com)",
+			"WebFetch(domain:cac.org)",
+			"WebFetch(domain:www.motionpictures.org)",
+			"WebFetch(domain:enneagrampaths.com)",
+			"WebFetch(domain:thecreativemind.net)",
+			"WebFetch(domain:thepuristonline.com)",
+			"WebFetch(domain:www.sotwe.com)"
 		],
 		"deny": [],
 		"ask": [],

@@ -107,7 +107,7 @@ This is the conversion. Pain into sound. Wound into song. It saved her life. It 
 
 She and Finneas recorded almost every vocal for the debut album in his tiny bedroom, Billie sitting cross-legged on his bed. An Audio-Technica microphone, Logic stock sounds. He produced. She sang. When David Letterman visited their studio years later and saw 87 vocal takes on screen for a single song, his reaction was bewilderment: "This for me is like visiting my cardiologist."
 
-Billie's whisper-singing was never an aesthetic choice. "I started recording when I was 13 — my voice was very young, and I could only do so much with it." The soft voice became her signature, and like the baggy clothes, the signature calcified into an identity before she could decide whether she wanted it.
+Billie's whisper-singing was never an aesthetic choice. "I started recording when I was 13; my voice was very young, and I could only do so much with it." The soft voice became her signature, and like the baggy clothes, the signature calcified into an identity before she could decide whether she wanted it.
 
 The album was called _When We All Fall Asleep, Where Do We Go?_ because Billie had experienced sleep paralysis, night terrors, and lucid dreams her entire life. "I probably wouldn't have made 'Bury a Friend' the way it is if I hadn't had sleep paralysis and horrible nightmares and night terrors." All of her dreams are lucid; she can control them. The waking world has been harder to steer.
 
@@ -141,7 +141,7 @@ Every era presented as freedom. Every era driven by the same engine.
 
 Here is what most people miss about Billie Eilish: the difference is not a performance. She is genuinely, neurologically different from most people on the planet.
 
-She has synesthesia. Her senses are cross-wired so every person, number, day of the week, and song has a color, shape, texture, and sometimes a smell or temperature. Finneas is "an orange triangle," though the word "Finneas" is dark green. "Bad Guy" is yellow. "Bury a Friend" is gray-black-brown. "Xanny" is "velvety, like if you could feel smoke." She told an interviewer: "All my videos for the most part have to do with synesthesia, all of my artwork, everything I do live, all the colors for each song — it's because those are the colors for those songs specifically."
+She has synesthesia. Her senses are cross-wired so every person, number, day of the week, and song has a color, shape, texture, and sometimes a smell or temperature. Finneas is "an orange triangle," though the word "Finneas" is dark green. "Bad Guy" is yellow. "Bury a Friend" is gray-black-brown. "Xanny" is "velvety, like if you could feel smoke." She told an interviewer: "All my videos for the most part have to do with synesthesia, all of my artwork, everything I do live, all the colors for each song. It's because those are the colors for those songs specifically."
 
 She has Tourette syndrome, diagnosed at eleven. Motor tics: ear wiggling, eyebrow raising, jaw clicking, arm flexing, muscle tensing. When Letterman accidentally witnessed a tic during their interview and thought he'd offended her, she was matter-of-fact: "No, I'm ticcing." She explained: "The most common way that people react is they laugh because they think I'm trying to be funny. And so they go, 'Ha,' and I'm always left incredibly offended by that."
 
@@ -189,7 +189,7 @@ Billie's response was more revealing: "I saw myself in that. I was like, 'I have
 
 They say the cruelest things to each other. They love each other more than anyone else is capable of loving anyone. "Finneas and I have said the most cruel things that anyone has or ever will say because we're siblings, and that's how it goes."
 
-Now Billie is learning to produce music without him. Finneas told The Hollywood Reporter she's "very good at it." He taught her how to comp her own vocals so he could leave the room and let her record independently: "Let me teach you how to do this — it's not that hard."
+Now Billie is learning to produce music without him. Finneas told The Hollywood Reporter she's "very good at it." He taught her how to comp her own vocals so he could leave the room and let her record independently: "Let me teach you how to do this. It's not that hard."
 
 She described touring without him as "bittersweet and really sad." But also: "Finneas is, like, really, finally, I feel, like, getting to flap his wings."
 
@@ -205,7 +205,7 @@ In November 2023, a Variety cover story went viral. Billie had said, almost casu
 
 At the red carpet weeks later, she seemed genuinely confused that this was news. "Wasn't it obvious? I didn't realize people didn't know."
 
-By April 2024, she was more explicit: "I've been in love with girls for my whole life, but I just didn't understand — until, last year, I realized I wanted my face in a vagina."
+By April 2024, she was more explicit: "I've been in love with girls for my whole life, but I just didn't understand. Not until last year, when I realized I wanted my face in a vagina."
 
 She also said something most profiles overlooked: "I've never felt like a woman, to be honest with you. I've never felt desirable. I've never felt feminine. I have to convince myself that I'm, like, a pretty girl."
 
@@ -231,7 +231,7 @@ The album closer resurrects the girl she was and the woman she's becoming and pu
 
 "I feel like this album is me. It's not a character," she told Rolling Stone. "It feels like the _When We All Fall Asleep_ version of me. It feels like my youth and who I was as a kid."
 
-And: "I finally got over the need to prove everyone wrong. I figured it out myself. It wasn't about explaining myself — it was about expressing myself."
+And: "I finally got over the need to prove everyone wrong. I figured it out myself. It wasn't about explaining myself; it was about expressing myself."
 
 ## Suffering for the Shot
 
@@ -301,6 +301,6 @@ But here's the thing about a girl who can control her own dreams, who sees orang
 
 The difference was always real. The question was always what to do with it.
 
-She's still figuring that out. But for the first time, she's figuring it out for herself instead of for an audience, and if you lean in close enough — the way you always had to, to hear her sing, you can hear the voice getting stronger.
+She's still figuring that out. But for the first time, she's figuring it out for herself instead of for an audience, and if you lean in close enough (the way you always had to, to hear her sing), you can hear the voice getting stronger.
 
 > **Disclaimer:** This analysis of Billie Eilish's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Billie Eilish.

@@ -6,7 +6,7 @@ description: 'As a kid, Chris Williamson studied which shoulder classmates carri
 author: 'DJ Wayne'
 date: '2026-02-08'
 loc: 'https://9takes.com/personality-analysis/Chris-Williamson'
-lastmod: '2026-02-10'
+lastmod: '2026-02-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

@@ -173,7 +173,7 @@ All three children eventually hit a breaking point. As Rana described it:
 
 They threw water bottles at him from the back of the minivan. They begged their mother to intervene. And for a long time, Jocko didn't budge.
 
-This is the shadow side of Type 8 protection. The same impulse that made him a brilliant combat commander—**I will not let anything bad happen to the people I love**—became suffocating when applied to small children. He needed them to be able to defend themselves physically. That need was genuine. But the method was his, not theirs.
+This is the shadow side of Type 8 protection. The same impulse that made him a brilliant combat commander (**I will not let anything bad happen to the people I love**) became suffocating when applied to small children. He needed them to be able to defend themselves physically. That need was genuine. But the method was his, not theirs.
 
 He eventually backed off. And the admission he made later is one of the most revealing things he's ever said:
 
@@ -211,8 +211,8 @@ His core principles now:
 
 - **Let them fail.** "If you don't allow your kids to brush up against the guardrails and experience failure, they will not be able to contend with the vicious world that awaits them."
 - **Don't over-help.** "If you are helping them too much, you are hurting them."
-- **Give honest feedback, not empty praise.** "If your kid jumps off the thing and you go 'hey that was great'—it wasn't great. The message is you've achieved it. If you say 'hey that was good but here are some things'—the message is I believe in you and you can do better."
-- **Watch for hidden struggles.** "If there's things going on in your life that you're not telling anyone, and yet you've convinced yourself that it's okay, but you know deep inside you couldn't convince anyone else of that—that's a very good red flag."
+- **Give honest feedback, not empty praise.** "If your kid jumps off the thing and you go 'hey that was great,' it wasn't great. The message is you've achieved it. If you say 'hey that was good but here are some things,' the message is I believe in you and you can do better."
+- **Watch for hidden struggles.** "If there's things going on in your life that you're not telling anyone, and yet you've convinced yourself that it's okay, but you know deep inside you couldn't convince anyone else of that: that's a very good red flag."
 
 He even wrote the "Way of the Warrior Kid" children's book series because he couldn't find books that taught the values he wanted his own kids to learn.
 
@@ -308,7 +308,7 @@ Four verbs in sequence: thought, realized, chose, decided. The reframe wasn't au
 
 ### Internal Doubt as Fuel
 
-"Internal doubt—that's a form of humility," Jocko has explained. "That fear of failure is the thing that keeps you up at night preparing. That's the thing that's not going to let you cut corners."
+"Internal doubt, that's a form of humility," Jocko has explained. "That fear of failure is the thing that keeps you up at night preparing. That's the thing that's not going to let you cut corners."
 
 Most people see doubt as weakness. Jocko sees it as data.
 
@@ -326,7 +326,7 @@ This framework reveals Jocko's psychological sophistication. He recognizes that 
 
 The mature leader (and the healthy Type 8) learns to **modulate**. To know when to push and when to yield. When to take control and when to step back.
 
-"When a leader takes too much ownership, there is no ownership left for the team," Jocko writes. "They lose initiative, momentum—they just sit around waiting to be told what to do."
+"When a leader takes too much ownership, there is no ownership left for the team," Jocko writes. "They lose initiative, momentum. They just sit around waiting to be told what to do."
 
 Jocko learned this dichotomy most painfully at home. The same man who gave his SEAL platoon decentralized command, trusting them to make battlefield decisions autonomously, imposed seven-day-a-week jiu-jitsu on his crying children with zero negotiation. He admits the contradiction freely: "I would never impose things on my platoon... but I did it with my kids."
 
@@ -423,7 +423,7 @@ It shows up in the guitar around the campfire and the fart-joke roast songs. In 
 
 It shows up in the tears he hides behind sunglasses. In the anger that comes before the grief. In the conscious, effortful choice to see blessing where others see curse.
 
-And it shows up in the hardest lesson he ever learned—that the same intensity that made his men beg to stay on the battlefield made his children beg to leave the jiu-jitsu mat.
+And it shows up in the hardest lesson he ever learned: that the same intensity that made his men beg to stay on the battlefield made his children beg to leave the jiu-jitsu mat.
 
 When you understand the Type 8, Jocko's philosophy becomes less about discipline tricks and more about identity. He doesn't wake up early because it's effective. He wakes up early because **that's who he is**. He doesn't take ownership because it's a strategy. He takes ownership because the alternative, being at the mercy of something outside himself, is psychologically unbearable.
 

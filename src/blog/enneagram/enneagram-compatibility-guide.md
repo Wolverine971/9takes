@@ -42,18 +42,18 @@ Keyword Strategy:
 </script>
 
 <QuickAnswer question="Which Enneagram types are most compatible?">
-Here's what compatibility charts won't tell you: **No type pairing is inherently better than another.** A study of 457 married couples found the most common pairing (Type 2 + Type 8) only occurred 20.7% of the time—meaning 80% of successful marriages involve other combinations. What actually predicts success? Three factors: both partners' psychological health levels, awareness of childhood wounds driving behavior, and mutual commitment to growth. Two healthy "incompatible" types will always outperform two unhealthy "perfect matches."
+Here's what compatibility charts won't tell you: **No type pairing is inherently better than another.** A study of 457 married couples found the most common pairing (Type 2 + Type 8) only occurred 20.7% of the time. That means 80% of successful marriages involve other combinations. What actually predicts success? Three factors: both partners' psychological health levels, awareness of childhood wounds driving behavior, and mutual commitment to growth. Two healthy "incompatible" types will always outperform two unhealthy "perfect matches."
 </QuickAnswer>
 
 <p class="firstLetter">You found your "perfect match." The compatibility chart said 85%. Your types complement each other beautifully. Six months later, you're wondering what went wrong.</p>
 
 Sound familiar?
 
-Here's the uncomfortable truth that compatibility charts won't tell you: **The Enneagram was never designed to predict romantic success.** Using it that way is like using a map of emotional patterns to navigate physical terrain—technically related, but fundamentally wrong.
+Here's the uncomfortable truth that compatibility charts won't tell you: **The Enneagram was never designed to predict romantic success.** Using it that way is like using a map of emotional patterns to navigate physical terrain. Technically related, but fundamentally wrong.
 
 I'm going to show you what actually determines whether two people can build something lasting. It's not the percentage next to your type pairing. It's not whether you're "naturally compatible" or "challenging." It's something both simpler and harder than matching numbers.
 
-But first, let's talk about why compatibility charts are seductive—and why they keep failing you.
+But first, let's talk about why compatibility charts are seductive, and why they keep failing you.
 
 ## The Compatibility Chart Problem
 
@@ -85,7 +85,7 @@ Same type. Same compatibility percentage. Radically different outcomes.
 
 ### The Static Snapshot Fallacy
 
-Charts assume your type is fixed. But you're not the same person at 25 that you'll be at 45. Stress, growth, trauma, healing—these reshape how your type expresses.
+Charts assume your type is fixed. But you're not the same person at 25 that you'll be at 45. Stress, growth, trauma, healing: these reshape how your type expresses.
 
 The Type 7 who couldn't sit still at 28 might become the grounded, present partner at 42 after doing the work. The compatibility chart can't account for this. It sees "Type 7" and applies the same predictions regardless of where that person is in their development.
 
@@ -105,12 +105,12 @@ A [study analyzing 457 married couples](https://enneagram-personality.com/en/typ
 
 ### The Most Common Pairings
 
-| Pairing         | Frequency | What Charts Say             |
-| --------------- | --------- | --------------------------- |
-| Type 2 + Type 8 | 20.7%     | "Excellent match"           |
-| Type 3 + Type 6 | 17.9%     | "Moderate compatibility"    |
-| Type 4 + Type 8 | 17.5%     | "Challenging"               |
-| Type 1 + Type 7 | 17.3%     | "Difficult—opposites clash" |
+| Pairing         | Frequency | What Charts Say              |
+| --------------- | --------- | ---------------------------- |
+| Type 2 + Type 8 | 20.7%     | "Excellent match"            |
+| Type 3 + Type 6 | 17.9%     | "Moderate compatibility"     |
+| Type 4 + Type 8 | 17.5%     | "Challenging"                |
+| Type 1 + Type 7 | 17.3%     | "Difficult: opposites clash" |
 
 Notice something? The "difficult" Type 1 + Type 7 pairing occurs almost as often as the "excellent" Type 2 + Type 8.
 
@@ -122,7 +122,7 @@ If compatibility charts were accurate, we'd expect "highly compatible" pairs to 
 
 ### What This Means
 
-The researchers concluded that **complementarity drives attraction more than similarity.** People don't seek their mirror—they seek what they lack.
+The researchers concluded that **complementarity drives attraction more than similarity.** People don't seek their mirror; they seek what they lack.
 
 - Emotionally expressive types pair with emotionally reserved types
 - Structure-seeking types pair with spontaneity-seeking types
@@ -136,7 +136,7 @@ Forget type matching. Here's what determines whether your relationship thrives o
 
 ### 1. Both Partners' Health Levels
 
-This is the variable compatibility charts ignore—and it's the most important one.
+This is the variable compatibility charts ignore, and it's the most important one.
 
 **Two healthy people of any type combination can build something beautiful.** They have:
 
@@ -194,29 +194,29 @@ Here's what each type unconsciously brings to relationships:
 
 When two people's wounds interact, one of four things happens:
 
-**1. Wound Collision** — Your wounds trigger each other's worst fears
+**1. Wound Collision:** Your wounds trigger each other's worst fears
 
 - Example: Type 6's loyalty testing triggers Type 8's betrayal wound
 - Result: Escalating conflict, mutual destruction
 
-**2. Wound Collusion** — Your wounds enable each other's avoidance
+**2. Wound Collusion:** Your wounds enable each other's avoidance
 
 - Example: Type 9 + Type 9 both avoiding conflict
 - Result: Surface peace, underground resentment, eventual explosion
 
-**3. Wound Complementarity** — Your wounds fit together... for now
+**3. Wound Complementarity:** Your wounds fit together... for now
 
 - Example: Type 2's need to give + Type 5's need to receive
 - Result: Works until Type 2 wants reciprocity or Type 5 feels smothered
 
-**4. Wound Healing** — Your awareness transforms the pattern
+**4. Wound Healing:** Your awareness transforms the pattern
 
 - Example: Type 2 learns to receive, Type 5 learns to give
 - Result: Genuine growth and deepening connection
 
 **The goal isn't finding someone whose wounds don't trigger yours.** That person doesn't exist.
 
-The goal is finding someone who's aware of their wounds and committed to healing—so you can do the fourth option together.
+The goal is finding someone who's aware of their wounds and committed to healing, so you can do the fourth option together.
 
 ### 3. Mutual Growth Orientation
 
@@ -299,7 +299,7 @@ If you're not, no pairing will save you.
 
 ## What Each Type Actually Needs in Partnership
 
-Rather than "best matches," here's what each type genuinely needs—which can come from many different types:
+Rather than "best matches," here's what each type genuinely needs, which can come from many different types:
 
 ### Type 1: The Perfectionist
 
@@ -366,7 +366,7 @@ Rather than "best matches," here's what each type genuinely needs—which can co
 
 ## Making Any Pairing Work: The Practical Framework
 
-Here's how to use Enneagram insights constructively—without falling into compatibility chart traps:
+Here's how to use Enneagram insights constructively, without falling into compatibility chart traps:
 
 ### Step 1: Know Your Patterns
 
@@ -424,9 +424,9 @@ Here's what I want you to take away:
 
 **Growth orientation is the ultimate filter.** Are you both committed to becoming better humans? That question matters more than any compatibility percentage.
 
-**Any pairing can work.** Not easily. Not without effort. But with consciousness, commitment, and courage—any two people can build something extraordinary.
+**Any pairing can work.** Not easily. Not without effort. But with consciousness, commitment, and courage, any two people can build something extraordinary.
 
-The Enneagram isn't a matchmaking tool. It's a consciousness tool. Use it to understand yourself and your partner more deeply—not to judge whether you "should" be together.
+The Enneagram isn't a matchmaking tool. It's a consciousness tool. Use it to understand yourself and your partner more deeply, not to judge whether you "should" be together.
 
 You already know if this relationship is worth fighting for.
 
@@ -438,7 +438,7 @@ The Enneagram just helps you fight more skillfully.
 
 ### Are certain Enneagram types truly incompatible?
 
-No. The 457 couples study found successful marriages across all type combinations. "Incompatible" pairings like Type 1 + Type 7 occurred almost as frequently as "compatible" ones. What matters isn't the pairing—it's the health level and growth orientation of both partners.
+No. The 457 couples study found successful marriages across all type combinations. "Incompatible" pairings like Type 1 + Type 7 occurred almost as frequently as "compatible" ones. What matters isn't the pairing; it's the health level and growth orientation of both partners.
 
 ### Which Enneagram pairing is most common in marriages?
 
@@ -450,11 +450,11 @@ Yes, with awareness. Same-type pairings create instant understanding but risk en
 
 ### Should I avoid dating certain Enneagram types?
 
-No. Avoid dating unconscious people—regardless of type. A healthy Type 8 and healthy Type 5 can create a beautiful partnership despite being "challenging." An unhealthy version of your "perfect match" will create chaos. Focus on health levels, not type numbers.
+No. Avoid dating unconscious people, regardless of type. A healthy Type 8 and healthy Type 5 can create a beautiful partnership despite being "challenging." An unhealthy version of your "perfect match" will create chaos. Focus on health levels, not type numbers.
 
 ### How important is Enneagram compatibility compared to other factors?
 
-It's one factor among many—and not the most important one. Shared values, emotional maturity, communication skills, and commitment to growth matter more than type matching. Use the Enneagram for understanding, not as a relationship rulebook.
+It's one factor among many, and not the most important one. Shared values, emotional maturity, communication skills, and commitment to growth matter more than type matching. Use the Enneagram for understanding, not as a relationship rulebook.
 
 ### Can Enneagram compatibility predict whether we'll stay together?
 
@@ -466,11 +466,11 @@ Not directly. The Enneagram reveals potential dynamics and challenges, but relat
 
 For deeper exploration of the dynamics discussed here:
 
-- **[All 81 Type Combinations Explained](/enneagram-corner/enneagram-compatibility-matrix)** — The complete breakdown of every pairing's dynamics, challenges, and growth potential
-- **[How Each Enneagram Type Loves](/enneagram-corner/enneagram-types-in-relationships)** — Understanding the unconscious patterns each type brings to relationships
-- **[Red Flags When Dating Each Type](/enneagram-corner/red-flags-dating-each-enneagram-type)** — Warning signs that someone's operating from their unhealthy patterns
-- **[Communication Scripts for Each Type](/enneagram-corner/enneagram-communication-tips)** — Practical phrases that work with each type's communication style
-- **[How Each Type Self-Sabotages](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)** — Understanding the patterns that derail relationships
+- **[All 81 Type Combinations Explained](/enneagram-corner/enneagram-compatibility-matrix)**: The complete breakdown of every pairing's dynamics, challenges, and growth potential
+- **[How Each Enneagram Type Loves](/enneagram-corner/enneagram-types-in-relationships)**: Understanding the unconscious patterns each type brings to relationships
+- **[Red Flags When Dating Each Type](/enneagram-corner/red-flags-dating-each-enneagram-type)**: Warning signs that someone's operating from their unhealthy patterns
+- **[Communication Scripts for Each Type](/enneagram-corner/enneagram-communication-tips)**: Practical phrases that work with each type's communication style
+- **[How Each Type Self-Sabotages](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)**: Understanding the patterns that derail relationships
 
 <svelte:head>
 
@@ -480,7 +480,7 @@ For deeper exploration of the dynamics discussed here:
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "A research-backed analysis challenging traditional Enneagram compatibility charts. Drawing on a study of 457 married couples, this article reveals what actually predicts relationship success: health levels, childhood wound awareness, and growth orientation—not type matching percentages.",
+      "articleBody": "A research-backed analysis challenging traditional Enneagram compatibility charts. Drawing on a study of 457 married couples, this article reveals what actually predicts relationship success: health levels, childhood wound awareness, and growth orientation, not type matching percentages.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -493,7 +493,7 @@ For deeper exploration of the dynamics discussed here:
       },
       "dateModified": "2026-01-06",
       "datePublished": "2026-01-06",
-      "description": "Forget best/worst match lists. Research on 457 couples reveals what actually predicts relationship success—and it has nothing to do with type compatibility percentages.",
+      "description": "Forget best/worst match lists. Research on 457 couples reveals what actually predicts relationship success, and it has nothing to do with type compatibility percentages.",
       "headline": "Enneagram Compatibility: Why Charts Lie and What Actually Predicts Success",
       "image": {
         "@type": "ImageObject",
@@ -538,7 +538,7 @@ For deeper exploration of the dynamics discussed here:
           "name": "Are certain Enneagram types truly incompatible?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. A study of 457 married couples found successful marriages across all type combinations. 'Incompatible' pairings like Type 1 + Type 7 occurred almost as frequently as 'compatible' ones. What matters isn't the pairing—it's the health level and growth orientation of both partners."
+            "text": "No. A study of 457 married couples found successful marriages across all type combinations. 'Incompatible' pairings like Type 1 + Type 7 occurred almost as frequently as 'compatible' ones. What matters isn't the pairing; it's the health level and growth orientation of both partners."
           }
         },
         {
@@ -554,7 +554,7 @@ For deeper exploration of the dynamics discussed here:
           "name": "Should I avoid dating certain Enneagram types?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Avoid dating unconscious people—regardless of type. A healthy Type 8 and healthy Type 5 can create a beautiful partnership despite being 'challenging.' An unhealthy version of your 'perfect match' will create chaos. Focus on health levels, not type numbers."
+            "text": "No. Avoid dating unconscious people, regardless of type. A healthy Type 8 and healthy Type 5 can create a beautiful partnership despite being 'challenging.' An unhealthy version of your 'perfect match' will create chaos. Focus on health levels, not type numbers."
           }
         },
         {
@@ -562,7 +562,7 @@ For deeper exploration of the dynamics discussed here:
           "name": "How important is Enneagram compatibility compared to other factors?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It's one factor among many—and not the most important one. Shared values, emotional maturity, communication skills, and commitment to growth matter more than type matching. Use the Enneagram for understanding, not as a relationship rulebook."
+            "text": "It's one factor among many, and not the most important one. Shared values, emotional maturity, communication skills, and commitment to growth matter more than type matching. Use the Enneagram for understanding, not as a relationship rulebook."
           }
         },
         {

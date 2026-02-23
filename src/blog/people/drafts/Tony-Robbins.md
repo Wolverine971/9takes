@@ -44,7 +44,7 @@ FEEDBACK (2026-02-19):
 
 > "If my mom had been the mother I thought I wanted, I wouldn't be as driven; I wouldn't have suffered, so I probably wouldn't have cared about other people's suffering as much as I do."
 
-<p class="firstLetter">Before every event, the same ritual. Mini trampoline, one that barely accommodates his barrel-chested frame. A plunge into fifty-seven-degree water. Three rounds of breathing. Then a backstage sequence of fist-pumping and power-posing that Nancy Duarte, who has <a href="https://www.linkedin.com/pulse/tony-robbins-pre-talk-ritual-crazy-nancy-duarte">coached hundreds of executive speakers</a>, called "one of the most involved pre-talk rituals I've ever seen — especially from a guy who claims he doesn't get nervous."</p>
+<p class="firstLetter">Before every event, the same ritual. Mini trampoline, one that barely accommodates his barrel-chested frame. A plunge into fifty-seven-degree water. Three rounds of breathing. Then a backstage sequence of fist-pumping and power-posing that Nancy Duarte, who has <a href="https://www.linkedin.com/pulse/tony-robbins-pre-talk-ritual-crazy-nancy-duarte">coached hundreds of executive speakers</a>, called "one of the most involved pre-talk rituals I've ever seen, especially from a guy who claims he doesn't get nervous."</p>
 
 She described it as a modern war dance.
 
@@ -103,13 +103,13 @@ Picture that for a moment. Seventeen years old. Alone. The bathtub.
 
 Then someone told him about a Jim Rohn seminar. Robbins spent $35, nearly his entire week's wages, on three hours with the personal development legend.
 
-"That man, that seminar, that day — what Jim Rohn did was put me back in control of my own future," he [later wrote](https://www.tonyrobbins.com/mind-meaning/the-mentors-who-coached-me/).
+"That man, that seminar, that day: what Jim Rohn did was put me back in control of my own future," he [later wrote](https://www.tonyrobbins.com/mind-meaning/the-mentors-who-coached-me/).
 
 Consider the psychology. A seventeen-year-old who had cycled through four fathers, who had just fled his mother's knife, finds a stable older man willing to teach him how the world works. Rohn gave him a philosophy that replaced chaos with a system: "The secret to life is to find a way to do more for others than anyone else is doing."
 
 The mentorship lasted years. Rohn taught Robbins it was fine to miss a meal, "but don't miss your reading." Robbins got hooked on thirty minutes of reading a day, a habit he [told CNBC](https://www.cnbc.com/2018/07/23/3-lasting-lessons-from-jim-rohn-the-man-who-mentored-tony-robbins.html) was the most valuable of his life. He promoted Rohn's seminars, absorbed his frameworks, and built on his foundations.
 
-When Rohn died in 2009, Robbins spoke at his funeral: "He got me to realize that the secret to life was to work harder on myself than my job or anything else — because then I'd have something to give people."
+When Rohn died in 2009, Robbins spoke at his funeral: "He got me to realize that the secret to life was to work harder on myself than my job or anything else, because then I'd have something to give people."
 
 A boy who never had a father found one. Then he became one of millions.
 
@@ -259,7 +259,7 @@ Working from duty means pushing against obligation: _I have to do this_. It's ex
 
 Then he said the thing that gave the wound a name:
 
-"The stories you repeat about your life become the emotional wallpaper you live inside. Tell yourself _I'm failing, I'm behind, I'm not enough_ on loop, and your nervous system eventually believes you — no matter what your bank account says."
+"The stories you repeat about your life become the emotional wallpaper you live inside. Tell yourself _I'm failing, I'm behind, I'm not enough_ on loop, and your nervous system eventually believes you, no matter what your bank account says."
 
 _I'm not enough._
 
