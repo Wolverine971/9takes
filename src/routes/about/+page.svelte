@@ -463,8 +463,8 @@
 	}
 
 	.problem-card {
-		background: linear-gradient(135deg, rgba(127, 29, 29, 0.3) 0%, rgba(154, 52, 18, 0.2) 100%);
-		border: 1px solid rgba(239, 68, 68, 0.3);
+		background: #16161e;
+		border: 1px solid rgba(239, 68, 68, 0.4);
 		border-radius: 12px;
 		padding: 2rem;
 
@@ -580,26 +580,26 @@
 		}
 
 		&.bad {
-			background: rgba(127, 29, 29, 0.3);
-			border: 1px solid rgba(239, 68, 68, 0.3);
+			background: #16161e;
+			border: 1px solid rgba(239, 68, 68, 0.5);
 
 			h4 {
 				color: #f87171;
 			}
 			p {
-				color: rgba(252, 165, 165, 0.8);
+				color: #94a3b8;
 			}
 		}
 
 		&.good {
-			background: rgba(6, 78, 59, 0.3);
-			border: 1px solid rgba(16, 185, 129, 0.3);
+			background: #16161e;
+			border: 1px solid rgba(16, 185, 129, 0.5);
 
 			h4 {
 				color: #34d399;
 			}
 			p {
-				color: rgba(167, 243, 208, 0.8);
+				color: #94a3b8;
 			}
 		}
 	}
@@ -763,15 +763,21 @@
 		color: white;
 
 		&.body-type {
-			background: #dc2626;
+			background: transparent;
+			border: 1.5px solid #ef4444;
+			color: #f87171;
 		}
 
 		&.head-type {
-			background: #2563eb;
+			background: transparent;
+			border: 1.5px solid #3b82f6;
+			color: #93c5fd;
 		}
 
 		&.heart-type {
-			background: #059669;
+			background: transparent;
+			border: 1.5px solid #10b981;
+			color: #34d399;
 		}
 	}
 
