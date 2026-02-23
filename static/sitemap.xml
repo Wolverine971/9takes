@@ -848,6 +848,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/enneagram-corner/enneagram-vs-personality-frameworks-comparison</loc>
+    <lastmod>2026-02-22T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/greek-council-disagreeing.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/enneagram-corner/enneagram-wings-complete-guide</loc>
     <lastmod>2026-02-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3248,6 +3257,24 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Tara-Yummy.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Krystal-Ball</loc>
+    <lastmod>2026-02-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Krystal-Ball.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Saagar-Enjeti</loc>
+    <lastmod>2026-02-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Saagar-Enjeti.webp</image:loc>
     </image:image>
 </url>
 <url>

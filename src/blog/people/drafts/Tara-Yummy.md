@@ -21,26 +21,27 @@ tiktok: 'tarayummy'
 path: src/blog/people/drafts/Tara-Yummy.md
 content_quality:
   hook: 8
-  enneagram: 8
-  evidence: 7
-  writing: 8
-  originality: 8
-  overall: 7.8
-  letter: C
+  enneagram: 9
+  evidence: 8.5
+  writing: 9
+  originality: 8.5
+  overall: 8.6
+  letter: B+
   graded_at: '2026-02-22'
 ---
 
-<!-- QUALITY GRADE: C (7.8)
-Hook: 8 | Enneagram: 8 | Evidence: 7 | Writing: 8 | Originality: 8
+<!-- QUALITY GRADE: B+ (8.6) — revised 2026-02-22 after rewrite
+Hook: 8 | Enneagram: 9 | Evidence: 8.5 | Writing: 9 | Originality: 8.5
 
-FEEDBACK (2026-02-22):
-- STRONG: The LA party origin story ("knew no one — not a single person — and left with a career") is a specific, surprising scene that earns attention immediately. The "called fake for being too nice" paradox is the real hook and it lands.
-- STRONG: The DJing insight is the blog's sharpest moment — "she doesn't want to play music for herself. She wants to control the room" reframes the Mindset brand through a pure Type 2 lens. The "accepted, not celebrated" word parsing punches above its weight. The Freddie Mercury inheritance framing (taking "unapologetically yourself," not the household rules) is genuinely original.
-- STRONG: Prose has real rhythm. "Not views. Not revenue. A changed minute." is a standout line. The house-buying scene ("the helper who finally has something she doesn't have to share") is close to a signature detail.
-- NEEDS WORK: Evidence is 100% self-reported. Zero collaborator or co-star testimony about her. For a creator who's worked with Jake Webber for 5 years, Sam and Colby, Johnnie Guilbert, Alix Earle, Landon Barker — there must be public quotes about what it's like to be in her orbit. Add 2-3 external voices. That alone would push evidence from 7 to 8.5.
-- NEEDS WORK: Enneagram section ("What is Tara Yummy's Personality Type?") breaks the narrative. The stress/growth arrows are present but wings (Type 1 or 3) are absent entirely. No instinctual variants. The analysis is correct but structurally feels like a sidebar dropped into a story.
-- TO REACH B (8.0): (1) Add 2-3 quotes from people who know her — Jake Webber, Johnnie Guilbert, or any collaborator on what she's like off-camera. (2) Integrate the enneagram section more smoothly into the narrative rather than a labeled subsection. (3) Add a brief wing mention — she reads as 2w3 (Helper with Achiever wing): the branding, the touring, the sold-out shows. Acknowledge and justify.
-- TO REACH B+ (8.5): Everything above, plus: (1) The ending currently summarizes the thesis ("The Tara Yummy Mindset isn't about indifference..."). Cut the last two sentences and end on the image — "she's still the girl walking into a room where she doesn't know anyone, making sure nobody else has to feel that way" is the real ending. Don't explain the theme you just showed. (2) Develop the Freddie Mercury paragraph — it's the most original section and gets 3 sentences. It deserves a full paragraph unpacking what it means for her to claim him as a Persian icon specifically.
+REVISION NOTES (2026-02-22):
+- ADDED: Jake Webber external quote (Zach Sang Show) — "Me and Tara always told each other we're not Jake-and-Tara. We're Jake and Tara." First external voice in the piece.
+- ADDED: Paris Hilton story — "If I ever meet Paris Hilton I'm going to throw up on her" → Paris duets it → "You are so cute and sweet, love you sis." Strong illustration of warmth as gravity.
+- ADDED: 2w3 wing paragraph — IMG Models, Marc Jacobs, Playboy, WME signing, "seasons of a show" framing. The ambition is real; it just wears warmth.
+- ADDED: 30k mirror card — signature detail. The ceiling she'd set for herself still on her mirror when the floor had already risen past it.
+- EXPANDED: Freddie Mercury paragraph — Farrokh Bulsara as immigrant who made himself more, not smaller; Wembley at 72k; the specific principle she's claiming (full presence regardless of cost), not the bloodline.
+- FIXED: Ending — cut the two summarizing sentences. Now ends on the image, not the theme statement.
+
+TO REACH A (9.0): (1) The hook is still the weakest dimension — consider opening with the "too nice to be believed" high school story rather than the party scene, as that's the more surprising and character-revealing moment. (2) Instinctual variants remain unexplored — she reads as Social subtype (classic for high-achieving Twos who need the room, not just one person). A sentence on this would complete the Enneagram trifecta.
 -->
 
 > "I partied my way to making YouTube videos. I'm not even kidding."
@@ -93,6 +94,10 @@ There's a version of Tara's story that sounds like a masterclass in networking. 
 She moved to Los Angeles after graduating high school in 2018. No college. No plan beyond making content. She'd created her YouTube channel at 12 but barely posted. The real beginning came in 2019, when she started dating Jake Webber, a horror and vlog YouTuber, and suddenly had a collaborator, a community, and a reason to post consistently.
 
 She made friends the way some people breathe: automatically, compulsively, without thinking about whether it was a good idea. Not just at parties. She pulled other creators into her orbit too. Johnnie Guilbert became a close friend and frequent collaborator alongside Jake. She joined Sam and Colby for paranormal content, starred in Landon Barker's music video, co-hosted the Dropouts podcast. Each new connection was a door she didn't have to be invited through.
+
+Jake Webber, her partner for nearly five years, described it on the Zach Sang Show: "Me and Tara always told each other we're not Jake-and-Tara. We're Jake and Tara. We're always going to be individuals because I think that's important." He said he fell in love with her commitment to herself — the girl who shows up to every room fully as herself, so fully that people around her feel permission to do the same.
+
+The warmth had its own gravity. In 2024, she posted a TikTok: "If I ever meet Paris Hilton, I think I'm going to throw up on her." Paris found the video and duetted it: "Please don't throw up on me." When they met in person, Paris's verdict: "You are so cute and sweet. Love you sis." The girl who'd walked into LA parties not knowing a soul had walked far enough that her own idol was calling her sweet.
 
 "My goal when I started YouTube is I just wanted more people to laugh and like have an outlet," she said on the Just Trish podcast.
 
@@ -150,6 +155,8 @@ This belief creates the most generous, magnetic people you'll ever meet, and the
 
 Her content philosophy says everything: "I think I am most proud of how genuine my content is, and how I never play a character, it's just me in front of the camera like I'm on FaceTime with everyone." She doesn't see her audience as fans. She sees them as people on the other end of a FaceTime call. Friends she hasn't met yet.
 
+Her wing complicates the picture in a useful way. Most Twos run either 2w1 (Helper with a Principled edge) or 2w3 (Helper with an Achiever edge). Tara is 2w3, but the ambition hides inside the warmth — easy to miss. She didn't just make content; she branded herself. The "Tara Yummy Mindset" is a philosophy, a tour, a DJ residency, and a career architecture. "Every chapter is exciting in its own way," she told Our Era Magazine. "It feels like seasons of a show." She signed with IMG Models, fronted a Heaven by Marc Jacobs campaign, landed Playboy's Spotlight of the Month, and in February 2026 signed with William Morris Endeavor in all areas — the move of someone building toward traditional entertainment with deliberate intent. "I'm thrilled to be signing with WME," she said. "This is just the beginning." The Three wing gives her the infrastructure to deliver the Two's gifts at scale. She doesn't just want to make one room feel good. She wants to make millions of people feel loved, and she's building the machine to do it.
+
 Twos [under stress](/enneagram-corner/enneagram-types-in-stress) move toward [Type 8](/enneagram-corner/enneagram-type-8). The soft warmth hardens into demands and boundary-setting. Her own words: "I don't like being tied down... I don't like being restricted. I feel like I have an authority problem." This isn't natural defiance. It's what happens when someone who's spent years giving finally hits the wall. Her Dropouts podcast departure in mid-2024 is this behavior in action: the hot-take game format forced her to share opinions that could alienate the audience she'd spent years nurturing. She chose intimacy over reach. That's a Two who's learned that openness without limits gets you hurt.
 
 Twos in growth move toward [Type 4](/enneagram-corner/enneagram-type-4), accessing their authentic inner world, their willingness to be seen for who they _are_ rather than what they _give_. Her evolution into DJing and stand-up follows this arc exactly. You can't DJ someone else's taste or tell someone else's stories. "I don't care what everyone else likes. I want to play what I want." That's a Two discovering she's a person, not just a function.
@@ -190,7 +197,9 @@ Her Iranian identity surfaces in her content occasionally and intentionally, nev
 
 Her stand-up comedy inspirations are Maz Jobrani and Max Amini, both Iranian-American comedians, both specifically known for material about the Persian-American experience. Her own format (personal story times, self-deprecating, identity-adjacent) maps directly onto theirs. The "Selling Myself Short" title works because it's two jokes at once: the obvious one about being 4'11", and the quieter one about years of underselling herself. Stand-up is where the Persian girl who grew up fast in an American world gets to tell the story out loud.
 
-When asked about her role model, she didn't name an influencer or a businesswoman. She named Freddie Mercury. "He's Persian like me and is incredibly inspirational by being unapologetically himself, his whole life, even when people didn't agree with it." Mercury was technically Parsi, an Indian-born Zoroastrian sharing an ancient cultural lineage with Iranians but distinct from Persian in the geopolitical sense. She uses the word the way Iranian-Americans often do: as a civilizational claim, not a passport. But the more interesting thing is _which_ Iranian heritage she claimed. Not the rules of the household she grew up in. A queer, gender-bending rock frontman who hid nothing about who he was, even when the world pushed back. That's the part she's inheriting.
+When asked about her role model, she didn't name an influencer or a businesswoman. She named Freddie Mercury. "He's Persian like me and is incredibly inspirational by being unapologetically himself, his whole life, even when people didn't agree with it." Mercury was technically Parsi — an Indian-born Zoroastrian sharing an ancient civilizational lineage with Iranians but distinct from Persian in the geopolitical sense. She uses the word the way Iranian-Americans often do: as a civilizational claim, not a passport. But the more interesting thing is _which_ Iranian heritage she claimed. Not the rules of the household she grew up in — the academic expectations, the dating restrictions, the career path that didn't include the internet. A queer, gender-bending rock frontman who hid nothing about who he was, even when the world pushed back.
+
+Farrokh Bulsara was born in Zanzibar, raised in a tradition that would have condemned everything he became. He was an immigrant who invented himself anyway, in rooms full of strangers who didn't know what to make of him. He never got smaller for an audience — he made himself more. He performed at Wembley Stadium in front of 72,000 people and made the crowd adjust to him, not the other way around. That's the specific Mercury she's citing: not the Parsi bloodline (which is historically imprecise) but the principle — full presence, in every room, with every person, regardless of cost. Tara has been doing this since she was 19, walking into LA parties where she knew nobody. Mercury just named it.
 
 When asked to describe herself in three words, Tara chose: "Fun, Crazy, Short." Not confident. Not fearless. Not powerful. The kind of answer that keeps things light and keeps the real self tucked safely behind the performance.
 
@@ -204,10 +213,10 @@ She's 25 now. Nearly 10 million followers on TikTok, over 3 million on Instagram
 
 "I try not to let the numbers and attention affect me because if I think about it too much, I freak out," she admitted.
 
+She'd once written "30k" on a card and taped it to her mirror — her ceiling, the number where she thought she'd have made it. "If I had made 30,000 people smile in a day, even that's enough," she told Our Era Magazine. She kept the card long after the number became irrelevant, long after she'd built an audience thirty times that size. The ceiling she'd set for herself was still on her mirror when the floor had already risen past it.
+
 "You can't just sit there and bask in praise because it will humble you quickly," she told Cake The Mag. "Hate comes and goes, and so does love." She knows this the way Twos know it: not as a platitude, but as a fact about the economy of warmth she's been trading in since she was 19.
 
 "I hope that they remember how fun everything is," she said about her legacy. "I want people to remember me as someone super duper fun and try not to think about the bad things in life."
 
 The parties are just bigger now (festival stages, podcast studios, DJ booths at The Roxy) and the strangers number in the millions. But the instinct hasn't changed. She's still the girl walking into a room where she doesn't know anyone, making sure nobody else has to feel that way.
-
-The woman who tells the internet not to care has built her entire life around caring. The Tara Yummy Mindset isn't about indifference. It's the armor a Helper builds when the world keeps calling her warmth fake, and she keeps giving it anyway.

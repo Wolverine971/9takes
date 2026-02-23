@@ -233,6 +233,29 @@ The best blogs don't just analyze well — they're _written_ well. Personality a
 
 **The test for prose quality:** Read a paragraph out loud. If it sounds like a textbook, rewrite it. If it sounds like a story being told by someone who genuinely finds this person fascinating, keep it.
 
+## Internal Enneagram Knowledge Base (CRITICAL)
+
+When doing Enneagram analysis for a person, use the internal 9takes knowledge base before relying on external explainers.
+
+**Primary index file:** `/docs/development/enneagram-mental-health-blog-index.json`
+
+**Required internal research pass:**
+
+1. Read the index and shortlist the most relevant internal posts using `tags`, `description`, and `section`.
+2. Read at least **3-6 full internal posts** before finalizing the Enneagram hypothesis.
+3. Build an "internal lens brief" with:
+   - Core pattern(s) to test against the person
+   - Counter-patterns that could disconfirm the type
+   - Relevant lenses (stress response, relationships, communication, mental health, work style, wings/subtypes)
+4. Use this brief to sharpen your interpretation of external evidence.
+
+**Rules for using internal blogs:**
+
+- Use internal blogs to inform **psychological framing**, not as proof of facts about the person.
+- Pair every person-specific claim with external primary evidence (interviews, podcasts, books, direct quotes).
+- Synthesize in your own words. Do not copy phrasing from internal blogs.
+- In ambiguous typing cases, compare candidate types using internal contrast posts (types, wings, stress, communication, relationships, and mental-health guides).
+
 ---
 
 ## Gold-Standard Excerpts (Reference Material)
@@ -417,13 +440,13 @@ Add 2-5 strategic internal links per blog. Perform this automatically after draf
 
 1. **Celebrity Cross-Links** — If another celebrity is mentioned and we have a published blog, link to `/personality-analysis/[Person-Name]`
 2. **Enneagram Type Links** — Link mentions of other types to `/enneagram-corner/enneagram-type-X` (don't link the subject's own type)
-3. **Topical Blog Links** — Link to relevant published posts in `/src/blog/enneagram/`
+3. **Topical Blog Links** — Link to relevant internal Enneagram/mental-health posts using the internal index
 4. **External Research Citations** — Descriptive anchor text, not "click here"
 
 ### Finding Valid Link Targets:
 
 - **Celebrity blogs**: Read `src/lib/components/molecules/famousTypes.ts`. Entries with `link: true` are published and linkable at `/personality-analysis/[name]`. Do NOT use Supabase API calls for this — the file is the source of truth.
-- **Topical blogs**: Search `/src/blog/enneagram/` for files with `published: true` in frontmatter. Link as `/enneagram-corner/[slug]`.
+- **Topical blogs**: Start with `/docs/development/enneagram-mental-health-blog-index.json` to find relevant internal posts by topic tags, then use each entry's `route` directly for linking.
 
 ### Linking Rules:
 
@@ -641,6 +664,13 @@ If person exists, switch to the **Update Workflow** below.
 
 Use WebSearch to gather comprehensive information. Follow `/docs/blogs-famous-people/prep-prompt-1.md` for the research framework.
 
+**REQUIRED: Internal Enneagram library pass (before finalizing your research synthesis):**
+
+1. Read `/docs/development/enneagram-mental-health-blog-index.json`.
+2. Shortlist **6-12** internal posts relevant to this person's likely type and themes (e.g., stress, relationships, communication, childhood, career, anxiety/trauma patterns).
+3. Read at least **3-6** of those shortlisted posts in full.
+4. Produce an "internal lens brief" (pattern hypotheses + counter-hypotheses) that will be tested against external evidence.
+
 **Research focus areas:**
 
 - 5 strong positive contributions/accomplishments
@@ -685,6 +715,12 @@ Analyze across dimensions:
 - **Feelings**: Emotional patterns and responses
 - **Actions**: Behavioral patterns and habits
 - Examine stress (disintegration) and comfort (integration) states
+
+**Internal knowledge cross-check (REQUIRED):**
+
+- Validate your type call against the internal lens brief built from internal blogs.
+- Explicitly note which internal posts most informed the analysis (at least 3).
+- If external evidence conflicts with the internal lens, surface the conflict and resolve it transparently.
 
 **Core Tension Synthesis (REQUIRED):**
 
@@ -953,13 +989,18 @@ Found existing blog for [Person Name]. Choose an option:
    - **Fill existing gaps**: missing childhood context, underexplored relationships, undocumented career phases
    - **Direct quotes**: Pull specific quotes from their own words, attribute clearly
 
-3. **Analyze through Enneagram lens:**
+3. **Refresh internal Enneagram lens (REQUIRED):**
+   - Read `/docs/development/enneagram-mental-health-blog-index.json`
+   - Revisit at least **3** relevant internal posts for this person/type
+   - Use those frameworks to deepen interpretation of new evidence (not to replace person-specific sourcing)
+
+4. **Analyze through Enneagram lens:**
    - How do recent developments reflect core type patterns?
    - Signs of growth, integration, or stress across their life arc?
    - Consistency check: does new info align with established portrait?
    - Tone check: ensure analysis follows the tone guidelines in Part 1
 
-4. **Integration strategy (NOT replacement):**
+5. **Integration strategy (NOT replacement):**
    For each piece of new information, determine:
    - **Add**: Fills gaps or adds depth
    - **Update**: Needs factual corrections or current context
@@ -968,14 +1009,14 @@ Found existing blog for [Person Name]. Choose an option:
 
    **Default to preservation.** Only modify what genuinely needs updating.
 
-5. **Update the draft file** at `/src/blog/people/drafts/[Person-Name].md`:
+6. **Update the draft file** at `/src/blog/people/drafts/[Person-Name].md`:
    - Historical sections (upbringing, early career): only update with new information — never delete or shorten
    - Personality sections: add new examples, don't replace existing insights
    - Accomplishments: add recent ones, maintain order
    - TL;DR: only update if developments genuinely change the core summary
    - Update `lastmod` date
 
-6. **Holistic balance check (REQUIRED):**
+7. **Holistic balance check (REQUIRED):**
    - [ ] Blog covers entire life arc, not just recent events
    - [ ] Formative experiences and upbringing remain well-documented
    - [ ] Core personality patterns draw from multiple life phases
@@ -991,12 +1032,13 @@ Found existing blog for [Person Name]. Choose an option:
    - [ ] Subject's own words (direct quotes) are the dominant material, not paraphrase
    - [ ] Analysis is confident — not undermined by excessive hedging ("likely," "suggests," "appears to be")
    - [ ] Testimony from people around the subject is included (collaborators, friends, critics)
+   - [ ] Internal Enneagram library was consulted (index + at least 3 relevant internal posts)
 
    **If any check fails, revise before proceeding.**
 
-7. **Update internal links** per the Internal Linking Rules in Part 1.
+8. **Update internal links** per the Internal Linking Rules in Part 1.
 
-8. **When user says "push it up":** Run `node scripts/personBlogParser.js --changed [Person-Name]`, verify the row, then run `node scripts/generate-famous-types.js`.
+9. **When user says "push it up":** Run `node scripts/personBlogParser.js --changed [Person-Name]`, verify the row, then run `node scripts/generate-famous-types.js`.
 
 ### Manual Content Editing (Option 2)
 
@@ -1093,6 +1135,7 @@ When pushing to database, include this as the `content_quality` JSONB value on t
 - Writing template: `/docs/blogs-famous-people/writing-prompt-1.md`
 - Database schema: `/docs/blogs-famous-people/mcp-blogs-famous-people.md`
 - Published celebrities: `/src/lib/components/molecules/famousTypes.ts`
+- Enneagram internal index: `/docs/development/enneagram-mental-health-blog-index.json`
 - Brand voice guide: `/docs/brand/brand-style-guide-v2.md`
 - Celebrity optimization: `/docs/content-generation/celebrity-page-optimization-instructions.md`
 - **Blog furniture guide: `/docs/content-generation/blog-furniture-guide.md`** — Complete catalog of all visual elements, components, and structural patterns for blogs

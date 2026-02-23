@@ -1,0 +1,937 @@
+{
+	"generated_at": "2026-02-22T17:58:32.887Z",
+	"scope": "Published Enneagram and Enneagram-adjacent mental health posts",
+	"selection_rules": [
+		"Include markdown posts under src/blog with Enneagram or mental-health relevance",
+		"Exclude drafts and social/review variants (*.twitter.md, *.instagram.md, *.reddit.md, *.review.md)",
+		"Exclude unpublished posts and files missing title/url frontmatter"
+	],
+	"total_entries": 102,
+	"entries": [
+		{
+			"title": "Why MBTI Failed and What to Use Instead",
+			"description": "MBTI gave you a label and a job suggestion. The Enneagram gives you a growth map. Here is why the switch matters for your career, relationships, and self-awareness.",
+			"tags": ["enneagram", "community", "idea", "relationships", "career", "framework-comparison"],
+			"file_path": "src/blog/community/mbti-vs-enneagram.md",
+			"route": "/community/mbti-vs-enneagram",
+			"url": "https://9takes.com/community/mbti-vs-enneagram",
+			"section": "community"
+		},
+		{
+			"title": "The Enneagram Changed My Life, But I Learned to Shut Up About It",
+			"description": "Why enthusiasm for the Enneagram backfires, and the tactical approach to sharing without becoming that person who psychoanalyzes everyone at parties.",
+			"tags": ["enneagram", "community", "idea"],
+			"file_path": "src/blog/community/why-im-selective-sharing-enneagram.md",
+			"route": "/community/why-im-selective-sharing-enneagram",
+			"url": "https://9takes.com/community/why-im-selective-sharing-enneagram",
+			"section": "community"
+		},
+		{
+			"title": "The 90-Day Personality Maxing Blueprint: Transform Your Mind Like You Train Your Body",
+			"description": "A practical 90-day system to max your personality through perspective-taking, the Enneagram, and expert protocols from Brené Brown, Andrew Huberman, and Carl Jung. Physical exercise builds physical strength....",
+			"tags": ["enneagram", "development", "self-development"],
+			"file_path": "src/blog/enneagram/90-day-personality-maxing-blueprint.md",
+			"route": "/enneagram-corner/90-day-personality-maxing-blueprint",
+			"url": "https://9takes.com/enneagram-corner/90-day-personality-maxing-blueprint",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why Your Anxiety Is Different (And What Actually Works for Your Type)",
+			"description": "Your anxiety has a pattern. Discover how each Enneagram type experiences anxiety differently—and get practical strategies that actually work for your wiring.",
+			"tags": ["enneagram", "situational", "mental-health", "anxiety"],
+			"file_path": "src/blog/enneagram/anxiety-and-enneagram-types-guide.md",
+			"route": "/enneagram-corner/anxiety-and-enneagram-types-guide",
+			"url": "https://9takes.com/enneagram-corner/anxiety-and-enneagram-types-guide",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Astrology and Enneagram: Two Maps of the Same Territory",
+			"description": "Your zodiac sign tells you what influences you. Your Enneagram type tells you why you respond that way. Learn how to use both systems together for deeper self-knowledge.",
+			"tags": ["enneagram", "situational", "framework-comparison"],
+			"file_path": "src/blog/enneagram/astrology-and-the-enneagram.md",
+			"route": "/enneagram-corner/astrology-and-the-enneagram",
+			"url": "https://9takes.com/enneagram-corner/astrology-and-the-enneagram",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Attachment Styles and Enneagram Types: Why the Same Style Looks Different",
+			"description": "Discover how Enneagram types shape attachment styles. Learn why two anxiously attached people act differently and get type-specific strategies for earning secure attachment.",
+			"tags": ["enneagram", "relationships", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/attachment-styles-and-enneagram-types.md",
+			"route": "/enneagram-corner/attachment-styles-and-enneagram-types",
+			"url": "https://9takes.com/enneagram-corner/attachment-styles-and-enneagram-types",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Find Your Enneagram Type in 10 Minutes (4 Simple Steps)",
+			"description": "Skip the confusion. Discover your true Enneagram type with this proven 4-step method that focuses on motivations, not behaviors.",
+			"tags": ["enneagram", "resources", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md",
+			"route": "/enneagram-corner/beginners-guide-to-determining-your-enneagram-type",
+			"url": "https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How to Compliment Each Enneagram Type (Words That Actually Land)",
+			"description": "Generic compliments fall flat. Here's exactly what each Enneagram type secretly wants to hear—the words that make them feel truly seen and appreciated.",
+			"tags": ["enneagram", "situational", "communication"],
+			"file_path": "src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md",
+			"route": "/enneagram-corner/biggest-compliments-to-give-each-enneagram-type",
+			"url": "https://9takes.com/enneagram-corner/biggest-compliments-to-give-each-enneagram-type",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Depression Patterns by Enneagram Type: How Your Personality Shapes Your Mental Health",
+			"description": "How depression manifests differently across all 9 Enneagram types. Understand your unique patterns, triggers, and pathways to healing based on your personality type.",
+			"tags": ["enneagram", "mental-health", "depression"],
+			"file_path": "src/blog/enneagram/depression-patterns-by-enneagram-type.md",
+			"route": "/enneagram-corner/depression-patterns-by-enneagram-type",
+			"url": "https://9takes.com/enneagram-corner/depression-patterns-by-enneagram-type",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram and ADHD: Which Types Struggle Most (And Why)",
+			"description": "Do you have ADHD or is it just your personality? Discover how ADHD affects each Enneagram type differently, plus type-specific coping strategies that actually work.",
+			"tags": ["enneagram", "situational", "mental-health", "stress-management", "adhd"],
+			"file_path": "src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md",
+			"route": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+			"url": "https://9takes.com/enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
+			"description": "Explore each Enneagram type's mental health risks and shadow side in this guide on personality predispositions and coping mechanisms.",
+			"tags": ["enneagram", "situational", "mental-health", "stress-management"],
+			"file_path": "src/blog/enneagram/enneagram-and-mental-illness.md",
+			"route": "/enneagram-corner/enneagram-and-mental-illness",
+			"url": "https://9takes.com/enneagram-corner/enneagram-and-mental-illness",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Is the Enneagram Religious? (The Truth About Its Spiritual Origins)",
+			"description": "Some churches embrace it, others ban it. Here's the real story of the Enneagram's spiritual roots—from Sufism to Christianity to New Age—and whether it conflicts with your faith.",
+			"tags": ["enneagram", "overview", "framework-comparison"],
+			"file_path": "src/blog/enneagram/enneagram-and-religion.md",
+			"route": "/enneagram-corner/enneagram-and-religion",
+			"url": "https://9takes.com/enneagram-corner/enneagram-and-religion",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why Your Anxiety Doesn't Match Type 6 (Every Type Has Anxiety)",
+			"description": "Think only Type 6s are anxious? Wrong. Every Enneagram type has specific anxiety patterns. Find out why Type 1s panic about mistakes, Type 3s about failure, and why 'just breathe' doesn't work for your type.",
+			"tags": ["enneagram", "situational", "mental-health", "type-profiles", "anxiety"],
+			"file_path": "src/blog/enneagram/enneagram-anxiety-management-guide.md",
+			"route": "/enneagram-corner/enneagram-anxiety-management-guide",
+			"url": "https://9takes.com/enneagram-corner/enneagram-anxiety-management-guide",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Books, Websites, Podcasts & Influencers",
+			"description": "The definitive guide to Enneagram resources: 60+ vetted books, podcasts, YouTube channels, apps, certification programs, and online communities for every learning style.",
+			"tags": ["enneagram", "resources", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/enneagram-books-websites-podcasts.md",
+			"route": "/enneagram-corner/enneagram-books-websites-podcasts",
+			"url": "https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "9 Childhood Stereotypes Based on the Enneagram",
+			"description": "Rediscovering Your Childhood Through the Enneagram Lens: A Journey Back in Time",
+			"tags": ["enneagram", "situational", "parenting"],
+			"file_path": "src/blog/enneagram/enneagram-childhood-stereotypes.md",
+			"route": "/enneagram-corner/enneagram-childhood-stereotypes",
+			"url": "https://9takes.com/enneagram-corner/enneagram-childhood-stereotypes",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Coach Toolkit: Transform Clients with Type-Specific Homework",
+			"description": "Master the art of Enneagram coaching with proven homework strategies that create breakthroughs. Decode each type's patterns and unlock real transformation.",
+			"tags": ["enneagram", "resources", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/enneagram-coach-toolkit.md",
+			"route": "/enneagram-corner/enneagram-coach-toolkit",
+			"url": "https://9takes.com/enneagram-corner/enneagram-coach-toolkit",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Communication Guide: Decode Any Personality Type in Seconds",
+			"description": "Stop miscommunication disasters. Decode each Enneagram type's exact communication patterns and speak their emotional language for instant connection.",
+			"tags": ["enneagram", "development", "communication", "stress-management"],
+			"file_path": "src/blog/enneagram/enneagram-communication-guide.md",
+			"route": "/enneagram-corner/enneagram-communication-guide",
+			"url": "https://9takes.com/enneagram-corner/enneagram-communication-guide",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why Nobody Understands You (It's Your Enneagram Speaking)",
+			"description": "Every misunderstanding is a translation problem. Decode the 9 hidden communication languages and finally understand why your message keeps getting lost.",
+			"tags": ["enneagram", "development", "communication"],
+			"file_path": "src/blog/enneagram/enneagram-communication-styles.md",
+			"route": "/enneagram-corner/enneagram-communication-styles",
+			"url": "https://9takes.com/enneagram-corner/enneagram-communication-styles",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "What to Say to Each Enneagram Type (Scripts That Actually Work)",
+			"description": "Stop guessing what to say. Get word-for-word scripts for reaching each Enneagram type in tough conversations, conflict, and everyday moments.",
+			"tags": ["enneagram", "development", "communication"],
+			"file_path": "src/blog/enneagram/enneagram-communication-tips.md",
+			"route": "/enneagram-corner/enneagram-communication-tips",
+			"url": "https://9takes.com/enneagram-corner/enneagram-communication-tips",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Compatibility: Why Charts Lie and What Actually Predicts Success",
+			"description": "Forget best/worst match lists. Research on 457 couples reveals what actually predicts relationship success—and it has nothing to do with type compatibility percentages.",
+			"tags": ["enneagram", "relationships", "compatibility"],
+			"file_path": "src/blog/enneagram/enneagram-compatibility-guide.md",
+			"route": "/enneagram-corner/enneagram-compatibility-guide",
+			"url": "https://9takes.com/enneagram-corner/enneagram-compatibility-guide",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "The Complete Enneagram Compatibility Matrix: All 81 Type Combinations Decoded",
+			"description": "Discover relationship compatibility for all 81 Enneagram pairings. Understand attraction patterns, conflict triggers, and growth potential for every type combination with practical relationship advice.",
+			"tags": ["enneagram", "relationships", "compatibility"],
+			"file_path": "src/blog/enneagram/enneagram-compatibility-matrix.md",
+			"route": "/enneagram-corner/enneagram-compatibility-matrix",
+			"url": "https://9takes.com/enneagram-corner/enneagram-compatibility-matrix",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Concepts: Your Personality, Unpacked and Decoded",
+			"description": "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth.",
+			"tags": ["enneagram", "overview", "self-development", "enneagram-theory"],
+			"file_path": "src/blog/enneagram/enneagram-concepts.md",
+			"route": "/enneagram-corner/enneagram-concepts",
+			"url": "https://9takes.com/enneagram-corner/enneagram-concepts",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Connecting Lines: The Hidden Dynamics of Growth and Stress Patterns",
+			"description": "Discover how the Enneagram's connecting lines reveal your transformation during growth and stress phases - with real-world examples for all 9 types",
+			"tags": ["enneagram", "overview", "stress-management", "enneagram-theory"],
+			"file_path": "src/blog/enneagram/enneagram-connecting-lines.md",
+			"route": "/enneagram-corner/enneagram-connecting-lines",
+			"url": "https://9takes.com/enneagram-corner/enneagram-connecting-lines",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "The Enneagram Under Fire: Addressing Common Criticisms & Misconceptions",
+			"description": "Discover thoughtful responses to the top criticisms of the Enneagram personality system - from scientific validity concerns to stereotyping fears and beyond.",
+			"tags": ["enneagram", "overview", "enneagram-theory"],
+			"file_path": "src/blog/enneagram/enneagram-criticisms.md",
+			"route": "/enneagram-corner/enneagram-criticisms",
+			"url": "https://9takes.com/enneagram-corner/enneagram-criticisms",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Dating Guide for Men: Type-Specific Strategies That Actually Work",
+			"description": "Discover how your Enneagram type shapes your dating style, blind spots, and path to authentic connection. Science-backed strategies for each of the 9 personality types.",
+			"tags": ["enneagram", "relationships", "framework-comparison", "dating"],
+			"file_path": "src/blog/enneagram/enneagram-dating-guide-for-men.md",
+			"route": "/enneagram-corner/enneagram-dating-guide-for-men",
+			"url": "https://9takes.com/enneagram-corner/enneagram-dating-guide-for-men",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Dating Guide for Women: Decode Your Perfect Match Formula",
+			"description": "Stop dating the wrong way for your personality. Decode your Enneagram type's exact dating formula with tactical strategies that attract the right people.",
+			"tags": ["enneagram", "relationships", "dating"],
+			"file_path": "src/blog/enneagram/enneagram-dating-guide-for-women.md",
+			"route": "/enneagram-corner/enneagram-dating-guide-for-women",
+			"url": "https://9takes.com/enneagram-corner/enneagram-dating-guide-for-women",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Is the Enneagram Real? 27 Questions Everyone Asks (Finally Answered)",
+			"description": "Get straight answers about the Enneagram personality system. From \"Is it scientific?\" to \"Can my type change?\" - everything skeptics and beginners need to know.",
+			"tags": ["enneagram", "overview", "enneagram-theory"],
+			"file_path": "src/blog/enneagram/enneagram-faqs.md",
+			"route": "/enneagram-corner/enneagram-faqs",
+			"url": "https://9takes.com/enneagram-corner/enneagram-faqs",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Who Built the Enneagram? The Mystics, Psychiatrists, and Philosophers Behind the System",
+			"description": "The Enneagram has no single creator. Trace its lineage from Sufi mystics to Chilean psychiatrists and discover why each tradition matters for how you use it today.",
+			"tags": ["enneagram", "overview", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/enneagram-influences.md",
+			"route": "/enneagram-corner/enneagram-influences",
+			"url": "https://9takes.com/enneagram-corner/enneagram-influences",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why You Don't Fully Match Your Enneagram Type (It's Your Subtype)",
+			"description": "Same Enneagram type, completely different people? That's because of instinctual subtypes. Discover whether you're Self-Preservation, Social, or One-to-One—and why it changes everything about your type.",
+			"tags": ["enneagram", "overview", "enneagram-theory", "social-dynamics", "subtypes"],
+			"file_path": "src/blog/enneagram/enneagram-instinctual-subtypes.md",
+			"route": "/enneagram-corner/enneagram-instinctual-subtypes",
+			"url": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Leadership Styles: Why Your Natural Approach Keeps Backfiring",
+			"description": "Each Enneagram type has a leadership superpower that becomes their fatal flaw when overused. Find your blind spot and the specific fix that works for your type.",
+			"tags": ["enneagram", "workplace", "leadership", "career"],
+			"file_path": "src/blog/enneagram/enneagram-leadership.md",
+			"route": "/enneagram-corner/enneagram-leadership",
+			"url": "https://9takes.com/enneagram-corner/enneagram-leadership",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Mental Health Red Flags: Early Warning Signs for All 9 Types",
+			"description": "Recognize mental health warning signs by Enneagram type. Learn type-specific red flags, somatic symptoms, and exactly when to seek help for yourself or loved ones.",
+			"tags": ["enneagram", "situational", "mental-health", "relationships"],
+			"file_path": "src/blog/enneagram/enneagram-mental-health-flags.md",
+			"route": "/enneagram-corner/enneagram-mental-health-flags",
+			"url": "https://9takes.com/enneagram-corner/enneagram-mental-health-flags",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Parenting Styles: Why You Parent the Way You Do (And What Your Kids Need You to Know)",
+			"description": "Your parenting struggles aren't random—they're rooted in your Enneagram type. Discover your parenting superpowers, triggers, and blind spots, plus practical tools to break the cycle.",
+			"tags": ["enneagram", "situational", "parenting"],
+			"file_path": "src/blog/enneagram/enneagram-parenting-styles.md",
+			"route": "/enneagram-corner/enneagram-parenting-styles",
+			"url": "https://9takes.com/enneagram-corner/enneagram-parenting-styles",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How to Throw a Party Everyone Actually Wants to Attend",
+			"description": "The secret to a great party? Knowing what makes each personality type say yes. Here are the exact invites and setups that work for all 9 types.",
+			"tags": ["enneagram", "situational", "social-dynamics"],
+			"file_path": "src/blog/enneagram/enneagram-party-planner.md",
+			"route": "/enneagram-corner/enneagram-party-planner",
+			"url": "https://9takes.com/enneagram-corner/enneagram-party-planner",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Personal Growth: Unlock Your Type's Hidden Potential",
+			"description": "Decode your Enneagram type's growth path with tactical strategies. Transform weaknesses into strengths using personality-maxing techniques that actually work.",
+			"tags": ["enneagram", "development", "self-development"],
+			"file_path": "src/blog/enneagram/enneagram-personal-growth.md",
+			"route": "/enneagram-corner/enneagram-personal-growth",
+			"url": "https://9takes.com/enneagram-corner/enneagram-personal-growth",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "The Voice in Your Head: Master Positive Self-Talk for Your Enneagram Type",
+			"description": "Decode your inner critic's patterns and transform negative self-talk into type-specific affirmations that actually work. Practical scripts for each Enneagram type.",
+			"tags": ["enneagram", "development", "self-development"],
+			"file_path": "src/blog/enneagram/enneagram-positive-self-talk.md",
+			"route": "/enneagram-corner/enneagram-positive-self-talk",
+			"url": "https://9takes.com/enneagram-corner/enneagram-positive-self-talk",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Self Development: Transform Your Personality Into Your Superpower",
+			"description": "Master Enneagram self development with type-specific growth strategies. Learn how your personality type shapes your healing journey, shadow work, and path to authentic transformation.",
+			"tags": ["enneagram", "development", "self-development"],
+			"file_path": "src/blog/enneagram/enneagram-self-development.md",
+			"route": "/enneagram-corner/enneagram-self-development",
+			"url": "https://9takes.com/enneagram-corner/enneagram-self-development",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Your Type's Fatal Flaw (And Secret Superpower) Based on Enneagram",
+			"description": "Every type has a fatal flaw that sabotages success and a hidden superpower others wish they had. Find out why Type 1s self-destruct through perfectionism, why Type 7s can't focus, and what your type's kryptonite really...",
+			"tags": ["enneagram", "development", "type-profiles"],
+			"file_path": "src/blog/enneagram/enneagram-strengths-and-weaknesses.md",
+			"route": "/enneagram-corner/enneagram-strengths-and-weaknesses",
+			"url": "https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Your Dark Side Has a Number (And It's About to Ruin Your Day)",
+			"description": "Discover why you transform into someone else under stress. Learn the 9 predictable patterns of breakdown and how to catch yourself before you snap.",
+			"tags": ["enneagram", "overview", "stress-management"],
+			"file_path": "src/blog/enneagram/enneagram-stress-number.md",
+			"route": "/enneagram-corner/enneagram-stress-number",
+			"url": "https://9takes.com/enneagram-corner/enneagram-stress-number",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why Your Team Keeps Having the Same Ideas (And How the Enneagram Fixes It)",
+			"description": "Stop hiring people you click with. Build teams that actually think differently using the Enneagram triads.",
+			"tags": ["enneagram", "workplace", "career"],
+			"file_path": "src/blog/enneagram/enneagram-team-diversity.md",
+			"route": "/enneagram-corner/enneagram-team-diversity",
+			"url": "https://9takes.com/enneagram-corner/enneagram-team-diversity",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Team Dynamics: The Complete Guide to High-Performance Teams",
+			"description": "Master team dynamics with Enneagram insights. Discover how different type combinations work together, resolve conflicts, and create unstoppable workplace synergy.",
+			"tags": ["enneagram", "workplace", "career"],
+			"file_path": "src/blog/enneagram/enneagram-team-dynamics.md",
+			"route": "/enneagram-corner/enneagram-team-dynamics",
+			"url": "https://9takes.com/enneagram-corner/enneagram-team-dynamics",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Best Free Enneagram Test (2025): Which One Actually Works?",
+			"description": "Most Enneagram tests are garbage—too short, outdated, or designed to sell you something. Here's an honest comparison of the best free and paid tests, ranked by accuracy and value.",
+			"tags": ["enneagram", "overview", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/enneagram-test-comparison-2025.md",
+			"route": "/enneagram-corner/enneagram-test-comparison-2025",
+			"url": "https://9takes.com/enneagram-corner/enneagram-test-comparison-2025",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "What's My Enneagram Type? (The 5-Minute Answer You Actually Need)",
+			"description": "Stop taking 40-minute tests. Find your Enneagram type in 5 minutes by matching your core fear and motivation. All 9 types explained with the ONE question that reveals yours instantly.",
+			"tags": ["enneagram", "overview", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/enneagram-tldr.md",
+			"route": "/enneagram-corner/enneagram-tldr",
+			"url": "https://9takes.com/enneagram-corner/enneagram-tldr",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Type 1: The Perfectionist - Inside the Inner Courtroom",
+			"description": "Can't shake the feeling that nothing (including you) is ever good enough? That's Type 1. Learn why you can't stop criticizing, where the inner judge came from, and how to finally silence it.",
+			"tags": ["enneagram", "nine-types", "type-profiles", "type-1"],
+			"file_path": "src/blog/enneagram/enneagram-type-1.md",
+			"route": "/enneagram-corner/enneagram-type-1",
+			"url": "https://9takes.com/enneagram-corner/enneagram-type-1",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Type 2: The Helper - The Hidden Cost of Giving",
+			"description": "Feel guilty every time you prioritize yourself? That's Type 2. Learn why you can't say no, why helping feels mandatory, and how to stop giving until you're empty.",
+			"tags": ["enneagram", "nine-types", "type-profiles", "type-2"],
+			"file_path": "src/blog/enneagram/enneagram-type-2.md",
+			"route": "/enneagram-corner/enneagram-type-2",
+			"url": "https://9takes.com/enneagram-corner/enneagram-type-2",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Type 3: The Achiever - When Success Becomes Identity",
+			"description": "Can't stop achieving even when you're exhausted? That's Type 3. Learn why success feels like a trap, why you can't slow down, and what you're really running from.",
+			"tags": ["enneagram", "nine-types", "type-profiles", "type-3"],
+			"file_path": "src/blog/enneagram/enneagram-type-3.md",
+			"route": "/enneagram-corner/enneagram-type-3",
+			"url": "https://9takes.com/enneagram-corner/enneagram-type-3",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Type 4: The Individualist - The Search for the Missing Piece",
+			"description": "You feel things others don't. You notice absences they never see. This isn't a flaw. This is the territory of Type 4, where depth is currency and authenticity is survival.",
+			"tags": ["enneagram", "nine-types", "type-profiles", "type-4"],
+			"file_path": "src/blog/enneagram/enneagram-type-4.md",
+			"route": "/enneagram-corner/enneagram-type-4",
+			"url": "https://9takes.com/enneagram-corner/enneagram-type-4",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Type 5: The Observer - Inside the Fortress Mind",
+			"description": "Feel drained by people and crave constant alone time? That's Type 5. Learn why social interaction feels depleting, why you need to withdraw to recharge, and what you're really protecting.",
+			"tags": ["enneagram", "nine-types", "type-profiles", "social-dynamics", "type-5"],
+			"file_path": "src/blog/enneagram/enneagram-type-5.md",
+			"route": "/enneagram-corner/enneagram-type-5",
+			"url": "https://9takes.com/enneagram-corner/enneagram-type-5",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Type 6: The Loyalist - The Search for Solid Ground",
+			"description": "Can't quiet the 'what if' spiral even when everything's fine? That's Type 6. Learn why your mind catastrophizes, why trust feels impossible, and how to stop worst-case thinking.",
+			"tags": ["enneagram", "nine-types", "type-profiles", "type-6"],
+			"file_path": "src/blog/enneagram/enneagram-type-6.md",
+			"route": "/enneagram-corner/enneagram-type-6",
+			"url": "https://9takes.com/enneagram-corner/enneagram-type-6",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Type 7: The Enthusiast - The Possibility Engine",
+			"description": "Can't stop planning the next adventure before finishing this one? That's Type 7. Learn why stillness feels threatening, why you chase possibilities endlessly, and how to find depth in the present.",
+			"tags": ["enneagram", "nine-types", "mental-health", "type-profiles", "type-7"],
+			"file_path": "src/blog/enneagram/enneagram-type-7.md",
+			"route": "/enneagram-corner/enneagram-type-7",
+			"url": "https://9takes.com/enneagram-corner/enneagram-type-7",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Type 8: The Challenger",
+			"description": "Can't let people close because vulnerability feels dangerous? That's Type 8. Learn why you need control, why softness feels like weakness, and what your armor is protecting.",
+			"tags": ["enneagram", "nine-types", "type-profiles", "type-8"],
+			"file_path": "src/blog/enneagram/enneagram-type-8.md",
+			"route": "/enneagram-corner/enneagram-type-8",
+			"url": "https://9takes.com/enneagram-corner/enneagram-type-8",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Type 9: The Peacemaker - Finding Your Voice",
+			"description": "Feel like you disappear to keep everyone comfortable? You're not alone. Explore how Type 9s navigate the world, why harmony matters so deeply, and how to honor your own voice too.",
+			"tags": ["enneagram", "nine-types", "type-profiles", "type-9"],
+			"file_path": "src/blog/enneagram/enneagram-type-9.md",
+			"route": "/enneagram-corner/enneagram-type-9",
+			"url": "https://9takes.com/enneagram-corner/enneagram-type-9",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why You Hate Your Job (It's Not the Boss—It's Your Enneagram Type)",
+			"description": "Stuck in the wrong career? Your Enneagram type reveals why you're miserable at work and exactly what jobs will actually make you thrive. Find your perfect career match based on your core motivations, not just your...",
+			"tags": ["enneagram", "workplace", "career"],
+			"file_path": "src/blog/enneagram/enneagram-types-and-career-choices.md",
+			"route": "/enneagram-corner/enneagram-types-and-career-choices",
+			"url": "https://9takes.com/enneagram-corner/enneagram-types-and-career-choices",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "The Party Test: What Your Social Style Reveals About Your Type",
+			"description": "Watch someone for 10 minutes at a party and know their Enneagram type. The kitchen helper, the networker, the corner philosopher—which one are you?",
+			"tags": ["enneagram", "situational", "social-dynamics"],
+			"file_path": "src/blog/enneagram/enneagram-types-at-party.md",
+			"route": "/enneagram-corner/enneagram-types-at-party",
+			"url": "https://9takes.com/enneagram-corner/enneagram-types-at-party",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why They Ghosted You (Based on Their Enneagram Type)",
+			"description": "They disappeared without explanation and you need to know why. Each Enneagram type ghosts for specific reasons. Learn what triggered their vanishing act and how your type processes the abandonment.",
+			"tags": ["enneagram", "situational", "relationships", "social-dynamics"],
+			"file_path": "src/blog/enneagram/enneagram-types-being-ghosted.md",
+			"route": "/enneagram-corner/enneagram-types-being-ghosted",
+			"url": "https://9takes.com/enneagram-corner/enneagram-types-being-ghosted",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How Each Enneagram Type Loves (And Why It Goes Wrong)",
+			"description": "Discover the hidden patterns driving your relationship dynamics. From Type 1s perfecting love to Type 9s disappearing into it.",
+			"tags": ["enneagram", "relationships", "type-profiles"],
+			"file_path": "src/blog/enneagram/enneagram-types-in-relationships.md",
+			"route": "/enneagram-corner/enneagram-types-in-relationships",
+			"url": "https://9takes.com/enneagram-corner/enneagram-types-in-relationships",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How Each Type Falls Apart (Your Stress Breakdown Pattern)",
+			"description": "Watch yourself unravel under pressure and don't understand why? That's your type's stress pattern. Learn how each Enneagram type breaks down, what triggers their collapse, and how to stop the spiral.",
+			"tags": ["enneagram", "situational", "stress-management"],
+			"file_path": "src/blog/enneagram/enneagram-types-in-stress.md",
+			"route": "/enneagram-corner/enneagram-types-in-stress",
+			"url": "https://9takes.com/enneagram-corner/enneagram-types-in-stress",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Types on a First Date: What to Expect",
+			"description": "Discover what each Enneagram type thinks, feels, and values on a first date - plus red flags and green flags to watch for.",
+			"tags": ["enneagram", "relationships", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/enneagram-types-on-a-first-date.md",
+			"route": "/enneagram-corner/enneagram-types-on-a-first-date",
+			"url": "https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram Types Working in Teams",
+			"description": "Unlock the power of Enneagram types in teamwork. Learn how each type communicates, collaborates, and contributes to team success",
+			"tags": ["enneagram", "workplace", "career"],
+			"file_path": "src/blog/enneagram/enneagram-types-working-in-teams.md",
+			"route": "/enneagram-corner/enneagram-types-working-in-teams",
+			"url": "https://9takes.com/enneagram-corner/enneagram-types-working-in-teams",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram vs Myers-Briggs: Which Actually Explains You Better?",
+			"description": "INTJ or Type 5? ENFP or Type 7? Here's the difference between MBTI and the Enneagram, and when each one gives you the insight you're actually looking for.",
+			"tags": ["enneagram", "resources", "type-profiles", "framework-comparison"],
+			"file_path": "src/blog/enneagram/enneagram-vs-meyers-briggs.md",
+			"route": "/enneagram-corner/enneagram-vs-meyers-briggs",
+			"url": "https://9takes.com/enneagram-corner/enneagram-vs-meyers-briggs",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "The Enneagram's Place in Personality Science: What We Know, What We Don't, and What Surprised Us",
+			"description": "104 empirical studies. 75% classification accuracy. Published evidence of advancing psychological maturity. But also real gaps. Here's an honest, evidence-based assessment of where the Enneagram actually stands in...",
+			"tags": ["enneagram", "overview", "framework-comparison"],
+			"file_path": "src/blog/enneagram/enneagram-vs-personality-frameworks-comparison.md",
+			"route": "/enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+			"url": "https://9takes.com/enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why You Don't Match Your Enneagram Description (It's Your Wing)",
+			"description": "Confused why you don't fit your type perfectly? Your wing explains everything. Find out if you're 4w3 or 4w5, 6w5 or 6w7, and why it changes everything about your personality.",
+			"tags": ["enneagram", "overview", "enneagram-theory", "wings"],
+			"file_path": "src/blog/enneagram/enneagram-wings-complete-guide.md",
+			"route": "/enneagram-corner/enneagram-wings-complete-guide",
+			"url": "https://9takes.com/enneagram-corner/enneagram-wings-complete-guide",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Transforming Workplace Teams Using Enneagram: A Leader's Guide to Personality-Driven Collaboration",
+			"description": "Unlock the secret language of your team with Enneagram personality insights. Learn actionable strategies to resolve conflicts, boost productivity, and create a workplace where every personality type thrives.",
+			"tags": ["enneagram", "workplace", "career"],
+			"file_path": "src/blog/enneagram/enneagram-workplace-team-building.md",
+			"route": "/enneagram-corner/enneagram-workplace-team-building",
+			"url": "https://9takes.com/enneagram-corner/enneagram-workplace-team-building",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram First Impression Cheat Sheet: Instant Connection Guide",
+			"description": "A printable, bookmarkable quick-reference card deck for making meaningful connections with each Enneagram type. Essential approaches, power questions, and key tips for authentic first impressions.",
+			"tags": ["enneagram", "situational", "practical", "social-dynamics"],
+			"file_path": "src/blog/enneagram/first-impression-cheat-sheet.md",
+			"route": "/enneagram-corner/first-impression-cheat-sheet",
+			"url": "https://9takes.com/enneagram-corner/first-impression-cheat-sheet",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Read Anyone in 30 Seconds: The Enneagram Body Language Cheat Sheet",
+			"description": "Stop guessing what people want. Learn the 9 personality tells that reveal exactly how to connect with anyone instantly—from job interviews to first dates.",
+			"tags": ["enneagram", "situational", "relationships"],
+			"file_path": "src/blog/enneagram/first-impression-enneagram-playbook.md",
+			"route": "/enneagram-corner/first-impression-enneagram-playbook",
+			"url": "https://9takes.com/enneagram-corner/first-impression-enneagram-playbook",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How All 9 Enneagram Types Flex: Revealing Each Type's Secret Need for Recognition",
+			"description": "Discover the unique ways each Enneagram type shows off their strengths and craves recognition in everyday interactions",
+			"tags": ["enneagram", "situational", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/how-each-enneagram-flexes.md",
+			"route": "/enneagram-corner/how-each-enneagram-flexes",
+			"url": "https://9takes.com/enneagram-corner/how-each-enneagram-flexes",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How Each Enneagram Type Manipulates (And How to Spot It)",
+			"description": "Everyone manipulates sometimes. Your Enneagram type has a specific playbook. Learn to recognize manipulation, in others and in yourself. And what to do about it.",
+			"tags": ["enneagram", "situational", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/how-each-enneagram-type-manipulates.md",
+			"route": "/enneagram-corner/how-each-enneagram-type-manipulates",
+			"url": "https://9takes.com/enneagram-corner/how-each-enneagram-type-manipulates",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How Each Enneagram Type Self-Sabotages Success (And How to Stop)",
+			"description": "You're smart. You work hard. So why do you keep hitting the same walls? Discover your Enneagram type's specific self-sabotage pattern and how to break it.",
+			"tags": ["enneagram", "situational", "stress-management"],
+			"file_path": "src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md",
+			"route": "/enneagram-corner/how-each-enneagram-type-self-sabotages-success",
+			"url": "https://9takes.com/enneagram-corner/how-each-enneagram-type-self-sabotages-success",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How Each Enneagram Type Unwinds: Decode Your Perfect Stress-Relief Formula",
+			"description": "Stop fake relaxation. Decode your Enneagram type's exact unwinding formula with tactical strategies that actually recharge your specific personality.",
+			"tags": ["enneagram", "situational", "stress-management"],
+			"file_path": "src/blog/enneagram/how-each-enneagram-type-unwinds.md",
+			"route": "/enneagram-corner/how-each-enneagram-type-unwinds",
+			"url": "https://9takes.com/enneagram-corner/how-each-enneagram-type-unwinds",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How to Apologize Like a Pro: The Enneagram Guide to Authentic Apologies",
+			"description": "Master the art of apologizing based on your Enneagram type. Learn why different personality types struggle with apologies and discover personalized strategies for making genuine amends.",
+			"tags": ["enneagram", "relationship-skills", "relationships"],
+			"file_path": "src/blog/enneagram/how-to-apologize-like-a-pro.md",
+			"route": "/enneagram-corner/how-to-apologize-like-a-pro",
+			"url": "https://9takes.com/enneagram-corner/how-to-apologize-like-a-pro",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why You Keep Sabotaging New Relationships (Your Enneagram Knows)",
+			"description": "Discover the hidden patterns destroying your dating life. Type-specific strategies to stop self-sabotage and build authentic connections from the start.",
+			"tags": ["enneagram", "relationships", "stress-management"],
+			"file_path": "src/blog/enneagram/how-to-navigate-early-relationship-stages.md",
+			"route": "/enneagram-corner/how-to-navigate-early-relationship-stages",
+			"url": "https://9takes.com/enneagram-corner/how-to-navigate-early-relationship-stages",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "How Type 8 Challengers Actually Succeed (It's Not What You Think)",
+			"description": "Every famous Type 8 grinded. None of them broke through by grinding alone. The 6 patterns that actually produced their breakthroughs, from Bezos to MLK to Rihanna.",
+			"tags": ["enneagram", "situational", "type-profiles"],
+			"file_path": "src/blog/enneagram/how-type-8-challengers-actually-succeed.md",
+			"route": "/enneagram-corner/how-type-8-challengers-actually-succeed",
+			"url": "https://9takes.com/enneagram-corner/how-type-8-challengers-actually-succeed",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Love Languages & Enneagram Types: The Ultimate Compatibility Guide (2025)",
+			"description": "Discover how your Enneagram type shapes your love language. Complete guide to 45 personality + love language combinations with relationship tips that actually work.",
+			"tags": ["enneagram", "relationships", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/love-languages-and-enneagram-types.md",
+			"route": "/enneagram-corner/love-languages-and-enneagram-types",
+			"url": "https://9takes.com/enneagram-corner/love-languages-and-enneagram-types",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Enneagram and Addiction: Understanding Each Type's Escape Patterns",
+			"description": "Discover how each Enneagram type develops specific addictions, from substances to behaviors. Learn recovery strategies tailored to your personality type.",
+			"tags": ["enneagram", "mental-health", "addiction"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.md",
+			"route": "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide",
+			"section": "mental-health"
+		},
+		{
+			"title": "Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety Pattern)",
+			"description": "Think anxiety is just a Type 6 thing? Wrong. Every Enneagram type has a unique anxiety pattern that sabotages them differently. Discover your type's hidden anxiety triggers and the exact coping strategies that actually...",
+			"tags": ["enneagram", "mental-health", "stress-management", "type-profiles", "anxiety"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-anxiety-complete-guide.md",
+			"route": "/enneagram-corner/mental-health/enneagram-anxiety-complete-guide",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-anxiety-complete-guide",
+			"section": "mental-health"
+		},
+		{
+			"title": "Crisis Management by Enneagram Type: Your Emergency Mental Health Toolkit",
+			"description": "Learn immediate interventions for each Enneagram type in crisis, including suicide prevention strategies, emergency coping tools, and how to help others.",
+			"tags": ["enneagram", "mental-health", "stress-management", "resources"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md",
+			"route": "/enneagram-corner/mental-health/enneagram-crisis-management-guide",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-crisis-management-guide",
+			"section": "mental-health"
+		},
+		{
+			"title": "The Enneagram Guide to Medication and Mental Health",
+			"description": "Understand how each Enneagram type responds to psychiatric medications, common fears, and strategies for working with psychiatrists based on personality type.",
+			"tags": ["enneagram", "mental-health", "medication"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-medication-mental-health.md",
+			"route": "/enneagram-corner/mental-health/enneagram-medication-mental-health",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-medication-mental-health",
+			"section": "mental-health"
+		},
+		{
+			"title": "Enneagram and Neurodivergence: When Personality Meets Brain Wiring",
+			"description": "Explore how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type. Learn accommodations and strategies for thriving.",
+			"tags": ["enneagram", "mental-health", "neurodivergence"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md",
+			"route": "/enneagram-corner/mental-health/enneagram-neurodivergence-guide",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide",
+			"section": "mental-health"
+		},
+		{
+			"title": "The Enneagram Parent's Guide to Children's Mental Health",
+			"description": "Learn to recognize early mental health warning signs in children based on their Enneagram type. Build resilience and know when to seek help.",
+			"tags": ["enneagram", "mental-health", "parenting"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md",
+			"route": "/enneagram-corner/mental-health/enneagram-parenting-mental-health",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-parenting-mental-health",
+			"section": "mental-health"
+		},
+		{
+			"title": "Is the Enneagram Scientifically Valid? (What the Research Actually Says)",
+			"description": "Skeptical about the Enneagram? Here's what peer-reviewed research, neuroscience studies, and clinical evidence actually say about its validity—the good, the bad, and the limitations.",
+			"tags": ["enneagram", "mental-health", "framework-comparison"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-science-mental-health.md",
+			"route": "/enneagram-corner/mental-health/enneagram-science-mental-health",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-science-mental-health",
+			"section": "mental-health"
+		},
+		{
+			"title": "The Enneagram Guide to Therapy: Which Approach Actually Works for Your Type",
+			"description": "Your Enneagram type predicts how you will sabotage therapy. Find the modality that cuts through your defenses, from CBT to somatic work.",
+			"tags": ["enneagram", "mental-health", "therapy"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-therapy-guide.md",
+			"route": "/enneagram-corner/mental-health/enneagram-therapy-guide",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide",
+			"section": "mental-health"
+		},
+		{
+			"title": "Enneagram Types and Trauma Response: Understanding Your Survival Patterns",
+			"description": "Explore how each Enneagram type processes trauma differently through fight, flight, freeze, and fawn responses. Discover healing pathways tailored to your personality type.",
+			"tags": ["enneagram", "mental-health", "trauma"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md",
+			"route": "/enneagram-corner/mental-health/enneagram-trauma-response-guide",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-trauma-response-guide",
+			"section": "mental-health"
+		},
+		{
+			"title": "Enneagram and Workplace Mental Health: Preventing Burnout by Type",
+			"description": "Learn how each Enneagram type experiences workplace stress and burnout. Discover type-specific strategies for maintaining mental health at work.",
+			"tags": ["enneagram", "mental-health", "career", "stress-management", "workplace"],
+			"file_path": "src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md",
+			"route": "/enneagram-corner/mental-health/enneagram-workplace-mental-health",
+			"url": "https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-mental-health",
+			"section": "mental-health"
+		},
+		{
+			"title": "Neurodiversity vs. Personality: Stop Looking for Labels, Start Looking Inward",
+			"description": "Cut through the TikTok trends and discover why the Enneagram beats diagnostic labels for real self-understanding. No fluff, just truth about personality vs. brain differences.",
+			"tags": ["enneagram", "situational", "neurodiversity"],
+			"file_path": "src/blog/enneagram/neurodiversity-vs-personality.md",
+			"route": "/enneagram-corner/neurodiversity-vs-personality",
+			"url": "https://9takes.com/enneagram-corner/neurodiversity-vs-personality",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why People Overshare: The Psychology of Shame, Boundaries, and Safe Spaces",
+			"description": "When someone overshares, they're processing shame out loud. When you label it 'oversharing,' you're drawing a boundary. Here's what's really happening on both sides.",
+			"tags": ["enneagram", "situational", "social-dynamics"],
+			"file_path": "src/blog/enneagram/oversharing-psychology-shame-boundaries.md",
+			"route": "/enneagram-corner/oversharing-psychology-shame-boundaries",
+			"url": "https://9takes.com/enneagram-corner/oversharing-psychology-shame-boundaries",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Personality Maxing: The Complete Guide to Optimizing Who You Are",
+			"description": "Personality maxing is deliberate personality development. Learn how knowing your similarities and differences builds real charisma, then use the Enneagram to deepen self-knowledge and social intelligence.",
+			"tags": ["enneagram", "situational", "self-development", "social-dynamics"],
+			"file_path": "src/blog/enneagram/personality-maxing.md",
+			"route": "/enneagram-corner/personality-maxing",
+			"url": "https://9takes.com/enneagram-corner/personality-maxing",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Philosophy and Psychology Gave Birth to the Enneagram",
+			"description": "Dive into the Enneagram's roots in philosophy and psychology. Explore how Plato and Freud's theories align with the Enneagram's intelligence centers.",
+			"tags": ["enneagram", "overview", "framework-comparison"],
+			"file_path": "src/blog/enneagram/philosophy-psychology-and-the-enneagram.md",
+			"route": "/enneagram-corner/philosophy-psychology-and-the-enneagram",
+			"url": "https://9takes.com/enneagram-corner/philosophy-psychology-and-the-enneagram",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Red Flags You Are Dating Each Enneagram Type (And What to Do)",
+			"description": "Is your partner's behavior a red flag or just their personality? Discover the warning signs for each Enneagram type, why they happen, and what to do about them.",
+			"tags": ["enneagram", "situational", "relationships", "dating"],
+			"file_path": "src/blog/enneagram/red-flags-dating-each-enneagram-type.md",
+			"route": "/enneagram-corner/red-flags-dating-each-enneagram-type",
+			"url": "https://9takes.com/enneagram-corner/red-flags-dating-each-enneagram-type",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Relationship Communication Guide: The Enneagram Key to Understanding Your Partner",
+			"description": "Learn how each Enneagram type communicates in relationships and discover practical strategies for deeper connection and fewer misunderstandings",
+			"tags": ["enneagram", "relationships", "communication"],
+			"file_path": "src/blog/enneagram/relationship-communication-guide.md",
+			"route": "/enneagram-corner/relationship-communication-guide",
+			"url": "https://9takes.com/enneagram-corner/relationship-communication-guide",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Shadow Work by Enneagram Type: Your Dark Side Has a Pattern",
+			"description": "Your shadow is shaped by your Enneagram type. Discover type-specific shadow patterns, triggers, and integration practices that actually work for your personality.",
+			"tags": ["enneagram", "shadow-work", "personal-growth", "self-development"],
+			"file_path": "src/blog/enneagram/shadow-work-by-enneagram-type.md",
+			"route": "/enneagram-corner/shadow-work-by-enneagram-type",
+			"url": "https://9takes.com/enneagram-corner/shadow-work-by-enneagram-type",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "The Stress Paradox: Why Your Emotional Patterns Outlast Every Situation",
+			"description": "Your stress triggers change. Your emotional reactions rarely do. Learn why your responses follow predictable patterns and how to break the cycle.",
+			"tags": ["enneagram", "development", "stress-management"],
+			"file_path": "src/blog/enneagram/situations-change-emotions-dont.md",
+			"route": "/enneagram-corner/situations-change-emotions-dont",
+			"url": "https://9takes.com/enneagram-corner/situations-change-emotions-dont",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "9 Toxic Personality Traits: The Hidden Dark Side of Each Enneagram Type",
+			"description": "Discover the shadow aspects hiding in each personality type, why they emerge, and how to deal with them in yourself and others.",
+			"tags": ["enneagram", "situational", "personality", "self-awareness"],
+			"file_path": "src/blog/enneagram/toxic-traits-of-each-enneagram-type.md",
+			"route": "/enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"url": "https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
+			"description": "That charming quirk is now driving you insane. Here's how to spot when each Enneagram type turns toxic in relationships—and when to walk away before it gets worse.",
+			"tags": ["enneagram", "situational", "relationships"],
+			"file_path": "src/blog/enneagram/toxic-traits-relationships-warning-signs.md",
+			"route": "/enneagram-corner/toxic-traits-relationships-warning-signs",
+			"url": "https://9takes.com/enneagram-corner/toxic-traits-relationships-warning-signs",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why Dating Apps Are Harder for Certain Personality Types",
+			"description": "Dating apps aren't designed for everyone. Discover how the swipe-based, algorithm-driven format systematically fails certain Enneagram types, and what to do about it.",
+			"tags": ["enneagram", "situational", "relationships", "dating"],
+			"file_path": "src/blog/enneagram/why-dating-apps-are-harder-for-certain-personality-types.md",
+			"route": "/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"url": "https://9takes.com/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
+			"description": "17 famous Type 7s studied. Every one chased the next thing. None of them found fulfillment until they stopped. The 7 patterns that actually unlocked what they were searching for.",
+			"tags": ["enneagram", "situational", "type-profiles"],
+			"file_path": "src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md",
+			"route": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+			"url": "https://9takes.com/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why Therapy Doesn't Work the Same for Every Personality Type",
+			"description": "Therapy wasn't designed for everyone. The talking cure assumes you process emotions through words — but what if your brain works differently? Here's why the system fails certain types.",
+			"tags": ["enneagram", "situational", "mental-health", "therapy"],
+			"file_path": "src/blog/enneagram/why-therapy-doesnt-work-the-same-for-every-type.md",
+			"route": "/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type",
+			"url": "https://9takes.com/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Why You Can't Stop Overthinking (Your Enneagram Type Explains It)",
+			"description": "It's 3 AM and your brain won't stop. Generic advice doesn't work because different types overthink differently. Discover your specific thought loop and how to interrupt it.",
+			"tags": ["enneagram", "situational", "mental-health"],
+			"file_path": "src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md",
+			"route": "/enneagram-corner/why-you-cant-stop-overthinking-enneagram",
+			"url": "https://9takes.com/enneagram-corner/why-you-cant-stop-overthinking-enneagram",
+			"section": "enneagram-corner"
+		},
+		{
+			"title": "Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage Love (and the Fix)",
+			"description": "A type-by-type dating guide: what you are drawn to, how you sabotage connection, and a 30-day plan to build healthier love.",
+			"tags": ["enneagram", "guides", "relationships", "dating"],
+			"file_path": "src/blog/guides/dating-dynamics-by-enneagram-type.md",
+			"route": "/how-to-guides/dating-dynamics-by-enneagram-type",
+			"url": "https://9takes.com/how-to-guides/dating-dynamics-by-enneagram-type",
+			"section": "guides"
+		},
+		{
+			"title": "Productivity Systems by Enneagram Type: Work With Your Personality, Not Against It",
+			"description": "Discover the perfect productivity system for your Enneagram type. Stop forcing methods that don't fit and start working with your natural patterns.",
+			"tags": ["enneagram", "guides", "personality", "self-awareness"],
+			"file_path": "src/blog/guides/productivity-systems-by-enneagram-type.md",
+			"route": "/how-to-guides/productivity-systems-by-enneagram-type",
+			"url": "https://9takes.com/how-to-guides/productivity-systems-by-enneagram-type",
+			"section": "guides"
+		},
+		{
+			"title": "The Enneagram and Self-Development: A Guide to Personal Growth",
+			"description": "Discover how the Enneagram can transform your self-development journey. Learn to avoid common pitfalls and leverage your type for personal growth and success.",
+			"tags": ["enneagram", "guides", "self-development"],
+			"file_path": "src/blog/guides/using-the-enneagram-for-self-development.md",
+			"route": "/how-to-guides/using-the-enneagram-for-self-development",
+			"url": "https://9takes.com/how-to-guides/using-the-enneagram-for-self-development",
+			"section": "guides"
+		},
+		{
+			"title": "Dark Triad Meets Enneagram: How Each Type Goes Wrong",
+			"description": "How narcissism, psychopathy, and Machiavellianism manifest through each Enneagram type. From Nixon's image-obsessed Type 3 to Dahmer's clinical Type 5 detachment.",
+			"tags": ["enneagram", "pop-culture", "situational", "type-profiles"],
+			"file_path": "src/blog/pop-culture/dark-triad-meets-enneagram.md",
+			"route": "/pop-culture/dark-triad-meets-enneagram",
+			"url": "https://9takes.com/pop-culture/dark-triad-meets-enneagram",
+			"section": "pop-culture"
+		},
+		{
+			"title": "The Blackpill Pipeline: How Shame, Rejection, and Anger Radicalize Young Men",
+			"description": "Inside the psychology of incel radicalization through the Enneagram lens. Why the blackpill ideology spreads, what emotional patterns drive it, and what it reveals about modern masculinity's crisis.",
+			"tags": ["enneagram", "pop-culture", "situational", "mental-health", "stress-management"],
+			"file_path": "src/blog/pop-culture/incel-blackpill-radicalization-enneagram.md",
+			"route": "/pop-culture/incel-blackpill-radicalization-enneagram",
+			"url": "https://9takes.com/pop-culture/incel-blackpill-radicalization-enneagram",
+			"section": "pop-culture"
+		},
+		{
+			"title": "Parasocial Relationships: Why Each Enneagram Type Forms Them",
+			"description": "Why do you feel emotionally connected to someone who doesn't know you exist? Your Enneagram type explains your parasocial relationship patterns with celebrities and influencers.",
+			"tags": [
+				"enneagram",
+				"pop-culture",
+				"situational",
+				"relationships",
+				"stress-management",
+				"social-dynamics"
+			],
+			"file_path": "src/blog/pop-culture/parasocial-relationships-enneagram-type.md",
+			"route": "/pop-culture/parasocial-relationships-enneagram-type",
+			"url": "https://9takes.com/pop-culture/parasocial-relationships-enneagram-type",
+			"section": "pop-culture"
+		}
+	]
+}
