@@ -77,7 +77,7 @@ displayList={[
 speed={30}
 />
 
-## Type 1: The Perfectionist's Anxiety {#type-1}
+## Type 1: The Perfectionist's Anxiety
 
 It's 11pm and you've rewritten the same email four times. Not because it's wrong. The first draft was fine. But "fine" isn't good enough. You can feel the tension in your jaw, that familiar tightness across your shoulders. You know you should go to sleep. Instead, you read it one more time.
 
@@ -97,7 +97,7 @@ Beyond the exercise: Acceptance and Commitment Therapy (ACT) approaches work par
 
 ---
 
-## Type 2: The Helper's Anxiety {#type-2}
+## Type 2: The Helper's Anxiety
 
 Two anxiety is sneaky because it doesn't look like anxiety. It looks like caring. Checking in on everyone, anticipating needs before they're expressed, saying yes to things that drain you because saying no feels like abandonment.
 
@@ -117,7 +117,7 @@ This exercise is small but radical for a Two. Other strategies: practice saying 
 
 ---
 
-## Type 3: The Achiever's Anxiety {#type-3}
+## Type 3: The Achiever's Anxiety
 
 2am. Presentation is tomorrow. You've rehearsed it five times and it's solid — you know it's solid. But you run through it again anyway, because anything less than a standing ovation feels like exposure. Not failure, exactly. Something worse: people seeing that you're ordinary.
 
@@ -143,7 +143,7 @@ Other strategies: practice present-moment awareness during tasks instead of ment
   />
 </a>
 
-## Type 4: The Individualist's Anxiety {#type-4}
+## Type 4: The Individualist's Anxiety
 
 Try this right now: **Name what you're feeling. Just the emotion. No story, no explanation, no poetry.** "Sad." "Anxious." "Restless." That's it.
 
@@ -165,7 +165,7 @@ The key for Fours: **presence without production.** You don't need to make meani
 
 ---
 
-## Type 5: The Investigator's Anxiety {#type-5}
+## Type 5: The Investigator's Anxiety
 
 You got invited to a dinner party. Six people you barely know, unstructured conversation, no escape plan. Your first thought isn't "that sounds fun" — it's mental math. How much energy will this cost? How long before you can leave? What if they ask personal questions?
 
@@ -189,7 +189,7 @@ This works for Fives because it frames embodiment as investigation rather than v
 
 ---
 
-## Type 6: The Loyalist's Anxiety {#type-6}
+## Type 6: The Loyalist's Anxiety
 
 Yes, Type 6 does have a special relationship with anxiety. Let's be honest about that.
 
@@ -218,7 +218,7 @@ Beyond the exercise: graduated exposure to ambiguity builds tolerance over time.
   speed={35}
 />
 
-## Type 7: The Enthusiast's Anxiety {#type-7}
+## Type 7: The Enthusiast's Anxiety
 
 Here's the paradox: Sevens look like the least anxious type. Always moving, always planning the next adventure, always reframing negatives into positives. Optimism personified.
 
@@ -240,7 +240,7 @@ This works for Sevens because it doesn't ask you to suffer. It asks you to stop 
 
 ---
 
-## Type 8: The Challenger's Anxiety {#type-8}
+## Type 8: The Challenger's Anxiety
 
 You're in a meeting and someone makes a decision without consulting you. Not a big decision. Not even one that affects you directly. But your chest tightens, your jaw sets, and something in you shifts from neutral to combat-ready in about half a second.
 
@@ -262,7 +262,7 @@ For Eights: redefine strength. Vulnerability isn't the opposite of power; it's a
 
 ---
 
-## Type 9: The Peacemaker's Anxiety {#type-9}
+## Type 9: The Peacemaker's Anxiety
 
 Your partner asks "What do you want for dinner?" and somehow this simple question sends a ripple of something uncomfortable through your chest. Not because you don't have a preference, but because stating one feels dangerous. What if they disagree? What if it causes friction? Easier to say "whatever you want."
 
