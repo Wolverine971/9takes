@@ -65,7 +65,6 @@ declare global {
 		};
 		gtag: (...args: unknown[]) => void;
 		dataLayer?: unknown[];
-		clarity: (...args: unknown[]) => void;
 	}
 
 	namespace svelteHTML {

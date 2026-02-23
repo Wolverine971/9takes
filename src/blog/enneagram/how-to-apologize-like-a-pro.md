@@ -50,15 +50,18 @@ The Enneagram maps these patterns with uncomfortable accuracy. Once you see your
 
 ### What Makes an Apology Work?
 
-Effective apologies contain five essential elements:
+[Research from Ohio State University](https://news.osu.edu/the-6-elements-of-an-effective-apology-according-to-science/) studied over 750 people and found that effective apologies have six components, ranked by how much they actually matter:
 
-1. **Acknowledgment** - Clearly stating what you did wrong
-2. **Responsibility** - Owning your actions without deflection
-3. **Empathy** - Demonstrating you understand the impact
-4. **Action** - Committing to specific changes
-5. **Request** - Asking for forgiveness (not demanding it)
+1. **Acknowledgment of responsibility** - The most important element by far. Own what you did.
+2. **Offer of repair** - Commit to specific changes or actions.
+3. **Expression of regret** - Show genuine remorse, not just obligation.
+4. **Explanation** - Help them understand what happened (without making excuses).
+5. **Declaration of repentance** - Promise it won't happen again.
+6. **Request for forgiveness** - Surprisingly, the least effective component on its own.
 
-But here's where it gets interesting: **Each Enneagram type naturally excels at some elements while completely botching others.**
+The key finding: **you can stumble through the delivery, but if you don't clearly own what you did, nothing else lands.**
+
+Here's where it gets interesting for Enneagram types: **each type naturally excels at some of these components while completely botching others.**
 
 ### The Apology Paradox
 

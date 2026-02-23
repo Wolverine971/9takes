@@ -7,7 +7,6 @@
 	type AnalyticsWindow = Window & {
 		dataLayer?: unknown[];
 		gtag?: (...args: unknown[]) => void;
-		clarity?: (...args: unknown[]) => void;
 		[key: string]: unknown;
 	};
 
@@ -31,25 +30,6 @@
 
 			gtag('js', new Date());
 			gtag('config', PUBLIC_GOOGLE);
-
-			// Load Microsoft Clarity
-			if (document.URL.includes('9takes')) {
-				(function (c: AnalyticsWindow, l: Document, a: string, r: string, i: string) {
-					if (typeof c[a] !== 'function') {
-						const queue: unknown[][] = [];
-						c[a] = (...args: unknown[]) => {
-							queue.push(args);
-						};
-						(c[a] as ((...args: unknown[]) => void) & { q?: unknown[][] }).q = queue;
-					}
-
-					const t = l.createElement(r) as HTMLScriptElement;
-					t.async = true;
-					t.src = 'https://www.clarity.ms/tag/' + i;
-					const y = l.getElementsByTagName(r)[0];
-					y.parentNode?.insertBefore(t, y);
-				})(window as unknown as AnalyticsWindow, document, 'clarity', 'script', 'g3hw5t1scg');
-			}
 		}
 	}
 
@@ -72,7 +52,6 @@
 <svelte:head>
 	{#if !dev}
 		<link rel="preconnect" href="https://www.googletagmanager.com" />
-		<link rel="preconnect" href="https://www.clarity.ms" />
 		<link rel="preconnect" href="https://app.posthog.com" />
 	{/if}
 </svelte:head>

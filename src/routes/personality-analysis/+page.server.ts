@@ -5,13 +5,15 @@ import { error } from '@sveltejs/kit';
 import type { Database } from '../../../database.types';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
-type PersonPost = FamousPersonRow & { slug: string };
+type PersonPost = Pick<FamousPersonRow, 'person' | 'enneagram' | 'lastmod' | 'date'> & {
+	slug: string;
+};
 
 export const load: PageServerLoad = async ({ locals }) => {
 	const supabase = locals.supabase;
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
-		.select('*')
+		.select('person,enneagram,lastmod,date')
 		.eq('published', true);
 	if (personDataError) {
 		console.log(personDataError);

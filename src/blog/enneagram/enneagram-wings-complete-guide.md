@@ -4,7 +4,7 @@ description: "Confused why you don't fit your type perfectly? Your wing explains
 author: 'DJ Wayne'
 date: '2025-08-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-wings-complete-guide'
-lastmod: '2026-02-22'
+lastmod: '2026-02-23'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -123,8 +123,6 @@ Ask yourself: "When I'm being most myself - not performing or adapting - what se
 
 Not: "What do I sometimes do?"
 But: "What feels like a natural extension of who I am?"
-
-Understanding wings is crucial for accurately reading people. Master [the complete guide to psychoanalyzing personalities](/how-to-guides/how-to-psychoanalyze-people) to spot these subtle wing influences that reveal someone's true motivations.
 
 ## The 18 Wing Combinations: Deep Dive Analysis
 
@@ -1011,56 +1009,6 @@ Understanding wings transforms how you navigate relationships. (For foundational
 - **Risk:** 4 may feel like their core uniqueness isn't seen
 - **Opportunity:** 3 can help 4 achieve their creative goals
 
-## Wing Development and Growth
-
-Your wing isn't just a personality description - it's a growth tool:
-
-### Integration Through Wing Work
-
-Each wing offers specific growth opportunities:
-
-**For 1w9:**
-
-- Use 9's perspective to reduce harsh self-criticism
-- Practice 9's acceptance while maintaining 1's standards
-- Learn when to let go vs. when to push for excellence
-
-**For 7w6:**
-
-- Use 6's loyalty to deepen commitments
-- Practice 6's preparation to balance 7's spontaneity
-- Build security while maintaining enthusiasm
-
-### Wing-Specific Practices
-
-**5w4 Development:**
-
-- Share your insights (don't hoard knowledge)
-- Express emotions through creative outlets
-- Balance solitude with meaningful connection
-
-**2w1 Development:**
-
-- Set boundaries around helping
-- Help in ways that maintain your integrity
-- Address your own needs with the same care you give others
-
-### Red Flags: Unhealthy Wing Expression
-
-Watch for these warning signs:
-
-**Unhealthy 6w7:**
-
-- Manic activity to avoid anxiety
-- Over-commitment leading to burnout
-- Surface-level connections that lack depth
-
-**Unhealthy 3w4:**
-
-- Depression about inauthentic success
-- Identity crisis between image and truth
-- Moody performance that confuses others
-
 ## Wings in Professional Settings
 
 Understanding wings dramatically improves workplace dynamics:
@@ -1350,14 +1298,6 @@ Growing understanding of how trauma affects wing development ties into broader [
 - Healing allows natural wing expression to emerge
 - Wings provide resilience resources during difficult times
 
-### Wing Flexibility
-
-Evidence that healthy individuals can:
-
-- Access both wings more fluidly
-- Develop wing-switching skills for different contexts
-- Use wing awareness for conscious personality adaptation
-
 ## The Ultimate Wing Truth
 
 Your wing isn't just a personality detail - it's a doorway to wholeness.
@@ -1395,7 +1335,7 @@ Because in the end, you're not just a number with an add-on. You're a unique hum
     "name": "DJ Wayne"
   },
   "datePublished": "2025-08-16",
-  "dateModified": "2026-02-22",
+  "dateModified": "2026-02-23",
   "publisher": {
     "@type": "Organization",
     "name": "9takes",
@@ -1440,7 +1380,7 @@ Because in the end, you're not just a number with an add-on. You're a unique hum
       "name": "Can I have both wings or no wing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, everyone has one dominant wing. While you can access qualities from both adjacent types, one will be stronger and more consistent. Wings don't change based on mood - your access to them does. You cannot be a 'balanced wing' or have no wing."
+        "text": "Most teachers say you have one dominant wing, though some argue balanced wings are possible. What's clear: one adjacent type usually influences you more consistently, especially under stress. Wings don't change based on mood - your access to them does."
       }
     },
     {

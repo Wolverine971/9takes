@@ -207,7 +207,7 @@ Here's the landscape, honestly drawn:
 | **MBTI**             | 0.88-0.92 (scores)  | Thousands | **No**                  | No                   | No                |
 | **Enneagram (iEQ9)** | 0.73-0.84           | ~137+     | Not studied             | **Yes**              | **Yes**           |
 | **DISC**             | 0.82-0.89           | Limited   | No                      | No                   | No                |
-| **CliftonStrengths** | <50% adequate       | Limited   | Partial                 | No                   | No                |
+| **CliftonStrengths** | &lt;50% adequate    | Limited   | Partial                 | No                   | No                |
 | **Reiss Profile**    | 0.74-0.92           | Moderate  | Limited                 | **Yes**              | No                |
 
 Two columns matter most for positioning: **Measures Motivation** and **Has Growth Model**. The Enneagram is the only framework that checks both boxes.

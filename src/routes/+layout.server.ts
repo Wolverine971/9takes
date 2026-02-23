@@ -5,9 +5,12 @@ import { logger } from '$lib/utils/logger';
 type ParentCategory = { id: number; category_name: string; level: number };
 
 export const load: LayoutServerLoad = async (event) => {
-	const { data: adminSettings, error: adminSettingsError } = await event.locals.supabase
+	const { data: demoSetting, error: adminSettingsError } = await event.locals.supabase
 		.from('admin_settings')
-		.select('*');
+		.select('value')
+		.eq('type', 'demo_time')
+		.limit(1)
+		.maybeSingle();
 
 	if (adminSettingsError) {
 		logger.warn('Failed to load admin_settings in layout', adminSettingsError);
@@ -33,7 +36,7 @@ export const load: LayoutServerLoad = async (event) => {
 		}
 	}
 
-	const demo_time = adminSettings?.filter((setting) => setting.type === 'demo_time')[0]?.value;
+	const demo_time = demoSetting?.value;
 	const session = event.locals.session;
 	const user = event.locals.user;
 

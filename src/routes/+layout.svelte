@@ -372,21 +372,6 @@
 				document.head.appendChild(script);
 			}
 
-			// Initialize Microsoft Clarity - deferred
-			if (document.URL.includes('9takes')) {
-				window.clarity =
-					window.clarity ||
-					function (...args: unknown[]) {
-						((window.clarity as unknown as { q: unknown[][] }).q =
-							(window.clarity as unknown as { q: unknown[][] }).q || []).push(args);
-					};
-				const clarityScript = document.createElement('script');
-				clarityScript.async = true;
-				clarityScript.src = 'https://www.clarity.ms/tag/g3hw5t1scg';
-				const firstScript = document.getElementsByTagName('script')[0];
-				firstScript?.parentNode?.insertBefore(clarityScript, firstScript);
-			}
-
 			// Initialize Web Vitals
 			if (VERCEL_ANALYTICS_ID) {
 				webVitals({
@@ -528,7 +513,6 @@
 	{#if !dev}
 		<!-- Use dns-prefetch instead of preconnect for lighter initial load -->
 		<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-		<link rel="dns-prefetch" href="https://www.clarity.ms" />
 	{/if}
 </svelte:head>
 

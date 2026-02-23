@@ -1061,7 +1061,14 @@
 			"WebFetch(domain:theplantnews.com)",
 			"WebFetch(domain:www.podcastworld.io)",
 			"WebFetch(domain:www.barstoolsports.com)",
-			"WebFetch(domain:metacast.app)"
+			"WebFetch(domain:metacast.app)",
+			"WebFetch(domain:gptzero.me)",
+			"WebFetch(domain:embryo.com)",
+			"WebFetch(domain:www.humanizeai.io)",
+			"WebFetch(domain:hastewire.com)",
+			"WebFetch(domain:walterwrites.ai)",
+			"WebFetch(domain:blog.frohrer.com)",
+			"WebFetch(domain:detector-checker.ai)"
 		],
 		"deny": [],
 		"ask": [],

@@ -6,7 +6,9 @@ import { error } from '@sveltejs/kit';
 import type { Database } from '../../../../../database.types';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
-type PersonPost = FamousPersonRow & { slug: string };
+type PersonPost = Pick<FamousPersonRow, 'person' | 'enneagram' | 'title' | 'date' | 'lastmod'> & {
+	slug: string;
+};
 
 export const load: PageServerLoad = async ({
 	params,
@@ -17,7 +19,7 @@ export const load: PageServerLoad = async ({
 
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
-		.select('*')
+		.select('person,enneagram,title,date,lastmod')
 		.eq('published', true)
 		.eq('enneagram', slug);
 
@@ -26,7 +28,7 @@ export const load: PageServerLoad = async ({
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const posts: FamousPersonRow[] = personData ?? [];
+	const posts: PersonPost[] = personData ?? [];
 
 	// const posts: any = await getAllPosts(slug);
 	const publishedPosts: PersonPost[] = posts.map((e) => {
