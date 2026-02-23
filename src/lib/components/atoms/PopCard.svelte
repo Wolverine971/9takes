@@ -22,6 +22,7 @@
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let interval: ReturnType<typeof setInterval> | null = null;
 	let showDescription = false;
+	let isTouchDevice = false;
 
 	// Generate a unique ID for the text animation
 	const namePopId = Math.random().toString(36).substring(2);
@@ -146,9 +147,19 @@
 	role="button"
 	tabindex="0"
 	on:mouseover={() => scramble && startTextScramble()}
-	on:mouseenter={() => (showDescription = true)}
+	on:mouseenter={() => {
+		if (!isTouchDevice) showDescription = true;
+	}}
 	on:focus={() => (showDescription = true)}
-	on:mouseleave={() => (showDescription = false)}
+	on:mouseleave={() => {
+		if (!isTouchDevice) showDescription = false;
+	}}
+	on:touchstart={() => {
+		isTouchDevice = true;
+	}}
+	on:click={() => {
+		if (isTouchDevice) showDescription = !showDescription;
+	}}
 >
 	<!-- Responsive image with proper loading attributes -->
 	{#if priority}

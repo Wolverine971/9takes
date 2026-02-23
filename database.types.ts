@@ -3366,6 +3366,20 @@ export type Database = {
         Args: { p_from_date?: string; p_scope?: string; p_to_date?: string }
         Returns: Json
       }
+      get_page_analytics_page_timeseries: {
+        Args: {
+          p_from_date?: string
+          p_path: string
+          p_scope?: string
+          p_to_date?: string
+        }
+        Returns: {
+          avg_time_on_page_ms: number
+          day: string
+          unique_visitors: number
+          visits: number
+        }[]
+      }
       get_page_analytics_pages: {
         Args: {
           p_from_date?: string
@@ -3373,6 +3387,52 @@ export type Database = {
           p_offset?: number
           p_scope?: string
           p_search?: string
+          p_to_date?: string
+        }
+        Returns: {
+          anonymous_visits: number
+          authenticated_visits: number
+          avg_time_on_page_ms: number
+          bounce_rate: number
+          content_type: string
+          median_time_on_page_ms: number
+          path: string
+          path_group: string
+          total_rows: number
+          unique_visitors: number
+          visits: number
+        }[]
+      }
+      get_page_analytics_pages_by_duration: {
+        Args: {
+          p_from_date?: string
+          p_limit?: number
+          p_min_visits?: number
+          p_scope?: string
+          p_to_date?: string
+        }
+        Returns: {
+          anonymous_visits: number
+          authenticated_visits: number
+          avg_time_on_page_ms: number
+          bounce_rate: number
+          content_type: string
+          median_time_on_page_ms: number
+          path: string
+          path_group: string
+          unique_visitors: number
+          visits: number
+        }[]
+      }
+      get_page_analytics_pages_sorted: {
+        Args: {
+          p_from_date?: string
+          p_limit?: number
+          p_offset?: number
+          p_scope?: string
+          p_search?: string
+          p_sort_by?: string
+          p_sort_dir?: string
           p_to_date?: string
         }
         Returns: {
@@ -3397,6 +3457,20 @@ export type Database = {
           avg_time_on_page_ms: number
           day: string
           unique_visitors: number
+          visits: number
+        }[]
+      }
+      get_page_analytics_top_pages_timeseries: {
+        Args: {
+          p_from_date?: string
+          p_scope?: string
+          p_to_date?: string
+          p_top_n?: number
+        }
+        Returns: {
+          day: string
+          path: string
+          path_group: string
           visits: number
         }[]
       }

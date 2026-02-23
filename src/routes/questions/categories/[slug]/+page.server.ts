@@ -14,7 +14,7 @@ export const load: PageServerLoad = async (event) => {
 	if (session?.user?.id) {
 		const { data: questions, error: questionsError } = await supabase
 			.from(demo_time === true ? 'questions_demo' : 'questions')
-			.select('*')
+			.select('id')
 			.eq('author_id', session?.user?.id)
 			.eq('removed', false)
 			.gte('created_at', new Date(new Date().getTime() - 24 * 60 * 60 * 1000).toISOString())
@@ -54,7 +54,7 @@ export const load: PageServerLoad = async (event) => {
 
 	const { data: questionTag, error: questionTagError } = await supabase
 		.from('question_categories')
-		.select(`*`)
+		.select('category_name')
 		.eq('category_name', slug)
 		.single();
 

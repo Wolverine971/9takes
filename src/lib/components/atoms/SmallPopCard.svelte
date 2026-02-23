@@ -17,6 +17,7 @@
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let interval: ReturnType<typeof setInterval> | undefined;
 	let showDescription = false;
+	let isTouchDevice = false;
 	let innerWidth = 0;
 
 	const namePopId = Math.random().toString(36).substring(2);
@@ -123,10 +124,29 @@
 	role="button"
 	tabindex="0"
 	on:mouseover={() => scramble && startTextScramble()}
-	on:mouseenter={() => (showDescription = true)}
+	on:mouseenter={() => {
+		if (!isTouchDevice) showDescription = true;
+	}}
 	on:focus={() => (showDescription = true)}
-	on:mouseleave={() => (showDescription = false)}
-	on:click={() => goto(link)}
+	on:mouseleave={() => {
+		if (!isTouchDevice) showDescription = false;
+	}}
+	on:touchstart={() => {
+		isTouchDevice = true;
+	}}
+	on:click={() => {
+		if (isTouchDevice) {
+			if (!showDescription) {
+				showDescription = true;
+				return;
+			} else {
+				showDescription = false;
+				goto(link);
+				return;
+			}
+		}
+		goto(link);
+	}}
 	on:keydown={(event) => {
 		if (event.key === 'Enter') goto(link);
 	}}

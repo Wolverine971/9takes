@@ -21,7 +21,22 @@ interface AnalyticsPagesRow {
 const querySchema = z.object({
 	page: z.coerce.number().int().min(1).default(1),
 	limit: z.coerce.number().int().min(1).max(200).default(50),
-	search: z.string().max(200).optional().default('')
+	search: z.string().max(200).optional().default(''),
+	sortBy: z
+		.enum([
+			'path',
+			'path_group',
+			'content_type',
+			'visits',
+			'unique_visitors',
+			'authenticated_visits',
+			'anonymous_visits',
+			'avg_time_on_page_ms',
+			'median_time_on_page_ms',
+			'bounce_rate'
+		])
+		.default('visits'),
+	sortDir: z.enum(['asc', 'desc']).default('desc')
 });
 
 function parseDate(value: string | null): string | undefined {
@@ -67,24 +82,28 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	const parsedQuery = querySchema.safeParse({
 		page: url.searchParams.get('page') ?? '1',
 		limit: url.searchParams.get('limit') ?? '50',
-		search: url.searchParams.get('search') ?? ''
+		search: url.searchParams.get('search') ?? '',
+		sortBy: url.searchParams.get('sortBy') ?? 'visits',
+		sortDir: url.searchParams.get('sortDir') ?? 'desc'
 	});
 
 	if (!parsedQuery.success) {
 		throw error(400, 'Invalid pagination parameters');
 	}
 
-	const { page, limit, search } = parsedQuery.data;
+	const { page, limit, search, sortBy, sortDir } = parsedQuery.data;
 	const offset = (page - 1) * limit;
 
 	const supabaseAny = locals.supabase as any;
-	const { data, error: rpcError } = await supabaseAny.rpc('get_page_analytics_pages', {
+	const { data, error: rpcError } = await supabaseAny.rpc('get_page_analytics_pages_sorted', {
 		p_from_date: fromDate,
 		p_to_date: toDate,
 		p_scope: scope,
 		p_search: search || null,
 		p_limit: limit,
-		p_offset: offset
+		p_offset: offset,
+		p_sort_by: sortBy,
+		p_sort_dir: sortDir
 	});
 
 	if (rpcError) {
@@ -115,6 +134,10 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			page,
 			limit,
 			totalPages: Math.max(1, Math.ceil(total / limit))
+		},
+		sorting: {
+			sortBy,
+			sortDir
 		}
 	});
 };

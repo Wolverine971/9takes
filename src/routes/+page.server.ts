@@ -9,47 +9,35 @@ export interface FamousPerson {
 	personaTitle: string | null;
 }
 
-export interface FamousBlogPerson {
-	person: string;
-	enneagram: number;
-	description?: string | null;
-	lastmod?: string | null;
+interface TopQuestion {
+	url: string | null;
+	question_formatted: string | null;
+	comment_count: number | null;
 }
 
 export const load: PageServerLoad = async ({ locals }) => {
 	const { session } = await locals.safeGetSession();
 
 	// Get top questions for daily quest rotation
-	const { data: top9Questions, error: top9QuestionsError } = await locals.supabase
+	const { data: topQuestions, error: topQuestionsError } = await locals.supabase
 		.from('questions')
-		.select('*')
+		.select('url,question_formatted,comment_count')
 		.order('comment_count', { ascending: false })
 		.eq('removed', false)
 		.neq('id', 168)
 		.limit(9);
 
-	if (top9QuestionsError) {
-		console.error('Error fetching questions:', top9QuestionsError);
+	if (topQuestionsError) {
+		console.error('Error fetching questions:', topQuestionsError);
 	}
 
 	// Rotate question of the day based on date
 	const today = new Date();
 	const daysSinceEpoch = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));
-	const questionIndex = daysSinceEpoch % 9;
-	const questionOfTheDay =
-		top9Questions && top9Questions.length > 0 ? top9Questions[questionIndex] : null;
-
-	// Get recent celebrity analyses for featured section
-	const { data: featuredPeople, error: featuredPeopleError } = await locals.supabase
-		.from('blogs_famous_people')
-		.select('person, enneagram, description, lastmod')
-		.order('lastmod', { ascending: false })
-		.eq('published', true)
-		.limit(6);
-
-	if (featuredPeopleError) {
-		console.error('Error fetching featured people:', featuredPeopleError);
-	}
+	const typedTopQuestions = (topQuestions ?? []) as TopQuestion[];
+	const questionIndex =
+		typedTopQuestions.length > 0 ? daysSinceEpoch % typedTopQuestions.length : 0;
+	const questionOfTheDay = typedTopQuestions.length > 0 ? typedTopQuestions[questionIndex] : null;
 
 	// Get the 6 most recently modified people per type using RPC (efficient window function)
 	const { data: recentByType, error: recentByTypeError } = await locals.supabase.rpc(
@@ -95,8 +83,6 @@ export const load: PageServerLoad = async ({ locals }) => {
 	return {
 		user: session?.user ?? null,
 		typeRepresentatives,
-		featuredPeople: (featuredPeople ?? []) as unknown as FamousBlogPerson[],
-		questionOfTheDay,
-		top9Questions
+		questionOfTheDay
 	};
 };

@@ -27,7 +27,9 @@ const config = {
 	},
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			runtime: 'nodejs22.x'
+		}),
 		csrf: {
 			trustedOrigins: []
 		}
