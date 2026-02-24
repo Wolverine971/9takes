@@ -127,7 +127,12 @@
 	on:mouseenter={() => {
 		if (!isTouchDevice) showDescription = true;
 	}}
-	on:focus={() => (showDescription = true)}
+	on:focus={() => {
+		if (!isTouchDevice) showDescription = true;
+	}}
+	on:blur={() => {
+		if (!isTouchDevice) showDescription = false;
+	}}
 	on:mouseleave={() => {
 		if (!isTouchDevice) showDescription = false;
 	}}

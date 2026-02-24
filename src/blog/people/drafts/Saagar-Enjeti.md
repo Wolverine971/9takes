@@ -110,13 +110,13 @@ Saagar's childhood wound maps this precisely. The world showed him it was danger
 
 Lex Fridman framed him this way: someone fascinated by how power works and what it does to people. Fascination — not detachment — is the through-line.
 
-**The [6 wing](/enneagram-corner/enneagram-type-6)** adds the threat detector. The security-policy graduate degree from Georgetown. The think tank and national-security reporting track. The pattern of investigating dangers — not just understanding them, but _crusading_ against them. The 6 wing is why Saagar's enthusiasm always carries an edge of vigilance. He's not just excited about the next idea. He's scanning for what's wrong with the current system.
+**The [6 wing](/enneagram-corner/enneagram-type-6)** adds the threat detector. The security-policy graduate degree from Georgetown. The think tank and national-security reporting track. The pattern of investigating dangers — understanding them, then _crusading_ against them. The 6 wing is why Saagar's enthusiasm always carries an edge of vigilance. He's not just excited about the next idea. He's scanning for what's wrong with the current system.
 
-This 7w6 combination creates someone who is simultaneously drawn to every new domain and deeply suspicious of every institution. The enthusiasm and the skepticism aren't contradictions. They're the same engine — a mind that runs hot in both directions because sitting still feels like surrender.
+The 7w6 combination means he's drawn to every new subject _and_ deeply suspicious of every institution. Both at once. The enthusiasm and the skepticism aren't contradictions — they're the same engine, a mind that runs hot in both directions because sitting still feels like surrender.
 
 <div class="aside-box">
 <div class="aside-box__title">Why Everyone Thinks He's a Five</div>
-<p>People mistype Saagar because they confuse the behavior with the motivation. Yes, he reads voraciously. Yes, he has deep expertise. But look at <i>how</i> he reads: broadly, serially, obsessively — across dozens of domains — and then <b>shares it all publicly</b>. He gives books away at podcasts. He publishes reading lists for his audience. He can't wait to tell you about what he just found.</p>
+<p>People mistype Saagar because they confuse the behavior with the motivation. Yes, he reads voraciously. Yes, he has deep expertise. But look at <i>how</i> he reads: broadly, serially, obsessively — across dozens of subjects — and then <b>shares it all publicly</b>. He gives books away at podcasts. He publishes reading lists for his audience. He can't wait to tell you about what he just found.</p>
 <p>Type 5s conserve energy. Saagar burns it — multiple shows, constant content, and a pace that keeps expanding. Type 5s narrow their focus. Saagar broadens his every quarter. Type 5s detach from emotional engagement. Saagar rages on camera about sports betting.</p>
 <p>The deep-research mode people see is actually his <b>growth arrow</b>. When healthy, Sevens access Five's capacity for focused depth. The careful policy breakdowns, the four-hour Lex Fridman conversations, the patient historical analysis — that's a Seven at his best. The core Saagar is the one who can't sit still.</p>
 </div>
@@ -127,7 +127,7 @@ This 7w6 combination creates someone who is simultaneously drawn to every new do
 
 That's not the playful, expanding energy of a Seven in flow. That's a Seven accessing One's moral certainty. The pattern reveals itself: the absolutist crusades emerge when the stakes feel personal and the institutions have failed — exactly when a Seven's fear of being trapped in a broken system peaks.
 
-**In growth**, the Seven moves toward Five — focused, contemplative, willing to sit with complexity. That's the Saagar who produces his most admired work. The nuanced breakdowns. The patient conversations. The research that radiates through every analysis. People see that version and call him a Five. They're seeing his best self, not his core self.
+**In growth**, the Seven moves toward Five — focused, contemplative, willing to sit with complexity. That's the Saagar who produces his most admired work. The careful breakdowns. The patient conversations. The research that radiates through every analysis. People see that version and call him a Five. They're seeing his best self, not his core self.
 
 ---
 
@@ -164,7 +164,7 @@ So he left. Then The Hill's Rising had corporate ownership. So he and Krystal Ba
 
 "There are a lot of people out there who can see through the BS too," he explained, "and they were really hungry for somebody quote unquote on the inside to tell them that the system is bullshit."
 
-The result: Breaking Points quickly became one of the most prominent independent political podcasts and crossed one million YouTube subscribers by 2023.
+The result: Breaking Points crossed one million YouTube subscribers by 2023.
 
 "I just cover whatever I want."
 
