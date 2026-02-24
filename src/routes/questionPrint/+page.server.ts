@@ -1,18 +1,11 @@
 // src/routes/questionPrint/+page.server.ts
-import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
-	try {
-		const session = event.locals.session;
+	const { safeGetSession } = event.locals;
+	const { session } = await safeGetSession();
 
-		return {
-			session
-		};
-	} catch (e) {
-		console.log(e);
-		throw error(500, {
-			message: 'Error finding questions'
-		});
-	}
+	return {
+		session
+	};
 };

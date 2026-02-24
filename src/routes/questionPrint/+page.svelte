@@ -6,22 +6,15 @@
 	import Scribble from '$lib/components/atoms/scribble.svelte';
 	import { browser } from '$app/environment';
 
-	let question = {
-		id: '',
-		url: '',
-		question: '',
-		question_formatted: ''
-	};
+	let questionText = $state('');
+	let customUrl = $state('');
+	let backgroundImage = $state('');
+	let backgroundOpacity = $state(0.2);
+	let qrCodeUrl = $state('');
+	let innerWidth = $state(0);
+	let previewMode = $state(false);
+	let uuid = $state('');
 
-	let customUrl = '';
-	let backgroundImage = '';
-	let backgroundOpacity = 0.2;
-	let qrCodeUrl = '';
-	let innerWidth = 0;
-	let previewMode = false;
-	let uuid = '';
-
-	// QR Code options
 	const QR_OPTS: QRCode.QRCodeToDataURLOptions = {
 		errorCorrectionLevel: 'H',
 		type: 'image/png',
@@ -32,49 +25,44 @@
 		}
 	};
 
-	// Dynamically calculate font size based on text length
-	$: fontSize = question.question ? calculateFontSize(question.question) : '2rem';
-	$: printFontSize = calculatePrintFontSize(question.question);
+	let fontSize = $derived(questionText ? calculateFontSize(questionText) : '2rem');
+	let printFontSize = $derived(calculatePrintFontSize(questionText));
 
 	function calculateFontSize(text: string): string {
-		const breakpoints = {
-			xs: { length: 45, size: innerWidth > 500 ? '2.3rem' : '1.9rem' },
-			sm: { length: 60, size: innerWidth > 500 ? '2.2rem' : '1.8rem' },
-			md: { length: 80, size: innerWidth > 500 ? '2.1rem' : '1.7rem' },
-			lg: { length: 105, size: innerWidth > 500 ? '2rem' : '1.6rem' },
-			xl: { length: 130, size: innerWidth > 500 ? '1.8rem' : '1.4rem' },
-			xxl: { length: 150, size: innerWidth > 500 ? '1.7rem' : '1.3rem' },
-			xxxl: { length: 200, size: innerWidth > 500 ? '1.6rem' : '1.2rem' },
-			huge: { length: 250, size: innerWidth > 500 ? '1.4rem' : '1rem' },
-			massive: { length: 300, size: innerWidth > 500 ? '1.2rem' : '0.9rem' }
-		};
+		const breakpoints = [
+			{ length: 45, size: innerWidth > 500 ? '2.3rem' : '1.9rem' },
+			{ length: 60, size: innerWidth > 500 ? '2.2rem' : '1.8rem' },
+			{ length: 80, size: innerWidth > 500 ? '2.1rem' : '1.7rem' },
+			{ length: 105, size: innerWidth > 500 ? '2rem' : '1.6rem' },
+			{ length: 130, size: innerWidth > 500 ? '1.8rem' : '1.4rem' },
+			{ length: 150, size: innerWidth > 500 ? '1.7rem' : '1.3rem' },
+			{ length: 200, size: innerWidth > 500 ? '1.6rem' : '1.2rem' },
+			{ length: 250, size: innerWidth > 500 ? '1.4rem' : '1rem' },
+			{ length: 300, size: innerWidth > 500 ? '1.2rem' : '0.9rem' }
+		];
 
-		for (const [key, value] of Object.entries(breakpoints)) {
-			if (text.length < value.length) {
-				return value.size;
-			}
+		for (const bp of breakpoints) {
+			if (text.length < bp.length) return bp.size;
 		}
 
 		return innerWidth > 500 ? '1rem' : '0.8rem';
 	}
 
 	function calculatePrintFontSize(text: string): string {
-		const breakpoints = {
-			xs: { length: 45, size: '2.5rem' },
-			sm: { length: 60, size: '2.3rem' },
-			md: { length: 80, size: '2.1rem' },
-			lg: { length: 105, size: '1.9rem' },
-			xl: { length: 130, size: '1.7rem' },
-			xxl: { length: 150, size: '1.5rem' },
-			xxxl: { length: 200, size: '1.3rem' },
-			huge: { length: 250, size: '1.1rem' },
-			massive: { length: 300, size: '0.9rem' }
-		};
+		const breakpoints = [
+			{ length: 45, size: '2.5rem' },
+			{ length: 60, size: '2.3rem' },
+			{ length: 80, size: '2.1rem' },
+			{ length: 105, size: '1.9rem' },
+			{ length: 130, size: '1.7rem' },
+			{ length: 150, size: '1.5rem' },
+			{ length: 200, size: '1.3rem' },
+			{ length: 250, size: '1.1rem' },
+			{ length: 300, size: '0.9rem' }
+		];
 
-		for (const [key, value] of Object.entries(breakpoints)) {
-			if (text.length < value.length) {
-				return value.size;
-			}
+		for (const bp of breakpoints) {
+			if (text.length < bp.length) return bp.size;
 		}
 
 		return '0.8rem';
@@ -104,7 +92,6 @@
 		});
 	}
 
-	// This is the key function that needs fixing
 	function printPoster() {
 		if (!qrCodeUrl) {
 			generateQRCode();
@@ -112,14 +99,12 @@
 
 		if (!browser) return;
 
-		// Create a new window
 		const printWindow = window.open('', '_blank');
 		if (!printWindow) {
 			alert('Please allow popups to print the question.');
 			return;
 		}
 
-		// First, write the basic HTML structure
 		printWindow.document.write(`
 			<!DOCTYPE html>
 			<html>
@@ -133,17 +118,15 @@
 			</html>
 		`);
 
-		// Create and append the style element
 		const styleElement = printWindow.document.createElement('style');
 		printWindow.document.head.appendChild(styleElement);
 
-		// Set the CSS content directly on the style element
 		styleElement.textContent = `
 			@page {
 				size: letter;
 				margin: 0;
 			}
-			
+
 			body {
 				margin: 0;
 				padding: 0;
@@ -153,7 +136,7 @@
 				min-height: 100vh;
 				background: white;
 			}
-			
+
 			.print-container {
 				display: flex;
 				flex-direction: column;
@@ -163,14 +146,14 @@
 				padding: 2rem;
 				box-sizing: border-box;
 			}
-			
+
 			.mini-brand {
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				margin-bottom: 1.5rem;
 			}
-			
+
 			.question-container {
 				width: 100%;
 				background: linear-gradient(145deg, #ffffff, #f0f0f0);
@@ -181,7 +164,7 @@
 				box-sizing: border-box;
 				${backgroundImage ? 'position: relative; overflow: hidden;' : ''}
 			}
-			
+
 			.question-box {
 				width: 100%;
 				text-align: center;
@@ -196,7 +179,7 @@
 				font-size: ${printFontSize};
 				${backgroundImage ? 'position: relative; z-index: 1;' : ''}
 			}
-			
+
 			.question-box::after {
 				content: '';
 				position: absolute;
@@ -208,14 +191,14 @@
 				background: #0066cc;
 				border-radius: 2px;
 			}
-			
+
 			.mini-qr {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
 				${backgroundImage ? 'position: relative; z-index: 1;' : ''}
 			}
-			
+
 			.qr-image-small {
 				width: 100px;
 				height: 100px;
@@ -224,7 +207,7 @@
 				border: 1px solid #eee;
 				border-radius: 8px;
 			}
-			
+
 			.qr-url-small {
 				margin-top: 0.5rem;
 				font-size: 0.8rem;
@@ -233,7 +216,7 @@
 				padding: 0.2rem 0.5rem;
 				border-radius: 4px;
 			}
-			
+
 			${
 				backgroundImage
 					? `
@@ -254,7 +237,6 @@
 			}
 		`;
 
-		// Set the HTML content
 		const contentDiv = printWindow.document.getElementById('content');
 		if (contentDiv) {
 			contentDiv.innerHTML = `
@@ -279,12 +261,12 @@
 							</text>
 						</svg>
 					</div>
-					
+
 					<div class="question-container">
 						${backgroundImage ? '<div class="background-image"></div>' : ''}
-						<h1 class="question-box">${question.question}</h1>
+						<h1 class="question-box">${questionText}</h1>
 					</div>
-					
+
 					<div class="mini-qr">
 						<img src="${qrCodeUrl}" alt="QR Code" class="qr-image-small" />
 						<p class="qr-url-small">${customUrl || `9takes.com/links/${uuid.slice(0, 8)}...`}</p>
@@ -293,7 +275,6 @@
 			`;
 		}
 
-		// Close the document and set up printing
 		printWindow.document.close();
 		printWindow.onload = function () {
 			printWindow.focus();
@@ -317,10 +298,11 @@
 		}
 	}
 
-	// Update QR code when custom URL changes
-	$: if (customUrl && customUrl.trim() !== '' && previewMode) {
-		generateQRCode();
-	}
+	$effect(() => {
+		if (customUrl && customUrl.trim() !== '' && previewMode) {
+			generateQRCode();
+		}
+	});
 
 	onMount(() => {
 		innerWidth = window.innerWidth;
@@ -340,7 +322,7 @@
 			<label for="question-input">Question Text:</label>
 			<textarea
 				id="question-input"
-				bind:value={question.question}
+				bind:value={questionText}
 				placeholder="Enter your question here..."
 				rows="3"
 			></textarea>
@@ -358,7 +340,7 @@
 
 		<div class="form-group">
 			<label for="bg-image">Background Image:</label>
-			<input type="file" id="bg-image" accept="image/*" on:change={handleFileInput} />
+			<input type="file" id="bg-image" accept="image/*" onchange={handleFileInput} />
 		</div>
 
 		<div class="form-group">
@@ -374,10 +356,10 @@
 		</div>
 
 		<div class="button-group">
-			<button class="btn preview" on:click={togglePreviewMode}>
+			<button class="btn preview" onclick={togglePreviewMode}>
 				{previewMode ? 'Edit Poster' : 'Preview Poster'}
 			</button>
-			<button class="btn print" on:click={printPoster}> Print Question </button>
+			<button class="btn print" onclick={printPoster}>Print Question</button>
 		</div>
 	</div>
 
@@ -394,7 +376,7 @@
 
 		<div class="question-container">
 			<h1 class="question-box" style="font-size: {fontSize}" itemprop="name">
-				{question.question}
+				{questionText}
 			</h1>
 		</div>
 
@@ -406,8 +388,6 @@
 		{/if}
 	</div>
 </div>
-
-<!-- this is me typing a bunch of stuff. -->
 
 <style>
 	/* Page Layout */

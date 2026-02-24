@@ -1,14 +1,8 @@
 // src/routes/admin/poster-generator/+page.server.ts
-import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ locals }) => {
-	const { safeGetSession, supabase } = locals;
-	const { session } = await safeGetSession();
-
-	if (!session?.user?.id) {
-		throw redirect(302, '/questions');
-	}
+	const { supabase } = locals;
 
 	// Load recent questions for quick selection
 	const { data: questions } = await supabase

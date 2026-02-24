@@ -1,6 +1,5 @@
 <!-- src/routes/admin/poster-generator/+page.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import QRCode from 'qrcode';
 	import type { PageData } from './$types';
 
@@ -13,9 +12,11 @@
 	let activeTab = $state<'content' | 'style' | 'background' | 'export'>('content');
 	let exporting = $state(false);
 	let posterRef = $state<HTMLDivElement | null>(null);
-	let toPng: any = $state(null);
-	let jsPDF: any = $state(null);
 	let showQuestionPicker = $state(false);
+
+	// Lazily-loaded modules (not reactive)
+	let toPng: any = null;
+	let jsPDF: any = null;
 
 	// Format settings
 	let posterFormat = $state('instagram');
@@ -68,7 +69,7 @@
 	];
 
 	// Style settings
-	let activeBackground = $state(data.backgrounds[0]?.id || 'greek_pantheon');
+	let activeBackground = $state('greek_pantheon');
 	let overlayOpacity = $state(60);
 	let overlayColor = $state('#1a1a2e');
 	let questionFontSize = $state('text-4xl');
@@ -197,10 +198,6 @@
 			exporting = false;
 		}
 	}
-
-	onMount(() => {
-		generateQRCode();
-	});
 </script>
 
 <div class="poster-generator">
