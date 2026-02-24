@@ -22,7 +22,7 @@
 		{ href: '/admin/drafts', label: 'Drafts', icon: '✏️' },
 		{ href: '/admin/marketing', label: 'Marketing', icon: '📈' },
 		{ href: '/admin/links', label: 'Links', icon: '🔗' },
-		{ href: '/admin/poster-generator', label: 'Posters', icon: '🖼️' }
+		{ href: '/admin/asset-generators', label: 'Assets', icon: '🧰' }
 	];
 
 	// Check if nav item is active (supports sub-routes)

@@ -59,10 +59,10 @@ Understanding Bobbi Althoff means understanding why her "awkward" persona isn't 
 <summary class="accordion">TL;DR: Why Bobbi Althoff is an Enneagram Type 4</summary>
 <div class="panel">
 <ul>
-<li><b>The Core Wound:</b> "I hated who I was as a person" and "felt uncomfortable in my own skin", classic Type 4 feelings of fundamental defectiveness that began in childhood.</li>
-<li><b>Transforming Pain into Art:</b> Her deadpan persona embodies her "biggest insecurities without shame", taking what made her feel broken and making it her signature. This is classic Type 4 creative alchemy.</li>
-<li><b>Deep Emotional Intensity:</b> Depression since childhood, a suicide attempt at 14, postpartum depression, Type 4s experience emotions at profound depths.</li>
-<li><b>Feeling Fundamentally Different:</b> "I didn't fit in" and felt she'd never "find my place in this world": the Type 4's lifelong sense of being unlike everyone else.</li>
+<li><b>The wound:</b> "I hated who I was as a person" and "felt uncomfortable in my own skin" — Type 4 feelings of fundamental defectiveness that began in childhood.</li>
+<li><b>Transforming Pain into Art:</b> Her deadpan persona embodies her "biggest insecurities without shame", taking what made her feel broken and making it her signature. Type 4 creative alchemy.</li>
+<li><b>Deep Emotional Intensity:</b> Depression since childhood, a suicide attempt at 14, postpartum depression — Type 4s absorb all of it.</li>
+<li><b>The Outsider Feeling:</b> "I didn't fit in" and felt she'd never "find my place in this world": the Type 4's lifelong sense of being unlike everyone else.</li>
 <li><b>The 5 Wing:</b> Her withdrawn nature, debilitating social anxiety, dry intellectual humor, and observer-like quality in interviews point to a 4w5 "Bohemian" subtype.</li>
 </ul>
 </div>
@@ -72,12 +72,12 @@ Understanding Bobbi Althoff means understanding why her "awkward" persona isn't 
 
 ### Bobbi Althoff is an Enneagram Type 4 (The Individualist)
 
-Bobbi Althoff embodies the [Enneagram Type 4](/enneagram-corner/enneagram-type-4)—"The Individualist." These individuals are defined by a deep sense of being fundamentally different from others, often feeling flawed or defective at their core. They channel this pain into creating something uniquely meaningful, transforming their wounds into art.
+Bobbi Althoff embodies the [Enneagram Type 4](/enneagram-corner/enneagram-type-4)—"The Individualist." These individuals are defined by a deep sense of being alien to everyone around them, often feeling flawed or defective in ways they can't quite name. They channel this pain into creating something uniquely meaningful, transforming their wounds into art.
 
-**Core Type 4 Characteristics in Bobbi Althoff:**
+**Type 4 Characteristics in Bobbi Althoff:**
 
-- **Core Motivation**: To find herself and her significance, to create an identity that expresses her unique inner experience
-- **Basic Fear**: Having no identity or personal significance; being fundamentally flawed
+- **What drives her**: Finding herself and her significance, creating an identity that expresses her unique inner experience
+- **Basic Fear**: Having no identity or personal significance; being defective at the root
 - **Key Traits**: Emotionally intense, introspective, creative, feeling different from others
 - **Defense Mechanism**: Introjection, taking in criticism and making it part of her identity, then transforming it
 
@@ -107,7 +107,7 @@ After that, she was sent to live with her brother for a while.
 
 "I hated who I was as a person," she told Wilson. "I felt uncomfortable in my own skin... I felt like I just didn't fit in."
 
-These aren't just teenage feelings. This is the Type 4's core wound crystallized in adolescence: _I am fundamentally different. Something is wrong with me. I don't belong here._
+These aren't just teenage feelings. This is the Type 4's defining terror crystallized in adolescence: _I am different in a way that can't be fixed. Something is wrong with me. I don't belong here._
 
 ### Feeling Like an Outsider
 
@@ -181,7 +181,7 @@ He added: "You made me feel like our interview was the reason your life was bad.
 
 Bobbi admitted she got "mad" at Drake "one time" and blamed him for her struggles when she probably shouldn't have.
 
-This is classic Type 4 behavior under stress. When 4s are overwhelmed, they can become envious and resentful, projecting their internal chaos onto others. Drake became a convenient target for feelings that had nothing to do with him.
+This is Type 4 behavior under stress. When 4s are overwhelmed, they can become envious and resentful, projecting their internal chaos onto others. Drake became a convenient target for feelings that had nothing to do with him.
 
 ## The Persona as Transformation
 
@@ -251,7 +251,7 @@ In a tearful four-minute TikTok, Bobbi confronted the hate:
 
 She's particularly worried about her daughters eventually reading these comments about their mother.
 
-For a Type 4 who already struggles with feeling fundamentally flawed, this kind of public shaming hits directly at the wound.
+For a Type 4 who already lives with the baseline suspicion that something is wrong with her, this kind of public shaming hits directly at that belief.
 
 ## Mental Health: The Ongoing Journey
 
@@ -311,28 +311,8 @@ The first episode, released September 2025, addressed their history directly. Dr
 
 For Bobbi, this represents growth. The version of her that lashed out at Drake, that blamed external circumstances for internal pain, has evolved into someone who can acknowledge her mistakes and rebuild.
 
-## Understanding Bobbi Through the Type 4 Lens
+Bobbi Althoff isn't just a podcaster who interviews celebrities awkwardly. She's a case study in what happens when someone stops trying to fix themselves and starts building with the broken pieces instead.
 
-Bobbi Althoff's life makes more sense when viewed through the Enneagram Type 4 framework:
+The girl who tried to end her life at 14 because she "hated who she was" found a way to build an empire on that very self. Not by hiding what was "wrong" with her. By making it the product.
 
-**The Origin**: A chaotic childhood with divorced parents living together, financial instability, and feeling fundamentally different from everyone around her. This crystallized at 14 in a suicide attempt: the ultimate expression of "I don't belong here."
-
-**The Wound**: "I hated who I was as a person." Type 4s feel something is inherently wrong with them that makes them different from everyone else.
-
-**The Transformation**: Instead of hiding her awkwardness, she amplified it. Instead of performing normalcy, she made her differentness the product. This is Type 4 alchemy, turning pain into something meaningful.
-
-**The Ongoing Struggle**: Depression, anxiety, sensitivity to criticism, the gap between persona and person. The wound doesn't fully heal; it gets channeled differently.
-
-**The Growth**: Therapy, medication, motherhood as purpose, reconciling with Drake, speaking honestly about mental health. Type 4s grow when they connect their unique gifts to something beyond themselves.
-
-## Conclusion
-
-Bobbi Althoff isn't just a podcaster who interviews celebrities awkwardly. She's a case study in human transformation, in how the things that once made us want to disappear can become the things that make us impossible to ignore.
-
-The girl who tried to end her life at 14 because she "hated who she was" found a way to build an empire on that very self. Not by fixing what was "wrong" with her, but by reframing it entirely.
-
-That's the Type 4 gift: the belief that our wounds are not obstacles to meaning but the raw material for it.
-
-The next time you watch Bobbi sit in uncomfortable silence while a celebrity squirms, remember: you're not just seeing a bit. You're seeing someone who finally found a way to make the discomfort she's always felt into something valuable, something that, for millions of viewers, is exactly what they needed to see.
-
-What might happen if you stopped trying to fix what makes you different?
+The next time you watch Bobbi sit in uncomfortable silence while a celebrity squirms, remember: you're not just seeing a bit. You're seeing someone who finally found a way to make the discomfort she's always felt into something valuable.

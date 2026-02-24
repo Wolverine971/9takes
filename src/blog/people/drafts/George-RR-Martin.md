@@ -29,23 +29,6 @@ content_quality:
   graded_at: '2026-02-18'
 ---
 
-<!-- QUALITY GRADE: B+ (8.9)
-Hook: 9 | Enneagram: 9 | Evidence: 8.5 | Writing: 9 | Originality: 9
-
-FEEDBACK (2026-02-18):
-- Turtle-death-as-first-epic-fantasy origin is brilliant and something most analyses miss
-- "If I understand everything about this world, I control it" — perfect Type 5 thesis
-- WordStar 4.0 as deliberate isolation rather than eccentricity is insightful
-- Jean Cocteau Cinema as "controlled environment" / real-world castle is clever
-- "Fame shattered the conditions that made his work possible" is the key insight
-- Disintegration toward Type 7 (scattered projects, Jets blog posts) is well-explained
-- HBO section through Type 5 lens of control is well-done — "watching others control your creation"
-- "Trapped in a world of his own making" closing is strong
-- NEEDS WORK: Some sections could use more specific quotes and sourced details
-- NEEDS WORK: The comparison to Elon Musk as fellow Type 5 feels forced
-- TO REACH A: Add more specific sourced quotes, deepen the HBO section with more detail, remove the strained Musk comparison
--->
-
 > "I don't write when I travel. I don't write in hotel rooms. I don't write on airplanes."
 
 <p class="firstLetter">Thirteen years. That's how long fans have waited for The Winds of Winter. But what if I told you the delay isn't about laziness or writer's block—it's about the fundamental architecture of George R.R. Martin's mind?</p>
@@ -187,18 +170,14 @@ George R.R. Martin changed fantasy literature forever. Before A Song of Ice and 
 
 This perspective is pure Type 5. The Investigator observes human nature without romantic illusion—much like fellow mystery author [Agatha Christie](/personality-analysis/Agatha-Christie), another Type 5 who built intricate puzzle-worlds. Martin has said he was "pleased to have created morally ambiguous characters" and describes dealing with moral ambiguity "quite naturally."
 
-His influence extends beyond books. Game of Thrones proved that fantasy could be prestige television. His work on Elden Ring brought his world-building to video games—echoing how fellow Type 5 [Elon Musk](/personality-analysis/Elon-Musk) builds interconnected systems across industries. His theater supports independent cinema. His Wild Cards anthology series gave other writers a shared universe to explore.
+His influence extends beyond books. Game of Thrones proved that fantasy could be prestige television. His work on Elden Ring brought his world-building to video games — a collaboration with FromSoftware that produced one of the best-selling games in history, the mythology written before Martin knew what the game mechanics would be. His theater supports independent cinema. His Wild Cards anthology series, which he's been editing since 1987, gave other writers a shared universe to explore — a system he designed to have room for everyone's ideas, but with his hand on the architecture.
 
 Whether or not The Winds of Winter ever arrives, Martin has already built something that will outlast him: a universe where actions have consequences, power corrupts without exception, and the most dangerous thing in any kingdom is a mind that understands how it really works.
 
-## Conclusion
-
-George R.R. Martin isn't lazy. He isn't blocked. He's a Type 5 Investigator whose greatest strength—the compulsive need to understand everything—has become the very thing preventing completion.
+George R.R. Martin isn't lazy. He isn't blocked. He's an Investigator whose greatest strength — the compulsive need to understand everything — has become the very thing preventing completion.
 
 The boy who turned turtle deaths into political intrigue never stopped building that castle. He just made it so detailed, so comprehensive, so real that he may never find his way out.
 
-Perhaps that's the most fitting ending for the architect of Westeros: trapped in a world of his own making, knowing that the only way forward is to accept imperfection—the one thing his mind cannot do.
-
-What does Martin's struggle reveal about your own relationship with finishing what you start? Are you waiting for perfect conditions that will never arrive?
+Perhaps that's the most fitting ending for the architect of Westeros: trapped in a world of his own making, knowing that the only way forward is to accept imperfection — the one thing his mind cannot do.
 
 > **Disclaimer:** This analysis of George R.R. Martin's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of George R.R. Martin.

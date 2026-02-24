@@ -44,7 +44,7 @@ FEEDBACK (2026-02-18):
 -->
 
 <QuickAnswer question="Is Jeff Bezos a narcissist or just incredibly driven?">
-Jeff Bezos displays strong Enneagram Type 8 (The Challenger) traits, not classic narcissism. His intensity comes from a deep need to build lasting systems and maintain control over his environment—a pattern that started when he dismantled his crib with a screwdriver as a toddler. Type 8s channel their energy into protecting what they care about, which explains his obsession with customer experience and century-spanning projects.
+Jeff Bezos displays strong Enneagram Type 8 (The Challenger) traits, not narcissism. His drive comes from a need to build lasting systems and maintain control over his environment—a pattern that started when he dismantled his crib with a screwdriver as a toddler. Type 8s channel their energy into protecting what they care about, which explains his obsession with customer experience and century-spanning projects.
 </QuickAnswer>
 
 <p class="firstLetter">What drives someone to fund a 10,000-year clock buried inside a Texas mountain?</p>
@@ -352,53 +352,11 @@ Both want humanity in space. Bezos approaches it like Amazon: customer-obsessed,
 
 Net worth competition matters less than legacy competition. Who will history remember as making humanity multiplanetary?
 
-## Bezos's Advice for Gen Z
+## Bezos vs. The Type 5 Builders
 
-Unlike [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg) and [Bill Gates](/personality-analysis/Bill-Gates), who dropped out of college to build their empires, Bezos counsels a different path:
+Most of Bezos's peers in tech — [Bill Gates](/personality-analysis/Bill-Gates), [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg), Steve Jobs — trend toward [Type 5](/enneagram-corner/enneagram-type-5): the drive to understand, analyze, optimize. Their empires are expressions of intellectual mastery.
 
-> Finish college. Gain work experience. Then consider starting a company.
-
-Bezos formed Amazon at 30 with 10 years of corporate experience at D.E. Shaw. The "regret minimization framework" that led him to leave Wall Street came from a foundation of expertise, not youthful impulse.
-
-Type 8 pragmatism. Build from strength, not hope.
-
-## Comparing Bezos to Other Tech Titans
-
-| Leader                                                       | Type | Primary Drive            | Decision Style        |
-| ------------------------------------------------------------ | ---- | ------------------------ | --------------------- |
-| **Jeff Bezos**                                               | 8    | Control & Legacy         | Gut + Data validation |
-| **Elon Musk**                                                | 5w6  | Understanding & Impact   | First principles      |
-| **[Bill Gates](/personality-analysis/Bill-Gates)**           | 5    | Knowledge & Optimization | Analytical            |
-| **[Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg)** | 5    | Connection & Information | Move fast, iterate    |
-| **Steve Jobs**                                               | 4w3  | Vision & Perfection      | Intuitive, aesthetic  |
-
-Bezos's Type 8 approach differs from his peers' [Type 5](/enneagram-corner/enneagram-type-5) tendency toward pure analysis. He builds systems to control outcomes rather than just understanding them.
-
-## FAQs About Jeff Bezos's Personality
-
-**What is Jeff Bezos's MBTI personality type?**
-
-There's no consensus, but analysts most commonly type Bezos as ENTJ (Commander) or ISTJ (Logistician). ENTJ aligns with his strategic vision and leadership presence. ISTJ aligns with his systematic, process-oriented approach to building Amazon. Both types share the "TJ" preference for logical, structured decision-making.
-
-**Is Jeff Bezos an introvert or extrovert?**
-
-Bezos appears introverted in his personal energy management: morning solitude, limited meetings, deep work. But he displays extroverted leadership in shaping Amazon's culture and public presence. This combination is common in Type 8s who are naturally commanding but strategic about energy expenditure.
-
-**What motivates Jeff Bezos beyond money?**
-
-Legacy and impact measured in centuries. His 10,000-year clock, Blue Origin's mission to protect Earth through space expansion, and his systematic philanthropy all point to someone thinking far beyond personal wealth. As he stated, "Blue Origin is the most important work I'm doing." A company that doesn't yet generate profit.
-
-**How does Jeff Bezos handle failure?**
-
-Bezos views failure as essential to innovation. "If you're not failing, you're not innovating enough." At Amazon, he institutionalized "working backwards" from customer needs and accepting that most experiments will fail. This comfort with failure reflects Type 8 confidence: failures don't threaten his identity because his security comes from internal sources, not external validation.
-
-**Why did Jeff Bezos step down as Amazon CEO?**
-
-Bezos transitioned to Executive Chairman in 2021 to focus on Blue Origin, the Bezos Earth Fund, and other passion projects. Type 8s typically aren't interested in managing. They're interested in building. Once Amazon's systems were mature, Bezos shifted to where he could have the most impact on legacy-defining projects.
-
-**Why is Jeff Bezos silent about the Washington Post?**
-
-Strategic calculation. With billions in government contracts (AWS, Blue Origin), a $40M documentary deal with Melania Trump, and a $1M inauguration donation, he has significant exposure to the current administration. Type 8s under stress move toward Type 5's withdrawn, calculating behavior, choosing survival over confrontation.
+Bezos's Type 8 approach runs a different engine. He doesn't build systems to understand outcomes. He builds systems to control them. The distinction shows in what each builder does when things go wrong. A Type 5 refines the model. A Type 8 takes over the variable.
 
 ## The Infinite Game
 
@@ -414,6 +372,6 @@ The abandoned toddler who dismantled his crib grew into a man who dismantles ind
 
 But he also learned when to stay silent. When to choose survival over principle. When the cost of confrontation exceeds the cost of retreat.
 
-What would you build if you thought in centuries instead of quarters? And what would you sacrifice to protect it?
+That's the part the 10,000-year clock doesn't capture. Bezos can think in centuries. He can also read a room in seconds, calculate exposure in milliseconds, and decide that the Washington Post's constitutional crisis is someone else's fight today. The Challenger who once published his own blackmail attempt chose silence when the adversary was the federal government and his $2 trillion empire was the collateral. The infinite game requires knowing which battles to skip.
 
 > **Disclaimer:** This analysis of Jeff Bezos's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.

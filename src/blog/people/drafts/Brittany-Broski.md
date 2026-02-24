@@ -49,7 +49,7 @@ FEEDBACK (2026-02-18):
 
 > "Sacrifice the need to be liked for a more fulfilling life... Don't be afraid to be freaky."
 
-<p class="firstLetter">Brittany Broski stood in a break room, tried kombucha, and became one of the most authentic voices on the internet. No filter. No strategy. Just a face that couldn't lie about how weird fermented tea tastes.</p>
+<p class="firstLetter">Brittany Broski stood in a break room, tried kombucha, and became famous for making a face. No filter. No strategy. Just a face that couldn't lie about how weird fermented tea tastes.</p>
 
 That 8-second video captured something rare: genuine human reaction in all its contradictory glory. But what transformed "Kombucha Girl" from viral meme into TIME100 Creator, chart-topping podcaster, and rising musician wasn't luck. It was the psychology of someone who can't help but chase every fascinating rabbit hole while making you laugh along the way.
 
@@ -61,7 +61,7 @@ Her stage name "Broski"? Pure 2012 internet slang. A playful twist on "bro" that
 <summary class="accordion">TL;DR: Why Brittany Broski is an Enneagram Type 7</summary>
 <div class="panel">
 <ul>
-<li><b>Enthusiasm overflow:</b> From etymology obsessions to bluegrass deep dives to Irish men on dating apps, Brittany collects interests and shares excitement with infectious energy. Classic Type 7 pattern.</li>
+<li><b>Enthusiasm overflow:</b> From etymology obsessions to bluegrass deep dives to Irish men on dating apps, Brittany collects interests and shares excitement with infectious energy. Pure Type 7.</li>
 <li><b>Pain avoidance through humor:</b> Getting fired became content, not tragedy. A failed situationship became her debut single "The Sun." Type 7s instinctively reframe negative experiences into something stimulating.</li>
 <li><b>Fear of being trapped:</b> Her career has been one continuous pivot. TikTok to YouTube to podcasting to music to Royal Court. The moment something feels limiting, she expands. She left organized religion when it conflicted with her values.</li>
 <li><b>Six wing influence:</b> Her anxiety discussions, fierce loyalty to "Broski Nation," and thoughtful preparation show the 7w6's blend of enthusiasm and security-seeking. As she put it: "I am as parasocially attached to them as they are to me."</li>
@@ -82,7 +82,7 @@ Type 7s (The Enthusiasts) are driven by a core need for satisfaction and freedom
 
 **"I struggle with a lack of motivation and energy,"** Brittany has admitted on her podcast. **"I often need the fear of disappointing others as motivation to engage in day-to-day activities."**
 
-This vulnerability reveals something crucial about Type 7 psychology. Beneath the constant enthusiasm lies a sophisticated avoidance system. By staying busy, staying entertained, staying connected to her audience, Brittany keeps the darker emotions at bay. Most of the time.
+This vulnerability reveals something specific about how Brittany's Type 7 psychology actually operates. Beneath the constant enthusiasm lies a sophisticated avoidance system. By staying busy, staying entertained, staying connected to her audience, Brittany keeps the darker emotions at bay. Most of the time.
 
 In a 2025 Hollywood Reporter interview, she revealed another layer: **"I'm such a people pleaser, I'm a Taurus. It's hard to change everything about yourself immediately so that people will like you and that's just a never-ending spiral."**
 
@@ -106,11 +106,11 @@ The improv background shows. Two different high school improv troupes plus colle
 
 ### Growing Up Everywhere
 
-The daughter of a 20-year Air Force veteran, Brittany didn't just grow up. She grew up everywhere. Georgia. Texas. Arizona. Alabama. North Carolina. Virginia. And South Korea. Each move meant new schools, new friendships to build, new social landscapes to navigate.
+The daughter of a 20-year Air Force veteran, Brittany didn't just grow up. She grew up everywhere. Georgia. Texas. Arizona. Alabama. North Carolina. Virginia. South Korea. Each move meant new schools, new friendships to build, new social landscapes to navigate.
 
-This kind of childhood shapes a Type 7 in specific ways.
+This kind of childhood does something specific to a Type 7.
 
-Most kids develop their personality within stable environments. Military brats learn to adapt fast. They become skilled at reading new social situations, finding common ground quickly, developing portable personalities that work anywhere. For a naturally enthusiastic Type 7, this constant change becomes training ground for the very skills that would later make Brittany a natural entertainer.
+Most kids develop their personality within stable environments. Military brats learn to adapt fast. They become skilled at reading new social situations, finding common ground quickly, developing portable personalities that work anywhere. For a naturally enthusiastic Type 7, that constant change is a curriculum. It trained the exact skills — reading a room, manufacturing warmth, committing to a bit — that would later make Brittany a natural entertainer. She didn't find her talent. She built it seven states over.
 
 Despite frequent relocations, Texas remained home base. Her mother Heather's Texas roots and her father Jeff's Tennessee family ties kept the connection strong.
 
@@ -142,7 +142,7 @@ Her growing discontent with the church's views on gender, human rights, and soci
 
 The departure caused strain with her deeply religious family. It incited feelings of self-loathing and resentment. But eventually, as she's documented, she found **"tranquility and self-forgiveness."**
 
-This journey reflects classic Type 7 psychology: when systems feel constraining or inauthentic, they break free. Even at significant personal cost. She's reaffirmed her emotional attachment to worship music, acknowledging that the memories still stir complicated feelings.
+This journey is what Type 7 psychology looks like under pressure: when systems feel constraining or false, they break free. Even at significant personal cost. She's reaffirmed her emotional attachment to worship music, acknowledging that the memories still stir complicated feelings.
 
 ## The Kombucha Moment: When Viral Fame Found a Type 7
 
@@ -202,7 +202,7 @@ The timeline tells the story:
 
 **2025:** Named to inaugural TIME100 Creators list in the Entertainers category
 
-Each expansion follows classic Type 7 logic. Once a format feels mastered or limiting, it's time to try something new.
+Each expansion follows the same Type 7 logic. Once a format feels mastered or limiting, it's time to try something new.
 
 ### The Sarah Schauer Chapter
 
@@ -244,27 +244,27 @@ There's also the mobile game addiction she's joked about, spending "alarming" am
 
 That Theo Von episode is worth noting as a crossover moment. Over two hours, they covered: growing up as an Air Force kid in South Korea, her terrible job as an insurance agent, the TikTok blowup, problematic McDonald's characters (Uncle O'Grimacey got extensive discussion), her departure from the Baptist and Pentecostal churches, and an Irish man she met on a Christian dating app while in Nashville. It was the kind of long-form conversation that revealed dimensions her shorter content can't capture.
 
-### Authenticity as Strategy
+### Weirdness as Precision
 
 Brittany has built her brand on being genuinely weird. Not calculated weird. Actually weird.
 
-Her friends Drew Afualo and Caleb Hearon share this commitment to genuine presence. The trio has become a defining feature of her social world. Drew appeared on Royal Court and was knighted as a "Knight of the Realm of Broski Nation." They've collaborated across multiple podcasts.
+Her friends Drew Afualo and Caleb Hearon share this orientation. The trio has become a defining feature of her social world. Drew appeared on Royal Court and was knighted as a "Knight of the Realm of Broski Nation." They've collaborated across multiple podcasts.
 
 Caleb has said: **"If Drew and Brittany left the internet forever tomorrow, I'd still want to hang out with them every week... They are just two of the most lovely, brilliant, down-to-earth people. I could honestly cry talking about how lucky I am to have met them and to be their friend."**
 
-For Type 7s, authenticity serves a dual purpose. It creates connection (which feels stimulating and positive) while also reducing the cognitive load of maintaining a fake persona. The "Broski Nation" fanbase responds to this realness because it gives them permission to be equally unfiltered.
+For Type 7s, the un-performed self serves a dual purpose. It creates connection (which feels stimulating and positive) while also reducing the cognitive load of maintaining a fake persona. The "Broski Nation" fanbase responds to this realness because it gives them permission to be equally unfiltered.
 
 ### How She Actually Makes Content
 
 The chaos isn't an act, but it's not entirely unstructured either.
 
-Brittany's content process leans heavily on her improv background. The Broski Report has "no structure" by her own admission. She picks a loose topic and lets her mind wander. The tangents that feel spontaneous _are_ spontaneous. But she also does research on topics she cares about, weaving personal experience with genuine knowledge.
+Brittany's content process leans heavily on her improv background. The Broski Report has "no structure" by her own admission. She picks a loose topic and lets her mind wander. The tangents that feel spontaneous _are_ spontaneous. But she also does research on topics she cares about, weaving personal experience with genuine knowledge. That's the thing people miss: the rambling is informed.
 
-For Royal Court, there's more preparation. The medieval costumes don't arrange themselves, and she clearly researches her guests. But the conversations stay loose. The goal is getting celebrities to drop their guard, not hitting scripted beats.
+For Royal Court, there's more preparation. The medieval costumes don't arrange themselves, and she clearly researches her guests. But the conversations stay loose. The goal is getting celebrities to drop their guard, not hitting scripted beats. When Paul Mescal sat across from her in November 2025, she'd been dreaming about that episode since Season 1. She flew to London. Built the set. And then they ended up "giggling like little girls." Preparation in service of spontaneity.
 
 She uploads multiple short videos daily, sometimes using a secondary "spam account" for less polished content. This volume isn't strategy. It's how a Type 7 mind naturally operates. The moment something seems interesting, it becomes content.
 
-TIME100 recognized this approach specifically: Brittany was honored for "sustaining influence through authentic, unscripted content amid evolving social media."
+TIME100 recognized this approach specifically: Brittany was honored for "sustaining influence through unscripted, off-the-cuff content amid evolving social media."
 
 **"Relatability is rewarded,"** Brittany has observed, **"but at what cost? Because now I'm sharing so many personal details about myself with six million people, who can in turn, weaponize that and use it against me."**
 
@@ -284,9 +284,9 @@ Brittany doesn't just use social media. She analyzes it like a cultural critic. 
 
 **"I find myself critiquing the compulsive tendencies where individuals reshape themselves into brands to cater to their following and algorithmic preferences, risking their authentic identity,"** she's shared.
 
-This meta-awareness is unusual for Type 7s, who typically avoid uncomfortable analysis. It suggests Brittany is accessing her growth direction toward [Type 5](/enneagram-corner/enneagram-type-5), integrating more depth and reflection into her natural enthusiasm.
+This meta-awareness is unusual for Type 7s, who typically avoid uncomfortable analysis. It suggests Brittany is accessing her growth direction toward [Type 5](/enneagram-corner/enneagram-type-5), integrating more depth and reflection into the chaos she usually runs toward.
 
-On what will last in the creator economy, she's been direct: **"Authenticity and reliability. Those words are so overused and so bastardized, but it doesn't take away from the core meaning."**
+On what will last in the creator economy, she's been direct: **"Authenticity and reliability. Those words are so overused and so bastardized, but it doesn't take away from the core meaning."** She's right that the words are bastardized — but she's also the closest thing to a case study in what they actually mean.
 
 ## The Self-Promotion Paradox
 
@@ -312,7 +312,7 @@ Brittany's discussions of seasonal depression, therapy experiences, and diet mod
 
 **"I suspect that my diet and hormonal issues may be factors contributing to my mood swings and seasonal depression,"** she's analyzed. This kind of systematic self-examination is Type 1 territory. It's not comfortable for a Type 7.
 
-The positive outcome: she developed what she calls "safety systems," ways to honor her body's needs without losing her spontaneous spirit. The weight loss became not just physical transformation but proof that she could integrate discipline without losing herself.
+The positive outcome: she developed what she calls "safety systems," ways to honor her body's needs without losing her spontaneous spirit. The weight loss became proof that she could integrate discipline without losing herself.
 
 ## The "Lover Girl" and Irish Adventures
 
@@ -372,16 +372,8 @@ The Type 7 fear of being trapped in pain is real. The coping mechanism of consta
 
 **"The depth of perceptions contributes to existential struggles and mental health challenges,"** she's reflected on her podcast. She advocates for viewing mental health issues with empathy rather than romanticizing the "tortured artist" trope.
 
-This represents integrated Type 7 wisdom: acknowledging that the brightness and the darkness both exist, that the enthusiasm doesn't erase the anxiety, that authentic connection requires showing both.
-
 ---
 
-Brittany Broski turned an 8-second kombucha reaction into a multi-platform career by being genuinely herself. Scattered interests. Anxious energy. Bluegrass heart. Religious trauma. Irish romantic adventures. All of it.
-
-Her Type 7 psychology drives the constant expansion, the enthusiasm overflow, the instinct to transform pain into content. But her growth shows someone learning that depth and stillness aren't the enemies of joy.
-
-As she told her audience: **"Nobody's got you like your girls got you. CHERISH YOUR GIRLS!"**
-
-**What aspect of Brittany's personality resonates most with your own approach to handling life's challenges?**
+The detail that sticks: after the "Violating Community Guidelines" podcast ended abruptly in December 2023, and her creative partner Sarah Schauer went quiet, Brittany said nothing. A woman who processes getting fired live on camera, who turned a situationship into a debut single, who made her PCOS diagnosis into relatable content — stayed quiet. The Sarah Schauer chapter is the only story she hasn't made into content. Which is exactly the shape of something that actually hurt.
 
 > **Disclaimer:** This analysis of Brittany Broski's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Brittany Broski.

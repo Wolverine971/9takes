@@ -68,7 +68,7 @@ Most celebrities hide this. She weaponizes it.
 <summary class="accordion">TL;DR: Why Zendaya is an Enneagram Type 6</summary>
 <div class="panel">
 <ul>
-<li><b>Security through preparation:</b> Every career move is calculated. She didn't jump from Disney—she produced K.C. Undercover as a strategic bridge. She walked away from a platinum music single because the contracts and exposure weren't worth the risk. She researched Rue's psychology more than any actor Sam Levinson had worked with.</li>
+<li><b>Security through preparation:</b> Every career move is calculated. She didn't jump from Disney—she produced K.C. Undercover as a deliberate bridge. She walked away from a platinum music single because the contracts and exposure weren't worth the risk. She researched Rue's psychology more than any actor Sam Levinson had worked with.</li>
 <li><b>Anxiety as operating system:</b> She's openly discussed her anxiety since childhood. But instead of paralysis, she channels it into meticulous preparation—arriving at every role, every red carpet, every interview over-prepared. When Euphoria faced years of delays, she diversified into Dune, Challengers, and five other projects.</li>
 <li><b>Loyalty that borders on unusual:</b> Same stylist since age 14. Same core team. Same family-first values. In an industry that churns through relationships, her consistency is almost defiant.</li>
 <li><b>Skepticism of the machine:</b> She calls herself "Hollywood's acceptable version of a Black girl" and acknowledges her privilege openly. She questions industry norms, refuses to play the fame game, and maintains boundaries that most stars her age abandon for clout.</li>
@@ -89,7 +89,7 @@ Zendaya operates at the best end of this spectrum. And understanding this unlock
 
 **Why does she seem so grounded despite fame?** Because Type 6s don't get drunk on external validation. They're too busy scanning for what could go wrong.
 
-**Why the strategic career moves?** Type 6s don't leap without looking. They research. They prepare. They build bridges before burning old ones.
+**Why the calculated career moves?** Type 6s don't leap without looking. They research. They prepare. They build bridges before burning old ones.
 
 **Why the anxiety she openly discusses?** It's not a flaw she's managing. It's the engine that powers her preparation. She's learned to channel it rather than be controlled by it.
 
@@ -373,24 +373,18 @@ This is what growth looks like for Type 6s: recognizing that total control is im
 
 The shy kid who had to repeat kindergarten is now fielding calls from Christopher Nolan. The Disney star who could have crashed is picking her projects like a chess grandmaster. The self-proclaimed hermit is learning to face the day, one shower at a time.
 
-## What Zendaya Teaches Us About Type 6 Potential
+## How Anxiety Becomes a Career Strategy
 
 Most people treat anxiety as a bug to fix. Zendaya treats it as a feature to optimize.
 
-Her preparation isn't despite the anxiety. It's because of it. Her strategic thinking isn't separate from her fear of things going wrong. It's the direct response.
+Her preparation isn't despite the anxiety. It's because of it. The threat-scanning isn't separate from her fear of things going wrong. It's the direct response.
 
 Type 6s at their best don't stop scanning for threats. They get better at assessing which threats are real. They build systems of support. They find people worth trusting. They channel nervous energy into productive preparation rather than paralysis.
 
 And sometimes, they end up playing the goddess of wisdom and strategy in a Christopher Nolan epic.
 
-The control freak becomes the master strategist. The anxious kid becomes the prepared professional. The loyal skeptic finds people worth being loyal to.
+The kid who repeated kindergarten because she was too anxious to function in a classroom is now the person Christopher Nolan calls when he needs someone to carry a film. She didn't stop scanning for threats. She just got better at deciding which ones were worth running from — and which were worth running toward.
 
 That's not overcoming Type 6 tendencies. That's perfecting them.
-
----
-
-**What about you?** Do you recognize Zendaya's need for control and preparation in yourself? That voice that asks "what could go wrong?" before you commit? The loyalty that makes you hold onto people who've proven themselves?
-
-Understanding your own patterns might be the first step toward channeling them as effectively as she does.
 
 > **Disclaimer:** This analysis of Zendaya's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Zendaya.

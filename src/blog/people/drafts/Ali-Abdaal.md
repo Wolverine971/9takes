@@ -182,7 +182,7 @@ His brother Taimur pushes back on this, asking whether watching gear reviews is 
 
 The question for Ali is whether the guitar will ever just be a guitar. Something he does badly and happily, with no audience, no optimization framework, and no content strategy attached. For a Three, that kind of purposeless play might be the hardest achievement of all.
 
-## Ali Abdaal's Major Accomplishments
+## The Three's Paper Trail: What Achievement Looks Like From the Inside
 
 ### Feel-Good Productivity: Rewriting His Own Rules
 
@@ -255,5 +255,3 @@ Most people have some version of Ali's prestige calculator running in their head
 Ali makes this tension visible because he's unusually honest about it. He'll tell you the real reason alongside the good reason. He'll admit that without an audience, the work loses its meaning. He'll map his own prestige hierarchy out loud and then laugh at how absurd it is.
 
 That honesty is what makes him worth studying. Not because he's figured it out, but because he's figuring it out in public, with five million people watching. And the question he's wrestling with is the same one the Enneagram puts in front of every Three: Can you believe you're enough before the world confirms it?
-
-Do you recognize Ali's pattern in yourself? That voice that says you're only as good as your last achievement? Or do you relate more to the desire to help, to teach, to make someone's life better?

@@ -230,7 +230,7 @@ Nobody believed her.
 
 But something shifted. Despite the public conflict, AOC voted for Pelosi in both her 2018 and 2020 Speaker races. Pelosi gave AOC a seat on the powerful Oversight Committee.
 
-Type 6s understand strategic loyalty. You can distrust an authority figure and still recognize when you need them. You can challenge the system and work within it. Both can be true.
+Type 6s understand strategic loyalty. You can distrust an authority figure and still recognize when you need them. You can challenge the system and work within it. AOC does both, and she does it deliberately.
 
 ### "My Life Has Completely Transformed"
 
@@ -252,7 +252,7 @@ Pelosi saw AOC as a threat to party success. AOC saw Pelosi as an authority figu
 
 The irony? They actually share a goal: Democratic power. They just can't agree on what that power is for.
 
-## Major Accomplishments
+## What She Actually Built
 
 ### The Green New Deal
 
@@ -296,7 +296,7 @@ Counterphobic Sixes don't back down from fights they believe in. Even ones they 
 
 Some progressives accuse her of becoming too cozy with the Democratic establishment. Her willingness to work within party structures while maintaining outsider rhetoric creates tension.
 
-But this duality is itself a Type 6 survival strategy. Build alliances for security. Maintain the capacity to challenge when necessary. Both can be true.
+But this duality is itself a Type 6 survival strategy. Build alliances for security. Maintain the capacity to challenge when necessary. The alliances only work if the threat remains credible.
 
 ## The 2024 Election: Reading the Room
 
@@ -345,7 +345,5 @@ Now she grills billionaires in congressional hearings. Challenges her own party 
 The counterphobic tendencies explain the fearlessness. The loyalty explains the community-building. The skepticism explains the relentless questioning of authority.
 
 And beneath it all, the Type 6's deepest motivation: create the security she once lost. Not just for herself. For everyone without a safety net.
-
-What drives you? How might understanding your own patterns change what you think is possible?
 
 > **Disclaimer:** This analysis of Alexandria Ocasio-Cortez's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.

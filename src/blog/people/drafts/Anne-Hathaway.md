@@ -58,7 +58,7 @@ The answer lies in understanding her as an [Enneagram Type 1 – The Perfectioni
 <summary class="accordion">TL;DR: Why Anne Hathaway is an Enneagram Type 1</summary>
 <div class="panel">
 <ul>
-<li><b>Relentless Inner Critic:</b> Anne has spoken extensively about battling anxiety and depression since age 16, managing her perfectionist tendencies through obsessive preparation, and learning that "perfectionism is a form of self-harm."</li>
+<li><b>The Inner Critic, Always On:</b> Anne has spoken extensively about battling anxiety and depression since age 16, managing her perfectionist tendencies through obsessive preparation, and learning that "perfectionism is a form of self-harm."</li>
 <li><b>Moral Conviction Over Convenience:</b> When her brother came out as gay, her entire family left the Catholic Church rather than belong to an institution with "a limited view of my beloved brother." Type 1s prioritize principles over comfort.</li>
 <li><b>Self-Improvement as Life Mission:</b> From losing 25 unhealthy pounds for Les Misérables to quitting alcohol after one bad morning, Anne doesn't do half-measures. She commits fully or not at all.</li>
 <li><b>Wounded by Accusations of Inauthenticity:</b> The "Hathahate" backlash—being called "too perfect" and "fake"—cut to the core of a Type 1's deepest fear: being seen as corrupt or defective despite trying so hard to be good.</li>
@@ -185,7 +185,7 @@ But she took the risk. "I took my trust out for a ridiculous joyride with him. A
 
 They married in 2012. She describes the impact simply: "He changed my ability to be in the world comfortably."
 
-For a Type 1 whose inner critic is always on alert, finding someone who helps quiet that voice is invaluable. "He walks into a room, and I light up, I can't help it."
+For a Type 1 whose inner critic is always on alert, finding someone who quiets that voice matters more than any career decision. "He walks into a room, and I light up, I can't help it."
 
 Then came children—two sons, born in 2016 and 2019—and a confrontation with the limits of perfectionism.
 
@@ -236,50 +236,26 @@ The pattern is consistent: genuine warmth, fierce dedication, and a humility tha
 
 ## The Philosophy of a Reformed Perfectionist
 
-Anne's most revealing quotes show a woman who has done the internal work:
+The most honest thing Anne has said about her own psychology may be this: "There's something very addictive about people pleasing. It's a thought pattern and a habit that feels really, really good until it becomes desperate."
 
-**On people-pleasing:** "There's something very addictive about people pleasing. It's a thought pattern and a habit that feels really, really good until it becomes desperate."
+That word—desperate—is doing real work. It describes exactly what the Hathahate years looked like from the outside: a woman working harder and harder to be liked, making herself more and more visible, and somehow accelerating the backlash in the process. The people-pleasing engine only has one gear.
 
-**On self-compassion:** "Learning how to be kind to yourself while you're discovering who you are is something I wish for everybody. Not having all the answers, not knowing what to do, and making mistakes—those aren't reasons to beat yourself up."
+What followed was years of deliberate disengagement. "I stopped participating in things that I know to be draining or can cause spirals," she told an interviewer. "I actually don't have a relationship with myself online." For a Type 1 whose inner critic was already loud enough without external amplification, cutting off that feedback loop wasn't retreat—it was triage.
 
-**On her relationship with perfectionism:** "I've realized that my expectations of perfection are exactly that—mine. They don't have to be anyone else's."
-
-**On not participating in her own destruction:** "I stopped participating in things that I know to be draining or can cause spirals. I actually don't have a relationship with myself online."
-
-**On supporting other women:** "Be happy for women. Period. Especially be happy for high-achieving women. Like, it's not that hard."
-
-**On knowing herself:** "This is the first time I've known myself this well. I don't live in what others think of me. I know my own mind and I am connected to my own feelings. I'm way quicker to laugh now."
+The shift, when it came, was about scope. "I've realized that my expectations of perfection are exactly that—mine. They don't have to be anyone else's."
 
 ## The Enneagram Type 1 Growth Path in Action
 
 Type 1s at their healthiest don't abandon their principles—they hold them more lightly. They stop believing their standards are universal truths and start recognizing them as personal values that don't need to be imposed on others.
 
-Anne's journey follows this arc precisely:
+Anne's journey through this is not tidy. Early on, obsessive preparation was armor against anxiety—she controlled what she could because everything else felt dangerously uncertain. The Les Misérables transformation wasn't ambition. It was fear dressed up as dedication, and the Oscar didn't fix it. "I felt very uncomfortable... I had to stand up in front of people and feel something I don't feel which is uncomplicated happiness."
 
-**Early career:** Obsessive preparation as armor against anxiety. Extreme physical transformations. Winning awards but feeling unable to enjoy them.
+Then the Hathahate broke the model entirely. There was no amount of preparation that could manage internet sentiment, no standard to meet that would satisfy critics who'd decided she was performing earnestness. Working harder made it worse. The usual Type 1 response—_try harder, be better_—had run out of road.
 
-**The breaking point:** Public humiliation that couldn't be fixed by working harder. Forced retreat and reflection.
-
-**Recovery:** Finding a partner who quieted her inner critic. Choosing sobriety with Type 1 absolutism but Type 1 health. Recognizing perfectionism as self-harm through motherhood.
-
-**Now:** Still principled, still dedicated, but kinder to herself. Taking on more work than ever but from a place of genuine joy rather than desperate proving.
+What followed was slower: the partnership with Adam Shulman, who by her own account changed her "ability to be in the world comfortably." Sobriety at 35, decided the morning she dropped her son off at school while hungover. Motherhood, which brought her to the most plainly honest thing she's said: "perfectionism is a form of self-harm." Each of these was a Type 1 choosing to apply her standards inward rather than outward—toward a life that worked rather than a performance that impressed.
 
 "I feel like I keep blooming," she said recently. "I feel great—I feel better than I did in my 20s because I'm taking much better care of myself."
 
-## What Anne Hathaway Teaches Us About Type 1s
-
-Anne Hathaway's story isn't just celebrity biography—it's a case study in how Enneagram Type 1 personalities navigate a world that often misunderstands their earnestness.
-
-The Type 1's relentless self-improvement can look like vanity. Their preparation can look like overthinking. Their principles can look like rigidity. And their genuine desire to be good can look—to an internet primed for cynicism—like performance.
-
-But here's what the "Hathahate" crowd missed: Anne's perfectionism was never about them. It was always about her own internal battle with an inner critic that demanded she be better, do more, and never fall short.
-
-The beautiful irony? By finally letting go of trying to control how others saw her, she became more successful than ever.
-
-"Aging is another word for living," she says. "And what you do with it from there is personal and up to you."
-
-For Anne Hathaway, what she's doing with it is everything: five films in one year, over five years sober, two children she protects fiercely, a marriage that grounds her, and a clarity about who she is that took four decades to achieve.
-
-The inner critic is still there—it always is for Type 1s. But she's learned to quiet it. And in that quieting, she's found something the perfectionist in her never expected: peace with imperfection.
+The thing the Hathahate crowd never understood is that Anne's drive to be good was never about them. The inner critic that pushed her toward obsessive preparation, extreme physical transformation, and suffocating earnestness had been running long before any of them found her irritating. The internet caught a woman mid-battle with herself and mistook the struggle for performance. Now at 42—five films this year, five years sober, two kids she keeps off the internet entirely—she is the only version of herself that was ever actually sustainable: someone who still has standards, but applies them to living rather than to being perceived.
 
 > **Disclaimer:** This analysis of Anne Hathaway's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Anne Hathaway.

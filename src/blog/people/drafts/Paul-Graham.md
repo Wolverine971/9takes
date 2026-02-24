@@ -84,7 +84,7 @@ Graham was born in 1964 in Weymouth, England. His father designed nuclear reacto
 
 Pittsburgh was a place young people left. Graham absorbed that lesson early.
 
-His father's pivotal gift came around age nine or ten:
+His father's defining gift came around age nine or ten:
 
 > **"My father told me I could be whatever I wanted when I grew up, so long as I enjoyed it."**
 

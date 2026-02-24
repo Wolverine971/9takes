@@ -192,7 +192,7 @@ Five minutes later, the board of OpenAI fired him.
 
 No warning. No negotiation. The [statement](https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI) read: "The board no longer has confidence in his ability to continue leading OpenAI."
 
-His initial response, that evening: "I loved my time at OpenAI. It was transformative for me personally, and hopefully the world a little bit."
+His initial response, that evening: "I loved my time at OpenAI. It changed everything for me personally, and hopefully the world a little bit."
 
 Then, a few hours later, something more revealing:
 

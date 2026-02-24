@@ -58,7 +58,7 @@ Behind the acrobatics and the massive vocals sits a mind that never stops seekin
 <div class="panel">
 <ul>
 <li><b>Relentless experience-seeking:</b> From cliff jumping 629 feet off Auckland's Sky Tower to competitive diving to backflips off pianos, Boone's life revolves around the next rush.</li>
-<li><b>Self-acknowledged addictive personality:</b> He avoids all drugs and alcohol because he knows he'd go all in. His evidence? "Dude, candy." Classic Type 7 intensity.</li>
+<li><b>Self-acknowledged addictive personality:</b> He avoids all drugs and alcohol because he knows he'd go all in. His evidence? "Dude, candy." The same all-or-nothing intensity that drives the backflips governs his relationship with sugar.</li>
 <li><b>Fear of being trapped:</b> He quit American Idol despite Katy Perry predicting he'd win, left the Mormon Church, dropped out of college. All to avoid being defined by something he didn't choose.</li>
 <li><b>Reframing pain into positivity:</b> When online hate campaigns exploded, he leaned into humor instead of breaking down. Type 7s master the art of converting pain into something lighter.</li>
 <li><b>Multi-talented restlessness:</b> Self-taught on piano, guitar, drums, and bass. Studied architecture. Designs his own album art. Owns an ice cream truck. Cooks for fun. The man cannot sit still.</li>
@@ -223,7 +223,5 @@ The question hanging over Benson Boone isn't whether he's talented. His voice, h
 Growth, for someone wired like Boone, comes from stopping the motion and letting the uncomfortable feelings catch up. He's shown glimpses of this. "Beautiful Things" sits in fear rather than escaping it. His body image honesty, his ego checks, his sobriety: these don't belong to someone purely avoiding pain.
 
 They belong to someone learning that the most thrilling experience of all might be standing still.
-
-What do you think drives Benson Boone's constant motion? Is it joy, fear, or something deeper? Drop your take below and let's explore what makes this daredevil tick.
 
 > **Disclaimer:** This analysis of Benson Boone's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Benson Boone.

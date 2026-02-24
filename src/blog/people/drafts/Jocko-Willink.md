@@ -61,7 +61,7 @@ The answer lies in understanding the [Enneagram Type 8](/enneagram-corner/enneag
 <li><b>Confrontational Philosophy:</b> His advice to "go on the attack" and "move toward fear" reflects the 8's instinct to confront challenges head-on rather than avoid them.</li>
 <li><b>Protective Leadership:</b> From commanding Task Unit Bruiser to writing children's books, Jocko channels his intensity into protecting and developing others, a hallmark of healthy Type 8 integration.</li>
 <li><b>Rebel with a Cause:</b> His father predicted he'd "hate the military because you hate authority," yet Jocko succeeded by getting ahead of orders, transforming his anti-authoritarian nature into proactive leadership.</li>
-<li><b>Vulnerable Strength:</b> Despite his tough exterior, Jocko openly admits he "struggles with everything" and isn't "naturally gifted," showing the authentic vulnerability that distinguishes healthy 8s.</li>
+<li><b>Vulnerable Strength:</b> Despite his tough exterior, Jocko openly admits he "struggles with everything" and isn't "naturally gifted" — a frank admission that costs something from a man whose brand is invincibility.</li>
 <li><b>Hidden Grief:</b> On his 500th podcast episode, Jocko confessed to a live audience that he cries "like a child" thinking about his fallen men, asking "Is there something wrong with me?" five times, revealing the depth of emotion he systematically hides behind sunglasses and stoicism.</li>
 </ul>
 </div>
@@ -348,16 +348,13 @@ And on his podcast, he titled one episode "THE WORST CONVERSATION I'VE EVER HAD 
 
 That gap, between what people imagine and what's actually there, is the real Jocko. Not less intense than the brand. Just funnier, messier, more human, and more self-aware about the absurdity of his own intensity.
 
-## Major Accomplishments
+## What the Record Shows About a Type 8 at Full Force
 
-- **Commander of Task Unit Bruiser**: Led the most decorated Special Operations unit of the Iraq War during the Battle of Ramadi
-- **Silver Star and Bronze Star recipient**: Recognized for valor and heroic service in combat
-- **#1 New York Times Bestselling Author**: "Extreme Ownership" transformed leadership education across industries
-- **Jocko Podcast**: Over 500 episodes discussing discipline, leadership, and warfare, consistently ranked among top podcasts
-- **Echelon Front**: Built a successful leadership consulting firm training Fortune 500 companies
-- **Origin USA**: Co-founded a Maine-based company manufacturing American-made apparel, supplements, and fitness equipment
-- **BJJ Black Belt**: Earned under Dean Lister, has competed against elite practitioners like Jeff Monson
-- **Way of the Warrior Kid**: Children's book series teaching discipline and resilience, now being adapted into a feature film
+The arc from Ramadi to the bestseller list isn't random. Task Unit Bruiser became the most decorated Special Operations unit of the Iraq War — Jocko earned the Silver Star and Bronze Star for his role commanding it. Three wounded men begged to stay in his unit. That's the combat evidence for how Type 8 protection, ferocious and costly from the outside, lands on the people inside it.
+
+After retiring in 2010, he co-founded Echelon Front with Leif Babin and published _Extreme Ownership_, which hit #1 on the New York Times bestseller list and permanently shifted how corporate leadership training talks about accountability. Over 500 podcast episodes followed, consistently ranked among the top podcasts in their categories. Origin USA — the Maine-based manufacturing company he co-founded — and the _Way of the Warrior Kid_ children's series (now being adapted into a feature film) extended the same impulse: build something others can use.
+
+His BJJ black belt, earned under Dean Lister, matters less as a credential than as a demonstration: this is a man who continued competing against elite practitioners into his fifties, in a discipline where there are no shortcuts and no faking it. The 4:30 AM watch photos aren't separate from the record. They're the daily proof of the same thing everything else shows — a Type 8 who decided that control over his own existence was non-negotiable, and built a life to match.
 
 ## Controversies and Criticisms
 
@@ -425,11 +422,7 @@ It shows up in the tears he hides behind sunglasses. In the anger that comes bef
 
 And it shows up in the hardest lesson he ever learned: that the same intensity that made his men beg to stay on the battlefield made his children beg to leave the jiu-jitsu mat.
 
-When you understand the Type 8, Jocko's philosophy becomes less about discipline tricks and more about identity. He doesn't wake up early because it's effective. He wakes up early because **that's who he is**. He doesn't take ownership because it's a strategy. He takes ownership because the alternative, being at the mercy of something outside himself, is psychologically unbearable.
-
-The question isn't whether you should copy his routine. The question is: **What would your version of extreme ownership look like?**
-
-And what would you do when your greatest strength becomes your greatest liability?
+When you understand the Type 8, Jocko's philosophy becomes less about discipline tricks and more about identity. He doesn't wake up early because it's effective. He wakes up early because **that's who he is**. He doesn't take ownership because it's a strategy. He takes ownership because the alternative — being at the mercy of something outside himself — is psychologically unbearable.
 
 That's the real challenge Jocko puts before himself, and before anyone paying close enough attention.
 

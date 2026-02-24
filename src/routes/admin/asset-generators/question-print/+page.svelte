@@ -1,4 +1,4 @@
-<!-- src/routes/questionPrint/+page.svelte -->
+<!-- src/routes/admin/asset-generators/question-print/+page.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import QRCode from 'qrcode';
@@ -20,8 +20,8 @@
 		type: 'image/png',
 		margin: 1,
 		color: {
-			dark: '#333333',
-			light: '#ffffff'
+			dark: '#7c3aed',
+			light: '#0a0a0f'
 		}
 	};
 
@@ -134,7 +134,8 @@
 				justify-content: center;
 				align-items: center;
 				min-height: 100vh;
-				background: white;
+				background: #0a0a0f;
+				font-family: 'Noticia Text', Georgia, serif;
 			}
 
 			.print-container {
@@ -156,9 +157,10 @@
 
 			.question-container {
 				width: 100%;
-				background: linear-gradient(145deg, #ffffff, #f0f0f0);
+				background: linear-gradient(145deg, #1a1a2e, #252538);
+				border: 1px solid rgba(124, 58, 237, 0.2);
 				border-radius: 15px;
-				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+				box-shadow: 0 0 20px rgba(124, 58, 237, 0.15);
 				padding: 2rem;
 				margin-bottom: 1.5rem;
 				box-sizing: border-box;
@@ -168,7 +170,7 @@
 			.question-box {
 				width: 100%;
 				text-align: center;
-				color: #333;
+				color: #f8fafc;
 				font-weight: 700;
 				line-height: 1.4;
 				letter-spacing: 0.5px;
@@ -188,7 +190,7 @@
 				transform: translateX(-50%);
 				width: 60px;
 				height: 3px;
-				background: #0066cc;
+				background: #7c3aed;
 				border-radius: 2px;
 			}
 
@@ -202,17 +204,17 @@
 			.qr-image-small {
 				width: 100px;
 				height: 100px;
-				background-color: white;
+				background-color: #0a0a0f;
 				padding: 0.5rem;
-				border: 1px solid #eee;
+				border: 1px solid rgba(124, 58, 237, 0.3);
 				border-radius: 8px;
 			}
 
 			.qr-url-small {
 				margin-top: 0.5rem;
 				font-size: 0.8rem;
-				color: #444;
-				background: linear-gradient(145deg, #f0f0f0, #ffffff);
+				color: #94a3b8;
+				background: #1a1a2e;
 				padding: 0.2rem 0.5rem;
 				border-radius: 4px;
 			}
@@ -243,10 +245,10 @@
 				<div class="print-container">
 					<div class="mini-brand">
 						<svg width="30" height="30" viewBox="0 0 50 50" style="margin: 0.5rem">
-							<rect x="5" y="5" width="16" height="16" fill="#0066cc" />
-							<rect x="29" y="5" width="16" height="16" fill="#9900cc" />
-							<rect x="5" y="29" width="16" height="16" fill="#cc0066" />
-							<rect x="29" y="29" width="16" height="16" fill="#cc9900" />
+							<rect x="5" y="5" width="16" height="16" fill="#7c3aed" />
+							<rect x="29" y="5" width="16" height="16" fill="#8b5cf6" />
+							<rect x="5" y="29" width="16" height="16" fill="#3b82f6" />
+							<rect x="29" y="29" width="16" height="16" fill="#06b6d4" />
 						</svg>
 						<svg width="120" height="30" viewBox="0 0 120 30">
 							<text
@@ -255,7 +257,7 @@
 								font-family="Noticia Text"
 								font-size="24"
 								font-weight="bold"
-								fill="#333"
+								fill="#f8fafc"
 							>
 								9takes
 							</text>
@@ -410,16 +412,17 @@
 
 	/* Controls Section */
 	.controls {
-		background: white;
-		border-radius: 15px;
+		background: var(--void-surface, #1a1a2e);
+		border: 1px solid var(--void-elevated, #252538);
+		border-radius: var(--border-radius-lg, 0.75rem);
 		padding: 2rem;
-		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+		box-shadow: var(--shadow-lg, 0 10px 15px rgba(0, 0, 0, 0.5));
 	}
 
 	.controls h1 {
 		margin-top: 0;
 		margin-bottom: 1.5rem;
-		color: var(--darkest-gray, #333);
+		color: var(--text-primary, #f8fafc);
 	}
 
 	.controls.hidden {
@@ -434,22 +437,43 @@
 		display: block;
 		margin-bottom: 0.5rem;
 		font-weight: 600;
+		color: var(--text-secondary, #94a3b8);
 	}
 
 	.form-group input,
 	.form-group textarea {
 		width: 100%;
 		padding: 0.75rem;
-		border: 1px solid var(--light-gray, #ddd);
-		border-radius: 8px;
+		background: var(--void-deep, #12121a);
+		border: 1px solid var(--void-elevated, #252538);
+		border-radius: var(--border-radius, 0.5rem);
 		font-size: 1rem;
+		color: var(--text-primary, #f8fafc);
+		font-family: inherit;
+	}
+
+	.form-group input::placeholder,
+	.form-group textarea::placeholder {
+		color: var(--text-tertiary, #64748b);
 	}
 
 	.form-group input:focus,
 	.form-group textarea:focus {
 		outline: none;
-		border-color: var(--accent, #0066cc);
-		box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+		border-color: var(--shadow-monarch, #7c3aed);
+		box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.25);
+	}
+
+	.form-group input[type='range'] {
+		accent-color: var(--shadow-monarch, #7c3aed);
+		padding: 0;
+		background: transparent;
+		border: none;
+	}
+
+	.form-group input[type='file'] {
+		padding: 0.5rem;
+		cursor: pointer;
 	}
 
 	.button-group {
@@ -461,29 +485,32 @@
 	.btn {
 		padding: 0.75rem 1.5rem;
 		border: none;
-		border-radius: 8px;
+		border-radius: var(--border-radius, 0.5rem);
 		font-weight: 600;
 		font-size: 1rem;
 		cursor: pointer;
-		transition: all 0.2s ease;
+		transition: var(--transition-glow, all 0.3s ease);
 	}
 
 	.btn.preview {
-		background-color: var(--accent, #0066cc);
-		color: white;
+		background-color: var(--shadow-monarch, #7c3aed);
+		color: var(--text-on-primary, #ffffff);
+		box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
 	}
 
 	.btn.preview:hover {
-		background-color: #0055aa;
+		background-color: var(--shadow-monarch-dark, #6d28d9);
+		box-shadow: var(--glow-md, 0 0 20px rgba(124, 58, 237, 0.5));
 	}
 
 	.btn.print {
-		background-color: var(--dark-gray, #444);
-		color: white;
+		background-color: var(--system-interface, #3b82f6);
+		color: var(--text-on-primary, #ffffff);
 	}
 
 	.btn.print:hover {
-		background-color: #333333;
+		background-color: var(--system-interface-dark, #2563eb);
+		box-shadow: var(--glow-blue, 0 0 20px rgba(59, 130, 246, 0.5));
 	}
 
 	.btn.print:disabled {
@@ -493,10 +520,11 @@
 
 	/* Poster Section */
 	.poster-container {
-		background: white;
-		border-radius: 15px;
+		background: var(--void-deep, #12121a);
+		border: 1px solid var(--void-elevated, #252538);
+		border-radius: var(--border-radius-lg, 0.75rem);
 		padding: 3rem 2rem;
-		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+		box-shadow: var(--shadow-lg, 0 10px 15px rgba(0, 0, 0, 0.5));
 		position: relative;
 		overflow: hidden;
 		display: flex;
@@ -536,12 +564,21 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background: linear-gradient(145deg, #ffffff, var(--light-gray, #f0f0f0));
-		border-radius: 15px;
-		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+		background: linear-gradient(
+			145deg,
+			var(--void-surface, #1a1a2e),
+			var(--void-elevated, #252538)
+		);
+		border: 1px solid rgba(124, 58, 237, 0.2);
+		border-radius: var(--border-radius-lg, 0.75rem);
+		box-shadow: 0 0 20px rgba(124, 58, 237, 0.1);
 		padding: 2rem 1.5rem;
 		margin-bottom: 2rem;
-		transition: all 0.3s ease;
+		transition: var(--transition-glow, all 0.3s ease);
+	}
+
+	.question-container:hover {
+		box-shadow: 0 0 30px rgba(124, 58, 237, 0.2);
 	}
 
 	@media (max-width: 576px) {
@@ -553,7 +590,7 @@
 	.question-box {
 		width: 100%;
 		text-align: center;
-		color: var(--darkest-gray, #333);
+		color: var(--text-primary, #f8fafc);
 		font-weight: 700;
 		line-height: 1.4;
 		letter-spacing: 0.5px;
@@ -571,7 +608,7 @@
 		transform: translateX(-50%);
 		width: 60px;
 		height: 3px;
-		background: var(--accent, #0066cc);
+		background: var(--shadow-monarch, #7c3aed);
 		border-radius: 2px;
 	}
 
@@ -588,18 +625,18 @@
 	.qr-image {
 		width: 150px;
 		height: 150px;
-		border-radius: var(--base-border-radius, 8px);
-		background-color: white;
+		border-radius: var(--base-border-radius, 0.5rem);
+		background-color: var(--void-abyss, #0a0a0f);
 		padding: 0.5rem;
-		border: 1px solid var(--base-white-outline, #eee);
+		border: 1px solid rgba(124, 58, 237, 0.3);
 	}
 
 	.qr-url {
 		margin-top: 0.5rem;
 		font-size: 0.9rem;
-		color: var(--dark-gray, #444);
-		border-radius: 0.5rem;
-		background: linear-gradient(145deg, var(--light-gray, #f0f0f0), #ffffff);
+		color: var(--text-secondary, #94a3b8);
+		border-radius: var(--border-radius, 0.5rem);
+		background: var(--void-surface, #1a1a2e);
 		padding: 0.2rem 0.5rem;
 	}
 </style>

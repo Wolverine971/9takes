@@ -68,7 +68,7 @@ Before she was famous, before the tape, before [Kanye](/personality-analysis/Kan
 
 That word, _chose_, matters. Kim doesn't describe her father's restraint as something that happened to him. She describes it as a decision he made, repeatedly, under pressure. Silence as active strategy. Absorbing the blow as a form of leadership.
 
-When her parents divorced, Kim was a kid. She never heard them fight. She never saw loyalty tests. She just knew there were two houses with different rules and she was never confused by it. That seamless experience became the blueprint she is now trying to replicate for her own kids under far harder conditions.
+When her parents divorced, Kim was a kid. She never heard them fight. She never saw loyalty tests. She just knew there were two houses with different rules and she was never confused by it. That unbroken experience became the blueprint she is now trying to replicate for her own kids under far harder conditions.
 
 > "She was like, 'You're just like your dad.' She was saying how my dad was just so calm about situations."
 
@@ -290,8 +290,6 @@ The father who modeled composure. The mother who modeled ambition. The tape that
 
 Kim Kardashian's story isn't about fame. It's about what happens when someone who has spent their entire life engineering control discovers that the things that matter most, her children's safety, her own peace, the ability to sit with someone on death row and just listen, are the things that cannot be controlled at all.
 
-Seeing patterns in someone else's life is often the first step to recognizing your own. If you're curious, start with our [personality quiz](/questions).
-
 > "I think there comes a time in your life when you have to choose yourself. And once you find what that is, it doesn't mean you're choosing yourself in a selfish way. It's actually the opposite."
 
-Kim is still learning. And the fact that she says so, out loud, on camera, to millions of people, might be the most unmanaged thing she's ever done.
+Kim is still learning. And the fact that she says so, out loud, on camera, to millions of people.

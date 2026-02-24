@@ -62,7 +62,7 @@ That wasn't just business strategy. That was Schulz showing you exactly who he i
 <div class="panel">
 <ul>
 <li><b>Fear of Limitation Drives Everything:</b> Schulz's entire career is built on refusing to be constrained. Not by networks. Not by platforms. Not by cultural expectations. That fear of limitation? It's the core fear of every Type 7.</li>
-<li><b>Reframes Pain as Opportunity:</b> When venues cancel him or platforms demand edits, Schulz transforms rejection into fuel. His "Infamous" special buyback turned a setback into his biggest win. Classic Type 7 positive reframing.</li>
+<li><b>Reframes Pain as Opportunity:</b> When venues cancel him or platforms demand edits, Schulz transforms rejection into fuel. His "Infamous" special buyback turned a setback into his biggest win. Type 7 positive reframing, executed at the highest level.</li>
 <li><b>Never in One Lane:</b> Podcasting, stand-up, acting, YouTube, merchandise. Schulz refuses to stay in one box. Type 7s are generalists who fear missing out and need variety to feel alive.</li>
 <li><b>The 8 Wing Shows Up in Battle:</b> Unlike gentler Type 7s, Schulz's 7w8 configuration makes him confrontational, willing to clash with anyone who threatens his autonomy. "The future is ownership, not censorship" is pure Type 8 energy.</li>
 <li><b>Uses Insecurity as Fuel:</b> Schulz openly discusses needing both confidence AND insecurity to succeed. This self-awareness about his inner turmoil reflects the Type 7's relationship with their own anxiety.</li>
@@ -140,14 +140,7 @@ Joe Rogan has appeared on Flagrant. Schulz has been on The Joe Rogan Experience 
 
 This isn't a comedian isolated from the scene. He's connected to the biggest names, just on his own terms.
 
-The formula was simple:
-
-- Own your content
-- Build direct relationships with audiences
-- Diversify revenue streams (Patreon, merch, touring, YouTube)
-- Never give anyone the power to tell you no
-
-His 2018 album "5:5:1" hit #1 on iTunes, Apple Music, Google Play, Amazon, and the Billboard comedy charts. His Netflix special "Schulz Saves America" premiered in December 2020.
+His 2018 album "5:5:1" hit #1 on iTunes, Apple Music, Google Play, Amazon, and the Billboard comedy charts — not through a label push, through an audience he'd spent years building on YouTube while networks weren't interested. His Netflix special "Schulz Saves America" premiered in December 2020.
 
 And then came the Trump interview.
 
@@ -201,7 +194,7 @@ No analysis of Schulz would be complete without addressing the controversies. An
 
 Schulz's response? He doubled down on Flagrant, making sexual jokes about Kendrick and saying "the only thing he could do is decide if it's consensual or not." Four months later on The Breakfast Club, he was still making references to wanting to "make love" to Lamar, this time referencing Kendrick's Super Bowl halftime outfit.
 
-Classic 7w8: attacked, so attack harder.
+That's 7w8: attacked, so attack harder. Louder, this time.
 
 **Venue cancellations:** Massey Hall in Toronto canceled his shows after "researching" his material. The Brooklyn Academy of Music canceled his special after he hosted Trump on Flagrant.
 
@@ -235,20 +228,6 @@ But his 2025 Netflix special "LIFE" shows a different Schulz. The material focus
 
 That's growth. Type 7s have to learn that depth and commitment don't mean limitation. Some of life's best stuff requires staying put rather than moving on.
 
-## What Andrew Schulz's Success Reveals
-
-Schulz hasn't just built a career. He's created a blueprint. Other comedians now follow his model of direct-to-audience distribution, diversified revenue, and ownership over content.
-
-But what makes his psychology work?
-
-**1. He's honest about his motivations.** Schulz knows he's driven by both confidence and insecurity. He doesn't pretend to be beyond human psychology.
-
-**2. He channels fear into action.** Where other Type 7s might distract themselves from anxiety, Schulz uses it as fuel for improvement and competition.
-
-**3. He's built structures that match his psychology.** Rather than fighting his need for independence, he created a business model that gives him complete autonomy.
-
-**4. He's learned when to fight and when to build.** The 8 wing could make him purely combative, but he's channeled that energy into construction, not just destruction.
-
 ## The Question Beneath the Jokes
 
 Strip away the controversial material and the business empire. What you find is someone deeply afraid of being limited.
@@ -257,8 +236,6 @@ And he's very, very good at making sure he never is.
 
 Every joke that pushes boundaries, every platform he builds, every deal he walks away from comes back to the same thing: **making sure no one can tell Andrew Schulz what he's allowed to say or who he's allowed to be.**
 
-Is that admirable independence or destructive defiance? Depends on whether you like his jokes.
+Schulz hasn't just built a career. He's built a structure specifically engineered around his own psychology. The 7w8 who can't stand being trapped didn't fight the feeling — he made it architecturally impossible for anyone to put a ceiling on him. Direct distribution. Owned content. No network with veto power. When the Brooklyn Academy of Music dropped him after the Trump episode, he booked the Beacon Theatre. Bigger room, no apology.
 
-But look past the controversy and you see something most people can relate to: the need for freedom, the fear of constraint, and how far we'll go to protect our autonomy.
-
-What would you build if you refused to let anyone tell you no?
+The 2025 Netflix special "LIFE" complicates this neatly. The material is about IVF, fatherhood, Emma. Softer material, not his comfort zone. Critics called the shift awkward. Schulz kept going anyway. A 7w8 who's genuinely maturing doesn't abandon the fight — he expands what he's willing to fight for.

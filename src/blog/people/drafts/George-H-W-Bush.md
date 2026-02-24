@@ -70,13 +70,13 @@ The 41st President of the United States embodied the [Enneagram Type 6](/enneagr
 
 ### George H.W. Bush is an Enneagram Type 6 (The Loyalist)
 
-Type 6 individuals are defined by their fundamental desire for security and support. They are the alliance-builders of the Enneagram, naturally inclined to create networks of trust that can weather any storm. At their best, they are courageous, responsible, and deeply committed. At their worst, they can become anxious, suspicious, and paralyzed by doubt.
+The [Enneagram Type 6](/enneagram-corner/enneagram-type-6) is driven by a fundamental need for security — not personal safety, but structural safety. They build alliances because alliances hold. They defer to institutions because institutions outlast individuals. And when the security structure they've built is threatened, they can either freeze or fight back harder than anyone expects.
 
-Bush exemplified the healthiest expressions of Type 6 energy: the dutiful public servant who put country before self, the coalition-builder who understood that lasting security comes through partnerships, and the devoted family man who prioritized relationships above ambition.
+Bush did both at different points in his life. He froze on the "Read My Lips" promise when the budget math terrified him. He fought back hard when Dan Rather cornered him on Iran-Contra.
 
-His mother Dorothy's famous rule against boasting—"I don't want to hear any more about the Great I Am", perfectly captures how Type 6 humility was instilled in him from childhood. Where other personality types might announce their accomplishments, Bush deflected credit and emphasized teamwork.
+His mother Dorothy's rule against boasting — "I don't want to hear any more about the Great I Am" — captures how Type 6 programming gets installed. You learn early that the group matters more than you do. That credit should be deflected. That stepping into the spotlight is vaguely embarrassing. Bush absorbed this so completely that even as Vice President, his then-86-year-old mother was still calling to remind him: "You're talking about yourself too much, George."
 
-## George H.W. Bush's Upbringing: The Making of a Loyalist
+## Forged in Greenwich: The Making of a Loyalist
 
 ### Privilege with Purpose
 
@@ -98,7 +98,7 @@ Prescott Bush modeled public service as a sacred duty. He served as moderator of
 
 The Prescott Bush household taught that you serve institutions. You don't use them as stepping stones. You build coalitions. You don't go it alone. You keep your promises, even when it hurts.
 
-## George H.W. Bush's Rise to Fame
+## Before the White House: Combat, Marriage, and Oil
 
 ### WWII: The Youngest Pilot's Courage
 
@@ -130,15 +130,13 @@ This is classic Type 6 behavior, seeking independence while maintaining security
 
 During this period, Bush became deeply involved in civic activities, serving on committees for the Midland Exchange Club, the Community Theater, and the American Cancer Society. He served as a ruling elder at First Presbyterian Church and even managed the local American Legion baseball team. The coalition-builder was already at work.
 
-## George H.W. Bush's Personality: The Loyalist in Action
+## The Loyalist in Action
 
-### The Mind of a Type 6 Leader
+### Horseshoes as Leadership Philosophy
 
-Type 6s approach the world through a lens of trust and security. They constantly assess: Who can be relied upon? What are the potential threats? How can we build stronger alliances?
+Colin Powell captured Bush perfectly: "He was competitive. If you tried to play horseshoes with him, you'd see how competitive he can be." Bush was so devoted to horseshoes that he had courts installed at the White House and Camp David. When Queen Elizabeth II visited in 1991, she brought him a silver-plated horseshoe set. In 1992, he hosted the Super Bowl champion Washington Redskins for a late-night horseshoe tournament. And threw a ringer to win.
 
-Colin Powell captured Bush's leadership style perfectly: "He was competitive. If you tried to play horseshoes with him, you'd see how competitive he can be." Bush was so devoted to horseshoes that he had courts installed at the White House and Camp David. When Queen Elizabeth II visited in 1991, she brought him a silver-plated horseshoe set. In 1992, he hosted the Super Bowl champion Washington Redskins for a late-night horseshoe tournament. And threw a ringer to win.
-
-But this competitiveness was always channeled through team-building. Bush's approach was never "I'll do it myself" but rather "Who should be on this team?"
+The competitiveness was real. But it was always funneled into the game, never into self-promotion. Bush's instinct was never "I'll handle this" — it was "who should be on this team, and how do I get them there." That distinction defined every major decision of his public life.
 
 ### The Thousand Points of Light Philosophy
 
@@ -160,7 +158,7 @@ Barbara credited George with saving her: "I crumbled completely, and he took car
 
 Sixty-five years later, the family reinterred Robin's remains at the Bush Presidential Library in Texas. "It seems funny after almost 50 years since her death how dear Robin is to our hearts," Bush said.
 
-## Major Accomplishments: The Coalition-Builder's Legacy
+## Building Security Through Alliance
 
 ### CIA Director: Rebuilding Trust
 
@@ -190,9 +188,9 @@ Bush's foreign policy achievements extend far beyond the Gulf War. He managed th
 
 His approach was typically understated. "I've got to be careful not to be seen as doing things that [would] complicate the lives of the Soviets," he said. Rather than declaring victory, he focused on building relationships with emerging leaders like Boris Yeltsin and ensuring the transition was peaceful.
 
-This quiet competence would become both his strength and his political weakness. Americans rarely saw the phone calls, the personal diplomacy, the careful coalition-building. They saw only the results. And sometimes wondered what Bush actually did.
+This quiet competence was his greatest strength and his fatal political liability. Americans don't see phone calls. They see press conferences. They saw a Cold War ending, a Soviet empire dissolving, and a president who refused to spike the ball — and they wondered if he'd done anything at all. He had. He'd just done it the way Type 6s do everything: through relationships, behind the scenes, without taking the credit.
 
-## Controversies and Challenges: The Type 6's Dilemmas
+## Where the Loyalist Cracked
 
 ### "Read My Lips: No New Taxes"
 
@@ -210,15 +208,21 @@ This decision reveals the Type 6's deepest conflict. Loyalty to his word clashed
 
 Conservative supporters felt betrayed. Patrick Buchanan mounted a primary challenge in 1992. The broken promise became Exhibit A in the case against Bush's reelection.
 
-### The Iran-Contra Shadow
+### The Iran-Contra Contradiction
 
-The Iran-Contra scandal, which exploded in 1986, cast a long shadow over Bush's political career. The affair involved selling missiles to Iran (to secure hostage releases) and illegally funneling proceeds to Nicaraguan Contra rebels.
+This is where the Type 6 psychology gets uncomfortable to look at directly.
 
-As Vice President, Bush participated in more than a dozen meetings where the weapons sales were discussed. He acknowledged some responsibility for the Iran arms deal. But he steadfastly maintained he knew nothing of the illegal money laundering for the Contras.
+The Iran-Contra affair involved selling missiles to Iran — a state sponsor of terrorism — and illegally funneling the proceeds to Nicaraguan Contra rebels. Bush participated in more than a dozen meetings where the weapons sales were discussed. He later acknowledged some responsibility for the Iran arms deal while maintaining he knew nothing of the illegal money laundering for the Contras.
 
-His most famous defense came in a combative 1988 interview with Dan Rather, where Bush aggressively pushed back against the suggestion he had lied about his knowledge.
+But the real Type 6 story isn't about what he knew. It's about how a man whose entire identity was built on institutional loyalty could rationalize supporting a covert operation that undermined the very institutions he worshiped.
 
-Later, as president, Bush issued controversial pardons for six Reagan administration officials charged with Iran-Contra crimes, a decision that critics viewed as a cover-up and defenders saw as healing a national wound.
+Here's the mechanism: Type 6s don't experience loyalty as a single obligation. They experience it as a hierarchy of loyalties, constantly being weighed against each other. Reagan was the president. The chain of command demanded deference. The Contras were fighting Communism. The CIA, the institution Bush had personally restored, was running the operation. Supporting the rebels could be reframed not as betraying American law but as serving a higher security interest — the kind of threat-based reasoning that Type 6 anxiety makes feel absolutely necessary in the moment.
+
+Bush told himself this was prudent. That the threat was real. That the institutional players involved were trustworthy. Every one of those rationalizations is a Type 6 move.
+
+Then came the pardons. As president, Bush pardoned six Reagan officials charged with Iran-Contra crimes — including former Defense Secretary Caspar Weinberger, whose trial was expected to reveal what Bush himself knew. Special Prosecutor Lawrence Walsh called it "the completion of a cover-up." Bush called it healing. The Type 6 never stops protecting the network, even when the network is what got everyone in trouble.
+
+His most revealing moment came in a combative 1988 interview with Dan Rather, where he pushed back hard against any suggestion he had lied. The aggression was real. Type 6s attacked when cornered — it's the counterphobic response, fight rather than freeze. But the underlying anxiety that produced it never went away. His diary entries from the period, released posthumously, show a man in genuine torment about the gap between his public image of honor and what he knew he had been part of.
 
 ### The "Wimp Factor"
 
@@ -232,44 +236,40 @@ But the wimp label never fully disappeared. His prudent approach to the Soviet c
 
 Looking back, reporter Margaret Warner, who wrote the original "wimp" story, reflected: "We see qualities in George Bush that were not appreciated at the time: the modesty, the ability to reach out to the other side, to try to include everyone."
 
-## George H.W. Bush's Legacy and Final Years
+## After the Fall
 
 ### The 1992 Defeat
 
-Bush's reelection campaign in 1992 was, by his own admission, "lackluster." The broken tax pledge had fractured his conservative base. Patrick Buchanan's primary challenge wounded him. Ross Perot's independent candidacy split the anti-Clinton vote. And Bill Clinton hammered away at one message: "It's the economy, stupid."
+Bush's reelection campaign in 1992 was, by his own admission, "lackluster." The broken tax pledge had fractured his conservative base. Patrick Buchanan drew blood in the primaries. Ross Perot's independent run split the center-right vote three ways. And Clinton had one message on repeat: "It's the economy, stupid."
 
-Bush lost with 37.4% of the vote to Clinton's 43% and Perot's 19%.
+37.4% of the vote. A sitting wartime president, humiliated.
 
-The defeat stung deeply. But in typical Type 6 fashion, Bush handled the transition with grace, writing a famous note to Clinton: "You will be our President when you read this note... Your success now is our country's success. I am rooting hard for you."
+The defeat stung. But Bush handled the transition with characteristic Type 6 grace, leaving Clinton a private note in the Oval Office: "You will be our President when you read this note... Your success now is our country's success. I am rooting hard for you." His opponent. His successor. He was already rooting for him.
 
 ### The Longest Goodbye
 
-In his post-presidential years, Bush embraced causes that reflected his core values. He and Clinton: the man who defeated him, became unlikely friends, working together on disaster relief and humanitarian efforts. Their partnership symbolized Bush's ability to transcend partisan bitterness in service of larger goals.
+In retirement, Bush and Bill Clinton — the man who demolished him in 1992 — became genuine friends. They traveled together after the 2004 tsunami and Hurricane Katrina, raising hundreds of millions in relief funds. Clinton called him "a man I respect enormously." The Type 6 coalition-builder, still building coalitions, this time with his political enemy.
 
-Bush took up skydiving, making jumps on his 75th, 80th, 85th, and 90th birthdays. The man once called a wimp was jumping out of airplanes well into his tenth decade.
+He also took up skydiving. Jumps on his 75th, 80th, 85th, and 90th birthdays. The man Newsweek once labeled a wimp was jumping out of airplanes at 90. That detail never gets old.
 
-Barbara Bush died on April 17, 2018, at age 92. George was by her side, holding her hand, having told her "I love you, Barbie" as he did every night of their 73-year marriage.
+Barbara died on April 17, 2018. George was beside her, holding her hand. He had told her "I love you, Barbie" every night of their 73-year marriage, and that night was no different. He outlasted her by seven months.
 
-George followed on November 30, 2018, at age 94. He was the longest-lived president in American history at the time of his death. His last words, spoken to his son George W., were "I love you, too."
+His last words, spoken to his son George W. by phone on November 30, 2018, were "I love you, too." He was 94. The longest-lived president in American history.
 
-He was buried beside Barbara and Robin at the Bush Presidential Library in Texas, reunited with the family he loved above all else.
+He was buried beside Barbara and Robin at the Bush Presidential Library — the wife he wrote love letters to, and the three-year-old daughter who never left his mind in 65 years.
 
-### The Brightest Point of Light
+## The Son Who Broke at the Podium
 
-At his state funeral, historian Jon Meacham offered the eulogy: "His life code, as he said, was 'tell the truth, don't blame people, be strong, do your best, try hard, forgive, stay the course.'"
+At the Washington National Cathedral on December 5, 2018, George W. Bush delivered his father's eulogy. He had been composed through most of it — steady, presidential. Then he reached the final lines:
 
-George W. Bush, fighting back tears, closed his tribute to his father with words that captured the essence of the Type 6 devoted to service:
+"The best father a son or daughter could have. And in our grief, let us smile knowing that Dad is hugging Robin and holding Mom's hand again."
 
-"He showed me what it means to be a president who serves with integrity, leads with courage, and acts with love in his heart for the citizens of our country. And when the history books are written, they will say that George H.W. Bush was a great president of the United States, a diplomat of unmatched skill, a commander in chief of formidable accomplishment, and a gentleman who executed the duties of his office with dignity and honor... The best father a son or daughter could have. And in our grief, let us smile knowing that Dad is hugging Robin and holding Mom's hand again."
+He broke. Voice cracking, shoulders shaking, fighting to hold it together in front of the nation. The former president who had gone to war in the same region his father had refused to overrun, who had spent years in his father's complicated shadow, who could not get through the last sentence without falling apart.
 
-## Conclusion: The Loyalist's Lasting Lesson
+That's the whole picture. That's what the coalition-building and the horseshoe courts and the "How did the team do, dear?" and the 73 years of letters to "Darling Bar" — that's what it all pointed toward. Not the presidency. Not the polling numbers. The family at the center of it.
 
-George H.W. Bush's life offers a profound study in the strengths and vulnerabilities of the Type 6 personality. His coalition-building created security for nations. His loyalty sustained a 73-year marriage. His sense of duty drove him through combat, crisis, and the constant demands of public service.
+George H.W. Bush spent his entire life building structures of trust. In institutions, in alliances, in the people around him. The Type 6 at his most integrated: not anxious and grasping for security, but actually providing it — to nations, to the CIA in crisis, to a grieving wife who "crumbled completely." He was the person others could count on when things fell apart.
 
-But his very virtues created political liabilities. His humility looked like weakness. His prudence seemed like passivity. His willingness to compromise for the greater good cost him reelection.
-
-Perhaps the deepest lesson of Bush's life is this: the qualities that make for genuine leadership, patience, coalition-building, principled compromise, humble service, are not always the qualities that win elections or earn immediate acclaim. History has been kinder to Bush than the voters of 1992.
-
-What does it mean to build alliances in your own life? When has loyalty to a principle conflicted with loyalty to a promise? And in a world that often rewards the loudest voice, what value do we place on those who ask "How did the team do, dear?"
+The voters in 1992 decided they needed something else. They were probably right, for 1992. History decided differently. And in the end, the measure wasn't the 35-nation coalition or the diplomatic restraint or even the broken tax pledge. It was a son, unable to finish a sentence, in a cathedral full of the people his father had held together.
 
 > **Disclaimer:** This analysis of George H.W. Bush's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.

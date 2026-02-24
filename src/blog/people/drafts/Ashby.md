@@ -139,7 +139,7 @@ Distractify called her "too wholesome to be cancelled." Other creators openly ce
 
 ## Who She Is When the Camera Stops
 
-Ashby has ADHD and a motor tic disorder. She frames the tic as an "easter egg" for viewers to spot in her videos — classic Type 7 reframing of a vulnerability into a game.
+Ashby has ADHD and a motor tic disorder. She frames the tic as an "easter egg" for viewers to spot in her videos — a Type 7 move: make the vulnerability a game, give the audience something to hunt, defuse the awkwardness by naming it first.
 
 Her current hyperfixation, she told Betches, is cats — "in like a normal cat person kinda way" — which translates to obsessively scrolling shelter listings. Even the hobbies have that all-consuming Type 7 intensity: nothing casual, everything devouring.
 
@@ -151,11 +151,9 @@ For a Type 7 who spent her childhood watching doors close despite doing everythi
 
 ## Where She Is Now
 
-By late 2025, the doors were opening faster than she could walk through them. She appeared on Apple TV's Palm Royale Season 2 celebration in West Hollywood. She became a recurring presence on Smosh — multiple episodes of Try Not To Laugh, Board AF, and Bit City, where she was credited as playing "Walter White." She joined Cameo. Her TikTok following hit 2.5 million.
+By late 2025, the TikTok following had hit 2.5 million, Smosh was booking her regularly (Try Not To Laugh, Board AF, Bit City — she played "Walter White"), and she'd moved from the margins of entertainment to its center in under six months. She told Fourthwall: "People crave realness in a, frankly, fake world."
 
 The parents who drove their kid from Virginia to New York for auditions that never went anywhere haven't spoken publicly about the blowup. But consider the arithmetic: they invested years of drives, missed school days, late-night self-tapes, and intensive camps into a dream that stalled for the entirety of their daughter's adolescence. Then a Sharpie goatee and a fever did what all of it couldn't. For the Type 7, the reframe is clean — "the scenic route got me there." For the parents, the emotional math is probably more complicated.
-
-No Broadway deal has been announced. No TV series. But she's moved from the margins of entertainment to its center in under six months, and the trajectory is still accelerating. She told Fourthwall: "People crave realness in a, frankly, fake world."
 
 The realest thing about Ashby Florence is the contradiction she can't quite see: a woman who describes herself as insecure, who says her favorite character to play is "myself," who trained her entire life to perform — and broke through the moment she stopped performing and just played. She's still learning the one role nobody else can understudy.
 

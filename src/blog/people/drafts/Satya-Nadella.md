@@ -109,7 +109,7 @@ That sentence is the hinge of Satya Nadella's entire life. Everything before it 
 
 Through Buddhism, he found a framework for this new terrain. He discovered that "Buddha did not set out to found a world religion. He set out to understand why one suffers." For Nadella, that distinction mattered — suffering not as theology but as a problem to investigate. Even his path to empathy ran through the intellect. He didn't just feel his way there. He studied his way to the edge and then, finally, jumped.
 
-He wrote about all of this in his 2017 book _Hit Refresh_, a surprisingly candid account of both his inner life and Microsoft's cultural transformation. The book's core argument is that empathy isn't a soft skill — it's the hardest skill, and the one most essential to building technology that serves people rather than replacing them.
+He wrote about all of this in his 2017 book _Hit Refresh_, a surprisingly candid account of both his inner life and Microsoft's cultural overhaul. The book's core argument is that empathy isn't a soft skill — it's the hardest skill, and the one that decides whether technology serves people or simply replaces them.
 
 In May 2021, the Nadella family donated $15 million to Seattle Children's Hospital and established the Zain Nadella Endowed Chair in Pediatric Neurosciences. Zain died in February 2022 at age 26. He was remembered for his love of music and his bright smile — things that can't be systematized, that exist only in the present moment, that a father has to learn to see.
 
@@ -127,7 +127,7 @@ Then he went on a listening tour — and he ran it the way a cricket captain rea
 
 "We are one company, one Microsoft," he declared. "Not a confederation of fiefdoms."
 
-The culture shifted from what Nadella called a "know-it-all" company to a "learn-it-all" company — language borrowed from Stanford psychologist Carol Dweck's work on growth mindset. He made [Bill Gates](/personality-analysis/Bill-Gates)' Office Suite available on iOS and Android, embraced open source by acquiring GitHub for $7.5 billion, and steered the company's entire strategy toward cloud computing with Azure.
+The culture shifted from what Nadella called a "know-it-all" company to a "learn-it-all" company — language borrowed from Stanford psychologist Carol Dweck's work on growth mindset. Each product move that followed was a signal of the same thing: a Five who'd decided that hoarding territory was killing them. Putting Office on iOS and Android in 2014 meant giving up the Windows-or-nothing doctrine that had calcified the company for years. Paying $7.5 billion for GitHub said: we'd rather own where developers live than insist they come to us. Betting the company on Azure meant admitting that the platform that mattered next wasn't the one Microsoft already owned.
 
 Like fellow quiet tech leader [Sundar Pichai](/personality-analysis/Sundar-Pichai) at Google, Nadella brought a listening-first [approach to leadership](/enneagram-corner/enneagram-communication-styles) that Silicon Valley didn't know it needed. In meetings, he made a practice of asking the quietest person in the room to speak first. "Invite everyone into the conversation," he wrote. "If you are on a conference call, ask the people on the phone to share their thoughts first." It was leadership designed by an introvert who knew what it felt like to have something to say and no opening to say it.
 
@@ -171,7 +171,7 @@ Here is what Satya Nadella does when he isn't running Microsoft: he reads Urdu p
 
 "Despite his love for English and American poets," one profile noted, "the haunting words and imagery of Indian Urdu poetry inspires Nadella the most."
 
-He quotes poetry in meetings. He references impermanence in strategy sessions. In a company full of engineers optimizing for efficiency, the CEO is thinking about the relationship between suffering and creativity, between loss and compassion, between the mind's desire for permanence and the universe's insistence that nothing lasts.
+He quotes poetry in meetings. He references impermanence in strategy sessions. Nobody else in that building is thinking about that. In a company full of engineers optimizing for efficiency, the CEO is sitting with the relationship between suffering and creativity, between loss and compassion, between the mind's desire for permanence and the universe's insistence that nothing lasts.
 
 "My passion is to put empathy at the center of everything I pursue," he has said. "From the products we launch, to the new markets we enter, to the employees, customers, and partners we work with."
 

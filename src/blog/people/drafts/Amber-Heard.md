@@ -102,7 +102,7 @@ This decisive break is quintessentially Type 3: if the current environment offer
 
 ## The Struggle Years: 2004-2008
 
-Most profiles skip from Texas departure to Pineapple Express breakout. Those five years between reveal the Type 3 grind: relentless pursuit through whatever doors would open.
+Most profiles skip from Texas departure to Pineapple Express breakout. Those five years between reveal the Type 3 grind: showing up for whatever doors would open, regardless of how small.
 
 **2004**: Background appearances in music videos. Small TV spots on _Jack & Bobby_, _The Mountain_, and eventually _The O.C._ Her film debut came in _Friday Night Lights_, a minor role in a commercially successful film.
 
@@ -146,15 +146,15 @@ Coming out could be read two ways:
 
 **The Image-Crafting Read**: Coming out positioned her as a brave pioneer, earning admiration through a different kind of achievement. She became "the actress who came out," a distinct brand in a crowded market.
 
-Her own framing suggests both:
+Her own framing cuts through the ambiguity:
 
 > "I would rather go down for being who I am than to have risen for being something I'm not."
 
-Type 3s at their best integrate authenticity with achievement. The coming out may have been both genuine and strategic. Not mutually exclusive.
+That is not the language of image management. That is someone who had decided the cost of hiding was higher than the cost of exposure. For a Type 3, that calculation is genuinely difficult — and when they make it, it tends to stick.
 
 ## The Depp Relationship: Type 3 Meets Type 4
 
-Understanding this dynamic requires understanding their personality interaction. [Johnny Depp is typed as an Enneagram Type 4](/personality-analysis/Johnny-Depp), "The Individualist," driven by a need for authenticity, emotional depth, and unique self-expression.
+Understanding this dynamic requires understanding their personality interaction. [Johnny Depp is typed as an Enneagram Type 4](/personality-analysis/Johnny-Depp), "The Individualist," driven by a need for authenticity, emotional depth, and self-expression that refuses to look like anyone else's.
 
 ### How They Met: The Rum Diary (2009)
 
@@ -166,12 +166,7 @@ In 2011, Heard told Vogue the experience was "better than I ever imagined, which
 
 ### The Relationship Timeline
 
-- **2012**: Both previous relationships end within months. Depp and Heard reconnect and begin dating.
-- **January 2014**: First public appearance as a couple at the 7th Annual Heaven Gala. Days later, engagement confirmed.
-- **February 5, 2015**: Married on Depp's private island in the Bahamas.
-- **May 2016**: Heard files for divorce, alleging physical abuse. Depp denies allegations.
-- **August 2016**: $7 million settlement reached.
-- **January 2017**: Divorce finalized.
+Both previous relationships ended within months of each other in 2012. Depp and Heard reconnected and started dating. Their first public appearance came at the 7th Annual Heaven Gala in January 2014, with the engagement confirmed days later. On February 5, 2015, they married on Depp's private island in the Bahamas. Sixteen months later, Heard filed for divorce, alleging physical abuse. Depp denied the allegations. The $7 million settlement was reached in August 2016; the divorce was finalized in January 2017.
 
 ### The Type 3/Type 4 Dynamic
 
@@ -248,7 +243,7 @@ The Depp v. Heard defamation trial (April-June 2022) was, for a Type 3, a psycho
 - Heard awarded $2 million on her countersuit
 - She appealed, then settled for $1 million in December 2022
 
-For a personality type built around being valued and admired, the trial delivered the opposite: public judgment that she was a liar, manipulator, and fraud. The courtroom became a stage where her image was systematically dismantled in real time.
+For a personality type built around being valued and admired, the trial delivered the opposite: public judgment that she was a liar, manipulator, and fraud. The courtroom became a stage where her image was taken apart, piece by piece, in real time.
 
 ### Trial by TikTok
 
@@ -279,7 +274,7 @@ The ratio: roughly 400:1 in Depp's favor.
 - "Johnny Depp Destroys Amber Heard's Lawyer" clips garnered 13+ million views
 - Videos mocking Heard's testimony reached 30 million views in five days
 
-For a Type 3, this was uniquely devastating. Her identity is tied to public perception, and she watched herself become a punchline in real time. The trial surpassed coverage of the leaked Supreme Court abortion decision and Russia's war in Ukraine.
+For a Type 3, this hit at something specific. Her identity is tied to public perception, and she watched herself become a punchline in real time. The trial surpassed coverage of the leaked Supreme Court abortion decision and Russia's war in Ukraine.
 
 She was not just losing a legal case. She was losing control of her image on a global scale.
 
@@ -331,6 +326,8 @@ Those who did support Heard publicly faced consequences. Her defenders reported 
 
 If the trial was Heard's public execution, Aquaman 2 was the aftermath.
 
+The first Aquaman had grossed over $1.15 billion combined. Heard's Mera was a lead. By the second film, she had 11 lines.
+
 ### What Happened to Mera
 
 Heard testified during the trial that her role was "significantly lessened" and that she "fought hard to stay in the movie." She was not exaggerating.
@@ -351,7 +348,7 @@ Director **James Wan** claimed this was always the plan. Former DC President **W
 
 Depp fans boycotted because Heard was included. Heard fans boycotted because her role was minimized. The film earned 36% on Rotten Tomatoes and underperformed at the box office.
 
-For a Type 3, this represented another layer of failure: watching her biggest franchise role be systematically erased.
+For a Type 3, this was another kind of erasure: not just losing the role, but watching it be quietly cut out while the studio denied anything had changed.
 
 ## The Financial Aftermath
 
@@ -413,7 +410,7 @@ For a Type 3, Heard's approach to motherhood is revealing:
 
 **Legacy**: Three children represent something Hollywood cannot take away. A form of lasting value that does not depend on box office returns or public opinion.
 
-Whether this represents Type 3 health (finding worth beyond achievement) or Type 3 patterns (turning even motherhood into an accomplishment) is open to interpretation. Possibly both.
+The framing gives it away. "The family I've strived to build" — strived, as in earned, as in worked for. That's Type 3 pattern, not Type 3 health. The goal has shifted, but the achievement orientation hasn't gone anywhere.
 
 ## Life After the Trial: Reinvention in Madrid
 
@@ -428,33 +425,9 @@ After the verdict, she did not retreat permanently. She relocated to Madrid, Spa
 - **Theater pivot**: Her first acting role post-trial is "Spirit of the People" at the prestigious Williamstown Theatre Festival (July 2025), alongside Brandon Flynn and directed by Jeremy O. Harris
 - **Critical validation**: Vanity Fair praised her theatrical debut, noting her "command of the stage, exceptional particularly for someone in her professional theatrical debut"
 
-This is not surrender. It is strategic repositioning.
+This is not surrender. It is finding a new arena before the old one finishes closing.
 
 The Type 3 who cannot succeed in one arena finds another. Film rejected her; theater might not. America judged her; Spain offers a clean slate.
-
-## Major Accomplishments
-
-The controversy overshadows a substantial record:
-
-**Acting Career:**
-
-- Aquaman franchise ($1.15B+ combined box office)
-- 50+ film and television credits
-- Transition to theater with critical acclaim
-
-**Advocacy:**
-
-- First American actress named UN Human Rights Champion
-- ACLU Ambassador for Women's Rights
-- Capitol Hill testimony supporting SHIELD Act
-- Zaatari refugee camp humanitarian mission
-- One of the first high-profile actresses to come out as bisexual (2010)
-
-**Personal:**
-
-- Fluent in Spanish
-- Mother of three
-- Rebuilt life in a foreign country after unprecedented public humiliation
 
 > "I was raised by my father to be a strong, independent woman. But I also felt confined by the limitations of small-town life."
 
@@ -472,10 +445,6 @@ What has changed, perhaps, is the stakes. Motherhood offers an achievement that 
 
 ---
 
-**What do you see when you look at Amber Heard?**
-
-A villain? A victim? A woman whose need to be valued drove both her success and her downfall?
-
-The answer probably reveals as much about you as it does about her. That is the power of personality analysis: it forces us to confront our own biases while trying to understand someone else's psychology.
+The more durable observation about Heard is this: she has never stopped performing for an audience, even when the audience despises her. In Madrid, the audience is smaller and kinder—her children, Spanish theater critics, herself. That may be enough. But the drive that sent a seventeen-year-old from Austin to Los Angeles does not switch off because a jury found against her. It finds a new city, a new language, a new stage.
 
 > **Disclaimer:** This analysis of Amber Heard's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.

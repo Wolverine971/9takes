@@ -29,19 +29,6 @@ content_quality:
   graded_at: '2026-02-20'
 ---
 
-<!-- QUALITY GRADE: B+ (8.9)
-Hook: 9 | Enneagram: 8.5 | Evidence: 9 | Writing: 9 | Originality: 9
-
-FEEDBACK (2026-02-20):
-- EXCEPTIONAL HOOK: The Dallas Buyers Club mirror scene — "He scrubbed harder. Same face" — is visceral and immediately creates the central question. One of the best openings in the collection.
-- SIGNATURE DETAIL: The Bartholomew Cubbins pseudonym connection is genuinely brilliant — "A man who can't stop producing new identities chose, as his pseudonym, the fictional character who can't stop producing new hats." This is the kind of insight that makes an analysis memorable.
-- EXCELLENT ENDING: "500 hats deep, and no sign of the last one" circles back to both the mirror and Bartholomew Cubbins — satisfying, cuts to black, no summary.
-- STRONG EVIDENCE: 15+ sourced, dated, attributed quotes from NPR, Interview Magazine, Collider, TheWrap, Fortune, CNBC, etc. Leto's voice is heard throughout.
-- NEEDS WORK: Core emotion (shame, as Type 4 is in the heart triad) is never explicitly named or explored. The piece tracks the behavioral pattern (identity-searching) brilliantly but doesn't sit inside the emotion — what does the shame feel like for Leto? The mirror scene gets close but pulls toward analysis rather than immersion.
-- NEEDS WORK: Stress/growth arrows are absent. Where does Type 4 go under stress (→ 2, overhelping/clinging) or in health (→ 1, disciplined action)? The investment section could naturally connect to the growth arrow. The Suicide Squad gift-sending could connect to the stress arrow.
-- TO REACH A: (1) Add a section or weave in the core emotion of shame — use the Golden Globe "outsider" quote to explore what it feels like to win and still feel deficient. (2) Integrate stress/growth arrows naturally — the investments and Empire State climb could be reframed as the healthy 4→1 movement toward disciplined action. (3) The Allegations section interrupts narrative flow — consider repositioning or integrating more seamlessly.
--->
-
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>

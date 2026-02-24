@@ -53,7 +53,7 @@ FEEDBACK (2026-02-18):
 
 That single confession unlocks everything about the Microsoft co-founder. It explains why he reads 50 books a year, why he retreats into week-long isolation to think, and why he's pledging $200 billion to solve problems most people can't even comprehend.
 
-Bill Gates isn't just smart. He's a textbook [Enneagram Type 5](/enneagram-corner/enneagram-type-5)—"The Investigator". And understanding this personality framework reveals the psychological machinery driving one of history's most influential minds.
+Bill Gates is an [Enneagram Type 5](/enneagram-corner/enneagram-type-5)—"The Investigator"—and understanding this personality framework reveals the psychological machinery driving one of history's most influential minds.
 
 <details>
 <summary class="accordion">TL;DR: Why Bill Gates is an Enneagram Type 5</summary>
@@ -73,8 +73,6 @@ Bill Gates isn't just smart. He's a textbook [Enneagram Type 5](/enneagram-corne
 Type 5s are driven by a core need: to understand the world so thoroughly that they can never be caught unprepared. Where other personality types might seek love, achievement, or security, Investigators seek competence. They fear being overwhelmed, invaded, or, worst of all, exposed as incapable.
 
 This creates a distinctive pattern: accumulate knowledge, retreat to process it, emerge only when you've mastered the subject completely.
-
-Sound like anyone?
 
 ### The Mind as Fortress
 
@@ -186,11 +184,15 @@ This is Type 5 at its healthiest: committed to truth, not to being right. Compar
 
 ## Under Fire: The Antitrust Years
 
-When Microsoft faced antitrust lawsuits in the late 1990s, Gates' response was pure Type 5 under stress.
+When Microsoft faced antitrust lawsuits in the late 1990s, Gates' response was pure Type 5 under stress — and the deposition footage became one of the most studied examples of that type at its most defensive.
 
-He dove deep into legal details, spending hours preparing for depositions and cross-examinations. He relied on logic and facts, sometimes to a fault, prioritizing intellectual superiority over emotional appeal.
+He spent months preparing legal briefs, mastering the technical details of the case, and treating every deposition question as a logic problem to be dismantled. The video record showed Gates parsing word definitions, questioning the meaning of "compete," and answering simple yes-or-no questions with long, circuitous technical qualifications. Journalists called him evasive. He experienced himself as precise.
 
-The cerebral, knowledge-driven approach that had built Microsoft struggled in a courtroom that valued narrative and impression. Under pressure, Type 5s can retreat too far into their minds, losing connection with how others perceive them.
+This is the Type 5's characteristic failure mode under pressure: the retreat into abstraction so complete that the human stakes disappear. Gates was trying to win on facts. The courtroom wanted to know whether Microsoft had deliberately throttled competition. The Type 5 instinct was to defend the intellectual position rather than acknowledge the narrative — and in doing so, Gates made himself look guilty of exactly the arrogance the government was alleging.
+
+Federal judge Thomas Penfield Jackson ultimately found Microsoft had maintained its monopoly through anticompetitive means. The company was nearly broken up before an appeals court revised the ruling.
+
+Gates later acknowledged the deposition was a disaster — not because the facts were wrong, but because he'd approached a trial about power and intent as if it were a technical audit. The cerebral approach that built Microsoft struggled in a courtroom that valued how a story landed, not just whether it was accurate. Under pressure, Type 5s can retreat so far into their own certainty that they lose sight of how they're being read by everyone else in the room.
 
 ## The Emotional Gates Behind the Machine
 
@@ -218,7 +220,7 @@ He later acknowledged his leadership approach at Microsoft: "I was tough on peop
 
 For Type 5s, the journey toward integration often involves learning that intellect alone doesn't solve human problems.
 
-## From Tech Titan to Global Philanthropist
+## When Knowledge Becomes Action: The Gates Foundation Years
 
 Gates' transition from Microsoft to the Gates Foundation represents something significant in Enneagram terms: integration.
 
@@ -246,7 +248,7 @@ What drives Gates' philanthropy? His core belief: "All lives have equal value."
 
 For a Type 5 who has spent his life accumulating knowledge and capability, the ultimate expression is using that capacity to solve problems others can't. The foundation focuses on areas where Gates believes his particular brand of analytical rigor can move the needle: disease eradication, agricultural innovation, and educational access.
 
-## Legacy: What Bill Gates Teaches Us About Type 5s
+## The Arc: From Hoarding Knowledge to Deploying It
 
 Bill Gates' mother ended the documentary about her son with a quote that captures his entire arc:
 
@@ -257,13 +259,5 @@ For Gates, what he became was an answer to his deepest fear: a mind so powerful 
 The boy who retreated into encyclopedias became the man who processed the world's most complex problems. The stubborn child who declared war on his parents became the philanthropist pledging 99% of his wealth to humanity.
 
 That's Type 5 integration in action: from hoarding knowledge for safety to deploying it for impact.
-
-## Conclusion: The Investigator's Journey
-
-Bill Gates' story illuminates both the brilliance and the blind spots of the Type 5 personality. His mind built an empire and is now reshaping global health. His intensity also strained relationships and led to misjudgments.
-
-The Type 5 path is mastery, of systems, of knowledge, of complex problems. The challenge is remembering that some of life's most important equations can't be solved alone.
-
-What about you? Does Gates' relentless pursuit of understanding resonate with how you process the world? And what might his journey, from childhood isolation to global impact, reveal about the untapped potential in your own personality?
 
 > **Disclaimer:** This analysis of Bill Gates' Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.

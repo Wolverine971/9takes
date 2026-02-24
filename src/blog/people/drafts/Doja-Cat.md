@@ -362,29 +362,19 @@ The 8 wing doesn't just protect boundaries. It establishes them loudly, publicly
 
 ## The Psychology Behind the Chaos
 
-What drives Doja Cat?
+The absent father wound is the first thread. Learning early that you can't count on others creates the Type 7 pattern of self-generated joy — if no one's coming to save you, you'd better learn to entertain yourself. Those years "all night and day" on the internet weren't wasted time. They were survival. The digital world offered infinite stimulation to a young person processing family pain, and that habit of following curiosity wherever it leads never stopped.
 
-**The absent father wound**: Learning early that you can't rely on others creates the Type 7 pattern of self-generated joy. If no one's coming to save you, you'd better learn to entertain yourself.
+The meme-to-music pipeline reveals what the father wound produced. "Mooo!" showed that Doja's sharpest creative edge comes from not taking herself seriously. The cow costume wasn't calculated. It was play. And the moment an image starts feeling like a cage — pop princess, demon queen, or anything else — she burns it and starts again. Each era isn't reinvention for its own sake. It's the Type 7 refusal to be trapped in a single identity, even one that's working.
 
-**The internet as escape**: Those years "all night and day" on the internet weren't wasted time. They were survival. The digital world offered infinite stimulation to a young person processing family pain.
-
-**The meme-to-music pipeline**: "Mooo!" revealed something crucial. Doja's genius lies in not taking herself seriously. The cow costume wasn't calculated. It was play. Type 7s succeed when they follow delight rather than strategy.
-
-**The transformation compulsion**: Each era (pop princess to demon queen to introspective artist) represents the Type 7's fear of being trapped in a single identity. The moment an image feels constraining, they shed it. Even if it means alienating fans who loved the previous version.
-
-**The parasocial pushback**: Most artists would never tell fans to get a job. Doja's candor about ownership and autonomy reveals the 7's deepest need: freedom from other people's projections.
-
-**The self-aware escapism**: In 2025, Doja admitted her Fortnite addiction "has turned her into a person she doesn't like." Rare Type 7 self-awareness about the dark side of constant stimulation-seeking.
+In 2025, Doja admitted her Fortnite addiction "has turned her into a person she doesn't like." That's rare self-awareness for a type that usually keeps moving fast enough to outrun that kind of reckoning. The therapy, the solo-written album, the willingness to name the dark side of constant stimulation-seeking — these are the signs of a 7 who's starting to slow down long enough to see clearly.
 
 ## What Doja Cat Reveals About Freedom and Creation
 
-Doja Cat embodies the Type 7's gift and curse: the ability to transform anything into play, and the terror of being trapped in anything permanent.
+Doja Cat embodies the Type 7's gift and curse: the ability to transform anything into play, and the terror of being trapped in anything permanent. That's not a press bio framing — it's the operational logic behind everything from "Mooo!" to the Kittenz war to _Vie_.
 
 Her career is a masterclass in creative freedom. Refusing genres. Rejecting fan expectations. Shaving off the very image that made her famous. But it's also a study in the cost of constant motion: the meltdowns when escape routes close, the broken relationships left behind, the difficulty sitting with anything uncomfortable.
 
 The _Vie_ era suggests she's learning what all Type 7s eventually discover: depth isn't a prison. Staying with one thing, one relationship, one style, one emotion, can reveal treasures that constant motion never touches.
-
-Her journey prompts real questions: How do you balance freedom with commitment? When does reinvention become avoidance? What might you discover if you stopped running long enough to land?
 
 Doja's doing whatever she wants. Somehow, that's working perfectly.
 

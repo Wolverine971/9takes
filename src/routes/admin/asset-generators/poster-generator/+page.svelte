@@ -1,4 +1,4 @@
-<!-- src/routes/admin/poster-generator/+page.svelte -->
+<!-- src/routes/admin/asset-generators/poster-generator/+page.svelte -->
 <script lang="ts">
 	import QRCode from 'qrcode';
 	import type { PageData } from './$types';
@@ -93,6 +93,8 @@
 	let currentBackground = $derived(
 		data.backgrounds.find((bg) => bg.id === activeBackground) || data.backgrounds[0]
 	);
+	let posterAspectWidth = $derived(parseFloat(currentFormat.width));
+	let posterAspectHeight = $derived(parseFloat(currentFormat.height));
 
 	// Generate QR code on URL change
 	$effect(() => {
@@ -129,15 +131,32 @@
 		return `9takes-${cleanName || 'poster'}`;
 	}
 
+	/** Temporarily expand poster to full export dimensions, capture, then restore. */
+	async function captureAtFullSize(pixelRatio = 2): Promise<string> {
+		if (!posterRef) throw new Error('No poster ref');
+		if (!toPng) {
+			const m = await import('html-to-image');
+			toPng = m.toPng;
+		}
+		const saved = posterRef.style.cssText;
+		posterRef.style.width = currentFormat.width;
+		posterRef.style.height = currentFormat.height;
+		posterRef.style.maxWidth = 'none';
+		posterRef.style.maxHeight = 'none';
+		// Force layout reflow before capture
+		posterRef.offsetHeight;
+		try {
+			return await toPng(posterRef, { quality: 1.0, pixelRatio });
+		} finally {
+			posterRef.style.cssText = saved;
+		}
+	}
+
 	async function exportAsPNG() {
 		if (!posterRef) return;
 		try {
 			exporting = true;
-			if (!toPng) {
-				const htmlToImageModule = await import('html-to-image');
-				toPng = htmlToImageModule.toPng;
-			}
-			const dataUrl = await toPng(posterRef, { quality: 1.0, pixelRatio: 3 });
+			const dataUrl = await captureAtFullSize(2);
 			const link = document.createElement('a');
 			link.download = `${createFilenameFromQuestion()}.png`;
 			link.href = dataUrl;
@@ -154,16 +173,12 @@
 		if (!posterRef) return;
 		try {
 			exporting = true;
-			if (!toPng || !jsPDF) {
-				const [htmlToImageModule, jsPDFModule] = await Promise.all([
-					import('html-to-image'),
-					import('jspdf')
-				]);
-				toPng = htmlToImageModule.toPng;
-				jsPDF = jsPDFModule.jsPDF;
+			if (!jsPDF) {
+				const m = await import('jspdf');
+				jsPDF = m.jsPDF;
 			}
 			const format = currentFormat;
-			const dataUrl = await toPng(posterRef, { quality: 1.0, pixelRatio: 3 });
+			const dataUrl = await captureAtFullSize(2);
 			const pdf = new jsPDF({
 				orientation: format.pdfHeight > format.pdfWidth ? 'portrait' : 'landscape',
 				unit: format.unit,
@@ -183,11 +198,7 @@
 		if (!posterRef) return;
 		try {
 			exporting = true;
-			if (!toPng) {
-				const htmlToImageModule = await import('html-to-image');
-				toPng = htmlToImageModule.toPng;
-			}
-			const dataUrl = await toPng(posterRef, { quality: 1.0, pixelRatio: 2 });
+			const dataUrl = await captureAtFullSize(2);
 			const blob = await (await fetch(dataUrl)).blob();
 			await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
 			alert('Copied to clipboard!');
@@ -426,18 +437,21 @@
 								class:active={questionColor === 'text-white'}
 								onclick={() => (questionColor = 'text-white')}
 								style="background: white; border: 1px solid #ccc;"
+								aria-label="White text"
 							></button>
 							<button
 								class="color-btn"
 								class:active={questionColor === 'text-neutral-900'}
 								onclick={() => (questionColor = 'text-neutral-900')}
 								style="background: #171717;"
+								aria-label="Dark text"
 							></button>
 							<button
 								class="color-btn"
 								class:active={questionColor === 'text-primary-200'}
 								onclick={() => (questionColor = 'text-primary-200')}
 								style="background: #c4b5fd;"
+								aria-label="Purple text"
 							></button>
 						</div>
 					</div>
@@ -579,7 +593,7 @@
 				<div
 					bind:this={posterRef}
 					class="poster"
-					style="width: {currentFormat.width}; height: {currentFormat.height}; max-width: 100%; max-height: 70vh;"
+					style="aspect-ratio: {posterAspectWidth} / {posterAspectHeight};"
 				>
 					<!-- Background Image -->
 					<div class="poster-bg" style="background-image: url({currentBackground?.path});"></div>
@@ -632,9 +646,9 @@
 
 <style lang="scss">
 	.poster-generator {
-		min-height: 100vh;
-		padding: 1.5rem;
-		background: var(--background, var(--void-deep, #12121a));
+		width: 100%;
+		max-width: 100%;
+		overflow: hidden;
 	}
 
 	.header {
@@ -648,13 +662,16 @@
 		h1 {
 			font-size: 1.5rem;
 			font-weight: 700;
-			color: var(--text-primary, var(--neutral-900, #f8fafc));
+			background: linear-gradient(135deg, var(--shadow-monarch-light), var(--awakening-cyan));
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
 			margin: 0;
 		}
 
 		p {
 			font-size: 0.875rem;
-			color: var(--text-secondary, var(--neutral-500, #64748b));
+			color: var(--text-secondary);
 			margin: 0.25rem 0 0;
 		}
 	}
@@ -687,34 +704,40 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch, #7c3aed);
-		color: white;
-		box-shadow: 0 0 15px var(--shadow-monarch-glow, rgba(124, 58, 237, 0.3));
+		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
+		color: var(--text-on-primary);
+		border: 1px solid var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
 
 		&:hover:not(:disabled) {
-			background: var(--shadow-monarch-dark, #6d28d9);
-			box-shadow: 0 0 20px var(--shadow-monarch-glow, rgba(124, 58, 237, 0.4));
+			background: linear-gradient(
+				135deg,
+				var(--shadow-monarch-light) 0%,
+				var(--shadow-monarch) 100%
+			);
+			box-shadow: var(--glow-md);
+			transform: translateY(-1px);
 		}
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated, #252538);
-		color: var(--neutral-700, #cbd5e1);
-		border: 1px solid var(--void-highlight, #2d2d44);
+		background: transparent;
+		color: var(--shadow-monarch-light);
+		border: 1px solid var(--shadow-monarch);
 
 		&:hover:not(:disabled) {
-			background: var(--void-highlight, #2d2d44);
-			border-color: var(--shadow-monarch-lighter, #a78bfa);
+			background: var(--shadow-monarch-subtle);
+			box-shadow: var(--glow-sm);
 		}
 	}
 
 	.btn-ghost {
 		background: transparent;
-		color: var(--shadow-monarch-light, #8b5cf6);
+		color: var(--shadow-monarch-light);
 		padding: 0.5rem;
 
 		&:hover {
-			background: var(--shadow-monarch-subtle, rgba(124, 58, 237, 0.15));
+			background: var(--shadow-monarch-subtle);
 		}
 	}
 
@@ -726,18 +749,24 @@
 		@media (min-width: 1024px) {
 			grid-template-columns: 380px 1fr;
 		}
+
+		// Prevent grid children from overflowing
+		> * {
+			min-width: 0;
+		}
 	}
 
 	.controls-panel {
-		background: var(--void-surface, #1a1a2e);
+		background: var(--void-surface);
 		border-radius: 0.75rem;
-		border: 1px solid var(--void-highlight, #2d2d44);
+		border: 1px solid var(--void-elevated);
+		box-shadow: var(--shadow-md);
 		overflow: hidden;
 	}
 
 	.tabs {
 		display: flex;
-		border-bottom: 1px solid var(--void-highlight, #2d2d44);
+		border-bottom: 1px solid var(--void-highlight);
 		overflow-x: auto;
 	}
 
@@ -750,7 +779,7 @@
 		padding: 0.875rem 0.5rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--neutral-500, #64748b);
+		color: var(--text-secondary);
 		background: none;
 		border: none;
 		cursor: pointer;
@@ -759,14 +788,14 @@
 		white-space: nowrap;
 
 		&:hover {
-			color: var(--shadow-monarch-light, #8b5cf6);
-			background: var(--void-elevated, #252538);
+			color: var(--text-primary);
+			background: var(--void-elevated);
 		}
 
 		&.active {
-			color: var(--shadow-monarch-light, #8b5cf6);
-			border-bottom-color: var(--shadow-monarch, #7c3aed);
-			background: var(--shadow-monarch-subtle, rgba(124, 58, 237, 0.15));
+			color: var(--shadow-monarch-light);
+			border-bottom-color: var(--shadow-monarch);
+			box-shadow: 0 0 10px var(--shadow-monarch-glow);
 		}
 
 		svg {
@@ -790,32 +819,36 @@
 		display: block;
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--neutral-700, #cbd5e1);
+		color: var(--text-secondary);
 		margin-bottom: 0.5rem;
 	}
 
 	.hint {
 		font-size: 0.75rem;
-		color: var(--neutral-500, #64748b);
+		color: var(--text-tertiary);
 		margin: 0;
 	}
 
 	.input {
 		width: 100%;
 		padding: 0.625rem 0.75rem;
-		border: 1px solid var(--void-highlight, #2d2d44);
+		border: 1px solid var(--void-highlight);
 		border-radius: 0.5rem;
 		font-size: 0.875rem;
-		color: var(--neutral-800, #e2e8f0);
-		background: var(--void-elevated, #252538);
+		color: var(--text-primary);
+		background: var(--void-elevated);
 		transition:
 			border-color 0.2s,
 			box-shadow 0.2s;
 
+		&::placeholder {
+			color: var(--text-muted);
+		}
+
 		&:focus {
 			outline: none;
-			border-color: var(--shadow-monarch, #7c3aed);
-			box-shadow: 0 0 0 3px var(--shadow-monarch-subtle, rgba(124, 58, 237, 0.15));
+			border-color: var(--shadow-monarch);
+			box-shadow: var(--glow-sm);
 		}
 	}
 
@@ -828,7 +861,7 @@
 		margin-top: 0.75rem;
 		max-height: 200px;
 		overflow-y: auto;
-		border: 1px solid var(--void-highlight, #2d2d44);
+		border: 1px solid var(--void-highlight);
 		border-radius: 0.5rem;
 	}
 
@@ -837,10 +870,10 @@
 		padding: 0.625rem 0.75rem;
 		text-align: left;
 		font-size: 0.8125rem;
-		color: var(--neutral-700, #cbd5e1);
+		color: var(--text-secondary);
 		background: none;
 		border: none;
-		border-bottom: 1px solid var(--void-highlight, #2d2d44);
+		border-bottom: 1px solid var(--void-highlight);
 		cursor: pointer;
 		transition: background 0.15s;
 
@@ -849,7 +882,7 @@
 		}
 
 		&:hover {
-			background: var(--void-elevated, #252538);
+			background: var(--void-elevated);
 		}
 	}
 
@@ -873,7 +906,7 @@
 		}
 
 		&.active {
-			border-color: var(--shadow-monarch, #7c3aed);
+			border-color: var(--shadow-monarch);
 		}
 	}
 
@@ -883,12 +916,12 @@
 		gap: 0.625rem;
 		cursor: pointer;
 		font-size: 0.875rem;
-		color: var(--neutral-700, #cbd5e1);
+		color: var(--text-secondary);
 
 		input[type='checkbox'] {
 			width: 1rem;
 			height: 1rem;
-			accent-color: var(--shadow-monarch, #7c3aed);
+			accent-color: var(--shadow-monarch);
 		}
 	}
 
@@ -903,19 +936,21 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 0.5rem;
-		border: 2px solid var(--void-highlight, #2d2d44);
+		border: 2px solid var(--void-highlight);
 		border-radius: 0.5rem;
-		background: var(--void-elevated, #252538);
+		background: var(--void-elevated);
 		cursor: pointer;
-		transition: border-color 0.2s;
+		transition: all 0.2s;
 
 		&:hover {
-			border-color: var(--shadow-monarch-lighter, #a78bfa);
+			border-color: var(--shadow-monarch-lighter);
+			box-shadow: var(--glow-sm);
 		}
 
 		&.active {
-			border-color: var(--shadow-monarch, #7c3aed);
-			background: var(--shadow-monarch-subtle, rgba(124, 58, 237, 0.15));
+			border-color: var(--shadow-monarch);
+			background: var(--shadow-monarch-subtle);
+			box-shadow: var(--glow-sm);
 		}
 
 		img {
@@ -928,7 +963,7 @@
 		span {
 			margin-top: 0.375rem;
 			font-size: 0.6875rem;
-			color: var(--neutral-500, #64748b);
+			color: var(--text-tertiary);
 		}
 	}
 
@@ -936,7 +971,7 @@
 		width: 100%;
 		height: 0.375rem;
 		border-radius: 0.25rem;
-		background: var(--void-highlight, #2d2d44);
+		background: var(--void-highlight);
 		appearance: none;
 		cursor: pointer;
 
@@ -945,7 +980,7 @@
 			width: 1rem;
 			height: 1rem;
 			border-radius: 50%;
-			background: var(--shadow-monarch, #7c3aed);
+			background: var(--shadow-monarch);
 			cursor: pointer;
 		}
 	}
@@ -959,14 +994,14 @@
 	.color-picker {
 		width: 3rem;
 		height: 2rem;
-		border: 1px solid var(--void-highlight, #2d2d44);
+		border: 1px solid var(--void-highlight);
 		border-radius: 0.375rem;
 		cursor: pointer;
 	}
 
 	.color-value {
 		font-size: 0.8125rem;
-		color: var(--neutral-500, #64748b);
+		color: var(--text-tertiary);
 		font-family: monospace;
 	}
 
@@ -982,18 +1017,18 @@
 		align-items: center;
 		gap: 0.875rem;
 		padding: 1rem;
-		border: 1px solid var(--void-highlight, #2d2d44);
+		border: 1px solid var(--void-elevated);
 		border-radius: 0.625rem;
-		background: var(--void-elevated, #252538);
+		background: var(--void-surface);
 		cursor: pointer;
 		text-align: left;
-		transition:
-			border-color 0.2s,
-			background 0.2s;
+		transition: all 0.2s;
 
 		&:hover:not(:disabled) {
-			border-color: var(--shadow-monarch, #7c3aed);
-			background: var(--shadow-monarch-subtle, rgba(124, 58, 237, 0.15));
+			border-color: var(--shadow-monarch);
+			background: var(--shadow-monarch-subtle);
+			box-shadow: var(--glow-sm);
+			transform: translateY(-2px);
 		}
 
 		&:disabled {
@@ -1002,7 +1037,7 @@
 		}
 
 		svg {
-			color: var(--shadow-monarch-light, #8b5cf6);
+			color: var(--shadow-monarch-light);
 			flex-shrink: 0;
 		}
 	}
@@ -1010,24 +1045,24 @@
 	.export-btn-title {
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: var(--neutral-800, #e2e8f0);
+		color: var(--text-primary);
 		display: block;
 	}
 
 	.export-btn-desc {
 		font-size: 0.75rem;
-		color: var(--neutral-500, #64748b);
+		color: var(--text-tertiary);
 	}
 
 	.tips {
 		padding: 1rem;
-		background: var(--void-elevated, #252538);
+		background: var(--void-elevated);
 		border-radius: 0.5rem;
 
 		h4 {
 			font-size: 0.8125rem;
 			font-weight: 600;
-			color: var(--neutral-700, #cbd5e1);
+			color: var(--text-secondary);
 			margin: 0 0 0.5rem;
 		}
 
@@ -1038,15 +1073,16 @@
 
 		li {
 			font-size: 0.75rem;
-			color: var(--neutral-500, #64748b);
+			color: var(--text-tertiary);
 			margin-bottom: 0.25rem;
 		}
 	}
 
 	.preview-panel {
-		background: var(--void-surface, #1a1a2e);
+		background: var(--void-surface);
 		border-radius: 0.75rem;
-		border: 1px solid var(--void-highlight, #2d2d44);
+		border: 1px solid var(--void-elevated);
+		box-shadow: var(--shadow-md);
 		padding: 1rem;
 	}
 
@@ -1060,14 +1096,15 @@
 	.preview-label {
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: var(--neutral-700, #cbd5e1);
+		color: var(--text-secondary);
 	}
 
 	.format-badge {
 		font-size: 0.75rem;
 		padding: 0.25rem 0.625rem;
-		background: var(--void-elevated, #252538);
-		color: var(--neutral-500, #64748b);
+		background: rgba(124, 58, 237, 0.15);
+		border: 1px solid rgba(124, 58, 237, 0.3);
+		color: var(--shadow-monarch-lighter);
 		border-radius: 1rem;
 	}
 
@@ -1075,11 +1112,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background: var(--void-abyss, #0a0a0f);
+		background: var(--void-abyss);
 		border-radius: 0.5rem;
 		padding: 1.5rem;
-		min-height: 400px;
-		overflow: auto;
+		min-height: 300px;
+		overflow: hidden;
 	}
 
 	.poster {
@@ -1090,7 +1127,10 @@
 		overflow: hidden;
 		box-shadow:
 			0 10px 40px -10px rgba(0, 0, 0, 0.5),
-			0 0 20px var(--shadow-monarch-glow, rgba(124, 58, 237, 0.2));
+			0 0 20px var(--shadow-monarch-glow);
+		width: 100%;
+		max-width: 500px;
+		max-height: 70vh;
 	}
 
 	.poster-bg {
@@ -1165,7 +1205,7 @@
 	.qr-label {
 		font-size: 0.6875rem;
 		font-weight: 600;
-		color: var(--shadow-monarch, #7c3aed);
+		color: var(--shadow-monarch);
 		margin-bottom: 0.375rem;
 	}
 
@@ -1210,10 +1250,6 @@
 	}
 
 	@media (max-width: 640px) {
-		.poster-generator {
-			padding: 1rem;
-		}
-
 		.header {
 			flex-direction: column;
 			align-items: flex-start;
@@ -1226,6 +1262,10 @@
 			svg {
 				display: none;
 			}
+		}
+
+		.poster {
+			max-width: 100%;
 		}
 
 		.poster-content {

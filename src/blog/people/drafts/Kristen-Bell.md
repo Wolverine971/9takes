@@ -51,7 +51,7 @@ The distance between that question and who she is today tells you everything abo
 <summary class="accordion">TL;DR: Why Kristen Bell is an Enneagram Type 2</summary>
 <div class="panel">
 <ul>
-<li><b>Classic Helper Pattern</b>: from her nurse mother to Hello Bello to seven years as a UN humanitarian advocate</li>
+<li><b>Helping as identity architecture</b>: nurse mother, Hello Bello co-founder, seven years as a UN humanitarian advocate — the whole life is a service infrastructure</li>
 <li><b>The Codependency Confession</b>: didn't realize she was codependent until her mid-30s, when Dax told her "that's not a compliment"</li>
 <li><b>The Growth Edge</b>: her refusal to apologize for the 2025 anniversary post marks a critical Type 2 evolution</li>
 <li><b>Integration to 4</b>: choosing authenticity over universal approval, the hallmark of a healthy Type 2</li>
@@ -149,6 +149,8 @@ A source told outlets that she felt there were bigger issues in the world. Given
 
 **This is massive growth for a Type 2.** The Helper's core wound is believing they're only lovable when they're serving others. Their greatest fear is being unwanted. They shape-shift to meet expectations, terrified of rejection.
 
+What people miss in that post: the refusal to apologize, the bluntness about bigger problems in the world, the willingness to hold ground against a public pile-on — that's not just confidence. In Enneagram terms, that's the arrow to [Type 8](/enneagram-corner/enneagram-type-8). Type 2 disintegrates to 8 under stress, but in health, that same arrow becomes a resource: the ability to push back, to stop softening everything, to take up space without a service justification. Bell held that 8 energy without collapsing back into apology.
+
 Bell choosing to let people be angry, without trying to fix it, represents her finally believing she deserves love even when she's not pleasing everyone. This is what Type 2 integration looks like: moving toward [Type 4](/enneagram-corner/enneagram-type-4), where authenticity matters more than approval.
 
 It wasn't her first time refusing to budge. She and Shepard have faced repeated backlash over their parenting: letting kids taste non-alcoholic beer, giving their daughters seven hours of independence in Copenhagen, allowing them to talk back to adults. Her response each time: _"They're allowed to be upset about that. It's not your kid."_
@@ -189,17 +191,13 @@ Helpers draw energy from connection. Cut it off and they wither, no matter how p
 
 Look at the characters Bell keeps playing and a pattern emerges that goes deeper than typecasting.
 
-**Veronica Mars** helps people for a living. A teenage PI who solves problems others can't, driven by loyalty to the underdog. Bell has said she didn't even realize the kind of strength she was modeling for high school kids watching.
+**Eleanor Shellstrop** in _The Good Place_ is the through-line. For four seasons Bell played a woman who starts selfish, gets dragged into caring, and discovers that helping others is both the hardest and most meaningful thing she's ever done. Veronica Mars ran the same current earlier — a teenage PI who solves problems others can't, driven by loyalty to the underdog, whose entire business model is helping people who have nowhere else to turn. Bell has said she didn't realize the strength she was modeling until fans told her years later. That unawareness is itself very Type 2: the helping just felt natural. The meaning came out in the wash.
 
-**Eleanor Shellstrop** in _The Good Place_ becomes a better person through learning to help others. For four seasons she played a woman who discovered that caring about other people was both the hardest and most meaningful thing she'd ever done. Type 2 growth distilled into a sitcom.
-
-**Princess Anna** in _Frozen_ is the ultimate "I'll fix this for you" sister, crossing mountains and freezing to death to save a relationship her sister didn't even want to maintain. Anna doesn't have powers. She has love and stubbornness. Pure Helper energy.
-
-And then **Joanne** in _Nobody Wants This_, the role that became a phenomenon. **95% on Rotten Tomatoes. 90 million hours viewed** in its first 11 days. Already renewed through Season 3. Joanne is warm, emotionally intelligent, deeply caring, but also messy, boundary-challenged, and struggling to figure out who she is outside of relationships.
+**Joanne** in _Nobody Wants This_ is the role that sharpened it. **95% on Rotten Tomatoes. 90 million hours viewed** in its first 11 days. Already renewed through Season 3. Joanne is warm, emotionally intelligent, deeply caring — and also boundary-challenged, conflict-averse, chronically overextended, forever figuring out who she is outside of what she gives to other people. Not a Helper archetype. A Helper with the seams showing. Princess Anna from _Frozen_ is in that lineage too: no powers, just love and stubbornness, crossing a frozen mountain to save a sister who didn't ask for it. Pure Helper energy, played by the same person who's spent years learning that impulse needs limits.
 
 Bell told Jay Shetty that as she's gotten older, projects with meaning have become _"way way way more important"_ to her. She gravitates toward roles that carry a message about the gap between who we perform being and who we actually are. It's the kind of relatable vulnerability that's made fellow Helper [Jennifer Garner](/personality-analysis/Jennifer-Garner) equally beloved.
 
-Her three consecutive years hosting the SAG Awards speaks to what makes her work on a public stage: warmth without saccharine, humor without cruelty, emotional intelligence that reads a room.
+Three consecutive SAG Awards hosting gigs. Warmth without saccharine, humor without cruelty. She reads a room the second she walks into one.
 
 ## The Mental Health Dimension: "I Don't Have Time to Suffer"
 

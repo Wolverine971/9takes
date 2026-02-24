@@ -52,11 +52,11 @@ This isn't just a personality quirk. It's a survival strategy that built a journ
 <summary class="accordion">TL;DR: Why Andrew Callaghan is an Enneagram Type 7</summary>
 <div class="panel">
 <ul>
-<li><b>Restless pursuit of experience:</b> Hitchhiking at 19, living in an RV, chasing stories across America. Type 7s need constant motion and new stimulation.</li>
-<li><b>Pain reframing through humor:</b> He transforms Flat Earth conventions, QAnon rallies, and white supremacist events into something watchable. He finds the humanity where others see only absurdity.</li>
-<li><b>Allergic to constraint:</b> Hated school. Rejected corporate media. Left a bad business deal to build his own platform. Type 7s refuse to be caged.</li>
-<li><b>Radical empathy as survival:</b> His "interview like a toddler" technique reflects genuine curiosity about everyone, regardless of ideology. Connection keeps 7s from being alone with their thoughts.</li>
-<li><b>Crisis response:</b> When sexual assault allegations hit in 2023, he spiraled into binary thinking and harsh self-judgment. Classic Type 7 stress behavior, moving toward Type 1 perfectionism.</li>
+<li><b>Built his career on motion:</b> At 16 he was embedding with Occupy protesters and interviewing Silk Road contacts. At 19 he hitchhiked America for 70 days. By 22 he was chasing Flat Earthers from an RV. He has never voluntarily stopped moving.</li>
+<li><b>Finds the human being inside the fringe:</b> Where other journalists see subjects to debunk, Andrew sees people who want to be heard. He walked into a white supremacist rally in Huntington Beach and kept returning for four years until the result was <em>Dear Kelly</em>.</li>
+<li><b>Exits the moment he's caged:</b> When Doing Things Media owned his IP and took 60% of Patreon revenue, he didn't negotiate — he left, rebuilt from scratch, and bought All Gas No Brakes back years later with documentary proceeds.</li>
+<li><b>"Interview like a toddler":</b> His technique is genuine curiosity extended without limit. The silence, the nod, the simple question — it's not a strategy, it's what he'd do anyway. The journalism just gave it a purpose.</li>
+<li><b>Collapsed when the camera turned on him:</b> During the 2023 allegations, the same man who'd walked into armed QAnon confrontations ended up in a psychiatric facility with panic attacks. He called his own thinking "binary" — good guy or bad guy, no middle. That's the stress pattern, not the public persona.</li>
 </ul>
 </div>
 </details>
@@ -280,21 +280,3 @@ The fallout spread. Andrew had written an op-ed for the New York Times about the
 In early 2026, Channel 5 launched Canal Cinco — Spanish-language reporting from Latin America with professional dubbing of classic Channel 5 episodes. He's also touring nationally with the "All Gas No Brakes x Channel 5 Carnival," a live show featuring musicians, rap battles, and forbidden video screenings, hitting venues from Brooklyn Paramount to San Francisco's Palace of Fine Arts.
 
 3.38 million subscribers. A reacquired brand. A Spanish-language expansion. A national tour. Whatever you think of Andrew Callaghan, he's not slowing down.
-
-## Understanding the Restless Reporter
-
-What does Andrew Callaghan's psychology reveal?
-
-Restless energy, channeled constructively, creates remarkable work. Genuine curiosity outperforms gotcha journalism every time. Pain avoidance, while potentially destructive, can fuel creative output that matters.
-
-Andrew runs toward chaos because chaos keeps him engaged. He talks to conspiracy theorists because talking to everyone means never sitting alone with his own thoughts. He built an empire from an RV because the alternative — settling down, slowing down — felt suffocating.
-
-What happens when someone who's always running finally stops?
-
-At 28, Andrew is still answering that question. Sober girlfriend. Reacquired brand. A controversial documentary career. Lingering questions about who he is when the camera stops rolling.
-
-His childhood friends no longer film with him. His HBO relationship is over. And yet the work continues — bigger, more serious, more consequential.
-
-The man who hated every classroom now educates millions. The kid who joined black bloc protests now facilitates conversations between political enemies. The doorman who witnessed "hellish scenes" now documents America's shadow self with empathy that makes people uncomfortable.
-
-That's not contradiction. That's adaptation.

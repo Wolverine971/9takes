@@ -30,17 +30,6 @@ content_quality:
   graded_at: '2026-02-19'
 ---
 
-<!-- QUALITY GRADE: B+ (8.8)
-Hook: 9 | Enneagram: 8 | Evidence: 9 | Writing: 9 | Originality: 9
-
-FEEDBACK (2026-02-19):
-- STRONG HOOK: The Venice moment → OCD reveal pivot is structurally excellent — shows the composed surface, then pulls the curtain. The "four words" framing is cinematic.
-- SIGNATURE DETAIL: The OCD stair-walking ritual bookending the piece is the kind of specific, small moment that makes the whole analysis click. The dead lizard autopsies are a wonderful lesser-known detail.
-- EXCEPTIONAL SOURCING: 10+ specifically dated and attributed sources across podcasts, magazines, newspapers, and collaborator testimony. Jenna's voice is genuinely heard throughout.
-- NEEDS WORK: Enneagram integration is missing stress/growth arrows (Type 3 → 6 in stress, → 9 in growth — both are visible in her behavior), wings (3w2 vs 3w4 — the Winona protectiveness suggests w2), and counter-typing ("isn't she really a Type 6 given the anxiety?"). These omissions keep a strong analysis from being exceptional.
-- TO REACH A: (1) Add a paragraph on stress arrow to 6 — her OCD rituals, the hypervigilance, the teeth-grinding all map to 6-in-stress. This would deepen the piece significantly. (2) Address counter-typing directly: "The anxiety looks like Type 6, but the engine underneath is shame, not fear." (3) Name the wing — the Venice protectiveness of Ryder, the way she advocates for others, suggests 3w2. (4) Consider adding instinctual variant — the career obsession + public image management reads as social/self-pres.
--->
-
 > "Sometimes my nights consist of just being really exhausted and going up and down the stairs six times because that's what I think I need to do to make sure no one breaks into my home."
 
 <p class="firstLetter">At the 2024 Venice Film Festival, photographers shouted at Winona Ryder to remove her sunglasses. The older actress hesitated. Jenna Ortega, standing beside her, leaned in and said four words: "No, you don't have to."</p>

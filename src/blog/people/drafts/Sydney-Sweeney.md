@@ -243,7 +243,7 @@ Through Fifty-Fifty, she stopped waiting for Hollywood to offer her roles. She b
 
 _The Housemaid_, produced through Fifty-Fifty, grossed over $305 million worldwide against a $45 million budget. (<a href="https://screenrant.com/the-housemaid-sydney-sweeney-highest-grossing-domestic-box-office-record/">ScreenRant</a>) Paul Feig's highest-grossing film, surpassing Bridesmaids.
 
-It's leverage, not luck. And for a self-preserving Type 3, leverage is what separates safety from the motel room.
+It's control, not luck. And for a self-preserving Type 3, control is what separates safety from the motel room.
 
 ## The Fighter's Body
 

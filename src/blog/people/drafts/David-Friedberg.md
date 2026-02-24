@@ -74,7 +74,7 @@ Then he transferred to UC Berkeley and earned a degree in astrophysics. His GPA 
 
 "In lab classes, I got an A plus," Friedberg told the How I Invest podcast. "In classes where you go to a lecture hall and they lecture you and then you take an exam at the end of the semester, I got like C minuses because it just wasn't a good sitch for me."
 
-A teenager who aces the lab and fails the lecture hall. Someone who can only learn by _doing_ — by getting his hands inside the system. That pattern never changed.
+A teenager who aces the lab and fails the lecture hall. Learning by doing, not by being told. That pattern never changed — it just got more expensive.
 
 But it was the poker that paid. Friedberg played the card rooms around the Bay Area during college, pulling in around $10,000 in a single summer during his sophomore year. When it came time to find a real job, he put poker as the headliner on his resume.
 
@@ -144,7 +144,7 @@ Friedberg's entire career is a Five's biography.
 
 - **The reduction instinct**: Every venture starts the same way — Friedberg finds a massive, complex problem and reduces it to its essential variable. Beverages? Only 1% of the chemistry matters. Weather risk? It's a data problem, not an insurance problem. Crop yields? One genetic breakthrough could feed the planet. He doesn't add complexity. He strips it away until the core mechanism is exposed.
 
-- **The outsider who learned to observe**: He's described himself as "a little bit constrained, a little bit as an outsider and not very socially well adjusted." That's not self-pity. That's a Five describing their native state — watching from the edge, mapping the system before deciding whether to enter it.
+- **The outsider who learned to observe**: He's described himself as "a little bit constrained, a little bit as an outsider and not very socially well adjusted." That's not self-pity. A South African immigrant kid who arrives in LA at age six and spends his teenage years in card rooms learning to read probability — you don't build that skill set without spending a lot of time watching other people from the outside. The watching came first. The doing came later, after he'd mapped the system.
 
 - **The knowledge-as-safety instinct**: Poker on the resume. Astrophysics at Berkeley. Weather modeling at a startup. Data science for agriculture. Gene editing for crop yields. Each leap goes deeper into more complex systems. A Five doesn't feel safe until they've understood the architecture.
 
@@ -162,7 +162,7 @@ It's a strange position for a self-described social outsider.
 
 But watch how he operates on the show. While Chamath argues from conviction, Sacks argues from principle, and Calacanis argues from enthusiasm, Friedberg argues from data. He corrects imprecise language. He reframes debates around causal mechanisms rather than opinions. When someone makes a claim, he asks for the source.
 
-He employs first-principles reasoning as a foundational method — deconstructing issues to their elemental components. It's not performance. It's how he actually thinks.
+In the All-In "Science Corner" segments, he'll walk through the mechanism behind a new AI model or a gene editing advance with the same energy a Five brings to any domain where they've pre-done the homework. He isn't performing expertise. He arrived having already read it.
 
 "I'm a big believer that sustainability in the 21st century does not arise from convincing consumers to consume less," he told the My First Million podcast. "Technology allows us to build solutions that let consumers consume more, dropping the price and the environmental impact."
 
@@ -178,7 +178,7 @@ Focus. The thing that matters most. The thing the Five with infinite curiosity s
 
 After leaving Monsanto in 2015, Friedberg did what every Five eventually does: he went back to studying.
 
-He spent months talking with Larry Page about what came next. The answer they landed on was enormous — a holding company for startups focused on food, agriculture, decarbonization, and life sciences. Page, through Alphabet, agreed to finance it. Friedberg would operate it.
+Months of conversations with Larry Page. The answer they landed on was enormous — a holding company for startups focused on food, agriculture, decarbonization, and life sciences. Page, through Alphabet, agreed to finance it. Friedberg would operate it. Another system to build from scratch.
 
 He called it [The Production Board](https://www.tpb.co/). By 2021, it had raised $300 million from Alphabet, Baillie Gifford, BlackRock, and Morgan Stanley. The portfolio reads like a lab notebook: Pattern Ag (soil biology), Ohalo Genetics (plant breeding), Culture Biosciences (fermentation), Supergut (gut health), Cana (molecular beverages).
 
@@ -190,7 +190,7 @@ It was audacious. It was possibly insane. It was exactly what a Five does — fi
 
 But the investor years also taught Friedberg something uncomfortable about himself. "I am so convinced that I cannot let things fail because that's how I operated as an entrepreneur," he admitted. "I made the mistake of making sure that nothing failed, which was a naive approximation for my success as an entrepreneur."
 
-A Five who can't let anything fail. Who needs to understand every system, control every variable, fix every problem. It's the strength that built The Climate Corporation and the weakness that nearly sabotaged him as an investor. The same instinct, pointing in opposite directions.
+A Five who can't let anything fail. Who needs to understand every system, control every variable, fix every problem. That instinct built The Climate Corporation. The same instinct nearly sabotaged him as an investor, because portfolio companies aren't systems you can fully understand — they're people, with their own unknown unknowns. Friedberg the operator could remove variables. Friedberg the investor kept discovering he wasn't the one holding the controls.
 
 Then Friedberg did something unexpected. In November 2023, he stepped away from The Production Board's broad portfolio and became full-time CEO of Ohalo Genetics — a single company, focused on a single breakthrough.
 
@@ -206,11 +206,11 @@ The astrophysicist who played poker in Bay Area card rooms is now trying to feed
 
 There is a version of David Friedberg's story that looks like pure Five detachment — the cold optimizer, reducing every problem to data, selling to whoever has the best distribution, moving on to the next system to master.
 
-But that version misses something.
+But that version ignores where he came from.
 
-His father, Lionel Friedberg, made _Crisis in the Atmosphere_ in 1989 — one of the first documentaries ever produced about global warming. He spent his career filming the destruction of the natural world. Trying to make people care. Trying to make them see.
+His father, Lionel Friedberg, made _Crisis in the Atmosphere_ in 1989 — one of the first documentaries ever produced about global warming. He spent his career filming the destruction of the natural world. The family dinner table conversation in 2013, when Lionel called Monsanto "the most evil company in the world," wasn't the first time David had heard this worldview. He'd grown up watching his father try to move people through images and stories. He'd watched it work on some people and fail on most.
 
-David watched his father do this. And then he chose a different method.
+David chose a different method. Not a warmer one. A different one.
 
 He didn't make documentaries. He didn't try to convince people. He built systems that made the problem irrelevant. Weather destroying farms? Insure the farms. Not enough food for the planet? Edit the crops. Beverages creating waste? Print the beverages.
 
@@ -220,6 +220,6 @@ His father saw the crisis and pointed a camera at it. His son saw the same crisi
 
 He's been doing this his entire life — the six-year-old who arrived in LA with nothing, the teenager who mastered probability in card rooms, the Google employee who saw a bike shop close in the rain and built a billion-dollar company. Every time, the same motion: observe the system, identify the essential variable, reduce, build, solve.
 
-The question is whether reduction is enough. Whether you can feed the world by editing its DNA without ever addressing why the world is hungry in the first place. Whether the scientist's method can solve problems that aren't, at their root, scientific.
+The reduction instinct is the thing his father couldn't do and Friedberg can't stop doing. Lionel Friedberg pointed a camera at a crisis and hoped people would feel enough to change. David Friedberg concluded that feelings don't scale. Systems do. So he builds the system, sells it to the most efficient distributor — even when that distributor is the most evil company in the world — and moves to the next problem.
 
-Friedberg's father wanted to change hearts. Friedberg wants to change yields. Both of them are trying to save the same planet. Neither has finished.
+Whether that's wisdom or a specific kind of emotional avoidance dressed up as strategy is the question Friedberg's Type 5 would rather not answer. He prefers to stay in the lab. The yields are cleaner there.

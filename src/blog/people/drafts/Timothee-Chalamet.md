@@ -61,8 +61,8 @@ That's [Type 6](/enneagram-corner/enneagram-type-6) psychology running at full t
 <ul>
 <li><b>Fear as foundation:</b> He grew up in Manhattan Plaza watching artists struggle — "This building truthfully made me scared of acting because it's a tough lifestyle." A Type 3 would see competition to surpass. A Type 4 would romanticize the struggle. Chalamet was terrified by it.</li>
 <li><b>Preparation as anxiety management:</b> Seven years of ping pong training. Five years studying Bob Dylan. Six figures of his own money on a single SNL performance. Wearing blinding contact lenses because a director asked. This isn't ambition — it's catastrophe prevention.</li>
-<li><b>Counter-phobic charging:</b> The SAG "pursuit of greatness" speech, the "top-level shit" self-assessment — then immediately walking it back: "Sometimes I feel like I've been misinterpreted in my quest." Classic Six: charge at the fear, then question whether you went too far.</li>
-<li><b>Authority-seeking:</b> Tom Cruise sent him a training "war cry" email and he followed it to the letter. He told Josh Safdie "I'll do anything you ask me to do." Villeneuve said he "needed to be protected." Type 6s look for trustworthy authority to anchor against.</li>
+<li><b>Counter-phobic charging:</b> The SAG "pursuit of greatness" speech, the "top-level shit" self-assessment — then immediately walking it back: "Sometimes I feel like I've been misinterpreted in my quest." He charges at the fear, then questions whether he went too far.</li>
+<li><b>Authority-seeking:</b> Tom Cruise sent him a training "war cry" email and he followed it to the letter. He told Josh Safdie "I'll do anything you ask me to do." Villeneuve said he "needed to be protected." He doesn't trust his own instincts alone — he anchors against people he's decided to trust.</li>
 </ul>
 </div>
 </details>
@@ -73,15 +73,13 @@ Before Hollywood, Timothée Chalamet was a kid in Manhattan Plaza — a federall
 
 "They built it as regular apartments," Chalamet has explained, "but back then, the mafia was so infiltrated in Hell's Kitchen, they cut a deal with the federal government so they provided low-income arts housing for all these crazy artists to grow up in."
 
-Here's where the [Type 6](/enneagram-corner/enneagram-type-6) formation begins:
-
 **"This building truthfully made me scared of acting,"** he told 60 Minutes, **"because it's a tough lifestyle, and a lot of people aren't doing fantastically."**
 
 Not inspired by the artists. Not drawn to their glamour. _Scared_ by them. He saw what happens when talent isn't enough, and that fear became the foundation of everything that followed.
 
 His bicultural upbringing amplified the pattern. His mother, Nicole Flender, is a third-generation New Yorker of Russian and Austrian Jewish descent, a former Broadway dancer who studied French at Yale. His father, Marc Chalamet, is a French-born UNICEF editor. Young Timothée spoke French at home, English at school, and spent summers in the village of Le Chambon-sur-Lignon.
 
-"Personality changes when using a second language," he's observed. In France, he becomes "a little more deferential." This constant code-switching — never fully belonging to one world — is classic Type 6 formation: learning to read every room because you're never sure which one is home.
+"Personality changes when using a second language," he's observed. In France, he becomes "a little more deferential." This constant code-switching — never fully belonging to one world — meant learning to read every room because you're never sure which one is home.
 
 ## The Backup Plan Mentality
 
@@ -91,7 +89,7 @@ Despite early Hollywood credits (_Law & Order_, _Homeland_), he still enrolled a
 
 Why would a working actor bother with college?
 
-Because a Type 6 always has a backup plan.
+Because he always has a backup plan.
 
 "I naturally have a me-against-the-world mentality," Chalamet has admitted, "and I've been fighting it since I was 13. It's felt like it's only gotten me in lonely, angry places."
 
@@ -99,7 +97,7 @@ When _Call Me By Your Name_ catapulted him to international stardom at 21, most 
 
 "My world had flipped," he told GQ. "But if I kicked it with my friends, things could still feel the same. I was trying to marry these two realities."
 
-That's Type 6 stability-seeking under pressure. When the external world becomes unfamiliar, the Six reaches for the familiar anchor. Like [Bob Dylan](/personality-analysis/Bob-Dylan) — another suspected Type 6 who retreated to Woodstock after his explosive fame — Chalamet sought refuge in the people he already trusted.
+When the external world becomes unfamiliar, he reaches for the familiar anchor. Like [Bob Dylan](/personality-analysis/Bob-Dylan) — another suspected Type 6 who retreated to Woodstock after his explosive fame — Chalamet sought refuge in the people he already trusted.
 
 ## Why Not Type 3 or Type 4?
 
@@ -107,7 +105,7 @@ That's Type 6 stability-seeking under pressure. When the external world becomes 
 
 But watch what happens after the bold declaration. Within weeks of the _Marty Supreme_ press tour, Chalamet was already retreating: "Sometimes I feel like I've been misinterpreted in my quest."
 
-A Type 3 doesn't backpedal. A Three commits to the image because the image _is_ the identity. Chalamet's bold declarations are followed by doubt, qualification, retreat — the counter-phobic Six charging at fear and then immediately questioning whether he went too far.
+A Type 3 doesn't backpedal. A Three commits to the image because the image _is_ the identity. Chalamet's bold declarations are followed by doubt, qualification, retreat — charge at the fear, then immediately question whether you went too far.
 
 **The case for Type 4** (The Individualist) has its own logic. Josh Safdie saw "a romantic angst" and "a feeling of a misfit" when they first met in 2017. Chalamet has called himself "self-observant and self-loathing." His emotional depth in roles like Elio and Nic Sheff, his "me-against-the-world" confession — all read Four-ish.
 
@@ -115,7 +113,7 @@ But Type 4s _romanticize_ the struggle. They lean into the outsider identity, re
 
 Chalamet does the opposite. He over-prepares precisely because he doesn't trust the struggle to work out. He didn't romanticize the artists he grew up around in Manhattan Plaza — he was terrified of becoming them. And his vulnerability isn't curated; it's involuntary: "I feel my heart is on my sleeve and any attempt to disguise that or be too cool for school is challenging for me."
 
-The distinguishing evidence is Villeneuve's observation: he saw "a young adult whose identity was not solidified" who "needed to be protected." Type 3s arrive with identity fully formed — constructed, but solid. Type 4s arrive knowing exactly who they are — painful, but certain. Type 6s arrive still looking for someone to tell them they belong.
+The distinguishing evidence is Villeneuve's observation: he saw "a young adult whose identity was not solidified" who "needed to be protected." Type 3s arrive with identity fully formed — constructed, but solid. Type 4s arrive knowing exactly who they are — painful, but certain. Chalamet arrived still looking for someone to tell him he belonged.
 
 ## Preparation as Prayer
 
@@ -149,11 +147,11 @@ A Type 3 would have done the crowd-pleasers. A Six pays out of pocket to control
 
 ## The Authority Question
 
-Type 6s are defined by their relationship to authority — they either seek it, rebel against it, or both at once.
+Chalamet's relationship to authority is the most revealing thing about him. He doesn't simply obey, and he doesn't simply rebel — he evaluates, intensely, every time.
 
 After the first _Dune_, Tom Cruise sent Chalamet an email with a list of stunt trainers, dance coaches, motorcycle instructors, and helicopter coaches. "He basically said, in Old Hollywood, you would be getting dance training and fight training, and nobody is going to hold you to that standard today." Chalamet called it "a war cry."
 
-He took it literally. Within a year, he was training across multiple disciplines simultaneously. The Six received instructions from a trusted authority and followed them to the letter.
+He took it literally. Within a year, he was training across multiple disciplines simultaneously. Instructions from a trusted authority, followed to the letter.
 
 But the pattern isn't simple obedience. Christopher Nolan tells a different story. During _Interstellar_ in 2014, the teenage Chalamet — number 12 on the call sheet — ignored Nolan's direction during an emotional scene:
 
@@ -163,7 +161,7 @@ Nolan's takeaway: "He knows what he wants to do and has an idea."
 
 Chalamet's takeaway, years later: "Though my role is not enormous in _Interstellar_... this film came to me at a time in life, in my career, where things were certainly not set yet. It's remained my favorite project I've ever been in."
 
-Total submission to Safdie. Defiance of Nolan. Gospel-level following of Cruise. The Six doesn't trust authority blindly — they test it, evaluate it, decide case by case whether to follow or fight. The common thread isn't obedience or rebellion. It's the intensity of the evaluation itself.
+Total submission to Safdie. Defiance of Nolan. Gospel-level following of Cruise. None of it is blind obedience or reflexive rebellion — it's a case-by-case evaluation of whether this particular authority has earned it. The common thread isn't the outcome. It's the intensity of the evaluation itself.
 
 ## Under Stress: The Pursuit of Greatness
 
@@ -179,7 +177,7 @@ Comparisons to [Kanye](/personality-analysis/Kanye) West's self-aggrandizing sur
 
 Then the retreat: "Sometimes I feel like I've been misinterpreted in my quest."
 
-This oscillation — bold declaration, public backlash, immediate qualification — maps precisely to the counter-phobic Six under stress. The fear of not being taken seriously pushes him toward Three-like self-promotion. The fear of being seen as arrogant pulls him back. Both directions run on the same engine: the terror of being misjudged.
+This oscillation — bold declaration, public backlash, immediate qualification — is the counter-phobic pattern under stress made visible. The fear of not being taken seriously pushes him toward Three-like self-promotion. The fear of being seen as arrogant pulls him back. Both directions run on the same engine: the terror of being misjudged.
 
 "I don't want to look back on life and career and go, 'I pretended to care less about this than I did,'" he told The Curb. That sentence contains the entire conflict. He's afraid of hiding his ambition _and_ afraid of showing it.
 
@@ -191,7 +189,7 @@ Every step has been taken with the precision of someone managing risk. First red
 
 "It took Kylie a long time to introduce him to her kids," a source told People. "He's part of the family now though."
 
-This isn't playing it cool. This is a Type 6 building trust one verified step at a time. A Three would leverage the relationship for visibility. A Four would demand emotional intensity from the start. A Six constructs loyalty architecturally — each step of vulnerability contingent on the previous step holding.
+This isn't playing it cool. This is trust built one verified step at a time. A Three would leverage the relationship for visibility. A Four would demand emotional intensity from the start. Chalamet constructs loyalty architecturally — each step of vulnerability contingent on the previous step holding.
 
 When breakup rumors surfaced in November 2025, they responded not with a statement but with a red carpet appearance at the _Marty Supreme_ premiere the following month. Actions over words. Proof over promises.
 
@@ -211,7 +209,7 @@ Villeneuve confirmed the shift. After seeing the same actor who "needed to be pr
 
 In Chalamet's own words: "When you really release yourself of the responsibility to be enjoying things, that's when you actually do."
 
-That's a Six who has done enough work to occasionally — not permanently, but occasionally — set the vigilance down.
+That's someone who has done enough work to occasionally — not permanently, but occasionally — set the vigilance down.
 
 ## The Question He Can't Stop Asking
 
@@ -226,5 +224,3 @@ A Three would never say that out loud — it breaks the image. A Four would say 
 ---
 
 > **Disclaimer:** This analysis of Timothée Chalamet's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
-
-What draws you to Chalamet's work — the intensity of his preparation, or the vulnerability he can't quite hide? Drop your thoughts below. We'd love to hear how his personality resonates with yours.

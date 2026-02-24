@@ -119,33 +119,9 @@ He spends "a lot of time wandering around New York City with his laptop, wonderi
 
 The boring surface protects the interesting interior.
 
-### The Three-to-One Ratio
+Actual writing, he told Carey Nieuwhof, takes up a very small amount of his time. The real work is research orchestration — transcribing interviews, printing transcripts, underlining the parts he likes, then assembling them in a Word file. He compares it to jigsaw puzzles. The ratio is lopsided on purpose. Where others rush to produce, he waits until the pattern becomes clear. When it won't? **"I write about what makes me angry,"** he told Tim Ferriss. **"It seems to work pretty well."** Anger as pattern interrupt. The emotion that breaks through the thinking loop.
 
-Gladwell's process is lopsided: far more thinking than writing. **"Actual writing takes up a very small amount of time,"** he told Carey Nieuwhof. The real work is research orchestration — transcribing interviews, printing transcripts, underlining the parts he likes, then assembling them in a Word file. He compares it to jigsaw puzzles. Where others rush to produce, Gladwell waits until the pattern becomes clear.
-
-When it won't come? **"I write about what makes me angry,"** he told Tim Ferriss. **"It seems to work pretty well."** Anger as pattern interrupt — the emotion that breaks through the thinking loop.
-
-### The Art of the "Dumb" Question
-
-Gladwell learned from his father — a mathematician with that "endless appetite for understanding through questioning." Graham Gladwell modeled the idea that asking apparently naive questions wasn't weakness but technique.
-
-His son turned this into craft. In interviews, Gladwell uses the word "wait" constantly — not to stall, but to make both himself and the speaker realize something important was just said. His technique isn't about catching people in contradictions. It's about drawing out their best thinking.
-
-### The Introvert's Performance
-
-**"Speaking is not an act of extroversion,"** Gladwell has said. **"It has nothing to do with extroversion. It's a performance, and many performers are hugely introverted."**
-
-He prepares every word of his talks beforehand. On stage, he inhabits a "storytelling role" he doesn't inhabit anywhere else. The counterintuitive key: sounding unstudied requires _more_ rehearsal, not less.
-
-**"I'm not the chatty one at the dinner table or at parties. I don't actually go to that many parties."**
-
-### The Runner's Discipline
-
-Gladwell ran competitively as a teenager and has discussed running throughout his career. Distance running is solitary, repetitive, meditative — no team, no audience, just the mind working without interruption.
-
-In conversation with Tyler Cowen, he used running to dismantle the myth of early talent identification. He argued the pecking order between ages 12 and 18 is unstable — and that a country's true strength lies in its broad base of committed runners, not a single champion. His favorite argument about running mirrors his career: breadth matters more than a single peak.
-
-**"You can't really be an athlete and be a pessimist,"** he told Cowen. From someone who guards his energy so carefully, that optimism feels earned.
+His father modeled the approach — a mathematician with an "endless appetite for understanding through questioning," comfortable asking apparently naive questions without fear of judgment. Gladwell absorbed that and turned it into craft. In interviews, he uses the word "wait" constantly, not to stall but to make both himself and the speaker realize something important was just said. On stage, he prepares every word beforehand, then inhabits a "storytelling role" he doesn't inhabit anywhere else. **"Speaking is not an act of extroversion,"** he's said. **"It has nothing to do with extroversion. It's a performance, and many performers are hugely introverted."** The counterintuitive key: sounding unstudied requires more rehearsal, not less. He doesn't go to many parties. He watches construction sites. He runs. Distance running — solitary, repetitive, meditative — is cognitive maintenance: no team, no audience, just the mind working without interruption. In conversation with Tyler Cowen, he used running to dismantle the myth of early talent identification. His argument mirrored his career: breadth matters more than a single peak. **"You can't really be an athlete and be a pessimist,"** he told Cowen. From someone who guards his energy so carefully, that optimism feels earned.
 
 ---
 
@@ -230,6 +206,8 @@ Fatherhood is the ultimate demand on a resource hoarder. Children take what they
 His thinking shifted to match. In recent interviews, he keeps translating what people call personality traits into habits: **"Being kind to strangers is a habit. It's a contagious habit… you have to practice."** Curiosity, he argued, isn't a fixed quality — it's maintained by repeated exposure outside your default interests.
 
 For someone who spent decades naming patterns — tipping points, outliers, connectors, mavens — there's something quietly radical about a late-career insistence that the labels aren't fixed. That the patterns he named are things people _practice_, not things people _are_.
+
+In Enneagram terms, this is the Five moving toward [Type 7](/enneagram-corner/enneagram-type-7). Healthy Fives don't just withdraw more efficiently — they develop the Seven's appetite for experience, humor, and engagement with the messy world. You can hear it in _Revisionist History_: the podcast has a playfulness his books don't, a willingness to be wrong on mic, to get excited, to argue with the audience. The world touring. The fatherhood. The move from Manhattan to Hudson. These aren't failures of the Five's discipline — they're the Five finally allowing himself to want things outside the study. The boring life got interesting. Not because the research stopped, but because the man started living inside it rather than above it.
 
 The Five's bargain was always this: you can understand the world or live in it fully, but you can't do both. Gladwell chose understanding. Made an empire of it. Wrote the books, named the concepts, gave the talks, then went home to an astonishingly boring life where nobody needed anything from him.
 
