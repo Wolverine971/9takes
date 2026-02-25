@@ -43,14 +43,19 @@ const BLOCKED_PATH_SEGMENTS = new Set(['subtopic']);
 const SOCIAL_VARIANTS = ['.instagram.', '.twitter.', '.reddit.', '.review.'];
 
 const MARKDOWN_COMPONENTS = ['QuickAnswer', 'InsightBox'];
+const COMPONENT_TAGS_TO_UNWRAP = ['quickanswer', 'insightbox', 'datetip'];
 const COMPONENT_TAGS_TO_REMOVE = [
-	'quickanswer',
-	'insightbox',
 	'popcard',
 	'blogpurpose',
 	'marqueehorizontal',
 	'famoustypes'
 ];
+const COMPONENT_ATTRIBUTE_PREFIX: Record<string, string> = {
+	quickanswer: 'question',
+	insightbox: 'title'
+};
+const NAV_SELECTORS_TO_REMOVE = ['.quick-nav', '.type-buttons', '.jump-links', '.table-of-contents', '.toc'];
+const SENTENCE_SPLIT_REGEX = /(?<=[.!?])\s+/;
 
 export const load: PageServerLoad = async ({ locals }) => {
 	const [enneagramBlogs, peopleQuery] = await Promise.all([
@@ -333,11 +338,31 @@ function sanitizeHtmlForZine(renderedHtml: string): string {
 	const article = $('article');
 
 	article
-		.find('script,style,iframe,form,button,input,select,textarea,video,audio,noscript,template')
+		.find(
+			'script,style,iframe,form,button,input,select,textarea,video,audio,noscript,template,canvas,svg'
+		)
 		.remove();
+
+	for (const tag of COMPONENT_TAGS_TO_UNWRAP) {
+		article.find(tag).each((_index, element) => {
+			const componentNode = $(element);
+			const wrapper = $('<div></div>');
+			const prefixAttribute = COMPONENT_ATTRIBUTE_PREFIX[tag];
+			const prefixText = prefixAttribute ? componentNode.attr(prefixAttribute)?.trim() : '';
+			if (prefixText) {
+				wrapper.append($('<p></p>').text(prefixText));
+			}
+			wrapper.append(componentNode.contents());
+			componentNode.replaceWith(wrapper);
+		});
+	}
 
 	for (const tag of COMPONENT_TAGS_TO_REMOVE) {
 		article.find(tag).remove();
+	}
+
+	for (const selector of NAV_SELECTORS_TO_REMOVE) {
+		article.find(selector).remove();
 	}
 
 	article.find('[id^="component-"]').remove();
@@ -354,6 +379,15 @@ function extractSectionsFromHtml(bodyHtml: string): ZineSection[] {
 	}
 
 	const sections: ZineSection[] = [];
+	let sectionIndex = 0;
+
+	const introEnd = matches[0]?.index ?? 0;
+	const introHtml = bodyHtml.slice(0, introEnd).trim();
+	if (introHtml && htmlToText(introHtml).replace(/\s+/g, ' ').trim()) {
+		sections.push(buildSection('Introduction', introHtml, sectionIndex));
+		sectionIndex += 1;
+	}
+
 	for (let index = 0; index < matches.length; index++) {
 		const current = matches[index];
 		const next = matches[index + 1];
@@ -361,33 +395,49 @@ function extractSectionsFromHtml(bodyHtml: string): ZineSection[] {
 		const end = next?.index ?? bodyHtml.length;
 		const sectionHtml = bodyHtml.slice(start, end).trim();
 		const sectionTitle = htmlToText(current[0]).trim() || `Section ${index + 1}`;
-		sections.push(buildSection(sectionTitle, sectionHtml, index));
+		sections.push(buildSection(sectionTitle, sectionHtml, sectionIndex));
+		sectionIndex += 1;
 	}
 
-	return sections;
+	return sections.length ? sections : [buildSection('Main', bodyHtml, 0)];
 }
 
 function buildSection(title: string, html: string, index: number): ZineSection {
 	const sectionRoot = parseHtml(`<section>${html}</section>`);
-	const paragraphs = sectionRoot('section p, section li, section h3, section h4')
+	const extractedParagraphs = sectionRoot(
+		'section p, section li, section h3, section h4, section h5, section blockquote, section figcaption, section summary'
+	)
 		.toArray()
 		.map((element) => sectionRoot(element).text().replace(/\s+/g, ' ').trim())
 		.filter(Boolean);
+	const paragraphs: string[] = [];
+	const paragraphSeen = new Set<string>();
+	for (const paragraph of extractedParagraphs) {
+		const key = paragraph.toLowerCase();
+		if (paragraphSeen.has(key)) continue;
+		paragraphSeen.add(key);
+		paragraphs.push(paragraph);
+	}
 
 	const sectionText = sectionRoot('section').text().replace(/\s+/g, ' ').trim();
 	const fallbackParagraphs = sectionText
 		? sectionText
-				.split(/(?<=[.!?])\s+/)
+				.split(SENTENCE_SPLIT_REGEX)
 				.map((entry) => entry.trim())
 				.filter(Boolean)
 		: [];
+	const structuredCoverage = sectionText
+		? paragraphs.join(' ').length / Math.max(1, sectionText.length)
+		: 1;
+	const resolvedParagraphs =
+		paragraphs.length > 0 && structuredCoverage >= 0.55 ? paragraphs : fallbackParagraphs;
 
 	return {
 		id: `section-${index + 1}-${slugify(title)}`,
 		title,
 		html,
 		text: sectionText,
-		paragraphs: paragraphs.length ? paragraphs : fallbackParagraphs,
+		paragraphs: resolvedParagraphs,
 		include: true,
 		order: index
 	};

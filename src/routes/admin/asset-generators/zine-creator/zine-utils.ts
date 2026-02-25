@@ -56,6 +56,13 @@ export interface PaginatedSectionPage {
 	text: string;
 }
 
+export interface PaginationOptions {
+	includeInteriorImages?: boolean;
+	imageFrequency?: number;
+	imageOffset?: number;
+	safetyFactor?: number;
+}
+
 export interface HalfSheetImposition {
 	front: { left: number; right: number };
 	back: { left: number; right: number };
@@ -131,6 +138,15 @@ const FALLBACK_COLOR_SCHEME: ColorScheme = {
 	background: '#f8fafc'
 };
 
+const DEFAULT_PAGINATION_OPTIONS: Required<PaginationOptions> = {
+	includeInteriorImages: false,
+	imageFrequency: 3,
+	imageOffset: 1,
+	safetyFactor: 0.8
+};
+const MIN_CHARS_PER_SLICE = 36;
+const SENTENCE_SPLIT_REGEX = /(?<=[.!?])\s+/;
+
 export function normalizeEnneagram(value: unknown): number | null {
 	if (typeof value === 'number' && Number.isInteger(value) && value >= 1 && value <= 9) {
 		return value;
@@ -155,20 +171,126 @@ export function getValidPageCounts(format: ZineFormatId): number[] {
 	return ZINE_FORMATS[format].validPageCounts;
 }
 
-export function estimateCharsPerPage(format: ZineFormatId, bodyFontSizePt: 9 | 10 | 11): number {
+function clampNumber(value: number, min: number, max: number): number {
+	return Math.min(max, Math.max(min, value));
+}
+
+function resolvePaginationOptions(options?: PaginationOptions): Required<PaginationOptions> {
+	const imageFrequency = Number.isFinite(options?.imageFrequency)
+		? Math.max(1, Math.floor(options?.imageFrequency ?? DEFAULT_PAGINATION_OPTIONS.imageFrequency))
+		: DEFAULT_PAGINATION_OPTIONS.imageFrequency;
+	const imageOffset = Number.isFinite(options?.imageOffset)
+		? Math.max(0, Math.floor(options?.imageOffset ?? DEFAULT_PAGINATION_OPTIONS.imageOffset))
+		: DEFAULT_PAGINATION_OPTIONS.imageOffset;
+	const safetyFactor =
+		typeof options?.safetyFactor === 'number'
+			? clampNumber(options.safetyFactor, 0.55, 1)
+			: DEFAULT_PAGINATION_OPTIONS.safetyFactor;
+
+	return {
+		includeInteriorImages:
+			options?.includeInteriorImages ?? DEFAULT_PAGINATION_OPTIONS.includeInteriorImages,
+		imageFrequency,
+		imageOffset,
+		safetyFactor
+	};
+}
+
+function shouldReserveImageSpace(
+	pageIndex: number,
+	options: Required<PaginationOptions>
+): boolean {
+	if (!options.includeInteriorImages) return false;
+	return pageIndex % options.imageFrequency === options.imageOffset % options.imageFrequency;
+}
+
+function pageCharBudget(
+	pageIndex: number,
+	format: ZineFormatId,
+	bodyFontSizePt: 9 | 10 | 11,
+	options: Required<PaginationOptions>
+): number {
+	const hasImage = shouldReserveImageSpace(pageIndex, options);
+	const rawBudget = estimateCharsPerPage(format, bodyFontSizePt, hasImage);
+	return Math.max(140, Math.floor(rawBudget * options.safetyFactor));
+}
+
+function takeTextSlice(input: string, maxChars: number): { chunk: string; remainder: string } {
+	const text = input.trim();
+	if (!text) return { chunk: '', remainder: '' };
+
+	if (text.length <= maxChars) {
+		return { chunk: text, remainder: '' };
+	}
+
+	if (maxChars <= 12) {
+		return {
+			chunk: text.slice(0, maxChars),
+			remainder: text.slice(maxChars).trimStart()
+		};
+	}
+
+	let cutAt = text.lastIndexOf(' ', maxChars);
+	if (cutAt < Math.floor(maxChars * 0.45)) {
+		cutAt = maxChars;
+	}
+
+	const chunk = text.slice(0, cutAt).trimEnd();
+	const remainder = text.slice(cutAt).trimStart();
+
+	if (!chunk) {
+		return {
+			chunk: text.slice(0, maxChars),
+			remainder: text.slice(maxChars).trimStart()
+		};
+	}
+
+	return { chunk, remainder };
+}
+
+function getSourceParagraphs(section: Pick<ZineSection, 'paragraphs' | 'text'>): string[] {
+	if (section.paragraphs?.length) {
+		return section.paragraphs;
+	}
+
+	if (!section.text) {
+		return [];
+	}
+
+	return section.text.split(SENTENCE_SPLIT_REGEX);
+}
+
+export function estimateCharsPerPage(
+	format: ZineFormatId,
+	bodyFontSizePt: 9 | 10 | 11,
+	hasInteriorImage = false
+): number {
 	const base = format === 'half' ? 2200 : format === 'quarter' ? 1100 : 550;
 
 	const fontMultiplier = bodyFontSizePt === 9 ? 1.14 : bodyFontSizePt === 11 ? 0.86 : 1;
-	return Math.max(250, Math.floor(base * fontMultiplier));
+	const imageMultiplier = format === 'half' ? 0.62 : format === 'quarter' ? 0.58 : 0.52;
+	const imageAdjustment = hasInteriorImage ? imageMultiplier : 1;
+
+	return Math.max(hasInteriorImage ? 140 : 250, Math.floor(base * fontMultiplier * imageAdjustment));
 }
 
 export function estimateTotalPages(
 	sections: Array<Pick<ZineSection, 'text'>>,
 	format: ZineFormatId,
-	bodyFontSizePt: 9 | 10 | 11
+	bodyFontSizePt: 9 | 10 | 11,
+	options?: PaginationOptions
 ): number {
+	const resolvedOptions = resolvePaginationOptions(options);
 	const chars = sections.reduce((sum, section) => sum + (section.text?.length ?? 0), 0);
-	const contentPages = Math.max(1, Math.ceil(chars / estimateCharsPerPage(format, bodyFontSizePt)));
+	let remainingChars = Math.max(0, chars);
+	let contentPages = 0;
+
+	while (remainingChars > 0 && contentPages < 2000) {
+		remainingChars -= pageCharBudget(contentPages, format, bodyFontSizePt, resolvedOptions);
+		contentPages += 1;
+	}
+
+	contentPages = Math.max(1, contentPages);
 	return contentPages + 2;
 }
 
@@ -193,35 +315,63 @@ export function recommendPageCount(format: ZineFormatId, estimatedPages: number)
 export function paginateSections(
 	sections: Array<Pick<ZineSection, 'title' | 'paragraphs' | 'text'>>,
 	format: ZineFormatId,
-	bodyFontSizePt: 9 | 10 | 11
+	bodyFontSizePt: 9 | 10 | 11,
+	options?: PaginationOptions
 ): PaginatedSectionPage[] {
-	const maxChars = estimateCharsPerPage(format, bodyFontSizePt);
+	const resolvedOptions = resolvePaginationOptions(options);
 	const pages: PaginatedSectionPage[] = [];
+	let pageIndex = 0;
 
 	for (const section of sections) {
-		const sourceParagraphs = section.paragraphs?.length
-			? section.paragraphs
-			: section.text
-				? section.text.split(/(?<=[.!?])\s+/)
-				: [];
-		const paragraphs = sourceParagraphs.map((p) => p.trim()).filter(Boolean);
+		const paragraphs = getSourceParagraphs(section)
+			.map((entry) => entry.replace(/\s+/g, ' ').trim())
+			.filter(Boolean);
 
 		if (paragraphs.length === 0) continue;
 
-		let buffer = '';
+		let bufferParts: string[] = [];
+		let bufferChars = 0;
+
+		const flushBuffer = () => {
+			if (bufferParts.length === 0) return;
+			pages.push({
+				sectionTitle: section.title,
+				text: bufferParts.join('\n\n').trim()
+			});
+			pageIndex += 1;
+			bufferParts = [];
+			bufferChars = 0;
+		};
+
 		for (const paragraph of paragraphs) {
-			const chunk = buffer ? `${buffer}\n\n${paragraph}` : paragraph;
-			if (chunk.length > maxChars && buffer) {
-				pages.push({ sectionTitle: section.title, text: buffer });
-				buffer = paragraph;
-			} else {
-				buffer = chunk;
+			let remainingParagraph = paragraph;
+			while (remainingParagraph) {
+				const maxChars = pageCharBudget(pageIndex, format, bodyFontSizePt, resolvedOptions);
+				const separatorChars = bufferParts.length > 0 ? 2 : 0;
+				const availableChars = maxChars - bufferChars - separatorChars;
+
+				if (availableChars < MIN_CHARS_PER_SLICE) {
+					flushBuffer();
+					continue;
+				}
+
+				const { chunk, remainder } = takeTextSlice(remainingParagraph, availableChars);
+				if (!chunk) {
+					flushBuffer();
+					continue;
+				}
+
+				bufferParts.push(chunk);
+				bufferChars += chunk.length + separatorChars;
+				remainingParagraph = remainder;
+
+				if (remainingParagraph) {
+					flushBuffer();
+				}
 			}
 		}
 
-		if (buffer) {
-			pages.push({ sectionTitle: section.title, text: buffer });
-		}
+		flushBuffer();
 	}
 
 	if (pages.length === 0) {

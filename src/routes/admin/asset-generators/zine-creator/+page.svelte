@@ -95,12 +95,21 @@
 
 	const exportDpi = 300;
 	const stagingDpi = 150;
+	const interiorImageFrequency = 3;
+	const interiorImageOffset = 1;
 
 	let format = $derived(ZINE_FORMATS[formatId]);
 	let validPageCounts = $derived(getValidPageCounts(formatId));
 	let selectedSections = $derived.by(() => sections.filter((section) => section.include));
+	let canPlaceInteriorImages = $derived(
+		includeInteriorImages && (importedBlog?.images.length ?? 0) > 0
+	);
 	let estimatedPageCount = $derived.by(() =>
-		estimateTotalPages(selectedSections, formatId, bodyFontSizePt)
+		estimateTotalPages(selectedSections, formatId, bodyFontSizePt, {
+			includeInteriorImages: canPlaceInteriorImages,
+			imageFrequency: interiorImageFrequency,
+			imageOffset: interiorImageOffset
+		})
 	);
 	let recommendedPageCount = $derived(recommendPageCount(formatId, estimatedPageCount));
 
@@ -120,7 +129,11 @@
 	);
 	let availableContentPages = $derived(Math.max(1, pageCount - 2));
 	let contentDraftPages = $derived.by(() =>
-		paginateSections(orderedIncludedSections, formatId, bodyFontSizePt)
+		paginateSections(orderedIncludedSections, formatId, bodyFontSizePt, {
+			includeInteriorImages: canPlaceInteriorImages,
+			imageFrequency: interiorImageFrequency,
+			imageOffset: interiorImageOffset
+		})
 	);
 	let wouldTruncate = $derived(contentDraftPages.length > availableContentPages);
 
@@ -243,7 +256,11 @@
 		colorScheme = getDefaultColorScheme(blog.enneagram ?? null);
 		pageCount = recommendPageCount(
 			formatId,
-			estimateTotalPages(blog.sections, formatId, bodyFontSizePt)
+			estimateTotalPages(blog.sections, formatId, bodyFontSizePt, {
+				includeInteriorImages: includeInteriorImages && blog.images.length > 0,
+				imageFrequency: interiorImageFrequency,
+				imageOffset: interiorImageOffset
+			})
 		);
 		allowTruncation = false;
 		previewPage = 1;
@@ -352,7 +369,10 @@
 		});
 
 		contentPages.forEach((contentPage, index) => {
-			const hasImage = includeInteriorImages && blog.images.length > 0 && index % 3 === 1;
+			const hasImage =
+				includeInteriorImages &&
+				blog.images.length > 0 &&
+				index % interiorImageFrequency === interiorImageOffset;
 			pages.push({
 				id: `content-${index + 1}`,
 				type: 'content',
@@ -1548,6 +1568,10 @@
 		line-height: 1.16;
 		font-family: var(--heading-font);
 		color: var(--primary);
+		max-width: 100%;
+		overflow-wrap: anywhere;
+		word-break: break-word;
+		hyphens: auto;
 	}
 
 	.zine-page-preview h2 {
@@ -1563,6 +1587,10 @@
 		margin: 0;
 		font-size: 0.12in;
 		color: #334155;
+		max-width: 100%;
+		overflow-wrap: anywhere;
+		word-break: break-word;
+		hyphens: auto;
 	}
 
 	.body-text {
@@ -1571,6 +1599,15 @@
 		line-height: 1.45;
 		white-space: pre-wrap;
 		overflow: hidden;
+		max-width: 100%;
+		overflow-wrap: anywhere;
+		word-break: break-word;
+		hyphens: auto;
+	}
+
+	.zine-page-preview.content .body-text {
+		flex: 1 1 auto;
+		min-height: 0;
 	}
 
 	.content-image {

@@ -19,30 +19,30 @@ instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Prince-Harry.md
 content_quality:
-  hook: 8
+  hook: 7
   enneagram: 8
   evidence: 9
   writing: 7
   originality: 7
-  overall: 7.8
+  overall: 7.6
   letter: C
-  graded_at: '2026-02-20'
+  graded_at: '2026-02-24'
 ---
 
-<!-- QUALITY GRADE: C (7.8)
-Hook: 8 | Enneagram: 8 | Evidence: 9 | Writing: 7 | Originality: 7
+<!-- QUALITY GRADE: C (7.6)
+Hook: 7 | Enneagram: 8 | Evidence: 9 | Writing: 7 | Originality: 7
 
-FEEDBACK (2026-02-20):
-- Excellent evidence — specific dates, sourced events (Jan 2026 High Court, Sep 2025 reunion, May 2025 BBC interview), YouGov polling numbers, Archewell Foundation financials. Person's voice is heard throughout.
-- The William comparison ("Same trauma. Different personality responses. Two completely different life trajectories.") is the strongest structural insight — same inputs, different wiring, divergent outcomes.
-- The critics section is admirably balanced — citing specific numbers and legitimate criticisms alongside Type 6 shadow analysis. This is rare and valuable.
-- The "trust calculation" framework coherently explains otherwise contradictory behaviors — tell-all memoir + privacy craving both serve the same Type 6 function.
+FEEDBACK (2026-02-24):
+- Evidence is exceptional — YouGov polling (72%→31%, 43-point gap), Archewell financials ($13M→$2.1M), specific dated events with hyperlinked sources, named observers (Arthur Edwards). Harry's voice heard in direct quotes across nearly every section.
+- The "trust calculus" framework is the piece's genuine contribution — privacy + memoir both serve Type 6 function, Megxit as risk calculation, institution shifting from "security" to "threat." This is the analytical engine that holds everything together.
+- Critics section is unusually balanced for this format — specific numbers, legitimate criticisms, then Type 6 shadow analysis ("seeing enemies in critics who have a point"). Shows intellectual honesty.
+- Final line lands: "a twelve-year-old's survival strategy is being renegotiated, piece by piece, by the adult it made."
 
-- NEEDS WORK: The ending drifts into prediction/speculation ("What Comes Next" with bullet points) rather than cutting to black at peak insight. The strongest ending candidate is already in the piece — the O'Neill 23rd Psalm moment or the "build institutions where vulnerability is permitted" line.
-- NEEDS WORK: Writing is clean but not distinctive. Some sections (Fatherhood, Megxit) read report-like. Prose needs more memorable lines and less summary-of-events.
+- NEEDS WORK: Hook opens with contradiction list (craves privacy but writes memoir, left royals but fights for title) — analytical, not visceral. Lead with a SCENE: Harry choking up at the 2026 High Court, or walking behind Diana's coffin, or the moment Meghan told him she was suicidal. Give the reader a person before giving them a framework.
+- NEEDS WORK: Fatherhood and Security Fight sections read report-like — events summarized chronologically rather than narrated with psychological insight driving the structure. The Fatherhood section states "consent is a really key piece" but doesn't connect it back to Harry's own experience of having zero consent over his public childhood.
 
-- TO REACH B (8.0): (1) Cut or radically shorten the "What Comes Next" section — end at the Charles reconciliation tension or the "building safety since age 12" line. (2) Add one more contrast panel or pull quote that crystallizes the analysis. (3) Tighten the Fatherhood section — it's important but meanders.
-- TO REACH B+: (1) Find the signature detail — a single small moment that makes the whole Type 6 analysis click. The 23rd Psalm with O'Neill is close but belongs to Reagan's story. Needs Harry's equivalent. (2) Explore counter-typing — why not Type 4 (dramatic, identity-focused)? (3) Push the prose — fewer summaries, more narrative scenes.
+- TO REACH B (8.0): (1) Rewrite the hook — open with the January 2026 courtroom scene (tears, "they continue to come after me"), THEN reveal the contradictions. (2) Tighten Fatherhood — cut the Christmas card/Our Big Kitchen details, keep the "cutting children off from relationships that shaped him" tension which is the section's real point. (3) Remove the disclaimer and "More on Key Figures" — end at "the adult it made."
+- TO REACH B+ (8.5): (1) Find the signature detail — one small, specific moment only Harry experienced that crystallizes the Type 6 analysis. The coffin walk? A specific Spare passage? Something that fails the swap test completely. (2) Add counter-typing paragraph: why not Type 4? He's dramatic, identity-focused, feels misunderstood — address this directly. (3) Develop the William comparison into a full parallel-structure section: same inputs, different wiring, specific divergent decisions side by side.
 -->
 
 > "I was born into this position. I inherited the risk. Those who have been dating or married to members of the Royal Family are fleeing the institution."
