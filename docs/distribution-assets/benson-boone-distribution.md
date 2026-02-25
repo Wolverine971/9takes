@@ -172,6 +172,72 @@ DJ Wayne
 
 ---
 
+## Instagram Assets
+
+### Carousel (4 Slides)
+
+**Slide 1 — Hook (Photo Overlay):**
+Benson Boone has never tried drugs or alcohol. His reason? "Dude, candy."
+
+**Slide 2 — Insight (40-60 words):**
+Most people read the backflips as chaos. But his behavior is more intentional than it looks. He avoids substances because he knows his own intensity, and he channels that same intensity into performance, practice, and creative output.
+
+**Slide 3 — Depth (40-60 words):**
+He admitted: "I'm so incredibly hard on myself... It's never-ending." That's the cost of constant momentum. The energy that makes him electric on stage can become relentless self-pressure off stage.
+
+**Slide 4 — CTA:**
+I wrote the full personality analysis on 9takes. Link in bio.
+
+### Caption
+
+```text
+There's a detail in Benson Boone's story that says a lot about who he is.
+
+He's never tried drugs or alcohol. Not because of image. Because he knows his wiring. When asked how he knows he'd get addicted without trying anything, he said: "Dude, candy."
+
+That level of self-awareness at 23 is rare.
+
+People focus on the backflips and stage energy, but the deeper pattern is how he manages intensity. He runs hard, creates hard, and has to build systems to keep that energy from turning on him.
+
+His own words on body image say it clearly: "I'm so incredibly hard on myself... It's never-ending."
+
+This is why I find his story so compelling. It's not just performance. It's personality under pressure.
+
+Full breakdown on 9takes.com. Link in bio.
+
+What's your read on Benson's drive?
+```
+
+### Story Prompts
+
+- **Story 1 (same day):** "New deep dive: the psychology behind Benson Boone's energy, sobriety, and stage persona. Link sticker."
+- **Story 2 (poll):** "What makes him stand out most?" Poll A: "Raw performance" Poll B: "Honest self-awareness"
+- **Story 3 (24-hour follow-up):** "\"Dude, candy.\" One quote explains his whole strategy. Full analysis in bio."
+
+### Reel Script (30-60 sec)
+
+- **Hook (0-2s):** "Benson Boone's most revealing quote is two words long."
+- **Body (3-40s):** "\"Dude, candy.\" That's how he explains never touching substances. His pattern is intensity management: same drive behind backflips, ambition, and self-critique."
+- **Close (last 5-10s):** "I mapped the full personality pattern on 9takes. Link in bio."
+- **On-screen text cue:** "The psychology behind Benson's momentum"
+
+### Accounts to Tag
+
+- @bensonboone
+- @switchedonpop
+- @booneaccess
+
+### Instagram Timing
+
+- Carousel: Tue-Thu, 11 AM-1 PM EST or 7-9 PM EST
+- Stories: Same day as carousel + 24-hour follow-up
+- Reel: Day 3-5 after carousel
+
+---
+
 ## Platform-Specific Hashtags
 
 **Twitter:** #BensonBoone #BeautifulThings #AmericanHeart #Enneagram #PopMusic
+**Reddit tags/flairs:** Check current flair rules in r/bensonboone and r/popheads before posting
+**TikTok:** #BensonBoone #BeautifulThings #personalitytype #enneagram #popmusic #musicpsychology
+**Instagram:** #BensonBoone #BeautifulThings #AmericanHeart #Enneagram #PersonalityType #PopMusic #MusicPsychology

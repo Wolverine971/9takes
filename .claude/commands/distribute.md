@@ -1,6 +1,6 @@
 # Distribute - Celebrity Blog Distribution Asset Generator
 
-You are tasked with creating a comprehensive distribution plan for a 9takes celebrity personality analysis blog. When invoked with a person's name, you generate ready-to-use outreach assets: Twitter/X threads, Reddit posts, email pitches, fan account targets, and a direct outreach message.
+You are tasked with creating a comprehensive distribution plan for a 9takes celebrity personality analysis blog. When invoked with a person's name, you generate ready-to-use outreach assets: Twitter/X threads, Reddit posts, email pitches, fan account targets, direct outreach messages, and Instagram assets (carousel copy, caption, stories, reels, tags, timing).
 
 ## Input
 
@@ -13,7 +13,7 @@ Ready to create a distribution plan. Give me a person's name and I'll:
 
 1. Read their blog and extract the best hooks
 2. Research their fan communities and reachable accounts
-3. Generate Twitter threads, Reddit posts, email pitches, and DM templates
+3. Generate Twitter threads, Reddit posts, email pitches, DM templates, and Instagram assets
 4. Create a full distribution asset file
 
 Example: /distribute Theo Von
@@ -133,7 +133,7 @@ Find:
 Determine where this person is most active and reachable:
 
 - Twitter/X (active? engages with fans?)
-- Instagram (DMs open?)
+- Instagram (posting cadence? DMs open? comments active?)
 - TikTok (comment section accessible?)
 - YouTube (community tab?)
 - LinkedIn (for business/tech figures)
@@ -146,6 +146,15 @@ Determine their **outreach tier**:
 - **Tier A: Direct Reachable** — Under 2M followers, active on social, known to respond to interesting content (most podcasters, smaller creators, tech founders, politicians)
 - **Tier B: Fan Community Route** — Major celebrity, 2M+ followers, unlikely to see a DM but has massive fan communities (A-list actors, major musicians, top politicians)
 - **Tier C: Hybrid** — Big name but known to engage on specific platforms (e.g., Elon on X, Dave Portnoy on X)
+
+### 2f. Instagram Targeting Context
+
+Gather what you need for the Instagram asset pack:
+
+- **Official handle** and **1-3 related handles to tag** (fan/media/community)
+- **One primary visual hook moment** from the blog for slide 1
+- **One core quote** and **one tension statement** for slides 2-3
+- **Audience sensitivity note** (if fandom discourse is polarized, protective, or controversy-prone)
 
 ---
 
@@ -265,12 +274,73 @@ If the person is too big to DM directly, list specific fan accounts to target:
 | Discord  | [server name]    | [count]           | Share in relevant channel |
 ```
 
-### Section F: Platform-Specific Hashtags
+### Section F: Instagram Asset Pack
+
+Generate a complete Instagram package with all of the following:
+
+1. **Carousel copy (4 slides)**
+2. **Caption** (120-220 words, natural tone, one direct quote, ends with link-in-bio CTA and discussion prompt)
+3. **Story prompts** (same-day share + poll + 24-hour follow-up)
+4. **Reel script** (30-60 sec: hook, body, close)
+5. **Tag list** (1-3 handles)
+6. **Posting timing**
+
+Use this exact format:
+
+```
+## Instagram Assets
+
+### Carousel (4 Slides)
+
+**Slide 1 — Hook (Photo Overlay):**
+[One-line hook that stops scrolling]
+
+**Slide 2 — Insight (40-60 words):**
+[Core pattern connected to specific evidence]
+
+**Slide 3 — Depth (40-60 words):**
+[Tension/cost/growth edge in human language]
+
+**Slide 4 — CTA:**
+[Warm CTA pointing to full analysis]
+
+### Caption
+
+[120-220 word caption]
+
+### Story Prompts
+
+- **Story 1 (same day):** [Reshare text + link sticker direction]
+- **Story 2 (poll):** [Question + Poll option A + Poll option B]
+- **Story 3 (24-hour follow-up):** [One sticky insight + CTA]
+
+### Reel Script (30-60 sec)
+
+- **Hook (0-2s):** [line]
+- **Body (3-40s):** [2-3 concise points]
+- **Close (last 5-10s):** [CTA]
+- **On-screen text cue:** [optional text overlay]
+
+### Accounts to Tag
+
+- @[handle1]
+- @[handle2]
+- @[handle3] (optional)
+
+### Instagram Timing
+
+- Carousel post: [day + time window]
+- Stories: [same day plan]
+- Reel: [optional timing]
+```
+
+### Section G: Platform-Specific Hashtags
 
 ```
 **Twitter:** #[PersonName] #[NicheTag] #Enneagram #[IndustryTag] #[TypeTag]
 **Reddit tags/flairs:** [Note required flairs for each subreddit]
 **TikTok:** #[PersonName] #personalitytype #enneagram #[niche]
+**Instagram:** #[PersonName] #[NicheTag] #Enneagram #PersonalityType #[IndustryTag]
 ```
 
 ---
@@ -318,6 +388,12 @@ File format:
 
 ---
 
+## Instagram Assets
+
+[Generated carousel copy, caption, stories, reel script, tags, and timing]
+
+---
+
 ## Platform-Specific Hashtags
 
 [Generated hashtags]
@@ -327,9 +403,12 @@ File format:
 ## Distribution Checklist
 
 - [ ] Twitter thread posted (8-10 AM EST)
+- [ ] Instagram carousel posted (Day 1-2)
+- [ ] Instagram stories posted (same day as carousel)
 - [ ] Reddit r/Enneagram post (Day 2-3)
 - [ ] Reddit fan/niche subreddit post (Day 3-4)
 - [ ] Email pitches sent (Day 4-7)
+- [ ] Instagram reel posted (optional, Day 4-7)
 - [ ] Direct outreach / fan account tagging (Day 8-14)
 - [ ] Reactive posts when person is in the news (Ongoing)
 ```
@@ -362,6 +441,7 @@ Present a summary:
 - Reddit posts: [list subreddits]
 - Email pitches: [list targets]
 - [Direct DM template / Fan account targets]: [list]
+- Instagram assets: carousel, caption, stories, reel script, tags, timing
 
 ### Recommended Launch Timing:
 - [Based on content freshness and current events relevance]
@@ -371,6 +451,7 @@ Present a summary:
 - [ ] Replace all [LINK] placeholders with actual URL
 - [ ] Review and personalize email pitches
 - [ ] Check subreddit rules before posting
+- [ ] Ensure Instagram bio link points to this blog URL before posting
 ```
 
 ---
@@ -393,7 +474,7 @@ When generating new assets, read at least 2 of these files to calibrate the tone
 1. **Specificity over generality.** "He reconstructed the scene like a crime analyst — hot garage door, running car, reclined seat" > "He had a dark period."
 2. **Their words, not yours.** Use direct quotes as structural material, not decoration.
 3. **Each piece must stand alone.** A Reddit post should work even if the reader never clicks the link.
-4. **Platform-native writing.** Twitter threads read like Twitter. Reddit posts read like Reddit. Emails read like emails. Don't write the same content in three formats.
+4. **Platform-native writing.** Twitter threads read like Twitter. Reddit posts read like Reddit. Emails read like emails. Instagram copy reads like Instagram. Don't write the same content in every format.
 5. **The hook is everything.** If Tweet 1 and the Reddit title don't stop someone scrolling, the rest doesn't matter.
 6. **Authenticity over marketing.** Position as "I write personality analyses" not "Check out my site." The analysis IS the value — the site is just where it lives.
 7. **Discussion prompts, not CTAs.** End Reddit posts with genuine questions, not "Subscribe to my newsletter."

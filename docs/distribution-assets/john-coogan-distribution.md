@@ -185,6 +185,74 @@ DJ Wayne
 
 ---
 
+## Instagram Assets
+
+### Carousel (4 Slides)
+
+**Slide 1 — Hook (Photo Overlay):**
+John Coogan has never worked a full-time job at a company he didn't start.
+
+**Slide 2 — Insight (40-60 words):**
+Failed startup -> Soylent -> Lucy -> TBPN. The pattern is escalation. Each chapter has to be bigger than the last. This isn't random ambition. It's a consistent achiever psychology: output, iteration, and visible progression as identity.
+
+**Slide 3 — Depth (40-60 words):**
+His language is revealing: "I don't know if 'fun' is even a KPI I'd be worried about." High performers who optimize for results can lose contact with enjoyment. The same trait that builds companies can quietly narrow emotional range.
+
+**Slide 4 — CTA:**
+I wrote the full psychological breakdown on 9takes. Link in bio.
+
+### Caption
+
+```text
+I've been studying John Coogan's founder trajectory and there's a pattern most people miss.
+
+Failed startup. Soylent. Lucy. Then daily live media with TBPN.
+
+From the outside it looks like career pivots. From the inside it looks like one continuous drive: each chapter has to be bigger than the last.
+
+Even his quote about profitability says a lot: "I don't know if 'fun' is even a KPI I'd be worried about."
+
+That's not just a business line. It's a worldview.
+
+The same psychology that makes someone resilient under pressure can also make it hard to stop and ask whether the work still feels like yours.
+
+I mapped the full pattern through an Enneagram lens in a long-form analysis.
+
+Full breakdown on 9takes.com. Link in bio.
+
+Do you see this same pattern in other serial founders?
+```
+
+### Story Prompts
+
+- **Story 1 (same day):** "New post: the psychology behind serial founders, using John Coogan as the case study. Link sticker."
+- **Story 2 (poll):** "What's harder for founders?" Poll A: "Starting" Poll B: "Sustaining"
+- **Story 3 (24-hour follow-up):** "\"Fun isn't a KPI\" might be the most revealing founder quote this year. Full analysis in bio."
+
+### Reel Script (30-60 sec)
+
+- **Hook (0-2s):** "Why do some founders keep building bigger every time?"
+- **Body (3-40s):** "John Coogan's arc shows a pattern: escalation, adaptation, and emotional distance from outcomes. Great for execution, risky for identity."
+- **Close (last 5-10s):** "I broke down the full pattern on 9takes. Link in bio."
+- **On-screen text cue:** "Founder psychology: the escalation pattern"
+
+### Accounts to Tag
+
+- @johncoogan
+- @tbpn
+- @jordihays
+
+### Instagram Timing
+
+- Carousel: Tue-Thu, 11 AM-1 PM EST or 7-9 PM EST
+- Stories: Same day as carousel + 24-hour follow-up
+- Reel: Day 3-5 after carousel
+
+---
+
 ## Platform-Specific Hashtags
 
 **Twitter:** #TBPN #TechYouTube #Startups #SiliconValley #Enneagram
+**Reddit tags/flairs:** r/startups requires mod-safe framing; avoid link-drop tone
+**TikTok:** #JohnCoogan #TBPN #startups #personalitytype #enneagram #founderlife
+**Instagram:** #JohnCoogan #TBPN #Startups #Enneagram #PersonalityType #FounderLife #TechCulture

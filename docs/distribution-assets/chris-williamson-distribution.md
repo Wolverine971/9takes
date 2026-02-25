@@ -273,6 +273,71 @@ No pressure to share — figured you'd want to know it exists.
 
 ---
 
+## Instagram Assets
+
+### Carousel (4 Slides)
+
+**Slide 1 — Hook (Photo Overlay):**
+Chris Williamson built a huge platform by studying people before he knew himself.
+
+**Slide 2 — Insight (40-60 words):**
+As a kid, he tracked which shoulder classmates carried their bag on to decode popularity. That same forensic pattern-recognition later built Modern Wisdom. The core driver wasn't fame. It was understanding people deeply enough to reduce social uncertainty.
+
+**Slide 3 — Depth (40-60 words):**
+His own line captures the tension: he was "world class at playing Chris Williamson" before he felt like himself. The engine behind achievement also created distance from authenticity, and that split fueled years of disciplined self-reconstruction.
+
+**Slide 4 — CTA:**
+I wrote the full analysis on 9takes. Link in bio.
+
+### Caption
+
+```text
+I've been studying Chris Williamson's story and one detail keeps sticking with me.
+
+As a kid, he literally tracked which shoulder other kids carried their bags on, trying to figure out how to make friends.
+
+That observer mode never left. It scaled.
+
+Years later he built one of the biggest podcasts in the world, but he also said he felt like he was "world class at playing Chris Williamson" rather than being himself.
+
+That contradiction is the heart of his psychology: extreme competence on the outside, identity reconstruction on the inside.
+
+It's also why his work resonates. He didn't just teach self-improvement. He lived the long lonely chapter first.
+
+I mapped the full pattern through an Enneagram lens in a deep dive.
+
+Full analysis on 9takes.com. Link in bio.
+
+Curious how you read his trajectory.
+```
+
+### Story Prompts
+
+- **Story 1 (same day):** "New breakdown: the psychology behind Chris Williamson's rise. Link sticker."
+- **Story 2 (poll):** "What do you think drives him most?" Poll A: "Mastery" Poll B: "Belonging"
+- **Story 3 (24-hour follow-up):** "\"World class at playing Chris Williamson\" is one of the most honest lines in modern self-improvement. Full piece in bio."
+
+### Reel Script (30-60 sec)
+
+- **Hook (0-2s):** "Chris Williamson's career makes perfect sense once you see this pattern."
+- **Body (3-40s):** "Forensic social observation as a child became his competitive edge as a host. But achievement and authenticity were in conflict for years."
+- **Close (last 5-10s):** "I broke down the full pattern on 9takes. Link in bio."
+- **On-screen text cue:** "Achievement vs authenticity"
+
+### Accounts to Tag
+
+- @chriswillx
+- @modernwisdompodcast
+- @podcastnotes
+
+### Instagram Timing
+
+- Carousel: Tue-Thu, 11 AM-1 PM EST or 7-9 PM EST
+- Stories: Same day as carousel + 24-hour follow-up
+- Reel: Day 3-5 after carousel
+
+---
+
 ## Platform-Specific Hashtags
 
 **Twitter/X:** #ChrisWilliamson #ModernWisdom #Enneagram #SelfImprovement #Podcast #Type3
