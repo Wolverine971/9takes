@@ -2,6 +2,7 @@
 title: 'Sam Altman: The Man Building What Might Replace Him'
 meta_title: 'Sam Altman Enneagram Type 4 | Why He Grieves His Own Creation'
 description: 'Sam Altman runs a company worth hundreds of billions on a $76K salary. He stockpiles gas masks while building the most powerful AI in history. The Enneagram Type 4 pattern explains every contradiction.'
+persona_title: "AI's Existential Architect"
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/personality-analysis/Sam-Altman'
@@ -12,7 +13,7 @@ published: true
 enneagram: 4
 type: ['techie']
 person: 'Sam-Altman'
-suggestions: ['Paul Graham', 'Elon Musk', 'Peter Thiel', 'Jason Calacanis']
+suggestions: ['Paul-Graham', 'Elon-Musk', 'Peter-Thiel', 'Jason-Calacanis', 'Palmer-Luckey']
 wikipedia: 'https://en.wikipedia.org/wiki/Sam_Altman'
 twitter: 'https://twitter.com/sama'
 instagram: ''

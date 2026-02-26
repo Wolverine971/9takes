@@ -2,6 +2,7 @@
 title: 'Jeff Bezos: The Challenger Who Built Tomorrow'
 meta_title: 'Why Jeff Bezos Stays Silent When It Matters Most (His Personality Explained)'
 description: 'What drives Jeff Bezos to build 10,000-year clocks and stay silent during FBI raids? Discover how his Type 8 personality shapes his $253B empire.'
+persona_title: "Commerce's Immortal Architect"
 author: 'DJ Wayne'
 date: '2025-02-25'
 loc: 'https://9takes.com/personality-analysis/Jeff-Bezos'

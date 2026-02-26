@@ -2,6 +2,7 @@
 title: "Timothée Chalamet: The Actor Who Doesn't Trust His Own Talent"
 meta_title: 'Why Timothée Chalamet Over-Prepares for Everything (Type 6 Psychology)'
 description: "Inside the Type 6 psychology that turns Timothée Chalamet's anxiety into art—why his fear of failure makes him Hollywood's most committed actor."
+persona_title: 'The Prodigy Who Needs Protecting'
 author: 'DJ Wayne'
 date: '2024-07-03'
 loc: 'https://9takes.com/personality-analysis/Timothee-Chalamet'
@@ -12,7 +13,7 @@ published: true
 enneagram: 6
 type: ['newMovieStar']
 person: 'Timothee-Chalamet'
-suggestions: ['Zendaya', 'Kylie-Jenner', 'Bob-Dylan', 'Johnny-Depp']
+suggestions: ['Zendaya', 'Kylie-Jenner', 'Bob-Dylan', 'Johnny-Depp', 'Aubrey-Plaza', 'Jared-Leto']
 wikipedia: 'https://en.wikipedia.org/wiki/Timoth%C3%A9e_Chalamet'
 twitter: 'RealChalamet'
 instagram: 'tchalamet'

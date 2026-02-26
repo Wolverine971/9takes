@@ -1,6 +1,7 @@
 ---
 title: "Sabrina Carpenter: The Achiever Behind Pop's Biggest Reinvention"
 description: "Her dad built a studio in the basement. She's been performing since age 2 and hasn't stopped once. Sabrina Carpenter's humor hides the machine."
+persona_title: "Pop's Winking Machine"
 author: 'DJ Wayne'
 date: '2024-08-23'
 loc: 'https://9takes.com/personality-analysis/Sabrina-Carpenter'
@@ -11,7 +12,7 @@ published: true
 enneagram: 3
 type: ['musician']
 person: 'Sabrina-Carpenter'
-suggestions: ['Taylor-Swift', 'Ariana-Grande', 'Olivia-Rodrigo', 'Addison-Rae']
+suggestions: ['Taylor-Swift', 'Ariana-Grande', 'Olivia-Rodrigo', 'Madison-Beer']
 wikipedia: 'https://en.wikipedia.org/wiki/Sabrina_Carpenter'
 twitter: 'SabrinaAnnLynn'
 instagram: 'sabrinacarpenter'

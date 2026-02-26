@@ -13,7 +13,7 @@ published: true
 enneagram: 2
 type: ['politician']
 person: 'Joe-Biden'
-suggestions: ['Barack-Obama', 'Kamala-Harris', 'Donald-Trump', 'Hillary-Clinton']
+suggestions: ['Barack-Obama', 'Kamala-Harris', 'Donald-Trump', 'Hillary-Clinton', 'Vladimir-Putin']
 wikipedia: 'https://en.wikipedia.org/wiki/Joe_Biden'
 twitter: 'JoeBiden'
 instagram: 'joebiden'

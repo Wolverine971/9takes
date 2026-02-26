@@ -1,7 +1,7 @@
 ---
 title: "Meghan Markle's Enneagram Type 2 Personality: The Helper Who Couldn't Ask for Help"
 meta_title: "Why Meghan Markle Can't Stop Giving (And Why It Keeps Backfiring)"
-persona_title: 'The Relentless Giver'
+persona_title: 'The Calligrapher Who Burned the Palace'
 description: "Meghan Markle's contradictions make sense through the Type 2 lens: the warmth and the staff turnover, the privacy and the Oprah interview."
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -13,7 +13,8 @@ published: true
 enneagram: '2'
 type: ['celebrity', 'politician']
 person: 'Meghan-Markle'
-suggestions: ['Prince-Harry', 'Princess-Diana', 'Oprah-Winfrey', 'Kim-Kardashian']
+suggestions:
+  ['Prince-Harry', 'Princess-Diana', 'Oprah-Winfrey', 'Kim-Kardashian', 'Hillary-Clinton']
 wikipedia: 'https://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex'
 twitter: ''
 instagram: '@meghan'

@@ -1,6 +1,7 @@
 ---
 title: 'Paris Hilton: The Mask That Built an Empire'
 description: 'Paris Hilton played dumb while building a billion-dollar brand. Inside the trauma, the strategy, and the Type 3 psychology behind the most misread woman in pop culture.'
+persona_title: "Pop Culture's Masked Mogul"
 author: 'DJ Wayne'
 date: '2025-02-12'
 loc: 'https://9takes.com/personality-analysis/Paris-Hilton'
@@ -11,7 +12,7 @@ published: true
 enneagram: 3
 type: ['celebrity']
 person: 'Paris-Hilton'
-suggestions: ['Kim Kardashian', 'Kylie Jenner', 'Kourtney Kardashian', 'Jake Paul']
+suggestions: ['Kim-Kardashian', 'Kylie-Jenner', 'Marilyn-Monroe', 'Taylor-Swift', 'Jake-Paul']
 wikipedia: ''
 twitter: ''
 instagram: ''

@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['techie']
 person: 'Palmer-Luckey'
-suggestions: ['Elon-Musk', 'Peter-Thiel', 'Sam-Altman', 'Mark-Zuckerberg']
+suggestions: ['Elon-Musk', 'Peter-Thiel', 'Sam-Altman', 'Mark-Zuckerberg', 'Paul-Graham']
 wikipedia: 'https://en.wikipedia.org/wiki/Palmer_Luckey'
 twitter: 'PalmerLuckey'
 instagram: ''

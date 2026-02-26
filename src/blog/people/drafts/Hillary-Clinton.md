@@ -2,6 +2,7 @@
 title: "Hillary Clinton: The Type 1 Psychology Driving America's Most Scrutinized Woman"
 meta_title: "Hillary Clinton Enneagram Type 1 | Inside Her Reformer's Mind"
 description: 'Hillary Clinton lost the presidency and gave a concession speech anyway — not for politics, but because her inner critic demanded it.'
+persona_title: "Politics' Iron Administrator"
 author: 'DJ Wayne'
 date: '2024-09-12'
 loc: 'https://9takes.com/personality-analysis/Hillary-Clinton'

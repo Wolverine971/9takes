@@ -1,7 +1,7 @@
 ---
 title: 'Prince Harry: The "Spare" & Type 6 Psychology of Breaking From Royal Tradition'
 meta_title: "Why Prince Harry Can't Stop Fighting The Tabloids (It's Not What You Think)"
-persona_title: 'The Restless Royal'
+persona_title: 'The Spare Who Burned the Manual'
 description: "Harry's contradictions make perfect sense when you understand his Type 6 psychology: trust no one until they prove themselves, protect the inner circle at all costs."
 author: 'DJ Wayne'
 date: '2024-09-29'
@@ -13,6 +13,7 @@ published: true
 enneagram: '6'
 type: ['politician']
 person: 'Prince-Harry'
+suggestions: ['Meghan-Markle', 'Princess-Diana', 'Hillary-Clinton', 'Joe-Biden', 'Oprah-Winfrey']
 wikipedia: ''
 twitter: ''
 instagram: ''

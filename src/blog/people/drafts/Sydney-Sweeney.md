@@ -12,12 +12,13 @@ published: true
 enneagram: 3
 type: ['newMovieStar']
 person: 'Sydney-Sweeney'
-suggestions: ['Zendaya', 'Margot Robbie', 'Timothee Chalamet', 'Anya Taylor Joy']
+suggestions:
+  ['Zendaya', 'Margot-Robbie', 'Timothee-Chalamet', 'Anya-Taylor-Joy', 'Millie-Bobby-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/Sydney_Sweeney'
 twitter: 'https://twitter.com/sydney_sweeney'
 instagram: 'https://www.instagram.com/sydney_sweeney/'
 tiktok: 'https://www.tiktok.com/@syds_garage'
-persona_title: "Hollywood's Relentless Reinventor"
+persona_title: "Hollywood's Self-Erasing Architect"
 path: src/blog/people/drafts/Sydney-Sweeney.md
 content_quality:
   hook: 8

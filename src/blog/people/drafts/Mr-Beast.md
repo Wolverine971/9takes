@@ -13,7 +13,7 @@ enneagram: 8
 type: ['creator']
 person: 'Mr-Beast'
 persona_title: "The Algorithm Monk Who Can't Stop Building"
-suggestions: ['PewDiePie', 'Logan-Paul', 'Elon-Musk', 'David-Dobrik']
+suggestions: ['PewDiePie', 'Logan-Paul', 'Elon-Musk', 'David-Dobrik', 'IShowSpeed', 'Alex-Cooper']
 wikipedia: 'https://en.wikipedia.org/wiki/MrBeast'
 twitter: 'MrBeast'
 instagram: 'mrbeast'

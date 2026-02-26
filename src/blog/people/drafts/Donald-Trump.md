@@ -1,7 +1,7 @@
 ---
 title: 'Donald Trump: The Master of Image and the Fear Behind the Brand'
 meta_title: "Why Donald Trump Can't Stop: The Psychology Behind the Brand"
-persona_title: "America's Relentless Performer"
+persona_title: 'The Showman Who Became the Show'
 description: "Trump's Type 3 personality decoded: the image obsession, the fear of failure, and the lifelong chase to prove he's a winner."
 author: 'DJ Wayne'
 date: '2025-01-20'
@@ -13,7 +13,16 @@ published: true
 enneagram: '3'
 type: ['politician']
 person: 'Donald-Trump'
-suggestions: ['Joe-Biden', 'Elon-Musk', 'Hillary-Clinton', 'Barack-Obama', 'Kim-Kardashian']
+suggestions:
+  [
+    'Joe-Biden',
+    'Elon-Musk',
+    'Hillary-Clinton',
+    'Barack-Obama',
+    'Kim-Kardashian',
+    'Joe-Rogan',
+    'Vladimir-Putin'
+  ]
 wikipedia: 'https://en.wikipedia.org/wiki/Donald_Trump'
 twitter: 'realDonaldTrump'
 instagram: 'realdonaldtrump'

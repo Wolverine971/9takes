@@ -2,6 +2,7 @@
 title: 'Martin Luther King Jr.: The Enneagram Type 8 Psychology Behind His Moral Courage'
 meta_title: "Inside MLK's Mind: The Hidden Cost of Never Backing Down"
 description: 'How MLK embodied Type 8 traits - from childhood defiance to leading a movement. The psychology behind his moral courage and the toll it took.'
+persona_title: 'The Pastor Who Weaponized Love'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Martin-Luther-King-Jr'
@@ -12,7 +13,8 @@ published: true
 enneagram: 8
 type: ['politician']
 person: 'Martin-Luther-King-Jr'
-suggestions: ['Barack-Obama', 'Malcolm-X', 'Winston-Churchill', 'John-F-Kennedy']
+suggestions:
+  ['Barack-Obama', 'Malcolm-X', 'Winston-Churchill', 'Alexandria-Ocasio-Cortez', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.'
 twitter: ''
 instagram: ''

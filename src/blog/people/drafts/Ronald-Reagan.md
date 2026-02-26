@@ -2,6 +2,7 @@
 title: 'Ronald Reagan: The Type 9 Peacemaker Who United America Through Optimism'
 meta_title: "Inside Ronald Reagan's Mind: The Calm Psychology Behind The Great Communicator"
 description: "He joked with surgeons while a bullet sat near his heart. Inside Ronald Reagan's personality: an unshakable calm even his own children couldn't reach."
+persona_title: "America's Smiling Sphinx"
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Ronald-Reagan'
@@ -12,7 +13,8 @@ published: true
 enneagram: 9
 type: ['politician']
 person: 'Ronald-Reagan'
-suggestions: ['George-H-W-Bush', 'Donald-Trump', 'Abraham-Lincoln', 'Barack-Obama']
+suggestions:
+  ['George-H-W-Bush', 'Donald-Trump', 'Abraham-Lincoln', 'Barack-Obama', 'Martin-Luther-King-Jr']
 wikipedia: 'https://en.wikipedia.org/wiki/Ronald_Reagan'
 twitter: ''
 instagram: ''

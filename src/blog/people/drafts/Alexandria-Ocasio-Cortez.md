@@ -2,6 +2,7 @@
 title: 'Alexandria Ocasio-Cortez: The Type 6 Psychology Behind Her Fearless Rise'
 meta_title: "Why AOC Can't Stop Fighting the System | Enneagram Type 6 Analysis"
 description: "Discover how AOC's Type 6 personality drives her from bartender to Congress to potential 2028 contender. The psychology behind her fearless politics."
+persona_title: "Congress's Vigilant Insurgent"
 author: 'DJ Wayne'
 date: '2024-05-06'
 loc: 'https://9takes.com/personality-analysis/Alexandria-Ocasio-Cortez'
@@ -12,7 +13,8 @@ published: true
 enneagram: 6
 type: ['politician']
 person: 'Alexandria-Ocasio-Cortez'
-suggestions: ['Bernie-Sanders', 'Kamala-Harris', 'Hillary-Clinton', 'Nancy-Pelosi']
+suggestions:
+  ['Bernie-Sanders', 'Kamala-Harris', 'Hillary-Clinton', 'Nancy-Pelosi', 'Martin-Luther-King-Jr']
 wikipedia: 'https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez'
 twitter: 'AOC'
 instagram: 'aoc'

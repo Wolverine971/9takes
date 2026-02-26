@@ -4,9 +4,9 @@ meta_title: "Inside Sam Parr's Mind: The Scared Kid Running the Whole Show"
 persona_title: "Media's Brute-Force Builder"
 description: 'Why Sam Parr built empires from hot dog carts and cold emails. The vulnerability behind the boldest voice in business media.'
 author: 'DJ Wayne'
-date: '2026-02-16'
+date: '2026-02-26'
 loc: 'https://9takes.com/personality-analysis/Sam-Parr'
-lastmod: '2026-02-17'
+lastmod: '2026-02-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

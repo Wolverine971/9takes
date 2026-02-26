@@ -2,6 +2,7 @@
 title: 'Tom Cruise: The Man Who Became the Character'
 meta_title: "Tom Cruise Didn't Just Build a Career — He Replaced Himself"
 description: "Thomas Mapother IV attended 15 schools in 14 years, then erased himself completely. 'Tom Cruise' is the longest-running performance in Hollywood."
+persona_title: "Hollywood's Eternal Performance Machine"
 author: 'DJ Wayne'
 date: '2024-07-09'
 loc: 'https://9takes.com/personality-analysis/Tom-Cruise'
@@ -12,7 +13,15 @@ published: true
 enneagram: 3
 type: ['movieStar']
 person: 'Tom-Cruise'
-suggestions: ['Dwayne-Johnson', 'Leonardo-DiCaprio', 'Brad-Pitt', 'Taylor-Swift']
+suggestions:
+  [
+    'Dwayne-Johnson',
+    'Leonardo-DiCaprio',
+    'Brad-Pitt',
+    'Taylor-Swift',
+    'Scarlett-Johansson',
+    'Henry-Cavill'
+  ]
 wikipedia: 'https://en.wikipedia.org/wiki/Tom_Cruise'
 twitter: 'TomCruise'
 instagram: 'tomcruise'

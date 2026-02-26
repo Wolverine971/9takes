@@ -14,7 +14,14 @@ type: ['newMovieStar']
 person: 'Zendaya'
 persona_title: "Hollywood's Weaponized Worrier"
 suggestions:
-  ['Sydney Sweeney', 'Timothee Chalamet', 'Jenna Ortega', 'Tom Holland', 'Anya Taylor Joy']
+  [
+    'Sydney-Sweeney',
+    'Timothee-Chalamet',
+    'Jenna-Ortega',
+    'Tom-Holland',
+    'Anya-Taylor-Joy',
+    'Millie-Bobby-Brown'
+  ]
 wikipedia: ''
 twitter: ''
 instagram: ''

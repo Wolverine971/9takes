@@ -13,7 +13,8 @@ published: true
 enneagram: 5
 type: ['author']
 person: 'Robert-Greene'
-suggestions: ['Friedrich-Nietzsche', 'Robert-Oppenheimer', 'Elon-Musk', 'Jordan-Peterson']
+suggestions:
+  ['Friedrich-Nietzsche', 'Robert-Oppenheimer', 'Elon-Musk', 'Jordan-Peterson', 'Tony-Robbins']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_Greene_(American_author)'
 content_quality:
   hook: 9

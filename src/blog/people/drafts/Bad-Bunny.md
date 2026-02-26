@@ -2,6 +2,7 @@
 title: 'Bad Bunny: The Psychology Behind the Conejo Malo'
 meta_title: "Inside Bad Bunny's Mind: Why He Can't Stop Reinventing Himself"
 description: 'Bad Bunny went from supermarket bagger to billionaire, never making the same album twice — until his latest forced him to stand still.'
+persona_title: 'The Conejo Who Ate Every Cage'
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Bad-Bunny'

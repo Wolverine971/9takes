@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['other']
 person: 'Tony-Robbins'
-suggestions: ['Alex-Hormozi', 'Oprah-Winfrey', 'Arnold-Schwarzenegger', 'Gary-Vee']
+suggestions: ['Alex-Hormozi', 'Oprah-Winfrey', 'Arnold-Schwarzenegger', 'Gary-Vee', 'Robert-Greene']
 wikipedia: 'https://en.wikipedia.org/wiki/Tony_Robbins'
 twitter: 'TonyRobbins'
 instagram: 'tonyrobbins'

@@ -2,6 +2,7 @@
 title: 'Oprah Winfrey: The Type 2 Psychology Behind Her Empire of Connection & Empathy'
 meta_title: "Inside Oprah's 'Disease to Please': The Childhood Wound Driving Her Empire"
 description: "Childhood beatings taught Oprah Winfrey one rule: give people what they want or get punished. That 'disease to please' psychology built a $2.8B empire."
+persona_title: "Television's Patron Saint of Pain"
 author: 'DJ Wayne'
 date: '2024-08-30'
 loc: 'https://9takes.com/personality-analysis/Oprah-Winfrey'
@@ -12,7 +13,16 @@ published: true
 enneagram: 2
 type: ['celebrity']
 person: 'Oprah-Winfrey'
-suggestions: ['Ellen-Degeneres', 'Michelle-Obama', 'Meryl-Streep', 'Jimmy-Fallon']
+suggestions:
+  [
+    'Ellen-Degeneres',
+    'Michelle-Obama',
+    'Meryl-Streep',
+    'Jimmy-Fallon',
+    'Meghan-Markle',
+    'Tony-Robbins',
+    'Kristen-Bell'
+  ]
 wikipedia: 'https://en.wikipedia.org/wiki/Oprah_Winfrey'
 twitter: 'https://twitter.com/Oprah'
 instagram: 'https://www.instagram.com/oprah/'

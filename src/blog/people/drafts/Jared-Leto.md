@@ -2,6 +2,7 @@
 title: "Jared Leto: The Man Who Can't Stop Disappearing"
 meta_title: "Inside Jared Leto's Mind: The Boy Who Lost His Father and Never Stopped Becoming Someone Else"
 description: "Jared Leto lost his father at 8 and never stopped trying on new identities. Oscar roles, platinum records, tech bets — the personality he can't play is his own."
+persona_title: 'The Man With No Default Setting'
 author: 'DJ Wayne'
 date: '2025-03-10'
 loc: 'https://9takes.com/personality-analysis/Jared-Leto'
@@ -12,7 +13,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Jared-Leto'
-suggestions: ['Joaquin-Phoenix', 'Johnny-Depp', 'Lady-Gaga', 'Bob-Dylan']
+suggestions: ['Johnny-Depp', 'Timothee-Chalamet', 'Billie-Eilish', 'Marilyn-Monroe']
 wikipedia: 'https://en.wikipedia.org/wiki/Jared_Leto'
 twitter: 'JaredLeto'
 instagram: 'jaredleto'

@@ -4,9 +4,9 @@ meta_title: "Inside Keke Palmer's Mind: The Woman Behind the Performance"
 persona_title: "Entertainment's Self-Made Architect"
 description: 'How Keke Palmer built an unstoppable persona to survive Hollywood — and then spent years trying to find the person underneath it.'
 author: 'DJ Wayne'
-date: '2026-02-17'
+date: '2026-02-26'
 loc: 'https://9takes.com/personality-analysis/Keke-Palmer'
-lastmod: '2026-02-23'
+lastmod: '2026-02-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

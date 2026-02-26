@@ -4,9 +4,9 @@ meta_title: "The Real Reason Shaan Puri Can't Sit Still"
 persona_title: 'The Restless Showman'
 description: "Inside Shaan Puri's 90-second suffering budget, serial reinventions, and the psychology of never standing still."
 author: 'DJ Wayne'
-date: '2026-02-15'
+date: '2026-02-26'
 loc: 'https://9takes.com/personality-analysis/Shaan-Puri'
-lastmod: '2026-02-17'
+lastmod: '2026-02-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

@@ -2,6 +2,7 @@
 title: "Michelle Obama: The Type 1 Mind Behind America's Most Influential First Lady"
 meta_title: "Why Michelle Obama Can't Stop Fighting for What's Right"
 description: "'When they go low, we go high' isn't a slogan — it's how Michelle Obama's inner critic turned rage into moral discipline."
+persona_title: 'The First Lady of Controlled Fire'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/personality-analysis/Michelle-Obama'
@@ -12,7 +13,8 @@ published: true
 enneagram: 1
 type: ['politician']
 person: 'Michelle-Obama'
-suggestions: ['Barack-Obama', 'Hillary-Clinton', 'Oprah-Winfrey', 'Meghan-Markle']
+suggestions:
+  ['Barack-Obama', 'Hillary-Clinton', 'Oprah-Winfrey', 'Meghan-Markle', 'Alexandria-Ocasio-Cortez']
 wikipedia: 'https://en.wikipedia.org/wiki/Michelle_Obama'
 twitter: 'MichelleObama'
 instagram: 'michelleobama'

@@ -2,6 +2,7 @@
 title: "Brad Pitt: Hollywood's Most Peaceful A-List Powerhouse"
 meta_title: "Brad Pitt's Hidden Personality: What His Enneagram Reveals"
 description: "He matched Gwyneth's haircut, Aniston's world, Jolie's mission. Brad Pitt disappeared into every relationship — until his kids noticed."
+persona_title: "Hollywood's Peacekeeping Chameleon"
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Brad-Pitt'
@@ -12,7 +13,15 @@ published: true
 enneagram: 9
 type: ['movieStar']
 person: 'Brad-Pitt'
-suggestions: ['Tom Cruise', 'Leonardo DiCaprio', 'Tom Hardy', 'Ryan Reynolds']
+suggestions:
+  [
+    'Tom-Cruise',
+    'Leonardo-DiCaprio',
+    'Tom-Hardy',
+    'Ryan-Reynolds',
+    'Scarlett-Johansson',
+    'Shia-LaBeouf'
+  ]
 wikipedia: ''
 twitter: ''
 instagram: ''

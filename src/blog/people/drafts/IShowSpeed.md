@@ -2,6 +2,7 @@
 title: 'IShowSpeed: The Kid Nobody Sat With Who Made the World Listen'
 meta_title: 'The Psychology Behind IShowSpeed (Enneagram Type 8 Analysis)'
 description: "From an empty classroom desk to 135 million followers to silence on the floor of a slave cell in Senegal. IShowSpeed's explosive rise reveals an 8w7 whose volume was never just armor — it was a search for where he belonged."
+persona_title: "Streaming's Homesick Warlord"
 author: 'DJ Wayne'
 date: '2025-03-25'
 loc: 'https://9takes.com/personality-analysis/IShowSpeed'

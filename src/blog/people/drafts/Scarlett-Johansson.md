@@ -2,6 +2,7 @@
 title: 'Scarlett Johansson: The Dark Cold Shell Behind $14 Billion'
 meta_title: "Inside Scarlett Johansson's Mind: Why Hollywood's Biggest Star Crawled Into a Shell | Enneagram Type 9"
 description: "A talent agent chose her brother instead. Scarlett Johansson crawled into a dark cold shell, became the highest-grossing actor alive, and still won't join Instagram. The Type 9 psychology behind all of it."
+persona_title: "Hollywood's Billion-Dollar Introvert"
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Scarlett-Johansson'
@@ -12,7 +13,7 @@ published: true
 enneagram: '9'
 type: ['movieStar']
 person: 'Scarlett-Johansson'
-suggestions: ['Ryan-Reynolds', 'Keanu-Reeves', 'Natalie-Portman', 'Robert-Downey-Jr']
+suggestions: ['Anne-Hathaway', 'Jennifer-Garner', 'Brad-Pitt', 'Tom-Cruise', 'Marilyn-Monroe']
 wikipedia: 'https://en.wikipedia.org/wiki/Scarlett_Johansson'
 twitter: ''
 instagram: ''

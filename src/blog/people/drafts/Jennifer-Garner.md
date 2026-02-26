@@ -13,7 +13,8 @@ published: true
 enneagram: 2
 type: ['movieStar']
 person: 'Jennifer-Garner'
-suggestions: ['Meryl-Streep', 'Kristen-Bell', 'Reese-Witherspoon', 'Anne-Hathaway']
+suggestions:
+  ['Meryl-Streep', 'Kristen-Bell', 'Reese-Witherspoon', 'Anne-Hathaway', 'Scarlett-Johansson']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Garner'
 twitter: 'JenniferGarner'
 instagram: 'jennifer.garner'

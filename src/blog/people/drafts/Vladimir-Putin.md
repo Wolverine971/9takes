@@ -13,7 +13,7 @@ enneagram: 8
 type: ['politician']
 person: 'Vladimir-Putin'
 persona_title: 'The Cornered Rat Who Became Czar'
-suggestions: ['Donald-Trump', 'Xi-Jinping', 'Joe-Biden', 'Barack-Obama']
+suggestions: ['Donald-Trump', 'Xi-Jinping', 'Joe-Biden', 'Barack-Obama', 'Winston-Churchill']
 wikipedia: 'https://en.wikipedia.org/wiki/Vladimir_Putin'
 twitter: ''
 instagram: ''

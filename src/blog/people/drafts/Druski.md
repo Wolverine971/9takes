@@ -2,6 +2,7 @@
 title: "Druski: The Psychology Behind Comedy's Most Dominant Personality"
 meta_title: "Why Druski Can't Be Controlled: The Mind Behind the Empire"
 description: "How Druski turned Netflix rejection into a $14M empire. Inside the Type 8 psychology driving comedy's boldest risk-taker."
+persona_title: "Comedy's Self-Appointed CEO"
 author: 'DJ Wayne'
 date: '2025-03-26'
 loc: 'https://9takes.com/personality-analysis/Druski'
@@ -12,7 +13,7 @@ published: true
 enneagram: 8
 type: ['creator']
 person: 'Druski'
-suggestions: ['Kai-Cenat', 'Kevin-Hart', 'Dave-Chappelle', 'Theo-Von']
+suggestions: ['Kai-Cenat', 'IShowSpeed', 'Kevin-Hart', 'Theo-Von']
 wikipedia: 'https://en.wikipedia.org/wiki/Druski'
 twitter: 'drulogang'
 instagram: 'druski'

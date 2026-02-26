@@ -13,7 +13,15 @@ published: true
 enneagram: 3
 type: ['newMovieStar']
 person: 'Jenna-Ortega'
-suggestions: ['Sydney-Sweeney', 'Zendaya', 'Timothee-Chalamet', 'Anya-Taylor-Joy']
+suggestions:
+  [
+    'Sydney-Sweeney',
+    'Zendaya',
+    'Timothee-Chalamet',
+    'Anya-Taylor-Joy',
+    'Millie-Bobby-Brown',
+    'Aubrey-Plaza'
+  ]
 wikipedia: ''
 twitter: ''
 instagram: ''

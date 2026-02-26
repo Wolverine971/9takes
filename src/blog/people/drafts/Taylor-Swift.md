@@ -1,6 +1,7 @@
 ---
 title: 'Taylor Swift: The Enneagram Type 3 Who Turned Every Betrayal Into Victory'
 description: "From the Kanye incident to Kim's snake attack to Blake Lively's texts - explore how Taylor Swift's Type 3 psychology drives her fierce loyalty, strategic reinvention, and relentless pursuit of vindication."
+persona_title: "Pop's Strategic Alchemist"
 author: 'DJ Wayne'
 date: '2023-07-29'
 loc: 'https://9takes.com/personality-analysis/Taylor-Swift'
@@ -11,7 +12,8 @@ published: true
 enneagram: 3
 type: ['musician', 'entrepreneur', 'cultural icon']
 person: 'Taylor-Swift'
-suggestions: ['Kim-Kardashian', 'Kanye', 'Blake-Lively', 'Ariana-Grande', 'Travis-Kelce']
+suggestions:
+  ['Kim-Kardashian', 'Ariana-Grande', 'Sabrina-Carpenter', 'Olivia-Rodrigo', 'Tom-Cruise']
 wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Swift'
 twitter: 'taylorswift13'
 instagram: 'taylorswift'

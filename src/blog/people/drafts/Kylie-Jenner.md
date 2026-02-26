@@ -2,6 +2,7 @@
 title: 'Kylie Jenner: The Type 9 Who Built an Empire by Disappearing'
 meta_title: "Kylie Jenner's Enneagram Type 9 Personality | The Most Visible Invisible Woman in America"
 description: 'Inside the Type 9 psychology of Kylie Jenner: how the youngest Kardashian-Jenner built a billion-dollar brand on a persona, why she vanishes when chaos arrives, and what leaks through the armor.'
+persona_title: "America's Most Visible Ghost"
 author: 'DJ Wayne'
 date: '2023-07-24'
 loc: 'https://9takes.com/personality-analysis/Kylie-Jenner'
@@ -12,7 +13,8 @@ published: true
 enneagram: 9
 type: ['celebrity']
 person: 'Kylie-Jenner'
-suggestions: ['Kim-Kardashian', 'Timothee-Chalamet', 'Kendall-Jenner', 'Travis-Scott']
+suggestions:
+  ['Kim-Kardashian', 'Timothee-Chalamet', 'Kendall-Jenner', 'Travis-Scott', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Kylie_Jenner'
 twitter: 'KylieJenner'
 instagram: 'kyliejenner'

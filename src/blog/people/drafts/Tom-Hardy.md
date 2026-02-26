@@ -2,6 +2,7 @@
 title: 'Tom Hardy: From Bane to Venom - The Type 8 Psychology of His Intense Transformations'
 meta_title: 'Tom Hardy Enneagram Type 8 | Inside His Powerful Personality'
 description: "'Everything I play is what scared me.' Tom Hardy has been building armor around a frightened boy since he was 25 and nearly died."
+persona_title: "Cinema's Armored Brawler"
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/personality-analysis/Tom-Hardy'
@@ -12,7 +13,7 @@ published: true
 enneagram: 8
 type: ['celebrity']
 person: 'Tom-Hardy'
-suggestions: ['Shia-LaBeouf', 'Joaquin-Phoenix', 'Cillian-Murphy', 'Christian-Bale']
+suggestions: ['Shia-LaBeouf', 'Joaquin-Phoenix', 'Cillian-Murphy', 'Christian-Bale', 'Henry-Cavill']
 wikipedia: ''
 twitter: ''
 instagram: ''

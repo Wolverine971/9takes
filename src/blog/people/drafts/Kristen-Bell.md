@@ -2,6 +2,7 @@
 title: 'Kristen Bell: The Helper Who Built a Remedy Box'
 meta_title: "Inside Kristen Bell's Anxiety Map and the Psychology Nobody Talks About"
 description: 'How Kristen Bell turned panic attacks and codependency into remedy boxes and radical boundary-setting. A Type 2 personality decoded.'
+persona_title: "Hollywood's Remedy-Box Helper"
 author: 'DJ Wayne'
 date: '2025-03-27'
 loc: 'https://9takes.com/personality-analysis/Kristen-Bell'
@@ -12,7 +13,7 @@ published: true
 enneagram: 2
 type: ['movieStar']
 person: 'Kristen-Bell'
-suggestions: ['Jennifer-Garner', 'Margot-Robbie', 'Tom-Holland', 'Ryan-Reynolds']
+suggestions: ['Jennifer-Garner', 'Anne-Hathaway', 'Meghan-Markle', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Kristen_Bell'
 twitter: 'KristenBell'
 instagram: 'kristenanniebell'

@@ -2,6 +2,7 @@
 title: 'Elon Musk: The Type 5 Mind Behind Tesla, SpaceX, and His Unpredictable Empire'
 meta_title: "Inside Elon Musk's Mind: The Psychology Behind His Chaos"
 description: "A dark conference room, the world's richest man on the floor, and the Type 5 pattern that explains the genius, the cruelty, and what he cannot see about himself."
+persona_title: "Technology's Apocalyptic Engineer"
 author: 'DJ Wayne'
 date: '2023-09-03'
 loc: 'https://9takes.com/personality-analysis/Elon-Musk'
@@ -12,7 +13,18 @@ published: true
 enneagram: 5
 type: ['techie']
 person: 'Elon-Musk'
-suggestions: ['Bill-Gates', 'Steve-Jobs', 'Mark-Zuckerberg', 'Sam-Altman', 'Peter-Thiel']
+suggestions:
+  [
+    'Bill-Gates',
+    'Steve-Jobs',
+    'Mark-Zuckerberg',
+    'Sam-Altman',
+    'Peter-Thiel',
+    'Palmer-Luckey',
+    'Paul-Graham',
+    'Robert-Greene',
+    'Alex-Hormozi'
+  ]
 wikipedia: 'https://en.wikipedia.org/wiki/Elon_Musk'
 twitter: 'https://twitter.com/elonmusk'
 instagram: 'https://www.instagram.com/elonmusk'

@@ -11,8 +11,9 @@ published: true
 enneagram: 8
 type: ['politician']
 person: 'Winston-Churchill'
-persona_title: "Britain's Bulldog"
-suggestions: ['Ronald Reagan', 'Barack Obama', 'George W Bush', 'Donald Trump']
+persona_title: "Britain's Weeping Iron"
+suggestions:
+  ['Ronald-Reagan', 'Barack-Obama', 'George-W-Bush', 'Donald-Trump', 'Martin-Luther-King-Jr']
 wikipedia: 'https://en.wikipedia.org/wiki/Winston_Churchill'
 twitter: ''
 instagram: ''

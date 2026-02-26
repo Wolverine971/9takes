@@ -13,6 +13,7 @@ published: true
 enneagram: '6'
 type: ['musician']
 person: 'Eminem'
+suggestions: ['Drake', 'Kanye', 'Taylor-Swift', 'Bad-Bunny', 'Joe-Rogan']
 wikipedia: ''
 twitter: ''
 instagram: ''

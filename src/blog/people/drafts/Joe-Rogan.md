@@ -13,7 +13,16 @@ published: true
 enneagram: 8
 type: ['creator']
 person: 'Joe-Rogan'
-suggestions: ['Theo-Von', 'Donald-Trump', 'Elon-Musk', 'Jocko-Willink']
+suggestions:
+  [
+    'Theo-Von',
+    'Donald-Trump',
+    'Elon-Musk',
+    'Jocko-Willink',
+    'Alex-Cooper',
+    'Robert-Greene',
+    'Dave-Chappelle'
+  ]
 wikipedia: 'https://en.wikipedia.org/wiki/Joe_Rogan'
 twitter: 'joerogan'
 instagram: 'joerogan'

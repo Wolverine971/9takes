@@ -1,4 +1,5 @@
 <!-- youtube-transcript-research/3-rules-of-copywriting.md -->
+
 https://www.youtube.com/watch?v=OkehiNcC5zw
 
 The 3 Rules of Copywriting — Harry Dry

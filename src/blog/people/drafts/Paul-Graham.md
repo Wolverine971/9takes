@@ -1,7 +1,7 @@
 ---
 title: "Paul Graham: The Mind That Can't Stop Starting"
 meta_title: 'Why Paul Graham Keeps Quitting Everything (And Why It Works)'
-persona_title: "Silicon Valley's Restless Philosopher"
+persona_title: "Silicon Valley's Serial Escape Artist"
 description: 'How fear of confinement drove Paul Graham from philosophy to painting to startups to essays — and what it cost him along the way.'
 author: 'DJ Wayne'
 date: '2024-07-04'
@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['techie']
 person: 'Paul-Graham'
-suggestions: ['Sam-Altman', 'Elon-Musk', 'Peter-Thiel', 'Mark-Zuckerberg']
+suggestions: ['Sam-Altman', 'Elon-Musk', 'Peter-Thiel', 'Mark-Zuckerberg', 'Palmer-Luckey']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
 twitter: 'https://twitter.com/paulg'
 instagram: ''

@@ -2,6 +2,7 @@
 title: 'Harry Styles: The Seven-Year-Old Who Never Stopped Holding Everyone Together'
 meta_title: "Why Harry Styles Can't Stop Giving - The Psychology Behind His Kindness"
 description: "Discover why Harry Styles' Helper personality drives everything from Love On Tour to 'Treat People With Kindness' - an Enneagram Type 2 analysis."
+persona_title: "Pop's Emotional First Responder"
 author: 'DJ Wayne'
 date: '2024-10-30'
 loc: 'https://9takes.com/personality-analysis/Harry-Styles'
@@ -12,7 +13,7 @@ published: true
 enneagram: 2
 type: ['musician']
 person: 'Harry-Styles'
-suggestions: ['Taylor-Swift', 'Olivia-Rodrigo', 'Billie-Eilish', 'Zayn-Malik']
+suggestions: ['Taylor-Swift', 'Olivia-Rodrigo', 'Billie-Eilish', 'Zayn-Malik', 'Henry-Cavill']
 wikipedia: 'https://en.wikipedia.org/wiki/Harry_Styles'
 twitter: 'Harry_Styles'
 instagram: 'harrystyles'

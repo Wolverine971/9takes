@@ -2,6 +2,7 @@
 title: "Henry Cavill: The Man Who Almost Missed Superman Because He Wouldn't Abandon His Team"
 meta_title: "Henry Cavill's Personality: Why Superman Is Actually a Type 2 Helper"
 description: "Henry Cavill ignored Zack Snyder's call about Superman because his WoW teammates needed him. That moment explains everything about his Type 2 Helper personality."
+persona_title: 'Superman Who Chose His Raid Party'
 author: 'DJ Wayne'
 date: '2025-03-26'
 loc: 'https://9takes.com/personality-analysis/Henry-Cavill'
@@ -12,7 +13,7 @@ published: true
 enneagram: 2
 type: ['celebrity']
 person: 'Henry-Cavill'
-suggestions: ['Tom Hardy', 'Hugh Jackman', 'Robert Downey Jr', 'Tom Holland', 'Harry Styles']
+suggestions: ['Tom-Hardy', 'Tom-Cruise', 'Brad-Pitt', 'Harry-Styles', 'Kristen-Bell']
 wikipedia: 'https://en.wikipedia.org/wiki/Henry_Cavill'
 twitter: 'henrycavill'
 instagram: 'henrycavill'

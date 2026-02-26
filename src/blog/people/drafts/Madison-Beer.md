@@ -2,6 +2,7 @@
 title: "Madison Beer: The Enneagram Type 4 Who Couldn't Stop Searching"
 meta_title: "Madison Beer's Personality Decoded | Why She Collects Other People's Lockets"
 description: 'Madison Beer collects antique lockets and names albums after them. The Type 4 psychology behind her music, BPD, and decade-long fight to find herself in public.'
+persona_title: "Pop's Haunted Locket"
 author: 'DJ Wayne'
 date: '2024-10-30'
 loc: 'https://9takes.com/personality-analysis/Madison-Beer'
@@ -12,7 +13,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Madison-Beer'
-suggestions: ['Billie-Eilish', 'Lana-Del-Rey', 'Halsey', 'Demi-Lovato']
+suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Sabrina-Carpenter', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Madison_Beer'
 twitter: 'madisonbeer'
 instagram: 'madisonbeer'

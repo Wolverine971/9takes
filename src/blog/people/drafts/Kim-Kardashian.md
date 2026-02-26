@@ -1,6 +1,7 @@
 ---
 title: 'Kim Kardashian: What the Calm Is Hiding'
 description: 'Why does Kim Kardashian stay so composed when everything around her is chaos? Inside the psychology of her engineered peace and what breaks through it.'
+persona_title: "Pop Culture's Engineered Calm"
 author: 'DJ Wayne'
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/Kim-Kardashian'
@@ -11,6 +12,7 @@ published: true
 enneagram: 3
 type: ['celebrity']
 person: 'Kim-Kardashian'
+suggestions: ['Paris-Hilton', 'Kylie-Jenner', 'Taylor-Swift', 'Meghan-Markle', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Kim_Kardashian'
 twitter: 'https://twitter.com/KimKardashian'
 instagram: 'https://www.instagram.com/kimkardashian'
