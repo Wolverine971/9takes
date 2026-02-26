@@ -196,10 +196,7 @@ function resolvePaginationOptions(options?: PaginationOptions): Required<Paginat
 	};
 }
 
-function shouldReserveImageSpace(
-	pageIndex: number,
-	options: Required<PaginationOptions>
-): boolean {
+function shouldReserveImageSpace(pageIndex: number, options: Required<PaginationOptions>): boolean {
 	if (!options.includeInteriorImages) return false;
 	return pageIndex % options.imageFrequency === options.imageOffset % options.imageFrequency;
 }
@@ -271,7 +268,10 @@ export function estimateCharsPerPage(
 	const imageMultiplier = format === 'half' ? 0.62 : format === 'quarter' ? 0.58 : 0.52;
 	const imageAdjustment = hasInteriorImage ? imageMultiplier : 1;
 
-	return Math.max(hasInteriorImage ? 140 : 250, Math.floor(base * fontMultiplier * imageAdjustment));
+	return Math.max(
+		hasInteriorImage ? 140 : 250,
+		Math.floor(base * fontMultiplier * imageAdjustment)
+	);
 }
 
 export function estimateTotalPages(

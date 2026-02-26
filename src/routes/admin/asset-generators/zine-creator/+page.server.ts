@@ -44,17 +44,18 @@ const SOCIAL_VARIANTS = ['.instagram.', '.twitter.', '.reddit.', '.review.'];
 
 const MARKDOWN_COMPONENTS = ['QuickAnswer', 'InsightBox'];
 const COMPONENT_TAGS_TO_UNWRAP = ['quickanswer', 'insightbox', 'datetip'];
-const COMPONENT_TAGS_TO_REMOVE = [
-	'popcard',
-	'blogpurpose',
-	'marqueehorizontal',
-	'famoustypes'
-];
+const COMPONENT_TAGS_TO_REMOVE = ['popcard', 'blogpurpose', 'marqueehorizontal', 'famoustypes'];
 const COMPONENT_ATTRIBUTE_PREFIX: Record<string, string> = {
 	quickanswer: 'question',
 	insightbox: 'title'
 };
-const NAV_SELECTORS_TO_REMOVE = ['.quick-nav', '.type-buttons', '.jump-links', '.table-of-contents', '.toc'];
+const NAV_SELECTORS_TO_REMOVE = [
+	'.quick-nav',
+	'.type-buttons',
+	'.jump-links',
+	'.table-of-contents',
+	'.toc'
+];
 const SENTENCE_SPLIT_REGEX = /(?<=[.!?])\s+/;
 
 export const load: PageServerLoad = async ({ locals }) => {

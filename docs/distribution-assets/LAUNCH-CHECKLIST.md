@@ -23,8 +23,8 @@
 
 ## Launch Order
 
-| Priority | Person           | Blog URL                                 | Twitter Thread        | Instagram Assets         | Reddit (Enneagram)           | Reddit (Fan Sub)                          | Emails                                                      |
-| -------- | ---------------- | ---------------------------------------- | --------------------- | ------------------------ | ---------------------------- | ----------------------------------------- | ----------------------------------------------------------- |
+| Priority | Person           | Blog URL                                 | Twitter Thread        | Instagram Assets          | Reddit (Enneagram)           | Reddit (Fan Sub)                          | Emails                                                      |
+| -------- | ---------------- | ---------------------------------------- | --------------------- | ------------------------- | ---------------------------- | ----------------------------------------- | ----------------------------------------------------------- |
 | 1        | Shawn Ryan       | `/personality-analysis/Shawn-Ryan`       | See distribution file | Carousel + Stories + Reel | r/Enneagram, r/ShawnRyanShow | r/Military, r/JoeRogan                    | Task & Purpose, SOFREP, Coffee or Die                       |
 | 2        | Chris Williamson | `/personality-analysis/Chris-Williamson` | See distribution file | Carousel + Stories + Reel | r/Enneagram                  | r/DecodingTheGurus, r/IntellectualDarkWeb | Jay Clouse, Aporia, Chris directly                          |
 | 3        | John Coogan      | `/personality-analysis/John-Coogan`      | See distribution file | Carousel + Stories + Reel | r/Enneagram                  | r/startups (with mod approval)            | Startup Spells, Cyber Patterns, HackerNoon, John directly   |

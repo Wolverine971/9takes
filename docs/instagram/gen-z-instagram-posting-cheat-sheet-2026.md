@@ -1,3 +1,4 @@
+<!-- docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md -->
 # Gen Z Instagram Posting Cheat Sheet (9takes)
 
 Last updated: 2026-02-25
