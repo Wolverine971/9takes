@@ -27,7 +27,7 @@ path: src/blog/pop-culture/epstein-psychology-part-1.md
 </div>
 
 <div class="disclaimer">
-<p><strong>Last updated: February 23, 2026.</strong> The Epstein Files Transparency Act led to the release of 3.5 million pages of documents in January 2026. This article incorporates revelations from those files, including named co-conspirators and documented intelligence connections. The story is ongoing — depositions and investigations continue.</p>
+<p><strong>Last updated: February 23, 2026.</strong> The Epstein Files Transparency Act led to the release of over 3.5 million pages of documents in January 2026. This article incorporates revelations from those files, including named co-conspirators and alleged intelligence ties. The story is ongoing — depositions and investigations continue.</p>
 </div>
 
 > "On my own island or on my own ranch, I can think the thoughts I want to think. I can do the work I want to do and I'm free to explore as I see fit."
@@ -36,13 +36,13 @@ path: src/blog/pop-culture/epstein-psychology-part-1.md
 
 <p class="firstLetter">Jeffrey Epstein didn't kidnap billionaires. He didn't threaten scientists with violence. He made himself indispensable. And in that service, he cultivated a dark power over others.</p>
 
-The financier who died in a Manhattan jail cell in 2019 left behind more than victims and unanswered questions. Cameras malfunctioning, guards asleep, cellmate removed the day before. He left a psychological blueprint for a certain kind of predator: one who operates not through force, but through an almost pathological need to be needed.
+The financier who died in a Manhattan jail cell in 2019 left behind more than victims and unanswered questions. Cameras malfunctioning, guards asleep, cellmate transferred the day before. ([AP News](https://apnews.com/article/jeffrey-epstein-death-guards-charged-e321be3b8e6cba6b3e2e9b6cab6a65e1)) He left a psychological blueprint for a certain kind of predator: one who operates not through force, but through an almost pathological need to be needed.
 
 This is Part 1 of a two-part series examining the psychology behind Epstein's operation. This first part focuses on **who Epstein was**, the psychological patterns that drove him. [Part 2](/pop-culture/epstein-psychology-part-2) examines **how he lured people**, the specific tactics he used on the powerful and the vulnerable.
 
 ## A Note on Speculation
 
-**The psychological framework here is interpretive.** We cannot interview Jeffrey Epstein. We cannot administer psychological assessments. But the factual record has grown substantially with the 2025-2026 document releases — 3.5 million pages from the DOJ, named co-conspirators, intelligence memos, and financial trails. What follows is an interpretation layered on top of that documented record: court documents, victim testimonies, journalistic investigations, FBI internal memos, and Epstein's own recorded statements.
+**The psychological framework here is interpretive.** We cannot interview Jeffrey Epstein. We cannot administer psychological assessments. But the factual record has grown substantially with the 2025-2026 document releases — over 3.5 million pages from the DOJ, named co-conspirators, and financial records. What follows is an interpretation layered on top of that documented record: court documents, victim testimonies, journalistic investigations, FBI internal memos, and Epstein's own recorded statements.
 
 The Enneagram framework used here is a tool for understanding patterns of motivation and behavior, not a clinical diagnosis. Different analysts might reach different conclusions.
 
@@ -54,8 +54,8 @@ The purpose of this analysis is not to excuse Epstein's crimes or humanize a pre
 <ul>
 <li><b>The "Helper" Inversion:</b> Where healthy Type 2s help others genuinely, Epstein positioned himself as the fixer who could get you what you couldn't admit you wanted.</li>
 <li><b>Pride:</b> He believed he was smarter than everyone. Rules didn't apply to him. Yet actual intellectuals saw through his pretensions immediately.</li>
-<li><b>Creating Dependency — Then Complicity:</b> He gained full power of attorney over Les Wexner's $5.3 billion fortune. In February 2026, an unredacted FBI memo named Wexner as a co-conspirator. Replicated the pattern with Leon Black: $170+ million in payments — money a Senate investigation found funded trafficking operations.</li>
-<li><b>The "Realm Above":</b> Natural Type 2 psychological intuition combined with documented intelligence connections (the FBI's own memo describes him as a "co-opted Mossad agent") and 40+ years of practice. He operated above agencies rather than working for any single one.</li>
+<li><b>Creating Dependency — Then Complicity:</b> He gained full power of attorney over Les Wexner's fortune. In February 2026, an unredacted FBI memo named Wexner as a co-conspirator. Replicated the pattern with Leon Black: $170+ million in payments — money Wyden's investigation found was used to finance Epstein's operations in the U.S. Virgin Islands.</li>
+<li><b>The "Realm Above":</b> Natural Type 2 psychological intuition combined with alleged intelligence ties (an FBI memo records a source who "became convinced" Epstein was a "co-opted Mossad agent") and 40+ years of practice. He operated above agencies rather than working for any single one.</li>
 <li><b>Control Through Service:</b> Every favor created leverage. Every secret shared became a chain. The more he helped, the more he owned.</li>
 </ul>
 </div>
@@ -109,40 +109,40 @@ This is when Epstein's predatory playbook took shape. Relationships are the curr
 
 He used parent-teacher conferences to cultivate wealthy parents. One impressed parent told Bear Stearns CEO Alan Greenberg to hire him. Greenberg's daughter later described Epstein: "He was very smart and he knew how to woo people, how to schmooze." ([WUWM/NPR](https://www.wuwm.com/2019-07-19/a-young-jeffrey-epstein-made-an-impression-on-his-high-school-students))
 
-Dalton fired Epstein in 1976 for "poor performance." It didn't matter. He had already secured his Bear Stearns position through networking. The helper had found his method.
+Epstein left Dalton in 1976 — reportedly dismissed for poor performance. It didn't matter. He had already secured his Bear Stearns position through networking. The helper had found his method.
 
 ## The Money Trail: From Scams to Co-Conspirators
 
 For years, this was the central mystery: how did a man with no degree become wealthy enough to manage billionaires' money? The 2025 New York Times investigation and 2026 document releases have filled in much of the picture — and the answer is less "financial genius" than "serial con artist backed by powerful enablers."
 
-Epstein claimed to run an exclusive financial advisory firm serving only billionaires. But only two major clients were ever publicly identified: Les Wexner and Leon Black, who paid Epstein over $150 million for "tax and estate planning." ([Britannica](https://www.britannica.com/topic/Where-Did-Jeffrey-Epstein-Get-His-Money)) As _Forbes_ noted, "there is scant proof" he even held a ten-figure fortune. ([Fox Business](https://www.foxbusiness.com/features/jeffrey-epstein-not-billionaire-forbes-report))
+Epstein claimed to run an exclusive financial advisory firm serving only billionaires. But the two most documented fee relationships were Les Wexner and Leon Black, who paid Epstein over $150 million for "tax and estate planning." ([Britannica](https://www.britannica.com/topic/Where-Did-Jeffrey-Epstein-Get-His-Money)) As _Forbes_ noted, "there is scant proof" he even held a ten-figure fortune. ([Fox Business](https://www.foxbusiness.com/features/jeffrey-epstein-not-billionaire-forbes-report))
 
 A 2025 New York Times investigation concluded Epstein's early success came from "a series of lucky breaks, lies and scams." ([NYT](https://www.nytimes.com/2025/12/16/magazine/jeffrey-epstein-money-scams-investigation.html)) But the timeline between those scams reveals something more deliberate than luck.
 
 ### The Gap Years: 1981-1987
 
-Bear Stearns pushed Epstein out in 1981 for a lending regulations violation. He spent the next six years moving through increasingly powerful rooms.
+Epstein left Bear Stearns in 1981 after a reported lending regulations issue. He spent the next six years moving through increasingly powerful rooms.
 
 He founded a consulting firm called Intercontinental Assets Group, describing the work as "high-level bounty hunting" for wealthy clients recovering stolen money. The real product was access:
 
 - **1981**: Epstein traveled to England, where his girlfriend introduced him to **Douglas Leese**, a wealthy British arms dealer with MI6 connections. Leese mentored the young hustler and brought him to meetings with international elites. A former senior Bear Stearns executive who knew Epstein in this era recalled: "The guy was a genius." His later business partner Steven Hoffenberg was blunter: "At his core, Epstein has no moral compass." ([Fox Business](https://www.foxbusiness.com/features/jeffrey-epstein-wall-street-connections-child-sex-trafficking))
 - **May 1982**: An Austrian passport was issued bearing Epstein's photograph under the alias "Marius Fortelni," listing a residence in Saudi Arabia. It was used to enter France, Spain, the UK, and Saudi Arabia throughout the 1980s, and was later found in his Manhattan safe alongside $70,000 in cash and 48 loose diamonds. ([NBC News](https://www.nbcnews.com/politics/justice-department/jeffrey-epstein-used-foreign-passport-fake-name-enter-saudi-arabia-n1031046))
-- **~1983-1986**: Through Leese, Epstein entered the orbit of **Robert Maxwell**, the British media tycoon and confirmed Mossad, MI6, and KGB asset, and **Adnan Khashoggi**, the Saudi arms dealer who served as middleman in the Iran-Contra affair. Former Israeli intelligence official Ari Ben-Menashe claims he saw Epstein in Maxwell's London office "several times" during this period. ([Middle East Eye](https://www.middleeasteye.net/news/how-jeffrey-epsteins-intelligence-ties-go-back-decades))
+- **~1983-1986**: Through Leese, Epstein entered the orbit of **Robert Maxwell**, the British media tycoon long reported to have had intelligence ties — most credibly linked to Israeli intelligence, with additional allegations of MI6 and KGB connections, and **Adnan Khashoggi**, the Saudi arms dealer who served as middleman in the Iran-Contra affair. Former Israeli intelligence official Ari Ben-Menashe claims he saw Epstein in Maxwell's London office "several times" during this period. ([Middle East Eye](https://www.middleeasteye.net/news/how-jeffrey-epsteins-intelligence-ties-go-back-decades))
 - **1985**: Khashoggi was listed as a client of Epstein's consulting firm, Intercontinental Assets Group. ([Middle East Eye](https://www.middleeasteye.net/news/how-jeffrey-epsteins-intelligence-ties-go-back-decades))
 - **1986**: Epstein met Les Wexner in Palm Beach through insurance executive Robert Meister and his wife. ([WOSU](https://www.wosu.org/politics-government/2025-12-16/new-york-times-details-how-les-wexner-met-sex-trafficker-jeffrey-epstein-as-he-built-wealth))
 - **1987**: Epstein surfaced in two roles simultaneously: Les Wexner's personal financial adviser and a consultant to Steven Hoffenberg at Towers Financial. Hoffenberg later ran what was then America's largest Ponzi scheme and claimed Epstein was his "uncharged co-conspirator," with stolen investments becoming seed capital for Epstein's operation. ([CBS News](https://www.cbsnews.com/news/jeffrey-epstein-worked-at-towers-financial-with-stephen-hoffenberg-who-committed-ponzi-scheme-crimes/)) ([NPR](https://www.npr.org/2019/08/14/751153024/jeffrey-epsteins-former-business-associate-i-want-to-assist-victims))
 
-Each step followed the same Type 2 logic: find someone powerful, sense what they need, make yourself useful, then leverage that position to access the next room. In six years, a disgraced junior trader conned his way from a British arms dealer's dining room to the London offices of a Mossad asset to the inner circle of a billionaire retailer.
+Each step followed the same Type 2 logic: find someone powerful, sense what they need, make yourself useful, then leverage that position to access the next room. In six years, a disgraced junior trader conned his way from a British arms dealer's dining room to the London offices of a media tycoon with alleged intelligence ties to the inner circle of a billionaire retailer.
 
 Epstein didn't need credentials. He just needed one introduction to exploit the next.
 
 ### The Intelligence Question
 
-When Alexander Acosta, the prosecutor who gave Epstein his controversial 2008 plea deal, was being vetted for Labor Secretary, journalist Vicky Ward reported he had "been told" to back off because Epstein "belonged to intelligence." ([The Daily Beast](https://www.thedailybeast.com/jeffrey-epsteins-sick-story-played-out-for-years-in-plain-sight/)) Acosta has denied this under oath. ([Newsweek](https://www.newsweek.com/alex-acosta-epstein-sex-trafficking-department-labor-1448568))
+When Alexander Acosta, the prosecutor who gave Epstein his controversial 2008 plea deal, was being vetted for Labor Secretary, journalist Vicky Ward reported he had "been told" to back off because Epstein "belonged to intelligence." ([The Daily Beast](https://www.thedailybeast.com/jeffrey-epsteins-sick-story-played-out-for-years-in-plain-sight/)) Acosta has denied this claim. ([Newsweek](https://www.newsweek.com/alex-acosta-epstein-sex-trafficking-department-labor-1448568))
 
-The gap years suggest why this claim persists. The chain of introductions, Leese (MI6-connected) to Maxwell (MI6/Mossad/KGB) to Khashoggi (Iran-Contra), placed Epstein inside the intelligence world's arms-dealing and influence networks by his early thirties. He was traveling under a false identity through the Middle East. And Maxwell, who would receive a state funeral in Jerusalem with six intelligence chiefs present, had apparently brought Epstein into his office during exactly the years when Mossad was running its most ambitious operations.
+The gap years suggest why this claim persists. The chain of introductions — Leese (MI6-connected) to Maxwell (alleged intelligence ties, six intelligence chiefs attended his funeral in Jerusalem) to Khashoggi (Iran-Contra) — placed Epstein inside the intelligence world's arms-dealing and influence networks by his early thirties. He was traveling under a false identity through the Middle East. And Maxwell had apparently brought Epstein into his office during exactly the years when Mossad was running its most ambitious operations.
 
-The 2026 files have shifted the weight heavily toward intelligence asset. The FBI's own internal memo describes a source who "became convinced Epstein was a co-opted Mossad agent." Rep. Thomas Massie, after reviewing the files, stated: "I think the weight of the evidence suggests he worked with Israeli and U.S. intelligence." No official confirmation has come, and perhaps never will. But the full source of Epstein's fortune is no longer a complete mystery — it was scams, stolen Ponzi money, billionaire extraction, and likely intelligence backing. What is clear: he understood a core Type 2 truth. **Once you are inside the room, no one asks how you got there.**
+The 2026 files added weight to the intelligence-asset theory, though no official confirmation has come. An FBI memo in the DOJ release records that a confidential human source "became convinced Epstein was a co-opted Mossad agent" — reflecting the source's belief, not an official FBI finding. Rep. Thomas Massie, after reviewing the files, stated: "I think the weight of the evidence suggests he worked with Israeli and U.S. intelligence." The full source of Epstein's fortune is no longer a complete mystery — it was scams, stolen Ponzi money, billionaire extraction, and possibly intelligence backing. What is clear: he understood a core Type 2 truth. **Once you are inside the room, no one asks how you got there.**
 
 ## The Realm Above: Why Epstein Was So Effective
 
@@ -152,13 +152,13 @@ Three factors working together.
 
 **First: Natural Type 2 intuition.** The Enneagram Type 2 at its core is a pattern of reading people. Sensing what they need before they articulate it. Positioning yourself as the solution before they realize they have a problem.
 
-Epstein appears to have had this gift from childhood. The "sweet and generous" kid who tutored classmates. The young man who talked his way into Dalton without credentials and immediately began cultivating wealthy parents. The financial nobody who gained complete control over a $5.3 billion fortune. This was predatory intuition — an ability to sense what people wanted and position himself to provide it.
+Epstein appears to have had this gift from childhood. The "sweet and generous" kid who tutored classmates. The young man who talked his way into Dalton without credentials and immediately began cultivating wealthy parents. The financial nobody who gained complete control over a billionaire's fortune. This was predatory intuition — an ability to sense what people wanted and position himself to provide it.
 
 **Second: Professional training.** Natural intuition alone doesn't explain Epstein's scale. Lots of people can read a room. Few can build a multi-decade operation involving intelligence agencies, heads of state, and systematic blackmail.
 
-The gap years already tell this story: the chain from MI6-connected arms dealers to confirmed Mossad assets to Iran-Contra middlemen. The 2026 files filled in the rest — FBI memos documenting intelligence ties, Epstein's own anonymous FOIA requests to the CIA about his agency affiliation, and that telling 2018 email to Ehud Barak while arranging a meeting with Qatar's former prime minister: "you should make clear that i dont work for mossad. :)" Why joke about not working for Mossad unless everyone assumed you did? ([DOJ Epstein Files](https://www.justice.gov/epstein/doj-disclosures); [Breaking Points](https://www.youtube.com/watch?v=5WvMb1cTwvs))
+The gap years already tell this story: the chain from MI6-connected arms dealers to figures with alleged intelligence ties to Iran-Contra middlemen. The 2026 files added more: FBI memos recording source claims about intelligence connections, documents showing Epstein's lawyers filed records requests to the CIA and NSA seeking material that could indicate agency affiliation ([Washington Post](https://www.washingtonpost.com/national-security/2026/02/01/epstein-files-cia-nsa/)), and that telling 2018 email to Ehud Barak while arranging a meeting with Qatar's former prime minister: "you should make clear that i dont work for mossad. :)" Why joke about not working for Mossad unless everyone assumed you did? ([DOJ Epstein Files](https://www.justice.gov/epstein/doj-disclosures); [Breaking Points](https://www.youtube.com/watch?v=5WvMb1cTwvs))
 
-He wasn't an operative taking orders. He was a broker so embedded in Israeli, American, Russian, and Qatari operations that no single agency could afford to expose him. That was the "realm above."
+He wasn't an operative taking orders. He appears to have been a broker so connected to Israeli, American, and Gulf-state circles that no single agency could afford to expose him. That was the "realm above."
 
 What did that position — and the training that came with it — actually give him? Professional intelligence training teaches systematic techniques for human manipulation: how to identify psychological vulnerabilities, create dependency, extract information while appearing to provide it, build leverage, manage multiple assets simultaneously, and document everything. Take a natural Type 2 intuition for reading people and add professional exploitation techniques. The natural gift becomes a weapon system.
 
@@ -186,7 +186,7 @@ Wexner built a $5.3 billion fortune through L Brands (Victoria's Secret, Bath & 
 
 ### How Epstein Made Himself Indispensable
 
-By 1987, Epstein was Wexner's personal money manager. By July 1991, Wexner had granted him **full power of attorney** and made him a trustee of the Wexner Foundation ([Vanity Fair](https://www.vanityfair.com/news/2021/06/inside-jeffrey-epsteins-decades-long-relationship-with-his-biggest-client)). The legal right to:
+By 1987, Epstein was Wexner's personal money manager. By July 1991, Wexner had granted him **full power of attorney** — over what was then estimated as a multi-billion-dollar fortune built through L Brands — and made him a trustee of the Wexner Foundation ([Vanity Fair](https://www.vanityfair.com/news/2021/06/inside-jeffrey-epsteins-decades-long-relationship-with-his-biggest-client)). The legal right to:
 
 - Borrow money on Wexner's behalf
 - Sign his tax returns
@@ -206,7 +206,7 @@ When the relationship ended in 2007 after investigations began, Wexner claimed E
 
 ### The Co-Conspirator Designation (February 2026)
 
-On February 10, 2026, the DOJ unredacted names in a 2019 FBI memo written days after Epstein's death. Les Wexner was listed as one of Epstein's **co-conspirators** in the sex trafficking investigation. ([WOSU](https://www.wosu.org/politics-government/2026-02-10/epstein-files-name-les-wexner-as-co-conspirator-in-2019-sex-trafficking-investigation))
+On February 10, 2026, the DOJ unredacted names in an internal 2019 FBI document written days after Epstein's death. Les Wexner was identified as a **co-conspirator** in the sex trafficking investigation — though the memo also noted limited evidence. ([WOSU](https://www.wosu.org/politics-government/2026-02-10/epstein-files-name-les-wexner-as-co-conspirator-in-2019-sex-trafficking-investigation))
 
 On February 18, Wexner sat for a roughly five-hour deposition before the House Oversight Committee. His defense: he was "conned" and "duped by a world-class con man." He claimed he "never witnessed nor had any knowledge of Epstein's criminal activity." ([NBC News](https://www.nbcnews.com/politics/congress/billionaire-les-wexner-tells-lawmakers-was-conned-jeffrey-epstein-noth-rcna259573))
 
@@ -216,7 +216,7 @@ Democratic members called his claim of ignorance **"not credible."** Virginia Gi
 
 Here is where the Type 2 framework reveals something the legal system cannot.
 
-Wexner's "I was conned" defense assumes a passive victim. But you don't grant someone full power of attorney over your $5.3 billion fortune for 15+ years and remain ignorant. You don't fire the advisor who warned you ("I smell a rat") and replace him with the man he warned you about. You don't let someone live in your homes, fly your jets, and run your foundation without understanding what you're getting in return.
+Wexner's "I was conned" defense assumes a passive victim. But you don't grant someone full power of attorney over your fortune for 15+ years and remain ignorant. You don't fire the advisor who warned you ("I smell a rat") and replace him with the man he warned you about. You don't let someone live in your homes, fly your jets, and run your foundation without understanding what you're getting in return.
 
 A former Victoria's Secret executive explained the dynamic plainly: "Wexner had the money that Epstein was seeking, and Wexner got from Epstein the glamour and smoothness that he was seeking." Wexner was a Midwestern outsider, brilliant at business but not accepted by New York high society. Epstein offered social sophistication, someone who could navigate elite circles on his behalf. ([Hyperallergic](https://hyperallergic.com/750942/docuseries-explores-the-sick-and-twisted-relationship-between-leslie-wexner-and-jeffrey-epstein/))
 
@@ -248,7 +248,7 @@ Senator Ron Wyden stated directly: "This report raises questions as to whether t
 
 If the Wexner story has moved toward resolution — named co-conspirator, deposed, his denials on record — the Leon Black story has only gotten darker.
 
-In March 2025, Wyden's investigation released new evidence that money paid by Black to Epstein **was used to finance Epstein's sex trafficking operations**. The true amount paid is "significantly higher" than the previously known $158 million. ([Senate Finance Committee](https://www.finance.senate.gov/ranking-members-news/wyden-releases-new-information-on-financing-of-jeffrey-epsteins-operations-by-billionaire-leon-black-seeks-documents-from-trump-administration))
+In March 2025, Wyden's investigation released new evidence that Epstein used funds Black paid him to partially finance his operations in the U.S. Virgin Islands. The true amount paid is "significantly higher" than the previously known $158 million. ([Senate Finance Committee](https://www.finance.senate.gov/ranking-members-news/wyden-releases-new-information-on-financing-of-jeffrey-epsteins-operations-by-billionaire-leon-black-seeks-documents-from-trump-administration))
 
 Wyden also revealed that Black secured **immunity from criminal prosecution** in the U.S. Virgin Islands through a $62 million settlement — paying his way out of accountability in the jurisdiction where much of Epstein's trafficking occurred.
 
@@ -284,7 +284,7 @@ He cultivated an intellectual persona to match. Epstein donated millions to univ
 
 The mask didn't just slip — it was never really on. The intellectual posturing was a tool, not an identity.
 
-A prison psychiatric evaluation before his death confirmed it: Epstein's identity was "based on his wealth, power, and association with other high-profile individuals." Despite his enormous social network, he had "limited significant or deep interpersonal ties." He was estranged from his only brother.
+A psychiatric evaluation conducted while Epstein was in federal custody reportedly described his identity as "based on his wealth, power, and association with other high-profile individuals." Despite his enormous social network, he had "limited significant or deep interpersonal ties." He was estranged from his only brother. ([New York Times](https://www.nytimes.com/2019/08/11/nyregion/epstein-suicide-watch.html))
 
 This is the Dark Helper's dead end. Someone who spent his life making others dependent on him had no one who genuinely cared about him. That wasn't tragic—it was the natural result of treating every relationship as a transaction to exploit.
 
@@ -340,11 +340,11 @@ Epstein didn't just help people. He owned them.
 
 ### The Blackmail Machine
 
-When FBI agents raided Epstein's Manhattan townhouse, they found a safe containing CDs with handwritten labels: "young [name] + [name]." ([CNBC](https://www.cnbc.com/2019/07/08/prosecutors-jeffrey-epstein-kept-cds-with-possibly-compromising-material.html)) Hidden cameras were documented throughout his properties. The evidence suggested a systematic operation to capture compromising material.
+When FBI agents raided Epstein's Manhattan townhouse, they found a safe containing CDs with handwritten labels: "young [name] + [name]." ([CNBC](https://www.cnbc.com/2019/07/08/prosecutors-jeffrey-epstein-kept-cds-with-possibly-compromising-material.html)) Witness testimony and court filings described hidden cameras throughout his properties. ([PBS/Frontline](https://www.pbs.org/wgbh/frontline/article/jeffrey-epstein-filthy-rich-who-is-jeffrey-epstein/)) The evidence suggested a systematic operation to capture compromising material.
 
 Epstein was explicit about this. He told a New York Times reporter in 2018 that he had "incriminating information about powerful people, including information about their sexual proclivities and recreational drug use." ([CNN](https://www.cnn.com/2019/07/18/us/jeffrey-epstein-new-york-times-james-stewart/index.html))
 
-Commerce Secretary Howard Lutnick called him "the greatest blackmailer ever." (Lutnick himself was later revealed to have visited Epstein's private island in 2012 and been in business with Epstein as recently as 2014. ([NBC News](https://www.nbcnews.com/politics/congress/howard-lutnick-jeffrey-epstein-island-rcna258333)))
+Commerce Secretary Howard Lutnick called him "the greatest blackmailer ever" — though Lutnick stated he had no direct evidence. Lutnick himself was later revealed to have visited Epstein's private island in 2012 and been in business with Epstein as recently as 2014. ([NBC News](https://www.nbcnews.com/politics/congress/howard-lutnick-jeffrey-epstein-island-rcna258333); [House Oversight Democrats](https://oversightdemocrats.house.gov/news/press-releases/ranking-member-connolly-issues-statement-on-howard-lutnick-epstein-connection))
 
 ### "Playing the Box"
 
@@ -358,7 +358,7 @@ The relationship between blackmailer and target was described as "participant bl
 
 The Type 2 to Type 8 control pattern may explain one of the most disturbing facts in the Epstein case: his 2008 plea deal.
 
-Federal prosecutors had drafted a 53-count indictment for sex trafficking. One day before they were prepared to indict, Epstein signed a non-prosecution agreement that:
+Federal prosecutors had reportedly drafted a 53-count indictment for sex trafficking. ([Miami Herald](https://www.miamiherald.com/news/local/article220097825.html)) Instead, Epstein signed a non-prosecution agreement that:
 
 - Reduced charges to state prostitution offenses
 - Resulted in only 13 months in county jail (not federal prison)
@@ -372,11 +372,11 @@ Why would federal prosecutors accept such terms? The official explanation is ina
 
 When you spend decades making yourself indispensable to the powerful, documenting everything, you have options when the law comes calling.
 
-That 2008 deal continues to shape events. As of February 2026, the co-conspirator immunity clause in the NPA remains the primary legal barrier preventing prosecution of those now named as co-conspirators — including Wexner. There is active legal debate about whether the immunity extends nationally or only to the Southern District of Florida. The Dark Helper's final leverage may outlast him.
+That 2008 deal continues to shape events. As of February 2026, the co-conspirator immunity clause in the NPA remains a significant legal barrier to prosecuting those now named as co-conspirators — including Wexner. Legal commentators have debated whether the immunity extends nationally or only to the Southern District of Florida. The Dark Helper's final leverage may outlast him.
 
 ## The Psychological Assessment
 
-Formal psychological assessments of Epstein converge on the **Dark Triad**: psychopathy, narcissism, and Machiavellianism. A posthumous study found all three: the superficial charm, the grandiosity, the long-term strategic planning. The terminology is valid.
+Psychological analyses of Epstein consistently identify traits associated with the **Dark Triad**: psychopathy, narcissism, and Machiavellianism. The behavioral record shows all three: the superficial charm, the grandiosity, the long-term strategic planning. The terminology is valid.
 
 But the Dark Triad is descriptive. The Type 2 framework is explanatory — it reveals the engine underneath.
 
@@ -458,12 +458,12 @@ Virginia Giuffre was 16 when recruited. Annie Farmer was 16. Many came from diff
 
 Six years after Epstein's death, the walls began to close — not on Epstein, but on the network he built.
 
-In November 2025, Congress passed the **Epstein Files Transparency Act**, signed into law by President Trump. On January 30, 2026, the DOJ released **3.5 million pages** of documents, **2,000+ videos**, and **180,000+ images**. ([DOJ](https://www.justice.gov/opa/pr/department-justice-publishes-35-million-responsive-pages-compliance-epstein-files))
+In November 2025, Congress passed the **Epstein Files Transparency Act**, signed into law by President Trump. On January 30, 2026, the DOJ released over **3.5 million pages** of documents, **2,000+ videos**, and **180,000+ images**. ([Department of Justice](https://www.justice.gov/opa/pr/department-justice-publishes-35-million-responsive-pages-compliance-epstein-files))
 
 What followed:
 
 - **Co-conspirators named**: A 2019 FBI memo was unredacted, naming Wexner, Maxwell, Lesley Groff, and Jean-Luc Brunel. Four names remain redacted. ([WOSU](https://www.wosu.org/politics-government/2026-02-10/epstein-files-name-les-wexner-as-co-conspirator-in-2019-sex-trafficking-investigation))
-- **Prince Andrew arrested** (Feb 19, 2026): The first senior British royal arrested in nearly 400 years, on suspicion of misconduct in public office for sharing confidential trade information with Epstein. ([NBC News](https://www.nbcnews.com/world/united-kingdom/former-prince-andrew-arrested-epstein-files-revelations-rcna259691))
+- **Prince Andrew arrested** (Feb 19, 2026): The first senior British royal arrested in nearly 400 years, on suspicion of misconduct in public office. ([CBS News](https://www.cbsnews.com/news/prince-andrew-arrested-epstein-files/); [NBC News](https://www.nbcnews.com/world/united-kingdom/former-prince-andrew-arrested-epstein-files-revelations-rcna259691))
 - **International resignations**: Peter Mandelson stepped down from the UK Labour Party and House of Lords. France's Jack Lang resigned as president of the Arab World Institute under criminal investigation. Norway's Mona Juul resigned as ambassador. Criminal investigations opened in the UK, France, Norway, Sweden, and Slovakia. ([NPR](https://www.npr.org/2026/02/14/nx-s1-5714609/epstein-europe-fallout))
 - **Congressional depositions**: Wexner deposed Feb 18. Maxwell deposed Feb 10 (declined to answer). Bill and Hillary Clinton scheduled for late February. ([House Oversight](https://oversight.house.gov/release/chairman-comer-announces-the-clintons-caved-will-appear-for-depositions/))
 - **Victim compensation** now exceeds **$500 million** across settlements from the Epstein estate, JP Morgan ($290M), Deutsche Bank ($75M), and other sources.
@@ -480,7 +480,7 @@ What he was: a corrupted Type 2 who understood that everyone needs something the
 
 The Type 2 pattern of giving to get, anticipating needs, making yourself indispensable exists in all of us to some degree. Most people use it constructively. Some use it to build genuine connection.
 
-Epstein combined it with intelligence training and four decades of practice to operate at a realm above — above the agencies he worked with, above the billionaires he served, above the systems meant to stop him.
+Epstein combined it with alleged intelligence connections and four decades of practice to operate at a realm above — above the agencies he reportedly worked with, above the billionaires he served, above the systems meant to stop him.
 
 Understanding his psychology doesn't excuse his crimes. But it might help us recognize the pattern when we see it again.
 
