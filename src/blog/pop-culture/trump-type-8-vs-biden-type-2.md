@@ -116,12 +116,12 @@ The few times they've shared a stage, you can watch the disconnect in real time:
 
 Listen to how they talk. It's like they're not even speaking the same English:
 
-| Situation       | Trump (Type 8) Says                     | Biden (Type 2) Says                        |
-| --------------- | --------------------------------------- | ------------------------------------------ |
-| Opponent        | "Weak, failing, loser"                  | "My friend across the aisle"               |
-| Mistake made    | Never admits one                        | "I should have done better"                |
-| Achievement     | "The best ever, nobody does it like me" | "We did this as a team"                    |
-| Loyalty         | "Are you with me or against me?"        | "I hope you know I'm here for you"         |
+| Situation    | Trump (Type 8) Says                     | Biden (Type 2) Says                |
+| ------------ | --------------------------------------- | ---------------------------------- |
+| Opponent     | "Weak, failing, loser"                  | "My friend across the aisle"       |
+| Mistake made | Never admits one                        | "I should have done better"        |
+| Achievement  | "The best ever, nobody does it like me" | "We did this as a team"            |
+| Loyalty      | "Are you with me or against me?"        | "I hope you know I'm here for you" |
 
 These aren't just word choices. They show two completely different ideas about what matters in life.
 
@@ -357,4 +357,3 @@ The same patterns that drive Trump and Biden drive everyone, including you. Know
 - [All about Type 2](/enneagram-corner/enneagram-type-2)
 
 > **Note:** This look at Trump and Biden's Enneagram types is based on public behavior and may not reflect how they actually see themselves.
-

@@ -20,7 +20,6 @@ A lone young Greek marble statue sitting hunched on stone steps in a dark abando
 -->
 
 <script>
-	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 	import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
@@ -317,16 +316,16 @@ The top-voted comment on his post captured it perfectly: "The saddest part is th
 If you're a parent, teacher, or friend wondering whether someone is going down this path:
 
 <Checklist
-	title="Warning Signs of Blackpill Radicalization"
-	items={[
-		"<strong>Language shifts</strong>: Terms like 'foid,' 'looksmaxing,' 'it's over,' 'cope,' 'LDAR' (lie down and rot), 'mog' (being dominated in appearance)",
-		"<strong>Obsessive appearance focus</strong>: Constant measuring or comparing facial features, height fixation, talk about 'genetic destiny'",
-		"<strong>Withdrawal acceleration</strong>: Dropping activities, declining invitations, increasing screen time—especially late at night",
-		"<strong>Anger toward women</strong> framed as 'just being realistic' or 'understanding how things really work'",
-		"<strong>Fatalistic language</strong>: 'Nothing matters,' 'it was always over,' 'why even try'",
-		"<strong>New 'intellectual' framework</strong>: Suddenly citing evolutionary psychology, statistics about dating, or 'studies' to explain social failure"
-	]}
-	note="No single sign means radicalization. But a cluster—especially language changes plus withdrawal plus anger—warrants attention."
+title="Warning Signs of Blackpill Radicalization"
+items={[
+"<strong>Language shifts</strong>: Terms like 'foid,' 'looksmaxing,' 'it's over,' 'cope,' 'LDAR' (lie down and rot), 'mog' (being dominated in appearance)",
+"<strong>Obsessive appearance focus</strong>: Constant measuring or comparing facial features, height fixation, talk about 'genetic destiny'",
+"<strong>Withdrawal acceleration</strong>: Dropping activities, declining invitations, increasing screen time—especially late at night",
+"<strong>Anger toward women</strong> framed as 'just being realistic' or 'understanding how things really work'",
+"<strong>Fatalistic language</strong>: 'Nothing matters,' 'it was always over,' 'why even try'",
+"<strong>New 'intellectual' framework</strong>: Suddenly citing evolutionary psychology, statistics about dating, or 'studies' to explain social failure"
+]}
+note="No single sign means radicalization. But a cluster—especially language changes plus withdrawal plus anger—warrants attention."
 />
 
 ### If You Just Noticed the Signs
@@ -412,7 +411,7 @@ If any of this landed close to home: you're not broken, and you're not alone. [9
       },
       "keywords": ["incel", "blackpill", "radicalization", "Enneagram", "masculinity", "loneliness", "online extremism", "psychology", "shame", "rejection", "mental health", "young men"],
       "articleSection": "Pop Culture",
-      "wordCount": 5800
+      "wordCount": 5200
     }
   ]
 }
