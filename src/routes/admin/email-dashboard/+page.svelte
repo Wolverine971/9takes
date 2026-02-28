@@ -8,7 +8,9 @@
 		EmailDraft,
 		EmailSend,
 		EmailTrackingEvent,
-		ScheduledEmail
+		ScheduledEmail,
+		RecipientSource,
+		FetchBatchRecipientsResponse
 	} from '$lib/types/email';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
@@ -75,6 +77,15 @@
 	let initialContent = '';
 	let initialScheduledFor = '';
 	let initialDraftId: string | undefined = undefined;
+	let loadingBatchRecipients = false;
+
+	const batchSourceOptions: Array<{ value: RecipientSource; label: string }> = [
+		{ value: 'profiles', label: 'Profiles' },
+		{ value: 'signups', label: 'Signups' },
+		{ value: 'coaching_waitlist', label: 'Coaching Waitlist' }
+	];
+	const allRecipientSources: RecipientSource[] = batchSourceOptions.map((option) => option.value);
+	let selectedBatchSources = new Set<RecipientSource>(allRecipientSources);
 
 	const usersPerPage = 50;
 
@@ -398,11 +409,8 @@
 		}
 	}
 
-	// Open compose with selected users
-	function openComposeWithSelected() {
-		composeRecipients = users.filter(
-			(u) => selectedUsers.has(`${u.source}-${u.id}`) && !u.unsubscribed
-		);
+	function openComposeWithRecipients(recipients: EmailRecipient[]) {
+		composeRecipients = recipients;
 		if (composeRecipients.length === 0) {
 			notifications.warning('No valid recipients selected', 3000);
 			return;
@@ -412,6 +420,90 @@
 		initialContent = '';
 		initialScheduledFor = '';
 		showCompose = true;
+	}
+
+	// Open compose with selected users
+	function openComposeWithSelected() {
+		const recipients = users.filter(
+			(u) => selectedUsers.has(`${u.source}-${u.id}`) && !u.unsubscribed
+		);
+		openComposeWithRecipients(recipients);
+	}
+
+	function getSelectedBatchSources(): RecipientSource[] {
+		return batchSourceOptions
+			.map((option) => option.value)
+			.filter((source) => selectedBatchSources.has(source));
+	}
+
+	function toggleBatchSource(source: RecipientSource) {
+		const next = new Set(selectedBatchSources);
+		if (next.has(source)) {
+			next.delete(source);
+		} else {
+			next.add(source);
+		}
+		selectedBatchSources = next;
+	}
+
+	function selectAllBatchSources() {
+		selectedBatchSources = new Set(allRecipientSources);
+	}
+
+	function clearBatchSources() {
+		selectedBatchSources = new Set();
+	}
+
+	async function openComposeWithSourceBatch(sources: RecipientSource[]) {
+		if (sources.length === 0) {
+			notifications.warning('Select at least one source batch', 3000);
+			return;
+		}
+
+		loadingBatchRecipients = true;
+		try {
+			const params = new URLSearchParams({ sources: sources.join(',') });
+			const response = await fetch(`/api/admin/email-dashboard/recipients?${params}`);
+			const result = (await response.json()) as FetchBatchRecipientsResponse | { message?: string };
+
+			if (!response.ok) {
+				const message = 'message' in result ? result.message : undefined;
+				throw new Error(message || 'Failed to load recipients');
+			}
+
+			const batchResult = result as FetchBatchRecipientsResponse;
+			openComposeWithRecipients(batchResult.recipients || []);
+
+			const duplicatesRemoved = batchResult.meta?.duplicates_removed || 0;
+			const unsubscribedExcluded = batchResult.meta?.unsubscribed_excluded || 0;
+			if (duplicatesRemoved > 0 || unsubscribedExcluded > 0) {
+				const parts: string[] = [];
+				if (duplicatesRemoved > 0) {
+					parts.push(
+						`${duplicatesRemoved} duplicate email${duplicatesRemoved === 1 ? '' : 's'} removed`
+					);
+				}
+				if (unsubscribedExcluded > 0) {
+					parts.push(
+						`${unsubscribedExcluded} unsubscribed recipient${unsubscribedExcluded === 1 ? '' : 's'} excluded`
+					);
+				}
+				notifications.warning(parts.join(' • '), 5000);
+			}
+		} catch (error) {
+			console.error('Error loading source batch recipients:', error);
+			notifications.danger('Failed to load recipients for selected sources', 3000);
+		} finally {
+			loadingBatchRecipients = false;
+		}
+	}
+
+	async function openComposeWithSelectedBatches() {
+		await openComposeWithSourceBatch(getSelectedBatchSources());
+	}
+
+	async function openComposeWithEveryone() {
+		await openComposeWithSourceBatch(allRecipientSources);
 	}
 
 	// Handle compose modal close
@@ -632,6 +724,47 @@
 							Email {selectedUsers.size} Selected
 						</button>
 					{/if}
+				</div>
+			</div>
+
+			<div class="batch-compose-card">
+				<div class="batch-compose-header">
+					<h3>Source Batches</h3>
+					<p>Compose to all recipients in selected sources</p>
+				</div>
+				<div class="batch-compose-body">
+					<div class="batch-source-options">
+						{#each batchSourceOptions as option}
+							<label class="batch-source-option">
+								<input
+									type="checkbox"
+									checked={selectedBatchSources.has(option.value)}
+									on:change={() => toggleBatchSource(option.value)}
+								/>
+								<span>{option.label}</span>
+							</label>
+						{/each}
+					</div>
+					<div class="batch-compose-actions">
+						<button class="btn btn-secondary btn-sm" on:click={selectAllBatchSources}>
+							Select All
+						</button>
+						<button class="btn btn-secondary btn-sm" on:click={clearBatchSources}>Clear</button>
+						<button
+							class="btn btn-secondary"
+							on:click={openComposeWithSelectedBatches}
+							disabled={loadingBatchRecipients}
+						>
+							{loadingBatchRecipients ? 'Loading...' : 'Email Selected Sources'}
+						</button>
+						<button
+							class="btn btn-primary"
+							on:click={openComposeWithEveryone}
+							disabled={loadingBatchRecipients}
+						>
+							{loadingBatchRecipients ? 'Loading...' : 'Email Everyone'}
+						</button>
+					</div>
 				</div>
 			</div>
 
@@ -1245,6 +1378,66 @@
 		min-width: 200px;
 	}
 
+	.batch-compose-card {
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius);
+		padding: 0.875rem;
+		margin-bottom: 1rem;
+		background: var(--background);
+	}
+
+	.batch-compose-header {
+		margin-bottom: 0.75rem;
+	}
+
+	.batch-compose-header h3 {
+		margin: 0;
+		font-size: 0.9375rem;
+	}
+
+	.batch-compose-header p {
+		margin: 0.25rem 0 0;
+		color: var(--text-secondary);
+		font-size: 0.75rem;
+	}
+
+	.batch-compose-body {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.batch-source-options {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	.batch-source-option {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		border: 1px solid var(--border-color);
+		border-radius: 999px;
+		padding: 0.35rem 0.65rem;
+		font-size: 0.8125rem;
+		cursor: pointer;
+		user-select: none;
+	}
+
+	.batch-source-option input {
+		margin: 0;
+	}
+
+	.batch-compose-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		align-items: center;
+	}
+
 	/* Table */
 	.table-wrapper {
 		overflow-x: auto;
@@ -1678,6 +1871,15 @@
 
 		.search-input {
 			min-width: auto;
+		}
+
+		.batch-compose-body {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.batch-compose-actions {
+			width: 100%;
 		}
 
 		.actions-cell {

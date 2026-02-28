@@ -144,6 +144,18 @@ export interface FetchUsersResponse {
 	};
 }
 
+export interface FetchBatchRecipientsResponse {
+	recipients: EmailRecipient[];
+	meta: {
+		requested_sources: RecipientSource[];
+		total_rows: number;
+		active_rows: number;
+		unsubscribed_excluded: number;
+		duplicates_removed: number;
+		final_recipients: number;
+	};
+}
+
 export interface SendEmailRequest {
 	recipients: EmailRecipient[];
 	subject: string;
