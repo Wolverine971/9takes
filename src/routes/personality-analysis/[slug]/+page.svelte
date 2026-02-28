@@ -1,6 +1,7 @@
 <!-- src/routes/personality-analysis/[slug]/+page.svelte -->
 <script lang="ts">
 	import { onMount, tick, afterUpdate } from 'svelte';
+	import { mount, unmount } from 'svelte';
 	import { writable } from 'svelte/store';
 	import type { PageData } from './$types';
 	import { browser } from '$app/environment';
@@ -27,6 +28,7 @@
 		{ tag: 'BlogPurpose', component: BlogPurpose },
 		{ tag: 'QuickAnswer', component: QuickAnswer }
 	];
+	const mountedPlaceholders = new Map<string, ReturnType<typeof mount>>();
 
 	let mounted = false;
 	let commentsLoaded = false;
@@ -58,13 +60,14 @@
 	let EnneagramCTASidebar: typeof import('$lib/components/blog/EnneagramCTASidebar.svelte').default;
 
 	// Set up lazy loading for components
-	onMount(async () => {
+	onMount(() => {
 		mounted = true;
 		currentPath = $page.url.pathname;
 
 		if (browser) {
 			setupPage();
 			setupContentObserver();
+			mountPlaceholderComponents();
 
 			return () => {
 				if (commentsObserver) {
@@ -77,6 +80,7 @@
 				if (contentUpdateTimeout) {
 					clearTimeout(contentUpdateTimeout);
 				}
+				clearMountedPlaceholderComponents();
 			};
 		}
 	});
@@ -223,25 +227,48 @@
 		});
 	}
 
+	function mountPlaceholderComponents() {
+		if (!browser) return;
+
+		const placeholders = data.placeholders ?? [];
+		const activePlaceholderIds = new Set(placeholders.map((placeholder) => placeholder.id));
+
+		// Remove instances that no longer exist in this page payload/DOM.
+		mountedPlaceholders.forEach((instance, id) => {
+			if (!activePlaceholderIds.has(id) || !document.getElementById(id)) {
+				unmount(instance);
+				mountedPlaceholders.delete(id);
+			}
+		});
+
+		placeholders.forEach((placeholder) => {
+			if (mountedPlaceholders.has(placeholder.id)) return;
+
+			const element = document.getElementById(placeholder.id);
+			if (!element) return;
+
+			const componentType = componentTypes.find((ct) => ct.tag === placeholder.type);
+			if (!componentType) return;
+
+			const instance = mount(componentType.component, {
+				target: element,
+				props: placeholder.props
+			});
+			mountedPlaceholders.set(placeholder.id, instance);
+		});
+	}
+
+	function clearMountedPlaceholderComponents() {
+		mountedPlaceholders.forEach((instance) => {
+			unmount(instance);
+		});
+		mountedPlaceholders.clear();
+	}
+
 	// Run after each Svelte update to handle potential DOM changes
 	afterUpdate(() => {
 		if (mounted && data.placeholders) {
-			// Re-mount dynamic components after updates
-			data.placeholders.forEach((placeholder) => {
-				const element = document.getElementById(placeholder.id);
-				if (!element) return;
-
-				// Check if element is empty before mounting
-				if (element.children.length === 0) {
-					const componentType = componentTypes.find((ct) => ct.tag === placeholder.type);
-					if (componentType) {
-						new componentType.component({
-							target: element,
-							props: placeholder.props
-						});
-					}
-				}
-			});
+			mountPlaceholderComponents();
 		}
 	});
 </script>

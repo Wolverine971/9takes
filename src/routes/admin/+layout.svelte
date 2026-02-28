@@ -275,6 +275,7 @@
 		margin: 0 auto;
 		padding: 24px 24px 48px;
 		box-sizing: border-box;
+		overflow-x: hidden;
 	}
 
 	/* Menu Overlay */

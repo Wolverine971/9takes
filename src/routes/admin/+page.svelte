@@ -165,10 +165,8 @@
 			{#each quickActions as action}
 				<a href={action.href} class="quick-action-card">
 					<span class="action-icon">{action.icon}</span>
-					<div class="action-info">
-						<span class="action-label">{action.label}</span>
-						<span class="action-desc">{action.desc}</span>
-					</div>
+					<span class="action-label">{action.label}</span>
+					<span class="action-desc">{action.desc}</span>
 					<span class="action-arrow">→</span>
 				</a>
 			{/each}
@@ -603,13 +601,6 @@
 		line-height: 1;
 	}
 
-	.action-info {
-		display: flex;
-		flex-direction: column;
-		flex: 1;
-		min-width: 0;
-	}
-
 	.action-label {
 		font-size: 0.875rem;
 		font-weight: 600;
@@ -617,6 +608,8 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+		flex: 1;
+		min-width: 0;
 	}
 
 	.action-desc {
@@ -1076,13 +1069,19 @@
 			padding: 12px 14px;
 		}
 
+		/* Compact quick actions: 3-column grid, icon + label only */
 		.quick-actions-grid {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-			gap: 10px;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 8px;
 		}
 
 		.quick-action-card {
-			padding: 12px;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			gap: 4px;
+			padding: 10px 6px;
+			border-radius: 8px;
 		}
 
 		.action-icon {
@@ -1090,16 +1089,43 @@
 		}
 
 		.action-label {
-			font-size: 0.8125rem;
+			font-size: 0.6875rem;
+		}
+
+		.action-desc {
+			display: none;
 		}
 
 		.action-arrow {
 			display: none;
 		}
 
+		/* Compact metrics: 2-col grid with tighter stat cards */
 		.metrics-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
-			gap: 10px;
+			gap: 8px;
+		}
+
+		.metrics-grid :global(.stat-card) {
+			padding: 10px;
+			gap: 6px;
+			border-radius: 8px;
+		}
+
+		.metrics-grid :global(.stat-value) {
+			font-size: 1.125rem;
+		}
+
+		.metrics-grid :global(.stat-label) {
+			font-size: 0.5625rem;
+		}
+
+		.metrics-grid :global(.stat-sub) {
+			font-size: 0.5625rem;
+		}
+
+		.metrics-grid :global(.sparkline-container) {
+			display: none;
 		}
 
 		.metrics-section,
@@ -1108,7 +1134,7 @@
 		.tables-section,
 		.questions-section,
 		.quick-actions-section {
-			margin-bottom: 20px;
+			margin-bottom: 16px;
 		}
 
 		.charts-grid,
@@ -1146,6 +1172,7 @@
 
 		.section-title {
 			font-size: 0.6875rem;
+			margin-bottom: 8px;
 		}
 	}
 
@@ -1157,27 +1184,46 @@
 
 	/* Extra small screens */
 	@media (max-width: 480px) {
+		/* Keep metrics at 2 columns, just tighten further */
 		.metrics-grid {
-			grid-template-columns: 1fr;
-			gap: 8px;
+			gap: 6px;
 		}
 
+		.metrics-grid :global(.stat-card) {
+			padding: 8px;
+		}
+
+		.metrics-grid :global(.stat-icon) {
+			font-size: 0.75rem;
+		}
+
+		.metrics-grid :global(.stat-value) {
+			font-size: 1rem;
+		}
+
+		.metrics-grid :global(.stat-label) {
+			font-size: 0.5rem;
+		}
+
+		.metrics-grid :global(.stat-sub) {
+			font-size: 0.5rem;
+		}
+
+		/* Keep quick actions at 3 columns */
 		.quick-actions-grid {
-			grid-template-columns: 1fr;
-			gap: 8px;
+			gap: 6px;
 		}
 
 		.quick-action-card {
-			padding: 10px;
-			gap: 8px;
+			padding: 8px 4px;
 		}
 
 		.action-icon {
 			font-size: 1.125rem;
 		}
 
-		.action-desc {
-			display: none;
+		.action-label {
+			font-size: 0.625rem;
 		}
 
 		.header-actions {

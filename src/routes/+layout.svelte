@@ -549,10 +549,13 @@
 
 		<main
 			id="main-content"
-			class="relative flex flex-1 flex-col overflow-visible p-2 md:p-4"
+			class="relative flex flex-1 flex-col p-2 md:p-4"
+			class:overflow-visible={!isAdminPage}
+			class:overflow-x-hidden={isAdminPage}
 			class:max-w-4xl={shouldShowMaxWidth}
 			class:mx-auto={shouldShowMaxWidth}
-			class:w-full={shouldShowMaxWidth}
+			class:w-full={shouldShowMaxWidth || isAdminPage}
+			class:p-0={isAdminPage}
 			aria-label="Main content"
 		>
 			<slot />

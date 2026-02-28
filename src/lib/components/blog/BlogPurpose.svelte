@@ -61,7 +61,7 @@
 
 <style lang="scss">
 	.blog-purpose {
-		max-width: 1200px;
+		width: 100%;
 		margin: 2rem auto;
 		border-radius: 16px;
 		overflow: hidden;
@@ -69,16 +69,23 @@
 			0 8px 30px -10px rgba(0, 0, 0, 0.4),
 			0 2px 4px -2px rgba(0, 0, 0, 0.2);
 		border: 1px solid rgba(124, 58, 237, 0.2);
+
+		@media (min-width: 768px) {
+			display: flex;
+		}
 	}
 
 	.cta-section {
 		position: relative;
 		background: linear-gradient(135deg, #6b5ce7 0%, #5046c7 50%, #4338b8 100%);
-		padding: 1.25rem 1.25rem;
+		padding: 1.25rem;
 		overflow: hidden;
 
 		@media (min-width: 768px) {
-			padding: 1.5rem 2rem;
+			flex: 0 0 40%;
+			padding: 2rem 1.5rem;
+			display: flex;
+			align-items: center;
 		}
 	}
 
@@ -97,12 +104,11 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 1rem;
-		max-width: 1000px;
-		margin: 0 auto;
+		width: 100%;
 
 		@media (min-width: 768px) {
-			flex-direction: row;
-			gap: 1.5rem;
+			align-items: flex-start;
+			gap: 1.25rem;
 		}
 	}
 
@@ -117,26 +123,15 @@
 		border-radius: 12px;
 		flex-shrink: 0;
 		border: 1px solid rgba(255, 255, 255, 0.2);
-
-		@media (min-width: 768px) {
-			width: 56px;
-			height: 56px;
-		}
 	}
 
 	.cta-icon {
 		width: 24px;
 		height: 24px;
 		color: #fff;
-
-		@media (min-width: 768px) {
-			width: 28px;
-			height: 28px;
-		}
 	}
 
 	.cta-text {
-		flex: 1;
 		text-align: center;
 
 		@media (min-width: 768px) {
@@ -160,10 +155,6 @@
 			font-size: 0.875rem;
 			line-height: 1.5;
 			margin: 0;
-
-			@media (min-width: 768px) {
-				font-size: 0.9375rem;
-			}
 		}
 	}
 
@@ -209,7 +200,13 @@
 		padding: 1.25rem 1rem 1rem;
 
 		@media (min-width: 768px) {
-			padding: 1.5rem 2rem 1.5rem;
+			flex: 1;
+			min-width: 0;
+			padding: 1.5rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
 		}
 
 		h3 {
@@ -226,7 +223,7 @@
 	}
 
 	.diagram-container {
-		max-width: 800px;
+		width: 100%;
 		margin: 0 auto;
 	}
 </style>
