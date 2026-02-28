@@ -28,12 +28,13 @@ export const load: PageServerLoad = async ({
 
 		throw error(404, { message: 'Error getting posts' });
 	}
-	const posts: PersonPost[] = personData ?? [];
+	const posts: PersonPost[] = (personData ?? []).map((entry) => ({
+		...entry,
+		slug: entry.person ?? ''
+	}));
 
 	// const posts: any = await getAllPosts(slug);
-	const publishedPosts: PersonPost[] = posts.map((e) => {
-		return { ...e, slug: e.person ?? '' };
-	});
+	const publishedPosts: PersonPost[] = posts;
 
 	publishedPosts.sort((a, b) =>
 		new Date(a.date ?? a.lastmod ?? 0) > new Date(b.date ?? b.lastmod ?? 0) ? -1 : 1

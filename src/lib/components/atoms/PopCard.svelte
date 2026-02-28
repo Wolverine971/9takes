@@ -137,6 +137,13 @@
 			iteration += 1 / 3;
 		}, 30);
 	}
+
+	function handleKeydown(event: KeyboardEvent) {
+		if (event.key !== 'Enter' && event.key !== ' ') return;
+		event.preventDefault();
+		if (scramble) startTextScramble();
+		showDescription = !showDescription;
+	}
 </script>
 
 <div
@@ -165,6 +172,7 @@
 	on:click={() => {
 		if (isTouchDevice) showDescription = !showDescription;
 	}}
+	on:keydown={handleKeydown}
 >
 	<!-- Responsive image with proper loading attributes -->
 	{#if priority}

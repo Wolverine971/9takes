@@ -362,8 +362,9 @@
 			<div class="tab-content">
 				{#if activeTab === 'content'}
 					<div class="section">
-						<label class="label">Question Text</label>
+						<label class="label" for="poster-question-text">Question Text</label>
 						<textarea
+							id="poster-question-text"
 							bind:value={question}
 							class="input textarea"
 							rows="3"
@@ -400,8 +401,9 @@
 					</div>
 
 					<div class="section">
-						<label class="label">QR Code URL</label>
+						<label class="label" for="poster-question-url">QR Code URL</label>
 						<input
+							id="poster-question-url"
 							type="url"
 							bind:value={questionUrl}
 							class="input"
@@ -410,8 +412,8 @@
 					</div>
 
 					<div class="section">
-						<label class="label">Poster Size</label>
-						<select bind:value={posterFormat} class="input">
+						<label class="label" for="poster-format">Poster Size</label>
+						<select id="poster-format" bind:value={posterFormat} class="input">
 							{#each posterFormats as format}
 								<option value={format.id}>{format.name}</option>
 							{/each}
@@ -421,8 +423,8 @@
 
 				{#if activeTab === 'style'}
 					<div class="section">
-						<label class="label">Question Font Size</label>
-						<select bind:value={questionFontSize} class="input">
+						<label class="label" for="poster-question-font-size">Question Font Size</label>
+						<select id="poster-question-font-size" bind:value={questionFontSize} class="input">
 							{#each fontSizes as size}
 								<option value={size.id}>{size.name}</option>
 							{/each}
@@ -430,7 +432,7 @@
 					</div>
 
 					<div class="section">
-						<label class="label">Text Color</label>
+						<p class="label">Text Color</p>
 						<div class="color-options">
 							<button
 								class="color-btn"
@@ -480,7 +482,7 @@
 
 				{#if activeTab === 'background'}
 					<div class="section">
-						<label class="label">Background Image</label>
+						<p class="label">Background Image</p>
 						<div class="bg-grid">
 							{#each data.backgrounds as bg}
 								<button
@@ -496,14 +498,28 @@
 					</div>
 
 					<div class="section">
-						<label class="label">Overlay Opacity: {overlayOpacity}%</label>
-						<input type="range" bind:value={overlayOpacity} min="0" max="90" class="range" />
+						<label class="label" for="poster-overlay-opacity"
+							>Overlay Opacity: {overlayOpacity}%</label
+						>
+						<input
+							id="poster-overlay-opacity"
+							type="range"
+							bind:value={overlayOpacity}
+							min="0"
+							max="90"
+							class="range"
+						/>
 					</div>
 
 					<div class="section">
-						<label class="label">Overlay Color</label>
+						<label class="label" for="poster-overlay-color">Overlay Color</label>
 						<div class="color-picker-row">
-							<input type="color" bind:value={overlayColor} class="color-picker" />
+							<input
+								id="poster-overlay-color"
+								type="color"
+								bind:value={overlayColor}
+								class="color-picker"
+							/>
 							<span class="color-value">{overlayColor}</span>
 						</div>
 					</div>
@@ -511,7 +527,7 @@
 
 				{#if activeTab === 'export'}
 					<div class="section">
-						<label class="label">Export Format</label>
+						<p class="label">Export Format</p>
 						<p class="hint">Choose your preferred download format.</p>
 					</div>
 
