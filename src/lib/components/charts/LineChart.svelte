@@ -433,6 +433,7 @@
 <style>
 	.chart-container-enhanced {
 		width: 100%;
+		min-width: 0;
 		background: var(--card-background, #fff);
 		border-radius: 12px;
 		overflow: hidden;
@@ -440,14 +441,17 @@
 
 	.chart-header {
 		padding: 16px 16px 8px;
+		min-width: 0;
 	}
 
 	.chart-title-row {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		flex-wrap: wrap;
 		gap: 12px;
 		margin-bottom: 12px;
+		min-width: 0;
 	}
 
 	.chart-title {
@@ -461,6 +465,7 @@
 		display: flex;
 		align-items: center;
 		gap: 4px;
+		max-width: 100%;
 		padding: 4px 10px;
 		border-radius: 20px;
 		font-size: 11px;
@@ -494,12 +499,15 @@
 	.summary-row {
 		display: flex;
 		gap: 24px;
+		flex-wrap: wrap;
+		min-width: 0;
 	}
 
 	.summary-stat {
 		display: flex;
 		flex-direction: column;
 		gap: 2px;
+		min-width: 0;
 	}
 
 	.summary-stat.highlight .summary-value {
@@ -563,8 +571,11 @@
 		}
 
 		.summary-row {
-			flex-wrap: wrap;
 			gap: 12px;
+		}
+
+		.trend-label {
+			display: none;
 		}
 	}
 </style>

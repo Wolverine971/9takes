@@ -445,6 +445,22 @@
 <style>
 	.admin-dashboard {
 		width: 100%;
+		max-width: 100%;
+		min-width: 0;
+		overflow-x: clip;
+	}
+
+	.dashboard-header,
+	.header-left,
+	.header-actions,
+	.quick-actions-grid,
+	.metrics-grid,
+	.charts-grid,
+	.tables-grid,
+	.chart-card,
+	.distribution-card,
+	.table-card {
+		min-width: 0;
 	}
 
 	/* Section Titles */
@@ -494,12 +510,15 @@
 	.header-actions {
 		display: flex;
 		gap: 10px;
+		flex-wrap: wrap;
+		justify-content: flex-end;
 	}
 
 	.action-btn {
 		display: flex;
 		align-items: center;
 		gap: 6px;
+		min-width: 0;
 		padding: 10px 16px;
 		font-size: 0.8125rem;
 		font-weight: 500;
@@ -509,6 +528,9 @@
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.2s ease;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.btn-icon {
@@ -559,6 +581,7 @@
 		display: flex;
 		align-items: center;
 		gap: 12px;
+		min-width: 0;
 		padding: 14px 16px;
 		background: var(--void-surface);
 		border: 1px solid var(--void-elevated);
@@ -591,11 +614,17 @@
 		font-size: 0.875rem;
 		font-weight: 600;
 		color: var(--text-primary);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.action-desc {
 		font-size: 0.6875rem;
 		color: var(--text-secondary);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.action-arrow {
@@ -629,7 +658,7 @@
 
 	.charts-grid {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 		gap: 16px;
 	}
 
@@ -665,7 +694,7 @@
 
 	.tables-grid {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 		gap: 16px;
 	}
 
@@ -716,6 +745,8 @@
 	}
 
 	.table-content {
+		width: 100%;
+		max-width: 100%;
 		overflow-x: auto;
 		max-height: 400px;
 		overflow-y: auto;
@@ -724,6 +755,7 @@
 
 	.data-table {
 		width: 100%;
+		min-width: 640px;
 		border-collapse: collapse;
 		font-size: 0.8125rem;
 	}
@@ -1035,7 +1067,7 @@
 
 		.header-actions {
 			display: grid;
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 			gap: 10px;
 		}
 
@@ -1045,7 +1077,7 @@
 		}
 
 		.quick-actions-grid {
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 			gap: 10px;
 		}
 
@@ -1066,7 +1098,7 @@
 		}
 
 		.metrics-grid {
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 			gap: 10px;
 		}
 
@@ -1109,6 +1141,7 @@
 
 		.data-table {
 			font-size: 0.75rem;
+			min-width: 560px;
 		}
 
 		.section-title {
@@ -1116,15 +1149,21 @@
 		}
 	}
 
+	@media (max-width: 640px) {
+		.header-actions {
+			grid-template-columns: 1fr;
+		}
+	}
+
 	/* Extra small screens */
 	@media (max-width: 480px) {
 		.metrics-grid {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr;
 			gap: 8px;
 		}
 
 		.quick-actions-grid {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr;
 			gap: 8px;
 		}
 
@@ -1142,7 +1181,7 @@
 		}
 
 		.header-actions {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr;
 		}
 
 		.action-btn {
@@ -1157,6 +1196,10 @@
 		.data-table th,
 		.data-table td {
 			padding: 8px 10px;
+		}
+
+		.data-table {
+			min-width: 500px;
 		}
 
 		.table-content {

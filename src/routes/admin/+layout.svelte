@@ -109,28 +109,38 @@
 
 <style>
 	.admin-layout {
+		--site-header-height: 64px;
 		width: 100%;
 		max-width: 100%;
 		min-height: 100vh;
+		box-sizing: border-box;
+		overflow-x: clip;
 	}
 
 	/* Mobile Header - Only visible on mobile */
 	.mobile-header {
 		display: none;
 		position: sticky;
-		top: 0;
+		top: var(--site-header-height);
 		z-index: 40;
 		background: var(--void-deep);
 		border-bottom: 1px solid var(--void-elevated);
 		padding: 12px 16px;
 		align-items: center;
 		justify-content: space-between;
+		gap: 12px;
+		box-sizing: border-box;
 	}
 
 	.current-page {
 		font-weight: 600;
 		font-size: 1rem;
 		color: var(--text-primary);
+		flex: 1;
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.menu-toggle {
@@ -201,18 +211,21 @@
 		background-color: var(--void-deep);
 		border-bottom: 1px solid var(--void-elevated);
 		position: sticky;
-		top: 56px;
+		top: var(--site-header-height);
 		z-index: 30;
 	}
 
 	.nav-container {
 		max-width: 1600px;
+		width: 100%;
 		margin: 0 auto;
 		padding: 10px 16px;
 		display: flex;
 		flex-wrap: wrap;
 		gap: 6px;
 		justify-content: center;
+		box-sizing: border-box;
+		min-width: 0;
 	}
 
 	.nav-link {
@@ -235,6 +248,12 @@
 		line-height: 1;
 	}
 
+	.nav-label {
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
 	.nav-link:hover {
 		background-color: var(--void-elevated);
 		color: var(--text-primary);
@@ -251,15 +270,18 @@
 	/* Main Content */
 	.admin-content {
 		max-width: 1600px;
+		width: 100%;
+		min-width: 0;
 		margin: 0 auto;
 		padding: 24px 24px 48px;
+		box-sizing: border-box;
 	}
 
 	/* Menu Overlay */
 	.menu-overlay {
 		display: none;
 		position: fixed;
-		inset: 0;
+		inset: var(--site-header-height) 0 0 0;
 		background: rgba(0, 0, 0, 0.6);
 		backdrop-filter: blur(4px);
 		z-index: 9998;
@@ -333,15 +355,18 @@
 		.mobile-header {
 			display: flex;
 			z-index: 40;
+			padding-left: max(16px, env(safe-area-inset-left));
+			padding-right: max(16px, env(safe-area-inset-right));
 		}
 
 		.admin-nav {
 			position: fixed;
-			top: 0;
+			top: var(--site-header-height);
 			left: 0;
 			bottom: 0;
 			width: 280px;
 			max-width: 85vw;
+			height: calc(100dvh - var(--site-header-height));
 			z-index: 9999;
 			transform: translateX(-100%);
 			transition: transform 0.3s ease;
@@ -357,7 +382,7 @@
 
 		.nav-container {
 			flex-direction: column;
-			padding: 16px 12px;
+			padding: 16px max(12px, env(safe-area-inset-left));
 			gap: 4px;
 			align-items: stretch;
 		}
@@ -378,7 +403,7 @@
 		}
 
 		.admin-content {
-			padding: 16px 8px 32px;
+			padding: 16px 12px 32px;
 		}
 
 		:global(.page-header h1) {
@@ -389,7 +414,7 @@
 	/* Extra small screens */
 	@media (max-width: 480px) {
 		.admin-content {
-			padding: 12px 4px 24px;
+			padding: 12px 10px 24px;
 		}
 
 		.mobile-header {
