@@ -375,7 +375,7 @@ The boy with the Macintosh. Still taking it apart. Still putting it back togethe
 
 > **Disclaimer** This analysis of Sam Altman's Enneagram type is speculative, based on publicly available information, and may not reflect Sam's actual personality type.
 
-# <!--
+<!--
 
 # READER FEEDBACK (Review Notes)
 

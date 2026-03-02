@@ -81,15 +81,15 @@ Kris Jenner confirmed the campaign went further: "She actually wouldn't allow us
 
 She banned her own family from watching her work.
 
-It paid off. She dethroned Gisele Bundchen — who had held the title for fourteen years — to become the world's highest-paid model in 2017. She walked for Chanel, Marc Jacobs, Fendi, Givenchy, Balmain. She worked with Karl Lagerfeld and Miuccia Prada. "Christy Turlington and Cindy Crawford are my inspirations," she told W Magazine. "I just love how they moved with class and they've aged with class."
+It paid off. She dethroned Gisele Bundchen — who had held the title for fourteen years — to become the world's highest-paid model in 2017. She walked for Chanel, Givenchy, Balmain — the houses that don't need the Kardashian name to sell seats. "Christy Turlington and Cindy Crawford are my inspirations," she told W Magazine. "I just love how they moved with class and they've aged with class."
 
 But the proof she gathered never quite settled the case. Her biggest ten-year goal, she admitted, was "to prove people wrong." A decade of being the highest-paid model on the planet, and the internal question still echoed: _Did they like me? Do I stack up?_
 
-When she went viral for failing to cut a cucumber on camera — evidence of how sheltered her upbringing was — she didn't get defensive. She took cutting lessons from her chef. Then she dressed as a cucumber for Halloween.
+The loneliness underneath was real. "I've had really dark nights where I've been in random cities and just hysterically crying myself to sleep because I haven't been home in three months and I've been pretty much alone the entire time." She was hospitalized for exhaustion in 2015. She called it "a wake-up call." Nobody discussed it much. Nobody discusses the cost of the Kendall Jenner era of modeling.
 
-The loneliness underneath was real. "I've had really dark nights where I've been in random cities and just hysterically crying myself to sleep because I haven't been home in three months and I've been pretty much alone the entire time."
+And then there was the acne — the thing she couldn't hide under a last name or a runway mask. It started at fourteen and came back severely around twenty-one. "I have cried endlessly for days because of things people have said to me," she said. "I am not superhuman." The supermodel who couldn't control what was happening on her own face. She eventually went public about it, partnered with Proactiv, tried to make vulnerability a weapon — and got mocked for that too, when people pointed out she'd previously credited a dermatologist, not a drugstore product. Another lesson in how exposure always costs more than you budget for.
 
-She was hospitalized for exhaustion in 2015. She called it "a wake-up call." Nobody discussed it much. Nobody discusses the cost of the Kendall Jenner era of modeling.
+When she went viral for failing to cut a cucumber on camera, she didn't get defensive. She took cutting lessons from her chef. Then she dressed as a cucumber for Halloween. That's Kendall's signature move — absorb the hit, then prove you can laugh at it. The laughter just comes later than everyone else's.
 
 ---
 
@@ -97,7 +97,7 @@ She was hospitalized for exhaustion in 2015. She called it "a wake-up call." Nob
 
 ### Kendall Jenner is an Enneagram Type 6
 
-Enneagram Sixes are driven by a core need for security in a world they've learned cannot be trusted to provide it. Their minds run constant calculations: _Is this safe? Can I trust this person? What's the backup plan if this falls apart?_ It's not paranoia. It's pattern recognition from someone who learned early that solid ground can become quicksand.
+Enneagram Sixes are driven by a core need for security in a world they've learned cannot be trusted to provide it. Their minds run constant calculations: _Is this safe? Can I trust this person? What's the backup plan if this falls apart?_ It's not paranoia. It's pattern recognition from someone who learned early that certainty is borrowed, never owned.
 
 Kendall's entire life is an architecture of safety.
 
@@ -159,21 +159,53 @@ By 2024, she'd been two years panic-attack-free. She said it like someone announ
 
 ---
 
+## The Trust Calculus
+
+"A relationship is only meant to be between two people, and the second you make it the world's business is when it starts messing with the two people mentally."
+
+Every Kardashian-Jenner sister has lived her love life on camera. Kendall watched them do it first and drew the opposite conclusion.
+
+"I've had the opportunity to watch my older sisters go through marriages and relationships and breakups and all these things, and do them pretty publicly. I think it makes my life a lot easier and our relationship a lot better, to be completely honest."
+
+The relationships themselves tell the story. Devin Booker — together, apart, back together, apart again. Bad Bunny — intense, private, over within a year. The pattern isn't indecision. It's a Six running the math in real time: _Is this safe? Can I trust this fully? What do I lose if I give more of myself away?_
+
+"I try to find the balance of keeping things private and keeping things sacred, also not letting the unfortunate frustration and stress of everyone trying to get in on it stop me from enjoying my side."
+
+She told Cara Delevingne in Harper's Bazaar what the stakes felt like: "My first heartbreak I thought I was going to kill myself."
+
+That sentence isn't hyperbole from someone performing emotion for cameras. It's what happens when a person who runs on security loses it. The floor doesn't just drop — the entire building goes.
+
+But here's the part the tabloids miss. The woman who can't fully let a boyfriend in keeps a small circle so tight they might as well be load-bearing walls. [Hailey Bieber](/personality-analysis/Hailey-Bieber) has been in her life since 2012. "We've both seen each other thrive at different times," Kendall said, "and we've been there for each other through it all and not let it get in the way of our friendship."
+
+Gigi Hadid goes deeper. They came up together — castings, early fashion weeks, the anonymous hustle before either name meant what it means now. On a 2025 Vogue cover together, Kendall threaded her fingers together to illustrate the bond: "We're sisters more than we're friends."
+
+Gigi described their dynamic: "We're both really strong people and not whiners and complainers, but we're vulnerable when it's the time to be."
+
+That's the Six paradox laid bare. She can't let the world in. She can't let most people close. But the people who survived the trust calculus — who proved, over years, that they wouldn't sell her out or shift on her — those people get everything. The loyalty isn't casual. It's structural. Remove one of those friendships and something load-bearing collapses.
+
+---
+
 ## 818 and the Armor of Achievement
 
-When Sixes are overwhelmed — when the usual strategies fail and anxiety exceeds what they can manage — they shift toward [Type 3](/enneagram-corner/enneagram-type-3) patterns. The loyal team player becomes the solo achiever. Image becomes armor. Achievement becomes proof that you don't need anyone.
+When Sixes are overwhelmed — when the usual strategies fail and anxiety exceeds what they can manage — they shift toward [Type 3](/enneagram-corner/enneagram-type-3) patterns. The anxious loyalist becomes the driven achiever. The person who needs a team to feel safe suddenly needs to prove she can do it alone. Image becomes armor. Achievement becomes evidence that you're safe — not because people love you, but because they can't deny what you built.
 
 Watch what happened after the Pepsi disaster.
 
-In 2017, Kendall starred in a Pepsi ad that trivialized the Black Lives Matter movement. Bernice King, Martin Luther King Jr.'s daughter, tweeted: "If only Daddy would have known about the power of Pepsi." The ad was pulled within 48 hours.
+In 2017, Kendall starred in a Pepsi ad that trivialized the Black Lives Matter movement. Bernice King, Martin Luther King Jr.'s daughter, tweeted: "If only Daddy would have known about the power of Pepsi." The ad was pulled within 24 hours.
 
-"After I saw the reaction and I read what people had to say about it, I most definitely saw what went wrong. I was so stuck, and I really didn't know what to do, that I completely shut down."
+"I trusted everyone. I trusted the teams."
 
-She didn't make a public statement for eight months. She cried on camera. She went quiet.
+That's where it starts. A Six's worst nightmare — the systems she trusted to keep her safe failed. The people she relied on to vet the situation didn't protect her. And the fallout was public, massive, and permanent.
+
+"I felt so f\*\*king stupid. The idea that I would offend other people or hurt other people was definitely not the intent. And that's what got me the most."
+
+She didn't make a public statement for eight months. Kim found her crying at home during the silence. "This is the first time you've had a scandal," Kim told her on camera. "This is your first real experience with something like this."
+
+Kendall's own assessment was bleaker: "No idea how I'm going to bounce back from it." And then, quieter: "It's really depressing and it bothers me every single day."
 
 Then she got to work.
 
-818 Tequila launched in 2021, named after the Calabasas area code. It sold out completely in its first year — 130,000 cases. Sales exceeded two-year forecasts in just two months. It won 13 awards including Best Reposado at the 2021 World Tequila Awards. It became a certified B Corporation. The distillery runs on biomass and solar power. A 65% growth rate against a 9% industry average — seven times the category.
+818 Tequila launched in 2021, named after the Calabasas area code. It sold out in its first year. Won Best Reposado at the World Tequila Awards. Became a certified B Corporation. By 2024 it was operating in 34 countries, growing seven times faster than the tequila industry average.
 
 "I've really shifted into this businesswoman mindset," she told Fortune. "I feel like I have really come into my own as a woman and as a founder."
 
@@ -213,35 +245,14 @@ The tomboy who built her identity on being a Jenner, not a Kardashian. The girl 
 
 She told another interviewer: "Nothing scares me more than the end of something. I'm so bad at goodbyes."
 
+Ask her what comes next and the answer surprises nobody who's been paying attention. Not another brand. Not a bigger stage. A smaller life. "I swear to God, I'm going to stop everything and just design homes. I'm not kidding." She still owns horses. She still talks about the ranch like it's the only place gravity works normally. "I love my space in LA, but I also really love the simple life. Getting up every morning and throwing on sweatpants and no makeup and just being free with my day."
+
+She's still a negative thinker. She says so herself. "I'm always worrying about something that may never happen." The impostor syndrome hasn't gone anywhere either: "Wait, this is all happening to me? What did I do to deserve it?"
+
+But two years without a panic attack. A business she built with her own name on it. A handful of people who passed the trust calculus and stayed.
+
 The highest-paid model in the world. The tequila founder. The woman who banned her own family from front rows, who tapes a childhood photo to her mirror, who retreats to bathrooms when the noise gets too loud, who built every system she could think of to make the ground beneath her hold still.
 
 And every morning she looks at that four-year-old girl and tells her she's dope. Because the alarm never fully powers down. Because the ground proved, at the most fundamental level, that it can shift without warning. Because the person she built herself around became someone new, and instead of raging or collapsing, she asked for the smallest surviving fragment and held on.
 
 She's still holding on.
-
-<!--
-READER FEEDBACK:
-
-WHAT WORKS WELL:
-- The opening is killer. The plane anxiety vs. highest-paid model contrast hooks you immediately.
-- The Hannah Montana comparison is clever and instantly relatable — "but I didn't have a disguise" lands hard.
-- The bathroom detail is one of the best moments in the piece. "The smallest room in the house" — that image sticks.
-- The "higher goddess" therapy technique and the childhood photo on the mirror are genuinely fascinating. Most readers won't have heard of this and it humanizes her.
-- The ending with Caitlyn is emotionally powerful. "She lets me call her dad" is the kind of sentence that makes you stop scrolling.
-
-WHAT FEELS MISSING / SHOULD BE EXPANDED:
-- No mention of her romantic relationships AT ALL. Bad Bunny, Devin Booker — a normal reader is going to notice this gap. How does her Type 6 anxiety and trust-calculus show up in dating? That's some of the most relatable material you could add.
-- Her friendships (Hailey Bieber, Gigi Hadid) are never mentioned. You talk about loneliness and isolation, but then never contrast it with the tight friend circle she actually does have. That tension — needing people but also needing to control access — is very Type 6 and very interesting.
-- Her acne struggles and going public with Proactiv. A Type 6 choosing to be publicly vulnerable about something physical feels relevant and would add another dimension.
-- The Pepsi section feels rushed. It's arguably the biggest public crisis of her life and you cover it in about 4 sentences before pivoting to 818 stats. The emotional fallout — the eight months of silence, the shutting down — deserves more room to breathe.
-
-WHAT'S OVERDONE / COULD BE TRIMMED:
-- The 818 Tequila stats read like a press release. "130,000 cases, exceeded two-year forecasts in two months, 13 awards, certified B Corporation, biomass and solar, 65% growth rate against 9% industry average." A normal reader's eyes glaze over halfway through. Pick your two best stats and cut the rest — the point is she built something real, not that she hit specific revenue targets.
-- The modeling name-drop paragraph is too dense. "Chanel, Marc Jacobs, Fendi, Givenchy, Balmain... Karl Lagerfeld and Miuccia Prada... Christy Turlington and Cindy Crawford." That's eight names in three sentences. Trim to two or three that matter most.
-- The "ground shifting" metaphor appears in the Type 6 explanation AND again in the ending. It works better in the ending — consider cutting or rewording it in the middle section so it hits harder at the close.
-
-SMALL THINGS:
-- "Shift toward Type 3 patterns" at the top of the 818 section might lose casual readers who don't know Enneagram mechanics. Could use one more sentence of plain-English translation there.
-- The cucumber incident is fun but feels slightly orphaned — it's wedged between the loneliness quote and the hospitalization. Either give it its own little beat or move it somewhere it doesn't interrupt the emotional arc.
-- The piece never addresses what she's like NOW in terms of daily life or current projects beyond 818. A brief forward-looking beat would give it a sense of completeness rather than ending purely on the emotional note.
--->
