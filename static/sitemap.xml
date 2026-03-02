@@ -1454,15 +1454,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Tom-Holland</loc>
-    <lastmod>2025-03-24T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Tom-Holland.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Doechii</loc>
     <lastmod>2025-03-25T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1532,15 +1523,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/9s/Bernie-Sanders.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Denzel-Washington</loc>
-    <lastmod>2025-04-07T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Denzel-Washington.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2993,15 +2975,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Sam-Altman</loc>
-    <lastmod>2026-02-19T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Sam-Altman.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Sydney-Sweeney</loc>
     <lastmod>2026-02-19T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3314,6 +3287,33 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/Shaan-Puri.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Denzel-Washington</loc>
+    <lastmod>2026-03-01T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Denzel-Washington.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Sam-Altman</loc>
+    <lastmod>2026-03-01T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Sam-Altman.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Tom-Holland</loc>
+    <lastmod>2026-03-01T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Tom-Holland.webp</image:loc>
     </image:image>
 </url>
 <url>
