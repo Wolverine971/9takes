@@ -1346,30 +1346,12 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Jon-Stewart</loc>
-    <lastmod>2025-02-26T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Jon-Stewart.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Miley-Cyrus</loc>
     <lastmod>2025-02-26T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Miley-Cyrus.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Trevor-Noah</loc>
-    <lastmod>2025-03-04T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Trevor-Noah.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1451,15 +1433,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Tom-Hiddleston.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Doechii</loc>
-    <lastmod>2025-03-25T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/7s/Doechii.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1766,15 +1739,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Hailey-Bieber.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Mark-Zuckerberg</loc>
-    <lastmod>2025-12-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/5s/Mark-Zuckerberg.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -3314,6 +3278,42 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/6s/Peter-Thiel.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Doechii</loc>
+    <lastmod>2026-03-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Doechii.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Jon-Stewart</loc>
+    <lastmod>2026-03-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Jon-Stewart.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Mark-Zuckerberg</loc>
+    <lastmod>2026-03-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/Mark-Zuckerberg.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Trevor-Noah</loc>
+    <lastmod>2026-03-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Trevor-Noah.webp</image:loc>
     </image:image>
 </url>
 <url>
