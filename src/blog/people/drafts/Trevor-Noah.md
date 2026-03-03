@@ -30,6 +30,19 @@ content_quality:
 path: src/blog/people/drafts/Trevor-Noah.md
 ---
 
+<!-- QUALITY GRADE: B+ (8.9)
+Hook: 9 | Enneagram: 9 | Evidence: 8.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-03-03):
+- STRONG: The grandmother beating scene ("I don't know how to hit a white child") is a perfect opening — specific, vivid, and immediately establishes the belonging/not-belonging tension that drives the entire analysis.
+- STRONG: "Patricia survived. Abel received probation." — two sentences that do more work than most paragraphs. The writing quality is consistently high with multiple memorable lines ("his grandmother classified him as unhittable," "the man who learned to belong everywhere had a father who never stopped watching from nowhere").
+- STRONG: The Type 6 identification is genuinely non-obvious and brilliantly argued. The "hypervigilance repackaged as charm" framework reframes his famous social ease in a way that's both surprising and convincing. The ADHD-depression-Six vigilance intersection is insightful.
+- STRONG: The scrapbook scene is a perfect "signature detail" — Robert's silent archive of his unclaimed son's career makes the entire belonging thesis land emotionally.
+- NEEDS WORK: Evidence score held back by soft attribution in the relationships section — "a source close to the couple," "reportedly ending because of his schedule," "described by multiple publications as 'opaque'" — name the publications or cut the hedging.
+- NEEDS WORK: The comedy analysis section ("The Outsider's Act") is slightly more reportorial than the rest of the piece. The reviewer quotes are useful but could be trimmed in favor of more direct Trevor quotes about his own comedic approach.
+- TO REACH A (9.0): (1) Tighten the relationships section — replace vague "sources" with named publications or cut to 2-3 specific examples with hard attribution. (2) Add one more direct Trevor quote about his comedy philosophy to "The Outsider's Act" section. (3) Consider making the counter-typing more explicit — one sentence on why he's NOT a Type 7 (the adventurer reading) or Type 3 (the performer reading) would sharpen the Enneagram argument.
+-->
+
 > "I've lived a life where I've never really fitted in any particular way. Even now, people still debate on what I am... I've been everyone and no one."
 
 <p class="firstLetter">Trevor Noah's grandmother used to beat his cousins with a belt. Standard discipline in Soweto — a smack for talking back, a lash for fighting. But when young Trevor perforated his cousin Bulelwa's eardrum during a game of "surgery" with a lit match, his grandmother Frances froze. Patricia, his mother, asked why he wasn't getting the same treatment.</p>
@@ -40,11 +53,11 @@ Even within his own family, Trevor Noah existed in a category that had no rules.
 
 Most people know this part of the story — the biracial kid who grew up under apartheid, learned seven languages, became a comedian, took over The Daily Show, conquered the world. What they miss is the quieter, stranger pattern underneath: **Trevor Noah is a man who craves belonging more than almost anything, yet has systematically built a life that prevents permanent attachment to any one person, place, or identity.**
 
-He has told interviewers, with apparent sincerity, "I've always wanted to have home. I've always wanted to belong." He has also told Howard Stern, with equal conviction, that he's "a big advocate for not living together ever, even if you're married." He bought a $27.5 million house in Bel Air. Then he and his girlfriend split. He hosted the Grammys six consecutive years — and announced the sixth would be his last. He ran The Daily Show for seven years and told no one he was leaving until he said it on live television.
+He has told interviewers, with apparent sincerity, "I've always wanted to have home. I've always wanted to belong." He has also told Howard Stern, with equal conviction, that he's "a big advocate for not living together ever, even if you're married." He hosted the Grammys six years running — then announced he was done. He ran The Daily Show for seven years and told no one he was leaving until he said it on live television.
 
-The pattern is consistent: arrive, excel, leave before the roots go too deep. The man who belongs everywhere will not permanently anchor to anyone.
+The pattern is consistent: arrive, excel, leave before the roots go too deep.
 
-That tension — between craving home and refusing to stay in one — is not a quirk. It is the architecture of his entire personality. And understanding it requires understanding what it means to grow up as a child whose existence was, by law, a crime.
+That tension — between craving home and refusing to stay in one — is not a quirk. It is the architecture of his entire personality.
 
 <details>
 <summary class="accordion">TL;DR: Why Trevor Noah is an Enneagram Type 6</summary>
@@ -89,8 +102,6 @@ Patricia survived.
 
 Abel received probation.
 
-In the hospital, barely able to speak with her face swollen shut, Patricia looked at Trevor and made a joke. "Look on the bright side," she said. "Now you're officially the best-looking person in the family."
-
 That is the woman who raised Trevor Noah. She taught him that humor is not entertainment — it is how you prove to the people who tried to destroy you that they failed.
 
 ---
@@ -123,7 +134,7 @@ The survival mechanism that Trevor built in Soweto — read the room, match the 
 
 The Enneagram system calls Type 6 "The Loyal Skeptic" — the personality organized around a core question: _Who can I trust?_ Sixes scan for threats. They question authority. They prepare for worst-case scenarios. And they develop a preternatural ability to read rooms and anticipate danger.
 
-Now consider: Trevor Noah grew up in a country where the government classified his birth as a crime. His mother had to pretend he wasn't her son. His stepfather beat his mother and shot her in the head. The police were friends with the abuser. Every institution that was supposed to protect him — family, government, law enforcement — failed or actively threatened him.
+Now consider: Trevor Noah grew up under a government that legislated him out of existence. His mother had to pretend he wasn't her son. His stepfather beat his mother and shot her in the head. The police were friends with the abuser. Every institution that was supposed to protect him — family, government, law enforcement — failed or actively threatened him.
 
 The vigilance that defines [Type 6](/enneagram-corner/enneagram-type-6) didn't develop in Trevor Noah as a personality quirk. It developed as the only rational response to a world that was genuinely trying to erase him.
 
@@ -138,9 +149,27 @@ His wing is 7 — the "Buddy" configuration. This gives his anxiety an outward, 
 
 ---
 
+## The Outsider's Act
+
+Most profiles of Trevor Noah discuss his identity. Almost none discuss his actual comedy — which is strange, because his identity IS his comedy.
+
+His technical signature is the accent work: seven languages plus a seemingly infinite catalog of regional impressions deployed with a storyteller's precision. In _Afraid of the Dark_, he performs a routine where Nelson Mandela coaches a young Barack Obama on how to speak like a future Black president, shifting between both voices seamlessly — grave Mandela gravitas pivoting to Obama's measured cadence. In _Son of Patricia_, the opening salvo is a dead-on impersonation of trap music that reviewers called "peak impression Noah." In _Where Was I_, a reviewer noted "mimicry artistry, frequent accent switching, sound effects, and physical comedy delivered with confident stillness."
+
+But the accents are delivery, not substance. The substance is perspective.
+
+[Jon Stewart's](/personality-analysis/Jon-Stewart) comedy was built on righteous indignation — a New Jersey guy who couldn't believe what he was seeing. [Dave Chappelle's](/personality-analysis/Dave-Chappelle) is rooted in the specificity of Black American experience. [Kevin Hart's](/personality-analysis/Kevin-Hart) is relentless self-deprecation and physical energy. Trevor Noah's comedy does something none of them do: it treats every culture, including America, as equally foreign.
+
+"He's not saying: _Look at how weird and pathetic and lame we are, ha-ha!_" wrote one reviewer. "Instead: _Look at how lame you are — specifically so. Nowhere else in the world does this shit happen._"
+
+His first American special was called _African American_ — the title itself a joke about a South African claiming the label. He told audiences he "came to America because I wanted to be Black." In _Where Was I_, he riffs on the national anthem — "the seemingly unique relationship Americans have with their National Anthem: how they'll happily mangle and mutilate it, make it sexy for no reason."
+
+This is what the chameleon's toolkit looks like when it's refined into art. The boy who survived by reading rooms and matching languages became a comedian whose entire act is reading cultures and translating them for each other.
+
+---
+
 ## "Happy and Depressed"
 
-In 2019, on the podcast Death, Sex & Money, host Tressie McMillan Cottom pressed Trevor about his mental health. His response landed like a controlled detonation:
+In 2019, on the podcast Death, Sex & Money, an interviewer pressed Trevor about his mental health. His response landed like a controlled detonation:
 
 "No, you're mixing up sadness with depression. I didn't say I'm sad, I'm happy. I'm happy and I'm optimistic... And depressed."
 
@@ -148,11 +177,15 @@ That sentence contains the entire architecture of Trevor Noah's inner life. He i
 
 Five years later, on Steven Bartlett's Diary of a CEO in October 2024, he offered the missing piece: "I think over the years, what I've come to learn, thanks to some great therapists, is my depression is created by a severe level of ADHD."
 
-The man who built a career on being the most prepared person in every room — who consumed news from multiple sources before every show, who cross-referenced information compulsively, who rehearsed scenarios and scanned for threats — discovered that the engine driving all of it had a name.
+The diagnosis had come a few years earlier. A friend had revealed his own ADHD and described masking the symptoms for years. "I asked him, I don't understand, I've never noticed these things in you," Trevor recounted. "And he was like, yeah — he was very good at hiding them. He was very good at masking them." It hit close enough that Trevor sought his own assessment.
 
-"I'm always trying to chip away and trying to understand what is still on me and what is calloused that I don't wish to be," he said in another interview about therapy.
+What the doctors found reframed everything. "I would have the inability to choose where to place my focus," he explained. "I would either be hyperfocused on something that I shouldn't be, or I would have no focus for the thing that I should." The depression that had shadowed him for years wasn't a separate condition — it was the downstream consequence of a brain that couldn't stop scanning, couldn't stop moving, couldn't rest.
 
-This is what growth looks like for a Six. Not the elimination of anxiety, but the slow, deliberate process of distinguishing between [vigilance that serves you and vigilance that imprisons you](/enneagram-corner/enneagram-types-in-stress). Between the scar tissue that protects and the scar tissue that numbs.
+The man who built a career on being the most prepared person in every room — who consumed news from multiple sources before every show, who cross-referenced information compulsively — discovered that the engine driving all of it had a name. And that some of what he'd interpreted as a psychological wound was also neurological wiring.
+
+"I'm always trying to chip away and trying to understand what is still on me and what is calloused that I don't wish to be," he said.
+
+This is what growth looks like for a Six. Not the elimination of anxiety, but the slow, deliberate process of distinguishing between [vigilance that serves you and vigilance that imprisons you](/enneagram-corner/enneagram-types-in-stress). Between the scar tissue that protects and the scar tissue that numbs. Between the restlessness that comes from unresolved trauma and the restlessness that comes from a brain that was built to move.
 
 ---
 
@@ -174,33 +207,33 @@ The man who learned to belong everywhere had a father who never stopped watching
 
 ---
 
-## The Departure No One Saw Coming
+## Seven Years at the Desk
 
-On September 29, 2022, during a routine taping of The Daily Show, Trevor Noah told his live studio audience — before telling his producers, his network, or his staff — that he was leaving.
+When Comedy Central announced Trevor Noah as Jon Stewart's successor in March 2015, the internet turned on him within hours. Old tweets from 2009-2014 surfaced — jokes about Jewish women, about a Jewish kid and a German car. The backlash was immediate: antisemitism accusations across BuzzFeed, Time, CNN. Comedy Central defended him. Noah responded: "To reduce my views to a handful of jokes that didn't land is not a true reflection of my character, nor my evolution as a comedian."
+
+He survived the controversy and took the desk. Then the show changed in ways nobody anticipated.
+
+Under Stewart, 84.5% of the audience was white. Under Noah, the show lost 40% of white viewers while gaining 16% more Black viewers. More than a quarter of the 18-34 audience became African-American or Hispanic. Over 40% of consumption moved to digital platforms. YouTube streams increased 145%. The audience became the most educated in late night — median household income of $85,200, 56% with four or more years of college.
+
+The traditional TV ratings declined. The multiplatform reach told a different story.
+
+Noah used his outsider status explicitly. He told audiences: "Living in this period in America... a lot of the things that I'm seeing are similar to what we experienced in South Africa." He compared Trump to former African leaders, contextualizing American dysfunction as a global pattern rather than a uniquely American disease. Robert Lloyd of the _Los Angeles Times_ noted Noah was "charming and composed — almost inevitably low-key compared with the habitually antic and astonished Stewart." Stewart punched. Noah observed.
+
+Then COVID hit. Renamed "The Daily Social Distancing Show," Noah began filming from his apartment with iPhones and Zoom. The digital series hit 3 million viewers per episode within 24 hours on YouTube. His interview with Dr. Fauci reached 11 million views. The show became the #1 nightly talk show in the 18-34 demographic.
+
+His defining moment came in May 2020. After George Floyd's murder, Noah delivered an 18-minute unscripted monologue viewed more than 5.4 million times. He traced a line from Christian Cooper in Central Park to Ahmaud Arbery's shooting to Floyd's killing, framing them as connected dominoes rather than isolated incidents. "Police in America are looting Black bodies," he said. It was the moment the bemused outsider stopped observing and started testifying.
+
+On September 29, 2022, during a routine taping, Trevor told his live studio audience — before telling his producers, his network, or his staff — that he was leaving.
 
 "I realized that after the seven years, my time is up," he said.
 
-The control of that moment was total. He told no one in advance. His producer Jen Flanz described the aftermath as "quick and very quiet," with Trevor "apologizing to everybody." His reason for the secrecy: "I didn't want anybody to be the person who then tells somebody else, who then tells somebody else."
+He told no one in advance. His producer Jen Flanz described the aftermath as "quick and very quiet," with Trevor "apologizing to everybody." His reason for the secrecy: "I didn't want anybody to be the person who then tells somebody else, who then tells somebody else." This is the behavior of a man who has been managing information flow since childhood — since the days when the wrong person knowing the wrong thing about his family could mean prison.
 
-This is not the behavior of a man making a career pivot. This is the behavior of a man who has been managing information flow since childhood — since the days when the wrong person knowing the wrong thing about his family could mean prison.
+In his farewell, he devoted a significant portion to thanking Black women: "I've often been credited with having these grand ideas. People say, _Oh Trevor, you're so smart._ I'm like, _who do you think teaches me? Who do you think shaped me, nourished me and formed me?_" He told the audience: "If you truly want to learn about America, talk to Black women because, unlike everybody else, Black women cannot afford to f--k around and find out."
 
-[Jon Stewart](/personality-analysis/Jon-Stewart), his predecessor, had given him specific advice years earlier: "Make sure you leave before you become metastasized in the way you think about it. Make sure you leave before you become cynical. Make sure you leave before you're tired, before you feel like you need to rest in the space."
+[Jon Stewart](/personality-analysis/Jon-Stewart) had given him advice years earlier: "Make sure you leave before you become cynical. Make sure you leave before you're tired, before you feel like you need to rest in the space."
 
-Trevor absorbed the advice and added his own logic: "If you've got Jon Stewart helping you, I don't think you'll ever invent."
-
-He left The Daily Show the way he leaves everything — at peak performance, before the attachment calcifies, before the institution becomes the identity. When asked about work-life balance, he reframed it entirely: "You don't grow muscles when you lift weights, they grow in rest. It's the same thing for your mind."
-
-<div class="contrast-panel">
-<div class="contrast-panel__side contrast-panel__side--left">
-<div class="contrast-panel__label">What He Said</div>
-<p>"I've always wanted to have home. I've always wanted to belong."</p>
-<p>— 60 Minutes, 2021</p>
-</div>
-<div class="contrast-panel__side contrast-panel__side--right">
-<div class="contrast-panel__label">What He Did</div>
-<p>Left the most stable platform in American comedy after 7 years. Advocates never living with a partner. Bought a $27.5M house and then split with his girlfriend. Told no one he was leaving until he said it on live television.</p>
-</div>
-</div>
+He left the show the way he leaves everything — at peak performance, before the institution becomes the identity.
 
 ---
 
@@ -216,7 +249,7 @@ His dating history tells its own story. Jordyn Taylor for three years, then a qu
 
 The pattern is consistent: closeness, then distance. Intensity, then withdrawal. He told Howard Stern that couples should be radically honest about who they are — "You should have the person love you, or hate you, for who you are, not for who you portray yourself to be" — and yet he is described by multiple publications as "opaque."
 
-His philosophy of "living apart together" is not a lifestyle preference. It is a psychological architecture. The boy who was hidden from police, whose mother pretended he wasn't her son, who couldn't walk beside the person he loved most in the world — that boy built an adult life where love never requires you to be fully visible. Where you can be close without being caught.
+The boy who was hidden from police, whose mother pretended he wasn't her son, who couldn't walk beside the person he loved most — that boy built an adult life where love never requires full visibility. Where you can be close without being caught.
 
 ---
 
@@ -227,7 +260,7 @@ Since leaving The Daily Show, Trevor Noah has not slowed down. He has accelerate
 <div class="key-stat-row">
 <div class="key-stat">
 <span class="key-stat__number">6</span>
-<span class="key-stat__label">consecutive Grammy hostings (and counting)</span>
+<span class="key-stat__label">consecutive Grammy hostings</span>
 </div>
 <div class="key-stat">
 <span class="key-stat__number">7</span>
@@ -241,13 +274,17 @@ Since leaving The Daily Show, Trevor Noah has not slowed down. He has accelerate
 
 His "Where Was I" comedy special sold out the Hollywood Bowl, ten consecutive Beacon Theatre shows, three O2 Arena dates in London, and set a record for the most tickets sold by a non-German comedian in Berlin. It was nominated for a Grammy, an Emmy, and a Golden Globe.
 
-His production company Day Zero — a joint venture with Paramount — has a film adaptation of _Born a Crime_ in development starring Lupita Nyong'o, plus a biopic of 8-year-old Nigerian chess champion Tanitoluwa Adewumi, a reimagining of _The President's Analyst_, and a climate-themed indie video game competition.
+His production company Day Zero — a joint venture with Paramount — has a film adaptation of _Born a Crime_ in development starring Lupita Nyong'o, plus a biopic of 8-year-old Nigerian chess champion Tanitoluwa Adewumi and a reimagining of _The President's Analyst_.
 
-His children's book _Into the Uncut Grass_ became a #1 New York Times bestseller. The book is about a child who ventures beyond the familiar into the wild unknown. The uncut grass, Trevor explained, represents "an area that is not traversed, that holds a whole lot of mystery."
+His children's book _Into the Uncut Grass_ became a #1 New York Times bestseller — a story about a child who ventures beyond the familiar into the wild unknown. The uncut grass, Trevor explained, represents "an area that is not traversed, that holds a whole lot of mystery." For the boy who was locked indoors for his own safety, the uncut grass isn't an adventure. It's the place where no one has written the rules yet. For a Six, that's both the most terrifying and the most liberating place to be.
 
-The grass metaphor lands differently when you know his childhood. For the boy who was locked indoors for his own safety, who couldn't walk beside his mother, who couldn't exist in his own country without breaking the law — the uncut grass isn't an adventure. It's the place where no one has written the rules yet. And for a Six, that's both the most terrifying and the most liberating place to be.
+Then in August 2023, he went back.
 
-His weekly podcast _What Now?_ strips away the institutional armor of network television and puts him in unscripted, long-form conversations. It's intimate. Vulnerable. It demands presence rather than preparation. For a man whose survival depended on always being prepared, this format is the equivalent of removing the parachute.
+Twelve dates across South Africa. Before the tour, he posted: "Can't wait to come home." The South African press reviewed the shows with possessive pride. _News24_ wrote: "Despite becoming a Hollywood A-lister and attaining worldwide adoration and success, Noah made clear he remained connected to the South African masses, and has not lost his uncanny ability to activate the South African psyche and read the nation's mind." His material covered load shedding, crime, emigration, and — inevitably — the question of what "home" means when you've left.
+
+When his Daily Show appointment was first announced in 2015, South African brand specialist Michael Sharman had captured the national ambivalence: "We finally have someone who we can be proud of again, someone who is genuinely talented and humble and who deserves it. But we are going to have to get used to seeing a lot less of Trevor Noah, and that's a loss."
+
+Eight years later, on stage in Johannesburg, the man from everywhere came back to the one place that made him.
 
 ---
 
@@ -257,43 +294,14 @@ In the hospital, after being shot in the head by the man she'd married, Patricia
 
 "Look on the bright side," she said. "Now you're officially the best-looking person in the family."
 
-Trevor Noah learned humor from a woman who used it to prove that the worst thing that could happen to you had already happened and you were still here. Comedy wasn't entertainment in the Noah household. It was evidence of survival.
+That is the joke that explains Trevor Noah. Not the punchline — the instinct. The insistence that the worst thing has already happened and you are still here and you will make it funny because funny means alive.
 
-He has been deploying that evidence for twenty years now — on stages in Soweto, on Comedy Central, at the Grammys, on podcasts where he admits he's happy and depressed in the same breath. He has made himself fluent in every language, every room, every identity. He has engineered a life of extraordinary freedom from a childhood of extraordinary constraint.
+He has been running on that instinct for twenty years — on stages in Soweto, on Comedy Central, at the Grammys, on podcasts where he admits he's happy and depressed in the same breath. He has made himself fluent in every language, every room, every code. He has engineered a life of extraordinary freedom from a childhood of extraordinary constraint.
 
-But the boy who was born a crime is still running the same equation he's always run: _If I can become anyone, no one can reject me. If no one can reject me, I'm safe._ The calculus works. It has made him rich, famous, beloved in dozens of countries, welcomed in every room he enters. It has also made him unreachable. Opaque. Single at 41 and aware that the world considers this a failure.
+Recently, something has shifted. The ADHD diagnosis gave him language for a restlessness he'd always attributed to history alone. The South African tour brought him home in a way that wasn't an ending or an obligation but a choice. His podcast strips away the institutional armor and demands presence rather than preparation — and for a man whose survival depended on always being prepared, choosing vulnerability is the bravest thing he's done.
 
 "I can only know where I am now in life," he told Howard Stern, "and that's what I've learned to enjoy."
 
-Somewhere in that sentence is both the wound and the cure — the Six who has finally stopped scanning for the next threat long enough to notice where he's standing. Whether he'll stay there is another question. Trevor Noah has never stayed anywhere for long. But he has also never stopped wanting to.
+Whether he'll stay anywhere for long is another question. But for the first time, the boy who was born a crime seems less interested in becoming everyone and more interested in recognizing himself.
 
 > **Disclaimer** This analysis of Trevor Noah's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Trevor Noah.
-
-<!--
-READER FEEDBACK:
-
-WHAT WORKS:
-- The hook is excellent. The grandmother "I don't know how to hit a white child" anecdote immediately pulls you in and sets the tone.
-- The scrapbook section with his father Robert is the emotional high point. That moment lands perfectly — don't touch it.
-- The structural thesis (craves belonging but prevents permanent attachment) is sharp and well-supported.
-- The Patricia section is powerful. You feel the weight of what she survived and how it shaped him.
-
-WHAT FEELS REPETITIVE / COULD BE TRIMMED:
-- Patricia's hospital joke ("best-looking person in the family") appears word-for-word in BOTH "Patricia Noah's One Goal" AND "The Bright Side" conclusion. The repetition weakens the closer. Either cut it from the first section and save it for the ending payoff, or rework the conclusion so it doesn't just re-deliver the same beat.
-- The "belonging everywhere, anchoring nowhere" idea is restated too many times: the intro, the TL;DR, the contrast panel, the "Society Has Deemed Me a Loser" section, and the conclusion all say essentially the same thing in slightly different words. Trust the reader to hold the thread — you don't need to re-tie it every section.
-- "Born a crime" / his existence being illegal is mentioned 4-5 times. Once or twice hits hard. By the fifth time it starts to feel like filler.
-- The formula "If I can become anyone, no one can reject me. If no one can reject me, I'm safe" appears in both the Chameleon section and the conclusion almost identically. Pick one spot.
-
-WHAT'S MISSING / COULD BE EXPANDED:
-- There is almost NOTHING about his actual comedy. For a profile of a comedian, that's a glaring gap. What does he joke about? What's his comedic style? How does he differ from Stewart, Chappelle, Hart? Even one paragraph analyzing a specific bit or special would make this feel more complete.
-- The Daily Show era is basically skipped. You cover him leaving but not what he DID for 7 years. How did he approach American politics as a South African outsider? How did the show change under him? The COVID apartment episodes? The backlash over old tweets when he was first announced? That's a huge chunk of his public life that gets zero attention.
-- His relationship with South Africa after fame. Does he go back? How does SA view him now — as their guy or as someone who left? This connects directly to the belonging thesis and feels like a missed opportunity.
-- The ADHD reveal gets one paragraph but could use more texture. How did the diagnosis change his understanding of his own restlessness? Does he see the "leaving pattern" differently now?
-
-MINOR NOTES:
-- The Grammys stat says "6 consecutive" and "(and counting)" — but you also say he announced the sixth would be his last. These contradict each other. Clarify.
-- The Minka Kelly house detail ($27.5M) appears twice — once in the intro and once in the dating section. Feels repetitive.
-- "Single at 41" in the conclusion but "single at 40" in the "Society Has Deemed Me a Loser" section. Pick one or note the time gap.
-
-OVERALL: The writing quality is high and the psychological framework is convincing. The main issue is redundancy — the article makes its best points 2-3 times when once would be stronger. The biggest content gap is the absence of his actual work as a comedian and Daily Show host. Adding even a short section on that would round out the profile significantly.
--->
