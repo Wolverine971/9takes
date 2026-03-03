@@ -2,7 +2,7 @@
 title: 'Peter Thiel’s Religion (Cleaned Draft)'
 meta_title: 'Peter Thiel’s Religion by David Perell'
 description: 'A cleaned and formatted draft of David Perell’s essay on Peter Thiel, Rene Girard, mimetic theory, Christianity, and long-term thinking.'
-author: 'David Perell'
+author: ''
 date: '2026-03-01'
 loc: 'https://perell.com/essay/peter-thiel/'
 lastmod: '2026-03-01'
@@ -10,7 +10,6 @@ changefreq: 'monthly'
 priority: '0.3'
 published: false
 type: ['essay']
-person: 'Peter-Thiel'
 path: src/blog/people/drafts/david-perrel-thiel-essay.md
 ---
 
