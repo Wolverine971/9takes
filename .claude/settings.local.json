@@ -1164,7 +1164,8 @@
 			"WebFetch(domain:www.worldofreel.com)",
 			"WebFetch(domain:sharedgrief.org)",
 			"WebFetch(domain:extratv.com)",
-			"WebFetch(domain:www.aceshowbiz.com)"
+			"WebFetch(domain:www.aceshowbiz.com)",
+			"WebFetch(domain:www.hoover.org)"
 		],
 		"deny": [],
 		"ask": [],

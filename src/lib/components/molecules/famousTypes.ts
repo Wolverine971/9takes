@@ -201,7 +201,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Mark-Twain', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Mindy-Kaling', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Pedro-Pascal', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Hollywood\'s Anxious Guardian', contentGrade: 9.4 },
-		{ name: 'Peter-Thiel', link: true, hasImage: true, lastmod: '2026-02-13', personaTitle: 'Silicon Valley\'s Vigilant Contrarian', contentGrade: 9.7 },
 		{ name: 'Pokimane', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: null, contentGrade: 9 },
 		{ name: 'Prince-Harry', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'The Spare Who Burned the Manual', contentGrade: 7.6 },
 		{ name: 'Taylor-Lorenz', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Media\'s Counterphobic Alarm System', contentGrade: null },

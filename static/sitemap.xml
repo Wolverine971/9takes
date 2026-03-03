@@ -2525,15 +2525,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Peter-Thiel</loc>
-    <lastmod>2026-02-13T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Peter-Thiel.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Margot-Robbie</loc>
     <lastmod>2026-02-15T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3297,6 +3288,12 @@
     <image:image>
         <image:loc>https://9takes.com/types/8s/Denzel-Washington.webp</image:loc>
     </image:image>
+</url>
+<url>
+    <loc>https://perell.com/essay/peter-thiel/</loc>
+    <lastmod>2026-03-01T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
 </url>
 <url>
     <loc>https://9takes.com/personality-analysis/Sam-Altman</loc>
