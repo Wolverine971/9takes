@@ -18,6 +18,32 @@ interface AnalyticsPagesRow {
 	total_rows: number;
 }
 
+type PageBreakdownWindow = '24h' | '7d' | '14d' | '30d' | '90d';
+
+interface WindowBounds {
+	fromTs: string;
+	toTs: string;
+	fromDate: string;
+	toDate: string;
+	label: string;
+}
+
+const pageBreakdownWindowHours: Record<PageBreakdownWindow, number> = {
+	'24h': 24,
+	'7d': 24 * 7,
+	'14d': 24 * 14,
+	'30d': 24 * 30,
+	'90d': 24 * 90
+};
+
+const pageBreakdownWindowLabels: Record<PageBreakdownWindow, string> = {
+	'24h': 'Last 24 Hours',
+	'7d': 'Last 7 Days',
+	'14d': 'Last 14 Days',
+	'30d': 'Last 30 Days',
+	'90d': 'Last 90 Days'
+};
+
 const querySchema = z.object({
 	page: z.coerce.number().int().min(1).default(1),
 	limit: z.coerce.number().int().min(1).max(200).default(50),
@@ -36,7 +62,8 @@ const querySchema = z.object({
 			'bounce_rate'
 		])
 		.default('visits'),
-	sortDir: z.enum(['asc', 'desc']).default('desc')
+	sortDir: z.enum(['asc', 'desc']).default('desc'),
+	window: z.enum(['24h', '7d', '14d', '30d', '90d']).optional()
 });
 
 function parseDate(value: string | null): string | undefined {
@@ -46,6 +73,43 @@ function parseDate(value: string | null): string | undefined {
 		throw error(400, `Invalid date: ${value}`);
 	}
 	return parsed.data;
+}
+
+function toDateString(date: Date): string {
+	const year = date.getFullYear();
+	const month = String(date.getMonth() + 1).padStart(2, '0');
+	const day = String(date.getDate()).padStart(2, '0');
+	return `${year}-${month}-${day}`;
+}
+
+function endOfDay(date: string): Date {
+	return new Date(`${date}T23:59:59.999`);
+}
+
+function getWindowBounds(window: PageBreakdownWindow, anchorDate?: string): WindowBounds {
+	const now = new Date();
+	const today = toDateString(now);
+	const to = anchorDate && anchorDate !== today ? endOfDay(anchorDate) : now;
+	const from = new Date(to.getTime() - pageBreakdownWindowHours[window] * 60 * 60 * 1000);
+
+	return {
+		fromTs: from.toISOString(),
+		toTs: to.toISOString(),
+		fromDate: toDateString(from),
+		toDate: toDateString(to),
+		label: pageBreakdownWindowLabels[window]
+	};
+}
+
+function isMissingWindowedPagesRpc(err: unknown): boolean {
+	const message =
+		typeof err === 'object' && err !== null && 'message' in err
+			? String((err as { message?: unknown }).message ?? '')
+			: '';
+	return (
+		message.includes('get_page_analytics_pages_sorted_windowed') ||
+		message.includes('function public.get_page_analytics_pages_sorted_windowed')
+	);
 }
 
 function parseScope(value: string | null): z.infer<typeof analyticsScopeSchema> {
@@ -84,27 +148,92 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		limit: url.searchParams.get('limit') ?? '50',
 		search: url.searchParams.get('search') ?? '',
 		sortBy: url.searchParams.get('sortBy') ?? 'visits',
-		sortDir: url.searchParams.get('sortDir') ?? 'desc'
+		sortDir: url.searchParams.get('sortDir') ?? 'desc',
+		window: url.searchParams.get('window') ?? undefined
 	});
 
 	if (!parsedQuery.success) {
 		throw error(400, 'Invalid pagination parameters');
 	}
 
-	const { page, limit, search, sortBy, sortDir } = parsedQuery.data;
+	const { page, limit, search, sortBy, sortDir, window } = parsedQuery.data;
 	const offset = (page - 1) * limit;
 
 	const supabaseAny = locals.supabase as any;
-	const { data, error: rpcError } = await supabaseAny.rpc('get_page_analytics_pages_sorted', {
-		p_from_date: fromDate,
-		p_to_date: toDate,
-		p_scope: scope,
-		p_search: search || null,
-		p_limit: limit,
-		p_offset: offset,
-		p_sort_by: sortBy,
-		p_sort_dir: sortDir
-	});
+	let data: AnalyticsPagesRow[] | null = null;
+	let rpcError: unknown = null;
+	let windowMeta: {
+		key: PageBreakdownWindow | 'custom';
+		from: string;
+		to: string;
+		fromTs?: string;
+		toTs?: string;
+		label: string;
+	};
+
+	if (window) {
+		const bounds = getWindowBounds(window, toDate ?? fromDate);
+		windowMeta = {
+			key: window,
+			from: bounds.fromDate,
+			to: bounds.toDate,
+			fromTs: bounds.fromTs,
+			toTs: bounds.toTs,
+			label: bounds.label
+		};
+
+		const windowedResult = await supabaseAny.rpc('get_page_analytics_pages_sorted_windowed', {
+			p_from_ts: bounds.fromTs,
+			p_to_ts: bounds.toTs,
+			p_scope: scope,
+			p_search: search || null,
+			p_limit: limit,
+			p_offset: offset,
+			p_sort_by: sortBy,
+			p_sort_dir: sortDir
+		});
+
+		data = windowedResult.data ?? null;
+		rpcError = windowedResult.error;
+
+		// Fallback keeps table available if the new RPC isn't deployed yet.
+		if (rpcError && isMissingWindowedPagesRpc(rpcError)) {
+			const fallbackResult = await supabaseAny.rpc('get_page_analytics_pages_sorted', {
+				p_from_date: bounds.fromDate,
+				p_to_date: bounds.toDate,
+				p_scope: scope,
+				p_search: search || null,
+				p_limit: limit,
+				p_offset: offset,
+				p_sort_by: sortBy,
+				p_sort_dir: sortDir
+			});
+
+			data = fallbackResult.data ?? null;
+			rpcError = fallbackResult.error;
+		}
+	} else {
+		windowMeta = {
+			key: 'custom',
+			from: fromDate ?? '',
+			to: toDate ?? '',
+			label: fromDate && toDate ? `${fromDate} - ${toDate}` : 'Custom Range'
+		};
+
+		const rangeResult = await supabaseAny.rpc('get_page_analytics_pages_sorted', {
+			p_from_date: fromDate,
+			p_to_date: toDate,
+			p_scope: scope,
+			p_search: search || null,
+			p_limit: limit,
+			p_offset: offset,
+			p_sort_by: sortBy,
+			p_sort_dir: sortDir
+		});
+
+		data = rangeResult.data ?? null;
+		rpcError = rangeResult.error;
+	}
 
 	if (rpcError) {
 		console.error('Failed to fetch analytics pages:', rpcError);
@@ -138,6 +267,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		sorting: {
 			sortBy,
 			sortDir
-		}
+		},
+		window: windowMeta
 	});
 };

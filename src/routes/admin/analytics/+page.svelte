@@ -106,6 +106,24 @@
 		| 'median_time_on_page_ms'
 		| 'bounce_rate';
 	type SortDirection = 'asc' | 'desc';
+	type PageBreakdownWindow = '24h' | '7d' | '14d' | '30d' | '90d';
+
+	interface PageBreakdownWindowOption {
+		key: PageBreakdownWindow;
+		label: string;
+	}
+
+	interface PageBreakdownWindowSnapshot {
+		contextKey: string;
+		rows: PageRow[];
+		pagination: PaginationState;
+		page: number;
+		sortBy: SortKey;
+		sortDir: SortDirection;
+		rangeFrom: string;
+		rangeTo: string;
+		rangeLabel: string;
+	}
 
 	interface PageTrendPoint {
 		day: string;
@@ -186,6 +204,15 @@
 		{ key: 'bounce_rate', label: 'Bounce', numeric: true }
 	];
 
+	const pageBreakdownWindowOptions: PageBreakdownWindowOption[] = [
+		{ key: '24h', label: '24 Hours' },
+		{ key: '7d', label: 'Last 7 Days' },
+		{ key: '14d', label: 'Last 14 Days' },
+		{ key: '30d', label: 'Last 30 Days' },
+		{ key: '90d', label: 'Last 90 Days' }
+	];
+	const defaultPageBreakdownWindow: PageBreakdownWindow = '30d';
+
 	let fromDate = $state(initialFilters?.from ?? '');
 	let toDate = $state(initialFilters?.to ?? '');
 	let scope = $state<AnalyticsScope>(
@@ -197,6 +224,15 @@
 	let page = $state(initialPagination?.page ?? 1);
 	let sortBy = $state<SortKey>('visits');
 	let sortDir = $state<SortDirection>('desc');
+	let pageBreakdownWindow = $state<PageBreakdownWindow>(defaultPageBreakdownWindow);
+	let pageBreakdownRangeFrom = $state(initialFilters?.from ?? '');
+	let pageBreakdownRangeTo = $state(initialFilters?.to ?? '');
+	let pageBreakdownRangeLabel = $state(
+		formatDateWindow(initialFilters?.from ?? '', initialFilters?.to ?? '')
+	);
+	const pageBreakdownCache = new Map<PageBreakdownWindow, PageBreakdownWindowSnapshot>();
+	let tableFetchRequestId = 0;
+	let seededPageBreakdownCache = false;
 
 	let loading = $state(false);
 	let tableLoading = $state(false);
@@ -260,6 +296,50 @@
 	function formatDateWindow(from: string, to: string): string {
 		if (!from || !to) return '';
 		return `${formatDateLabel(from)} - ${formatDateLabel(to)}`;
+	}
+
+	function getPageBreakdownWindowLabel(window: PageBreakdownWindow): string {
+		return pageBreakdownWindowOptions.find((option) => option.key === window)?.label ?? '';
+	}
+
+	function getPageBreakdownContextKey(): string {
+		return `${scope}|${fromDate}|${toDate}|${search.trim()}`;
+	}
+
+	function cacheCurrentPageBreakdownState(): void {
+		pageBreakdownCache.set(pageBreakdownWindow, {
+			contextKey: getPageBreakdownContextKey(),
+			rows: [...rows],
+			pagination: { ...pagination },
+			page,
+			sortBy,
+			sortDir,
+			rangeFrom: pageBreakdownRangeFrom,
+			rangeTo: pageBreakdownRangeTo,
+			rangeLabel: pageBreakdownRangeLabel
+		});
+	}
+
+	function restoreCachedPageBreakdownState(window: PageBreakdownWindow): boolean {
+		const cached = pageBreakdownCache.get(window);
+		if (!cached || cached.contextKey !== getPageBreakdownContextKey()) {
+			return false;
+		}
+
+		rows = [...cached.rows];
+		pagination = { ...cached.pagination };
+		page = cached.page;
+		sortBy = cached.sortBy;
+		sortDir = cached.sortDir;
+		pageBreakdownRangeFrom = cached.rangeFrom;
+		pageBreakdownRangeTo = cached.rangeTo;
+		pageBreakdownRangeLabel = cached.rangeLabel;
+		return true;
+	}
+
+	function clearPageBreakdownCache(): void {
+		pageBreakdownCache.clear();
+		seededPageBreakdownCache = false;
 	}
 
 	function buildTrendData(
@@ -359,6 +439,30 @@
 		}
 		page = 1;
 		void fetchPages();
+	}
+
+	async function selectPageBreakdownWindow(window: PageBreakdownWindow) {
+		if (window === pageBreakdownWindow || tableLoading) return;
+
+		cacheCurrentPageBreakdownState();
+		pageBreakdownWindow = window;
+
+		if (restoreCachedPageBreakdownState(window)) {
+			return;
+		}
+
+		page = 1;
+		sortBy = 'visits';
+		sortDir = 'desc';
+		rows = [];
+		pagination = {
+			...defaultPagination,
+			limit: pagination.limit || defaultPagination.limit
+		};
+		pageBreakdownRangeFrom = '';
+		pageBreakdownRangeTo = '';
+		pageBreakdownRangeLabel = getPageBreakdownWindowLabel(window);
+		await fetchPages();
 	}
 
 	async function focusPathTrend(path: string) {
@@ -503,11 +607,25 @@
 		}
 	});
 
+	$effect(() => {
+		if (seededPageBreakdownCache) return;
+		cacheCurrentPageBreakdownState();
+		seededPageBreakdownCache = true;
+	});
+
 	let totalPages = $derived(Math.max(1, pagination.totalPages || 1));
 	let canPrev = $derived(page > 1);
 	let canNext = $derived(page < totalPages);
 
-	function buildParams(includePaging = false): URLSearchParams {
+	function buildParams(
+		includePaging = false,
+		options: {
+			page?: number;
+			sortBy?: SortKey;
+			sortDir?: SortDirection;
+			window?: PageBreakdownWindow;
+		} = {}
+	): URLSearchParams {
 		const params = new URLSearchParams({
 			from: fromDate,
 			to: toDate,
@@ -517,10 +635,11 @@
 			params.set('search', search.trim());
 		}
 		if (includePaging) {
-			params.set('page', String(page));
+			params.set('page', String(options.page ?? page));
 			params.set('limit', String(pagination.limit || 50));
-			params.set('sortBy', sortBy);
-			params.set('sortDir', sortDir);
+			params.set('sortBy', options.sortBy ?? sortBy);
+			params.set('sortDir', options.sortDir ?? sortDir);
+			params.set('window', options.window ?? pageBreakdownWindow);
 		}
 		return params;
 	}
@@ -560,9 +679,21 @@
 	}
 
 	async function fetchPages() {
+		const requestId = ++tableFetchRequestId;
+		const requestWindow = pageBreakdownWindow;
+		const requestPage = page;
+		const requestSortBy = sortBy;
+		const requestSortDir = sortDir;
+		const requestContextKey = getPageBreakdownContextKey();
+
 		tableLoading = true;
 		try {
-			const params = buildParams(true).toString();
+			const params = buildParams(true, {
+				page: requestPage,
+				sortBy: requestSortBy,
+				sortDir: requestSortDir,
+				window: requestWindow
+			}).toString();
 			const response = await fetch(`/api/admin/analytics/pages?${params}`);
 			const body = await response.json();
 
@@ -570,19 +701,38 @@
 				throw new Error(body.message || 'Failed to load page analytics');
 			}
 
+			if (requestId !== tableFetchRequestId) return;
+
 			rows = body.rows ?? [];
 			pagination = { ...defaultPagination, ...(body.pagination ?? {}) };
-			if (body.sorting?.sortBy) {
-				sortBy = body.sorting.sortBy as SortKey;
-			}
-			if (body.sorting?.sortDir) {
-				sortDir = body.sorting.sortDir as SortDirection;
-			}
+			page = body.pagination?.page ?? requestPage;
+			sortBy = (body.sorting?.sortBy as SortKey) ?? requestSortBy;
+			sortDir = (body.sorting?.sortDir as SortDirection) ?? requestSortDir;
+			pageBreakdownRangeFrom = body.window?.from ?? pageBreakdownRangeFrom;
+			pageBreakdownRangeTo = body.window?.to ?? pageBreakdownRangeTo;
+			const responseWindowLabel =
+				body.window?.label ?? formatDateWindow(pageBreakdownRangeFrom, pageBreakdownRangeTo);
+			pageBreakdownRangeLabel = responseWindowLabel || getPageBreakdownWindowLabel(requestWindow);
+
+			pageBreakdownCache.set(requestWindow, {
+				contextKey: requestContextKey,
+				rows: [...rows],
+				pagination: { ...pagination },
+				page,
+				sortBy,
+				sortDir,
+				rangeFrom: pageBreakdownRangeFrom,
+				rangeTo: pageBreakdownRangeTo,
+				rangeLabel: pageBreakdownRangeLabel
+			});
+			seededPageBreakdownCache = true;
 		} catch (err) {
 			console.error('Analytics pages fetch error:', err);
 			notifications.danger('Failed to load page table', 3000);
 		} finally {
-			tableLoading = false;
+			if (requestId === tableFetchRequestId) {
+				tableLoading = false;
+			}
 		}
 	}
 
@@ -625,6 +775,10 @@
 			return;
 		}
 		page = 1;
+		clearPageBreakdownCache();
+		pageBreakdownRangeFrom = '';
+		pageBreakdownRangeTo = '';
+		pageBreakdownRangeLabel = getPageBreakdownWindowLabel(pageBreakdownWindow);
 		trendCache.clear();
 		selectedTrendPoints = [];
 		await Promise.all([fetchOverviewAndTimeseries(), fetchPages(), fetchTopPagesInsights()]);
@@ -639,6 +793,11 @@
 		page = 1;
 		sortBy = 'visits';
 		sortDir = 'desc';
+		pageBreakdownWindow = defaultPageBreakdownWindow;
+		clearPageBreakdownCache();
+		pageBreakdownRangeFrom = '';
+		pageBreakdownRangeTo = '';
+		pageBreakdownRangeLabel = getPageBreakdownWindowLabel(pageBreakdownWindow);
 		trendCache.clear();
 		selectedTrendPoints = [];
 		await Promise.all([fetchOverviewAndTimeseries(), fetchPages(), fetchTopPagesInsights()]);
@@ -947,14 +1106,36 @@
 
 	<section class="table-card">
 		<div class="table-header">
-			<h2>Page Breakdown (Raw Paths)</h2>
-			<div class="table-meta">
-				<span>{pagination.total.toLocaleString()} total rows</span>
-				<span>Page {page} of {totalPages}</span>
-				<span>
-					Sorted by {tableSortColumns.find((column) => column.key === sortBy)?.label || 'Visits'} (
-					{sortDir})
-				</span>
+			<div>
+				<h2>Page Breakdown (Raw Paths)</h2>
+				<p class="table-window-summary">
+					{pageBreakdownRangeLabel || getPageBreakdownWindowLabel(pageBreakdownWindow)}
+				</p>
+			</div>
+			<div class="table-header-controls">
+				<div class="table-window-tabs" role="tablist" aria-label="Page breakdown time windows">
+					{#each pageBreakdownWindowOptions as option}
+						<button
+							type="button"
+							role="tab"
+							class="window-tab"
+							class:active={pageBreakdownWindow === option.key}
+							aria-selected={pageBreakdownWindow === option.key}
+							disabled={tableLoading && pageBreakdownWindow !== option.key}
+							onclick={() => void selectPageBreakdownWindow(option.key)}
+						>
+							{option.label}
+						</button>
+					{/each}
+				</div>
+				<div class="table-meta">
+					<span>{pagination.total.toLocaleString()} total rows</span>
+					<span>Page {page} of {totalPages}</span>
+					<span>
+						Sorted by {tableSortColumns.find((column) => column.key === sortBy)?.label || 'Visits'} (
+						{sortDir})
+					</span>
+				</div>
 			</div>
 		</div>
 		<div class="table-wrapper">
@@ -1383,8 +1564,9 @@
 
 	.table-header {
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: space-between;
+		gap: 10px;
 		margin-bottom: 10px;
 	}
 
@@ -1393,8 +1575,57 @@
 		font-size: 1.1rem;
 	}
 
+	.table-window-summary {
+		margin: 4px 0 0;
+		font-size: 0.78rem;
+		color: var(--text-secondary);
+	}
+
+	.table-header-controls {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		align-items: flex-end;
+	}
+
+	.table-window-tabs {
+		display: inline-flex;
+		flex-wrap: wrap;
+		gap: 6px;
+		justify-content: flex-end;
+	}
+
+	.window-tab {
+		border: 1px solid var(--void-elevated);
+		background: var(--void-deep);
+		color: var(--text-secondary);
+		font-size: 0.74rem;
+		font-weight: 600;
+		border-radius: 999px;
+		padding: 5px 9px;
+		cursor: pointer;
+	}
+
+	.window-tab:hover {
+		border-color: var(--void-highlight);
+		color: var(--text-primary);
+	}
+
+	.window-tab.active {
+		border-color: #3b82f6;
+		background: rgba(59, 130, 246, 0.16);
+		color: #bfdbfe;
+	}
+
+	.window-tab:disabled {
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
+
 	.table-meta {
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
 		gap: 10px;
 		color: var(--text-secondary);
 		font-size: 0.85rem;
@@ -1563,6 +1794,13 @@
 			flex-direction: column;
 			align-items: flex-start;
 			gap: 4px;
+		}
+
+		.table-header-controls,
+		.table-window-tabs,
+		.table-meta {
+			align-items: flex-start;
+			justify-content: flex-start;
 		}
 
 		.rank-top {

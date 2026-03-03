@@ -3449,6 +3449,31 @@ export type Database = {
           visits: number
         }[]
       }
+      get_page_analytics_pages_sorted_windowed: {
+        Args: {
+          p_from_ts?: string
+          p_limit?: number
+          p_offset?: number
+          p_scope?: string
+          p_search?: string
+          p_sort_by?: string
+          p_sort_dir?: string
+          p_to_ts?: string
+        }
+        Returns: {
+          anonymous_visits: number
+          authenticated_visits: number
+          avg_time_on_page_ms: number
+          bounce_rate: number
+          content_type: string
+          median_time_on_page_ms: number
+          path: string
+          path_group: string
+          total_rows: number
+          unique_visitors: number
+          visits: number
+        }[]
+      }
       get_page_analytics_timeseries: {
         Args: { p_from_date?: string; p_scope?: string; p_to_date?: string }
         Returns: {
