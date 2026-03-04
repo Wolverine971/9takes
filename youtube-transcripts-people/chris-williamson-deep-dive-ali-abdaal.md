@@ -1,0 +1,1249 @@
+<!-- youtube-transcripts-people/chris-williamson-deep-dive-ali-abdaal.md -->
+
+# Chris Williamson on Deep Dive with Ali Abdaal
+
+## Video Details
+
+- **Source**: [YouTube](https://www.youtube.com/watch?v=bNs6ttSjN30)
+- **Channel**: Deep Dive with Ali Abdaal
+- **Host**: Ali Abdaal
+- **Guest**: Chris Williamson
+- **Date**: November 22, 2021
+- **Views**: ~128,135
+- **Topics**: Party-boy heritage and nightclub promotion career, being on reality TV (Take Me Out, Love Island), building a business and learning to relinquish control, Love Island as existential crisis catalyst, self-worth tied to external achievement, playing a persona vs. authentic self, masculinity and the lack of male role models, the dating marketplace and evolutionary psychology, hypergamy and attraction dynamics, be yourself vs. choose yourself, the "manopause" - shedding party-boy values in late 20s
+
+## Timestamps
+
+- 00:00 Intro
+- 02:14 Party-boy heritage
+- 17:29 Being on reality TV
+- 22:33 Building a business & relinquishing control
+- 30:30 Love Island & Existentialism
+- 41:36 On Self-worth
+- 52:24 Playing a persona
+- 54:50 Masculinity & Role Models
+- 01:07:25 Dating
+- 1:36:24 Be yourself vs choose yourself
+- 1:41:44 Rapid-fire questions
+
+## Related
+
+- Consolidated analysis: [chris-williamson-consolidated-analysis.md](./chris-williamson-consolidated-analysis.md)
+
+---
+
+## Analysis
+
+### Key Personality Insights
+
+Chris Williamson reveals himself in this interview as someone who spent the first decade of his adult life constructing and inhabiting a persona -- the party-boy club promoter -- that never truly aligned with who he was underneath. Several core personality patterns emerge:
+
+**The Outsider Who Studies Groups From the Edge**: Chris describes himself as "wildly unpopular" in school, someone who never fit into any particular group. Rather than being crushed by this, he turned it into a strategic advantage. As a club promoter, he used his outsider perspective to observe and manipulate group dynamics, trends, and social hierarchies. This pattern -- standing slightly outside a system to understand and influence it -- repeats throughout his life. Even on Love Island, he describes being "with them but really still feeling on the outside."
+
+**Relentless Self-Reinvention Through Crisis**: Chris does not change gradually. He transforms through acute moments of contrast and dissonance. The Love Island experience was not just a TV show for him -- it was a mirror that showed him the gap between who he was pretending to be and who he actually was. The moment he looked up at the Milky Way after leaving the villa became a turning point. He needs these dramatic confrontations with reality to catalyze change.
+
+**Validation-Seeking Rooted in Early Social Rejection**: Chris is remarkably honest about the fact that his entire nightclub empire was, at its psychological core, a machine for generating external validation. He directly attributes this to not having social success when he was younger: "I found my sense of self-worth in success in business. This was probably not having had success socially when I was younger and me wanting to prove to the world that I'm worth something." He describes chasing money, women, status, accolades, and standing on the door of "the correct clubs" as ways to feel worthy.
+
+**Intellectual Hunger That Was Suppressed, Not Absent**: Chris did not become intellectual after Love Island -- he uncovered an intellectual curiosity that had always been there but was buried under the party-boy persona. He describes the post-Love Island period as an "archaeology" of self, peeling back layers of performed identity to find something "solid" underneath: intellectual curiosity, a desire to learn and connect authentically.
+
+**Acute Self-Awareness Combined With Ongoing Struggle**: Chris does not present himself as having "arrived." He explicitly says he still fights with tying his self-worth to external metrics. He understands the path intellectually but has not completed it emotionally. This honesty about the gap between knowing and embodying is one of his most authentic qualities in the interview.
+
+**Strategic and Systems-Oriented Thinking**: Whether describing nightclub marketing, teaser campaigns for his podcast, or the dating marketplace, Chris naturally thinks in systems, incentives, and market dynamics. He sees human behavior through the lens of patterns and leverage points rather than pure emotion.
+
+### Enneagram-Relevant Observations
+
+Chris Williamson displays a strong pattern consistent with **Enneagram Type 3 (The Achiever)**, with several indicators:
+
+**Core Type 3 Indicators**:
+
+- His entire identity was built around achievement, image, and external success metrics. He explicitly describes hinging his self-worth on "the amount of people that go into my club night," the women he slept with, his follower counts, and his status.
+- He played a carefully constructed persona ("Club Promo Chris") for over a decade -- an "Oscar winning performance" -- because it was effective, not because it was authentic. Type 3s are the chameleons of the Enneagram, becoming whoever they need to be to succeed in their environment.
+- He describes never truly connecting with his business success in an existential way because "if you're playing a persona, you don't feel like your achievements are yours. You feel like they're people applauding a character that you're playing." This is the classic Type 3 trap: achieving endlessly but feeling hollow because the real self was never the one being validated.
+- His admission that he loved himself "for what I do, not who I am" and wanted others to love him "for who I am, not what I do" captures the fundamental Type 3 contradiction.
+- His YOLO approach to opportunities (Take Me Out, Love Island) reflects the Type 3 bias toward action and seizing opportunities for advancement and visibility.
+- His post-crisis transformation involved stripping away personas to find an authentic self beneath -- the core growth path for Type 3, which involves moving from performing to being genuine.
+
+**Possible Wing Indicators**:
+
+- A 3w4 wing could explain his eventual pivot toward intellectual depth, introspection, and a podcast focused on meaning and wisdom rather than pure entertainment or status.
+- A 3w2 wing could account for his natural charisma, networking ability, and his desire to help young men find their way (giving the advice he wished he had received).
+
+**Integration and Disintegration Patterns**:
+
+- His mini-breakdowns (spending days in bed after overworking during Freshers week) align with Type 3 disintegration toward Type 9 -- collapsing into numbness and withdrawal when the achievement engine overheats.
+- His growth toward honesty, vulnerability, and genuine connection with others reflects Type 3 integrating toward Type 6 -- becoming loyal, truthful, and grounded in authentic relationships rather than performance.
+
+**Counter-Arguments**:
+
+- Some traits could suggest Type 7 (the restless pursuit of new experiences, YOLO mentality, professional party boy lifestyle). However, the core motivation was not variety-seeking or pain-avoidance but rather image construction and achievement validation, pointing more strongly to Type 3.
+- His outsider observation quality and intellectual deep-dive phase could suggest Type 5, but this appears to be a later development rather than a core drive.
+
+### Key Stories & Revelations
+
+1. **The Outsider Origin Story**: Chris was "wildly unpopular" in school, a late bloomer who did not fit any group. This outsider status became the foundation of his club promotion career -- he could see group dynamics from the outside and manipulate them.
+
+2. **Building Voodoo Events from Scratch**: Starting as a flyer distributor at university, Chris built one of the UK's biggest events companies with over 1,000 staff, running a thousand nightclub events over his career. The first episode of Geordie Shore Season 1 was filmed at his Saturday night event.
+
+3. **Self-Funding His Master's Degree in Cash**: Chris paid 8,100 pounds in cash from nightclub earnings to fund his master's degree, overwhelming the university safe's 5,000 pound rating. A moment of pride that his hustling had tangible results.
+
+4. **The Take Me Out Experience**: Standing on a rickety "Love Lift" to be lowered in front of 20 women, 400 audience members, and 4 million TV viewers -- with no preparation beyond a Corona backstage. Pure YOLO energy.
+
+5. **The Love Island Existential Crisis**: The pivotal story. Chris entered Love Island thinking he was the ultimate party boy, only to discover while living with actual pinnacle party boys that he was not one of them. Four weeks with no distractions forced him to confront the gap between his persona and his real self.
+
+6. **The Milky Way Moment**: After leaving Love Island, Chris stepped outside alone for the first time in a month, looked up at the sky in southern Mallorca, and saw the full Milky Way. This became the catalyst for his 18-month journey of self-discovery.
+
+7. **The Persona Revelation**: Chris realized that a decade of playing "Club Promo Chris" meant he never truly owned his achievements -- "the same way that we don't love Russell Crowe, we love Gladiator... you're always one step removed from the things that you're doing if you're not being truthful."
+
+8. **Mini-Breakdowns After Freshers Week**: Every October, after weeks of relentless event-running on minimal sleep, Chris would collapse into bed for days in what he describes as "small acute breakdowns" -- the cost of unsustainable performance.
+
+### Notable Quotes
+
+> "I found my sense of self-worth in success in business. This was probably not having had success socially when I was younger and me wanting to prove to the world that I'm worth something."
+
+> "While I was on Love Island I got to observe people that were that person, the pinnacle party boy. I was playing this role, I thought I was, but it kind of turned out that I wasn't really. And I had this fatal dose of contrast."
+
+> "If you're playing a persona, you don't feel like your achievements are yours. You feel like they're people applauding a character that you're playing. So the same way that we don't love Russell Crowe, we love Gladiator... you're always one step removed from the things that you're doing."
+
+> "We want the world to love us for who we are, not for what we do. However, we love ourselves for what we do, not who we are. So we're asking the world to do something that we don't do ourselves."
+
+> "I was world class at playing Chris Williamson on the front door of a nightclub. Like, literally Oscar-winning performance. But it wasn't me."
+
+> "If you want to try and be your version of someone else, the best that you can hope for is being the second best in the world at it."
+
+> "One of the underrated productivity tools or life tools that far fewer people use than should is YOLO. Just the fact that you can say, I'm just going to try this and see what happens."
+
+> "I believe that your life should be lived by design, not by default. That you should be intentionally doing things, because the default quite often is actually a bit shit."
+
+---
+
+## Raw Transcript
+
+what I realized there was that there are particular modes of existing that we get in our early 20s
+many of which are kind of the lowest common denominator um limic hijack route to success that we can
+find right like quite a base transactional transient route to success as you grow up a little bit
+more you realize hang on perhaps this isn't serving me quite in as much of a holistic Broad View as
+I want that's what I saw with Fitness what I think you see with specifically guys maybe with girls
+as well the manop pause is someone realizing that as you get toward the end of your 20s the values
+that you had when you were younger aren't serving you hello and welcome to Deep dive the podcast
+that delves into the minds of entrepreneurs creators and other inspiring people to uncover their
+Journeys towards finding joy and fulfillment at work and in life my name is Ali and in each episode
+I chat to my guests about the philosophies strategies and tools that have helped them along the path
+to living a life of happiness and meaning in this week's episode of Deep dive I sit down for a chat
+with my friend Chris Williamson Chris is a club promoter Ted X speaker YouTuber and podcaster his
+podcast modern wisdom shares life lessons from the smartest people on the planet including the likes
+of Jordan Peterson Ryan Holliday and James Clea and was born out of Chris's curiosity for
+self-discovery and after his existential crisis after appearing on the TV show love Island while I
+was on love Island I got to observe people that were that person the Pinnacle party boy right cuz I
+was playing this role I thought I was but it kind of turned out that I wasn't really and I had this
+fatal dose of contrast as I live lived in a villa with no distractions for 4 weeks watching these
+people and being with them but really still feeling on the outside in our conversation me and Chris
+discussed how he shed the party boy Persona in favor of intellect and meaning before discussing
+topics like masculinity role models and the dating Market almost two-thirds of women say that they
+would not be in a relationship with a man who is less educated less wealthy and lower in status than
+them so please feel free to grab a cup of tea and enjoy the conversation Chris welcome to Welcome to
+the podcast how you doing my pleasure man thanks for having me so we've spoken a few times uh I
+think I was on your podcast maybe a year or two ago something year ago maybe I think yeah and then
+we kind of kept in touch ever since but one thing I didn't realize uh when we were doing research
+for this I I I just did not know anything about your former life as a professional party boy and I
+saw that that's that's like the third thing on your Twitter you've got YouTuber podcaster and Prof
+former professional party boy yeah and I feel like you and I have a few things in common on the
+YouTuber and podcaster front but I know literally nothing about the world of a professional lad and
+I wonder if you can like you're not a professional lad Alie I could have sworn I want I wanted to be
+a professional lad which is why I ended up making YouTube videos about productivity but it kind of
+kind of took me in a different direction what was what was your life growing up and like what was
+the kind of professional party boy stuff that you used to do back in the day like pre 2015 cool so
+I'm a club promoter by trade I still own one of the biggest events companies in the UK called Voodoo
+events I've run about a thousand night clubs uh events in my entire life I've seen a million people
+go in and out of them so I've met about a million people in my life stood on the front door of
+nightclubs between 10: p.m. and 3:00 in the morning which is a fascinating uh insight into human
+nature because when people are their inhibitions have gone and they've had a little bit to drink
+it's a pretty interesting petri dish for things to occur uh and that happened at Uni so I was skin
+at Uni I started flyering and I was like the best flyer then I was the best Halls flyer then I was
+the best Junior event manager and I picked up a franchise when I was 19 that was called Carnage
+which was a t-shirt bar roll anyone who's probably 30 or older will remember it you wore a t-shirt
+you ticked off tasks on the back as you went around different bars so we did really well with that
+and then I started doing weekly club nights and then you pick up more club nights and then you get
+managers and then you get guest listers and now we have a bar in leads six nights a week in leads
+four nights a week in Newcastle we've got over a thousand staff we have a shots company that do
+shotg girls and sorry what so shot girls girls who go around and say shot girls so they sell shots
+okay so you want a Jager Bomb but you can't be bothered to go to the bar yeah good looking girls go
+around and sell shots to people that can't be asked to leave the dance floor they charge a little
+bit of a premium we take the premium um and PID the girls a little bit of a cut so we have a bunch
+of different sort of NTI related businesses and that was the format of years man that was until 201
+17 2018 that was the bulk of what I did so okay so I think I think this is an interesting kind of
+diver sort of Divergence of our paths cuz when I was at un and I was like I need to make money I
+decided to make websites whereas when you were at Uni and you needed to make money you decided to so
+how how how does that work do you just like give Flyers to students and like how you must have gone
+out while you at Uni twice twice in all of you you are you are precisely the sort of student that I
+hate you are precisely the sort of one no I need someone who is desperately lonely and wants to go
+out on a night out three or four nights a week with their friends got it um it's a very interesting
+way to look at marketing because what you're playing off the back of is mematic desire status and
+cool okay what makes something cool is really really difficult to Define so what we try and do as
+event promoters is we create Brands um for instance Wiki wab bether is this sort of pastel and pink
+flamingos very girly sort of girl power but it's a bit retro and Chic as well so we came up with
+Paradiso which is this Flamingo neon sign and that was a Friday that we launched it's all girly
+girls get pink shots and there's different types of music and stuff and we've dressed the venue in
+pink okay that creates a image to the market y we put DJs on that are the right we price it
+correctly we deal with a venue that's the sort of appropriate uh location for this and then people
+hopefully come and then once you've got them you network to them you get networkers guest listers
+that go and say hey you're coming out tonight they build up their networks they make a commission on
+the people that come in oh uh it's a pretty sophisticated when you look at a nightclub and you go oh
+it's just people getting drunk in a room to music a lot going on behind the scenes yeah okay and so
+were you one of the kind of networkers originally yes okay so you would kind of make friends with
+because like on my on my College's Facebook page there would be a guy his his name was Sam th Sam
+Sam Mel I think and people used to call him a Spam M Mel because he would just go around like
+spamming people being hey are you coming out so he would be one of mine he would be one of the
+little agents that we send out into the world uh but yeah I mean the guys make good money and they
+have a sense of belonging and they can move their way up throw I mean we've got full-time members of
+Staff now we've got guys that do placement years that have come and done graduate stuff with us and
+yeah it's it's fun man it's really good fun so what would you like in in school to end up as that
+being your side hustle rather than me ending up as website designed being my side hustle I was
+probably a lot more like you in school than you think really I'm imagining you were a professional
+lad in school on all the football teams all the girls interested that kind of vibe no no no no very
+much a late bloomer so school was uh I played Cricket at quite a high level for a long time
+throughout pretty much all of school I went to a state school state primary State Stockton sixth
+form College Stockton being a town that was only famous for having the highest teen pregnancy rating
+in the UK and it recently lost that so it's not even the best at that anymore and um yeah very much
+an unpopular kid in school like wildly unpopular okay um really on the outside looking in didn't
+really fit into any particular group hey that was not like me by the record okay okay um and then I
+think that what that one of the advantages it gave me was when I came to be a club promoter when
+you're on the outside looking in you can see how groups um coales okay and it means that you can
+actually look at what it is that they want from different things and you can observe group dynamics
+for uh markets in slightly different ways okay so what we're manipulating as Club promoters is group
+dynamics cool trends uh how to bring people together okay uh and it's I think it's far easier to do
+that from the outside than from the inside if you look at most top top level Club promoters guys
+that are of My Level they are not people directly in the middle of the popularity group they're ones
+that are slightly actually on the outside uh because I think it gives them a bit more perspective
+okay so as a club promoter you figure out like who the cool kids are you get them to come to your
+nightclub you get them to build hype around it the cool kids are going to Paradiso therefore the
+slightly less cool kids are like we want to be like the cool kids par precisely you could be a clip
+sick okay um so you started off doing this as a side hustle how did things like escalate beyond that
+point to where where where you are now uh so we just launched a Saturday night in Newcastle that was
+very very successful we timed it correctly with the market and that became one of the biggest events
+in the country it was just as Jordi Shaw had started so the first ever episode of Jordi Shaw season
+1 episode one they're in Voodoo which was our Saturday night okay and we ran that for six or seven
+years probably did quarter of a million people through that one event uh in that time maybe even
+more and that gave us a foundation that we could build on top of we could recruit managers we
+learned our processes so we very much structured and made a procedure out of Club promo as best we
+could to try and have a formula for how you release an event how you do pre-build up to things and
+yeah that informs a lot of the things that I do now so to give you an example when I release
+anything to do with my podcast or a new lead Magnet or courses that I do I take huge advantage of
+long lead times and teaser campaigns because that is my club promotion Heritage showing through I
+know for a fact that if that we are uh teal logical beings right we look forward to something
+occurring and we actually enjoy the anticipation often a lot more than we enjoy the event itself so
+by having um I'm releasing a new lead magnet in seven days time it's the modern wisdom reading list
+uh here's a countdown timer on Instagram here's some teaser pages of it coming out this is why
+people have asked me to do it this is what it's going to look like but you can't get it yet this is
+what it's going to be like and it's just different things maybe I'll talk about it on the podcast
+maybe I'll bring it up on Instagram maybe I'll release a little bit on Twitter and then on that day
+you get I think that you end up with a overclocked amount of demand and interest because people have
+just been like waiting in the wings for it we do the same thing with club nights really release a
+teaser video for the teaser video then release a teaser video then we do a countdown then we finally
+get the event out and you turn up outside and there's 2,000 people because theyve just they're just
+curious about what what's going on here why is this happening so yeah long drawn out teaser
+campaigns is a a great hack interesting so when you say we put on like a a club night like what does
+what does the the structure of this organization look like cool so uh myself and my business partner
+Darren y uh there's two partners that are the parent company that work with us in leads Matt and
+Dave yeah below us we have about 12 managers below them there are about four or five traine Junior
+managers and Below them there's about 500 guest staff so each manager has a team Y and they similar
+to a sales team they recruit them they find them so they'll be on a night out and they'll see some
+girl that's really hot or some guy that's really cool or some like girl that's got chat or whatever
+it might be yep they'll say hey why you in our event you should be working for us and then you get
+in for free and you get to drink for free and you get to earn money do you want to come work for us
+they usually sometimes they say yes they bring them on board and then that person starts bringing
+their friends down guest listera makes commission from their friends attending manager makes
+commission from all of their team's commissions and then we take the door the door entry money over
+the top we're going to take a very quick break to introduce our sponsor brilliant brilliant is a
+fantastic online platform for learning maths science and computer science with interactive and
+engaging courses that I've been using for many years but to be honest I wish I'd had the lessons and
+maths to hand when I Was preparing for my bat when applying to medical school a lot of of the time
+when we're taught math at school the focus is on empty memorization of formulas that we can apply in
+our exams but the great thing about brilliant is their courses teach you how to actually understand
+Concepts from a first principles approach and develop the intuition to solve problems also their
+computer science series is absolutely sick they've got some fantastic courses on algorithms on
+learning to program with python they've got a whole series about cryptocurrency and understanding
+exactly how things like Bitcoin work from the ground up which is genuinely fascinating so if you
+want to give their lessons in maths a try or even science or computer science then head over to
+brilliant.org deepdive and the first 200 people to sign up by that link will get 20% off the annual
+subscription to the website so thank you so much brilliant for sponsoring this episode so you so
+you're managing a pretty large team yeah it's huge while it's distributed distributed as in you've
+got everybody is accountable to someone and no one's team is actually that massive so the the
+largest single um amount of responsibility that any one person will have y will probably be about 30
+to 40 people and that would be one of the managers looking after a big team of guest listers but
+they don't need manag every day it's just are you coming out tonight have you sent your guest list
+in you did [ __ ] last week you did well last week you won an award here's a bottle of vodka
+whatever nice like if you're if you're this sort of professional networker professional party boy do
+you form like real friendships through that or or like how how do how does the social dynamics for
+your personal life work when you're do you end up with transactional friendships from doing this
+yeah absolutely but you know the ones that are and people know why you're there as well okay you
+transcend the friendships especially with the people that you work with so we have a voodoo old boys
+Group which is the guys that have graduated and moved on some of them are being Finance people out
+in China now or some of them are running stuff in London or in Manchester and we all keep together
+and we Bond really really closely so my business partner's wedding 50% plus of the people that were
+there were people from nightlife mostly they were the ones that we'd worked with there is very much
+a them and US type uh kind of like a um what's it called in con Artistry is it like a mark and a con
+or something uh there's the marks that are the people that are going out and sometimes you make good
+friends with those but for the most part you bond with the people that you work with Okay but those
+friendships you know you're going through really intense experiences together if you'd stand on the
+door of an event and run 2,000 people trying to fit in on Halloween so we've got Halloween coming up
+um 2,000 people trying to get into a venue and it will be chaos and people are drunk people are
+throwing up people are having fights there's someone spilled something on the floor some girl's
+fallen over and twisted her ankle we need to get the whatever whatever it's a really strong bonding
+experience with some people so you end up with a small tight-knit group of friends and then a very
+very sort of desperate group of acquaintances interesting so I guess it's sort of like how as a
+YouTuber you're not really friends with the audience you're friends with other other YouTubers
+precisely precisely correct and there is this kind of parasocial relationship between the audience
+and the YouTuber where exactly the same both parties know it's somewhat transactional but we both
+know what this is okay that's so interesting okay um I so how so you spent three years at Uni five
+five years at Uni uh did bachel with a year in Industry which was doing Club promo for ourselves we
+wrote ourselves a recommendation letter and got awarded placement students of the year off our own
+letter um then uh went to do my masters in international marketing the reason I did that was because
+I was told that it would be the easiest Masters to do because it was mostly my bachelor's just
+bundled into another year uh I paid for that cash um so I went and paid £ 8,100 in cash uh because
+I'd saved up this money from uh running club nights and then paid okay cash to the ladies uh and
+they said oh the the safe's only rated for £500 I like well the bank's still open you I'm not taking
+it back you've got it um so that felt quite nice that I was able to sell fund my own masters from
+from running events that that was like really really satisfying to me um uh and then yeah five years
+at Uni take me out love Island YouTube yeah okay hang on what so so take me out with your first forv
+yeah how how how did that happen and what what is take me out for for the uninitiated it's a
+modernday version of blind date it's a very fluffy dating show here in the UK guy walks out on stage
+there are 20 girls sat behind stood behind podiums and they can keep their light on which is I'm
+interested or they can turn their light off which is he's not for me and you go through different
+rounds where you expose different pieces of information about yourself so there'll be a VT about
+your life there'll be a an explanation of what you do for work they'll maybe interview one of your
+friends and whatever's left at the end Whoever has their lights on the guy then has the power to
+choose who he wants to go on a date with you're then flown off on holiday for a day with the girl
+and you spend a day date dating her that's all televised as well and then you decide whether or not
+you want to keep it touch or not and then you go home so it's it's actually quite the filming thing
+is quite condensed yeah but um that was fun and I'm a I'm a male model I've been alongside Club
+promo and doing YouTube I've been a model since pretty much I was 18 okay uh and I djed as well so
+it was just anything that was kind of like it was the archetypal [ __ ] boy life anything that made
+me look like a [ __ ] boy and would earn me easy cash that was for me so you decide to do the mail
+model thing and then the the the take me out thing comes about yep what if for example I got an
+email saying do you want to be on Take Me Out actually I have I a few couple years ago I got and
+some person messaged me on Instagram saying hey I'm a producer for like ITV something something
+something probably one of the legions of them would you be interested in coming on take me out like
+a sort of doctor special edition Y and I was like hell no obviously not cuz it's a good question why
+because it seems like cringe and scary and like uh I think you do amazingly well I think you do
+phenomenally well on take me out especially as someone you have to imagine how little time most
+people have spent in front of a lens and how poorly most people deal with the pressure of being on
+camera which is something that you literally do for a living if you came down the stairs and you
+understood your positioning like you know who you are you know what your offer to the market is
+overall and you just leaned into that a little bit we like hey guys I'm Ali I came first in
+Cambridge this this and this thing I'm a tech reviewer I do this that and the other and actually on
+the side I can play guitar and you pulled the guitar out and you started doing that or you did your
+freestyle rap dude you've nailed it I promise you that's that's gold that is absolute money okay but
+just as you're as you're describing it just even even the thought of that is filling me with this
+sort of like Dread like you know I'm kind I'm kind of sweating I'm kind of thinking that I don't
+want to be that guy I I I think it's a fear of what other people will think people who I know and
+people at large will think of me because they'll be like oh my god what the hell is this mhm um did
+you have any of that when you went on it or you just like screw it i'm take me out that's a good
+point um when you do take me out specifically that's in front of a 400 person live audience which is
+really really scary doesn't matter that it goes out to about 4 million people on TV you don't think
+about them but the 400 people in the audience that's pretty scary um and also when you come down
+there's a it's called The Love lift when you come down the love lift that is the the most rickety
+piece of [ __ ] that has ever been created the fact that that's got past health and safety blows my
+mind so you you stood on this terrifying Contraption as it slowly lowers you to the floor to be
+judged by a group of 20 girls and watched by a group of 400 people while Paddy mcginness is next to
+you for people that don't know Paddy mcginness is like a xtv guy that now does uh Top Gear doesn't
+he does he probably seems like I know him because he's a person in articulate the board game and I
+never know who he is I was like like I love how that's your reference into popular culture like
+first name something power that like betting company and then like the next one is like a some kind
+of alcohol they're like oh Patty mcginness wow that that would be how I describe it anyway so yes uh
+how yeah how how do you get over that how did you get over that like severe I imagine anyone 99.99%
+of people listening to this if they imagine themselves on a reality TV show where they're being
+judged by 20 girls and broadcast to 4 million people and a 400 live person live audience would think
+never in a million years am I that yeah how like what was different about you your mindset your
+approach that made you be like you know what this is legit this lesson isn't as satisfying as it
+should be but it's it happens so much you just end up doing it once you're stood at the top of the
+lift and you arrive at the bottom your feet end up walking forward and you go okay but at that point
+you will but like the point where it's like you have to sign up for this thing and you're kind of
+visualizing you're imagining I probably just didn't think about it enough I didn't think about the
+fact that I was going to be in front of honestly dude I think that one of the underrated
+productivity tools or life tools that far few people use than should do is Yolo just the fact that
+you can I'm just going to try this and see what happens Y and just jump feet first and learn to fly
+in the way down like I'm I've been asked to go on this TV show am I going to be any good am I going
+to totally blow it yolo and then you just do it like that is it's such an effective route for living
+a very life because you you'll probably be fine yeah you'll almost definitely be fine yeah so just
+have faith that the future version of you will sort it out and sure enough that happen so yeah it's
+a bit nerve-wracking before you're going to go on and you think oh should I do I was 24 I was I
+didn't know anything about breathing techniques I wasn't meditating I wasn't doing cold plunges to
+try and control my parasympathetic balance I just thought I'll have a Corona and hope for the best
+so I had a beer backstage and then before you know it you stood in front of girls and you're talking
+and you're saying things and you realize wow I didn't totally blow it it was just normal and and I
+survived and didn't okay turn into a puddle of anxiety on the floor and then you go oh that's fine
+maybe I can do something else like that you know it's it's either a good time or a good story
+correct correct occasionally both um so that was that was the Take Me Out career at this point
+you're you're you're 24 um how what was happening next in your life and where did love Island come
+into things so that was just pure party boy mode trying to build up the the events business so at
+this point did you start your own events business this was we started that when we were 22 okay so
+three four years into uni you were like you know what let's do this thing ourselves properly
+ourselves okay and you started your business with with your business partner correct yeah so we've
+done a little bit of work uh for other events companies previous to that and dotted around but it'
+always been me and my business partner I sat next to him on my first ever seminar and we're still
+together 15 years later slam got rid of each other and that has always been the single consistent
+throughout which is again trying to take give some takeaways Beyond YOLO for this podcast finding
+someone that you trust absolutely 100% implicit total trust is such a competitive Advantage I get
+far far more than the 50% of the money that we make that he takes from our split from him because I
+just we we know each other inside out and and finding a business partner that's like that it it
+really makes the solo entrepreneurs even more impressive to me because I think God like for you to
+be able to be that person all of those decisions there's no way that I would have been able to do
+that with our business so we're running our events uh I'm DJing a couple of nights per week I've
+done the take me out thing which was just YOLO and clout and we start launching other events we pick
+up more and more networks so that we can Branch out we start to bring in some more managers we
+learned to relinquish control which is something that every young businessman struggles with you've
+got this baby that you've built you understand exactly how it's supposed to work I know exactly
+where the inflatable is supposed to go which railing it's supposed to be tied around and what the
+sort of notot is That's supposed to be used for it where the cable ties go to put the banners on the
+barriers that go outside to control the que no no no no the the cable TI is supposed to go on that
+wrong not that wrong cuz there's a little bit of a crease you just you you know it inside out and
+then need to learn okay if I want to scale this business I need to relinquish this control and
+that's very difficult and we did that more slowly than was optimal okay I held on to control for
+longer than I should have done and but over time we got used to it we started to bring in more and
+more guys that we trusted that could come in underneath us we started to Outsource more and more of
+that workload picked up more nights more events more entries per night more staff more managers to
+manage the staff and you just slowly build and build and build over time how did you kind of how did
+you learn to Rel relinquish relinquish control was there like a book was there a like a pivotal
+moment was it so at this at this period man I'm a really good avatar for the Bro businessman okay up
+until about four years ago okay and sometimes sometimes I think that with the podcast that I do
+modern wisdom does not it doesn't speak to the person that I used to be quite so much because
+because I wasn't reading books I wasn't bothered about personal development I was bothered about
+Effectiveness in business and I was happy to develop my own business strategies but I was quite just
+in the moment doing my thing and there wasn't this sort of metac cognizant step back to look at it
+and yeah that's a strategy so Jordan Peterson was on the show and he talked about this uh about the
+ability to step back and look at yourself I can give you the link to put in the show notes if you
+want but the the ability to step back and look at it is something that I only developed far later in
+life and when you're in it the thinking I am going to let go of this baby which is mine it feels
+like someone's pulling something out of you like pulling a child away from you and it's incredibly
+difficult but what we realized was if we want to scale and grow the business I have to learn to do
+this had I have read Michael Gerber's the e- myth Revisited that would have been fine but I didn't I
+didn't even know that existed right and even if I had known that it had existed I probably been
+eating dominoes and drinking Budweisers so I probably wouldn't have been able to focus so I wasn't
+in the right place to receive the message even if I'd seen it the other things so two things right
+that businessmen young businessmen and women really really need to remember the first one is you can
+relinquish far more control of your business than you think the second one is you can raise your
+price far more than you think almost everyone is under charging for their product almost everybody
+is doing that because they er on the side of Terror impostor syndrome comes through in the way that
+you Market yourself and you put your products out there you don't think that they're worth as much
+as they are because you want to have demand as opposed to profit sometimes that's until you can have
+the equinity to see it from a bit more perspective right but I was just so terrified of doing it so
+yeah you can Outsource far more of the work that you're doing than you think because you're holding
+on to it too much and you can raise the price far more than you think because you're terrified of
+people not buying your product I have I have a lot of conversations with people about those two
+exact points uh when it comes to the uh the the Outsourcing thing when it comes to you usually
+creators or kind of creative businesses where they would they were the technician they were doing
+everything by themselves and then the thought of Outsourcing editing oh my God no one can edit like
+I can I have my unique style of editing um therefore kind of the fear of Outsourcing it um but every
+every single person I've spoken to who has managed to Outsource editing says oh my god I've freed up
+30 hours of my life every single week to be able to make more content or do the things I want to do
+or spend more time with my friends and family rather than sit on Final Cut yes cutting out paes and
+and rs and adding Boll here and there um and on the pricing thing as well I really had this fear
+when we first launched our YouTuber Academy and initially it was going to be like a $200 product
+self-paced I was like all right I'm not I'm not going to suffer the risk of a single person saying
+this is not worth it or that I'm selling snake oil therefore I'm going to overload them with value
+and charge very very low basically no money for it um and I was speaking to a few of our mutual
+friends Thiago Forte and David Pell who talked me into not having this fear of selling and
+recognizing that actually you can raise the prices you can do it as a more High touch thing and that
+provides a specific service to people it doesn't Target everyone it's not going to Target the bulk
+of your audience but that's okay and just feel that that feeling of like oh [ __ ] what are people
+going to think when I start charging real money for something yeah really scary but serious so you
+you're finishing uni you're building up this business scaling what what were the what was the
+motivation there was it a kind of money thing a status thing a Prestige thing like why why trying to
+scale business yeah good question so I think for a long time I found my sense of self-worth in
+success in business this was probably not having T of success socially when I was younger and me
+wanting to prove to the world that I'm worth something that I can have people need me that I have
+monetary success that I have Accolade that I have Renown Prestige status that I'm being I'm sleeping
+with the right girls that I'm spending time with the right friends that I'm standing on the door of
+the correct clubs like these were the things that were giving that were making me feel like I was
+worth something in the real world and that was I mean don't get me wrong it's pretty satisfying it's
+pretty good at satisfying you on a surface level and it can go for a fair while and I like rode that
+until the wheels came off but then I did live Island and that was when I was 208 27 and um the same
+casting director that worked on take me out also worked on love island did exactly the same thing
+hey man I need someone for this new show can you come just screen test for me yeah sure I will and
+before I knew it I was in a pair of swim shorts in the back of a Jeep about to go into a vill that's
+literally how it worked hey man can you come and scen screen test in Newcastle I just want to ask
+you some questions yeah whatever mate like we became friends uh I'll do that and then I had the most
+thorough sexual health and psychometric evaluation that you've ever seen in your life uh in Harley
+Street somewhere in London and then literally before I knew it I was like um okay so what is love
+Island for the uninitiated uh it is kind of like cross between big brother and the bachelor uh The
+Bachelor in Paradise if you watch the American version to dating show people get thrown into a villa
+and there is usually about 14 to 20 guys and girls at 10 between 10 and seven of each and you have
+half the number of beds that you do people so everyone has to couple up you couple up with a partner
+and then you swap and then there's eliminations and there's tasks and it's all about people that are
+trying to find love supposedly and every so often there's eliminations and you get to the end and
+then there is a prize for the people that win of £50,000 or something like that and I did I was the
+first person through the doors of season one so the first ever person through on this particular
+iteration of the of the series and that was just another YOLO like right this will get me clout this
+will get me Accolade clout clout is in clout uh Renown status and I thought it'll be fun free
+holiday okay good tan yeah why not why not do it yeah uh so I did so these days love island is like
+ridiculously huge uh at least in the UK I don't know I don't know about internationally but um the
+people who are on love Island then the 50,000 is nothing compared to the millions of followers
+they'll get on Instagram over endless endless you don't need to work for probably 5 to 10 years
+after you've been on if you're on for a couple of weeks so what was it like back in the day kind of
+season one what was experience so um and they were focusing the first season they focused on
+Snapchat a lot whereas now it's all Instagram which was great because it means you can monetize your
+Instagram off the back of it we didn't know if it was going to be like Jordi Shaw X on the beach
+where you were going to be getting drunk every night and going on night out or if it was going to be
+like big brother then there was going to be tasks and you were going to have food taken away from
+you and your sleep pattern was going to be it ended up being quite fluffy but we didn't know that I
+also didn't know that you could have someone manage your social media while you were inside so I
+just had my Instagram locked off so people could follow me or whatever but so anyway uh very
+different don't get as much attention as you do now now if you're on for as long as I was you would
+come out with probably one or two million followers and if you can correctly monetize that that your
+sorted yeah it blows my mind here's here's the thing for the people that may have been on love
+Island that are watching that were on season 2 to three or after and were on for more than a couple
+of weeks if you haven't built a business off the back of that and you wanted to that's a you problem
+yeah you had what every marketer every internet marketer desires which is free clicks for a long
+time and a huge amount of edge Rank and just didn't monetize it but for us it we I think the person
+that won came off with 100,000 so uh followers on Instagram which now even if your name gets
+mentioned even if someone says oh did you watch that Ali abdall on YouTube that that's 100,000
+that's 100,000 followers there um so yeah it was smaller in terms of viewership smaller in terms of
+footprint digitally yeah um but was a a really interesting experience yeah what was the experience
+like it's actually quite boring to be honest cuz you all that you're allowed to talk about is stuff
+that's happened in the Villa so you can't talk about that mutual friend you've both got that's
+outside or that place that you both like to go to to run or to go for coffee or for armed quants or
+whatever can't talk about that and they will come over the PA and say Islanders can you please stop
+talking about the outside world because they can't publish that content because who that's watching
+the show gives a [ __ ] about the fact that me and you both like arm and Quant no one cares what
+they care about is the fact that me and you are fighting over Katie and she totally mugged you off
+last night bro like that's what they're bothered about so that's what they try push they're
+constantly asking you to create content and that's fine they don't finesse or finagle the story
+lines too much they try and catalyze them a little bit but they don't really uh impose themselves in
+terms of what's Happening y but it's pretty boring you've got no friends no phone no family no
+contact with the outside world nothing to distract you no books no nothing it's just you and some
+people that are trying to have sex with each other constantly talking about who's having sex with
+who that's it that's what the show is and it's it was kind of I guess it was an an interesting thing
+to watch but this was the Pinnacle of me getting toward the end of my 20s and the guys that are
+listening may feel this as well it's what I call the manopause which is that toward the end of your
+20s if you've grown up living quite a broy life what I think a lot of guys find is that the values
+that served them when they were in their early 20s maybe 21 are not going to serve them when they're
+31 and they realize this quite profoundly sometimes so you see this I first noticed it with training
+so guys would do uh bodybuild bodybuilding style training because it's the lowest barrier to entry
+it gives them confidence it makes them bigger and more muscular and it makes them feel attractive
+but as they get towards 28 29 they realize that they get out of breath going up a set of stairs and
+that they can't touch their toes and they haven't really been that functional and maybe they get
+back into playing football with some mates and they realize that they've just got no cardio and
+they're not very functional so then you see guys that are toward the end of their 20s they'll go and
+do CrossFit or they'll go do Brazilian jiu-jitsu or fighting or yoga or girls might go back and do
+dance that they haven't done since they were a kid kid they might start doing ballet again or go and
+do those um uh Pilates classes group Pilates classes spinning what I realized there was that there
+are particular modes of existing that we get in our early 20s many of which are kind of the lowest
+common denominator um limic hijack route to success that we can find right like quite a base
+transactional transient route to success I want a training methodology that's going to make me look
+good I will do the one that makes me look the most good but does it fulfill you and make you feel
+good I don't if ites me feel good I just want to look as you grow up a little bit more you realize
+hang on perhaps this isn't serving me quite in as much of a holistic Broad View as I want that's
+what I saw with Fitness what I think you see with specifically guys maybe with girls as well the
+manop pause is someone realizing that as you get toward the end of your 20s the values that you had
+when you were younger aren't serving you so me realizing that the girls that I was sleeping with or
+or the money that I was making or the club nights that I was running is that really the highest
+calling that I have for myself is the fact that I've been on a reality TV show going to be my
+crowning achievement is this what I'm bringing to the world oh well you know the world was pretty
+bad before he came but after he left at least he went unloaded reality TV shows like come on so
+while I was on love Island I got to observe people that were that person the Pinnacle party boy
+right because I was playing this role I thought I was but it kind of turned out that I wasn't really
+and I had this fatal dose of contrast as I lived in a villa with no distractions for four weeks
+watching these people and being with them but really still feeling on the outside so I was like
+right there is a problem here I thought I was this I thought I was this partyo funloving extroverted
+big name on campus big dick around town guy and I'm not there's something up here so after that was
+when I thought I really need to do some self inquiry and kind of work out who am I what are my
+values why am I here now I feel like because of the proliferation of podcasts and self-development
+and personal growth YouTube and stuff like that people are getting exposed to these sorts of
+messages at a much younger age but it took me until I was 27 for me to actually really think
+probably need to work out like who I am and that and then got to coming out of love Island and the
+final night came out after about a month um looked up at the sky in the south coast of mayorca uh
+which is one of the uh astronomy um spots of the world low light pollution high visibility uh no
+moon and I saw the full Milky Way for the first time and that was quite a profound experience
+because I'd been in this really intense emotional thing and I hadn't seen anyone or spoken to anyone
+stepped outside first night on my own without cameras on me for a month looked up at the sky and saw
+the Milky Way and had had this weird sort of existential discordant thing going on where I thought
+who am I I'm not this looked up I thought [ __ ] right okay I just need to do some self-work here so
+that was kind of the uh kick toward my Mano pause so what happened then uh I did some self-work
+spent a lot of time just crushing amounts of content School of Life by alander Boton Sam Harris Joe
+Rogan Jordan Peterson this was when all of these people were coming to the front and didn't really
+know what I was looking for but just thought if I watch enough of it something will come out of it
+and it kind of did and then a year and a half later i' been asked on a bunch of different podcasts
+cuz people had said oh you've been on this reality TV thing can we ask you about that I was like oh
+yeah what's a podcast cool I'll I'll come and do that really enjoyed the process enjoyed it so much
+that I realized I want to do this more the best way for me to do it as much as I want to is to start
+my own so I started my own and that was start of 2018 in that onee gap between being on love Island
+and sort of when you were consuming all the content and stuff what were the like what were the
+learnings from that like tell the truth was the first one the most important one I'd spent a very
+long time playing a Persona on the front door of this nightclub right or a lot of nightclubs in
+Manchester and in Newcastle working about a Thousand Nights and being Chris the club promoter being
+the guy that sorts him out with guest list and oh he he shaged my M and blah blah blah being that
+guy and what I realized was that that was a role that I was playing that wasn't genuine
+representation of the person that I was I was being the person that I thought other people wanted me
+to be because it was effective and it was I I was world class at playing Chris Williamson on the
+front door of a nightclub like literally Oscar winning performance but it wasn't me that wasn't the
+person that I genuinely was so I needed to unearth and sort of scrape away all of the different
+personas that I had that were lying over the top of the person that I genuinely was and that
+involved turning over tons and tons of different stones and looking at what was underneath and going
+okay here's a belief that I have about the world here's something that I think is this true and I'd
+spent so long lying to myself and to other people about what I genuinely wanted and what my values
+were yeah mate mint tonight mate yeah there's loads of birds in there mate yeah see you later on
+mate like all of that for for a decade when that wasn't really uh my Logos speaking forward right
+that wasn't my truth coming out of me that was me just doing something I needed to get past all of
+that so I'm doing this archaeology thing going like right am I going to hit something that's solid
+as I try to unearth all of the different behaviors and the thinking patterns and the beliefs that
+I've got uh and that eventually I got to something that felt a little bit more stable which was
+intellectual curiosity a desire to learn and improve myself a a desire to sort of connect with
+people around me a genuine desire to be open and vulnerable uh and to show other people that being
+open and vulnerable and TR trth f is something that can help them and makes them feel good um but it
+took over a year it took 18 months for me to even start to really Glimpse that what sort of
+questions were you asking yourself like what what do you mean by like what does this unearthing
+process look like in practice A lot of it was just thinking about how do I spend my time does that
+is that the way that I want to spend my time does that serve the person that I want to be so I wake
+up at different times every day like is that the sort of does the chis I want to become wake up at
+different times every day okay I pay uh I I take a high amount of selfworth from the amount of
+people that go into my club night should I be hinging my selfworth on what the market does probably
+not that's probably a bad idea but it took me a long time it sounds so dumb looking back and going
+like uh obviously mate like you and the performance of your event and business are not the same
+thing it is not you and its success or failure does not um make any sort of change to your worth as
+a person but that's the world that I create for myself that's a that's a a hard realization um I
+remember when I was in school where I was equating my personal selfworth to how well I did in exams
+and then at University to how well my business did and then even now well I I had I had a whole like
+5 hours of soul-searching typing journaling on Apple notes 4 days ago where I was like oh my God I
+take too much self worth away from how well my videos do like I think this I I love how kind of open
+your being about this but but but I think this this journey of like dissociating our self worth from
+these other random bullshitty external metrics it's it's not an easy one and it's I think I think
+it's a lifelong journey for all of us here's a question for you man yeah do you think that people
+love you for what you do or for who you are I've been so over over the last few months I uh I really
+thought it was for what I do especially when it came to friend friendship and stuff um I thought
+that I I just didn't quite I thought it was the things that I was doing um that were the reasons why
+people wanted to be friends with me and it was it was surprising when I mentioned this to a few
+friends and they were like no you actually don't need to do any like because if I think about the
+people I'm friends with I'm not friends with them for what they do I'm friends them for who they are
+and it took other people pointing out to me that well that's how other people feel about you for me
+to think oh my God and that was quite like a a profound realization for me and made me realize that
+I can just sort of be myself but in but before I'd been like uh be yourself it's all just BS because
+like choose yourself and and all that kind of stuff I got another question yeah do you love yourself
+for who you are or for what you do oh good question I think I love myself for what I do yeah so
+here's the problem right we want the world to love us for who we are not for what we do want people
+to love our achievements we want to feel like we're worth something ourselves y however we love
+ourselves for what we do not who we are so we're asking the world to do something that we don't do
+ourselves I want you to love me for who I am not what I do meanwhile I'm a love myself for what I do
+not who I am because I feel like when I achieved something that I feel like I'm worth something more
+to myself when I hit that next subscriber count when I get that gold plaque Diamond plaque when I
+hit a new best uh number of plays when I get more people on my Academy when I put more people into
+my club night when I sleep with a more popular girl when I hit a new number of uh followers on
+Instagram all of these different metrics are things that are hiding the fact that we don't want to
+give ourselves self love for what it is that we who we genuinely are what what do you mean by love
+yourself feel comfortable and feel like you are sufficient independent of how you perform day-to-day
+in the world the fact that you stripped of all of your achievements YouTube Channel's gone podcasts
+gone degrees are gone all of that stuff are you isolated and strip bear still worth something to the
+world and do you feel like people would still love you and still care about you that's a good
+question it's a difficult one it's a very difficult one so I got that realization from aubre Marcus
+another this anyone that's resonating with this I'll give you the link for this episode with or he's
+just sold on it to UNI L for a huge undis closed number like hundreds of millions of dollars right
+the link will be in the show notes below he said he' bolstered his entire life with sex and money so
+he'd spent his entire life chasing women and trying to earn he's just sold his company for 100
+hundreds and hundreds of millions of dollars and he's just got married what's left for him all of
+the things that he used to be chasing now he's completed them and he had an existential crisis
+because he said all of these things that I thought would fulfill me I've now done it so who am I I'd
+wrapped up so much of my selfworth in the fact that I was chasing this dream dragon of a woman and
+of a uh figure in my bank account and now it's got to the stage where actually who am I without all
+of that or who I I want all of that been completed and this comes back to what happened when I first
+started a business and again this is another element for young business people if you attach your
+sense of self-worth to the success of the business you are on a path toward Misery the reason is
+that you don't get to control the [ __ ] market right the market will do what the market will do and
+it does not give one single [ __ ] about you it doesn't care so why would you say that your
+selfworth is based on Trends in the market you're literally externalizing your sense of well-being
+to other people that's the same as that's the same as people that leave notifications on their phone
+it's exactly the same okay you're allowing the entire world anybody on the planet to intrude on your
+day whenever they want this is the same with your business you're allowing the response of the
+market to determine your selfworth every time that you put a product out or run an event or release
+a YouTube video if you feel crap when your YouTube video underperforms but feel amazing when your
+YouTube video overperforms that's fine that's realistic you care about performing well but if you
+genuinely feel like you are worth more or worth less that's a different step you've crossed a line
+there and this is something that I still fight with all the time I still struggle with it this is me
+understanding the path but not having completed the path so you on this kind of 12 to 18 month
+journey of self-discovery and you said that one of the things that helped is asking yourself is this
+thing that I'm doing consistent with the person that I want to be yes um what were some other things
+that you figured out about yourself along that that path not telling the truth was was a huge one um
+that i' had just been would ask me my opinion on something and I would tell them what I thought they
+wanted to hear not what I genuinely believed because I presumed that that would make them like me
+because I just wanted to be liked and this was funded or fueled by being a club promoter which is
+very transient and transactional and there is a degree of performative uh nature on the front door
+of a club night if someone says all right mate how are you and you go actually man my dog just died
+and blah blah blah they're like no I just want you say yes and give me a stamp and go let me in so
+there is that was reinforced by work some of the other things were mostly to do with opening up and
+being being vulnerable because I was in a hyper masculine very cool guy world and it wasn't it
+wasn't uh how do you say conducive to having a bad day and opening up to someone about it it's
+another challenge as well for anyone that's a business owner or at the top of the tree that's
+listening you can feel like because because you are the head of your business that showing any form
+of weakness shows a weakness in the business that if you underperform or you have a bad day that the
+people who look up to you your subordinates and your employees within the business will see you as
+less will see you as Unworthy of leading them because who's whose leader would spend a couple of
+days in bed because he's feeling down about whatever might have occurred um another thing that I
+realized was working working so hard that you have a miniature breakdown which for me manifested as
+being in bed for a couple of days and I just couldn't be bothered to get out and it felt like
+depression but I think it was just like small acute breakdowns it always happened around Fresh's
+week so one month of constant buildup constant bu this is when I'd stopped partying so much as well
+releasing event after event after event all on social media then going and working on the night four
+or 5 hours sleep then get up the next day go to the office make sure that everything was sorted run
+another event fill it cash the tills go home do the next thing oh is this working this DJs cancel
+blah blah blah just constant intensity start of October every single year I would always spend a
+couple of days in bed like why why is it I always end up feeling a little bit sort of shitty after
+this because going so hard that you end up snapping is not a sustainable work protocol just doesn't
+you can't keep doing that and expect to get consistent results and punishing yourself because you
+don't have the tolerance it's like having eyes that are bigger than your stomach it's like having an
+appetite for work which is bigger than your capacity for work and this is something in a
+productivity world look I'll get more I'll just get more done um that is a route toward disaster for
+Chris Sparks says in order to pick something up you have to put something down the presumption is if
+I want to be more productive I will just down regulate my sleep or up regulate my efficiency until I
+fit this new thing in yeah but you're already working close to your maximum capacity because if you
+weren't you would be doing more most people that are driven type A personalities are already working
+close to their capacity and then when you because you see all of your own inefficiencies right you
+think yeah but I spend 30 minutes today on YouTube so if I add this new thing in I'll just get rid
+of that 30 minutes today it's like no the 30 minutes to Day on YouTube is there because you need a [
+__ ] break from all the work you're doing that's going to stay when you add this in the place it's
+going to come off of is going to be optional things that really matter like spending time with
+friends and family like chilling out on a weekend like getting more sleep that's what's going to
+really really sting so those were some of the realizations work Less open up more be truthful
+realize that you have Curiosities and intellectual desires and stuff that maybe don't align with the
+person that you thought you were and a final one was I'd never really connected with any of the SU
+success of the business not in a meaningful way not in an existential way I'd felt proud that we'd
+achieved a lot and had tons of people come to the event and that felt mint but I never I never
+really really felt it and I think the reason for that was if you're playing a Persona I was Club
+promo Chris um you don't feel like your achievements are yours you feel like they're people
+applauding a character that you're playing so the same way that we don't love Russell Crow we love
+Gladiator we don't love Chris with we love Thor you're always one step removed from the things that
+you're doing if you're not being truthful and open whereas if you do something that is genuinely you
+putting yourself out into the world when someone says Ali I really love what you've done with this
+and that's your truth you go that's me as opposed to Ally I really love what you've done with
+YouTuber Ally over here you go yeah well done YouTuber Ally like pat on the back for you and that's
+the difference between doing something that feels fulfilling existentially and doing something that
+just feels like Prime H so interestingly on that on that point um yesterday we put out a video uh
+the first one in a while on the channel where I felt it was like authentically me and I didn't
+really have a script just have had a few talking points 45 minutes long me just rambling about stuff
+and the response to that video was just insane and I was going through all the comments and the
+comments were really nice and I woke up early this morning uh I did the thing that you shouldn't do
+and grabbed my phone and I was like you know what let's see how the comments are doing I was just
+like oh this is so nice hting every single one and I haven't read YouTube comments in months because
+I've uh and and hearing you say that made me realize that the videos that I think we've been putting
+out over the last few months haven't really felt particularly authentic it felt like I was playing a
+character whereas this one I was like all right you know what let's just do it basically uncut felt
+so much more authentic and so the comments really resonated with me more than a comment on a video
+that I felt uh I mean I had the idea but like someone else wrote the script for it kind of Vibes
+yeah um I wanted to talk to you about masculinity this is something that I struggle with and I think
+you're an interesting person to talk to about this because you seem to not worry about coming across
+as woke or like you know saying the right thing you know saying saying things that fit into the ovon
+window of acceptability and you know some of the stuff on the podcast some people say is somewhat
+controversial um and so I'd love to hear your take on like what what's what what's the deal with
+like masculinity like a broad broad open question and I I have a few kind of sub questions that I'd
+like to ask but can we what what's your thesis on masculinity it's an interesting one I think it's a
+word that has been co-opted to mean a lot of different things now you're right with some of the
+people that I have on the show on Modern Wim which is my podcast um de views perhaps go against a
+progressive Orthodoxy that exists at the moment that being said I don't think that they're
+tremendously controversial I've never ever been on the verge of any sort of cancellation or really I
+don't get negative comments on the videos the vast majority of people that watch the show they
+understand that I'm coming from a place of in genuine intellectual curiosity and trying to
+understand things yeah that being said I think that it is very difficult to have a wholesome role
+model as a young guy at the moment I don't think that young men know what they should grow up to be
+and by that I mean what sort of a man what sort of values they should have I wholeheartedly agree
+that the me to movement was a long overdue Reckoning for men in positions of power that used those
+positions in order to get sexual access in order to manipulate women that was something that had to
+happen that being said you can't throw the baby out with the bathat and say that any masculine
+traits are part of a CIS heteropatriarchal construct that runs below the surface of everything that
+we see and these are repressive patriarchal ideas to do with gender and misogyny and gender roles
+and blah blah blah what you end up there with is men who make up 50% of the entire world's
+population not knowing what the [ __ ] to do with their life they don't know what they're supposed
+to do how they're supposed to exist in the world we've already got rid of religion so some of the
+things that gave us a sense of meaning have gone we've got rid of jobs for life which meant that our
+craft we might have been a a stone Mason or a builder or a farmer or something that worked with our
+hands where we could see our physical Creations in front of us and this is for women as well those
+things have gone for everybody and then when you say okay and the things that you used to rely on to
+do with masculinity things like competence hard work courage bravery trustworthiness industriousness
+conscientiousness when these things are also perhaps lambasted and labeled negatively that doesn't
+really give men much of a place to stand you go okay so what what am I supposed to what what is a
+man now we're not getting into the gender what is a masculine portrayal of somebody's personality
+like what are the characteristics that make someone masculine that are positive and that's a kind of
+a difficult question to answer so when it comes to masculinity from my side I just know that I'm an
+only child right so I had no older brother um our generation's Gap to our parents generation is
+quite large a lot of the rules and the procedures that our parents had don't really work for us so
+role models in terms of your parents you're also a little bit of a distance away from that there's a
+Delta to work there and I didn't know what I wanted to be and you've just heard a story about how
+most of my 20s as someone who did two degrees at Uni who can be an idiot but isn't a complete idiot
+was lost really really lost so I think right I I want to try and give young guys the advice that I
+wish that I'd had when I was younger and this isn't real social dynamics pickup artists that weirdo
+stuff it's not negging and and neural linguistic programming to get girls to go to bed with you it's
+how are you a confident person in the world as a man that feels proud about yourself that's proud
+about your masculinity that's proud about the achievements that you've got that doesn't mind about
+being vulnerable but doesn't identify with being vulnerable you know Finding somewhere to stand I
+think is uh has been a difficulty why do we need Concepts like masculinity and femininity why can't
+we just say you know what courage bravery confidence being in Integrity honesty these are all
+universally good qualities and therefore we should stri for for these Universal good qualities and
+not label them some of them masculine and some of them feminine for example because men and women
+aren't the same they're not the same uh for all that deconstructionist ideology may wish that they
+were the same they're not there are certain things that men have a proclivity toward and there are
+certain things that women have a proclivity toward okay on average on average it does not mean that
+you cannot get masculine women and feminine men it does not mean that this girl that I know is
+really really masculine and she's more masculine than you are y I'm sure that there very well may be
+but those are outliers if you are to throw them across sure we also need them because we live our
+life through archetypes we look to people as examples and for the most part we model ourselves on
+Stories We model ourselves why when you watch The Big Bang Theory do you immediately know what each
+character is the hero's big chested and muscled and has a large jaw and the nerd always wears
+glasses and there's the damsel and the villain the villain's always in black or he's got a fringe or
+something it's because we need to be able to shortcut our way to understand what people are about
+and when we're trying to design our own lives as well we also look to archetypes from history I
+think that it's an important learning procedure for both men and women to have role models that they
+can look up to and I don't know at the moment that there are very many well accepted role models for
+men to look up to for all that Harry Styles is an awesome singer I don't know that every man to be
+Harry Styles not every man wants to be like the rock either but you have to have some role models
+for guys to look up to so there also needs to be a synthesis what is the average on average what is
+a good principle for men to try and achieve the same thing goes for women um and my concern is that
+we've thrown a lot of baby and bath Waters out it's easier for me to to make an example with girls
+than it is with guys this so for instance women being encouraged to have careers over families is
+something that absolutely should be a choice for them and if you are a go get a girl that is that's
+sick more power to you however I think that you need to be an incredibly unique woman to make it to
+50 look back without a family and say that it was a good decision that is not to say that there are
+not women out there for whom it is the perfect decision but I think that you need to be quite a
+unique woman for that to be the case great pushing every woman should have a career should
+prioritize their career you don't need no man you shouldn't settle for less clap back you're a boss
+[ __ ] and almost creating an environment in which women who do prioritize families over careers are
+seen as compromising toward a archaic view of what a woman should be when a lot of women take very
+very High large amounts of pleasure from raising a family I don't think that that's tremendously
+respectful to the women that want to go and do that there is a a framing to the situation that
+presumes that going and getting a career is the thing that everybody should should endever to
+achieve and that's not to say that men can't stay at home and be the the primary uh how would you
+say child career but in relationships where the man is not the primary bread winner they are 50%
+more likely to in divorce in relationships where the man is not the primary bread winner he is
+statistically more likely to need to use erectile dysfunction medication almost two-thirds of women
+say that they would not be in a relationship with a man who is less educated less wealthy and lower
+in status than them if this seems like it's bizarre set of Statistics think about if you're a girl
+think about would you date a man that's shorter than you maybe okay would you date a man that is 10
+in shorter than you well probably not well okay that is just the same but ported across onto status
+and wealth and education as well I think overall a man needs to be three or four from taller richer
+smarter and more status you can get away with being a short guy who's rich smart with high status or
+you can get away with being a tall guy with status who's maybe not rich yet but is well educated if
+you're only getting two of those four you're starting to struggle this isn't to say that women are
+callous resource extractors right what it's to say is that women like men who are on average
+trustworthy hardworking conscientious they're the sort of man that you can depend on that will get
+things done and if you have status intelligence through education and wealth that is a signal that
+you have these things but what we've been told is that if a man is to try and Achieve status wealth
+or education he shouldn't go and do it that is him sticking to an out ofd uh personality type that
+men no longer need need to adhere to there's like a few things going on here there's number one that
+um men and women are different and while both men and women exhibit all traits across all the
+spectrums Spectra whatever um men are on average higher in AP in some traits and women are on
+average higher in other traits yes and are we saying that it's those traits that are that we can
+broadly label with all the caveat that goes with broadly trying to label anything based on like
+large numbers as like masculine traits and feminine traits I would say so yes so for example
+masculine like men are on average higher on trait aggression orre or conscientiousness I guess um
+less so on empathy less so on caringness more so on competitiveness um Less on warmth uh yeah and so
+men are interested in things women are interested in people and so when it comes to I guess with the
+role model model discussion um yeah for some reason like no one bats an ey at the fact that people
+want role models of their own race you often hear people say that oh there are no black X in
+whatever or there are no Pakistani whatever or there are no Chinese people in in films and therefore
+Asian people lack a role model of that of that particular type and I guess what is I guess when it
+comes to role models in general it's it's it's it's very hard for someone to have a role model who's
+not like them like I guess the anti- gender anti- masculinity feminity Brigade would say that if I'm
+looking for a role model I should be just as likely to choose a female role model as a male role
+model which is just unlikely um similarly a woman is very unlikely like I don't know a white woman
+is very unlikely to have a black man as their as their role model for for examp me as a role model
+yeah and so is what you're saying that as a as a dude it's hard to find because I guess if we think
+about like who who who would be in the running as like role model James Bond famously but then the
+whole misogyny stuff which means that James Bond is not allowed as a role model The Rock potentially
+if the Rock's a pretty good sh man The Rock The Rock's a guy who is able to tick a lot of boxes like
+when you're the guy that's simultaneously able to be top in an action movie and potentially
+president of the United States like there's a campaign to make the rock the president of the United
+States like you've done a lot right you got a lot right um yeah you're correct with the rock you
+know he's in touch with his own emotions but even that sort of thing I I haven't seen any criticisms
+of the rock maybe he's like the outlier that proves the rule I'm not sure I I think that the
+challenge is if you don't have any role models people get lost I think that there are a lot of role
+models for how girls should behave at the moment and there's a lot of support for girls and rightly
+so for a very very long time there wasn't girls weren't encouraged to do whatever they want but it
+feels a little bit like men are not being encouraged to do whatever they want now and that's not
+whatever they want that is to uh try and achieve in the world in a way that they think is going to
+make them feel fulfilled we've talked a little bit a little bit about like about the dating
+Marketplace and you've touched on the thing the the traits that women on average look for in men are
+different than you know the trades that women on average look for uh men on average look for in
+women correct and I guess what's your given that you have sort of experienced the professional party
+boy lifestyle you've been on take me out you've been on love Island what's your what's your take on
+like what are we what are the things that men in general seem to like in in women and and and vice
+versa cool on average this is before every single sentence right on average can C everything in this
+episode average on average um on average men are interested in Youth and fertility from women on
+average women are interested in resources from men this is shown out in a number of different ways
+why is it that throughout all of time the uh optimal weight for women in terms of what's culturally
+being seen as attractive does fluctuate so across different cultures and across different ages it
+fluctuates however the waste to hip ratio always Remains the Same around about 08 why is that well
+it's because a high waist a hip ratio is a signal of fertility why is it that who have um bigger
+eyes and flusher cheeks tend to be seen as more attractive well it's because bigger eyes and flusher
+cheeks are associated with youthfulness and youthfulness is associated with fertility women who have
+more symmetrical faces are more fertile which is why we are attracted to symmetry it's also more
+costly in order to be able to grow a symmetrical face than a non- symmetrical face which is why
+we're attracted to that as well spin it around in the other direction um men's uh body sizes have
+changed uh over time exactly the same but the optimal shoulder to waist ratio for men almost exactly
+stays the same why is that it shows that you can get excess calories on top of what you need well
+who cares about excess calories we have more calories than we need yes but not for almost all of our
+revolutionary past for almost all of time men were underfed not overfed and if you could show that
+look I have so much access to resources and food that I can sustain this stupid big body with these
+big shoulders and this small waist that is that's a good sign um the Dynamics and the way that this
+Bears out is so interesting and it's difficult to not sound like you're trying to make prescriptions
+for people's relationships which is not what I'm doing I find it fascinating endlessly fascinating
+to look at the dating market and to look at why people like the things that they do the difference
+in right swipes on Tinder for a man with a B bachelor's degree versus a master's degree is the
+Master's Degree gets 90% more right swipes that's all that you need to do so if you think thinking
+about doing a master's degree and you want to get more right swipes on Tinder as a guy just do it um
+for every 15 IQ or for every standard deviation that a woman's intelligence increases over about 110
+to 115 every standard deviation which is about 12 her chance of getting married goes down quite
+significantly it's about 20 to 30% for each standard deviation chance of marriage continues to drop
+and why is this well it's because women tend to want to date a man that is richer smarter and more
+successful than she is they date up and across it's called hypergamy so if you are a top your own
+dominance hierarchy quite rightly so you as a woman should be able to go and Achieve as much as you
+want start your own business be as educated with a PhD and and a thousand people that work for you
+make a billion pounds but if your fundamental attraction is to men that are higher in status
+wealthier and more intelligent than you are how are you going to date across and above a dominance
+hierarchy if you sit on the top of your own if you're the richest smartest best status woman on the
+planet who's above you that's a man there's no one so high performing women narrow their on dating
+pool sadly and this is a real difficulty it's like being the tall friend if you have a girl friend
+who is 6'2 she's probably stuck looking at professional athletes if she wants to date on average
+women like to date a man that's about 20 20 cm uh taller than them that seems to be the optimal
+height difference if you're 6'2 as a girl you've narrowed your own dating pool because you are so
+tall the equivalent happens with earning the equivalent happens with education because typically you
+want to date someone that is above and across yeah I think the height example is interesting because
+I think when you say I've I've I've had these sorts of conversations so so often with people and
+when you use things like intelligence or IQ well oh but like you know iq's I's been debunked and
+intelligence is not really a thing because it's all a social construct when you use things like um
+when you use any kind of personality trait it's like oh but that's socially predetermined like
+obviously that's not a thing but as soon as you use the height example people are like oh [ __ ]
+like rubbers met the road now yeah really well I mean yeah for the people who don't believe in
+gender differences to do with personality and to do with attraction I'm not speaking to those people
+um this may be interesting to them uh but they're not on the same uh plane of talking that I am
+right now um there's some asymmetries that occur in the dating Market that are really unfair uh one
+of them is the fact that men are allowed to be as sexually liberal as they want when they're young
+and that women aren't that sucks for women uh not so much for men um but the single biggest
+predictor of extramarital sex is premarital sex single biggest predictor uh probably confounded by
+the fact that very religious people wouldn't have premarital sex and yeah yeah good point um but
+with that in mind yeah what you see is a myth that's unfortunate also being reflected in reality in
+terms of what your preferences would have been so most people don't want to be with a partner that's
+going to cheat on them that means that you have an awkwardness when you're in your youth because you
+need to think okay like over my shoulder is someone kind of watching to see how many people I sleep
+with am I am I judging my sense of selfworth on how many how many people I sleep with that's
+something that I think that it would be great to get past for women I think that that would
+emancipate women from it but the problem is the desire is still going to be there like if you found
+out that your girlfriend had slept with a number of people or 10 times that number of people it's
+very difficult for you to not feel some sort of a difference to that but I don't know if the same
+thing happens in Reverse from girls with guys so for all that something maybe a social construct we
+may be able to do some some good work to deprogram this and to be able to help liberate women like
+when the rubber meets the road it's going to be hard to actually stop that from happening yeah I
+think I think you and I share a an academic interest in the dating Market because it really is where
+preferences are realized great way to put it and you can you can talk all you like about how you
+don't care about looks you don't care about height you don't care about weight you don't care about
+number on a bank account I think there's like two things here there's like obviously no one is going
+to disagree with you know someone's height does not reflect at all on their value as a human being
+someone's money does not reflect on the value of a human being there is like a sense of that that
+meurs hopefully does not need to be stated that these arbitrary measurements correlate with
+someone's actual worth as a human being and but that's not the market that we're talking about we're
+talking about a market Market which is different to that which is the dating Marketplace which is
+very sort of a specific interesting use case where as much as you would like for there to be no
+different as much as I would love to be equally attracted to women of all insert trait here x here
+in reality I'm attracted to women who are more on a particular end of the spectrum of whatever trait
+we where whatever trait we're thinking about and there's very little I can actually do to change
+that um whereas obviously if women are on one end of a spe spectrum of trait X compared to another
+end I'm not valuing them any more or less as a human being yeah so that's that's one of the problems
+that we've had is that um preferences have been conflated with some sort of value judgment about
+people's worth and that's not the case um but you can't deny the fact that if you prefer something
+to something else that's simply your biology bearing it out now we can we can have some sort of uh
+judgments around our around our preferences but the vast majority of this is limic as hell like it's
+just some bit of the brain yeah back here you're not consciously choosing the things that you're
+attracted to if you're a girl and you like black guys like did you choose the fact that you like
+black guys or do you just tend to like the construct the way that those people look do you tend to
+like artists or musicians or whatever it might be who chose that did you choose it or did something
+else choose it from you and you're right it's where preferences really get borne out so you see the
+same thing in the marketplace there's two things that you can't really defeat one of them's desire
+the other one's money so people can virtually signal all they want but there's been to bring it back
+to the L Island example there has been uh criticisms around lack of diversity uh in terms of uh
+sexual expression uh in terms of race in terms of a bunch of other things um if is it itv's job to
+make a show which is diverse or is it itv's job to make a show which is successful because the
+market will reward the one which is successful so people should vote with their feet or their eyes
+if they want to change something in the market if you don't want love Island to be the way that it
+is then stop watching it and decide to try and campaign to get something else or make something
+yourself the same thing goes for in the dating market like desire will always win out the person
+that will be campaigning for why gender is a social construct and why masculine traits are
+completely arbitrary and look at the person that that person is dating and they will almost
+definitely have some of the predictable traits that someone is looking for in a partner again it's I
+don't understand why it's controversial to bring up the fact that people have preferences and those
+preferences are not just ones that we've chosen they're ones that have been embedded in us for quite
+a while it makes sense that men want women that are fertile because that's what we're here for we're
+here to survive and reproduce it makes sense that women want men who can get access to resources
+status gave you access to resources money is a proxy for resources education is a predictor of
+future ability to attain resources why would this be a surprise but the last few years has uh kind
+of turned things upside down a little bit like this so we've talked a lot about and I I I think when
+having these sorts of discussions uh this is the stuff that my brother and I often talk about on our
+podcast as well and we find that when we get emails about it afterwards from people who are upset
+with the way a certain thing was discussed there's one thing one thing which they point out very
+very recently actually and I and I agree with this is that there's a difference between talking in
+Broad General generalities about averages and how those averages bear out for a specific individual
+and then a step further how the knowledge of the averages should dictate the behavior of an
+individual and so what I mean by that is um so to to use a personal example women are on average
+attracted to men that display more alpha male Tendencies it's probably not a particularly
+controversial Point like you know traits like assess assertiveness confidence aggression border
+bordering on aggression those sorts of kind of things that you would expect if you see if you if you
+think think alpha male for example on average women are attracted to those and there's very little
+they can actually do about it I actually recently read um My Secret Garden by Nancy someone which is
+like a book that was released a few decades ago the first time women's sexual fantasies was
+published in in writing and apparently that book had like I was I was doing a bunch of research on
+this took the World by storm and became an instant besteller because people were like oh my God like
+this is what women's sexual fantasies are and all the women were like oh my God I didn't realize
+other people like this too wow and a lot of them the vast majority are around um the thing things
+that you know um you know things that uh display overly alpha male Tendencies on a man's part um
+it's not to say women want these things to Bear out in real life but on average we can like let's
+assume women are more attracted to those sorts of traits then when it okay cool that's fine that's
+an that's an academic Point based on maybe a average maybe 51% of women are more attracted to that
+say but there's still a vast proportion of women who are not and so for someone like me reading
+about this stuff I think the danger is then I can start to think that okay if women are more
+attracted to Alpha Male traits and that is not really the sort of person who I am because of various
+reasons the way that I maybe some nature maybe some nurture the way that I was raised is a very sort
+of feminized kind of culture where alpha male traits are sort of considered to be downtrodden and
+this is this is like not a good way to be but given that I'm not particularly having success in the
+dating Marketplace hypothetically um then should I try to adopt such as these alpha male traits and
+should I mold my personality in a way that makes me more attractive to women because you know I've
+got to find a wife you know for the first half for the first X number of years of my life there was
+a good quote from someone who said that um life is always in two stages the first stage is when you
+trying to find a partner and the second stage is when you actually once you've done that you realize
+okay who the hell am I and what do I do and so given that I'm competing in this dating Marketplace
+should I try and get that master's degree should I try and be more domineering be more confident be
+more aggressive should I try and go to the gym and get more Hench because you know should I put a
+topless picture on tindo that shows me smiling without my teeth because that's considered higher I
+don't know so this is one of this is one of the problems like generally with dating and I appreciate
+you know all of the people that that send in their thoughts my mind isn't fixed on these things
+right like I just have a a real perverse curiosity around all of the things to do with the dating
+market and I hope that that comes across in good faith because that's genuinely how it is there's
+two things going on one of them is how much how much can you play the game without compromising who
+you are truthfully yeah um and the other one is how far do you go before you basically play Persona
+which is what we spent the first half of this conversation talking about right you don't want to you
+don't want to make someone fall in love with a version of you that you're not but also like
+maximizing your attractiveness understanding the rules of the game like you can't pick the ball up
+in football but you can run faster with it you understand that if there's a good tactic that means
+you can score a bit more if you have this particular set piece that's not too bad yeah what happened
+and the problem with pick a Artistry and this is something that I really really got icked by the
+whole negging and and you've got to if people don't know what pickart is it was sort of during the
+early 2000s and the mid 2010s where men had found particular neural linguistic programming tricks
+that allowed them to bed women by um utilizing different cognitive biases basically it's kind of
+like tricking psychologically tricking women into bed or tricking women into being attracted by them
+and that's kind of being really thrown out of the window that being said there are certain rules and
+procedures that will make you more attractive to a woman the first thing that I would do is go to
+the gym like it is the most robust way to make it's more attractive than having a beard or having a
+low voice which are two other signs of high testosterone so this is Rob Henderson's work looked at
+this that it's the most robust way to become more attractive as a guy is to be in good shape this
+doesn't mean single- digit body fat at 220 pounds this just means that you know slightly visible abs
+and probably a mediumsized t-shirt or above that is you are top probably 5% of physiques on the
+planet if you if you able to get yourself to sub4 % body fat with a little bit of vascularity on you
+on your arms like and that's not o um so it's a difficult question man like how far are you supposed
+to push yourself in the effort to become attractive to the opposite sex it's a really difficult
+question you don't want to make someone fall in love with you for something that you're not and this
+is for guys and girls so a good question to ask yourself is am I the sort of person that the sort of
+person I'm attracted to would be attracted to yeah what's the sort of person that I want to get if I
+really really really love guys that go to the gym but I'm a chick that has never been to the gym you
+got to go to the gym because he's probably going to want a partner that goes to the gym as well if
+you're a dude who really loves music and really wants a partner that's into music you need to start
+going out to gigs and trying to find girls that are there stop looking for them in the library so
+models by Mark Manson have you read this yeah phenomenal so that's as far as I'm concerned it's the
+One-Stop shop for men on dating um how to become a more confident human yes you should take the
+knowledge that you know around the dating Market as men and as women and you should utilize it to
+inform the way that you try and date but there has to be a point at which you go okay I can't
+compromise myself too much and a final piece of framing that actually I did take from um pickup
+Artistry but that is as ethical as you can get is to control the frame so you are the prize in the
+interaction this doesn't mean that you don't think that the other person's important or interesting
+or valuable but entering a frame of a conversation saying I am an inherently valuable interesting
+person this person is fortunate to be going out for a walking date with me and to grab a coffee like
+how cool like I'm going to get to find out about them and they're going to get to find out about me
+if I was them I would be about to have a really cool afternoon like that is a great way to enter a
+frame I think for dating high value you're controlling the context you're coming across confident
+and competent like those are good ways to step into things certainly better than like oh I'll start
+speaking to a friend and then I won't look at her and then when I do look at her I'll tell her that
+her hair looked [ __ ] and like that was that was never going to be a sustainable strategy I like
+this way of approaching things like um understand the rules of the game use those rules of the game
+to inform to maybe inform what you're going to do to maximize your chances in the game um but don't
+do it in a way that feels to you inauthentic to who you truly they are that makes a lot of sense um
+ah and on that on that note we did have a a comment on one of the one of the videos that I did with
+with my brother where I was like oh these guys are acting as they're finding love is a game like
+okay no it's just a metaphor um just like life is a game in a way um but uh yeah I think that's so
+the the kind of one specific example that I I I often think about um a few a few months ago I was I
+was on a date and afterwards we went to driving to the what's a typical Ali abdal date give me give
+me the like quintessential Ali's taking you out for a date where does he take you and what does he
+do um I feel like a date in three parts is ideal where kind of you know the whole again from the
+from the world I pick a part of three where I think this is actually a good a good shout uh bouncing
+from one location to another yeah so starting off with maybe grabbing a coffee then going for a walk
+and then you gone for the walk had a bit of a chat then go for food somewhere and then after the
+food somewhere like a third part maybe go for a drive or go for walk or go for dessert or you know
+just something that allegedly the way the way the dating thing works like if you've if you've been
+sitting each sitting at dinner talking for 3 hours that's psychologically a less um it feels like
+you're less close than if you've been talking for 1 hour at three different venues which is just how
+we experience memories um but one thing I like to do is go for a drive afterward especially if it's
+a place I've driven to and in the Tesla in the Tesla of course with the heated seats uh and we were
+driving to the McDonald's drive-through which is again one of my favorite spots because I like I
+love I love McDonald's drive-throughs and I think weirdly going on a McDonald's drive-through on a
+date is like very me and if someone doesn't like that then great that's like a perfect filter I like
+that um it's a stress test it's a stress test quite yeah but then on on one of these dates a few
+months ago on route to to the McDonald's drive-through um we put some music on and uh played
+driver's license by Olivia Rodrigo bang a song basically or let's imagine like a Disney song okay
+that that kind of and I knew all the lyrics to actually driver's license and good for you by Olivia
+rrio which like I knew all the lyrics of this Disney song and I was thinking at that point I I could
+make a choice do I be myself and sing along to this Disney song um or do I recognize that oh girls
+are more attracted to masculine traits this me love freaking loving Olivia Rodrigo and Disney songs
+and knowing all the words to good for you is not a particularly masculine trait at least by
+traditional definitions maybe it's it's only date number two maybe I'll just like tone that down bit
+and and and and weave it in and I made the decision at that point to be like screw it let's sing the
+songs and turns out she also freaking loves singing Disney songs in Olivia rrio and we were just
+singing along together and it was great but I was kind of thinking that hm have I in a sense shot
+myself in the foot by revealing this aspect to me and then afterwards I was like nah it's fine like
+this is who I am authentically this is this is my true self it's all good yes if it turns out the
+girl is not into guys who like singing singing Disney songs she's not going to enjoy being with me
+because I sing Disney songs all the time all day every day um but the fact that I had that thought
+process made me wonder oh have I drunk too much Kool-Aid of like red P that's a really really good a
+really really good Insight that you get a um it's a midwit meme man it's a midwit meme it's like the
+idiot and the genius do the same thing just I just be myself I just be myself I will optimize my red
+pill pick a Artistry so that I understand the neing of the blah blah like no no just be yourself but
+you are right like understanding the the Dynamics I think is different to making letting them change
+you um I think that you did the right thing I think that just being yourself with somebody is a
+really good way to to try and do that now if yourself is becoming a more competent more trustworthy
+more hardworking more attractive human over time that's a win but trying to this is one of the
+reasons why all of the pick aarst guys if you look at them now they're all wrecked like look at uh
+Neil Strauss yeah who's gone total awakened like DMT guy why Tucker Max Tucker Max is a perfect
+example man the guy did was he a pickup artist what he wrote he created the fratti genre didn't he
+oh did he oh I didn't realize he all of his New York Times Best Sellers were him throwing up in
+bathrooms after drinking and having sex with women I just know him from being the publishing guy he
+wrote what women want with Jeffrey Miller The evolutionary psychologist oh dude his entire back
+catalog of books is just him having sex and partying that's all it is I've got a lot of reading to
+yeah precisely um and he's done a thousand sessions of psychotherapy MDMA assisted Psychotherapy now
+this like fully awakened human talking on Twitter about real me deep and meaningful things why I
+think it's because when guys in their youth in their in their 20s tried to be the sort of man that
+they thought women wanted to be attracted to they end ended up realizing how far that was from the
+person that they truly were and it made them feel really really unhappy and uncomfortable and they
+relapsed after a lot of self-work to a much more virtuous much more aligned and awakened place which
+is them just fully being themselves Neil Strauss now incredibly vulnerable online took a ma
+incredibly vulnerable online why because for a long time he wasn't for a long time he was doing the
+things that he thought he was supposed to do and I think that you've played it right I think that
+the way to go about things is to have confident competence that this is and own it and be like look
+yeah maybe this isn't whatever typical masculine trait 101 The Red Pill guys say that you shouldn't
+do this it's like all right but also if you want to try and be your version of someone else the best
+that you can hope for is being the second best in the world at it like if I want to do my podcast
+like Joe Rogan the best I can hope for is being the second best Joe Rogan on the planet and when
+you're going into a dating environment I just setting the tone in that way is going to be bad that
+being said said if you have more extreme quirks if it was I can't think of any that a PG-13 but if
+you had something that was a little bit more out there than you singing Disney songs perhaps you do
+slowly introduce people to that but the prospect of never bringing that up I don't think that really
+works yeah I'm just think so I guess if I had a strong if for example it was just part of my part of
+the way I live life that I never have a shower and I don't believe in washing that's uh you know a
+thing that a future partner would would want to know but it's probably the sort of thing I shouldn't
+mention on date number one it's just you know well I think that what you would be aiming to do and
+what everyone's aiming to do is to try and construct a world in which they are the sort of person
+that the sort of person they're attracted to would be attracted to that's what you want this is this
+is the the sort of quick fix to dating problems it's like okay what what sort of partner do I want
+genuinely what are their interests what are the non-negotiables I want from a partner they have to
+and choose three things non-negotiables they have to be like this they have to be pick them and then
+all of the other things you can just kind of learn to love people around them that doesn't mean that
+you need to settle but it does mean that I think you end up in a situation where you have the things
+that really matter being there and then you starting to love people for their quirks like a lot of
+the times when you fall in love you end up falling in love and going I can't believe it was you it
+was never going to be you you you with all of your uness and all of the different things that you
+have how is it you it was supposed to be her but it's you and you can't believe it why because you
+are absolutely [ __ ] at predicting what you're going to be attracted to you know some things that
+you will not compromise on and then the rest of them you end up falling in love with the way that he
+drives the car or you end up falling in love with the way that she uh makes the bed or the way that
+she looks on them like all of the things that you wouldn't have thought it was going to be like this
+is where love seems to come out and it's those quirks and those uniquenesses that give you a
+competitive advantage in the dating market so you not utilizing the fact that you do sing Disney
+songs and you do know the the words to them that puts you at a disadvantage because you're just
+being like Ali n version .9 you're the beta tester version of that because it's you're not fully
+utilizing all of the different features you have yeah I think I guess I guess it is that everyone
+has to make that decision for themselves what is the balance between I am doing this thing to become
+more attractive versus uh and and not it and it not bordering into territory of this thing is
+straying far from who I am for example I'll hold my hands up and say the reason I go to the gym is
+to be more attractive um but the sort of person I want to be is the sort of person who takes the
+health seriously yeah and it just so happens that the proximal reason like the main reason is
+currently to look more attractive but it's also a sort of life that I would like to lead and
+therefore I think oh dude if you can win on mulp if you can win on multiple different domains like
+take it take it it's like saying um my YouTube channel gets plays which means that I have access to
+making new friends but it also earns ad Revenue but I should feel bad about the ad Revenue because
+I'm supposed to be here for the friends it's like no like just take them all if there's a ton of
+wins to get out of something but to come back to what we said at the for the first half of the
+conversation about being yourself and about trying to kind of work out who it is that you are I
+think that coming at something from a place of I'm already enough but I want to be better is very
+different to I am insufficient unless I have this unless I get 8% body fat and massive set of arms
+and I can out bench everybody in the gym unless I get there then I am not worthy of having a partner
+is very different to I am already worthy of having a partner and I know that this will make them
+happier like and or this will improve my chances of finding someone who is going to be attracted to
+me and I'm going to be attracted to as well how how do you think about the balance between be
+yourself versus Choose Yourself uh elaborate s to them for so so we've talked a lot about how you
+you know you went on this journey trying to uncover your true self um one school of thought is that
+well we don't really have a true self that true self is just a result of the accidents of our um the
+accidents of the way the way we were brought up and it just and the traits we got from our parents
+and from our friends at school and you can do a lot to change who you are if that's what you want
+want want to do for example when I was in school I wasn't particularly outgoing or particularly
+charismatic or particularly confident and I recognized that you know me being myself would have been
+me just continuing on that route I decided you know what I'm going to make an active decision at
+University to change myself to become someone who's more confident and more charismatic and someone
+who is a little bit more outgoing and although those that was not a natural transformation initially
+it felt it felt uncomfortable like any change which always feels feels uncomfortable and I am now
+much more confident charismatic open in Social settings that kind of stuff but if I'd been told um
+oh bro just be yourself it would have probably that probably would have happened and so I'm curious
+as to what what your thoughts are on that so I believe that your life should be lived by Design not
+by default that you should be intentionally doing things because the default quite often is actually
+a bit [ __ ] the the default setting that you would go to would be the Netflix and bag of chips and
+not doing hard things and not having new experiences and all of the biases or you would just be
+ruled by your biases right which is definitely not what you want that being said we are not
+infinitely malleable we are not complete blank slates there are predispositions that you have that I
+do not and there are predispositions I have that you do not 50% pretty much of everything you are
+psychologically is genetic on average and what that means is that you are in mind towards certain
+things more than others for by hook or by crook you haven't ended up being an artist or a painter or
+a promoter club promoter or a reality TV guy like there is something inside of you that has caused
+you to lean toward the particular life that you do now understanding yourself and saying right I'm
+going to play to my strengths I'm going to enhance so one of your strengths is being able to learn
+things quickly right so you have a meta power that permits you to be more malleable than most people
+but it's not unlimited you can't learn to be anything that you want you can just learn to be you can
+manipulate certain areas of you to enhance some and to downregulate others the difference between be
+yourself and Choose Yourself is interesting but especially as you grow up your life paths they do
+start to get closed off more right because you have less and less time presumably most people will
+want to start a family of some kind which again is something that you're working toward as you grow
+up and yeah it it's an interesting one I think um I think that choosing yourself has a beauty to it
+and a sense of achievement once you've completed it I think that's really really nice and you can
+feel proud of the person that you are but that needs to come from a place of inner truth or else
+you're just going to end up playing a role you're not going to be so if you decided tomorrow that
+you wanted to wake up and be in a gym and just be some super Alpha go out sniff a bag with the boys
+on a weekend like five pints and watch the footy oh did you see the West Ham game last night mate
+like if you decided to be that guy I'm sure that you could probably well you absolutely could force
+yourself into it if someone held a gun to your head and said right you got to be the biggest lad
+that you can for the next year you could do it but it wouldn't be you so you can't fully Choose
+Yourself you could act yourself but the difference between Cho and be is basically does this feel
+like it's cohesive with my inner desire and what you're trying to do is you're trying to remove the
+distance from what you would do and what you want to do so what would I do if I woke up this morning
+I would maybe do some meditation and do some walking it's can I get something from system two to
+system one and the more that you get the things that you want in system two to system one that's you
+creating yourself to be yourself does that make sense like if you can choose the things that you
+want to have in life and you can make them so much a part of you that they actually end up embodying
+you and you embody them that feels like that feels like you've managed to merge the two together
+yeah it's sort of like habit formation but for personality traits I guess yeah and also for the
+values that you have yeah for me I was a guy that took a lot of Pride from the success of his club
+night and from the way that he was seen and blah blah blah and don't get me wrong I've probably just
+transmuted them into other different like desires and wants and and [ __ ] um but I got rid of those
+ones cuz I didn't want them anym more so yes you can choose yourself but you're not infinitely
+malleable amazing I think that's a a good place to end this uh we still have so much to talk about
+about your podcast about your journey about your uh the whole weirdness stuff authenticity wanting
+to want things I think we'll save that for a part two cuz this is officially the longest episode
+we've ever recorded on the Deep dive [ __ ] um I have a few uh rapid fire questions for you hit me
+to end with that we're asking everyone um what advice number one what advice would you give to your
+younger self Fearless Fearless Fearless okay who has had the biggest influence on your career Dave
+my older business partner the guy that is the CEO of the company that we're twinned with okay what
+was the influence that he had he was the first boss that I ever had he was the first role model that
+I ever had he's about four or five years older than me and he is just a very very shrewd guy when it
+comes to business almost all of the business Acumen that I have can be attributed the Genesis of it
+can be attributed to that guy nice what's one tip for someone looking for Success sleep more ni what
+does the first and last hour of your day look like upon waking element salt in water walk for 15
+minutes Journal meditate breath work read cook and then on a nighttime usually watching some sport
+or whatever with my flat mate in the living room or read and then some sort of reading probably half
+and half nice I need to ask ask you more about your morning routine next time we speak um what
+material item under1 could you not live without SL that's added the most value to your life in rent
+memory under1 steel Shaker just steel protein Shaker 15 quid cool uh what book would you recommend
+to anyone the almanac of Nal ravikant nice if you lost everything how would you start the business
+again fill a club night easy what quote or Mantra do you live by don't practice is what you do not
+want to become nice um and finally a journey or destination Journey very nice Chris thanks for
+coming on links to all all of your things in the video description uh anything in particular you'd
+like to plug uh yeah those episodes that we mentioned uh will be linked in the show notes below
+modern wisdom wherever you listen Apple podcast Spotify YouTube Chris Williamson and if you want a
+list of 100 books we've talked about a lot today uh chrisw x.com books is a free list of 100 of the
+most impactful and interesting books that I've ever read thanks for having me on man and we'll link
+uh my appearances on your podcast as well in addition to those awesome oh thank you um great thanks
+for coming on and see you later everyone cheers

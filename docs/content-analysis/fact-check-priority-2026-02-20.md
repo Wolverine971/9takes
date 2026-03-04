@@ -5,8 +5,8 @@
 _Generated: 2026-02-20_  
 _Sources:_
 
-- `youtube-transcripts/transcript-coverage-index.md`
-- `youtube-transcripts/*-review.md`
+- `youtube-transcripts-people/transcript-coverage-index.md`
+- `youtube-transcripts-people/*-review.md`
 - `docs/content-analysis/culturally-relevant-blog-update-priority-2026-02-19.md`
 - `src/blog/people/drafts/*.md`
 
@@ -84,7 +84,7 @@ These need manual fact-check passes from external sources.
 Files:
 
 - Blog: `src/blog/people/drafts/John-Coogan.md`
-- Review: `youtube-transcripts/john-coogan-review.md`
+- Review: `youtube-transcripts-people/john-coogan-review.md`
 
 Immediate transcript-citation targets (`[HIGH]` and supported):
 
@@ -109,11 +109,11 @@ External-source-required targets (`[HIGH]` unsupported by direct transcripts):
 
 ## Execution Order (One-by-One)
 
-1. `Paris-Hilton` (`youtube-transcripts/paris-hilton-review.md`)
-2. `Alex-Cooper` (`youtube-transcripts/alex-cooper-review.md`)
-3. `Kristen-Bell` (`youtube-transcripts/kristen-bell-review.md`)
-4. `Kim-Kardashian` (`youtube-transcripts/kim-kardashian-review.md`)
-5. `John-Coogan` (`youtube-transcripts/john-coogan-review.md`)
+1. `Paris-Hilton` (`youtube-transcripts-people/paris-hilton-review.md`)
+2. `Alex-Cooper` (`youtube-transcripts-people/alex-cooper-review.md`)
+3. `Kristen-Bell` (`youtube-transcripts-people/kristen-bell-review.md`)
+4. `Kim-Kardashian` (`youtube-transcripts-people/kim-kardashian-review.md`)
+5. `John-Coogan` (`youtube-transcripts-people/john-coogan-review.md`)
 
 ## Batch 1: What To Verify First
 
@@ -129,4 +129,4 @@ External-source-required targets (`[HIGH]` unsupported by direct transcripts):
 2. For unsupported `[HIGH]` claims, add external source or soften/remove claim.
 3. Then process `[MEDIUM]` unsupported claims.
 4. Keep citations minimal and strategic: numbers, dates, major quotes, controversy claims, rankings, and “record” statements.
-5. Mark completion by reducing unsupported counts in the corresponding `youtube-transcripts/*-review.md` file.
+5. Mark completion by reducing unsupported counts in the corresponding `youtube-transcripts-people/*-review.md` file.
