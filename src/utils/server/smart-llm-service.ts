@@ -543,6 +543,8 @@ const TEXT_PROFILE_MODELS: Record<TextProfile, string[]> = {
 export class SmartLLMService {
 	private apiKey: string = PRIVATE_OPENROUTER_API_KEY;
 	private apiUrl = 'https://openrouter.ai/api/v1/chat/completions';
+	private openRouterTimeoutMs = 120000;
+	private openRouterMaxFallbackModels = 3;
 	private costTracking = new Map<string, number>();
 	private performanceMetrics = new Map<string, number[]>();
 	private errorLogger?: LLMErrorLogger;
@@ -639,6 +641,42 @@ export class SmartLLMService {
 		return uuidRegex.test(trimmed) ? trimmed : null;
 	}
 
+	private isTimeoutError(error: unknown): boolean {
+		if (!(error instanceof Error)) {
+			return false;
+		}
+
+		const message = error.message.toLowerCase();
+		return (
+			error.name === 'AbortError' ||
+			error.name === 'TimeoutError' ||
+			message.includes('timeout') ||
+			message.includes('timed out') ||
+			message.includes('aborted due to timeout')
+		);
+	}
+
+	private summarizeMessages(messages: Array<{ role: string; content: string }>): {
+		messageCount: number;
+		totalChars: number;
+		perRoleChars: Record<string, number>;
+	} {
+		const perRoleChars: Record<string, number> = {};
+		let totalChars = 0;
+
+		for (const message of messages) {
+			const contentLength = message.content?.length || 0;
+			totalChars += contentLength;
+			perRoleChars[message.role] = (perRoleChars[message.role] || 0) + contentLength;
+		}
+
+		return {
+			messageCount: messages.length,
+			totalChars,
+			perRoleChars
+		};
+	}
+
 	// ============================================
 	// JSON RESPONSE METHOD
 	// ============================================
@@ -675,7 +713,8 @@ export class SmartLLMService {
 				response_format: this.supportsJsonMode(preferredModels[0] || 'openai/gpt-4o-mini')
 					? { type: 'json_object' }
 					: undefined,
-				max_tokens: 8192
+				max_tokens: 8192,
+				operationType: options.operationType || 'json_response'
 			});
 
 			// Guard against malformed response
@@ -736,7 +775,8 @@ export class SmartLLMService {
 							],
 							temperature: 0.1, // Lower temperature for retry
 							response_format: { type: 'json_object' },
-							max_tokens: 8192
+							max_tokens: 8192,
+							operationType: `${options.operationType || 'json_response'}_parse_retry_${retryCount}`
 						});
 
 						// Guard against malformed retry response
@@ -848,21 +888,45 @@ export class SmartLLMService {
 
 			return result;
 		} catch (error) {
-			lastError = error as Error;
+			lastError = error instanceof Error ? error : new Error(String(error));
 			const duration = performance.now() - startTime;
 			const requestCompletedAt = new Date();
+			const isTimeout = this.isTimeoutError(lastError);
+			const promptChars = this.summarizeMessages([
+				{ role: 'system', content: enhancedSystemPrompt },
+				{ role: 'user', content: options.userPrompt }
+			]);
 
-			console.error(`OpenRouter request failed:`, error);
+			console.error('OpenRouter request failed', {
+				errorName: lastError.name,
+				errorMessage: lastError.message,
+				durationMs: Math.round(duration),
+				operationType: options.operationType || 'other',
+				profile,
+				complexity,
+				preferredModels,
+				retryCount,
+				maxRetries,
+				isTimeout,
+				timeoutMs: this.openRouterTimeoutMs,
+				promptChars
+			});
 
 			// Log to error tracking system
 			if (this.errorLogger?.logAPIError) {
-				await this.errorLogger.logAPIError(error, this.apiUrl, 'POST', options.userId, {
+				await this.errorLogger.logAPIError(lastError, this.apiUrl, 'POST', options.userId, {
 					operation: 'getJSONResponse',
 					errorType: 'llm_api_request_failure',
 					modelRequested: preferredModels[0] || 'openai/gpt-4o-mini',
 					profile,
 					complexity,
-					isTimeout: lastError.message.includes('timeout'),
+					isTimeout,
+					errorName: lastError.name,
+					errorMessage: lastError.message,
+					durationMs: Math.round(duration),
+					retryCount,
+					maxRetries,
+					promptChars,
 					projectId: options.projectId,
 					brainDumpId: options.brainDumpId,
 					taskId: options.taskId
@@ -884,7 +948,7 @@ export class SmartLLMService {
 				responseTimeMs: Math.round(duration),
 				requestStartedAt,
 				requestCompletedAt,
-				status: lastError.message.includes('timeout') ? 'timeout' : 'failure',
+				status: isTimeout ? 'timeout' : 'failure',
 				errorMessage: lastError.message,
 				temperature: options.temperature,
 				maxTokens: 8192,
@@ -896,11 +960,18 @@ export class SmartLLMService {
 				briefId: options.briefId,
 				metadata: {
 					complexity,
-					preferredModels
+					preferredModels,
+					errorName: lastError.name,
+					retryCount,
+					maxRetries,
+					isTimeout,
+					promptChars
 				}
 			}).catch((err) => console.error('Failed to log error:', err));
 
-			throw new Error(`Failed to generate valid JSON: ${lastError?.message}`);
+			throw new Error(
+				`Failed to generate valid JSON (${options.operationType || 'other'}): ${lastError?.message}`
+			);
 		}
 	}
 
@@ -937,7 +1008,8 @@ export class SmartLLMService {
 				],
 				temperature: options.temperature || 0.7,
 				max_tokens: options.maxTokens || 4096,
-				stream: options.streaming || false
+				stream: options.streaming || false,
+				operationType: options.operationType || 'text_generation'
 			});
 
 			// Guard against malformed response
@@ -1025,20 +1097,34 @@ export class SmartLLMService {
 				usage
 			};
 		} catch (error) {
+			const requestError = error instanceof Error ? error : new Error(String(error));
 			const duration = performance.now() - startTime;
 			const requestCompletedAt = new Date();
+			const isTimeout = this.isTimeoutError(requestError);
 
-			console.error(`OpenRouter text generation failed:`, error);
+			console.error('OpenRouter text generation failed', {
+				errorName: requestError.name,
+				errorMessage: requestError.message,
+				durationMs: Math.round(duration),
+				operationType: options.operationType || 'other',
+				profile,
+				estimatedLength,
+				preferredModels,
+				isTimeout
+			});
 
 			// Log to error tracking system
 			if (this.errorLogger?.logAPIError) {
-				await this.errorLogger.logAPIError(error, this.apiUrl, 'POST', options.userId, {
+				await this.errorLogger.logAPIError(requestError, this.apiUrl, 'POST', options.userId, {
 					operation: 'generateText',
 					errorType: 'llm_text_generation_failure',
 					modelRequested: preferredModels[0] || 'openai/gpt-4o-mini',
 					profile,
 					estimatedLength,
-					isTimeout: (error as Error).message.includes('timeout'),
+					isTimeout,
+					errorName: requestError.name,
+					errorMessage: requestError.message,
+					durationMs: Math.round(duration),
 					projectId: options.projectId,
 					brainDumpId: options.brainDumpId,
 					taskId: options.taskId
@@ -1060,8 +1146,8 @@ export class SmartLLMService {
 				responseTimeMs: Math.round(duration),
 				requestStartedAt,
 				requestCompletedAt,
-				status: (error as Error).message.includes('timeout') ? 'timeout' : 'failure',
-				errorMessage: (error as Error).message,
+				status: isTimeout ? 'timeout' : 'failure',
+				errorMessage: requestError.message,
 				temperature: options.temperature,
 				maxTokens: options.maxTokens,
 				profile,
@@ -1072,7 +1158,9 @@ export class SmartLLMService {
 				briefId: options.briefId,
 				metadata: {
 					estimatedLength,
-					preferredModels
+					preferredModels,
+					errorName: requestError.name,
+					isTimeout
 				}
 			}).catch((err) => console.error('Failed to log error:', err));
 
@@ -1092,6 +1180,7 @@ export class SmartLLMService {
 		max_tokens?: number;
 		response_format?: { type: string };
 		stream?: boolean;
+		operationType?: string;
 		route?: 'fallback'; // NOTE: Not used - kept for backwards compatibility
 		provider?: any; // NOTE: Not used - kept for backwards compatibility
 	}): Promise<OpenRouterResponse> {
@@ -1120,24 +1209,46 @@ export class SmartLLMService {
 		// OpenRouter will try models in order until one succeeds
 		// When using 'models' array, don't include 'model' field
 		// Note: OpenRouter limits 'models' array to 3 items max
+		let routedModels: string[];
 		if (params.models && params.models.length > 1) {
-			body.models = params.models.slice(0, 3); // Limit to 3 models (OpenRouter max)
+			body.models = params.models.slice(0, this.openRouterMaxFallbackModels); // Limit to OpenRouter max
 			body.route = 'fallback'; // Enable fallback routing
+			routedModels = body.models;
 		} else {
 			// Single model - use 'model' field
 			body.model = params.model;
+			routedModels = [params.model];
 		}
+
+		const requestBody = JSON.stringify(body);
+		const requestStartedAt = performance.now();
+		const requestTraceId = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+		const promptSummary = this.summarizeMessages(params.messages);
 
 		try {
 			const response = await fetch(this.apiUrl, {
 				method: 'POST',
 				headers,
-				body: JSON.stringify(body),
-				signal: AbortSignal.timeout(120000) // 2 minute timeout
+				body: requestBody,
+				signal: AbortSignal.timeout(this.openRouterTimeoutMs)
 			});
 
 			if (!response.ok) {
 				const error = await response.text();
+				const requestIdHeader =
+					response.headers.get('x-request-id') || response.headers.get('x-openrouter-request-id');
+				console.error('OpenRouter API returned non-OK response', {
+					requestTraceId,
+					operationType: params.operationType || 'unknown',
+					status: response.status,
+					statusText: response.statusText,
+					requestIdHeader: requestIdHeader || 'missing',
+					durationMs: Math.round(performance.now() - requestStartedAt),
+					routedModels,
+					promptSummary,
+					requestBodyBytes: requestBody.length,
+					errorBodyPreview: error.slice(0, 500)
+				});
 				throw new Error(`OpenRouter API error: ${response.status} - ${error}`);
 			}
 
@@ -1150,32 +1261,76 @@ export class SmartLLMService {
 				: '0.0';
 
 			console.debug('OpenRouter routing result:', {
+				requestTraceId,
+				operationType: params.operationType || 'unknown',
 				model: data.model || params.model,
 				provider: data.provider || 'Unknown',
 				cacheStatus:
 					cachedTokens > 0 ? `${cacheHitRate}% cached (${cachedTokens} tokens)` : 'no cache',
 				requestId: data.id,
 				systemFingerprint: data.system_fingerprint,
-				reasoningTokens: data.usage?.completion_tokens_details?.reasoning_tokens || 0
+				reasoningTokens: data.usage?.completion_tokens_details?.reasoning_tokens || 0,
+				durationMs: Math.round(performance.now() - requestStartedAt),
+				promptSummary,
+				routedModels
 			});
 
 			return data;
 		} catch (error) {
-			if (error instanceof Error && error.name === 'AbortError') {
+			const requestError = error instanceof Error ? error : new Error(String(error));
+			const durationMs = Math.round(performance.now() - requestStartedAt);
+			const isTimeout = this.isTimeoutError(requestError);
+
+			if (isTimeout) {
+				console.error('OpenRouter request timed out', {
+					requestTraceId,
+					operationType: params.operationType || 'unknown',
+					modelRequested: params.model,
+					routedModels,
+					durationMs,
+					timeoutMs: this.openRouterTimeoutMs,
+					temperature: params.temperature,
+					maxTokens: params.max_tokens,
+					promptSummary,
+					requestBodyBytes: requestBody.length,
+					errorName: requestError.name,
+					errorMessage: requestError.message
+				});
+
 				if (this.errorLogger?.logAPIError) {
-					await this.errorLogger.logAPIError(error, this.apiUrl, 'POST', undefined, {
+					await this.errorLogger.logAPIError(requestError, this.apiUrl, 'POST', undefined, {
 						operation: 'callOpenRouter_timeout',
 						errorType: 'llm_api_timeout',
 						modelRequested: params.model,
-						alternativeModels: params.models?.join(', ') || 'none',
-						timeoutMs: 120000,
+						alternativeModels: routedModels.join(', '),
+						timeoutMs: this.openRouterTimeoutMs,
 						temperature: params.temperature,
-						maxTokens: params.max_tokens
+						maxTokens: params.max_tokens,
+						durationMs,
+						operationType: params.operationType || 'unknown',
+						requestTraceId,
+						promptSummary
 					});
 				}
-				throw new Error(`Request timeout for model ${params.model}`);
+				throw new Error(
+					`Request timeout after ${this.openRouterTimeoutMs}ms for models ${routedModels.join(', ')}`
+				);
 			}
-			throw error;
+
+			console.error('OpenRouter request failed before completion', {
+				requestTraceId,
+				operationType: params.operationType || 'unknown',
+				modelRequested: params.model,
+				routedModels,
+				durationMs,
+				temperature: params.temperature,
+				maxTokens: params.max_tokens,
+				promptSummary,
+				requestBodyBytes: requestBody.length,
+				errorName: requestError.name,
+				errorMessage: requestError.message
+			});
+			throw requestError;
 		}
 	}
 

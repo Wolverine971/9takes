@@ -256,6 +256,12 @@ export const tagQuestion = async (
 			return;
 		}
 
+		logger.info('Starting single question tagging request', {
+			questionId,
+			questionLength: questionText.length,
+			tagCount: tags.length
+		});
+
 		const llmResponse = await llmService.getJSONResponse<TaggedQuestion[] | TaggedQuestion>({
 			systemPrompt: getPrompt(
 				tags.map((tag) => tag.category_name).filter((name): name is string => Boolean(name))
@@ -264,7 +270,8 @@ export const tagQuestion = async (
 			profile: 'balanced',
 			temperature: 0.2,
 			validation: { retryOnParseError: true, maxRetries: 2 },
-			operationType: 'single_question_tagging'
+			operationType: 'single_question_tagging',
+			taskId: String(questionId)
 		});
 
 		const [chatResp] = normalizeTaggedResponse(llmResponse);
@@ -318,7 +325,22 @@ export const tagQuestion = async (
 				.insert({ keywords: chatResp.seo_keywords.join(', '), question_id: questionId });
 		}
 	} catch (e) {
-		logger.error('Tag question failed', e as Error, { questionId });
+		const error = e as Error;
+		const message = error?.message?.toLowerCase() || '';
+		const isTimeout =
+			error?.name === 'TimeoutError' ||
+			error?.name === 'AbortError' ||
+			message.includes('timeout') ||
+			message.includes('timed out') ||
+			message.includes('aborted due to timeout');
+
+		logger.error('Tag question failed', error, {
+			questionId,
+			questionLength: questionText.length,
+			isTimeout,
+			errorName: error?.name,
+			errorMessage: error?.message
+		});
 	}
 };
 

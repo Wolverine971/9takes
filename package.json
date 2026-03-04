@@ -15,6 +15,7 @@
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
+		"format:transcripts": "prettier --plugin-search-dir . --ignore-path /dev/null --write youtube-transcript-research youtube-transcripts-people",
 		"clean": "rimraf .svelte-kit",
 		"gen:sctx": "tsx scripts/generateStreamlinedProjectContext2.ts . -o ./sproject-context.json",
 		"label-paths": "tsx scripts/labelFilePaths.ts",

@@ -19,3 +19,7 @@ yarn.lock
 /static
 
 .vercel/
+
+# Large transcript folders; format on demand via `pnpm format:transcripts`
+/youtube-transcript-research
+/youtube-transcripts-people

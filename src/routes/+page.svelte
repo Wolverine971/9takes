@@ -271,7 +271,6 @@
 			}
 		}
 	</script>
-
 </svelte:head>
 
 <svelte:window bind:innerWidth />
