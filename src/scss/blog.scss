@@ -14,7 +14,7 @@
 
 		&:hover {
 			text-decoration: underline;
-			color: #c4b5fd !important;
+			color: var(--shadow-monarch-lightest) !important;
 		}
 
 		/* No arrow icon - removed for cleaner dark theme */

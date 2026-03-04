@@ -202,7 +202,7 @@
 		text-transform: capitalize;
 
 		&:hover {
-			color: #c4b5fd;
+			color: var(--shadow-monarch-lightest);
 			background-color: rgba(124, 58, 237, 0.15);
 			text-decoration: none;
 		}

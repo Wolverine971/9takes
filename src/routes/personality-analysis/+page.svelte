@@ -643,7 +643,7 @@
 				0 0 30px rgba(124, 58, 237, 0.15);
 
 			.view-all-content {
-				color: #c4b5fd;
+				color: var(--shadow-monarch-lightest);
 			}
 		}
 	}

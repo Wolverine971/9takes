@@ -70,7 +70,7 @@ export const EmailHead = (title: string) => {
         height: 100% !important;
         padding: 0 !important;
         margin: 0 !important;
-        font-family: 'Noticia Text', serif,-apple-system,BlinkMacSystemFont, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
         line-height: 1.5;
         color: #333333;
         background-color: #f9f9ff;

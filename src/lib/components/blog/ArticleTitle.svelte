@@ -47,7 +47,7 @@
 		transition: color 0.2s ease;
 	}
 	.heading a:hover {
-		color: #c4b5fd;
+		color: var(--shadow-monarch-lightest);
 	}
 	.large {
 		margin-top: calc(var(--spacing-unit) * 1);

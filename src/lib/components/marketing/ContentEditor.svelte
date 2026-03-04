@@ -1,37 +1,36 @@
 <!-- src/lib/components/marketing/ContentEditor.svelte -->
 <script lang="ts">
-	import { enhance } from '$app/forms';
-	import {
-		Button,
-		Input,
-		Label,
-		Textarea,
-		Select,
-		Toggle,
-		Modal,
-		AccordionItem,
-		Accordion
-	} from 'flowbite-svelte';
 	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
-	import { createEventDispatcher, onMount } from 'svelte';
 
-	export let contentItem: ContentItem | null = null;
-	export let campaigns: Campaign[] = [];
-	export let templates: Template[] = [];
+	let {
+		contentItem = null,
+		campaigns = [],
+		templates = [],
+		oncontentUpdated,
+		oncancel
+	}: {
+		contentItem?: ContentItem | null;
+		campaigns?: Campaign[];
+		templates?: Template[];
+		oncontentUpdated?: (data: any) => void;
+		oncancel?: () => void;
+	} = $props();
 
-	let editingContent: ContentItem = contentItem ? { ...contentItem } : ({} as ContentItem);
-	let selectedTemplate: Template | null = null;
-	let isThreadView = false;
-	let threadBlocks: string[] = [];
-	let showDeleteConfirmation = false;
-	let blockToDelete: number | null = null;
+	let editingContent: ContentItem = $state(contentItem ? { ...contentItem } : ({} as ContentItem));
+	let selectedTemplate: Template | null = $state(null);
+	let isThreadView = $state(false);
+	let threadBlocks: string[] = $state([]);
+	let showDeleteConfirmation = $state(false);
+	let blockToDelete: number | null = $state(null);
 
-	let contentTextWithSeparators: string = editingContent.content_text || '';
-	let contentTextWithoutSeparators: string = removeSeparators(contentTextWithSeparators);
+	let contentTextWithSeparators: string = $state(editingContent.content_text || '');
+	let contentTextWithoutSeparators: string = $state(removeSeparators(contentTextWithSeparators));
 
-	const dispatch = createEventDispatcher();
 	const SEPARATOR = '-------sep sep sep-------';
 	const MAX_CHARS = 280;
+
+	let scheduledDateValue = $derived(formatDateForInput(editingContent.scheduled_date));
+	let accordionOpen = $state(false);
 
 	function splitIntoThreads(text: string): string[] {
 		if (text.includes(SEPARATOR)) {
@@ -74,14 +73,10 @@
 		}
 	}
 
-	function handleCancel() {
-		dispatch('cancel');
-	}
-
 	function formatDateForInput(dateString: string): string {
 		if (!dateString) return '';
 		const date = new Date(dateString);
-		return date.toISOString().slice(0, 16); // Format: "YYYY-MM-DDTHH:mm"
+		return date.toISOString().slice(0, 16);
 	}
 
 	function toggleThreadView() {
@@ -146,196 +141,492 @@
 		}).then(async (response) => {
 			const result = await response.json();
 			if (result.type === 'success') {
-				dispatch('contentUpdated', result.data);
+				oncontentUpdated?.(result.data);
 			}
 		});
 	}
-	$: scheduledDateValue = formatDateForInput(editingContent.scheduled_date);
 </script>
 
-<form on:submit={handleSubmit} method="POST" class="!my-0 mx-auto w-full max-w-4xl space-y-6 !pt-0">
+<form onsubmit={handleSubmit} method="POST" class="editor-form">
 	{#if contentItem}
 		<input type="hidden" name="id" value={contentItem.id} />
 	{/if}
 
-	<Accordion flush class="!mt-0 pt-0">
-		<AccordionItem class="!mt-0 pt-0">
-			<span slot="header" class="!mt-0 pt-0"
-				>{campaigns.find((c) => c.id === editingContent.campaign_id)?.name || 'No Campaign'}- {new Date(
+	<div class="accordion">
+		<button type="button" class="accordion-header" onclick={() => (accordionOpen = !accordionOpen)}>
+			<span>
+				{campaigns.find((c) => c.id === editingContent.campaign_id)?.name || 'No Campaign'} - {new Date(
 					scheduledDateValue
 				)
 					.toISOString()
-					.split('T')[0]}</span
+					.split('T')[0]}
+			</span>
+			<svg
+				class="accordion-chevron"
+				class:accordion-open={accordionOpen}
+				xmlns="http://www.w3.org/2000/svg"
+				width="16"
+				height="16"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2"
 			>
-			<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-				<div class="space-y-4">
-					{#if !contentItem}
-						<Label class="space-y-2">
-							<span class="text-sm font-medium text-gray-700">Select Template</span>
-							<Select on:change={handleTemplateSelection} class="w-full">
-								<option value="">No Template</option>
-								{#each templates as template}
-									<option value={template.id}
-										>{template.type} - {template.purpose_description}</option
-									>
-								{/each}
-							</Select>
-						</Label>
-					{/if}
+				<path d="m6 9 6 6 6-6" />
+			</svg>
+		</button>
 
-					<Label class="space-y-2">
-						<span class="text-sm font-medium text-gray-700">Scheduled Date</span>
-						<Input
-							type="datetime-local"
-							name="scheduled_date"
-							value={scheduledDateValue}
-							on:input={(e) => updateEditingContent('scheduled_date', e.currentTarget.value)}
-							required
-							class="w-full"
-						/>
-					</Label>
-					<Label class="space-y-2">
-						<span class="text-sm font-medium text-gray-700">Platform</span>
-						<Select
-							name="platform"
-							value={editingContent.platform || ''}
-							on:change={(e) => updateEditingContent('platform', e.currentTarget.value)}
-							required
-							class="w-full"
-						>
-							<option value="twitter">Twitter</option>
-							<option value="instagram">Instagram</option>
-							<option value="linkedin">LinkedIn</option>
-						</Select>
-					</Label>
-					<Label class="space-y-2">
-						<span class="text-sm font-medium text-gray-700">Campaign</span>
-						<Select
-							name="campaign_id"
-							value={editingContent.campaign_id || ''}
-							on:change={(e) => updateEditingContent('campaign_id', e.currentTarget.value)}
-							class="w-full"
-						>
-							<option value="">No Campaign</option>
-							{#each campaigns as campaign}
-								<option value={campaign.id}>{campaign.name}</option>
-							{/each}
-						</Select>
-					</Label>
-					{#if contentItem}
-						<Label class="space-y-2">
-							<span class="text-sm font-medium text-gray-700">Status</span>
-							<Select
-								name="status"
-								value={editingContent.status || ''}
-								on:change={(e) => updateEditingContent('status', e.currentTarget.value)}
+		{#if accordionOpen}
+			<div class="accordion-content">
+				<div class="form-grid">
+					<div class="form-column">
+						{#if !contentItem}
+							<label class="field">
+								<span class="field-label">Select Template</span>
+								<select onchange={handleTemplateSelection} class="field-input">
+									<option value="">No Template</option>
+									{#each templates as template}
+										<option value={template.id}
+											>{template.type} - {template.purpose_description}</option
+										>
+									{/each}
+								</select>
+							</label>
+						{/if}
+
+						<label class="field">
+							<span class="field-label">Scheduled Date</span>
+							<input
+								type="datetime-local"
+								name="scheduled_date"
+								value={scheduledDateValue}
+								oninput={(e) => updateEditingContent('scheduled_date', e.currentTarget.value)}
 								required
-								class="w-full"
+								class="field-input"
+							/>
+						</label>
+						<label class="field">
+							<span class="field-label">Platform</span>
+							<select
+								name="platform"
+								value={editingContent.platform || ''}
+								onchange={(e) => updateEditingContent('platform', e.currentTarget.value)}
+								required
+								class="field-input"
 							>
-								<option value="scheduled">Scheduled</option>
-								<option value="posted">Posted</option>
-								<option value="cancelled">Cancelled</option>
-							</Select>
-						</Label>
-					{/if}
-				</div>
-				<div class="space-y-4">
-					<Label class="space-y-2">
-						<span class="text-sm font-medium text-gray-700">Content Promotion Accounts</span>
-						<Input
-							type="text"
-							name="content_promotion_accounts"
-							value={editingContent.content_promotion_accounts || ''}
-							on:input={(e) =>
-								updateEditingContent('content_promotion_accounts', e.currentTarget.value)}
-							class="w-full"
-						/>
-					</Label>
-					<Label class="space-y-2">
-						<span class="text-sm font-medium text-gray-700">Content Hashtags</span>
-						<Input
-							type="text"
-							name="content_hashtags"
-							value={editingContent.content_hashtags || ''}
-							on:input={(e) => updateEditingContent('content_hashtags', e.currentTarget.value)}
-							class="w-full"
-						/>
-					</Label>
-					<Label class="space-y-2">
-						<span class="text-sm font-medium text-gray-700">Content Themes</span>
-						<Input
-							type="text"
-							name="content_themes"
-							value={editingContent.content_themes || ''}
-							on:input={(e) => updateEditingContent('content_themes', e.currentTarget.value)}
-							class="w-full"
-						/>
-					</Label>
-				</div>
-			</div>
-		</AccordionItem>
-	</Accordion>
-
-	<div class="mx-auto max-w-[700px] space-y-2">
-		<div class="flex items-center justify-between">
-			<span class="text-sm font-medium text-gray-700">Content Text</span>
-			<Toggle bind:checked={isThreadView} on:change={toggleThreadView} class="mr-2"
-				>Thread View</Toggle
-			>
-		</div>
-		{#if isThreadView}
-			{#each threadBlocks as block, index}
-				<div class="relative">
-					<Textarea
-						value={block}
-						on:input={(e) => updateThreadBlock(index, e.currentTarget.value)}
-						rows="6"
-						class="w-full resize-y {block.length > MAX_CHARS ? 'border-red-500' : ''}"
-					/>
-					<div
-						class="absolute bottom-2 left-2 text-sm {block.length > MAX_CHARS
-							? 'text-red-500'
-							: 'text-gray-500'}"
-					>
-						{block.length}/{MAX_CHARS}
-						<button
-							type="button"
-							color="red"
-							class="mx-1 hover:text-red-500"
-							on:click={() => confirmDeleteBlock(index)}>Delete</button
-						>
+								<option value="twitter">Twitter</option>
+								<option value="instagram">Instagram</option>
+								<option value="linkedin">LinkedIn</option>
+							</select>
+						</label>
+						<label class="field">
+							<span class="field-label">Campaign</span>
+							<select
+								name="campaign_id"
+								value={editingContent.campaign_id || ''}
+								onchange={(e) => updateEditingContent('campaign_id', e.currentTarget.value)}
+								class="field-input"
+							>
+								<option value="">No Campaign</option>
+								{#each campaigns as campaign}
+									<option value={campaign.id}>{campaign.name}</option>
+								{/each}
+							</select>
+						</label>
+						{#if contentItem}
+							<label class="field">
+								<span class="field-label">Status</span>
+								<select
+									name="status"
+									value={editingContent.status || ''}
+									onchange={(e) => updateEditingContent('status', e.currentTarget.value)}
+									required
+									class="field-input"
+								>
+									<option value="scheduled">Scheduled</option>
+									<option value="posted">Posted</option>
+									<option value="cancelled">Cancelled</option>
+								</select>
+							</label>
+						{/if}
+					</div>
+					<div class="form-column">
+						<label class="field">
+							<span class="field-label">Content Promotion Accounts</span>
+							<input
+								type="text"
+								name="content_promotion_accounts"
+								value={editingContent.content_promotion_accounts || ''}
+								oninput={(e) =>
+									updateEditingContent('content_promotion_accounts', e.currentTarget.value)}
+								class="field-input"
+							/>
+						</label>
+						<label class="field">
+							<span class="field-label">Content Hashtags</span>
+							<input
+								type="text"
+								name="content_hashtags"
+								value={editingContent.content_hashtags || ''}
+								oninput={(e) => updateEditingContent('content_hashtags', e.currentTarget.value)}
+								class="field-input"
+							/>
+						</label>
+						<label class="field">
+							<span class="field-label">Content Themes</span>
+							<input
+								type="text"
+								name="content_themes"
+								value={editingContent.content_themes || ''}
+								oninput={(e) => updateEditingContent('content_themes', e.currentTarget.value)}
+								class="field-input"
+							/>
+						</label>
 					</div>
 				</div>
-			{/each}
-			<Button on:click={addThreadBlock} class="mt-2">Add Tweet</Button>
-		{:else}
-			<Textarea
-				name="content_text"
-				value={contentTextWithoutSeparators}
-				on:input={handleContentTextInput}
-				required
-				rows="8"
-				class="w-full resize-y"
-			/>
+			</div>
 		{/if}
 	</div>
 
-	<div class="flex justify-end space-x-4">
-		<Button type="submit" class="px-6 py-2">{contentItem ? 'Update' : 'Create'} Content</Button>
-		<Button color="alternative" on:click={handleCancel} class="px-6 py-2">Cancel</Button>
+	<div class="content-section">
+		<div class="content-header">
+			<span class="field-label">Content Text</span>
+			<label class="toggle-label">
+				<input
+					type="checkbox"
+					bind:checked={isThreadView}
+					onchange={toggleThreadView}
+					class="toggle-input"
+				/>
+				<span class="toggle-switch"></span>
+				<span class="toggle-text">Thread View</span>
+			</label>
+		</div>
+		{#if isThreadView}
+			{#each threadBlocks as block, index}
+				<div class="thread-block">
+					<textarea
+						value={block}
+						oninput={(e) => updateThreadBlock(index, e.currentTarget.value)}
+						rows="6"
+						class="field-input field-textarea"
+						class:over-limit={block.length > MAX_CHARS}
+					></textarea>
+					<div class="thread-footer" class:over-limit={block.length > MAX_CHARS}>
+						{block.length}/{MAX_CHARS}
+						<button type="button" class="delete-link" onclick={() => confirmDeleteBlock(index)}>
+							Delete
+						</button>
+					</div>
+				</div>
+			{/each}
+			<button type="button" class="btn btn-secondary" onclick={addThreadBlock}>Add Tweet</button>
+		{:else}
+			<textarea
+				name="content_text"
+				value={contentTextWithoutSeparators}
+				oninput={handleContentTextInput}
+				required
+				rows="8"
+				class="field-input field-textarea"
+			></textarea>
+		{/if}
+	</div>
+
+	<div class="form-actions">
+		<button type="submit" class="btn btn-primary">
+			{contentItem ? 'Update' : 'Create'} Content
+		</button>
+		<button type="button" class="btn btn-secondary" onclick={() => oncancel?.()}>Cancel</button>
 	</div>
 </form>
 
-<Modal bind:open={showDeleteConfirmation} size="sm">
-	<div class="text-center">
-		<h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">
-			Are you sure you want to delete this tweet?
-		</h3>
-		<div class="flex justify-center gap-4">
-			<Button color="red" on:click={() => deleteThreadBlock(blockToDelete)}>Yes, I'm sure</Button>
-			<Button color="alternative" on:click={() => (showDeleteConfirmation = false)}>
-				No, cancel
-			</Button>
+{#if showDeleteConfirmation}
+	<div class="modal-overlay" onclick={() => (showDeleteConfirmation = false)} role="presentation">
+		<div class="modal-dialog" onclick={(e) => e.stopPropagation()} role="dialog">
+			<h3 class="modal-title">Are you sure you want to delete this tweet?</h3>
+			<div class="modal-actions">
+				<button class="btn btn-danger" onclick={() => deleteThreadBlock(blockToDelete!)}>
+					Yes, I'm sure
+				</button>
+				<button class="btn btn-secondary" onclick={() => (showDeleteConfirmation = false)}>
+					No, cancel
+				</button>
+			</div>
 		</div>
 	</div>
-</Modal>
+{/if}
+
+<style>
+	.editor-form {
+		width: 100%;
+		max-width: 56rem;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.accordion {
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.accordion-header {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.75rem 1rem;
+		background: var(--void-surface);
+		border: none;
+		color: var(--text-primary);
+		font-size: 0.875rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: background 0.15s ease;
+	}
+
+	.accordion-header:hover {
+		background: var(--void-elevated);
+	}
+
+	.accordion-chevron {
+		transition: transform 0.2s ease;
+	}
+
+	.accordion-chevron.accordion-open {
+		transform: rotate(180deg);
+	}
+
+	.accordion-content {
+		padding: 1rem;
+		border-top: 1px solid var(--void-elevated);
+		background: var(--void-deep);
+	}
+
+	.form-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1.5rem;
+	}
+
+	.form-column {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.field {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+	}
+
+	.field-label {
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: var(--text-primary);
+	}
+
+	.field-input {
+		width: 100%;
+		padding: 0.5rem 0.75rem;
+		font-size: 0.875rem;
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
+		transition: border-color 0.15s ease;
+	}
+
+	.field-input:focus {
+		outline: none;
+		border-color: var(--shadow-monarch);
+	}
+
+	.field-textarea {
+		resize: vertical;
+		min-height: 80px;
+	}
+
+	.field-input.over-limit {
+		border-color: #ef4444;
+	}
+
+	.content-section {
+		max-width: 700px;
+		margin: 0 auto;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.content-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.toggle-label {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		cursor: pointer;
+	}
+
+	.toggle-input {
+		display: none;
+	}
+
+	.toggle-switch {
+		position: relative;
+		width: 36px;
+		height: 20px;
+		background: var(--void-elevated);
+		border-radius: 10px;
+		transition: background 0.2s ease;
+	}
+
+	.toggle-switch::after {
+		content: '';
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		width: 16px;
+		height: 16px;
+		background: white;
+		border-radius: 50%;
+		transition: transform 0.2s ease;
+	}
+
+	.toggle-input:checked + .toggle-switch {
+		background: var(--shadow-monarch);
+	}
+
+	.toggle-input:checked + .toggle-switch::after {
+		transform: translateX(16px);
+	}
+
+	.toggle-text {
+		font-size: 0.8125rem;
+		color: var(--text-secondary);
+	}
+
+	.thread-block {
+		position: relative;
+		margin-bottom: 0.5rem;
+	}
+
+	.thread-footer {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		padding: 0.25rem 0.5rem;
+	}
+
+	.thread-footer.over-limit {
+		color: #ef4444;
+	}
+
+	.delete-link {
+		background: none;
+		border: none;
+		color: var(--text-secondary);
+		cursor: pointer;
+		font-size: 0.75rem;
+		padding: 0;
+	}
+
+	.delete-link:hover {
+		color: #ef4444;
+	}
+
+	.form-actions {
+		display: flex;
+		justify-content: flex-end;
+		gap: 1rem;
+	}
+
+	.btn {
+		padding: 0.5rem 1.5rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		border-radius: 8px;
+		border: none;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.btn-primary {
+		background: var(--shadow-monarch);
+		color: white;
+	}
+
+	.btn-primary:hover {
+		filter: brightness(1.1);
+		box-shadow: var(--glow-sm);
+	}
+
+	.btn-secondary {
+		background: var(--void-elevated);
+		color: var(--text-primary);
+	}
+
+	.btn-secondary:hover {
+		background: var(--void-highlight);
+	}
+
+	.btn-danger {
+		background: #ef4444;
+		color: white;
+	}
+
+	.btn-danger:hover {
+		background: #dc2626;
+	}
+
+	/* Modal */
+	.modal-overlay {
+		position: fixed;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.6);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 50;
+	}
+
+	.modal-dialog {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		padding: 1.5rem;
+		max-width: 400px;
+		width: 90%;
+		text-align: center;
+	}
+
+	.modal-title {
+		margin: 0 0 1.25rem 0;
+		font-size: 1rem;
+		font-weight: 500;
+		color: var(--text-primary);
+	}
+
+	.modal-actions {
+		display: flex;
+		justify-content: center;
+		gap: 0.75rem;
+	}
+
+	@media (max-width: 768px) {
+		.form-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

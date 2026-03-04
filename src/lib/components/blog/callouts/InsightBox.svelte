@@ -49,7 +49,7 @@
 		margin: 1.5rem 0;
 		padding: 1rem 1.25rem;
 		border-radius: 10px;
-		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
+		background: linear-gradient(135deg, var(--void-surface) 0%, #16161e 50%, var(--void-deep) 100%);
 		border: 1px solid rgba(100, 116, 139, 0.2);
 		box-shadow:
 			0 4px 16px rgba(0, 0, 0, 0.25),
@@ -93,17 +93,17 @@
 	.insight-box__content {
 		font-size: 0.9rem;
 		line-height: 1.65;
-		color: #cbd5e1;
+		color: var(--text-secondary);
 
 		:global(strong),
 		:global(b) {
-			color: #f1f5f9;
+			color: var(--text-primary);
 			font-weight: 600;
 		}
 
 		:global(p) {
 			margin: 0;
-			color: #cbd5e1;
+			color: var(--text-secondary);
 
 			& + :global(p) {
 				margin-top: 0.5rem;
@@ -111,10 +111,10 @@
 		}
 
 		:global(a) {
-			color: #a78bfa;
+			color: var(--shadow-monarch-lighter);
 
 			&:hover {
-				color: #c4b5fd;
+				color: var(--shadow-monarch-lightest);
 			}
 		}
 
@@ -122,7 +122,7 @@
 		:global(ol) {
 			margin: 0.5rem 0;
 			padding-left: 1.25rem;
-			color: #cbd5e1;
+			color: var(--text-secondary);
 		}
 
 		:global(li) {

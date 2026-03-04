@@ -622,7 +622,7 @@
 
 	/* Blog Preview - content-specific styles */
 	.blog-preview {
-		font-family: 'Noticia Text', serif;
+		font-family: var(--font-family);
 		line-height: 1.8;
 		color: var(--text-primary);
 

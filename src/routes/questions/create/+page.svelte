@@ -160,7 +160,7 @@
 					element.style.transform = 'none';
 					element.style.margin = '0';
 					element.style.padding = computedStyle.padding;
-					element.style.fontFamily = '"Noticia Text", serif';
+					element.style.fontFamily = '"Space Grotesk", sans-serif';
 					element.style.width = `${width}px`;
 					element.style.height = `${parseInt(computedStyle.height)}px`;
 					element.style.fontSize = computedStyle.fontSize;

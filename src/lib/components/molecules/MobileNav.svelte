@@ -250,7 +250,7 @@
 		}
 
 		&:focus-visible {
-			outline: 2px solid #a78bfa;
+			outline: 2px solid var(--shadow-monarch-lighter);
 			outline-offset: 2px;
 		}
 	}
@@ -269,7 +269,7 @@
 	.line {
 		width: 100%;
 		height: 2px;
-		background-color: #f1f5f9;
+		background-color: var(--text-primary);
 		border-radius: 2px;
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		transform-origin: center;
@@ -305,7 +305,7 @@
 
 	/* Navigation Panel */
 	.mobile-nav-panel {
-		background-color: #12121a;
+		background-color: var(--void-deep);
 		width: 320px;
 		max-width: 85vw;
 		height: 100vh;
@@ -328,7 +328,7 @@
 	.nav-title {
 		font-size: 1.25rem;
 		font-weight: 600;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		margin: 0;
 	}
 
@@ -337,17 +337,17 @@
 		border: none;
 		cursor: pointer;
 		padding: 8px;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		border-radius: 6px;
 		transition: all 0.2s ease;
 
 		&:hover {
 			background-color: rgba(124, 58, 237, 0.2);
-			color: #f1f5f9;
+			color: var(--text-primary);
 		}
 
 		&:focus-visible {
-			outline: 2px solid #a78bfa;
+			outline: 2px solid var(--shadow-monarch-lighter);
 			outline-offset: 2px;
 		}
 	}
@@ -375,7 +375,7 @@
 	.nav-link {
 		display: block;
 		padding: 0.875rem 1.25rem;
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		text-decoration: none;
 		font-size: 1.125rem;
 		font-weight: 500;
@@ -384,18 +384,18 @@
 
 		&:hover {
 			background-color: rgba(124, 58, 237, 0.1);
-			color: #a78bfa;
+			color: var(--shadow-monarch-lighter);
 		}
 
 		&.active {
 			background-color: rgba(124, 58, 237, 0.15);
-			color: #a78bfa;
-			border-left-color: #7c3aed;
+			color: var(--shadow-monarch-lighter);
+			border-left-color: var(--shadow-monarch);
 			font-weight: 600;
 		}
 
 		&:focus-visible {
-			outline: 2px solid #a78bfa;
+			outline: 2px solid var(--shadow-monarch-lighter);
 			outline-offset: -2px;
 		}
 	}
@@ -413,7 +413,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 0.875rem 1.25rem;
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		font-size: 1.125rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -422,18 +422,18 @@
 
 		&:hover {
 			background-color: rgba(124, 58, 237, 0.1);
-			color: #a78bfa;
+			color: var(--shadow-monarch-lighter);
 		}
 
 		&:focus-visible {
-			outline: 2px solid #a78bfa;
+			outline: 2px solid var(--shadow-monarch-lighter);
 			outline-offset: -2px;
 		}
 	}
 
 	.dropdown-arrow {
 		transition: transform 0.3s ease;
-		color: #64748b;
+		color: var(--text-tertiary);
 
 		&.rotated {
 			transform: rotate(180deg);
@@ -444,7 +444,7 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		background-color: #0a0a0f;
+		background-color: var(--void-abyss);
 		border-top: 1px solid rgba(100, 116, 139, 0.3);
 	}
 
@@ -456,7 +456,7 @@
 	.submenu-link {
 		display: block;
 		padding: 0.75rem 1.25rem 0.75rem 2.5rem;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		text-decoration: none;
 		font-size: 1rem;
 		font-weight: 400;
@@ -465,18 +465,18 @@
 
 		&:hover {
 			background-color: rgba(124, 58, 237, 0.1);
-			color: #a78bfa;
+			color: var(--shadow-monarch-lighter);
 		}
 
 		&.active {
 			background-color: rgba(124, 58, 237, 0.15);
-			color: #a78bfa;
-			border-left-color: #7c3aed;
+			color: var(--shadow-monarch-lighter);
+			border-left-color: var(--shadow-monarch);
 			font-weight: 500;
 		}
 
 		&:focus-visible {
-			outline: 2px solid #a78bfa;
+			outline: 2px solid var(--shadow-monarch-lighter);
 			outline-offset: -2px;
 		}
 	}
@@ -491,7 +491,7 @@
 		display: block;
 		width: 100%;
 		padding: 0.875rem 1.25rem;
-		background-color: #7c3aed;
+		background-color: var(--shadow-monarch);
 		color: white;
 		text-align: center;
 		text-decoration: none;
@@ -502,13 +502,13 @@
 		box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
 
 		&:hover {
-			background-color: #6d28d9;
+			background-color: var(--shadow-monarch-dark);
 			transform: translateY(-1px);
 			box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
 		}
 
 		&:focus-visible {
-			outline: 2px solid #a78bfa;
+			outline: 2px solid var(--shadow-monarch-lighter);
 			outline-offset: 2px;
 		}
 	}

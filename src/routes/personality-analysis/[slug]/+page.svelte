@@ -450,7 +450,7 @@
 			transition: color 0.2s ease;
 
 			&:hover {
-				color: #c4b5fd;
+				color: var(--shadow-monarch-lightest);
 				text-decoration: underline;
 			}
 		}

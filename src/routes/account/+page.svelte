@@ -508,7 +508,7 @@
 			}
 
 			.type-name {
-				color: #c4b5fd;
+				color: var(--shadow-monarch-lightest);
 			}
 		}
 

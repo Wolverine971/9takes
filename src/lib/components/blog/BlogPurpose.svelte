@@ -62,6 +62,7 @@
 <style lang="scss">
 	.blog-purpose {
 		width: 100%;
+		max-width: 48rem;
 		margin: 2rem auto;
 		border-radius: 16px;
 		overflow: hidden;
@@ -72,6 +73,7 @@
 
 		@media (min-width: 768px) {
 			display: flex;
+			align-items: stretch;
 		}
 	}
 
@@ -82,7 +84,7 @@
 		overflow: hidden;
 
 		@media (min-width: 768px) {
-			flex: 0 0 40%;
+			flex: 0 0 38%;
 			padding: 2rem 1.5rem;
 			display: flex;
 			align-items: center;
@@ -202,7 +204,7 @@
 		@media (min-width: 768px) {
 			flex: 1;
 			min-width: 0;
-			padding: 1.5rem;
+			padding: 1.5rem 2rem;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -214,16 +216,18 @@
 			font-size: 1rem;
 			font-weight: 600;
 			text-align: center;
-			margin: 0 0 0.75rem;
+			margin: 0 0 0.5rem;
 
 			@media (min-width: 768px) {
 				font-size: 1.125rem;
+				margin: 0 0 0.25rem;
 			}
 		}
 	}
 
 	.diagram-container {
 		width: 100%;
+		max-width: 20rem;
 		margin: 0 auto;
 	}
 </style>

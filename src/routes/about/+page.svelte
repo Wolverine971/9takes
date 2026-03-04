@@ -678,7 +678,7 @@
 			font-weight: 600;
 
 			&:hover {
-				color: #c4b5fd;
+				color: var(--shadow-monarch-lightest);
 				text-decoration: underline;
 			}
 		}
@@ -801,7 +801,7 @@
 		text-decoration: none;
 
 		&:hover {
-			color: #c4b5fd;
+			color: var(--shadow-monarch-lightest);
 			text-decoration: underline;
 		}
 	}
@@ -1051,7 +1051,7 @@
 
 			&:hover {
 				text-decoration: underline;
-				color: #c4b5fd;
+				color: var(--shadow-monarch-lightest);
 			}
 		}
 	}
@@ -1131,7 +1131,7 @@
 				text-decoration: underline;
 
 				&:hover {
-					color: #c4b5fd;
+					color: var(--shadow-monarch-lightest);
 				}
 			}
 		}

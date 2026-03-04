@@ -1,37 +1,39 @@
 <!-- src/lib/components/marketing/TemplateManager.svelte -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import { Button, Card, Input, Label, Textarea, Modal, Badge } from 'flowbite-svelte';
 	import { fade, slide } from 'svelte/transition';
 	import type { Template } from '$lib/types/marketing';
 
-	export let templates: Template[];
+	let { templates }: { templates: Template[] } = $props();
 
-	let editingTemplate: Partial<Template> | null = null;
-	let showCreateModal = false;
-	let showEditModal = false;
-	let searchTerm = '';
-	let showDeleteConfirm = false;
-	let templateToDelete: Template | null = null;
+	let editingTemplate: Partial<Template> | null = $state(null);
+	let showCreateModal = $state(false);
+	let showEditModal = $state(false);
+	let searchTerm = $state('');
+	let showDeleteConfirm = $state(false);
+	let templateToDelete: Template | null = $state(null);
 
-	// Group templates by type
-	$: filteredTemplates = templates.filter(
-		(t) =>
-			searchTerm === '' ||
-			t.type.toLowerCase().includes(searchTerm.toLowerCase()) ||
-			t.content_text.toLowerCase().includes(searchTerm.toLowerCase()) ||
-			(t.purpose_description &&
-				t.purpose_description.toLowerCase().includes(searchTerm.toLowerCase()))
+	let filteredTemplates = $derived(
+		templates.filter(
+			(t) =>
+				searchTerm === '' ||
+				t.type.toLowerCase().includes(searchTerm.toLowerCase()) ||
+				t.content_text.toLowerCase().includes(searchTerm.toLowerCase()) ||
+				(t.purpose_description &&
+					t.purpose_description.toLowerCase().includes(searchTerm.toLowerCase()))
+		)
 	);
 
-	$: groupedTemplates = filteredTemplates.reduce(
-		(acc, template) => {
-			const type = template.type || 'Other';
-			if (!acc[type]) acc[type] = [];
-			acc[type].push(template);
-			return acc;
-		},
-		{} as Record<string, Template[]>
+	let groupedTemplates = $derived(
+		filteredTemplates.reduce(
+			(acc, template) => {
+				const type = template.type || 'Other';
+				if (!acc[type]) acc[type] = [];
+				acc[type].push(template);
+				return acc;
+			},
+			{} as Record<string, Template[]>
+		)
 	);
 
 	function openCreateModal() {
@@ -63,7 +65,7 @@
 	}
 
 	function handleCreateTemplate(event: SubmitEvent) {
-		return ({ result }) => {
+		return ({ result }: any) => {
 			if (result.type === 'success') {
 				closeCreateModal();
 				templates = [...templates, result.data.template];
@@ -72,7 +74,7 @@
 	}
 
 	function handleUpdateTemplate() {
-		return ({ result }) => {
+		return ({ result }: any) => {
 			if (result.type === 'success') {
 				closeEditModal();
 				const index = templates.findIndex((t) => t.id === result.data.template.id);
@@ -124,7 +126,7 @@
 					class="search-input"
 				/>
 			</div>
-			<Button on:click={openCreateModal} size="sm" color="blue">
+			<button class="btn btn-primary" onclick={openCreateModal}>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="16"
@@ -133,13 +135,12 @@
 					fill="none"
 					stroke="currentColor"
 					stroke-width="2"
-					class="mr-1"
 				>
 					<path d="M5 12h14" />
 					<path d="M12 5v14" />
 				</svg>
 				New Template
-			</Button>
+			</button>
 		</div>
 	</div>
 
@@ -149,13 +150,13 @@
 			<div class="type-section" transition:slide={{ duration: 200 }}>
 				<div class="type-header">
 					<h3>{type}</h3>
-					<Badge color="dark" rounded>{typeTemplates.length}</Badge>
+					<span class="type-count">{typeTemplates.length}</span>
 				</div>
 				<div class="templates-grid">
 					{#each typeTemplates as template (template.id)}
 						<div class="template-card" transition:fade={{ duration: 150 }}>
 							<div class="card-header">
-								<Badge color="blue" rounded>{template.type}</Badge>
+								<span class="type-badge">{template.type}</span>
 							</div>
 
 							<div class="card-body">
@@ -169,7 +170,7 @@
 							</div>
 
 							<div class="card-actions">
-								<button class="action-btn edit" on:click={() => openEditModal(template)}>
+								<button class="action-btn edit" onclick={() => openEditModal(template)}>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										width="16"
@@ -184,7 +185,7 @@
 									</svg>
 									Edit
 								</button>
-								<button class="action-btn delete" on:click={() => confirmDelete(template)}>
+								<button class="action-btn delete" onclick={() => confirmDelete(template)}>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										width="16"
@@ -208,7 +209,6 @@
 			</div>
 		{/each}
 	{:else}
-		<!-- Empty State -->
 		<div class="empty-state" transition:fade={{ duration: 150 }}>
 			<div class="empty-icon">
 				<svg
@@ -228,13 +228,11 @@
 			{#if searchTerm}
 				<h3>No templates match your search</h3>
 				<p>Try a different search term</p>
-				<Button color="alternative" size="sm" on:click={() => (searchTerm = '')}
-					>Clear Search</Button
-				>
+				<button class="btn btn-secondary" onclick={() => (searchTerm = '')}>Clear Search</button>
 			{:else}
 				<h3>No templates yet</h3>
 				<p>Create reusable content templates to speed up your workflow</p>
-				<Button color="blue" size="sm" on:click={openCreateModal}>
+				<button class="btn btn-primary" onclick={openCreateModal}>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="16"
@@ -243,138 +241,165 @@
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
-						class="mr-1"
 					>
 						<path d="M5 12h14" />
 						<path d="M12 5v14" />
 					</svg>
 					Create Template
-				</Button>
+				</button>
 			{/if}
 		</div>
 	{/if}
 </div>
 
 <!-- Create Modal -->
-<Modal bind:open={showCreateModal} size="lg" autoclose={false} class="w-full">
-	<h3 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Create New Template</h3>
-	<form
-		action="?/createTemplate"
-		method="POST"
-		use:enhance={handleCreateTemplate}
-		class="space-y-4"
-	>
-		<Label class="space-y-2">
-			<span>Type / Category</span>
-			<Input type="text" name="type" required placeholder="e.g., Tweet, Thread Opener, CTA" />
-		</Label>
-		<Label class="space-y-2">
-			<span>Content Text</span>
-			<Textarea
-				name="content_text"
-				required
-				rows="6"
-				placeholder="Enter your template content..."
-			/>
-		</Label>
-		<Label class="space-y-2">
-			<span>Purpose Description</span>
-			<Textarea
-				name="purpose_description"
-				required
-				rows="3"
-				placeholder="Describe when to use this template..."
-			/>
-		</Label>
-		<div class="flex justify-end gap-2 pt-2">
-			<Button color="alternative" on:click={closeCreateModal}>Cancel</Button>
-			<Button type="submit" color="blue">Create Template</Button>
-		</div>
-	</form>
-</Modal>
-
-<!-- Edit Modal -->
-<Modal bind:open={showEditModal} size="lg" autoclose={false} class="w-full">
-	<h3 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Edit Template</h3>
-	{#if editingTemplate}
-		<form
-			action="?/updateTemplate"
-			method="POST"
-			use:enhance={handleUpdateTemplate}
-			class="space-y-4"
-		>
-			<input type="hidden" name="id" value={editingTemplate.id} />
-			<Label class="space-y-2">
-				<span>Type / Category</span>
-				<Input type="text" name="type" bind:value={editingTemplate.type} required />
-			</Label>
-			<Label class="space-y-2">
-				<span>Content Text</span>
-				<Textarea name="content_text" bind:value={editingTemplate.content_text} required rows="6" />
-			</Label>
-			<Label class="space-y-2">
-				<span>Purpose Description</span>
-				<Textarea
-					name="purpose_description"
-					bind:value={editingTemplate.purpose_description}
-					required
-					rows="3"
-				/>
-			</Label>
-			<div class="flex justify-end gap-2 pt-2">
-				<Button color="alternative" on:click={closeEditModal}>Cancel</Button>
-				<Button type="submit" color="blue">Save Changes</Button>
-			</div>
-		</form>
-	{/if}
-</Modal>
-
-<!-- Delete Confirmation Modal -->
-<Modal bind:open={showDeleteConfirm} size="sm" autoclose={false}>
-	<div class="text-center">
-		<div
-			class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-red-100 dark:bg-red-900/30"
-		>
-			<svg
-				class="h-6 w-6 text-red-600 dark:text-red-400"
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke="currentColor"
-				stroke-width="2"
+{#if showCreateModal}
+	<div class="modal-overlay" onclick={closeCreateModal} role="presentation">
+		<div class="modal-dialog modal-lg" onclick={(e) => e.stopPropagation()} role="dialog">
+			<h3 class="modal-title">Create New Template</h3>
+			<form
+				action="?/createTemplate"
+				method="POST"
+				use:enhance={handleCreateTemplate}
+				class="modal-form"
 			>
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-				/>
-			</svg>
-		</div>
-		<h3 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Delete Template?</h3>
-		<p class="mb-5 text-sm text-gray-500 dark:text-gray-400">
-			This will permanently delete "{templateToDelete?.type}". This action cannot be undone.
-		</p>
-		<div class="flex justify-center gap-3">
-			<Button color="alternative" on:click={cancelDelete}>Cancel</Button>
-			{#if templateToDelete}
-				<form
-					action="?/deleteTemplate"
-					method="POST"
-					use:enhance={() => {
-						return ({ result }) => {
-							if (result.type === 'success' && templateToDelete) {
-								handleDeleteTemplate(templateToDelete.id);
-							}
-						};
-					}}
-				>
-					<input type="hidden" name="id" value={templateToDelete.id} />
-					<Button type="submit" color="red">Delete</Button>
-				</form>
-			{/if}
+				<label class="field">
+					<span class="field-label">Type / Category</span>
+					<input
+						type="text"
+						name="type"
+						required
+						placeholder="e.g., Tweet, Thread Opener, CTA"
+						class="field-input"
+					/>
+				</label>
+				<label class="field">
+					<span class="field-label">Content Text</span>
+					<textarea
+						name="content_text"
+						required
+						rows="6"
+						placeholder="Enter your template content..."
+						class="field-input field-textarea"
+					></textarea>
+				</label>
+				<label class="field">
+					<span class="field-label">Purpose Description</span>
+					<textarea
+						name="purpose_description"
+						required
+						rows="3"
+						placeholder="Describe when to use this template..."
+						class="field-input field-textarea"
+					></textarea>
+				</label>
+				<div class="modal-actions">
+					<button type="button" class="btn btn-secondary" onclick={closeCreateModal}>Cancel</button>
+					<button type="submit" class="btn btn-primary">Create Template</button>
+				</div>
+			</form>
 		</div>
 	</div>
-</Modal>
+{/if}
+
+<!-- Edit Modal -->
+{#if showEditModal && editingTemplate}
+	<div class="modal-overlay" onclick={closeEditModal} role="presentation">
+		<div class="modal-dialog modal-lg" onclick={(e) => e.stopPropagation()} role="dialog">
+			<h3 class="modal-title">Edit Template</h3>
+			<form
+				action="?/updateTemplate"
+				method="POST"
+				use:enhance={handleUpdateTemplate}
+				class="modal-form"
+			>
+				<input type="hidden" name="id" value={editingTemplate.id} />
+				<label class="field">
+					<span class="field-label">Type / Category</span>
+					<input
+						type="text"
+						name="type"
+						bind:value={editingTemplate.type}
+						required
+						class="field-input"
+					/>
+				</label>
+				<label class="field">
+					<span class="field-label">Content Text</span>
+					<textarea
+						name="content_text"
+						bind:value={editingTemplate.content_text}
+						required
+						rows="6"
+						class="field-input field-textarea"
+					></textarea>
+				</label>
+				<label class="field">
+					<span class="field-label">Purpose Description</span>
+					<textarea
+						name="purpose_description"
+						bind:value={editingTemplate.purpose_description}
+						required
+						rows="3"
+						class="field-input field-textarea"
+					></textarea>
+				</label>
+				<div class="modal-actions">
+					<button type="button" class="btn btn-secondary" onclick={closeEditModal}>Cancel</button>
+					<button type="submit" class="btn btn-primary">Save Changes</button>
+				</div>
+			</form>
+		</div>
+	</div>
+{/if}
+
+<!-- Delete Confirmation Modal -->
+{#if showDeleteConfirm && templateToDelete}
+	<div class="modal-overlay" onclick={cancelDelete} role="presentation">
+		<div class="modal-dialog modal-sm" onclick={(e) => e.stopPropagation()} role="dialog">
+			<div class="delete-confirm-content">
+				<div class="delete-icon-wrapper">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="#ef4444"
+						stroke-width="2"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+						/>
+					</svg>
+				</div>
+				<h3 class="modal-title">Delete Template?</h3>
+				<p class="delete-message">
+					This will permanently delete "{templateToDelete.type}". This action cannot be undone.
+				</p>
+				<div class="modal-actions modal-actions-center">
+					<button class="btn btn-secondary" onclick={cancelDelete}>Cancel</button>
+					<form
+						action="?/deleteTemplate"
+						method="POST"
+						use:enhance={() => {
+							return ({ result }) => {
+								if (result.type === 'success' && templateToDelete) {
+									handleDeleteTemplate(templateToDelete.id);
+								}
+							};
+						}}
+					>
+						<input type="hidden" name="id" value={templateToDelete.id} />
+						<button type="submit" class="btn btn-danger">Delete</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+{/if}
 
 <style>
 	.template-manager {
@@ -400,12 +425,12 @@
 		margin: 0;
 		font-size: 1.25rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.template-count {
 		font-size: 0.8125rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	.header-right {
@@ -424,7 +449,7 @@
 		left: 0.75rem;
 		top: 50%;
 		transform: translateY(-50%);
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		pointer-events: none;
 	}
 
@@ -432,15 +457,15 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem 0.5rem 2.25rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 0.5rem;
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary, #3b82f6);
+		border-color: var(--shadow-monarch);
 	}
 
 	.type-section {
@@ -453,14 +478,27 @@
 		gap: 0.5rem;
 		margin-bottom: 0.75rem;
 		padding-bottom: 0.5rem;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.type-header h3 {
 		margin: 0;
 		font-size: 0.9375rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
+	}
+
+	.type-count {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 20px;
+		padding: 0.125rem 0.5rem;
+		font-size: 0.6875rem;
+		font-weight: 600;
+		border-radius: 9999px;
+		background: var(--void-elevated);
+		color: var(--text-secondary);
 	}
 
 	.templates-grid {
@@ -470,22 +508,32 @@
 	}
 
 	.template-card {
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 0.75rem;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		overflow: hidden;
 		transition: all 0.15s ease;
 	}
 
 	.template-card:hover {
-		border-color: var(--primary, #3b82f6);
-		box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+		border-color: var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
 	}
 
 	.card-header {
 		padding: 0.75rem 1rem;
-		background: var(--hover-background, #f8fafc);
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-deep);
+		border-bottom: 1px solid var(--void-elevated);
+	}
+
+	.type-badge {
+		display: inline-block;
+		padding: 0.125rem 0.5rem;
+		font-size: 0.6875rem;
+		font-weight: 600;
+		border-radius: 9999px;
+		background: rgba(59, 130, 246, 0.15);
+		color: #60a5fa;
 	}
 
 	.card-body {
@@ -495,14 +543,14 @@
 	.content-preview {
 		margin: 0 0 0.75rem 0;
 		font-size: 0.875rem;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		line-height: 1.5;
 	}
 
 	.purpose-text {
 		margin: 0;
 		font-size: 0.8125rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	.purpose-label {
@@ -511,7 +559,7 @@
 
 	.card-actions {
 		display: flex;
-		border-top: 1px solid var(--border-color, #e2e8f0);
+		border-top: 1px solid var(--void-elevated);
 	}
 
 	.action-btn {
@@ -530,12 +578,12 @@
 	}
 
 	.action-btn.edit {
-		color: var(--primary, #3b82f6);
-		border-right: 1px solid var(--border-color, #e2e8f0);
+		color: var(--shadow-monarch);
+		border-right: 1px solid var(--void-elevated);
 	}
 
 	.action-btn.edit:hover {
-		background: rgba(59, 130, 246, 0.1);
+		background: rgba(99, 102, 241, 0.1);
 	}
 
 	.action-btn.delete {
@@ -556,7 +604,7 @@
 	}
 
 	.empty-icon {
-		color: var(--text-secondary, #94a3b8);
+		color: var(--text-secondary);
 		margin-bottom: 1rem;
 	}
 
@@ -564,13 +612,159 @@
 		margin: 0 0 0.5rem 0;
 		font-size: 1.125rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.empty-state p {
 		margin: 0 0 1rem 0;
 		font-size: 0.875rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
+	}
+
+	/* Buttons */
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.375rem;
+		padding: 0.5rem 1rem;
+		font-size: 0.8125rem;
+		font-weight: 500;
+		border-radius: 8px;
+		border: none;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.btn-primary {
+		background: var(--shadow-monarch);
+		color: white;
+	}
+
+	.btn-primary:hover {
+		filter: brightness(1.1);
+		box-shadow: var(--glow-sm);
+	}
+
+	.btn-secondary {
+		background: var(--void-elevated);
+		color: var(--text-primary);
+	}
+
+	.btn-secondary:hover {
+		background: var(--void-highlight);
+	}
+
+	.btn-danger {
+		background: #ef4444;
+		color: white;
+	}
+
+	.btn-danger:hover {
+		background: #dc2626;
+	}
+
+	/* Modals */
+	.modal-overlay {
+		position: fixed;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.6);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 50;
+	}
+
+	.modal-dialog {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		padding: 1.5rem;
+		width: 90%;
+	}
+
+	.modal-lg {
+		max-width: 600px;
+	}
+
+	.modal-sm {
+		max-width: 400px;
+	}
+
+	.modal-title {
+		margin: 0 0 1rem 0;
+		font-size: 1.125rem;
+		font-weight: 700;
+		color: var(--text-primary);
+	}
+
+	.modal-form {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.modal-actions {
+		display: flex;
+		justify-content: flex-end;
+		gap: 0.5rem;
+		padding-top: 0.5rem;
+	}
+
+	.modal-actions-center {
+		justify-content: center;
+	}
+
+	.field {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+	}
+
+	.field-label {
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: var(--text-primary);
+	}
+
+	.field-input {
+		width: 100%;
+		padding: 0.5rem 0.75rem;
+		font-size: 0.875rem;
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
+	}
+
+	.field-input:focus {
+		outline: none;
+		border-color: var(--shadow-monarch);
+	}
+
+	.field-textarea {
+		resize: vertical;
+		min-height: 80px;
+	}
+
+	.delete-confirm-content {
+		text-align: center;
+	}
+
+	.delete-icon-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 48px;
+		height: 48px;
+		margin: 0 auto 1rem;
+		border-radius: 50%;
+		background: rgba(239, 68, 68, 0.1);
+	}
+
+	.delete-message {
+		font-size: 0.875rem;
+		color: var(--text-secondary);
+		margin: 0 0 1.25rem 0;
 	}
 
 	@media (max-width: 768px) {
@@ -590,52 +784,6 @@
 
 		.templates-grid {
 			grid-template-columns: 1fr;
-		}
-	}
-
-	@media (prefers-color-scheme: dark) {
-		.header-left h2 {
-			color: #f9fafb;
-		}
-
-		.type-header h3 {
-			color: #f9fafb;
-		}
-
-		.type-header {
-			border-color: #374151;
-		}
-
-		.search-input {
-			background: #1f2937;
-			border-color: #374151;
-			color: #f9fafb;
-		}
-
-		.template-card {
-			background: #1f2937;
-			border-color: #374151;
-		}
-
-		.card-header {
-			background: #111827;
-			border-color: #374151;
-		}
-
-		.content-preview {
-			color: #f9fafb;
-		}
-
-		.card-actions {
-			border-color: #374151;
-		}
-
-		.action-btn.edit {
-			border-color: #374151;
-		}
-
-		.empty-state h3 {
-			color: #f9fafb;
 		}
 	}
 </style>

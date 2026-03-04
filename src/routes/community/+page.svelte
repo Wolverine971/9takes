@@ -467,7 +467,7 @@
 
 		&.new {
 			background: rgba(124, 58, 237, 0.3);
-			color: #c4b5fd;
+			color: var(--shadow-monarch-lightest);
 			box-shadow: 0 0 8px rgba(124, 58, 237, 0.2);
 		}
 	}
@@ -496,7 +496,7 @@
 
 		&.new {
 			background: rgba(124, 58, 237, 0.3);
-			color: #c4b5fd;
+			color: var(--shadow-monarch-lightest);
 			box-shadow: 0 0 8px rgba(124, 58, 237, 0.2);
 		}
 	}

@@ -1,25 +1,28 @@
 <!-- src/lib/components/marketing/ContentManager.svelte -->
 <script lang="ts">
-	import { enhance } from '$app/forms';
-	import { Button, Card, Select, Label, Badge, Input } from 'flowbite-svelte';
-	import { slide, fade } from 'svelte/transition';
+	import { fade, slide } from 'svelte/transition';
 	import ContentDetailModal from './ContentDetailModal.svelte';
 	import CreateContent from './CreateContent.svelte';
 	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
 
-	export let contentItems: ContentItem[];
-	export let campaigns: Campaign[];
-	export let templates: Template[];
+	let {
+		contentItems,
+		campaigns,
+		templates
+	}: {
+		contentItems: ContentItem[];
+		campaigns: Campaign[];
+		templates: Template[];
+	} = $props();
 
-	let selectedCampaignId: string = 'all';
-	let selectedStatus: string = 'all';
-	let searchTerm: string = '';
-	let sortBy: 'date-asc' | 'date-desc' | 'status' = 'date-desc';
-	let selectedContent: ContentItem | null = null;
-	let showNewContentForm = false;
-	let showDetailModal = false;
+	let selectedCampaignId: string = $state('all');
+	let selectedStatus: string = $state('all');
+	let searchTerm: string = $state('');
+	let sortBy: 'date-asc' | 'date-desc' | 'status' = $state('date-desc');
+	let selectedContent: ContentItem | null = $state(null);
+	let showNewContentForm = $state(false);
+	let showDetailModal = $state(false);
 
-	// Platform colors for visual distinction
 	const platformColors: Record<string, string> = {
 		twitter: '#1DA1F2',
 		instagram: '#E1306C',
@@ -27,39 +30,38 @@
 		facebook: '#4267B2'
 	};
 
-	$: filteredContent = contentItems
-		.filter((item) => {
-			// Campaign filter
-			const matchesCampaign =
-				selectedCampaignId === 'all' ||
-				(selectedCampaignId === 'no-campaign'
-					? !item.campaign_id
-					: item.campaign_id === selectedCampaignId);
+	let filteredContent = $derived(
+		contentItems
+			.filter((item) => {
+				const matchesCampaign =
+					selectedCampaignId === 'all' ||
+					(selectedCampaignId === 'no-campaign'
+						? !item.campaign_id
+						: item.campaign_id === selectedCampaignId);
+				const matchesStatus = selectedStatus === 'all' || item.status === selectedStatus;
+				const matchesSearch =
+					searchTerm === '' ||
+					item.content_text.toLowerCase().includes(searchTerm.toLowerCase()) ||
+					(item.content_hashtags &&
+						item.content_hashtags.toLowerCase().includes(searchTerm.toLowerCase()));
+				return matchesCampaign && matchesStatus && matchesSearch;
+			})
+			.sort((a, b) => {
+				if (sortBy === 'date-asc') {
+					return new Date(a.scheduled_date).getTime() - new Date(b.scheduled_date).getTime();
+				} else if (sortBy === 'date-desc') {
+					return new Date(b.scheduled_date).getTime() - new Date(a.scheduled_date).getTime();
+				} else {
+					return (a.status || '').localeCompare(b.status || '');
+				}
+			})
+	);
 
-			// Status filter
-			const matchesStatus = selectedStatus === 'all' || item.status === selectedStatus;
+	let hasActiveFilters = $derived(
+		selectedCampaignId !== 'all' || selectedStatus !== 'all' || searchTerm !== ''
+	);
 
-			// Search filter
-			const matchesSearch =
-				searchTerm === '' ||
-				item.content_text.toLowerCase().includes(searchTerm.toLowerCase()) ||
-				(item.content_hashtags &&
-					item.content_hashtags.toLowerCase().includes(searchTerm.toLowerCase()));
-
-			return matchesCampaign && matchesStatus && matchesSearch;
-		})
-		.sort((a, b) => {
-			if (sortBy === 'date-asc') {
-				return new Date(a.scheduled_date).getTime() - new Date(b.scheduled_date).getTime();
-			} else if (sortBy === 'date-desc') {
-				return new Date(b.scheduled_date).getTime() - new Date(a.scheduled_date).getTime();
-			} else {
-				return (a.status || '').localeCompare(b.status || '');
-			}
-		});
-
-	function handleContentUpdate(event: CustomEvent) {
-		const updatedContent = event.detail;
+	function handleContentUpdate(updatedContent: any) {
 		const index = contentItems.findIndex((item) => item.id === updatedContent.id);
 		if (index !== -1) {
 			contentItems[index] = updatedContent;
@@ -82,22 +84,20 @@
 		return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
 	}
 
-	function getStatusColor(
-		status: string | undefined
-	): 'blue' | 'green' | 'yellow' | 'red' | 'dark' {
+	function getStatusClass(status: string | undefined): string {
 		switch (status) {
 			case 'scheduled':
-				return 'blue';
+				return 'status-scheduled';
 			case 'published':
 			case 'posted':
-				return 'green';
+				return 'status-published';
 			case 'pending':
 			case 'draft':
-				return 'yellow';
+				return 'status-pending';
 			case 'cancelled':
-				return 'red';
+				return 'status-cancelled';
 			default:
-				return 'dark';
+				return 'status-default';
 		}
 	}
 
@@ -130,16 +130,12 @@
 		selectedStatus = 'all';
 		searchTerm = '';
 	}
-
-	$: hasActiveFilters =
-		selectedCampaignId !== 'all' || selectedStatus !== 'all' || searchTerm !== '';
 </script>
 
 <div class="content-manager">
 	<!-- Toolbar -->
 	<div class="toolbar">
 		<div class="toolbar-filters">
-			<!-- Search -->
 			<div class="search-wrapper">
 				<svg
 					class="search-icon"
@@ -162,7 +158,6 @@
 				/>
 			</div>
 
-			<!-- Campaign Filter -->
 			<select bind:value={selectedCampaignId} class="filter-select" aria-label="Filter by campaign">
 				<option value="all">All Campaigns</option>
 				<option value="no-campaign">No Campaign</option>
@@ -171,7 +166,6 @@
 				{/each}
 			</select>
 
-			<!-- Status Filter -->
 			<select bind:value={selectedStatus} class="filter-select" aria-label="Filter by status">
 				<option value="all">All Status</option>
 				<option value="scheduled">Scheduled</option>
@@ -181,7 +175,6 @@
 				<option value="cancelled">Cancelled</option>
 			</select>
 
-			<!-- Sort -->
 			<select bind:value={sortBy} class="filter-select" aria-label="Sort content">
 				<option value="date-desc">Newest First</option>
 				<option value="date-asc">Oldest First</option>
@@ -191,7 +184,7 @@
 			{#if hasActiveFilters}
 				<button
 					class="clear-filters-btn"
-					on:click={clearFilters}
+					onclick={clearFilters}
 					transition:fade={{ duration: 150 }}
 				>
 					<svg
@@ -211,10 +204,9 @@
 			{/if}
 		</div>
 
-		<Button
-			on:click={() => (showNewContentForm = !showNewContentForm)}
-			color={showNewContentForm ? 'alternative' : 'blue'}
-			size="sm"
+		<button
+			class="btn {showNewContentForm ? 'btn-secondary' : 'btn-primary'}"
+			onclick={() => (showNewContentForm = !showNewContentForm)}
 		>
 			{#if showNewContentForm}
 				<svg
@@ -225,7 +217,6 @@
 					fill="none"
 					stroke="currentColor"
 					stroke-width="2"
-					class="mr-1"
 				>
 					<path d="M18 6 6 18" />
 					<path d="m6 6 12 12" />
@@ -240,14 +231,13 @@
 					fill="none"
 					stroke="currentColor"
 					stroke-width="2"
-					class="mr-1"
 				>
 					<path d="M5 12h14" />
 					<path d="M12 5v14" />
 				</svg>
 				New Content
 			{/if}
-		</Button>
+		</button>
 	</div>
 
 	<!-- Create Form -->
@@ -259,7 +249,7 @@
 			<CreateContent
 				{campaigns}
 				{templates}
-				on:contentCreated={() => (showNewContentForm = false)}
+				oncontentCreated={() => (showNewContentForm = false)}
 			/>
 		</div>
 	{/if}
@@ -285,26 +275,24 @@
 					: null}
 				<button
 					class="content-card"
-					on:click={() => openDetailModal(item)}
+					onclick={() => openDetailModal(item)}
 					transition:fade={{ duration: 150 }}
 				>
-					<!-- Platform indicator -->
 					<div
 						class="platform-indicator"
 						style="background-color: {platformColors[item.platform?.toLowerCase()] || '#6B7280'}"
 					></div>
 
 					<div class="card-content">
-						<!-- Header -->
 						<div class="card-header">
 							<span class="platform-name">{item.platform}</span>
-							<Badge color={getStatusColor(item.status)} rounded>{item.status || 'draft'}</Badge>
+							<span class="status-badge {getStatusClass(item.status)}"
+								>{item.status || 'draft'}</span
+							>
 						</div>
 
-						<!-- Content preview -->
 						<p class="content-preview">{truncateText(item.content_text, 100)}</p>
 
-						<!-- Footer -->
 						<div class="card-footer">
 							<div class="schedule-info">
 								<span class="date-label">{dateInfo.label}</span>
@@ -321,7 +309,6 @@
 							{/if}
 						</div>
 
-						<!-- Hashtags -->
 						{#if item.content_hashtags}
 							<div class="hashtags">
 								{item.content_hashtags.split(' ').slice(0, 3).join(' ')}
@@ -335,7 +322,6 @@
 			{/each}
 		</div>
 	{:else}
-		<!-- Empty State -->
 		<div class="empty-state" transition:fade={{ duration: 150 }}>
 			<div class="empty-icon">
 				<svg
@@ -354,11 +340,11 @@
 			{#if hasActiveFilters}
 				<h3>No content matches your filters</h3>
 				<p>Try adjusting your search or filter criteria</p>
-				<Button color="alternative" size="sm" on:click={clearFilters}>Clear Filters</Button>
+				<button class="btn btn-secondary" onclick={clearFilters}>Clear Filters</button>
 			{:else}
 				<h3>No content yet</h3>
 				<p>Create your first piece of content to get started</p>
-				<Button color="blue" size="sm" on:click={() => (showNewContentForm = true)}>
+				<button class="btn btn-primary" onclick={() => (showNewContentForm = true)}>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="16"
@@ -367,13 +353,12 @@
 						fill="none"
 						stroke="currentColor"
 						stroke-width="2"
-						class="mr-1"
 					>
 						<path d="M5 12h14" />
 						<path d="M12 5v14" />
 					</svg>
 					Create Content
-				</Button>
+				</button>
 			{/if}
 		</div>
 	{/if}
@@ -383,8 +368,8 @@
 	bind:open={showDetailModal}
 	contentItem={selectedContent}
 	{campaigns}
-	on:contentUpdated={handleContentUpdate}
-	on:close={closeDetailModal}
+	oncontentUpdated={(e) => handleContentUpdate(e)}
+	onclose={closeDetailModal}
 />
 
 <style>
@@ -419,7 +404,7 @@
 		left: 0.75rem;
 		top: 50%;
 		transform: translateY(-50%);
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		pointer-events: none;
 	}
 
@@ -427,26 +412,25 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem 0.5rem 2.25rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 0.5rem;
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
 		transition: border-color 0.15s ease;
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary, #3b82f6);
-		box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+		border-color: var(--shadow-monarch);
 	}
 
 	.filter-select {
 		padding: 0.5rem 2rem 0.5rem 0.75rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 0.5rem;
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
 		cursor: pointer;
 		appearance: none;
 		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
@@ -456,7 +440,7 @@
 
 	.filter-select:focus {
 		outline: none;
-		border-color: var(--primary, #3b82f6);
+		border-color: var(--shadow-monarch);
 	}
 
 	.clear-filters-btn {
@@ -466,10 +450,10 @@
 		padding: 0.5rem 0.75rem;
 		font-size: 0.75rem;
 		font-weight: 500;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		background: transparent;
-		border: 1px dashed var(--border-color, #e2e8f0);
-		border-radius: 0.5rem;
+		border: 1px dashed var(--void-elevated);
+		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.15s ease;
 	}
@@ -479,26 +463,59 @@
 		border-color: #ef4444;
 	}
 
+	/* Buttons */
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.375rem;
+		padding: 0.5rem 1rem;
+		font-size: 0.8125rem;
+		font-weight: 500;
+		border-radius: 8px;
+		border: none;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.btn-primary {
+		background: var(--shadow-monarch);
+		color: white;
+	}
+
+	.btn-primary:hover {
+		filter: brightness(1.1);
+		box-shadow: var(--glow-sm);
+	}
+
+	.btn-secondary {
+		background: var(--void-elevated);
+		color: var(--text-primary);
+	}
+
+	.btn-secondary:hover {
+		background: var(--void-highlight);
+	}
+
 	/* Create Form */
 	.create-form-wrapper {
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 0.75rem;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		margin-bottom: 1.25rem;
 		overflow: hidden;
 	}
 
 	.create-form-header {
 		padding: 1rem 1.25rem;
-		background: var(--hover-background, #f8fafc);
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-deep);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.create-form-header h3 {
 		margin: 0;
 		font-size: 0.9375rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	/* Results Info */
@@ -508,11 +525,11 @@
 
 	.results-count {
 		font-size: 0.8125rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	.filtered-label {
-		color: var(--primary, #3b82f6);
+		color: var(--shadow-monarch);
 	}
 
 	/* Content Grid */
@@ -526,9 +543,9 @@
 		position: relative;
 		display: flex;
 		flex-direction: column;
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 0.75rem;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		overflow: hidden;
 		cursor: pointer;
 		transition: all 0.15s ease;
@@ -537,8 +554,8 @@
 	}
 
 	.content-card:hover {
-		border-color: var(--primary, #3b82f6);
-		box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+		border-color: var(--shadow-monarch);
+		box-shadow: var(--glow-sm);
 		transform: translateY(-2px);
 	}
 
@@ -565,13 +582,47 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
+	}
+
+	.status-badge {
+		display: inline-block;
+		padding: 0.125rem 0.5rem;
+		font-size: 0.6875rem;
+		font-weight: 600;
+		border-radius: 9999px;
+		text-transform: capitalize;
+	}
+
+	.status-scheduled {
+		background: rgba(59, 130, 246, 0.15);
+		color: #60a5fa;
+	}
+
+	.status-published {
+		background: rgba(34, 197, 94, 0.15);
+		color: #4ade80;
+	}
+
+	.status-pending {
+		background: rgba(234, 179, 8, 0.15);
+		color: #facc15;
+	}
+
+	.status-cancelled {
+		background: rgba(239, 68, 68, 0.15);
+		color: #f87171;
+	}
+
+	.status-default {
+		background: var(--void-elevated);
+		color: var(--text-secondary);
 	}
 
 	.content-preview {
 		margin: 0;
 		font-size: 0.875rem;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		line-height: 1.5;
 		display: -webkit-box;
 		-webkit-line-clamp: 3;
@@ -594,12 +645,12 @@
 	.date-label {
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.time-label {
 		font-size: 0.6875rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	.campaign-tag {
@@ -612,11 +663,11 @@
 
 	.hashtags {
 		font-size: 0.75rem;
-		color: var(--primary, #3b82f6);
+		color: var(--shadow-monarch);
 	}
 
 	.more-hashtags {
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	/* Empty State */
@@ -630,7 +681,7 @@
 	}
 
 	.empty-icon {
-		color: var(--text-secondary, #94a3b8);
+		color: var(--text-secondary);
 		margin-bottom: 1rem;
 	}
 
@@ -638,13 +689,13 @@
 		margin: 0 0 0.5rem 0;
 		font-size: 1.125rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.empty-state p {
 		margin: 0 0 1rem 0;
 		font-size: 0.875rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	/* Responsive */
@@ -669,47 +720,6 @@
 
 		.content-grid {
 			grid-template-columns: 1fr;
-		}
-	}
-
-	/* Dark mode */
-	@media (prefers-color-scheme: dark) {
-		.search-input,
-		.filter-select {
-			background: #1f2937;
-			border-color: #374151;
-			color: #f9fafb;
-		}
-
-		.create-form-wrapper {
-			background: #1f2937;
-			border-color: #374151;
-		}
-
-		.create-form-header {
-			background: #111827;
-			border-color: #374151;
-		}
-
-		.create-form-header h3 {
-			color: #f9fafb;
-		}
-
-		.content-card {
-			background: #1f2937;
-			border-color: #374151;
-		}
-
-		.content-preview {
-			color: #f9fafb;
-		}
-
-		.date-label {
-			color: #f9fafb;
-		}
-
-		.empty-state h3 {
-			color: #f9fafb;
 		}
 	}
 </style>

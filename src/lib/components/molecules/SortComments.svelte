@@ -390,7 +390,7 @@
 		font-weight: 500;
 		transition: all 0.2s ease;
 		position: relative;
-		color: #c4b5fd;
+		color: var(--shadow-monarch-lightest);
 
 		&:hover {
 			background: rgba(139, 92, 246, 0.2);
@@ -562,7 +562,7 @@
 		padding: 0.25rem 0.625rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: #c4b5fd;
+		color: var(--shadow-monarch-lightest);
 		cursor: pointer;
 		border-radius: 0.375rem;
 		transition: all 0.15s ease;
@@ -769,7 +769,7 @@
 		&:hover:not(:disabled) {
 			background: rgba(139, 92, 246, 0.08);
 			border-color: rgba(139, 92, 246, 0.3);
-			color: #c4b5fd;
+			color: var(--shadow-monarch-lightest);
 		}
 	}
 

@@ -144,21 +144,21 @@
 		{ from: 6, to: 0 } // 7 → 1
 	];
 
-	// Get label positioning - adjusted to stay within container bounds
+	// Get label positioning - placed just outside the node positions
 	function getLabelPosition(index: number) {
 		const pos = typePositions[index];
 		const type = enneagramTypes[index];
 
 		const positions: Record<number, { left: string; top: string; textAlign: string }> = {
-			1: { left: '72%', top: '22%', textAlign: 'left' },
-			2: { left: '78%', top: '42%', textAlign: 'left' },
-			3: { left: '72%', top: '62%', textAlign: 'left' },
-			4: { left: '58%', top: '75%', textAlign: 'center' },
-			5: { left: '42%', top: '75%', textAlign: 'center' },
-			6: { left: '22%', top: '62%', textAlign: 'right' },
-			7: { left: '16%', top: '42%', textAlign: 'right' },
-			8: { left: '22%', top: '22%', textAlign: 'right' },
-			9: { left: '50%', top: '10%', textAlign: 'center' }
+			1: { left: '74%', top: '20%', textAlign: 'left' },
+			2: { left: '82%', top: '40%', textAlign: 'left' },
+			3: { left: '74%', top: '64%', textAlign: 'left' },
+			4: { left: '60%', top: '80%', textAlign: 'center' },
+			5: { left: '40%', top: '80%', textAlign: 'center' },
+			6: { left: '26%', top: '64%', textAlign: 'right' },
+			7: { left: '18%', top: '40%', textAlign: 'right' },
+			8: { left: '26%', top: '20%', textAlign: 'right' },
+			9: { left: '50%', top: '6%', textAlign: 'center' }
 		};
 
 		return positions[type.id] || { left: '50%', top: '50%', textAlign: 'center' };
@@ -385,21 +385,20 @@
 	.diagram-wrapper {
 		position: relative;
 		width: 100%;
-		max-width: 24rem;
+		max-width: 22rem;
 		margin: 0 auto;
-		padding-bottom: 2rem; /* Space for labels that extend below the circle */
+		padding-bottom: 1rem;
 		overflow: visible;
-		height: 100%;
 	}
 
 	.diagram-wrapper.size-sm {
 		max-width: 16rem;
-		padding-bottom: 1.5rem;
+		padding-bottom: 0.75rem;
 	}
 
 	.diagram-wrapper.size-lg {
-		max-width: 32rem;
-		padding-bottom: 2.5rem;
+		max-width: 30rem;
+		padding-bottom: 1.5rem;
 	}
 
 	/* ==========================================
@@ -501,26 +500,26 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		width: 2.5rem;
-		height: 2.5rem;
+		width: 2rem;
+		height: 2rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background: linear-gradient(135deg, #5b21b6 0%, var(--shadow-monarch) 100%);
 		border-radius: 50%;
-		box-shadow: 0 0 25px rgba(124, 58, 237, 0.5);
+		box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
 		z-index: 5;
 	}
 
 	.center-icon span {
-		font-size: 1rem;
+		font-size: 0.8rem;
 		color: white;
 	}
 
 	.center-pulse {
 		position: absolute;
-		inset: -8px;
-		border: 2px solid var(--shadow-ethereal);
+		inset: -6px;
+		border: 1.5px solid var(--shadow-ethereal);
 		border-radius: 50%;
 		animation: center-pulse 2.5s ease-in-out infinite;
 	}

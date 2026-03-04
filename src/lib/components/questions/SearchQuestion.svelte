@@ -421,25 +421,26 @@
 		transform: translateX(2px);
 	}
 
-	/* Custom input styling - Ethereal dark theme */
+	/* Custom input styling - Ethereal dark theme
+	   Note: !important needed to override Flowbite ComboBox internal styles */
 	:global(.search-container input) {
-		padding-right: 3rem !important; // Space for spinner
+		padding-right: 3rem !important;
 		font-size: 1rem !important;
 		height: 2.75rem !important;
-		border-radius: 0.75rem !important;
-		border: 1px solid rgba(124, 58, 237, 0.15) !important;
+		border-radius: var(--border-radius-lg) !important;
+		border: 1px solid var(--shadow-monarch-subtle) !important;
 		background-color: rgba(26, 26, 46, 0.7) !important;
 		backdrop-filter: blur(8px);
-		color: #f1f5f9 !important;
+		color: var(--text-primary) !important;
 		transition: all $transition-fast !important;
 
 		&:focus {
 			border-color: rgba(124, 58, 237, 0.4) !important;
-			box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15) !important;
+			box-shadow: 0 0 0 3px var(--shadow-monarch-subtle) !important;
 		}
 
 		&::placeholder {
-			color: #64748b !important;
+			color: var(--text-tertiary) !important;
 		}
 	}
 
@@ -447,8 +448,8 @@
 	:global(.search-container .combo-list em) {
 		font-style: normal;
 		font-weight: 600;
-		color: #a78bfa;
-		background-color: rgba(124, 58, 237, 0.2);
+		color: var(--shadow-monarch-lighter);
+		background-color: var(--shadow-monarch-subtle);
 		padding: 0 2px;
 		border-radius: 2px;
 	}
@@ -456,11 +457,11 @@
 	/* Dropdown styling - Ethereal dark theme */
 	:global(.search-container .combobox__list) {
 		margin-top: 0.5rem !important;
-		border-radius: 0.75rem !important;
+		border-radius: var(--border-radius-lg) !important;
 		box-shadow:
 			0 4px 24px rgba(0, 0, 0, 0.4),
 			0 0 20px rgba(124, 58, 237, 0.12) !important;
-		border: 1px solid rgba(124, 58, 237, 0.15) !important;
+		border: 1px solid var(--shadow-monarch-subtle) !important;
 		max-height: 320px !important;
 		overflow-y: auto !important;
 		z-index: 1000 !important;
@@ -473,18 +474,18 @@
 		transition: background-color $transition-fast !important;
 		cursor: pointer;
 		border-bottom: 1px solid rgba(124, 58, 237, 0.08);
-		color: #e2e8f0 !important;
+		color: var(--neutral-800) !important;
 
 		&:last-child {
 			border-bottom: none;
 		}
 
 		&:hover {
-			background-color: rgba(124, 58, 237, 0.15) !important;
+			background-color: var(--shadow-monarch-subtle) !important;
 		}
 
 		&:focus {
-			background-color: rgba(124, 58, 237, 0.15) !important;
+			background-color: var(--shadow-monarch-subtle) !important;
 			outline: none;
 		}
 	}

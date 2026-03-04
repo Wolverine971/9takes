@@ -29,6 +29,7 @@
 	--shadow-monarch: #7c3aed;
 	--shadow-monarch-light: #8b5cf6;
 	--shadow-monarch-lighter: #a78bfa;
+	--shadow-monarch-lightest: #c4b5fd;
 	--shadow-monarch-dark: #6d28d9;
 	--shadow-monarch-darker: #5b21b6;
 	--shadow-monarch-glow: rgba(124, 58, 237, 0.5);
@@ -64,7 +65,7 @@
 	--primary-400: var(--shadow-monarch-lighter);
 	--primary-500: var(--shadow-monarch-light);
 	--primary-600: var(--shadow-monarch);
-	--primary-700: var(--shadow-monarch);
+	--primary-700: var(--shadow-monarch-dark);
 	--primary-800: var(--shadow-monarch-dark);
 	--primary-900: var(--shadow-monarch-darker);
 
@@ -151,7 +152,7 @@
 	--message-background: var(--void-deep);
 	--button-background: rgba(124, 58, 237, 0.1);
 	--background: var(--void-surface);
-	--color-border: var(--void-elevated);
+	--color-border: var(--border-color);
 	--color-text: var(--text-primary);
 	--color-text-secondary: var(--text-secondary);
 	--color-text-muted: var(--text-tertiary);
@@ -197,11 +198,9 @@
 	   ======================================== */
 	--border-radius: 0.5rem;
 	--border-radius-md: var(--border-radius);
-	--base-border-radius: 0.5rem;
+	--base-border-radius: var(--border-radius);
 	--border-radius-lg: 0.75rem;
 	--border-radius-sm: 0.25rem;
-	--block-spacing-vertical: 2rem;
-	--block-spacing-horizontal: 2rem;
 	--card-padding: 1.25rem;
 	--card-margin: 1rem;
 	--spacing-unit: 5px;
@@ -365,7 +364,7 @@ figcaption {
 }
 
 .noticia-text-regular {
-	font-family: 'Noticia Text', serif !important;
+	font-family: var(--font-family) !important;
 	font-weight: 400;
 	font-style: normal;
 }

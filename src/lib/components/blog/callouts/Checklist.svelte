@@ -156,7 +156,7 @@
 			color: #a78bfa;
 
 			&:hover {
-				color: #c4b5fd;
+				color: var(--shadow-monarch-lightest);
 			}
 		}
 	}

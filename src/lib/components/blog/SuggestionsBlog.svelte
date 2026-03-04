@@ -85,7 +85,7 @@
 		text-align: center;
 		font-size: 1.5rem;
 		margin-bottom: 1rem;
-		color: #f1f5f9;
+		color: var(--text-primary);
 	}
 
 	.blog-grid-container {
@@ -105,7 +105,7 @@
 		display: block;
 		height: 100%;
 		min-height: 200px;
-		background-color: #1a1a2e;
+		background-color: var(--void-surface);
 		background-size: cover;
 		background-position: center;
 		border: 1px solid rgba(100, 116, 139, 0.3);
@@ -116,7 +116,7 @@
 
 		&:hover,
 		&:focus {
-			border-color: #7c3aed;
+			border-color: var(--shadow-monarch);
 			box-shadow: 0 0 25px rgba(124, 58, 237, 0.3);
 			outline: none;
 			transform: translateY(-3px);
@@ -137,19 +137,19 @@
 	.blog-title {
 		font-size: 1.2rem;
 		margin-bottom: 0.5rem;
-		color: #f1f5f9;
+		color: var(--text-primary);
 
 		.has-image & {
-			color: #f1f5f9;
+			color: var(--text-primary);
 		}
 	}
 
 	.blog-description {
 		font-size: 0.9rem;
-		color: #94a3b8;
+		color: var(--text-secondary);
 
 		.has-image & {
-			color: #cbd5e1;
+			color: var(--neutral-700);
 		}
 	}
 

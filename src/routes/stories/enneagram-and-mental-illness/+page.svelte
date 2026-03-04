@@ -121,7 +121,7 @@
 			}
 
 			amp-story {
-				font-family: 'Noticia Text', serif;
+				font-family: 'Space Grotesk', sans-serif;
 				color: var(--white);
 			}
 
@@ -252,7 +252,7 @@
 
 			/* Improved styling for bookend */
 			amp-story-bookend {
-				font-family: 'Noticia Text', serif;
+				font-family: 'Space Grotesk', sans-serif;
 			}
 
 			/* Buttons and interactive elements */

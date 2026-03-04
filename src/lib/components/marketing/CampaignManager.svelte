@@ -1,39 +1,29 @@
 <!-- src/lib/components/marketing/CampaignManager.svelte -->
 <script lang="ts">
 	import { deserialize } from '$app/forms';
-	import {
-		Button,
-		Card,
-		Input,
-		Label,
-		Textarea,
-		AccordionItem,
-		Accordion,
-		Badge,
-		Spinner,
-		Select,
-		Tabs,
-		TabItem,
-		Alert,
-		Tooltip
-	} from 'flowbite-svelte';
 	import type { Campaign } from '$lib/types/marketing';
-	import { createEventDispatcher, onMount } from 'svelte';
+	import { onMount } from 'svelte';
 	import { fade, slide } from 'svelte/transition';
 
-	export let campaigns: Campaign[];
+	let {
+		campaigns,
+		oncontentCreated,
+		oncontentUpdated
+	}: {
+		campaigns: Campaign[];
+		oncontentCreated?: (data: any) => void;
+		oncontentUpdated?: (data: any) => void;
+	} = $props();
 
-	const dispatch = createEventDispatcher();
-
-	let editingCampaign: Partial<Campaign> | null = null;
-	let originalStartDate: string | null = null;
-	let isSubmitting = false;
-	let formError = '';
-	let formSuccess = '';
-	let showFormSuccess = false;
-	let campaignFilter = 'all';
-	let searchTerm = '';
-	let activeTab: 'create' | 'list' = 'list';
+	let editingCampaign: Partial<Campaign> | null = $state(null);
+	let originalStartDate: string | null = $state(null);
+	let isSubmitting = $state(false);
+	let formError = $state('');
+	let formSuccess = $state('');
+	let showFormSuccess = $state(false);
+	let campaignFilter = $state('all');
+	let searchTerm = $state('');
+	let activeTab: 'create' | 'list' = $state('list');
 	let campaignTemplates = [
 		{
 			name: 'Product Launch',
@@ -64,51 +54,54 @@
 		}
 	];
 
-	// Sort campaigns by start date (most recent first)
-	$: sortedCampaigns = [...campaigns].sort(
-		(a, b) => new Date(b.start_date).getTime() - new Date(a.start_date).getTime()
+	let sortedCampaigns = $derived(
+		[...campaigns].sort(
+			(a, b) => new Date(b.start_date).getTime() - new Date(a.start_date).getTime()
+		)
 	);
 
-	// Filter campaigns based on status and search term
-	$: filteredCampaigns = sortedCampaigns.filter((campaign) => {
-		const today = new Date();
-		const startDate = new Date(campaign.start_date);
-		const endDate = new Date(campaign.end_date);
+	let filteredCampaigns = $derived(
+		sortedCampaigns.filter((campaign) => {
+			const today = new Date();
+			const startDate = new Date(campaign.start_date);
+			const endDate = new Date(campaign.end_date);
 
-		const isActive = startDate <= today && endDate >= today;
-		const isUpcoming = startDate > today;
-		const isPast = endDate < today;
+			const isActive = startDate <= today && endDate >= today;
+			const isUpcoming = startDate > today;
+			const isPast = endDate < today;
 
-		const matchesFilter =
-			campaignFilter === 'all' ||
-			(campaignFilter === 'active' && isActive) ||
-			(campaignFilter === 'upcoming' && isUpcoming) ||
-			(campaignFilter === 'past' && isPast);
+			const matchesFilter =
+				campaignFilter === 'all' ||
+				(campaignFilter === 'active' && isActive) ||
+				(campaignFilter === 'upcoming' && isUpcoming) ||
+				(campaignFilter === 'past' && isPast);
 
-		const matchesSearch =
-			searchTerm === '' ||
-			campaign.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-			(campaign.description &&
-				campaign.description.toLowerCase().includes(searchTerm.toLowerCase()));
+			const matchesSearch =
+				searchTerm === '' ||
+				campaign.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+				(campaign.description &&
+					campaign.description.toLowerCase().includes(searchTerm.toLowerCase()));
 
-		return matchesFilter && matchesSearch;
-	});
+			return matchesFilter && matchesSearch;
+		})
+	);
 
-	// New campaign form data with default values
-	let newCampaign = {
+	let newCampaign = $state({
 		name: '',
 		description: '',
 		start_date: '',
 		end_date: '',
-		color: '#3b82f6', // Default blue color
+		color: '#3b82f6',
 		target_audience: '',
 		themes_and_topics: '',
 		target_hashtags: '',
 		campaign_hashtags: '',
 		campaign_promotion_accounts: ''
-	};
+	});
 
-	// Apply template to new campaign form
+	let showAdditionalDetails = $state(false);
+	let showEditAdditionalDetails = $state(false);
+
 	function applyTemplate(templateIndex: number) {
 		const template = campaignTemplates[templateIndex];
 		newCampaign = {
@@ -126,8 +119,6 @@
 	function startEditing(campaign: Campaign) {
 		editingCampaign = { ...campaign };
 		originalStartDate = campaign.start_date;
-
-		// Ensure we're scrolled to the editing form
 		setTimeout(() => {
 			const editForm = document.getElementById(`edit-form-${campaign.id}`);
 			if (editForm) {
@@ -142,7 +133,6 @@
 	}
 
 	function duplicateCampaign(campaign: Campaign) {
-		// Pre-fill the new campaign form with data from the selected campaign
 		newCampaign = {
 			name: `${campaign.name} (Copy)`,
 			description: campaign.description || '',
@@ -155,11 +145,7 @@
 			campaign_hashtags: campaign.campaign_hashtags || '',
 			campaign_promotion_accounts: campaign.campaign_promotion_accounts || ''
 		};
-
-		// Switch to create tab
 		activeTab = 'create';
-
-		// Scroll to the form
 		setTimeout(() => {
 			const createForm = document.getElementById('create-campaign-form');
 			if (createForm) {
@@ -170,8 +156,6 @@
 
 	async function handleCampaignCreate(event: SubmitEvent) {
 		event.preventDefault();
-
-		// Reset messages
 		formError = '';
 		formSuccess = '';
 		isSubmitting = true;
@@ -179,8 +163,6 @@
 		try {
 			const form = event.target as HTMLFormElement;
 			const formData = new FormData(form);
-
-			// Validate dates
 			const startDate = new Date(formData.get('start_date') as string);
 			const endDate = new Date(formData.get('end_date') as string);
 
@@ -196,8 +178,6 @@
 				campaigns = [...campaigns, result.data.campaign];
 				await createPrimerContent(result.data.campaign);
 				form.reset();
-
-				// Reset form data
 				newCampaign = {
 					name: '',
 					description: '',
@@ -210,14 +190,11 @@
 					campaign_hashtags: '',
 					campaign_promotion_accounts: ''
 				};
-
 				formSuccess = `Campaign "${result.data.campaign.name}" created successfully!`;
 				showFormSuccess = true;
 				setTimeout(() => {
 					showFormSuccess = false;
 				}, 5000);
-
-				// Switch to list tab
 				activeTab = 'list';
 			} else {
 				formError = 'Failed to create campaign. Please try again.';
@@ -232,16 +209,12 @@
 
 	async function handleCampaignUpdate(event: SubmitEvent) {
 		event.preventDefault();
-
-		// Reset messages
 		formError = '';
 		isSubmitting = true;
 
 		try {
 			const form = event.target as HTMLFormElement;
 			const formData = new FormData(form);
-
-			// Validate dates
 			const startDate = new Date(formData.get('start_date') as string);
 			const endDate = new Date(formData.get('end_date') as string);
 
@@ -274,7 +247,6 @@
 				setTimeout(() => {
 					showFormSuccess = false;
 				}, 5000);
-
 				cancelEditing();
 			} else {
 				formError = 'Failed to update campaign. Please try again.';
@@ -302,9 +274,8 @@
 		formData.append('content_themes', campaign.themes_and_topics || '');
 
 		const result = await submitForm('?/createContent', formData);
-
 		if (result.type === 'success') {
-			dispatch('contentCreated', result.data.content);
+			oncontentCreated?.(result.data.content);
 		}
 	}
 
@@ -319,17 +290,13 @@
 		formData.append('newStartDate', newStartDate);
 
 		const result = await submitForm('?/updateCampaignContent', formData);
-
 		if (result.type === 'success') {
-			dispatch('contentUpdated', result.data.updatedContent);
+			oncontentUpdated?.(result.data.updatedContent);
 		}
 	}
 
 	async function submitForm(url: string, formData: FormData) {
-		const response = await fetch(url, {
-			method: 'POST',
-			body: formData
-		});
+		const response = await fetch(url, { method: 'POST', body: formData });
 		return deserialize(await response.text());
 	}
 
@@ -337,450 +304,175 @@
 		return new Date(dateString).toLocaleDateString();
 	}
 
-	function getCampaignStatus(campaign: Campaign): { status: string; color: string } {
+	function getCampaignStatus(campaign: Campaign): { status: string; cls: string } {
 		const today = new Date();
 		const startDate = new Date(campaign.start_date);
 		const endDate = new Date(campaign.end_date);
 
 		if (startDate <= today && endDate >= today) {
-			return { status: 'Active', color: 'green' };
+			return { status: 'Active', cls: 'badge-green' };
 		} else if (startDate > today) {
-			return { status: 'Upcoming', color: 'blue' };
+			return { status: 'Upcoming', cls: 'badge-blue' };
 		} else {
-			return { status: 'Past', color: 'gray' };
+			return { status: 'Past', cls: 'badge-gray' };
 		}
 	}
 
-	function getDaysRemaining(campaign: Campaign): { text: string; color: string } {
+	function getDaysRemaining(campaign: Campaign): { text: string; cls: string } {
 		const today = new Date();
 		const startDate = new Date(campaign.start_date);
 		const endDate = new Date(campaign.end_date);
 
 		if (startDate > today) {
 			const days = Math.ceil((startDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
-			return {
-				text: `Starts in ${days} day${days !== 1 ? 's' : ''}`,
-				color: 'blue'
-			};
+			return { text: `Starts in ${days} day${days !== 1 ? 's' : ''}`, cls: 'badge-blue' };
 		} else if (endDate >= today) {
 			const days = Math.ceil((endDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
 			return {
 				text: `${days} day${days !== 1 ? 's' : ''} remaining`,
-				color: days <= 3 ? 'red' : days <= 7 ? 'yellow' : 'green'
+				cls: days <= 3 ? 'badge-red' : days <= 7 ? 'badge-yellow' : 'badge-green'
 			};
 		} else {
 			const days = Math.ceil((today.getTime() - endDate.getTime()) / (1000 * 60 * 60 * 24));
-			return {
-				text: `Ended ${days} day${days !== 1 ? 's' : ''} ago`,
-				color: 'gray'
-			};
+			return { text: `Ended ${days} day${days !== 1 ? 's' : ''} ago`, cls: 'badge-gray' };
 		}
 	}
 
 	onMount(() => {
-		// Set default dates for new campaign to start tomorrow and end 30 days later
 		const tomorrow = new Date();
 		tomorrow.setDate(tomorrow.getDate() + 1);
-
 		const endDate = new Date(tomorrow);
 		endDate.setDate(endDate.getDate() + 30);
-
 		newCampaign.start_date = tomorrow.toISOString().split('T')[0];
 		newCampaign.end_date = endDate.toISOString().split('T')[0];
 	});
 </script>
 
-<div class="container mx-auto px-4 py-2">
+<div class="campaign-manager">
+	<!-- Alerts -->
 	{#if showFormSuccess}
-		<Alert color="green" dismissable class="my-4" transition={slide}>
-			<span class="font-medium">Success!</span>
+		<div class="alert alert-success" transition:slide>
+			<span class="alert-bold">Success!</span>
 			{formSuccess}
-		</Alert>
+			<button class="alert-dismiss" onclick={() => (showFormSuccess = false)}>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="14"
+					height="14"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+				>
+					<path d="M18 6 6 18" /><path d="m6 6 12 12" />
+				</svg>
+			</button>
+		</div>
 	{/if}
 
 	{#if formError}
-		<Alert color="red" dismissable class="my-4" transition={slide}>
-			<span class="font-medium">Error!</span>
+		<div class="alert alert-error" transition:slide>
+			<span class="alert-bold">Error!</span>
 			{formError}
-		</Alert>
+			<button class="alert-dismiss" onclick={() => (formError = '')}>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="14"
+					height="14"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+				>
+					<path d="M18 6 6 18" /><path d="m6 6 12 12" />
+				</svg>
+			</button>
+		</div>
 	{/if}
 
-	<Tabs style="full" class="mb-4" defaultClass="list-none">
-		<TabItem open={activeTab === 'list' ? true : false} on:click={() => (activeTab = 'list')}>
-			<div slot="title" class="flex items-center">
-				<svg
-					class="mr-2 h-5 w-5"
-					fill="currentColor"
-					viewBox="0 0 20 20"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
-					></path>
-				</svg>
-				Campaign List
-				<Badge color="dark" rounded class="ml-2">{campaigns.length}</Badge>
-			</div>
+	<!-- Tab Bar -->
+	<div class="tab-bar">
+		<button
+			class="tab-btn"
+			class:active={activeTab === 'list'}
+			onclick={() => (activeTab = 'list')}
+		>
+			<svg
+				width="16"
+				height="16"
+				fill="currentColor"
+				viewBox="0 0 20 20"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+				></path>
+			</svg>
+			Campaign List
+			<span class="tab-count">{campaigns.length}</span>
+		</button>
+		<button
+			class="tab-btn"
+			class:active={activeTab === 'create'}
+			onclick={() => (activeTab = 'create')}
+		>
+			<svg
+				width="16"
+				height="16"
+				fill="none"
+				stroke="currentColor"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+				></path>
+			</svg>
+			Create Campaign
+		</button>
+	</div>
 
-			<div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-				<div class="flex gap-2">
-					<Select id="campaign-filter" bind:value={campaignFilter} size="sm" class="w-40">
-						<option value="all">All Campaigns</option>
-						<option value="active">Active</option>
-						<option value="upcoming">Upcoming</option>
-						<option value="past">Past</option>
-					</Select>
+	<!-- List Tab -->
+	{#if activeTab === 'list'}
+		<div class="list-toolbar">
+			<div class="toolbar-filters">
+				<select bind:value={campaignFilter} class="filter-select">
+					<option value="all">All Campaigns</option>
+					<option value="active">Active</option>
+					<option value="upcoming">Upcoming</option>
+					<option value="past">Past</option>
+				</select>
 
-					<div class="relative">
-						<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-							<svg
-								class="h-4 w-4 text-gray-500 dark:text-gray-400"
-								aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 20 20"
-							>
-								<path
-									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-								/>
-							</svg>
-						</div>
-						<input
-							type="search"
-							bind:value={searchTerm}
-							placeholder="Search campaigns..."
-							class="w-full rounded-lg border border-gray-300 bg-gray-50 p-2 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-						/>
-					</div>
-				</div>
-
-				<Button size="sm" color="blue" on:click={() => (activeTab = 'create')}>
+				<div class="search-wrapper">
 					<svg
-						class="mr-2 h-5 w-5"
+						class="search-icon"
+						xmlns="http://www.w3.org/2000/svg"
+						width="14"
+						height="14"
+						viewBox="0 0 20 20"
 						fill="none"
 						stroke="currentColor"
-						viewBox="0 0 24 24"
-						xmlns="http://www.w3.org/2000/svg"
+						stroke-width="2"
 					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-						></path>
+						<circle cx="8.5" cy="8.5" r="6" />
+						<path d="m13 13 4 4" />
 					</svg>
-					Create Campaign
-				</Button>
+					<input
+						type="search"
+						bind:value={searchTerm}
+						placeholder="Search campaigns..."
+						class="search-input"
+					/>
+				</div>
 			</div>
 
-			{#if filteredCampaigns.length === 0}
-				<div
-					class="rounded-lg border border-dashed p-8 text-center text-gray-500 dark:text-gray-400"
-				>
-					{#if searchTerm || campaignFilter !== 'all'}
-						<p>No campaigns match your filters. Try changing your search or filter criteria.</p>
-						<Button
-							color="alternative"
-							size="xs"
-							class="mt-4"
-							on:click={() => {
-								searchTerm = '';
-								campaignFilter = 'all';
-							}}
-						>
-							Clear Filters
-						</Button>
-					{:else}
-						<p>No campaigns have been created yet.</p>
-						<Button color="blue" size="sm" class="mt-4" on:click={() => (activeTab = 'create')}>
-							Create Your First Campaign
-						</Button>
-					{/if}
-				</div>
-			{:else}
-				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-					{#each filteredCampaigns as campaign (campaign.id)}
-						<Card padding="sm" class="overflow-hidden hover:shadow-lg">
-							<div class="h-3 w-full" style="background-color: {campaign.color};"></div>
-
-							{#if editingCampaign && editingCampaign.id === campaign.id}
-								<form
-									on:submit={handleCampaignUpdate}
-									class="space-y-4 p-4"
-									id="edit-form-{campaign.id}"
-									transition:slide
-								>
-									<input type="hidden" name="id" value={campaign.id} />
-
-									<div class="mb-4 flex items-center justify-between">
-										<h3 class="text-lg font-bold">Edit Campaign</h3>
-										<Button size="xs" color="red" on:click={cancelEditing}>Cancel</Button>
-									</div>
-
-									<Label>
-										<span>Name*</span>
-										<Input
-											type="text"
-											name="name"
-											bind:value={editingCampaign.name}
-											required
-											class="w-full"
-											placeholder="Campaign Name"
-										/>
-									</Label>
-
-									<Label>
-										<span>Description</span>
-										<Textarea
-											name="description"
-											bind:value={editingCampaign.description}
-											class="w-full"
-											placeholder="Campaign description"
-											rows="3"
-										/>
-									</Label>
-
-									<div class="grid grid-cols-2 gap-4">
-										<Label>
-											<span>Start Date*</span>
-											<Input
-												type="date"
-												name="start_date"
-												bind:value={editingCampaign.start_date}
-												required
-												class="w-full"
-											/>
-										</Label>
-										<Label>
-											<span>End Date*</span>
-											<Input
-												type="date"
-												name="end_date"
-												bind:value={editingCampaign.end_date}
-												required
-												class="w-full"
-											/>
-										</Label>
-									</div>
-
-									<Label>
-										<span>Color*</span>
-										<div class="flex items-center space-x-2">
-											<Input
-												type="color"
-												name="color"
-												bind:value={editingCampaign.color}
-												required
-												class="h-10"
-											/>
-											<div
-												class="flex h-10 flex-grow items-center justify-center rounded border border-gray-300 text-sm font-medium"
-												style="background-color: {editingCampaign.color}; color: white;"
-											>
-												{editingCampaign.color}
-											</div>
-										</div>
-									</Label>
-
-									<Accordion flush class="rounded border">
-										<AccordionItem>
-											<span slot="header" class="text-sm font-medium">Additional Details</span>
-											<div class="space-y-4 px-2 py-4">
-												<Label>
-													<span>Target Audience</span>
-													<Textarea
-														name="target_audience"
-														bind:value={editingCampaign.target_audience}
-														class="w-full"
-														placeholder="Who is this campaign targeting?"
-														rows="2"
-													/>
-												</Label>
-
-												<Label>
-													<span>Themes and Topics</span>
-													<Textarea
-														name="themes_and_topics"
-														bind:value={editingCampaign.themes_and_topics}
-														class="w-full"
-														placeholder="Key themes and topics for this campaign"
-														rows="2"
-													/>
-												</Label>
-
-												<Label>
-													<span>Target Hashtags</span>
-													<Input
-														type="text"
-														name="target_hashtags"
-														bind:value={editingCampaign.target_hashtags}
-														class="w-full"
-														placeholder="#relevant #industry #hashtags"
-													/>
-												</Label>
-
-												<Label>
-													<span>Campaign Hashtags</span>
-													<Input
-														type="text"
-														name="campaign_hashtags"
-														bind:value={editingCampaign.campaign_hashtags}
-														class="w-full"
-														placeholder="#OurCampaign #UniqueTag"
-													/>
-												</Label>
-
-												<Label>
-													<span>Promotion Accounts</span>
-													<Input
-														type="text"
-														name="campaign_promotion_accounts"
-														bind:value={editingCampaign.campaign_promotion_accounts}
-														class="w-full"
-														placeholder="@ourcompany @influencer"
-													/>
-												</Label>
-											</div>
-										</AccordionItem>
-									</Accordion>
-
-									<Button type="submit" class="w-full" disabled={isSubmitting}>
-										{#if isSubmitting}
-											<Spinner size="4" class="mr-2" />
-											Saving...
-										{:else}
-											Save Changes
-										{/if}
-									</Button>
-								</form>
-							{:else}
-								<div class="p-4">
-									<div class="mb-4 flex items-center justify-between">
-										<h5 class="text-xl font-bold tracking-tight">{campaign.name}</h5>
-										<div>
-											<Badge color={getCampaignStatus(campaign).color}
-												>{getCampaignStatus(campaign).status}</Badge
-											>
-										</div>
-									</div>
-
-									<div class="mb-4">
-										{#if campaign.description}
-											<p class="text-sm text-gray-700 dark:text-gray-400">
-												{campaign.description.length > 100
-													? `${campaign.description.substring(0, 100)}...`
-													: campaign.description}
-											</p>
-										{:else}
-											<p class="text-sm italic text-gray-500 dark:text-gray-500">
-												No description provided
-											</p>
-										{/if}
-									</div>
-
-									<div class="mb-4 space-y-2">
-										<div class="flex items-center text-sm">
-											<span class="mr-2">📅</span>
-											<span class="font-medium"
-												>{formatDate(campaign.start_date)} - {formatDate(campaign.end_date)}</span
-											>
-										</div>
-
-										<div class="flex items-center">
-											<Badge color={getDaysRemaining(campaign).color} class="w-full text-center">
-												{getDaysRemaining(campaign).text}
-											</Badge>
-										</div>
-									</div>
-
-									{#if campaign.themes_and_topics}
-										<div class="mb-4">
-											<span class="mb-1 text-xs font-medium text-gray-600 dark:text-gray-400"
-												>Themes:</span
-											>
-											<div class="flex flex-wrap gap-1">
-												{#each campaign.themes_and_topics.split(',').slice(0, 3) as theme}
-													<div class="rounded-full bg-gray-100 px-2 py-1 text-xs dark:bg-gray-700">
-														{theme.trim()}
-													</div>
-												{/each}
-												{#if campaign.themes_and_topics.split(',').length > 3}
-													<Tooltip content={campaign.themes_and_topics}>
-														<div
-															class="rounded-full bg-gray-100 px-2 py-1 text-xs dark:bg-gray-700"
-														>
-															+{campaign.themes_and_topics.split(',').length - 3} more
-														</div>
-													</Tooltip>
-												{/if}
-											</div>
-										</div>
-									{/if}
-
-									{#if campaign.campaign_hashtags}
-										<div class="mb-4">
-											<span class="mb-1 text-xs font-medium text-gray-600 dark:text-gray-400"
-												>Campaign Hashtags:</span
-											>
-											<div class="text-sm text-blue-600 dark:text-blue-400">
-												{campaign.campaign_hashtags}
-											</div>
-										</div>
-									{/if}
-
-									<div class="mt-4 flex flex-wrap gap-2">
-										<Button size="xs" color="light" on:click={() => startEditing(campaign)}>
-											<svg
-												class="mr-1 h-4 w-4"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-												></path>
-											</svg>
-											Edit
-										</Button>
-
-										<Button size="xs" color="light" on:click={() => duplicateCampaign(campaign)}>
-											<svg
-												class="mr-1 h-4 w-4"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-												></path>
-											</svg>
-											Duplicate
-										</Button>
-									</div>
-								</div>
-							{/if}
-						</Card>
-					{/each}
-				</div>
-			{/if}
-		</TabItem>
-
-		<TabItem open={activeTab === 'create'} on:click={() => (activeTab = 'create')}>
-			<div slot="title" class="flex items-center">
+			<button class="btn btn-primary btn-sm" onclick={() => (activeTab = 'create')}>
 				<svg
-					class="mr-2 h-5 w-5"
+					width="16"
+					height="16"
 					fill="none"
 					stroke="currentColor"
 					viewBox="0 0 24 24"
@@ -794,231 +486,1148 @@
 					></path>
 				</svg>
 				Create Campaign
+			</button>
+		</div>
+
+		{#if filteredCampaigns.length === 0}
+			<div class="empty-state">
+				{#if searchTerm || campaignFilter !== 'all'}
+					<p>No campaigns match your filters. Try changing your search or filter criteria.</p>
+					<button
+						class="btn btn-secondary btn-sm"
+						onclick={() => {
+							searchTerm = '';
+							campaignFilter = 'all';
+						}}
+					>
+						Clear Filters
+					</button>
+				{:else}
+					<p>No campaigns have been created yet.</p>
+					<button class="btn btn-primary btn-sm" onclick={() => (activeTab = 'create')}>
+						Create Your First Campaign
+					</button>
+				{/if}
 			</div>
+		{:else}
+			<div class="campaign-grid">
+				{#each filteredCampaigns as campaign (campaign.id)}
+					<div class="campaign-card">
+						<div class="card-color-bar" style="background-color: {campaign.color};"></div>
 
-			<Card id="create-campaign-form" padding="xl" class="mx-auto max-w-4xl">
-				<h2 class="mb-6 border-b pb-4 text-xl font-bold">Create New Campaign</h2>
-
-				<div class="mb-6">
-					<h3 class="mb-2 text-sm font-medium">Start with a template:</h3>
-					<div class="grid grid-cols-1 gap-3 sm:grid-cols-3">
-						{#each campaignTemplates as template, index}
-							<Button
-								color="light"
-								size="sm"
-								on:click={() => applyTemplate(index)}
-								class="text-left"
+						{#if editingCampaign && editingCampaign.id === campaign.id}
+							<form
+								onsubmit={handleCampaignUpdate}
+								class="edit-form"
+								id="edit-form-{campaign.id}"
+								transition:slide
 							>
-								<div class="flex items-center">
-									<div
-										class="flex h-8 w-8 items-center justify-center rounded-full bg-blue-100 text-blue-500"
+								<input type="hidden" name="id" value={campaign.id} />
+								<div class="edit-form-header">
+									<h3>Edit Campaign</h3>
+									<button type="button" class="btn btn-danger btn-xs" onclick={cancelEditing}
+										>Cancel</button
 									>
-										{#if index === 0}
-											<svg
-												class="h-4 w-4"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M13 10V3L4 14h7v7l9-11h-7z"
-												></path>
-											</svg>
-										{:else if index === 1}
-											<svg
-												class="h-4 w-4"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-												></path>
-											</svg>
-										{:else}
-											<svg
-												class="h-4 w-4"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-												></path>
-											</svg>
-										{/if}
-									</div>
-									<div class="ml-3">
-										<div class="text-sm font-medium">{template.name}</div>
-										<div class="text-xs text-gray-500 dark:text-gray-400">
-											{template.description}
+								</div>
+
+								<label class="field">
+									<span class="field-label">Name*</span>
+									<input
+										type="text"
+										name="name"
+										bind:value={editingCampaign.name}
+										required
+										class="field-input"
+										placeholder="Campaign Name"
+									/>
+								</label>
+
+								<label class="field">
+									<span class="field-label">Description</span>
+									<textarea
+										name="description"
+										bind:value={editingCampaign.description}
+										class="field-input field-textarea"
+										placeholder="Campaign description"
+										rows="3"
+									></textarea>
+								</label>
+
+								<div class="field-row">
+									<label class="field">
+										<span class="field-label">Start Date*</span>
+										<input
+											type="date"
+											name="start_date"
+											bind:value={editingCampaign.start_date}
+											required
+											class="field-input"
+										/>
+									</label>
+									<label class="field">
+										<span class="field-label">End Date*</span>
+										<input
+											type="date"
+											name="end_date"
+											bind:value={editingCampaign.end_date}
+											required
+											class="field-input"
+										/>
+									</label>
+								</div>
+
+								<label class="field">
+									<span class="field-label">Color*</span>
+									<div class="color-picker-row">
+										<input
+											type="color"
+											name="color"
+											bind:value={editingCampaign.color}
+											required
+											class="color-input"
+										/>
+										<div
+											class="color-preview"
+											style="background-color: {editingCampaign.color}; color: white;"
+										>
+											{editingCampaign.color}
 										</div>
 									</div>
+								</label>
+
+								<button
+									type="button"
+									class="accordion-toggle"
+									onclick={() => (showEditAdditionalDetails = !showEditAdditionalDetails)}
+								>
+									Additional Details
+									<svg
+										class="accordion-chevron"
+										class:open={showEditAdditionalDetails}
+										xmlns="http://www.w3.org/2000/svg"
+										width="14"
+										height="14"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<path d="m6 9 6 6 6-6" />
+									</svg>
+								</button>
+
+								{#if showEditAdditionalDetails}
+									<div class="additional-fields" transition:slide>
+										<label class="field">
+											<span class="field-label">Target Audience</span>
+											<textarea
+												name="target_audience"
+												bind:value={editingCampaign.target_audience}
+												class="field-input field-textarea"
+												placeholder="Who is this campaign targeting?"
+												rows="2"
+											></textarea>
+										</label>
+										<label class="field">
+											<span class="field-label">Themes and Topics</span>
+											<textarea
+												name="themes_and_topics"
+												bind:value={editingCampaign.themes_and_topics}
+												class="field-input field-textarea"
+												placeholder="Key themes and topics"
+												rows="2"
+											></textarea>
+										</label>
+										<label class="field">
+											<span class="field-label">Target Hashtags</span>
+											<input
+												type="text"
+												name="target_hashtags"
+												bind:value={editingCampaign.target_hashtags}
+												class="field-input"
+												placeholder="#relevant #industry #hashtags"
+											/>
+										</label>
+										<label class="field">
+											<span class="field-label">Campaign Hashtags</span>
+											<input
+												type="text"
+												name="campaign_hashtags"
+												bind:value={editingCampaign.campaign_hashtags}
+												class="field-input"
+												placeholder="#OurCampaign #UniqueTag"
+											/>
+										</label>
+										<label class="field">
+											<span class="field-label">Promotion Accounts</span>
+											<input
+												type="text"
+												name="campaign_promotion_accounts"
+												bind:value={editingCampaign.campaign_promotion_accounts}
+												class="field-input"
+												placeholder="@ourcompany @influencer"
+											/>
+										</label>
+									</div>
+								{/if}
+
+								<button
+									type="submit"
+									class="btn btn-primary"
+									disabled={isSubmitting}
+									style="width: 100%;"
+								>
+									{#if isSubmitting}
+										<span class="spinner"></span> Saving...
+									{:else}
+										Save Changes
+									{/if}
+								</button>
+							</form>
+						{:else}
+							<div class="card-body">
+								<div class="card-title-row">
+									<h5 class="card-title">{campaign.name}</h5>
+									<span class="badge {getCampaignStatus(campaign).cls}"
+										>{getCampaignStatus(campaign).status}</span
+									>
 								</div>
-							</Button>
-						{/each}
+
+								<div class="card-description">
+									{#if campaign.description}
+										<p>
+											{campaign.description.length > 100
+												? `${campaign.description.substring(0, 100)}...`
+												: campaign.description}
+										</p>
+									{:else}
+										<p class="no-description">No description provided</p>
+									{/if}
+								</div>
+
+								<div class="card-dates">
+									<span>📅 {formatDate(campaign.start_date)} - {formatDate(campaign.end_date)}</span
+									>
+								</div>
+
+								<div class="days-remaining">
+									<span class="badge badge-full {getDaysRemaining(campaign).cls}"
+										>{getDaysRemaining(campaign).text}</span
+									>
+								</div>
+
+								{#if campaign.themes_and_topics}
+									<div class="card-themes">
+										<span class="themes-label">Themes:</span>
+										<div class="themes-list">
+											{#each campaign.themes_and_topics.split(',').slice(0, 3) as theme}
+												<span class="theme-tag">{theme.trim()}</span>
+											{/each}
+											{#if campaign.themes_and_topics.split(',').length > 3}
+												<span class="theme-tag" title={campaign.themes_and_topics}>
+													+{campaign.themes_and_topics.split(',').length - 3} more
+												</span>
+											{/if}
+										</div>
+									</div>
+								{/if}
+
+								{#if campaign.campaign_hashtags}
+									<div class="card-hashtags">
+										<span class="themes-label">Campaign Hashtags:</span>
+										<span class="hashtags-value">{campaign.campaign_hashtags}</span>
+									</div>
+								{/if}
+
+								<div class="card-actions">
+									<button class="btn btn-secondary btn-xs" onclick={() => startEditing(campaign)}>
+										<svg
+											width="14"
+											height="14"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+											></path>
+										</svg>
+										Edit
+									</button>
+									<button
+										class="btn btn-secondary btn-xs"
+										onclick={() => duplicateCampaign(campaign)}
+									>
+										<svg
+											width="14"
+											height="14"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+											></path>
+										</svg>
+										Duplicate
+									</button>
+								</div>
+							</div>
+						{/if}
 					</div>
+				{/each}
+			</div>
+		{/if}
+	{/if}
+
+	<!-- Create Tab -->
+	{#if activeTab === 'create'}
+		<div class="create-panel" id="create-campaign-form">
+			<h2 class="create-title">Create New Campaign</h2>
+
+			<div class="template-section">
+				<h3 class="template-heading">Start with a template:</h3>
+				<div class="template-grid">
+					{#each campaignTemplates as template, index}
+						<button class="template-btn" onclick={() => applyTemplate(index)}>
+							<div class="template-icon">
+								{#if index === 0}
+									<svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+										><path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M13 10V3L4 14h7v7l9-11h-7z"
+										></path></svg
+									>
+								{:else if index === 1}
+									<svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+										><path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+										></path></svg
+									>
+								{:else}
+									<svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+										><path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+										></path></svg
+									>
+								{/if}
+							</div>
+							<div class="template-info">
+								<span class="template-name">{template.name}</span>
+								<span class="template-desc">{template.description}</span>
+							</div>
+						</button>
+					{/each}
+				</div>
+			</div>
+
+			<form onsubmit={handleCampaignCreate} class="create-form">
+				<div class="field-row">
+					<label class="field">
+						<span class="field-label">Campaign Name*</span>
+						<input
+							type="text"
+							name="name"
+							bind:value={newCampaign.name}
+							required
+							placeholder="Enter campaign name"
+							class="field-input"
+						/>
+					</label>
+					<label class="field">
+						<span class="field-label">Color*</span>
+						<div class="color-picker-row">
+							<input
+								type="color"
+								name="color"
+								bind:value={newCampaign.color}
+								required
+								class="color-input"
+							/>
+							<div
+								class="color-preview"
+								style="background-color: {newCampaign.color}; color: white;"
+							>
+								{newCampaign.color}
+							</div>
+						</div>
+					</label>
 				</div>
 
-				<form on:submit={handleCampaignCreate} class="space-y-4">
-					<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-						<div>
-							<Label for="campaign-name" class="mb-2">Campaign Name*</Label>
-							<Input
-								id="campaign-name"
-								type="text"
-								name="name"
-								bind:value={newCampaign.name}
-								required
-								placeholder="Enter campaign name"
-							/>
-						</div>
+				<label class="field">
+					<span class="field-label">Description</span>
+					<textarea
+						name="description"
+						bind:value={newCampaign.description}
+						placeholder="Enter campaign description"
+						rows="3"
+						class="field-input field-textarea"
+					></textarea>
+				</label>
 
-						<div>
-							<Label for="campaign-color" class="mb-2">Color*</Label>
-							<div class="flex items-center space-x-3">
-								<Input
-									id="campaign-color"
-									type="color"
-									name="color"
-									bind:value={newCampaign.color}
-									required
-									class="h-10 w-14"
-								/>
-								<div
-									class="flex h-10 flex-grow items-center justify-center rounded border border-gray-300 text-sm font-medium"
-									style="background-color: {newCampaign.color}; color: white;"
-								>
-									{newCampaign.color}
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div>
-						<Label for="campaign-description" class="mb-2">Description</Label>
-						<Textarea
-							id="campaign-description"
-							name="description"
-							bind:value={newCampaign.description}
-							placeholder="Enter campaign description"
-							rows="3"
+				<div class="field-row">
+					<label class="field">
+						<span class="field-label">Start Date*</span>
+						<input
+							type="date"
+							name="start_date"
+							bind:value={newCampaign.start_date}
+							required
+							class="field-input"
 						/>
-					</div>
+					</label>
+					<label class="field">
+						<span class="field-label">End Date*</span>
+						<input
+							type="date"
+							name="end_date"
+							bind:value={newCampaign.end_date}
+							required
+							class="field-input"
+						/>
+					</label>
+				</div>
 
-					<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-						<div>
-							<Label for="campaign-start-date" class="mb-2">Start Date*</Label>
-							<Input
-								id="campaign-start-date"
-								type="date"
-								name="start_date"
-								bind:value={newCampaign.start_date}
-								required
+				<button
+					type="button"
+					class="accordion-toggle"
+					onclick={() => (showAdditionalDetails = !showAdditionalDetails)}
+				>
+					Additional Campaign Details
+					<svg
+						class="accordion-chevron"
+						class:open={showAdditionalDetails}
+						xmlns="http://www.w3.org/2000/svg"
+						width="14"
+						height="14"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<path d="m6 9 6 6 6-6" />
+					</svg>
+				</button>
+
+				{#if showAdditionalDetails}
+					<div class="additional-fields" transition:slide>
+						<label class="field">
+							<span class="field-label">Target Audience</span>
+							<textarea
+								name="target_audience"
+								bind:value={newCampaign.target_audience}
+								placeholder="Who is this campaign targeting?"
+								rows="2"
+								class="field-input field-textarea"
+							></textarea>
+						</label>
+						<label class="field">
+							<span class="field-label">Themes and Topics</span>
+							<textarea
+								name="themes_and_topics"
+								bind:value={newCampaign.themes_and_topics}
+								placeholder="Key themes and topics for this campaign"
+								rows="2"
+								class="field-input field-textarea"
+							></textarea>
+						</label>
+						<label class="field">
+							<span class="field-label">Target Hashtags</span>
+							<input
+								type="text"
+								name="target_hashtags"
+								bind:value={newCampaign.target_hashtags}
+								placeholder="#relevant #industry #hashtags"
+								class="field-input"
 							/>
-						</div>
-
-						<div>
-							<Label for="campaign-end-date" class="mb-2">End Date*</Label>
-							<Input
-								id="campaign-end-date"
-								type="date"
-								name="end_date"
-								bind:value={newCampaign.end_date}
-								required
+						</label>
+						<label class="field">
+							<span class="field-label">Campaign Hashtags</span>
+							<input
+								type="text"
+								name="campaign_hashtags"
+								bind:value={newCampaign.campaign_hashtags}
+								placeholder="#OurCampaign #UniqueTag"
+								class="field-input"
 							/>
-						</div>
+						</label>
+						<label class="field">
+							<span class="field-label">Promotion Accounts</span>
+							<input
+								type="text"
+								name="campaign_promotion_accounts"
+								bind:value={newCampaign.campaign_promotion_accounts}
+								placeholder="@ourcompany @influencer"
+								class="field-input"
+							/>
+						</label>
 					</div>
+				{/if}
 
-					<Accordion flush class="rounded border">
-						<AccordionItem>
-							<span slot="header" class="text-sm font-medium">Additional Campaign Details</span>
-							<div class="space-y-4 px-2 py-4">
-								<div>
-									<Label for="target-audience" class="mb-2">Target Audience</Label>
-									<Textarea
-										id="target-audience"
-										name="target_audience"
-										bind:value={newCampaign.target_audience}
-										placeholder="Who is this campaign targeting?"
-										rows="2"
-									/>
-								</div>
-
-								<div>
-									<Label for="themes-topics" class="mb-2">Themes and Topics</Label>
-									<Textarea
-										id="themes-topics"
-										name="themes_and_topics"
-										bind:value={newCampaign.themes_and_topics}
-										placeholder="Key themes and topics for this campaign"
-										rows="2"
-									/>
-								</div>
-
-								<div>
-									<Label for="target-hashtags" class="mb-2">Target Hashtags</Label>
-									<Input
-										id="target-hashtags"
-										type="text"
-										name="target_hashtags"
-										bind:value={newCampaign.target_hashtags}
-										placeholder="#relevant #industry #hashtags"
-									/>
-								</div>
-
-								<div>
-									<Label for="campaign-hashtags" class="mb-2">Campaign Hashtags</Label>
-									<Input
-										id="campaign-hashtags"
-										type="text"
-										name="campaign_hashtags"
-										bind:value={newCampaign.campaign_hashtags}
-										placeholder="#OurCampaign #UniqueTag"
-									/>
-								</div>
-
-								<div>
-									<Label for="promotion-accounts" class="mb-2">Promotion Accounts</Label>
-									<Input
-										id="promotion-accounts"
-										type="text"
-										name="campaign_promotion_accounts"
-										bind:value={newCampaign.campaign_promotion_accounts}
-										placeholder="@ourcompany @influencer"
-									/>
-								</div>
-							</div>
-						</AccordionItem>
-					</Accordion>
-
-					<div class="mt-6 flex items-center justify-end space-x-4">
-						<Button type="button" color="alternative" on:click={() => (activeTab = 'list')}>
-							Cancel
-						</Button>
-						<Button type="submit" disabled={isSubmitting}>
-							{#if isSubmitting}
-								<Spinner size="4" class="mr-2" />
-								Creating Campaign...
-							{:else}
-								Create Campaign
-							{/if}
-						</Button>
-					</div>
-				</form>
-			</Card>
-		</TabItem>
-	</Tabs>
+				<div class="form-actions">
+					<button type="button" class="btn btn-secondary" onclick={() => (activeTab = 'list')}
+						>Cancel</button
+					>
+					<button type="submit" class="btn btn-primary" disabled={isSubmitting}>
+						{#if isSubmitting}
+							<span class="spinner"></span> Creating Campaign...
+						{:else}
+							Create Campaign
+						{/if}
+					</button>
+				</div>
+			</form>
+		</div>
+	{/if}
 </div>
+
+<style>
+	.campaign-manager {
+		padding: 0.5rem 0;
+	}
+
+	/* Alerts */
+	.alert {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.75rem 1rem;
+		border-radius: 8px;
+		font-size: 0.875rem;
+		margin-bottom: 1rem;
+	}
+
+	.alert-success {
+		background: rgba(34, 197, 94, 0.1);
+		border: 1px solid rgba(34, 197, 94, 0.3);
+		color: #4ade80;
+	}
+
+	.alert-error {
+		background: rgba(239, 68, 68, 0.1);
+		border: 1px solid rgba(239, 68, 68, 0.3);
+		color: #f87171;
+	}
+
+	.alert-bold {
+		font-weight: 600;
+	}
+
+	.alert-dismiss {
+		margin-left: auto;
+		background: none;
+		border: none;
+		color: inherit;
+		cursor: pointer;
+		padding: 0.25rem;
+		opacity: 0.7;
+	}
+
+	.alert-dismiss:hover {
+		opacity: 1;
+	}
+
+	/* Tab Bar */
+	.tab-bar {
+		display: flex;
+		gap: 0;
+		margin-bottom: 1.5rem;
+		border-bottom: 2px solid var(--void-elevated);
+	}
+
+	.tab-btn {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.75rem 1.25rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: var(--text-secondary);
+		background: none;
+		border: none;
+		border-bottom: 2px solid transparent;
+		margin-bottom: -2px;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.tab-btn:hover {
+		color: var(--text-primary);
+	}
+
+	.tab-btn.active {
+		color: var(--shadow-monarch);
+		border-bottom-color: var(--shadow-monarch);
+	}
+
+	.tab-count {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 20px;
+		padding: 0.125rem 0.5rem;
+		font-size: 0.6875rem;
+		font-weight: 600;
+		border-radius: 9999px;
+		background: var(--void-elevated);
+		color: var(--text-secondary);
+	}
+
+	/* List Toolbar */
+	.list-toolbar {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		gap: 0.75rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.toolbar-filters {
+		display: flex;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+	}
+
+	.filter-select {
+		padding: 0.375rem 2rem 0.375rem 0.75rem;
+		font-size: 0.8125rem;
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
+		appearance: none;
+		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+		background-repeat: no-repeat;
+		background-position: right 0.5rem center;
+		min-width: 140px;
+	}
+
+	.search-wrapper {
+		position: relative;
+	}
+
+	.search-icon {
+		position: absolute;
+		left: 0.625rem;
+		top: 50%;
+		transform: translateY(-50%);
+		color: var(--text-secondary);
+		pointer-events: none;
+	}
+
+	.search-input {
+		padding: 0.375rem 0.75rem 0.375rem 2rem;
+		font-size: 0.8125rem;
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
+		width: 200px;
+	}
+
+	.search-input:focus {
+		outline: none;
+		border-color: var(--shadow-monarch);
+	}
+
+	/* Campaign Grid */
+	.campaign-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+		gap: 1rem;
+	}
+
+	.campaign-card {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		overflow: hidden;
+		transition: box-shadow 0.15s ease;
+	}
+
+	.campaign-card:hover {
+		box-shadow: var(--glow-sm);
+	}
+
+	.card-color-bar {
+		height: 4px;
+		width: 100%;
+	}
+
+	.card-body {
+		padding: 1rem;
+	}
+
+	.card-title-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0.75rem;
+	}
+
+	.card-title {
+		margin: 0;
+		font-size: 1.125rem;
+		font-weight: 700;
+		color: var(--text-primary);
+	}
+
+	.card-description {
+		margin-bottom: 0.75rem;
+	}
+
+	.card-description p {
+		margin: 0;
+		font-size: 0.875rem;
+		color: var(--text-secondary);
+	}
+
+	.no-description {
+		font-style: italic;
+		opacity: 0.6;
+	}
+
+	.card-dates {
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: var(--text-primary);
+		margin-bottom: 0.5rem;
+	}
+
+	.days-remaining {
+		margin-bottom: 0.75rem;
+	}
+
+	.card-themes {
+		margin-bottom: 0.75rem;
+	}
+
+	.themes-label {
+		display: block;
+		font-size: 0.6875rem;
+		font-weight: 500;
+		color: var(--text-secondary);
+		margin-bottom: 0.25rem;
+	}
+
+	.themes-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem;
+	}
+
+	.theme-tag {
+		display: inline-block;
+		padding: 0.125rem 0.5rem;
+		font-size: 0.75rem;
+		border-radius: 9999px;
+		background: var(--void-elevated);
+		color: var(--text-primary);
+	}
+
+	.card-hashtags {
+		margin-bottom: 0.75rem;
+	}
+
+	.hashtags-value {
+		font-size: 0.875rem;
+		color: var(--shadow-monarch);
+	}
+
+	.card-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-top: 0.75rem;
+	}
+
+	/* Badges */
+	.badge {
+		display: inline-block;
+		padding: 0.125rem 0.5rem;
+		font-size: 0.6875rem;
+		font-weight: 600;
+		border-radius: 9999px;
+	}
+
+	.badge-full {
+		width: 100%;
+		text-align: center;
+		padding: 0.25rem 0.5rem;
+	}
+
+	.badge-green {
+		background: rgba(34, 197, 94, 0.15);
+		color: #4ade80;
+	}
+
+	.badge-blue {
+		background: rgba(59, 130, 246, 0.15);
+		color: #60a5fa;
+	}
+
+	.badge-yellow {
+		background: rgba(234, 179, 8, 0.15);
+		color: #facc15;
+	}
+
+	.badge-red {
+		background: rgba(239, 68, 68, 0.15);
+		color: #f87171;
+	}
+
+	.badge-gray {
+		background: var(--void-elevated);
+		color: var(--text-secondary);
+	}
+
+	/* Buttons */
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.375rem;
+		padding: 0.5rem 1rem;
+		font-size: 0.8125rem;
+		font-weight: 500;
+		border-radius: 8px;
+		border: none;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.btn-sm {
+		padding: 0.375rem 0.75rem;
+		font-size: 0.75rem;
+	}
+
+	.btn-xs {
+		padding: 0.25rem 0.5rem;
+		font-size: 0.6875rem;
+	}
+
+	.btn-primary {
+		background: var(--shadow-monarch);
+		color: white;
+	}
+
+	.btn-primary:hover {
+		filter: brightness(1.1);
+		box-shadow: var(--glow-sm);
+	}
+
+	.btn-primary:disabled {
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
+
+	.btn-secondary {
+		background: var(--void-elevated);
+		color: var(--text-primary);
+	}
+
+	.btn-secondary:hover {
+		background: var(--void-highlight);
+	}
+
+	.btn-danger {
+		background: #ef4444;
+		color: white;
+	}
+
+	.btn-danger:hover {
+		background: #dc2626;
+	}
+
+	/* Spinner */
+	.spinner {
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		border: 2px solid rgba(255, 255, 255, 0.3);
+		border-top-color: white;
+		border-radius: 50%;
+		animation: spin 0.6s linear infinite;
+	}
+
+	@keyframes spin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	/* Edit Form */
+	.edit-form {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		padding: 1rem;
+	}
+
+	.edit-form-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0.5rem;
+	}
+
+	.edit-form-header h3 {
+		margin: 0;
+		font-size: 1rem;
+		font-weight: 700;
+		color: var(--text-primary);
+	}
+
+	/* Fields */
+	.field {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+		flex: 1;
+	}
+
+	.field-label {
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: var(--text-primary);
+	}
+
+	.field-input {
+		width: 100%;
+		padding: 0.5rem 0.75rem;
+		font-size: 0.875rem;
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
+		transition: border-color 0.15s ease;
+	}
+
+	.field-input:focus {
+		outline: none;
+		border-color: var(--shadow-monarch);
+	}
+
+	.field-textarea {
+		resize: vertical;
+		min-height: 60px;
+	}
+
+	.field-row {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
+
+	.color-picker-row {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.color-input {
+		width: 40px;
+		height: 40px;
+		border: none;
+		border-radius: 8px;
+		cursor: pointer;
+	}
+
+	.color-preview {
+		flex-grow: 1;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 8px;
+		font-size: 0.875rem;
+		font-weight: 500;
+	}
+
+	/* Accordion */
+	.accordion-toggle {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.625rem 0.75rem;
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: var(--text-primary);
+		background: var(--void-elevated);
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		cursor: pointer;
+		width: 100%;
+		text-align: left;
+	}
+
+	.accordion-chevron {
+		margin-left: auto;
+		transition: transform 0.2s ease;
+	}
+
+	.accordion-chevron.open {
+		transform: rotate(180deg);
+	}
+
+	.additional-fields {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		padding: 0.75rem;
+		background: var(--void-deep);
+		border-radius: 8px;
+	}
+
+	/* Create Panel */
+	.create-panel {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		padding: 1.5rem;
+		max-width: 56rem;
+		margin: 0 auto;
+	}
+
+	.create-title {
+		margin: 0 0 1.5rem 0;
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: var(--text-primary);
+		padding-bottom: 1rem;
+		border-bottom: 1px solid var(--void-elevated);
+	}
+
+	.template-section {
+		margin-bottom: 1.5rem;
+	}
+
+	.template-heading {
+		margin: 0 0 0.75rem 0;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: var(--text-secondary);
+	}
+
+	.template-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 0.75rem;
+	}
+
+	.template-btn {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		padding: 0.75rem;
+		text-align: left;
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.template-btn:hover {
+		border-color: var(--shadow-monarch);
+	}
+
+	.template-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		background: rgba(59, 130, 246, 0.1);
+		color: #60a5fa;
+		flex-shrink: 0;
+	}
+
+	.template-info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.template-name {
+		font-size: 0.8125rem;
+		font-weight: 600;
+		color: var(--text-primary);
+	}
+
+	.template-desc {
+		font-size: 0.6875rem;
+		color: var(--text-secondary);
+	}
+
+	.create-form {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.form-actions {
+		display: flex;
+		justify-content: flex-end;
+		gap: 0.75rem;
+		margin-top: 0.5rem;
+	}
+
+	/* Empty State */
+	.empty-state {
+		padding: 3rem 2rem;
+		text-align: center;
+		color: var(--text-secondary);
+		border: 1px dashed var(--void-elevated);
+		border-radius: 12px;
+	}
+
+	.empty-state p {
+		margin: 0 0 1rem 0;
+	}
+
+	/* Responsive */
+	@media (max-width: 768px) {
+		.list-toolbar {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.toolbar-filters {
+			flex-direction: column;
+			width: 100%;
+		}
+
+		.search-input {
+			width: 100%;
+		}
+
+		.campaign-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.field-row {
+			grid-template-columns: 1fr;
+		}
+
+		.template-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

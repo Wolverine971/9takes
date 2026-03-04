@@ -1,18 +1,31 @@
 <!-- src/lib/components/marketing/CreateContent.svelte -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import { Button, Input, Label, Textarea, Select } from 'flowbite-svelte';
 	import type { Campaign, Template } from '$lib/types/marketing';
-	import { createEventDispatcher } from 'svelte';
 	import { invalidateAll } from '$app/navigation';
 
-	export let campaigns: Campaign[];
-	export let templates: Template[];
-	export let initialDate: Date | null = null;
+	let {
+		campaigns,
+		templates,
+		initialDate = null,
+		oncontentCreated,
+		oncancel
+	}: {
+		campaigns: Campaign[];
+		templates: Template[];
+		initialDate?: Date | null;
+		oncontentCreated?: (data: any) => void;
+		oncancel?: () => void;
+	} = $props();
 
-	const dispatch = createEventDispatcher();
-
-	let selectedTemplate: Template | null = null;
+	let selectedTemplate: Template | null = $state(null);
+	let content_text = $state('');
+	let scheduled_date = $state(initialDate ? formatDateForInput(initialDate) : '');
+	let platform = $state('twitter');
+	let campaign_id = $state('');
+	let content_promotion_accounts = $state('');
+	let content_hashtags = $state('');
+	let content_themes = $state('');
 
 	function handleTemplateSelection(event: Event) {
 		const templateId = (event.target as HTMLSelectElement).value;
@@ -22,16 +35,8 @@
 		}
 	}
 
-	let content_text = '';
-	let scheduled_date = initialDate ? formatDateForInput(initialDate) : '';
-	let platform = 'twitter';
-	let campaign_id = '';
-	let content_promotion_accounts = '';
-	let content_hashtags = '';
-	let content_themes = '';
-
 	function formatDateForInput(date: Date): string {
-		return date.toISOString().slice(0, 16); // Format: "YYYY-MM-DDTHH:mm"
+		return date.toISOString().slice(0, 16);
 	}
 
 	function resetForm() {
@@ -44,10 +49,6 @@
 		content_themes = '';
 		selectedTemplate = null;
 	}
-
-	function handleCancel() {
-		dispatch('cancel');
-	}
 </script>
 
 <form
@@ -56,93 +57,196 @@
 	use:enhance={() => {
 		return ({ result }) => {
 			if (result.type === 'success') {
-				dispatch('contentCreated', result.data);
+				oncontentCreated?.(result.data);
 				resetForm();
 				invalidateAll();
 			}
 		};
 	}}
-	class="mx-auto max-w-4xl space-y-6 p-4"
+	class="create-content-form"
 >
-	<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-		<div class="space-y-4">
-			<Label class="block">
-				<span class="mb-1 text-sm font-medium text-gray-700">Select Template</span>
-				<Select on:change={handleTemplateSelection} class="w-full">
+	<div class="form-grid">
+		<div class="form-column">
+			<label class="field">
+				<span class="field-label">Select Template</span>
+				<select onchange={handleTemplateSelection} class="field-input">
 					<option value="">No Template</option>
 					{#each templates as template}
 						<option value={template.id}>{template.type} - {template.purpose_description}</option>
 					{/each}
-				</Select>
-			</Label>
+				</select>
+			</label>
 
-			<Label class="block">
-				<span class="mb-1 text-sm font-medium text-gray-700">Scheduled Date</span>
-				<Input
+			<label class="field">
+				<span class="field-label">Scheduled Date</span>
+				<input
 					type="datetime-local"
 					name="scheduled_date"
 					bind:value={scheduled_date}
 					required
-					class="w-full"
+					class="field-input"
 				/>
-			</Label>
+			</label>
 
-			<Label class="block">
-				<span class="mb-1 text-sm font-medium text-gray-700">Platform</span>
-				<Select name="platform" bind:value={platform} required class="w-full">
+			<label class="field">
+				<span class="field-label">Platform</span>
+				<select name="platform" bind:value={platform} required class="field-input">
 					<option value="twitter">Twitter</option>
 					<option value="instagram">Instagram</option>
 					<option value="linkedin">LinkedIn</option>
-				</Select>
-			</Label>
+				</select>
+			</label>
 
-			<Label class="block">
-				<span class="mb-1 text-sm font-medium text-gray-700">Campaign</span>
-				<Select name="campaign_id" bind:value={campaign_id} class="w-full">
+			<label class="field">
+				<span class="field-label">Campaign</span>
+				<select name="campaign_id" bind:value={campaign_id} class="field-input">
 					<option value="">No Campaign</option>
 					{#each campaigns as campaign}
 						<option value={campaign.id}>{campaign.name}</option>
 					{/each}
-				</Select>
-			</Label>
+				</select>
+			</label>
 		</div>
 
-		<div class="space-y-4">
-			<Label class="block">
-				<span class="mb-1 text-sm font-medium text-gray-700">Content Promotion Accounts</span>
-				<Input
+		<div class="form-column">
+			<label class="field">
+				<span class="field-label">Content Promotion Accounts</span>
+				<input
 					type="text"
 					name="content_promotion_accounts"
 					bind:value={content_promotion_accounts}
-					class="w-full"
+					class="field-input"
 				/>
-			</Label>
+			</label>
 
-			<Label class="block">
-				<span class="mb-1 text-sm font-medium text-gray-700">Content Hashtags</span>
-				<Input type="text" name="content_hashtags" bind:value={content_hashtags} class="w-full" />
-			</Label>
+			<label class="field">
+				<span class="field-label">Content Hashtags</span>
+				<input
+					type="text"
+					name="content_hashtags"
+					bind:value={content_hashtags}
+					class="field-input"
+				/>
+			</label>
 
-			<Label class="block">
-				<span class="mb-1 text-sm font-medium text-gray-700">Content Themes</span>
-				<Input type="text" name="content_themes" bind:value={content_themes} class="w-full" />
-			</Label>
+			<label class="field">
+				<span class="field-label">Content Themes</span>
+				<input type="text" name="content_themes" bind:value={content_themes} class="field-input" />
+			</label>
 		</div>
 	</div>
 
-	<Label class="block">
-		<span class="mb-1 text-sm font-medium text-gray-700">Content Text</span>
-		<Textarea
+	<label class="field">
+		<span class="field-label">Content Text</span>
+		<textarea
 			name="content_text"
 			bind:value={content_text}
 			required
 			rows="8"
-			class="w-full resize-y"
-		/>
-	</Label>
+			class="field-input field-textarea"
+		></textarea>
+	</label>
 
-	<div class="flex justify-end space-x-4">
-		<Button type="submit" class="px-6 py-2">Create Content</Button>
-		<Button color="alternative" on:click={handleCancel} class="px-6 py-2">Cancel</Button>
+	<div class="form-actions">
+		<button type="submit" class="btn btn-primary">Create Content</button>
+		<button type="button" class="btn btn-secondary" onclick={() => oncancel?.()}>Cancel</button>
 	</div>
 </form>
+
+<style>
+	.create-content-form {
+		max-width: 56rem;
+		margin: 0 auto;
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.form-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1.5rem;
+	}
+
+	.form-column {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.field {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+	}
+
+	.field-label {
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: var(--text-primary);
+	}
+
+	.field-input {
+		width: 100%;
+		padding: 0.5rem 0.75rem;
+		font-size: 0.875rem;
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
+		transition: border-color 0.15s ease;
+	}
+
+	.field-input:focus {
+		outline: none;
+		border-color: var(--shadow-monarch);
+		box-shadow: 0 0 0 2px rgba(var(--shadow-monarch-rgb, 99, 102, 241), 0.15);
+	}
+
+	.field-textarea {
+		resize: vertical;
+		min-height: 120px;
+	}
+
+	.form-actions {
+		display: flex;
+		justify-content: flex-end;
+		gap: 1rem;
+	}
+
+	.btn {
+		padding: 0.5rem 1.5rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		border-radius: 8px;
+		border: none;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.btn-primary {
+		background: var(--shadow-monarch);
+		color: white;
+	}
+
+	.btn-primary:hover {
+		filter: brightness(1.1);
+		box-shadow: var(--glow-sm);
+	}
+
+	.btn-secondary {
+		background: var(--void-elevated);
+		color: var(--text-primary);
+	}
+
+	.btn-secondary:hover {
+		background: var(--void-highlight);
+	}
+
+	@media (max-width: 768px) {
+		.form-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

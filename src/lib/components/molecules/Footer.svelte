@@ -144,7 +144,7 @@
 		margin-top: 4rem;
 		width: 100%;
 		border-top: 1px solid rgba(100, 116, 139, 0.2);
-		background: #0a0a0f;
+		background: var(--void-abyss);
 	}
 
 	.footer-container {
@@ -180,13 +180,13 @@
 	.brand-name {
 		font-size: 1.25rem;
 		font-weight: 700;
-		color: #f1f5f9;
+		color: var(--text-primary);
 	}
 
 	.brand-description {
 		font-size: 0.875rem;
 		line-height: 1.6;
-		color: #64748b;
+		color: var(--text-tertiary);
 		margin-bottom: 1.5rem;
 	}
 
@@ -201,7 +201,7 @@
 		justify-content: center;
 		width: 2.5rem;
 		height: 2.5rem;
-		background: #1a1a2e;
+		background: var(--void-surface);
 		border: 1px solid rgba(100, 116, 139, 0.3);
 		border-radius: 0.5rem;
 		transition: all 0.2s ease;
@@ -238,7 +238,7 @@
 			font-weight: 600;
 			text-transform: uppercase;
 			letter-spacing: 0.1em;
-			color: #94a3b8;
+			color: var(--text-secondary);
 			margin-bottom: 1rem;
 		}
 
@@ -262,13 +262,13 @@
 
 		a {
 			font-size: 0.875rem;
-			color: #64748b;
+			color: var(--text-tertiary);
 			text-decoration: none;
 			transition: color 0.2s ease;
 
 			&:hover,
 			&.active {
-				color: #a78bfa;
+				color: var(--shadow-monarch-lighter);
 			}
 
 			&::after {
@@ -280,7 +280,7 @@
 	.connect-section {
 		p {
 			font-size: 0.8125rem;
-			color: #64748b;
+			color: var(--text-tertiary);
 			line-height: 1.5;
 			margin-bottom: 1rem;
 		}
@@ -292,7 +292,7 @@
 		gap: 0.25rem;
 		font-size: 0.875rem;
 		font-weight: 500;
-		color: #7c3aed;
+		color: var(--shadow-monarch);
 		text-decoration: none;
 		transition: color 0.2s ease;
 
@@ -302,7 +302,7 @@
 		}
 
 		&:hover {
-			color: #a78bfa;
+			color: var(--shadow-monarch-lighter);
 		}
 
 		&::after {
@@ -319,7 +319,7 @@
 
 		p {
 			font-size: 0.8125rem;
-			color: #475569;
+			color: var(--text-muted);
 			margin: 0;
 		}
 	}
@@ -470,7 +470,7 @@
 
 	/* Focus states */
 	a:focus-visible {
-		outline: 2px solid #a78bfa;
+		outline: 2px solid var(--shadow-monarch-lighter);
 		outline-offset: 2px;
 	}
 </style>

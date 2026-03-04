@@ -104,7 +104,7 @@
 
 <style lang="scss">
 	.comment-card {
-		background-color: #1a1a2e;
+		background-color: var(--void-surface);
 		border: 1px solid rgba(100, 116, 139, 0.2);
 		border-radius: 12px;
 		padding: 0.5rem;
@@ -135,7 +135,7 @@
 		align-items: center;
 		gap: 0.25rem;
 		font-size: 0.8rem;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		padding: 0.25rem 1rem;
 	}
 
@@ -160,7 +160,7 @@
 		justify-content: center;
 		min-width: 90px;
 		height: 36px;
-		background: linear-gradient(145deg, #7c3aed, #6d28d9);
+		background: linear-gradient(145deg, var(--shadow-monarch), var(--shadow-monarch-dark));
 		color: #ffffff;
 		font-weight: 600;
 		font-size: 0.875rem;
@@ -193,7 +193,7 @@
 	.comment-text {
 		display: block;
 		line-height: 1.5;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		white-space: pre-line;
 	}
 
@@ -223,10 +223,10 @@
 		gap: 0.5rem;
 		width: 100%;
 		padding: 0.75rem;
-		background: #252538;
+		background: var(--void-elevated);
 		border: none;
 		border-top: 1px solid rgba(100, 116, 139, 0.2);
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		font-size: 0.9rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
@@ -234,13 +234,13 @@
 
 		&:hover {
 			background: rgba(124, 58, 237, 0.15);
-			color: #f1f5f9;
+			color: var(--text-primary);
 		}
 
 		:global(.icon) {
 			width: 1.25rem;
 			height: 1.25rem;
-			fill: #94a3b8;
+			fill: var(--text-secondary);
 		}
 	}
 
@@ -249,7 +249,7 @@
 		height: 1.25rem;
 		border: 3px solid rgba(124, 58, 237, 0.3);
 		border-radius: 50%;
-		border-top: 3px solid #7c3aed;
+		border-top: 3px solid var(--shadow-monarch);
 		animation: spin 0.8s linear infinite;
 	}
 

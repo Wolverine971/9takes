@@ -168,7 +168,7 @@
 			transition: all 0.3s ease;
 
 			&:hover {
-				color: #c4b5fd;
+				color: var(--shadow-monarch-lightest);
 				text-decoration: underline;
 			}
 		}

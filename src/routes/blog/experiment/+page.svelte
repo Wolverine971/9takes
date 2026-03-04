@@ -705,7 +705,7 @@
 
 	.chip-shame {
 		background-color: rgba(124, 58, 237, 0.15);
-		color: #c4b5fd;
+		color: var(--shadow-monarch-lightest);
 		border: 1px solid rgba(124, 58, 237, 0.3);
 	}
 

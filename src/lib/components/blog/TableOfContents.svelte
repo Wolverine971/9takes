@@ -661,7 +661,7 @@
 <style lang="scss">
 	.toc-sidebar {
 		/* Card base styles - Solo Leveling dark theme */
-		background-color: #12121a;
+		background-color: var(--void-deep);
 		border-radius: 12px;
 		box-shadow: 0 0 20px rgba(124, 58, 237, 0.15);
 		border: 1px solid rgba(100, 116, 139, 0.3);
@@ -707,13 +707,13 @@
 		padding: 0 0 0.35rem 0;
 		font-size: 1rem;
 		font-weight: 600;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
 	}
 
 	.toc-accordion {
 		/* Card base styles - Solo Leveling dark theme */
-		background-color: #12121a;
+		background-color: var(--void-deep);
 		border-radius: 12px;
 		box-shadow: 0 0 15px rgba(124, 58, 237, 0.1);
 		border: 1px solid rgba(100, 116, 139, 0.3);
@@ -730,8 +730,8 @@
 		display: flex;
 		align-items: center;
 		outline: none;
-		color: #f1f5f9;
-		background-color: #1a1a2e;
+		color: var(--text-primary);
+		background-color: var(--void-surface);
 		transition: all 0.2s ease;
 		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
 
@@ -745,11 +745,11 @@
 			margin-right: 0.5rem;
 			font-size: 0.75rem;
 			transition: all 0.2s ease;
-			color: #7c3aed;
+			color: var(--shadow-monarch);
 		}
 
 		&:hover {
-			color: #a78bfa;
+			color: var(--shadow-monarch-lighter);
 			background-color: rgba(124, 58, 237, 0.1);
 		}
 	}
@@ -761,7 +761,7 @@
 
 	.toc-accordion-content {
 		padding: 0.625rem 1rem;
-		background-color: #12121a;
+		background-color: var(--void-deep);
 	}
 
 	/* Global styles for ToC elements */
@@ -847,13 +847,13 @@
 		box-sizing: border-box;
 		font-size: 0.875rem;
 		line-height: 1.4;
-		color: #a78bfa;
+		color: var(--shadow-monarch-lighter);
 		text-decoration: none;
 		border-radius: 4px;
 		transition: all 0.2s ease;
 
 		&:hover {
-			color: #c4b5fd;
+			color: var(--shadow-monarch-lightest);
 			background-color: rgba(124, 58, 237, 0.15);
 			text-decoration: none;
 		}
@@ -867,7 +867,7 @@
 
 	:global(.toc-link.active) {
 		font-weight: 600;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		background-color: rgba(124, 58, 237, 0.2);
 	}
 
